@@ -12,7 +12,7 @@ def main():
     project_list = github_list.result()
 
     # # get content of github README.md contect and save to hugo file
-    hugo_workdir = os.path.abspath("./content/posts/") 
+    hugo_workdir = os.path.abspath("./") 
 
     img_list = imgurl_list()
     github_content = GithubContent(hugo_workdir)

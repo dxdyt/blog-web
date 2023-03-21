@@ -23,7 +23,7 @@ class SaveToMD:
         markdown_text += content
 
         # 将字符串写入 Markdown 文件
-        full_filename = self.workdir + "content/posts/" + filename + ".md"
+        full_filename = self.workdir + "/content/posts/" + filename + ".md"
         with open(full_filename, "w") as f:
             f.write(markdown_text)
             
