@@ -3,13 +3,12 @@
 
 name: Content
 
-workflow_dispatch:
-
 on:
   push:
     branches: [ "main" ]
   schedule:
     - cron: '0 4 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
