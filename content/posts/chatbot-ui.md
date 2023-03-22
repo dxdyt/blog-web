@@ -1,9 +1,9 @@
 ---
 title: chatbot-ui
-date: 2023-03-22T15:47:32+08:00
+date: 2023-03-22T16:03:30+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11897/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11897/0/1080p
 ---
 
 # [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)

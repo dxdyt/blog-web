@@ -1,9 +1,9 @@
 ---
 title: chatgpt-vercel
-date: 2023-03-22T15:46:32+08:00
+date: 2023-03-22T16:02:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11907/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11907/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11919/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11919/0/1080p
 ---
 
 # [ourongxing/chatgpt-vercel](https://github.com/ourongxing/chatgpt-vercel)

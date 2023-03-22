@@ -1,9 +1,9 @@
 ---
 title: shell_gpt
-date: 2023-03-22T15:48:26+08:00
+date: 2023-03-22T16:04:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11911/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11915/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
 ---
 
 # [TheR1D/shell_gpt](https://github.com/TheR1D/shell_gpt)

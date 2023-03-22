@@ -1,9 +1,9 @@
 ---
 title: 1Panel
-date: 2023-03-22T15:47:22+08:00
+date: 2023-03-22T16:03:23+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11925/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11925/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11921/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)

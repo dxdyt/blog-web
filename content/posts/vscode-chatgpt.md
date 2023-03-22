@@ -1,9 +1,9 @@
 ---
 title: vscode-chatgpt
-date: 2023-03-22T15:45:56+08:00
+date: 2023-03-22T16:02:01+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11903/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11903/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11897/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11897/0/1080p
 ---
 
 # [gencay/vscode-chatgpt](https://github.com/gencay/vscode-chatgpt)

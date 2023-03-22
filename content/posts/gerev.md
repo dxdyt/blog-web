@@ -1,9 +1,9 @@
 ---
 title: gerev
-date: 2023-03-22T15:48:08+08:00
+date: 2023-03-22T16:04:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11905/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11905/0/1080p
 ---
 
 # [GerevAI/gerev](https://github.com/GerevAI/gerev)

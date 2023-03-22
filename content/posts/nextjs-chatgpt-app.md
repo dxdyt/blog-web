@@ -1,9 +1,9 @@
 ---
 title: nextjs-chatgpt-app
-date: 2023-03-22T15:48:38+08:00
+date: 2023-03-22T16:04:37+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11915/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11919/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11919/0/1080p
 ---
 
 # [enricoros/nextjs-chatgpt-app](https://github.com/enricoros/nextjs-chatgpt-app)
