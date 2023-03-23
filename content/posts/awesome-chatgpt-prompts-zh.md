@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts-zh
-date: 2023-03-22T16:03:05+08:00
+date: 2023-03-23T12:17:28+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11923/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11923/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
 ---
 
 # [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)

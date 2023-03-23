@@ -1,22 +1,22 @@
 ---
 title: gerev
-date: 2023-03-22T16:04:06+08:00
+date: 2023-03-23T12:16:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11905/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11905/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
 ---
 
 # [GerevAI/gerev](https://github.com/GerevAI/gerev)
 
 ![first image](./images/api.gif)
-Find any conversation, doc, or internal page in seconds  ⏲️⚡️  
+**Find any conversation, doc, or internal page in seconds**  ⏲️⚡️  
 **Join 100+** devs by hosting your own gerev instance, become a **hero** within your org! 💪
 
 ## Join Discord for early access code!
 
 ![Discord Shield](https://discordapp.com/api/guilds/1060085859497549844/widget.png?style=shield)  
 
-   [Join here!](https://discord.gg/zZZrUBZd)
+   [Join here!](https://discord.gg/aMRRcmhAdW)
 # Search focused on devs
 Devs are the best early adopters, they adopt technology early and aid in spreading it to their non-technical peers. That's why gerev is focused on making a product dev's adore and love    ❤️
 
@@ -34,12 +34,15 @@ Coming Soon...
  - [x] Slack
  - [x] Confluence
  - [x] Google Drive (Docs, .docx, .pptx)
- - [x] Bookstack
+ - [X] Confluence Cloud - by [@bryan-pakulski](https://github.com/bryan-pakulski) :pray: 
+ - [X] Bookstack - by [@flifloo](https://github.com/flifloo) :pray:
  - [ ] RocketChat (in PR)
  - [ ] Gitlab Issues (In PR)
  - [ ] Notion (In Progress...)
  - [ ] Microsoft Teams
  - [ ] Sharepoint
+ 
+:pray:  - by the community 
  
 
 ## Natural Langauge
@@ -81,20 +84,11 @@ docker run -p 80:80 -v ~/.gerev/storage:/opt/storage gerev/gerev
 ```
 
 ## Run from source 
-Run the backend:
-```bash
-cd app
-pip install -r requirements.txt
-uvicorn main:app
-```
-
-Run the UI:
-```bash
-npm install
-npm start
-```
----
+See CONTRIBUTING.md
+  
+  
 - **gerev is also popular with some big names. 😉**  
 
+---  
 
 ![first image](./images/bill.png)

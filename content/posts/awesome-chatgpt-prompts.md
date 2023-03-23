@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts
-date: 2023-03-22T16:04:13+08:00
+date: 2023-03-23T12:18:08+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11913/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11913/0/1080p
 ---
 
 # [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)

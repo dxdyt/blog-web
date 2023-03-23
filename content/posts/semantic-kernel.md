@@ -1,9 +1,9 @@
 ---
 title: semantic-kernel
-date: 2023-03-22T16:02:09+08:00
+date: 2023-03-23T12:18:16+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11899/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11899/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11907/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11907/0/1080p
 ---
 
 # [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
