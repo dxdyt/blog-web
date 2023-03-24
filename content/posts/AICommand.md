@@ -1,9 +1,9 @@
 ---
 title: AICommand
-date: 2023-03-23T12:16:58+08:00
+date: 2023-03-24T12:17:12+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11907/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11907/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 ---
 
 # [keijiro/AICommand](https://github.com/keijiro/AICommand)

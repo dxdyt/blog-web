@@ -1,9 +1,9 @@
 ---
 title: bloop
-date: 2023-03-23T12:16:17+08:00
+date: 2023-03-24T12:19:23+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11905/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11905/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11907/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11907/0/1080p
 ---
 
 # [BloopAI/bloop](https://github.com/BloopAI/bloop)
@@ -38,6 +38,8 @@ For instructions on how to build from source or run bloop from the command line,
 - [Run bloop from the command line](./server/README.md)
 
 Note that it is currently _not_ possible to run conversational GPT-4 search where bloop has been built from source (we're working on this). You can run regex searches and use code-navigation.
+
+If you encounter any index issues you can wipe the bloop cache and reindex. Instructions on how to do this on different platforms [are here](./apps/desktop/README.md).
 
 ## Contributing
 

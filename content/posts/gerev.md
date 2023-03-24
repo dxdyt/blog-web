@@ -1,9 +1,9 @@
 ---
 title: gerev
-date: 2023-03-23T12:16:26+08:00
+date: 2023-03-24T12:17:03+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11925/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11925/0/1080p
 ---
 
 # [GerevAI/gerev](https://github.com/GerevAI/gerev)
@@ -36,11 +36,14 @@ Coming Soon...
  - [x] Google Drive (Docs, .docx, .pptx)
  - [X] Confluence Cloud - by [@bryan-pakulski](https://github.com/bryan-pakulski) :pray: 
  - [X] Bookstack - by [@flifloo](https://github.com/flifloo) :pray:
- - [ ] RocketChat (in PR)
- - [ ] Gitlab Issues (In PR)
- - [ ] Notion (In Progress...)
+ - [ ] RocketChat (in PR :pray:)
+ - [ ] Gitlab Issues (In PR :pray:)
+ - [ ] Mattermost (In PR: :pray:)
+ - [ ] Zendesk (In PR :pray:)
+ - [ ] Notion (In Progress... :pray:)
  - [ ] Microsoft Teams
  - [ ] Sharepoint
+ - [ ] Jira
  
 :pray:  - by the community 
  

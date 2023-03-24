@@ -1,9 +1,9 @@
 ---
 title: awesome-totally-open-chatgpt
-date: 2023-03-23T12:17:18+08:00
+date: 2023-03-24T12:18:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11933/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11933/0/1080p
 ---
 
 # [nichtdax/awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)

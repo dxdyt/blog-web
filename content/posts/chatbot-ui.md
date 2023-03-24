@@ -1,9 +1,9 @@
 ---
 title: chatbot-ui
-date: 2023-03-23T12:16:50+08:00
+date: 2023-03-24T12:16:30+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11909/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11909/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
 ---
 
 # [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)
@@ -30,14 +30,16 @@ Expect frequent improvements.
 
 **Next up:**
 
-- [ ] More custom model settings
+- [ ] More custom settings
 - [ ] Regenerate & edit responses
-- [ ] Saving via data export
-- [ ] Folders
 - [ ] Prompt templates
 
 **Recent updates:**
 
+- [x] Folders (3/24/23)
+- [x] Search chat content (3/23/23)
+- [x] Stop message generation (3/22/23)
+- [x] Import/Export chats (3/22/23)
 - [x] Custom system prompt (3/21/23)
 - [x] Error handling (3/20/23)
 - [x] GPT-4 support (access required) (3/20/23)

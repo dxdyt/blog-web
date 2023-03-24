@@ -1,9 +1,9 @@
 ---
 title: chatGPTBox
-date: 2023-03-23T12:17:52+08:00
+date: 2023-03-24T12:17:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11899/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11899/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
 ---
 
 # [josStorer/chatGPTBox](https://github.com/josStorer/chatGPTBox)
@@ -82,6 +82,10 @@ English | [简体中文](README_ZH.md)
 [Github-url]: https://github.com/josStorer/chatGPTBox/releases/latest
 
 </div>
+
+## Offline/Self-hosted model is now supported
+
+  See https://github.com/josStorer/selfhostedAI
 
 ## ✨ Features
 
