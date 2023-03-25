@@ -1,9 +1,9 @@
 ---
 title: ChuanhuChatGPT
-date: 2023-03-24T12:16:40+08:00
+date: 2023-03-25T12:17:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11911/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
 ---
 
 # [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT)
@@ -64,7 +64,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
 - 输入框支持换行，按`shift enter`即可。
 - 部署到服务器：将程序最后一句改成`demo.launch(server_name="0.0.0.0", server_port=<你的端口号>)`。
 - 获取公共链接：将程序最后一句改成`demo.launch(share=True)`。注意程序必须在运行，才能通过公共链接访问。
-- 在Hugging Face上使用：建议在右上角 **复制Space** 再使用，这样
+- 在Hugging Face上使用：建议在右上角 **复制Space** 再使用，这样App反应可能会快一点。
 
 
 ## 安装方式
@@ -79,9 +79,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
 
  Hugging Face的优点：免费，无需配置代理，部署容易（甚至不需要电脑）。
 
- Hugging Face的缺点：不支持某些样式。
+ Hugging Face的缺点：不支持某些界面样式。
 
-### 本地部署
+### 手动本地部署
 
 1. **下载本项目**
 
@@ -168,6 +168,17 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
 
 **如果你在安装过程中碰到了问题，请先查看[疑难杂症解决](#疑难杂症解决)部分。**
 
+### 自动更新
+
+你可以通过本项目提供的脚本检测仓库是否有更新，如果有，则拉取最新脚本、安装依赖、重启服务器。此功能支持`Linux`和`macOS`系统。
+
+如果你想运行，只需要运行`run_Linux.sh`或者`run_macOS.command`。如果你还想保持最新版本，只需要定时运行脚本。例如，在crontab中加入下面的内容：
+
+```
+*/20 * * * * /path/to/ChuanhuChatGPT/run_Linux.sh
+```
+就可以每20分钟检查一次脚本更新，如果有更新，则自动拉取并重启服务器。
+
 ### 使用Docker运行
 
 <details><summary>如果觉得以上方法比较麻烦，我们提供了Docker镜像</summary>
@@ -209,14 +220,14 @@ docker build -t chuanhuchatgpt:latest .
 
 <details><summary>如果需要在公网服务器部署本项目，请阅读该部分</summary>
 
-### 部署到公网服务器
+#### 部署到公网服务器
 
 将最后一句修改为
 
 ```
 demo.queue().launch(server_name="0.0.0.0", server_port=7860, share=False) # 可自定义端口
 ```
-### 用账号密码保护页面
+#### 用账号密码保护页面
 
 将最后一句修改为
 
@@ -224,7 +235,7 @@ demo.queue().launch(server_name="0.0.0.0", server_port=7860, share=False) # 可�
 demo.queue().launch(server_name="0.0.0.0", server_port=7860,auth=("在这里填写用户名", "在这里填写密码")) # 可设置用户名与密码
 ```
 
-### 配置 Nginx 反向代理
+#### 配置 Nginx 反向代理
 
 注意：配置反向代理不是必须的。如果需要使用域名，则需要配置 Nginx 反向代理。
 
@@ -271,7 +282,7 @@ map $http_upgrade $connection_upgrade {
 为了同时配置域名访问和身份认证，需要配置SSL的证书，可以参考[这篇博客](https://www.gzblog.tech/2020/12/25/how-to-config-hexo/#%E9%85%8D%E7%BD%AEHTTPS)一键配置
 
 
-### 全程使用Docker 为ChuanhuChatGPT 开启HTTPS
+#### 全程使用Docker 为ChuanhuChatGPT 开启HTTPS
 
 如果你的VPS 80端口与443端口没有被占用，则可以考虑如下的方法，只需要将你的域名提前绑定到你的VPS 的IP即可。此方法由[@iskoldt-X](https://github.com/iskoldt-X) 提供。
 
@@ -319,136 +330,22 @@ docker run -d --name chatgpt \
 
 ## 疑难杂症解决
 
-首先，请先尝试拉取本项目的最新更改，使用最新的代码重试。
+在遇到各种问题查阅相关信息前，您可以先尝试手动拉取本项目的最新更改并更新 gradio，然后重试：
 
-点击网页上的 `Download ZIP` 下载最新代码，或
-```shell
-git pull https://github.com/GaiZhenbiao/ChuanhuChatGPT.git main -f
-```
-
-如果还有问题，可以再尝试重装 gradio:
-
-```
-pip install gradio --upgrade --force-reinstall
-```
+1. 点击网页上的 `Download ZIP` 下载最新代码，或
+   ```shell
+   git pull https://github.com/GaiZhenbiao/ChuanhuChatGPT.git main -f
+   ```
+2. 更新gradio
+   ```
+   pip install gradio --upgrade --force-reinstall
+   ```
 
 很多时候，这样就可以解决问题。
 
-### 常见问题
+如果问题仍然存在，请查阅该页面：[常见问题](https://github.com/GaiZhenbiao/ChuanhuChatGPT/wiki/常见问题)
 
-<details><summary>配置代理</summary>
-
-OpenAI不允许在不受支持的地区使用API，否则可能会导致账号被风控。下面给出代理配置示例：
-
-在Clash配置文件中，加入：
-
-```
-rule-providers:
-  private:
-    type: http
-    behavior: domain
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-    path: ./ruleset/ads.yaml
-    interval: 86400
-
-rules:
- - RULE-SET,private,DIRECT
- - DOMAIN-SUFFIX,openai.com,你的代理规则
-```
-
-如果你使用 Surge，请在配置文件中加入：
-
-```
-[Rule]
-DOMAIN-SET,https://cdn.jsdelivr.net/gh/Loyalsoldier/surge-rules@release/private.txt,DIRECT
-DOMAIN-SUFFIX,openai.com,你的代理规则
-```
-
-另外，强烈建议打开Clash的TUN模式（Surge的增强模式），否则终端流量可能不会走代理。或者，你也可以配置HTTPS_PROXY这个环境变量，川虎ChatGPT会自动从环境变量中获取代理配置。
-
-注意，如果你本来已经有对应的字段，请将这些规则合并到已有字段中，否则代理软件会报错。
-
-</details>
-
-<details><summary><code>TypeError: Base.set () got an unexpected keyword argument</code></summary>
-
-这是因为川虎ChatGPT紧跟Gradio发展步伐，你的Gradio版本太旧了。请升级依赖：
-
-```
-pip install -r requirements.txt --upgrade
-```
-</details>
-
-<details><summary><code>No module named '_bz2'</code></summary>
-
-> 部署在CentOS7.6,Python3.11.0上,最后报错ModuleNotFoundError: No module named '_bz2'
-
-安装python前先下载 `bzip` 编译环境
-
-```
-sudo yum install bzip2-devel
-```
-</details>
-
-<details><summary><code>openai.error.APIConnectionError</code></summary>
-
-> 如果有人也出现了`openai.error.APIConnectionError`提示的报错，那可能是`urllib3`的版本导致的。`urllib3`版本大于`1.25.11`，就会出现这个问题。
->
-> 解决方案是卸载`urllib3`然后重装至`1.25.11`版本再重新运行一遍就可以
-
-参见：[#5](https://github.com/GaiZhenbiao/ChuanhuChatGPT/issues/5)
-
-在终端或命令提示符中卸载`urllib3`
-
-```
-pip uninstall urllib3
-```
-
-然后，通过使用指定版本号的`pip install`命令来安装所需的版本：
-
-```
-pip install urllib3==1.25.11
-```
-
-参考自：
-[解决OpenAI API 挂了代理还是连接不上的问题](https://zhuanlan.zhihu.com/p/611080662)
-</details>
-
-<details><summary><code>在 Python 文件里 设定 API Key 之后验证失败</code></summary>
-
-> 在ChuanhuChatbot.py中设置APIkey后验证出错，提示“发生了未知错误Orz”
-
-参见：[#26](https://github.com/GaiZhenbiao/ChuanhuChatGPT/issues/26)
-</details>
-
-<details><summary><code>一直等待/SSL Error</code></summary>
-
-> 更新脚本文件后，SSLError [#49](https://github.com/GaiZhenbiao/ChuanhuChatGPT/issues/49)
->
-> 跑起来之后，输入问题好像就没反应了，也没报错 [#25](https://github.com/GaiZhenbiao/ChuanhuChatGPT/issues/25)
->
-> ```
-> requests.exceptions.SSLError: HTTPSConnectionPool(host='api.openai.com', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, 'EOF occurred in violation of protocol (_ssl.c:1129)')))
-> ```
-
-请参考配置代理部分，将`openai.com`加入你使用的代理App的代理规则。注意不要将`127.0.0.1`加入代理，否则会有下一个错误。
-
-</details>
-
-<details><summary><code>网页提示错误 Something went wrong</code></summary>
-
-> ```
-> Something went wrong
-> Expecting value: 1ine 1 column 1 (char o)
-> ```
-
-出现这个错误的原因是`127.0.0.1`被代理了，导致网页无法和后端通信。请设置代理软件，将`127.0.0.1`加入直连（具体方法见上面“一直等待/SSL Error”部分）。
-</details>
-
-<details><summary><code>No matching distribution found for openai>=0.27.0</code></summary>
-
-`openai`这个依赖已经被移除了。请尝试下载最新版脚本。
-</details>
+该页面列出了**几乎所有**您可能遇到的各种问题，包括如何配置代理，以及遇到问题后您该采取的措施，**请务必认真阅读**。
 
 ## Starchart
 

@@ -1,9 +1,9 @@
 ---
 title: typst
-date: 2023-03-24T12:17:33+08:00
+date: 2023-03-25T12:17:18+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11917/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11917/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 ---
 
 # [typst/typst](https://github.com/typst/typst)
@@ -27,7 +27,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11917/0/1080p
   </a>
 </p>
 
-Typst is a new markup-based typsetting system that is designed to be as powerful
+Typst is a new markup-based typesetting system that is designed to be as powerful
 as LaTeX while being much easier to learn and use. Typst has:
 
 - Built-in markup for the most common formatting tasks

@@ -1,9 +1,9 @@
 ---
 title: fauxpilot
-date: 2023-03-24T12:18:09+08:00
+date: 2023-03-25T12:17:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11921/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
 ---
 
 # [fauxpilot/fauxpilot](https://github.com/fauxpilot/fauxpilot)

@@ -1,9 +1,9 @@
 ---
 title: gpt4-pdf-chatbot-langchain
-date: 2023-03-24T12:16:46+08:00
+date: 2023-03-25T12:17:56+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11905/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11905/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11917/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11917/0/1080p
 ---
 
 # [mayooear/gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain)

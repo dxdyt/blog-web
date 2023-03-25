@@ -1,9 +1,9 @@
 ---
 title: bloop
-date: 2023-03-24T12:19:23+08:00
+date: 2023-03-25T12:18:11+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11907/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11907/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
 ---
 
 # [BloopAI/bloop](https://github.com/BloopAI/bloop)

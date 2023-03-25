@@ -1,9 +1,9 @@
 ---
 title: Alpaca-LoRA-Serve
-date: 2023-03-24T12:17:18+08:00
+date: 2023-03-25T12:17:12+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11913/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11913/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11917/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11917/0/1080p
 ---
 
 # [deep-diver/Alpaca-LoRA-Serve](https://github.com/deep-diver/Alpaca-LoRA-Serve)
