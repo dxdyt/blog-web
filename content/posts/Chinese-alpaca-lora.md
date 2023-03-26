@@ -1,9 +1,9 @@
 ---
 title: Chinese-alpaca-lora
-date: 2023-03-25T12:16:23+08:00
+date: 2023-03-26T12:15:59+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11919/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11919/0/1080p
 ---
 
 # [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
@@ -26,9 +26,11 @@ We named project in Luotuo(Camel) because both LLaMA and alpaca are all belongs 
 
 ## News
 
+[2023-3-25] Luotuo-1.0 is in training! Thanks for all sponsors!
+
 [2023-3-25] CamelBell([驼铃](https://github.com/LC1332/CamelBell-Chinese-LoRA)), tuning Chinese Data on Chinese based model GLM is now an individual repo. We may move original Luotuo into a new repo also.
 
-[2023-3-24] We've just released CamelBell(驼铃): tuning Chinese LLM with very few data on GLM-6B via LoRA, try [here](https://colab.research.google.com/github/LC1332/CamelBell-Chinese-LoRA/blob/main/notebook/CamelBell_evaluation_code.ipynb) <a href="https://colab.research.google.com/github/LC1332/CamelBell-Chinese-LoRA/blob/main/notebook/CamelBell_evaluation_code.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> , we may create a new repo soon
+[2023-3-24] We've just released [CamelBell(驼铃)](https://github.com/LC1332/CamelBell-Chinese-LoRA): tuning Chinese LLM with very few data on GLM-6B via LoRA, try [here](https://colab.research.google.com/github/LC1332/CamelBell-Chinese-LoRA/blob/main/notebook/CamelBell_evaluation_code.ipynb) <a href="https://colab.research.google.com/github/LC1332/CamelBell-Chinese-LoRA/blob/main/notebook/CamelBell_evaluation_code.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> , we may create a new repo soon
 
 
 
@@ -125,13 +127,14 @@ We plan to upload two different models A and B, because the provider of B claim 
 
 Top 3 Sponsors
 
-| Time      | Sponsor     | Amount | Balance |
-| --- | --- | --- | --- |
-| 2023/3/24 | [yiplee](https://github.com/pandodao/botastic)      | 512    |  | |
-| 2023/3/24 | Hijun       | 500    | | |
-| 2023/3/24 | 倪**       | 500    | | |
+| Time     | Sponsor     | Amount |
+| --- | --- | --- |
+| 2023/3/25 | [肖**]( https://github.com/mobe1978)  | 520 |
+| 2023/3/24 | [yiplee](https://github.com/pandodao/botastic)  | 512 |
+| 2023/3/24 | Hijun       | 500 | 
+| 2023/3/24 | 倪**       | 500 | 
 
-balance = 1706 now. Detailed balance see in [sponsorship_and_balance.md](data/Sponsorship_and_balance.md)
+balance = 2374 now. Detailed balance see in [sponsorship_and_balance.md](data/Sponsorship_and_balance.md)
 
 这原本是我们的一个作业项目，我们原本计划训练到1.0为止。但是社区的热情超过了我们的想象。如果您愿意赞助我们的项目，可以
 
@@ -155,8 +158,8 @@ inbuilding project
 - [X] finetuning with lora(model 0.1)
 - [X] release 0.1 model (model A)
 - [X] model to hugging face, GUI demo
-- [ ] train lora with more alpaca data(model 0.3)
-- [ ] train lora with more alpaca data(model 0.9)
+- [X] train lora with more alpaca data(model 0.3)
+- [ ] (In Processing) train lora with more alpaca data(model 0.9)
 
 We plan to use this Luotuo project as the git repository for the entire Chinese LLM project. After the completion of the original Luotuo: LLaMA-LoRA, it will be migrated to Luotuo-vanilla. The CamelBell, Loulan, Silk-Road and other derivative Chinese language model projects will gradually be added to the Luotuo project.
 

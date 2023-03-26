@@ -1,9 +1,9 @@
 ---
 title: ChatRWKV
-date: 2023-03-25T12:18:19+08:00
+date: 2023-03-26T12:16:34+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
 ---
 
 # [BlinkDL/ChatRWKV](https://github.com/BlinkDL/ChatRWKV)

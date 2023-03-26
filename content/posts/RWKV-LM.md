@@ -1,9 +1,9 @@
 ---
 title: RWKV-LM
-date: 2023-03-25T12:16:05+08:00
+date: 2023-03-26T12:15:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11911/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
 ---
 
 # [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM)

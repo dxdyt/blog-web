@@ -1,9 +1,9 @@
 ---
 title: thumbhash
-date: 2023-03-25T12:17:47+08:00
+date: 2023-03-26T12:18:04+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11913/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11913/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11925/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11925/0/1080p
 ---
 
 # [evanw/thumbhash](https://github.com/evanw/thumbhash)

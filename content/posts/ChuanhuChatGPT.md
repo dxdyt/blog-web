@@ -1,9 +1,9 @@
 ---
 title: ChuanhuChatGPT
-date: 2023-03-25T12:17:32+08:00
+date: 2023-03-26T12:16:53+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11911/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
 ---
 
 # [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT)
@@ -330,13 +330,17 @@ docker run -d --name chatgpt \
 
 ## 疑难杂症解决
 
-在遇到各种问题查阅相关信息前，您可以先尝试手动拉取本项目的最新更改并更新 gradio，然后重试：
+在遇到各种问题查阅相关信息前，您可以先尝试手动拉取本项目的最新更改并更新 gradio，然后重试。步骤为：
 
 1. 点击网页上的 `Download ZIP` 下载最新代码，或
    ```shell
    git pull https://github.com/GaiZhenbiao/ChuanhuChatGPT.git main -f
    ```
-2. 更新gradio
+2. 尝试再次安装依赖（可能本项目引入了新的依赖）
+   ```
+   pip install -r requirements.txt
+   ```
+3. 更新gradio
    ```
    pip install gradio --upgrade --force-reinstall
    ```

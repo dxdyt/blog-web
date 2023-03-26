@@ -1,23 +1,23 @@
 ---
 title: myGPTReader
-date: 2023-03-25T12:15:40+08:00
+date: 2023-03-26T12:17:31+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11907/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11907/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11923/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11923/0/1080p
 ---
 
 # [madawei2699/myGPTReader](https://github.com/madawei2699/myGPTReader)
 
 # myGPTReader
 
-myGPTReader is a slack bot that can read any webpage, ebook or document and summarize it with chatGPT. It can also talk to you via voice using the content in the channel.
+myGPTReader is a slack bot that can read any webpage, ebook, video(YouTube) or document and summarize it with chatGPT. It can also talk to you via voice using the content in the channel.
 
 > The exciting part is that the development of this project is also paired with chatGPT. I document the development process in this [CDDR](docs/chatGPT/CDDR.md) file.
 
 ## Main Features
 
 - Stay updated with the latest news summaries daily with chatGPT.
-- Use chatGPT to read and provide a summary of any webpage, ebook, or document.
+- Use chatGPT to read and provide a summary of any webpage, ebook, video(YouTube), or document.
 - Enjoy customizable prompt templates that use context from previous conversations with chatGPT.
 - Practice speaking languages by conversing with chatGPT using your voice.
 
@@ -63,6 +63,7 @@ Please join this [slack channel](https://slack-redirect.i365.tech/) to experienc
 - Index fine-tune
   - [x] Use the [GPTListIndex](https://github.com/jerryjliu/llama_index/issues/753#issuecomment-1472387421) to summarize multiple URLs
   - [ ] Use the `GPTTreeIndex` with `summarize` mode to summarize a single web page
+    - Use [response_mode](https://gist.github.com/ninehills/ecf7107574c83016e8b68965bf9a51c4) to change the summary mode
 - Bot regularly send hot ~~summarizes(expensive cost)~~ news in the slack channel (`#daily-news`)
   - [x] Use chatGPT to summarize the hot news
   - ~~Refer to [this](https://github.com/SkywalkerDarren/chatWeb/blob/c2ad05a97aecbe1bc0c846476ea003640f2a0f2e/main.py#L144-L175) approach~~
@@ -100,7 +101,7 @@ Please join this [slack channel](https://slack-redirect.i365.tech/) to experienc
     - Japanese
     - German
 - Support video summarization
-  - [ ] YouTube 🚩
+  - [x] YouTube
 - [x] User access limit
   - Limit the number of requests to bot per user per day to save the cost
 - IM Support
@@ -120,6 +121,12 @@ Please join this [slack channel](https://slack-redirect.i365.tech/) to experienc
 - [ ] Documentation
 - Publish bot to make it can be used in other workspaces
   - [ ] Slack marketplace
+
+## Documentation
+
+Currently, if you want to know this repo quickly, you can refer to the following YouTube video:
+
+[![myGPTReader Live Share](http://img.youtube.com/vi/XZIogwFU7jE/0.jpg)](https://www.youtube.com/live/XZIogwFU7jE?feature=share "myGPTReader Live Share")
 
 ## Star History
 

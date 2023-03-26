@@ -1,9 +1,9 @@
 ---
 title: chatbot-ui
-date: 2023-03-25T12:16:14+08:00
+date: 2023-03-26T12:17:17+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11913/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11913/0/1080p
 ---
 
 # [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)
@@ -13,10 +13,6 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
 **Note: Chatbot UI Pro has been renamed to Chatbot UI.**
 
 Chatbot UI is an advanced chatbot kit for OpenAI's chat models built on top of [Chatbot UI Lite](https://github.com/mckaywrigley/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
-
-It aims to mimic ChatGPT's interface and functionality.
-
-All conversations are stored locally on your device.
 
 See a [demo](https://twitter.com/mckaywrigley/status/1636103188733640704).
 
@@ -30,12 +26,14 @@ Expect frequent improvements.
 
 **Next up:**
 
-- [ ] More custom settings
-- [ ] Regenerate & edit responses
+- [ ] More model settings
+- [ ] Custom themes
 - [ ] Prompt templates
+- [ ] Plugins
 
 **Recent updates:**
 
+- [x] Regenerate & edit responses
 - [x] Folders (3/24/23)
 - [x] Search chat content (3/23/23)
 - [x] Stop message generation (3/22/23)
