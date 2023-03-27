@@ -1,9 +1,9 @@
 ---
 title: myGPTReader
-date: 2023-03-26T12:17:31+08:00
+date: 2023-03-27T12:17:17+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11923/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11923/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11945/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11945/0/1080p
 ---
 
 # [madawei2699/myGPTReader](https://github.com/madawei2699/myGPTReader)
@@ -17,9 +17,18 @@ myGPTReader is a slack bot that can read any webpage, ebook, video(YouTube) or d
 ## Main Features
 
 - Stay updated with the latest news summaries daily with chatGPT.
-- Use chatGPT to read and provide a summary of any webpage, ebook, video(YouTube), or document.
+  ![my-gpt-reader-read-hot-news-1-s-min](https://user-images.githubusercontent.com/2446612/227771698-961cf6ee-c28a-44a0-811d-22b28578e8a9.gif)
+- Use chatGPT to read and provide a summary of any webpage include the video(YouTube).
+  ![my-gpt-reader-read-web-page-1](https://user-images.githubusercontent.com/2446612/227771860-1a6182d4-1e12-49a4-9adc-f170a338f1ce.gif)
+  ![](https://img.bmpi.dev/my-gpt-reader-read-web-page-2.gif)
+- Use chatGPT to read and provide a summary of any document include the eBook.
+  ![my-gpt-reader-read-pdf-1-s-min](https://user-images.githubusercontent.com/2446612/227771769-96b3ee60-232f-4992-bf50-c57ff1b0ffe4.gif)
+  ![](https://img.bmpi.dev/my-gpt-reader-read-epub-1.gif)
 - Enjoy customizable prompt templates that use context from previous conversations with chatGPT.
+  ![](https://img.bmpi.dev/my-gpt-reader-prompt-template-1.gif)
 - Practice speaking languages by conversing with chatGPT using your voice.
+  ![](https://img.bmpi.dev/my-gpt-reader-voice-1.gif)
+  ![](https://img.bmpi.dev/my-gpt-reader-voice-2.gif)
 
 Please join this [slack channel](https://slack-redirect.i365.tech/) to experience all these features for free.
 
@@ -118,7 +127,6 @@ Please join this [slack channel](https://slack-redirect.i365.tech/) to experienc
 - [ ] Integrated with Azure OpenAI Service
 - [ ] Rewrite the code in Typescript ❓
 - [ ] Upgrade chat model (gpt-3.5-turbo) to GPT4 (gpt-4-0314) 💥
-- [ ] Documentation
 - Publish bot to make it can be used in other workspaces
   - [ ] Slack marketplace
 
@@ -127,6 +135,10 @@ Please join this [slack channel](https://slack-redirect.i365.tech/) to experienc
 Currently, if you want to know this repo quickly, you can refer to the following YouTube video:
 
 [![myGPTReader Live Share](http://img.youtube.com/vi/XZIogwFU7jE/0.jpg)](https://www.youtube.com/live/XZIogwFU7jE?feature=share "myGPTReader Live Share")
+
+## Post
+
+- [我的AI阅读助手](https://www.bmpi.dev/self/my-gpt-reader/)
 
 ## Star History
 

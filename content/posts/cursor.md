@@ -1,6 +1,6 @@
 ---
 title: cursor
-date: 2023-03-26T12:15:53+08:00
+date: 2023-03-27T12:17:00+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
@@ -13,7 +13,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/getcursor/cursor/blob/main/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]() [![](https://dcbadge.vercel.app/api/server/PJEgRywgRy?style=flat&compact=true)](https://discord.gg/PJEgRywgRy)
 
-**[Cursor](cursor.so) is an editor made for programming with AI.** It's early days, but right now Cursor can help you with a few things...
+**[Cursor](https://cursor.so) is an editor made for programming with AI.** It's early days, but right now Cursor can help you with a few things...
 
 - **Write**: Generate 10-100 lines of code with an AI that's smarter than Copilot
 - **Diff**: Ask the AI to edit a block of code, see only proposed changes
@@ -39,8 +39,6 @@ Long term, our plan is to build Cursor into the world's most productive developm
 - Embed AI-written documentation into the UI 
 - "Heal" your repository when you're halfway through a refactor
 - Allow you to code by editing a "pseudocode" version of your codebase
-
-If you're excited about working on this future, reach out to hiring@cursor.so
 
 ## Development
 

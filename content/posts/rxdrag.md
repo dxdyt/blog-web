@@ -1,9 +1,9 @@
 ---
 title: rxdrag
-date: 2023-03-25T12:16:48+08:00
+date: 2023-03-27T12:19:39+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
 ---
 
 # [codebdy/rxdrag](https://github.com/codebdy/rxdrag)

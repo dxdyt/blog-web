@@ -1,9 +1,9 @@
 ---
 title: serge
-date: 2023-03-26T12:17:00+08:00
+date: 2023-03-27T12:18:18+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11933/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11933/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11913/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11913/0/1080p
 ---
 
 # [nsarrazin/serge](https://github.com/nsarrazin/serge)
@@ -38,6 +38,10 @@ docker compose exec serge python3 /usr/src/app/api/utils/download.py tokenizer 7
 
 Make sure you have docker desktop installed, WSL2 configured and enough free RAM to run models. (see below)
 
+
+#### Kubernetes
+
+Setting up Serge on Kubernetes can be found in the wiki: https://github.com/nsarrazin/serge/wiki/Integrating-Serge-in-your-orchestration#kubernetes-example
 
 ### Using serge
 

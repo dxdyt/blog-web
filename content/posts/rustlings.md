@@ -1,9 +1,9 @@
 ---
 title: rustlings
-date: 2023-03-26T12:16:25+08:00
+date: 2023-03-27T12:18:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11945/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11945/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
 ---
 
 # [rust-lang/rustlings](https://github.com/rust-lang/rustlings)

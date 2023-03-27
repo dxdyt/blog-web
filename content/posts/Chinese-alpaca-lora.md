@@ -1,9 +1,9 @@
 ---
 title: Chinese-alpaca-lora
-date: 2023-03-26T12:15:59+08:00
+date: 2023-03-27T12:19:16+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11919/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11919/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11911/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
 ---
 
 # [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
@@ -12,9 +12,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11919/0/1080p
 
 骆驼(Luotuo) is the Chinese pinyin(pronunciation) of camel
 
-A Chinese finetuned instruction LLaMA. Developed by 冷子昂 @ 商汤科技, 陈启源 @ 华中师范大学(Third year undergraduate student) and 李鲁鲁 @ 商汤科技
+A Chinese finetuned instruction LLaMA. Developed by 冷子昂 @ 商汤科技, 陈启源 @ 华中师范大学(Junior Undergrad.) and 李鲁鲁 @ 商汤科技
 
-(email: chengli@sensetime.com, zaleng@bu.edu, chenqiyuan1012@foxmail.com)
+( Notice: _[陈启源](https://qiyuan-chen.github.io/) is now pursuing a PhD position_)
 
 <p align="center">
   <img src="image/camel_back.png">
@@ -130,11 +130,10 @@ Top 3 Sponsors
 | Time     | Sponsor     | Amount |
 | --- | --- | --- |
 | 2023/3/25 | [肖**]( https://github.com/mobe1978)  | 520 |
+| 2023/3/24 | *潇      | 518    |
 | 2023/3/24 | [yiplee](https://github.com/pandodao/botastic)  | 512 |
-| 2023/3/24 | Hijun       | 500 | 
-| 2023/3/24 | 倪**       | 500 | 
 
-balance = 2374 now. Detailed balance see in [sponsorship_and_balance.md](data/Sponsorship_and_balance.md)
+balance = 3392 now. Detailed balance see in [sponsorship_and_balance.md](data/Sponsorship_and_balance.md)
 
 这原本是我们的一个作业项目，我们原本计划训练到1.0为止。但是社区的热情超过了我们的想象。如果您愿意赞助我们的项目，可以
 
