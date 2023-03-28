@@ -1,9 +1,9 @@
 ---
 title: codealpaca
-date: 2023-03-27T12:17:38+08:00
+date: 2023-03-28T12:18:54+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11921/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
 ---
 
 # [sahil280114/codealpaca](https://github.com/sahil280114/codealpaca)

@@ -1,9 +1,9 @@
 ---
 title: Text2Video-Zero
-date: 2023-03-27T12:19:00+08:00
+date: 2023-03-28T12:19:08+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
 ---
 
 # [Picsart-AI-Research/Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero)

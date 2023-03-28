@@ -1,9 +1,9 @@
 ---
 title: MidJourney-Styles-and-Keywords-Reference
-date: 2023-03-27T12:17:08+08:00
+date: 2023-03-28T12:18:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11911/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11911/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11953/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
 ---
 
 # [willwulfken/MidJourney-Styles-and-Keywords-Reference](https://github.com/willwulfken/MidJourney-Styles-and-Keywords-Reference)

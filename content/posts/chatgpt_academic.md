@@ -1,9 +1,9 @@
 ---
 title: chatgpt_academic
-date: 2023-03-27T12:17:23+08:00
+date: 2023-03-28T12:16:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11947/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11947/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11933/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11933/0/1080p
 ---
 
 # [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)
@@ -13,8 +13,18 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11947/0/1080p
 **如果喜欢这个项目，请给它一个Star；如果你发明了更好用的学术快捷键，欢迎发issue或者pull requests**
 
 If you like this project, please give it a Star. If you've come up with more useful academic shortcuts, feel free to open an issue or pull request.
-<div align="center">
 
+```
+代码中参考了很多其他优秀项目中的设计，主要包括：
+# 借鉴项目1：借鉴了mdtex2html中公式处理的方法
+https://github.com/polarwinkel/mdtex2html
+
+# 借鉴项目2：借鉴了ChuanhuChatGPT中读取json的方法、记录历史问询记录的方法
+https://github.com/GaiZhenbiao/ChuanhuChatGPT
+```
+
+<div align="center">
+    
 功能 | 描述
 --- | ---
 一键润色 | 支持一键润色、一键查找论文语法错误
@@ -36,7 +46,7 @@ chat分析报告生成 | [实验性功能] 运行后自动生成总结汇报
 
 - 新界面
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96192199/227528413-36ab42da-d589-4ef1-ba75-28aa02442d05.png" width="700" >
+<img src="https://user-images.githubusercontent.com/96192199/227851398-fab5a158-aaf6-4151-95ac-a8172ce611c7.png" width="700" >
 </div>
 
 
@@ -46,7 +56,7 @@ chat分析报告生成 | [实验性功能] 运行后自动生成总结汇报
 <img src="img/公式.gif" width="700" >
 </div>
 
-- 代码的显示自然也不在话下 https://www.bilibili.com/video/BV1F24y147PD/
+- 润色/纠错
 <div align="center">
 <img src="img/润色.gif" width="700" >
 </div>
@@ -206,10 +216,4 @@ python check_proxy.py
 </div>
 
 
-## 参考项目
-```
-https://github.com/Python-Markdown/markdown
-https://github.com/gradio-app/gradio
-https://github.com/polarwinkel/mdtex2html
-https://github.com/GaiZhenbiao/ChuanhuChatGPT
-```
+

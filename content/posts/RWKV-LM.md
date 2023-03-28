@@ -1,6 +1,6 @@
 ---
 title: RWKV-LM
-date: 2023-03-26T12:15:45+08:00
+date: 2023-03-28T12:17:20+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p

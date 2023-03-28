@@ -1,9 +1,9 @@
 ---
 title: learn-cantrill-io-labs
-date: 2023-03-27T12:18:04+08:00
+date: 2023-03-28T12:17:30+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11925/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11925/0/1080p
 ---
 
 # [acantril/learn-cantrill-io-labs](https://github.com/acantril/learn-cantrill-io-labs)

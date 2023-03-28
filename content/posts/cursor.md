@@ -1,13 +1,12 @@
 ---
 title: cursor
-date: 2023-03-27T12:17:00+08:00
+date: 2023-03-28T12:16:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
 ---
 
 # [getcursor/cursor](https://github.com/getcursor/cursor)
-
 
 # Cursor
 
@@ -15,10 +14,10 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 
 **[Cursor](https://cursor.so) is an editor made for programming with AI.** It's early days, but right now Cursor can help you with a few things...
 
-- **Write**: Generate 10-100 lines of code with an AI that's smarter than Copilot
-- **Diff**: Ask the AI to edit a block of code, see only proposed changes
-- **Chat**: ChatGPT-style interface that understands your current file
-- **And more**: ask to fix lint errors, generate tests/comments on hover, etc.
+-   **Write**: Generate 10-100 lines of code with an AI that's smarter than Copilot
+-   **Diff**: Ask the AI to edit a block of code, see only proposed changes
+-   **Chat**: ChatGPT-style interface that understands your current file
+-   **And more**: ask to fix lint errors, generate tests/comments on hover, etc.
 
 <p align="center">
 <a href="https://cursor.so/">
@@ -34,11 +33,12 @@ Feel free to file tickets for bugs or feature requests. Upvote 👍 the ones you
 
 ## Roadmap
 
-Long term, our plan is to build Cursor into the world's most productive development environment. Using LLMs, we want to do things like: 
-- Auto-fix errors as soon as they show up in your terminal
-- Embed AI-written documentation into the UI 
-- "Heal" your repository when you're halfway through a refactor
-- Allow you to code by editing a "pseudocode" version of your codebase
+Long term, our plan is to build Cursor into the world's most productive development environment. Using LLMs, we want to do things like:
+
+-   Auto-fix errors as soon as they show up in your terminal
+-   Embed AI-written documentation into the UI
+-   "Heal" your repository when you're halfway through a refactor
+-   Allow you to code by editing a "pseudocode" version of your codebase
 
 ## Development
 
@@ -51,6 +51,7 @@ npm i
 ```
 
 Then, download some non-versioned dependencies (ripgrep binaries and language server js):
+
 ```
 ./setup.sh # Mac/Linux
 ./setup.ps1 # Windows
