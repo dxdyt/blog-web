@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-03-28T12:16:40+08:00
+date: 2023-03-29T12:17:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
@@ -17,7 +17,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
 
 One-Click to deploy your own ChatGPT web UI.
 
-[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N) / [微信群](https://user-images.githubusercontent.com/16968934/227772522-b3ba3713-9206-4c8d-a81f-22300b7c313a.jpg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[演示 Demo](https://chat-gpt-next-web.vercel.app/) / [反馈 Issues](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [加入 Discord](https://discord.gg/zrhvHCr79N) / [QQ 群](https://user-images.githubusercontent.com/16968934/228190818-7dd00845-e9b9-4363-97e5-44c507ac76da.jpeg) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
 
@@ -32,6 +32,7 @@ One-Click to deploy your own ChatGPT web UI.
 - 在 1 分钟内使用 Vercel **免费一键部署**
 - 精心设计的 UI，响应式设计，支持深色模式
 - 极快的首屏加载速度（~85kb）
+- 海量的内置 prompt 列表，来自[中文](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)和[英文](https://github.com/f/awesome-chatgpt-prompts)
 - 自动压缩上下文聊天记录，在节省 Token 的同时支持超长对话
 - 一键导出聊天记录，完整的 Markdown 支持
 - 拥有自己的域名？好上加好，绑定后即可在任何地方**无障碍**快速访问
@@ -41,6 +42,7 @@ One-Click to deploy your own ChatGPT web UI.
 - **Deploy for free with one-click** on Vercel in under 1 minute
 - Responsive design, and dark mode
 - Fast first screen loading speed (~85kb)
+- Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 - Automatically compresses chat history to support long conversations while also saving your tokens
 - One-click export all chat history with full Markdown support
 
@@ -126,18 +128,10 @@ OPENAI_API_KEY=<your api key here>
 2. 执行 `yarn install && yarn dev` 即可。
 
 ### 本地部署 Local Deployment
-
-请直接询问 ChatGPT，使用下列 Prompt：
-
-```
-如何使用 pm2 和 yarn 部署 nextjs 项目到 ubuntu 服务器上，项目编译命令为 yarn build，启动命令为 yarn start，启动时需要设置环境变量为 OPENAI_API_KEY，端口为 3000，使用 ngnix 做反向代理
+```shell
+bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
 
-Please ask ChatGPT with prompt:
-
-```
-how to deploy nextjs project with pm2 and yarn on my ubuntu server, the build command is `yarn build`, the start command is `yarn start`, the project must start with env var named `OPENAI_API_KEY`, the port is 3000, use ngnix
-```
 
 ### 容器部署 Docker Deployment
 
@@ -169,12 +163,11 @@ If you would like to contribute your API key, you can email it to the author and
 
 [@mushan0x0](https://github.com/mushan0x0)
 [@ClarenceDan](https://github.com/ClarenceDan)
+[@zhangjia](https://github.com/zhangjia)
+[@hoochanlon](https://github.com/hoochanlon)
 
 ### 贡献者 Contributor
-
-[@AprilNEA](https://github.com/AprilNEA)
-[@iSource](https://github.com/iSource)
-[@iFwu](https://github.com/iFwu)
+[Contributors](https://github.com/Yidadaa/ChatGPT-Next-Web/graphs/contributors)
 
 ## LICENSE
 

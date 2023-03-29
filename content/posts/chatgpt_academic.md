@@ -1,9 +1,9 @@
 ---
 title: chatgpt_academic
-date: 2023-03-28T12:16:49+08:00
+date: 2023-03-29T12:16:58+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11933/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11933/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
 ---
 
 # [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)
@@ -19,8 +19,10 @@ If you like this project, please give it a Star. If you've come up with more use
 # 借鉴项目1：借鉴了mdtex2html中公式处理的方法
 https://github.com/polarwinkel/mdtex2html
 
-# 借鉴项目2：借鉴了ChuanhuChatGPT中读取json的方法、记录历史问询记录的方法
+# 借鉴项目2：借鉴了ChuanhuChatGPT中读取OpenAI json的方法、记录历史问询记录的方法以及gradio queue的使用技巧
 https://github.com/GaiZhenbiao/ChuanhuChatGPT
+
+项目使用OpenAI的gpt-3.5-turbo模型，期待gpt-4早点放宽门槛😂
 ```
 
 <div align="center">
@@ -215,5 +217,9 @@ python check_proxy.py
 <img src="https://user-images.githubusercontent.com/96192199/227504931-19955f78-45cd-4d1c-adac-e71e50957915.png" height="400" >
 </div>
 
+## Todo:
 
+- (Top Priority) 调用另一个开源项目text-generation-webui的web接口，使用其他llm模型
+- 总结大工程源代码时，文本过长、token溢出的问题（目前的方法是直接二分丢弃处理溢出，过于粗暴，有效信息大量丢失）
+- UI不够美观
 

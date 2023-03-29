@@ -1,9 +1,9 @@
 ---
 title: BlenderGPT
-date: 2023-03-28T12:18:28+08:00
+date: 2023-03-29T12:17:52+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11953/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
 ---
 
 # [gd3kr/BlenderGPT](https://github.com/gd3kr/BlenderGPT)
@@ -16,8 +16,11 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
 <a href="https://www.buymeacoffee.com/gd3kr" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 
-This extension allows you to use Blender with natural language commands using OpenAI's GPT-4
+This addon allows you to use Blender with natural language commands using OpenAI's GPT-3.5/GPT-4
 
+
+### 💡 Code generations by the more powerful model, GPT-4 are remarkably higher quality than GPT-3.5. Unfortunately, the model is only available via the waitlist. This addon also has a Pro version that is powered by GPT-4 and does not require you to have an OpenAI account. Available for purchase for a one-time charge of $29.99: https://gd3kr.gumroad.com/l/blendergptpro
+> <img src="https://user-images.githubusercontent.com/63528145/228332238-fcaaa78a-bc0d-4866-903c-848c826c0241.png" alt="blendergptprologo" width="200"/>
 
 ## Features
 

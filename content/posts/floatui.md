@@ -1,9 +1,9 @@
 ---
 title: floatui
-date: 2023-03-27T12:17:46+08:00
+date: 2023-03-29T12:17:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11947/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11947/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11921/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
 ---
 
 # [MarsX-dev/floatui](https://github.com/MarsX-dev/floatui)

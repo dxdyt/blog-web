@@ -1,9 +1,9 @@
 ---
 title: whisper.cpp
-date: 2023-03-28T12:17:36+08:00
+date: 2023-03-29T12:19:24+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11956/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11956/0/1080p
 ---
 
 # [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp)

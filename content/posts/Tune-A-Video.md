@@ -1,9 +1,9 @@
 ---
 title: Tune-A-Video
-date: 2023-03-27T12:17:29+08:00
+date: 2023-03-29T12:19:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11925/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11925/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
 ---
 
 # [showlab/Tune-A-Video](https://github.com/showlab/Tune-A-Video)

@@ -1,9 +1,9 @@
 ---
 title: Chinese-alpaca-lora
-date: 2023-03-28T12:18:41+08:00
+date: 2023-03-29T12:18:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11919/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11919/0/1080p
 ---
 
 # [LC1332/Chinese-alpaca-lora](https://github.com/LC1332/Chinese-alpaca-lora)
@@ -127,12 +127,12 @@ We plan to upload two different models A and B, because the provider of B claim 
 Top 3 Sponsors
 
 | Time     | Sponsor     | Amount |
-| --- | --- | --- |
+| --- | --- | --- | 
+| 2023/3/28 | 张**      | 2000 |
 | 2023/3/25 | [肖**]( https://github.com/mobe1978)  | 520 |
 | 2023/3/24 | *潇      | 518    |
-| 2023/3/24 | [yiplee](https://github.com/pandodao/botastic)  | 512 |
 
-balance = 3392 now. Detailed balance see in [sponsorship_and_balance.md](data/Sponsorship_and_balance.md)
+balance = 5792 now. Detailed balance see in [sponsorship_and_balance.md](data/Sponsorship_and_balance.md)
 
 这原本是我们的一个作业项目，我们原本计划训练到1.0为止。但是社区的热情超过了我们的想象。如果您愿意赞助我们的项目，可以
 
@@ -158,6 +158,8 @@ inbuilding project
 - [X] model to hugging face, GUI demo
 - [X] train lora with more alpaca data(model 0.3)
 - [ ] (In Processing) train lora with more alpaca data(model 0.9)
+- [ ] clean training code
+- [ ] write the second phase plan for Luotuo
 
 We plan to use this Luotuo project as the git repository for the entire Chinese LLM project. After the completion of the original Luotuo: LLaMA-LoRA, it will be migrated to Luotuo-vanilla. The CamelBell, Loulan, Silk-Road and other derivative Chinese language model projects will gradually be added to the Luotuo project.
 

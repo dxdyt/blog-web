@@ -1,9 +1,9 @@
 ---
 title: BingGPT
-date: 2023-03-28T12:19:02+08:00
+date: 2023-03-29T12:18:07+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11952/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11952/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11953/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
 ---
 
 # [dice2o/BingGPT](https://github.com/dice2o/BingGPT)
