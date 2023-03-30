@@ -1,9 +1,9 @@
 ---
 title: cursor
-date: 2023-03-29T12:17:04+08:00
+date: 2023-03-30T12:16:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11923/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11923/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 ---
 
 # [getcursor/cursor](https://github.com/getcursor/cursor)
@@ -35,10 +35,10 @@ Feel free to file tickets for bugs or feature requests. Upvote 👍 the ones you
 
 Long term, our plan is to build Cursor into the world's most productive development environment. Using LLMs, we want to do things like:
 
--   Auto-fix errors as soon as they show up in your terminal
--   Embed AI-written documentation into the UI
 -   "Heal" your repository when you're halfway through a refactor
 -   Allow you to code by editing a "pseudocode" version of your codebase
+-   Auto-fix errors as soon as they show up in your terminal
+-   Embed AI-written documentation into the UI
 
 ## Development
 

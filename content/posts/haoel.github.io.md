@@ -1,9 +1,9 @@
 ---
 title: haoel.github.io
-date: 2023-03-29T12:17:43+08:00
+date: 2023-03-30T12:16:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
 ---
 
 # [haoel/haoel.github.io](https://github.com/haoel/haoel.github.io)

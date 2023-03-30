@@ -1,9 +1,9 @@
 ---
 title: dolly
-date: 2023-03-29T12:17:19+08:00
+date: 2023-03-30T12:16:39+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11957/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11957/0/1080p
 ---
 
 # [databrickslabs/dolly](https://github.com/databrickslabs/dolly)

@@ -1,9 +1,9 @@
 ---
 title: langchain
-date: 2023-03-26T12:17:08+08:00
+date: 2023-03-30T12:18:59+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
 ---
 
 # [hwchase17/langchain](https://github.com/hwchase17/langchain)
@@ -42,7 +42,7 @@ This library is aimed at assisting in the development of those types of applicat
 
 **🤖 Agents**
 
-- [Documentation](https://langchain.readthedocs.io/en/latest/use_cases/agents.html)
+- [Documentation](https://langchain.readthedocs.io/en/latest/modules/agents.html)
 - End-to-end Example: [GPT+WolframAlpha](https://huggingface.co/spaces/JavaFXpert/Chat-GPT-LangChain)
 
 ## 📖 Documentation
