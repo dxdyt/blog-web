@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-03-30T12:16:20+08:00
+date: 2023-03-31T12:16:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11957/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11957/0/1080p
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
@@ -46,7 +46,17 @@ One-Click to deploy your own ChatGPT web UI.
 - Automatically compresses chat history to support long conversations while also saving your tokens
 - One-click export all chat history with full Markdown support
 
-## 使用
+## 开发计划 Roadmap
+- System Prompt: pin a user defined prompt as system prompt 为每个对话设置系统 Prompt [#138](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/138)
+- User Prompt: user can edit and save custom prompts to prompt list 允许用户自行编辑内置 Prompt 列表
+- Self-host Model: support llama, alpaca, ChatGLM, BELLE etc. 支持自部署的大语言模型
+- Plugins: support network search, caculator, any other apis etc. 插件机制，支持联网搜索、计算器、调用其他平台 api [#165](https://github.com/Yidadaa/ChatGPT-Next-Web/issues/165)
+
+### 不会开发的功能 Not in Plan
+- User login, accounts, cloud sync 用户登陆、账号管理、消息云同步
+- UI text customize 界面文字自定义
+
+## 开始使用
 
 1. 准备好你的 [OpenAI API Key](https://platform.openai.com/account/api-keys);
 2. 点击右侧按钮开始部署：
@@ -201,4 +211,4 @@ docker run -d -p 3000:3000 -e OPENAI_API_KEY="" -e CODE="" yidadaa/chatgpt-next-
 
 ## LICENSE
 
-- [Anti 996 License](https://github.com/kattgu7/Anti-996-License/blob/master/LICENSE_CN_EN)
+[Anti 996 License](https://github.com/kattgu7/Anti-996-License/blob/master/LICENSE_CN_EN)

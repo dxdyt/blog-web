@@ -1,9 +1,9 @@
 ---
 title: cursor
-date: 2023-03-30T12:16:25+08:00
+date: 2023-03-31T12:17:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
 ---
 
 # [getcursor/cursor](https://github.com/getcursor/cursor)

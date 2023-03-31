@@ -1,9 +1,9 @@
 ---
 title: ChatDoctor
-date: 2023-03-30T12:16:14+08:00
+date: 2023-03-31T12:17:11+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11947/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11947/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11945/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11945/0/1080p
 ---
 
 # [Kent0n-Li/ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
@@ -23,7 +23,6 @@ Yunxiang Li<sup>1</sup>, Zihan Li<sup>2</sup>, Kai Zhang<sup>3</sup>, Ruilong Da
 [![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://github.com/HUANGLIZI/ChatDoctor/blob/main/LICENSE) 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/) 
 [![Page](https://img.shields.io/badge/Web-Page-yellow)](https://www.yunxiangli.top/ChatDoctor/) 
-
 ## Resources List
 200k real conversations between patients and doctors from HealthCareMagic.com [HealthCareMagic-200k](https://drive.google.com/file/d/1lyfqIwlLSClhgrCutWuEe_IACNq6XNUt/view?usp=sharing).
 
@@ -33,7 +32,7 @@ Yunxiang Li<sup>1</sup>, Zihan Li<sup>2</sup>, Kai Zhang<sup>3</sup>, Ruilong Da
 
 Checkpoints of ChatDoctor, fill this [form](https://forms.office.com/Pages/ResponsePage.aspx?id=lYZBnaxxMUy1ssGWyOw8ij06Cb8qnDJKvu2bVpV1-ANUMDIzWlU0QTUxN0YySFROQk9HMVU0N0xJNC4u).
 
-Online hugging face demo [application form](https://forms.office.com/Pages/ResponsePage.aspx?id=lYZBnaxxMUy1ssGWyOw8ij06Cb8qnDJKvu2bVpV1-ANURUU0TllBWVVHUjQ1MDJUNldGTTZWV1c5UC4u).
+Online Hugging Face demo [application form](https://forms.office.com/Pages/ResponsePage.aspx?id=lYZBnaxxMUy1ssGWyOw8ij06Cb8qnDJKvu2bVpV1-ANURUU0TllBWVVHUjQ1MDJUNldGTTZWV1c5UC4u).
 
 Stanford Alpaca data for basic conversational capabilities. [Alpaca link](https://github.com/Kent0n-Li/ChatDoctor/blob/main/alpaca_data.json).
 

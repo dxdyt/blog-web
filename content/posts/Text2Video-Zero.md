@@ -1,9 +1,9 @@
 ---
 title: Text2Video-Zero
-date: 2023-03-29T12:18:21+08:00
+date: 2023-03-31T12:18:38+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11956/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11956/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
 ---
 
 # [Picsart-AI-Research/Text2Video-Zero](https://github.com/Picsart-AI-Research/Text2Video-Zero)
@@ -25,7 +25,7 @@ Roberto Henschel,
 [Zhangyang Wang](https://www.ece.utexas.edu/people/faculty/atlas-wang), Shant Navasardyan, [Humphrey Shi](https://www.humphreyshi.com)
 </br>
 
-[Paper](https://arxiv.org/abs/2303.13439) | [Video](https://www.dropbox.com/s/uv90mi2z598olsq/Text2Video-Zero.MP4?dl=0) | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/PAIR/Text2Video-Zero) 
+[Paper](https://arxiv.org/abs/2303.13439) | [Video](https://www.dropbox.com/s/uv90mi2z598olsq/Text2Video-Zero.MP4?dl=0) | [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/PAIR/Text2Video-Zero) | [Project](https://text2video-zero.github.io/)
 
 
 <p align="center">
@@ -42,18 +42,38 @@ Roberto Henschel,
 * [03/27/2023] The [full version](https://huggingface.co/spaces/PAIR/Text2Video-Zero) of our huggingface demo released! Now also included: `text and pose conditional video generation`, `text and canny-edge conditional video generation`, and 
 `text, canny-edge and dreambooth conditional video generation`.
 * [03/28/2023] Code for all our generation methods released! We added a new low-memory setup. Minimum required GPU VRAM is currently **12 GB**. It will be further reduced in the upcoming releases. 
+* [03/29/2023] Improved [Huggingface demo](https://huggingface.co/spaces/PAIR/Text2Video-Zero)! (i) For text-to-video generation, **any base model for stable diffusion** and **any dreambooth model** hosted on huggingface can now be loaded! (ii) The generated videos (text-to-video) can have arbitrary length. (iii) We improved the quality of Video Instruct-Pix2Pix. (iv) We added two longer examples for Video Instruct-Pix2Pix.   
+* [03/30/2023] New code released! It includes all improvements of our latest huggingface iteration. See the news update from `03/29/2023`.
+
+
+## Contribute
+We are on a journey to democratize AI and empower the creativity of everyone, and we believe Text2Video-Zero is a great research direction to unleash the zero-shot video generation and editing capacity of the amazing text-to-image models!
+
+To achieve this goal, all contributions are welcome. Please check out these external implementations and extensions of Text2Video-Zero. We thank the authors for their efforts and contributions:
+* https://github.com/JiauZhang/Text2Video-Zero
+* https://github.com/camenduru/text2video-zero-colab
+* https://github.com/SHI-Labs/Text2Video-Zero-sd-webui
+
+
 
 ## Setup
 
 
-
-
-### Requirements
+1. Clone this repository and enter:
 
 ```shell
+git clone https://github.com/Picsart-AI-Research/Text2Video-Zero.git
+cd Text2Video-Zero/
+```
+2. Install requirements using Python 3.9
+```shell
+virtualenv --system-site-packages -p python3.9 venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
-<!--- Installing [xformers](https://github.com/facebookresearch/xformers) is highly recommended for more efficiency and speed on GPUs. --->
+
+
+<!--- Installing [xformers](https://github.com/facebookresearch/xformers) is highly recommended for more efficiency and speed on GPUs. 
 
 ### Weights
 
@@ -104,7 +124,14 @@ wget -P models/control https://huggingface.co/lllyasviel/ControlNet/resolve/main
 
 Integrate a `SD1.4` Dreambooth model into ControlNet using [this](https://github.com/lllyasviel/ControlNet/discussions/12) procedure. Load the model into `models/control_db/`. Dreambooth models can be obtained, for instance, from [CIVITAI](https://civitai.com). 
 
-We provide already prepared model files for `anime` (keyword `1girl`), `arcane style` (keyword `arcane style`) `avatar` (keyword `avatar style`) and `gta-5 style`  (keyword `gtav style`). To this end, download the model files from [google drive](https://drive.google.com/drive/folders/1uwXNjJ-4Ws6pqyjrIWyVPWu_u4aJrqt8?usp=share_link) and extract them into `models/control_db/`.
+
+We provide already prepared model files derived from CIVITAI for `anime` (keyword `1girl`), `arcane style` (keyword `arcane style`) `avatar` (keyword `avatar style`) and `gta-5 style`  (keyword `gtav style`). 
+
+<!---
+To this end, download the model files from [google drive](https://drive.google.com/drive/folders/1uwXNjJ-4Ws6pqyjrIWyVPWu_u4aJrqt8?usp=share_link) and extract them into `models/control_db/`.
+--->
+
+
 
 ## Inference API
 
@@ -122,16 +149,23 @@ model = Model(device = "cuda", dtype = torch.float16)
 ### Text-To-Video
 To directly call our text-to-video generator, run this python command which stores the result in `tmp/text2video/A_horse_galloping_on_a_street.mp4` :
 ```python
-from pathlib import Path
-
 prompt = "A horse galloping on a street"
 params = {"t0": 44, "t1": 47 , "motion_field_strength_x" : 12, "motion_field_strength_y" : 12, "video_length": 8}
 
-out_path, fps = Path(f"tmp/text2video/{prompt.replace(' ','_')}.mp4"), 4
-if not out_path.parent.exists():
-  out_path.parent.mkdir(parents=True)
-model.process_text2video(prompt, fps = fps, path = out_path.as_posix(), **params)
+out_path, fps = f"./text2video_{prompt.replace(' ','_')}.mp4", 4
+model.process_text2video(prompt, fps = fps, path = out_path, **params)
 ```
+
+To use a different stable diffusion base model run this python command:
+```python
+from hf_utils import get_model_list
+model_list = get_model_list()
+for idx, name in enumerate(model_list):
+  print(idx, name)
+idx = int(input("Select the model by the listed number: ")) # select the model of your choice
+model.process_text2video(prompt, model_name = model_list[idx], fps = fps, path = out_path, **params)
+```
+
 
 #### Hyperparameters (Optional)
 
@@ -146,12 +180,10 @@ You can define the following hyperparameters:
 ### Text-To-Video with Pose Control
 To directly call our text-to-video generator with pose control, run this python command:
 ```python
-from pathlib import Path
-
 prompt = 'an astronaut dancing in outer space'
-motion_path = Path('__assets__/poses_skeleton_gifs/dance1_corr.mp4')
-out_path = Path(f'./{prompt}.gif')
-model.process_controlnet_pose(motion_path.as_posix(), prompt=prompt, save_path=out_path.as_posix())
+motion_path = '__assets__/poses_skeleton_gifs/dance1_corr.mp4'
+out_path = f"./text2video_pose_guidance_{prompt.replace(' ','_')}.gif"
+model.process_controlnet_pose(motion_path, prompt=prompt, save_path=out_path)
 ```
 
 
@@ -160,12 +192,10 @@ model.process_controlnet_pose(motion_path.as_posix(), prompt=prompt, save_path=o
 ### Text-To-Video with Edge Control
 To directly call our text-to-video generator with edge control, run this python command:
 ```python
-from pathlib import Path
-
 prompt = 'oil painting of a deer, a high-quality, detailed, and professional photo'
-video_path = Path('__assets__/canny_videos_mp4/deer.mp4')
-out_path = Path(f'./{prompt}.mp4')
-model.process_controlnet_canny(video_path.as_posix(), prompt=prompt, save_path=out_path.as_posix())
+video_path = '__assets__/canny_videos_mp4/deer.mp4'
+out_path = f'./text2video_edge_guidance_{prompt}.mp4'
+model.process_controlnet_canny(video_path, prompt=prompt, save_path=out_path)
 ```
 
 #### Hyperparameters
@@ -182,26 +212,34 @@ You can give hyperparameters as arguments to `model.process_controlnet_canny`
 ### Text-To-Video with Edge Guidance and Dreambooth specialization
 Load a dreambooth model then proceed as described in `Text-To-Video with Edge Guidance`
 ```python
-from pathlib import Path
 
 prompt = 'your prompt'
-video_path = Path('path/to/your/video')
-dreambooth_model_path = Path('path/to/your/dreambooth/model')
-out_path = Path(f'./{prompt}.gif')
-model.process_controlnet_canny_db(dreambooth_model_path.as_posix(), video_path.as_posix(), prompt=prompt, save_path=out_path.as_posix())
+video_path = 'path/to/your/video'
+dreambooth_model_path = 'path/to/your/dreambooth/model'
+out_path = f'./text2video_edge_db_{prompt}.gif'
+model.process_controlnet_canny_db(dreambooth_model_path, video_path, prompt=prompt, save_path=out_path)
 ```
+
+The value `video_path` can be the path to a `mp4` file. To use one of the example videos provided, set `video_path="woman1"`, `video_path="woman2"`, `video_path="woman3"`, or `video_path="man1"`. 
+ 
+
+The value `dreambooth_model_path` can either be a link to a diffuser model file, or the name of one of the dreambooth models provided. To this end, set `dreambooth_model_path = "Anime DB"`, `dreambooth_model_path = "Avatar DB"`, `dreambooth_model_path = "GTA-5 DB"`, or `dreambooth_model_path = "Arcane DB"`.  The corresponding keywords are: `1girl` (for `Anime DB`), `arcane style` (for `Arcane DB`) `avatar style` (for `Avatar DB`) and `gta-5 style`  (for `GTA-5 DB`).
+
+If the model file is not in diffuser format, it must be [converted](https://github.com/huggingface/diffusers/blob/main/scripts/convert_original_stable_diffusion_to_diffusers.py). 
+
+
 ---
+
+
 
 ### Video Instruct-Pix2Pix
 
 To perform pix2pix video editing, run this python command:
 ```python
-from pathlib import Path
-
 prompt = 'make it Van Gogh Starry Night'
-video_path = Path('__assets__/pix2pix video/camel.mp4')
-out_path = Path(f'./{prompt}.mp4')
-model.process_pix2pix(video_path.as_posix(), prompt=prompt, save_path=out_path.as_posix())
+video_path = '__assets__/pix2pix video/camel.mp4'
+out_path = f'./video_instruct_pix2pix_{prompt}.mp4'
+model.process_pix2pix(video_path, prompt=prompt, save_path=out_path)
 ```
 
 ---
@@ -210,6 +248,8 @@ model.process_pix2pix(video_path.as_posix(), prompt=prompt, save_path=out_path.a
 Each of the above introduced interface can be run in a low memory setup. In the minimal setup, a GPU with **12 GB VRAM** is sufficient. 
 
 To reduce the memory usage, add `chunk_size=k` as additional parameter when calling one of the above defined inference APIs. The integer value `k` must be in the range `{2,...,video_length}`. It defines the number of frames that are processed at once (without any loss in quality). The lower the value the less memory is needed.
+
+When using the gradio app, set `chunk_size` in the `Advanced options`. 
 
 
 We plan to release soon a new version that further reduces the memory usage. 
@@ -223,6 +263,10 @@ To replicate the ablation study, add additional parameters when calling the abov
 *  To deactivate `cross-frame attention`: Add `use_cf_attn=False` to the parameter list.
 * To deactivate enriching latent codes with `motion dynamics`: Add `use_motion_field=False` to the parameter list.
 
+
+Note: Adding `smooth_bg=True` activates background smoothing. However, our  code does not include the salient object detector necessary to run that code.
+
+
 ---
 
 ## Inference using Gradio
@@ -232,6 +276,12 @@ python app.py
 ```
 
 Then access the app [locally](http://127.0.0.1:7860) with a browser.
+
+To access the app remotely, run this shell command:
+```shell
+python app.py --public_access
+```
+For security information about public access we refer to the documentation of [gradio](https://gradio.app/sharing-your-app/#security-and-file-access).
 
 
 
@@ -247,7 +297,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"A cat is running on the grass"</td>
-  <td width=25% align="center">"A panda is playing guitar on times square</td>
+  <td width=25% align="center">"A panda is playing guitar on times square"</td>
   <td width=25% align="center">"A man is running in the snow"</td>
   <td width=25% align="center">"An astronaut is skiing down the hill"</td>
 </tr>
@@ -260,7 +310,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"A panda surfing on a wakeboard"</td>
-  <td width=25% align="center">"A bear dancing on times square</td>
+  <td width=25% align="center">"A bear dancing on times square"</td>
   <td width=25% align="center">"A man is riding a bicycle in the sunshine"</td>
   <td width=25% align="center">"A horse galloping on a street"</td>
 </tr>
@@ -273,7 +323,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"A tiger walking alone down the street"</td>
-  <td width=25% align="center">"A panda surfing on a wakeboard</td>
+  <td width=25% align="center">"A panda surfing on a wakeboard"</td>
   <td width=25% align="center">"A horse galloping on a street"</td>
   <td width=25% align="center">"A cute cat running in a beatiful meadow"</td>
 </tr>
@@ -287,7 +337,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"A horse galloping on a street"</td>
-  <td width=25% align="center">"A panda walking alone down the street</td>
+  <td width=25% align="center">"A panda walking alone down the street"</td>
   <td width=25% align="center">"A dog is walking down the street"</td>
   <td width=25% align="center">"An astronaut is waving his hands on the moon"</td>
 </tr>
@@ -307,7 +357,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"A bear dancing on the concrete"</td>
-  <td width=25% align="center">"An alien dancing under a flying saucer</td>
+  <td width=25% align="center">"An alien dancing under a flying saucer"</td>
   <td width=25% align="center">"A panda dancing in Antarctica"</td>
   <td width=25% align="center">"An astronaut dancing in the outer space"</td>
 
@@ -327,7 +377,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"White butterfly"</td>
-  <td width=25% align="center">"Beautiful girl</td>
+  <td width=25% align="center">"Beautiful girl"</td>
     <td width=25% align="center">"A jellyfish"</td>
   <td width=25% align="center">"beautiful girl halloween style"</td>
 </tr>
@@ -340,7 +390,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"Wild fox is walking"</td>
-  <td width=25% align="center">"Oil painting of a beautiful girl close-up</td>
+  <td width=25% align="center">"Oil painting of a beautiful girl close-up"</td>
     <td width=25% align="center">"A santa claus"</td>
   <td width=25% align="center">"A deer"</td>
 </tr>
@@ -362,7 +412,7 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
 </tr>
 <tr>
   <td width=25% align="center">"anime style"</td>
-  <td width=25% align="center">"arcane style</td>
+  <td width=25% align="center">"arcane style"</td>
     <td width=25% align="center">"gta-5 man"</td>
   <td width=25% align="center">"avatar style"</td>
 </tr>
@@ -395,6 +445,14 @@ Then access the app [locally](http://127.0.0.1:7860) with a browser.
     <td width=25% align="center">"Make it autumn"</td>
 </tr>
 </table>
+
+
+## Related Links 
+
+* [High-Resolution Image Synthesis with Latent Diffusion Models (a.k.a. LDM & Stable Diffusion)](https://ommer-lab.com/research/latent-diffusion-models/)
+* [InstructPix2Pix: Learning to Follow Image Editing Instructions](https://www.timothybrooks.com/instruct-pix2pix/)
+* [Adding Conditional Control to Text-to-Image Diffusion Models (a.k.a ControlNet)](https://github.com/lllyasviel/ControlNet)
+* [Diffusers](https://github.com/huggingface/diffusers)
 
 ## License
 Our code is published under the CreativeML Open RAIL-M license. The license provided in this repository applies to all additions and contributions we make upon the original stable diffusion code. The original stable diffusion code is under the CreativeML Open RAIL-M license, which can found [here](https://github.com/CompVis/stable-diffusion/blob/main/LICENSE).

@@ -1,9 +1,9 @@
 ---
 title: visual-openllm
-date: 2023-03-30T12:16:54+08:00
+date: 2023-03-31T12:18:31+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11952/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11952/0/1080p
 ---
 
 # [visual-openllm/visual-openllm](https://github.com/visual-openllm/visual-openllm)

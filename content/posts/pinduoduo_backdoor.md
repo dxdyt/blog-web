@@ -1,9 +1,9 @@
 ---
 title: pinduoduo_backdoor
-date: 2023-03-30T12:17:30+08:00
+date: 2023-03-31T12:18:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11956/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11956/0/1080p
 ---
 
 # [davinci1010/pinduoduo_backdoor](https://github.com/davinci1010/pinduoduo_backdoor)
