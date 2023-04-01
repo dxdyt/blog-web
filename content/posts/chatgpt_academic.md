@@ -1,9 +1,9 @@
 ---
 title: chatgpt_academic
-date: 2023-03-31T12:16:21+08:00
+date: 2023-04-01T12:16:03+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
 ---
 
 # [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)
@@ -12,9 +12,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
 
 # ChatGPT 学术优化
 
-**如果喜欢这个项目，请给它一个Star；如果你发明了更好用的学术快捷键，欢迎发issue或者pull requests**
+**如果喜欢这个项目，请给它一个Star；如果你发明了更好用的学术快捷键，欢迎发issue或者pull requests（dev分支）**
 
-If you like this project, please give it a Star. If you've come up with more useful academic shortcuts, feel free to open an issue or pull request.
+If you like this project, please give it a Star. If you've come up with more useful academic shortcuts, feel free to open an issue or pull request （to `dev` branch）.
 
 ```
 代码中参考了很多其他优秀项目中的设计，主要包括：
@@ -58,11 +58,11 @@ chat分析报告生成 | [实验性功能] 运行后自动生成总结汇报
 
 </div>
 
-- 新界面
+- 新界面（左：master主分支, 右：dev开发前沿）
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96192199/228600410-7d44e34f-63f1-4046-acb8-045cb05da8bb.png" width="700" >
+<img src="https://user-images.githubusercontent.com/96192199/228600410-7d44e34f-63f1-4046-acb8-045cb05da8bb.png" height="300" >
+<img src="https://user-images.githubusercontent.com/96192199/229222589-b30ff298-adb1-4e1e-8352-466085919bfb.png" height="300" >
 </div>
-
 
 
 - 所有按钮都通过读取functional.py动态生成，可随意加自定义功能，解放粘贴板
@@ -101,14 +101,15 @@ cd chatgpt_academic
 ```
 
 ### 2. 配置API_KEY和代理设置
-我们建议将`config.py`复制为`config_private.py`并将后者用作个性化配置文件以避免`config.py`中的变更影响你的使用或不小心将包含你的OpenAI API KEY的`config.py`提交至本项目。
 
-在`config.py`或`config_private.py`中，配置 海外Proxy 和 OpenAI API KEY，说明如下
+在`config.py`中，配置 海外Proxy 和 OpenAI API KEY，说明如下
 ```
-1. 如果你在国内，需要设置海外代理才能够顺利使用 OpenAI API，设置方法请仔细阅读config.py。
+1. 如果你在国内，需要设置海外代理才能够顺利使用 OpenAI API，设置方法请仔细阅读config.py（1.修改其中的USE_PROXY为True; 2.按照说明修改其中的proxies）。
 2. 配置 OpenAI API KEY。你需要在 OpenAI 官网上注册并获取 API KEY。一旦你拿到了 API KEY，在 config.py 文件里配置好即可。
 3. 与代理网络有关的issue（网络超时、代理不起作用）汇总到 https://github.com/binary-husky/chatgpt_academic/issues/1
 ```
+（P.S. 程序运行时会优先检查是否存在名为`config_private.py`的私密配置文件，并用其中的配置覆盖`config.py`的同名配置。因此，如果您能理解我们的配置读取逻辑，我们强烈建议您在`config.py`旁边创建一个名为`config_private.py`的新配置文件，并把`config.py`中的配置转移（复制）到`config_private.py`中。`config_private.py`不受git管控，可以让您的隐私信息更加安全。）
+
 
 ### 3. 安装依赖
 ```sh

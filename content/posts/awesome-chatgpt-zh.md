@@ -1,14 +1,17 @@
 ---
 title: awesome-chatgpt-zh
-date: 2023-03-31T12:19:03+08:00
+date: 2023-04-01T12:17:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11965/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
 ---
 
 # [yzfly/awesome-chatgpt-zh](https://github.com/yzfly/awesome-chatgpt-zh)
 
 # 🤖 ChatGPT 中文指南 🤖
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
+
 
 [GitHub 持续更新，欢迎关注，欢迎 star , 欢迎贡献~](https://github.com/yzfly/awesome-chatgpt-zh)
 
@@ -49,6 +52,7 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
     - [多模态聊天机器人: genmo](#多模态聊天机器人-genmo)
     - [基于 ChatGPT 创建个人的知识库 AI: Copilot Hub](#基于-chatgpt-创建个人的知识库-ai-copilot-hub)
     - [人工智能医生：ChatDoctor](#人工智能医生chatdoctor)
+    - [与AI对话生成思维导图 ChatMind](#与ai对话生成思维导图-chatmind)
     - [程序猿专区](#程序猿专区)
       - [OpenAI 官方使用指南：openai-cookbook](#openai-官方使用指南openai-cookbook)
       - [OpenAI python 接口](#openai-python-接口)
@@ -72,8 +76,9 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
       - [在任意软件上操作ChatGPT: Portal](#在任意软件上操作chatgpt-portal)
       - [一键免费部署你的私人 ChatGPT 网页应用: ChatGPT-Next-Web](#一键免费部署你的私人-chatgpt-网页应用-chatgpt-next-web)
     - [ChatGPT 浏览器插件](#chatgpt-浏览器插件)
-  - [小程序(微信，抖音等)](#小程序微信抖音等)
-  - [ChatGPT 插件](#chatgpt-插件)
+    - [小程序(微信，抖音等)](#小程序微信抖音等)
+  - [ChatGPT 插件功能](#chatgpt-插件功能)
+    - [现有插件](#现有插件)
     - [中文开发指南](#中文开发指南)
   - [如何与 ChatGPT 高效对话？——好的提示语学习](#如何与-chatgpt-高效对话好的提示语学习)
     - [Prompt 框架](#prompt-框架)
@@ -84,6 +89,7 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
     - [💡 让生产力加倍的 ChatGPT 快捷指令](#-让生产力加倍的-chatgpt-快捷指令)
     - [💡 学习如何提示：Learn Prompting](#-学习如何提示learn-prompting)
     - [💡 提示语自动生成](#-提示语自动生成)
+    - [创建，使用，分享 ChatGPT prompts: OpenPrompt](#创建使用分享-chatgpt-prompts-openprompt)
   - [ChatGPT 对话](#chatgpt-对话)
     - [ChatGPT 教你一步一步实现 CIFAR10 数据集图像分类任务](#chatgpt-教你一步一步实现-cifar10-数据集图像分类任务)
     - [一句话让 ChatGPT 帮助你实现 YOLO 目标检测](#一句话让-chatgpt-帮助你实现-yolo-目标检测)
@@ -92,7 +98,9 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
   - [ChatGPT 越狱](#chatgpt-越狱)
   - [相关资料](#相关资料)
   - [类 ChatGPT 开源模型](#类-chatgpt-开源模型)
-    - [🤖 LLMs: awesome-totally-open-chatgpt](#-llms-awesome-totally-open-chatgpt)
+    - [开源LLMs 收集：🤖 LLMs: awesome-totally-open-chatgpt](#开源llms-收集-llms-awesome-totally-open-chatgpt)
+    - [能在本地运行的资源 LLMs 收集: awesome-decentralized-llm](#能在本地运行的资源-llms-收集-awesome-decentralized-llm)
+    - [minGPT](#mingpt)
     - [OpenChatKit](#openchatkit)
     - [自称更亲民开放版的ChatGPT 模型: dolly](#自称更亲民开放版的chatgpt-模型-dolly)
     - [国产的支持中英双语的功能型对话语言大模型：ChatYuan](#国产的支持中英双语的功能型对话语言大模型chatyuan)
@@ -104,12 +112,14 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
     - [Visual OpenLLM](#visual-openllm)
     - [高效微调一个聊天机器人：LLaMA-Adapter🚀](#高效微调一个聊天机器人llama-adapter)
     - [⚡ Lit-LLaMA](#-lit-llama)
+    - [FastChat](#fastchat)
   - [更多 AI 工具](#更多-ai-工具)
     - [AI 绘画](#ai-绘画)
     - [代码生成](#代码生成)
     - [AI辅助写作](#ai辅助写作)
     - [PPT生成](#ppt生成)
     - [语音/视频合成](#语音视频合成)
+    - [AI 研究所](#ai-研究所)
   - [思考](#思考)
     - [ChatGPT 之父 Sam Altman: 万物摩尔定律](#chatgpt-之父-sam-altman-万物摩尔定律)
     - [GPT-4 ，人类迈向AGI的第一步](#gpt-4-人类迈向agi的第一步)
@@ -160,6 +170,8 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
 
 - [lencx/ChatGPT](https://github.com/lencx/ChatGPT): 使用 rust 编写的, 基于 tauri 的跨平台 ChatGPT 客户端. 支持: Windows, Linux, MacOS. 本质是应用内嵌入 ChatGPT 网页, 需要翻墙.
 - [chatbox](https://github.com/Bin-Huang/chatbox) 开源的ChatGPT桌面应用，prompt 开发神器，全平台支持，下载安装包就能用
+- [ChatGPT-Desktop](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop) 基于 tauri + vue3 开发的跨平台桌面端应用，需要自行准备 API KEY 使用。
+- [川虎 ChatGPT 🐯 Chuanhu ChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT API提供了一个轻快好用的Web图形界面，支持直接在Hugging Face上部署，很方便。
 - [token/ChatGpt.Desktop](https://github.com/239573049/ChatGpt.Desktop): 使用 C# 编写的, 基于 Blazor Web Assembly 的跨平台客户端. 支持: Windows, Linux, MacOS, Android, iOS, Web. 本质是程序内内嵌自建网页并调用 API, 所以你需要一个 OpenAI 账户, 需要翻墙.
 - [SlimeNull/OpenGptChat](https://github.com/SlimeNull/OpenGptChat): 使用 C# 编写的, 基于 WPF 的原生 Windows 客户端. 支持: Windows. 本质是调用 OpenAI 的 API, 所以你需要一个 OpenAI 账户. 内置反向代理, 国内可用.
 
@@ -280,11 +292,16 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
 ## ChatGPT 工具
 
 ### ChatGPT 学习英语
+
+直接使用 [speechgpt](https://speechgpt.app/) 或者使用下面 Chrome 插件
+
 * 安装 chrome 插件: [Voice Control for ChatGPT](https://chrome.google.com/webstore/detail/voice-control-for-chatgpt/eollffkcakegifhacjnlnegohfdlidhn)
 
 * 打开 OpenAI ChatGPT 网页，告诉 ChatGPT 你希望它扮演一个 native English speaker 与你对话，并且纠正你的单词、语法错误，插件会自动播放英语语音。
 
 ![improveEnglish](imgs/chatgpt_improve_english.jpg)
+
+
 
 ### [翻译: OpenAI Translator](https://chrome.google.com/webstore/detail/openai-translator/ogjibjphoadhljaoicdnjnmgokohngcc?hl=zh-CN)
 
@@ -404,7 +421,9 @@ Copilot Hub 是一个帮助你基于私有数据创建智能知识库 & 人格�
 
 ### [人工智能医生：ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)
 
+### [与AI对话生成思维导图 ChatMind](https://www.chatmind.tech/)
 
+![chatmind](imgs/chatmind.jpg)
 
 ### 程序猿专区
 
@@ -490,17 +509,27 @@ Chat-GPT 超级挂件，以侧边窗口的形式提供服务，可以在阅读�
 * [使用 GPT-4 实现浏览器自动化: TaxyAI](https://github.com/TaxyAI/browser-extension)
 * [ChatGPT 协助回答知乎问题: chat-gpt-zhihu-extension](https://chrome.google.com/webstore/detail/chatgpt-for-zhihu/dgoinfidjelfolhnkaableghhppplbak)
 * [邮件助手：ChatGPT for Email - Remail](https://chrome.google.com/webstore/detail/chatgpt-for-email-remail/jjplpolfahlhoodebebfjdbpcbopcmlk)
+* [分享你与 ChatGPT 的对话：ShareGPT](https://github.com/domeccleston/sharegpt)
 
-## 小程序(微信，抖音等)
+### 小程序(微信，抖音等)
 
 * [与不同角色对话 & 多种实用技能：神奇海螺](https://github.com/yzfly/awesome-chatgpt-zh/issues/5)
 
 
-## ChatGPT 插件
+## ChatGPT 插件功能
+
 OpenAI 现已经支持插件功能，可以预见这个插件平台将成为新时代的 Apple Store，将会带来巨大的被动流量，新时代的机会！
 
 - [官方文档](https://platform.openai.com/docs/plugins/introduction)
+- [ChatGPT plugins waitlist 申请地址](https://openai.com/waitlist/plugins)
 
+
+### 现有插件
+
+- [用日常语言提问，轻松搜索和查找个人或工作文件: ChatGPT Retrieval Plugin](https://github.com/openai/chatgpt-retrieval-plugin)
+
+
+  
 ### 中文开发指南
 指南中介绍了开发者申请开发插件的流程，与网页浏览器插件、代码解释器插件、Retrieval 插件、第三方插件等插件的功能、交互样式，详细介绍了开发流程，并通过“待办事项列表(to-do list)插件”的案例开发过程进行了演示。
 
@@ -565,6 +594,9 @@ Prompt 编写模式是一份中文教程，介绍了系列 Prompt 编写模式�
 
 ![prompt-gen](imgs/chatGPT_promote_gen.jpg)
 
+### [创建，使用，分享 ChatGPT prompts: OpenPrompt](https://openprompt.co/) 
+
+
 ## ChatGPT 对话
 
 ### [ChatGPT 教你一步一步实现 CIFAR10 数据集图像分类任务](examples/ImageClassificationCifar10Tutorials_ChatGPT.md)
@@ -625,13 +657,20 @@ DAN越狱提示成功例图：
 * [awesome-ChatGPT-resource-zh](https://github.com/DeepTecher/awesome-ChatGPT-resource-zh)
 * [🧠ChatGPT 中文调教指南](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 * [ChatGPT调教指南-咒语指南-聊天提示词指南](https://github.com/wikieden/Awesome-ChatGPT-Prompts-CN)
+* [🌟 ChatGPT-Awesomes-Collection 🌟](https://github.com/yzfly/chatgpt-awesomes-collection)
 
 
 ## 类 ChatGPT 开源模型
 
 OpenAI 的 ChatGPT 大型语言模型（LLM）并未开源，这部分收录一些深度学习开源的 LLM 供感兴趣的同学学习参考。
 
-### [🤖 LLMs: awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+### [开源LLMs 收集：🤖 LLMs: awesome-totally-open-chatgpt](https://github.com/nichtdax/awesome-totally-open-chatgpt)
+
+### [能在本地运行的资源 LLMs 收集: awesome-decentralized-llm](https://github.com/imaurer/awesome-decentralized-llm) 
+
+### [minGPT](https://github.com/karpathy/minGPT)
+
+karpathy大神发布的一个 OpenAI GPT(生成预训练转换器)训练的最小 PyTorch 实现，代码十分简洁明了，适合用于动手学习 GPT 模型。
 
 ### [OpenChatKit](https://github.com/togethercomputer/OpenChatKit#pre-trained-weights)
 
@@ -666,6 +705,7 @@ ChatYuan-large-v2是ChatYuan系列中以轻量化实现高质量效果的模型�
 
 Alpaca-CoT项目旨在探究如何更好地通过instruction-tuning的方式来诱导LLM具备类似ChatGPT的交互和instruction-following能力。为此，我们广泛收集了不同类型的instruction（尤其是Chain-of-Thought数据集），并基于LLaMA给出了深入细致的实证研究，以供未来工作参考。作者声称这是首个将CoT拓展进Alpaca的工作，因此简称为"Alpaca-CoT"。
 
+
 ### [大型多模态模型训练和评估开源框架：OpenFlamingo](https://github.com/mlfoundations/open_flamingo)
 
 OpenFlamingo 是一个用于评估和训练大型多模态模型的开源框架，是 DeepMind Flamingo 模型的开源版本，也是 AI 世界关于大模型进展的一大步。
@@ -691,6 +731,10 @@ OpenFlamingo 是一个用于评估和训练大型多模态模型的开源框架�
 Lightning-AI 基于nanoGPT的LLaMA语言模型的实现。支持量化，LoRA微调，预训练。
 
 ![lit_llama](imgs/Lite-LLaMA.gif)
+
+### [FastChat](https://github.com/lm-sys/FastChat)
+
+继草泥马（Alpaca）后，斯坦福联手CMU、UC伯克利等机构的学者再次发布了130亿参数模型骆马（Vicuna），仅需300美元就能实现ChatGPT 90%的性能。FastChat 是Vicuna 的GitHub 开源仓库。
 
 ## 更多 AI 工具
 
@@ -728,6 +772,11 @@ Lightning-AI 基于nanoGPT的LLaMA语言模型的实现。支持量化，LoRA微
 - [Synthesia](https://www.synthesia.io/)  
 - [Adobe Podcast](https://podcast.adobe.com/)
 
+### [AI 研究所](https://www.aiyjs.com/)
+
+AI研究所：一个收录 AI 相关工具和AI资讯的中文网站
+
+![ai_yjs](imgs/ai_yjs.jpg)
 
 ## 思考
 ### ChatGPT 之父 Sam Altman: 万物摩尔定律

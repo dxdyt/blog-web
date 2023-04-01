@@ -1,9 +1,9 @@
 ---
 title: gpt4all
-date: 2023-03-31T12:17:19+08:00
+date: 2023-04-01T12:15:28+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
 ---
 
 # [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)

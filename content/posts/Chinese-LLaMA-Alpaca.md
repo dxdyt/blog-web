@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca
-date: 2023-03-31T12:17:44+08:00
+date: 2023-04-01T12:17:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
@@ -23,7 +23,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
 </p>
 以ChatGPT、GPT-4等为代表的大语言模型（Large Language Model, LLM）掀起了新一轮自然语言处理领域的研究浪潮，展现出了类通用人工智能（AGI）的能力，受到业界广泛关注。然而，由于大语言模型的训练和部署都极为昂贵，为构建透明且开放的学术研究造成了一定的阻碍。
 
-为了促进大模型在中文NLP社区的开放研究，本项目开源了**中文LLaMA模型和经过指令精调的Alpaca大模型**。这些模型在原版LLaMA的基础上扩充了中文词表并使用了中文数据进行二次预训练，进一步提升了中文基础语义理解能力。同时，在中文LLaMA的基础上，本项目使用了中文指令数据进行指令精调，显著提升了模型对指令的理解和执行能力。
+为了促进大模型在中文NLP社区的开放研究，本项目开源了**中文LLaMA模型和经过指令精调的Alpaca大模型**。这些模型**在原版LLaMA的基础上扩充了中文词表**并使用了中文数据进行二次预训练，进一步提升了中文基础语义理解能力。同时，在中文LLaMA的基础上，本项目使用了中文指令数据进行指令精调，显著提升了模型对指令的理解和执行能力。
 
 ***声明：本项目相关资源仅供学术研究使用。***
 
@@ -97,10 +97,11 @@ chinese_llama_lora_7b/
 
 ### 准备工作
 
-1. 合并前务必确认基模型和LoRA模型补丁的SHA256是否一致，否则无法进行合并操作。
+1. 确保机器有足够的内存加载完整模型（例如7B模型需要13-15G）以进行合并模型操作。
+2. 合并前务必确认基模型和LoRA模型补丁的SHA256是否一致，否则无法进行合并操作。
    - 原版LLaMA包含以下文件：`tokenizer.model`、`tokenizer_checklist.chk`、`consolidated.00.pth`、`params.json`
    - 其中，权重文件`consolidated.00.pth`的SHA256: `700df0d3013b703a806d2ae7f1bfb8e59814e3d06ae78be0c66368a50059f33d`
-2. 主要依赖库如下：
+3. 主要依赖库如下：
    - ⚠️ 由于v4.27并不包含`LlamaModel`等实现，**必须从源码手动安装[最新版🤗Transformers](https://huggingface.co/docs/transformers/installation#install-from-source)**。
    - 使用`pip`安装`sentencepiece`、`peft`
 
@@ -158,13 +159,13 @@ python scripts/merge_llama_with_chinese_lora.py \
 
 运行以下命令对llama.cpp项目进行编译，生成`./main`和`./quantize`二进制文件。
 
-```
+```bash
 git clone https://github.com/ggerganov/llama.cpp
 cd llama.cpp
 make
 ```
 
-⚠️ **重要提醒（2023/3/30）**：llama.cpp工具的社区非常活跃，近期更新了相关算法策略，可以获得10-100x加载速度提升。但是新版本的代码**不能加载老模型**，需要重新生成ggml格式文件。你可以：
+⚠️ **重要提醒（2023/3/30）**：llama.cpp工具的社区非常活跃，近期更新了相关算法策略，可以获得10-100x **加载速度**提升（实测确实变快一些）。需要注意的是新版本的代码**不能加载老模型**，需要重新生成ggml格式文件。你可以：
 
 - 如果你还保存了合并模型后的`.pth`文件，可以使用llama.cpp最新代码进行重新量化
 - 如果你删除了之前的`.pth`文件，可以使用llama.cpp提供的`migrate-ggml-2023-03-30-pr613.py`将旧模型转换为新模型
@@ -183,24 +184,24 @@ llama.cpp/zh-models/
 
 将上述`.pth`模型权重转换为ggml的FP16格式，生成文件路径为`zh-models/7B/ggml-model-f16.bin`。
 
-```
+```bash
 python convert-pth-to-ggml.py zh-models/7B/ 1
 ```
 
 进一步对FP16模型进行Q4量化，生成量化模型文件路径为`zh-models/7B/ggml-model-q4_0.bin`。
 
-```
-python quantize.py 7B -m zh-models
+```bash
+./quantize ./zh-models/7B/ggml-model-f16.bin ./zh-models/7B/ggml-model-q4_0.bin 2
 ```
 
 ### Step 3: 加载并启动模型
 
 运行`./main`二进制文件，`-m`命令指定Q4量化模型（也可加载ggml-FP16的模型）。以下是解码参数示例：
 
-```
+```bash
 ./main -m zh-models/7B/ggml-model-q4_0.bin --color -f ./prompts/alpaca.txt -ins -c 2048 --temp 0.2 -n 256 --repeat_penalty 1.3
 ```
-在提示符 `>` 之后输入你的prompt，`command+c`中断输出。如需查看帮助和参数说明，请执行`./main -h`命令。
+在提示符 `>` 之后输入你的prompt，`command+c`中断输出，多行信息以`\`作为行尾。如需查看帮助和参数说明，请执行`./main -h`命令。
 
 简要介绍几个重要参数：
 
@@ -325,7 +326,13 @@ python quantize.py 7B -m zh-models
 
 ### 准备工作：词表扩充
 
-在通用中文语料上训练了基于[sentencepiece](https://github.com/google/sentencepiece)的20K词表并与原版LLaMA的32K词表进行合并，排除重复的token后，得到的扩充后词表大小为49953。
+由于原版LLaMA对中文的支持非常有限（对其他非英语语种也是如此），本项目在原版LLaMA的基础上进一步扩充了中文词表。
+
+- 在通用中文语料上训练了基于[sentencepiece](https://github.com/google/sentencepiece)的20K中文词表并与原版LLaMA模型的32K词表进行合并
+- 排除重复的token后，得到的最终中文LLaMA词表大小为49953
+- 需要注意的是，在fine-tune阶段Alpaca比LLaMA多一个pad token，所以中文Alpaca的词表大小为49954
+
+更多关于中文词表扩充的动机，可参考[FAQ](#FAQ)。
 
 ### 预训练
 
@@ -354,13 +361,13 @@ python quantize.py 7B -m zh-models
 
 **[New]** 本项目提供了一个动态生成不同领域和指令类型的prompt爬取脚本`script/crawl_prompt.py`。
 
-```
+```bash
 python script/crawl_prompt.py output-file
 ```
-- 思路与[Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca#data-generation-process)中的做法基本一致，一次批量生成20组数据（降低爬取成本）
+- 思路与[Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca#data-generation-process)中的做法基本一致，一次批量生成20组数据（可自行修改模板），以降低爬取成本
 - 生成的文件包含通过`gpt-3.5-turbo`爬取的数据（你必须拥有OpenAI API key才可以使用）
-- 虽然指令模板中要求输出JSON格式，但系统并不总是会返回合法的JSON，需要自行根据返回数据情况进行二次清洗
-- 由于爬取时间比较长，建议后台运行该脚本
+- 虽然指令模板中要求输出JSON格式，但系统并不总是会返回合法的JSON，需要自行根据返回数据的情况进行清洗
+- 由于爬取时间比较长，建议后台运行该脚本。多线程运行时注意[OpenAI API的调用限制上限](https://platform.openai.com/docs/guides/rate-limits/overview)
 
 ### 实验配置
 
@@ -387,7 +394,7 @@ python script/crawl_prompt.py output-file
 
 ##### 问题1：为什么不能放出完整版本权重？
 
-答：这个部分前面已经反复强调过了。LLaMA模型的开源协议许可不允许我们这么做，所以相关衍生工作都在寻找可以绕过限制的方法。请相信我们设置这么多步骤，不是为了增加大家的工作量，而是客观情况所致。后续待Facebook完全开放权重之后，我们会第一时间将完整版模型以及直接可加载的量化模型放出来。在此期间，我们也会密切关注其他LLaMA相关的repo，看看有没有更好的方法。
+答：这个问题前面已经反复强调过了。LLaMA模型的开源协议许可不允许我们这么做，所以相关衍生工作都在寻找可以绕过限制的方法。请相信我们设置这么多步骤，不是为了增加大家的工作量，而是客观情况所致。后续待Facebook完全开放权重之后，我们会第一时间将完整版模型以及直接可加载的量化模型放出来。在此期间，我们也会密切关注其他LLaMA相关的repo，看看有没有更好的方法。
 
 ##### 问题2：后面会有13B、33B、65B的版本吗？
 
@@ -396,6 +403,11 @@ python script/crawl_prompt.py output-file
 ##### 问题3：一些任务上效果不好！
 
 答：这里有几个可能的原因，1）本身LLaMA对中文支持不是很好，大多数相关衍生工作是直接在原版上进行pretrain/finetune的，而我们采取了更大胆的策略——增加中文词表，可能进一步加剧中文训练不充分的问题，但从长远看是否有利于后续进一步预训练就得靠时间检验了；2）指令数据的质量有待进一步提升；3）训练时间、超参等方面还有很大调整空间；4）没有RLHF；5）Q4量化后效果可能会下降，因此可以尝试加载FP16模型，效果相对更好一些（也更慢）。
+
+##### 问题4：为什么要扩充词表？直接在原版LLaMA上用中文预训练不行吗？
+
+答：原版LLaMA模型的词表大小是32K，其主要针对英语进行训练（具体详见[LLaMA论文](https://arxiv.org/abs/2302.13971v1)），对多语种支持不是特别理想（可以对比一下多语言经典模型XLM-R的词表大小为250K）。通过初步统计发现，LLaMA词表中仅包含很少的中文字符，所以在切词时会把中文切地更碎，需要多个byte token才能拼成一个完整的汉字，进而导致信息密度降低。比如，在扩展词表后的模型中，单个汉字倾向于被切成1个token，而在原版LLaMA中可能就需要2-3个才能组合成一个汉字，显著降低编解码的效率。
+
 
 ## 致谢
 

@@ -1,9 +1,9 @@
 ---
 title: LLaMA-Adapter
-date: 2023-03-31T12:17:36+08:00
+date: 2023-04-01T12:15:37+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
 ---
 
 # [ZrrSkywalker/LLaMA-Adapter](https://github.com/ZrrSkywalker/LLaMA-Adapter)

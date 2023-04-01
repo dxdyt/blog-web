@@ -1,9 +1,9 @@
 ---
 title: chatbox
-date: 2023-03-31T12:16:45+08:00
+date: 2023-04-01T12:16:39+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11961/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11961/0/1080p
 ---
 
 # [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)

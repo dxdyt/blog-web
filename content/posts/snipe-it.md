@@ -1,9 +1,9 @@
 ---
 title: snipe-it
-date: 2023-03-30T12:17:04+08:00
+date: 2023-04-01T12:17:58+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11959/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11959/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11939/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11939/0/1080p
 ---
 
 # [snipe/snipe-it](https://github.com/snipe/snipe-it)

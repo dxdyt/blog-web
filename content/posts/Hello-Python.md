@@ -1,9 +1,9 @@
 ---
 title: Hello-Python
-date: 2023-03-31T12:18:15+08:00
+date: 2023-04-01T12:17:19+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11933/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11933/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
 ---
 
 # [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python)

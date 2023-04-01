@@ -1,9 +1,9 @@
 ---
 title: browser-extension
-date: 2023-03-31T12:17:26+08:00
+date: 2023-04-01T12:15:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11952/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11952/0/1080p
 ---
 
 # [TaxyAI/browser-extension](https://github.com/TaxyAI/browser-extension)

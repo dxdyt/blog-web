@@ -1,9 +1,9 @@
 ---
 title: opencommit
-date: 2023-03-30T12:17:40+08:00
+date: 2023-04-01T12:18:40+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11953/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
 ---
 
 # [di-sukharev/opencommit](https://github.com/di-sukharev/opencommit)

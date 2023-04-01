@@ -1,6 +1,6 @@
 ---
 title: openai-cookbook
-date: 2023-03-30T12:18:50+08:00
+date: 2023-04-01T12:17:00+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/11952/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/11952/0/1080p
