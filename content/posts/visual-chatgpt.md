@@ -1,9 +1,9 @@
 ---
 title: visual-chatgpt
-date: 2023-04-01T12:17:27+08:00
+date: 2023-04-02T12:17:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11965/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
 ---
 
 # [microsoft/visual-chatgpt](https://github.com/microsoft/visual-chatgpt)

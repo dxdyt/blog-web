@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-zh
-date: 2023-04-01T12:17:10+08:00
+date: 2023-04-02T12:15:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11965/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11968/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11968/0/1080p
 ---
 
 # [yzfly/awesome-chatgpt-zh](https://github.com/yzfly/awesome-chatgpt-zh)
@@ -13,7 +13,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) 
 
 
-[GitHub 持续更新，欢迎关注，欢迎 star , 欢迎贡献~](https://github.com/yzfly/awesome-chatgpt-zh)
+[GitHub 持续更新，欢迎关注，欢迎 star ~](https://github.com/yzfly/awesome-chatgpt-zh)
 
 [为方便国内访问, GitLab 镜像同步更新~](https://gitlab.com/awesomeai/awesome-chatgpt-zh)
 
@@ -75,8 +75,10 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
       - [人人都能创建 GPT 工具: AI Anything](#人人都能创建-gpt-工具-ai-anything)
       - [在任意软件上操作ChatGPT: Portal](#在任意软件上操作chatgpt-portal)
       - [一键免费部署你的私人 ChatGPT 网页应用: ChatGPT-Next-Web](#一键免费部署你的私人-chatgpt-网页应用-chatgpt-next-web)
-    - [ChatGPT 浏览器插件](#chatgpt-浏览器插件)
-    - [小程序(微信，抖音等)](#小程序微信抖音等)
+      - [通过聊天生成 SQL 操作数据库：SQL Chat](#通过聊天生成-sql-操作数据库sql-chat)
+      - [电报 ChatGPT 机器人：Chatgpt-Telegram-bot](#电报-chatgpt-机器人chatgpt-telegram-bot)
+      - [搭建属于自己的 ChatGPT 网站: ChatBot-UI 需要使用 API KEY](#搭建属于自己的-chatgpt-网站-chatbot-ui-需要使用-api-key)
+    - [ChatGPT 浏览器插件和小程序](#chatgpt-浏览器插件和小程序)
   - [ChatGPT 插件功能](#chatgpt-插件功能)
     - [现有插件](#现有插件)
     - [中文开发指南](#中文开发指南)
@@ -143,6 +145,7 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
 * 需要科学上网，使用的代理 IP 质量不好的话无法成功
 * 需要国外手机号验证，google voice 等虚拟号码无法通过验证，可使用淘宝解决 or [海外号码](https://sms-activate.org/)
 * 国内注册教程及各种问题解决: https://nujuo8y1qx.feishu.cn/docx/AdqEdlT52oBiawx6Vv2cc89DnLb
+* [Plus 开通教程](https://github.com/gclhaha/chatGPT-plus-guide)
 
 ![ChatGPT](imgs/openai_chatgpt.jpg)
 
@@ -168,12 +171,15 @@ ChatGPT 中文指南项目旨在帮助中文用户了解和使用ChatGPT。我�
 
 ### 💻 第三方开发者开发的 ChatGPT 客户端
 
+第三方客户端很多，基本都是通过调用 OpenAI 的 API 实现，这些客户端往往需要你自备 OpenAI 的 Api Key 使用。
+
 - [lencx/ChatGPT](https://github.com/lencx/ChatGPT): 使用 rust 编写的, 基于 tauri 的跨平台 ChatGPT 客户端. 支持: Windows, Linux, MacOS. 本质是应用内嵌入 ChatGPT 网页, 需要翻墙.
 - [chatbox](https://github.com/Bin-Huang/chatbox) 开源的ChatGPT桌面应用，prompt 开发神器，全平台支持，下载安装包就能用
 - [ChatGPT-Desktop](https://github.com/ChatGPT-Desktop/ChatGPT-Desktop) 基于 tauri + vue3 开发的跨平台桌面端应用，需要自行准备 API KEY 使用。
 - [川虎 ChatGPT 🐯 Chuanhu ChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT) 为ChatGPT API提供了一个轻快好用的Web图形界面，支持直接在Hugging Face上部署，很方便。
 - [token/ChatGpt.Desktop](https://github.com/239573049/ChatGpt.Desktop): 使用 C# 编写的, 基于 Blazor Web Assembly 的跨平台客户端. 支持: Windows, Linux, MacOS, Android, iOS, Web. 本质是程序内内嵌自建网页并调用 API, 所以你需要一个 OpenAI 账户, 需要翻墙.
 - [SlimeNull/OpenGptChat](https://github.com/SlimeNull/OpenGptChat): 使用 C# 编写的, 基于 WPF 的原生 Windows 客户端. 支持: Windows. 本质是调用 OpenAI 的 API, 所以你需要一个 OpenAI 账户. 内置反向代理, 国内可用.
+- [ChatGPT-Desktop](https://github.com/Synaptrix/ChatGPT-Desktop)
 
 ### 💻 国外竞品
 <ul>
@@ -498,7 +504,14 @@ Portal是一款传输工具，旨在将ChatGPT的能力整合到用户的工作�
 
 ![Chatgpt_next_web](imgs/chatgpt_next_web.png)
 
-### ChatGPT 浏览器插件
+#### [通过聊天生成 SQL 操作数据库：SQL Chat](https://github.com/sqlchat/sqlchat)
+
+#### [电报 ChatGPT 机器人：Chatgpt-Telegram-bot](https://github.com/n3d1117/chatgpt-telegram-bot)
+
+#### [搭建属于自己的 ChatGPT 网站: ChatBot-UI](https://github.com/mckaywrigley/chatbot-ui) 需要使用 API KEY
+
+
+### ChatGPT 浏览器插件和小程序
 * [ChatGPT Sidebar](https://www.chatgpt-sidebar.com/)
 
 Chat-GPT 超级挂件，以侧边窗口的形式提供服务，可以在阅读书籍时划选文本点击按钮给你解释，总结和提取；也可以在使用笔记软件时为笔记润色，翻译和补充.....
@@ -510,9 +523,6 @@ Chat-GPT 超级挂件，以侧边窗口的形式提供服务，可以在阅读�
 * [ChatGPT 协助回答知乎问题: chat-gpt-zhihu-extension](https://chrome.google.com/webstore/detail/chatgpt-for-zhihu/dgoinfidjelfolhnkaableghhppplbak)
 * [邮件助手：ChatGPT for Email - Remail](https://chrome.google.com/webstore/detail/chatgpt-for-email-remail/jjplpolfahlhoodebebfjdbpcbopcmlk)
 * [分享你与 ChatGPT 的对话：ShareGPT](https://github.com/domeccleston/sharegpt)
-
-### 小程序(微信，抖音等)
-
 * [与不同角色对话 & 多种实用技能：神奇海螺](https://github.com/yzfly/awesome-chatgpt-zh/issues/5)
 
 

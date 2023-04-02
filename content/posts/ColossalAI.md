@@ -1,9 +1,9 @@
 ---
 title: ColossalAI
-date: 2023-04-01T12:15:22+08:00
+date: 2023-04-02T12:16:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
 ---
 
 # [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI)

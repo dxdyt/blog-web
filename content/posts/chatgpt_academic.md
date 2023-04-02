@@ -1,9 +1,9 @@
 ---
 title: chatgpt_academic
-date: 2023-04-01T12:16:03+08:00
+date: 2023-04-02T12:16:50+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11943/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11943/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11979/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
 ---
 
 # [binary-husky/chatgpt_academic](https://github.com/binary-husky/chatgpt_academic)
@@ -30,7 +30,7 @@ https://github.com/polarwinkel/mdtex2html
 
 > **Note**
 >
-> 1.请注意只有“红颜色”标识的函数插件（按钮）才支持读取文件。目前暂不能完善地支持pdf格式文献的翻译解读，尚不支持word格式文件的读取。
+> 1.请注意只有“红颜色”标识的函数插件（按钮）才支持读取文件。目前暂不能完善地支持pdf/word格式文献的翻译解读，相关函数函件正在测试中。
 >
 > 2.本项目中每个文件的功能都在自译解[`project_self_analysis.md`](https://github.com/binary-husky/chatgpt_academic/wiki/chatgpt-academic%E9%A1%B9%E7%9B%AE%E8%87%AA%E8%AF%91%E8%A7%A3%E6%8A%A5%E5%91%8A)详细说明。随着版本的迭代，您也可以随时自行点击相关函数插件，调用GPT重新生成项目的自我解析报告。常见问题汇总在[`wiki`](https://github.com/binary-husky/chatgpt_academic/wiki/%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)当中。
 > 
@@ -58,10 +58,10 @@ chat分析报告生成 | [实验性功能] 运行后自动生成总结汇报
 
 </div>
 
-- 新界面（左：master主分支, 右：dev开发前沿）
+<!-- - 新界面（左：master主分支, 右：dev开发前沿） -->
+- 新界面
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96192199/228600410-7d44e34f-63f1-4046-acb8-045cb05da8bb.png" height="300" >
-<img src="https://user-images.githubusercontent.com/96192199/229222589-b30ff298-adb1-4e1e-8352-466085919bfb.png" height="300" >
+<img src="https://user-images.githubusercontent.com/96192199/229222589-b30ff298-adb1-4e1e-8352-466085919bfb.png" width="700" >
 </div>
 
 
@@ -151,7 +151,7 @@ python main.py
 git clone https://github.com/binary-husky/chatgpt_academic.git
 cd chatgpt_academic
 # 配置 海外Proxy 和 OpenAI API KEY
-config.py
+用任意文本编辑器编辑 config.py
 # 安装
 docker build -t gpt-academic .
 # 运行
@@ -257,7 +257,7 @@ python check_proxy.py
 
 ### 模块化功能设计
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96192199/227504981-4c6c39c0-ae79-47e6-bffe-0e6442d9da65.png" height="400" >
+<img src="https://user-images.githubusercontent.com/96192199/229288270-093643c1-0018-487a-81e6-1d7809b6e90f.png" height="400" >
 <img src="https://user-images.githubusercontent.com/96192199/227504931-19955f78-45cd-4d1c-adac-e71e50957915.png" height="400" >
 </div>
 

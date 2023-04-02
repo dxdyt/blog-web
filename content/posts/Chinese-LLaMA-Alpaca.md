@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca
-date: 2023-04-01T12:17:49+08:00
+date: 2023-04-02T12:15:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
@@ -65,18 +65,32 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
 
 Facebook官方发布的[LLaMA模型禁止商用](https://github.com/facebookresearch/llama)，并且官方没有正式开源模型权重（虽然网上已经有很多第三方的下载地址）。为了遵循相应的许可，目前暂时无法发布完整的模型权重，敬请各位理解（目前国外也是一样）。Facebook完全开放模型权重之后，本项目会及时更新相关策略。**这里发布的是LoRA权重**，可以理解为原LLaMA模型上的一个“补丁”，两者进行合并即可获得完整版权重。
 
-### 下载地址
+提醒：以下中文LLaMA/Alpaca LoRA模型无法单独使用，需要搭配原版LLaMA模型<sup>[1]</sup>。请参考本项目给出的[合并模型](#合并模型)步骤重构模型。
 
-注意：以下模型无法直接使用，必须按照本项目给出的[合并模型](#合并模型)步骤重构模型。
+### 中文LLaMA模型
+
+中文LLaMA模型在原版的基础上扩充了中文词表，使用了中文纯文本数据进行二次预训练，具体见[训练细节](#训练细节)一节。
+
+| 模型名称          | 类型 |        重构所需模型         | 大小<sup>[2]</sup> |                         LoRA下载地址                         | SHA256<sup>[3]</sup> |
+| :---------------- | :--: | :-------------------------: | :----------------: | :----------------------------------------------------------: | :------------------: |
+| Chinese-LLaMA-7B  | 通用 | 原版LLaMA-7B<sup>[1]</sup>  |        770M        | [[百度网盘]](https://pan.baidu.com/s/1oORTdpr2TvlkxjpyWtb5Sw?pwd=33hb)</br>[[Google Drive]](https://drive.google.com/file/d/1iQp9T-BHjBjIrFWXq_kIm_cyNmpvv5WN/view?usp=sharing)</br>[[HuggingFace]](https://huggingface.co/ziqingyang/chinese-llama-lora-7b) |  39b86b......fe0e60  |
+| Chinese-LLaMA-13B | 通用 | 原版LLaMA-13B<sup>[1]</sup> |         ⏳          |                              ⏳                               |          ⏳           |
+
+
+### 中文Alpaca模型
+
+中文Alpaca模型在上述中文LLaMA模型的基础上进一步使用了指令数据进行精调，具体见[训练细节](#训练细节)一节。
+
+**注意：如希望体验类ChatGPT对话交互，请使用Alpaca模型，而不是LLaMA模型。**
 
 | 模型名称           |   类型   |        重构所需模型         | 大小<sup>[2]</sup> |                         LoRA下载地址                         | SHA256<sup>[3]</sup> |
 | :----------------- | :------: | :-------------------------: | :----------------: | :----------------------------------------------------------: | :------------------: |
-| Chinese-LLaMA-7B   |   通用   | 原版LLaMA-7B<sup>[1]</sup>  |        770M        | [[百度网盘]](https://pan.baidu.com/s/1oORTdpr2TvlkxjpyWtb5Sw?pwd=33hb)</br>[[Google Drive]](https://drive.google.com/file/d/1iQp9T-BHjBjIrFWXq_kIm_cyNmpvv5WN/view?usp=sharing)</br>[[HuggingFace]](https://huggingface.co/ziqingyang/chinese-llama-lora-7b) |  39b86b......fe0e60  |
 | Chinese-Alpaca-7B  | 指令精调 | 原版LLaMA-7B<sup>[1]</sup>  |        790M        | [[百度网盘]](https://pan.baidu.com/s/1xV1UXjh1EPrPtXg6WyG7XQ?pwd=923e)</br>[[Google Drive]](https://drive.google.com/file/d/1JvFhBpekYiueWiUL3AF1TtaWDb3clY5D/view?usp=sharing)</br>[[HuggingFace]](https://huggingface.co/ziqingyang/chinese-alpaca-lora-7b) |  9bb5b6......ce2d87  |
-| Chinese-LLaMA-13B  |   通用   | 原版LLaMA-13B<sup>[1]</sup> |         ⏳          |                              ⏳                               |          ⏳           |
 | Chinese-Alpaca-13B | 指令精调 | 原版LLaMA-13B<sup>[1]</sup> |         ⏳          |                              ⏳                               |          ⏳           |
 
-**[1]** 原版LLaMA模型需要在[Facebook-LLaMA](https://github.com/facebookresearch/llama)中申请使用或参考这个[PR](https://github.com/facebookresearch/llama/pull/73/files)。由于版权问题本项目无法提供下载链接，敬请谅解。
+### 脚注及其他说明
+
+**[1]** 重构所需原版LLaMA模型需要在[Facebook-LLaMA](https://github.com/facebookresearch/llama)中申请使用或参考这个[PR](https://github.com/facebookresearch/llama/pull/73/files)。由于版权问题本项目无法提供下载链接，敬请谅解。
 
 **[2]** 经过重构后的模型大小比原版LLaMA稍大（因为扩充了词表），7B模型约为13G+。
 
@@ -90,8 +104,15 @@ chinese_llama_lora_7b/
   - adapter_model.bin		# LoRA权重文件
   - special_tokens_map.json	# special_tokens_map文件
   - tokenizer_config.json	# tokenizer配置文件
-  - tokenizer.model		# tokenizer文件
+  - tokenizer.model		# tokenizer文件 
 ```
+
+下表给出了各个版本合并后原模型大小（FP16）和4-bit量化后的大小，转换相应模型时确保本机有足够的内存和磁盘空间（下表应视为最低要求）：
+
+|                     |   7B   |  13B   |   33B   |   65B   |
+| :------------------ | :----: | :----: | :-----: | :-----: |
+| 原模型大小（FP16）  | 13 GB  | 24 GB  |  60 GB  | 120 GB  |
+| 量化后大小（4-bit） | 3.9 GB | 7.8 GB | 19.5 GB | 38.5 GB |
 
 ## 合并模型
 
@@ -146,7 +167,7 @@ python scripts/merge_llama_with_chinese_lora.py \
 
 ## 本地快速部署
 
-研究社区已经有很多优秀的模型量化和部署工具帮助用户**很方便地将大模型在自己的电脑上进行本地部署**。接下来以[llama.cpp工具](https://github.com/ggerganov/llama.cpp)为例，介绍MacOS和Linux系统中，将模型进行量化并部署的详细步骤。Windows则可能需要cmake等编译工具的安装，可参考[alpaca.cpp](https://github.com/antimatter15/alpaca.cpp#building-from-source-windows)中的步骤。**本地快速部署体验推荐使用经过指令精调的Alpaca模型。**
+研究社区已经有很多优秀的模型量化和部署工具帮助用户**很方便地将大模型在自己的电脑上进行本地部署**。接下来以[llama.cpp工具](https://github.com/ggerganov/llama.cpp)为例，介绍MacOS和Linux系统中，将模型进行量化并部署的详细步骤。Windows则可能需要cmake等编译工具的安装，可参考[alpaca.cpp](https://github.com/antimatter15/alpaca.cpp#building-from-source-windows)中的步骤（同时参考[#issue 11](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/11)）。**本地快速部署体验推荐使用经过指令精调的Alpaca模型。**
 
 运行前请确保：
 
@@ -154,6 +175,7 @@ python scripts/merge_llama_with_chinese_lora.py \
 2. 加载使用量化后的模型时（例如7B版本），确保本机可用内存大于4-6G（受上下文长度影响）
 3. 系统应有`make`（MacOS/Linux自带）或`cmake`（Windows需自行安装）编译工具
 4. 推荐使用Python 3.9或3.10编译运行[llama.cpp工具](https://github.com/ggerganov/llama.cpp)（因为`sentencepiece`还不支持3.11）
+
 
 ### Step 1: 克隆和编译llama.cpp
 
@@ -398,7 +420,8 @@ python script/crawl_prompt.py output-file
 
 ##### 问题2：后面会有13B、33B、65B的版本吗？
 
-答：现在这个时间节点无法做出保证。
+答：~~现在这个时间节点无法做出保证。~~ 目前确认会推出13B版本模型。其余的版本需要看情况。
+
 
 ##### 问题3：一些任务上效果不好！
 
@@ -408,6 +431,19 @@ python script/crawl_prompt.py output-file
 
 答：原版LLaMA模型的词表大小是32K，其主要针对英语进行训练（具体详见[LLaMA论文](https://arxiv.org/abs/2302.13971v1)），对多语种支持不是特别理想（可以对比一下多语言经典模型XLM-R的词表大小为250K）。通过初步统计发现，LLaMA词表中仅包含很少的中文字符，所以在切词时会把中文切地更碎，需要多个byte token才能拼成一个完整的汉字，进而导致信息密度降低。比如，在扩展词表后的模型中，单个汉字倾向于被切成1个token，而在原版LLaMA中可能就需要2-3个才能组合成一个汉字，显著降低编解码的效率。
 
+## 引用
+
+如果您觉得本项目对您的研究有所帮助或使用了本项目的代码或数据，请参考以下引用（临时）：
+```
+@misc{chinese-llama-alpaca,
+  author = {Yiming Cui and Ziqing Yang},
+  title = {Chinese LLaMA and Alpaca LLMs},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/ymcui/Chinese-LLaMA-Alpaca}},
+}
+```
 
 ## 致谢
 
