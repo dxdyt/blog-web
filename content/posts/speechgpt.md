@@ -1,9 +1,9 @@
 ---
 title: speechgpt
-date: 2023-04-02T12:15:04+08:00
+date: 2023-04-03T12:16:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11971/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11971/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
 ---
 
 # [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt)
@@ -85,7 +85,7 @@ docker build -t speechgpt .
 ```
 2. Run the container.
 ```bash
-docker run -d -p 8080:80 --name=speechgpt speechgpt
+docker run -d -p 8080:8080 --name=speechgpt speechgpt
 ```
 3. Visit `http://localhost:8080/`.
 4. Enjoy!

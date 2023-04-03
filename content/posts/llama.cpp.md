@@ -1,14 +1,16 @@
 ---
 title: llama.cpp
-date: 2023-03-26T12:16:41+08:00
+date: 2023-04-03T12:16:04+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11925/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11925/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11956/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11956/0/1080p
 ---
 
 # [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
 
 # llama.cpp
+
+![llama](https://user-images.githubusercontent.com/1991296/227761327-6d83e30e-2200-41a6-bfbb-f575231c54f4.png)
 
 [![Actions Status](https://github.com/ggerganov/llama.cpp/workflows/CI/badge.svg)](https://github.com/ggerganov/llama.cpp/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -18,9 +20,7 @@ Inference of [LLaMA](https://arxiv.org/abs/2302.13971) model in pure C/C++
 **Hot topics:**
 
 - [Roadmap (short-term)](https://github.com/ggerganov/llama.cpp/discussions/457)
-- New C-style API is now available: https://github.com/ggerganov/llama.cpp/pull/370
-- Cache input prompts for faster initialization: https://github.com/ggerganov/llama.cpp/issues/64
-- Create a `llama.cpp` logo: https://github.com/ggerganov/llama.cpp/issues/105
+- Support for [GPT4All](https://github.com/ggerganov/llama.cpp#using-gpt4all)
 
 ## Description
 
@@ -44,6 +44,14 @@ Supported platforms:
 - [X] Linux
 - [X] Windows (via CMake)
 - [X] Docker
+
+Supported models:
+
+- [X] LLaMA 🦙
+- [X] [Alpaca](https://github.com/ggerganov/llama.cpp#instruction-mode-with-alpaca)
+- [X] [GPT4All](https://github.com/ggerganov/llama.cpp#using-gpt4all)
+- [X] [Chinese LLaMA / Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
+- [X] [Vigogne (French)](https://github.com/bofenghuang/vigogne)
 
 ---
 
@@ -157,8 +165,8 @@ python3 -m pip install torch numpy sentencepiece
 # convert the 7B model to ggml FP16 format
 python3 convert-pth-to-ggml.py models/7B/ 1
 
-# quantize the model to 4-bits
-python3 quantize.py 7B
+# quantize the model to 4-bits (using method 2 = q4_0)
+./quantize ./models/7B/ggml-model-f16.bin ./models/7B/ggml-model-q4_0.bin 2
 
 # run the inference
 ./main -m ./models/7B/ggml-model-q4_0.bin -n 128
@@ -230,6 +238,21 @@ cadaver, cauliflower, cabbage (vegetable), catalpa (tree) and Cailleach.
 > 
 ```
 
+### Using [GPT4All](https://github.com/nomic-ai/gpt4all)
+
+- Obtain the `gpt4all-lora-quantized.bin` model
+- It is distributed in the old `ggml` format which is now obsoleted
+- You have to convert it to the new format using [./convert-gpt4all-to-ggml.py](./convert-gpt4all-to-ggml.py). You may also need to
+convert the model from the old format to the new format with [./migrate-ggml-2023-03-30-pr613.py](./migrate-ggml-2023-03-30-pr613.py):
+
+  ```bash
+  python3 convert-gpt4all-to-ggml.py models/gpt4all-7B/gpt4all-lora-quantized.bin ./models/tokenizer.model 
+  python3 migrate-ggml-2023-03-30-pr613.py models/gpt4all-7B/gpt4all-lora-quantized.bin models/gpt4all-7B/gpt4all-lora-quantized-new.bin
+  ```
+  
+- You can now use the newly generated `gpt4all-lora-quantized-new.bin` model in exactly the same way as all other models
+- The original model is saved in the same folder with a suffix `.orig`
+
 ### Obtaining and verifying the Facebook LLaMA original model and Stanford Alpaca model data
 
 - **Under no circumstances share IPFS, magnet links, or any other links to model downloads anywhere in this respository, including in issues, discussions or pull requests. They will be immediately deleted.**
@@ -256,7 +279,7 @@ cadaver, cauliflower, cabbage (vegetable), catalpa (tree) and Cailleach.
     
 ### Perplexity (Measuring model quality)
 
-You can pass `--perplexity` as a command line option to measure perplexity over the given prompt.  For more background,
+You can use the `perplexity` example to measure perplexity over the given prompt.  For more background,
 see https://huggingface.co/docs/transformers/perplexity.  However, in general, lower perplexity is better for LLMs.
 
 #### Latest measurements
@@ -279,10 +302,10 @@ Perplexity - model options
 #### How to run
 
 1. Download/extract: https://s3.amazonaws.com/research.metamind.io/wikitext/wikitext-2-raw-v1.zip?ref=salesforce-research
-2. Run `./main --perplexity -m models/7B/ggml-model-q4_0.bin -f wiki.test.raw`
+2. Run `./perplexity -m models/7B/ggml-model-q4_0.bin -f wiki.test.raw`
 3. Output:
 ```
-Calculating perplexity over 655 chunks
+perplexity : calculating perplexity over 655 chunks
 24.43 seconds per pass - ETA 4.45 hours
 [1]4.5970,[2]5.1807,[3]6.0382,...
 ```
@@ -290,7 +313,7 @@ And after 4.45 hours, you will have the final perplexity.
 
 ### Android
 
-You can easily run `llama.cpp` on Android device with [termux](https://play.google.com/store/apps/details?id=com.termux).
+You can easily run `llama.cpp` on Android device with [termux](https://termux.dev/).
 First, obtain the [Android NDK](https://developer.android.com/ndk) and then build with CMake:
 ```
 $ mkdir build-android
@@ -299,7 +322,7 @@ $ export NDK=<your_ndk_directory>
 $ cmake -DCMAKE_TOOLCHAIN_FILE=$NDK/build/cmake/android.toolchain.cmake -DANDROID_ABI=arm64-v8a -DANDROID_PLATFORM=android-23 -DCMAKE_C_FLAGS=-march=armv8.4a+dotprod ..
 $ make
 ```
-Install [termux](https://play.google.com/store/apps/details?id=com.termux) on your device and run `termux-setup-storage` to get access to your SD card.
+Install [termux](https://termux.dev/) on your device and run `termux-setup-storage` to get access to your SD card.
 Finally, copy the `llama` binary and the model files to your device storage. Here is a demo of an interactive session running on Pixel 5 phone:
 
 https://user-images.githubusercontent.com/271616/225014776-1d567049-ad71-4ef2-b050-55b0b3b9274c.mp4

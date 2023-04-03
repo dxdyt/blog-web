@@ -1,9 +1,9 @@
 ---
 title: twemoji
-date: 2023-04-02T12:17:17+08:00
+date: 2023-04-03T12:17:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11957/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11957/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11965/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
 ---
 
 # [twitter/twemoji](https://github.com/twitter/twemoji)
