@@ -1,9 +1,9 @@
 ---
 title: helix
-date: 2023-04-03T12:16:30+08:00
+date: 2023-04-04T12:17:16+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11986/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11990/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11990/0/1080p
 ---
 
 # [helix-editor/helix](https://github.com/helix-editor/helix)

@@ -1,9 +1,9 @@
 ---
 title: the-algorithm-ml
-date: 2023-04-03T12:15:45+08:00
+date: 2023-04-04T12:18:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11959/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11959/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11976/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11976/0/1080p
 ---
 
 # [twitter/the-algorithm-ml](https://github.com/twitter/the-algorithm-ml)

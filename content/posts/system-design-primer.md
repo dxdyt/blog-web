@@ -1,6 +1,6 @@
 ---
 title: system-design-primer
-date: 2023-04-03T12:17:15+08:00
+date: 2023-04-04T12:16:33+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/11957/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/11957/0/1080p

@@ -1,9 +1,9 @@
 ---
 title: ai-code-translator
-date: 2023-04-03T12:16:11+08:00
+date: 2023-04-04T12:16:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11983/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11983/0/1080p
 ---
 
 # [mckaywrigley/ai-code-translator](https://github.com/mckaywrigley/ai-code-translator)

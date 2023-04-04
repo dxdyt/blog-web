@@ -1,9 +1,9 @@
 ---
 title: speechgpt
-date: 2023-04-03T12:16:21+08:00
+date: 2023-04-04T12:16:28+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11968/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11968/0/1080p
 ---
 
 # [hahahumble/speechgpt](https://github.com/hahahumble/speechgpt)

@@ -1,9 +1,9 @@
 ---
 title: the-algorithm
-date: 2023-04-03T12:15:38+08:00
+date: 2023-04-04T12:17:56+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11993/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11993/0/1080p
 ---
 
 # [twitter/the-algorithm](https://github.com/twitter/the-algorithm)

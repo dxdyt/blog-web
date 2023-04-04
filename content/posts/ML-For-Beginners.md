@@ -1,9 +1,9 @@
 ---
 title: ML-For-Beginners
-date: 2023-04-03T12:18:49+08:00
+date: 2023-04-04T12:18:27+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11965/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11965/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
 ---
 
 # [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)

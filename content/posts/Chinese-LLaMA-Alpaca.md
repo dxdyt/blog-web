@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca
-date: 2023-04-03T12:17:50+08:00
+date: 2023-04-04T12:17:24+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11977/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11977/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11986/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
@@ -43,7 +43,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11977/0/1080p
 
 ## 新闻
 
-**2023/3/31 发布Release v1.1，主要更新：简化模型合并步骤、添加指令数据爬取脚本、关于新版本llama.cpp的重要提示。具体见：[Release Note](https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v1.1)**
+2023/4/3 添加了转换+量化的notebook，Colab Pro(+)用户可在线转换并下载模型。请参考：[合并模型](#合并模型)
+
+**2023/3/31 发布Release v1.1，主要更新：简化模型合并步骤、添加指令数据爬取脚本、关于新版本llama.cpp的重要提示。请参考：[Release Note](https://github.com/ymcui/Chinese-LLaMA-Alpaca/releases/tag/v1.1)**
 
 2023/3/28 正式开源中文LLaMA、Alpaca大模型，目前提供7B版本下载体验 🎉🎉🎉
 
@@ -116,6 +118,8 @@ chinese_llama_lora_7b/
 
 ## 合并模型
 
+**[New]** 如果你订阅了Google Colab Pro(+)，那么可以使用我们写好的Notebook在线进行合并和量化模型。运行结束后，可按需下载合并后的全量权重以及量化后的权重。具体可查看（`notebooks`目录下也有，供流程参考）：<a href="https://colab.research.google.com/drive/1Eak6azD3MLeb-YsfbP8UZC8wrL1ddIMI?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+
 ### 准备工作
 
 1. 确保机器有足够的内存加载完整模型（例如7B模型需要13-15G）以进行合并模型操作。
@@ -167,12 +171,12 @@ python scripts/merge_llama_with_chinese_lora.py \
 
 ## 本地快速部署
 
-研究社区已经有很多优秀的模型量化和部署工具帮助用户**很方便地将大模型在自己的电脑上进行本地部署**。接下来以[llama.cpp工具](https://github.com/ggerganov/llama.cpp)为例，介绍MacOS和Linux系统中，将模型进行量化并部署的详细步骤。Windows则可能需要cmake等编译工具的安装，可参考[alpaca.cpp](https://github.com/antimatter15/alpaca.cpp#building-from-source-windows)中的步骤（同时参考[#issue 11](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/11)）。**本地快速部署体验推荐使用经过指令精调的Alpaca模型。**
+研究社区已经有很多优秀的模型量化和部署工具帮助用户**很方便地将大模型在自己的电脑上进行本地部署**。接下来以[llama.cpp工具](https://github.com/ggerganov/llama.cpp)为例，介绍MacOS和Linux系统中，将模型进行量化并部署的详细步骤。Windows则可能需要cmake等编译工具的安装，可参考[alpaca.cpp](https://github.com/antimatter15/alpaca.cpp#building-from-source-windows)中的步骤（同时参考[#issue 11](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/11)）。**本地快速部署体验推荐使用经过指令精调的Alpaca模型，有条件的推荐使用FP16模型，效果更佳。**
 
 运行前请确保：
 
 1. 模型量化过程需要将未量化模型全部载入内存，请确保有足够可用内存（7B版本需要13G以上）
-2. 加载使用量化后的模型时（例如7B版本），确保本机可用内存大于4-6G（受上下文长度影响）
+2. 加载使用Q4量化后的模型时（例如7B版本），确保本机可用内存大于4-6G（受上下文长度影响）
 3. 系统应有`make`（MacOS/Linux自带）或`cmake`（Windows需自行安装）编译工具
 4. 推荐使用Python 3.9或3.10编译运行[llama.cpp工具](https://github.com/ggerganov/llama.cpp)（因为`sentencepiece`还不支持3.11）
 
