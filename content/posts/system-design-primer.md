@@ -1,9 +1,9 @@
 ---
 title: system-design-primer
-date: 2023-04-04T12:16:33+08:00
+date: 2023-04-05T12:17:59+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11957/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11957/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
 ---
 
 # [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)

@@ -1,9 +1,9 @@
 ---
 title: ml-stable-diffusion
-date: 2023-04-04T12:15:45+08:00
+date: 2023-04-05T12:17:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11983/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11983/0/1080p
 ---
 
 # [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)

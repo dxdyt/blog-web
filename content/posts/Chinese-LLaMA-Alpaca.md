@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca
-date: 2023-04-04T12:17:24+08:00
+date: 2023-04-05T12:16:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11986/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11981/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11981/0/1080p
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
@@ -118,7 +118,9 @@ chinese_llama_lora_7b/
 
 ## 合并模型
 
-**[New]** 如果你订阅了Google Colab Pro(+)，那么可以使用我们写好的Notebook在线进行合并和量化模型。运行结束后，可按需下载合并后的全量权重以及量化后的权重。具体可查看（`notebooks`目录下也有，供流程参考）：<a href="https://colab.research.google.com/drive/1Eak6azD3MLeb-YsfbP8UZC8wrL1ddIMI?usp=sharing" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> 
+### 在线转换
+
+如果你熟悉Google Colab（如果有Pro以及更高订阅更佳），那么可以使用我们写好的Notebook在线合并和量化模型。运行结束后，可按需下载合并后的全量以及量化后的权重。具体步骤请移步Google Colab笔记本查看和运行（`notebooks`目录下也有，供参考）：[![Open In Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/1Eak6azD3MLeb-YsfbP8UZC8wrL1ddIMI?usp=sharing)
 
 ### 准备工作
 
@@ -171,7 +173,7 @@ python scripts/merge_llama_with_chinese_lora.py \
 
 ## 本地快速部署
 
-研究社区已经有很多优秀的模型量化和部署工具帮助用户**很方便地将大模型在自己的电脑上进行本地部署**。接下来以[llama.cpp工具](https://github.com/ggerganov/llama.cpp)为例，介绍MacOS和Linux系统中，将模型进行量化并部署的详细步骤。Windows则可能需要cmake等编译工具的安装，可参考[alpaca.cpp](https://github.com/antimatter15/alpaca.cpp#building-from-source-windows)中的步骤（同时参考[#issue 11](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/11)）。**本地快速部署体验推荐使用经过指令精调的Alpaca模型，有条件的推荐使用FP16模型，效果更佳。**
+研究社区已经有很多优秀的模型量化和部署工具帮助用户**很方便地将大模型在自己的电脑上进行本地部署**。接下来以[llama.cpp工具](https://github.com/ggerganov/llama.cpp)为例，介绍MacOS和Linux系统中，将模型进行量化并部署的详细步骤。Windows则可能需要cmake等编译工具的安装，可参考[alpaca.cpp](https://github.com/antimatter15/alpaca.cpp#building-from-source-windows)中的步骤（Windows用户出现模型无法理解中文或生成速度特别慢时请参考[FAQ#6](#FAQ)）。**本地快速部署体验推荐使用经过指令精调的Alpaca模型，有条件的推荐使用FP16模型，效果更佳。**
 
 运行前请确保：
 
@@ -434,6 +436,19 @@ python script/crawl_prompt.py output-file
 ##### 问题4：为什么要扩充词表？直接在原版LLaMA上用中文预训练不行吗？
 
 答：原版LLaMA模型的词表大小是32K，其主要针对英语进行训练（具体详见[LLaMA论文](https://arxiv.org/abs/2302.13971v1)），对多语种支持不是特别理想（可以对比一下多语言经典模型XLM-R的词表大小为250K）。通过初步统计发现，LLaMA词表中仅包含很少的中文字符，所以在切词时会把中文切地更碎，需要多个byte token才能拼成一个完整的汉字，进而导致信息密度降低。比如，在扩展词表后的模型中，单个汉字倾向于被切成1个token，而在原版LLaMA中可能就需要2-3个才能组合成一个汉字，显著降低编解码的效率。
+
+##### 问题5：回复内容很短
+
+答：目前已发现Q4量化的模型相对FP16的模型更倾向于给出短答案。可以在prompt中命令输出长回复，比如”请详细说明……“等。其余可能的原因包括训练数据分布、训练参数、解码参数等。
+
+##### 问题6：Windows下，模型无法理解中文、生成速度很慢等问题
+
+答： Windows用户出现模型无法理解中文、生成速度慢时，请参考以下issue中的解决方案。
+- 关于无法理解中文：
+  - [Unicode (Windows) Support for llama.cpp](https://github.com/josStorer/llama.cpp-unicode-windows)（感谢@josStorer开发）
+  - [#issue 11](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/11)（感谢@LainNya、@boholder、@hyperzlib 等人提供解决方案）
+
+- 关于生成速度很慢：[#issue 51](https://github.com/ymcui/Chinese-LLaMA-Alpaca/issues/51)（感谢@wscsjnhboy 提供解决方案）
 
 ## 引用
 
