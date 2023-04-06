@@ -1,9 +1,9 @@
 ---
 title: LMFlow
-date: 2023-04-05T12:15:52+08:00
+date: 2023-04-06T12:16:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12003/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12003/0/1080p
 ---
 
 # [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow)
@@ -19,7 +19,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
         <b>English</b> |
         <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_zh-hans.md">简体中文</a> |
         <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_es.md">Español</a> |
-        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_jp.md">日本語</a>
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_jp.md">日本語</a> |
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_ko.md">한국어</a> |
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_hindi.md">हिंदी</a>
     <p>
 </h4>
 
@@ -28,7 +30,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 [![Doc](https://img.shields.io/badge/Website-Doc-ff69b4.svg)](https://optimalscale.github.io/LMFlow/)
 [![Embark](https://img.shields.io/badge/discord-LMFlow-%237289da.svg?logo=discord)](https://discord.gg/srGxyazbNs)
 [![slack badge](https://img.shields.io/badge/Slack-join-blueviolet?logo=slack&amp)](https://join.slack.com/t/lmflow/shared_invite/zt-1s6egx12s-THlwHuCjF6~JGKmx7JoJPA)
-[![WeChat badge](https://img.shields.io/badge/WeChat-Join-brightgreen?logo=wechat&amp)](https://i.328888.xyz/2023/04/04/ibvpAk.jpeg)
+[![WeChat badge](https://img.shields.io/badge/WeChat-Join-brightgreen?logo=wechat&amp)](https://i.328888.xyz/2023/04/05/i8gG4z.jpeg)
 
 An extensible, convenient, and efficient toolbox for finetuning large machine learning models, designed to be user-friendly, speedy and reliable, and accessible to the entire community.
 
@@ -351,7 +353,7 @@ Whether you are a beginner or an expert, we believe that you can benefit from th
 
 [![Embark](https://img.shields.io/badge/discord-LMFlow-%237289da.svg?logo=discord)](https://discord.gg/srGxyazbNs)
 [![slack badge](https://img.shields.io/badge/Slack-join-blueviolet?logo=slack&amp)](https://join.slack.com/t/lmflow/shared_invite/zt-1s6egx12s-THlwHuCjF6~JGKmx7JoJPA)
-[![WeChat badge](https://img.shields.io/badge/WeChat-Join-brightgreen?logo=wechat&amp)](https://i.328888.xyz/2023/04/04/ibvpAk.jpeg)
+[![WeChat badge](https://img.shields.io/badge/WeChat-Join-brightgreen?logo=wechat&amp)](https://i.328888.xyz/2023/04/05/i8gG4z.jpeg)
 
 ## Disclaimer
 

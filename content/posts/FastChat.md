@@ -1,9 +1,9 @@
 ---
 title: FastChat
-date: 2023-04-05T12:15:59+08:00
+date: 2023-04-06T12:16:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11987/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11987/0/1080p
 ---
 
 # [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
@@ -26,7 +26,8 @@ Join our [Discord](https://discord.gg/h6kCZb72G7) server and follow our [Twitter
 ## Contents
 - [Install](#install)
 - [Vicuna Weights](#vicuna-weights)
-- [Serving](#serving)
+- [Inference with Command Line Interface](#inference-with-command-line-interface)
+- [Serving with Web GUI](#serving-with-web-gui)
 - [Evaluation](#evaluation)
 - [Fine-tuning](#fine-tuning)
 
@@ -79,56 +80,64 @@ python3 -m fastchat.model.apply_delta \
 ### Vicuna-7B
 Coming soon.
 
-## Serving
+## Inference with Command Line Interface
 
-### Command Line Interface
-
-#### Single GPU
+### Single GPU
 The command below requires around 28GB of GPU memory for Vicuna-13B.
 ```
 python3 -m fastchat.serve.cli --model-name /path/to/vicuna/weights
 ```
 
-#### Multi GPU
+### Multiple GPUs
 If you do not have enough GPU memory, you can use model parallelism to aggregate memory from multiple GPUs on the same machine.
 ```
 python3 -m fastchat.serve.cli --model-name /path/to/vicuna/weights --num-gpus 2
 ```
 
-#### CPU Only
+### CPU Only
 This runs on the CPU only and does not require GPU. It requires around 60GB of CPU memory for Vicuna-13B.
 ```
 python3 -m fastchat.serve.cli --model-name /path/to/vicuna/weights --device cpu
 ```
 
-#### Others (Quantization, More Platforms)
-Currently, we only provide some basic commands for running the model.
-We are actively exploring methods to make the model easier to run on more platforms.
+### Others (Quantization, Low-end Devices, and More Platforms)
+
+You can load in 8-bit mode to reduce GPU memory usage with slightly degraded model quality.
+It is tested on a single 4090 and requires around 18GB of GPU memory for Vicuna-13B.
+Note that this mode only works on a single GPU.
+You are also required to install `bitsandbytes` according to the printed messages.
+
+```
+python3 -m fastchat.serve.cli --model-name /path/to/vicuna/weights --load-8bit
+```
+
+Besides, we are actively exploring more methods to make the model easier to run on more platforms.
 Contributions and pull requests are welcome.
 
-### Web UI
+## Serving with Web GUI
 
-#### Launch a controller
+### Launch a controller
 ```bash
 python3 -m fastchat.serve.controller
 ```
 
-#### Launch a model worker
+### Launch a model worker
 ```bash
 python3 -m fastchat.serve.model_worker --model-path /path/to/vicuna/weights
 ```
 Wait until the process finishes loading the model and you see "Uvicorn running on ...".
 
-#### Send a test message
+### Send a test message
 ```bash
 python3 -m fastchat.serve.test_message --model-name vicuna-13b
 ```
 
-#### Launch a gradio web server.
+### Launch a gradio web server.
 ```bash
 python3 -m fastchat.serve.gradio_web_server
 ```
-#### You can open your browser and chat with a model now.
+
+### You can open your browser and chat with a model now.
 
 ## Evaluation
 

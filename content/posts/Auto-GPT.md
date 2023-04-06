@@ -1,9 +1,9 @@
 ---
 title: Auto-GPT
-date: 2023-04-05T12:15:37+08:00
+date: 2023-04-06T12:15:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11981/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11981/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 ---
 
 # [Torantulino/Auto-GPT](https://github.com/Torantulino/Auto-GPT)

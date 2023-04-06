@@ -1,9 +1,9 @@
 ---
 title: langchain
-date: 2023-03-30T12:18:59+08:00
+date: 2023-04-06T12:18:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11949/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11949/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11979/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
 ---
 
 # [hwchase17/langchain](https://github.com/hwchase17/langchain)

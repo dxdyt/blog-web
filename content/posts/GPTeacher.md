@@ -1,9 +1,9 @@
 ---
 title: GPTeacher
-date: 2023-04-05T12:18:31+08:00
+date: 2023-04-06T12:18:03+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11986/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 ---
 
 # [teknium1/GPTeacher](https://github.com/teknium1/GPTeacher)

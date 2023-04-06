@@ -1,9 +1,9 @@
 ---
 title: trurl
-date: 2023-04-05T12:16:05+08:00
+date: 2023-04-06T12:17:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
 ---
 
 # [curl/trurl](https://github.com/curl/trurl)
@@ -12,7 +12,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 
 command line tool for URL parsing and manipulation
 
-[original idea](https://curl.se/mail/archive-2023-03/0030.html)
+[video presentation](https://youtu.be/oDL7DVszr2w)
 
 ## Example command lines
 

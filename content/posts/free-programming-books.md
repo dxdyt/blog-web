@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-04-05T12:18:44+08:00
+date: 2023-04-06T12:18:39+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11979/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
