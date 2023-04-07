@@ -1,9 +1,9 @@
 ---
 title: BingGPT
-date: 2023-03-29T12:18:07+08:00
+date: 2023-04-07T12:16:53+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11953/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11993/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11993/0/1080p
 ---
 
 # [dice2o/BingGPT](https://github.com/dice2o/BingGPT)
@@ -27,22 +27,22 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
 
 ### Windows
 
-- [BingGPT-0.3.1-win32-x64-Setup.exe](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-win32-x64-Setup.exe) (Installer)
-- [BingGPT-0.3.1-win32-x64.zip](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-win32-x64.zip) (Portable)
-- [BingGPT-0.3.1-win32-arm64-Setup.exe](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-win32-arm64-Setup.exe) (Installer)
-- [BingGPT-0.3.1-win32-arm64.zip](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-win32-arm64.zip) (Portable)
+- [BingGPT-0.3.2-win32-x64-Setup.exe](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-win32-x64-Setup.exe) (Installer)
+- [BingGPT-0.3.2-win32-x64.zip](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-win32-x64.zip) (Portable)
+- [BingGPT-0.3.2-win32-arm64-Setup.exe](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-win32-arm64-Setup.exe) (Installer)
+- [BingGPT-0.3.2-win32-arm64.zip](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-win32-arm64.zip) (Portable)
 
 ### macOS
 
-- [BingGPT-0.3.1-darwin-arm64.dmg](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-darwin-arm64.dmg) (Apple Silicon)
-- [BingGPT-0.3.1-darwin-x64.dmg](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-darwin-x64.dmg) (Intel chips)
+- [BingGPT-0.3.2-darwin-arm64.dmg](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-darwin-arm64.dmg) (Apple Silicon)
+- [BingGPT-0.3.2-darwin-x64.dmg](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-darwin-x64.dmg) (Intel chips)
 
 ### Linux
 
-- [BingGPT-0.3.1-linux-x64.deb](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-linux-x64.deb)
-- [BingGPT-0.3.1-linux-arm64.deb](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-linux-arm64.deb)
-- [BingGPT-0.3.1-linux-x64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-linux-x64.rpm)
-- [BingGPT-0.3.1-linux-arm64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.1/BingGPT-0.3.1-linux-arm64.rpm)
+- [BingGPT-0.3.2-linux-x64.deb](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-linux-x64.deb)
+- [BingGPT-0.3.2-linux-arm64.deb](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-linux-arm64.deb)
+- [BingGPT-0.3.2-linux-x64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-linux-x64.rpm)
+- [BingGPT-0.3.2-linux-arm64.rpm](https://github.com/dice2o/BingGPT/releases/download/v0.3.2/BingGPT-0.3.2-linux-arm64.rpm)
 
 ## Usage
 
@@ -50,14 +50,32 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11953/0/1080p
 - Sign in to your Microsoft account
 - Start chatting
 
-**Note: VPN is required when launching the app if new Bing is not available in your area. Make sure `bing.com` and its subdomains are included in proxy rules.**
+**Note: VPN is required if new Bing is not available in your area. Make sure `bing.com` and its subdomains are included in proxy rules.**
 
 ## Features
 
 - Chat with new Bing without installing Microsoft Edge or browser plugins
 - Export full conversation to Markdown, PNG or PDF
 - Customize appearance (theme & font size)
+- Keyboard shortcuts
 - Multi-platform
+
+## Shortcuts
+
+| Action            | Shortcut                                        |
+| ----------------- | ----------------------------------------------- |
+| New topic         | <kbd>Ctrl/Cmd</kbd> + <kbd>N</kbd>              |
+| Switch tone       | <kbd>Ctrl/Cmd</kbd> + <kbd><</kbd> <kbd>></kbd> |
+| Quick reply       | <kbd>Ctrl/Cmd</kbd> + <kbd>Number</kbd>         |
+| Focus on textarea | <kbd>Ctrl/Cmd</kbd> + <kbd>I</kbd>              |
+| Stop responding   | <kbd>Ctrl/Cmd</kbd> + <kbd>S</kbd>              |
+| Always on top     | <kbd>Ctrl/Cmd</kbd> + <kbd>T</kbd>              |
+| Reload            | <kbd>Ctrl/Cmd</kbd> + <kbd>R</kbd>              |
+| Set font size     | <kbd>Ctrl/Cmd</kbd> + <kbd>+</kbd> <kbd>-</kbd> |
+
+<kbd>Ctrl</kbd> - Windows and Linux
+
+<kbd>Cmd(⌘)</kbd> - macOS
 
 ## Screenshot
 

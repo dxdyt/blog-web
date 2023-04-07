@@ -1,9 +1,9 @@
 ---
 title: langchain-ChatGLM
-date: 2023-04-06T12:16:42+08:00
+date: 2023-04-07T12:18:31+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12002/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11993/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11993/0/1080p
 ---
 
 # [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)
@@ -20,7 +20,25 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
 
 ✅ 本项目中 Embedding 选用的是 [GanymedeNil/text2vec-large-chinese](https://huggingface.co/GanymedeNil/text2vec-large-chinese/tree/main)，LLM 选用的是 [ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)。依托上述模型，本项目可实现全部使用**开源**模型**离线私有部署**。
 
+## 更新信息
+
+**[2023/04/07]** 
+1. 解决加载 ChatGLM 模型时发生显存占用为双倍的问题 (感谢 [@suc16](https://github.com/suc16) 和 [@myml](https://github.com/myml)) ；
+2. 新增清理显存机制。
 ## 使用方式
+
+### 硬件需求
+- ChatGLM-6B 模型硬件需求
+    
+    | **量化等级**   | **最低 GPU 显存**（推理） | **最低 GPU 显存**（高效参数微调） |
+    | -------------- | ------------------------- | --------------------------------- |
+    | FP16（无量化） | 13 GB                     | 14 GB                             |
+    | INT8           | 8 GB                     | 9 GB                             |
+    | INT4           | 6 GB                      | 7 GB                              |
+
+- Embedding 模型硬件需求
+
+    本项目中默认选用的 Embedding 模型 [GanymedeNil/text2vec-large-chinese](https://huggingface.co/GanymedeNil/text2vec-large-chinese/tree/main) 约占用显存 3GB，也可修改为在 CPU 中运行。
 
 ### 1. 安装 python 依赖包
 ```commandline
@@ -32,6 +50,10 @@ pip install -r requirements
 ```commandline
 python knowledge_based_chatglm.py
 ```
+### 已知问题
+- 目前已测试支持 txt、docx、md 格式文件，更多文件格式请参考 [langchain 文档](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/unstructured_file.html)，目前已知文档中若含有特殊字符，可能存在文件无法加载的问题；
+- 使用 macOS 运行本项目时，可能因为 macOS 版本为 13.3 及以上版本导致与 pytorch 不兼容，无法正常运行的情况。
+
 ## DEMO
 以问题`chatglm-6b 的局限性具体体现在哪里，如何实现改进`为例
 

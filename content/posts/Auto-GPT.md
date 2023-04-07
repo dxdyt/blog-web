@@ -1,9 +1,9 @@
 ---
 title: Auto-GPT
-date: 2023-04-06T12:15:44+08:00
+date: 2023-04-07T12:15:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 ---
 
 # [Torantulino/Auto-GPT](https://github.com/Torantulino/Auto-GPT)
@@ -102,6 +102,7 @@ pip install -r requirements.txt
 4. Rename `.env.template` to `.env` and fill in your `OPENAI_API_KEY`. If you plan to use Speech Mode, fill in your `ELEVEN_LABS_API_KEY` as well.
   - Obtain your OpenAI API key from: https://platform.openai.com/account/api-keys.
   - Obtain your ElevenLabs API key from: https://elevenlabs.io. You can view your xi-api-key using the "Profile" tab on the website.
+  - If you want to use GPT on an Azure instance, set `USE_AZURE` to `True` and provide the `OPENAI_API_BASE`, `OPENAI_API_VERSION` and `OPENAI_DEPLOYMENT_ID` values as explained here: https://pypi.org/project/openai/ in the `Microsoft Azure Endpoints` section
 
 ## 🔧 Usage
 
@@ -148,6 +149,35 @@ export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
 export CUSTOM_SEARCH_ENGINE_ID="YOUR_CUSTOM_SEARCH_ENGINE_ID"
 
 ```
+
+## 🌲 Pinecone API Key Setup
+
+Pinecone enable a vector based memory so a vast memory can be stored and only relevant memories
+are loaded for the agent at any given time.
+
+1. Go to app.pinecone.io and make an account if you don't already have one.
+2. Choose the `Starter` plan to avoid being charged.
+3. Find your API key and region under the default project in the left sidebar.
+
+### Setting up environment variables
+   For Windows Users:
+```
+setx PINECONE_API_KEY "YOUR_PINECONE_API_KEY"
+export PINECONE_ENV="Your pinecone region" # something like: us-east4-gcp
+
+```
+For macOS and Linux users:
+```
+export PINECONE_API_KEY="YOUR_PINECONE_API_KEY"
+export PINECONE_ENV="Your pinecone region" # something like: us-east4-gcp
+
+```
+
+Or you can set them in the `.env` file.
+
+## View Memory Usage
+
+1. View memory usage by using the `--debug` flag :)
 
 ## 💀 Continuous Mode ⚠️
 Run the AI **without** user authorisation, 100% automated.

@@ -1,9 +1,9 @@
 ---
 title: LMFlow
-date: 2023-04-06T12:16:10+08:00
+date: 2023-04-07T12:18:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12003/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12003/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 ---
 
 # [OptimalScale/LMFlow](https://github.com/OptimalScale/LMFlow)
@@ -17,11 +17,11 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12003/0/1080p
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_zh-hans.md">简体中文</a> |
-        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_es.md">Español</a> |
-        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_jp.md">日本語</a> |
-        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_ko.md">한국어</a> |
-        <a href="https://github.com/OptimalScale/LMFlow/blob/main/README_hindi.md">हिंदी</a>
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/readme/README_zh-hans.md">简体中文</a> |
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/readme/README_es.md">Español</a> |
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/readme/README_jp.md">日本語</a> |
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/readme/README_ko.md">한국어</a> |
+        <a href="https://github.com/OptimalScale/LMFlow/blob/main/readme/README_hindi.md">हिंदी</a>
     <p>
 </h4>
 
@@ -310,6 +310,12 @@ You can now evaluate with the finetuned llama model.
 
 ### 4.2 DeepSpeed Config
 You can config the deepspeed under configs. Details can be referred at [DeepSpeed Configuration](https://www.deepspeed.ai/docs/config-json/)
+
+
+### 4.3 LLaMA Inference on CPU
+
+Thanks to the great efforts of [llama.cpp](https://github.com/ggerganov/llama.cpp). It is possible for everyone to run their LLaMA models on CPU by 4-bit quantization. We provide a script to convert LLaMA LoRA weights to `.pt` files. You only need to use `convert-pth-to-ggml.py` in llama.cpp to perform quantization.
+
 
 ## 5. Model Release
 

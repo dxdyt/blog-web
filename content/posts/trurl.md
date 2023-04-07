@@ -1,9 +1,9 @@
 ---
 title: trurl
-date: 2023-04-06T12:17:32+08:00
+date: 2023-04-07T12:17:38+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12002/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
 ---
 
 # [curl/trurl](https://github.com/curl/trurl)

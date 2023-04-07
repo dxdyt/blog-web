@@ -1,9 +1,9 @@
 ---
 title: JARVIS
-date: 2023-04-06T12:15:53+08:00
+date: 2023-04-07T12:15:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11993/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11993/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11976/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11976/0/1080p
 ---
 
 # [microsoft/JARVIS](https://github.com/microsoft/JARVIS)
@@ -40,12 +40,14 @@ We introduce a collaborative system that consists of **an LLM as the controller*
 ### Default
 
 + Ubuntu 16.04 LTS
-+ NVIDIA GeForce RTX 3090 * 1
++ VRAM >= 12GB
 + RAM > 12GB (minimal), 16GB (standard), 42GB (full)
++ Disk > 78G (with 42G for `damo-vilab/text-to-video-ms-1.7b`)
   
 ### Minimum
 
 + Ubuntu 16.04 LTS
++ Nothing else
 
 The configuration `lite.yaml` does not require any expert models to be downloaded and deployed locally. However, it means that Jarvis is restricted to models running stably on HuggingFace Inference Endpoints.
 
@@ -58,8 +60,6 @@ First replace `openai.key` and `huggingface.token` in `server/config.yaml` with 
 <span id="Server"></span>
 
 ### For Server:
-
-
 
 ```bash
 # setup env
@@ -114,6 +114,9 @@ cd web
 npm install
 npm run dev
 ```
+
+Here's a tip, you can switch to ChatGPT by `double click` on the setting icon!
+
 Note that in order to display the video properly in HTML, you need to compile `ffmpeg` manually with H.264
 
 ```bash
