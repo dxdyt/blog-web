@@ -1,9 +1,9 @@
 ---
 title: babyagi
-date: 2023-04-07T12:16:06+08:00
+date: 2023-04-08T12:15:31+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11979/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
 ---
 
 # [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi)

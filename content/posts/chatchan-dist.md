@@ -1,9 +1,9 @@
 ---
 title: chatchan-dist
-date: 2023-04-07T12:17:29+08:00
+date: 2023-04-08T12:17:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11973/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11973/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 ---
 
 # [easychen/chatchan-dist](https://github.com/easychen/chatchan-dist)

@@ -1,9 +1,9 @@
 ---
 title: AI-Functions
-date: 2023-04-07T12:18:44+08:00
+date: 2023-04-08T12:17:12+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11990/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11990/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
 ---
 
 # [Torantulino/AI-Functions](https://github.com/Torantulino/AI-Functions)

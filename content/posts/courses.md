@@ -1,9 +1,9 @@
 ---
 title: courses
-date: 2023-04-07T12:17:08+08:00
+date: 2023-04-08T12:17:37+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11990/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11990/0/1080p
 ---
 
 # [SkalskiP/courses](https://github.com/SkalskiP/courses)

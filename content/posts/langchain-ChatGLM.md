@@ -1,9 +1,9 @@
 ---
 title: langchain-ChatGLM
-date: 2023-04-07T12:18:31+08:00
+date: 2023-04-08T12:16:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11993/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11993/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 ---
 
 # [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)
@@ -25,6 +25,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11993/0/1080p
 **[2023/04/07]** 
 1. 解决加载 ChatGLM 模型时发生显存占用为双倍的问题 (感谢 [@suc16](https://github.com/suc16) 和 [@myml](https://github.com/myml)) ；
 2. 新增清理显存机制。
+3. 新增`nghuyong/ernie-3.0-nano-zh`和`nghuyong/ernie-3.0-base-zh`作为 Embedding 模型备选项，相比`GanymedeNil/text2vec-large-chinese`占用显存资源更少 (感谢 [@ywancit](https://github.com/ywancit))。
+
 ## 使用方式
 
 ### 硬件需求

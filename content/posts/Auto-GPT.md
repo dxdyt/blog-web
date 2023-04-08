@@ -1,9 +1,9 @@
 ---
 title: Auto-GPT
-date: 2023-04-07T12:15:49+08:00
+date: 2023-04-08T12:15:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
 ---
 
 # [Torantulino/Auto-GPT](https://github.com/Torantulino/Auto-GPT)
@@ -69,6 +69,7 @@ Your support is greatly appreciated
 ## 📋 Requirements
 - [Python 3.7 or later](https://www.tutorialspoint.com/how-to-install-python-in-windows)
 - OpenAI API key
+- PINECONE API key
 
 Optional:
 - ElevenLabs Key (If you want the AI to speak)
