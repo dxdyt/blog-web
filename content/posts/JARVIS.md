@@ -1,9 +1,9 @@
 ---
 title: JARVIS
-date: 2023-04-08T12:16:14+08:00
+date: 2023-04-09T12:15:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12011/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12011/0/1080p
 ---
 
 # [microsoft/JARVIS](https://github.com/microsoft/JARVIS)
@@ -30,7 +30,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
 
 Language serves as an interface for LLMs to connect numerous AI models for solving complicated AI tasks!
 
-See our paper: [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](http://arxiv.org/abs/2303.17580), Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu and Yueting Zhuang
+See our paper: [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](http://arxiv.org/abs/2303.17580), Yongliang Shen, Kaitao Song, Xu Tan, Dongsheng Li, Weiming Lu and Yueting Zhuang (the first two authors contribute equally)
 
 <p align="center"><img src="./assets/overview.jpg"></p>
 
@@ -111,16 +111,17 @@ curl --location 'http://localhost:8004/tasks' \
 ### For Web:
 
 We provide a user-friendly web page. After starting `awesome_chat.py` in a server mode, you can run the commands to communicate with Jarvis in your browser:
+ 
+- you need to install `nodejs` and `npm` first.
+- if you are running the web client on another machine, you need set `http://{LAN_ip_of_the_server}:{port}/` to `web/src/api/hugginggpt.ts@Line=9`.
+- if you want to use the video generation feature, you need to compile `ffmpeg` manually with H.264.
+- you can switch to ChatGPT by `double click` on the setting icon!
 
 ```bash
 cd web
 npm install
 npm run dev
 ```
-
-Here's a tip, you can switch to ChatGPT by `double click` on the setting icon!
-
-Note that in order to display the video properly in HTML, you need to compile `ffmpeg` manually with H.264
 
 ```bash
 # Optional: Install ffmpeg

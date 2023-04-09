@@ -1,9 +1,9 @@
 ---
 title: free-programming-books-zh_CN
-date: 2023-04-07T12:17:20+08:00
+date: 2023-04-09T12:17:34+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12019/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12019/0/1080p
 ---
 
 # [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)

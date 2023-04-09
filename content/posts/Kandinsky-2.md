@@ -1,9 +1,9 @@
 ---
 title: Kandinsky-2
-date: 2023-04-07T12:15:56+08:00
+date: 2023-04-09T12:15:46+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11987/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11987/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12003/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12003/0/1080p
 ---
 
 # [ai-forever/Kandinsky-2](https://github.com/ai-forever/Kandinsky-2)

@@ -1,9 +1,9 @@
 ---
 title: segment-anything
-date: 2023-04-08T12:15:05+08:00
+date: 2023-04-09T12:14:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12002/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12019/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12019/0/1080p
 ---
 
 # [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)

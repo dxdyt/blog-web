@@ -1,9 +1,9 @@
 ---
 title: langchain-ChatGLM
-date: 2023-04-08T12:16:25+08:00
+date: 2023-04-09T12:16:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
 ---
 
 # [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)
@@ -25,7 +25,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 **[2023/04/07]** 
 1. 解决加载 ChatGLM 模型时发生显存占用为双倍的问题 (感谢 [@suc16](https://github.com/suc16) 和 [@myml](https://github.com/myml)) ；
 2. 新增清理显存机制。
-3. 新增`nghuyong/ernie-3.0-nano-zh`和`nghuyong/ernie-3.0-base-zh`作为 Embedding 模型备选项，相比`GanymedeNil/text2vec-large-chinese`占用显存资源更少 (感谢 [@ywancit](https://github.com/ywancit))。
+3. 新增`nghuyong/ernie-3.0-nano-zh`和`nghuyong/ernie-3.0-base-zh`作为 Embedding 模型备选项，相比`GanymedeNil/text2vec-large-chinese`占用显存资源更少 (感谢 [@lastrei](https://github.com/lastrei))。
 
 ## 使用方式
 
@@ -44,7 +44,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 
 ### 1. 安装 python 依赖包
 ```commandline
-pip install -r requirements
+pip install -r requirements.txt
 ```
 注：使用 langchain.document_loaders.UnstructuredFileLoader 进行非结构化文件接入时，可能需要依据文档进行其他依赖包的安装，请参考 [langchain 文档](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/unstructured_file.html)
 
