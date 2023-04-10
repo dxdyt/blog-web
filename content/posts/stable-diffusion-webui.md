@@ -1,9 +1,9 @@
 ---
 title: stable-diffusion-webui
-date: 2023-04-09T12:17:19+08:00
+date: 2023-04-10T12:17:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11990/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11990/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
 ---
 
 # [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)

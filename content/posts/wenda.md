@@ -1,14 +1,14 @@
 ---
 title: wenda
-date: 2023-04-06T12:18:33+08:00
+date: 2023-04-10T12:17:00+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11986/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 ---
 
 # [l15y/wenda](https://github.com/l15y/wenda)
 
-# 闻达：一个大型语言模型调用平台
+# 闻达：一个大规模语言模型调用平台
 ## 简介
 1. 目前支持模型：`chatGLM-6B`、`chatRWKV`、`chatYuan`。
 2. 知识库自动查找
@@ -16,12 +16,13 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
 4. 支持`chatGLM-6B`、`chatRWKV`流式输出和输出过程中中断
 5. 自动保存对话历史至浏览器（多用户同时使用不会冲突）
 6. 对话历史管理（删除单条、清空）
-7. 支持局域网、内网部署和多用户同时使用。（内网部署需手动将前段静态资源切换成本地）
+7. 支持局域网、内网部署和多用户同时使用。（内网部署需手动将前端静态资源切换成本地）
 8. 多用户同时使用中会自动排队，并显示当前用户。
 
 **欢迎同学们制作教学视频、懒人包等，做好请和我联系，我会把相关链接加到readme里**
----
 
+**交流QQ群：162451840**
+##  截图
 #### 设置和预设功能
 ![](imgs/setting.png)
 #### 预设功能使用
@@ -36,22 +37,38 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11986/0/1080p
 1. 旧版包含程序主体和chatGLM-6B、chatYuan，分别是独立的压缩文件。
 2. chatRWKV模型更新频繁，请去官方链接下最新的。暂不支持chatPDF功能，很快就加上。
 3. 新版暂时只有chatGLM-6B，但重新制作，体积更新，包含各种优化，集成知识库功能，推荐使用。
-## 安装
+## 自行安装
 ### 1.安装库
-```pip install -r requirements.txt```
+知识库索引模式：```pip install -r requirements-sy.txt```
+知识库语义模式：```pip install -r requirements-yy.txt```
 ### 2.下载模型
 根据需要，下载对应模型。
 
 建议使用chatRWKV的RWKV-4-Raven-7B-v7-ChnEng-20230404-ctx2048（截止4月6日效果较好），或chatGLM-6B。
-## 知识库功能(当前在chatGLM-6B模型实现）
-### 准备
-#### 1.下载中文sentence transformers模型
-下载[simcse-chinese-roberta-wwm-ext](https://huggingface.co/cyclone/simcse-chinese-roberta-wwm-ext)，放在`model\simcse-chinese-roberta-wwm-ext`。
-#### 2.索引语料
+
+### 3.参数设置
+根据`settings.bat`中说明，填写你的模型下载位置等信息
+### 4.生成知识库
+将txt格式的语料放到txt文件夹中，运行`run_data_processing.bat`。
+## 知识库
+知识库最终效果是生成一些提示信息，会插入到对话里面。
+首先要把txt目录下的文件喂给一个类似搜索引擎的东西，然后在对话过程中去查询这个搜索引擎获得提示信息，然后在回答之前插入提示信息，知识库的数据就被模型知道了。
+主要是有以下两种方案：
+1.    s模式，基于 whoosh 搜索引擎，生成提示语。
+ 2.   x模式，基于 model/simcse-chinese-roberta-wwm-ext 模型，去生成提示语
+为防止爆显存，插入的数据不能太长，所以有字数限制
+
+####  chatGLM-6B模型
+![](imgs/zsk-glm.png)
+
+
+#### chatRWKV模型
+![](imgs/zsk-rwkv.png)
+### 1.索引语料
 把自己的txt格式的文档放在名为txt的文件夹里，运行:
 ```run_data_processing.bat```
-### 使用
-chatGLM-6B正常使用中，勾选右上角chatPDF
+### 2.使用
+正常使用中，勾选右上角知识库
 ## chatGLM-6B
 运行：`run_GLM6B.bat`。
 
@@ -76,4 +93,12 @@ YuanAPI.py
 模型默认位置：ChatYuan-large-v2
 
 这个最轻量，是电脑都能跑，但是智力差点
-
+## TODO
+实现以下知识库插件：
+```
+文本检索-完成
+语义向量-完成-待优化
+知识图谱
+行业数据库
+搜索引擎
+```

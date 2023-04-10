@@ -1,9 +1,9 @@
 ---
 title: Python-100-Days
-date: 2023-04-09T12:16:57+08:00
+date: 2023-04-10T12:16:14+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
 ---
 
 # [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)

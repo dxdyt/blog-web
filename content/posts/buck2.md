@@ -1,6 +1,6 @@
 ---
 title: buck2
-date: 2023-04-09T12:14:59+08:00
+date: 2023-04-10T12:15:58+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12013/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12013/0/1080p

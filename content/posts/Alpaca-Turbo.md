@@ -1,9 +1,9 @@
 ---
 title: Alpaca-Turbo
-date: 2023-04-08T12:16:19+08:00
+date: 2023-04-10T12:17:59+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11979/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12003/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12003/0/1080p
 ---
 
 # [ViperX7/Alpaca-Turbo](https://github.com/ViperX7/Alpaca-Turbo)

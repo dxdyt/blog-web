@@ -1,9 +1,9 @@
 ---
 title: VideoCrafter
-date: 2023-04-09T12:16:50+08:00
+date: 2023-04-10T12:17:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11983/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11983/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11997/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11997/0/1080p
 ---
 
 # [VideoCrafter/VideoCrafter](https://github.com/VideoCrafter/VideoCrafter)
@@ -116,10 +116,18 @@ input text: `Ironman is fighting against the enemy, big fire in the background, 
 ---
 ## ⚙️ Setup
 
-
+Choose one of the following three approaches.
 <!-- <details><summary>CLICK ME for installing environment via Anaconda </summary> -->
+### 1. Install Environment via Anaconda (Recommended)
+```bash
+conda create -n lvdm python=3.8.5
+conda activate lvdm
+pip install -r requirements.txt
+```
 
-### Installing environment via Anaconda
+### 2. Install Environment Manually
+<details><summary>CLICK ME to show details</summary>
+
 ```bash
 conda create -n lvdm python=3.8.5
 conda activate lvdm
@@ -129,10 +137,10 @@ pip install opencv-python==4.1.2.30 imageio==2.9.0 imageio-ffmpeg==0.4.2
 pip install av moviepy
 pip install -e .
 ```
-
 </details>
 
-### Installing environment which supports xformer
+### 3. Install Environment with xFormers
+Useful for saving GPU memory
 ```bash
 conda create -n lvdm python=3.8.5
 conda activate lvdm

@@ -1,9 +1,9 @@
 ---
 title: SadTalker
-date: 2023-04-09T12:16:22+08:00
+date: 2023-04-10T12:17:07+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 ---
 
 # [Winfredy/SadTalker](https://github.com/Winfredy/SadTalker)
@@ -53,7 +53,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
 
 https://user-images.githubusercontent.com/4397546/222513483-89161f58-83d0-40e4-8e41-96c32b47bd4e.mp4
 
-- 🔥 `full image mode` is online! checkout [here](https://github.com/Winfredy/SadTalker#beta-full-bodyimage-generation) for more details.
+- 🔥 `full image mode` is online! checkout [here](https://github.com/Winfredy/SadTalker#full-bodyimage-generation) for more details.
 
 | still+enhancer in v0.0.1                 | still + enhancer   in v0.0.2       |   [input image @bagbag1815](https://twitter.com/bagbag1815/status/1642754319094108161) |
 |:--------------------: |:--------------------: | :----: |
@@ -69,28 +69,6 @@ https://user-images.githubusercontent.com/4397546/222513483-89161f58-83d0-40e4-8
 - __[2023.04.08]__: ❗️❗️❗️ In v0.0.2, we add a logo watermark to the generated video to prevent abusing since it is very realistic.
 
 - __[2023.04.08]__: v0.0.2, full image animation, adding baidu driver for download checkpoints. Optimizing the logic about enhancer.
-
-- __[2023.04.06]__: stable-diffiusion webui extension is release.
-
-- __[2023.04.03]__: Enable TTS in huggingface and gradio local demo.
-
-- __[2023.03.30]__: Launch beta version of the full body mode.
-
-- __[2023.03.30]__: Launch new feature: through using reference videos, our algorithm can generate videos with more natural eye blinking and some eyebrow movement.
-
-- __[2023.03.29]__: `resize mode` is online by `python infererence.py --preprocess resize`! Where we can produce a larger crop of the image as discussed in https://github.com/Winfredy/SadTalker/issues/35.
-
-- __[2023.03.29]__: local gradio demo is online! `python app.py` to start the demo. New `requirments.txt` is used to avoid the bugs in `librosa`.
-
-- __[2023.03.28]__: Online demo is launched in [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/vinthony/SadTalker), thanks AK!
-
-
-## 🎼 Pipeline
-![main_of_sadtalker](https://user-images.githubusercontent.com/4397546/222490596-4c8a2115-49a7-42ad-a2c3-3bb3288a5f36.png) 
-> Our method uses the coefficients of 3DMM as intermediate motion representation. To this end, we first generate
-realistic 3D motion coefficients (facial expression β, head pose ρ)
-from audio, then these coefficients are used to implicitly modulate
-the 3D-aware face render for final video generation.
 
 
 ## 🚧 TODO
@@ -110,9 +88,7 @@ the 3D-aware face render for final video generation.
 - [x] integrade with stable-diffusion-web-ui. (stay tunning!)
 
 
-
-
-## ⚙️ Installation ([中文教程](https://www.bilibili.com/video/BV17N411P7m7/?vd_source=653f1e6e187ffc29a9b677b6ed23169a))
+## ⚙️ Installation ([中文windows教程](https://www.bilibili.com/video/BV1Dc411W7V6/)|[日本語コース](https://br-d.fanbox.cc/posts/5685086?utm_campaign=manage_post_page&utm_medium=share&utm_source=twitter) )
 
 #### Installing Sadtalker on Linux:
 
@@ -144,7 +120,7 @@ More tips about installnation on Windows and the Docker file can be founded [her
 Installing the lastest version of [stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and install the sadtalker via `extension`.
 <img width="726" alt="image" src="https://user-images.githubusercontent.com/4397546/230698519-267d1d1f-6e99-4dd4-81e1-7b889259efbd.png">
 
-Then, retarting the stable-diffusion-webui, set some commandline args. The models will be downloaded automatically in the right place. Alternatively, you can add the path of pre-downloaded sadtalker checkpoints to `SADTALKTER_CHECKPOINTS` in `webui_user.sh`(linux) or `webui_user.bat`(windows) by:
+Then, restarting the stable-diffusion-webui(The models will be downloaded automatically in the right place if you have a good speed network). Or (**Important**!) you need pre-download sadtalker checkpoints to `SADTALKTER_CHECKPOINTS` in `webui_user.sh`(linux) or `webui_user.bat`(windows) by:
 
 ```bash
 # windows (webui_user.bat)
@@ -156,12 +132,11 @@ export COMMANDLINE_ARGS=--no-gradio-queue  --disable-safe-unpickle
 export SADTALKER_CHECKPOINTS=/path/to/SadTalker/checkpoints
 ```
 
-After installation, the SadTalker can be used in stable-diffusion-webui directly. 
+After installation, the SadTalker can be used in stable-diffusion-webui directly. (Some [important discussion](https://github.com/Winfredy/SadTalker/issues/78) if you are unable to use `full` mode).
 
 <img width="726" alt="image" src="https://user-images.githubusercontent.com/4397546/230698614-58015182-2916-4240-b324-e69022ef75b3.png">
 
 </details>
-
 
 
 #### Download Trained Models
@@ -192,87 +167,21 @@ OR we provided the downloaded model in [百度云盘](https://pan.baidu.com/s/1n
 
 </details>
 
-## 🔮 Quick Start
+## 🔮 Quick Start ([Best Practice](docs/best_practice.md))
 
-#### Generating 2D face from a single Image from default config.
+#### Animating Portrait Image from default config.
 
 ```bash
-python inference.py --driven_audio <audio.wav> --source_image <video.mp4 or picture.png> 
+python inference.py --driven_audio <audio.wav> --source_image <video.mp4 or picture.png> --enhancer gfpgan 
 ```
 The results will be saved in `results/$SOME_TIMESTAMP/*.mp4`.
 
-Or a local gradio demo similar to our [hugging-face demo](https://huggingface.co/spaces/vinthony/SadTalker) can be run by:
-
-```bash
-
-## you need manually install TTS(https://github.com/coqui-ai/TTS) via `pip install tts` in advanced.
-
-python app.py
-```
-
-#### Advanced Configuration
-
-<details><summary> Click Me </summary>
-
-| Name        | Configuration | default |   Explaination  | 
-|:------------- |:------------- |:----- | :------------- |
-| Enhance Mode | `--enhancer` | None | Using `gfpgan` or `RestoreFormer` to enhance the generated face via face restoration network 
-| Background Enhancer | `--background_enhancer` | None | Using `realesrgan` to enhance the full video. 
-| Still Mode   | ` --still` | False |  Using the same pose parameters as the original image, fewer head motion.
-| Expressive Mode | `--expression_scale` | 1.0 | a larger value will make the expression motion stronger.
-| save path | `--result_dir` |`./results` | The file will be save in the newer location.
-| preprocess | `--preprocess` | `crop` | Run and produce the results in the croped input image. Other choices: `resize`, where the images will be resized to the specific resolution. `full` Run the full image animation, use with `--still` to get better results.
-| ref Mode (eye) | `--ref_eyeblink` | None | A video path, where we borrow the eyeblink from this reference video to provide more natural eyebrow movement.
-| ref Mode (pose) | `--ref_pose` | None | A video path, where we borrow the pose from the head reference video. 
-| 3D Mode | `--face3dvis` | False | Need additional installation. More details to generate the 3d face can be founded [here](docs/face3d.md). 
-| free-view Mode | `--input_yaw`,<br> `--input_pitch`,<br> `--input_roll` | None | Genearting novel view or free-view 4D talking head from a single image. More details can be founded [here](https://github.com/Winfredy/SadTalker#generating-4d-free-view-talking-examples-from-audio-and-a-single-image).
-
-</details>
-
-#### Examples
-
-| basic        | w/ still mode |  w/ exp_scale 1.3   | w/ gfpgan  |
-|:-------------: |:-------------: |:-------------: |:-------------: |
-|  <video src="https://user-images.githubusercontent.com/4397546/226097707-bef1dd41-403e-48d3-a6e6-6adf923843af.mp4"></video>  | <video src='https://user-images.githubusercontent.com/4397546/226804933-b717229f-1919-4bd5-b6af-bea7ab66cad3.mp4'></video>  |  <video style='width:256px' src="https://user-images.githubusercontent.com/4397546/226806013-7752c308-8235-4e7a-9465-72d8fc1aa03d.mp4"></video>     | <video style='width:256px' src="https://user-images.githubusercontent.com/4397546/226097717-12a1a2a1-ac0f-428d-b2cb-bd6917aff73e.mp4"></video>    |
-> Kindly ensure to activate the audio as the default audio playing is incompatible with GitHub.
-
-| Input, w/ reference video   ,  reference video    | 
-|:-------------: | 
-|  ![free_view](docs/using_ref_video.gif)| 
-| If the reference video is shorter than the input audio, we will loop the reference video . 
+More examples and configuration and tips can be founded in the [ >>> best practice documents <<<](docs/best_practice.md).
 
 
+#### Full body/image Generation
 
-<!-- <video src="./docs/art_0##japanese_still.mp4"></video> -->
-
-
-#### Generating 3D face from Audio
-
-
-| Input        | Animated 3d face | 
-|:-------------: | :-------------: |
-|  <img src='examples/source_image/art_0.png' width='200px'> | <video src="https://user-images.githubusercontent.com/4397546/226856847-5a6a0a4d-a5ec-49e2-9b05-3206db65e8e3.mp4"></video>  | 
-
-> Kindly ensure to activate the audio as the default audio playing is incompatible with GitHub.
-
-
-#### Generating 4D free-view talking examples from audio and a single image
-
-We use `input_yaw`, `input_pitch`, `input_roll` to control head pose. For example, `--input_yaw -20 30 10` means the input head yaw degree changes from -20 to 30 and then changes from 30 to 10.
-```bash
-python inference.py --driven_audio <audio.wav> \
-                    --source_image <video.mp4 or picture.png> \
-                    --result_dir <a file to store results> \
-                    --input_yaw -20 30 10
-```
-
-| Results, Free-view results,  Novel view results  | 
-|:-------------: | 
-|  ![free_view](docs/free_view_result.gif)| 
-
-#### [Beta Application] Full body/image Generation
-
-Now, you can use `--still` to generate a natural full body video. You can add `enhancer` or `full_img_enhancer` to improve the quality of the generated video. However, if you add other mode, such as `ref_eyeblinking`, `ref_pose`, the result will be bad. We are still trying to fix this problem.
+Using `--still` to generate a natural full body video. You can add `enhancer` to improve the quality of the generated video. 
 
 ```bash
 python inference.py --driven_audio <audio.wav> \
@@ -283,6 +192,15 @@ python inference.py --driven_audio <audio.wav> \
                     --enhancer gfpgan 
 ```
 
+#### Local Gradio demo.
+A local gradio demo similar to our [hugging-face demo](https://huggingface.co/spaces/vinthony/SadTalker) can be run by:
+
+```bash
+
+## you need manually install TTS(https://github.com/coqui-ai/TTS) via `pip install tts` in advanced.
+
+python app.py
+```
 
 
 ## 🛎 Citation

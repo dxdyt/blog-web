@@ -1,9 +1,9 @@
 ---
 title: langchain-ChatGLM
-date: 2023-04-09T12:16:06+08:00
+date: 2023-04-10T12:16:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
 ---
 
 # [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)

@@ -1,9 +1,9 @@
 ---
 title: tabby
-date: 2023-04-09T12:16:35+08:00
+date: 2023-04-10T12:18:05+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12009/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12009/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11997/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11997/0/1080p
 ---
 
 # [TabbyML/tabby](https://github.com/TabbyML/tabby)
@@ -15,6 +15,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12009/0/1080p
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 ![Docker build status](https://img.shields.io/github/actions/workflow/status/TabbyML/tabby/docker.yml?label=docker%20image%20build)
+[![Docker pulls](https://img.shields.io/docker/pulls/tabbyml/tabby)](https://hub.docker.com/r/tabbyml/tabby)
 
 ![architecture](https://user-images.githubusercontent.com/388154/229353706-230d70e1-7d09-48e2-a884-4da768bccf6f.png)
 
@@ -47,7 +48,7 @@ Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub C
 
 ### Docker
 
-**NOTE**: Tabby requires [Volta or newer](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) NVIDIA GPU.
+**NOTE**: Tabby requires [Pascal or newer](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) NVIDIA GPU.
 
 Before running Tabby, ensure the installation of the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
 We suggest using NVIDIA drivers that are compatible with CUDA version 11.8 or higher.
@@ -75,8 +76,6 @@ curl -X POST http://localhost:5000/v1/completions -H 'Content-Type: application/
 ```
 
 We also provides an interactive playground in admin panel [localhost:5000/_admin](http://localhost:5000/_admin)
-
-![image](https://user-images.githubusercontent.com/388154/227792390-ec19e9b9-ebbb-4a94-99ca-8a142ffb5e46.png)
 
 ### Skypilot
 See [deployment/skypilot/README.md](./deployment/skypilot/README.md)

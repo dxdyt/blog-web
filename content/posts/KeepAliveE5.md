@@ -1,9 +1,9 @@
 ---
 title: KeepAliveE5
-date: 2023-04-09T12:17:50+08:00
+date: 2023-04-10T12:16:37+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12013/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12013/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 ---
 
 # [vcheckzen/KeepAliveE5](https://github.com/vcheckzen/KeepAliveE5)
@@ -18,4 +18,4 @@ Set the following repo secrets, disable the security defaults of your E5 admin a
 | USER   | E5 admin emails line separated, no leading and trailing spaces    |
 | PASSWD | E5 admin passwords line separated, no leading and trailing spaces |
 
-<p align="right"><code>version@202304081953</code></p>
+<p align="right"><code>version@202304100942</code></p>
