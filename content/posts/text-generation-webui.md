@@ -1,9 +1,9 @@
 ---
 title: text-generation-webui
-date: 2023-04-10T12:16:49+08:00
+date: 2023-04-11T12:15:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11997/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11997/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
 ---
 
 # [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
@@ -80,8 +80,14 @@ On Linux or WSL, it can be automatically installed with these two commands:
 curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > "Miniconda3.sh"
 bash Miniconda3.sh
 ```
-
 Source: https://educe-ubc.github.io/conda.html
+
+#### 0.1 (Ubuntu/WSL) Install build tools
+
+```
+sudo apt install build-essential
+```
+
 
 #### 1. Create a new conda environment
 
@@ -216,7 +222,7 @@ Optionally, you can use the following command-line flags:
 
 | Flag                                        | Description |
 |---------------------------------------------|-------------|
-| `--cpu`                                     | Use the CPU to generate text. |
+| `--cpu`                                     | Use the CPU to generate text. Warning: Training on CPU is extremely slow.|
 | `--auto-devices`                            | Automatically split the model across the available GPU(s) and CPU. |
 |  `--gpu-memory GPU_MEMORY [GPU_MEMORY ...]` | Maxmimum GPU memory in GiB to be allocated per GPU. Example: `--gpu-memory 10` for a single GPU, `--gpu-memory 10 5` for two GPUs. You can also set values in MiB like `--gpu-memory 3500MiB`. |
 | `--cpu-memory CPU_MEMORY`                   | Maximum CPU memory in GiB to allocate for offloaded weights. Same as above.|

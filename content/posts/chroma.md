@@ -1,9 +1,9 @@
 ---
 title: chroma
-date: 2023-04-10T12:16:23+08:00
+date: 2023-04-11T12:15:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12027/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12027/0/1080p
 ---
 
 # [chroma-core/chroma](https://github.com/chroma-core/chroma)

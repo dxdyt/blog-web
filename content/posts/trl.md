@@ -1,9 +1,9 @@
 ---
 title: trl
-date: 2023-04-09T12:17:28+08:00
+date: 2023-04-11T12:17:15+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11983/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11983/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 ---
 
 # [lvwerra/trl](https://github.com/lvwerra/trl)

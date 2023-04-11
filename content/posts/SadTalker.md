@@ -1,9 +1,9 @@
 ---
 title: SadTalker
-date: 2023-04-10T12:17:07+08:00
+date: 2023-04-11T12:18:35+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
 ---
 
 # [Winfredy/SadTalker](https://github.com/Winfredy/SadTalker)
@@ -124,11 +124,11 @@ Then, restarting the stable-diffusion-webui(The models will be downloaded automa
 
 ```bash
 # windows (webui_user.bat)
-set COMMANDLINE_ARGS=--no-gradio-queue  --disable-safe-unpickle
+set COMMANDLINE_ARGS= --disable-safe-unpickle
 set SADTALKER_CHECKPOINTS=D:\SadTalker\checkpoints
 
 # linux (webui_user.sh)
-export COMMANDLINE_ARGS=--no-gradio-queue  --disable-safe-unpickle
+export COMMANDLINE_ARGS= --disable-safe-unpickle
 export SADTALKER_CHECKPOINTS=/path/to/SadTalker/checkpoints
 ```
 

@@ -1,9 +1,9 @@
 ---
 title: ChatFiles
-date: 2023-04-09T12:15:52+08:00
+date: 2023-04-11T12:17:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11987/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11987/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
 ---
 
 # [guangzhengli/ChatFiles](https://github.com/guangzhengli/ChatFiles)

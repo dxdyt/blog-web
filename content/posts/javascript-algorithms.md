@@ -1,9 +1,9 @@
 ---
 title: javascript-algorithms
-date: 2023-04-09T12:15:22+08:00
+date: 2023-04-11T12:16:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12021/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12021/0/1080p
 ---
 
 # [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
@@ -19,6 +19,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
 
 [![CI](https://github.com/trekhleb/javascript-algorithms/workflows/CI/badge.svg)](https://github.com/trekhleb/javascript-algorithms/actions?query=workflow%3ACI+branch%3Amaster)
 [![codecov](https://codecov.io/gh/trekhleb/javascript-algorithms/branch/master/graph/badge.svg)](https://codecov.io/gh/trekhleb/javascript-algorithms)
+![repo size](https://img.shields.io/github/repo-size/trekhleb/javascript-algorithms.svg)
 
 This repository contains JavaScript based examples of many
 popular algorithms and data structures.

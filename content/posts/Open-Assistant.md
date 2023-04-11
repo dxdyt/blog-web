@@ -1,9 +1,9 @@
 ---
 title: Open-Assistant
-date: 2023-04-10T12:17:32+08:00
+date: 2023-04-11T12:17:31+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 ---
 
 # [LAION-AI/Open-Assistant](https://github.com/LAION-AI/Open-Assistant)

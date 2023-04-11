@@ -1,9 +1,9 @@
 ---
 title: GPT-4-LLM
-date: 2023-04-10T12:16:04+08:00
+date: 2023-04-11T12:16:20+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
 ---
 
 # [Instruction-Tuning-with-GPT-4/GPT-4-LLM](https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM)

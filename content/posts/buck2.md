@@ -1,9 +1,9 @@
 ---
 title: buck2
-date: 2023-04-10T12:15:58+08:00
+date: 2023-04-11T12:16:04+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12013/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12013/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12023/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
 ---
 
 # [facebook/buck2](https://github.com/facebook/buck2)
