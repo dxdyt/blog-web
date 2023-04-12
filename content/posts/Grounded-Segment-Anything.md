@@ -1,16 +1,17 @@
 ---
 title: Grounded-Segment-Anything
-date: 2023-04-11T12:15:31+08:00
+date: 2023-04-12T12:15:27+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11997/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11997/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
 ---
 
 # [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
 
 ![](./assets/Grounded-SAM_logo.png)
+
 # Grounded-Segment-Anything
-We plan to create a very interesting demo by combining [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) and [Segment Anything](https://github.com/facebookresearch/segment-anything)! Right now, this is just a simple small project. We will continue to improve it and create more interesting demos.
+We plan to create a very interesting demo by combining [Grounding DINO](https://github.com/IDEA-Research/GroundingDINO) and [Segment Anything](https://github.com/facebookresearch/segment-anything)! Right now, this is just a simple small project. We will continue to improve it and create more interesting demos. And thanks for the community users provide the [colab demo](https://github.com/camenduru/grounded-segment-anything-colab) for us.
 
 We are very willing to **help everyone share and promote new projects** based on Segment-Anything, we highlight some excellent projects here: [Highlight Extension Projects](#bulb-highlight-extension-projects). You can submit a new issue (with `project` tag) or a new pull request to add new projects' links.
 
@@ -23,7 +24,11 @@ The **core idea** behind this project is to **combine the strengths of different
 - The combination of `Grounding DINO + SAM` enable to **detect and segment everything at any levels** with text inputs!
 - The combination of `BLIP + Grounding DINO + SAM` for **automatic labeling system**!
 - The combination of `Grounding DINO + SAM + Stable-diffusion` for **data-factory, generating new data**!
+- The combination of `Whisper + Grounding DINO + SAM` to **detect and segment anything with speech**!
 
+**🔥 🔈Speak to edit🎨: Whisper + ChatGPT + Grounded-SAM + SD**
+
+![](assets/acoustics/gsam_whisper_inpainting_demo.png)
 
 **Grounded-SAM**
 ![](./assets/grounded_sam2.png)
@@ -36,6 +41,7 @@ The **core idea** behind this project is to **combine the strengths of different
 Using BLIP to generate caption, extract tags and using Grounded-SAM for box and mask generating. Here's the demo output:
 
 ![](./assets/automatic_label_output_demo3.jpg)
+
 
 **Imagine Space**
 
@@ -74,7 +80,9 @@ Some possible avenues for future work ...
 - [Prompt-Segment-Anything](https://github.com/RockeyCoss/Prompt-Segment-Anything) by Rockey
 - [**WebUi for Segment-Anything! Grounding-SAM is on the way!**](https://github.com/continue-revolution/sd-webui-segment-anything) by Chengsong Zhang
 - [Inpainting Anything: Inpaint Anything with SAM + Inpainting models](https://github.com/geekyutao/Inpaint-Anything) by Tao Yu
-- [Segment Anything and Name It: combining Segment-Anything with GLIP & Visual ChatGPT & VLPart](https://github.com/Cheems-Seminar/segment-anything-and-name-it) by Shoufa Chen and Peize Sun
+- [Segment Anything and Name It: combining Segment-Anything with GLIP & Visual ChatGPT & VLPart](https://github.com/Cheems-Seminar/segment-anything-and-name-it) by Peize Sun and Shoufa Chen
+- [Narapi-SAM: Integration of Segment Anything into Narapi (A nice viewer for SAM)](https://github.com/MIC-DKFZ/napari-sam) by MIC-DKFZ
+- [Grounded Segment Anything Colab](https://github.com/camenduru/grounded-segment-anything-colab) by camenduru
 
 
 ## :bookmark_tabs: Catelog
@@ -82,6 +90,7 @@ Some possible avenues for future work ...
 - [x] Grounding DINO + Segment Anything Demo
 - [x] Grounding DINO + Segment Anything + Stable-Diffusion Demo
 - [x] BLIP + Grounding DINO + Segment Anything + Stable-Diffusion Demo
+- [x] Whisper + Grounding DINO + Segment Anything + Stable-Diffusion Demo
 - [ ] Hugging Face Demo
 - [ ] Colab demo
 
@@ -226,6 +235,83 @@ python automatic_label_demo.py \
 - The pseudo labels and model prediction visualization will be saved in `output_dir` as follows:
 
 ![](./assets/automatic_label_output_demo3.jpg)
+
+
+## :open_mouth: Run Grounded-Segment-Anything + Whisper Demo
+Detect and segment anything with speech!
+
+**Install Whisper**
+```bash
+pip install -U openai-whisper
+```
+See the [whisper official page](https://github.com/openai/whisper#setup) if you have other questions for the installation.
+
+**Run Voice-to-Label Demo**
+
+Optional: Download the demo audio file
+
+```bash
+wget https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/demo_audio.mp3
+```
+
+
+```bash
+export CUDA_VISIBLE_DEVICES=0
+python grounded_sam_whisper_demo.py \
+  --config GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py \
+  --grounded_checkpoint groundingdino_swint_ogc.pth \
+  --sam_checkpoint sam_vit_h_4b8939.pth \
+  --input_image assets/demo4.jpg \
+  --output_dir "outputs" \
+  --box_threshold 0.3 \
+  --text_threshold 0.25 \
+  --speech_file "demo_audio.mp3" \
+  --device "cuda"
+```
+
+![](./assets/grounded_sam_whisper_output.jpg)
+
+**Run Voice-to-inpaint Demo**
+
+You can enable chatgpt to help you automatically detect the object and inpainting order with `--enable_chatgpt`. 
+
+Or you can specify the object you want to inpaint [stored in `args.det_speech_file`] and the text you want to inpaint with [stored in `args.inpaint_speech_file`].
+
+```bash
+# Example: enable chatgpt
+export CUDA_VISIBLE_DEVICES=0
+export OPENAI_KEY=your_openai_key
+python grounded_sam_whisper_inpainting_demo.py \
+  --config GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py \
+  --grounded_checkpoint groundingdino_swint_ogc.pth \
+  --sam_checkpoint sam_vit_h_4b8939.pth \
+  --input_image assets/inpaint_demo.jpg \
+  --output_dir "outputs" \
+  --box_threshold 0.3 \
+  --text_threshold 0.25 \
+  --prompt_speech_file assets/acoustics/prompt_speech_file.mp3 \
+  --enable_chatgpt \
+  --openai_key $OPENAI_KEY \
+  --device "cuda"
+```
+
+```bash
+# Example: without chatgpt
+export CUDA_VISIBLE_DEVICES=0
+python grounded_sam_whisper_inpainting_demo.py \
+  --config GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py \
+  --grounded_checkpoint groundingdino_swint_ogc.pth \
+  --sam_checkpoint sam_vit_h_4b8939.pth \
+  --input_image assets/inpaint_demo.jpg \
+  --output_dir "outputs" \
+  --box_threshold 0.3 \
+  --text_threshold 0.25 \
+  --det_speech_file "assets/acoustics/det_voice.mp3" \
+  --inpaint_speech_file "assets/acoustics/inpaint_voice.mp3" \
+  --device "cuda"
+```
+
+![](./assets/acoustics/gsam_whisper_inpainting_pipeline.png)
 
 
 ## :cupid: Acknowledgements

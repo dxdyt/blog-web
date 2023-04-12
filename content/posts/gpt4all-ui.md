@@ -1,9 +1,9 @@
 ---
 title: gpt4all-ui
-date: 2023-04-11T12:18:00+08:00
+date: 2023-04-12T12:16:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11991/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11991/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
 ---
 
 # [nomic-ai/gpt4all-ui](https://github.com/nomic-ai/gpt4all-ui)
@@ -31,7 +31,10 @@ One of the app's impressive features is that it allows users to send messages to
 It's worth noting that the model has recently been launched, and it's expected to evolve over time, enabling it to become even better in the future. This webui is designed to provide the community with easy and fully localized access to a chatbot that will continue to improve and adapt over time.
 
 ## UI screenshot
-![image](https://user-images.githubusercontent.com/827993/230717941-e5f46b09-3899-4442-b1d9-827023cbba4d.png)
+### MAIN page
+![image](https://user-images.githubusercontent.com/827993/231307919-fda4d6e9-df17-4646-ba06-33afe6b6b176.png)
+### Settings page
+![image](https://user-images.githubusercontent.com/827993/231309009-4d190850-4292-4de2-a303-ceb04f5cf0ed.png)
 
 
 ## Installation

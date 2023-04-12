@@ -1,15 +1,16 @@
 ---
 title: wenda
-date: 2023-04-10T12:17:00+08:00
+date: 2023-04-12T12:16:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12035/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12035/0/1080p
 ---
 
 # [l15y/wenda](https://github.com/l15y/wenda)
 
 # 闻达：一个大规模语言模型调用平台
 ## 简介
+一个LLM调用平台。旨在通过使用为小模型外挂知识库查找的方式，实现近似于大模型的生成能力。
 1. 目前支持模型：`chatGLM-6B`、`chatRWKV`、`chatYuan`。
 2. 知识库自动查找
 3. 支持参数在线调整
@@ -25,6 +26,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 ##  截图
 #### 设置和预设功能
 ![](imgs/setting.png)
+![](imgs/setting2.png)
 #### 预设功能使用
 ![](imgs/func.png)
 
@@ -41,6 +43,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 ### 1.安装库
 知识库索引模式：```pip install -r requirements-sy.txt```
 知识库语义模式：```pip install -r requirements-yy.txt```
+
 ### 2.下载模型
 根据需要，下载对应模型。
 
@@ -52,12 +55,19 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 将txt格式的语料放到txt文件夹中，运行`run_data_processing.bat`。
 ## 知识库
 知识库最终效果是生成一些提示信息，会插入到对话里面。
-首先要把txt目录下的文件喂给一个类似搜索引擎的东西，然后在对话过程中去查询这个搜索引擎获得提示信息，然后在回答之前插入提示信息，知识库的数据就被模型知道了。
-主要是有以下两种方案：
+s模式、x模式首先要把txt目录下的文件喂给一个类似搜索引擎的东西，然后在对话过程中去查询这个搜索引擎获得提示信息；bing模式、bingxs模式则直进行搜索获取答案。
+搜索后在回答之前插入提示信息，知识库的数据就被模型知道了。
+为防止爆显存，插入的数据不能太长，所以有字数限制。
+知识库在线模式：```pip install -r requirements-bing.txt```
+主要是有以下几种方案：
 1.    s模式，基于 whoosh 搜索引擎，生成提示语。
  2.   x模式，基于 model/simcse-chinese-roberta-wwm-ext 模型，去生成提示语
-为防止爆显存，插入的数据不能太长，所以有字数限制
+ 3.   bing模式，cn.bing搜索，仅国内可用
+ 4.   bingxs模式，cn.bing学术搜索，仅国内可用
+ 5.   bingsite模式，bing站内搜索，需设置网址
 
+####  调试工具
+![](imgs/zsk-test.png)
 ####  chatGLM-6B模型
 ![](imgs/zsk-glm.png)
 
@@ -67,6 +77,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
 ### 1.索引语料
 把自己的txt格式的文档放在名为txt的文件夹里，运行:
 ```run_data_processing.bat```
+需要注意的是，索引语料至针对s、x模式，在线知识库（bing模式等）不需要索引，运行索引会直接报错。
 ### 2.使用
 正常使用中，勾选右上角知识库
 ## chatGLM-6B
@@ -94,11 +105,15 @@ YuanAPI.py
 
 这个最轻量，是电脑都能跑，但是智力差点
 ## TODO
-实现以下知识库插件：
+实现以下知识库模组：
 ```
 文本检索-完成
-语义向量-完成-待优化
+语义向量-完成
 知识图谱
 行业数据库
-搜索引擎
+搜索引擎-完成
+```
+实现以下模型模组：
+```
+Vicuna
 ```

@@ -1,9 +1,9 @@
 ---
 title: ChatGLM-6B
-date: 2023-04-10T12:18:11+08:00
+date: 2023-04-12T12:17:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12027/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12027/0/1080p
 ---
 
 # [THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)

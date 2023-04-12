@@ -1,9 +1,9 @@
 ---
 title: tabby
-date: 2023-04-10T12:18:05+08:00
+date: 2023-04-12T12:17:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11997/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11997/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12023/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
 ---
 
 # [TabbyML/tabby](https://github.com/TabbyML/tabby)
@@ -44,7 +44,7 @@ Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub C
 
 
 
-## Get started
+## Get started: Server
 
 ### Docker
 
@@ -59,8 +59,8 @@ mkdir -p data/hf_cache && chown -R 1000 data
 docker run \
   --gpus all \
   -it --rm \
-  -v "./data:/data" \
-  -v "./data/hf_cache:/home/app/.cache/huggingface" \
+  -v "/$(pwd)/data:/data" \
+  -v "/$(pwd)/data/hf_cache:/home/app/.cache/huggingface" \
   -p 5000:5000 \
   -e MODEL_NAME=TabbyML/J-350M \
   -e MODEL_BACKEND=triton \
@@ -80,9 +80,16 @@ We also provides an interactive playground in admin panel [localhost:5000/_admin
 ### Skypilot
 See [deployment/skypilot/README.md](./deployment/skypilot/README.md)
 
-## API documentation
+## Getting Started: Client
+We offer multiple methods to connect to Tabby Server, including using OpenAPI and editor extensions.
 
-Tabby opens an FastAPI server at [localhost:5000](https://localhost:5000), which embeds an OpenAPI documentation of the HTTP API.
+### API
+Tabby has opened a FastAPI server at [localhost:5000](https://localhost:5000), which includes an OpenAPI documentation of the HTTP API. The same API documentation is also hosted at https://tabbyml.github.io/tabby
+
+### Editor Extensions
+
+* [VSCode Extension](./clients/vscode)
+* [VIM Extension](./clients/vim)
 
 ## Development
 

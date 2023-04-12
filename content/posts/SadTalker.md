@@ -1,9 +1,9 @@
 ---
 title: SadTalker
-date: 2023-04-11T12:18:35+08:00
+date: 2023-04-12T12:16:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11996/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11996/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 ---
 
 # [Winfredy/SadTalker](https://github.com/Winfredy/SadTalker)
@@ -148,7 +148,7 @@ You can run the following script to put all the models in the right place.
 bash scripts/download_models.sh
 ```
 
-OR download our pre-trained model from [google drive](https://drive.google.com/drive/folders/1Wd88VDoLhVzYsQ30_qDVluQr_Xm46yHT?usp=sharing) or our [github release page](https://github.com/Winfredy/SadTalker/releases/tag/v0.0.1), and then, put it in ./checkpoints.
+OR download our pre-trained model from [google drive](https://drive.google.com/drive/folders/1Wd88VDoLhVzYsQ30_qDVluQr_Xm46yHT?usp=sharing) or our [lastest github release page](https://github.com/Winfredy/SadTalker/releases), and then, put it in ./checkpoints.
 
 OR we provided the downloaded model in [百度云盘](https://pan.baidu.com/s/1nXuVNd0exUl37ISwWqbFGA?pwd=sadt) 提取码: sadt.
 

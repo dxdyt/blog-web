@@ -1,9 +1,9 @@
 ---
 title: awesome-python
-date: 2023-04-11T12:15:57+08:00
+date: 2023-04-12T12:15:38+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12002/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
 ---
 
 # [vinta/awesome-python](https://github.com/vinta/awesome-python)
