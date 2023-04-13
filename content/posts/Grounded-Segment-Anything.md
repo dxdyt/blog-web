@@ -1,9 +1,9 @@
 ---
 title: Grounded-Segment-Anything
-date: 2023-04-12T12:15:27+08:00
+date: 2023-04-13T12:16:01+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12033/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12033/0/1080p
 ---
 
 # [IDEA-Research/Grounded-Segment-Anything](https://github.com/IDEA-Research/Grounded-Segment-Anything)
@@ -80,7 +80,7 @@ Some possible avenues for future work ...
 - [Prompt-Segment-Anything](https://github.com/RockeyCoss/Prompt-Segment-Anything) by Rockey
 - [**WebUi for Segment-Anything! Grounding-SAM is on the way!**](https://github.com/continue-revolution/sd-webui-segment-anything) by Chengsong Zhang
 - [Inpainting Anything: Inpaint Anything with SAM + Inpainting models](https://github.com/geekyutao/Inpaint-Anything) by Tao Yu
-- [Segment Anything and Name It: combining Segment-Anything with GLIP & Visual ChatGPT & VLPart](https://github.com/Cheems-Seminar/segment-anything-and-name-it) by Peize Sun and Shoufa Chen
+- [Grounded Segment Anything From Objects to Parts: Combining Segment-Anything with VLPart & GLIP & Visual ChatGPT](https://github.com/Cheems-Seminar/segment-anything-and-name-it) by Peize Sun and Shoufa Chen
 - [Narapi-SAM: Integration of Segment Anything into Narapi (A nice viewer for SAM)](https://github.com/MIC-DKFZ/napari-sam) by MIC-DKFZ
 - [Grounded Segment Anything Colab](https://github.com/camenduru/grounded-segment-anything-colab) by camenduru
 

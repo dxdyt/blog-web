@@ -1,9 +1,9 @@
 ---
 title: God-Level-Data-Science-ML-Full-Stack
-date: 2023-04-12T12:17:47+08:00
+date: 2023-04-13T12:17:54+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12029/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12029/0/1080p
 ---
 
 # [hemansnation/God-Level-Data-Science-ML-Full-Stack](https://github.com/hemansnation/God-Level-Data-Science-ML-Full-Stack)

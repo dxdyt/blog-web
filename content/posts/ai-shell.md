@@ -1,9 +1,9 @@
 ---
 title: ai-shell
-date: 2023-04-10T12:17:42+08:00
+date: 2023-04-13T12:16:17+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12002/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12021/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12021/0/1080p
 ---
 
 # [BuilderIO/ai-shell](https://github.com/BuilderIO/ai-shell)
@@ -27,7 +27,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
 <p>
 
 <p align="center">
-   Inspired by the <a href="https://githubnext.com/projects/copilot-cli">Github Copilot X CLI</a>, but open source for everyone.
+   Inspired by the <a href="https://githubnext.com/projects/copilot-cli">GitHub Copilot X CLI</a>, but open source for everyone.
 </p>
 
 <br>
@@ -51,7 +51,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12002/0/1080p
 3. Set the key so ai-shell can use it:
 
    ```sh
-   ai-shell config set OPENAI_KEY=<your token>
+   ai config set OPENAI_KEY=<your token>
    ```
 
    This will create a `.ai-shell` file in your home directory.
@@ -105,7 +105,35 @@ ai -s list all log files
 or save the option as a preference using this command:
 
 ```bash
-ai-shell config set SILENT_MODE=true
+ai config set SILENT_MODE=true
+```
+
+### Custom API endpoint
+
+You can custom OpenAI API endpoint to set OPENAI_API_ENDPOINT（default: `https://api.openai.com/v1`）
+
+```sh
+ai config set OPENAI_API_ENDPOINT=<your proxy endpoint>
+```
+
+### Config UI
+
+To use a more visual interface to view and set config options you can type:
+
+```bash
+ai config
+```
+
+To get an interactive UI like below:
+
+```bash
+◆  Set config:
+│  ○ OpenAI Key
+│  ○ OpenAI API Endpoint
+│  ○ Silent Mode
+│  ● Model (gpt-3.5-turbo)
+│  ○ Cancel
+└
 ```
 
 ### Upgrading
@@ -113,13 +141,19 @@ ai-shell config set SILENT_MODE=true
 Check the installed version with:
 
 ```bash
-ai-shell --version
+ai --version
 ```
 
 If it's not the [latest version](https://github.com/BuilderIO/ai-shell/tags), run:
 
 ```bash
 npm update -g @builder.io/ai-shell
+```
+
+Or just use AI shell:
+
+```bash
+ai update
 ```
 
 ## Common Issues
@@ -140,7 +174,7 @@ If you want to help fix a bug or implement a feature in [Issues](https://github.
 
 ## Credit
 
-- Thanks to Github Copilot for their amazing tools and the idea for this
+- Thanks to GitHub Copilot for their amazing tools and the idea for this
 - Thanks to Hassan and his work on [aicommits](https://github.com/Nutlope/aicommits) which inspired the workflow and some parts of the code and flows
 
 ## Community

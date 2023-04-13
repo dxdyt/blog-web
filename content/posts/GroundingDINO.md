@@ -1,6 +1,6 @@
 ---
 title: GroundingDINO
-date: 2023-04-12T12:17:22+08:00
+date: 2023-04-13T12:16:25+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12017/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12017/0/1080p
@@ -67,7 +67,16 @@ Marrying <a href="https://github.com/IDEA-Research/GroundingDINO">Grounding DINO
 <img src="https://huggingface.co/ShilongLiu/GroundingDINO/resolve/main/GD_GLIGEN.png" alt="gd_gligen" width="100%">
 </details>
 
-
+## :star: Explanations/Tips for Grounding DINO Inputs and Outputs
+- Grounding DINO accepts an `(image, text)` pair as inputs.
+- It outputs `900` (by default) object boxes. Each box has similarity scores across all input words. (as shown in Figures below.)
+- We defaultly choose the boxes whose highest similarities are higher than a `box_threshold`.
+- We extract the words whose similarities are higher than the `text_threshold` as predicted labels.
+- If you want to obtain objects of specific phrases, like the `dogs` in the sentence `two dogs with a stick.`, you can select the boxes with highest text similarities with `dogs` as final outputs. 
+- Note that each word can be split to **more than one** tokens with differetn tokenlizers. The number of words in a sentence may not equal to the number of text tokens.
+- We suggest separating different category names with `.` for Grounding DINO.
+![model_explain1](.asset/model_explan1.PNG)
+![model_explain2](.asset/model_explan2.PNG)
 
 ## :label: TODO 
 
