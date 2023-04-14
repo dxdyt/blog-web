@@ -1,9 +1,9 @@
 ---
 title: discord.js
-date: 2023-04-13T12:17:10+08:00
+date: 2023-04-14T12:17:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12031/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12031/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12037/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12037/0/1080p
 ---
 
 # [discordjs/discord.js](https://github.com/discordjs/discord.js)

@@ -1,9 +1,9 @@
 ---
 title: God-Level-Data-Science-ML-Full-Stack
-date: 2023-04-13T12:17:54+08:00
+date: 2023-04-14T12:16:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12029/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12029/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12023/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
 ---
 
 # [hemansnation/God-Level-Data-Science-ML-Full-Stack](https://github.com/hemansnation/God-Level-Data-Science-ML-Full-Stack)
@@ -11,6 +11,11 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12029/0/1080p
 # God-Level Data Science ML Full Stack
 
 <img src="https://github.com/hemansnation/Data-Science-ML-Full-Stack/blob/master/images/components.png" />
+
+## 2023 Cohort
+
+- **Start**: 15th May, Monday, 7 AM IST
+- **[Register Here](https://www.notion.so/god-level-python/Data-Science-ML-Full-Stack-Roadmap-05e6c16389c845d1a438ed4cff2b9952?pvs=4#61754d50a2784b6fa8b0485087f94c68)**
 
 ### The‌ ‌Roadmap‌ ‌is‌ ‌divided‌ ‌into‌ ‌16 ‌Sections‌
 

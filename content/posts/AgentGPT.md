@@ -1,9 +1,9 @@
 ---
 title: AgentGPT
-date: 2023-04-13T12:15:43+08:00
+date: 2023-04-14T12:15:14+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12013/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12013/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12023/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
 ---
 
 # [reworkd/AgentGPT](https://github.com/reworkd/AgentGPT)
@@ -139,7 +139,7 @@ OPENAI_API_KEY=changeme
 5. Modify prisma schema to use sqlite:
 
 ```bash
-./prisma/useSqlite.sh
+./prisma/use_sqlite.sh
 ```
 
 **Note:** This only needs to be done if you wish to use sqlite.

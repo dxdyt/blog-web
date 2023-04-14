@@ -1,9 +1,9 @@
 ---
 title: taxonomy
-date: 2023-04-13T12:15:35+08:00
+date: 2023-04-14T12:17:18+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12035/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12035/0/1080p
 ---
 
 # [shadcn/taxonomy](https://github.com/shadcn/taxonomy)

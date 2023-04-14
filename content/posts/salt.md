@@ -1,9 +1,9 @@
 ---
 title: salt
-date: 2023-04-13T12:16:09+08:00
+date: 2023-04-14T12:17:00+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12035/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12035/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12037/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12037/0/1080p
 ---
 
 # [anuragxel/salt](https://github.com/anuragxel/salt)

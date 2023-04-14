@@ -1,9 +1,9 @@
 ---
 title: HLA-NoVR
-date: 2023-04-13T12:18:59+08:00
+date: 2023-04-14T12:17:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12023/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
 ---
 
 # [bfeber/HLA-NoVR](https://github.com/bfeber/HLA-NoVR)

@@ -1,9 +1,9 @@
 ---
 title: magic-copy
-date: 2023-04-13T12:18:13+08:00
+date: 2023-04-14T12:16:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12029/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12029/0/1080p
 ---
 
 # [kevmo314/magic-copy](https://github.com/kevmo314/magic-copy)

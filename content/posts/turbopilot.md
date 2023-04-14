@@ -1,9 +1,9 @@
 ---
 title: turbopilot
-date: 2023-04-13T12:17:02+08:00
+date: 2023-04-14T12:15:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12019/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12019/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12043/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12043/0/1080p
 ---
 
 # [ravenscroftj/turbopilot](https://github.com/ravenscroftj/turbopilot)
@@ -72,7 +72,7 @@ docker run --rm -it \
   -e THREADS=6 \
   -e MODEL="/models/codegen-2B-multi-ggml-4bit-quant.bin" \
   -p 18080:18080 \
-  ghcr.io/ravenscroftj/turbopilot/turbopilot:latest
+  ghcr.io/ravenscroftj/turbopilot:latest
 ```
 
 ### 🌐 Using the API

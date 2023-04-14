@@ -1,6 +1,6 @@
 ---
 title: Grounded-Segment-Anything
-date: 2023-04-13T12:16:01+08:00
+date: 2023-04-14T12:17:32+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12033/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12033/0/1080p
@@ -38,9 +38,12 @@ The **core idea** behind this project is to **combine the strengths of different
 
 **BLIP + Grounded-SAM: Automatic Label System!**
 
-Using BLIP to generate caption, extract tags and using Grounded-SAM for box and mask generating. Here's the demo output:
+Using BLIP to generate caption, extracting tags with ChatGPT, and using Grounded-SAM for box and mask generating. Here's the demo output:
 
 ![](./assets/automatic_label_output_demo3.jpg)
+
+**ChatBot**
+![](./assets/chatbot_demo.png)
 
 
 **Imagine Space**
@@ -83,6 +86,9 @@ Some possible avenues for future work ...
 - [Grounded Segment Anything From Objects to Parts: Combining Segment-Anything with VLPart & GLIP & Visual ChatGPT](https://github.com/Cheems-Seminar/segment-anything-and-name-it) by Peize Sun and Shoufa Chen
 - [Narapi-SAM: Integration of Segment Anything into Narapi (A nice viewer for SAM)](https://github.com/MIC-DKFZ/napari-sam) by MIC-DKFZ
 - [Grounded Segment Anything Colab](https://github.com/camenduru/grounded-segment-anything-colab) by camenduru
+- [Optical Character Recognition with Segment Anything](https://github.com/yeungchenwa/OCR-SAM) by Zhenhua Yang
+- [Transform Image into Unique Paragraph with ChatGPT, BLIP2, OFA, GRIT, Segment Anything, ControlNet](https://github.com/showlab/Image2Paragraph) by showlab
+- [Lang-Segment-Anything: Another awesome demo for combining GroundingDINO with Segment-Anything](https://github.com/luca-medeiros/lang-segment-anything) by Luca Medeiros
 
 
 ## :bookmark_tabs: Catelog
@@ -312,6 +318,24 @@ python grounded_sam_whisper_inpainting_demo.py \
 ```
 
 ![](./assets/acoustics/gsam_whisper_inpainting_pipeline.png)
+
+## :speech_balloon: Run ChatBot Demo
+Following [Visual ChatGPT](https://github.com/microsoft/visual-chatgpt), we add a ChatBot for our project. Currently, it supports:
+1. "Descripe the image."
+2. "Detect the dog (and the cat) in the image."
+3. "Segment anything in the image."
+4. "Segment the dog (and the cat) in the image."
+5. "Help me label the image."
+6. "Replace the dog with a cat in the image."
+
+To use the ChatBot:
+- Install whisper if you want to use audio as input.
+- Set the default model setting in the tool `Grounded_dino_sam_inpainting`.
+- Run Demo
+```bash
+export CUDA_VISIBLE_DEVICES=0
+python chatbot.py 
+```
 
 
 ## :cupid: Acknowledgements
