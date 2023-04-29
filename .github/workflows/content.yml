@@ -31,6 +31,7 @@ jobs:
     - name: running
       run: |
         python ./script/main.py
+        ls  ./content/posts
     
     - name: commit
       run: | 
