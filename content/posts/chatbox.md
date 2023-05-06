@@ -1,9 +1,9 @@
 ---
 title: chatbox
-date: 2023-04-03T12:17:24+08:00
+date: 2023-05-07T00:33:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11979/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12099/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12099/0/1080p
 ---
 
 # [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)
@@ -16,7 +16,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
     English | <a href="./README-CN.md">中文介绍</a>
 </p>
 <p align="center">
-    <em>A desktop application for <b>ChatGPT API (OpenAI API)</b>, also a prompt debugging and management tool</em>
+    <em>Your Ultimate Copilot on the Desktop. Chatbox is a desktop app for GPT-4 / GPT-3.5 (OpenAI API) that supports Windows, Mac & Linux.</em>
 </p>
 
 
@@ -41,9 +41,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
 
 ## Features
 
-- Same fast speed as ChatGPT Plus
-- Data stored locally, no risk of losing it
 - More freedom and powerful Prompt abilities
+- Data stored locally, no risk of losing it
 - Supports GPT-4 and other models
 - Supports custom domain proxy
 - More features: Markdown, message quotes, word and token estimation, night mode...
@@ -53,21 +52,37 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11979/0/1080p
 
 ## Download
 
-Supported Platforms:
+*Chatbox supports all major operating systems, including: Windows, Mac (Intel, M1), and Linux.*
 
-- **Windows**: Please download `.msi` installation package
-- **Mac**: Please download `.dmg` (recommended) or `.tar` file, already supporting x64, arm64 (please download x64 version for now, it is compatible)
-- **Linux**: Please download `.AppImage` (recommended) or `.deb` file
+### Download from the official website
 
-Download installers:
+Visit **[chatboxapp.xyz](https://chatboxapp.xyz/)** to download the latest version.
 
-[>>Click here to view all available installers for download<<](https://github.com/Bin-Huang/chatbox/releases)
+### Download from Github Releases
+
+You can visit **[Github Releases](https://github.com/Bin-Huang/chatbox/releases)** to browse and download all previous versions.
+
+### Download via package manager
+
+#### [aur](https://aur.archlinux.org/packages/chatbox-bin)
+
+If you are using Arch Linux, you can download and install Chatbox via AUR:
+
+```
+paru -S chatbox-bin
+```
 
 ## Why Use Chatbox?
 
-- Directly testing ChatGPT API (OpenAI API) might be challenging for those with no programming background. By using Chatbox, you can perform such experiments in a convenient way.
+- ChatBox helps you design, debug, and manage prompts more freely, enabling you to operate AI models more efficiently.
 - Chatbox stores all chat messages and prompts locally, thus reducing the risk of data loss.
-- Chatbox helps you design, debug, and manage prompts, thus providing greater control over the AI interface.
+- Directly testing ChatGPT API (OpenAI API) might be challenging for those with no programming background. By using Chatbox, you can perform such experiments in a convenient way.
+
+## Why I made Chatbox?
+
+I developed Chatbox initially because I was debugging some prompts and found myself in need of a simple and easy-to-use prompt and API debugging tool. I thought there might be more people who needed such a tool, so I open-sourced it.
+
+At first, I didn't know that it would be so popular. I listened to the feedback from the open-source community and continued to develop and improve it. Now, it has become a very useful AI desktop application. There are many users who love Chatbox, and they not only use it for developing and debugging prompts, but also for daily chatting, and even to do some more interesting things like using well-designed prompts to make AI play various professional roles to assist them in everyday work...
 
 ## Roadmap
 
@@ -82,15 +97,15 @@ Download installers:
 - [x] message token estimating
 - [x] GPT4
 - [x] i18n
-- [ ] Copy button for code blocks
-- [ ] Stop button for AI message generation
+- [x] Copy button for code blocks
+- [x] Stop button for AI message generation
+- [x] Drag-and-drop sorting of tabs
 - [ ] Improved prompt settings
 - [ ] Prompt Library
 - [ ] Talk with files
 - [ ] Talk with URLs
 - [ ] Mobile(Android, iOS)
 - [ ] Cross-device synchronization
-- [ ] Drag-and-drop sorting of tabs
 - [ ] threads(like Slack)
 - More...
 
@@ -106,6 +121,12 @@ Any form of contribution is welcome, including but not limited to:
 - Submitting translations
 - Submitting any other forms of contribution
 
+## Become a ChatBox Sponsor?
+
+As an open-source project, ChatBox is sustained by the contributions and support of our community. If you or your organization find our work valuable, we welcome your sponsorship to help us continue improving and enhancing the application for everyone. To show our appreciation, we will prominently display sponsor information in our README and other appropriate places. Thank you for considering supporting our efforts!
+
+If you have any interest or ideas, please feel free to contact us at tohuangbin@gmail.com .
+
 ## Buy Me a Coffee
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/benn)
@@ -113,6 +134,10 @@ Any form of contribution is welcome, including but not limited to:
 | Paypal | Wechat Pay | Ali Pay |
 | --- | --- | --- |
 | [**`Paypal`**](https://www.paypal.me/tobennhuang) | <img src="./doc/wechat_pay.JPG" height="240" /> | <img src="./doc/ali_pay.PNG" height="240" /> |
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Bin-Huang/chatbox&type=Date)](https://star-history.com/#Bin-Huang/chatbox&Date)
 
 ## Contact
 

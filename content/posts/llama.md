@@ -1,9 +1,9 @@
 ---
 title: llama
-date: 2023-03-26T12:18:32+08:00
+date: 2023-05-07T00:33:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11909/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11909/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12103/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12103/0/1080p
 ---
 
 # [facebookresearch/llama](https://github.com/facebookresearch/llama)

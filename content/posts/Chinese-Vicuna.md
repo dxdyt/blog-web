@@ -1,9 +1,9 @@
 ---
 title: Chinese-Vicuna
-date: 2023-04-05T12:18:38+08:00
+date: 2023-05-07T00:33:59+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11971/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11971/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12109/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12109/0/1080p
 ---
 
 # [Facico/Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)
@@ -12,8 +12,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11971/0/1080p
 
 # Chinese-Vicuna: A Chinese Instruction-following LLaMA-based Model —— 一个中文低资源的llama+lora方案
 
-![GitHub Repo stars](https://img.shields.io/github/stars/Facico/Chinese-Vicuna?style=social) [![HuggingFace badge](https://camo.githubusercontent.com/4a295d6d34ed2c79cfe624ce6358a4be53d4187c883aaa9345fdc322937ce542/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393748756767696e67466163652d4a6f696e2d79656c6c6f77)](https://huggingface.co/Chinese-Vicuna)
- | [English](https://github.com/Facico/Chinese-Vicuna/blob/master/README.md) | [中文](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/readme-zh.md) |
+![GitHub Repo stars](https://img.shields.io/github/stars/Facico/Chinese-Vicuna?style=social) [![HuggingFace badge](https://camo.githubusercontent.com/4a295d6d34ed2c79cfe624ce6358a4be53d4187c883aaa9345fdc322937ce542/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393748756767696e67466163652d4a6f696e2d79656c6c6f77)](https://huggingface.co/Chinese-Vicuna) [![qq join](https://img.shields.io/badge/qq%E7%BE%A4%3A532581765-join-red)](https://jq.qq.com/?_wv=1027&k=47Z6bRjw) [![discord join](https://img.shields.io/badge/discord-join-blue)](https://discord.gg/4FnhmeNHku)
+ 
+ | [English](https://github.com/Facico/Chinese-Vicuna/blob/master/README.md) | [中文](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/readme-zh.md) | [注意事项/NOTEs](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/notes.md)
 
 ![camel](https://github.com/Facico/Chinese-Vicuna/blob/master/img/camel.png)
 
@@ -54,7 +55,12 @@ https://user-images.githubusercontent.com/72137647/229739363-1b48f3a9-02a1-46ab-
 - March 29, 2023: Add more detailed test samples. [performance](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/performance.md)
 - April 1, 2023: Add better support for multi-turn chat in `chat.py` ( Now support 4 generation mode in stream mode/typewriter style: beam search, greedy, sample, beam sample ; We also add cancel button for regeneration )
 - April 4, 2023: Add performance for [13B](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/performance-13B.md), which trains on a single 3090.
+- April 11, 2023：Released our continuous-finetune on the vertical corpus of Chinese medical quizzes [Chinese-Vicuna-medical](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/performance-medical.md).Provides examples of vertical corpus training
 
+## Possible problems encountered
+
+When installing and using this project, some problems may be encountered, and the various problems encountered so far are summarized as follows:
+Before asking questions, take a look at this [Notes](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/notes.md)
 ## Table of Contents
 
 [Vicuna](https://github.com/Facico/Chinese-Vicuna)
@@ -623,6 +629,9 @@ We currently directly provide checkpoints after 1 epoch and 2 epoch training
 - 2epoch：https://github.com/Facico/Chinese-Vicuna/tree/master/lora-Vicuna/checkpoint-11600
 - If you use our checkpoint, your program will also continue from the corresponding step
 
+### Specific cases
+
+- Continue-finetune on the vertical corpus of medicalQA , see here [Chinese-Vicuna-medical](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/performance-medical.md)
 ## **inference on CPU with pure C++**
 
 Details in `tools` [readme](https://github.com/Facico/Chinese-Vicuna/blob/master/tools/readme.md)
@@ -636,11 +645,7 @@ We also offer:
 
 For more details, see [tool readme](https://github.com/Facico/Chinese-Vicuna/tree/master/tools)
 
-## Possible problems encountered
 
-When installing and using this project, some problems may be encountered, and the various problems encountered so far are summarized as follows:
-
-[Problems](https://github.com/Facico/Chinese-Vicuna/blob/master/docs/problems.md)
 
 # todo
 
@@ -654,6 +659,9 @@ When installing and using this project, some problems may be encountered, and th
 - [x] Add incremental training
 - [ ] add langchain
 - [ ] train on multi-turn instruction dataset
+
+# Star History
+[![Star History Chart](https://api.star-history.com/svg?repos=Facico/Chinese-Vicuna&type=Date)](https://star-history.com/#Facico/Chinese-Vicuna&Date)
 
 # Citation
 
