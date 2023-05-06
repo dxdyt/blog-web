@@ -12,7 +12,7 @@ class GithubTrending(MySpider):
         # 使用 BeautifulSoup 解析 HTML 页面
         soup = BeautifulSoup(response.text, 'html.parser')
         # 获取趋势项目的列表
-        projects = soup.find_all('h1', {'class': 'h3 lh-condensed'})
+        projects = soup.find_all('h2', {'class': 'h3 lh-condensed'})
         self.projects = projects
         return projects
     
