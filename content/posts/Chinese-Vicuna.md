@@ -1,9 +1,9 @@
 ---
 title: Chinese-Vicuna
-date: 2023-05-07T00:33:59+08:00
+date: 2023-05-07T12:17:46+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12109/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12109/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
 ---
 
 # [Facico/Chinese-Vicuna](https://github.com/Facico/Chinese-Vicuna)

@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Admin-Web
-date: 2023-05-07T00:34:19+08:00
+date: 2023-05-07T12:18:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12119/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12097/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12097/0/1080p
 ---
 
 # [AprilNEA/ChatGPT-Admin-Web](https://github.com/AprilNEA/ChatGPT-Admin-Web)

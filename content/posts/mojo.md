@@ -1,9 +1,9 @@
 ---
 title: mojo
-date: 2023-05-07T00:32:47+08:00
+date: 2023-05-07T12:16:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12111/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12111/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
 ---
 
 # [modularml/mojo](https://github.com/modularml/mojo)

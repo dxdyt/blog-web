@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-05-07T00:33:30+08:00
+date: 2023-05-07T12:17:17+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12111/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12111/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12093/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12093/0/1080p
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)

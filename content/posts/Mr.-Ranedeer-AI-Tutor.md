@@ -1,9 +1,9 @@
 ---
 title: Mr.-Ranedeer-AI-Tutor
-date: 2023-05-07T00:32:07+08:00
+date: 2023-05-07T12:15:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12103/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12103/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 ---
 
 # [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)

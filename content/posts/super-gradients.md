@@ -1,9 +1,9 @@
 ---
 title: super-gradients
-date: 2023-05-07T00:32:24+08:00
+date: 2023-05-07T12:16:04+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12109/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12109/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12113/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12113/0/1080p
 ---
 
 # [Deci-AI/super-gradients](https://github.com/Deci-AI/super-gradients)

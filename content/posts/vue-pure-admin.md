@@ -1,9 +1,9 @@
 ---
 title: vue-pure-admin
-date: 2023-05-07T00:33:16+08:00
+date: 2023-05-07T12:17:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12109/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12109/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12099/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12099/0/1080p
 ---
 
 # [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)

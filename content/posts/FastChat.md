@@ -1,9 +1,9 @@
 ---
 title: FastChat
-date: 2023-05-07T00:32:16+08:00
+date: 2023-05-07T12:15:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12107/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12107/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12093/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12093/0/1080p
 ---
 
 # [lm-sys/FastChat](https://github.com/lm-sys/FastChat)

@@ -1,9 +1,9 @@
 ---
 title: langchain-tutorials
-date: 2023-05-07T00:32:53+08:00
+date: 2023-05-07T12:16:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12119/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12091/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12091/0/1080p
 ---
 
 # [gkamradt/langchain-tutorials](https://github.com/gkamradt/langchain-tutorials)

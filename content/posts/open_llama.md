@@ -1,9 +1,9 @@
 ---
 title: open_llama
-date: 2023-05-07T00:33:10+08:00
+date: 2023-05-07T12:16:53+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12115/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
 ---
 
 # [openlm-research/open_llama](https://github.com/openlm-research/open_llama)

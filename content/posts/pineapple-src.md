@@ -1,9 +1,9 @@
 ---
 title: pineapple-src
-date: 2023-05-07T00:33:37+08:00
+date: 2023-05-07T12:17:23+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12117/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12117/0/1080p
 ---
 
 # [pineappleEA/pineapple-src](https://github.com/pineappleEA/pineapple-src)
@@ -11,7 +11,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
 yuzu emulator early access
 =============
 
-This is the source code for early-access 3559.
+This is the source code for early-access 3560.
 
 ## Legal Notice
 

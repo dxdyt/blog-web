@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2023-05-07T00:31:57+08:00
+date: 2023-05-07T12:15:40+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12101/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12101/0/1080p
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
