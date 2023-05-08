@@ -1,9 +1,9 @@
 ---
 title: alpaca-lora
-date: 2023-05-07T12:15:16+08:00
+date: 2023-05-08T12:15:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 ---
 
 # [tloen/alpaca-lora](https://github.com/tloen/alpaca-lora)

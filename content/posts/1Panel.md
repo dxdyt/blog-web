@@ -1,13 +1,14 @@
 ---
 title: 1Panel
-date: 2023-03-22T16:03:23+08:00
+date: 2023-05-08T12:17:52+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11921/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
 
+[README_EN.md](README_EN.md)
 <p align="center"><a href="https://1panel.cn"><img src="http://1panel.oss-cn-hangzhou.aliyuncs.com/img/1panel-logo.png" alt="1Panel" width="300" /></a></p>
 <p align="center"><b>现代化、开源的 Linux 服务器运维管理面板</b></p>
 <p align="center">
@@ -28,7 +29,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
 
 ## UI 展示
 
-![UI展示](https://1panel.oss-cn-hangzhou.aliyuncs.com/img/overview.png)
+![UI展示](https://resource.fit2cloud.com/1panel/img/overview.png)
 
 ## 快速开始
 
@@ -50,20 +51,17 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 - [在线文档](https://1panel.cn/docs/)
 - [教学视频](https://space.bilibili.com/510493147/channel/collectiondetail?sid=1199760)
+- [社区论坛](https://bbs.fit2cloud.com/c/1p/7)
 
-## 社区
+**加入微信交流群**
 
-如果您在使用过程中有任何疑问或对建议，欢迎提交 GitHub Issue 或加入到我们微信交流群进行交流沟通。
-
-**微信交流群**
-
-<img src="http://1panel.oss-cn-hangzhou.aliyuncs.com/img/wechat-group.jpg" width="156" height="156"/>
+<img src="https://1panel.cn/img/wechat-group.jpg" width="156" height="156"/>
 
 ## 安全说明
 
 如果您在使用过程中发现任何安全问题，请通过以下方式直接联系我们：
 
-- 邮箱：support@fit2cloud.com 
+- 邮箱：support@fit2cloud.com
 - 电话：400-052-0755
 
 ## Star History
