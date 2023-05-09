@@ -1,9 +1,9 @@
 ---
 title: llm-foundry
-date: 2023-05-08T12:16:03+08:00
+date: 2023-05-09T12:15:20+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12111/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12111/0/1080p
 ---
 
 # [mosaicml/llm-foundry](https://github.com/mosaicml/llm-foundry)
@@ -16,7 +16,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
 
 # LLM Foundry
 
-This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the MosaicML platform. Designed to be easy-to-use, efficient _and_ flexible, this codebase is designed to enable rapid experimentation with the latest techniques.
+This repository contains code for training, finetuning, evaluating, and deploying LLMs for inference with Composer and the [MosaicML platform](https://forms.mosaicml.com/demo?utm_source=github.com&utm_medium=referral&utm_campaign=llm-foundry). Designed to be easy-to-use, efficient _and_ flexible, this codebase is designed to enable rapid experimentation with the latest techniques.
 
 You'll find in this repo:
 * `llmfoundry/` - source code for models, datasets, callbacks, utilities, etc.
@@ -68,9 +68,15 @@ Here's what you need to get started with our LLM stack:
 
 To get started, clone this repo and install the requirements:
 
+<!--pytest.mark.skip-->
 ```bash
 git clone https://github.com/mosaicml/llm-foundry.git
 cd llm-foundry
+
+# Optional: we highly recommend creating and using a virtual environment
+python -m venv llmfoundry-venv
+source llmfoundry-venv/bin/activate
+
 pip install -e ".[gpu]"  # or pip install -e . if no NVIDIA GPU
 ```
 

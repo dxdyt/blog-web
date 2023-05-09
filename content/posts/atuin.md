@@ -1,9 +1,9 @@
 ---
 title: atuin
-date: 2023-05-08T12:18:41+08:00
+date: 2023-05-09T12:16:19+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12107/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12107/0/1080p
 ---
 
 # [ellie/atuin](https://github.com/ellie/atuin)

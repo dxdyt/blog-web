@@ -1,9 +1,9 @@
 ---
 title: stanford_alpaca
-date: 2023-05-07T12:18:00+08:00
+date: 2023-05-09T12:16:11+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12091/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12091/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
 ---
 
 # [tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)

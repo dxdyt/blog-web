@@ -1,9 +1,9 @@
 ---
 title: starcoder
-date: 2023-05-08T12:16:10+08:00
+date: 2023-05-09T12:15:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12123/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12115/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
 ---
 
 # [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder)
@@ -13,11 +13,14 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
 [Paper](https://drive.google.com/file/d/1cN-b9GnWtHzQRoE7M7gAEyivY0kl4BYs/view) | [Model](https://huggingface.co/bigcode/starcoder) | [Playground](https://huggingface.co/spaces/bigcode/bigcode-playground) | [VSCode](https://marketplace.visualstudio.com/items?itemName=HuggingFace.huggingface-vscode) | [Chat](https://huggingface.co/chat/?model=bigcode/starcoder)
 
 # What is this about?
-💫 StarCoder is a language model (LM) trained on source code and natural language text. Its training data incorporates more that 80 different programming languages as well as text extracted from github issues and commits and from notebooks. This repository showcases how we get an overview of this LM's capabilities.
+💫 StarCoder is a language model (LM) trained on source code and natural language text. Its training data incorporates more that 80 different programming languages as well as text extracted from GitHub issues and commits and from notebooks. This repository showcases how we get an overview of this LM's capabilities.
 
 # Disclaimer
 
-Before you can use the model go to `hf.co/bigcode/starcoder` and accept the agreement.
+Before you can use the model go to `hf.co/bigcode/starcoder` and accept the agreement. And make sure you are logged into the Hugging Face hub with:
+```bash
+huggingface-cli login
+```
 
 # Table of Contents
 1. [Quickstart](#quickstart)
@@ -31,7 +34,7 @@ Before you can use the model go to `hf.co/bigcode/starcoder` and accept the agre
     - [Merging PEFT adapter layers](#merging-peft-adapter-layers)
 
 # Quickstart
-StarCoder was trained on github code, thus it can be used to perform code generation. More precisely, the model can complete the implementation of a function or infer the following characters in a line of code. This can be done with the help of the 🤗's [transformers](https://github.com/huggingface/transformers) library.
+StarCoder was trained on GitHub code, thus it can be used to perform code generation. More precisely, the model can complete the implementation of a function or infer the following characters in a line of code. This can be done with the help of the 🤗's [transformers](https://github.com/huggingface/transformers) library.
 
 ## Installation
 First, we have to install all the libraries listed in `requirements.txt`
@@ -48,6 +51,7 @@ checkpoint = "bigcode/starcoder"
 device = "cuda" # for GPU usage or "cpu" for CPU usage
 
 tokenizer = AutoTokenizer.from_pretrained(checkpoint)
+# to save memory consider using fp16 or bf16 by specifying torch.dtype=torch.float16 for example
 model = AutoModelForCausalLM.from_pretrained(checkpoint).to(device)
 
 inputs = tokenizer.encode("def print_hello_world():", return_tensors="pt").to(device)

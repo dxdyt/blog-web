@@ -1,9 +1,9 @@
 ---
 title: chatbox
-date: 2023-05-07T12:16:48+08:00
+date: 2023-05-09T12:17:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12119/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 ---
 
 # [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)
@@ -16,7 +16,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
     English | <a href="./README-CN.md">中文介绍</a>
 </p>
 <p align="center">
-    <em>Your Ultimate Copilot on the Desktop. Chatbox is a desktop app for GPT-4 / GPT-3.5 (OpenAI API) that supports Windows, Mac & Linux.</em>
+    <em>Your Ultimate Copilot on the Desktop. <br />Chatbox is a desktop app for GPT-4 / GPT-3.5 (OpenAI API) that supports Windows, Mac & Linux.</em>
 </p>
 
 
@@ -35,9 +35,19 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
 
 </p>
 
-<!-- ![](./doc/demo.png) -->
-![](./doc/demo2.png)
-![](./doc/demo3.gif)
+<!-- ![](./doc/snapshot2.png) -->
+<!-- ![](./doc/snapshot4.png) -->
+
+<table>
+<tr>
+<td>
+<img src='./doc/snapshot2.png' />
+</td>
+<td>
+<img src='./doc/snapshot4.png' />
+</td>
+</tr>
+</table>
 
 ## Features
 
@@ -58,9 +68,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
 
 Visit **[chatboxapp.xyz](https://chatboxapp.xyz/)** to download the latest version.
 
-### Download from Github Releases
+### Download from GitHub Releases
 
-You can visit **[Github Releases](https://github.com/Bin-Huang/chatbox/releases)** to browse and download all previous versions.
+You can visit **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** to browse and download all previous versions.
 
 ### Download via package manager
 
@@ -100,6 +110,8 @@ At first, I didn't know that it would be so popular. I listened to the feedback 
 - [x] Copy button for code blocks
 - [x] Stop button for AI message generation
 - [x] Drag-and-drop sorting of tabs
+- [x] [Web version](https://web.chatboxapp.xyz)
+- [ ] Azure OpenAI API compatibility
 - [ ] Improved prompt settings
 - [ ] Prompt Library
 - [ ] Talk with files
