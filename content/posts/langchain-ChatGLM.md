@@ -1,6 +1,6 @@
 ---
 title: langchain-ChatGLM
-date: 2023-05-08T12:16:34+08:00
+date: 2023-05-10T12:17:07+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
@@ -188,6 +188,6 @@ Web UI 可以实现如下功能：
   - [ ] 实现调用 API 的 Web UI Demo
 
 ## 项目交流群
-![二维码](img/qr_code_13.jpg)
+![二维码](img/qr_code_15.jpg)
 
 🎉 langchain-ChatGLM 项目交流群，如果你也对本项目感兴趣，欢迎加入群聊参与讨论交流。

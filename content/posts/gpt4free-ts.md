@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-05-09T12:15:51+08:00
+date: 2023-05-10T12:16:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12119/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12109/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12109/0/1080p
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
@@ -14,7 +14,7 @@ This is a replication project for the typescript version of [gpt4free](https://g
 
 In the next two weeks, I will open source all the code for GPTGOD. If you need, Please watch this project or follow me to receive notifications.
 
-Why now? because there are stil some secret config shoule be removed from that project.
+Why now? because there are stil some secret config should be removed from that project.
 
 ## Reverse target
 Still striving to keep updating.
@@ -37,8 +37,7 @@ yarn
 yarn start
 ```
 
-## Deploy with docker-compose
-
+## Run with docker
 first, you should create file .env
 ```env
 http_proxy=http://host:port
@@ -46,6 +45,15 @@ http_proxy=http://host:port
 # get api key here https://rapidapi.com/calvinloveland335703-0p6BxLYIH8f/api/temp-mail44
 rapid_api_key=xxxxxxxxxx
 ```
+
+```
+docker run --env-file .env xiangsx/gpt4free-ts:latest
+```
+
+## Deploy with docker-compose
+
+first, you should create file .env; Follow step "Run with docker
+
 deploy
 ```
 docker-compose up --build -d
@@ -69,6 +77,8 @@ resignup?: number; // default 0 if set 1, auto sign up when gpt4 times use up
 // event: error
 // data: GPT-4 rate limit exceeded (>5 messages every 3 hours). Time remaining: 179 minutes
 // if you see this try set resignup=1 or use gpt-3.5-turbo
+
+// if you want chat with context, set actionType=continue and chatId={Defined constant uuid}
 ```
 
 ### test now!
@@ -91,7 +101,9 @@ curl "http://127.0.0.1:3000/ask/stream?prompt=hello&model=forefront&gptmodel=gpt
 curl "http://127.0.0.1:3000/ask/stream?prompt=hello&model=you"
 ```
 
-Due to legal and personal issues, the development speed of this Repository may slow down over the next one to two weeks. I apologize for any inconvenience this may cause. I have been putting a lot of effort into this small personal/educational project, and it is now on the verge of being taken down.
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=xiangsx/gpt4free-ts&type=Date)](https://star-history.com/#xiangsx/gpt4free-ts&&type=Date)
 
 <p>You may join our discord: <a href="https://discord.com/invite/gpt4free">discord.gg/gpt4free<a> for further updates. <a href="https://discord.gg/gpt4free"><img align="center" alt="gpt4free Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" /></a></p>
 

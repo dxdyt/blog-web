@@ -1,9 +1,9 @@
 ---
 title: extension
-date: 2023-05-09T12:17:09+08:00
+date: 2023-05-10T12:15:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
 ---
 
 # [unisat-wallet/extension](https://github.com/unisat-wallet/extension)

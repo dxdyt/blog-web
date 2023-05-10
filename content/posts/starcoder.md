@@ -1,9 +1,9 @@
 ---
 title: starcoder
-date: 2023-05-09T12:15:33+08:00
+date: 2023-05-10T12:17:35+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12115/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
 ---
 
 # [bigcode-project/starcoder](https://github.com/bigcode-project/starcoder)
@@ -14,6 +14,10 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
 
 # What is this about?
 💫 StarCoder is a language model (LM) trained on source code and natural language text. Its training data incorporates more that 80 different programming languages as well as text extracted from GitHub issues and commits and from notebooks. This repository showcases how we get an overview of this LM's capabilities.
+
+# News
+
+* **May 9, 2023:** We've fine-tuned StarCoder to act as a helpful coding assistant 💬! Check out the `chat/` directory for the training code and play with the model [here](https://huggingface.co/spaces/HuggingFaceH4/starchat-playground).
 
 # Disclaimer
 

@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca
-date: 2023-05-08T12:16:19+08:00
+date: 2023-05-10T12:15:56+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)

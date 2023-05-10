@@ -1,9 +1,9 @@
 ---
 title: atuin
-date: 2023-05-09T12:16:19+08:00
+date: 2023-05-10T12:15:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12107/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12107/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12123/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
 ---
 
 # [ellie/atuin](https://github.com/ellie/atuin)
@@ -139,6 +139,8 @@ bash <(curl https://raw.githubusercontent.com/ellie/atuin/main/install.sh)
             
 atuin import auto
 ```
+
+By default, Atuin will check for updates. You can [disable update checks by modifying](https://atuin.sh/docs/config/#update_check) `config.toml`.
 
 Then restart your shell!
 

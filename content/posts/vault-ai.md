@@ -1,9 +1,9 @@
 ---
 title: vault-ai
-date: 2023-05-08T12:15:55+08:00
+date: 2023-05-10T12:16:27+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12115/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
 ---
 
 # [pashpashpash/vault-ai](https://github.com/pashpashpash/vault-ai)
