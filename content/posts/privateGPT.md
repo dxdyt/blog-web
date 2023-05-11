@@ -1,9 +1,9 @@
 ---
 title: privateGPT
-date: 2023-05-10T12:16:41+08:00
+date: 2023-05-11T12:15:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12115/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 ---
 
 # [imartinez/privateGPT](https://github.com/imartinez/privateGPT)
@@ -42,7 +42,7 @@ python ingest.py <path_to_your_txt_file>
 
 It will create a `db` folder containing the local vectorstore. Will take time, depending on the size of your document.
 You can ingest as many documents as you want by running `ingest`, and all will be accumulated in the local embeddings database. 
-If you want to start from scracth, delete the `db` folder.
+If you want to start from scratch, delete the `db` folder.
 
 Note: during the ingest process no data leaves your local environment. You could ingest without an internet connection.
 

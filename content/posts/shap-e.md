@@ -1,9 +1,9 @@
 ---
 title: shap-e
-date: 2023-05-10T12:15:04+08:00
+date: 2023-05-11T12:16:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12105/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12105/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 ---
 
 # [openai/shap-e](https://github.com/openai/shap-e)

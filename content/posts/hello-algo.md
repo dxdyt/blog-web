@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2023-05-10T12:15:25+08:00
+date: 2023-05-11T12:17:07+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12123/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)
@@ -34,7 +34,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
     阅读网页版
     </a>
   &nbsp; | &nbsp;
-    <a href="https://github.com/krahets/hello-algo/releases/tag/1.0.0b2">
+    <a href="https://github.com/krahets/hello-algo/releases">
     下载 PDF 版
     </a>
 </p>

@@ -1,6 +1,6 @@
 ---
 title: open-chat-video-editor
-date: 2023-05-10T12:15:12+08:00
+date: 2023-05-11T12:17:16+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
@@ -106,11 +106,25 @@ https://user-images.githubusercontent.com/21036347/236431745-9f61ebcc-91b5-4157-
 ### 环境安装
 根据不同需求，选择不同的安装方式1、2、和3、任选其一。
 #### 1、Docker
-目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。目前支持图像检索模式，**CPU机器也可以使用**。但docker比较大，所以占用比较多的储存（24G）。
+目前docker环境因为每个人的cuda版本可能不一样，所以无法保证都能够正常使用GPU。目前支持图像检索模式，**CPU机器也可以使用**。但docker比较大，需要占用比较多的储存（24G）。
 ```
 docker pull iamjunhonghuang/open-chat-video-editor:retrival
 docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ iamjunhonghuang/open-chat-video-editor:retrival bash
 conda activate open_editor
+```
+或者使用阿里云的镜像：
+```
+docker login --username=xxx registry.cn-hangzhou.aliyuncs.com
+docker pull registry.cn-hangzhou.aliyuncs.com/iamjunhonghuang/open-chat-video-editor:retrival
+docker run -it --network=host -v /YourPath/open-chat-video-editor:/YourPath/open-chat-video-editor/ registry.cn-hangzhou.aliyuncs.com/iamjunhonghuang/open-chat-video-editor:retrival bash
+conda activate open_editor
+```
+注意：目前暂不支持中文字幕显示，所以需要修改配置文件yaml中的字体设置，例如’image_by_retrieval_text_by_chatgpt_zh.yaml‘
+```
+  subtitle:
+    font: DejaVu-Sans-Bold-Oblique
+    # font: Cantarell-Regular
+    # font: 华文细黑
 ```
 #### 2、Linux (目前仅在centOS测试)
 1）首先安装基于conda的python环境，gcc版本安装测试时是8.5.0，所以尽量升级到8以上
@@ -190,7 +204,7 @@ pip3 install torch torchvision torchaudio
 |configs\url2video\video_by_retrieval_text_by_chatgpt.yaml|url转视频,视频文案采用chatgpt生成,视觉部分采用视频检索来生成 |
 
 
-**需要注意的是：如果要采用ChatGPT来生成文案，需要在配置文件里面，添加organization 和 api_key**
+**需要注意的是：如果要采用ChatGPT来生成文案，需要在配置文件里面，添加organization_id（要在Organization settings那里查，而不是直接输入“personal”）和 api_key**
 
 2）下载数据索引和meta信息[data.tar](https://pan.quark.cn/s/19fa46ceb2cb),并解压到 data/index 目录下，
 
@@ -228,8 +242,11 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 
 ![WechatIMG1888](https://user-images.githubusercontent.com/21036347/236738826-ec47d75e-5b0d-45ad-8f09-8468e9eb8172.jpeg)
 
-请加三群：
+三群200人已满，
 
 ![301683610444_ pic](https://user-images.githubusercontent.com/26428693/237003622-af8b9c38-1d88-4518-8080-354666e7fa19.jpg)
 
 
+请加四群：
+
+![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/003d4e00-9f78-40db-8091-e256220322b2)
