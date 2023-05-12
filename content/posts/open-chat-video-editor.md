@@ -1,9 +1,9 @@
 ---
 title: open-chat-video-editor
-date: 2023-05-11T12:17:16+08:00
+date: 2023-05-12T12:17:14+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [SCUTlihaoyu/open-chat-video-editor](https://github.com/SCUTlihaoyu/open-chat-video-editor)
@@ -236,17 +236,17 @@ python  app/app.py --func URL2VideoEditor  --cfg ${cfg_file}
 
 一群200人已满,
 
-![微信图片_20230505204811](https://user-images.githubusercontent.com/21036347/236461673-53188ad6-ad27-470f-9910-6e648f92c240.jpg)
 
 二群200人已满，
 
-![WechatIMG1888](https://user-images.githubusercontent.com/21036347/236738826-ec47d75e-5b0d-45ad-8f09-8468e9eb8172.jpeg)
 
 三群200人已满，
 
-![301683610444_ pic](https://user-images.githubusercontent.com/26428693/237003622-af8b9c38-1d88-4518-8080-354666e7fa19.jpg)
+
+四群200人已满，
 
 
-请加四群：
+请加五群：
 
-![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/003d4e00-9f78-40db-8091-e256220322b2)
+![image](https://github.com/SCUTlihaoyu/open-chat-video-editor/assets/26428693/a06ec564-cdd4-4470-ada6-b59ff99a8f6a)
+

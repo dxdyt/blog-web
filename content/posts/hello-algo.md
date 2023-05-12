@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2023-05-11T12:17:07+08:00
+date: 2023-05-12T12:17:04+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)

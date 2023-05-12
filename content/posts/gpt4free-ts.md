@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-05-11T12:17:42+08:00
+date: 2023-05-12T12:17:50+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
@@ -22,14 +22,17 @@ Why now? because there are stil some secret config should be removed from that p
 Still striving to keep updating.
 
 Have implemented models here:
-
-- [x] [aidream](http://aidream.cloud) GPT-3.5 ***Still active after 2023-05-11***
-- [x] [you.com](you.com)    GPT-3.5 / Internet / good search **not active because of new auth method**
-- [x] [forefront.ai](forefront.ai)    GPT-4/3.5 ***Not valid from 2023-05-10, but it will be right back***
-- [ ] [bing.com/chat](bing.com/chat)    GPT-4/3.5
-- [ ] [poe.com](poe.com)    GPT-4/3.5
-- [ ] [writesonic.com](writesonic.com)    GPT-3.5 / Internet
-- [ ] [t3nsor.com](t3nsor.com)    GPT-3.5
+If you do not want your website to appear here, please raise an issue and I will remove it immediately.
+|model|support|status|
+|--|--|--|
+|[aidream](http://aidream.cloud)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|
+|[you.com](you.com)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|
+|[forefront.ai](forefront.ai)|GPT-3.5 / Internet / good search|![Active](https://img.shields.io/badge/Active-grey)|
+|[phind.com](https://www.phind.com/)|GPT-4 / Internet / good search|![Active](https://img.shields.io/badge/Active-grey)|
+|[bing.com/chat](bing.com/chat)|GPT-4/3.5||
+|[poe.com](poe.com)| GPT-4/3.5||
+|[writesonic.com](writesonic.com)| GPT-3.5 / Internet||
+|[t3nsor.com](t3nsor.com)|GPT-3.5||
 
 ## Run local
 

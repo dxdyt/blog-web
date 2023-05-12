@@ -1,9 +1,9 @@
 ---
 title: tinygrad
-date: 2023-05-11T12:16:51+08:00
+date: 2023-05-12T12:16:50+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12113/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12113/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 ---
 
 # [geohot/tinygrad](https://github.com/geohot/tinygrad)
