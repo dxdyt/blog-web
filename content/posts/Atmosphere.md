@@ -1,9 +1,9 @@
 ---
 title: Atmosphere
-date: 2023-05-12T12:16:04+08:00
+date: 2023-05-13T12:15:48+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12143/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12143/0/1080p
 ---
 
 # [Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)

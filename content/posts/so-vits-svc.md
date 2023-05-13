@@ -1,9 +1,9 @@
 ---
 title: so-vits-svc
-date: 2023-05-12T12:15:18+08:00
+date: 2023-05-13T12:15:00+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 ---
 
 # [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
@@ -253,6 +253,9 @@ Use [onnx_export.py](https://github.com/svc-develop-team/so-vits-svc/blob/4.0/on
 Note: For Hubert Onnx models, please use the models provided by MoeSS. Currently, they cannot be exported on their own (Hubert in fairseq has many unsupported operators and things involving constants that can cause errors or result in problems with the input/output shape and results when exported.)
 
 CppDataProcess are some functions to preprocess data used in MoeSS
+
+## 🤔The relationship between original project(so-vits-svc by original author), this project and so-vits-svc-5.0
+If the original project is equivalent to the Roman Empire, This project is Eastern Roman Empire(The Byzantine Empire) and so-vits-svc-5.0 is Kingdom of Romania
 
 ## ☀️ Previous contributors
 

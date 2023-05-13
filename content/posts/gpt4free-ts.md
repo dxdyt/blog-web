@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-05-12T12:17:50+08:00
+date: 2023-05-13T12:17:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
@@ -23,11 +23,11 @@ Still striving to keep updating.
 
 Have implemented models here:
 If you do not want your website to appear here, please raise an issue and I will remove it immediately.
-|model|support|status|
-|--|--|--|
-|[aidream](http://aidream.cloud)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|
-|[you.com](you.com)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|
-|[forefront.ai](forefront.ai)|GPT-3.5 / Internet / good search|![Active](https://img.shields.io/badge/Active-grey)|
+|model|support|status|active time|
+|--|--|--|--|
+|[forefront.ai](forefront.ai)|GPT-4/gpt3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-05-12|
+|[aidream](http://aidream.cloud)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-05-12|
+|[you.com](you.com)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-05-12
 |[phind.com](https://www.phind.com/)|GPT-4 / Internet / good search|![Active](https://img.shields.io/badge/Active-grey)|
 |[bing.com/chat](bing.com/chat)|GPT-4/3.5||
 |[poe.com](poe.com)| GPT-4/3.5||
@@ -52,6 +52,7 @@ http_proxy=http://host:port
 # you should config this if you use forefront api, this apikey is used for receive register email
 # get api key here https://rapidapi.com/calvinloveland335703-0p6BxLYIH8f/api/temp-mail44
 rapid_api_key=xxxxxxxxxx
+DEBUG=0 # default:0 when you set 1 make sure run with chromium ui
 ```
 
 ```
@@ -112,6 +113,9 @@ common request
 curl "http://127.0.0.1:3000/ask?prompt=hello&model=aidream"
 
 # test default model chat.forefront.at
+# !!!!ATTENTION!!!! It Unstable when the first time use, but support GPT4
+# !!!!ATTENTION!!!! You may got timeout when you run this project ant req forefront the first time.
+# !!!!ATTENTION!!!! It will run quickly in your next time;
 curl "http://127.0.0.1:3000/ask?prompt=hello&model=forefront&gptmodel=gpt-4&resignup=1"
 
 # test you.com
@@ -125,6 +129,9 @@ request event-stream
 curl "http://127.0.0.1:3000/ask/stream?prompt=hello&model=aidream"
 
 # test chat.forefront.at
+# !!!!ATTENTION!!!! It Unstable when the first time use, but support GPT4
+# !!!!ATTENTION!!!! You may got timeout when you run this project ant req forefront the first time.
+# !!!!ATTENTION!!!! It will run quickly in your next time;
 curl "http://127.0.0.1:3000/ask/stream?prompt=hello&model=forefront&gptmodel=gpt-4&resignup=1"
 
 # test you

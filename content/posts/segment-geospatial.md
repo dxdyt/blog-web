@@ -1,9 +1,9 @@
 ---
 title: segment-geospatial
-date: 2023-05-12T12:17:24+08:00
+date: 2023-05-13T12:17:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12109/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12109/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
 ---
 
 # [opengeos/segment-geospatial](https://github.com/opengeos/segment-geospatial)
