@@ -1,9 +1,9 @@
 ---
 title: privateGPT
-date: 2023-05-13T12:14:47+08:00
+date: 2023-05-14T12:14:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12113/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12113/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12117/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12117/0/1080p
 ---
 
 # [imartinez/privateGPT](https://github.com/imartinez/privateGPT)

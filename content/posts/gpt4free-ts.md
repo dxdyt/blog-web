@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-05-13T12:17:33+08:00
+date: 2023-05-14T12:17:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)

@@ -1,9 +1,9 @@
 ---
 title: open-chat-video-editor
-date: 2023-05-13T12:17:03+08:00
+date: 2023-05-14T12:17:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12121/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12121/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12143/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12143/0/1080p
 ---
 
 # [SCUTlihaoyu/open-chat-video-editor](https://github.com/SCUTlihaoyu/open-chat-video-editor)

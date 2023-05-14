@@ -1,9 +1,9 @@
 ---
 title: RasaGPT
-date: 2023-05-13T12:16:22+08:00
+date: 2023-05-14T12:16:30+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12115/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12115/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
 ---
 
 # [paulpierre/RasaGPT](https://github.com/paulpierre/RasaGPT)

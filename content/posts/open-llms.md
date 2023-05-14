@@ -1,9 +1,9 @@
 ---
 title: open-llms
-date: 2023-05-13T12:15:32+08:00
+date: 2023-05-14T12:15:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12123/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 ---
 
 # [eugeneyan/open-llms](https://github.com/eugeneyan/open-llms)
@@ -70,6 +70,7 @@ These LLMs are all licensed for commercial use (e.g., Apache 2.0, MIT, OpenRAIL-
 - [Holistic Evaluation of Language Models (HELM)](https://crfm.stanford.edu/helm/latest/?groups=1)
 - [LLM-Leaderboard](https://github.com/LudwigStumpp/llm-leaderboard)
 - [TextSynth Server Benchmarks](https://bellard.org/ts_server/)
+- [Open LLM Leaderboard by Hugging Face](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
 ---
 
