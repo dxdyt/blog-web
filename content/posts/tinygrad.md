@@ -1,6 +1,6 @@
 ---
 title: tinygrad
-date: 2023-05-14T12:16:44+08:00
+date: 2023-05-15T12:17:29+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p

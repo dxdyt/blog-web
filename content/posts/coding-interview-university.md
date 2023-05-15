@@ -1,9 +1,9 @@
 ---
 title: coding-interview-university
-date: 2023-04-12T12:18:03+08:00
+date: 2023-05-15T12:16:15+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12029/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12029/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 ---
 
 # [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
@@ -257,21 +257,19 @@ Create a new branch so you can check items like this, just put an x in the brack
 1. Clone to your local repo:
 
     ```
-    git clone git@github.com:<your_github_username>/coding-interview-university.git
+    git clone https://github.com/<YOUR_GITHUB_USERNAME>/coding-interview-university.git
     cd coding-interview-university
-    git checkout -b progress
-    git remote add jwasham https://github.com/jwasham/coding-interview-university
-    git fetch --all
+    git remote add upstream https://github.com/jwasham/coding-interview-university.git
+    git remote set-url --push upstream DISABLE  # so that you don't push your personal progress back to the original repo
     ```
 
 1. Mark all boxes with X after you completed your changes:
 
     ```
-    git add .
-    git commit -m "Marked x"
-    git rebase jwasham/main
-    git push --set-upstream origin progress
-    git push --force
+    git commit -am "Marked personal progress"
+    git pull upstream main  # keep your fork up-to-date with changes from the original repo
+   
+    git push # just pushes to your fork
     ```
 
 ## Don't feel you aren't smart enough
