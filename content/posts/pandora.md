@@ -1,9 +1,9 @@
 ---
 title: pandora
-date: 2023-05-15T12:15:09+08:00
+date: 2023-05-16T12:17:28+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 ---
 
 # [pengzhile/pandora](https://github.com/pengzhile/pandora)
@@ -71,7 +71,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
   <summary>
 
   ![alt Screenshot5](https://github.com/pengzhile/pandora/raw/master/doc/images/s05.png)<br>
-  ![alt Screenshot10](https://github.com/pengzhile/pandora/raw/master/doc/images/s10.jpeg)
+  ![alt Screenshot10](https://github.com/pengzhile/pandora/raw/master/doc/images/s12.jpeg)
 
   </summary>
 

@@ -1,9 +1,9 @@
 ---
 title: adetailer
-date: 2023-05-15T12:17:22+08:00
+date: 2023-05-16T12:18:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12147/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12147/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 ---
 
 # [Bing-su/adetailer](https://github.com/Bing-su/adetailer)

@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2023-05-15T12:16:24+08:00
+date: 2023-05-16T12:16:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 ---
 
 # [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI)

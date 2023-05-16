@@ -1,19 +1,19 @@
 ---
 title: e2b
-date: 2023-04-07T12:16:14+08:00
+date: 2023-05-16T12:18:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11981/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11981/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12143/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12143/0/1080p
 ---
 
 # [e2b-dev/e2b](https://github.com/e2b-dev/e2b)
 
 <h1 align="center">
-  <img width="200" src="img/logoname-black.svg#gh-light-mode-only" alt="e2b">
-  <img width="200" src="img/logoname-white.svg#gh-dark-mode-only" alt="e2b">
+  <img width="200" src="docs-assets/logoname-black.svg#gh-light-mode-only" alt="e2b">
+  <img width="200" src="docs-assets/logoname-white.svg#gh-dark-mode-only" alt="e2b">
 </h1>
 
-<p align="center">Open-source IDE powered by AI agents that do the work for you</p>
+<p align="center">Open-source platform for building AI-powered virtual software developers</p>
 
 <h4 align="center">
   <a href="https://e2b.dev">Website</a> |
@@ -30,84 +30,93 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11981/0/1080p
   </a>
 </h4>
 
-![e2b-editor](img/e2b.png)
-*Example of AI agent building Stripe checkout. Left - technical specification written by human. Right - steps that the AI agent took and tools that it used to build the server route required by the specification.*
+![e2b-editor](docs-assets/preview.gif)
 
-## What is e2b and how does it work?
-e2b or etob (*english2bits*) is a new kind of development environment powered by AI. The main idea is that developers have access to AI agents that can use tools. The developer writes a short documentation or a technical spec in plain English and then lets the AI agent do the actual work. The AI agents have access to tools like writing to a file, running code, running commands, installing dependencies, deploying, etc. Agents operate in a secure sandboxed cloud environment that's powered by [Firecracker](https://github.com/firecracker-microvm/firecracker/). This way, you for example describe what a server route should do and the agent codes it for you. Like [this example](https://twitter.com/mlejva/status/1641072535163875330) of an AI agent coding Stripe customer checkout based on a technical spec.
+[e2b](https://e2b.dev) or etob (*english2bits*) allows you to create & deploy virtual software developers. These virtual developers are powered by specialized AI agents that build software based on your instructions and can use tools.
 
-## BYOM, BYOP, BYOT
+Agents operate in our own secure sandboxed cloud environments that's powered by [Firecracker](https://github.com/firecracker-microvm/firecracker/).
 
+e2b currently supports building only REST servers in Node.js. Specifically using the [Express](https://expressjs.com/) framework. We'll support more use-cases with time.
+
+# 🚀 Get started
+We're working on the cloud-hosted version. In the meantime, the fastest way try out e2b is to run it locally via Docker.
+
+## 🐳 Start e2b with Docker
+You will need:
+- [OpenAI API key](https://platform.openai.com/account/api-keys) (support for more and custom models coming soon)
+- Docker
+- Node.js *16+*
+- Free ports 3000 (Next.js app), 54321 (Supabase API Gateway), 54322 (Supabase Database)
+
+To start e2b run:
+```
+npm start
+```
+
+Then open page on [http://localhost:3000](http://localhost:3000).
+
+`npm start` starts local Supabase in the background - to stop it you have to run `npm run stop`.
+
+## 💻 Development setup
+For developing with hot reloading and contributing to the project you may want to run the app locally without Docker (`npm start` command).
+
+[Follow these steps](DEVELOPMENT_SETUP.md) to set it up.
+
+# Features
+## 🛠 Bring your own X
 While e2b will offer the "batteries-included" solution, our goal is to let users:
 - **BYOM** - Bring Your Own Model
 - **BYOP** - Bring Your Own Prompt
 - **BYOT** - Bring Your Own Tools
 
-We think the AI-powered IDE for the future should be open-sourced and allow anybody to bring their models, customize the prompts, and develop custom tools for the agents. But we also plan to offer a cloud version with some features behind subscription though.
+## 🤖 Supported models and model hosting providers
+- [x] [OpenAI](https://openai.com/)
+  - [x] GPT-4
+  - [x] GTP-3.5
+- [x] [Anthropic](https://anthropic.com/)
+  - [x] Claude v1.3
+  - [x] Claude Instant v1
+- [x] [Replicate](https://replicate.com/)
+- [x] [Hugging Face](https://huggingface.co/)
+  - [x] Inference API
+  - [x] Inference Endpoints
+- [x] [Banana](https://www.banana.dev/)
 
-## Get started
-You will need:
-- GPT-4 access (support for more and custom models coming soon)
-- Docker
-- Node.js *16+*
-- Yarn *1.22.19 (Classic Stable)*
-- Python *3.10+*
-- Poetry *1.3.2+*
+### **Model or model hosting provider you like isn't supported?**
 
-### 1. Install dependencies
-```
-yarn install:all
-```
+👉 Please open the ["New model request" issue](https://github.com/e2b-dev/e2b/issues/new?assignees=&labels=new+model+request&template=new-model-request.md&title=) 👈
 
-### 2. Start local Supabase
-```
-yarn db:start
-```
+👉 Or open a PR and [start contributing](./CONTRIBUTING.md#🤖-adding-a-new-model-provider) 👈
 
-> Local Supabase runs in the background - to stop it you have to run `yarn db:stop`.
-
-### 3. Add env vars
-Create `.env` file by copying the [`.env.example`](.env.example)
-```
-cp .env.example .env
-```
-and fill in the following variables:
-- `OPENAI_API_KEY` - your [OpenAI key](https://platform.openai.com/account/api-keys)
-- `SUPABASE_SERVICE_ROLE_KEY` - Supabase service role key you got in the previous step as `service_role key: eyJh......`
-- `NEXT_PUBLIC_SUPABASE_ANON_KEY` - Supabase anonymous key you got in the previous step as `anon key: eyJh......`
-
-### 4. Start the app
-```
-yarn dev
-```
-Then open the page on [http://localhost:3000](http://localhost:3000) and sign in with the testing credentials:
-
-**Email**
-
-`admin@admin.com`
-
-**Password**
-
-`admin@admin.com`
-
-
-## Current state
-e2b is a work in progress. The `developer <--> AI agent` cooperation creates completely new paradigms. We're exploring how the ideal UX, UI, and cooperation with the agents should look like. The app will surely go through a lot of changes in the short and medium term.
-
-e2b currently support building only REST servers in Node.js. Specifically using the [Express](https://expressjs.com/) framework. We'll support more languages and frameworks with time. The goal for e2b is to eventually be able to handle any use-case.
-
-## How are we going to make money?
-You will always be able to self-host e2b for free. We will also offer a cloud version. The current idea is to offer the base cloud version for free while having some features for individuals behind a subscription. We'll share more on pricing for companies and enterprises in the future.
-
-## Early demos
+## 👀 Early demos
 - [AI Agent using coding tools](https://twitter.com/mlejva/status/1636103084802822151)
 - [Build your custom "Just-In-Time" UI](https://twitter.com/mlejva/status/1641151421830529042)
 - [Agent coded a full Stripe customer checkout by following a technical spec provided by user](https://twitter.com/mlejva/status/1641072535163875330)
 
-## Roadmap
-Short-term goals, in no particular order.
+# ℹ️ Community & Support
+- [Discord](https://discord.gg/U7KEcGErtQ) - live discussion and support
+- [GitHub issues](https://github.com/e2b-dev/e2b/issues) - for reporting bugs
+- [Twitter](https://twitter.com/e2b_dev) - to stay up to date
 
-- ~Come up with the name~
-- ~Clean up codebase and provide instructions on how to run it locally~
-- ~Set up a website~
-- Launch the initial version
+# 🤝 Contributing
+We welcome any contributions! If you want to contribute to the project check out the [contibution guide](CONTRIBUTING.md) and join our [Discord](https://discord.gg/dSBY3ms2Qr).
+
+# 📆 Short-term Roadmap
+1. ✅ ~~Make sure people can run e2b locally without issues and the DX is smooth.~~
+2. 🚧 Add support for more models.
+    - ✅ ~~OpenAI~~
+    - ✅ ~~Anthropic~~
+    - Model hosting providers:
+      - ✅ ~~Replicate~~
+      - ✅ ~~Hugging Face Inference API~~
+      - ✅ ~~Hugging Face Inference Endpoints~~
+      - ✅ ~~Banana~~
+      - Paperspace
+3. 🚧 Improve agent's reliability and quality of output.
+4. 🚧 Improve the feedback loop (UX/UI) between the developer and agents.
+5. 🚧 Improve agent's understanding of the context based on the instructions.
+6. 🚧 Deployable agents.
+7. Support more tools and 3rd party integrations that agents can use.
+8. ✅ ~~Let users edit prompts.~~
+9. Let users customize tools and build custom workflows for the agent.
+10. Release cloud version.
