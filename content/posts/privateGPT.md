@@ -1,9 +1,9 @@
 ---
 title: privateGPT
-date: 2023-05-16T12:15:47+08:00
+date: 2023-05-17T12:16:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12123/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 ---
 
 # [imartinez/privateGPT](https://github.com/imartinez/privateGPT)
@@ -42,7 +42,22 @@ This repo uses a [state of the union transcript](https://github.com/imartinez/pr
 
 ## Instructions for ingesting your own dataset
 
-Put any and all of your .txt, .pdf, or .csv files into the source_documents directory
+Put any and all your files into the `source_documents` directory
+
+The supported extensions are:
+
+   - `.csv`: CSV,
+   - `.docx`: Word Document,
+   - `.enex`: EverNote,
+   - `.eml`: Email,
+   - `.epub`: EPub,
+   - `.html`: HTML File,
+   - `.md`: Markdown,
+   - `.msg`: Outlook Message,
+   - `.odt`: Open Document Text,
+   - `.pdf`: Portable Document Format (PDF),
+   - `.pptx` : PowerPoint Document,
+   - `.txt`: Text file (UTF-8),
 
 Run the following command to ingest all the data.
 
@@ -65,7 +80,7 @@ python privateGPT.py
 
 And wait for the script to require your input. 
 
-```shell
+```plaintext
 > Enter a query:
 ```
 
@@ -98,7 +113,7 @@ To install a C++ compiler on Windows 10/11, follow these steps:
    * Universal Windows Platform development
    * C++ CMake tools for Windows
 3. Download the MinGW installer from the [MinGW website](https://sourceforge.net/projects/mingw/).
-4. Run the installer and select the "gcc" component.
+4. Run the installer and select the `gcc` component.
 
 # Disclaimer
 This is a test project to validate the feasibility of a fully private solution for question answering using LLMs and Vector embeddings. It is not production ready, and it is not meant to be used in production. The models selection is not optimized for performance, but for privacy; but it is possible to use different models and vectorstores to improve performance.

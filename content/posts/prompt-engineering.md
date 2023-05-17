@@ -1,9 +1,9 @@
 ---
 title: prompt-engineering
-date: 2023-05-16T12:17:51+08:00
+date: 2023-05-17T12:15:58+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
 ---
 
 # [brexhq/prompt-engineering](https://github.com/brexhq/prompt-engineering)
@@ -349,7 +349,7 @@ You can experiment with a tokenizer here: [https://platform.openai.com/tokenizer
 
 Different models will use different tokenizers with different levels of granularity. You could, in theory, just feed a model 0’s and 1’s – but then the model needs to learn the concept of characters from bits, and then the concept of words from characters, and so forth. Similarly, you could feed the model a stream of raw characters, but then the model needs to learn the concept of words, and punctuation, etc… and, in general, the models will perform worse.
 
-To learn more, [HuggingFace has a wonderful introduction to tokenizers](https://huggingface.co/docs/transformers/tokenizer_summary) and why they need to exist.
+To learn more, [Hugging Face has a wonderful introduction to tokenizers](https://huggingface.co/docs/transformers/tokenizer_summary) and why they need to exist.
 
 There’s a lot of nuance around tokenization, such as vocabulary size or different languages treating sentence structure meaningfully different (e.g. words not being separated by spaces). Fortunately, language model APIs will almost always take raw text as input and tokenize it behind the scenes – *so you rarely need to think about tokens*.
 
@@ -415,7 +415,7 @@ But we can bypass these instructions and get the model to happily use the word i
   <img width="550" src="https://user-images.githubusercontent.com/89960/232420600-56083a10-b382-46a7-be18-eb9c005b8371.png">
 </p>
 
-There are [a number of defensive measures](https://learnprompting.org/docs/prompt_hacking/defensive_measures) you can take here, but typically the best bet is to reiterate your most important constraints as close to the end as possible. For the OpenAI chat API, this might mean including it as a `system` message after the last `user` message. Here’s an example:
+There are [a number of defensive measures](https://learnprompting.org/docs/prompt_hacking/defensive_measures/overview) you can take here, but typically the best bet is to reiterate your most important constraints as close to the end as possible. For the OpenAI chat API, this might mean including it as a `system` message after the last `user` message. Here’s an example:
 
 | ![image](https://user-images.githubusercontent.com/89960/232421097-adcaace3-0b21-4c1e-a5c8-46bb25faa2f7.png) | ![image](https://user-images.githubusercontent.com/89960/232421142-a47e75b4-5ff6-429d-9abd-a78dbc72466e.png) |
 | --- | --- |

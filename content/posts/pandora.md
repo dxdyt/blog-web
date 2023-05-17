@@ -1,9 +1,9 @@
 ---
 title: pandora
-date: 2023-05-16T12:17:28+08:00
+date: 2023-05-17T12:17:35+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
 ---
 
 # [pengzhile/pandora](https://github.com/pengzhile/pandora)
@@ -90,6 +90,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 
 ## 其他说明
 
+* `开源项目可以魔改，但请保留原作者信息。确需去除，请联系作者，以免失去技术支持。`
 * 项目是站在其他巨人的肩膀上，感谢！
 * 报错、BUG之类的提出`Issue`，我会修复。
 * 因为之后`ChatGPT`的API变动，我可能不会跟进修复。

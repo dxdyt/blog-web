@@ -1,9 +1,9 @@
 ---
 title: Bard
-date: 2023-05-15T12:17:49+08:00
+date: 2023-05-17T12:17:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [acheong08/Bard](https://github.com/acheong08/Bard)

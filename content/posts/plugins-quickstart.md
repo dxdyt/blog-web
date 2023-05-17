@@ -1,9 +1,9 @@
 ---
 title: plugins-quickstart
-date: 2023-05-16T12:18:25+08:00
+date: 2023-05-17T12:18:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12137/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12137/0/1080p
 ---
 
 # [openai/plugins-quickstart](https://github.com/openai/plugins-quickstart)
