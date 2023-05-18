@@ -1,9 +1,9 @@
 ---
 title: ChatALL
-date: 2023-05-17T12:15:10+08:00
+date: 2023-05-18T12:15:07+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 ---
 
 # [sunner/ChatALL](https://github.com/sunner/ChatALL)
@@ -12,7 +12,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
   <img src="src/assets/logo-cover.png" width=256></img>
   <p><strong>Chat with ALL AI Bots Concurrently, Discover the Best</strong></p>
 
-[Deutsch](README_DE-DE.md) | English | [简体中文](README_ZH-CN.md)
+[Deutsch](README_DE-DE.md) | English | [简体中文](README_ZH-CN.md) | [日本語](README_JA-JP.md)
 
 </div>
 
@@ -23,7 +23,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
 
 ## Features
 
-Large Language Models (LLMs) based AI bots are amazing. However, their behavior can be random and different bots excel at different tasks. If you want the best experience, don't try them one by one. ChatALL (Chinese name: 齐叨) can send prompt to severl AI bots concurrently, help you to discover the best results.
+Large Language Models (LLMs) based AI bots are amazing. However, their behavior can be random and different bots excel at different tasks. If you want the best experience, don't try them one by one. ChatALL (Chinese name: 齐叨) can send prompt to several AI bots concurrently, help you to discover the best results.
 
 ### Supported bots
 
@@ -124,5 +124,5 @@ npm run electron:build -- -wml --x64 --arm64
 ### Others
 
 - GPT-4 contributed much of the code
-- ChatGPT, Bing Chat and Google provide many solutons (ranked in order)
+- ChatGPT, Bing Chat and Google provide many solutions (ranked in order)
 - Inspired by [ChatHub](https://github.com/chathub-dev/chathub). Respect!

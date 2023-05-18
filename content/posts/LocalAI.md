@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2023-05-17T12:17:57+08:00
+date: 2023-05-18T12:16:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12143/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12143/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI)
@@ -44,6 +44,7 @@ See [examples on how to integrate LocalAI](https://github.com/go-skynet/LocalAI/
 
 ## News
 
+- 17-05-2023:  __v1.12.0__ released! 🔥🔥 Minor fixes, plus CUDA (https://github.com/go-skynet/LocalAI/pull/258) support for `llama.cpp`-compatible models and image generation (https://github.com/go-skynet/LocalAI/pull/272).
 - 16-05-2023: 🔥🔥🔥 Experimental support for CUDA (https://github.com/go-skynet/LocalAI/pull/258) in the `llama.cpp` backend and Stable diffusion CPU image generation (https://github.com/go-skynet/LocalAI/pull/272) in `master`.
 
 Now LocalAI can generate images too:
@@ -706,6 +707,8 @@ curl http://localhost:8080/v1/models
 
 ### Embeddings
 
+OpenAI docs: https://platform.openai.com/docs/api-reference/embeddings
+
 <details>
 
 The embedding endpoint is experimental and enabled only if the model is configured with `embeddings: true` in its `yaml` file, for example:
@@ -752,6 +755,8 @@ curl http://localhost:8080/v1/audio/transcriptions -H "Content-Type: multipart/f
   
 ### Image generation
 
+OpenAI docs: https://platform.openai.com/docs/api-reference/images/create
+
 LocalAI supports generating images with Stable diffusion, running on CPU.
 
 | mode=0                                                                                                                | mode=1 (winograd/sgemm)                                                                                                                |
@@ -782,6 +787,8 @@ curl http://localhost:8080/v1/images/generations -H "Content-Type: application/j
             "size": "256x256"
           }'
 ```
+
+Note: image generator supports images up to 512x512. You can use other tools however to upscale the image, for instance: https://github.com/upscayl/upscayl.
 
 #### Setup
 
@@ -857,7 +864,7 @@ Yes! If the client uses OpenAI and supports setting a different base URL to send
 
 <details>
 
-Not currently, as ggml doesn't support GPUs yet: https://github.com/ggerganov/llama.cpp/discussions/915.
+There is partial GPU support, see build instructions above.
 
 </details>
 

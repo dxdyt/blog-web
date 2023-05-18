@@ -1,9 +1,9 @@
 ---
 title: prompt-engineering
-date: 2023-05-17T12:15:58+08:00
+date: 2023-05-18T12:17:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
 ---
 
 # [brexhq/prompt-engineering](https://github.com/brexhq/prompt-engineering)

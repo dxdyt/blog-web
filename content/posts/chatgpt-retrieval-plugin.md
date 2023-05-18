@@ -1,9 +1,9 @@
 ---
 title: chatgpt-retrieval-plugin
-date: 2023-05-16T12:18:15+08:00
+date: 2023-05-18T12:17:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 ---
 
 # [openai/chatgpt-retrieval-plugin](https://github.com/openai/chatgpt-retrieval-plugin)
@@ -202,7 +202,7 @@ This is a plugin for ChatGPT that enables semantic search and retrieval of perso
 
 The plugin uses OpenAI's `text-embedding-ada-002` embeddings model to generate embeddings of document chunks, and then stores and queries them using a vector database on the backend. As an open-source and self-hosted solution, developers can deploy their own Retrieval Plugin and register it with ChatGPT. The Retrieval Plugin supports several vector database providers, allowing developers to choose their preferred one from a list.
 
-A FastAPI server exposes the plugin's endpoints for upserting, querying, and deleting documents. Users can refine their search results by using metadata filters by source, date, author, or other criteria. The plugin can be hosted on any cloud platform that supports Docker containers, such as Fly.io, Heroku or Azure Container Apps. To keep the vector database updated with the latest documents, the plugin can process and store documents from various data sources continuously, using incoming webhooks to the upsert and delete endpoints. Tools like [Zapier](https://zapier.com) or [Make](https://www.make.com) can help configure the webhooks based on events or schedules.
+A FastAPI server exposes the plugin's endpoints for upserting, querying, and deleting documents. Users can refine their search results by using metadata filters by source, date, author, or other criteria. The plugin can be hosted on any cloud platform that supports Docker containers, such as Fly.io, Heroku, Render, or Azure Container Apps. To keep the vector database updated with the latest documents, the plugin can process and store documents from various data sources continuously, using incoming webhooks to the upsert and delete endpoints. Tools like [Zapier](https://zapier.com) or [Make](https://www.make.com) can help configure the webhooks based on events or schedules.
 
 ### Memory Feature
 
@@ -419,21 +419,14 @@ You can deploy your app to different cloud providers, depending on your preferen
 
 Before deploying your app, you might want to remove unused dependencies from your [pyproject.toml](/pyproject.toml) file to reduce the size of your app and improve its performance. Depending on the vector database provider you choose, you can remove the packages that are not needed for your specific provider. Refer to the respective documentation in the [`/docs/deployment/removing-unused-dependencies.md`](/docs/deployment/removing-unused-dependencies.md) file for information on removing unused dependencies for each provider.
 
-Once you have deployed your app, consider uploading an initial batch of documents using one of [these scripts](/scripts) or by calling the `/upsert` endpoint.
-
-- **Chroma:** Remove `pinecone-client`, `weaviate-client`, `pymilvus`, `qdrant-client`, and `redis`.
-- **Pinecone:** Remove `chromadb`, `weaviate-client`, `pymilvus`, `qdrant-client`, and `redis`.
-- **Weaviate:** Remove `chromadb`, `pinecone-client`, `pymilvus`, `qdrant-client`, and `redis`.
-- **Zilliz:** Remove `chromadb`, `pinecone-client`, `weaviate-client`, `qdrant-client`, and `redis`.
-- **Milvus:** Remove `chromadb`, `pinecone-client`, `weaviate-client`, `qdrant-client`, and `redis`.
-- **Qdrant:** Remove `chromadb`, `pinecone-client`, `weaviate-client`, `pymilvus`, and `redis`.
-- **Redis:** Remove `chromadb`, `pinecone-client`, `weaviate-client`, `pymilvus`, and `qdrant-client`.
+Instructions:
 
 - [Deploying to Fly.io](/docs/deployment/flyio.md)
 - [Deploying to Heroku](/docs/deployment/heroku.md)
+- [Deploying to Render](/docs/deployment/render.md)
 - [Other Deployment Options](/docs/deployment/other-options.md) (Azure Container Apps, Google Cloud Run, AWS Elastic Container Service, etc.)
 
-After you create your app, make sure to change the plugin url in your plugin manifest file [here](/.well-known/ai-plugin.json), and in your OpenAPI schema [here](/.well-known/openapi.yaml), and redeploy.
+Once you have deployed your app, consider uploading an initial batch of documents using one of [these scripts](/scripts) or by calling the `/upsert` endpoint.
 
 ## Installing a Developer Plugin
 

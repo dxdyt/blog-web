@@ -1,9 +1,9 @@
 ---
 title: HowToLiveLonger
-date: 2023-03-26T12:17:54+08:00
+date: 2023-05-18T12:16:10+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11923/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11923/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger)

@@ -1,9 +1,9 @@
 ---
 title: mlops-zoomcamp
-date: 2023-05-17T12:15:17+08:00
+date: 2023-05-18T12:15:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 ---
 
 # [DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)

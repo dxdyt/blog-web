@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-05-17T12:17:02+08:00
+date: 2023-05-18T12:15:01+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12125/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12125/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -139,6 +139,23 @@ anthropic_api_key = "ANTHROPIC_API_KEY" # Optional
            LIMIT match_count;
        END;
        $$;
+```
+
+and 
+
+```sql
+create table
+  stats (
+    -- A column called "time" with data type "timestamp"
+    time timestamp,
+    -- A column called "details" with data type "text"
+    chat boolean,
+    embedding boolean,
+    details text,
+    metadata jsonb,
+    -- An "integer" primary key column called "id" that is generated always as identity
+    id integer primary key generated always as identity
+  );
 ```
 
 - Run the app

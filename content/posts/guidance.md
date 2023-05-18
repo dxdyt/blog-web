@@ -1,9 +1,9 @@
 ---
 title: guidance
-date: 2023-05-17T12:18:05+08:00
+date: 2023-05-18T12:15:15+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
 ---
 
 # [microsoft/guidance](https://github.com/microsoft/guidance)
@@ -27,7 +27,7 @@ Features:
 - [x] Playground-like streaming in Jupyter/VSCode Notebooks.
 - [x] Smart seed-based generation caching.
 - [x] Support for role-based chat models (e.g. [ChatGPT](https://beta.openai.com/docs/guides/chat)).
-- [x] Easy integration with HuggingFace models, including [guidance acceleration](notebooks/guidance_acceleration.ipynb) for speedups over standard prompting, [token healing](notebooks/token_healing.ipynb) to optimize prompt boundaries, and [regex pattern guides](notebooks/pattern_guides.ipynb) to enforce formats.
+- [x] Easy integration with Hugging Face models, including [guidance acceleration](notebooks/guidance_acceleration.ipynb) for speedups over standard prompting, [token healing](notebooks/token_healing.ipynb) to optimize prompt boundaries, and [regex pattern guides](notebooks/pattern_guides.ipynb) to enforce formats.
 
 ## Install
 

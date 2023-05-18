@@ -1,9 +1,9 @@
 ---
 title: FlipperAmiibo
-date: 2023-05-16T12:15:57+08:00
+date: 2023-05-18T12:16:01+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12159/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12159/0/1080p
 ---
 
 # [Gioman101/FlipperAmiibo](https://github.com/Gioman101/FlipperAmiibo)

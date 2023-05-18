@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-05-17T12:17:42+08:00
+date: 2023-05-18T12:16:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
@@ -41,7 +41,7 @@ One-Click to deploy well-designed ChatGPT web UI on Vercel.
 - New in v2: create, share and debug your chat tools with prompt templates (mask)
 - Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 - Automatically compresses chat history to support long conversations while also saving your tokens
-- I18n: English, 简体中文, 繁体中文, 日本語, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština
+- I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어
 
 ## Roadmap
 
