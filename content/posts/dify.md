@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2023-05-18T12:15:21+08:00
+date: 2023-05-19T12:15:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -11,7 +11,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
 ![](./images/describe-en.png)
 <p align="center">
   <a href="./README.md">English</a> |
-  <a href="./README_CN.md">简体中文</a>
+  <a href="./README_CN.md">简体中文</a> |
+  <a href="./README_JA.md">日本語</a>
 </p>
 
 [Website](https://dify.ai) • [Docs](https://docs.dify.ai) • [Twitter](https://twitter.com/dify_ai) • [Discord](https://discord.gg/FngNHpbcY7)

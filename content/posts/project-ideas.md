@@ -1,9 +1,9 @@
 ---
 title: project-ideas
-date: 2023-05-14T12:16:15+08:00
+date: 2023-05-19T12:16:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 ---
 
 # [hkirat/project-ideas](https://github.com/hkirat/project-ideas)
@@ -31,16 +31,16 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
 | 03 | On room creation, they can share the link with their friend who can join the group as well
 | 04 | Add move validation to make sure users can only make valid moves
 | 05 | Use either canvas or raw HTML blocks for the game. You may also use a game engine like phaser. |
-| 06 | You will need to do socket programming since this is a realtime game. |
+| 06 | You will need to do socket programming since this is a real-time game. |
 
 <br>
 <br> 
 
 |  | 🐤 MULTIPLAYER FLAPPY BIRD GAME 🐤 |
 | :----: | :---: |
-| 01 | Create a multiplayer flappy bird game where users can invite their friends and play against each other |
+| 01 | Create a multiplayer flappy bird game where users can invite their friends and play against each other like [this project.](https://github.com/ourcade/flappy-bird-hathora)|
 | 02 | Use raw canvas for rendering, and write all physics yourself (Basic physics like acc, velocity ...) |
-| 03 | You will need to do socket programming since this is a realtime game. Sockets would relay the positions of users to each other. |
+| 03 | You will need to do socket programming since this is a real-time game. Sockets would relay the positions of users to each other. |
 
 <br>
 <br>
@@ -54,10 +54,26 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
 
 <br><br>
 
+|  | CREATE A LOW LATENCY TRADING SYSTEM IN RUST |
+| :----: | :---: |
+| 01 | Create a WebSocket server in rust |
+| 02 | Send data that looks similar to trading applications (create order, cancel order) |
+| 03 | Compress data as much as you can. Read about pbfs |
+| 04 | Regionally distribute this trading application and send trades closer to the main server |
+
+<br><br>
 
 |  | 🔗 CREATE A MULTICHAIN AIRDROPPING WEBSITE 🔗 |
  :----: | :---: |
 | 01 | Build a website that lets users airdrop various crypto currencies to them on their respective testnets |
 | 02 | User should be allowed to select the chain (ETH, SOL, Polygon, ARB) and put in an address where they want the native token sent |
 | 03 | User should be able to select the amount they want to  |
-
+| 04 |	Implement a user authentication system to ensure the security of user data and prevent fraud or abuse of the airdropping feature.
+| 05 |	Enable users to easily view their airdropped tokens and transaction history for each chain on the website.
+| 06 |	Include a feature that allows users to track the progress of their airdropped tokens, such as through email notifications or real-time updates on the website.
+| 07 |	Consider implementing a referral program that incentivizes users to share the website with their friends and family.
+| 08 |	Ensure that the website is optimized for mobile devices, as many users may prefer to access the website from their smartphones.
+| 09 |	Provide clear and concise instructions on how to use the website and participate in the airdrops to minimize confusion and errors.
+| 10 |	Consider partnering with other crypto projects to offer exclusive airdrops or promotional offers to users of the website, which could help attract more users and increase engagement.
+| 11 |	Make sure to comply with all relevant regulations and laws in the jurisdictions where the website will be accessible, as failure to do so could result in legal and financial consequences.
+| 12 |	Regularly update and maintain the website to ensure that it remains secure and functional, and to address any bugs or issues that may arise.

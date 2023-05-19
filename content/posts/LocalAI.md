@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2023-05-18T12:16:47+08:00
+date: 2023-05-19T12:16:53+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
 ---
 
 # [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI)
@@ -21,11 +21,12 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 
 **LocalAI** is a drop-in replacement REST API compatible with OpenAI API specifications for local inferencing. It allows to run models locally or on-prem with consumer grade hardware, supporting multiple models families compatible with the `ggml` format. For a list of the supported model families, see [the model compatibility table below](https://github.com/go-skynet/LocalAI#model-compatibility-table).
 
-- OpenAI drop-in alternative REST API
+- Local, OpenAI drop-in alternative REST API. You own your data.
 - Supports multiple models, Audio transcription, Text generation with GPTs, Image generation with stable diffusion (experimental)
 - Once loaded the first time, it keep models loaded in memory for faster inference
 - Support for prompt templates
 - Doesn't shell-out, but uses C++ bindings for a faster inference and better performance. 
+- NO GPU required. NO Internet access is required either. Optional, GPU Acceleration is available in `llama.cpp`-compatible LLMs. [See building instructions](https://github.com/go-skynet/LocalAI#cublas).
 
 LocalAI is a community-driven project, focused on making the AI accessible to anyone. Any contribution, feedback and PR is welcome! It was initially created by [mudler](https://github.com/mudler/) at the [SpectroCloud OSS Office](https://github.com/spectrocloud).
 
@@ -444,7 +445,7 @@ local-ai --models-path <model_path> [--address <address>] [--threads <num_thread
 | debug | DEBUG         | false           | Enable debug mode. |
 | config-file | CONFIG_FILE         | empty           | Path to a LocalAI config file. |
 | upload_limit | UPLOAD_LIMIT         | 5MB           | Upload limit for whisper. |
-| image-dir | CONFIG_FILE         | empty           | Image directory to store and serve processed images. |
+| image-path | IMAGE_PATH         | empty           | Image directory to store and serve processed images. |
 
 </details>
 
@@ -472,6 +473,8 @@ You should see:
 │ Prefork ....... Disabled  PID ................. 1 │ 
 └───────────────────────────────────────────────────┘ 
 ```
+
+Note: the binary inside the image is rebuild at the start of the container to enable CPU optimizations for the execution environment, you can set the environment variable `REBUILD` to `false` to prevent this behavior.
 
 </details>
 
@@ -576,6 +579,8 @@ Note: CuBLAS support is experimental, and has not been tested on real HW. please
 ```
 make BUILD_TYPE=cublas build
 ```
+
+More informations available in the upstream PR: https://github.com/ggerganov/llama.cpp/pull/1412
 
 </details>
 

@@ -1,16 +1,16 @@
 ---
 title: playwright
-date: 2023-05-18T12:16:59+08:00
+date: 2023-05-19T12:17:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 ---
 
 # [microsoft/playwright](https://github.com/microsoft/playwright)
 
 # 🎭 Playwright
 
-[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-114.0.5735.26-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-113.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-16.4-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop -->
+[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-114.0.5735.35-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-113.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-16.4-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop -->
 
 ## [Documentation](https://playwright.dev) | [API reference](https://playwright.dev/docs/api/class-playwright)
 
@@ -18,7 +18,7 @@ Playwright is a framework for Web Testing and Automation. It allows testing [Chr
 
 |          | Linux | macOS | Windows |
 |   :---   | :---: | :---: | :---:   |
-| Chromium <!-- GEN:chromium-version -->114.0.5735.26<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Chromium <!-- GEN:chromium-version -->114.0.5735.35<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | WebKit <!-- GEN:webkit-version -->16.4<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Firefox <!-- GEN:firefox-version -->113.0<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 

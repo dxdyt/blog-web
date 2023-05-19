@@ -1,9 +1,9 @@
 ---
 title: ImHex
-date: 2023-04-11T12:17:21+08:00
+date: 2023-05-19T12:17:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
 ---
 
 # [WerWolv/ImHex](https://github.com/WerWolv/ImHex)
@@ -36,7 +36,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
     <img alt="Translation" src="https://img.shields.io/weblate/progress/imhex?logo=weblate&logoColor=%23FFFFFF&server=https%3A%2F%2Fweblate.werwolv.net&style=for-the-badge">
   </a>
   <a title="Documentation" href="https://imhex.werwolv.net/docs">
-    <img alt="Documentation" src="https://img.shields.io/badge/Docs-Available-green?logo=gitbook&logoColor=%23FFFFFF&style=for-the-badge">
+    <img alt="Documentation" src="https://img.shields.io/badge/Docs-Available-brightgreen?logo=gitbook&logoColor=%23FFFFFF&style=for-the-badge">
   </a>
 </p>
 

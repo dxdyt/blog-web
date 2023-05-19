@@ -1,9 +1,9 @@
 ---
 title: e2b
-date: 2023-05-17T12:15:25+08:00
+date: 2023-05-19T12:15:50+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
 ---
 
 # [e2b-dev/e2b](https://github.com/e2b-dev/e2b)

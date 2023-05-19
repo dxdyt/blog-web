@@ -1,9 +1,9 @@
 ---
 title: polyglot
-date: 2023-05-17T12:16:34+08:00
+date: 2023-05-19T12:16:12+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
 ---
 
 # [liou666/polyglot](https://github.com/liou666/polyglot)

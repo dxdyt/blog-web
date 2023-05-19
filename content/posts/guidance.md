@@ -1,6 +1,6 @@
 ---
 title: guidance
-date: 2023-05-18T12:15:15+08:00
+date: 2023-05-19T12:15:12+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
@@ -420,7 +420,7 @@ Ok, I will follow these instructions.
 {{~/assistant}}
 
 {{~! Then the conversation unrolls }}
-{{~#geneach 'conversation'}}
+{{~#geneach 'conversation' stop=False}}
 {{#user~}}
 User: {{set 'this.input' (await 'input')}}
 Comment: Remember, answer as a {{role}}. Start your utterance with {{role}}:
@@ -431,8 +431,8 @@ Comment: Remember, answer as a {{role}}. Start your utterance with {{role}}:
 {{~/assistant}}
 {{~/geneach}}''')
 
-republican = role_simulator(role='Republican')
-democrat = role_simulator(role='Democrat')
+republican = role_simulator(role='Republican', await_missing=True)
+democrat = role_simulator(role='Democrat', await_missing=True)
 
 first_question = '''What do you think is the best way to stop inflation?'''
 republican = republican(input=first_question, first_question=None)
