@@ -1,9 +1,9 @@
 ---
 title: guidance
-date: 2023-05-19T12:15:12+08:00
+date: 2023-05-20T12:15:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12171/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
 ---
 
 # [microsoft/guidance](https://github.com/microsoft/guidance)
@@ -282,7 +282,7 @@ out.variables()
 <img src="docs/figures/json_syntax_variables.png" width="714">
                                                       
 ## Role-based chat model example ([notebook](notebooks/chat.ipynb))
-Modern chat-style models like ChatGPT and Alpaca are trained with special tokens that mark out "roles" for different areas of the prompt. Guidance supports these models through <a href="notebooks/api/role_tags.ipynb">role tags</a> that automatically map to the correct tokens or API calls for the current LLM. Below we show how a role-based guidance program enables simple multi-step reasoning and planning.
+Modern chat-style models like ChatGPT and Alpaca are trained with special tokens that mark out "roles" for different areas of the prompt. Guidance supports these models through <a href="notebooks/api_examples/library/role.ipynb">role tags</a> that automatically map to the correct tokens or API calls for the current LLM. Below we show how a role-based guidance program enables simple multi-step reasoning and planning.
 
 ```python
 import guidance
@@ -615,7 +615,7 @@ prompt
 ```
 ![await1](docs/figures/await1.png)
 
-Notice how the lest `gen` is not executed because it depends on `instruction`. Let's provide `instruction` now.
+Notice how the last `gen` is not executed because it depends on `instruction`. Let's provide `instruction` now.
 
 ```python
 prompt = prompt(instruction='Please translate the response above to Portuguese.')

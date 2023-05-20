@@ -1,9 +1,9 @@
 ---
 title: project-ideas
-date: 2023-05-19T12:16:36+08:00
+date: 2023-05-20T12:15:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [hkirat/project-ideas](https://github.com/hkirat/project-ideas)

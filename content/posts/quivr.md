@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-05-19T12:15:36+08:00
+date: 2023-05-20T12:14:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)

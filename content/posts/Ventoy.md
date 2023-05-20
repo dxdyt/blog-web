@@ -1,9 +1,9 @@
 ---
 title: Ventoy
-date: 2023-03-29T12:18:13+08:00
+date: 2023-05-20T12:17:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11957/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11957/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
 ---
 
 # [ventoy/Ventoy](https://github.com/ventoy/Ventoy)

@@ -1,9 +1,9 @@
 ---
 title: Remembering-Haoel
-date: 2023-05-19T12:16:22+08:00
+date: 2023-05-20T12:16:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12137/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12137/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ---
 
 # [megaease/Remembering-Haoel](https://github.com/megaease/Remembering-Haoel)
@@ -24,20 +24,21 @@ PR 一旦被接受，我们会更新 README 中的 index 以方便快速索引�
 
 # 记录索引
 
-- [kevinzhou 与左耳朵的故事](./kevinzhow/Memory.MD)（原文：<https://blog.kevinzhow.com/posts/in-memory-of-haoel/zh>）
-- [tg123 与左耳朵的故事](./tg123/Memory.MD)（原文：<https://twitter.com/farmer1992/status/1658055866992709632>）
-- [strongant 与左耳朵的故事](./strongant/Memory.MD)
-- [monswag 与左耳朵的一面之缘](./monswag/Memory.MD)
-- [yyx990803 与左耳朵的故事](./yyx990803/Memory.md)
-- [Lowei 与左耳朵的故事](./Lowei/Memory.MD)
-- [benja-wu 与左耳朵的故事](./benja-wu/Memory.MD)
-- [shawyeok 与左耳朵的故事](./shawyeok/Memory.md)
-- [jxd134 与左耳朵的故事](./jxd134/Memory.MD)
-- [sonofmagic's memory of haoel](./sonofmagic/Memory.md)
-- [zhao-kun 同学们和左耳朵的故事](./zhao-kun/Memory.MD)
+- [kevinzhou - 与左耳朵的故事](./kevinzhow/Memory.MD)（原文：<https://blog.kevinzhow.com/posts/in-memory-of-haoel/zh>）
+- [tg123 - 与左耳朵的故事](./tg123/Memory.MD)（原文：<https://twitter.com/farmer1992/status/1658055866992709632>）
+- [strongant - 与左耳朵的故事](./strongant/Memory.MD)
+- [monswag - 与左耳朵的一面之缘](./monswag/Memory.MD)
+- [yyx990803 - 与左耳朵的故事](./yyx990803/Memory.md)
+- [Lowei - 与左耳朵的故事](./Lowei/Memory.MD)
+- [benja-wu - 与左耳朵的故事](./benja-wu/Memory.MD)
+- [shawyeok - 与左耳朵的故事](./shawyeok/Memory.md)
+- [jxd134 - 与左耳朵的故事](./jxd134/Memory.MD)
+- [sonofmagic - sonofmagic's memory of haoel](./sonofmagic/Memory.md)
+- [zhao-kun - 同学们和左耳朵的故事](./zhao-kun/Memory.MD)
   - [怀念陈皓同学（来自于同学MHC）](./zhao-kun/Memory.MD#怀念陈皓同学-来自同学mhc)
   - [来自于XF同学的朋友圈回忆](./zhao-kun/Memory.MD#来自与同学xf的朋友圈回忆)
   - [怀念耗子 - jnj](./zhao-kun/Memory.MD#怀念耗子jnj)
+  - [追梦人陈皓 - 来自同学XCH的朋友圈](./zhao-kun/Memory.MD#追梦人陈皓)
 - [agentwyz - upload memeory](./agentwyz/memeory.md)
 - [lijinliangyihao  - 我了解的陈皓](./lijinliangyihao/Memory.MD)
 - [repoog - the memories of Haoel from repoog](./repoog/Memory.MD)
@@ -60,7 +61,13 @@ PR 一旦被接受，我们会更新 README 中的 index 以方便快速索引�
 - [chenshuo - 纪念陈皓（左耳朵耗子）](./chenshuo/Memory.md)(原文：<https://giantchen.wordpress.com/2023/05/18/haoel/> 国内镜像：<https://www.cnblogs.com/Solstice/p/haoel.html>)
 - [yunshen-1995 - memory from yunshen-1995](./yunshen-1995/Memory.MD)
 - [oilbeater - memory from oilbeater](./oilbeater/Memory.md)
-
+- [yangwenmai - 与左耳朵的故事](./yangwenmai/memory.md)
+- [schemacs -  In memory of haoel](./schemacs/Memory.MD)
+- [waylau - 与左耳朵的故事](./waylau/Memory.md) 
+- [undus5 - 纪念耗子叔](./undus5/Memory.md) (原文： <https://blog.undus.net/posts/remembering-haoel/>)
+- [kekaiwang - 怀念 左耳朵皓哥](./kekaiwang/Memory.md)
+- [renny-ren - 纪念左耳朵耗子](./renny-ren/Memory.md)
+- [zouyingjie - 与皓哥的故事](./zouyingjie/Memory.MD)
 
 # 推文
 - [推文 (仅公开内容)](./Tweets/)

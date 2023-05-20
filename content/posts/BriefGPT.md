@@ -1,9 +1,9 @@
 ---
 title: BriefGPT
-date: 2023-05-18T12:17:07+08:00
+date: 2023-05-20T12:17:42+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12139/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12139/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 ---
 
 # [e-johnstonn/BriefGPT](https://github.com/e-johnstonn/BriefGPT)
@@ -52,6 +52,8 @@ Please note this is experimental - it will be significantly slower and the quali
 4. Summarization - summarization is performed in two steps. First, each retrieved embedding is matched with its corresponding text chunk. Each chunk is passed to GPT-3.5 in an individual call to the API - these calls are made in parallel. Once we have accumulated a summary for each chunk, the summaries are passed to GPT-3.5 or GPT-4 for the final summary.
 5. Output - the summary is displayed on the page and saved as a text file. 
 ![summary](https://i.imgur.com/sUcay6a.gif)
+
+
 
 Improved support for locally run LLM's is coming. 
 

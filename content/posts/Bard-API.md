@@ -1,9 +1,9 @@
 ---
 title: Bard-API
-date: 2023-05-18T12:15:35+08:00
+date: 2023-05-20T12:17:23+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
 ---
 
 # [dsdanielpark/Bard-API](https://github.com/dsdanielpark/Bard-API)
@@ -62,33 +62,43 @@ pip install git+https://github.com/dsdanielpark/Bard-API.git
 <br>
 
 ## Usage 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YIMA8aBmEQSSk90bB0Q9tznaLLQcluGA?usp=share_link) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zzzlTIh0kt2MdjLzvXRby1rWbHzmog8t?usp=sharing) 
 
 
 Simple Usage
+
+```python
+from bardapi import Bard
+
+token = 'xxxxxxxxxx'
+bard = Bard(token=token)
+bard.get_answer("나와 내 동년배들이 좋아하는 뉴진스에 대해서 알려줘")['content']
+```
+Or you can use this
 ```python
 from bardapi import Bard
 import os
-
 os.environ['_BARD_API_KEY']="xxxxxxxx"
+
 Bard().get_answer("나와 내 동년배들이 좋아하는 뉴진스에 대해서 알려줘")['content']
 ```
 
-
-Or you can use this
+To get reponse dictionary
 ```python
 import bardapi
 import os
 
 # set your __Secure-1PSID value to key
-os.environ['_BARD_API_KEY']="xxxxxxxx"
+token = 'xxxxxxxxxx'
 
 # set your input text
 input_text = "나와 내 동년배들이 좋아하는 뉴진스에 대해서 알려줘"
 
 # Send an API request and get a response.
-response = bardapi.core.Bard().get_answer(input_text)
+response = bardapi.core.Bard(token).get_answer(input_text)
 ```
+
+
 
 Addressing errors caused by delayed responses in environments like Google Colab and containers. If an error occurs despite following the proper procedure, utilize the timeout argument.
 ```python
@@ -108,21 +118,23 @@ If you are working behind a proxy, use the following.
 ```python
 from bardapi import Bard
 import os
-
 os.environ['_BARD_API_KEY']="xxxxxxxx"
+
 # Change 'http://127.0.0.1:1080' to your http proxy
 # timeout in seconds
-bard = Bard(proxies={'http':'http://127.0.0.1:1080', 'https':'http://127.0.0.1:1080'}, timeout=10)
+bard = Bard(proxies={'http':'http://127.0.0.1:1080', 'https':'http://127.0.0.1:1080'}, timeout=30)
 bard.get_answer("나와 내 동년배들이 좋아하는 뉴진스에 대해서 알려줘")['content']
 ```
 
 ### Reusable session object
+You can continue the conversation through a reusable session.
 ```python
 from bardapi import Bard
 import os
 import requests
-
 os.environ['_BARD_API_KEY'] = 'xxxxxxxxxxx'
+# token='xxxxxxxxxxx'
+
 session = requests.Session()
 session.headers = {
             "Host": "bard.google.com",
@@ -132,23 +144,39 @@ session.headers = {
             "Origin": "https://bard.google.com",
             "Referer": "https://bard.google.com/",
         }
-session.cookies.set("__Secure-1PSID", os.getenv("_BARD_API_KEY"))
+session.cookies.set("__Secure-1PSID", os.getenv("_BARD_API_KEY")) 
+# session.cookies.set("__Secure-1PSID", token) 
 
 bard = Bard(session=session, timeout=30)
 bard.get_answer("나와 내 동년배들이 좋아하는 뉴진스에 대해서 알려줘")['content']
+
+# Continued conversation without set new session
+bard.get_answer("What is my last prompt??")['content']
 ```
 
 Simple Example
 <br>
 
-<a href="https://bard.google.com/"><img src="./assets/bardimg.png" height="600px">
+<a href="https://bard.google.com/"><img src="./assets/bard_img.png">
 
 <br>
 
+## Translation to Another Programming Language
+Please check the translation results in [this folder](https://github.com/dsdanielpark/Bard-API/tree/main/translate_to).
+- Copy the code of [Core.py](https://github.com/dsdanielpark/Bard-API/blob/main/bardapi/core.py).
+- Ask ChatGPT to translate like "Translate to Swift."
+- Ask ChatGPT to optimize the code or provide any desired instructions until you're satisfied.<br>
 
+![](./assets/translate.png)
+            
+            
 ## Scripts
 In the scripts [folder](./scripts/), I have released a script to help you compare [OpenAI-ChatGPT](./scripts/openai_api.ipynb) and [Google-Bard](./scripts/google_api.ipynb). I hope they will help more developers.
 
+## Shifting Service Policies: Bard and Google's Dynamics 
+Bard's service status and Google's API interfaces are in constant flux. *The number of replies is currently limited, but certain users,* such as those utilizing VPNs or proxy servers, have reported slightly higher message caps. Adaptability is crucial in navigating these dynamic service policies. Please note that the cookie values used in this package are not official API values.
+            
+            
 ## License
 [MIT](https://opensource.org/license/mit/) <br>
 I hold no legal responsibility; for more information, please refer to the bottom of the readme file. I just want you to give me and [them](https://github.com/acheong08/Bard) a star.
@@ -164,6 +192,8 @@ Sincerely grateful for any reports on new features or bugs. Your valuable feedba
 ## Reference 
 [1] https://github.com/acheong08/Bard
   
+<br>
+            
 ### Important Notice
   The user assumes all legal responsibilities associated with using the BardAPI package. This Python package merely facilitates easy access to Google Bard for developers. Users are solely responsible for managing data and using the package appropriately. For further information, please consult the Google Bard Official Document.
   
