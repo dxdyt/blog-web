@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2023-05-07T12:15:40+08:00
+date: 2023-05-21T12:15:39+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12101/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12101/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
@@ -95,6 +95,15 @@ Flowise has 3 different modules in a single mono repository.
     ```
 
     Any code changes will reload the app automatically on [http://localhost:8080](http://localhost:8080)
+
+## 🔒 Authentication
+
+To enable app level authentication, add `USERNAME` and `PASSWORD` to the `.env` file in `packages/server`:
+
+```
+USERNAME=user
+PASSWORD=1234
+```
 
 ## 📖 Documentation
 

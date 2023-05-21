@@ -1,9 +1,9 @@
 ---
 title: ChatALL
-date: 2023-05-20T12:16:25+08:00
+date: 2023-05-21T12:16:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12159/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12159/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12143/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12143/0/1080p
 ---
 
 # [sunner/ChatALL](https://github.com/sunner/ChatALL)

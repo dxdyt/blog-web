@@ -1,9 +1,9 @@
 ---
 title: CodeT5
-date: 2023-05-19T12:17:29+08:00
+date: 2023-05-21T12:15:22+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12167/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
 ---
 
 # [salesforce/CodeT5](https://github.com/salesforce/CodeT5)
@@ -36,7 +36,7 @@ At Salesforce, we build an AI coding assistant demo using CodeT5 as a VS Code pl
 **May 2023**
 
 **CodeT5+** paper and models are released！🔥 <br>
-[paper](https://arxiv.org/pdf/2305.07922.pdf) | [code](https://github.com/salesforce/CodeT5/tree/main/CodeT5+) | [model](https://huggingface.co/models?sort=downloads&search=codet5p)
+[paper](https://arxiv.org/pdf/2305.07922.pdf) | [code](https://github.com/salesforce/CodeT5/tree/main/CodeT5+) | [model](https://huggingface.co/models?sort=downloads&search=codet5p) | [blog](https://blog.salesforceairesearch.com/codet5-open-code-large-language-models/)
 
 **Sep 2022**
 
@@ -66,7 +66,6 @@ multilingual code summarization.
 
 
 
-
 ## Citation
 
 If you find this code to be useful for your research, please consider citing:
@@ -84,7 +83,7 @@ If you find this code to be useful for your research, please consider citing:
     le2022coderl,
     title={CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning},
     author={Le, Hung and Wang, Yue and Gotmare, Akhilesh Deepak and Savarese, Silvio and Hoi, Steven C. H.},
-    journal={NeurIPS},
+    booktitle={NeurIPS},
     year={2022}
 }
 

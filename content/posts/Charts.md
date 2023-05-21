@@ -1,9 +1,9 @@
 ---
 title: Charts
-date: 2023-05-20T12:16:17+08:00
+date: 2023-05-21T12:17:05+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12171/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
 ---
 
 # [danielgindi/Charts](https://github.com/danielgindi/Charts)

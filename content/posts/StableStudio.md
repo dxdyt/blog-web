@@ -1,9 +1,9 @@
 ---
 title: StableStudio
-date: 2023-05-20T12:14:36+08:00
+date: 2023-05-21T12:14:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12137/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12137/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 ---
 
 # [Stability-AI/StableStudio](https://github.com/Stability-AI/StableStudio)

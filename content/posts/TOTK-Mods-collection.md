@@ -1,9 +1,9 @@
 ---
 title: TOTK-Mods-collection
-date: 2023-05-20T12:14:54+08:00
+date: 2023-05-21T12:16:08+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
 ---
 
 # [HolographicWings/TOTK-Mods-collection](https://github.com/HolographicWings/TOTK-Mods-collection)
@@ -38,7 +38,7 @@ When you get a cinematic, enable back the "Limit Speed Percent" to avoid faster 
 **BEWARE !** Incompatible with FPS++.  
 </br>
 
-- **FPS++** : An edited version of the Dynamic FPS mod by somerandompeople, fix cinematics above 30fps, increase FPS cap to 60, so 60FPS is not required, need testing and more documentation.
+- **FPS++** : An edited version of the Dynamic FPS mod by "somerandompeople", fix cinematics above 30fps, increase FPS cap to 60 so 60FPS is not required, need testing and more documentation.
 Do not increase Performances.  
 **BEWARE !** Incompatible with Dynamic FPS.  
 </br>
@@ -55,11 +55,13 @@ This mod is present in the Xbox UI and Playstation UI mods, and should be disabl
 
 - Graphics - **Disable Internal FSR Downscaling** : This mod disables the game's FSR, Yuzu has its own FSR in the "Window Adapting Filter" in Graphics settings.  
 FSR is an optimisation method that reduces the game's internal resolution, and then upscales it using an algorithm (similar to DLSS but without advanced AI).  
-FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.
+FSR increases GPU performance, at the cost of some details and potential graphical artifacts on small geometry like leaves or grass.  
+It's recommended to use this mod with "Graphics - Disable Internal FSR Sharpening Shader" if you are on yuzu.  
 </br>
 
 - Graphics - **Disable Internal FSR Sharpening Shader** : This mod disables the sharpening effect of post processed FSR Downscaling internally.  
 GPU Performance cost is extremely low so use it will not improve it, but could do an ugly render if you use it without the FSR Downscaling.  
+Don't use this mod without "Graphics - Disable Internal FSR Downscaling".  
 **BEWARE !** It seems that this mod could be responsible for crashes on Ryujinx.  
 </br>
 
@@ -72,30 +74,20 @@ Yuzu has its own FXAA in the "Anti-Aliasing Method" in Graphics settings, howeve
 - Graphics - **Disable Dynamic resolution** when low FPS : Prevents the resolution being downscaled when your framerate is low.
 </br>
 
-- Graphics - **LOD Patch** when low FPS : Prevents the LOD decreasing when your framerate is low.  
+- Graphics - **Disable LOD Quality Reduction** when low FPS : Prevents the LOD decreasing when your framerate is low.  
 LOD (Level Of Detail) displays higher quality models when you are close to them, and lower quality models when they are further away.  
-By default, when your framerate is low, the game lowers the LOD to increase GPU performance.  
-Reported to fix some graphical issues with LOD, but would like image evidence.  
+By default, when your framerate is low, the game lowers the LOD to increase GPU performance, causing textures and models to visibly get worse.
 </br>
 
-- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting.  
-DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera.  
+- Graphics - **Disable Targeting DOF** Disables the DOF blurring effect when targeting enemies or NPCs with ZL.  
+DOF (Depth-of-Field is an effect that blur the background when an object is focused by the camera. This particular effect does not scale graphically with higher resolutions, so it may be desirable to disable it if you play at 2x or higher.
 </br>
 
 - Graphics - **Shadows** : changes the resolution of shadows. 
 256 and 512 would increase GPU performance a lot.   
-1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.
-
-  <div>
-    <a href="https://imgsli.com/MTc5MTM1">
-      Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512
-      <img src="https://imgsli.com/i/4f323aa4-343b-48b8-8744-e2126e89a011.jpg">
-    </a>
-    <a href="https://imgsli.com/MTc5MTYx">
-      Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024
-      <img src="https://imgsli.com/i/7a0a0a8a-9ce2-4968-bcce-8d00741c70ed.jpg">
-    </a>
-  </div>
+1024 being vanilla resolution, it is useless by default, but it can fix some graphical issues on certain setups.  
+[Shadow stuttering issue took by Lux using a Radeon RX 580 8Gb - with & without Shadows x512](https://imgsli.com/MTc5MTM1)  
+[Gloom issue took by Red_BY using a RTX 2080 at 3x render scale - with & without Shadows x1024](https://imgsli.com/MTc5MTYx)  
 </br>
 
 - Graphics - **Anisotropic Filtering fix** : Fixes Anisotropic Filtering issues ( black line artifacts on textures viewed at oblique angles). Set Anisotropic Filtering to 16 in Yuzu advanced graphics settings.  
@@ -213,11 +205,9 @@ The non-compatible versions contain Blackscreen-fix, which is incompatible with 
 </br>
 </br>Other good mods :
 
-- [Xbox UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
+- [Xbox / Steam Deck UI + Blackscreenfix](https://gamebanana.com/mods/443354) by Alerion921
 
 - [Playstation UI + Blackscreenfix](https://gamebanana.com/mods/443201) by Alerion921
-
-- [Steam Deck UI](https://gamebanana.com/mods/443702) by Fayaz
 
 - [Amiibo Anti-RNG](https://gamebanana.com/mods/443894) by JordanBTucker
 

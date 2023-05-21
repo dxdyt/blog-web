@@ -1,6 +1,6 @@
 ---
 title: Qbot
-date: 2023-05-20T12:17:14+08:00
+date: 2023-05-21T12:17:32+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
@@ -14,13 +14,13 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 [![AutoTrade](https://github.com/UFund-Me/Qbot/actions/workflows/auto-trade.yml/badge.svg)](https://github.com/UFund-Me/Qbot/actions/workflows/auto-trade.yml)
 [![Pylint](https://github.com/UFund-Me/Qbot/actions/workflows/pylint.yml/badge.svg)](https://github.com/UFund-Me/Qbot/actions/workflows/pylint.yml)
 [![Coverage](https://github.com/UFund-Me/Qbot/actions/workflows/coverage.yml/badge.svg)](https://github.com/UFund-Me/Qbot/actions/workflows/coverage.yml)
-<a href="https://github.com/Charmve/computer-vision-in-action/tree/main/code/"><img src="https://img.shields.io/badge/Python-%203.8|%203.9-000000.svg?logo=Python&color=blue" alt="Python version"></a>
+<a href="https://github.com/UFund-Me/Qbot"><img src="https://img.shields.io/badge/Python-%203.8|%203.9-000000.svg?logo=Python&color=blue" alt="Python version"></a>
 <a href="https://ufund-me.github.io/Qbot/#/"><img src="https://readthedocs.org/projects/pyod/badge/?version=latest" alt="Documentation status"></a>
 
 <div align="center">
   <a href="https://github.com/UFund-Me/Qbot" target="_blank" rel="noopener">
     <picture>
-      <source media="(prefers-color-scheme: dark)" alt="Qbot" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2FExcalidraw_Github_cover_dark.png" />
+      <source media="(prefers-color-scheme: dark)" alt="Qbot" srcset="https://user-images.githubusercontent.com/29084184/204598632-23c473db-92ee-4e9b-9b57-d6d95c861fdf.png" />
       <img alt="Qbot" width="224" src="https://user-images.githubusercontent.com/29084184/204598632-23c473db-92ee-4e9b-9b57-d6d95c861fdf.png" />
     </picture>
   </a>
@@ -66,26 +66,88 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 
   ***不建议 fork 项目，本项目会持续更新，只 fork 看不到更新，建议 Star ⭐️ ~***
 
-  <i>喜欢这个项目吗？请考虑 ❤️赞助本项目 以帮助改进！</i>
+  <i>喜欢这个项目吗？请考虑[ ❤️赞助](#sponsors--support) 本项目，以帮助改进！</i>
 
 </div>
 
 ## Quick Start
 
 ```bash
+cd ~ # $HOME as workspace
 git clone https://github.com/UFund-Me/Qbot.git
 
 cd Qbot
-
 pip install -r requirements.txt
 
-python main.py #if run on Mac, please use 'pythonw main.py'
+python main.py  #if run on Mac, please use 'pythonw main.py'
 ```
 
 <p id="demo">
   <!-- <img width="" alt="demo" src="https://user-images.githubusercontent.com/29084184/221901048-bb1615fe-674f-40e8-b1e7-ba5db30a82a6.png"> -->
   <img width="" alt="demo" src="https://user-images.githubusercontent.com/29084184/223608757-5808e23c-86e4-4b1b-8b03-e04c8f368f5c.gif">
 </p>
+
+## Highlight
+
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="3" rowspan="1" class="ai-notebooks-table-points ai-orange-link">
+            <div class="features-2 mdl-grid">
+                <h2 style="text-align:center">1. 多种交易方式：在线回测 + 模拟交易 + 实盘自动化交易</h2>
+                <p>以策略研究为目标，提供多种交易方式验证策略和提高收益。</p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <img class="illustration_img" width="320" src="https://github.com/UFund-Me/Qbot/assets/29084184/222de589-a61f-4c45-bc5f-49de3fc2a72e"></img>
+            </div>
+        </td>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <img class="illustration_img" width="320" src="https://user-images.githubusercontent.com/29084184/221901048-bb1615fe-674f-40e8-b1e7-ba5db30a82a6.png"/>
+            </div>
+        </td>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <img class="illustration_img" width="320" src="https://github.com/UFund-Me/Qbot/assets/29084184/e96206ff-586a-4c6a-8f7a-cd578c8bdc43"/>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td colspan="3" rowspan="1" class="ai-notebooks-table-points ai-orange-link">
+            <div class="features-2 mdl-grid">
+                <h2 style="text-align:center">2. 多种提示方式：邮件 + 飞书 + 弹窗 + 微信</h2>
+                <p>这是qbot的消息提示模块，多种方式提示交易信息：交易买卖信息、每日交易收益结果、股票每日推荐等。</p>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <img class="illustration_img" width="330" src="https://github.com/UFund-Me/Qbot/assets/29084184/aafff916-1945-4ae7-b836-60254ecacf76"></img>
+            </div>
+        </td>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <img class="illustration_img" width="220" src="https://github.com/UFund-Me/Qbot/assets/29084184/a5cfadb5-8233-4307-ab79-6e0c0aca536d"/>
+            </div>
+        </td>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <img class="illustration_img" width="330" height="150%" src="https://github.com/UFund-Me/Qbot/assets/29084184/beb5877b-e45e-45a8-afdb-1926ea2ea8a1"/>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
 
 ## USAGE ʕ •ᴥ•ʔ
 
@@ -127,6 +189,8 @@ python main.py
 
 #### Web
 
+- 1. 基金策略在线分析
+
 需要 node 开发环境: `npm`、`node`，点击[查看](pyfunds/fund-strategies/README.md)详细操作文档
 
 运行命令
@@ -136,6 +200,16 @@ cd pyfunds/fund-strategies
 
 npm install
 npm start
+```
+
+- 2. 选基、选股助手
+
+运行命令
+
+```
+cd investool
+
+./investool webserver
 ```
 
 ## No-code operation (TODO)
@@ -280,7 +354,7 @@ dagit -h 0.0.0.0 -p 3000
 
 ### Benchmark and Model zoo
 
-Results and models are available in the [model zoo](docs/03-智能策略/model_zoo.md). AI strategies is shown at [here](./pytrader/strategies/), local run "python pytrader/strategies/workflow_by_code.py", also provide [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UFund-Me/Qbot/blob/main/pytrader/strategies/workflow_by_code.ipynb/HEAD)
+Results and models are available in the [model zoo](docs/03-智能策略/model_zoo.md). AI strategies is shown at [here](./pytrader/strategies/), local run ``python pytrader/strategies/workflow_by_code.py``, also provide [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UFund-Me/Qbot/blob/main/pytrader/strategies/workflow_by_code.ipynb/HEAD)
 
 <details><summary><em><b>点击展开查看具体AI模型benchmark结果</b></em></summary>
 
@@ -316,14 +390,7 @@ Results and models are available in the [model zoo](docs/03-智能策略/model_z
 
 ## 策略原理及源码分析
 
-<p>
-  <a href="https://ufund-me.github.io/Qbot/#/">
-    <i><font size="4">在线文档</font></i>
-  </a
-  <a href="pytrader/doc">
-    <i><font size="4">jupyter notebook</font></i>
-  </a
-</p>
+[在线文档](https://ufund-me.github.io/Qbot/#/) | [❓ 常见问题](https://ufund-me.github.io/Qbot/#/04-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/FQA) | [Jupyter Notebook](./pytrader/strategies/notebook)
 
 ## Quantstats Report
 
@@ -331,11 +398,12 @@ Results and models are available in the [model zoo](docs/03-智能策略/model_z
 
 Click [HERE](quantstats#visualize-stock-performance) to more detail.
 
-#### Some strategy backtest results:
+### Some strategy backtest results:
 
 > 声明：别轻易用于实盘，市场有风险，投资需谨慎。
 
 ```
+symbol：华正新材(603186)
 Starting Portfolio Value: 10000.00
 Startdate=datetime.datetime(2010, 1, 1),
 Enddate=datetime.datetime(2020, 4, 21),
@@ -349,6 +417,7 @@ A股回测MACD策略:
 
 ![image](https://github.com/UFund-Me/Qbot/assets/29084184/dfef65ba-0d32-4f5f-b413-d6ec02fc700e)
 
+👉 点击[查看](pytrader/doc/02.easy_macd_strategy/macd.py)源码
 
 A股回测KDJ策略:
 
@@ -356,14 +425,19 @@ A股回测KDJ策略:
     
 ![image](https://github.com/UFund-Me/Qbot/assets/29084184/ef8e945b-59d6-4220-87e3-08ec1196cc2c)
 
+👉 点击[查看](pytrader/doc/04.kdj_with_macd/kdj.py)源码
+
 A股回测 KDJ+MACD 策略:
 
 ![KDJ with MACD](pytrader/doc/04.kdj_with_macd/Figure_kdj_with_macd.png)
 
 ![image](https://github.com/UFund-Me/Qbot/assets/29084184/67338ec5-a6b1-4aa7-9792-1a2c61f353da)
 
+👉 点击[查看](pytrader/doc/04.kdj_with_macd/kdj_macd.py)源码
+
 ## TODO
 
+- [x] 把策略回测整合在一个上位机中，包括：选基、选股策略、交易策略，模拟交易，实盘交易
 - [ ] 很多策略需要做回测验证；
 - [ ] 本项目由前后端支持，有上位机app支持，但目前框架还比较乱，需要做调整；
 - [ ] 各种策略需要抽象设计，支持统一调用；
@@ -378,7 +452,7 @@ We appreciate all contributions to improve Qbot. Please refer to [CONTRIBUTING.m
 ## 🍮 Community
 - Github <a href="https://github.com/UFund-Me/Qbot/discussions" target="_blank">discussions 💬</a> or <a href="https://github.com/UFund-Me/Qbot/issues" target="_blank">issues 💭</a>
 
-- WeChat Group ID: Yida_Zhang2
+- 微信: Yida_Zhang2
 - Email: yidazhang1#gmail.com 
 - 知乎：[@Charmve](https://www.zhihu.com/people/MaiweiE-com)
 
@@ -386,18 +460,17 @@ We appreciate all contributions to improve Qbot. Please refer to [CONTRIBUTING.m
 
 - 知识星球：AI量化投资 （加我微信，邀请）
 
-<!-- ## 如何选股/选基
-<img width="32" alt="Tool" src="https://user-images.githubusercontent.com/29084184/222178733-50486338-c137-4c9a-8b93-b523841066ea.png"> https://github.com/axiaoxin-com/investool
--->
 
 ## :warning: Disclaimer
 
 交易策略和自动化工具只是提供便利，并不代表实际交易收益。该项目任何内容不构成任何投资建议。市场有风险，投资需谨慎。
-    
-## Stargazers Over Time
-	
-[![Stargazers over time](https://starchart.cc/UFund-Me/Qbot.svg)](https://starchart.cc/UFund-Me/Qbot)
 
+## 🔥 Stargazers Over Time
+	
+<!-- [![Stargazers over time](https://starchart.cc/UFund-Me/Qbot.svg)](https://starchart.cc/UFund-Me/Qbot) -->
+
+[![Star History Chart](https://api.star-history.com/svg?repos=UFund-Me/Qbot,ailabx/ailabx,jadepeng/pytrader&type=Timeline)](https://star-history.com/#UFund-Me/Qbot&ailabx/ailabx&jadepeng/pytrader&Timeline)
+    
 ## Sponsors & support
 
 If you like the project, you can become a sponsor at [Open Collective](https://opencollective.com/qbot) or use [GitHub Sponsors](https://github.com/sponsors/Charmve).

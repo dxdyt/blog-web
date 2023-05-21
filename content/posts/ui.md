@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2023-05-19T12:17:37+08:00
+date: 2023-05-21T12:16:56+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12143/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12143/0/1080p
 ---
 
 # [nuxtlabs/ui](https://github.com/nuxtlabs/ui)

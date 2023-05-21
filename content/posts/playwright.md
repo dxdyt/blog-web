@@ -1,9 +1,9 @@
 ---
 title: playwright
-date: 2023-05-19T12:17:21+08:00
+date: 2023-05-21T12:15:52+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
 ---
 
 # [microsoft/playwright](https://github.com/microsoft/playwright)

@@ -1,9 +1,9 @@
 ---
 title: papers-we-love
-date: 2023-05-20T12:17:02+08:00
+date: 2023-05-21T12:16:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
 ---
 
 # [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love)

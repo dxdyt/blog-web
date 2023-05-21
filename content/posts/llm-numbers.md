@@ -1,9 +1,9 @@
 ---
 title: llm-numbers
-date: 2023-05-20T12:15:03+08:00
+date: 2023-05-21T12:16:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12177/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12177/0/1080p
 ---
 
 # [ray-project/llm-numbers](https://github.com/ray-project/llm-numbers)
@@ -54,7 +54,7 @@ This means it is way cheaper to look something up in a vector store than to ask 
 
 > Note: this number is sensitive to load and embedding batch size, so please consider this approximate. 
 
-In our blog post, we noted that using a g4dn.4xlarge (on-demand price: $1.20/hr) we were able to embed at about 9000 tokens per second using HuggingFace’s SentenceTransformers (which are pretty much as good as OpenAI’s embeddings). Doing some basic math of that rate and that node type indicates it is considerably cheaper (factor of 10 cheaper) to self-host embeddings (and that is before you start to think about things like ingress and egress fees). 
+In our blog post, we noted that using a g4dn.4xlarge (on-demand price: $1.20/hr) we were able to embed at about 9000 tokens per second using Hugging Face’s SentenceTransformers (which are pretty much as good as OpenAI’s embeddings). Doing some basic math of that rate and that node type indicates it is considerably cheaper (factor of 10 cheaper) to self-host embeddings (and that is before you start to think about things like ingress and egress fees). 
 
 
 ### 6:1 -- Cost Ratio of OpenAI fine tuned vs base model queries
