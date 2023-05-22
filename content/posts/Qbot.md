@@ -1,9 +1,9 @@
 ---
 title: Qbot
-date: 2023-05-21T12:17:32+08:00
+date: 2023-05-22T12:17:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 ---
 
 # [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot)
@@ -66,7 +66,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
 
   ***不建议 fork 项目，本项目会持续更新，只 fork 看不到更新，建议 Star ⭐️ ~***
 
-  <i>喜欢这个项目吗？请考虑[ ❤️赞助](#sponsors--support) 本项目，以帮助改进！</i>
+  <i>喜欢这个项目吗？请考虑[ ❤️赞助](#sponsors-amp-support) 本项目，以帮助改进！</i>
 
 </div>
 
@@ -102,17 +102,17 @@ python main.py  #if run on Mac, please use 'pythonw main.py'
     <tr>
         <td>
             <div class="mdl-cell mdl-cell--4-col">
-                <img class="illustration_img" width="320" src="https://github.com/UFund-Me/Qbot/assets/29084184/222de589-a61f-4c45-bc5f-49de3fc2a72e"></img>
+                <img class="illustration_img" width="330" src="https://github.com/UFund-Me/Qbot/assets/29084184/222de589-a61f-4c45-bc5f-49de3fc2a72e"></img>
             </div>
         </td>
         <td>
             <div class="mdl-cell mdl-cell--4-col">
-                <img class="illustration_img" width="320" src="https://user-images.githubusercontent.com/29084184/221901048-bb1615fe-674f-40e8-b1e7-ba5db30a82a6.png"/>
+                <img class="illustration_img" width="330" src="https://user-images.githubusercontent.com/29084184/221901048-bb1615fe-674f-40e8-b1e7-ba5db30a82a6.png"/>
             </div>
         </td>
         <td>
             <div class="mdl-cell mdl-cell--4-col">
-                <img class="illustration_img" width="320" src="https://github.com/UFund-Me/Qbot/assets/29084184/e96206ff-586a-4c6a-8f7a-cd578c8bdc43"/>
+                <img class="illustration_img" width="330" src="https://github.com/UFund-Me/Qbot/assets/29084184/e96206ff-586a-4c6a-8f7a-cd578c8bdc43"/>
             </div>
         </td>
     </tr>
@@ -167,6 +167,12 @@ python main.py  #if run on Mac, please use 'pythonw main.py'
 ```
 
 ### Get Started
+
+主要包含四个窗口，如果启动界面有问题可以参考这里的启动方式。
+
+![image](https://github.com/UFund-Me/Qbot/assets/29084184/9f1dcc07-ca76-4600-a02c-76104fb28c51)
+
+👉 点击[这里](gui/mainframe.py)查看源码
 
 #### Local
 
@@ -460,6 +466,31 @@ We appreciate all contributions to improve Qbot. Please refer to [CONTRIBUTING.m
 
 - 知识星球：AI量化投资 （加我微信，邀请）
 
+<br>
+
+<table class="table table-striped table-bordered table-vcenter">
+    <tbody class=ai-notebooks-table-content>
+    <tr>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <a href="https://raw.githubusercontent.com/UFund-Me/Qbot/main/gui/imgs/wechat.png"><img class="illustration_img" width="320" alt="添加个人微信" src="https://raw.githubusercontent.com/UFund-Me/Qbot/main/gui/imgs/wechat.png"></img></a> <br>个人微信
+            </div>
+        </td>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <a href="https://raw.githubusercontent.com/UFund-Me/Qbot/main/gui/imgs/wechat-group-s.png"><img class="illustration_img" width="318" alt="加入微信交流群" src="https://raw.githubusercontent.com/UFund-Me/Qbot/main/gui/imgs/wechat-group-s.png"/></a> <br>Qbot微信使用交流群
+            </div>
+        </td>
+        <td>
+            <div class="mdl-cell mdl-cell--4-col">
+                <a href="https://raw.githubusercontent.com/UFund-Me/Qbot/main/gui/imgs/zsxq.png"><img class="illustration_img" height="320" alt="加入知识星球（付费）" src="https://raw.githubusercontent.com/UFund-Me/Qbot/main/gui/imgs/zsxq.png"/></a> <br>知识星球（付费）
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+若二维码因 Github 网络无法打开，请点击[二维码](https://charmve.github.io/img/contact-card.png)直接打开图片。
 
 ## :warning: Disclaimer
 
@@ -478,7 +509,7 @@ If you like the project, you can become a sponsor at [Open Collective](https://o
 <b>Thank you for supporting Qbot!</b>
 
 <a href="https://opencollective.com/qbot" target="_blank"><img src="https://opencollective.com/Qbot/tiers/sponsors.svg?avatarHeight=120" alt="Sponsor"></a>
-<a href="https://opencollective.com/qbot#category-CONTRIBUTE" target="_blank"><img src="https://opencollective.com/qbot/tiers/backers.svg?avatarHeight=32"/></a>
+<a href="https://opencollective.com/qbot#category-CONTRIBUTE" target="_blank"><img src="https://opencollective.com/qbot/tiers/backers.svg?avatarHeight=100"/></a>
 
 <b>Last but not least, we're thankful to these open-source repo for sharing their services for free:</b>
 

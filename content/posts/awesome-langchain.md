@@ -1,9 +1,9 @@
 ---
 title: awesome-langchain
-date: 2023-05-21T12:17:12+08:00
+date: 2023-05-22T12:17:34+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 ---
 
 # [kyrolabs/awesome-langchain](https://github.com/kyrolabs/awesome-langchain)
@@ -12,7 +12,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
 
 > Curated list of tools and projects using LangChain.
 
-# **NEW** we are launching a weekly newsletter to share with you updates from the LangChain ecosystem: framework update, new articles, new videos, new projects, **[subscribe to the newsletter here](https://awesomelangchain.substack.com/)**
+# We are launching a weekly newsletter to share the updates from LangChain ecosystem (changelog, articles, videos, projects) **[subscribe to the newsletter here](https://awesomelangchain.substack.com/)**
 
 LangChain is an amazing framework to get LLM projects done in a matter of no time and the ecosystem is growing fast. Here is an attempt to keep track of the initiatives around LangChain.
 
@@ -188,12 +188,13 @@ Contributions welcome. Add links through pull requests or create an issue to sta
 - [Getting Started with LangChain: A Beginner’s Guide to Building LLM-Powered Applications](https://towardsdatascience.com/getting-started-with-langchain-a-beginners-guide-to-building-llm-powered-applications-95fc8898732c)
 - [How To Use LangChain with LLM Agent Monitoring To Fine-Tune Your LLM Apps](https://arize.com/blog-course/langchain-llm-agent-monitoring/)
 - [Build a Simple ChatGPT CLI with memory](https://getmetal.io/posts/07-tutorial-motorhead-cli)
+- [Deploy a Voice-Based Chatbot with BentoML, LangChain, and Gradio](https://towardsdatascience.com/deploy-a-voice-based-chatbot-with-bentoml-langchain-and-gradio-7f25af3e45df)
 
 ## Proprietary
 
+- [Any Summary](https://www.anysummary.app/): Summarize any file with AI
 - [CoFounder](https://co-founder.ai): The First AI Co-Founder for Your Start-up 🙌
 - [DAIMON](https://www.mydaemon.ai/)
-- [Any Summary](https://www.anysummary.app/)
 
 ## Alternatives
 

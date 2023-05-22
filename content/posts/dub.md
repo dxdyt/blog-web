@@ -1,9 +1,9 @@
 ---
 title: dub
-date: 2023-05-20T12:15:10+08:00
+date: 2023-05-22T12:18:20+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 ---
 
 # [steven-tey/dub](https://github.com/steven-tey/dub)
