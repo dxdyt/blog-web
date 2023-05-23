@@ -1,9 +1,9 @@
 ---
 title: voice-changer
-date: 2023-05-22T12:16:45+08:00
+date: 2023-05-23T12:15:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
 ---
 
 # [w-okada/voice-changer](https://github.com/w-okada/voice-changer)

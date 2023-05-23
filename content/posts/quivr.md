@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-05-22T12:15:44+08:00
+date: 2023-05-23T12:17:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12147/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12147/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -91,11 +91,11 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
 - **Step 2**: Copy the `.XXXXX_env` files
 
 ```bash
-cp .backend_env.example .backend_env
-cp .frontend_env.example .frontend_env
+cp .backend_env.example backend/.env
+cp .frontend_env.example frontend/.env
 ```
 
-- **Step 3**: Update the `.backend_env` file 
+- **Step 3**: Update the `backend/.env` file 
 
 > _Your `supabase_service_key` can be found in your Supabase dashboard under Project Settings -> API. Use the `anon` `public` key found in the `Project API keys` section._
 
@@ -104,6 +104,8 @@ cp .frontend_env.example .frontend_env
 [Migration Script 1](scripts/supabase_vector_store_document.sql)
 
 [Migration Script 2](scripts/supabase_usage_table.sql)
+
+[Migration Script 3](scripts/supabase_vector_store_summary.sql)
 
 - **Step 5**: Launch the app
 

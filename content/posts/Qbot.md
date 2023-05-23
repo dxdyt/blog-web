@@ -1,9 +1,9 @@
 ---
 title: Qbot
-date: 2023-05-22T12:17:43+08:00
+date: 2023-05-23T12:17:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
 ---
 
 # [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot)
@@ -66,7 +66,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 
   ***不建议 fork 项目，本项目会持续更新，只 fork 看不到更新，建议 Star ⭐️ ~***
 
-  <i>喜欢这个项目吗？请考虑[ ❤️赞助](#sponsors-amp-support) 本项目，以帮助改进！</i>
+  <i>喜欢这个项目吗？请考虑[ ❤️赞助](#sponsors--support) 本项目，以帮助改进！</i>
 
 </div>
 

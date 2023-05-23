@@ -1,9 +1,9 @@
 ---
 title: gpt-code-ui
-date: 2023-05-22T12:16:01+08:00
+date: 2023-05-23T12:16:07+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12177/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12177/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 ---
 
 # [ricklamers/gpt-code-ui](https://github.com/ricklamers/gpt-code-ui)
@@ -41,7 +41,7 @@ $ gptcode
 You can put a .env in the working directory to load the `OPENAI_API_KEY` environment variable.
 
 ### Configurables
-Set the `API_PORT` and `WEB_PORT` variables to override the defaults.
+Set the `API_PORT`, `WEB_PORT`, `SNAKEMQ_PORT` variables to override the defaults.
 
 Set `OPENAI_BASE_URL` to change the OpenAI API endpoint that's being used (note this environment variable includes the protocol `https://...`).
 

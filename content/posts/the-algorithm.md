@@ -1,16 +1,16 @@
 ---
 title: the-algorithm
-date: 2023-05-22T12:15:54+08:00
+date: 2023-05-23T12:15:34+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12161/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12161/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 ---
 
 # [twitter/the-algorithm](https://github.com/twitter/the-algorithm)
 
 # Twitter's Recommendation Algorithm
 
-Twitter's Recommendation Algorithm is a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore). For an introduction to how the algorithm works, please refer to our [engineering blog](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm).
+Twitter's Recommendation Algorithm is a set of services and jobs that are responsible for serving feeds of Tweets and other content across all Twitter product surfaces (e.g. For You Timeline, Search, Explore, Notifications). For an introduction to how the algorithm works, please refer to our [engineering blog](https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm).
 
 ## Architecture
 
@@ -18,7 +18,8 @@ Product surfaces at Twitter are built on a shared set of data, models, and softw
 
 | Type | Component | Description |
 |------------|------------|------------|
-| Data | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on Twitter. |
+| Data | [tweetypie](tweetypie/server/README.md) | Core Tweet service that handles the reading and writing of Tweet data. |
+|      | [unified-user-actions](unified_user_actions/README.md) | Real-time stream of user actions on Twitter. |
 |      | [user-signal-service](user-signal-service/README.md) | Centralized platform to retrieve explicit (e.g. likes, replies) and implicit (e.g. profile visits, tweet clicks) user signals. |
 | Model | [SimClusters](src/scala/com/twitter/simclusters_v2/README.md) | Community detection and sparse embeddings into those communities. |
 |       | [TwHIN](https://github.com/twitter/the-algorithm-ml/blob/main/projects/twhin/README.md) | Dense knowledge graph embeddings for Users and Tweets. |
@@ -34,9 +35,8 @@ Product surfaces at Twitter are built on a shared set of data, models, and softw
 |                    | [timelines-aggregation-framework](timelines/data_processing/ml_util/aggregation_framework/README.md) | Framework for generating aggregate features in batch or real time. |
 |                    | [representation-manager](representation-manager/README.md) | Service to retrieve embeddings (i.e. SimClusers and TwHIN). |
 |                    | [twml](twml/README.md) | Legacy machine learning framework built on TensorFlow v1. |
-|                    | [Tweetypie](tweetypie/server/README.md) | Core Tweet service that handles the reading and writing of Tweet data. |
 
-The product surface currently included in this repository is the For You Timeline.
+The product surfaces currently included in this repository are the For You Timeline and Recommended Notifications.
 
 ### For You Timeline
 
@@ -60,7 +60,7 @@ The core components of the For You Timeline included in this repository are list
 
 ### Recommended Notifications
 
-The core components that power Recommended Notifications included in this repository are listed below:
+The core components of Recommended Notifications included in this repository are listed below:
 
 | Type | Component | Description |
 |------------|------------|------------|

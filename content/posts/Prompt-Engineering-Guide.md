@@ -1,9 +1,9 @@
 ---
 title: Prompt-Engineering-Guide
-date: 2023-05-22T12:16:28+08:00
+date: 2023-05-23T12:15:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12153/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12153/0/1080p
 ---
 
 # [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)

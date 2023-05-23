@@ -1,9 +1,9 @@
 ---
 title: nlw-12-spacetime-ignite
-date: 2023-05-22T12:15:28+08:00
+date: 2023-05-23T12:17:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
 ---
 
 # [rocketseat-education/nlw-12-spacetime-ignite](https://github.com/rocketseat-education/nlw-12-spacetime-ignite)
