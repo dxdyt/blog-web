@@ -1,9 +1,9 @@
 ---
 title: LaWGPT
-date: 2023-05-23T12:14:56+08:00
+date: 2023-05-24T12:15:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12183/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12183/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
 ---
 
 # [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT)
@@ -19,7 +19,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12183/0/1080p
 <p align="center">
     <a href="https://github.com/pengxiao-song/LaWGPT/wiki"><img src="https://img.shields.io/badge/docs-Wiki-brightgreen"></a>
     <a href=""><img src="https://img.shields.io/badge/version-beta1.0-blue"></a>
+    <a href=""><img src="https://img.shields.io/badge/os-Linux-9cf"></a>
     <a href=""><img src="https://img.shields.io/github/last-commit/pengxiao-song/lawgpt"></a>
+    <a href="https://star-history.com/#pengxiao-song/LaWGPT&Timeline"><img src="https://img.shields.io/github/stars/pengxiao-song/lawgpt?color=yellow"></a> 
     <!-- <a href="https://www.lamda.nju.edu.cn/"><img src="https://img.shields.io/badge/support-NJU--LAMDA-9cf.svg"></a> -->
 </p>
 
@@ -69,8 +71,9 @@ LaWGPT 是一系列基于中文法律知识的开源大语言模型。
    - 首先，执行服务启动脚本：`bash scripts/webui.sh`
 
    - 其次，访问 http://127.0.0.1:7860 ：
+
    <p align="center">
-      <img src="./assets/demo/demo.png" width="80%" >
+      <img style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.5); width: 80%;", src="./assets/demo/example-03.jpeg">
    </p>
    
 3. **命令行推理（可选，支持批量测试）**
@@ -143,6 +146,12 @@ LawGPT 系列模型的训练过程分为两个阶段：
 ## 模型评估
 
 ### 输出示例
+
+<details><summary>问题：酒驾撞人怎么判刑？</summary>
+
+![](assets/demo/demo07.jpeg)
+
+</details>
 
 <details><summary>问题：请给出判决意见。</summary>
 

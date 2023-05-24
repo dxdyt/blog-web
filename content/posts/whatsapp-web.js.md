@@ -1,9 +1,9 @@
 ---
 title: whatsapp-web.js
-date: 2023-05-22T12:17:02+08:00
+date: 2023-05-24T12:17:42+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12145/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12145/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12189/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12189/0/1080p
 ---
 
 # [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)

@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2023-05-22T12:16:10+08:00
+date: 2023-05-24T12:17:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
 ---
 
 # [shadcn/ui](https://github.com/shadcn/ui)

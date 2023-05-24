@@ -1,9 +1,9 @@
 ---
 title: next-enterprise
-date: 2023-05-23T12:15:20+08:00
+date: 2023-05-24T12:17:14+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 ---
 
 # [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise)

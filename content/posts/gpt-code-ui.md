@@ -1,9 +1,9 @@
 ---
 title: gpt-code-ui
-date: 2023-05-23T12:16:07+08:00
+date: 2023-05-24T12:17:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12181/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12181/0/1080p
 ---
 
 # [ricklamers/gpt-code-ui](https://github.com/ricklamers/gpt-code-ui)

@@ -1,9 +1,9 @@
 ---
 title: Qbot
-date: 2023-05-23T12:17:55+08:00
+date: 2023-05-24T12:16:01+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12173/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12173/0/1080p
 ---
 
 # [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot)
