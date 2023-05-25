@@ -1,9 +1,9 @@
 ---
 title: Qbot
-date: 2023-05-24T12:16:01+08:00
+date: 2023-05-25T12:16:19+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12173/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12173/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
 ---
 
 # [UFund-Me/Qbot](https://github.com/UFund-Me/Qbot)
@@ -195,9 +195,23 @@ python main.py
 
 #### Web
 
+
 - 1. 基金策略在线分析
 
 需要 node 开发环境: `npm`、`node`，点击[查看](pyfunds/fund-strategies/README.md)详细操作文档
+
+版本信息：
+
+```
+▶ go version
+go version go1.20.4 darwin/amd64
+~
+▶ node --version
+v19.7.0
+~
+▶ npm --version
+9.5.0
+```
 
 运行命令
 
@@ -208,14 +222,33 @@ npm install
 npm start
 ```
 
+或者使用docker运行项目
+
+在项目路径下运行以下命令构建项目的docker镜像
+```
+docker build -t fund_strategy .
+```
+
+镜像构建完毕后运行
+```
+docker run -dp 8000:8000 fund_strategy --name="fund_strategy_instance"
+```
+
+等待项目启动过程中，可通过以下命令查看启动日志：
+```
+docker log -f fund_strategy_instance
+```
+
+启动后，可通过`http://locahost:8000`访问网页。
+
 - 2. 选基、选股助手
 
 运行命令
 
 ```
 cd investool
-
-./investool webserver
+go build
+./investool webserver # 仓库中默认的版本为MacOS
 ```
 
 ## No-code operation (TODO)

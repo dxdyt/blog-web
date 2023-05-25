@@ -1,9 +1,9 @@
 ---
 title: LaWGPT
-date: 2023-05-24T12:15:21+08:00
+date: 2023-05-25T12:15:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12197/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12197/0/1080p
 ---
 
 # [pengxiao-song/LaWGPT](https://github.com/pengxiao-song/LaWGPT)

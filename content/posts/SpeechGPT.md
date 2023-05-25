@@ -1,9 +1,9 @@
 ---
 title: SpeechGPT
-date: 2023-05-23T12:17:42+08:00
+date: 2023-05-25T12:16:12+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12177/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12177/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
 ---
 
 # [0nutation/SpeechGPT](https://github.com/0nutation/SpeechGPT)

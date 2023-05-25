@@ -1,9 +1,9 @@
 ---
 title: scikit-llm
-date: 2023-05-24T12:17:07+08:00
+date: 2023-05-25T12:16:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12181/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12181/0/1080p
 ---
 
 # [iryna-kondr/scikit-llm](https://github.com/iryna-kondr/scikit-llm)
@@ -41,6 +41,10 @@ from skllm.config import SKLLMConfig
 SKLLMConfig.set_openai_key("<YOUR_KEY>")
 SKLLMConfig.set_openai_org("<YOUR_ORGANISATION>")
 ```
+
+**Important notice:** 
+- If you have a free trial OpenAI account, the [rate limits](https://platform.openai.com/docs/guides/rate-limits/overview) are not sufficient (specifically 3 requests per minute). Please switch to the "pay as you go" plan first.
+- When calling `SKLLMConfig.set_openai_org`, you have to provide your organization ID and **NOT** the name. You can find your ID [here](https://platform.openai.com/account/org-settings).
 
 ### Zero-Shot Text Classification
 
@@ -152,6 +156,22 @@ clf = Pipeline(steps)
 clf.fit(X_train, y_train_encoded)
 yh = clf.predict(X_test)
 ```
+
+### Text Summarization
+
+GPT excels at performing summarization tasks. Therefore, we provide `GPTSummarizer` that can be used both as stand-alone estimator, or as a preprocessor (in this case we can make an analogy with a dimensionality reduction preprocessor).
+
+Example:
+```python
+from skllm.preprocessing import GPTSummarizer
+from skllm.datasets import get_summarization_dataset
+
+X = get_summarization_dataset()
+s = GPTSummarizer(openai_model = 'gpt-3.5-turbo', max_words = 15)
+summaries = s.fit_transform(X)
+```
+
+Please be aware that the `max_words` hyperparameter sets a soft limit, which is not strictly enforced outside of the prompt. Therefore, in some cases, the actual number of words might be slightly higher.
 
 ## Roadmap 🧭
 

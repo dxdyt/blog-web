@@ -1,9 +1,9 @@
 ---
 title: RWKV-LM
-date: 2023-03-28T12:17:20+08:00
+date: 2023-05-25T12:16:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11937/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
 ---
 
 # [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM)
@@ -15,6 +15,14 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11937/0/1080p
 RWKV is an RNN with Transformer-level LLM performance, which can also be directly trained like a GPT transformer (parallelizable). And it's 100% attention-free. You only need the hidden state at position t to compute the state at position t+1. You can use the "GPT" mode to quickly compute the hidden state for the "RNN" mode.
 
 So it's combining the best of RNN and transformer - **great performance, fast inference, saves VRAM, fast training, "infinite" ctx_len, and free sentence embedding** (using the final hidden state).
+
+**Raven 14B** (finetuned on Alpaca+ShareGPT+...) Demo: https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
+
+**Raven 7B** (finetuned on Alpaca+ShareGPT+...) Demo: https://huggingface.co/spaces/BlinkDL/Raven-RWKV-7B
+
+**ChatRWKV:** with "stream" and "split" strategies and INT8. **3G VRAM is enough to run RWKV 14B :)** https://github.com/BlinkDL/ChatRWKV
+
+**Download RWKV-4 0.1/0.4/1.5/3/7/14B weights**: https://huggingface.co/BlinkDL
 
 **RWKV pip package**: https://pypi.org/project/rwkv/
 
@@ -31,8 +39,15 @@ out, state = model.forward([1563], state)           # RNN has state (use deepcop
 out, state = model.forward([310, 247], state)
 print(out.detach().cpu().numpy())                   # same result as above
 ```
+**Cool Community RWKV Projects (check them!)**:
 
-**Download RWKV-4 0.1/0.4/1.5/3/7/14B weights**: https://huggingface.co/BlinkDL
+https://github.com/saharNooby/rwkv.cpp INT4 INT8 FP16 FP32 inference for CPU using [ggml](https://github.com/ggerganov/ggml)
+
+https://github.com/harrisonvanderbyl/rwkv-cpp-cuda pure CUDA RWKV (no need for python & pytorch)
+
+https://github.com/Blealtan/RWKV-LM-LoRA LoRA fine-tuning
+
+More RWKV projects: https://github.com/search?o=desc&q=rwkv&s=updated&type=Repositories
 
 ## Join Our Discord: https://discord.gg/bDSBUMeFpc (lots of developers)
 
@@ -40,11 +55,13 @@ print(out.detach().cpu().numpy())                   # same result as above
 
 **RWKV in 150 lines** (model, inference, text generation): https://github.com/BlinkDL/ChatRWKV/blob/main/RWKV_in_150_lines.py
 
-**ChatRWKV v2:** with "stream" and "split" strategies and INT8. **3G VRAM is enough to run RWKV 14B :)** https://github.com/BlinkDL/ChatRWKV/tree/main/v2
+**RWKV preprint** https://arxiv.org/abs/2305.13048
 
-![RWKV-chat](RWKV-chat.png)
+![RWKV-paper](RWKV-paper.png)
 
-**Hugging Face space**: https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
+**RWKV introduction, and in 100 lines of numpy**: https://johanwind.github.io/2023/03/23/rwkv_overview.html https://johanwind.github.io/2023/03/23/rwkv_details.html
+
+A cool paper (Spiking Neural Network) using RWKV: https://github.com/ridgerchu/SpikeGPT
 
 You are welcome to join the RWKV discord https://discord.gg/bDSBUMeFpc to build upon it. We have plenty of potential compute (A100 40Gs) now (thanks to Stability and EleutherAI), so if you have interesting ideas I can run them.
 
@@ -53,6 +70,10 @@ You are welcome to join the RWKV discord https://discord.gg/bDSBUMeFpc to build 
 RWKV [loss vs token position] for 10000 ctx4k+ documents in Pile. RWKV 1B5-4k is mostly flat after ctx1500, but 3B-4k and 7B-4k and 14B-4k have some slopes, and they are getting better. This debunks the old view that RNNs cannot model long ctxlens. We can predict that RWKV 100B will be great, and RWKV 1T is probably all you need :)
 
 ![RWKV-ctxlen](RWKV-ctxlen.png)
+
+ChatRWKV with RWKV 14B ctx8192:
+
+![RWKV-chat](RWKV-chat.png)
 
 I believe RNN is a better candidate for fundamental models, because: (1) It's more friendly for ASICs (no kv cache). (2) It's more friendly for RL. (3) When we write, our brain is more similar to RNN. (4) The universe is like an RNN too (because of locality). Transformers are non-local models.
 
@@ -99,54 +120,14 @@ You can find me (BlinkDL) in the EleutherAI Discord too: https://www.eleuther.ai
 
 ## Quick start
 
+**IMPORTANT: Use deepspeed==0.7.0 pytorch-lightning==1.9.2 torch 1.13.1+cu117**
+
 Use https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v4neo (latest code, compatible with v4).
 
 Here is a great prompt for testing Q&A of LLMs. Works for any model: (found by minimizing ChatGPT ppls for RWKV 1.5B)
 ```python
 prompt = f'\nQ & A\n\nQuestion:\n{qq}\n\nDetailed Expert Answer:\n' # let the model generate after this
 ```
-
-**Cool Community RWKV Projects (check them!)**:
-
-https://pypi.org/project/rwkvstic/ a pip package (with 8bit & offload for low VRAM GPUs)
-
-https://github.com/harrisonvanderbyl/rwkv_chatbot a chatbot
-
-https://github.com/hizkifw/WebChatRWKVstic WebUI (WIP)
-
-https://github.com/gururise/rwkv_gradio RWKV Gradio
-
-https://github.com/cryscan/eloise RWKV QQ bot
-
-https://github.com/Blealtan/RWKV-LM-LoRA LoRA fine-tuning
-
-https://github.com/mrsteyk/RWKV-LM-jax
-
-https://github.com/wozeparrot/tinyrwkv RWKV in tinygrad (nice simple DL framework)
-
-https://github.com/huggingface/transformers/issues/17230 RWKV HF package (WIP)
-
-https://github.com/ArEnSc/Production-RWKV RWKV HF package source
-
-https://github.com/nlpodyssey/verbaflow RWKV in Go
-
-https://github.com/nlpodyssey/rwkv RWKV in Go
-
-https://github.com/mrsteyk/rwkvk-rs RWKV in Rust
-
-https://github.com/josephrocca/rwkv-v4-web RWKV in browser
-
-https://github.com/imxcstar/CSharp-RWKV-V4 RWKV in C#
-
-https://github.com/mrsteyk/RWKV-LM-deepspeed Another training fork
-
-https://github.com/resloved/RWKV-notebooks RWKV colab notebooks
-
-https://colab.research.google.com/github/harrisonvanderbyl/rwkvstic/blob/master/notebooks/chatbot.ipynb RWKV chatbot colab notebook
-
-https://github.com/Pathos14489/RWKVDistributedInference RWKV Distributed Inference
-
-https://github.com/AXKuhta/rwkv-onnx-dml RWKV ONNX
 
 ### Inference
 
@@ -160,35 +141,15 @@ RWKV-4 Web Demo: https://josephrocca.github.io/rwkv-v4-web/demo/ (note: only gre
 
 For the old RWKV-2: see the release here for a 27M params model on enwik8 with 0.72 BPC(dev). Run run.py in https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v2-RNN. You can even run it in your browser: https://github.com/BlinkDL/AI-Writer/tree/main/docs/eng https://blinkdl.github.io/AI-Writer/eng/ (this is using tf.js WASM single-thread mode).
 
-I'd like to build an almost-INT8 version of RWKV. A simple method to quantize a matrix with outliers:
-```python
-import numpy as npA
-
-# the original M, with outliers
-M = np.array([[1,   2,   1,  2],[2,  100,    2, 10],[1,   2,   1, 2],[2,   1, 20, 1]])
-
-# the scaled M, without outliers
-Q = np.array([[1, 0.2, 0.1,  2],[0.4,  2, 0.04, 2], [1, 0.2, 0.1, 2],[2, 0.1,  2, 1]])
-# we can find optimal a & b to minimize inference error after quantization
-a = np.array([1, 10, 10, 1])
-b = np.array([1, 5, 1, 1])
-
-# test M.v with random v - the results will be the same
-v = np.array([1.23, 5.44, 9.75, 2.98])
-print(M.dot(v))
-print(Q.dot(v * a) * b)
-
-# even better: decompose M.dot(v) as Q.dot(v * a + aa) * b + bb where aa & bb are vectors too
-# and can apply more scaling to achieve W8A8 (example: https://arxiv.org/pdf/2211.10438.pdf)
-```
-
 ### Training / Fine-tuning
+
+pip install deepspeed==0.7.0 // pip install pytorch-lightning==1.9.2 // torch 1.13.1+cu117
 
 **Training RWKV-4 from scratch:** run train.py, which by default is using the enwik8 dataset (unzip https://data.deepai.org/enwik8.zip).
 
 You will be training the "GPT" version because it's paralleziable and faster to train. RWKV-4 can extrapolate, so training with ctxLen 1024 can work for ctxLen of 2500+. You can fine-tune the model with longer ctxLen and it can quickly adapt to longer ctxLens.
 
-**Fine-tuning RWKV-4 Pile models:** use 'prepare-data.py' in https://github.com/BlinkDL/RWKV-v2-RNN-Pile/tree/main/RWKV-v3 to tokenize .txt into train.npy data. Then set EXPRESS_PILE_MODE to True in train.py, and run it.
+**Fine-tuning RWKV-4 Pile models:** use 'prepare-data.py' in https://github.com/BlinkDL/RWKV-v2-RNN-Pile/tree/main/RWKV-v3 to tokenize .txt into train.npy data. Then use https://github.com/BlinkDL/RWKV-LM/blob/main/RWKV-v4neo/train.py to train it.
 
 Read the inference code in src/model.py and try using the final hidden state（.xx .aa .bb) as a faithful sentence embedding for other tasks. Probably you should begin with .xx and .aa/.bb (.aa divided by .bb).
 
@@ -198,17 +159,28 @@ Colab for fine-tuning RWKV-4 Pile models: https://colab.research.google.com/gith
 ```
 python tools/preprocess_data.py --input ./my_data.jsonl --output-prefix ./data/my_data --vocab ./20B_tokenizer.json --dataset-impl mmap --tokenizer-type HFTokenizer --append-eod
 ```
+
+**UPDATE:** now you can use https://github.com/Abel2076/json2binidx_tool (much easier to install)
+
 The jsonl format sample (one line for each document):
 ```
-{"meta": {"ID": 101}, "text": "This is the first document."}
-{"meta": {"ID": 102}, "text": "Hello\nWorld"}
-{"meta": {"ID": 103}, "text": "1+1=2\n1+2=3\n2+2=4"}
+{"text": "This is the first document."}
+{"text": "Hello\nWorld"}
+{"text": "1+1=2\n1+2=3\n2+2=4"}
 ```
 generated by code like this:
 ```
-ss = json.dumps({"meta": meta, "text": text}, ensure_ascii=False)
+ss = json.dumps({"text": text}, ensure_ascii=False)
 out.write(ss + "\n")
 ```
+
+### How to use RWKV hidden state as text embedding
+
+Consider RWKV 14B. The state has 200 vectors, that is, 5 vectors for each block: fp16 (xx), fp32 (aa), fp32 (bb), fp32 (pp), fp16 (xx).
+
+Do not avg pool because different vectors (xx aa bb pp xx) in the state have very different meanings and ranges. You can probably remove pp.
+
+I suggest firstly collect the mean+stdev statistics of each channel of each vector, and normalize all of them (note: the normalization should be data-indepedent and collected from various texts). Then train a linear classifer.
 
 ## Towards RWKV-5 (just to record some new ideas)
 
@@ -226,6 +198,8 @@ out.write(ss + "\n")
 
 6. Trainable initial hidden state (xx aa bb pp xx).
 
+7. Layerwise (or even row/column-wise, elementwise) LR, and test Lion optimizer.
+
 ### Vision Tasks
 
 1. I find it's good to add a 2d pos encoding:
@@ -239,6 +213,25 @@ x = x + pos_emb_x + pos_emb_y
 2. In a BPE langauge model, it's the best to use [tokenShift of 1 token] (you can mix more tokens in a char-level English model). However you can try [tokenShift of N (or N-1) (or N+1) tokens] if the image size is N x N, because that will be like mixing [the token above the current positon (or the token above the to-be-predicted positon)] with [current token]. You can use try different tokenShift styles for "ATT" & "FFN", or mixing different tokenShift styles - such as mixing [token A] with [token A-1] and [token A-(N-1)] etc.
 
 ### Misc
+
+Maybe we can improve memorization by simply repeating the context (I guess 2 times is enough). Example:  Reference -> Reference(again) -> Question -> Answer
+
+#### Idea: Bytes-aware Embedding
+
+The idea is to make sure each token in vocab understand its length and raw UTF-8 bytes.
+
+Let a = max(len(token)) for all token in vocab. Define AA : float[a][d_emb]
+
+Let b = max(len_in_utf8_bytes(token)) for all token in vocab. Define BB : float[b][256][d_emb]
+
+For each token X in vocab, let [x0, x1, ..., xn] be its raw UTF-8 bytes. We will add some extra values to its embedding EMB(X):
+
+EMB(X) += AA[len(X)] + BB[0][x0] + BB[1][x1] + ... + BB[n][xn] (note: AA BB are learnable weights)
+
+* We can do this for the final Linear(d_emb, n_vocab) projection too.
+* We can use some small networks to generate AA and BB, for some extra regularization (for example, BB[m][xi] and BB[n][xi] should be related).
+
+#### Old Idea
 
 I have an idea to improve tokenization. We can hardcode some channels to have meanings. Example:
 
@@ -269,6 +262,18 @@ Better: define emb_space emb_capitalize_first emb_capitalize_all to be a functio
 Maybe the Best: let 'abc' ' abc' etc. to share the last 90% of their embeddings.
 
 At this moment, all our tokenizers spend too many items to represent all variations of 'abc' ' abc' ' Abc' etc. Moreover the model cannot discover that these are actually similar if some of these variations are rare in the dataset. The method here can improve this. I plan to test this in a new version of RWKV.
+
+#### Idea: Better Initial States
+
+Example (single-round Q & A):
+
+1. Generate the final state of all wiki documents.
+
+2. For any user Q, find the best wiki document, and use its final state as the initial state.
+
+3. Train a model to directly generate the optimal initial state for any user Q.
+
+However this can be a bit more tricky for multi-round Q & A :)
 
 ## How it works
 

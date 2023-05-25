@@ -1,16 +1,16 @@
 ---
 title: next-enterprise
-date: 2023-05-24T12:17:14+08:00
+date: 2023-05-25T12:15:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12163/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12163/0/1080p
 ---
 
 # [Blazity/next-enterprise](https://github.com/Blazity/next-enterprise)
 
 # Next.js Enterprise Boilerplate
 
-![Project intro image](https://github.com/Blazity/next-enterprise/assets/28964599/01d736af-4849-40c1-aaff-a95b74ac6c53)
+![Project intro image](https://github.com/Blazity/next-enterprise/assets/28964599/afde47b9-6106-47d6-a0d4-ee40deb8220d)
 
 Welcome to the _Next.js Enterprise Boilerplate_, an open-source template for enterprise projects! It's loaded with features that'll help you build a high-performance, maintainable, and enjoyable app. We've done all the heavy lifting for you, so sit back, relax, and get ready to conquer the world with your incredible app! 🌍
 
@@ -104,10 +104,6 @@ pre-commit install -t commit-msg
 Easily deploy your Next.js app with [Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=github&utm_campaign=next-enterprise) by clicking the button below:
 
 [![Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Blazity/next-enterprise)
-
-or if you prefer netlify:
-
-[![Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Blazity/next-enterprise)
 
 ## 📃 Scripts Overview
 

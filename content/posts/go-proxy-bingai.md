@@ -1,9 +1,9 @@
 ---
 title: go-proxy-bingai
-date: 2023-05-24T12:16:07+08:00
+date: 2023-05-25T12:16:35+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12181/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12181/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12171/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
 ---
 
 # [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai)

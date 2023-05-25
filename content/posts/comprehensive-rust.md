@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2023-05-24T12:16:41+08:00
+date: 2023-05-25T12:15:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12187/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12187/0/1080p
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)
@@ -70,8 +70,10 @@ $ mdbook serve
 to start a web server with the course. You'll find the content on
 <http://localhost:3000>. You can use `mdbook build` to create a static version
 of the course in the `book/` directory. Note that you have to separately build
-and zip exercises and add them to `book/html`.
-
+and zip exercises and add them to `book/html`. To build any of the translated
+versions of the course, run `MDBOOK_BOOK__LANGUAGE=xx mdbook build -d book/xx`
+where `xx` is the ISO 639 language code (e.g. `da` for the Danish translation).
+[TRANSLATIONS.md](TRANSLATIONS.md) contains further instructions.
 ## Contact
 
 For questions or comments, please contact [Martin
