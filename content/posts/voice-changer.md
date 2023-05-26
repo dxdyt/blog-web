@@ -1,9 +1,9 @@
 ---
 title: voice-changer
-date: 2023-05-25T12:15:23+08:00
+date: 2023-05-26T12:17:29+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12181/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12181/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12173/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12173/0/1080p
 ---
 
 # [w-okada/voice-changer](https://github.com/w-okada/voice-changer)
@@ -13,6 +13,13 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12181/0/1080p
 [English](/README_en.md)
 
 ## What's New!
+
+- v.1.5.3.3
+
+  - RVC: Crepe 対応
+  - RVC: [DDPN RVC](https://github.com/ddPn08/rvc-webui)対応
+  - RVC: reconstruct .npy
+  - Some bugfixs
 
 - v.1.5.3.2
 
@@ -82,10 +89,12 @@ Windows 版と Mac 版を提供しています。
 
 - ダウンロードはこちらから。
 
-| Version   | OS  | フレームワーク                    | link                                                                                       | サポート VC                                                                   | サイズ |
-| --------- | --- | --------------------------------- | ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------- | ------ |
-| v.1.5.3.2 | mac | ONNX(cpu), PyTorch(cpu,mps)       | [normal](https://drive.google.com/uc?id=1K0oO6UbDUgtiZ59CUHB1VItsG_6ztSHS&export=download) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                              | 797MB  |
-|           | win | ONNX(cpu,cuda), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1m791W_wEx6TO135mEPNGngYBL4RLQvDO&export=download) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, so-vits-svc 4.0v2, RVC, DDSP-SVC | 2873MB |
+| Version   | OS  | フレームワーク                    | link                                                                                          | サポート VC                                                                   | サイズ |
+| --------- | --- | --------------------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | ------ |
+| v.1.5.3.3 | mac | ONNX(cpu), PyTorch(cpu,mps)       | [normal](https://drive.google.com/uc?id=1FVk3uYmeexSkhxm7N19bUO4eZpMiauo4&export=download)\*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                              | 797MB  |
+|           | win | ONNX(cpu,cuda), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1OuWgtNVAPBpA-lqNtr-KhsWA77QTK6OU&export=download)\*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, so-vits-svc 4.0v2, RVC, DDSP-SVC | 2873MB |
+| v.1.5.3.2 | mac | ONNX(cpu), PyTorch(cpu,mps)       | [normal](https://drive.google.com/uc?id=1K0oO6UbDUgtiZ59CUHB1VItsG_6ztSHS&export=download)\*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                              | 797MB  |
+|           | win | ONNX(cpu,cuda), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1m791W_wEx6TO135mEPNGngYBL4RLQvDO&export=download)\*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, so-vits-svc 4.0v2, RVC, DDSP-SVC | 2873MB |
 
 (\*1) Google Drive からダウンロードできない方は[hugging_face](https://huggingface.co/wok000/vcclient000/tree/main)からダウンロードしてみてください
 (\*2) 開発者が AMD のグラフィックボードを持っていないので動作確認していません。onnxruntime-directml を同梱しただけのものです。

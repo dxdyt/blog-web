@@ -1,9 +1,9 @@
 ---
 title: fairseq
-date: 2023-05-25T12:14:56+08:00
+date: 2023-05-26T12:16:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
 ---
 
 # [facebookresearch/fairseq](https://github.com/facebookresearch/fairseq)

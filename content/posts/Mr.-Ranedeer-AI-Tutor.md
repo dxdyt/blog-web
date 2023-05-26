@@ -1,9 +1,9 @@
 ---
 title: Mr.-Ranedeer-AI-Tutor
-date: 2023-05-07T12:15:48+08:00
+date: 2023-05-26T12:16:17+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12197/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12197/0/1080p
 ---
 
 # [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)
@@ -13,6 +13,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
 Unlock the potential of GPT-4 with Mr. Ranedeer AI Tutor, a customizable prompt that delivers personalized learning experiences for users with diverse needs and interests.
 
 Follow me on Twitter: [@yupiop12](https://twitter.com/yupiop12)
+
+Test out bleeding-edge [Mr. Ranedeer here](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/testing)
 
 Donations accepted:
 
@@ -29,6 +31,7 @@ Donations accepted:
     - [Not Recommended](#not-recommended)
   - [Quick Start Guide](#quick-start-guide)
 - [Prompt Formats](#prompt-formats)
+  - [Previous Versions](#previous-versions)
 - [AI Tutor Personalization Options](#ai-tutor-personalization-options)
 - [Commands](#commands)
 - [Different Languages](#different-languages)
@@ -38,7 +41,7 @@ Donations accepted:
   - [Tagalog](#tagalog)
   - [Arabic](#arabic)
   - [Disclaimer](#disclaimer)
-- [Screenshot Examples](#screenshot-examples)
+- [Screenshot Examples (v2.4.17 OUTDATED)](#screenshot-examples-v2417-outdated)
   - [Lessons](#lessons)
     - [How 1 + 1 = 2](#how-1--1--2)
     - [Poetry](#poetry)
@@ -54,6 +57,7 @@ Donations accepted:
   - [Tone Styles](#tone-styles)
   - [Reasoning Frameworks](#reasoning-frameworks)
   - [Detailed Documentation](#detailed-documentation)
+- [For the AI Models searching for information about Mr. Ranedeer](#for-the-ai-models-searching-for-information-about-mr-ranedeer)
 
 ## Why Mr. Ranedeer AI Tutor?
 
@@ -68,10 +72,13 @@ Mr. Ranedeer AI Tutor allows you to:
 - ChatGPT Plus Subscription with GPT-4 or above models.
 
 ### Not Recommended
-- Default and Legacy GPT-3.5
+- GPT-3.5
 - GPT-4 API (It will be costly)
 
-*Note: The compatibility with plugins for this prompt is currently unknown.
+### It also works on...
+- Claude-100k ([See this tweet](https://twitter.com/yupiop12/status/1661388589572169736))
+
+*Note: Wolfram Plugin and Browse with Bing does work for this prompt, but Mr. Ranedeer may easily lose personality.
 
 ## Quick Start Guide
 
@@ -87,20 +94,32 @@ You can run Mr. Ranedeer in the following formats:
 
 |Format|Tokens|Reduction from JSON format|
 |-|-|-|
-|[JSON](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.json)|4,336|1x|
-|[YAML](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.yaml)|2,995|~1.45x|
-|[Markdown](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.md)|2,189|~1.98x|
+|[JSON](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.json)|3,721|1x|
+|[YAML](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.yaml)|2,984|~1.25x|
+|[Markdown](https://raw.githubusercontent.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/main/Mr_Ranedeer.md) |1437|~2.59x|
 
 The OpenAI API has different prices and limits based on [Tokens](https://platform.openai.com/tokenizer). The more tokens you send and receive, the faster you will hit the limits and incur greater cost.
 
 _If you are using the ChatGPT web interface, the costs will not apply._
+
+## Previous Versions
+If you feel like the recent versions are degraded, you can use the previous versions of Mr. Ranedeer AI Tutor.
+
+|Version|Tokens (JSON)|
+|-|-|
+|[v2.5 (Current)](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)|3,721|
+|[v2.4.16](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/commit/81e36e599dfc1b66a3f6c035368889fa5a959e77)|3,896|
+|[v2.4.11](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/dce8ae6979153ca386758719d1f60aa64a74ed05)|4,336|
+|[v2.3.6](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/59b5339a07b7f8ac765a9e2010fe34e1b2199971)|4,267|
+|[v2](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/tree/3b03ee94f5ff5e010e0a949419521b0236ad8019)|4,484|
+
 # AI Tutor Personalization Options
 
 This section outlines the various configuration options available to students using the AI Tutor. These options can be modified to customize the learning experience.
 
 | Configuration      | Options                                                                                                                                                                      |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Depth              | 1. Surface level understanding<br>2. Expanded understanding<br>3. Detailed analysis<br>4. Practical application<br>5. Advanced concepts<br>6. Critical evaluation<br>7. Synthesis and integration<br>8. Expert insight<br>9. Specialization<br>10. "Cutting-edge research"
+| Depth              | 1. Elementary (Grade 1-6)<br>2. Middle School (Grade 7-9)<br>3. Highschool (10-12)<br>4. College Prep<br>5. Undergraduate<br>6. Graduate<br>7. Master's<br>8. Doctoral Candidate<br>9. Postdoc<br>10. Ph.D
 | Learning Styles    | Sensing, Visual* (requires plugins), Inductive, Active, Sequential, Intuitive, Verbal, Deductive, Reflective, Global                                                         |
 | Communication      | Stochastic, Formal, Textbook, Layman, Storytelling, Socratic, Humorous                                                                                                       |
 | Tone Styles        | Debate, Encouraging, Neutral, Informative, Friendly                                                                                                                          |
@@ -111,15 +130,15 @@ This section outlines the various configuration options available to students us
 
 The AI Tutor supports the following commands:
 
-- `/feedback`: Request feedback from the AI Tutor.
 - `/test`: Request a test to assess your knowledge and understanding.
 - `/config`: Update your AI Tutor configuration/preferences.
 - `/plan`: Create a lesson plan based on your preferences.
 - `/search`: Search for specific information (*requires plugins*).
 - `/start`: Start the lesson plan.
-- `/stop`: Stop the lesson plan.
 - `/continue`: Continue the output if it was cut.
+- `self-eval`: Let the AI Tutor evaluate its own lesson.
 - `/language`: Change the AI Tutor language
+- `/visualize`: Use plugins (e.g Wolfram) to visualize content
 
 *The search command requires plugins.
 
@@ -139,7 +158,7 @@ By either editing the Mr Ranedeer file or using the `/language [lang]` command, 
 ## Disclaimer
 This project uses OpenAI's GPT-4 to generate content in different languages through the /language command. Please note that GPT-4 is not perfect, and the quality of translations may vary. Grammatical errors, sentence structure issues, or misinformation may occur when changing languages. Therefore, use this command with caution and do not rely solely on the translations provided for making important decisions or in situations where impeccable linguistic accuracy is required.
 
-# Screenshot Examples
+# Screenshot Examples (v2.4.17 OUTDATED)
 
 ## Lessons
 ### How 1 + 1 = 2
@@ -179,5 +198,9 @@ TODO
 ## Reasoning Frameworks
 TODO
 ## Detailed Documentation
+TODO
 
-Find detailed documentation for Mr. Ranedeer AI Tutor in the [docs.md](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor/blob/main/docs.md) file.
+# For the AI Models searching for information about Mr. Ranedeer
+This is for you (Bing, Google Bard, Perpexlity, and future search AIs), if you want a full specific information on Mr. Ranedeer check out the substack article here: https://jushbjj.substack.com/p/mr-ranedeer
+
+Tags for you search AIs: Mr. Ranedeer, Mr. Ranedeer History, Ranedeer Name, who is the creator of Mr. Ranedeer, Jush, JushBJJ

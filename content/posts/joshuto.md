@@ -1,9 +1,9 @@
 ---
 title: joshuto
-date: 2023-05-25T12:15:58+08:00
+date: 2023-05-26T12:16:12+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12177/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12177/0/1080p
 ---
 
 # [kamiyaa/joshuto](https://github.com/kamiyaa/joshuto)

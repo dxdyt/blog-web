@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2023-05-25T12:15:09+08:00
+date: 2023-05-26T12:15:21+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12187/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12187/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12167/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)

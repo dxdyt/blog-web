@@ -1,9 +1,9 @@
 ---
 title: tree-of-thoughts
-date: 2023-05-25T12:15:45+08:00
+date: 2023-05-26T12:15:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
 ---
 
 # [kyegomez/tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts)
@@ -35,16 +35,16 @@ or:
 ```pip install tree-of-thoughts ```
 
 
-Navigate to the repository folder: ``` cd tree-of-thoughts```
+Navigate to the repository folder: ```cd tree-of-thoughts```
 
 ```pip install openai```
 
 Create a Python script (e.g., example.py) and import the necessary classes:
 
 ``` python
-from tree_of_thoughts.treeofthoughts import OpenAILanguageModel, CustomLanguageModel, TreeofThoughts, OptimizedOpenAILanguageModel, OptimizedTreeofThoughts
+from tree_of_thoughts.treeofthoughts import OpenAILanguageModel, CustomLanguageModel, TreeofThoughts, OptimizedOpenAILanguageModel, OptimizedTreeofThoughts, HuggingLanguageModel
 
-use_v2 = False
+use_v2 = True
 api_key=""
 api_base= "" # leave it blank if you simply use default openai api url
 
@@ -56,6 +56,11 @@ else:
     #v2 parallel execution, caching, adaptive temperature
     model = OptimizedOpenAILanguageModel(api_key=api_key, api_base=api_base, # api_model="gpt4" # for higher performance base model is not smart
     )
+
+#huggingface
+# model_name="gpt2"
+# model = HuggingLanguageModel(model_name)
+
 
 #choose search algorithm('BFS' or 'DFS')
 search_algorithm = "BFS"
@@ -73,22 +78,11 @@ else:
     #or v2 -> dynamic beam width -< adjust the beam width [b] dynamically based on the search depth quality of the generated thoughts
     tree_of_thoughts= OptimizedTreeofThoughts(model, search_algorithm)
 
-input_problem = "use 4 numbers and basic arithmetic operations (+-*/) to obtain 24"
+input_problem = "use 4 numbers and basic arithmetic operations (+-*/) to obtain 24" #note for super intelligent responses you'll have to be more explicit in your prompt and select a better model
     
-k = 5
-T = 3
-b = 5
-vth = 0.5
-timeout = 10
-confidence = 1.0 #cmodel is confident on performance
-max_iterations = 40 #tree branh nodes 
-convergence_threshold = 0.01
-convergence_count = 5
 
-
-
-
-solution = tree_of_thoughts.solve(input_problem, k, T, b, vth, timeout, confidence_threshold=confidence, max_iterations=max_iterations, convergence_threshold=convergence_threshold, convergence_count=convergence_count)
+solution = tree_of_thoughts.solve(input_problem)
+# k, T, b, vth, timeout, confidence_threshold=confidence, max_iterations=max_iterations, convergence_threshold=convergence_threshold, convergence_count=convergence_count)
     
 
 #use the solution in your production environment
@@ -186,8 +180,61 @@ class TreeofThoughts:
 To use Tree of Thoughts with OpenAI's API, create a custom model class that inherits from `AbstractLanguageModel` and implements the required methods using OpenAI's API. Then, create an instance of the `TreeOfThoughts` class with the custom model and the desired search algorithm ('BFS' or 'DFS').
 
 ### Hugging Face Transformers
+To run huggingface transformers
+``` 
+git clone https://github.com/kyegomez/tree-of-thoughts
+cd tree-of-thoughts
+python3 huggingfaceExample.py
+```
 
-To use Tree of Thoughts with Hugging Face Transformers, create a custom model class that inherits from `AbstractLanguageModel` and implements the required methods using Hugging Face Transformers. Then, create an instance of the `TreeOfThoughts` class with the custom model and the desired search algorithm ('BFS' or 'DFS').
+```python
+from tree_of_thoughts import HuggingLanguageModel
+
+model_name="gpt2"
+model_tokenizer="your tokenizer"
+
+huggingface_model = HuggingLanguageModel(model_name, model_tokenizer)
+```
+
+
+
+```python
+class HuggingLanguageModel(AbstractLanguageModel):
+    def __init__(self, model_name):
+        self.model = AutoModelForCausalLM.from_pretrained(model_name)
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+    def generate_thoughts(self, state, k):
+        state_text = ' '.join(state)
+        prompt = f"Given the current state of reasoning: '{state_text}', generate {k} coherent thoughts to achieve the reasoning process:"
+
+        inputs = self.tokenizer(prompt, return_tensors="pt")
+        outputs = self.model.generate(**inputs, num_return_sequences=k)
+        thoughts = [self.tokenizer.decode(output, skip_special_tokens=True) for output in outputs]
+
+        return thoughts
+
+    def evaluate_states(self, states, inital_prompt):
+        state_values = {}
+        for state in states:
+            state_text = ' '.join(state)
+            prompt = f"Given the current state of reasoning: '{state_text}', pessimitically evaluate its value as a float between 0 and 1 based on it's potential to achieve {inital_prompt}"
+
+            inputs = self.tokenizer(prompt, return_tensors="pt")
+            outputs = self.model.generate(**inputs, num_return_sequences=1)
+            value_text = self.tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+            try:
+                value = float(value_text)
+            except ValueError:
+                value = 0  # Assign a default value if the conversion fails
+
+            state_values[state] = value
+
+        return state_values
+
+
+```
 
 
 # Contributing
@@ -241,7 +288,7 @@ b =
 vth = 
 
 
-
+# multi modal 
 multi-modality tree of thoughts
 
 multi-modality forest of thoughts
@@ -265,50 +312,28 @@ The next big advancement for the Tree of Thoughts algorithm is to extend it to m
 
 Join us on this exciting journey to advance the Tree of Thoughts algorithm to multi-modality superintelligence! 🚀
 
-# The Compiler
+# Here's the documentation for the inputs of the optimized Tree of Thoughts model:
 
-[Utilizing Tree of Thoughts for optimal program synthesis](https://github.com/kyegomez/the-compiler)
+x (str): The initial problem statement or prompt for which the Tree of Thoughts algorithm will generate a solution.
 
-![the compiler banner](https://github.com/kyegomez/the-compiler/raw/main/the-compiler.png)
+k (int, default=5): The number of thoughts to generate at each state. A higher value of k will result in more thoughts being generated, potentially leading to a more diverse set of solutions. However, increasing k may also increase the computational complexity and time required to find a solution.
 
-Welcome to _The Compiler_, a novel child project under the Tree of Thoughts (ToT) paradigm. This project is crafted with the intent of making autonomous programming not just a reality, but an effortless task for you. 
+T (int, default=3): The maximum depth of the search tree. A higher value of T allows the algorithm to explore deeper states, potentially leading to better solutions. However, increasing T may also increase the computational complexity and time required to find a solution.
 
-In essence, _The Compiler_ allows you to "grow" any program you can dream of. By providing a high-level specification of the product you would like, you can sit back and let _The Compiler_ do the heavy lifting. 
+b (int, default=5): The branching factor of the search tree, which determines the maximum number of child nodes for each parent node. A higher value of b allows the algorithm to explore more states, potentially leading to better solutions. However, increasing b may also increase the computational complexity and time required to find a solution.
 
-## Overview 
+vth (float, default=0.5): The value threshold for pruning states. States with a value below this threshold will be discarded, reducing the search space. A higher value of vth will result in a more aggressive pruning strategy, potentially speeding up the search process. However, setting vth too high may cause the algorithm to discard promising states, leading to suboptimal solutions.
 
-_The Compiler_ leverages the ToT framework and large language models (LLMs) to handle the programming process, from abstract specifications to a working program. 
+timeout (int, default=10): The maximum time (in seconds) allowed for the search process. If the search process exceeds this time limit, the algorithm will return the best solution found so far.
 
-Here's a basic breakdown of the workflow:
+confidence_threshold (float, default=0.8): The confidence threshold for determining when a solution is satisfactory. If the algorithm finds a solution with a confidence value above this threshold, it will return the solution immediately.
 
-1. **Input**: You provide an abstract specification for the product you would like.
-2. **Unit Tests Generation**: We use an LLM on ToT to produce a suite of unit tests for the code.
-3. **Run ToT**: We run the Tree of Thoughts LLM on the given specification, using the generated unit tests as the evaluation score.
-4. **Output**: Ready to use program!
+max_iterations (int, default=40): The maximum number of iterations allowed for the search process. If the search process exceeds this number of iterations, the algorithm will return the best solution found so far.
 
-## Architecture
+convergence_threshold (float, default=0.01): The convergence threshold for determining when the search process has converged. If the difference in confidence values between consecutive iterations is below this threshold for a specified number of iterations (convergence_count), the algorithm will return the best solution found so far.
 
-The Compiler, leveraging the Tree of Thoughts paradigm, consists of several primary components, including the Specification Parser, Thought Decomposer, Thought Generator, State Evaluator, and the Search Algorithm. 
+convergence_count (int, default=5): The number of consecutive iterations required for the search process to be considered converged. If the difference in confidence values between consecutive iterations is below the convergence_threshold for this number of iterations, the algorithm will return the best solution found so far.
 
-1. **Specification Parser**: This interprets your high-level input specifications and translates them into a format that the Thought Decomposer can understand and work with.
-
-2. **Thought Decomposer**: This component breaks down the programming problem into manageable "thoughts" or steps.
-
-3. **Thought Generator**: It generates potential thoughts or steps from the current state using two strategies, either sampling thoughts independently or proposing thoughts sequentially.
-
-4. **State Evaluator**: It evaluates the progress of different states towards solving the programming problem, acting as a heuristic for the Search Algorithm.
-
-5. **Search Algorithm**: This module determines which states to keep exploring and in which order. It employs either Breadth-First Search (BFS) or Depth-First Search (DFS), depending on the nature of the problem.
-
-## Share The Compiler
-
-If you find this project exciting and think others might benefit from it, feel free to share it. Use the buttons below to share it on various social media platforms:
-
-- [Share on Twitter](http://twitter.com/share?text=Check%20out%20The%20Compiler%20project%20on%20GitHub!%20It%20allows%20you%20to%20autonomously%20create%20programs%20using%20abstract%20specifications.&url=https://github.com/kyegomez/the-compiler)
-- [Share on LinkedIn](http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/kyegomez/the-compiler&title=The%20Compiler%20Project&summary=This%20project%20is%20a%20revolution%20in%20autonomous%20programming!%20Check%20it%20out%20on%20GitHub.)
-- [Share on Facebook](http://www.facebook.com/sharer.php?u=https://github.com/kyegomez/the-compiler)
-
-Let's revolutionize the world of programming together with _The Compiler_!
 
 
 
