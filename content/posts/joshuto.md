@@ -1,9 +1,9 @@
 ---
 title: joshuto
-date: 2023-05-26T12:16:12+08:00
+date: 2023-05-27T12:15:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12177/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12177/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 ---
 
 # [kamiyaa/joshuto](https://github.com/kamiyaa/joshuto)
@@ -72,6 +72,13 @@ sudo dnf install joshuto
 * [build from source](https://aur.archlinux.org/packages/joshuto-git)
 ```
 [yay/paru] -S joshuto-git
+```
+
+##### Gentoo ([gentoo-zh](https://github.com/microcai/gentoo-zh/tree/master/app-misc/joshuto))
+
+```
+sudo eselect repository enable gentoo-zh
+sudo emerge -av app-misc/joshuto
 ```
 
 ##### MacOS ([MacPorts](https://ports.macports.org/port/joshuto/details/))

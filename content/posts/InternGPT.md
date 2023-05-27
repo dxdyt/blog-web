@@ -1,9 +1,9 @@
 ---
 title: InternGPT
-date: 2023-05-26T12:17:20+08:00
+date: 2023-05-27T12:16:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12183/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12183/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
 ---
 
 # [OpenGVLab/InternGPT](https://github.com/OpenGVLab/InternGPT)
@@ -210,6 +210,8 @@ Thanks to the open source of the following projects:
 
 Welcome to discuss with us and continuously improve the user experience of InternGPT.
 
-WeChat QR Code
+WeChat QR Code:
 
-<p align="center"><img width="400" alt="image" src="https://pjlab-gvm-data.oss-cn-shanghai.aliyuncs.com/papers/media/wechat_group.jpg"></p> 
+<p align="center"><img width="400" alt="image" src="https://github.com/OpenGVLab/InternGPT/assets/43169235/b7b640ce-b808-4a96-948c-f86bba305f5a"></p> 
+
+

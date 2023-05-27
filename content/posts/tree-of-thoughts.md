@@ -1,9 +1,9 @@
 ---
 title: tree-of-thoughts
-date: 2023-05-26T12:15:26+08:00
+date: 2023-05-27T12:15:53+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12189/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12189/0/1080p
 ---
 
 # [kyegomez/tree-of-thoughts](https://github.com/kyegomez/tree-of-thoughts)
@@ -28,8 +28,22 @@ This implementation of Tree of Thoughts is brought to you by Agora, Agora advanc
 [Join our Discord and contribute to this project](https://discord.gg/qUtxnK2NMf)
 
 ## Getting started
-Clone this repository with ```git clone https://github.com/kyegomez/tree-of-thoughts```
 
+## Method1
+Clone this repository with 
+
+```git clone https://github.com/kyegomez/tree-of-thoughts```
+
+``` 
+cd tree-of-thoughts
+cd tree_of_thoughts
+python3 treeofthoughts.py --problem "design an new transportation system for an all-new city" --search_algorithm="BFS"
+```
+Add ` OPENAI_API_KEY='API KEY'` in the .env!
+
+
+
+## Method2
 or:
 
 ```pip install tree-of-thoughts ```
@@ -44,8 +58,10 @@ Create a Python script (e.g., example.py) and import the necessary classes:
 ``` python
 from tree_of_thoughts.treeofthoughts import OpenAILanguageModel, CustomLanguageModel, TreeofThoughts, OptimizedOpenAILanguageModel, OptimizedTreeofThoughts, HuggingLanguageModel
 
-use_v2 = True
+use_v2 = False
+
 api_key=""
+
 api_base= "" # leave it blank if you simply use default openai api url
 
 if not use_v2:
@@ -71,23 +87,42 @@ strategy="cot"
 # value or vote
 evaluation_strategy = "value"
 
-if not use_v2:
-    #create an instance of the tree of thoughts class v1
-    tree_of_thoughts = TreeofThoughts(model, search_algorithm)
-else:
-    #or v2 -> dynamic beam width -< adjust the beam width [b] dynamically based on the search depth quality of the generated thoughts
-    tree_of_thoughts= OptimizedTreeofThoughts(model, search_algorithm)
+# if not use_v2:
+#     #create an instance of the tree of thoughts class v1
+
+
+tree_of_thoughts = TreeofThoughts(model, search_algorithm)
+
+
+# else:
+#     #or v2 -> dynamic beam width -< adjust the beam width [b] dynamically based on the search depth quality of the generated thoughts # does not work now use regular tree of thoughts
+#     tree_of_thoughts= OptimizedTreeofThoughts(model, search_algorithm)
 
 input_problem = "use 4 numbers and basic arithmetic operations (+-*/) to obtain 24" #note for super intelligent responses you'll have to be more explicit in your prompt and select a better model
     
 
-solution = tree_of_thoughts.solve(input_problem)
-# k, T, b, vth, timeout, confidence_threshold=confidence, max_iterations=max_iterations, convergence_threshold=convergence_threshold, convergence_count=convergence_count)
+
+input_problem = "What are the best reasoning methods to advance Large Language Models"
+k = 5 #number of thoughts to generate
+T = 3 # maximum depth of the search tree
+b = 5 # branching factor -< number of child nodes for each branch
+vth = 0.5 # pruning state -> any evaluated thought below this is eliminated
+timeout = 10 #10 seconds timeout before stop
+confidence = 0.8 #cmodel is confident on performance
+max_iterations = 40 #tree branh nodes 
+convergence_threshold = 0.01 #determining when the search process has converged
+convergence_count = 5 # number of searchers to be considered converged
+#read documentation for more
+
+#call the solve emthod with the input problem and other params
+solution = tree_of_thoughts.solve(input_problem, k, T, b, vth, timeout, confidence, max_iterations, convergence_threshold, convergence_count)
+
     
 
-#use the solution in your production environment
-print(f'solution {solution}')
 
+# # Save the tree and metrics to a JSON file
+# file_name = "logs/tree_of_thoughts_output.json"
+# tree_of_thoughts.save_tree_to_json(file_name)
 
 ```
 
@@ -314,27 +349,39 @@ Join us on this exciting journey to advance the Tree of Thoughts algorithm to mu
 
 # Here's the documentation for the inputs of the optimized Tree of Thoughts model:
 
-x (str): The initial problem statement or prompt for which the Tree of Thoughts algorithm will generate a solution.
+## x (str): 
+The initial problem statement or prompt for which the Tree of Thoughts algorithm will generate a solution.
 
-k (int, default=5): The number of thoughts to generate at each state. A higher value of k will result in more thoughts being generated, potentially leading to a more diverse set of solutions. However, increasing k may also increase the computational complexity and time required to find a solution.
+## k (int, default=5): 
+The number of thoughts to generate at each state. 
+A higher value of k will result in more thoughts being generated, potentially leading to a more diverse set of solutions. However, increasing k may also increase the computational complexity and time required to find a solution.
 
-T (int, default=3): The maximum depth of the search tree. A higher value of T allows the algorithm to explore deeper states, potentially leading to better solutions. However, increasing T may also increase the computational complexity and time required to find a solution.
+## T (int, default=3): 
+The maximum depth of the search tree. 
+A higher value of T allows the algorithm to explore deeper states, potentially leading to better solutions. However, increasing T may also increase the computational complexity and time required to find a solution.
 
-b (int, default=5): The branching factor of the search tree, which determines the maximum number of child nodes for each parent node. A higher value of b allows the algorithm to explore more states, potentially leading to better solutions. However, increasing b may also increase the computational complexity and time required to find a solution.
+## b (int, default=5): 
+The branching factor of the search tree, which determines the maximum number of child nodes for each parent node.
+A higher value of b allows the algorithm to explore more states, potentially leading to better solutions. However, increasing b may also increase the computational complexity and time required to find a solution.
 
-vth (float, default=0.5): The value threshold for pruning states. States with a value below this threshold will be discarded, reducing the search space. A higher value of vth will result in a more aggressive pruning strategy, potentially speeding up the search process. However, setting vth too high may cause the algorithm to discard promising states, leading to suboptimal solutions.
+## vth (float, default=0.5): 
+The value threshold for pruning states. 
+States with a value below this threshold will be discarded, reducing the search space. A higher value of vth will result in a more aggressive pruning strategy, potentially speeding up the search process. However, setting vth too high may cause the algorithm to discard promising states, leading to suboptimal solutions.
 
-timeout (int, default=10): The maximum time (in seconds) allowed for the search process. If the search process exceeds this time limit, the algorithm will return the best solution found so far.
+## timeout (int, default=10): 
+The maximum time (in seconds) allowed for the search process. If the search process exceeds this time limit, the algorithm will return the best solution found so far.
 
-confidence_threshold (float, default=0.8): The confidence threshold for determining when a solution is satisfactory. If the algorithm finds a solution with a confidence value above this threshold, it will return the solution immediately.
+## confidence_threshold (float, default=0.8): 
+The confidence threshold for determining when a solution is satisfactory. If the algorithm finds a solution with a confidence value above this threshold, it will return the solution immediately.
 
-max_iterations (int, default=40): The maximum number of iterations allowed for the search process. If the search process exceeds this number of iterations, the algorithm will return the best solution found so far.
+## max_iterations (int, default=40): 
+The maximum number of iterations allowed for the search process. If the search process exceeds this number of iterations, the algorithm will return the best solution found so far.
 
-convergence_threshold (float, default=0.01): The convergence threshold for determining when the search process has converged. If the difference in confidence values between consecutive iterations is below this threshold for a specified number of iterations (convergence_count), the algorithm will return the best solution found so far.
+## convergence_threshold (float, default=0.01): 
+The convergence threshold for determining when the search process has converged. If the difference in confidence values between consecutive iterations is below this threshold for a specified number of iterations (convergence_count), the algorithm will return the best solution found so far.
 
-convergence_count (int, default=5): The number of consecutive iterations required for the search process to be considered converged. If the difference in confidence values between consecutive iterations is below the convergence_threshold for this number of iterations, the algorithm will return the best solution found so far.
-
-
+## convergence_count (int, default=5): 
+The number of consecutive iterations required for the search process to be considered converged. If the difference in confidence values between consecutive iterations is below the convergence_threshold for this number of iterations, the algorithm will return the best solution found so far.
 
 
 # Acknowledgements

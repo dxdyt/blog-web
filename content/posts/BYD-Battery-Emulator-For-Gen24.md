@@ -1,9 +1,9 @@
 ---
 title: BYD-Battery-Emulator-For-Gen24
-date: 2023-05-26T12:16:04+08:00
+date: 2023-05-27T12:16:00+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12191/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12191/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
 ---
 
 # [dalathegreat/BYD-Battery-Emulator-For-Gen24](https://github.com/dalathegreat/BYD-Battery-Emulator-For-Gen24)
