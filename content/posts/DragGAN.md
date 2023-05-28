@@ -1,9 +1,9 @@
 ---
 title: DragGAN
-date: 2023-05-27T12:15:45+08:00
+date: 2023-05-28T12:15:52+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12201/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12201/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12203/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12203/0/1080p
 ---
 
 # [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN)

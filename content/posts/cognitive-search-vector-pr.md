@@ -1,9 +1,9 @@
 ---
 title: cognitive-search-vector-pr
-date: 2023-05-27T12:17:08+08:00
+date: 2023-05-28T12:17:16+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12173/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12173/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12189/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12189/0/1080p
 ---
 
 # [Azure/cognitive-search-vector-pr](https://github.com/Azure/cognitive-search-vector-pr)

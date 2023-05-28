@@ -1,9 +1,9 @@
 ---
 title: openai-cookbook
-date: 2023-05-26T12:18:01+08:00
+date: 2023-05-28T12:16:37+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12167/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12183/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12183/0/1080p
 ---
 
 # [openai/openai-cookbook](https://github.com/openai/openai-cookbook)

@@ -1,9 +1,9 @@
 ---
 title: InternGPT
-date: 2023-05-27T12:16:55+08:00
+date: 2023-05-28T12:15:34+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 ---
 
 # [OpenGVLab/InternGPT](https://github.com/OpenGVLab/InternGPT)

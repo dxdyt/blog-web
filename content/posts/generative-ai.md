@@ -1,0 +1,66 @@
+---
+title: generative-ai
+date: 2023-05-28T12:17:35+08:00
+draft: False
+featuredImage: https://wallpaperhub.app/api/v1/get/12187/0/1080p
+featuredImagePreview: https://wallpaperhub.app/api/v1/get/12187/0/1080p
+---
+
+# [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
+
+# Generative AI
+
+Welcome to the Google Cloud [Generative AI](https://cloud.google.com/ai/generative-ai) repository.
+
+This repository contains notebooks and content that demonstrate how to use, develop and manage generative AI workflows using [Generative AI](https://cloud.google.com/ai/generative-ai), powered by [Vertex AI](https://cloud.google.com/vertex-ai) on Google Cloud.
+
+
+## Folder structure
+```
+generative-ai/
+├── language/
+|   └── examples/             
+|       ├── prompt-design/   - examples for prompts
+|       └── tuning/          - examples of tuning models
+└── setup-env/               - setup instructions
+```
+
+## Table of Contents
+- [Language/](language/)
+  - [Getting Started with Generative AI Studio without code](language/intro_generative_ai_studio.md)
+  - [Intro to Vertex AI PaLM API](language/intro_palm_api.ipynb)
+  - [Intro to Prompt Design](language/intro_prompt_design.ipynb)
+  - [Examples/](language/examples/)
+    - [Prompt Design/](language/examples/prompt-design/)
+      - [Ideation](language/examples/prompt-design/ideation.ipynb)
+      - [Question & Answering](language/examples/prompt-design/question_answering.ipynb)
+      - [Text Classifiction](language/examples/prompt-design/text_classification.ipynb)
+      - [Text Extraction](language/examples/prompt-design/text_extraction.ipynb)
+      - [Text Summarization](language/examples/prompt-design/text_summarization.ipynb)
+    - [Tuning/](language/examples/tuning/)
+      - [Tuning a Foundational Model, Deploying, and Making Predictions](language/examples/tuning/getting_started_tuning.ipynb)
+
+## Setting up your Google Cloud project
+You will need a Google Cloud project to use this project.
+
+1. [Select or create a Google Cloud project](https://console.cloud.google.com/cloud-resource-manager). When you first create an account, you get a $300 free credit towards your compute/storage costs.
+
+2. [Make sure that billing is enabled for your project](https://cloud.google.com/billing/docs/how-to/modify-project).
+
+3. [Enable the Vertex AI API](https://console.cloud.google.com/flows/enableapi?apiid=aiplatform.googleapis.com). 
+
+## Setting up your Python or Jupyter environment
+Please see the README in the [setup-env](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/setup-env) folder for information on using Colab notebooks and Vertex AI Workbench.
+
+## Google Generative AI Resources
+Check out a list of [Google Generative AI Resources](RESOURCES.md) like official product pages, documentation, videos, courses and more. 
+
+## Contributing
+Contributions welcome! See the [Contributing Guide](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/CONTRIBUTING.md).
+
+## Getting help
+Please use the [issues page](https://github.com/GoogleCloudPlatform/generative-ai/issues) to provide feedback or submit a bug report.
+
+## Disclaimer
+This repository itself is not an officially supported Google product. The code in this repository is for demonstrative purposes only.
+

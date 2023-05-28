@@ -1,6 +1,6 @@
 ---
 title: joshuto
-date: 2023-05-27T12:15:26+08:00
+date: 2023-05-28T12:16:05+08:00
 draft: False
 featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
@@ -41,6 +41,7 @@ Also see [Cargo.toml](Cargo.toml)
 ```
 ~$ cargo install --path=. --force
 ```
+
 #### For single user with cargo
 
 ```
@@ -64,12 +65,14 @@ sudo dnf install joshuto
 
 ##### Arch ([AUR](https://aur.archlinux.org))
 
-* [release](https://aur.archlinux.org/packages/joshuto)
+- [release](https://aur.archlinux.org/packages/joshuto)
+
 ```
 [yay/paru] -S joshuto
 ```
 
-* [build from source](https://aur.archlinux.org/packages/joshuto-git)
+- [build from source](https://aur.archlinux.org/packages/joshuto-git)
+
 ```
 [yay/paru] -S joshuto-git
 ```
@@ -80,6 +83,38 @@ sudo dnf install joshuto
 sudo eselect repository enable gentoo-zh
 sudo emerge -av app-misc/joshuto
 ```
+##### NixOS
+
+Here's an example of using it in a nixos configuration
+
+```nix
+{
+  description = "My configuration";
+
+  inputs = {
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    joshuto.url = "github:kamiyaa/joshuto";
+  };
+
+  outputs = { nixpkgs, joshuto, ... }:
+    {
+      nixosConfigurations = {
+        hostname = nixpkgs.lib.nixosSystem
+          {
+            system = "x86_64-linux";
+            modules = [
+              {
+                nixpkgs.overlays = [ joshuto.overlays.default ];
+                environment.systemPackages = with pkgs;[
+                  joshuto
+                ];
+              }
+            ];
+          };
+      };
+    };
+}
+```
 
 ##### MacOS ([MacPorts](https://ports.macports.org/port/joshuto/details/))
 
@@ -88,9 +123,11 @@ sudo port install joshuto
 ```
 
 ## Usage
+
 ```
 ~ $ joshuto
 ```
+
 See [docs#quit](/docs/configuration/keymap.toml.md#quit-quit-joshuto) for exiting into current directory
 and other usages
 
@@ -99,21 +136,27 @@ and other usages
 Check out [docs](/docs) for details and [config](/config) for examples
 
 #### [joshuto.toml](/config/joshuto.toml)
+
 - general configurations
 
 #### [keymap.toml](/config/keymap.toml)
+
 - for keybindings
 
 #### [mimetype.toml](/config/mimetype.toml)
+
 - for opening files with applications
 
 #### [theme.toml](/config/theme.toml)
+
 - color customizations
 
 #### [bookmarks.toml](/config/bookmarks.toml)
+
 - bookmarks
 
 ## Contributing
+
 See [docs](/docs)
 
 ## Bugs/Feature Request
@@ -121,6 +164,7 @@ See [docs](/docs)
 Please create an issue :)
 
 ## Features
+
 - Tabs
 - Devicons
 - Fuzzy search via [fzf](https://github.com/junegunn/fzf)
