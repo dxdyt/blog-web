@@ -1,9 +1,9 @@
 ---
 title: tabby
-date: 2023-04-12T12:17:55+08:00
+date: 2023-06-11T02:30:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12023/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
+featuredImage: https://images.unsplash.com/photo-1684002295751-449da1d2fa0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684002295751-449da1d2fa0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
 ---
 
 # [TabbyML/tabby](https://github.com/TabbyML/tabby)
@@ -11,13 +11,10 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12023/0/1080p
 <div align="center">
 
 # 🐾 Tabby
-
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-![Docker build status](https://img.shields.io/github/actions/workflow/status/TabbyML/tabby/docker.yml?label=docker%20image%20build)
+  
+[![build status](https://img.shields.io/github/actions/workflow/status/TabbyML/tabby/ci.yml?label=build)](https://github.com/TabbyML/tabby/actions/workflows/ci.yml)
 [![Docker pulls](https://img.shields.io/docker/pulls/tabbyml/tabby)](https://hub.docker.com/r/tabbyml/tabby)
-
-![architecture](https://user-images.githubusercontent.com/388154/229353706-230d70e1-7d09-48e2-a884-4da768bccf6f.png)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 </div>
 
@@ -35,7 +32,7 @@ Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub C
 
 ## Demo
 <p align="center">
-  <a href="https://huggingface.co/spaces/TabbyML/tabby"><img alt="Open in Spaces" src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-md.svg"></a>
+  <a target="_blank" href="https://tabbyml.github.io/tabby/playground"><img alt="Open in Playground" src="https://img.shields.io/badge/OPEN%20IN%20PLAYGROUND-blue?logo=xcode&style=for-the-badge&logoColor=green"></a>
 </p>
 
 <p align="center">
@@ -44,60 +41,6 @@ Self-hosted AI coding assistant. An opensource / on-prem alternative to GitHub C
 
 
 
-## Get started: Server
+## Get Started
 
-### Docker
-
-**NOTE**: Tabby requires [Pascal or newer](https://arnon.dk/matching-sm-architectures-arch-and-gencode-for-various-nvidia-cards/) NVIDIA GPU.
-
-Before running Tabby, ensure the installation of the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
-We suggest using NVIDIA drivers that are compatible with CUDA version 11.8 or higher.
-```bash
-# Create data dir and grant owner to 1000 (Tabby run as uid 1000 in container)
-mkdir -p data/hf_cache && chown -R 1000 data
-
-docker run \
-  --gpus all \
-  -it --rm \
-  -v "/$(pwd)/data:/data" \
-  -v "/$(pwd)/data/hf_cache:/home/app/.cache/huggingface" \
-  -p 5000:5000 \
-  -e MODEL_NAME=TabbyML/J-350M \
-  -e MODEL_BACKEND=triton \
-  --name=tabby \
-  tabbyml/tabby
-```
-
-You can then query the server using `/v1/completions` endpoint:
-```bash
-curl -X POST http://localhost:5000/v1/completions -H 'Content-Type: application/json' --data '{
-    "prompt": "def binarySearch(arr, left, right, x):\n    mid = (left +"
-}'
-```
-
-We also provides an interactive playground in admin panel [localhost:5000/_admin](http://localhost:5000/_admin)
-
-### Skypilot
-See [deployment/skypilot/README.md](./deployment/skypilot/README.md)
-
-## Getting Started: Client
-We offer multiple methods to connect to Tabby Server, including using OpenAPI and editor extensions.
-
-### API
-Tabby has opened a FastAPI server at [localhost:5000](https://localhost:5000), which includes an OpenAPI documentation of the HTTP API. The same API documentation is also hosted at https://tabbyml.github.io/tabby
-
-### Editor Extensions
-
-* [VSCode Extension](./clients/vscode)
-* [VIM Extension](./clients/vim)
-
-## Development
-
-Go to `development` directory.
-```bash
-make dev
-```
-or
-```bash
-make dev-triton # Turn on triton backend (for cuda env developers)
-```
+See https://tabbyml.github.io/tabby
