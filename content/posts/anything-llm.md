@@ -1,9 +1,9 @@
 ---
 title: anything-llm
-date: 2023-06-11T02:30:00+08:00
+date: 2023-06-11T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684357280116-83e04413d737?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684357280116-83e04413d737?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685342412287-d820a26ec6ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685342412287-d820a26ec6ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)

@@ -1,9 +1,9 @@
 ---
 title: Video-LLaMA
-date: 2023-06-11T02:29:18+08:00
+date: 2023-06-11T12:15:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685472152410-f10cbf641b94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685472152410-f10cbf641b94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684524058868-cab94194f4b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684524058868-cab94194f4b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [DAMO-NLP-SG/Video-LLaMA](https://github.com/DAMO-NLP-SG/Video-LLaMA)

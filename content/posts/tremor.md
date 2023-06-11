@@ -1,9 +1,9 @@
 ---
 title: tremor
-date: 2023-06-11T02:30:59+08:00
+date: 2023-06-11T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685300488141-76bc6bbd17d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685300488141-76bc6bbd17d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684873207349-410dd1883a46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684873207349-410dd1883a46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [tremorlabs/tremor](https://github.com/tremorlabs/tremor)

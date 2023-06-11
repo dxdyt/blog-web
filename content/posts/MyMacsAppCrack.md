@@ -1,9 +1,9 @@
 ---
 title: MyMacsAppCrack
-date: 2023-06-11T02:30:08+08:00
+date: 2023-06-11T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681413025256-35ce3c7230ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681413025256-35ce3c7230ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684777621503-dac77147f93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684777621503-dac77147f93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [QiuChenlyOpenSource/MyMacsAppCrack](https://github.com/QiuChenlyOpenSource/MyMacsAppCrack)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1681413025256-35ce3c7230
 <p align="center">K'ed By QiuChenly(秋城落叶)</p>
 <p align="center">为我的Mac独奏MVP凯歌</p>
 <p align="center">Powered By 青海摇</p>
-<p align="center">更新日期 2023.05.30</p>
+<p align="center">更新日期 2023.06.11</p>
 <p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
 
 # <p align="center">版权申明/免责声明</p>
@@ -66,6 +66,10 @@ U R B B R,G R O U GAY!
 # 代码开源
 本项目所使用的注入Dylib文件源代码已经基于GPLV3协议开源，欢迎关注&提交Pull Requests。
 地址: https://github.com/QiuChenlyOpenSource/macOS-InjectPluginCode
+
+# 重构InjectLib版本已支持M系/Intel处理器
+新项目地址: https://github.com/QiuChenlyOpenSource/InjectLib
+本项目已经不再更新，请关注新项目。
 
 # <center>注入补丁支持的App列表一览 </center>
 

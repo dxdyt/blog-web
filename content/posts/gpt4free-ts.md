@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-06-11T02:28:41+08:00
+date: 2023-06-11T12:14:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685300488141-76bc6bbd17d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685300488141-76bc6bbd17d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684777621503-dac77147f93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684777621503-dac77147f93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1685300488141-76bc6bbd17
 
 # GPT4Free TypeScript Version 🆓
 ###### Providing a free OpenAI GPT-4 API!
-English | [中文](README_zh.md)
+English | [中文](README_zh.md) | [日本語](README_ja.md)
 
 [![Discord Server](https://discordapp.com/api/guilds/1115852499535020084/widget.png?style=banner2&count=true)](https://discord.gg/bbH68Kzm)
 <p>You can join our discord: <a href="https://discord.gg/bbH68Kzm">discord.gg/gptgod<a> for further updates. <a href="https://discord.gg/bbH68Kzm"><img align="center" alt="gpt4free Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" /></a></p>

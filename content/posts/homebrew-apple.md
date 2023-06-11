@@ -1,9 +1,9 @@
 ---
 title: homebrew-apple
-date: 2023-06-11T02:30:17+08:00
+date: 2023-06-11T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685472152410-f10cbf641b94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685472152410-f10cbf641b94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684873207349-410dd1883a46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684873207349-410dd1883a46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [apple/homebrew-apple](https://github.com/apple/homebrew-apple)

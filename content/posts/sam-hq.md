@@ -1,9 +1,9 @@
 ---
 title: sam-hq
-date: 2023-06-11T02:31:05+08:00
+date: 2023-06-11T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681413025256-35ce3c7230ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681413025256-35ce3c7230ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0MjE3MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685287210858-7f23c1da3375?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685287210858-7f23c1da3375?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
 ---
 
 # [SysCV/sam-hq](https://github.com/SysCV/sam-hq)
