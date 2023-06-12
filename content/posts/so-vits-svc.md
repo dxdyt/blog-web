@@ -1,9 +1,9 @@
 ---
 title: so-vits-svc
-date: 2023-05-14T12:15:14+08:00
+date: 2023-06-12T12:17:52+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12139/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12139/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685509169424-c3ec59122617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685509169424-c3ec59122617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [svc-develop-team/so-vits-svc](https://github.com/svc-develop-team/so-vits-svc)
@@ -18,6 +18,10 @@ However, there are still other enthusiasts who have created their own branches a
 #### ✨ A client supports real-time conversion: [w-okada/voice-changer](https://github.com/w-okada/voice-changer)
 
 #### This project is fundamentally different from Vits. Vits is TTS and this project is SVC. TTS cannot be carried out in this project, and Vits cannot carry out SVC, and the two project models are not universal
+
+## Announcement
+
+The project was developed to allow the developers' favorite anime characters to sing, Anything involving real people is a departure from the intent of the developer.
 
 ## Disclaimer
 
@@ -48,7 +52,7 @@ This project is only a framework project, which does not have the function of sp
 | :-------------: | :----------: | :------------:    |
 | 4.0              |   main branch   |        -     |
 | 4.0v2        |  The VISinger2 model is used  |        incompatibility     |
-| 4.0-Vec768-Layer12    |  The feature input is the Layer 12 Transformer output of the Content Vec  |       incompatibility     |
+| 4.0-Vec768-Layer12    |  The feature input is the Layer 12 Transformer output of the Content Vec  |      Compatible after the configuration file is modified     |
 
 ## 📝 Model Introduction
 

@@ -1,9 +1,9 @@
 ---
 title: intel-one-mono
-date: 2023-06-11T12:15:03+08:00
+date: 2023-06-12T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685287210858-7f23c1da3375?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685287210858-7f23c1da3375?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685776133440-437ffc5c4154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685776133440-437ffc5c4154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [intel/intel-one-mono](https://github.com/intel/intel-one-mono)

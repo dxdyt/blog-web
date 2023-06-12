@@ -1,9 +1,9 @@
 ---
 title: invidious
-date: 2023-06-11T12:15:31+08:00
+date: 2023-06-12T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685342412287-d820a26ec6ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685342412287-d820a26ec6ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [iv-org/invidious](https://github.com/iv-org/invidious)
@@ -163,9 +163,9 @@ Weblate also allows you to log-in with major SSO providers like Github, Gitlab, 
 - [WatchTube](https://github.com/WatchTubeTeam/WatchTube): Powerful YouTube client for Apple Watch.
 - [Yattee](https://github.com/yattee/yattee): Alternative YouTube frontend for iPhone, iPad, Mac and Apple TV.
 - [TubiTui](https://codeberg.org/777/TubiTui): A lightweight, libre, TUI-based YouTube client.
-- [Ytfzf](https://github.com/pystardust/ytfzf): A posix script to find and watch youtube videos from the terminal. (Without API)
-- [Playlet](https://github.com/iBicha/playlet): Unofficial Youtube client for Roku TV
-- [Clipious](https://github.com/lamarios/clipious): Unofficial Invidious client for Android
+- [Ytfzf](https://github.com/pystardust/ytfzf): A posix script to find and watch youtube videos from the terminal. (Without API).
+- [Playlet](https://github.com/iBicha/playlet): Unofficial Youtube client for Roku TV.
+- [Clipious](https://github.com/lamarios/clipious): Unofficial Invidious client for Android.
 
 
 ## Liability

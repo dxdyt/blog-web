@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-06-11T12:14:31+08:00
+date: 2023-06-12T12:15:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684777621503-dac77147f93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684777621503-dac77147f93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685776133440-437ffc5c4154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685776133440-437ffc5c4154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
@@ -21,11 +21,11 @@ English | [中文](README_zh.md) | [日本語](README_ja.md)
 
 ## 👍 GPT4 Website Base on this project [GPTGOD](http://gptgod.site)
 <details>
-<summary><strong>Website Feature(Click to expand)</strong></summary>
+<summary><strong>Website Feature (Click to expand)</strong></summary>
 
 ### GPTGOD Support
 
-- [x] Midjourney The Most Powerful AI Drawing System in History.
+- [x] Midjourney The Most Powerful AI Drawing System in History
 - [x] Stable Diffusion
 - [x] Claude
 - [x] Chatgpt
@@ -66,7 +66,7 @@ http_proxy=http://host:port
 rapid_api_key=xxxxxxxxxx
 EMAIL_TYPE=temp-email44
 DEBUG=0
-POOL_SIZE=3
+POOL_SIZE=1
 ```
 
 - `http_proxy`: config your proxy if you can not access target website directly
@@ -76,7 +76,7 @@ POOL_SIZE=3
     - [temp-email44](https://rapidapi.com/calvinloveland335703-0p6BxLYIH8f/api/temp-mail44): hard limit 100req/days! Stable!
     - [tempmail-lol](): nothing need, limit 25request/5min. Not Stable.
 - `DEBUG`: Valid when use `forefront` You can set =1 when you run local. show reverse process
-- `POOL_SIZE`: `forefront` concurrency size. You can engage in {POOL_SIZE} conversations concurrently. More pool size, More conversation can be done simultaneously, But use more RAM
+- `POOL_SIZE`: `forefront` concurrency size. Keep set=1 until you run it successfully!!! You can engage in {POOL_SIZE} conversations concurrently. More pool size, More conversation can be done simultaneously, But use more RAM
 
 ### Run local 🖥️ 
 
@@ -128,8 +128,8 @@ docker-compose up --build -d
     - http://127.0.0.1:3000/ask?prompt=whoareyou&model=you
     - http://127.0.0.1:3000/ask/stream?prompt=whoareyou&model=you
 
-
-
+## 👥 Wechat Group
+<image src="https://github.com/xiangsx/gpt4free-ts/assets/29322721/0a788688-ab0b-4e95-8438-20af4e7a5362" width=240 />
 
 ## 🌟 Star History
 

@@ -1,9 +1,9 @@
 ---
 title: nekodetector
-date: 2023-06-11T12:17:19+08:00
+date: 2023-06-12T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684424567143-ca33a3599108?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684424567143-ca33a3599108?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [MCRcortex/nekodetector](https://github.com/MCRcortex/nekodetector)

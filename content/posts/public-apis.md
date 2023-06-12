@@ -1,9 +1,9 @@
 ---
 title: public-apis
-date: 2023-05-20T12:15:54+08:00
+date: 2023-06-12T12:15:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12137/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12137/0/1080p
+featuredImage: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [public-apis/public-apis](https://github.com/public-apis/public-apis)

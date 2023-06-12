@@ -1,9 +1,9 @@
 ---
 title: You-Dont-Know-JS
-date: 2023-05-14T12:17:37+08:00
+date: 2023-06-12T12:16:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12123/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12123/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685776133440-437ffc5c4154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685776133440-437ffc5c4154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
 ---
 
 # [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
