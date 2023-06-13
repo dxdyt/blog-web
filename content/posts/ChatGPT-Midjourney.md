@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Midjourney
-date: 2023-06-12T12:15:53+08:00
+date: 2023-06-13T12:15:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683735825231-d1c3d47f4a10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683735825231-d1c3d47f4a10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [Licoy/ChatGPT-Midjourney](https://github.com/Licoy/ChatGPT-Midjourney)
@@ -16,19 +16,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1683735825231-d1c3d47f4a
 
 一键免费部署你的私人 ChatGPT+Midjourney 网页应用（基于[ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)开发）
 
-<a target="_blank" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLicoy%2FChatGPT-Midjourney&env=OPENAI_API_KEY&env=MIDJOURNEY_PROXY_URL&env=CODE&project-name=chatgpt-midjourney&repository-name=ChatGPT-Midjourney">
-  <img src="https://img.shields.io/badge/Vercel-部署-00CCCC.svg?logo=vercel" alt="Deploy with Vercel">
-</a>
-<a target="_blank" href="https://github.com/novicezk/midjourney-proxy/blob/main/docs/railway-start.md">
-  <img src="https://img.shields.io/badge/MidjourneyProxy-Railway部署-009900.svg?logo=railway" alt="Deploy with Vercel">
-</a>
-<br>
-<a target="_blank" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=gAGpNxOKdRB3L_IiHWAfT4MUQzgBOor-&authKey=Ty8WQgZFub8W1EsG3LQE2B3xxRRBzD0Rj1rPyRVFdT6IqnJgGcpPZB5l8ZVJTB1n&noverify=0&group_code=849273126">
-  <img src="https://img.shields.io/badge/QQ-交流群-FF3333.svg?logo=tencentqq" alt="QQ Group">
-</a>
-<a target="_blank" href="https://t.me/gptmj">
-  <img src="https://img.shields.io/badge/TG-@GPTMJ-29a9ec.svg?logo=Telegram" alt="Telegram Group">
-</a><br>
+[QQ交流群](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=gAGpNxOKdRB3L_IiHWAfT4MUQzgBOor-&authKey=Ty8WQgZFub8W1EsG3LQE2B3xxRRBzD0Rj1rPyRVFdT6IqnJgGcpPZB5l8ZVJTB1n&noverify=0&group_code=849273126) | [Telegram群组](https://t.me/gptmj)
+
+[![Deploy with Vercel](https://img.shields.io/badge/Vercel-部署-00CCCC.svg?logo=vercel)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLicoy%2FChatGPT-Midjourney&env=OPENAI_API_KEY&env=MIDJOURNEY_PROXY_URL&env=CODE&project-name=chatgpt-midjourney&repository-name=ChatGPT-Midjourney)
+[![Deploy with Railway](https://img.shields.io/badge/MidjourneyProxy-Railway部署-009900.svg?logo=railway)](https://github.com/novicezk/midjourney-proxy/blob/main/docs/railway-start.md)
 
 ![主界面](./docs/images/cover.png)
 
@@ -54,20 +45,23 @@ MIDJOURNEY_PROXY_URL=http://yourip:port
 
 ![mj-6](./docs/images/mj-6.png)
 
+### MIDJOURNEY_PROXY_API_SECRET
+（可选）`midjourney-proxy`的API请求密钥，防止他人恶意调用，可在环境变量中配置。
+
 ### CODE
-设置页面中的访问密码，防止被其他人轻易使用消耗余额
+（可选）设置页面中的访问密码，防止被其他人轻易使用消耗余额
 
 ## 部署
 ### ChatGPT-Midjourney 前端部署
 #### Docker
 ```shell
-docker pull licoy/chatgpt-midjourney:v1.3.0
+docker pull licoy/chatgpt-midjourney:v1.3.1
 docker run -d -p 3000:3000 \
    -e OPENAI_API_KEY="sk-xxx" \
    -e CODE="123456" \
    -e BASE_URL="https://api.openai.com" \
    -e MIDJOURNEY_PROXY_URL="http://ip:port" \
-   licoy/chatgpt-midjourney:v1.3.0
+   licoy/chatgpt-midjourney:v1.3.1
 ```
 #### Vercel
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FLicoy%2FChatGPT-Midjourney&env=OPENAI_API_KEY&env=MIDJOURNEY_PROXY_URL&env=CODE&project-name=chatgpt-midjourney&repository-name=ChatGPT-Midjourney)

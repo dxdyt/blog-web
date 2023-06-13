@@ -1,0 +1,39 @@
+---
+title: termux-packages
+date: 2023-06-13T12:17:22+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1684873206868-b75b5e2d07a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684873206868-b75b5e2d07a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+---
+
+# [termux/termux-packages](https://github.com/termux/termux-packages)
+
+# Termux packages
+
+![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)
+[![Packages last build status](https://github.com/termux/termux-packages/workflows/Packages/badge.svg)](https://github.com/termux/termux-packages/actions)
+[![Docker image status](https://github.com/termux/termux-packages/workflows/Docker%20image/badge.svg)](https://hub.docker.com/r/termux/package-builder)
+[![Repology metadata](https://github.com/termux/repology-metadata/workflows/Repology%20metadata/badge.svg)](https://repology.org/repository/termux)
+[![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
+[![Join the Termux discord server](https://img.shields.io/discord/641256914684084234.svg?label=&logo=discord&logoColor=ffffff&color=5865F2)](https://discord.gg/HXpF69X)
+
+<img src=".github/static/hosted-by-hetzner.png" alt="Hosted by Hetzner" width="128px"></img>
+
+This project contains scripts and patches to build packages for the [Termux](https://github.com/termux/termux-app)
+Android application.
+
+Quick how-to about Termux package management is available at [Package Management](https://github.com/termux/termux-packages/wiki/Package-Management). It also has info on how to fix **`repository is under maintenance or down`** errors when running `apt` or `pkg` commands.
+
+## Contributing
+
+Read [CONTRIBUTING.md](/CONTRIBUTING.md) and [Developer's Wiki](https://github.com/termux/termux-packages/wiki) for more details.
+
+## Contacts
+
+General mailing list: https://groups.io/g/termux
+
+Developer mailing list: https://groups.io/g/termux-dev
+
+General chat: https://gitter.im/termux/termux or #termux on IRC/libera.chat.
+
+Developer chat: https://gitter.im/termux/dev.

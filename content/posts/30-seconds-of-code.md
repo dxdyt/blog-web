@@ -1,9 +1,9 @@
 ---
 title: 30-seconds-of-code
-date: 2023-06-12T12:15:38+08:00
+date: 2023-06-13T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1659259540528-0240ad70e92a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1659259540528-0240ad70e92a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)

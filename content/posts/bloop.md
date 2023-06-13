@@ -1,9 +1,9 @@
 ---
 title: bloop
-date: 2023-03-25T12:18:11+08:00
+date: 2023-06-13T12:18:20+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11929/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
+featuredImage: https://images.unsplash.com/photo-1684864115275-bb3c2f5928fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684864115275-bb3c2f5928fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [BloopAI/bloop](https://github.com/BloopAI/bloop)
@@ -13,7 +13,16 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11929/0/1080p
   <img alt="bloop logo" src="https://assets.bloop.ai/bloop_github_logo_light.png">
 </picture>
 
-bloop is a code-search engine that uses GPT-4 to answer questions about your code. Search both your local and remote repositories with natural language, regex and filtered queries.
+bloop is a developer assistant that uses GPT-4 to answer questions about your codebase. The agent searches both your local and remote repositories with natural language, regex and filtered queries.
+
+Some of the ways engineers use bloop to improve their efficiency when working on large codebases:
+- Summarising how large files work and how multiple files work together
+- Understand how to use open source libraries when documentation is lacking
+- Identify the origin of errors
+- Ask questions about English language codebases in other languages
+- Reduce code duplication by checking for existing functionality
+- Write new code, taking into account existing codebase context (eg: "write a dockerfile for this project")
+
 
 ## Features
 
@@ -26,7 +35,7 @@ bloop is a code-search engine that uses GPT-4 to answer questions about your cod
 
 bloop stands on the shoulders of the Rust ecosystem. Our search indexes are powered by [Tantivy](https://github.com/quickwit-oss/tantivy) and [Qdrant](https://github.com/qdrant/qdrant), and our multi-platform app is built with [Tauri](https://github.com/tauri-apps/tauri).
 
-![code search demo](https://assets.bloop.ai/bloop_gpt4_short.gif)
+![code search demo](https://assets.bloop.ai/github_auth_4k.gif)
 
 ## Get Started
 
@@ -42,6 +51,8 @@ Note that it is currently _not_ possible to run conversational GPT-4 search wher
 If you encounter any index issues you can wipe the bloop cache and reindex. Instructions on how to do this on different platforms [are here](./apps/desktop/README.md).
 
 ## Contributing
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/BloopAI/bloop)
 
 We welcome contributions big and small! Before jumping in please read [our contributors guide](./CONTRIBUTING.md) and [our code of conduct](./CODE_OF_CONDUCT.md).
 
