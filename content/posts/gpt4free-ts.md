@@ -1,9 +1,9 @@
 ---
 title: gpt4free-ts
-date: 2023-06-13T12:15:35+08:00
+date: 2023-06-14T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684611235343-dd6c5fa8f49f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684611235343-dd6c5fa8f49f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686240202917-58cc39ba70ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686240202917-58cc39ba70ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
 ---
 
 # [xiangsx/gpt4free-ts](https://github.com/xiangsx/gpt4free-ts)
@@ -46,10 +46,9 @@ Have implemented models here:
 If you do not want your website to appear here, please raise an issue and I will remove it immediately.
 |model|support|status|active time|
 |--|--|--|--|
-|[ai.mcbbs.gq](https://ai.mcbbs.gq)|gpt3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-06-03|
-|[forefront.ai](https://chat.forefront.ai)|👍GPT-4/gpt3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-06-03|
-|[aidream](https://aidream.cloud)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-05-12|
-|[you.com](https://you.com)|GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-05-12
+|[chatdemo]()|👍gpt3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-06-13|
+|[forefront.ai](https://chat.forefront.ai)|GPT-4/gpt3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-06-13|
+|[you.com](https://you.com)|👍GPT-3.5|![Active](https://img.shields.io/badge/Active-brightgreen)|after 2023-06-13
 |[phind.com](https://www.phind.com/)|GPT-4 / Internet / good search|![Active](https://img.shields.io/badge/Active-grey)|
 |[bing.com/chat](https://bing.com/chat)|GPT-4/3.5||
 |[poe.com](https://poe.com)| GPT-4/3.5||
@@ -112,10 +111,10 @@ docker-compose up --build -d
 ### Request Params 📝
 
 - `prompt`: your question. It can be a `string` or `jsonstr`.
-  - example `jsonstr`:`[{"role":"user","content":"你好\n"},{"role":"assistant","content":"你好！有什么我可以帮助你的吗？"},{"role":"user","content":"你是谁"}]`
-  - example `string`: `你是谁`
+  - example `jsonstr`:`[{"role":"user","content":"hello\n"},{"role":"assistant","content":"Hi there! How can I assist you today?"},{"role":"user","content":"who are you"}]`
+  - example `string`: `who are you`
 - `model`: default `gpt3.5-turbo`. model include:`gpt4` `gpt3.5-turbo`
-- `site`: default `you`. target site, include `forefront` `you` `mcbbs`
+- `site`: default `you`. target site, include `forefront` `you` `chatdemo`
 
 ### Response Params 🔙
 
@@ -128,7 +127,7 @@ interface ChatResponse {
 }
 ```
 
-Response with stream like(/ask/stream):
+Response with stream like, Suggest!!(/ask/stream):
 
 ```
 event: message
@@ -187,9 +186,8 @@ data: {"content":"done"}
 ```
 
 ## 👥 Wechat Group
-<image src="https://github.com/xiangsx/gpt4free-ts/assets/29322721/0a788688-ab0b-4e95-8438-20af4e7a5362" width=240 />
-<image src="https://github.com/xiangsx/gpt4free-ts/assets/29322721/399549fa-34b9-4611-873f-f539d2dca04a" width=240 />
 
+<image src="https://github.com/xiangsx/gpt4free-ts/assets/29322721/0b605d4d-f189-457c-b2eb-94a12ad69fd8" width=240 />
 
 ## 🌟 Star History
 

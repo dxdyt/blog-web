@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Midjourney
-date: 2023-06-13T12:15:57+08:00
+date: 2023-06-14T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683541629272-64013170c4ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683541629272-64013170c4ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
 ---
 
 # [Licoy/ChatGPT-Midjourney](https://github.com/Licoy/ChatGPT-Midjourney)
@@ -27,7 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1683969076131-bdefe093e9
 
 ## 功能支持
 - [x] 原`ChatGPT-Next-Web`所有功能
-- [x] midjourney `imagin` 想象
+- [x] midjourney `imgine` 想象
 - [x] midjourney `upscale` 放大
 - [x] midjourney `variation` 变幻
 - [x] midjourney `describe` 识图

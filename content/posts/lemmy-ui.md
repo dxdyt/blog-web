@@ -1,9 +1,9 @@
 ---
 title: lemmy-ui
-date: 2023-06-12T12:17:17+08:00
+date: 2023-06-14T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683797468352-5d9ff29954be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683797468352-5d9ff29954be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683541629272-64013170c4ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683541629272-64013170c4ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
 ---
 
 # [LemmyNet/lemmy-ui](https://github.com/LemmyNet/lemmy-ui)

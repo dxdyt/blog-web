@@ -1,9 +1,9 @@
 ---
 title: FlagAI
-date: 2023-06-13T12:17:00+08:00
+date: 2023-06-14T12:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683914791767-764d03299719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683914791767-764d03299719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684123079602-5ca2d8572cac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684123079602-5ca2d8572cac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
 ---
 
 # [FlagAI-Open/FlagAI](https://github.com/FlagAI-Open/FlagAI)

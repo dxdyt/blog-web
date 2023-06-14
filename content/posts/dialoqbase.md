@@ -1,20 +1,28 @@
 ---
 title: dialoqbase
-date: 2023-06-12T12:16:32+08:00
+date: 2023-06-14T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683143726433-09aebe1a7871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683143726433-09aebe1a7871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684123079602-5ca2d8572cac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684123079602-5ca2d8572cac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
 ---
 
 # [n4ze3m/dialoqbase](https://github.com/n4ze3m/dialoqbase)
 
 # Dialoqbase ⚡
 
-Dialoqbase is a web application that allows you to create custom chatbots with your own knowledge base.  It uses powerful language models to generate responses and PostgreSQL for vector search and storing the knowledge base
+Dialoqbase is an open-source application designed to facilitate the creation of custom chatbots using a personalized knowledge base. The application leverages advanced language models to generate accurate and context-aware responses. Additionally, it utilizes PostgreSQL, a robust relational database management system, for efficient vector search operations and for storing the knowledge base.
 
 Here's a demo of how it works (v0.0.1):
 
 [![DialoqBase Demo](https://img.youtube.com/vi/Kktfs8JI4yI/0.jpg)](https://www.youtube.com/watch?v=Kktfs8JI4yI)
+
+## Quick Deployments
+
+### Railway with Supabase
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/TXdjD7?referralCode=olbszX)
+
+for more details - [watch demo](https://twitter.com/n4ze3m/status/1668208861663354882)
 
 ## Installation
 
@@ -25,28 +33,28 @@ git clone https://github.com/n4ze3m/dialoqbase.git
 cd dialoqbase/docker
 ```
 
-2. Edit the `imp.env` file and set the following environment variables:
+2. Edit the `.env` file and set the following environment variables:
 
 - On Linux:
 
 ```bash
-nano imp.env
+nano .env
 ```
-or 
+or
 
 ```bash
-vim imp.env
+vim .env
 ```
 
 - On Windows:
 
 ```bash
-notepad imp.env
+notepad .env
 ```
 
 
-Set the `OPENAI_API_KEY` variable to your OpenAI API key. You can obtain an API key [here](https://platform.openai.com/account/api-keys)
-
+Set the `OPENAI_API_KEY` variable to your OpenAI API key. You can obtain an API key [here](https://platform.openai.com/account/api-keys). 
+Set the `DB_SECRET_KEY` varible.
 
 3. Run the docker-compose file:
 
@@ -73,9 +81,9 @@ _Important: After the first login, remember to change the default credentials._
 
 ## Features
 
-- Create custom chatbots with your own knowledge base 
+- Create custom chatbots with your own knowledge base
 
-- Utilize powerful language models to generate responses 
+- Utilize powerful language models to generate responses
 
 - Utilize PostgreSQL for vector search and storing the knowledge base.
 
@@ -91,16 +99,18 @@ _Important: After the first login, remember to change the default credentials._
 
 ## Disclaimer
 
-Dialoqbase is a side project and is not ready for production. It is still in the early stages of development and may contain bugs and security issues. Use it at your own risk. *Breaking changes may occur at any time without prior notice.*
+Dialoqbase is a side project and is not ready for production. It is still in the early stages of development and may contain bugs and security issues. Use it at your own risk. _Breaking changes may occur at any time without prior notice._
 
 ## Roadmap
 
-### Data loaders 
+### Data loaders
 
-- [x] Website (*one page only*)
-- [x] Plane text 
-- [X] PDF
-- [ ] Web crawler and site map
+- [x] Website (_one page only_)
+- [x] Plane text
+- [x] PDF (beta)
+- [x] Web crawler (beta)
+- [x] Microsoft Word documents
+- [ ] Sitemap
 - [ ] Github repository
 - [ ] mp3
 - [ ] Notion
@@ -109,18 +119,17 @@ and more...
 
 ### Language models
 
-- [x] OpenAI 
-- [X] Anthropic
+- [x] OpenAI
+- [x] Anthropic
 
 open source chatmodels soon...
 
 ### Embedding models
 
-- [X] OpenAI 
-- [X] TensorFlow
-- [X] Hugging Face 
-- [X] Cohere
-
+- [x] OpenAI
+- [x] TensorFlow
+- [x] Hugging Face
+- [x] Cohere
 
 need more ? create an issue...
 
@@ -131,12 +140,18 @@ need more ? create an issue...
 - [x] Generate responses
 - [x] Vector search
 - [x] Bot embed script for websites
-- [ ] Supabase Integration 
+- [ ] Supabase Integration
 - [ ] Bot style editor
 - [ ] Chatbot API
 - [ ] Chatbot theme editor
 - [ ] Chatbot analytics
 - [ ] UI/UX improvements
+
+## Contributors ✨
+
+<a href="https://github.com/n4ze3m/dialoqbase/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=n4ze3m/dialoqbase" />
+</a>
 
 ## License
 
