@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-06-14T12:15:18+08:00
+date: 2023-06-15T12:15:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684489453381-0547f9137387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684489453381-0547f9137387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -26,10 +26,10 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 
 ## Usage
 
-**Install**:
+**Setup**:
 
 - `pip install -r requirements.txt`
-- `export OPENAI_API_KEY=[your api key]`
+- `export OPENAI_API_KEY=[your api key]` with a key that has GPT4 access
 
 **Run**:
 - Create a new empty folder with a `main_prompt` file (or copy the example folder `cp example -r my-new-project`)
@@ -37,12 +37,12 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 - run `python main.py my-new-project`
 
 **Results**:
-- Check the generated files in my-new-project/workspace_clarified
+- Check the generated files in my-new-project/workspace
 
 ### Limitations
 Implementing additional chain of thought prompting, e.g. [Reflexion](https://github.com/noahshinn024/reflexion), should be able to make it more reliable and not miss requested functionality in the main prompt.
 
-Contributors welcome! If you are unsure what to add, check out the ideas listed in the Projects part of the github repo.
+Contributors welcome! If you are unsure what to add, check out the ideas listed in the Projects tab in the GitHub repo.
 
 
 ## Features

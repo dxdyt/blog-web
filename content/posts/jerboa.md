@@ -1,9 +1,9 @@
 ---
 title: jerboa
-date: 2023-06-13T12:16:31+08:00
+date: 2023-06-15T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683914791767-764d03299719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683914791767-764d03299719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685052392951-4eb54985d3ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685052392951-4eb54985d3ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
 ---
 
 # [dessalines/jerboa](https://github.com/dessalines/jerboa)
@@ -45,9 +45,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1683914791767-764d032997
 
 ## About Jerboa
 
-| \_                                        | \_                                        |
-| ----------------------------------------- | ----------------------------------------- |
-| ![img_1](https://i.imgur.com/W3lT4nO.jpg) | ![img_2](https://i.imgur.com/MrAkd4d.jpg) |
+| Homepage                                                                   | Post & Comments                                                          |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| ![img_1](./fastlane/metadata/android/en-US/images/phoneScreenshots/01.png) | ![img_2](fastlane/metadata/android/en-US/images/phoneScreenshots/02.png) |
 
 Jerboa is a native-android client for Lemmy, built using the native Android Toolkit, Jetpack Compose.
 

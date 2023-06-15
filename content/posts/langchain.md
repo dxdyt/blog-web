@@ -1,9 +1,9 @@
 ---
 title: langchain
-date: 2023-05-28T12:17:06+08:00
+date: 2023-06-15T12:17:44+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12205/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12205/0/1080p
+featuredImage: https://images.unsplash.com/photo-1684093025838-b6f9ec4fb570?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684093025838-b6f9ec4fb570?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
 ---
 
 # [hwchase17/langchain](https://github.com/hwchase17/langchain)
@@ -12,6 +12,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12205/0/1080p
 
 ⚡ Building applications with LLMs through composability ⚡
 
+[![Release Notes](https://img.shields.io/github/release/hwchase17/langchain)](https://github.com/hwchase17/langchain/releases)
 [![lint](https://github.com/hwchase17/langchain/actions/workflows/lint.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/lint.yml)
 [![test](https://github.com/hwchase17/langchain/actions/workflows/test.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/test.yml)
 [![linkcheck](https://github.com/hwchase17/langchain/actions/workflows/linkcheck.yml/badge.svg)](https://github.com/hwchase17/langchain/actions/workflows/linkcheck.yml)
@@ -22,6 +23,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12205/0/1080p
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/hwchase17/langchain)
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hwchase17/langchain)
 [![GitHub star chart](https://img.shields.io/github/stars/hwchase17/langchain?style=social)](https://star-history.com/#hwchase17/langchain)
+[![Dependency Status](https://img.shields.io/librariesio/github/hwchase17/langchain)](https://libraries.io/github/hwchase17/langchain)
+[![Open Issues](https://img.shields.io/github/issues-raw/hwchase17/langchain)](https://github.com/hwchase17/langchain/issues)
 
 
 Looking for the JS/TS version? Check out [LangChain.js](https://github.com/hwchase17/langchainjs).

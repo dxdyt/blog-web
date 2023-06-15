@@ -1,9 +1,9 @@
 ---
 title: ChatGPT.nvim
-date: 2023-06-14T12:17:52+08:00
+date: 2023-06-15T12:16:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684180114254-73c0215cd8b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684180114254-73c0215cd8b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1508107222753-0c236c337911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1508107222753-0c236c337911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
 ---
 
 # [jackMort/ChatGPT.nvim](https://github.com/jackMort/ChatGPT.nvim)
@@ -354,7 +354,7 @@ keybindings are available:
 - `<C-d>` [Edit Window] view the diff between left and right panes and use diff-mode
   commands
 
-When the setting window is opened (with `<C-o>`), settigs can be modified by
+When the setting window is opened (with `<C-o>`), settings can be modified by
 pressing `Enter` on the related config. Settings are saved across sections
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/jackMort)
