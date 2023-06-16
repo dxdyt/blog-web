@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-06-15T12:15:03+08:00
+date: 2023-06-16T12:15:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685111152808-62c012ff4e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685111152808-62c012ff4e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -32,7 +32,7 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 - `export OPENAI_API_KEY=[your api key]` with a key that has GPT4 access
 
 **Run**:
-- Create a new empty folder with a `main_prompt` file (or copy the example folder `cp example -r my-new-project`)
+- Create a new empty folder with a `main_prompt` file (or copy the example folder `cp -r example/ my-new-project`)
 - Fill in the `main_prompt` in your new folder
 - run `python main.py my-new-project`
 

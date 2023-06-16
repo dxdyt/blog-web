@@ -1,19 +1,19 @@
 ---
 title: FastChat
-date: 2023-05-09T12:17:29+08:00
+date: 2023-06-16T12:17:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12139/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12139/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
 
 # FastChat
-| [**Demo**](https://chat.lmsys.org/) | [**Arena**](https://arena.lmsys.org) | [**Discord**](https://discord.gg/h6kCZb72G7) | [**Twitter**](https://twitter.com/lmsysorg) |
+| [**Demo**](https://chat.lmsys.org/) | [**Arena**](https://arena.lmsys.org) | [**Discord**](https://discord.gg/HSWAKCrnFx) | [**Twitter**](https://twitter.com/lmsysorg) |
 
 FastChat is an open platform for training, serving, and evaluating large language model based chatbots. The core features include:
 - The weights, training code, and evaluation code for state-of-the-art models (e.g., Vicuna, FastChat-T5).
-- A distributed multi-model serving system with Web UI and OpenAI-Compatible RESTful APIs.
+- A distributed multi-model serving system with Web UI and OpenAI-compatible RESTful APIs.
 
 ## News
 - [2023/05] 🔥 We introduced **Chatbot Arena** for battles among LLMs. Check out the blog [post](https://lmsys.org/blog/2023-05-03-arena) and [demo](https://arena.lmsys.org).
@@ -117,14 +117,25 @@ python3 -m fastchat.serve.cli --model-path lmsys/fastchat-t5-3b-v1.0
 #### Supported Models
 The following models are tested:
 - Vicuna, Alpaca, LLaMA, Koala
-- [lmsys/fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5)
+- [camel-ai/CAMEL-13B-Combined-Data](https://huggingface.co/camel-ai/CAMEL-13B-Combined-Data)
 - [BlinkDL/RWKV-4-Raven](https://huggingface.co/BlinkDL/rwkv-4-raven)
 - [databricks/dolly-v2-12b](https://huggingface.co/databricks/dolly-v2-12b)
+- [FreedomIntelligence/phoenix-inst-chat-7b](https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b)
+- [h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-7b-preview-300bt-v2](https://huggingface.co/h2oai/h2ogpt-gm-oasst1-en-2048-open-llama-7b-preview-300bt-v2)
+- [lmsys/fastchat-t5-3b-v1.0](https://huggingface.co/lmsys/fastchat-t5)
+- [mosaicml/mpt-7b-chat](https://huggingface.co/mosaicml/mpt-7b-chat)
+- [Neutralzz/BiLLa-7B-SFT](https://huggingface.co/Neutralzz/BiLLa-7B-SFT)
+- [nomic-ai/gpt4all-13b-snoozy](https://huggingface.co/nomic-ai/gpt4all-13b-snoozy)
+- [openaccess-ai-collective/manticore-13b-chat-pyg](https://huggingface.co/openaccess-ai-collective/manticore-13b-chat-pyg)
 - [OpenAssistant/oasst-sft-1-pythia-12b](https://huggingface.co/OpenAssistant/oasst-sft-1-pythia-12b)
 - [project-baize/baize-lora-7B](https://huggingface.co/project-baize/baize-lora-7B)
 - [StabilityAI/stablelm-tuned-alpha-7b](https://huggingface.co/stabilityai/stablelm-tuned-alpha-7b)
 - [THUDM/chatglm-6b](https://huggingface.co/THUDM/chatglm-6b)
-- [FreedomIntelligence/phoenix-inst-chat-7b](https://huggingface.co/FreedomIntelligence/phoenix-inst-chat-7b)
+- [timdettmers/guanaco-33b-merged](https://huggingface.co/timdettmers/guanaco-33b-merged)
+- [togethercomputer/RedPajama-INCITE-7B-Chat](https://huggingface.co/togethercomputer/RedPajama-INCITE-7B-Chat)
+- [WizardLM/WizardLM-13B-V1.0](https://huggingface.co/WizardLM/WizardLM-13B-V1.0)
+
+Help us [add more](https://github.com/lm-sys/FastChat/blob/main/docs/arena.md#how-to-add-a-new-model).
 
 #### Single GPU
 The command below requires around 28GB of GPU memory for Vicuna-13B and 14GB of GPU memory for Vicuna-7B.
@@ -154,6 +165,19 @@ python3 -m fastchat.serve.cli --model-path /path/to/model/weights --device mps -
 ```
 Vicuna-7B can run on a 32GB M1 Macbook with 1 - 2 words / second.
 
+#### Intel XPU (Intel Data Center and Arc A-Series GPUs)
+Install the [Intel Extension for PyTorch](https://intel.github.io/intel-extension-for-pytorch/xpu/latest/tutorials/installation.html).
+
+Set the OneAPI environment variables:
+```
+source /opt/intel/oneapi/setvars.sh
+```
+
+Use `--device xpu` to enable XPU/GPU acceleration.
+```
+python3 -m fastchat.serve.cli --model-path /path/to/model/weights --device xpu
+```
+Vicuna-7B can run on an Intel Arc A770 16GB.
 
 #### No Enough Memory
 If you do not have enough memory, you can enable 8-bit compression by adding `--load-8bit` to commands above.
@@ -169,6 +193,9 @@ In addition to that, you can add `--cpu-offloading` to commands above to offload
 #### More Platforms
 
 - [MLC LLM](https://mlc.ai/mlc-llm/), backed by [TVM Unity](https://github.com/apache/tvm/tree/unity) compiler, deploys Vicuna natively on phones, consumer-class GPUs and web browsers via Vulkan, Metal, CUDA and WebGPU.
+
+#### GPTQ 4bit Support
+FastChat provides fastest GPTQ 4bit inference with [GPTQ-for-LLaMa](https://github.com/qwopqwop200/GPTQ-for-LLaMa). See [docs/gptq.md](/docs/gptq.md).
 
 ## Serving with Web GUI
 
@@ -219,14 +246,22 @@ CUDA_VISIBLE_DEVICES=1 python3 -m fastchat.serve.model_worker --model-path ~/mod
 ```bash
 python3 -m fastchat.serve.gradio_web_server_multi
 ```
+- You can protect your webserver with Gradio's Authentication with a password file. The password file should contain one or more "user:password" pairs in this format: `u1:p1,u2:p2,u3:p3`
+```bash
+python3 -m fastchat.serve.gradio_web_server --gradio-auth-path login.txt
+```
 
 ## API
 ### OpenAI-Compatible RESTful APIs & SDK
-FastChat provides OpenAI-Compatible APIs for its supported models, so you can use FastChat as a local drop-in replacement for OpenAI APIs.
+FastChat provides OpenAI-compatible APIs for its supported models, so you can use FastChat as a local drop-in replacement for OpenAI APIs.
+The FastChat server is compatible with both [openai-python](https://github.com/openai/openai-python) library and cURL commands.
 See [docs/openai_api.md](docs/openai_api.md).
 
 ### Hugging Face Generation APIs
 See [fastchat/serve/huggingface_api.py](fastchat/serve/huggingface_api.py).
+
+### LangChain Integration
+See [docs/langchain_integration](docs/langchain_integration.md).
 
 ## Evaluation
 
@@ -255,10 +290,10 @@ For detailed instructions, please refer to the [evaluation](fastchat/eval) docum
 
 Vicuna is created by fine-tuning a LLaMA base model using approximately 70K user-shared conversations gathered from ShareGPT.com with public APIs. To ensure data quality, we convert the HTML back to markdown and filter out some inappropriate or low-quality samples. Additionally, we divide lengthy conversations into smaller segments that fit the model's maximum context length. For detailed instructions to clean the ShareGPT data, check out [here](docs/commands/data_cleaning.md).
 
-Due to some concerns, we may not release the ShareGPT dataset at the moment. If you would like to try the fine-tuning code, you can run it with some dummy questions in [dummy.json](playground/data/dummy.json). You can follow the same format and plug in your own data.
+Due to some concerns, we may not release the ShareGPT dataset at the moment. If you would like to try the fine-tuning code, you can run it with some dummy conversations in [dummy_conversation.json](data/dummy_conversation.json). You can follow the same format and plug in your own data.
 
 ### Code and Hyperparameters
-Our code is based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) with additional support for multi-round conversations.
+Our code is based on [Stanford Alpaca](https://github.com/tatsu-lab/stanford_alpaca) with additional support for multi-turn conversations.
 We use similar hyperparameters as the Stanford Alpaca.
 
 | Hyperparameter | Global Batch Size | Learning rate | Epochs | Max length | Weight decay |
@@ -270,9 +305,9 @@ You can use the following command to train Vicuna-7B with 4 x A100 (40GB).
 ```bash
 torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.py \
     --model_name_or_path ~/model_weights/llama-7b  \
-    --data_path playground/data/dummy.json \
+    --data_path data/dummy_conversation.json \
     --bf16 True \
-    --output_dir output \
+    --output_dir output_vicuna \
     --num_train_epochs 3 \
     --per_device_train_batch_size 2 \
     --per_device_eval_batch_size 2 \
@@ -296,6 +331,36 @@ torchrun --nproc_per_node=4 --master_port=20001 fastchat/train/train_mem.py \
 
 If you meet out-of-memory during model saving, see solutions [here](https://github.com/pytorch/pytorch/issues/98823).
 
+### Fine-tuning FastChat-T5 with Local GPUs
+You can use the following command to train FastChat-T5 with 4 x A100 (40GB).
+```bash
+torchrun --nproc_per_node=4 --master_port=9778 fastchat/train/train_flant5.py \
+    --model_name_or_path google/flan-t5-xl \
+    --data_path /data/dummy.json \
+    --bf16 True \
+    --output_dir ./checkpoints_flant5_3b \
+    --num_train_epochs 3 \
+    --per_device_train_batch_size 1 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 4 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 300 \
+    --save_total_limit 1 \
+    --learning_rate 2e-5 \
+    --weight_decay 0. \
+    --warmup_ratio 0.03 \
+    --lr_scheduler_type "cosine" \
+    --logging_steps 1 \
+    --fsdp "full_shard auto_wrap" \
+    --fsdp_transformer_layer_cls_to_wrap T5Block \
+    --tf32 True \
+    --model_max_length 2048 \
+    --preprocessed_path ./preprocessed_data/processed.json \
+    --gradient_checkpointing True 
+```
+After training, please use our post-processing [function](https://github.com/lm-sys/FastChat/blob/75d8ab26ee308f9cf0990976508232f06dd421e4/fastchat/utils.py#L164) to update the saved model weight. Additional discussions can be found [here](https://github.com/lm-sys/FastChat/issues/643).
+
 ### Fine-tuning on Any Cloud with SkyPilot
 [SkyPilot](https://github.com/skypilot-org/skypilot) is a framework built by UC Berkeley for easily and cost effectively running ML workloads on any cloud (AWS, GCP, Azure, Lambda, etc.). 
 To use SkyPilot, install it with the following command and setup the cloud credentials locally following the instructions [here](https://skypilot.readthedocs.io/en/latest/getting-started/installation.html).
@@ -303,6 +368,7 @@ To use SkyPilot, install it with the following command and setup the cloud crede
 # Install skypilot from the master branch
 pip install git+https://github.com/skypilot-org/skypilot.git
 ```
+
 #### Vicuna
 Vicuna can be trained on 8 A100 GPUs with 80GB memory. The following command will automatically launch a node satisfying the requirement, setup and run the training job on it.
 ```bash

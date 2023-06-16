@@ -1,9 +1,9 @@
 ---
 title: Adobe-Alternatives
-date: 2023-06-15T12:16:43+08:00
+date: 2023-06-16T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685111152808-62c012ff4e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685111152808-62c012ff4e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)
@@ -60,6 +60,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf156952
 - 💵 [PaintTool SAI](https://www.systemax.jp/en/sai/) *(Windows, Mac)*
 - 💵 [Procreate](https://procreate.com/) *(iOS)*
 - 💵 [Artstudio Pro](https://apps.apple.com/us/app/artstudio-pro/id1244142051) *(iOS)*
+- 💵 [Infinite Studio](https://www.infinitestudio.art/) *(iOS, Android)*
 
 #### Pixel art
 - ✨ (or 💵) [Aseprite](https://www.aseprite.org/) *(Windows, Mac, Linux)*
@@ -70,6 +71,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf156952
 - ⭐️ [Pixel Studio](https://store.steampowered.com/app/1204050/Pixel_Studio__pixel_art_editor/) *(Windows, Mac)*
 - ⭐️ [Microsoft Paint](https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H) *(Windows)*
 - 💵 [Pyxel Edit](https://pyxeledit.com/) *(Windows, Mac, Linux)*
+- ✨ [GrafX2](http://grafx2.chez.com/) *(Windows, Linux, Android)*
 
 ## Illustrator
 
@@ -158,10 +160,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf156952
 
 ## Acrobat
 
+#### Editor
+
 - ✨ [LibreOffice Draw](https://www.libreoffice.org/) *(Windows, Mac, Linux)*
 - ⭐️ [PDF24](https://www.pdf24.org/en/) *(Windows)*
 - 💵 [PDF-XChange](https://pdf-xchange.eu/pdf-xchange-editor/) *(Windows)*
 - 🔒 [Xodo](https://xodo.com/) *(Browser)*
+
+#### Reader
+
+- ✨ [Zathura](https://pwmt.org/projects/zathura/) *(Linux)*
+- ✨ [Sumatra PDF](https://www.sumatrapdfreader.org/free-pdf-reader) *(Windows)*
 
 ## Bridge
 
@@ -184,14 +193,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf156952
 #### General
 
 - ✨ [Audacity](https://www.audacityteam.org/) *(Windows, Mac, Linux)*
-- ⭐️ [Ocenaudio](https://www.ocenaudio.com/) *(Windows)*
+- ⭐️ [Ocenaudio](https://www.ocenaudio.com/) *(Windows, Mac, Linux)*
 - ⭐️ (💵) [DaVinci Fairlight](https://www.blackmagicdesign.com/nl/products/davinciresolve/fairlight) *(Windows, Mac, Linux)*
 - 💵 [iZotope RX](https://www.izotope.com/en/shop/rx.html) *(Windows, Mac)*
 - 💵 [Sound Forge](https://www.magix.com/au/music/sound-forge/) *(Windows, Mac)*
 
 #### DAWs
 
-- ✨ [Ardour](https://ardour.org/) *(Windows, Mac, Linux)*
+- ✨ (💵, 🔒) [Ardour](https://ardour.org/) *(Windows, Mac, Linux)*
 - ✨ [LMMS](https://lmms.io/) *(Windows, Mac, Linux)*
 - ⭐️ [Cakewalk](https://www.cakewalk.com/) *(Windows)*
 - ⭐️ [GarageBand](https://www.apple.com/mac/garageband/) *(Mac)*
@@ -220,3 +229,4 @@ featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf156952
 - 🔒 [Cavalry](https://cavalry.scenegroup.co/) *(Windows, Mac)*
 - 🔒 [Rive](https://rive.app/) *(Browser, Windows, Mac)*
 - 🔒 [Jitter](https://jitter.video/) *(Browser)*
+- 💵 [Final Cut Pro (Motion)](https://www.apple.com/final-cut-pro/motion/) *(Mac, iOS)*

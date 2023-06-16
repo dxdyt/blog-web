@@ -1,9 +1,9 @@
 ---
 title: immersive-translate
-date: 2023-06-14T12:17:28+08:00
+date: 2023-06-16T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684489453381-0547f9137387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684489453381-0547f9137387?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684833685209-0f23802f7d40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684833685209-0f23802f7d40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate)
@@ -40,10 +40,10 @@ poster="https://immersivetranslate.com/assets/twitterdeskmobile.png"><source src
 - [关注 Telegram 频道](https://t.me/immersivetranslate) 接收最新消息
 - [加入 Telegram 群组](https://t.me/+rq848Z09nehlOTgx) 参与功能的讨论。
 - [问题反馈](https://github.com/immersive-translate/immersive-translate/issues/)
-- 扫描下面二维码，加入官方微信交流群（添加好友后，会自动回复最新的群二维码）
+- 扫描下面二维码，加入[官方 QQ 交流频道](https://pd.qq.com/s/260rd4u6r)
 
 <div align="center">
-<img src="https://immersivetranslate.com/assets/wechat-contact.png" width="200" alt="wechat" />
+    <img src="https://immersivetranslate.com/assets/qq-channel.png" width="200" alt="qq" />
 </div>
 
 <div align="center">
@@ -167,10 +167,10 @@ poster="https://immersivetranslate.com/assets/twitterdeskmobile.png"><source src
 - 帮忙[翻译](https://crowdin.com/project/immersive-translate)该扩展的界面语言。
 - 帮忙解答用户在[Telegram 群组](https://t.me/+rq848Z09nehlOTgx)
 - 帮忙解答用户在[GitHub Issue](https://github.com/immersive-translate/immersive-translate/issues)里的提问。
-- 扫描下面二维码，加入官方微信交流群（添加好友后，会自动回复最新的群二维码）,帮忙解答用户的疑问：
+- 扫描下面二维码，加入[官方 QQ 交流频道](https://pd.qq.com/s/260rd4u6r)
 
 <div align="center">
-<img src="https://immersivetranslate.com/assets/wechat-contact.png" width="200" alt="wechat" />
+<img src="https://immersivetranslate.com/assets/qq-channel.png" width="200" alt="qq" />
 </div>
 
 - 扫描下面二维码，关注官方微信公众号：
