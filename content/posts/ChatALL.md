@@ -1,9 +1,9 @@
 ---
 title: ChatALL
-date: 2023-06-16T12:17:39+08:00
+date: 2023-06-17T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684487747385-442d674962f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684487747385-442d674962f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684871430852-3413cb17e040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684871430852-3413cb17e040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [sunner/ChatALL](https://github.com/sunner/ChatALL)

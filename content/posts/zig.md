@@ -1,9 +1,9 @@
 ---
 title: zig
-date: 2023-04-11T12:16:58+08:00
+date: 2023-06-17T12:17:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12019/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12019/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686172932727-1762e5b81f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686172932727-1762e5b81f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [ziglang/zig](https://github.com/ziglang/zig)

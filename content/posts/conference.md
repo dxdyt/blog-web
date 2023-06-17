@@ -1,9 +1,9 @@
 ---
 title: conference
-date: 2023-06-15T12:15:46+08:00
+date: 2023-06-17T12:16:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685361062717-61cad788e120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685361062717-61cad788e120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686682308774-4ebfe0c93dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686682308774-4ebfe0c93dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [gopherchina/conference](https://github.com/gopherchina/conference)

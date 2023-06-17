@@ -1,9 +1,9 @@
 ---
 title: machine-learning-for-trading
-date: 2023-06-16T12:16:38+08:00
+date: 2023-06-17T12:15:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686172932727-1762e5b81f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686172932727-1762e5b81f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [stefan-jansen/machine-learning-for-trading](https://github.com/stefan-jansen/machine-learning-for-trading)

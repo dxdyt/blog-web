@@ -1,9 +1,9 @@
 ---
 title: openai-cookbook
-date: 2023-06-16T12:15:15+08:00
+date: 2023-06-17T12:15:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684303243725-8e23818a281c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684303243725-8e23818a281c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685538382974-a0b07102ef16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685538382974-a0b07102ef16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-cookbook](https://github.com/openai/openai-cookbook)
@@ -20,6 +20,7 @@ Most code examples are written in Python, though the concepts can be applied in 
 
 ## Recently added/updated 🆕 ✨
 
+- [Question answering using a search API and re-ranking](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_a_search_API.ipynb) [June 16th, 2023]
 - [How to call functions with Chat models](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_call_functions_with_chat_models.ipynb) [June 13th, 2023]
 - [Related resources from around the web](https://github.com/openai/openai-cookbook#related-resources-from-around-the-web) [May 22, 2023]
 - [Embeddings playground (streamlit app)](apps/embeddings-playground/README.md) [May 19, 2023]

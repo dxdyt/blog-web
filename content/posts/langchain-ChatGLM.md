@@ -1,9 +1,9 @@
 ---
 title: langchain-ChatGLM
-date: 2023-06-15T12:17:36+08:00
+date: 2023-06-17T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685538382974-a0b07102ef16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685538382974-a0b07102ef16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [imClumsyPanda/langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM)
@@ -239,7 +239,7 @@ Web UI 可以实现如下功能：
 - [x] VUE 前端
 
 ## 项目交流群
-<img src="img/qr_code_32.jpg" alt="二维码" width="300" height="300" />
+<img src="img/qr_code_33.jpg" alt="二维码" width="300" height="300" />
 
 
 🎉 langchain-ChatGLM 项目微信交流群，如果你也对本项目感兴趣，欢迎加入群聊参与讨论交流。

@@ -1,9 +1,9 @@
 ---
 title: FastChat
-date: 2023-06-16T12:17:55+08:00
+date: 2023-06-17T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684857580926-600f51d54175?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684857580926-600f51d54175?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
 ---
 
 # [lm-sys/FastChat](https://github.com/lm-sys/FastChat)
