@@ -1,9 +1,9 @@
 ---
 title: usb-sniffer
-date: 2023-06-17T12:17:15+08:00
+date: 2023-06-18T12:15:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685013639823-62388d0e9e46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685013639823-62388d0e9e46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684395521046-fe664a85a9e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684395521046-fe664a85a9e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [ataradov/usb-sniffer](https://github.com/ataradov/usb-sniffer)

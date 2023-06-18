@@ -1,9 +1,9 @@
 ---
 title: ijepa
-date: 2023-06-17T12:15:30+08:00
+date: 2023-06-18T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683924071058-727d83504671?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683924071058-727d83504671?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684001217547-17bf9b62931f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684001217547-17bf9b62931f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/ijepa](https://github.com/facebookresearch/ijepa)

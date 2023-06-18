@@ -1,9 +1,9 @@
 ---
 title: FinGPT
-date: 2023-06-17T12:15:01+08:00
+date: 2023-06-18T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686682308774-4ebfe0c93dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686682308774-4ebfe0c93dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1682957093349-0e83f097e1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682957093349-0e83f097e1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)

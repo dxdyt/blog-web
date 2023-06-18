@@ -1,9 +1,9 @@
 ---
 title: tauri
-date: 2023-06-16T12:18:02+08:00
+date: 2023-06-18T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686370763846-936d3ed69b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685857011630-cef679285c9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685857011630-cef679285c9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [tauri-apps/tauri](https://github.com/tauri-apps/tauri)
@@ -80,7 +80,7 @@ For **developing** Tauri apps refer to the [Getting Started guide on tauri.app](
 For **running** Tauri apps we support the below configurations (these are automatically added as dependencies for .deb and are bundled for AppImage so that your users don't need to manually install them):
 
 - Debian (Ubuntu 18.04 and above or equivalent) with the following packages installed:
-  - `libwebkit2gtk-4.0-37`, `libgtk-3-0`, `libayatana-appindicator3-1`<sup>1</sup>
+  - `libwebkit2gtk-4.1-0`, `libgtk-3-0`, `libayatana-appindicator3-1`<sup>1</sup>
 - Arch with the following packages installed:
   - `webkit2gtk`, `gtk3`, `libayatana-appindicator`<sup>1</sup>
 - Fedora (latest 2 versions) with the following packages installed:

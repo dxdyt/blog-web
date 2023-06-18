@@ -1,9 +1,9 @@
 ---
 title: mmagic
-date: 2023-06-17T12:17:21+08:00
+date: 2023-06-18T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686172932727-1762e5b81f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686172932727-1762e5b81f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686676844352-bd0f1fdf3465?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686676844352-bd0f1fdf3465?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [open-mmlab/mmagic](https://github.com/open-mmlab/mmagic)

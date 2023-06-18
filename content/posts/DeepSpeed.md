@@ -1,9 +1,9 @@
 ---
 title: DeepSpeed
-date: 2023-06-17T12:16:59+08:00
+date: 2023-06-18T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686682308774-4ebfe0c93dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686682308774-4ebfe0c93dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685682160793-4527c0e28368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685682160793-4527c0e28368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/DeepSpeed](https://github.com/microsoft/DeepSpeed)

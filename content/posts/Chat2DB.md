@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2023-06-17T12:15:11+08:00
+date: 2023-06-18T12:14:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685052388280-d8a42aee6610?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685052388280-d8a42aee6610?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684395521046-fe664a85a9e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684395521046-fe664a85a9e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
 ---
 
 # [alibaba/Chat2DB](https://github.com/alibaba/Chat2DB)
@@ -108,7 +108,11 @@ Option 2 (recommended): We provide a unified proxy service.
 - No OPENAI_API_KEY is required.
 - No proxy or VPN is required, as long as the network is connected.
 
-To facilitate users' quick use of AI capabilities, you can add WeChat to apply for our custom API_KEY. After the application is completed, refer to the following figure for configuration and usage.
+To facilitate users' quick use of AI capabilities, you can scan the QR code below to follow our WeChat public account and apply for our custom API_KEY. 
+
+<a><img src="https://oss-chat2db.alibaba.com/static/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="60%"/></a>
+
+After the application is completed, refer to the following figure for configuration and usage. Config Api Host as http://test.sqlgpt.cn/gateway/api/.
 
 <a><img src="https://img.alicdn.com/imgextra/i2/O1CN01xNobD21mo3B1ILrs2_!!6000000005000-0-tps-592-515.jpg" width="60%"/></a>
 
@@ -117,8 +121,7 @@ To facilitate users' quick use of AI capabilities, you can add WeChat to apply f
 - DEMO for configuring customized stream output interface.
   <a><img src="https://img.alicdn.com/imgextra/i1/O1CN01xMqnRH1DlkdSekvSF_!!6000000000257-0-tps-591-508.jpg" width="60%"/></a>
 - DEMO for configuring customized non-stream output interface.
-
-<a><img src="https://img.alicdn.com/imgextra/i1/O1CN01JqmbGo1fW0GAQhRu4_!!6000000004013-0-tps-587-489.jpg" width="60%"/></a>
+  <a><img src="https://img.alicdn.com/imgextra/i1/O1CN01JqmbGo1fW0GAQhRu4_!!6000000004013-0-tps-587-489.jpg" width="60%"/></a>
 
 
 
@@ -205,11 +208,6 @@ Please star and fork on GitHub before joining the group.
 <a><img src="./document/qrcode/weixinqun1.png" width="30%"/></a>
 <a><img src="./document/qrcode/weixinqun2.png" width="30%"/></a>
 <a><img src="./document/qrcode/weixinqun3.png" width="30%"/></a>
-
-WeChat
-
-<a><img src="./document/qrcode/hexi-weixin.png" width="30%"/></a>
-<a><img src="https://oss-chat2db.alibaba.com/static/WeChat3.jpg" width="30%"/></a>
 
 Ding Talk：9135032392
 
