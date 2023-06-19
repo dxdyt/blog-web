@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2023-06-18T12:14:26+08:00
+date: 2023-06-19T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684395521046-fe664a85a9e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684395521046-fe664a85a9e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1682687220363-35e4621ed990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682687220363-35e4621ed990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
 ---
 
 # [alibaba/Chat2DB](https://github.com/alibaba/Chat2DB)

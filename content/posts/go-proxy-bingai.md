@@ -1,9 +1,9 @@
 ---
 title: go-proxy-bingai
-date: 2023-05-26T12:17:35+08:00
+date: 2023-06-19T12:17:11+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12167/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
+featuredImage: https://images.unsplash.com/photo-1684769755475-8149002b9505?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684769755475-8149002b9505?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
 ---
 
 # [adams549659584/go-proxy-bingai](https://github.com/adams549659584/go-proxy-bingai)
@@ -32,7 +32,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
   - [网页展示](#网页展示)
   - [侧边栏](#侧边栏)
   - [演示站点](#演示站点)
-  - [获取 Cookie](#获取Cookie)
+  - [设置用户](#设置用户)
   - [环境变量](#环境变量)
   - [部署](#部署)
     - [Docker](#Docker)
@@ -100,13 +100,13 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
 
 - https://go-proxy-bingai.onrender.com
 
-## 获取 Cookie
+## 设置用户
 
 - 访问 https://www.bing.com/ 或 https://cn.bing.com/ ，登录
 
 - F12 或 Ctrl + Shift + I 打开控制台
 
-- 拿到 Cookie 后，在网站设置用户 Cookie 弹窗填入即可。
+- 拿到 Cookie 中 _U 的值 后，在网站设置 => 设置用户 中填入即可。
 
 ![获取Cookie](./docs/img/bing-cookie.png)
 

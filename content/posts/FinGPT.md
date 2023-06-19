@@ -1,9 +1,9 @@
 ---
 title: FinGPT
-date: 2023-06-18T12:16:06+08:00
+date: 2023-06-19T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682957093349-0e83f097e1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682957093349-0e83f097e1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684749683874-26a0ec676111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684749683874-26a0ec676111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
 ---
 
 # [AI4Finance-Foundation/FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)
@@ -29,7 +29,7 @@ We democratize Internet-scale data for financial large language models (FinLLMs)
 
 2). Democratizing Internet-scale financial data is critical, which should allow timely updates (monthly or weekly updates) using an automatic data curation pipeline. But, BloombergGPT has privileged data access and APIs. FinGPT presents a more accessible alternative. It prioritizes lightweight adaptation, leveraging the strengths of some of the best available open-source LLMs, which are then fed with financial data and fine-tuned for financial language modeling.
 
-3). The key technology is "RLHF (Reinforcement learning from human feedback)", which is missing in BloombergGPT. RLHF enables an LLM model to learn individual preferences (risk-aversion level, investing habits, personalized robo-advisor, etc.), which is the ``secret" ingredient of ChatGPT and GPT4.
+3). The key technology is "RLHF (Reinforcement learning from human feedback)", which is missing in BloombergGPT. RLHF enables an LLM model to learn individual preferences (risk-aversion level, investing habits, personalized robo-advisor, etc.), which is the "secret" ingredient of ChatGPT and GPT4.
 
 ## FinGPT Demos
 

@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-06-18T12:14:42+08:00
+date: 2023-06-19T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685682160793-4527c0e28368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685682160793-4527c0e28368?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686630079100-fbbe083d2bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686630079100-fbbe083d2bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -24,20 +24,35 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 - Fast handovers back and forth between AI and human
 - Simplicity, all computation is "resumable" and persisted to the filesystem
 
-
 ## Usage
 
-**Setup**:
-- `pip install -r requirements.txt`
-- `export OPENAI_API_KEY=[your api key]` with a key that has GPT4 access
+Choose either **stable** or **development**.
+
+For **stable** release:
+
+- `pip install gpt-engineer`
+
+For **development**:
+- `git clone git@github.com:AntonOsika/gpt-engineer.git`
+- `cd gpt-engineer`
+- `make install`
+- `source venv/bin/activate`
+
+**Setup**
+
+With an api key that has GPT4 access run:
+
+- `export OPENAI_API_KEY=[your api key]`
+
 
 **Run**:
-- Create a new empty folder with a `main_prompt` file (or copy the example folder `cp -r example/ my-new-project`)
-- Fill in the `main_prompt` in your new folder
-- Run `python -m gpt_engineer.main my-new-project`
+- Create an empty folder. If inside the repo, you can run:
+  - `cp -r projects/example/ projects/my-new-project`
+- Fill in the `main_prompt` file in your new folder
+- Run: `gpt-engineer projects/my-new-project`
 
-**Results**:
-- Check the generated files in my-new-project/workspace
+**Results**
+- Check the generated files in `projects/my-new-project/workspace`
 
 ### Limitations
 Implementing additional chain of thought prompting, e.g. [Reflexion](https://github.com/noahshinn024/reflexion), should be able to make it more reliable and not miss requested functionality in the main prompt.

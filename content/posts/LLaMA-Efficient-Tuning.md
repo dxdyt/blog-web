@@ -1,9 +1,9 @@
 ---
 title: LLaMA-Efficient-Tuning
-date: 2023-06-18T12:15:18+08:00
+date: 2023-06-19T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684777621486-6a00aaf5df32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684777621486-6a00aaf5df32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686759909794-ee05d11074c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686759909794-ee05d11074c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
 ---
 
 # [hiyouga/LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning)

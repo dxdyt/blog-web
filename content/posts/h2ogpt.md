@@ -1,9 +1,9 @@
 ---
 title: h2ogpt
-date: 2023-06-18T12:15:44+08:00
+date: 2023-06-19T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684359176257-0af5065a396c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684359176257-0af5065a396c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685469145069-145d625ae9bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685469145069-145d625ae9bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
 ---
 
 # [h2oai/h2ogpt](https://github.com/h2oai/h2ogpt)
