@@ -1,9 +1,9 @@
 ---
 title: KernelSU
-date: 2023-06-19T12:16:05+08:00
+date: 2023-06-20T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682687220363-35e4621ed990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682687220363-35e4621ed990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685280947527-fbfe7d85da2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685280947527-fbfe7d85da2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [tiann/KernelSU](https://github.com/tiann/KernelSU)

@@ -1,15 +1,15 @@
 ---
 title: super-gradients
-date: 2023-05-08T12:17:18+08:00
+date: 2023-06-20T12:18:28+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12119/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12119/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686995309003-9a141da8a6e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686995309003-9a141da8a6e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [Deci-AI/super-gradients](https://github.com/Deci-AI/super-gradients)
 
 <div align="center" markdown="1">
-  <img src="docs/assets/SG_img/SG - Horizontal Glow 2.png" width="600"/>
+  <img src="documentation/assets/SG_img/SG - Horizontal Glow 2.png" width="600"/>
  <br/><br/>
   
 **Build, train, and fine-tune production-ready deep learning  SOTA vision models**
@@ -47,9 +47,9 @@ ________________________________________________________________________________
 
 ### Support various computer vision tasks
 <div align="center">
-<img src="https://github.com/Deci-AI/super-gradients/raw/master/docs/assets/SG_img/Segmentation 1500x900 .png" width="250px">
-<img src="https://github.com/Deci-AI/super-gradients/raw/master/docs/assets/SG_img/Object detection 1500X900.png" width="250px">
-<img src="https://github.com/Deci-AI/super-gradients/raw/master/docs/assets/SG_img/Classification 1500x900.png" width="250px">
+<img src="https://github.com/Deci-AI/super-gradients/raw/master/documentation/assets/SG_img/Segmentation 1500x900 .png" width="250px">
+<img src="https://github.com/Deci-AI/super-gradients/raw/master/documentation/assets/SG_img/Object detection 1500X900.png" width="250px">
+<img src="https://github.com/Deci-AI/super-gradients/raw/master/documentation/assets/SG_img/Classification 1500x900.png" width="250px">
 </div>
 
 
@@ -73,17 +73,17 @@ model = models.get(Models.YOLO_NAS_M, pretrained_weights="coco")
 
 #### Classification
 <div align="center">
-<img src="./docs/assets/SG_img/Classification@2xDark.png" width="800px">
+<img src="./documentation/assets/SG_img/Classification@2xDark.png" width="800px">
 </div>
 
 #### Semantic Segmentation
 <div align="center">
-<img src="./docs/assets/SG_img/Semantic Segmentation@2xDark.png" width="800px">
+<img src="./documentation/assets/SG_img/Semantic Segmentation@2xDark.png" width="800px">
 </div>
 
 #### Object Detection 
 <div align="center">
-<img src="./docs/assets/SG_img/Object Detection@2xDark.png" width="800px">
+<img src="./documentation/assets/SG_img/Object Detection@2xDark.png" width="800px">
 </div>
 
 
@@ -130,8 +130,12 @@ ________________________________________________________________________________
 pip install super-gradients
 ```
 
-## What's New - Version 3.1.1 (May 3rd)
+## What's New
 __________________________________________________________________________________________________________
+30th of May
+* [Quantization Aware Training YoloNAS on Custom Dataset](https://bit.ly/3MIKdTy)
+
+Version 3.1.1 (May 3rd)
 * [YOLO-NAS](https://bit.ly/41WeNPZ)
 * New [predict function](https://bit.ly/3oZfaea) (predict on any image, video, url, path, stream)
 * [RoboFlow100](https://bit.ly/40YOJ5z) datasets integration 
@@ -198,10 +202,10 @@ model = models.get("model-name", pretrained_weights="pretrained-model-name")
 #### Transfer Learning 
   <table class="tfo-notebook-buttons" align="left">
  <td width="500">  
-  <a target="_blank" href="https://bit.ly/3xzIutb"><img src="./docs/assets/SG_img/colab_logo.png" /> Classification Transfer Learning</a>
+  <a target="_blank" href="https://bit.ly/3xzIutb"><img src="./documentation/assets/SG_img/colab_logo.png" /> Classification Transfer Learning</a>
   </td>
  <td width="200">    
- <a target="_blank" href="https://bit.ly/3xwYEn1"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
+ <a target="_blank" href="https://bit.ly/3xwYEn1"><img src="./documentation/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
  </td>
 </table>
  </br></br>
@@ -212,10 +216,7 @@ model = models.get("model-name", pretrained_weights="pretrained-model-name")
 ####  Quick Start 
 <table class="tfo-notebook-buttons" align="left">
  <td width="500">
-<a target="_blank" href="https://bit.ly/3qKx9m8"><img src="./docs/assets/SG_img/colab_logo.png" /> Segmentation Quick Start</a>
- </td>
- <td width="200">
-<a target="_blank" href="https://bit.ly/3qJjxYq"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source </a>
+<a target="_blank" href="https://bit.ly/3qKx9m8"><img src="./documentation/assets/SG_img/colab_logo.png" /> Segmentation Quick Start</a>
  </td>
 </table>
  </br></br>
@@ -225,10 +226,7 @@ model = models.get("model-name", pretrained_weights="pretrained-model-name")
  ####  Transfer Learning 
 <table class="tfo-notebook-buttons" align="left">
  <td width="500">
-<a target="_blank" href="https://bit.ly/3qKwMbe"><img src="./docs/assets/SG_img/colab_logo.png" /> Segmentation Transfer Learning</a>
- </td>
- <td width="200">
-<a target="_blank" href="https://bit.ly/3ShJlXn"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
+<a target="_blank" href="https://bit.ly/3qKwMbe"><img src="./documentation/assets/SG_img/colab_logo.png" /> Segmentation Transfer Learning</a>
  </td>
 </table>
  </br></br>
@@ -238,11 +236,8 @@ model = models.get("model-name", pretrained_weights="pretrained-model-name")
 ####  How to Connect Custom Dataset 
   <table class="tfo-notebook-buttons" align="left">
  <td width="500"> 
-<a target="_blank" href="https://bit.ly/3QQBVJp"><img src="./docs/assets/SG_img/colab_logo.png" /> Segmentation How to Connect Custom Dataset</a>
+<a target="_blank" href="https://bit.ly/3QQBVJp"><img src="./documentation/assets/SG_img/colab_logo.png" /> Segmentation How to Connect Custom Dataset</a>
    </td>
- <td width="200">
- <a target="_blank" href="https://bit.ly/3Us2WGi"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
 </table>
  </br></br>
 
@@ -254,22 +249,16 @@ model = models.get("model-name", pretrained_weights="pretrained-model-name")
 #### Transfer Learning
   <table class="tfo-notebook-buttons" align="left">
  <td width="500">   
-<a target="_blank" href="https://bit.ly/3SkMohx"><img src="./docs/assets/SG_img/colab_logo.png" /> Detection Transfer Learning</a>
+<a target="_blank" href="https://bit.ly/3SkMohx"><img src="./documentation/assets/SG_img/colab_logo.png" /> Detection Transfer Learning</a>
    </td>
- <td width="200">   
-<a target="_blank" href="https://bit.ly/3DF8siG"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
 </table>
  </br></br>
 
 #### How to Connect Custom Dataset 
   <table class="tfo-notebook-buttons" align="left">
  <td width="500">  
-  <a target="_blank" href="https://bit.ly/3dqDlg3"><img src="./docs/assets/SG_img/colab_logo.png" /> Detection How to Connect Custom Dataset</a>
+  <a target="_blank" href="https://bit.ly/3dqDlg3"><img src="./documentation/assets/SG_img/colab_logo.png" /> Detection How to Connect Custom Dataset</a>
   </td>
- <td width="200">      
-<a target="_blank" href="https://bit.ly/3xBlcmq"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
 </table>
  </br></br>
 
@@ -280,11 +269,8 @@ model = models.get("model-name", pretrained_weights="pretrained-model-name")
 #### Segmentation, Detection and Classification Prediction 
   <table class="tfo-notebook-buttons" align="left">
  <td width="500">    
-<a target="_blank" href="https://bit.ly/3f4mssd"><img src="./docs/assets/SG_img/colab_logo.png" /> How to Predict Using Pre-trained Model</a>
+<a target="_blank" href="https://bit.ly/3f4mssd"><img src="./documentation/assets/SG_img/colab_logo.png" /> How to Predict Using Pre-trained Model</a>
   </td>
- <td width="200">   
-<a target="_blank" href="https://bit.ly/3Sf59Tr"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
 </table>
  </br></br>
 
@@ -295,11 +281,16 @@ ________________________________________________________________________________
 Quantization involves representing weights and biases in lower precision, resulting in reduced memory and computational requirements, making it useful for deploying models on devices with limited resources. The process can be done during training, called Quantization aware training, or after training, called post-training quantization. A full tutorial can be found [here](http://bit.ly/41hC8uI).
   <table class=“tfo-notebook-buttons” align=“left”>
  <td width=“500”>
-   <a target="_blank" href="http://bit.ly/3KrN6an"><img src="./docs/assets/SG_img/colab_logo.png" /> Post Training Quantization and Quantization Aware Training</a>
+   <a target="_blank" href="http://bit.ly/3KrN6an"><img src="./documentation/assets/SG_img/colab_logo.png" /> Post Training Quantization and Quantization Aware Training</a>
   </td>
- <td width=“200”>
-<a target="_blank" href="http://bit.ly/3nUGzxb"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
+</table>
+
+### Quantization Aware Training YoloNAS on Custom Dataset
+This tutorial provides a comprehensive guide on how to fine-tune a YoloNAS model using a custom dataset. It also demonstrates how to utilize SG's QAT (Quantization-Aware Training) support. Additionally, it offers step-by-step instructions on deploying the model and performing benchmarking.
+  <table class=“tfo-notebook-buttons” align=“left”>
+ <td width=“500”>
+   <a target="_blank" href="https://bit.ly/3MIKdTy"><img src="./documentation/assets/SG_img/colab_logo.png" /> Quantization Aware Training YoloNAS on Custom Dataset</a>
+  </td>
 </table>
 
 ### Knowledge Distillation Training
@@ -307,11 +298,8 @@ Knowledge Distillation is a training technique that uses a large model, teacher 
 Learn more about SuperGradients knowledge distillation training with our pre-trained BEiT base teacher model and Resnet18 student model on CIFAR10 example notebook on Google Colab for an easy to use tutorial using free GPU hardware
   <table class="tfo-notebook-buttons" align="left">
  <td width="500">   
-   <a target="_blank" href="https://bit.ly/3BLA5oR"><img src="./docs/assets/SG_img/colab_logo.png" /> Knowledge Distillation Training</a>
+   <a target="_blank" href="https://bit.ly/3BLA5oR"><img src="./documentation/assets/SG_img/colab_logo.png" /> Knowledge Distillation Training</a>
   </td>
- <td width="200">   
-<a target="_blank" href="https://bit.ly/3S9UlG4"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
 </table>
  </br></br>
 
@@ -323,11 +311,8 @@ Recipes support out of the box every model, metric or loss that is implemented i
 
   <table class="tfo-notebook-buttons" align="left">
  <td width="500">   
-   <a target="_blank" href="https://bit.ly/3UiY5ab"><img src="./docs/assets/SG_img/colab_logo.png" /> How to Use Recipes</a>
+   <a target="_blank" href="https://bit.ly/3UiY5ab"><img src="./documentation/assets/SG_img/colab_logo.png" /> How to Use Recipes</a>
   </td>
- <td width="200">  
-<a target="_blank" href="https://bit.ly/3QSrHbm"><img src="./docs/assets/SG_img/GitHub_logo.png" /> GitHub source</a>
- </td>
 </table>
  </br></br>
 

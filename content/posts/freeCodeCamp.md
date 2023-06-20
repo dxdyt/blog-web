@@ -1,9 +1,9 @@
 ---
 title: freeCodeCamp
-date: 2023-05-17T12:15:32+08:00
+date: 2023-06-20T12:17:55+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12155/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12155/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686995309003-9a141da8a6e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686995309003-9a141da8a6e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)
@@ -205,4 +205,4 @@ Copyright © 2023 freeCodeCamp.org
 The content of this repository is bound by the following licenses:
 
 - The computer software is licensed under the [BSD-3-Clause](LICENSE.md) license.
-- The learning resources in the [`/curriculum`](/curriculum) directory including their subdirectories thereon are licensed under the [CC-BY-SA-4.0](/curriculum/LICENSE.md) license.
+- The learning resources in the [`/curriculum`](/curriculum) directory including their subdirectories thereon are copyright © 2023 freeCodeCamp.org

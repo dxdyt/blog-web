@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-06-19T12:15:31+08:00
+date: 2023-06-20T12:15:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686630079100-fbbe083d2bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686630079100-fbbe083d2bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685280947527-fbfe7d85da2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685280947527-fbfe7d85da2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
