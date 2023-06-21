@@ -1,9 +1,9 @@
 ---
 title: ChatALL
-date: 2023-06-19T12:16:29+08:00
+date: 2023-06-21T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684749683874-26a0ec676111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684749683874-26a0ec676111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1664397943078-12c973839085?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1664397943078-12c973839085?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [sunner/ChatALL](https://github.com/sunner/ChatALL)
@@ -23,6 +23,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1684749683874-26a0ec6761
 ## Features
 
 Large Language Models (LLMs) based AI bots are amazing. However, their behavior can be random and different bots excel at different tasks. If you want the best experience, don't try them one by one. ChatALL (Chinese name: 齐叨) can send prompt to several AI bots concurrently, help you to discover the best results. All you need to do is [download, install](https://github.com/sunner/ChatALL/releases) and ask.
+
+### Is this you?
+
+Typical users of ChatALL are:
+
+- 🤠**Gurus of LLMs**, who want to find the best answers or creations from LLMs.
+- 🤓**Researchers of LLMs**, who want to intuitively compare the strengths and weaknesses of various LLMs in different fields.
+- 😎**Developers of LLM applications**, who want to quickly debug prompts and find the best-performing foundation models.
 
 ### Supported bots
 
@@ -94,6 +102,25 @@ If the system prompts that it cannot check whether the software is malicious, fo
 ### On Linux
 
 Download the .AppImage file, make it executable, and enjoy the click-to-run experience.
+
+## Troubleshooting
+
+If you encounter any problems while using ChatALL, you can try the following methods to resolve them:
+
+1. **Refresh** - press `Ctrl + R` or `Cmd + R`.
+2. **Restart** - exit ChatALL and run it again.
+3. **Re-login** - click the settings button in the upper right corner, then click the corresponding login/logout link in the pop-up window to log in to the website again.
+4. **Clear all messages** - click the broom button in the upper right corner.
+
+If none of the above methods work, you can try **resetting ChatALL**. Note that this will delete all your settings and message history.
+
+You can reset ChatALL by deleting the following directories:
+
+- Windows: `C:\Users\<user>\AppData\Roaming\ChatALL\`
+- Linux: `/home/<user>/.config/ChatALL/`
+- macOS: `/Users/<user>/Library/Application Support/ChatALL/`
+
+If the problem persists, please [submit an issue](https://github.com/sunner/ChatALL/issues).
 
 ## For developers
 

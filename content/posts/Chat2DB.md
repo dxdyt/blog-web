@@ -1,19 +1,22 @@
 ---
 title: Chat2DB
-date: 2023-06-20T12:15:21+08:00
+date: 2023-06-21T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686644823172-e9b24140af3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686644823172-e9b24140af3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684700432561-09c54fc1d09b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684700432561-09c54fc1d09b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [alibaba/Chat2DB](https://github.com/alibaba/Chat2DB)
 
+# 重要公告: Chat2DB将迁移到新地址：>>>[Chat2DB++](https://github.com/chat2db/Chat2DB) 
+### 6月底将有颠覆性重大升级，敬请期待 🔥
+The Chat2DB repository will be migrated to: [Chat2DB++](https://github.com/chat2db/Chat2DB). There will be a significant upgrade by the end of June. Please stay tuned! 🔥🔥🔥
 
 <h1 align="center">Chat2DB</h1>
 
 <div align="center">
 
-🔥🔥🔥 An intelligent and versatile general-purpose SQL client and reporting tool for databases which integrates ChatGPT capabilities.
+ An intelligent and versatile general-purpose SQL client and reporting tool for databases which integrates ChatGPT capabilities.
 
 [![License](https://img.shields.io/github/license/alibaba/fastjson2?color=4D7A97&logo=apache)](https://www.apache.org/licenses/LICENSE-2.0.html)
 [![GitHub release](https://img.shields.io/github/release/alibaba/ali-dbhub)](https://github.com/alibaba/ali-dbhub/releases)
@@ -110,7 +113,7 @@ Option 2 (recommended): We provide a unified proxy service.
 
 To facilitate users' quick use of AI capabilities, you can scan the QR code below to follow our WeChat public account and apply for our custom API_KEY. 
 
-<a><img src="https://oss-chat2db.alibaba.com/static/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="60%"/></a>
+<a><img src="https://oss-chat2db.alibaba.com/static/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="40%"/></a>
 
 After the application is completed, refer to the following figure for configuration and usage. Config Api Host as http://test.sqlgpt.cn/gateway/api/.
 
@@ -203,7 +206,8 @@ But front debugging need mapping of resources, you can download [XSwitch](https:
 
 ## ☎️ Contact Us
 Please star and fork on GitHub before joining the group.
-微信（由于个人微信加好友太多被限制了，如果无法添加成功，可以先邮箱联系 1558143046@qq.com）：
+Follow our WeChat public account
+<a><img src="https://oss-chat2db.alibaba.com/static/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="40%"/></a>
 
 <a><img src="./document/qrcode/weixinqun1.png" width="30%"/></a>
 <a><img src="./document/qrcode/weixinqun2.png" width="30%"/></a>
@@ -211,9 +215,8 @@ Please star and fork on GitHub before joining the group.
 
 Ding Talk：9135032392
 
-qq
+QQ:863576619
 
-<a><img src="./document/qrcode/qqqun.png" width="30%"/></a>
 
 ## ❤️ Acknowledgements
 Thanks to all the students who contributed to Chat2DB~

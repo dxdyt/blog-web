@@ -1,9 +1,9 @@
 ---
 title: novel
-date: 2023-06-20T12:16:31+08:00
+date: 2023-06-21T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685703206522-9c9c0d03bce4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685703206522-9c9c0d03bce4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686628181663-c1df125bd2a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686628181663-c1df125bd2a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [steven-tey/novel](https://github.com/steven-tey/novel)

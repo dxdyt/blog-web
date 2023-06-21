@@ -1,9 +1,9 @@
 ---
 title: roop
-date: 2023-06-20T12:16:13+08:00
+date: 2023-06-21T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686995309003-9a141da8a6e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686995309003-9a141da8a6e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686175054286-b51d1c2db4e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686175054286-b51d1c2db4e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/roop](https://github.com/s0md3v/roop)
@@ -23,7 +23,7 @@ Users of this software are expected to use this software responsibly while abidi
 
 ## How do I install it?
 
-**Issues according installation will be closed without ceremony from now on, we cannot handle the amount of requests.**
+**Issues regarding installation will be closed from now on, we cannot handle the amount of requests.**
 
 There are two types of installations: basic and gpu-powered.
 
@@ -39,33 +39,37 @@ Executing `python run.py` command will launch this window:
 
 Choose a face (image with desired face) and the target image/video (image/video in which you want to replace the face) and click on `Start`. Open file explorer and navigate to the directory you select your output to be in. You will find a directory named `<video_title>` where you can see the frames being swapped in realtime. Once the processing is done, it will create the output file. That's it.
 
-Don't touch the FPS checkbox unless you know what you are doing.
-
-Additional command line arguments are given below:
+Additional command line arguments are given below. To learn out what they do, check [this guide](https://github.com/s0md3v/roop/wiki/Advanced-Options).
 
 ```
 options:
   -h, --help            show this help message and exit
-  -f SOURCE_IMG, --face SOURCE_IMG
-                        use this face
+  -s SOURCE_PATH, --source SOURCE_PATH
+                        select an source image
   -t TARGET_PATH, --target TARGET_PATH
-                        replace this face
-  -o OUTPUT_FILE, --output OUTPUT_FILE
-                        save output to this file
-  --keep-fps            maintain original fps
-  --keep-frames         keep frames directory
-  --all-faces           swap all faces in frame
+                        select an target image or video
+  -o OUTPUT_PATH, --output OUTPUT_PATH
+                        select output file or directory
+  --frame-processor {face_swapper,face_enhancer} [{face_swapper,face_enhancer} ...]
+                        pipeline of frame processors
+  --keep-fps            keep original fps
+  --keep-audio          keep original audio
+  --keep-frames         keep temporary frames
+  --many-faces          process every face
+  --video-encoder {libx264,libx265,libvpx-vp9}
+                        adjust output video encoder
+  --video-quality VIDEO_QUALITY
+                        adjust output video quality
   --max-memory MAX_MEMORY
-                        maximum amount of RAM in GB to be used
-  --cpu-cores CPU_CORES
-                        number of CPU cores to use
-  --gpu-threads GPU_THREADS
-                        number of threads to be use for the GPU
-  --gpu-vendor {apple,amd,intel,nvidia}
-                        choice your GPU vendor
+                        maximum amount of RAM in GB
+  --execution-provider {cpu,...} [{cpu,...} ...]
+                        execution provider
+  --execution-threads EXECUTION_THREADS
+                        number of execution threads
+  -v, --version         show program's version number and exit
 ```
 
-Looking for a CLI mode? Using the -f/--face argument will make the program in cli mode.
+Looking for a CLI mode? Using the -s/--source argument will make the run program in cli mode.
 
 ## Credits
 - [henryruhs](https://github.com/henryruhs): for being an irreplaceable contributor to the project
