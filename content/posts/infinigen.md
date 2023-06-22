@@ -1,9 +1,9 @@
 ---
 title: infinigen
-date: 2023-06-21T12:15:24+08:00
+date: 2023-06-22T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685979457408-e897fca4782f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685979457408-e897fca4782f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
 ---
 
 # [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen)
@@ -70,7 +70,7 @@ export BLENDER="/PATH/TO/infinigen/Blender.app/Contents/MacOS/Blender"
 
 The above default install instructions enable you to run the full Infinigen scene generation system
 
-This section will allow you to use our own `--pipeline_configs opengl_gt` ground truth extraction config, which avoids rendering twice in blender, and provides additional labels such occlusion boundaries, sub-object segmentation, 3D flow and easy 3D bounding boxes. If you do not need ground truth, or do not need these features,skip this section and use `--pipeline_configs blender_gt` as shown in [Generate image(s) in one command](#generate-images-in-one-command). This section is intended for computer vision researchers and power-users, and is currently *only supported on Ubuntu*. 
+This section will allow you to use our own `--pipeline_configs opengl_gt` ground truth extraction config, which avoids rendering twice in blender and provides additional labels such as occlusion boundaries, sub-object segmentation, 3D flow and easy 3D bounding boxes. If you do not need these features, skip this section and use `--pipeline_configs blender_gt` as shown in [Generate image(s) in one command](#generate-images-in-one-command). This section is intended for computer vision researchers and power-users. 
 
 ```
 git submodule init
@@ -86,6 +86,17 @@ Finally, run
 ```
 bash install.sh opengl
 ```
+
+To run OpenGL on the "hello world" example, the two addition commands are:
+1. Export the geometry from blender to disk
+```
+$BLENDER -noaudio --background --python generate.py -- --seed 0 --task mesh_save -g desert simple --input_folder outputs/helloworld/fine --output_folder outputs/helloworld/saved_mesh
+```
+2. Generate dense annotations
+```
+../process_mesh/build/process_mesh --frame 1 -in outputs/helloworld/saved_mesh -out outputs/helloworld/frames
+```
+
 </details>
 
 <details closed>

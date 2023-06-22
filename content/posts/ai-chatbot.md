@@ -1,9 +1,9 @@
 ---
 title: ai-chatbot
-date: 2023-06-21T12:17:16+08:00
+date: 2023-06-22T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686175054286-b51d1c2db4e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686175054286-b51d1c2db4e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686060101553-bfa48046a8fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686060101553-bfa48046a8fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
 ---
 
 # [vercel-labs/ai-chatbot](https://github.com/vercel-labs/ai-chatbot)
@@ -31,7 +31,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686175054286-b51d1c2db4
 - [Next.js](https://nextjs.org) App Router
 - React Server Components (RSCs), Suspense, and Server Actions
 - [Vercel AI SDK](https://sdk.vercel.ai/docs) for streaming chat UI
-- Support for OpenAI (default), Anthropic, HuggingFace, or custom AI chat models and/or LangChain
+- Support for OpenAI (default), Anthropic, Hugging Face, or custom AI chat models and/or LangChain
 - Edge runtime-ready
 - [shadcn/ui](https://ui.shadcn.com)
   - Styling with [Tailwind CSS](https://tailwindcss.com)
@@ -42,7 +42,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686175054286-b51d1c2db4
 
 ## Model Providers
 
-This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks to the [Vercel AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Anthropic](https://anthropic.com), [HuggingFace](https://huggingface.co), or using [LangChain](https://js.langchain.com) with just a few lines of code.
+This template ships with OpenAI `gpt-3.5-turbo` as the default. However, thanks to the [Vercel AI SDK](https://sdk.vercel.ai/docs), you can switch LLM providers to [Anthropic](https://anthropic.com), [Hugging Face](https://huggingface.co), or using [LangChain](https://js.langchain.com) with just a few lines of code.
 
 ## Deploy Your Own
 

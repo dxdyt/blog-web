@@ -1,9 +1,9 @@
 ---
 title: desktop
-date: 2023-06-20T12:18:04+08:00
+date: 2023-06-22T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684767555842-ffeea8bd1463?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684767555842-ffeea8bd1463?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684419081530-d0dd7ed6921a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684419081530-d0dd7ed6921a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
 ---
 
 # [desktop/desktop](https://github.com/desktop/desktop)

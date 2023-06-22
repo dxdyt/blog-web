@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-06-21T12:15:13+08:00
+date: 2023-06-22T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685979457408-e897fca4782f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685979457408-e897fca4782f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686562865419-588504a46aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686562865419-588504a46aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -31,19 +31,11 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 
 ## Usage
 
-Choose either **stable** or **development**.
-
-For **stable** release:
-
-- `pip install gpt-engineer`
-
-For **development**:
+**Setup**
 - `git clone git@github.com:AntonOsika/gpt-engineer.git`
 - `cd gpt-engineer`
 - `make install`
 - `source venv/bin/activate`
-
-**Setup**
 
 With an api key that has GPT4 access run:
 

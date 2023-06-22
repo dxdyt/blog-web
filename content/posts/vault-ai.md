@@ -1,9 +1,9 @@
 ---
 title: vault-ai
-date: 2023-05-10T12:16:27+08:00
+date: 2023-06-22T12:16:51+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12127/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12127/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
 ---
 
 # [pashpashpash/vault-ai](https://github.com/pashpashpash/vault-ai)
@@ -112,7 +112,7 @@ All api endpoints are declared in the [vault-web-server/main.go](https://github.
 ### Uploading files and processing them into embeddings
 
 The [vault-web-server/postapi/fileupload.go](https://github.com/pashpashpash/vault-ai/blob/master/vault-web-server/postapi/fileupload.go#L29) file contains the `UploadHandler` logic for handling incoming uploads on the backend.
-The UploadHandler function in the postapi package is responsible for handling file uploads (with a maximum total upload size of 300 MB) and processing them into embeddings to store in Pinecone. It accepts PDF and plain text files, extracts text from them, and divides the content into chunks. Using OpenAI API, it obtains embeddings for each chunk and upserts (inserts or updates) the embeddings into Pinecone. The function returns a JSON response containing information about the uploaded files and their processing status.
+The UploadHandler function in the postapi package is responsible for handling file uploads (with a maximum total upload size of 300 MB) and processing them into embeddings to store in Pinecone. It accepts PDF, epub, .docx, and plain text files, extracts text from them, and divides the content into chunks. Using OpenAI API, it obtains embeddings for each chunk and upserts (inserts or updates) the embeddings into Pinecone. The function returns a JSON response containing information about the uploaded files and their processing status.
 
 1. Limit the size of the request body to MAX_TOTAL_UPLOAD_SIZE (300 MB).
 2. Parse the incoming multipart form data with a maximum allowed size of 300 MB.
@@ -161,4 +161,4 @@ I currently have the max individual file size set to 3MB. If you want to increas
 
 ### Supported Filetypes
 
-PDFs, .txt, .rtf, and plaintext. .docx support coming soon!
+PDFs, .txt, .rtf, .docx, .epub, and plaintext.
