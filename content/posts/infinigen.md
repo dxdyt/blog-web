@@ -1,9 +1,9 @@
 ---
 title: infinigen
-date: 2023-06-22T12:15:40+08:00
+date: 2023-06-23T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684906010835-78fd41118654?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684906010835-78fd41118654?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [princeton-vl/infinigen](https://github.com/princeton-vl/infinigen)

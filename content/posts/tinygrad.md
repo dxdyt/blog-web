@@ -1,9 +1,9 @@
 ---
 title: tinygrad
-date: 2023-06-19T12:18:40+08:00
+date: 2023-06-23T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686759909794-ee05d11074c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686759909794-ee05d11074c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcxNDgxMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685703206054-4b9511b78b25?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685703206054-4b9511b78b25?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [geohot/tinygrad](https://github.com/geohot/tinygrad)
@@ -46,7 +46,7 @@ tinygrad can run [LLaMA](/docs/showcase.md#llama) and [Stable Diffusion](/docs/s
 Try a matmul. See how, despite the style, it is fused into one kernel with the power of laziness.
 
 ```sh
-DEBUG=3 OPTLOCAL=1 python3 -c "from tinygrad.tensor import Tensor;
+DEBUG=3 python3 -c "from tinygrad.tensor import Tensor;
 N = 1024; a, b = Tensor.rand(N, N), Tensor.rand(N, N);
 c = (a.reshape(N, 1, N) * b.permute(1,0).reshape(1, N, N)).sum(axis=2);
 print((c.numpy() - (a.numpy() @ b.numpy())).mean())"

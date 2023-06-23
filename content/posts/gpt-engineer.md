@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-06-22T12:15:01+08:00
+date: 2023-06-23T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686562865419-588504a46aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686562865419-588504a46aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -31,11 +31,19 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 
 ## Usage
 
-**Setup**
+Choose either **stable** or **development**.
+
+For **stable** release:
+
+- `pip install gpt-engineer`
+
+For **development**:
 - `git clone git@github.com:AntonOsika/gpt-engineer.git`
 - `cd gpt-engineer`
-- `make install`
-- `source venv/bin/activate`
+- `pip install -e .`
+  - (or: `make install && source venv/bin/activate` for a venv)
+
+**Setup**
 
 With an api key that has GPT4 access run:
 
@@ -46,7 +54,8 @@ With an api key that has GPT4 access run:
 - Create an empty folder. If inside the repo, you can run:
   - `cp -r projects/example/ projects/my-new-project`
 - Fill in the `main_prompt` file in your new folder
-- Run: `gpt-engineer projects/my-new-project`
+- `gpt-engineer projects/my-new-project`
+  - (Note, `gpt-engineer --help` lets you see all available options. For example `--steps use_feedback` lets you improve/fix code in a project)
 
 **Results**
 - Check the generated files in `projects/my-new-project/workspace`

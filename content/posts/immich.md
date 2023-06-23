@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2023-06-21T12:17:54+08:00
+date: 2023-06-23T12:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686175054286-b51d1c2db4e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686175054286-b51d1c2db4e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684789688834-82f671a97136?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684789688834-82f671a97136?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -94,6 +94,7 @@ Spec: Free-tier Oracle VM - Amsterdam - 2.4Ghz quad-core ARM64 CPU, 24GB RAM
 | Global Map                                   | No     | Yes |
 | Partner Sharing                              | Yes    | Yes |
 | Facial recognition and clustering            | No     | Yes |
+| Offline support                              | Yes    | No  |
 
 # Support the project
 

@@ -1,9 +1,9 @@
 ---
 title: CodeEdit
-date: 2023-06-21T12:15:31+08:00
+date: 2023-06-23T12:19:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686628181663-c1df125bd2a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686628181663-c1df125bd2a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685689238460-fdd76e602962?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685689238460-fdd76e602962?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [CodeEditApp/CodeEdit](https://github.com/CodeEditApp/CodeEdit)

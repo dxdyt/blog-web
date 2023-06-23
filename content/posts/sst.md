@@ -1,9 +1,9 @@
 ---
 title: sst
-date: 2023-04-07T12:16:22+08:00
+date: 2023-06-23T12:18:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686467080200-31acc6627cc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686467080200-31acc6627cc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [serverless-stack/sst](https://github.com/serverless-stack/sst)
@@ -22,32 +22,32 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
 
 ---
 
-SST makes it easy to build modern full-stack applications on AWS. [Learn more](https://docs.sst.dev/what-is-sst).
+SST makes it easy to build modern full-stack applications on AWS. Watch the [**SST in 100 seconds**](https://youtu.be/JY_d0vf-rfw) video to learn more.
 
 ```bash
 $ npx create-sst@latest
 ```
 
-### Start With Your Frontend
+### Pick your frontend
 
-Deploy Next.js, Remix, Astro, Solid, or any static site to AWS.
+Deploy Next.js, Svelte, Remix, Astro, Solid, or any static site to AWS.
 
 - [**Next.js**](https://docs.sst.dev/start/nextjs)
-- [**Remix**](https://docs.sst.dev/constructs/RemixSite)
+- [**Svelte**](https://docs.sst.dev/start/svelte)
+- [**Remix**](https://docs.sst.dev/start/remix)
 - [**Astro**](https://docs.sst.dev/start/astro)
-- [**Solid**](https://docs.sst.dev/constructs/SolidStartSite)
-- [**Static site**](https://docs.sst.dev/constructs/StaticSite)
+- [**Solid**](https://docs.sst.dev/start/solid)
 
-### Add any backend feature
+### Add any feature
 
 SST gives you the full power of AWS. Making it easy to add any feature to your product.
 
-- [Databases](https://docs.sst.dev/constructs/RDS) — Use a serverless SQL or NoSQL database to power your app.
-- [APIs](https://docs.sst.dev/constructs/Api) — Add a GraphQL or a simple REST API to your app.
-- [Auth](https://docs.sst.dev/constructs/Auth) — Authenticate your users through any auth provider.
-- [File uploads](https://docs.sst.dev/constructs/Bucket) — Upload files to S3 and manage them through the SST console.
-- [Jobs](https://docs.sst.dev/constructs/Cron) — Run cron jobs or long running jobs powered by serverless functions.
-- [Queues](https://docs.sst.dev/constructs/Queue) — Work with serverless queues without any infrastructure.
+- [File uploads](https://docs.sst.dev/file-uploads) — Allow your users to upload files to S3.
+- [Auth](https://docs.sst.dev/auth) — Authenticate your users through any auth provider.
+- [Events](https://docs.sst.dev/events) — Run tasks after your app has returned to your user.
+- [Databases](https://docs.sst.dev/databases) — Use a serverless SQL or NoSQL database to power your app.
+- [Jobs](https://docs.sst.dev/cron-jobs) — Run cron jobs or long running jobs powered by serverless functions.
+- [APIs](https://docs.sst.dev/apis) — Add a dedicated serverless REST, GraphQL, or WebSocket API to your app.
 
 ### Collaborate with your team
 

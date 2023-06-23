@@ -1,9 +1,9 @@
 ---
 title: chatgpt-retrieval
-date: 2023-06-22T12:15:33+08:00
+date: 2023-06-23T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684419081530-d0dd7ed6921a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684419081530-d0dd7ed6921a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686467080200-31acc6627cc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686467080200-31acc6627cc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [techleadhd/chatgpt-retrieval](https://github.com/techleadhd/chatgpt-retrieval)

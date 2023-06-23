@@ -1,9 +1,9 @@
 ---
 title: sd-webui-roop
-date: 2023-06-22T12:17:09+08:00
+date: 2023-06-23T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686060101553-bfa48046a8fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686060101553-bfa48046a8fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1636191735519-2b5de4854eea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1636191735519-2b5de4854eea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/sd-webui-roop](https://github.com/s0md3v/sd-webui-roop)
@@ -29,9 +29,10 @@ First of all, if you can't install it for some reason, don't open an issue here.
 
 + Run this command: `pip install insightface==0.7.3`
 + In web-ui, go to the "Extensions" tab and use this URL `https://github.com/s0md3v/sd-webui-roop` in the "install from URL" tab.
-+ Restart the UI
++ Close webui and run it again
++ If you encounter `'NoneType' object has no attribute 'get'` error, download the [inswapper_128.onnx](https://huggingface.co/henryruhs/roop/resolve/main/inswapper_128.onnx) model and put it inside `<webui_dir>/models/roop/` directory.
 
-> If you encounter 'NoneType' object has no attribute 'get' error, download the inswapper_128.onnx model and put it inside <webui_dir>/models/roop/ directory.
+For rest of the errors, use google. Good luck.
 
 ## Usage
 

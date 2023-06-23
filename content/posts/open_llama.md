@@ -1,9 +1,9 @@
 ---
 title: open_llama
-date: 2023-06-22T12:16:36+08:00
+date: 2023-06-23T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685329173725-73914aada9ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685329173725-73914aada9ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [openlm-research/open_llama](https://github.com/openlm-research/open_llama)

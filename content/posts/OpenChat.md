@@ -1,9 +1,9 @@
 ---
 title: OpenChat
-date: 2023-06-22T12:15:11+08:00
+date: 2023-06-23T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686574086026-9f02b82f4765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685546286074-189456946b09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685546286074-189456946b09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [openchatai/OpenChat](https://github.com/openchatai/OpenChat)
@@ -102,6 +102,9 @@ make install
 ```
 
 Once the installation is complete, you can access the OpenChat console at: http://localhost:8000
+
+
+Documentation [available here](https://docs.openchat.so/introduction)
 
 ## 🚀 Upgrade guide:
 
