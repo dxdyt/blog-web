@@ -1,9 +1,9 @@
 ---
 title: SteamDesktopAuthenticator
-date: 2023-06-23T12:18:12+08:00
+date: 2023-06-24T12:18:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685703206054-4b9511b78b25?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685703206054-4b9511b78b25?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686720792230-4f13218d1379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686720792230-4f13218d1379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
 ---
 
 # [Jessecar96/SteamDesktopAuthenticator](https://github.com/Jessecar96/SteamDesktopAuthenticator)

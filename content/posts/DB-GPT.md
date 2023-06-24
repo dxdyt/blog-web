@@ -1,9 +1,9 @@
 ---
 title: DB-GPT
-date: 2023-06-22T12:15:16+08:00
+date: 2023-06-24T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685215902365-8283bb3bed69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685215902365-8283bb3bed69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686407449898-79cd2d0eba4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686407449898-79cd2d0eba4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
 ---
 
 # [csunny/DB-GPT](https://github.com/csunny/DB-GPT)
