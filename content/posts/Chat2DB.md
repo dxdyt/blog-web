@@ -1,16 +1,12 @@
 ---
 title: Chat2DB
-date: 2023-06-22T12:15:49+08:00
+date: 2023-06-25T12:17:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682686581220-689c34afb6ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682686581220-689c34afb6ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686902738032-a5d908c2b05b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686902738032-a5d908c2b05b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
 ---
 
-# [alibaba/Chat2DB](https://github.com/alibaba/Chat2DB)
-
-# 重要公告: Chat2DB将迁移到新地址：>>>[Chat2DB++](https://github.com/chat2db/Chat2DB) 
-### 6月底将有颠覆性重大升级，敬请期待 🔥
-The Chat2DB repository will be migrated to: [Chat2DB++](https://github.com/chat2db/Chat2DB). There will be a significant upgrade by the end of June. Please stay tuned! 🔥🔥🔥
+# [chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
 
 <h1 align="center">Chat2DB</h1>
 

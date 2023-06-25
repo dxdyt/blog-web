@@ -1,9 +1,9 @@
 ---
 title: linen.dev
-date: 2023-06-23T12:17:49+08:00
+date: 2023-06-25T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686467080200-31acc6627cc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686467080200-31acc6627cc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684670179697-7b6d0213f152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684670179697-7b6d0213f152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [Linen-dev/linen.dev](https://github.com/Linen-dev/linen.dev)
@@ -51,10 +51,6 @@ Ship the smallest functioning feature that makes the users' lives better and the
 - **Desktop/Mobile client**: We want to support a desktop and mobile client for Linen so you can get push notifications for when there are urgent things.
 - **Botting**: We want to support botting and automation where you can build and add your custom bots
 
-## Feedback:
-
-Linen is in it's early stages of development so we are looking for a ton of feedback.
-
 ### Misc Features:
 
 1. Markdown message support
@@ -63,7 +59,13 @@ Linen is in it's early stages of development so we are looking for a ton of feed
 4. Attachments support
 5. Emoji support
 
-Our documentation is divided into several sections:
+### How to contribute
+
+1. **Stars on GitHub**: If you are a fan of Linen and our mission don't foget to Star our repo! 🌟
+2. **Improve documentation**: Documentation is important for any open source project. Feel free to document any thing around developer setup, features and common questions that you find that we are missing
+3. **Give feedback**: We are constantly looking for feedback. Please share how you use Linen, what painpoints you have or things that bother you with other tools. If you have the time or capacity schedule a call with Kam to talk about painpoints/past experience with other tools. We are constantly in the look out for high quality long form feedback or insights based on your experience.
+4. **Share Linen**: Sharing Linen's blog posts, Github repo on social media and other platform really helps us get the word out.
+5. **Contribute to codebase**: Feel free to pick up features and bugs labeled "help wanted". Make sure you comment on the github issue first and claim it to reduce duplicate work. We will try our best to merge your PRs.
 
 #### Developers Docs
 

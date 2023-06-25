@@ -1,9 +1,9 @@
 ---
 title: eslint
-date: 2023-06-24T12:19:36+08:00
+date: 2023-06-25T12:19:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685731944163-4096670fb5e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685731944163-4096670fb5e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684670179697-7b6d0213f152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684670179697-7b6d0213f152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [eslint/eslint](https://github.com/eslint/eslint)

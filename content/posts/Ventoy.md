@@ -1,9 +1,9 @@
 ---
 title: Ventoy
-date: 2023-05-20T12:17:29+08:00
+date: 2023-06-25T12:20:16+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12165/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12165/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685549926627-6f912e3f465a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685549926627-6f912e3f465a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [ventoy/Ventoy](https://github.com/ventoy/Ventoy)

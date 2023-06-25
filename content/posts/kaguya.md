@@ -1,9 +1,9 @@
 ---
 title: kaguya
-date: 2023-06-23T12:17:33+08:00
+date: 2023-06-25T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684547105127-cbc2e244d0f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684547105127-cbc2e244d0f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684019329793-f86cf9cf38af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684019329793-f86cf9cf38af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [ykdojo/kaguya](https://github.com/ykdojo/kaguya)
@@ -48,3 +48,9 @@ You can check out a second demo of Kaguya in action on Twitter: [Second Demo Vid
 ## Discord
 
 Join our Discord server [here](https://discord.com/invite/nNtVfKddDD).
+
+## License 
+
+This project is licensed under the terms of the MIT license ©2023.
+
+For the full license text, please see the [LICENSE](./LICENSE) file.
