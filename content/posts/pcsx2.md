@@ -1,9 +1,9 @@
 ---
 title: pcsx2
-date: 2023-05-16T12:16:52+08:00
+date: 2023-06-26T12:20:30+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12161/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12161/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685714630051-9d231fb96992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685714630051-9d231fb96992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
 ---
 
 # [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2)

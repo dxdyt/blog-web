@@ -1,9 +1,9 @@
 ---
 title: top-cvpr-2023-papers
-date: 2023-06-24T12:18:59+08:00
+date: 2023-06-26T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682686580224-cd46ea1a6950?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682686580224-cd46ea1a6950?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684885565885-6bd13132257c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684885565885-6bd13132257c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
 ---
 
 # [SkalskiP/top-cvpr-2023-papers](https://github.com/SkalskiP/top-cvpr-2023-papers)

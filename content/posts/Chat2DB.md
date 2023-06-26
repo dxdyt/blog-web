@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2023-06-25T12:17:37+08:00
+date: 2023-06-26T12:19:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686902738032-a5d908c2b05b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686902738032-a5d908c2b05b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686659569920-28159b5fe4f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686659569920-28159b5fe4f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
 ---
 
 # [chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
@@ -204,15 +204,6 @@ But front debugging need mapping of resources, you can download [XSwitch](https:
 Please star and fork on GitHub before joining the group.
 Follow our WeChat public account
 <a><img src="https://oss-chat2db.alibaba.com/static/%E5%85%AC%E4%BC%97%E5%8F%B7.jpg" width="40%"/></a>
-
-<a><img src="./document/qrcode/weixinqun1.png" width="30%"/></a>
-<a><img src="./document/qrcode/weixinqun2.png" width="30%"/></a>
-<a><img src="./document/qrcode/weixinqun3.png" width="30%"/></a>
-
-Ding Talk：9135032392
-
-QQ:863576619
-
 
 ## ❤️ Acknowledgements
 Thanks to all the students who contributed to Chat2DB~

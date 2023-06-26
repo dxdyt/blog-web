@@ -1,9 +1,9 @@
 ---
 title: papers-we-love
-date: 2023-05-21T12:16:41+08:00
+date: 2023-06-26T12:19:24+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImage: https://images.unsplash.com/photo-1687226197732-f91552499640?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687226197732-f91552499640?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
 ---
 
 # [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love)
