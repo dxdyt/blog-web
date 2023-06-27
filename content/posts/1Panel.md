@@ -1,9 +1,9 @@
 ---
 title: 1Panel
-date: 2023-05-10T12:16:04+08:00
+date: 2023-06-27T12:18:11+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImage: https://images.unsplash.com/photo-1687193913065-a1c4aa6a0b7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687193913065-a1c4aa6a0b7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
@@ -16,6 +16,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
   <a href="https://app.codacy.com/gh/1Panel-dev/1Panel?utm_source=github.com&utm_medium=referral&utm_content=1Panel-dev/1Panel&utm_campaign=Badge_Grade_Dashboard"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
   <a href="https://github.com/1Panel-dev/1Panel/releases"><img src="https://img.shields.io/github/v/release/1Panel-dev/1Panel" alt="GitHub release"></a>
   <a href="https://github.com/1Panel-dev/1Panel"><img src="https://img.shields.io/github/stars/1Panel-dev/1Panel?color=%231890FF&style=flat-square" alt="Stars"></a>
+  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel?ref=badge_shield"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel.svg?type=shield" alt="FOSSA Status"></a>
 </p>
 
 ------------------------------
@@ -67,6 +68,10 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=1Panel-dev/1Panel&type=Date)](https://star-history.com/#1Panel-dev/1Panel&Date)
+
+## FOSSA Status
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel?ref=badge_large)
 
 ## License
 

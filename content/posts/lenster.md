@@ -1,9 +1,9 @@
 ---
 title: lenster
-date: 2023-03-23T12:18:42+08:00
+date: 2023-06-27T12:20:27+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11915/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [lensterxyz/lenster](https://github.com/lensterxyz/lenster)
@@ -15,7 +15,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
 </div>
 <br>
 <div align="center">
-    <a href="https://lenster.xyz/u/yoginth.lens">
+    <a href="https://lenster.xyz/u/yoginth">
         <img src="https://lens-badge.vercel.app/api/badge/yoginth.lens" alt="Lens">
     </a>
     <a href="https://vercel.com/lenster?utm_source=Lenster&utm_campaign=oss">
@@ -34,16 +34,19 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
         <img height="20px" src="https://betteruptime.com/status-badges/v1/monitor/dfaw.svg" alt="Uptime">
     </a>
     <a href="https://lenster.checklyhq.com">
-        <img src="https://api.checklyhq.com/v1/badges/checks/4c205fee-8666-4dc8-bc92-077084ef9643?style=flat&theme=default&responseTime=true" alt="Checkly">
+        <img src="https://api.checklyhq.com/v1/badges/checks/0f10fc23-4359-4cf9-a062-dbaa5a4cf0ea?style=flat&theme=default&responseTime=true" alt="Checkly">
     </a>
     <a href="https://github.com/lensterxyz/lenster/stargazers">
-        <img src="https://img.shields.io/github/stars/lensterxyz/lenster" alt="Stargazers">
+        <img src="https://img.shields.io/github/stars/lensterxyz/lenster?label=Stars&logo=github" alt="Stargazers">
     </a>
     <a href="https://github.com/lensterxyz/lenster/blob/main/LICENSE">
-        <img src="https://badgen.net/github/license/lensterxyz/lenster" alt="License">
+        <img src="https://img.shields.io/github/license/lensterxyz/lenster?label=Licence&logo=gnu" alt="License">
     </a>
     <a href="https://lenster.xyz/discord">
         <img src="https://img.shields.io/discord/953679040722665512.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2" alt="Discord">
+    </a>
+    <a href="https://github.com/orgs/lensterxyz/projects/6/views/3">
+        <img src="https://img.shields.io/github/issues/lensterxyz/lenster/Bounty?color=8b5cf6&label=Bounties&logo=ethereum" alt="Bounties">
     </a>
 </div>
 <div align="center">
@@ -57,7 +60,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
 
 ## 🌿 About Lenster
 
-Lenster is a decentralized and permissionless social media app built with [Lens Protocol](http://lens.xyz) 🌿
+Lenster is a cutting-edge social media application that leverages the power of [Lens Protocol](http://lens.xyz) 🌿 to create a decentralized and permissionless platform for users to interact, share, and engage with one another. With a focus on privacy, security, and user control, Lenster aims to revolutionize the social media landscape by providing a more transparent and equitable digital environment for its users.
 
 ## 📦 Environments
 
@@ -87,4 +90,4 @@ We love contributors! Feel free to contribute to this project but please read th
 
 ## ⚖️ License
 
-Lenster is open-sourced software licensed under the © [GPLv3](LICENSE).
+Lenster is open-sourced software licensed under the © [AGPLv3](LICENSE).

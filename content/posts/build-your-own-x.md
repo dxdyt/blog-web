@@ -1,9 +1,9 @@
 ---
 title: build-your-own-x
-date: 2023-06-25T12:18:27+08:00
+date: 2023-06-27T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684019329793-f86cf9cf38af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684019329793-f86cf9cf38af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685900337313-64cd27f0238e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685900337313-64cd27f0238e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
@@ -365,6 +365,7 @@ It's a great way to learn.
 * [**C**: _Let's build a shell!_](https://github.com/kamalmarhubi/shell-workshop)
 * [**C**: _Writing a UNIX Shell_](https://indradhanush.github.io/blog/writing-a-unix-shell-part-1/)
 * [**C**: _Build Your Own Shell_](https://github.com/tokenrove/build-your-own-shell)
+* [**C**: Write a shell in C](https://danishpraka.sh/posts/write-a-shell/)
 * [**Go**: _Writing a simple shell in Go_](https://sj14.gitlab.io/post/2018-07-01-go-unix-shell/)
 * [**Rust**: _Build Your Own Shell using Rust_](https://www.joshmcguigan.com/blog/build-your-own-shell-rust/)
 

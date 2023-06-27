@@ -1,9 +1,9 @@
 ---
 title: svelte
-date: 2023-06-26T12:18:17+08:00
+date: 2023-06-27T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686080188018-54c7d792d040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686080188018-54c7d792d040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687519837942-18875e21d90f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687519837942-18875e21d90f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [sveltejs/svelte](https://github.com/sveltejs/svelte)
@@ -60,7 +60,7 @@ To watch for changes and continually rebuild the package (this is useful if you'
 pnpm dev
 ```
 
-The compiler is written in [TypeScript](https://www.typescriptlang.org/), but don't let that put you off — it's basically just JavaScript with type annotations. You'll pick it up in no time. If you're using an editor other than [Visual Studio Code](https://code.visualstudio.com/), you may need to install a plugin in order to get syntax highlighting and code hints, etc.
+The compiler is written in JavaScript and uses [JSDoc](https://jsdoc.app/index.html) comments for type-checking.
 
 ### Running Tests
 

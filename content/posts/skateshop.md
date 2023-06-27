@@ -1,9 +1,9 @@
 ---
 title: skateshop
-date: 2023-06-26T12:18:06+08:00
+date: 2023-06-27T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687226197732-f91552499640?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687226197732-f91552499640?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687120484923-542ddb1edb63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687120484923-542ddb1edb63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [sadmann7/skateshop](https://github.com/sadmann7/skateshop)

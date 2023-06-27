@@ -1,9 +1,9 @@
 ---
 title: FastSAM
-date: 2023-06-26T12:18:34+08:00
+date: 2023-06-27T12:17:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686080188018-54c7d792d040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686080188018-54c7d792d040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686080188018-54c7d792d0
 
 # Fast Segment Anything
 
-[[`📕Paper`](https://arxiv.org/pdf/2306.12156.pdf)] [[`🤗HuggingFace Demo`](https://huggingface.co/spaces/An-619/FastSAM)] [[`Colab demo`](https://colab.research.google.com/drive/1oX14f6IneGGw612WgVlAiy91UHwFAvr9?usp=sharing)] [[`Model Zoo`](#model-checkpoints)] [[`BibTeX`](#citing-fastsam)]
+[[`📕Paper`](https://arxiv.org/pdf/2306.12156.pdf)] [[`🤗HuggingFace Demo`](https://huggingface.co/spaces/An-619/FastSAM)] [[`Colab demo`](https://colab.research.google.com/drive/1oX14f6IneGGw612WgVlAiy91UHwFAvr9?usp=sharing)] [[`Replicate demo & API`](https://replicate.com/casia-iva-lab/fastsam)] [[`Model Zoo`](#model-checkpoints)] [[`BibTeX`](#citing-fastsam)]
 
 ![FastSAM Speed](assets/head_fig.png)
 
@@ -20,6 +20,12 @@ The **Fast Segment Anything Model(FastSAM)** is a CNN Segment Anything Model tra
 the SAM method at **50× higher run-time speed**.
 
 ![FastSAM design](assets/Overview.png)
+
+**🍇 Updates**
+- **`2023/06/26`** Release [FastSAM Replicate Online Demo](https://replicate.com/casia-iva-lab/fastsam). Thanks a lot to [Chenxi](https://chenxwh.github.io/) for providing this nice demo 🌹.
+- **`2023/06/26`** Support [points mode](https://huggingface.co/spaces/An-619/FastSAM) in HuggingFace Space. Better and faster interaction will come soon!
+
+- **`2023/06/24`** Thanks a lot to [Grounding-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) for Combining Grounding-DINO with FastSAM in [Grounded-FastSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/FastSAM) 🌹.
 
 ## Installation
 
@@ -83,15 +89,30 @@ We provide various options for different purposes, details are in [MORE_USAGES.m
 
 ## Web demo
 
-In the [web demo](https://huggingface.co/spaces/An-619/FastSAM), you can upload your own image, select input size from 512~1024, and choose whether to visualize in high quality. High quality visualization additionally shows more easily observable split edges. The web demo only supports Everything Mode now, other modes will try to support in the future.
+### Gradio demo
 
-![Web Demo](assets/web_demo.png)
+- We also provide a UI for testing our method that is built with gradio. You can upload a custom image, select the mode and set the parameters, click the segment button, and get a satisfactory segmentation result. Everything mode and points mode are now supported for interaction, other modes will try to support in the future. Running the following command in a terminal will launch the demo:
+
+```
+# Download the pre-trained model in "./weights/FastSAM.pt"
+python app_gradio.py
+```
+
+- This demo is also hosted on [HuggingFace Space](https://huggingface.co/spaces/An-619/FastSAM).
+
+![HF_Everyhting](assets/hf_everything_mode.png) ![HF_Points](assets/hf_points_mode.png)
+
+### Replicate demo
+
+- [Replicate demo](https://replicate.com/casia-iva-lab/fastsam) has supported all modes, you can experience points/box/text mode.
+
+![Replicate-1](assets/replicate-1.png) ![Replicate-2](assets/replicate-2.png) ![Replicate-3](assets/replicate-3.png)
 
 ## <a name="Models"></a>Model Checkpoints
 
 Two model versions of the model are available with different sizes. Click the links below to download the checkpoint for the corresponding model type.
 
-- **`default` or `FastSAM`: [YOLOv8x based Segment Anything Model.](https://drive.google.com/file/d/1m1sjY4ihXBU1fZXdQ-Xdj-mDltW-2Rqv/view?usp=sharing)**
+- **`default` or `FastSAM`: [YOLOv8x based Segment Anything Model](https://drive.google.com/file/d/1m1sjY4ihXBU1fZXdQ-Xdj-mDltW-2Rqv/view?usp=sharing) | [Baidu Cloud (pwd: 0000).](https://pan.baidu.com/s/18KzBmOTENjByoWWR17zdiQ?pwd=0000)**
 - `FastSAM-s`: [YOLOv8s based Segment Anything Model.](https://drive.google.com/file/d/10XmSj6mmpmRb8NhXbtiuO9cTTBwR_9SV/view?usp=sharing)
 
 ## Results
@@ -157,7 +178,7 @@ zero-shot transfer methods
 |   SAM    | .465 | .308 | .510 | .617 |
 | FastSAM  | .379 | .239 | .434 | .500 |
 
-### 4. Performance Visulization
+### 4. Performance Visualization
 
 Several segmentation results:
 

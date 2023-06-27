@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2023-06-26T12:19:09+08:00
+date: 2023-06-27T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686659569920-28159b5fe4f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686659569920-28159b5fe4f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687120484923-542ddb1edb63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687120484923-542ddb1edb63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)

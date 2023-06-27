@@ -1,9 +1,9 @@
 ---
 title: kaguya
-date: 2023-06-25T12:17:29+08:00
+date: 2023-06-27T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684019329793-f86cf9cf38af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684019329793-f86cf9cf38af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687519837942-18875e21d90f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687519837942-18875e21d90f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [ykdojo/kaguya](https://github.com/ykdojo/kaguya)
@@ -37,7 +37,7 @@ You can run the project using Docker. Simply execute the `docker.sh` script:
 docker.sh
 ```
 
-After running the script, you can interact with Kaguya through ChatGPT using the localhost port.
+After running the script, you can interact with Kaguya through ChatGPT using the localhost port 3000.
 
 ## More About Kaguya
 
