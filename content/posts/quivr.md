@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-05-23T12:17:02+08:00
+date: 2023-06-28T12:20:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686538653516-7e2c9ced00aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686538653516-7e2c9ced00aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -21,6 +21,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 </div>
 
 Quivr, your second brain, utilizes the power of GenerativeAI to store and retrieve unstructured information. Think of it as Obsidian, but turbocharged with AI capabilities.
+
+[Roadmap here](https://getquivr.notion.site/Quivr-GenerativeAI-Second-Brain-3b22a6f50ffe4d259a6f120a17bc0543) 
 
 ## Key Features 🎯
 
@@ -95,25 +97,37 @@ cp .backend_env.example backend/.env
 cp .frontend_env.example frontend/.env
 ```
 
-- **Step 3**: Update the `backend/.env` file 
+- **Step 3**: Update the `backend/.env` and `frontend/.env` file 
 
 > _Your `supabase_service_key` can be found in your Supabase dashboard under Project Settings -> API. Use the `anon` `public` key found in the `Project API keys` section._
 
+
+> _Your  `JWT_SECRET_KEY`can be found in your supabase settings under Project Settings -> JWT Settings -> JWT Secret_
+
+> _To activate vertexAI with PaLM from GCP follow the instructions [here](https://python.langchain.com/en/latest/modules/models/llms/integrations/google_vertex_ai_palm.html) and update `bacend/.env`- It is an advanced feature, please be expert in GCP before trying to use it_
+
+- [ ] Change variables in `backend/.env`
+- [ ] Change variables in `frontend/.env`
+
 - **Step 4**: Run the following migration scripts on the Supabase database via the web interface (SQL Editor -> `New query`)
 
-[Migration Script 1](scripts/supabase_vector_store_document.sql)
+[Creation Script 1](scripts/tables.sql)
 
-[Migration Script 2](scripts/supabase_usage_table.sql)
-
-[Migration Script 3](scripts/supabase_vector_store_summary.sql)
+> _If you come from an old version of Quivr, you can use the [migration script](scripts/20230606131110_add_uuid_user_id.sql) to migrate your data to the new version_
 
 - **Step 5**: Launch the app
 
 ```bash
-docker compose build && docker compose up
+docker compose -f docker-compose.yml up --build
 ```
 
 - **Step 6**: Navigate to `localhost:3000` in your browser
+
+- ** Step 7**: Want to contribute to the project? 
+
+```
+docker compose -f docker-compose.dev.yml up --build
+```
 
 
 
@@ -135,8 +149,3 @@ Got a pull request? Open it, and we'll review it as soon as possible. Check out 
 - [Good First Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 - [Frontend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
 - [Backend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
-
-## Star History 🌟
-
-
-[![Star History Chart](https://api.star-history.com/svg?repos=StanGirard/quivr&type=Date)](https://star-history.com/#StanGirard/quivr&Date)

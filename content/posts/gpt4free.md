@@ -1,9 +1,9 @@
 ---
 title: gpt4free
-date: 2023-06-26T12:20:47+08:00
+date: 2023-06-28T12:19:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686080188018-54c7d792d040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686080188018-54c7d792d040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685392535337-0a20131650e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685392535337-0a20131650e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
 ---
 
 # [xtekky/gpt4free](https://github.com/xtekky/gpt4free)

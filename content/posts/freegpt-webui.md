@@ -1,9 +1,9 @@
 ---
 title: freegpt-webui
-date: 2023-06-26T12:19:44+08:00
+date: 2023-06-28T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687120486460-a12217b24b92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687120486460-a12217b24b92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685392535337-0a20131650e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685392535337-0a20131650e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
 ---
 
 # [ramonvc/freegpt-webui](https://github.com/ramonvc/freegpt-webui)
@@ -11,10 +11,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1687120486460-a12217b24b
 # FreeGPT WebUI 
 ## GPT 3.5/4
 
-❌ <strong>NOT REQUIRE ANY API KEY</strong> 🔑
+❌🔑 <strong>NOT REQUIRE ANY API KEY</strong> 
 
-This project showcases an unlocked version of ChatGPT with WebUI. <br>
-Experience the power of ChatGPT with a user-friendly interface, completely free. <br> <br>
+This project features a WebUI utilizing the [G4F API](https://github.com/xtekky/gpt4free). <br>
+Experience the power of ChatGPT with a user-friendly interface, enhanced jailbreaks, and completely free.
 
 🚧 Known bugs:
 - API Provider redirecting GPT-4 model to GPT-3.5;
@@ -59,13 +59,13 @@ To get started with this project, you'll need to clone the repository and have [
 Run the following command to clone the repository:  
 
 ```
-git clone https://github.com/ramonvc/gptfree-jailbreak-webui.git
+git clone https://github.com/ramonvc/gptfree-webui.git
 ```
 
 ### Install Dependencies :wrench: 
 Navigate to the project directory:
 ```
-cd gptfree-jailbreak-webui
+cd gptfree-webui
 ```
 
 Install the dependencies:

@@ -1,106 +1,109 @@
 ---
 title: DragGAN
-date: 2023-06-27T12:19:58+08:00
+date: 2023-06-28T12:19:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687253673690-fb5e3c7e09d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687253673690-fb5e3c7e09d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
 ---
 
-# [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN)
+# [Zeqiang-Lai/DragGAN](https://github.com/Zeqiang-Lai/DragGAN)
 
-<p align="center">
+# DragGAN
+[![PyPI](https://img.shields.io/pypi/v/draggan)](https://pypi.org/project/draggan/) 
+[![support](https://img.shields.io/badge/Support-macOS%20%7C%20Windows%20%7C%20Linux-blue)](#running-locally)
 
-  <h1 align="center">Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold</h1>
-  <p align="center">
-    <a href="https://xingangpan.github.io/"><strong>Xingang Pan</strong></a>
-    ·
-    <a href="https://ayushtewari.com/"><strong>Ayush Tewari</strong></a>
-    ·
-    <a href="https://people.mpi-inf.mpg.de/~tleimkue/"><strong>Thomas Leimkühler</strong></a>
-    ·
-    <a href="https://lingjie0206.github.io/"><strong>Lingjie Liu</strong></a>
-    ·
-    <a href="https://www.meka.page/"><strong>Abhimitra Meka</strong></a>
-    ·
-    <a href="http://www.mpi-inf.mpg.de/~theobalt/"><strong>Christian Theobalt</strong></a>
-  </p>
-  <h2 align="center">SIGGRAPH 2023 Conference Proceedings</h2>
-  <div align="center">
-    <img src="DragGAN.gif", width="600">
-  </div>
+:boom:  [`Colab Demo`](https://colab.research.google.com/github/Zeqiang-Lai/DragGAN/blob/master/colab.ipynb) | [`InternGPT Demo`](https://github.com/OpenGVLab/InternGPT) |  [`Local Deployment`](#running-locally) 
 
-  <p align="center">
-  <br>
-    <a href="https://pytorch.org/get-started/locally/"><img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-ee4c2c?logo=pytorch&logoColor=white"></a>
-    <a href="https://twitter.com/XingangP"><img alt='Twitter' src="https://img.shields.io/twitter/follow/XingangP?label=%40XingangP"></a>
-    <a href="https://arxiv.org/abs/2305.10973">
-      <img src='https://img.shields.io/badge/Paper-PDF-green?style=for-the-badge&logo=adobeacrobatreader&logoWidth=20&logoColor=white&labelColor=66cc00&color=94DD15' alt='Paper PDF'>
-    </a>
-    <a href='https://vcai.mpi-inf.mpg.de/projects/DragGAN/'>
-      <img src='https://img.shields.io/badge/DragGAN-Page-orange?style=for-the-badge&logo=Google%20chrome&logoColor=white&labelColor=D35400' alt='Project Page'></a>
-    <a href="https://huggingface.co/spaces/radames/DragGan"><img alt="Huggingface" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DragGAN-orange"></a>
-    <a href="https://colab.research.google.com/drive/1mey-IXPwQC_qSthI5hO-LTX7QL4ivtPh?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
-  </p>
+🤗  [`Huggingface Demo1`](https://huggingface.co/spaces/fffiloni/DragGAN) | [`Huggingface Demo2`](https://huggingface.co/spaces/wuutiing2/DragGAN_pytorch) 
+<!-- 
+❌ [`OpenXLab Demo1`](https://app-center-159608-7842-ap7840x.1.openxlab.space) |
+[`OpenXLab Demo2`](https://app-center-159608-4865-v1j68a2.1.openxlab.space) |
+[`OpenXLab Demo3`](https://app-center-159608-2913-rzrk7pl.0.openxlab.space)
+ -->
+<!-- pip install draggan -i https://pypi.org/simple/ -->
+
+> **Note for Colab, remember to select a GPU via `Runtime/Change runtime type` (`代码执行程序/更改运行时类型`).**
+> 
+> If you want to upload custom image, please install 1.1.0 via `pip install draggan==1.1.0`.
+
+
+Unofficial implementation of [Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold](https://vcai.mpi-inf.mpg.de/projects/DragGAN/)
+
+<p float="left">
+  <img src="assets/mouse.gif" width="200" />
+  <img src="assets/nose.gif" width="200" /> 
+  <img src="assets/cat.gif" width="200" />
+  <img src="assets/horse.gif" width="200" />
 </p>
 
-## Requirements
+## How it Work ?
 
-If you have CUDA graphic card, please follow the requirements of [NVlabs/stylegan3](https://github.com/NVlabs/stylegan3#requirements).  
 
-Otherwise (for GPU acceleration on MacOS with Silicon Mac M1/M2, or just CPU) try the following:
+Here is a simple tutorial video showing how to use our implementation.
 
-```sh
-cat environment.yml | \
-  grep -v -E 'nvidia|cuda' > environment-no-nvidia.yml && \
-    conda env create -f environment-no-nvidia.yml
-conda activate stylegan3
+https://github.com/Zeqiang-Lai/DragGAN/assets/26198430/f1516101-5667-4f73-9330-57fc45754283
 
-# On MacOS
-export PYTORCH_ENABLE_MPS_FALLBACK=1
-```
+Check out the original [paper](https://vcai.mpi-inf.mpg.de/projects/DragGAN/) for the backend algorithm and math.
 
-## Download pre-trained StyleGAN2 weights
+![demo](assets/paper.png)
 
-To download pre-trained weights, simply run:
-```sh
-sh scripts/download_model.sh
-```
-If you want to try StyleGAN-Human and the Landscapes HQ (LHQ) dataset, please download weights from these links: [StyleGAN-Human](https://drive.google.com/file/d/1dlFEHbu-WzQWJl7nBBZYcTyo000H9hVm/view?usp=sharing), [LHQ](https://drive.google.com/file/d/16twEf0T9QINAEoMsWefoWiyhcTd-aiWc/view?usp=sharing), and put them under `./checkpoints`.
+## News
 
-Feel free to try other pretrained StyleGAN.
+:star2: **What's New**
 
-## Run DragGAN GUI
+- [2023/6/25] Relase version 1.1.1, it includes a major bug fix and speed improvement.
+- [2023/6/25] [Official Code](https://github.com/XingangPan/DragGAN) is released, check it out.
+- [2023/5/29] A new version is in beta, install via `pip install draggan==1.1.0b2`, includes speed improvement and more models.
+- [2023/5/25] DragGAN is on PyPI, simple install via `pip install draggan`. Also addressed the common CUDA problems https://github.com/Zeqiang-Lai/DragGAN/issues/38  https://github.com/Zeqiang-Lai/DragGAN/issues/12
+- [2023/5/25] We now support StyleGAN2-ada with much higher quality and more types of images. Try it by selecting models started with "ada".
+- [2023/5/24] An out-of-box online demo is integrated in [InternGPT](https://github.com/OpenGVLab/InternGPT) - a super cool pointing-language-driven visual interactive system. Enjoy for free.:lollipop:
+- [2023/5/24] Custom Image with GAN inversion is supported, but it is possible that your custom images are distorted  due to the limitation of GAN inversion. Besides, it is also possible the manipulations fail due to the limitation of our implementation.
 
-To start the DragGAN GUI, simply run:
-```sh
-sh scripts/gui.sh
-```
+:star2: **Changelog**
 
-This GUI supports editing GAN-generated images. To edit a real image, you need to first perform GAN inversion using tools like [PTI](https://github.com/danielroich/PTI). Then load the new latent code and model weights to the GUI.
+- [x] Add a docker image, thanks [@egbaydarov](https://github.com/egbaydarov).
+- [ ] PTI GAN inversion https://github.com/Zeqiang-Lai/DragGAN/issues/71#issuecomment-1573461314
+- [x] Tweak performance, See [v2](https://github.com/Zeqiang-Lai/DragGAN/tree/v2).
+- [x] Improving installation experience, DragGAN is now on [PyPI](https://pypi.org/project/draggan).
+- [x] Automatically determining the number of iterations, See [v2](https://github.com/Zeqiang-Lai/DragGAN/tree/v2).
+- [ ] Allow to save video without point annotations, custom image size.
+- [x] Support StyleGAN2-ada.
+- [x] Integrate into [InternGPT](https://github.com/OpenGVLab/InternGPT)
+- [x] Custom Image with GAN inversion.
+- [x] Download generated image and generation trajectory.
+- [x] Controlling generation process with GUI.
+- [x] Automatically download stylegan2 checkpoint.
+- [x] Support movable region, multiple handle points.
+- [x] Gradio and Colab Demo.
 
-You can run DragGAN Gradio demo as well:
-```sh
-python visualizer_drag_gradio.py
-```
+> This project is now a sub-project of [InternGPT](https://github.com/OpenGVLab/InternGPT) for interactive image editing. Future updates of more cool tools beyond DragGAN would be added in [InternGPT](https://github.com/OpenGVLab/InternGPT). 
 
-## Acknowledgement
+## Running Locally
 
-This code is developed based on [StyleGAN3](https://github.com/NVlabs/stylegan3). Part of the code is borrowed from [StyleGAN-Human](https://github.com/stylegan-human/StyleGAN-Human).
+Please refer to [INSTALL.md](INSTALL.md).
 
-## License
 
-The code related to the DragGAN algorithm is licensed under [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
-However, most of this project are available under a separate license terms: all codes used or modified from [StyleGAN3](https://github.com/NVlabs/stylegan3) is under the [Nvidia Source Code License](https://github.com/NVlabs/stylegan3/blob/main/LICENSE.txt).
-
-Any form of use and derivative of this code must preserve the watermarking functionality showing "AI Generated".
-
-## BibTeX
+## Citation
 
 ```bibtex
 @inproceedings{pan2023draggan,
-    title={Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold},
+    title={Drag Your GAN: Interactive Point-based Manipulation on the Generative Image Manifold}, 
     author={Pan, Xingang and Tewari, Ayush, and Leimk{\"u}hler, Thomas and Liu, Lingjie and Meka, Abhimitra and Theobalt, Christian},
     booktitle = {ACM SIGGRAPH 2023 Conference Proceedings},
     year={2023}
 }
 ```
+
+
+## Acknowledgement
+
+[Official DragGAN](https://github.com/XingangPan/DragGAN) &ensp; [DragGAN-Streamlit](https://github.com/skimai/DragGAN) &ensp; [StyleGAN2](https://github.com/NVlabs/stylegan2)  &ensp; [StyleGAN2-pytorch](https://github.com/rosinality/stylegan2-pytorch)  &ensp; [StyleGAN2-Ada](https://github.com/NVlabs/stylegan2-ada-pytorch)   &ensp;  [StyleGAN-Human](https://github.com/stylegan-human/StyleGAN-Human) &ensp;  [Self-Distilled-StyleGAN](https://github.com/self-distilled-stylegan/self-distilled-internet-photos)
+
+<!-- Welcome to discuss with us and continuously improve the user experience of DragGAN.
+Reach us with this WeChat QR Code. -->
+
+
+<p align="left"><img width="300" alt="image" src="https://github.com/Zeqiang-Lai/DragGAN/assets/26198430/3cb5b7d6-50d1-4e80-9943-ad2e61b69395"></p> 
+
+
+

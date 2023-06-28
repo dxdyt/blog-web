@@ -1,9 +1,9 @@
 ---
 title: UniAD
-date: 2023-06-26T12:21:16+08:00
+date: 2023-06-28T12:20:04+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1679079456931-21e0932ea3ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1679079456931-21e0932ea3ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686538653516-7e2c9ced00aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686538653516-7e2c9ced00aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
 ---
 
 # [OpenDriveLab/UniAD](https://github.com/OpenDriveLab/UniAD)

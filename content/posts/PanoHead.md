@@ -1,9 +1,9 @@
 ---
 title: PanoHead
-date: 2023-06-27T12:20:04+08:00
+date: 2023-06-28T12:19:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687193913065-a1c4aa6a0b7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687193913065-a1c4aa6a0b7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687294782370-5ae92f081c47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687294782370-5ae92f081c47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
 ---
 
 # [SizheAn/PanoHead](https://github.com/SizheAn/PanoHead)
