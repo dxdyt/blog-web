@@ -1,9 +1,9 @@
 ---
 title: open-resume
-date: 2023-06-28T12:18:22+08:00
+date: 2023-06-29T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687294782370-5ae92f081c47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687294782370-5ae92f081c47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686587700721-fbd30eff631b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686587700721-fbd30eff631b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [xitanggg/open-resume](https://github.com/xitanggg/open-resume)

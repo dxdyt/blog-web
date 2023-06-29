@@ -1,9 +1,9 @@
 ---
 title: FastSAM
-date: 2023-06-28T12:17:49+08:00
+date: 2023-06-29T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687360674408-6f9d6eb19f44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687360674408-6f9d6eb19f44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1641214069135-d284af139807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1641214069135-d284af139807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [CASIA-IVA-Lab/FastSAM](https://github.com/CASIA-IVA-Lab/FastSAM)
@@ -22,10 +22,10 @@ the SAM method at **50× higher run-time speed**.
 ![FastSAM design](assets/Overview.png)
 
 **🍇 Updates**
+- **`2023/06/29`** Release [FastSAM_Awesome_TensorRT](https://github.com/ChuRuaNh0/FastSam_Awsome_TensorRT). Thanks a lot to [ChuRuaNh0](https://github.com/ChuRuaNh0) for providing the TensorRT model of FastSAM 🌹.
 - **`2023/06/26`** Release [FastSAM Replicate Online Demo](https://replicate.com/casia-iva-lab/fastsam). Thanks a lot to [Chenxi](https://chenxwh.github.io/) for providing this nice demo 🌹.
 - **`2023/06/26`** Support [points mode](https://huggingface.co/spaces/An-619/FastSAM) in HuggingFace Space. Better and faster interaction will come soon!
-
-- **`2023/06/24`** Thanks a lot to [Grounding-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) for Combining Grounding-DINO with FastSAM in [Grounded-FastSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/FastSAM) 🌹.
+- **`2023/06/24`** Thanks a lot to [Grounding-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) for Combining Grounding-DINO with FastSAM in [Grounded-FastSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM) 🌹.
 
 ## Installation
 
@@ -79,6 +79,33 @@ python Inference.py --model_path ./weights/FastSAM.pt --img_path ./images/dogs.j
 ```shell
 # Points prompt
 python Inference.py --model_path ./weights/FastSAM.pt --img_path ./images/dogs.jpg  --point_prompt "[[520,360],[620,300]]" --point_label "[1,0]"
+```
+
+You can use the following code to generate all masks, make mask selection based on prompts, and visualize the results.
+```shell
+from fastsam import FastSAM, FastSAMPrompt
+
+model = FastSAM('./weights/FastSAM.pt')
+IMAGE_PATH = './images/dogs.jpg'
+DEVICE = 'cpu'
+everything_results = model(IMAGE_PATH, device=DEVICE, retina_masks=True, imgsz=1024, conf=0.4, iou=0.9,)
+prompt_process = FastSAMPrompt(IMAGE_PATH, everything_results, device=DEVICE)
+
+# everything prompt
+ann = prompt_process.everything_prompt()
+
+# bbox default shape [0,0,0,0] -> [x1,y1,x2,y2]
+ann = prompt_process.box_prompt(bbox=[200, 200, 300, 300])
+
+# text prompt
+ann = prompt_process.text_prompt(text='a photo of a dog')
+
+# point prompt
+# points default [[0,0]] [[x1,y1],[x2,y2]]
+# point_label default [0] [1,0] 0:background, 1:foreground
+ann = prompt_process.point_prompt(points=[[620, 360]], pointlabel=[1])
+
+prompt_process.plot(annotations=ann,output='./output/',)
 ```
 
 You are also welcomed to try our Colab demo: [FastSAM_example.ipynb](https://colab.research.google.com/drive/1oX14f6IneGGw612WgVlAiy91UHwFAvr9?usp=sharing).
@@ -220,6 +247,7 @@ The model is licensed under the [Apache 2.0 license](LICENSE).
 ## Contributors
 
 Our project wouldn't be possible without the contributions of these amazing people! Thank you all for making this project better.
+
 
 <a href="https://github.com/CASIA-IVA-Lab/FastSAM/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CASIA-IVA-Lab/FastSAM" />

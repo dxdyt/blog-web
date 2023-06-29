@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-06-12T12:17:58+08:00
+date: 2023-06-29T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683143726433-09aebe1a7871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683143726433-09aebe1a7871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686383094935-7e8c0d7105a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686383094935-7e8c0d7105a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)

@@ -1,9 +1,9 @@
 ---
 title: project-based-learning
-date: 2023-04-14T12:16:38+08:00
+date: 2023-06-29T12:19:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImage: https://images.unsplash.com/photo-1686508423078-87a2246d1242?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686508423078-87a2246d1242?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)

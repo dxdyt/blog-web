@@ -1,9 +1,9 @@
 ---
 title: embedchain
-date: 2023-06-28T12:18:06+08:00
+date: 2023-06-29T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686538653516-7e2c9ced00aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686538653516-7e2c9ced00aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686383094935-7e8c0d7105a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686383094935-7e8c0d7105a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [embedchain/embedchain](https://github.com/embedchain/embedchain)
@@ -153,7 +153,7 @@ Creating a chat bot over any dataset needs the following steps to happen
 
 * load the data
 * create meaningful chunks
-* create embeddigns for each chunk
+* create embeddings for each chunk
 * store the chunks in vector database
 
 Whenever a user asks any query, following process happens to find the answer for the query

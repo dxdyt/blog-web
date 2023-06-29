@@ -1,9 +1,9 @@
 ---
 title: Web-Dev-For-Beginners
-date: 2023-06-28T12:18:40+08:00
+date: 2023-06-29T12:20:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687253673690-fb5e3c7e09d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687253673690-fb5e3c7e09d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1641214069135-d284af139807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1641214069135-d284af139807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)

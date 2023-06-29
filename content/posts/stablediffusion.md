@@ -1,9 +1,9 @@
 ---
 title: stablediffusion
-date: 2023-06-27T12:18:03+08:00
+date: 2023-06-29T12:19:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686587700721-fbd30eff631b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686587700721-fbd30eff631b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
 ---
 
 # [Stability-AI/stablediffusion](https://github.com/Stability-AI/stablediffusion)
