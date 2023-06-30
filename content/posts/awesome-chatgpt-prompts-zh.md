@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts-zh
-date: 2023-06-28T12:19:16+08:00
+date: 2023-06-30T12:19:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687462133022-2f3f256afe62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687462133022-2f3f256afe62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685367274296-a7e35344bc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685367274296-a7e35344bc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)

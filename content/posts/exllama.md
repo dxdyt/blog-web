@@ -1,9 +1,9 @@
 ---
 title: exllama
-date: 2023-06-29T12:18:18+08:00
+date: 2023-06-30T12:18:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686508423078-87a2246d1242?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686508423078-87a2246d1242?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685954998816-6b413b3ecc7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685954998816-6b413b3ecc7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [turboderp/exllama](https://github.com/turboderp/exllama)

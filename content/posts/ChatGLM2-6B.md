@@ -1,9 +1,9 @@
 ---
 title: ChatGLM2-6B
-date: 2023-06-29T12:17:34+08:00
+date: 2023-06-30T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1641214069135-d284af139807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1641214069135-d284af139807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687707803698-8269353d282f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687707803698-8269353d282f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/ChatGLM2-6B](https://github.com/THUDM/ChatGLM2-6B)

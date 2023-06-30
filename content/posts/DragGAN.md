@@ -1,9 +1,9 @@
 ---
 title: DragGAN
-date: 2023-06-29T12:17:27+08:00
+date: 2023-06-30T12:17:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686391293369-e0e660c7ef82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686391293369-e0e660c7ef82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687161877224-9b1b0448cc17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687161877224-9b1b0448cc17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN)
@@ -85,8 +85,8 @@ Provided docker image is based on NGC PyTorch repository. To quickly try out vis
 
 ```sh
 docker build . -t draggan:latest  
-docker run -v  "$PWD":/workspace/src -it draggan:latest bash  
-cd src && python visualizer_drag_gradio.py  
+docker run -p 7860: 7860 -v "$PWD":/workspace/src -it draggan:latest bash  
+cd src && python visualizer_drag_gradio.py --listen
 ```
 Now you can open a shared link from Gradio (printed in the terminal console).   
 Beware the Docker image takes about 25GB of disk space!
@@ -94,12 +94,9 @@ Beware the Docker image takes about 25GB of disk space!
 ## Download pre-trained StyleGAN2 weights
 
 To download pre-trained weights, simply run:
-```sh
-sh scripts/download_model.sh
+
 ```
-Or for windows:
-```
-.\scripts\download_model.bat
+python scripts/download_model.py
 ```
 If you want to try StyleGAN-Human and the Landscapes HQ (LHQ) dataset, please download weights from these links: [StyleGAN-Human](https://drive.google.com/file/d/1dlFEHbu-WzQWJl7nBBZYcTyo000H9hVm/view?usp=sharing), [LHQ](https://drive.google.com/file/d/16twEf0T9QINAEoMsWefoWiyhcTd-aiWc/view?usp=sharing), and put them under `./checkpoints`.
 

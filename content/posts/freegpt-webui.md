@@ -1,9 +1,9 @@
 ---
 title: freegpt-webui
-date: 2023-06-28T12:17:58+08:00
+date: 2023-06-30T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685392535337-0a20131650e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685392535337-0a20131650e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [ramonvc/freegpt-webui](https://github.com/ramonvc/freegpt-webui)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1685392535337-0a20131650
 This project features a WebUI utilizing the [G4F API](https://github.com/xtekky/gpt4free). <br>
 Experience the power of ChatGPT with a user-friendly interface, enhanced jailbreaks, and completely free.
 
-🚧 Known bugs:
+## 🚧 Known bugs:
 - API Provider redirecting GPT-4 model to GPT-3.5;
 - Auto Proxy is not working.
 
@@ -59,13 +59,13 @@ To get started with this project, you'll need to clone the repository and have [
 Run the following command to clone the repository:  
 
 ```
-git clone https://github.com/ramonvc/gptfree-webui.git
+git clone https://github.com/ramonvc/freegpt-webui.git
 ```
 
 ### Install Dependencies :wrench: 
 Navigate to the project directory:
 ```
-cd gptfree-webui
+cd freegpt-webui
 ```
 
 Install the dependencies:

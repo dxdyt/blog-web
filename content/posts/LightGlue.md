@@ -1,9 +1,9 @@
 ---
 title: LightGlue
-date: 2023-06-29T12:20:33+08:00
+date: 2023-06-30T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686615957594-4fc41be6f705?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686615957594-4fc41be6f705?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687161877224-9b1b0448cc17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687161877224-9b1b0448cc17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [cvg/LightGlue](https://github.com/cvg/LightGlue)
