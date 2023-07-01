@@ -1,9 +1,9 @@
 ---
 title: MobileSAM
-date: 2023-06-30T12:16:41+08:00
+date: 2023-07-01T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
 ---
 
 # [ChaoningZhang/MobileSAM](https://github.com/ChaoningZhang/MobileSAM)
@@ -15,16 +15,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa77
 # Faster Segment Anything (MobileSAM)
 :pushpin: MobileSAM paper is available at [ResearchGate](https://www.researchgate.net/publication/371851844_Faster_Segment_Anything_Towards_Lightweight_SAM_for_Mobile_Applications) and [arXiv](https://arxiv.org/pdf/2306.14289.pdf). The latest version will first appear on [ResearchGate](https://arxiv.org/pdf/2306.14289.pdf), since it takes time for arXiv to update the content.
 
-:pushpin: A **demo of MobileSAM** running on **CPU** is open at [demo link](https://huggingface.co/spaces/dhkim2810/MobileSAM) (A new version with other features will come soon, stay tuned!). On our own Mac i5 CPU, it takes around 3s. On the hugging face demo, the interface and inferior CPUs make it slower but still works fine.
+:pushpin: **MobileSAM supports ONNX model export**. Feel free to test it on your devices and let us know in case of unexpected issues.
 
-:grapes: Media coverage and Projects that adapt from SAM to MobileSAM (Updates)
+:pushpin: **A demo of MobileSAM** running on **CPU in the hugging face** is open at [demo link](https://huggingface.co/spaces/dhkim2810/MobileSAM). On our own Mac i5 CPU, it takes around 3s. On the hugging face demo, the interface and inferior CPUs make it slower but still works fine. Stayed tuned for a new version with more features!
 
+:pushpin: **A demo of MobileSAM** running on **CPU in your own browser** is open at [demo link](https://mobilesam.glitch.me/). This demo is made by [MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser). Note that this is an unofficial version and stayed tuned for an official version with more features!
+
+:grapes: Media coverage and Projects that adapt from SAM to MobileSAM (Daily update. Thank you all!)
+
+* **2023/07/01**: [MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser) makes an example implementation of MobileSAM in the browser.
+* **2023/06/30**: [SegmentAnythingin3D](https://github.com/Jumpat/SegmentAnythingin3D) supports MobileSAM to segment anything in 3D efficiently.
 * **2023/06/30**: MobileSAM has been featured by [AK](https://twitter.com/_akhaliq?lang=en) for the second time, see the link [AK's MobileSAM tweet](https://twitter.com/_akhaliq/status/1674410573075718145). Welcome to retweet.
-* **2023/06/29**: [AnyLabeling](https://github.com/vietanhdev/anylabeling) supports MobileSAM for auto-labeling. Thanks for their effort.
-* **2023/06/29**: [SonarSAM](https://github.com/wangsssky/SonarSAM) supports MobileSAM for Image encoder full-finetuing. Thanks for their effort.
-* **2023/06/29**: [Stable Diffusion WebUIv](https://github.com/continue-revolution/sd-webui-segment-anything) supports MobileSAM. Thanks for their effort.
+* **2023/06/29**: [AnyLabeling](https://github.com/vietanhdev/anylabeling) supports MobileSAM for auto-labeling. 
+* **2023/06/29**: [SonarSAM](https://github.com/wangsssky/SonarSAM) supports MobileSAM for Image encoder full-finetuing. 
+* **2023/06/29**: [Stable Diffusion WebUIv](https://github.com/continue-revolution/sd-webui-segment-anything) supports MobileSAM. 
 
-* **2023/06/28**: [Grounding-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) supports MobileSAM with [Grounded-MobileSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM). Thanks for their effort.
+* **2023/06/28**: [Grounding-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything) supports MobileSAM with [Grounded-MobileSAM](https://github.com/IDEA-Research/Grounded-Segment-Anything/tree/main/EfficientSAM). 
 
 * **2023/06/27**: MobileSAM has been featured by [AK](https://twitter.com/_akhaliq?lang=en), see the link [AK's MobileSAM tweet](https://twitter.com/_akhaliq/status/1673585099097636864). Welcome to retweet.
 ![MobileSAM](assets/model_diagram.jpg?raw=true)
@@ -56,7 +62,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa77
     Paramters      |  615M   | 9.66M
     Speed      |  456ms  | 12ms
 
-:star: **Original SAM and MobileSAM with a (single) point as the prompt.**  
+:star: **Original SAM and MobileSAM with a point as the prompt.**  
 
 <p float="left">
   <img src="assets/mask_point.jpg?raw=true" width="99.1%" />
@@ -114,19 +120,17 @@ cd MobileSAM; pip install -e .
 The MobileSAM can be loaded in the following ways:
 
 ```
-from mobile_encoder.setup_mobile_sam import setup_model
-checkpoint = torch.load('../weights/mobile_sam.pt')
-mobile_sam = setup_model()
-mobile_sam.load_state_dict(checkpoint,strict=True)
-```
+from mobile_sam import sam_model_registry, SamAutomaticMaskGenerator, SamPredictor
 
-Then the model can be easily used in just a few lines to get masks from a given prompt:
+model_type = "vit_t"
+sam_checkpoint = "./weights/mobile_sam.pt"
 
-```
-from segment_anything import SamPredictor
-device = "cuda"
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+mobile_sam = sam_model_registry[model_type](checkpoint=sam_checkpoint)
 mobile_sam.to(device=device)
 mobile_sam.eval()
+
 predictor = SamPredictor(mobile_sam)
 predictor.set_image(<your_image>)
 masks, _, _ = predictor.predict(<input_prompts>)
@@ -135,11 +139,21 @@ masks, _, _ = predictor.predict(<input_prompts>)
 or generate masks for an entire image:
 
 ```
-from segment_anything import SamAutomaticMaskGenerator
+from mobile_sam import SamAutomaticMaskGenerator
 
 mask_generator = SamAutomaticMaskGenerator(mobile_sam)
 masks = mask_generator.generate(<your_image>)
 ```
+
+### ONNX Export
+**MobileSAM** now supports ONNX export. Export the model with
+
+```
+python scripts/export_onnx_model.py --checkpoint ./weights/mobile_sam.pt --model-type vit_t --output ./mobile_sam.onnx
+```
+
+Also check the [example notebook](https://github.com/ChaoningZhang/MobileSAM/blob/master/notebooks/onnx_model_example.ipynb) to follow detailed steps.
+We recommend to use `onnx==1.12.0` and `onnxruntime==1.13.1` which is tested.
 
 
 ## BibTex of our MobileSAM

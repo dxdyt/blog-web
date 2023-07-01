@@ -1,9 +1,9 @@
 ---
 title: chinese-poetry
-date: 2023-05-28T12:17:28+08:00
+date: 2023-07-01T12:18:26+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12183/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12183/0/1080p
+featuredImage: https://images.unsplash.com/photo-1684873877875-d2b55f8df0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684873877875-d2b55f8df0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
 ---
 
 # [chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)

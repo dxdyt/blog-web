@@ -1,9 +1,9 @@
 ---
 title: telegram-groups
-date: 2023-06-29T12:18:32+08:00
+date: 2023-07-01T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686172903689-d0d6ceec2163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686172903689-d0d6ceec2163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1682686579976-879b74d6d7ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682686579976-879b74d6d7ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
 ---
 
 # [alexbei/telegram-groups](https://github.com/alexbei/telegram-groups)
@@ -15,9 +15,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1686172903689-d0d6ceec21
 > 如果大家有发现存在敏感内容的群组、频道和机器人欢迎在issue中提交，会在第一时间处理。
 
 
-[GitHub项目直达](https://github.com/alexbei/telegram-groups)
+> GitHub 项目直达：[telegram-groups](https://github.com/alexbei/telegram-groups)
 
-[项目的背景故事](https://www.tgqun.xyz/background-story)
+- 
+  [项目的背景故事：《解决Telegram中文资源分享难题的Python爬虫项目》](https://www.tgqun.xyz/%E8%A7%A3%E5%86%B3Telegram%E4%B8%AD%E6%96%87%E8%B5%84%E6%BA%90%E5%88%86%E4%BA%AB%E9%9A%BE%E9%A2%98%E7%9A%84Python%E7%88%AC%E8%99%AB%E9%A1%B9%E7%9B%AE)
+
+- [怎么做开源项目：《如何在4天内获得一个1.5k+ Star的Github项目 - 策略与反思》](https://www.tgqun.xyz/%E5%A6%82%E4%BD%95%E5%9C%A84%E5%A4%A9%E5%86%85%E8%8E%B7%E5%BE%97%E4%B8%80%E4%B8%AA1.5k+%20Star%E7%9A%84Github%E9%A1%B9%E7%9B%AE%20-%20%E7%AD%96%E7%95%A5%E4%B8%8E%E5%8F%8D%E6%80%9D)
 
 
 
@@ -481,20 +484,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1686172903689-d0d6ceec21
 | [抽奖助手](https://t.me/LotteryHelperBot)                 | 抽奖机器人                                                   |
 | [RSSchina\_bot](https://t.me/RSSchina_bot)                | rss订阅机器人                                                |
 | [RSSBot](https://t.me/RustRssBot)                         | 中文TelegramRSS机器人                                        |
-| [LotteryBotV2](https://t.me/tgLotteryBot)                 | Telegram中文公平抽奖机器人                                   |
 | [Bing词典](https://t.me/bingdict_bot)                     | 基于Bing的词典、翻译功能                                     |
 | [网易云音乐ncm转换器](https://t.me/netease_ncm_bot)       | 把网易云音乐的NCM文件转换为普通的mp3或者flac文件             |
 | [一起搜电影](https://t.me/Cctv365bot)                     | TG必备影视搜索神器，找到您喜欢的电影、电视剧                 |
-| [图片劣化](https://t.me/JPEGreenBot)                      | 图片劣化                                                     |
-| [频道助手](https://t.me/septs_autoclean_bot)              | 频道助手                                                     |
 | [好音乐搜索](https://t.me/haoyybot)                       | 歌曲音乐搜索机器人，输入歌曲名或者歌手名，把TG变成音乐播放器 |
 | [解除频道消息在群组的置顶](https://t.me/areply_bot)       | 自动解除频道消息在群组的同步置顶，附带群组日常维护常用小功能 |
-| [中英翻譯](https://t.me/en_to_tw_bot)                     | 這個可以在超級群中用 自動翻譯英                              |
 | [Telegram权限管理机器人](https://t.me/autopm_bot)         | 权限管理机器人                                               |
 | [NoAdBot](https://t.me/keyworddel_bot)                    | 本机器人基于人工智能、机器学习和深度学习,自动删除群组"推广/广告"等消息 |
-| [这个我知道-关键词机器人](https://t.me/keyword_reply_bot) | 根据关键词和正则规则进行回复和群管操作，需要管理员权限       |
 | [GIF出处查询机器人](https://t.me/TumblrAce_bot)           | 本机器人可以帮助您查找GIF动图的出处                          |
-| [词云机器人](https://t.me/iWordCloudBot)                  | 受API限制，授予管理员后，机器人才能接收到聊天文本，为了安全，您可以将所有权限关闭 |
+| [词云机器人](https://t.me/iiWordCloudBot)                  | 受API限制，授予管理员后，机器人才能接收到聊天文本，为了安全，您可以将所有权限关闭 |
 | [流媒体解锁测试](https://t.me/stairunlock_test_bot)       | 流媒体解锁测试                                               |
 | [PremiumCounterBot](https://t.me/PremiumCounterBot)       | 一个计算群内TelegramPremium用户占比的机器人                  |
 | [UserMetaBot](https://t.me/UserMeta_Bot)                  | 统计群内每天活跃成员，需要添加机器人为群管理员。             |
