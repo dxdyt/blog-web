@@ -1,9 +1,9 @@
 ---
 title: aigc
-date: 2023-07-01T12:19:16+08:00
+date: 2023-07-02T12:19:02+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1685282196439-ad1bc144c66b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1685282196439-ad1bc144c66b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686642930816-0318a4b78f34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686642930816-0318a4b78f34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [phodal/aigc](https://github.com/phodal/aigc)

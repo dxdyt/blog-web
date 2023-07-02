@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-06-30T12:19:40+08:00
+date: 2023-07-02T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687707803698-8269353d282f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687707803698-8269353d282f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687517077806-de89a37a2605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687517077806-de89a37a2605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687707803698-8269353d28
 
 Quivr, your second brain, utilizes the power of GenerativeAI to store and retrieve unstructured information. Think of it as Obsidian, but turbocharged with AI capabilities.
 
-[Roadmap here](https://getquivr.notion.site/Quivr-GenerativeAI-Second-Brain-3b22a6f50ffe4d259a6f120a17bc0543) 
+[Roadmap here](https://brains.quivr.app)
 
 ## Key Features 🎯
 
@@ -43,22 +43,13 @@ Quivr, your second brain, utilizes the power of GenerativeAI to store and retrie
 
 ## Demo Highlights 🎥
 
-> **Please note: The DEMO WITH STREAMLIT IS USING AN OLD VERSION**  
-> The new version showcases a fresh UI, however, it is not yet deployed as it lacks some features of the old version. Expected to go live before 25/05/23
-
-### **Demo with GPT3.5**:
-https://github.com/StanGirard/quivr/assets/19614572/80721777-2313-468f-b75e-09379f694653
-
-### **Demo with Claude 100k context**: https://github.com/StanGirard/quivr/assets/5101573/9dba918c-9032-4c8d-9eea-94336d2c8bd4
-
-### **Demo of the new version (Work in progress)**: 
 https://github.com/StanGirard/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5
 
-## Getting Started: New Version 🚀
+## Getting Started: 🚀
 
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-**Old version's readme** is located in the streamlit-demo folder [here](streamlit-demo/README.md)
+You can find everything on the documentation [here](https://brains.quivr.app/)
 
 ### Prerequisites 📋
 
@@ -113,7 +104,7 @@ cp .frontend_env.example frontend/.env
 
 [Creation Script 1](scripts/tables.sql)
 
-> _If you come from an old version of Quivr, you can use the [migration script](scripts/20230606131110_add_uuid_user_id.sql) to migrate your data to the new version_
+> _If you come from an old version of Quivr, run the scripts in [migration script](scripts/) to migrate your data to the new version in the order of date_
 
 - **Step 5**: Launch the app
 
@@ -143,9 +134,36 @@ Thanks goes to these wonderful people:
 Got a pull request? Open it, and we'll review it as soon as possible. Check out our project board [here](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
 
 
-- [Roadmap](https://github.com/users/StanGirard/projects/5)
 - [Open Issues](https://github.com/StanGirard/quivr/issues)
 - [Open Pull Requests](https://github.com/StanGirard/quivr/pulls)
 - [Good First Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
 - [Frontend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
 - [Backend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
+
+## Sponsors ❤️
+
+This project could not be possible without the support of our sponsors. Thank you for your support!
+
+<a href="https://www.theodo.fr/">
+  <img src="https://avatars.githubusercontent.com/u/332041?s=200&v=4" alt="Theodo" style="padding: 10px" width="70px">
+</a>
+<a href="https://www.padok.fr/">
+  <img src="https://avatars.githubusercontent.com/u/46325765?s=200&v=4" alt="Padok" style="padding: 10px" width="70px">
+</a>
+<a href="https://www.aleios.com/">
+  <img src="https://avatars.githubusercontent.com/u/97908131?s=200&v=4" alt="Aleios" style="padding: 10px" width="70px">
+</a>
+<a href="https://www.bam.tech/">
+  <img src="https://avatars.githubusercontent.com/u/9597329?s=200&v=4" alt="BAM" style="padding: 10px" width="70px">
+</a>
+
+
+
+## License 📄
+
+This project is licensed under the Apache 2.0 License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+## Stars History 📈
+
+[![Star History Chart](https://api.star-history.com/svg?repos=StanGirard/quivr&type=Timeline)](https://star-history.com/#StanGirard/quivr&Timeline)

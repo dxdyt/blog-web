@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2023-07-01T12:19:08+08:00
+date: 2023-07-02T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684873877875-d2b55f8df0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684873877875-d2b55f8df0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687368438644-3ba4c870a26c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687368438644-3ba4c870a26c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -145,7 +145,7 @@ We would also like to give thanks to open-source projects that make AFFiNE possi
 
 - [BlockSuite](https://github.com/toeverything/BlockSuite) - 💠 BlockSuite is the open-source collaborative editor project behind AFFiNE.
 - [OctoBase](https://github.com/toeverything/OctoBase) - 🐙 OctoBase is the open-source database behind AFFiNE, local-first, yet collaborative. A light-weight, scalable, data engine written in Rust.
-- [Yjs](https://github.com/yjs/yjs) & [Yrs](https://github.com/y-crdt/y-crdt) - Fundamental support of CRDTs for our implementation on state management and data sync.
+- [Yjs](https://github.com/yjs/yjs) - Fundamental support of CRDTs for our implementation on state management and data sync.
 - [Electron](https://github.com/electron/electron) - Build cross-platform desktop apps with JavaScript, HTML, and CSS.
 - [React](https://github.com/facebook/react) - View layer support and web GUI framework.
 - [Rust](https://github.com/rust-lang/rust) - High performance language that extends the ability and availability of our real-time backend, OctoBase.

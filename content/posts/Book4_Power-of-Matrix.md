@@ -1,9 +1,9 @@
 ---
 title: Book4_Power-of-Matrix
-date: 2023-06-11T12:17:33+08:00
+date: 2023-07-02T12:19:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684180114254-73c0215cd8b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684180114254-73c0215cd8b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688019984360-50d40dfa955a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688019984360-50d40dfa955a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [Visualize-ML/Book4_Power-of-Matrix](https://github.com/Visualize-ML/Book4_Power-of-Matrix)

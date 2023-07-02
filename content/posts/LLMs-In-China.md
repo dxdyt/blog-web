@@ -1,9 +1,9 @@
 ---
 title: LLMs-In-China
-date: 2023-07-01T12:17:42+08:00
+date: 2023-07-02T12:17:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687440749453-298f255977ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687440749453-298f255977ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688019984360-50d40dfa955a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688019984360-50d40dfa955a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [wgwang/LLMs-In-China](https://github.com/wgwang/LLMs-In-China)

@@ -1,9 +1,9 @@
 ---
 title: background-removal-js
-date: 2023-07-01T12:19:26+08:00
+date: 2023-07-02T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687748972289-a38b31fbb16f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687748972289-a38b31fbb16f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [imgly/background-removal-js](https://github.com/imgly/background-removal-js)
@@ -17,19 +17,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1687748972289-a38b31fbb1
 Remove backgrounds from images directly in the browser environment with ease and no additional costs or privacy concerns.
 Explore an [interactive demo](https://img.ly/showcases/cesdk/web/background-removal/web?utm_source=github&utm_medium=project&utm_campaign=bg-removal).
 
+## News
+
+- **`June 28th, 2023`:** We released the code of Background Removal JS.
+
 ## Overview
 
-@imgly/background-removal is a powerful npm package that allows developers to seamlessly remove the background from images directly in the browser. With its unique features and capabilities, this package offers an innovative and cost-effective solution for background removal tasks without compromising data privacy.
+`@imgly/background-removal` is a powerful npm package that allows developers to seamlessly remove the background from images directly in the browser. With its unique features and capabilities, this package offers an innovative and cost-effective solution for background removal tasks without compromising data privacy.
 
-The key features of @imgly/background-removal are:
+The key features of `@imgly/background-removal` are:
 
 - **In-Browser Background Removal**: Our one-of-a-kind solution performs the entire background removal process directly in the user's browser, eliminating the need for additional server costs. By leveraging the computing power of the local device, users can enjoy a fast and efficient background removal process.
 
-- **Data Protection**: As @imgly/background-removal runs entirely in the browser, users can have peace of mind knowing that their images and sensitive information remain secure within their own devices. With no data transfers to external servers, data privacy concerns are effectively mitigated.
+- **Data Protection**: As `@imgly/background-removal` runs entirely in the browser, users can have peace of mind knowing that their images and sensitive information remain secure within their own devices. With no data transfers to external servers, data privacy concerns are effectively mitigated.
 
-- **Seamless Integration with IMG.LY's CE.SDK**: @imgly/background-removal provides seamless integration with [IMG.LY's CE.SDK](https://img.ly/creative-sdk?utm_source=github&utm_medium=project&utm_campaign=bg-removal), allowing developers to easily incorporate powerful in-browser image matting and background removal capabilities into their projects.
+- **Seamless Integration with IMG.LY's CE.SDK**: `@imgly/background-removal` provides seamless integration with [IMG.LY's CE.SDK](https://img.ly/products/creative-sdk?utm_source=github&utm_medium=project&utm_campaign=bg-removal), allowing developers to easily incorporate powerful in-browser image matting and background removal capabilities into their projects.
 
-The Neural Network ([ONNX model](https://onnx.ai/)) and WASM files used by @imgly/background-removal are hosted on [UNPKG](https://www.unpkg.com/), making it readily available for download to all users of the library. See the section Custom Asset Serving if you want to host data on your own servers.
+The Neural Network ([ONNX model](https://onnx.ai/)) and WASM files used by `@imgly/background-removal` are hosted on [UNPKG](https://www.unpkg.com/), making it readily available for download to all users of the library. See the section Custom Asset Serving if you want to host data on your own servers.
 
 <p align="center">
 <img src="https://img.ly/showcases/cesdk/web/s/case-thumbnail/background-removal/background-removal-0.png?utm_source=github&utm_medium=project&utm_campaign=bg-removal" alt="background removal js showcase" />
@@ -38,7 +42,7 @@ The Neural Network ([ONNX model](https://onnx.ai/)) and WASM files used by @imgl
 
 ## Installation
 
-You can install @imgly/background-removal via npm or yarn. Use the following commands to install the package:
+You can install `@imgly/background-removal` via npm or yarn. Use the following commands to install the package:
 
 ### NPM
 
@@ -155,7 +159,7 @@ let config: Config = {
 
 ## Who is it for?
 
-@imgly/background-removal is ideal for developers and projects that require efficient and cost-effective background removal directly in the browser. It caters to a wide range of use cases, including but not limited to:
+`@imgly/background-removal` is ideal for developers and projects that require efficient and cost-effective background removal directly in the browser. It caters to a wide range of use cases, including but not limited to:
 
 - _E-commerce applications_ that need to remove backgrounds from product images in real time.
 
@@ -163,7 +167,7 @@ let config: Config = {
 
 - _Web-based graphic design tools_ that aim to simplify the creative process with in-browser background removal.
 
-Whether you are a professional developer or a hobbyist, @imgly/background-removal empowers you to deliver impressive applications and services with ease.
+Whether you are a professional developer or a hobbyist, `@imgly/background-removal` empowers you to deliver impressive applications and services with ease.
 
 ## License
 

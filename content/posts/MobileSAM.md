@@ -1,9 +1,9 @@
 ---
 title: MobileSAM
-date: 2023-07-01T12:16:31+08:00
+date: 2023-07-02T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [ChaoningZhang/MobileSAM](https://github.com/ChaoningZhang/MobileSAM)
@@ -22,7 +22,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1686007576593-e246e858a3
 :pushpin: **A demo of MobileSAM** running on **CPU in your own browser** is open at [demo link](https://mobilesam.glitch.me/). This demo is made by [MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser). Note that this is an unofficial version and stayed tuned for an official version with more features!
 
 :grapes: Media coverage and Projects that adapt from SAM to MobileSAM (Daily update. Thank you all!)
-
+https://github.com/qiaoyu1002/Personalize-SAM
+* **2023/07/02**: [Personalize-SAM](https://github.com/qiaoyu1002/Personalize-SAM) supports MobileSAM for faster and lightweight Personalize Segment Anything with 1 Shot
 * **2023/07/01**: [MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser) makes an example implementation of MobileSAM in the browser.
 * **2023/06/30**: [SegmentAnythingin3D](https://github.com/Jumpat/SegmentAnythingin3D) supports MobileSAM to segment anything in 3D efficiently.
 * **2023/06/30**: MobileSAM has been featured by [AK](https://twitter.com/_akhaliq?lang=en) for the second time, see the link [AK's MobileSAM tweet](https://twitter.com/_akhaliq/status/1674410573075718145). Welcome to retweet.

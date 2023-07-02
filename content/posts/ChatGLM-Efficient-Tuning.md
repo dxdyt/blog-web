@@ -1,9 +1,9 @@
 ---
 title: ChatGLM-Efficient-Tuning
-date: 2023-06-30T12:17:18+08:00
+date: 2023-07-02T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687517077806-de89a37a2605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687517077806-de89a37a2605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686642930816-0318a4b78f34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686642930816-0318a4b78f34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
 ---
 
 # [hiyouga/ChatGLM-Efficient-Tuning](https://github.com/hiyouga/ChatGLM-Efficient-Tuning)
