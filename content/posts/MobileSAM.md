@@ -1,9 +1,9 @@
 ---
 title: MobileSAM
-date: 2023-07-02T12:16:52+08:00
+date: 2023-07-03T12:20:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687170570291-25fa0b2ac336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687170570291-25fa0b2ac336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
 ---
 
 # [ChaoningZhang/MobileSAM](https://github.com/ChaoningZhang/MobileSAM)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687822771068-dea7af92c4
 :pushpin: **A demo of MobileSAM** running on **CPU in your own browser** is open at [demo link](https://mobilesam.glitch.me/). This demo is made by [MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser). Note that this is an unofficial version and stayed tuned for an official version with more features!
 
 :grapes: Media coverage and Projects that adapt from SAM to MobileSAM (Daily update. Thank you all!)
-https://github.com/qiaoyu1002/Personalize-SAM
+* **2023/07/02**: [Inpaint-Anything](https://github.com/qiaoyu1002/Inpaint-Anything) supports MobileSAM for faster and lightweight Inpaint Anything
 * **2023/07/02**: [Personalize-SAM](https://github.com/qiaoyu1002/Personalize-SAM) supports MobileSAM for faster and lightweight Personalize Segment Anything with 1 Shot
 * **2023/07/01**: [MobileSAM-in-the-Browser](https://github.com/akbartus/MobileSAM-in-the-Browser) makes an example implementation of MobileSAM in the browser.
 * **2023/06/30**: [SegmentAnythingin3D](https://github.com/Jumpat/SegmentAnythingin3D) supports MobileSAM to segment anything in 3D efficiently.
@@ -46,21 +46,21 @@ https://github.com/qiaoyu1002/Personalize-SAM
 
     Image Encoder                                      | Original SAM | MobileSAM 
     :-----------------------------------------:|:---------|:-----:
-    Paramters      |  611M   | 5M
+    Parameters      |  611M   | 5M
     Speed      |  452ms  | 8ms
 
 * Original SAM and MobileSAM have exactly the same prompt-guided mask decoder: 
 
     Mask Decoder                                      | Original SAM | MobileSAM 
     :-----------------------------------------:|:---------|:-----:
-    Paramters      |  3.876M   | 3.876M
+    Parameters      |  3.876M   | 3.876M
     Speed      |  4ms  | 4ms
 
 * The comparison of the whole pipeline is summarized as follows:
 
     Whole Pipeline (Enc+Dec)                                      | Original SAM | MobileSAM 
     :-----------------------------------------:|:---------|:-----:
-    Paramters      |  615M   | 9.66M
+    Parameters      |  615M   | 9.66M
     Speed      |  456ms  | 12ms
 
 :star: **Original SAM and MobileSAM with a point as the prompt.**  
@@ -79,7 +79,7 @@ MobileSAM is around 7 times smaller and around 5 times faster than the concurren
 The comparison of the whole pipeline is summarzed as follows: 
 Whole Pipeline (Enc+Dec)                                      | FastSAM | MobileSAM 
 :-----------------------------------------:|:---------|:-----:
-Paramters      |  68M   | 9.66M
+Parameters      |  68M   | 9.66M
 Speed      |  64ms  |12ms
 
 :muscle: **Does MobileSAM aign better with the original SAM than FastSAM? Yes!** 

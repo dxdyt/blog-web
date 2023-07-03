@@ -1,9 +1,9 @@
 ---
 title: ansible-for-devops
-date: 2023-07-02T12:18:52+08:00
+date: 2023-07-03T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687986018999-08d83bc4cf56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687986018999-08d83bc4cf56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
 ---
 
 # [geerlingguy/ansible-for-devops](https://github.com/geerlingguy/ansible-for-devops)

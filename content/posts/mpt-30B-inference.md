@@ -1,9 +1,9 @@
 ---
 title: mpt-30B-inference
-date: 2023-07-01T12:16:38+08:00
+date: 2023-07-03T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684873877875-d2b55f8df0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684873877875-d2b55f8df0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686726754283-3cf793dec0e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686726754283-3cf793dec0e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
 ---
 
 # [abacaj/mpt-30B-inference](https://github.com/abacaj/mpt-30B-inference)

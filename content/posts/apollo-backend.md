@@ -1,24 +1,15 @@
 ---
 title: apollo-backend
-date: 2023-06-11T12:15:23+08:00
+date: 2023-07-03T12:19:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684180114254-73c0215cd8b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684180114254-73c0215cd8b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY0NTY4NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687306064015-619a5c96cbc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687306064015-619a5c96cbc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
 ---
 
 # [christianselig/apollo-backend](https://github.com/christianselig/apollo-backend)
 
-# Apollo API
+# Apollo Server Backend
 
-## Getting started
+This repository holds Apollo's code for its server backend, which checks for user notifications and allows users to create subreddit watchers. It is archived as it will no longer be used/updated after June 30th, 2023 per Reddit's decisions in regards to the Reddit API. https://www.reddit.com/r/apolloapp/comments/144f6xm/apollo_will_close_down_on_june_30th_reddits/
 
-```sh
-$ script/bootstrap
-$ cp .env.example .env
-```
-
-## Running the server
-
-```sh
-$ script/server
-```
+The goal of making the code for this repo available is to show that despite statements otherwise by Reddit administrators, Apollo does not scrape anything and users purely authenticated Reddit API requests, and does a great deal of work to ensure the Reddit API rate limits are respected.
