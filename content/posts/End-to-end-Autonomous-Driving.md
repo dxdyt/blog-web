@@ -1,9 +1,9 @@
 ---
 title: End-to-end-Autonomous-Driving
-date: 2023-07-02T12:17:21+08:00
+date: 2023-07-04T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685390973492-bba247ba996c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685390973492-bba247ba996c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
 ---
 
 # [OpenDriveLab/End-to-end-Autonomous-Driving](https://github.com/OpenDriveLab/End-to-end-Autonomous-Driving)

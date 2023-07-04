@@ -1,16 +1,16 @@
 ---
 title: snake-ai
-date: 2023-05-23T12:17:19+08:00
+date: 2023-07-04T12:19:07+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685945719932-8048cbc68ec2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685945719932-8048cbc68ec2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
 ---
 
 # [linyiLYi/snake-ai](https://github.com/linyiLYi/snake-ai)
 
 # SnakeAI
 
-[简体中文](README_CN.md) | English
+[简体中文](README_CN.md) | English | [日本語](README_JA.md)
 
 This project contains the program scripts for the classic game "Snake" and an artificial intelligence agent that can play the game automatically. The intelligent agent is trained using deep reinforcement learning and includes two versions: an agent based on a Multi-Layer Perceptron (MLP) and an agent based on a Convolution Neural Network (CNN), with the latter having a higher average game score.
 

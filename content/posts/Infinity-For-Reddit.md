@@ -1,9 +1,9 @@
 ---
 title: Infinity-For-Reddit
-date: 2023-07-03T12:18:29+08:00
+date: 2023-07-04T12:19:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686001066219-5dcedf94de7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686001066219-5dcedf94de7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683710920701-d6d1933800e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683710920701-d6d1933800e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
 ---
 
 # [Docile-Alligator/Infinity-For-Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit)

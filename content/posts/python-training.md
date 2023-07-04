@@ -1,9 +1,9 @@
 ---
 title: python-training
-date: 2023-04-11T12:17:54+08:00
+date: 2023-07-04T12:18:33+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685945719932-8048cbc68ec2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685945719932-8048cbc68ec2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
 ---
 
 # [jpmorganchase/python-training](https://github.com/jpmorganchase/python-training)
@@ -20,7 +20,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
 ## Overview
 This course is designed to be an introduction to numerical computing and data visualization in Python. It is not designed to be a complete course in Computer Science or programming, but rather a motivational demonstration of how relatively complex topics can be accessible even to those without formal progamming backgrounds.
 
-This training is designed to be conducted in-person, led by J.P. Morgan technologists and traders. For interested institutional clients, please reach out [via email](mailto:open_source@jpmorgan.com)
+This training is designed to be conducted in-person, led by J.P. Morgan technologists and traders. For interested institutional clients, please contact your J.P. Morgan team.
 
 [![](https://img.shields.io/badge/Launch-Cloud%20Instance-brightgreen?style=for-the-badge)](http://mybinder.org/v2/gh/jpmorganchase/python-training/main?urlpath=lab)
 
