@@ -1,9 +1,9 @@
 ---
 title: social-app
-date: 2023-05-18T12:15:51+08:00
+date: 2023-07-05T12:19:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12151/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
+featuredImage: https://images.unsplash.com/photo-1682685795557-976f03aca7b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682685795557-976f03aca7b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
 ---
 
 # [bluesky-social/social-app](https://github.com/bluesky-social/social-app)
@@ -12,7 +12,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12151/0/1080p
 
 Welcome friends! This is the codebase for the Bluesky Social app. It serves as a resource to engineers building on the [AT Protocol](https://atproto.com).
 
-- **Web: [staging.bsky.app](https://staging.bsky.app)**
+- **Web: [bsky.app](https://bsky.app)**
 - **iOS: [App Store](https://apps.apple.com/us/app/bluesky-social/id6444370199)**
 - **Android: [Play Store](https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en_US&gl=US)**
 
