@@ -1,9 +1,9 @@
 ---
 title: tinygrad
-date: 2023-07-05T12:18:49+08:00
+date: 2023-07-06T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686481394225-dba348a3ee0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686481394225-dba348a3ee0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687499559554-b12276ea77ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687499559554-b12276ea77ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [geohot/tinygrad](https://github.com/geohot/tinygrad)

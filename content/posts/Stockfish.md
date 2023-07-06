@@ -1,9 +1,9 @@
 ---
 title: Stockfish
-date: 2023-07-04T12:18:06+08:00
+date: 2023-07-06T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish)

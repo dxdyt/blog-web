@@ -1,9 +1,9 @@
 ---
 title: gpt-migrate
-date: 2023-07-05T12:18:27+08:00
+date: 2023-07-06T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686007624910-21930ff29565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686007624910-21930ff29565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687380220546-991ac64c8e01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687380220546-991ac64c8e01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [0xpayne/gpt-migrate](https://github.com/0xpayne/gpt-migrate)
@@ -15,10 +15,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1686007624910-21930ff295
 **Easily migrate your codebase from one framework or language to another.**
 
 <p>
-<img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/0xpayne/gpt-migrate" />
-<img alt="GitHub Issues" src="https://img.shields.io/github/issues/0xpayne/gpt-migrate" />
-<img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/0xpayne/gpt-migrate" />
-<img alt="Github License" src="https://img.shields.io/badge/License-MIT-green.svg" />
+<a href="https://github.com/0xpayne/gpt-migrate/commits"><img alt="GitHub Last Commit" src="https://img.shields.io/github/last-commit/0xpayne/gpt-migrate" /></a>
+<a href="https://github.com/0xpayne/gpt-migrate/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/0xpayne/gpt-migrate" /></a>
+<a href="https://github.com/0xpayne/gpt-migrate/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/0xpayne/gpt-migrate" /></a>
+<a href="https://github.com/0xpayne/gpt-migrate/blob/main/LICENSE"><img alt="Github License" src="https://img.shields.io/badge/License-MIT-green.svg" /></a>
+<a href="https://github.com/0xpayne/gpt-migrate"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/0xpayne/gpt-migrate?style=social" /></a>
 </p>
 
 <br />
@@ -151,5 +152,9 @@ Below are improvements on the to-do list. If you'd like to knock any of these or
 ## 📣 Call to Action
 
 We're looking for talented contributors. Whether you have a particular passion about a specific language or framework, want to help in creating a more robust test suite, or generally have interesting ideas on how to make this better, we'd love to have you!
+
+## 🛠 Expert-Assisted Migration
+
+Due to the inflow of requests, we've decided to create a standardized process for helping people with their migrations. If you're a company that needs help with a big migration or an expert that is willing to help with them, please visit the following website: [https://gpt-migrate.com/](https://gpt-migrate.com/)
 
 ## Join the conversation on [Twitter](https://twitter.com/joshpxyne/status/1675254164165910528)!

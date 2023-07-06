@@ -1,9 +1,9 @@
 ---
 title: starting-kit
-date: 2023-07-05T12:21:31+08:00
+date: 2023-07-06T12:20:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686007624910-21930ff29565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686007624910-21930ff29565?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688146072514-50508abc29c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688146072514-50508abc29c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [unlearning-challenge/starting-kit](https://github.com/unlearning-challenge/starting-kit)

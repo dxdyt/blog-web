@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2023-07-05T12:19:22+08:00
+date: 2023-07-06T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686224526237-3b3d26b8f2cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686224526237-3b3d26b8f2cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
@@ -68,14 +68,16 @@ You can find more chat transcripts on the [examples page](https://aider.chat/exa
 
 ## Installation
 
-1. Install the package:
-  * PyPI: `pip install aider-chat`
-  * GitHub: `pip install git+https://github.com/paul-gauthier/aider.git`
-  * Local clone: `pip install -e .` 
+1. Install the package with pip:
+  * PyPI: `python -m pip install aider-chat`
+  * GitHub: `python -m pip install git+https://github.com/paul-gauthier/aider.git`
+  * Local clone: `python -m pip install -e .` 
 
 2. Set up your OpenAI API key:
-  * As an environment variable: `export OPENAI_API_KEY=sk-...`
-  * Or, by including `openai-api-key: sk-...` in an `.aider.config.yml` file
+  * As an environment variable:
+    * `export OPENAI_API_KEY=sk-...` on Linux or Mac
+    * `setx OPENAI_API_KEY sk-...` in Windows PowerShell
+  * Or include `openai-api-key: sk-...` in an `.aider.config.yml` file in your current directory or at the root of your git repo, alongside the `.git` dir.
 
 3. Optionally, install [universal ctags](https://github.com/universal-ctags/ctags). This is helpful if you plan to use aider and GPT-4 with repositories that have more than a handful of files.  This allows aider to build a [map of your entire git repo](https://aider.chat/docs/ctags.html) and share it with GPT to help it better understand and modify large codebases.
   * The `ctags` command needs to be on your shell path so that it will run by default when aider invokes `ctags ...`.
@@ -87,6 +89,12 @@ Run the `aider` tool by executing the following command:
 
 ```
 aider <file1> <file2> ...
+```
+
+If your pip install did not place the `aider` executable on your path, you can invoke aider like this:
+
+```
+python -m aider.main <file1> <file2>
 ```
 
 Replace `<file1>`, `<file2>`, etc., with the paths to the source code files you want to work on.
@@ -153,6 +161,9 @@ aren't able to return code edits in a compact "diff" format.
 So aider has
 to ask GPT-3.5 to return a new copy of the "whole file" with edits included.
 This rapidly uses up tokens and can hit the limits of the context window.
+
+For more detailed information and a quantitative comparison, here are
+[code editing benchmark results for GPT-3.5 and GPT-4](https://aider.chat/docs/benchmarks.html).
 
 Aider disables the
 [repository map feature](https://aider.chat/docs/ctags.html)

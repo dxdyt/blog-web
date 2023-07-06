@@ -1,9 +1,9 @@
 ---
 title: sourcegraph
-date: 2023-07-01T12:19:32+08:00
+date: 2023-07-06T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687440749453-298f255977ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687440749453-298f255977ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687320565719-dfa288b1e7bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687320565719-dfa288b1e7bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph)
