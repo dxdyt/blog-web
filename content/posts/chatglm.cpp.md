@@ -1,9 +1,9 @@
 ---
 title: chatglm.cpp
-date: 2023-07-06T12:21:13+08:00
+date: 2023-07-07T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687186735445-df877226fae9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687186735445-df877226fae9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685985081360-1d6021f77bc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685985081360-1d6021f77bc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
 ---
 
 # [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp)

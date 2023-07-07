@@ -1,9 +1,9 @@
 ---
 title: gpt-migrate
-date: 2023-07-06T12:18:24+08:00
+date: 2023-07-07T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687380220546-991ac64c8e01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687380220546-991ac64c8e01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685957198289-315b56e32fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685957198289-315b56e32fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
 ---
 
 # [0xpayne/gpt-migrate](https://github.com/0xpayne/gpt-migrate)

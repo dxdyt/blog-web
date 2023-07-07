@@ -1,9 +1,9 @@
 ---
 title: gopeed
-date: 2023-07-06T12:20:48+08:00
+date: 2023-07-07T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687320565719-dfa288b1e7bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687320565719-dfa288b1e7bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685986065402-c282e3f40ce0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685986065402-c282e3f40ce0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
 ---
 
 # [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
@@ -17,7 +17,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687320565719-dfa288b1e7
 
 ![](_docs/img/banner.png)
 
-[English](/README.md) | [中文](/README_zh-CN.md)
+[English](/README.md) | [中文](/README_zh-CN.md) | [日本語](/README_ja-JP.md)
 
 ## Introduction
 
