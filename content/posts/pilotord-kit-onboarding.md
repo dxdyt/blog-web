@@ -1,9 +1,9 @@
 ---
 title: pilotord-kit-onboarding
-date: 2023-07-07T12:19:03+08:00
+date: 2023-07-08T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686224001340-e74db2903777?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686224001340-e74db2903777?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688020879875-2bcb0c387b0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688020879875-2bcb0c387b0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
 ---
 
 # [bacen/pilotord-kit-onboarding](https://github.com/bacen/pilotord-kit-onboarding)

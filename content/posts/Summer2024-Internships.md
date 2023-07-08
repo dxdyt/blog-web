@@ -1,9 +1,9 @@
 ---
 title: Summer2024-Internships
-date: 2023-07-07T12:18:38+08:00
+date: 2023-07-08T12:18:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685957198289-315b56e32fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685957198289-315b56e32fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688377116702-5fb489a7f089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688377116702-5fb489a7f089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
 ---
 
 # [pittcsc/Summer2024-Internships](https://github.com/pittcsc/Summer2024-Internships)
@@ -90,7 +90,7 @@ And we're back! Use this repo to share and keep track of software, tech, CS, PM,
 | Citadel | Chicago, IL or New York, NY | [Software Engineer Intern](https://www.citadel.com/careers/details/software-engineer-intern-us/) <br> [Investment & Trading Intern](https://www.citadel.com/careers/details/investment-trading-intern-us/) <br> [Quant Researcher Intern (PhD)](https://www.citadel.com/careers/details/quantitative-researcher-phd-intern-us/) <br> [Quantatative Research Analyst Intern](https://www.citadel.com/careers/details/quantitative-research-analyst-intern-us/) | 
 | Two Sigma | New York, NY | [Quantitative Researcher - Internship](https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2024-Summer/12004) |
 | Zipline | San Francisco, CA | [Summer 2024 Internship (Express Interest)](https://legacy.flyzipline.com/job?gh_jid=5631836003/) |
-| [Rakuten](https://rakuten.wd1.myworkdayjobs.com/RakutenAdvertising/job/Midvale-Utah/Software-Engineer---Intern_1017937-1) | WV, USA | Software Engineer Intern |
+| Rakuten | WV, USA | **🔒 Closed 🔒** Software Engineer Intern |
 | [Bamboo Health](https://bamboo-health.rippling-ats.com/job/630181/software-engineer-intern) | Remote, Hybrid (Boston, MA) | Software Engineer Intern |
 | [Sandhills](https://www.sandhills.com/careers-and-internships/details/careers/sandhills/1195/software-development-intern) | Lincoln, Nebraska | Software Development Intern |
 | [Entrust](https://entrust.wd1.myworkdayjobs.com/EntrustCareers/job/United-States---Sunrise-FL/Software-Engineering-Intern_R002369) | Sunrise, FL | Software Engineer Intern |

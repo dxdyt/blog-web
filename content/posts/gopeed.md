@@ -1,9 +1,9 @@
 ---
 title: gopeed
-date: 2023-07-07T12:18:13+08:00
+date: 2023-07-08T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685986065402-c282e3f40ce0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685986065402-c282e3f40ce0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687982392900-28265ef90f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687982392900-28265ef90f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
 ---
 
 # [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
@@ -102,7 +102,7 @@ Please refer to [CONTRIBUTING.md](/CONTRIBUTING.md)
 
 #### Desktop
 
-First, you need to configure the environment according to the [flutter desktop official website document](https://docs.flutter.dev/development/platform-integration/desktop), and then you need to prepare the `cgo` environment, which can be searched for yourself.
+First, you need to configure the environment according to the official [Flutter desktop website documention](https://docs.flutter.dev/development/platform-integration/desktop), then you will need to ensure the cgo environment is set up accordingly. For detailed instructions on setting up the cgo environment, please refer to relevant resources available online.
 
 command:
 

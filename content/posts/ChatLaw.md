@@ -1,9 +1,9 @@
 ---
 title: ChatLaw
-date: 2023-07-07T12:17:39+08:00
+date: 2023-07-08T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685985081360-1d6021f77bc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685985081360-1d6021f77bc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688020879875-2bcb0c387b0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688020879875-2bcb0c387b0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/ChatLaw](https://github.com/PKU-YuanGroup/ChatLaw)
@@ -118,7 +118,7 @@ ChatLaw法律大模型目前开源的仅供学术参考的版本底座为姜子�
 欢迎加入我们官方交流群：
 
 <div style="text-align: center;">
-  <img src=https://raw.githubusercontent.com/PKU-YuanGroup/ChatLaw/main/images/wechat_group9.jpeg width="300"/>
+  <img src=https://raw.githubusercontent.com/PKU-YuanGroup/ChatLaw/main/images/wechat_group10.jpeg width="300"/>
 </div>
 
 

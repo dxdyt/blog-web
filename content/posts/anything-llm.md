@@ -1,9 +1,9 @@
 ---
 title: anything-llm
-date: 2023-06-13T12:17:13+08:00
+date: 2023-07-08T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683969076131-bdefe093e9cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687092084146-a2893f0b896a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687092084146-a2893f0b896a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
 ---
 
 # [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
@@ -52,18 +52,23 @@ This monorepo consists of three main sections:
 - a [Pinecone.io](https://pinecone.io) free account*.
 *you can use drop in replacements for these. This is just the easiest to get up and running fast. We support multiple vector database providers.
 
-### How to get started
-- `yarn setup` from the project root directory.
+## How to get started (Docker - simple setup)
+[Get up and running in minutes with Docker](./docker/HOW_TO_USE_DOCKER.md)
 
-This will fill in the required `.env` files you'll need in each of the application sections. Go fill those out before proceeding or else things won't work right.
+
+### How to get started (Development environment)
+- `yarn setup` from the project root directory.
+  - This will fill in the required `.env` files you'll need in each of the application sections. Go fill those out before proceeding or else things won't work right.
+- `cd frontend && yarn install && cd ../server && yarn install` from the project root directory.
+ 
 
 Next, you will need some content to embed. This could be a Youtube Channel, Medium articles, local text files, word documents, and the list goes on. This is where you will use the `collector/` part of the repo.
 
 [Go set up and run collector scripts](./collector/README.md)
 
-[Learn about documents](./server/documents/DOCUMENTS.md)
+[Learn about documents](./server/storage/documents/DOCUMENTS.md)
 
-[Learn about vector caching](./server/documents/VECTOR_CACHE.md)
+[Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)
 
 ### Contributing
 - create issue
