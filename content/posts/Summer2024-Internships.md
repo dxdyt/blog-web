@@ -1,9 +1,9 @@
 ---
 title: Summer2024-Internships
-date: 2023-07-08T12:18:36+08:00
+date: 2023-07-09T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688377116702-5fb489a7f089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688377116702-5fb489a7f089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
 ---
 
 # [pittcsc/Summer2024-Internships](https://github.com/pittcsc/Summer2024-Internships)
@@ -91,11 +91,15 @@ And we're back! Use this repo to share and keep track of software, tech, CS, PM,
 | Two Sigma | New York, NY | [Quantitative Researcher - Internship](https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Internship-2024-Summer/12004) |
 | Zipline | San Francisco, CA | [Summer 2024 Internship (Express Interest)](https://legacy.flyzipline.com/job?gh_jid=5631836003/) |
 | Rakuten | WV, USA | **🔒 Closed 🔒** Software Engineer Intern |
-| [Bamboo Health](https://bamboo-health.rippling-ats.com/job/630181/software-engineer-intern) | Remote, Hybrid (Boston, MA) | Software Engineer Intern |
+| [Bamboo Health](https://bamboo-health.rippling-ats.com/job/630181/software-engineer-intern) | Remote, Hybrid (Boston, MA) | Software Engineer Intern (Must be enrolled in a Bachelor’s degree program currently) |
 | [Sandhills](https://www.sandhills.com/careers-and-internships/details/careers/sandhills/1195/software-development-intern) | Lincoln, Nebraska | Software Development Intern |
 | [Entrust](https://entrust.wd1.myworkdayjobs.com/EntrustCareers/job/United-States---Sunrise-FL/Software-Engineering-Intern_R002369) | Sunrise, FL | Software Engineer Intern |
 | [Enphase Energy](https://jobs.jobvite.com/enphase-energy/job/oFPRmfwr) | Austin, TX | Embedded Firmware Engineer Intern |
 | [Körber](https://jobs.koerber.com/pharma/job/Fargo-Software-Developer-Intern-ND-58102/954269201/) | Fargo, ND | Software Developer Intern |
+| [Maximus](https://external-maximus.icims.com/jobs/90452/intern---software-engineering/job) | Mclean, VA | Software Engineering Intern |
+| [Infineon](https://www.infineon.com/cms/en/careers/jobsearch/jobsearch/HRC0331975-Intern-Software-Automation-Engineer/) | Andover, MA </br> Warwick, RI | Software Automation Engineer Intern |
+| [Docugami](https://boards.greenhouse.io/docugami/jobs/4014838003) | Kirkland, WA | Software Engineering Intern |
+| [SIG](https://careers.sig.com/job/7102/Software-Engineering-Internship-Program-Summer-2024-Expression-of-Interest) | Bala Cynwyd, PA | Software Engineering Internship Program |
 
 <!-- Please leave a one line gap between this and the table -->
 [⬆️ Back to Top ⬆️](https://github.com/pittcsc/Summer2024-Internships#the-list-)

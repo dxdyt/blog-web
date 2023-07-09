@@ -1,9 +1,9 @@
 ---
 title: LLMSurvey
-date: 2023-07-08T12:17:05+08:00
+date: 2023-07-09T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687263150247-17b649fd04e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687263150247-17b649fd04e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688115689832-c071620c05f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688115689832-c071620c05f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
 ---
 
 # [RUCAIBox/LLMSurvey](https://github.com/RUCAIBox/LLMSurvey)
@@ -256,7 +256,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-baqh" align="center">YaLM</td>
     <td class="tg-0lax" align="center">2022/06</td>
     <td class="tg-baqh" align="center">100</td>
-    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">Github</a></td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/yandex/YaLM-100B">GitHub</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">NLLB</td>
@@ -328,7 +328,7 @@ Please click [here](Experiments/README.md) to view more detailed information.
     <td class="tg-baqh" align="center">ChatGLM</td>
     <td class="tg-0lax" align="center">2023/03</td>
     <td class="tg-baqh" align="center">6</td>
-    <td class="tg-0lax" align="center"><a href="https://github.com/THUDM/ChatGLM-6B">Github</a></td>
+    <td class="tg-0lax" align="center"><a href="https://github.com/THUDM/ChatGLM-6B">GitHub</a></td>
   </tr>
   <tr>
     <td class="tg-baqh" align="center">CodeGeeX</td>

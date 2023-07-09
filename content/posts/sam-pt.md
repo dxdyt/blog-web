@@ -1,9 +1,9 @@
 ---
 title: sam-pt
-date: 2023-07-08T12:19:10+08:00
+date: 2023-07-09T12:18:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685986065382-0a7fe9783797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685986065382-0a7fe9783797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686731216673-5ee46b7d7d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686731216673-5ee46b7d7d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
 ---
 
 # [SysCV/sam-pt](https://github.com/SysCV/sam-pt)

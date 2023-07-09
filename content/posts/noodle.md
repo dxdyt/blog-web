@@ -1,9 +1,9 @@
 ---
 title: noodle
-date: 2023-07-08T12:16:29+08:00
+date: 2023-07-09T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685986065382-0a7fe9783797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685986065382-0a7fe9783797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1683998994423-940b44bed65c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1683998994423-940b44bed65c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
 ---
 
 # [ixahmedxi/noodle](https://github.com/ixahmedxi/noodle)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1685986065382-0a7fe97837
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=for-the-badge)](#contributors-) ![Codecov](https://img.shields.io/codecov/c/gh/ixahmedxi/noodle?style=for-the-badge) ![GitHub top language](https://img.shields.io/github/languages/top/ixahmedxi/noodle?style=for-the-badge) ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ixahmedxi/noodle/main?style=for-the-badge)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
@@ -71,6 +71,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/antoniobfm"><img src="https://avatars.githubusercontent.com/u/23482001?v=4?s=100" width="100px;" alt="Antônio Moraes"/><br /><sub><b>Antônio Moraes</b></sub></a><br /><a href="https://github.com/ixahmedxi/noodle/commits?author=antoniobfm" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://nrwl.io"><img src="https://avatars.githubusercontent.com/u/23692104?v=4?s=100" width="100px;" alt="Nrwl"/><br /><sub><b>Nrwl</b></sub></a><br /><a href="#financial-nrwl" title="Financial">💵</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://www.liamsegura.com"><img src="https://avatars.githubusercontent.com/u/102547056?v=4?s=100" width="100px;" alt="Liam Segura"/><br /><sub><b>Liam Segura</b></sub></a><br /><a href="https://github.com/ixahmedxi/noodle/commits?author=liamsegura" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://nanos.club"><img src="https://avatars.githubusercontent.com/u/22123308?v=4?s=100" width="100px;" alt="Nano"/><br /><sub><b>Nano</b></sub></a><br /><a href="https://github.com/ixahmedxi/noodle/commits?author=misternano" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="http://rysana.com"><img src="https://avatars.githubusercontent.com/u/51100181?v=4?s=100" width="100px;" alt="John—Rysana"/><br /><sub><b>John—Rysana</b></sub></a><br /><a href="https://github.com/ixahmedxi/noodle/commits?author=jrysana" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

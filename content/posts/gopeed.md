@@ -1,9 +1,9 @@
 ---
 title: gopeed
-date: 2023-07-08T12:17:36+08:00
+date: 2023-07-09T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687982392900-28265ef90f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687982392900-28265ef90f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688380303719-bf812819080b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688380303719-bf812819080b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
 ---
 
 # [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
