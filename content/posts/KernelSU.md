@@ -1,14 +1,14 @@
 ---
 title: KernelSU
-date: 2023-06-21T12:18:04+08:00
+date: 2023-07-10T12:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686224613485-e7e6bf895985?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686224613485-e7e6bf895985?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687579520856-3ad628a07cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687579520856-3ad628a07cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [tiann/KernelSU](https://github.com/tiann/KernelSU)
 
-**English** | [简体中文](README_CN.md) | [繁體中文](README_TW.md) | [日本語](README_JP.md) | [Portuguese-Brazil](README_PT-BR.md) | [Türkçe](README_TR.md)
+**English** | [Español](README_ES.md) | [简体中文](README_CN.md) | [繁體中文](README_TW.md) | [日本語](README_JP.md) | [Polski](README_PL.md) | [Portuguese-Brazil](README_PT-BR.md) | [Türkçe](README_TR.md)
 
 # KernelSU
 

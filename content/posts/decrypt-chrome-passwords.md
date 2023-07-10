@@ -1,9 +1,9 @@
 ---
 title: decrypt-chrome-passwords
-date: 2023-07-09T12:19:33+08:00
+date: 2023-07-10T12:20:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686731216673-5ee46b7d7d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686731216673-5ee46b7d7d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685908949700-fd1f886fec7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685908949700-fd1f886fec7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [ohyicong/decrypt-chrome-passwords](https://github.com/ohyicong/decrypt-chrome-passwords)

@@ -1,9 +1,9 @@
 ---
 title: Price-Tracking-Web-Scraper
-date: 2023-07-08T12:16:45+08:00
+date: 2023-07-10T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685986065382-0a7fe9783797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685986065382-0a7fe9783797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687593883595-6b678fc5c413?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687593883595-6b678fc5c413?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [techwithtim/Price-Tracking-Web-Scraper](https://github.com/techwithtim/Price-Tracking-Web-Scraper)

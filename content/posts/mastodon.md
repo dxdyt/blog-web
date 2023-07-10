@@ -1,9 +1,9 @@
 ---
 title: mastodon
-date: 2023-07-04T12:18:50+08:00
+date: 2023-07-10T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687462133022-2f3f256afe62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687462133022-2f3f256afe62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg0NDQyMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686515265863-14a4ebda172c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686515265863-14a4ebda172c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [mastodon/mastodon](https://github.com/mastodon/mastodon)

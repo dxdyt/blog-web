@@ -1,16 +1,25 @@
 ---
 title: h2ogpt
-date: 2023-07-08T12:16:54+08:00
+date: 2023-07-10T12:19:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687092084146-a2893f0b896a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687092084146-a2893f0b896a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685908949700-fd1f886fec7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685908949700-fd1f886fec7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [h2oai/h2ogpt](https://github.com/h2oai/h2ogpt)
 
 ## h2oGPT
 
-[![img-small.png](docs/img-small.png) Live h2oGPT Demo](https://gpt.h2o.ai/)
+Turn ★ into ⭐ (top-right corner) if you like the project!
+
+- [![img-small.png](docs/img-small.png) Live h2oGPT Document Q/A Demo](https://gpt.h2o.ai/)
+- [🤗 Live h2oGPT Chat Demo 1](https://huggingface.co/spaces/h2oai/h2ogpt-chatbot)
+- [🤗 Live h2oGPT Chat Demo 2](https://huggingface.co/spaces/h2oai/h2ogpt-chatbot2)
+
+Watch these YouTube Videos:
+- [100% Offline ChatGPT Alternative?](https://www.youtube.com/watch?v=Coj72EzmX20)
+- [Ultimate Open-Source LLM Showdown (6 Models Tested) - Surprising Results!](https://www.youtube.com/watch?v=FTm5C_vV_EY)
+- [Blazing Fast Falcon 40b 🚀 Uncensored, Open-Source, Fully Hosted, Chat With Your Docs](https://www.youtube.com/watch?v=H8Dx-iUY49s)
 
 For questions, discussing, or just hanging out, come and join our <a href="https://discord.gg/WKhYMWcVbq"><b>Discord</b></a>!
 
@@ -19,8 +28,6 @@ Technical Paper: [https://arxiv.org/pdf/2306.08161.pdf](https://arxiv.org/pdf/23
 h2oGPT is a large language model (LLM) fine-tuning framework and chatbot UI with document(s) question-answer capabilities.  Documents help to **ground** LLMs against hallucinations by providing them context relevant to the instruction.  h2oGPT is fully permissive Apache V2 open-source project for 100% private and secure use of LLMs and document embeddings for document question-answer.
 
 Welcome!  Join us and make an issue or a PR, and contribute to making the best fine-tuned LLMs, chatbot UI, and document question-answer framework!
-
-Turn ★ into ⭐ (top-right corner) if you like the project!
 
 <!--  cat README.md | ./gh-md-toc  -  But Help is heavily processed -->
 * [Supported OS and Hardware](#supported-os-and-hardware)
@@ -127,7 +134,9 @@ On some systems, `pip` still refers back to the system one, then one can use `py
 
 #### TLDR
 
-After Python 3.10 environment installed:
+For [MACOS](docs/README_MACOS.md#macos) and [Windows 10/11](docs/README_WINDOWS.md) please follow their instructions.
+
+On Ubuntu, after Python 3.10 environment installed do:
 ```bash
 git clone https://github.com/h2oai/h2ogpt.git
 cd h2ogpt
@@ -157,7 +166,7 @@ python generate.py --base_model='llama' --prompt_type=wizard2 --score_model=None
 - To create a development environment for training and generation, follow the [installation instructions](docs/INSTALL.md).
 - To fine-tune any LLM models on your data, follow the [fine-tuning instructions](docs/FINETUNE.md).
 - To create a container for deployment, follow the [Docker instructions](docs/INSTALL-DOCKER.md).
-- To run h2oGPT tests, run `pytest -s -v tests client/tests`.
+- To run h2oGPT tests, run `pip install requirements-parser ; pytest -s -v tests client/tests`
 
 ### Help
 

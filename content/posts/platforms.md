@@ -1,9 +1,9 @@
 ---
 title: platforms
-date: 2023-07-08T12:17:00+08:00
+date: 2023-07-10T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687982392900-28265ef90f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687982392900-28265ef90f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1676902683876-527e9816ae4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1676902683876-527e9816ae4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [vercel/platforms](https://github.com/vercel/platforms)
