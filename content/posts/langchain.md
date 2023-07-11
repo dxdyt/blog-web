@@ -1,9 +1,9 @@
 ---
 title: langchain
-date: 2023-07-09T12:17:36+08:00
+date: 2023-07-11T12:19:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686171816231-6e47921d0c93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686171816231-6e47921d0c93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687122681381-b97a55aa4719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687122681381-b97a55aa4719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
 ---
 
 # [hwchase17/langchain](https://github.com/hwchase17/langchain)

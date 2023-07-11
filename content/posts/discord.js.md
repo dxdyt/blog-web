@@ -1,9 +1,9 @@
 ---
 title: discord.js
-date: 2023-04-14T12:17:06+08:00
+date: 2023-07-11T12:19:01+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12037/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12037/0/1080p
+featuredImage: https://images.unsplash.com/photo-1685648043756-124a4adad0ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685648043756-124a4adad0ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
 ---
 
 # [discordjs/discord.js](https://github.com/discordjs/discord.js)
@@ -23,6 +23,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12037/0/1080p
 	</p>
 	<p>
 		<a href="https://vercel.com/?utm_source=discordjs&utm_campaign=oss"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-vercel.svg" alt="Vercel" /></a>
+		<a href="https://www.cloudflare.com"><img src="https://raw.githubusercontent.com/discordjs/discord.js/main/.github/powered-by-workers.png" alt="Cloudflare Workers" height="44" /></a>
 	</p>
 </div>
 

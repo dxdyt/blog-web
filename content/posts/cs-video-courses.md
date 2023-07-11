@@ -1,9 +1,9 @@
 ---
 title: cs-video-courses
-date: 2023-07-10T12:18:30+08:00
+date: 2023-07-11T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686628056497-9061e8893335?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686628056497-9061e8893335?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687778682351-99d1e0f8f1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687778682351-99d1e0f8f1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
 ---
 
 # [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)

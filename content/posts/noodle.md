@@ -1,9 +1,9 @@
 ---
 title: noodle
-date: 2023-07-10T12:17:27+08:00
+date: 2023-07-11T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687593883595-6b678fc5c413?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687593883595-6b678fc5c413?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687178151530-883e1495b4aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687178151530-883e1495b4aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
 ---
 
 # [ixahmedxi/noodle](https://github.com/ixahmedxi/noodle)

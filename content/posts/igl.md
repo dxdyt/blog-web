@@ -1,9 +1,9 @@
 ---
 title: igl
-date: 2023-07-10T12:17:44+08:00
+date: 2023-07-11T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686628056497-9061e8893335?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686628056497-9061e8893335?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685648043756-124a4adad0ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685648043756-124a4adad0ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
 ---
 
 # [facebook/igl](https://github.com/facebook/igl)
@@ -98,10 +98,19 @@ cd build
 cmake .. -G Xcode -DCMAKE_TOOLCHAIN_FILE=../third-party/deps/src/ios-cmake/ios.toolchain.cmake -DPLATFORM=SIMULATOR64
 ```
 
-
 * Android
 
 The Gradle project is located within the [build/android](./build/android/) folder.
+
+* WebAssembly
+
+Please install [Emscripten](https://emscripten.org/docs/getting_started/downloads.html) and [Ninja](https://ninja-build.org/).
+
+```
+cd build
+emcmake cmake .. -G Ninja
+cmake --build .
+```
 
 ## Screenshots
 

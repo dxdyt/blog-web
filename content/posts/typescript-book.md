@@ -1,9 +1,9 @@
 ---
 title: typescript-book
-date: 2023-07-09T12:18:02+08:00
+date: 2023-07-11T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688291679729-5714e5f80150?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688291679729-5714e5f80150?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
 ---
 
 # [gibbok/typescript-book](https://github.com/gibbok/typescript-book)
@@ -13,6 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa77
 The Concise TypeScript Book provides a comprehensive and succinct overview of TypeScript's capabilities. It offers clear explanations covering all aspects found in the latest version of the language, from its powerful type system to advanced features. Whether you're a beginner or an experienced developer, this book is an invaluable resource to enhance your understanding and proficiency in TypeScript.
 
 This book is completely Free and Open Source.
+
+## Translations
+This book has been translated into some of the following language versions:
+* [Chinese](./README-zh_CN.md)
 
 ## Table of content
 
@@ -257,7 +261,8 @@ Some of the benefits of TypeScript:
 - Static typing, optionally strongly typed
 - Type Inference
 - Access to ES6 and ES7 features
-- Cross-Platform and Cross-browser Compatibility \* Tooling support with IntelliSense
+- Cross-Platform and Cross-browser Compatibility
+- Tooling support with IntelliSense
 
 ### TypeScript and JavaScript
 
@@ -272,7 +277,6 @@ For instance, consider a function in a JavaScript file with the `.js` extension,
 <!-- skip -->
 ```typescript
 const sum = (a, b) => a + b;
-
 ```
 
 The function can be converted and used in TypeScript by changing the file extension to `.ts`. However, if the same function is annotated with TypeScript types, it cannot be executed in any JavaScript engine without compilation. The following TypeScript code will produce a syntax error if it is not compiled:
@@ -280,7 +284,6 @@ The function can be converted and used in TypeScript by changing the file extens
 <!-- skip -->
 ```typescript
 const sum = (a: number, b: number): number => a + b;
-
 ```
 
 TypeScript was designed to detect possible exceptions that can occur at runtime during compilation time by having the developer define the intent with type annotations. In addition, TypeScript can also catch issues if no type annotation is provided. For instance, the following code snippet does not specify any TypeScript types:
@@ -289,18 +292,18 @@ TypeScript was designed to detect possible exceptions that can occur at runtime 
 ```typescript
 const items = [{ x: 1 }, { x: 2 }];
 const result = items.filter(item => item.y);
-
 ```
 
 In this case, TypeScript detects an error and reports:
 
+```
 Property 'y' does not exist on type '{ x: number; }'.
+```
 
 TypeScript's type system is largely influenced by the runtime behavior of JavaScript. For example, the addition operator (+), which in JavaScript can either perform string concatenation or numeric addition, is modeled in the same way in TypeScript:
 
 ```typescript
 const result = '1' + 1; // Result is of type string
-
 ```
 
 The team behind TypeScript has made a deliberate decision to flag unusual usage of JavaScript as errors. For instance, consider the following valid JavaScript code:
@@ -308,7 +311,6 @@ The team behind TypeScript has made a deliberate decision to flag unusual usage 
 <!-- skip -->
 ```typescript
 const result = 1 + true; // In JavaScript, the result is equal 2
-
 ```
 
 However, TypeScript throws an error:
@@ -326,7 +328,6 @@ Here is an example of TypeScript code with a type error:
 ```typescript
 const add = (a: number, b: number): number => a + b;
 const result = add('x', 'y'); // Argument of type 'string' is not assignable to parameter of type 'number'.
-
 ```
 
 However, it can still produce executable JavaScript output:
@@ -336,7 +337,6 @@ However, it can still produce executable JavaScript output:
 'use strict';
 const add = (a, b) => a + b;
 const result = add('x', 'y'); // xy
-
 ```
 
 It is not possible to check TypeScript types at runtime. For example:
@@ -358,7 +358,6 @@ const makeNoise = (animal: Animal) => {
         // ...
     }
 };
-
 ```
 
 As the types are erased after compilation, there is no way to run this code in JavaScript. To recognize types at runtime, we need to use another mechanism. TypeScript provides several options, with a common one being "tagged union". For example:
@@ -387,7 +386,6 @@ const dog: Dog = {
     bark: () => console.log('bark'),
 };
 makeNoise(dog);
-
 ```
 
 The property "kind" is a value that can be used at runtime to distinguish between objects in JavaScript.
@@ -422,7 +420,6 @@ const makeNoise = (mammal: Mammal) => {
 
 const dog = new Dog('Fido', () => console.log('bark'));
 makeNoise(dog);
-
 ```
 
 In JavaScript, a "class" has a "prototype" property, and the "instanceof" operator can be used to test if the prototype property of a constructor appears anywhere in the prototype chain of an object.
@@ -436,14 +433,15 @@ TypeScript can compile code to any released version of JavaScript since ECMAScri
 It's important to note that during transpilation to an older version of JavaScript, TypeScript may generate code that could incur a performance overhead compared to native implementations.
 
 Here are some of the modern JavaScript features that can be used in TypeScript:
-_ ECMAScript modules instead of AMD-style "define" callbacks or CommonJS "require" statements.
-_ Classes instead of prototypes.
-_ Variables declaration using "let" or "const" instead of "var".
-_ "for-of" loop or ".forEach" instead of the traditional "for" loop.
-_ Arrow functions instead of function expressions.
-_ Destructuring assignment.
-_ Shorthand property/method names and computed property names.
-_ Default function parameters.
+
+- ECMAScript modules instead of AMD-style "define" callbacks or CommonJS "require" statements.
+- Classes instead of prototypes.
+- Variables declaration using "let" or "const" instead of "var".
+- "for-of" loop or ".forEach" instead of the traditional "for" loop.
+- Arrow functions instead of function expressions.
+- Destructuring assignment.
+- Shorthand property/method names and computed property names.
+- Default function parameters.
 
 By leveraging these modern JavaScript features, developers can write more expressive and concise code in TypeScript.
 
@@ -524,8 +522,9 @@ tsc app.ts util.ts --outfile index.js // Compile two TypeScript files (app.ts an
 A tsconfig.json file is used to configure the TypeScript Compiler (tsc). Usually, it is added to the root of the project, together with the `package.json` file.
 
 Notes:
-_ tsconfig.json accepts comments even if it is in json format.
-_ It is advisable to use this configuration file instead of the command-line options.
+
+- tsconfig.json accepts comments even if it is in json format.
+- It is advisable to use this configuration file instead of the command-line options.
 
 At the following link you can find the complete documentation and its schema:
 https://www.typescriptlang.org/tsconfig
@@ -544,10 +543,11 @@ The "lib" property is used to specify which library files to include at compilat
 #### strict
 
 The "strict" property enables stronger guarantees and enhances type safety. It is advisable to always include this property in your project's tsconfig.json file. Enabling the "strict" property allows TypeScript to:
-_ Emit code using "use strict" for each source file.
-_ Consider "null" and "undefined" in the type checking process.
-_ Disable the usage of the "any" type when no type annotations are present.
-_ Raise an error on the usage of the "this" expression, which would otherwise imply the "any" type.
+
+- Emit code using "use strict" for each source file.
+- Consider "null" and "undefined" in the type checking process.
+- Disable the usage of the "any" type when no type annotations are present.
+- Raise an error on the usage of the "this" expression, which would otherwise imply the "any" type.
 
 #### module
 
@@ -643,7 +643,6 @@ type Y = {
 };
 const x: X = { a: 'a' };
 const y: Y = x; // Valid
-
 ```
 
 ### TypeScript Fundamental Comparison Rules
@@ -658,7 +657,6 @@ type X = {
 };
 const y = { a: 'A', b: 'B' }; // Valid, as it has at least the same members as X
 const r: X = y;
-
 ```
 
 Function parameters are compared by types, not by their names:
@@ -670,7 +668,6 @@ let x: X = (j: number) => undefined;
 let y: Y = (k: number) => undefined;
 y = x; // Valid
 x = y; // Valid
-
 ```
 
 Function return types must be the same:
@@ -683,7 +680,6 @@ let x: X = (a: number) => undefined;
 let y: Y = (a: number) => 1;
 y = x; // Invalid
 x = y; // Invalid
-
 ```
 
 The return type of a source function must be a subtype of the return type of a target function:
@@ -694,14 +690,12 @@ let x = () => ({ a: 'A' });
 let y = () => ({ a: 'A', b: 'B' });
 x = y; // Valid
 y = x; // Invalid member b is missing
-
 ```
 
 Discarding function parameters is allowed, as it is a common practice in JavaScript, for instance using Array.prototype.map():
 
 ```typescript
 [1, 2, 3].map((element, _index, _array) => element + 'x');
-
 ```
 
 Therefore, the following type declarations are completely valid:
@@ -712,7 +706,6 @@ type Y = (a: number, b: number) => undefined;
 let x: X = (a: number) => undefined;
 let y: Y = (a: number) => undefined; // Missing b parameter
 y = x; // Valid
-
 ```
 
 Any additional optional parameters of the source type are valid:
@@ -724,7 +717,6 @@ let x: X = a => undefined;
 let y: Y = a => undefined;
 y = x; // Valid
 x = y; //Valid
-
 ```
 
 Any optional parameters of the target type without corresponding parameters in the source type are valid and not an error:
@@ -736,7 +728,6 @@ let x: X = a => undefined;
 let y: Y = a => undefined;
 y = x; // Valid
 x = y; // Valid
-
 ```
 
 The rest parameter is treated as an infinite series of optional parameters:
@@ -744,7 +735,6 @@ The rest parameter is treated as an infinite series of optional parameters:
 ```typescript
 type X = (a: number, ...rest: number[]) => undefined;
 let x: X = a => undefined; //valid
-
 ```
 
 Functions with overloads are valid if the overload signature is compatible with its implementation signature:
@@ -766,7 +756,6 @@ function y(a: string, b: number): void {
 }
 y('a');
 y('a', 1);
-
 ```
 
 Function parameter comparison succeeds if the source and target parameters are assignable to supertypes or subtypes (bivariance).
@@ -791,7 +780,6 @@ const getA: GetA = x => x.a;
 console.log(getA(new X('x'))); // Valid
 console.log(getA(new Y('Y'))); // Valid
 console.log(getA(new Z('z'))); // Valid
-
 ```
 
 Enums are comparable and valid with numbers and vice versa, but comparing Enum values from different Enum types is invalid.
@@ -810,7 +798,6 @@ enum Y {
 const xa: number = X.A; // Valid
 const ya: Y = 0; // Valid
 X.A === Y.A; // Invalid
-
 ```
 
 Instances of a class are subject to a compatibility check for their private and protected members:
@@ -832,7 +819,6 @@ class Y {
 }
 
 let x: X = new Y('y'); // Invalid
-
 ```
 
 The comparison check does not take into consideration the different inheritance hierarchy, for instance:
@@ -862,7 +848,6 @@ let y: Y = new Y('y');
 let z: Z = new Z('z');
 x === y; // Valid
 x === z; // Valid even if z is from a different inheritance hierarchy
-
 ```
 Generics are compared using their structures based on the resulting type after applying the generic parameter, only the final result is compared as a non-generic type.
 
@@ -874,7 +859,6 @@ interface X<T> {
 let x: X<number> = { a: 1 };
 let y: X<string> = { a: 'a' };
 x === y; // Invalid as the type argument is used in the final structure
-
 ```
 
 ```typescript
@@ -882,7 +866,6 @@ interface X<T> {}
 const x: X<number> = 1;
 const y: X<string> = 'a';
 x === y; // Valid as the type argument is not used in the final structure
-
 ```
 
 When generics do not have their type argument specified, all the unspecified arguments are treated as types with "any":
@@ -893,7 +876,6 @@ type Y = <K>(y: K) => K;
 let x: X = x => x;
 let y: Y = y => y;
 x = y; // Valid
-
 ```
 
 Remember:
@@ -922,7 +904,6 @@ let g: void;
 let g1: any;
 g = 1; // Invalid, void is not assignable to or from anything expect any
 g = g1; // Valid
-
 ```
 
 Please note that when "strictNullChecks" is enabled, "null" and "undefined" are treated similarly to "void"; otherwise, they are similar to "never".
@@ -945,7 +926,7 @@ TypeScript supports various types of sets:
 
 Here few examples:
 
-| TypScript             | Set term               | Example                                                                         |
+| TypeScript             | Set term               | Example                                                                        |
 | --------------------- | ---------------------- | ------------------------------------------------------------------------------- |
 | never                 | ∅ (empty set)          | const x: never = 'x'; // Error: Type 'string' is not assignable to type 'never' |
 |                       |                        |
@@ -983,7 +964,6 @@ type Y = {
 };
 type XY = X | Y;
 const r: XY = { a: 'a', b: 'x' }; // Valid
-
 ```
 
 An intersection, (T1 & T2) create a narrower set (only shared):
@@ -1000,12 +980,11 @@ type Y = {
 type XY = X & Y;
 const r: XY = { a: 'a' }; // Invalid
 const j: XY = { a: 'a', b: 'b' }; // Valid
-
 ```
 
 The `extends` keyword could be considered as a “subset of” in this context. It sets a constraint for a type. The extends used with a generic, take the generic as an infinite set and it will constrain it to a more specific type.
-Please note that `extends` has nothing to do with hierarchy in a OOP sense (there is no this concept in TypScript).
-TypeScript works with sets and does not have a strict hierarchy, infact, as in the example below, two types could overlap without either being a subtype of the other type (TypScript considers the structure, shape of the objects).
+Please note that `extends` has nothing to do with hierarchy in a OOP sense (there is no this concept in TypeScript).
+TypeScript works with sets and does not have a strict hierarchy, infact, as in the example below, two types could overlap without either being a subtype of the other type (TypeScript considers the structure, shape of the objects).
 
 ```typescript
 interface X {
@@ -1033,7 +1012,6 @@ interface Z1 {
 const z1: Z1 = { a: 'a', b: 'b', c: 'c' };
 
 const r: Z1 = z; // Valid
-
 ```
 
 ### Assign a type: Type Declarations and Type Assertions
@@ -1052,7 +1030,6 @@ const x: X = {
     // Type declaration
     a: 'a',
 };
-
 ```
 
 If the variable is not in the specified format, TypeScript will report an error. For instance:
@@ -1067,7 +1044,6 @@ const x: X = {
     a: 'a',
     b: 'b', // Error: Object literal may only specify known properties
 };
-
 ```
 
 #### Type Assertion
@@ -1084,7 +1060,6 @@ const x = {
     a: 'a',
     b: 'b',
 } as X;
-
 ```
 
 In the above example, the object x is asserted to have the type X using the as keyword. This informs the TypeScript compiler that the object conforms to the specified type, even though it has an additional property b not present in the type definition.
@@ -1109,7 +1084,6 @@ type X = {
     b: number;
 };
 type Y = J<X>;
-
 ```
 
 In this example, the type J<Type> uses a mapped type with a template literal to remap the keys of Type. It creates new properties with a prefix_ added to each key, and their corresponding values are functions returning the original property values.
@@ -1123,7 +1097,6 @@ This assertion is applied using a post-fix `!` expression operator, which tells 
 ```typescript
 let x: null | number;
 let y = x!; // number
-
 ```
 
 #### Ambient Declarations
@@ -1144,7 +1117,6 @@ For your defined Ambient Declarations, you can import using the “triple-slash�
 <!-- skip -->
 ```typescript
 /// <reference path="./library-types.d.ts" />
-
 ```
 You can use Ambient Declarations even within JavaScript files using `// @ts-check`.
 
@@ -1162,7 +1134,6 @@ type X = {
 const y = { a: 'a', b: 'b' };
 const x: X = y; // Valid because structural typing
 const w: X = { a: 'a', b: 'b' }; // Invalid because excess property checking
-
 ```
 
 ### Weak Types
@@ -1174,7 +1145,6 @@ type X = {
     a?: string;
     b?: string;
 };
-
 ```
 
 TypeScript considers an error to assign anything to a weak type when there is no overlap, for instance, the following throws an error:
@@ -1189,7 +1159,6 @@ type Options = {
 const fn = (options: Options) => undefined;
 
 fn({ c: 'c' }); // Invalid
-
 ```
 
 Although not recommended, if needed, it is possible to bypass this check by using type assertion:
@@ -1215,7 +1184,6 @@ type Options = {
 
 const fn = (options: Options) => undefined;
 fn({ c: 'c' }); // Valid
-
 ```
 
 ### Strict Object Literal Checking (Freshness)
@@ -1243,22 +1211,20 @@ fn(x);
 fn(y); // No errors, structurally type compatible
 
 fn({ a: 'a', bx: 'b' }); // Freshness check: Invalid argument
-
 ```
 
 ### Type Inference
 
 TypeScript can infer types when no annotation is provided during:
-         * Variable initialization.
-         * Member initialization.
-         * Setting defaults for parameters.
-         * Function return type.
+* Variable initialization.
+* Member initialization.
+* Setting defaults for parameters.
+* Function return type.
 
 For example:
 
 ```typescript
 let x = 'x'; // The type inferred is string
-
 ```
 
 The TypeScript compiler analyzes the value or expression and determines its type based on the available information.
@@ -1269,21 +1235,18 @@ When multiple expressions are used in type inference, TypeScript looks for the "
 
 ```typescript
 let x = [1, 'x', 1, null]; // The type inferred is: (string | number | null)[]
-
 ```
 
 If the compiler cannot find the best common types, it returns a union type. For example:
 
 ```typescript
 let x = [new RegExp('x'), new Date()]; // Type inferred is: (RegExp | Date)[]
-
 ```
 
 TypeScript utilizes "contextual typing" based on the variable's location to infer types. In the following example, the compiler knows that `e` is of type `MouseEvent` because of the `click` event type defined in the lib.d.ts file, which contains ambient declarations for various common JavaScript constructs and the DOM:
 
 ```typescript
 window.addEventListener('click', function (e) {}); // e inferred type is MouseEvent
-
 ```
 
 ### Type Widening
@@ -1296,7 +1259,6 @@ In the following example:
 let x = 'x'; // TypeScript infers as string, a wide type
 let y: 'y' | 'x' = 'y'; // y types is a union of literal types
 y = x; // Invalid Type 'string' is not assignable to type '"x" | "y"'.
-
 ```
 
 TypeScript assigns `string` to `x` based on the single value provided during initialization (`x`), this is an example of widening.
@@ -1313,11 +1275,10 @@ For example:
 const x = 'x'; // TypeScript infers the type of x as 'x', a narrower type
 let y: 'y' | 'x' = 'y';
 y = x; // Valid: The type of x is inferred as 'x'
-
 ```
 
-By using const to declare the variable x, its type is narrowed to the specific literal value 'x'. Since the type of x is narrowed, it can be assigned to the variable y without any error.
-The reason the type can be inferred is because const variables cannot be reassigned, so their type can be narrowed down to a specific literal type, in this case, the literal type 'x'.
+By using `const` to declare the variable x, its type is narrowed to the specific literal value 'x'. Since the type of x is narrowed, it can be assigned to the variable y without any error.
+The reason the type can be inferred is because `const` variables cannot be reassigned, so their type can be narrowed down to a specific literal type, in this case, the literal type 'x'.
 
 #### const modifier on type parameters
 
@@ -1329,7 +1290,6 @@ function identity<T>(value: T) {
     return value;
 }
 const values = identity({ a: 'a', b: 'b' }); // Type infered is: { a: string; b: string; }
-
 ```
 
 As you can see, the properties `a` and `b` are inferred with a type of `string`   .
@@ -1342,7 +1302,6 @@ function identity<const T>(value: T) {
     return value;
 }
 const values = identity({ a: 'a', b: 'b' }); // Type infered is: { a: "a"; b: "b"; }
-
 ```
 
 Now we can see that the properties `a` and `b` are inferred as `const`, so `a` and `b` are treated as string literals rather than just `string` types.
@@ -1356,7 +1315,6 @@ const v = {
     x: 1, // Inferred type: number (widening)
 };
 v.x = 3; // Valid
-
 ```
 
 We can make the type annotation more specific by using a union of literal types:
@@ -2699,16 +2657,16 @@ let myCombined: CombinedType = { name: 'John', age: 25 }; // object with both na
 
 TypeScript has several built-in type primitives that can be used to define variables, function parameters, and return types:
 
-`number`: Represents numeric values, including integers and floating-point numbers.
-`string`: Represents textual data
-`boolean`: Represents logical values, which can be either true or false.
-`null`: Represents the absence of a value.
-`undefined`: Represents a value that has not been assigned or has not been defined.
-`symbol`: Represents a unique identifier. Symbols are typically used as keys for object properties.
-`bigint`: Represents arbitrary-precision integers.
-`any`: Represents a dynamic or unknown type. Variables of type any can hold values of any type, and they bypass type checking.
-`void`: Represents the absence of any type. It is commonly used as the return type of functions that do not return a value.
-`never`: Represents a type for values that never occur. It is typically used as the return type of functions that throw an error or enter an infinite loop.
+* `number`: Represents numeric values, including integers and floating-point numbers.
+* `string`: Represents textual data
+* `boolean`: Represents logical values, which can be either true or false.
+* `null`: Represents the absence of a value.
+* `undefined`: Represents a value that has not been assigned or has not been defined.
+* `symbol`: Represents a unique identifier. Symbols are typically used as keys for object properties.
+* `bigint`: Represents arbitrary-precision integers.
+* `any`: Represents a dynamic or unknown type. Variables of type any can hold values of any type, and they bypass type checking.
+* `void`: Represents the absence of any type. It is commonly used as the return type of functions that do not return a value.
+* `never`: Represents a type for values that never occur. It is typically used as the return type of functions that throw an error or enter an infinite loop.
 
 ## Common Built-in JS Objects
 
