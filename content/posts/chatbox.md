@@ -1,9 +1,9 @@
 ---
 title: chatbox
-date: 2023-05-09T12:17:22+08:00
+date: 2023-07-12T12:17:46+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12131/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
+featuredImage: https://images.unsplash.com/photo-1688310891322-5c8a3d921872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688310891322-5c8a3d921872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)
@@ -16,7 +16,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
     English | <a href="./README-CN.md">中文介绍</a>
 </p>
 <p align="center">
-    <em>Your Ultimate Copilot on the Desktop. <br />Chatbox is a desktop app for GPT-4 / GPT-3.5 (OpenAI API) that supports Windows, Mac & Linux.</em>
+    <em>Your Ultimate AI Copilot on the Desktop. <br />Chatbox is a desktop app for GPT/LLM that supports Windows, Mac & Linux.</em>
 </p>
 
 
@@ -24,19 +24,19 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 <a href="https://github.com/Bin-Huang/chatbox/releases" target="_blank">
 <img alt="macOS" src="https://img.shields.io/badge/-macOS-black?style=flat-square&logo=apple&logoColor=white" />
 </a>
-
 <a href="https://github.com/Bin-Huang/chatbox/releases" target="_blank">
 <img alt="Windows" src="https://img.shields.io/badge/-Windows-blue?style=flat-square&logo=windows&logoColor=white" />
 </a>
-
 <a href="https://github.com/Bin-Huang/chatbox/releases" target="_blank">
 <img alt="Linux" src="https://img.shields.io/badge/-Linux-yellow?style=flat-square&logo=linux&logoColor=white" />
 </a>
-
+<a href="https://github.com/Bin-Huang/chatbox/releases" target="_blank">
+<img alt="Downloads" src="https://img.shields.io/github/downloads/Bin-Huang/chatbox/total.svg?style=flat" />
+</a>
+<a href="https://twitter.com/benn_huang" target="_blank">
+<img alt="Twitter" src="https://img.shields.io/badge/follow-benn_huang-blue?style=flat&logo=Twitter" />
+</a>
 </p>
-
-<!-- ![](./doc/snapshot2.png) -->
-<!-- ![](./doc/snapshot4.png) -->
 
 <table>
 <tr>
@@ -51,42 +51,70 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12131/0/1080p
 
 ## Features
 
-- More freedom and powerful Prompt abilities
-- Data stored locally, no risk of losing it
-- Supports GPT-4 and other models
-- Supports custom domain proxy
-- More features: Markdown, message quotes, word and token estimation, night mode...
-- UI design conforms to ergonomics
-- Comes with software installers, no need for deployment
-- Free and open-source
+- More free and powerful Prompt capability
+- Data is stored locally and will not be lost
+- Built-in AI services out of the box, API KEY is not required
+- Support for OpenAI(GPT3.5, GPT4), Azure OpenAI and ChatGLM-6B
+- Support for custom domain proxies
+- Markdown & Code Highlighting
+- Prompt Library, Message Quoting
+- Streaming reply
+- Ergonomic UI design & Night Mode
+- Suitable for team collaboration, supporting the sharing of OpenAI API resources within the team. View [tutorial](./team-sharing/README.md)
+- Providing installation packages, no deployment required
+- Free and open source
 
-## Download
-
-*Chatbox supports all major operating systems, including: Windows, Mac (Intel, M1), and Linux.*
+## Download installer
 
 ### Download from the official website
 
-Visit **[chatboxapp.xyz](https://chatboxapp.xyz/)** to download the latest version.
+<table>
+  <tr>
+    <td style="text-align:center"><b>Windows</b></td>
+    <td colspan="2" style="text-align:center"><b>MacOS</b></td>
+    <td style="text-align:center"><b>Linux</b></td>
+  </tr>
+  <tr>
+    <td>
+      <b><a href='https://chatboxai.app/?c=download-windows'>Get Setup.exe</a></b>
+    </td>
+    <td>
+      <b><a href='https://chatboxai.app/?c=download-mac-intel'>Mac Intel Setup</a></b>
+    </td>
+    <td>
+      <b><a href='https://chatboxai.app/?c=download-mac-aarch'>Mac M1/M2 Setup</a></b>
+    </td>
+    <td>
+      <b><a href='https://chatboxai.app/?c=download-linux'>AppImage</a></b>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td>Use Online</td>
+  </tr>
+  <tr>
+    <td>
+      <a href='https://chatboxai.app/#download'>Try the web version(beta)</a>
+    </td>
+  </tr>
+</table>
 
 ### Download from GitHub Releases
 
-You can visit **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** to browse and download all previous versions.
+Visit the **[GitHub Releases](https://github.com/Bin-Huang/chatbox/releases)** to download the latest version or any previous release.
 
-### Download via package manager
+## FAQ
 
-#### [aur](https://aur.archlinux.org/packages/chatbox-bin)
+- [Frequently Asked Questions](./FAQ.md)
+- [常见问题与解答](./FAQ-CN.md)
 
-If you are using Arch Linux, you can download and install Chatbox via AUR:
+## Chatbox Team Sharing Feature
 
-```
-paru -S chatbox-bin
-```
+Using AI to enhance your team productivity, is an important feature of Chatbox.
 
-## Why Use Chatbox?
-
-- ChatBox helps you design, debug, and manage prompts more freely, enabling you to operate AI models more efficiently.
-- Chatbox stores all chat messages and prompts locally, thus reducing the risk of data loss.
-- Directly testing ChatGPT API (OpenAI API) might be challenging for those with no programming background. By using Chatbox, you can perform such experiments in a convenient way.
+Chatbox allows your team members to share the resources of the same OpenAI API account without exposing your API KEY. View [tutorial](./team-sharing/README.md).
 
 ## Why I made Chatbox?
 
@@ -110,10 +138,11 @@ At first, I didn't know that it would be so popular. I listened to the feedback 
 - [x] Copy button for code blocks
 - [x] Stop button for AI message generation
 - [x] Drag-and-drop sorting of tabs
-- [x] [Web version](https://web.chatboxapp.xyz)
-- [ ] Azure OpenAI API compatibility
-- [ ] Improved prompt settings
-- [ ] Prompt Library
+- [x] [Web version](https://web.chatboxai.app)
+- [x] Azure OpenAI API compatibility
+- [x] Improved prompt settings
+- [x] Prompt Library
+- [x] Built-in AI services out of the box
 - [ ] Talk with files
 - [ ] Talk with URLs
 - [ ] Mobile(Android, iOS)
@@ -132,12 +161,6 @@ Any form of contribution is welcome, including but not limited to:
 - Submitting documentation revisions
 - Submitting translations
 - Submitting any other forms of contribution
-
-## Become a ChatBox Sponsor?
-
-As an open-source project, ChatBox is sustained by the contributions and support of our community. If you or your organization find our work valuable, we welcome your sponsorship to help us continue improving and enhancing the application for everyone. To show our appreciation, we will prominently display sponsor information in our README and other appropriate places. Thank you for considering supporting our efforts!
-
-If you have any interest or ideas, please feel free to contact us at tohuangbin@gmail.com .
 
 ## Buy Me a Coffee
 

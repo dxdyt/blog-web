@@ -1,9 +1,9 @@
 ---
 title: The-Art-of-Linear-Algebra
-date: 2023-07-10T12:19:54+08:00
+date: 2023-07-12T12:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684327507961-6453b3059006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684327507961-6453b3059006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686485188237-b22dd7940ff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686485188237-b22dd7940ff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [kenjihiranabe/The-Art-of-Linear-Algebra](https://github.com/kenjihiranabe/The-Art-of-Linear-Algebra)

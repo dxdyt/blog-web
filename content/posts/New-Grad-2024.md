@@ -1,9 +1,9 @@
 ---
 title: New-Grad-2024
-date: 2023-07-11T12:18:14+08:00
+date: 2023-07-12T12:18:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687142412847-13abdd32c149?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687142412847-13abdd32c149?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686635371191-532dfc8d89c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686635371191-532dfc8d89c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [ReaVNaiL/New-Grad-2024](https://github.com/ReaVNaiL/New-Grad-2024)

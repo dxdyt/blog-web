@@ -1,9 +1,9 @@
 ---
 title: kafka-in-production
-date: 2023-07-06T12:20:58+08:00
+date: 2023-07-12T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687274399013-e1310c301994?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687274399013-e1310c301994?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [dttung2905/kafka-in-production](https://github.com/dttung2905/kafka-in-production)
@@ -27,30 +27,35 @@ Curious to know how big companies are operating their kafka fleet in production?
 2. [Agoda](#agoda)
 3. [Airbnb](#airbnb)
 4. [Apple](#apple)
-5. [Appsflyer](#appsflyer)
+5. [AppsFlyer](#appsflyer)
 6. [Bloomberg](#bloomberg)
 7. [Bolt](#bolt)
 8. [Booking.com](#bookingcom)
 9. [Brex](#brex)
 10. [Cloudflare](#cloudflare)
 11. [Coinbase](#coinbase)
-12. [Datadog](#datadog)
-13. [Deliveroo](#deliveroo)
-14. [GoTo](#goto)
-15. [Grab](#grab)
-16. [Honeycomb](#honeycomb)
-17. [LinkedIn](#linkedin)
-18. [Lyft](#lyft)
-19. [Netflix](#netflix)
-20. [Pinterest](#pinterest)
-21. [Robinhood](#robinhood)
-22. [Slack](#slack)
-23. [Stripe](#stripe)
-24. [Uber](#uber)
-25. [Wise](#wise)
-26. [Wix](#wix)
-27. [Yelp](#yelp)
-28. [Zalando](#zalando)
+12. [Criteo](#criteo)
+13. [Datadog](#datadog)
+14. [Deliveroo](#deliveroo)
+15. [GoTo](#goto)
+16. [Grab](#grab)
+17. [Honeycomb](#honeycomb)
+18. [LinkedIn](#linkedin)
+19. [Lyft](#lyft)
+20. [Morgan Stanley](#morgan-stanley)
+21. [Netflix](#netflix)
+22. [Pinterest](#pinterest)
+23. [Riskified](#riskified)
+24. [Robinhood](#robinhood)
+25. [Slack](#slack)
+26. [Stripe](#stripe)
+27. [Uber](#uber)
+28. [Wise](#wise)
+29. [Wix](#wix)
+30. [Yelp](#yelp)
+31. [Zalando](#zalando)
+32. [Zopa Bank](#zopa-bank)
+
 
 ## Adobe
 
@@ -72,12 +77,15 @@ Curious to know how big companies are operating their kafka fleet in production?
 
 ## Apple
 
+- [Balance Kafka Cluster with Zero Data Movement](https://www.confluent.io/events/kafka-summit-london-2023/balance-kafka-cluster-with-zero-data-movement/) - `2023` - :studio_microphone:
 - [Experiences Operating Apache Kafka® at Scale](https://www.confluent.io/kafka-summit-ny19/experiences-operating-apache-kafka-at-scale/) - `2019` - :studio_microphone:
 - [Kafka as a Service A Tale of Security and Multi Tenancy](https://www.confluent.io/blog/rounding-up-kafka-summit-london-2018/) - `2018` - :studio_microphone:
 
-## Appsflyer
-
+## AppsFlyer
+- [Four Crucial Steps to Take Before Changing Kafka Partition Key at Scale](https://medium.com/appsflyerengineering/four-crucial-steps-to-take-before-changing-kafka-partition-key-at-scale-3c2e553c73b2) - `2023` - :books:
 - [Kafka Lag Monitoring For Human Beings](https://www.confluent.io/resources/kafka-summit-2020/kafka-lag-monitoring-for-human-beings/) - `2020` - :studio_microphone:
+- [Apache Kafka Lag Monitoring at AppsFlyer](https://www.confluent.io/blog/kafka-lag-monitoring-and-metrics-at-appsflyer/) - `2020` - :books:
+- [Managing your Kafka in an explosive growth environment](https://www.youtube.com/watch?v=tjjeaCtsw_M) - `2019` - :studio_microphone:
 
 ## Bloomberg
 
@@ -106,6 +114,12 @@ Curious to know how big companies are operating their kafka fleet in production?
 
 - [Kafka infrastructure renovation at Coinbase](https://www.coinbase.com/blog/kafka-infrastructure-renovation) - `2022` - :books:
 - [How we scaled data streaming at Coinbase using AWS MSK](https://www.coinbase.com/blog/how-we-scaled-data-streaming-at-coinbase-using-aws-msk) - `2021` - :books:
+
+## Criteo
+
+- [Managing Kafka and Data Streams at Criteo](https://medium.com/criteo-engineering/managing-kafka-and-data-streams-at-criteo-566ffbfda6ba) - `2023` - :books:
+- [Upgrading Kafka on a large infra, or: when moving at scale requires careful planning](https://medium.com/criteo-engineering/upgrading-kafka-on-a-large-infra-3ee99f56e970) - `2019` - :books:
+- [How Criteo is managing one of the largest Kafka Infrastructure in Europe](https://www.slideshare.net/RicardoPaiva17/how-criteo-is-managing-one-of-the-largest-kafka-infrastructure-in-europe) - `2019` - :books:
 
 ## Datadog
 
@@ -145,6 +159,7 @@ Curious to know how big companies are operating their kafka fleet in production?
 - [Load-balanced Brooklin Mirror Maker: Replicating large-scale Kafka clusters at LinkedIn](https://engineering.linkedin.com/blog/2022/load-balanced-brooklin-mirror-maker--replicating-large-scale-kaf) - `2022` - :books:
 - [TopicGC: How LinkedIn cleans up unused metadata for its Kafka clusters](https://engineering.linkedin.com/blog/2022/topicgc_how-linkedin-cleans-up-unused-metadata-for-its-kafka-clu) - `2022` - :books:
 - [How LinkedIn customizes Apache Kafka for 7 trillion messages per day](https://engineering.linkedin.com/blog/2019/apache-kafka-trillion-messages) - `2019` - :books:
+- [URP? Excuse You! The Three Metrics You Have to Know](https://www.confluent.io/kafka-summit-london18/urp-excuse-you-the-three-metrics-you-have-to-know/) - `2018` - :studio_microphone:
 - [Test Strategy for Samza/Kafka Services](https://engineering.linkedin.com/blog/2017/04/test-strategy-for-samza-kafka-services) - `2017` - :books:
 - [Kafka Ecosystem at LinkedIn](https://engineering.linkedin.com/blog/2016/04/kafka-ecosystem-at-linkedin) - `2016` - :books:
 - [Kafkaesque Days at LinkedIn – Part 1](https://engineering.linkedin.com/blog/2016/05/kafkaesque-days-at-linkedin--part-1) - `2016` - :books:
@@ -158,6 +173,10 @@ Curious to know how big companies are operating their kafka fleet in production?
 - [Bulletproof Apache Kafka® with Fault Tree Analysis](https://www.confluent.io/kafka-summit-ny19/bulletproof-kafka-with-fault-tree-analysis/) - `2019` - :studio_microphone:
 - [Production Ready Kafka on Kubernetes](https://www.confluent.io/kafka-summit-san-francisco-2019/production-ready-kafka-on-kubernetes/) - `2019` - :studio_microphone:
 
+## Morgan Stanley
+
+- [Consistent, High-throughput, Real-time Calculation Engines Using Kafka Streams](https://www.confluent.io/events/kafka-summit-london-2023/consistent-high-throughput-real-time-calculation-engines-using-kafka-streams/) - `2023` - :studio_microphone:
+
 ## Netflix
 
 - [Featuring Apache Kafka in the Netflix Studio and Finance World](https://www.confluent.io/blog/how-kafka-is-used-by-netflix/) - `2020` - :books:
@@ -170,6 +189,14 @@ Curious to know how big companies are operating their kafka fleet in production?
 - [Lessons Learned from Running Apache Kafka at Scale at Pinterest](https://www.confluent.io/blog/running-kafka-at-scale-at-pinterest/) - `2021` - :books:
 - [How Pinterest runs Kafka at scale](https://medium.com/pinterest-engineering/how-pinterest-runs-kafka-at-scale-ff9c6f735be) - `2018` - :books:
 - [Open sourcing DoctorKafka: Kafka cluster healing and workload balancing](https://medium.com/pinterest-engineering/open-sourcing-doctorkafka-kafka-cluster-healing-and-workload-balancing-e51ad25b6b17) - `2017` - :books:
+
+## Riskified
+
+- [How to Manage Schemas and Handle Standardization](https://medium.com/riskified-technology/how-riskified-manages-schemas-and-handles-standardization-fda9eb236e28) - `2023` - :books:
+- [How to Roll Your Kafka Cluster With Zero Downtime and No Data Loss](https://medium.com/riskified-technology/how-to-roll-your-kafka-cluster-with-zero-downtime-and-no-data-loss-770fd0a35971) - `2023` - :books:
+- [Know Your Limits: Cluster Benchmarks](https://medium.com/riskified-technology/know-your-limits-cluster-benchmarks-ecc6c3c77574) - `2022` - :books:
+- [Let’s Make Your CFO Happy; A Practical Guide for Kafka Cost Reduction](https://www.confluent.io/en-gb/events/kafka-summit-london-2022/lets-make-your-cfo-happy-a-practical-guide-for-kafka-cost-reduction/) - `2022` - :studio_microphone:
+- [From AWS CloudFormation to Terraform: Migrating Apache Kafka](https://medium.com/riskified-technology/from-aws-cloudformation-to-terraform-migrating-apache-kafka-32bdabdbaa59) - `2021` - :books:
 
 ## Robinhood
 
@@ -196,6 +223,7 @@ Curious to know how big companies are operating their kafka fleet in production?
 
 ## Wise
 
+- [Streaming Infrastructure at Wise](https://www.confluent.io/events/kafka-summit-london-2023/streaming-infrastructure-at-wise/) - `2023` - :studio_microphone:
 - [Rack awareness in Kafka Streams](https://medium.com/wise-engineering/rack-awareness-in-kafka-streams-448d7e5225a3) - `2022` - :books:
 - [Teamwork: Implementing a Kafka retry strategy at Wise](https://medium.com/wise-engineering/teamwork-implementing-a-kafka-retry-strategy-at-wise-82e0887e243b) - `2021` - :books:
 - [Running Kafka in Kubernetes, Part 1: Why we migrated our Kafka clusters to Kubernetes.](https://medium.com/wise-engineering/running-kafka-in-kubernetes-part-1-why-we-migrated-our-kafka-clusters-to-kubernetes-722101a2e751) - `2021` - :books:
@@ -226,3 +254,6 @@ Curious to know how big companies are operating their kafka fleet in production?
 - [A Recipe for Kafka Lag Monitoring](https://engineering.zalando.com/posts/2017/12/recipe-for-kafka-lag-monitoring.html) - `2017` - :books:
 - [Surviving Data Loss](https://engineering.zalando.com/posts/2017/12/backing-up-kafka-zookeeper.html) - `2017` - :books:
 
+## Zopa Bank
+
+- [Highly Available Kafka Consumers and Kafka Streams on Kubernetes](https://www.confluent.io/events/kafka-summit-london-2023/highly-available-kafka-consumers-and-kafka-streams-on-kubernetes/) - `2023` - :studio_microphone:

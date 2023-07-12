@@ -1,9 +1,9 @@
 ---
 title: igl
-date: 2023-07-11T12:17:46+08:00
+date: 2023-07-12T12:17:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685648043756-124a4adad0ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685648043756-124a4adad0ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686635371191-532dfc8d89c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686635371191-532dfc8d89c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [facebook/igl](https://github.com/facebook/igl)

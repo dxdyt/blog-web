@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-07-11T12:17:08+08:00
+date: 2023-07-12T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686848104068-c359b19fe244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686848104068-c359b19fe244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686516180056-6f55507aee93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686516180056-6f55507aee93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -177,6 +177,9 @@ This project could not be possible without the support of our sponsors. Thank yo
 </a>
 <a href="https://www.bam.tech/">
   <img src="https://avatars.githubusercontent.com/u/9597329?s=200&v=4" alt="BAM" style="padding: 10px" width="70px">
+</a>
+<a href="https://www.sicara.fr/">
+  <img src="https://avatars.githubusercontent.com/u/23194788?s=200&v=4" alt="Sicara" style="padding: 10px" width="70px">
 </a>
 
 
