@@ -1,9 +1,9 @@
 ---
 title: DeepFaceLive
-date: 2023-05-28T12:17:22+08:00
+date: 2023-07-13T12:18:23+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12179/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
+featuredImage: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive)
@@ -22,7 +22,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12179/0/1080p
 
 <tr><td colspan=2 align="center">
 
-## Face Swapper
+## Face Swap (DFM)
 
 You can swap your face from a webcam or the face in the video using trained face models.
 
@@ -244,6 +244,21 @@ Tina Shift
 If you want a higher quality or better face match, you can train your own face model using <a href="https://github.com/iperov/DeepFaceLab">DeepFaceLab</a>
 
 Here is an <a href="https://www.tiktok.com/@arnoldschwarzneggar/video/6995538782204300545">example</a> of Arnold Schwarzneggar trained on a particular face and used in a video call. Read the FAQ for more information.
+
+</td></tr>
+
+</table>
+<table align="center" border="0">
+
+<tr><td colspan=2 align="center">
+
+## Face Swap (Insight)
+
+You can swap your face from a webcam or the face in the video using your own single photo.
+
+<img src="doc/lukashenko.png" width=128></img>
+
+<img src="doc/insight_faceswap_example.gif"></img>
 
 </td></tr>
 

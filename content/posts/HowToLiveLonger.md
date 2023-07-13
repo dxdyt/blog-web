@@ -1,9 +1,9 @@
 ---
 title: HowToLiveLonger
-date: 2023-05-18T12:16:10+08:00
+date: 2023-07-13T12:19:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImage: https://images.unsplash.com/photo-1687294920924-b82d79864991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687294920924-b82d79864991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [geekan/HowToLiveLonger](https://github.com/geekan/HowToLiveLonger)
@@ -12,6 +12,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 
 [![CN doc](https://img.shields.io/badge/文档-中文版-blue.svg)](README.md)
 [![EN doc](https://img.shields.io/badge/document-English-blue.svg)](README_en.md)
+[![MetaGPT](https://img.shields.io/badge/减少工作时间-MetaGPT-blue)](https://github.com/geekan/MetaGPT)
+
 
 - [1. 术语](#1-术语)
 - [2. 目标](#2-目标)
@@ -27,11 +29,13 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
     - [6.1.5. 药物](#615-药物)
   - [6.2. 输出](#62-输出)
     - [6.2.1. 挥拍运动](#621-挥拍运动)
-    - [6.2.2. 走路](#622-走路)
-    - [6.2.3. 刷牙](#623-刷牙)
-    - [6.2.4. 泡澡](#624-泡澡)
-    - [6.2.5. 做家务（老年男性）](#625-做家务老年男性)
-    - [6.2.6. 睡眠](#626-睡眠)
+    - [6.2.2. 剧烈运动](#622-剧烈运动)
+    - [6.2.3. 走路](#623-走路)
+    - [6.2.4. 刷牙](#624-刷牙)
+    - [6.2.5. 泡澡](#625-泡澡)
+    - [6.2.6. 做家务（老年男性）](#626-做家务老年男性)
+    - [6.2.7. 睡眠](#627-睡眠)
+    - [6.2.8. 久坐](#628-久坐)
   - [6.3. 上下文](#63-上下文)
     - [6.3.1. 情绪](#631-情绪)
     - [6.3.2. 贫富](#632-贫富)
@@ -46,7 +50,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 
 ### 2. 目标
 
-* 稳健地活得更久
+* 稳健的活得更久
+* 花更少时间工作：见[MetaGPT](https://github.com/geekan/MetaGPT)
 
 ### 3. 关键结果
 
@@ -57,7 +62,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ### 4. 分析
 
 * 主要参考：对ACM的学术文献相对较多，可以作为主要参考
-* 增加寿命与ACM关系非线性：显然增加寿命与ACM关系是非线性函数，这里假设 `DeltaLifeSpan=(1/(1+DeltaACM)-1)*10`（DeltaACM为ACM变化值；公式欢迎优化）
+* 增加寿命与ACM关系非线性：显然增加寿命与ACM关系是非线性函数，这里假设 `ΔLifeSpan=(1/(1+ΔACM)-1)*10`（ΔACM为ACM变化值；公式欢迎优化）
 * 变量无法简单叠加：显然各个变量之间并不符合独立同分布假设，变量之间的实际影响也并不明确
 * 存在矛盾观点：所有的证据都有文献/研究对应，但注意到：有些文献之间有显著矛盾的观点（如对于碳水摄入比例的矛盾）；有些文献存在较大争议（如认为22点前睡觉会提升43%全因死亡率）
 * 研究仅表达相关：所有文献表明的更多是相关而非因果，在阅读时要考虑文献是否充分证明了因果 —— 如某文献表明了日均>=7000步的人有显著低的全因死亡率。但步数少的人可能包含更多长期病患，如果没有合理的排除这块数据，那此文献调查失真
@@ -65,7 +70,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 ### 5. 行动
 
 * 输入
-  * 固体：吃白肉（-11%\~-3% ACM）、蔬果为主（-26%\~-17% ACM），多吃辣（-23% ACM），多吃坚果（-27%\~-4% ACM），*少吃蛋黄（否则+7% ACM/0.5颗/天）（存在争议）*，中量碳水、多吃植物蛋白（-10% ACM），少吃超加工食物（-62%\~-18%）
+  * 固体：吃白肉（-11%\~-3% ACM）、蔬果为主（-26%\~-17% ACM），多吃辣（-23% ACM），多吃坚果（-27%\~-4% ACM），中量碳水、多吃植物蛋白（-10% ACM），少吃超加工食物（-62%\~-18%）
   * 液体：喝咖啡（-22%\~-12% ACM），喝牛奶（-17%\~-10% ACM），喝茶（-15%\~-8% ACM），少喝或不喝甜味饮料（否则每天一杯+7% ACM，+多巴胺），戒酒或每周100g（纯酒精量(g)=饮酒量(ml)×酒精浓度(%)×酒精密度0.8g/ml）内（否则+\~50% ACM，无上限）
   * 气体：不吸烟（否则+~50% ACM，-12\~-11年寿命）
   * 光照：晒太阳（-~40% ACM）
@@ -238,31 +243,36 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
   * 一周三次，每次45-60分钟，挥拍运动，降低~47%全因死亡率
   * 羽毛球、乒乓球、网球等都算挥拍运动，但由于西化研究背景，可能指网球更多。这隐式的表达了全身锻炼更为重要
 
-##### 6.2.2. 走路
+##### 6.2.2. 剧烈运动
+
+* [新研究：每天剧烈运动8分钟，可降低全因死亡和心脏病风险](https://academic.oup.com/eurheartj/advance-article/doi/10.1093/eurheartj/ehac572/6771381)
+  * 每周15-20分钟的剧烈运动，降低16-40%的全因死亡率，剧烈运动时间达到50-57分钟/周，可以进一步降低全因死亡率。这些发现表明，通过在一周的短时间内累积相对少量的剧烈运动可以降低健康风险。
+  
+##### 6.2.3. 走路
 
 * [走路降低全因死亡率超过50%！每天走多少步最合适？《JAMA》子刊超10年研究告诉你答案](http://www.shcell.org/219/3571.html)
   * ![走路降低全因死亡率](https://user-images.githubusercontent.com/2707039/163704147-afec1c79-799b-4db8-b547-1a2431d504c9.jpg)
   * 注1：这项研究参与者的平均年龄为45.2岁
   * 注2：平均步数的多少与职业有关，此项研究仅表明相关性，还没有更深度的因果分析
 
-##### 6.2.3. 刷牙
+##### 6.2.4. 刷牙
 
 * [50万国人研究证实：不好好刷牙，致癌！血管疾病也会增多！](https://www.cn-healthcare.com/articlewm/20211209/content-1293760.html)
   * 经常不刷牙的人：癌症、慢性阻塞性肺病及肝硬化风险分别增加了9%、12%和25%，过早死亡风险增加25%。
 
-##### 6.2.4. 泡澡
+##### 6.2.5. 泡澡
 
 * [定期洗澡降低心血管疾病发作风险](https://www.cn-healthcare.com/article/20200326/content-533379.html)
   * 与每周一至两次泡澡或根本不泡澡相比，每天洗热水澡可以降低28%的心血管疾病总风险，降低26%的中风总风险，脑出血风险下降46%。而浴缸浴的频率与心源性猝死的风险增加无关。
 
-##### 6.2.5. 做家务（老年男性）
+##### 6.2.6. 做家务（老年男性）
 
 * [Housework Reduces All-Cause and Cancer Mortality in Chinese Men](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0061529)
   * 72岁之后男性每周做重型家务可以减少29%平均死亡率
   * 重型家务：吸尘、擦地板、拖地、擦洗窗户、洗车、搬动家具、搬煤气罐等等。
   * 轻型家务：掸灰尘、洗碗、手洗衣服、熨烫、晾衣服、做饭、买日用品等等。
 
-##### 6.2.6. 睡眠
+##### 6.2.7. 睡眠
 
 * [超30万亚洲人数据：每天睡几个小时最有益长寿？](https://med.sina.com/article_detail_103_1_105491.html)
   * 在男性中，与睡眠时长为7小时相比：睡眠持续时间≥10小时与全因死亡风险增加34%相关；
@@ -272,6 +282,12 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 * [颠覆认知！加拿大研究发现：早睡比熬夜或许更伤身，几点睡才好？](https://www.thepaper.cn/newsDetail_forward_14461799)
   * 其中一个结论为，就寝时间与全因死亡率的关联性强，过早睡觉和过晚睡觉都会影响健康，但是早睡增加的全因死亡率比晚睡增加的死亡率高，早睡增加了43%的死亡风险，而晚睡增加了15%的死亡风险。
   * 这项调查研究，还存在很多局限性，比如没有直接证明就寝时间与死亡的关系，仅仅说明相关性，通过参与人群自我报告统计睡眠时间，数据不够客观
+
+##### 6.2.8. 久坐
+
+* [中国居民膳食指南科学研究报告（2021年）](https://www.chinanutri.cn/yyjkzxpt/yyjkkpzx/yytsg/zgjm/202103/P020210311486742870527.pdf)
+  * 久坐和看电视时间与全因死亡、心血管疾病、癌症和2型糖尿病发病高风险相关，是独立风险因素。久坐时间每天每增加1小时，心血管疾病发生风险增加4%，癌症增加1%，全因死亡风险增加3%。全因死亡和CVD死亡风险增加的久坐时间阈值是6\~8h/d，看电视时间阈值是3\~4h/d。
+* [世卫组织关于身体活动和久坐行为的指南](https://apps.who.int/iris/bitstream/handle/10665/337001/9789240014947-chi.pdf)
 
 #### 6.3. 上下文
 

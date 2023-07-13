@@ -1,9 +1,9 @@
 ---
 title: long_llama
-date: 2023-07-12T12:18:06+08:00
+date: 2023-07-13T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688406434758-28b7b2ebbdc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688406434758-28b7b2ebbdc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688283666536-15438a32b68f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688283666536-15438a32b68f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [CStanKonrad/long_llama](https://github.com/CStanKonrad/long_llama)

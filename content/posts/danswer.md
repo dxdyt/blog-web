@@ -1,9 +1,9 @@
 ---
 title: danswer
-date: 2023-07-12T12:19:17+08:00
+date: 2023-07-13T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685513801505-61f89d071e5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685513801505-61f89d071e5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688109511228-68b3dba9b6d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688109511228-68b3dba9b6d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [danswer-ai/danswer](https://github.com/danswer-ai/danswer)
@@ -49,3 +49,6 @@ Check out our <strong><a href="https://www.youtube.com/watch?v=geNzY1nbCnU">Vide
 * Support custom endpoints for Generative AI models or even self-host options.
 * Templates to easily build custom connectors.
 * Personalized search
+
+## 💡 Contributing
+Looking to contribute? Please check out the [Contribution Guide](CONTRIBUTING.md) for more details.

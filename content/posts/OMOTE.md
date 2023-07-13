@@ -1,9 +1,9 @@
 ---
 title: OMOTE
-date: 2023-07-12T12:19:32+08:00
+date: 2023-07-13T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686485188237-b22dd7940ff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686485188237-b22dd7940ff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687626598913-502dcab9e9cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687626598913-502dcab9e9cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [CoretechR/OMOTE](https://github.com/CoretechR/OMOTE)

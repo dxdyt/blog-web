@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2023-06-23T12:18:55+08:00
+date: 2023-07-13T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684789688834-82f671a97136?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684789688834-82f671a97136?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687626598913-502dcab9e9cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687626598913-502dcab9e9cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -29,6 +29,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1684789688834-82f671a971
 <br/>
 <p align="center">
   <a href="README_zh_CN.md">中文</a>
+  <a href="README_tr_TR.md">Türkçe</a>
+  <a href="README_ca_ES.md">Català</a>
 </p>
 
 ## Disclaimer
@@ -79,7 +81,7 @@ Spec: Free-tier Oracle VM - Amsterdam - 2.4Ghz quad-core ARM64 CPU, 24GB RAM
 | Multi-user support                           | Yes    | Yes |
 | Album and Shared albums                      | Yes    | Yes |
 | Scrubbable/draggable scrollbar               | Yes    | Yes |
-| Support RAW (HEIC, HEIF, DNG, Apple ProRaw)  | Yes    | Yes |
+| Support raw formats                          | Yes    | Yes |
 | Metadata view (EXIF, map)                    | Yes    | Yes |
 | Search by metadata, objects, faces, and CLIP | Yes    | Yes |
 | Administrative functions (user management)   | No     | Yes |
@@ -93,8 +95,10 @@ Spec: Free-tier Oracle VM - Amsterdam - 2.4Ghz quad-core ARM64 CPU, 24GB RAM
 | Archive and Favorites                        | Yes    | Yes |
 | Global Map                                   | No     | Yes |
 | Partner Sharing                              | Yes    | Yes |
-| Facial recognition and clustering            | No     | Yes |
+| Facial recognition and clustering            | Yes    | Yes |
+| Memories (x years ago)                       | Yes    | Yes |
 | Offline support                              | Yes    | No  |
+| Read-only gallery                            | Yes    | Yes |
 
 # Support the project
 

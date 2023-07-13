@@ -1,9 +1,9 @@
 ---
 title: htmx
-date: 2023-07-11T12:17:14+08:00
+date: 2023-07-13T12:18:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687778682351-99d1e0f8f1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687778682351-99d1e0f8f1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687294920924-b82d79864991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687294920924-b82d79864991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
 ---
 
 # [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
