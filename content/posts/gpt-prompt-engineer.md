@@ -1,9 +1,9 @@
 ---
 title: gpt-prompt-engineer
-date: 2023-07-13T12:17:19+08:00
+date: 2023-07-14T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688413708929-8b2d281803df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688413708929-8b2d281803df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
 ---
 
 # [mshumer/gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer)
@@ -38,7 +38,7 @@ Prompt engineering is kind of like alchemy. There's no clear way to predict what
 
 2. Add your OpenAI API key to the line `openai.api_key = "ADD YOUR KEY HERE"`.
 
-3. If you have GPT-4 access, you're ready to move on. If not, change `CANDIDATE_MODEL='gpt-4'` to `CANDIDATE_MODEL='gpt-3.5-turbo'`. If you're using the classification version, and don't have GPT-4 access, change `model='gpt-4'` in the second cell to `model='gpt-3.5-turbo'.
+3. If you have GPT-4 access, you're ready to move on. If not, change `CANDIDATE_MODEL='gpt-4'` to `CANDIDATE_MODEL='gpt-3.5-turbo'`. If you're using the classification version, and don't have GPT-4 access, change `model='gpt-4'` in the second cell to `model='gpt-3.5-turbo'`.
 
 ## How to Use
 
@@ -120,3 +120,5 @@ This project is [MIT](https://github.com/your_username/your_repository/blob/mast
 Matt Shumer - [@mattshumer_](https://twitter.com/mattshumer_)
 
 Project Link: [https://github.com/mshumer/gpt-prompt-engineer](url)
+
+Lastly, if you want to try something even cooler than this, sign up for [Personal Assistant](https://www.hyperwriteai.com/personal-assistant) (most of my time is spent on this). It's basically an AI that can operate your web browser to complete tasks for you.

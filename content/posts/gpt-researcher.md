@@ -1,14 +1,15 @@
 ---
 title: gpt-researcher
-date: 2023-07-13T12:17:57+08:00
+date: 2023-07-14T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686644823153-634cdca20727?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686644823153-634cdca20727?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
 ---
 
 # [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 
 # 🔎 GPT Researcher
+<a href="https://www.producthunt.com/posts/gpt-researcher?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gpt&#0045;researcher" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=404302&theme=light" alt="GPT&#0032;Researcher - Autonomous&#0032;agent&#0032;designed&#0032;for&#0032;comprehensive&#0032;online&#0032;research | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a><br>
 [![Official Website](https://img.shields.io/badge/Official%20Website-tavily.com-blue?style=flat&logo=world&logoColor=white)](https://tavily.com)
 [![Discord Follow](https://dcbadge.vercel.app/api/server/rqw8dnM8?style=flat)](https://discord.com/invite/rqw8dnM8)
 [![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)](https://github.com/assafelovic/gpt-researcher)
@@ -52,10 +53,6 @@ https://github.com/assafelovic/gpt-researcher/assets/13554167/a00c89a6-a295-4dd0
 - 📂 Keeps track and context of visited and used web sources
 - 📄 Export research reports to PDF and more...
 
-## Tutorials
-- [How to Install](https://www.loom.com/share/04ebffb6ed2a4520a27c3e3addcdde20?sid=da1848e8-b1f1-42d1-93c3-5b0b9c3b24ea)
-- [Live Demo](https://www.loom.com/share/6a3385db4e8747a1913dd85a7834846f?sid=a740fd5b-2aa3-457e-8fb7-86976f59f9b8)
-
 ## Quickstart
 > **Step 0** - Install Python 3.11 or later. [See here](https://www.tutorialsteacher.com/python/install-python) for a step-by-step guide.
 
@@ -91,6 +88,28 @@ $ uvicorn main:app --reload
 <br />
 
 > **Step 5** - Go to http://localhost:8000 on any browser and enjoy researching!
+
+- **update:** if you are having issues with weasyprint, please visit their website and follow the installation instructions: https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
+
+## Try it with Docker
+
+> **Step 1** - Install Docker
+
+Follow instructions at https://docs.docker.com/engine/install/
+
+> **Step 2** - Create .env file with your OpenAI Key or simply export it
+
+```bash
+$ export OPENAI_API_KEY={Your API Key here}
+```
+
+> **Step 3** - Run the application
+
+```bash
+$ docker-compose up
+```
+
+> **Step 4** - Go to http://localhost:8000 on any browser and enjoy researching!
 
 - **update:** if you are having issues with weasyprint, please visit their website and follow the installation instructions: https://doc.courtbouillon.org/weasyprint/stable/first_steps.html
 
