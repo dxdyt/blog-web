@@ -1,15 +1,14 @@
 ---
 title: gpt-researcher
-date: 2023-07-14T12:17:45+08:00
+date: 2023-07-15T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686644823153-634cdca20727?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686644823153-634cdca20727?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688362379203-9cdf13041d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688362379203-9cdf13041d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
 ---
 
 # [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 
 # 🔎 GPT Researcher
-<a href="https://www.producthunt.com/posts/gpt-researcher?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-gpt&#0045;researcher" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=404302&theme=light" alt="GPT&#0032;Researcher - Autonomous&#0032;agent&#0032;designed&#0032;for&#0032;comprehensive&#0032;online&#0032;research | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a><br>
 [![Official Website](https://img.shields.io/badge/Official%20Website-tavily.com-blue?style=flat&logo=world&logoColor=white)](https://tavily.com)
 [![Discord Follow](https://dcbadge.vercel.app/api/server/rqw8dnM8?style=flat)](https://discord.com/invite/rqw8dnM8)
 [![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)](https://github.com/assafelovic/gpt-researcher)
@@ -44,6 +43,10 @@ More specifcally:
 
 ## Demo
 https://github.com/assafelovic/gpt-researcher/assets/13554167/a00c89a6-a295-4dd0-b58d-098a31c40fda
+
+## Tutorials
+ - [How to Install](https://www.loom.com/share/04ebffb6ed2a4520a27c3e3addcdde20?sid=da1848e8-b1f1-42d1-93c3-5b0b9c3b24ea)
+ - [Live Demo](https://www.loom.com/share/6a3385db4e8747a1913dd85a7834846f?sid=a740fd5b-2aa3-457e-8fb7-86976f59f9b8)
 
 ## Features
 - 📝 Generate research, outlines, resources and lessons reports

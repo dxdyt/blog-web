@@ -1,9 +1,9 @@
 ---
 title: Charts
-date: 2023-07-14T12:19:33+08:00
+date: 2023-07-15T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687579520856-3ad628a07cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687579520856-3ad628a07cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687053348022-aec6139ed5f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687053348022-aec6139ed5f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
 ---
 
 # [danielgindi/Charts](https://github.com/danielgindi/Charts)

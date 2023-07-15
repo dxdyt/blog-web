@@ -1,9 +1,9 @@
 ---
 title: ai-getting-started
-date: 2023-06-27T12:19:17+08:00
+date: 2023-07-15T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685468413971-eb5a98d01f34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685468413971-eb5a98d01f34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688320097436-a20f0b5ba1cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688320097436-a20f0b5ba1cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
 ---
 
 # [a16z-infra/ai-getting-started](https://github.com/a16z-infra/ai-getting-started)

@@ -1,9 +1,9 @@
 ---
 title: DeepFaceLive
-date: 2023-07-13T12:18:23+08:00
+date: 2023-07-15T12:18:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687360464268-09429aecd6bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688934728322-597cbe61ef57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688934728322-597cbe61ef57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
 ---
 
 # [iperov/DeepFaceLive](https://github.com/iperov/DeepFaceLive)
