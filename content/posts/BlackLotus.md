@@ -1,9 +1,9 @@
 ---
 title: BlackLotus
-date: 2023-07-15T12:16:36+08:00
+date: 2023-07-16T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688362379203-9cdf13041d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688362379203-9cdf13041d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687579521846-7e8760eafe04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687579521846-7e8760eafe04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
 ---
 
 # [ldpreload/BlackLotus](https://github.com/ldpreload/BlackLotus)

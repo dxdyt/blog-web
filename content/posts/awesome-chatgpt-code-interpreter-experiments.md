@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-code-interpreter-experiments
-date: 2023-07-14T12:18:01+08:00
+date: 2023-07-16T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688841903329-62edd2ea6cb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688841903329-62edd2ea6cb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686760143196-28a5789ae733?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686760143196-28a5789ae733?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
 ---
 
 # [SkalskiP/awesome-chatgpt-code-interpreter-experiments](https://github.com/SkalskiP/awesome-chatgpt-code-interpreter-experiments)
@@ -16,7 +16,7 @@ We aim to push ChatGPT + Code Interpreter to its limits, show you what's possibl
 
 ## 💻 code interpreter
 
-Code Interpreter is an official ChatGPT [plugin](https://openai.com/blog/chatgpt-plugins) for data analytics, image conversions, editing code, and more. Since July 6th, 2023, it has been available to all ChatGPT Plus users. It provides OpenaAI models with a working Python interpreter in a sandboxed, firewalled execution environment. Importantly, it is possible to upload and download files.
+Code Interpreter is an official ChatGPT [plugin](https://openai.com/blog/chatgpt-plugins) for data analytics, image conversions, editing code, and more. Since July 6th, 2023, it has been available to all ChatGPT Plus users. It provides OpenAI models with a working Python interpreter in a sandboxed, firewalled execution environment. Importantly, it is possible to upload and download files.
 
 <details close>
 <summary>👉 activate code interpreter</summary>

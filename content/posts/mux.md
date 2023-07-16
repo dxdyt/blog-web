@@ -1,9 +1,9 @@
 ---
 title: mux
-date: 2023-07-15T12:17:10+08:00
+date: 2023-07-16T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688498594607-5cc74728fbf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688498594607-5cc74728fbf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687913161653-7cddb0ba09b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687913161653-7cddb0ba09b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
 ---
 
 # [gorilla/mux](https://github.com/gorilla/mux)
@@ -15,12 +15,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1688498594607-5cc74728fb
 [![Sourcegraph](https://sourcegraph.com/github.com/gorilla/mux/-/badge.svg)](https://sourcegraph.com/github.com/gorilla/mux?badge)
 
 ![Gorilla Logo](https://cloud-cdn.questionable.services/gorilla-icon-64.png)
-
----
-
-**The Gorilla project has been archived, and is no longer under active maintainenance. You can read more here: https://github.com/gorilla#gorilla-toolkit**
-
----
 
 Package `gorilla/mux` implements a request router and dispatcher for matching incoming requests to
 their respective handler.

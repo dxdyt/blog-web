@@ -1,9 +1,9 @@
 ---
 title: haystack
-date: 2023-07-14T12:19:40+08:00
+date: 2023-07-16T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687166851109-09a7b6ec7932?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687166851109-09a7b6ec7932?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689045306229-5ecee1d55998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689045306229-5ecee1d55998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
 ---
 
 # [deepset-ai/haystack](https://github.com/deepset-ai/haystack)
