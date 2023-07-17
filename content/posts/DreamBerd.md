@@ -1,9 +1,9 @@
 ---
 title: DreamBerd
-date: 2023-06-26T12:20:20+08:00
+date: 2023-07-17T12:18:56+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1679079456931-21e0932ea3ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1679079456931-21e0932ea3ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc3NTMwODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1483519396903-1ef292f4974a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1483519396903-1ef292f4974a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
 ---
 
 # [TodePond/DreamBerd](https://github.com/TodePond/DreamBerd)
@@ -25,11 +25,12 @@ But if you came here because you want to contribute to DreamBerd, here are some 
 
 -->
 
-> The [Future of Code podcast](https://futureofcoding.org/episodes/064) recently featured DreamBerd.
+> **New!** Read the Dreamberd release notes [here](https://github.com/TodePond/DreamBerd/releases/tag/v.release.notes).
 
 [<img align="right" height="100" src="dreamberd.svg">](https://github.com/TodePond/DreamBerd/blob/main/examples/Examples.md "Click here for the examples page.")
 
 # DreamBerd
+![Coverage](badges/coverage-109.svg)
 
 DreamBerd is a perfect programming language. These are its features!<br>
 When you've finished reading through all the features, check out the [examples](https://github.com/TodePond/DreamBerd/blob/main/Examples.md).
@@ -371,9 +372,10 @@ You can use the regular expression type to narrow string values.
 const const email: RegExp<(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])> = "mymail@mail.com"!
 ```
 
-To avoid confusion, you can use any spelling that you want, such as 'Regex' or 'RegularExpression'.
+To avoid confusion, you can use any spelling that you want, such as 'Regex', 'RegularExpression' or even
+'RegularExpress' if you like trains.
 
-For simplicity, all supported regular expressions match the regular expression `/Reg(ular)?[eE]x(pression|p)?/`.
+For simplicity, all supported regular expressions match the regular expression `/Reg(ular)?[eE]x(press(ion)?|p)?/`.
 
 ## Previous
 
@@ -530,6 +532,14 @@ const const name = "Lu or Luke (either is fine)"!!!!!!!!!
 print(name)! // "Lu or Luke (either is fine)"
 ```
 
+Similarly, you can use an inverted exclamation mark for negative priority.
+
+```java
+const const name = "Lu"!
+const const name = "Luke"¡
+print(name)! // "Lu"
+```
+
 ## Reversing
 
 You can reverse the direction of your code.
@@ -623,7 +633,7 @@ You can use the `noop` keyword to wait for longer before taking your turn.
 
 ```java
 async func count() {
-   print(2)
+   print(2)!
    noop!
    print(5)!
 }
@@ -773,6 +783,9 @@ print(name)! // "Luke"
 
 For examples of DreamBerd in action, check out the [examples page](https://github.com/TodePond/DreamBerd/blob/main/test/Examples.md)!
 
----
+
+
+![image](https://github.com/TodePond/DreamBerd/assets/15892272/5fa7c11a-20bd-4d7f-a295-675e925d2804)
+
 
 DreamBerd was made with 💔 by Lu Wilson, creator of the [Game of Living](https://youtu.be/WMJ1H3Ai-qs).

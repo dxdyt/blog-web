@@ -1,9 +1,9 @@
 ---
 title: npc_gzip
-date: 2023-07-16T12:16:21+08:00
+date: 2023-07-17T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689008365999-fa5224b16326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689008365999-fa5224b16326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687816874718-c4e5f085296a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687816874718-c4e5f085296a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
 ---
 
 # [bazingagin/npc_gzip](https://github.com/bazingagin/npc_gzip)
