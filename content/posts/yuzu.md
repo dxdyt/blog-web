@@ -1,9 +1,9 @@
 ---
 title: yuzu
-date: 2023-05-17T12:16:55+08:00
+date: 2023-07-18T12:18:06+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12161/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12161/0/1080p
+featuredImage: https://images.unsplash.com/photo-1688367785310-c8c013548288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688367785310-c8c013548288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu)
@@ -23,7 +23,7 @@ SPDX-License-Identifier: GPL-2.0-or-later
 
 <h4 align="center"><b>yuzu</b> is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of <a href="https://citra-emu.org" target="_blank">Citra</a>.
 <br>
-It is written in C++ with portability in mind, and we actively maintain builds for Windows and Linux.
+It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
 </h4>
 
 <p align="center">

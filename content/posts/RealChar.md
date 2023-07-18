@@ -1,9 +1,9 @@
 ---
 title: RealChar
-date: 2023-07-17T12:17:40+08:00
+date: 2023-07-18T12:15:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687276154629-d4acac547d55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687276154629-d4acac547d55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687372986849-edbf6c2a7ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687372986849-edbf6c2a7ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar)
@@ -106,7 +106,7 @@ To get your OpenAI API token, follow these steps:
 ### 1.1 (Optional) Prepare LLM -  Anthropic(Claude 2) API Token
 <details><summary>👇click me</summary>
 
-To get your OpenAI API token, follow these steps:
+To get your Anthropic API token, follow these steps:
 
 1. Go to the [Anthropic website](https://docs.anthropic.com/claude/docs/getting-started-with-claude) and sign up for an account if you haven't already.
 2. Once you're logged in, navigate to the [API keys page](https://console.anthropic.com/account/keys).

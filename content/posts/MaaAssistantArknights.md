@@ -1,9 +1,9 @@
 ---
 title: MaaAssistantArknights
-date: 2023-07-17T12:18:39+08:00
+date: 2023-07-18T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688298610323-7f18b1bf94a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688298610323-7f18b1bf94a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights)

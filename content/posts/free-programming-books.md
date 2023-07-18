@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-07-02T12:17:51+08:00
+date: 2023-07-18T12:15:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686968719840-684f6414aecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgyNzEzNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689327021554-6c223aba4bfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -34,7 +34,7 @@ This page is available as an easy-to-read website. Access it by clicking on [![h
 
 This list was originally a clone of [StackOverflow - List of Freely Available Programming Books](https://web.archive.org/web/20140606191453/http://stackoverflow.com/questions/194812/list-of-freely-available-programming-books/392926) with contributions from Karan Bhangui and George Stocker.
 
-The list was moved to GitHub by Victor Felder for collaborative updating and maintenance. It has grown to become one of [GitHub's most popular repositories](https://octoverse.github.com/), with 271,000+ stars, about 9,700 watchers, more than 8,300 commits, 2,400+ contributors, and 54,000+ forks.
+The list was moved to GitHub by Victor Felder for collaborative updating and maintenance. It has grown to become one of [GitHub's most popular repository](https://octoverse.github.com/).
 
 <div align="center" markdown="1">
 

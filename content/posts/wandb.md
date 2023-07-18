@@ -1,9 +1,9 @@
 ---
 title: wandb
-date: 2023-07-17T12:19:15+08:00
+date: 2023-07-18T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688298610323-7f18b1bf94a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688298610323-7f18b1bf94a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [wandb/wandb](https://github.com/wandb/wandb)

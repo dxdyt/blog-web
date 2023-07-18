@@ -1,9 +1,9 @@
 ---
 title: Retrieval-based-Voice-Conversion-WebUI
-date: 2023-07-03T12:17:44+08:00
+date: 2023-07-18T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687986018999-08d83bc4cf56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687986018999-08d83bc4cf56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgzNTc4MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
 ---
 
 # [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
@@ -51,9 +51,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1687986018999-08d83bc4cf
 + 可以通过模型融合来改变音色(借助ckpt处理选项卡中的ckpt-merge)
 + 简单易用的网页界面
 + 可调用UVR5模型来快速分离人声和伴奏
++ 使用最先进的[人声音高提取算法InterSpeech2023-RMVPE](#参考项目)根绝哑音问题。效果最好（显著地）但比crepe_full更快、资源占用更小
 
 ## 环境配置
-推荐使用poetry配置环境。
+可以使用poetry配置环境。
 
 以下指令需在Python版本大于3.8的环境中执行:
 ```bash
@@ -90,14 +91,24 @@ hubert_base.pt
 
 ./uvr5_weights
 
-想测试v2版本模型的话(v2版本模型将特征从 9层hubert+final_proj的256维输入 变更为 12层hubert的768维输入，并且增加了3个周期鉴别器)，需要额外下载
+想测试v2版本模型的话，需要额外下载
 
 ./pretrained_v2 
 
-#如果你正在使用Windows，则你可能需要这个文件，若ffmpeg和ffprobe已安装则跳过; ubuntu/debian 用户可以通过apt install ffmpeg来安装这2个库
+如果你正在使用Windows，则你可能需要这个文件，若ffmpeg和ffprobe已安装则跳过; ubuntu/debian 用户可以通过apt install ffmpeg来安装这2个库
+
 ./ffmpeg
 
+https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffmpeg.exe
+
 ./ffprobe
+
+https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffprobe.exe
+
+如果你想使用最新的RMVPE人声音高提取算法，则你需要下载音高提取模型参数并放置于RVC根目录
+
+https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/rmvpe.pt
+
 ```
 之后使用以下指令来启动WebUI:
 ```bash
@@ -115,6 +126,8 @@ python infer-web.py
 + [FFmpeg](https://github.com/FFmpeg/FFmpeg)
 + [Ultimate Vocal Remover](https://github.com/Anjok07/ultimatevocalremovergui)
 + [audio-slicer](https://github.com/openvpi/audio-slicer)
++ [Vocal pitch extraction:RMVPE](https://github.com/Dream-High/RMVPE)
+  + The pretrained model is trained and tested by [yxlllc](https://github.com/yxlllc/RMVPE) and [RVC-Boss](https://github.com/RVC-Boss).
 
 ## 感谢所有贡献者作出的努力
 <a href="https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/graphs/contributors" target="_blank">
