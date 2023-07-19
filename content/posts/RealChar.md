@@ -1,9 +1,9 @@
 ---
 title: RealChar
-date: 2023-07-18T12:15:52+08:00
+date: 2023-07-19T12:20:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687372986849-edbf6c2a7ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687372986849-edbf6c2a7ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686396343595-a365b886c938?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686396343595-a365b886c938?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
 ---
 
 # [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar)
@@ -101,6 +101,29 @@ To get your OpenAI API token, follow these steps:
 3. Generate a new API key by clicking on the "Create API Key" button.
 4. Copy the API key and store it safely.
 5. Add the API key to your environment variable, e.g. `export OPENAI_API_KEY=<your API key>`
+
+(Optional) To use Azure OpenAI API instead, refer to the following section:
+
+1. Set API type
+`export OPENAI_API_TYPE=azure`
+
+If you want to use the earlier version `2023-03-15-preview`:
+
+`export OPENAI_API_VERSION=2023-03-15-preview`
+
+2. To set the base URL for your Azure OpenAI resource.
+You can find this in the Azure portal under your Azure OpenAI resource.
+
+`export OPENAI_API_BASE=https://your-base-url.openai.azure.com`
+
+3. To set the OpenAI model deployment name for your Azure OpenAI resource.
+
+`export OPENAI_API_MODEL_DEPLOYMENT_NAME=gpt-35-turbo-16k`
+
+4. To set the OpenAIEmbeddings model deployment name for your Azure OpenAI resource.
+
+`export OPENAI_API_EMBEDDING_DEPLOYMENT_NAME=text-embedding-ada-002`
+
 </details>
 
 ### 1.1 (Optional) Prepare LLM -  Anthropic(Claude 2) API Token
@@ -182,7 +205,7 @@ ELEVEN_LABS_API_KEY=<api key>
     ```
 - **Step 7**. Run client:
     - Use **GPT4** for better conversation and **Wear headphone** for best audio(avoid echo)
-    - Web client: Open your web browser and navigate to http://localhost:8000
+    - Web client: Open your web browser and navigate to http://localhost:8000 (NOT 0.0.0.0:8000)
     - (Optional) Terminal client: Run the following command in your terminal
     ```sh
     python client/cli.py
@@ -208,10 +231,26 @@ ELEVEN_LABS_API_KEY=<api key>
     python cli.py docker-run
     ```
 
-3. Go to http://localhost:8000 to start talking or use terminal    client
+3. Go to http://localhost:8000 (NOT 0.0.0.0:8000) to start talking or use terminal    client
     ```sh
     python client/cli.py
     ```
+
+</details>
+
+<br/>
+
+## 🆕! LangSmith integration
+<details><summary>👇click me</summary>
+
+If you have access to LangSmith, you can edit these environment variables to enable:
+```
+LANGCHAIN_TRACING_V2=false # default off
+LANGCHAIN_ENDPOINT=https://api.smith.langchain.com
+LANGCHAIN_API_KEY=YOUR_LANGCHAIN_API_KEY
+LANGCHAIN_PROJECT=YOUR_LANGCHAIN_PROJECT
+```
+And it should work out of the box.
 
 </details>
 

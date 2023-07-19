@@ -1,9 +1,9 @@
 ---
 title: superagent
-date: 2023-07-17T12:20:39+08:00
+date: 2023-07-19T12:22:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687893641851-3d9946c661e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687893641851-3d9946c661e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688283581052-7da75fe95a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688283581052-7da75fe95a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
 ---
 
 # [homanp/superagent](https://github.com/homanp/superagent)
@@ -70,6 +70,7 @@ To get started with Superagent, follow these steps:
 3. See the setup instructions for the UI in the `ui` folder.
 
 ## 🌎 Environment variables
+
 To run this project, you will need to add the following environment variables to your .env file
 
 **Mandatory variables**
@@ -117,7 +118,6 @@ To run this project, you will need to add the following environment variables to
 `AZURE_API_BASE`
 
 `AZURE_API_VERSION`
-
 
 ## 💡 Examples
 

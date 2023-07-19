@@ -1,9 +1,9 @@
 ---
 title: lean-side-bussiness
-date: 2023-07-18T12:16:10+08:00
+date: 2023-07-19T12:21:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688989680825-0790dc6488fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688989680825-0790dc6488fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
 ---
 
 # [easychen/lean-side-bussiness](https://github.com/easychen/lean-side-bussiness)

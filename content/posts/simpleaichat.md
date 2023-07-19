@@ -1,9 +1,9 @@
 ---
 title: simpleaichat
-date: 2023-07-17T12:17:56+08:00
+date: 2023-07-19T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687276154629-d4acac547d55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687276154629-d4acac547d55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689089376904-4755ada5058a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689089376904-4755ada5058a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
 ---
 
 # [minimaxir/simpleaichat](https://github.com/minimaxir/simpleaichat)
