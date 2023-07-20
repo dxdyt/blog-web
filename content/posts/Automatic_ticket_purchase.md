@@ -1,9 +1,9 @@
 ---
 title: Automatic_ticket_purchase
-date: 2023-05-14T12:16:37+08:00
+date: 2023-07-20T12:16:04+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImage: https://images.unsplash.com/photo-1687440749453-298f255977ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687440749453-298f255977ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
 ---
 
 # [MakiNaruto/Automatic_ticket_purchase](https://github.com/MakiNaruto/Automatic_ticket_purchase)

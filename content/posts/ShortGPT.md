@@ -1,9 +1,9 @@
 ---
 title: ShortGPT
-date: 2023-07-19T12:21:33+08:00
+date: 2023-07-20T12:17:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688851499147-1ecb324c0a84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688851499147-1ecb324c0a84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687380223135-2028215f3c6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687380223135-2028215f3c6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
 ---
 
 # [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)

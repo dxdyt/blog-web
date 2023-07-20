@@ -1,17 +1,29 @@
 ---
 title: dm-ticket
-date: 2023-07-12T12:19:39+08:00
+date: 2023-07-20T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685513801505-61f89d071e5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685513801505-61f89d071e5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkxMzU0MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687011909393-195e148d9428?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687011909393-195e148d9428?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
 ---
 
 # [ClassmateLin/dm-ticket](https://github.com/ClassmateLin/dm-ticket)
 
 # dm-ticket
+
 ## 简介
 
 大麦网自动购票, 支持docker一键部署。
+
+仅供学习。
+
+## 原理
+
+- 扫码登录: 
+  - 1. API获取二维码输出到终端, 轮询扫码状态。
+  - 2. 扫码成功后, 获取cookie, 此时的cookie缺少某些字段无法使用。
+  - 3. chromedriver操作浏览器带上第2步获取的cookie跳转h5用户信息页面, 得到最终的cookie。
+- 抢票:
+  - 1. 通过API生成订单, 提交订单。
 
 ## 特别声明
 
@@ -24,29 +36,49 @@ featuredImagePreview: https://images.unsplash.com/photo-1685513801505-61f89d071e
 - 所有直接或间接使用本项目的个人和组织，应24小时内完成学习和研究，并及时删除本项目中的所有内容。如对本项目的功能有需求，应自行开发相关功能。
 - 本项目保留随时对免责声明进行补充或更改的权利，直接或间接使用本项目内容的个人或组织，视为接受本项目的特别声明。
 
-
-## **注意**
-
-  # **出于多种原因, 该项目将设置为归档, 不再更新维护。**
-
-## 如何运行?
+## 运行方式
 
 
 ### 使用docker
 
--  在[release](https://github.com/ClassmateLin/dm-ticket/releases)页面下载相应版本的docker-compose配置压缩包并解压。
-- 运行容器: `docker-compose up -d`
-- 修改配置: `vim config/config.yaml`, 配置项在config/config.yaml中有详细注释。
-- 运行脚本: `docker exec -it dm-ticket dm-ticket`
-  - sample 1:
-     ![run.png](./images/run.png)
-     ![run_res.png](./images/run_res.jpeg)
-  - sample 2:
-    ![run2.png](./images/run2.png)
+**请确保您已成功安装Docker/docker-compose**。
 
-#### 命令列表
-- 自动购票: `docker exec -it dm-ticket dm-ticket`
-- 扫码登录: `docker exec -it dm-ticket dm-login`
+1. 下载[docker-compose.yml](https://github.com/ClassmateLin/dm-ticket/blob/main/docker-compose.yml)文件。
+2. 启动服务: `docker-compose up -d`
+3. 执行任务: `docker exec -it dm-ticket dm-client`
+  
+- 扫码登录: 
+  
+  <img src="./imgs/1.png" width = "400" height = "300" alt="扫码登录" align=center />
+
+- 选择演唱会: 
+
+  <img src="./imgs/2.png" width = "400" height = "200" alt="演唱会" align=center />
+
+
+- 选择场次:
+  
+  <img src="./imgs/3.png" width = "400" height = "200" alt="场次" align=center />
+
+
+- 选择票档
+
+  <img src="./imgs/4.png" width = "400" height = "200" alt="票档" align=center />
+
+- 选择数量：
+
+  <img src="./imgs/5.png" width = "400" height = "200" alt="数量" align=center />
+
+
+- 重试次数, 默认: 5次
+
+- 重试间隔, 默认: 100毫秒
+
+- 生成/提交订单间隔: 默认: 30毫秒
+
+- 请求时间偏移量: 负数=>提前发送数据包, 正数推迟发送数据包, 默认0, 单位毫秒。
+
+- 优先购时长: 正式抢购时间 - 优先购时间, 默认: 0, 单位分钟。
 
 ### 使用Rust
 
@@ -56,61 +88,38 @@ featuredImagePreview: https://images.unsplash.com/photo-1685513801505-61f89d071e
 - [Rust中文社区](https://rustcc.cn/)
 - [Rust环境安装教程](https://course.rs/first-try/installation.html)
 
-**请确保您已成功安装Rust。**
+**请确保您已成功安装Rust/Redis**
 
-1. 获取项目: `git clone https://github.com/ClassmateLin/dm-ticket.git`
+1. 下载浏览器对应版本的[chromedriver](https://chromedriver.chromium.org/downloads)(chrome浏览器地址栏输入`chrome://version/`可查看版本号!)
+2. 启动chromedriver: `chromedriver --port=9515 --whitelisted-ips=`
+3. 获取项目: `git clone https://github.com/ClassmateLin/dm-ticket.git`
+4. 配置项目: `cd dm-ticket; cp .env.example .env;`
+5. 启动server: `cargo run --bin dm-server`
+6. 启动client: `cargo run --bin dm-client`
 
-2. 复制配置: `cd dm-ticket && cp config/config.yaml.example config/config.yaml`
-
-3. 运行依赖容器: `docker-compose -f docker-compose.dev.yml up  -d`
-
-4. 运行项目: `cargo run --bin dm-ticket`
 
 
 
 ## 常见问题
 
-- 如遇到`Connection refused (os error 111)`错误, 说明token-server还没启动完成, 等待片刻即可。
-![Connection refused (os error 111)](./images/connection_errors.png)
-- 生成订单失败, ["RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试!"], 请检查是否复制了完整的cookie, ip有问题(一般是使用了大厂服务器/代理, 实在需要可以使用这种[动态VPS](https://www.fwvps.com/?aff=6bb13))。
-- ["B-00203-200-100::网络开小差了，再试一次吧~"], 请检查是否复制了完整的cookie。
-- docker/docker-compose安装使用问题，请善用搜索引擎, 自行搜索解决方案。
-- 是否支持多账号, v0.1.0版本是支持多账号的。后续可能取消。要实现多账号支持, 开启多个docker容器也可以支持。
-- 频繁尝试运行程序出现,  ["RGV587_ERROR::SM::哎哟喂,被挤爆啦,请稍后重试!"], 就不要试了。
-- 仅支持[H5端](https://m.damai.cn)可以购买的票。
-- 不支持选座。
+- 仅支持[h5](https://m.damai.cn)可以购买的票， 不支持选座位。
 
-
-## 其他说明
-
-- 如何获取cookie? 
-
-  1. 登录[大麦网](https://m.damai.cn/), F12打开控制台查看网络请求, 复制请求中的cookie。 
-  ![img.png](images/cookie.png)
-  2. 使用扫码登录: `docker exec -it dm-ticket dm-login`
-
-- 如何获取演唱会id？
- 
- 进入门票详情, 复制URL中的itemId。
- ![ticket_id](./images/ticket.png)
-
-- 如何获取场次？
-
- 点击购买按钮, 弹出的场次。第一个就是1, 以此类推。
- ![img.png](images/session_id.png)
-
-- 如何获取票档?
-
- 选择场次之后, 弹出票档信息, 从左到右, 从上到下, 从1开始递增。如图:
-![img.png](images/grade.png)
+- **现大部分门票已不支持h5端购买, 故不再更新。**
 
 - 实名信息怎么选择?
 
- 按实名信息顺序, 自动选择。 如购买2张票, 默认选择前两位实名人, 也可以在配置中设置。
+  按实名信息顺序, 自动选择。 如购买2张票, 默认选择前两位实名人。
 
 
-## 其他项目
 
+
+## 其他
+
+如果我的项目对您有帮助:
+
+ <img src="./imgs/pay.jpg" width = "400" height = "400" alt="票档" align=center />
+
+#### 其他项目
 - [zzdns](https://github.com/ClassmateLin/zzdns): 使用Rust构建的一款快速本地 DNS 解析器，用于提供更好的网络体验。支持Docker一键部署。
 - [cfdns](https://github.com/ClassmateLin/cfdns): 一个本地DNS服务器, 用于测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4 )。支持docker一键部署。
 - [rust-scripts](https://github.com/ClassmateLin/rust-scripts): Rust写的一些小工具。

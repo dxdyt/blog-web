@@ -1,9 +1,9 @@
 ---
 title: unilm
-date: 2023-07-08T12:17:30+08:00
+date: 2023-07-20T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687263150247-17b649fd04e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687263150247-17b649fd04e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686080187825-8068e1b1ae1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686080187825-8068e1b1ae1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/unilm](https://github.com/microsoft/unilm)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687263150247-17b649fd04
 <!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->
 ## [aka.ms/GeneralAI](https://aka.ms/GeneralAI)
 # Hiring
-We are hiring at all levels (including FTE researchers and interns)! If you are interested in working with us on Foundation Models (aka large-scale pre-trained models) and AGI, NLP, MT, Speech, Document AI and Multimodal AI, please send your resume to <a href="mailto:fuwei@microsoft.com" class="x-hidden-focus">fuwei@microsoft.com</a>.
+We are hiring at all levels (including FTE researchers and interns)! If you are interested in working with us on Foundation Models (aka large-scale pre-trained models) and General AI, NLP, MT, Speech, Document AI and Multimodal AI, please send your resume to <a href="mailto:fuwei@microsoft.com" class="x-hidden-focus">fuwei@microsoft.com</a>.
 
 ## Foundation Architecture
 ### TorchScale - Transformers at (any) Scale ([repo](https://github.com/microsoft/torchscale))

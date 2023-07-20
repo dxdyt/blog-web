@@ -1,9 +1,9 @@
 ---
 title: RealChar
-date: 2023-07-19T12:20:12+08:00
+date: 2023-07-20T12:15:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686396343595-a365b886c938?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686396343595-a365b886c938?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687011909393-195e148d9428?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687011909393-195e148d9428?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
 ---
 
 # [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar)
@@ -69,7 +69,7 @@ __Demo settings: Web, GPT4, ElevenLabs with voice clone, Chroma, Google Speech t
 - ✅**Web**: [Vanilla JS](http://vanilla-js.com/), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - ✅**Mobile**: [Swift](https://developer.apple.com/swift/), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - ✅**Backend**: [FastAPI](https://fastapi.tiangolo.com/), [SQLite](https://www.sqlite.org/index.html), [Docker](https://www.docker.com/)
-- ✅**Data Ingession**: [LlamaIndex](https://www.llamaindex.ai/), [Chroma](https://www.trychroma.com/)
+- ✅**Data Ingestion**: [LlamaIndex](https://www.llamaindex.ai/), [Chroma](https://www.trychroma.com/)
 - ✅**LLM Orchestration**: [LangChain](https://langchain.com/), [Chroma](https://www.trychroma.com/)
 - ✅**LLM**: [OpenAI GPT3.5/4](https://platform.openai.com/docs/api-reference/chat), [Anthropic Claude 2](https://docs.anthropic.com/claude/docs/getting-started-with-claude)
 - ✅**Speech to Text**: [Local Whisper](https://github.com/openai/whisper), [OpenAI Whisper API](https://platform.openai.com/docs/api-reference/audio), [Google Speech to Text](https://cloud.google.com/speech-to-text/docs#docs)
@@ -86,7 +86,7 @@ __Demo settings: Web, GPT4, ElevenLabs with voice clone, Chroma, Google Speech t
 
 Before you begin setting up this project, please ensure you have completed the following tasks:
 
-### 0. Setup tutorial
+### 0. Setup Tutorial
 
 - [Tutorial - YouTuBe](https://www.youtube.com/watch?v=Q16ZH3kJWxw)
 

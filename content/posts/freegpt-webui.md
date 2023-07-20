@@ -1,9 +1,9 @@
 ---
 title: freegpt-webui
-date: 2023-07-19T12:22:58+08:00
+date: 2023-07-20T12:17:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687702720204-a56bb8311469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687702720204-a56bb8311469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1682687980961-78fa83781450?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682687980961-78fa83781450?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
 ---
 
 # [ramonvc/freegpt-webui](https://github.com/ramonvc/freegpt-webui)
@@ -28,11 +28,11 @@ Check out the project here: [FreeGPT WebUI - Chimera Version](https://github.com
 
 ## Project Hosting and Demonstration 🌐🚀
 The project is hosted on multiple platforms to be tested and modified.
-|Plataform|Status|Repo|Demo|
-|--|--|--|--|
-|[replit](https://replit.com/)|![Active](https://img.shields.io/badge/Active-brightgreen)|[FreeGPT WebUI](https://replit.com/@ramonvc/freegpt-webui)|[Chat](https://freegpt-webui.ramonvc.repl.co/chat/)
-|[hugging face](https://huggingface.co)|![Active](https://img.shields.io/badge/Active-brightgreen)|[FreeGPT WebUI](https://huggingface.co/spaces/monra/freegpt-webui/tree/main)|[Chat](https://huggingface.co/spaces/monra/freegpt-webui)
-|[replit](https://replit.com/)|![Active](https://img.shields.io/badge/Active-brightgreen)|[FreeGPT WebUI - Chimera Version](https://replit.com/@ramonvc/freegpt-webui-chimera)|[Chat](https://freegpt-webui-chimera.ramonvc.repl.co/chat/)
+|Plataform|Status|API Key|Free|Repo|Demo|
+|--|--|--|--|--|--|
+|[replit](https://replit.com/)|![Active](https://img.shields.io/badge/Active-brightgreen)|◼️|☑️|[FreeGPT WebUI](https://replit.com/@ramonvc/freegpt-webui)|[Chat](https://freegpt-webui.ramonvc.repl.co/chat/)
+|[hugging face](https://huggingface.co)|![Active](https://img.shields.io/badge/Active-brightgreen)|◼️|☑️|[FreeGPT WebUI](https://huggingface.co/spaces/monra/freegpt-webui/tree/main)|[Chat](https://huggingface.co/spaces/monra/freegpt-webui)
+|[replit](https://replit.com/)|![Active](https://img.shields.io/badge/Active-brightgreen)|☑️|☑️|[FreeGPT WebUI - Chimera Version](https://replit.com/@ramonvc/freegpt-webui-chimera)|[Chat](https://freegpt-webui-chimera.ramonvc.repl.co/chat/)
 
 ## Note ℹ️ 
 <p>
