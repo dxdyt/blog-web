@@ -1,9 +1,9 @@
 ---
 title: RealChar
-date: 2023-07-20T12:15:10+08:00
+date: 2023-07-21T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687011909393-195e148d9428?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687011909393-195e148d9428?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
 ---
 
 # [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar)
@@ -40,6 +40,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1687011909393-195e148d94
 
 ## ✨ Demo
 Try our site at [RealChar.ai](https://realchar.ai/)
+
+(We are also beta-testing our iOS mobile app📱! Sign up [here](https://testflight.apple.com/join/JA6p9sZQ))
 
 ### Demo 1 - with AI Elon about cage fight!
 
@@ -205,7 +207,14 @@ ELEVEN_LABS_API_KEY=<api key>
     ```
 - **Step 7**. Run client:
     - Use **GPT4** for better conversation and **Wear headphone** for best audio(avoid echo)
-    - Web client: Open your web browser and navigate to http://localhost:8000 (NOT 0.0.0.0:8000)
+    - There are two ways to access the web client:
+        - **Option 1**: Open your web browser and navigate to http://localhost:8000 (NOT 0.0.0.0:8000)
+        - **Option 2**: Running the client in React.
+            ```sh
+            cd client/web
+            npm start
+            ```
+            After running these commands, a local development server will start, and your default web browser will open a new tab/window pointing to this server (usually http://localhost:3000).
     - (Optional) Terminal client: Run the following command in your terminal
     ```sh
     python client/cli.py
@@ -261,11 +270,12 @@ And it should work out of the box.
 [![Star History Chart](https://api.star-history.com/svg?repos=Shaunwei/RealChar&type=Date)](https://star-history.com/#Shaunwei/RealChar&Date)
 
 ## 📍 Roadmap
-- [ ] Launch v0.0.0 and build a community
-- [ ] Add more characters
-- [ ] Move away from Vanilla JS
-- [ ] Launch mobile app
-- [ ] Add authentication
+- [x] Launch v0.0.1 and build a community
+- [x] Move away from Vanilla JS
+- [x] Launch mobile app (iOS TestFlight Beta link: https://testflight.apple.com/join/JA6p9sZQ)
+- [ ] Add authentication for customization
+- [ ] Allow selecting different LLM
+- [ ] Add ability to add community characters
 
 ## 🫶 Contribute to RealChar
 Please check out our [Contribution Guide](contribute.md)!

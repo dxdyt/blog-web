@@ -1,9 +1,9 @@
 ---
 title: ShortGPT
-date: 2023-07-20T12:17:43+08:00
+date: 2023-07-21T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687380223135-2028215f3c6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687380223135-2028215f3c6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
 ---
 
 # [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)
@@ -25,10 +25,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1687380223135-2028215f3c
   </a>
 </div>
 
+<div align="center">
 ⚡ Automating video and short content creation with AI ⚡
+</div>
 
-## 🛠️ How it works
-![alt text](https://github.com/RayVentura/ShortGPT/assets/121462835/fcee74d4-f856-4481-949f-244558bf3bfa)
+## 🎥 Showcase ([Full video on YouTube](https://youtu.be/hpoSHq-ER8U))
+
+https://github.com/RayVentura/ShortGPT/assets/121462835/a802faad-0fd7-4fcb-aa82-6365c27ea5fe
+
 ## 📝 Introduction to ShortGPT 
 ShortGPT is a powerful framework for automating content creation. It simplifies video creation, footage sourcing, voiceover synthesis, and editing tasks.
 
@@ -44,9 +48,8 @@ ShortGPT is a powerful framework for automating content creation. It simplifies 
 
 - 🧠 **Memory and persistency**: Ensures long-term persistency of automated editing variables with TinyDB.
 
-## 🎥 Showcase (full-video on https://www.youtube.com/watch?v=hpoSHq-ER8U)
-
-https://github.com/RayVentura/ShortGPT/assets/121462835/a802faad-0fd7-4fcb-aa82-6365c27ea5fe
+## 🛠️ How it works
+![alt text](https://github.com/RayVentura/ShortGPT/assets/121462835/fcee74d4-f856-4481-949f-244558bf3bfa)
 
 ## 🚀 Quick Start: Run ShortGPT on Google Colab (https://colab.research.google.com/drive/1_2UKdpF6lqxCqWaAcZb3rwMVQqtbisdE?usp=sharing)
 
@@ -136,7 +139,7 @@ Follow the instructions below to install ImageMagick, FFmpeg, and clone the shor
 ### Step 4: Install Python Dependencies
 
 1. Open a terminal or command prompt.
-2. Navigate to the directory where `shortgpt.py` is located (the cloned repo).
+2. Navigate to the directory where `runShortGPT.py` is located (the cloned repo).
 3. Execute the following command to install the required Python dependencies:
    ```
    pip install -r requirements.txt
@@ -146,7 +149,7 @@ Follow the instructions below to install ImageMagick, FFmpeg, and clone the shor
 
 ## Running runShortGPT.py Web Interface
 
-Once you have successfully installed ImageMagick, FFmpeg, and the Python dependencies, you can run `shortgpt.py` by following these steps:
+Once you have successfully installed ImageMagick, FFmpeg, and the Python dependencies, you can run `runShortGPT.py` by following these steps:
 
 1. Open a terminal or command prompt.
 2. Navigate to the directory where `runShortGPT.py` is located (the cloned repo).

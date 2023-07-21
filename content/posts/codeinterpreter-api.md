@@ -1,9 +1,9 @@
 ---
 title: codeinterpreter-api
-date: 2023-07-20T12:15:24+08:00
+date: 2023-07-21T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688109510312-cb51fdfdacd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688109510312-cb51fdfdacd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
 ---
 
 # [shroominic/codeinterpreter-api](https://github.com/shroominic/codeinterpreter-api)
@@ -57,7 +57,7 @@ async def main():
 
     # terminate the session
     await session.astop()
-    
+
 
 if __name__ == "__main__":
     import asyncio
@@ -83,7 +83,7 @@ async def main():
         files = [
             File.from_path("examples/assets/iris.csv"),
         ]
-        
+
         # generate the response
         response = await session.generate_response(
             user_request, files=files
@@ -106,20 +106,19 @@ Iris Dataset Analysis Output
 
 ## Production
 
-In case you want to deploy to production you can use the CodeBox API for easy scaling.
+In case you want to deploy to production, you can utilize the CodeBox API for seamless scalability.
 
-Please contact me if you interested in this, because it's still in early development.
+Please contact me if you are interested in this, as it is still in the early stages of development.
 
 ## Contributing
 
-There are some TODOs left in the code
-so if you want to contribute feel free to do so.
+There are some remaining TODOs in the code.
+So, if you want to contribute, feel free to do so.
 You can also suggest new features. Code refactoring is also welcome.
 Just open an issue or pull request and I will review it.
 
-Also please submit any bugs you find as an issue
-with a minimal code example or screenshot.
-This helps me a lot to improve the code.
+Please also submit any bugs you find as an issue with a minimal code example or screenshot.
+This helps me a lot in improving the code.
 
 Thanks!
 
@@ -134,8 +133,8 @@ But I prefer to use [Twitter](https://twitter.com/shroominic) or [Discord](https
 
 ## Support this project
 
-If you want to help this project with a donation you can [click here](https://ko-fi.com/shroominic).
-Thanks this helps alot! ❤️
+If you would like to help this project with a donation, you can [click here](https://ko-fi.com/shroominic).
+Thanks, this helps a lot! ❤️
 
 ## Star History
 
@@ -146,4 +145,3 @@ Thanks this helps alot! ❤️
     <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=shroominic/codeinterpreter-api&type=Date" />
   </picture>
 </a>
-

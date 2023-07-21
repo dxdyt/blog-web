@@ -1,9 +1,9 @@
 ---
 title: fury
-date: 2023-07-20T12:18:00+08:00
+date: 2023-07-21T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686904423955-b928225c6488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686904423955-b928225c6488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk4MjY1MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689196249228-3054e22aefe0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689196249228-3054e22aefe0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
 ---
 
 # [alipay/fury](https://github.com/alipay/fury)
