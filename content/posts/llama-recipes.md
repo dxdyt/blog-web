@@ -1,9 +1,9 @@
 ---
 title: llama-recipes
-date: 2023-07-21T12:15:11+08:00
+date: 2023-07-22T12:14:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685957198326-92172d999300?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685957198326-92172d999300?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/llama-recipes](https://github.com/facebookresearch/llama-recipes)

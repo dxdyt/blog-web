@@ -1,9 +1,9 @@
 ---
 title: llama.cpp
-date: 2023-07-21T12:15:21+08:00
+date: 2023-07-22T12:14:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689089376934-9a0b8a6b7fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689089376934-9a0b8a6b7fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688059618839-256b51167f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688059618839-256b51167f33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
@@ -370,7 +370,7 @@ Building the program with BLAS support may lead to some performance improvements
   ```bash
   mkdir build
   cd build
-  cmake .. -DLLAMA_BLAS=ON -DLLAMA_BLAS_VENDOR=Intel10_lp64 -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx
+  cmake .. -DLLAMA_BLAS=ON -DLLAMA_BLAS_VENDOR=Intel10_64lp -DCMAKE_C_COMPILER=icx -DCMAKE_CXX_COMPILER=icpx
   cmake --build . --config Release
   ```
 

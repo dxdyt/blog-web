@@ -1,9 +1,9 @@
 ---
 title: fury
-date: 2023-07-21T12:15:49+08:00
+date: 2023-07-22T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689196249228-3054e22aefe0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689196249228-3054e22aefe0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685957198326-92172d999300?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685957198326-92172d999300?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [alipay/fury](https://github.com/alipay/fury)
@@ -58,7 +58,7 @@ If you need to benchmark for your specific scenario, make sure all serialization
 
 Dynamic serialization frameworks supports polymorphism and reference, which has more cost compared 
 to static serialization frameworks, unless it uses the jit techniques as fury did.
-Since fury will generate code at runtime, please warm up before collecting benchmark statistics.
+Since fury will generate code at runtime, please **warm up** before collecting benchmark statistics.
 
 ### Java Serialization
 Title containing "compatible" represent schema compatible mode: support type forward/backward compatibility.
@@ -116,13 +116,13 @@ Release version:
 <dependency>
   <groupId>org.furyio</groupId>
   <artifactId>fury-core</artifactId>
-  <version>0.1.0-alpha.1</version>
+  <version>0.1.0-alpha.2</version>
 </dependency>
 <!-- row/arrow format support -->
 <!-- <dependency>
   <groupId>org.furyio</groupId>
   <artifactId>fury-format</artifactId>
-  <version>0.1.0-alpha.1</version>
+  <version>0.1.0-alpha.2</version>
 </dependency> -->
 ```
 
@@ -159,7 +159,6 @@ public class Example {
     // multiple serializations of different objects.
     {
       Fury fury = Fury.builder().withLanguage(Language.JAVA)
-        .withRefTracking(true)
         // Allow to deserialize objects unknown types,
         // more flexible but less secure.
         // .withSecureMode(false)
@@ -175,7 +174,6 @@ public class Example {
         // Allow to deserialize objects unknown types,
         // more flexible but less secure.
         // .withSecureMode(false)
-        .withRefTracking(true)
         .buildThreadSafeFury();
       byte[] bytes = fury.serialize(object);
       System.out.println(fury.deserialize(bytes));
@@ -183,7 +181,7 @@ public class Example {
     {
       ThreadSafeFury fury = new ThreadLocalFury(classLoader -> {
         Fury f = Fury.builder().withLanguage(Language.JAVA)
-          .withRefTracking(true).withClassLoader(classLoader).build();
+          .withClassLoader(classLoader).build();
         f.register(SomeClass.class);
         return f;
       });

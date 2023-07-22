@@ -1,9 +1,9 @@
 ---
 title: codeinterpreter-api
-date: 2023-07-21T12:15:42+08:00
+date: 2023-07-22T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688147203883-a73a95f89770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688147203883-a73a95f89770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [shroominic/codeinterpreter-api](https://github.com/shroominic/codeinterpreter-api)
@@ -46,7 +46,7 @@ async def main():
     await session.astart()
 
     # generate a response based on user input
-    output = await session.generate_response(
+    response = await session.generate_response(
         "Plot the bitcoin chart of 2023 YTD"
     )
 

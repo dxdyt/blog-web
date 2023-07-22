@@ -1,9 +1,9 @@
 ---
 title: llama2-chatbot
-date: 2023-07-21T12:16:24+08:00
+date: 2023-07-22T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689613303014-09d130d7240d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689613303014-09d130d7240d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687278835925-0f5d6baf8925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687278835925-0f5d6baf8925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [a16z-infra/llama2-chatbot](https://github.com/a16z-infra/llama2-chatbot)
@@ -14,7 +14,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1689613303014-09d130d724
 
 This is an experimental Streamlit chatbot app built for LLaMA2 (or any other LLM). The app includes session chat history and provides an option to select multiple LLaMA2 API endpoints on Replicate. 
 
-You can test the LLaMA 7B, 13B & 70B chat models and this app in https://LLaMA2.ai
+For the LLaMA2 license agreement, please check the Meta Platforms, Inc official license documentation on their website. 
+[More info.](https://ai.meta.com/llama/)
 
 ## Features
 
