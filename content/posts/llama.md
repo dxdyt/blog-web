@@ -1,9 +1,9 @@
 ---
 title: llama
-date: 2023-07-22T12:14:24+08:00
+date: 2023-07-23T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688976635448-b3d6ff28aedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688976635448-b3d6ff28aedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688399014730-86300f19fbb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688399014730-86300f19fbb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/llama](https://github.com/facebookresearch/llama)

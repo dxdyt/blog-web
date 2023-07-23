@@ -1,9 +1,9 @@
 ---
 title: text-generation-webui
-date: 2023-07-22T12:17:30+08:00
+date: 2023-07-23T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687278835925-0f5d6baf8925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687278835925-0f5d6baf8925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688629155608-dc9e2546f7ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688629155608-dc9e2546f7ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
 ---
 
 # [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)

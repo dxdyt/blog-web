@@ -1,9 +1,9 @@
 ---
 title: ShortGPT
-date: 2023-07-21T12:17:36+08:00
+date: 2023-07-23T12:15:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687535183491-f078ad6fbb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685979837563-3c5c88ccc48f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685979837563-3c5c88ccc48f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
 ---
 
 # [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)
@@ -173,7 +173,7 @@ That's it! You have successfully set up your API keys and can now utilize the fu
 
 ## 💁 Contributing
 
-As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
+As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it would be in the form of a new feature, improved infrastructure, or better documentation.
 
 ## Framework overview
 
