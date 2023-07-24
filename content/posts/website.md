@@ -1,9 +1,9 @@
 ---
 title: website
-date: 2023-07-23T12:16:07+08:00
+date: 2023-07-24T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688629155608-dc9e2546f7ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688629155608-dc9e2546f7ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688115237214-d22431b62fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688115237214-d22431b62fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
 ---
 
 # [agefanscom/website](https://github.com/agefanscom/website)

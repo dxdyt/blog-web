@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2023-07-22T12:16:40+08:00
+date: 2023-07-24T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688291091364-9658c26c1749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688291091364-9658c26c1749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685297269362-e604510647ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685297269362-e604510647ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -30,6 +30,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1688291091364-9658c26c17
 
 ## 3. 项目列表
 （名字按时间排序，最新添加的在最上面）
+
+### 2023年7月23号添加
+---
+#### hoochanlon - [Github](https://github.com/hoochanlon), [博客](https://hoochanlon.github.io)
+* :white_check_mark: [Nigate](https://github.com/hoochanlon/Free-NTFS-For-Mac)：一款支持苹果芯片的 Free NTFS for Mac 小工具软件
+
+#### Sunrisepeak - [Github](https://github.com/Sunrisepeak), [Bilibili](https://space.bilibili.com/65858958), [知乎](https://www.zhihu.com/people/SPeakShen)
+* :white_check_mark: [KHistory](https://github.com/Sunrisepeak/KHistory)：🔥一个优雅&跨平台的 键盘/🎮手柄按键 检测及历史记录显示工具, 无需安装单可执行文件(约900kb大小)即点即用
+
+
+### 2023年7月22号添加
+---
+#### Tw93 - [Github](https://github.com/tw93), [Twitter](https://twitter.com/HiTw93), [博客](https://tw93.fun)
+* :white_check_mark: [妙言](https://github.com/tw93/MiaoYan)：轻灵的 Markdown 笔记本伴你写出妙言
 
 ### 2023年7月21号添加
 ---
@@ -387,11 +401,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1688291091364-9658c26c17
 #### Evancohe(惠州) - [Github](https://github.com/evancohe), [Twitter](https://twitter.com/evancohe)
 * :white_check_mark: [Kake日记](https://apps.apple.com/us/app/kake-journal-password-diary/id1515415906)：一款极简风格的日记 App, 多设备适配, 曾上 Apple 推荐。
 * :white_check_mark: [Je Focus](https://apps.apple.com/sg/app/je-focus/id1486865992)：一款极简风格的专注 App, 用重力感应检测用户拿手机并暴力提醒.
-
-### 2022年9月4号添加
----
-#### Tw93 - [Github](https://github.com/tw93), [博客](https://tw93.fun)
-* :white_check_mark: [妙言](https://miaoyan.app)：一个简洁好看的开源的 Mac Markdown 编辑器；[更多介绍](https://github.com/tw93/MiaoYan#%E7%89%B9%E7%82%B9)
 
 ### 2022年8月24号添加
 ---

@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-07-23T12:14:33+08:00
+date: 2023-07-24T12:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688367785310-c8c013548288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688367785310-c8c013548288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689621207916-f7f3ba12c71e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689621207916-f7f3ba12c71e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -144,4 +144,12 @@ Generate text from a model.
 
 ```
 curl -X POST http://localhost:11434/api/generate -d '{"model": "llama2", "prompt":"Why is the sky blue?"}'
+```
+
+### `POST /api/create`
+
+Create a model from a `Modelfile`.
+
+```
+curl -X POST http://localhost:11434/api/create -d '{"name": "my-model", "path": "/path/to/modelfile"}'
 ```
