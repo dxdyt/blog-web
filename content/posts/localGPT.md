@@ -1,9 +1,9 @@
 ---
 title: localGPT
-date: 2023-07-24T12:17:57+08:00
+date: 2023-07-25T12:15:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688377116702-5fb489a7f089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688377116702-5fb489a7f089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686482149769-f343ce33a613?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686482149769-f343ce33a613?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
 ---
 
 # [PromtEngineer/localGPT](https://github.com/PromtEngineer/localGPT)

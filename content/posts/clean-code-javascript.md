@@ -1,9 +1,9 @@
 ---
 title: clean-code-javascript
-date: 2023-03-31T12:18:54+08:00
+date: 2023-07-25T12:16:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://images.unsplash.com/photo-1675351085230-ab39b2289ff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1675351085230-ab39b2289ff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
 ---
 
 # [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)

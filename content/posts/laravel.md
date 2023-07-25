@@ -1,9 +1,9 @@
 ---
 title: laravel
-date: 2023-07-24T12:15:56+08:00
+date: 2023-07-25T12:15:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689413674132-bba03bd76e45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689413674132-bba03bd76e45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686482149769-f343ce33a613?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686482149769-f343ce33a613?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
 ---
 
 # [NativePHP/laravel](https://github.com/NativePHP/laravel)
@@ -26,7 +26,7 @@ Check out the [Getting Started](https://nativephp.com/docs/1/getting-started/int
 - [Installation](https://nativephp.com/docs/1/getting-started/installation)
 - [Configuration](https://nativephp.com/docs/1/getting-started/configuration)
 - [Application Lifecycle](https://nativephp.com/docs/1/the-basics/app-lifecycle)
-- [Contributing Guide](https://github.com/artmxra7/phpnative-laravel/blob/main/CONTRIBUTING.md)
+- [Contributing Guide](https://github.com/NativePHP/laravel/blob/main/CONTRIBUTING.md)
 
 ## Changelog
 
