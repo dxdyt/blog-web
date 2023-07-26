@@ -1,9 +1,9 @@
 ---
 title: Chinese-Llama-2-7b
-date: 2023-07-25T12:15:20+08:00
+date: 2023-07-26T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682842268263-865e6dabcbe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682842268263-865e6dabcbe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1658134203051-c0601fc119b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1658134203051-c0601fc119b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [LinkSoul-AI/Chinese-Llama-2-7b](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b)
@@ -23,13 +23,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1682842268263-865e6dabcb
 ## 在线试玩
 
 > Talk is cheap, Show you the Demo.
-
 - [Demo 地址 / HuggingFace Spaces](https://huggingface.co/spaces/LinkSoul/Chinese-Llama-2-7b)
-- [Colab 一键启动](#) // 正在准备
+- [Colab (FP16/需要开启高RAM,免费版无法使用)](https://colab.research.google.com/github/LinkSoul-AI/Chinese-Llama-2-7b/blob/main/chinese-llama-2-7b.ipynb) 
+- [Colab (INT4/需要开启高RAM,免费版无法使用)](https://colab.research.google.com/github/LinkSoul-AI/Chinese-Llama-2-7b/blob/main/chinese-llama-2-7b-4bit.ipynb) 
 
 ## 资源下载
 
-- 模型下载：[Chinese Llama2 Chat Model](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b)
+- 模型下载
+  - HuggingFace: [Chinese Llama2 Chat Model](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b)
+  - 百度网盘: [1.1 加强火力版](https://pan.baidu.com/s/1RFp3rUKsn5oTYE6rignIGA?pwd=qyrh)
 
 - 4bit量化：[Chinese Llama2 4bit Chat Model](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b-4bit)
 

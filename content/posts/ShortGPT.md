@@ -1,9 +1,9 @@
 ---
 title: ShortGPT
-date: 2023-07-24T12:15:50+08:00
+date: 2023-07-26T12:16:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685297269362-e604510647ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685297269362-e604510647ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAxNzIxMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1658134203051-c0601fc119b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1658134203051-c0601fc119b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [RayVentura/ShortGPT](https://github.com/RayVentura/ShortGPT)
@@ -17,8 +17,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1685297269362-e604510647
 <div align="center">
     <img src="https://github.com/RayVentura/ShortGPT/assets/121462835/083c8dc3-bac5-42c1-a08d-3ff9686d18c5" alt="ShortGPT-logo" style="border-radius: 20px;" width="22%"/>
 </div>
-<!--![android-chrome-192x192](https://github.com/RayVentura/ShortGPT/assets/121462835/083c8dc3-bac5-42c1-a08d-3ff9686d18c5) -->
-
 <div align="center">
   <a href="https://discord.gg/uERx39ru3R">
     <img src="https://img.shields.io/badge/discord-join%20chat-blue.svg" alt="Join our Discord" height="34">
