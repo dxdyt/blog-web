@@ -1,9 +1,9 @@
 ---
 title: privateGPT
-date: 2023-06-17T12:17:27+08:00
+date: 2023-07-27T12:15:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684857580926-600f51d54175?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684857580926-600f51d54175?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688927415965-f0eb108432bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688927415965-f0eb108432bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
 ---
 
 # [imartinez/privateGPT](https://github.com/imartinez/privateGPT)
@@ -20,6 +20,16 @@ In order to set your environment up to run the code here, first install all requ
 
 ```shell
 pip3 install -r requirements.txt
+```
+
+*Alternative requirements installation with poetry*
+1. Install [poetry](https://python-poetry.org/docs/#installation)
+
+2. Run this commands
+```shell
+cd privateGPT
+poetry install
+poetry shell
 ```
 
 Then, download the LLM model and place it in a directory of your choice:

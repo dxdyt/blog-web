@@ -1,9 +1,9 @@
 ---
 title: Llama-2-Open-Source-LLM-CPU-Inference
-date: 2023-07-26T12:17:14+08:00
+date: 2023-07-27T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688309100087-241909eaea3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688309100087-241909eaea3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
 ---
 
 # [kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference](https://github.com/kennethleungty/Llama-2-Open-Source-LLM-CPU-Inference)

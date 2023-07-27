@@ -1,9 +1,9 @@
 ---
 title: Chinese-Llama-2-7b
-date: 2023-07-26T12:16:56+08:00
+date: 2023-07-27T12:14:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1658134203051-c0601fc119b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1658134203051-c0601fc119b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687902625864-faedb40f83a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687902625864-faedb40f83a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
 ---
 
 # [LinkSoul-AI/Chinese-Llama-2-7b](https://github.com/LinkSoul-AI/Chinese-Llama-2-7b)
@@ -31,11 +31,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1658134203051-c0601fc119
 
 - 模型下载
   - HuggingFace: [Chinese Llama2 Chat Model](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b)
+  - 百度网盘: [1.0 正式版](https://pan.baidu.com/s/1GQ9S0szo7LCJIkGoAHciDg?pwd=zusq)
   - 百度网盘: [1.1 加强火力版](https://pan.baidu.com/s/1RFp3rUKsn5oTYE6rignIGA?pwd=qyrh)
 
 - 4bit量化：[Chinese Llama2 4bit Chat Model](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b-4bit)
 
-- GGML Q4 模型（社区版）：
+- GGML Q4 模型：
+  - [https://huggingface.co/LinkSoul/Chinese-Llama-2-7b-ggml](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b-ggml)
   - [https://huggingface.co/rffx0/Chinese-Llama-2-7b-ggml-model-q4_0](https://huggingface.co/rffx0/Chinese-Llama-2-7b-ggml-model-q4_0)
   - [https://huggingface.co/soulteary/Chinese-Llama-2-7b-ggml-q4](https://huggingface.co/soulteary/Chinese-Llama-2-7b-ggml-q4)
 

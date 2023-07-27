@@ -1,16 +1,18 @@
 ---
 title: llama2-webui
-date: 2023-07-26T12:14:51+08:00
+date: 2023-07-27T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689327037425-9556dca42a09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689327037425-9556dca42a09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687702720985-48faa9c4ab7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687702720985-48faa9c4ab7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
 ---
 
 # [liltom-eth/llama2-webui](https://github.com/liltom-eth/llama2-webui)
 
 # llama2-webui
 
-Running Llama 2 with gradio web UI on GPU or CPU from anywhere (Linux/Windows/Mac). Supporting Llama 2 7B, 13B, 70B with 8-bit, 4-bit mode. Supporting GPU inference with at least 6 GB VRAM, and CPU inference with at least 6 GB RAM.
+Running Llama 2 with gradio web UI on GPU or CPU from anywhere (Linux/Windows/Mac). 
+- Supporting all Llama 2 models (7B, 13B, 70B, GPTQ, GGML) with 8-bit, 4-bit mode. 
+- Supporting GPU inference with at least 6 GB VRAM, and CPU inference.
 
 ![screenshot](./static/screenshot.png)
 
@@ -46,7 +48,6 @@ Running Llama 2 with gradio web UI on GPU or CPU from anywhere (Linux/Windows/Ma
 
 
 ## Install
-
 ```
 pip install -r requirements.txt
 ```
@@ -54,6 +55,12 @@ pip install -r requirements.txt
 `bitsandbytes >= 0.39` may not work on older NVIDIA GPUs. In that case, to use `LOAD_IN_8BIT`, you may have to downgrade like this:
 
 -  `pip install bitsandbytes==0.38.1`
+
+`bitsandbytes` also need a special install for Windows:
+```
+pip uninstall bitsandbytes
+pip install https://github.com/jllllll/bitsandbytes-windows-webui/releases/download/wheels/bitsandbytes-0.41.0-py3-none-win_amd64.whl
+```
 
 If run on CPU, install llama.cpp additionally by `pip install llama-cpp-python`.
 
@@ -178,6 +185,8 @@ Kindly read our [Contributing Guide](CONTRIBUTING.md) to learn and understand ab
 ## License
 
 MIT - see [MIT License](LICENSE)
+
+This project enables users to adapt it freely for proprietary purposes without any restrictions.
 
 ## Credits
 

@@ -1,9 +1,9 @@
 ---
 title: InvokeAI
-date: 2023-07-26T12:15:45+08:00
+date: 2023-07-27T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689350098287-f227b7a86669?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689350098287-f227b7a86669?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
 ---
 
 # [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)

@@ -1,9 +1,9 @@
 ---
 title: live
-date: 2023-06-23T12:19:57+08:00
+date: 2023-07-27T12:15:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686080186277-50201db2db72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686080186277-50201db2db72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
 ---
 
 # [fanmingming/live](https://github.com/fanmingming/live)
@@ -47,8 +47,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1686080186277-50201db2db
       <td>🌏Global直播源</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
       <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/global.m3u">编辑该源</a></td>
-      <td>194个</td>
-      <td>2023.5.21</td>
+      <td>198个</td>
+      <td>2023.7.12</td>
     </tr>
     <tr>
       <td>📻Radio直播源</td>
@@ -61,13 +61,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1686080186277-50201db2db
 </table>
 
 ## 🛠️工具
-- 🆕EPG接口地址(测试)
+- 🆕EPG接口地址：
   -  [https://live.fanmingming.com/e.xml](https://live.fanmingming.com/e.xml)
+- 📄M3U To TXT：
+  - Demo🔗 [https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u](https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u)
 - 🌐M3U8 Web Player
   - Demo🔗 [https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8](https://live.fanmingming.com/player/?vurl=https://livedoc.cgtn.com/500d/prog_index.m3u8)
 
 ## 📖说明
-- 所有播放源均收集于互联网，仅供测试研究使用，切勿商用。
+- 所有播放源均收集于互联网，仅供测试研究使用，不得商用。
 - 通过M3U8 Web Player测试直播源需使用https协议的直播源链接。
 - 部分广播电台节目播出具有一定的时效性，需要在指定时段进行收听。
 - 本项目不存储任何的流媒体内容，所有的法律责任与后果应由使用者自行承担。
@@ -77,5 +79,5 @@ featuredImagePreview: https://images.unsplash.com/photo-1686080186277-50201db2db
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.6.16
-  - IPv6源去掉了两个失效的频道。
+- 2023.7.12
+  - 由于Global源的台湾测试构建在无服务器环境，访问流量已经达到阈值，已下线频道。非常抱歉！
