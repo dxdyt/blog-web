@@ -1,9 +1,9 @@
 ---
 title: ML-For-Beginners
-date: 2023-07-27T12:14:55+08:00
+date: 2023-07-28T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688934150111-ab9a5d327087?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688934150111-ab9a5d327087?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688408958865-1c7131398c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688408958865-1c7131398c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)

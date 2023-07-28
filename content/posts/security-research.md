@@ -1,9 +1,9 @@
 ---
 title: security-research
-date: 2023-07-27T12:14:22+08:00
+date: 2023-07-28T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688976635448-b3d6ff28aedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688976635448-b3d6ff28aedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688408958865-1c7131398c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688408958865-1c7131398c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [google/security-research](https://github.com/google/security-research)

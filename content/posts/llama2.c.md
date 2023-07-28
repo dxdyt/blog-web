@@ -1,16 +1,18 @@
 ---
 title: llama2.c
-date: 2023-07-27T12:14:10+08:00
+date: 2023-07-28T12:15:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687791301950-972428a58aa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687791301950-972428a58aa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/llama2.c](https://github.com/karpathy/llama2.c)
 
 ## llama2.c
 
-<img src="assets/llama_cute.jpg" width="300" height="300">
+<p align="center">
+  <img src="assets/llama_cute.jpg" width="300" height="300" alt="Cute Llama">
+</p>
 
 With the code in this repo you can train the Llama 2 LLM architecture from scratch in PyTorch, then export the weights to a binary file, and load that into one ~simple 500-line C file ([run.c](run.c)) that inferences the model. Alternatively, you can load, finetune, and inference Meta's Llama 2 (but this is still being actively fleshed out). Hence, this repo is a "fullstack" train + inference solution for Llama 2 LLM, with a focus on minimalism and simplicity. You might think that you need many billion parameter LLMs to do anything useful, but in fact very small LLMs can have surprisingly strong performance if you make the domain narrow enough. I recommend looking at the [TinyStories](https://huggingface.co/datasets/roneneldan/TinyStories) paper for inspiration.
 
@@ -46,7 +48,8 @@ There is also an even better 110M param model available, see [models](#models).
 
 ## Meta's Llama 2 models
 
-As the neural net architecture is identical, we can also inference the Llama 2 models released by Meta. Sadly there is a bit of friction here due to licensing (I can't directly upload the checkpoints, I think). So Step 1, get the Llama 2 checkpoints by following the [Meta instructions](https://github.com/facebookresearch/llama). Once we have those checkpoints, we have to convert them into the llama2.c format. For this we use the `export_meta_llama_bin.py` file, e.g. for 7B model:
+As the neural net architecture is identical, we can also inference the Llama 2 models released by Meta. Sadly there is a bit of friction here due to licensing (I can't directly upload the checkpoints, I think). So Step 1, get the Llama 2 checkpoints by following the [Meta instructions](https://github.com/facebookresearch/llama). Once we have those checkpoints, we have to convert them into the llama2.c format.
+For this we need to install the python dependencies (`pip install -r requirements.txt`) and then use the `export_meta_llama_bin.py` file, e.g. for 7B model:
 
 ```bash
 python export_meta_llama_bin.py path/to/llama/model/7B llama2_7b.bin
@@ -58,7 +61,7 @@ The export will take ~10 minutes or so and generate a 26GB file (the weights of 
 ./run llama2_7b.bin
 ```
 
-This ran at about 4 tokens/s compiled with OpenMP on 96 threads on my CPU Linux box in the cloud. (On my MacBook Air M1, currently it's closer to 30 seconds per token if you just build with `make runfast`.) Example output:
+This ran at about 4 tokens/s compiled with [OpenMP](#OpenMP) on 96 threads on my CPU Linux box in the cloud. (On my MacBook Air M1, currently it's closer to 30 seconds per token if you just build with `make runfast`.) Example output:
 
 > The purpose of this document is to highlight the state-of-the-art of CoO generation technologies, both recent developments and those in commercial use. The focus is on the technologies with the highest merit to become the dominating processes of the future and therefore to be technologies of interest to S&amp;T ... R&amp;D. As such, CoO generation technologies developed in Russia, Japan and Europe are described in some depth. The document starts with an introduction to cobalt oxides as complex products and a short view on cobalt as an essential material. The document continues with the discussion of the available CoO generation processes with respect to energy and capital consumption as well as to environmental damage.
 
@@ -149,7 +152,9 @@ gcc -Ofast -o run run.c -lm
 
 You can also experiment with replacing `gcc` with `clang`.
 
-**OpenMP** Big improvements can also be achieved by compiling with OpenMP, which "activates" the `#pragma omp parallel for` inside the matmul and attention. You can compile e.g. like so:
+### OpenMP
+Big improvements can also be achieved by compiling with OpenMP, which "activates" the `#pragma omp parallel for` inside the matmul and attention, allowing the work in the loops to be split up over multiple processors.
+You'll need to install the OpenMP library and the clang compiler first (e.g. `apt install clang libomp-dev` on ubuntu). Then you can compile e.g. like so:
 
 ```bash
 clang -Ofast -fopenmp -march=native run.c  -lm  -o run
@@ -163,18 +168,11 @@ OMP_NUM_THREADS=4 ./run out/model.bin
 
 Depending on your system resources you may want to tweak these hyperparameters. (TODO: I am not intimately familiar with OpenMP and its configuration, if someone would like to flesh out this section I would welcome a PR).
 
-## unsorted todos
+## platforms
 
-- why is there a leading space in C sampling code when we `./run`?
-- support Llama 2 Chat models, and tune run.c to Chat UI/UX
-- possibly include emscripten / web backend (as seen in @gg PR)
-- currently the project only runs in fp32, want to explore more reduced precision inference.
-- todo multiquery support? doesn't seem as useful for smaller models that run on CPU (?)
-- todo support inferencing beyond max_seq_len steps, have to think through the kv cache
-- why is MFU so low (~10%) on my A100 40GB for training?
-- weird errors with torch.compile and wandb when using DDP
-- (LoRA) finetuning of Llama 2 models
-- make more better tests to decrease yolo
+On **Windows**, use `build_msvc.bat` in a Visual Studio Command Prompt to build with msvc, or you can use `make win64` to use mingw compiler toolchain from linux or windows to build the windows target. MSVC build will automatically use openmp and max threads appropriate for your CPU unless you set `OMP_NUM_THREADS` env.
+
+On **Centos 7**, **Amazon Linux 2018** use `rungnu` Makefile target: `make rungnu` or `make runompgnu` to use openmp.
 
 ## ack
 
@@ -205,6 +203,26 @@ If your candidate PRs have elements of these it doesn't mean they won't get merg
 ## notable forks
 
 - [llama2.rs](https://github.com/gaxler/llama2.rs) by @gaxler: a Rust port of this project
+- [go-llama2](https://github.com/tmc/go-llama2) by @tmc: a Go port of this project
+- [llama2.go](https://github.com/nikolaydubina/llama2.go) by @nikolaydubina: a Go port of this project
+- [llama2.go](https://github.com/haormj/llama2.go) by @haormj: a Go port of this project
+- [llama2.go](https://github.com/saracen/llama2.go) by @saracen: a Go port of this project
+- [llama2.c-android](https://github.com/Manuel030/llama2.c-android): by @Manuel030: adds Android binaries of this project
+- [llama2.cpp](https://github.com/leloykun/llama2.cpp) by @leloykun: a C++ port of this project
+
+## unsorted todos
+
+- support Llama 2 7B Chat model and tune run.c to Chat UI/UX
+- speed up 7B Llama 2 models sufficiently to work at interactive rates on Apple Silicon MacBooks
+- possibly include emscripten / web backend (as seen in @gg PR)
+- currently the project only runs in fp32, how easy would it be to different precisions?
+- look into quantization and what would be involved
+- todo multiquery support? doesn't seem as useful for smaller models that run on CPU (?)
+- todo support inferencing beyond max_seq_len steps, have to think through the kv cache
+- why is MFU so low (~10%) on my A100 40GB for training?
+- weird errors with torch.compile and wandb when using DDP
+- (LoRA) finetuning of Llama 2 models
+- make more better tests to decrease yolo
 
 ## License
 

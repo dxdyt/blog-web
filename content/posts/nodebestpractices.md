@@ -1,9 +1,9 @@
 ---
 title: nodebestpractices
-date: 2023-04-05T12:16:49+08:00
+date: 2023-07-28T12:15:17+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImage: https://images.unsplash.com/photo-1689265908270-b8f988222244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689265908270-b8f988222244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
@@ -19,7 +19,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/⚙%20Item%20count%20-%20102%20Best%20Practices-blue.svg" alt="102 items"/> <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20March%2021%2C%202023-green.svg" alt="Last update: March 21, 2023" /> <img src="https://img.shields.io/badge/ %E2%9C%94%20Updated%20For%20Version%20-%20Node%2014.0.0-brightgreen.svg" alt="Updated for Node 14.0.0"/>
+  <img src="https://img.shields.io/badge/⚙%20Item%20count%20-%20102%20Best%20Practices-blue.svg" alt="102 items"/> <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20July%2019%2C%202023-green.svg" alt="Last update: July 19, 2023" /> <img src="https://img.shields.io/badge/ %E2%9C%94%20Updated%20For%20Version%20-%20Node%2019.0.0-brightgreen.svg" alt="Updated for Node 19.0.0"/>
 </div>
 
 <br/>
@@ -32,19 +32,14 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 <br/>
 
-## 🚀 We have an [official Node.js starter - Practica.js](https://github.com/practicajs/practica). Use it to generate a new solution skeleton with all the practices baked inside. Or just it to learn by code examples
+# 🎊 2023 edition is here!
 
-<br/>
+- **🛰 Modernized to 2023**: Tons of text edits, new recommended libraries, and some new best practices
 
-# Latest Best Practices and News
+- **✨ Easily focus on new content**: Already visited before? Search for `#new` or `#updated` tags for new content only
 
-- **✨ 80,000 stars**: Blushing, surprised and proud!
+- **🔖 Curious to see examples? We have a starter**: Visit [Practica.js](https://github.com/practicajs/practica), our application example and boilerplate (beta) to see some practices in action
 
-- **🔖 New menu and tags**: Our menu is collapsible now and includes `#tags`. New visitors can read `#strategic` items first. Returning visitors can focus on `#new` content. Seniors can filter for `#advanced` items. Courtesy of the one and only [Rubek Joshi](https://github.com/rubek-joshi)
-
-- **👨‍👩‍👧‍👦 New family member!**: A new repository joins our family - [Node.js Integration Tests Best Practices ✨](https://github.com/testjavascript/nodejs-integration-tests-best-practices). It includes 40+ best practices for writing awesome and performant Node.js component tests
-
-- **![FR](./assets/flags/FR.png) French translation!1! :** The latest translation that joins our international guide is French. Bienvenue
 
 <br/><br/>
 
@@ -58,18 +53,25 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 <br/><br/>
 
+# By Yoni Goldberg
+
+### Learn with me: As a consultant, I engage with worldwide teams on various activities like workshops and code reviews. 🎉AND... Hold on, I've just launched my [beyond-the-basics testing course, which is on a 🎁 limited-time sale](https://testjavascript.com/) until August 7th
+
+<br/><br/>
+
 ## Table of Contents
 
 <details>
   <summary>
-    <a href="#1-project-structure-practices">1. Project Structure Practices (5)</a>
+    <a href="#1-project-architecture-practices">1. Project Architecture Practices (6)</a>
   </summary>
 
-&emsp;&emsp;[1.1 Structure your solution by components `#strategic`](#-11-structure-your-solution-by-components)</br>
-&emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic`](#-12-layer-your-components-keep-the-web-layer-within-its-boundaries)</br>
-&emsp;&emsp;[1.3 Wrap common utilities as npm packages](#-13-wrap-common-utilities-as-npm-packages)</br>
-&emsp;&emsp;[1.4 Separate Express 'app' and 'server'](#-14-separate-express-app-and-server)</br>
-&emsp;&emsp;[1.5 Use environment aware, secure and hierarchical config `#modified-recently`](#-15-use-environment-aware-secure-and-hierarchical-config)</br>
+&emsp;&emsp;[1.1 Structure your solution by components `#strategic` `#updated`](#-11-structure-your-solution-by-business-components)</br>
+&emsp;&emsp;[1.2 Layer your components, keep the web layer within its boundaries `#strategic` `#updated`](#-12-layer-your-components-with-3-tiers-keep-the-web-layer-within-its-boundaries)</br>
+&emsp;&emsp;[1.3 Wrap common utilities as packages, consider publishing](#-13-wrap-common-utilities-as-packages-consider-publishing)</br>
+&emsp;&emsp;[1.4 Use environment aware, secure and hierarchical config `#updated`](#-14-use-environment-aware-secure-and-hierarchical-config)</br>
+&emsp;&emsp;[1.5 Consider all the consequences when choosing the main framework `#new`](#-15-consider-all-the-consequences-when-choosing-the-main-framework)</br>
+&emsp;&emsp;[1.6 Use TypeScript sparingly and thoughtfully `#new`](#-16-use-typescript-sparingly-and-thoughtfully)</br>
 
 </details>
 
@@ -79,37 +81,39 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
   </summary>
 
 &emsp;&emsp;[2.1 Use Async-Await or promises for async error handling](#-21-use-async-await-or-promises-for-async-error-handling)</br>
-&emsp;&emsp;[2.2 Use only the built-in Error object `#strategic`](#-22-use-only-the-built-in-error-object)</br>
-&emsp;&emsp;[2.3 Distinguish operational vs programmer errors `#strategic`](#-23-distinguish-operational-vs-programmer-errors)</br>
+&emsp;&emsp;[2.2 Extend the built-in Error object `#strategic` `#updated`](#-22-extend-the-built-in-error-object)</br>
+&emsp;&emsp;[2.3 Distinguish operational vs programmer errors `#strategic` `#updated`](#-23-distinguish-catastrophic-errors-from-operational-errors)</br>
 &emsp;&emsp;[2.4 Handle errors centrally, not within a middleware `#strategic`](#-24-handle-errors-centrally-not-within-a-middleware)</br>
-&emsp;&emsp;[2.5 Document API errors using Swagger or GraphQL `#modified-recently`](#-25-document-api-errors-using-swagger-or-graphql)</br>
+&emsp;&emsp;[2.5 Document API errors using OpenAPI or GraphQL](#-25-document-api-errors-using-openapi-or-graphql)</br>
 &emsp;&emsp;[2.6 Exit the process gracefully when a stranger comes to town `#strategic`](#-26-exit-the-process-gracefully-when-a-stranger-comes-to-town)</br>
-&emsp;&emsp;[2.7 Use a mature logger to increase error visibility](#-27-use-a-mature-logger-to-increase-error-visibility)</br>
-&emsp;&emsp;[2.8 Test error flows using your favorite test framework](#-28-test-error-flows-using-your-favorite-test-framework)</br>
+&emsp;&emsp;[2.7 Use a mature logger to increase errors visibility `#updated`](#-27-use-a-mature-logger-to-increase-errors-visibility)</br>
+&emsp;&emsp;[2.8 Test error flows using your favorite test framework `#updated`](#-28-test-error-flows-using-your-favorite-test-framework)</br>
 &emsp;&emsp;[2.9 Discover errors and downtime using APM products](#-29-discover-errors-and-downtime-using-apm-products)</br>
-&emsp;&emsp;[2.10 Catch unhandled promise rejections `#modified-recently`](#-210-catch-unhandled-promise-rejections)</br>
+&emsp;&emsp;[2.10 Catch unhandled promise rejections `#updated`](#-210-catch-unhandled-promise-rejections)</br>
 &emsp;&emsp;[2.11 Fail fast, validate arguments using a dedicated library](#-211-fail-fast-validate-arguments-using-a-dedicated-library)</br>
 &emsp;&emsp;[2.12 Always await promises before returning to avoid a partial stacktrace `#new`](#-212-always-await-promises-before-returning-to-avoid-a-partial-stacktrace)</br>
+&emsp;&emsp;[2.13 Subscribe to event emitters 'error' event `#new`](#-213-subscribe-to-event-emitters-and-streams-error-event)</br>
 
 </details>
 
 <details>
   <summary>
-    <a href="#3-code-style-practices">3. Code Style Practices (12)</a>
+    <a href="#3-code-patterns-and-style-practices">3. Code Style Practices (12)</a>
   </summary>
 
 &emsp;&emsp;[3.1 Use ESLint `#strategic`](#-31-use-eslint)</br>
-&emsp;&emsp;[3.2 Node.js specific plugins](#-32-nodejs-specific-plugins)</br>
+&emsp;&emsp;[3.2 Use Node.js eslint extension plugins `#updated`](#-32-use-nodejs-eslint-extension-plugins)</br>
 &emsp;&emsp;[3.3 Start a Codeblock's Curly Braces on the Same Line](#-33-start-a-codeblocks-curly-braces-on-the-same-line)</br>
 &emsp;&emsp;[3.4 Separate your statements properly](#-34-separate-your-statements-properly)</br>
 &emsp;&emsp;[3.5 Name your functions](#-35-name-your-functions)</br>
 &emsp;&emsp;[3.6 Use naming conventions for variables, constants, functions and classes](#-36-use-naming-conventions-for-variables-constants-functions-and-classes)</br>
 &emsp;&emsp;[3.7 Prefer const over let. Ditch the var](#-37-prefer-const-over-let-ditch-the-var)</br>
 &emsp;&emsp;[3.8 Require modules first, not inside functions](#-38-require-modules-first-not-inside-functions)</br>
-&emsp;&emsp;[3.9 Require modules by folders, as opposed to the files directly](#-39-require-modules-by-folders-as-opposed-to-the-files-directly)</br>
+&emsp;&emsp;[3.9 Set an explicit entry point to a module/folder `#updated`](#-39-set-an-explicit-entry-point-to-a-modulefolder)</br>
 &emsp;&emsp;[3.10 Use the === operator](#-310-use-the--operator)</br>
 &emsp;&emsp;[3.11 Use Async Await, avoid callbacks `#strategic`](#-311-use-async-await-avoid-callbacks)</br>
 &emsp;&emsp;[3.12 Use arrow function expressions (=>)](#-312-use-arrow-function-expressions-)</br>
+&emsp;&emsp;[3.13 Avoid effects outside of functions `#new`](#-313-avoid-effects-outside-of-functions)</br>
 
 </details>
 
@@ -121,16 +125,16 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 &emsp;&emsp;[4.1 At the very least, write API (component) testing `#strategic`](#-41-at-the-very-least-write-api-component-testing)</br>
 &emsp;&emsp;[4.2 Include 3 parts in each test name `#new`](#-42-include-3-parts-in-each-test-name)</br>
 &emsp;&emsp;[4.3 Structure tests by the AAA pattern `#strategic`](#-43-structure-tests-by-the-aaa-pattern)</br>
-&emsp;&emsp;[4.4 Detect code issues with a linter](#-44-detect-code-issues-with-a-linter)</br>
+&emsp;&emsp;[4.4 Ensure Node version is unified `#new`](#-44-ensure-node-version-is-unified)</br>
 &emsp;&emsp;[4.5 Avoid global test fixtures and seeds, add data per-test `#strategic`](#-45-avoid-global-test-fixtures-and-seeds-add-data-per-test)</br>
-&emsp;&emsp;[4.6 Constantly inspect for vulnerable dependencies](#-46-constantly-inspect-for-vulnerable-dependencies)</br>
-&emsp;&emsp;[4.7 Tag your tests  `#advanced`](#-47-tag-your-tests)</br>
-&emsp;&emsp;[4.8 Check your test coverage, it helps to identify wrong test patterns](#-48-check-your-test-coverage-it-helps-to-identify-wrong-test-patterns)</br>
-&emsp;&emsp;[4.9 Inspect for outdated packages](#-49-inspect-for-outdated-packages)</br>
-&emsp;&emsp;[4.10 Use production-like environment for e2e testing](#-410-use-production-like-environment-for-e2e-testing)</br>
-&emsp;&emsp;[4.11 Refactor regularly using static analysis tools](#-411-refactor-regularly-using-static-analysis-tools)</br>
-&emsp;&emsp;[4.12 Carefully choose your CI platform (Jenkins vs CircleCI vs Travis vs Rest of the world)](#-412-carefully-choose-your-ci-platform-jenkins-vs-circleci-vs-travis-vs-rest-of-the-world)</br>
-&emsp;&emsp;[4.13 Test your middlewares in isolation](#-413-test-your-middlewares-in-isolation)</br>
+&emsp;&emsp;[4.6 Tag your tests `#advanced`](#-46-tag-your-tests)</br>
+&emsp;&emsp;[4.7 Check your test coverage, it helps to identify wrong test patterns](#-47-check-your-test-coverage-it-helps-to-identify-wrong-test-patterns)</br>
+&emsp;&emsp;[4.8 Use production-like environment for e2e testing](#-48-use-production-like-environment-for-e2e-testing)</br>
+&emsp;&emsp;[4.9 Refactor regularly using static analysis tools](#-49-refactor-regularly-using-static-analysis-tools)</br>
+&emsp;&emsp;[4.10 Mock responses of external HTTP services #advanced `#new` `#advanced`](#-410-mock-responses-of-external-http-services)</br>
+&emsp;&emsp;[4.11 Test your middlewares in isolation](#-411-test-your-middlewares-in-isolation)</br>
+&emsp;&emsp;[4.12 Specify a port in production, randomize in testing `#new`](#-412-specify-a-port-in-production-randomize-in-testing)</br>
+&emsp;&emsp;[4.13 Test the five possible outcomes #strategic `#new`](#-413-test-the-five-possible-outcomes)</br>
 
 </details>
 
@@ -140,23 +144,23 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
   </summary>
 
 &emsp;&emsp;[5.1. Monitoring `#strategic`](#-51-monitoring)</br>
-&emsp;&emsp;[5.2. Increase transparency using smart logging `#strategic`](#-52-increase-transparency-using-smart-logging)</br>
+&emsp;&emsp;[5.2. Increase the observability using smart logging `#strategic`](#-52-increase-the-observability-using-smart-logging)</br>
 &emsp;&emsp;[5.3. Delegate anything possible (e.g. gzip, SSL) to a reverse proxy `#strategic`](#-53-delegate-anything-possible-eg-gzip-ssl-to-a-reverse-proxy)</br>
 &emsp;&emsp;[5.4. Lock dependencies](#-54-lock-dependencies)</br>
 &emsp;&emsp;[5.5. Guard process uptime using the right tool](#-55-guard-process-uptime-using-the-right-tool)</br>
 &emsp;&emsp;[5.6. Utilize all CPU cores](#-56-utilize-all-cpu-cores)</br>
 &emsp;&emsp;[5.7. Create a ‘maintenance endpoint’](#-57-create-a-maintenance-endpoint)</br>
-&emsp;&emsp;[5.8. Discover errors and downtime using APM products  `#advanced`](#-58-discover-errors-and-downtime-using-apm-products)</br>
+&emsp;&emsp;[5.8. Discover the unknowns using APM products `#advanced` `#updated`](#-58-discover-the-unknowns-using-apm-products)</br>
 &emsp;&emsp;[5.9. Make your code production-ready](#-59-make-your-code-production-ready)</br>
 &emsp;&emsp;[5.10. Measure and guard the memory usage `#advanced`](#-510-measure-and-guard-the-memory-usage)</br>
 &emsp;&emsp;[5.11. Get your frontend assets out of Node](#-511-get-your-frontend-assets-out-of-node)</br>
-&emsp;&emsp;[5.12. Be stateless, kill your servers almost every day](#-512-be-stateless-kill-your-servers-almost-every-day)</br>
+&emsp;&emsp;[5.12. Strive to be stateless `#strategic`](#-512-strive-to-be-stateless)</br>
 &emsp;&emsp;[5.13. Use tools that automatically detect vulnerabilities](#-513-use-tools-that-automatically-detect-vulnerabilities)</br>
 &emsp;&emsp;[5.14. Assign a transaction id to each log statement `#advanced`](#-514-assign-a-transaction-id-to-each-log-statement)</br>
 &emsp;&emsp;[5.15. Set NODE_ENV=production](#-515-set-node_envproduction)</br>
-&emsp;&emsp;[5.16. Design automated, atomic and zero-downtime deployments  `#advanced`](#-516-design-automated-atomic-and-zero-downtime-deployments)</br>
+&emsp;&emsp;[5.16. Design automated, atomic and zero-downtime deployments `#advanced`](#-516-design-automated-atomic-and-zero-downtime-deployments)</br>
 &emsp;&emsp;[5.17. Use an LTS release of Node.js](#-517-use-an-lts-release-of-nodejs)</br>
-&emsp;&emsp;[5.18. Don't route logs within the app](#-518-dont-route-logs-within-the-app)</br>
+&emsp;&emsp;[5.18. Log to stdout, avoid specifying log destination within the app `#updated`](#-518-log-to-stdout-avoid-specifying-log-destination-within-the-app)</br>
 &emsp;&emsp;[5.19. Install your packages with npm ci `#new`](#-519-install-your-packages-with-npm-ci)</br>
 
 </details>
@@ -168,7 +172,7 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 &emsp;&emsp;[6.1. Embrace linter security rules](#-61-embrace-linter-security-rules)</br>
 &emsp;&emsp;[6.2. Limit concurrent requests using a middleware](#-62-limit-concurrent-requests-using-a-middleware)</br>
-&emsp;&emsp;[6.3 Extract secrets from config files or use packages to encrypt them  `#strategic`](#-63-extract-secrets-from-config-files-or-use-packages-to-encrypt-them)</br>
+&emsp;&emsp;[6.3 Extract secrets from config files or use packages to encrypt them `#strategic`](#-63-extract-secrets-from-config-files-or-use-packages-to-encrypt-them)</br>
 &emsp;&emsp;[6.4. Prevent query injection vulnerabilities with ORM/ODM libraries `#strategic`](#-64-prevent-query-injection-vulnerabilities-with-ormodm-libraries)</br>
 &emsp;&emsp;[6.5. Collection of generic security best practices](#-65-collection-of-generic-security-best-practices)</br>
 &emsp;&emsp;[6.6. Adjust the HTTP response headers for enhanced security](#-66-adjust-the-http-response-headers-for-enhanced-security)</br>
@@ -184,13 +188,15 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 &emsp;&emsp;[6.16. Prevent evil RegEx from overloading your single thread execution](#-616-prevent-evil-regex-from-overloading-your-single-thread-execution)</br>
 &emsp;&emsp;[6.17. Avoid module loading using a variable](#-617-avoid-module-loading-using-a-variable)</br>
 &emsp;&emsp;[6.18. Run unsafe code in a sandbox](#-618-run-unsafe-code-in-a-sandbox)</br>
-&emsp;&emsp;[6.19. Take extra care when working with child processes  `#advanced`](#-619-take-extra-care-when-working-with-child-processes)</br>
+&emsp;&emsp;[6.19. Take extra care when working with child processes `#advanced`](#-619-take-extra-care-when-working-with-child-processes)</br>
 &emsp;&emsp;[6.20. Hide error details from clients](#-620-hide-error-details-from-clients)</br>
 &emsp;&emsp;[6.21. Configure 2FA for npm or Yarn `#strategic`](#-621-configure-2fa-for-npm-or-yarn)</br>
 &emsp;&emsp;[6.22. Modify session middleware settings](#-622-modify-session-middleware-settings)</br>
-&emsp;&emsp;[6.23. Avoid DOS attacks by explicitly setting when a process should crash  `#advanced`](#-623-avoid-dos-attacks-by-explicitly-setting-when-a-process-should-crash)</br>
+&emsp;&emsp;[6.23. Avoid DOS attacks by explicitly setting when a process should crash `#advanced`](#-623-avoid-dos-attacks-by-explicitly-setting-when-a-process-should-crash)</br>
 &emsp;&emsp;[6.24. Prevent unsafe redirects](#-624-prevent-unsafe-redirects)</br>
 &emsp;&emsp;[6.25. Avoid publishing secrets to the npm registry](#-625-avoid-publishing-secrets-to-the-npm-registry)</br>
+&emsp;&emsp;[6.26. 6.26 Inspect for outdated packages](#-626-inspect-for-outdated-packages)</br>
+&emsp;&emsp;[6.27. Import built-in modules using the 'node:' protocol `#new`](#-627-import-built-in-modules-using-the-node-protocol)</br>
 
 </details>
 
@@ -214,70 +220,122 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 &emsp;&emsp;[8.3. Let the Docker runtime handle replication and uptime `#strategic`](#-83-let-the-docker-runtime-handle-replication-and-uptime)</br>
 &emsp;&emsp;[8.4. Use .dockerignore to prevent leaking secrets](#-84-use-dockerignore-to-prevent-leaking-secrets)</br>
 &emsp;&emsp;[8.5. Clean-up dependencies before production](#-85-clean-up-dependencies-before-production)</br>
-&emsp;&emsp;[8.6. Shutdown smartly and gracefully  `#advanced`](#-86-shutdown-smartly-and-gracefully)</br>
-&emsp;&emsp;[8.7. Set memory limits using both Docker and v8 `#advanced #strategic`](#-87-set-memory-limits-using-both-docker-and-v8)</br>
+&emsp;&emsp;[8.6. Shutdown smartly and gracefully `#advanced`](#-86-shutdown-smartly-and-gracefully)</br>
+&emsp;&emsp;[8.7. Set memory limits using both Docker and v8 `#advanced` `#strategic`](#-87-set-memory-limits-using-both-docker-and-v8)</br>
 &emsp;&emsp;[8.8. Plan for efficient caching](#-88-plan-for-efficient-caching)</br>
 &emsp;&emsp;[8.9. Use explicit image reference, avoid latest tag](#-89-use-explicit-image-reference-avoid-latest-tag)</br>
 &emsp;&emsp;[8.10. Prefer smaller Docker base images](#-810-prefer-smaller-docker-base-images)</br>
-&emsp;&emsp;[8.11. Clean-out build-time secrets, avoid secrets in args  `#strategic #new`](#-811-clean-out-build-time-secrets-avoid-secrets-in-args)</br>
-&emsp;&emsp;[8.12. Scan images for multi layers of vulnerabilities  `#advanced`](#-812-scan-images-for-multi-layers-of-vulnerabilities)</br>
+&emsp;&emsp;[8.11. Clean-out build-time secrets, avoid secrets in args `#strategic #new`](#-811-clean-out-build-time-secrets-avoid-secrets-in-args)</br>
+&emsp;&emsp;[8.12. Scan images for multi layers of vulnerabilities `#advanced`](#-812-scan-images-for-multi-layers-of-vulnerabilities)</br>
 &emsp;&emsp;[8.13 Clean NODE_MODULE cache](#-813-clean-node_module-cache)</br>
 &emsp;&emsp;[8.14. Generic Docker practices](#-814-generic-docker-practices)</br>
-&emsp;&emsp;[8.15. Lint your Dockerfile  `#new`](#-815-lint-your-dockerfile)</br>
+&emsp;&emsp;[8.15. Lint your Dockerfile `#new`](#-815-lint-your-dockerfile)</br>
 
 </details>
 
 <br/><br/>
 
-# `1. Project Structure Practices`
+# `1. Project Architecture Practices`
 
-## ![✔] 1.1 Structure your solution by components
+## ![✔] 1.1 Structure your solution by business components
 
-**TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
+### `📝 #updated`
 
-**Otherwise:** When developers who code new features struggle to realize the impact of their change and fear to break other dependent components - deployments become slower and riskier. It's also considered harder to scale-out when all the business units are not separated
+**TL;DR:** The root of a system should contain folders or repositories that represent reasonably sized business modules. Each component represents a product domain (i.e., bounded context), like 'user-component', 'order-component', etc. Each component has its own API, logic, and logical database. What is the significant merit? With an autonomous component, every change is performed over a granular and smaller scope - the mental overload, development friction, and deployment fear are much smaller and better. As a result, developers can move much faster. This does not necessarily demand physical separation and can be achieved using a Monorepo or with a multi-repo
+
+```bash
+my-system
+├─ apps (components)
+│  ├─ orders
+│  ├─ users
+│  ├─ payments
+├─ libraries (generic cross-component functionality)
+│  ├─ logger
+│  ├─ authenticator
+```
+
+**Otherwise:** when artifacts from various modules/topics are mixed together, there are great chances of a tightly-coupled 'spaghetti' system. For example, in an architecture where 'module-a controller' might call 'module-b service', there are no clear modularity borders - every code change might affect anything else. With this approach, developers who code new features struggle to realize the scope and impact of their change. Consequently, they fear breaking other modules, and each deployment becomes slower and riskier
 
 🔗 [**Read More: structure by components**](./sections/projectstructre/breakintcomponents.md)
 
 <br/><br/>
 
-## ![✔] 1.2 Layer your components, keep the web layer within its boundaries
+## ![✔] 1.2 Layer your components with 3-tiers, keep the web layer within its boundaries
 
-**TL;DR:** Each component should contain 'layers' - a dedicated object for the web, logic, and data access code. This not only draws a clean separation of concerns but also significantly eases mocking and testing the system. Though this is a very common pattern, API developers tend to mix layers by passing the web layer objects (e.g. Express req, res) to business logic and data layers - this makes your application dependent on and accessible only by specific web frameworks
+### `📝 #updated`
 
-**Otherwise:** App that mixes web objects with other layers cannot be accessed by testing code, CRON jobs, triggers from message queues, etc
+**TL;DR:** Each component should contain 'layers' - a dedicated folder for common concerns: 'entry-point' where controller lives, 'domain' where the logic lives, and 'data-access'. The primary principle of the most popular architectures is to separate the technical concerns (e.g., HTTP, DB, etc) from the pure logic of the app so a developer can code more features without worrying about infrastructural concerns. Putting each concern in a dedicated folder, also known as the [3-Tier pattern](https://en.wikipedia.org/wiki/Multitier_architecture), is the _simplest_ way to meet this goal
+
+```bash
+my-system
+├─ apps (components)
+│  ├─ component-a
+   │  ├─ entry-points
+   │  │  ├─ api # controller comes here
+   │  │  ├─ message-queue # message consumer comes here
+   │  ├─ domain # features and flows: DTO, services, logic
+   │  ├─ data-access # DB calls w/o ORM
+```
+
+**Otherwise:** It's often seen that developer pass web objects like request/response to functions in the domain/logic layer - this violates the separation principle and makes it harder to access later the the logic code by other clients like testing code, scheduled jobs, message queues, etc
 
 🔗 [**Read More: layer your app**](./sections/projectstructre/createlayers.md)
 
 <br/><br/>
 
-## ![✔] 1.3 Wrap common utilities as npm packages
+## ![✔] 1.3 Wrap common utilities as packages, consider publishing
 
-**TL;DR:** In a large app that constitutes a large codebase, cross-cutting-concern utilities like a logger, encryption and alike, should be wrapped by your code and exposed as private npm packages. This allows sharing them among multiple codebases and projects
+**TL;DR:** Place all reusable modules in a dedicated folder, e.g., "libraries", and underneath each module in its own folder, e.g., "/libraries/logger". Make the module an independent package with its own package.json file to increases the module encapsulation, and allows future publishing to a repository. In a Monorepo setup, modules can be consumed by 'npm linking' to their physical paths, using ts-paths or by publishing and installing from a package manager repository like the npm registry
 
-**Otherwise:** You'll have to invent your deployment and the dependency wheel
+```bash
+my-system
+├─ apps (components)
+  │  ├─ component-a
+├─ libraries (generic cross-component functionality)
+│  ├─ logger
+│  │  ├─ package.json
+│  │  ├─ src
+│  │  │ ├─ index.js
+
+```
+
+**Otherwise:** Clients of a module might import and get coupled to internal functionality of a module. With a package.json at the root, one can set a package.json.main or package.json.exports to explicitly tell which files and functions are part of the public interface
 
 🔗 [**Read More: Structure by feature**](./sections/projectstructre/wraputilities.md)
 
 <br/><br/>
 
-## ![✔] 1.4 Separate Express 'app' and 'server'
+## ![✔] 1.4 Use environment aware, secure and hierarchical config
 
-**TL;DR:** Avoid the nasty habit of defining the entire [Express](https://expressjs.com/) app in a single huge file - separate your 'Express' definition to at least two files: the API declaration (app.js) and the networking concerns (WWW). For even better structure, locate your API declaration within components
+### `📝 #updated`
 
-**Otherwise:** Your API will be accessible for testing via HTTP calls only (slower and much harder to generate coverage reports). It probably won't be a big pleasure to maintain hundreds of lines of code in a single file
+**TL;DR:** A flawless configuration setup should ensure (a) keys can be read from file AND from environment variable (b) secrets are kept outside committed code (c) config is hierarchical for easier findability (d) typing support (e) validation for failing fast (f) Specify default for each key. There are a few packages that can help tick most of those boxes like [convict](https://www.npmjs.com/package/convict), [env-var](env-var), [zod](https://github.com/colinhacks/zod), and others
 
-🔗 [**Read More: separate Express 'app' and 'server'**](./sections/projectstructre/separateexpress.md)
+**Otherwise:** Consider a mandatory environment variable that wasn't provided. The app starts successfully and serve requests, some information is already persisted to DB. Then, it's realized that without this mandatory key the request can't complete, leaving the app in a dirty state
+
+🔗 [**Read More: configuration best practices**](./sections/projectstructre/configguide.md)
 
 <br/><br/>
 
-## ![✔] 1.5 Use environment aware, secure and hierarchical config
+## ![✔] 1.5 Consider all the consequences when choosing the main framework
 
-**TL;DR:** A perfect and flawless configuration setup should ensure (a) keys can be read from file AND from environment variable (b) secrets are kept outside committed code (c) config is hierarchical for easier findability. There are a few packages that can help tick most of those boxes like [rc](https://www.npmjs.com/package/rc), [nconf](https://www.npmjs.com/package/nconf), [config](https://www.npmjs.com/package/config), and [convict](https://www.npmjs.com/package/convict).
+### `🌟 #new`
 
-**Otherwise:** Failing to satisfy any of the config requirements will simply bog down the development or DevOps team. Probably both
+**TL;DR:** When building apps and APIs, using a framework is mandatory. It's easy to overlook alternative frameworks or important considerations and then finally land on a sub optimal option. As of 2023/2024, we believe that these four frameworks are worth considering: [Nest.js](https://nestjs.com/), [Fastify](https://www.fastify.io/), [express](https://expressjs.com/), and [Koa](https://koajs.com/). Click read more below for a detailed pros/cons of each framework. Simplistically, we believe that Nest.js is the best match for teams who wish to go OOP and/or build large-scale apps that can't get partitioned into smaller _autonomous_ components. Fastify is our recommendation for apps with reasonably-sized components (e.g., Microservices) that are built around simple Node.js mechanics. Read our [full considerations guide here](./sections/projectstructre/choose-framework.md)
 
-🔗 [**Read More: configuration best practices**](./sections/projectstructre/configguide.md)
+**Otherwise:** Due to the overwhelming amount of considerations, it's easy to make decisions based on partial information and compare apples with oranges. For example, it's believed that Fastify is a minimal web-server that should get compared with express only. In reality, it's a rich framework with many official plugins that cover many concerns
+
+🔗 [**Read More: Choosing the right framework**](./sections/projectstructre/choose-framework.md)
+
+## ![✔] 1.6 Use TypeScript sparingly and thoughtfully
+
+### `🌟 #new`
+
+**TL;DR:** Coding without type safety is no longer an option, TypeScript is the most popular option for this mission. Use it to define variables and functions return types. With that, it is also a double edge sword that can greatly _encourage_ complexity with its additional ~ 50 keywords and sophisticated features. Consider using it sparingly, mostly with simple types, and utilize advanced features only when a real need arises
+
+**Otherwise:** [Researches](https://earlbarr.com/publications/typestudy.pdf) show that using TypeScript can help in detecting ~20% bugs earlier. Without it, also the developer experience in the IDE is intolerable. On the flip side, 80% of other bugs were not discovered using types. Consequently, typed syntax is valuable but limited. Only efficient tests can discover the whole spectrum of bugs, including type-related bugs. It might also defeat its purpose: sophisticated code features are likely to increase the code complexity, which by itself increases both the amount of bugs and the average bug fix time
+
+🔗 [**Read More: TypeScript considerations**](./sections/projectstructre/typescript-considerations.md)
 
 <br/><br/><br/>
 
@@ -287,7 +345,7 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 ## ![✔] 2.1 Use Async-Await or promises for async error handling
 
-**TL;DR:** Handling async errors in callback style is probably the fastest way to hell (a.k.a the pyramid of doom). The best gift you can give to your code is using a reputable promise library or async-await instead which enables a much more compact and familiar code syntax like try-catch
+**TL;DR:** Handling async errors in callback style is probably the fastest way to hell (a.k.a the pyramid of doom). The best gift you can give to your code is using Promises with async-await which enables a much more compact and familiar code syntax like try-catch
 
 **Otherwise:** Node.js callback style, function(err, response), is a promising way to un-maintainable code due to the mix of error handling with casual code, excessive nesting, and awkward coding patterns
 
@@ -295,9 +353,11 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 <br/><br/>
 
-## ![✔] 2.2 Use only the built-in Error object
+## ![✔] 2.2 Extend the built-in Error object
 
-**TL;DR:** Many throw errors as a string or as some custom type – this complicates the error handling logic and the interoperability between modules. Whether you reject a promise, throw an exception or emit an error – using only the built-in Error object (or an object that extends the built-in Error object) will increase uniformity and prevent loss of information. There is `no-throw-literal` ESLint rule that strictly checks that (although it has some [limitations](https://eslint.org/docs/rules/no-throw-literal) which can be solved when using TypeScript and setting the `@typescript-eslint/no-throw-literal` rule)
+### `📝 #updated`
+
+**TL;DR:** Some libraries throw errors as a string or as some custom type – this complicates the error handling logic and the interoperability between modules. Instead, create app error object/class that extends the built-in Error object and use it whenever rejecting, throwing or emitting an error. The app error should add useful imperative properties like the error name/code and isCatastrophic. By doing so, all errors have a unified structure and support better error handling .There is `no-throw-literal` ESLint rule that strictly checks that (although it has some [limitations](https://eslint.org/docs/rules/no-throw-literal) which can be solved when using TypeScript and setting the `@typescript-eslint/no-throw-literal` rule)
 
 **Otherwise:** When invoking some component, being uncertain which type of errors come in return – it makes proper error handling much harder. Even worse, using custom types to describe errors might lead to loss of critical error information like the stack trace!
 
@@ -305,11 +365,13 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 <br/><br/>
 
-## ![✔] 2.3 Distinguish operational vs programmer errors
+## ![✔] 2.3 Distinguish catastrophic errors from operational errors
 
-**TL;DR:** Operational errors (e.g. API received an invalid input) refer to known cases where the error impact is fully understood and can be handled thoughtfully. On the other hand, programmer error (e.g. trying to read an undefined variable) refers to unknown code failures that dictate to gracefully restart the application
+### `📝 #updated`
 
-**Otherwise:** You may always restart the application when an error appears, but why let ~5000 online users down because of a minor, predicted, operational error? The opposite is also not ideal – keeping the application up when an unknown issue (programmer error) occurred might lead to an unpredicted behavior. Differentiating the two allows acting tactfully and applying a balanced approach based on the given context
+**TL;DR:** Operational errors (e.g. API received an invalid input) refer to known cases where the error impact is fully understood and can be handled thoughtfully. On the other hand, catastrophic error (also known as programmer errors) refers to unusual code failures that dictate to gracefully restart the application
+
+**Otherwise:** You may always restart the application when an error appears, but why let ~5000 online users down because of a minor, predicted, operational error? The opposite is also not ideal – keeping the application up when an unknown catastrophic issue (programmer error) occurred might lead to an unpredicted behavior. Differentiating the two allows acting tactfully and applying a balanced approach based on the given context
 
 🔗 [**Read More: operational vs programmer error**](./sections/errorhandling/operationalvsprogrammererror.md)
 
@@ -317,7 +379,7 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 ## ![✔] 2.4 Handle errors centrally, not within a middleware
 
-**TL;DR:** Error handling logic such as mail to admin and logging should be encapsulated in a dedicated and centralized object that all endpoints (e.g. Express middleware, cron jobs, unit-testing) call when an error comes in
+**TL;DR:** Error handling logic such as logging, deciding whether to crash and monitoring metrics should be encapsulated in a dedicated and centralized object that all entry-points (e.g. APIs, cron jobs, scheduled jobs) call when an error comes in
 
 **Otherwise:** Not handling errors within a single place will lead to code duplication and probably to improperly handled errors
 
@@ -325,9 +387,9 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 <br/><br/>
 
-## ![✔] 2.5 Document API errors using Swagger or GraphQL
+## ![✔] 2.5 Document API errors using OpenAPI or GraphQL
 
-**TL;DR:** Let your API callers know which errors might come in return so they can handle these thoughtfully without crashing. For RESTful APIs, this is usually done with documentation frameworks like Swagger. If you're using GraphQL, you can utilize your schema and comments as well.
+**TL;DR:** Let your API callers know which errors might come in return so they can handle these thoughtfully without crashing. For RESTful APIs, this is usually done with documentation frameworks like OpenAPI. If you're using GraphQL, you can utilize your schema and comments as well
 
 **Otherwise:** An API client might decide to crash and restart only because it received back an error it couldn’t understand. Note: the caller of your API might be you (very typical in a microservice environment)
 
@@ -337,7 +399,7 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 ## ![✔] 2.6 Exit the process gracefully when a stranger comes to town
 
-**TL;DR:** When an unknown error occurs (a developer error, see best practice 2.3) - there is uncertainty about the application healthiness. Common practice suggests restarting the process carefully using a process management tool like [Forever](https://www.npmjs.com/package/forever) or [PM2](http://pm2.keymetrics.io/)
+**TL;DR:** When an unknown error occurs (catastrophic error, see best practice 2.3) - there is uncertainty about the application healthiness. In this case, there is no escape from making the error observable, shutting off connections and exiting the process. Any reputable runtime framework like Dockerized services or cloud serverless solutions will take care to restart
 
 **Otherwise:** When an unfamiliar exception occurs, some object might be in a faulty state (e.g. an event emitter which is used globally and not firing events anymore due to some internal failure) and all future requests might fail or behave crazily
 
@@ -345,9 +407,11 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 <br/><br/>
 
-## ![✔] 2.7 Use a mature logger to increase error visibility
+## ![✔] 2.7 Use a mature logger to increase errors visibility
 
-**TL;DR:** A set of mature logging tools like [Pino](https://github.com/pinojs/pino) or [Log4js](https://www.npmjs.com/package/log4js), will speed-up error discovery and understanding. So forget about console.log
+### `📝 #updated`
+
+**TL;DR:** A robust logging tools like [Pino](https://github.com/pinojs/pino) or [Winston](https://github.com/winstonjs/winston) increases the errors visibility using features like log-levels, pretty print coloring and more. Console.log lacks these imperative features and should be avoided. The best in class logger allows attaching custom useful properties to log entries with minimized serialization performance penalty. Developers should write logs to `stdout` and let the infrastructure pipe the stream to the appropriate log aggregator
 
 **Otherwise:** Skimming through console.logs or manually through messy text file without querying tools or a decent log viewer might keep you busy at work until late
 
@@ -357,7 +421,9 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 ## ![✔] 2.8 Test error flows using your favorite test framework
 
-**TL;DR:** Whether professional automated QA or plain manual developer testing – Ensure that your code not only satisfies positive scenarios but also handles and returns the right errors. Testing frameworks like Mocha & Chai can handle this easily (see code examples within the "Gist popup")
+### `📝 #updated`
+
+**TL;DR:** Whether professional automated QA or plain manual developer testing – Ensure that your code not only satisfies positive scenarios but also handles and returns the right errors. On top of this, simulate deeper error flows like uncaught exceptions an ensure that the error handler treat these properly (see code examples within the "read more" section)
 
 **Otherwise:** Without testing, whether automatically or manually, you can’t rely on your code to return the right errors. Without meaningful errors – there’s no error handling
 
@@ -377,6 +443,8 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 ## ![✔] 2.10 Catch unhandled promise rejections
 
+### `📝 #updated`
+
 **TL;DR:** Any exception thrown within a promise will get swallowed and discarded unless a developer didn’t forget to explicitly handle it. Even if your code is subscribed to `process.uncaughtException`! Overcome this by registering to the event `process.unhandledRejection`
 
 **Otherwise:** Your errors will get swallowed and leave no trace. Nothing to worry about
@@ -387,7 +455,7 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 
 ## ![✔] 2.11 Fail fast, validate arguments using a dedicated library
 
-**TL;DR:** Assert API input to avoid nasty bugs that are much harder to track later. The validation code is usually tedious unless you are using a very cool helper library like [ajv](https://www.npmjs.com/package/ajv) and [Joi](https://www.npmjs.com/package/joi)
+**TL;DR:** Assert API input to avoid nasty bugs that are much harder to track later. The validation code is usually tedious unless you are using a modern validation library like [ajv](https://www.npmjs.com/package/ajv), [zod](https://github.com/colinhacks/zod), or [typebox](https://github.com/sinclairzx81/typebox)
 
 **Otherwise:** Consider this – your function expects a numeric argument “Discount” which the caller forgets to pass, later on, your code checks if Discount!=0 (amount of allowed discount is greater than zero), then it will allow the user to enjoy a discount. OMG, what a nasty bug. Can you see it?
 
@@ -396,6 +464,8 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 <br/><br/>
 
 ## ![✔] 2.12 Always await promises before returning to avoid a partial stacktrace
+
+### `🌟 #new`
 
 **TL;DR:** Always do `return await` when returning a promise to benefit full error stacktrace. If a
 function returns a promise, that function must be declared as `async` function and explicitly
@@ -407,15 +477,25 @@ especially if the cause of the abnormal behavior is inside of the missing functi
 
 🔗 [**Read More: returning promises**](./sections/errorhandling/returningpromises.md)
 
+<br/><br/>
+
+## ![✔] 2.13 Subscribe to event emitters and streams 'error' event
+
+### `🌟 #new`
+
+**TL;DR:** Unlike typical functions, a try-catch clause won't get errors that originate from Event Emitters and anything inherited from it (e.g., streams). Instead of try-catch, subscribe to an event emitter's 'error' event so your code can handle the error in context. When dealing with [EventTargets](https://nodejs.org/api/events.html#eventtarget-and-event-api) (the web standard version of Event Emitters) there are no 'error' event and all errors end in the process.on('error) global event - in this case, at least ensure that the process crash or not based on the desired context. Also, mind that error originating from _asynchronous_ event handlers are not get caught unless the event emitter is initialized with {captureRejections: true}
+
+**Otherwise:** Event emitters are commonly used for global and key application functionality such as DB or message queue connection. When this kind of crucial objects throw an error, at best the process will crash due to unhandled exception. Even worst, it will stay alive as a zombie while a key functionality is turned off
+
 <br/><br/><br/>
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `3. Code Style Practices`
+# `3. Code Patterns And Style Practices`
 
 ## ![✔] 3.1 Use ESLint
 
-**TL;DR:** [ESLint](https://eslint.org) is the de-facto standard for checking possible code errors and fixing code style, not only to identify nitty-gritty spacing issues but also to detect serious code anti-patterns like developers throwing errors without classification. Though ESLint can automatically fix code styles, other tools like [prettier](https://www.npmjs.com/package/prettier) and [beautify](https://www.npmjs.com/package/js-beautify) are more powerful in formatting the fix and work in conjunction with ESLint
+**TL;DR:** [ESLint](https://eslint.org) is the de-facto standard for checking possible code errors and fixing code style, not only to identify nitty-gritty spacing issues but also to detect serious code anti-patterns like developers throwing errors without classification. Though ESLint can automatically fix code styles, other tools like [prettier](https://www.npmjs.com/package/prettier) are more powerful in formatting the fix and work in conjunction with ESLint
 
 **Otherwise:** Developers will focus on tedious spacing and line-width concerns and time might be wasted overthinking the project's code style
 
@@ -423,9 +503,11 @@ especially if the cause of the abnormal behavior is inside of the missing functi
 
 <br/><br/>
 
-## ![✔] 3.2 Node.js specific plugins
+## ![✔] 3.2 Use Node.js eslint extension plugins
 
-**TL;DR:** On top of ESLint standard rules that cover vanilla JavaScript, add Node.js specific plugins like [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node), [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha) and [eslint-plugin-node-security](https://www.npmjs.com/package/eslint-plugin-security)
+### `📝 #updated`
+
+**TL;DR:** On top of ESLint standard rules that cover vanilla JavaScript, add Node.js specific plugins like [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node), [eslint-plugin-mocha](https://www.npmjs.com/package/eslint-plugin-mocha) and [eslint-plugin-node-security](https://www.npmjs.com/package/eslint-plugin-security), [eslint-plugin-require](https://www.npmjs.com/package/eslint-plugin-require), [/eslint-plugin-jest](https://www.npmjs.com/package/eslint-plugin-jest) and other useful rules
 
 **Otherwise:** Many faulty Node.js code patterns might escape under the radar. For example, developers might require(variableAsPath) files with a variable given as a path which allows attackers to execute any JS script. Node.js linters can detect such patterns and complain early
 
@@ -444,8 +526,7 @@ function someFunction() {
 }
 
 // Avoid
-function someFunction()
-{
+function someFunction() {
   // code block
 }
 ```
@@ -518,7 +599,7 @@ const count = 2 // it tries to run 2(), but 2 is not a function
 
 ```javascript
 // for global variables names we use the const/let keyword and UPPER_SNAKE_CASE
-let MUTABLE_GLOBAL = "mutable value"
+let MUTABLE_GLOBAL = "mutable value";
 const GLOBAL_CONSTANT = "immutable value";
 const CONFIG = {
   key: "value",
@@ -567,22 +648,29 @@ function doSomething() {
 
 <br/><br/>
 
-## ![✔] 3.9 Require modules by folders, as opposed to the files directly
+## ![✔] 3.9 Set an explicit entry point to a module/folder
 
-**TL;DR:** When developing a module/library in a folder, place an index.js file that exposes the module's internals so every consumer will pass through it. This serves as an 'interface' to your module and eases future changes without breaking the contract
+### `📝 #updated`
 
-**Otherwise:** Changing the internal structure of files or the signature may break the interface with clients
+**TL;DR:** When developing a module/library, set an explicit root file that exports the public and interesting code. Discourage the client code from importing deep files and becoming familiar with the internal structure. With commonjs (require), this can be done with an index.js file at the folder's root or the package.json.main field. With ESM (import), if a package.json exists on the root, the field "exports" allow specifying the module's root file. If no package.json exists, you may put an index.js file on the root which re-exports all the public functionality
 
-### 3.9 Code example
+**Otherwise:** Having an explicit root file acts like a public 'interface' that encapsulates the internal, directs the caller to the public code and facilitates future changes without breaking the contract
+
+### 3.9 Code example - avoid coupling the client to the module structure
 
 ```javascript
-// Do
-module.exports.SMSProvider = require("./SMSProvider");
-module.exports.SMSNumberResolver = require("./SMSNumberResolver");
+// Avoid: client has deep familiarity with the internals
 
-// Avoid
-module.exports.SMSProvider = require("./SMSProvider/SMSProvider.js");
-module.exports.SMSNumberResolver = require("./SMSNumberResolver/SMSNumberResolver.js");
+// Client code
+const SMSWithMedia = require("./SMSProvider/providers/media/media-provider.js");
+
+// Better: explicitly export the public functions
+
+//index.js, module code
+module.exports.SMSWithMedia = require("./SMSProvider/providers/media/media-provider.js");
+
+// Client code
+const { SMSWithMedia } = require("./SMSProvider");
 ```
 
 <br/><br/>
@@ -616,7 +704,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 3.11 Use Async Await, avoid callbacks
 
-**TL;DR:** Node 8 LTS now has full support for Async-await. This is a new way of dealing with asynchronous code which supersedes callbacks and promises. Async-await is non-blocking, and it makes asynchronous code look synchronous. The best gift you can give to your code is using async-await which provides a much more compact and familiar code syntax like try-catch
+**TL;DR:** Async-await is the simplest way to express an asynchronous flow as it makes asynchronous code look synchronous. Async-await will also result in much more compact code and support for try-catch. This technique now supersedes callbacks and promises in _most_ cases. Using it in your code is probably the best gift one can give to the code reader
 
 **Otherwise:** Handling async errors in callback style are probably the fastest way to hell - this style forces to check errors all over, deal with awkward code nesting, and makes it difficult to reason about the code flow
 
@@ -632,11 +720,27 @@ All statements above will return false if used with `===`
 
 🔗 [**Read more: It’s Time to Embrace Arrow Functions**](https://medium.com/javascript-scene/familiarity-bias-is-holding-you-back-its-time-to-embrace-arrow-functions-3d37e1a9bb75)
 
+<br/><br/>
+
+## ![✔] 3.13 Avoid effects outside of functions
+
+### `🌟 #new`
+
+**TL;DR:** Avoid putting code with effects like network or DB calls outside of functions. Such a code will be executed immediately when another file requires the file. This 'floating' code might get executed when the underlying system is not ready yet. It also comes with a performance penalty even when this module's functions will finally not be used in runtime. Last, mocking these DB/network calls for testing is harder outside of functions. Instead, put this code inside functions that should get called explicitly. If some DB/network code must get executed right when the module loads, consider using the factory or revealing module patterns
+
+**Otherwise:** A typical web framework sets error handler, environment variables and monitoring. When DB/network calls are made before the web framework is initialized, they won't be monitored or fail due to a lack of configuration data
+
 <br/><br/><br/>
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
 # `4. Testing And Overall Quality Practices`
+
+\_We have dedicated guides for testing, see below. The best practices list here is a brief summary of these guides
+
+a. [JavaScript testing best practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+b. [Node.js testing - beyond the basics](https://github.com/testjavascript/nodejs-integration-tests-best-practices)
+\_
 
 ## ![✔] 4.1 At the very least, write API (component) testing
 
@@ -648,6 +752,8 @@ All statements above will return false if used with `===`
 
 ## ![✔] 4.2 Include 3 parts in each test name
 
+ ### `🌟 #new`
+
 **TL;DR:** Make the test speak at the requirements level so it's self-explanatory also to QA engineers and developers who are not familiar with the code internals. State in the test name what is being tested (unit under test), under what circumstances, and what is the expected result
 
 **Otherwise:** A deployment just failed, a test named “Add product” failed. Does this tell you what exactly is malfunctioning?
@@ -658,6 +764,8 @@ All statements above will return false if used with `===`
 
 ## ![✔] 4.3 Structure tests by the AAA pattern
 
+### `🌟 #new`
+
 **TL;DR:** Structure your tests with 3 well-separated sections: Arrange, Act & Assert (AAA). The first part includes the test setup, then the execution of the unit under test, and finally the assertion phase. Following this structure guarantees that the reader spends no brain CPU on understanding the test plan
 
 **Otherwise:** Not only you spend long daily hours on understanding the main code, but now also what should have been the simple part of the day (testing) stretches your brain
@@ -666,11 +774,13 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 4.4 Detect code issues with a linter
+## ![✔] 4.4 Ensure Node version is unified
 
-**TL;DR:** Use a code linter to check the basic quality and detect anti-patterns early. Run it before any test and add it as a pre-commit git-hook to minimize the time needed to review and correct any issue. Also check [Section 3](#3-code-style-practices) on Code Style Practices
+### `🌟 #new`
 
-**Otherwise:** You may let pass some anti-pattern and possible vulnerable code to your production environment.
+**TL;DR:** Use tools that encourage or enforce the same Node.js version across different environments and developers. Tools like [nvm](https://github.com/nvm-sh/nvm), and [Volta](https://volta.sh/) allow specifying the project's version in a file so each team member can run a single command to conform with the project's version. Optionally, this definition can be replicated to CI and the production runtime (e.g., copy the specified value to .Dockerfile build and to the CI declaration file)
+
+**Otherwise:** A developer might face or miss an error because she uses a different Node.js version than her teammates. Even worse - the production runtime might be different than the environment where tests were executed
 
 <br/><br/>
 
@@ -684,15 +794,7 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 4.6 Constantly inspect for vulnerable dependencies
-
-**TL;DR:** Even the most reputable dependencies such as Express have known vulnerabilities. This can get easily tamed using community and commercial tools such as 🔗 [npm audit](https://docs.npmjs.com/cli/audit) and 🔗 [snyk.io](https://snyk.io) that can be invoked from your CI on every build
-
-**Otherwise:** Keeping your code clean from vulnerabilities without dedicated tools will require to constantly follow online publications about new threats. Quite tedious
-
-<br/><br/>
-
-## ![✔] 4.7 Tag your tests
+## ![✔] 4.6 Tag your tests
 
 **TL;DR:** Different tests must run on different scenarios: quick smoke, IO-less, tests should run when a developer saves or commits a file, full end-to-end tests usually run when a new pull request is submitted, etc. This can be achieved by tagging tests with keywords like #cold #api #sanity so you can grep with your testing harness and invoke the desired subset. For example, this is how you would invoke only the sanity test group with [Mocha](https://mochajs.org/): mocha --grep 'sanity'
 
@@ -700,7 +802,7 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 4.8 Check your test coverage, it helps to identify wrong test patterns
+## ![✔] 4.7 Check your test coverage, it helps to identify wrong test patterns
 
 **TL;DR:** Code coverage tools like [Istanbul](https://github.com/istanbuljs/istanbuljs)/[NYC](https://github.com/istanbuljs/nyc) are great for 3 reasons: it comes for free (no effort is required to benefit this reports), it helps to identify a decrease in testing coverage, and last but not least it highlights testing mismatches: by looking at colored code coverage reports you may notice, for example, code areas that are never tested like catch clauses (meaning that tests only invoke the happy paths and not how the app behaves on errors). Set it to fail builds if the coverage falls under a certain threshold
 
@@ -708,15 +810,7 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 4.9 Inspect for outdated packages
-
-**TL;DR:** Use your preferred tool (e.g. `npm outdated` or [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)) to detect installed outdated packages, inject this check into your CI pipeline and even make a build fail in a severe scenario. For example, a severe scenario might be when an installed package is 5 patch commits behind (e.g. local version is 1.3.1 and repository version is 1.3.8) or it is tagged as deprecated by its author - kill the build and prevent deploying this version
-
-**Otherwise:** Your production will run packages that have been explicitly tagged by their author as risky
-
-<br/><br/>
-
-## ![✔] 4.10 Use production-like environment for e2e testing
+## ![✔] 4.8 Use production-like environment for e2e testing
 
 **TL;DR:** End to end (e2e) testing which includes live data used to be the weakest link of the CI process as it depends on multiple heavy services like DB. Use an environment which is as close to your real production environment as possible like a-continue (Missed -continue here, needs content. Judging by the **Otherwise** clause, this should mention docker-compose)
 
@@ -724,7 +818,7 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 4.11 Refactor regularly using static analysis tools
+## ![✔] 4.9 Refactor regularly using static analysis tools
 
 **TL;DR:** Using static analysis tools helps by giving objective ways to improve code quality and keeps your code maintainable. You can add static analysis tools to your CI build to fail when it finds code smells. Its main selling points over plain linting are the ability to inspect quality in the context of multiple files (e.g. detect duplications), perform advanced analysis (e.g. code complexity), and follow the history and progress of code issues. Two examples of tools you can use are [Sonarqube](https://www.sonarqube.org/) (2,600+ [stars](https://github.com/SonarSource/sonarqube)) and [Code Climate](https://codeclimate.com/) (1,500+ [stars](https://github.com/codeclimate/codeclimate)).
 
@@ -734,21 +828,43 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 4.12 Carefully choose your CI platform (Jenkins vs CircleCI vs Travis vs Rest of the world)
+## ![✔] 4.10 Mock responses of external HTTP services
 
-**TL;DR:** Your continuous integration platform (CICD) will host all the quality tools (e.g. test, lint) so it should come with a vibrant ecosystem of plugins. [Jenkins](https://jenkins.io/) used to be the default for many projects as it has the biggest community along with a very powerful platform at the price of a complex setup that demands a steep learning curve. Nowadays, it has become much easier to set up a CI solution using SaaS tools like [CircleCI](https://circleci.com) and others. These tools allow crafting a flexible CI pipeline without the burden of managing the whole infrastructure. Eventually, it's a trade-off between robustness and speed - choose your side carefully
+### `🌟 #new`
 
-**Otherwise:** Choosing some niche vendor might get you blocked once you need some advanced customization. On the other hand, going with Jenkins might burn precious time on infrastructure setup
+**TL;DR:** Use network mocking tools to simulate responses of external collaborators' services that are approached over the network (e.g., REST, Graph). This is imperative not only to isolate the component under test but mostly to simulate non-happy path flows. Tools like [nock](https://github.com/nock/nock) (in-process) or [Mock-Server](https://www.mock-server.com/) allow defining a specific response of external service in a single line of code. Remember to simulate also errors, delays, timeouts, and any other event that is likely to happen in production
 
-🔗 [**Read More: Choosing CI platform**](./sections/testingandquality/citools.md)
+**Otherwise:** Allowing your component to reach real external services instances will likely result in naive tests that mostly cover happy paths. The tests might also be flaky and slow
 
-## ![✔] 4.13 Test your middlewares in isolation
+🔗 [**Read More: Mock external services**](./sections/testingandquality/mock-external-services.md)
+
+## ![✔] 4.11 Test your middlewares in isolation
 
 **TL;DR:** When a middleware holds some immense logic that spans many requests, it is worth testing it in isolation without waking up the entire web framework. This can be easily achieved by stubbing and spying on the {req, res, next} objects
 
 **Otherwise:** A bug in Express middleware === a bug in all or most requests
 
 🔗 [**Read More: Test middlewares in isolation**](./sections/testingandquality/test-middlewares.md)
+
+## ![✔] 4.12 Specify a port in production, randomize in testing
+
+### `🌟 #new`
+
+**TL;DR:** When testing against the API, it's common and desirable to initialize the web server inside the tests. Let the server randomize the web server port in testing to prevent collisions. If you're using Node.js http server (used by most frameworks), doing so demands nothing but passing a port number zero - this will randomize an available port
+
+**Otherwise:** Specifying a fixed port will prevent two testing processes from running at the same time. Most of the modern test runners run with multiple processes by default
+
+🔗 [**Read More: Randomize a port for testing**](./sections/testingandquality/randomize-port.md)
+
+## ![✔] 4.13 Test the five possible outcomes
+
+### `🌟 #new`
+
+**TL;DR:** When testing a flow, ensure to cover five potential categories. Any time some action is triggered (e.g., API call), a reaction occurs, a meaningful **outcome** is produced and calls for testing. There are five possible outcome types for every flow: a response, a visible state change (e.g., DB), an outgoing API call, a new message in a queue, and an observability call (e.g., logging, metric). See a [checklist here](https://testjavascript.com/wp-content/uploads/2021/10/the-backend-checklist.pdf). Each type of outcome comes with unique challenges and techniques to mitigate those challenges - we have a dedicated guide about this topic: [Node.js testing - beyond the basics](https://github.com/testjavascript/nodejs-integration-tests-best-practices)
+
+**Otherwise:** Consider a case when testing the addition of a new product to the system. It's common to see tests that assert on a valid response only. What if the product was failed to persist regardless of the positive response? what if when adding a new product demands calling some external service, or putting a message in the queue - shouldn't the test assert these outcomes as well? It's easy to overlook various paths, this is where a [checklist comes handy](https://testjavascript.com/wp-content/uploads/2021/10/the-backend-checklist.pdf)
+
+🔗 [**Read More: Test five outcomes**](./sections/testingandquality/test-five-outcomes.md)
 
 <br/><br/><br/>
 
@@ -758,7 +874,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.1. Monitoring
 
-**TL;DR:** Monitoring is a game of finding out issues before customers do – obviously this should be assigned unprecedented importance. The market is overwhelmed with offers thus consider starting with defining the basic metrics you must follow (my suggestions inside), then go over additional fancy features and choose the solution that ticks all boxes. Click ‘The Gist’ below for an overview of the solutions
+**TL;DR:** Monitoring is a game of finding out issues before customers do – obviously this should be assigned unprecedented importance. The market is overwhelmed with offers thus consider starting with defining the basic metrics you must follow (my suggestions inside), then go over additional fancy features and choose the solution that ticks all boxes. In any case, the 4 layers of observability must be covered: uptime, metrics with focus on user-facing symptoms and Node.js technical metrics like event loop lag, distributed flows measurement with Open Telemetry and logging. Click ‘Read More’ below for an overview of the solutions
 
 **Otherwise:** Failure === disappointed customers. Simple
 
@@ -766,7 +882,7 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 5.2. Increase transparency using smart logging
+## ![✔] 5.2. Increase the observability using smart logging
 
 **TL;DR:** Logs can be a dumb warehouse of debug statements or the enabler of a beautiful dashboard that tells the story of your app. Plan your logging platform from day 1: how logs are collected, stored and analyzed to ensure that the desired information (e.g. error rate, following an entire transaction through services and servers, etc) can really be extracted
 
@@ -778,7 +894,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.3. Delegate anything possible (e.g. gzip, SSL) to a reverse proxy
 
-**TL;DR:** Node is awfully bad at doing CPU intensive tasks like gzipping, SSL termination, etc. You should use ‘real’ middleware services like nginx, HAproxy or cloud vendor services instead
+**TL;DR:** Node is quite bad at doing CPU intensive tasks like gzipping, SSL termination, etc. You should use specialized infrastructure like nginx, HAproxy or cloud vendor services instead
 
 **Otherwise:** Your poor single thread will stay busy doing infrastructural tasks instead of dealing with your application core and performance will degrade accordingly
 
@@ -788,7 +904,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.4. Lock dependencies
 
-**TL;DR:** Your code must be identical across all environments, but amazingly npm lets dependencies drift across environments by default – when you install packages at various environments it tries to fetch packages’ latest patch version. Overcome this by using npm config files, .npmrc, that tell each environment to save the exact (not the latest) version of each package. Alternatively, for finer grained control use `npm shrinkwrap`. \*Update: as of NPM5, dependencies are locked by default. The new package manager in town, Yarn, also got us covered by default
+**TL;DR:** Your code must be identical across all environments, but without a special lockfile npm lets dependencies drift across environments. Ensure to commit your package-lock.json so all the environments will be identical
 
 **Otherwise:** QA will thoroughly test the code and approve a version that will behave differently in production. Even worse, different servers in the same production cluster might run different code
 
@@ -798,7 +914,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.5. Guard process uptime using the right tool
 
-**TL;DR:** The process must go on and get restarted upon failures. For simple scenarios, process management tools like PM2 might be enough but in today's ‘dockerized’ world, cluster management tools should be considered as well
+**TL;DR:** The process must go on and get restarted upon failures. Modern runtime platforms like Docker-ized platforms (e.g. Kubernetes), and Serverless take care for this automatically. When the app is hosted on a bare metal server, one must take care for a process management tools like [systemd](https://systemd.io/). Avoid including a custom process management tool in a modern platform that monitor an app instance (e.g., Kubernetes) - doing so will hide failures from the infrastructure. When the underlying infrastructure is not aware of errors, it can't perform useful mitigation steps like re-placing the instance in a different location
 
 **Otherwise:** Running dozens of instances without a clear strategy and too many tools together (cluster management, docker, PM2) might lead to DevOps chaos
 
@@ -808,7 +924,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.6. Utilize all CPU cores
 
-**TL;DR:** At its basic form, a Node app runs on a single CPU core while all others are left idling. It’s your duty to replicate the Node process and utilize all CPUs – For small-medium apps you may use Node Cluster or PM2. For a larger app consider replicating the process using some Docker cluster (e.g. K8S, ECS) or deployment scripts that are based on Linux init system (e.g. systemd)
+**TL;DR:** At its basic form, a Node app runs on a single CPU core while all others are left idling. It’s your duty to replicate the Node process and utilize all CPUs. Most of the modern run-times platform (e.g., Kubernetes) allow replicating instances of the app but they won't verify that all cores are utilized - this is your duty. If the app is hosted on a bare server, it's also your duty to use some process replication solution (e.g. systemd)
 
 **Otherwise:** Your app will likely utilize only 25% of its available resources(!) or even less. Note that a typical server has 4 CPU cores or more, naive deployment of Node.js utilizes only 1 (even using PaaS services like AWS beanstalk!)
 
@@ -826,9 +942,11 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 5.8. Discover errors and downtime using APM products
+## ![✔] 5.8. Discover the unknowns using APM products
 
-**TL;DR:** Application monitoring and performance products (a.k.a. APM) proactively gauge codebase and API so they can auto-magically go beyond traditional monitoring and measure the overall user-experience across services and tiers. For example, some APM products can highlight a transaction that loads too slow on the end-user's side while suggesting the root cause
+### `📝 #updated`
+
+**TL;DR:** Consider adding another safety layer to the production stack - APM. While the majority of symptoms and causes can be detected using traditional monitoring techniques, in a distributed system there is more than meets the eye. Application monitoring and performance products (a.k.a. APM) can auto-magically go beyond traditional monitoring and provide additional layer of discovery and developer-experience. For example, some APM products can highlight a transaction that loads too slow on the **end-user's side** while suggesting the root cause. APMs also provide more context for developers who try to troubleshoot a log error by showing what was the server busy with when the error occurred. To name a few example
 
 **Otherwise:** You might spend great effort on measuring API performance and downtimes, probably you’ll never be aware which is your slowest code parts under real-world scenario and how these affect the UX
 
@@ -838,7 +956,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.9. Make your code production-ready
 
-**TL;DR:** Code with the end in mind, plan for production from day 1. This sounds a bit vague so I’ve compiled a few development tips that are closely related to production maintenance (click Gist below)
+**TL;DR:** Code with the end in mind, plan for production from day 1. This sounds a bit vague so I’ve compiled a few development tips that are closely related to production maintenance (click 'Read More')
 
 **Otherwise:** A world champion IT/DevOps guy won’t save a system that is badly written
 
@@ -858,7 +976,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.11. Get your frontend assets out of Node
 
-**TL;DR:** Serve frontend content using dedicated middleware (nginx, S3, CDN) because Node performance really gets hurt when dealing with many static files due to its single-threaded model
+**TL;DR:** Serve frontend content using a specialized infrastructure (nginx, S3, CDN) because Node performance gets hurt when dealing with many static files due to its single-threaded model. One exception to this guideline is when doing server-side rendering
 
 **Otherwise:** Your single Node thread will be busy streaming hundreds of html/images/angular/react files instead of allocating all its resources for the task it was born for – serving dynamic content
 
@@ -866,9 +984,9 @@ All statements above will return false if used with `===`
 
 <br/><br/>
 
-## ![✔] 5.12. Be stateless, kill your servers almost every day
+## ![✔] 5.12. Strive to be stateless
 
-**TL;DR:** Store any type of data (e.g. user sessions, cache, uploaded files) within external data stores. Consider ‘killing’ your servers periodically or use ‘serverless’ platform (e.g. AWS Lambda) that explicitly enforces a stateless behavior
+**TL;DR:** Store any type of _data_ (e.g. user sessions, cache, uploaded files) within external data stores. When the app holds data in-process this adds additional layer of maintenance complexity like routing users to the same instance and higher cost of restarting a process. To enforce and encourage a stateless approach, most modern runtime platforms allows 'reapp-ing' instances periodically
 
 **Otherwise:** Failure at a given server will result in application downtime instead of just killing a faulty machine. Moreover, scaling-out elasticity will get more challenging due to the reliance on a specific server
 
@@ -878,7 +996,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.13. Use tools that automatically detect vulnerabilities
 
-**TL;DR:** Even the most reputable dependencies such as Express have known vulnerabilities (from time to time) that can put a system at risk. This can be easily tamed using community and commercial tools that constantly check for vulnerabilities and warn (locally or at GitHub), some can even patch them immediately
+**TL;DR:** Even the most reputable dependencies such as Express have known vulnerabilities (from time to time) that can put a system at risk. This can be easily be tamed using community and commercial tools that constantly check for vulnerabilities and warn (locally or at GitHub), some can even patch them immediately
 
 **Otherwise:** Keeping your code clean from vulnerabilities without dedicated tools will require you to constantly follow online publications about new threats. Quite tedious
 
@@ -888,9 +1006,7 @@ All statements above will return false if used with `===`
 
 ## ![✔] 5.14. Assign a transaction id to each log statement
 
-Also known as correlation id / transit id / tracing id / request id / request context / etc.
-
-**TL;DR:** Assign the same identifier, transaction-id: {some value}, to each log entry within a single request. Then when inspecting errors in logs, easily conclude what happened before and after. Until version 14 of Node, this was not easy to achieve due to Node's async nature, but since AsyncLocalStorage came to town, this became possible and easy than ever. see code examples inside
+**TL;DR:** Assign the same identifier, transaction-id: uuid(), to each log entry within a single request (also known as correlation-id/tracing-id/request-context). Then when inspecting errors in logs, easily conclude what happened before and after. Node has a built-in mechanism, [AsyncLocalStorage](https://nodejs.org/api/async_context.html), for keeping the same context across asynchronous calls. see code examples inside
 
 **Otherwise:** Looking at a production error log without the context – what happened before – makes it much harder and slower to reason about the issue
 
@@ -900,9 +1016,9 @@ Also known as correlation id / transit id / tracing id / request id / request co
 
 ## ![✔] 5.15. Set `NODE_ENV=production`
 
-**TL;DR:** Set the environment variable `NODE_ENV` to ‘production’ or ‘development’ to flag whether production optimizations should get activated – many npm packages determine the current environment and optimize their code for production
+**TL;DR:** Set the environment variable `NODE_ENV` to ‘production’ or ‘development’ to flag whether production optimizations should get activated – some npm packages determine the current environment and optimize their code for production
 
-**Otherwise:** Omitting this simple property might greatly degrade performance. For example, when using Express for server-side rendering omitting `NODE_ENV` makes it slower by a factor of three!
+**Otherwise:** Omitting this simple property might greatly degrade performance when dealing with some specific libraries like Express server-side rendering
 
 🔗 [**Read More: Set NODE_ENV=production**](./sections/production/setnodeenv.md)
 
@@ -926,11 +1042,13 @@ Also known as correlation id / transit id / tracing id / request id / request co
 
 <br/><br/>
 
-## ![✔] 5.18. Don't route logs within the app
+## ![✔] 5.18. Log to stdout, avoid specifying log destination within the app
+
+### `📝 #updated`
 
 **TL;DR:** Log destinations should not be hard-coded by developers within the application code, but instead should be defined by the execution environment the application runs in. Developers should write logs to `stdout` using a logger utility and then let the execution environment (container, server, etc.) pipe the `stdout` stream to the appropriate destination (i.e. Splunk, Graylog, ElasticSearch, etc.).
 
-**Otherwise:** Application handling log routing === hard to scale, loss of logs, poor separation of concerns
+**Otherwise:** If developers set the log routing, less flexibility is left for the ops professional who wishes to customize it. Beyond this, if the app tries to log directly to a remote location (e.g., Elastic Search), in case of panic or crash - further logs that might explain the problem won't arrive
 
 🔗 [**Read More: Log Routing**](./sections/production/logrouting.md)
 
@@ -938,7 +1056,7 @@ Also known as correlation id / transit id / tracing id / request id / request co
 
 ## ![✔] 5.19. Install your packages with `npm ci`
 
-**TL;DR:** You have to be sure that production code uses the exact version of the packages you have tested it with. Run `npm ci` to strictly do a clean install of your dependencies matching package.json and package-lock.json. Using this command is recommended in automated environments such as continuous integration pipelines.
+**TL;DR:** Run `npm ci` to strictly do a clean install of your dependencies matching package.json and package-lock.json. Obviously production code must use the exact version of the packages that were used for testing. While package-lock.json file sets strict version for dependencies, in case of mismatch with the file package.json, the command 'npm install' will treat package.json as the source of truth. On the other hands, the command 'npm ci' will exit with error in case of mismatch between these files
 
 **Otherwise:** QA will thoroughly test the code and approve a version that will behave differently in production. Even worse, different servers in the same production cluster might run different code.
 
@@ -1246,6 +1364,39 @@ Also known as correlation id / transit id / tracing id / request id / request co
 **Otherwise:** Your project's API keys, passwords or other secrets are open to be abused by anyone who comes across them, which may result in financial loss, impersonation, and other risks.
 
 🔗 [**Read More: Avoid publishing secrets**](./sections/security/avoid_publishing_secrets.md)
+
+<br/><br/>
+
+## ![✔] 6.26 Inspect for outdated packages
+
+**TL;DR:** Use your preferred tool (e.g. `npm outdated` or [npm-check-updates](https://www.npmjs.com/package/npm-check-updates)) to detect installed outdated packages, inject this check into your CI pipeline and even make a build fail in a severe scenario. For example, a severe scenario might be when an installed package is 5 patch commits behind (e.g. local version is 1.3.1 and repository version is 1.3.8) or it is tagged as deprecated by its author - kill the build and prevent deploying this version
+
+**Otherwise:** Your production will run packages that have been explicitly tagged by their author as risky
+
+<br/><br/>
+
+## ![✔] 6.27. Import built-in modules using the 'node:' protocol
+
+### `🌟 #new`
+
+<a href="https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/" target="_blank"><img src="https://img.shields.io/badge/%E2%9C%94%20A06:2021 – Vulnerable and Outdated Components-green.svg" alt=""/></a>
+
+**TL;DR:** Import or require built-in Node.js modules using the 'node protocol' syntax:
+
+```javascript
+import { functionName } from "node:module"; // note that 'node:' prefix
+```
+
+For example:
+
+```javascript
+import { createServer } from "node:http";
+```
+
+This style ensures that there is no ambiguity with global npm packages and makes it clear for the reader that the code refers to a well-trusted official module. This style can be enforced with the eslint rule ['prefer-node-protocol'](https://github.com/sindresorhus/eslint-plugin-unicorn/blob/main/docs/rules/prefer-node-protocol.md)
+
+**Otherwise:** Using the import syntax without 'node:' prefix opens the door for [typosquatting attacks](https://en.wikipedia.org/wiki/Typosquatting) where one could mistakenly mistype a module name (e.g., 'event' instead of 'events) and get a malicious package that was built only to trick users into installing them
+
 <br/><br/><br/>
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
@@ -1317,9 +1468,11 @@ CMD [ "node", "dist/app.js" ]
 
 ## ![✔] 8.2. Bootstrap using `node` command, avoid `npm start`
 
-**TL;DR:** use `CMD ['node','server.js']` to start your app, avoid using npm scripts which don't pass OS signals to the code. This prevents problems with child-processes, signal handling, graceful shutdown and having zombie processes.
+**TL;DR:** Use `CMD ['node','server.js']` to start your app, avoid using npm scripts which don't pass OS signals to the code. This prevents problems with child-processes, signal handling, graceful shutdown and having zombie processes
 
-**Otherwise:** When no signals are passed, your code will never be notified about shutdowns. Without this, it will lose its chance to close properly possibly losing current requests and/or data.
+Update: [Starting from npm 7, npm claim](https://docs.npmjs.com/cli/v7/using-npm/changelog#706-2020-10-27) to pass signals. We follow and will update accordingly
+
+**Otherwise:** When no signals are passed, your code will never be notified about shutdowns. Without this, it will lose its chance to close properly possibly losing current requests and/or data
 
 [**Read More: Bootstrap container using node command, avoid npm start**](./sections/docker/bootstrap-using-node.md)
 
@@ -1357,7 +1510,7 @@ CMD [ "node", "dist/app.js" ]
 
 ## ![✔] 8.6. Shutdown smartly and gracefully
 
-**TL;DR:** Handle the process SIGTERM event and clean-up all existing connection and resources. This should be done while responding to ongoing requests. In Dockerized runtimes shutting down containers is not a rare event, rather a frequent occurrence that happen as part of routine work. Achieving this demands some thoughtful code to orchestrate several moving parts: The load balancer, keep-alive connections, the HTTP server and other resources
+**TL;DR:** Handle the process SIGTERM event and clean-up all existing connection and resources. This should be done while responding to ongoing requests. In Dockerized runtimes, shutting down containers is not a rare event, rather a frequent occurrence that happen as part of routine work. Achieving this demands some thoughtful code to orchestrate several moving parts: The load balancer, keep-alive connections, the HTTP server and other resources
 
 **Otherwise:** Dying immediately means not responding to thousands of disappointed users
 
@@ -1409,6 +1562,8 @@ In addition, referring to an image tag means that the base image is subject to c
 
 ## ![✔] 8.11. Clean-out build-time secrets, avoid secrets in args
 
+### `🌟 #new`
+
 **TL;DR:** Avoid secrets leaking from the Docker build environment. A Docker image is typically shared in multiple environment like CI and a registry that are not as sanitized as production. A typical example is an npm token which is usually passed to a dockerfile as argument. This token stays within the image long after it is needed and allows the attacker indefinite access to a private npm registry. This can be avoided by coping a secret file like `.npmrc` and then removing it using multi-stage build (beware, build history should be deleted as well) or by using Docker build-kit secret feature which leaves zero traces
 
 **Otherwise:** Everyone with access to the CI and docker registry will also get access to some precious organization secrets as a bonus
@@ -1446,6 +1601,8 @@ In addition, referring to an image tag means that the base image is subject to c
 <br/><br /><br />
 
 ## ![✔] 8.15. Lint your Dockerfile
+
+### `🌟 #new`
 
 **TL;DR:** Linting your Dockerfile is an important step to identify issues in your Dockerfile which differ from best practices. By checking for potential flaws using a specialised Docker linter, performance and security improvements can be easily identified, saving countless hours of wasted time or security issues in production code.
 

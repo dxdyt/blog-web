@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2023-07-26T12:15:36+08:00
+date: 2023-07-28T12:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689350098287-f227b7a86669?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689350098287-f227b7a86669?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAzNDQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689910651250-89c8334c9f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689910651250-89c8334c9f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -31,8 +31,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1689350098287-f227b7a866
 ## 3. 项目列表
 （名字按时间排序，最新添加的在最上面）
 
+
+
 ### 2023年7月26号添加
 ---
+#### discountry - [Github](https://github.com/discountry), [博客](https://yubolun.com/)
+* :white_check_mark: [SigniFi](https://www.signifi.life/)：AI 塔罗牌占卜，DApp
+
 #### heygsc - [Github](https://github.com/heygsc)
 * :white_check_mark: [单词之风](https://word-wind.pages.dev/)：简洁的背单词页面，词库丰富，有标记列表等功能
 

@@ -1,16 +1,16 @@
 ---
 title: playwright
-date: 2023-05-21T12:15:52+08:00
+date: 2023-07-28T12:17:35+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12169/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12169/0/1080p
+featuredImage: https://images.unsplash.com/photo-1689265908270-b8f988222244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689265908270-b8f988222244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/playwright](https://github.com/microsoft/playwright)
 
 # 🎭 Playwright
 
-[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-114.0.5735.35-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-113.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-16.4-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop -->
+[![npm version](https://img.shields.io/npm/v/playwright.svg)](https://www.npmjs.com/package/playwright) <!-- GEN:chromium-version-badge -->[![Chromium version](https://img.shields.io/badge/chromium-116.0.5845.49-blue.svg?logo=google-chrome)](https://www.chromium.org/Home)<!-- GEN:stop --> <!-- GEN:firefox-version-badge -->[![Firefox version](https://img.shields.io/badge/firefox-115.0-blue.svg?logo=firefoxbrowser)](https://www.mozilla.org/en-US/firefox/new/)<!-- GEN:stop --> <!-- GEN:webkit-version-badge -->[![WebKit version](https://img.shields.io/badge/webkit-17.0-blue.svg?logo=safari)](https://webkit.org/)<!-- GEN:stop -->
 
 ## [Documentation](https://playwright.dev) | [API reference](https://playwright.dev/docs/api/class-playwright)
 
@@ -18,11 +18,11 @@ Playwright is a framework for Web Testing and Automation. It allows testing [Chr
 
 |          | Linux | macOS | Windows |
 |   :---   | :---: | :---: | :---:   |
-| Chromium <!-- GEN:chromium-version -->114.0.5735.35<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| WebKit <!-- GEN:webkit-version -->16.4<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Firefox <!-- GEN:firefox-version -->113.0<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Chromium <!-- GEN:chromium-version -->116.0.5845.49<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| WebKit <!-- GEN:webkit-version -->17.0<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Firefox <!-- GEN:firefox-version -->115.0<!-- GEN:stop --> | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-Headless execution is supported for all browsers on all platforms. Check out [system requirements](https://playwright.dev/docs/troubleshooting#system-requirements) for details.
+Headless execution is supported for all browsers on all platforms. Check out [system requirements](https://playwright.dev/docs/intro#system-requirements) for details.
 
 Looking for Playwright for [Python](https://playwright.dev/python/docs/intro), [.NET](https://playwright.dev/dotnet/docs/intro), or [Java](https://playwright.dev/java/docs/intro)?
 
@@ -101,13 +101,13 @@ To learn how to run these Playwright Test examples, check out our [getting start
 
 #### Page screenshot
 
-This code snippet navigates to whatsmyuseragent.org and saves a screenshot.
+This code snippet navigates to Playwright homepage and saves a screenshot.
 
 ```TypeScript
 import { test } from '@playwright/test';
 
 test('Page Screenshot', async ({ page }) => {
-  await page.goto('http://whatsmyuseragent.org/');
+  await page.goto('https://playwright.dev/');
   await page.screenshot({ path: `example.png` });
 });
 ```

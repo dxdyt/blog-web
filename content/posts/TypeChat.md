@@ -1,9 +1,9 @@
 ---
 title: TypeChat
-date: 2023-07-27T12:14:37+08:00
+date: 2023-07-28T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689788929647-ff2326f2e183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689788929647-ff2326f2e183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689164907758-b075c7bc76cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689164907758-b075c7bc76cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/TypeChat](https://github.com/microsoft/TypeChat)

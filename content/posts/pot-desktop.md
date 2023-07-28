@@ -1,9 +1,9 @@
 ---
 title: pot-desktop
-date: 2023-05-22T12:17:12+08:00
+date: 2023-07-28T12:17:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12171/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
+featuredImage: https://images.unsplash.com/photo-1629318986794-e7e9c9890016?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1629318986794-e7e9c9890016?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop)
@@ -12,13 +12,10 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
 
 # Pot (Translator of Pylogmon)
 
-> 🌈 一个跨平台的划词翻译软件 (
-> [快速上手](https://pot.pylogmon.com/docs/tutorial/intro)|
-> [软件下载](https://pot.pylogmon.com/download)|
-> [进阶配置](https://pot.pylogmon.com/docs/category/软件配置))
+> 🌈 A cross-platform software for text translation ([Telegram Group](https://t.me/pot_app))
 
 ![License](https://img.shields.io/github/license/pot-app/pot-desktop.svg)
-![Tauri](https://img.shields.io/badge/Tauri-1.3.0-blue?logo=tauri)
+![Tauri](https://img.shields.io/badge/Tauri-1.4.0-blue?logo=tauri)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white)
 ![Rust](https://img.shields.io/badge/-Rust-orange?logo=rust&logoColor=white)
 ![Windows](https://img.shields.io/badge/-Windows-blue?logo=windows&logoColor=white)
@@ -30,63 +27,340 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
 <div align="center">
 <table>
 <tr>
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/dark.png">
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/example.png">
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/light.png">
+    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/1.png">
+    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/2.png">
+    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/3.png">
 </table>
 
-## 使用方法
+# Instructions
 
 <table>
 <tr>
-    <td>划词翻译
-    <td>选中需要翻译的文本之后，按下划词翻译快捷键即可
-    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output1.gif"/>
+    <td>Selection Translation
+    <td>Select the text to be translated, then press the shortcut key for word translation.
+    <td> <img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg1.gif"/>
 <tr>
-    <td>输入翻译
-    <td>按下输入翻译快捷键，输入需要翻译的文本，<code>Enter</code> 键翻译
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output2.gif"/>
+    <td>Input Translation
+    <td>Press the shortcut key for translation input, enter the text to be translated, and press <code>Enter</code> to translate.
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg2.gif"/>
 <tr>
-    <td>插件调用
-    <td>选中需要翻译的文本之后，点击插件图标即可，详情见 <a href="https://pot.pylogmon.com/docs/tutorial/config/plugin_config" target="_blank">插件调用</a>
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output3.gif"/>
+    <td>Plugin Invocation
+    <td>Select the text to be translated and click the plugin icon. More infomation <a href="#plugin-invocation" target="_blank">Plugin Invocation</a>
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg3.gif"/>
 <tr>
-    <td>剪切板监听模式
-    <td>打开翻译窗口，启动剪切板监听模式，复制想要翻译的内容即可
-    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/output4.gif"/>
+    <td>Clipboard Listening Mode
+    <td>Open the translation window, start the clipboard listening mode, and copy the content you want to translate
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg4.gif"/>
+<tr>
+    <td>Screenshot OCR
+    <td>Press the shortcut key for screenshot OCR, select the screenshot area in the box
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg5.gif"/>
+<tr>
+    <td>Screenshot Translation
+    <td>Press the shortcut key for screenshot translation, select the screenshot area in the box
+    <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg6.gif"/>
 </table>
 
 </div>
 
 <div align="center">
 
-## 贡献者
+# Features
 
 </div>
 
-<img src="https://github.com/pot-app/.github/blob/master/pot-desktop-contributions.svg?raw=true" width="80%"/>
-
-参与贡献请阅读 [接口贡献指南](https://pot.pylogmon.com/docs/contribute/intro)
-
-<div align="center">
-<img src="https://github.com/pot-app/.github/blob/master/pot-desktop-stars.svg?raw=true" width="80%"/>
-</div>
-
-<div align="center">
-
-## 感谢
-
-</div>
-
--   [Bob](https://github.com/ripperhe/Bob) 灵感来源
--   [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI 接口参考
--   [@uiYzzi](https://github.com/uiYzzi) 提供实现思路
--   [@Lichenkass](https://github.com/Lichenkass) 维护 Deepin 应用商店版本
--   [Tauri](https://github.com/tauri-apps/tauri) 好用的 Gui 框架
+-   [x] Input text and translate
+-   [x] Selection text and translate
+-   [x] Invoke by other software to translate ([Detial](#plugin-invocation))
+-   [x] Listening clipboard to translate
+-   [x] OpenAI API support
+-   [x] Multi-API support ([Support Apis](#support-apis))
+-   [x] Multi-language support
+-   [x] Export to Anki/Eudic (or add more)
+-   [x] Available on all PC platforms (Windows, macOS, and Linux)
+-   [x] Good Wayland support (Test on KDE and Gnome)
+-   [x] OCR support ([Support Apis](#support-apis))
+-   [x] Screenshot translate
 
 <div align="center">
 
-## 支持作者
+# Support Apis
 
-<img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/.github/FUNDING/qrcode.png" width="100%"/>
 </div>
+
+## Translation
+
+-   [x] [OpenAI](https://platform.openai.com/)
+-   [x] [Alibaba](https://www.aliyun.com/product/ai/alimt)
+-   [x] [Baidu](https://fanyi.baidu.com/)
+-   [x] [Caiyun](https://fanyi.caiyunapp.com/)
+-   [x] [Tencent](https://fanyi.qq.com/)
+-   [x] [TranSmart](https://transmart.qq.com/)
+-   [x] [Volcengine](https://translate.volcengine.com/)
+-   [x] [Xiaoniu](https://niutrans.com/)
+-   [x] [Lingva](https://lingva.pot-app.com/)
+-   [x] [Google](https://translate.google.com)
+-   [x] [Bing](https://learn.microsoft.com/zh-cn/azure/cognitive-services/translator/)
+-   [x] [Bing Dict](https://www.bing.com/dict)
+-   [x] [DeepL](https://www.deepl.com/)
+-   [x] [Youdao](https://ai.youdao.com/)
+-   [ ] and more...
+
+## OCR
+
+-   [x] System OCR (Offline)
+    -   [x] [Windows.Media.OCR](https://learn.microsoft.com/en-us/uwp/api/windows.media.ocr.ocrengine?view=winrt-22621) on Windows
+    -   [x] [Apple Vision Framework](https://developer.apple.com/documentation/vision/recognizing_text_in_images) on MacOS
+    -   [x] [Tesseract OCR](https://github.com/tesseract-ocr) on Linux
+-   [x] [Baidu](https://ai.baidu.com/tech/ocr/general)
+-   [x] [Tencent](https://cloud.tencent.com/product/ocr-catalog)
+-   [x] [OCR Space](http://ocr.space/)
+-   [x] [Volcengine](https://www.volcengine.com/product/OCR)
+-   [x] [iFlytek](https://www.xfyun.cn/services/common-ocr)
+-   [x] [Tencent Image Translation](https://cloud.tencent.com/document/product/551/17232)
+-   [x] [Simple Latex](https://simpletex.cn/)
+-   [ ] and more...
+
+<div align="center">
+
+# Installation
+
+</div>
+
+## Windows
+
+### Install via Winget
+
+```powershell
+winget install Pylogmon.pot
+```
+
+### Install Manually
+
+1. Download the installation package ending in `.exe` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page.
+2. Double click the downloaded file to install it.
+
+## MacOS
+
+### Install via Brew
+
+1. Add our tap:
+
+```bash
+brew tap pot-app/homebrew-tap
+```
+
+2. Install pot:
+
+```bash
+brew install --cask pot
+```
+
+3. Upgrade pot
+
+```bash
+brew upgrade --cask pot
+```
+
+### Install Manually
+
+1. Download the installation package ending in `.dmg` from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) page. (If you are using M1, please download the installation package named `pot_{version}_aarch64.dmg`, otherwise download the installation package named `pot_{version}_x64.dmg`)
+2. Double click the downloaded file to install it.
+
+### Troubleshooting
+
+-   "pot" can’t be opened because the developer cannot be verified.
+
+    Click the Cancel button, then go to the Settings -> Privacy and Security page, click the Still Open button, and then click the Open button in the pop-up window. After that, there will be no more pop-up warnings when opening pot.
+
+    If you cannot find the above options in Privacy & Security, or get error prompts such as broken files with Apple Silicon machines. Open Terminal.app and enter the following command (you may need to enter a password halfway through), then restart pot:
+
+    ```bash
+    sudo xattr -d com.apple.quarantine /Applications/pot.app
+    ```
+
+-   If you encounter a permission prompt every time you open it, or if you cannot perform a shortcut translation, please go to Settings -> Privacy & Security -> Supporting Features to remove pot, and then re-add pot.
+
+## Linux
+
+### Debian/Ubuntu
+
+We provide `AppImage` and `deb` packages for Linux.
+
+Please note that: There are two deb package, `universal` is based on `glibc2.28` and `openssl-1.1`, If the regular deb package can't run on your machine due to dependency problems, please download the `universal` package, Due to its low version dependency, it can run on most systems.
+
+### Arch/Manjaro
+
+1. View on [AUR](https://aur.archlinux.org/packages?O=0&K=pot-translation)
+
+Use aur helper：
+
+```bash
+yay -S pot-translation # or pot-translation-bin or pot-translation-git
+# or
+paru -S pot-translation # or pot-translation-bin or pot-translation-git
+```
+
+2. If you are using `archlinuxcn`, you can install directly using pacman:
+
+```bash
+sudo pacman -S pot-translation-bin
+```
+
+<div align="center">
+
+# Plugin Invocation
+
+</div>
+
+## Introduction
+
+Pot supports invoke by other software. In this way, with the help of other software, it is very convenient to translate.
+
+Pot provides two ways to call it from outside, you can also call it through other software you like
+
+> Both ways require the pot to keep running in the background.
+
+1. Call the pot via the command line
+
+```bash
+pot popclip "hello world" # The second parameter is what you want to translate
+```
+
+2. Call the pot via the HTTP Request
+
+```bash
+curl 'http://127.0.0.1:60828' -X POST -d "Hello world" # The body content is what you want to translate
+```
+
+## Existing Usage
+
+### SnipDo (Windows)
+
+1. Download and install SnipDo in the [Microsoft Store](https://apps.microsoft.com/store/detail/snipdo/9NPZ2TVKJVT7)
+2. Download the SnipDo extension of pot from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) (pot.pbar)
+3. Double click the downloaded file to install it.
+4. Selection some text, you can see the pot icon in the upper right corner of the selection, click the icon to translate.
+
+### PopClip (MacOS)
+
+1. Download and install PopClip in the [App Store](https://apps.apple.com/us/app/popclip/id445189367?mt=12)
+2. Download the PopClip extension of pot from the Latest [Release](https://github.com/pot-app/pot-desktop/releases/latest) (pot.popclipextz)
+3. Double click the downloaded file to install it.
+4. Enable the pot extension in PopClip settings, and then you can translate by selecting text.
+
+### Starry (Linux)
+
+> Starry is still in the development stage, so you can only compile him manually
+
+Github: [ccslykx/Starry](https://github.com/ccslykx/Starry)
+
+<div align="center">
+
+# Wayland Support
+
+</div>
+
+Due to the varying levels of support for Wayland among different distributions, pot itself cannot achieve perfect compatibility. However, here are some solutions to common issues that can be implemented through proper configuration, allowing pot to run flawlessly on Wayland.
+
+## Shortcut key cannot be used
+
+Due to Tauri's lack of support for Wayland, the shortcut key scheme in the pot application cannot be used under Wayland.
+To address this issue, pot provides command-line startup parameters that allow system shortcuts to be set through commands.
+
+> All commands need "pot" to remain running in the background.
+
+```bash
+pot cofig # Start the configuration window
+pot persistent # Input translation
+pot translate # Selection translation
+pot screenshot_ocr # Screenshot OCR
+pot screenshot_translate # Screenshot Translate
+pot screenshot_ocr without_screenshot # Screenshot OCR(without screenshot)
+pot screenshot_translate without_screenshot # Screenshot Translate(without screenshot)
+```
+
+Example for Gnome:
+
+![](./asset/shortcut.png)
+
+## Screenshot doesn't work
+
+In some pure Wayland desktop environments/window managers (such as Hyprland), the built-in screenshot feature of pot cannot be used. In this case, you can use other screenshot tools instead by using command line parameters. Simply save the screenshot to `~/.cache/com.pylogmon.pot/pot_screenshot_cut.png` and then execute `pot screenshot_ocr without_screenshot`.
+
+Here is an example configuration in Hyprland (using grim and slurp for screenshots):
+
+```conf
+bind = ALT, X, exec, grim -g "$(slurp)" ~/.cache/com.pylogmon.pot/pot_screenshot_cut.png && pot screenshot_ocr without_screenshot
+bind = ALT, C, exec, grim -g "$(slurp)" ~/.cache/com.pylogmon.pot/pot_screenshot_cut.png && pot screenshot_translate without_screenshot
+```
+
+Other desktop environments/window managers also have similar operations.
+
+## The translation window follows the mouse position.
+
+Due to the current inability of pot to obtain accurate mouse coordinates under Wayland, its internal implementation cannot function properly.
+For certain desktop environments/window managers, it is possible to achieve window following mouse position by setting window rules. Here we take Hyprland as an example:
+
+```conf
+windowrulev2 = float, class:(pot), title:(Translator|OCR|PopClip|Screenshot Translate) # Translation window floating
+windowrulev2 = move cursor 0 0, class:(pot), title:(Translator|PopClip|Screenshot Translate) # Translation window follows the mouse position.
+```
+
+<div align="center">
+
+# Contributors
+
+</div>
+
+<img src="https://github.com/pot-app/.github/blob/master/pot-desktop-contributions.svg?raw=true" width="100%"/>
+
+## Manual compilation
+
+### Requirements
+
+Node.js >= 18.0.0
+
+pnpm >= 8.5.0
+
+Rust >= 1.69.0
+
+### Start compilation
+
+1. Clone the repository
+
+    ```bash
+    git clone https://github.com/pot-app/pot-desktop.git
+    ```
+
+2. Install dependencies
+
+    ```bash
+    cd pot-desktop
+    pnpm install
+    ```
+
+3. Development (Optional)
+
+    ```bash
+    pnpm tauri dev # Run the app in development mode
+    ```
+
+4. Build
+    ```bash
+    pnpm tauri build # Build into installation package
+    ```
+
+<div align="center">
+
+# Acknowledgement
+
+</div>
+
+-   [Bob](https://github.com/ripperhe/Bob) Inspiration
+-   [bob-plugin-openai-translator](https://github.com/yetone/bob-plugin-openai-translator) OpenAI API Reference
+-   [@uiYzzi](https://github.com/uiYzzi) Implementation ideas
+-   [@Lichenkass](https://github.com/Lichenkass) Maintaining the Deepin App Store.
+-   [Tauri](https://github.com/tauri-apps/tauri) A user-friendly GUI framework.
+
+<div align="center">
