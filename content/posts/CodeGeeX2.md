@@ -1,9 +1,9 @@
 ---
 title: CodeGeeX2
-date: 2023-07-28T12:14:55+08:00
+date: 2023-07-29T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688408958865-1c7131398c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688408958865-1c7131398c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689736480649-68880e3b9d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689736480649-68880e3b9d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
@@ -79,6 +79,26 @@ python ./demo/run_demo.py
     ```python
     model = AutoModel.from_pretrained("THUDM/codegeex2-6b", trust_remote_code=True).half().cuda()
     ```
+* 如果需要使用多显卡加载模型,可以将以下代码：
+    ```python
+    tokenizer = AutoTokenizer.from_pretrained("THUDM/codegeex2-6b", trust_remote_code=True)
+    model = AutoModel.from_pretrained("THUDM/codegeex2-6b", trust_remote_code=True, device='cuda')
+    model = model.eval()
+    ```
+    替换为
+
+    ```python
+    def get_model():
+        tokenizer = AutoTokenizer.from_pretrained("THUDM/codegeex2-6b", trust_remote_code=True)
+        from gpus import load_model_on_gpus
+        # gpus文件在demo文件夹中
+        model = load_model_on_gpus("THUDM/codegeex2-6b", num_gpus=2)
+        model = model.eval()
+        return tokenizer, model
+
+    tokenizer, model = get_model()
+    ```
+
 
 ## 代码能力评测
 

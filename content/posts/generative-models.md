@@ -1,9 +1,9 @@
 ---
 title: generative-models
-date: 2023-07-28T12:14:41+08:00
+date: 2023-07-29T12:14:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689891750093-167fe3256c00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689891750093-167fe3256c00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689327021734-d7d8e2404667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689327021734-d7d8e2404667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models)

@@ -1,9 +1,9 @@
 ---
 title: RWKV-LM
-date: 2023-05-25T12:16:43+08:00
+date: 2023-07-29T12:16:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12185/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12185/0/1080p
+featuredImage: https://images.unsplash.com/photo-1688933724431-7bc0bb9cf4bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688933724431-7bc0bb9cf4bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [BlinkDL/RWKV-LM](https://github.com/BlinkDL/RWKV-LM)
@@ -18,11 +18,13 @@ So it's combining the best of RNN and transformer - **great performance, fast in
 
 **Raven 14B** (finetuned on Alpaca+ShareGPT+...) Demo: https://huggingface.co/spaces/BlinkDL/ChatRWKV-gradio
 
-**Raven 7B** (finetuned on Alpaca+ShareGPT+...) Demo: https://huggingface.co/spaces/BlinkDL/Raven-RWKV-7B
+**World 7B** (supports 100+ world languages) Demo: https://huggingface.co/spaces/BlinkDL/RWKV-World-7B
 
-**ChatRWKV:** with "stream" and "split" strategies and INT8. **3G VRAM is enough to run RWKV 14B :)** https://github.com/BlinkDL/ChatRWKV
+**RWKV GUI** https://github.com/josStorer/RWKV-Runner with one-click install and API
 
 **Download RWKV-4 0.1/0.4/1.5/3/7/14B weights**: https://huggingface.co/BlinkDL
+
+RWKV-4-World is the best model: generation & chat & code in 100+ world languages, with the best English zero-shot & in-context learning ability too.
 
 **RWKV pip package**: https://pypi.org/project/rwkv/
 
@@ -39,13 +41,17 @@ out, state = model.forward([1563], state)           # RNN has state (use deepcop
 out, state = model.forward([310, 247], state)
 print(out.detach().cpu().numpy())                   # same result as above
 ```
-**Cool Community RWKV Projects (check them!)**:
+**Cool Community RWKV Projects (check them!)**: https://www.rwkv.com/
 
-https://github.com/saharNooby/rwkv.cpp INT4 INT8 FP16 FP32 inference for CPU using [ggml](https://github.com/ggerganov/ggml)
+https://github.com/saharNooby/rwkv.cpp Fast CPU/cuBLAS/CLBlast inference: int4/int8/fp16/fp32
 
-https://github.com/harrisonvanderbyl/rwkv-cpp-cuda pure CUDA RWKV (no need for python & pytorch)
+https://github.com/cgisky1980/ai00_rwkv_server Fastest GPU inference API with vulkan (good for nvidia/amd/intel)
 
-https://github.com/Blealtan/RWKV-LM-LoRA LoRA fine-tuning
+https://github.com/harrisonvanderbyl/rwkv-cpp-cuda Fast GPU inference with cuda/amd/vulkan
+
+https://github.com/Blealtan/RWKV-LM-LoRA LoRA finetuning
+
+https://github.com/TheRamU/Fay/blob/main/README_EN.md Digital Assistant with RWKV
 
 More RWKV projects: https://github.com/search?o=desc&q=rwkv&s=updated&type=Repositories
 
@@ -143,7 +149,9 @@ For the old RWKV-2: see the release here for a 27M params model on enwik8 with 0
 
 ### Training / Fine-tuning
 
-pip install deepspeed==0.7.0 // pip install pytorch-lightning==1.9.2 // torch 1.13.1+cu117
+pip install deepspeed==0.7.0 // pip install pytorch-lightning==1.9.5 // torch 1.13.1+cu117
+
+NOTE: add weight decay (0.1 or 0.01) and dropout (0.1 or 0.01) when training on small amt of data. try x=x+dropout(att(x)) x=x+dropout(ffn(x)) x=dropout(x+att(x)) x=dropout(x+ffn(x)) etc.
 
 **Training RWKV-4 from scratch:** run train.py, which by default is using the enwik8 dataset (unzip https://data.deepai.org/enwik8.zip).
 
@@ -155,12 +163,7 @@ Read the inference code in src/model.py and try using the final hidden state（.
 
 Colab for fine-tuning RWKV-4 Pile models: https://colab.research.google.com/github/resloved/RWKV-notebooks/blob/master/RWKV_v4_RNN_Pile_Fine_Tuning.ipynb
 
-**Large corpus:** Use https://github.com/EleutherAI/gpt-neox to convert .jsonl into .bin and .idx
-```
-python tools/preprocess_data.py --input ./my_data.jsonl --output-prefix ./data/my_data --vocab ./20B_tokenizer.json --dataset-impl mmap --tokenizer-type HFTokenizer --append-eod
-```
-
-**UPDATE:** now you can use https://github.com/Abel2076/json2binidx_tool (much easier to install)
+**Large corpus:** Use https://github.com/Abel2076/json2binidx_tool to convert .jsonl into .bin and .idx
 
 The jsonl format sample (one line for each document):
 ```
@@ -174,6 +177,8 @@ ss = json.dumps({"text": text}, ensure_ascii=False)
 out.write(ss + "\n")
 ```
 
+**Infinite ctxlen training (WIP):** https://github.com/Blealtan/RWKV-LM-LoRA/tree/dev-infctx
+
 ### How to use RWKV hidden state as text embedding
 
 Consider RWKV 14B. The state has 200 vectors, that is, 5 vectors for each block: fp16 (xx), fp32 (aa), fp32 (bb), fp32 (pp), fp16 (xx).
@@ -184,7 +189,55 @@ I suggest firstly collect the mean+stdev statistics of each channel of each vect
 
 ## Towards RWKV-5 (just to record some new ideas)
 
-### Some ideas
+### Lastest Design
+
+RWKV-5 is multi-head and here shows one head. There is also a LayerNorm for each head (hence actually GroupNorm).
+
+$`
+\begin{array}{|l|l|l|}
+\hline & {\text { RWKV-4 (pointwise multiplication) }} & \text { RWKV-5 with matrix-valued states } \\
+\hline \mathrm{y}_0 & \mathrm{r}_0 \frac{\mathrm{uk} \mathrm{v}_0}{\mathrm{uk_{0 }}} & \mathrm{r}_0\left(\mathrm{uk}_0^{\dagger} \mathrm{v}_0\right) \\
+\hline \mathrm{y}_1 & \mathrm{r}_1 \frac{\mathrm{uk}_1 \mathrm{v}_1+\mathrm{k}_0 \mathrm{v}_0}{\mathrm{uk}_1+\mathrm{k}_0} & \mathrm{r}_1\left(\mathrm{uk}_1^{\dagger} \mathrm{v}_1+\mathrm{k}_0^{\dagger} \mathrm{v}_0\right) \\
+\hline \mathrm{y}_2 & \mathrm{r}_2 \frac{\mathrm{uk}_2 \mathrm{v}_2+\mathrm{k}_1 \mathrm{v}_1+\mathrm{wk}_0 \mathrm{v}_0}{\mathrm{uk}_2+\mathrm{k}_1+\mathrm{wk}_0} & \mathrm{r}_2\left(\mathrm{uk}_2^{\dagger} \mathrm{v}_2+\mathrm{k}_1^{\dagger} \mathrm{v}_1+\mathrm{wk}_0^{\dagger} \mathrm{v}_0\right) \\
+\hline \mathrm{y}_3 & \mathrm{r}_3 \frac{\mathrm{uk}_3 \mathrm{v}_3+\mathrm{k}_2 \mathrm{v}_2+\mathrm{wk}_1 \mathrm{v}_1+\mathrm{w}^2 \mathrm{k}_0 \mathrm{v}_0}{\mathrm{uk} \mathrm{k}_3+\mathrm{k}_2+\mathrm{wk}_1+\mathrm{w}^2 \mathrm{k}_0} & \mathrm{r}_3\left(\mathrm{uk}_3^{\dagger} \mathrm{v}_3+\mathrm{k}_2^{\dagger} \mathrm{v}_2+\mathrm{wk}_1^{\dagger} \mathrm{v}_1+\mathrm{w}^2 \mathrm{k}_0^{\dagger} \mathrm{v}_0\right) \\
+\hline
+\end{array}`$
+
+$`\left[\mathrm{y}_{00} \ldots \mathrm{y}_{0 c}\right]=\left[\mathrm{r}_{00} \ldots \mathrm{r}_{0 c}\right]\left(\mathrm{u}\left[\begin{array}{ccc}
+\mathrm{k}_{00} \mathrm{v}_{00} & \cdots & \mathrm{k}_{00} \mathrm{v}_{0 \mathrm{c}} \\
+\vdots & \ddots & \vdots \\
+\mathrm{k}_{0 c} \mathrm{v}_{00} & \cdots & \mathrm{k}_{0 c} \mathrm{v}_{0 \mathrm{c}}
+\end{array}\right]\right)`$
+
+$`\left[\mathrm{y}_{10} \ldots \mathrm{y}_{1 \mathrm{c}}\right]=\left[\mathrm{r}_{10} \ldots \mathrm{r}_{1 \mathrm{c}}\right]\left(\mathrm{u}\left[\begin{array}{ccc}
+\mathrm{k}_{10} \mathrm{v}_{10} & \cdots & \mathrm{k}_{10} \mathrm{v}_{1 \mathrm{c}} \\
+\vdots & \ddots & \vdots \\
+\mathrm{k}_{1 \mathrm{c}} \mathrm{v}_{10} & \cdots & \mathrm{k}_{1 \mathrm{c}} \mathrm{v}_{1 \mathrm{c}}
+\end{array}\right]+\left[\begin{array}{ccc}
+\mathrm{k}_{00} \mathrm{v}_{00} & \cdots & \mathrm{k}_{00} \mathrm{v}_{0 \mathrm{c}} \\
+\vdots & \ddots & \vdots \\
+\mathrm{k}_{0 \mathrm{c}} \mathrm{v}_{00} & \cdots & \mathrm{k}_{0 \mathrm{c}} \mathrm{v}_{0 \mathrm{c}}
+\end{array}\right]\right)`$
+
+$`\left[\mathrm{y}_{20} \ldots \mathrm{y}_{2 \mathrm{c}}\right]=\left[\mathrm{r}_{20} \ldots \mathrm{r}_{2 \mathrm{c}}\right]\left(\mathrm{u}\left[\begin{array}{ccc}
+\mathrm{k}_{20} \mathrm{v}_{20} & \cdots & \mathrm{k}_{20} \mathrm{v}_{2 \mathrm{c}} \\
+\vdots & \ddots & \vdots \\
+\mathrm{k}_{2 \mathrm{c}} \mathrm{v}_{20} & \cdots & \mathrm{k}_{2 \mathrm{c}} \mathrm{v}_{2 \mathrm{c}}
+\end{array}\right]+\left[\begin{array}{ccc}
+\mathrm{k}_{10} \mathrm{v}_{10} & \cdots & \mathrm{k}_{10} \mathrm{v}_{1 \mathrm{c}} \\
+\vdots & \ddots & \vdots \\
+\mathrm{k}_{1 c} \mathrm{v}_{10} & \cdots & \mathrm{k}_{1 \mathrm{c}} \mathrm{v}_{1 \mathrm{c}}
+\end{array}\right]+\mathrm{w}\left[\begin{array}{ccc}
+\mathrm{k}_{00} \mathrm{v}_{00} & \cdots & \mathrm{k}_{00} \mathrm{v}_{0 \mathrm{c}} \\
+\vdots & \ddots & \vdots \\
+k_{0 c} v_{00} & \cdots & k_{0 c} v_{0 c}
+\end{array}\right]\right)`$
+
+### RWKV-6
+
+Use parallelized mode to quickly generate the state, then use a finetuned full RNN (the layers of token n can use outputs of all layer of token n-1) for sequential generation.
+
+### Some old ideas
 
 1. Now time decay is like 0.999^T (0.999 is learnable). Change it to something like (0.999^T + 0.1) where 0.1 is learnable too. The 0.1 part will be kept forever. Or, A^T + B^T + C = fast-decay + slow-decay + constant. Can even use different formulas (for example, K^2 instead of e^K for a decay component, or, without normalization).
 

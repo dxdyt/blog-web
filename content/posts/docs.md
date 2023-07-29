@@ -1,66 +1,80 @@
 ---
 title: docs
-date: 2023-06-27T12:18:36+08:00
+date: 2023-07-29T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687120484923-542ddb1edb63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687120484923-542ddb1edb63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc4Mzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
-# [github/docs](https://github.com/github/docs)
+# [withastro/docs](https://github.com/withastro/docs)
 
-# GitHub Docs <!-- omit in toc -->
+# Astro Docs <picture><source media="(prefers-color-scheme: dark)" srcset="https://astro.build/assets/press/astro-icon-light.png"><source media="(prefers-color-scheme: light)" srcset="https://astro.build/assets/press/astro-icon-dark.png"><img align="right" valign="center" height="79" width="63" src="https://astro.build/assets/press/astro-icon-dark.png" alt="Astro logo" /></picture>
 
-This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
 
-GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
+To all who come to this happy place: welcome.
 
-Use the table of contents icon <img src="/contributing/images/table-of-contents.png" width="25" height="25" /> on the top left corner of this document to navigate to a specific section quickly.
+This is the repo for [docs.astro.build](https://docs.astro.build/).
+This repo contains all the source code we use to build our docs site.
 
-## Contributing
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/withastro/docs)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/github/withastro/docs)
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow.svg)](https://pr.new/github.com/withastro/docs)
 
-See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+## We are Astro
 
-We accept different [types of contributions](https://github.com/github/docs/blob/main/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
+Astro is an all-in-one web framework for building fast, content-focused websites.
+We want everyone to be successful building sites, and that means helping everyone understand how Astro works.
 
-On the GitHub Docs site, you can click the make a contribution button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
+## You are Awesome
 
-<img src="./contributing/images/contribution_cta.png" width="400">
+You can also help make the docs awesome.
+Your feedback is welcome.
+Your writing, editing, translating, designing, and developing skills are welcome.
+You being a part of our community is welcome.
 
-For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
+## Chat with Us
 
-If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/github/docs/issues) for something to work on. When ready, check out [Getting Started with Contributing](/CONTRIBUTING.md) for detailed instructions.
+You can learn more about Astro, get support, and meet other devs in [our Discord community](https://astro.build/chat).
 
-### Join us in discussions
+## Raise an Issue
 
-We use GitHub Discussions to talk about all sorts of topics related to documentation and this site. For example: if you'd like help troubleshooting a PR, have a great new idea, or want to share something amazing you've learned in our docs, join us in the [discussions](https://github.com/github/docs/discussions).
+Is something missing?
+Is something confusing?
+Is something wrong?
 
-### And that's it!
+Creating a new Issue puts a problem on our radar!
 
-If you're having trouble with your GitHub account, contact [Support](https://support.github.com).
+[See if your issue has already been reported](https://github.com/withastro/docs/issues), and if not, [create a new one](https://github.com/withastro/docs/issues/new/choose).
 
-That's how you can easily become a member of the GitHub Docs community. :sparkles:
+## Share an Idea
 
-## READMEs
+Could something be better?
+Want to share an idea with us?
 
-In addition to the README you're reading right now, this repo includes other READMEs that describe the purpose of each subdirectory in more detail:
+Discussions are threads where you can offer feedback on things that might not exactly be problems to be fixed but are ideas to be explored. 
 
-- [content/README.md](content/README.md)
-- [content/graphql/README.md](content/graphql/README.md)
-- [content/rest/README.md](content/rest/README.md)
-- [contributing/README.md](contributing/README.md)
-- [data/README.md](data/README.md)
-- [data/reusables/README.md](data/reusables/README.md)
-- [data/variables/README.md](data/variables/README.md)
-- [src/README.md](src/README.md)
+[Join the Docs Discussions](https://github.com/withastro/docs/discussions) where we brainstorm, ask questions, share hopes and dreams...
 
-## License
+## Make a Fix or Contribution
 
-The GitHub product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
+Did you find a typo, a broken link, or another item with an obvious quick fix?
 
-All other code in this repository is licensed under the [MIT license](LICENSE-CODE).
+If you can see what the problem is, and you know how to fix it, then you can make a PR (pull request) with the change and contribute to the docs repo yourself.
 
-When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+> Want to make a larger contribution? Please see [CONTRIBUTING.md](CONTRIBUTING.md) first! 
 
-## Thanks :purple_heart:
+## Translate a Page
 
-Thanks for all your contributions and efforts towards improving the GitHub documentation. We thank you for being part of our :sparkles: community :sparkles:!
+Speak another language natively? 
+
+Join our i18n gang on Discord or jump into the PRs to help with reviewing existing draft translations!
+
+Check out the dedicated [i18n guide](https://github.com/withastro/docs/blob/main/contributor-guides/translating-astro-docs.md) for more details.
+
+## Next Steps
+
+- [Read the docs](https://docs.astro.build/)
+- [Raise an issue](https://github.com/withastro/docs/issues/new)
+- [Participate in a discussion](https://github.com/withastro/docs/discussions)
+- [Join the #docs channel on Discord](https://discord.gg/cZDZU3hJHc)
+

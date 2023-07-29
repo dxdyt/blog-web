@@ -1,9 +1,9 @@
 ---
 title: nodebestpractices
-date: 2023-07-28T12:15:17+08:00
+date: 2023-07-29T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689265908270-b8f988222244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689265908270-b8f988222244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
@@ -39,7 +39,6 @@ Read in a different language: [![CN](./assets/flags/CN.png)**CN**](./README.chin
 - **✨ Easily focus on new content**: Already visited before? Search for `#new` or `#updated` tags for new content only
 
 - **🔖 Curious to see examples? We have a starter**: Visit [Practica.js](https://github.com/practicajs/practica), our application example and boilerplate (beta) to see some practices in action
-
 
 <br/><br/>
 
@@ -526,7 +525,8 @@ function someFunction() {
 }
 
 // Avoid
-function someFunction() {
+function someFunction()
+{
   // code block
 }
 ```
@@ -752,7 +752,7 @@ b. [Node.js testing - beyond the basics](https://github.com/testjavascript/nodej
 
 ## ![✔] 4.2 Include 3 parts in each test name
 
- ### `🌟 #new`
+### `🌟 #new`
 
 **TL;DR:** Make the test speak at the requirements level so it's self-explanatory also to QA engineers and developers who are not familiar with the code internals. State in the test name what is being tested (unit under test), under what circumstances, and what is the expected result
 

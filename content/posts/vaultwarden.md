@@ -1,9 +1,9 @@
 ---
 title: vaultwarden
-date: 2023-03-29T12:19:08+08:00
+date: 2023-07-29T12:14:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11931/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11931/0/1080p
+featuredImage: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
@@ -48,7 +48,7 @@ Pull the docker image and mount a volume from the host for persistent storage:
 
 ```sh
 docker pull vaultwarden/server:latest
-docker run -d --name vaultwarden -v /vw-data/:/data/ -p 80:80 vaultwarden/server:latest
+docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p 80:80 vaultwarden/server:latest
 ```
 This will preserve any persistent data under /vw-data/, you can adapt the path to whatever suits you.
 

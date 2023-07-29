@@ -1,9 +1,9 @@
 ---
 title: llama2-webui
-date: 2023-07-28T12:14:49+08:00
+date: 2023-07-29T12:15:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687822771068-dea7af92c4b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689947312764-405609bad51c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689947312764-405609bad51c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [liltom-eth/llama2-webui](https://github.com/liltom-eth/llama2-webui)
@@ -18,7 +18,7 @@ Running Llama 2 with gradio web UI on GPU or CPU from anywhere (Linux/Windows/Ma
 
 ## Features
 
-- Supporting models: [Llama-2-7b](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML)/[13b](https://huggingface.co/llamaste/Llama-2-13b-chat-hf)/[70b](https://huggingface.co/llamaste/Llama-2-70b-chat-hf), all [Llama-2-GPTQ](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GPTQ), all [Llama-2-GGML](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML) ...
+- Supporting models: [Llama-2-7b](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf)/[13b](https://huggingface.co/llamaste/Llama-2-13b-chat-hf)/[70b](https://huggingface.co/llamaste/Llama-2-70b-chat-hf), all [Llama-2-GPTQ](https://huggingface.co/TheBloke/Llama-2-7b-Chat-GPTQ), all [Llama-2-GGML](https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML) ...
 - Supporting model backends
   - Nvidia GPU: tranformers, [bitsandbytes(8-bit inference)](https://github.com/TimDettmers/bitsandbytes), [AutoGPTQ(4-bit inference)](https://github.com/PanQiWei/AutoGPTQ)
     - GPU inference with at least 6 GB VRAM
@@ -125,7 +125,7 @@ There are some examples in `./env_examples/` folder.
 | Llama-2-13b-chat-hf on GPU        | .env.13b_example            |
 | ...                               | ...                         |
 
-### Start  Web UI
+### Start Web UI
 
 Run chatbot with web UI:
 

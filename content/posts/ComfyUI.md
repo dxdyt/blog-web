@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2023-07-11T12:17:59+08:00
+date: 2023-07-29T12:14:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686731216673-5ee46b7d7d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686731216673-5ee46b7d7d91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689736480649-68880e3b9d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689736480649-68880e3b9d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -103,8 +103,8 @@ AMD users can install rocm and pytorch with pip if you don't have it already ins
 
 ```pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/rocm5.4.2```
 
-This is the command to install the nightly with ROCm 5.5 that supports the 7000 series and might have some performance improvements:
-```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm5.5 -r requirements.txt```
+This is the command to install the nightly with ROCm 5.6 that supports the 7000 series and might have some performance improvements:
+```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm5.6 -r requirements.txt```
 
 ### NVIDIA
 
