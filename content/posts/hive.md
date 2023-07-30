@@ -1,9 +1,9 @@
 ---
 title: hive
-date: 2023-07-29T12:15:42+08:00
+date: 2023-07-30T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690061522198-708b5a352ff8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690061522198-708b5a352ff8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690046793092-f8d634523264?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690046793092-f8d634523264?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
 ---
 
 # [apache/hive](https://github.com/apache/hive)

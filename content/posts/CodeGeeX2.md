@@ -1,9 +1,9 @@
 ---
 title: CodeGeeX2
-date: 2023-07-29T12:16:30+08:00
+date: 2023-07-30T12:14:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689736480649-68880e3b9d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689736480649-68880e3b9d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688300963512-ebb74dfd39e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688300963512-ebb74dfd39e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)

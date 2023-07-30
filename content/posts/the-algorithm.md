@@ -1,9 +1,9 @@
 ---
 title: the-algorithm
-date: 2023-07-29T12:14:28+08:00
+date: 2023-07-30T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689568666264-8a030434f121?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689568666264-8a030434f121?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688693234477-b3fe3caac39b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688693234477-b3fe3caac39b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
 ---
 
 # [twitter/the-algorithm](https://github.com/twitter/the-algorithm)

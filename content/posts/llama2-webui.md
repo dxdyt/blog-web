@@ -1,9 +1,9 @@
 ---
 title: llama2-webui
-date: 2023-07-29T12:15:35+08:00
+date: 2023-07-30T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689947312764-405609bad51c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689947312764-405609bad51c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689598000423-24dc8b778554?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689598000423-24dc8b778554?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
 ---
 
 # [liltom-eth/llama2-webui](https://github.com/liltom-eth/llama2-webui)
@@ -42,6 +42,7 @@ Running Llama 2 with gradio web UI on GPU or CPU from anywhere (Linux/Windows/Ma
     - [Run on Low Memory GPU with 4 bit](#run-on-low-memory-gpu-with-4-bit)
   - [Run on CPU](#run-on-cpu)
     - [Mac GPU and AMD/Nvidia GPU Acceleration](#mac-gpu-and-amdnvidia-gpu-acceleration)
+  - [Benchmark](#benchmark)
 - [Contributing](#contributing)
 - [License](#license)
   
@@ -173,6 +174,26 @@ If you would like to use Mac GPU and AMD/Nvidia GPU for acceleration, check thes
 - [Installation with OpenBLAS / cuBLAS / CLBlast / Metal](https://github.com/abetlen/llama-cpp-python#installation-with-openblas--cublas--clblast--metal)
 
 - [MacOS Install with Metal GPU](https://github.com/abetlen/llama-cpp-python/blob/main/docs/install/macos.md)
+
+### Benchmark
+
+Run benchmark script to compute performance on your device:
+
+```bash
+python benchmark.py
+```
+
+`benchmark.py` will load the same `.env` as `app.py`.
+
+Some benchmark performance:
+
+| Model                | Precision | Device             | GPU VRAM    | Speed (tokens / sec) | load time (s) |
+| -------------------- | --------- | ------------------ | ----------- | -------------------- | ------------- |
+| Llama-2-7b-chat-hf   | 8bit      | NVIDIA RTX 2080 Ti | 7.7 GB VRAM | 3.76                 | 783.87        |
+| Llama-2-7b-Chat-GPTQ | 4 bit     | NVIDIA RTX 2080 Ti | 5.8 GB VRAM | 12.08                | 192.91        |
+| Llama-2-7B-Chat-GGML | 4 bit     | Intel i7-8700      | 5.1GB RAM   | 4.16                 | 105.75        |
+
+Check / contribute the performance of your device in the full [performance doc](./docs/performance.md).
 
 ## Contributing
 

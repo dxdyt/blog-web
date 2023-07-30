@@ -1,9 +1,9 @@
 ---
 title: pot-desktop
-date: 2023-07-28T12:17:41+08:00
+date: 2023-07-30T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1629318986794-e7e9c9890016?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1629318986794-e7e9c9890016?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689759567912-45775221afb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689759567912-45775221afb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
 ---
 
 # [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop)
@@ -45,7 +45,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1629318986794-e7e9c98900
     <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg2.gif"/>
 <tr>
     <td>Plugin Invocation
-    <td>Select the text to be translated and click the plugin icon. More infomation <a href="#plugin-invocation" target="_blank">Plugin Invocation</a>
+    <td>Select the text to be translated and click the plugin icon. More information <a href="#plugin-invocation" target="_blank">Plugin Invocation</a>
     <td><img src="https://cdn.staticaly.com/gh/pot-app/pot-desktop/master/asset/eg3.gif"/>
 <tr>
     <td>Clipboard Listening Mode
@@ -112,6 +112,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1629318986794-e7e9c98900
     -   [x] [Windows.Media.OCR](https://learn.microsoft.com/en-us/uwp/api/windows.media.ocr.ocrengine?view=winrt-22621) on Windows
     -   [x] [Apple Vision Framework](https://developer.apple.com/documentation/vision/recognizing_text_in_images) on MacOS
     -   [x] [Tesseract OCR](https://github.com/tesseract-ocr) on Linux
+-   [x] [Tesseract.js](https://tesseract.projectnaptha.com/) (Offline)
+-   [x] [PaddleOCR]() (Offline)
 -   [x] [Baidu](https://ai.baidu.com/tech/ocr/general)
 -   [x] [Tencent](https://cloud.tencent.com/product/ocr-catalog)
 -   [x] [OCR Space](http://ocr.space/)
