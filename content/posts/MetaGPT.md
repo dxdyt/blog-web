@@ -1,14 +1,14 @@
 ---
 title: MetaGPT
-date: 2023-07-09T12:16:59+08:00
+date: 2023-07-31T12:15:14+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1685030411266-1df0345a7623?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1685030411266-1df0345a7623?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689924285338-3930bae2064c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689924285338-3930bae2064c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)
 
-# MetaGPT: Multi-Agent Meta Programming Framework
+# MetaGPT: The Multi-Agent Framework
 
 <p align="center">
 <a href=""><img src="docs/resources/MetaGPT-logo.jpeg" alt="MetaGPT logo: Enable GPT to work in software company, collaborating to tackle more complex tasks." width="150px"></a>
@@ -47,6 +47,8 @@ It requires around **$0.2** (GPT-4 api's costs) to generate one example with ana
 
 ## Installation
 
+### Traditional Installation
+
 ```bash
 # Step 1: Ensure that NPM is installed on your system. Then install mermaid-js.
 npm --version
@@ -61,6 +63,67 @@ cd metagpt
 python setup.py install
 ```
 
+**Note:**
+
+- If already have Chrome, Chromium, or MS Edge installed, you can skip downloading Chromium by setting the environment variable
+`PUPPETEER_SKIP_CHROMIUM_DOWNLOAD` to `true`.
+
+- Some people are [having issues](https://github.com/mermaidjs/mermaid.cli/issues/15) installing this tool globally. Installing it locally is an alternative solution,
+
+    ```bash
+    npm install @mermaid-js/mermaid-cli
+    ```
+
+- don't forget to the configuration for mmdc in config.yml
+
+    ```yml
+    PUPPETEER_CONFIG: "./puppeteer-config.json"
+    MMDC: "./node_modules/.bin/mmdc"
+    ```
+
+### Installation by Docker
+
+```bash
+# Step 1: Download metagpt official image and prepare config.yaml
+docker pull metagpt/metagpt:v0.3
+mkdir -p /opt/metagpt/{config,workspace}
+docker run --rm metagpt/metagpt:v0.3 cat /app/metagpt/config/config.yaml > /opt/metagpt/config/config.yaml
+vim /opt/metagpt/config/config.yaml # Change the config
+
+# Step 2: Run metagpt demo with container
+docker run --rm \
+    --privileged \
+    -v /opt/metagpt/config:/app/metagpt/config \
+    -v /opt/metagpt/workspace:/app/metagpt/workspace \
+    metagpt/metagpt:v0.3 \
+    python startup.py "Write a cli snake game"
+
+# You can also start a container and execute commands in it
+docker run --name metagpt -d \
+    --privileged \
+    -v /opt/metagpt/config:/app/metagpt/config \
+    -v /opt/metagpt/workspace:/app/metagpt/workspace \
+    metagpt/metagpt:v0.3
+
+docker exec -it metagpt /bin/bash
+$ python startup.py "Write a cli snake game"
+```
+
+The command `docker run ...` do the following things:
+
+- Run in privileged mode to have permission to run the browser
+- Map host directory `/opt/metagpt/config` to container directory `/app/metagpt/config`
+- Map host directory `/opt/metagpt/workspace` to container directory `/app/metagpt/workspace`
+- Execute the demo command `python startup.py "Write a cli snake game"`
+
+### Build image by yourself
+
+```bash
+# You can also build metagpt image by yourself.
+git clone https://github.com/geekan/MetaGPT.git
+cd MetaGPT && docker build -t metagpt:v0.3 .
+```
+
 ## Configuration
 
 - Configure your `OPENAI_API_KEY` in any of `config/key.yaml / config/config.yaml / env`
@@ -71,18 +134,50 @@ python setup.py install
 cp config/config.yaml config/key.yaml
 ```
 
-| Variable Name                              | config/key.yaml                           | env                            |
-|--------------------------------------------|-------------------------------------------|--------------------------------|
-| OPENAI_API_KEY # Replace with your own key | OPENAI_API_KEY: "sk-..."                  | export OPENAI_API_KEY="sk-..." |
-| OPENAI_API_BASE # Optional                            | OPENAI_API_BASE: "https://<YOUR_SITE>/v1" | export OPENAI_API_BASE="https://<YOUR_SITE>/v1"   |
+| Variable Name                              | config/key.yaml                           | env                                             |
+| ------------------------------------------ | ----------------------------------------- | ----------------------------------------------- |
+| OPENAI_API_KEY # Replace with your own key | OPENAI_API_KEY: "sk-..."                  | export OPENAI_API_KEY="sk-..."                  |
+| OPENAI_API_BASE # Optional                 | OPENAI_API_BASE: "https://<YOUR_SITE>/v1" | export OPENAI_API_BASE="https://<YOUR_SITE>/v1" |
 
 ## Tutorial: Initiating a startup
 
 ```shell
 python startup.py "Write a cli snake game"
+# Use code review will cost more money, but will opt for better code quality.
+python startup.py "Write a cli snake game" --code_review True 
 ```
 
 After running the script, you can find your new project in the `workspace/` directory.
+
+### Usage
+
+```
+NAME
+    startup.py - We are a software startup comprised of AI. By investing in us, you are empowering a future filled with limitless possibilities.
+
+SYNOPSIS
+    startup.py IDEA <flags>
+
+DESCRIPTION
+    We are a software startup comprised of AI. By investing in us, you are empowering a future filled with limitless possibilities.
+
+POSITIONAL ARGUMENTS
+    IDEA
+        Type: str
+        Your innovative idea, such as "Creating a snake game."
+
+FLAGS
+    --investment=INVESTMENT
+        Type: float
+        Default: 3.0
+        As an investor, you have the opportunity to contribute a certain dollar amount to this AI company.
+    --n_round=N_ROUND
+        Type: int
+        Default: 5
+
+NOTES
+    You can also use flags syntax for POSITIONAL ARGUMENTS
+```
 
 ### Code walkthrough
 

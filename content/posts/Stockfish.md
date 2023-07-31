@@ -1,9 +1,9 @@
 ---
 title: Stockfish
-date: 2023-07-06T12:19:02+08:00
+date: 2023-07-31T12:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686890121573-5feec595490e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686890121573-5feec595490e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
 ---
 
 # [official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish)
@@ -90,11 +90,11 @@ big-endian machines such as Power PC, and other platforms.
 On Unix-like systems, it should be easy to compile Stockfish directly from the
 source code with the included Makefile in the folder `src`. In general, it is
 recommended to run `make help` to see a list of make targets with corresponding
-descriptions.
+descriptions. An example suitable for most Intel and AMD chips:
 
 ```
 cd src
-make -j build ARCH=x86-64-modern
+make -j profile-build ARCH=x86-64-avx2
 ```
 
 Detailed compilation instructions for all platforms can be found in our

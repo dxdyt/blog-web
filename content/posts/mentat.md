@@ -1,9 +1,9 @@
 ---
 title: mentat
-date: 2023-07-29T12:14:09+08:00
+date: 2023-07-31T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688261433834-8ae224ef3416?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689163745514-ecca45d51f0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689163745514-ecca45d51f0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
 ---
 
 # [biobootloader/mentat](https://github.com/biobootloader/mentat)
@@ -39,6 +39,8 @@ See more videos on [Twitter](https://twitter.com/bio_bootloader/status/168390673
 - [More Mentat features (4 min)](https://www.youtube.com/watch?v=YJLDIqq8k2A)
 
 # ⚙️ Setup
+
+[Installation and Setup Demonstration Video](https://www.youtube.com/watch?v=bVJP8hY8uRM)
 
 ## Install
 
@@ -80,8 +82,18 @@ For custom configuration options see [configuration.md](docs/configuration.md)
 
 
 # 🚀 Usage
-Run Mentat with:
+
+Run Mentat from within your project directory. Mentat uses git, so if your project doesn't already have git set up, run `git init`. Then you can run Mentat with:
 
 `mentat <paths to files or directories>`
 
-If you provide a directory, Mentat will add all non-hidden text files in that directory to it's context. If this exceeds the GPT-4 token context limit, try running Mentat with just the files you need it to see.
+List the files you would like Mentat to read and edit as arguments. Mentat will add each of them to context, so be careful not to exceed the GPT-4 token context limit. To add multiple files at once, you can also provide directories as arguments. When a directory is provided, Mentat will add all the contained files, except for ones ignored in your `.gitignore`. In addition to files and directories, you can use [glob patterns](https://docs.python.org/3/library/glob.html) to add multiple files at once.
+
+## Options
+
+### Exclude Files
+
+Exclude given paths, directories, or [glob patterns](https://docs.python.org/3/library/glob.html) from Mentat's context. Takes precedence over included file paths.
+```
+mentat --exclude exclude_me.py dir1/dir2 **/*.ts
+```

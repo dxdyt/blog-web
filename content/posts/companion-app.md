@@ -1,9 +1,9 @@
 ---
 title: companion-app
-date: 2023-07-17T12:18:06+08:00
+date: 2023-07-31T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687893641851-3d9946c661e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687893641851-3d9946c661e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk1Njc0NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689250034759-e98be89411ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689250034759-e98be89411ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
 ---
 
 # [a16z-infra/companion-app](https://github.com/a16z-infra/companion-app)
@@ -125,7 +125,7 @@ e. **Upstash API key**
 
 
 e. **Supabase API key** (optional)
-If you prefer to use Supabsae, you will need to uncomment `VECTOR_DB=supabase` and fill out the Supabase credentials in `.env.local`.
+If you prefer to use Supabase, you will need to uncomment `VECTOR_DB=supabase` and fill out the Supabase credentials in `.env.local`.
 
 - Create a Supabase instance [here](https://supabase.com/dashboard/projects); then go to Project Settings -> API
 - `SUPABASE_URL` is the URL value under "Project URL"

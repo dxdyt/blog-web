@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2023-05-19T12:15:45+08:00
+date: 2023-07-31T12:16:16+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12141/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
+featuredImage: https://images.unsplash.com/photo-1689924285338-3930bae2064c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689924285338-3930bae2064c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -12,7 +12,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12141/0/1080p
 <p align="center">
   <a href="./README.md">English</a> |
   <a href="./README_CN.md">简体中文</a> |
-  <a href="./README_JA.md">日本語</a>
+  <a href="./README_JA.md">日本語</a> |
+  <a href="./README_ES.md">Español</a>
 </p>
 
 [Website](https://dify.ai) • [Docs](https://docs.dify.ai) • [Twitter](https://twitter.com/dify_ai) • [Discord](https://discord.gg/FngNHpbcY7)
@@ -26,9 +27,15 @@ A single API encompassing plugin capabilities, context enhancement, and more, sa
 Visual data analysis, log review, and annotation for applications
 Dify is compatible with Langchain, meaning we'll gradually support multiple LLMs, currently supported:
 
-- GPT 3 (text-davinci-003)
-- GPT 3.5 Turbo(ChatGPT)
-- GPT-4
+* **OpenAI** ：GPT4、GPT3.5-turbo、GPT3.5-turbo-16k、text-davinci-003
+
+* **Azure OpenAI**
+
+* **Antropic**：Claude2、Claude-instant
+> We've got 1000 free trial credits available for all cloud service users to try out the Claude model.Visit [Dify.ai](https://dify.ai) and
+try it now.
+
+* **hugging face Hub**：Coming soon.
 
 ## Use Cloud Services
 
@@ -49,10 +56,15 @@ The easiest way to start the Dify server is to run our [docker-compose.yml](dock
 
 ```bash
 cd docker
-docker-compose up -d
+docker compose up -d
 ```
 
 After running, you can access the Dify dashboard in your browser at [http://localhost/install](http://localhost/install) and start the initialization installation process.
+
+### Helm Chart
+
+A big thanks to @BorisPolonsky for providing us with a [Helm Chart](https://helm.sh/) version, which allows Dify to be deployed on Kubernetes.
+You can go to https://github.com/BorisPolonsky/dify-helm for deployment information.
 
 ### Configuration
 
@@ -92,6 +104,32 @@ A: English and Chinese are currently supported, and you can contribute language 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=langgenius/dify&type=Date)](https://star-history.com/#langgenius/dify&Date)
 
+
+## Contributing 
+
+We welcome you to contribute to Dify to help make Dify better. We welcome contributions in various ways, submitting code, issues, new ideas, or sharing the interesting and useful AI applications you have created based on Dify. At the same time, we also welcome you to share Dify at different events, conferences, and social media.
+
+### Submit a Pull Request 
+
+To ensure proper review, all code contributions, including from contributors with direct commit access, must be submitted as PR requests and approved by core developers before merging branches. 
+We welcome PRs from everyone! If you're willing to help out, you can learn more about how to contribute code to the project in the [Contribution Guide](CONTRIBUTING.md).  
+
+### Submit issues or ideas  
+
+You can submit your issues or ideas by adding issues to the Dify repository. If you encounter issues, please describe the steps you took to encounter the issue as much as possible so we can better discover it. If you have any new ideas for our product, we also welcome your feedback. Please share your insights as much as possible so we can get more feedback and further discussion in the community.  
+
+### Share your applications
+
+We encourage all community members to share their AI applications built on Dify, which can be applied to different scenarios or different users. This will provide powerful inspiration for people who want to create AI capabilities! You can share your experience by [submitting an issue in the Dify-user-case repository](https://github.com/langgenius/dify-user-case/issues).  
+
+### Share Dify with others
+
+We encourage community contributors to actively demonstrate different aspects of using Dify. You can talk or share any feature of using Dify at  meetups and conferences, blogs or social media. We believe your unique sharing will be of great help to others!  Mention @Dify.AI on Twitter and/or communicate on [Discord](https://discord.gg/FngNHpbcY7) so we can give pointers and tips and help you spread the word by promoting your content on the different Dify communication channels.
+
+### Help others 
+You can also help people in need of help on Discord, GitHub issues or other social platforms, guide others to solve problems encountered during use and share usage experiences. This is also a great contribution! If you want to become a maintainer of the Dify community, please contact the official team via [Discord](https://discord.gg/FngNHpbcY7) or email us at support@dify.ai. 
+
+
 ## Contact Us
 
 If you have any questions, suggestions, or partnership inquiries, feel free to contact us through the following channels:
@@ -102,12 +140,6 @@ If you have any questions, suggestions, or partnership inquiries, feel free to c
 
 We're eager to assist you and together create more fun and useful AI applications!
 
-## Contributing
-
-To ensure proper review, all code contributions - including those from contributors with direct commit access - must be submitted via pull requests and approved by the core development team prior to being merged.
-
-We welcome all pull requests! If you'd like to help, check out the [Contribution Guide](CONTRIBUTING.md) for more information on how to get started.
-
 ## Security
 
 To protect your privacy, please avoid posting security issues on GitHub. Instead, send your questions to security@dify.ai and we will provide you with a more detailed answer.
@@ -117,7 +149,6 @@ To protect your privacy, please avoid posting security issues on GitHub. Instead
 This software uses the following open-source software:
 
 - Chase, H. (2022). LangChain [Computer software]. https://github.com/hwchase17/langchain
-- Liu, J. (2022). LlamaIndex [Computer software]. doi: 10.5281/zenodo.1234.
 
 For more information, please refer to the official website or license text of the respective software.
 

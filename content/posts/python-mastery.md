@@ -1,9 +1,9 @@
 ---
 title: python-mastery
-date: 2023-07-23T12:15:46+08:00
+date: 2023-07-31T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687979508085-a515fd4e2131?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687979508085-a515fd4e2131?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689250034759-e98be89411ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689250034759-e98be89411ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
 ---
 
 # [dabeaz-course/python-mastery](https://github.com/dabeaz-course/python-mastery)
@@ -116,8 +116,14 @@ Python language, not third party libraries or tooling.
 **A:** Mainly, it's an issue of calendar timing and scope.  Course
 material was primarily developed pre-pandemic and represents Python as
 it was at that time. Some topics (e.g., typing or async) are
-sufficiently complex that they would be bettered covered on their own
+sufficiently complex that they would be better covered on their own
 in a separate course.
+
+**Q: Why did you release the course?**
+
+**A:** This course was extensively taught pre-pandemic. Post-pandemic,
+my teaching has shifted towards projects and CS fundamentals.
+However, why let a good course just languish on my computer? 
 
 **Q: How can I help?**
 
