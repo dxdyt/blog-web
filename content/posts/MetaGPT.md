@@ -1,9 +1,9 @@
 ---
 title: MetaGPT
-date: 2023-07-31T12:15:14+08:00
+date: 2023-08-01T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689924285338-3930bae2064c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689924285338-3930bae2064c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)

@@ -1,9 +1,9 @@
 ---
 title: mastodon
-date: 2023-07-10T12:20:51+08:00
+date: 2023-08-01T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686515265863-14a4ebda172c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686515265863-14a4ebda172c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688649103581-efd21a8672e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688649103581-efd21a8672e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [mastodon/mastodon](https://github.com/mastodon/mastodon)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686515265863-14a4ebda17
 [releases]: https://github.com/mastodon/mastodon/releases
 [crowdin]: https://crowdin.com/project/mastodon
 
-Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub!)
+Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, and video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub!)
 
 Click below to **learn more** in a video:
 
@@ -61,7 +61,7 @@ Upload and view images and WebM/MP4 videos attached to the updates. Videos with 
 
 ### Safety and moderation tools
 
-Mastodon includes private posts, locked accounts, phrase filtering, muting, blocking and all sorts of other features, along with a reporting and moderation system. [Learn more](https://blog.joinmastodon.org/2018/07/cage-the-mastodon/)
+Mastodon includes private posts, locked accounts, phrase filtering, muting, blocking, and all sorts of other features, along with a reporting and moderation system. [Learn more](https://blog.joinmastodon.org/2018/07/cage-the-mastodon/)
 
 ### OAuth2 and a straightforward REST API
 
@@ -84,7 +84,7 @@ Mastodon acts as an OAuth2 provider, so 3rd party apps can use the REST and Stre
 
 The repository includes deployment configurations for **Docker and docker-compose** as well as specific platforms like **Heroku**, **Scalingo**, and **Nanobox**. For Helm charts, reference the [mastodon/chart repository](https://github.com/mastodon/chart). The [**standalone** installation guide](https://docs.joinmastodon.org/admin/install/) is available in the documentation.
 
-A **Vagrant** configuration is included for development purposes. To use it, complete following steps:
+A **Vagrant** configuration is included for development purposes. To use it, complete the following steps:
 
 - Install Vagrant and Virtualbox
 - Install the `vagrant-hostsupdater` plugin: `vagrant plugin install vagrant-hostsupdater`
@@ -92,15 +92,27 @@ A **Vagrant** configuration is included for development purposes. To use it, com
 - Run `vagrant ssh -c "cd /vagrant && foreman start"`
 - Open `http://mastodon.local` in your browser
 
+To set up **MacOS** for native development, complete the following steps:
+
+- Install the latest stable Ruby version (use a ruby version manager for easy installation and management of ruby versions)
+- Run `brew install postgresql@14`
+- Run `brew install redis`
+- Run `brew install imagemagick`
+- Install Foreman or a similar tool (such as [overmind](https://github.com/DarthSim/overmind)) to handle multiple process launching.
+- Navigate to Mastodon's root directory and run `brew install nvm` then `nvm use` to use the version from .nvmrc
+- Run `corepack enable && yarn set version classic`
+- Run `bundle exec rails db:setup` (optionally prepend `RAILS_ENV=development` to target the dev environment)
+- Finally, run `overmind start -f Procfile.dev`
+
 ### Getting Started with GitHub Codespaces
 
 To get started, create a codespace for this repository by clicking this 👇
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=52281283)
 
-A codespace will open in a web-based version of Visual Studio Code. The [dev container](.devcontainer/devcontainer.json) is fully configured with software needed for this project.
+A codespace will open in a web-based version of Visual Studio Code. The [dev container](.devcontainer/devcontainer.json) is fully configured with the software needed for this project.
 
-**Note**: Dev containers is an open spec which is supported by [GitHub Codespaces](https://github.com/codespaces) and [other tools](https://containers.dev/supporting).
+**Note**: Dev containers are an open spec that is supported by [GitHub Codespaces](https://github.com/codespaces) and [other tools](https://containers.dev/supporting).
 
 ## Contributing
 

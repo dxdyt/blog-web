@@ -1,9 +1,9 @@
 ---
 title: ml-stable-diffusion
-date: 2023-07-30T12:15:55+08:00
+date: 2023-08-01T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689182227491-022894f8ca5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689182227491-022894f8ca5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687996345025-34b478b98546?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687996345025-34b478b98546?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [apple/ml-stable-diffusion](https://github.com/apple/ml-stable-diffusion)

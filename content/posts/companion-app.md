@@ -1,9 +1,9 @@
 ---
 title: companion-app
-date: 2023-07-31T12:17:52+08:00
+date: 2023-08-01T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689250034759-e98be89411ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689250034759-e98be89411ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688115237214-d22431b62fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688115237214-d22431b62fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [a16z-infra/companion-app](https://github.com/a16z-infra/companion-app)

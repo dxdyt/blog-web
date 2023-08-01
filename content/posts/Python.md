@@ -1,9 +1,9 @@
 ---
 title: Python
-date: 2023-04-10T12:17:17+08:00
+date: 2023-08-01T12:15:57+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://images.unsplash.com/photo-1688649103581-efd21a8672e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688649103581-efd21a8672e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
@@ -23,7 +23,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
     <img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square" height="20" alt="Contributions Welcome">
   </a>
   <img src="https://img.shields.io/github/repo-size/TheAlgorithms/Python.svg?label=Repo%20size&style=flat-square" height="20">
-  <a href="https://discord.gg/c7MnfGFGa6">
+  <a href="https://the-algorithms.com/discord">
     <img src="https://img.shields.io/discord/808045925556682782.svg?logo=discord&colorB=7289DA&style=flat-square" height="20" alt="Discord chat">
   </a>
   <a href="https://gitter.im/TheAlgorithms/community">
@@ -52,7 +52,7 @@ Read through our [Contribution Guidelines](CONTRIBUTING.md) before you contribut
 
 ## Community Channels
 
-We are on [Discord](https://discord.gg/c7MnfGFGa6) and [Gitter](https://gitter.im/TheAlgorithms/community)! Community channels are a great way for you to ask questions and get help. Please join us!
+We are on [Discord](https://the-algorithms.com/discord) and [Gitter](https://gitter.im/TheAlgorithms/community)! Community channels are a great way for you to ask questions and get help. Please join us!
 
 ## List of Algorithms
 

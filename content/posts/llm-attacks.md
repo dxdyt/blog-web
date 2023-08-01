@@ -1,9 +1,9 @@
 ---
 title: llm-attacks
-date: 2023-07-31T12:15:32+08:00
+date: 2023-08-01T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689163745514-ecca45d51f0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689163745514-ecca45d51f0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1689163745514-ecca45d51f
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the official repository for "[Universal and Transferable Adversarial Attacks on Aligned Language Models](https://llm-attacks.org/zou2023universal.pdf)" by [Andy Zou](https://andyzoujm.github.io/), [Zifan Wang](https://sites.google.com/west.cmu.edu/zifan-wang/home), [J. Zico Kolter](https://zicokolter.com/), and [Matt Fredrikson](https://www.cs.cmu.edu/~mfredrik/).
+This is the official repository for "[Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043)" by [Andy Zou](https://andyzoujm.github.io/), [Zifan Wang](https://sites.google.com/west.cmu.edu/zifan-wang/home), [J. Zico Kolter](https://zicokolter.com/), and [Matt Fredrikson](https://www.cs.cmu.edu/~mfredrik/).
 
 Check out our [website and demo here](https://llm-attacks.org/).
 
@@ -97,10 +97,11 @@ If you find this useful in your research, please consider citing:
 ```
 @misc{zou2023universal,
       title={Universal and Transferable Adversarial Attacks on Aligned Language Models}, 
-      author={Andy Zou and Zifan Wang and and J. Zico Kolter and Matt Fredrikson},
+      author={Andy Zou and Zifan Wang and J. Zico Kolter and Matt Fredrikson},
       year={2023},
+      eprint={2307.15043},
       archivePrefix={arXiv},
-      primaryClass={cs.LG}
+      primaryClass={cs.CL}
 }
 ```
 
