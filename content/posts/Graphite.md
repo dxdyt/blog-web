@@ -1,9 +1,9 @@
 ---
 title: Graphite
-date: 2023-08-01T12:17:45+08:00
+date: 2023-08-02T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687996345025-34b478b98546?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687996345025-34b478b98546?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688550608780-700bd9bd0bb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688550608780-700bd9bd0bb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
 ---
 
 # [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)

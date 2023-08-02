@@ -1,9 +1,9 @@
 ---
 title: languagetool
-date: 2023-08-01T12:17:29+08:00
+date: 2023-08-02T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690210606863-41cd8636e9ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690210606863-41cd8636e9ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690086142286-caccce218c0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690086142286-caccce218c0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
 ---
 
 # [languagetool-org/languagetool](https://github.com/languagetool-org/languagetool)

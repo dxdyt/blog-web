@@ -1,9 +1,9 @@
 ---
 title: text-generation-inference
-date: 2023-07-31T12:15:08+08:00
+date: 2023-08-02T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689214102672-4748922affce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689214102672-4748922affce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688550608780-700bd9bd0bb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688550608780-700bd9bd0bb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/text-generation-inference](https://github.com/huggingface/text-generation-inference)

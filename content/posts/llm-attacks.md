@@ -1,9 +1,9 @@
 ---
 title: llm-attacks
-date: 2023-08-01T12:15:42+08:00
+date: 2023-08-02T12:15:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688222612475-b83f0304b681?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688222612475-b83f0304b681?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
 ---
 
 # [llm-attacks/llm-attacks](https://github.com/llm-attacks/llm-attacks)
