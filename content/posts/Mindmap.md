@@ -1,9 +1,9 @@
 ---
 title: Mindmap
-date: 2023-08-01T12:16:26+08:00
+date: 2023-08-03T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689580863590-e76944ae22d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689580863590-e76944ae22d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688764896170-e2590678d5f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688764896170-e2590678d5f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
 ---
 
 # [Ignitetechnologies/Mindmap](https://github.com/Ignitetechnologies/Mindmap)

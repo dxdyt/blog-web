@@ -1,9 +1,9 @@
 ---
 title: visionOS_30Days
-date: 2023-08-01T12:18:21+08:00
+date: 2023-08-03T12:15:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689172044594-88eaec1c70fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689172044594-88eaec1c70fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
 ---
 
 # [satoshi0212/visionOS_30Days](https://github.com/satoshi0212/visionOS_30Days)

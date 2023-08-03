@@ -1,9 +1,9 @@
 ---
 title: bloop
-date: 2023-06-15T12:16:11+08:00
+date: 2023-08-03T12:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1508107222753-0c236c337911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1508107222753-0c236c337911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688619104606-4608282777bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688619104606-4608282777bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
 ---
 
 # [BloopAI/bloop](https://github.com/BloopAI/bloop)
@@ -62,7 +62,7 @@ Here's how to find your way around the repo:
 - `server/bleep`: The Rust backend which contains the core search and navigation logic
 - `client`: The React frontend
 
-We make extensive use of Git LFS for dependencies that are expensive to build.
+We use Git LFS for dependencies that are expensive to build.
 
 To make sure you have everything you need to start building, you'll need to
 install the `git-lfs` package for your favourite operating system, then run the
@@ -78,3 +78,12 @@ If you find a bug or have a feature request, [open an issue](https://github.com/
 We store as little data as possible. Opting in now to send telemetry to bloop helps us identify bugs and make data-driven product decisions. This option sends us crash reports, logs and high level information about feature usage (so we can tell that a search was made, but we wouldn't be able to see the query or results). If you change your mind, you can always disable this later in Settings!
 
 You can read our full privacy policy [here](https://bloop.ai/privacy).
+
+## License
+
+Portions of this software are licensed as follows:
+
+* All content that resides under the `server/bleep/src/ee/` directory of this repository, if that directory exists, is licensed under the license defined in [server/bleep/src/ee/LICENSE](./server/bleep/src/ee/LICENSE).
+* All third party components incorporated into the bloop Software are licensed under the original license provided by the owner of the applicable component.
+* Content outside of the above mentioned directories or restrictions above is available under the `Apache 2.0` license as defined in [LICENSE](./LICENSE).
+
