@@ -1,9 +1,9 @@
 ---
 title: bloop
-date: 2023-08-03T12:15:59+08:00
+date: 2023-08-04T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688619104606-4608282777bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688619104606-4608282777bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
 ---
 
 # [BloopAI/bloop](https://github.com/BloopAI/bloop)

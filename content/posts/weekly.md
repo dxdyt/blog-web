@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2023-08-03T12:18:02+08:00
+date: 2023-08-04T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687939307771-4440181ca6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687939307771-4440181ca6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690759506486-cee7ad7832c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690759506486-cee7ad7832c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687939307771-4440181ca6
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/3222)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/3324)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索 
 
@@ -37,6 +37,10 @@ $ grep -nri css docs | cat --number
 ```
 
 ## 2023
+
+**八月**
+
+- 第 265 期：[WiFi 的后面是 LiFi](docs/issue-265.md)
 
 **七月**
 

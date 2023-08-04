@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca-2
-date: 2023-08-03T12:15:50+08:00
+date: 2023-08-04T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689172044594-88eaec1c70fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689172044594-88eaec1c70fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688362379195-b8c04f735968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688362379195-b8c04f735968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca-2](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2)
@@ -130,14 +130,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1689172044594-88eaec1c70
 - [**在线转换**](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/online_conversion_zh)：Colab用户可利用本项目提供的notebook进行在线转换并量化模型
 - [**手动转换**](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/manual_conversion_zh)：离线方式转换，生成不同格式的模型，以便进行量化或进一步精调
 
-以下是完整模型在FP16精度和4-bit量化后的大小。如果选择手动合并，请确保本机有足够的内存和磁盘空间。
-
-| 模型版本      |   7B    |
-| :------------ | :-----: |
-| FP16模型      | 12.9 GB |
-| 8-bit量化模型 | 6.8 GB  |
-| 4-bit量化模型 | 3.7 GB  |
-
 
 ## 推理与部署
 
@@ -149,6 +141,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1689172044594-88eaec1c70
 | [**🤗Transformers**](https://github.com/huggingface/transformers) | 原生transformers推理接口     |  ✅   |  ✅   |  ✅   |  ✅   |  ❌   |  ✅  | [link](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/inference_with_transformers_zh) |
 | [**Colab Demo**](https://colab.research.google.com/drive/1yu0eZ3a66by8Zqm883LLtRQrguBAb9MR?usp=sharing) | 在Colab中启动交互界面 | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ | [link](https://colab.research.google.com/drive/1yu0eZ3a66by8Zqm883LLtRQrguBAb9MR?usp=sharing) |
 | [**仿OpenAI API调用**](https://platform.openai.com/docs/api-reference) | 仿OpenAI API接口的服务器Demo |  ✅   |  ✅   |  ✅   |  ❌   |  ✅   |  ✅  | [link](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/api_calls_zh) |
+| [**text-generation-webui**](https://github.com/oobabooga/text-generation-webui) | 前端Web UI界面的部署方式 |  ✅   |  ✅   |  ✅   |  ✅   |  ❌   | ❌  | [link](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/text-generation-webui_zh) |
 
 ⚠️ 一代模型相关推理与部署支持将陆续迁移到本项目，届时将同步更新相关教程。
 
@@ -190,6 +183,24 @@ Alpaca系列模型之间对比：
 
 C-Eval推理代码请参考本项目 >>> [📚 GitHub Wiki](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/ceval_zh)
 
+### 量化效果评测
+
+以Chinese-LLaMA-2-7B为例，对比不同精度下的模型大小、PPL（困惑度）、C-Eval效果，方便用户了解量化精度损失。PPL以4K上下文大小计算，C-Eval汇报的是valid集合上zero-shot和5-shot结果。
+
+| 精度      | 模型大小 |  PPL   |   C-Eval    |
+| :-------- | :------: | :----: | :---------: |
+| FP16      | 12.9 GB  | 8.1797 | 28.2 / 36.0 |
+| 8-bit量化 |  6.8 GB  | 8.2884 | 26.8 / 35.4 |
+| 4-bit量化 |  3.7 GB  | 8.8581 | 25.5 / 32.8 |
+
+特别地，以下是在llama.cpp下不同量化方法的评测数据，供用户参考，速度以ms/tok计。具体细节见[Wiki](https://github.com/ymcui/Chinese-LLaMA-Alpaca-2/wiki/llamacpp_zh#关于量化方法选择及推理速度)。
+
+| | F16       | Q4_0   | Q4_1  | Q4_K  | Q5_0  | Q5_1  | Q5_K  | Q6_K  | Q8_0  |
+| --------- | -----: | ----: | ----: | ----: | ----: | ----: | ----: | ----: | ----: |
+| PPL       | 8.640  | 8.987 | 9.175 | 8.836 | 8.730 | 8.776 | 8.707 | 8.671 | 8.640 |
+| Size      | 12.91G | 3.69G | 4.08G | 3.92G | 4.47G | 4.86G | 4.59G | 5.30G | 6.81G |
+| CPU Speed | 117    | 39    | 44    | 43    | 48    | 51    | 50    | 54    | 65    |
+| GPU Speed | 53     | 17    | 18    | 20    | n/a   | n/a  | 25    | 26    | n/a  |
 
 ## 训练与精调
 

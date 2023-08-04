@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-07-25T12:15:52+08:00
+date: 2023-08-04T12:14:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688199412484-2ad159985916?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688199412484-2ad159985916?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688970462384-9bbafab3204d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688970462384-9bbafab3204d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -41,14 +41,15 @@ ollama run llama2
 
 `ollama` includes a library of open-source models:
 
-| Model                    | Parameters | Size  | Download                    |
-| ------------------------ | ---------- | ----- | --------------------------- |
-| Llama2                   | 7B         | 3.8GB | `ollama pull llama2`        |
-| Llama2 13B               | 13B        | 7.3GB | `ollama pull llama2:13b`    |
-| Orca Mini                | 3B         | 1.9GB | `ollama pull orca`          |
-| Vicuna                   | 7B         | 3.8GB | `ollama pull vicuna`        |
-| Nous-Hermes              | 13B        | 7.3GB | `ollama pull nous-hermes`   |
-| Wizard Vicuna Uncensored | 13B        | 7.3GB | `ollama pull wizard-vicuna` |
+| Model                    | Parameters | Size  | Download                        |
+| ------------------------ | ---------- | ----- | ------------------------------- |
+| Llama2                   | 7B         | 3.8GB | `ollama pull llama2`            |
+| Llama2 Uncensored        | 7B         | 3.8GB | `ollama pull llama2-uncensored` |
+| Llama2 13B               | 13B        | 7.3GB | `ollama pull llama2:13b`        |
+| Orca Mini                | 3B         | 1.9GB | `ollama pull orca`              |
+| Vicuna                   | 7B         | 3.8GB | `ollama pull vicuna`            |
+| Nous-Hermes              | 13B        | 7.3GB | `ollama pull nous-hermes`       |
+| Wizard Vicuna Uncensored | 13B        | 7.3GB | `ollama pull wizard-vicuna`     |
 
 > Note: You should have at least 8 GB of RAM to run the 3B models, 16 GB to run the 7B models, and 32 GB to run the 13B models.
 
@@ -69,6 +70,7 @@ Pull a base model:
 ```
 ollama pull llama2
 ```
+> To update a model to the latest version, run `ollama pull llama2` again. The model will be updated (if necessary).
 
 Create a `Modelfile`:
 
@@ -94,6 +96,8 @@ Hello! It's your friend Mario.
 ```
 
 For more examples, see the [examples](./examples) directory.
+
+For more information on creating a Modelfile, see the [Modelfile](./docs/modelfile.md) documentation.
 
 ### Pull a model from the registry
 
@@ -153,3 +157,10 @@ Create a model from a `Modelfile`.
 ```
 curl -X POST http://localhost:11434/api/create -d '{"name": "my-model", "path": "/path/to/modelfile"}'
 ```
+
+## Projects built with Ollama
+
+- [Continue](https://github.com/continuedev/continue) - embeds Ollama inside Visual Studio Code. The extension lets you highlight code to add to the prompt, ask questions in the sidebar, and generate code inline.
+- [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot) - interact with Ollama as a chatbot on Discord.
+- [Raycast Ollama](https://github.com/MassimilianoPasquini97/raycast_ollama) - Raycast extension to use Ollama for local llama inference on Raycast.
+- [Simple HTML UI for Ollama](https://github.com/rtcfirefly/ollama-ui)

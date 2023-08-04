@@ -1,9 +1,9 @@
 ---
 title: gorilla
-date: 2023-08-02T12:15:09+08:00
+date: 2023-08-04T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689240766441-29de936097cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689240766441-29de936097cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689631137053-ba78cc134cd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689631137053-ba78cc134cd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
 ---
 
 # [ShishirPatil/gorilla](https://github.com/ShishirPatil/gorilla)

@@ -1,9 +1,9 @@
 ---
 title: linkwarden
-date: 2023-08-03T12:16:14+08:00
+date: 2023-08-04T12:15:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688408958776-00a5c1b17c8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688408958776-00a5c1b17c8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1613667023102-44f9adaf9346?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1613667023102-44f9adaf9346?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
 ---
 
 # [linkwarden/linkwarden](https://github.com/linkwarden/linkwarden)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1688408958776-00a5c1b17c
 
 <div align='center'>
 
-[Homepage](https://linkwarden.app) | [Getting Started](https://docs.linkwarden.app/getting-started) | [Features](https://github.com/linkwarden/linkwarden#features) | [Roadmap](https://github.com/linkwarden/linkwarden#roadmap) | [Screenshots](https://github.com/linkwarden/linkwarden#screenshots) | [Support ❤](https://github.com/linkwarden/linkwarden#support-)
+[Website](https://linkwarden.app) | [Getting Started](https://docs.linkwarden.app/getting-started) | [Features](https://github.com/linkwarden/linkwarden#features) | [Roadmap](https://github.com/linkwarden/linkwarden#roadmap) | [Screenshots](https://github.com/linkwarden/linkwarden#screenshots) | [Support ❤](https://github.com/linkwarden/linkwarden#support-)
 
 </div>
 
@@ -64,16 +64,15 @@ We highly recommend you **not** to use the old version as it is no longer mainta
 
 There are _many_ upcoming features, below are only _some_ of the 100% planned ones:
 
-- 🐳 Docker version.
 - 🌒 Dark mode.
 - 📦 Import/Export your data.
 - 🧩 Browser extention.
 
-Also make sure to check out our [public roadmap](https://github.com/orgs/linkwarden/projects/1). 
+Also make sure to check out our [public roadmap](https://github.com/orgs/linkwarden/projects/1).
 
 ## Docs
 
-Currently, the Documentation is a bit targeted towards a more tech-savvy audience and has so much room to improve, you can find it [here](https://docs.linkwarden.app).
+For information on how to get started or to set up your own instance, please visit the [documentation](https://docs.linkwarden.app).
 
 ## Development
 
