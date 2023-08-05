@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-08-04T12:14:35+08:00
+date: 2023-08-05T12:14:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688970462384-9bbafab3204d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688970462384-9bbafab3204d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689192727554-f8d6165f8ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689192727554-f8d6165f8ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -25,7 +25,7 @@ Run, create, and share large language models (LLMs).
 
 ## Download
 
-- [Download](https://ollama.ai/download) for macOS on Apple Silicon (Intel coming soon)
+- [Download](https://ollama.ai/download) for macOS
 - Download for Windows and Linux (coming soon)
 - Build [from source](#building)
 

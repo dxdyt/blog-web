@@ -1,9 +1,9 @@
 ---
 title: LLaMA2-Accessory
-date: 2023-08-04T12:15:39+08:00
+date: 2023-08-05T12:14:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688607931885-9669e17ea963?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688607931885-9669e17ea963?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685207890865-46c55c4d51b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685207890865-46c55c4d51b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [Alpha-VLLM/LLaMA2-Accessory](https://github.com/Alpha-VLLM/LLaMA2-Accessory)
@@ -18,6 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1688607931885-9669e17ea9
 🚀**LLaMA2-Accessory** is an open-source toolkit for pre-training, fine-tuning and deployment of **Large Language Models (LLMs)** and **mutlimodal LLMs**. This repo is mainly inherited from [LLaMA-Adapter](https://github.com/OpenGVLab/LLaMA-Adapter) with more advanced features.🧠
 
 ## News
+- **[2023.08.05]** We release the multimodel fine-tuning codes and checkpoints🔥🔥🔥
 - **[2023.07.23]** Initial release 📌
 
 ## Features

@@ -1,9 +1,9 @@
 ---
 title: ToolBench
-date: 2023-08-04T12:14:42+08:00
+date: 2023-08-05T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690759506486-cee7ad7832c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690759506486-cee7ad7832c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689192727554-f8d6165f8ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689192727554-f8d6165f8ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/ToolBench](https://github.com/OpenBMB/ToolBench)
@@ -42,6 +42,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1690759506486-cee7ad7832
 🔨This project (ToolLLM) aims to construct **open-source, large-scale, high-quality** instruction tuning SFT data to facilitate the construction of powerful LLMs with general **tool-use** capability. We aim to empower open-source LLMs to master thousands of diverse real-world APIs. We achieve this by collecting a high-quality instruction-tuning dataset. It is constructed automatically using the latest ChatGPT (gpt-3.5-turbo-16k), which is upgraded with enhanced [function call](https://openai.com/blog/function-calling-and-other-api-updates) capabilities. We provide the dataset, the corresponding training and evaluation scripts, and a capable model ToolLLaMA fine-tuned on ToolBench.
 
 **💁‍♂️💁💁‍♀️Joint Us on [Discord](https://discord.gg/QSC6yTtu)!**
+
+## What's New
+
+- **[2023/8/4]** We provide **RapidAPI backend service** to free you from using your own RapidAPI key and subscribing the APIs. Please fill out our [form](https://forms.gle/oCHHc8DQzhGfiT9r6). We will review it as soon as possible and send you the ToolBench key to get start on it! 
+
+- **[2023/8/1]** Our [paper](https://arxiv.org/abs/2307.16789) is released.
+
+- **[2023/7/27]** New version ToolBench is released.
 
 ✨Here is an overview of the dataset construction, training, and evaluation.
 
@@ -239,13 +247,15 @@ deepspeed --master_port=20001 toolbench/train/train_long_seq_lora.py \
 ```
 
 
-## Inference
-First prepare your rapidapi key:
+## Inference With Our RapidAPI Server
+Please fill out the [form](https://forms.gle/oCHHc8DQzhGfiT9r6) first and after reviewing we will send you the toolbench key. Then prepare your toolbench key by:
 ```bash
-export RAPIDAPIKEY="your_rapidapi_key"
+export TOOLBENCH_KEY="your_toolbench_key"
 ```
 
-Then run the following commands:
+### For ToolLLaMA
+
+To inference with ToolLLaMA, run the following commands:
 ```bash
 export PYTHONPATH=./
 python toolbench/inference/qa_pipeline.py \
@@ -253,13 +263,14 @@ python toolbench/inference/qa_pipeline.py \
     --backbone_model toolllama \
     --model_path ToolBench/ToolLLaMA-7b \
     --max_observation_length 1024 \
+    --observ_compress_method truncate \
     --method DFS_woFilter_w2 \
     --input_query_file data/instruction/inference_query_demo.json \
     --output_answer_file data/answer/toolllama_dfs \
-    --rapidapi_key $RAPIDAPIKEY
+    --toolbench_key $TOOLBENCH_KEY
 ```
 
-For **lora** version:
+For **ToolLLaMA-LoRA**:
 ```bash
 export PYTHONPATH=./
 python toolbench/inference/qa_pipeline.py \
@@ -269,13 +280,14 @@ python toolbench/inference/qa_pipeline.py \
     --lora \
     --lora_path /path/to/your/downloaded/ToolLLaMA-7b-LoRA \
     --max_observation_length 1024 \
+    --observ_compress_method truncate \
     --method DFS_woFilter_w2 \
     --input_query_file data/instruction/inference_query_demo.json \
     --output_answer_file data/answer/toolllama_lora_dfs \
-    --rapidapi_key $RAPIDAPIKEY
+    --toolbench_key $TOOLBENCH_KEY
 ```
 
-For lora version under **open-domain** setting, run:
+For ToolLLaMA-LoRA under **open-domain** setting, run:
 ```bash
 export PYTHONPATH=./
 python toolbench/inference/qa_pipeline_open_domain.py \
@@ -288,10 +300,62 @@ python toolbench/inference/qa_pipeline_open_domain.py \
     --lora \
     --lora_path /path/to/your/toolllama_lora \
     --max_observation_length 1024 \
+    --observ_compress_method truncate \
     --method DFS_woFilter_w2 \
     --input_query_file data/instruction/inference_query_demo_open_domain.json \
     --output_answer_file data/answer/toolllama_lora_dfs_open_domain \
-    --rapidapi_key $RAPIDAPIKEY
+    --toolbench_key $TOOLBENCH_KEY
+```
+
+### For OpenAI Models
+To use ChatGPT, run:
+```bash
+export TOOLBENCH_KEY=""
+export OPENAI_KEY=""
+export PYTHONPATH=./
+python toolbench/inference/qa_pipeline.py \
+    --tool_root_dir data/toolenv/tools/ \
+    --backbone_model chatgpt_function \
+    --openai_key $OPENAI_KEY \
+    --max_observation_length 1024 \
+    --method DFS_woFilter_w2 \
+    --input_query_file data/instruction/inference_query_demo.json \
+    --output_answer_file data/answer/chatgpt_dfs \
+    --toolbench_key $TOOLBENCH_KEY
+```
+
+To use Text-Davinci-003, run:
+```bash
+export TOOLBENCH_KEY=""
+export OPENAI_KEY=""
+export PYTHONPATH=./
+python toolbench/inference/qa_pipeline.py \
+    --tool_root_dir data/toolenv/tools/ \
+    --backbone_model davinci \
+    --openai_key $OPENAI_KEY \
+    --max_observation_length 1024 \
+    --method DFS_woFilter_w2 \
+    --input_query_file data/instruction/inference_query_demo.json \
+    --output_answer_file data/answer/davinci_dfs \
+    --toolbench_key $TOOLBENCH_KEY
+```
+
+## Inference With Your Own RapidAPI Account
+To do inference with customized RapidAPI account, pass your **rapidapi key** through `rapidapi_key` and specify the `use_rapidapi_key` argument in the script:
+```bash
+export RAPIDAPI_KEY=""
+export OPENAI_KEY=""
+export PYTHONPATH=./
+python toolbench/inference/qa_pipeline.py \
+    --tool_root_dir data/toolenv/tools/ \
+    --backbone_model chatgpt_function \
+    --openai_key $OPENAI_KEY \
+    --max_observation_length 1024 \
+    --method DFS_woFilter_w2 \
+    --input_query_file data/instruction/inference_query_demo.json \
+    --output_answer_file data/answer/chatgpt_dfs \
+    --rapidapi_key $RAPIDAPI_KEY \
+    --use_rapidapi_key
 ```
 
 ## Setting up and running the interface
