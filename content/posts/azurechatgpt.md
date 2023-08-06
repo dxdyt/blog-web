@@ -1,9 +1,9 @@
 ---
 title: azurechatgpt
-date: 2023-08-05T12:15:25+08:00
+date: 2023-08-06T12:14:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685207890865-46c55c4d51b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685207890865-46c55c4d51b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690315854810-dfeb1c763c27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690315854810-dfeb1c763c27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/azurechatgpt](https://github.com/microsoft/azurechatgpt)

@@ -1,175 +1,67 @@
 ---
 title: FastGPT
-date: 2023-04-08T12:18:08+08:00
+date: 2023-08-06T12:16:03+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12006/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12006/0/1080p
+featuredImage: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
 ---
 
-# [c121914yu/FastGPT](https://github.com/c121914yu/FastGPT)
+# [labring/FastGPT](https://github.com/labring/FastGPT)
 
-# Fast GPT 
+# Fast GPT
 
-Fast GPT 允许你使用自己的 openai API KEY 来快速的调用 openai 接口，包括 GPT3 及其微调方法，以及最新的 gpt3.5 接口。
+Fast GPT 允许你使用自己的 openai API KEY 来快速的调用 openai 接口，目前集成了 Gpt35, Gpt4 和 embedding. 可构建自己的知识库。并且 OpenAPI Chat 接口兼容 OpenAI 接口，意味着你只需修改 BaseUrl 和 Authorization 即可在已有项目基础上接入 FastGpt！
 
-## 初始化
-复制 .env.template 成 .env.local ，填写核心参数  
+## 🛸 在线体验
 
-```
-AXIOS_PROXY_HOST=axios代理地址，目前 openai 接口都需要走代理，本机的话就填 127.0.0.1
-AXIOS_PROXY_PORT=代理端口
-MONGODB_URI=mongo数据库地址
-MY_MAIL=发送验证码邮箱
-MAILE_CODE=邮箱秘钥（代理里设置的是QQ邮箱，不知道怎么找这个 code 的，可以百度搜"nodemailer发送邮件"）
-TOKEN_KEY=随便填一个，用于生成和校验 token
-OPENAIKEY=openai的key
-REDIS_URL=redis的地址
-```
+🎉 [fastgpt.run](https://fastgpt.run/)
+🎉 [ai.fastgpt.run](https://ai.fastgpt.run/)
 
-```bash
-pnpm dev
-```
+![Demo](docs/imgs/demo.png?raw=true 'demo')
 
-## 部署
+#### 知识库原理图
 
-### docker 模式
-请准备好 docker， mongo，代理, 和 nginx。 镜像走本机的代理，所以用 network=host，port 改成代理的端口，clash 一般都是 7890。
+![KBProcess](docs/imgs/KBProcess.jpg?raw=true 'KBProcess')
 
-#### docker 打包
-```bash
-docker build -t imageName:tag .
-docker push imageName:tag
-# 或者直接拉镜像，见下方
-```
+## 👨‍💻 开发
 
-#### 服务器拉取镜像和运行
-```yml
-# docker-compose
-version: "3.3"
-services:
-  fast-gpt:
-    image: c121914yu/fast-gpt:latest
-    environment:
-      AXIOS_PROXY_HOST: 127.0.0.1
-      AXIOS_PROXY_PORT: 7890
-      MY_MAIL: 
-      MAILE_CODE: 
-      TOKEN_KEY: 
-      MONGODB_URI: 
-      OPENAIKEY: 
-      REDIS_URL: 
-    network_mode: host
-    restart: always
-    container_name: fast-gpt
-```
-```bash
-#!/bin/bash
-# 拉取最新镜像
-docker-compose pull
-docker-compose up -d
+项目技术栈: NextJs + TS + ChakraUI + Mongo + Postgres（Vector 插件）  
+这是一个平台项目，非单机项目，除了模型调用外还涉及非常多用户的内容。  
+[本地开发 Quick Start](docs/dev/README.md)
 
-echo "Docker Compose 重新拉取镜像完成！"
+## 🚀 私有化部署
 
-# 删除本地旧镜像
-images=$(docker images --format "{{.ID}} {{.Repository}}" | grep fast-gpt)
+- [官方推荐 Sealos 部署](https://sealos.io/docs/examples/ai-applications/install-fastgpt-on-desktop) 无需服务器，代理和域名，高可用。
+- [docker-compose 部署](docs/deploy/docker.md) 单机版。
+- [由社区贡献的宝塔部署和本地运行教程](https://www.bilibili.com/video/BV1tV4y1y7Mj/?vd_source=92041a1a395f852f9d89158eaa3f61b4) 单机版。
 
-# 将镜像 ID 和名称放入数组中
-IFS=$'\n' read -rd '' -a image_array <<<"$images"
+## :point_right: RoadMap
 
-# 遍历数组并删除所有旧的镜像
-for ((i=1; i<${#image_array[@]}; i++))
-do
-    image=${image_array[$i]}
-    image_id=${image%% *}
-    docker rmi $image_id
-done
-```
+- [FastGpt RoadMap](https://kjqvjse66l.feishu.cn/docx/RVUxdqE2WolDYyxEKATcM0XXnte)
 
-#### 软件教程：docker 安装
-```bash
-# 安装docker
-curl -sSL https://get.daocloud.io/docker | sh
-sudo systemctl start docker
-```
+## 🏘️ 交流群
 
-#### 软件教程：mongo 安装
-```bash
-docker pull mongo:6.0.4
-docker stop mongo
-docker rm mongo
-docker run -d --name mongo \
-    -e MONGO_INITDB_ROOT_USERNAME= \
-    -e MONGO_INITDB_ROOT_PASSWORD= \
-    -v /root/service/mongo:/data/db \
-    mongo:6.0.4
+添加 wx 进入：  
+![Demo](https://otnvvf-imgs.oss.laf.run/wx300.jpg)
 
-# 检查 mongo 运行情况, 有成功的 logs 代表访问成功
-docker logs mongo
-```
-#### 软件教程: clash 代理
-```bash
-# 下载包
-curl https://glados.rocks/tools/clash-linux.zip -o clash.zip 
-# 解压
-unzip clash.zip
-# 下载终端配置⽂件（改成自己配置文件路径）
-curl https://update.glados-config.com/clash/98980/8f30944/70870/glados-terminal.yaml > config.yaml
-# 赋予运行权限
-chmod +x ./clash-linux-amd64-v1.10.0 
-# 记得配置端口变量：
-export ALL_PROXY=socks5://127.0.0.1:7891
-export http_proxy=http://127.0.0.1:7890
-export https_proxy=http://127.0.0.1:7890
-export HTTP_PROXY=http://127.0.0.1:7890
-export HTTPS_PROXY=http://127.0.0.1:7890
+## Powered by
 
-# 运行脚本: 删除clash - 到 clash 目录 - 删除缓存 - 执行运行
-# 会生成一个 nohup.out 文件，可以看到 clash 的 logs
-OLD_PROCESS=$(pgrep clash)
-if [ ! -z "$OLD_PROCESS" ]; then
-  echo "Killing old process: $OLD_PROCESS"
-  kill $OLD_PROCESS
-fi
-sleep 2
-cd  **/clash
-rm -f ./nohup.out || true
-rm -f ./cache.db || true
-nohup ./clash-linux-amd64-v1.10.0  -d ./ &
-echo "Restart clash"
-```
+- [TuShan: 5 分钟搭建后台管理系统](https://github.com/msgbyte/tushan)
+- [Laf: 3 分钟快速接入三方应用](https://github.com/labring/laf)
+- [Sealos: 快速部署集群应用](https://github.com/labring/sealos)
+- [One API: 令牌管理 & 二次分发，支持 Azure](https://github.com/songquanpeng/one-api)
 
-#### 软件教程：Nginx
-...没写，这个百度吧。
+## 👀 其他
 
-#### redis
+- [FastGpt 常见问题](https://kjqvjse66l.feishu.cn/docx/HtrgdT0pkonP4kxGx8qcu6XDnGh)
+- [docker 部署教程视频](https://www.bilibili.com/video/BV1jo4y147fT/)
+- [公众号接入视频教程](https://www.bilibili.com/video/BV1xh4y1t7fy/)
+- [FastGpt 知识库演示](https://www.bilibili.com/video/BV1Wo4y1p7i1/)
 
-安装
-```bash
-#!/bin/bash
-docker pull redis/redis-stack:6.2.6-v6
-docker stop fast-gpt-redis-stack
-docker rm fast-gpt-redis-stack
+## 第三方生态
 
-docker run -d --name fast-gpt-redis-stack \
-    -v /redis/data:/data \
-    -v /etc/localtime:/etc/localtime:ro \
-    -v /redis.conf:/redis-stack.conf \
-    -e REDIS_ARGS="--requirepass 1111111"\
-    -p 8102:6379 \
-    -p 8103:8001 \
-    --restart unless-stopped \
-    redis/redis-stack:6.2.6-v6
-```
-```bash
-# /redis.conf
-# 开启aop持久化
-appendonly yes
-#default: 持久化文件
-appendfilename "appendonly.aof"
-#default: 每秒同步一次
-appendfsync everysec
-```
-```bash
-# 添加索引
-FT.CREATE idx:model:data:hash ON HASH PREFIX 1 model:data: SCHEMA modelId TAG userId TAG status TAG q TEXT text TEXT vector VECTOR FLAT 6 DIM 1536 DISTANCE_METRIC COSINE TYPE FLOAT32
-```
+- [luolinAI: 企微机器人，开箱即用](https://github.com/luolin-ai/FastGPT-Enterprise-WeChatbot)
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=labring/FastGPT&type=Date)](https://star-history.com/#labring/FastGPT&Date)

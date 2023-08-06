@@ -1,9 +1,9 @@
 ---
 title: rag-stack
-date: 2023-08-05T12:17:08+08:00
+date: 2023-08-06T12:16:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689863663298-4567c6ce9312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689863663298-4567c6ce9312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690222038061-bdfc0705004f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690222038061-bdfc0705004f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
 ---
 
 # [psychic-api/rag-stack](https://github.com/psychic-api/rag-stack)

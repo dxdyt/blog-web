@@ -1,9 +1,9 @@
 ---
 title: audiocraft
-date: 2023-08-05T12:14:03+08:00
+date: 2023-08-06T12:14:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690061521457-f3a7688aa277?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690061521457-f3a7688aa277?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyMDg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689284255307-04257bb8df0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689284255307-04257bb8df0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft)

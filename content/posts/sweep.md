@@ -1,9 +1,9 @@
 ---
 title: sweep
-date: 2023-07-19T12:22:02+08:00
+date: 2023-08-06T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687235453893-eea4323369ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687235453893-eea4323369ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688765938953-a5a7cc205b0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688765938953-a5a7cc205b0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
 ---
 
 # [sweepai/sweep](https://github.com/sweepai/sweep)
@@ -17,17 +17,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1687235453893-eea4323369
 
 <p align="center">
 <a href="https://sweep.dev">
-    <img alt="Landing Page" src="https://img.shields.io/badge/Site-sweep.dev-blue?link=https%3A%2F%2Fsweep.dev">
+    <img alt="Install" src="https://img.shields.io/badge/Install-sweep.dev-blue?link=https%3A%2F%2Fsweep.dev">
 </a>
 <a href="https://docs.sweep.dev/">
     <img alt="Docs" src="https://img.shields.io/badge/Docs-docs.sweep.dev-blue?link=https%3A%2F%2Fdocs.sweep.dev">
 </a> 
 <a href="https://discord.gg/sweep-ai">
     <img src="https://dcbadge.vercel.app/api/server/sweep-ai?style=flat" />
-</a>
-<img alt="PyPI" src="https://img.shields.io/pypi/v/sweepai">
-<a href="https://pepy.tech/project/sweepai">
-    <img src="https://static.pepy.tech/badge/sweepai/month" />
 </a>
 <a href="https://github.com/sweepai/sweep">
     <img src="https://img.shields.io/github/stars/sweepai/sweep" />
@@ -44,88 +40,85 @@ Describe bugs, small features, and refactors like you would to a junior develope
 2. 📝 plans the changes
 3. ⚡**writes a pull request with code**⚡
 
-See highlights at https://docs.sweep.dev/examples.
+### Features 🌠
+
+* 🌠 Turns issues directly into pull requests (without an IDE)
+* 👀 Addresses developer replies & comments on its PRs
+* 🔎 Uses embedding-based code search
+
+
+
+### Why Sweep is Unique 🦄
+
+Unlike Copilot, which only provides IDE based autocompletion, Sweep handles the entire flow end-to-end. Unlike ChatGPT, Sweep does not require pasting files.
+
 
 [Demo](https://github.com/sweepai/sweep/assets/44910023/365ec29f-7317-40a7-9b5e-0af02f2b0e47)
 
-## 🌠 Features
-* 🔧 Turns issues directly into pull requests (without an IDE)
-* 👀 Addresses developer replies & comments on its PRs
-* 🕵️‍♂️ Uses embedding-based code search, with popularity reranking for repository-level code understanding ([🔍 Rebuilding our Search Engine in a Day](https://docs.sweep.dev/blogs/building-code-search))
-* 🎊 New: Fixes PRs based on GitHub Actions feedback
-* 🎊 New: Sweep Chat, a local interface for Sweep (see below)
+---
 
-## 🚀 Getting Started
+## Getting Started 🚀
 
-### ✨ Sweep Github App
-Setting up Sweep is as simple as adding the GitHub bot to a repo, then creating an issue for the bot to address. Here are the steps to get started:
+Install Sweep by adding the [**Sweep GitHub app**](https://github.com/apps/sweep-ai) to your desired repositories.
 
-1. Add the [Sweep GitHub app](https://github.com/apps/sweep-ai) to your desired repos
-2. Read about [recipes](docs/Recipes.md) for best use cases.
-2. Create a new issue in your repo. The issue should describe the problem or feature you want Sweep to address. For example, you could write "Sweep: In sweepai/app/ui.py use an os-agnostic temp directory"
-3. Respond with a message like "Sweep: use a different package instead" to have Sweep retry the issue or pull request. You can also comment on the code for minor changes! Remember to put the "Sweep:" prefix.
-   - 💡 Hint: commenting "revert" reverts all edits in a file.
+* For more details, visit our [✨ Installation](docs/installation.md) page.
 
-We support all languages GPT4 supports, including Python, Typescript, Rust, Go, Java, C# and C++.
+* Note: Sweep only considers issues with the "Sweep:" title on creation and not on update. If you want Sweep to pick up an issue after it has been created, you can add the "Sweep" label to the issue.
 
-### 🗨️ Sweep Chat
-Sweep Chat allows you to interact with Sweep and GitHub locally. You can collaborate on the plan with Sweep, and then have it create the pull request for you. Here's how to use Sweep Chat:
+* We support all languages GPT-4 supports, including Python, JS/TS, Rust, Go, Java, C# and C++.
 
-**Prerequisites:** Install [Sweep GitHub app](https://github.com/apps/sweep-ai) to your repository
+## Limitations of Sweep ⚠️
 
-1. Run `pip3 install sweepai && sweep`. Note that you need **python 3.10+.**
-    - Alternatively run `pip3 install --force-reinstall sweepai && sweep` if the previous command fails.
-    - This runs GitHub authentication in your browser.
+* 🏗️ **Large-scale refactors**: >3 files or >150 lines of code changes (we're working on this!)
+    * e.g. Refactor entire codebase from Tensorflow to PyTorch
 
-2. Copy the 🔵 blue 8-digit code from your terminal into the page. You should only need to do the authentication once.  
-    - Wait a few seconds and Sweep Chat will start. 
+* ⏲️ **Using the latest APIs** that have changed past 2022
+    * e.g. Set up a vector store using LlamaIndex Typescript    
+    * 🎩 If you provide the relevant docs however, then Sweep can do this
 
-3. Choose a repository from the dropdown at the top (the Github app must be installed to this repository).
-    - ⚡ Start chatting with Sweep Chat! ⚡
+* 🖼️ **Editing images** and other non-text assets
+    * e.g. Use the logo to create favicons for our landing page
 
+* ⤵️ **Accessing external APIs**, including fetching API tokens
+    * e.g. Set up sign-in using Ethereum
 
-![Screenshot_20230711_015033](https://github.com/sweepai/sweep/assets/26889185/ed9f05d8-ef86-4f2a-9bca-acdfa24990ac)
+---
 
-Tips:
-* 🔍 Relevant searched files will show up on the right. 
-* 🔘 Sweep Chat creates PRs when the "Create PR" button is clicked. 
-* 💡 You can force dark mode by going to http://127.0.0.1:7861/?__theme=dark.
-
-#### From Source
-If you want the nightly build and or if the latest build has issues.
-
-1. `git clone https://github.com/sweepai/sweep && poetry install`
-2. `python sweepai/app/cli.py`. Note that you need **python 3.10+**.
-
-## 💰 Pricing
-* We charge $120/month for 60 GPT4 tickets per month.
-* For unpaid users, we offer 5 free GPT4 tickets per month.
-* We also offer unlimited GPT3.5 tickets.
-
-## 🤝 Contributing
-Contributions are welcome and greatly appreciated! For detailed guidelines on how to contribute, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
-For more detailed docs, see [🚀 Quickstart](https://docs.sweep.dev/).
-
-## 📘 Story
+## Story 📘
 
 We were frustrated by small tickets, like simple bug fixes, annoying refactors, and small features. Each task required us to open our IDE to fix simple bugs. So we decided to leverage the capabilities of ChatGPT to address this directly in GitHub.
 
 Unlike existing AI solutions, this can solve entire tickets and can be parallelized + asynchronous: developers can spin up 10 tickets and Sweep will address them all at once.
 
-## 📚 The Stack
-- GPT-4 32k 0613 (default)
+## The Stack 📚
+- GPT-4 32k 0613
 - ActiveLoop DeepLake for Vector DB with MiniLM L12 as our embeddings model
 - Modal Labs for infra + deployment
-- Gradio for Sweep Chat
 
-## 🗺️ Roadmap
+## Highlights 🌟
+Examine pull requests created by Sweep [here](https://docs.sweep.dev/examples).
+
+## Pricing
+We offer unlimited GPT3.5 tickets to every user. You also start with 5 GPT4 credits which are used when a PR is created.
+
+For professionals who want more tickets and priority support/feature requests, check out Sweep Pro
+
+## Roadmap 🗺
 See [🗺️ Roadmap](https://docs.sweep.dev/roadmap)
 
-## ⭐ Star History
+---
+
+## Star History ⭐
 
 [![Star History Chart](https://api.star-history.com/svg?repos=sweepai/sweep&type=Date)](https://star-history.com/#sweepai/sweep&Date)
 
 Consider starring us if you're using Sweep so more people hear about us!
+
+## Contributing 🤝
+Contributions are welcome and greatly appreciated! For detailed guidelines on how to contribute, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+* [Sweep Docs](https://docs.sweep.dev/).
+
+
 <h2 align="center">
     Contributors
 </h2>
