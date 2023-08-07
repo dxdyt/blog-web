@@ -1,9 +1,9 @@
 ---
 title: MetaGPT
-date: 2023-08-01T12:16:04+08:00
+date: 2023-08-07T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688904524620-527b42849240?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689774021331-7a9329b3a15c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689774021331-7a9329b3a15c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)
@@ -77,7 +77,7 @@ python setup.py install
 - don't forget to the configuration for mmdc in config.yml
 
     ```yml
-    PUPPETEER_CONFIG: "./puppeteer-config.json"
+    PUPPETEER_CONFIG: "./config/puppeteer-config.json"
     MMDC: "./node_modules/.bin/mmdc"
     ```
 
@@ -85,25 +85,25 @@ python setup.py install
 
 ```bash
 # Step 1: Download metagpt official image and prepare config.yaml
-docker pull metagpt/metagpt:v0.3
+docker pull metagpt/metagpt:v0.3.1
 mkdir -p /opt/metagpt/{config,workspace}
-docker run --rm metagpt/metagpt:v0.3 cat /app/metagpt/config/config.yaml > /opt/metagpt/config/config.yaml
-vim /opt/metagpt/config/config.yaml # Change the config
+docker run --rm metagpt/metagpt:v0.3.1 cat /app/metagpt/config/config.yaml > /opt/metagpt/config/key.yaml
+vim /opt/metagpt/config/key.yaml # Change the config
 
 # Step 2: Run metagpt demo with container
 docker run --rm \
     --privileged \
-    -v /opt/metagpt/config:/app/metagpt/config \
+    -v /opt/metagpt/config/key.yaml:/app/metagpt/config/key.yaml \
     -v /opt/metagpt/workspace:/app/metagpt/workspace \
-    metagpt/metagpt:v0.3 \
+    metagpt/metagpt:v0.3.1 \
     python startup.py "Write a cli snake game"
 
 # You can also start a container and execute commands in it
 docker run --name metagpt -d \
     --privileged \
-    -v /opt/metagpt/config:/app/metagpt/config \
+    -v /opt/metagpt/config/key.yaml:/app/metagpt/config/key.yaml \
     -v /opt/metagpt/workspace:/app/metagpt/workspace \
-    metagpt/metagpt:v0.3
+    metagpt/metagpt:v0.3.1
 
 docker exec -it metagpt /bin/bash
 $ python startup.py "Write a cli snake game"
@@ -121,7 +121,7 @@ The command `docker run ...` do the following things:
 ```bash
 # You can also build metagpt image by yourself.
 git clone https://github.com/geekan/MetaGPT.git
-cd MetaGPT && docker build -t metagpt:v0.3 .
+cd MetaGPT && docker build -t metagpt:custom .
 ```
 
 ## Configuration
@@ -148,7 +148,12 @@ python startup.py "Write a cli snake game" --code_review True
 ```
 
 After running the script, you can find your new project in the `workspace/` directory.
+### Preference of Platform or Tool 
 
+You can tell which platform or tool you want to use when stating your requirements.
+```shell
+python startup.py "Write a cli snake game based on pygame"
+```
 ### Usage
 
 ```

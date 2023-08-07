@@ -1,9 +1,9 @@
 ---
 title: ToolBench
-date: 2023-08-06T12:17:03+08:00
+date: 2023-08-07T12:17:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689819210447-f5c9d9e914d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689819210447-f5c9d9e914d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689913834525-d5796e2a050a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689913834525-d5796e2a050a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/ToolBench](https://github.com/OpenBMB/ToolBench)
@@ -42,6 +42,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1689819210447-f5c9d9e914
 🔨This project (ToolLLM) aims to construct **open-source, large-scale, high-quality** instruction tuning SFT data to facilitate the construction of powerful LLMs with general **tool-use** capability. We aim to empower open-source LLMs to master thousands of diverse real-world APIs. We achieve this by collecting a high-quality instruction-tuning dataset. It is constructed automatically using the latest ChatGPT (gpt-3.5-turbo-16k), which is upgraded with enhanced [function call](https://openai.com/blog/function-calling-and-other-api-updates) capabilities. We provide the dataset, the corresponding training and evaluation scripts, and a capable model ToolLLaMA fine-tuned on ToolBench.
 
 **💁‍♂️💁💁‍♀️Joint Us on [Discord](https://discord.gg/QSC6yTtu)!**
+
+*Read this in [中文](README_ZH.md).*
 
 ## What's New
 

@@ -1,29 +1,29 @@
 ---
 title: tinygrad
-date: 2023-07-06T12:19:46+08:00
+date: 2023-08-07T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687499559554-b12276ea77ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687499559554-b12276ea77ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690476071985-4943f147a85e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690476071985-4943f147a85e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
 ---
 
-# [geohot/tinygrad](https://github.com/geohot/tinygrad)
+# [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad)
 
 <div align="center">
 
-[![logo](https://raw.githubusercontent.com/geohot/tinygrad/master/docs/logo.png)](https://tinygrad.org)
+[![logo](https://raw.githubusercontent.com/tinygrad/tinygrad/master/docs/logo.png)](https://tinygrad.org)
 
 tinygrad: For something between [PyTorch](https://github.com/pytorch/pytorch) and [karpathy/micrograd](https://github.com/karpathy/micrograd). Maintained by [tiny corp](https://tinygrad.org).
 
 <h3>
 
-[Homepage](https://github.com/geohot/tinygrad) | [Documentation](/docs) | [Examples](/examples) | [Showcase](/docs/showcase.md) | [Discord](https://discord.gg/ZjZadyC7PK)
+[Homepage](https://github.com/tinygrad/tinygrad) | [Documentation](/docs) | [Examples](/examples) | [Showcase](/docs/showcase.md) | [Discord](https://discord.gg/ZjZadyC7PK)
 
 </h3>
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/geohot/tinygrad)](https://github.com/geohot/tinygrad/stargazers)
-[![Unit Tests](https://github.com/geohot/tinygrad/actions/workflows/test.yml/badge.svg)](https://github.com/geohot/tinygrad/actions/workflows/test.yml)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tinygrad/tinygrad)](https://github.com/tinygrad/tinygrad/stargazers)
+[![Unit Tests](https://github.com/tinygrad/tinygrad/actions/workflows/test.yml/badge.svg)](https://github.com/tinygrad/tinygrad/actions/workflows/test.yml)
 [![Discord](https://img.shields.io/discord/1068976834382925865)](https://discord.gg/ZjZadyC7PK)
-[![Lines of code](https://img.shields.io/tokei/lines/github/geohot/tinygrad)](https://github.com/geohot/tinygrad)
+[![Lines of code](https://img.shields.io/tokei/lines/github/tinygrad/tinygrad)](https://github.com/tinygrad/tinygrad)
 
 </div>
 
@@ -108,7 +108,7 @@ The current recommended way to install tinygrad is from source.
 ### From source
 
 ```sh
-git clone https://github.com/geohot/tinygrad.git
+git clone https://github.com/tinygrad/tinygrad.git
 cd tinygrad
 python3 -m pip install -e .
 ```
@@ -149,9 +149,9 @@ print(y.grad.numpy())  # dz/dy
 
 There has been a lot of interest in tinygrad lately. Here are some basic guidelines for contributing:
 
-- Bug fixes are the best and always welcome! Like [this one](https://github.com/geohot/tinygrad/pull/421/files).
+- Bug fixes are the best and always welcome! Like [this one](https://github.com/tinygrad/tinygrad/pull/421/files).
 - If you don't understand the code you are changing, don't change it!
-- All code golf PRs will be closed, but [conceptual cleanups](https://github.com/geohot/tinygrad/pull/372/files) are great.
+- All code golf PRs will be closed, but [conceptual cleanups](https://github.com/tinygrad/tinygrad/pull/372/files) are great.
 - Features are welcome. Though if you are adding a feature, you need to include tests.
 - Improving test coverage is great, with reliable non-brittle tests.
 

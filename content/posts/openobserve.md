@@ -1,9 +1,9 @@
 ---
 title: openobserve
-date: 2023-06-15T12:16:18+08:00
+date: 2023-08-07T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683973122992-dcdf1569523d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4MDI0OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
 ---
 
 # [openobserve/openobserve](https://github.com/openobserve/openobserve)
@@ -26,7 +26,9 @@ You can reduce your log storage costs by ~140x compared to Elasticsearch by usin
 
 ## Introduction video
 
-[![OpenObserve Introduction](./screenshots/zo_intro_youtube.png)](https://www.youtube.com/watch?v=fZ-ErfMdF-o)
+
+https://github.com/openobserve/openobserve/assets/4242188/77c71e8c-23f6-4123-b42a-7113b464f7a6
+
 
 ## Features:
 
@@ -50,7 +52,7 @@ For full list of features check [documentation](https://openobserve.ai/docs/#pro
 
 # Installation
 
-You can install OpenObserve in under 2 minutes by following the [quickstart](https://openobserve.ai/docs/guide/quickstart/) documentation
+You can install OpenObserve in under 2 minutes by following the [quickstart](https://openobserve.ai/docs/quickstart/) documentation
 
 # OpenObserve Cloud
 
@@ -66,10 +68,14 @@ You can also try OpenObserve without installing it in under 2 minutes by trying 
 
 ![Home](./screenshots/logs.webp)
 
+## Traces (Opentelemetry supported)
+
+![Traces using Opentelemetry](./screenshots/traces.webp)
+
 
 ## Visualization and dashboard
 
-![Dashboaard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard.png)
 
 ## Alerts
 

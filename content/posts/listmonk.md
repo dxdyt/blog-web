@@ -1,9 +1,9 @@
 ---
 title: listmonk
-date: 2023-08-06T12:16:11+08:00
+date: 2023-08-07T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690315854810-dfeb1c763c27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690315854810-dfeb1c763c27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
 ---
 
 # [knadh/listmonk](https://github.com/knadh/listmonk)

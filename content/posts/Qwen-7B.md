@@ -1,9 +1,9 @@
 ---
 title: Qwen-7B
-date: 2023-08-06T12:14:14+08:00
+date: 2023-08-07T12:16:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687383023903-a1196a5ffd90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687383023903-a1196a5ffd90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688362378022-766308fe48c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688362378022-766308fe48c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B)
@@ -60,7 +60,7 @@ In general, Qwen-7B outperforms the baseline models of a similar model size, and
 <p>
 <br>
 
-For more experimental results (detailed model performance on more benchmark datasets) and details, please refer to our technical memo by clicking [here](techmemo-draft.md).
+For more experimental results (detailed model performance on more benchmark datasets) and details, please refer to our technical memo by clicking [here](tech_memo.md).
 
 ## Requirements
 
