@@ -1,9 +1,9 @@
 ---
 title: MetaGPT
-date: 2023-08-07T12:16:11+08:00
+date: 2023-08-08T12:14:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689774021331-7a9329b3a15c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689774021331-7a9329b3a15c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689265908194-fed7d4896836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689265908194-fed7d4896836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)
@@ -200,6 +200,11 @@ async def startup(idea: str, investment: float = 3.0, n_round: int = 5):
 ```
 
 You can check `examples` for more details on single role (with knowledge base) and LLM only examples.
+
+## QuickStart
+It is difficult to install and configure the local environment for some users. The following tutorials will allow you to quickly experience the charm of MetaGPT.  
+
+- [MetaGPT quickstart](https://deepwisdom.feishu.cn/wiki/Q8ycw6J9tiNXdHk66MRcIN8Pnlg)
 
 ## Contact Information
 

@@ -1,14 +1,15 @@
 ---
 title: Qwen-7B
-date: 2023-08-07T12:16:02+08:00
+date: 2023-08-08T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688362378022-766308fe48c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688362378022-766308fe48c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1525275963076-7a70249a9925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1525275963076-7a70249a9925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B)
 
 <br>
+
 <p align="center">
     <img src="assets/logo.jpg" width="400"/>
 <p>
@@ -83,6 +84,7 @@ If your device supports fp16 or bf16, we recommend installing [flash-attention](
 ```bash
 git clone -b v1.0.8 https://github.com/Dao-AILab/flash-attention
 cd flash-attention && pip install .
+# Below are optional. Installing them might be slow.
 pip install csrc/layer_norm
 pip install csrc/rotary
 ```
@@ -97,8 +99,7 @@ To use Qwen-7B-Chat for the inference, all you need to do is to input a few line
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers.generation import GenerationConfig
 
-# Note: For tokenizer usage, please refer to examples/tokenizer_showcase.ipynb. 
-# The default behavior now has injection attack prevention off.
+# Note: The default behavior now has injection attack prevention off.
 tokenizer = AutoTokenizer.from_pretrained("Qwen/Qwen-7B-Chat", trust_remote_code=True)
 
 # use bf16
@@ -157,7 +158,7 @@ model = AutoModelForCausalLM.from_pretrained("Qwen/Qwen-7B", device_map="auto", 
 model.generation_config = GenerationConfig.from_pretrained("Qwen/Qwen-7B", trust_remote_code=True)
 
 inputs = tokenizer('蒙古国的首都是乌兰巴托（Ulaanbaatar）\n冰岛的首都是雷克雅未克（Reykjavik）\n埃塞俄比亚的首都是', return_tensors='pt')
-inputs = inputs.to('cuda:0')
+inputs = inputs.to(model.device)
 pred = model.generate(**inputs)
 print(tokenizer.decode(pred.cpu()[0], skip_special_tokens=True))
 # 蒙古国的首都是乌兰巴托（Ulaanbaatar）\n冰岛的首都是雷克雅未克（Reykjavik）\n埃塞俄比亚的首都是亚的斯亚贝巴（Addis Ababa）...
@@ -193,6 +194,10 @@ results = pipe(text, history=history)
 response, history = results['response'], results['history']
 print(f'Response: {response}')
 ```
+
+## Tokenizer
+
+Our tokenizer based on tiktoken is different from other tokenizers, e.g., sentencepiece tokenizer. You need to pay attention to special tokens, especially in finetuning. For more detailed information on the tokenizer and related use in fine-tuning, please refer to the [documentation](tokenization_note.md).
 
 ## Quantization
 

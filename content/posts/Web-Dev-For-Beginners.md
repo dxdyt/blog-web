@@ -1,9 +1,9 @@
 ---
 title: Web-Dev-For-Beginners
-date: 2023-06-30T12:19:21+08:00
+date: 2023-08-08T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687707803698-8269353d282f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687707803698-8269353d282f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwOTg1OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690367044199-d39c60785e5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690367044199-d39c60785e5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
@@ -25,12 +25,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1687707803698-8269353d28
 Learn the fundamentals of JavaScript, CSS, and HTML with our comprehensive 12-week course, brought to you by Microsoft Cloud Advocates. Each of the 24 lessons includes pre- and post-lesson quizzes, detailed written instructions, solutions, assignments, and much more. With a project-based approach to learning, our curriculum is designed to help you develop practical skills through hands-on building. Enhance your skills and optimize your knowledge retention with our effective project-based pedagogy.
 
 ### _Are you a student?_
-
-
-Get started with the following resources:
-
-- [Student Hub page](https://docs.microsoft.com/learn/student-hub?WT.mc_id=academic-77807-sagibbon) In this page, you will find beginner resources, Student packs and even ways to get a free cert voucher. This is one page you want to bookmark and check from time to time as we switch out content at least monthly.
-- [Microsoft Student Learn ambassadors](https://studentambassadors.microsoft.com?WT.mc_id=academic-77807-sagibbon) Join a global community of student ambassadors, this could be your way into Microsoft.
 
 Visit [**Student Hub page**](https://docs.microsoft.com/learn/student-hub/?WT.mc_id=academic-77807-sagibbon) where you will find beginner resources, Student packs and even ways to get a free certificate voucher. This is the page you want to bookmark and check from time to time as we switch out content monthly.
 
@@ -106,18 +100,14 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 A PDF of all of the lessons can be found [here](https://microsoft.github.io/Web-Dev-For-Beginners/pdf/readme.pdf).
 
-## Help Wanted!
-
-If you would like to translate all or part of the curriculum, please follow our [Translations](TRANSLATIONS.md) guide.
-
 ## Other Curricula
 
 Our team produces other curricula! Check out:
 
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [AI for Beginners](https://aka.ms/ai-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
 
 ## License

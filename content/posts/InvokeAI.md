@@ -1,9 +1,9 @@
 ---
 title: InvokeAI
-date: 2023-07-27T12:17:07+08:00
+date: 2023-08-08T12:14:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1525275963076-7a70249a9925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1525275963076-7a70249a9925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
 ---
 
 # [invoke-ai/InvokeAI](https://github.com/invoke-ai/InvokeAI)
@@ -133,7 +133,7 @@ and go to http://localhost:9090.
 
 ### Command-Line Installation (for developers and users familiar with Terminals)
 
-You must have Python 3.9 or 3.10 installed on your machine. Earlier or
+You must have Python 3.9 through 3.11 installed on your machine. Earlier or
 later versions are not supported.
 Node.js also needs to be installed along with yarn (can be installed with
 the command `npm install -g yarn` if needed)
@@ -194,8 +194,9 @@ the command `npm install -g yarn` if needed)
 6. Configure InvokeAI and install a starting set of image generation models (you only need to do this once):
 
     ```terminal
-    invokeai-configure
+    invokeai-configure --root .
     ```
+	Don't miss the dot at the end!
 
 7. Launch the web server (do it every time you run InvokeAI):
 
@@ -203,15 +204,9 @@ the command `npm install -g yarn` if needed)
     invokeai-web
     ```
 
-8. Build Node.js assets
+8. Point your browser to http://localhost:9090 to bring up the web interface.
 
-  ```terminal
-  cd invokeai/frontend/web/
-  yarn vite build
-  ```
-
-9. Point your browser to http://localhost:9090 to bring up the web interface.
-10. Type `banana sushi` in the box on the top left and click `Invoke`.
+9. Type `banana sushi` in the box on the top left and click `Invoke`.
 
 Be sure to activate the virtual environment each time before re-launching InvokeAI,
 using `source .venv/bin/activate` or `.venv\Scripts\activate`.

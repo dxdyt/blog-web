@@ -1,9 +1,9 @@
 ---
 title: focus
-date: 2023-08-06T12:17:19+08:00
+date: 2023-08-08T12:18:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690222038061-bdfc0705004f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690222038061-bdfc0705004f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688765938953-a5a7cc205b0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688765938953-a5a7cc205b0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
 ---
 
 # [focus-editor/focus](https://github.com/focus-editor/focus)

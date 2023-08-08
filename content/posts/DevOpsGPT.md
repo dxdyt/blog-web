@@ -1,9 +1,9 @@
 ---
 title: DevOpsGPT
-date: 2023-08-06T12:15:08+08:00
+date: 2023-08-08T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689198923121-c9df32e192eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689198923121-c9df32e192eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
 ---
 
 # [kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)
@@ -13,6 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1690927324993-53afef8c85
 <p align="center">
 <a href="docs/README_CN.md"><img src="docs/files/%E6%96%87%E6%A1%A3-%E4%B8%AD%E6%96%87%E7%89%88-blue.svg" alt="CN doc"></a>
 <a href="README.md"><img src="docs/files/document-English-blue.svg" alt="EN doc"></a>
+<a href="docs/README_JA.md"><img src="docs/files/ドキュメント-日本語-blue.svg" alt="JA doc"></a>
 <a href="http://www.kuafuai.net"><img src="docs/files/%E5%AE%98%E7%BD%91-%E4%BC%81%E4%B8%9A%E7%89%88-purple.svg" alt="EN doc"></a>
 <a href="docs/CONTACT.md"><img src="docs/files/WeChat-%E5%BE%AE%E4%BF%A1-green.svg" alt="roadmap"></a>
 </p>
