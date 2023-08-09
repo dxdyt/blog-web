@@ -1,9 +1,9 @@
 ---
 title: jupyter-ai
-date: 2023-08-07T12:15:13+08:00
+date: 2023-08-09T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690305507709-e65af7842a4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690305507709-e65af7842a4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
 ---
 
 # [jupyterlab/jupyter-ai](https://github.com/jupyterlab/jupyter-ai)

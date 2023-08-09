@@ -1,9 +1,9 @@
 ---
 title: Qwen-7B
-date: 2023-08-08T12:15:07+08:00
+date: 2023-08-09T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1525275963076-7a70249a9925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1525275963076-7a70249a9925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-7B](https://github.com/QwenLM/Qwen-7B)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1525275963076-7a70249a99
 <br>
 
 <p align="center">
-        <a href="README_CN.md">中文</a>&nbsp ｜ &nbspEnglish
+        <a href="README_CN.md">中文</a>&nbsp ｜ &nbspEnglish&nbsp ｜ &nbsp<a href="README_JA.md">日本語</a>
 </p>
 <br><br>
 
@@ -85,8 +85,8 @@ If your device supports fp16 or bf16, we recommend installing [flash-attention](
 git clone -b v1.0.8 https://github.com/Dao-AILab/flash-attention
 cd flash-attention && pip install .
 # Below are optional. Installing them might be slow.
-pip install csrc/layer_norm
-pip install csrc/rotary
+# pip install csrc/layer_norm
+# pip install csrc/rotary
 ```
 
 Now you can start with ModelScope or Transformers.
@@ -120,7 +120,7 @@ print(response)
 # 你好！很高兴为你提供帮助。
 
 # 第二轮对话 2nd dialogue turn
-response, history = model.chat(tokenizer, "给我讲一个年轻人奋斗创业最终取得成功的故事。", history=history) 
+response, history = model.chat(tokenizer, "给我讲一个年轻人奋斗创业最终取得成功的故事。", history=history)
 print(response)
 # 这是一个关于一个年轻人奋斗创业最终取得成功的故事。
 # 故事的主人公叫李明，他来自一个普通的家庭，父母都是普通的工人。从小，李明就立下了一个目标：要成为一名成功的企业家。
@@ -247,14 +247,14 @@ We provide a CLI demo example in `cli_demo.py`, which supports streaming output 
 
 ## Tool Usage
 
-Qwen-7B-Chat is specifically optimized for tool usage, including API, database, models, etc., so that users can build their own Qwen-7B-based LangChain, Agent, and Code Interpreter. In the soon-to-be-released internal evaluation benchmark for assessing tool usage capabilities, we find that Qwen-7B reaches stable performance.
+Qwen-7B-Chat is specifically optimized for tool usage, including API, database, models, etc., so that users can build their own Qwen-7B-based LangChain, Agent, and Code Interpreter. In our evaluation [benchmark](eval/EVALUATION.md) for assessing tool usage capabilities, we find that Qwen-7B reaches stable performance.
 [](https://)
 
 | Model       | Tool Selection (Acc.↑) | Tool Input (Rouge-L↑) | False Positive Error↓ |
 |-------------|------------------------|-----------------------|-----------------------|
 | GPT-4       | 95%                    | **0.90**              | 15%                   |
 | GPT-3.5     | 85%                    | 0.88                  | 75%                   |
-| **Qwen-7B** | **99%**                | 0.89                  | **8.5%**              |
+| **Qwen-7B** | **99%**                | 0.89                  | **9.7%**              |
 
 For how to write and use prompts for ReAct Prompting, please refer to [the ReAct examples](examples/react_prompt.md). The use of tools can enable the model to better perform tasks.
 
@@ -303,4 +303,3 @@ Researchers and developers are free to use the codes and model weights of both Q
 ## Contact Us
 
 If you are interested to leave a message to either our research team or product team, feel free to send an email to qianwen_opensource@alibabacloud.com.
-

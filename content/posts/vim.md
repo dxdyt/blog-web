@@ -1,9 +1,9 @@
 ---
 title: vim
-date: 2023-08-08T12:16:19+08:00
+date: 2023-08-09T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689198923121-c9df32e192eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689198923121-c9df32e192eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
 ---
 
 # [vim/vim](https://github.com/vim/vim)

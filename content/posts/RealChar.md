@@ -1,9 +1,9 @@
 ---
 title: RealChar
-date: 2023-07-22T12:15:55+08:00
+date: 2023-08-09T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688976635448-b3d6ff28aedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688976635448-b3d6ff28aedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
 ---
 
 # [Shaunwei/RealChar](https://github.com/Shaunwei/RealChar)
@@ -68,7 +68,7 @@ __Demo settings: Web, GPT4, ElevenLabs with voice clone, Chroma, Google Speech t
     <img src="https://storage.googleapis.com/assistly/static/realchar/techstack.png" alt="RealChar-tech-stack" width="100%"  style="padding: 20px"/>
 </div>
 
-- ✅**Web**: [Vanilla JS](http://vanilla-js.com/), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- ✅**Web**: [React JS](https://react.dev/), [Vanilla JS](http://vanilla-js.com/), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - ✅**Mobile**: [Swift](https://developer.apple.com/swift/), [WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - ✅**Backend**: [FastAPI](https://fastapi.tiangolo.com/), [SQLite](https://www.sqlite.org/index.html), [Docker](https://www.docker.com/)
 - ✅**Data Ingestion**: [LlamaIndex](https://www.llamaindex.ai/), [Chroma](https://www.trychroma.com/)
@@ -154,7 +154,9 @@ To get your Google Cloud API credentials.json, follow these steps:
 
 ### 3. Prepare Text to Speech - ElevenLabs API Key
 <details><summary>👇click me</summary>
+
 1. Creating an ElevenLabs Account
+
 Visit [ElevenLabs](https://beta.elevenlabs.io/) to create an account. You'll need this to access the text to speech and voice cloning features.
 
 2. In your Profile Setting, you can get an API Key. Save it in a safe place.
@@ -195,6 +197,7 @@ ELEVEN_LABS_API_KEY=<api key>
     ```sh
     alembic upgrade head
     ```
+    This ensures your database schema is up to date. Please run this after every time you pull the main branch.
 - **Step 5**. Setup `.env`: update API keys and select module
    ```sh
    cp .env.example .env
@@ -208,14 +211,14 @@ ELEVEN_LABS_API_KEY=<api key>
 - **Step 7**. Run client:
     - Use **GPT4** for better conversation and **Wear headphone** for best audio(avoid echo)
     - There are two ways to access the web client:
-        - **Option 1**: Open your web browser and navigate to http://localhost:8000 (NOT 0.0.0.0:8000)
-        - **Option 2**: Running the client in React.
+        - **Option 1**: Running the client in React.
             ```sh
             cd client/web
             npm install
             npm start
             ```
             After running these commands, a local development server will start, and your default web browser will open a new tab/window pointing to this server (usually http://localhost:3000).
+        - **Option 2** (legacy frontend): Open your web browser and navigate to http://localhost:8000 (NOT 0.0.0.0:8000)            
     - (Optional) Terminal client: Run the following command in your terminal
     ```sh
     python client/cli.py
@@ -223,13 +226,15 @@ ELEVEN_LABS_API_KEY=<api key>
     - (Optional) mobile client: open `client/mobile/ios/rac/rac.xcodeproj/project.pbxproj` in Xcode and run the app
 - **Step 8**. Select one character to talk to, then start talking
 
+Note if you want to remotely connect to a RealChar server, SSL set up is required to establish the audio connection. 
 
 ## (Optional) 📀 Installation via Docker
 <details><summary>👇click me</summary>
 
-1. Docker image: you can use our docker image directly
+1. Docker image: you can use our docker image directly (if you are not using Apple M1/M2 CPUs)
     ```sh
     docker pull shaunly/real_char:latest
+    docker tag shaunly/real_char:latest realtime-ai-character
     ```
     (Or you want build yourself) Build docker image
     ```sh
@@ -266,20 +271,22 @@ And it should work out of the box.
 
 <br/>
 
-## ⭐️ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Shaunwei/RealChar&type=Date)](https://star-history.com/#Shaunwei/RealChar&Date)
-
 ## 📍 Roadmap
-- [x] Launch v0.0.1 and build a community
-- [x] Move away from Vanilla JS
-- [x] Launch mobile app (iOS TestFlight Beta link: https://testflight.apple.com/join/JA6p9sZQ)
-- [ ] Add authentication for customization
-- [ ] Allow selecting different LLM
-- [ ] Add ability to add community characters
+- [ ] Launch v0.0.3
+- [ ] Create a new character via web UI
+- [ ] Add additional tts service
+- [ ] Better UI/UX for home page
+- [ ] Better UI/UX for conversation page
+- [ ] Support MultiOn
+- [ ] Support SocialAGI
 
 ## 🫶 Contribute to RealChar
 Please check out our [Contribution Guide](contribute.md)!
+
+## 💪 Contributors
+<a href="https://github.com/Shaunwei/RealChar">
+  <img src="https://contrib.rocks/image?repo=Shaunwei/RealChar" />
+</a>
 
 ## 🎲 Community
 - Join us on [Discord](https://discord.gg/e4AYNnFg2F)

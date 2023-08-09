@@ -1,12 +1,12 @@
 ---
 title: incus
-date: 2023-08-06T12:15:57+08:00
+date: 2023-08-09T12:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687383023903-a1196a5ffd90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687383023903-a1196a5ffd90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEyOTUyNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691199046817-d24e6036a3ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691199046817-d24e6036a3ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
 ---
 
-# [cyphar/incus](https://github.com/cyphar/incus)
+# [lxc/incus](https://github.com/lxc/incus)
 
 # Incus
 

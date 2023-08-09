@@ -1,48 +1,42 @@
 ---
 title: FastGPT
-date: 2023-08-07T12:17:41+08:00
+date: 2023-08-09T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688649103581-efd21a8672e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688649103581-efd21a8672e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690695545785-3662bd1f8096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690695545785-3662bd1f8096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
 ---
 
 # [labring/FastGPT](https://github.com/labring/FastGPT)
 
-# Fast GPT
+# FastGPT
 
-Fast GPT 允许你使用自己的 openai API KEY 来快速的调用 openai 接口，目前集成了 Gpt35, Gpt4 和 embedding. 可构建自己的知识库。并且 OpenAPI Chat 接口兼容 OpenAI 接口，意味着你只需修改 BaseUrl 和 Authorization 即可在已有项目基础上接入 FastGpt！
+FastGPT 是一个基于 LLM 大语言模型的知识库问答系统，提供开箱即用的数据处理、模型调用等能力。同时可以通过 Flow 可视化进行工作流编排，从而实现复杂的问答场景！
 
 ## 🛸 在线体验
 
-🎉 [fastgpt.run](https://fastgpt.run/)
-🎉 [ai.fastgpt.run](https://ai.fastgpt.run/)
+🎉 [fastgpt.run](https://fastgpt.run/)（服务器在新加坡，部分地区可能无法直连）
 
-![Demo](docs/imgs/demo.png?raw=true 'demo')
-
-#### 知识库原理图
-
-![KBProcess](docs/imgs/KBProcess.jpg?raw=true 'KBProcess')
+|                                    |                                    |
+| ---------------------------------- | ---------------------------------- |
+| ![Demo](./.github/imgs/intro1.png) | ![Demo](./.github/imgs/intro2.png) |
+| ![Demo](./.github/imgs/intro3.png) | ![Demo](./.github/imgs/intro4.png) |
 
 ## 👨‍💻 开发
 
-项目技术栈: NextJs + TS + ChakraUI + Mongo + Postgres（Vector 插件）  
-这是一个平台项目，非单机项目，除了模型调用外还涉及非常多用户的内容。  
-[本地开发 Quick Start](docs/dev/README.md)
+项目技术栈: NextJs + TS + ChakraUI + Mongo + Postgres（Vector 插件）
 
-## 🚀 私有化部署
-
-- [官方推荐 Sealos 部署](https://sealos.io/docs/examples/ai-applications/install-fastgpt-on-desktop) 无需服务器，代理和域名，高可用。
-- [docker-compose 部署](docs/deploy/docker.md) 单机版。
-- [由社区贡献的宝塔部署和本地运行教程](https://www.bilibili.com/video/BV1tV4y1y7Mj/?vd_source=92041a1a395f852f9d89158eaa3f61b4) 单机版。
+- [快开始本地开发](https://doc.fastgpt.run/docs/develop/dev)
+- [部署 FastGPT](https://doc.fastgpt.run/docs/category/deploy)
 
 ## :point_right: RoadMap
 
 - [FastGpt RoadMap](https://kjqvjse66l.feishu.cn/docx/RVUxdqE2WolDYyxEKATcM0XXnte)
 
-## 🏘️ 交流群
+## 🏘️ 社区交流群
 
-添加 wx 进入：  
-![Demo](https://otnvvf-imgs.oss.laf.run/wx300.jpg)
+| 交流群                                            | 小助手                                         |
+| ------------------------------------------------- | ---------------------------------------------- |
+| ![](https://otnvvf-imgs.oss.laf.run/wxqun300.jpg) | ![](https://otnvvf-imgs.oss.laf.run/wx300.jpg) |
 
 ## Powered by
 
