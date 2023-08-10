@@ -1,9 +1,9 @@
 ---
 title: v
-date: 2023-08-08T12:16:04+08:00
+date: 2023-08-10T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689265908194-fed7d4896836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689265908194-fed7d4896836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688976694262-89230d6133ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688976694262-89230d6133ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
 ---
 
 # [vlang/v](https://github.com/vlang/v)

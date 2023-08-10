@@ -1,15 +1,16 @@
 ---
 title: gpt-engineer
-date: 2023-06-23T12:17:54+08:00
+date: 2023-08-10T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0OTM4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1680111531705-b31dfc654fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1680111531705-b31dfc654fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
 
 # GPT Engineer
-[![Discord Follow](https://dcbadge.vercel.app/api/server/4t5vXHhu?style=flat)](https://discord.gg/4t5vXHhu)
+
+[![Discord Follow](https://dcbadge.vercel.app/api/server/8tcDQ89Ej2?style=flat)](https://discord.gg/8tcDQ89Ej2)
 [![GitHub Repo stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer?style=social)](https://github.com/AntonOsika/gpt-engineer)
 [![Twitter Follow](https://img.shields.io/twitter/follow/antonosika?style=social)](https://twitter.com/AntonOsika)
 
@@ -18,9 +19,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1686062095916-4f96a2e8f9
 
 GPT Engineer is made to be easy to adapt, extend, and make your agent learn how you want your code to look. It generates an entire codebase based on a prompt.
 
-[Demo](https://twitter.com/antonosika/status/1667641038104674306) 👶🤖
+[Demo](https://twitter.com/antonosika/status/1667641038104674306)
 
 ## Project philosophy
+
 - Simple to get value
 - Flexible and easy to add new own "AI steps". See `steps.py`.
 - Incrementally build towards a user experience of:
@@ -38,40 +40,55 @@ For **stable** release:
 - `pip install gpt-engineer`
 
 For **development**:
-- `git clone git@github.com:AntonOsika/gpt-engineer.git`
+- `git clone https://github.com/AntonOsika/gpt-engineer.git`
 - `cd gpt-engineer`
 - `pip install -e .`
   - (or: `make install && source venv/bin/activate` for a venv)
 
 **Setup**
 
-With an api key that has GPT4 access run:
+With an OpenAI API key (preferably with GPT-4 access) run:
 
 - `export OPENAI_API_KEY=[your api key]`
 
+To set API key on windows check the [Windows README](./WINDOWS_README.md).
 
 **Run**:
+
 - Create an empty folder. If inside the repo, you can run:
   - `cp -r projects/example/ projects/my-new-project`
-- Fill in the `main_prompt` file in your new folder
+- Fill in the `prompt` file in your new folder
 - `gpt-engineer projects/my-new-project`
   - (Note, `gpt-engineer --help` lets you see all available options. For example `--steps use_feedback` lets you improve/fix code in a project)
+
+By running gpt-engineer you agree to our [terms](https://github.com/AntonOsika/gpt-engineer/blob/main/TERMS_OF_USE.md).
 
 **Results**
 - Check the generated files in `projects/my-new-project/workspace`
 
 
-## Features
-You can specify the "identity" of the AI agent by editing the files in the `identity` folder.
+To **run in the browser** you can simply:
 
-Editing the identity, and evolving the `main_prompt`, is currently how you make the agent remember things between projects.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/AntonOsika/gpt-engineer/codespaces)
+
+
+
+## Features
+
+You can specify the "identity" of the AI agent by editing the files in the `preprompts` folder.
+
+Editing the `preprompts`, and evolving how you write the project prompt, is how you make the agent remember things between projects.
 
 Each step in `steps.py` will have its communication history with GPT4 stored in the logs folder, and can be rerun with `scripts/rerun_edited_message_logs.py`.
 
-## Contributing
-We are building the open platform for devs to tinker with and build their personal code-generation toolbox.
+## Vision
+The gpt-engineer community is building the **open platform for devs to tinker with and build their personal code-generation toolbox**.
 
-If you want to contribute, please check out the [roadmap](https://github.com/AntonOsika/gpt-engineer/blob/main/ROADMAP.md), [projects](https://github.com/AntonOsika/gpt-engineer/projects?query=is%3Aopen) or [issues tab](https://github.com/AntonOsika/gpt-engineer/issues) in the GitHub repo. You are welcome to read the [contributing document](.github/CONTRIBUTING.md) and join our [Discord 💬](https://discord.gg/4t5vXHhu).
+If you are interested in contributing to this, we would be interested in having you.
+
+If you want to see our broader ambitions, check out the [roadmap](https://github.com/AntonOsika/gpt-engineer/blob/main/ROADMAP.md), and join
+[discord](https://discord.gg/8tcDQ89Ej2)
+to get input on how you can [contribute](.github/CONTRIBUTING.md) to it.
 
 We are currently looking for more maintainers and community organisers. Email anton.osika@gmail.com if you are interested in an official role.
 

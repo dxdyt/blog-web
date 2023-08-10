@@ -1,0 +1,167 @@
+---
+title: candle
+date: 2023-08-10T12:15:01+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1688976694262-89230d6133ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688976694262-89230d6133ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+---
+
+# [huggingface/candle](https://github.com/huggingface/candle)
+
+# candle
+[![Latest version](https://img.shields.io/crates/v/candle-core.svg)](https://crates.io/crates/candle-core)
+[![Documentation](https://docs.rs/candle-core/badge.svg)](https://docs.rs/candle-core)
+![License](https://img.shields.io/crates/l/candle-core.svg)
+
+Candle is a minimalist ML framework for Rust with a focus on easiness of use and
+on performance (including GPU support). Try our online demos: 
+[whisper](https://huggingface.co/spaces/lmz/candle-whisper),
+[llama2](https://huggingface.co/spaces/lmz/candle-llama2).
+
+```rust
+let a = Tensor::randn(0f32, 1., (2, 3), &Device::Cpu)?;
+let b = Tensor::randn(0f32, 1., (3, 4), &Device::Cpu)?;
+
+let c = a.matmul(&b)?;
+println!("{c}");
+```
+
+## Check out our examples
+
+Check out our [examples](./candle-examples/examples/):
+
+- [Whisper](./candle-examples/examples/whisper/): speech recognition model.
+- [Llama and Llama-v2](./candle-examples/examples/llama/): general LLM.
+- [Falcon](./candle-examples/examples/falcon/): general LLM.
+- [Bert](./candle-examples/examples/bert/): useful for sentence embeddings.
+- [StarCoder](./candle-examples/examples/bigcode/): LLM specialized to code
+  generation.
+
+Run them using the following commands:
+```
+cargo run --example whisper --release
+cargo run --example llama --release
+cargo run --example falcon --release
+cargo run --example bert --release
+cargo run --example bigcode --release
+```
+
+In order to use **CUDA** add `--features cuda` to the example command line.
+
+There are also some wasm examples for whisper and
+[llama2.c](https://github.com/karpathy/llama2.c). You can either build them with
+`trunk` or try them online:
+[whisper](https://huggingface.co/spaces/lmz/candle-whisper),
+[llama2](https://huggingface.co/spaces/lmz/candle-llama2).
+
+For llama2, run the following command to retrieve the weight files and start a
+test server:
+```bash
+cd candle-wasm-examples/llama2-c
+wget https://karpathy.ai/llama2c/model.bin
+wget https://github.com/karpathy/llama2.c/raw/master/tokenizer.bin
+trunk serve --release --public-url /candle-llama2/ --port 8081
+```
+And then browse to
+[http://localhost:8081/candle-llama2](http://localhost:8081/candle-llama2).
+
+<!--- ANCHOR: features --->
+
+## Features
+
+- Simple syntax, looks and feels like PyTorch.
+- CPU and Cuda backends, m1, f16, bf16.
+- Enable serverless (CPU), small and fast deployments
+- WASM support, run your models in a browser.
+- Model training.
+- Distributed computing using NCCL.
+- Models out of the box: Llama, Whisper, Falcon, StarCoder...
+- Embed user-defined ops/kernels, such as [flash-attention
+  v2](https://github.com/huggingface/candle/blob/89ba005962495f2bfbda286e185e9c3c7f5300a3/candle-flash-attn/src/lib.rs#L152).
+
+<!--- ANCHOR_END: features --->
+
+## How to use ?
+
+<!--- ANCHOR: cheatsheet --->
+Cheatsheet:
+
+|            | Using PyTorch                            | Using Candle                                                     |
+|------------|------------------------------------------|------------------------------------------------------------------|
+| Creation   | `torch.Tensor([[1, 2], [3, 4]])`         | `Tensor::new(&[[1f32, 2.], [3., 4.]], &Device::Cpu)?`           |
+| Creation   | `torch.zeros((2, 2))`                    | `Tensor::zeros((2, 2), DType::F32, &Device::Cpu)?`               |
+| Indexing   | `tensor[:, :4]`                          | `tensor.i((.., ..4))?`                                           |
+| Operations | `tensor.view((2, 2))`                    | `tensor.reshape((2, 2))?`                                        |
+| Operations | `a.matmul(b)`                            | `a.matmul(&b)?`                                                  |
+| Arithmetic | `a + b`                                  | `&a + &b`                                                        |
+| Device     | `tensor.to(device="cuda")`               | `tensor.to_device(&Device::Cuda(0))?`                            |
+| Dtype      | `tensor.to(dtype=torch.float16)`         | `tensor.to_dtype(&DType::F16)?`                                  |
+| Saving     | `torch.save({"A": A}, "model.bin")`      | `candle::safetensors::save(&HashMap::from([("A", A)]), "model.safetensors")?` |
+| Loading    | `weights = torch.load("model.bin")`      | `candle::safetensors::load("model.safetensors", &device)`        |
+
+<!--- ANCHOR_END: cheatsheet --->
+
+
+## Structure
+
+- [candle-core](./candle-core): Core ops, devices, and `Tensor` struct definition
+- [candle-nn](./candle-nn/): Facilities to build real models
+- [candle-examples](./candle-examples/): Real-world like examples on how to use the library in real settings
+- [candle-kernels](./candle-kernels/): CUDA custom kernels
+- [candle-datasets](./candle-datasets/): Datasets and data loaders.
+- [candle-transformers](./candle-transformers): Transformer related utilities.
+- [candle-flash-attn](./candle-flash-attn): Flash attention v2 layer.
+
+## FAQ
+
+### Why Candle?
+
+Candle stems from the need to reduce binary size in order to *enable serverless*
+possible by making the whole engine smaller than PyTorch very large library volume.
+This enables creating runtimes on a cluster much faster.
+
+And simply *removing Python* from production workloads.
+Python can really add overhead in more complex workflows and the [GIL](https://www.backblaze.com/blog/the-python-gil-past-present-and-future/) is a notorious source of headaches.
+
+Rust is cool, and a lot of the HF ecosystem already has Rust crates [safetensors](https://github.com/huggingface/safetensors) and [tokenizers](https://github.com/huggingface/tokenizers).
+
+
+### Other ML frameworks
+
+- [dfdx](https://github.com/coreylowman/dfdx) is a formidable crate, with shapes being included
+  in types preventing a lot of headaches by getting compiler to complain about shape mismatch right off the bat
+  However we found that some features still require nightly and writing code can be a bit daunting for non rust experts.
+
+  We're leveraging and contributing to other core crates for the runtime so hopefully both crates can benefit from each
+  other
+
+- [burn](https://github.com/burn-rs/burn) is a general crate that can leverage multiple backends so you can choose the best
+  engine for your workload
+
+- [tch-rs](https://github.com/LaurentMazare/tch-rs.git) Bindings to the torch library in Rust. Extremely versatile, but they 
+  do bring in the entire torch library into the runtime. The main contributor of `tch-rs` is also involved in the development
+  of `candle`.
+
+### Missing symbols when compiling with the mkl feature.
+
+If you get some missing symbols when compiling binaries/tests using the mkl
+features, e.g.:
+```
+  = note: /usr/bin/ld: (....o): in function `blas::sgemm':
+          .../blas-0.22.0/src/lib.rs:1944: undefined reference to `sgemm_' collect2: error: ld returned 1 exit status
+
+  = note: some `extern` functions couldn't be found; some native libraries may need to be installed or have their path specified
+  = note: use the `-l` flag to specify native libraries to link
+  = note: use the `cargo:rustc-link-lib` directive to specify the native libraries to link with Cargo (see https://doc.rust-lang.org/cargo/reference/build-scripts.html#cargorustc-link-libkindname)
+```
+
+This is likely due to some missing linker flag that enable the mkl library. You
+can try adding the following at the top of your binary:
+```
+extern crate intel_mkl_src;
+```
+
+### How to know where an error comes from.
+
+You can set `RUST_BACKTRACE=1` to be provided with backtraces when a candle
+error is generated.

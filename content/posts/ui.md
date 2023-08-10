@@ -1,12 +1,12 @@
 ---
 title: ui
-date: 2023-05-24T12:17:55+08:00
+date: 2023-08-10T12:16:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12157/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12157/0/1080p
+featuredImage: https://images.unsplash.com/photo-1687217914134-3cd71ed455fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687217914134-3cd71ed455fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
 ---
 
-# [shadcn/ui](https://github.com/shadcn/ui)
+# [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
 
 # shadcn/ui
 

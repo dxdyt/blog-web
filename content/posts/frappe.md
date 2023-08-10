@@ -1,9 +1,9 @@
 ---
 title: frappe
-date: 2023-08-09T12:17:09+08:00
+date: 2023-08-10T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689886429964-76c1b988742a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689886429964-76c1b988742a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689834994602-c7f79d8a1229?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689834994602-c7f79d8a1229?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
 ---
 
 # [frappe/frappe](https://github.com/frappe/frappe)
