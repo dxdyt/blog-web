@@ -1,9 +1,9 @@
 ---
 title: typescript-tutorial
-date: 2023-08-10T12:15:31+08:00
+date: 2023-08-11T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689581919479-27cdd6ae024d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689581919479-27cdd6ae024d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689089376473-31e29cdc4f35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689089376473-31e29cdc4f35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
 ---
 
 # [wangdoc/typescript-tutorial](https://github.com/wangdoc/typescript-tutorial)

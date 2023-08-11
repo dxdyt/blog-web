@@ -1,9 +1,9 @@
 ---
 title: one-api
-date: 2023-08-10T12:17:00+08:00
+date: 2023-08-11T12:14:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036672868-f4e53b68cd43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036672868-f4e53b68cd43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690478263774-56cc8d20ebeb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690478263774-56cc8d20ebeb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
 ---
 
 # [songquanpeng/one-api](https://github.com/songquanpeng/one-api)

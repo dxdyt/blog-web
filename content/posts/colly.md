@@ -1,9 +1,9 @@
 ---
 title: colly
-date: 2023-08-09T12:17:31+08:00
+date: 2023-08-11T12:17:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689886429964-76c1b988742a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689886429964-76c1b988742a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
 ---
 
 # [gocolly/colly](https://github.com/gocolly/colly)

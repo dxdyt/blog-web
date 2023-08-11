@@ -1,9 +1,9 @@
 ---
 title: MetaGPT
-date: 2023-08-10T12:15:11+08:00
+date: 2023-08-11T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689457362806-af3a973a3c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689457362806-af3a973a3c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689162972033-7e32b51050be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689162972033-7e32b51050be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)
@@ -43,7 +43,7 @@ For example, if you type `python startup.py "Design a RecSys like Toutiao"`, you
 
 ![Jinri Toutiao Recsys Data & API Design](docs/resources/workspace/content_rec_sys/resources/data_api_design.png)
 
-It requires around **$0.2** (GPT-4 api's costs) to generate one example with analysis and design, around **$2.0** to a full project.
+It costs approximately **$0.2** (in GPT-4 API fees) to generate one example with analysis and design, and around **$2.0** for a full project.
 
 ## Installation
 

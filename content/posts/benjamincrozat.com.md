@@ -1,9 +1,9 @@
 ---
 title: benjamincrozat.com
-date: 2023-08-10T12:15:46+08:00
+date: 2023-08-11T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689834994602-c7f79d8a1229?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689834994602-c7f79d8a1229?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
 ---
 
 # [benjamincrozat/benjamincrozat.com](https://github.com/benjamincrozat/benjamincrozat.com)
@@ -14,17 +14,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1689834994602-c7f79d8a12
 
 # [benjamincrozat.com](https://benjamincrozat.com)
 
-This is the source code of my blog, [benjamincrozat.com](https://benjamincrozat.com). This blog was built with the TALL stack and gets more than **20K visitors per month**.
+This is the source code of my blog, [benjamincrozat.com](https://benjamincrozat.com). This blog was built with the TALL stack and gets more than **30K visitors per month**.
 
 <figure>
-    <img src="https://github.com/benjamincrozat/benjamincrozat.com/assets/3613731/0d631e69-131b-49c9-b015-5820fa02a459" alt="My Pirsch Analytics Dashboard." />
+    <img src="https://github.com/benjamincrozat/benjamincrozat.com/assets/3613731/470cc829-c23f-4cdd-b769-68c2726fa738" alt="My Pirsch Analytics Dashboard." />
     <figcaption>My <a href="https://benjamincrozat.com/recommends/pirsch">Pirsch Analytics</a> dashboard that is <a href="https://benjamincrozat.pirsch.io/?domain=benjamincrozat.com&interval=30d&scale=day">publicly accessible</a>.</figcaption>
 </figure>
 
 &nbsp;
 
 <figure>
-    <img src="https://github.com/benjamincrozat/benjamincrozat.com/assets/3613731/452bea4e-e9e5-47bc-8624-31d56deb6c49" alt="My Google Search Console." />
+    <img src="https://github.com/benjamincrozat/benjamincrozat.com/assets/3613731/da83c642-08ec-4f9d-a027-17bca2db7e42" alt="My Google Search Console." />
     <figcaption>My Google Search Console. You can see the growth since I launched in September 2022.</figcaption>
 </figure>
 

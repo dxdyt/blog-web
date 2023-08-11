@@ -1,9 +1,9 @@
 ---
 title: first-contributions
-date: 2023-08-10T12:16:34+08:00
+date: 2023-08-11T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687217914134-3cd71ed455fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687217914134-3cd71ed455fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
 ---
 
 # [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687217914134-3cd71ed455
 <kbd>[<img title="Azərbaycan dili" alt="Azərbaycan dili" src="https://cdn.statically.io/flags/az.svg" width="22">](translations/README.aze.md)</kbd>
 <kbd>[<img title="বাংলা" alt="বাংলা" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/bd.svg" width="22">](translations/README.bn.md)</kbd>
 <kbd>[<img title="Bulgarian" alt="Bulgarian" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/bg.svg" width="22">](translations/README.bg.md)</kbd>
-<kbd>[<img title="Português" alt="Português" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/br.svg" width="22">](translations/README.pt_br.md)</kbd>
+<kbd>[<img title="Português (Brasil)" alt="Português (Brasil)" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/br.svg" width="22">](translations/README.pt_br.md)</kbd>
 <kbd>[<img title="Català" alt="Català" src="https://firstcontributions.github.io/assets/Readme/catalan1.png" width="22">](translations/README.ca.md)</kbd>
 <kbd>[<img title="中文 (Simplified)" alt="中文 (Simplified)" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/cn.svg" width="22">](translations/README.zh-cn.md)</kbd>
 <kbd>[<img title="Czech" alt="Czech" src="https://cdn.staticaly.com/gh/hjnilsson/country-flags/master/svg/cz.svg" width="22">](translations/README.cs.md)</kbd>
