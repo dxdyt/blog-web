@@ -1,9 +1,9 @@
 ---
 title: generative_agents
-date: 2023-08-11T12:15:00+08:00
+date: 2023-08-12T12:14:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688470881717-b6795aabad2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688470881717-b6795aabad2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690456042533-9359b8d12222?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690456042533-9359b8d12222?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [joonspk-research/generative_agents](https://github.com/joonspk-research/generative_agents)
@@ -142,7 +142,7 @@ series = {UIST '23}
 ## <img src="https://joonsungpark.s3.amazonaws.com:443/static/assets/characters/profile/Wolfgang_Schulz.png" alt="Generative Wolfgang">   Acknowledgements
 
 We encourage you to support the following three amazing artists who have designed the game assets for this project, especially if you are planning to use the assets included here for your own project: 
-* Background art: [PixyMoon (@_PixyMoon _)](https://twitter.com/_PixyMoon_)
+* Background art: [PixyMoon (@_PixyMoon\_)](https://twitter.com/_PixyMoon_)
 * Furniture/interior design: [LimeZu (@lime_px)](https://twitter.com/lime_px)
 * Character design: [ぴぽ (@pipohi)](https://twitter.com/pipohi)
 

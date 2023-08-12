@@ -1,9 +1,9 @@
 ---
 title: candle
-date: 2023-08-11T12:14:37+08:00
+date: 2023-08-12T12:13:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690983177909-188b2b80b35b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690651166371-6d5a5412db4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690651166371-6d5a5412db4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/candle](https://github.com/huggingface/candle)
@@ -36,6 +36,8 @@ Check out our [examples](./candle-examples/examples/):
 - [Bert](./candle-examples/examples/bert/): useful for sentence embeddings.
 - [StarCoder](./candle-examples/examples/bigcode/): LLM specialized to code
   generation.
+- [Stable Diffusion](./candle-examples/examples/stable-diffusion/): text to
+  image generative model, only cpu support at the moment and on the slow side.
 
 Run them using the following commands:
 ```
@@ -44,6 +46,7 @@ cargo run --example llama --release
 cargo run --example falcon --release
 cargo run --example bert --release
 cargo run --example bigcode --release
+cargo run --example stable-diffusion --release --features image -- --prompt "a rusty robot holding a fire torch"
 ```
 
 In order to use **CUDA** add `--features cuda` to the example command line.
