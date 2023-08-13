@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2023-07-27T12:16:01+08:00
+date: 2023-08-13T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1670459471984-26e534ab2c3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1670459471984-26e534ab2c3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
@@ -19,6 +19,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1689623852149-f59f4fcaec
 [![Twitter Follow](https://img.shields.io/twitter/follow/FlowiseAI?style=social)](https://twitter.com/FlowiseAI)
 [![GitHub star chart](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social)](https://star-history.com/#FlowiseAI/Flowise)
 [![GitHub fork](https://img.shields.io/github/forks/FlowiseAI/Flowise?style=social)](https://github.com/FlowiseAI/Flowise/fork)
+
+English | [中文](<./README-ZH.md>)
 
 <h3>Drag & drop UI to build your customized LLM flow</h3>
 <a href="https://github.com/FlowiseAI/Flowise">
@@ -51,7 +53,7 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 ### Docker Compose
 
 1. Go to `docker` folder at the root of the project
-2. Create `.env` file and specify the `PORT` (refer to `.env.example`)
+2. Copy `.env.example` file, paste it into the same location, and rename to `.env`
 3. `docker-compose up -d`
 4. Open [http://localhost:3000](http://localhost:3000)
 5. You can bring the containers down by `docker-compose stop`
@@ -160,6 +162,10 @@ Flowise support different environment variables to configure your instance. You 
 ### [Render](https://docs.flowiseai.com/deployment/render)
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://docs.flowiseai.com/deployment/render)
+
+### [HuggingFace Spaces](https://docs.flowiseai.com/deployment/hugging-face)
+
+<a href="https://huggingface.co/spaces/FlowiseAI/Flowise"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="HuggingFace Spaces"></a>
 
 ### [AWS](https://docs.flowiseai.com/deployment/aws)
 

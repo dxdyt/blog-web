@@ -1,9 +1,9 @@
 ---
 title: mlc-llm
-date: 2023-07-21T12:17:56+08:00
+date: 2023-08-13T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689089376934-9a0b8a6b7fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689089376934-9a0b8a6b7fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690124019957-379fb2b53e76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690124019957-379fb2b53e76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
 ---
 
 # [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm)
@@ -27,15 +27,16 @@ Everything runs locally  with no server support and accelerated with local GPUs 
 * NVIDIA GPUs via CUDA on Windows and Linux;
 * WebGPU on browsers (through companion project [WebLLM](https://github.com/mlc-ai/web-llm/tree/main)).
 
-**[Click here to join our Discord server!][discord-url]**
-
-**[News] MLC LLM now supports 7B/13B/70B Llama-2 !!**
-
 <ins>**[Check out our instruction page to try out!](https://mlc.ai/mlc-llm/docs/get_started/try_out.html)**</ins>
 
 <p align="center">
   <img src="site/gif/ios-demo.gif" height="700">
 </p>
+
+## News
+
+* [08/02/2023] [Dockerfile](https://github.com/junrushao/llm-perf-bench/) released for CUDA performance benchmarking
+* [07/19/2023] Supports 7B/13B/70B Llama-2
 
 ## What is MLC LLM?
 

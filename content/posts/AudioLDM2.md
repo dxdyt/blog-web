@@ -1,16 +1,16 @@
 ---
 title: AudioLDM2
-date: 2023-08-11T12:15:10+08:00
+date: 2023-08-13T12:14:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690282419530-f908158270da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690282419530-f908158270da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE3MjcyNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1670459471984-26e534ab2c3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1670459471984-26e534ab2c3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
 ---
 
 # [haoheliu/AudioLDM2](https://github.com/haoheliu/AudioLDM2)
 
 # AudioLDM 2
 
-[![arXiv](https://img.shields.io/badge/arXiv-2301.12503-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2301.12503)  [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://audioldm.github.io/audioldm2/)  [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/haoheliu/audioldm2-text2audio-text2music)  
+[![arXiv](https://img.shields.io/badge/arXiv-2308.05734-brightgreen.svg?style=flat-square)](https://arxiv.org/abs/2308.05734)  [![githubio](https://img.shields.io/badge/GitHub.io-Audio_Samples-blue?logo=Github&style=flat-square)](https://audioldm.github.io/audioldm2/)  [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/haoheliu/audioldm2-text2audio-text2music)  
 
 This repo currently support Text-to-Audio Generation (including Music)
 
@@ -109,14 +109,19 @@ We have three checkpoints you can choose for now:
 If you found this tool useful, please consider citing
 
 ```bibtex
-    AudioLDM 2 paper coming soon
+@article{liu2023audioldm2,
+  title={{AudioLDM 2}: Learning Holistic Audio Generation with Self-supervised Pretraining},
+  author={Haohe Liu and Qiao Tian and Yi Yuan and Xubo Liu and Xinhao Mei and Qiuqiang Kong and Yuping Wang and Wenwu Wang and Yuxuan Wang and Mark D. Plumbley},
+  journal={arXiv preprint arXiv:2308.05734},
+  year={2023}
+}
 ```
 
 ```bibtex
 @article{liu2023audioldm,
-  title={AudioLDM: Text-to-Audio Generation with Latent Diffusion Models},
+  title={{AudioLDM}: Text-to-Audio Generation with Latent Diffusion Models},
   author={Liu, Haohe and Chen, Zehua and Yuan, Yi and Mei, Xinhao and Liu, Xubo and Mandic, Danilo and Wang, Wenwu and Plumbley, Mark D},
-  journal={arXiv preprint arXiv:2301.12503},
+  journal={Proceedings of the International Conference on Machine Learning},
   year={2023}
 }
 ```

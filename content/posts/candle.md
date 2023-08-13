@@ -1,14 +1,15 @@
 ---
 title: candle
-date: 2023-08-12T12:13:58+08:00
+date: 2023-08-13T12:14:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690651166371-6d5a5412db4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690651166371-6d5a5412db4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/candle](https://github.com/huggingface/candle)
 
 # candle
+[![discord server](https://dcbadge.vercel.app/api/server/hugging-face-879548962464493619)](https://discord.com/channels/879548962464493619/1136218819447238726)
 [![Latest version](https://img.shields.io/crates/v/candle-core.svg)](https://crates.io/crates/candle-core)
 [![Documentation](https://docs.rs/candle-core/badge.svg)](https://docs.rs/candle-core)
 ![License](https://img.shields.io/crates/l/candle-core.svg)
@@ -145,7 +146,9 @@ Finally, Rust is cool! A lot of the HF ecosystem already has Rust crates, like [
   bring in the entire torch library into the runtime. The main contributor of `tch-rs` is also involved in the development
   of `candle`.
 
-### Missing symbols when compiling with the mkl feature.
+### Common Errors
+
+#### Missing symbols when compiling with the mkl feature.
 
 If you get some missing symbols when compiling binaries/tests using the mkl
 features, e.g.:
@@ -164,7 +167,19 @@ can try adding the following at the top of your binary:
 extern crate intel_mkl_src;
 ```
 
-### Tracking down errors
+#### Cannot run llama example : access to source requires login credentials
+
+```
+Error: request error: https://huggingface.co/meta-llama/Llama-2-7b-hf/resolve/main/tokenizer.json: status code 401
+```
+
+This is likely because you're not permissioned for the llama-v2 model. To fix
+this, you have to register on the huggingface-hub, accept the [llama-v2 model
+conditions](https://huggingface.co/meta-llama/Llama-2-7b-hf), and set up your
+authentication token. See issue
+[#350](https://github.com/huggingface/candle/issues/350) for more details.
+
+#### Tracking down errors
 
 You can set `RUST_BACKTRACE=1` to be provided with backtraces when a candle
 error is generated.

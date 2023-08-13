@@ -1,9 +1,9 @@
 ---
 title: cloudsploit
-date: 2023-08-12T12:16:03+08:00
+date: 2023-08-13T12:15:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691472249632-6bddca79b51d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691472249632-6bddca79b51d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
 ---
 
 # [aquasecurity/cloudsploit](https://github.com/aquasecurity/cloudsploit)
