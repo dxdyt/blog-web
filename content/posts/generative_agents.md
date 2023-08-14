@@ -1,9 +1,9 @@
 ---
 title: generative_agents
-date: 2023-08-13T12:13:49+08:00
+date: 2023-08-14T12:14:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689866431072-3a1605f16bec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689866431072-3a1605f16bec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
 ---
 
 # [joonspk-research/generative_agents](https://github.com/joonspk-research/generative_agents)

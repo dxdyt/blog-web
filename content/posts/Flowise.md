@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2023-08-13T12:16:17+08:00
+date: 2023-08-14T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1670459471984-26e534ab2c3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1670459471984-26e534ab2c3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1681255633332-61b53fa198e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1681255633332-61b53fa198e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)

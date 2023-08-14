@@ -1,9 +1,9 @@
 ---
 title: PeiQi-WIKI-Book
-date: 2023-08-13T12:14:30+08:00
+date: 2023-08-14T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689164907758-b075c7bc76cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689164907758-b075c7bc76cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690205074022-560b3587cbc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690205074022-560b3587cbc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
 ---
 
 # [PeiQi0/PeiQi-WIKI-Book](https://github.com/PeiQi0/PeiQi-WIKI-Book)

@@ -1,9 +1,9 @@
 ---
 title: Folia
-date: 2023-04-01T12:16:13+08:00
+date: 2023-08-14T12:17:05+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11971/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11971/0/1080p
+featuredImage: https://images.unsplash.com/photo-1682814270823-b3b2bce8c6d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682814270823-b3b2bce8c6d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
 ---
 
 # [PaperMC/Folia](https://github.com/PaperMC/Folia)
@@ -17,7 +17,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11971/0/1080p
 ## Overview
 
 Folia groups nearby loaded chunks to form an "independent region."
-See [REGION_LOGIC.md](REGION_LOGIC.md) for exact details on how Folia
+See [the PaperMC documentation](https://docs.papermc.io/folia/reference/region-logic) for exact details on how Folia
 will group nearby chunks.
 Each independent region has its own tick loop, which is ticked at the
 regular Minecraft tickrate (20TPS). The tick loops are executed
@@ -159,7 +159,7 @@ issues, which then become near impossible to debug.
 ### Current API additions
 
 To properly understand API additions, please read
-[PROJECT_DESCRIPTION.md](PROJECT_DESCRIPTION.md).
+[Project overview](https://docs.papermc.io/folia/reference/overview).
 
 - RegionScheduler, AsyncScheduler, GlobalRegionScheduler, and EntityScheduler 
   acting as a replacement for  the BukkitScheduler.
@@ -171,7 +171,7 @@ To properly understand API additions, please read
 ### Thread contexts for API
 
 To properly understand API additions, please read
-[PROJECT_DESCRIPTION.md](PROJECT_DESCRIPTION.md).
+[Project overview](https://docs.papermc.io/folia/reference/overview).
 
 General rules of thumb:
 
@@ -226,7 +226,7 @@ even though there is no main thread anymore.
 <dependency>
     <groupId>dev.folia</groupId>
     <artifactId>folia-api</artifactId>
-    <version>1.19.4-R0.1-SNAPSHOT</version>
+    <version>1.20.1-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
  ```

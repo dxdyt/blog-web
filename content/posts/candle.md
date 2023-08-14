@@ -1,9 +1,9 @@
 ---
 title: candle
-date: 2023-08-13T12:14:52+08:00
+date: 2023-08-14T12:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689414126346-b21dfbc308de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689866431072-3a1605f16bec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689866431072-3a1605f16bec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/candle](https://github.com/huggingface/candle)

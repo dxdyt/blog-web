@@ -1,9 +1,9 @@
 ---
 title: superagent
-date: 2023-07-19T12:22:24+08:00
+date: 2023-08-14T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688283581052-7da75fe95a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688283581052-7da75fe95a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689327021885-c9091f4a2aa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689327021885-c9091f4a2aa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
 ---
 
 # [homanp/superagent](https://github.com/homanp/superagent)
@@ -69,6 +69,16 @@ To get started with Superagent, follow these steps:
 
 3. See the setup instructions for the UI in the `ui` folder.
 
+## 📦 Run locally with docker and docker compose
+
+In the `.docker` folder there are multiple docker-compose files.
+
+The main `docker-conpose.yml` file will start up the API and a Postgres DB in docker. You can optionally also run the UI in docker too.
+
+The other docker compose files can be used individually, or in combination to start up just the bits you need.
+
+> follow the guide in [.docker/README.md](.docker/README.md) file to get started
+
 ## 🌎 Environment variables
 
 To run this project, you will need to add the following environment variables to your .env file
@@ -88,6 +98,8 @@ To run this project, you will need to add the following environment variables to
 `PINECONE_ENVIRONMENT` - Pinecone environment (found in the pinecone dashboard)
 
 `PINECONE_API_KEY` - Pinecone API key (found in the pinecone dashboard)
+
+`PINECONE_INDEX` - The name of the Pinecone index you would like to use
 
 `SUPERAGENT_TRACING` - If you want to enable agent tracing
 
