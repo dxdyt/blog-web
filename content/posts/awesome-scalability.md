@@ -1,9 +1,9 @@
 ---
 title: awesome-scalability
-date: 2023-08-14T12:16:15+08:00
+date: 2023-08-15T12:15:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690950965726-887b05bfa548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690950965726-887b05bfa548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
 ---
 
 # [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)

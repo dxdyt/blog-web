@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2023-07-13T12:18:11+08:00
+date: 2023-08-15T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687626598913-502dcab9e9cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687626598913-502dcab9e9cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690282419530-f908158270da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690282419530-f908158270da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -31,13 +31,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1687626598913-502dcab9e9
   <a href="README_zh_CN.md">中文</a>
   <a href="README_tr_TR.md">Türkçe</a>
   <a href="README_ca_ES.md">Català</a>
+  <a href="README_es_ES.md">Español</a>
 </p>
 
 ## Disclaimer
 
 - ⚠️ The project is under **very active** development.
 - ⚠️ Expect bugs and breaking changes.
-- ⚠️ **Do not use the app as the only way to store your photos and videos!**
+- ⚠️ **Do not use the app as the only way to store your photos and videos.**
+- ⚠️ Always follow [3-2-1](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/) backup plan for your precious photos and videos!
 
 ## Content
 

@@ -1,9 +1,9 @@
 ---
 title: mlc-llm
-date: 2023-08-13T12:16:38+08:00
+date: 2023-08-15T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690124019957-379fb2b53e76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690124019957-379fb2b53e76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
 ---
 
 # [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm)

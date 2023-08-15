@@ -1,9 +1,9 @@
 ---
 title: aws-devops-zero-to-hero
-date: 2023-08-04T12:16:08+08:00
+date: 2023-08-15T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1613667023102-44f9adaf9346?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1613667023102-44f9adaf9346?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1681344177554-d06bfb078d68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1681344177554-d06bfb078d68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
 ---
 
 # [iam-veeramalla/aws-devops-zero-to-hero](https://github.com/iam-veeramalla/aws-devops-zero-to-hero)
@@ -159,17 +159,17 @@ This day focuses on AWS Secrets Manager, a service for storing and managing secr
 
 **Project:** You'll configure Secrets Manager to store and manage secrets, integrate secret retrieval in an application, and implement secret rotation policies.
 
-## Day 24: AWS CloudTrail and Config
+## Day 24: Create Infrastructure using Terraform
+
+This day focusses on creating infrastructure using Terraform with real time example.
+
+**Project:** You'll create a VPC and deploy 2 applications in different availability zones. We will also create a load balancer to balance the load between the instances automatically.
+
+## Day 25: AWS CloudTrail and Config
 
 You'll explore AWS CloudTrail and AWS Config, which provide auditing and compliance capabilities. You'll learn how to track API calls using CloudTrail and ensure compliance with AWS Config rules.
 
 **Project:** You'll configure CloudTrail to log API activities and set up AWS Config rules to enforce compliance policies for your AWS resources.
-
-## Day 25: AWS Auto Scaling
-
-You'll dive into AWS Auto Scaling, a service for automatically adjusting the capacity of your AWS resources based on demand. You'll learn how to configure Auto Scaling groups, scaling policies, and scaling based on metrics.
-
-**Project:** You'll configure an Auto Scaling group for an application, define scaling policies based on metrics such as CPU utilization, and observe the dynamic scaling behavior.
 
 ## Day 26: AWS Elastic Load Balancer
 
@@ -177,21 +177,17 @@ You'll explore AWS Elastic Load Balancer, a service for distributing incoming ap
 
 **Project:** You'll configure an Elastic Load Balancer for an application, define target groups, and observe the load balancing behavior across instances.
 
-## Day 27: AWS RDS (Relational Database Service)
+## Day 27: 500 AWS interview questions and answers topic wise for interviews.
 
-This day introduces AWS RDS, a managed database service for relational databases. You'll learn how to create and manage RDS instances, configure backups, snapshots, and replication to ensure high availability and data durability.
-
-**Project:** You'll provision an RDS instance, configure backups and snapshots, and test replication scenarios for a sample database.
+This day focuses on learning how to migrate applications to AWS cloud. What are the most popular strategies and tools used to achieve the cloud migration.
 
 ## Day 28: AWS Cloud Migration Strategies and Tools
 
 This day focuses on learning how to migrate applications to AWS cloud. What are the most popular strategies and tools used to achieve the cloud migration.
 
-## Day 29: 500 AWS interview questions and answers topic wise for interviews.
-
-This day focuses on learning how to migrate applications to AWS cloud. What are the most popular strategies and tools used to achieve the cloud migration.
-
-## Day 30: AWS Best Practices and Job Preparation
+## Day 29: AWS Best Practices and Job Preparation
 
 On the final day, you'll review best practices for AWS services, including security, cost optimization and performance.
+
+## Day 30: AWS Project with RDS
 

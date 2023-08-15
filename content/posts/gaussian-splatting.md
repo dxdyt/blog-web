@@ -1,9 +1,9 @@
 ---
 title: gaussian-splatting
-date: 2023-08-14T12:15:58+08:00
+date: 2023-08-15T12:15:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689327021885-c9091f4a2aa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689327021885-c9091f4a2aa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688413737046-97bf5b5ae2ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688413737046-97bf5b5ae2ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
 ---
 
 # [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)
@@ -187,7 +187,7 @@ python train.py -s <path to COLMAP or NeRF Synthetic dataset>
   #### --lambda_dssim
   Influence of SSIM on total loss from 0 to 1, ```0.2``` by default. 
   #### --percent_dense
-  Percentage of scene extent (0--1) a point must exceed to be forcibly densified, ```0.1``` by default.
+  Percentage of scene extent (0--1) a point must exceed to be forcibly densified, ```0.01``` by default.
 
 </details>
 <br>

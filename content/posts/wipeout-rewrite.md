@@ -1,9 +1,9 @@
 ---
 title: wipeout-rewrite
-date: 2023-08-14T12:14:52+08:00
+date: 2023-08-15T12:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681255633332-61b53fa198e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681255633332-61b53fa198e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690552404017-8f262bf8658b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690552404017-8f262bf8658b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
 ---
 
 # [phoboslab/wipeout-rewrite](https://github.com/phoboslab/wipeout-rewrite)
@@ -27,6 +27,8 @@ The game currently supports two different platform-backends: [SDL2](https://gith
 
 ### Linux
 
+#### Ubuntu
+
 ```
 # for SDL2 backend
 apt install libsdl2-dev libglew-dev
@@ -36,6 +38,20 @@ make sdl
 ```
 # for Sokol backend
 apt install libx11-dev libxcursor-dev libxi-dev libasound2-dev
+make sokol
+```
+
+#### Fedora
+
+```
+# for SDL2 backend
+dnf install SDL2-devel glew-devel
+make sdl
+```
+
+```
+# for Sokol backend
+dnf install libX11-devel libXi-devel alsa-lib-devel glew-devel libXcursor-devel
 make sokol
 ```
 
