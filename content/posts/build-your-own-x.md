@@ -1,9 +1,9 @@
 ---
 title: build-your-own-x
-date: 2023-07-30T12:15:32+08:00
+date: 2023-08-16T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688131177125-cf9cbe72b8d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688131177125-cf9cbe72b8d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690774272310-ada2a378a621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690774272310-ada2a378a621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
 ---
 
 # [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
@@ -106,7 +106,6 @@ It's a great way to learn.
 #### Build your own `Bot`
 
 * [**Haskell**: _Roll your own IRC bot_](https://wiki.haskell.org/Roll_your_own_IRC_bot)
-* [**Java**: _How To Make a Scary Russian Twitter Bot With Java_](https://medium.com/@SeloSlav/how-to-make-a-scary-russian-twitter-bot-with-java-b7b62768a3ac)
 * [**Node.js**: _Creating a Simple Facebook Messenger AI Bot with API.ai in Node.js_](https://tutorials.botsfloor.com/creating-a-simple-facebook-messenger-ai-bot-with-api-ai-in-node-js-50ae2fa5c80d)
 * [**Node.js**: _How to make a responsive telegram bot_](https://www.sohamkamani.com/blog/2016/09/21/making-a-telegram-bot/)
 * [**Node.js**: _Create a Discord bot_](https://discordjs.guide/)

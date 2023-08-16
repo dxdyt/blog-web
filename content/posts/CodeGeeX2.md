@@ -1,9 +1,9 @@
 ---
 title: CodeGeeX2
-date: 2023-07-30T12:14:42+08:00
+date: 2023-08-16T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688300963512-ebb74dfd39e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688300963512-ebb74dfd39e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689872330350-87e38c591b4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/CodeGeeX2](https://github.com/THUDM/CodeGeeX2)
@@ -27,6 +27,10 @@ CodeGeeX2 是多语言代码生成模型 [CodeGeeX](https://github.com/THUDM/Cod
 * **更全面的AI编程助手**：CodeGeeX插件（[VS Code](https://marketplace.visualstudio.com/items?itemName=aminer.codegeex), [Jetbrains](https://plugins.jetbrains.com/plugin/20587-codegeex)）后端升级，支持超过100种编程语言，新增上下文补全、跨文件补全等实用功能。结合 Ask CodeGeeX 交互式AI编程助手，支持中英文对话解决各种编程问题，包括且不限于代码解释、代码翻译、代码纠错、文档生成等，帮助程序员更高效开发。
 * **更开放的协议**：CodeGeeX2-6B 权重对学术研究完全开放，填写[登记表](https://open.bigmodel.cn/mla/form?mcode=CodeGeeX2-6B)申请商业使用。
 
+## 使用教程
+
+* [快速开始](#快速开始)
+* [推理教程（多卡推理，加速推理，多平台推理等）](docs/zh/inference_zh.md)
 
 ## AI编程助手
 
@@ -37,7 +41,7 @@ CodeGeeX2 是多语言代码生成模型 [CodeGeeX](https://github.com/THUDM/Cod
 
 ## 快速开始
 
-使用`transformers`快速调用[CodeGeeX2-6B](https://huggingface.co/THUDM/codegeex2-6b)：
+### 使用`transformers`快速调用[CodeGeeX2-6B](https://huggingface.co/THUDM/codegeex2-6b)：
 
 ```python
 from transformers import AutoTokenizer, AutoModel
@@ -46,13 +50,13 @@ model = AutoModel.from_pretrained("THUDM/codegeex2-6b", trust_remote_code=True, 
 model = model.eval()
 
 # remember adding a language tag for better performance
-prompt = "# language: python\n# write a bubble sort function\n"
+prompt = "# language: Python\n# write a bubble sort function\n"
 inputs = tokenizer.encode(prompt, return_tensors="pt").to(model.device)
 outputs = model.generate(inputs, max_length=256, top_k=1)
 response = tokenizer.decode(outputs[0])
 
 >>> print(response)
-# language: python
+# language: Python
 # write a bubble sort function
 
 
@@ -64,13 +68,39 @@ def bubble_sort(list):
     return list
 
 
-print(bubble_sort([5, 2, 4, 6, 1, 3]))
+print(bubble_sort([5, 2, 1, 8, 4]))
 ```
 
-启动 Gradio DEMO：
+### 启动 Gradio DEMO：
 ```
 python ./demo/run_demo.py
+
+usage: run_demo.py [-h] [--model-path MODEL_PATH] [--example-path EXAMPLE_PATH] [--quantize QUANTIZE]
+                   [--chatglm-cpp] [--fastllm] [--n-gpus N_GPUS] [--gpu GPU] [--cpu] [--auth] [--username yourname]
+                   [--password yourpassword]
+                   [--port PORT] [--listen ADDRESS]
+
+# 若要启用身份验证，请先启用--auth，然后定义--username与--password，如：
+python run_demo.py --auth --username user --password password  # 若要监听所有地址请指定 --listen 0.0.0.0
 ```
+支持使用 [ChatGLM.cpp](https://github.com/li-plus/chatglm.cpp) 量化推理加速：
+```sh
+python ./demo/run_demo.py --quantize 4 --chatglm-cpp
+```
+### 启动FAST API:
+```
+python ./demo/fastapicpu.py
+usage: fastapicpu.py [-h] [--model-path MODEL_PATH] [--listen ADDRESS] [--port PORT] [--workders NUM] [--cpu] [--half] [--quantize QUANTIZE] [--chatglm-cpp]
+# --cpu启用cpu --half启用.half()
+```
+支持使用 [ChatGLM.cpp](https://github.com/li-plus/chatglm.cpp) 量化推理加速，同样添加 `--quantize 4 --chatglm-cpp` 参数即可。
+### API使用示例
+```
+curl -X POST "http://127.0.0.1:7860" \
+    -H 'Content-Type: application/json' \
+    -d '{"lang": "Python", "prompt": "# Write a quick sort function"}'
+```
+
 
 ❗️请注意：
 * CodeGeeX2-6B 是一个基座代码生成模型，不具备聊天能力。请前往插件中体验更全面的 Ask CodeGeeX 聊天功能。
@@ -98,7 +128,6 @@ python ./demo/run_demo.py
 
     tokenizer, model = get_model()
     ```
-
 
 ## 代码能力评测
 

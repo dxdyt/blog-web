@@ -1,9 +1,9 @@
 ---
 title: facechain
-date: 2023-08-15T12:16:25+08:00
+date: 2023-08-16T12:14:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681344177554-d06bfb078d68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681344177554-d06bfb078d68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
 ---
 
 # [modelscope/facechain](https://github.com/modelscope/facechain)

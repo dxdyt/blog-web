@@ -1,9 +1,9 @@
 ---
 title: infisical
-date: 2023-08-14T12:17:33+08:00
+date: 2023-08-16T12:15:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690950965726-887b05bfa548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690950965726-887b05bfa548?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691468800130-060a134a58d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691468800130-060a134a58d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
 ---
 
 # [Infisical/infisical](https://github.com/Infisical/infisical)

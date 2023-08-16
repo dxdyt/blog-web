@@ -1,9 +1,9 @@
 ---
 title: awesome-scalability
-date: 2023-08-15T12:15:52+08:00
+date: 2023-08-16T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
 ---
 
 # [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
@@ -598,7 +598,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Circuit Breaker at Traveloka](https://medium.com/traveloka-engineering/circuit-breakers-dont-let-your-dependencies-bring-you-down-5ba1c5cf1eec)
 	* [Circuit Breaker at Shopify](https://shopify.engineering/circuit-breaker-misconfigured)
 * [Timeouts](https://www.javaworld.com/article/2824163/application-performance/stability-patterns-applied-in-a-restful-architecture.html)
-	* [Fault Tolerance (Timeouts and Retries, Thread Separation, Semaphores, Circuit Breakers) at Neflix](https://medium.com/netflix-techblog/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
+	* [Fault Tolerance (Timeouts and Retries, Thread Separation, Semaphores, Circuit Breakers) at Netflix](https://medium.com/netflix-techblog/fault-tolerance-in-a-high-volume-distributed-system-91ab4faae74a)
 	* [Enforce Timeout: A Reliability Methodology at DoorDash](https://doordash.engineering/2018/12/21/enforce-timeout-a-doordash-reliability-methodology/)
 	* [Troubleshooting a Connection Timeout Issue with tcp_tw_recycle Enabled at eBay](https://www.ebayinc.com/stories/blogs/tech/a-vip-connection-timeout-issue-caused-by-snat-and-tcp-tw-recycle/)
 * [Crash-safe Replication for MySQL at Booking.com](https://medium.com/booking-com-infrastructure/better-crash-safe-replication-for-mysql-a336a69b317f)

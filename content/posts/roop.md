@@ -1,67 +1,92 @@
 ---
 title: roop
-date: 2023-07-14T12:18:57+08:00
+date: 2023-08-16T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687670487816-42294667fd2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687670487816-42294667fd2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690774272310-ada2a378a621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690774272310-ada2a378a621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/roop](https://github.com/s0md3v/roop)
 
-Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
+# Roop
 
-You can watch some demos [here](https://drive.google.com/drive/folders/1KHv8n_rd3Lcr2v7jBq1yPSTWM554Gq8e?usp=sharing). A StableDiffusion extension is also available, [here](https://github.com/s0md3v/sd-webui-roop).
+> Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
 
-![demo-gif](demo.gif)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
+
+
+## Preview
+
+|                                                 Target Video                                                 |                                                 Output Video                                                 |
+|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
+| ![Target Video](https://raw.githubusercontent.com/s0md3v/roop/main/.github/preview/target.gif?sanitize=true) | ![Output Video](https://raw.githubusercontent.com/s0md3v/roop/main/.github/preview/output.gif?sanitize=true) |
+
+
+
+## Installation
+
+Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://discord.com/invite/Y9p4ZQ2sB9) community that will guide you to install roop.
+
+[Basic](https://roop-ai.gitbook.io/roop/installation/basic) - It is more likely to work on your computer, but will be quite slow
+
+[Acceleration](https://roop-ai.gitbook.io/roop/installation/acceleration) - Unleash the full potential of your CPU and GPU
+
+
+## Usage
+
+Start the program with arguments:
+
+```
+python run.py [options]
+
+-h, --help                                                                 show this help message and exit
+-s SOURCE_PATH, --source SOURCE_PATH                                       select an source image
+-t TARGET_PATH, --target TARGET_PATH                                       select an target image or video
+-o OUTPUT_PATH, --output OUTPUT_PATH                                       select output file or directory
+--frame-processor FRAME_PROCESSOR [FRAME_PROCESSOR ...]                    frame processors (choices: face_swapper, face_enhancer, ...)
+--keep-fps                                                                 keep target fps
+--keep-frames                                                              keep temporary frames
+--skip-audio                                                               skip target audio
+--many-faces                                                               process every face
+--reference-face-position REFERENCE_FACE_POSITION                          position of the reference face
+--reference-frame-number REFERENCE_FRAME_NUMBER                            number of the reference frame
+--similar-face-distance SIMILAR_FACE_DISTANCE                              face distance used for recognition
+--temp-frame-format {jpg,png}                                              image format used for frame extraction
+--temp-frame-quality [0-100]                                               image quality used for frame extraction
+--output-video-encoder {libx264,libx265,libvpx-vp9,h264_nvenc,hevc_nvenc}  encoder used for the output video
+--output-video-quality [0-100]                                             quality used for the output video
+--max-memory MAX_MEMORY                                                    maximum amount of RAM in GB
+--execution-provider {cpu} [{cpu} ...]                                     available execution provider (choices: cpu, ...)
+--execution-threads EXECUTION_THREADS                                      number of execution threads
+-v, --version                                                              show program's version number and exit
+```
+
+
+### Headless
+
+Using the `-s/--source`, `-t/--target` and `-o/--output` argument will run the program in headless mode.
+
 
 ## Disclaimer
+
 This software is meant to be a productive contribution to the rapidly growing AI-generated media industry. It will help artists with tasks such as animating a custom character or using the character as a model for clothing etc.
 
-The developers of this software are aware of its possible unethical applicaitons and are committed to take preventative measures against them. It has a built-in check which prevents the program from working on inappropriate media including but not limited to nudity, graphic content, sensitive material such as war footage etc. We will continue to develop this project in the positive direction while adhering to law and ethics. This project may be shut down or include watermarks on the output if requested by law.
+The developers of this software are aware of its possible unethical applications and are committed to take preventative measures against them. It has a built-in check which prevents the program from working on inappropriate media including but not limited to nudity, graphic content, sensitive material such as war footage etc. We will continue to develop this project in the positive direction while adhering to law and ethics. This project may be shut down or include watermarks on the output if requested by law.
 
 Users of this software are expected to use this software responsibly while abiding the local law. If face of a real person is being used, users are suggested to get consent from the concerned person and clearly mention that it is a deepfake when posting content online. Developers of this software will not be responsible for actions of end-users.
 
-## How do I install it?
 
-**Issues regarding installation will be closed from now on, we cannot handle the amount of requests.**
+## Licenses
 
-- **Basic:** It is more likely to work on your computer but it will also be very slow. You can follow instructions for the basic install [here](https://github.com/s0md3v/roop/wiki/1.-Installation).
+Our software uses a lot of third party libraries as well pre-trained models. The users should keep in mind that these third party components have their own license and terms, therefore our license is not being applied.
 
-- **Acceleration:** If you have a good GPU and are ready for solving any software issues you may face, you can enable GPU which is wayyy faster. To do this, first follow the basic install instructions given above and then follow GPU-specific instructions [here](https://github.com/s0md3v/roop/wiki/2.-Acceleration).
-
-## How do I use it?
-> Note: When you run this program for the first time, it will download some models ~300MB in size.
-
-Executing `python run.py` command will launch this window:
-![gui-demo](gui-demo.png)
-
-Choose a face (image with desired face) and the target image/video (image/video in which you want to replace the face) and click on `Start`. Open file explorer and navigate to the directory you select your output to be in. You will find a directory named `<video_title>` where you can see the frames being swapped in realtime. Once the processing is done, it will create the output file. That's it.
-
-Additional command line arguments are given below. To learn out what they do, check [this guide](https://github.com/s0md3v/roop/wiki/Advanced-Options).
-
-```
-options:
-  -h, --help                                               show this help message and exit
-  -s SOURCE_PATH, --source SOURCE_PATH                     select an source image
-  -t TARGET_PATH, --target TARGET_PATH                     select an target image or video
-  -o OUTPUT_PATH, --output OUTPUT_PATH                     select output file or directory
-  --frame-processor FRAME_PROCESSOR [FRAME_PROCESSOR ...]  frame processors (choices: face_swapper, face_enhancer, ...)
-  --keep-fps                                               keep original fps
-  --keep-audio                                             keep original audio
-  --keep-frames                                            keep temporary frames
-  --many-faces                                             process every face
-  --video-encoder {libx264,libx265,libvpx-vp9}             adjust output video encoder
-  --video-quality [0-51]                                   adjust output video quality
-  --max-memory MAX_MEMORY                                  maximum amount of RAM in GB
-  --execution-provider {cpu} [{cpu} ...]                   available execution provider (choices: cpu, ...)
-  --execution-threads EXECUTION_THREADS                    number of execution threads
-  -v, --version                                            show program's version number and exit
-```
-
-Looking for a CLI mode? Using the -s/--source argument will make the run program in cli mode.
 
 ## Credits
-- [henryruhs](https://github.com/henryruhs): for being an irreplaceable contributor to the project
-- [ffmpeg](https://ffmpeg.org/): for making video related operations easy
-- [deepinsight](https://github.com/deepinsight): for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models.
-- and all developers behind libraries used in this project.
+
+- [deepinsight](https://github.com/deepinsight) for their [insightface](https://github.com/deepinsight/insightface) project which provided a well-made library and models.
+- all developers behind the libraries used in this project
+
+
+## Documentation
+
+Read the [documenation](https://roop-ai.gitbook.io/roop) for a deep dive.
