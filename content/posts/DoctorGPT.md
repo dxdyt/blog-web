@@ -1,9 +1,9 @@
 ---
 title: DoctorGPT
-date: 2023-08-16T12:15:30+08:00
+date: 2023-08-17T12:14:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689850969062-f7e0a6c45a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689850969062-f7e0a6c45a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691751941020-5f0bced88ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691751941020-5f0bced88ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [llSourcell/DoctorGPT](https://github.com/llSourcell/DoctorGPT)

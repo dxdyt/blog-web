@@ -1,9 +1,9 @@
 ---
 title: gpt-llm-trainer
-date: 2023-08-13T12:14:45+08:00
+date: 2023-08-17T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690035921522-d3a2120f7e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690035921522-d3a2120f7e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5MDAwMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691858355141-765f3507fc77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691858355141-765f3507fc77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [mshumer/gpt-llm-trainer](https://github.com/mshumer/gpt-llm-trainer)

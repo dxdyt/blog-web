@@ -1,9 +1,9 @@
 ---
 title: openai-cookbook
-date: 2023-08-03T12:16:21+08:00
+date: 2023-08-17T12:16:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688765938914-640925a67a3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688765938914-640925a67a3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690695585525-8610507695de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690695585525-8610507695de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-cookbook](https://github.com/openai/openai-cookbook)
@@ -19,6 +19,7 @@ Most code examples are written in Python, though the concepts can be applied in 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=468576060&machine=basicLinux32gb&location=EastUs)
 
 ## Recently added/updated 🆕 ✨
+- [How to evaluate abstractive summarization](examples/evaluation/How_to_eval_abstractive_summarization.ipynb) [Aug 16, 2023]
 - [Whisper prompting guide](examples/Whisper_prompting_guide.ipynb) [June 27, 2023]
 - [Question answering using a search API and re-ranking](https://github.com/openai/openai-cookbook/blob/main/examples/Question_answering_using_a_search_API.ipynb) [June 16, 2023]
 - [How to call functions with Chat models](https://github.com/openai/openai-cookbook/blob/main/examples/How_to_call_functions_with_chat_models.ipynb) [June 13, 2023]

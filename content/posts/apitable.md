@@ -1,9 +1,9 @@
 ---
 title: apitable
-date: 2023-07-06T12:21:29+08:00
+date: 2023-08-17T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686615961795-707678f243f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg2MTcwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690567614925-eb1954507d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690567614925-eb1954507d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [apitable/apitable](https://github.com/apitable/apitable)
@@ -167,7 +167,7 @@ APITable provides a range of amazing features, from the personal to the enterpri
   - **100k+** data rows with real-time collaboration.
   - Full-stack API access, from `Data` to `Metadata`.
   - One-direction / Bi-direction Table Link and `Infinite Cross Links`
-  - Community-friendly programming languages and framework, TypeScript ([NextJS](https://nextjs.org/) + [NestJS](https://nestjs.com/)) and Java ([Spring Boot](https://spring.io/projects/spring-boot)), and we are moving to Rust gradually.
+  - Community-friendly programming languages and framework, TypeScript ([NextJS](https://nextjs.org/) + [NestJS](https://nestjs.com/)) and Java ([Spring Boot](https://spring.io/projects/spring-boot)).
 - Beautiful and Rich Database-Spreadsheet UI
   - `CRUD`: Create, Read, Update, Delete the Tables, Columns, and Rows
   - `Fields Operations`: sort, filter, grouping, hide/unhide, height setting.
@@ -282,15 +282,7 @@ Welcome, and thank you for your interest in contributing to APITable!
 In addition to writing code, there are many ways for you to contribute.
 
 You can contribute as following:
-- Join and modify translations in our [Crowdin Translation Project](https://crowdin.com/project/apitablecode/invite?h=f48bc26f9eb188dcd92d5eb4a66f2c1f1555185)
-- Create [Issues](https://github.com/apitable/apitable/issues/new/choose)
-- Follow our [Twitter](https://twitter.com/apitable_com)
-- Create [Documentation](./docs)
-- [Contributing Code](./docs/contribute/developer-guide.md)
-
-
-Such as the following:
-- Join [Crowdin Translation Project](https://crowdin.com/project/apitablecom/invite?h=4a985ea532a01d973acc03f2f1c960951693577)
+- Join and modify translations in our [Crowdin Translation Project](https://crowdin.com/project/apitablecom/invite?h=4a985ea532a01d973acc03f2f1c960951693577)
 - Create [Issues](https://github.com/apitable/apitable/issues/new/choose)
 - Follow our [Twitter](https://twitter.com/apitable_com)
 - Create [Documentation](./docs)
@@ -328,7 +320,6 @@ APITable use these common conventions:
 - How to versioning and tagging? [Semantic Versioning](https://semver.org/)
 - What is the Java Coding Guideline? [Java Coding Guideline](https://google.github.io/styleguide/javaguide.html) | [Intellij IDEA Plugin](https://plugins.jetbrains.com/plugin/8527)
 - What is the TypeScript Coding Guideline? -> [TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html) | [ESLint](https://www.npmjs.com/package/@typescript-eslint/eslint-plugin)
-- What is the Rust Coding Guideline? -> [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/about.html)
 
 ### Documentations
 

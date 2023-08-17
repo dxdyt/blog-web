@@ -1,16 +1,16 @@
 ---
 title: gpt-researcher
-date: 2023-07-16T12:18:46+08:00
+date: 2023-08-17T12:14:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686496603040-a16eb80725eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686496603040-a16eb80725eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1610538216006-ff8246335182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1610538216006-ff8246335182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)
 
 # 🔎 GPT Researcher
 [![Official Website](https://img.shields.io/badge/Official%20Website-tavily.com-blue?style=flat&logo=world&logoColor=white)](https://tavily.com)
-[![Discord Follow](https://dcbadge.vercel.app/api/server/rqw8dnM8?style=flat)](https://discord.com/invite/rqw8dnM8)
+[![Discord Follow](https://dcbadge.vercel.app/api/server/2pFkc83fRq?style=flat)](https://discord.com/invite/2pFkc83fRq)
 [![GitHub Repo stars](https://img.shields.io/github/stars/assafelovic/gpt-researcher?style=social)](https://github.com/assafelovic/gpt-researcher)
 [![Twitter Follow](https://img.shields.io/twitter/follow/assaf_elovic?style=social)](https://twitter.com/assaf_elovic)
 
@@ -81,6 +81,10 @@ $ pip install -r requirements.txt
 ```bash
 $ export OPENAI_API_KEY={Your API Key here}
 ```
+
+- **By default we use OpenAI, but you can use any other LLM model (including open sources)** supported by [Langchain Adapter](https://python.langchain.com/docs/guides/adapters/openai), simply change the model name in config/config.py and provider in agent/llm_utils.py file. Follow [this guide](https://python.langchain.com/docs/integrations/llms/) to learn how to integrate LLMs with Langchain. 
+- **We highly recommend using GPT models for optimal performance.**
+
 <br />
 
 > **Step 4** - Run the agent with FastAPI
@@ -119,6 +123,8 @@ $ docker-compose up
 ## 🚀 Contributing
 We highly welcome contributions! Please check out [contributing](CONTRIBUTING.md) if you're interested.
 
+Please check out our [roadmap](https://trello.com/b/3O7KBePw/gpt-researcher-roadmap) page and reach out to us via our [Discord community](https://discord.gg/2pFkc83fRq) if you're interested in joining our mission.
+
 
 ## 🔧 Troubleshooting
 We're constantly working to provide a more stable version. In the meantime, see here for known issues:
@@ -134,7 +140,18 @@ The issue relates to the library WeasyPrint (which is used to generate PDFs from
 
 We're using [Selenium](https://www.selenium.dev) for site scraping. Some sites fail to be scraped. In these cases, restart and try running again.
 
-If none of the above work, you can [try out our hosted beta](http://gpt-researcher-web.us-east-1.elasticbeanstalk.com/).
+
+**Chrome version issues**
+
+Many users have an issue with their chromedriver because the latest chrome browser version doesn't have a compatible chrome driver yet.
+
+To downgrade your Chrome web browser using [slimjet](https://www.slimjet.com/chrome/google-chrome-old-version.php), follow these steps. First, visit the website and scroll down to find the list of available older Chrome versions. Choose the version you wish to install
+making sure it's compatible with your operating system.
+Once you've selected the desired version, click on the corresponding link to download the installer. Before proceeding with the installation, it's crucial to uninstall your current version of Chrome to avoid conflicts.
+
+It's important to check if the version you downgrade to, has a chromedriver available in the official [chrome driver website](https://chromedriver.chromium.org/downloads)
+
+**If none of the above work, you can [try out our hosted beta](https://app.tavily.com)**
 
 ## 🛡 Disclaimer
 

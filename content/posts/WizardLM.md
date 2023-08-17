@@ -1,15 +1,22 @@
 ---
 title: WizardLM
-date: 2023-06-22T12:16:05+08:00
+date: 2023-08-17T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685058160554-17a165ad47da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685058160554-17a165ad47da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689850969146-43cd8e188bbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689850969146-43cd8e188bbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM)
 
-## WizardLM: An Instruction-following LLM Using Evol-Instruct 
-Empowering Large Pre-Trained Language Models to Follow Complex Instructions
+## WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions
+
+
+<p align="center">
+🤗 <a href="https://huggingface.co/WizardLM" target="_blank">HF Repo</a> • 🐦 <a href="https://twitter.com/WizardLM_AI" target="_blank">Twitter</a> • 📃 <a href="https://arxiv.org/abs/2304.12244" target="_blank">[WizardLM]</a>  • 📃 <a href="https://arxiv.org/abs/2306.08568" target="_blank">[WizardCoder]</a>  <br>
+</p>
+<p align="center">
+    👋 Join our <a href="https://discord.gg/VZjjHtWrKs" target="_blank">Discord</a>
+</p>
 
 <p align="center" width="100%">
 <a ><img src="imgs/WizardLM.png" alt="WizardLM" style="width: 20%; min-width: 300px; display: block; margin: auto;"></a>
@@ -19,43 +26,85 @@ Empowering Large Pre-Trained Language Models to Follow Complex Instructions
 [![Data License](https://img.shields.io/badge/Data%20License-CC%20By%20NC%204.0-red.svg)](https://github.com/tatsu-lab/stanford_alpaca/blob/main/DATA_LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 
+
+- 🔥🔥🔥 Our **WizardMath-70B-V1.0** model slightly outperforms some closed-source LLMs on the GSM8K, including **ChatGPT 3.5**, **Claude Instant 1** and **PaLM 2 540B**.
+- 🔥 Our **WizardMath-70B-V1.0** model achieves  **81.6 pass@1** on the [GSM8k Benchmarks](https://github.com/openai/grade-school-math), which is **24.8** points higher than the SOTA open-source LLM.
+- 🔥 Our **WizardMath-70B-V1.0** model achieves  **22.7 pass@1** on the [MATH Benchmarks](https://github.com/hendrycks/math), which is **9.2** points higher than the SOTA open-source LLM.
+
+<font size=0.5>
+    
+| Model | Checkpoint | Paper  | GSM8k | MATH  |Online Demo| License|
+| ----- |------| ---- |------|-------| ----- | ----- |
+| WizardMath-70B-V1.0 | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-70B-V1.0" target="_blank">HF Link</a> |  📃Coming Soon| **81.6**  |  **22.7**	|[Demo](http://47.103.63.15:50083/)| <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2  </a> |
+| WizardMath-13B-V1.0 | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-13B-V1.0" target="_blank">HF Link</a> |  📃Coming Soon| **63.9**  |  **14.0** |[Demo](http://47.103.63.15:50082/)| <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2 </a> |
+| WizardMath-7B-V1.0 | 🤗 <a href="https://huggingface.co/WizardLM/WizardMath-7B-V1.0" target="_blank">HF Link</a>  |  📃Coming Soon| 	 **54.9**  |  **10.7** | [Demo](http://47.103.63.15:50080/)|  <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2  </a>|
+</font>
+
+
+<font size=0.5>
+    
+   
+| <sup>Model</sup> | <sup>Checkpoint</sup> | <sup>Paper</sup> |<sup>MT-Bench</sup> | <sup>AlpacaEval</sup>  | <sup>GSM8k</sup> | <sup>HumanEval</sup>  | <sup>License</sup>|
+| ----- |------| ---- |------|-------| ----- | ----- | ----- | 
+| <sup>**WizardLM-70B-V1.0**</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-70B-V1.0" target="_blank">HF Link</a> </sup>|<sup>📃**Coming Soon**</sup>| <sup>**7.78**</sup> | <sup>**92.91%**</sup>	 |<sup>**77.6%**</sup>	 | <sup>   **50.6 pass@1**</sup>|<sup> <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2 License </a></sup> |
+| <sup>WizardLM-13B-V1.2</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-13B-V1.2" target="_blank">HF Link</a> </sup>|  | <sup>7.06</sup> | <sup>89.17%</sup>	 |<sup>55.3%</sup>	 | <sup>36.6  pass@1</sup>|<sup> <a href="https://ai.meta.com/resources/models-and-libraries/llama-downloads/" target="_blank">Llama 2 License </a></sup> |
+| <sup>WizardLM-13B-V1.1</sup> |<sup> 🤗 <a href="https://huggingface.co/WizardLM/WizardLM-13B-V1.1" target="_blank">HF Link</a> </sup> |  | <sup>6.76</sup>  |<sup>86.32%</sup>	 | 	 | <sup>25.0  pass@1</sup>| <sup>Non-commercial</sup>|
+| <sup>WizardLM-30B-V1.0</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-30B-V1.0" target="_blank">HF Link</a></sup>  | | <sup>7.01</sup> |                    | |  <sup>37.8  pass@1</sup>| <sup>Non-commercial</sup> |
+| <sup>WizardLM-13B-V1.0</sup> | <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-13B-V1.0" target="_blank">HF Link</a> </sup> |  | <sup>6.35</sup> | <sup>75.31%</sup> |  | <sup> 24.0 pass@1 </sup> | <sup>Non-commercial</sup>|
+| <sup>WizardLM-7B-V1.0 </sup>|  <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-7B-V1.0" target="_blank">HF Link</a> </sup> |<sup> 📃 <a href="https://arxiv.org/abs/2304.12244" target="_blank">[WizardLM]</a> </sup>|  |  |  |<sup>19.1 pass@1 </sup>|<sup> Non-commercial</sup>|
+| <sup>WizardCoder-15B-V1.0</sup> | <sup> 🤗 <a href="https://huggingface.co/WizardLM/WizardCoder-15B-V1.0" target="_blank">HF Link</a></sup>  | <sup>📃 <a href="https://arxiv.org/abs/2306.08568" target="_blank">[WizardCoder]</a></sup> |  | ||<sup> 57.3 pass@1 </sup> | <sup> <a href="https://huggingface.co/spaces/bigcode/bigcode-model-license-agreement" target="_blank">OpenRAIL-M</a></sup> |
+</font>
+
+❗To commen concern about dataset:
+
+Recently, there have been clear changes in the open-source policy and regulations of our overall organization's code, data, and models.
+Despite this, we have still worked hard to obtain opening the weights of the model first, but the data involves stricter auditing and is in review with our legal team .
+Our researchers have no authority to publicly release them without authorization.
+Thank you for your understanding.
+
 ## News
 
-At present, our core contributors are preparing the **65B** version and we expect to empower WizardLM with the ability to perform instruction evolution itself, aiming to evolve your specific data at a low cost.
+- 🔥🔥🔥 [08/09/2023] We released **WizardLM-70B-V1.0** model. Here is [Full Model Weight](https://huggingface.co/WizardLM/WizardLM-70B-V1.0). 
 
-- 🔥🔥🔥 we released the latest optimized version of Evol-Instruct training data of WizardLM model. Please refer to [this HuggingFace Repo](https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k) to download. 
 
-- 🔥🔥🔥 We released **WizardCoder-15B-V1.0** (trained with **78k** evolved code instructions), which surpasses **Claude-Plus (+6.8)**, **Bard (+15.3)** and **InstructCodeT5+ (+22.3)** on the [HumanEval Benchmarks](https://github.com/openai/human-eval). For more details ([Paper](https://arxiv.org/abs/2306.08568), [Demo (Only support code-related English instructions now.)](https://fa6d89fdc546d594.gradio.app/), [Backup Demo1](https://a7a1ac225062217b.gradio.app/), [Backup Demo2](https://fc4e35bf3ef95f73.gradio.app/), [Model Weights](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)), please refer to [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder).
 
-- 🔥 Our WizardLM-13B-V1.0 model achieves the 1st-rank of the opensource models on the [AlpacaEval Leaderboard](https://tatsu-lab.github.io/alpaca_eval/).
-- &#x1F4E3; Please refer to our Twitter account https://twitter.com/WizardLM_AI and HuggingFace Repo https://huggingface.co/WizardLM . We will use them to announce any new release at the 1st time. 
-- 🔥 We released  **WizardLM-30B-V1.0** ([Demo_30B](https://0c89a5a6eec1a8a5.gradio.app)) and **WizardLM-13B-V1.0** ([Demo_13B](https://16c91a27ea6547e2.gradio.app)) trained with **250k** evolved instructions (from ShareGPT), and **WizardLM-7B-V1.0** ([Demo_7B](https://74ecfd89dccaaa08.gradio.app)) trained with **70k** evolved instructions (from Alpaca data). Please checkout the [Delta Weights](https://huggingface.co/WizardLM) and [paper](https://arxiv.org/abs/2304.12244).
+- We released **WizardCoder-15B-V1.0** (trained with **78k** evolved code instructions), which surpasses **Claude-Plus (+6.8)**, **Bard (+15.3)** and **InstructCodeT5+ (+22.3)** on the [HumanEval Benchmarks](https://github.com/openai/human-eval). For more details ([Paper](https://arxiv.org/abs/2306.08568), [Demo (Only support code-related English instructions now.)](https://41d6fbcd16627c25.gradio.app/), [Backup Demo1](https://cfb18dadc1051cce.gradio.app/), please refer to [WizardCoder](https://github.com/nlpxucan/WizardLM/tree/main/WizardCoder).
 
 - &#x1F4E3; We are looking for highly motivated students to join us as interns to create more intelligent AI together. Please contact caxu@microsoft.com
 
 <!-- Although on our **complexity-balanced test set**, **WizardLM-7B has more cases that are preferred by human labelers than ChatGPT** in the high-complexity instructions (difficulty level >= 8), it still lags behind ChatGPT on the entire test set, and we also consider WizardLM to still be in a **baby state**. This repository will **continue to improve WizardLM**, train on larger scales, add more training data, and innovate more advanced large-model training methods. -->
 
 
-<b>Note for 30B and 13B model usage:</b>
+<b>Note for model system prompts usage:</b>
 
-To obtain results **identical to our demo**, please strictly follow the prompts and invocation methods provided in the **"src/infer_wizardlm13b.py"** to use our 13B model for inference. Unlike the 7B model, the 13B model adopts the prompt format from <b>Vicuna</b> and supports **multi-turn** conversation.
+To obtain results **identical to our demo**, please strictly follow the prompts and invocation methods provided in the **"src/infer_wizardlm13b.py"** to use our model for inference. Our model adopts the prompt format from <b>Vicuna</b> and supports **multi-turn** conversation.
 
-<b>For WizardLM-13B-V1.0, WizardLM-30B-V1.0 </b>, the Prompt should be as following:
-
-```
-A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: hello, who are you? ASSISTANT: 
-```
-
-<b>For WizardLM-7B-V1.0 </b>, the Prompt should be as following:
+<b>For WizardLM</b>, the Prompt should be as following:
 
 ```
-"{instruction}\n\n### Response:"
+A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: Hi ASSISTANT: Hello.</s>USER: Who are you? ASSISTANT: I am WizardLM.</s>......
 ```
 
-<b>For WizardCoder-15B-V1.0 </b>, the Prompt should be as following:
+<b>For WizardCoder </b>, the Prompt should be as following:
 
 ```
 "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"
+```
+
+<b>For WizardMath</b>, the Prompts should be as following:
+
+**Default version:**
+
+```
+"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"
+```
+
+
+**CoT Version:** （❗For the **simple** math questions, we do NOT recommend to use the CoT prompt.） 
+
+
+```
+"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."
 ```
 
 ### GPT-4 automatic evaluation
@@ -158,3 +207,8 @@ Please cite the paper if you use the data or code from WizardCoder.
 ## Disclaimer
 
 The resources, including code, data, and model weights, associated with this project are restricted for academic research purposes only and cannot be used for commercial purposes. The content produced by any version of WizardLM is influenced by uncontrollable variables such as randomness, and therefore, the accuracy of the output cannot be guaranteed by this project. This project does not accept any legal liability for the content of the model output, nor does it assume responsibility for any losses incurred due to the use of associated resources and output results.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=nlpxucan/WizardLM&type=Timeline)](https://star-history.com/#nlpxucan/WizardLM&Timeline)
+

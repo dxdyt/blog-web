@@ -1,9 +1,9 @@
 ---
 title: roop
-date: 2023-08-16T12:15:24+08:00
+date: 2023-08-17T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690774272310-ada2a378a621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690774272310-ada2a378a621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689850969146-43cd8e188bbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689850969146-43cd8e188bbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/roop](https://github.com/s0md3v/roop)
@@ -13,15 +13,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1690774272310-ada2a378a6
 > Take a video and replace the face in it with a face of your choice. You only need one image of the desired face. No dataset, no training.
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
-
-
-## Preview
-
-|                                                 Target Video                                                 |                                                 Output Video                                                 |
-|:------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------:|
-| ![Target Video](https://raw.githubusercontent.com/s0md3v/roop/main/.github/preview/target.gif?sanitize=true) | ![Output Video](https://raw.githubusercontent.com/s0md3v/roop/main/.github/preview/output.gif?sanitize=true) |
-
-
 
 ## Installation
 
