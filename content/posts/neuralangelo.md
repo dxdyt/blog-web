@@ -1,9 +1,9 @@
 ---
 title: neuralangelo
-date: 2023-08-17T12:15:31+08:00
+date: 2023-08-18T12:15:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691836691308-868a5db822c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691836691308-868a5db822c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689819210447-f5c9d9e914d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689819210447-f5c9d9e914d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [NVlabs/neuralangelo](https://github.com/NVlabs/neuralangelo)

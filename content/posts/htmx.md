@@ -1,9 +1,9 @@
 ---
 title: htmx
-date: 2023-07-13T12:18:16+08:00
+date: 2023-08-18T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687294920924-b82d79864991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687294920924-b82d79864991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkyMjE4MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691228397653-41d0662abeb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691228397653-41d0662abeb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
@@ -20,14 +20,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1687294920924-b82d798649
 ## introduction
 
 htmx allows you to access  [AJAX](https://htmx.org/docs#ajax), [CSS Transitions](https://htmx.org/docs#css_transitions),
-[WebSockets](https://htmx.org/docs#websockets) and [Server Sent Events](https://htmx.org/docs#sse) 
-directly in HTML, using [attributes](https://htmx.org/reference#attributes), so you can build 
-[modern user interfaces](https://htmx.org/examples) with the [simplicity](https://en.wikipedia.org/wiki/HATEOAS) and 
+[WebSockets](https://htmx.org/docs#websockets) and [Server Sent Events](https://htmx.org/docs#sse)
+directly in HTML, using [attributes](https://htmx.org/reference#attributes), so you can build
+[modern user interfaces](https://htmx.org/examples) with the [simplicity](https://en.wikipedia.org/wiki/HATEOAS) and
 [power](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) of hypertext
 
-htmx is small ([~14k min.gz'd](https://unpkg.com/htmx.org/dist/)), 
+htmx is small ([~14k min.gz'd](https://unpkg.com/htmx.org/dist/)),
 [dependency-free](https://github.com/bigskysoftware/htmx/blob/master/package.json),
-[extendable](https://htmx.org/extensions) & 
+[extendable](https://htmx.org/extensions) &
 IE11 compatible
 
 ## motivation
@@ -37,13 +37,13 @@ IE11 compatible
 * Why should only GET & POST be available?
 * Why should you only be able to replace the *entire* screen?
 
-By removing these arbitrary constraints htmx completes HTML as a 
+By removing these arbitrary constraints htmx completes HTML as a
 [hypertext](https://en.wikipedia.org/wiki/Hypertext)
 
 ## quick start
 
 ```html
-  <script src="https://unpkg.com/htmx.org@1.9.2"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.4"></script>
   <!-- have a button POST a click via AJAX -->
   <button hx-post="/clicked" hx-swap="outerHTML">
     Click Me
@@ -73,11 +73,13 @@ Note there is an old broken package called `htmx`.  This is `htmx.org`.
 
 ## contributing
 
-* please write code, including tests, in ES5 for [IE 11 compatibility](https://stackoverflow.com/questions/39902809/support-for-es6-in-internet-explorer-11)
-* please include test cases in [`/test`](https://github.com/bigskysoftware/htmx/tree/dev/test) and docs in [`/www`](https://github.com/bigskysoftware/htmx/tree/dev/www)
-* if you are adding a feature, consider doing it as an [extension](https://htmx.org/extensions) instead to
-  keep the core htmx code tidy
-* development pull requests should be against the `dev` branch, docs fixes can be made directly against `master`
+* All PRs should be made against the `dev` branch, except documentation PRs (`www/` directory) which can be made against `master`
+* Please write code, including tests, in ES5 for [IE 11 compatibility](https://stackoverflow.com/questions/39902809/support-for-es6-in-internet-explorer-11)
+* Please include test cases in [`/test`](https://github.com/bigskysoftware/htmx/tree/dev/test) and docs in [`/www`](https://github.com/bigskysoftware/htmx/tree/dev/www)
+* Search the issues before proposing a feature to see if it is already under discussion
+* If you are adding a feature, consider doing it as an [extension](https://htmx.org/extensions) instead to keep the core htmx code tidy
+* Want to contribute but don't know where to start? Look for issues with the "help wanted" tag
+* Refactors that do not make functional changes will be automatically closed, unless explicitly solicited (documentation typo fixes are fine)
 * No time? Then [become a sponsor](https://github.com/sponsors/bigskysoftware#sponsors)
 
 ### hacking guide
@@ -113,7 +115,7 @@ At this point you can modify `/src/htmx.js` to add features, and then add tests 
 * `/test/ext` - extension tests
 * `/test/manual` - manual tests that cannot be automated
 
-htmx uses the [mocha](https://mochajs.org/) testing framework, the [chai](https://www.chaijs.com/) assertion framework 
+htmx uses the [mocha](https://mochajs.org/) testing framework, the [chai](https://www.chaijs.com/) assertion framework
 and [sinon](https://sinonjs.org/releases/v9/fake-xhr-and-server/) to mock out AJAX requests.  They are all OK.
 
 ## haiku

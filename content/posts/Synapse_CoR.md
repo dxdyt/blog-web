@@ -1,9 +1,9 @@
 ---
 title: Synapse_CoR
-date: 2023-08-16T12:16:20+08:00
+date: 2023-08-18T12:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691468800130-060a134a58d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691468800130-060a134a58d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1542901688-28df1677a8a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1542901688-28df1677a8a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [ProfSynapse/Synapse_CoR](https://github.com/ProfSynapse/Synapse_CoR)

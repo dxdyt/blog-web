@@ -1,9 +1,9 @@
 ---
 title: DragGAN
-date: 2023-07-01T12:17:07+08:00
+date: 2023-08-18T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687226013845-b42fc72c9f44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687226013845-b42fc72c9f44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1658988958556-72342117610f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1658988958556-72342117610f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN)
@@ -64,7 +64,7 @@ conda activate stylegan3
 Then install the additional requirements
 
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 Otherwise (for GPU acceleration on MacOS with Silicon Mac M1/M2, or just CPU) try the following:
@@ -84,8 +84,12 @@ export PYTORCH_ENABLE_MPS_FALLBACK=1
 Provided docker image is based on NGC PyTorch repository. To quickly try out visualizer in Docker, run the following:  
 
 ```sh
+# before you build the docker container, make sure you have cloned this repo, and downloaded the pretrained model by `python scripts/download_model.py`.
 docker build . -t draggan:latest  
-docker run -p 7860: 7860 -v "$PWD":/workspace/src -it draggan:latest bash  
+docker run -p 7860:7860 -v "$PWD":/workspace/src -it draggan:latest bash
+# (Use GPU)if you want to utilize your Nvidia gpu to accelerate in docker, please add command tag `--gpus all`, like:
+#   docker run --gpus all  -p 7860:7860 -v "$PWD":/workspace/src -it draggan:latest bash
+
 cd src && python visualizer_drag_gradio.py --listen
 ```
 Now you can open a shared link from Gradio (printed in the terminal console).   

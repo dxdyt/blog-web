@@ -1,9 +1,9 @@
 ---
 title: gpt-researcher
-date: 2023-08-17T12:14:32+08:00
+date: 2023-08-18T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1610538216006-ff8246335182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1610538216006-ff8246335182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689819210447-f5c9d9e914d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689819210447-f5c9d9e914d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)

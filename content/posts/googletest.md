@@ -1,9 +1,9 @@
 ---
 title: googletest
-date: 2023-06-25T12:18:42+08:00
+date: 2023-08-18T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684283948150-0c819bc66b2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684283948150-0c819bc66b2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc2NjY2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691756412769-baea56954b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691756412769-baea56954b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [google/googletest](https://github.com/google/googletest)
@@ -19,7 +19,7 @@ GoogleTest now follows the
 We recommend
 [updating to the latest commit in the `main` branch as often as possible](https://github.com/abseil/abseil-cpp/blob/master/FAQ.md#what-is-live-at-head-and-how-do-i-do-it).
 We do publish occasional semantic versions, tagged with
-`v${major}.${minor}.${patch}` (e.g. `v1.13.0`).
+`v${major}.${minor}.${patch}` (e.g. `v1.14.0`).
 
 #### Documentation Updates
 
@@ -27,12 +27,12 @@ Our documentation is now live on GitHub Pages at
 https://google.github.io/googletest/. We recommend browsing the documentation on
 GitHub Pages rather than directly in the repository.
 
-#### Release 1.13.0
+#### Release 1.14.0
 
-[Release 1.13.0](https://github.com/google/googletest/releases/tag/v1.13.0) is
+[Release 1.14.0](https://github.com/google/googletest/releases/tag/v1.14.0) is
 now available.
 
-The 1.13.x branch requires at least C++14.
+The 1.14.x branch requires at least C++14.
 
 #### Continuous Integration
 

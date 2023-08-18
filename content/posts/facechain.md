@@ -1,9 +1,9 @@
 ---
 title: facechain
-date: 2023-08-16T12:14:45+08:00
+date: 2023-08-18T12:15:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1658988958556-72342117610f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1658988958556-72342117610f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
 ---
 
 # [modelscope/facechain](https://github.com/modelscope/facechain)
@@ -19,18 +19,54 @@ featuredImagePreview: https://images.unsplash.com/photo-1676902684032-a2e4436d55
 
 如果您熟悉中文，可以阅读[中文版本的README](./README_ZH.md)。
 
-FaceChain is a deep-learning toolchain for generating your Digital-Twin. With a minimum of 1 portrait-photo, you can create a Digital-Twin of your own and start generating personal photos in different settings (work photos as starter!). You may train your Digital-Twin model and generate photos via FaceChain's Python scripts, or via the familiar Gradio interface. You can also experience FaceChain directly with our [ModelScope Studio](https://modelscope.cn/studios/CVstudio/cv_human_portrait/summary).
+FaceChain is a deep-learning toolchain for generating your Digital-Twin. With a minimum of 1 portrait-photo, you can create a Digital-Twin of your own and start generating personal portraits in different settings (multiple styles now supported!). You may train your Digital-Twin model and generate photos via FaceChain's Python scripts, or via the familiar Gradio interface. You can also experience FaceChain directly with our [ModelScope Studio](https://modelscope.cn/studios/CVstudio/cv_human_portrait/summary).
 
 FaceChain is powered by [ModelScope](https://github.com/modelscope/modelscope).
 
-![image](resources/example1.jpg)
+![image](resources/git_cover.jpg)
 
-![image](resources/example2.jpg)
-
-![image](resources/example3.jpg)
 
 # News
-- Colab notebook is available now! You can experience FaceChain directly with our [Colab Notebook](https://colab.research.google.com/drive/1cUhnVXseqD2EJiotZk3k7GsfQK9_yJu_?usp=sharing).
+- Support a series of new style models in a plug-and-play fashion. Refer to: [Features](#Features)   (August 16th, 2023 UTC)
+- Support customizable prompts. Refer to: [Features](#Features)    (August 16th, 2023 UTC)
+- Colab notebook is available now! You can experience FaceChain directly with our [Colab Notebook](https://colab.research.google.com/drive/1cUhnVXseqD2EJiotZk3k7GsfQK9_yJu_?usp=sharing).   (August 15th, 2023 UTC)
+
+
+# To-Do List
+- Support existing style models (such as those on Civitai) in a plug-an-play fashion.  --on-going
+- Support customizable prompts (try on different outfits etc.)  --on-going
+- Support customizable poses, with controlnet or composer
+- Support more beauty-retouch effects
+- Support latest foundation models such as SDXL
+- Provide Colab compatibility   --done
+- Provide WebUI compatibility
+
+
+# Features
+- Support a series of new style models in a plug-and-play fashion
+  - Description
+    - Allow users to select different style models for training distinct types of Digital-Twins.
+  - Installation
+    - Refer to [Installation Guide](#installation-guide)
+  - Usage
+    - Select  "凤冠霞帔(Chinese traditional gorgeous suit)" on the inference tab.
+    - Using this style will ignore the alternative prompts.
+  - Exampled outcomes
+  ![image](resources/style_lora_xiapei.jpg)
+  - Reference
+    - [xiapei lora model](https://www.liblibai.com/modelinfo/f746450340a3a932c99be55c1a82d20c)
+    - For more LoRA styles, refer to [Civitai](https://civitai.com/)
+  
+- Support customizable prompts
+  - Description
+    - Allow users to achieve various portrait styles with customized prompts.
+  - Installation
+    - Refer to [Installation Guide](#installation-guide)
+  - Usage
+    - Select the alternative prompts on the inference tab.
+  - Exampled outcomes (prompt: an elegant evening gown)
+    ![image](resources/prompt_evening_gown.jpg)
+
 
 # Installation
 
@@ -55,8 +91,6 @@ The following installation methods are supported:
 ### 1. ModelScope notebook【recommended】
 
    The ModelScope notebook has a free tier that allows you to run the FaceChain application, refer to [ModelScope Notebook](https://modelscope.cn/my/mynotebook/preset)
-   
-    In addition to ModelScope notebook and ECS, I would suggest that we add that user may also start DSW instance with the option of ModelScope (GPU) image, to create a ready-to-use environment.
 
 ```shell
 # Step1: 我的notebook -> PAI-DSW -> GPU环境
@@ -183,9 +217,9 @@ You can find the generated personal digital image photos in the `output_dir`.
 
 # Algorithm Introduction
 
-## Principle
+## Architectural Overview
 
-The ability of the personal portrait model comes from the text generation image function of the Stable Diffusion model. It inputs a piece of text or a series of prompt words and outputs corresponding images. We consider the main factors that affect the generation effect of personal portraits: portrait style information and user character information. For this, we use the style LoRA model trained offline and the face LoRA model trained online to learn the above information. LoRA is a fine-tuning model with fewer trainable parameters. In Stable Diffusion, the information of the input image can be injected into the LoRA model by the way of text generation image training with a small amount of input image. Therefore, the ability of the personal portrait model is divided into training and inference stages. The training stage generates image and text label data for fine-tuning the Stable Diffusion model, and obtains the face LoRA model. The inference stage generates personal portrait images based on the face LoRA model and style LoRA model.
+The ability of the personal portrait generation evolves around the text-to-image capability of Stable Diffusion model. We consider the main factors that affect the generation effect of personal portraits: portrait style information and user character information. For this, we use the style LoRA model trained offline and the face LoRA model trained online to learn the above information. LoRA is a fine-tuning model with fewer trainable parameters. In Stable Diffusion, the information of the input image can be injected into the LoRA model by the way of text generation image training with a small amount of input image. Therefore, the ability of the personal portrait model is divided into training and inference stages. The training stage generates image and text label data for fine-tuning the Stable Diffusion model, and obtains the face LoRA model. The inference stage generates personal portrait images based on the face LoRA model and style LoRA model.
 
 ![image](resources/framework_eng.jpg)
 
