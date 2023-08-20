@@ -1,9 +1,9 @@
 ---
 title: novel
-date: 2023-06-22T12:15:26+08:00
+date: 2023-08-20T12:16:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686562865419-588504a46aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686562865419-588504a46aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689852484069-3e0fe82cc7c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689852484069-3e0fe82cc7c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [steven-tey/novel](https://github.com/steven-tey/novel)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686562865419-588504a46a
 </p>
 
 <p align="center">
-  <a href="https://news.ycombinator.com/item?id=36360789"><img src="https://img.shields.io/badge/Hacker%20News-255-%23FF6600" alt="Hacker News"></a>
+  <a href="https://news.ycombinator.com/item?id=36360789"><img src="https://img.shields.io/badge/Hacker%20News-369-%23FF6600" alt="Hacker News"></a>
   <a href="https://github.com/steven-tey/novel/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/steven-tey/novel?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
@@ -28,6 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686562865419-588504a46a
 <p align="center">
   <a href="#introduction"><strong>Introduction</strong></a> ·
   <a href="#deploy-your-own"><strong>Deploy Your Own</strong></a> ·
+  <a href="#setting-up-locally"><strong>Setting Up Locally</strong></a> ·
   <a href="#tech-stack"><strong>Tech Stack</strong></a> ·
   <a href="#contributing"><strong>Contributing</strong></a> ·
   <a href="#license"><strong>License</strong></a>
@@ -49,6 +50,15 @@ https://github.com/steven-tey/novel/assets/28986134/2099877f-4f2b-4b1c-8782-5d80
 You can deploy your own version of Novel to Vercel with one click:
 
 [![Deploy with Vercel](https://vercel.com/button)](https://stey.me/novel-deploy)
+
+## Setting Up Locally
+
+To set up Novel locally, you'll need to clone the repository and set up the following environment variables:
+
+- `OPENAI_API_KEY` – your OpenAI API key (you can get one [here](https://platform.openai.com/account/api-keys))
+- `BLOB_READ_WRITE_TOKEN` – your Vercel Blob read/write token (currently [still in beta](https://vercel.com/docs/storage/vercel-blob/quickstart#quickstart), but feel free to [sign up on this form](https://vercel.fyi/blob-beta) for access)
+
+If you've deployed this to Vercel, you can also use [`vc env pull`](https://vercel.com/docs/cli/env#exporting-development-environment-variables) to pull the environment variables from your Vercel project.
 
 ## Tech Stack
 

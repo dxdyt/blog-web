@@ -1,9 +1,9 @@
 ---
 title: biomes-game
-date: 2023-08-19T12:14:44+08:00
+date: 2023-08-20T12:14:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691519548863-c29a47ecd6c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691519548863-c29a47ecd6c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691585592399-7e269ae747a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691585592399-7e269ae747a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [ill-inc/biomes-game](https://github.com/ill-inc/biomes-game)

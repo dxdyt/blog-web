@@ -1,9 +1,9 @@
 ---
 title: DevOpsGPT
-date: 2023-08-10T12:17:41+08:00
+date: 2023-08-20T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688976694262-89230d6133ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688976694262-89230d6133ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691901668282-6acc3cc47922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691901668282-6acc3cc47922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)
@@ -27,6 +27,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1688976694262-89230d6133
 ## Introduction
 Welcome to the AI Driven Software Development Automation Solution, abbreviated as DevOpsGPT. We combine LLM (Large Language Model) with DevOps tools to convert natural language requirements into working software. This innovative feature greatly improves development efficiency, shortens development cycles, and reduces communication costs, resulting in higher-quality software delivery.
 
+<img src="docs/files/intro-flow-simple.png"></a>
+
 ## Features and Benefits
 
 - Improved development efficiency: No need for tedious requirement document writing and explanations. Users can interact directly with DevOpsGPT to quickly convert requirements into functional software.
@@ -39,7 +41,9 @@ Welcome to the AI Driven Software Development Automation Solution, abbreviated a
 
 ## Demo（Click to play video）
 
-<a href="https://www.youtube.com/watch?v=IWUPbGrJQOU" target="_blank"><img src="docs/files/demo-adduser-en.jpeg" width="50%"></a>
+1. <a href="https://www.youtube.com/watch?v=KGeWgM6HzR4" target="_blank">DevOpsGPT Vision video</a>
+2. <a href="https://www.youtube.com/watch?v=3peUJeB_afo" target="_blank">Demo - Software development and deployment to Cloud</a>
+3. <a href="https://www.youtube.com/watch?v=IWUPbGrJQOU" target="_blank">Demo - Develop an API for adding users in Java SpringBoot</a>
 
 
 ## Workflow
@@ -56,12 +60,27 @@ Through the above introduction and Demo demonstration, you must be curious about
 
 ## Quick Start
 
-1. Clone the latest code or select a released version, Python3.7 or later is ready.
-2. Generate the configuration file: Copy `env.yaml.tpl` and rename it to `env.yaml`.
-3. Modify the configuration file: Edit `env.yaml` and add the necessary information such as GPT Token (refer to [documentation link](docs/DOCUMENT.md) for detailed instructions).
-4. Run the service: Execute `sh run.sh` on Linux or Mac, or double-click `run.bat` on Windows.
-5. Access the service: Access the service through a browser (check the startup log for the access address, default is http://127.0.0.1:8080).
-6. Complete requirement development: Follow the instructions on the page to complete requirement development, and view the generated code in the `./workspace` directory.
+1. Run with source code
+    ```
+    1. Clone the latest code or select a released version, Python3.7 or later is ready.
+    2. Generate the configuration file: Copy `env.yaml.tpl` and rename it to `env.yaml`.
+    3. Modify the configuration file: Edit `env.yaml` and add the necessary information such as GPT Token (refer to [documentation link](docs/DOCUMENT.md) for detailed instructions).
+    4. Run the service: Execute `sh run.sh` on Linux or Mac, or double-click `run.bat` on Windows.
+    5. Access the service: Access the service through a browser (check the startup log for the access address, default is http://127.0.0.1:8080).
+    6. Complete requirement development: Follow the instructions on the page to complete requirement development, and view the generated code in the `./workspace` directory.
+    ```
+2. Run with Docker
+    ```shell
+    1. Create a directory: mkdir -p workspace
+    2. Copy 'env.yaml.tpl' from the repository to the current directory and rename it to 'env.yaml'
+    3. Modify the configuration file: edit 'env.yaml' and add necessary information such as GPT Token.
+    4. docker run -it \
+        -v$PWD/workspace:/app/workspace \
+        -v$PWD/env.yaml:/app/env.yaml \
+        -p8080:8080 -p8081:8081 kuafuai/devopsgpt:latest
+    5. Access the service: Access the service through a browser (access address provided in the startup log, the default is http://127.0.0.1:8080).
+    6. Complete the requirement development: complete the requirement development according to the guidance of the page, and view the generated code in the './workspace 'directory
+    ```
 
 **For detailed documentation and configuration parameters, please refer to the [documentation link](docs/DOCUMENT.md).**
 

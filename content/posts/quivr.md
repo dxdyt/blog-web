@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-08-09T12:17:37+08:00
+date: 2023-08-20T12:14:41+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1688464908068-cd8889fc652e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691036768234-cf1f4332a36b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691036768234-cf1f4332a36b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -105,11 +105,11 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
 - **Step 2 - Bis**: Copy the `.XXXXX_env` files
 
   ```bash
-  cp .backend_env.example backend/core/.env
+  cp .backend_env.example backend/.env
   cp .frontend_env.example frontend/.env
   ```
 
-- **Step 3**: Update the `backend/core/.env` and `frontend/.env` file
+- **Step 3**: Update the `backend/.env` and `frontend/.env` file
 
   > _Your `supabase_service_key` can be found in your Supabase dashboard under Project Settings -> API. Use the `anon` `public` key found in the `Project API keys` section._
 
@@ -117,9 +117,9 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
 
   > _The `NEXT_PUBLIC_BACKEND_URL` is set to localhost:5050 for the docker. Update it if you are running the backend on a different machine._
 
-  > _To activate vertexAI with PaLM from GCP follow the instructions [here](https://python.langchain.com/en/latest/modules/models/llms/integrations/google_vertex_ai_palm.html) and update `backend/core/.env`- It is an advanced feature, please be expert in GCP before trying to use it_
+  > _To activate vertexAI with PaLM from GCP follow the instructions [here](https://python.langchain.com/en/latest/modules/models/llms/integrations/google_vertex_ai_palm.html) and update `backend/.env`- It is an advanced feature, please be expert in GCP before trying to use it_
 
-  - [ ] Change variables in `backend/core/.env`
+  - [ ] Change variables in `backend/.env`
   - [ ] Change variables in `frontend/.env`
 
 - **Step 4**: Use the `migration.sh` script to run the migration scripts

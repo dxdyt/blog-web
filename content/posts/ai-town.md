@@ -1,9 +1,9 @@
 ---
 title: ai-town
-date: 2023-08-18T12:14:34+08:00
+date: 2023-08-20T12:14:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691228397653-41d0662abeb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691228397653-41d0662abeb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1676816823266-a8bb9a998de7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1676816823266-a8bb9a998de7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [a16z-infra/ai-town](https://github.com/a16z-infra/ai-town)
@@ -46,8 +46,8 @@ The primary goal of this project, beyond just being a lot of fun to work on, is 
 ### Clone repo and Install packages
 
 ```bash
-git clone git@github.com:a16z-infra/ai-town.git
-cd AI-town
+git clone https://github.com/a16z-infra/ai-town.git
+cd ai-town
 npm install
 npm run dev
 ```
@@ -55,7 +55,7 @@ npm run dev
 `npm run dev` will fail asking for environment variables.
 Enter them in the environment variables on your Convex dashboard to proceed.
 You can get there via `npx convex dashboard` or https://dashboard.convex.dev
-See below on how to get the various environnment variables.
+See below on how to get the various environment variables.
 
 a. **Set up Clerk**
 
@@ -89,7 +89,7 @@ d. **Add secrets to the convex dashboard**
 npx convex dashboard
 ```
 
-Go to "settings" and add the following environment varables. `CLERK_ISSUER_URL` should be the URL from the JWKS endpoint.
+Go to "settings" and add the following environment variables. `CLERK_ISSUER_URL` should be the URL from the JWKS endpoint.
 
 ```bash
 OPENAI_API_KEY  sk-*******
@@ -228,7 +228,16 @@ RUN npm run build
 ```
 - Run `fly deploy --ha=false` to deploy the app. The --ha flag makes sure fly only spins up one instance, which is included in the free plan.
 - Run `fly scale memory 512` to scale up the fly vm memory for this app.
-- Create a new file `.env.prod` locally and fill in all the production-environment secrets. Remember to update `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` by copying secrets from Clerk's production instance -`cat .env.prod | fly secrets import` to upload secrets. Also remember to update `CONVEX_DEPLOYMENT` and `NEXT_PUBLIC_CONVEX_URL`.
+- Create a new file `.env.prod` locally and fill in all the production-environment secrets. Remember to update `NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY` and `CLERK_SECRET_KEY` by copying secrets from Clerk's production instance -`cat .env.prod | fly secrets import` to upload secrets. Also remember to update `CONVEX_DEPLOYMENT` and `NEXT_PUBLIC_CONVEX_URL` -- both of them should now point to Convex's prod environment. 
+
+#### Deploy Convex functions to prod environment
+Before you can run the app, you will need to make sure the convex functions are deployed to its production environment. 
+
+1. Run `npx convex deploy` to deploy the convex functions to production
+2. Go to convex dashboard, select prod
+3. Navigate to Functions on the left side nav, click on  testing -> debugClearAll, click on run function on the top right
+4. Then click on init - init function, run this function. 
+
 
 
 ## Customize your own simulation

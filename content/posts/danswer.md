@@ -1,9 +1,9 @@
 ---
 title: danswer
-date: 2023-07-14T12:17:31+08:00
+date: 2023-08-20T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687579520856-3ad628a07cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687579520856-3ad628a07cc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzMDgyMTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1676816823266-a8bb9a998de7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1676816823266-a8bb9a998de7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [danswer-ai/danswer](https://github.com/danswer-ai/danswer)
@@ -41,12 +41,12 @@ Check out our <strong><a href="https://www.youtube.com/watch?v=geNzY1nbCnU">Vide
 * An AI Helper backed by a custom Deep Learning model to interpret user intent.
 * User authentication and document level access management.
 * Connectors to Slack, GitHub, GoogleDrive, Confluence, local files, and web scraping, with more to come.
+* Option to use Opensource LLMs like Orca, Falcon etc. in place of OpenAI GPT.
 * Management Dashboard to manage connectors and set up features such as live update fetching.
 * One line Docker Compose (or Kubernetes) deployment to host Danswer anywhere.
 
 ## Upcoming
 * Chat/Conversation support.
-* Support custom endpoints for Generative AI models or even self-host options.
 * Templates to easily build custom connectors.
 * Personalized search
 

@@ -1,9 +1,9 @@
 ---
 title: manifesto
-date: 2023-08-19T12:16:20+08:00
+date: 2023-08-20T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690552820653-fab322051836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690552820653-fab322051836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691042416818-43d45fc48719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691042416818-43d45fc48719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
 ---
 
 # [opentffoundation/manifesto](https://github.com/opentffoundation/manifesto)
