@@ -1,9 +1,9 @@
 ---
 title: Grasscutter
-date: 2023-07-10T12:18:20+08:00
+date: 2023-08-21T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684327507961-6453b3059006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684327507961-6453b3059006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
 ---
 
 # [Grasscutters/Grasscutter](https://github.com/Grasscutters/Grasscutter)
@@ -36,7 +36,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1684327507961-6453b30590
 
 - Get Java 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
-- Get game version REL3.7 (3.7 client can be found here if you don't have it): https://github.com/MAnggiarMustofa/GI-Download-Library/blob/main/GenshinImpact/Client/3.7.0.md)
+- Get game version REL3.7 (3.7 client can be found here if you don't have it): https://github.com/MAnggiarMustofa/GI-Download-Library/blob/main/GenshinImpact/Client/3.7.0.md
 
 - Download the [latest Cultivation version](https://github.com/Grasscutters/Cultivation/releases/latest). Use the `.msi` installer.
 - After opening Culivation (as admin), press the download button in the upper right corner. 

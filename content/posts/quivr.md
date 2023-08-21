@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-08-20T12:14:41+08:00
+date: 2023-08-21T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036768234-cf1f4332a36b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036768234-cf1f4332a36b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690081541249-5725c2cb5029?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690081541249-5725c2cb5029?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)

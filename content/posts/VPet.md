@@ -1,9 +1,9 @@
 ---
 title: VPet
-date: 2023-08-19T12:14:17+08:00
+date: 2023-08-21T12:15:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690381529555-24e64eb52396?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690381529555-24e64eb52396?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
 ---
 
 # [LorisYounger/VPet](https://github.com/LorisYounger/VPet)
@@ -138,6 +138,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1690381529555-24e64eb523
 ## 动画版权声明与授权
 
 在github中 [桌宠动画文件](https://github.com/LorisYounger/VPet/tree/main/VPet-Simulator.Windows/mod/0000_core/pet/vup) 动画版权归 [虚拟主播模拟器制作组](https://www.exlb.net/VUP-Simulator)所有, 当使用本类库时,您可能需要自行准备动画文件,或遵循以下协议
+注: 本动画声明仅限于桌宠自带的动画, 若有画师/开发者画自己的动画适配给桌宠,并不遵循用本声明
 
 ### 非商用用途授权
 

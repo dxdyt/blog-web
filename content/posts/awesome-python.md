@@ -1,9 +1,9 @@
 ---
 title: awesome-python
-date: 2023-04-14T12:17:38+08:00
+date: 2023-08-21T12:15:41+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12007/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12007/0/1080p
+featuredImage: https://images.unsplash.com/photo-1690442604217-aa441f1ac21e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690442604217-aa441f1ac21e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
 ---
 
 # [vinta/awesome-python](https://github.com/vinta/awesome-python)
@@ -493,6 +493,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [SerpentAI](https://github.com/SerpentAI/SerpentAI) - Game agent framework. Use any video game as a deep learning sandbox.
 * [tensorflow](https://github.com/tensorflow/tensorflow) - The most popular Deep Learning framework created by Google.
 * [Theano](https://github.com/Theano/Theano) - A library for fast numerical computation.
+* [lightning](https://github.com/Lightning-AI/lightning) - Deep learning framework to train, deploy, and ship AI products Lightning fast.
 
 ## DevOps Tools
 
@@ -796,7 +797,7 @@ Inspired by [awesome-php](https://github.com/ziadoz/awesome-php).
 * [PeachPy](https://github.com/Maratyszcza/PeachPy) - x86-64 assembler embedded in Python.
 * [Pyjion](https://github.com/Microsoft/Pyjion) - A JIT for Python based upon CoreCLR.
 * [PyPy](https://foss.heptapod.net/pypy/pypy) - A very fast and compliant implementation of the Python language.
-* [Pyston](https://github.com/dropbox/pyston) - A Python implementation using JIT techniques.
+* [Pyston](https://github.com/pyston/pyston/) - A Python implementation using JIT techniques.
 * [Stackless Python](https://github.com/stackless-dev/stackless) - An enhanced version of the Python programming language.
 
 ## Interactive Interpreter

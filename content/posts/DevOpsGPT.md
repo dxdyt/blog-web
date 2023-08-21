@@ -1,9 +1,9 @@
 ---
 title: DevOpsGPT
-date: 2023-08-20T12:16:07+08:00
+date: 2023-08-21T12:15:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691901668282-6acc3cc47922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691901668282-6acc3cc47922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690940822379-43068cdaf9be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690940822379-43068cdaf9be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
 ---
 
 # [kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)
@@ -95,7 +95,7 @@ Although we strive to enhance enterprise-level software development efficiency a
 
 - Accurate requirement decomposition and development task breakdown based on existing projects.
 - New product experiences for rapid import of development requirements and parallel automation of software development and deployment.
-- Introduce more software engineering tools and professional tools to quickly complete various software development tasks under AI planning and exectuion.
+- Introduce more software engineering tools and professional tools to quickly complete various software development tasks under AI planning and execution.
 
 We invite you to participate in the DevOpsGPT project and [contribute](./docs/CONTRIBUTING.md) to the automation and innovation of software development, creating smarter and more efficient software systems!
 

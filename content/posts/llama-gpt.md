@@ -1,9 +1,9 @@
 ---
 title: llama-gpt
-date: 2023-08-20T12:13:55+08:00
+date: 2023-08-21T12:14:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692085450034-3e7b05de83ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692085450034-3e7b05de83ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
 ---
 
 # [getumbrel/llama-gpt](https://github.com/getumbrel/llama-gpt)
