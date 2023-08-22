@@ -1,9 +1,9 @@
 ---
 title: serde
-date: 2023-08-21T12:15:57+08:00
+date: 2023-08-22T12:16:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691175084860-0320d12df95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691175084860-0320d12df95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [serde-rs/serde](https://github.com/serde-rs/serde)

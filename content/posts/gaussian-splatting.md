@@ -1,9 +1,9 @@
 ---
 title: gaussian-splatting
-date: 2023-08-15T12:15:29+08:00
+date: 2023-08-22T12:15:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688413737046-97bf5b5ae2ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688413737046-97bf5b5ae2ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689686611078-a33b28e0a3a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689686611078-a33b28e0a3a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [graphdeco-inria/gaussian-splatting](https://github.com/graphdeco-inria/gaussian-splatting)

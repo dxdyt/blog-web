@@ -1,9 +1,9 @@
 ---
 title: llama-gpt
-date: 2023-08-21T12:14:40+08:00
+date: 2023-08-22T12:15:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [getumbrel/llama-gpt](https://github.com/getumbrel/llama-gpt)
@@ -35,10 +35,39 @@ featuredImagePreview: https://images.unsplash.com/photo-1688498465380-7409292216
     </a>
   </p>
 </p>
+<p align="center">
+  <a href="https://umbrel.com/#start">
+    <img src="https://i.imgur.com/sj5vqEG.jpg" width="100%" />
+  </a>
+</p>
+
+## Contents
+
+1. [Demo](#demo)
+2. [Supported Models](#supported-models)
+3. [How to install](#how-to-install)
+   - [On umbrelOS home server](#install-llamagpt-on-your-umbrelos-home-server)
+   - [On M1/M2 Mac](#install-llamagpt-on-m1m2-mac)
+   - [Anywhere else with Docker (CPU only)](#install-llamagpt-anywhere-else-with-docker-cpu-only)
+   - [Kubernetes](#install-llamagpt-with-kubernetes)
+4. [OpenAI-compatible API](#openai-compatible-api)
+5. [Benchmarks](#benchmarks)
+6. [Roadmap and contributing](#roadmap-and-contributing)
+7. [Acknowledgements](#acknowledgements)
 
 ## Demo
 
 https://github.com/getumbrel/llama-gpt/assets/10330103/5d1a76b8-ed03-4a51-90bd-12ebfaf1e6cd
+
+## Supported models
+
+Currently, LlamaGPT supports the following models. Support for running custom models is on the roadmap.
+
+| Model name                               | Model size | Model download size | RAM required |
+| ---------------------------------------- | ---------- | ------------------- | ------------ |
+| Nous Hermes Llama 2 7B Chat (GGML q4_0)  | 7B         | 3.79GB              | 6.29GB       |
+| Nous Hermes Llama 2 13B Chat (GGML q4_0) | 13B        | 7.32GB              | 9.82GB       |
+| Meta Llama 2 70B Chat (GGML q4_0)        | 70B        | 38.87GB             | 41.37GB      |
 
 ## How to install
 
@@ -48,9 +77,28 @@ Running LlamaGPT on an [umbrelOS](https://umbrel.com) home server is one click. 
 
 [![LlamaGPT on Umbrel App Store](https://apps.umbrel.com/app/llama-gpt/badge-light.svg)](https://apps.umbrel.com/app/llama-gpt)
 
----
+### Install LlamaGPT on M1/M2 Mac
 
-### Install LlamaGPT anywhere else with Docker
+Make sure your have Docker and Xcode installed.
+
+Then, clone this repo and `cd` into it:
+
+```
+git clone https://github.com/getumbrel/llama-gpt.git
+cd llama-gpt
+```
+
+Run LlamaGPT with the following command:
+
+```
+./run-mac.sh --model 7b
+```
+
+To run 13B or 70B models, replace `7b` with `13b` or `70b` respectively.
+
+To stop LlamaGPT, do `Ctrl + C` in Terminal.
+
+### Install LlamaGPT anywhere else with Docker (CPU only)
 
 You can run LlamaGPT on any x86 or arm64 system. Make sure you have Docker installed.
 
@@ -61,24 +109,45 @@ git clone https://github.com/getumbrel/llama-gpt.git
 cd llama-gpt
 ```
 
-You can now run LlamaGPT with any of the following models depending upon your hardware:
+To run the 7B model, run:
 
-| Model size | Model used                          | Minimum RAM required | How to start LlamaGPT                            |
-| ---------- | ----------------------------------- | -------------------- | ------------------------------------------------ |
-| 7B         | Nous Hermes Llama 2 7B (GGML q4_0)  | 8GB                  | `docker compose up -d`                           |
-| 13B        | Nous Hermes Llama 2 13B (GGML q4_0) | 16GB                 | `docker compose -f docker-compose-13b.yml up -d` |
-| 70B        | Meta Llama 2 70B Chat (GGML q4_0)   | 48GB                 | `docker compose -f docker-compose-70b.yml up -d` |
+```
+docker compose up
+```
 
-You can access LlamaGPT at `http://localhost:3000`.
+To run the 13B model, run:
 
-To stop LlamaGPT, run:
+```
+docker compose -f docker-compose-13b.yml up
+```
+
+To run the 70B model, run:
+
+```
+docker compose -f docker-compose-70b.yml up
+```
+
+> Note: On the first run, it may take a while for the model to be downloaded to the `/models` directory. You may see lots of output like for a few minutes, which is normal:
+>
+> ```
+> llama-gpt-llama-gpt-ui-1       | [INFO  wait] Host [llama-gpt-api-13b:8000] not yet available...
+> ```
+> 
+> After the model has been downloaded and loaded, and the API server is running, you'll see an output like:
+> 
+> ```
+> llama-gpt-llama-gpt-api-13b-1  | INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+> ```
+> 
+> You can then access LlamaGPT at `http://localhost:3000`.
+
+To stop LlamaGPT, either do `Ctrl + C` or run:
 
 ```
 docker compose down
 ```
 
 ---
-
 
 ### Install LlamaGPT with Kubernetes
 
@@ -87,16 +156,22 @@ First, make sure you have a running Kubernetes cluster and `kubectl` is configur
 Then, clone this repo and `cd` into it.
 
 To deploy to Kubernetes first create a namespace:
+
 ```bash
 kubectl create ns llama
 ```
 
 Then apply the manifests under the `/deploy/kubernetes` directory with
+
 ```bash
 kubectl apply -k deploy/kubernetes/. -n llama
 ```
 
-Expose your service however you would normally do that. 
+Expose your service however you would normally do that.
+
+## OpenAI compatible API
+
+Thanks to llama-cpp-python, a drop-in replacement for OpenAI API is available at `http://localhost:3001`. Open http://localhost:3001/docs to see the API documentation.
 
 ## Benchmarks
 
@@ -104,33 +179,41 @@ We've tested LlamaGPT models on the following hardware with the default system p
 
 Feel free to add your own benchmarks to this table by opening a pull request.
 
-### Nous Hermes Llama 2 7B (GGML q4_0)
+#### Nous Hermes Llama 2 7B (GGML q4_0)
 
-| Device                           | Generation speed |
-| -------------------------------- | ---------------- |
-| M1 Max MacBook Pro (10 64GB RAM) | 8.2 tokens/sec   |
-| Umbrel Home (16GB RAM)           | 2.7 tokens/sec   |
-| Raspberry Pi 4 (8GB RAM)         | 0.9 tokens/sec   |
+| Device                                            | Generation speed |
+| ------------------------------------------------- | ---------------- |
+| M1 Max MacBook Pro (64GB RAM) with `./run-mac.sh` | 54 tokens/sec    |
+| M1 Max MacBook Pro (64GB RAM) with Docker         | 8.2 tokens/sec   |
+| Umbrel Home (16GB RAM)                            | 2.7 tokens/sec   |
+| Raspberry Pi 4 (8GB RAM)                          | 0.9 tokens/sec   |
 
-### Nous Hermes Llama 2 13B (GGML q4_0)
+#### Nous Hermes Llama 2 13B (GGML q4_0)
 
-| Device                        | Generation speed |
-| ----------------------------- | ---------------- |
-| M1 Max MacBook Pro (64GB RAM) | 3.7 tokens/sec   |
-| Umbrel Home (16GB RAM)        | 1.5 tokens/sec   |
+| Device                                            | Generation speed |
+| ------------------------------------------------- | ---------------- |
+| M1 Max MacBook Pro (64GB RAM) with `./run-mac.sh` | 20 tokens/sec    |
+| M1 Max MacBook Pro (64GB RAM) with Docker         | 3.7 tokens/sec   |
+| Umbrel Home (16GB RAM)                            | 1.5 tokens/sec   |
 
-### Meta Llama 2 70B Chat (GGML q4_0)
+#### Meta Llama 2 70B Chat (GGML q4_0)
 
-Unfortunately, we don't have any benchmarks for this model yet. If you have one, please open a pull request to add it to this table.
+| Device                                            | Generation speed |
+| ------------------------------------------------- | ---------------- |
+| M1 Max MacBook Pro (64GB RAM) with `./run-mac.sh` | 4.8 tokens/sec   |
+| GCP e2-standard-16 vCPU (64 GB RAM)               | 1.75 tokens/sec  |
+| M2 Max MacBook Pro (96GB RAM) with Docker         | 0.69 tokens/sec  |
 
 ## Roadmap and contributing
 
 We're looking to add more features to LlamaGPT. You can see the roadmap [here](https://github.com/getumbrel/llama-gpt/issues/8#issuecomment-1681321145). The highest priorities are:
 
-- Add CUDA and Metal support (work in progress).
-- Moving the model out of the Docker image and into a separate volume (work in progress).
-- Updating the front-end to show model download progress, and to allow users to switch between models.
-- Making it easy to run custom models.
+- [x] Moving the model out of the Docker image and into a separate volume.
+- [x] Add Metal support for M1/M2 Macs.
+- [ ] Add CUDA support for NVIDIA GPUs (work in progress).
+- [ ] Add ability to load custom models.
+- [ ] Allow users to switch between models.
+- [ ] Making it easy to run custom models.
 
 If you're a developer who'd like to help with any of these, please open an issue to discuss the best way to tackle the challenge. If you're looking to help but not sure where to begin, check out [these issues](https://github.com/getumbrel/llama-gpt/labels/good%20first%20issue) that have specifically been marked as being friendly to new contributors.
 

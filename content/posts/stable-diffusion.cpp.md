@@ -1,9 +1,9 @@
 ---
 title: stable-diffusion.cpp
-date: 2023-08-21T12:14:53+08:00
+date: 2023-08-22T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690442604217-aa441f1ac21e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690442604217-aa441f1ac21e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692128558808-a07e05445896?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692128558808-a07e05445896?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
@@ -59,6 +59,7 @@ cd stable-diffusion.cpp
 ```
 cd stable-diffusion.cpp
 git pull origin master
+git submodule init
 git submodule update
 ```
 

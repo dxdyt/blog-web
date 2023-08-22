@@ -1,9 +1,9 @@
 ---
 title: aseprite
-date: 2023-08-21T12:17:36+08:00
+date: 2023-08-22T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [aseprite/aseprite](https://github.com/aseprite/aseprite)

@@ -1,9 +1,9 @@
 ---
 title: dio-lab-open-source
-date: 2023-08-21T12:16:19+08:00
+date: 2023-08-22T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691508131706-889ca0a44496?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691508131706-889ca0a44496?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1641478740191-121fd7a4b284?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1641478740191-121fd7a4b284?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [elidianaandrade/dio-lab-open-source](https://github.com/elidianaandrade/dio-lab-open-source)

@@ -1,9 +1,9 @@
 ---
 title: GodMode
-date: 2023-08-21T12:17:07+08:00
+date: 2023-08-22T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690789658239-b22677655e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690789658239-b22677655e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1690789658239-b22677655e
 
 This is a dedicated chat browser that only does one thing: help you quickly access **the full webapps** of ChatGPT, Claude 2, Perplexity, Bing and more **with a single keyboard shortcut (Cmd+Shift+G)**.
 
-![image](https://github.com/smol-ai/menubar/assets/6764957/90f4bab4-e406-4507-b37e-8c8d80d18f15)
+![image](https://github.com/smol-ai/GodMode/assets/6764957/90f4bab4-e406-4507-b37e-8c8d80d18f15)
 
 ([click for video](https://twitter.com/swyx/status/1692988634364871032))
 
@@ -58,16 +58,16 @@ Yes and no:
 | Local/GGML Models (via [OobaBooga](https://github.com/oobabooga/text-generation-webui)) | Requires Local Setup, see oobabooga docs                                                                                                                                 |
 | Phind                                                                                   | Developer focused chat (temporarily disabled)                                                                                                                            |
 | [OpenRouter](https://openrouter.ai)                                                     | Access GPT4, Claude, PaLM, and open source models                                                                                                                        |
-| OpenAssistant                                                                           | Coming Soon — [Submit a PR](https://github.com/smol-ai/menubar/issues/37)!                                                                                               |
+| OpenAssistant                                                                           | Coming Soon — [Submit a PR](https://github.com/smol-ai/GodMode/issues/37)!                                                                                               |
 | Claude 1                                                                                | Requires Beta Access                                                                                                                                                     |
-| ... What Else?                                                                          | [Submit a New Issue](https://github.com/smol-ai/menubar/issues)!                                                                                                         |
+| ... What Else?                                                                          | [Submit a New Issue](https://github.com/smol-ai/GodMode/issues)!                                                                                                         |
 
 ## Features and Usage
 
 - **Keyboard Shortcuts**:
 
   - Use `Cmd+Shift+G` for quick open and `Cmd+Enter` to submit.
-  - Customize these shortcuts (thanks [@davej](https://github.com/smol-ai/menubar/pull/85)!):
+  - Customize these shortcuts (thanks [@davej](https://github.com/smol-ai/GodMode/pull/85)!):
     - Quick Open
       - ![image](https://github.com/davej/smol-ai-menubar/assets/6764957/3a6d0a16-7f54-43e5-9060-ec7b2486d32d)
     - Submit can be toggled to use `Enter` (faster for quick chat replies) vs `Cmd+Enter` (easier to enter multiline prompts)
@@ -91,7 +91,7 @@ Yes and no:
 
   - Initial support for [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui) has been added.
   - Users need to follow the process outlined in the text-generation-webui repository, including downloading models (e.g. [LLaMa-13B-GGML](https://huggingface.co/TheBloke/LLaMa-13B-GGML/blob/main/llama-13b.ggmlv3.q4_0.bin)).
-  - Run the model on `http://127.0.0.1:7860/` before running it inside of the smol menubar.
+  - Run the model on `http://127.0.0.1:7860/` before running it inside of the smol GodMode browser.
   - The UI only supports one kind of prompt template. Contributions are welcome to make the templating customizable (see the Oobabooga.js provider).
 
 - **Starting New Conversations**:
@@ -133,7 +133,7 @@ If you want to build from source, you will need to clone the repo and open the p
 
    ```bash
    git clone https://github.com/smol-ai/GodMode.git
-   cd menubar
+   cd GodMode
    npm install
    # On Windows, you may also need Squirrel - these are old instructions, we would love a Windows volunteer to verify
    # npm install electron-squirrel-startup
@@ -158,7 +158,7 @@ If you want to build from source, you will need to clone the repo and open the p
 
 by default we're mac only - i only have a mac sorry. (we are seeking a "Windows Maintainer"! and someone to help make this work on Arch Linux)
 
-Please let us know if you hvave windows/linux instructions.
+Please let us know if you have windows/linux instructions.
 
 ## Related project
 

@@ -1,9 +1,9 @@
 ---
 title: javascript-algorithms
-date: 2023-08-04T12:15:18+08:00
+date: 2023-08-22T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688362379195-b8c04f735968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688362379195-b8c04f735968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690802821543-e602a900057a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690802821543-e602a900057a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)

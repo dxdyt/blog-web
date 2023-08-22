@@ -1,14 +1,14 @@
 ---
 title: CoDeF
-date: 2023-08-21T12:14:46+08:00
+date: 2023-08-22T12:14:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690940822379-43068cdaf9be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690940822379-43068cdaf9be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691071716244-db306a482fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691071716244-db306a482fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [qiuyu96/CoDeF](https://github.com/qiuyu96/CoDeF)
 
-﻿# CoDeF: Content Deformation Fields for Temporally Consistent Video Processing
+# CoDeF: Content Deformation Fields for Temporally Consistent Video Processing
 
 <img src='docs/teaser.gif'></img>
 
@@ -20,38 +20,43 @@ featuredImagePreview: https://images.unsplash.com/photo-1690940822379-43068cdaf9
 <!-- Abstract: *This work presents the content deformation field **CoDeF** as a new type of video representation, which consists of a canonical content field aggregating the static contents in the entire video and a temporal deformation field recording the transformations from the canonical image (i.e., rendered from the canonical content field) to each individual frame along the time axis. Given a target video, these two fields are jointly optimized to reconstruct it through a carefully tailored rendering pipeline. We also introduce some decent regularizations into the optimization process, urging the canonical content field to inherit semantics (e.g., the object shape) from the video. With such a design, **CoDeF** naturally supports lifting image algorithms to videos, in the sense that one can apply an image algorithm to the canonical image and effortlessly propagate the outcomes to the entire video with the aid of the temporal deformation field. We experimentally show that **CoDeF** is able to lift image-to-image translation to video-to-video translation and lift keypoint detection to keypoint tracking without any training. More importantly, thanks to our lifting strategy that deploys the algorithms on only one image, we achieve superior cross-frame consistency in translated videos compared to existing video-to-video translation approaches, and even manage to track non-rigid objects like water and smog.* -->
 
 ## Requirements
+
 The codebase is tested on
+
 * Ubuntu 20.04
 * Python 3.10
 * [PyTorch](https://pytorch.org/) 2.0.0
 * [PyTorch Lightning](https://www.pytorchlightning.ai/index.html) 2.0.2
-* 1 Nvidia GPU (RTX A6000 48GB) with CUDA version 11.7 
-(Other GPUs are also suitable, and 10GB of GPU memory is sufficient to run our code.)
+* 1 NVIDIA GPU (RTX A6000) with CUDA version 11.7. (Other GPUs are also suitable, and 10GB GPU memory is sufficient to run our code.)
 
-To use video visualizer, please install `ffmpeg` by:
+To use video visualizer, please install `ffmpeg` via
 
-```
+```shell
 sudo apt-get install ffmpeg
 ```
 
-For additional Python libraries, please install by:
+For additional Python libraries, please install with
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
 Our code also depends on [tiny-cuda-nn](https://github.com/NVlabs/tiny-cuda-nn).
-See [this](https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension)
+See [this repository](https://github.com/NVlabs/tiny-cuda-nn#pytorch-extension)
 for Pytorch extension install instructions.
 
-
 ## Data
-### Our data
-Download our data from [this URL](https://drive.google.com/file/d/1cKZF6ILeokCjsSAGBmummcQh0uRGaC_F/view?usp=sharing), unzip the file and put it in the current directory. Some additional data can be downloaded from [here](https://rec.ustc.edu.cn/share/5d1e0bb0-31d7-11ee-aa60-d1fd6c62dfb4).
-### Customize your own data
-*To be released.*
 
-And organize files as follows:
+### Provided data
+
+We have provided some videos [here](https://drive.google.com/file/d/1cKZF6ILeokCjsSAGBmummcQh0uRGaC_F/view?usp=sharing) for quick test. Please download and unzip the data and put them in the root directory. More videos can be downloaded [here](https://rec.ustc.edu.cn/share/5d1e0bb0-31d7-11ee-aa60-d1fd6c62dfb4).
+
+### Customize your own data
+
+*Stay tuned for data preparation scripts.*
+
+Please organize your own data as follows:
+
 ```
 CoDeF
 │
@@ -73,8 +78,11 @@ CoDeF
     │
     └─── ...
 ```
+
 ## Pretrained checkpoints
-You can download the pre-trained checkpoints trained with the current codebase as follows:
+
+You can download checkpoints pre-trained on the provided videos via
+
 | Sequence Name | Config |                           Download                           |
 | :-------- | :----: | :----------------------------------------------------------: |
 | beauty_0 | configs/beauty_0/base.yaml |  [Google drive link](https://drive.google.com/file/d/11SWfnfDct8bE16802PyqYJqsU4x6ACn8/view?usp=sharing) |
@@ -83,7 +91,8 @@ You can download the pre-trained checkpoints trained with the current codebase a
 | lemon_hit      | configs/lemon_hit/base.yaml |  [Google drive link](https://drive.google.com/file/d/140ctcLbv7JTIiy53MuCYtI4_zpIvRXzq/view?usp=sharing) |
 | scene_0      | configs/scene_0/base.yaml |  [Google drive link](https://drive.google.com/file/d/1abOdREarfw1DGscahOJd2gZf1Xn_zN-F/view?usp=sharing) |
 
-And organize files as follows:
+And organize files as follows
+
 ```
 CoDeF
 │
@@ -105,10 +114,12 @@ CoDeF
 ```
 
 ## Train a new model
-```bash
+
+```shell
 ./scripts/train_multi.sh
 ```
-where:
+
+where
 * `GPU`: Decide which GPU to train on;
 * `NAME`: Name of the video sequence;
 * `EXP_NAME`: Name of the experiment;
@@ -121,19 +132,23 @@ where:
 Please check configuration files in ``configs/``, and you can always add your own model config.
 
 ## Test reconstruction <a id="anchor"></a>
-```bash
+
+```shell
 ./scripts/test_multi.sh
 ```
 After running the script, the reconstructed videos can be found in `results/all_sequences/{NAME}/{EXP_NAME}`, along with the canonical image.
 
 ## Test video translation
+
 After obtaining the canonical image through [this step](#anchor), use your preferred text prompts to transfer it using [ControlNet](https://github.com/lllyasviel/ControlNet).
 Once you have the transferred canonical image, place it in `all_sequences/${NAME}/${EXP_NAME}_control` (i.e. `CANONICAL_DIR` in `scripts/test_canonical.sh`). 
 
-Then run:
-```bash
+Then run
+
+```shell
 ./scripts/test_canonical.sh
 ```
+
 The transferred results can be seen in `results/all_sequences/{NAME}/{EXP_NAME}_transformed`.
 
 *Note*: The `canonical_wh` option in the configuration file should be set with caution, usually a little larger than `img_wh`, as it determines the field of view of the canonical image.
@@ -148,7 +163,3 @@ The transferred results can be seen in `results/all_sequences/{NAME}/{EXP_NAME}_
       year={2023}
 }
 ```
-
-
-
-
