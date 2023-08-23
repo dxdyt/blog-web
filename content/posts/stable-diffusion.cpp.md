@@ -1,9 +1,9 @@
 ---
 title: stable-diffusion.cpp
-date: 2023-08-22T12:15:36+08:00
+date: 2023-08-23T12:15:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692128558808-a07e05445896?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692128558808-a07e05445896?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691533540562-93a4aaac038d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691533540562-93a4aaac038d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
 ---
 
 # [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
@@ -44,6 +44,7 @@ Inference of [Stable Diffusion](https://github.com/CompVis/stable-diffusion) in 
 - [ ] LoRA support
 - [ ] k-quants support
 - [ ] Cross-platform reproducibility (perhaps ensuring consistency with the original SD)
+- [ ] Adapting to more weight formats
 
 ## Usage
 
@@ -95,6 +96,8 @@ You can specify the output model format using the --out_type parameter
 
 ### Build
 
+#### Build from scratch
+
 ```shell
 mkdir build
 cd build
@@ -102,7 +105,7 @@ cmake ..
 cmake --build . --config Release
 ```
 
-#### Using OpenBLAS
+##### Using OpenBLAS
 
 ```
 cmake .. -DGGML_OPENBLAS=ON
@@ -159,6 +162,22 @@ Using formats of different precisions will yield results of varying quality.
 <p align="center">
   <img src="./assets/img2img_output.png" width="256x">
 </p>
+
+### Docker
+
+#### Building using Docker
+
+```shell
+docker build -t sd .
+```
+
+#### Run
+
+```shell
+docker run -v /path/to/models:/models -v /path/to/output/:/output sd [args...]
+# For example
+# docker run -v ./models:/models -v ./build:/output sd -m /models/sd-v1-4-ggml-model-f16.bin -p "a lovely cat" -v -o /output/output.png
+```
 
 ## Memory/Disk Requirements
 

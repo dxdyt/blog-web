@@ -1,9 +1,9 @@
 ---
 title: documenso
-date: 2023-08-21T12:16:28+08:00
+date: 2023-08-23T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690940822379-43068cdaf9be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690940822379-43068cdaf9be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691211237213-8b84884acdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691211237213-8b84884acdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
 ---
 
 # [documenso/documenso](https://github.com/documenso/documenso)
@@ -35,6 +35,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1690940822379-43068cdaf9
    <a href="https://github.com/documenso/documenso/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
    <a href="https://github.com/documenso/documenso/pulse"><img src="https://img.shields.io/github/commit-activity/m/documenso/documenso" alt="Commits-per-month"></a>
 </p>
+
+> **🚧 We're currently working on a large scale refactor which can be found on the [feat/refresh](https://github.com/documenso/documenso/tree/feat/refresh) branch.**
+>
+> **[Read more on why 👀](https://documenso.com/blog/why-were-doing-a-rewrite)**
 
 # Documenso 0.9 - Developer Preview
 
@@ -145,6 +149,8 @@ Your database will also be available on port `54320`. You can connect to it usin
 
 ## Developer Setup
 
+### Manual Setup
+
 Follow these steps to setup documenso on you local machine:
 
 - [Clone the repository](https://help.github.com/articles/cloning-a-repository/) it to your local device.
@@ -174,6 +180,12 @@ Follow these steps to setup documenso on you local machine:
 - Optional: Create your own signing certificate
   - A demo certificate is provided in `/app/web/resources/certificate.p12`
   - To generate your own using these steps and a Linux Terminal or Windows Subsystem for Linux (WSL) see **[Create your own signing certificate](#creating-your-own-signing-certificate)**.
+
+### Run in Gitpod
+
+- Click below to launch a ready-to-use Gitpod workspace in your browser.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/documenso/documenso)
 
 ## Updating
 

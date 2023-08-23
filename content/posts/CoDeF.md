@@ -1,9 +1,9 @@
 ---
 title: CoDeF
-date: 2023-08-22T12:14:31+08:00
+date: 2023-08-23T12:14:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691071716244-db306a482fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691071716244-db306a482fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691533540562-93a4aaac038d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691533540562-93a4aaac038d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
 ---
 
 # [qiuyu96/CoDeF](https://github.com/qiuyu96/CoDeF)
@@ -49,7 +49,7 @@ for Pytorch extension install instructions.
 
 ### Provided data
 
-We have provided some videos [here](https://drive.google.com/file/d/1cKZF6ILeokCjsSAGBmummcQh0uRGaC_F/view?usp=sharing) for quick test. Please download and unzip the data and put them in the root directory. More videos can be downloaded [here](https://rec.ustc.edu.cn/share/5d1e0bb0-31d7-11ee-aa60-d1fd6c62dfb4).
+We have provided some videos [here](https://drive.google.com/file/d/1cKZF6ILeokCjsSAGBmummcQh0uRGaC_F/view?usp=sharing) for quick test. Please download and unzip the data and put them in the root directory. More videos can be downloaded [here](https://drive.google.com/file/d/10Msz37MpjZQFPXlDWCZqrcQjhxpQSvCI/view?usp=sharing).
 
 ### Customize your own data
 

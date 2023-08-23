@@ -1,9 +1,9 @@
 ---
 title: facefusion
-date: 2023-08-22T12:14:39+08:00
+date: 2023-08-23T12:14:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691629028503-0fc680775da4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691629028503-0fc680775da4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691512939771-41488bf21667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691512939771-41488bf21667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
 ---
 
 # [facefusion/facefusion](https://github.com/facefusion/facefusion)
@@ -70,7 +70,7 @@ python run.py [options]
 -v, --version                                                                                    show program's version number and exit
 ```
 
-Using the `-s/--source`, `-t/--target` and `-o/--output` argument will run the program in headless mode.
+Using the `-s/--source`, `-t/--target` and `-o/--output` arguments will run the program in headless mode.
 
 
 Disclaimer

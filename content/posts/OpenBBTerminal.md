@@ -1,9 +1,9 @@
 ---
 title: OpenBBTerminal
-date: 2023-08-21T12:16:50+08:00
+date: 2023-08-23T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036561573-4b76998b60de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691512939771-41488bf21667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691512939771-41488bf21667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
 ---
 
 # [OpenBB-finance/OpenBBTerminal](https://github.com/OpenBB-finance/OpenBBTerminal)

@@ -1,9 +1,9 @@
 ---
 title: GodMode
-date: 2023-08-22T12:16:36+08:00
+date: 2023-08-23T12:14:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691595567280-f17e0e5ad11e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691663477014-165c5f1d5fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691663477014-165c5f1d5fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
 ---
 
 # [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
@@ -20,7 +20,9 @@ Whatever is typed at the bottom is entered into all **web apps** simultaneously,
 
 ## Installation
 
-Install [here](https://github.com/smol-ai/GodMode/releases/latest)! Arm64 for Apple Silicon Macs, non Arm64 for the rest. We technically do support Windows, but need Windows users to help us with the build process/instructions.
+Install [here](https://github.com/smol-ai/GodMode/releases/latest)! Arm64 for Apple Silicon Macs, non Arm64 for the rest (there are some [temporary issues for Intel Macs](https://github.com/smol-ai/GodMode/issues/163), but beta.0 works. help wanted!).
+
+We [just added Windows/Linux support](https://github.com/smol-ai/GodMode/pull/162), but it needs a lot of work. Help wanted!
 
 You can also build from source, see instructions below.
 
@@ -113,7 +115,11 @@ Yes and no:
 
 You can:
 
-- download the precompiled binaries for MacOS: https://github.com/smol-ai/GodMode/releases/latest (sometimes Apple marks these as untrusted/damaged, just open them up in Applications and right-click-open to run it).
+- download the precompiled binaries: https://github.com/smol-ai/GodMode/releases/latest (sometimes Apple/Windows marks these as untrusted/damaged, just open them up in Applications and right-click-open to run it).
+  - for Apple Silicon M1/M2 macs, use the "arm64" version
+  - for Intel Macs, use the ".dmg" versions with no "arm64"
+  - for Windows, use ".exe" version. It will be marked as untrusted for now as we haven't done Windows codesigning yet
+  - for Linux, use ".AppImage". We don't think we support Arch Linux yet.
 - Or run it from source (instructions below)
 
 When you first run the app:
@@ -134,7 +140,7 @@ If you want to build from source, you will need to clone the repo and open the p
    ```bash
    git clone https://github.com/smol-ai/GodMode.git
    cd GodMode
-   npm install
+   npm install --force
    # On Windows, you may also need Squirrel - these are old instructions, we would love a Windows volunteer to verify
    # npm install electron-squirrel-startup
 
@@ -153,12 +159,6 @@ If you want to build from source, you will need to clone the repo and open the p
    ```
 
    The outputs will be located in the `/release/build` directory.
-
-## windows/linux builds
-
-by default we're mac only - i only have a mac sorry. (we are seeking a "Windows Maintainer"! and someone to help make this work on Arch Linux)
-
-Please let us know if you have windows/linux instructions.
 
 ## Related project
 
