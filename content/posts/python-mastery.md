@@ -1,9 +1,9 @@
 ---
 title: python-mastery
-date: 2023-08-22T12:17:07+08:00
+date: 2023-08-24T12:15:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690802821543-e602a900057a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690802821543-e602a900057a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1667850132998-013f89c6aec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1667850132998-013f89c6aec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
 ---
 
 # [dabeaz-course/python-mastery](https://github.com/dabeaz-course/python-mastery)

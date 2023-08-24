@@ -1,9 +1,9 @@
 ---
 title: spdlog
-date: 2023-05-21T12:17:38+08:00
+date: 2023-08-24T12:15:35+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImage: https://images.unsplash.com/photo-1667850132998-013f89c6aec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1667850132998-013f89c6aec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
 ---
 
 # [gabime/spdlog](https://github.com/gabime/spdlog)

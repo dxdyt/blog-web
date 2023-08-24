@@ -1,9 +1,9 @@
 ---
 title: GodMode
-date: 2023-08-23T12:14:22+08:00
+date: 2023-08-24T12:14:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691663477014-165c5f1d5fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691663477014-165c5f1d5fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692035053253-c40149437b5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692035053253-c40149437b5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
 ---
 
 # [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
@@ -116,8 +116,9 @@ Yes and no:
 You can:
 
 - download the precompiled binaries: https://github.com/smol-ai/GodMode/releases/latest (sometimes Apple/Windows marks these as untrusted/damaged, just open them up in Applications and right-click-open to run it).
-  - for Apple Silicon M1/M2 macs, use the "arm64" version
-  - for Intel Macs, use the ".dmg" versions with no "arm64"
+  - for Macs, you can use the "-universal.dmg" versions and it will choose between Apple Silicon/Intel architectures. We recommend installing this, but just fyi:
+    - Apple Silicon M1/M2 macs use the "arm64" version
+    - Intel Macs use the ".dmg" versions with no "arm64"
   - for Windows, use ".exe" version. It will be marked as untrusted for now as we haven't done Windows codesigning yet
   - for Linux, use ".AppImage". We don't think we support Arch Linux yet.
 - Or run it from source (instructions below)
