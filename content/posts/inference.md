@@ -1,370 +1,265 @@
 ---
 title: inference
-date: 2023-08-08T12:18:01+08:00
+date: 2023-08-25T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689198923121-c9df32e192eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689198923121-c9df32e192eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691815862778-249e9cd7f63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691815862778-249e9cd7f63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
-# [xorbitsai/inference](https://github.com/xorbitsai/inference)
+# [roboflow/inference](https://github.com/roboflow/inference)
 
-<div align="center">
-<img src="./assets/xorbits-logo.png" width="180px" alt="xorbits" />
+![Roboflow Inference banner](https://github.com/roboflow/inference/blob/main/banner.png?raw=true)
 
-# Xorbits Inference: Model Serving Made Easy 🤖
+## 👋 hello
 
-[![PyPI Latest Release](https://img.shields.io/pypi/v/xinference.svg?style=for-the-badge)](https://pypi.org/project/xinference/)
-[![License](https://img.shields.io/pypi/l/xinference.svg?style=for-the-badge)](https://github.com/xorbitsai/inference/blob/main/LICENSE)
-[![Build Status](https://img.shields.io/github/actions/workflow/status/xorbitsai/inference/python.yaml?branch=main&style=for-the-badge&label=GITHUB%20ACTIONS&logo=github)](https://actions-badge.atrox.dev/xorbitsai/inference/goto?ref=main)
-[![Slack](https://img.shields.io/badge/join_Slack-781FF5.svg?logo=slack&style=for-the-badge)](https://join.slack.com/t/xorbitsio/shared_invite/zt-1o3z9ucdh-RbfhbPVpx7prOVdM1CAuxg)
-[![Twitter](https://img.shields.io/twitter/follow/xorbitsio?logo=twitter&style=for-the-badge)](https://twitter.com/xorbitsio)
+[Roboflow](https://roboflow.com) Inference is an opinionated tool for running inference on state-of-the-art computer vision models. With no prior 
+knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments. Inference supports object detection, classification, and instance segmentation models, and running foundation models (CLIP and SAM).
 
-English | [中文介绍](README_zh_CN.md) | [日本語](README_ja_JP.md)
-</div>
-<br />
+## 🎥  Inference in action
 
+Check out Inference running on a video of a football game:
 
-Xorbits Inference(Xinference) is a powerful and versatile library designed to serve language, 
-speech recognition, and multimodal models. With Xorbits Inference, you can effortlessly deploy 
-and serve your or state-of-the-art built-in models using just a single command. Whether you are a 
-researcher, developer, or data scientist, Xorbits Inference empowers you to unleash the full 
-potential of cutting-edge AI models.
+https://github.com/roboflow/inference/assets/37276661/05512458-8424-4ddd-b214-57204b278528
 
-<div align="center">
-<i><a href="https://join.slack.com/t/xorbitsio/shared_invite/zt-1z3zsm9ep-87yI9YZ_B79HLB2ccTq4WA">👉 Join our Slack community!</a></i>
-</div>
+## 💻 Why Inference?
 
+Inference provides a scalable method through which you can manage inferences for your vision projects.
 
-## Key Features
-🌟 **Model Serving Made Easy**: Simplify the process of serving large language, speech 
-recognition, and multimodal models. You can set up and deploy your models
-for experimentation and production with a single command.
+Inference is backed by:
 
-⚡️ **State-of-the-Art Models**: Experiment with cutting-edge built-in models using a single 
-command. Inference provides access to state-of-the-art open-source models!
+* A server, so you don’t have to reimplement things like image processing and prediction visualization on every project.
 
-🖥 **Heterogeneous Hardware Utilization**: Make the most of your hardware resources with
-[ggml](https://github.com/ggerganov/ggml). Xorbits Inference intelligently utilizes heterogeneous
-hardware, including GPUs and CPUs, to accelerate your model inference tasks.
+* Standardized APIs for computer vision tasks, so switching out the model weights and architecture can be done independently of your application code.
 
-⚙️ **Flexible API and Interfaces**: Offer multiple interfaces for interacting
-with your models, supporting RPC, RESTful API(compatible with OpenAI API), CLI and WebUI
-for seamless management and monitoring.
+* Model architecture implementations, which implement the tensor parsing glue between images and predictions for supervised models that you've fine-tuned to perform custom tasks.
 
-🌐 **Distributed Deployment**: Excel in distributed deployment scenarios, 
-allowing the seamless distribution of model inference across multiple devices or machines.
+* A model registry, so your code can be independent from your model weights & you don't have to re-build and re-deploy every time you want to iterate on your model weights.
 
-🔌 **Built-in Integration with Third-Party Libraries**: Xorbits Inference seamlessly integrates
-with popular third-party libraries like LangChain and LlamaIndex. (Coming soon)
+* Data management integrations, so you can collect more images of edge cases to improve your dataset & model the more it sees in the wild.
 
-## Getting Started
-Xinference can be installed via pip from PyPI. It is highly recommended to create a new virtual
-environment to avoid conflicts.
+And more!
 
-### Installation
+### 📌 Install pip vs Docker:
+
+- **pip**: Installs `inference` into your Python environment. Lightweight, good for Python-centric projects.
+- **Docker**: Packages `inference` with its environment. Ensures consistency across setups; ideal for scalable deployments.
+
+## 💻 install
+
+### With ONNX CPU Runtime:
+For CPU powered inference:
 ```bash
-$ pip install "xinference"
+pip install inference
 ```
-`xinference` installs basic packages for serving models. 
-
-#### Installation with GGML
-To serve ggml models, you need to install the following extra dependencies:
+or
 ```bash
-$ pip install "xinference[ggml]"
-```
-If you want to achieve acceleration on 
-different hardware, refer to the installation documentation of the corresponding package.
-- [llama-cpp-python](https://github.com/abetlen/llama-cpp-python#installation-from-pypi-recommended) is required to run `baichuan`, `wizardlm-v1.0`, `vicuna-v1.3` and `orca`.
-- [chatglm-cpp-python](https://github.com/li-plus/chatglm.cpp#getting-started) is required to run `chatglm` and `chatglm2`.
-
-#### Installation with PyTorch
-To serve PyTorch models, you need to install the following extra dependencies:
-```bash
-$ pip install "xinference[pytorch]"
+pip install inference-cpu
 ```
 
-#### Installation with all dependencies
-If you want to serve all the supported models, install all the dependencies:
+### With ONNX GPU Runtime:
+If you have an NVIDIA GPU, you can accelerate your inference with:
 ```bash
-$ pip install "xinference[all]"
+pip install inference-gpu
 ```
 
-
-### Deployment
-You can deploy Xinference locally with a single command or deploy it in a distributed cluster. 
-
-#### Local
-To start a local instance of Xinference, run the following command:
+### Without ONNX Runtime:
+Roboflow Inference uses Onnxruntime as its core inference engine. Onnxruntime provides an array of different [execution providers](https://onnxruntime.ai/docs/execution-providers/) that can optimize inference on differnt target devices. If you decide to install onnxruntime on your own, install inference with:
 ```bash
-$ xinference
+pip install inference-core
+```
+Alternatively, you can take advantage of some advanced execution providers using one of our published docker images.
+
+### Extras:
+Some functionality requires extra dependancies. These can be installed by specifying the desired extras during installation of Roboflow Inference.
+| extra  | description                                      |
+|:-------|:-------------------------------------------------|
+| `http` | Ability to run the http interface                |
+
+Example install with http dependancies:
+```bash
+pip install inference[http]
 ```
 
-#### Distributed
+## 🐋 docker
 
-To deploy Xinference in a cluster, you need to start a Xinference supervisor on one server and 
-Xinference workers on the other servers. Follow the steps below:
+You can learn more about Roboflow Inference Docker Image build, pull and run in our [documentation](https://roboflow.github.io/inference/quickstart/docker/).
 
-**Starting the Supervisor**: On the server where you want to run the Xinference supervisor, run the following command:
+- Run on x86 CPU:
+
 ```bash
-$ xinference-supervisor -H "${supervisor_host}"
+docker run --net=host roboflow/roboflow-inference-server-cpu:latest
 ```
-Replace `${supervisor_host}` with the actual host of your supervisor server.
+  
+- Run on Nvidia GPU:
 
-**Starting the Workers**: On each of the other servers where you want to run Xinference workers, run the following command:
 ```bash
-$ xinference-worker -e "http://${supervisor_host}:9997"
+docker run --network=host --gpus=all roboflow/roboflow-inference-server-gpu:latest
+```
+  
+<details close>
+<summary>👉 more docker run options</summary>
+
+- Run on arm64 CPU:
+
+```bash
+docker run -p 9001:9001 roboflow/roboflow-inference-server-arm-cpu:latest
+```
+  
+- Run on Nvidia GPU with TensorRT Runtime:
+
+```bash
+docker run --network=host --gpus=all roboflow/roboflow-inference-server-trt:latest
+```
+  
+- Run on Nvidia Jetson with JetPack `4.x`:
+
+```bash
+docker run --privileged --net=host --runtime=nvidia roboflow/roboflow-inference-server-trt-jetson:latest
+```
+  
+- Run on Nvidia Jetson with JetPack `5.x`:
+
+```bash
+docker run --privileged --net=host --runtime=nvidia roboflow/roboflow-inference-server-trt-jetson-5.1.1:latest
 ```
 
-Once Xinference is running, an endpoint will be accessible for model management via CLI or
-Xinference  client.
+</details>
 
-- For local deployment, the endpoint will be `http://localhost:9997`.
-- For cluster deployment, the endpoint will be `http://${supervisor_host}:9997`, where
-`${supervisor_host}` is the hostname or IP address of the server where the supervisor is running.
+<br/>
 
-You can also view a web UI using the Xinference endpoint to chat with all the 
-builtin models. You can even **chat with two cutting-edge AI models side-by-side to compare
-their performance**!
+## 🔥 quickstart
 
-![web UI](assets/demo.gif)
-
-### Xinference CLI
-Xinference provides a command line interface (CLI) for model management. Here are some useful 
-commands:
-
-- Launch a model (a model UID will be returned): `xinference launch`
-- List running models: `xinference list`
-- List all the builtin models: `xinference list --all`
-- Terminate a model: `xinference terminate --model-uid ${model_uid}`
-
-### Xinference Client
-Xinference also provides a client for managing and accessing models programmatically:
+**Docker Quickstart**:
 
 ```python
-from xinference.client import Client
+import requests
 
-client = Client("http://localhost:9997")
-model_uid = client.launch_model(model_name="chatglm2")
-model = client.get_model(model_uid)
+dataset_id = "soccer-players-5fuqs"
+version_id = "1"
+image_url = "https://source.roboflow.com/pwYAXv9BTpqLyFfgQoPZ/u48G0UpWfk8giSw7wrU8/original.jpg"
+#Replace ROBOFLOW_API_KEY with your Roboflow API Key
+api_key = "ROBOFLOW_API_KEY"
+confidence = 0.5
 
-chat_history = []
-prompt = "What is the largest animal?"
-model.chat(
-            prompt,
-            chat_history,
-            generate_config={"max_tokens": 1024}
-        )
-```
+url = f"http://localhost:9001/{dataset_id}/{version_id}"
 
-Result:
-```json
-{
-  "id": "chatcmpl-8d76b65a-bad0-42ef-912d-4a0533d90d61",
-  "model": "56f69622-1e73-11ee-a3bd-9af9f16816c6",
-  "object": "chat.completion",
-  "created": 1688919187,
-  "choices": [
-    {
-      "index": 0,
-      "message": {
-        "role": "assistant",
-        "content": "The largest animal that has been scientifically measured is the blue whale, which has a maximum length of around 23 meters (75 feet) for adult animals and can weigh up to 150,000 pounds (68,000 kg). However, it is important to note that this is just an estimate and that the largest animal known to science may be larger still. Some scientists believe that the largest animals may not have a clear \"size\" in the same way that humans do, as their size can vary depending on the environment and the stage of their life."
-      },
-      "finish_reason": "None"
-    }
-  ],
-  "usage": {
-    "prompt_tokens": -1,
-    "completion_tokens": -1,
-    "total_tokens": -1
-  }
+params = {
+    "api_key": api_key,
+    "confidence": confidence,
+    "image": image_url,
 }
+
+res = requests.post(url, params=params)
+print(res.json())
 ```
+**Pip Quickstart**:
 
-See [examples](examples) for more examples.
+After installing via pip, you can run a simple inference using:
 
-
-## Builtin models
-To view the builtin models, run the following command:
-```bash
-$ xinference list --all
-```
-
-### ggmlv3 models
-
-| Name          | Type             | Language | Format  | Size (in billions) | Quantization                            |
-|---------------|------------------|----------|---------|--------------------|-----------------------------------------|
-| llama-2       | Foundation Model | en       | ggmlv3  | 7, 13              | 'q2_K', 'q3_K_L', ... , 'q6_K', 'q8_0'  |
-| baichuan      | Foundation Model | en, zh   | ggmlv3  | 7                  | 'q2_K', 'q3_K_L', ... , 'q6_K', 'q8_0'  |
-| llama-2-chat  | RLHF Model       | en       | ggmlv3  | 7, 13, 70          | 'q2_K', 'q3_K_L', ... , 'q6_K', 'q8_0'  |
-| chatglm       | SFT Model        | en, zh   | ggmlv3  | 6                  | 'q4_0', 'q4_1', 'q5_0', 'q5_1', 'q8_0'  |
-| chatglm2      | SFT Model        | en, zh   | ggmlv3  | 6                  | 'q4_0', 'q4_1', 'q5_0', 'q5_1', 'q8_0'  |
-| wizardlm-v1.0 | SFT Model        | en       | ggmlv3  | 7, 13, 33          | 'q2_K', 'q3_K_L', ... , 'q6_K', 'q8_0'  |
-| wizardlm-v1.1 | SFT Model        | en       | ggmlv3  | 13                 | 'q2_K', 'q3_K_L', ... , 'q6_K', 'q8_0'  |
-| vicuna-v1.3   | SFT Model        | en       | ggmlv3  | 7, 13              | 'q2_K', 'q3_K_L', ... , 'q6_K', 'q8_0'  |
-| orca          | SFT Model        | en       | ggmlv3  | 3, 7, 13           | 'q4_0', 'q4_1', 'q5_0', 'q5_1', 'q8_0'  |
-
-### pytorch models
-
-| Name          | Type             | Language | Format  | Size (in billions) | Quantization             |
-|---------------|------------------|----------|---------|--------------------|--------------------------|
-| baichuan      | Foundation Model | en, zh   | pytorch | 7, 13              | '4-bit', '8-bit', 'none' |
-| baichuan-chat | SFT Model        | en, zh   | pytorch | 13                 | '4-bit', '8-bit', 'none' |
-| vicuna-v1.3   | SFT Model        | en       | pytorch | 7, 13, 33          | '4-bit', '8-bit', 'none' |
-
-
-**NOTE**:
-- Xinference will download models automatically for you, and by default the models will be saved under `${USER}/.xinference/cache`.
-- Foundation models only provide interface `generate`.
-- RLHF and SFT models provide both `generate` and `chat`.
-- If you want to use Apple Metal GPU for acceleration, please choose the q4_0 and q4_1 quantization methods.
-- `llama-2-chat` 70B ggmlv3 model only supports q4_0 quantization currently.
-
-## Custom models \[Experimental\]
-Custom models are currently an experimental feature and are expected to be officially released in version v0.2.0.
-
-Define a custom model based on the following template:
 ```python
-custom_model = {
-  "version": 1,
-  # model name. must start with a letter or a 
-  # digit, and can only contain letters, digits, 
-  # underscores, or dashes.
-  "model_name": "nsql-2B",  
-  # supported languages
-  "model_lang": [
-    "en"
-  ],
-  # model abilities. could be "embed", "generate"
-  # and "chat".
-  "model_ability": [
-    "generate"
-  ],
-  # model specifications.
-  "model_specs": [
-    {
-      # model format.
-      "model_format": "pytorch",
-      "model_size_in_billions": 2,
-      # quantizations.
-      "quantizations": [
-        "4-bit",
-        "8-bit",
-        "none"
-      ],
-      # hugging face model ID.
-      "model_id": "NumbersStation/nsql-2B"
-    }
-  ],
-  # prompt style, required by chat models.
-  # for more details, see: xinference/model/llm/tests/test_utils.py
-  "prompt_style": None
-}
-```
-
-Register the custom model:
-```python
-import json
-
-from xinference.client import Client
-
-# replace with real xinference endpoint
-endpoint = "http://localhost:9997"
-client = Client(endpoint)
-client.register_model(model_type="LLM", model=json.dumps(custom_model), persist=False)
-```
-
-Load the custom model:
-```python
-uid = client.launch_model(model_name='nsql-2B')
-```
-
-Run the custom model:
-```python
-text = """CREATE TABLE work_orders (
-    ID NUMBER,
-    CREATED_AT TEXT,
-    COST FLOAT,
-    INVOICE_AMOUNT FLOAT,
-    IS_DUE BOOLEAN,
-    IS_OPEN BOOLEAN,
-    IS_OVERDUE BOOLEAN,
-    COUNTRY_NAME TEXT,
+from inference.core.data_models import ObjectDetectionInferenceRequest
+from inference.models.yolov5.yolov5_object_detection import (
+    YOLOv5ObjectDetectionOnnxRoboflowInferenceModel,
 )
 
--- Using valid SQLite, answer the following questions for the tables provided above.
+model = YOLOv5ObjectDetectionOnnxRoboflowInferenceModel(
+    model_id="soccer-players-5fuqs/1", device_id="my-pc", 
+    #Replace ROBOFLOW_API_KEY with your Roboflow API Key
+    api_key="ROBOFLOW_API_KEY"
+)
 
--- how many work orders are open?
+request = ObjectDetectionInferenceRequest(
+    image={
+        "type": "url",
+        "value": "https://source.roboflow.com/pwYAXv9BTpqLyFfgQoPZ/u48G0UpWfk8giSw7wrU8/original.jpg",
+    },
+    confidence=0.5,
+    iou_threshold=0.5,
+)
 
-SELECT"""
+results = model.infer(request)
 
-model = client.get_model(model_uid=uid)
-model.generate(prompt=text)
+print(results)
+
 ```
 
-Result:
-```json
-{
-   "id":"aeb5c87a-352e-11ee-89ad-9af9f16816c5",
-   "object":"text_completion",
-   "created":1691418511,
-   "model":"3b912fc4-352e-11ee-8e66-9af9f16816c5",
-   "choices":[
-      {
-         "text":" COUNT(*) FROM work_orders WHERE IS_OPEN = '1';",
-         "index":0,
-         "logprobs":"None",
-         "finish_reason":"stop"
-      }
-   ],
-   "usage":{
-      "prompt_tokens":117,
-      "completion_tokens":17,
-      "total_tokens":134
-   }
-}
-```
 
-## Pytorch Model Best Practices
+## 📝 license
 
-Pytorch has been integrated recently, and the usage scenarios are described below:
+The Roboflow Inference code is distributed under an [Apache 2.0 license](https://github.com/roboflow/inference/blob/master/LICENSE.md). The models supported by Roboflow Inference have their own licenses. View the licenses for supported models below.
 
-### supported models
-- Foundation Model：baichuan（7B、13B）。
-- SFT Model：baichuan-chat（13B）、vicuna-v1.3（7B、13B、33B）。
+| model                     |                                       license                                        |
+|:--------------------------|:------------------------------------------------------------------------------------:|
+| `inference/models/clip`   |               [MIT](https://github.com/openai/CLIP/blob/main/LICENSE)                |
+| `inference/models/sam`    | [Apache 2.0](https://github.com/facebookresearch/segment-anything/blob/main/LICENSE) |
+| `inference/models/vit`    | [Apache 2.0](https://github.com/roboflow/inference/main/inference/models/vit/LICENSE)|
+| `inference/models/yolact` |            [MIT](https://github.com/dbolya/yolact/blob/master/README.md)             |
+| `inference/models/yolov5` |        [AGPL-3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE)         |
+| `inference/models/yolov7` |         [GPL-3.0](https://github.com/WongKinYiu/yolov7/blob/main/README.md)          |
+| `inference/models/yolov8` |     [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/master/LICENSE)       |
 
-### supported devices
-- CUDA: On Linux and Windows systems, `cuda` device is used by default.
-- MPS: On Mac M1/M2 devices, `mps` device is used by default.
-- CPU: It is not recommended to use a `cpu` device, as it takes up a lot of memory and the inference speed is very slow.
+## 🚀 enterprise
 
-### quantization methods
-- `none`: indicates that no quantization is used.
-- `8-bit`: use 8-bit quantization.
-- `4-bit`: use 4-bit quantization. Note: 4-bit quantization is only supported on Linux systems and CUDA devices.
+With a Roboflow Inference Enterprise License, you can access additional Inference features, including:
 
-### other instructions
-- On MacOS system, baichuan-chat model is not supported, and baichuan model cannot use 8-bit quantization.
+- Server cluster deployment
+- Device management
+- Active learning
+- YOLOv5 and YOLOv8 model sub-license
 
-### use cases
+To learn more, [contact the Roboflow team](https://roboflow.com/sales).
 
-The table below shows memory usage and supported devices of some models.
+## 📚 documentation
 
-| Name          | Size (B) | OS    | No quantization (MB) | Quantization 8-bit (MB) | Quantization 4-bit (MB) |
-|---------------|----------|-------|----------------------|-------------------------|-------------------------|
-| baichuan-chat | 13       | linux | not currently tested | 13275                   | 7263                    |
-| baichuan-chat | 13       | macos | not supported        | not supported           | not supported           |
-| vicuna-v1.3   | 7        | linux | 12884                | 6708                    | 3620                    |
-| vicuna-v1.3   | 7        | macos | 12916                | 565                     | not supported           |
-| baichuan      | 7        | linux | 13480                | 7304                    | 4216                    |
-| baichuan      | 7        | macos | 13480                | not supported           | not supported           |
+Visit our [documentation](https://roboflow.github.io/inference) for usage examples and reference for Roboflow Inference.
 
+## 🏆 contribution
 
+We would love your input to improve Roboflow Inference! Please see our [contributing guide](https://github.com/roboflow/inference/blob/master/CONTRIBUTING.md) to get started. Thank you to all of our contributors! 🙏
 
-## Roadmap
-Xinference is currently under active development. Here's a roadmap outlining our planned 
-developments for the next few weeks:
+<br>
 
-### Langchain & LlamaIndex integration
-With Xinference, it will be much easier for users to use these libraries and build applications 
-with LLMs.
+<div align="center">
+  <div align="center">
+      <a href="https://youtube.com/roboflow">
+          <img
+            src="https://media.roboflow.com/notebooks/template/icons/purple/youtube.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949634652"
+            width="3%"
+          />
+      </a>
+      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
+      <a href="https://roboflow.com">
+          <img
+            src="https://media.roboflow.com/notebooks/template/icons/purple/roboflow-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949746649"
+            width="3%"
+          />
+      </a>
+      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
+      <a href="https://www.linkedin.com/company/roboflow-ai/">
+          <img
+            src="https://media.roboflow.com/notebooks/template/icons/purple/linkedin.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633691"
+            width="3%"
+          />
+      </a>
+      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
+      <a href="https://docs.roboflow.com">
+          <img
+            src="https://media.roboflow.com/notebooks/template/icons/purple/knowledge.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949634511"
+            width="3%"
+          />
+      </a>
+      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
+      <a href="https://disuss.roboflow.com">
+          <img
+            src="https://media.roboflow.com/notebooks/template/icons/purple/forum.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633584"
+            width="3%"
+          />
+      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
+      <a href="https://blog.roboflow.com">
+          <img
+            src="https://media.roboflow.com/notebooks/template/icons/purple/blog.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633605"
+            width="3%"
+          />
+      </a>
+      </a>
+  </div>

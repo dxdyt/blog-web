@@ -1,9 +1,9 @@
 ---
 title: GodMode
-date: 2023-08-24T12:14:43+08:00
+date: 2023-08-25T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692035053253-c40149437b5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692035053253-c40149437b5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1632061253472-9c715a570b6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1632061253472-9c715a570b6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
 # [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
@@ -53,6 +53,7 @@ Yes and no:
 | **Perplexity**                                                                          | The login is finnicky - login to Google on any of the other chats, and then reload (cmd+R) - it'll auto login. Hopefully they make it more intuitive/reliable in future. |
 | **Bing**                                                                                | Microsoft's best. [It's not the same as GPT-4!](https://twitter.com/jeremyphoward/status/1666593682676662272?s=20). We could use help normalizing its styling.           |
 | Bard                                                                                    | Google's best. [Bard's updates are... flaky](https://twitter.com/swyx/status/1678495067663925248)                                                                        |
+| Llama2 via Perplexity                                                                   | Can run [the latest CodeLlama 34B model](https://twitter.com/swyx/status/1694870138984747449?s=20)! try it!                                                              |
 | Quora Poe                                                                               | Added in #118                                                                                                                                                            |
 | You.com Chat                                                                            | Added in #142                                                                                                                                                            |
 | HuggingChat                                                                             | Offers Llama2, OpenAssistant                                                                                                                                             |

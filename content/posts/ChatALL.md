@@ -1,9 +1,9 @@
 ---
 title: ChatALL
-date: 2023-06-21T12:16:23+08:00
+date: 2023-08-25T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1664397943078-12c973839085?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1664397943078-12c973839085?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODczMjA5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1670924758351-a372e77f6e72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1670924758351-a372e77f6e72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
 # [sunner/ChatALL](https://github.com/sunner/ChatALL)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1664397943078-12c9738390
   <img src="src/assets/logo-cover.png" width=256></img>
   <p><strong>Chat with ALL AI Bots Concurrently, Discover the Best</strong></p>
 
-[Deutsch](README_DE-DE.md) | English | [Español](README_ES-ES.md) | [Français](README_FR-FR.md) | [日本語](README_JA-JP.md) | [한국어](README_KO-KR.md) | [Tiếng Việt](README_VI-VN.md) | [简体中文](README_ZH-CN.md)
+[Deutsch](README_DE-DE.md) | English | [Español](README_ES-ES.md) | [Français](README_FR-FR.md) | [Italian](README_IT-IT.md) | [日本語](README_JA-JP.md) | [한국어](README_KO-KR.md) | [Tiếng Việt](README_VI-VN.md) | [简体中文](README_ZH-CN.md)
 
 </div>
 
@@ -36,7 +36,7 @@ Typical users of ChatALL are:
 
 | AI Bots                                                      | Web Access  | API         | Notes                                       |
 | ------------------------------------------------------------ | ----------- | ----------- | ------------------------------------------- |
-| [ChatGPT](https://chat.openai.com)                           | Yes         | Yes         | Web Browsing included                       |
+| [ChatGPT](https://chat.openai.com)                           | Yes         | Yes         | Web Browsing, Azure OpenAI service included |
 | [Bing Chat](https://www.bing.com/new)                        | Yes         | No API      | No login required                           |
 | [Baidu ERNIE](https://yiyan.baidu.com/)                      | No          | Yes         |                                             |
 | [Bard](https://bard.google.com/)                             | Yes         | Coming soon |                                             |
@@ -50,30 +50,39 @@ Typical users of ChatALL are:
 | [ChatGLM](https://chatglm.cn/blog)                           | Yes         | No API      | No Login required                           |
 | [Claude](https://www.anthropic.com/index/introducing-claude) | Yes         | No API      | No Login required                           |
 | [Gradio](https://gradio.app/)                                | Yes         | No API      | For Hugging Face space/self-deployed models |
-| [HuggingChat](https://huggingface.co/chat/)                  | Yes         | No API      |                                             |
-| [QianWen](https://qianwen.aliyun.com/)                       | Yes         | Coming soon |                                             |
+| [HuggingChat](https://huggingface.co/chat/)                  | Yes         | No API      | Llama 2 included                            |
+| [SkyWork](https://neice.tiangong.cn/)                        | Yes         | Coming soon |                                             |
+| [You](https://you.com/)                                      | Yes         | No API      |                                             |
+| [Pi](https://pi.ai)                                      | Yes         | No API      |                                             |
+| [360 AI Brain](https://ai.360.cn/)                           | Yes         | No API      |                                             |
+| [YouChat](https://you.com/)                                  | Yes         | No API      |                                             |
+| [Open Assistant](https://open-assistant.io/)                 | Yes         | No API      |                                             |
+| [Claude](https://claude.ai/)                                 | Yes         | No API      |                                             |
+| [Character.AI](https://character.ai/)                        | Yes         | No API      |                                             |
 
 More is coming. Upvote your favorite bots in [these issues](https://github.com/sunner/ChatALL/labels/more%20LLMs).
 
 ### Other features
 
 - Quick-prompt mode: send the next prompt without waiting for the previous request to complete
-- Store chat history locally, protect your privacy
+- Save chat history locally, protect your privacy
 - Highlight the response you like, delete the bad
-- Automatically keep ChatGPT session alive
 - Enable/disable any bots at any time
 - Switch between one, two, or three-column view
-- Supports multiple languages (Chinese, English, German, French, Russian, Vietnamese, Korean)
+- Auto update to the latest version
+- Dark mode (contributed by @tanchekwei)
+- Short keys. Press `Ctrl + /` to know all of them (contributed by @tanchekwei)
+- Multiple chats (contributed by @tanchekwei)
+- Proxy setting (contributed by @msaong)
+- Prompt management (contributed by @tanchekwei)
+- Supports multiple languages (Chinese, English, German, French, Russian, Vietnamese, Korean, Japanese, Spanish, Italian)
 - Supports Windows, macOS and Linux
 
 Planned features:
 
 You are welcome to contribute to these features.
 
-- [ ] Dark mode
-- [ ] Multi-chats
 - [ ] Deploy front-end to GitHub Pages
-- [ ] LangChain integration
 
 ## Prerequisites
 
@@ -97,7 +106,11 @@ For Apple Silicon Mac (M1, M2 CPU), download the \*-mac-arm64.dmg file.
 
 For other Macs, download \*-mac-x64.dmg file.
 
-If the system prompts that it cannot check whether the software is malicious, follow the [Apple official guide](https://support.apple.com/guide/mac-help/apple-cant-check-app-for-malicious-software-mchleab3a043/mac) to proceed.
+If you are using [Homebrew](https://brew.sh/), you can also install it with:
+
+```bash
+brew install --cask chatall
+```
 
 ### On Linux
 
@@ -127,10 +140,6 @@ If the problem persists, please [submit an issue](https://github.com/sunner/Chat
 ### Contribute a Bot
 
 [The guide](https://github.com/sunner/ChatALL/wiki/%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E4%B8%80%E4%B8%AA%E6%96%B0%E7%9A%84-AI-%E5%AF%B9%E8%AF%9D%E6%9C%BA%E5%99%A8%E4%BA%BA) may help you.
-
-### Environment Dependents
-
-Node.js must be v16.x
 
 ### Run
 

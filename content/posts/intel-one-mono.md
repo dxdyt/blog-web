@@ -1,9 +1,9 @@
 ---
 title: intel-one-mono
-date: 2023-06-14T12:15:43+08:00
+date: 2023-08-25T12:14:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686174779175-f5d9dabb3eb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686174779175-f5d9dabb3eb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692533801336-fb86a60f501f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692533801336-fb86a60f501f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
 # [intel/intel-one-mono](https://github.com/intel/intel-one-mono)
@@ -25,8 +25,9 @@ Intel One Mono also covers a wide range of over 200 languages using the Latin sc
 To install the fonts, please use the provided builds under [Releases](https://github.com/intel/intel-one-mono/releases). Please refer to your software’s documentation for how to activate and use these fonts.
 
 ### Activating the Fonts in Code Editors
-- VSCode - In Settings, search Font Family, then specify `IntelOne Mono`
-- Sublime Text - Go to Sublime Text -> Preferences -> Settings and set `font_face` to `IntelOne Mono`
+- VSCode - In Settings, search Font Family, then specify `Intel One Mono`
+- Sublime Text - Go to Sublime Text -> Preferences -> Settings and set `font_face` to `Intel One Mono`
+- IntelliJ Platform - Go to File -> Settings -> Editor -> Font and set Font to `Intel One Mono`
 
 ### Font Formats
 - We recommend the .otf or .ttf format for desktop use.
@@ -38,7 +39,7 @@ We recommend using these fonts at 7 points and larger in print, 9 pixels and lar
 
 ### Available OpenType Features
 Outside of the default characters, there are a few extra features that are accessible in some applications, as well as via CSS:
-- **Raised Colon:** there is an option for a raised colon, either applied contextually between numbers or activated generally. The contextual option is available via ss11 (Stylistic Set #11), or use ss12 (Stylistic Set #12) or salt (Stylistic Alternates) for the global switch.
+- **Raised Colon:** there is an option for a raised colon, either applied contextually between numbers or activated generally. The contextual option is available via ss11 (Stylistic Set #11), or use ss12 (Stylistic Set #12) or salt (Stylistic Alternates) for the global switch. Also, the colon will automatically be raised in operators, to align with math symbols.
 - **Language Support:** ccmp and locl features ensure correct display across a wide range of languages. These are usually activated by default. We recommend setting the language tag/setting in your software to the desired language for best results.
 - **Superior/superscript and inferior/subscript figures** are included via their Unicode codepoints, or you can produce them from the default figures via the sups (Superscript), subs (Subscript), and si (Scientific Inferior) features.
 - **Fraction numerals** are similarly available via the numr (Numerator) and dnom (Denominator) features. A set of premade fractions is also available in the fonts.

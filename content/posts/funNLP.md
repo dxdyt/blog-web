@@ -1,9 +1,9 @@
 ---
 title: funNLP
-date: 2023-08-24T12:14:36+08:00
+date: 2023-08-25T12:15:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691679829047-aa2674339070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691679829047-aa2674339070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692533801336-fb86a60f501f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692533801336-fb86a60f501f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
 # [fighting41love/funNLP](https://github.com/fighting41love/funNLP)
@@ -146,6 +146,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691679829047-aa26743390
 |   大型语言模型（LLMs）大盘点   |       |   [blog](https://mp.weixin.qq.com/s/y81NvvWqyOnaBoKyV_1f6A)    |
 |   大模型评测方面的最新研究   |    长文本建模一直是ChaGPT令人惊艳的能力之一，我们以【篇章翻译】为实验场景，对大模型的篇章建模能力进行全面、细粒度的测试。   |  [paper](https://arxiv.org/abs/2304.02210)     |
 |中文大模型评测工具&排行榜|C-Eval是一个全面的中文评估套件，适用于基础模型。它包含13948个多项选择题，涵盖52个不同的学科和四个难度级别，具体如下所示。请访问我们的网站或查阅我们的论文获取更多详细信息。|[github](https://github.com/SJTU-LIT/ceval)[paper](https://arxiv.org/abs/2305.08322)|
+|OpenCompass 大模型评测|OpenCompass 上海人工智能实验室开发的一款开源、高效、全面的评测大模型体系及开放平台，提供完整开源可复现的评测框架，支持大语言模型、多模态模型各类模型的一站式评测。利用分布式技术，即使面对千亿参数模型也能在数小时内完成评测。基于多个不同维度的高认可度数据集开放多样化的评测方式，包括零样本评测、小样本评测和思维链评测，全方位量化模型各个维度能力。|[github](https://github.com/internLM/OpenCompass/)  [website](https://opencompass.org.cn/)|
 
 # 类ChatGPT的资料
 

@@ -1,9 +1,9 @@
 ---
 title: go-quai
-date: 2023-08-24T12:14:29+08:00
+date: 2023-08-25T12:15:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691175084860-0320d12df95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691175084860-0320d12df95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690484814049-2ab2002b0dea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690484814049-2ab2002b0dea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
 # [dominant-strategies/go-quai](https://github.com/dominant-strategies/go-quai)

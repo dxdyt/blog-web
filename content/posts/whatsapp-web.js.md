@@ -1,14 +1,14 @@
 ---
 title: whatsapp-web.js
-date: 2023-05-24T12:17:42+08:00
+date: 2023-08-25T12:16:32+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12189/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12189/0/1080p
+featuredImage: https://images.unsplash.com/photo-1691083525349-c22d4dd2d567?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691083525349-c22d4dd2d567?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
 ---
 
 # [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)
 
-[![npm](https://img.shields.io/npm/v/whatsapp-web.js.svg)](https://www.npmjs.com/package/whatsapp-web.js) [![Depfu](https://badges.depfu.com/badges/4a65a0de96ece65fdf39e294e0c8dcba/overview.svg)](https://depfu.com/github/pedroslopez/whatsapp-web.js?project_id=9765) ![WhatsApp_Web 2.2306.7](https://img.shields.io/badge/WhatsApp_Web-2.2306.7-brightgreen.svg) [![Discord Chat](https://img.shields.io/discord/698610475432411196.svg?logo=discord)](https://discord.gg/H7DqQs4)  
+[![npm](https://img.shields.io/npm/v/whatsapp-web.js.svg)](https://www.npmjs.com/package/whatsapp-web.js) [![Depfu](https://badges.depfu.com/badges/4a65a0de96ece65fdf39e294e0c8dcba/overview.svg)](https://depfu.com/github/pedroslopez/whatsapp-web.js?project_id=9765) ![WhatsApp_Web 2.2333.11](https://img.shields.io/badge/WhatsApp_Web-2.2333.11-brightgreen.svg) [![Discord Chat](https://img.shields.io/discord/698610475432411196.svg?logo=discord)](https://discord.gg/H7DqQs4)  
 
 # whatsapp-web.js
 A WhatsApp API client that connects through the WhatsApp Web browser app
