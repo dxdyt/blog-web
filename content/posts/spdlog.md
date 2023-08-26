@@ -1,9 +1,9 @@
 ---
 title: spdlog
-date: 2023-08-25T12:17:28+08:00
+date: 2023-08-26T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690484814049-2ab2002b0dea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690484814049-2ab2002b0dea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [gabime/spdlog](https://github.com/gabime/spdlog)

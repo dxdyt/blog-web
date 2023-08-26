@@ -1,9 +1,9 @@
 ---
 title: sqlcoder
-date: 2023-08-25T12:17:12+08:00
+date: 2023-08-26T12:14:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690167370262-1089a8591318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690167370262-1089a8591318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [defog-ai/sqlcoder](https://github.com/defog-ai/sqlcoder)

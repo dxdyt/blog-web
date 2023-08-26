@@ -1,9 +1,9 @@
 ---
 title: terraform-aws-eks
-date: 2023-08-24T12:16:14+08:00
+date: 2023-08-26T12:14:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691432922330-542afaa82747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691432922330-542afaa82747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1635777402681-ac31ca7a322c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1635777402681-ac31ca7a322c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [terraform-aws-modules/terraform-aws-eks](https://github.com/terraform-aws-modules/terraform-aws-eks)

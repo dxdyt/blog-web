@@ -1,9 +1,9 @@
 ---
 title: GodMode
-date: 2023-08-25T12:16:07+08:00
+date: 2023-08-26T12:15:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1632061253472-9c715a570b6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1632061253472-9c715a570b6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [smol-ai/GodMode](https://github.com/smol-ai/GodMode)
@@ -54,7 +54,9 @@ Yes and no:
 | **Bing**                                                                                | Microsoft's best. [It's not the same as GPT-4!](https://twitter.com/jeremyphoward/status/1666593682676662272?s=20). We could use help normalizing its styling.           |
 | Bard                                                                                    | Google's best. [Bard's updates are... flaky](https://twitter.com/swyx/status/1678495067663925248)                                                                        |
 | Llama2 via Perplexity                                                                   | Can run [the latest CodeLlama 34B model](https://twitter.com/swyx/status/1694870138984747449?s=20)! try it!                                                              |
+| Llama2 via Lepton.ai                                                                    | Is very [fast](https://twitter.com/rauchg/status/1692638409230094644)                                                                                                    |
 | Quora Poe                                                                               | Added in #118                                                                                                                                                            |
+| Inflection Pi                                                                           | Added in [#147](https://github.com/smol-ai/GodMode/pull/147/files)                                                                                                       |
 | You.com Chat                                                                            | Added in #142                                                                                                                                                            |
 | HuggingChat                                                                             | Offers Llama2, OpenAssistant                                                                                                                                             |
 | Vercel Chat                                                                             | Added in #117                                                                                                                                                            |
@@ -128,6 +130,10 @@ When you first run the app:
 
 1. log into your Google account (once you log into your google account for chatgpt, you'l also be logged in to Bard, Perplexity, Anthropic, etc).
 2. For Bing, after you log in to your Microsoft account, you'll need to refresh to get into the Bing Chat screen. It's a little finnicky at first try but it works.
+
+Optional: You can have GodMode start up automatically on login - just go to Settings and toggle it on. Thanks [@leeknowlton](https://github.com/smol-ai/GodMode/pull/188)!
+
+![image](https://github.com/smol-ai/GodMode/assets/6764957/99c3426f-d306-469c-98fb-88c80fb12a41)
 
 ## seeking contributors!
 

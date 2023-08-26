@@ -1,9 +1,9 @@
 ---
 title: zap
-date: 2023-08-24T12:16:27+08:00
+date: 2023-08-26T12:14:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1667850132998-013f89c6aec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1667850132998-013f89c6aec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692316991412-fca633984f97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692316991412-fca633984f97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [uber-go/zap](https://github.com/uber-go/zap)

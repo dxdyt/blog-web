@@ -1,9 +1,9 @@
 ---
 title: seamless_communication
-date: 2023-08-25T12:14:32+08:00
+date: 2023-08-26T12:13:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691815862778-249e9cd7f63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691815862778-249e9cd7f63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1635777402681-ac31ca7a322c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1635777402681-ac31ca7a322c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication)
@@ -56,7 +56,7 @@ T2TT task:
 m4t_predict <input_text> t2tt <tgt_lang> --src_lang <src_lang>
 ```
 
-Please refer to the [inference README](scripts/m4t/predict) for detailed instruction on how to run inference.
+Please refer to the [inference README](scripts/m4t/predict) for detailed instruction on how to run inference and the list of supported languages on the source, target sides for speech, text modalities.
 
 # Libraries
 

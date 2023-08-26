@@ -1,9 +1,9 @@
 ---
 title: superset
-date: 2023-08-24T12:16:33+08:00
+date: 2023-08-26T12:15:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691175084860-0320d12df95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691175084860-0320d12df95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
 ---
 
 # [apache/superset](https://github.com/apache/superset)
@@ -194,3 +194,6 @@ Understanding the Superset Points of View
   - [Why Apache Superset is Betting on Apache ECharts](https://preset.io/blog/2021-4-1-why-echarts/)
 
 - [Superset API](https://superset.apache.org/docs/rest-api)
+
+<!-- telemetry/analytics pixel: -->
+<img referrerpolicy="no-referrer-when-downgrade" src="https://static.scarf.sh/a.png?x-pxid=bc1c90cd-bc04-4e11-8c7b-289fb2839492" />
