@@ -1,9 +1,9 @@
 ---
 title: StableVideo
-date: 2023-08-25T12:16:00+08:00
+date: 2023-08-27T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692273881354-52bbf11bacad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692273881354-52bbf11bacad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691456614896-589ffa30f950?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691456614896-589ffa30f950?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [rese1f/StableVideo](https://github.com/rese1f/StableVideo)
@@ -11,10 +11,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1692273881354-52bbf11bac
 # StableVideo
 
 [![](http://img.shields.io/badge/cs.CV-arXiv%3A2308.09592-B31B1B.svg)](https://arxiv.org/abs/2308.09592)
+[![](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-orange)](https://huggingface.co/spaces/Reself/StableVideo)
 
-> StableVideo: Text-driven Consistency-aware Diffusion Video Editing  
-> [Wenhao Chai](https://rese1f.github.io/), Xun Guo, Gaoang Wang, Yan Lu  
-> ICCV 2023
+> **StableVideo: Text-driven Consistency-aware Diffusion Video Editing**  
+> Wenhao Chai, Xun Guo✉️, Gaoang Wang, Yan Lu  
+> _ICCV 2023_
 
 https://github.com/rese1f/StableVideo/assets/58205475/558555f1-711c-46f0-85bc-9c229ff1f511
 
@@ -31,7 +32,7 @@ https://github.com/rese1f/StableVideo/assets/58205475/0edbefdd-9b5f-4868-842c-9b
 |amp + cpu|17639|
 |amp + cpu + xformers|14185|
 
-- cpu: use cpu cache as ControlNet, args: `save_memory`
+- cpu: use cpu cache, args: `save_memory`
 
 under default setting (*e.g.* resolution, *etc.*) in `app.py`
 
@@ -40,11 +41,14 @@ under default setting (*e.g.* resolution, *etc.*) in `app.py`
 git clone https://github.com/rese1f/StableVideo.git
 conda create -n stablevideo python=3.11
 pip install -r requirements.txt
+(optional) pip install xformers 
 ```
 
-optional but recommanded
+(optional) We also provide CPU only version [huggingface demo](https://huggingface.co/spaces/Reself/StableVideo).
 ```
-pip install xformers
+git lfs install
+git clone https://huggingface.co/spaces/Reself/StableVideo
+pip install -r requirements.txt
 ```
 
 ## Download Pretrained Model
@@ -83,9 +87,20 @@ python app.py
 ```
 the result `.mp4` video and keyframe will be stored in the directory `./log` after clicking `render` button.
 
-You can also edit the mask region for the foreground atlas as follows.
+You can also edit the mask region for the foreground atlas as follows. Currently there might be a bug in Gradio. Please carefully check if the `editable output foreground atlas block` looks the same as the one above. If not, try to restart the entire program.
 
 ![image](https://github.com/rese1f/StableVideo/assets/58205475/13e11c07-39ae-4d2d-8b66-f900d168ceff)
+
+## Citation
+If our work is useful for your research, please consider citing as below. Many thanks :)
+```
+@article{chai2023stablevideo,
+  title={StableVideo: Text-driven Consistency-aware Diffusion Video Editing},
+  author={Chai, Wenhao and Guo, Xun and Wang, Gaoang and Lu, Yan},
+  journal={arXiv preprint arXiv:2308.09592},
+  year={2023}
+}
+```
 
 ## Acknowledgement
 

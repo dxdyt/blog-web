@@ -1,21 +1,37 @@
 ---
 title: gpt-pilot
-date: 2023-08-26T12:13:56+08:00
+date: 2023-08-27T12:14:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691380302256-eb42929cd202?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691380302256-eb42929cd202?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692107329566-0ce6353eedf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692107329566-0ce6353eedf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
 
 # 🧑‍✈️ GPT PILOT
-### GPT Pilot can code out the entire app as you oversee the code being written
+### GPT Pilot codes the entire app as you oversee the code being written
 
 ---
 
-This is our try to see how can GPT-4 be utilized to generate working apps and to my surprise, it works quite well.
+This is a research project to see how can GPT-4 be utilized to generate fully working, production-ready, apps. **The main idea is that AI can write most of the code for an app (maybe 95%) but for the rest 5%, a developer is and will be needed until we get full AGI**.
 
-**Detailed explanation about the concept behind GPT Pilot can be found in [this blog post](https://blog.pythagora.ai/2023/08/23/430/).**
+I've broken down the idea behind GPT Pilot and how it works in the following blog posts:
+
+**[[Part 1/3] High-level concepts + GPT Pilot workflow until the coding part](https://blog.pythagora.ai/2023/08/23/430/)**
+
+**_[Part 2/3] GPT Pilot coding workflow (COMING UP)_**
+
+**_[Part 3/3] Other important concepts and future plans (COMING UP)_**
+
+---
+
+### **[👉 Examples of apps written by GPT Pilot 👈](#-examples)**
+
+<br>
+
+https://github.com/Pythagora-io/gpt-pilot/assets/10895136/0495631b-511e-451b-93d5-8a42acf22d3d
+
+<br>
 
 ## Main pillars of GPT Pilot:
 1. For AI to create a fully working app, **a developer needs to be involved** in the process of app creation. They need to be able to change the code at any moment and GPT Pilot needs to continue working with those changes (eg. add an API key or fix an issue if an AI gets stuck) <br><br>
@@ -28,8 +44,6 @@ This is our try to see how can GPT-4 be utilized to generate working apps and to
 The idea is that AI won't be able to (at least in the near future) create apps from scratch without the developer being involved. That's why we created an interactive tool that generates code but also requires the developer to check each step so that they can understand what's going on and so that the AI can have a better overview of the entire codebase.
 
 Obviously, it still can't create any production-ready app but the general concept of how this could work is there.
-
-[See examples of apps written by GPT Pilot here](#-examples)
 
 # 🚦How to start using gpt-pilot?
 1. Clone the repo

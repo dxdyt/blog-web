@@ -1,9 +1,9 @@
 ---
 title: llama
-date: 2023-07-23T12:16:13+08:00
+date: 2023-08-27T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688399014730-86300f19fbb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688399014730-86300f19fbb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692107329566-0ce6353eedf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692107329566-0ce6353eedf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/llama](https://github.com/facebookresearch/llama)
@@ -16,11 +16,13 @@ This release includes model weights and starting code for pretrained and fine-tu
 
 This repository is intended as a minimal example to load [Llama 2](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/) models and run inference. For more detailed examples leveraging HuggingFace, see [llama-recipes](https://github.com/facebookresearch/llama-recipes/).
 
+## Updates post-launch
+
+See [UPDATES.md](UPDATES.md).
+
 ## Download
 
 ⚠️ **7/18: We're aware of people encountering a number of download issues today. Anyone still encountering issues should remove all local files, re-clone the repository, and [request a new download link](https://ai.meta.com/resources/models-and-libraries/llama-downloads/). It's critical to do all of these in case you have local corrupt files. When you receive the email, copy *only* the link text - it should begin with https://download.llamameta.net and not with https://l.facebook.com, which will give errors.**
-
-
 
 In order to download the model weights and tokenizer, please visit the [Meta AI website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and accept our License.
 
@@ -80,7 +82,7 @@ Examples using llama-2-7b-chat:
 torchrun --nproc_per_node 1 example_chat_completion.py \
     --ckpt_dir llama-2-7b-chat/ \
     --tokenizer_path tokenizer.model \
-    --max_seq_len 512 --max_batch_size 4
+    --max_seq_len 512 --max_batch_size 6
 ```
 
 Llama 2 is a new technology that carries potential risks with use. Testing conducted to date has not — and could not — cover all scenarios.

@@ -1,9 +1,9 @@
 ---
 title: graph-of-thoughts
-date: 2023-08-26T12:14:56+08:00
+date: 2023-08-27T12:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691380302256-eb42929cd202?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691380302256-eb42929cd202?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [spcl/graph-of-thoughts](https://github.com/spcl/graph-of-thoughts)

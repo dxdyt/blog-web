@@ -1,9 +1,9 @@
 ---
 title: wipeout-rewrite
-date: 2023-08-16T12:15:02+08:00
+date: 2023-08-27T12:14:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1676902684032-a2e4436d553f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690673821592-91154209cd27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690673821592-91154209cd27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [phoboslab/wipeout-rewrite](https://github.com/phoboslab/wipeout-rewrite)
@@ -83,9 +83,18 @@ make wasm
 This builds the minimal version (no music, no intro) as well as the full version.
 
 
+### Flags
+
+The makefile accepts several flags. You can specify them with `make FLAG=VALUE`
+
+- `DEBUG` – `true` or `fals`, default is `false`. Whether to include debug symbols in the build.
+- `RENDERER` – `GL` or `SOFTWARE`, default is `GL` (the `SOFTWARE` renderer is very much unfinished and only works with SDL)
+- `USE_GLX` – `true` or `false`, default is `false` and uses `GLVND` over `GLX`. Only used for the linux build.
+
+
 ## Running
 
-This repository does not contain the assets (textures, 3d models etc.) required to run the game. This code mostly assumes to have the PSX NTSC data, but some menu models from the PC version are loaded as well. Both of these can be easily found on archive.org and similar sites. The music (optional) needs to be provided in [QOA format](https://github.com/phoboslab/qoa). The intro video as MPEG1.
+This repository does not contain the assets (textures, 3d models etc.) required to run the game. This code mostly assumes to have the PSX NTSC data, but some menu models from the PC version are required as well. Both of these can be easily found on archive.org and similar sites. The music (optional) needs to be provided in [QOA format](https://github.com/phoboslab/qoa). The intro video as MPEG1.
 
 The directory structure is assumed to be as follows
 
@@ -98,6 +107,8 @@ The directory structure is assumed to be as follows
 ```
 
 Note that the blog post announcing this project may or may not provide a link to a ZIP containing all files needed. Who knows!
+
+Optionally, if you want to use a game controller that may not be supported by SDL directly, you can place the [gamecontrollerdb.txt](https://github.com/gabomdq/SDL_GameControllerDB) in the root directory of this project (along the compiled `wipegame`).
 
 
 
@@ -112,7 +123,6 @@ Some things from the original game are not yet implemented in this rewrite. This
 - screen shake effect
 - game-end animations, formerly `Spline.cpp` (the end messages are just shown over the attract mode cameras)
 - viewing highscores in options menu
-- controller options menu
 - reverb for sfx and music when there's more than 4 track faces (tunnels and such)
 - some more? grep the source for `TODO` and `FIXME`
 
@@ -124,7 +134,6 @@ Some things from the original game are not yet implemented in this rewrite. This
 - add option to lessen the roll in the internal view
 - add additional external view that behaves more like in modern racing games
 - dynamic lighting on ships
-- allow lower resolutions and a drawing mode that resembles the PSX original
 - the scene geometry could use some touch-ups to make an infinite draw distance option less awkward
 - increase FOV when going over a boost
 - better menu models for game exit and video options
