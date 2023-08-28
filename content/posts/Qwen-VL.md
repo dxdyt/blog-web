@@ -1,9 +1,9 @@
 ---
 title: Qwen-VL
-date: 2023-08-27T12:14:44+08:00
+date: 2023-08-28T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692095296815-943c0e214cd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692095296815-943c0e214cd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690441426989-0cf9f866a6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690441426989-0cf9f866a6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-VL](https://github.com/QwenLM/Qwen-VL)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692095296815-943c0e214c
 <br>
 
 <p align="center">
-        Qwen-VL <a href="https://modelscope.cn/models/qwen/Qwen-VL/summary">🤖 <a> | <a href="https://huggingface.co/Qwen/Qwen-VL">🤗</a>&nbsp ｜ Qwen-VL-Chat <a href="https://modelscope.cn/models/qwen/Qwen-VL-Chat/summary">🤖 <a>| <a href="https://huggingface.co/Qwen/Qwen-VL-Chat">🤗</a>&nbsp ｜ &nbsp<a href="https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary">Demo</a>&nbsp ｜ &nbsp<a href="https://arxiv.org/pdf/2308.12966.pdf">Report</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/z3GAxXZ9Ce">Discord</a>
+        Qwen-VL <a href="https://modelscope.cn/models/qwen/Qwen-VL/summary">🤖 <a> | <a href="https://huggingface.co/Qwen/Qwen-VL">🤗</a>&nbsp ｜ Qwen-VL-Chat <a href="https://modelscope.cn/models/qwen/Qwen-VL-Chat/summary">🤖 <a>| <a href="https://huggingface.co/Qwen/Qwen-VL-Chat">🤗</a>&nbsp ｜ &nbsp<a href="https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary">Demo</a>&nbsp ｜ &nbsp<a href="https://arxiv.org/pdf/2308.12966.pdf">Report</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/z3GAxXZ9Ce">Discord</a>&nbsp ｜ &nbsp<a href="https://qianwen-res.oss-cn-beijing.aliyuncs.com/qwen_wechat_group.PNG">WeChat</a>
 
 </p>
 <br>
@@ -265,7 +265,7 @@ Qwen-VL outperforms current SOTA generalist models on multiple VL tasks and has 
     <td>-</td>
   </tr>
   <tr>
-    <td>Pic2Struct-Large (1.3B)</td>
+    <td>Pix2Struct-Large (1.3B)</td>
     <td>-</td>
     <td><b>76.6</b></td>
     <td>58.6</td>
@@ -293,7 +293,7 @@ Qwen-VL outperforms current SOTA generalist models on multiple VL tasks and has 
 </table>
 
 - In text-related recognition/QA evaluation, Qwen-VL achieves the SOTA under the generalist LVLM scale settings.
-- Resolution is important for several above evaluations. While most open-sourced LVLM models with 224 resolution are incapable of these evaluations or can only solve these by cutting images, Qwen-VL scales the resolution to 448 so that it can be evaluated end-to-end. Qwen-VL even outperforms Pic2Struct-Large models of 1024 resolution on some tasks.
+- Resolution is important for several above evaluations. While most open-sourced LVLM models with 224 resolution are incapable of these evaluations or can only solve these by cutting images, Qwen-VL scales the resolution to 448 so that it can be evaluated end-to-end. Qwen-VL even outperforms Pix2Struct-Large models of 1024 resolution on some tasks.
 
 ### Referring Expression Comprehension
 <table>
@@ -466,22 +466,22 @@ TouchStone is a benchmark based on scoring with GPT4 to evaluate the abilities o
 
 #### English evaluation
 
-| Model         | Score |
-|---------------|-------|
-| PandaGPT      | 488.5 |
-| MiniGPT4      | 531.7 |
-| InstructBLIP  | 552.4 |
+| Model           | Score |
+| --------------- | ----- |
+| PandaGPT        | 488.5 |
+| MiniGPT4        | 531.7 |
+| InstructBLIP    | 552.4 |
 | LLaMA-AdapterV2 | 590.1 |
-| LLaVA         | 602.7 |
-| mPLUG-Owl     | 605.4 |
-| Qwen-VL-Chat   | 645.2 |
+| LLaVA           | 602.7 |
+| mPLUG-Owl       | 605.4 |
+| Qwen-VL-Chat    | 645.2 |
 
 #### Chinese evaluation
 
-| Model         | Score |
-|---------------|-------|
-| VisualGLM     | 247.1 |
-| Qwen-VL-Chat   | 401.2 |
+| Model        | Score |
+| ------------ | ----- |
+| VisualGLM    | 247.1 |
+| Qwen-VL-Chat | 401.2 |
 
 Qwen-VL-Chat has achieved the best results in both Chinese and English alignment evaluation.
 

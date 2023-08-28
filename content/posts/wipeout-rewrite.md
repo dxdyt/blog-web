@@ -1,9 +1,9 @@
 ---
 title: wipeout-rewrite
-date: 2023-08-27T12:14:15+08:00
+date: 2023-08-28T12:14:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690673821592-91154209cd27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690673821592-91154209cd27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690222490168-8ef5f427b5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690222490168-8ef5f427b5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
 ---
 
 # [phoboslab/wipeout-rewrite](https://github.com/phoboslab/wipeout-rewrite)

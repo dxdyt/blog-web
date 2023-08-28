@@ -1,9 +1,9 @@
 ---
 title: htmx
-date: 2023-08-18T12:16:29+08:00
+date: 2023-08-28T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691228397653-41d0662abeb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691228397653-41d0662abeb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691431294916-16c7e1c69419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691431294916-16c7e1c69419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
 ---
 
 # [bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
@@ -43,7 +43,7 @@ By removing these arbitrary constraints htmx completes HTML as a
 ## quick start
 
 ```html
-  <script src="https://unpkg.com/htmx.org@1.9.4"></script>
+  <script src="https://unpkg.com/htmx.org@1.9.5"></script>
   <!-- have a button POST a click via AJAX -->
   <button hx-post="/clicked" hx-swap="outerHTML">
     Click Me

@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-08-27T12:15:37+08:00
+date: 2023-08-28T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692095296815-943c0e214cd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692095296815-943c0e214cd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690660437195-a65346cd276a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690660437195-a65346cd276a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -115,7 +115,7 @@ For more examples, see the [examples](./examples) directory. For more informatio
 ### Pull a model from the registry
 
 ```
-ollama pull orca
+ollama pull orca-mini
 ```
 
 ### Listing local models
@@ -136,6 +136,8 @@ Ollama bundles model weights, configuration, and data into a single package, def
 </picture>
 
 ## Building
+
+You will also need a C/C++ compiler such as GCC for MacOS and Linux or Mingw-w64 GCC for Windows.
 
 ```
 go build .

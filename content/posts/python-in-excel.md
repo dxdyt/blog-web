@@ -1,9 +1,9 @@
 ---
 title: python-in-excel
-date: 2023-08-26T12:16:12+08:00
+date: 2023-08-28T12:16:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691796738901-f0ed08d6f3cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690791456616-8d7a5cb8925d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690791456616-8d7a5cb8925d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/python-in-excel](https://github.com/microsoft/python-in-excel)
