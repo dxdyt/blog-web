@@ -1,9 +1,9 @@
 ---
 title: codellama
-date: 2023-08-28T12:15:06+08:00
+date: 2023-08-29T12:14:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690222490168-8ef5f427b5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690222490168-8ef5f427b5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692665240237-aadb86836077?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692665240237-aadb86836077?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/codellama](https://github.com/facebookresearch/codellama)

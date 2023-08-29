@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2023-08-28T12:15:22+08:00
+date: 2023-08-29T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691348418208-0174389a1996?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691348418208-0174389a1996?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -86,7 +86,7 @@ Here are a couple of example apps GPT Pilot created by itself:
 ### Real-time chat app
 - 💬 Prompt: `A simple chat app with real time communication`
 - ▶️ [Video of the app creation process](https://youtu.be/bUj9DbMRYhA)
-- 💻️ [Github repo](https://github.com/Pythagora-io/gpt-pilot-chat-app-demo)
+- 💻️ [GitHub repo](https://github.com/Pythagora-io/gpt-pilot-chat-app-demo)
 
 <p align="left">
   <img src="https://github.com/Pythagora-io/gpt-pilot/assets/10895136/85bc705c-be88-4ca1-9a3b-033700b97a22" alt="gpt-pilot demo chat app" width="500px"/>
@@ -96,7 +96,7 @@ Here are a couple of example apps GPT Pilot created by itself:
 ### Markdown editor
 - 💬 Prompt: `Build a simple markdown editor using HTML, CSS, and JavaScript. Allow users to input markdown text and display the formatted output in real-time.`
 - ▶️ [Video of the app creation process](https://youtu.be/uZeA1iX9dgg)
-- 💻️ [Github repo](https://github.com/Pythagora-io/gpt-pilot-demo-markdown-editor.git)
+- 💻️ [GitHub repo](https://github.com/Pythagora-io/gpt-pilot-demo-markdown-editor.git)
 
 <p align="left">
   <img src="https://github.com/Pythagora-io/gpt-pilot/assets/10895136/dbe1ccc3-b126-4df0-bddb-a524d6a386a8" alt="gpt-pilot demo markdown editor" width="500px"/>
@@ -106,7 +106,7 @@ Here are a couple of example apps GPT Pilot created by itself:
 ### Timer app
 - 💬 Prompt: `Create a simple timer app using HTML, CSS, and JavaScript that allows users to set a countdown timer and receive an alert when the time is up.`
 - ▶️ [Video of the app creation process](https://youtu.be/CMN3W18zfiE)
-- 💻️ [Github repo](https://github.com/Pythagora-io/gpt-pilot-timer-app-demo)
+- 💻️ [GitHub repo](https://github.com/Pythagora-io/gpt-pilot-timer-app-demo)
 
 <p align="left">
   <img src="https://github.com/Pythagora-io/gpt-pilot/assets/10895136/93bed40b-b769-4c8b-b16d-b80fb6fc73e0" alt="gpt-pilot demo markdown editor" width="500px"/>
@@ -137,8 +137,19 @@ Here are the steps GPT Pilot takes to create an app:
   <br><br>
 - **Auto debugging** - when it detects an error, it debugs it by itself. I still haven't implemented writing automated tests which should make this fully autonomous but for now, you can input the error that's happening (eg. within a UI) and GPT Pilot will debug it from there. The plan is to make it write automated tests in Cypress as well so that it can test it by itself and debug without the developer's explanation.
 
+# 🍻 Contributing
+If you are interested in contributing to GPT Pilot, I would be more than happy to have you on board but also help you get started. Feel free to ping [zvonimir@pythagora.ai](mailto:zvonimir@pythagora.ai) and I'll help you get started.
+
+## 🔬️ Research
+Since this is a research project, there are many areas that need to be researched on both practical and theoretical levels. We're happy to hear how can the entire GPT Pilot concept be improved. For example, maybe it would work better if we structured functional requirements differently or maybe technical requirements need to be specified in a different way.
+
+## 🖥 Development
+Other than the research, GPT Pilot needs to be debugged to work in different scenarios. For example, we realized that the quality of the code generated is very sensitive to the size of the development task. When the task is too broad, the code has too many bugs that are hard to fix but when the development task is too narrow, GPT also seems to struggle in getting the task implemented into the existing code.
+
 # 🔗 Connect with us
 🌟 As an open source tool, it would mean the world to us if you starred the GPT-pilot repo 🌟
+
+💬 Join [the Discord server](https://discord.gg/FWnRZdCb) to get in touch.
 <br><br>
 <br><br>
 

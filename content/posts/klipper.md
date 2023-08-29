@@ -1,9 +1,9 @@
 ---
 title: klipper
-date: 2023-05-23T12:16:52+08:00
+date: 2023-08-29T12:17:42+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12161/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12161/0/1080p
+featuredImage: https://images.unsplash.com/photo-1692306088530-e81ab626753b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692306088530-e81ab626753b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
 ---
 
 # [Klipper3d/klipper](https://github.com/Klipper3d/klipper)

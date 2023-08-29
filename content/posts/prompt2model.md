@@ -1,9 +1,9 @@
 ---
 title: prompt2model
-date: 2023-08-27T12:17:09+08:00
+date: 2023-08-29T12:15:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690927324993-53afef8c85ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
 ---
 
 # [neulab/prompt2model](https://github.com/neulab/prompt2model)

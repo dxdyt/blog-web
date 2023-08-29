@@ -1,9 +1,9 @@
 ---
 title: revanced-manager
-date: 2023-08-07T12:15:40+08:00
+date: 2023-08-29T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
 ---
 
 # [ReVanced/revanced-manager](https://github.com/ReVanced/revanced-manager)

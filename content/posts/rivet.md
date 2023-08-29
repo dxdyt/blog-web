@@ -1,84 +1,147 @@
 ---
 title: rivet
-date: 2023-08-23T12:16:26+08:00
+date: 2023-08-29T12:16:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692071106919-01bc0b9b0919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692071106919-01bc0b9b0919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690440850413-d73785c4ac7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690440850413-d73785c4ac7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
 ---
 
-# [rivet-gg/rivet](https://github.com/rivet-gg/rivet)
+# [paradigmxyz/rivet](https://github.com/paradigmxyz/rivet)
 
-<p align="center">
-  <img alt="rivet_logo" src="./media/banner.png">
-</p>
+![cover](https://github.com/paradigmxyz/rivet/assets/1936207/5a8ddb02-c8cd-42ea-8af3-3d6e7201a29a)
 
-<p align="center">
-  <i>Managed game servers, matchmaking, and DDoS mitigation that lets you focus on building your game.</i>
-</p>
+<p align="center"><strong>Developer wallet & DevTools for Anvil</strong></p>
 
-<p align="center">
-  <a href="/docs/philosophy/LICENSING.md"><img alt="License Apache-2.0" src="https://img.shields.io/github/license/rivet-gg/rivet?style=flat-square"></a>
-  <a href="/docs/processes/VERSIONING.md"><img alt="Calendar versioning" src="https://img.shields.io/badge/calver-YYYY.MINOR.MICRO-22bfda.svg?style=flat-square"/></a>
-  <a href='http://makeapullrequest.com'><img alt='PRs Welcome' src='https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square'/></a>
-  <a href="https://github.com/rivet-gg/rivet/graphs/commit-activity"><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/m/rivet-gg/rivet?style=flat-square"/></a>
-  <a href="https://github.com/rivet-gg/rivet/issues"><img alt="GitHub closed issues" src="https://img.shields.io/github/issues-closed/rivet-gg/rivet?style=flat-square"/></a>
-</p>
+<div align="center">
+  <a href="https://github.com/paradigmxyz/rivet/actions/workflows/on-push-to-main.yml">
+    <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/paradigmxyz/rivet/on-push-to-main.yml">
+  </a>
+  <a href="https://github.com/paradigmxyz/rivet/blob/main/LICENSE">
+    <img alt="GitHub" src="https://img.shields.io/github/license/paradigmxyz/rivet">
+  </a>
+</div>
 
-<p align="center">
-  <a href="https://rivet.gg/">Home</a> - <a href="https://rivet.gg/docs">Docs</a> - <a href="https://twitter.com/rivet_gg">Twitter</a> - <a href="https://discord.gg/BG2vqsJczH">Discord</a>
-</p>
+## What is Rivet?
 
-## 👾 Features
+Rivet is a developer Wallet & DevTools for Anvil (akin to [Browser DevTools](https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools#how_to_open_the_devtools_in_your_browser) or [React DevTools](https://react.dev/learn/react-developer-tools)). It is a browser extension that enables developers to inspect, debug, modify, and manipulate the state of Ethereum: accounts, blocks, contracts & the node itself. Rivet is also compatible with any production dApp, meaning you can simulate any type of action from either an Account attached on the Anvil instance, or by "impersonating" another Account on the network.
 
--   Everything is accessible from an easy to use [GUI, CLI, or API](https://rivet.gg/docs/general/gui-cli-api)
--   [Serverless Lobbies](https://rivet.gg/docs/serverless-lobbies) for auto-scaling game lobbies
--   [Flexible matchmaker](https://rivet.gg/docs/matchmaker) for placing players in lobbies with no wait times
--   [CDN](https://rivet.gg/docs/cdn) for hosting assets and webpages with a custom domain or provided rivet.game subdomain
--   [Game Guard](https://rivet.gg/docs/serverless-lobbies/concepts/game-guard) for DDoS mitigation and managed WebSocket SSL, TCP+TLS, and UDP
--   Streamlined DevOps for teams
--   Unified logging & monitoring & analytics
--   No downtime deploys with easy rollbacks
+By integrating [EIP-6963: Multi Injected Provider Discovery](https://eips.ethereum.org/EIPS/eip-6963), Rivet is designed to be used alongside and with other consumer browser wallets like MetaMask or Rainbow to provide more engrained developer tooling and workflows for Ethereum.
 
-<p align="center">
-  <img alt="rivet_screenshot" src="./media/splash_screenshot.png">
-</p>
+Rivet is currently a **work-in-progress prototype**, and aimed to be **contributor first & friendly**. If you would like to contribute, check out the [Contributing Guide](/.github/CONTRIBUTING.md) and [good first issues](https://github.com/paradigmxyz/rivet/labels/good%20first%20issue).
 
-## 🚀 Getting Started
+![screenshots](https://github.com/paradigmxyz/rivet/assets/7336481/7eb57ff3-1f47-486d-b433-6a3346ac3e4b)
 
-### Rivet Cloud
+## Features
 
-[Rivet Cloud](https://rivet.gg) is the fastest way to get your game up and running. Sign up at [rivet.gg](https://rivet.gg) and get a free game server.
+- **Onboarding**
+  - Set up local Anvil instance
+  - Configure & deploy Anvil instance (fork block number, fork rpc url, base fee, gas limit, etc)
+- **Anvil Node/Chain**
+  - Configure fork settings (block number, RPC URL, chain ID, etc)
+  - Configure block config (base fee, gas limit, timestamp interval, etc)
+  - Automatic sync with Anvil instance
+  - Reset instance*
+  - Deploy a new instance*
+  - Switch between instances*
+- **Accounts**
+  - List Anvil-attached and impersonated accounts
+  - View balances, nonces, and other account details
+  - Inspect, connect, and manage accounts
+  - Impersonate accounts
+  - Set balances & nonces
+  - View & set ERC20/721/1155 balances*
+  - Import Private Key/HD accounts*
+- **Block**
+  - Infinite scroll through previous blocks
+  - View block details & transactions
+  - Toggle between "click-to-mine", interval mining, and auto-mining
+  - Time-travelling (rewind & replay)*
+- **Contract**
+  - Read & write interactions with intuitive UI to represent ABI data structures*
+  - Inspect & set storage slots*
+  - Inspect & set bytecode*
+  - Deployment details (compiler version, optimization + runs)*
+  - Inspect contract source code*
+- **Transaction**
+  - Infinite scroll through previous & pending transactions
+  - View transaction details (including decoded calldata*, logs*, state*, and tracing*)
+  - Filter transactions by block, account, and status*
+  - Update transactions in Anvil mempool*
+- **Dapp Connections**
+  - Connect to Dapps with your Anvil (and impersonated) account(s)
+  - Send transactions, sign messages & typed data, etc
+  - Account authorization & "Instant Connect" mode*
+  - Transaction request modifiers (fees, nonce, etc)*
+- **Other**
+  - EIP-6963: Multiple Injected Provider Discovery
+  - Light & Dark Mode
+  - Keyboard shortcuts*
 
-### Self-hosting
+\* = Planned feature
 
-See the [setup guide](/docs/getting_started/DEVELOPMENT.md) to develop & deploy Rivet yourself.
+## Getting Started
 
-## 📐 Architecture
+### 1. Clone the repository
 
-Below is a simplified architecture diagram of a Rivet cluster.
+Clone the repo to your local machine using git:
 
-![Architecture](/media/simplified_architecture.png)
+```bash
+git clone https://github.com/paradigmxyz/rivet.git
+```
 
-## 📖 Documentation Overview
+### 2. Install Node.js and pnpm
 
-> **Looking for documentation on building a game with Rivet?**
->
-> Visit our [documentation for game developers](https://rivet.gg/docs)!
+You need to install **Node.js v18 or higher** and **pnpm v8 or higher**.
 
-**Getting Started**
+You can run the following commands in your terminal to check your local Node.js and pnpm versions:
 
--   [Project Structure](/docs/getting_started/PROJECT_STRUCTURE.md)
--   [Developing on Rivet](/docs/getting_started/DEVELOPMENT.md)
--   [Error Handling](/docs/libraries/chirp/ERROR_HANDLING.md)
+```bash
+node -v
+pnpm -v
+```
 
-**Philosophy**
+If the versions are not correct or you don't have Node.js or pnpm installed, download and follow their setup instructions:
 
--   [Why open source](/docs/philosophy/WHY_OPEN_SOURCE.md)
+- Install Node.js using [fnm](https://github.com/Schniz/fnm) or from the [official website](https://nodejs.org)
+- Install [pnpm](https://pnpm.io/installation)
 
-**Architecture**
+### 3. Install dependencies
 
--   [Software Bill of Materials](/docs/infrastructure/SBOM.md)
+Once in the project's root directory, run the following command to install the project's dependencies:
 
-**About**
+```bash
+pnpm install
+```
 
--   [Notable missing features](/docs/about/MISSING_FEATURES.md)
+### 4. Run the dev server
+
+After you have installed dependencies, you are ready to run the dev server for the Extension. To do so, run the following:
+
+```bash
+pnpm dev 
+```
+
+This will run a script that will build the Web Extension and start a dev server for the Test Dapp, it will also open the Test Dapp in a new browser tab.
+
+### 5. Installing the Web Extension
+
+Once you have your dev server running, you can install the Web Extension in your browser. To do so, follow these steps:
+
+1. Open your browser's Extensions page
+2. Enable "Developer mode" in the top right corner
+3. Click "Load unpacked" in the top left corner
+4. Select the `dist/dev` folder in Rivet's root directory
+5. You're good to go! Don't forget to pin the Extension to your browser's toolbar for easy access. 🎉
+
+## Contributing
+
+If you're interested in contributing, please read the [contributing docs](/.github/CONTRIBUTING.md) **before submitting a pull request**.
+
+## Authors
+
+- [@jxom](https://github.com/jxom) (jxom.eth, [Twitter](https://twitter.com/jakemoxey))
+- [@tmm](https://github.com/tmm) (awkweb.eth, [Twitter](https://twitter.com/awkweb))
+
+## License
+
+[MIT](/LICENSE) License
