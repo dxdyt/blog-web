@@ -1,9 +1,9 @@
 ---
 title: VALL-E-X
-date: 2023-08-29T12:15:43+08:00
+date: 2023-08-30T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690440850413-d73785c4ac7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690440850413-d73785c4ac7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692738611288-4d55c2078851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692738611288-4d55c2078851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
 ---
 
 # [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X)
@@ -231,6 +231,12 @@ make_prompt(name="paimon", audio_prompt_path="paimon_prompt.wav")
 ```
 Now let's try out the prompt we've just made!
 ```python
+from utils.generation import SAMPLE_RATE, generate_audio, preload_models
+from scipy.io.wavfile import write as write_wav
+
+# download and load all models
+preload_models()
+
 text_prompt = """
 Hey, Traveler, Listen to this, This machine has taken my voice, and now it can talk just like me!
 """

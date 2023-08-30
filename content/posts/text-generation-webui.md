@@ -1,9 +1,9 @@
 ---
 title: text-generation-webui
-date: 2023-08-29T12:17:08+08:00
+date: 2023-08-30T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692528131001-5897bedce1b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692528131001-5897bedce1b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692738611288-4d55c2078851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692738611288-4d55c2078851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
 ---
 
 # [oobabooga/text-generation-webui](https://github.com/oobabooga/text-generation-webui)
@@ -173,8 +173,6 @@ text-generation-webui
 ├── models
 │   ├── llama-13b.ggmlv3.q4_K_M.bin
 ```
-
-Those models must be downloaded manually, as they are not currently supported by the automated downloader.
 
 #### GPT-4chan
 

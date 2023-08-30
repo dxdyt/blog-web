@@ -1,9 +1,9 @@
 ---
 title: rivet
-date: 2023-08-29T12:16:12+08:00
+date: 2023-08-30T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690440850413-d73785c4ac7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690440850413-d73785c4ac7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690484815724-dd8658942ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690484815724-dd8658942ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
 ---
 
 # [paradigmxyz/rivet](https://github.com/paradigmxyz/rivet)
@@ -139,7 +139,7 @@ If you're interested in contributing, please read the [contributing docs](/.gith
 
 ## Authors
 
-- [@jxom](https://github.com/jxom) (jxom.eth, [Twitter](https://twitter.com/jakemoxey))
+- [@jxom](https://github.com/jxom) (jxom.eth, [Twitter](https://twitter.com/_jxom))
 - [@tmm](https://github.com/tmm) (awkweb.eth, [Twitter](https://twitter.com/awkweb))
 
 ## License

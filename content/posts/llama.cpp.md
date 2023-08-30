@@ -1,9 +1,9 @@
 ---
 title: llama.cpp
-date: 2023-08-29T12:14:43+08:00
+date: 2023-08-30T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692528131001-5897bedce1b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692528131001-5897bedce1b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690484815724-dd8658942ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690484815724-dd8658942ed9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
@@ -123,6 +123,7 @@ as the main playground for developing new features for the [ggml](https://github
 - C#/.NET: [SciSharp/LLamaSharp](https://github.com/SciSharp/LLamaSharp)
 - Scala 3: [donderom/llm4s](https://github.com/donderom/llm4s)
 - Clojure: [phronmophobic/llama.clj](https://github.com/phronmophobic/llama.clj)
+- React Native: [mybigday/llama.rn](https://github.com/mybigday/llama.rn)
 
 **UI:**
 
@@ -738,8 +739,6 @@ python3 convert.py pygmalion-7b/ --outtype q4_1
   - [LLaMA 2 7B chat](https://huggingface.co/TheBloke/Llama-2-7B-chat-GGML)
   - [LLaMA 2 13B chat](https://huggingface.co/TheBloke/Llama-2-13B-chat-GGML)
   - [LLaMA 2 70B chat](https://huggingface.co/TheBloke/Llama-2-70B-chat-GGML)
-- Specify `-eps 1e-5` for best generation quality
-- Specify `-gqa 8` for 70B models to work
 
 ### Verifying the model files
 

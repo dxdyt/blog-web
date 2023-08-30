@@ -1,9 +1,9 @@
 ---
 title: DevOpsGPT
-date: 2023-08-24T12:15:16+08:00
+date: 2023-08-30T12:17:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690148084166-abeaa758400d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690148084166-abeaa758400d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692738611288-4d55c2078851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692738611288-4d55c2078851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
 ---
 
 # [kuafuai/DevOpsGPT](https://github.com/kuafuai/DevOpsGPT)
@@ -61,14 +61,13 @@ Through the above introduction and Demo demonstration, you must be curious about
 ## Quick Start
 
 1. Run with source code
-    ```
-    1. Clone the latest code or select a released version, Python3.7 or later is ready.
+    1. Download the [released version](https://github.com/kuafuai/DevOpsGPT/releases), or clone the latest code(instability), Ensure SQLite and Python3.7 or later is ready.
     2. Generate the configuration file: Copy `env.yaml.tpl` and rename it to `env.yaml`.
     3. Modify the configuration file: Edit `env.yaml` and add the necessary information such as GPT Token (refer to [documentation link](docs/DOCUMENT.md) for detailed instructions).
     4. Run the service: Execute `sh run.sh` on Linux or Mac, or double-click `run.bat` on Windows.
     5. Access the service: Access the service through a browser (check the startup log for the access address, default is http://127.0.0.1:8080).
     6. Complete requirement development: Follow the instructions on the page to complete requirement development, and view the generated code in the `./workspace` directory.
-    ```
+
 2. Run with Docker
     ```shell
     1. Create a directory: mkdir -p workspace
