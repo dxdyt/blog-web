@@ -1,9 +1,9 @@
 ---
 title: HelloGitHub
-date: 2023-08-14T12:16:48+08:00
+date: 2023-08-31T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682814270823-b3b2bce8c6d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682814270823-b3b2bce8c6d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692744740151-3318616aff36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692744740151-3318616aff36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
@@ -30,7 +30,7 @@ HelloGitHub 分享 GitHub 上有趣、入门级的开源项目。**每月 28 号
 
 | :card_index: | :jack_o_lantern: | :beer: | :fish_cake: | :octocat: |
 | ------- | ----- | ------------ | ------ | --------- |
-| [第 88 期](/content/HelloGitHub88.md) | [第 87 期](/content/HelloGitHub87.md) | [第 86 期](/content/HelloGitHub86.md) |
+| [第 89 期](/content/HelloGitHub89.md) | [第 88 期](/content/HelloGitHub88.md) | [第 87 期](/content/HelloGitHub87.md) | [第 86 期](/content/HelloGitHub86.md) |
 | [第 85 期](/content/HelloGitHub85.md) | [第 84 期](/content/HelloGitHub84.md) | [第 83 期](/content/HelloGitHub83.md) | [第 82 期](/content/HelloGitHub82.md) | [第 81 期](/content/HelloGitHub81.md) |
 | [第 80 期](/content/HelloGitHub80.md) | [第 79 期](/content/HelloGitHub79.md) | [第 78 期](/content/HelloGitHub78.md) | [第 77 期](/content/HelloGitHub77.md) | [第 76 期](/content/HelloGitHub76.md) |
 | [第 75 期](/content/HelloGitHub75.md) | [第 74 期](/content/HelloGitHub74.md) | [第 73 期](/content/HelloGitHub73.md) | [第 72 期](/content/HelloGitHub72.md) | [第 71 期](/content/HelloGitHub71.md) |

@@ -1,9 +1,9 @@
 ---
 title: WizardLM
-date: 2023-08-30T12:15:40+08:00
+date: 2023-08-31T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691889713822-b5ef566fd8f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691889713822-b5ef566fd8f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM)

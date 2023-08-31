@@ -1,9 +1,9 @@
 ---
 title: unilm
-date: 2023-07-22T12:15:24+08:00
+date: 2023-08-31T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687278835925-0f5d6baf8925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687278835925-0f5d6baf8925?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692744740151-3318616aff36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692744740151-3318616aff36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/unilm](https://github.com/microsoft/unilm)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687278835925-0f5d6baf89
 # Hiring
 We are hiring at all levels (including FTE researchers and interns)! If you are interested in working with us on Foundation Models (aka large-scale pre-trained models) and General AI, NLP, MT, Speech, Document AI and Multimodal AI, please send your resume to <a href="mailto:fuwei@microsoft.com" class="x-hidden-focus">fuwei@microsoft.com</a>.
 
-## Foundation Architecture
+# Foundation Architecture
 ### TorchScale - Transformers at (any) Scale ([repo](https://github.com/microsoft/torchscale))
 
 Fundamental research to develop new architectures for foundation models and AI, focusing on modeling generality and capability, as well as training stability and efficiency.
@@ -32,15 +32,15 @@ Fundamental research to develop new architectures for foundation models and AI, 
 
 > [**LongNet**](https://arxiv.org/abs/2307.02486): Scaling Transformers to 1,000,000,000 Tokens
 
-## Foundation Models
-
-### General-purpose Foundation Model
-> [**MetaLM**](https://github.com/microsoft/unilm/tree/master/metalm): **Language Models are General-Purpose Interfaces**
-
+# Foundation Models
 
 ### LLM / MLLM (Multimodal LLM)
+
+> [**Kosmos-2**](https://github.com/microsoft/unilm/tree/master/kosmos-2): **Grounding Multimodal Large Language Models to the World**
+
 > [**Kosmos-1**](https://arxiv.org/abs/2302.14045): **A Multimodal Large Language Model (MLLM)**
 
+> [**MetaLM**](https://github.com/microsoft/unilm/tree/master/metalm): **Language Models are General-Purpose Interfaces**
 
 **The Big Convergence** - Large-scale self-supervised pre-training across ```tasks``` (predictive and generative), ```languages``` (100+ languages), and ```modalities``` (language, image, audio, layout/format + language, vision + language, audio + language, etc.)
 

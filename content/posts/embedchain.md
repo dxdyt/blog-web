@@ -1,190 +1,98 @@
 ---
 title: embedchain
-date: 2023-06-29T12:17:41+08:00
+date: 2023-08-31T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686383094935-7e8c0d7105a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686383094935-7e8c0d7105a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692751202049-63fffe8d8738?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692751202049-63fffe8d8738?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [embedchain/embedchain](https://github.com/embedchain/embedchain)
 
 # embedchain
 
-[![](https://dcbadge.vercel.app/api/server/nhvCbCtKV?style=flat)](https://discord.gg/nhvCbCtKV)
-![PyPI](https://img.shields.io/pypi/v/embedchain)
+[![PyPI](https://img.shields.io/pypi/v/embedchain)](https://pypi.org/project/embedchain/)
+[![Discord](https://dcbadge.vercel.app/api/server/6PzXDgEjG5?style=flat)](https://discord.gg/CUU9FPhRNt)
+[![Twitter](https://img.shields.io/twitter/follow/embedchain)](https://twitter.com/embedchain)
+[![Substack](https://img.shields.io/badge/Substack-%23006f5c.svg?logo=substack)](https://embedchain.substack.com/)
+[![Open in Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/138lMWhENGeEu7Q1-6lNbNTHGLZXBBz_B?usp=sharing)
 
-embedchain is a framework to easily create LLM powered bots over any dataset.
+Embedchain is a framework to easily create LLM powered bots over any dataset. If you want a javascript version, check out [embedchain-js](https://github.com/embedchain/embedchainjs)
 
-It abstracts the entire process of loading a dataset, chunking it, creating embeddings and then storing in a vector database.
+## 🤝 Schedule a 1-on-1 Session
 
-You can add a single or multiple dataset using `.add` and `.add_local` function and then use `.query` function to find an answer from the added datasets.
+Book a [1-on-1 Session](https://cal.com/taranjeetio/ec) with Taranjeet, the founder, to discuss any issues, provide feedback, or explore how we can improve Embedchain for you.
 
-If you want to create a Naval Ravikant bot which has 1 youtube video, 1 book as pdf and 2 of his blog posts, as well as a question and answer pair you supply, all you need to do is add the links to the videos, pdf and blog posts and the QnA pair and embedchain will create a bot for you.
-
-```python
-
-from embedchain import App
-
-naval_chat_bot = App()
-
-# Embed Online Resources
-naval_chat_bot.add("youtube_video", "https://www.youtube.com/watch?v=3qHkcs3kG44")
-naval_chat_bot.add("pdf_file", "https://navalmanack.s3.amazonaws.com/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant_Final.pdf")
-naval_chat_bot.add("web_page", "https://nav.al/feedback")
-naval_chat_bot.add("web_page", "https://nav.al/agi")
-
-# Embed Local Resources
-naval_chat_bot.add_local("qna_pair", ("Who is Naval Ravikant?", "Naval Ravikant is an Indian-American entrepreneur and investor."))
-
-naval_chat_bot.query("What unique capacity does Naval argue humans possess when it comes to understanding explanations or concepts?")
-# answer: Naval argues that humans possess the unique capacity to understand explanations or concepts to the maximum extent possible in this physical reality.
-```
-
-# Getting Started
-
-## Installation
-
-First make sure that you have the package installed. If not, then install it using `pip`
+## 🔧 Quick install
 
 ```bash
 pip install embedchain
 ```
 
-## Usage
+## 🔍 Demo
 
-* We use OpenAI's embedding model to create embeddings for chunks and ChatGPT API as LLM to get answer given the relevant docs. Make sure that you have an OpenAI account and an API key. If you have dont have an API key, you can create one by visiting [this link](https://platform.openai.com/account/api-keys).
+Try out embedchain in your browser:
 
-* Once you have the API key, set it in an environment variable called `OPENAI_API_KEY`
+[![Open in Colab](https://camo.githubusercontent.com/84f0493939e0c4de4e6dbe113251b4bfb5353e57134ffd9fcab6b8714514d4d1/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667)](https://colab.research.google.com/drive/138lMWhENGeEu7Q1-6lNbNTHGLZXBBz_B?usp=sharing)
+
+## 📖 Documentation
+
+The documentation for embedchain can be found at [docs.embedchain.ai](https://docs.embedchain.ai).
+
+## 💻 Usage
+
+Embedchain empowers you to create chatbot models similar to ChatGPT, using your own evolving dataset.
+
+### Data Types Supported
+
+* Youtube video
+* PDF file
+* Web page
+* Sitemap
+* Doc file
+* Code documentation website loader
+* Notion
+
+### Queries
+
+For example, you can use Embedchain to create an Elon Musk bot using the following code:
 
 ```python
 import os
-os.environ["OPENAI_API_KEY"] = "sk-xxxx"
-```
-
-* Next import the `App` class from embedchain and use `.add` function to add any dataset.
-
-```python
-
 from embedchain import App
 
-naval_chat_bot = App()
+# Create a bot instance
+os.environ["OPENAI_API_KEY"] = "YOUR API KEY"
+elon_bot = App()
 
-# Embed Online Resources
-naval_chat_bot.add("youtube_video", "https://www.youtube.com/watch?v=3qHkcs3kG44")
-naval_chat_bot.add("pdf_file", "https://navalmanack.s3.amazonaws.com/Eric-Jorgenson_The-Almanack-of-Naval-Ravikant_Final.pdf")
-naval_chat_bot.add("web_page", "https://nav.al/feedback")
-naval_chat_bot.add("web_page", "https://nav.al/agi")
+# Embed online resources
+elon_bot.add("https://en.wikipedia.org/wiki/Elon_Musk")
+elon_bot.add("https://tesla.com/elon-musk")
+elon_bot.add("https://www.youtube.com/watch?v=MxZpaJK74Y4")
 
-# Embed Local Resources
-naval_chat_bot.add_local("qna_pair", ("Who is Naval Ravikant?", "Naval Ravikant is an Indian-American entrepreneur and investor."))
+# Query the bot
+elon_bot.query("How many companies does Elon Musk run?")
+# Answer: Elon Musk runs four companies: Tesla, SpaceX, Neuralink, and The Boring Company
 ```
 
-* If there is any other app instance in your script or app, you can change the import as
+## 🤝 Contributing
 
-```python
-from embedchain import App as EmbedChainApp
+Contributions are welcome! Please check out the issues on the repository, and feel free to open a pull request.
+For more information, please see the [contributing guidelines](CONTRIBUTING.md).
 
-# or
+For more refrence, please go through [Development Guide](https://docs.embedchain.ai/contribution/dev) and [Documentation Guide](https://docs.embedchain.ai/contribution/docs).
 
-from embedchain import App as ECApp
+
+## Citation
+
+If you utilize this repository, please consider citing it with:
+
 ```
-
-* Now your app is created. You can use `.query` function to get the answer for any query.
-
-```python
-print(naval_chat_bot.query("What unique capacity does Naval argue humans possess when it comes to understanding explanations or concepts?"))
-# answer: Naval argues that humans possess the unique capacity to understand explanations or concepts to the maximum extent possible in this physical reality.
+@misc{embedchain,
+  author = {Taranjeet Singh},
+  title = {Embedchain: Framework to easily create LLM powered bots over any dataset},
+  year = {2023},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/embedchain/embedchain}},
+}
 ```
-
-## Format supported
-
-We support the following formats:
-
-### Youtube Video
-
-To add any youtube video to your app, use the data_type (first argument to `.add`) as `youtube_video`. Eg:
-
-```python
-app.add('youtube_video', 'a_valid_youtube_url_here')
-```
-
-### PDF File
-
-To add any pdf file, use the data_type as `pdf_file`. Eg:
-
-```python
-app.add('pdf_file', 'a_valid_url_where_pdf_file_can_be_accessed')
-```
-
-Note that we do not support password protected pdfs.
-
-### Web Page
-
-To add any web page, use the data_type as `web_page`. Eg:
-
-```python
-app.add('web_page', 'a_valid_web_page_url')
-```
-
-### Text
-
-To supply your own text, use the data_type as `text` and enter a string. The text is not processed, this can be very versatile. Eg:
-
-```python
-app.add_local('text', 'Seek wealth, not money or status. Wealth is having assets that earn while you sleep. Money is how we transfer time and wealth. Status is your place in the social hierarchy.')
-```
-Note: This is not used in the examples because in most cases you will supply a whole paragraph or file, which did not fit.
-
-### QnA Pair
-
-To supply your own QnA pair, use the data_type as `qna_pair` and enter a tuple. Eg:
-
-```python
-app.add_local('qna_pair', ("Question", "Answer"))
-```
-
-### More Formats coming soon
-
-* If you want to add any other format, please create an [issue](https://github.com/embedchain/embedchain/issues) and we will add it to the list of supported formats.
-
-# How does it work?
-
-Creating a chat bot over any dataset needs the following steps to happen
-
-* load the data
-* create meaningful chunks
-* create embeddings for each chunk
-* store the chunks in vector database
-
-Whenever a user asks any query, following process happens to find the answer for the query
-
-* create the embedding for query
-* find similar documents for this query from vector database
-* pass similar documents as context to LLM to get the final answer.
-
-The process of loading the dataset and then querying involves multiple steps and each steps has nuances of it is own.
-
-* How should I chunk the data? What is a meaningful chunk size?
-* How should I create embeddings for each chunk? Which embedding model should I use?
-* How should I store the chunks in vector database? Which vector database should I use?
-* Should I store meta data along with the embeddings?
-* How should I find similar documents for a query? Which ranking model should I use?
-
-These questions may be trivial for some but for a lot of us, it needs research, experimentation and time to find out the accurate answers.
-
-embedchain is a framework which takes care of all these nuances and provides a simple interface to create bots over any dataset.
-
-In the first release, we are making it easier for anyone to get a chatbot over any dataset up and running in less than a minute. All you need to do is create an app instance, add the data sets using `.add` function and then use `.query` function to get the relevant answer.
-
-# Tech Stack
-
-embedchain is built on the following stack:
-
-- [Langchain](https://github.com/hwchase17/langchain) as an LLM framework to load, chunk and index data
-- [OpenAI's Ada embedding model](https://platform.openai.com/docs/guides/embeddings) to create embeddings
-- [OpenAI's ChatGPT API](https://platform.openai.com/docs/guides/gpt/chat-completions-api) as LLM to get answers given the context
-- [Chroma](https://github.com/chroma-core/chroma) as the vector database to store embeddings
-
-# Author
-
-* Taranjeet Singh ([@taranjeetio](https://twitter.com/taranjeetio))

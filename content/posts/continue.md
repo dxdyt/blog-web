@@ -1,9 +1,9 @@
 ---
 title: continue
-date: 2023-08-30T12:15:56+08:00
+date: 2023-08-31T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692660229286-302efad5e905?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692660229286-302efad5e905?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
