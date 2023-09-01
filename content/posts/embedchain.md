@@ -1,9 +1,9 @@
 ---
 title: embedchain
-date: 2023-08-31T12:17:16+08:00
+date: 2023-09-01T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692751202049-63fffe8d8738?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692751202049-63fffe8d8738?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
 ---
 
 # [embedchain/embedchain](https://github.com/embedchain/embedchain)

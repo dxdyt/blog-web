@@ -1,9 +1,9 @@
 ---
 title: electron
-date: 2023-05-07T12:16:13+08:00
+date: 2023-09-01T12:17:30+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12103/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12103/0/1080p
+featuredImage: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
 ---
 
 # [electron/electron](https://github.com/electron/electron)
@@ -48,7 +48,7 @@ For more installation options and troubleshooting tips, see
 
 Each Electron release provides binaries for macOS, Windows, and Linux.
 
-* macOS (High Sierra and up): Electron provides 64-bit Intel and ARM binaries for macOS. Apple Silicon support was added in Electron 11.
+* macOS (Catalina and up): Electron provides 64-bit Intel and ARM binaries for macOS. Apple Silicon support was added in Electron 11.
 * Windows (Windows 10 and up): Electron provides `ia32` (`x86`), `x64` (`amd64`), and `arm64` binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was [removed in Electron 23, in line with Chromium's Windows deprecation policy](https://www.electronjs.org/blog/windows-7-to-8-1-deprecation-notice).
 * Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
   * Ubuntu 14.04 and newer
@@ -88,7 +88,7 @@ binary. Use this to spawn Electron from Node scripts:
 
 ```javascript
 const electron = require('electron')
-const proc = require('child_process')
+const proc = require('node:child_process')
 
 // will print something similar to /Users/maf/.../Electron
 console.log(electron)

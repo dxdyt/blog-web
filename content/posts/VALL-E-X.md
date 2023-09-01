@@ -1,9 +1,9 @@
 ---
 title: VALL-E-X
-date: 2023-08-31T12:15:03+08:00
+date: 2023-09-01T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
 ---
 
 # [Plachtaa/VALL-E-X](https://github.com/Plachtaa/VALL-E-X)
@@ -283,7 +283,7 @@ Not comfortable with codes? No problem! We've also created a user-friendly graph
 <br>
 You can launch the UI by the following command:
 ```commandline
-python launch-ui.py
+python -X utf8 launch-ui.py
 ```
 </details>
 
