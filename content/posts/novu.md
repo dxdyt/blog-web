@@ -1,9 +1,9 @@
 ---
 title: novu
-date: 2023-08-19T12:16:32+08:00
+date: 2023-09-02T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691519548863-c29a47ecd6c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691519548863-c29a47ecd6c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692358339734-65f32bf4dcf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692358339734-65f32bf4dcf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
 ---
 
 # [novuhq/novu](https://github.com/novuhq/novu)
@@ -51,6 +51,7 @@ The ultimate service for managing multi-channel notifications with a single API.
   · <a href="https://github.com/novuhq/elixir">Elixir</a>
   · <a href="https://github.com/novuhq/rust">Rust</a>
   · <a href="https://github.com/novuhq/novu-python">Python</a>
+  · <a href="https://github.com/novuhq/novu-java">Java</a>
   </p>
 
 ## ⭐️ Why Novu?
@@ -231,5 +232,5 @@ Novu is licensed under the MIT License - see the [LICENSE](https://github.com/no
 Thanks a lot for spending your time helping Novu grow. Keep rocking 🥂
 
 <a href="https://novu.co/contributors">
-  <img src="https://contributors-img.web.app/image?repo=novuhq/novu" />
+  <img src="https://contributors-img.web.app/image?repo=novuhq/novu" alt="Contributors"/>
 </a>

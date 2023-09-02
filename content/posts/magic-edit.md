@@ -1,9 +1,9 @@
 ---
 title: magic-edit
-date: 2023-09-01T12:15:43+08:00
+date: 2023-09-02T12:14:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690821303703-4b2e3f87c0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690821303703-4b2e3f87c0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691432922330-542afaa82747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691432922330-542afaa82747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
 ---
 
 # [magic-research/magic-edit](https://github.com/magic-research/magic-edit)

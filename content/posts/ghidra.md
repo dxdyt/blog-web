@@ -1,9 +1,9 @@
 ---
 title: ghidra
-date: 2023-07-25T12:18:10+08:00
+date: 2023-09-02T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687777237163-4a7f524f9b70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687777237163-4a7f524f9b70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690848095491-942c798366b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690848095491-942c798366b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
 ---
 
 # [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
@@ -91,7 +91,10 @@ For issues building, please check the [Known Issues][known-issues] section for p
 ### User Scripts and Extensions
 Ghidra installations support users writing custom scripts and extensions via the *GhidraDev* plugin 
 for Eclipse.  The plugin and its corresponding instructions can be found within a Ghidra release at
-`Extensions/Eclipse/GhidraDev/`.
+`Extensions/Eclipse/GhidraDev/` or at [this link][ghidradev].
+
+**NOTE:** The *GhidraDev* plugin for Eclipse only supports developing against fully built
+Ghidra installations which can be downloaded from the [Releases][releases] page.
 
 ### Advanced Development
 To develop the Ghidra tool itself, it is highly recommended to use Eclipse, which the Ghidra 
@@ -137,3 +140,4 @@ source project.
 [eclipse]: https://www.eclipse.org/downloads/packages/
 [master]: https://github.com/NationalSecurityAgency/ghidra/archive/refs/heads/master.zip
 [security]: https://github.com/NationalSecurityAgency/ghidra/security/advisories
+[ghidradev]: https://htmlpreview.github.io/?https://github.com/NationalSecurityAgency/ghidra/blob/master/GhidraBuild/EclipsePlugins/GhidraDev/GhidraDevPlugin/GhidraDev_README.html

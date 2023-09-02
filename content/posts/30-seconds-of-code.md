@@ -1,9 +1,9 @@
 ---
 title: 30-seconds-of-code
-date: 2023-06-14T12:17:13+08:00
+date: 2023-09-02T12:16:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684443726764-6a236cb33ccb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684443726764-6a236cb33ccb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY3MTYxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
 ---
 
 # [30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1684443726764-6a236cb33c
 
 # 30 seconds of code
 
-> Short JavaScript code snippets for all your development needs
+> Short code snippets for all your development needs
 
 * Visit [our website](https://30secondsofcode.org) to view our snippet collection.
 * Search for snippets that suit your needs. You can search by name, tag, language or using a snippet's description. Just start typing a term and see what comes up.

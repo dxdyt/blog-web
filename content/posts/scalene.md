@@ -1,9 +1,9 @@
 ---
 title: scalene
-date: 2023-09-01T12:15:23+08:00
+date: 2023-09-02T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690881286894-0ab8b1f8de9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690881286894-0ab8b1f8de9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692731753558-f7913c3e0076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692731753558-f7913c3e0076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
 ---
 
 # [plasma-umass/scalene](https://github.com/plasma-umass/scalene)
@@ -31,13 +31,17 @@ Python that does a number of things that other Python profilers do not
 and cannot do.  It runs orders of magnitude faster than many other
 profilers while delivering far more detailed information. It is also
 the first profiler ever to incorporate AI-powered proposed
-optimizations. To enable these, you need to enter an [OpenAI
-key](https://openai.com/api/):
+optimizations.
 
-<img width="487" alt="Scalene advanced options" src="https://user-images.githubusercontent.com/1612723/211639253-ec926b38-3efe-4a20-8514-e10dde94ec01.png">
+### AI-powered optimization suggestions
 
-Once a valid key is entered, click on the lightning bolt (⚡) beside any line or the explosion (💥) for an entire region of code to generate a proposed optimization.
-Click on a proposed optimization to copy it to the clipboard.
+> **Note**
+>
+> To enable AI-powered optimization suggestions, you need to enter an [OpenAI key](https://openai.com/api/) in the box under "Advanced options". _Your account will need to have a positive balance for this to work_ (check your balance at https://platform.openai.com/account/usage).
+>
+> <img width="487" alt="Scalene advanced options" src="https://user-images.githubusercontent.com/1612723/211639253-ec926b38-3efe-4a20-8514-e10dde94ec01.png">
+
+Once you've entered your OpenAI key (see above), click on the lightning bolt (⚡) beside any line or the explosion (💥) for an entire region of code to generate a proposed optimization. Click on a proposed optimization to copy it to the clipboard.
 
 <img width="571" alt="example proposed optimization" src="https://user-images.githubusercontent.com/1612723/211639968-37cf793f-3290-43d1-9282-79e579558388.png">
 

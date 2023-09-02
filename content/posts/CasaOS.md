@@ -1,9 +1,9 @@
 ---
 title: CasaOS
-date: 2023-09-01T12:16:53+08:00
+date: 2023-09-02T12:15:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689870215829-3e94e28ec328?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689870215829-3e94e28ec328?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
 ---
 
 # [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
@@ -114,7 +114,7 @@ CasaOS fully supports ZimaBoard, Intel NUC, and Raspberry Pi. Also, more compute
 ### System Compatibility
 
 Official Support
-- Debian 11 (✅ Tested, Recommended)
+- Debian 12 (✅ Tested, Recommended)
 - Ubuntu Server 20.04 (✅ Tested)
 - Raspberry Pi OS (✅ Tested)
 
