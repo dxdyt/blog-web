@@ -1,9 +1,9 @@
 ---
 title: ntfy
-date: 2023-09-02T12:14:43+08:00
+date: 2023-09-03T12:14:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690848095491-942c798366b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690848095491-942c798366b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690675642691-a3160149f30e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690675642691-a3160149f30e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)

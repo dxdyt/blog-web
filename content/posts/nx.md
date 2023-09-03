@@ -1,9 +1,9 @@
 ---
 title: nx
-date: 2023-09-02T12:16:25+08:00
+date: 2023-09-03T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691443297137-68818fe7bce9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691443297137-68818fe7bce9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692584927805-d4096552a5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692584927805-d4096552a5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [nrwl/nx](https://github.com/nrwl/nx)

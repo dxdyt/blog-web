@@ -1,9 +1,9 @@
 ---
 title: nougat
-date: 2023-09-02T12:14:21+08:00
+date: 2023-09-03T12:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691432922330-542afaa82747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691432922330-542afaa82747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691068297801-4957c1b77209?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691068297801-4957c1b77209?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/nougat](https://github.com/facebookresearch/nougat)
@@ -16,12 +16,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1691432922330-542afaa827
 [![PyPI](https://img.shields.io/pypi/v/nougat-ocr?logo=pypi)](https://pypi.org/project/nougat-ocr)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Hugging Face Spaces](https://img.shields.io/badge/🤗%20Hugging%20Face-Community%20Space-blue)](https://huggingface.co/spaces/ysharma/nougat)
 
 </div>
 
 This is the official repository for Nougat, the academic document PDF parser that understands LaTeX math and tables.
 
 Project page: https://facebookresearch.github.io/nougat/
+
+Huggingface Community Demo: https://huggingface.co/spaces/ysharma/nougat
 
 ## Install
 
@@ -34,6 +37,8 @@ From repository:
 ```
 pip install git+https://github.com/facebookresearch/nougat
 ```
+
+> Note, on Windows: If you want to utilize a GPU, make sure you first install the correct PyTorch version. Follow instructions [here](https://pytorch.org/get-started/locally/)
 
 There are extra dependencies if you want to call the model from an API or generate a dataset.
 Install via
@@ -48,18 +53,20 @@ To get predictions for a PDF run
 ```$ nougat path/to/file.pdf```
 
 ```
-usage: nougat [-h] [--batchsize BATCHSIZE] [--checkpoint CHECKPOINT] [--out OUT] pdf [pdf ...]
+usage: nougat [-h] [--batchsize BATCHSIZE] [--checkpoint CHECKPOINT] [--out OUT] [--recompute] [--markdown] pdf [pdf ...]
 
 positional arguments:
   pdf                   PDF(s) to process.
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
   --batchsize BATCHSIZE, -b BATCHSIZE
-                        Batch size to use. Defaults to 6 which runs on 24GB VRAM.
+                        Batch size to use.
   --checkpoint CHECKPOINT, -c CHECKPOINT
-                        Path to checkpoint directory
+                        Path to checkpoint directory.
   --out OUT, -o OUT     Output directory.
+  --recompute           Recompute already computed PDF, discarding previous predictions.
+  --markdown            Add postprocessing step for markdown compatibility.
 ```
 
 In the output directory every PDF will be saved as a `.mmd` file, the lightweight markup language, mostly compatible with [Mathpix Markdown](https://github.com/Mathpix/mathpix-markdown-it) (we make use of the LaTeX tables).

@@ -1,9 +1,9 @@
 ---
 title: aidea
-date: 2023-09-02T12:14:13+08:00
+date: 2023-09-03T12:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692646016596-b5eedeef6070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692646016596-b5eedeef6070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [mylxsw/aidea](https://github.com/mylxsw/aidea)
@@ -28,7 +28,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1691036738987-81385c2f18
 
 微信技术交流群：
 
-<img src="https://github.com/mylxsw/aidea/assets/2330911/bff2b9a7-7c60-4471-be71-d3b6a825c8e6" width="600"/>
+技术交流群 1 | 技术交流群 2
+:-------------------------:|:-------------------------:
+![images](https://github.com/mylxsw/aidea/assets/2330911/bff2b9a7-7c60-4471-be71-d3b6a825c8e6)  | ![images](https://github.com/mylxsw/aidea/assets/2330911/c3123fed-75f9-4e4f-b3a1-e76cf24499ee) 
+
+> 微信群满了加不进去的话，可以添加微信号 `x-prometheus` 为好友，把你拉进去哈。
+> 
+> <img src="https://github.com/mylxsw/aidea/assets/2330911/655601c1-9371-4460-9657-c58521260336" width="400"/>
 
 电报群：[点此加入](https://t.me/aideachat)
 
@@ -50,6 +56,21 @@ Web 端：https://web.aicode.cc/
 ![images](resources/Xnip2023-08-30_11-34-14.png)  | ![images](resources/Xnip2023-08-30_11-34-28.png) 
 ![images](resources/Xnip2023-08-30_11-34-42.png)  | ![images](resources/Xnip2023-08-30_11-35-01.png) 
 ![images](resources/Xnip2023-08-30_11-35-33.png)  | ![images](resources/Xnip2023-08-30_11-35-52.png)
+
+## 常见问题
+
+### 1. Mac 桌面端应用无法打开，报错如下
+
+<img width="300" src="https://user-images.githubusercontent.com/15153075/264509300-426d70bd-fd1b-4078-9eb9-5588a917b023.png">
+
+临时解决方案，命令行执行
+
+```bash
+sudo codesign -f -s - /Applications/AIdea.app
+```
+
+<img width="1125" alt="image" src="https://github.com/mylxsw/aidea/assets/2330911/5ef3fbe1-6cb3-4a64-9c17-82dd8c864ac7">
+
 
 ## Star History
 

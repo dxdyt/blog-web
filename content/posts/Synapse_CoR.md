@@ -1,9 +1,9 @@
 ---
 title: Synapse_CoR
-date: 2023-08-18T12:15:48+08:00
+date: 2023-09-03T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1542901688-28df1677a8a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1542901688-28df1677a8a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692584927805-d4096552a5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692584927805-d4096552a5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [ProfSynapse/Synapse_CoR](https://github.com/ProfSynapse/Synapse_CoR)
@@ -102,4 +102,14 @@ This flexible system allows users to engage with AI in a way that aligns with th
 
 Synapse_CoR represents a groundbreaking approach to AI interaction, aligning with user goals, summoning expert agents, and thinking step-by-step. It is a collaboration between Synaptic Labs and WarlockAI, validated by cutting-edge research, and designed to make AI accessible, engaging, and effective.
 
+We have a walkthrough at the following youtube links:
+
+General: https://youtu.be/cV0cPElzg4A
+Code Interpreter (from the Goddess GodaGo): https://www.youtube.com/watch?v=BL9x1SuNLRo
+
 Feel free to explore, customize, and innovate. We're excited to see where you'll take Synapse_CoR!
+
+For more goodies, check out our links:
+https://www.synapticlabs.ai/
+Instagram & TikTok @synapticlabs
+

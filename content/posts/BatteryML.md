@@ -1,9 +1,9 @@
 ---
 title: BatteryML
-date: 2023-09-02T12:16:56+08:00
+date: 2023-09-03T12:14:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692731753558-f7913c3e0076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692731753558-f7913c3e0076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690675642691-a3160149f30e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690675642691-a3160149f30e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/BatteryML](https://github.com/microsoft/BatteryML)
