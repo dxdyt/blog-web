@@ -1,9 +1,9 @@
 ---
 title: aidea
-date: 2023-09-03T12:15:59+08:00
+date: 2023-09-04T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692646016596-b5eedeef6070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692646016596-b5eedeef6070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692026187565-5cd1ac9a4f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692026187565-5cd1ac9a4f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [mylxsw/aidea](https://github.com/mylxsw/aidea)
@@ -28,11 +28,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1692646016596-b5eedeef60
 
 微信技术交流群：
 
-技术交流群 1 | 技术交流群 2
-:-------------------------:|:-------------------------:
-![images](https://github.com/mylxsw/aidea/assets/2330911/bff2b9a7-7c60-4471-be71-d3b6a825c8e6)  | ![images](https://github.com/mylxsw/aidea/assets/2330911/c3123fed-75f9-4e4f-b3a1-e76cf24499ee) 
+<img src="https://github.com/mylxsw/aidea/assets/2330911/c3123fed-75f9-4e4f-b3a1-e76cf24499ee" width="400" />
 
-> 微信群满了加不进去的话，可以添加微信号 `x-prometheus` 为好友，把你拉进去哈。
+> 微信群满了加不进去的话，可以添加微信号 `x-prometheus` 为好友，拉你进群。
 > 
 > <img src="https://github.com/mylxsw/aidea/assets/2330911/655601c1-9371-4460-9657-c58521260336" width="400"/>
 
@@ -43,6 +41,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1692646016596-b5eedeef60
 Android/IOS APP：https://aidea.aicode.cc/
 
 > IOS 国区目前不可用，除此之外所有区域都可以下载。
+>
+> 2023 年 9 月 4 日发现国区被下架后，非国区 IOS 版本可能无法完成应用内购（提示“你的购买无法完成”，但是也有人能够成功支付），暂时无法充值，最新进展在这里 [issue#16](https://github.com/mylxsw/aidea/issues/16)。
 
 Mac 桌面端：https://github.com/mylxsw/aidea/releases
 
@@ -56,6 +56,13 @@ Web 端：https://web.aicode.cc/
 ![images](resources/Xnip2023-08-30_11-34-14.png)  | ![images](resources/Xnip2023-08-30_11-34-28.png) 
 ![images](resources/Xnip2023-08-30_11-34-42.png)  | ![images](resources/Xnip2023-08-30_11-35-01.png) 
 ![images](resources/Xnip2023-08-30_11-35-33.png)  | ![images](resources/Xnip2023-08-30_11-35-52.png)
+
+## 如果对你有帮助，请我喝杯酒吧
+
+微信  | 支付宝
+:-------------------------:|:-------------------------:
+![image](https://github.com/mylxsw/aidea/assets/2330911/46e2242b-17bc-41ff-bebe-b5cc466b7f17) | ![image](https://github.com/mylxsw/aidea/assets/2330911/f3c85d4a-bea8-4a76-b582-c673613f76cb)
+
 
 ## 常见问题
 
@@ -71,6 +78,13 @@ sudo codesign -f -s - /Applications/AIdea.app
 
 <img width="1125" alt="image" src="https://github.com/mylxsw/aidea/assets/2330911/5ef3fbe1-6cb3-4a64-9c17-82dd8c864ac7">
 
+### 2. Web 端使用 Nginx 部署后，`canvaskit.wasm` 文件响应的 `Content-Type`  是 `application/octet-stream`，而不是 `application/wasm` 
+
+在 Nginx 配置文件 `/etc/nginx/mime.types` 中，增加 wasm 支持
+
+```nginx
+application/wasm wasm;
+```
 
 ## Star History
 

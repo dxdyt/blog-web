@@ -1,9 +1,9 @@
 ---
 title: DevToys
-date: 2023-09-03T12:14:05+08:00
+date: 2023-09-04T12:15:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692656570096-8894c62d0733?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692656570096-8894c62d0733?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [veler/DevToys](https://github.com/veler/DevToys)

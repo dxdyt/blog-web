@@ -1,9 +1,9 @@
 ---
 title: ChatDev
-date: 2023-09-03T12:13:57+08:00
+date: 2023-09-04T12:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690675642691-a3160149f30e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690675642691-a3160149f30e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1675368244448-b8cff9ffdb03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1675368244448-b8cff9ffdb03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
@@ -18,6 +18,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1690675642691-a3160149f3
 
 - **ChatDev** stands as a **virtual software company** that operates through various **intelligent agents** holding different roles, including Chief Executive Officer, Chief Technology Officer, Programmer, Tester, and more. These agents form a multi-agent organizational structure and are united by a mission to "revolutionize the digital world through programming." The agents within ChatDev **collaborate** by participating in specialized functional seminars, including tasks such as designing, coding, testing, and documenting.
 - The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework, which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
+
+*Read this in [中文](README-Chinese.md).*
 
 ## 📰 News
 

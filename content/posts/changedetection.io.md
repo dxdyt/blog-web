@@ -1,9 +1,9 @@
 ---
 title: changedetection.io
-date: 2023-09-03T12:15:53+08:00
+date: 2023-09-04T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693250707557-a846a014b321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693250707557-a846a014b321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io)

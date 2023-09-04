@@ -1,9 +1,9 @@
 ---
 title: astro
-date: 2023-09-03T12:14:50+08:00
+date: 2023-09-04T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692646016596-b5eedeef6070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692646016596-b5eedeef6070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [withastro/astro](https://github.com/withastro/astro)

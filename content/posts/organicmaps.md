@@ -1,9 +1,9 @@
 ---
 title: organicmaps
-date: 2023-08-21T12:16:41+08:00
+date: 2023-09-04T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1604882737321-e6937fd6f519?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1604882737321-e6937fd6f519?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692963178094-f4954c9f6961?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692963178094-f4954c9f6961?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [organicmaps/organicmaps](https://github.com/organicmaps/organicmaps)

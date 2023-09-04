@@ -1,9 +1,9 @@
 ---
 title: CasaOS
-date: 2023-09-02T12:15:30+08:00
+date: 2023-09-04T12:14:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691036738987-81385c2f18ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692785815164-2981739c1490?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692785815164-2981739c1490?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
 ---
 
 # [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
@@ -156,13 +156,13 @@ curl -fsSL https://get.icewhale.io/casaos-uninstall.sh | sudo bash
 
 ## Community 
 
-The word Casa comes from the Spanish word for "home". Project CasaOS originated as a pre-installed system for crowdfunded product [ZimaBoard](https://www.zimaboard.com) on Kickstarter.
+The word Casa comes from the Spanish word for "home". Project CasaOS originated as a pre-installed system for the crowdfunded product [ZimaBoard](https://www.zimaboard.com) on Kickstarter.
 
 After looking at many systems and software on the market, the team found no server system designed for home scenarios, sadly true.
 
-So, we set out to build this open source project to develop CasaOS with our own hands, everyone in the community, and you.
+So, we set out to build this open-source project to develop CasaOS with our own hands, everyone in the community, and you.
 
-We believes that through community-driven collaborative innovation and open communication with global developers, we can reshape the digital home experience like never before.
+We believe that through community-driven collaborative innovation and open communication with global developers, we can reshape the digital home experience like never before.
 
 **A warm welcome for you to get help or share great ideas in the [Discord](https://discord.gg/knqAbbBbeX)!**
 
@@ -172,8 +172,8 @@ We believes that through community-driven collaborative innovation and open comm
 
 CasaOS is a community-driven open source project and the people involved are CasaOS users. That means CasaOS will always need contributions from community members just like you!
 
-- See <https://wiki.casaos.io/en/contribute> for ways of contribution to CasaOS
-- See <https://wiki.casaos.io/en/contribute/development> if you want to be involved in code contribution specificially
+- See <https://wiki.casaos.io/en/contribute> for ways of contributing to CasaOS
+- See <https://wiki.casaos.io/en/contribute/development> if you want to be involved in code contribution specifically
 
 ## Donate
 <p ><a href="https://www.buymeacoffee.com/icewhaletech"> <img align="center" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="bappi2097" target="_blank" /></a></p>
@@ -219,7 +219,7 @@ Everyone's contribution is greatly appreciated. ([Emoji Key](https://allcontribu
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind are welcome!
 
 ## Changelog
 
