@@ -1,9 +1,9 @@
 ---
 title: codeinterpreter-api
-date: 2023-07-22T12:16:03+08:00
+date: 2023-09-06T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688147203883-a73a95f89770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688147203883-a73a95f89770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5OTkyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692795172302-090bb5063b5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692795172302-090bb5063b5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
 ---
 
 # [shroominic/codeinterpreter-api](https://github.com/shroominic/codeinterpreter-api)
@@ -29,44 +29,52 @@ You can run everything local except the LLM using your own OpenAI API Key.
 Get your OpenAI API Key [here](https://platform.openai.com/account/api-keys) and install the package.
 
 ```bash
-pip install codeinterpreterapi
+pip install "codeinterpreterapi[all]"
 ```
+
+Everything for local experiments are installed with the `all` extra.
+For deployments, you can use `pip install codeinterpreterapi` instead which does not install the additional dependencies.
 
 ## Usage
 
-Make sure to set the `OPENAI_API_KEY` environment variable (or use a `.env` file)
+To configure OpenAI and Azure OpenAI, ensure that you set the appropriate environment variables (or use a .env file):
 
-```python
-from codeinterpreterapi import CodeInterpreterSession
+For OpenAI, set the OPENAI_API_KEY environment variable:
 
-
-async def main():
-    # create a session
-    session = CodeInterpreterSession()
-    await session.astart()
-
-    # generate a response based on user input
-    response = await session.generate_response(
-        "Plot the bitcoin chart of 2023 YTD"
-    )
-
-    # output the response (text + image)
-    print("AI: ", response.content)
-    for file in response.files:
-        file.show_image()
-
-    # terminate the session
-    await session.astop()
-
-
-if __name__ == "__main__":
-    import asyncio
-    # run the async function
-    asyncio.run(main())
-
+```bash
+export OPENAI_API_KEY=your_openai_api_key
 ```
 
-![Bitcoin YTD](https://github.com/shroominic/codeinterpreter-api/blob/main/examples/assets/bitcoin_chart.png?raw=true)  
+For Azure OpenAI, set the following environment variables:
+
+```bash
+export OPENAI_API_TYPE=azure
+export OPENAI_API_VERSION=your_api_version
+export OPENAI_API_BASE=your_api_base
+export OPENAI_API_KEY=your_azure_openai_api_key
+export DEPLOYMENT_NAME=your_deployment_name
+```
+
+Remember to replace the placeholders with your actual API keys and other required information.
+
+```python
+from codeinterpreterapi import CodeInterpreterSession, settings
+
+# set api key (or automatically loads from env vars)
+settings.OPENAI_API_KEY = "sk-***************"
+
+# create a session
+with CodeInterpreterSession() as session:
+    # generate a response based on user input
+    response = session.generate_response(
+        "Plot the bitcoin chart of year 2023"
+    )
+
+    # output the response
+    response.show()
+```
+
+![Bitcoin YTD](https://github.com/shroominic/codeinterpreter-api/blob/main/examples/assets/bitcoin_chart.png?raw=true)
 Bitcoin YTD Chart Output
 
 ## Dataset Analysis
@@ -101,7 +109,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-![Iris Dataset Analysis](https://github.com/shroominic/codeinterpreter-api/blob/main/examples/assets/iris_analysis.png?raw=true)  
+![Iris Dataset Analysis](https://github.com/shroominic/codeinterpreter-api/blob/main/examples/assets/iris_analysis.png?raw=true)
 Iris Dataset Analysis Output
 
 ## Production
@@ -122,6 +130,14 @@ This helps me a lot in improving the code.
 
 Thanks!
 
+## Streamlit WebApp
+
+To start the web application created with streamlit:
+
+```bash
+streamlit run frontend/app.py --browser.gatherUsageStats=False
+```
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
@@ -129,7 +145,7 @@ Thanks!
 ## Contact
 
 You can contact me at [contact@shroominic.com](mailto:contact@shroominic.com).
-But I prefer to use [Twitter](https://twitter.com/shroominic) or [Discord](https://gptassistant.app/community) DMs.
+But I prefer to use [Twitter](https://twitter.com/shroominic) or [Discord](https://discord.gg/QYzBtq37) DMs.
 
 ## Support this project
 
@@ -138,6 +154,7 @@ Thanks, this helps a lot! ❤️
 
 ## Star History
 
+<!-- markdownlint-disable MD033 -->
 <a href="https://star-history.com/#shroominic/codeinterpreter-api&Date">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=shroominic/codeinterpreter-api&type=Date&theme=dark" />

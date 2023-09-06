@@ -1,9 +1,9 @@
 ---
 title: Android-Touch-Helper
-date: 2023-09-03T12:17:01+08:00
+date: 2023-09-06T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692607334912-c34c9392701b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692607334912-c34c9392701b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
 ---
 
 # [zfdang/Android-Touch-Helper](https://github.com/zfdang/Android-Touch-Helper)
@@ -38,6 +38,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1692607334912-c34c939270
 
 [http://TouchHelper.zfdang.com](http://TouchHelper.zfdang.com)
 
+# 一点说明
+这是几年前搞的一个个人项目，现在没什么精力来改进和维护了，大家提的新需求了，估计很难满足了...
+
+如果有人愿意提交PR, 我会尽量Review之后Merge的
 
 # 感谢
 

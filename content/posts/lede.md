@@ -1,9 +1,9 @@
 ---
 title: lede
-date: 2023-09-04T12:17:32+08:00
+date: 2023-09-06T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692026187565-5cd1ac9a4f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692026187565-5cd1ac9a4f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689886342607-01073f9371c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689886342607-01073f9371c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
 ---
 
 # [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)

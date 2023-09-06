@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-09-04T12:15:14+08:00
+date: 2023-09-06T12:14:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -14,7 +14,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1689950106899-a684ff8822
     <a href="https://discord.gg/YG7APUyJ5"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License">
 <br>
     <b>Let language models run code on your computer.</b><br>
-    An open-source, locally running implementation of OpenAI's Code Interpreter.
+    An open-source, locally running implementation of OpenAI's Code Interpreter.<br>
+    <br><a href="https://openinterpreter.com">Get early access to the desktop application.</a><br>
 </p>
 
 <br>
@@ -200,9 +201,8 @@ This is a community-made project. If it looks exciting to you, please don't hesi
 Open Interpreter is licensed under the MIT License. You are permitted to use, copy, modify, distribute, sublicense and sell copies of the software.
 
 **Note**: This software is not affiliated with OpenAI.
-
-<br>
-
 > Having access to a junior programmer working at the speed of your fingertips ... can make new workflows effortless and efficient, as well as open the benefits of programming to new audiences.
 >
 > — _OpenAI's Code Interpreter Release_
+
+<br>

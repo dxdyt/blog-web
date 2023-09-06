@@ -1,9 +1,9 @@
 ---
 title: funNLP
-date: 2023-08-26T12:14:28+08:00
+date: 2023-09-06T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689019587412-00999d1d08bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689019587412-00999d1d08bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691520673295-9626f624869b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691520673295-9626f624869b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
 ---
 
 # [fighting41love/funNLP](https://github.com/fighting41love/funNLP)

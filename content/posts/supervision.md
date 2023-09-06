@@ -1,9 +1,9 @@
 ---
 title: supervision
-date: 2023-08-21T12:17:29+08:00
+date: 2023-09-06T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688498465380-74092922165e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1OTEyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691520673295-9626f624869b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691520673295-9626f624869b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
@@ -20,11 +20,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1688498465380-7409292216
 
   <br>
 
-[![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision)
-[![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision)
-[![license](https://img.shields.io/pypi/l/supervision)](https://github.com/roboflow/supervision/blob/main/LICENSE.md)
-[![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb)
+  [notebooks](https://github.com/roboflow/notebooks) | [inference](https://github.com/roboflow/inference) | [autodistill](https://github.com/autodistill/autodistill) | [collect](https://github.com/roboflow/roboflow-collect)
+
+  <br>
+
+  [![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision)
+  [![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision)
+  [![license](https://img.shields.io/pypi/l/supervision)](https://github.com/roboflow/supervision/blob/main/LICENSE.md)
+  [![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision)
+  [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb)
 
 </div>
 
@@ -285,6 +289,8 @@ Did you build something cool using supervision? [Let us know!](https://github.co
 
 https://user-images.githubusercontent.com/26109316/207858600-ee862b22-0353-440b-ad85-caa0c4777904.mp4
 
+https://github.com/roboflow/supervision/assets/26109316/c9436828-9fbf-4c25-ae8c-60e9c81b3900
+
 ## 🎬 tutorials
 
 <p align="left">
@@ -296,8 +302,8 @@ https://user-images.githubusercontent.com/26109316/207858600-ee862b22-0353-440b-
 <br/>
 
 <p align="left">
-<a href="https://youtu.be/oEQYStnF2l8" title="SAM - Segment Anything Model by Meta AI: Complete Guide"><img src="https://github.com/SkalskiP/SkalskiP/assets/26109316/6913ff11-53c6-4341-8d90-eaff3023c3fd" alt="SAM - Segment Anything Model by Meta AI: Complete Guide" width="300px" align="left" /></a>
-<a href="https://youtu.be/oEQYStnF2l8" title="SAM - Segment Anything Model by Meta AI: Complete Guide"><strong>SAM - Segment Anything Model by Meta AI: Complete Guide</strong></a>
+<a href="https://youtu.be/D-D6ZmadzPE" title="SAM - Segment Anything Model by Meta AI: Complete Guide"><img src="https://github.com/SkalskiP/SkalskiP/assets/26109316/6913ff11-53c6-4341-8d90-eaff3023c3fd" alt="SAM - Segment Anything Model by Meta AI: Complete Guide" width="300px" align="left" /></a>
+<a href="https://youtu.be/D-D6ZmadzPE" title="SAM - Segment Anything Model by Meta AI: Complete Guide"><strong>SAM - Segment Anything Model by Meta AI: Complete Guide</strong></a>
 <div><strong>Created: 11 Apr 2023</strong> | <strong>Updated: 11 Apr 2023</strong></div>
 <br/> Discover the incredible potential of Meta AI's Segment Anything Model (SAM)! We dive into SAM, an efficient and promptable model for image segmentation, which has revolutionized computer vision tasks. With over 1 billion masks on 11M licensed and privacy-respecting images, SAM's zero-shot performance is often competitive with or even superior to prior fully supervised results... </p>
 
