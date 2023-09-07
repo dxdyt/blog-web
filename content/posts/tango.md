@@ -1,9 +1,9 @@
 ---
 title: tango
-date: 2023-09-03T12:15:14+08:00
+date: 2023-09-07T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692617669592-5b0301899216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692617669592-5b0301899216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
 ---
 
 # [NetEase/tango](https://github.com/NetEase/tango)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692617669592-5b03018992
 <h1 align="center">Tango LowCode Builder</h1>
 <div align="center">
 
-A source code based low-code builder from NetEase Cloud Music Develop Team.
+A source code based low-code builder, developed by NetEase Cloud Music Develop Team.
 
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/NetEase/tango/blob/main/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@music163/tango-designer.svg?style=flat-square)](http://npmjs.org/package/@music163/tango-designer)
@@ -61,41 +61,6 @@ gantt
     1.0 version              :         des4, after des3, 21d
 ```
 
-## 📄 Usage
-
-Install the low-code designer
-
-```bash
-npm install @music163/tango-designer
-```
-
-Initialize the low-code designer engine
-
-```js
-import { createEngine } form '@music163/tango-designer';
-
-// init designer engine
-const engine = createEngine({
-  entry: '/src/index.js',
-  files: sampleFiles,
-  componentPrototypes: prototypes as any,
-});
-```
-
-Initialize the drag-and-drop engine
-
-```js
-import { DndQuery } form '@music163/tango-designer';
-
-const sandboxQuery = new DndQuery({
-  context: 'iframe',
-});
-```
-
-Initialize the designer layout (WIP)
-
-Find details from [Documentation Site](https://netease.github.io/tango/)。
-
 ## 💻 Development
 
 ### Recommended Development Environment
@@ -119,6 +84,12 @@ yarn
 yarn start
 ```
 
+## 💬 Community
+
+Join NetEase Tango Community to share your ideas, suggestions, or questions and connect with other users and contributors.
+
+- Discord: <https://discord.gg/B6hkGTe4Rz>
+
 ## 🤝 Contributing
 
 Please read the [github contribution guide](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) first。
@@ -128,8 +99,16 @@ Please read the [github contribution guide](https://docs.github.com/en/get-start
 - Commit and push your code
 - Open a Pull Request
 
+## 📈 Usage Trends
+
+[Usage Trends of Tango Packages](https://npm-compare.com/@music163/tango-helpers,@music163/tango-context,@music163/tango-core,@music163/tango-setting-form,@music163/tango-sandbox,@music163/tango-ui,@music163/tango-designer)
+
 ## 💗 Acknowledgments
 
 Thanks to the NetEase Cloud Music Front-end team, Public Technology team, Live Broadcasting Technology team, and all the colleagues who participated in the Tango project.
 
 Thank you to CodeSandbox for providing the [Sandpack](https://sandpack.codesandbox.io/) project, which provides powerful online code execution capabilities for Tango.
+
+## 📄 License
+
+This project is licensed under the terms of the [MIT license](./LICENSE)

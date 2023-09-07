@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-09-06T12:14:58+08:00
+date: 2023-09-07T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693092243843-412e289bc5ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693092243843-412e289bc5ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -156,6 +156,8 @@ print(interpreter.system_message)
 
 #### Change the Model
 
+> Note: We're working on consolidating these into a unified command.
+
 You can run `interpreter` in local mode from the command line to use `Code Llama`:
 
 ```shell
@@ -168,10 +170,22 @@ For `gpt-3.5-turbo`, use fast mode:
 interpreter --fast
 ```
 
-Or, in Python, set the model manually:
+In Python, you will need to set the model manually:
 
 ```python
 interpreter.model = "gpt-3.5-turbo"
+```
+
+#### Debug mode
+
+To help contributors inspect Open Interpreter, `--debug` mode is highly verbose. 
+
+You can activate debug mode by using it's flag (`interpreter --debug`), or mid-chat:
+
+```
+$ interpreter
+...
+> %debug # <- Turns on debug mode
 ```
 
 ## Safety Notice

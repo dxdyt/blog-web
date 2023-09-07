@@ -1,13 +1,49 @@
 ---
 title: llvm-project
-date: 2023-06-29T12:20:23+08:00
+date: 2023-09-07T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687024802269-3d455e3e7e9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687024802269-3d455e3e7e9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgwMTIyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691719183611-705430ca9191?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691719183611-705430ca9191?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
 ---
 
 # [llvm/llvm-project](https://github.com/llvm/llvm-project)
 
-# This branch is no longer used
+# The LLVM Compiler Infrastructure
 
-Please use the main branch instead.
+Welcome to the LLVM project!
+
+This repository contains the source code for LLVM, a toolkit for the
+construction of highly optimized compilers, optimizers, and run-time
+environments.
+
+The LLVM project has multiple components. The core of the project is
+itself called "LLVM". This contains all of the tools, libraries, and header
+files needed to process intermediate representations and convert them into
+object files. Tools include an assembler, disassembler, bitcode analyzer, and
+bitcode optimizer.
+
+C-like languages use the [Clang](http://clang.llvm.org/) frontend. This
+component compiles C, C++, Objective-C, and Objective-C++ code into LLVM bitcode
+-- and from there into object files, using LLVM.
+
+Other components include:
+the [libc++ C++ standard library](https://libcxx.llvm.org),
+the [LLD linker](https://lld.llvm.org), and more.
+
+## Getting the Source Code and Building LLVM
+
+Consult the
+[Getting Started with LLVM](https://llvm.org/docs/GettingStarted.html#getting-the-source-code-and-building-llvm)
+page for information on building and running LLVM.
+
+For information on how to contribute to the LLVM project, please take a look at
+the [Contributing to LLVM](https://llvm.org/docs/Contributing.html) guide.
+
+## Getting in touch
+
+Join the [LLVM Discourse forums](https://discourse.llvm.org/), [Discord
+chat](https://discord.gg/xS7Z362), or #llvm IRC channel on
+[OFTC](https://oftc.net/).
+
+The LLVM project has adopted a [code of conduct](https://llvm.org/docs/CodeOfConduct.html) for
+participants to all modes of communication within the project.

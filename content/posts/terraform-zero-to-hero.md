@@ -1,9 +1,9 @@
 ---
 title: terraform-zero-to-hero
-date: 2023-09-06T12:15:38+08:00
+date: 2023-09-07T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681630435819-c6338750ef7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693393075815-bf4f5895e40f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693393075815-bf4f5895e40f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
 ---
 
 # [iam-veeramalla/terraform-zero-to-hero](https://github.com/iam-veeramalla/terraform-zero-to-hero)

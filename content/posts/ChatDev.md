@@ -1,9 +1,9 @@
 ---
 title: ChatDev
-date: 2023-09-06T12:15:05+08:00
+date: 2023-09-07T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692795172302-090bb5063b5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692795172302-090bb5063b5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692795172302-090bb5063b
 </p>
 
 <p align="center">
-    【English | <a href="README-Chinese.md">Chinese</a> | <a href="README-Japanese.md">Japanese</a>】
+    【English | <a href="README-Chinese.md">Chinese</a> | <a href="README-Japanese.md">Japanese</a> | <a href="README-Korean.md">Korean</a>】
 </p>
 
 ## 📖 Overview
@@ -127,7 +127,7 @@ create a software package and generate a folder named ``/WareHouse/2048_THUNLP_t
 - A comprehensive log detailing the software's building process that can be used to replay (``timestamp.log``)
 - The initial prompt used to create this software (``2048.prompt``)
 
-**See Community contributed software [here](Contribution.md)!**
+**See community contributed software [here](Contribution.md)!**
 
 ### Software Contributors
 
@@ -160,3 +160,7 @@ create a software package and generate a folder named ``/WareHouse/2048_THUNLP_t
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=openbmb/chatdev&type=Date)](https://star-history.com/#openbmb/chatdev&Date)
+
+## Contact
+
+If you have any questions, feedback, or would like to get in touch, please feel free to reach out to us via email at [chatdev.openbmb@outlook.com](mailto:chatdev.openbmb@outlook.com)
