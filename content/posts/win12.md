@@ -1,9 +1,9 @@
 ---
 title: win12
-date: 2023-09-07T12:17:39+08:00
+date: 2023-09-08T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693588312088-a37c2a329982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693588312088-a37c2a329982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692537190388-8c4e80ae45cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692537190388-8c4e80ae45cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
 ---
 
 # [tjy-gitnub/win12](https://github.com/tjy-gitnub/win12)
@@ -44,7 +44,9 @@ Windows 12 的明天在大家的努力下会更灿烂美好！
 <hr>
 
 - [Windows 12 网页版](#windows-12-网页版)
+  - [前前言](#前前言)
   - [前言](#前言)
+      - [特别感谢](#特别感谢)
   - [效果展示](#效果展示)
   - [在线体验](#在线体验)
   - [安装和使用](#安装和使用)
@@ -56,7 +58,7 @@ Windows 12 的明天在大家的努力下会更灿烂美好！
 
 最近(不久之前)看到有一些冒充我们的，在此做个声明：
 
-我们项目是由tjy-gitnub（初3），NB-group（预备），782（初1），三位开发者共同开发的！
+我们项目是由tjy-gitnub（初三），NB-group（预备），782（初一），三位开发者共同开发的！
 我们只在Github，Bilibili，爱发电上有官方账号！
 
 Github：
@@ -82,7 +84,13 @@ NB-group：![image](https://github.com/tjy-gitnub/win12/assets/121747915/9dad6ca
 精美的ui设计，流畅丰富的动画，各种高级的功能(相较于网页版)
 > 移动端适配不太完善，开桌面版网站凑合着用吧 `>v-)o`
 
-话不多说，来看一下截图
+### 特别感谢
+
+特别感谢以下赞助者: 
+
+- CursoR_光标(<https://afdian.net/a/cursor>)
+
+在此对以上赞助者表示公开鸣谢!
 
 ## 效果展示
 

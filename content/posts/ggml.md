@@ -1,9 +1,9 @@
 ---
 title: ggml
-date: 2023-06-28T12:20:34+08:00
+date: 2023-09-08T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686556029158-90f2cc511c04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686556029158-90f2cc511c04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693508171201-95c6ac806960?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693508171201-95c6ac806960?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/ggml](https://github.com/ggerganov/ggml)
@@ -26,6 +26,7 @@ Some of the development is currently happening in the [llama.cpp](https://github
 - ADAM and L-BFGS optimizers
 - Optimized for Apple Silicon
 - On x86 architectures utilizes AVX / AVX2 intrinsics
+- On ppc64 architectures utilizes VSX intrinsics
 - No third-party dependencies
 - Zero memory allocations during runtime
 
@@ -39,18 +40,22 @@ Some of the development is currently happening in the [llama.cpp](https://github
 - [ ] Example of FLAN-T5 inference https://github.com/ggerganov/ggml/pull/12
 - [X] Example of LLaMA inference [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
 - [X] Example of LLaMA training [ggerganov/llama.cpp/examples/baby-llama](https://github.com/ggerganov/llama.cpp/tree/master/examples/baby-llama)
+- [X] Example of Falcon inference [cmp-nct/ggllm.cpp](https://github.com/cmp-nct/ggllm.cpp)
 - [X] Example of BLOOM inference [NouamaneTazi/bloomz.cpp](https://github.com/NouamaneTazi/bloomz.cpp)
 - [X] Example of RWKV inference [saharNooby/rwkv.cpp](https://github.com/saharNooby/rwkv.cpp)
-- [ ] Example of [SAM](https://github.com/facebookresearch/segment-anything) inference
-- [ ] Idea for GPU support: https://github.com/ggerganov/llama.cpp/discussions/915
+- [X] Example of SAM inference [examples/sam](https://github.com/ggerganov/ggml/tree/master/examples/sam)
+- [X] Idea for GPU support: https://github.com/ggerganov/llama.cpp/discussions/915
 - [X] Example of StableLM (GPT-NeoX) inference [examples/gpt-neox](https://github.com/ggerganov/ggml/tree/master/examples/gpt-neox)
 - [X] Example of BERT inference [skeskinen/bert.cpp](https://github.com/skeskinen/bert.cpp)
 - [X] Example of 💫 StarCoder inference [examples/starcoder](https://github.com/ggerganov/ggml/tree/master/examples/starcoder)
 - [X] Example of MPT inference [examples/mpt](https://github.com/ggerganov/ggml/tree/master/examples/mpt)
 - [X] Example of Replit inference [examples/replit](https://github.com/ggerganov/ggml/tree/master/examples/replit)
 - [X] Example of BioGPT inference [PABannier/biogpt.cpp](https://github.com/PABannier/biogpt.cpp)
-- [X] Example of Encodec inference [PABannier/encodec.cpp](https://github.com/PABannier/encodec.cpp) 
+- [X] Example of Encodec inference [PABannier/encodec.cpp](https://github.com/PABannier/encodec.cpp)
 - [X] Example of CLIP inference [monatis/clip.cpp](https://github.com/monatis/clip.cpp)
+- [X] Example of MiniGPT4 inference [Maknee/minigpt4.cpp](https://github.com/Maknee/minigpt4.cpp)
+- [X] Example of ChatGLM inference [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp)
+- [X] Example of Stable Diffusion inference [leejet/stable-diffusion.cpp](https://github.com/leejet/stable-diffusion.cpp)
 
 ## Whisper inference (example)
 
@@ -128,3 +133,4 @@ cmake -DGGML_CLBLAST=ON ..
 - [GGML - Large Language Models for Everyone](https://github.com/rustformers/llm/blob/main/crates/ggml/README.md): a description of the GGML format provided by the maintainers of the `llm` Rust crate, which provides Rust bindings for GGML
 - [marella/ctransformers](https://github.com/marella/ctransformers): Python bindings for GGML models.
 - [go-skynet/go-ggml-transformers.cpp](https://github.com/go-skynet/go-ggml-transformers.cpp): Golang bindings for GGML models
+- [smspillaz/ggml-gobject](https://github.com/smspillaz/ggml-gobject): GObject-introspectable wrapper for use of GGML on the GNOME platform.

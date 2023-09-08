@@ -1,9 +1,9 @@
 ---
 title: next-blog
-date: 2023-09-07T12:16:38+08:00
+date: 2023-09-08T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691044892876-b128d353e128?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691044892876-b128d353e128?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1690902303020-a980f1eda16b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1690902303020-a980f1eda16b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
 ---
 
 # [safak/next-blog](https://github.com/safak/next-blog)

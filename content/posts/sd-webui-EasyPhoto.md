@@ -1,9 +1,9 @@
 ---
 title: sd-webui-EasyPhoto
-date: 2023-09-07T12:17:32+08:00
+date: 2023-09-08T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692552061072-ed2832e66403?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692552061072-ed2832e66403?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
 ---
 
 # [aigc-apps/sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto)
@@ -15,6 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691979461247-915ea0b410
 English | [简体中文](./README_zh-CN.md)
 
 EasyPhoto is a Webui UI plugin for generating AI portraits that can be used to train digital doppelgangers relevant to you. Training is recommended to be done with 5 to 20 portrait images, preferably half-body photos and do not wear glasses (It doesn't matter if the characters in a few pictures wear glasses). After the training is done, we can generate it in the Inference section. We support using preset template images or uploading your own images for Inference.  
+Please read our Contributor Covenant [covenant](./COVENANT.md) | [简体中文](./COVENANT_zh-CN.md)
 
 **New features!!** 🔥🔥 We currently support multiple people generation.
 
