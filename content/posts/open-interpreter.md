@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-09-08T12:14:59+08:00
+date: 2023-09-09T12:14:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690652482777-485b5a8f6f90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690652482777-485b5a8f6f90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692815150579-e01448340982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692815150579-e01448340982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1690652482777-485b5a8f6f
 <h1 align="center">● Open Interpreter</h1>
 
 <p align="center">
-    <a href="https://discord.gg/YG7APUyJ5"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License">
+    <a href="https://discord.gg/6p3fD6rBVm"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License">
 <br>
     <b>Let language models run code on your computer.</b><br>
     An open-source, locally running implementation of OpenAI's Code Interpreter.<br>
@@ -74,7 +74,7 @@ interpreter
 ```python
 import interpreter
 
-interpreter.chat("Plot APPL and META's normalized stock prices") # Executes a single command
+interpreter.chat("Plot AAPL and META's normalized stock prices") # Executes a single command
 interpreter.chat() # Starts an interactive chat
 ```
 
@@ -156,7 +156,7 @@ print(interpreter.system_message)
 
 ### Change the Model
 
-ⓘ  **Issues running locally?** Read our new [local setup guide](/GPU.md).
+ⓘ  **Issues running locally?** Read our new [GPU setup guide](/docs/GPU.md) and [Windows setup guide](/docs/WINDOWS.md).
 
 You can run `interpreter` in local mode from the command line to use `Code Llama`:
 
@@ -224,9 +224,11 @@ Open Interpreter equips a [function-calling language model](https://platform.ope
 
 We then stream the model's messages, code, and your system's outputs to the terminal as Markdown.
 
-## Contributing
+# Contributing
 
-This is a community-made project. If it looks exciting to you, please don't hesitate to contribute!
+Thank you for your interest in contributing! We welcome involvement from the community. 
+
+Please see our [Contributing Guidelines](/docs/contributing.md) for more details on how to get involved.
 
 ## License
 

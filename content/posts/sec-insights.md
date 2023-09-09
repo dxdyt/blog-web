@@ -1,9 +1,9 @@
 ---
 title: sec-insights
-date: 2023-09-08T12:15:14+08:00
+date: 2023-09-09T12:14:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693129439612-1af473c089db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693129439612-1af473c089db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691979461383-f2425c6dfd0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691979461383-f2425c6dfd0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [run-llama/sec-insights](https://github.com/run-llama/sec-insights)

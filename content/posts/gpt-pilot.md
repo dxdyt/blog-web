@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2023-08-30T12:17:39+08:00
+date: 2023-09-09T12:14:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691434865454-f1998e81869b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691434865454-f1998e81869b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691979461383-f2425c6dfd0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691979461383-f2425c6dfd0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -45,20 +45,33 @@ The idea is that AI won't be able to (at least in the near future) create apps f
 
 Obviously, it still can't create any production-ready app but the general concept of how this could work is there.
 
+# 🔌 Requirements
+
+
+- **Python**
+- **PostgreSQL** (optional, projects default is SQLite)
+   - DB is needed for multiple reasons like continuing app development if you had to stop at any point or app crashed, going back to specific step so you can change some later steps in development, easier debugging, for future we will add functionality to update project (change some things in existing project or add new features to the project and so on)...
+
+
 # 🚦How to start using gpt-pilot?
-1. Clone the repo
+After you have Python and PostgreSQL installed, follow these steps:
+1. `git clone https://github.com/Pythagora-io/gpt-pilot.git` (clone the repo)
 2. `cd gpt-pilot`
-3. `python -m venv pilot-env`
-4. `source pilot-env/bin/activate`
-3. `pip install -r requirements.txt`
-4. `cd pilot`
-5. `mv .env.example .env`
-6. Add your OpenAI API key and the database info to the `.env` file
-7. `python main.py`
+3. `python -m venv pilot-env` (create a virtual environment)
+4. `source pilot-env/bin/activate` (activate the virtual environment)
+5. `pip install -r requirements.txt` (install the dependencies)
+6. `cd pilot`
+7. `mv .env.example .env` (create the .env file)
+8. Add your environment (OpenAI/Azure), your API key and the SQLite/PostgreSQL database info to the `.env` file
+   - to change from SQLite to PostgreSQL in your .env just set `DATABASE_TYPE=postgres`
+9. `python db_init.py` (initialize the database)
+10. `python main.py` (start GPT Pilot)
 
 After, this, you can just follow the instructions in the terminal.
 
 All generated code will be stored in the folder `workspace` inside the folder named after the app name you enter upon starting the pilot.
+
+**IMPORTANT: To run GPT Pilot, you need to have PostgreSQL set up on your machine**
 <br>
 
 # 🧑‍💻️ Other arguments
@@ -76,8 +89,12 @@ python main.py app_id=<ID_OF_THE_APP> step=<STEP_FROM_CONST_COMMON>
 ```bash
 python main.py app_id=<ID_OF_THE_APP> skip_until_dev_step=<DEV_STEP>
 ```
-This is basically the same as `step` but during the actual development process. If you want to play around with gpt-pilot, this is likely the flag you will often use
+This is basically the same as `step` but during the actual development process. If you want to play around with gpt-pilot, this is likely the flag you will often use.
 <br>
+- erase all development steps previously done and continue working on an existing app from start of development
+```bash
+python main.py app_id=<ID_OF_THE_APP> skip_until_dev_step=0
+```
 
 # 🔎 Examples
 
@@ -149,7 +166,7 @@ Other than the research, GPT Pilot needs to be debugged to work in different sce
 # 🔗 Connect with us
 🌟 As an open source tool, it would mean the world to us if you starred the GPT-pilot repo 🌟
 
-💬 Join [the Discord server](https://discord.gg/FWnRZdCb) to get in touch.
+💬 Join [the Discord server](https://discord.gg/HaqXugmxr9) to get in touch.
 <br><br>
 <br><br>
 

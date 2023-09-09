@@ -1,9 +1,9 @@
 ---
 title: sd-webui-EasyPhoto
-date: 2023-09-08T12:16:34+08:00
+date: 2023-09-09T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692552061072-ed2832e66403?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692552061072-ed2832e66403?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692815150579-e01448340982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692815150579-e01448340982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
 ---
 
 # [aigc-apps/sd-webui-EasyPhoto](https://github.com/aigc-apps/sd-webui-EasyPhoto)
@@ -17,7 +17,8 @@ English | [简体中文](./README_zh-CN.md)
 EasyPhoto is a Webui UI plugin for generating AI portraits that can be used to train digital doppelgangers relevant to you. Training is recommended to be done with 5 to 20 portrait images, preferably half-body photos and do not wear glasses (It doesn't matter if the characters in a few pictures wear glasses). After the training is done, we can generate it in the Inference section. We support using preset template images or uploading your own images for Inference.  
 Please read our Contributor Covenant [covenant](./COVENANT.md) | [简体中文](./COVENANT_zh-CN.md)
 
-**New features!!** 🔥🔥 We currently support multiple people generation.
+**New features!!** 🔥🔥 We currently support multiple people generation.    
+**New features!!** 🔥🔥🔥🔥 We currently support different base models for training and inference.   
 
 These are our generated results:
 ![results_1](images/results_1.jpg)
@@ -32,6 +33,7 @@ Our ui interface is as follows:
 ![infer_ui](images/infer_ui.jpg)
 
 # What's New
+- **Support different base models for training and inference.** [🔥🔥 2023.09.08]
 - **Support multi-people generation! Add cache option to optimize inference speed. Add log refreshing on UI.** [🔥🔥 2023.09.06]
 - Create Code! Support for Windows and Linux Now. [🔥 2023.09.02]
 
@@ -173,5 +175,10 @@ After getting the result of First Diffusion, we will fuse the result with the op
 This project is licensed under the [Apache License (Version 2.0)](https://github.com/modelscope/modelscope/blob/master/LICENSE).
 
 ## ContactUS
-Use [Dingding](https://www.dingtalk.com/) to search group 38250008552 or Scan to join
-![join](images/erweima.jpg)
+1. Use [Dingding](https://www.dingtalk.com/) to search group 38250008552 or Scan to join
+2. Use Wechat, scan the right pic to join
+
+<figure>
+<img src="images/erweima.jpg" width=300/>
+<img src="images/wechat.jpg" width=300/>
+</figure>
