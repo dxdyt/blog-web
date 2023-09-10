@@ -1,9 +1,9 @@
 ---
 title: New-Grad-Positions
-date: 2023-09-09T12:16:02+08:00
+date: 2023-09-10T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691335032737-dc0e04a16b03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691335032737-dc0e04a16b03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693778472450-ded02c16bd16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693778472450-ded02c16bd16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
 ---
 
 # [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions)
@@ -72,7 +72,8 @@ Use this repo to share and keep track of entry-level software, tech, CS, PM, qua
 
 | Company | Role | Location | Application/Link | Date Posted |
 | --- | --- | --- | :---: | :---: |
-| **[Chartboost](https://simplify.jobs/c/Chartboost)** | Software Engineer - Bidder | Remote | <a href="https://boards.greenhouse.io/chartboost/jobs/5105265?utm_source=Simplify&ref=Simplify"><img src="https://i.imgur.com/w6lyvuC.png" width="84" alt="Apply"></a> <a href="https://simplify.jobs/p/b1ae3cc1-1e0f-4ee4-871c-f2a3bbbf6cc3?utm_source=GHList"><img src="https://i.imgur.com/aVnQdox.png" width="30" alt="Simplify"></a> | Sep 08 |
+| **[Samsara](https://simplify.jobs/c/Samsara)** | Software Engineer – New Grad | Remote | <a href="https://boards.greenhouse.io/samsara/jobs/5273880?utm_source=Simplify&ref=Simplify"><img src="https://i.imgur.com/w6lyvuC.png" width="84" alt="Apply"></a> <a href="https://simplify.jobs/p/3be658f3-3aa9-481f-b33d-2bb81088788a?utm_source=GHList"><img src="https://i.imgur.com/aVnQdox.png" width="30" alt="Simplify"></a> | Sep 09 |
+| **Chartboost** | Software Engineer - Bidder | Remote | 🔒 | Sep 08 |
 | **[Wolverine Trading](https://simplify.jobs/c/wolverine-trading)** | Entry-Level Software Engineer - Immediate Start | Chicago, IL | <a href="https://jobs.lever.co/wolve/9652fd35-2a3c-4443-829d-0f13fa6e5c5a/apply?utm_source=Simplify&ref=Simplify"><img src="https://i.imgur.com/w6lyvuC.png" width="84" alt="Apply"></a> <a href="https://simplify.jobs/p/a9c870b6-c10f-45c7-9e33-b7880898beef?utm_source=GHList"><img src="https://i.imgur.com/aVnQdox.png" width="30" alt="Simplify"></a> | Sep 08 |
 | **[Wellington Management](https://simplify.jobs/c/Wellington)** | Software Engineering Track – Investment Services & Technology Early Career Program - Class of 2024 - Boston | Cambridge, MA | <a href="https://wellington.wd5.myworkdayjobs.com/Campus/job/Boston-MA-United-States/Software-Engineering-Track---Investment-Services---Technology-Early-Career-Program--Class-of-2024--Boston_R89503?utm_source=Simplify&ref=Simplify"><img src="https://i.imgur.com/w6lyvuC.png" width="84" alt="Apply"></a> <a href="https://simplify.jobs/p/ca4a0b28-9b85-4422-83f8-7a048122996a?utm_source=GHList"><img src="https://i.imgur.com/aVnQdox.png" width="30" alt="Simplify"></a> | Sep 07 |
 | **[Okta](https://simplify.jobs/c/Okta)** | Software Engineer New Grad - Customer Identity Cloud | Remote in USA | <a href="https://www.okta.com/company/careers/opportunity/5325611?gh_jid=5325611&utm_source=Simplify&ref=Simplify"><img src="https://i.imgur.com/w6lyvuC.png" width="84" alt="Apply"></a> <a href="https://simplify.jobs/p/d6946e37-7f19-4f0a-9001-387e7bc0e9cb?utm_source=GHList"><img src="https://i.imgur.com/aVnQdox.png" width="30" alt="Simplify"></a> | Sep 07 |

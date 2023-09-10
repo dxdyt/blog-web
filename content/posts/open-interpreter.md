@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-09-09T12:14:09+08:00
+date: 2023-09-10T12:14:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692815150579-e01448340982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692815150579-e01448340982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -192,6 +192,7 @@ interpreter.api_key = "your_openai_api_key"
 interpreter.azure_api_base = "your_azure_api_base"
 interpreter.azure_api_version = "your_azure_api_version"
 interpreter.azure_deployment_name = "your_azure_deployment_name"
+interpreter.azure_api_type = "azure"
 ```
 
 ### Debug mode
@@ -205,6 +206,21 @@ $ interpreter
 ...
 > %debug # <- Turns on debug mode
 ```
+
+### Configuration with .env
+Open Interpreter allows you to set default behaviors using a .env file. This provides a flexible way to configure the interpreter without changing command-line arguments every time.
+
+Here's a sample .env configuration:
+
+```
+INTERPRETER_CLI_AUTO_RUN=False
+INTERPRETER_CLI_FAST_MODE=False
+INTERPRETER_CLI_LOCAL_RUN=False
+INTERPRETER_CLI_DEBUG=False
+INTERPRETER_CLI_USE_AZURE=False
+```
+
+You can modify these values in the .env file to change the default behavior of the Open Interpreter.
 
 ## Safety Notice
 

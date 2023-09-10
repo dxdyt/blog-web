@@ -1,9 +1,9 @@
 ---
 title: Baichuan2
-date: 2023-09-09T12:14:18+08:00
+date: 2023-09-10T12:15:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693407098549-5db22714f0d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693407098549-5db22714f0d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691404126059-e03c2192d74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691404126059-e03c2192d74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
 ---
 
 # [baichuan-inc/Baichuan2](https://github.com/baichuan-inc/Baichuan2)

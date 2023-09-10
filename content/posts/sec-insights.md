@@ -1,9 +1,9 @@
 ---
 title: sec-insights
-date: 2023-09-09T12:14:55+08:00
+date: 2023-09-10T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691979461383-f2425c6dfd0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691979461383-f2425c6dfd0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
 ---
 
 # [run-llama/sec-insights](https://github.com/run-llama/sec-insights)
@@ -32,10 +32,12 @@ Use this repository as a reference when building out your own RAG application or
 
 ## Development Features 🤓
 - Infrastructure-as-code for deploying directly to [Vercel](https://vercel.com/) & [Render](https://render.com/)
+- Continuous deployments provided by Vercel & Render.com. Shipping changes is as easy as merging into your `main` branch.
+- Production & Preview environments for both Frontend & Backend deployments! Easily try your changes before release.
 - Robust local environment setup making use of [LocalStack](https://localstack.cloud/) & [Docker](https://www.docker.com/) compose
 - Monitoring & Profiling provided by [Sentry](https://sentry.io/welcome/)
 - Load Testing provided by [Loader.io](https://loader.io/)
-- Variety of python scripts for REPL-based interaction & data management
+- Variety of python scripts for REPL-based chat & data management
 
 ## Tech Stack ⚒️
 - Frontend

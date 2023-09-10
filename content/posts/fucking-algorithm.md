@@ -1,9 +1,9 @@
 ---
 title: fucking-algorithm
-date: 2023-09-09T12:15:29+08:00
+date: 2023-09-10T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692712798353-a7754b750186?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692712798353-a7754b750186?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQyMzI4Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
 ---
 
 # [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm)
