@@ -1,9 +1,9 @@
 ---
 title: sd-webui-controlnet
-date: 2023-05-16T12:17:44+08:00
+date: 2023-09-11T12:17:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12137/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12137/0/1080p
+featuredImage: https://images.unsplash.com/photo-1692735678510-03d976e6565e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0MDU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692735678510-03d976e6565e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0MDU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [Mikubill/sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)
@@ -12,7 +12,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12137/0/1080p
 
 The WebUI extension for ControlNet and other injection-based SD controls.
 
-![image](https://user-images.githubusercontent.com/19834515/235606305-229b3d1e-5bfc-467f-9d55-0976eab71652.png)
+![image](https://github.com/Mikubill/sd-webui-controlnet/assets/19834515/00787fd1-1bc5-4b90-9a23-9683f8458b85)
 
 This extension is for AUTOMATIC1111's [Stable Diffusion web UI](https://github.com/AUTOMATIC1111/stable-diffusion-webui), allows the Web UI to add [ControlNet](https://github.com/lllyasviel/ControlNet) to the original Stable Diffusion model to generate images. The addition is on-the-fly, the merging is not required.
 
@@ -28,13 +28,6 @@ This extension is for AUTOMATIC1111's [Stable Diffusion web UI](https://github.c
 8. Download models (see below).
 9. After you put models in the correct folder, you may need to refresh to see the models. The refresh button is right to your "Model" dropdown.
 
-
-**Update from ControlNet 1.0 to 1.1:**
-
-* If you are not sure, you can back up and remove the folder "stable-diffusion-webui\extensions\sd-webui-controlnet", and then start from the step 1 in the above Installation section. 
-
-* Or you can start from the step 6 in the above Install section.
-
 # Download Models
 
 Right now all the 14 models of ControlNet 1.1 are in the beta test.
@@ -43,13 +36,15 @@ Download the models from ControlNet 1.1: https://huggingface.co/lllyasviel/Contr
 
 You need to download model files ending with ".pth" .
 
-Put models in your "stable-diffusion-webui\extensions\sd-webui-controlnet\models". Now we have already included all "yaml" files. You only need to download "pth" files.
+Put models in your "stable-diffusion-webui\extensions\sd-webui-controlnet\models". You only need to download "pth" files.
 
 Do not right-click the filenames in HuggingFace website to download. Some users right-clicked those HuggingFace HTML websites and saved those HTML pages as PTH/YAML files. They are not downloading correct files. Instead, please click the small download arrow “↓” icon in HuggingFace to download.
 
-Note: If you download models elsewhere, please make sure that yaml file names and model files names are same. Please manually rename all yaml files if you download from other sources. (Some models like "shuffle" needs the yaml file so that we know the outputs of ControlNet should pass a global average pooling before injecting to SD U-Nets.)
+# Download Models for SDXL
 
-# New Features in ControlNet 1.1
+See instructions [here](https://github.com/Mikubill/sd-webui-controlnet/discussions/2039).
+
+# Features in ControlNet 1.1
 
 ### Perfect Support for All ControlNet 1.0/1.1 and T2I Adapter Models.
 
@@ -232,6 +227,8 @@ This extension adds these command line arguments to the webui:
     --controlnet-dir <path to directory with controlnet models>                                ADD a controlnet models directory
     --controlnet-annotator-models-path <path to directory with annotator model directories>    SET the directory for annotator models
     --no-half-controlnet                                                                       load controlnet models in full precision
+    --controlnet-preprocessor-cache-size                                                       Cache size for controlnet preprocessor results
+    --controlnet-loglevel                                                                      Log level for the controlnet extension
 ```
 
 # MacOS Support

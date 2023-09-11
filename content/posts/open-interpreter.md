@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-09-10T12:14:20+08:00
+date: 2023-09-11T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692735678510-03d976e6565e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0MDU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692735678510-03d976e6565e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0MDU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -11,8 +11,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1692047306544-e99d44b547
 <h1 align="center">● Open Interpreter</h1>
 
 <p align="center">
-    <a href="https://discord.gg/6p3fD6rBVm"><img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white"></a> <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License">
-<br>
+    <a href="https://discord.gg/6p3fD6rBVm">
+        <img alt="Discord" src="https://img.shields.io/discord/1146610656779440188?logo=discord&style=flat&logoColor=white">
+    </a>
+    <a href="README_JA.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"></a>
+    <a href="README_ZH.md"><img src="https://img.shields.io/badge/文档-中文版-white.svg" alt="ZH doc"></a>
+    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License">
+    <br><br>
     <b>Let language models run code on your computer.</b><br>
     An open-source, locally running implementation of OpenAI's Code Interpreter.<br>
     <br><a href="https://openinterpreter.com">Get early access to the desktop application.</a><br>
@@ -156,14 +161,6 @@ print(interpreter.system_message)
 
 ### Change the Model
 
-ⓘ  **Issues running locally?** Read our new [GPU setup guide](/docs/GPU.md) and [Windows setup guide](/docs/WINDOWS.md).
-
-You can run `interpreter` in local mode from the command line to use `Code Llama`:
-
-```shell
-interpreter --local
-```
-
 For `gpt-3.5-turbo`, use fast mode:
 
 ```shell
@@ -174,6 +171,32 @@ In Python, you will need to set the model manually:
 
 ```python
 interpreter.model = "gpt-3.5-turbo"
+```
+
+### Running Open Interpreter locally
+
+ⓘ  **Issues running locally?** Read our new [GPU setup guide](/docs/GPU.md) and [Windows setup guide](/docs/WINDOWS.md).
+
+You can run `interpreter` in local mode from the command line to use `Code Llama`:
+
+```shell
+interpreter --local
+```
+
+Or run any Hugging Face model **locally** by using its repo ID (e.g. "tiiuae/falcon-180B"):
+
+```shell
+interpreter --model tiiuae/falcon-180B
+```
+
+#### Local model params
+
+You can easily modify the `max_tokens` and `context_window` (in tokens) of locally running models.
+
+Smaller context windows will use less RAM, so we recommend trying a shorter window if GPU is failing.
+
+```shell
+interpreter --max_tokens 2000 --context_window 16000
 ```
 
 ### Azure Support
