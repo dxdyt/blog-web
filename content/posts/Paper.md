@@ -1,9 +1,9 @@
 ---
 title: Paper
-date: 2023-06-12T12:17:33+08:00
+date: 2023-09-12T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683734568726-905fe1ea73de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY1NDMzMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
 ---
 
 # [PaperMC/Paper](https://github.com/PaperMC/Paper)
@@ -14,11 +14,11 @@ Paper [![Paper Build Status](https://img.shields.io/github/actions/workflow/stat
 [![Open Collective](https://img.shields.io/opencollective/all/papermc?label=OpenCollective%20Sponsors)](https://opencollective.com/papermc)
 ===========
 
-High-performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
+The most widely used, high-performance Minecraft server that aims to fix gameplay and mechanics inconsistencies.
 
 
 **Support and Project Discussion:**
- - [Our forums](https://forums.papermc.io/), [Discord](https://discord.gg/papermc), or [IRC](https://webchat.esper.net/?channels=paper)
+- [Our forums](https://forums.papermc.io/), [Discord](https://discord.gg/papermc), or [IRC](https://webchat.esper.net/?channels=paper)
 
 How To (Server Admins)
 ------
@@ -28,34 +28,33 @@ Download Paper from our [downloads page](https://papermc.io/downloads/paper).
 
 Run the Paperclip jar directly from your server. Just like old times
 
-  * Documentation on using Paper: [docs.papermc.io](https://docs.papermc.io)
-  * For a sneak peek at upcoming features, [see here](https://github.com/PaperMC/Paper/projects)
+* Documentation on using Paper: [docs.papermc.io](https://docs.papermc.io)
+* For a sneak peek at upcoming features, [see here](https://github.com/PaperMC/Paper/projects)
 
 How To (Plugin Developers)
 ------
- * See our API patches [here](patches/api)
- * See upcoming, pending, and recently added API [here](https://github.com/PaperMC/Paper/projects/6)
- * Paper API javadocs here: [papermc.io/javadocs](https://papermc.io/javadocs/)
- * Maven Repo (for paper-api):
+* See our API patches [here](patches/api)
+* See upcoming, pending, and recently added API [here](https://github.com/orgs/PaperMC/projects/2/views/4)
+* Paper API javadocs here: [papermc.io/javadocs](https://papermc.io/javadocs/)
+#### Repository (for paper-api)
+##### Maven
+
 ```xml
 <repository>
     <id>papermc</id>
     <url>https://repo.papermc.io/repository/maven-public/</url>
 </repository>
 ```
- * Artifact Information:
+
 ```xml
 <dependency>
     <groupId>io.papermc.paper</groupId>
     <artifactId>paper-api</artifactId>
-    <version>1.20-R0.1-SNAPSHOT</version>
+    <version>1.20.1-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
- ```
-
-**Or alternatively, with Gradle:**
-
- * Repository:
+```
+##### Gradle
 ```kotlin
 repositories {
     maven {
@@ -64,7 +63,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.20-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
 }
 
 java {
@@ -86,9 +85,9 @@ See [Contributing](CONTRIBUTING.md)
 
 Support Us
 ------
-First of all, thank you for considering helping out, we really appreciate that!  
+First of all, thank you for considering helping out, we really appreciate that!
 
-PaperMC has various recurring expenses, mostly related to infrastructure. Paper uses [Open Collective](https://opencollective.com/) via the [Open Source Collective fiscal host](https://opencollective.com/opensource) to manage expenses. Open Collective allows us to be extremely transparent, so you can always see how your donations are used. You can read more about financially supporting PaperMC [on our website](https://papermc.io/sponsors).  
+PaperMC has various recurring expenses, mostly related to infrastructure. Paper uses [Open Collective](https://opencollective.com/) via the [Open Source Collective fiscal host](https://opencollective.com/opensource) to manage expenses. Open Collective allows us to be extremely transparent, so you can always see how your donations are used. You can read more about financially supporting PaperMC [on our website](https://papermc.io/sponsors).
 
 You can find our collective [here](https://opencollective.com/papermc), or you can donate via GitHub Sponsors [here](https://github.com/sponsors/PaperMC), which will also go towards the collective.
 

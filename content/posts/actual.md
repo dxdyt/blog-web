@@ -1,9 +1,9 @@
 ---
 title: actual
-date: 2023-06-28T12:19:32+08:00
+date: 2023-09-12T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687253673690-fb5e3c7e09d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687253673690-fb5e3c7e09d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692552061072-ed2832e66403?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692552061072-ed2832e66403?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
 ---
 
 # [actualbudget/actual](https://github.com/actualbudget/actual)
@@ -47,7 +47,7 @@ The Actual app is split up into a few packages:
 - desktop-client - The desktop UI
 - desktop-electron - The desktop app
 
-More information on the project structure is available in our [community documentation](https://actualbudget.org/docs/contributing/project-layout).
+More information on the project structure is available in our [community documentation](https://actualbudget.org/docs/contributing/project-details).
 
 ## Feature Requests
 

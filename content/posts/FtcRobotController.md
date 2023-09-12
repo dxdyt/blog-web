@@ -1,9 +1,9 @@
 ---
 title: FtcRobotController
-date: 2023-09-11T12:16:43+08:00
+date: 2023-09-12T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692834274887-7f7eef635e77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0MDU2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692834274887-7f7eef635e77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0MDU2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691796854007-2e7a11656da8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691796854007-2e7a11656da8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
 ---
 
 # [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController)

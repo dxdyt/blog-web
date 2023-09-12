@@ -1,9 +1,9 @@
 ---
 title: AppleJuice
-date: 2023-09-10T12:15:38+08:00
+date: 2023-09-12T12:16:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693065218141-1dde7fae63b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693065218141-1dde7fae63b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691512938804-d82fd0d0dd7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691512938804-d82fd0d0dd7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
 ---
 
 # [ECTO-1A/AppleJuice](https://github.com/ECTO-1A/AppleJuice)
@@ -43,6 +43,10 @@ $ ./fbt launch APPSRC=some_appid
 ### ESP-32
 
 Thanks to [ronaldstoner](https://github.com/ronaldstoner) for porting this over to the ESP-32
+
+### Android
+
+Check out this in-depth walk though by [Mobile Hacker](https://www.mobile-hacker.com/2023/09/07/spoof-ios-devices-with-bluetooth-pairing-messages-using-android/) about running AppleJuice on a rooted Android phone.
 
 ## About This Project
 This was created in response to the various AppleTV spoof messages being sent out during [DEF CON 31](https://techcrunch.com/2023/08/14/researcher-says-they-were-behind-iphone-popups-at-def-con/). After experiencing it first hand, I had to figure out what was happening. The existing research projects I could find (see *credits*) had great info but were both a couple years out of date with broken package dependencies, so I decided to take what I could from them and start building from there.
