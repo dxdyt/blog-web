@@ -1,12 +1,17 @@
 ---
 title: computer-science
-date: 2023-08-24T12:15:10+08:00
+date: 2023-09-13T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691009153355-4a3c897c4ce5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691009153355-4a3c897c4ce5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
 ---
 
 # [ossu/computer-science](https://github.com/ossu/computer-science)
+
+# OSSU 2023 Survey
+Hi OSSUnians,
+OSSU is conducting our first census. [Will you take 15 minutes to fill out the survey?](https://docs.google.com/forms/d/e/1FAIpQLSfrON-YAh5nza6R0wpRkkhTOke5v9xSrZ3DXzec8f93KVSXjw/viewform?usp=sf_link)
+Your responses will help us understand your learning context and needs. All responses are anonymous. All responses shape the future of OSSU. The survey will be open for 2 weeks.
 
 ![Open Source Society University (OSSU)](https://i.imgur.com/kYYCXtC.png)
 

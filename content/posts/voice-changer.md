@@ -1,9 +1,9 @@
 ---
 title: voice-changer
-date: 2023-07-07T12:19:41+08:00
+date: 2023-09-13T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687287707109-6c48c3d92c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687287707109-6c48c3d92c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692229218960-8ed454bead96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692229218960-8ed454bead96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
 ---
 
 # [w-okada/voice-changer](https://github.com/w-okada/voice-changer)
@@ -14,21 +14,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1687287707109-6c48c3d92c
 
 ## What's New!
 
-- v.1.5.3.8a
+- v.1.5.3.13
 
-  - Bugfix(test): force client device samplerate
-  - Bugfix: server device filter
+  - Improve:
+    - overwrite models when upload new model
+    - Skip pass through confirm dialog
+  - some bugfixes:
 
-- v.1.5.3.8
+- v.1.5.3.12a
 
-  - RVC: performance improvement ([PR](https://github.com/w-okada/voice-changer/pull/371) from [nadare881](https://github.com/nadare881))
-
-- v.1.5.3.7
-
-  - Feature:
-    - server device monitor
-  - Bugfix:
-    - device output recorder button is showed in server device mode.
+  - Improve:
+    - Pass through confirm dialog
+  - bugfix:
+    - server mode: change chunk size causes tune change
+    - show blank icon
 
 # VC Client とは
 
@@ -61,7 +60,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1687287707109-6c48c3d92c
 
 - 実行形式のバイナリをダウンロードして実行することができます。
 
-- チュートリアルは[こちら](tutorials/tutorial_rvc_ja_latest.md)をご覧ください。
+- チュートリアルは[こちら](tutorials/tutorial_rvc_ja_latest.md)をご覧ください。([ネットワークのトラブルシュート](https://github.com/w-okada/voice-changer/blob/master/tutorials/trouble_shoot_communication_ja.md))
+
+- [Google Colaboratory](https://github.com/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb) で簡単にお試しいただけるようになりました。左上の Open in Colab のボタンから起動できます。
+
+<img src="https://github.com/w-okada/voice-changer/assets/48346627/3f092e2d-6834-42f6-bbfd-7d389111604e" width="400" height="150">
 
 - Windows 版と Mac 版を提供しています。
 
@@ -82,17 +85,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1687287707109-6c48c3d92c
 
 - ダウンロードはこちらから。
 
-| Version    | OS  | フレームワーク                        | link                                                                                                                                                            | サポート VC                                                | サイズ |
-| ---------- | --- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | ------ |
-| v.1.5.3.8a | mac | ONNX(cpu), PyTorch(cpu,mps)           | [normal](https://drive.google.com/uc?id=1hg6lynE3wWJTNTParTa2qB2L06OL9KJ9&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC           | 794MB  |
-|            | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1C9PCu8pdafO6jJ2yCaB7x54Ls7LcM0Xc&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC | 3122MB |
-|            | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [normal](https://drive.google.com/uc?id=1bzrGhHPc9GdaRAMxkksTGtbuRLEeBx9i&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC | 3237MB |
-| v.1.5.3.8  | mac | ONNX(cpu), PyTorch(cpu,mps)           | [normal](https://drive.google.com/uc?id=1ptmjFCRDW7M0l80072JVRII5tJpF13__&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC           | 794MB  |
-|            | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=19DfeACmpnzqCVH5bIoFunS2pGPABRuso&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC | 3122MB |
-|            | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [normal](https://drive.google.com/uc?id=1AYP_hMdoeacX0KiF31Vd3oEjxwdreSbM&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC | 3237MB |
-| v.1.5.3.7  | mac | ONNX(cpu), PyTorch(cpu,mps)           | [normal](https://drive.google.com/uc?id=1HdJwgo0__vR6pAkOkekejUZJ0lu2NfDs&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC           | 794MB  |
-|            | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [normal](https://drive.google.com/uc?id=1JIF4PvKg-8HNUv_fMaXSM3AeYa-F_c4z&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC | 3237MB |
-|            | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1cJzRHmD3vk6av0Dvwj3v9Ef5KUsQYhKv&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC | 3122MB |
+| Version     | OS  | フレームワーク                        | link                                                                                                                                                            | サポート VC                                                               | サイズ |
+| ----------- | --- | ------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------ |
+| v.1.5.3.13  | mac | ONNX(cpu), PyTorch(cpu,mps)           | [google](https://drive.google.com/uc?id=1nD1jsDhqKtRt1m6LYZW9Xx02guVTYECi&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                          | 797MB  |
+|             | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [google](https://drive.google.com/uc?id=1MCqHpJEzqo17QmaTRsvg74KVh-4g8S1o&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3240MB |
+|             | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [google](https://drive.google.com/uc?id=18p5O_DBTE7296Eh-j8oi-8R5tBKxcDVB&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3125MB |
+| v.1.5.3.12a | mac | ONNX(cpu), PyTorch(cpu,mps)           | [google](https://drive.google.com/uc?id=1nD1jsDhqKtRt1m6LYZW9Xx02guVTYECi&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                          | 797MB  |
+|             | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [google](https://drive.google.com/uc?id=1MCqHpJEzqo17QmaTRsvg74KVh-4g8S1o&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3240MB |
+|             | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [google](https://drive.google.com/uc?id=18p5O_DBTE7296Eh-j8oi-8R5tBKxcDVB&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3125MB |
+| v.1.5.3.12  | mac | ONNX(cpu), PyTorch(cpu,mps)           | [google](https://drive.google.com/uc?id=1rC7IVpzfG68Ps6tBmdFIjSXvTNaUKBf6&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                          | 797MB  |
+|             | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [google](https://drive.google.com/uc?id=1OqxS_jve4qvj71DdSGOrhI8DGaEVRzgs&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3241MB |
+|             | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [google](https://drive.google.com/uc?id=1HhfmMovujzbOmvCi7WPuqQAuuo7jaM1o&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3126MB |
+| v.1.5.3.11  | mac | ONNX(cpu), PyTorch(cpu,mps)           | [google](https://drive.google.com/uc?id=1cutPICJa-PI_ww0E3ae9FCuSjY_5PnWE&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC,                         | 795MB  |
+|             | win | ONNX(cpu,cuda), PyTorch(cpu,cuda)     | [google](https://drive.google.com/uc?id=1aOkc-QhtAj11gI8i335mHhNMUSESeJ5J&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3237MB |
+|             | win | ONNX(cpu,DirectML), PyTorch(cpu,cuda) | [google](https://drive.google.com/uc?id=16g33cZ925HNty_0Hly7Aw_nXlQlgqxDC&export=download), [hugging face](https://huggingface.co/wok000/vcclient000/tree/main) | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC, DDSP-SVC, Diffusion-SVC | 3122MB |
 
 (\*1) Google Drive からダウンロードできない方は[hugging_face](https://huggingface.co/wok000/vcclient000/tree/main)からダウンロードしてみてください
 (\*2) 開発者が AMD のグラフィックボードを持っていないので動作確認していません。onnxruntime-directml を同梱しただけのものです。
@@ -197,3 +203,7 @@ Github Pages 上で実行できるため、ブラウザのみあれば様々な�
 |            | win | ONNX(cpu,cuda), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1tmTMJRRggS2Sb4goU-eHlRvUBR88RZDl&export=download) \*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, so-vits-svc 4.0v2, RVC, DDSP-SVC | 2872MB |
 | v.1.5.3.1  | mac | ONNX(cpu), PyTorch(cpu,mps)       | [normal](https://drive.google.com/uc?id=1oswF72q_cQQeXhIn6W275qLnoBAmcrR_&export=download) \*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, RVC                              | 796MB  |
 |            | win | ONNX(cpu,cuda), PyTorch(cpu,cuda) | [normal](https://drive.google.com/uc?id=1AWjDhW4w2Uljp1-9P8YUJBZsIlnhkJX2&export=download) \*1 | MMVC v.1.5.x, MMVC v.1.3.x, so-vits-svc 4.0, so-vits-svc 4.0v2, RVC, DDSP-SVC | 2872MB |
+
+# For Contributor
+
+このリポジトリは[CLA](https://raw.githubusercontent.com/w-okada/voice-changer/master/LICENSE-CLA)を設定しています。

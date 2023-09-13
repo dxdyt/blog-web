@@ -1,14 +1,14 @@
 ---
 title: rivet
-date: 2023-09-12T12:15:29+08:00
+date: 2023-09-13T12:16:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691862867327-d07c3fe827f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691862867327-d07c3fe827f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693693234092-88b36b60eb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693693234092-88b36b60eb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
 ---
 
 # [Ironclad/rivet](https://github.com/Ironclad/rivet)
 
-<h1 align="center"><img src="https://rivet.ironcladapp.com/img/Square150x150Logo.png" alt="Rivet Logo" width="32"> Rivet</h1>
+<h1 align="center"><img src="https://rivet.ironcladapp.com/img/logo-banner-wide.png" alt="Rivet Logo"></h1>
 
 [![All Contributors](https://img.shields.io/github/all-contributors/Ironclad/rivet?color=ee8449&style=flat-square)](#contributors-) ![GitHub issues](https://img.shields.io/github/issues/Ironclad/rivet) ![GitHub pull requests](https://img.shields.io/github/issues-pr/Ironclad/rivet) ![License](https://img.shields.io/github/license/Ironclad/rivet) [![Discord](https://img.shields.io/discord/1149376303070466110?style=flat&logo=discord)](https://discord.gg/qT8B2gv9Mg)
 
@@ -28,6 +28,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1691862867327-d07c3fe827
 </p>
 
 Have a question? Need some help? Check out the Rivet [Discord server](https://discord.gg/qT8B2gv9Mg)!
+
+https://github.com/Ironclad/rivet/assets/448108/ad1d5e74-fe05-444e-8da7-66a1fc5b6848
 
 - [About Rivet](#about-rivet)
   - [Rivet Application](#rivet-application)

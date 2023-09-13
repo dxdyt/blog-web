@@ -1,9 +1,9 @@
 ---
 title: clean-code-javascript
-date: 2023-09-01T12:15:33+08:00
+date: 2023-09-13T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690983178068-eb0ac76ef0b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690983178068-eb0ac76ef0b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693833500143-a209236a2fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693833500143-a209236a2fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
 ---
 
 # [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)

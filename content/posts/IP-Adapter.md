@@ -1,9 +1,9 @@
 ---
 title: IP-Adapter
-date: 2023-09-03T12:16:42+08:00
+date: 2023-09-13T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690801752850-9964e0ac3e3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690801752850-9964e0ac3e3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691955335516-8dae3002e822?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691955335516-8dae3002e822?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
 ---
 
 # [tencent-ailab/IP-Adapter](https://github.com/tencent-ailab/IP-Adapter)
@@ -25,6 +25,8 @@ we present IP-Adapter, an effective and lightweight adapter to achieve image pro
 ![arch](assets/figs/fig1.png)
 
 ## Release
+- [2023/9/08] 🔥 Update a new version of IP-Adapter with SDXL_1.0. More information can be found [here](#sdxl_10).
+- [2023/9/05] 🔥🔥🔥 IP-Adapter is supported in [WebUI](https://github.com/Mikubill/sd-webui-controlnet/discussions/2039) and [ComfyUI](https://github.com/laksjdjf/IPAdapter-ComfyUI).
 - [2023/8/30] 🔥 Add an IP-Adapter with face image as prompt. The demo is [here](ip_adapter-plus-face_demo.ipynb).
 - [2023/8/29] 🔥 Release the training code.
 - [2023/8/23] 🔥 Add code and models of IP-Adapter with fine-grained features. The demo is [here](ip_adapter-plus_demo.ipynb).
@@ -45,6 +47,8 @@ you can download models from [here](https://huggingface.co/h94/IP-Adapter). To r
 
 ## How to Use
 
+### SD_1.5
+
 - [**ip_adapter_demo**](ip_adapter_demo.ipynb): image variations, image-to-image, and inpainting with image prompt.
 - [![**ip_adapter_demo**](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tencent-ailab/IP-Adapter/blob/main/ip_adapter_demo.ipynb) 
 
@@ -54,10 +58,11 @@ you can download models from [here](https://huggingface.co/h94/IP-Adapter). To r
 
 ![inpainting](assets/demo/inpainting.jpg)
 
-- [**ip_adapter_controlnet_demo**](ip_adapter_controlnet_demo.ipynb): structural generation with image prompt.
+- [**ip_adapter_controlnet_demo**](ip_adapter_controlnet_demo_new.ipynb), [**ip_adapter_t2i-adapter**](ip_adapter_t2i-adapter_demo.ipynb): structural generation with image prompt.
 - [![**ip_adapter_controlnet_demo**](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tencent-ailab/IP-Adapter/blob/main/ip_adapter_controlnet_demo.ipynb) 
 
 ![structural_cond](assets/demo/structural_cond.jpg)
+![structural_cond2](assets/demo/t2i-adapter_demo.jpg)
 
 - [**ip_adapter_multimodal_prompts_demo**](ip_adapter_multimodal_prompts_demo.ipynb): generation with multimodal prompts.
 - [![**ip_adapter_multimodal_prompts_demo**](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tencent-ailab/IP-Adapter/blob/main/ip_adapter_multimodal_prompts_demo.ipynb) 
@@ -76,6 +81,19 @@ you can download models from [here](https://huggingface.co/h94/IP-Adapter). To r
 **Best Practice**
 - If you only use the image prompt, you can set the `scale=1.0` and `text_prompt=""`(or some generic text prompts, e.g. "best quality", you can also use any negative text prompt). If you lower the `scale`, more diverse images can be generated, but they may not be as consistent with the image prompt.
 - For multimodal prompts, you can adjust the `scale` to get the best results. In most cases, setting `scale=0.5` can get good results. For the version of SD 1.5, we recommend using community models to generate good images.
+
+### SDXL_1.0
+
+- [**ip_adapter_sdxl_demo**](ip_adapter_sdxl_demo.ipynb): image variations with image prompt.
+- [**ip_adapter_sdxl_controlnet_demo**](ip_adapter_sdxl_controlnet_demo.ipynb): structural generation with image prompt.
+
+The comparison of **IP-Adapter_XL** with [Reimagine XL](https://clipdrop.co/stable-diffusion-reimagine) is shown as follows:
+
+![sdxl_demo](assets/demo/sdxl_cmp.jpg)
+
+**Improvements in new version (2023.9.8)**:
+- **Switch to CLIP-ViT-H**: we trained the new IP-Adapter with [OpenCLIP-ViT-H-14](https://huggingface.co/laion/CLIP-ViT-H-14-laion2B-s32B-b79K) instead of [OpenCLIP-ViT-bigG-14](https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k). Although ViT-bigG is much larger than ViT-H, our experimental results did not find a significant difference, and the smaller model can reduce the memory usage in the inference phase.
+- **A Faster and better training recipe**: In our previous version, training directly at a resolution of 1024x1024 proved to be highly inefficient. However, in the new version, we have implemented a more effective two-stage training strategy. Firstly, we perform pre-training at a resolution of 512x512. Then, we employ a multi-scale strategy for fine-tuning. (Maybe this training strategy can also be used to speed up the training of controlnet).
 
 ## How to Train
 For training, you should install [accelerate](https://github.com/huggingface/accelerate) and make your own dataset into a json file.

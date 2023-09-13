@@ -1,9 +1,9 @@
 ---
 title: cs-video-courses
-date: 2023-08-27T12:16:23+08:00
+date: 2023-09-13T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691456614896-589ffa30f950?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691456614896-589ffa30f950?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxMDk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1678710022077-949f1d6219c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1678710022077-949f1d6219c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
 ---
 
 # [Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
@@ -193,7 +193,7 @@ Table of Contents
 - [Performance Evaluation of Computer Systems - IIT Madras](https://nptel.ac.in/courses/106106048/)
 - [Storage Systems - IISC Bangalore](https://nptel.ac.in/courses/106108058/)
 - [MAP6264 - Queueing Theory - FAU](http://www.cse.fau.edu/~bob/courses/map6264/)([Video Lectures](https://vimeo.com/album/171324/))
-- [EE 380 Colloquim on Computer Systems - Stanford University](http://web.stanford.edu/class/ee380/) ([Lecture videos](https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu))
+- [EE 380 Colloquium on Computer Systems - Stanford University](http://web.stanford.edu/class/ee380/) ([Lecture videos](https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu))
 
 ------------------------------
 
@@ -746,7 +746,7 @@ Table of Contents
 
 - [Performance evaluation of Computer systems - IIT Madras](https://nptel.ac.in/courses/106/106/106106048/)
 - [Real Time systems - IIT Karaghpur](https://nptel.ac.in/courses/106/105/106105036/)
-- [EE 380 Colloquim on Computer Systems - Stanford University](https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu)
+- [EE 380 Colloquium on Computer Systems - Stanford University](https://www.youtube.com/playlist?list=PLoROMvodv4rMWw6rRoeSpkiseTHzWj6vu)
 - [System storages - IISc Bangalore](https://nptel.ac.in/courses/106/108/106108058/)
 
 ------------------------------
