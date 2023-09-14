@@ -1,9 +1,9 @@
 ---
 title: aidea-server
-date: 2023-09-13T12:15:57+08:00
+date: 2023-09-14T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684010850063-add4e5fec6a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684010850063-add4e5fec6a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692646016564-233cc8f1d9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692646016564-233cc8f1d9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
 ---
 
 # [mylxsw/aidea-server](https://github.com/mylxsw/aidea-server)

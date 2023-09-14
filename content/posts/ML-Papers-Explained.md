@@ -1,9 +1,9 @@
 ---
 title: ML-Papers-Explained
-date: 2023-09-13T12:15:34+08:00
+date: 2023-09-14T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692646016564-233cc8f1d9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692646016564-233cc8f1d9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
 ---
 
 # [dair-ai/ML-Papers-Explained](https://github.com/dair-ai/ML-Papers-Explained)
@@ -42,7 +42,7 @@ Explanations to key concepts in ML
 | [OPT](https://ritvik19.medium.com/papers-explained-51-opt-dacd9406e2bd) | May 2022 | A suite of decoder-only pre-trained transformers with parameter ranges from 125M to 175B. OPT-175B being comparable to GPT-3. |
 | [BLOOM](https://ritvik19.medium.com/papers-explained-52-bloom-9654c56cd2) | November 2022 | A 176B-parameter open-access decoder-only transformer, collaboratively developed by hundreds of researchers, aiming to democratize LLM technology. |
 | [Galactica](https://ritvik19.medium.com/papers-explained-53-galactica-1308dbd318dc) | November 2022 | An LLM trained on scientific data thus specializing in scientific knowledge. |
-| [ChatGPT](https://ritvik19.medium.com/papers-explained-54-chatgpt-78387333268f) | Novemeber 2022 | An interactive model designed to engage in conversations, built on top of GPT 3.5. |
+| [ChatGPT](https://ritvik19.medium.com/papers-explained-54-chatgpt-78387333268f) | November 2022 | An interactive model designed to engage in conversations, built on top of GPT 3.5. |
 | [LLaMA](https://ritvik19.medium.com/papers-explained-55-llama-c4f302809d6b) | February 2023 | A collection of foundation LLMs by Meta ranging from 7B to 65B parameters, trained using publicly available datasets exclusively. |
 
 ## Vision Models

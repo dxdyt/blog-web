@@ -1,9 +1,9 @@
 ---
 title: voice-changer
-date: 2023-09-13T12:17:17+08:00
+date: 2023-09-14T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692229218960-8ed454bead96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692229218960-8ed454bead96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692637852896-bca5c430f47d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692637852896-bca5c430f47d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
 ---
 
 # [w-okada/voice-changer](https://github.com/w-okada/voice-changer)

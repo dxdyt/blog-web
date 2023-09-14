@@ -1,9 +1,9 @@
 ---
 title: aidea
-date: 2023-09-13T12:15:12+08:00
+date: 2023-09-14T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692229218960-8ed454bead96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692229218960-8ed454bead96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
 ---
 
 # [mylxsw/aidea](https://github.com/mylxsw/aidea)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692229218960-8ed454bead
 一款集成了主流大语言模型以及绘图模型的 APP， 采用 Flutter 开发，代码完全开源，支持以下功能：
 
 - 支持 GPT-3.5/4 问答聊天
-- 支持国产模型：通义千问，文心一言、讯飞星火
+- 支持国产模型：通义千问，文心一言、讯飞星火、商汤日日新
 - 支持开源模型：Llama2 ，ChatGLM2 ，AquilaChat 7B ，Bloomz 7B 等，后续还将开放更多
 - 支持文生图、图生图、超分辨率、黑白图片上色等功能，集成 Stable Diffusion 模型，支持 SDXL 1.0
 
@@ -60,10 +60,11 @@ Web 端：https://web.aicode.cc/
 ## APP 截图
 
 
-![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-32-34.png-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-32-42.png-thumb)
+![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-32-34.png-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-09-14_10-20-28.jpg-thumb)
 :-------------------------:|:-------------------------:
+![images](https://ssl.aicode.cc/ai-server/article/2023-09-14_10-23-30.jpg-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/2023-09-14_10-24-58.jpg-thumb) 
 ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-32-53.png-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-33-44.png-thumb) 
-![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-34-14.png-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-34-28.png-thumb) 
+![images](https://ssl.aicode.cc/ai-server/article/2023-09-14_10-22-55.jpg-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-09-14_10-21-31.jpg-thumb) 
 ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-34-42.png-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-35-01.png-thumb) 
 ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-35-33.png-thumb)  | ![images](https://ssl.aicode.cc/ai-server/article/Xnip2023-08-30_11-35-52.png-thumb)
 
