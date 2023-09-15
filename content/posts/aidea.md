@@ -1,9 +1,9 @@
 ---
 title: aidea
-date: 2023-09-14T12:15:32+08:00
+date: 2023-09-15T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692019575434-875dbfaeb023?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692019575434-875dbfaeb023?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
 ---
 
 # [mylxsw/aidea](https://github.com/mylxsw/aidea)

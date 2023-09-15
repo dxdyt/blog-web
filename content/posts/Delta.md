@@ -1,9 +1,9 @@
 ---
 title: Delta
-date: 2023-06-22T12:17:40+08:00
+date: 2023-09-15T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685329173725-73914aada9ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685329173725-73914aada9ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc0MDcyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691918517728-e540a86a7f97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691918517728-e540a86a7f97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
 ---
 
 # [apna-college/Delta](https://github.com/apna-college/Delta)

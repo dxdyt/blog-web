@@ -1,9 +1,9 @@
 ---
 title: d2l-zh
-date: 2023-09-14T12:15:40+08:00
+date: 2023-09-15T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693732288374-87ab8eec79d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693732288374-87ab8eec79d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692364795593-ae28f43e5991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692364795593-ae28f43e5991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
 ---
 
 # [d2l-ai/d2l-zh](https://github.com/d2l-ai/d2l-zh)

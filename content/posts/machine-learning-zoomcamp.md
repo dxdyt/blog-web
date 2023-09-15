@@ -1,9 +1,9 @@
 ---
 title: machine-learning-zoomcamp
-date: 2023-09-14T12:15:46+08:00
+date: 2023-09-15T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692637852896-bca5c430f47d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692637852896-bca5c430f47d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1690446955129-7248ac32faaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1690446955129-7248ac32faaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
 ---
 
 # [DataTalksClub/machine-learning-zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)

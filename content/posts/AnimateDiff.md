@@ -1,9 +1,9 @@
 ---
 title: AnimateDiff
-date: 2023-09-13T12:17:25+08:00
+date: 2023-09-15T12:16:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693833500143-a209236a2fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693833500143-a209236a2fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
 ---
 
 # [guoyww/AnimateDiff](https://github.com/guoyww/AnimateDiff)

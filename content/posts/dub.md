@@ -1,9 +1,9 @@
 ---
 title: dub
-date: 2023-09-06T12:17:43+08:00
+date: 2023-09-15T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1565915775844-9b853c814c4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1565915775844-9b853c814c4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689950106899-a684ff88224c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
 ---
 
 # [steven-tey/dub](https://github.com/steven-tey/dub)
@@ -94,6 +94,7 @@ We're planning to add a proper, well-documented self-hosting guide for Dub soon 
 - [Tinybird](https://tinybird.com/) – analytics
 - [PlanetScale](https://planetscale.com/) – database
 - [NextAuth.js](https://next-auth.js.org/) – auth
+- [BoxyHQ](https://boxyhq.com/enterprise-sso) – SSO/SAML
 - [Vercel](https://vercel.com/) – hosting
 - [Stripe](https://stripe.com/) – payments
 
