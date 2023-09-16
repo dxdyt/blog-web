@@ -1,28 +1,27 @@
 ---
 title: whisper-turbo
-date: 2023-09-15T12:15:18+08:00
+date: 2023-09-16T12:14:42+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1690446955129-7248ac32faaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1690446955129-7248ac32faaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694119548114-0427d1f51cf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694119548114-0427d1f51cf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
 ---
 
 # [FL33TW00D/whisper-turbo](https://github.com/FL33TW00D/whisper-turbo)
 
 <div align="center">
 <img width="550px" height="200px" src="https://github.com/FL33TW00D/whisper-turbo/raw/master/.github/whisper-turbo.png">
+<p><a href="https://whisper-turbo.com">Demo Site</a> | <a href="">Docs</a> | <a href="https://github.com/users/FL33TW00D/projects/1"> Roadmap </a></p>
 </div>
 
+
 ## What is Whisper Turbo?
+Whisper Turbo is a lightning-fast, **cross-platform** Whisper implementation, designed to run entirely client-side on your browser or electron app.
+Powered by Rust, WebAssembly & WebGPU, you can see ~20x real-time speeds.
 
-Whisper Turbo intends to be a **drop-in** replacement for the OpenAI Whisper API. This is built up from 3 things:
-
-1. A smooth compatibility layer for ingesting audio files of various formats and converting them to be Whisper compatible.
-2. Developer-friendly APIs for one-shot inference and streaming.
-3. The core Rust + WebGPU inference framework, Rumble, designed from the ground up for fast, cross-platform inference.
-
-## RoadMap
-
-Check out [the roadmap](https://github.com/users/FL33TW00D/projects/1).
+Being client-side, Whisper-Turbo offers a few key benefits:
+1. Real-time streaming (WIP) - simply speak into your microphone and watch the text appear in real-time like a sci-fi movie.
+2. Completely private & offline
+3. Free!*
 
 ## Supported Platforms
 
@@ -30,6 +29,8 @@ WebGPU is only currently available on stable release Chrome Version >= 113.
 Firefox & Safari do not currently ship WebGPU.
 
 Windows + MacOS are supported, Linux is not.
+Given that WebGPU is not supported on all platforms, we (intend to) offer the ability to provide your OAI key, so that
+100% of your users have the best possible experience.
 
 ## Install
 

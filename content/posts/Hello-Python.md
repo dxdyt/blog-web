@@ -1,9 +1,9 @@
 ---
 title: Hello-Python
-date: 2023-04-01T12:17:19+08:00
+date: 2023-09-16T12:16:34+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11941/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11941/0/1080p
+featuredImage: https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
 ---
 
 # [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python)
@@ -110,6 +110,12 @@ Curso en el que aprenderemos a utilizar Python para backend e implementaremos un
 * [Próximos pasos](https://youtu.be/_y9qQZXE24A?t=28484)
 
 ***ACTUALIZACIÓN Sobre la lección 18:** Deta ha actualizado ligeramente su servicio de despliegue de aplicaciones con FastAPI. Tienes toda la documentación [aquí](https://deta.space/docs/en/quickstart-guides/python#fastapi). También han creado una [guía de migración](https://deta.space/migration/guides/migrate-a-micro/).
+
+### Introducción al Testing
+
+Taller de introducción a testing con Python creado junto a [Carlos Blé](https://www.carlosble.com) y [Miguel A. Gómez](https://softwarecrafters.io), expertos en la materia.
+
+<a href="https://youtu.be/344uwF1z2Gg"><img src="http://i3.ytimg.com/vi/344uwF1z2Gg/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
 
 ### Extra: 15 curiosidades sobre Python
 
