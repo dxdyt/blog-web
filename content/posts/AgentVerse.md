@@ -1,9 +1,9 @@
 ---
 title: AgentVerse
-date: 2023-09-15T12:16:34+08:00
+date: 2023-09-17T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691918517728-e540a86a7f97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691918517728-e540a86a7f97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692335833504-4eaa26de9991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692335833504-4eaa26de9991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/AgentVerse](https://github.com/OpenBMB/AgentVerse)
@@ -27,6 +27,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1691918517728-e540a86a7f
 </p>
 
 **AgentVerse** offers a versatile framework that streamlines the process of creating custom multi-agent environments for large language models (LLMs). Designed to facilitate swift development and customization with minimal effort, our framework empowers researchers to concentrate on their research, rather than being bogged down by implementation details.
+
+我们也提供[中文版README](README_zh.md)
 
 ---
 
@@ -153,6 +155,8 @@ https://github.com/OpenBMB/AgentVerse/assets/11704492/4d07da68-f942-4205-b558-f1
 
 - [✨ Features](#-features)
 - [📰 What's New](#-whats-new)
+- [🌟 Join Us!](#-join-us)
+  - [How Can You Contribute?](#how-can-you-contribute)
 - [🗓 Coming Soon](#-coming-soon)
 - [👾 Simple Demo Video](#-simple-demo-video)
     - [NLP Classroom](#nlp-classroom)
@@ -176,6 +180,9 @@ https://github.com/OpenBMB/AgentVerse/assets/11704492/4d07da68-f942-4205-b558-f1
       - [3. Writing an Output Parser](#3-writing-an-output-parser)
   - [Customization Guide for More Complex Environments](#customization-guide-for-more-complex-environments)
 - [🔎 Examples](#-examples)
+- [Star History](#star-history)
+- [Citation](#citation)
+- [Contact](#contact)
 
 
 

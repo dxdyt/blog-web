@@ -1,9 +1,9 @@
 ---
 title: instagraph
-date: 2023-09-16T12:14:13+08:00
+date: 2023-09-17T12:14:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692521840736-5ab1ed4be17c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692521840736-5ab1ed4be17c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
 ---
 
 # [yoheinakajima/instagraph](https://github.com/yoheinakajima/instagraph)
@@ -40,30 +40,53 @@ Powered by OpenAI's GPT-3.5, this Flask application turns your text into a vivid
 To get started, you'll need Python and pip installed.
 
 #### 1. Clone the repository
+
 ```bash
 git clone https://github.com/yoheinakajima/instagraph.git
 ```
+
 #### 2. Navigate to the project directory
+
 ```bash
 cd instagraph
 ```
+
 #### 3. Install the required Python packages
+
 ```bash
 pip install -r requirements.txt
 ```
+
 #### 4. Set up your OpenAI API Key
+
 Change .env.example to .env
-''' bash
-    mv .env.example .env
-'''
+
+```text
+mv .env.example .env
+```
+
 Add your OpenAI API key to .env file:
-```bash
+
+```text
 OPENAI_API_KEY=your-api-key-here
 ```
+
+##### Optional
+
+Add Neo4J username, password and URL in the `*.env` file as well.
+
+```text
+NEO4J_USERNAME=
+NEO4J_PASSWORD=
+NEO4J_URL=
+```
+
 #### 5. Run the Flask app
+
 ```bash
 python main.py
 ```
+
    Navigate to `http://localhost:8080` to see your app running.
 
 ## Usage 🎉
@@ -87,23 +110,28 @@ python main.py
     - Method: `POST`
     - Response: Graph Data
 
+3. **GET History Data**: `/get_graph_history`
+
+    - Method: `GET`
+    - Response: Graph Data
+
 ## Contributing 🤝
 
-Best way to chat with me is on Twitter at [https://twitter.com/yoheinakajima](@yoheinakajima). I usually only code on the weekends or at night, and in pretty small chunks. I have lots ideas on what I want to add here, but obviously this would move faster with everyone. Not sure I can manage Github well given my time constraints, so please reach out if you want to help me run the Github. Now, here are a few ideas on what I think we should add based on comments...
+Best way to chat with me is on Twitter at [@yoheinakajima](https://twitter.com/yoheinakajima). I usually only code on the weekends or at night, and in pretty small chunks. I have lots ideas on what I want to add here, but obviously this would move faster with everyone. Not sure I can manage Github well given my time constraints, so please reach out if you want to help me run the Github. Now, here are a few ideas on what I think we should add based on comments...
 - ~~Store knowlege graph~~ (thx @tomasonjo! 9/13/23)
 - ~~Pull knowledge graph from storage~~ (thx @tomasonjo! 9/13/23)
 - Show history
-- Ability to combine two graphs 
+- Ability to combine two graphs
 - Ability to combine 2+ graphs from history
 - ~~Ability to expand on a graph~~ (thx @tomasonjo! 9/13/23)
 - Ability to expand on graph from specific nodes
 - Fuzzy matching of nodes for combining graphs (vector match + LLM confirmation)
 
-There are a lot of "build a chart" tools out there, so instead of doing user account and custom charts, it sounds more fun for me to work on building the largest knowlege graph ever...
+There are a lot of "build a chart" tools out there, so instead of doing user account and custom charts, it sounds more fun for me to work on building the largest knowledge graph ever...
 
 ## License 📝
 
-MIT License. See [LICENSE.md](LICENSE.md) for more information.
+MIT License. See [LICENSE](LICENSE) for more information.
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: googletest
-date: 2023-08-20T12:15:46+08:00
+date: 2023-09-17T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689473483831-dc1228b13992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689473483831-dc1228b13992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI1MDQ4Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
 ---
 
 # [google/googletest](https://github.com/google/googletest)
@@ -110,12 +110,12 @@ tools.
 In addition to many internal projects at Google, GoogleTest is also used by the
 following notable projects:
 
-*   The [Chromium projects](http://www.chromium.org/) (behind the Chrome browser
-    and Chrome OS).
-*   The [LLVM](http://llvm.org/) compiler.
+*   The [Chromium projects](https://www.chromium.org/) (behind the Chrome
+    browser and Chrome OS).
+*   The [LLVM](https://llvm.org/) compiler.
 *   [Protocol Buffers](https://github.com/google/protobuf), Google's data
     interchange format.
-*   The [OpenCV](http://opencv.org/) computer vision library.
+*   The [OpenCV](https://opencv.org/) computer vision library.
 
 ## Related Open Source Projects
 

@@ -1,9 +1,9 @@
 ---
 title: keras
-date: 2023-09-16T12:14:50+08:00
+date: 2023-09-17T12:16:00+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
 ---
 
 # [keras-team/keras](https://github.com/keras-team/keras)

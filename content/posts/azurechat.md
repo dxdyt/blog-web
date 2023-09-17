@@ -1,9 +1,9 @@
 ---
 title: azurechat
-date: 2023-09-15T12:15:36+08:00
+date: 2023-09-17T12:15:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693467855454-b12ce0cc0be9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693467855454-b12ce0cc0be9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691042416818-43d45fc48719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691042416818-43d45fc48719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/azurechat](https://github.com/microsoft/azurechat)

@@ -1,9 +1,9 @@
 ---
 title: numpy-ml
-date: 2023-08-26T12:15:55+08:00
+date: 2023-09-17T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1635777402681-ac31ca7a322c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1635777402681-ac31ca7a322c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692171709253-de4e334e84c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692171709253-de4e334e84c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
 ---
 
 # [ddbourgin/numpy-ml](https://github.com/ddbourgin/numpy-ml)
