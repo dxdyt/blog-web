@@ -1,15 +1,18 @@
 ---
 title: conference-app-2023
-date: 2023-08-17T12:14:57+08:00
+date: 2023-09-18T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690871055098-698af997ca00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690871055098-698af997ca00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693359052825-e5e1c4f852d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693359052825-e5e1c4f852d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
 ---
 
 # [DroidKaigi/conference-app-2023](https://github.com/DroidKaigi/conference-app-2023)
 
-![readme-banner](https://github.com/DroidKaigi/conference-app-2023-images/assets/1386930/22efb1a7-5a43-469c-a493-fa619034863e)
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/136104152/264391682-ae2b1067-966f-47a2-aa10-4e1ee4d09418.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/DroidKaigi/conference-app-2023-images/assets/1386930/22efb1a7-5a43-469c-a493-fa619034863e">
+  <img alt="readme-banner" src="https://github.com/DroidKaigi/conference-app-2023-images/assets/1386930/22efb1a7-5a43-469c-a493-fa619034863e">
+</picture>
 
 # DroidKaigi 2023 official app
 
@@ -19,14 +22,30 @@ featuredImagePreview: https://images.unsplash.com/photo-1690871055098-698af997ca
 
 This is a video of an app in development, and it will be updated as needed.
 
-[Screen_recording_20230805_160952.webm](https://github.com/DroidKaigi/conference-app-2023-images/assets/1386930/32968ea9-6ef8-4707-b402-0fd009cc04fe)
+<video src="https://github.com/DroidKaigi/conference-app-2023/assets/13657682/ec91d1b8-639d-4622-8371-1387be4c6bac" width="320" controls>
+  https://github.com/DroidKaigi/conference-app-2023/assets/13657682/ec91d1b8-639d-4622-8371-1387be4c6bac
+</video>
 
 # Try it out!
 
-The app is currently in preparation for release on Google Play and the App Store. In the meantime, you can try the app on DeployGate. Stay tuned for updates!
+## Android
+
+<a href="https://play.google.com/store/apps/details?id=io.github.droidkaigi.confsched2023"><img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" height="70"></a>
+
+### Development version
+
+You can test the development app through DeployGate.
 
 [<img src="https://dply.me/fim4ik/button/large" alt="Try it on your device via DeployGate">](https://dply.me/fim4ik#install)
 
+## iOS
+
+Beta version of this app is available on TestFlight.
+You can try and test this app with following public link.
+
+https://testflight.apple.com/join/1dxiwjX0
+
+In this project, distribute beta version with [Xcode Cloud](https://developer.apple.com/jp/xcode-cloud/).
 # Contributing
 
 We always welcome any and all contributions! See [CONTRIBUTING.md](CONTRIBUTING.md) for more information.

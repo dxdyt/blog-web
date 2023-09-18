@@ -1,18 +1,18 @@
 ---
 title: raylib
-date: 2023-03-23T12:19:05+08:00
+date: 2023-09-18T12:16:15+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11905/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11905/0/1080p
+featuredImage: https://images.unsplash.com/photo-1692520703852-ecfefd7eb377?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692520703852-ecfefd7eb377?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
 ---
 
 # [raysan5/raylib](https://github.com/raysan5/raylib)
 
-<img align="left" src="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" width="288px">
+<img align="left" style="width:260px" src="https://github.com/raysan5/raylib/blob/master/logo/raylib_logo_animation.gif" width="288px">
 
 **raylib is a simple and easy-to-use library to enjoy videogames programming.**
 
-raylib is highly inspired by Borland BGI graphics lib and by XNA framework and it's specially well suited for prototyping, tooling, graphical applications, embedded systems and education.
+raylib is highly inspired by Borland BGI graphics lib and by XNA framework and it's especially well suited for prototyping, tooling, graphical applications, embedded systems and education.
 
 *NOTE for ADVENTURERS: raylib is a programming library to enjoy videogames programming; no fancy interface, no visual helpers, no debug button... just coding in the most pure spartan-programmers way.*
 

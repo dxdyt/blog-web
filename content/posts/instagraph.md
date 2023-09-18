@@ -1,9 +1,9 @@
 ---
 title: instagraph
-date: 2023-09-17T12:14:29+08:00
+date: 2023-09-18T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692029861107-991b13db6ad0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
 ---
 
 # [yoheinakajima/instagraph](https://github.com/yoheinakajima/instagraph)
@@ -89,6 +89,29 @@ python main.py
 
    Navigate to `http://localhost:8080` to see your app running.
 
+## Run as Container 
+#### 1. Clone the repository
+```bash
+git clone https://github.com/yoheinakajima/instagraph.git
+```
+#### 2. Navigate to the project docker directory
+```bash
+cd instagraph/docker
+```
+
+#### 3.1 Run in Dev mode 
+
+```bash
+docker-compose -f docker-compose-dev.yml up # Add -d flag at the end to run in background/daemon mode.
+```
+#### 3.2 Run in Prod - Create the docker image
+
+- Using the `gunicorn==21.2.0` to run the application in production mode
+
+```bash
+docker-compose -f docker-compose.yml up --build -d
+```
+
 ## Usage 🎉
 
 ### Web Interface
@@ -128,6 +151,8 @@ Best way to chat with me is on Twitter at [@yoheinakajima](https://twitter.com/y
 - Fuzzy matching of nodes for combining graphs (vector match + LLM confirmation)
 
 There are a lot of "build a chart" tools out there, so instead of doing user account and custom charts, it sounds more fun for me to work on building the largest knowledge graph ever...
+
+Before creating an Issue please refer the [ISSUE_TEMPLATE](https://github.com/yoheinakajima/instagraph/tree/main/.github/ISSUE_TEMPLATE) provided.
 
 ## License 📝
 
