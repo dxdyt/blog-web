@@ -1,9 +1,9 @@
 ---
 title: instagraph
-date: 2023-09-18T12:15:53+08:00
+date: 2023-09-19T12:17:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
 ---
 
 # [yoheinakajima/instagraph](https://github.com/yoheinakajima/instagraph)
@@ -23,7 +23,7 @@ Powered by OpenAI's GPT-3.5, this Flask application turns your text into a vivid
 ## Table of Contents 📚
 
 - [Features](#features-)
-- [Installation](#installation-)
+- [Installation](#installation-%EF%B8%8F)
 - [Usage](#usage-)
 - [Contributing](#contributing-)
 - [License](#license-)
@@ -141,12 +141,12 @@ docker-compose -f docker-compose.yml up --build -d
 ## Contributing 🤝
 
 Best way to chat with me is on Twitter at [@yoheinakajima](https://twitter.com/yoheinakajima). I usually only code on the weekends or at night, and in pretty small chunks. I have lots ideas on what I want to add here, but obviously this would move faster with everyone. Not sure I can manage Github well given my time constraints, so please reach out if you want to help me run the Github. Now, here are a few ideas on what I think we should add based on comments...
-- ~~Store knowlege graph~~ (thx @tomasonjo! 9/13/23)
-- ~~Pull knowledge graph from storage~~ (thx @tomasonjo! 9/13/23)
+- ~~Store knowlege graph~~ (thx [@tomasonjo](https://github.com/tomasonjo)! 9/13/23)
+- ~~Pull knowledge graph from storage~~ (thx [@tomasonjo](https://github.com/tomasonjo)! 9/13/23)
 - Show history
 - Ability to combine two graphs
 - Ability to combine 2+ graphs from history
-- ~~Ability to expand on a graph~~ (thx @tomasonjo! 9/13/23)
+- ~~Ability to expand on a graph~~ (thx [@tomasonjo](https://github.com/tomasonjo)! 9/13/23)
 - Ability to expand on graph from specific nodes
 - Fuzzy matching of nodes for combining graphs (vector match + LLM confirmation)
 

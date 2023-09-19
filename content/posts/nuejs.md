@@ -1,9 +1,9 @@
 ---
 title: nuejs
-date: 2023-09-18T12:16:09+08:00
+date: 2023-09-19T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693817027569-908462a0bca1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693817027569-908462a0bca1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
 ---
 
 # [nuejs/nuejs](https://github.com/nuejs/nuejs)
@@ -77,7 +77,7 @@ Learn more about [styling](//nuejs.org/docs/nuejs/styling-components.html)
 ## Reactive and isomorphic
 Nue has a rich component model and it allows you to create all kinds of applications using different kinds of components:
 
-1. [Server components](//nuejs.org/docs/nuejs/server-components.html) are rendered on the server. They help you build content-focused websites that load faster without JavaScript and are crawlable by search engines.
+1. [Server components](//nuejs.org/docs/nuejs/server-components.html) are rendered on the server. They help you build content-focused websites that load faster without JavaScript and are crawled by search engines.
 
 2. [Reactive components](//nuejs.org/docs/nuejs/reactive-components.html) are rendered on the client. They help you build dynamic islands or single-page applications.
 

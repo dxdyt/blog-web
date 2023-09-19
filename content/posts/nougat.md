@@ -1,9 +1,9 @@
 ---
 title: nougat
-date: 2023-09-17T12:16:47+08:00
+date: 2023-09-19T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691678916234-34bb2512c7de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691678916234-34bb2512c7de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ5MjQwNTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694279302688-f0105563c405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694279302688-f0105563c405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/nougat](https://github.com/facebookresearch/nougat)

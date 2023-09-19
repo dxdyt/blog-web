@@ -1,9 +1,9 @@
 ---
 title: guidance
-date: 2023-09-01T12:16:38+08:00
+date: 2023-09-19T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690887060667-76eee2922806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690887060667-76eee2922806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
 ---
 
 # [guidance-ai/guidance](https://github.com/guidance-ai/guidance)

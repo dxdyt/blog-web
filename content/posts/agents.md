@@ -1,9 +1,9 @@
 ---
 title: agents
-date: 2023-09-18T12:15:09+08:00
+date: 2023-09-19T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693406493340-317db111a5b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693406493340-317db111a5b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
 ---
 
 # [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents)
@@ -82,7 +82,9 @@ _A WebUI for automatically uploading of your customized agents will be available
 We have provided exemplar config files, code, and demos for both single-agent and multi-agent systems [here](https://github.com/aiwaves-cn/agents/tree/master/examples).
 
 ### Web demos
-#### Note：Due to massive traffic,  our online demos may suffer from long queue time and unstable issues. Please follow our [quick start guide](https://github.com/aiwaves-cn/agents/blob/master/examples/README.md)) and deploy language agents locally for testing. Or checkout our [website](http://www.aiwaves-agents.com/).
+#### Note
+1.Due to massive traffic,  our online demos may suffer from long queue time and unstable issues. **Please follow our [quick start guide](https://github.com/aiwaves-cn/agents/blob/master/examples/README.md)) and deploy language agents locally for testing. Or checkout our [website](http://www.aiwaves-agents.com/)**.
+2.Software Company is unable to generate executable code online, **if you wish to generate executable code directly, please run it locally :)**
 - [Customer Service Agent](https://www.aiwaves.cn/customer-service-agent/)
 - [Debate](https://www.aiwaves.cn/debate/)
 - [Software Company](https://www.aiwaves.cn/software-company/)
@@ -112,6 +114,3 @@ If you find our repo useful in your research, please kindly consider cite:
       primaryClass={cs.CL}
 }
 ```
-
-
-

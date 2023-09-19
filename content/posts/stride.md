@@ -1,9 +1,9 @@
 ---
 title: stride
-date: 2023-09-18T12:16:02+08:00
+date: 2023-09-19T12:16:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
 ---
 
 # [stride3d/stride](https://github.com/stride3d/stride)
