@@ -1,9 +1,9 @@
 ---
 title: soybean-admin
-date: 2023-07-28T12:16:28+08:00
+date: 2023-09-20T12:16:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687791301950-972428a58aa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687791301950-972428a58aa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA1MTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
 ---
 
 # [honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin)
@@ -44,17 +44,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1687791301950-972428a58a
 
 ## 在线预览
 
-- [Soybean Admin 预览地址](https://soybean.pro/)
+- [Soybean Admin 预览地址](https://admin.soybeanjs.cn/)
 
 ## 文档
 
-- [项目文档预览地址](https://docs.soybean.pro)
+- [项目文档预览地址](https://admin-docs.soybeanjs.cn/)
 
 ## 代码仓库
 
 | 仓库           | github 地址                                                                   | gitee 镜像                                                                   | 预览                                                      |
 | -------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------- |
-| soybean-admin  | [github](https://github.com/honghuangdc/soybean-admin)                        | [gitee](https://gitee.com/honghuangdc/soybean-admin)                         | [预览](https://soybean.pro/)                              |
+| soybean-admin  | [github](https://github.com/honghuangdc/soybean-admin)                        | [gitee](https://gitee.com/honghuangdc/soybean-admin)                         | [预览](https://admin.soybeanjs.cn/)                       |
 | tauri 版       | [tauri 版](https://github.com/honghuangdc/soybean-admin/tree/tauri)           | [tauri 版](https://gitee.com/honghuangdc/soybean-admin/tree/tauri)           |                                                           |
 | 精简版         | [精简版](https://github.com/honghuangdc/soybean-admin/tree/thin)              | [精简版](https://gitee.com/honghuangdc/soybean-admin/tree/thin)              |                                                           |
 | 集成 fast-crud | [集成 fast-crud](https://github.com/honghuangdc/soybean-admin/tree/fast-crud) | [集成 fast-crud](https://gitee.com/honghuangdc/soybean-admin/tree/fast-crud) | [预览](http://fast-crud.docmirror.cn/soybean/#/crud/demo) |
@@ -133,7 +133,8 @@ pnpm build
 - Docker 部署 Soybean
 
 ```bash
-docker run --name soybean -p 80:80 -d soybeanjs/soybean-admin:v0.9.6
+docker build -t soybean-admin-image -f docker/Dockerfile .
+docker run -d -p 80:80 soybean-admin-image
 ```
 
 - 访问 SoybeanAdmin
@@ -148,7 +149,7 @@ docker run --name soybean -p 80:80 -d soybeanjs/soybean-admin:v0.9.6
 
 项目已经内置 Angular 提交规范，直接执行 commit 命令即可生成符合 Angular 提交规范的 commit。
 
-项目已用 simple-git-hooks 代替了 husky, 旧版本用了 husky，执行 pnpm soy init-git-hooks 进行初始化配置
+项目已用 simple-git-hooks 代替了 husky, 旧版本用了 husky，执行 pnpm soy init-simple-git-hooks 进行初始化配置
 
 ## 浏览器支持
 

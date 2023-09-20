@@ -1,9 +1,9 @@
 ---
 title: plane
-date: 2023-07-27T12:17:01+08:00
+date: 2023-09-20T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688843747248-4ef83aeb80a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688843747248-4ef83aeb80a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA0MzEyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
 ---
 
 # [makeplane/plane](https://github.com/makeplane/plane)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1688843747248-4ef83aeb80
 
 <p align="center">
 <a href="https://plane.so">
-  <img src="https://res.cloudinary.com/toolspacedev/image/upload/v1680596414/Plane/Plane_Icon_Blue_on_White_150x150_muysa3.jpg" alt="Plane Logo" width="70">
+  <img src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_logo_.webp" alt="Plane Logo" width="70">
 </a>
 </p>
 
@@ -21,22 +21,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1688843747248-4ef83aeb80
 
 <p align="center">
 <a href="https://discord.com/invite/A92xrEGCge">
-<img alt="Discord" src="https://img.shields.io/discord/1031547764020084846?color=5865F2&label=Discord&style=for-the-badge" />
+<img alt="Discord online members" src="https://img.shields.io/discord/1031547764020084846?color=5865F2&label=Discord&style=for-the-badge" />
 </a>
-<img alt="Discord" src="https://img.shields.io/github/commit-activity/m/makeplane/plane?style=for-the-badge" />
+<img alt="Commit activity per month" src="https://img.shields.io/github/commit-activity/m/makeplane/plane?style=for-the-badge" />
 </p>
 
 <p>
     <a href="https://app.plane.so/#gh-light-mode-only" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Screen.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_screen.webp"
         alt="Plane Screens"
         width="100%"
       />
     </a>
     <a href="https://app.plane.so/#gh-dark-mode-only" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Screens+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_screens_dark_mode.webp"
         alt="Plane Screens"
         width="100%"
       />
@@ -45,11 +45,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1688843747248-4ef83aeb80
 
 Meet [Plane](https://plane.so). An open-source software development tool to manage issues, sprints, and product roadmaps with peace of mind 🧘‍♀️.
 
-
 > Plane is still in its early days, not everything will be perfect yet, and hiccups may happen. Please let us know of any suggestions, ideas, or bugs that you encounter on our [Discord](https://discord.com/invite/A92xrEGCge) or GitHub issues, and we will use your feedback to improve on our upcoming releases.
 
 The easiest way to get started with Plane is by creating a [Plane Cloud](https://app.plane.so) account. Plane Cloud offers a hosted solution for Plane. If you prefer to self-host Plane, please refer to our [deployment documentation](https://docs.plane.so/self-hosting).
-
 
 ## ⚡️ Quick start with Docker Compose
 
@@ -66,10 +64,21 @@ chmod +x setup.sh
 - Run setup.sh
 
 ```bash
-./setup.sh http://localhost 
+./setup.sh http://localhost
 ```
 
 > If running in a cloud env replace localhost with public facing IP address of the VM
+
+- Setup Tiptap Pro
+
+  Visit [Tiptap Pro](https://collab.tiptap.dev/pro-extensions) and signup (it is free).
+
+  Create a **`.npmrc`** file, copy the following and replace your registry token generated from Tiptap Pro.
+
+```
+@tiptap-pro:registry=https://registry.tiptap.dev/
+//registry.tiptap.dev/:_authToken=YOUR_REGISTRY_TOKEN
+```
 
 - Run Docker compose up
 
@@ -77,26 +86,26 @@ chmod +x setup.sh
 docker compose up -d
 ```
 
-<strong>You can use the default email and password for your first login `captain@plane.so` and `password123`.</strong> 
+<strong>You can use the default email and password for your first login `captain@plane.so` and `password123`.</strong>
 
 ## 🚀 Features
 
-* **Issue Planning and Tracking**: Quickly create issues and add details using a powerful rich text editor that supports file uploads. Add sub-properties and references to issues for better organization and tracking.
-* **Issue Attachments**: Collaborate effectively by attaching files to issues, making it easy for your team to find and share important project-related documents.
-* **Layouts**: Customize your project view with your preferred layout - choose from List, Kanban, or Calendar to visualize your project in a way that makes sense to you.
-* **Cycles**: Plan sprints with Cycles to keep your team on track and productive. Gain insights into your project's progress with burn-down charts and other useful features.
-* **Modules**: Break down your large projects into smaller, more manageable modules. Assign modules between teams to easily track and plan your project's progress.
-* **Views**: Create custom filters to display only the issues that matter to you. Save and share your filters in just a few clicks.
-* **Pages**: Plane pages function as an AI-powered notepad, allowing you to easily document issues, cycle plans, and module details, and then synchronize them with your issues.
-* **Command K**: Enjoy a better user experience with the new Command + K menu. Easily manage and navigate through your projects from one convenient location.
-* **GitHub Sync**: Streamline your planning process by syncing your GitHub issues with Plane. Keep all your issues in one place for better tracking and collaboration.
+- **Issue Planning and Tracking**: Quickly create issues and add details using a powerful rich text editor that supports file uploads. Add sub-properties and references to issues for better organization and tracking.
+- **Issue Attachments**: Collaborate effectively by attaching files to issues, making it easy for your team to find and share important project-related documents.
+- **Layouts**: Customize your project view with your preferred layout - choose from List, Kanban, or Calendar to visualize your project in a way that makes sense to you.
+- **Cycles**: Plan sprints with Cycles to keep your team on track and productive. Gain insights into your project's progress with burn-down charts and other useful features.
+- **Modules**: Break down your large projects into smaller, more manageable modules. Assign modules between teams to easily track and plan your project's progress.
+- **Views**: Create custom filters to display only the issues that matter to you. Save and share your filters in just a few clicks.
+- **Pages**: Plane pages function as an AI-powered notepad, allowing you to easily document issues, cycle plans, and module details, and then synchronize them with your issues.
+- **Command K**: Enjoy a better user experience with the new Command + K menu. Easily manage and navigate through your projects from one convenient location.
+- **GitHub Sync**: Streamline your planning process by syncing your GitHub issues with Plane. Keep all your issues in one place for better tracking and collaboration.
 
 ## 📸 Screenshots
 
 <p>
     <a href="https://plane.so" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Views+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_views_dark_mode.webp"
         alt="Plane Views"
         width="100%"
       />
@@ -105,7 +114,7 @@ docker compose up -d
 <p>
     <a href="https://plane.so" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Issue+Detail+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_issue_detail_dark_mode.webp"
         alt="Plane Issue Details"
         width="100%"
       />
@@ -114,7 +123,7 @@ docker compose up -d
   <p>
     <a href="https://plane.so" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Cycles+%26+Modules+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_cycles_modules_dark_mode.webp"
         alt="Plane Cycles and Modules"
         width="100%"
       />
@@ -123,7 +132,7 @@ docker compose up -d
   <p>
     <a href="https://plane.so" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Analytics+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_analytics_dark_mode.webp"
         alt="Plane Analytics"
         width="100%"
       />
@@ -132,7 +141,7 @@ docker compose up -d
    <p>
     <a href="https://plane.so" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Pages+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_pages_dark_mode.webp"
         alt="Plane Pages"
         width="100%"
       />
@@ -142,14 +151,13 @@ docker compose up -d
    <p>
     <a href="https://plane.so" target="_blank">
       <img
-        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/Plane+Commad+K+Dark+Mode.png"
+        src="https://plane-marketing.s3.ap-south-1.amazonaws.com/plane-readme/plane_commad_k_dark_mode.webp"
         alt="Plane Command Menu"
         width="100%"
       />
     </a>
   </p>
 </p>
-
 
 ## 📚Documentation
 

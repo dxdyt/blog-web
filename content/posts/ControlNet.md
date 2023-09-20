@@ -1,9 +1,9 @@
 ---
 title: ControlNet
-date: 2023-05-25T12:17:07+08:00
+date: 2023-09-20T12:17:23+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12189/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12189/0/1080p
+featuredImage: https://images.unsplash.com/photo-1653664988902-dfb59391af3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1653664988902-dfb59391af3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
 ---
 
 # [lllyasviel/ControlNet](https://github.com/lllyasviel/ControlNet)
@@ -348,11 +348,11 @@ And these amazing recent projects: [InstructPix2Pix Learning to Follow Image Edi
 
     @misc{zhang2023adding,
       title={Adding Conditional Control to Text-to-Image Diffusion Models}, 
-      author={Lvmin Zhang and Maneesh Agrawala},
+      author={Lvmin Zhang and Anyi Rao and Maneesh Agrawala},
+      booktitle={IEEE International Conference on Computer Vision (ICCV)}
       year={2023},
-      eprint={2302.05543},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
     }
 
 [Arxiv Link](https://arxiv.org/abs/2302.05543)
+
+[Supplementary Materials](https://lllyasviel.github.io/misc/202309/cnet_supp.pdf)

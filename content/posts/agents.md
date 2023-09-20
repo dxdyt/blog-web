@@ -1,9 +1,9 @@
 ---
 title: agents
-date: 2023-09-19T12:16:11+08:00
+date: 2023-09-20T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691832566409-b2d9705c822a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
 ---
 
 # [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691832566409-b2d9705c82
 
 <p align="center"><a href="https://arxiv.org/pdf/2309.07870.pdf">[📄 Paper]</a>
 <a href="http://www.aiwaves-agents.com/">[🌐 Website]</a>
-<a href="#web-demos">[🤖️ Demos]</a> <a href="https://discord.gg/aNznfrYPeR">[🔥 Discord]</a> <a href='./assets/wechat.jpg'>[🔥 Wechat Group] </a>
+<a href="#web-demos">[🤖️ Demos]</a> <a href="https://discord.gg/DDPBeFt7">[🔥 Discord]</a> <a href='./assets/wechat.jpg'>[🔥 Wechat Group] </a>
 </p>
  </p>
 <hr>
@@ -30,7 +30,7 @@ One major difference between **Agents** and other existing frameworks for langua
 ## 📢 Updates
 
 - [ ] Support LLM-based SOP generation
-- [x] 2023.9.12 Offical Release
+- [x] 2023.9.12 Official Release
 
 ## 💡 Highlights
 
@@ -93,6 +93,10 @@ We have provided exemplar config files, code, and demos for both single-agent an
 
 ## Contributing to Agents
 We appreciate your interest in contributing to our open-source initiative. Please feel free to submit a PR or share your thoughts on how to improve the library in Issues!
+
+## Note：
+1. When running the code, we will download an embedding model, which will cause the code to run slowly. We will adjust it to the API interface later
+2. Currently, the shopping assistant cannot be used. We will replace the API later. Stay tuned
 
 
 ## 📚 Documentation

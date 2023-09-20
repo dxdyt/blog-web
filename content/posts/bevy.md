@@ -1,9 +1,9 @@
 ---
 title: bevy
-date: 2023-09-18T12:17:17+08:00
+date: 2023-09-20T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693833897288-4bcb88f5f777?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693833897288-4bcb88f5f777?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694537745686-c5dc254c0c68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694537745686-c5dc254c0c68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
 ---
 
 # [bevyengine/bevy](https://github.com/bevyengine/bevy)

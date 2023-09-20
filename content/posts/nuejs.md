@@ -1,9 +1,9 @@
 ---
 title: nuejs
-date: 2023-09-19T12:16:48+08:00
+date: 2023-09-20T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1653664988902-dfb59391af3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1653664988902-dfb59391af3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
 ---
 
 # [nuejs/nuejs](https://github.com/nuejs/nuejs)
@@ -25,12 +25,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1693057891644-3765385db3
 Nue JS is an exceptionally small (2.3kb minzipped) JavaScript library for building web interfaces. It is the core of the upcoming [Nue ecosystem](//nuejs.org/ecosystem/). It’s like **Vue.js, React.js**, or **Svelte** but there are no hooks, effects, props, portals, watchers, provides, injects, suspension, or other unusual abstractions on your way. Learn the basics of HTML, CSS, and JavaScript and you are good to go.
 
 
-## Build user interfaces with 10x less code
+## Build user interfaces with less code
 The biggest benefit of Nue is that you need less code to do the same thing:
 
-![The amount of code required to build a basic listbox UI component](https://nuejs.org/docs/img/react-listbox-big.jpg)
+![The amount of code required to build a basic listbox UI component](https://nuejs.org/docs/img/react-listbox.jpg?1)
 
-It's not unusual to see 10x differences in the amount of code you need to write. For example, a listbox component written with Nue is around [ten times smaller](//nuejs.org/compare/component.html) than the [React version](https://headlessui.com/react/listbox) from the Headless UI project.
+It's not unusual to see 2x-10x differences in the amount of code you need to write. For example, a listbox component written with Nue is around [ten times smaller](//nuejs.org/compare/component.html) than the [React version](https://headlessui.com/react/listbox) from the Headless UI project.
 
 
 ## "It's just HTML"
@@ -41,7 +41,7 @@ Nue uses an HTML-based template syntax:
   <img src="{ img }">
   <aside>
     <h3>{ title }</h3>
-    <p :if="desc">{ desc }</h3>
+    <p :if="desc">{ desc }</p>
     <slot/>
   </aside>
 </div>
