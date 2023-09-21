@@ -1,9 +1,9 @@
 ---
 title: beyla
-date: 2023-09-20T12:17:33+08:00
+date: 2023-09-21T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693523783087-e75073f36860?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693523783087-e75073f36860?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694659694812-6d46a6d43040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694659694812-6d46a6d43040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
 ---
 
 # [grafana/beyla](https://github.com/grafana/beyla)

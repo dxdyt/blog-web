@@ -1,9 +1,9 @@
 ---
 title: LLM-Agent-Paper-List
-date: 2023-09-20T12:16:39+08:00
+date: 2023-09-21T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693569444434-85aa71939cd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693569444434-85aa71939cd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1689800226628-5d5a8a83093b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1689800226628-5d5a8a83093b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
 ---
 
 # [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693569444434-85aa71939c
 🏃 **Comming soon: Add one-sentence intro to each paper.**
 
 ## 🔔 News
-- 🥳 [2023/09/20] This project has been listed on [Github Trendings](https://github.com/trending)!  It is a great honor!
+- 🥳 [2023/09/20] This project has been listed on [GitHub Trendings](https://github.com/trending)!  It is a great honor!
 - 💥 [2023/09/15] Our survey is released! See [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864) for the paper!
 - ✨ [2023/09/14] We create this repository to maintain a paper list on LLM-based agents. More papers are coming soon!
 
@@ -79,6 +79,7 @@ Finally, we discuss a range of key topics and open problems within the field.
   - [Citation](#citation)
   - [Project Maintainers \& Contributors](#project-maintainers--contributors)
   - [Contact](#contact)
+  - [Star History](#star-history)
 
 
 
@@ -574,3 +575,10 @@ If you find this repository useful, please cite our paper:
 
 ## Contact
 - Zhiheng Xi: zhxi22@m.fudan.edu.cn
+
+
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=WooooDyy/LLM-Agent-Paper-List&type=Date)](https://star-history.com/#WooooDyy/LLM-Agent-Paper-List&Date)
+

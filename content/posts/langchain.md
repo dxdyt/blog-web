@@ -1,9 +1,9 @@
 ---
 title: langchain
-date: 2023-09-08T12:16:57+08:00
+date: 2023-09-21T12:18:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691689761414-aa400ea9cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691689761414-aa400ea9cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1677637688405-fa8a3cb3597c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1677637688405-fa8a3cb3597c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
 ---
 
 # [langchain-ai/langchain](https://github.com/langchain-ai/langchain)

@@ -1,9 +1,9 @@
 ---
 title: awesome-for-beginners
-date: 2023-07-11T12:18:32+08:00
+date: 2023-09-21T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687778682351-99d1e0f8f1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687778682351-99d1e0f8f1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkwNDkwMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692842717484-7ce7e6134345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692842717484-7ce7e6134345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
 ---
 
 # [MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)

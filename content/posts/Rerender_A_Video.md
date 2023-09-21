@@ -1,9 +1,9 @@
 ---
 title: Rerender_A_Video
-date: 2023-09-20T12:15:30+08:00
+date: 2023-09-21T12:15:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693040516624-a22f0906faab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693040516624-a22f0906faab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692842717484-7ce7e6134345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692842717484-7ce7e6134345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
 ---
 
 # [williamyang1991/Rerender_A_Video](https://github.com/williamyang1991/Rerender_A_Video)
@@ -68,6 +68,7 @@ You can also create a new conda environment from scratch.
 conda env create -f environment.yml
 conda activate rerender
 ```
+24GB VRAM is required. Please refer to https://github.com/williamyang1991/Rerender_A_Video/pull/23#issue-1900789461 to reduce memory consumption.
 
 3. Run the installation script. The required models will be downloaded in `./models`.
 
@@ -93,11 +94,13 @@ python rerender.py --cfg config/real2sculpture.json
 <details>
 <summary>Installation Fails?</summary>
 
-1. `FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.bin' or 'xxxx.jpg'`: In case building ebsynth fails, we provides our complied [ebsynth](https://drive.google.com/drive/folders/1oSB3imKwZGz69q2unBUfcgmQpzwccoyD?usp=sharing)
-2. `KeyError: 'dataset'`: upgrade Gradio to the latest version (https://github.com/williamyang1991/Rerender_A_Video/issues/14#issuecomment-1722778672)
-3. Error when processing videos: manually install ffmpeg (https://github.com/williamyang1991/Rerender_A_Video/issues/19#issuecomment-1723685825, https://github.com/williamyang1991/Rerender_A_Video/issues/29#issuecomment-1726091112)
-4. `ERR_ADDRESS_INVALID` Cannot open the webUI in browser: replace 0.0.0.0 with 127.0.0.1 in webUI.py (https://github.com/williamyang1991/Rerender_A_Video/issues/19#issuecomment-1723685825)
-5. `CUDA out of memory`: (https://github.com/williamyang1991/Rerender_A_Video/pull/23#issue-1900789461)
+1. In case building ebsynth fails, we provides our complied [ebsynth](https://drive.google.com/drive/folders/1oSB3imKwZGz69q2unBUfcgmQpzwccoyD?usp=sharing)
+2. `FileNotFoundError: [Errno 2] No such file or directory: 'xxxx.bin' or 'xxxx.jpg'`: make sure your path only contains English letters or _ (https://github.com/williamyang1991/Rerender_A_Video/issues/18#issuecomment-1723361433)
+3. `KeyError: 'dataset'`: upgrade Gradio to the latest version (https://github.com/williamyang1991/Rerender_A_Video/issues/14#issuecomment-1722778672)
+4. Error when processing videos: manually install ffmpeg (https://github.com/williamyang1991/Rerender_A_Video/issues/19#issuecomment-1723685825, https://github.com/williamyang1991/Rerender_A_Video/issues/29#issuecomment-1726091112)
+5. `ERR_ADDRESS_INVALID` Cannot open the webUI in browser: replace 0.0.0.0 with 127.0.0.1 in webUI.py (https://github.com/williamyang1991/Rerender_A_Video/issues/19#issuecomment-1723685825)
+6. `CUDA out of memory`: (https://github.com/williamyang1991/Rerender_A_Video/pull/23#issue-1900789461)
+7. `AttributeError: module 'keras.backend' has no attribute 'is_tensor'`: update einops (https://github.com/williamyang1991/Rerender_A_Video/issues/26#issuecomment-1726682446)
  
 </details>
 

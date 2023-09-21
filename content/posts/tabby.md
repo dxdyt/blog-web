@@ -1,9 +1,9 @@
 ---
 title: tabby
-date: 2023-09-20T12:18:25+08:00
+date: 2023-09-21T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693040516624-a22f0906faab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693040516624-a22f0906faab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693155105117-944446f4df14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693155105117-944446f4df14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
 ---
 
 # [TabbyML/tabby](https://github.com/TabbyML/tabby)
