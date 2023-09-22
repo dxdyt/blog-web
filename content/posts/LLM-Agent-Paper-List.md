@@ -1,9 +1,9 @@
 ---
 title: LLM-Agent-Paper-List
-date: 2023-09-21T12:17:36+08:00
+date: 2023-09-22T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689800226628-5d5a8a83093b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689800226628-5d5a8a83093b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693333962626-4c8a65c530ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693333962626-4c8a65c530ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
 ---
 
 # [WooooDyy/LLM-Agent-Paper-List](https://github.com/WooooDyy/LLM-Agent-Paper-List)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1689800226628-5d5a8a8309
 
 🔥 **Must-read papers for LLM-based agents.**
 
-🏃 **Comming soon: Add one-sentence intro to each paper.**
+🏃 **Coming soon: Add one-sentence intro to each paper.**
 
 ## 🔔 News
 - 🥳 [2023/09/20] This project has been listed on [GitHub Trendings](https://github.com/trending)!  It is a great honor!

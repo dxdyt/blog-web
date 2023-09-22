@@ -1,9 +1,9 @@
 ---
 title: ProPainter
-date: 2023-09-21T12:17:09+08:00
+date: 2023-09-22T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693155105117-944446f4df14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693155105117-944446f4df14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693911912512-e23d33441415?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693911912512-e23d33441415?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
 ---
 
 # [sczhou/ProPainter](https://github.com/sczhou/ProPainter)
@@ -173,7 +173,7 @@ Video inpainting typically requires a significant amount of GPU memory. Here, we
    - Set the `--resize_ratio` (default 1.0) to resize the processing video.
    - Set a smaller video size via specifying the `--width` and `--height`.
    - Set `--fp16` to use fp16 (half precision) during inference.
-   - Reduce the frames of sub-videos `--subvideo_lentgh` (default 80), which effectively decouples GPU memory costs and video length. (coming soon!)
+   - Reduce the frames of sub-videos `--subvideo_length` (default 80), which effectively decouples GPU memory costs and video length.
 
 Blow shows the estimated GPU memory requirements for different sub-video lengths with fp32/fp16 precision: 
 
@@ -206,7 +206,7 @@ Blow shows the estimated GPU memory requirements for different sub-video lengths
   </tr>
   <tr>
     <td>Masks</td>
-    <td colspan="2"> [<a href="https://drive.google.com/file/d/1dFTneS_zaJAHjglxU10gYzr1-xALgHa4/view?usp=sharing">Google Drive</a>] [<a href="https://pan.baidu.com/s/1JC-UKmlQfjhVtD81196cxA?pwd=87e3">Baidu Disk</a>] (For reproducing paper results; provided in <a href="https://github.com/MCG-NKU/E2FGVI">E<sup>2</sup>FGVI</a> paper) </td>
+    <td colspan="2"> [<a href="https://drive.google.com/file/d/1dFTneS_zaJAHjglxU10gYzr1-xALgHa4/view?usp=sharing">Google Drive</a>] [<a href="https://pan.baidu.com/s/1JC-UKmlQfjhVtD81196cxA?pwd=87e3">Baidu Disk</a>] (For reproducing paper results; provided in <a href="https://arxiv.org/abs/2309.03897">ProPainter</a> paper) </td>
   </tr>
 </tbody>
 </table>

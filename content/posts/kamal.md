@@ -1,9 +1,9 @@
 ---
 title: kamal
-date: 2023-09-21T12:16:05+08:00
+date: 2023-09-22T12:16:21+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1677637688405-fa8a3cb3597c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1677637688405-fa8a3cb3597c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693176257987-5edc35e6a95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693176257987-5edc35e6a95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
 ---
 
 # [basecamp/kamal](https://github.com/basecamp/kamal)

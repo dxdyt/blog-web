@@ -1,9 +1,9 @@
 ---
 title: Dark-Web-Archives
-date: 2023-03-22T16:03:52+08:00
+date: 2023-09-22T12:17:19+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://images.unsplash.com/photo-1693745200812-38873ef7478f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693745200812-38873ef7478f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
 ---
 
 # [D4RK-R4BB1T/Dark-Web-Archives](https://github.com/D4RK-R4BB1T/Dark-Web-Archives)
@@ -16,9 +16,9 @@ This archive will be a place for researchers, law enforcemet and etc to study DN
 Tor/I2P to find them, do research and etc. We'll do that for you. In this archive you can find everything found below and than some. You may have questions which will be answered in the FAQ Below the contents
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Update: 
 
-# Update: Fixed CannaHome, Ekmer's script, Solaris is being a bitch so don't expect it to work properly. Everything else should.
-
+Solis is still broken & I do not plan to fix the huge 3-Line JavaScript Issues. All Files are restored locally =) in my absense the repo will be updated as time goes forward.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 What can you find here:
 

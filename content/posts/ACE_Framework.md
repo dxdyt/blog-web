@@ -1,9 +1,9 @@
 ---
 title: ACE_Framework
-date: 2023-09-20T12:16:49+08:00
+date: 2023-09-22T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1673235966910-f2a443bdbaaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1673235966910-f2a443bdbaaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693851505426-c183d5f7d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693851505426-c183d5f7d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
 ---
 
 # [daveshap/ACE_Framework](https://github.com/daveshap/ACE_Framework)
@@ -38,3 +38,24 @@ Please check out the following files and locations for more details about partic
 <img alt="tldraw" src="https://raw.githubusercontent.com/daveshap/ACE_Framework/main/images/ACE%20Framework%20Overall%20Architecture.png" />
 </picture>
 </div>
+
+## Projects
+
+There are many possible implementations of the ACE Framework. Rather than detail every possible permutation, here is a list of categories that we perceive as likely and viable.
+
+1. **Personal Assistant and/or Companion**
+   - This is a self-contained version of ACE that is intended to interact with one user. 
+   - Think of Cortana from HALO, Samantha from HER, or Joi from Blade Runner 2049. (yes, we recognize these are all sexualized female avatars)
+   - The idea would be to create something that is effectively a personal Executive Assistant that is able to coordinate, plan, research, and solve problems for you.
+   - This could be deployed on mobile, smart home devices, laptops, or web sites.
+2. **Game World NPC's**
+   - This is a kind of game character that has their own personality, motivations, agenda, and objectives. Furthermore, they would have their own unique memories.
+   - This can give NPCs a much more realistic ability to pursue their own objectives, which should make game experiences much more dynamic and unpredictable, thus raising novelty.
+   - These can be adapted to 2D or 3D game engines such as PyGame, Unity, or Unreal.
+3. **Autonomous Employee**
+   - This is a version of the ACE that is meant to carry out meaningful and productive work inside a corporation.
+   - Whether this is a digital CSR or backoffice worker depends on the deployment.
+   - It could also be a "digital team member" that primarily interacts via Discord, Slack, or Microsoft Teams.
+4. **Embodied Robot**
+   - The ACE Framework is ideal to create self-contained, autonomous machines.
+   - Whether they are domestic aid robots or something like WALL-E
