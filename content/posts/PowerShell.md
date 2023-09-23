@@ -1,9 +1,9 @@
 ---
 title: PowerShell
-date: 2023-09-22T12:15:14+08:00
+date: 2023-09-23T12:14:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693176257987-5edc35e6a95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693176257987-5edc35e6a95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693432576099-0ec959b2c88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693432576099-0ec959b2c88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
 ---
 
 # [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)

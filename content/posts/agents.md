@@ -1,9 +1,9 @@
 ---
 title: agents
-date: 2023-09-22T12:17:13+08:00
+date: 2023-09-23T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692810716297-1a78e9157cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692810716297-1a78e9157cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693432576099-0ec959b2c88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693432576099-0ec959b2c88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
 ---
 
 # [aiwaves-cn/agents](https://github.com/aiwaves-cn/agents)

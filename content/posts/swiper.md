@@ -1,9 +1,9 @@
 ---
 title: swiper
-date: 2023-09-22T12:16:12+08:00
+date: 2023-09-23T12:15:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693851505426-c183d5f7d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693851505426-c183d5f7d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692452376160-14194abefba8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692452376160-14194abefba8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
 ---
 
 # [nolimits4web/swiper](https://github.com/nolimits4web/swiper)

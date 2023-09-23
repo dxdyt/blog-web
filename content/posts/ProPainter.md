@@ -1,9 +1,9 @@
 ---
 title: ProPainter
-date: 2023-09-22T12:16:30+08:00
+date: 2023-09-23T12:15:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693911912512-e23d33441415?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693911912512-e23d33441415?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
 ---
 
 # [sczhou/ProPainter](https://github.com/sczhou/ProPainter)

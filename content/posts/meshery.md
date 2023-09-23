@@ -1,9 +1,9 @@
 ---
 title: meshery
-date: 2023-09-22T12:16:56+08:00
+date: 2023-09-23T12:16:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1524130624025-7471ffa6e149?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1524130624025-7471ffa6e149?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUzNTYwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692055650839-0c6d9ccc69d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692055650839-0c6d9ccc69d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
 ---
 
 # [meshery/meshery](https://github.com/meshery/meshery)
@@ -26,7 +26,7 @@ alt="Meshery Logo" width="70%" /></picture></a><br /><br /></p>
 <a href="https://goreportcard.com/report/github.com/meshery/meshery" alt="Go Report Card">
   <img src="https://goreportcard.com/badge/github.com/meshery/meshery" /></a>
 <a href="https://github.com/meshery/meshery/actions" alt="Build Status">
-  <img src="https://img.shields.io/github/actions/workflow/status/meshery/meshery/build-and-release-stable.yml?branch=master" /></a>
+  <img src="https://img.shields.io/github/actions/workflow/status/meshery/meshery/release-drafter.yml" /></a>
 <a href="https://bestpractices.coreinfrastructure.org/projects/3564" alt="CLI Best Practices">
   <img src="https://bestpractices.coreinfrastructure.org/projects/3564/badge" /></a>
 <a href="http://discuss.meshery.io" alt="Discuss Users">
@@ -37,8 +37,9 @@ alt="Meshery Logo" width="70%" /></picture></a><br /><br /></p>
   <img src="https://img.shields.io/twitter/follow/mesheryio.svg?label=Follow+Meshery&style=social" /></a>
 <a href="https://github.com/meshery/meshery/releases" alt="Meshery Downloads">
   <img src="https://img.shields.io/github/downloads/meshery/meshery/total" /></a>  
-<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fmeshery%2Fmeshery?ref=badge_shield" alt="License Scan Report">
+<!-- <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fmeshery%2Fmeshery?ref=badge_shield" alt="License Scan Report">
   <img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmeshery%2Fmeshery.svg?type=shield"/></a>  
+  -->
 </p>
 
 <h5><p align="center"><i>If you’re using Meshery or if you like the project, please <a href="https://github.com/meshery/meshery/stargazers">★</a> this repository to show your support! 🤩</i></p></h5>
@@ -59,7 +60,7 @@ A self-service engineering platform, <a href="https://meshery.io">Meshery</a>, i
 <!-- [Meshery](https://meshery.io) is the cloud native management plane offering lifecycle, configuration, and performance management of Kubernetes, service meshes, and your workloads. -->
 <div align="center" width="100%">
 <a href="https://youtu.be/Do7htKrRzDA"><img src="https://play.meshery.io/static/media/meshery-playground-meshmap.5242722a8cd9c3855f42.png" width="800px" /></a>
- <br /><a href="https://youtu.be/Do7htKrRzDA">Click to see Meshery Playground video</a>
+ <br />Try Meshery in the <a href="https://play.meshery.io">CNCF Playground</a> (<a href="https://youtu.be/Do7htKrRzDA">teaser video</a>)
 </div>
 
 <br />
@@ -89,9 +90,7 @@ A self-service engineering platform, <a href="https://meshery.io">Meshery</a>, i
 
 <p style="clear:both;">
 <h2>Cloud Native Lifecycle Management</h2>
-Meshery manages the provisioning, configuration and operation of your Kubernetes clusters while supporting hundreds of different types of cloud native infrastructure integrations.
-
-Meshery also offers a [catalog of curated design templates](https://meshery.io/catalog) filled with configuration best practices.
+Meshery manages the provisioning, configuration and operation of your Kubernetes clusters while supporting hundreds of different types of cloud native infrastructure integrations. Meshery also offers a [catalog of curated design templates](https://meshery.io/catalog) filled with configuration best practices.
 
 Using a GitOps-centric approach, visually and collaboratively design and manage your infrastructure and microservices. Use Meshery to interoperate your various cloud native systems. With both REST and GraphQL APIs, integrating with Meshery as an extensible platform is facilitated through NATS, CloudEvents, and gRPC.
 
@@ -104,6 +103,7 @@ Using a GitOps-centric approach, visually and collaboratively design and manage 
 <h2>Multi-Cluster Kubernetes and Cloud Native Configuration Management</h2>
 <p>Meshery supports <a href="https://meshery.io/integrations">220+ cloud native integrations</a>.</p>
 
+<!-- 
 <h3><a name="iac"></a>Supported Cloud Native Infrastructure and Applications</h3>
 
 <details>
@@ -200,8 +200,8 @@ Using a GitOps-centric approach, visually and collaboratively design and manage 
   </p>
  </div>
 </div>
- </details>
-<p style="clear:both;">&nbsp;</p>
+</details>
+<p style="clear:both;">&nbsp;</p> -->
 
 Assess your cloud native infrastructure configuration against deployment and operational best practices with Meshery's configuration validator. Manage your workloads with confidence. Check your Kubernetes configuration for anti-patterns and avoid common pitfalls.
 
