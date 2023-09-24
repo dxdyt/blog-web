@@ -1,9 +1,9 @@
 ---
 title: metabase
-date: 2023-07-23T12:17:21+08:00
+date: 2023-09-24T12:15:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688629155608-dc9e2546f7ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688629155608-dc9e2546f7ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAwODU2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692316647214-f8dc224626b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692316647214-f8dc224626b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
 ---
 
 # [metabase/metabase](https://github.com/metabase/metabase)
@@ -43,7 +43,40 @@ Metabase can be run just about anywhere. Check out our [Installation Guides](htt
 
 ## Contributing
 
-To get started with a development installation of the Metabase, check out our [Developers Guide](https://www.metabase.com/docs/latest/developers-guide/start).
+## Quick Setup: Dev environment
+
+In order to spin up a development environment, you need to start the front end and the backend as follows:
+
+### Frontend quick setup
+
+The following command will install the Javascript dependencies:
+
+```
+$ yarn install
+```
+
+To build and run without watching changes:
+
+```
+$ yarn build
+```
+
+To build and run with hot-reload:
+
+```
+$ yarn build-hot 
+```
+
+### Backend  quick setup
+
+In order to run the backend, you'll need to build the drivers first, and then start the backend:
+
+```
+$ ./bin/build-drivers.sh
+$ clojure -M:run
+```
+
+For a more detailed setup of a dev environment for Metabase, check out our [Developers Guide](./docs/developers-guide/start.md).
 
 ## Internationalization
 

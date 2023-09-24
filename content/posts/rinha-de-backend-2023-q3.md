@@ -1,9 +1,9 @@
 ---
 title: rinha-de-backend-2023-q3
-date: 2023-09-07T12:15:20+08:00
+date: 2023-09-24T12:17:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694114183217-5eadf97f55fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694114183217-5eadf97f55fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
 ---
 
 # [zanfranceschi/rinha-de-backend-2023-q3](https://github.com/zanfranceschi/rinha-de-backend-2023-q3)

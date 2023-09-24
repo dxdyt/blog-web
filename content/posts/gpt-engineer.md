@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-08-18T12:16:20+08:00
+date: 2023-09-24T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1542901688-28df1677a8a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1542901688-28df1677a8a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIzMzIwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694857936498-4a94ffcafb6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694857936498-4a94ffcafb6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -14,12 +14,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1542901688-28df1677a8a0?
 [![GitHub Repo stars](https://img.shields.io/github/stars/AntonOsika/gpt-engineer?style=social)](https://github.com/AntonOsika/gpt-engineer)
 [![Twitter Follow](https://img.shields.io/twitter/follow/antonosika?style=social)](https://twitter.com/AntonOsika)
 
-
 **Specify what you want it to build, the AI asks for clarification, and then builds it.**
 
 GPT Engineer is made to be easy to adapt, extend, and make your agent learn how you want your code to look. It generates an entire codebase based on a prompt.
 
-[Demo](https://twitter.com/antonosika/status/1667641038104674306)
+- [Demo](https://twitter.com/antonosika/status/1667641038104674306)
 
 ## Project philosophy
 
@@ -28,10 +27,10 @@ GPT Engineer is made to be easy to adapt, extend, and make your agent learn how 
 - Incrementally build towards a user experience of:
   1. high level prompting
   2. giving feedback to the AI that it will remember over time
-- Fast handovers back and forth between AI and human
+- Fast handovers, back and forth, between AI and human
 - Simplicity, all computation is "resumable" and persisted to the filesystem
 
-## Usage
+## Setup
 
 Choose either **stable** or **development**.
 
@@ -46,28 +45,47 @@ For **development**:
   - (or: `make install && source venv/bin/activate` for a venv)
 
 **API Key**
-Either just:
-- `export OPENAI_API_KEY=[your api key]`
 
-Or:
-- Create a copy of `.env.template` named `.env`
-- Add your OPENAI_API_KEY in .env
+Choose **one** of:
+- Export env variable (you can add this to .bashrc so that you don't have to do it each time you start the terminal)
+    - `export OPENAI_API_KEY=[your api key]`
+- .env file:
+    - Create a copy of `.env.template` named `.env`
+    - Add your OPENAI_API_KEY in .env
+- Custom model:
+    - See [docs](https://gpt-engineer.readthedocs.io/en/latest/open_models.html), supports local model, azure, etc.
 
 Check the [Windows README](./WINDOWS_README.md) for windows usage.
 
-**Running**
+## Usage
 
-- Create an empty folder. If inside the repo, you can run:
-  - `cp -r projects/example/ projects/my-new-project`
-- Fill in the `prompt` file in your new folder
-- `gpt-engineer projects/my-new-project`
-  - (Note, `gpt-engineer --help` lets you see all available options. For example `--steps use_feedback` lets you improve/fix code in a project)
+There are two ways to work with GPT-engineer: new code mode (the default), and improve existing code mode (the `-i` option).
+
+### Creating new code
+- Create an empty folder for your project anywhere on your computer
+- Create a file called `prompt` (no extension) inside your new folder and fill it with instructions
+- Run `gpt-engineer <project_dir>` with a relative path to your folder
+  - For example: `gpt-engineer projects/my-new-project` from the gpt-engineer directory root with your new folder in `projects/`
+
+### Improving Existing Code
+- Locate a folder with code which you want to improve anywhere on your computer
+- Create a file called `prompt` (no extension) inside your new folder and fill it with instructions for how you want to improve the code
+- Run `gpt-engineer <project_dir> -i` with a relative path to your folder
+  - For example: `gpt-engineer projects/my-old-project` from the gpt-engineer directory root with your folder in `projects/`
 
 By running gpt-engineer you agree to our [terms](https://github.com/AntonOsika/gpt-engineer/blob/main/TERMS_OF_USE.md).
 
 **Results**
 
 Check the generated files in `projects/my-new-project/workspace`
+
+**Workflow**
+
+`gpt-engineer --help` lets you see all available options.
+
+For example:
+- To improve any existing project, use the flag: `-i`
+- To give feedback to/improve a gpt-engineer generated project, use: `--steps use_feedback`
 
 **Alternatives**
 
@@ -84,6 +102,9 @@ Editing the `preprompts`, and evolving how you write the project prompt, is how 
 
 Each step in `steps.py` will have its communication history with GPT4 stored in the logs folder, and can be rerun with `scripts/rerun_edited_message_logs.py`.
 
+You can also run with open source models, like WizardCoder. See the [documentation](https://gpt-engineer.readthedocs.io/en/latest/open_models.html) for example instructions.
+
+
 ## Vision
 The gpt-engineer community is building the **open platform for devs to tinker with and build their personal code-generation toolbox**.
 
@@ -99,3 +120,4 @@ We are currently looking for more maintainers and community organizers. Email an
 ## Example
 
 https://github.com/AntonOsika/gpt-engineer/assets/4467025/6e362e45-4a94-4b0d-973d-393a31d92d9b
+˛

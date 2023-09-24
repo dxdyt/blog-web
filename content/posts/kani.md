@@ -1,9 +1,9 @@
 ---
 title: kani
-date: 2023-09-23T12:17:15+08:00
+date: 2023-09-24T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692606866330-3910cad7ffaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692606866330-3910cad7ffaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692982926792-fe6495261ca1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692982926792-fe6495261ca1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
 ---
 
 # [zhudotexe/kani](https://github.com/zhudotexe/kani)
