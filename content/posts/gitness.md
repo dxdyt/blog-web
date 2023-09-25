@@ -1,9 +1,9 @@
 ---
 title: gitness
-date: 2023-09-24T12:14:42+08:00
+date: 2023-09-25T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692343271802-46a48fb68849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692343271802-46a48fb68849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
 ---
 
 # [harness/gitness](https://github.com/harness/gitness)
@@ -27,7 +27,7 @@ docker run \
   -v /tmp/gitness:/data \
   harness/gitness:latest
 ```
-> The Gitness image uses a volume to store the database and repositories. It is highly recommended to use a bind mount or named volume as otherwise all data will be lost once the contaner is stopped.
+> The Gitness image uses a volume to store the database and repositories. It is highly recommended to use a bind mount or named volume as otherwise all data will be lost once the container is stopped.
 
 # Pre-Requisites
 

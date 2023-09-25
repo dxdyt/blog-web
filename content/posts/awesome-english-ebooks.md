@@ -1,9 +1,9 @@
 ---
 title: awesome-english-ebooks
-date: 2023-08-31T12:15:16+08:00
+date: 2023-09-25T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692005561659-cdba32d1e4a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692005561659-cdba32d1e4a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
 ---
 
 # [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)
@@ -19,8 +19,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1692005561659-cdba32d1e4
 
 ## 二、内容分类
 
-* [经济学人 - 周刊, 点击这里下载最新一期](01_economist/te_2023.08.26) , 每周五十一点更新
-* [纽约客 - 周刊, 点击这里下载最新一期](02_new_yorker/2023.08.28) , 每周六上午更新
+* [经济学人 - 周刊, 点击这里下载最新一期](01_economist/te_2023.09.23) , 每周五十一点更新
+* [纽约客 - 周刊, 点击这里下载最新一期](02_new_yorker/2023.09.25) , 每周六上午更新
 * [卫报 - 每周两期](09_guardian/), 每周三、周日更新
 * [The Atlantic - 月刊](04_atlantic), 每月2号更新
 * [Wired - 月刊](05_wired), 每月2号更新

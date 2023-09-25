@@ -1,9 +1,9 @@
 ---
 title: WizardLM
-date: 2023-08-31T12:16:35+08:00
+date: 2023-09-25T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694487591888-39655b6fabd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694487591888-39655b6fabd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
 ---
 
 # [nlpxucan/WizardLM](https://github.com/nlpxucan/WizardLM)
@@ -79,7 +79,39 @@ Thanks to the enthusiastic friends, their video introductions are more lively an
 | <sup>WizardLM-7B-V1.0 </sup>|  <sup>🤗 <a href="https://huggingface.co/WizardLM/WizardLM-7B-V1.0" target="_blank">HF Link</a> </sup> |<sup> 📃 <a href="https://arxiv.org/abs/2304.12244" target="_blank">[WizardLM]</a> </sup>|  |  |  |<sup>19.1 </sup>|  | <sup> Non-commercial</sup>|
 </font>
 
+### Citation
 
+Please cite the paper if you use the data or code from WizardLM.
+
+```
+@article{xu2023wizardlm,
+  title={Wizardlm: Empowering large language models to follow complex instructions},
+  author={Xu, Can and Sun, Qingfeng and Zheng, Kai and Geng, Xiubo and Zhao, Pu and Feng, Jiazhan and Tao, Chongyang and Jiang, Daxin},
+  journal={arXiv preprint arXiv:2304.12244},
+  year={2023}
+}
+```
+Please cite the paper if you use the data or code from WizardCoder.
+
+```
+@article{luo2023wizardcoder,
+  title={WizardCoder: Empowering Code Large Language Models with Evol-Instruct},
+  author={Luo, Ziyang and Xu, Can and Zhao, Pu and Sun, Qingfeng and Geng, Xiubo and Hu, Wenxiang and Tao, Chongyang and Ma, Jing and Lin, Qingwei and Jiang, Daxin},
+  journal={arXiv preprint arXiv:2306.08568},
+  year={2023}
+}
+```
+
+Please cite the paper if you refer to our model or code or data or paper from WizardMath.
+
+```
+@article{luo2023wizardmath,
+  title={WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct},
+  author={Luo, Haipeng and Sun, Qingfeng and Xu, Can and Zhao, Pu and Lou, Jianguang and Tao, Chongyang and Geng, Xiubo and Lin, Qingwei and Chen, Shifeng and Zhang, Dongmei},
+  journal={arXiv preprint arXiv:2308.09583},
+  year={2023}
+}
+```
 
 
 ❗To commen concern about dataset:
@@ -185,7 +217,7 @@ We welcome everyone to use your professional and difficult instructions to evalu
 
 ## Overview of Evol-Instruct
 
-[Evol-Instruct](https://github.com/nlpxucan/evol-instruct) is a novel method using LLMs instead of humans to automatically mass-produce open-domain instructions of various difficulty levels and skills range, to improve the performance of LLMs.
+[Evol-Instruct](https://github.com/nlpxucan/evol-instruct) is a novel method using LLMs instead of humans to automatically mass-produce open-domain instructions of various difficulty levels and skills range, to improve the performance of LLMs. You can easily embark on your own evolutionary journey with the [Evol Script](https://github.com/nlpxucan/WizardLM/tree/main/Evol-Instruct) we provide.
 
 <p align="center" width="100%">
 <a ><img src="imgs/git_overall.png" alt="WizardLM" style="width: 86%; min-width: 300px; display: block; margin: auto;"></a>
@@ -195,32 +227,6 @@ We welcome everyone to use your professional and difficult instructions to evalu
 <a ><img src="imgs/git_running.png" alt="WizardLM" style="width: 86%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-### Citation
-
-Please cite the paper if you use the data or code from WizardLM.
-
-```
-@misc{xu2023wizardlm,
-      title={WizardLM: Empowering Large Language Models to Follow Complex Instructions}, 
-      author={Can Xu and Qingfeng Sun and Kai Zheng and Xiubo Geng and Pu Zhao and Jiazhan Feng and Chongyang Tao and Daxin Jiang},
-      year={2023},
-      eprint={2304.12244},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
-Please cite the paper if you use the data or code from WizardCoder.
-
-```
-@misc{luo2023wizardcoder,
-      title={WizardCoder: Empowering Code Large Language Models with Evol-Instruct}, 
-      author={Ziyang Luo and Can Xu and Pu Zhao and Qingfeng Sun and Xiubo Geng and Wenxiang Hu and Chongyang Tao and Jing Ma and Qingwei Lin and Daxin Jiang},
-      year={2023},
-      eprint={2306.08568},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
 ## Disclaimer
 
 The resources, including code, data, and model weights, associated with this project are restricted for academic research purposes only and cannot be used for commercial purposes. The content produced by any version of WizardLM is influenced by uncontrollable variables such as randomness, and therefore, the accuracy of the output cannot be guaranteed by this project. This project does not accept any legal liability for the content of the model output, nor does it assume responsibility for any losses incurred due to the use of associated resources and output results.

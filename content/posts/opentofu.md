@@ -1,9 +1,9 @@
 ---
 title: opentofu
-date: 2023-09-24T12:14:13+08:00
+date: 2023-09-25T12:16:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692343271802-46a48fb68849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692343271802-46a48fb68849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692533583962-7de22728939e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692533583962-7de22728939e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
 ---
 
 # [opentofu/opentofu](https://github.com/opentofu/opentofu)

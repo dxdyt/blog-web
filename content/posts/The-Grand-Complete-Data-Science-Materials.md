@@ -1,9 +1,9 @@
 ---
 title: The-Grand-Complete-Data-Science-Materials
-date: 2023-09-24T12:14:34+08:00
+date: 2023-09-25T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692982926792-fe6495261ca1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692982926792-fe6495261ca1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693858763467-652b22ad724b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693858763467-652b22ad724b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
 ---
 
 # [krishnaik06/The-Grand-Complete-Data-Science-Materials](https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials)
