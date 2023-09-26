@@ -1,9 +1,9 @@
 ---
 title: LongLoRA
-date: 2023-09-25T12:16:10+08:00
+date: 2023-09-26T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692014957482-8dd4c302bff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692014957482-8dd4c302bff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693201664010-8a8fd02f6711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693201664010-8a8fd02f6711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [dvlab-research/LongLoRA](https://github.com/dvlab-research/LongLoRA)
@@ -87,7 +87,7 @@ pip install flash-attn --no-build-isolation
 
 ## Training
 ### Pre-trained weights
-We use LLaMA2 models as the pre-trained weights and fine-tune them to long context window sizes. Please download [Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), [Llama-2-13b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), and [Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-70b-hf), based on your choices.
+We use LLaMA2 models as the pre-trained weights and fine-tune them to long context window sizes. Please download [Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), [Llama-2-13b-hf](https://huggingface.co/meta-llama/Llama-2-13b-hf), and [Llama-2-70b-hf](https://huggingface.co/meta-llama/Llama-2-70b-hf), based on your choices.
 
 ### Fine-tuning
 ```

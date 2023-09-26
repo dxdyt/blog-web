@@ -1,9 +1,9 @@
 ---
 title: FreeU
-date: 2023-09-25T12:17:47+08:00
+date: 2023-09-26T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694405156884-dea1ffb40ede?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694405156884-dea1ffb40ede?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [ChenyangSi/FreeU](https://github.com/ChenyangSi/FreeU)
@@ -136,9 +136,6 @@ Feel free to adjust these parameters based on your models, image/video style, or
 ### SD2.1 
 **b1**: 1.1, **b2**: 1.2, **s1**: 0.9, **s2**: 0.2
 
-### SDXL
-[Parameters](https://wandb.ai/nasirk24/UNET-FreeU-SDXL/reports/FreeU-SDXL-Optimal-Parameters--Vmlldzo1NDg4NTUw?accessToken=6745kr9rjd6e9yjevkr9bpd2lm6dpn6j00428gz5l60jrhl3gj4gubrz4aepupda) from  Nasir Khalid
-
 
 ### Range for More Parameters
 When trying additional parameters, consider the following ranges:
@@ -147,15 +144,25 @@ When trying additional parameters, consider the following ranges:
 - **s1**: s1 ≤ 1
 - **s2**: s2 ≤ 1
 
+
+# Results from the community
+If you tried FreeU and want to share your results, let me know and we can put up the link here.
+
+- [SDXL](https://wandb.ai/nasirk24/UNET-FreeU-SDXL/reports/FreeU-SDXL-Optimal-Parameters--Vmlldzo1NDg4NTUw?accessToken=6745kr9rjd6e9yjevkr9bpd2lm6dpn6j00428gz5l60jrhl3gj4gubrz4aepupda) from  [Nasir Khalid](https://wandb.ai/nasirk24)
+- [comfyUI](https://twitter.com/bramvera/status/1706190498220884007) from [Abraham](https://twitter.com/bramvera)
+- [SD2.1](https://twitter.com/justindujardin/status/1706021278963179612) from [Justin DuJardin](https://twitter.com/justindujardin)
+- [SDXL](https://twitter.com/seb_cawai/status/1705948389874000374) from [Sebastian](https://twitter.com/seb_cawai)
+- [SDXL](https://twitter.com/tintwotin/status/1706318393312223346) from [tintwotin](https://twitter.com/tintwotin)
  
 
-If you find FreeU useful for your work please cite:
+
+# BibTeX
 ```
-@article{Si2023FreeU,
-  author    = {Chenyang Si, Ziqi Huang, Yuming Jiang, Ziwei Liu},
-  title     = {FreeU: Free Lunch in Diffusion U-Net},
-  journal   = {arXiv},
-  year      = {2023},
+@article{si2023freeu,
+  title={FreeU: Free Lunch in Diffusion U-Net},
+  author={Si, Chenyang and Huang, Ziqi and Jiang, Yuming and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2309.11497},
+  year={2023}
 }
 ```
 ## :newspaper_roll: License

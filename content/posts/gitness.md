@@ -1,9 +1,9 @@
 ---
 title: gitness
-date: 2023-09-25T12:16:05+08:00
+date: 2023-09-26T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693550840872-d680b7ee2518?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693550840872-d680b7ee2518?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [harness/gitness](https://github.com/harness/gitness)

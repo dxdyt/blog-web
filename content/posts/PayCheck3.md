@@ -1,9 +1,9 @@
 ---
 title: PayCheck3
-date: 2023-09-25T12:18:03+08:00
+date: 2023-09-26T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692877317004-105c535ed711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692877317004-105c535ed711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692606674503-267da3da7da7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [SlejmUr/PayCheck3](https://github.com/SlejmUr/PayCheck3)

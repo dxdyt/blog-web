@@ -1,9 +1,9 @@
 ---
 title: gosub-browser
-date: 2023-09-25T12:15:06+08:00
+date: 2023-09-26T12:15:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692533583962-7de22728939e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692533583962-7de22728939e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692779558056-7363c1cab688?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692779558056-7363c1cab688?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [jaytaph/gosub-browser](https://github.com/jaytaph/gosub-browser)
@@ -83,13 +83,4 @@ to specify the directory to the html5lib-test in order to run, or it will use th
 
 ```shell
 $ parser_test /path/to/html5lib-tests
-```
-
-### Tokenizer_test
-
-This is a test suite for the tokenizer. It is not a standalone project. It is used by the gosub-engine project. You need
-to specify the directory to the html5lib-test in order to run, or it will use the default one (./html5lib-tests).
-
-```shell
-$ tokenizer_test /path/to/html5lib-tests
 ```

@@ -1,9 +1,9 @@
 ---
 title: The-Grand-Complete-Data-Science-Materials
-date: 2023-09-25T12:15:47+08:00
+date: 2023-09-26T12:15:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693858763467-652b22ad724b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693858763467-652b22ad724b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693168399448-1817a36a3500?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693168399448-1817a36a3500?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [krishnaik06/The-Grand-Complete-Data-Science-Materials](https://github.com/krishnaik06/The-Grand-Complete-Data-Science-Materials)
@@ -89,7 +89,10 @@ https://drive.google.com/file/d/18doA_wMja2nAawcE6imIcfnEMf-Pir2n/view
 - Krish Naik : https://www.youtube.com/@krishnaik06
 - Krish Naik Hindi: https://www.youtube.com/@krishnaikhindi
 - Success Stories By Krish(Coming up): https://www.youtube.com/channel/UCNSHtBgZ3dhcpv190JrK_LQ
-- Support Channel and Join this channel to get access to perks: https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join
+- Support Channel and Join this channel to get access to perks: https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig/join our Data Science Project 
+
+## Join Our Data Science Project Neuron
+https://ineuron.ai/one-neuron/Data-science-Projects-Neuron?source=one_neuron_listing
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: tuning_playbook
-date: 2023-09-25T12:17:56+08:00
+date: 2023-09-26T12:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693115823976-7809af2b2c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [google-research/tuning_playbook](https://github.com/google-research/tuning_playbook)

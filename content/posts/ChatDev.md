@@ -1,9 +1,9 @@
 ---
 title: ChatDev
-date: 2023-09-25T12:15:16+08:00
+date: 2023-09-26T12:15:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU2MTUyOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b
 # Communicative Agents for Software Development
 
 <p align="center">
-  <img src='./misc/logo1.png' width=600>
+  <img src='./misc/logo1.png' width=550>
 </p>
 
 <p align="center">
@@ -31,20 +31,29 @@ featuredImagePreview: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b
   including tasks such as designing, coding, testing, and documenting.
 - The primary objective of ChatDev is to offer an **easy-to-use**, **highly customizable** and **extendable** framework,
   which is based on large language models (LLMs) and serves as an ideal scenario for studying collective intelligence.
+<p align="center">
+  <img src='./misc/company.png' width=600>
+</p>
 
 ## 📰 News
 
-* **September 20th, 2023: The *Human-Agent-Interaction* mode is now available! You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>;
-  try ``python3 run.py --task [description_of_your_idea] --config "Human"``.** See [guide](wiki.md#human-agent-interaction) and [example](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
-  <img src='misc/Human_intro.png' width=800>
-* September 1st, 2023: The *Art* mode is available now! You can activate the designer agent <img src='online_log/static/figures/designer.png' height=20> to generate images used in the software;
+* **September 25th, 2023: The **Git** feature is now available**, enabling the programmer <img src='online_log/static/figures/programmer.png' height=20> to utilize GitHub for version control. To enable this feature, simply set ``"git_management"`` to ``"True"`` in ``ChatChainConfig.json``.
+  <p align="center">
+  <img src='./misc/github.png' width=600>
+  </p>
+* September 20th, 2023: The **Human-Agent-Interaction** mode is now available! You can get involved with the ChatDev team by playing the role of reviewer <img src='online_log/static/figures/reviewer.png' height=20> and making suggestions to the programmer <img src='online_log/static/figures/programmer.png' height=20>;
+  try ``python3 run.py --task [description_of_your_idea] --config "Human"``. See [guide](wiki.md#human-agent-interaction) and [example](WareHouse/Gomoku_HumanAgentInteraction_20230920135038).
+  <p align="center">
+  <img src='./misc/Human_intro.png' width=600>
+  </p>
+* September 1st, 2023: The **Art** mode is available now! You can activate the designer agent <img src='online_log/static/figures/designer.png' height=20> to generate images used in the software;
   try ``python3 run.py --task [description_of_your_idea] --config "Art"``. See [guide](wiki.md#art) and [example](WareHouse/gomokugameArtExample_THUNLP_20230831122822).
 * August 28th, 2023: The system is publicly available.
-* August 17th, 2023: The V1.0.0 version was ready for release.
+* August 17th, 2023: The v1.0.0 version was ready for release.
 * July 30th, 2023: Users can customize ChatChain, Phase, and Role settings. Additionally, both online Log mode and replay
   mode are now supported.
 * July 16th, 2023: The [preprint paper](https://arxiv.org/abs/2307.07924) associated with this project was published.
-* June 30th, 2023: The initial version of the `ChatDev` repository was released.
+* June 30th, 2023: The initial version of the ChatDev repository was released.
 
 ## ❓ What Can ChatDev Do?
 
@@ -172,10 +181,9 @@ create a software package and generate a folder named ``/WareHouse/2048_THUNLP_t
 
 ## ⚖️ License
 
-- The purpose of ChatDev is exclusively for research purposes.
-- The source code is licensed under Apache 2.0.
-- The datasets are licensed under CC BY NC 4.0, which allows for non-commercial use only. It is important to note that
-  any models trained using these datasets should not be employed for purposes other than research.
+- Source Code Licensing: Our project's source code is licensed under the Apache 2.0 License. This license permits the use, modification, and distribution of the code, subject to certain conditions outlined in the Apache 2.0 License.
+- Project Open-Source Status: The project is indeed open-source; however, this designation is primarily intended for non-commercial purposes. While we encourage collaboration and contributions from the community for research and non-commercial applications, it is important to note that any utilization of the project's components for commercial purposes necessitates separate licensing agreements.
+- Data Licensing: The related data utilized in our project is licensed under CC BY-NC 4.0. This license explicitly permits non-commercial use of the data. We would like to emphasize that any models trained using these datasets should strictly adhere to the non-commercial usage restriction and should be employed exclusively for research purposes.
 
 ## Star History
 
