@@ -1,14 +1,14 @@
 ---
 title: LongLoRA
-date: 2023-09-26T12:16:23+08:00
+date: 2023-09-27T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693201664010-8a8fd02f6711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693201664010-8a8fd02f6711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693493422328-5c3a1b07d764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693493422328-5c3a1b07d764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
 ---
 
 # [dvlab-research/LongLoRA](https://github.com/dvlab-research/LongLoRA)
 
-[![Gradio](https://img.shields.io/badge/Gradio-Online%20Demo-blue)](https://9415315be10389c622.gradio.live)
+[![Gradio](https://img.shields.io/badge/Gradio-Online%20Demo-blue)](https://2060079530708e861d.gradio.live)
 
 # LongLoRA: Efficient Fine-tuning of Long-Context Large Language Models
 
@@ -26,7 +26,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693201664010-8a8fd02f67
 [Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN),
 [Jiaya Jia](https://scholar.google.com/citations?user=XPAkzTEAAAAJ&hl=en)<br />
 
-<font size=7><div align='center' > <a href=http://arxiv.org/abs/2309.12307>**Paper**</a> | <a href="https://huggingface.co/Yukang">**Models**</a> | [**Training**](#training) | [**Inference**](#inference) | <a href="https://9415315be10389c622.gradio.live">**Online Demo**</a></div></font>
+<font size=7><div align='center' > <a href=http://arxiv.org/abs/2309.12307>**Paper**</a> | <a href="https://huggingface.co/Yukang">**Models**</a> | [**Training**](#training) | [**Inference**](#inference) | <a href="https://2060079530708e861d.gradio.live">**Online Demo**</a></div></font>
 
 <p align="center"> <img src="imgs/demo-harry-potter1.png" width="100%"> </p>
 <p align="center"> <img src="imgs/demo-harry-potter2.png" width="100%"> </p>
@@ -204,6 +204,19 @@ python3 eval.py --seq_len 8192 --context_size 8192 --batch_size 1 --base_model p
 | Proof-pile | test       | [proof-pile/test_sampled_data.bin](https://drive.google.com/file/d/1bUI5lPDvrqzY_XXJJ2sSuvZx0Y9AZClE/view?usp=share_link)         |
  
 
+### Passkey Retrieval
+We provide a manner to test the passkey retrieval accuracy. For example,
+```
+python3 passkey_retrivial.py \
+        --context_size 32768 \
+        --base_model path_to/Llama-2-7b-longlora-32k \
+        --max_tokens 32768 \
+        --interval 1000
+```
+- Note that the `context_size` is the context length during fine-tuning.
+- `max_tokens` is maximum length for the document in passkey retrieval evaluation.
+- `interval` is the interval during the document length increasing. It is a rough number because the document increases by sentences.
+
 ## Inference 
 To chat with [Llama-2-13b-chat-longlora-32k-sft](https://huggingface.co/Yukang/Llama-2-13b-chat-longlora-32k-sft) or [Llama-2-70b-chat-longlora-32k-sft](https://huggingface.co/Yukang/Llama-2-70b-chat-longlora-32k-sft), you need to run `merge_lora_weights_and_save_hf_model.py` first, and then:
 ```
@@ -281,6 +294,6 @@ If you find this project useful in your research, please consider citing:
 ## Acknowledgement
 -  This work is built upon the [LLaMA2](https://ai.meta.com/llama) as the pre-trained models.
 - This work is based on [DeepSpeed](https://github.com/microsoft/DeepSpeed), [peft](https://github.com/huggingface/peft), and [Flash-Attention2](https://github.com/Dao-AILab/flash-attention) for acceleration.
-- The perplexity evaluation code is modified upon [Landmark Attention](https://github.com/epfml/landmark-attention).
+- Some evaluation code is modified upon [Landmark Attention](https://github.com/epfml/landmark-attention).
 - We use [LongChat](https://github.com/DachengLi1/LongChat) for the retrieval evaluation.
 

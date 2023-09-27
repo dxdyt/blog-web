@@ -1,9 +1,9 @@
 ---
 title: awesome-machine-learning
-date: 2023-09-26T12:16:31+08:00
+date: 2023-09-27T12:16:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1648074074225-16189e7ad8c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693409948319-d9fe5a0f95b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693409948319-d9fe5a0f95b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
 ---
 
 # [josephmisiti/awesome-machine-learning](https://github.com/josephmisiti/awesome-machine-learning)

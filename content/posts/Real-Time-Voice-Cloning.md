@@ -1,9 +1,9 @@
 ---
 title: Real-Time-Voice-Cloning
-date: 2023-09-26T12:15:27+08:00
+date: 2023-09-27T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692447265857-b44d118476d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692447265857-b44d118476d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694035112369-178d9f6f103d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694035112369-178d9f6f103d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
 ---
 
 # [CorentinJ/Real-Time-Voice-Cloning](https://github.com/CorentinJ/Real-Time-Voice-Cloning)

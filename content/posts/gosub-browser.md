@@ -1,9 +1,9 @@
 ---
 title: gosub-browser
-date: 2023-09-26T12:15:08+08:00
+date: 2023-09-27T12:15:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692779558056-7363c1cab688?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692779558056-7363c1cab688?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693846697103-48ccc757f9b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693846697103-48ccc757f9b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
 ---
 
 # [jaytaph/gosub-browser](https://github.com/jaytaph/gosub-browser)

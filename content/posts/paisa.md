@@ -1,9 +1,9 @@
 ---
 title: paisa
-date: 2023-09-26T12:15:41+08:00
+date: 2023-09-27T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693550840872-d680b7ee2518?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693550840872-d680b7ee2518?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1681311869180-72bc056afa1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1681311869180-72bc056afa1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
 ---
 
 # [ananthakumaran/paisa](https://github.com/ananthakumaran/paisa)
