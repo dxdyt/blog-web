@@ -1,16 +1,19 @@
 ---
 title: wagtail
-date: 2023-09-13T12:16:58+08:00
+date: 2023-09-28T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1678710022077-949f1d6219c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1678710022077-949f1d6219c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693049318107-a4aa59219d10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693049318107-a4aa59219d10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [wagtail/wagtail](https://github.com/wagtail/wagtail)
 
 <h1 align="center">
-    <img width="343" src=".github/wagtail.svg#gh-light-mode-only" alt="Wagtail">
-    <img width="343" src=".github/wagtail-inverse.svg#gh-dark-mode-only" alt="Wagtail">
+    <picture>
+        <source media="(prefers-color-scheme: light)" srcset=".github/wagtail.svg">
+        <source media="(prefers-color-scheme: dark)" srcset=".github/wagtail-inverse.svg">
+        <img width="343" src=".github/wagtail.svg" alt="Wagtail">
+    </picture>
 </h1>
 <p align="center">
     <br>

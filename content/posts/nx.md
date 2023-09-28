@@ -1,9 +1,9 @@
 ---
 title: nx
-date: 2023-09-03T12:16:35+08:00
+date: 2023-09-28T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692584927805-d4096552a5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692584927805-d4096552a5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692736230219-d2c2d9afeecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692736230219-d2c2d9afeecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [nrwl/nx](https://github.com/nrwl/nx)
@@ -23,7 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692584927805-d4096552a5
 [![Semantic Release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)]()
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Join the chat at https://gitter.im/nrwl-nx/community](https://badges.gitter.im/nrwl-nx/community.svg)](https://gitter.im/nrwl-nx/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Join us @nrwl/community on slack](https://img.shields.io/badge/slack-%40nrwl%2Fcommunity-brightgreen)](https://go.nrwl.io/join-slack)
+[![Join the Official Nx Discord Server](https://img.shields.io/discord/1143497901675401286?label=discord)](https://go.nx.dev/community)
 
 </div>
 
@@ -46,7 +46,7 @@ width="100%" alt="Nx - Smart, Fast and Extensible Build System"></a></p>
 
 # Engage with the Core Team and the Community
 
-- [Nx.Dev Community Page: Community Slack Channel, Newsletter, etc.](https://nx.dev/community)
+- [Nx.Dev Community Page: Community Discord Channel, Newsletter, etc.](https://nx.dev/community)
 - [The Nx Show Playlist on YouTube](https://www.youtube.com/playlist?list=PLakNactNC1dE8KLQ5zd3fQwu_yQHjTmR5). It's a
   regular YouTube stream where we talk all things Nx. Join the stream, ask questions, etc.
 - [Follow Nx on Twitter](https://twitter.com/NxDevTools)

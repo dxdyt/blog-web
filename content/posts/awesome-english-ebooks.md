@@ -1,9 +1,9 @@
 ---
 title: awesome-english-ebooks
-date: 2023-09-27T12:15:33+08:00
+date: 2023-09-28T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693246532472-e908036be6df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693246532472-e908036be6df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693018365570-0e6c844724d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693018365570-0e6c844724d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)

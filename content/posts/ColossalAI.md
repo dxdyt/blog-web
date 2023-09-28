@@ -1,9 +1,9 @@
 ---
 title: ColossalAI
-date: 2023-09-27T12:14:53+08:00
+date: 2023-09-28T12:15:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692988322216-9e58689896ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692988322216-9e58689896ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694878873245-de1db825e20f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694878873245-de1db825e20f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI)
@@ -26,7 +26,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692988322216-9e58689896
    [![Documentation](https://readthedocs.org/projects/colossalai/badge/?version=latest)](https://colossalai.readthedocs.io/en/latest/?badge=latest)
    [![CodeFactor](https://www.codefactor.io/repository/github/hpcaitech/colossalai/badge)](https://www.codefactor.io/repository/github/hpcaitech/colossalai)
    [![HuggingFace badge](https://img.shields.io/badge/%F0%9F%A4%97HuggingFace-Join-yellow)](https://huggingface.co/hpcai-tech)
-   [![slack badge](https://img.shields.io/badge/Slack-join-blueviolet?logo=slack&amp)](https://join.slack.com/t/colossalaiworkspace/shared_invite/zt-z7b26eeb-CBp7jouvu~r0~lcFzX832w)
+   [![slack badge](https://img.shields.io/badge/Slack-join-blueviolet?logo=slack&amp)](https://github.com/hpcaitech/public_assets/tree/main/colossalai/contact/slack)
    [![WeChat badge](https://img.shields.io/badge/微信-加入-green?logo=wechat&amp)](https://raw.githubusercontent.com/hpcaitech/public_assets/main/colossalai/img/WeChat.png)
 
 

@@ -1,9 +1,9 @@
 ---
 title: astro
-date: 2023-09-06T12:15:52+08:00
+date: 2023-09-28T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691669686323-4f72f54e64d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691669686323-4f72f54e64d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686579809662-829e8374d0a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686579809662-829e8374d0a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [withastro/astro](https://github.com/withastro/astro)
@@ -93,7 +93,7 @@ Several official projects are maintained outside of this repo:
 
 ## Sponsors
 
-Astro is generously supported by Netlify, Storyblok, and several other amazing organizations.
+Astro is free, open source software made possible by these wonderful sponsors.
 
 [❤️ Sponsor Astro! ❤️](https://github.com/withastro/.github/blob/main/FUNDING.md)
 
@@ -101,7 +101,7 @@ Astro is generously supported by Netlify, Storyblok, and several other amazing o
   <a target="_blank" href="https://github.com/sponsors/withastro">
 
 [![Astro's sponsors.](https://astro.build/sponsors.png "Astro's sponsors.
-Platinum sponsors: Netlify, storyblok, Vercel, Ship Shape, Google Chrome
+Platinum sponsors: Vercel, storyblok, Netlify, Ship Shape, Google Chrome
 Gold sponsors: ‹div›RIOTS, DEEPGRAM, Transloadit, CloudCannon
 Sponsors: Monogram, Qoddi, Dimension")](https://github.com/sponsors/withastro)
 

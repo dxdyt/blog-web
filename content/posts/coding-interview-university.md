@@ -1,9 +1,9 @@
 ---
 title: coding-interview-university
-date: 2023-09-27T12:15:00+08:00
+date: 2023-09-28T12:15:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685745936275-82e16033083a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685745936275-82e16033083a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692838952665-a7a9577fde9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692838952665-a7a9577fde9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)

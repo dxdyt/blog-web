@@ -1,9 +1,9 @@
 ---
 title: evals
-date: 2023-07-21T12:16:12+08:00
+date: 2023-09-28T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689196249228-3054e22aefe0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689196249228-3054e22aefe0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693018365570-0e6c844724d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693018365570-0e6c844724d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
 ---
 
 # [openai/evals](https://github.com/openai/evals)
@@ -14,9 +14,9 @@ Evals is a framework for evaluating LLMs (large language models) or systems buil
 
 We now support evaluating the behavior of any system including prompt chains or tool-using agents, via the [Completion Function Protocol](docs/completion-fns.md).
 
-With Evals, we aim to make it as simple as possible to build an eval while writing as little code as possible. An "eval" is a task used to evaluate the quality of a system's behavior. To get started, we recommend that you follow these steps:
+With Evals, we aim to make it as simple as possible to build an eval while writing as little code as possible. An "eval" is a task used to evaluate the quality of a system's behavior.
 
-To get set up with evals, follow the [setup instructions below](README.md#Setup).
+To get set up with evals, follow the [setup instructions below](README.md#Setup). You can also run and create evals using [Weights & Biases](https://wandb.ai/wandb_fc/openai-evals/reports/OpenAI-Evals-Demo-Using-W-B-Prompts-to-Run-Evaluations--Vmlldzo0MTI4ODA3).
 
 #### Running evals
 - Learn how to run existing evals: [run-evals.md](docs/run-evals.md).
@@ -33,12 +33,6 @@ To get set up with evals, follow the [setup instructions below](README.md#Setup)
 - Write your own completion functions: [completion-fns.md](docs/completion-fns.md)
 
 If you think you have an interesting eval, please open a PR with your contribution. OpenAI staff actively review these evals when considering improvements to upcoming models.
-
-____________________
-🚨 For a limited time, we will be granting GPT-4 access to those who contribute high quality evals. Please follow the instructions mentioned above and note that spam or low quality submissions will be ignored❗️
-
-Access will be granted to the email address associated with an accepted Eval. Due to high volume, we are unable to grant access to any email other than the one used for the pull request.
-____________________
 
 ## Setup
 
@@ -78,6 +72,10 @@ Optionally, you can install the formatters for pre-committing with:
 ```sh
 pip install -e .[formatters]
 ```
+
+Then run `pre-commit install` to install pre-commit into your git hooks. pre-commit will now run on every commit.
+
+If you want to manually run all pre-commit hooks on a repository, run `pre-commit run --all-files`. To run individual hooks use `pre-commit run <hook_id>`.
 
 ### Running evals
 
