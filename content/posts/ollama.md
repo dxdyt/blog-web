@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-08-29T12:16:28+08:00
+date: 2023-09-29T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690834787964-3fbac1bcd362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -19,19 +19,27 @@ featuredImagePreview: https://images.unsplash.com/photo-1690834787964-3fbac1bcd3
 
 [![Discord](https://dcbadge.vercel.app/api/server/ollama?style=flat&compact=true)](https://discord.gg/ollama)
 
-Run, create, and share large language models (LLMs).
+Get up and running with large language models locally.
 
-> Note: Ollama is in early preview. Please report any issues you find.
+### macOS
 
-## Download
+[Download](https://ollama.ai/download/Ollama-darwin.zip) 
 
-- [Download](https://ollama.ai/download) for macOS
-- Download for Windows and Linux (coming soon)
-- Build [from source](#building)
+### Linux & WSL2
+
+```
+curl https://ollama.ai/install.sh | sh
+```
+
+[Manual install instructions](https://github.com/jmorganca/ollama/blob/main/docs/linux.md)
+
+### Windows 
+
+coming soon
 
 ## Quickstart
 
-To run and chat with [Llama 2](https://ai.meta.com/llama), the new model by Meta:
+To run and chat with [Llama 2](https://ollama.ai/library/llama2):
 
 ```
 ollama run llama2
@@ -39,53 +47,54 @@ ollama run llama2
 
 ## Model library
 
-Ollama supports a list of open-source models available on [ollama.ai/library](https://ollama.ai/library 'ollama model library')
+Ollama supports a list of open-source models available on [ollama.ai/library](https://ollama.ai/library "ollama model library")
 
 Here are some example open-source models that can be downloaded:
 
-| Model                    | Parameters | Size  | Download                        |
-| ------------------------ | ---------- | ----- | ------------------------------- |
-| Llama2                   | 7B         | 3.8GB | `ollama pull llama2`            |
-| Llama2 13B               | 13B        | 7.3GB | `ollama pull llama2:13b`        |
-| Llama2 70B               | 70B        | 39GB  | `ollama pull llama2:70b`        |
-| Llama2 Uncensored        | 7B         | 3.8GB | `ollama pull llama2-uncensored` |
-| Code Llama               | 7B         | 3.8GB | `ollama pull codellama`         |
-| Orca Mini                | 3B         | 1.9GB | `ollama pull orca-mini`         |
-| Vicuna                   | 7B         | 3.8GB | `ollama pull vicuna`            |
-| Nous-Hermes              | 7B         | 3.8GB | `ollama pull nous-hermes`       |
-| Nous-Hermes 13B          | 13B        | 7.3GB | `ollama pull nous-hermes:13b`   |
-| Wizard Vicuna Uncensored | 13B        | 7.3GB | `ollama pull wizard-vicuna`     |
+| Model              | Parameters | Size  | Download                       |
+| ------------------ | ---------- | ----- | ------------------------------ |
+| Mistral            | 7B         | 4.1GB | `ollama run mistral`           |
+| Llama 2            | 7B         | 3.8GB | `ollama run llama2`            |
+| Code Llama         | 7B         | 3.8GB | `ollama run codellama`         |
+| Llama 2 Uncensored | 7B         | 3.8GB | `ollama run llama2-uncensored` |
+| Llama 2 13B        | 13B        | 7.3GB | `ollama run llama2:13b`        |
+| Llama 2 70B        | 70B        | 39GB  | `ollama run llama2:70b`        |
+| Orca Mini          | 3B         | 1.9GB | `ollama run orca-mini`         |
+| Vicuna             | 7B         | 3.8GB | `ollama run vicuna`            |
 
 > Note: You should have at least 8 GB of RAM to run the 3B models, 16 GB to run the 7B models, and 32 GB to run the 13B models.
 
-## Examples
+## Customize your own model
 
-### Run a model
+### Import from GGUF or GGML
 
-```
-ollama run llama2
->>> hi
-Hello! How can I help you today?
-```
+Ollama supports importing GGUF and GGML file formats in the Modelfile. This means if you have a model that is not in the Ollama library, you can create it, iterate on it, and upload it to the Ollama library to share with others when you are ready.
 
-For multiline input, you can wrap text with `"""`:
+1. Create a file named Modelfile, and add a `FROM` instruction with the local filepath to the model you want to import.
 
-```
->>> """Hello,
-... world!
-... """
-I'm a basic program that prints the famous "Hello, world!" message to the console.
-```
+   ```
+   FROM ./vicuna-33b.Q4_0.gguf
+   ```
 
-### Create a custom model
+3. Create the model in Ollama
 
-Pull a base model:
+   ```
+   ollama create name -f path_to_modelfile
+   ```
+
+5. Run the model
+
+   ```
+   ollama run name
+   ```
+
+### Customize a prompt
+
+Models from the Ollama library can be customized with a prompt. The example
 
 ```
 ollama pull llama2
 ```
-
-> To update a model to the latest version, run `ollama pull llama2` again. The model will be updated (if necessary).
 
 Create a `Modelfile`:
 
@@ -110,46 +119,85 @@ ollama run mario
 Hello! It's your friend Mario.
 ```
 
-For more examples, see the [examples](./examples) directory. For more information on creating a Modelfile, see the [Modelfile](./docs/modelfile.md) documentation.
+For more examples, see the [examples](./examples) directory. For more information on working with a Modelfile, see the [Modelfile](./docs/modelfile.md) documentation.
 
-### Pull a model from the registry
+## CLI Reference
+
+### Create a model
+
+`ollama create` is used to create a model from a Modelfile.
+
+### Pull a model
 
 ```
-ollama pull orca-mini
+ollama pull llama2
 ```
 
-### Listing local models
+> This command can also be used to update a local model. Only the diff will be pulled.
+
+### Remove a model
+
+```
+ollama rm llama2
+```
+
+### Copy a model
+
+```
+ollama cp llama2 my-llama2
+```
+
+### Multiline input
+
+For multiline input, you can wrap text with `"""`:
+
+```
+>>> """Hello,
+... world!
+... """
+I'm a basic program that prints the famous "Hello, world!" message to the console.
+```
+
+### Pass in prompt as arguments
+
+```
+$ ollama run llama2 "summarize this file:" "$(cat README.md)"
+ Ollama is a lightweight, extensible framework for building and running language models on the local machine. It provides a simple API for creating, running, and managing models, as well as a library of pre-built models that can be easily used in a variety of applications.
+```
+
+### List models on your computer
 
 ```
 ollama list
 ```
 
-## Model packages
+### Start Ollama
 
-### Overview
-
-Ollama bundles model weights, configuration, and data into a single package, defined by a [Modelfile](./docs/modelfile.md).
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" height="480" srcset="https://github.com/jmorganca/ollama/assets/251292/2fd96b5f-191b-45c1-9668-941cfad4eb70">
-  <img alt="logo" height="480" src="https://github.com/jmorganca/ollama/assets/251292/2fd96b5f-191b-45c1-9668-941cfad4eb70">
-</picture>
+`ollama serve` is used when you want to start ollama without running the desktop application.
 
 ## Building
 
-You will also need a C/C++ compiler such as GCC for MacOS and Linux or Mingw-w64 GCC for Windows.
+Install `cmake` and `go`:
 
 ```
+brew install cmake
+brew install go
+```
+
+Then generate dependencies and build:
+
+```
+go generate ./...
 go build .
 ```
 
-To run it start the server:
+Next, start the server:
 
 ```
-./ollama serve &
+./ollama serve
 ```
 
-Finally, run a model!
+Finally, in a separate shell, run a model:
 
 ```
 ./ollama run llama2
@@ -168,12 +216,18 @@ curl -X POST http://localhost:11434/api/generate -d '{
 }'
 ```
 
-## Tools using Ollama
+## Community Integrations
 
-- [LangChain](https://python.langchain.com/docs/integrations/llms/ollama) and [LangChain.js](https://js.langchain.com/docs/modules/model_io/models/llms/integrations/ollama) with a question-answering [example](https://js.langchain.com/docs/use_cases/question_answering/local_retrieval_qa).
-- [Continue](https://github.com/continuedev/continue) - embeds Ollama inside Visual Studio Code. The extension lets you highlight code to add to the prompt, ask questions in the sidebar, and generate code inline.
-- [LiteLLM](https://github.com/BerriAI/litellm) a lightweight python package to simplify LLM API calls
-- [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot) - interact with Ollama as a chatbot on Discord.
-- [Raycast Ollama](https://github.com/MassimilianoPasquini97/raycast_ollama) - Raycast extension to use Ollama for local llama inference on Raycast.
-- [Simple HTML UI for Ollama](https://github.com/rtcfirefly/ollama-ui)
-- [Emacs client](https://github.com/zweifisch/ollama) for Ollama
+- [LangChain](https://python.langchain.com/docs/integrations/llms/ollama) and [LangChain.js](https://js.langchain.com/docs/modules/model_io/models/llms/integrations/ollama) with [example](https://js.langchain.com/docs/use_cases/question_answering/local_retrieval_qa)
+- [LlamaIndex](https://gpt-index.readthedocs.io/en/stable/examples/llm/ollama.html)
+- [Raycast extension](https://github.com/MassimilianoPasquini97/raycast_ollama)
+- [Discollama](https://github.com/mxyng/discollama) (Discord bot inside the Ollama discord channel)
+- [Continue](https://github.com/continuedev/continue)
+- [Obsidian Ollama plugin](https://github.com/hinterdupfinger/obsidian-ollama)
+- [Dagger Chatbot](https://github.com/samalba/dagger-chatbot)
+- [LiteLLM](https://github.com/BerriAI/litellm)
+- [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot)
+- [HTML UI](https://github.com/rtcfirefly/ollama-ui)
+- [Typescript UI](https://github.com/ollama-interface/Ollama-Gui?tab=readme-ov-file)
+- [Dumbar](https://github.com/JerrySievert/Dumbar)
+- [Emacs client](https://github.com/zweifisch/ollama)

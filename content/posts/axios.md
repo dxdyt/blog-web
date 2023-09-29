@@ -1,9 +1,9 @@
 ---
 title: axios
-date: 2023-08-12T12:15:55+08:00
+date: 2023-09-29T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690184432960-ea288727b9c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690184432960-ea288727b9c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE4MTM2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693922876041-7fb22341f33a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693922876041-7fb22341f33a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [axios/axios](https://github.com/axios/axios)

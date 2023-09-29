@@ -1,9 +1,9 @@
 ---
 title: ColossalAI
-date: 2023-09-28T12:15:23+08:00
+date: 2023-09-29T12:15:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694878873245-de1db825e20f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694878873245-de1db825e20f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [hpcaitech/ColossalAI](https://github.com/hpcaitech/ColossalAI)

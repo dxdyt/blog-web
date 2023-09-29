@@ -1,9 +1,9 @@
 ---
 title: javascript
-date: 2023-05-21T12:16:01+08:00
+date: 2023-09-29T12:15:02+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12177/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12177/0/1080p
+featuredImage: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [airbnb/javascript](https://github.com/airbnb/javascript)
@@ -306,7 +306,7 @@ Other Style Guides
   <a name="objects--prototype-builtins"></a>
   - [3.7](#objects--prototype-builtins) Do not call `Object.prototype` methods directly, such as `hasOwnProperty`, `propertyIsEnumerable`, and `isPrototypeOf`. eslint: [`no-prototype-builtins`](https://eslint.org/docs/rules/no-prototype-builtins)
 
-    > Why? These methods may be shadowed by properties on the object in question - consider `{ hasOwnProperty: false }` - or, the object may be a null object (`Object.create(null)`).
+    > Why? These methods may be shadowed by properties on the object in question - consider `{ hasOwnProperty: false }` - or, the object may be a null object (`Object.create(null)`). In modern browsers that support ES2022, or with a polyfill such as <https://npmjs.com/object.hasown>, `Object.hasOwn` can also be used as an alternative to `Object.prototype.hasOwnProperty.call`.
 
     ```javascript
     // bad
@@ -315,9 +315,13 @@ Other Style Guides
     // good
     console.log(Object.prototype.hasOwnProperty.call(object, key));
 
-    // best
+    // better
     const has = Object.prototype.hasOwnProperty; // cache the lookup once, in module scope.
     console.log(has.call(object, key));
+
+    // best
+    console.log(Object.hasOwn(object, key)); // only supported in browsers that support ES2022
+
     /* or */
     import has from 'has'; // https://www.npmjs.com/package/has
     console.log(has(object, key));
@@ -646,7 +650,7 @@ Other Style Guides
     ```
 
   <a name="strings--eval"></a><a name="6.5"></a>
-  - [6.4](#strings--eval) Never use `eval()` on a string, it opens too many vulnerabilities. eslint: [`no-eval`](https://eslint.org/docs/rules/no-eval)
+  - [6.4](#strings--eval) Never use `eval()` on a string; it opens too many vulnerabilities. eslint: [`no-eval`](https://eslint.org/docs/rules/no-eval)
 
   <a name="strings--escaping"></a>
   - [6.5](#strings--escaping) Do not unnecessarily escape characters in strings. eslint: [`no-useless-escape`](https://eslint.org/docs/rules/no-useless-escape)
@@ -667,7 +671,7 @@ Other Style Guides
 ## Functions
 
   <a name="functions--declarations"></a><a name="7.1"></a>
-  - [7.1](#functions--declarations) Use named function expressions instead of function declarations. eslint: [`func-style`](https://eslint.org/docs/rules/func-style)
+  - [7.1](#functions--declarations) Use named function expressions instead of function declarations. eslint: [`func-style`](https://eslint.org/docs/rules/func-style), [`func-names`](https://eslint.org/docs/latest/rules/func-names)
 
     > Why? Function declarations are hoisted, which means that it’s easy - too easy - to reference the function before it is defined in the file. This harms readability and maintainability. If you find that a function’s definition is large or complex enough that it is interfering with understanding the rest of the file, then perhaps it’s time to extract it to its own module! Don’t forget to explicitly name the expression, regardless of whether or not the name is inferred from the containing variable (which is often the case in modern browsers or when using compilers such as Babel). This eliminates any assumptions made about the Error’s call stack. ([Discussion](https://github.com/airbnb/javascript/issues/794))
 
@@ -1971,6 +1975,56 @@ Other Style Guides
     }
     ```
 
+  <a name="no-use-before-define"></a>
+  - [14.5](#no-use-before-define) Variables, classes, and functions should be defined before they can be used. eslint: [`no-use-before-define`](https://eslint.org/docs/latest/rules/no-use-before-define)
+
+    > Why? When variables, classes, or functions are declared after being used, it can harm readability since a reader won't know what a thing that's referenced is. It's much clearer for a reader to first encounter the source of a thing (whether imported from another module, or defined in the file) before encountering a use of the thing.
+
+    ```javascript
+    // bad
+
+    // Variable a is being used before it is being defined.
+    console.log(a); // this will be undefined, since while the declaration is hoisted, the initialization is not
+    var a = 10;
+
+    // Function fun is being called before being defined.
+    fun();
+    function fun() {}
+
+    // Class A is being used before being defined.
+    new A(); // ReferenceError: Cannot access 'A' before initialization
+    class A {
+    }
+
+    // `let` and `const` are hoisted, but they don't have a default initialization.
+    // The variables 'a' and 'b' are in a Temporal Dead Zone where JavaScript
+    // knows they exist (declaration is hoisted) but they are not accessible
+    // (as they are not yet initialized).
+
+    console.log(a); // ReferenceError: Cannot access 'a' before initialization
+    console.log(b); // ReferenceError: Cannot access 'b' before initialization
+    let a = 10;
+    const b = 5;
+
+
+    // good
+
+    var a = 10;
+    console.log(a); // 10
+
+    function fun() {}
+    fun();
+
+    class A {
+    }
+    new A();
+
+    let a = 10;
+    const b = 5;
+    console.log(a); // 10
+    console.log(b); // 5
+    ```
+
   - For more information refer to [JavaScript Scoping & Hoisting](https://www.adequatelygood.com/2010/2/JavaScript-Scoping-and-Hoisting/) by [Ben Cherry](https://www.adequatelygood.com/).
 
 **[⬆ back to top](#table-of-contents)**
@@ -2033,7 +2087,7 @@ Other Style Guides
     ```
 
   <a name="comparison--moreinfo"></a><a name="15.4"></a>
-  - [15.4](#comparison--moreinfo) For more information see [Truth Equality and JavaScript](https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
+  - [15.4](#comparison--moreinfo) For more information see [Truth, Equality, and JavaScript](https://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll.
 
   <a name="comparison--switch-blocks"></a><a name="15.5"></a>
   - [15.5](#comparison--switch-blocks) Use braces to create blocks in `case` and `default` clauses that contain lexical declarations (e.g. `let`, `const`, `function`, and `class`). eslint: [`no-case-declarations`](https://eslint.org/docs/rules/no-case-declarations)
@@ -2156,6 +2210,33 @@ Other Style Guides
 
     // good
     const bar = a + (b / c) * d;
+    ```
+
+  <a name="nullish-coalescing-operator"></a>
+  - [15.9](#nullish-coalescing-operator) The nullish coalescing operator (`??`) is a logical operator that returns its right-hand side operand when its left-hand side operand is `null` or `undefined`. Otherwise, it returns the left-hand side operand.
+
+    > Why? It provides precision by distinguishing null/undefined from other falsy values, enhancing code clarity and predictability.
+
+    ```javascript
+    // bad
+    const value = 0 ?? 'default';
+    // returns 0, not 'default'
+
+    // bad
+    const value = '' ?? 'default';
+    // returns '', not 'default'
+
+    // good
+    const value = null ?? 'default';
+    // returns 'default'
+
+    // good
+    const user = {
+      name: 'John',
+      age: null
+    };
+    const age = user.age ?? 18;
+    // returns 18
     ```
 
 **[⬆ back to top](#table-of-contents)**
