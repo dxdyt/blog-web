@@ -1,9 +1,9 @@
 ---
 title: wagtail
-date: 2023-09-29T12:16:32+08:00
+date: 2023-09-30T12:15:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693922876041-7fb22341f33a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693922876041-7fb22341f33a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694445681150-b520d4abc1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694445681150-b520d4abc1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
 ---
 
 # [wagtail/wagtail](https://github.com/wagtail/wagtail)

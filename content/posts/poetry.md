@@ -1,9 +1,9 @@
 ---
 title: poetry
-date: 2023-08-23T12:16:46+08:00
+date: 2023-09-30T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1548957318-e769d68f2ce7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1548957318-e769d68f2ce7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1677746792119-d8f8ee8e77f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1677746792119-d8f8ee8e77f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
 ---
 
 # [python-poetry/poetry](https://github.com/python-poetry/poetry)
@@ -56,7 +56,7 @@ requests = { version = "^2.28", extras = ["security"] }
 # Version-specific dependencies with prereleases allowed
 tomli = { version = "^2.0.1", python = "<3.11", allow-prereleases = true }
 # Git dependencies
-cleo = { git = "https://github.com/python-poetry/cleo.git", branch = "master" }
+cleo = { git = "https://github.com/python-poetry/cleo.git", branch = "main" }
 # Optional dependencies (installed by extras)
 pendulum = { version = "^2.1.2", optional = true }
 

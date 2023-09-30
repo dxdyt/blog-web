@@ -1,9 +1,9 @@
 ---
 title: You-Dont-Know-JS
-date: 2023-08-08T12:18:10+08:00
+date: 2023-09-30T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690367044199-d39c60785e5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690367044199-d39c60785e5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693246532472-e908036be6df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693246532472-e908036be6df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
 ---
 
 # [getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)

@@ -1,9 +1,9 @@
 ---
 title: localstack
-date: 2023-09-29T12:17:28+08:00
+date: 2023-09-30T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692799777373-42655f895bcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692799777373-42655f895bcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694682845794-5054f706b885?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694682845794-5054f706b885?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
 ---
 
 # [localstack/localstack](https://github.com/localstack/localstack)
@@ -102,7 +102,7 @@ Start LocalStack inside a Docker container by running:
   / /___/ /_/ / /__/ /_/ / /___/ / /_/ /_/ / /__/ ,<
  /_____/\____/\___/\__,_/_//____/\__/\__,_/\___/_/|_|
 
- 💻 LocalStack CLI 2.2.0
+ 💻 LocalStack CLI 2.3.0
 
 [20:22:20] starting LocalStack in Docker mode 🐳
 [20:22:21] detaching

@@ -1,9 +1,9 @@
 ---
 title: ProPainter
-date: 2023-09-23T12:15:43+08:00
+date: 2023-09-30T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694373283206-90ce4a58d236?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694373283206-90ce4a58d236?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
 ---
 
 # [sczhou/ProPainter](https://github.com/sczhou/ProPainter)
@@ -40,7 +40,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab
         <a href="https://arxiv.org/abs/2309.03897" target='_blank'>
         <img src="https://img.shields.io/badge/arXiv-2309.03897-b31b1b.svg">
         </a>
-        <a href="https://youtu.be/Cc89WF-2zz0" target='_blank'>
+        <a href="https://youtu.be/92EHfgCO5-Q" target='_blank'>
         <img src="https://img.shields.io/badge/Demo%20Video-%23FF0000.svg?logo=YouTube&logoColor=white">
         </a>
         <img src="https://api.infinitescript.com/badgen/count?name=sczhou/ProPainter">
@@ -58,7 +58,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab
 
 
 ## Update
-
+- **2023.09.24**: We remove the watermark removal demos officially to prevent the misuse of our work for unethical purposes.
 - **2023.09.21**: Add features for memory-efficient inference. Check our [GPU memory](https://github.com/sczhou/ProPainter#-memory-efficient-inference) requirements. 🚀
 - **2023.09.07**: Our code and model are publicly available. 🐳
 - **2023.09.01**: This repo is created.
@@ -83,18 +83,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab
 </tr>
 </table>
 
-#### 🌈 Watermark Removal
-<table>
-<tr>
-   <td> 
-      <img src="assets/watermark_removal1.gif">
-   </td>
-   <td> 
-      <img src="assets/watermark_removal2.gif">
-   </td>
-</tr>
-</table>
-
 #### 🎨 Video Completion
 <table>
 <tr>
@@ -103,6 +91,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab
    </td>
    <td> 
       <img src="assets/video_completion2.gif">
+   </td>
+</tr>
+<tr>
+   <td> 
+      <img src="assets/video_completion3.gif">
+   </td>
+   <td> 
+      <img src="assets/video_completion4.gif">
    </td>
 </tr>
 </table>
@@ -114,6 +110,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab
 
 
 ## Dependencies and Installation
+
 1. Clone Repo
 
    ```bash
@@ -123,13 +120,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab
 2. Create Conda Environment and Install Dependencies
 
    ```bash
-   conda env create -f environment.yaml
+   # create new anaconda env
+   conda create -n propainter python=3.8 -y
    conda activate propainter
+
+   # install python dependencies
+   pip3 install -r requirements.txt
    ```
-   - Python >= 3.7
-   - PyTorch >= 1.6.0
+
    - CUDA >= 9.2
-   - [mmcv-full](https://github.com/open-mmlab/mmcv/tree/v1.4.8#installation) (refer the command table to install v1.4.8)
+   - PyTorch >= 1.7.1
+   - Torchvision >= 0.8.2
+   - Other required packages in `requirements.txt`
 
 ## Get Started
 ### Prepare pretrained models
@@ -151,8 +153,8 @@ Run the following commands to try it out:
 ```shell
 # The first example (object removal)
 python inference_propainter.py --video inputs/object_removal/bmx-trees --mask inputs/object_removal/bmx-trees_mask 
-# The second example (watermark removal)
-python inference_propainter.py --video inputs/watermark_removal/running_car.mp4 --mask inputs/watermark_removal/mask.png
+# The second example (video completion)
+python inference_propainter.py --video inputs/video_completion/running_car.mp4 --mask inputs/video_completion/mask_square.png --height 240 --width 432
 ```
 
 The results will be saved in the `results` folder.
@@ -161,7 +163,7 @@ To test your own videos, please prepare the input `mp4 video` (or `split frames`
 If you want to specify the video resolution for processing or avoid running out of memory, you can set the video size of `--width` and `--height`:
 ```shell
 # process a 576x320 video; set --fp16 to use fp16 (half precision) during inference.
-python inference_propainter.py --video inputs/watermark_removal/running_car.mp4 --mask inputs/watermark_removal/mask.png --height 320 --width 576 --fp16
+python inference_propainter.py --video inputs/video_completion/running_car.mp4 --mask inputs/video_completion/mask_square.png --height 320 --width 576 --fp16
 ```
 
 ### 🚀 Memory-efficient inference

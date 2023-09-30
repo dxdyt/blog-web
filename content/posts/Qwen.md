@@ -1,9 +1,9 @@
 ---
 title: Qwen
-date: 2023-09-28T12:15:02+08:00
+date: 2023-09-30T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693049318107-a4aa59219d10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693049318107-a4aa59219d10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1682665569992-e764e9e6553e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682665569992-e764e9e6553e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen](https://github.com/QwenLM/Qwen)
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693049318107-a4aa59219d
 <br>
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/models/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qianwen-res.oss-cn-beijing.aliyuncs.com/QWEN_TECHNICAL_REPORT.pdf">Paper</a> &nbsp&nbsp ｜ &nbsp&nbsp🖥️ <a href="https://modelscope.cn/studios/qwen/Qwen-14B-Chat-Demo/summary">Demo</a>
+        🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/models/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2309.16609">Paper</a> &nbsp&nbsp ｜ &nbsp&nbsp🖥️ <a href="https://modelscope.cn/studios/qwen/Qwen-14B-Chat-Demo/summary">Demo</a>
 <br>
 <a href="assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp ｜ &nbsp&nbsp DingTalk (钉钉) &nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/z3GAxXZ9Ce">Discord</a>&nbsp&nbsp
 </p>
@@ -405,11 +405,9 @@ sh finetune/finetune_lora_single_gpu.sh
 sh finetune/finetune_lora_ds.sh
 ```
 
-In comparison with full-parameter finetuning, LoRA ([paper](https://arxiv.org/abs/2106.09685)) only updates the parameters of adapter layers but keeps the original large language model layers frozen. This allows much fewer memory costs and thus fewer computation costs. However, if you still suffer from insufficient memory, you can consider Q-LoRA ([paper](https://arxiv.org/abs/2305.14314)), which uses the quantized large language model and other techniques such as paged attention to allow even fewer memory costs. To run Q-LoRA, directly run the following script:
+In comparison with full-parameter finetuning, LoRA ([paper](https://arxiv.org/abs/2106.09685)) only updates the parameters of adapter layers but keeps the original large language model layers frozen. This allows much fewer memory costs and thus fewer computation costs. However, if you still suffer from insufficient memory, you can consider Q-LoRA ([paper](https://arxiv.org/abs/2305.14314)), which uses the quantized large language model and other techniques such as paged attention to allow even fewer memory costs. To run Q-LoRA, directly run the following script (In terms of QLoRA, temporarily we found problems with mixed precision training in the setup of single GPU. We'll fix it as soon as possible):
 
 ```bash
-# Single GPU training
-sh finetune/finetune_qlora_single_gpu.sh
 # Distributed training
 sh finetune/finetune_qlora_ds.sh
 ```
