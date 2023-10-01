@@ -1,9 +1,9 @@
 ---
 title: mistral-src
-date: 2023-09-30T12:14:42+08:00
+date: 2023-10-01T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694445681150-b520d4abc1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694445681150-b520d4abc1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695173584606-cc496a147fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695173584606-cc496a147fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
 ---
 
 # [mistralai/mistral-src](https://github.com/mistralai/mistral-src)

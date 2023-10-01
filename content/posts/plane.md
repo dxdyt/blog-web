@@ -1,9 +1,9 @@
 ---
 title: plane
-date: 2023-09-23T12:15:16+08:00
+date: 2023-10-01T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1692948505024-20a1288d0b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1692948505024-20a1288d0b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
 ---
 
 # [makeplane/plane](https://github.com/makeplane/plane)
@@ -68,17 +68,6 @@ chmod +x setup.sh
 ```
 
 > If running in a cloud env replace localhost with public facing IP address of the VM
-
-- Setup Tiptap Pro
-
-  Visit [Tiptap Pro](https://collab.tiptap.dev/pro-extensions) and signup (it is free).
-
-  Create a **`.npmrc`** file, copy the following and replace your registry token generated from Tiptap Pro.
-
-```
-@tiptap-pro:registry=https://registry.tiptap.dev/
-//registry.tiptap.dev/:_authToken=YOUR_REGISTRY_TOKEN
-```
 
 - Run Docker compose up
 
