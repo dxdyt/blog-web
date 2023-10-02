@@ -1,9 +1,9 @@
 ---
 title: OpenCore-Legacy-Patcher
-date: 2023-09-04T12:17:08+08:00
+date: 2023-10-02T12:15:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692026187565-5cd1ac9a4f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692026187565-5cd1ac9a4f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695338029970-16458268a24a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695338029970-16458268a24a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
 ---
 
 # [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
@@ -103,7 +103,13 @@ To run the project from source, see here: [Build and run from source](./SOURCE.m
   * [FixPCIeLinkrate](https://github.com/joevt/joevtApps)
 * [Jazzzny](https://github.com/Jazzzny)
   * Research and various contributions to the project
-  * Aquantia Ethernet Patch
+  * UEFI Legacy XHCI research and development
+  * NVIDIA OpenCL research and development
+  * `MacBook5,2` research and development
+    * LegacyKeyboardInjector
+  * Pre-Ivy Bridge Aquantia Ethernet Patch
+  * Non-Metal Photo Booth Patch for Monterey+
+  * GUI and Backend Development
 * Amazing users who've graciously donate hardware:
   * [JohnD](https://forums.macrumors.com/members/johnd.53633/) - 2013 Mac Pro
   * [SpiGAndromeda](https://github.com/SpiGAndromeda) - AMD Vega 64

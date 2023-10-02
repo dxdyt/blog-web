@@ -1,9 +1,9 @@
 ---
 title: JavaScript
-date: 2023-10-01T12:17:22+08:00
+date: 2023-10-02T12:15:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693895786267-1f9341880842?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693895786267-1f9341880842?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1621091211034-53136cc1eb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1621091211034-53136cc1eb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript)

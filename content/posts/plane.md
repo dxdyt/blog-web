@@ -1,9 +1,9 @@
 ---
 title: plane
-date: 2023-10-01T12:16:09+08:00
+date: 2023-10-02T12:15:07+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1692948505024-20a1288d0b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1692948505024-20a1288d0b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694704606055-9e30c5fea927?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694704606055-9e30c5fea927?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
 ---
 
 # [makeplane/plane](https://github.com/makeplane/plane)

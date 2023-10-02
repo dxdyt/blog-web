@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2023-08-10T12:16:47+08:00
+date: 2023-10-02T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687217914134-3cd71ed455fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687217914134-3cd71ed455fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE2NDA4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695527602872-fac5b451c897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695527602872-fac5b451c897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
 ---
 
 # [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
@@ -17,6 +17,10 @@ Accessible and customizable components that you can copy and paste into your app
 ## Documentation
 
 Visit http://ui.shadcn.com/docs to view the documentation.
+
+## Contributing
+
+Please read the [contributing guide](/CONTRIBUTING.md).
 
 ## License
 
