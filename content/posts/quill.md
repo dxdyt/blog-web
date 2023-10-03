@@ -1,9 +1,9 @@
 ---
 title: quill
-date: 2023-10-02T12:16:14+08:00
+date: 2023-10-03T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694813646545-2e791ec9d0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694813646545-2e791ec9d0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696023169341-294108cf3bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696023169341-294108cf3bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
 ---
 
 # [joschan21/quill](https://github.com/joschan21/quill)

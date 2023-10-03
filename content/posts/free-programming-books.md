@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-10-02T12:16:07+08:00
+date: 2023-10-03T12:15:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695527602872-fac5b451c897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695527602872-fac5b451c897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694428344133-f3f35568ceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694428344133-f3f35568ceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -177,6 +177,7 @@ This project lists books and other resources grouped by genres:
 
 + [Chinese / 中文](more/free-programming-interactive-tutorials-zh.md)
 + [English](more/free-programming-interactive-tutorials-en.md)
++ [German](more/free-programming-interactive-tutorials-de.md)
 + [Japanese / 日本語](more/free-programming-interactive-tutorials-ja.md)
 + [Portuguese (Brazil)](more/free-programming-interactive-tutorials-pt_BR.md)
 + [Russian / Русский язык](more/free-programming-interactive-tutorials-ru.md)

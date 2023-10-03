@@ -1,9 +1,9 @@
 ---
 title: novu
-date: 2023-09-03T12:16:16+08:00
+date: 2023-10-03T12:15:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693233766191-e4b006231560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693233766191-e4b006231560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
 ---
 
 # [novuhq/novu](https://github.com/novuhq/novu)

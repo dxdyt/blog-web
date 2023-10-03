@@ -1,9 +1,9 @@
 ---
 title: live
-date: 2023-08-01T12:18:13+08:00
+date: 2023-10-03T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689265908194-fed7d4896836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689265908194-fed7d4896836?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693233766191-e4b006231560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693233766191-e4b006231560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
 ---
 
 # [fanmingming/live](https://github.com/fanmingming/live)
@@ -23,46 +23,46 @@ featuredImagePreview: https://images.unsplash.com/photo-1689265908194-fed7d48968
 
 ---
 
-## 🤹‍♂️直播源:
+## 🤹‍♂️源地址:
 
 <table>
   <thead>
     <tr>
       <th>名称</th>
       <th>直播源地址</th>
-      <th>完善源</th>
       <th>频道数</th>
       <th>更新时间</th>
     </tr>
   </thead>
   <tbody>
+      <tr>
+      <td>🌏Global直播源</td>
+      <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
+      <td>212个</td>
+      <td>2023.9.27</td>
+    </tr>
     <tr>
       <td>📺IPTV(IPV6专用)</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
-      <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/ipv6.m3u">编辑该源</a></td>
       <td>120个</td>
-      <td>2023.7.29</td>
-    </tr>
-    <tr>
-      <td>🌏Global直播源</td>
-      <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
-      <td><a href="https://github.com/fanmingming/live/edit/main/tv/m3u/global.m3u">编辑该源</a></td>
-      <td>198个</td>
-      <td>2023.7.28</td>
+      <td>2023.8.28</td>
     </tr>
     <tr>
       <td>📻Radio直播源</td>
       <td><a href="https://live.fanmingming.com/radio/m3u/index.m3u">https://live.fanmingming.com/radio/m3u/index.m3u</a></td>
-      <td><a href="https://github.com/fanmingming/live/edit/main/radio/m3u/index.m3u">编辑该源</a></td>
-      <td>317个</td>
-      <td>2023.5.3</td>
+      <td>304个</td>
+      <td>2023.8.27</td>
     </tr>
   </tbody>
 </table>
 
 ## 🛠️工具
-- 🆕EPG接口地址：
+- 📆EPG接口地址：
   -  [https://live.fanmingming.com/e.xml](https://live.fanmingming.com/e.xml)
+- 🆕Bing每日图片：
+  -  [https://fanmingming.com/bing](https://fanmingming.com/bing)
+- 🎞️m3u8下载工具：
+  -  [https://live.fanmingming.com/m3u8](https://live.fanmingming.com/m3u8)
 - 📄M3U To TXT：
   - Demo🔗 [https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u](https://fanmingming.com/txt?url=https://live.fanmingming.com/tv/m3u/ipv6.m3u)
 - 🌐M3U8 Web Player
@@ -79,5 +79,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1689265908194-fed7d48968
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.7.30
-  - 修复了一些已知的问题。
+- 2023.10.1
+  - 修复了源全失效的问题。祝大家国庆节快乐！
+
+## ☕捐赠
+- 支持项目，赋予更多流量，共创更好体验，让服务更强大！
+  - 自2022年10月创立以来，得益于大家的支持，项目已获得超过6K颗星星，在中文GitHub项目中名声鹊起。感激一路相伴，项目将持续免费。所有款项将透明公示于项目的[Sponsor.MD](https://github.com/fanmingming/live/blob/main/Sponsor.MD)。
+
+<img alt="Sponsor" src="https://live.fanmingming.com/sponsor.png">

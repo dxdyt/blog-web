@@ -1,9 +1,9 @@
 ---
 title: build-your-own-x
-date: 2023-09-07T12:16:15+08:00
+date: 2023-10-03T12:16:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693761935216-a2f3a7017795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693761935216-a2f3a7017795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696023169341-294108cf3bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696023169341-294108cf3bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
 ---
 
 # [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
@@ -145,7 +145,8 @@ It's a great way to learn.
 * [**C++**: _Build Your Own Redis from Scratch_](https://build-your-own.org/redis)
 * [**Golang**: _Build Your Own Database from Scratch: Persistence, Indexing, Concurrency_](https://build-your-own.org/database/)
 * [**Ruby**: _Build your own fast, persistent KV store in Ruby_](https://dinesh.wiki/posts/build-your-own-persistent-kv-store/)
-
+* [**Golang**: _Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
+* 
 #### Build your own `Docker`
 
 * [**C**: _Linux containers in 500 lines of code_](https://blog.lizzie.io/linux-containers-in-500-loc.html)
