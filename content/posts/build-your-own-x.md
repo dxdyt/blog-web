@@ -1,9 +1,9 @@
 ---
 title: build-your-own-x
-date: 2023-10-03T12:16:16+08:00
+date: 2023-10-04T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696023169341-294108cf3bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696023169341-294108cf3bdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
 ---
 
 # [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)

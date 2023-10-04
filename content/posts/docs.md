@@ -1,9 +1,9 @@
 ---
 title: docs
-date: 2023-10-02T12:16:31+08:00
+date: 2023-10-04T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695029400320-f3fc8efa30b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695029400320-f3fc8efa30b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692607334269-e444f4cdc53e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692607334269-e444f4cdc53e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
 ---
 
 # [github/docs](https://github.com/github/docs)
@@ -18,17 +18,19 @@ Use the table of contents icon <img src="/contributing/images/table-of-contents.
 
 ## Contributing
 
-See [the contributing guide](CONTRIBUTING.md) for detailed instructions on how to get started with our project.
+We accept different types of contributions, including some that don't require you to write a single line of code. For detailed instructions on how to get started with our project, see "[About contributing to GitHub Docs](https://docs.github.com/en/contributing/collaborating-on-github-docs/about-contributing-to-github-docs)."
 
-We accept different [types of contributions](https://github.com/github/docs/blob/main/contributing/types-of-contributions.md), including some that don't require you to write a single line of code.
 
-On the GitHub Docs site, you can click the make a contribution button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
+### Ways to contribute
+On the GitHub Docs site, you can contribute by clicking the **Make a contribution** button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
+
+You can also contribute by creating a local environment or opening a Codespace. For more information, see "[Setting up your environment to work on GitHub Docs](https://docs.github.com/en/contributing/setting-up-your-environment-to-work-on-github-docs)."
 
 <img src="./contributing/images/contribution_cta.png" width="400">
 
-For more complex contributions, you can open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
+For more complex contributions, please open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
 
-If you're looking for a way to contribute, you can scan through our [existing issues](https://github.com/github/docs/issues) for something to work on. When ready, check out [Getting Started with Contributing](/CONTRIBUTING.md) for detailed instructions.
+If you're looking for a way to contribute, you can scan through our [help wanted board](https://github.com/github/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to find open issues already approved for work. 
 
 ### Join us in discussions
 

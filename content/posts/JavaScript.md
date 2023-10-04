@@ -1,9 +1,9 @@
 ---
 title: JavaScript
-date: 2023-10-03T12:16:24+08:00
+date: 2023-10-04T12:15:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693233766191-e4b006231560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693233766191-e4b006231560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694392871397-4e2b1e6ad8ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694392871397-4e2b1e6ad8ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/JavaScript](https://github.com/TheAlgorithms/JavaScript)
@@ -11,16 +11,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1693233766191-e4b0062315
 # The Algorithms - JavaScript
 
 <!-- Front Matter -->
+
 JavaScript Repository of TheAlgorithms, which implements various algorithms and data structures in JavaScript.
 
 <div align="center">
 
-  [![JavaScript Banner][banner]](DIRECTORY.md)
+[![JavaScript Banner][banner]](DIRECTORY.md)
 
-  [![Checks][checks]][actions]
-  [![Contributions Welcome][welcome]](CONTRIBUTING.md)
-  [![standard.js][standard-logo]][standard-js]
-  [![Discord chat][chat]][discord-server]
+[![Checks][checks]][actions]
+[![Contributions Welcome][welcome]](CONTRIBUTING.md)
+[![standard.js][standard-logo]][standard-js]
+[![Discord chat][chat]][discord-server]
 
 </div>
 
@@ -49,15 +50,18 @@ many of the algorithms can be found in the [wiki][explanation].
 ---
 
 <!-- Banner Image -->
+
 [banner]: https://user-images.githubusercontent.com/68542775/167072911-dc31eac8-6885-4a05-9c25-279ecce22a79.png
 
 <!-- Badge Links -->
+
 [standard-logo]: https://img.shields.io/badge/code%20style-standardjs-%23f3df49
 [chat]: https://img.shields.io/discord/808045925556682782.svg?logo=discord&colorB=7289DA
 [welcome]: https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3
 [checks]: https://img.shields.io/github/actions/workflow/status/TheAlgorithms/JavaScript/Ci.yml?branch=master&label=checks
 
 <!-- External Links -->
+
 [standard-js]: https://standardjs.com/
 [discord-server]: https://the-algorithms.com/discord/
 [actions]: https://github.com/TheAlgorithms/JavaScript/actions

@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-10-03T12:15:54+08:00
+date: 2023-10-04T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694428344133-f3f35568ceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694428344133-f3f35568ceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -219,7 +219,7 @@ Write, compile and run your code within a browser. Try it out!
 
 + [Chinese / 中文](more/free-programming-playgrounds-zh.md)
 + [English](more/free-programming-playgrounds.md)
-
++ [German](more/free-programming-playgrounds-de.md)
 
 ## Translations
 

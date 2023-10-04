@@ -1,9 +1,9 @@
 ---
 title: conform.nvim
-date: 2023-10-02T12:17:15+08:00
+date: 2023-10-04T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695338029970-16458268a24a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695338029970-16458268a24a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
 ---
 
 # [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
@@ -175,6 +175,7 @@ To view configured and available formatters, as well as to see the log file, run
 <!-- FORMATTERS -->
 
 - [alejandra](https://kamadorueda.com/alejandra/) - The Uncompromising Nix Code Formatter.
+- [astyle](https://astyle.sourceforge.net/astyle.html) - A Free, Fast, and Small Automatic Formatter for C, C++, C++/CLI, Objective-C, C#, and Java Source Code
 - [autoflake](https://github.com/PyCQA/autoflake) - Removes unused imports and unused variables as reported by pyflakes.
 - [autopep8](https://github.com/hhatto/autopep8) - A tool that automatically formats Python code to conform to the PEP 8 style guide.
 - [beautysh](https://github.com/lovesegfault/beautysh) - A Bash beautifier for the masses.
@@ -201,6 +202,7 @@ To view configured and available formatters, as well as to see the log file, run
 - [gofumpt](https://github.com/mvdan/gofumpt) - Enforce a stricter format than gofmt, while being backwards compatible. That is, gofumpt is happy with a subset of the formats that gofmt is happy with.
 - [goimports](https://pkg.go.dev/golang.org/x/tools/cmd/goimports) - Updates your Go import lines, adding missing ones and removing unreferenced ones.
 - [golines](https://github.com/segmentio/golines) - A golang formatter that fixes long lines
+- [google-java-format](https://github.com/google/google-java-format) - Reformats Java source code according to Google Java Style.
 - [htmlbeautifier](https://github.com/threedaymonk/htmlbeautifier) - A normaliser/beautifier for HTML that also understands embedded Ruby. Ideal for tidying up Rails templates.
 - [indent](https://www.gnu.org/software/indent/) - GNU Indent
 - [injected](lua/conform/formatters/injected.lua) - Format treesitter injected languages.
@@ -217,6 +219,7 @@ To view configured and available formatters, as well as to see the log file, run
 - [perltidy](https://github.com/perltidy/perltidy) - Perl::Tidy, a source code formatter for Perl
 - [pg_format](https://github.com/darold/pgFormatter) - PostgreSQL SQL syntax beautifier.
 - [php_cs_fixer](https://github.com/PHP-CS-Fixer/PHP-CS-Fixer) - The PHP Coding Standards Fixer.
+- [phpcbf](https://phpqa.io/projects/phpcbf.html) - PHP Code Beautifier and Fixer fixes violations of a defined coding standard.
 - [prettier](https://github.com/prettier/prettier) - Prettier is an opinionated code formatter. It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
 - [prettierd](https://github.com/fsouza/prettierd) - prettier, as a daemon, for ludicrous formatting speed.
 - [rubocop](https://github.com/rubocop/rubocop) - Ruby static code analyzer and formatter, based on the community Ruby style guide.
@@ -348,6 +351,7 @@ require("conform").formatters.my_formatter = {
 - [Command to toggle format-on-save](doc/recipes.md#command-to-toggle-format-on-save)
 - [Automatically run slow formatters async](doc/recipes.md#automatically-run-slow-formatters-async)
 - [Add extra arguments to a formatter command](doc/recipes.md#add-extra-arguments-to-a-formatter-command)
+- [Lazy loading with lazy.nvim](doc/recipes.md#lazy-loading-with-lazynvim)
 
 <!-- /RECIPES -->
 

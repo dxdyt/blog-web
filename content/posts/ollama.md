@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-09-29T12:16:07+08:00
+date: 2023-10-04T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU5NjA4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695134679878-eaac07f1f9f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695134679878-eaac07f1f9f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -227,6 +227,7 @@ curl -X POST http://localhost:11434/api/generate -d '{
 - [Dagger Chatbot](https://github.com/samalba/dagger-chatbot)
 - [LiteLLM](https://github.com/BerriAI/litellm)
 - [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot)
+- [Chatbot UI](https://github.com/ivanfioravanti/chatbot-ollama)
 - [HTML UI](https://github.com/rtcfirefly/ollama-ui)
 - [Typescript UI](https://github.com/ollama-interface/Ollama-Gui?tab=readme-ov-file)
 - [Dumbar](https://github.com/JerrySievert/Dumbar)
