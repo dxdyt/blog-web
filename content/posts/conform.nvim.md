@@ -1,9 +1,9 @@
 ---
 title: conform.nvim
-date: 2023-10-04T12:16:30+08:00
+date: 2023-10-05T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693931958876-8f86765b6bcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693931958876-8f86765b6bcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
 ---
 
 # [stevearc/conform.nvim](https://github.com/stevearc/conform.nvim)
@@ -197,6 +197,7 @@ To view configured and available formatters, as well as to see the log file, run
 - [erb_format](https://github.com/nebulab/erb-formatter) - Format ERB files with speed and precision.
 - [eslint_d](https://github.com/mantoni/eslint_d.js/) - Like ESLint, but faster.
 - [fish_indent](https://fishshell.com/docs/current/cmds/fish_indent.html) - Indent or otherwise prettify a piece of fish code.
+- [gci](https://github.com/daixiang0/gci) - GCI, a tool that controls Go package import order and makes it always deterministic.
 - [gdformat](https://github.com/Scony/godot-gdscript-toolkit) - A formatter for Godot's gdscript.
 - [gofmt](https://pkg.go.dev/cmd/gofmt) - Formats go programs.
 - [gofumpt](https://github.com/mvdan/gofumpt) - Enforce a stricter format than gofmt, while being backwards compatible. That is, gofumpt is happy with a subset of the formats that gofmt is happy with.
@@ -212,6 +213,7 @@ To view configured and available formatters, as well as to see the log file, run
 - [markdown-toc](https://github.com/jonschlinkert/markdown-toc) - API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files.
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - A Node.js style checker and lint tool for Markdown/CommonMark files.
 - [mdformat](https://github.com/executablebooks/mdformat) - An opinionated Markdown formatter.
+- [mix](https://hexdocs.pm/mix/main/Mix.Tasks.Format.html) - Format Elixir files using the mix format command.
 - [nixfmt](https://github.com/serokell/nixfmt) - nixfmt is a formatter for Nix code, intended to apply a uniform style.
 - [nixpkgs_fmt](https://github.com/nix-community/nixpkgs-fmt) - nixpkgs-fmt is a Nix code formatter for nixpkgs.
 - [ocamlformat](https://github.com/ocaml-ppx/ocamlformat) - Auto-formatter for OCaml code.

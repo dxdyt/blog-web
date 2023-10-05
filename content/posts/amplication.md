@@ -1,9 +1,9 @@
 ---
 title: amplication
-date: 2023-10-03T12:16:47+08:00
+date: 2023-10-05T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694930103783-4c17887c1a13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694930103783-4c17887c1a13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694717476815-f750d916212f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694717476815-f750d916212f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
 ---
 
 # [amplication/amplication](https://github.com/amplication/amplication)

@@ -1,20 +1,19 @@
 ---
 title: openstatus
-date: 2023-08-03T12:16:27+08:00
+date: 2023-10-05T12:17:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688619104606-4608282777bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688619104606-4608282777bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695146695494-f74c1ccbcba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695146695494-f74c1ccbcba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
 ---
 
 # [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus)
 
 <p align="center" style="margin-top: 120px">
 
-  <h3 align="center">The Open-source Status Page and Alerting System
-   </h3>
+  <h3 align="center">The Open-Source Synthetic Monitoring Platform with Incident Management</h3>
 
   <p align="center">
-    The Atlassian's Statuspage Open Source Alternative.
+    The Open-Source Serverless monitoring platform.
     <br />
     <a href="https://www.openstatus.dev"><strong>Learn more »</strong></a>
     <br />
@@ -31,9 +30,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1688619104606-4608282777
 
 ## About OpenStatus
 
-OpenStatus is open-source status page and alerting system. We are building it
-publicly for everyone to see our progress. We believe great softwares are built
-this way.
+OpenStatus is open-source synthetic monitoring platform with beautiful status
+page. We are building it publicly for everyone to see our progress. We believe
+great softwares are built this way.
 
 You can choose to host it yourself or use our hosted version at
 [openstatus.dev](https://www.openstatus.dev)
@@ -41,9 +40,9 @@ You can choose to host it yourself or use our hosted version at
 ## Contact us
 
 If you want to learn more about this project or have any questions, book a call
-with us or send us an email at
-[hello@openstatus.dev](mailto:hello@openstatus.dev) <br/><br/>
-<a href="https://cal.com/thibault-openstatus/30min"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
+with us or send us an email at [ping@openstatus.dev](mailto:ping@openstatus.dev)
+<br/><br/>
+<a href="https://cal.com/team/openstatus/30min"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
 
 ## Built with
 
@@ -100,6 +99,12 @@ the link you get after entering:
 ```
 $ ngrok http 3000
 ```
+
+### Videos
+
+Videos to better understand the OpenStatus codebase:
+
+- [The code behind OpenStatus and how it uses Turbopack](https://youtube.com/watch?v=PYfSJATE8v8).
 
 ## Roadmap
 
