@@ -1,9 +1,9 @@
 ---
 title: localpilot
-date: 2023-10-05T12:15:31+08:00
+date: 2023-10-06T12:16:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694428272446-c65c798a3e3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694428272446-c65c798a3e3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694857936498-4a94ffcafb6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694857936498-4a94ffcafb6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [danielgross/localpilot](https://github.com/danielgross/localpilot)

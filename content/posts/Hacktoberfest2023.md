@@ -1,9 +1,9 @@
 ---
 title: Hacktoberfest2023
-date: 2023-10-05T12:16:53+08:00
+date: 2023-10-06T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695146695494-f74c1ccbcba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695146695494-f74c1ccbcba0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695264474184-56e65adf126b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695264474184-56e65adf126b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [ossamamehmood/Hacktoberfest2023](https://github.com/ossamamehmood/Hacktoberfest2023)

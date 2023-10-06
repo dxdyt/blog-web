@@ -1,9 +1,9 @@
 ---
 title: DocsGPT
-date: 2023-10-05T12:17:07+08:00
+date: 2023-10-06T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694717476815-f750d916212f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694717476815-f750d916212f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695605302783-fd906b98389e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695605302783-fd906b98389e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
@@ -48,7 +48,7 @@ When deploying your DocsGPT to a live environment, we're eager to provide person
 
 You can find our [Roadmap](https://github.com/orgs/arc53/projects/2) here. Please don't hesitate to contribute or create issues, it helps us make DocsGPT better!
 
-## Our open source models optimised for DocsGPT:
+## Our Open-Source models optimised for DocsGPT:
 
 | Name              | Base Model | Requirements (or similar)                        |
 |-------------------|------------|----------------------------------------------------------|

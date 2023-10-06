@@ -1,9 +1,9 @@
 ---
 title: heissepreise
-date: 2023-09-19T12:16:23+08:00
+date: 2023-10-06T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693057891644-3765385db36c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwOTY5MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694399120199-72ac9241c2f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694399120199-72ac9241c2f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [badlogic/heissepreise](https://github.com/badlogic/heissepreise)

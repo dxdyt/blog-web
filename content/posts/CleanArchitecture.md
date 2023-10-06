@@ -1,9 +1,9 @@
 ---
 title: CleanArchitecture
-date: 2023-10-03T12:15:45+08:00
+date: 2023-10-06T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682917595484-41b62dc54320?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682917595484-41b62dc54320?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694638278223-4c3907aa2354?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694638278223-4c3907aa2354?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)

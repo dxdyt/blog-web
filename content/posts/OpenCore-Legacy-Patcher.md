@@ -1,9 +1,9 @@
 ---
 title: OpenCore-Legacy-Patcher
-date: 2023-10-05T12:15:56+08:00
+date: 2023-10-06T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693251802295-0c14bee04607?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693251802295-0c14bee04607?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694638278223-4c3907aa2354?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694638278223-4c3907aa2354?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
 ---
 
 # [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
