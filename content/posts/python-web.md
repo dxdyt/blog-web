@@ -1,9 +1,9 @@
 ---
 title: python-web
-date: 2023-10-06T12:15:23+08:00
+date: 2023-10-07T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694399120199-72ac9241c2f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694399120199-72ac9241c2f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691731052420-9ca36fbcf294?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691731052420-9ca36fbcf294?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
 ---
 
 # [mouredev/python-web](https://github.com/mouredev/python-web)

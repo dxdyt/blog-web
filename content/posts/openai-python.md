@@ -1,9 +1,9 @@
 ---
 title: openai-python
-date: 2023-10-06T12:16:09+08:00
+date: 2023-10-07T12:14:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695264474184-56e65adf126b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695264474184-56e65adf126b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694659694812-6d46a6d43040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694659694812-6d46a6d43040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-python](https://github.com/openai/openai-python)
