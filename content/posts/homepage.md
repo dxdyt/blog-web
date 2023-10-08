@@ -1,9 +1,9 @@
 ---
 title: homepage
-date: 2023-10-07T12:17:22+08:00
+date: 2023-10-08T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696346524893-11441b41cea4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696346524893-11441b41cea4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692542871594-bf42eac1964f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692542871594-bf42eac1964f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
 ---
 
 # [gethomepage/homepage](https://github.com/gethomepage/homepage)

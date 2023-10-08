@@ -1,9 +1,9 @@
 ---
 title: ferrocene
-date: 2023-10-07T12:15:16+08:00
+date: 2023-10-08T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694889649834-91ff242d1763?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694889649834-91ff242d1763?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693491012999-09a3764eab33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693491012999-09a3764eab33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
 ---
 
 # [ferrocene/ferrocene](https://github.com/ferrocene/ferrocene)
