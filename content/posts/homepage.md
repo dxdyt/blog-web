@@ -1,9 +1,9 @@
 ---
 title: homepage
-date: 2023-10-08T12:16:55+08:00
+date: 2023-10-09T12:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692542871594-bf42eac1964f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692542871594-bf42eac1964f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696356261348-fbea2cb5d2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696356261348-fbea2cb5d2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
 ---
 
 # [gethomepage/homepage](https://github.com/gethomepage/homepage)
@@ -29,6 +29,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1692542871594-bf42eac196
   <a href="https://crowdin.com/project/gethomepage" target="_blank"><img src="https://badges.crowdin.net/gethomepage/localized.svg"></a>
   &nbsp;
   <a href="https://discord.gg/k4ruYNrudu"><img alt="Discord" src="https://img.shields.io/discord/1019316731635834932"></a>
+  &nbsp;
+  <a href="http://gethomepage.dev/latest/" title="Docs"><img title="Docs" src="https://github.com/gethomepage/homepage/actions/workflows/docs-publish.yml/badge.svg"/></a>
   &nbsp;
   <a href="https://paypal.me/phelpsben" title="Donate"><img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/benphelps"></a>
 </p>
@@ -132,7 +134,7 @@ pnpm dev
 
 # Configuration
 
-Please refere to the [homepage documentation](https://gethomepage.dev/) website for more information. Everything you need to know about configuring Homepage is there. Please read everything carefully before asking for help, as most questions are answered there or are simple YAML configuration issues.
+Please refer to the [homepage documentation](https://gethomepage.dev/) website for more information. Everything you need to know about configuring Homepage is there. Please read everything carefully before asking for help, as most questions are answered there or are simple YAML configuration issues.
 
 # Development
 
@@ -153,6 +155,8 @@ Open [http://localhost:3000](http://localhost:3000) to start.
 This is a [Next.js](https://nextjs.org/) application, see their documentation for more information.
 
 # Documentation
+
+The homepage documentation is available at [https://gethomepage.dev/](https://gethomepage.dev/).
 
 Homepage uses Material for MkDocs for documentation. To run the documentation locally, first install the dependencies:
 

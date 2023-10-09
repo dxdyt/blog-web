@@ -1,9 +1,9 @@
 ---
 title: vue-pure-admin
-date: 2023-05-07T12:17:02+08:00
+date: 2023-10-09T12:17:19+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12099/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12099/0/1080p
+featuredImage: https://images.unsplash.com/photo-1694500170851-90c0ce55ae47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694500170851-90c0ce55ae47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
 ---
 
 # [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin)
@@ -32,10 +32,9 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12099/0/1080p
 - [点我查看快速开发教程](https://www.bilibili.com/video/BV1kg411v7QT)
 - [点我查看 UI 设计](https://www.bilibili.com/video/BV17g411T7rq)
 
-## 配套保姆级文档（支持 `PWA` 快速、离线访问）
+## 配套保姆级文档
 
-- [点我查看国内文档站](https://yiming_chang.gitee.io/pure-admin-doc)
-- [点我查看国外文档站](https://pure-admin.github.io/pure-admin-doc)
+- [查看文档](https://yiming_chang.gitee.io/pure-admin-doc)
 
 ## `Tauri` 版
 
@@ -47,8 +46,7 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12099/0/1080p
 
 ## 预览
 
-- [点我查看国内预览站](https://yiming_chang.gitee.io/vue-pure-admin)
-- [点我查看国外预览站](https://pure-admin.github.io/vue-pure-admin)
+- [查看预览](https://yiming_chang.gitee.io/vue-pure-admin)
 
 - PC 端
 <p align="center">
@@ -102,6 +100,28 @@ pnpm serve
 pnpm build
 ```
 
+## Docker 支持
+
+1. 自定义镜像名为 `vue-pure-admin` 的镜像（请注意下面命令末尾有一个点 `.` 表示使用当前路径下的 `Dockerfile` 文件，可根据实际情况指定路径）
+
+```bash
+docker build -t vue-pure-admin .
+```
+
+2. 端口映射并启动 `docker` 容器（`8080:80`：表示在容器中使用 `80` 端口，并将该端口转发到主机的 `8080` 端口；`pure-admin`：表示自定义容器名；`vue-pure-admin`：表示自定义镜像名）
+
+```bash
+docker run -dp 8080:80  --name pure-admin vue-pure-admin
+```
+
+操作完上面两个命令后，在浏览器打开 `http://localhost:8080` 即可预览
+
+当然也可以通过 [Docker Desktop](https://www.docker.com/products/docker-desktop/) 可视化界面去操作 `docker` 项目，如下图
+
+<p align="center">
+  <img alt="docker" width="100%" src="https://yiming_chang.gitee.io/pure-admin-doc/img/docker/1.jpg">
+</p>
+
 ## 更新日志
 
 [CHANGELOG](./CHANGELOG.zh_CN.md)
@@ -150,37 +170,11 @@ pnpm build
 
 [xiaoxian521](https://github.com/xiaoxian521)、[Ten-K](https://github.com/Ten-K)
 
-## 支持
-
-如果您觉得这个项目对您有帮助，可以帮作者买一杯果汁 🍹 表示支持
-
-<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f69bf13c5b854ed5b699807cafa0e3ce~tplv-k3u1fbpfcp-zoom-in-crop-mark:1304:0:0:0.awebp?" width="150px" height="150px" />
-
-## `QQ` 交流群
-
-[点击去加入](https://yiming_chang.gitee.io/pure-admin-doc/pages/support/#qq-%E4%BA%A4%E6%B5%81%E7%BE%A4)
-
 ## 许可证
 
-原则上不收取任何费用及版权，可以放心使用，不过如需二次开源（比如用此平台二次开发并开源）请联系作者获取许可！
+原则上不收取任何费用及版权，可商用，不过如需二次开源（比如用此平台二次开发并开源，要求前端代码必须开源免费）请联系作者获取许可！（免费，走个记录而已）
 
-[MIT © xiaoxian521-2023](./LICENSE)
-
-## 支持者
-
-非常感谢您们的支持，相信项目会越来越好 :heart:
-
-|                                                                xueyuheng                                                                 |                                                                taolei1990                                                                 |                                                                hang-kim                                                                 |                                                               madwolfcrazy                                                                |                                                                limuen                                                                 |                                                                BenLakes                                                                 |
-| :--------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
-| <a href="https://github.com/xueyuheng"><img src="https://avatars.githubusercontent.com/u/48202935?v=4" width="60px" height="60px" /></a> | <a href="https://github.com/taolei1990"><img src="https://avatars.githubusercontent.com/u/23173640?v=4" width="60px" height="60px" /></a> | <a href="https://github.com/hang-kim"><img src="https://avatars.githubusercontent.com/u/52914259?v=4" width="60px" height="60px" /></a> | <a href="https://github.com/madwolfcrazy"><img src="https://avatars.githubusercontent.com/u/223671?v=4" width="60px" height="60px" /></a> | <a href="https://github.com/limuen"><img src="https://avatars.githubusercontent.com/u/31790606?v=4" width="60px" height="60px" /></a> | <a href="https://github.com/BenLakes"><img src="https://avatars.githubusercontent.com/u/15206046?v=4" width="60px" height="60px" /></a> |
-|                                                                mollerzhu                                                                 |                                                                  TLovers                                                                  |                                                                  cnyyk                                                                  |                                                                                                                                           |                                                                                                                                       |                                                                                                                                         |
-| <a href="https://github.com/mollerzhu"><img src="https://avatars.githubusercontent.com/u/49627902?v=4" width="60px" height="60px" /></a> |  <a href="https://github.com/TLovers"><img src="https://avatars.githubusercontent.com/u/26561694?v=4" width="60px" height="60px" /></a>   |   <a href="https://github.com/cnyyk"><img src="https://avatars.githubusercontent.com/u/275233?v=4" width="60px" height="60px" /></a>    |                                                                                                                                           |                                                                                                                                       |                                                                                                                                         |
-
-## 贡献者
-
-感谢所有做出贡献的人 :heart:
-
-<a href="https://github.com/pure-admin/vue-pure-admin/graphs/contributors"><img src="https://contrib.rocks/image?repo=pure-admin/vue-pure-admin" /></a>
+[MIT © 2020-present, pure-admin](./LICENSE)
 
 ## `Star`
 
