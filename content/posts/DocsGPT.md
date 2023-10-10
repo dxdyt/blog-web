@@ -1,9 +1,9 @@
 ---
 title: DocsGPT
-date: 2023-10-09T12:15:19+08:00
+date: 2023-10-10T12:15:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694428272446-c65c798a3e3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694428272446-c65c798a3e3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694817322913-2aab0898c577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694817322913-2aab0898c577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
 ---
 
 # [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
@@ -34,7 +34,7 @@ Say goodbye to time-consuming manual searches, and let <strong><a href="https://
 ### Production Support / Help for companies: 
 
 We're eager to provide personalized assistance when deploying your DocsGPT to a live environment.
-- [Get Support 👋](https://airtable.com/appdeaL0F1qV8Bl2C/shrrJF1Ll7btCJRbP)
+- [Get Support 👋](https://cal.com/arc53/docsgpt-demo-b2b)
 - [Send Email ✉️](mailto:contact@arc53.com?subject=DocsGPT%20support%2Fsolutions)
   
 ### [🎉 Join the Hacktoberfest with DocsGPT and Earn a Free T-shirt! 🎉](https://github.com/arc53/DocsGPT/blob/main/HACKTOBERFEST.md)
@@ -64,17 +64,20 @@ If you don't have enough resources to run it, you can use bitsnbytes to quantize
 
 
 ## Useful links
- [Live preview](https://docsgpt.arc53.com/)
+
+ - 🔍🔥 [Live preview](https://docsgpt.arc53.com/)
  
- [Join our Discord](https://discord.gg/n5BX8dh8rU)
+ - 💬🎉[Join our Discord](https://discord.gg/n5BX8dh8rU)
  
- [Guides](https://docs.docsgpt.co.uk/)
+ - 📚😎 [Guides](https://docs.docsgpt.co.uk/)
 
- [Interested in contributing?](https://github.com/arc53/DocsGPT/blob/main/CONTRIBUTING.md)
+ - 👩‍💻👨‍💻 [Interested in contributing?](https://github.com/arc53/DocsGPT/blob/main/CONTRIBUTING.md)
 
- [How to use any other documentation](https://docs.docsgpt.co.uk/Guides/How-to-train-on-other-documentation)
+ - 🗂️🚀 [How to use any other documentation](https://docs.docsgpt.co.uk/Guides/How-to-train-on-other-documentation)
 
- [How to host it locally (so all data will stay on-premises)](https://docs.docsgpt.co.uk/Guides/How-to-use-different-LLM)
+ - 🏠🔐  [How to host it locally (so all data will stay on-premises)](https://docs.docsgpt.co.uk/Guides/How-to-use-different-LLM)
+
+
 
 
 ## Project structure
@@ -147,9 +150,9 @@ python -m venv venv
  venv/Scripts/activate
 ```
 
-3. Change to the `application/` subdir and install dependencies for the backend:
+3. Change to the `application/` subdir by the command `cd application/` and install dependencies for the backend:
 ```commandline
-pip install -r application/requirements.txt
+pip install -r requirements.txt
 ```
 4. Run the app using `flask run --host=0.0.0.0 --port=7091`.
 5. Start worker with `celery -A application.app.celery worker -l INFO`.
@@ -159,8 +162,13 @@ pip install -r application/requirements.txt
 Make sure you have Node version 16 or higher.
 
 1. Navigate to the [/frontend](https://github.com/arc53/DocsGPT/tree/main/frontend) folder.
-2. Install dependencies by running `npm install`.
-3. Run the app using `npm run dev`.
+2. Install required packages `husky` and `vite` (ignore if installed).
+```commandline
+npm install husky -g
+npm install vite -g
+```
+3. Install dependencies by running `npm install --include=dev`.
+4. Run the app using `npm run dev`.
 
 
 ## Contributing

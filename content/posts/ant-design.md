@@ -1,9 +1,9 @@
 ---
 title: ant-design
-date: 2023-08-31T12:15:45+08:00
+date: 2023-10-10T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690544733906-4a2625bc76b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690544733906-4a2625bc76b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694875464862-978a879a1210?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694875464862-978a879a1210?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
 ---
 
 # [ant-design/ant-design](https://github.com/ant-design/ant-design)
@@ -57,7 +57,7 @@ An enterprise-class UI design language and React UI library.
 
 [![](https://user-images.githubusercontent.com/507615/209472919-6f7e8561-be8c-4b0b-9976-eb3c692aa20a.png)](https://ant.design)
 
-English | [Português](./README-pt_BR.md) | [简体中文](./README-zh_CN.md) | [Українською](./README-uk_UA.md) | [Spanish](./README-sp_MX.md) | [日本語](./README-ja_JP.md) | [العربية](./README-ar_EG.md)
+English | [中文](./README-zh_CN.md)
 
 ## ✨ Features
 
@@ -86,6 +86,10 @@ npm install antd
 
 ```bash
 yarn add antd
+```
+
+```bash
+pnpm add antd
 ```
 
 ## 🔨 Usage
@@ -158,7 +162,7 @@ We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.c
 
 If you are a collaborator, please follow our [Pull Request principle](https://github.com/ant-design/ant-design/wiki/PR-principle) to create a Pull Request with [collaborator template](https://github.com/ant-design/ant-design/compare?expand=1&template=collaborator.md).
 
-[![Let's fund issues in this repository](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/repos/34526884)
+[![Let's fund issues in this repository](https://raw.githubusercontent.com/BoostIO/issuehunt-materials/master/v1/issuehunt-button-v1.svg)](https://issuehunt.io/repos/34526884)
 
 ## ❤️ Sponsors and Backers [![](https://opencollective.com/ant-design/tiers/sponsors/badge.svg?label=Sponsors&color=brightgreen)](https://opencollective.com/ant-design#support) [![](https://opencollective.com/ant-design/tiers/backers/badge.svg?label=Backers&color=brightgreen)](https://opencollective.com/ant-design#support)
 

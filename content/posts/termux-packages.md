@@ -1,9 +1,9 @@
 ---
 title: termux-packages
-date: 2023-09-04T12:15:30+08:00
+date: 2023-10-10T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693250707557-a846a014b321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693250707557-a846a014b321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695711453545-0b33b06df225?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695711453545-0b33b06df225?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
 ---
 
 # [termux/termux-packages](https://github.com/termux/termux-packages)
@@ -16,6 +16,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1693250707557-a846a014b3
 [![Repology metadata](https://github.com/termux/repology-metadata/workflows/Repology%20metadata/badge.svg)](https://repology.org/repository/termux)
 [![Join the chat at https://gitter.im/termux/termux](https://badges.gitter.im/termux/termux.svg)](https://gitter.im/termux/termux)
 [![Join the Termux discord server](https://img.shields.io/discord/641256914684084234.svg?label=&logo=discord&logoColor=ffffff&color=5865F2)](https://discord.gg/HXpF69X)
+
+[![Repository status](https://repology.org/badge/repository-big/termux.svg)](https://repology.org/repository/termux)
 
 <img src=".github/static/hosted-by-hetzner.png" alt="Hosted by Hetzner" width="128px"></img>
 

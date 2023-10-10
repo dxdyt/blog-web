@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2023-05-26T12:15:21+08:00
+date: 2023-10-10T12:17:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12167/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12167/0/1080p
+featuredImage: https://images.unsplash.com/photo-1692319772068-bcc402cf48fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692319772068-bcc402cf48fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)
@@ -38,33 +38,57 @@ trigger when going through the code samples. We hope to improve on this via
 [speaker notes](https://github.com/google/comprehensive-rust/issues/53) and by
 [publishing videos](https://github.com/google/comprehensive-rust/issues/52).
 
+## Press
+
+Articles and blog posts from around the web which cover Comprehensive Rust:
+
+- 2023-09-08:
+  _[Teaching Rust in 5 days](https://mo8it.com/blog/teaching-rust/)_.
+  Comprehensive Rust was used as a base for a 5-day university class on Rust.
+- 2023-09-21:
+  _[Scaling Rust Adoption Through Training](https://security.googleblog.com/2023/09/scaling-rust-adoption-through-training.html)_.
+  We published a blog post with details on the development of the course.
+- 2023-10-02:
+  _[In Search of Rust Developers, Companies Turn to In-House Training](https://www.darkreading.com/application-security/google-microsoft-take-refuge-in-rust-languages-better-security)_.
+  About how Microsoft, Google, and others are training people in Rust.
+
 ## Building
 
 The course is built using a few tools:
+
 - [mdbook](https://github.com/rust-lang/mdBook)
 - [mdbook-svgbob](https://github.com/boozook/mdbook-svgbob)
 - [mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers)
 - [mdbook-exerciser](mdbook-exerciser/)
+- [mdbook-course](mdbook-course/)
 
-Install these tools with:
+First clone the repository:
 
 ```shell
-$ cargo install mdbook
-$ cargo install mdbook-svgbob
-$ cargo install mdbook-i18n-helpers
-$ cargo install --path mdbook-exerciser
+git clone https://github.com/google/comprehensive-rust/
+cd comprehensive-rust
 ```
 
-Then run
+Then install these tools with:
 
 ```shell
-$ mdbook test
+cargo install mdbook
+cargo install mdbook-svgbob
+cargo install mdbook-i18n-helpers
+cargo install --path mdbook-exerciser
+cargo install --path mdbook-course
+```
+
+Run
+
+```shell
+mdbook test
 ```
 
 to test all included Rust snippets. Run
 
 ```shell
-$ mdbook serve
+mdbook serve
 ```
 
 to start a web server with the course. You'll find the content on
@@ -74,9 +98,13 @@ and zip exercises and add them to `book/html`. To build any of the translated
 versions of the course, run `MDBOOK_BOOK__LANGUAGE=xx mdbook build -d book/xx`
 where `xx` is the ISO 639 language code (e.g. `da` for the Danish translation).
 [TRANSLATIONS.md](TRANSLATIONS.md) contains further instructions.
+
+> **Note** On Windows, you need to enable symlinks
+> (`git config --global core.symlinks true`) and Developer Mode.
+
 ## Contact
 
-For questions or comments, please contact [Martin
-Geisler](mailto:mgeisler@google.com) or start a [discussion on
-GitHub](https://github.com/google/comprehensive-rust/discussions). We would love
-to hear from you.
+For questions or comments, please contact
+[Martin Geisler](mailto:mgeisler@google.com) or start a
+[discussion on GitHub](https://github.com/google/comprehensive-rust/discussions).
+We would love to hear from you.

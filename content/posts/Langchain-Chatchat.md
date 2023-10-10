@@ -1,9 +1,9 @@
 ---
 title: Langchain-Chatchat
-date: 2023-10-09T12:17:03+08:00
+date: 2023-10-10T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693875653842-972e336b3a2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693875653842-972e336b3a2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694675042062-f73713a6a122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694675042062-f73713a6a122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
 ---
 
 # [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
@@ -459,7 +459,7 @@ CUDA_VISIBLE_DEVICES=0,1 python startup.py -a
 
 ## 项目交流群
 
-<img src="img/qr_code_64.jpg" alt="二维码" width="300" height="300" />
+<img src="img/qr_65.png" alt="二维码" width="300" height="300" />
 
 🎉 langchain-Chatchat 项目微信交流群，如果你也对本项目感兴趣，欢迎加入群聊参与讨论交流。
 
