@@ -1,9 +1,9 @@
 ---
 title: JavaGuide
-date: 2023-09-21T12:17:28+08:00
+date: 2023-10-11T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694467666983-3fa4a29e7ecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694467666983-3fa4a29e7ecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694401460150-8ff037e198b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694401460150-8ff037e198b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
 ---
 
 # [Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)

@@ -1,9 +1,9 @@
 ---
 title: vue-vben-admin
-date: 2023-10-09T12:17:56+08:00
+date: 2023-10-11T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694211962257-81690081b9b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694211962257-81690081b9b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
 ---
 
 # [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)

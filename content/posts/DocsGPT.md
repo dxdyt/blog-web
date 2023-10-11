@@ -1,9 +1,9 @@
 ---
 title: DocsGPT
-date: 2023-10-10T12:15:04+08:00
+date: 2023-10-11T12:15:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694817322913-2aab0898c577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694817322913-2aab0898c577?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695650858277-6d1eb7ce3216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695650858277-6d1eb7ce3216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
 ---
 
 # [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
@@ -34,7 +34,7 @@ Say goodbye to time-consuming manual searches, and let <strong><a href="https://
 ### Production Support / Help for companies: 
 
 We're eager to provide personalized assistance when deploying your DocsGPT to a live environment.
-- [Get Support 👋](https://cal.com/arc53/docsgpt-demo-b2b)
+- [Book Demo 👋](https://cal.com/arc53/docsgpt-demo-b2b)
 - [Send Email ✉️](mailto:contact@arc53.com?subject=DocsGPT%20support%2Fsolutions)
   
 ### [🎉 Join the Hacktoberfest with DocsGPT and Earn a Free T-shirt! 🎉](https://github.com/arc53/DocsGPT/blob/main/HACKTOBERFEST.md)

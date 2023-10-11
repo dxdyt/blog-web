@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2023-10-10T12:14:58+08:00
+date: 2023-10-11T12:14:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695711453545-0b33b06df225?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695711453545-0b33b06df225?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -88,7 +88,7 @@ All generated code will be stored in the folder `workspace` inside the folder na
 
 ## 🐳 How to start gpt-pilot in docker?
 1. `git clone https://github.com/Pythagora-io/gpt-pilot.git` (clone the repo)
-2. Update the `docker-compose.yml` environment variables
+2. Update the `docker-compose.yml` environment variables, which can be done via `docker compose config`
 3. run `docker compose build`. this will build a gpt-pilot container for you.
 4. run `docker compose up`.
 5. access the web terminal on `port 7681`
