@@ -1,9 +1,9 @@
 ---
 title: FinGLM
-date: 2023-10-11T12:15:57+08:00
+date: 2023-10-12T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1614174124242-4b3656523295?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1614174124242-4b3656523295?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695642579321-fcb1fc79b976?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695642579321-fcb1fc79b976?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
 ---
 
 # [MetaGLM/FinGLM](https://github.com/MetaGLM/FinGLM)
@@ -181,7 +181,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1614174124242-4b36565232
 ## 🏆 开源项目
 
 ### 0. FinGLM_all 
-[[PPT]](.slides/安硕硕眼探企分享及FinGLM开源发布.pdf) [[视频]](https://www.bilibili.com/video/BV1ip4y1F7Gw/)[[代码]](./code/finglm_all)
+[[PPT]](./slides/安硕硕眼探企分享及FinGLM开源发布.pdf) [[视频]](https://www.bilibili.com/video/BV1ip4y1F7Gw/)[[代码]](./code/finglm_all)
 
 本项目为安硕硕眼探企团队，根据自己的项目以及其他几队的项目整合而成。后续我们也将围绕此项目进行持续迭代升级。
 

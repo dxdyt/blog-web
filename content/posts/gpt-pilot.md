@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2023-10-11T12:14:52+08:00
+date: 2023-10-12T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1694124534075-1ed0e024b200?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1694124534075-1ed0e024b200?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -19,7 +19,7 @@ You specify what kind of app you want to build. Then, GPT Pilot asks clarifying 
 * [🔌 Requirements](#-requirements)
 * [🚦How to start using gpt-pilot?](#how-to-start-using-gpt-pilot)
     * [🐳 How to start gpt-pilot in docker?](#-how-to-start-gpt-pilot-in-docker)
-* [🧑‍💻️ Other arguments](#-other-arguments)
+* [🧑‍💻️ CLI arguments](#%EF%B8%8F-cli-arguments)
 * [🔎 Examples](#-examples)
     * [Real-time chat app](#-real-time-chat-app)
     * [Markdown editor](#-markdown-editor)
