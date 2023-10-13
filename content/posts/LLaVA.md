@@ -1,9 +1,9 @@
 ---
 title: LLaVA
-date: 2023-10-12T12:15:36+08:00
+date: 2023-10-13T12:15:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694813646472-ddee14cef903?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694813646472-ddee14cef903?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695010800005-50cb50823351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695010800005-50cb50823351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [haotian-liu/LLaVA](https://github.com/haotian-liu/LLaVA)
@@ -12,7 +12,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1694813646472-ddee14cef9
 
 *Visual instruction tuning towards large language and vision models with GPT-4 level capabilities.*
 
-[[Project Page](https://llava-vl.github.io/)] [[Demo](https://llava.hliu.cc/)]  [[Data](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)] [[Model Zoo](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md)] [[Community Build Demo on 🤗Spaces](https://huggingface.co/spaces/badayvedat/LLaVA)]
+[[Project Page](https://llava-vl.github.io/)] [[Demo](https://llava.hliu.cc/)]  [[Data](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)] [[Model Zoo](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md)]
+
+🤝Community Contributions: [[llama.cpp](https://github.com/ggerganov/llama.cpp/pull/3436)] [[🤗Space](https://huggingface.co/spaces/badayvedat/LLaVA)]
 
 **Improved Baselines with Visual Instruction Tuning** [[Paper](https://arxiv.org/abs/2310.03744)] <br>
 [Haotian Liu](https://hliu.cc), [Chunyuan Li](https://chunyuan.li/), [Yuheng Li](https://yuheng-li.github.io/), [Yong Jae Lee](https://pages.cs.wisc.edu/~yongjaelee/)
@@ -27,6 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1694813646472-ddee14cef9
 
 
 ## Release
+- [10/12] LLaVA is now supported in [llama.cpp](https://github.com/ggerganov/llama.cpp/pull/3436) with 4-bit / 5-bit quantization support!
 - [10/11] The training data and scripts of LLaVA-1.5 are released [here](https://github.com/haotian-liu/LLaVA#train), and evaluation scripts are released [here](https://github.com/haotian-liu/LLaVA/blob/main/docs/Evaluation.md)!
 - [10/5] 🔥 LLaVA-1.5 is out! Achieving SoTA on 11 benchmarks, with just simple modifications to the original LLaVA, utilizes all public data, completes training in ~1 day on a single 8-A100 node, and surpasses methods like Qwen-VL-Chat that use billion-scale data. Check out the [technical report](https://arxiv.org/abs/2310.03744), and explore the [demo](https://llava.hliu.cc/)! Models are available in [Model Zoo](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md).
 - [9/26] LLaVA is improved with reinforcement learning from human feedback (RLHF) to improve fact grounding and reduce hallucination. Check out the new SFT and RLHF checkpoints at project [[LLavA-RLHF]](https://llava-rlhf.github.io/)
@@ -172,7 +175,7 @@ python -m llava.serve.cli \
 
 *Below is the latest training configuration for LLaVA v1.5. For legacy models, please refer to README of [this](https://github.com/haotian-liu/LLaVA/tree/v1.0.1) version for now. We'll add them in a separate doc later.*
 
-LLaVA training consists of two stages: (1) feature alignment stage: use our 558K subset of the LAION-CC-SBU dataset to connect a *frozen pretrained* vision encoder to a *frozen LLM*; (2) visual instruction tuning stage: use 150K GPT-generated multimodal instruction-following data (with VQA data from academic-oriented tasks) to teach the model to follow multimodal instructions.
+LLaVA training consists of two stages: (1) feature alignment stage: use our 558K subset of the LAION-CC-SBU dataset to connect a *frozen pretrained* vision encoder to a *frozen LLM*; (2) visual instruction tuning stage: use 150K GPT-generated multimodal instruction-following data, plus around 515K VQA data from academic-oriented tasks, to teach the model to follow multimodal instructions.
 
 LLaVA is trained on 8 A100 GPUs with 80GB memory. To train on fewer GPUs, you can reduce the `per_device_train_batch_size` and increase the `gradient_accumulation_steps` accordingly. Always keep the global batch size the same: `per_device_train_batch_size` x `gradient_accumulation_steps` x `num_gpus`.
 

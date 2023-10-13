@@ -1,9 +1,9 @@
 ---
 title: NanUI
-date: 2023-10-12T12:15:51+08:00
+date: 2023-10-13T12:15:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694813646472-ddee14cef903?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694813646472-ddee14cef903?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694384502073-8fe978f861b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694384502073-8fe978f861b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [XuanchenLin/NanUI](https://github.com/XuanchenLin/NanUI)

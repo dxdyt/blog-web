@@ -1,9 +1,9 @@
 ---
 title: flexoki
-date: 2023-10-12T12:15:58+08:00
+date: 2023-10-13T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696789990379-14b4271d8da2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696789990379-14b4271d8da2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694954075938-ce66449dc9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694954075938-ce66449dc9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [kepano/flexoki](https://github.com/kepano/flexoki)

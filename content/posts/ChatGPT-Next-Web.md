@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-10-12T12:15:27+08:00
+date: 2023-10-13T12:15:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695642579321-fcb1fc79b976?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695642579321-fcb1fc79b976?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
@@ -266,6 +266,10 @@ If your proxy needs password, use:
 ```shell
 bash <(curl -s https://raw.githubusercontent.com/Yidadaa/ChatGPT-Next-Web/main/scripts/setup.sh)
 ```
+
+## Synchronizing Chat Records (UpStash)
+
+| [简体中文](./docs/synchronise-chat-logs-cn.md) | [English](./docs/synchronise-chat-logs-en.md) | [Italiano](./docs/synchronise-chat-logs-es.md) | [日本語](./docs/synchronise-chat-logs-ja.md) | [한국어](./docs/synchronise-chat-logs-ko.md)
 
 ## Documentation
 

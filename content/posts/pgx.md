@@ -1,9 +1,9 @@
 ---
 title: pgx
-date: 2023-10-12T12:17:53+08:00
+date: 2023-10-13T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694240347953-7d2cd3c878f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694240347953-7d2cd3c878f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696057402397-95fd136d74b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696057402397-95fd136d74b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [jackc/pgx](https://github.com/jackc/pgx)

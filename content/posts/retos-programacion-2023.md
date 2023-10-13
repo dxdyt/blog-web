@@ -1,9 +1,9 @@
 ---
 title: retos-programacion-2023
-date: 2023-10-12T12:18:20+08:00
+date: 2023-10-13T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694607094007-cf667adaa6d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694607094007-cf667adaa6d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696057402397-95fd136d74b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696057402397-95fd136d74b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [mouredev/retos-programacion-2023](https://github.com/mouredev/retos-programacion-2023)

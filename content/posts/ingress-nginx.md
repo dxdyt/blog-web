@@ -1,9 +1,9 @@
 ---
 title: ingress-nginx
-date: 2023-10-12T12:18:27+08:00
+date: 2023-10-13T12:18:20+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1694124534075-1ed0e024b200?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1694124534075-1ed0e024b200?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696057402397-95fd136d74b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696057402397-95fd136d74b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)
@@ -48,9 +48,11 @@ the versions listed. Ingress-Nginx versions **may** work on older versions, but 
 
 |  Supported  | Ingress-NGINX version | k8s supported version        | Alpine Version | Nginx Version | Helm Chart Version |
 |:--:|-----------------------|------------------------------|----------------|---------------|------------------------------|
+| 🔄 | **v1.9.3**            | 1.28, 1.27,1.26, 1.25        | 3.18.2         | 1.21.6        | 4.8.*                        |
 | 🔄 | **v1.9.1**            | 1.28, 1.27,1.26, 1.25        | 3.18.2         | 1.21.6        | 4.8.*                        |
 | 🔄 | **v1.9.0**            | 1.28, 1.27,1.26, 1.25        | 3.18.2         | 1.21.6        | 4.8.*                        |
 | 🔄 | **v1.8.2**            | 1.27,1.26, 1.25, 1.24        | 3.18.2         | 1.21.6        | 4.7.*                        |
+| 🔄 | **v1.8.4**            | 1.27,1.26, 1.25, 1.24        | 3.18.2         | 1.21.6        | 4.7.*                        |
 | 🔄 | **v1.8.1**            | 1.27,1.26, 1.25, 1.24        | 3.18.2         | 1.21.6        | 4.7.*              |
 | 🔄 | **v1.8.0**            | 1.27,1.26, 1.25, 1.24        | 3.18.0         | 1.21.6        | 4.7.*              |
 | 🔄 | **v1.7.1**            | 1.27,1.26, 1.25, 1.24        | 3.17.2         | 1.21.6        | 4.6.*              |

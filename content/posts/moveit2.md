@@ -1,9 +1,9 @@
 ---
 title: moveit2
-date: 2023-10-12T12:16:45+08:00
+date: 2023-10-13T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694607094007-cf667adaa6d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694607094007-cf667adaa6d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694954075938-ce66449dc9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694954075938-ce66449dc9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [ros-planning/moveit2](https://github.com/ros-planning/moveit2)

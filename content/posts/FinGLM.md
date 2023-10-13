@@ -1,9 +1,9 @@
 ---
 title: FinGLM
-date: 2023-10-12T12:16:29+08:00
+date: 2023-10-13T12:16:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695642579321-fcb1fc79b976?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695642579321-fcb1fc79b976?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcwODQxMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695010800005-50cb50823351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695010800005-50cb50823351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [MetaGLM/FinGLM](https://github.com/MetaGLM/FinGLM)
