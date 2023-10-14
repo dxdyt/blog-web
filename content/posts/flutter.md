@@ -1,9 +1,9 @@
 ---
 title: flutter
-date: 2023-07-15T12:17:58+08:00
+date: 2023-10-14T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688934728322-597cbe61ef57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688934728322-597cbe61ef57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODkzOTQ1NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [flutter/flutter](https://github.com/flutter/flutter)
@@ -110,7 +110,7 @@ Information on how to get started can be found in our
 [Build Status - Cirrus]: https://api.cirrus-ci.com/github/flutter/flutter.svg
 [Build status]: https://cirrus-ci.com/github/flutter/flutter/master
 [Discord instructions]: https://github.com/flutter/flutter/wiki/Chat
-[Discord badge]: https://img.shields.io/discord/608014603317936148
+[Discord badge]: https://img.shields.io/discord/608014603317936148?logo=discord
 [Twitter handle]: https://img.shields.io/twitter/follow/flutterdev.svg?style=social&label=Follow
 [Twitter badge]: https://twitter.com/intent/follow?screen_name=flutterdev
 [layered architecture]: https://docs.flutter.dev/resources/inside-flutter

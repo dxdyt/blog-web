@@ -1,9 +1,9 @@
 ---
 title: tabby
-date: 2023-09-21T12:15:55+08:00
+date: 2023-10-14T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693155105117-944446f4df14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693155105117-944446f4df14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUyNjk2ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695548043715-feb22ef40436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695548043715-feb22ef40436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [TabbyML/tabby](https://github.com/TabbyML/tabby)
@@ -32,15 +32,28 @@ Tabby is a self-hosted AI coding assistant, offering an open-source and on-premi
   <img alt="Demo" src="https://user-images.githubusercontent.com/388154/230440226-9bc01d05-9f57-478b-b04d-81184eba14ca.gif">
 </p>
 
-## 👀 What's New
+## 🔥 What's New
+* **10/04/2023** Check out the [model directory](https://tabby.tabbyml.com/docs/models/) for the latest models supported by Tabby.
+* **09/21/2023** We've hit **10K stars** 🌟 on GitHub! 🚀🎉👏
 * **09/18/2023** Apple's M1/M2 Metal inference support has landed in [v0.1.1](https://github.com/TabbyML/tabby/releases/tag/v0.1.1)!
-* **08/31/2023** tabby's first stable release [v0.0.1](https://github.com/TabbyML/tabby/releases/tag/v0.0.1) 🥳.
+* **08/31/2023** Tabby's first stable release [v0.0.1](https://github.com/TabbyML/tabby/releases/tag/v0.0.1) 🥳.
+
+<details>
+  <summary>Archived</summary>
+  
 * **08/28/2023** Experimental support for the [CodeLlama 7B](https://github.com/TabbyML/tabby/issues/370).
 * **08/24/2023** Tabby is now on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/22379-tabby)!
 
+</details>
 
 ## 👋 Getting Started
 
+You can find our documentation [here](https://tabby.tabbyml.com/docs/getting-started).
+- [📚 Installation](https://tabby.tabbyml.com/docs/installation/)
+- [💻 IDE/Editor Extensions](https://tabby.tabbyml.com/docs/extensions/)
+- [⚙️ Configuration](https://tabby.tabbyml.com/docs/configuration)
+
+### Run Tabby in 1 Minute
 The easiest way to start a Tabby server is by using the following Docker command:
 
 ```bash
@@ -49,7 +62,7 @@ docker run -it \
   tabbyml/tabby \
   serve --model TabbyML/SantaCoder-1B --device cuda
 ```
-For additional options (e.g inference type, parallelism), please refer to the documentation at https://tabbyml.github.io/tabby.
+For additional options (e.g inference type, parallelism), please refer to the [documentation page](https://tabbyml.github.io/tabby).
 
 ## 🤝 Contributing
 
@@ -59,6 +72,8 @@ For additional options (e.g inference type, parallelism), please refer to the do
 git clone --recurse-submodules https://github.com/TabbyML/tabby
 cd tabby
 ```
+
+If you have already cloned the repository, you could run the `git submodule update --recursive --init` command to fetch all submodules.
 
 ### Build
 
@@ -78,7 +93,14 @@ apt-get install protobuf-compiler libopenblas-dev
 ### Start Hacking!
 ... and don't forget to submit a [Pull Request](https://github.com/TabbyML/tabby/compare)
 
+## 🌍 Community
+- #️⃣ [Slack](https://join.slack.com/t/tabbyml/shared_invite/zt-22thejc0z-7ePKeWNCHPX31pEtnT4oYQ) - connect with the TabbyML community 
+- 🎤 [Twitter / X](https://twitter.com/Tabby_ML) - engage with TabbyML for all things possible 
+- 📚 [LinkedIn](https://www.linkedin.com/company/tabbyml/) - follow for the latest from the community 
+- 💌 [Newsletter](https://tinyletter.com/tabbyml/) - subscribe to unlock Tabby insights and secrets
 
-## 🌟 Star History
+
+
+### 🌟 Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=tabbyml/tabby&type=Date)](https://star-history.com/#tabbyml/tabby&Date)

@@ -1,9 +1,9 @@
 ---
 title: metabase
-date: 2023-09-28T12:17:31+08:00
+date: 2023-10-14T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693049318107-a4aa59219d10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693049318107-a4aa59219d10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695456164332-b9f6cd6e837c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695456164332-b9f6cd6e837c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [metabase/metabase](https://github.com/metabase/metabase)

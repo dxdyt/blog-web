@@ -1,9 +1,9 @@
 ---
 title: deepdarkCTI
-date: 2023-03-29T12:20:14+08:00
+date: 2023-10-14T12:16:13+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11947/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11947/0/1080p
+featuredImage: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [fastfire/deepdarkCTI](https://github.com/fastfire/deepdarkCTI)

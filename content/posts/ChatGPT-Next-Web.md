@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-10-13T12:15:23+08:00
+date: 2023-10-14T12:14:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695548043715-feb22ef40436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695548043715-feb22ef40436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)

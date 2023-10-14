@@ -1,9 +1,9 @@
 ---
 title: live
-date: 2023-10-13T12:15:38+08:00
+date: 2023-10-14T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694954075938-ce66449dc9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694954075938-ce66449dc9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695456164332-b9f6cd6e837c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695456164332-b9f6cd6e837c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [fanmingming/live](https://github.com/fanmingming/live)
@@ -38,8 +38,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1694954075938-ce66449dc9
       <tr>
       <td>🌏Global直播源</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
-      <td>210个</td>
-      <td>2023.10.5</td>
+      <td>218个</td>
+      <td>2023.10.13</td>
     </tr>
     <tr>
       <td>📺IPTV(IPV6专用)</td>
@@ -79,8 +79,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1694954075938-ce66449dc9
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.10.9
-  - Global源调整了分类排序。
+- 2023.10.13
+  - Global源更新了auth参数，添加了一些频道。
 
 ## ☕捐赠
 - 支持项目，赋予更多流量，共创更好体验，让服务更强大！

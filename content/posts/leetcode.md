@@ -1,9 +1,9 @@
 ---
 title: leetcode
-date: 2023-10-13T12:17:38+08:00
+date: 2023-10-14T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695010800005-50cb50823351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695010800005-50cb50823351?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [doocs/leetcode](https://github.com/doocs/leetcode)

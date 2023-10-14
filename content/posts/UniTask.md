@@ -1,9 +1,9 @@
 ---
 title: UniTask
-date: 2023-08-24T12:17:07+08:00
+date: 2023-10-14T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691679829047-aa2674339070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691679829047-aa2674339070?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694875294031-169b75f14a2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694875294031-169b75f14a2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [Cysharp/UniTask](https://github.com/Cysharp/UniTask)
@@ -54,7 +54,6 @@ For advanced tips, see blog post: [Extends UnityWebRequest via async decorator p
 - [API References](#api-references)
 - [UPM Package](#upm-package)
   - [Install via git URL](#install-via-git-url)
-  - [Install via OpenUPM](#install-via-openupm)
 - [.NET Core](#net-core)
 - [License](#license)
 
@@ -96,8 +95,13 @@ async UniTask<string> DemoAsync()
     await UniTask.Yield();
     await UniTask.NextFrame();
 
-    // replacement of WaitForEndOfFrame(requires MonoBehaviour(CoroutineRunner))
+    // replacement of WaitForEndOfFrame
+#if UNITY_2023_1_OR_NEWER
+    await UniTask.WaitForEndOfFrame();
+#else
+    // requires MonoBehaviour(CoroutineRunner))
     await UniTask.WaitForEndOfFrame(this); // this is MonoBehaviour
+#endif
 
     // replacement of yield return new WaitForFixedUpdate(same as UniTask.Yield(PlayerLoopTiming.FixedUpdate))
     await UniTask.WaitForFixedUpdate();
@@ -509,6 +513,8 @@ It indicates when to run, you can check [PlayerLoopList.md](https://gist.github.
 `PlayerLoopTiming.Update` is similar to `yield return null` in a coroutine, but it is called before Update(Update and uGUI events(button.onClick, etc...) are called on `ScriptRunBehaviourUpdate`, yield return null is called on `ScriptRunDelayedDynamicFrameRate`). `PlayerLoopTiming.FixedUpdate` is similar to `WaitForFixedUpdate`.
 
 > `PlayerLoopTiming.LastPostLateUpdate` is not equivalent to coroutine's `yield return new WaitForEndOfFrame()`. Coroutine's WaitForEndOfFrame seems to run after the PlayerLoop is done. Some methods that require coroutine's end of frame(`Texture2D.ReadPixels`, `ScreenCapture.CaptureScreenshotAsTexture`, `CommandBuffer`, etc) do not work correctly when replaced with async/await. In these cases, pass MonoBehaviour(coroutine runnner) to `UniTask.WaitForEndOfFrame`. For example, `await UniTask.WaitForEndOfFrame(this);` is lightweight allocation free alternative of `yield return new WaitForEndOfFrame()`.
+> 
+> Note: In Unity 2023.1 or newer, `await UniTask.WaitForEndOfFrame();` no longer requires MonoBehaviour. It uses `UnityEngine.Awaitable.EndOfFrameAsync`.
 
 `yield return null` and `UniTask.Yield` are similar but different. `yield return null` always returns next frame but `UniTask.Yield` returns next called. That is, call `UniTask.Yield(PlayerLoopTiming.Update)` on `PreUpdate`, it returns same frame. `UniTask.NextFrame()` guarantees return next frame, you can expect this to behave exactly the same as `yield return null`.
 
@@ -668,7 +674,8 @@ By default, UniTask supports TextMeshPro(`BindTo(TMP_Text)` and `TMP_InputField`
 
 There are defined in separated asmdefs like `UniTask.TextMeshPro`, `UniTask.DOTween`, `UniTask.Addressables`.
 
-TextMeshPro and Addressables support are automatically enabled when importing their packages from package manager. However for DOTween support, it is required to import `com.demigiant.dotween` from [OpenUPM](https://openupm.com/packages/com.demigiant.dotween/) or to define `UNITASK_DOTWEEN_SUPPORT` to enable it.
+TextMeshPro and Addressables support are automatically enabled when importing their packages from package manager. 
+However for DOTween support, after importing from the [DOTWeen assets](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676r) and define the scripting define symbol `UNITASK_DOTWEEN_SUPPORT` to enable it.
 
 ```csharp
 // sequential
@@ -727,7 +734,7 @@ Async LINQ is enabled when `using Cysharp.Threading.Tasks.Linq;`, and `UniTaskAs
 
 It's closer to UniRx (Reactive Extensions), but UniTaskAsyncEnumerable is a pull-based asynchronous stream, whereas Rx was a push-based asynchronous stream. Note that although similar, the characteristics are different and the details behave differently along with them.
 
-`UniTaskAsyncEnumerable` is the entry point like `Enumerable`. In addition to the standard query operators, there are other generators for Unity such as `EveryUpdate`, `Timer`, `TimerFrame`, `Interval`, `IntervalFrame`, and `EveryValueChanged`. And also added additional UniTask original query operators like `Append`, `Prepend`, `DistinctUntilChanged`, `ToHashSet`, `Buffer`, `CombineLatest`, `Do`, `Never`, `ForEachAsync`, `Pairwise`, `Publish`, `Queue`, `Return`, `SkipUntil`, `TakeUntil`, `SkipUntilCanceled`, `TakeUntilCanceled`, `TakeLast`, `Subscribe`.
+`UniTaskAsyncEnumerable` is the entry point like `Enumerable`. In addition to the standard query operators, there are other generators for Unity such as `EveryUpdate`, `Timer`, `TimerFrame`, `Interval`, `IntervalFrame`, and `EveryValueChanged`. And also added additional UniTask original query operators like `Append`, `Prepend`, `DistinctUntilChanged`, `ToHashSet`, `Buffer`, `CombineLatest`,`Merge` `Do`, `Never`, `ForEachAsync`, `Pairwise`, `Publish`, `Queue`, `Return`, `SkipUntil`, `TakeUntil`, `SkipUntilCanceled`, `TakeUntilCanceled`, `TakeLast`, `Subscribe`.
 
 The method with Func as an argument has three additional overloads, `***Await`, `***AwaitWithCancellation`.
 
@@ -1082,13 +1089,6 @@ or add `"com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/
 
 If you want to set a target version, UniTask uses the `*.*.*` release tag so you can specify a version like `#2.1.0`. For example `https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask#2.1.0`.
 
-### Install via OpenUPM
-
-The package is available on the [openupm registry](https://openupm.com). It's recommended to install it via [openupm-cli](https://github.com/openupm/openupm-cli).
-
-```
-openupm add com.cysharp.unitask
-```
 
 .NET Core
 ---
