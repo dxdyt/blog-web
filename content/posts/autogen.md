@@ -1,9 +1,9 @@
 ---
 title: autogen
-date: 2023-10-14T12:16:40+08:00
+date: 2023-10-15T12:14:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694875294031-169b75f14a2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694875294031-169b75f14a2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/autogen](https://github.com/microsoft/autogen)

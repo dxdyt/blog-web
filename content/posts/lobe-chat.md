@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2023-09-27T12:15:25+08:00
+date: 2023-10-15T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692356304828-d08168e12725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692356304828-d08168e12725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696237978229-19335a6d5af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696237978229-19335a6d5af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -25,18 +25,25 @@ LobeChat is a open-source, extensible ([Function Calling][fc-link]), high-perfor
 <!-- SHIELD GROUP -->
 
 [![][github-release-shield]][github-release-link]
+[![][docker-release-shield]][docker-release-link]
 [![][vercel-shield]][vercel-link]
-[![][discord-shield]][discord-link]
-[![][github-releasedate-shield]][github-releasedate-link]
+[![][discord-shield]][discord-link]<br/>
 [![][github-action-test-shield]][github-action-test-link]
-[![][github-action-release-shield]][github-action-release-link]<br/>
+[![][github-action-release-shield]][github-action-release-link]
+[![][github-releasedate-shield]][github-releasedate-link]<br/>
 [![][github-contributors-shield]][github-contributors-link]
 [![][github-forks-shield]][github-forks-link]
 [![][github-stars-shield]][github-stars-link]
 [![][github-issues-shield]][github-issues-link]
 [![][github-license-shield]][github-license-link]
 
-[![Deploy with Vercel][deploy-button-image]][deploy-link]
+**Share LobeChat Repository**
+
+[![][share-x-shield]][share-x-link]
+[![][share-telegram-shield]][share-telegram-link]
+[![][share-whatsapp-shield]][share-whatsapp-link]
+[![][share-reddit-shield]][share-reddit-link]
+[![][share-weibo-shield]][share-weibo-link]
 
 ![](https://gw.alipayobjects.com/zos/kitchen/RKnWrrfuMl/welcome.webp)
 
@@ -50,8 +57,11 @@ LobeChat is a open-source, extensible ([Function Calling][fc-link]), high-perfor
 - [👋🏻 Getting Started & Join Our Community](#-getting-started--join-our-community)
 - [✨ Features](#-features)
 - [📸 Snapshot](#-snapshot)
+- [⚡️ Performance](#️-performance)
 - [🛳 Self Hosting](#-self-hosting)
-  - [Keep Updated](#keep-updated)
+  - [`A` Deploying with Vercel](#a-deploying-with-vercel)
+  - [`B` Deploying with Docker](#b-deploying-with-docker)
+  - [Environment Variable](#environment-variable)
 - [📦 Ecosystem](#-ecosystem)
 - [🧩 Plugins](#-plugins)
 - [⌨️ Local Development](#️-local-development)
@@ -80,7 +90,7 @@ Please be aware that LobeChat is currently under active development，feedback i
 <details><summary><kbd>Star History</kbd></summary>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=lobehub%2Flobe-chat&theme=dark&type=Date">
-    <img src="https://api.star-history.com/svg?repos=lobehub%2Flobe-chat&type=Date">
+    <img width="100%" src="https://api.star-history.com/svg?repos=lobehub%2Flobe-chat&type=Date">
   </picture>
 </details>
 
@@ -148,7 +158,7 @@ LobeChat offers two unique theme modes - Light Mode and Dark Mode, as well as ri
 
 #### `5` Mobile Device Adaptation
 
-We have carried out a series of optimization designs for mobile devices to enhance the user's mobile experience. Currently, we are iterating on the mobile user experience to achieve smoother and more intuitive interactions. If you have any suggestions or ideas, we welcome you to provide feedback through Github Issues or Pull Requests.
+We have carried out a series of optimization designs for mobile devices to enhance the user's mobile experience. Currently, we are iterating on the mobile user experience to achieve smoother and more intuitive interactions. If you have any suggestions or ideas, we welcome you to provide feedback through GitHub Issues or Pull Requests.
 
 > 🚧 Additional snapshots and demonstrations are being progressively added...
 
@@ -158,33 +168,89 @@ We have carried out a series of optimization designs for mobile devices to enhan
 
 </div>
 
-## 🛳 Self Hosting
+## ⚡️ Performance
 
-LobeChat provides a [self-hosted version][deploy-link] with Vercel. This allows you to build your own chatbot within a few minutes, without any prior knowledge. If you want to deploy this service yourself, you can follow these steps:
+> **Note**\
+> The complete list of reports can be found in the [📘 Lighthouse Reports](https://github.com/lobehub/lobe-chat/wiki/Lighthouse)
 
-- Prepare your [OpenAI API Key](https://platform.openai.com/account/api-keys).
-- Click the button below to start deployment: Deploy with Vercel. Log in directly with your Github account and remember to fill in the API Key and access code CODE on the environment variable page;
-- After deployment, you can start using it;
-- Bind a custom domain (optional): The DNS of the domain assigned by Vercel is polluted in some areas, binding a custom domain can connect directly.
+|                   Desktop                   |                   Mobile                   |
+| :-----------------------------------------: | :----------------------------------------: |
+|              ![][chat-desktop]              |              ![][chat-mobile]              |
+| [📑 Lighthouse Report][chat-desktop-report] | [📑 Lighthouse Report][chat-mobile-report] |
 
 <div align="right">
 
-[![][deploy-button-image]][deploy-link]
+[![][back-to-top]](#readme-top)
 
 </div>
 
+## 🛳 Self Hosting
+
+LobeChat provides [Self-Hosted Version][deploy-link] with Vercel and [Docker Image][docker-release-link]. This allows you to deploy your own chatbot within a few minutes, without any prior knowledge.
+
+<br/>
+
+### `A` Deploying with Vercel
+
+If you want to deploy this service yourself on Vercel, you can follow these steps:
+
+- Prepare your [OpenAI API Key](https://platform.openai.com/account/api-keys).
+- Click the button below to start deployment: Deploy with Vercel. Log in directly with your GitHub account and remember to fill in the API Key and access code CODE on the environment variable page;
+- After deployment, you can start using it;
+- Bind a custom domain (optional): The DNS of the domain assigned by Vercel is polluted in some areas, binding a custom domain can connect directly.
+
+#### Keep Updated
+
+If you have deployed your own project following the one-click deployment steps in the README, you might encounter constant prompts indicating "updates available". This is because Vercel defaults to creating a new project instead of forking this one, resulting in an inability to accurately detect updates.
+
+> **Important**\
+> We suggest you redeploy using the following steps, [📘 Maintaining Updates with LobeChat Self-Deployment](https://github.com/lobehub/lobe-chat/wiki/Upstream-Sync).
+
+<br/>
+
+### `B` Deploying with Docker
+
+[![][docker-release-shield]][docker-release-link]
+[![][docker-size-shield]][docker-size-link]
+[![][docker-pulls-shield]][docker-pulls-link]
+
+We provide a Docker image for deploying the LobeChat service on your own private device. Use the following command to start the LobeChat service:
+
+```fish
+$ docker run -d -p 3210:3210 \
+  -e OPENAI_API_KEY=sk-xxxx \
+  -e ACCESS_CODE=lobe66 \
+  lobehub/lobe-chat
+```
+
 > **Note**\
-> This project provides some additional configuration items, set with environment variables, The complete list of environment variables can be found in the [📘 Environment Variables](https://github.com/lobehub/lobe-chat/wiki/Environment-Variable) :
+> If you need to use the OpenAI service through a proxy, you can configure the proxy address using the `OPENAI_PROXY_URL` environment variable:
 
-| Environment Variable | Required | Description                                                                                                                                   | Example                                                                             |
-| -------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| `OPENAI_API_KEY`     | Yes      | This is the API key you apply on the OpenAI account page                                                                                      | `sk-xxxxxx...xxxxxx`                                                                |
-| `OPENAI_PROXY_URL`   | No       | If you manually configure the OpenAI interface proxy, you can use this configuration item to override the default OpenAI API request base URL | `https://api.chatanywhere.cn`<br/>The default value is<br/>`https://api.openai.com` |
-| `ACCESS_CODE`        | No       | Add a password to access this service, the password should be a 6-digit number or letter                                                      | `awCT74` or `e3@09!`                                                                |
+```fish
+$ docker run -d -p 3210:3210 \
+  -e OPENAI_API_KEY=sk-xxxx \
+  -e OPENAI_PROXY_URL=https://api-proxy.com/v1 \
+  -e ACCESS_CODE=lobe66 \
+  lobehub/lobe-chat
+```
 
-### Keep Updated
+> **Note**\
+> For detailed instructions on deploying with Docker, please refer to the [📘 Docker Deployment Guide](https://github.com/lobehub/lobe-chat/wiki/Docker-Deployment)
 
-If you have deployed your own project following the one-click deployment steps in the README, you might encounter constant prompts indicating "updates available". This is because Vercel defaults to creating a new project instead of forking this one, resulting in an inability to accurately detect updates. We suggest you redeploy using the following steps, [📘 Maintaining Updates with LobeChat Self-Deployment](https://github.com/lobehub/lobe-chat/wiki/Upstream-Sync).
+<br/>
+
+### Environment Variable
+
+This project provides some additional configuration items, set with environment variables:
+
+| Environment Variable | Required | Description                                                                                                                                   | Example                                                                                   |
+| -------------------- | -------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
+| `OPENAI_API_KEY`     | Yes      | This is the API key you apply on the OpenAI account page                                                                                      | `sk-xxxxxx...xxxxxx`                                                                      |
+| `OPENAI_PROXY_URL`   | No       | If you manually configure the OpenAI interface proxy, you can use this configuration item to override the default OpenAI API request base URL | `https://api.chatanywhere.cn/v1`<br/>The default value is<br/>`https://api.openai.com/v1` |
+| `ACCESS_CODE`        | No       | Add a password to access this service, the password should be a 6-digit number or letter                                                      | `awCT74` or `e3@09!`                                                                      |
+
+> **Note**\
+> The complete list of environment variables can be found in the [📘 Environment Variables](https://github.com/lobehub/lobe-chat/wiki/Environment-Variable)
 
 <div align="right">
 
@@ -236,7 +302,7 @@ Plugins provide a means to extend the [Function Calling][fc-link] capabilities o
 
 ## ⌨️ Local Development
 
-You can use Github Codespaces for online development:
+You can use GitHub Codespaces for online development:
 
 [![][codespaces-shield]][codespaces-link]
 
@@ -244,7 +310,7 @@ Or clone it for local development:
 
 [![][bun-shield]][bun-link]
 
-```bash
+```fish
 $ git clone https://github.com/lobehub/lobe-chat.git
 $ cd lobe-chat
 $ bun install
@@ -301,6 +367,10 @@ This project is [MIT](./LICENSE) licensed.
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-151515?style=flat-square
 [bun-link]: https://bun.sh
 [bun-shield]: https://img.shields.io/badge/-speedup%20with%20bun-black?logo=bun&style=for-the-badge
+[chat-desktop]: https://raw.githubusercontent.com/lobehub/lobe-chat/lighthouse/lighthouse/chat/desktop/pagespeed.svg
+[chat-desktop-report]: https://lobehub.github.io/lobe-chat/lighthouse/chat/desktop/chat_preview_lobehub_com_chat.html
+[chat-mobile]: https://raw.githubusercontent.com/lobehub/lobe-chat/lighthouse/lighthouse/chat/mobile/pagespeed.svg
+[chat-mobile-report]: https://lobehub.github.io/lobe-chat/lighthouse/chat/mobile/chat_preview_lobehub_com_chat.html
 [chat-plugin-realtime-weather]: https://github.com/lobehub/chat-plugin-realtime-weather
 [chat-plugin-sdk]: https://github.com/lobehub/chat-plugin-sdk
 [chat-plugin-search-engine]: https://github.com/lobehub/chat-plugin-search-engine
@@ -311,11 +381,16 @@ This project is [MIT](./LICENSE) licensed.
 [codespaces-shield]: https://github.com/codespaces/badge.svg
 [contributors-contrib]: https://contrib.rocks/image?repo=lobehub/lobe-chat
 [contributors-link]: https://github.com/lobehub/lobe-chat/graphs/contributors
-[deploy-button-image]: https://vercel.com/button
 [deploy-link]: https://vercel.com/new/clone?repository-link=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat&env=OPENAI_API_KEY&envDescription=Find%20your%20OpenAI%20API%20Key%20by%20click%20the%20right%20Learn%20More%20button.%20%20&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys&project-name=lobe-chat&repository-name=lobe-chat
 [discord-link]: https://discord.gg/AYFPHvv2jT
 [discord-shield]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=flat-square
 [discord-shield-badge]: https://img.shields.io/discord/1127171173982154893?color=5865F2&label=discord&labelColor=black&logo=discord&logoColor=white&style=for-the-badge
+[docker-pulls-link]: https://hub.docker.com/r/lobehub/lobe-chat
+[docker-pulls-shield]: https://img.shields.io/docker/pulls/lobehub/lobe-chat?color=45cc11&labelColor=black&style=flat-square
+[docker-release-link]: https://hub.docker.com/r/lobehub/lobe-chat
+[docker-release-shield]: https://img.shields.io/docker/v/lobehub/lobe-chat?color=369eff&label=docker&labelColor=black&logo=docker&logoColor=white&style=flat-square
+[docker-size-link]: https://hub.docker.com/r/lobehub/lobe-chat
+[docker-size-shield]: https://img.shields.io/docker/image-size/lobehub/lobe-chat?color=369eff&labelColor=black&style=flat-square
 [fc-link]: https://sspai.com/post/81986
 [fossa-license-link]: https://app.fossa.com/projects/git%2Bgithub.com%2Flobehub%2Flobe-chat
 [fossa-license-shield]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Flobehub%2Flobe-chat.svg?type=large
@@ -354,6 +429,16 @@ This project is [MIT](./LICENSE) licensed.
 [pr-welcome-link]: https://github.com/lobehub/lobe-chat/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/🤯_pr_welcome-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-link]: https://github.com/lobehub
+[share-reddit-link]: https://www.reddit.com/submit?title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-reddit-shield]: https://img.shields.io/badge/-share%20on%20reddit-black?labelColor=black&logo=reddit&logoColor=white&style=flat-square
+[share-telegram-link]: https://t.me/share/url"?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-telegram-shield]: https://img.shields.io/badge/-share%20on%20telegram-black?labelColor=black&logo=telegram&logoColor=white&style=flat-square
+[share-weibo-link]: http://service.weibo.com/share/share.php?sharesource=weibo&title=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20%23chatbot%20%23chatGPT%20%23openAI&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-weibo-shield]: https://img.shields.io/badge/-share%20on%20weibo-black?labelColor=black&logo=sinaweibo&logoColor=white&style=flat-square
+[share-whatsapp-link]: https://api.whatsapp.com/send?text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.%20https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat%20%23chatbot%20%23chatGPT%20%23openAI
+[share-whatsapp-shield]: https://img.shields.io/badge/-share%20on%20whatsapp-black?labelColor=black&logo=whatsapp&logoColor=white&style=flat-square
+[share-x-link]: https://x.com/intent/tweet?hashtags=chatbot%2CchatGPT%2CopenAI&text=Check%20this%20GitHub%20repository%20out%20%F0%9F%A4%AF%20LobeChat%20-%20An%20open-source%2C%20extensible%20%28Function%20Calling%29%2C%20high-performance%20chatbot%20framework.%20It%20supports%20one-click%20free%20deployment%20of%20your%20private%20ChatGPT%2FLLM%20web%20application.&url=https%3A%2F%2Fgithub.com%2Flobehub%2Flobe-chat
+[share-x-shield]: https://img.shields.io/badge/-share%20on%20x-black?labelColor=black&logo=x&logoColor=white&style=flat-square
 [submit-agents-link]: https://github.com/lobehub/lobe-chat-agents
 [submit-agents-shield]: https://img.shields.io/badge/🤖/🏪_submit_agent-%E2%86%92-c4f042?labelColor=black&style=for-the-badge
 [submit-plugin-link]: https://github.com/lobehub/lobe-chat-plugins
