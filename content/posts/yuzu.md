@@ -1,9 +1,9 @@
 ---
 title: yuzu
-date: 2023-07-18T12:18:06+08:00
+date: 2023-10-16T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688367785310-c8c013548288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688367785310-c8c013548288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
 ---
 
 # [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu)
@@ -50,7 +50,7 @@ It is written in C++ with portability in mind, and we actively maintain builds f
 
 The emulator is capable of running most commercial games at full speed, provided you meet the [necessary hardware requirements](https://yuzu-emu.org/help/quickstart/#hardware-requirements).
 
-For a full list of games yuzu support, please visit our [Compatibility page](https://yuzu-emu.org/game/)
+For a full list of games yuzu supports, please visit our [Compatibility page](https://yuzu-emu.org/game/).
 
 Check out our [website](https://yuzu-emu.org/) for the latest news on exciting features, monthly progress reports, and more!
 

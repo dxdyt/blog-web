@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2023-10-15T12:15:48+08:00
+date: 2023-10-16T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694259842544-48a6dd6de7bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694259842544-48a6dd6de7bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695112178026-a2384ed26276?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695112178026-a2384ed26276?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
 ---
 
 # [Yidadaa/ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)
@@ -169,7 +169,7 @@ Your openai api key.
 
 ### `CODE` (optional)
 
-Access passsword, separated by comma.
+Access password, separated by comma.
 
 ### `BASE_URL` (optional)
 
@@ -323,6 +323,7 @@ If you want to add a new translation, read this [document](./docs/translation.md
 [@AnsonHyq](https://github.com/AnsonHyq)
 [@synwith](https://github.com/synwith)
 [@piksonGit](https://github.com/piksonGit)
+[@ouyangzhiping](https://github.com/ouyangzhiping)
 
 ### Contributor
 

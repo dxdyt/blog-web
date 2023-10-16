@@ -1,9 +1,9 @@
 ---
 title: notion-clone-tutorial
-date: 2023-10-15T12:15:30+08:00
+date: 2023-10-16T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695779539339-14d990733f52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695779539339-14d990733f52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695605118408-b31785f23152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695605118408-b31785f23152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
 ---
 
 # [AntonioErdeljac/notion-clone-tutorial](https://github.com/AntonioErdeljac/notion-clone-tutorial)
