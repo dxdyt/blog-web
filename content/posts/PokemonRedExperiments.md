@@ -1,9 +1,9 @@
 ---
 title: PokemonRedExperiments
-date: 2023-10-16T12:15:27+08:00
+date: 2023-10-17T12:15:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695406339302-b6e4ddbf7053?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695406339302-b6e4ddbf7053?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696805966408-5f92fdb79ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696805966408-5f92fdb79ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [PWhiddy/PokemonRedExperiments](https://github.com/PWhiddy/PokemonRedExperiments)
@@ -22,7 +22,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1695406339302-b6e4ddbf70
 </a>
   
 ## Running the Pretrained Model Interactively 🎮  
-🐍 Python 3.10 is recommended. Other versions may work but have not been tested. 
+🐍 Python 3.10 is recommended. Other versions may work but have not been tested.   
+You also need to install ffmpeg and have it available in the command line.
 
 1. Copy your legally obtained Pokemon Red ROM into the base directory. You can find this using google, it should be 1MB. Rename it to `PokemonRed.gb` if it is not already. The sha1 sum should be `ea9bcae617fdf159b045185467ae58b2e4a48b9a`, which you can verify by running `shasum PokemonRed.gb`. 
 2. Move into the `baselines/` directory:  
@@ -33,7 +34,7 @@ It may be necessary in some cases to separately install the SDL libraries.
 4. Run:  
 ```python run_pretrained_interactive.py```
 
-By default the game with terminate after 32K steps, or ~1 hour. You can increase this by adjusting the `ep_length` variable, but it will also use more memory. 
+By default the game will terminate after 32K steps, or ~1 hour. You can increase this by adjusting the `ep_length` variable, but it will also use more memory. 
 
 Interact with the emulator using the arrow keys and the `a` and `s` keys (A and B buttons).  
 You can pause the AI's input during the game by editing `agent_enabled.txt`

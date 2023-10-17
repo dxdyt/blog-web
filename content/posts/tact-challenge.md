@@ -1,9 +1,9 @@
 ---
 title: tact-challenge
-date: 2023-10-16T12:15:38+08:00
+date: 2023-10-17T12:15:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695605118408-b31785f23152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695605118408-b31785f23152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695194695356-c71edd344ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695194695356-c71edd344ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [ton-community/tact-challenge](https://github.com/ton-community/tact-challenge)
@@ -61,7 +61,7 @@ We ask participants not to change the signature (number, order, and types of arg
 **Best of luck with your submissions!**
 
 ## ‼️ Important rules:
-- It's forbidden to use any FunC/Fift code inside of submitted Tact solutions. Participants who will have FunC/Fift code in their submissions will be disqualified.
+- It's forbidden to use any FunC/Fift code inside of submitted Tact solutions. Participants who will have FunC/Fift code in their submissions will be disqualified. This rule applies to Tact bindings as they're using a lower level of abstraction thus compromising the nature of Tact Challenge.
 - Please don't share your solution's code with anybody. If someone's submission will be suspected of using your code - both participants will be disqualified. Repeated case will cause lifetime ban from TON Smart Challenges.
 
 ## 🏆 Scoring and Prizes

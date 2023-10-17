@@ -1,9 +1,9 @@
 ---
 title: kickstart.nvim
-date: 2023-10-16T12:18:30+08:00
+date: 2023-10-17T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695997592720-1c7ead51ed6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695997592720-1c7ead51ed6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696805966408-5f92fdb79ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696805966408-5f92fdb79ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)

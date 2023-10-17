@@ -1,9 +1,9 @@
 ---
 title: Hyprland
-date: 2023-10-16T12:16:38+08:00
+date: 2023-10-17T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695406339302-b6e4ddbf7053?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695406339302-b6e4ddbf7053?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695338029241-7c0e8da7859f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695338029241-7c0e8da7859f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)

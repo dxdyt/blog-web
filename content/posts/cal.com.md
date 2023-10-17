@@ -1,9 +1,9 @@
 ---
 title: cal.com
-date: 2023-08-23T12:16:03+08:00
+date: 2023-10-17T12:16:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690702692247-94470ff62017?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690702692247-94470ff62017?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [calcom/cal.com](https://github.com/calcom/cal.com)
@@ -141,22 +141,38 @@ Here is what you need to be able to run Cal.com.
    > If you are on Windows, run the following command on `gitbash` with admin privileges: <br> > `git clone -c core.symlinks=true https://github.com/calcom/cal.com.git` <br>
    > See [docs](https://cal.com/docs/how-to-guides/how-to-troubleshoot-symbolic-link-issues-on-windows#enable-symbolic-links) for more details.
 
-1. Go to the project folder
+2. Go to the project folder
 
    ```sh
    cd cal.com
    ```
 
-1. Install packages with yarn
+3. Install packages with yarn
 
    ```sh
    yarn
    ```
 
-1. Set up your `.env` file
+4. Set up your `.env` file
+
    - Duplicate `.env.example` to `.env`
    - Use `openssl rand -base64 32` to generate a key and add it under `NEXTAUTH_SECRET` in the `.env` file.
    - Use `openssl rand -base64 24` to generate a key and add it under `CALENDSO_ENCRYPTION_KEY` in the `.env` file.
+
+5. Setup Node
+   If your Node version does not meet the project's requirements as instructed by the docs, "nvm" (Node Version Manager) allows using Node at the version required by the project:
+
+   ```sh
+   nvm use
+   ```
+
+   You first might need to install the specific version and then use it:
+
+   ```sh
+   nvm install && nvm use
+   ```
+
+   You can install nvm from [here](https://github.com/nvm-sh/nvm).
 
 #### Quick start with `yarn dx`
 
@@ -232,6 +248,8 @@ echo 'NEXT_PUBLIC_DEBUG=1' >> .env
 
 1. Run [mailhog](https://github.com/mailhog/MailHog) to view emails sent during development
 
+   > **_NOTE:_** Required when `E2E_TEST_MAILHOG_ENABLED` is "1"
+
    ```sh
    docker pull mailhog/mailhog
    docker run -d -p 8025:8025 -p 1025:1025 mailhog/mailhog
@@ -266,6 +284,16 @@ yarn test-e2e
 
 # To open the last HTML report run:
 yarn playwright show-report test-results/reports/playwright-html-report
+```
+
+#### Resolving issues
+
+##### E2E test browsers not installed
+
+Run `npx playwright install` to download test browsers and resolve the error below when running `yarn test-e2e`:
+
+```
+Executable doesn't exist at /Users/alice/Library/Caches/ms-playwright/chromium-1048/chrome-mac/Chromium.app/Contents/MacOS/Chromium
 ```
 
 ### Upgrading from earlier versions
@@ -432,7 +460,7 @@ yarn seed-app-store
 ```
 
 You will need to complete a few more steps to activate Google Calendar App.
-Make sure to complete section "Obtaining the Google API Credentials". After the do the
+Make sure to complete section "Obtaining the Google API Credentials". After that do the
 following
 
 1. Add extra redirect URL `<Cal.com URL>/api/auth/callback/google`
@@ -458,8 +486,8 @@ following
 7. Click "Create".
 8. Now copy the Client ID and Client Secret to your `.env` file into the `ZOOM_CLIENT_ID` and `ZOOM_CLIENT_SECRET` fields.
 9. Set the Redirect URL for OAuth `<Cal.com URL>/api/integrations/zoomvideo/callback` replacing Cal.com URL with the URI at which your application runs.
-10. Also add the redirect URL given above as a allow list URL and enable "Subdomain check". Make sure, it says "saved" below the form.
-11. You don't need to provide basic information about your app. Instead click at "Scopes" and then at "+ Add Scopes". On the left, click the category "Meeting" and check the scope `meeting:write`.
+10. Also add the redirect URL given above as an allow list URL and enable "Subdomain check". Make sure, it says "saved" below the form.
+11. You don't need to provide basic information about your app. Instead click on "Scopes" and then on "+ Add Scopes". On the left, click the category "Meeting" and check the scope `meeting:write`.
 12. Click "Done".
 13. You're good to go. Now you can easily add your Zoom integration in the Cal.com settings.
 
@@ -479,9 +507,8 @@ following
 4. Select Basecamp 4 as the product to integrate with.
 5. Set the Redirect URL for OAuth `<Cal.com URL>/api/integrations/basecamp3/callback` replacing Cal.com URL with the URI at which your application runs.
 6. Click on done and copy the Client ID and secret into the `BASECAMP3_CLIENT_ID` and `BASECAMP3_CLIENT_SECRET` fields.
-7. Set the `BASECAMP3_CLIENT_SECRET` env variable to `{your_domain} ({support_email})`. 
-For example, `Cal.com (support@cal.com)`.
-
+7. Set the `BASECAMP3_CLIENT_SECRET` env variable to `{your_domain} ({support_email})`.
+   For example, `Cal.com (support@cal.com)`.
 
 ### Obtaining HubSpot Client ID and Secret
 
@@ -513,6 +540,10 @@ For example, `Cal.com (support@cal.com)`.
 9. Click the "Save"/ "UPDATE" button at the bottom footer.
 10. You're good to go. Now you can easily add your ZohoCRM integration in the Cal.com settings.
 
+### Obtaining Zoho Calendar Client ID and Secret
+
+[Follow these steps](./packages/app-store/zohocalendar/)
+
 ### Obtaining Zoho Bigin Client ID and Secret
 
 [Follow these steps](./packages/app-store/zoho-bigin/)
@@ -535,7 +566,7 @@ For example, `Cal.com (support@cal.com)`.
 3. Copy Account SID to your `.env` file into the `TWILIO_SID` field
 4. Copy Auth Token to your `.env` file into the `TWILIO_TOKEN` field
 5. Copy your Twilio phone number to your `.env` file into the `TWILIO_PHONE_NUMBER` field
-6. Add your own sender id to the `.env` file into the `NEXT_PUBLIC_SENDER_ID` field (fallback is Cal.com)
+6. Add your own sender ID to the `.env` file into the `NEXT_PUBLIC_SENDER_ID` field (fallback is Cal.com)
 7. Create a messaging service (Develop -> Messaging -> Services)
 8. Choose any name for the messaging service
 9. Click 'Add Senders'

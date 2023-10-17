@@ -1,9 +1,9 @@
 ---
 title: nodejs.org
-date: 2023-10-03T12:17:18+08:00
+date: 2023-10-17T12:18:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694370806136-98ce04f32f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694370806136-98ce04f32f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695134945815-92e55cde5e06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695134945815-92e55cde5e06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [nodejs/nodejs.org](https://github.com/nodejs/nodejs.org)
