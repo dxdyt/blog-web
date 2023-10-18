@@ -1,9 +1,9 @@
 ---
 title: BlackHole
-date: 2023-10-16T12:17:34+08:00
+date: 2023-10-18T12:16:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695376425672-3fbaec8e9c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695376425672-3fbaec8e9c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
 ---
 
 # [Sangwan5688/BlackHole](https://github.com/Sangwan5688/BlackHole)

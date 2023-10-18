@@ -1,9 +1,9 @@
 ---
 title: python-for-devops
-date: 2023-10-16T12:15:52+08:00
+date: 2023-10-18T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695036304179-c32b0cae7650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695036304179-c32b0cae7650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
 ---
 
 # [iam-veeramalla/python-for-devops](https://github.com/iam-veeramalla/python-for-devops)

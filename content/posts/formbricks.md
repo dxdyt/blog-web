@@ -1,9 +1,9 @@
 ---
 title: formbricks
-date: 2023-10-17T12:16:51+08:00
+date: 2023-10-18T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695648436191-e9b68ade8c64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695648436191-e9b68ade8c64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
 ---
 
 # [formbricks/formbricks](https://github.com/formbricks/formbricks)
@@ -155,8 +155,8 @@ Let's have a chat about your survey needs and get you started.
 
 ## ⚖️ License
 
-Distributed under the AGPLv3 License. See `LICENSE` for more information.
+Distributed under the AGPLv3 License. See [`LICENSE`](./LICENSE) for more information.
 
 ## 🔒 Security
 
-We take security very seriously. If you come across any security vulnerabilities, please disclose them by sending an email to security@formbricks.com. We appreciate your help in making our platform as secure as possible and are committed to working with you to resolve any issues quickly and efficiently. See `SECURITY.md` for more information.
+We take security very seriously. If you come across any security vulnerabilities, please disclose them by sending an email to security@formbricks.com. We appreciate your help in making our platform as secure as possible and are committed to working with you to resolve any issues quickly and efficiently. See [`SECURITY.md`](./SECURITY.md) for more information.

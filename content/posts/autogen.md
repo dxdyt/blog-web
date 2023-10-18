@@ -1,9 +1,9 @@
 ---
 title: autogen
-date: 2023-10-15T12:14:56+08:00
+date: 2023-10-18T12:16:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696926040556-61d2bb6ac9da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696926040556-61d2bb6ac9da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/autogen](https://github.com/microsoft/autogen)
@@ -99,7 +99,7 @@ from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints
 # and OAI_CONFIG_LIST_sample
 config_list = config_list_from_json(env_or_file="OAI_CONFIG_LIST")
-# You can also set config_list directly as a list, for example, config_list = [{'model': 'gpt-4', 'api_key': '<your OpenAI API key here>'},]  
+# You can also set config_list directly as a list, for example, config_list = [{'model': 'gpt-4', 'api_key': '<your OpenAI API key here>'},]
 assistant = AssistantAgent("assistant", llm_config={"config_list": config_list})
 user_proxy = UserProxyAgent("user_proxy", code_execution_config={"work_dir": "coding"})
 user_proxy.initiate_chat(assistant, message="Plot a chart of NVDA and TESLA stock price change YTD.")
