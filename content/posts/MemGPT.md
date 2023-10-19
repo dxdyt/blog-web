@@ -1,9 +1,9 @@
 ---
 title: MemGPT
-date: 2023-10-18T12:16:07+08:00
+date: 2023-10-19T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695648436191-e9b68ade8c64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695648436191-e9b68ade8c64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696237368688-f677ecefb14f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696237368688-f677ecefb14f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [cpacker/MemGPT](https://github.com/cpacker/MemGPT)
@@ -117,8 +117,10 @@ python main.py --human me.txt
   enables debugging output
 --archival_storage_faiss_path=<ARCHIVAL_STORAGE_FAISS_PATH>
   load in document database (backed by FAISS index)
---archival_storage_files="<ARCHIVAL_STORAGE_FILES_GLOB>"
+--archival_storage_files="<ARCHIVAL_STORAGE_FILES_GLOB_PATTERN>"
   pre-load files into archival memory
+--archival_storage_files_compute_embeddings="<ARCHIVAL_STORAGE_FILES_GLOB_PATTERN>"
+  pre-load files into archival memory and also compute embeddings for embedding search
 --archival_storage_sqldb=<SQLDB_PATH>
   load in SQL database
 ```
@@ -128,6 +130,8 @@ python main.py --human me.txt
 While using MemGPT via the CLI you can run various commands:
 
 ```text
+//
+  enter multiline input mode (type // again when done)
 /exit
   exit the CLI
 /save
@@ -189,6 +193,25 @@ To run our example where you can search over the SEC 10-K filings of Uber, Lyft,
     ```
 
 If you would like to load your own local files into MemGPT's archival memory, run the command above but replace `--archival_storage_files="memgpt/personas/examples/preload_archival/*.txt"` with your own file glob expression (enclosed in quotes).
+
+#### Enhance with embeddings search
+In the root `MemGPT` directory, run
+  ```bash
+  python3 main.py --archival_storage_files_compute_embeddings="<GLOB_PATTERN>" --persona=memgpt_doc --human=basic
+  ```
+
+This will generate embeddings, stick them into a FAISS index, and write the index to a directory, and then output:
+```
+  To avoid computing embeddings next time, replace --archival_storage_files_compute_embeddings=<GLOB_PATTERN> with
+    --archival_storage_faiss_path=<DIRECTORY_WITH_EMBEDDINGS> (if your files haven't changed).
+```
+
+If you want to reuse these embeddings, run 
+```bash
+python3 main.py --archival_storage_faiss_path="<DIRECTORY_WITH_EMBEDDINGS>" --persona=memgpt_doc --human=basic
+```
+
+
 </details>
 <details>
 <summary><h3>Talking to LlamaIndex API Docs</h3></summary>
@@ -226,11 +249,19 @@ MemGPT also enables you to chat with docs -- try running this example to talk to
 
 ## Support
 
-* By default MemGPT will use `gpt-4`, so your API key will require `gpt-4` API access.
-
 If you have any further questions, or have anything to share, we are excited to hear your feedback!
 
-* For issues and feature requests, please [open a GitHub issue](https://github.com/cpacker/MemGPT/issues).
+* By default MemGPT will use `gpt-4`, so your API key will require `gpt-4` API access
+* For issues and feature requests, please [open a GitHub issue](https://github.com/cpacker/MemGPT/issues) or message us on our `#support` channel on [Discord](https://discord.gg/9GEQrxmVyE)
 
 ## Datasets
 Datasets used in our [paper](https://arxiv.org/abs/2310.08560) can be downloaded at [Hugging Face](https://huggingface.co/MemGPT).
+
+## 🚀 Project Roadmap
+- [x] Release MemGPT Discord bot demo (perpetual chatbot)
+- [x] Add additional workflows (load SQL/text into MemGPT external context)
+- [ ] CLI UI improvements
+- [ ] Integrate with AutoGen
+- [ ] Add official gpt-3.5-turbo support
+- [ ] Add support for other LLM backends
+- [ ] Release MemGPT family of open models (eg finetuned Mistral)

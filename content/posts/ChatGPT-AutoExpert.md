@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-AutoExpert
-date: 2023-10-18T12:15:14+08:00
+date: 2023-10-19T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696791474340-fa6dc75523e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696791474340-fa6dc75523e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697120693747-8b0b8efedc69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697120693747-8b0b8efedc69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [spdustin/ChatGPT-AutoExpert](https://github.com/spdustin/ChatGPT-AutoExpert)

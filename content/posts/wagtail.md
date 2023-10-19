@@ -1,9 +1,9 @@
 ---
 title: wagtail
-date: 2023-09-30T12:15:15+08:00
+date: 2023-10-19T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694445681150-b520d4abc1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694445681150-b520d4abc1c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYwNDcyNzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695456527397-0b9e1c79fe96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695456527397-0b9e1c79fe96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [wagtail/wagtail](https://github.com/wagtail/wagtail)
@@ -58,7 +58,7 @@ Find out more at [wagtail.org](https://wagtail.org/).
 
 Wagtail works with [Python 3](https://www.python.org/downloads/), on any platform.
 
-To get started with using Wagtail, run the following in a virtual environment:
+To get started with using Wagtail, run the following in a [virtual environment](https://docs.python.org/3/tutorial/venv.html):
 
 ![Installing Wagtail](.github/install-animation.gif)
 
@@ -95,7 +95,7 @@ _(If you are reading this on GitHub, the details here may not be indicative of t
 Wagtail supports:
 
 -   Django 3.2.x, 4.1.x and 4.2.x
--   Python 3.8, 3.9, 3.10 and 3.11
+-   Python 3.8, 3.9, 3.10, 3.11 and 3.12
 -   PostgreSQL, MySQL and SQLite (with JSON1) as database backends
 
 [Previous versions of Wagtail](https://docs.wagtail.org/en/stable/releases/upgrading.html#compatible-django-python-versions) additionally supported Python 2.7, 3.7 and earlier Django versions.

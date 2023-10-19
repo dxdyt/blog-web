@@ -1,9 +1,9 @@
 ---
 title: 4DGaussians
-date: 2023-10-18T12:15:28+08:00
+date: 2023-10-19T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696711078695-2dbb9b2d0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696711078695-2dbb9b2d0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695456527397-0b9e1c79fe96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695456527397-0b9e1c79fe96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [hustvl/4DGaussians](https://github.com/hustvl/4DGaussians)
@@ -16,16 +16,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1696711078695-2dbb9b2d0a
 
 
 [Guanjun Wu](https://guanjunwu.github.io/)<sup>1*</sup>, [Taoran Yi](https://github.com/taoranyi)<sup>2*</sup>,
-[Jiemin Fang](https://jaminfong.cn/)<sup>3</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, </br>[Xiaopeng Zhang](https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN)<sup>3</sup>, [Wei Wei](https://www.eric-weiwei.com/)<sup>1</sup>,[Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Qi Tian](https://www.qitian1987.com/)<sup>3</sup> , [Xinggang Wang](https://xwcv.github.io)<sup>2✉</sup>
+[Jiemin Fang](https://jaminfong.cn/)<sup>3‡</sup>, [Lingxi Xie](http://lingxixie.com/)<sup>3</sup>, </br>[Xiaopeng Zhang](https://scholar.google.com/citations?user=Ud6aBAcAAAAJ&hl=zh-CN)<sup>3</sup>, [Wei Wei](https://www.eric-weiwei.com/)<sup>1</sup>,[Wenyu Liu](http://eic.hust.edu.cn/professor/liuwenyu/)<sup>2</sup>, [Qi Tian](https://www.qitian1987.com/)<sup>3</sup> , [Xinggang Wang](https://xwcv.github.io)<sup>2‡✉</sup>
 
 <sup>1</sup>School of CS, HUST &emsp; <sup>2</sup>School of EIC, HUST &emsp; <sup>3</sup>Huawei Inc. &emsp;
 
+<sup>\*</sup> Equal Contributions. <sup>$\ddagger$</sup> Project Lead. <sup>✉</sup> Corresponding Author. 
+
 ---------------------------------------------------
+
+---
 
 ![block](assets/teaserfig.png)   
 Our method converges very quickly and achieves real-time rendering speed.
 
-Colab demo:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/4DGaussians-colab/blob/main/4DGaussians_colab.ipynb) (Thanks [camenduru](https://github.com/camenduru/4DGaussians-colab).)
+Colab demo:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hustvl/4DGaussians/blob/master/4DGaussians.ipynb) (Thanks [camenduru](https://github.com/camenduru/4DGaussians-colab).)
 
 <video width="320" height="240" controls>
   <sourc src="assets/teaservideo.mp4" type="video/mp4">
@@ -85,7 +89,7 @@ The dataset provided in [HyperNeRF](https://github.com/google/hypernerf) is used
 
 
 ## Training
-For training synthetic scenes such as `lego`, run 
+For training synthetic scenes such as `bouncingballs`, run 
 ``` 
 python train.py -s data/dnerf/bouncingballs --port 6017 --expname "dnerf/bouncingballs" --configs arguments/dnerf/bouncingballs.py 
 ``` 
@@ -109,7 +113,11 @@ python metrics.py --model_path "output/dnerf/bouncingballs/"
 There are some helpful scripts in `scripts/`, please feel free to use them.
 
 ---
+## Contributions
 
+**This project is still under development. Please feel free to raise issues or submit pull requests to contribute to our codebase.**
+
+---
 Some source code of ours is borrowed from [3DGS](https://github.com/graphdeco-inria/gaussian-splatting), [k-planes](https://github.com/Giodiro/kplanes_nerfstudio),[HexPlane](https://github.com/Caoang327/HexPlane), [TiNeuVox](https://github.com/hustvl/TiNeuVox). We sincerely appreciate the excellent works of these authors.
 
 ## Acknowledgement

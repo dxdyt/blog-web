@@ -1,9 +1,9 @@
 ---
 title: text-embeddings-inference
-date: 2023-10-18T12:16:00+08:00
+date: 2023-10-19T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695648436191-e9b68ade8c64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695648436191-e9b68ade8c64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696590358767-4615ebd16cb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696590358767-4615ebd16cb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/text-embeddings-inference](https://github.com/huggingface/text-embeddings-inference)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1695648436191-e9b68ade8c
 
 A blazing fast inference solution for text embeddings models. 
 
-Benchmark for [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5) on a Nvidia A10 with a sequence length of 512 tokens:
+Benchmark for [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1.5) on an Nvidia A10 with a sequence length of 512 tokens:
 
 <p>
   <img src="assets/bs1-lat.png" width="400" />
@@ -46,14 +46,18 @@ Benchmark for [BAAI/bge-base-en-v1.5](https://huggingface.co/BAAI/bge-base-en-v1
 - [Local Install](#local-install)
 - [Docker Build](#docker-build)
 
-- No compilation step
-- Dynamic shapes
-- Small docker images and fast boot times. Get ready for true serverless!
-- Token based dynamic batching
-- Optimized transformers code for inference using [Flash Attention](https://github.com/HazyResearch/flash-attention),
+Text Embeddings Inference (TEI) is a toolkit for deploying and serving open source text embeddings models. TEI enables
+high-performance extraction for the most popular models, including FlagEmbedding, Ember, GTE and E5. TEI implements many features
+such as:
+
+* No model graph compilation step
+* Small docker images and fast boot times. Get ready for true serverless!
+* Token based dynamic batching
+* Optimized transformers code for inference using [Flash Attention](https://github.com/HazyResearch/flash-attention),
 [Candle](https://github.com/huggingface/candle) and [cuBLASLt](https://docs.nvidia.com/cuda/cublas/#using-the-cublaslt-api)
-- [Safetensors](https://github.com/huggingface/safetensors) weight loading
-- Production ready (distributed tracing with Open Telemetry, Prometheus metrics)
+* [Safetensors](https://github.com/huggingface/safetensors) weight loading
+* Production ready (distributed tracing with Open Telemetry, Prometheus metrics)
+
 
 ## Get Started
 
@@ -229,14 +233,15 @@ Options:
 
 Text Embeddings Inference ships with multiple Docker images that you can use to target a specific backend:
 
-| Architecture                      | Image                                                       |
-|-----------------------------------|-------------------------------------------------------------|
-| CPU                               | ghcr.io/huggingface/text-embeddings-inference:cpu-latest    |
-| Volta                             | NOT SUPPORTED                                               |
-| Turing (T4, RTX 2000 series, ...) | ghcr.io/huggingface/text-embeddings-inference:turing-latest |
-| Ampere 80 (A100, A30)             | ghcr.io/huggingface/text-embeddings-inference:latest        |
-| Ampere 86 (A10, A40, ...)         | ghcr.io/huggingface/text-embeddings-inference:86-latest     |
-| Hopper (H100)                     | ghcr.io/huggingface/text-embeddings-inference:hopper-latest |
+| Architecture                        | Image                                                       |
+|-------------------------------------|-------------------------------------------------------------|
+| CPU                                 | ghcr.io/huggingface/text-embeddings-inference:cpu-latest    |
+| Volta                               | NOT SUPPORTED                                               |
+| Turing (T4, RTX 2000 series, ...)   | ghcr.io/huggingface/text-embeddings-inference:turing-latest |
+| Ampere 80 (A100, A30)               | ghcr.io/huggingface/text-embeddings-inference:latest        |
+| Ampere 86 (A10, A40, ...)           | ghcr.io/huggingface/text-embeddings-inference:86-latest     |
+| Ada Lovelace (RTX 4000 series, ...) | ghcr.io/huggingface/text-embeddings-inference:89-latest     |
+| Hopper (H100)                       | ghcr.io/huggingface/text-embeddings-inference:hopper-latest |
 
 ### API documentation
 
@@ -359,6 +364,9 @@ runtime_compute_cap=80
 
 # Example for A10
 runtime_compute_cap=86
+
+# Example for Ada Lovelace (RTX 4000 series, ...)
+runtime_compute_cap=89
 
 # Example for H100
 runtime_compute_cap=90

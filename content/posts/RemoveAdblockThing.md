@@ -1,19 +1,28 @@
 ---
 title: RemoveAdblockThing
-date: 2023-10-18T12:17:23+08:00
+date: 2023-10-19T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696926040556-61d2bb6ac9da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696926040556-61d2bb6ac9da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2MDI1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696395050055-eb7a315bb1cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696395050055-eb7a315bb1cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
 ---
 
 # [TheRealJoelmatic/RemoveAdblockThing](https://github.com/TheRealJoelmatic/RemoveAdblockThing)
 
 # Remove the Adblock Popup from YOUTUBE
-[![daisyui](https://github.com/TheRealJoelmatic/RemoveAdblockThing/blob/main/Thumnail.jpg?raw=true)]([https://github.com/saadeghi/daisyui](https://www.youtube.com/watch?v=jvSf10lgxs4&ab_channel=Joelmatic))
+[![picture](https://github.com/TheRealJoelmatic/RemoveAdblockThing/blob/main/Thumnail.jpg?raw=true)](https://www.youtube.com/watch?v=jvSf10lgxs4&ab_channel=Joelmatic)
 ## Introduction
 
 This repository contains a userscript designed to remove the annoying "Ad blocker are not allowed on Youtube" popup. Follow the instructions below to get started.
 We also have an undetected way of skipping ads if you get blocked from the video player.
+
+## Table of Contents:
+
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [How to bypass the video player ban from using an ad blocker](#how-to-bypass-the-video-player-ban-from-using-an-ad-blocker)
+4. [Usage](#usage)
+5. [Contribution](#contribution)
+6. [License](#license)
 
 ## Installation
 
@@ -57,6 +66,9 @@ Contributors
 - [AngelPuzzle](https://github.com/angelapuzzle)
 - [oSumAtrIX](https://github.com/oSumAtrIX)
 - [Albedo-13](https://github.com/Albedo-13)
+- [SleepingPig35](https://github.com/SleepingPig35)
+- [marjansimic](https://github.com/marjansimic)
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
