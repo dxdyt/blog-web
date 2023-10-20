@@ -1,9 +1,9 @@
 ---
 title: PokemonRedExperiments
-date: 2023-10-19T12:16:21+08:00
+date: 2023-10-20T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697120693747-8b0b8efedc69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697120693747-8b0b8efedc69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1687778335869-4f7da0690fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1687778335869-4f7da0690fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
 ---
 
 # [PWhiddy/PokemonRedExperiments](https://github.com/PWhiddy/PokemonRedExperiments)

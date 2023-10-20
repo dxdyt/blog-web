@@ -1,0 +1,88 @@
+---
+title: workers-sdk
+date: 2023-10-20T12:18:27+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1696356261348-fbea2cb5d2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696356261348-fbea2cb5d2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+---
+
+# [cloudflare/workers-sdk](https://github.com/cloudflare/workers-sdk)
+
+## ⛅️ Home to `wrangler`, the CLI for Cloudflare Workers®, as well as other tools for interacting with Workers
+
+This monorepo contains:
+
+- [`wrangler-devtools`](https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler-devtools)
+  Cloudflare's fork of Chrome DevTools for inspecting your local or remote Workers
+- [`templates`](https://github.com/cloudflare/workers-sdk/tree/main/templates)
+  Templates & examples for writing Cloudflare Workers
+- [`wrangler`](https://github.com/cloudflare/workers-sdk/tree/main/packages/wrangler)
+  A command line tool for building [Cloudflare Workers](https://workers.cloudflare.com/).
+- [`pages-shared`](https://github.com/cloudflare/workers-sdk/tree/main/packages/pages-shared)
+  Used internally to power Wrangler and Cloudflare Pages. It contains all the code that is shared between these clients.
+- [`C3`](https://github.com/cloudflare/workers-sdk/tree/main/packages/create-cloudflare) A CLI for creating and deploying new applications to Cloudflare.
+
+Wrangler and the workers-sdk is developed in the open on GitHub, and you can see what we're working on in [GitHub Issues](https://github.com/cloudflare/workers-sdk/issues?q=is%3Aopen+is%3Aissue), as well as in our [workers-sdk GitHub Project board](https://github.com/orgs/cloudflare/projects/1). If you've found a bug or would like to request a feature, [please file an issue](https://github.com/cloudflare/workers-sdk/issues/new/choose)!
+
+## Quick Start
+
+```bash
+# Make a javascript file
+echo "export default { fetch() { return new Response('hello world') } }" > index.js
+# try it out
+npx wrangler dev index.js
+# and then deploy it
+npx wrangler deploy index.js --name my-worker --latest
+# visit https://my-worker.<your workers subdomain>.workers.dev
+```
+
+## Create a Project
+
+```bash
+# Generate a new project
+npx wrangler init my-worker
+# try it out
+cd my-worker && npm run start
+# and then deploy it
+npm run deploy
+```
+
+## Installation:
+
+```bash
+$ npm install wrangler --save-dev
+```
+
+## Commands
+
+### `wrangler init [name]`
+
+Creates a Worker project. For details on configuration keys and values, refer to the [documentation](https://developers.cloudflare.com/workers/wrangler/configuration/).
+
+### `wrangler dev`
+
+Start a local development server, with live reloading and devtools.
+
+### `wrangler deploy`
+
+Deploys the given script to the worldwide Cloudflare network.
+
+For more commands and options, refer to the [documentation](https://developers.cloudflare.com/workers/wrangler/commands/).
+
+## Pages
+
+### `wrangler pages dev [directory] [-- command]`
+
+Either serves a static build asset directory, or proxies itself in front of a command.
+
+Builds and runs functions from a `./functions` directory or uses a `_worker.js` file inside the static build asset directory.
+
+For more commands and options, refer to the [documentation](https://developers.cloudflare.com/pages/platform/functions#develop-and-preview-locally) or run `wrangler pages dev --help`.
+
+## Documentation
+
+For the latest Wrangler documentation, [click here](https://developers.cloudflare.com/workers/wrangler/).
+
+## Contributing
+
+Refer to the [`CONTRIBUTING.md`](/CONTRIBUTING.md) guide for details.

@@ -1,9 +1,9 @@
 ---
 title: ionic-framework
-date: 2023-07-29T12:16:22+08:00
+date: 2023-10-20T12:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682842268263-865e6dabcbe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682842268263-865e6dabcbe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695556746240-55d9f92faf43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695556746240-55d9f92faf43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
 ---
 
 # [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework)
@@ -65,7 +65,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1682842268263-865e6dabcb
 | Project | Package | Version | Downloads| Links |
 | ------- | ------- | ------- | -------- |:-----:|
 | **Core** | [`@ionic/core`](https://www.npmjs.com/package/@ionic/core) | [![version](https://img.shields.io/npm/v/@ionic/core/latest.svg)](https://www.npmjs.com/package/@ionic/core) | <a href="https://www.npmjs.com/package/@ionic/core" target="_blank"><img src="https://img.shields.io/npm/dm/@ionic/core.svg" alt="NPM Downloads" /></a> | [`README.md`](core/README.md)
-| **Angular** | [`@ionic/angular`](https://www.npmjs.com/package/@ionic/angular) | [![version](https://img.shields.io/npm/v/@ionic/angular/latest.svg)](https://www.npmjs.com/package/@ionic/angular) | <a href="https://www.npmjs.com/package/@ionic/angular" target="_blank"><img src="https://img.shields.io/npm/dm/@ionic/angular.svg" alt="NPM Downloads" /></a> | [`README.md`](angular/README.md)
+| **Angular** | [`@ionic/angular`](https://www.npmjs.com/package/@ionic/angular) | [![version](https://img.shields.io/npm/v/@ionic/angular/latest.svg)](https://www.npmjs.com/package/@ionic/angular) | <a href="https://www.npmjs.com/package/@ionic/angular" target="_blank"><img src="https://img.shields.io/npm/dm/@ionic/angular.svg" alt="NPM Downloads" /></a> | [`README.md`](packages/angular/README.md)
 | **Vue** | [`@ionic/vue`](https://www.npmjs.com/package/@ionic/vue) | [![version](https://img.shields.io/npm/v/@ionic/vue/latest.svg)](https://www.npmjs.com/package/@ionic/vue) | <a href="https://www.npmjs.com/package/@ionic/vue" target="_blank"><img src="https://img.shields.io/npm/dm/@ionic/vue.svg" alt="NPM Downloads" /></a> | [`README.md`](packages/vue/README.md)
 | **React** | [`@ionic/react`](https://www.npmjs.com/package/@ionic/react) | [![version](https://img.shields.io/npm/v/@ionic/react/latest.svg)](https://www.npmjs.com/package/@ionic/react) | <a href="https://www.npmjs.com/package/@ionic/react" target="_blank"><img src="https://img.shields.io/npm/dm/@ionic/react.svg" alt="NPM Downloads" /></a> |[`README.md`](packages/react/README.md)
 

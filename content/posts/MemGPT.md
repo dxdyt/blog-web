@@ -1,9 +1,9 @@
 ---
 title: MemGPT
-date: 2023-10-19T12:15:12+08:00
+date: 2023-10-20T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696237368688-f677ecefb14f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696237368688-f677ecefb14f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
 ---
 
 # [cpacker/MemGPT](https://github.com/cpacker/MemGPT)
@@ -77,7 +77,7 @@ You can see the full list of available commands when you enter `/` into the mess
 
 Memory-GPT (or MemGPT in short) is a system that intelligently manages different memory tiers in LLMs in order to effectively provide extended context within the LLM's limited context window. For example, MemGPT knows when to push critical information to a vector database and when to retrieve it later in the chat, enabling perpetual conversations. Learn more about MemGPT in our [paper](https://arxiv.org/abs/2310.08560). 
 
-## Running MemGPT Locally 
+## Running MemGPT locally
 
 Install dependencies:
 
@@ -85,10 +85,23 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
+Extra step for Windows:
+
+```sh
+# only needed on Windows
+pip install pyreadline
+```
+
 Add your OpenAI API key to your environment:
 
 ```sh
+# on Linux/Mac
 export OPENAI_API_KEY=YOUR_API_KEY
+```
+
+```sh
+# on Windows
+set OPENAI_API_KEY=YOUR_API_KEY
 ```
 
 To run MemGPT for as a conversation agent in CLI mode, simply run `main.py`:
@@ -261,6 +274,7 @@ Datasets used in our [paper](https://arxiv.org/abs/2310.08560) can be downloaded
 - [x] Release MemGPT Discord bot demo (perpetual chatbot)
 - [x] Add additional workflows (load SQL/text into MemGPT external context)
 - [ ] CLI UI improvements
+- [ ] Integration tests
 - [ ] Integrate with AutoGen
 - [ ] Add official gpt-3.5-turbo support
 - [ ] Add support for other LLM backends
