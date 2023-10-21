@@ -1,9 +1,9 @@
 ---
 title: node
-date: 2023-10-20T12:18:32+08:00
+date: 2023-10-21T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695760442128-6db7202ea8cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695760442128-6db7202ea8cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696519293772-0b240f1e5318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696519293772-0b240f1e5318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
 ---
 
 # [nodejs/node](https://github.com/nodejs/node)

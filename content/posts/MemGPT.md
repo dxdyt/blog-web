@@ -1,9 +1,9 @@
 ---
 title: MemGPT
-date: 2023-10-20T12:15:49+08:00
+date: 2023-10-21T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696790360152-3429effe6a99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696790360152-3429effe6a99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
 ---
 
 # [cpacker/MemGPT](https://github.com/cpacker/MemGPT)
@@ -117,9 +117,21 @@ To create a new starter user or starter persona (that MemGPT gets initialized wi
 python main.py --human me.txt
 ```
 
+### GPT-3.5 support
+You can run MemGPT with GPT-3.5 as the LLM instead of GPT-4:
+```sh
+python main.py --model gpt-3.5-turbo
+```
+
+**Note that this is experimental gpt-3.5-turbo support. It's quite buggy compared to gpt-4, but it should be runnable.**
+
+Please report any bugs you encounter regarding MemGPT running on GPT-3.5 to  https://github.com/cpacker/MemGPT/issues/59.
+
 ### `main.py` flags
 
 ```text
+--model
+  select which model to use ('gpt-4', 'gpt-3.5-turbo-0613', 'gpt-3.5-turbo')
 --persona
   load a specific persona file
 --human
@@ -273,9 +285,9 @@ Datasets used in our [paper](https://arxiv.org/abs/2310.08560) can be downloaded
 ## 🚀 Project Roadmap
 - [x] Release MemGPT Discord bot demo (perpetual chatbot)
 - [x] Add additional workflows (load SQL/text into MemGPT external context)
-- [ ] CLI UI improvements
-- [ ] Integration tests
-- [ ] Integrate with AutoGen
-- [ ] Add official gpt-3.5-turbo support
-- [ ] Add support for other LLM backends
-- [ ] Release MemGPT family of open models (eg finetuned Mistral)
+- [x] Integration tests
+- [x] Integrate with AutoGen ([discussion](https://github.com/cpacker/MemGPT/discussions/65))
+- [x] Add official gpt-3.5-turbo support ([discussion](https://github.com/cpacker/MemGPT/discussions/66))
+- [ ] Release MemGPT family of open models (eg finetuned Mistral) ([discussion](https://github.com/cpacker/MemGPT/discussions/67))
+- [ ] CLI UI improvements ([issue](https://github.com/cpacker/MemGPT/issues/11))
+- [ ] Add support for other LLM backends ([issue](https://github.com/cpacker/MemGPT/issues/18))

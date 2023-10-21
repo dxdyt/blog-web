@@ -1,9 +1,9 @@
 ---
 title: Free-Certifications
-date: 2023-10-20T12:16:07+08:00
+date: 2023-10-21T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696613656560-61607b682907?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696613656560-61607b682907?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
@@ -118,18 +118,21 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Red Hat Satellite | RedHat |  Free Course On Red Hat Satellite Technical Overview  | [Link](https://www.redhat.com/en/services/training/rh053-red-hat-satellite-technical-overview) | Unknown |
 | Containers | RedHat |  Free Course On Running Containers with Red Hat Technical Overview | [Link](https://www.redhat.com/en/services/training/rh065-running-containers-red-hat-technical-overview?section=overview) | Unknown |
 | Site Reliability Engineering | RedHat |  Free Course On Transitional approach to implementing pragmatic Site Reliability Engineering (SRE) Technical Overview | [Link](https://www.redhat.com/en/services/training/transitional-approach-implementing-pragmatic-site-reliability-engineering-sre-technical-overview) | Unknown |
+| GitOps | Akuity | Introduction to Continuous Delivery and GitOps using Argo CD | [Link](https://academy.akuity.io/courses/gitops-argocd-intro) | Unknown |
+| Network | Cisco U | Understanding Cisco Network Automation Essentials - DEVNAE - 16 continuing education credits free | [Link](https://u.cisco.com/path/3) | Unlimited |
 
 ## Security
 
 | Provider | Description | Link | Expiration |
 | --- | --- | --- | --- |
+| Cisco U | Understanding Cisco Cybersecurity Operations Fundamentals - CBROPS - 30 continuing education credits free | [Link](https://u.cisco.com/path/32) | 16-Nov-2023 |
+| ISC² | Voucher 100%, Certified in Cybersecurity℠(CC) Exam Voucher: CC1M12312023 | [Link](https://www.isc2.org/landing/1mcc) | 31-Dec-2023 |
 | Palo Alto Networks | Free certification exam coupon code upon completion of certification prep training during the event. | [Link](https://ignite.paloaltonetworks.com/) | 18-Nov-2020 |
 | Fortinet | Free Network Security training courses & certifications by Fortinet / NSE Institute. | [Link](https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2020/fortinet-makes-all-online-cybersecurity-training-courses-available-for-free.html) | Unlimited |
 | The Academic Council Of uLektz | Free Cyber Security training and certification. | [Link](https://www.ulektzskills.com/skills/The-Academic-Council-Of-uLektz/Cyber-Security-NTA4Mg==) | Unknown |
 | APMG International | Free Certified Cyber Professional (CCP) Specialism Pilot certification for **eligible individuals** (see link for info). | [Link](https://apmg-international.com/article/certified-cyber-professional-ccp-specialism-pilot) | Unknown |
 | Cisco Networking Academy | Free Introduction to Cybersecurity course with Networking Academy badge for completing this course. | [Link](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity) | Unlimited |
 | SkillFront | Free ISO/IEC 27001 Information Security Associate™ | [Link](https://www.skillfront.com/ISO-IEC-27001-Information-Security-Associate) | Unlimited |
-| ISC² | Voucher 100%, Certified in Cybersecurity℠(CC) Exam Voucher: CC1M12312023 | [Link](https://www.isc2.org/landing/1mcc) | 31-Dec-2023 |
 | AttackIQ | Foundations of Purple Teaming | [Link](https://www.academy.attackiq.com/courses/foundations-of-purple-teaming) | Unlimited |
 | AttackIQ | Foundations of Breach & Attack Simulation | [Link](https://www.academy.attackiq.com/courses/foundations-of-breach-attack-simulation) | Unlimited |
 | AttackIQ | Foundations of Operationalizing MITRE ATT&CK v13 | [Link](https://www.academy.attackiq.com/courses/foundations-of-operationalizing-mitre-attck-v13) | Unlimited |
@@ -145,6 +148,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | 6sigmastudy | Free Six Sigma Yellow Belt course & certification. | [Link](http://www.6sigmastudy.com/Six-Sigma-Yellow-Belt.asp) | Unlimited |
 | ScrumStudy | Free “Scrum Fundamentals Certified (SFC™)” training course & certification | [Link](https://www.scrumstudy.com/certification/scrum-fundamentals-certified) | Unlimited |
 | SkillFront | Free Certified Associate In Scrum Fundamentals™ (CASF™) | [Link](https://www.skillfront.com/CASF-Certified-Associate-In-Scrum-Fundamentals) | Unlimited |
+| Great Learning | Free Project Management course | [Link](https://www.mygreatlearning.com/academy/learn-for-free/courses/project-management) | Unlimited
 
 ## Marketing
 
@@ -195,3 +199,4 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | EF SET | 15-minute English quiz to validate reading skills (English grammar and vocabulary) and listening skills, aligned to CEFR levels. | [Link](https://www.efset.org/quick-check/) | Unlimited |
 | EF SET | 50-minute test to receive your personalized English certificate to add to your LinkedIn profile or CV, aligned to CEFR levels. | [Link](https://www.efset.org/ef-set-50/) | Unlimited |
 | Microsoft | The Microsoft Licensing Specialist certifications demonstrate competence in a particular area of Microsoft product licensing. You will require an intermediate level of knowledge to achieve these certifications. | [Link](https://getlicensingready.com/Main.aspx) | Unlimited |
+| ProKanban.org | Free Kanban Flow Metrics assessment | [Link](https://prokanban.org/small-batch-certifications/) | Unlimited |

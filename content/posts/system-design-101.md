@@ -1,9 +1,9 @@
 ---
 title: system-design-101
-date: 2023-10-20T12:15:25+08:00
+date: 2023-10-21T12:14:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696356261348-fbea2cb5d2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696356261348-fbea2cb5d2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696407868189-2ac092c5807f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696407868189-2ac092c5807f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
 ---
 
 # [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
@@ -481,7 +481,7 @@ URL stands for Uniform Resource Locator, the key concept of HTTP. It is the addr
 
 URN stands for Uniform Resource Name. It uses the urn scheme. URNs cannot be used to locate a resource. A simple example given in the diagram is composed of a namespace and a namespace-specific string. 
 
-If you would like to learn more detail on the subject, I would recommend W3C’s clarification.
+If you would like to learn more detail on the subject, I would recommend [W3C’s clarification](https://www.w3.org/TR/uri-clarification/).
 
 ## CI/CD
 
@@ -1588,7 +1588,7 @@ Over the years, Microrepo has had more supported tools, including Maven and Grad
 
 ### How will you design the Stack Overflow website? 
 
-If your answer is on-premise servers and monolith (on the right), you would likely fail the interview, but that's how it is built in reality!
+If your answer is on-premise servers and monolith (on the bottom of the following image), you would likely fail the interview, but that's how it is built in reality!
 
 <p>
   <img src="images/stackoverflow.jpg" />
@@ -1597,7 +1597,7 @@ If your answer is on-premise servers and monolith (on the right), you would like
 
 **What people think it should look like**
 
-The interviewer is probably expecting something on the left side.
+The interviewer is probably expecting something like the top portion of the picture.
 
 - Microservice is used to decompose the system into small components.
 - Each service has its own database. Use cache heavily.

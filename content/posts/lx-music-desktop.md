@@ -1,9 +1,9 @@
 ---
 title: lx-music-desktop
-date: 2023-08-15T12:15:42+08:00
+date: 2023-10-21T12:15:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691522949910-28fcfb326904?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691522949910-28fcfb326904?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696237983389-8ff5b15d3430?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696237983389-8ff5b15d3430?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
 ---
 
 # [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
@@ -62,6 +62,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1691522949910-28fcfb3269
 
 目前本项目的原始发布地址只有**GitHub**及**蓝奏网盘**，其他渠道均为第三方转载发布，与本项目无关！
 
+为了提高使用门槛，本软件内的默认设置、UI操作不以新手友好为目标，所以使用前建议先根据你的喜好浏览调整一遍软件设置，阅读一遍[音乐播放列表机制](https://lyswhut.github.io/lx-music-doc/desktop/faq/playlist)及[可用的鼠标、键盘快捷操作](https://lyswhut.github.io/lx-music-doc/desktop/faq/hotkey)
+
 #### Scheme URL支持
 
 从v1.17.0起支持 Scheme URL，可以使用此功能从浏览器等场景下调用LX Music，我们开发了一个[油猴脚本](https://github.com/lyswhut/lx-music-script#readme)配套使用，<br>
@@ -99,25 +101,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691522949910-28fcfb3269
 
 ### 源码使用方法
 
-环境要求：Node.js 16+
-
-```bash
-# 开发模式
-npm run dev
-
-# 构建免安装版
-npm run pack:dir
-
-# 构建安装包（Windows版）
-npm run pack:win
-
-# 构建安装包（Mac版）
-npm run pack:mac
-
-# 构建安装包（Linux版）
-npm run pack:linux
-
-```
+已迁移至：<https://lyswhut.github.io/lx-music-doc/desktop/use-source-code>
 
 ### UI界面
 
@@ -139,7 +123,7 @@ npm run pack:linux
 
 1. 参照[源码使用方法](https://lyswhut.github.io/lx-music-doc/desktop/use-source-code)设置开发环境
 2. 克隆本仓库代码并切换到`dev`分支开发
-3. 提交PR
+3. 提交PR至`dev`分支
 
 ### 项目协议
 
