@@ -1,9 +1,9 @@
 ---
 title: awesome-ai-agents
-date: 2023-09-07T12:17:49+08:00
+date: 2023-10-22T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693275449979-aa6d53df26b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693275449979-aa6d53df26b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697136670904-0c177e79247c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697136670904-0c177e79247c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
 ---
 
 # [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
@@ -11,11 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1693275449979-aa6d53df26
 <!--
 TBD:
 Add to visual:
--
--
--
--
-
+- Suspicion Agent
+- Wispy
 	-->
 
 <h1 align="center">
@@ -29,36 +26,33 @@ Add to visual:
 		</a>
 	</p>
 </h1>
-
 <h3 align="center">
-  👉 Try out E2B's <a href="https://e2b.dev/docs?ref=awesome-agents">AI Playgrounds</a> for agents, copilots, and AI apps
+  Try out E2B's <a href="https://e2b.dev/docs?ref=awesome-sdks">sandbox runtime </a> for agents, copilots, and AI apps
 </h3>
 
-<h4 align="center">👉 Check out <a href="https://github.com/e2b-dev/awesome-sdks-for-ai-agents">Awesome List of SDKs for AI Agents</a></h4>
+<h5 align="center">👉 <a href="https://forms.gle/UXQFCogLYrPFvfoUA">Submit new product here</a></h5>
 
-<img src="/assets/landscape-latest.png" width="100%" alt="Chart of AI Agents Landscape" />
+<img src="assets/landscape-latest.png" width="100%" alt="Chart of AI Agents Landscape" />
 
 Welcome to our list of AI agents.
 We structured the list into two parts:
 - [Open source projects](#open_hands-open-source-projects)
 - [Closed-source projects and companies](#lock-closed-source-projects-and-companies)
 
-The list is done according to our best knowledge, although definitely not comprehensive.
+The list is done according to our best knowledge, although definitely not comprehensive. Check out also <a href="https://github.com/e2b-dev/awesome-sdks-for-ai-agents">the Awesome List of SDKs for AI Agents</a>.
 Discussion and feedback appreciated! :heart:
 
 ## Have anything to add?
 You have something to add or improve about our list? Do it via pull request. Please keep the agents in an alphabetical order and in correct category. Please only add companies and projects powered by autonomous AI agents.
-For adding agents'-related SDKs, frameworks and tools, please visit [Awesome SDKs for AI Agents](https://github.com/e2b-/awesome-sdks-for-ai-agents).
+For adding agents'-related SDKs, frameworks and tools, please visit [Awesome SDKs for AI Agents](https://github.com/e2b-dev/awesome-sdks-for-ai-agents)
 
 ## Who's behind this?
-This list is made by the team behind [e2b](https://github.com/e2b-/e2b). E2b is building AWS for AI agents. We help elopers to deploy, test, and monitor AI agents. E2b is agnostic to your tech stack and aims to work with any tooling for building AI agents.
+This list is made by the team behind [e2b](https://github.com/e2b-dev/e2b). E2b is building AWS for AI agents. We help elopers to deploy, test, and monitor AI agents. E2b is agnostic to your tech stack and aims to work with any tooling for building AI agents.
 
 ## Join the community
 - Follow us on [Twitter](https://twitter.com/e2b_)
 - [Join Twitter community](https://twitter.com/i/communities/1670204079619055616) for AI agents
 - [Join our Discord](https://discord.gg/U7KEcGErtQ)
-- Want to discuss anything about AI agents? [Schedule a call with us](https://calendly.com/tereza-tizkova/30min)
-- See also [Awesome SDKs for AI Agents](https://github.com/e2b-/awesome-sdks-for-ai-agents)
 
 Feel free to reach out to us at [hello@e2b.](mailto:hello@e2b.).
 
@@ -100,6 +94,28 @@ A browser-based implementation of AutoGPT, accessible via a no-code platform
 </details>
 
 <!-- This is a comment that appears only in the raw text -->
+
+## [Agents](https://github.com/aiwaves-cn/agents)
+
+**Agents** is an open-source library/framework for building autonomous language agents.
+
+<details>
+
+### Description
+-   **Long-short Term Memory**: Language agents in the library are equipped with both long-term memory implemented via VectorDB + Semantic Search and short-term memory (working memory) maintained and updated by an LLM.
+-   **Tool Usage**: Language agents in the library can use any external tools via  [function-calling](https://platform.openai.com/docs/guides/gpt/function-calling)  and developers can add customized tools/APIs  [here](https://github.com/aiwaves-cn/agents/blob/master/src/agents/Component/ToolComponent.py).
+-   **Web Navigation**: Language agents in the library can use search engines to navigate the web and get useful information.
+-   **Multi-agent Communication**: In addition to single language agents, the library supports building multi-agent systems in which language agents can communicate with other language agents and the environment. Different from most existing frameworks for multi-agent systems that use pre-defined rules to control the order for agents' action,  **Agents**  includes a  _controller_  function that dynamically decides which agent will perform the next action using an LLM by considering the previous actions, the environment, and the target of the current states. This makes multi-agent communication more flexible.
+-   **Human-Agent interaction**: In addition to letting language agents communicate with each other in an environment, our framework seamlessly supports human users to play the role of the agent by himself/herself and input his/her own actions, and interact with other language agents in the environment.
+-   **Symbolic Control**: Different from existing frameworks for language agents that only use a simple task description to control the entire multi-agent system over the whole task completion process,  **Agents**  allows users to use an  **SOP (Standard Operation Process)**  that defines subgoals/subtasks for the overall task to customize fine-grained workflows for the language agents.
+
+### Links
+- Author: [AIWaves Inc.](https:github.com/aiwaves-cn)
+- [Paper](https://arxiv.org/pdf/2309.07870.pdf)
+- [GitHub Repository](https://github.com/aiwaves-cn/agents)
+- [Documentation](https://agents-readthedocsio.readthedocs.io/en/latest/index.html)
+- [Tweet](https://twitter.com/wangchunshu/status/1702512370785100133)
+</details>
 
 
 ## [AI Legion](https://github.com/eumemic/ai-legion)
@@ -446,7 +462,7 @@ The BambooAI library is a user-friendly semi-autonomous AI agent designed to mak
 An Autonomous AI Assistant designed to perform a wide range of practical tasks autonomously
 
 <details>
-	
+
 ### Description
 - "BeeBot is currently a work in progress and should be treated as an early stage research project. Its focus is not on production usage at this time."
 
@@ -478,6 +494,32 @@ A GPT-4 powered semantic code search engine that uses an AI agent
 
 </details>
 
+## [BondAI](https://bondai.dev/)
+A highly capable, autonomous AI Agent with an easy to use CLI, RESTful/WebSocket API, Pre-built Docker image and a robust suite of integrated tools.
+
+<details>
+
+### Description
+- Support for all GPT-N, Embeddings and Dall-E OpenAI Models
+- Support for Azure OpenAI Services
+- Easy to use SDK for integration into any application
+- Powerful **Code Interpreter** capabilities
+- Powerful data query capabilities via Postgres DB integration
+- Pre-built Docker image provides safe execution environment for code generation/execution
+- Support for telephony applications (via BlandAI)
+- Support for stock trading (via Alpaca Markets)
+- Integrates with Gmail and Google Search
+- Easy to install `pip install bondai`
+- To start the CLI just run `bondai`
+- To start the RESTful/WebSocket API just run `bondai --server`
+
+### Links
+- [BondAI Homepage/Documentation](https://bondai.dev)
+- [Github Repository](https://github.com/krohling/bondai)
+- [Docker Image](https://hub.docker.com/r/krohling/bondai)
+
+</details>
+
 ## [Cal.ai](https://cal.ai)
 
 An open-source scheduling assistant built on Cal.com.
@@ -496,22 +538,26 @@ An open-source scheduling assistant built on Cal.com.
 </details>
 
 
-## [Camel](https://github.com/camel-ai/camel)
+## [CAMEL](https://github.com/camel-ai/camel)
 An agent architecture for “Mind” Exploration of Large Scale Language Model Society
 
 <details>
 
 ### Description
-1) AI user agent: give instructions to the AI assistant with the goal of completing the task.
+- CAMEL is an open-source library designed for the study of autonomous and communicative agents.
+1)AI user agent: give instructions to the AI assistant with the goal of completing the task.
 2) AI assistant agent: follow AI user’s instructions and respond with solutions to the task
+- CAMEL also has an open-source community dedicated to the study of autonomous and communicative agents
 
 ### Links
+- [Web](https://www.camel-ai.org/)
 - [Paper - CAMEL: Communicative Agents for “Mind”
 Exploration of Large Scale Language Model Society](https://ghli.org/camel.pdf)
 - [Colab demo](https://colab.research.google.com/drive/1AzP33O8rnMW__7ocWJhVBXjKziJXPtim?usp=sharing)
 - [GitHub](https://github.com/camel-ai/camel)
 - [Hugging face datasets](https://huggingface.co/camel-ai)
 - [Slack](https://camel-kwr1314.slack.com/join/shared_invite/zt-1vy8u9lbo-ZQmhIAyWSEfSwLCl2r2eKA#/shared-invite/email)
+- [Twitter](https://twitter.com/intent/follow?original_referer=https%3A%2F%2F1508613885-atari-embeds.googleusercontent.com%2F&ref_src=twsrc%5Etfw%7Ctwcamp%5Ebuttonembed%7Ctwterm%5Efollow%7Ctwgr%5ECamelAIOrg&screen_name=CamelAIOrg)
 - Authors: Guohao Li∗ Hasan Abed Al Kader Hammoud* Hani Itani* Dmitrii Khizbullin, Bernard Ghanem
 
 </details>
@@ -573,7 +619,6 @@ An AI code assistant from Sourcegraph that writes code and answers questions for
 
 </details>
 
-
 ## [Continue](https://continue.dev/)
 An open-source autopilot for software development
 
@@ -596,7 +641,18 @@ An open-source autopilot for software development
 </details>
 
 
+## [Cursor](https://www.cursor.so/)
 
+The AI-first Code Editor. Build software faster in an editor designed for pair-programming with AI.
+
+<details>
+
+### Links
+- [Website](https://www.cursor.so/)
+- [GitHub (Issue Only)](https://github.com/getcursor/cursor)
+- [Discord](https://discord.com/invite/PJEgRywgRy)
+
+</details>
 
 
 ## [Databerry](https://www.databerry.ai/)
@@ -650,6 +706,23 @@ A super-easy no-code platform for creating AI chatbots trained on your own data
 
 </details>
 
+<!--
+% ## [DB GPT](https://github.com/eosphoros-ai/DB-GPT)
+
+
+<details>
+
+### Description
+- Revolutionizing Database Interactions with Private LLM Technology
+- DB-GPT is an experimental open-source project that uses localized GPT large models to interact with your data and environment
+- With this solution, you can be assured that there is no risk of data leakage, and your data is 100% private and secure
+  
+### Links
+- [
+
+</details>
+
+
 ## [Deepnote AI Copilot](https://deepnote.com/blog/introducing-deepnote-ai)
 An AI code copilot that instantly suggests code and works with the whole notebook context
 <details>
@@ -667,6 +740,7 @@ An AI code copilot that instantly suggests code and works with the whole noteboo
 - [Twitter](https://twitter.com/DeepnoteHQ?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor)
 
 </details>
+-->
 
 ## [DemoGPT](https://github.com/melih-unsal/DemoGPT)
 An AI that enables quick demo generation for LLM-based applications using just prompts
@@ -849,6 +923,24 @@ Easily migrate your codebase from one framework or language to another
 
 </details>
 
+## [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)
+An agent that codes the entire app as you oversee the code being written
+
+<details>
+
+### Description
+- Dev tool that writes scalable apps from scratch while the developer oversees the implementation
+- A research project to see how can GPT-4 be utilized to generate fully working, production-ready, apps
+- The main idea is that AI can write most of the code for an app (maybe 95%) but for the rest 5%, a developer is and will be needed until we get full AGI
+
+### Links
+- [GitHub](https://github.com/Pythagora-io/gpt-pilot)
+- [Discord](https://discord.com/invite/HaqXugmxr9)
+
+
+
+</details>
+
 
 ## [GPT Researcher](https://github.com/assafelovic/gpt-researcher)
 GPT based autonomous agent that does online comprehensive research on any given topic
@@ -891,6 +983,37 @@ Conversations with your files which selected! Manage and run your AI presets!
 
 </details>
 
+
+## [IX](https://github.com/kreneskyp/ix)
+
+IX is a platform for building, debugging, and deploying collaborative Agents and cognitive workflows.
+
+<details>
+
+### Description
+
+IX is a LangChain based agent platform that includes all the tools to build and deploy fleets of agents that
+collaborate to complete tasks. IX is both an editor and a runtime. The editor is a no-code graph style editor for
+the design of agents, chains, tools, retrieval functions, and collaborative workflows.
+
+- Intuitive graph style no-code editor.
+- Horizontally scaling agent worker fleet.
+- Multi-user, multi-agent chat interface.
+- Smart input auto-completes `@mentions` and `{file}` references.
+- Supports Chroma and other vector databases for document search.
+- Supports OpenAI API, Anthropic, PaLM, and LLama based models.
+- Component library is easily extended.
+- Powered by LangChain
+
+### Links
+
+- [Youtube](https://www.youtube.com/watch?v=hAJ8ectypas&list=PLR8AMvFecu1hyMHFzaehbfFcMcECMafVs)
+- [Discord](https://discord.gg/jtrMKxzZZQ)
+- [Author's Twitter](https://twitter.com/kreneskyp)
+
+</details>
+
+
 ## [Lemon Agent](https://github.com/felixbrock/lemon-agent)
 
 Plan-Validate-Solve (PVS) Agent for accurate, reliable and reproducable workflow automation
@@ -912,6 +1035,28 @@ Plan-Validate-Solve (PVS) Agent for accurate, reliable and reproducable workflow
 - [Author's Twitter](https://twitter.com/felixbrockm)
 
 </details>
+
+## [Local GPT](https://github.com/PromtEngineer/localGPT)
+LocalGPT is an open-source initiative that allows you to converse with your documents without compromising your privacy
+
+
+<details>
+
+### Description
+- Chat with your documents on your local device using GPT models. No data leaves your device and 100% private
+- With everything running locally, you can be assured that no data ever leaves your computer
+- Dive into the world of secure, local document interactions with LocalGPT
+
+
+### Links
+
+- [GitHub](https://github.com/PromtEngineer/localGPT)
+- [Subreddit](https://www.reddit.com/r/LocalGPT/)
+
+</details>
+
+
+
 
 ## [Loop GPT](https://github.com/farizrahman4u/loopgpt/tree/main)
 A re-implementation of the popular Auto-GPT project as a proper python package, written with modularity and extensibility in mind
@@ -983,7 +1128,7 @@ Unlike Copilot, Mentat coordinates edits across multiple locations and files. An
  A multi-agent framework that, given one line requirement, returns PRD, Design, Tasks, or Repo
 
 <details>
-	
+
 ### Description
 - MetaGPT allows to assign different roles to GPTs to form a collaborative software entity for complex tasks
 - It takes a one line requirement as input and outputs user stories / competitive analysis / requirements / data structures / APIs / documents, etc.
@@ -1016,6 +1161,30 @@ A minimal general-purpose autonomous agent based on GPT-3.5 / GPT-4
 - It combines a robust prompt with a minimal set of tools, chain-of-thoughts, and short-term memory with summarization
 - Capable of inner monologue and self-criticism
 </details>
+
+
+## [Multiagent Debate](https://github.com/composable-models/llm_multiagent_debate)
+An implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate"
+
+<details>
+
+### Description
+- The paper illustrates how we may treat different instances of the same language models as a "multiagent society", where individual language model generate and critique the language generations of other instances of the language model
+- The authors find that the final answer generated after such a procedure is both more factually accurate and solves reasoning questions more accurately
+- Illustrating the quantitative difference between multiagent debate and single agent generation on different domains in reasoning and factual validity
+
+
+
+### Links
+- [GitHub](https://github.com/composable-models/llm_multiagent_debate)
+- [Project page](https://composable-models.github.io/llm_debate/)
+- [Paper](https://arxiv.org/abs/2305.14325)
+
+</details>
+
+
+
+
 
 
 ## [Multi GPT](https://github.com/rumpfmax/Multi-GPT)
@@ -1059,6 +1228,24 @@ An open-source AGI R&D platform that enables agents for both benchmark tasks and
 - [GitHub](https://github.com/agiresearch/OpenAGI)
 - [Paper](https://arxiv.org/abs/2304.04370)
 - [Demo](https://www.youtube.com/watch?v=7RaXPPXi0-Y)
+
+</details>
+
+
+## [Open Interpreter](https://openinterpreter.com/)
+An open-source interpreter that lets LLMs run code on your computer to complete tasks
+
+<details>
+
+### Description
+- Runs locally
+- Can for example summarize PDFs, visualize datasets, control your browser
+- Works from a ChatGPT-like interface in your terminal.
+
+### Links
+- [Web](https://openinterpreter.com/)
+- [GitHub](https://github.com/KillianLucas/open-interpreter)
+- [Author's Twitter](https://twitter.com/hellokillian)
 
 </details>
 
@@ -1232,6 +1419,25 @@ An open-source autonomous AI framework to enable development and deployment auto
 
 </details>
 
+
+## [Suspicion Agent](https://github.com/CR-Gjx/Suspicion-Agent)
+Playing Imperfect Information Games with Theory of Mind Aware GPT-4
+
+<details>
+
+### Description
+- The paper delves into the applicability of GPT-4's learned knowledge for imperfect information games
+
+
+### Links
+- [GitHub](https://github.com/CR-Gjx/Suspicion-Agent)
+- [Paper](https://arxiv.org/abs/2309.17277)
+- [Project demo](https://huggingface.co/spaces/cr7-gjx/Suspicion-Agent-Demo)
+- [Game data replay](https://huggingface.co/spaces/cr7-gjx/Suspicion-Agent-Data-Visualization)
+
+</details>
+
+
 ## [Sweep](https://sweep.dev/)
 A Github assistant the helps fix small bugs and implement small features
 <details>
@@ -1386,7 +1592,25 @@ Swift implementation of BabyAGI
 </details>
 
 
+
 # :lock: Closed-source projects and companies
+
+## [Ability AI](https://ability.ai/)
+ Empowering Businesses with Secure, People-Centric Autonomous AI Agents
+
+<details>
+
+### Description
+- Empowering Businesses with Secure, People-Centric Autonomous AI Agents
+- Still in early version
+
+
+### Links
+- [Web](https://ability.ai/)
+
+</details>
+
+
 
 ## [Adept AI](https://www.adept.ai/?utm_source=awesome-ai-agents)
 A ML research and product lab building general intelligence by enabling humans and computers to work together creatively
@@ -1406,6 +1630,48 @@ A ML research and product lab building general intelligence by enabling humans a
 - [Linkedin](https://www.linkedin.com/company/adeptai/?utm_source=awesome-ai-agents)
 
 </details>
+
+
+## [Aide by Codestory](https://codestory.ai/)
+The AI-powered mod of VSCode
+
+<details>
+
+### Description
+- Still in early stage, new features coming soon
+- Now available for JS/TS
+- Can the codebase, identify the root cause, make the fix and auto-generate tests to evaluate whether the bug was resolved
+
+
+### Links
+- [Web](https://codestory.ai/)
+- [Docs](https://docs.codestory.ai/)
+- [Discord](https://discord.com/invite/DNnh6tC9VA)
+- [X ](https://twitter.com/codestoryai)
+- [Linkedin](https://www.linkedin.com/company/codestory-ai/)
+
+</details>
+
+</details>
+
+## [AilaFlow](https://ailaflow.com)
+
+No-code platform for building AI agents
+
+<details>
+
+### Description
+- AilaFlow is no-code platform for building AI agents
+- Use a template, adjust it using no-code editor to your needs
+- Category: Productivity, Framework for building agents
+
+### Links
+- [AilaFlow - AI Agents No-code Platform](https://ailaflow.com)
+- Founder's X account: [b4rtaz](https://twitter.com/b4rtaz)
+
+</details>
+
+
 
 
 ## [Airkit.ai](https://www.airkit.ai)
@@ -1447,7 +1713,6 @@ Airplane is a company for building internal tools, they're building their autopi
 - [Documentation](https://docs.airplane.dev/?utm_source=awesome-ai-agents)
 - [Twitter](https://twitter.com/AirplaneDev/?utm_source=awesome-ai-agents)
 - [They're building an AI assistant here](https://www.airplane.dev/autopilot/?utm_source=awesome-ai-agents)
-
 
 </details>
 
@@ -1506,7 +1771,7 @@ AI no-code copilot that allows users to build AI apps.
 <details>
 
 ### Description
-- broadn is a no-code platform that helps non-technical people build AI products in minutes. We're faster and more flexible than traditional no-code tools through an LLM powered conversational interface and an agent architecture that automates complex backend/workflow operations
+- broadn is a no-code platform that helps non-technical people build AI products in minutes. We're faster and more flexible than traditional no-code tools through an LLM powered conversational interface and an agent architecture that automates complex backend/workflow operations
 - Features
 	- Conversational interface
 	- LLM/AI model connectors (text, image models, etc)
@@ -1612,6 +1877,23 @@ AI-powered design tools for everything from copywriting to generating unique ico
 - Magician works right inside your favorite design tool (e.g., Figma)
 - Possible to get all the latest AI design advancements + future spells in one convenient plugin
 
+
+</details>
+
+## [Dot](https://www.getdot.ai/)
+Dot, the data bot - a virtual assistant that help with analytics
+
+<details>
+
+### Description
+- Dot allows to chat with your Data Warehouse (e.g. Snowflake, BigQuery,  RedShift, Postgres ...) or Semantic Layer (e.g. Looker, dbt, dotML).
+- Answer most business questions instantly 24/7, so data teams can focus on deep work, not on answering easy questions about dashboards
+- Category: Research, Business intelligence, Data analysis
+
+### Links
+- [Website](https://www.getdot.ai/)
+- [Linkedin](https://www.linkedin.com/company/sled-software/)
+- Founder's linkedin - [Rick Radewagen](https://www.linkedin.com/in/radewagen/)
 
 </details>
 
@@ -1783,6 +2065,25 @@ A tool automating code generation, in beta version, created for full-stack devel
 	- Custom stack
 
 </details>
+
+## [GoCharlie](https://gocharlie.ai/)
+
+A first of it's kind multimodal content creation agent 
+<details>
+
+### Description
+- Category: General purpose, Productivity, Generating apps
+
+### Links
+- [X ](https://twitter.com/GocharlieAI)
+- [Linkedin](https://www.linkedin.com/company/gocharlieai/)
+- Founders' X accounts:
+ 	- [Kostas Hatalis](https://twitter.com/kostashatalis)
+  	- [Brennan M. Woodruff](https://twitter.com/BrennanWoodruff)
+
+</details>
+
+
 
 ## [Grit](https://www.grit.io/)
 A beta version of a tool for fixing technical gap automatically, putting code migrations and dependency upgrades on autopilot
@@ -2017,6 +2318,27 @@ An AI browsing assistant for everyday tasks, can operate a web browser to comple
 
 </details>
 
+## [Phind](https://www.phind.com/)
+Personal programming and research assistant
+
+<details>
+
+### Description
+- Phind is an AI search engine and pair programmer
+
+
+### Links
+- [Web](https://www.phind.com/)
+- [Discord](https://discord.com/invite/S25yW8TebZ)
+- [X (Twitter)](https://twitter.com/phindsearch)
+- CEO's Twitter: [Michael Royzen](https://twitter.com/MichaelRoyzen)
+
+  
+
+</details>
+
+
+
 ## [Proficient AI](https://proficientai.com)
 
 Interaction APIs and SDKs that allow developers to build, deploy and operate conversational AI agents in their apps
@@ -2033,6 +2355,28 @@ Interaction APIs and SDKs that allow developers to build, deploy and operate con
 - [Documentation](https://docs.proficientai.com)
 - [GitHub](https://github.com/proficientai/js)
 - [Discord](https://discord.gg/DVbwTM8erb)
+</details>
+
+## [Questflow](https://questflow.ai)
+
+Questflow is a marketplace for autonomous AI workers with no-code.
+
+<details>
+
+### Description
+
+- Questflow is a marketplace designed for SMBs to connect with autonomous AI workers.
+- Our platform enables digital workers to discover and deploy AI agents for seamless workflow automation.
+- With a no-code editor, we empower digital knowledge providers to create, distribute, and monetize AI workers.
+- Similar to Upwork, Questflow offers a marketplace where users can utilize AI agents to accomplish tasks across various digital workspaces.
+- Creators have the opportunity to transform their specialized knowledge into AI agents, expanding their reach and generating revenue.
+
+### Links
+
+- [Twitter](https://twitter.com/questflow)
+- [Telegram](https://t.me/+lAFNg26e5aA5NGNl)
+- [Discord](https://twitter.com/questflow)
+
 </details>
 
 ## [Saga](https://saga.so/ai)
@@ -2112,32 +2456,113 @@ Add an AI copilot to your product's data dashboard with just a few lines of code
 - Enable your customers to extract more value from the data already on their dashboard with meaningful answers to high-level questions.
 
 
+
 ### Links
 - [Twitter](https://twitter.com/getluminal/)
 - [Linkedin](https://www.linkedin.com/company/74930600/)
 
 </details>
 
+## [TalktoData](https://talktodata.ai/)
+TalktoData AI allows advanced data discovery, cleaing, analysis, and visualization
+
+<details>
+
+### Description
+- AI Data Analyst that works with your CSV, Excel, Goolge Sheets and SQL Databases
+- AI Agent for all the data analytics needs
+- Allows users to generate beautiful visualizations, followup question and refine requirements
+- "ChatGPT for Data Analysis"
+- A Data Analyst the never sleeps and always available(A chat away)
 
 
-<br>
+### Links
+- [Web](https://talktodata.ai/)
+- [Twitter](https://twitter.com/TalktoData)
+- [Linkedin](https://www.linkedin.com/company/talktodata/)
+- Team Twitter profiles: [Vinod Varma](https://twitter.com/vinodvarma24)
+</details>
 
-## :wave: Wanna discuss AI agents and more?
+## [ThinkChain AI](https://www.thinkchain.ai/)
+A financial AI agent platform using your own knowledge base
 
-- [Hit us up on discord](https://discord.gg/BRymvqUS)
-- [Pick a date for a call in our calendar](https://calendly.com/tereza-tizkova/30min)
-- Email us at hello@e2b.dev
-- And be sure to join our [twitter community focused on AI agents](https://twitter.com/i/communities/1670204079619055616)
+<details>
+
+### Description
+- ThinkChain provides a large and growing set of advanced AI agents, e.g.
+  	- Discover agent - can access search and your Knowledge base for informed answers
+  	- Chain of Thought agent - breaks questions into parts to be addressed independently
+  	- Analyst agent - creates realtime financial analysis, from DCF to LBO and everything in between
+  	- Auto Agent - can create an entire workflow from scratch
+- Currently in an early access version
 
 
+### Links
+- [Web](https://www.thinkchain.ai/)
+- Founder: [Tony Lewis](https://twitter.com/_tony_lewis)
+
+
+</details>
+
+## [v0 by Vercel](https://v0.dev/)
+v0 is a generative user interface system by Vercel Labs powered by AI. It generates copy-and-paste friendly React code based on Shadcn UI and Tailwind CSS.
+
+<details>
+
+### Description
+- Currently in waitlist stage
+- v0 generates custom components on the fly that you can copy and paste into your existing codebase
+- Built on NextJS App Router
+- AI by the Vercel `ai` SDK
+
+
+### Links
+- [Web](https://v0.dev/)
+- [X post](https://x.com/rauchg/status/1702353417375826303?s=20)
+
+
+</details>
+
+## [Wispy](https://wispy.technicalmagic.ai/)
+Wispy is a web-browsing AI assistant that can summarize content, compose content, explain things or create quizzes for topics you are learning
+
+<details>
+
+### Description
+- Wispy is stil in Beta version
+- With Wispy, you can effortlessly transform web content to perfectly suit your unique needs, all without leaving the comfort of your browser
+- Chat-based AI like Llama and GPT-4 are not the only ways to incorporate AI into your life
+- With Wispy, go beyond chatbots with a browser-native AI companion that makes your browsing more delightful, productive, and streamlined!
+
+
+### Links
+- [Web](https://wispy.technicalmagic.ai/)
+- [Chrome extension](https://chrome.google.com/webstore/detail/wispy-your-personalized-a/nbljfchpacfegmmmajcneihieeglpofc)
+
+
+</details>
+
+# Who's behind this?
+
+<img src="/assets/footer.png" width="100%" alt="SDKs Repo Visual" />
+
+This list was made by the team behind [E2B](https://github.com/e2b-dev/e2b?ref=awesome-sdks). E2b is building a Sandbox Runtime for LLM apps and agents  - that is, a set of custom sandboxed cloud environments for AI-powered apps and agentic workflows. Get started [here](https://e2b.dev/docs?ref=awesome-sdks).
+
+## Join the community
+- Follow us on [X ](https://twitter.com/e2b_dev)
+- [Hit us up on discord](https://discord.gg/35NF4Y8WSE)
+- Feel free to reach out to us at [hello@e2b.dev](mailto:hello@e2b.dev).
+
+<!-- 
 <a href="https://discord.gg/U7KEcGErtQ" target="_blank">
 	<img src="https://img.shields.io/static/v1?label=Join&message=%20discord!&color=mediumslateblue">
 </a>
 <a href="https://twitter.com/e2b_dev" target="_blank">
 	<img src="https://img.shields.io/twitter/follow/e2b.svg?logo=twitter">
 </a>
+-->
 
-<br>
+
 
 <!-- More agents to add in the future
 

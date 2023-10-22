@@ -1,9 +1,9 @@
 ---
 title: system-design-101
-date: 2023-10-21T12:14:36+08:00
+date: 2023-10-22T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696407868189-2ac092c5807f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696407868189-2ac092c5807f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692637839142-76dfeceb9275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692637839142-76dfeceb9275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
 ---
 
 # [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)

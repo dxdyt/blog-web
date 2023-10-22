@@ -1,9 +1,9 @@
 ---
 title: XAgent
-date: 2023-10-21T12:15:03+08:00
+date: 2023-10-22T12:14:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696587521853-891d8782d3d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696587521853-891d8782d3d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692637839142-76dfeceb9275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692637839142-76dfeceb9275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/XAgent](https://github.com/OpenBMB/XAgent)
@@ -113,8 +113,7 @@ python run.py --task "put your task here" --model "gpt-4"
 
 - Run XAgent with GUI
 ```bash
-cd XAgentServer
-docker-compose up
+# we ran the web ui docker when build ToolServer network
 # run nginx in docker
 docker exec XAgent-Server systemctl start nginx
 

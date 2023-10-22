@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-09-26T12:17:35+08:00
+date: 2023-10-22T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693682749788-962dfe938e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693682749788-962dfe938e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3MDE2OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696446147849-6f2878a47472?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696446147849-6f2878a47472?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
 ---
 
 # [AntonOsika/gpt-engineer](https://github.com/AntonOsika/gpt-engineer)
@@ -57,6 +57,11 @@ Choose **one** of:
 
 Check the [Windows README](./WINDOWS_README.md) for windows usage.
 
+**Other ways to run:**
+- Use Docker ([instructions](docker/README.md))
+- Do everything in your browser:
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/AntonOsika/gpt-engineer/codespaces)
+
 ## Usage
 
 There are two ways to work with GPT-engineer: new code mode (the default), and improve existing code mode (the `-i` option).
@@ -75,24 +80,6 @@ There are two ways to work with GPT-engineer: new code mode (the default), and i
 
 By running gpt-engineer you agree to our [terms](https://github.com/AntonOsika/gpt-engineer/blob/main/TERMS_OF_USE.md).
 
-**Results**
-
-Check the generated files in `projects/my-new-project/workspace`
-
-**Workflow**
-
-`gpt-engineer --help` lets you see all available options.
-
-For example:
-- To improve any existing project, use the flag: `-i`
-- To give feedback to/improve a gpt-engineer generated project, use: `--steps use_feedback`
-
-**Alternatives**
-
-You can check [Docker instructions](docker/README.md) to use Docker, or simply
-do everything in your browser:
-
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/AntonOsika/gpt-engineer/codespaces)
 
 ## Features
 
@@ -100,12 +87,14 @@ You can specify the "identity" of the AI agent by editing the files in the `prep
 
 Editing the `preprompts`, and evolving how you write the project prompt, is how you make the agent remember things between projects.
 
+You can also automatically copy all `preprompts` files into your project folder using the cli parameter `--use-custom-prepompts`. This way you can have custom preprompts for all of your projects without the need to edit the main files. If you don't want to use the project specific prepromt files, simply delete them or run `gpt-engineer` without the cli param.
+
 Each step in `steps.py` will have its communication history with GPT4 stored in the logs folder, and can be rerun with `scripts/rerun_edited_message_logs.py`.
 
 You can also run with open source models, like WizardCoder. See the [documentation](https://gpt-engineer.readthedocs.io/en/latest/open_models.html) for example instructions.
 
-
 ## Vision
+
 The gpt-engineer community is building the **open platform for devs to tinker with and build their personal code-generation toolbox**.
 
 If you are interested in contributing to this, we would be interested in having you.
@@ -119,5 +108,6 @@ We are currently looking for more maintainers and community organizers. Email an
 
 ## Example
 
-https://github.com/AntonOsika/gpt-engineer/assets/4467025/6e362e45-4a94-4b0d-973d-393a31d92d9b
-˛
+
+
+https://github.com/AntonOsika/gpt-engineer/assets/4467025/40d0a9a8-82d0-4432-9376-136df0d57c99
