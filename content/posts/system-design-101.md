@@ -1,9 +1,9 @@
 ---
 title: system-design-101
-date: 2023-10-22T12:15:22+08:00
+date: 2023-10-23T12:15:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692637839142-76dfeceb9275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692637839142-76dfeceb9275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695753568605-d8653d5319e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695753568605-d8653d5319e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
@@ -179,17 +179,17 @@ GraphQL can aggregate multiple REST requests into one query. GraphQL server orga
 
 ### How does gRPC work?
 
-<p>
-  <img src="images/grpc.jpg">
-</p>
-
 RPC (Remote Procedure Call) is called “**remote**” because it enables communications between remote services when services are deployed to different servers under microservice architecture. From the user’s point of view, it acts like a local function call.
 
 The diagram below illustrates the overall data flow for **gRPC**.
 
+<p>
+  <img src="images/grpc.jpg">
+</p>
+
 Step 1: A REST call is made from the client. The request body is usually in JSON format.
 
-Steps 2 - 4: The order service (gRPC client) receives the REST call, transforms it, and makes an RPC call to the payment service. gPRC encodes the **client stub** into a binary format and sends it to the low-level transport layer.
+Steps 2 - 4: The order service (gRPC client) receives the REST call, transforms it, and makes an RPC call to the payment service. gRPC encodes the **client stub** into a binary format and sends it to the low-level transport layer.
 
 Step 5: gRPC sends the packets over the network via HTTP2. Because of binary encoding and network optimizations, gRPC is said to be 5X faster than JSON.
 
@@ -409,18 +409,18 @@ A forward proxy is a server that sits between user devices and the internet.
 
 A forward proxy is commonly used for: 
 
-1. Protect clients
-2. Avoid browsing restrictions
-3. Block access to certain content
+1. Protecting clients
+2. Circumventing browsing restrictions
+3. Blocking access to certain content
 
 A reverse proxy is a server that accepts a request from the client, forwards the request to web servers, and returns the results to the client as if the proxy server had processed the request.
 
 A reverse proxy is good for:
 
-1. Protect servers
+1. Protecting servers
 2. Load balancing
-3. Cache static contents
-4. Encrypt and decrypt SSL communications
+3. Caching static contents
+4. Encrypting and decrypting SSL communications
 
 ### What are the common load-balancing algorithms?
 
@@ -1113,6 +1113,7 @@ There are 3 components in Docker architecture:
     The Docker daemon listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. 
 
 - Docker registry 
+
     A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use. 
 
 Let’s take the “docker run” command as an example. 

@@ -1,9 +1,9 @@
 ---
 title: localsend
-date: 2023-10-22T12:14:34+08:00
+date: 2023-10-23T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695531332121-50706061e21a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695531332121-50706061e21a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [localsend/localsend](https://github.com/localsend/localsend)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1695531332121-50706061e2
 [github]: https://github.com/localsend/localsend
 [codeberg]: https://codeberg.org/localsend/localsend
 
-LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network, without needing an internet connection.
+LocalSend is a free, open-source app that allows you to securely share files and messages with nearby devices over your local network without needing an internet connection.
 
 - [About](#about)
 - [Screenshots](#screenshots)
@@ -49,7 +49,7 @@ LocalSend is a cross-platform app that enables secure communication between devi
 
 ## Download
 
-It is recommended to download the app either from an app store or from a package manager because the app does not have auto-update.
+It is recommended to download the app either from an app store or from a package manager because the app does not have an auto-update.
 
 | Windows                  | macOS                   | Linux              | Android        | iOS           | Fire OS    |
 |--------------------------|-------------------------|--------------------|----------------|---------------|------------|
@@ -85,7 +85,7 @@ For more information on the LocalSend Protocol, see the [documentation](https://
 
 ## Getting Started
 
-To start LocalSend from source code, follow these steps:
+To start LocalSend from the source code, follow these steps:
 
 1. Install [Flutter](https://flutter.dev)
 2. Clone the LocalSend repository
@@ -95,7 +95,7 @@ To start LocalSend from source code, follow these steps:
 
 It may be the case that it doesn't work because of a mismatch between the required Flutter version and the installed Flutter version.
 
-LocalSend uses [fvm](https://fvm.app) to manage the project Flutter version (specified in [.fvm/fvm_config.json](.fvm/fvm_config.json)). After you installed it, run `fvm flutter` instead of `flutter`.
+LocalSend uses [fvm](https://fvm.app) to manage the project Flutter version (specified in [.fvm/fvm_config.json](.fvm/fvm_config.json)). After you install it, run `fvm flutter` instead of `flutter`.
 
 ## Contributing
 
@@ -103,28 +103,28 @@ We welcome contributions from anyone who is interested in helping improve LocalS
 
 ### Translation
 
-You can help translating this app to other languages!
+You can help translate this app to other languages!
 
 1. Fork this repository
 2. Choose one
    - Add missing translations in existing languages: Only update `_missing_translations_<locale>.json` in [assets/i18n][i18n]
    - Fix existing translations: Update `strings_<locale>.i18n.json` in [assets/i18n][i18n]
-   - Add new languages: Create a new file, see also: [locale codes][].
+   - Add new languages: Create a new file; see also: [locale codes][].
 3. Optional: Re-run this app
    1. Make sure you have [run](#getting-started) this app once.
    2. Update translations via `flutter pub run slang`
-   3. Run app via `flutter run`
+   3. Run the app via `flutter run`
 4. Open a pull request
 
 [i18n]: https://github.com/localsend/localsend/tree/main/app/assets/i18n
 [locale codes]: https://saimana.com/list-of-country-locale-code/
 
-#### _Take note:_ Fields decorated with `@` are not meant to be translated, they are not used in the app in any way, being merely informative text about the file or to give context to the translator.
+#### _Take note:_ Fields decorated with `@` are not meant to be translated; they are not used in the app in any way, being merely informative text about the file or to give context to the translator.
 
 ### Bug fixes and improvements
 
 - **Bug Fixes:** If you find a bug, please create a pull request with a clear description of the issue and how to fix it.
-- **Improvements:** Have an idea for how to improve LocalSend? Please create an issue first, so we can discuss why the improvement is needed.
+- **Improvements:** Have an idea for how to improve LocalSend? Please create an issue first to discuss why the improvement is needed.
 
 For more information, see the [contributing guide](https://github.com/localsend/localsend/blob/main/CONTRIBUTING.md).
 

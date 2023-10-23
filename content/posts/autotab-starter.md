@@ -1,9 +1,9 @@
 ---
 title: autotab-starter
-date: 2023-10-22T12:15:12+08:00
+date: 2023-10-23T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695725021729-ed3ebc84cb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695725021729-ed3ebc84cb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695339260211-89ef73795ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695339260211-89ef73795ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [Planetary-Computers/autotab-starter](https://github.com/Planetary-Computers/autotab-starter)

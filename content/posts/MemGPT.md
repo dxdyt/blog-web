@@ -1,9 +1,9 @@
 ---
 title: MemGPT
-date: 2023-10-21T12:15:49+08:00
+date: 2023-10-23T12:15:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696790360152-3429effe6a99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696790360152-3429effe6a99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [cpacker/MemGPT](https://github.com/cpacker/MemGPT)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1696790360152-3429effe6a
 <div align="center">
 
  <strong>Try out our MemGPT chatbot on <a href="https://discord.gg/9GEQrxmVyE">Discord</a>!</strong>
- 
+
 [![Discord](https://img.shields.io/discord/1161736243340640419?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/9GEQrxmVyE)
 [![arXiv 2310.08560](https://img.shields.io/badge/arXiv-2310.08560-B31B1B?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2310.08560)
 
@@ -55,9 +55,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1696790360152-3429effe6a
   </details>
 </details>
 
-## Quick setup 
+## Quick setup
 
-Join <a href="https://discord.gg/9GEQrxmVyE">Discord</a></strong> and message the MemGPT bot (in the `#memgpt` channel). Then run the following commands (messaged to "MemGPT Bot"): 
+Join <a href="https://discord.gg/9GEQrxmVyE">Discord</a></strong> and message the MemGPT bot (in the `#memgpt` channel). Then run the following commands (messaged to "MemGPT Bot"):
 * `/profile` (to create your profile)
 * `/key` (to enter your OpenAI key)
 * `/create` (to create a MemGPT chatbot)
@@ -68,14 +68,14 @@ MemGPT → Privacy Settings → Direct Messages set to ON
  <img src="https://memgpt.ai/assets/img/discord/dm_settings.png" alt="set DMs settings on MemGPT server to be open in MemGPT so that MemGPT Bot can message you" width="400">
 </div>
 
-You can see the full list of available commands when you enter `/` into the message box. 
+You can see the full list of available commands when you enter `/` into the message box.
 <div align="center">
  <img src="https://memgpt.ai/assets/img/discord/slash_commands.png" alt="MemGPT Bot slash commands" width="400">
 </div>
 
-## What is MemGPT? 
+## What is MemGPT?
 
-Memory-GPT (or MemGPT in short) is a system that intelligently manages different memory tiers in LLMs in order to effectively provide extended context within the LLM's limited context window. For example, MemGPT knows when to push critical information to a vector database and when to retrieve it later in the chat, enabling perpetual conversations. Learn more about MemGPT in our [paper](https://arxiv.org/abs/2310.08560). 
+Memory-GPT (or MemGPT in short) is a system that intelligently manages different memory tiers in LLMs in order to effectively provide extended context within the LLM's limited context window. For example, MemGPT knows when to push critical information to a vector database and when to retrieve it later in the chat, enabling perpetual conversations. Learn more about MemGPT in our [paper](https://arxiv.org/abs/2310.08560).
 
 ## Running MemGPT locally
 
@@ -89,7 +89,7 @@ Extra step for Windows:
 
 ```sh
 # only needed on Windows
-pip install pyreadline
+pip install pyreadline3
 ```
 
 Add your OpenAI API key to your environment:
@@ -108,6 +108,19 @@ To run MemGPT for as a conversation agent in CLI mode, simply run `main.py`:
 
 ```sh
 python3 main.py
+```
+
+If you're using Azure OpenAI, set these variables instead:
+
+```sh
+# see https://github.com/openai/openai-python#microsoft-azure-endpoints
+export AZURE_OPENAI_KEY = ...
+export AZURE_OPENAI_ENDPOINT = ...
+export AZURE_OPENAI_VERSION = ...
+export AZURE_OPENAI_DEPLOYMENT = ...
+
+# then use the --use_azure_openai flag
+python main.py --use_azure_openai
 ```
 
 To create a new starter user or starter persona (that MemGPT gets initialized with), create a new `.txt` file in [/memgpt/humans/examples](/memgpt/humans/examples) or [/memgpt/personas/examples](/memgpt/personas/examples), then use the `--persona` or `--human` flag when running `main.py`. For example:
@@ -152,7 +165,9 @@ Please report any bugs you encounter regarding MemGPT running on GPT-3.5 to  htt
 
 ### Interactive CLI commands
 
-While using MemGPT via the CLI you can run various commands:
+These are the commands for the CLI, **not the Discord bot**! The Discord bot has separate commands you can see in Discord by typing `/`.
+
+While using MemGPT via the CLI (not Discord!) you can run various commands:
 
 ```text
 //
@@ -178,7 +193,7 @@ While using MemGPT via the CLI you can run various commands:
 <details open>
 <summary><h3>Use MemGPT to talk to your Database!</h3></summary>
 
-MemGPT's archival memory let's you load your database and talk to it! To motivate this use-case, we have included a toy example. 
+MemGPT's archival memory let's you load your database and talk to it! To motivate this use-case, we have included a toy example.
 
 Consider the `test.db` already included in the repository.
 
@@ -231,7 +246,7 @@ This will generate embeddings, stick them into a FAISS index, and write the inde
     --archival_storage_faiss_path=<DIRECTORY_WITH_EMBEDDINGS> (if your files haven't changed).
 ```
 
-If you want to reuse these embeddings, run 
+If you want to reuse these embeddings, run
 ```bash
 python3 main.py --archival_storage_faiss_path="<DIRECTORY_WITH_EMBEDDINGS>" --persona=memgpt_doc --human=basic
 ```
@@ -243,7 +258,7 @@ python3 main.py --archival_storage_faiss_path="<DIRECTORY_WITH_EMBEDDINGS>" --pe
 
 MemGPT also enables you to chat with docs -- try running this example to talk to the LlamaIndex API docs!
 
-1. 
+1.
     a. Download LlamaIndex API docs and FAISS index from [Hugging Face](https://huggingface.co/datasets/MemGPT/llamaindex-api-docs).
    ```bash
    # Make sure you have git-lfs installed (https://git-lfs.com)
@@ -251,9 +266,9 @@ MemGPT also enables you to chat with docs -- try running this example to talk to
    git clone https://huggingface.co/datasets/MemGPT/llamaindex-api-docs
    mv llamaindex-api-docs
    ```
-   
+
     **-- OR --**
-   
+
    b. Build the index:
     1. Build `llama_index` API docs with `make text`. Instructions [here](https://github.com/run-llama/llama_index/blob/main/docs/DOCS_README.md). Copy over the generated `_build/text` folder to `memgpt/personas/docqa`.
     2. Generate embeddings and FAISS index.

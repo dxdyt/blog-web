@@ -1,9 +1,9 @@
 ---
 title: CasaOS
-date: 2023-09-06T12:16:05+08:00
+date: 2023-10-23T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692795172302-090bb5063b5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692795172302-090bb5063b5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696438677361-552f1209d48c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696438677361-552f1209d48c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [IceWhaleTech/CasaOS](https://github.com/IceWhaleTech/CasaOS)
@@ -93,7 +93,7 @@ Furthermore, the personal cloud could combine personal data to train personalize
 - Multiple hardware and base system support
   - ZimaBoard, NUC, RPi, old computers, whatever is available.
 - Selected apps in the app store, one-click installation
-  - Nextcloud, HomeAssiant, AdGuard, Jellyfin, *arr and more!
+  - Nextcloud, HomeAssistant, AdGuard, Jellyfin, *arr and more!
 - Easily install numerous Docker apps
   - Over 100,000 apps from the Docker ecosystem can be easily installed
 - Elegant drive and file management

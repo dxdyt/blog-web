@@ -1,9 +1,9 @@
 ---
 title: mojo
-date: 2023-09-13T12:16:40+08:00
+date: 2023-10-23T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695339260211-89ef73795ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695339260211-89ef73795ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [modularml/mojo](https://github.com/modularml/mojo)

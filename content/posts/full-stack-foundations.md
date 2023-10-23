@@ -1,9 +1,9 @@
 ---
 title: full-stack-foundations
-date: 2023-10-21T12:15:23+08:00
+date: 2023-10-23T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696519293772-0b240f1e5318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696519293772-0b240f1e5318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696838163836-fd2f46aaadce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696838163836-fd2f46aaadce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [epicweb-dev/full-stack-foundations](https://github.com/epicweb-dev/full-stack-foundations)

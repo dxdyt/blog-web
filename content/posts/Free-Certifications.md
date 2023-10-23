@@ -1,14 +1,17 @@
 ---
 title: Free-Certifications
-date: 2023-10-22T12:15:31+08:00
+date: 2023-10-23T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697136670904-0c177e79247c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697136670904-0c177e79247c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696247833485-bcd2014cbdb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696247833485-bcd2014cbdb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
 
 # Free Certifications
+
+[![GitHub Repo stars](https://img.shields.io/github/stars/cloudcommunity/Free-Certifications?style=social)](https://github.com/cloudcommunity/Free-Certifications)
+[![Twitter Follow](https://img.shields.io/twitter/follow/CloudStudyNet?style=social)](https://twitter.com/CloudStudyNet)
 
 A curated list of free courses &amp; certifications. Don't forget to star ⭐ this repository.
 
@@ -20,6 +23,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | --- | --- | --- | --- | --- |
 | Gitlab Certification | Gitlab | Free Certifications paths and badges | [Link](https://about.gitlab.com/learn/) | Unknown |
 | OCI | Oracle | Oracle Cloud Infrastructure, Oracle Cloud Infrastructure, Oracle Cloud Infrastructure | [Link](https://education.oracle.com/oracle-oci-certification#oracle-cloud-infrastructure) | September 31, 2023 |
+| Machine Learning with Python | freeCodeCamp | Free lesson and certification | [Link](https://www.freecodecamp.org/learn/machine-learning-with-python/) | Unlimited |
 | AI Fundamentals | Databricks  | Generative AI Fundamentals | [Link](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) | Unlimited |
 | OCI | Oracle | Oracle Cloud Infrastructure 2023 Foundations Associate | [Link](https://education.oracle.com/oracle-cloud-infrastructure-2023-foundations-associate/pexam_1Z0-1085-23) |Unlimited |
 | OCI | Oracle | Oracle Cloud Data Management 2023 Foundations Associate | [Link](https://education.oracle.com/oracle-cloud-data-management-2023-foundations-associate/pexam_1Z0-1105-23) |Unlimited |
@@ -64,7 +68,6 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Calico | Calico | Certified Calico Operator: Azure Expert | [Link](https://academy.tigera.io/course/certified-calico-operator-azure-expert/) | Unknown |
 | Calico | Calico | Certified Calico Operator: eBPF | [Link](https://academy.tigera.io/course/certified-calico-operator-ebpf/) | Unknown |
 | Stepik | Stepik | Several free courses with certificates are available for reference in design, computer science, mathematics, etc. | [Link](https://stepik.org/catalog/search?cert=true&free=true) | Unknown |
-| LoRaWAN | TheThingsNetwork | The Things Fundamentals, The Things Advanced, The Things Security, and The Things Network Management. | [Link](https://www.thethingsnetwork.org/achievements/) | Unknown |
 | DevOps-Automation | CHEF | FREE Chef Principles Certification Exam | [Link](https://learn.chef.io/courses/course-v1:chef+CP101+exam/about) | Unknown |
 | Observability | New Relic | FREE Full Stack Observability Exam | [Link](https://learn.newrelic.com/full-stack-observability-exam) | Unknown |
 | Programmability | New Relic | FREE Programmability Certification Exam | [Link](https://learn.newrelic.com/programmability-certification) | Unknown |

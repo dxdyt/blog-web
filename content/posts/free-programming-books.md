@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-10-06T12:15:30+08:00
+date: 2023-10-23T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694813646545-2e791ec9d0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694813646545-2e791ec9d0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697432906373-ac234aa00dff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697432906373-ac234aa00dff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1694813646545-2e791ec9d0
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)&#160;
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)&#160;
-[![Hacktoberfest 2022 stats](https://img.shields.io/github/hacktoberfest/2022/EbookFoundation/free-programming-books?label=Hacktoberfest+2022)](https://github.com/EbookFoundation/free-programming-books/pulls?q=is%3Apr+is%3Amerged+created%3A2022-10-01..2022-10-31)
+[![Hacktoberfest 2023 stats](https://img.shields.io/github/hacktoberfest/2023/EbookFoundation/free-programming-books?label=Hacktoberfest+2023)](https://github.com/EbookFoundation/free-programming-books/pulls?q=is%3Apr+is%3Amerged+created%3A2023-10-01..2023-10-31)
 
 </div>
 
@@ -24,7 +24,7 @@ This page is available as an easy-to-read website. Access it by clicking on [![h
 
 <div align="center">
   <form action="https://ebookfoundation.github.io/free-programming-books-search">
-    <input type="text" id="fpbSearch" name="search" placeholder="Search Book or Author"/>
+    <input type="text" id="fpbSearch" name="search" required placeholder="Search Book or Author"/>
     <label for="submit"> </label>
     <input type="submit" id="submit" name="submit" value="Search" />
   </form>
@@ -151,10 +151,12 @@ This project lists books and other resources grouped by genres:
 + [Indonesian / Bahasa Indonesia](courses/free-courses-id.md)
 + [Italian / italiano](courses/free-courses-it.md)
 + [Japanese / 日本語](courses/free-courses-ja.md)
++ [Kannada/ಕನ್ನಡ](courses/free-courses-kn.md)
 + [Kazakh / қазақша](courses/free-courses-kk.md)
 + [Khmer / ភាសាខ្មែរ](courses/free-courses-km.md)
 + [Korean / 한국어](courses/free-courses-ko.md)
 + [Malayalam / മലയാളം](courses/free-courses-ml.md)
++ [Marathi / मराठी](courses/free-courses-mr.md)
 + [Nepali / नेपाली](courses/free-courses-ne.md)
 + [Norwegian / Norsk](courses/free-courses-no.md)
 + [Persian / Farsi (Iran) / فارسى](courses/free-courses-fa_IR.md)
@@ -170,6 +172,7 @@ This project lists books and other resources grouped by genres:
 + [Thai / ภาษาไทย](courses/free-courses-th.md)
 + [Turkish / Türkçe](courses/free-courses-tr.md)
 + [Ukrainian / Українська](courses/free-courses-uk.md)
++ [Urdu / اردو](courses/free-courses-ur.md)
 + [Vietnamese / Tiếng Việt](courses/free-courses-vi.md)
 
 

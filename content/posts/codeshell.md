@@ -1,9 +1,9 @@
 ---
 title: codeshell
-date: 2023-10-22T12:14:51+08:00
+date: 2023-10-23T12:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695725021729-ed3ebc84cb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695725021729-ed3ebc84cb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
 ---
 
 # [WisdomShell/codeshell](https://github.com/WisdomShell/codeshell)
@@ -225,7 +225,7 @@ CodeShell基于Starcoder词表进行了优化，去除了使用频率较低的�
 | Tokenizer | Size | Chinese  | English | Code | Total|
 |---|---|---|---|---|---|
 | Starcoder | 49152 | 1.22 | 3.47 | 3.30 | 2.66 |
-| CodeShell | 70144 | 1.50 | 3.47 | 3.30 | 2.95 |
+| CodeShell | 70020 | 1.50 | 3.47 | 3.30 | 2.95 |
 
 
 ## License
