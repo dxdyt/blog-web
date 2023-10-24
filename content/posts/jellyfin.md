@@ -1,9 +1,9 @@
 ---
 title: jellyfin
-date: 2023-10-05T12:16:08+08:00
+date: 2023-10-24T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688110651303-169b56ce6203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688110651303-169b56ce6203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY0NzkyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
 ---
 
 # [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin)

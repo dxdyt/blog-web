@@ -1,9 +1,9 @@
 ---
 title: Stockfish
-date: 2023-07-31T12:15:41+08:00
+date: 2023-10-24T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686890121573-5feec595490e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686890121573-5feec595490e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
 ---
 
 # [official-stockfish/Stockfish](https://github.com/official-stockfish/Stockfish)
@@ -69,38 +69,9 @@ This distribution of Stockfish consists of the following files:
   * a file with the .nnue extension, storing the neural network for the NNUE
     evaluation. Binary distributions will have this file embedded.
 
-## The UCI protocol
-
-The [Universal Chess Interface][uci-link] (UCI) is a standard text-based protocol
-used to communicate with a chess engine and is the recommended way to do so for
-typical graphical user interfaces (GUI) or chess tools. Stockfish implements the
-majority of its options.
-
-Developers can see the default values for the UCI options available in Stockfish
-by typing `./stockfish uci` in a terminal, but most users should typically use a
-chess GUI to interact with Stockfish.
-
-For more information on UCI or debug commands, see our [documentation][wiki-commands-link].
-
-## Compiling Stockfish
-
-Stockfish has support for 32 or 64-bit CPUs, certain hardware instructions,
-big-endian machines such as Power PC, and other platforms.
-
-On Unix-like systems, it should be easy to compile Stockfish directly from the
-source code with the included Makefile in the folder `src`. In general, it is
-recommended to run `make help` to see a list of make targets with corresponding
-descriptions. An example suitable for most Intel and AMD chips:
-
-```
-cd src
-make -j profile-build ARCH=x86-64-avx2
-```
-
-Detailed compilation instructions for all platforms can be found in our
-[documentation][wiki-compile-link].
-
 ## Contributing
+
+__See [Contributing Guide](CONTRIBUTING.md).__
 
 ### Donating hardware
 
@@ -123,6 +94,25 @@ first, where the basics of Stockfish development are explained.
 Discussions about Stockfish take place these days mainly in the Stockfish
 [Discord server][discord-link]. This is also the best place to ask questions
 about the codebase and how to improve it.
+
+## Compiling Stockfish
+
+Stockfish has support for 32 or 64-bit CPUs, certain hardware instructions,
+big-endian machines such as Power PC, and other platforms.
+
+On Unix-like systems, it should be easy to compile Stockfish directly from the
+source code with the included Makefile in the folder `src`. In general, it is
+recommended to run `make help` to see a list of make targets with corresponding
+descriptions. An example suitable for most Intel and AMD chips:
+
+```
+cd src
+make -j profile-build ARCH=x86-64-avx2
+```
+
+Detailed compilation instructions for all platforms can be found in our
+[documentation][wiki-compile-link]. Our wiki also has information about
+the [UCI commands][wiki-uci-link] supported by Stockfish.
 
 ## Terms of use
 
@@ -148,7 +138,7 @@ also be made available under GPL v3.
 [issue-link]:         https://github.com/official-stockfish/Stockfish/issues/new?assignees=&labels=&template=BUG-REPORT.yml
 [discussions-link]:   https://github.com/official-stockfish/Stockfish/discussions/new
 [fishtest-link]:      https://tests.stockfishchess.org/tests
-[guideline-link]:     https://github.com/glinscott/fishtest/wiki/Creating-my-first-test
+[guideline-link]:     https://github.com/official-stockfish/fishtest/wiki/Creating-my-first-test
 [license-link]:       https://github.com/official-stockfish/Stockfish/blob/master/Copying.txt
 [programming-link]:   https://www.chessprogramming.org/Main_Page
 [programmingsf-link]: https://www.chessprogramming.org/Stockfish
@@ -160,10 +150,10 @@ also be made available under GPL v3.
 [website-link]:       https://stockfishchess.org
 [website-blog-link]:  https://stockfishchess.org/blog/
 [wiki-link]:          https://github.com/official-stockfish/Stockfish/wiki
-[wiki-usage-link]:    https://github.com/official-stockfish/Stockfish/wiki/Download-and-usage
 [wiki-compile-link]:  https://github.com/official-stockfish/Stockfish/wiki/Compiling-from-source
-[wiki-commands-link]: https://github.com/official-stockfish/Stockfish/wiki/Commands
-[worker-link]:        https://github.com/glinscott/fishtest/wiki/Running-the-worker
+[wiki-uci-link]:      https://github.com/official-stockfish/Stockfish/wiki/UCI-&-Commands
+[wiki-usage-link]:    https://github.com/official-stockfish/Stockfish/wiki/Download-and-usage
+[worker-link]:        https://github.com/official-stockfish/fishtest/wiki/Running-the-worker
 
 [build-badge]:        https://img.shields.io/github/actions/workflow/status/official-stockfish/Stockfish/stockfish.yml?branch=master&style=for-the-badge&label=stockfish&logo=github
 [commits-badge]:      https://img.shields.io/github/commits-since/official-stockfish/Stockfish/latest?style=for-the-badge

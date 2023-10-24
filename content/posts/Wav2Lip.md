@@ -1,16 +1,18 @@
 ---
 title: Wav2Lip
-date: 2023-07-19T12:22:15+08:00
+date: 2023-10-24T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688851499147-1ecb324c0a84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688851499147-1ecb324c0a84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695757429514-edf36f4c4e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695757429514-edf36f4c4e95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
 ---
 
 # [Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
 
 # **Wav2Lip**: *Accurately Lip-syncing Videos In The Wild*
 
-For commercial requests, please contact us at radrabha.m@research.iiit.ac.in or prajwal.k@research.iiit.ac.in. We have an HD model ready that can be used commercially.
+Are you looking to integrate this into a product? We have a turn-key hosted API with new and improved lip-syncing models here: https://synclabs.so/
+
+For any other commercial licenscing requests, please contact us at radrabha.m@research.iiit.ac.in or prajwal.k@research.iiit.ac.in.
 
 This code is part of the paper: _A Lip Sync Expert Is All You Need for Speech to Lip Generation In the Wild_ published at ACM Multimedia 2020. 
 
@@ -21,8 +23,8 @@ This code is part of the paper: _A Lip Sync Expert Is All You Need for Speech to
 |📑 Original Paper|📰 Project Page|🌀 Demo|⚡ Live Testing|📔 Colab Notebook
 |:-:|:-:|:-:|:-:|:-:|
 [Paper](http://arxiv.org/abs/2008.10010) | [Project Page](http://cvit.iiit.ac.in/research/projects/cvit-projects/a-lip-sync-expert-is-all-you-need-for-speech-to-lip-generation-in-the-wild/) | [Demo Video](https://youtu.be/0fXaDCZNOJc) | [Interactive Demo](https://bhaasha.iiit.ac.in/lipsync) | [Colab Notebook](https://colab.research.google.com/drive/1tZpDWXz49W6wDcTprANRGLo2D_EbD5J8?usp=sharing) /[Updated Collab Notebook](https://colab.research.google.com/drive/1IjFW1cLevs6Ouyu4Yht4mnR4yeuMqO7Y#scrollTo=MH1m608OymLH)
-
- <img src="https://drive.google.com/uc?export=view&id=1Wn0hPmpo4GRbCIJR8Tf20Akzdi1qjjG9"/>
+ 
+![Logo](https://lfldehquopamazavycth.supabase.co/storage/v1/object/public/sync-public/wav2lip_img.gif?t=2023-10-13T23%3A27%3A03.763Z)
 
 ----------
 **Highlights**

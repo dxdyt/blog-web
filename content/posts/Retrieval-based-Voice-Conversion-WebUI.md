@@ -1,9 +1,9 @@
 ---
 title: Retrieval-based-Voice-Conversion-WebUI
-date: 2023-07-18T12:17:01+08:00
+date: 2023-10-24T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a248400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk2NTM3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695937881958-d17f02448575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695937881958-d17f02448575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
 ---
 
 # [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
@@ -11,9 +11,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a2484
 <div align="center">
 
 <h1>Retrieval-based-Voice-Conversion-WebUI</h1>
-一个基于VITS的简单易用的语音转换（变声器）框架<br><br>
+一个基于VITS的简单易用的变声框架<br><br>
 
-[![madewithlove](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
+[![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange
+)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)
 
 <img src="https://counter.seku.su/cmoe?name=rvc&theme=r34" /><br>
 
@@ -29,19 +30,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a2484
 
 ------
 
-[**English**](./docs/README.en.md) | [**中文简体**](./README.md) | [**日本語**](./docs/README.ja.md) | [**한국어**](./docs/README.ko.md) ([**韓國語**](./docs/README.ko.han.md))
+[**English**](./docs/en/README.en.md) | [**中文简体**](./README.md) | [**日本語**](./docs/jp/README.ja.md) | [**한국어**](./docs/kr/README.ko.md) ([**韓國語**](./docs/kr/README.ko.han.md)) | [**Français**](./docs/fr/README.fr.md)| [**Türkçe**](./docs/tr/README.tr.md)
 
 点此查看我们的[演示视频](https://www.bilibili.com/video/BV1pm4y1z7Gm/) !
 
-> 使用了RVC的实时语音转换: [w-okada/voice-changer](https://github.com/w-okada/voice-changer)
+训练推理界面：go-web.bat
 
-> 使用了RVC变声器训练的人声转木吉他模型在线demo ：https://huggingface.co/spaces/lj1995/vocal2guitar
+![image](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/assets/129054828/092e5c12-0d49-4168-a590-0b0ef6a4f630)
 
-> RVC人声转吉他效果展示视频 ：https://www.bilibili.com/video/BV19W4y1D7tT/
+实时变声界面：go-realtime-gui.bat
+
+![image](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI/assets/129054828/143246a9-8b42-4dd1-a197-430ede4d15d7)
 
 > 底模使用接近50小时的开源高质量VCTK训练集训练，无版权方面的顾虑，请大家放心使用
 
-> 后续会陆续加入高质量有授权歌声训练集训练底模
+> 请期待RVCv3的底模，参数更大，数据更大，效果更好，基本持平的推理速度，需要训练数据量更少。
 
 ## 简介
 本仓库具有以下特点
@@ -52,11 +55,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1688916540306-722f7a2484
 + 简单易用的网页界面
 + 可调用UVR5模型来快速分离人声和伴奏
 + 使用最先进的[人声音高提取算法InterSpeech2023-RMVPE](#参考项目)根绝哑音问题。效果最好（显著地）但比crepe_full更快、资源占用更小
++ A卡I卡加速支持
 
 ## 环境配置
-可以使用poetry配置环境。
+以下指令需在 Python 版本大于3.8的环境中执行。  
 
-以下指令需在Python版本大于3.8的环境中执行:
+(Windows/Linux)  
+首先通过 pip 安装主要依赖:
 ```bash
 # 安装Pytorch及其核心依赖，若已安装则跳过
 # 参考自: https://pytorch.org/get-started/locally/
@@ -64,7 +69,10 @@ pip install torch torchvision torchaudio
 
 #如果是win系统+Nvidia Ampere架构(RTX30xx)，根据 #21 的经验，需要指定pytorch对应的cuda版本
 #pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
+```
 
+可以使用 poetry 来安装依赖：
+```bash
 # 安装 Poetry 依赖管理工具, 若已安装则跳过
 # 参考自: https://python-poetry.org/docs/#installation
 curl -sSL https://install.python-poetry.org | python3 -
@@ -73,9 +81,25 @@ curl -sSL https://install.python-poetry.org | python3 -
 poetry install
 ```
 
-你也可以通过pip来安装依赖：
+你也可以通过 pip 来安装依赖：
 ```bash
-pip install -r requirements.txt
+N卡：
+  pip install -r requirements.txt
+
+A卡/I卡：
+  pip install -r requirements-dml.txt
+
+A卡Rocm（Linux）：
+  pip install -r requirements-amd.txt
+
+I卡IPEX（Linux）：
+  pip install -r requirements-ipex.txt
+```
+
+------
+Mac 用户可以通过 `run.sh` 来安装依赖：
+```bash
+sh ./run.sh
 ```
 
 ## 其他预模型准备
@@ -85,17 +109,17 @@ RVC需要其他一些预模型来推理和训练。
 
 以下是一份清单，包括了所有RVC所需的预模型和其他文件的名称:
 ```bash
-hubert_base.pt
+./assets/hubert/hubert_base.pt
 
-./pretrained 
+./assets/pretrained 
 
-./uvr5_weights
+./assets/uvr5_weights
 
 想测试v2版本模型的话，需要额外下载
 
-./pretrained_v2 
+./assets/pretrained_v2
 
-如果你正在使用Windows，则你可能需要这个文件，若ffmpeg和ffprobe已安装则跳过; ubuntu/debian 用户可以通过apt install ffmpeg来安装这2个库
+如果你正在使用Windows，则你可能需要这个文件，若ffmpeg和ffprobe已安装则跳过; ubuntu/debian 用户可以通过apt install ffmpeg来安装这2个库, Mac 用户则可以通过brew install ffmpeg来安装 (需要预先安装brew)
 
 ./ffmpeg
 
@@ -109,14 +133,42 @@ https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/ffprobe.exe
 
 https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/rmvpe.pt
 
+    A卡I卡用户需要的dml环境要请下载
+
+    https://huggingface.co/lj1995/VoiceConversionWebUI/blob/main/rmvpe.onnx
+
 ```
 之后使用以下指令来启动WebUI:
 ```bash
 python infer-web.py
 ```
-如果你正在使用Windows，你可以直接下载并解压`RVC-beta.7z`，运行`go-web.bat`以启动WebUI。
+如果你正在使用Windows 或 macOS，你可以直接下载并解压`RVC-beta.7z`，前者可以运行`go-web.bat`以启动WebUI，后者则运行命令`sh ./run.sh`以启动WebUI。
+
+对于需要使用IPEX技术的I卡用户，请先在终端执行`source /opt/intel/oneapi/setvars.sh`（仅Linux）。
 
 仓库内还有一份`小白简易教程.doc`以供参考。
+
+## AMD显卡Rocm相关（仅Linux）
+如果你想基于AMD的Rocm技术在Linux系统上运行RVC，请先在[这里](https://rocm.docs.amd.com/en/latest/deploy/linux/os-native/install.html)安装所需的驱动。
+
+若你使用的是Arch Linux，可以使用pacman来安装所需驱动：
+````
+pacman -S rocm-hip-sdk rocm-opencl-sdk
+````
+对于某些型号的显卡，你可能需要额外配置如下的环境变量（如：RX6700XT）：
+````
+export ROCM_PATH=/opt/rocm
+export HSA_OVERRIDE_GFX_VERSION=10.3.0
+````
+同时确保你的当前用户处于`render`与`video`用户组内：
+````
+sudo usermod -aG render $USERNAME
+sudo usermod -aG video $USERNAME
+````
+之后运行WebUI：
+```bash
+python infer-web.py
+```
 
 ## 参考项目
 + [ContentVec](https://github.com/auspicious3000/contentvec/)

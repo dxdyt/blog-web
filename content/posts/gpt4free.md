@@ -1,9 +1,9 @@
 ---
 title: gpt4free
-date: 2023-10-11T12:17:05+08:00
+date: 2023-10-24T12:15:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695650858277-6d1eb7ce3216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695650858277-6d1eb7ce3216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
 ---
 
 # [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
@@ -12,33 +12,46 @@ featuredImagePreview: https://images.unsplash.com/photo-1695650858277-6d1eb7ce32
 
 By using this repository or any code related to it, you agree to the [legal notice](./LEGAL_NOTICE.md). The author is not responsible for any copies, forks, reuploads made by other users, or anything else related to gpt4free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses.
 
-- latest pypi version: [`0.1.5.9`](https://pypi.org/project/g4f/0.1.5.9):
+- latest pypi version: [`0.1.7.6`](https://pypi.org/project/g4f/0.1.7.6)
 ```sh
 pip install -U g4f
 ```
 
+or if you just want to use the gui or interference api, install with [pipx](https://pypa.github.io/pipx/)
+
+```sh
+pipx install g4f
+```
+
 ## New features
-- Telegram Channel: https://t.me/g4f_official
+- Telegram Channel: https://t.me/g4f_channel
 - g4f GUI is back !!:   
 Install g4f with pip and then run:
-```py
+
+```sh
+g4f gui
+```
+
+or 
+
+```sh
 python -m g4f.gui.run
 ```
-or
-```py
-from g4f.gui import run_gui; run_gui()
-```
+
 preview:
 
-<img width="1470" alt="image" src="https://github.com/xtekky/gpt4free/assets/98614666/57ad818a-a0dd-4eae-83e1-3fff848ae040">
+<img width="1470" alt="image" src="https://github.com/xtekky/gpt4free/assets/98614666/a767290f-d29c-471c-9db4-6905d1cb6489">
 
-- run interference from pypi package:
+- run interference api from pypi package:
+
+```sh
+g4f api
+```
+
+or
+
 ```py
 python -m g4f.interference.run
-```
-or
-```py
-from g4f.interference import run_interference; run_interference()
 ```
 
 ## Table of Contents
@@ -52,13 +65,15 @@ from g4f.interference import run_interference; run_interference()
   - [The `g4f` Package](#the-g4f-package)
   - [interference openai-proxy api (use with openai python package)](#interference-openai-proxy-api-use-with-openai-python-package)
 - [Providers](#models)
-  - [gpt-3.5 / gpt-4](#gpt-35--gpt-4)
+  - [gpt-3.5](#gpt-35)
+  - [gpt-4](#gpt-4)
   - [Other Models](#other-models)
 - [Related gpt4free projects](#related-gpt4free-projects)
 - [Contribute](#contribute)
 - [Contributors](#contributors)
 - [Copyright](#copyright)
 - [Star History](#star-history)
+- [License](#license)
 
 ## Getting Started
 
@@ -88,7 +103,9 @@ git clone https://github.com/xtekky/gpt4free.git
 cd gpt4free
 ```
 
-3. (Recommended) Create a virtual environment to manage Python packages for your project:
+3. (Recommended) Create a Python virtual environment:
+You can follow the [Python official documentation](https://docs.python.org/3/tutorial/venv.html) for virtual environments.
+
 
 ```
 python3 -m venv venv
@@ -168,7 +185,7 @@ docker compose down
 ```py
 import g4f
 
-g4f.logging = True # enable logging
+g4f.debug.logging = True # enable logging
 g4f.check_version = False # Disable automatic version checking
 print(g4f.version) # check version
 print(g4f.Provider.Ails.params)  # supported args
@@ -189,7 +206,7 @@ for message in response:
 response = g4f.ChatCompletion.create(
     model=g4f.models.gpt_4,
     messages=[{"role": "user", "content": "Hello"}],
-)  # alterative model setting
+)  # alternative model setting
 
 print(response)
 ```
@@ -216,24 +233,16 @@ print(response)
 ##### Providers:
 ```py
 import g4f
+
 from g4f.Provider import (
     AItianhu,
-    Acytoo,
     Aichat,
-    Ails,
     Bard,
     Bing,
     ChatBase,
     ChatgptAi,
-    H2o,
-    HuggingChat,
-    OpenAssistant,
     OpenaiChat,
-    Raycast,
-    Theb,
     Vercel,
-    Vitalentum,
-    Ylokh,
     You,
     Yqcloud,
 )
@@ -316,18 +325,19 @@ async def run_all():
 asyncio.run(run_all())
 ```
 
-##### Proxy Support:
+##### Proxy and Timeout Support:
 
-All providers support specifying a proxy in the create function.
+All providers support specifying a proxy and increasing timeout in the create functions.
 
 ```py
 import g4f
 
-response = await g4f.ChatCompletion.create(
+response = g4f.ChatCompletion.create(
     model=g4f.models.default,
     messages=[{"role": "user", "content": "Hello"}],
     proxy="http://host:port",
     # or socks5://user:pass@host:port
+    timeout=120, # in secs
 )
 
 print(f"Result:", response)
@@ -335,33 +345,33 @@ print(f"Result:", response)
 
 ### interference openai-proxy api (use with openai python package)
 
-#### run interference from pypi package:
+#### run interference api from pypi package:
 ```py
-from g4f.interference import run_interference
+from g4f.api import run_api
 
-run_interference()
+run_api()
 ```
 
-#### run interference from repo:
-If you want to use the embedding function, you need to get a huggingface token. You can get one at https://huggingface.co/settings/tokens make sure your role is set to write. If you have your token, just use it instead of the OpenAI api-key.
-
-get requirements:
-
-```sh
-pip install -r etc/interference/requirements.txt
-```
+#### run interference api from repo:
+If you want to use the embedding function, you need to get a Hugging Face token. You can get one at https://huggingface.co/settings/tokens make sure your role is set to write. If you have your token, just use it instead of the OpenAI api-key.
 
 run server:
 
 ```sh
-python3 -m etc/interference.app
+g4f api
+```
+
+or
+
+```sh
+python -m g4f.api
 ```
 
 ```py
 import openai
 
 openai.api_key = "Empty if you don't use embeddings, otherwise your hugginface token"
-openai.api_base = "http://localhost:1337"
+openai.api_base = "http://localhost:1337/v1"
 
 
 def main():
@@ -387,68 +397,91 @@ if __name__ == "__main__":
 ```
 
 ## Models
-
-### gpt-3.5 / gpt-4
-
-| Website| Provider| gpt-3.5 | gpt-4 | Streaming | Asynchron | Status | Auth |
+### gpt-4
+| Website| Provider| gpt-3.5 | gpt-4 | Stream | Async | Status | Auth |
 | ------ | ------- | ------- | ----- | --------- | --------- | ------ | ---- |
-| [www.aitianhu.com](https://www.aitianhu.com) | `g4f.Provider.AItianhu` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [chat.acytoo.com](https://chat.acytoo.com) | `g4f.Provider.Acytoo` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [chat-gpt.org](https://chat-gpt.org/chat) | `g4f.Provider.Aichat` | ✔️ | ❌ | ❌ | ✔️ | ![Unknown](https://img.shields.io/badge/Unknown-grey) | ❌ |
-| [ai.ls](https://ai.ls) | `g4f.Provider.Ails` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [bard.google.com](https://bard.google.com) | `g4f.Provider.Bard` | ❌ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
 | [bing.com](https://bing.com/chat) | `g4f.Provider.Bing` | ❌ | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [www.chatbase.co](https://www.chatbase.co) | `g4f.Provider.ChatBase` | ✔️ | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [chatgpt.ai](https://chatgpt.ai/) | `g4f.Provider.ChatgptAi` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [opchatgpts.net](https://opchatgpts.net) | `g4f.Provider.ChatgptLogin` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [ava-ai-ef611.web.app](https://ava-ai-ef611.web.app) | `g4f.Provider.CodeLinkAva` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [gptgo.ai](https://gptgo.ai) | `g4f.Provider.GptGo` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [gpt-gm.h2o.ai](https://gpt-gm.h2o.ai) | `g4f.Provider.H2o` | ❌ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [huggingface.co](https://huggingface.co/chat/) | `g4f.Provider.HuggingChat` | ❌ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
-| [opchatgpts.net](https://opchatgpts.net) | `g4f.Provider.Opchatgpts` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [open-assistant.io](https://open-assistant.io/chat) | `g4f.Provider.OpenAssistant` | ❌ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
-| [chat.openai.com](https://chat.openai.com) | `g4f.Provider.OpenaiChat` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
-| [www.perplexity.ai](https://www.perplexity.ai) | `g4f.Provider.PerplexityAi` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chat.geekgpt.org](https://chat.geekgpt.org) | `g4f.Provider.GeekGpt` | ✔️ | ✔️ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [liaobots.site](https://liaobots.site) | `g4f.Provider.Liaobots` | ✔️ | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [www.phind.com](https://www.phind.com) | `g4f.Provider.Phind` | ❌ | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
 | [raycast.com](https://raycast.com) | `g4f.Provider.Raycast` | ✔️ | ✔️ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
-| [theb.ai](https://theb.ai) | `g4f.Provider.Theb` | ✔️ | ❌ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
-| [sdk.vercel.ai](https://sdk.vercel.ai) | `g4f.Provider.Vercel` | ✔️ | ❌ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [app.vitalentum.io](https://app.vitalentum.io) | `g4f.Provider.Vitalentum` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [wewordle.org](https://wewordle.org) | `g4f.Provider.Wewordle` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [chat.ylokh.xyz](https://chat.ylokh.xyz) | `g4f.Provider.Ylokh` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [you.com](https://you.com) | `g4f.Provider.You` | ✔️ | ❌ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [chat9.yqcloud.top](https://chat9.yqcloud.top/) | `g4f.Provider.Yqcloud` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [cromicle.top](https://cromicle.top) | `g4f.Provider.Cromicle` | ✔️ | ❌ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
-| [aiservice.vercel.app](https://aiservice.vercel.app/) | `g4f.Provider.AiService` | ✔️ | ❌ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [chat.dfehub.com](https://chat.dfehub.com/) | `g4f.Provider.DfeHub` | ✔️ | ❌ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [free.easychat.work](https://free.easychat.work) | `g4f.Provider.EasyChat` | ✔️ | ❌ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [next.eqing.tech](https://next.eqing.tech/) | `g4f.Provider.Equing` | ✔️ | ❌ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [chat9.fastgpt.me](https://chat9.fastgpt.me/) | `g4f.Provider.FastGpt` | ✔️ | ❌ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [forefront.com](https://forefront.com) | `g4f.Provider.Forefront` | ✔️ | ❌ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [chat.getgpt.world](https://chat.getgpt.world/) | `g4f.Provider.GetGpt` | ✔️ | ❌ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [liaobots.com](https://liaobots.com) | `g4f.Provider.Liaobots` | ✔️ | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [p5.v50.ltd](https://p5.v50.ltd) | `g4f.Provider.V50` | ✔️ | ❌ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [chat.wuguokai.xyz](https://chat.wuguokai.xyz) | `g4f.Provider.Wuguokai` | ✔️ | ❌ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat.aivvm.com](https://chat.aivvm.com) | `g4f.Provider.Aivvm` | ✔️ | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [gptchatly.com](https://gptchatly.com) | `g4f.Provider.GptChatly` | ✔️ | ✔️ | ❌ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [supertest.lockchat.app](http://supertest.lockchat.app) | `g4f.Provider.Lockchat` | ✔️ | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [app.myshell.ai](https://app.myshell.ai/chat) | `g4f.Provider.Myshell` | ✔️ | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
 
+### gpt-3.5
+
+| Website| Provider| gpt-3.5 | Stream    | Async     | Status | Auth |
+| ------ | ------- | ------- | --------- | --------- | ------ | ---- |
+| [www.aitianhu.com](https://www.aitianhu.com) | `g4f.Provider.AItianhu` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chat3.aiyunos.top](https://chat3.aiyunos.top/) | `g4f.Provider.AItianhuSpace` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [e.aiask.me](https://e.aiask.me) | `g4f.Provider.AiAsk` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chat-gpt.org](https://chat-gpt.org/chat) | `g4f.Provider.Aichat` | ✔️ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [www.chatbase.co](https://www.chatbase.co) | `g4f.Provider.ChatBase` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chatgpt.ai](https://chatgpt.ai/) | `g4f.Provider.ChatgptAi` | ✔️ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chatgptfree.ai](https://chatgptfree.ai) | `g4f.Provider.ChatgptFree` | ✔️ | ❌ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chatgptx.de](https://chatgptx.de) | `g4f.Provider.ChatgptX` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [freegpts1.aifree.site](https://freegpts1.aifree.site/) | `g4f.Provider.FreeGpt` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [gptalk.net](https://gptalk.net) | `g4f.Provider.GPTalk` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [ai18.gptforlove.com](https://ai18.gptforlove.com) | `g4f.Provider.GptForLove` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [gptgo.ai](https://gptgo.ai) | `g4f.Provider.GptGo` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [www.llama2.ai](https://www.llama2.ai) | `g4f.Provider.Llama2` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [noowai.com](https://noowai.com) | `g4f.Provider.NoowAi` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chat.openai.com](https://chat.openai.com) | `g4f.Provider.OpenaiChat` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
+| [theb.ai](https://theb.ai) | `g4f.Provider.Theb` | ✔️ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ✔️ |
+| [sdk.vercel.ai](https://sdk.vercel.ai) | `g4f.Provider.Vercel` | ✔️ | ✔️ | ❌ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [you.com](https://you.com) | `g4f.Provider.You` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
+| [chat.acytoo.com](https://chat.acytoo.com) | `g4f.Provider.Acytoo` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [aiservice.vercel.app](https://aiservice.vercel.app/) | `g4f.Provider.AiService` | ✔️ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [aibn.cc](https://aibn.cc) | `g4f.Provider.Aibn` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [ai.ls](https://ai.ls) | `g4f.Provider.Ails` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chataigpt.org](https://chataigpt.org) | `g4f.Provider.ChatAiGpt` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chatforai.store](https://chatforai.store) | `g4f.Provider.ChatForAi` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chatgpt4online.org](https://chatgpt4online.org) | `g4f.Provider.Chatgpt4Online` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat.chatgptdemo.net](https://chat.chatgptdemo.net) | `g4f.Provider.ChatgptDemo` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chatgptduo.com](https://chatgptduo.com) | `g4f.Provider.ChatgptDuo` | ✔️ | ❌ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chatgptlogin.ai](https://chatgptlogin.ai) | `g4f.Provider.ChatgptLogin` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [ava-ai-ef611.web.app](https://ava-ai-ef611.web.app) | `g4f.Provider.CodeLinkAva` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [cromicle.top](https://cromicle.top) | `g4f.Provider.Cromicle` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat.dfehub.com](https://chat.dfehub.com/) | `g4f.Provider.DfeHub` | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [free.easychat.work](https://free.easychat.work) | `g4f.Provider.EasyChat` | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [next.eqing.tech](https://next.eqing.tech/) | `g4f.Provider.Equing` | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat9.fastgpt.me](https://chat9.fastgpt.me/) | `g4f.Provider.FastGpt` | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [forefront.com](https://forefront.com) | `g4f.Provider.Forefront` | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat.getgpt.world](https://chat.getgpt.world/) | `g4f.Provider.GetGpt` | ✔️ | ✔️ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [gptgod.site](https://gptgod.site) | `g4f.Provider.GptGod` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [komo.ai](https://komo.ai/api/ask) | `g4f.Provider.Komo` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [ai.okmiku.com](https://ai.okmiku.com) | `g4f.Provider.MikuChat` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [opchatgpts.net](https://opchatgpts.net) | `g4f.Provider.Opchatgpts` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [www.perplexity.ai](https://www.perplexity.ai) | `g4f.Provider.PerplexityAi` | ✔️ | ❌ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [talkai.info](https://talkai.info) | `g4f.Provider.TalkAi` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [p5.v50.ltd](https://p5.v50.ltd) | `g4f.Provider.V50` | ✔️ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [app.vitalentum.io](https://app.vitalentum.io) | `g4f.Provider.Vitalentum` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [wewordle.org](https://wewordle.org) | `g4f.Provider.Wewordle` | ✔️ | ❌ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat.wuguokai.xyz](https://chat.wuguokai.xyz) | `g4f.Provider.Wuguokai` | ✔️ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat.ylokh.xyz](https://chat.ylokh.xyz) | `g4f.Provider.Ylokh` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
+| [chat9.yqcloud.top](https://chat9.yqcloud.top/) | `g4f.Provider.Yqcloud` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
 
 ### Other Models
 
 | Model                                   | Base Provider | Provider            | Website                                     |
 | --------------------------------------- | ------------- | ------------------- | ------------------------------------------- |
 | palm                                    | Google        | g4f.Provider.Bard   | [bard.google.com](https://bard.google.com/) |
-| h2ogpt-gm-oasst1-en-2048-falcon-7b-v3   | Huggingface   | g4f.Provider.H2o    | [www.h2o.ai](https://www.h2o.ai/)           |
-| h2ogpt-gm-oasst1-en-2048-falcon-40b-v1  | Huggingface   | g4f.Provider.H2o    | [www.h2o.ai](https://www.h2o.ai/)           |
-| h2ogpt-gm-oasst1-en-2048-open-llama-13b | Huggingface   | g4f.Provider.H2o    | [www.h2o.ai](https://www.h2o.ai/)           |
+| h2ogpt-gm-oasst1-en-2048-falcon-7b-v3   | Hugging Face  | g4f.Provider.H2o    | [www.h2o.ai](https://www.h2o.ai/)           |
+| h2ogpt-gm-oasst1-en-2048-falcon-40b-v1  | Hugging Face  | g4f.Provider.H2o    | [www.h2o.ai](https://www.h2o.ai/)           |
+| h2ogpt-gm-oasst1-en-2048-open-llama-13b | Hugging Face  | g4f.Provider.H2o    | [www.h2o.ai](https://www.h2o.ai/)           |
 | claude-instant-v1                       | Anthropic     | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | claude-v1                               | Anthropic     | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | claude-v2                               | Anthropic     | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | command-light-nightly                   | Cohere        | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | command-nightly                         | Cohere        | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
-| gpt-neox-20b                            | Huggingface   | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
-| oasst-sft-1-pythia-12b                  | Huggingface   | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
-| oasst-sft-4-pythia-12b-epoch-3.5        | Huggingface   | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
-| santacoder                              | Huggingface   | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
-| bloom                                   | Huggingface   | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
-| flan-t5-xxl                             | Huggingface   | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
+| gpt-neox-20b                            | Hugging Face  | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
+| oasst-sft-1-pythia-12b                  | Hugging Face  | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
+| oasst-sft-4-pythia-12b-epoch-3.5        | Hugging Face  | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
+| santacoder                              | Hugging Face  | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
+| bloom                                   | Hugging Face  | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
+| flan-t5-xxl                             | Hugging Face  | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | code-davinci-002                        | OpenAI        | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | gpt-3.5-turbo-16k                       | OpenAI        | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
 | gpt-3.5-turbo-16k-0613                  | OpenAI        | g4f.Provider.Vercel | [sdk.vercel.ai](https://sdk.vercel.ai/)     |
@@ -549,7 +582,7 @@ Call in your terminal the "create_provider" script:
 python etc/tool/create_provider.py
 ```
 1. Enter your name for the new provider.
-2. Copy&Paste a cURL command from your browser developer tools.
+2. Copy & Paste a cURL command from your browser developer tools.
 3. Let the AI ​​create the provider for you.
 4. Customize the provider according to your needs.
 
@@ -638,4 +671,16 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
         <img width="500" alt="Star History Chart" src="https://api.star-history.com/svg?repos=xtekky/gpt4free&type=Date">
 </a>
 
+## License
 
+<table>
+  <tr>
+     <td>
+       <p align="center"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/GPLv3_Logo.svg/1200px-GPLv3_Logo.svg.png" width="80%"></img>
+    </td>
+    <td> 
+      <img src="https://img.shields.io/badge/License-GNU_GPL_v3.0-red.svg"/> <br> 
+This project is licensed under <a href="./LICENSE">GNU_GPL_v3.0</a>. <img width=2300/>
+    </td>
+  </tr>
+</table>
