@@ -1,9 +1,9 @@
 ---
 title: build-your-own-x
-date: 2023-10-07T12:16:19+08:00
+date: 2023-10-25T12:16:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694659694812-6d46a6d43040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694659694812-6d46a6d43040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695020967001-17d36eaf6a31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695020967001-17d36eaf6a31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
 ---
 
 # [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
@@ -136,17 +136,17 @@ It's a great way to learn.
 #### Build your own `Database`
 
 * [**C**: _Let's Build a Simple Database_](https://cstack.github.io/db_tutorial/)
+* [**C++**: _Build Your Own Redis from Scratch_](https://build-your-own.org/redis)
 * [**C#**: _Build Your Own Database_](https://www.codeproject.com/Articles/1029838/Build-Your-Own-Database)
 * [**Clojure**: _An Archaeology-Inspired Database_](http://aosabook.org/en/500L/an-archaeology-inspired-database.html)
 * [**Crystal**: _Why you should build your own NoSQL Database_](https://medium.com/@marceloboeira/why-you-should-build-your-own-nosql-database-9bbba42039f5)
+* [**Go**: _Build Your Own Database from Scratch: Persistence, Indexing, Concurrency_](https://build-your-own.org/database/)
+* [**Go**: _Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
 * [**JavaScript**: _Dagoba: an in-memory graph database_](http://aosabook.org/en/500L/dagoba-an-in-memory-graph-database.html)
 * [**Python**: _DBDB: Dog Bed Database_](http://aosabook.org/en/500L/dbdb-dog-bed-database.html)
 * [**Python**: _Write your own miniature Redis with Python_](http://charlesleifer.com/blog/building-a-simple-redis-server-with-python/)
-* [**C++**: _Build Your Own Redis from Scratch_](https://build-your-own.org/redis)
-* [**Golang**: _Build Your Own Database from Scratch: Persistence, Indexing, Concurrency_](https://build-your-own.org/database/)
 * [**Ruby**: _Build your own fast, persistent KV store in Ruby_](https://dinesh.wiki/posts/build-your-own-persistent-kv-store/)
-* [**Golang**: _Build Your Own Redis from Scratch](https://www.build-redis-from-scratch.dev/)
-* 
+
 #### Build your own `Docker`
 
 * [**C**: _Linux containers in 500 lines of code_](https://blog.lizzie.io/linux-containers-in-500-loc.html)
@@ -343,6 +343,7 @@ It's a great way to learn.
 
 * [**C**: _A Regular Expression Matcher_](https://www.cs.princeton.edu/courses/archive/spr09/cos333/beautiful.html)
 * [**C**: _Regular Expression Matching Can Be Simple And Fast_](https://swtch.com/~rsc/regexp/regexp1.html)
+* [**Go**: _How to build a regex engine from scratch_](https://rhaeguard.github.io/posts/regex)
 * [**JavaScript**: _Build a Regex Engine in Less than 40 Lines of Code_](https://nickdrane.com/build-your-own-regex/)
 * [**JavaScript**: _How to implement regular expressions in functional javascript using derivatives_](http://dpk.io/dregs/toydregs)
 * [**JavaScript**: _Implementing a Regular Expression Engine_](https://deniskyashif.com/2019/02/17/implementing-a-regular-expression-engine/) 

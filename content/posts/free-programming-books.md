@@ -1,9 +1,9 @@
 ---
 title: free-programming-books
-date: 2023-10-24T12:15:03+08:00
+date: 2023-10-25T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695649920693-58e7aec67ae2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695649920693-58e7aec67ae2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
 ---
 
 # [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
@@ -113,6 +113,7 @@ This project lists books and other resources grouped by genres:
 + [Japanese / 日本語](books/free-programming-books-ja.md)
 + [Korean / 한국어](books/free-programming-books-ko.md)
 + [Latvian / Latviešu](books/free-programming-books-lv.md)
++ [Malayalam / മലയാളം](books/free-programming-books-ml.md)
 + [Norwegian / Norsk](books/free-programming-books-no.md)
 + [Persian / Farsi (Iran) / فارسى](books/free-programming-books-fa_IR.md)
 + [Polish / polski / język polski / polszczyzna](books/free-programming-books-pl.md)

@@ -1,9 +1,9 @@
 ---
 title: lx-music-desktop
-date: 2023-10-23T12:17:32+08:00
+date: 2023-10-25T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696616297091-c07da52da503?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696616297091-c07da52da503?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697005722295-f855418812fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697005722295-f855418812fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
 ---
 
 # [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)

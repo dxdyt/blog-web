@@ -1,9 +1,9 @@
 ---
 title: OpenAgents
-date: 2023-10-21T12:16:18+08:00
+date: 2023-10-25T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696613656560-61607b682907?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696613656560-61607b682907?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc4NjE2NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696961672016-7d545878292c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696961672016-7d545878292c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
 ---
 
 # [xlang-ai/OpenAgents](https://github.com/xlang-ai/OpenAgents)
@@ -44,6 +44,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1696613656560-61607b6829
     <img src="pics/openagents_overview.png"/>
 </div>
 
+<p align="center">
+    <a>English</a> •
+    <a href="README_ZH.md">中文</a> •
+    <a href="README_JA.md">日本語</a>
+</p>
+
 Current language agent frameworks aim to facilitate the construction of proof-of-concept language agents while neglecting the non-expert user access to agents and paying little attention to application-level designs.
 We built OpenAgents, an open platform for using and hosting language agents in the wild of everyday life.
 
@@ -82,7 +88,7 @@ Here is a brief system design of OpenAgents:
 Please check the following folders and README files to set up & localhost:
 
 1. [**backend**](backend/README.md): the flask backend to host our three agents.
-2. [**frontend**](frontend/README.md): the frontend UI and webbot chrome extension.
+2. [**frontend**](frontend/README.md): the frontend UI and WeBot Chrome extension.
 
 ## 🥑 OpenAgents
 
@@ -169,7 +175,7 @@ Witness the full potential of Web Agent in these [use cases](https://docs.xlang.
 
 ## 📖 Documentation
 
-Please check [here](https://docs.xlang.ai) for full documentation, which will be updated to stay in pace with the demo changes and the code release.
+Please check [here](https://docs.xlang.ai) for full documentation, which will be updated to stay on pace with the demo changes and the code release.
 
 ## 👏 Contributing
 
@@ -213,7 +219,7 @@ For detailed information on how to contribute, see [here](https://github.com/xla
 <a href="https://github.com/xJQx"><img src="https://avatars.githubusercontent.com/u/47933193?v=4"  width="50" /></a>
 <a href="https://github.com/thomasshin"><img src="https://avatars.githubusercontent.com/u/76890354?v=4"  width="50" /></a>
 
-### Acknowledgements (beyond code)
+### Acknowledgments (beyond code)
 
 Heartfelt appreciation to [Ziyi Huang](https://www.joanna-ziyi-huang.com/), [Roxy Rong](https://www.linkedin.com/in/roxyrong/), [Haotian Li](https://haotian-li.com/), [Xingbo Wang](https://andy-xingbowang.com/), [Jansen Wong](https://www.linkedin.com/in/jansenwong/), and [Chen Henry Wu](https://chenwu.io/) for their valuable contributions to the OpenAgents. Their expertise and insights were instrumental in bringing this project to fruition!
 
@@ -238,7 +244,7 @@ If you find our work helpful, please cite us:
 }
 ```
 
-## Acknowledgements
+## Acknowledgments
 
 We would like to thank Google Research, Amazon AWS, and Salesforce Research for their research gift funds to this open-source effort!
 

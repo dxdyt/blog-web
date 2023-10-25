@@ -1,9 +1,9 @@
 ---
 title: Data-Science-For-Beginners
-date: 2023-07-05T12:21:10+08:00
+date: 2023-10-25T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687809200615-a35f5668696f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687809200615-a35f5668696f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695378202330-4d0566dfec57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695378202330-4d0566dfec57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/Data-Science-For-Beginners](https://github.com/microsoft/Data-Science-For-Beginners)
