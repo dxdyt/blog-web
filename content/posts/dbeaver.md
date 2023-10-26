@@ -1,9 +1,9 @@
 ---
 title: dbeaver
-date: 2023-10-25T12:18:31+08:00
+date: 2023-10-26T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696350865870-1bc760e347cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696350865870-1bc760e347cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
 ---
 
 # [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)

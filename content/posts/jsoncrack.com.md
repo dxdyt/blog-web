@@ -1,9 +1,9 @@
 ---
 title: jsoncrack.com
-date: 2023-09-16T12:16:44+08:00
+date: 2023-10-26T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1635799994259-e99ff99ca747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1635799994259-e99ff99ca747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696247835110-32a6a6629252?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696247835110-32a6a6629252?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
 ---
 
 # [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
@@ -84,8 +84,11 @@ If you want to run JSON Crack locally:
 # Build a Docker image with:
 docker build -t jsoncrack .
 
-# Run locally with:
+# Run locally with `docker run`
 docker run -p 8888:8080 jsoncrack
+
+# Run locally with `docker-compose`
+docker-compose up -d
 
 # Go to http://localhost:8888
 ```

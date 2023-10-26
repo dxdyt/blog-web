@@ -1,9 +1,9 @@
 ---
 title: Eureka
-date: 2023-10-25T12:15:26+08:00
+date: 2023-10-26T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695278256299-4c3b8640b8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695278256299-4c3b8640b8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1675703236969-e4ce4d298618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1675703236969-e4ce4d298618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
 ---
 
 # [eureka-research/Eureka](https://github.com/eureka-research/Eureka)

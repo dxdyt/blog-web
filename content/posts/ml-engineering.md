@@ -1,9 +1,9 @@
 ---
 title: ml-engineering
-date: 2023-10-14T12:16:18+08:00
+date: 2023-10-26T12:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695742865516-2d6b264414eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1675703236969-e4ce4d298618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1675703236969-e4ce4d298618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
@@ -32,11 +32,11 @@ I've been compiling this information mostly for myself so that I could quickly f
 
 ## [Tensor precision / Data types](./dtype/)
 
-## [Training hyper-parameters and model initializations](./hparams/)
-
 ## [Reproducibility](./reproducibility/)
 
 ## [Instabilities](./instabilities/)
+
+## [Training hyper-parameters and model initializations](./hparams/)
 
 ## [SLURM](./slurm/)
 
@@ -59,3 +59,27 @@ If you found a bug, typo or would like to propose an improvement please don't he
 ## License
 
 The content of this site is distributed under [Attribution-ShareAlike 4.0 International](./LICENSE-CC-BY-SA).
+
+
+## My repositories map
+
+✔ **Machine Learning:**
+ [ML Engineering](https://github.com/stas00/ml-engineering) |
+ [ML ways](https://github.com/stas00/ml-ways) |
+ [Porting](https://github.com/stas00/porting)
+
+✔ **Guides:**
+ [The Art of Debugging](https://github.com/stas00/the-art-of-debugging)
+
+✔ **Applications:**
+ [ipyexperiments](https://github.com/stas00/ipyexperiments)
+
+✔ **Tools and Cheatsheets:**
+ [bash](https://github.com/stas00/bash-tools) |
+ [conda](https://github.com/stas00/conda-tools) |
+ [git](https://github.com/stas00/git-tools) |
+ [jupyter-notebook](https://github.com/stas00/jupyter-notebook-tools) |
+ [make](https://github.com/stas00/make-tools) |
+ [python](https://github.com/stas00/python-tools) |
+ [tensorboard](https://github.com/stas00/tensorboard-tools) |
+ [unix](https://github.com/stas00/unix-tools)

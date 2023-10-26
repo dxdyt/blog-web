@@ -1,9 +1,9 @@
 ---
 title: hackingtool
-date: 2023-10-24T12:16:15+08:00
+date: 2023-10-26T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695271852599-fda825fb5d3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
 ---
 
 # [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
@@ -134,6 +134,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1695271852599-fda825fb5d
 - [Bulk extractor](https://github.com/simsong/bulk_extractor)
 - [Disk Clone and ISO Image Acquire](https://guymager.sourceforge.io/)
 - [Toolsley](https://www.toolsley.com/)
+- [Volatility3](https://github.com/volatilityfoundation/volatility3/)
 ### Payload creation tools
 - [The FatRat](https://github.com/Screetsec/TheFatRat)
 - [Brutal](https://github.com/Screetsec/Brutal)
@@ -250,13 +251,34 @@ featuredImagePreview: https://images.unsplash.com/photo-1695271852599-fda825fb5d
 
 ## Use image with Docker
 
-### Run in one click
-`docker run -it vgpastor/hackingtool`
+### Create Docker Image
+- Create the docker image 
 
-### Build locally
-`docker-compose build`
+```bash
+docker buitl -t vgpastor/hackingtool .
+```
 
-`docker-compose run hackingtool`
+### Run as container 
+
+```bash
+docker-compose up -d
+```
+
+### Interact with terminal
+
+- Get into the container 
+```bash
+docker exec -it hackingtool bash
+```
+**OUTPUT:**
+```bash
+Select Best Option : 
+
+              [1] Kali Linux / Parrot-Os (apt)
+              [2] Arch Linux (pacman)
+              [0] Exit 
+```
+Enter the options and continue.
 
 - If need open other ports you can edit the docker-compose.yml file
 - Volumes are mounted in the container to persist data and can share files between the host and the container
