@@ -1,9 +1,9 @@
 ---
 title: incubator-answer
-date: 2023-10-26T12:16:18+08:00
+date: 2023-10-27T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697909623126-e2ecf6f66869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697909623126-e2ecf6f66869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
 ---
 
 # [apache/incubator-answer](https://github.com/apache/incubator-answer)

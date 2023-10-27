@@ -1,9 +1,9 @@
 ---
 title: free-for-dev
-date: 2023-10-26T12:16:32+08:00
+date: 2023-10-27T12:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696258361452-d54add39e3c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696258361452-d54add39e3c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1673913966908-1bb9d5bcb0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1673913966908-1bb9d5bcb0f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
 ---
 
 # [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
@@ -1673,6 +1673,7 @@ Update Time, five active automations, webhooks.
    * [Microsoft Clarity](https://clarity.microsoft.com/) - Clarity is a free, easy-to-use tool that captures how real people use your site.
    * [Beampipe.io](https://beampipe.io) - Beampipe is simple, privacy-focussed web analytics. free for up to 5 domains & 10k monthly page views.
    * [Aptabase](https://aptabase.com) — Open Source, Privacy-Friendly, and Simple Analytics for Mobile and Desktop Apps. SDKs for Swift, Kotlin, React Native, Flutter, Electron, and many others. Free for up to 20,000 events per month.
+   * [Trackingplan](https://www.trackingplan.com/) - Automatically detect digital analytics, marketing data and pixels issues, maintain up-to-date tracking plans, and foster seamless collaboration. Deploy it to your production environment with real traffic or add analytics coverage to your regression tests without writing code.
 
 **[⬆️ Back to Top](#table-of-contents)**
 

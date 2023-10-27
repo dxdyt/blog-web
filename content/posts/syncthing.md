@@ -1,9 +1,9 @@
 ---
 title: syncthing
-date: 2023-10-25T12:17:25+08:00
+date: 2023-10-27T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697005722295-f855418812fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697005722295-f855418812fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697369574071-39d832e0b8d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697369574071-39d832e0b8d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
 ---
 
 # [syncthing/syncthing](https://github.com/syncthing/syncthing)

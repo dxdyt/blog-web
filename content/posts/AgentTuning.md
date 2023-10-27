@@ -1,9 +1,9 @@
 ---
 title: AgentTuning
-date: 2023-10-25T12:18:08+08:00
+date: 2023-10-27T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695378202330-4d0566dfec57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695378202330-4d0566dfec57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696574242507-a681e66fd735?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696574242507-a681e66fd735?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/AgentTuning](https://github.com/THUDM/AgentTuning)
@@ -40,7 +40,7 @@ AgentInstruct dataset is available on [🤗Huggingface Repo](https://huggingface
 
 **AgentLM** models are produced by mixed training on AgentInstruct dataset and ShareGPT dataset from Llama2-chat series.
 
-The models follow the conversation format of [Llama-2-chat](https://huggingface.co/blog/llama2#how-to-prompt-llama-2), with system prompt fixed as `You are a helpful, respectful and honest assistant.`
+The models follow the conversation format of [Llama-2-chat](https://huggingface.co/blog/llama2#how-to-prompt-llama-2), with the system prompt fixed as `You are a helpful, respectful and honest assistant.`
 
 The 7B, 13B, and 70B models are available on Huggingface model hub.
 
@@ -61,7 +61,7 @@ cd docker
 docker compose -f agentlm-70b.yml up
 ```
 
-Upon successful execution, a client will be available on port `30070`. Here an example of launching a request:
+Upon successful execution, a client will be available on port `30070`. Here is an example of launching a request:
 
 ```bash
 curl 127.0.0.1:30070/generate \
@@ -72,7 +72,7 @@ curl 127.0.0.1:30070/generate \
 # {"generated_text":"Hello! How can I help you today? "}
 ```
 
-You may replicate the services in docker compose file to multiple inference instance if more GPUs are available.
+You may replicate the services in docker compose file to multiple inference instances if more GPUs are available.
 
 ## Evaluation
 

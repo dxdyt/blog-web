@@ -1,12 +1,19 @@
 ---
 title: roop
-date: 2023-08-17T12:16:04+08:00
+date: 2023-10-27T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689850969146-43cd8e188bbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689850969146-43cd8e188bbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696326117395-5097014f290a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696326117395-5097014f290a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/roop](https://github.com/s0md3v/roop)
+
+## This project has been discontinued
+
+Yes, you can still use this software. It just won't recieve any updates now.
+
+> The reason behind shutting the project down is that a developer with write access to the code published a [problematic video](https://github.com/s0md3v/roop/commit/cf7ba1caf932e8c9f39d972100f74022e7372c27) to the documentation of the project. This happened while I was taking a break from the project in July-Aug 2023. It went unnoticed for 2 weeks until someone reached out to me to talk about this project. It was a complete breach of trust for me and I decided that I do not have the interest or time to oversee the development of a software with such ethical issues.
+> I thank all the amazing people who contributed to this project and made what it is in it's final form.
 
 # Roop
 
@@ -18,9 +25,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1689850969146-43cd8e188b
 
 Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://discord.com/invite/Y9p4ZQ2sB9) community that will guide you to install roop.
 
-[Basic](https://roop-ai.gitbook.io/roop/installation/basic) - It is more likely to work on your computer, but will be quite slow
+[Basic](https://github.com/s0md3v/roop/wiki/1.-Installation) - It is more likely to work on your computer, but will be quite slow
 
-[Acceleration](https://roop-ai.gitbook.io/roop/installation/acceleration) - Unleash the full potential of your CPU and GPU
+[Acceleration](https://github.com/s0md3v/roop/wiki/2.-Acceleration) - Unleash the full potential of your CPU and GPU
 
 
 ## Usage
@@ -60,11 +67,11 @@ Using the `-s/--source`, `-t/--target` and `-o/--output` argument will run the p
 
 ## Disclaimer
 
-This software is meant to be a productive contribution to the rapidly growing AI-generated media industry. It will help artists with tasks such as animating a custom character or using the character as a model for clothing etc.
+This software is designed to contribute positively to the AI-generated media industry, assisting artists with tasks like character animation and models for clothing.
 
-The developers of this software are aware of its possible unethical applications and are committed to take preventative measures against them. It has a built-in check which prevents the program from working on inappropriate media including but not limited to nudity, graphic content, sensitive material such as war footage etc. We will continue to develop this project in the positive direction while adhering to law and ethics. This project may be shut down or include watermarks on the output if requested by law.
+We are aware of the potential ethical issues and have implemented measures to prevent the software from being used for inappropriate content, such as nudity.
 
-Users of this software are expected to use this software responsibly while abiding the local law. If face of a real person is being used, users are suggested to get consent from the concerned person and clearly mention that it is a deepfake when posting content online. Developers of this software will not be responsible for actions of end-users.
+Users are expected to follow local laws and use the software responsibly. If using real faces, get consent and clearly label deepfakes when sharing. The developers aren't liable for user actions.
 
 
 ## Licenses
@@ -80,4 +87,4 @@ Our software uses a lot of third party libraries as well pre-trained models. The
 
 ## Documentation
 
-Read the [documenation](https://roop-ai.gitbook.io/roop) for a deep dive.
+Read the [documentation](https://github.com/s0md3v/roop/wiki) for a deep dive.
