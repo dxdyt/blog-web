@@ -1,15 +1,12 @@
 ---
 title: openzeppelin-contracts
-date: 2023-08-25T12:17:44+08:00
+date: 2023-10-28T12:17:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691083525349-c22d4dd2d567?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691083525349-c22d4dd2d567?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694590000075-8ece6e2a2fc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694590000075-8ece6e2a2fc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
 ---
 
 # [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
-
-> **Warning**
-> Version 5.0 is under active development. The code in this branch is not recommended for use.
 
 # <img src="logo.svg" alt="OpenZeppelin" height="40px">
 
@@ -29,6 +26,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1691083525349-c22d4dd2d5
 
 :building_construction: **Want to scale your decentralized application?** Check out [OpenZeppelin Defender](https://openzeppelin.com/defender) — a secure platform for automating and monitoring your operations.
 
+> [!IMPORTANT]
+> OpenZeppelin Contracts uses semantic versioning to communicate backwards compatibility of its API and storage layout. For upgradeable contracts, the storage layout of different major versions should be assumed incompatible, for example, it is unsafe to upgrade from 4.9.3 to 5.0.0. Learn more at [Backwards Compatibility](https://docs.openzeppelin.com/contracts/backwards-compatibility).
+
 ## Overview
 
 ### Installation
@@ -39,13 +39,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1691083525349-c22d4dd2d5
 $ npm install @openzeppelin/contracts
 ```
 
-OpenZeppelin Contracts features a [stable API](https://docs.openzeppelin.com/contracts/releases-stability#api-stability), which means that your contracts won't break unexpectedly when upgrading to a newer minor version.
-
 #### Foundry (git)
 
-> **Warning** When installing via git, it is a common error to use the `master` branch. This is a development branch that should be avoided in favor of tagged releases. The release process involves security measures that the `master` branch does not guarantee.
+> [!WARNING]
+> When installing via git, it is a common error to use the `master` branch. This is a development branch that should be avoided in favor of tagged releases. The release process involves security measures that the `master` branch does not guarantee.
 
-> **Warning** Foundry installs the latest version initially, but subsequent `forge update` commands will use the `master` branch.
+> [!WARNING]
+> Foundry installs the latest version initially, but subsequent `forge update` commands will use the `master` branch.
 
 ```
 $ forge install OpenZeppelin/openzeppelin-contracts
@@ -82,7 +82,7 @@ The guides in the [documentation site](https://docs.openzeppelin.com/contracts) 
 
 The [full API](https://docs.openzeppelin.com/contracts/api/token/ERC20) is also thoroughly documented, and serves as a great reference when developing your smart contract application. You can also ask for help or follow Contracts's development in the [community forum](https://forum.openzeppelin.com).
 
-Finally, you may want to take a look at the [guides on our blog](https://blog.openzeppelin.com/guides), which cover several common use cases and good practices. The following articles provide great background reading, though please note that some of the referenced tools have changed, as the tooling in the ecosystem continues to rapidly evolve.
+Finally, you may want to take a look at the [guides on our blog](https://blog.openzeppelin.com/), which cover several common use cases and good practices. The following articles provide great background reading, though please note that some of the referenced tools have changed, as the tooling in the ecosystem continues to rapidly evolve.
 
 * [The Hitchhiker’s Guide to Smart Contracts in Ethereum](https://blog.openzeppelin.com/the-hitchhikers-guide-to-smart-contracts-in-ethereum-848f08001f05) will help you get an overview of the various tools available for smart contract development, and help you set up your environment.
 * [A Gentle Introduction to Ethereum Programming, Part 1](https://blog.openzeppelin.com/a-gentle-introduction-to-ethereum-programming-part-1-783cc7796094) provides very useful information on an introductory level, including many basic concepts from the Ethereum platform.
