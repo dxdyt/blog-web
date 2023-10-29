@@ -1,9 +1,9 @@
 ---
 title: Vencord
-date: 2023-10-27T12:15:04+08:00
+date: 2023-10-29T12:15:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697789103836-78b86e138e59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697789103836-78b86e138e59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1682167176169-c74f2a6c6b84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1682167176169-c74f2a6c6b84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
 ---
 
 # [Vendicated/Vencord](https://github.com/Vendicated/Vencord)

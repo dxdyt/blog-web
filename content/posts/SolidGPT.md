@@ -1,9 +1,9 @@
 ---
 title: SolidGPT
-date: 2023-10-27T12:17:03+08:00
+date: 2023-10-29T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696315073945-4e8758136a9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696315073945-4e8758136a9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693560355258-1af2a69a9ccd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693560355258-1af2a69a9ccd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
 ---
 
 # [AI-Citizen/SolidGPT](https://github.com/AI-Citizen/SolidGPT)
@@ -34,7 +34,7 @@ If you like our work, please give us a 🌟 star. Your support serves as a great
 - python3.8 or above
 - [OpenAI api key](https://openai.com/blog/openai-api)
 - [Install npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-
+- [Install & run redis](https://redis.io/docs/install/install-redis/)
 ## 🔧 **Setup**
 ```sh
 git clone https://github.com/AI-Citizen/SolidGPT.git
@@ -53,7 +53,7 @@ pip3 install -r requirements.txt #installing the env
       set PYTHONPATH=path\to\directory
       ```
 - ### Start Server
-    cd into the project root folder(SolidGPT)
+    Open first terminal and cd into the project root folder(SolidGPT)
     - Linux/Mac/WSL2
       ```sh
       sh StartServer.sh
@@ -82,6 +82,7 @@ pip3 install -r requirements.txt #installing the env
         docker run -p 8000:8000 solidgptlocalhost
         ```
 - ### Start UI portal
+	Open the second terminal
   - You'll need to install npm, and we recommend using version 9.8.1 or higher.
 
     ```sh

@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2023-10-13T12:16:09+08:00
+date: 2023-10-29T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696154846301-7d8678e4db85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696154846301-7d8678e4db85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcxNzA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697222691126-c1be7bde3ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697222691126-c1be7bde3ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)
@@ -62,7 +62,8 @@ The course is built using a few tools:
 - [mdbook-exerciser](mdbook-exerciser/)
 - [mdbook-course](mdbook-course/)
 
-First clone the repository:
+First install Rust by following the instructions on https://rustup.rs/. Then
+clone this repository:
 
 ```shell
 git clone https://github.com/google/comprehensive-rust/

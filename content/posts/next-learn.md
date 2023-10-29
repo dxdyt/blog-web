@@ -1,9 +1,9 @@
 ---
 title: next-learn
-date: 2023-10-28T12:16:10+08:00
+date: 2023-10-29T12:15:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697193860488-a9897fcc19cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697193860488-a9897fcc19cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697222691126-c1be7bde3ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697222691126-c1be7bde3ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
 ---
 
 # [vercel/next-learn](https://github.com/vercel/next-learn)
