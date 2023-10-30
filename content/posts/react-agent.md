@@ -1,9 +1,9 @@
 ---
 title: react-agent
-date: 2023-10-28T12:15:22+08:00
+date: 2023-10-30T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696789990467-b62f42cad41f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696789990467-b62f42cad41f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696227257464-a37a46c9975d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696227257464-a37a46c9975d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
 ---
 
 # [eylonmiz/react-agent](https://github.com/eylonmiz/react-agent)

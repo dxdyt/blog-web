@@ -1,9 +1,9 @@
 ---
 title: yt-dlp
-date: 2023-10-10T12:16:38+08:00
+date: 2023-10-30T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694675042062-f73713a6a122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694675042062-f73713a6a122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696251143046-2d32fb985b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696251143046-2d32fb985b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
 ---
 
 # [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
@@ -99,7 +99,6 @@ yt-dlp is a [youtube-dl](https://github.com/ytdl-org/youtube-dl) fork based on t
     * Fix for [n-sig based throttling](https://github.com/ytdl-org/youtube-dl/issues/29326) **\***
     * Supports some (but not all) age-gated content without cookies
     * Download livestreams from the start using `--live-from-start` (*experimental*)
-    * `255kbps` audio is extracted (if available) from YouTube Music when premium cookies are given
     * Channel URLs download all uploads of the channel, including shorts and live
 
 * **Cookies from browser**: Cookies can be automatically extracted from all major web browsers using `--cookies-from-browser BROWSER[+KEYRING][:PROFILE][::CONTAINER]`
@@ -168,6 +167,7 @@ Some of yt-dlp's default options are different from that of youtube-dl and youtu
 * yt-dlp's sanitization of invalid characters in filenames is different/smarter than in youtube-dl. You can use `--compat-options filename-sanitization` to revert to youtube-dl's behavior
 * yt-dlp tries to parse the external downloader outputs into the standard progress output if possible (Currently implemented: [~~aria2c~~](https://github.com/yt-dlp/yt-dlp/issues/5931)). You can use `--compat-options no-external-downloader-progress` to get the downloader output as-is
 * yt-dlp versions between 2021.09.01 and 2023.01.02 applies `--match-filter` to nested playlists. This was an unintentional side-effect of [8f18ac](https://github.com/yt-dlp/yt-dlp/commit/8f18aca8717bb0dd49054555af8d386e5eda3a88) and is fixed in [d7b460](https://github.com/yt-dlp/yt-dlp/commit/d7b460d0e5fc710950582baed2e3fc616ed98a80). Use `--compat-options playlist-match-filter` to revert this
+* yt-dlp uses modern http client backends such as `requests`. Use `--compat-options prefer-legacy-http-handler` to prefer the legacy http handler (`urllib`) to be used for standard http requests.
 
 For ease of use, a few more compat options are available:
 
@@ -175,7 +175,7 @@ For ease of use, a few more compat options are available:
 * `--compat-options youtube-dl`: Same as `--compat-options all,-multistreams,-playlist-match-filter`
 * `--compat-options youtube-dlc`: Same as `--compat-options all,-no-live-chat,-no-youtube-channel-redirect,-playlist-match-filter`
 * `--compat-options 2021`: Same as `--compat-options 2022,no-certifi,filename-sanitization,no-youtube-prefer-utc-upload-date`
-* `--compat-options 2022`: Same as `--compat-options playlist-match-filter,no-external-downloader-progress`. Use this to enable all future compat options
+* `--compat-options 2022`: Same as `--compat-options playlist-match-filter,no-external-downloader-progress,prefer-legacy-http-handler`. Use this to enable all future compat options
 
 
 # INSTALLATION
@@ -285,6 +285,7 @@ While all the other dependencies are optional, `ffmpeg` and `ffprobe` are highly
 * [**certifi**](https://github.com/certifi/python-certifi)\* - Provides Mozilla's root certificate bundle. Licensed under [MPLv2](https://github.com/certifi/python-certifi/blob/master/LICENSE)
 * [**brotli**](https://github.com/google/brotli)\* or [**brotlicffi**](https://github.com/python-hyper/brotlicffi) - [Brotli](https://en.wikipedia.org/wiki/Brotli) content encoding support. Both licensed under MIT <sup>[1](https://github.com/google/brotli/blob/master/LICENSE) [2](https://github.com/python-hyper/brotlicffi/blob/master/LICENSE) </sup>
 * [**websockets**](https://github.com/aaugustin/websockets)\* - For downloading over websocket. Licensed under [BSD-3-Clause](https://github.com/aaugustin/websockets/blob/main/LICENSE)
+* [**requests**](https://github.com/psf/requests)\* - HTTP library. For HTTPS proxy and persistent connections support. Licensed under [Apache-2.0](https://github.com/psf/requests/blob/main/LICENSE)
 
 ### Metadata
 
@@ -923,7 +924,7 @@ If you fork the project on GitHub, you can run your fork's [build workflow](.git
                                     Defaults to ~/.netrc
     --netrc-cmd NETRC_CMD           Command to execute to get the credentials
                                     for an extractor.
-    --video-password PASSWORD       Video password (vimeo, youku)
+    --video-password PASSWORD       Video-specific password
     --ap-mso MSO                    Adobe Pass multiple-system operator (TV
                                     provider) identifier, use --ap-list-mso for
                                     a list of available MSOs
@@ -1810,7 +1811,7 @@ The following extractors use this feature:
 #### youtube
 * `lang`: Prefer translated metadata (`title`, `description` etc) of this language code (case-sensitive). By default, the video primary language metadata is preferred, with a fallback to `en` translated. See [youtube.py](https://github.com/yt-dlp/yt-dlp/blob/c26f9b991a0681fd3ea548d535919cec1fbbd430/yt_dlp/extractor/youtube.py#L381-L390) for list of supported content language codes
 * `skip`: One or more of `hls`, `dash` or `translated_subs` to skip extraction of the m3u8 manifests, dash manifests and [auto-translated subtitles](https://github.com/yt-dlp/yt-dlp/issues/4090#issuecomment-1158102032) respectively
-* `player_client`: Clients to extract video data from. The main clients are `web`, `android` and `ios` with variants `_music`, `_embedded`, `_embedscreen`, `_creator` (e.g. `web_embedded`); and `mweb`, `mweb_embedscreen` and `tv_embedded` (agegate bypass) with no variants. By default, `ios,android,web` is used, but `tv_embedded` and `creator` variants are added as required for age-gated videos. Similarly, the music variants are added for `music.youtube.com` urls. You can use `all` to use all the clients, and `default` for the default clients.
+* `player_client`: Clients to extract video data from. The main clients are `web`, `android` and `ios` with variants `_music`, `_embedded`, `_embedscreen`, `_creator` (e.g. `web_embedded`); and `mweb`, `mweb_embedscreen` and `tv_embedded` (agegate bypass) with no variants. By default, `android,web,ios` is used, but `tv_embedded` and `creator` variants are added as required for age-gated videos. Similarly, the music variants are added for `music.youtube.com` urls. You can use `all` to use all the clients, and `default` for the default clients.
 * `player_skip`: Skip some network requests that are generally needed for robust extraction. One or more of `configs` (skip client configs), `webpage` (skip initial webpage), `js` (skip js player). While these options can help reduce the number of requests needed or avoid some rate-limiting, they could cause some issues. See [#860](https://github.com/yt-dlp/yt-dlp/pull/860) for more details
 * `player_params`: YouTube player parameters to use for player requests. Will overwrite any default ones set by yt-dlp.
 * `comment_sort`: `top` or `new` (default) - choose comment sorting mode (on YouTube's side)

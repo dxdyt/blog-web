@@ -1,9 +1,9 @@
 ---
 title: Wonder3D
-date: 2023-10-29T12:14:33+08:00
+date: 2023-10-30T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682167176169-c74f2a6c6b84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682167176169-c74f2a6c6b84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697779055997-627444414abd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697779055997-627444414abd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
 ---
 
 # [xxlong0/Wonder3D](https://github.com/xxlong0/Wonder3D)
@@ -15,6 +15,15 @@ Single Image to 3D using Cross-Domain Diffusion
 ![](assets/fig_teaser.png)
 
 Wonder3D reconstructs highly-detailed textured meshes from a single-view image in only 2 ∼ 3 minutes. Wonder3D first generates consistent multi-view normal maps with corresponding color images via a cross-domain diffusion model, and then leverages a novel normal fusion method to achieve fast and high-quality reconstruction.
+
+## Collaborations
+Our overarching mission is to enhance the speed, affordability, and quality of 3D AIGC, making the creation of 3D content accessible to all. While significant progress has been achieved in the recent years, we acknowledge there is still a substantial journey ahead. We enthusiastically invite you to engage in discussions and explore potential collaborations in any capacity. <span style="color:red">**If you're interested in connecting or partnering with us, please don't hesitate to reach out via email (xxlong@connect.hku.hk)**</span> .
+
+## More features
+- [ ] Detailed tutorial.
+- [ ] GUI demo for mesh reconstruction
+- [ ] Windows support
+- [ ] Docker support
 
 ## Schedule
 - [x] Inference code and pretrained models.
@@ -50,7 +59,7 @@ import rembg
 result = rembg.remove(result)
 result.show()
 ```
-3. Run Wonder3d to produce multiview-consistent normal maps and color images. Then you can check the results in the folder `./outputs`. (we use rembg to remove backgrounds of the results, but the segmemtations are not always perfect.) 
+3. Run Wonder3d to produce multiview-consistent normal maps and color images. Then you can check the results in the folder `./outputs`. (we use `rembg` to remove backgrounds of the results, but the segmentations are not always perfect. May consider using [Clipdrop](https://clipdrop.co/remove-background) to get masks for the generated normal maps and color images, since the quality of masks will significantly influence the reconstructed mesh quality.) 
 ```bash
 accelerate launch --config_file 1gpu.yaml test_mvdiffusion_seq.py \
             --config mvdiffusion-joint-ortho-6views.yaml
@@ -66,6 +75,15 @@ cd ./instant-nsr-pl
 bash run.sh output_folder_path scene_name
 ```
 Our generated normals and color images are defined in orthographic views, so the reconstructed mesh is also in orthographic camera space. If you use MeshLab to view the meshes, you can click `Toggle Orthographic Camera` in `View` tab.
+
+
+## Acknowledgement
+We have intensively borrow codes from the following repositories. Many thanks to the authors for sharing their codes.
+- [stable diffusion](https://github.com/CompVis/stable-diffusion)
+- [zero123](https://github.com/cvlab-columbia/zero123)
+- [NeuS](https://github.com/Totoro97/NeuS)
+- [SyncDreamer](https://github.com/liuyuan-pal/SyncDreamer)
+- [instant-nsr-pl](https://github.com/bennyguo/instant-nsr-pl)
 
 ## Citation
 If you find this repository useful in your project, please cite the following work. :)

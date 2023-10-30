@@ -1,9 +1,9 @@
 ---
 title: black
-date: 2023-10-29T12:14:54+08:00
+date: 2023-10-30T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695749787631-644ada7d5892?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695749787631-644ada7d5892?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697082390843-04d3492bd5fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697082390843-04d3492bd5fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
 ---
 
 # [psf/black](https://github.com/psf/black)
@@ -96,7 +96,7 @@ take previous formatting into account (see
 for exceptions).
 
 Our documentation covers the current _Black_ code style, but planned changes to it are
-also documented. They're both worth taking a look:
+also documented. They're both worth taking a look at:
 
 - [The _Black_ Code Style: Current style](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html)
 - [The _Black_ Code Style: Future style](https://black.readthedocs.io/en/stable/the_black_code_style/future_style.html)
