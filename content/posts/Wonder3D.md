@@ -1,9 +1,9 @@
 ---
 title: Wonder3D
-date: 2023-10-30T12:16:00+08:00
+date: 2023-10-31T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697779055997-627444414abd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697779055997-627444414abd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692807774228-021d33de36c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692807774228-021d33de36c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
 ---
 
 # [xxlong0/Wonder3D](https://github.com/xxlong0/Wonder3D)
@@ -20,6 +20,9 @@ Wonder3D reconstructs highly-detailed textured meshes from a single-view image i
 Our overarching mission is to enhance the speed, affordability, and quality of 3D AIGC, making the creation of 3D content accessible to all. While significant progress has been achieved in the recent years, we acknowledge there is still a substantial journey ahead. We enthusiastically invite you to engage in discussions and explore potential collaborations in any capacity. <span style="color:red">**If you're interested in connecting or partnering with us, please don't hesitate to reach out via email (xxlong@connect.hku.hk)**</span> .
 
 ## More features
+
+The repo is still being under construction, thanks for your patience. 
+- [x] Local gradio demo.
 - [ ] Detailed tutorial.
 - [ ] GUI demo for mesh reconstruction
 - [ ] Windows support
@@ -32,13 +35,24 @@ Our overarching mission is to enhance the speed, affordability, and quality of 3
 
 
 ### Preparation for inference
-1. Install packages in `requirements.txt`. 
+1. Install packages in `requirements.txt`(Linux system).
 ```angular2html
 conda create -n wonder3d
 conda activate wonder3d
 pip install -r requirements.txt
+pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 ```
-Install tiny-cuda-nn PyTorch extension for mesh extraction: `pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch`
+
+Windows System. Thank @fefespn for his help!
+```angular2html
+conda create --name venv_wonder3d -y python=3.8
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+conda install -c "nvidia/label/cuda-11.8.0" cuda-toolkit
+pip install fire diffusers==0.19.3 transformers bitsandbytes accelerate gradio rembg segment_anything
+pip install einops omegaconf pytorch-lightning==1.9.5 torch_efficient_distloss nerfacc==0.3.3 PyMCubes trimesh
+pip install https://download.pytorch.org/whl/cu118/xformers-0.0.22.post4%2Bcu118-cp38-cp38-manylinux2014_x86_64.whl
+pip install ninja git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
+```
 
 2. Download the [checkpoints](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/xxlong_connect_hku_hk/EgSHPyJAtaJFpV_BjXM3zXwB-UMIrT4v-sQwGgw-coPtIA) and into the root folder.
 
@@ -69,6 +83,11 @@ or
 bash run_test.sh
 ```
 
+#### Interactive inference: run your local gradio demo
+```bash
+python gradio_app.py
+```
+
 4. Mesh Extraction
 ```bash
 cd ./instant-nsr-pl
@@ -77,6 +96,14 @@ bash run.sh output_folder_path scene_name
 Our generated normals and color images are defined in orthographic views, so the reconstructed mesh is also in orthographic camera space. If you use MeshLab to view the meshes, you can click `Toggle Orthographic Camera` in `View` tab.
 
 
+## Common questions
+Q: The evelation and azimuth degrees of the generated views?
+
+A: Unlike that the prior works such as Zero123, SyncDreamer and One2345 adopt object world system, our views are defined in the camera system of the input image. The six views are in the plane with 0 elevation degree in the camera system of the input image. Therefore we don't need to estimate an elevation degree for input image. The azimuth degrees of the six views are 0, 45, 90, 180, -90, -45 respectively.
+
+Q: The focal length of the generated views?
+
+A: We assume the input images are captured by orthographic camera, so the generated views are also in orthographic space. This design enables our model to keep strong generlaization on unreal images, but sometimes it may suffer from focal lens distortions on real-captured images.
 ## Acknowledgement
 We have intensively borrow codes from the following repositories. Many thanks to the authors for sharing their codes.
 - [stable diffusion](https://github.com/CompVis/stable-diffusion)

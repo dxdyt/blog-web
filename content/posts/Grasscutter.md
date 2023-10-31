@@ -1,9 +1,9 @@
 ---
 title: Grasscutter
-date: 2023-08-23T12:15:35+08:00
+date: 2023-10-31T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692071106919-01bc0b9b0919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692071106919-01bc0b9b0919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698306873900-12c49e4d9adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698306873900-12c49e4d9adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
 ---
 
 # [Grasscutters/Grasscutter](https://github.com/Grasscutters/Grasscutter)
@@ -36,7 +36,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692071106919-01bc0b9b09
 
 - Get Java 17: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
 - Get [MongoDB Community Server](https://www.mongodb.com/try/download/community)
-- Get game version REL3.7 (3.7 client can be found here if you don't have it): https://github.com/MAnggiarMustofa/GI-Download-Library/blob/main/GenshinImpact/Client/3.7.0.md
+- Get game version REL4.0.x (4.0.x client can be found here if you don't have it): https://github.com/MAnggiarMustofa/GI-Download-Library/blob/main/GenshinImpact/Client/4.0.0.md
 
 - Download the [latest Cultivation version](https://github.com/Grasscutters/Cultivation/releases/latest). Use the `.msi` installer.
 - After opening Culivation (as admin), press the download button in the upper right corner. 
@@ -56,25 +56,49 @@ Grasscutter uses Gradle to handle dependencies & building.
 
 **Requirements:**
 
-- [Java SE Development Kits - 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or higher
+- [Java Development Kit 17](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) or higher
 - [Git](https://git-scm.com/downloads)
+- [NodeJS](https://nodejs.org/en/download) (Optional, for building the handbook)
 
-##### Windows
+##### Clone
 
 ```shell
 git clone --recurse-submodules https://github.com/Grasscutters/Grasscutter.git
 cd Grasscutter
-.\gradlew.bat # Setting up environments
-.\gradlew jar # Compile
 ```
 
-##### Linux (GNU)
+##### Compile
+
+**Note**: Handbook generation may fail on some systems. To disable the handbook generation, append `-PskipHandbook=1` to the `gradlew jar` command.
+
+Windows:
+
+```shell
+.\gradlew.bat # Setting up environments
+.\gradlew jar
+```
+
+Linux (GNU):
 
 ```bash
-git clone --recurse-submodules https://github.com/Grasscutters/Grasscutter.git
-cd Grasscutter
 chmod +x gradlew
-./gradlew jar # Compile
+./gradlew jar
+```
+
+##### Compiling the Handbook (Manually)
+
+With Gradle:
+
+```shell
+./gradlew generateHandbook
+```
+
+With NPM:
+
+```shell
+cd src/handbook
+npm install
+npm run build
 ```
 
 You can find the output jar in the root of the project folder.

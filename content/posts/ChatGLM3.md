@@ -1,9 +1,9 @@
 ---
 title: ChatGLM3
-date: 2023-10-30T12:15:48+08:00
+date: 2023-10-31T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696266262379-1f3b5cbaf114?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696266262379-1f3b5cbaf114?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696456090248-9d50ff547293?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696456090248-9d50ff547293?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3)
@@ -19,6 +19,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1696266262379-1f3b5cbaf1
 <p align="center">
 📍在 <a href="https://www.chatglm.cn">chatglm.cn</a> 体验更大规模的 ChatGLM 模型。
 </p>
+
+[Read this in English.](./README_en.md)
 
 ## 介绍
 

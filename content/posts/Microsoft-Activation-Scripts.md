@@ -1,9 +1,9 @@
 ---
 title: Microsoft-Activation-Scripts
-date: 2023-10-09T12:16:09+08:00
+date: 2023-10-31T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694211962257-81690081b9b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694211962257-81690081b9b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY4MjQ5MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697537314275-4dd128cc2621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697537314275-4dd128cc2621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
 ---
 
 # [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
@@ -39,8 +39,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1694211962257-81690081b9
 To run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches.html)
 
 ```
-Latest Version: 2.2
-Release date: 03-Oct-2023
+Latest Version: 2.4
+Release date: 21-Oct-2023
 ```
 
 ### [Troubleshooting / Help](https://massgrave.dev/troubleshoot.html)
@@ -55,7 +55,7 @@ Release date: 03-Oct-2023
 
 [1.1]: https://lookimg.com/images/2023/03/21/QTvjcD.png (Chat with us without signup)
 [1.2]: https://lookimg.com/images/2023/03/21/QTvLyd.png (Chat with us)
-[1.3]: https://lookimg.com/images/2023/03/21/QTvXBJ.png (Follow on twitter)
+[1.3]: https://lookimg.com/images/2023/10/29/QiBot9.png (Follow on 𝕏/Twitter)
 [1.4]: https://lookimg.com/images/2023/05/17/Q0iZ2U.png (Reddit)
 
 [1]: https://discord.gg/gjJEfq7ux8

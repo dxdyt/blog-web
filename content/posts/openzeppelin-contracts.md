@@ -1,9 +1,9 @@
 ---
 title: openzeppelin-contracts
-date: 2023-10-28T12:17:35+08:00
+date: 2023-10-31T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694590000075-8ece6e2a2fc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694590000075-8ece6e2a2fc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
 ---
 
 # [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
