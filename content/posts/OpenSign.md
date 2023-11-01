@@ -1,9 +1,9 @@
 ---
 title: OpenSign
-date: 2023-10-31T12:16:03+08:00
+date: 2023-11-01T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698051015911-bf8cfebdf059?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698051015911-bf8cfebdf059?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697221119819-9b72fdefb53d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697221119819-9b72fdefb53d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
 ---
 
 # [OpenSignLabs/OpenSign](https://github.com/OpenSignLabs/OpenSign)
@@ -131,6 +131,7 @@ We would like to thank all our contributors and users for their support and feed
       <td align="center" valign="top" width="14.28%"><a href="https://emm-dev0.github.io/portfolio/"><img src="https://avatars.githubusercontent.com/u/97445413?v=4?s=100" width="100px;" alt="Edogbanya Emmanuel"/><br /><sub><b>Edogbanya Emmanuel</b></sub></a><br /><a href="#bug-Emm-dev0" title="Bug reports">🐛</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/pranav514"><img src="https://avatars.githubusercontent.com/u/76992202?v=4?s=100" width="100px;" alt="pranav514"/><br /><sub><b>pranav514</b></sub></a><br /><a href="#code-pranav514" title="Code">💻</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/arianxq"><img src="https://avatars.githubusercontent.com/u/122199576?v=4?s=100" width="100px;" alt="Aria"/><br /><sub><b>Aria</b></sub></a><br /><a href="#code-arianxq" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/SoumyadiptoPal"><img src="https://avatars.githubusercontent.com/u/119007659?v=4?s=100" width="100px;" alt="Soumyadipto Pal"/><br /><sub><b>Soumyadipto Pal</b></sub></a><br /><a href="#code-SoumyadiptoPal" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

@@ -1,0 +1,170 @@
+---
+title: skip
+date: 2023-11-01T12:17:33+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1697221119819-9b72fdefb53d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697221119819-9b72fdefb53d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+---
+
+# [skiptools/skip](https://github.com/skiptools/skip)
+
+# Skip
+
+Skip is a technology for creating dual-platform mobile apps in Swift. [Read this introduction](https://skip.tools/docs/) to learn more about Skip. 
+
+This repository hosts the Skip development toolchain, a.k.a. SkipStone. It also hosts the Skip forums for general [discussions](https://source.skip.tools/skip/discussions) as well as specific [issues and bug reports](https://source.skip.tools/skip/issues).
+
+## Getting Started
+
+### System Requirements
+
+Skip requires a macOS 13 development machine with [Xcode 15](https://developer.apple.com/xcode), [Android Studio 2023](https://developer.android.com/studio), and [Homebrew](https://brew.sh) installed.
+
+### Installation
+
+Install Skip by running the Terminal command:
+
+```shell
+brew install skiptools/skip/skip
+```
+
+This will download and install the `skip` tool itself, as well as the `gradle` and JDK dependencies that are necessary for building and testing the Kotlin/Android side of your apps. Note: If you don't already have a compatible JDK+ installed on your machine, you may need to enter an administrator password to complete the installation.
+
+Ensure that the development prerequisites are satisfied by running:
+
+```plaintext
+skip checkup
+```
+
+<img alt="Screenshot of terminal skip checkup command output" src="https://assets.skip.tools/intro/skip_checkup.png" style="width: 100%;" />
+
+
+If the checkup passes, you're ready to start developing with Skip!
+
+## Creating an App {#app_development}
+
+Create a new app project with the command:
+
+```plaintext
+skip init --open-xcode --appid=bundle.id project-name AppName
+```
+
+For example:
+
+```plaintext
+skip init --open-xcode --appid=com.xyz.HelloSkip hello-skip HelloSkip
+```
+
+<img alt="Screenshot of terminal skip init command output" src="https://assets.skip.tools/intro/skip_init.png" style="width: 100%;" />
+
+This will create a `hello-skip/` folder with a new SwiftPM package containing a single module named `HelloSkip`, along with a `HelloSkip.xcodeproj` project with a `HelloSkipApp` target and an `.xcconfig` file specifying the app's name, bundle identifier, and other customizable metadata.
+
+Xcode will open the new project, but before you can build and launch the transpiled app, an Android emulator needs to be running. Launch `Android Studio.app` and open the `Virtual Device Manager` from the ellipsis menu of the Welcome dialog. From there, `Create Device` (e.g., "Pixel 6") and then `Launch` the emulator.
+
+<img alt="Screenshot of the Android Studio Device Manager" src="https://assets.skip.tools/intro/device_manager.png" style="width: 100%;" />
+
+Once the Android emulator is running, select and run the `HelloSkipApp` target in Xcode. The first build will take some time to compile the Skip libraries, and you may be prompted with a dialog to affirm that you trust the Skip plugin. Once the build and run action completes, the SwiftUI app will open in the selected iOS simulator, and at the same time the transpiled app will launch in the currently-running Android emulator.
+
+<img alt="Screenshot of Skip running in both the iOS Simulator and Android Emulator" src="https://assets.skip.tools/intro/skip_xcode.png" style="width: 100%;" />
+
+Browse to the `ContentView.swift` file and make a small change and re-run the target: the app will be re-built and re-run on both platforms simultaneously with your changes.
+
+See the product [documentation](https://skip.tools/docs) for further information developing with Skip. Happy Skipping!
+
+### Creating a Multi-Module App
+
+Skip is designed to accommodate and encourage using multi-module projects. The default `skip init` command creates a single-module app for simplicity, but you can create a modularized project by specifying additional module names at the end of the chain. For example: 
+
+```shell
+skip init --open-xcode --appid=com.xyz.HelloSkip multi-project HelloSkip HelloModel HelloCore
+```
+
+This command will create a SwiftPM project with three modules: `HelloSkip`, `HelloModel`, and `HelloCore`. The heuristics of such module creation is that the modules will all be dependent on their subsequent peer module, with the first module (`HelloSkip`) having an initial dependency on `SkipUI`, the second module depending on `SkipModel`, and the final module in the chain depending on `SkipFoundation`. The `Package.swift` file can be manually edited to shuffle around dependencies, or to add new dependencies on external Skip frameworks such as the nascent [SkipSQL](https://source.skip.tools/skip-sql) or [SkipXML](https://source.skip.tools/skip-xml) libraries.
+
+## Creating a Dual-Platform Framework {#framework_development}
+
+Skip library projects are pure SwiftPM packages that encapsulate common functionality. Each of the core Skip compatibility frameworks ([skip-lib](https://source.skip.tools/skip-lib), [skip-unit](https://source.skip.tools/skip-unit), [skip-foundation](https://source.skip.tools/skip-foundation), and [skip-ui](https://source.skip.tools/skip-ui)) are Skip library projects. Other commonly-used projects include [skip-sql](https://source.skip.tools/skip-sql), [skip-script](https://source.skip.tools/skip-script), and [skip-zip](https://source.skip.tools/skip-zip).
+
+A new library can be created and opened with:
+
+```shell
+skip init --build --test lib-name ModuleName
+```
+
+This will create a new `lib-name` folder containing a `Package.swift` with targets of `ModuleName` and `ModuleNameTests`.
+
+This project can be opened in Xcode.app, which you can use to build and run the unit tests. Running `swift build` and `swift test` from the Terminal can also be used for headless testing as part of a continuous integration process.
+
+### Skip Project structure
+
+```shell
+lib-name
+├── Package.resolved
+├── Package.swift
+├── README.md
+├── Sources
+│   └── ModuleName
+│       ├── ModuleName.swift
+│       ├── Resources
+│       │   └── Localizable.xcstrings
+│       └── Skip
+│           └── skip.yml
+└── Tests
+    └── ModuleNameTests
+        ├── ModuleNameTests.swift
+        ├── Resources
+        │   └── TestData.json
+        ├── Skip
+        │   └── skip.yml
+        └── XCSkipTests.swift
+
+```
+
+### Skip Package.swift structure
+
+```swift
+// swift-tools-version: 5.8
+import PackageDescription
+
+let package = Package(
+    name: "lib-name",
+    defaultLocalization: "en",
+    platforms: [.iOS(.v16), .macOS(.v13), .tvOS(.v16), .watchOS(.v9), .macCatalyst(.v16)],
+    products: [
+        .library(name: "ModuleName", targets: ["ModuleName"]),
+    ],
+    dependencies: [
+        .package(url: "https://source.skip.tools/skip.git", from: "0.7.16"),
+        .package(url: "https://source.skip.tools/skip-foundation.git", from: "0.0.0"),
+    ],
+    targets: [
+        .target(name: "ModuleName", plugins: [.plugin(name: "skipstone", package: "skip")]),
+        .testTarget(name: "ModuleNameTests", dependencies: ["ModuleName"], plugins: [.plugin(name: "skipstone", package: "skip")]),
+    ]
+)
+```
+
+## Troubleshooting
+
+Skip's architecture relies on recent advances in the plugin system used by Xcode 15 and Swift Package Manager 5.9. When unexpected issues arise, often the best first step is to clean your Xcode build (`Product` → `Clean Build Folder`) and reset packages (`File` → `Packages` → `Reset Package Caches`). Restarting Xcode is sometimes warranted, and trashing the local `DerivedData/` folder might even be needed. 
+
+Specific known error conditions are listed below. Search the [documentation](https://skip.tools/docs), [issues](https://source.skip.tools/skip/issues), and [discussions](https://source.skip.tools/skip/discussions) for more information and to report problems.
+
+- Xcode sometimes reports error messages like the following:
+
+    ```shell
+    Internal inconsistency error (didStartTask): targetID (174) not found in _activeTargets.
+    Internal inconsistency error (didEndTask): '12' missing from _activeTasks.
+    ```
+
+    When these errors occur, the build appears to complete successfully although changes are not applied. Unfortunately, this is an Xcode bug. We have found the following workarounds:
+
+    - Continue to retry the build. Eventually Xcode may complete successfully, although the errors often continue to become more frequent until you are forced to apply one of the other solutions below.
+    - Restart Xcode.
+    - Clean and rebuild.
+
+    You can read more about this Xcode error on the [Swift.org forums](https://forums.swift.org/t/internal-inconsistency-error-didstarttask/61194).
+- Skip may highlight the wrong line in build errors. When Skip surfaces the wrong line number, it is typically only one line off.
+- When working with multiple modules, we have occasionally seen situations in which changed files do not re-transpile. This issue is discussed in the local library development [documentation](https://skip.tools/docs/contributing/), because those are the conditions under which we've run across the error.
+
+
