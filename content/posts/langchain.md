@@ -1,9 +1,9 @@
 ---
 title: langchain
-date: 2023-10-20T12:17:09+08:00
+date: 2023-11-02T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695556746240-55d9f92faf43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695556746240-55d9f92faf43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [langchain-ai/langchain](https://github.com/langchain-ai/langchain)
@@ -103,7 +103,7 @@ Memory refers to persisting state between calls of a chain/agent. LangChain prov
 
 **🧐 Evaluation:**
 
-[BETA] Generative models are notoriously hard to evaluate with traditional metrics. One new way of evaluating them is using language models themselves to do the evaluation. LangChain provides some prompts/chains for assisting in this.
+[BETA] Generative models are notoriously hard to evaluate with traditional metrics. One new way of evaluating them is by using language models themselves to do the evaluation. LangChain provides some prompts/chains for assisting in this.
 
 For more information on these concepts, please see our [full documentation](https://python.langchain.com).
 

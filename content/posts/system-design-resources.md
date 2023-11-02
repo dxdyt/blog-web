@@ -1,9 +1,9 @@
 ---
 title: system-design-resources
-date: 2023-11-01T12:16:57+08:00
+date: 2023-11-02T12:16:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696263077754-055b110c5820?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696263077754-055b110c5820?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [InterviewReady/system-design-resources](https://github.com/InterviewReady/system-design-resources)

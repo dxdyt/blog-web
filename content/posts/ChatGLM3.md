@@ -1,9 +1,9 @@
 ---
 title: ChatGLM3
-date: 2023-11-01T12:15:17+08:00
+date: 2023-11-02T12:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695623803163-f2843be82d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695623803163-f2843be82d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3)
@@ -59,7 +59,7 @@ ChatGLM3 开源模型旨在与开源社区一起推动大模型技术发展，�
 | ChatGLM2-6B-Base | 32.4  | 6.5  | 33.7 | 47.9 |  51.7  | 50.0  |  -   |    -    |
 | Best Baseline    | 52.1  | 13.1 | 45.0 | 60.1 |  63.5  | 62.2  | 47.5 |  45.8   
 | ChatGLM3-6B-Base | 72.3  | 25.7 | 66.1 | 61.4 |  69.0  | 67.5  | 52.4 |  53.7   |
-> Best Baseline 指的是模型参数在 10B 以下、在对应数据集上表现最好的预训练模型，不包括只针对某一项任务训练而未保持通用能力的模型。
+> Best Baseline 指的是截止 2023年10月27日、模型参数在 10B 以下、在对应数据集上表现最好的预训练模型，不包括只针对某一项任务训练而未保持通用能力的模型。
 
 > 对 ChatGLM3-6B-Base 的测试中，BBH 采用 3-shot 测试，需要推理的 GSM8K、MATH 采用 0-shot CoT 测试，MBPP 采用 0-shot 生成后运行测例计算 Pass@1 ，其他选择题类型数据集均采用 0-shot 测试。
 
@@ -188,7 +188,41 @@ if __name__ == "__main__":
 
 ## 低成本部署
 
-请见 [DEPLOYMENT.md](DEPLOYMENT.md)。
+### 模型量化
+
+默认情况下，模型以 FP16 精度加载，运行上述代码需要大概 13GB 显存。如果你的 GPU 显存有限，可以尝试以量化方式加载模型，使用方法如下：
+
+```python
+model = AutoModel.from_pretrained("THUDM/chatglm3-6b",trust_remote_code=True).quantize(4).cuda()
+```
+
+模型量化会带来一定的性能损失，经过测试，ChatGLM3-6B 在 4-bit 量化下仍然能够进行自然流畅的生成。
+
+### CPU 部署
+
+如果你没有 GPU 硬件的话，也可以在 CPU 上进行推理，但是推理速度会更慢。使用方法如下（需要大概 32GB 内存）
+```python
+model = AutoModel.from_pretrained("THUDM/chatglm3-6b", trust_remote_code=True).float()
+```
+
+### Mac 部署
+
+对于搭载了 Apple Silicon 或者 AMD GPU 的 Mac，可以使用 MPS 后端来在 GPU 上运行 ChatGLM3-6B。需要参考 Apple 的 [官方说明](https://developer.apple.com/metal/pytorch) 安装 PyTorch-Nightly（正确的版本号应该是2.x.x.dev2023xxxx，而不是 2.x.x）。
+
+目前在 MacOS 上只支持[从本地加载模型](README.md#从本地加载模型)。将代码中的模型加载改为从本地加载，并使用 mps 后端：
+```python
+model = AutoModel.from_pretrained("your local path", trust_remote_code=True).to('mps')
+```
+
+加载半精度的 ChatGLM3-6B 模型需要大概 13GB 内存。内存较小的机器（比如 16GB 内存的 MacBook Pro），在空余内存不足的情况下会使用硬盘上的虚拟内存，导致推理速度严重变慢。
+
+### 多卡部署
+如果你有多张 GPU，但是每张 GPU 的显存大小都不足以容纳完整的模型，那么可以将模型切分在多张GPU上。首先安装 accelerate: `pip install accelerate`，然后通过如下方法加载模型：
+```python
+from utils import load_model_on_gpus
+model = load_model_on_gpus("THUDM/chatglm3-6b", num_gpus=2)
+```
+即可将模型部署到两张 GPU 上进行推理。你可以将 `num_gpus` 改为你希望使用的 GPU 数。默认是均匀切分的，你也可以传入 `device_map` 参数来自己指定。 
 
 ## 引用
 

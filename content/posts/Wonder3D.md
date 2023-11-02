@@ -1,9 +1,9 @@
 ---
 title: Wonder3D
-date: 2023-11-01T12:15:33+08:00
+date: 2023-11-02T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695623803163-f2843be82d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695623803163-f2843be82d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [xxlong0/Wonder3D](https://github.com/xxlong0/Wonder3D)
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 pip install git+https://github.com/NVlabs/tiny-cuda-nn/#subdirectory=bindings/torch
 ```
 
-Windows System. Thank @fefespn for his help!
+Windows System. Thank @fefespn for his help! (Not tested. May refer to issues [#12](https://github.com/xxlong0/Wonder3D/issues/12) [#29](https://github.com/xxlong0/Wonder3D/issues/29) )
 ```angular2html
 conda create --name venv_wonder3d -y python=3.8
 pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118

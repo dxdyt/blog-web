@@ -1,9 +1,9 @@
 ---
 title: Azure-Sentinel
-date: 2023-11-01T12:18:31+08:00
+date: 2023-11-02T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695829955677-7a1223980ec2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695829955677-7a1223980ec2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693899121789-da923e57c419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693899121789-da923e57c419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [Azure/Azure-Sentinel](https://github.com/Azure/Azure-Sentinel)

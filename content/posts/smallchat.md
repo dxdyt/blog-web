@@ -1,16 +1,16 @@
 ---
 title: smallchat
-date: 2023-11-01T12:16:12+08:00
+date: 2023-11-02T12:15:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4MTIxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [antirez/smallchat](https://github.com/antirez/smallchat)
 
 # Smallchat
 
-TLDR: This is just a programming example for a few friends of mine. I'll upload a video on my YouTube channel zooming into the code, to see what can be learned from a so simple and broken (on purpose) example.
+TLDR: This is just a programming example for a few friends of mine. I upload a video on my YouTube channel [zooming into the code](https://www.youtube.com/watch?v=eT02gzeLmF0), to see what can be learned from a so simple and broken (on purpose) example.
 
 And now, the full story:
 

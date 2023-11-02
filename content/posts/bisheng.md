@@ -1,14 +1,22 @@
 ---
 title: bisheng
-date: 2023-09-15T12:15:30+08:00
+date: 2023-11-02T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692364795593-ae28f43e5991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692364795593-ae28f43e5991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
 ---
 
 # [dataelement/bisheng](https://github.com/dataelement/bisheng)
 
 <img src="https://www.dataelem.com/nstatic/bisheng.png" alt="Bisheng banner">
+
+<p align="center">
+    <a href="https://dataelem.feishu.cn/wiki/ZxW6wZyAJicX4WkG0NqcWsbynde"><img src="https://img.shields.io/badge/docs-Wiki-brightgreen"></a>
+    <img src="https://img.shields.io/github/license/dataelement/bisheng" alt="license"/>
+    <img src="https://img.shields.io/docker/pulls/dataelement/bisheng-frontend" alt="docker-pull-count" />
+    <a href=""><img src="https://img.shields.io/github/last-commit/dataelement/bisheng"></a>
+    <a href="https://star-history.com/#dataelement/bisheng&Timeline"><img src="https://img.shields.io/github/stars/dataelement/bisheng?color=yellow"></a> 
+</p>
 
 
 <div class="column" align="middle">
@@ -103,6 +111,11 @@ Todo: 待补充
 <!-- Do not remove end of hero-bot -->
 <br>
 
+### All Thanks To Our Contributors:
+<a href="https://github.com/dataelement/bisheng/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=dataelement/bisheng" />
+</a>
+
 ## Bisheng 文档
 
 获取更多有关安装、开发、部署和管理的指南，请查看 [Bisheng 文档](https://m7a7tqsztt.feishu.cn/wiki/ZxW6wZyAJicX4WkG0NqcWsbynde).
@@ -144,3 +157,7 @@ Bisheng 采用了以下依赖库:
 - 感谢开源非结构化数据解析引擎 [unstructured](https://github.com/Unstructured-IO/unstructured)。
 - 感谢开源langchain可视化工具 [langflow](https://github.com/logspace-ai/langflow)。
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=dataelement/bisheng&type=Date)](https://star-history.com/#dataelement/bisheng&Date)
