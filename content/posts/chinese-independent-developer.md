@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2023-11-02T12:17:34+08:00
+date: 2023-11-03T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -30,6 +30,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1696550579939-6d5134d4bf
 
 ## 3. 项目列表
 （名字按时间排序，最新添加的在最上面）
+
+### 2023年11月2号添加
+---
+#### Selenium39(广州) - [Github](http://github.com/Selenium39)
+* :white_check_mark: [ChatPPT](http://chatppt.closeai.red)：用 ChatGPT-4 快速创建 PowerPoint
+
+#### marmot-z(杭州) - [GitHub](https://github.com/marmot-z)
+* :white_check_mark:  [百词斩助手](https://www.bilibili.com/video/BV1zj411Z7LM)：一款可以实时与百词斩 APP 协同操作的浏览器翻译插件
+
+#### changwu - [GitHub](https://github.com/changwu/)
+* :white_check_mark:  [虾答](https://xiada.cn)：BestGPT + 知识库 AI：只要3分钟，拥有属于自己的智能代理
+
+#### soar - [推特](https://twitter.com/codersoar)
+* :white_check_mark:  [偷懒爱好者周刊](https://toolight.zhubai.love/)：分享产品、工具、新鲜事，每周三发布
 
 ### 2023年11月1号添加
 ---

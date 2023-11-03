@@ -1,394 +1,171 @@
 ---
 title: VideoCrafter
-date: 2023-04-10T12:17:26+08:00
+date: 2023-11-03T12:16:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11997/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11997/0/1080p
+featuredImage: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
 ---
 
-# [VideoCrafter/VideoCrafter](https://github.com/VideoCrafter/VideoCrafter)
+# [AILab-CVC/VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)
 
 
-## ___***VideoCrafter：A Toolkit for Text-to-Video Generation and Editing***___
+## ___***VideoCrafter1: Open Diffusion Models for High-Quality Video Generation***___
 
-
-<a href='https://arxiv.org/abs/TODO'><img src='https://img.shields.io/badge/Technique Report-TODO-red'></a> 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VideoCrafter/VideoCrafter/blob/main/quick_demo.ipynb)
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/VideoCrafter/VideoCrafter)
+<a href='https://ailab-cvc.github.io/videocrafter/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
+<a href='https://arxiv.org/abs/2310.19512'><img src='https://img.shields.io/badge/Technique-Report-red'></a> 
+[![Discord](https://dcbadge.vercel.app/api/server/rrayYqZ4tf?style=flat)](https://discord.gg/rrayYqZ4tf)
+<a href='https://huggingface.co/spaces/VideoCrafter/VideoCrafter'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a>
 [![GitHub](https://img.shields.io/github/stars/VideoCrafter/VideoCrafter?style=social)](https://github.com/VideoCrafter/VideoCrafter)
 
 
-## 🔆 Introduction   ([Showcases](https://github.com/VideoCrafter/VideoCrafter-gallery-showcase))
+### 🔥🔥 The VideoCrafter1 for high-quality video generation are now released!  Please Join us and create your own film on [Discord/Floor33](https://discord.gg/rrayYqZ4tf).
+
+### Floor33 | Film
+ [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4MbTNYug1wo/0.jpg)](https://www.youtube.com/watch?v=4MbTNYug1wo)
+ 
+## 🔆 Introduction
+
 
 🤗🤗🤗 VideoCrafter is an open-source video generation and editing toolbox for crafting video content.   
-It currently includes the following THREE types of models:
+It currently includes the Text2Video and Image2Video models:
 
-<a href='https://www.youtube.com/watch?v=SJ_TOVjn5zs'> <img src=assets/intro.gif> </a>
-
-
-### 1. Base T2V: Generic Text-to-video Generation
-We provide a base text-to-video (T2V) generation model based on the latent video diffusion models ([LVDM](https://yingqinghe.github.io/LVDM/)). 
-It can synthesize realistic videos based on the input text descriptions.
+### 1. Generic Text-to-video Generation
+Click the GIF to access the high-resolution video.
 
 <table class="center">
-  <td style="text-align:center;" width="170">"Campfire at night in a snowy forest with starry sky in the background."</td>
-  <td style="text-align:center;" width="170">"Cars running on the highway at night."</td>
-  <td style="text-align:center;" width="170">"close up of a clown fish swimming. 4K"</td>
-  <td style="text-align:center;" width="170">"astronaut riding a horse"</td>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/814f9cfe-5e4c-4d6c-be4c-c378cf4216c7"><img src=assets/t2v/agirl.gif width="320"></td>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/f89af8d2-2ac4-4726-98cc-4ff322ed4cf3"><img src=assets/t2v/astronaut.gif width="320"></td>
   <tr>
-  <td><img src=assets/summary/1_t2v/001.gif width="170"></td>
-  <td><img src=assets/summary/1_t2v/002.gif width="170"></td>
-  <td><img src=assets/summary/1_t2v/003.gif width="170"></td>
-  <td><img src=assets/summary/1_t2v/004.gif width="170"></td>
-</table >
-
-<!-- <br>   -->
-
-### 2. VideoLoRA: Personalized Text-to-Video Generation with LoRA
-
-Based on the pretrained LVDM, we can create our **own** video generation models by finetuning it on a set of video clips or images describing a certain concept.
-
-We adopt [LoRA](https://arxiv.org/abs/2106.09685) to implement the finetuning as it is easy to train and requires fewer computational resources.
-
-Below are generation results from our **four VideoLoRA models** that are trained on four different styles of video clips.
-
-By providing a sentence describing the video content along with a LoRA trigger word (specified during LoRA training), it can generate videos with the desired style(or subject/concept).
-
-
-Results of inputting `A monkey is playing a piano, ${trigger_word}` to the four VideoLoRA models:   
-<table class="center">
-  <td><img src=assets/summary/2_videolora/001_loving_vincent.gif width="170"></td>
-  <td><img src=assets/summary/2_videolora/002_frozen.gif width="170"></td>
-  <td><img src=assets/summary/2_videolora/003_your_name.gif width="170"></td>
-  <td><img src=assets/summary/2_videolora/004_coco.gif width="170"></td>
-  </tr>
-  <td style="text-align:center;" width="170">"Loving Vincent style"</td>
-  <td style="text-align:center;" width="170">"frozenmovie style"</td>
-  <td style="text-align:center;" width="170">"MakotoShinkaiYourName style"</td>
-  <td style="text-align:center;" width="170">"coco style"</td>
+  <td style="text-align:center;" width="320">"A girl is looking at the camera smiling. High Definition."</td>
+  <td style="text-align:center;" width="320">"an astronaut running away from a dust storm on the surface of the  moon, the astronaut is running towards the camera, cinematic"</td>
   <tr>
 </table >
-The trigger word for each VideoLoRA is annotated below the generation result.  
 
-<br>  
-
-### 3. VideoControl: Video Generation with More Condition Controls
-To enhance the controllable abilities of the T2V model, we developed conditional adapter inspired by [T2I-adapter](https://github.com/TencentARC/T2I-Adapter).
-By pluging a lightweight adapter module to the T2V model, we can obtained generation results with more detailed control signals such as depth.
-
-input text: `Ironman is fighting against the enemy, big fire in the background, photorealistic, 4k`
 <table class="center">
-  <td><img src=assets/summary/3_videocontrol/input_5_randk1.gif width="170"></td>
-  <td><img src=assets/summary/3_videocontrol/depth_5_randk1.gif width="170"></td>
-  <td><img src=assets/summary/3_videocontrol/0001.gif width="170"></td>
-  <td><img src=assets/summary/3_videocontrol/0002.gif width="170"></td>
-  <td><img src=assets/summary/3_videocontrol/0003.gif width="170"></td>
-  </tr>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/232ef312-be08-4d73-8fd7-f367952c9410"><img src=assets/t2v/spaceship.gif width="320"></td>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/7aa3977c-dc71-45ce-bfe2-449368dc1c9f"><img src=assets/t2v/unicorn.gif width="320"></td>
+  <tr>
+  <td style="text-align:center;" width="320">"A giant spaceship is landing on mars in the sunset. High Definition."</td>
+  <td style="text-align:center;" width="320">"A blue unicorn flying over a mystical land"</td>
+  <tr>
 </table >
 
+### 2. Generic Image-to-video Generation
 
-🤗🤗🤗 We will keep updating this repo and add more features and models. Please stay tuned!
+<table class="center">
+  <td><img src=assets/i2v/input/blackswan.png width="170"></td>
+  <td><img src=assets/i2v/input/horse.png width="170"></td>
+  <td><img src=assets/i2v/input/chair.png width="170"></td>
+  <td><img src=assets/i2v/input/sunset.png width="170"></td>
+  <tr>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/1a57edd9-3fd2-4ce9-8313-89aca95b6ec7"><img src=assets/i2v/blackswan.gif width="170"></td>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/d671419d-ae49-4889-807e-b841aef60e8a"><img src=assets/i2v/horse.gif width="170"></td>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/39d730d9-7b47-4132-bdae-4d18f3e651ee"><img src=assets/i2v/chair.gif width="170"></td>
+  <td><a href="https://github.com/AILab-CVC/VideoCrafter/assets/18735168/dc8dd0d5-a80d-4f31-94db-f9ea0b13172b"><img src=assets/i2v/sunset.gif width="170"></td>
+  <tr>
+  <td style="text-align:center;" width="170">"a black swan swims on the pond"</td>
+  <td style="text-align:center;" width="170">"a girl is riding a horse fast on grassland"</td>
+  <td style="text-align:center;" width="170">"a boy sits on a chair facing the sea"</td>
+  <td style="text-align:center;" width="170">"two galleons moving in the wind at sunset"</td>
 
 </table >
 
-<br>  
 
 ---
 
 ## 📝 Changelog
-- __[2023.04.05]__: Release pretrained Text-to-Video models, VideoLora models, and inference code.
-- __[2023.04.07]__: Hugging Face Gradio demo and Colab demo released.
+- __[2023.10.30]__: Release [VideoCrafter1](https://arxiv.org/abs/2310.19512) Technical Report!
 
+- __[2023.10.19]__: Release the 320x512 Text2Video Model, and HuggingFace demo.
+
+- __[2023.10.13]__: 🔥🔥 Release the VideoCrafter1, High Quality Video Generation!
+
+- __[2023.08.14]__: Release a new version of VideoCrafter on [Discord/Floor33](https://discord.gg/uHaQuThT). Please join us to create your own film!
+
+- __[2023.04.18]__: Release a VideoControl model with most of the watermarks removed!
+
+- __[2023.04.05]__: Release pretrained Text-to-Video models, VideoLora models, and inference code.
 <br>
 
-<!--  -->
-## ⏳ TODO
-- [x] Hugging Face Gradio demo & Colab 
-- [ ] Release VideoControl models for different input types, such as depth, canny, pose
-- [ ] Technical report
-- [ ] Release new base model with NO WATERMARK
-- [ ] Release training code for VideoLoRA
-- [ ] More customized models
 
-<br>  
+## ⏳ Models
+
+|Models|Resolution|Checkpoints|
+|:---------|:---------|:--------|
+|Text2Video|576x1024|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt)
+|Text2Video|320x512|[Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-512-v1/blob/main/model.ckpt)
+|Image2Video|320x512|[Hugging Face](https://huggingface.co/VideoCrafter/Image2Video-512-v1.0/blob/main/model.ckpt)
 
 
----
+
 ## ⚙️ Setup
 
-Choose one of the following three approaches.
-<!-- <details><summary>CLICK ME for installing environment via Anaconda </summary> -->
 ### 1. Install Environment via Anaconda (Recommended)
 ```bash
-conda create -n lvdm python=3.8.5
-conda activate lvdm
+conda create -n videocrafter python=3.8.5
+conda activate videocrafter
 pip install -r requirements.txt
 ```
 
-### 2. Install Environment Manually
-<details><summary>CLICK ME to show details</summary>
-
-```bash
-conda create -n lvdm python=3.8.5
-conda activate lvdm
-pip install torch==1.12.1+cu113 torchvision==0.13.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
-pip install pytorch-lightning==1.8.3 omegaconf==2.1.1 einops==0.3.0 transformers==4.25.1
-pip install opencv-python==4.1.2.30 imageio==2.9.0 imageio-ffmpeg==0.4.2
-pip install av moviepy
-pip install -e .
-```
-</details>
-
-### 3. Install Environment with xFormers
-Useful for saving GPU memory
-```bash
-conda create -n lvdm python=3.8.5
-conda activate lvdm
-pip install -r requirements_xformer.txt
-```
-
-<br>  
 
 ## 💫 Inference 
 ### 1. Text-to-Video
 
-1) Download pretrained T2V models via [Google Drive](https://drive.google.com/file/d/13ZZTXyAKM3x0tObRQOQWdtnrI2ARWYf_/view?usp=share_link) / [Hugging Face](https://huggingface.co/VideoCrafter/t2v-version-1-1/tree/main/models), and put the `model.ckpt` in `models/base_t2v/model.ckpt`.
-2) Input the following commands in terminal, it will start running in the GPU 0.
+1) Download pretrained T2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Text2Video-1024-v1.0/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/base_1024_v1/model.ckpt`.
+2) Input the following commands in terminal.
 ```bash
-  PROMPT="astronaut riding a horse" 
-  OUTDIR="results/"
-
-  BASE_PATH="models/base_t2v/model.ckpt"
-  CONFIG_PATH="models/base_t2v/model_config.yaml"
-
-  python scripts/sample_text2video.py \
-      --ckpt_path $BASE_PATH \
-      --config_path $CONFIG_PATH \
-      --prompt "$PROMPT" \
-      --save_dir $OUTDIR \
-      --n_samples 1 \
-      --batch_size 1 \
-      --seed 1000 \
-      --show_denoising_progress
+  sh scripts/run_text2video.sh
 ```
 
+### 2. Image-to-Video
 
-<details><summary>CLICK ME for more options </summary>
-
-- `gpu_id`: specify the gpu index you want to use
-- `ddp`: better to enable it if you have multiple GPUs 
-- We also provide a reference shell script for using multiple GPUs via PyTorch DDP in `sample_text2video_multiGPU.sh`
-
-</details>
-
-
-<!-- <br> -->
-
-
-### 2. VideoLoRA
-1) Same with 1-1: Download pretrained T2V models via [Google Drive](https://drive.google.com/file/d/13ZZTXyAKM3x0tObRQOQWdtnrI2ARWYf_/view?usp=share_link) / [Hugging Face](https://huggingface.co/VideoCrafter/t2v-version-1-1/tree/main/models), and put the `model.ckpt` in `models/base_t2v/model.ckpt`.
-   
-2) Download pretrained VideoLoRA models via this [Google Drive](https://drive.google.com/drive/folders/14tK8K_-3aLIrDIrr5CeUxzhGHn5gYBUZ?usp=share_link) / [Hugging Face](https://huggingface.co/VideoCrafter/t2v-version-1-1/tree/main/models) (can select one videolora model), and put it in `models/videolora/${model_name}.ckpt`.
-
-3) Input the following commands in terminal, it will start running in the GPU 0.
-
+1) Download pretrained I2V models via [Hugging Face](https://huggingface.co/VideoCrafter/Image2Video-512-v1.0/blob/main/model.ckpt), and put the `model.ckpt` in `checkpoints/i2v_512_v1/model.ckpt`.
+2) Input the following commands in terminal.
 ```bash
-  PROMPT="astronaut riding a horse"
-  OUTDIR="results/videolora"
-
-  BASE_PATH="models/base_t2v/model.ckpt"
-  CONFIG_PATH="models/base_t2v/model_config.yaml"
-
-  LORA_PATH="models/videolora/lora_001_Loving_Vincent_style.ckpt"
-  TAG=", Loving Vincent style"
-
-  python scripts/sample_text2video.py \
-      --ckpt_path $BASE_PATH \
-      --config_path $CONFIG_PATH \
-      --prompt "$PROMPT" \
-      --save_dir $OUTDIR \
-      --n_samples 1 \
-      --batch_size 1 \
-      --seed 1000 \
-      --show_denoising_progress \
-      --inject_lora \
-      --lora_path $LORA_PATH \
-      --lora_trigger_word "$TAG" \
-      --lora_scale 1.0
+  sh scripts/run_image2video.sh
 ```
-<div style="text-indent:40px">
-<details>
-  <summary>CLICK ME for the TAG of all lora models </summary>
-
-  ```bash   
-
-  LORA_PATH="models/videolora/lora_001_Loving_Vincent_style.ckpt"  
-  TAG=", Loving Vincent style"  
-
-  LORA_PATH="models/videolora/lora_002_frozenmovie_style.ckpt"  
-  TAG=", frozenmovie style"  
-
-  LORA_PATH="models/videolora/lora_003_MakotoShinkaiYourName_style.ckpt"  
-  TAG=", MakotoShinkaiYourName style"  
-
-  LORA_PATH="models/videolora/lora_004_coco_style.ckpt"   
-  TAG=", coco style"
-  ```
-
-</details>
-</div>
-
-4) If your find the lora effect is either too large or too small, you can adjust the `lora_scale` argument to control the strength.
-   <details><summary>CLICK ME for the visualization of different lora scales </summary>
-   
-    The effect of LoRA weights can be controlled by the `lora_scale`. `local_scale=0` indicates using the original base model, while `local_scale=1` indicates using the full lora weights. It can also be slightly larger than 1 to emphasize more effect from lora.
-
-    <table class="center">
-      <td style="text-align:center;" width="170">scale=0.0</td>
-      <td style="text-align:center;" width="170">scale=0.25</td>
-      <td style="text-align:center;" width="170">scale=0.5</td>
-      <tr>
-      <td><img src=assets/diffscale/astronaut_riding_a_horse,_Loving_Vincent_style_000_scale0.gif width="170"></td>
-      <td><img src=assets/diffscale/astronaut_riding_a_horse,_Loving_Vincent_style_000_scale0.25.gif width="170"></td>
-      <td><img src=assets/diffscale/astronaut_riding_a_horse,_Loving_Vincent_style_000_scale0.5.gif width="170"></td>
-      </tr>
-      <td style="text-align:center;" width="170">scale=0.75</td>
-      <td style="text-align:center;" width="170">scale=1.0</td>
-      <td style="text-align:center;" width="170">scale=1.5</td>
-      <tr>
-      <td><img src=assets/diffscale/astronaut_riding_a_horse,_Loving_Vincent_style_000_scale0.75.gif width="170"></td>
-      <td><img src=assets/diffscale/astronaut_riding_a_horse,_Loving_Vincent_style_000_scale1.0.gif width="170"></td>
-      <td><img src=assets/diffscale/astronaut_riding_a_horse,_Loving_Vincent_style_000_scale1.5.gif width="170"></td>
-    </table >
-
-</details>
-
-### 3. VideoControl
-⏳⏳⏳ Comming soon. Please stay tuned!🤗
-
-### 4. Gradio demo
-1. We provide a gradio-based web interface for convenient inference, which currently supports the pretrained T2V model and several VideoLoRA models. After installing the environment and downloading the model to the appropriate location, you can launch the local web service with the following script.
-    ```
-    python gradio_app.py
-    ```
-2. The online version is available on [Hugging Face](https://huggingface.co/spaces/VideoCrafter/VideoCrafter).
-
-
-<br>
-
----
-## 🥳 Gallery 
-### VideoLoRA Models
-#### Loving Vincent Style
-<table class="center">
-  <!-- <td style="text-align:center;" width="50">Input Text</td> -->
-  <td style="text-align:center;" width="170">"A blue unicorn flying over a mystical land"</td>
-  <td style="text-align:center;" width="170">"A teddy bear washing the dishes"</td>
-  <td style="text-align:center;" width="170">"Flying through an intense battle between pirate ships in a stormy ocean"</td>
-  <td style="text-align:center;" width="170">"a rabbit driving a bicycle, in Tokyo at night"</td>
-  <tr>
-  <td><img src=assets/lora/1_vangogh/013.gif width="170"></td>
-  <td><img src=assets/lora/1_vangogh/002.gif width="170"></td>
-  <td><img src=assets/lora/1_vangogh/001.gif width="170"></td>
-  <td><img src=assets/lora/1_vangogh/011.gif width="170"></td>
-</tr>
-</table >
-
-#### Frozen
-<table class="center">
-  <!-- <td style="text-align:center;" width="50">Input Text</td> -->
-  <td style="text-align:center;" width="170">"A fire is burning on a candle."</td>
-  <td style="text-align:center;" width="170">"A giant spaceship is landing on mars in the sunset. High Definition."</td>
-  <td style="text-align:center;" width="170">"A bear dancing and jumping to upbeat music, moving his whole body."</td>
-  <td style="text-align:center;" width="170">"Face of happy macho mature man smiling."</td>
-  <tr>
-  <td><img src=assets/lora/2_frozen/001.gif width="170"></td>
-  <td><img src=assets/lora/2_frozen/012.gif width="170"></td>
-  <td><img src=assets/lora/2_frozen/011.gif width="170"></td>
-  <td><img src=assets/lora/2_frozen/004.gif width="170"></td>
-</tr>
-</table >
-
-#### Your Name
-<table class="center">
-  <!-- <td style="text-align:center;" width="50">Input Text</td> -->
-  <td style="text-align:center;" width="170">"A man playing a saxophone with musical notes flying out."</td>
-  <td style="text-align:center;" width="170">"Flying through an intense battle between pirate ships in a stormy ocean"</td>
-  <td style="text-align:center;" width="170">"Horse drinking water."</td>
-  <td style="text-align:center;" width="170">"Woman in sunset."</td>
-  <tr>
-  <td><img src=assets/lora/3_your_name/012.gif width="170"></td>
-  <td><img src=assets/lora/3_your_name/011.gif width="170"></td>
-  <td><img src=assets/lora/3_your_name/007.gif width="170"></td>
-  <td><img src=assets/lora/3_your_name/013.gif width="170"></td>
-</tr>
-</table >
-
-#### CoCo
-<table class="center">
-  <td style="text-align:center;" width="170">"Humans building a highway on mars, highly detailed"</td>
-  <td style="text-align:center;" width="170">"A blue unicorn flying over a mystical land"</td>
-  <td style="text-align:center;" width="170">"Robot dancing in times square"</td>
-  <td style="text-align:center;" width="170">"A 3D model of an elephant origami. Studio lighting."</td>
-  <tr>
-  <td><img src=assets/lora/4_coco/008.gif width="170"></td>
-  <td><img src=assets/lora/4_coco/005.gif width="170"></td>
-  <td><img src=assets/lora/4_coco/009.gif width="170"></td>
-  <td><img src=assets/lora/4_coco/001.gif width="170"></td>
-</tr>
-</table >
-
-
-
-### VideoControl
-
-<table class="center">
-  <td colspan="5" >"A camel walking on the snow field, Miyazaki Hayao anime style"</td>
-  </tr>
-  <td><img src=assets/adapter/5_GIF/input_4_randk0.gif width="170"></td>
-  <td><img src=assets/adapter/5_GIF/depth_4_randk0.gif width="170"></td>
-  <td><img src=assets/adapter/5_GIF/0000.gif width="170"></td>
-  <td><img src=assets/adapter/5_GIF/0008.gif width="170"></td>
-  <td><img src=assets/adapter/5_GIF/0006.gif width="170"></td>
-  <!-- <td><img src=assets/adapter/5_GIF/0001.gif width="170"></td> -->
-  </tr>
-  <td colspan="5" >"Ironman playing hockey on the field, photorealistic, 4k"</td>
-  </tr>
-  <td><img src=assets/adapter/2_GIF/input_2_randk1.gif width="170"></td>
-  <td><img src=assets/adapter/2_GIF/depth_2_randk1.gif width="170"></td>
-  <td><img src=assets/adapter/2_GIF/0003.gif width="170"></td>
-  <td><img src=assets/adapter/2_GIF/0004.gif width="170"></td>
-  <td><img src=assets/adapter/2_GIF/0008.gif width="170"></td>
-  </tr>
-  
-  <td colspan="5" >"An ostrich walking in the desert, photorealistic, 4k"</td>
-  </tr>
-  <td><img src=assets/adapter/1_GIF/input_1_randk1.gif width="170"></td>
-  <td><img src=assets/adapter/1_GIF/depth_1_randk1.gif width="170"></td>
-  <td><img src=assets/adapter/1_GIF/0003.gif width="170"></td>
-  <td><img src=assets/adapter/1_GIF/0002.gif width="170"></td>
-  <td><img src=assets/adapter/1_GIF/0009.gif width="170"></td>
-  </tr>
-  <td colspan="5" >"A car turning around on a countryside road, snowing heavily, ink wash painting"</td>
-  </tr>
-  <td><img src=assets/adapter/7_GIF/input_5_randk0.gif width="170"></td>
-  <td><img src=assets/adapter/7_GIF/depth_5_randk0.gif width="170"></td>
-  <td><img src=assets/adapter/7_GIF/0003.gif width="170"></td>
-  <td><img src=assets/adapter/7_GIF/0004.gif width="170"></td>
-  <td><img src=assets/adapter/7_GIF/0009.gif width="170"></td>
-  </tr>
-  
-</table >
-
 
 ---
 ## 📋 Techinical Report
-⏳⏳⏳ Comming soon. We are still working on it.💪
+😉 Tech report: [VideoCrafter1: Open Diffusion Models for High-Quality Video Generation](https://arxiv.org/abs/2310.19512)
 <br>
 
-<!-- ## 💗 Related Works -->
-## 📭 Contact
-If your have any comments or questions, feel free to contact [Yingqing He](yhebm@connect.ust.hk), [Haoxin Chen](jszxchx@126.com) or [Menghan Xia](menghanxyz@gmail.com).
+## 😉 Citation
+The technical report is currently unavailable as it is still in preparation. You can cite the paper of our image-to-video model and related base model.
+```
+@misc{chen2023videocrafter1,
+      title={VideoCrafter1: Open Diffusion Models for High-Quality Video Generation}, 
+      author={Haoxin Chen and Menghan Xia and Yingqing He and Yong Zhang and Xiaodong Cun and Shaoshu Yang and Jinbo Xing and Yaofang Liu and Qifeng Chen and Xintao Wang and Chao Weng and Ying Shan},
+      year={2023},
+      eprint={2310.19512},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@article{xing2023dynamicrafter,
+      title={DynamiCrafter: Animating Open-domain Images with Video Diffusion Priors}, 
+      author={Jinbo Xing and Menghan Xia and Yong Zhang and Haoxin Chen and Xintao Wang and Tien-Tsin Wong and Ying Shan},
+      year={2023},
+      eprint={2310.12190},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@article{he2022lvdm,
+      title={Latent Video Diffusion Models for High-Fidelity Long Video Generation}, 
+      author={Yingqing He and Tianyu Yang and Yong Zhang and Ying Shan and Qifeng Chen},
+      year={2022},
+      eprint={2211.13221},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+
+## 🤗 Acknowledgements
+Our codebase builds on [Stable Diffusion](https://github.com/Stability-AI/stablediffusion). 
+Thanks the authors for sharing their awesome codebases! 
+
 
 ## 📢 Disclaimer
 We develop this repository for RESEARCH purposes, so it can only be used for personal/research/non-commercial purposes.

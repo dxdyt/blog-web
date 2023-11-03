@@ -1,9 +1,9 @@
 ---
 title: astro
-date: 2023-09-28T12:17:46+08:00
+date: 2023-11-03T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686579809662-829e8374d0a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686579809662-829e8374d0a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
 ---
 
 # [withastro/astro](https://github.com/withastro/astro)
@@ -52,27 +52,25 @@ Join us on [Discord](https://astro.build/chat) to meet other maintainers. We'll 
 
 ## Directory
 
-| Package                                                 | Release Notes                                                                                                                     |
-| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [astro](packages/astro)                                 | [![astro version](https://img.shields.io/npm/v/astro.svg?label=%20)](packages/astro/CHANGELOG.md)                                 |
-| [create-astro](packages/create-astro)                   | [![create-astro version](https://img.shields.io/npm/v/create-astro.svg?label=%20)](packages/create-astro/CHANGELOG.md)            |
-| [@astrojs/react](packages/integrations/react)           | [![astro version](https://img.shields.io/npm/v/@astrojs/react.svg?label=%20)](packages/integrations/react/CHANGELOG.md)           |
-| [@astrojs/preact](packages/integrations/preact)         | [![astro version](https://img.shields.io/npm/v/@astrojs/preact.svg?label=%20)](packages/integrations/preact/CHANGELOG.md)         |
-| [@astrojs/solid-js](packages/integrations/solid)        | [![astro version](https://img.shields.io/npm/v/@astrojs/solid-js.svg?label=%20)](packages/integrations/solid/CHANGELOG.md)        |
-| [@astrojs/svelte](packages/integrations/svelte)         | [![astro version](https://img.shields.io/npm/v/@astrojs/svelte.svg?label=%20)](packages/integrations/svelte/CHANGELOG.md)         |
-| [@astrojs/vue](packages/integrations/vue)               | [![astro version](https://img.shields.io/npm/v/@astrojs/vue.svg?label=%20)](packages/integrations/vue/CHANGELOG.md)               |
-| [@astrojs/lit](packages/integrations/lit)               | [![astro version](https://img.shields.io/npm/v/@astrojs/lit.svg?label=%20)](packages/integrations/lit/CHANGELOG.md)               |
-| [@astrojs/deno](packages/integrations/deno)             | [![astro version](https://img.shields.io/npm/v/@astrojs/deno.svg?label=%20)](packages/integrations/deno/CHANGELOG.md)             |
-| [@astrojs/netlify](packages/integrations/netlify)       | [![astro version](https://img.shields.io/npm/v/@astrojs/netlify.svg?label=%20)](packages/integrations/netlify/CHANGELOG.md)       |
-| [@astrojs/node](packages/integrations/node)             | [![astro version](https://img.shields.io/npm/v/@astrojs/node.svg?label=%20)](packages/integrations/node/CHANGELOG.md)             |
-| [@astrojs/vercel](packages/integrations/vercel)         | [![astro version](https://img.shields.io/npm/v/@astrojs/vercel.svg?label=%20)](packages/integrations/vercel/CHANGELOG.md)         |
-| [@astrojs/cloudflare](packages/integrations/cloudflare) | [![astro version](https://img.shields.io/npm/v/@astrojs/cloudflare.svg?label=%20)](packages/integrations/cloudflare/CHANGELOG.md) |
-| [@astrojs/partytown](packages/integrations/partytown)   | [![astro version](https://img.shields.io/npm/v/@astrojs/partytown.svg?label=%20)](packages/integrations/partytown/CHANGELOG.md)   |
-| [@astrojs/sitemap](packages/integrations/sitemap)       | [![astro version](https://img.shields.io/npm/v/@astrojs/sitemap.svg?label=%20)](packages/integrations/sitemap/CHANGELOG.md)       |
-| [@astrojs/tailwind](packages/integrations/tailwind)     | [![astro version](https://img.shields.io/npm/v/@astrojs/tailwind.svg?label=%20)](packages/integrations/tailwind/CHANGELOG.md)     |
-| [@astrojs/alpinejs](packages/integrations/alpinejs)     | [![astro version](https://img.shields.io/npm/v/@astrojs/alpinejs.svg?label=%20)](packages/integrations/alpinejs/CHANGELOG.md)     |
-| [@astrojs/mdx](packages/integrations/mdx)               | [![astro version](https://img.shields.io/npm/v/@astrojs/mdx.svg?label=%20)](packages/integrations/mdx/CHANGELOG.md)               |
-| [@astrojs/prefetch](packages/integrations/prefetch)     | [![astro version](https://img.shields.io/npm/v/@astrojs/prefetch.svg?label=%20)](packages/integrations/prefetch/CHANGELOG.md)     |
+| Package                                                                                    | Release Notes                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [astro](packages/astro)                                                                    | [![astro version](https://img.shields.io/npm/v/astro.svg?label=%20)](packages/astro/CHANGELOG.md)                                                                    |
+| [create-astro](packages/create-astro)                                                      | [![create-astro version](https://img.shields.io/npm/v/create-astro.svg?label=%20)](packages/create-astro/CHANGELOG.md)                                               |
+| [@astrojs/react](packages/integrations/react)                                              | [![astro version](https://img.shields.io/npm/v/@astrojs/react.svg?label=%20)](packages/integrations/react/CHANGELOG.md)                                              |
+| [@astrojs/preact](packages/integrations/preact)                                            | [![astro version](https://img.shields.io/npm/v/@astrojs/preact.svg?label=%20)](packages/integrations/preact/CHANGELOG.md)                                            |
+| [@astrojs/solid-js](packages/integrations/solid)                                           | [![astro version](https://img.shields.io/npm/v/@astrojs/solid-js.svg?label=%20)](packages/integrations/solid/CHANGELOG.md)                                           |
+| [@astrojs/svelte](packages/integrations/svelte)                                            | [![astro version](https://img.shields.io/npm/v/@astrojs/svelte.svg?label=%20)](packages/integrations/svelte/CHANGELOG.md)                                            |
+| [@astrojs/vue](packages/integrations/vue)                                                  | [![astro version](https://img.shields.io/npm/v/@astrojs/vue.svg?label=%20)](packages/integrations/vue/CHANGELOG.md)                                                  |
+| [@astrojs/lit](packages/integrations/lit)                                                  | [![astro version](https://img.shields.io/npm/v/@astrojs/lit.svg?label=%20)](packages/integrations/lit/CHANGELOG.md)                                                  |
+| [@astrojs/node](packages/integrations/node)                                                | [![astro version](https://img.shields.io/npm/v/@astrojs/node.svg?label=%20)](packages/integrations/node/CHANGELOG.md)                                                |
+| [@astrojs/vercel](packages/integrations/vercel)                                            | [![astro version](https://img.shields.io/npm/v/@astrojs/vercel.svg?label=%20)](packages/integrations/vercel/CHANGELOG.md)                                            |
+| [@astrojs/cloudflare](https://github.com/withastro/adapters/blob/main/packages/cloudflare) | [![astro version](https://img.shields.io/npm/v/@astrojs/cloudflare.svg?label=%20)](https://github.com/withastro/adapters/blob/main/packages/cloudflare/CHANGELOG.md) |
+| [@astrojs/partytown](packages/integrations/partytown)                                      | [![astro version](https://img.shields.io/npm/v/@astrojs/partytown.svg?label=%20)](packages/integrations/partytown/CHANGELOG.md)                                      |
+| [@astrojs/sitemap](packages/integrations/sitemap)                                          | [![astro version](https://img.shields.io/npm/v/@astrojs/sitemap.svg?label=%20)](packages/integrations/sitemap/CHANGELOG.md)                                          |
+| [@astrojs/tailwind](packages/integrations/tailwind)                                        | [![astro version](https://img.shields.io/npm/v/@astrojs/tailwind.svg?label=%20)](packages/integrations/tailwind/CHANGELOG.md)                                        |
+| [@astrojs/alpinejs](packages/integrations/alpinejs)                                        | [![astro version](https://img.shields.io/npm/v/@astrojs/alpinejs.svg?label=%20)](packages/integrations/alpinejs/CHANGELOG.md)                                        |
+| [@astrojs/mdx](packages/integrations/mdx)                                                  | [![astro version](https://img.shields.io/npm/v/@astrojs/mdx.svg?label=%20)](packages/integrations/mdx/CHANGELOG.md)                                                  |
+| [@astrojs/prefetch](packages/integrations/prefetch)                                        | [![astro version](https://img.shields.io/npm/v/@astrojs/prefetch.svg?label=%20)](packages/integrations/prefetch/CHANGELOG.md)                                        |
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6178/badge)](https://bestpractices.coreinfrastructure.org/projects/6178)
 

@@ -1,9 +1,9 @@
 ---
 title: ChatGLM3
-date: 2023-11-02T12:15:48+08:00
+date: 2023-11-03T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696550579939-6d5134d4bfc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696219760478-a2ad82c45fa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696219760478-a2ad82c45fa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3)
@@ -92,9 +92,9 @@ pip install -r requirements.txt
 
 - Chat: 对话模式，在此模式下可以与模型进行对话。
 - Tool: 工具模式，模型除了对话外，还可以通过工具进行其他操作。
-    ![tool](resources/tool.png)
+    <img src="resources/tool.png" width="400">
 - Code Interpreter: 代码解释器模式，模型可以在一个 Jupyter 环境中执行代码并获取结果，以完成复杂任务。
-    ![code](resources/heart.png)
+    <img src="resources/heart.png" width="400">
 
 ### 代码调用 
 
@@ -161,6 +161,12 @@ python cli_demo.py
 
 程序会在命令行中进行交互式的对话，在命令行中输入指示并回车即可生成回复，输入 `clear` 可以清空对话历史，输入 `stop` 终止程序。
 
+### LangChain Demo
+请参考 [基于 LangChain 的工具调用 Demo](langchain_demo/README.md)。
+
+### 工具调用
+关于工具调用的方法请参考 [工具调用](tool_using/README.md)。 
+
 ### API 部署
 感谢 [@xusenlinzy](https://github.com/xusenlinzy) 实现了 OpenAI 格式的流式 API 部署，可以作为任意基于 ChatGPT 的应用的后端，比如 [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)。可以通过运行仓库中的[openai_api.py](openai_api.py) 进行部署：
 ```shell
@@ -182,9 +188,6 @@ if __name__ == "__main__":
         if hasattr(chunk.choices[0].delta, "content"):
             print(chunk.choices[0].delta.content, end="", flush=True)
 ```
-
-### 工具调用
-关于工具调用的方法请参考 [工具调用](tool_using/README.md)。
 
 ## 低成本部署
 

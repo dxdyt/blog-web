@@ -1,9 +1,9 @@
 ---
 title: bisheng
-date: 2023-11-02T12:16:52+08:00
+date: 2023-11-03T12:15:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697325320142-28beaededbf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694845480758-2c83c3e5a372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694845480758-2c83c3e5a372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
 ---
 
 # [dataelement/bisheng](https://github.com/dataelement/bisheng)

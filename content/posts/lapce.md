@@ -1,9 +1,9 @@
 ---
 title: lapce
-date: 2023-08-30T12:17:30+08:00
+date: 2023-11-03T12:17:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692607334882-67ea26015b04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692607334882-67ea26015b04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
 ---
 
 # [lapce/lapce](https://github.com/lapce/lapce)
@@ -34,7 +34,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692607334882-67ea26015b
 <br/>
 
 
-Lapce (IPA: /læps/) is written in pure Rust with a UI in [Floem](https://github.com/lapce/floem) (which is also written in Rust). It is designed with [Rope Science](https://xi-editor.io/docs/rope_science_00.html) from the [Xi-Editor](https://github.com/xi-editor/xi-editor) which makes for lightning-fast computation, and leverages [Wgpu](https://github.com/gfx-rs/wgpu) for rendering. More information about the features of Lapce can be found on the [main website](https://lapce.dev) and user documentation can be found on [GitBook](https://docs.lapce.dev/).
+Lapce (IPA: /læps/) is written in pure Rust with a UI in [Floem](https://github.com/lapce/floem). It is designed with [Rope Science](https://xi-editor.io/docs/rope_science_00.html) from the [Xi-Editor](https://github.com/xi-editor/xi-editor) which makes for lightning-fast computation, and leverages [Wgpu](https://github.com/gfx-rs/wgpu) for rendering. More information about the features of Lapce can be found on the [main website](https://lapce.dev) and user documentation can be found on [GitBook](https://docs.lapce.dev/).
 
 ![](https://github.com/lapce/lapce/blob/master/extra/images/screenshot.png?raw=true)
 
