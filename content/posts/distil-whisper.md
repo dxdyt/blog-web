@@ -1,9 +1,9 @@
 ---
 title: distil-whisper
-date: 2023-11-03T12:15:50+08:00
+date: 2023-11-04T12:16:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698422454462-5ec4e767cd19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698422454462-5ec4e767cd19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/distil-whisper](https://github.com/huggingface/distil-whisper)
@@ -14,9 +14,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc73
 [[Models]](https://huggingface.co/collections/distil-whisper/distil-whisper-models-65411987e6727569748d2eb6)
 [[Colab]](https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/Distil_Whisper_Benchmark.ipynb)
 
-Distil-Whisper is a distilled version of Whisper for English speech recognition that is **6 times faster**, 49% smaller, 
-and performs **within 1% word error rate (WER)** on out-of-distribution evaluation sets. Multilingual support will be 
-provided soon through distillation training code.
+Distil-Whisper is a distilled version of Whisper that is **6 times faster**, 49% smaller, and performs **within 1% word 
+error rate (WER)** on out-of-distribution evaluation sets.
 
 | Model                                                                      | Params / M | Rel. Latency | Short-Form WER | Long-Form WER |
 |----------------------------------------------------------------------------|------------|--------------|----------------|---------------|
@@ -24,6 +23,8 @@ provided soon through distillation training code.
 |                                                                            |            |              |                |               |
 | [distil-large-v2](https://huggingface.co/distil-whisper/distil-large-v2)   | 756        | 5.8          | 10.1           | **11.6**      |
 | [distil-medium.en](https://huggingface.co/distil-whisper/distil-medium.en) | **394**    | **6.8**      | 11.1           | 12.4          |
+
+**Note:** Distil-Whisper is currently only available for English speech recognition. Multilingual support will be provided soon.
 
 ## 1. Usage
 

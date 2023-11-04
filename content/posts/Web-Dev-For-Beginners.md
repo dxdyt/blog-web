@@ -1,9 +1,9 @@
 ---
 title: Web-Dev-For-Beginners
-date: 2023-11-02T12:17:47+08:00
+date: 2023-11-04T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698500278205-bf650c97a1f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698500278205-bf650c97a1f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698180596425-5322c69dd5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698180596425-5322c69dd5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
@@ -24,23 +24,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1698500278205-bf650c97a1
 
 Learn the fundamentals of web development with our 12-week comprehensive course by Microsoft Cloud Advocates. Each of the 24 lessons dive into JavaScript, CSS, and HTML through hands-on projects like terrariums, browser extensions, and space games. Engage with quizzes, discussions, and practical assignments. Enhance your skills and optimize your knowledge retention with our effective project-based pedagogy. Start your coding journey today!
 
-## Announcement - New Curriculum on Generative AI was just released!
+#### 🧑‍🎓 _Are you a student?_ 
 
-We just released a 12 lesson curriculum on generative AI. Come learn things like:
+Visit [**Student Hub page**](https://docs.microsoft.com/learn/student-hub/?WT.mc_id=academic-77807-sagibbon) where you will find beginner resources, Student packs and even ways to get a free certificate voucher. This is the page you want to bookmark and check from time to time as we switch out content monthly.
 
+### 📣 Announcement - _New Curriculum_ on Generative AI was just released!
+
+Don't miss our NEW 12 lesson curriculum on generative AI!
+
+Each lesson includes an assignment to complete, knowledge check and challenge to guide you on learning topics like:
 - prompting and prompt engineering
 - text and image app generation
 - search apps
 
-As usual, there's a lesson, assignments to complete, knowledge checks and challenges.
+Visit [https://aka.ms/genai-beginners](https://aka.ms/genai-beginners) to get started!
 
-Check it out:
-
-> https://github.com/microsoft/generative-ai-for-beginners
-
-#### 🧑‍🎓 _Are you a student?_ 
-
-Visit [**Student Hub page**](https://docs.microsoft.com/learn/student-hub/?WT.mc_id=academic-77807-sagibbon) where you will find beginner resources, Student packs and even ways to get a free certificate voucher. This is the page you want to bookmark and check from time to time as we switch out content monthly.
 
 ## 🌱 Getting Started 
 
@@ -169,8 +167,8 @@ A PDF of all of the lessons can be found [here](https://microsoft.github.io/Web-
 Our team produces other curricula! Check out:
 
 - [AI for Beginners](https://aka.ms/ai-beginners)
-- [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)

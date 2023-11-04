@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-10-10T12:16:03+08:00
+date: 2023-11-04T12:15:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695036304179-c32b0cae7650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695036304179-c32b0cae7650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698204371408-52791377f30f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698204371408-52791377f30f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -23,7 +23,11 @@ Get up and running with large language models locally.
 
 ### macOS
 
-[Download](https://ollama.ai/download/Ollama-darwin.zip) 
+[Download](https://ollama.ai/download/Ollama-darwin.zip)
+
+### Windows
+
+Coming soon!
 
 ### Linux & WSL2
 
@@ -33,9 +37,10 @@ curl https://ollama.ai/install.sh | sh
 
 [Manual install instructions](https://github.com/jmorganca/ollama/blob/main/docs/linux.md)
 
-### Windows 
+### Docker
 
-coming soon
+The official [Ollama Docker image `ollama/ollama`](https://hub.docker.com/r/ollama/ollama)
+is available on Docker Hub.
 
 ## Quickstart
 
@@ -47,7 +52,7 @@ ollama run llama2
 
 ## Model library
 
-Ollama supports a list of open-source models available on [ollama.ai/library](https://ollama.ai/library "ollama model library")
+Ollama supports a list of open-source models available on [ollama.ai/library](https://ollama.ai/library 'ollama model library')
 
 Here are some example open-source models that can be downloaded:
 
@@ -66,31 +71,35 @@ Here are some example open-source models that can be downloaded:
 
 ## Customize your own model
 
-### Import from GGUF or GGML
+### Import from GGUF
 
-Ollama supports importing GGUF and GGML file formats in the Modelfile. This means if you have a model that is not in the Ollama library, you can create it, iterate on it, and upload it to the Ollama library to share with others when you are ready.
+Ollama supports importing GGUF models in the Modelfile:
 
-1. Create a file named Modelfile, and add a `FROM` instruction with the local filepath to the model you want to import.
+1. Create a file named `Modelfile`, with a `FROM` instruction with the local filepath to the model you want to import.
 
    ```
    FROM ./vicuna-33b.Q4_0.gguf
    ```
 
-3. Create the model in Ollama
+2. Create the model in Ollama
 
    ```
-   ollama create name -f path_to_modelfile
+   ollama create example -f Modelfile
    ```
 
-5. Run the model
+3. Run the model
 
    ```
-   ollama run name
+   ollama run example
    ```
+
+### Import from PyTorch or Safetensors
+
+See the [guide](docs/import.md) on importing models for more information.
 
 ### Customize a prompt
 
-Models from the Ollama library can be customized with a prompt. The example
+Models from the Ollama library can be customized with a prompt. For example, to customize the `llama2` model:
 
 ```
 ollama pull llama2
@@ -119,7 +128,7 @@ ollama run mario
 Hello! It's your friend Mario.
 ```
 
-For more examples, see the [examples](./examples) directory. For more information on working with a Modelfile, see the [Modelfile](./docs/modelfile.md) documentation.
+For more examples, see the [examples](examples) directory. For more information on working with a Modelfile, see the [Modelfile](docs/modelfile.md) documentation.
 
 ## CLI Reference
 
@@ -180,8 +189,7 @@ ollama list
 Install `cmake` and `go`:
 
 ```
-brew install cmake
-brew install go
+brew install cmake go
 ```
 
 Then generate dependencies and build:
@@ -205,9 +213,8 @@ Finally, in a separate shell, run a model:
 
 ## REST API
 
-> See the [API documentation](./docs/api.md) for all endpoints.
-
-Ollama has an API for running and managing models. For example to generate text from a model:
+Ollama has a REST API for running and managing models.
+For example, to generate text from a model:
 
 ```
 curl -X POST http://localhost:11434/api/generate -d '{
@@ -215,6 +222,8 @@ curl -X POST http://localhost:11434/api/generate -d '{
   "prompt":"Why is the sky blue?"
 }'
 ```
+
+See the [API documentation](./docs/api.md) for all endpoints.
 
 ## Community Integrations
 
@@ -232,3 +241,7 @@ curl -X POST http://localhost:11434/api/generate -d '{
 - [Typescript UI](https://github.com/ollama-interface/Ollama-Gui?tab=readme-ov-file)
 - [Dumbar](https://github.com/JerrySievert/Dumbar)
 - [Emacs client](https://github.com/zweifisch/ollama)
+- [oterm](https://github.com/ggozad/oterm)
+- [Ellama Emacs client](https://github.com/s-kostyaev/ellama)
+- [OllamaSharp for .NET](https://github.com/awaescher/OllamaSharp)
+- [Minimalistic React UI for Ollama Models](https://github.com/richawo/minimal-llm-ui)
