@@ -1,9 +1,9 @@
 ---
 title: v2rayN
-date: 2023-11-04T12:16:50+08:00
+date: 2023-11-05T12:14:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698422454462-5ec4e767cd19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698422454462-5ec4e767cd19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695802060198-c735209f8e35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695802060198-c735209f8e35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [2dust/v2rayN](https://github.com/2dust/v2rayN)

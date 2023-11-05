@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2023-11-04T12:16:07+08:00
+date: 2023-11-05T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696507564505-b5c7e127b4d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696507564505-b5c7e127b4d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697206705443-987d3910af89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697206705443-987d3910af89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
@@ -37,7 +37,7 @@ To get started, [fork this entire repo](https://github.com/microsoft/generative-
 
 Below are the links to each lesson. Feel free to explore and start at any lesson that interests you the most! 
 
-Head to the [Course Setup Page](/00-course-setup/README.md) to find the setup guide that works best for you. 
+Head to the [Course Setup Page](./00-course-setup/README.md) to find the setup guide that works best for you. 
 
 ## 🗣️ Meet Other Learners, Get Support 
 
@@ -72,7 +72,7 @@ Here are ways you can contribute to this course:
 ## 🗃️ Lessons
 |       |              Lesson Link              |                       Concepts Taught                       |                     Learning Goal                 |                             
 | :---: | :------------------------------------: | :---------------------------------------------------------: | ----------------------------------------------------------- |
-| 00 | [Course Introduction - How to Take This Course](/00-course-setup/README.md?WT.mc_id=academic-105485-koreyst) | Tech setup and course structure | Setting you up for success while learning in this course| 
+| 00 | [Course Introduction - How to Take This Course](./00-course-setup/README.md?WT.mc_id=academic-105485-koreyst) | Tech setup and course structure | Setting you up for success while learning in this course| 
 | 01 | [Introduction to Generative AI and LLMs](./01-introduction-to-genai/README.md?WT.mc_id=academic-105485-koreyst) | **Concept**: Generative AI and how we landed on the current technology landscape|  Understanding what Generative AI is and how Large Language Models (LLMs) work.                    |
 | 02 | [Exploring and comparing different LLMs](./02-exploring-and-comparing-different-llms/README.md?WT.mc_id=academic-105485-koreyst) | **Concept**: Testing, iterating, and comparing different Large Language Models | Select the right model for your use case | 
 | 03 | [Using Generative AI Responsibly](./03-using-generative-ai-responsibly/README.md?WT.mc_id=academic-105485-koreyst)| **Concept:** Understanding the limitations of foundation models and the risks behind AI | Learn how to build Generative AI Applications responsibly 

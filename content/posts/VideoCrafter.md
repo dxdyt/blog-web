@@ -1,9 +1,9 @@
 ---
 title: VideoCrafter
-date: 2023-11-03T12:16:43+08:00
+date: 2023-11-05T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695849118500-c8034bc651b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695849118500-c8034bc651b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [AILab-CVC/VideoCrafter](https://github.com/AILab-CVC/VideoCrafter)

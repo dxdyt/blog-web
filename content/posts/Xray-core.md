@@ -1,9 +1,9 @@
 ---
 title: Xray-core
-date: 2023-08-28T12:17:20+08:00
+date: 2023-11-05T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684988838249-821ffd801073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684988838249-821ffd801073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMxOTYwODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695802060198-c735209f8e35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695802060198-c735209f8e35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [XTLS/Xray-core](https://github.com/XTLS/Xray-core)
@@ -86,6 +86,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1684988838249-821ffd8010
 - iOS & macOS arm64
   - [Mango](https://github.com/arror/Mango)
   - [FoXray](https://apps.apple.com/app/foxray/id6448898396)
+  - [Streisand](https://apps.apple.com/app/streisand/id6450534064)
 - macOS arm64 & x64
   - [V2rayU](https://github.com/yanue/V2rayU)
   - [V2RayXS](https://github.com/tzmax/V2RayXS)
@@ -100,6 +101,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1684988838249-821ffd8010
 
 - iOS & macOS arm64
   - [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
+- Xray Tools
+  - [xray-knife](https://github.com/lilendian0x00/xray-knife)
 - Xray Wrapper
   - [XTLS/libXray](https://github.com/XTLS/libXray)
   - [xtlsapi](https://github.com/hiddify/xtlsapi)

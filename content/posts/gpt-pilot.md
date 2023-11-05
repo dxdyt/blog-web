@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2023-11-04T12:15:17+08:00
+date: 2023-11-05T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697315860051-a34115aeb56d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697315860051-a34115aeb56d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695802060198-c735209f8e35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695802060198-c735209f8e35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -64,9 +64,10 @@ https://github.com/Pythagora-io/gpt-pilot/assets/10895136/0495631b-511e-451b-93d
 
 # 🔌 Requirements
 
-- **Python 3.9-3.11** (3.12 is currently not working due to a [dependency issue](https://github.com/psycopg/psycopg2/issues/1628)
+
+- **Python 3.9-3.12**
 - **PostgreSQL** (optional, projects default is SQLite)
-   - DB is needed for multiple reasons like continuing app development. If you have to stop at any point or the app crashes, go back to a specific step so that you can change some later steps in development, and easier debugging, in future we will add functionality to update project (change some things in existing project or add new features to the project and so on)...
+   - DB is needed for multiple reasons like continuing app development. If you have to stop at any point or the app crashes, go back to a specific step so that you can change some later steps in development, and easier debugging, in future we will add functionality to update project (change some things in existing project or add new features to the project and so on..)
 
 
 # 🚦How to start using gpt-pilot?
@@ -77,10 +78,10 @@ After you have Python and (optionally) PostgreSQL installed, follow these steps:
 4. `source pilot-env/bin/activate` (or on Windows `pilot-env\Scripts\activate`) (activate the virtual environment)
 5. `pip install -r requirements.txt` (install the dependencies)
 6. `cd pilot`
-7. `mv .env.example .env` (create the .env file)
+7. `mv .env.example .env` (or on Windows `copy .env.example .env`) (create the .env file)
 8. Add your environment to the `.env` file:
    - LLM Provider (OpenAI/Azure/Openrouter)
-   - your API key
+   - Your API key
    - database settings: SQLite/PostgreSQL (to change from SQLite to PostgreSQL, just set `DATABASE_TYPE=postgres`)
    - optionally set IGNORE_FOLDERS for the folders which shouldn't be tracked by GPT Pilot in workspace, useful to ignore folders created by compilers (i.e. `IGNORE_FOLDERS=folder1,folder2,folder3`)
 9. `python db_init.py` (initialize the database)

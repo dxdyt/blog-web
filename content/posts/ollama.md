@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-11-04T12:15:26+08:00
+date: 2023-11-05T12:15:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698204371408-52791377f30f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698204371408-52791377f30f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkwNzEyODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -39,8 +39,7 @@ curl https://ollama.ai/install.sh | sh
 
 ### Docker
 
-The official [Ollama Docker image `ollama/ollama`](https://hub.docker.com/r/ollama/ollama)
-is available on Docker Hub.
+The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
 
 ## Quickstart
 
@@ -245,3 +244,4 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Ellama Emacs client](https://github.com/s-kostyaev/ellama)
 - [OllamaSharp for .NET](https://github.com/awaescher/OllamaSharp)
 - [Minimalistic React UI for Ollama Models](https://github.com/richawo/minimal-llm-ui)
+- [Ollama-rs for Rust](https://github.com/pepperoni21/ollama-rs)
