@@ -1,9 +1,9 @@
 ---
 title: shadowsocks-rust
-date: 2023-11-05T12:17:09+08:00
+date: 2023-11-06T12:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695849118500-c8034bc651b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695849118500-c8034bc651b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696416400334-a58b121bf843?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696416400334-a58b121bf843?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
 ---
 
 # [shadowsocks/shadowsocks-rust](https://github.com/shadowsocks/shadowsocks-rust)

@@ -1,9 +1,9 @@
 ---
 title: Bluetooth-LE-Spam
-date: 2023-11-05T12:15:53+08:00
+date: 2023-11-06T12:17:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696505345203-a5e696e65e4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696505345203-a5e696e65e4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
 ---
 
 # [simondankelmann/Bluetooth-LE-Spam](https://github.com/simondankelmann/Bluetooth-LE-Spam)
@@ -18,7 +18,7 @@ This project focuses on utilizing the built-in Bluetooth Low Energy (BLE) functi
 
 ## Requirements
 - Android 8.0 (API level 26) or later
-> If you don't know your API level vist [SDK Platform release notes](https://developer.android.com/tools/releases/platforms). You also can view your Android version in the settings app.
+> If you don't know your API level visit [SDK Platform release notes](https://developer.android.com/tools/releases/platforms). You also can view your Android version in the settings app.
 
 ## Functionality
 ### Google Fast Pair
@@ -45,6 +45,9 @@ Since the official Bluetooth Low Energy API provided by Google's Android SDK all
 
 ## Installation
 You can clone the repository and open it in Android Studio to install the app, or simply use the installable APK files from the [Release Section](https://github.com/simondankelmann/Bluetooth-LE-Spam/releases)
+
+If you are a developer or tester, choose the Debug APK for testing and debugging purposes.
+If you are an end user seeking the fully functional app, download the Release APK for the best performance.
 
 ## Credit
 - [mh from mobile-hacker.com](https://www.mobile-hacker.com/author/boni11/) for the [Article / Guideline](https://www.mobile-hacker.com/2023/09/07/spoof-ios-devices-with-bluetooth-pairing-messages-using-android/) about using the nRF Connect App to Spoof iOS Devices

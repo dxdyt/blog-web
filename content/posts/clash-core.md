@@ -1,12 +1,12 @@
 ---
-title: clash
-date: 2023-11-06T12:18:20+08:00
+title: clash-core
+date: 2023-11-06T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696505345203-a5e696e65e4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696505345203-a5e696e65e4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695768231937-e63546703b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695768231937-e63546703b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
 ---
 
-# [Ieooo/clash](https://github.com/Ieooo/clash)
+# [Kuingsmile/clash-core](https://github.com/Kuingsmile/clash-core)
 
 <h1 align="center">
   <img src="https://github.com/Dreamacro/clash/raw/master/docs/logo.png" alt="Clash" width="200">

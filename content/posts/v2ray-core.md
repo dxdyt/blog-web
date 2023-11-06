@@ -1,35 +1,36 @@
 ---
 title: v2ray-core
-date: 2023-11-05T12:16:27+08:00
+date: 2023-11-06T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698471058817-a280ddf07704?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698471058817-a280ddf07704?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697371136373-d4e896c530f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697371136373-d4e896c530f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
 ---
 
-# [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core)
+# [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
 
-# Move To https://github.com/v2fly/v2ray-core
+<div>
+  <img width="190" height="210" align="left" src="https://raw.githubusercontent.com/v2fly/v2fly-github-io/master/docs/.vuepress/public/readme-logo.png" alt="V2Ray"/>
+  <br>
+  <h1>Project V</h1>
+  <p>Project V is a set of network tools that helps you to build your own computer network. It secures your network connections and thus protects your privacy.</p>
+</div>
 
-***
+[![GitHub Test Badge](https://github.com/v2fly/v2ray-core/workflows/Test/badge.svg)](https://github.com/v2fly/v2ray-core/actions)
+[![codecov.io](https://codecov.io/gh/v2fly/v2ray-core/branch/master/graph/badge.svg?branch=master)](https://codecov.io/gh/v2fly/v2ray-core?branch=master)
+[![codebeat](https://goreportcard.com/badge/github.com/v2fly/v2ray-core)](https://goreportcard.com/report/github.com/v2fly/v2ray-core)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/e150b7ede2114388921943bf23d95161)](https://www.codacy.com/gh/v2fly/v2ray-core/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=v2fly/v2ray-core&amp;utm_campaign=Badge_Grade)
+[![Downloads](https://img.shields.io/github/downloads/v2fly/v2ray-core/total.svg)](https://github.com/v2fly/v2ray-core/releases/latest)
 
-# Project V
+## Related Links
 
-[![GitHub Test Badge][1]][2] [![codecov.io][3]][4] [![GoDoc][5]][6] [![codebeat][7]][8] [![Downloads][9]][10] [![Downloads][11]][12]
+- [Documentation](https://www.v2fly.org) and [Newcomer's Instructions](https://www.v2fly.org/guide/start.html)
+- Welcome to translate V2Ray documents via [Transifex](https://www.transifex.com/v2fly/public/)
 
-[1]: https://github.com/v2fly/v2ray-core/workflows/Test/badge.svg "GitHub Test Badge"
-[2]: https://github.com/v2fly/v2ray-core/actions "GitHub Actions Page"
-[3]: https://codecov.io/gh/v2fly/v2ray-core/branch/master/graph/badge.svg?branch=master "Coverage Badge"
-[4]: https://codecov.io/gh/v2fly/v2ray-core?branch=master "Codecov Status"
-[5]: https://godoc.org/v2ray.com/core?status.svg "GoDoc Badge"
-[6]: https://godoc.org/v2ray.com/core "GoDoc"
-[7]: https://goreportcard.com/badge/github.com/v2fly/v2ray-core "Goreportcard Badge"
-[8]: https://goreportcard.com/report/github.com/v2fly/v2ray-core "Goreportcard Result"
-[9]: https://img.shields.io/github/downloads/v2ray/v2ray-core/total.svg "v2ray/v2ray-core downloads count"
-[10]: https://github.com/v2ray/v2ray-core/releases "v2ray/v2ray-core release page"
-[11]: https://img.shields.io/github/downloads/v2fly/v2ray-core/total.svg "v2fly/v2ray-core downloads count"
-[12]: https://github.com/v2fly/v2ray-core/releases "v2fly/v2ray-core release page"
+## Packaging Status
 
-Project V is a set of network tools that help you to build your own computer network. It secures your network connections and thus protects your privacy. See [our website](https://www.v2fly.org/) for more information.
+> If you are willing to package V2Ray for other distros/platforms, please let us know or seek for help via [GitHub issues](https://github.com/v2fly/v2ray-core/issues).
+
+[![Packaging status](https://repology.org/badge/vertical-allrepos/v2ray.svg)](https://repology.org/project/v2ray/versions)
 
 ## License
 
@@ -41,7 +42,13 @@ This repo relies on the following third-party projects:
 
 - In production:
   - [gorilla/websocket](https://github.com/gorilla/websocket)
-  - [gRPC](https://google.golang.org/grpc)
+  - [lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
+  - [pires/go-proxyproto](https://github.com/pires/go-proxyproto)
+  - [seiflotfy/cuckoofilter](https://github.com/seiflotfy/cuckoofilter)
+  - [google/starlark-go](https://github.com/google/starlark-go)
+  - [jhump/protoreflect](https://github.com/jhump/protoreflect)
+  - [inetaf/netaddr](https://github.com/inetaf/netaddr)
+
 - For testing only:
   - [miekg/dns](https://github.com/miekg/dns)
   - [h12w/socks](https://github.com/h12w/socks)

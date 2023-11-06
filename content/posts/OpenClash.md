@@ -1,9 +1,9 @@
 ---
 title: OpenClash
-date: 2023-11-05T12:16:21+08:00
+date: 2023-11-06T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696347284654-b952434231e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696347284654-b952434231e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697371136373-d4e896c530f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697371136373-d4e896c530f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
 ---
 
 # [vernesong/OpenClash](https://github.com/vernesong/OpenClash)
