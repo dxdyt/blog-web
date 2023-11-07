@@ -1,9 +1,9 @@
 ---
 title: idurar-erp-crm
-date: 2023-11-06T12:15:41+08:00
+date: 2023-11-07T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697462247834-7d55761daea3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697462247834-7d55761daea3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697927024125-1f7eb9aaa9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697927024125-1f7eb9aaa9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
 ---
 
 # [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm)
@@ -28,6 +28,14 @@ IDURAR is Open "Fair-Code" Source ERP / CRM (Invoice / Inventory / Accounting / 
 ```
 🚀 Give a Star ⭐️ & Fork to this project ... Happy coding! 🤩`
 ```
+
+## License
+
+IDURAR is [fair-code](http://faircode.io) distributed under the
+[**Developer Trial Use Licensee**](https://github.com/idurar/idurar-erp-crm/blob/master/LICENSE) and the
+[**IDURAR Enterprise License**](https://github.com/idurar/idurar-erp-crm/blob/master/LICENSE_EE).
+
+Commercial licenses are available : [Get in touch](mailto:hello@idurarapp.com)
 
 # How To Deploy IDURAR ERP CRM : 
 🔥 I would like to invite you for a weekly free IDURAR Webinar (Node.js React.js course), where you learn how to deploy IDURAR on cloud , and create a new api and new crud app with IDURAR in just one hour ?
@@ -129,8 +137,6 @@ cd frontend
 npm install
 ```
 
-This command will navigate to the frontend directory within the project and install all the required packages for the frontend.
-
 #### Step 9: Run the Frontend Server
 
 After installing the frontend dependencies, run the following command in the same terminal to start the frontend server:
@@ -219,7 +225,7 @@ IDURAR is [fair-code](http://faircode.io) distributed under the
 [**Developer Trial Use Licensee**](https://github.com/idurar/idurar-erp-crm/blob/master/LICENSE) and the
 [**IDURAR Enterprise License**](https://github.com/idurar/idurar-erp-crm/blob/master/LICENSE_EE).
 
-Proprietary licenses are available for enterprise customers. [Get in touch](mailto:hello@idurarapp.com)
+Commercial licenses are available : [Get in touch](mailto:hello@idurarapp.com)
 
 ## Show your support
 

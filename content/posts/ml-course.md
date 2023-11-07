@@ -1,9 +1,9 @@
 ---
 title: ml-course
-date: 2023-11-06T12:17:55+08:00
+date: 2023-11-07T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698611229501-65577b4d1084?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698611229501-65577b4d1084?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695937881958-d17f02448575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695937881958-d17f02448575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
 ---
 
 # [girafe-ai/ml-course](https://github.com/girafe-ai/ml-course)

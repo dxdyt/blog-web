@@ -1,9 +1,9 @@
 ---
 title: yuzu
-date: 2023-10-16T12:18:21+08:00
+date: 2023-11-07T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696533424255-fec524509388?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc0Mjk3MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697163524619-c98e0b4140e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697163524619-c98e0b4140e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
 ---
 
 # [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu)
