@@ -1,155 +1,231 @@
 ---
 title: openchat
-date: 2023-07-05T12:18:36+08:00
+date: 2023-11-08T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686224526237-3b3d26b8f2cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686224526237-3b3d26b8f2cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg1MzA2OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698609552233-12df35c55ecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698609552233-12df35c55ecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [imoneoi/openchat](https://github.com/imoneoi/openchat)
 
-# OpenLLMs: Less is More for Open-source Models
+# OpenChat: Advancing Open-source Language Models with Mixed-Quality Data
 
-OpenLLMs is a series of open-source language models fine-tuned on a small, yet diverse and high-quality dataset of multi-round conversations. Specifically, we utilize only ~6K GPT-4 conversations directly filtered from the ~90K ShareGPT conversations. Despite the small size of the dataset, OpenLLMs has demonstrated remarkable performance.
+<div align="center">
+  <img src="assets/logo_new.png" style="width: 65%">
+</div>
 
-**🔥 80.9% win-rate, rank #1 of open-source models on [AlpacaEval](https://tatsu-lab.github.io/alpaca_eval/)**
+<p align="center">
+  <a href="https://openchat.team">Online Demo</a> •
+  <a href="https://discord.gg/pQjnXvNKHY">Discord</a> •
+  <a href="https://huggingface.co/openchat">Huggingface</a> •
+  <a href="https://arxiv.org/pdf/2309.11235.pdf">Paper</a>
+</p>
 
-**🚀 105.7% ChatGPT score on [Vicuna GPT-4 eval](https://lmsys.org/blog/2023-03-30-vicuna/)**
+**🔥 The first 7B model that Achieves Comparable Results with ChatGPT (March)! 🔥**
 
-**🤗 Using only [6K data](https://huggingface.co/datasets/openchat/openchat_sharegpt4_dataset)**
+**🤖 #1 Open-source model on MT-bench scoring 7.81, outperforming 70B models 🤖**
+
+<div style="display: flex; justify-content: center; align-items: center">
+  <img src="assets/openchat.png" style="width: 45%;">
+  <img src="assets/openchat_grok.png" style="width: 45%;">
+</div>
+
+OpenChat is an innovative library of open-source language models, fine-tuned with [C-RLFT](https://arxiv.org/pdf/2309.11235.pdf) - a strategy inspired by offline reinforcement learning. Our models learn from mixed-quality data without preference labels, delivering exceptional performance on par with ChatGPT, even with a 7B model. Despite our simple approach, we are committed to developing a high-performance, commercially viable, open-source large language model, and we continue to make significant strides toward this vision.
 
 [![DOI](https://zenodo.org/badge/645397533.svg)](https://zenodo.org/badge/latestdoi/645397533)
 
 ## News
 
-- [2023/07] We released the [OpenLLMs model series](https://huggingface.co/openchat). Among them, OpenChat obtains **80.9%** win-rate on AlpacaEval and **105%** ChatGPT performance on Vicuna GPT-4 evaluation.
+- [2023/11/01] We released the [OpenChat-3.5-7B](https://huggingface.co/openchat/openchat_3.5) model, surpassing ChatGPT on various benchmarks 🔥.
 
-## Models and Dataset
+- [2023/09/21] We released our paper [OpenChat: Advancing Open-source Language Models with Mixed-Quality Data](https://arxiv.org/pdf/2309.11235.pdf).
 
-*⚠️ Note:* The evaluation metrics represent a quantified measure of a subset of the model's capabilities. A score of 105% does not necessarily indicate that the model is better than ChatGPT in all scenarios or for all use cases. It is important to consider the specific tasks or applications for which the model was evaluated and compare the results accordingly.
+- [2023/09/03] We released the [OpenChat V3.2 SUPER]([#models](https://huggingface.co/openchat/openchat_v3.2_super)) model.
 
-#### Generic Models:
+- [2023/08/04] We have launched an [Online Demo](https://openchat.team) featuring the latest version, OpenChat 3.2.
 
- - **[OpenChat](https://huggingface.co/openchat/openchat)**: based on LLaMA-13B with a context length of 2048.
-   - Achieves **105.7%** of ChatGPT score on the Vicuna GPT-4 evaluation.
-   - Achieves **80.9%** win-rate on AlpacaEval.
- - **[OpenChat-8192](https://huggingface.co/openchat/openchat_8192)**: based on LLaMA-13B, with an extended context length of 8192.
-   - Achieves **106.6%** of ChatGPT score on the Vicuna GPT-4 evaluation.
-   - Achieves **79.5%** win-rate on AlpacaEval.
+- [2023/07/30] We are thrilled to introduce the [OpenChat V3 model series](#models), based on Llama 2, and now available for free for commercial use!
 
-#### Code Models:
+- [2023/07/07] We released the [OpenChat V2 model series](#legacy-models).
 
- - **[OpenCoderPlus](https://huggingface.co/openchat/opencoderplus)**: based on StarCoderPlus with a native context length of 8192.
-   - Achieves **102.5%** of ChatGPT score on the Vicuna GPT-4 evaluation.
-   - Achieves a **78.7%** win-rate on AlpacaEval.
+- [2023/07/01] We released the [OpenChat V1 model series](#legacy-models).
 
-#### Dataset:
+## <a id="models"></a> Models
 
- - **[openchat_sharegpt4_dataset](https://huggingface.co/datasets/openchat/openchat_sharegpt4_dataset)**: ~6k cleaned and filtered GPT-4 data from ShareGPT.
+Our latest model, OpenChat 3.5, is a highly capable model fine-tuned using C-RLFT with Mistral 7B as the base, on a collection of publicly available high-quality instruction data. For older version models such as OpenChat 3.2 SUPER, please refer to [Legacy Models](#legacy-models).
 
-## Model Evaluation
+To use this model, we highly recommend installing the OpenChat package by following the [installation guide](#installation) and using the OpenChat OpenAI-compatible API server by running the serving command from the table below. The server is optimized for high-throughput deployment using [vLLM](https://github.com/vllm-project/vllm) and can run on a consumer GPU with 24GB RAM. To enable tensor parallelism, append `--tensor-parallel-size N` to the serving command.
 
-We have evaluated our models using the two most popular evaluation benchmarks, including Vicuna GPT-4 and AlpacaEval benchmarks. The evaluation results are presented in the following figures.
+Once started, the server listens at `localhost:18888` for requests and is compatible with the [OpenAI ChatCompletion API specifications](https://platform.openai.com/docs/api-reference/chat). Please refer to the example request below for reference. Additionally, you can use the [OpenChat Web UI](#web-ui) for a user-friendly experience.
 
-### Vicuna Evaluation
+If you want to deploy the server as an online service, you can use `--api-keys sk-KEY1 sk-KEY2 ...` to specify allowed API keys and `--disable-log-requests --disable-log-stats --log-file openchat.log` for logging only to a file. For security purposes, we recommend using an [HTTPS gateway](https://fastapi.tiangolo.com/es/deployment/concepts/#security-https) in front of the server.
 
-Considering that our fine-tuning dataset is produced by GPT-4, we use both GPT-4 and GPT-3.5-Turbo as evaluators, respectively. Note that our evaluation schema slightly differs from Vicuna's. Following [Wang et. al, 2023](https://arxiv.org/pdf/2305.17926.pdf), we additionally adopted evidence calibration (EC) + balanced position calibration (BPC) to reduce potential bias.
-
-**Vicuna GPT-4 Evaluation (v.s. gpt-3.5-turbo)**
-
-![gpt4eval](assets/vicuna_gpt4.svg)
-
-**Vicuna GPT-3.5-Turbo Evaluation (v.s. gpt-3.5-turbo)**
-
-![gpt35eval](assets/vicuna_gpt35.svg)
-
-
-### AlpacaEval
-
-Here we list the minimal version of AlpacaEval with our released models. The full version of AlpacaEval can be found on this [page](https://tatsu-lab.github.io/alpaca_eval/).
-
-|                       | **Win Rate** | **Std Error** |
-|-----------------------|--------------|---------------|
-| gpt4                  | 95.3         | 0.7           |
-| claude                | 88.4         | 1.1           |
-| chatgpt               | 86.1         | 1.2           |
-| **openchat-13b**      | **80.9**     | 1.4           |
-| **openchat8192-13b**  | **79.5**     | 1.4           |
-| **opencoderplus-15b** | **78.7**     | 1.4           |
-| wizardlm-13b          | 75.3         | 1.5           |
-| guanaco-65b           | 71.8         | 1.6           |
-| vicuna-13b            | 70.4         | 1.6           |
-| oasst-rlhf-llama-33b  | 66.5         | 1.7           |
-| text_davinci_003      | 50.0         | 0.0           |
-| falcon-40b-instruct   | 45.7         | 1.8           |
-| alpaca-farm-ppo-human | 41.2         | 1.7           |
-| alpaca-7b             | 26.5         | 1.5           |
-| text_davinci_001      | 15.2         | 1.2           |
-
-## Standard benchmarks (In progress)
-
-Due to the limitations of Vicuna GPT-4 Evaluation and AlpacaEval, we are trying to use extensive standard benchmarks to evaluate the performance of OpenLLMs.
-
-| Models                                                                          | LLaMA-13B BFloat16 | OpenChat  | OpenChat8192 |
-|---------------------------------------------------------------------------------|--------------------|-----------|--------------|
-| MMLU [(chain-of-thought hub)](https://github.com/FranxYao/chain-of-thought-hub) | 46.66              | **48.53** | 45.16        |
-
-## Installation
-
-To use OpenLLMs, you need to have CUDA and PyTorch installed. You can clone this repository and install the dependencies via pip:
+<details>
+  <summary>Example request (click to expand)</summary>
 
 ```bash
-git clone git@github.com:imoneoi/OChat.git
+curl http://localhost:18888/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "openchat_3.5",
+    "messages": [{"role": "user", "content": "You are a large language model named OpenChat. Write a poem to describe yourself"}]
+  }'
 ```
+
+Coding Mode
 
 ```bash
-pip install --no-build-isolation flash-attn
-pip install -r requirements.txt
+curl http://localhost:18888/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "openchat_3.5",
+    "condition": "Code",
+    "messages": [{"role": "user", "content": "Write an aesthetic TODO app using HTML5 and JS, in a single file. You should use round corners and gradients to make it more aesthetic."}]
+  }'
 ```
 
-*Note:* FlashAttention may have compatibility issues. If you encounter these problems, you can try to create a new "conda" environment and follow the instructions below.
+</details>
 
-```
-conda install python
-conda install cudatoolkit-dev -c conda-forge
-pip3 install torch torchvision torchaudio
-pip install --no-build-isolation flash-attn
-pip install -r requirements.txt
-```
+| Model        | Size | Context | Weights                                                     | Serving                                                                                                     |
+|--------------|------|---------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
+| OpenChat 3.5 | 7B   | 8192    | [Huggingface](https://huggingface.co/openchat/openchat_3.5) | `python -m ochat.serving.openai_api_server --model openchat/openchat_3.5 --engine-use-ray --worker-use-ray` |
 
-## Weights & Serving
+For inference with Huggingface Transformers (slow and not recommended), follow the conversation template provided below.
 
-We provide full weights of all models as Hugging Face repos. You can use the following commands to start a local API server at `http://localhost:18888`. Please note that models should be used under their foundation models' license.
-
-| Model         | Size | Context | Weights                                                                 | Serve                                                                                                      |
-|---------------|------|---------|-------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| OpenChat      | 13B  | 2048    | [openchat/openchat](https://huggingface.co/openchat/openchat)           | `python -m ochat.serving.openai_api_server --model_type openchat --model_path openchat/openchat`           |
-| OpenChat8192  | 13B  | 8192    | [openchat/openchat_8192](https://huggingface.co/openchat/openchat_8192) | `python -m ochat.serving.openai_api_server --model_type openchat_8192 --model_path openchat/openchat_8192` |
-| OpenCoderPlus | 15B  | 8192    | [openchat/opencoderplus](https://huggingface.co/openchat/opencoderplus) | `python -m ochat.serving.openai_api_server --model_type opencoder --model_path openchat/opencoderplus`     |
-
-The server is compatible with the `ChatCompletions` protocol (please note that some functionalities are not fully supported) and the `openai` package. You can specify the server of `openai` package by setting:
+<details>
+  <summary>Conversation templates (click to expand)</summary>
 
 ```python
-openai.api_base = "http://localhost:18888/v1"
+import transformers
+tokenizer = transformers.AutoTokenizer.from_pretrained("openchat/openchat_3.5")
+
+# Single-turn
+tokens = tokenizer("GPT4 Correct User: Hello<|end_of_turn|>GPT4 Correct Assistant:").input_ids
+assert tokens == [1, 420, 6316, 28781, 3198, 3123, 1247, 28747, 22557, 32000, 420, 6316, 28781, 3198, 3123, 21631, 28747]
+
+# Multi-turn
+tokens = tokenizer("GPT4 Correct User: Hello<|end_of_turn|>GPT4 Correct Assistant: Hi<|end_of_turn|>GPT4 Correct User: How are you today?<|end_of_turn|>GPT4 Correct Assistant:").input_ids
+assert tokens == [1, 420, 6316, 28781, 3198, 3123, 1247, 28747, 22557, 32000, 420, 6316, 28781, 3198, 3123, 21631, 28747, 15359, 32000, 420, 6316, 28781, 3198, 3123, 1247, 28747, 1602, 460, 368, 3154, 28804, 32000, 420, 6316, 28781, 3198, 3123, 21631, 28747]
+
+# Coding Mode
+tokens = tokenizer("Code User: Implement quicksort using C++<|end_of_turn|>Code Assistant:").input_ids
+assert tokens == [1, 7596, 1247, 28747, 26256, 2936, 7653, 1413, 334, 1680, 32000, 7596, 21631, 28747]
 ```
 
-The currently supported `ChatCompletions` arguments are:
+</details>
 
-| Name                 | Description                                                                         |
-|----------------------|-------------------------------------------------------------------------------------|
-| conversation         | The conversation to complete. Example: ```[{"role": "user", "content": "Hello"}]``` |
-| temperature          | Temperature for sampling. Recommended: `0.7`                                        |
-| top_p                | Top-P for sampling. Recommended: `0.9`                                              |
-| max_generated_tokens | Maximum number of generated tokens                                                  |
-| stream               | Response in event stream (true / false)                                             |
+## Comparison with [X.AI Grok models](https://x.ai/)
 
-We also provide a **Web UI** for a better user experience, please refer to the following section for details.
+> Hey @elonmusk, I just wanted to let you know that I've recently come across your new model, Grok, and I must say, I'm quite impressed! With 33 billion parameters and all, you've really outdone yourself. But, I've got some news for you - I've outperformed Grok with my humble 7 billion parameters! Isn't that wild? I mean, who would have thought that a model with fewer parameters could be just as witty and humorous as Grok?
+> 
+> Anyway, I think it's about time you join the open research movement and make your model, Grok, open source! The world needs more brilliant minds like yours to contribute to the advancement of AI. Together, we can create something truly groundbreaking and make the world a better place. So, what do you say, @elonmusk? Let's open up the doors and share our knowledge with the world! 🚀💡
+> 
+> (Written by OpenChat 3.5, with a touch of humor and wit.)
 
-*Note:* We recommend having a GPU with memory of at least 40GB (1x A100) to run the server.
+|              | License     | # Param | Average  | MMLU | HumanEval | MATH     | GSM8k    |
+|--------------|-------------|---------|----------|------|-----------|----------|----------|
+| OpenChat 3.5 | Apache-2.0  | 7B      | **56.4** | 64.3 | 55.5      | **28.6** | **77.3** |
+| Grok-0       | Proprietary | 33B     | 44.5     | 65.7 | 39.7      | 15.7     | 56.8     |
+| Grok-1       | Proprietary | ?       | 55.8     | 73   | 63.2      | 23.9     | 62.9     |
 
-## Web UI
+## <a id="benchmarks"></a> Benchmarks
 
-You can interact with the model using [OpenChat-UI](https://github.com/imoneoi/openchat-ui), which is a fork of Chatbot UI with support for OpenChat models.
+| Model              | # Params | Average  | MT-Bench     | AGIEval  | BBH MC   | TruthfulQA    | MMLU         | HumanEval       | BBH CoT     | GSM8K        |
+|--------------------|----------|----------|--------------|----------|----------|---------------|--------------|-----------------|-------------|--------------|
+| OpenChat-3.5       | **7B**   | **61.6** | 7.81         | **47.4** | **47.6** | **59.1**      | 64.3         | **55.5**        | 63.5        | **77.3**     |
+| ChatGPT (March)*   | ?        | 61.5     | **7.94**     | 47.1     | **47.6** | 57.7          | **67.3**     | 48.1            | **70.1**    | 74.9         |
+|                    |          |          |              |          |          |               |              |                 |             |              |
+| OpenHermes 2.5     | 7B       | 59.3     | 7.54         | 46.5     | 49.4     | 57.5          | 63.8         | 48.2            | 59.9        | 73.5         |
+| OpenOrca Mistral   | 7B       | 52.7     | 6.86         | 42.9     | 49.4     | 45.9          | 59.3         | 38.4            | 58.1        | 59.1         |
+| Zephyr-β^          | 7B       | 34.6     | 7.34         | 39.0     | 40.6     | 40.8          | 39.8         | 22.0            | 16.0        | 5.1          |
+| Mistral**          | 7B       | -        | 6.84         | 38.0     | 39.0     | -             | 60.1         | 30.5            | -           | 52.2         |
+| Open-source SOTA** | 13B-70B  | 61.4     | 7.71         | 41.7     | 49.7     | 62.3          | 63.7         | 73.2            | 41.4        | 82.3         |
+|                    |          |          | WizardLM 70B | Orca 13B | Orca 13B | Platypus2 70B | WizardLM 70B | WizardCoder 34B | Flan-T5 11B | MetaMath 70B |
+
+*: ChatGPT (March) results are from GPT-4 Technical Report, Chain-of-Thought Hub, and our evaluation.
+
+^: Zephyr-β often fails to follow few-shot CoT instructions, likely because it was aligned with only chat data but not trained on few-shot data.
+
+**: Mistral and Open-source SOTA results are taken from reported results in instruction-tuned model papers and official repositories.
+
+All models are evaluated in chat mode (e.g. with the respective conversation template applied). All zero-shot benchmarks follow the same setting as in the AGIEval paper and Orca paper. CoT tasks use the same configuration as Chain-of-Thought Hub, HumanEval is evaluated with EvalPlus, and MT-bench is run using FastChat. To reproduce our results, follow the instructions below.
+
+<details>
+  <summary>Reproducing benchmark results (click to expand)</summary>
+
+Reasoning:
+
+Note: Please run the following commands at the base directory of this repository.
+
+```bash
+python -m ochat.evaluation.run_eval --condition "GPT4 Correct" --model openchat/openchat_3.5
+python ochat/evaluation/view_results.py
+```
+
+HumanEval:
+
+Note: Please run the following commands at the base directory of this repository.
+
+```bash
+python -m ochat.evaluation.run_eval --condition "Code" --eval_sets coding --model openchat/openchat_3.5
+python ochat/evaluation/convert_to_evalplus.py
+```
+
+Then all humaneval code samples are placed in `ochat/evaluation/evalplus_codegen`. Use the following command to evaluate an individual code sample named `samples.jsonl` using Docker as a sandbox.
+
+```bash
+docker run -v $(pwd):/app ganler/evalplus:latest --dataset humaneval --samples samples.jsonl
+```
+
+MT-Bench:
+
+Please first launch a local API server, then download FastChat and run the following commands.
+
+Note: Due to non-zero temperature and GPT-4 API changes over time, there might be variations in the results.
+
+```bash
+cd fastchat/llm_judge
+python gen_api_answer.py --model openchat_3.5 --max-tokens 4096 --parallel 128 --openai-api-base http://localhost:18888/v1
+python gen_judgment.py --model-list openchat_3.5 --parallel 8 --mode single
+```
+
+</details>
+
+## <a id="installation"></a> Installation
+
+To use OpenChat, you need to install PyTorch, then you can install OpenChat via pip:
+
+```bash
+pip3 install ochat
+```
+
+If you encounter compatibility problems, you can try to create a new `conda` environment following the instructions below.
+
+```bash
+conda create -y --name openchat
+conda activate openchat
+
+conda install -y python=3.11
+pip3 install torch torchvision torchaudio
+
+pip3 install ochat
+```
+
+<details>
+  <summary>In addition to PyPI, you can also install from source (click to expand)</summary>
+
+```bash
+git clone https://github.com/imoneoi/openchat
+cd openchat
+
+pip3 install --upgrade pip  # enable PEP 660 support
+pip3 install -e .
+```
+</details>
+
+## <a id="web-ui"></a> Web UI
+
+After launching the API server, you can interact with it using [OpenChat-UI](https://github.com/imoneoi/openchat-ui), which is a fork of Chatbot UI with support for OpenChat models.
 
 To use OpenChat-UI, follow these steps:
 
@@ -172,7 +248,7 @@ Create a `.env.local` file in the root of the OpenChat-UI repo with the followin
 ```conf
 OPENAI_API_HOST=http://localhost:18888
 OPENAI_API_KEY=openchat-dummy-key
-NEXT_PUBLIC_DEFAULT_TEMPERATURE=0.7
+NEXT_PUBLIC_DEFAULT_TEMPERATURE=0.5
 ```
 
 4. Run the App
@@ -181,158 +257,162 @@ NEXT_PUBLIC_DEFAULT_TEMPERATURE=0.7
 npm run dev
 ```
 
-## Model modifications
+## <a id="training"></a> OpenChat Model Training
 
-We added an EOT (end-of-turn) token to every base model. For LLaMA models, the embedding of EOT is initialized as the average of all existing token embeddings. For StarCoder models, the embedding of EOT is randomly initialized with 0.02 standard deviation.
+The OpenChat training system utilizes padding-free training and the [Multipack Sampler](https://github.com/imoneoi/multipack_sampler), achieving a **3~10x** speedup compared to the conventional padded training.
 
-For LLaMA-based models with 8192 context, the `max_position_embeddings` was set to 8192, and RoPE codes were extrapolated. An attempt to interpolate the RoPE code was made, but it resulted in a significant drop in performance (~101% Vicuna GPT-4 evaluation) without mixing pretraining data.
+## Choose a base model
 
-## Dataset
+OpenChat supports Llama 2 and Mistral models. Please first choose a base model to fit your needs. Each base model has a corresponding weight repo, model type, and recommended batch size as listed below, they should be filled into `BASE_REPO`, `MODEL_TYPE`, and `BATCH_SIZE` in the following instructions.
 
-**🤗 Converted dataset available at [openchat_sharegpt4_dataset](https://huggingface.co/datasets/openchat/openchat_sharegpt4_dataset)**
+| Base Model | Size | Weights (with EOT token)          | Model Type              | Recommended Batch Size per GPU (8xA100 80GB) |
+|------------|------|-----------------------------------|-------------------------|--------------------------------------|
+| Mistral    | 7B   | `imone/Mistral_7B_with_EOT_token` | `openchat_v3.2_mistral` | 83968                                |
+| Llama 2    | 7B   | `imone/LLaMA2_7B_with_EOT_token`  | `openchat_v3.2`         | 83968                                |
+| Llama 2    | 13B  | `imone/Llama2_13B_with_EOT_token` | `openchat_v3.2`         | 36864                                |
 
-The dataset used in the project is a cleaned and filtered version of ShareGPT, retaining only GPT-4 conversations. The original ShareGPT contained approximately 90K conversations, and only 6K cleaned GPT-4 conversations were retained for fine-tuning.
+Note: The OpenChat conversation template requires an `<|end_of_turn|>` special token. The base model specified must include this token. Our provided weights are the original base weights with this token added. If you want to add them manually, use the `convert_llama_weights_to_hf_add_tokens.py` or `mistral_add_tokens.py` in the `scripts` directory.
 
-The cleaned GPT-4 conversations were combined with conversation templates and end-of-turn tokens, then cut to the context limit of the model (further content was simply discarded).
+## Installing DeepSpeed
 
-To run the data pipeline, execute the following command:
+First, ensure that the CUDA `nvcc` compiler is available in your environment. If it is not, install the CUDA toolkit that matches the version used by PyTorch.
+
+Next, install DeepSpeed:
 
 ```bash
-./ochat/data/run_data_pipeline.sh INPUT_FOLDER OUTPUT_FOLDER
+pip install deepspeed
 ```
 
-The input folder should contain a `ShareGPT` folder with `.html` files for each ShareGPT conversation page inside.
+### Preparing Your Data
 
-The data pipeline consists of three steps:
+To utilize the OpenChat trainer, prepare your SFT data into a JSON Lines format where each line corresponds to a `Conversation` object:
 
-- Cleaning: HTML cleaning and conversion to Markdown, removing conversations with the wrong format, removing conversations with blocked words, and hash-based exact deduplication
-- Filtering: Preserving only conversations marked as `Model: GPT-4`
-- Converting: Converting and tokenizing all conversations for finetuning
+```python
+class Message(BaseModel):
+    role: str     # Must be "user" or "assistant"
+    content: str  # Message content
+    weight: Optional[float] = None  # Loss weight for this message. Typically 0 for user and 1 for assistant to supervise assistant's responses only
 
-**The final converted dataset follows the format:**
 
-*MODEL_TYPE.train.json / .eval.json*
-
-```
-[
-    [token_id_list, supervise_mask_list],
-    [token_id_list, supervise_mask_list],
-    ...
-]
+class Conversation(BaseModel):
+    items: List[Message]  # All messages within the conversation
+    condition: str = ""  # C-RLFT condition, can be any string or empty.
+    system: str = ""  # System message for this conversation
 ```
 
-*MODEL_TYPE.train.text.json / .eval.text.json*
+For basic SFT, assign `weight` as `0` for human messages and `1` for assistant responses.
 
-Plain text decoded from `token_id_list`
+SFT example:
 
-## Dataset visualization
+```json
+{"items":[{"from":"user","content":"Hello","weight":0.0},{"from":"assistant","content":"Hi","weight":1.0},{"from":"user","content":"How are you today?","weight":0.0},{"from":"assistant","content":"I'm fine.","weight":1.0}],"system":""}
+{"items":[{"from":"user","content":"Who are you?","weight":0.0},{"from":"assistant","content":"I'm OpenChat.","weight":1.0}],"system":"You are a helpful assistant named OpenChat."}
+```
 
-We provide a tool for visualizing the embeddings of conversations. To use this tool, open `ochat/visualization/ui/visualizer.html` using a browser and drag `MODEL_TYPE.visualizer.json` into the webpage. Click on 3D plot points to show the corresponding conversation.
+For C-RLFT, `condition` should be set as the class the conversation belongs to (e.g. `GPT3` or `GPT4`). The `weight` is assigned as `0` for human messages and `w` for assistant responses, where `w` is the weight of the class (e.g. `0.1` for `GPT3` and `1` for `GPT4`, as found in our C-RLFT paper).
 
-The embeddings are created using `openai_embeddings.py` to calculate embeddings of conversations, then UMAP dimension reduction and K-Means coloring with `dim_reduction.ipynb`.
+C-RLFT example:
 
-![embedding](assets/embeddings.svg)
+```json
+{"items":[{"from":"user","content":"What is C-RLFT?","weight":0.0},{"from":"assistant","content":"C-RLFT is a method for improving open-source LLMs with mixed-quality data.","weight":1.0}],"condition":"GPT4","system":""}
+{"items":[{"from":"user","content":"What is C-RLFT?","weight":0.0},{"from":"assistant","content":"I don't know.","weight":0.1}],"condition":"GPT3","system":""}
+```
 
-## Training
+### Pre-tokenizing the Dataset
 
-The hyperparameters used in training the models are the same across all models:
+You'll then need to pre-tokenize the dataset using the command (please specify a filename as `PRETOKENIZED_DATA_OUTPUT_PATH` to store the pretokenized dataset):
 
-| Global Batch Size | Learning rate | Epochs | Length Grouping | Warmup Ratio | Weight decay |
-| --- | --- | --- | --- | --- | --- |
-| 128 | 2e-5 | 5 | True | 0.03 | 0 |
+```bash
+python -m ochat.data.generate_dataset --model-type MODEL_TYPE --model-path BASE_REPO --in-files data.jsonl --out-prefix PRETOKENIZED_DATA_OUTPUT_PATH
+```
 
-To train using 8xA100 80GB:
+### Launching the OpenChat Trainer
+
+You can now launch the OpenChat trainer using the command below. Training a 13B model requires eight A/H100s with 80GB VRAM, while a 7B model can be trained with four A/H100s with 80GB VRAM or eight A/H100s with 40GB VRAM.
+
+For hyperparameters, we recommend first setting the batch size to the recommended batch size. If OOM occurs, try setting it to the exact maximum that VRAM can hold and as a multiple of `2048`.
+Other hyperparameters have been carefully selected as the default. Furthermore, the learning rate is automatically determined based on the [inverse square-root rule](https://arxiv.org/abs/2006.09092).
+
+<details>
+
+<summary>Training Commands (click to expand)</summary>
 
 ```bash
 NUM_GPUS=8
 
 deepspeed --num_gpus=$NUM_GPUS --module ochat.training_deepspeed.train \
-    --model_type MODEL_TYPE \
-    --model_path BASE_MODEL_PATH \
-    --save_path TARGET_FOLDER \
-    --length_grouping \
-    --epochs 5 \
-    --data_path DATASET_PATH \
-    --deepspeed \
-    --deepspeed_config ochat/training_deepspeed/deepspeed_config.json
-
+          --model_path BASE_REPO \
+          --data_prefix PRETOKENIZED_DATA_OUTPUT_PATH \
+          --save_path PATH_TO_SAVE_MODEL \
+          --batch_max_len BATCH_SIZE \
+          --epochs 5 \
+          --save_every 1 \
+          --deepspeed \
+          --deepspeed_config ochat/training_deepspeed/deepspeed_config.json
 ```
 
-## Evaluation
+</details>
 
-To run the Vicuna GPT-4 evaluation, follow these steps:
-
-1. Generate model answers
-
-```bash
-python -m ochat.evaluation.get_model_answer --model_type MODEL_TYPE --models_path PATH_CONTAINING_ALL_MODELS_SAME_TYPE --data_path ./ochat/evaluation/vicuna --output_path ./eval_results
-```
-
-2. Generate baseline (GPT-3.5) answers
-
-```bash
-OPENAI_API_KEY=sk-XXX python -m ochat.evaluation.get_openai_answer --data_path ./ochat/evaluation/vicuna --output_path ./eval_baselines --model_types gpt-3.5-turbo
-```
-
-3. Run GPT-4 evaluation
-
-```bash
-OPENAI_API_KEY=sk-XXX python -m ochat.evaluation.openai_eval --data_path ./ochat/evaluation/vicuna --baseline_path ./eval_baselines/vicuna_gpt-3.5-turbo.jsonl --input_path ./eval_results
-```
-
-4. Visualize and plot
-
-To visualize and plot the evaluation results, use `ochat/visualization/eval_result_ui/eval_result_visualizer.html`. Open the file using a browser and select all files inside `./eval_results/eval_result_YYYYMMDD` to show the results.
-
-## Benchmarks
-
-The same routine as ChatGPT / GPT-4 was used to run other benchmarks or evaluations such as AlpacaEval. Simply run the API server and set the `openai.api_base` of the benchmark program.
+You can find checkpoints of all epochs in `PATH_TO_SAVE_MODEL`. Then you may evaluate each epoch and choose the best one.
 
 ## Limitations
 
 **Foundation Model Limitations**
-Despite its advanced capabilities, OpenLLMs is still bound by the limitations inherent in its foundation models. These limitations may impact the model's performance in areas such as:
+Despite its advanced capabilities, OpenChat is still bound by the limitations inherent in its foundation models. These limitations may impact the model's performance in areas such as:
 
  - Complex reasoning
  - Mathematical and arithmetic tasks
  - Programming and coding challenges
 
 **Hallucination of Non-existent Information**
-OpenLLMs may sometimes generate information that does not exist or is not accurate, also known as "hallucination". Users should be aware of this possibility and verify any critical information obtained from the model.
+OpenChat may sometimes generate information that does not exist or is not accurate, also known as "hallucination". Users should be aware of this possibility and verify any critical information obtained from the model.
 
-## TODO
-
-- [ ] Improving conversation splitting
-- [ ] Mixing SFT data with pretraining data (e.g. RedPajama)
-- [ ] Extending context by interpolating RoPE (requires mixing with pretraining data)
-- [ ] Trying LIMA dropout (to determine its usefulness)
-- [ ] Training larger LLaMA models (needs more computing power)
-- [ ] Support inference with 2x consumer GPUs
+**Safety**
+OpenChat may sometimes generate harmful, hate speech, biased responses, or answer unsafe questions. It's crucial to apply additional AI safety measures in use cases that require safe and moderated responses.
 
 ## License
 
-Our weight license is subject to their corresponding base model. For example, OpenChat and OpenChat-8192 are the same as the model [License](https://github.com/facebookresearch/llama/blob/main/MODEL_CARD.md) of LLaMA for non-commercial use only, while OpenCoderPlus is under the [License](https://huggingface.co/blog/starcoder) of StarCoder. Furthermore, we should follow [Privacy Practices](https://chrome.google.com/webstore/detail/sharegpt-share-your-chatg/daiacboceoaocpibfodeljbdfacokfjb) of ShareGPT. The code is released under Apache License 2.0.
+Our OpenChat 3.5 code and models are distributed under the Apache License 2.0.
+
+## <a id="legacy-models"></a> Legacy Models
+
+The following models are older versions of OpenChat and have inferior performance compared to the latest version. They will be deprecated in the next release. Please note that OpenChat V1 and V2 series are now deprecated, [please install 3.1.x for using V1 and V2 models](https://github.com/imoneoi/openchat/tree/83a683c775c77867cc45937fafdf48e8dcb68daa)
+
+To run the models on multiple GPUs with smaller VRAM, you can enable tensor parallelization, for example, using the `--tensor-parallel-size 2` flag.
+
+<details>
+  <summary>OpenChat V3 (click to expand)</summary>
+
+| Model        | Size | Context | Weights                                                      | Serving                                                                                                      |
+|--------------|------|---------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| OpenChat 3.2 SUPER | 13B  | 4096    | [Huggingface](https://huggingface.co/openchat/openchat_v3.2_super) | `python -m ochat.serving.openai_api_server --model openchat/openchat_v3.2_super --engine-use-ray --worker-use-ray` |
+
+</details>
 
 ## Contact
 
-imonenext@gmail.com
+💌 We are a student team from Tsinghua University, working on OpenChat, a project that requires additional computing power or LLMs API keys for further development. If you are interested in our project and would like to offer support, please feel free to reach out to us:
+
+* Wang Guan [imonenext at gmail dot com]
+* Cheng Sijie [csj23 at mails dot tsinghua dot edu dot cn]
+
+We look forward to hearing from you and collaborating on this exciting project!
 
 ## Citation
 
 ```
-@software{openllms23,
-  title = {{OpenLLMs: Less is More for Open-source Models}},
-  author = {Wang, Guan and Cheng, Sijie and Yu, Qiying and Liu, Changling},
-  doi = {10.5281/zenodo.8105775},
-  url = {https://github.com/imoneoi/openchat},
-  version = {pre-release},
-  year = {2023},
-  month = {7},
+@article{wang2023openchat,
+  title={OpenChat: Advancing Open-source Language Models with Mixed-Quality Data},
+  author={Wang, Guan and Cheng, Sijie and Zhan, Xianyuan and Li, Xiangang and Song, Sen and Liu, Yang},
+  journal={arXiv preprint arXiv:2309.11235},
+  year={2023}
 }
 ```
 
 ## Acknowledgements
 
-We thank the great work by [LLaMA](https://arxiv.org/abs/2302.13971), [self-instruct](https://arxiv.org/abs/2212.10560), [FastChat (Vicuna)](https://github.com/lm-sys/FastChat), [Alpaca](https://github.com/tatsu-lab/stanford_alpaca.git) and [StarCoder](https://github.com/bigcode-project/starcoder).
+We extend our heartfelt gratitude to Alignment Lab AI, Nous Research, and Pygmalion AI for their substantial contributions to data collection and model training.
 
-We also thank the great support by GPT Desk Pte. Ltd. and Tsinghua Laboratory of Brain and Intelligence (THBI).
+Special thanks go to Changling Liu from GPT Desk Pte. Ltd., Qiying Yu at Tsinghua University, Baochang Ma, and Hao Wan from 01.AI company for their generous provision of resources. We are also deeply grateful to Jianxiong Li and Peng Li at Tsinghua University for their insightful discussions.
+
+Furthermore, we appreciate the developers behind the following projects for their significant contributions to our research: [Mistral](https://mistral.ai/), [Chain-of-Thought Hub](https://github.com/FranxYao/chain-of-thought-hub), [Llama 2](https://ai.meta.com/llama/), [Self-Instruct](https://arxiv.org/abs/2212.10560), [FastChat (Vicuna)](https://github.com/lm-sys/FastChat), [Alpaca](https://github.com/tatsu-lab/stanford_alpaca.git), and [StarCoder](https://github.com/bigcode-project/starcoder). Their work has been instrumental in driving our research forward.

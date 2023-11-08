@@ -1,9 +1,9 @@
 ---
 title: angular
-date: 2023-10-15T12:16:52+08:00
+date: 2023-11-08T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696935242644-cce4c40d17c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696935242644-cce4c40d17c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [angular/angular](https://github.com/angular/angular)
@@ -139,7 +139,7 @@ Help us keep Angular open and inclusive. Please read and follow our [Code of Con
 
 Join the conversation and help the community.
 
-- [Twitter][twitter]
+- [X (formerly Twitter)][X (formerly Twitter)]
 - [Discord][discord]
 - [Gitter][gitter]
 - [YouTube][youtube]
@@ -162,13 +162,13 @@ Join the conversation and help the community.
 [forms]: https://angular.io/guide/forms-overview
 [api]: https://angular.io/api
 [angularelements]: https://angular.io/guide/elements
-[ssr]: https://angular.io/guide/universal
+[ssr]: https://angular.io/guide/ssr
 [schematics]: https://angular.io/guide/schematics
 [lazyloading]: https://angular.io/guide/lazy-loading-ngmodules
 [node.js]: https://nodejs.org/
 [npm]: https://www.npmjs.com/get-npm
 [codeofconduct]: CODE_OF_CONDUCT.md
-[twitter]: https://www.twitter.com/angular
+[X (formerly Twitter)]: https://www.twitter.com/angular
 [discord]: https://discord.gg/angular
 [gitter]: https://gitter.im/angular/angular
 [stackoverflow]: https://stackoverflow.com/questions/tagged/angular

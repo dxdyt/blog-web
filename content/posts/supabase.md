@@ -1,9 +1,9 @@
 ---
 title: supabase
-date: 2023-10-08T12:17:12+08:00
+date: 2023-11-08T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693833500143-a209236a2fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693833500143-a209236a2fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698609552233-12df35c55ecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698609552233-12df35c55ecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [supabase/supabase](https://github.com/supabase/supabase)
@@ -22,9 +22,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1693833500143-a209236a2f
 - [x] Hosted Postgres Database. [Docs](https://supabase.com/docs/guides/database)
 - [x] Authentication and Authorization. [Docs](https://supabase.com/docs/guides/auth)
 - [x] Auto-generated APIs.
-  - [x] REST. [Docs](https://supabase.com/docs/guides/api#rest-api-overview)
-  - [x] GraphQL. [Docs](https://supabase.com/docs/guides/api#graphql-api-overview)
-  - [x] Realtime subscriptions. [Docs](https://supabase.com/docs/guides/api#realtime-api-overview)
+  - [x] REST. [Docs](https://supabase.com/docs/guides/api)
+  - [x] GraphQL. [Docs](https://supabase.com/docs/guides/graphql)
+  - [x] Realtime subscriptions. [Docs](https://supabase.com/docs/guides/realtime)
 - [x] Functions.
   - [x] Database Functions. [Docs](https://supabase.com/docs/guides/database/functions)
   - [x] Edge Functions [Docs](https://supabase.com/docs/guides/functions)

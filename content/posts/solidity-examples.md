@@ -1,9 +1,9 @@
 ---
 title: solidity-examples
-date: 2023-11-07T12:17:48+08:00
+date: 2023-11-08T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698250403749-8d3e0e5f507b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698250403749-8d3e0e5f507b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692804945585-31609176a192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692804945585-31609176a192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [LayerZero-Labs/solidity-examples](https://github.com/LayerZero-Labs/solidity-examples)

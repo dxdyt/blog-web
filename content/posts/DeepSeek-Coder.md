@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-Coder
-date: 2023-11-07T12:16:26+08:00
+date: 2023-11-08T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697163524619-c98e0b4140e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697163524619-c98e0b4140e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692804945585-31609176a192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692804945585-31609176a192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
@@ -34,7 +34,7 @@ DeepSeek Coder is composed of a series of code language models, each trained fro
 
 ### 2. Evaluation Results
 We evaluate DeepSeek Coder on various coding-related benchmarks.
-Only `pass@1` results on HumanEval (Python and Multilingual), MBPP, DS-1000 are reported here:
+Only `pass@1` results on HumanEval (Python and Multilingual), MBPP, and DS-1000 are reported here:
 
 <p align="center">
 <img src="pictures/table.png" alt="table" width="70%">
@@ -43,7 +43,7 @@ Only `pass@1` results on HumanEval (Python and Multilingual), MBPP, DS-1000 are 
 
 The result shows that DeepSeek-Coder-Base-33B significantly outperforms existing open-source code LLMs. Compared with CodeLlama-34B, it leads by 7.9%, 9.3%, 10.8% and 5.9% respectively on HumanEval Python, HumanEval Multilingual, MBPP and DS-1000.
 Surprisingly, our DeepSeek-Coder-Base-7B reaches the performance of CodeLlama-34B.
-And the DeepSeek-Coder-Instruct-33B model after instruction tuning outperforms GPT35-turbo on HumanEval and achieves comparable result with GPT35-turbo on MBPP.
+The DeepSeek-Coder-Instruct-33B model after instruction tuning outperforms GPT35-turbo on HumanEval and achieves comparable results with GPT35-turbo on MBPP.
 
 More evaluation details can be found in the [Detailed Evaluation](#5-detailed-evaluation-results).
 
@@ -52,7 +52,7 @@ More evaluation details can be found in the [Detailed Evaluation](#5-detailed-ev
 
 #### Data Creation
 
-- Step 1: Collecting code data from GitHub and apply the same filtering rules as [StarCoder Data](https://github.com/bigcode-project/bigcode-dataset) to filter data.
+- Step 1: Collect code data from GitHub and apply the same filtering rules as [StarCoder Data](https://github.com/bigcode-project/bigcode-dataset) to filter data.
 - Step 2: Parsing the dependencies of files within the same repository to rearrange the file positions based on their dependencies.
 - Step 3: Concatenating dependent files to form a single example and employ repo-level minhash for deduplication.
 - Step 4: Further filtering out low-quality code, such as codes with syntax errors or poor readability.
@@ -61,7 +61,7 @@ More evaluation details can be found in the [Detailed Evaluation](#5-detailed-ev
 
 #### Model Training
 
-- Step 1: Initially pre-trained with a dataset consisting of 87% code, 10% code-related language (Github Markdown and StackExchange), and 3% non-code related Chinese language. Models are pre-trained using 1.8T tokens and a 4K window size in this step.
+- Step 1: Initially pre-trained with a dataset consisting of 87% code, 10% code-related language (Github Markdown and StackExchange), and 3% non-code-related Chinese language. Models are pre-trained using 1.8T tokens and a 4K window size in this step.
 - Step 2: Further Pre-training using an extended 16K window size on an additional 200B tokens, resulting in foundational models (**DeepSeek-Coder-Base**).
 - Step 3: Instruction Fine-tuning on 2B tokens of instruction data, resulting in instruction-tuned models (**DeepSeek-Coder-Instruct**).
 
@@ -73,7 +73,7 @@ Before proceeding, you'll need to install the necessary dependencies. You can do
 ```
 pip install -r requirements.txt
 ```
-A demo is also available on the [🤗 Hugging Face Space](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct), and you can run the demo locally using `app.py` in [demo](https://github.com/deepseek-ai/deepseek-coder/tree/main/demo) folder.  (Thanks to all the HF team for their support)
+A demo is also available on the [🤗 Hugging Face Space](https://huggingface.co/spaces/deepseek-ai/deepseek-coder-33b-instruct), and you can run the demo locally using `app.py` in the [demo](https://github.com/deepseek-ai/deepseek-coder/tree/main/demo) folder.  (Thanks to all the HF team for their support)
 
 Here are some examples of how to use our model.
 
@@ -165,7 +165,7 @@ print("Sorted array:", quick_sort(arr))
 This code works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. The pivot element is then in its final position. The process is then repeated for the sub-arrays.
 ```
 
-If you don't want to use the provided api `apply_chat_template` which loads the template from `tokenizer_config.json`, you can use the following template to chat with our model. Replace the `['content']` with your instructions and the model's previous (if any) responses, then the model will generate the response to the currently given instruction.
+If you don't want to use the provided API `apply_chat_template` which loads the template from `tokenizer_config.json`, you can use the following template to chat with our model. Replace the `['content']` with your instructions and the model's previous (if any) responses, then the model will generate the response to the currently given instruction.
 ```
 You are an AI programming assistant, utilizing the DeepSeek Coder model, developed by DeepSeek Company, and you only answer questions related to computer science. For politically sensitive questions, security and privacy issues, and other non-computer science questions, you will refuse to answer.
 ### Instruction:
@@ -269,7 +269,7 @@ print(tokenizer.decode(outputs[0]))
 ```
 
 ---
-In the following scenario, the DeepSeek-Coder-6.7B model effectively calls a class **IrisClassifier** and its member function from the `model.py` file, and also utilizes functions from the `utils.py` file, to correctly complete the **main** function in `main.py` file for model training and evaluation.
+In the following scenario, the DeepSeek-Coder-6.7B model effectively calls a class **IrisClassifier** and its member function from the `model.py` file, and also utilizes functions from the `utils.py` file, to correctly complete the **main** function in the `main.py` file for model training and evaluation.
 
 ![Completion GIF](pictures/completion_demo.gif)
 
@@ -288,12 +288,14 @@ The reproducible code for the following evaluation results can be found in the [
 #### 4) Program-Aid Math Reasoning Benchmark
 ![Math](pictures/Math.png)
 
+### 6. Resources
+[awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) is a curated list of open-source projects related to DeepSeek Coder.
 
-### 6. License
+### 7. License
 This code repository is licensed under the MIT License. The use of DeepSeek Coder models is subject to the Model License. DeepSeek Coder supports commercial use.
 
 See the [LICENSE-CODE](LICENSE-CODE) and [LICENSE-MODEL](LICENSE-MODEL) for more details.
 
-### 6. Contact
+### 8. Contact
 
 If you have any questions, please raise an issue or contact us at [agi_code@deepseek.com](mailto:agi_code@deepseek.com).

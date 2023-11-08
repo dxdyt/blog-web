@@ -1,9 +1,9 @@
 ---
 title: highstorm
-date: 2023-11-07T12:15:33+08:00
+date: 2023-11-08T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697927024125-1f7eb9aaa9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697927024125-1f7eb9aaa9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697917361663-a50e381a0578?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697917361663-a50e381a0578?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
 ---
 
 # [chronark/highstorm](https://github.com/chronark/highstorm)
