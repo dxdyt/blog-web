@@ -1,9 +1,9 @@
 ---
 title: Files
-date: 2023-03-30T12:18:12+08:00
+date: 2023-11-09T12:15:49+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11927/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
+featuredImage: https://images.unsplash.com/photo-1696855179885-216725c8f4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696855179885-216725c8f4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [files-community/Files](https://github.com/files-community/Files)
@@ -16,12 +16,8 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11927/0/1080p
 [![Build Status](https://dev.azure.com/filescommunity/Files/_apis/build/status/Build%20Pipeline?branchName=main)](https://dev.azure.com/filescommunity/Files/_build/latest?definitionId=4&branchName=main)
 [![Crowdin](https://badges.crowdin.net/files-app/localized.svg)](https://crowdin.com/project/files-app)
 [![Discord](https://discordapp.com/api/guilds/725513575971684472/widget.png)](https://discord.gg/files)
-<a style="text-decoration:none" href="https://files.community/download">
-    <img src="https://img.shields.io/badge/Download%20Installer-blue.svg?style=flat-round" alt="Download link" />
-</a>
-<a style="text-decoration:none" href="https://files.community/docs">
-    <img src="https://img.shields.io/badge/View%20Documentation-purple.svg?style=flat-round" alt="Documentation link" />
-</a>
+[![Download](https://img.shields.io/badge/Download%20Installer-blue.svg?style=flat-round)](https://files.community/download)
+[![Documentation](https://img.shields.io/badge/View%20Documentation-purple.svg?style=flat-round)](https://files.community/download")
 
 Introducing Files, the ultimate file manager app for Windows. With its sleek and intuitive design, navigating through your files has never been easier. Files features tabs for easy switching between different folders, a column view for quick file browsing, and dual pane support for efficient file management. In addition, you can easily create and extract archives with just a few clicks, making file compression and decompression a breeze.
 
@@ -37,7 +33,7 @@ Files also offers advanced features such as file tagging for easy organization, 
     - MSVC v143 - VS 2022 C++ x64/x86 or ARM64 build tools (latest)
     - C++ ATL for latest v143 build tools (x86 & x64 or ARM64)
     - Git for Windows
-- [Windows App SDK 1.2](https://learn.microsoft.com/en-us/windows/apps/windows-app-sdk/downloads#current-releases)
+- [Windows App SDK 1.4](https://learn.microsoft.com/windows/apps/windows-app-sdk/downloads#current-releases)
     
 ### 2. Clone the repository
 
@@ -62,4 +58,4 @@ Looking for a place to start? Check out the [task board](https://github.com/orgs
 
 ## Screenshots
 
-![Files](src/Files.App/Assets/FilesHome.png)
+![Files](assets/FilesScreenshot.png)

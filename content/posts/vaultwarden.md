@@ -1,9 +1,9 @@
 ---
 title: vaultwarden
-date: 2023-08-01T12:15:32+08:00
+date: 2023-11-09T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689580863590-e76944ae22d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689580863590-e76944ae22d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA4NjMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698375962447-8aac6091e31b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698375962447-8aac6091e31b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
@@ -52,7 +52,7 @@ docker run -d --name vaultwarden -v /vw-data/:/data/ --restart unless-stopped -p
 ```
 This will preserve any persistent data under /vw-data/, you can adapt the path to whatever suits you.
 
-**IMPORTANT**: Most modern web browsers, disallow the use of Web Crypto APIs in insecure contexts. In this case, you might get an error like `Cannot read property 'importKey'`. To solve this problem, you need to access the web vault via HTTPS or localhost.
+**IMPORTANT**: Most modern web browsers disallow the use of Web Crypto APIs in insecure contexts. In this case, you might get an error like `Cannot read property 'importKey'`. To solve this problem, you need to access the web vault via HTTPS or localhost.
 
 This can be configured in [vaultwarden directly](https://github.com/dani-garcia/vaultwarden/wiki/Enabling-HTTPS) or using a third-party reverse proxy ([some examples](https://github.com/dani-garcia/vaultwarden/wiki/Proxy-examples)).
 

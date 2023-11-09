@@ -1,9 +1,9 @@
 ---
 title: refine
-date: 2023-10-20T12:16:28+08:00
+date: 2023-11-09T12:16:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694676517357-25cd4d8f67f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698111294594-044d973e2c4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698111294594-044d973e2c4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [refinedev/refine](https://github.com/refinedev/refine)
@@ -20,8 +20,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1694676517357-25cd4d8f67
 <br />
 <br />
 </a>
-
-
 
 <div align="center">
     <a href="https://refine.dev">Home Page</a> |
@@ -52,7 +50,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1694676517357-25cd4d8f67
 [![Maintainability](https://api.codeclimate.com/v1/badges/99a65a191bdd26f4601c/maintainability)](https://codeclimate.com/github/pankod/refine/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/99a65a191bdd26f4601c/test_coverage)](https://codeclimate.com/github/pankod/refine/test_coverage)
 [![npm version](https://img.shields.io/npm/v/@refinedev/core.svg)](https://www.npmjs.com/package/@refinedev/core)
-[![](https://img.shields.io/github/commit-activity/m/refinedev/refine)](https://github.com/refinedev/refine/commits/next)
+[![](https://img.shields.io/github/commit-activity/m/refinedev/refine)](https://github.com/refinedev/refine/commits/master)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
 </div>
@@ -107,6 +105,7 @@ This allows you to preview, modify, and download the project immediately, thereb
 
 You can take a look at some live examples that can be built using **refine** from scratch:
 
+-   [Fully-functional CRM Application](https://example.crm.refine.dev/)
 -   [Fully-functional Admin Panel](https://s.refine.dev/readme-admin-panel)
 -   [Win95 Style Admin panel 🪟](https://win95.refine.dev/)
 -   [Medium Clone - Real World Example](https://s.refine.dev/readme-medium-clone)

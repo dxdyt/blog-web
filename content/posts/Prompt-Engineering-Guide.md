@@ -1,9 +1,9 @@
 ---
 title: Prompt-Engineering-Guide
-date: 2023-05-24T12:18:28+08:00
+date: 2023-11-09T12:17:18+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12159/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12159/0/1080p
+featuredImage: https://images.unsplash.com/photo-1694813646419-01c9ca785c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694813646419-01c9ca785c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
 ---
 
 # [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
@@ -19,25 +19,26 @@ Happy Prompting!
 ---
 ## Prompt Engineering for LLMs Course
 
-Due to high demand, we are partnering with Maven to deliver a new course on Prompt Engineering for LLMs. If you are interested, [join the waitlist](https://maven.com/forms/4f11a9). 
+Due to high demand, we've partnered with Maven to deliver a new [cohort-based course on Prompt Engineering for LLMs](https://maven.com/dair-ai/prompt-engineering-llms).
 
-[Elvis Saravia](https://www.linkedin.com/in/omarsar/) (Cofounder of DAIR.AI and the creator of this guide), who has worked at companies like Meta AI and Elastic, and has years of experience in AI and LLMs, will be the instructor for this course.
+[Elvis Saravia](https://www.linkedin.com/in/omarsar/), who has worked at companies like Meta AI and Elastic, and has years of experience in AI and LLMs, will be the instructor for this course.
 
-Our learners range from software engineers to the top AI researchers and practitioners in organizations like LinkedIn, Amazon, JPMorgan Chase & Co., Intuit, Fidelity Investments, Coinbase, Guru, and many others.
+This hands-on course will cover prompt engineering techniques/tools, use cases, exercises, and projects for effectively working and building with large language models (LLMs).
+
+Our past learners range from software engineers to AI researchers and practitioners in organizations like LinkedIn, Amazon, JPMorgan Chase & Co., Intuit, Fidelity Investments, Coinbase, Guru, and many others.
 
 ---
 ## Announcements / Updates
 
-- 🎓 New course on Prompt Engineering for LLMs coming soon! [Join the waitlist](https://maven.com/forms/4f11a9)!
+- 🎓 New course on Prompt Engineering for LLMs announced! [Enroll here](https://maven.com/dair-ai/prompt-engineering-llms)!
 - 💼 We now offer several [services](https://www.promptingguide.ai/services) like professional training, consulting, and talks.
-- ✅ The official Prompt Engineering for LLMs Certification coming soon! [Join the waitlist](https://forms.gle/hZ5UZdYxLyb1SbyL9)! 
-- 🌐 We now support 11 languages! Welcoming more translations.
-- 👩‍🎓 We crossed 700K learners in May 2023!
+- 🌐 We now support 12 languages! Welcoming more translations.
+- 👩‍🎓 We crossed 800K learners in June 2023!
 - 🎉 We have launched a new web version of the guide [here](https://www.promptingguide.ai/)
 - 🔥 We reached #1 on Hacker News on 21 Feb 2023
 - 🎉 The Prompt Engineering Lecture went live [here](https://youtu.be/dOxUroR57xs)
 
-[Join our Discord](https://discord.gg/FUyz9vPAwf)
+[Join our Discord](https://discord.com/invite/SKgkVT8BGJ)
 
 [Follow us on Twitter](https://twitter.com/dair_ai)
 
@@ -60,6 +61,8 @@ You can also find the most up-to-date guides on our new website [https://www.pro
   - [Prompt Engineering - Chain-of-Thought Prompting](https://www.promptingguide.ai/techniques/cot)
   - [Prompt Engineering - Self-Consistency](https://www.promptingguide.ai/techniques/consistency)
   - [Prompt Engineering - Generate Knowledge Prompting](https://www.promptingguide.ai/techniques/knowledge)
+  - [Prompt Engineering - Tree of Thoughts (ToT)](https://www.promptingguide.ai/techniques/tot)
+  - [Prompt Engineering - Automatic Reasoning and Tool-use (ART)](https://www.promptingguide.ai/techniques/art)
   - [Prompt Engineering - Automatic Prompt Engineer](https://www.promptingguide.ai/techniques/ape)
   - [Prompt Engineering - Active-Prompt](https://www.promptingguide.ai/techniques/activeprompt)
   - [Prompt Engineering - Directional Stimulus Prompting](https://www.promptingguide.ai/techniques/dsp)
@@ -69,6 +72,8 @@ You can also find the most up-to-date guides on our new website [https://www.pro
 - [Prompt Engineering - Applications](https://www.promptingguide.ai/applications)
   - [Prompt Engineering - Program-Aided Language Models](https://www.promptingguide.ai/applications/pal)
   - [Prompt Engineering - Generating Data](https://www.promptingguide.ai/applications/generating)
+  - [Prompt Engineering - Generating Synthetic Dataset for RAG](https://www.promptingguide.ai/applications/synthetic_rag)
+  - [Prompt Engineering - Takling Generated Datasets Diversity](https://www.promptingguide.ai/applications/generating_textbooks)
   - [Prompt Engineering - Generating Code](https://www.promptingguide.ai/applications/coding)
   - [Prompt Engineering - Graduate Job Classification Case Study](https://www.promptingguide.ai/applications/workplace_casestudy)
 - [Prompt Engineering - Models](https://www.promptingguide.ai/models)
