@@ -1,9 +1,9 @@
 ---
 title: idurar-erp-crm
-date: 2023-11-08T12:15:14+08:00
+date: 2023-11-10T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1672817048788-796c16a602d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1672817048788-796c16a602d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk0MTY5MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698069005894-f01747b3f152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698069005894-f01747b3f152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
 ---
 
 # [idurar/idurar-erp-crm](https://github.com/idurar/idurar-erp-crm)
@@ -112,7 +112,7 @@ This command will install all the required packages specified in the package.jso
 While still in the /backend directory of the project, execute the following command to run the setup script:
 
 ```bash
-node setup/setup.js
+npm run setup
 ```
 
 This setup script may perform necessary database migrations or any other initialization tasks required for the project.
@@ -144,7 +144,7 @@ npm install
 After installing the frontend dependencies, run the following command in the same terminal to start the frontend server:
 
 ```bash
-npm run start
+npm run dev
 ```
 
 This command will start the frontend server, and you'll be able to access the website on localhost:3000 in your web browser.
@@ -213,13 +213,6 @@ Now you should be all set to run the project locally on your machine and explore
 
 7.[Questions](https://github.com/idurar/idurar-erp-crm/blob/master/CONTRIBUTING.md#questions)
 
-## Star History
-
-Here you can see the proxy of our growth on the platform and that we're only getting started.
-
-But if you'd like to check it out more news and website you can always check it out on: https://www.idurarapp.com/.
-
-[![](image.png)](https://star-history.com/#idurar/idurar-erp-crm)
 
 ## License
 

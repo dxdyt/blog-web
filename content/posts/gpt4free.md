@@ -1,65 +1,39 @@
 ---
 title: gpt4free
-date: 2023-10-24T12:15:30+08:00
+date: 2023-11-10T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696948132802-3d61d42d516a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698002253060-b82a6336fd85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698002253060-b82a6336fd85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
 ---
 
 # [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
 
+new discord server: [discord.gg/XfybzPXPH5](https://discord.gg/XfybzPXPH5)
+
+<div id="top"></div>
+
 ![248433934-7886223b-c1d1-4260-82aa-da5741f303bb](https://github.com/xtekky/gpt4free/assets/98614666/ea012c87-76e0-496a-8ac4-e2de090cc6c9)
 
-By using this repository or any code related to it, you agree to the [legal notice](./LEGAL_NOTICE.md). The author is not responsible for any copies, forks, reuploads made by other users, or anything else related to gpt4free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses.
 
-- latest pypi version: [`0.1.7.6`](https://pypi.org/project/g4f/0.1.7.6)
+> **Note**
+> By using this repository or any code related to it, you agree to the [legal notice](./LEGAL_NOTICE.md). The author is not responsible for any copies, forks, re-uploads made by other users, or anything else related to GPT4Free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses.
+
+> **Note**
+> Latest pypi version: [`0.1.8.1`](https://pypi.org/project/g4f/0.1.8.1)
 ```sh
 pip install -U g4f
 ```
 
-or if you just want to use the gui or interference api, install with [pipx](https://pypa.github.io/pipx/)
-
-```sh
-pipx install g4f
-```
-
 ## New features
-- Telegram Channel: https://t.me/g4f_channel
-- g4f GUI is back !!:   
-Install g4f with pip and then run:
-
-```sh
-g4f gui
-```
-
-or 
-
-```sh
-python -m g4f.gui.run
-```
-
-preview:
-
-<img width="1470" alt="image" src="https://github.com/xtekky/gpt4free/assets/98614666/a767290f-d29c-471c-9db4-6905d1cb6489">
-
-- run interference api from pypi package:
-
-```sh
-g4f api
-```
-
-or
-
-```py
-python -m g4f.interference.run
-```
+* Telegram Channel: [t.me/g4f_channel](https://telegram.me/g4f_channel)
+* g4f documentation (unfinished): [g4f.mintlify.app](https://g4f.mintlify.app) | Contribute to the docs via: [github.com/xtekky/gpt4free-docs](https://github.com/xtekky/gpt4free-docs)
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Setting up the project](#setting-up-the-project)
-    - [Install using pypi](#install-using-pypi)
+    - [Install using PyPi](#install-using-pypi)
     - [Install using docker](#setting-up-with-docker)
 - [Usage](#usage)
   - [The `g4f` Package](#the-g4f-package)
@@ -167,7 +141,7 @@ docker compose build
 docker compose up
 ```
 
-You server will now be running at `http://localhost:1337`. You can interact with the API or run your tests as you would normally.
+Your server will now be running at `http://localhost:1337`. You can interact with the API or run your tests as you would normally.
 
 To stop the Docker containers, simply run:
 
@@ -175,7 +149,8 @@ To stop the Docker containers, simply run:
 docker compose down
 ```
 
-**Note:** When using Docker, any changes you make to your local files will be reflected in the Docker container thanks to the volume mapping in the `docker-compose.yml` file. If you add or remove dependencies, however, you'll need to rebuild the Docker image using `docker compose build`.
+> **Note**
+> When using Docker, any changes you make to your local files will be reflected in the Docker container thanks to the volume mapping in the `docker-compose.yml` file. If you add or remove dependencies, however, you'll need to rebuild the Docker image using `docker compose build`.
 
 ## Usage
 
@@ -343,16 +318,16 @@ response = g4f.ChatCompletion.create(
 print(f"Result:", response)
 ```
 
-### interference openai-proxy api (use with openai python package)
+### interference openai-proxy API (use with openai python package)
 
-#### run interference api from pypi package:
+#### run interference API from PyPi package:
 ```py
 from g4f.api import run_api
 
 run_api()
 ```
 
-#### run interference api from repo:
+#### run interference API from repo:
 If you want to use the embedding function, you need to get a Hugging Face token. You can get one at https://huggingface.co/settings/tokens make sure your role is set to write. If you have your token, just use it instead of the OpenAI api-key.
 
 run server:
@@ -370,9 +345,12 @@ python -m g4f.api
 ```py
 import openai
 
-openai.api_key = "Empty if you don't use embeddings, otherwise your hugginface token"
-openai.api_base = "http://localhost:1337/v1"
+# Set your Hugging Face token as the API key if you use embeddings
+# If you don't use embeddings, leave it empty
+openai.api_key = "YOUR_HUGGING_FACE_TOKEN"  # Replace with your actual token
 
+# Set the API base URL if needed, e.g., for a local development environment
+openai.api_base = "http://localhost:1337/v1"
 
 def main():
     chat_completion = openai.ChatCompletion.create(
@@ -382,18 +360,18 @@ def main():
     )
 
     if isinstance(chat_completion, dict):
-        # not stream
+        # Not streaming
         print(chat_completion.choices[0].message.content)
     else:
-        # stream
+        # Streaming
         for token in chat_completion:
             content = token["choices"][0]["delta"].get("content")
-            if content != None:
+            if content is not None:
                 print(content, end="", flush=True)
 
-
-if __name__ == "__main__":
+if __name__ == "__main":
     main()
+
 ```
 
 ## Models
@@ -414,6 +392,7 @@ if __name__ == "__main__":
 
 | Website| Provider| gpt-3.5 | Stream    | Async     | Status | Auth |
 | ------ | ------- | ------- | --------- | --------- | ------ | ---- |
+| [chat9.yqcloud.top](https://chat9.yqcloud.top/) | `g4f.Provider.Yqcloud` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
 | [www.aitianhu.com](https://www.aitianhu.com) | `g4f.Provider.AItianhu` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
 | [chat3.aiyunos.top](https://chat3.aiyunos.top/) | `g4f.Provider.AItianhuSpace` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
 | [e.aiask.me](https://e.aiask.me) | `g4f.Provider.AiAsk` | ✔️ | ✔️ | ✔️ | ![Active](https://img.shields.io/badge/Active-brightgreen) | ❌ |
@@ -461,7 +440,6 @@ if __name__ == "__main__":
 | [wewordle.org](https://wewordle.org) | `g4f.Provider.Wewordle` | ✔️ | ❌ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
 | [chat.wuguokai.xyz](https://chat.wuguokai.xyz) | `g4f.Provider.Wuguokai` | ✔️ | ❌ | ❌ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
 | [chat.ylokh.xyz](https://chat.ylokh.xyz) | `g4f.Provider.Ylokh` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
-| [chat9.yqcloud.top](https://chat9.yqcloud.top/) | `g4f.Provider.Yqcloud` | ✔️ | ✔️ | ✔️ | ![Inactive](https://img.shields.io/badge/Inactive-red) | ❌ |
 
 ### Other Models
 
@@ -541,6 +519,13 @@ if __name__ == "__main__":
       <td><a href="https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/mishalhossin/Discord-Chatbot-Gpt4Free?style=flat-square&labelColor=343b41"/></a></td>
       <td><a href="https://github.com/mishalhossin/Discord-Chatbot-Gpt4Free/issues"><img alt="Issues" src="https://img.shields.io/github/issues/mishalhossin/Discord-Chatbot-Gpt4Free?style=flat-square&labelColor=343b41"/></a></td>
       <td><a href="https://github.com/mishalhossin/Coding-Chatbot-Gpt4Free/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/mishalhossin/Discord-Chatbot-Gpt4Free?style=flat-square&labelColor=343b41"/></a></td>
+<tr>
+  <td><a href="https://github.com/SamirXR/Nyx-Bot"><b>Nyx-Bot (Discord)</b></a></td>
+  <td><a href="https://github.com/SamirXR/Nyx-Bot/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/SamirXR/Nyx-Bot?style=flat-square&labelColor=343b41"/></a></td>
+  <td><a href="https://github.com/SamirXR/Nyx-Bot/network/members"><img alt="Forks" src="https://img.shields.io/github/forks/SamirXR/Nyx-Bot?style=flat-square&labelColor=343b41"/></a></td>
+  <td><a href="https://github.com/SamirXR/Nyx-Bot/issues"><img alt="Issues" src="https://img.shields.io/github/issues/SamirXR/Nyx-Bot?style=flat-square&labelColor=343b41"/></a></td>
+  <td><a href="https://github.com/SamirXR/Nyx-Bot/pulls"><img alt="Pull Requests" src="https://img.shields.io/github/issues-pr/SamirXR/Nyx-Bot?style=flat-square&labelColor=343b41"/></a></td>
+</tr>
     </tr>
     <tr>
       <td><a href="https://github.com/MIDORIBIN/langchain-gpt4free"><b>LangChain gpt4free</b></a></td>
@@ -582,15 +567,15 @@ Call in your terminal the "create_provider" script:
 python etc/tool/create_provider.py
 ```
 1. Enter your name for the new provider.
-2. Copy & Paste a cURL command from your browser developer tools.
+2. Copy and paste the `URL` command from your browser developer tools.
 3. Let the AI ​​create the provider for you.
 4. Customize the provider according to your needs.
 
 #### Create Provider
 
-0. Check out the current [list of potential providers](https://github.com/zukixa/cool-ai-stuff#ai-chat-websites), or find your own provider source!
-1. Create a new file in [g4f/provider](./g4f/provider) with the name of the Provider
-2. Implement a class that extends [BaseProvider](./g4f/provider/base_provider.py).
+1. Check out the current [list of potential providers](https://github.com/zukixa/cool-ai-stuff#ai-chat-websites), or find your own provider source!
+2. Create a new file in [g4f/Provider](./g4f/Provider) with the name of the Provider
+3. Implement a class that extends [BaseProvider](./g4f/Provider/base_provider.py).
 
 ```py
 from __future__ import annotations
@@ -614,9 +599,9 @@ class HogeService(AsyncGeneratorProvider):
         yield ""
 ```
 
-3. Here, you can adjust the settings, for example if the website does support streaming, set `supports_stream` to `True`...
-4. Write code to request the provider in `create_async_generator` and `yield` the response, _even if_ its a one-time response, do not hesitate to look at other providers for inspiration
-5. Add the Provider Name in [g4f/provider/**init**.py](./g4f/provider/__init__.py)
+4. Here, you can adjust the settings, for example, if the website does support streaming, set `supports_stream` to `True`...
+5. Write code to request the provider in `create_async_generator` and `yield` the response, _even if_ it's a one-time response, do not hesitate to look at other providers for inspiration
+6. Add the Provider Name in [g4f/Provider/**init**.py](./g4f/Provider/__init__.py)
 
 ```py
 from .HogeService import HogeService
@@ -626,7 +611,7 @@ __all__ = [
 ]
 ```
 
-6. You are done !, test the provider by calling it:
+7. You are done !, test the provider by calling it:
 
 ```py
 import g4f
@@ -641,7 +626,7 @@ for message in response:
 ## Contributors
 
 A list of the contributors is available [here](https://github.com/xtekky/gpt4free/graphs/contributors)   
-The [`Vercel.py`](https://github.com/xtekky/gpt4free/blob/main/g4f/Provider/Vercel.py) file contains code from [vercel-llm-api](https://github.com/ading2210/vercel-llm-api) by [@ading2210](https://github.com/ading2210), which is licenced under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)   
+The [`Vercel.py`](https://github.com/xtekky/gpt4free/blob/main/g4f/Provider/Vercel.py) file contains code from [vercel-llm-api](https://github.com/ading2210/vercel-llm-api) by [@ading2210](https://github.com/ading2210), which is licensed under the [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.txt)   
 Top 1 Contributor: [@hlohaus](https://github.com/hlohaus)
 
 ## Copyright
@@ -684,3 +669,5 @@ This project is licensed under <a href="./LICENSE">GNU_GPL_v3.0</a>. <img width=
     </td>
   </tr>
 </table>
+
+<p align="right">(<a href="#top">🔼 Back to top</a>)</p>

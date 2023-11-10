@@ -1,9 +1,9 @@
 ---
 title: go-openai
-date: 2023-11-09T12:16:48+08:00
+date: 2023-11-10T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696855179885-216725c8f4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696855179885-216725c8f4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693336431613-9207b6bd71e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693336431613-9207b6bd71e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
 ---
 
 # [sashabaranov/go-openai](https://github.com/sashabaranov/go-openai)
