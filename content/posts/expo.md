@@ -1,9 +1,9 @@
 ---
 title: expo
-date: 2023-07-09T12:18:49+08:00
+date: 2023-11-11T12:15:30+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1685030411266-1df0345a7623?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1685030411266-1df0345a7623?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697228644203-5e43445fc835?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697228644203-5e43445fc835?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
 ---
 
 # [expo/expo](https://github.com/expo/expo)

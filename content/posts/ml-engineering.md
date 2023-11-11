@@ -1,9 +1,9 @@
 ---
 title: ml-engineering
-date: 2023-10-26T12:15:59+08:00
+date: 2023-11-11T12:17:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1675703236969-e4ce4d298618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1675703236969-e4ce4d298618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
@@ -20,29 +20,78 @@ This repo is an ongoing brain dump of my experiences training Large Language Mod
 I've been compiling this information mostly for myself so that I could quickly find solutions I have already researched in the past and which have worked, but as usual I'm happy to share these with the wider ML community.
 
 
-## [Debugging software and hardware failures](./debug/)
+## Table of Contents
 
-## [Fault Tolerance](./fault-tolerance/)
+My apologies while I'm writing new chapters and re-organizing the content to be more intuitive. And some chapters are placeholders.
 
-## [Performance](./performance/)
+**Part 1. Key Components**
 
-## [Multi-Node networking](./multi-node)
+1. **[Network](./network/)** - intra-node and inter-node connectivity, calculating bandwidth requirements
 
-## [Model parallelism](./model-parallelism/)
+1. **[IO](./io/)** - local and distributed disks and filesystems
 
-## [Tensor precision / Data types](./dtype/)
+2. **[CPU](./cpu/)** - cpus, affinities (WIP)
 
-## [Reproducibility](./reproducibility/)
+1. **[GPU](./gpu/)** - the work horses (WIP)
 
-## [Instabilities](./instabilities/)
+1. **[CPU Memory](./cpu-memory/)** - how much CPU memory is enough - the shortest chapter ever.
 
-## [Training hyper-parameters and model initializations](./hparams/)
 
-## [SLURM](./slurm/)
+**Part 2. Performance**
 
-## [Resources](./resources/)
+1. **[Fault Tolerance](./fault-tolerance/)**
 
-## [HF Transformers notes](./transformers/)
+1. **[Performance](./performance/)**
+
+1. **[Multi-Node networking](./multi-node)**
+
+1. **[Model parallelism](./model-parallelism/)**
+
+
+**Part 3. Operating**
+
+1. **[SLURM](./slurm/)**
+
+1. **[Training hyper-parameters and model initializations](./hparams/)**
+
+1. **[Instabilities](./instabilities/)**
+
+
+**Part 4. Development**
+
+1. **[Debugging software and hardware failures](./debug/)**
+
+1. **[And more debugging](https://github.com/stas00/the-art-of-debugging)**
+
+1. **[Reproducibility](./reproducibility/)**
+
+1. **[Tensor precision / Data types](./dtype/)**
+
+1. **[HF Transformers notes](./transformers/)** - making small models, tokenizers, datasets, and other tips
+
+
+**Part 5. Miscellaneous**
+
+1. **[Resources](./resources/)** - LLM/VLM chronicles
+
+
+
+
+## Shortcuts
+
+Things that you are likely to need to find quickly and often.
+
+Tools:
+
+- [all_reduce_bench.py](./multi-node/all_reduce_bench.py) - a much easier way to benchmark network throughput than nccl-tests.
+- [torch-distributed-gpu-test.py](./debug/torch-distributed-gpu-test.py) - a tool to quickly test your inter-node connectivity
+
+Guides:
+
+- [debugging pytorch applications](./debug/pytorch.md) - quick copy-n-paste solutions to resolve hanging or breaking pytorch applications
+- [slurm for users](./slurm/users.md) - a slurm cheatsheet and tricks
+- [make tiny models/datasets/tokenizers](./transformers/make-tiny-models.md)
+- [LLM/VLM chronicles collection](https://github.com/stas00/ml-engineering/tree/master/resources#publicly-available-training-llmvlm-logbooks)
 
 
 ## Gratitude

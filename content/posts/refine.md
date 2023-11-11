@@ -1,9 +1,9 @@
 ---
 title: refine
-date: 2023-11-09T12:16:18+08:00
+date: 2023-11-11T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698111294594-044d973e2c4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698111294594-044d973e2c4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
 ---
 
 # [refinedev/refine](https://github.com/refinedev/refine)

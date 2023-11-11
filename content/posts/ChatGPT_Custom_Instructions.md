@@ -1,9 +1,9 @@
 ---
 title: ChatGPT_Custom_Instructions
-date: 2023-11-10T12:16:37+08:00
+date: 2023-11-11T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698414126582-96bc9a781e87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698414126582-96bc9a781e87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
 ---
 
 # [daveshap/ChatGPT_Custom_Instructions](https://github.com/daveshap/ChatGPT_Custom_Instructions)

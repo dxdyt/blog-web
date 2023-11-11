@@ -1,9 +1,9 @@
 ---
 title: openai-python
-date: 2023-11-09T12:16:09+08:00
+date: 2023-11-11T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694813646419-01c9ca785c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694813646419-01c9ca785c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699005735782-844cded83aed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699005735782-844cded83aed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-python](https://github.com/openai/openai-python)
@@ -23,6 +23,9 @@ It is generated from our [OpenAPI specification](https://github.com/openai/opena
 The API documentation can be found [here](https://platform.openai.com/docs).
 
 ## Installation
+
+> [!IMPORTANT]
+> The SDK was rewritten in v1, which was released November 6th 2023. See the [v1 migration guide](https://github.com/openai/openai-python/discussions/742), which includes scripts to automatically update your code.
 
 ```sh
 pip install openai
@@ -247,7 +250,16 @@ from openai import OpenAI
 
 client = OpenAI()
 
-page = client.files.list()
+completion = client.chat.completions.create(
+    messages=[
+        {
+            "role": "user",
+            "content": "Can you generate an example json object describing a fruit?",
+        }
+    ],
+    model="gpt-3.5-turbo",
+    response_format={"type": "json_object"},
+)
 ```
 
 ## File Uploads
