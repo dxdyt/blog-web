@@ -1,9 +1,9 @@
 ---
 title: opengpts
-date: 2023-11-11T12:15:44+08:00
+date: 2023-11-12T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698399923752-16109547a59e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698399923752-16109547a59e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697895648538-0117b2383a03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697895648538-0117b2383a03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
 ---
 
 # [langchain-ai/opengpts](https://github.com/langchain-ai/opengpts)

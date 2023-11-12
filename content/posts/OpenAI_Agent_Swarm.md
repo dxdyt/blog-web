@@ -1,9 +1,9 @@
 ---
 title: OpenAI_Agent_Swarm
-date: 2023-11-11T12:14:46+08:00
+date: 2023-11-12T12:15:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696855179868-9c40f02b4706?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696855179868-9c40f02b4706?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698516923129-3633a0a5cec3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698516923129-3633a0a5cec3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
 ---
 
 # [daveshap/OpenAI_Agent_Swarm](https://github.com/daveshap/OpenAI_Agent_Swarm)
@@ -24,7 +24,7 @@ The HAAS is designed to be a self-expanding system where a core set of agents, g
 
 ## Theoretical Foundation
 
-The AAHS is predicated on the notion that autonomous agents require a robust ethical and operational framework to make decisions that align with human values and organizational goals. This is rooted in the understanding that AI, much like humans, cannot operate effectively without a set of guiding principles or a moral compass. The HAAS addresses this by establishing a multi-tiered system where each layer of agents operates within a defined ethical and functional scope, ensuring decisions are made with consideration to morality, ethics, and utility.
+The HAAS is predicated on the notion that autonomous agents require a robust ethical and operational framework to make decisions that align with human values and organizational goals. This is rooted in the understanding that AI, much like humans, cannot operate effectively without a set of guiding principles or a moral compass. The HAAS addresses this by establishing a multi-tiered system where each layer of agents operates within a defined ethical and functional scope, ensuring decisions are made with consideration to morality, ethics, and utility.
 
 ## System Architecture
 

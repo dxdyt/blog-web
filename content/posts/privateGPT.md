@@ -1,27 +1,28 @@
 ---
 title: privateGPT
-date: 2023-10-23T12:16:07+08:00
+date: 2023-11-12T12:14:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696616297091-c07da52da503?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696616297091-c07da52da503?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698619952010-3bc850cbcb3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698619952010-3bc850cbcb3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
 ---
 
 # [imartinez/privateGPT](https://github.com/imartinez/privateGPT)
 
 # 🔒 PrivateGPT 📑
 
-> [!NOTE]  
-> Just looking for the docs? Go here: https://docs.privategpt.dev/
+> Install & usage docs: https://docs.privategpt.dev/
+> 
+> Join the community: [Twitter](https://twitter.com/PrivateGPT_AI) & [Discord](https://discord.gg/bK6mRVpErU)
 
 
 <img width="900"  alt="demo" src="https://lh3.googleusercontent.com/drive-viewer/AK7aPaBasLxbp49Hrwnmi_Ctii1oIM18nFJrBO0ERSE3wpkS-syjiQBE32_tUSdqnjn6etUDjUSkdJeFa8acqRb0lZbkZ6CyAw=s1600">
 
-PrivateGPT is a production-ready AI project that allows you to ask questions to your documents using the power
-of Large Language Models (LLMs), even in scenarios without Internet connection. 100% private, no data leaves your
+PrivateGPT is a production-ready AI project that allows you to ask questions about your documents using the power
+of Large Language Models (LLMs), even in scenarios without an Internet connection. 100% private, no data leaves your
 execution environment at any point.
 
 The project provides an API offering all the primitives required to build private, context-aware AI applications.
-It follows and extends [OpenAI API standard](https://openai.com/blog/openai-api),
+It follows and extends the [OpenAI API standard](https://openai.com/blog/openai-api),
 and supports both normal and streaming responses.
 
 The API is divided into two logical blocks:
@@ -50,14 +51,14 @@ DISCLAIMER: This README is not updated as frequently as the [documentation](http
 Please check it out for the latest updates!
 
 ### Motivation behind PrivateGPT
-Generative AI is a game changer for our society, but adoption in companies of all size and data-sensitive
+Generative AI is a game changer for our society, but adoption in companies of all sizes and data-sensitive
 domains like healthcare or legal is limited by a clear concern: **privacy**.
 Not being able to ensure that your data is fully under your control when using third-party AI tools
 is a risk those industries cannot take.
 
 ### Primordial version
 The first version of PrivateGPT was launched in May 2023 as a novel approach to address the privacy
-concern by using LLMs in a complete offline way.
+concerns by using LLMs in a complete offline way.
 This was done by leveraging existing technologies developed by the thriving Open Source AI community:
 [LangChain](https://github.com/hwchase17/langchain), [LlamaIndex](https://www.llamaindex.ai/),
 [GPT4All](https://github.com/nomic-ai/gpt4all),
@@ -79,10 +80,10 @@ PrivateGPT if you come from the previous, primordial version.
 ### Present and Future of PrivateGPT
 PrivateGPT is now evolving towards becoming a gateway to generative AI models and primitives, including
 completions, document ingestion, RAG pipelines and other low-level building blocks.
-We want to make easier for any developer to build AI applications and experiences, as well as providing
+We want to make it easier for any developer to build AI applications and experiences, as well as provide
 a suitable extensive architecture for the community to keep contributing.
 
-Stay tuned to our [releases](https://github.com/imartinez/privateGPT/releases) to check all the new features and changes included.
+Stay tuned to our [releases](https://github.com/imartinez/privateGPT/releases) to check out all the new features and changes included.
 
 ## 📄 Documentation
 Full documentation on installation, dependencies, configuration, running the server, deployment options,
@@ -97,7 +98,7 @@ primitives.
 
 The design of PrivateGPT allows to easily extend and adapt both the API and the
 RAG implementation. Some key architectural decisions are:
-* Dependency Injection, decoupling the different componentes and layers.
+* Dependency Injection, decoupling the different components and layers.
 * Usage of LlamaIndex abstractions such as `LLM`, `BaseEmbedding` or `VectorStore`,
   making it immediate to change the actual implementations of those abstractions.
 * Simplicity, adding as few layers and new abstractions as possible.
@@ -138,7 +139,6 @@ you want to give a hand:
 ### Features
 - Implement concurrency lock to avoid errors when there are several calls to the local LlamaCPP model
 - API key-based request control to the API
-- CORS support
 - Support for Sagemaker
 - Support Function calling
 - Add md5 to check files already ingested
@@ -159,14 +159,24 @@ Join the conversation around PrivateGPT on our:
 - [Discord](https://discord.gg/bK6mRVpErU)
 
 ## 📖 Citation
-Reference to cite if you use PrivateGPT in a paper:
+If you use PrivateGPT in a paper, check out the [Citation file](CITATION.cff) for the correct citation.  
+You can also use the "Cite this repository" button in this repo to get the citation in different formats.
 
-```
-@software{PrivateGPT_2023,
-authors = {Martinez, I., Gallego, D. Orgaz, P.},
-month = {5},
-title = {PrivateGPT},
+Here are a couple of examples:
+
+#### BibTeX
+```bibtex
+@software{Martinez_Toro_PrivateGPT_2023,
+author = {Martínez Toro, Iván and Gallego Vico, Daniel and Orgaz, Pablo},
+license = {Apache-2.0},
+month = may,
+title = {{PrivateGPT}},
 url = {https://github.com/imartinez/privateGPT},
 year = {2023}
 }
+```
+
+#### APA
+```
+Martínez Toro, I., Gallego Vico, D., & Orgaz, P. (2023). PrivateGPT [Computer software]. https://github.com/imartinez/privateGPT
 ```
