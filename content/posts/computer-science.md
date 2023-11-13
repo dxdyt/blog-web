@@ -1,9 +1,9 @@
 ---
 title: computer-science
-date: 2023-11-12T12:16:40+08:00
+date: 2023-11-13T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698430484227-006b70bc83cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698430484227-006b70bc83cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698350082855-9ac182e07a0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698350082855-9ac182e07a0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
 ---
 
 # [ossu/computer-science](https://github.com/ossu/computer-science)

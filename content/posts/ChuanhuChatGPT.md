@@ -1,9 +1,9 @@
 ---
 title: ChuanhuChatGPT
-date: 2023-11-11T12:17:01+08:00
+date: 2023-11-13T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697228644203-5e43445fc835?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697228644203-5e43445fc835?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699592854133-25c24959d60f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699592854133-25c24959d60f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
 ---
 
 # [GaiZhenbiao/ChuanhuChatGPT](https://github.com/GaiZhenbiao/ChuanhuChatGPT)

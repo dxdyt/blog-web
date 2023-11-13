@@ -1,9 +1,9 @@
 ---
 title: Cataclysm-DDA
-date: 2023-10-17T12:18:18+08:00
+date: 2023-11-13T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696805966408-5f92fdb79ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696805966408-5f92fdb79ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc1MTYxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697603206408-5a44f13272db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697603206408-5a44f13272db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
 ---
 
 # [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)

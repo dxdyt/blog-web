@@ -1,12 +1,20 @@
 ---
 title: alignment-handbook
-date: 2023-10-30T12:17:36+08:00
+date: 2023-11-13T12:15:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698350335067-d44252583526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698350335067-d44252583526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699592854133-25c24959d60f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699592854133-25c24959d60f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/alignment-handbook](https://github.com/huggingface/alignment-handbook)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/huggingface/alignment-handbook/main/assets/handbook.png">
+</p>
+
+<p align="center">
+    🤗 <a href="https://huggingface.co/collections/alignment-handbook/handbook-v01-models-and-datasets-654e424d22e6880da5ebc015" target="_blank">Models & Datasets</a> | 📃 <a href="https://arxiv.org/abs/2310.16944" target="_blank">Technical Report</a>
+</p>
 
 # The Alignment Handbook
 
@@ -20,9 +28,27 @@ However, we know from the [InstructGPT](https://huggingface.co/papers/2203.02155
 
 The Alignment Handbook aims to fill that gap by providing the community with a series of robust training recipes that span the whole pipeline.
 
+## News 🗞️
+
+* **November 10, 2023:** We release all the training code to replicate Zephyr-7b-β 🪁! We also release [No Robots](https://huggingface.co/datasets/HuggingFaceH4/no_robots), a brand new dataset of 10,000 instructions and demonstrations written entirely by skilled human annotators.
+
 ## Links 🔗
 
 * [Zephyr 7B models, datasets, and demos](https://huggingface.co/collections/HuggingFaceH4/zephyr-7b-6538c6d6d5ddd1cbb1744a66)
+
+## How to navigate this project 🧭
+
+This project is simple by design and mostly consists of:
+
+* [`scripts`](./scripts/) to train and evaluate chat models. Each script supports distributed training of the full model weights with DeepSpeed ZeRO-3, or LoRA/QLoRA for parameter-efficient fine-tuning.
+* [`recipes`](./recipes/) to reproduce models like Zephyr 7B. Each recipe takes the form of a YAML file which contains all the parameters associated with a single training run.
+
+We are also working on a series of guides to explain how methods like direct preference optimization (DPO) work, along with lessons learned from gathering human preferences in practice. To get started, we recommend the following:
+
+1. Follow the [installation instructions](#installation-instructions) to set up your environment etc.
+2. Replicate Zephyr-7b-β by following the [recipe instructions](./recipes/zephyr-7b-beta/README.md).
+
+If you would like to train chat models on your own datasets, we recommend following the dataset formatting instructions [here](./scripts/README.md#fine-tuning-on-your-datasets).
 
 
 ## Contents
@@ -34,21 +60,28 @@ The initial release of the handbook will focus on the following techniques:
 * **Rejection sampling:** a simple, but powerful technique to boost the performance of your SFT model.
 * **Direct preference optimisation (DPO):** a powerful and promising alternative to PPO.
 
-## Getting started
+## Installation instructions
 
-To run the code in this project, first create a Python virtual environment using e.g. Conda:
+To run the code in this project, first, create a Python virtual environment using e.g. Conda:
 
 ```shell
 conda create -n handbook python=3.10 && conda activate handbook
 ```
 
-Next, install PyTorch v2.1.0. Since this hardware-dependent, we
+Next, install PyTorch `v2.1.0` - the precise version is important for reproducibility! Since this is hardware-dependent, we
 direct you to the [PyTorch Installation Page](https://pytorch.org/get-started/locally/).
 
-Once PyTorch is installed, you can install the remaining package dependencies as follows:
+You can then install the remaining package dependencies as follows:
 
 ```shell
-pip install .
+python -m pip install .
+```
+
+You will also need Flash Attention 2 installed, which can be done by running:
+_Note: If your machine has less than 96GB of RAM and many CPU cores, reduce the MAX_JOBS., e.g. `MAX_JOBS=4 pip install flash-attn --no-build-isolation` _
+
+```shell
+python -m pip install flash-attn --no-build-isolation
 ```
 
 Next, log into your Hugging Face account as follows:
@@ -61,6 +94,23 @@ Finally, install Git LFS so that you can push models to the Hugging Face Hub:
 
 ```shell
 sudo apt-get install git-lfs
+```
+
+You can now check out the `scripts` and `recipes` directories for instructions on how to train some models 🪁!
+
+## Project structure
+
+```
+├── LICENSE
+├── Makefile                    <- Makefile with commands like `make style`
+├── README.md                   <- The top-level README for developers using this project
+├── chapters                    <- Educational content to render on hf.co/learn
+├── recipes                     <- Recipe configs, accelerate configs, slurm scripts
+├── scripts                     <- Scripts to train and evaluate chat models
+├── setup.cfg                   <- Installation config (mostly used for configuring code quality & tests)
+├── setup.py                    <- Makes project pip installable (pip install -e .) so `alignment` can be imported
+├── src                         <- Source code for use in this project
+└── tests                       <- Unit tests
 ```
 
 ## Citation

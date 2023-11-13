@@ -1,9 +1,9 @@
 ---
 title: svelte
-date: 2023-06-28T12:19:50+08:00
+date: 2023-11-13T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686556029158-90f2cc511c04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686556029158-90f2cc511c04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc5MjU4NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697113234178-26f1c10382e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697113234178-26f1c10382e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
 ---
 
 # [sveltejs/svelte](https://github.com/sveltejs/svelte)
@@ -76,7 +76,7 @@ pnpm test -- -g transition
 
 ### svelte.dev
 
-The source code for https://svelte.dev lives in the [sites](https://github.com/sveltejs/sites) repository, with all the documentation in the [site/content](site/content) directory. The site is built with [SvelteKit](https://kit.svelte.dev).
+The source code for https://svelte.dev lives in the [sites](https://github.com/sveltejs/svelte/tree/master/sites/svelte.dev) folder, with all the documentation right [here](https://github.com/sveltejs/svelte/tree/master/documentation). The site is built with [SvelteKit](https://kit.svelte.dev).
 
 ## Is svelte.dev down?
 
