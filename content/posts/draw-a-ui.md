@@ -1,9 +1,9 @@
 ---
 title: draw-a-ui
-date: 2023-11-13T12:15:26+08:00
+date: 2023-11-14T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699126600586-9bc597e5ee2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699126600586-9bc597e5ee2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698527692282-fc5d8ab13771?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698527692282-fc5d8ab13771?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
 ---
 
 # [SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
@@ -21,6 +21,8 @@ This works by just taking the current canvas SVG, converting it to a PNG, and se
 ## Getting Started
 
 This is a Next.js app. To get started run the following commands in the root directory of the project. You will need an OpenAI API key with access to the GPT-4 Vision API.
+
+> Note this uses Next.js 14 and requires a version of `node` greater than 18.17. [Read more here](https://nextjs.org/docs/pages/building-your-application/upgrading/version-14).
 
 ```bash
 echo "OPENAI_API_KEY=sk-your-key" > .env.local

@@ -1,9 +1,9 @@
 ---
 title: OpenAI_Agent_Swarm
-date: 2023-11-13T12:15:35+08:00
+date: 2023-11-14T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699126600586-9bc597e5ee2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699126600586-9bc597e5ee2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696240547240-af6ae0c64953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696240547240-af6ae0c64953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
 ---
 
 # [daveshap/OpenAI_Agent_Swarm](https://github.com/daveshap/OpenAI_Agent_Swarm)
@@ -37,7 +37,7 @@ Exclusively use cutting edge stuff, like OpenAI's latest Agents endpoint. For ex
 
 Fully autonomous swarms are the goal. That means a human does not need to be in the loop telling it what to do, supervising, or anything. Characteristics of a fully autonomous swarm:
 
-1. **Principle or Mission Driven:** Once instantiated, the swarm pursues its mission or goals without supervision. It may self-direct based on principles such as the heuristic imperatives. This is the "self-directed" maxim.
+1. **Self-Directing:** Once instantiated, the swarm pursues its mission or goals without supervision. It may self-direct based on principles such as the heuristic imperatives, or by specific mission parameters.
 2. **Self-Correcting:** The swarm must detect and correct technical, strategic, epistemic, and other errors and then correct them.
 3. **Self-Improving:** Eventually, the swarm should enhance its own fundamental capabilities over time. 
 

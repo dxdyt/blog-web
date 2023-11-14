@@ -1,9 +1,9 @@
 ---
 title: monaspace
-date: 2023-11-13T12:15:42+08:00
+date: 2023-11-14T12:15:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697384334092-32e3c879d1ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697384334092-32e3c879d1ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697441642191-9be6641590bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697441642191-9be6641590bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
 ---
 
 # [githubnext/monaspace](https://github.com/githubnext/monaspace)
@@ -40,7 +40,7 @@ There are eight groups of coding ligatures, separated into stylistic sets. You m
 * `ss02`: ligatures related to the greater than or less than operators.
 * `ss03`: ligatures related to arrows like `->` and `=>`.
 * `ss04`: ligatures related to markup, like `</` and `/>`. 
-* `ss05`: ligatures related to the F♯ programming language, like `|>`.
+* `ss05`: ligatures related to the F# programming language, like `|>`.
 * `ss06`: ligatures related to repeated uses of `#` such as `##` or `###`.
 * `ss07`: ligatures related to the asterisk like `***`.
 * `ss08`: ligatures related to combinations like `.=` or `.-`.

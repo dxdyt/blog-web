@@ -1,9 +1,9 @@
 ---
 title: Microsoft-Activation-Scripts
-date: 2023-10-31T12:16:27+08:00
+date: 2023-11-14T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697537314275-4dd128cc2621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697537314275-4dd128cc2621?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698778573572-4eae301f500b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698778573572-4eae301f500b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
 ---
 
 # [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
