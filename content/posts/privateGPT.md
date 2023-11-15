@@ -1,9 +1,9 @@
 ---
 title: privateGPT
-date: 2023-11-14T12:15:15+08:00
+date: 2023-11-15T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698864273184-41cf2052196b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698864273184-41cf2052196b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [imartinez/privateGPT](https://github.com/imartinez/privateGPT)

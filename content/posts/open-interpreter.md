@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-11-14T12:18:08+08:00
+date: 2023-11-15T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696240547240-af6ae0c64953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696240547240-af6ae0c64953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698933787134-af2d451985c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698933787134-af2d451985c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)

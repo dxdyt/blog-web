@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2023-11-14T12:16:06+08:00
+date: 2023-11-15T12:15:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698527692282-fc5d8ab13771?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698527692282-fc5d8ab13771?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk5MzUzMDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -136,12 +136,12 @@ In our agent market. We have accumulated a large number of practical, prompt age
 
 | Recent Submits                                                                                                                                                                                       | Description                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Translation Assistant](https://chat-preview.lobehub.com/market?agent=en-cn-translator)<br/><sup>By **[tcmonster](https://github.com/tcmonster)** on **2023-11-14**</sup>                            | Expert in Chinese-English translation, pursuing accurate and elegant translations<br/>`translation` `chinese` `english`                                                                                                               |
+| [Research Article Translation Assistant](https://chat-preview.lobehub.com/market?agent=s-rtranslation)<br/><sup>By **[aihoom](https://github.com/aihoom)** on **2023-11-14**</sup>                   | An assistant that helps you translate scientific articles<br/>`research` `translation`                                                                                                                                                |
 | [Academic Writing Enhancement Bot](https://chat-preview.lobehub.com/market?agent=academic-writing-eb)<br/><sup>By **[Ruler27](https://github.com/Ruler27)** on **2023-11-11**</sup>                  | Academic English spelling and rhetoric refinement.<br/>`proofreading` `rhetoric` `academic` `research` `english` `editing`                                                                                                            |
 | [LobeChat Technical Documentation Expert](https://chat-preview.lobehub.com/market?agent=lobe-chat-develop-doc-writter)<br/><sup>By **[arvinxx](https://github.com/arvinxx)** on **2023-11-05**</sup> | LobeChat is an AI conversation application built with the Next.js framework. I will help you write the development documentation for LobeChat.<br/>`development-documentation` `technical-introduction` `next-js` `react` `lobe-chat` |
-| [Sketch Feature Summary Expert](https://chat-preview.lobehub.com/market?agent=sketch-changelog-highlighter)<br/><sup>By **[arvinxx](https://github.com/arvinxx)** on **2023-11-02**</sup>            | Skilled at extracting key changes from Sketch release notes<br/>`experience-design` `sketch` `update` `feature` `text-summary`                                                                                                        |
-| [Master of Debating](https://chat-preview.lobehub.com/market?agent=tqg-20231026)<br/><sup>By **[cake79](https://github.com/cake79)** on **2023-10-26**</sup>                                         | Simulates people who enjoy debating and can express counterarguments to any user input<br/>`writing` `dialogue`                                                                                                                       |
 
-> 📊 Total agents: [<kbd>**39**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**41**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

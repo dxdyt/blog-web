@@ -1,9 +1,9 @@
 ---
 title: atomicals-js
-date: 2023-09-24T12:16:48+08:00
+date: 2023-11-15T12:16:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694114183217-5eadf97f55fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694114183217-5eadf97f55fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU1Mjg4MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699462515761-90db271d77c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699462515761-90db271d77c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [atomicals/atomicals-js](https://github.com/atomicals/atomicals-js)
@@ -23,7 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1694114183217-5eadf97f55
 Download the github repo and then run:
 
 npm install
-npm build
+npm run build
 
 See all commands at:
 
@@ -41,6 +41,9 @@ The environment file comes with defaults (`.env.example`), but it is highly reco
 
 ```
 ELECTRUMX_WSS=wss://electrumx.atomicals.xyz:50012
+
+// Optional (defaults to wallet.json)
+WALLET_PATH=path-to-wallet.json
 ```
 
 _ELECTRUMX_WSS_: URL of the ElectrumX with Atomicals support. Note that only `wss` endpoints are accessible from web browsers.
@@ -51,6 +54,22 @@ The purpose of the wallet is to create p2tr (pay-to-taproot) spend scripts and t
 
 
 To initialize a new `wallet.json` file that will store your address for receiving change use the `wallet-init` command. Alternatively, you may populate the `wallet.json` manually, ensuring that the address at `m/44'/0'/0'/0/0` is equal to the address and the derivePath is set correctly.
+
+Configure the path in the environment `.env` file to point to your wallet file. defaults to `./wallet.json`
+
+Default:
+```
+WALLET_PATH=.
+WALLET_FILE=wallet.json
+```
+Update to `wallets/` directory:
+
+```
+WALLET_PATH=./wallets
+WALLET_FILE=wallet.json
+```
+
+Create the wallet:
 
 ```
 yarn cli wallet-init
@@ -92,4 +111,10 @@ https://atomicals.xyz
 
 https://x.com/atomicalsxyz (X - Formerly Twitter)
 
-  
+## Donate to Atomicals Development
+
+We greatly appreciate any donation to help support Atomicals Protocol development. We worked out of passion and kindness for the world, we believe this technology must exist and be free for all to use. Bitcoin is our one hope for freedom and digital sovereignty and we intend to do our best to make it a reality.
+
+BTC: bc1pljy9g0ugrgumpd5y6v9tv23rvz5y8dhaq980r9qfgyhd4dmgkwmqpdpr5q
+
+![Donate to Atomicals Development](donate.png)

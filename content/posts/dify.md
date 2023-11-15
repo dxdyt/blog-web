@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2023-08-02T12:16:00+08:00
+date: 2023-11-15T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685513801505-61f89d071e5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685513801505-61f89d071e5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697677469437-3a8e965c86ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697677469437-3a8e965c86ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -16,30 +16,40 @@ featuredImagePreview: https://images.unsplash.com/photo-1685513801505-61f89d071e
   <a href="./README_ES.md">Español</a>
 </p>
 
-[Website](https://dify.ai) • [Docs](https://docs.dify.ai) • [Twitter](https://twitter.com/dify_ai) • [Discord](https://discord.gg/FngNHpbcY7)
+#### [Website](https://dify.ai) • [Docs](https://docs.dify.ai) • [Deployment Docs](https://docs.dify.ai/getting-started/install-self-hosted) •  [FAQ](https://docs.dify.ai/getting-started/faq) • [Twitter](https://twitter.com/dify_ai) • [Discord](https://discord.gg/FngNHpbcY7)
 
-**Dify** is an easy-to-use LLMOps platform designed to empower more people to create sustainable, AI-native applications. With visual orchestration for various application types, Dify offers out-of-the-box, ready-to-use applications that can also serve as Backend-as-a-Service APIs. Unify your development process with one API for plugins and datasets integration, and streamline your operations using a single interface for prompt engineering, visual analytics, and continuous improvement.
+**Dify** is an LLM application development platform that has already seen over 100,000 applications built on Dify.AI. It integrates the concepts of Backend as a Service and LLMOps, covering the core tech stack required for building generative AI-native applications, including a built-in RAG engine. With Dify, **you can self-deploy capabilities similar to Assistants API and GPTs based on any LLMs.**
 
-Applications created with Dify include:
-
-Out-of-the-box web sites supporting form mode and chat conversation mode
-A single API encompassing plugin capabilities, context enhancement, and more, saving you backend coding effort
-Visual data analysis, log review, and annotation for applications
-Dify is compatible with Langchain, meaning we'll gradually support multiple LLMs, currently supported:
-
-* **OpenAI** ：GPT4、GPT3.5-turbo、GPT3.5-turbo-16k、text-davinci-003
-
-* **Azure OpenAI**
-
-* **Antropic**：Claude2、Claude-instant
-> We've got 1000 free trial credits available for all cloud service users to try out the Claude model.Visit [Dify.ai](https://dify.ai) and
-try it now.
-
-* **hugging face Hub**：Coming soon.
+https://github.com/langgenius/dify/assets/100913391/f6e658d5-31b3-4c16-a0af-9e191da4d0f6
 
 ## Use Cloud Services
 
-Visit [Dify.ai](https://dify.ai)
+Using [Dify.AI Cloud](https://dify.ai) provides all the capabilities of the open-source version, and includes a complimentary 200 GPT trial credits.
+
+## Why Dify
+
+Dify features model neutrality and is a complete, engineered tech stack compared to hardcoded development libraries like LangChain. Unlike OpenAI's Assistants API, Dify allows for full local deployment of services.
+
+| Feature | Dify.AI | Assistants API | LangChain |
+|---------|---------|----------------|-----------|
+| **Programming Approach** | API-oriented | API-oriented | Python Code-oriented |
+| **Ecosystem Strategy** | Open Source | Closed and Commercial | Open Source |
+| **RAG Engine** | Supported | Supported | Not Supported |
+| **Prompt IDE** | Included | Included | None |
+| **Supported LLMs** | Rich Variety | Only GPT | Rich Variety |
+| **Local Deployment** | Supported | Not Supported | Not Applicable |
+
+## Features
+
+**1. LLM Support**: Integration with OpenAI's GPT family of models, or the open-source Llama2 family models. In fact, Dify supports mainstream commercial models and open-source models (locally deployed or based on MaaS).
+
+**2. Prompt IDE**: Visual orchestration of applications and services based on LLMs with your team.
+
+**3. RAG Engine**: Includes various RAG capabilities based on full-text indexing or vector database embeddings, allowing direct upload of PDFs, TXTs, and other text formats.
+
+**4. Agents**: A Function Calling based Agent framework that allows users to configure what they see is what they get. Dify includes basic plugin capabilities like Google Search.
+
+**5. Continuous Operations**: Monitor and analyze application logs and performance, continuously improving Prompts, datasets, or models using production data.
 
 ## Install the Community Edition
 
@@ -47,7 +57,7 @@ Visit [Dify.ai](https://dify.ai)
 
 Before installing Dify, make sure your machine meets the following minimum system requirements:
 
-- CPU >= 1 Core
+- CPU >= 2 Core
 - RAM >= 4GB
 
 ### Quick Start
@@ -70,40 +80,10 @@ You can go to https://github.com/BorisPolonsky/dify-helm for deployment informat
 
 If you need to customize the configuration, please refer to the comments in our [docker-compose.yml](docker/docker-compose.yaml) file and manually set the environment configuration. After making the changes, please run 'docker-compose up -d' again.
 
-## Roadmap
-
-Features under development:
-
-- **Datasets**, supporting more datasets, e.g. syncing content from Notion or webpages
-We will support more datasets, including text, webpages, and even Notion content. Users can build AI applications based on their own data sources.
-- **Plugins**, introducing ChatGPT Plugin-standard plugins for applications, or using Dify-produced plugins
-We will release plugins complying with ChatGPT standard, or Dify's own plugins to enable more capabilities in applications. 
-- **Open-source models**, e.g. adopting Llama as a model provider or for further fine-tuning
-We will work with excellent open-source models like Llama, by providing them as model options in our platform, or using them for further fine-tuning.
-
-
-## Q&A
-
-**Q: What can I do with Dify?**
-
-A: Dify is a simple yet powerful LLM development and operations tool. You can use it to build commercial-grade applications, personal assistants. If you want to develop your own applications, LangDifyGenius can save you backend work in integrating with OpenAI and offer visual operations capabilities, allowing you to continuously improve and train your GPT model.
-
-**Q: How do I use Dify to "train" my own model?**
-
-A: A valuable application consists of Prompt Engineering, context enhancement, and Fine-tuning. We've created a hybrid programming approach combining Prompts with programming languages (similar to a template engine), making it easy to accomplish long-text embedding or capturing subtitles from a user-input Youtube video - all of which will be submitted as context for LLMs to process. We place great emphasis on application operability, with data generated by users during App usage available for analysis, annotation, and continuous training. Without the right tools, these steps can be time-consuming.
-
-**Q: What do I need to prepare if I want to create my own application?**
-
-A: We assume you already have an OpenAI API Key; if not, please register for one. If you already have some content that can serve as training context, that's great!
-
-**Q: What interface languages are available?**
-
-A: English and Chinese are currently supported, and you can contribute language packs to us.
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=langgenius/dify&type=Date)](https://star-history.com/#langgenius/dify&Date)
-
 
 ## Contributing 
 
@@ -144,14 +124,7 @@ We're eager to assist you and together create more fun and useful AI application
 
 To protect your privacy, please avoid posting security issues on GitHub. Instead, send your questions to security@dify.ai and we will provide you with a more detailed answer.
 
-## Citation
-
-This software uses the following open-source software:
-
-- Chase, H. (2022). LangChain [Computer software]. https://github.com/hwchase17/langchain
-
-For more information, please refer to the official website or license text of the respective software.
 
 ## License
 
-This repository is available under the [Dify Open Source License](LICENSE).
+This repository is available under the [Dify Open Source License](LICENSE), which is essentially Apache 2.0 with a few additional restrictions.

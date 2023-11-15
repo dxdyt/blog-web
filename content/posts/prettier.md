@@ -1,14 +1,14 @@
 ---
 title: prettier
-date: 2023-07-09T12:18:59+08:00
+date: 2023-11-15T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa7798?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [prettier/prettier](https://github.com/prettier/prettier)
 
-![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)
+[![Prettier Banner](https://unpkg.com/prettier-logo@1.0.3/images/prettier-banner-light.svg)](https://prettier.io)
 
 <h2 align="center">Opinionated Code Formatter</h2>
 
@@ -65,7 +65,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1686204928755-c2f12cfa77
   <a href="#badge">
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square"></a>
   <a href="https://twitter.com/PrettierCode">
-    <img alt="Follow Prettier on Twitter" src="https://img.shields.io/twitter/follow/prettiercode.svg?label=follow+prettier&style=flat-square"></a>
+    <img alt="Follow Prettier on Twitter" src="https://img.shields.io/badge/%40PrettierCode-9f9f9f?style=flat-square&logo=x&labelColor=555"></a>
 </p>
 
 ## Intro

@@ -1,9 +1,9 @@
 ---
 title: EmotiVoice
-date: 2023-11-13T12:17:31+08:00
+date: 2023-11-15T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698907432487-f99fa6a91c0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698907432487-f99fa6a91c0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [netease-youdao/EmotiVoice](https://github.com/netease-youdao/EmotiVoice)
@@ -37,7 +37,7 @@ Here are a few samples that EmotiVoice generates:
   
 - [English audio sample](https://github.com/netease-youdao/EmotiVoice/assets/3909232/8f272eba-49db-493b-b479-2d9e5a419e26)
   
-- [Fun Chinese English audio sample](https://github.com/netease-youdao/EmotiVoice/assets/3909232/a0709012-c3ef-4182-bb0e-b7a2ba386f1c)
+- [Chinese-accent English audio sample](https://github.com/netease-youdao/EmotiVoice/assets/3909232/a0709012-c3ef-4182-bb0e-b7a2ba386f1c)
 
 
 
@@ -109,9 +109,13 @@ streamlit run demo_page.py
 
 To be released.
 
-## Future work
 
-* The current implementation focuses on emotion/style control by prompts. It uses only pitch, speed, energy, and emotion as style factors, and does not use gender. But it is not complicated to change it to style/timbre control, similar to the original close-source implementation.
+## Roadmap & Future work
+
+- Our future plan can be found in the [ROADMAP](./ROADMAP.md) file.
+- The current implementation focuses on emotion/style control by prompts. It uses only pitch, speed, energy, and emotion as style factors, and does not use gender. But it is not complicated to change it to style/timbre control.
+- Suggestions are welcome. You can file issues or [@ydopensource](https://twitter.com/YDopensource) on twitter.
+
 
 ## WeChat group
 Welcome to scan the personal QR code below and join the WeChat group.
