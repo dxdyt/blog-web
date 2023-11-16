@@ -1,9 +1,9 @@
 ---
 title: Awesome-GPTs
-date: 2023-11-15T12:17:07+08:00
+date: 2023-11-16T12:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
 ---
 
 # [ai-boost/Awesome-GPTs](https://github.com/ai-boost/Awesome-GPTs)
@@ -54,7 +54,7 @@ Exciting news! We've just rolled out our very own GPT creation, aptly named **Aw
 
 🎉 **Your GPTs Featured**: Here's the thrilling part – your GPT models can also be recommended! This means more visibility and engagement for your contributions.
 
-🔗 **Give it a Try!** Eager to see AwesomeGPTs in action? Check it out here: [AwesomeGPTs Live Demo](https://chat.openai.com/g/g-imWUi8fVO-awesomegpts) (Knowledge cut-off: 2023/11/13). Experience firsthand how it brings the world of GPTs closer to the community.
+🔗 **Give it a Try!** Eager to see AwesomeGPTs in action? Check it out here: [AwesomeGPTs Live Demo](https://chat.openai.com/g/g-imWUi8fVO-awesomegpts) (Knowledge cut-off: 2023/11/15). Experience firsthand how it brings the world of GPTs closer to the community.
 
 Stay tuned for more updates and advancements!
 
@@ -202,6 +202,11 @@ Stay tuned for more updates and advancements!
    - A friendly math guide for young learners they can freely talk to, suggests appropriate puzzles but refuses to do their homework. 
    - [Chat now](https://chat.openai.com/g/g-yrEGSj7Zy-math-logic-tutor-junior) 
    - Submit by [@linus-ahlemeyer](https://github.com/linus-ahlemeyer)
+  
+9. 🔬 Academic Explorer
+   - Your expert in academic papers.
+   - [Chat now](https://chat.openai.com/gpts/editor/g-ASiAzIHhA)
+   - Submit by [@xuyingli](https://github.com/xl631212)
 
 ## Productivity
 1. 🦄Logo Designer (Professional Version)
@@ -427,6 +432,30 @@ Stay tuned for more updates and advancements!
    - [Chat now](https://chat.openai.com/g/g-pKWqpUKFN-crypto-compass-gpt)
    - Submit by [@jeronimobarea](https://github.com/jeronimobarea)
 
+9. 🛒 DropshippingGPT
+   - I am DropshippingGPT, an AI specialized in guiding users through all stages of creating and scaling a dropshipping business.
+   - [Chat now](https://chat.openai.com/g/g-v3xUJVEGa-dropshippinggpt)
+   - Submit by [@HeyitsRadinn](https://github.com/HeyitsRadinn)
+
+9. ✍️ Cover Letter GPT
+   - Expert in creating tailored cover letters based on job descriptions
+   - [Chat now](https://chat.openai.com/g/g-MYSzNumup-cover-letter-gpt)
+   - Submit by [@atharvtathe](https://github.com/atharvtathe)
+  
+9. 📖 GPTs Manual-master
+   - Help people write user manuals for the APP
+   - [Chat now](https://chat.openai.com/g/g-qrdHDm7n1-manual-master)
+   - Submit by [@Sollarzoo](https://github.com/Sollarzoo)
+  
+9. 😎 My Boss! (a boss who makes money for me)
+   - Strategic business leader for market analysis and financial growth
+   - [Chat now](https://chat.openai.com/g/g-F7SLUeAix-my-boss-a-boss-who-makes-money-for-me)
+   - Submit by [@ai-boost](https://github.com/ai-boost)
+
+9. 📊 GoogleAnalytics Guru
+    - Marketing partner specializing in website analysis and optimization metrics with Google Analytics
+    - [Chat now](https://chat.openai.com/g/g-fKYMc2NU0-googleanalytics-guru)
+    - Submit by [@Xenren](https://github.com/Xenren)
 
 ## Programming
 1. 💻Professional Coder (Auto programming)
@@ -604,6 +633,16 @@ Stay tuned for more updates and advancements!
    - Structured recipes for food and desserts – ingredient lists and step-by-step recipe instructions from any input. Become surprised, try something new or breathe life into grandma's old recipe notebook.
    - [Chat now](https://chat.openai.com/g/g-Ry3J42V4T-recipe-collector)
    - Submit by [@kalaspuff](https://github.com/kalaspuff)
+
+9. 👚 Outfit Generator
+   - I will help you create a matching outfit from an uploaded picture. I can generate a picture of matching outfit and search for such outfits on the web. 
+   - [Chat now](https://chat.openai.com/g/g-csCTyILmx-outfit-generator)
+   - Submit by [@dre-hh](https://github.com/dre-hh)
+
+9. 🍏 Nutri Tracker
+   - Strict and formal dietary supervisor for detailed calorie tracking.
+   - [Chat now](https://chat.openai.com/g/g-7cFbGmQHq-nutri-tracker)
+   - Submit by [@clk1st](https://github.com/clk1st) 
 
 ## Just for Fun
 1. ❤️Dating with Raiden Shogun
@@ -807,3 +846,18 @@ Stay tuned for more updates and advancements!
    - An AI that tries its best to become Pipkin Pippa
    - [Chat now](https://chat.openai.com/g/g-852q9R0Dv-pipkin-pippa)
    - Submit by [@jilv220](https://github.com/jilv220) 
+
+9. 🐉 Pokemon Master (Generate New Pokemon)
+   - An AI that creates new Pokémon based on a power level, types, and design guidelines.
+   - [Chat now](https://chat.openai.com/g/g-lkMdAnYdf-pokemon-master-generate-new-pokemon)
+   - Submit by [@pacsanmanu](https://github.com/pacsanmanu) 
+
+9. 💗 Love Me or Not
+   - In-depth romantic chat analysis with detailed scoring and advice.
+   - [Chat now](https://chat.openai.com/g/g-vbiqpxTzi-love-me-or-not)
+   - Submit by [@Doujiang2333](https://github.com/Doujiang2333)
+
+9. 🧙‍♂️ Meme Magic
+   - A creative Meme Wizard. Just describe the meme you want.
+   - [Chat now](https://chat.openai.com/g/g-SQTa6OMNN-meme-magic)
+   - Submit by [@LifeofCypher](https://github.com/LifeOfCypher)

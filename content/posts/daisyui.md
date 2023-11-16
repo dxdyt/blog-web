@@ -1,9 +1,9 @@
 ---
 title: daisyui
-date: 2023-11-15T12:17:17+08:00
+date: 2023-11-16T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699365623145-a94b3e07a520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699365623145-a94b3e07a520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
 ---
 
 # [saadeghi/daisyui](https://github.com/saadeghi/daisyui)

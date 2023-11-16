@@ -1,9 +1,9 @@
 ---
 title: draw-a-ui
-date: 2023-11-15T12:15:37+08:00
+date: 2023-11-16T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698933787134-af2d451985c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698933787134-af2d451985c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696341062859-4b35812b50b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696341062859-4b35812b50b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
 ---
 
 # [SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)
@@ -11,6 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1698933787134-af2d451985
 # draw-a-ui
 
 This is an app that uses tldraw and the gpt-4-vision api to generate html based on a wireframe you draw.
+
+> I'm currently working on a hosted version of draw-a-ui. You can join the waitlist at [draw-a-ui.com](https://draw-a-ui.com). The core of it will always be open source and available here.
 
 ![A demo of the app](./demo.gif)
 

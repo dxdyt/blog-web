@@ -1,9 +1,9 @@
 ---
 title: EmotiVoice
-date: 2023-11-15T12:15:45+08:00
+date: 2023-11-16T12:15:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
 ---
 
 # [netease-youdao/EmotiVoice](https://github.com/netease-youdao/EmotiVoice)

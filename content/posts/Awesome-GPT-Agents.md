@@ -1,9 +1,9 @@
 ---
 title: Awesome-GPT-Agents
-date: 2023-11-15T12:16:25+08:00
+date: 2023-11-16T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698643711507-25946bb79173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1691425266385-31dfd2603cca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1691425266385-31dfd2603cca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
 ---
 
 # [fr0gger/Awesome-GPT-Agents](https://github.com/fr0gger/Awesome-GPT-Agents)
@@ -110,6 +110,14 @@ There is some specific keywords that triggers some actions from GPTS, here are s
 * [DevSecOps Guides](https://chat.openai.com/g/g-SAOYn4UCp-devsecops-guides): Comprehensive resource for integrating security into the software development lifecycle.
 * [ask_ida/plugins](https://chat.openai.com/g/g-eKf2Iz4XO-ask-ida-plugins): Ask me to recommend a plugin from the official Hex-Rays plugin repository.
 * [Threat Intel Brief](https://chat.openai.com/g/g-8K32VQvgD-threat-intel-briefs): Delivers daily, sector-specific cybersecurity threat intel briefs with source citations.
+* [ask_ida/c++](https://chat.openai.com/g/g-VgbIr9TQQ-ask-ida-c): IDA Pro and Decompiler SDK C++ Coding Assistant (pre-alpha).
+* [Geopolitic Explainer](https://chat.openai.com/g/g-NlzTxUEsP-geopolitic-explainer): Insightful, up-to-date geopolitical analysis and historical context.
+* [Bug Insider](https://chat.openai.com/g/g-ZuYsv3B7u-bug-insider): Analyzes bug bounty writeups and cybersecurity reports, providing structured insights and tips.
+* [Cyber Charli](https://chat.openai.com/g/g-lHnIOPevO-cyber-charli): Educating kids and parents about cybersecurity in a fun way!
+* [impacketGPT](https://chat.openai.com/g/g-8Ax6NRrAb-impacketgpt): This custom GPT allows developers/users of the [impacket library](https://github.com/fortra/impacket) to obtain explanations about protocols implementation and example scripts that are useful for development and documentation.
+* [OSISTent](https://chat.openai.com/g/g-Ep6YFTwsn-osistent): Assistant GPT for OSINT challenges and research
+* [API Guardian](https://chat.openai.com/g/g-WnhIae9dc-api-guardian): Helps security engineers learn more about testing and securing APIs. Trained from data by [Escape](https://github.com/Escape-Technologies).
+* [Basic Security Helper](https://chat.openai.com/g/g-Fqif55uJj-basic-cyber-security-helper): Cybersecurity assistant for personal safety tips and setups.
 
 ## Contributing <a href="https://github.com/fr0gger/Awesome-GPT-Agents/graphs/contributors"> ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template) </a>
 

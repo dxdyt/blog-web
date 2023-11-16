@@ -1,9 +1,9 @@
 ---
 title: latent-consistency-model
-date: 2023-11-15T12:18:51+08:00
+date: 2023-11-16T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694111356884-45781a164220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694111356884-45781a164220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
 ---
 
 # [luosiallen/latent-consistency-model](https://github.com/luosiallen/latent-consistency-model)
@@ -29,6 +29,7 @@ Project Page: https://latent-consistency-models.github.io
     <img src="https://user-images.githubusercontent.com/25839884/218347213-c080267f-cbb6-443e-8532-8e1ed9a58ea9.png" width="3%" alt="" /></a> for discussions. Coders are welcome to contribute.
 
 ## Breaking News 🔥🔥!!
+- (❤️New) 2023/11/10 **Training Scripts** are released!! Check [here](https://github.com/luosiallen/latent-consistency-model/tree/main/LCM_Training_Script/consistency_distillation). 
 - (🤯New) 2023/11/10 **Training-free acceleration LCM-LoRA** is born! See our technical report [here](https://arxiv.org/abs/2311.05556) and Hugging Face blog [here](https://huggingface.co/blog/lcm_lora).
 - (⚡️New) 2023/11/10 LCM has a major update! We release **3 LCM-LoRA (SD-XL, SSD-1B, SD-V1.5)**, see [here](https://huggingface.co/latent-consistency/lcm-lora-sdxl).
 - (🚀New) 2023/11/10 LCM has a major update! We release **2 Full Param-tuned LCM (SD-XL, SSD-1B)**,  see [here](https://huggingface.co/latent-consistency/lcm-sdxl).
@@ -172,6 +173,7 @@ images = pipe(prompt=prompt, num_inference_steps=num_inference_steps, guidance_s
 ## BibTeX
 
 ```bibtex
+LCM:
 @misc{luo2023latent,
       title={Latent Consistency Models: Synthesizing High-Resolution Images with Few-Step Inference}, 
       author={Simian Luo and Yiqin Tan and Longbo Huang and Jian Li and Hang Zhao},
@@ -179,5 +181,13 @@ images = pipe(prompt=prompt, num_inference_steps=num_inference_steps, guidance_s
       eprint={2310.04378},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
+}
+
+LCM-LoRA:
+@article{luo2023lcm,
+  title={LCM-LoRA: A Universal Stable-Diffusion Acceleration Module},
+  author={Luo, Simian and Tan, Yiqin and Patil, Suraj and Gu, Daniel and von Platen, Patrick and Passos, Apolin{\'a}rio and Huang, Longbo and Li, Jian and Zhao, Hang},
+  journal={arXiv preprint arXiv:2311.05556},
+  year={2023}
 }
 ```
