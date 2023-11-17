@@ -1,9 +1,9 @@
 ---
 title: it-tools
-date: 2023-11-15T12:18:46+08:00
+date: 2023-11-17T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696344489814-0f52c1eb6e7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696344489814-0f52c1eb6e7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1502236334292-6e7102cd4ff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1502236334292-6e7102cd4ff1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)

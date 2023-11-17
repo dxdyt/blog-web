@@ -1,9 +1,9 @@
 ---
 title: draw-a-ui
-date: 2023-11-16T12:16:00+08:00
+date: 2023-11-17T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696341062859-4b35812b50b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696341062859-4b35812b50b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699702097918-c049a1c8bc28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699702097918-c049a1c8bc28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [SawyerHood/draw-a-ui](https://github.com/SawyerHood/draw-a-ui)

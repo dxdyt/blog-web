@@ -1,9 +1,9 @@
 ---
 title: ant-design
-date: 2023-10-10T12:17:03+08:00
+date: 2023-11-17T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694875464862-978a879a1210?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694875464862-978a879a1210?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698489706469-a397180e92df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698489706469-a397180e92df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [ant-design/ant-design](https://github.com/ant-design/ant-design)
@@ -94,7 +94,7 @@ pnpm add antd
 
 ## 🔨 Usage
 
-```jsx
+```tsx
 import React from 'react';
 import { Button, DatePicker } from 'antd';
 
@@ -104,11 +104,13 @@ const App = () => (
     <DatePicker placeholder="select date" />
   </>
 );
+
+export default App;
 ```
 
 ### TypeScript
 
-`antd` is written in TypeScript with complete definitions, check [Use in TypeScript](https://ant.design/docs/react/use-in-typescript) to get started.
+`antd` is written in TypeScript with complete definitions, check [Usage with create-react-app](https://ant.design/docs/react/use-with-create-react-app) to get started.
 
 ## 🌍 Internationalization
 
@@ -156,11 +158,11 @@ Open your browser and visit http://127.0.0.1:8001 , see more at [Development](ht
 
 ## 🤝 Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Read our [contributing guide](https://ant.design/docs/react/contributing) and let's build a better antd together.
+Let's build a better antd together.
 
-We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md) first. You can submit any ideas as [pull requests](https://github.com/ant-design/ant-design/pulls) or as [GitHub issues](https://github.com/ant-design/ant-design/issues). If you'd like to improve code, check out the [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) and have a good time! :)
+We welcome all contributions. Please read our [Contributing Guide](https://ant.design/docs/react/contributing) first. You can submit any ideas as [Pull Requests](https://github.com/ant-design/ant-design/pulls) or as [GitHub Issues](https://github.com/ant-design/ant-design/issues). If you'd like to improve code, check out the [Development Instructions](https://github.com/ant-design/ant-design/wiki/Development) and have a good time! :)
 
-If you are a collaborator, please follow our [Pull Request principle](https://github.com/ant-design/ant-design/wiki/PR-principle) to create a Pull Request with [collaborator template](https://github.com/ant-design/ant-design/compare?expand=1&template=collaborator.md).
+If you are a collaborator, please follow our [Pull Request Principle](https://github.com/ant-design/ant-design/wiki/PR-principle) to create a Pull Request with our [Pull Request Template](https://github.com/ant-design/ant-design/wiki/PR-principle#pull-request-template).
 
 [![Let's fund issues in this repository](https://raw.githubusercontent.com/BoostIO/issuehunt-materials/master/v1/issuehunt-button-v1.svg)](https://issuehunt.io/repos/34526884)
 

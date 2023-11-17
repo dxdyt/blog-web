@@ -1,9 +1,9 @@
 ---
 title: latent-consistency-model
-date: 2023-11-16T12:18:25+08:00
+date: 2023-11-17T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695982206991-4502be458e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695982206991-4502be458e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [luosiallen/latent-consistency-model](https://github.com/luosiallen/latent-consistency-model)
