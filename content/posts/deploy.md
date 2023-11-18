@@ -1,9 +1,9 @@
 ---
 title: deploy
-date: 2023-11-17T12:18:04+08:00
+date: 2023-11-18T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695982206991-4502be458e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695982206991-4502be458e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698350335067-d44252583526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698350335067-d44252583526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
 ---
 
 # [pandora-next/deploy](https://github.com/pandora-next/deploy)
@@ -23,12 +23,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1695982206991-4502be458e
 * 可内置tokens（可使用上述所有Token），支持设置密码。（相当于Pandora Server）
 * 可配置共享的tokens，会有一个功能等同`chat-shared3.zhile.io`的共享站。
 * 为全代理模式，你的用户只需要跟你的部署网络能通即可。
+* 还有疑问，那就进Telegram群让大家围观围观：[@ja_netfilter_group](https://t.me/ja_netfilter_group)
 
 ## 手动部署
 
 * 在[Releases](https://github.com/pandora-next/deploy/releases)中下载对应操作系统和架构的包。
 * 解压后修改同目录中的`config.json`至你需要的参数。
-* 将获取到的`JWT Token`内容写进同目录的`license.jwt`文件中。
+* 将获取到的`JWT Token`内容写进同目录的[license.jwt](#%E5%85%B3%E4%BA%8E-licensejwt%E6%96%87%E4%BB%B6)文件中。
 * 启动`PandoraNext`或`PandoraNext.ext`即可。
 
 ## Docker 部署
@@ -165,3 +166,13 @@ server {
 * 在这里获取：[https://dash.pandoranext.com](https://dash.pandoranext.com)
 * **没有固定IP的情况**，IP变动后在上述服务重新拉取授权即可。
 * `PHP`是世界上最好的编程语言。
+
+## 贡献者们
+
+> 感谢所有让这个项目变得更好的贡献者们！
+
+[![Contributors](https://contrib.rocks/image?repo=pandora-next/deploy)](https://github.com/pandora-next/deploy/graphs/contributors)
+
+## Star历史
+
+![Star History Chart](https://api.star-history.com/svg?repos=pandora-next/deploy&type=Date)

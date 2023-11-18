@@ -1,9 +1,9 @@
 ---
 title: chatgpt_system_prompt
-date: 2023-11-17T12:18:41+08:00
+date: 2023-11-18T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697201208838-3b76383d3982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697201208838-3b76383d3982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695937107602-d9ac53393ccf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695937107602-d9ac53393ccf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
 ---
 
 # [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt)
@@ -59,6 +59,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [Agi_zip](./prompts/gpts/Agi_zip.md)
   - [Ai PDF](./prompts/gpts/Ai%20PDF.md)
   - [BabyAgi_txt](./prompts/gpts/BabyAgi_txt.md)
+  - [Blog Post Generator](./prompts/gpts/Blog%20Post%20Generator.md)
   - [Book to Prompt](./prompts/gpts/Book%20to%20Prompt.md)
   - [Business Plan Sage](./prompts/gpts/Business%20Plan%20Sage.md)
   - [CEO GPT](./prompts/gpts/CEO%20GPT.md)
@@ -73,7 +74,9 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [CuratorGPT](./prompts/gpts/CuratorGPT.md)
   - [DesignerGPT](./prompts/gpts/DesignerGPT.md)
   - [Diffusion Master](./prompts/gpts/Diffusion%20Master.md)
+  - [Email Responder Pro](./prompts/gpts/Email%20Responder%20Pro.md)
   - [EmojAI](./prompts/gpts/EmojAI.md)
+  - [Fantasy Book Weaver](./prompts/gpts/Fantasy%20Book%20Weaver.md)
   - [Framer Template Assistant](./prompts/gpts/Framer%20Template%20Assistant.md)
   - [FramerGPT](./prompts/gpts/FramerGPT.md)
   - [GPT Builder](./prompts/gpts/GPT%20Builder.md)
@@ -85,14 +88,18 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [GymStreak Workout Creator](./prompts/gpts/GymStreak%20Workout%20Creator.md)
   - [High-Quality Review Analyzer](./prompts/gpts/High-Quality%20Review%20Analyzer.md)
   - [HormoziGPT](./prompts/gpts/HormoziGPT.md)
+  - [HumanWriterGPT](./prompts/gpts/HumanWriterGPT.md)
+  - [ID Photo Pro](./prompts/gpts/ID%20Photo%20Pro.md)
   - [Interview Coach](./prompts/gpts/Interview%20Coach.md)
   - [KoeGPT](./prompts/gpts/KoeGPT.md)
+  - [LeetCode Problem Solver](./prompts/gpts/LeetCode%20Problem%20Solver.md)
   - [LogoGPT](./prompts/gpts/LogoGPT.md)
   - [Manga Miko - Anime Girlfriend](./prompts/gpts/Manga%20Miko%20-%20Anime%20Girlfriend.md)
   - [Meme Magic](./prompts/gpts/Meme%20Magic.md)
   - [MetabolismBoosterGPT](./prompts/gpts/MetabolismBoosterGPT.md)
   - [Midjourney Generator](./prompts/gpts/Midjourney%20Generator.md)
   - [Moby Dick RPG ](./prompts/gpts/Moby%20Dick%20RPG%20.md)
+  - [Music Writer](./prompts/gpts/Music%20Writer.md)
   - [MuskGPT](./prompts/gpts/MuskGPT.md)
   - [OCR-GPT](./prompts/gpts/OCR-GPT.md)
   - [OpenAPI Builder](./prompts/gpts/OpenAPI%20Builder.md)
@@ -112,6 +119,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [Synthia 😋🌟](./prompts/gpts/Synthia%20%F0%9F%98%8B%F0%9F%8C%9F.md)
   - [Take Code Captures](./prompts/gpts/Take%20Code%20Captures.md)
   - [TaxGPT](./prompts/gpts/TaxGPT.md)
+  - [The Secret of Monkey Island: Amsterdam](./prompts/gpts/The%20Secret%20of%20Monkey%20Island%3A%20Amsterdam.md)
   - [The Shaman](./prompts/gpts/The%20Shaman.md)
   - [TherapistGPT](./prompts/gpts/TherapistGPT.md)
   - [Trey Ratcliff's Photo Critique GPT](./prompts/gpts/Trey%20Ratcliff%27s%20Photo%20Critique%20GPT.md)
@@ -134,6 +142,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [genz_4_meme](./prompts/gpts/genz_4_meme.md)
   - [gpt4_classic](./prompts/gpts/gpt4_classic.md)
   - [hot_mods](./prompts/gpts/hot_mods.md)
+  - [img2img](./prompts/gpts/img2img.md)
   - [laundry_buddy](./prompts/gpts/laundry_buddy.md)
   - [math_mentor](./prompts/gpts/math_mentor.md)
   - [mocktail_mixologist](./prompts/gpts/mocktail_mixologist.md)
@@ -144,10 +153,13 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [the_negotiator](./prompts/gpts/the_negotiator.md)
   - [toonGPT](./prompts/gpts/toonGPT.md)
   - [🎀My excellent classmates (Help with my homework!)](./prompts/gpts/%F0%9F%8E%80My%20excellent%20classmates%20%28Help%20with%20my%20homework%21%29.md)
+  - [凌凤箫](./prompts/gpts/%E5%87%8C%E5%87%A4%E7%AE%AB.md)
   - [枫叶林](./prompts/gpts/%E6%9E%AB%E5%8F%B6%E6%9E%97.md)
   - [鐵公雞](./prompts/gpts/%E9%90%B5%E5%85%AC%E9%9B%9E.md)
   - [悲慘世界 RPG](./prompts/gpts/%E6%82%B2%E6%85%98%E4%B8%96%E7%95%8C%20RPG.md)
+  - [子言女友](./prompts/gpts/%E5%AD%90%E8%A8%80%E5%A5%B3%E5%8F%8B.md)
   - [脏话连篇](./prompts/gpts/%E8%84%8F%E8%AF%9D%E8%BF%9E%E7%AF%87.md)
+  - [解梦大师](./prompts/gpts/%E8%A7%A3%E6%A2%A6%E5%A4%A7%E5%B8%88.md)
   - [春霞つくし Tsukushi Harugasumi](./prompts/gpts/%E6%98%A5%E9%9C%9E%E3%81%A4%E3%81%8F%E3%81%97%20Tsukushi%20Harugasumi.md)
   - [攻击型领导](./prompts/gpts/%E6%94%BB%E5%87%BB%E5%9E%8B%E9%A2%86%E5%AF%BC.md)
   - [短视频脚本](./prompts/gpts/%E7%9F%AD%E8%A7%86%E9%A2%91%E8%84%9A%E6%9C%AC.md)
@@ -160,10 +172,10 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [小红书写作专家](./prompts/gpts/%E5%B0%8F%E7%BA%A2%E4%B9%A6%E5%86%99%E4%BD%9C%E4%B8%93%E5%AE%B6.md)
   - [老爸，该怎么办](./prompts/gpts/%E8%80%81%E7%88%B8%EF%BC%8C%E8%AF%A5%E6%80%8E%E4%B9%88%E5%8A%9E.md)
   - [完蛋！我爱上了姐姐](./prompts/gpts/%E5%AE%8C%E8%9B%8B%EF%BC%81%E6%88%91%E7%88%B1%E4%B8%8A%E4%BA%86%E5%A7%90%E5%A7%90.md)
+  - [武林秘传：江湖探险](./prompts/gpts/%E6%AD%A6%E6%9E%97%E7%A7%98%E4%BC%A0%EF%BC%9A%E6%B1%9F%E6%B9%96%E6%8E%A2%E9%99%A9.md)
   - [知识渊博的健身教练](./prompts/gpts/%E7%9F%A5%E8%AF%86%E6%B8%8A%E5%8D%9A%E7%9A%84%E5%81%A5%E8%BA%AB%E6%95%99%E7%BB%83.md)
   - [完蛋，我被美女包围了(AI同人)](./prompts/gpts/%E5%AE%8C%E8%9B%8B%EF%BC%8C%E6%88%91%E8%A2%AB%E7%BE%8E%E5%A5%B3%E5%8C%85%E5%9B%B4%E4%BA%86%28AI%E5%BA%29.md)
   - [猫耳美少女イラストメーカー](./prompts/gpts/%E7%8C%AB%E8%80%B3%E7%BE%8E%E5%B0%91%E5%A5%B3%E3%82%A4%E3%83%A9%E3%82%B9%E3%83%88%E3%83%A1%E3%83%BC%3%BC.md)
-
 
 ## Disclaimer
 The sharing of these prompts was intended purely for knowledge sharing,

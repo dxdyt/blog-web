@@ -1,9 +1,9 @@
 ---
 title: clash-rev
-date: 2023-11-16T12:17:08+08:00
+date: 2023-11-18T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697633284985-ec5ed4b1c8d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697633284985-ec5ed4b1c8d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696838165729-7f54a11bc4a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696838165729-7f54a11bc4a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
 ---
 
 # [MerlinKodo/clash-rev](https://github.com/MerlinKodo/clash-rev)

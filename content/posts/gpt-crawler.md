@@ -1,9 +1,9 @@
 ---
 title: gpt-crawler
-date: 2023-11-17T12:16:44+08:00
+date: 2023-11-18T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697201208838-3b76383d3982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697201208838-3b76383d3982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
 ---
 
 # [BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
@@ -83,6 +83,8 @@ type Config = {
     page: Page;
     pushData: (data: any) => Promise<void>;
   }) => Promise<void>;
+    /** Optional timeout for waiting for a selector to appear */
+    waitForSelectorTimeout?: number;
 };
 ```
 

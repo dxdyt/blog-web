@@ -1,9 +1,9 @@
 ---
 title: multi-agent-postgres-data-analytics
-date: 2023-11-16T12:16:13+08:00
+date: 2023-11-18T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
 ---
 
 # [disler/multi-agent-postgres-data-analytics](https://github.com/disler/multi-agent-postgres-data-analytics)

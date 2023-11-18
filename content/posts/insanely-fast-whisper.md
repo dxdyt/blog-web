@@ -1,9 +1,9 @@
 ---
 title: insanely-fast-whisper
-date: 2023-11-15T12:18:19+08:00
+date: 2023-11-18T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697677469437-3a8e965c86ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697677469437-3a8e965c86ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695982207021-884acf72b938?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695982207021-884acf72b938?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
 ---
 
 # [Vaibhavs10/insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)
