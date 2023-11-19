@@ -1,9 +1,9 @@
 ---
 title: onetable
-date: 2023-11-18T12:17:58+08:00
+date: 2023-11-19T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696838165729-7f54a11bc4a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696838165729-7f54a11bc4a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694159783518-fb44ca1bf53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694159783518-fb44ca1bf53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
 ---
 
 # [onetable-io/onetable](https://github.com/onetable-io/onetable)

@@ -1,9 +1,9 @@
 ---
 title: narrator
-date: 2023-11-18T12:16:35+08:00
+date: 2023-11-19T12:16:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695937107602-d9ac53393ccf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695937107602-d9ac53393ccf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697748403348-260ec3169d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697748403348-260ec3169d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
 ---
 
 # [cbh123/narrator](https://github.com/cbh123/narrator)
@@ -35,14 +35,19 @@ export OPENAI_API_KEY=<token>
 export ELEVENLABS_API_KEY=<eleven-token>
 ```
 
-Make a new voice in Eleven and get the voice id of that voice using their [get voices](https://elevenlabs.io/docs/api-reference/voices) API.
+Make a new voice in Eleven and get the voice id of that voice using their [get voices](https://elevenlabs.io/docs/api-reference/voices) API, or by clicking the flask icon next to the voice in the VoiceLab tab.
+
+```
+export ELEVENLABS_VOICE_ID=<voice-id>
+```
 
 ## Run it!
 
+In on terminal, run the webcam capture:
 ```bash
 python capture.py
 ```
-In one terminal. In the other, run the narrator:
+In another terminal, run the narrator:
 
 ```bash
 python narrator.py

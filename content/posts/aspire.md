@@ -1,9 +1,9 @@
 ---
 title: aspire
-date: 2023-11-18T12:17:17+08:00
+date: 2023-11-19T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694159783518-fb44ca1bf53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694159783518-fb44ca1bf53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/aspire](https://github.com/dotnet/aspire)

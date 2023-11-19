@@ -1,9 +1,9 @@
 ---
 title: Free-Certifications
-date: 2023-10-23T12:16:14+08:00
+date: 2023-11-19T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696247833485-bcd2014cbdb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696247833485-bcd2014cbdb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696523683663-164a0d20ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696523683663-164a0d20ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
@@ -19,11 +19,23 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 
 🎉 Brought to you by the [Cloud Study Network](https://www.meetup.com/Cloud-Study-Network/) - a global tech community that shares knowledge, goodies and good vibes! 🎉
 
+## Table of Contents
+
+- [General](#general)
+- [Security](#security)
+- [Databases](#databases)
+- [Project Management](#project-management)
+- [Marketing](#marketing)
+- [Miscellaneous](#miscellaneous)
+
+## General
+
 | Technology | Provider | Description | Link | Expiration |
 | --- | --- | --- | --- | --- |
 | Gitlab Certification | Gitlab | Free Certifications paths and badges | [Link](https://about.gitlab.com/learn/) | Unknown |
-| OCI | Oracle | Oracle Cloud Infrastructure, Oracle Cloud Infrastructure, Oracle Cloud Infrastructure | [Link](https://education.oracle.com/oracle-oci-certification#oracle-cloud-infrastructure) | September 31, 2023 |
+| OCI | Oracle | Oracle Cloud Infrastructure, Oracle Cloud Infrastructure, Oracle Cloud Infrastructure | [Link](https://education.oracle.com/oracle-oci-certification#oracle-cloud-infrastructure) | Sept 30, 2023 |
 | Machine Learning with Python | freeCodeCamp | Free lesson and certification | [Link](https://www.freecodecamp.org/learn/machine-learning-with-python/) | Unlimited |
+| Data Visualization | freeCodeCamp | Free lesson and certification | [Link](https://www.freecodecamp.org/learn/data-visualization/) | Unlimited |
 | AI Fundamentals | Databricks  | Generative AI Fundamentals | [Link](https://www.databricks.com/resources/learn/training/generative-ai-fundamentals) | Unlimited |
 | OCI | Oracle | Oracle Cloud Infrastructure 2023 Foundations Associate | [Link](https://education.oracle.com/oracle-cloud-infrastructure-2023-foundations-associate/pexam_1Z0-1085-23) |Unlimited |
 | OCI | Oracle | Oracle Cloud Data Management 2023 Foundations Associate | [Link](https://education.oracle.com/oracle-cloud-data-management-2023-foundations-associate/pexam_1Z0-1105-23) |Unlimited |
@@ -83,19 +95,32 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | GraphQL & Apollo | Odyssey by Apollo | Apollo Graph Developer - Associate Certification | [Link](https://odyssey.apollographql.com/certifications/apollo-graph-associate) | Unknown |
 | Kyverno | Nirmata| Kyverno Fundamentals Certification | [Link](https://learn.nirmata.com/courses/kyverno-fundamentals-certification/) | Unknown |
 | Cilium | Isovalent | Getting Started with Cilium | [Link](https://isovalent.com/labs/getting-started-with-cilium/) | Unknown |
-| Cilium | Isovalent | Cilium Service Mesh | [Link](https://isovalent.com/labs/cilium-service-mesh/) | Unknown |
+| Cilium | Isovalent | Cilium Ingress Controller | [Link](https://isovalent.com/labs/cilium-ingress-controller/) | Unknown |
 | Cilium | Isovalent | Cilium Cluster Mesh | [Link](https://isovalent.com/labs/cilium-cluster-mesh/) | Unknown |
-| Cilium | Isovalent | Cilium Enterprise: Network Policies | [Link](https://isovalent.com/labs/isovalent-cilium-enterprise-network-policies/) | Unknown |
+| Cilium | Isovalent | Isovalent Enterprise for Cilium: Network Policies | [Link](https://isovalent.com/labs/isovalent-cilium-enterprise-network-policies/) | Unknown |
+| Cilium | Isovalent | BGP on Cilium | [Link](https://isovalent.com/labs/bgp-on-cilium/) | Unknown |
+| Cilium | Isovalent | Advanced BGP Features | [Link](https://isovalent.com/labs/advanced-bgp-features/) | Unknown |
 | Cilium | Isovalent | Cilium LoadBalancer IPAM and BGP Service Advertisement | [Link](https://isovalent.com/labs/lb-ipam-bgp-service/) | Unknown |
-| Cilium | Isovalent | Cilium Enterprise: Zero Trust Visibility | [Link](https://isovalent.com/labs/cilium-enterprise-zero-trust-visibility/) | Unknown |
+| Cilium | Isovalent | Cilium LoadBalancer IPAM and L2 Service Announcement | [Link](https://isovalent.com/labs/cilium-loadbalancer-ipam-and-l2-service-announcement/) | Unknown |
+| Cilium | Isovalent | Isovalent Enterprise for Cilium: Zero Trust Visibility | [Link](https://isovalent.com/labs/cilium-enterprise-zero-trust-visibility/) | Unknown |
 | Cilium | Isovalent | Cilium IPv6 Networking and Observability | [Link](https://isovalent.com/labs/ipv6-networking-and-observability/) | Unknown |
 | Cilium | Isovalent | Cilium Gateway API | [Link](https://isovalent.com/labs/gateway-api/) | Unknown |
-| Cilium | Isovalent | HTTP Golden Signals with Hubble and Grafana | [Link](https://isovalent.com/labs/hubble-grafana-golden-signals/) | Unknown |
 | Cilium | Isovalent | Advanced Gateway API Use Cases | [Link](https://isovalent.com/labs/advanced-gateway-api-use-cases/) | Unknown |
-| Cilium | Isovalent | Getting Started with Tetragon | [Link](https://isovalent.com/labs/security-observability-with-ebpf-and-cilium-tetragon/) | Unknown |
+| Cilium | Isovalent | L7 Load-Balancing with Kubernetes Services + Annotations | [Link](https://isovalent.com/labs/l7-lb-kubernetes-annotations/) | Unknown |
+| Cilium | Isovalent | Isovalent Enterprise for Cilium: Connectivity Visibility with Hubble | [Link](https://isovalent.com/labs/isovalent-cilium-enterprise-connectivity-visibility/) | Unknown |
+| Cilium | Isovalent | Golden Signals with Hubble and Grafana | [Link](https://isovalent.com/labs/hubble-grafana-golden-signals/) | Unknown |
 | Cilium | Isovalent | Mutual Authentication with Cilium | [Link](https://isovalent.com/labs/mutual-authentication-with-cilium/) | Unknown |
 | Cilium | Isovalent | Cilium Transparent Encryption with IPSec and WireGuard  | [Link](https://isovalent.com/labs/cilium-transparent-encryption-with-ipsec-and-wireguard/) | Unknown |
-| Cilium | Isovalent | Isovalent Enterprise for Cilium: Security Visibility  | [Link](https://isovalent.com/labs/isovalent-cilium-enterprise-security-visibility/) | Unknown |
+| Cilium | Isovalent | Cilium Egress Gateway | [Link](https://isovalent.com/labs/cilium-egress-gateway/) | Unknown |
+| Cilium | Isovalent | Cilium Host Firewall | [Link](https://isovalent.com/labs/cilium-host-firewall/) | Unknown |
+| Cilium | Isovalent | SCTP on Cilium | [Link](https://isovalent.com/labs/sctp-on-cilium/) | Unknown |
+| Cilium | Isovalent | Cilium BIG TCP | [Link](https://isovalent.com/labs/cilium-big-tcp/) | Unknown |
+| Cilium | Isovalent | Migrating to Cilium | [Link](https://isovalent.com/labs/migrating-to-cilium/) | Unknown |
+| Cilium Tetragon | Isovalent | Getting Started with Tetragon | [Link](https://isovalent.com/labs/security-observability-with-ebpf-and-cilium-tetragon/) | Unknown |
+| Cilium Tetragon | Isovalent | Isovalent Enterprise for Cilium: Security Visibility  | [Link](https://isovalent.com/labs/isovalent-cilium-enterprise-security-visibility/) | Unknown |
+| Cilium Tetragon | Isovalent | Isovalent Enterprise for Cilium: TLS Visibility | [Link](https://isovalent.com/labs/isovalent-cilium-enterprise-tls-visibility/) | Unknown |
+| eBPF | Isovalent | Getting Started with eBPF | [Link](https://isovalent.com/labs/getting-started-with-ebpf/) | Unknown |
+| eBPF | Isovalent | Learning eBPF Tutorial | [Link](https://isovalent.com/labs/learning-ebpf-tutorial/) | Unknown |
 | AWS Skill Builder | AWS | A repository of over 700 training lessons to help you learn AWS, refine your knowledge of AWS services, and improve your skills so you can put them into practice or apply the knowledge during the many AWS certifications. | [Link](https://explore.skillbuilder.aws/learn/catalog) | Unknown |
 | Integration | Boomi | Professional API Management Certification | [Link](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OIyWAM&ltui__urlRedirect=learning-plan-detail-standard) | Unknown |
 | Integration | Boomi | Professional API Design Certification | [Link](https://community.boomi.com/s/learning-plan-detail-standard?ltui__urlRecordId=aOM6S0000008OKzWAM&ltui__urlRedirect=learning-plan-detail-standard) | Unknown |
@@ -123,6 +148,9 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Site Reliability Engineering | RedHat |  Free Course On Transitional approach to implementing pragmatic Site Reliability Engineering (SRE) Technical Overview | [Link](https://www.redhat.com/en/services/training/transitional-approach-implementing-pragmatic-site-reliability-engineering-sre-technical-overview) | Unknown |
 | GitOps | Akuity | Introduction to Continuous Delivery and GitOps using Argo CD | [Link](https://academy.akuity.io/courses/gitops-argocd-intro) | Unknown |
 | Network | Cisco U | Understanding Cisco Network Automation Essentials - DEVNAE - 16 continuing education credits free | [Link](https://u.cisco.com/path/3) | Unlimited |
+| Network | Cisco Networking Academy | Networking Essentials | [Link](https://www.netacad.com/courses/networking/networking-essentials) | Unlimited |
+| Game Development | Unity | Official tutorials provided by Unity, for all skill levels, covering a wide range of features and skills. | [Link](https://learn.unity.com/) | Unlimited |
+| Internet of Things | Cisco Networking Academy | Introduction to IoT | [Link](https://www.netacad.com/courses/iot/introduction-iot) | Unlimited |
 
 ## Security
 
@@ -139,6 +167,21 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | AttackIQ | Foundations of Purple Teaming | [Link](https://www.academy.attackiq.com/courses/foundations-of-purple-teaming) | Unlimited |
 | AttackIQ | Foundations of Breach & Attack Simulation | [Link](https://www.academy.attackiq.com/courses/foundations-of-breach-attack-simulation) | Unlimited |
 | AttackIQ | Foundations of Operationalizing MITRE ATT&CK v13 | [Link](https://www.academy.attackiq.com/courses/foundations-of-operationalizing-mitre-attck-v13) | Unlimited |
+| Cisco Networking Academy | Introduction to Cybersecurity | [Link](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity) | Unlimited |
+| Cisco Networking Academy | Cybersecurity Essentials | [Link](https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials) | Unlimited |
+
+## Databases
+
+| Provider | Description | Link | Expiration |
+| --- | --- | --- | --- |
+| Exasol | Free Exasol training courses and certifications (€150 value each). | [Link](https://www.exasol.com/portal/display/TRAINING/Exasol+Training+and+Certification) | 30-Jun-2020 |
+| Mongodb | 12 free MongoDB courses with proof of completion. | [Link](https://university.mongodb.com/courses/catalog) | Unlimited |
+| CockcroachLab University | Free Cert - the core concepts behind distributed databases and give you all the tools you need to get started with CockroachDB | [Link](https://university.cockroachlabs.com/course/getting-started-with-cockroachdb) | Unknown |
+| CockcroachLab University | Free Cert - you will build a full-stack ride-sharing application in Python using the popular SQLAlchemy ORM and CockroachDB | [Link](https://university.cockroachlabs.com/course/cockroachdb-for-python-developers) | Unknown |
+| Liquibase |  Learn all about Liquibase fundamentals from free online courses by Liquibase experts and see how to apply them in the real world. | [Link](https://learn.liquibase.com/index) | Unknown |
+| Redis | Redis Certified Developer is our professional certification program for software developers who regularly work with Redis. | [Link](https://university.redis.com/certification/) | Unknown |
+| Databricks | Free Training: Databricks Lakehouse Fundamentals. | [Link](https://www.databricks.com/learn/training/lakehouse-fundamentals) | Unknown |
+| SQL | Free SQL Course with Certificate | [Link](https://www.simplilearn.com/free-online-course-to-learn-sql-basics-skillup) | 90 days of access |
 
 ## Project Management
 
@@ -166,20 +209,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | SEMrush | Free Online Digital Marketing Courses and Exams. | [Link](https://www.semrush.com/academy/) | Unlimited |
 | Microsoft | Microsoft Advertising Certified Professional. | [Link](https://learninglab.about.ads.microsoft.com/training/training-certification/) | Unlimited |
 
-## Database
-
-| Provider | Description | Link | Expiration |
-| --- | --- | --- | --- |
-| Exasol | Free Exasol training courses and certifications (€150 value each). | [Link](https://www.exasol.com/portal/display/TRAINING/Exasol+Training+and+Certification) | 30-Jun-2020 |
-| Mongodb | 12 free MongoDB courses with proof of completion. | [Link](https://university.mongodb.com/courses/catalog) | Unlimited |
-| CockcroachLab University | Free Cert - the core concepts behind distributed databases and give you all the tools you need to get started with CockroachDB | [Link](https://university.cockroachlabs.com/course/getting-started-with-cockroachdb) | Unknown |
-| CockcroachLab University | Free Cert - you will build a full-stack ride-sharing application in Python using the popular SQLAlchemy ORM and CockroachDB | [Link](https://university.cockroachlabs.com/course/cockroachdb-for-python-developers) | Unknown |
-| Liquibase |  Learn all about Liquibase fundamentals from free online courses by Liquibase experts and see how to apply them in the real world. | [Link](https://learn.liquibase.com/index) | Unknown |
-| Redis | Redis Certified Developer is our professional certification program for software developers who regularly work with Redis. | [Link](https://university.redis.com/certification/) | Unknown |
-| Databricks | Free Training: Databricks Lakehouse Fundamentals. | [Link](https://www.databricks.com/learn/training/lakehouse-fundamentals) | Unknown |
-
-
-## Others
+## Miscellaneous
 
 | Provider | Description | Link | Expiration |
 | --- | --- | --- | --- |

@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2023-11-18T12:16:40+08:00
+date: 2023-11-19T12:15:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698768383340-9145c3c9889a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698768383340-9145c3c9889a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699009435420-756b3649564f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699009435420-756b3649564f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -14,9 +14,9 @@ This is a simple app that converts a screenshot to HTML/Tailwind CSS. It uses GP
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 
-See Examples section below for more demos.
+See [Examples](#examples) section below for more demos.
 
-🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See FAQ section below for details**). Or see Getting Started below for local install instructions.
+🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#faqs) section below for details**). Or see [Getting Started](#getting-started) below for local install instructions.
 
 ## Updates
 
@@ -75,4 +75,4 @@ https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-a
 
 ## Hosted Version
 
-🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See FAQ section below for details**). Or see Getting Started below for local install instructions.
+🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#faqs) section for details**). Or see [Getting Started](#getting-started) for local install instructions.

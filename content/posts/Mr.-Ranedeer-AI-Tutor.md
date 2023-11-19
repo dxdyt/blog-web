@@ -1,9 +1,9 @@
 ---
 title: Mr.-Ranedeer-AI-Tutor
-date: 2023-11-18T12:15:48+08:00
+date: 2023-11-19T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696838165729-7f54a11bc4a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696838165729-7f54a11bc4a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693328604570-ade5a23ce2cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693328604570-ade5a23ce2cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
 ---
 
 # [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)
@@ -12,13 +12,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1696838165729-7f54a11bc4
 # Mr. Ranedeer Web Version coming soon!
 
 ---
+November 19th: Mr. Ranedeer now has a discord!
+
+November 17th: I graduated highschool! 🥳 Now I can focus on the website more
+
 October 5th 2023 Update on the Web version:
 https://twitter.com/yupiop12/status/1709592354972471402
 ---
 
 No, this project is not cancelled, and I'm excited to open this up for everyone before christmas :)
 
-## Stay tuned @yupiop12 on twitter
+Join the discord: [https://discord.gg/86y6hXTBgg](discord.gg/86y6hXTBgg)
+
+## Stay tuned @yupiop12 on X (formerly Twitter)
 
 <hr>
 <br>
