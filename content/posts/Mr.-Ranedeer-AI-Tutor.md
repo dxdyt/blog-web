@@ -1,9 +1,9 @@
 ---
 title: Mr.-Ranedeer-AI-Tutor
-date: 2023-11-19T12:16:49+08:00
+date: 2023-11-20T12:19:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693328604570-ade5a23ce2cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693328604570-ade5a23ce2cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693087557029-9cbe5d2ef4f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693087557029-9cbe5d2ef4f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [JushBJJ/Mr.-Ranedeer-AI-Tutor](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor)

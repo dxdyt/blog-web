@@ -1,9 +1,9 @@
 ---
 title: tinygrad
-date: 2023-09-08T12:16:03+08:00
+date: 2023-11-20T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693508171201-95c6ac806960?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693508171201-95c6ac806960?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad)
@@ -23,7 +23,6 @@ tinygrad: For something between [PyTorch](https://github.com/pytorch/pytorch) an
 [![GitHub Repo stars](https://img.shields.io/github/stars/tinygrad/tinygrad)](https://github.com/tinygrad/tinygrad/stargazers)
 [![Unit Tests](https://github.com/tinygrad/tinygrad/actions/workflows/test.yml/badge.svg)](https://github.com/tinygrad/tinygrad/actions/workflows/test.yml)
 [![Discord](https://img.shields.io/discord/1068976834382925865)](https://discord.gg/ZjZadyC7PK)
-[![Lines of code](https://img.shields.io/tokei/lines/github/tinygrad/tinygrad)](https://github.com/tinygrad/tinygrad)
 
 </div>
 

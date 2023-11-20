@@ -1,19 +1,19 @@
 ---
 title: ladder
-date: 2023-11-09T12:16:26+08:00
+date: 2023-11-20T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697725709169-d4012376c0b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697725709169-d4012376c0b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695982207250-8ab2901d575d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695982207250-8ab2901d575d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
-# [kubero-dev/ladder](https://github.com/kubero-dev/ladder)
+# [everywall/ladder](https://github.com/everywall/ladder)
 
 <p align="center">
     <img src="assets/pigeon.svg" width="100px">
 </p>
 
 <h1 align="center">Ladder</h1>
-<div><img alt="License" src="https://img.shields.io/github/license/kubero-dev/ladder"> <img alt="go.mod Go version " src="https://img.shields.io/github/go-mod/go-version/kubero-dev/ladder"> <img alt="GitHub tag (with filter)" src="https://img.shields.io/github/v/tag/kubero-dev/ladder"> <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/kubero-dev/ladder"> <img alt="GitHub Downloads all releases" src="https://img.shields.io/github/downloads/kubero-dev/ladder/total"> <img alt="GitHub Build Status (with event)" src="https://img.shields.io/github/actions/workflow/status/kubero-dev/ladder/release-binaries.yaml"></div>
+<div><img alt="License" src="https://img.shields.io/github/license/everywall/ladder"> <img alt="go.mod Go version " src="https://img.shields.io/github/go-mod/go-version/everywall/ladder"> <img alt="GitHub tag (with filter)" src="https://img.shields.io/github/v/tag/everywall/ladder"> <img alt="GitHub (Pre-)Release Date" src="https://img.shields.io/github/release-date-pre/everywall/ladder"> <img alt="GitHub Downloads all releases" src="https://img.shields.io/github/downloads/everywall/ladder/total"> <img alt="GitHub Build Status (with event)" src="https://img.shields.io/github/actions/workflow/status/everywall/ladder/release-binaries.yaml"></div>
 
 
 *Ladder is a web proxy to help bypass paywalls.* This is a selfhosted version of [1ft.io](https://1ft.io) and [12ft.io](https://12ft.io). It is inspired by [13ft](https://github.com/wasi-master/13ft).
@@ -27,13 +27,13 @@ Freedom of information is an essential pillar of democracy and informed decision
 ### Features
 - [x] Bypass Paywalls
 - [x] Remove CORS headers from responses, assets, and images ...
-- [x] Apply domain based ruleset/code to modify response
+- [x] Apply domain based ruleset/code to modify response / requested URL
 - [x] Keep site browsable
 - [x] API
 - [x] Fetch RAW HTML
 - [x] Custom User Agent
 - [x] Custom X-Forwarded-For IP
-- [x] [Docker container](https://github.com/kubero-dev/ladder/pkgs/container/ladder) (amd64, arm64)
+- [x] [Docker container](https://github.com/everywall/ladder/pkgs/container/ladder) (amd64, arm64)
 - [x] Linux binary
 - [x] Mac OS binary
 - [x] Windows binary (untested)
@@ -43,32 +43,32 @@ Freedom of information is an essential pillar of democracy and informed decision
 - [x] No Tracking
 - [x] Limit the proxy to a list of domains
 - [x] Expose Ruleset to other ladders
+- [x] Fetch from Google Cache
 - [ ] Optional TOR proxy
 - [ ] A key to share only one URL
-- [ ] Fetch from Google Cache if not available
 
 ### Limitations
-Certain sites may display missing images or encounter formatting issues. This can be attributed to the site's reliance on JavaScript or CSS for image and resource loading, which presents a limitation when accessed through this proxy. If you prefer a full experience, please consider buying a subscription for the site.
-
 Some sites do not expose their content to search engines, which means that the proxy cannot access the content. A future version will try to fetch the content from Google Cache.
+
+Certain sites may display missing images or encounter formatting issues. This can be attributed to the site's reliance on JavaScript or CSS for image and resource loading, which presents a limitation when accessed through this proxy. If you prefer a full experience, please consider buying a subscription for the site.
 
 ## Installation
 
 > **Warning:** If your instance will be publicly accessible, make sure to enable Basic Auth. This will prevent unauthorized users from using your proxy. If you do not enable Basic Auth, anyone can use your proxy to browse nasty/illegal stuff. And you will be responsible for it.
 
 ### Binary
-1) Download binary [here](https://github.com/kubero-dev/ladder/releases/latest)
-2) Unpack and run the binary `./ladder`
+1) Download binary [here](https://github.com/everywall/ladder/releases/latest)
+2) Unpack and run the binary `./ladder -r https://t.ly/14PSf`
 3) Open Browser (Default: http://localhost:8080)
 
 ### Docker
 ```bash
-docker run -p 8080:8080 -d --name ladder ghcr.io/kubero-dev/ladder:latest
+docker run -p 8080:8080 -d --env RULESET=https://t.ly/14PSf --name ladder ghcr.io/everywall/ladder:latest
 ```
 
 ### Docker Compose
 ```bash
-curl https://raw.githubusercontent.com/kubero-dev/ladder/main/docker-compose.yaml --output docker-compose.yaml
+curl https://raw.githubusercontent.com/everywall/ladder/main/docker-compose.yaml --output docker-compose.yaml
 docker-compose up -d
 ```
 
@@ -116,7 +116,7 @@ http://localhost:8080/ruleset
 | `LOG_URLS` | Log fetched URL's | `true` |
 | `DISABLE_FORM` | Disables URL Form Frontpage | `false` |
 | `FORM_PATH` | Path to custom Form HTML | `` |
-| `RULESET` | URL to a ruleset file | `https://raw.githubusercontent.com/kubero-dev/ladder/main/ruleset.yaml` or `/path/to/my/rules.yaml` |
+| `RULESET` | Path or URL to a ruleset file, accepts local directories | `https://raw.githubusercontent.com/everywall/ladder-rules/main/ruleset.yaml` or `/path/to/my/rules.yaml` or `/path/to/my/rules/` |
 | `EXPOSE_RULESET` | Make your Ruleset available to other ladders | `true` |
 | `ALLOWED_DOMAINS` | Comma separated list of allowed domains. Empty = no limitations | `` |
 | `ALLOWED_DOMAINS_RULESET` | Allow Domains from Ruleset. false = no limitations | `false` |
@@ -125,18 +125,28 @@ http://localhost:8080/ruleset
 
 ### Ruleset
 
-It is possible to apply custom rules to modify the response. This can be used to remove unwanted or modify elements from the page. The ruleset is a YAML file that contains a list of rules for each domain and is loaded on startup
+It is possible to apply custom rules to modify the response or the requested URL. This can be used to remove unwanted or modify elements from the page. The ruleset is a YAML file, a directory with YAML Files, or an URL to a YAML file that contains a list of rules for each domain. These rules are loaded on startup.
 
-See in [ruleset.yaml](ruleset.yaml) for an example.
+There is a basic ruleset available in a separate repository [ruleset.yaml](https://raw.githubusercontent.com/everywall/ladder-rules/main/ruleset.yaml). Feel free to add your own rules and create a pull request.
+
 
 ```yaml
-- domain: www.example.com
+- domain: example.com          # Includes all subdomains
+  domains:                     # Additional domains to apply the rule
+    - www.example.de
+    - www.beispiel.de
+  headers:
+    x-forwarded-for: none      # override X-Forwarded-For header or delete with none
+    referer: none              # override Referer header or delete with none
+    user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+    content-security-policy: script-src 'self'; # override response header
+    cookie: privacy=1
   regexRules:
     - match: <script\s+([^>]*\s+)?src="(/)([^"]*)"
       replace: <script $1 script="/https://www.example.com/$3"
   injections:
     - position: head # Position where to inject the code
-      append: | 
+      append: |      # possible keys: append, prepend, replace
         <script>
           window.localStorage.clear();
           console.log("test");
@@ -145,7 +155,7 @@ See in [ruleset.yaml](ruleset.yaml) for an example.
 - domain: www.anotherdomain.com # Domain where the rule applies
   paths:                        # Paths where the rule applies
     - /article
-  googleCache: false            # Search also in Google Cache
+  googleCache: false            # Use Google Cache to fetch the content
   regexRules:                   # Regex rules to apply
     - match: <script\s+([^>]*\s+)?src="(/)([^"]*)"
       replace: <script $1 script="/https://www.example.com/$3"
@@ -155,5 +165,30 @@ See in [ruleset.yaml](ruleset.yaml) for an example.
         <h1>My Custom Title</h1>
     - position: .left-content article # Position where to inject the code into DOM
       prepend: | 
-        <h2>Suptitle</h2>
+        <h2>Subtitle</h2>
+- domain: demo.com
+  headers:
+    content-security-policy: script-src 'self';
+    user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+  urlMods:              # Modify the URL
+    query:              
+      - key: amp        # (this will append ?amp=1 to the URL)
+        value: 1 
+    domain:             
+      - match: www      # regex to match part of domain
+        replace: amp    # (this would modify the domain from www.demo.de to amp.demo.de)
+    path:               
+      - match: ^        # regex to match part of path
+        replace: /amp/  # (modify the url from https://www.demo.com/article/ to https://www.demo.de/amp/article/)
 ```
+
+## Development
+
+To run a development server at http://localhost:8080:
+
+```bash
+echo "dev" > handlers/VERSION
+RULESET="./ruleset.yaml" go run cmd/main.go
+```
+
+This project uses [pnpm](https://pnpm.io/) to build a stylesheet with the [Tailwind CSS](https://tailwindcss.com/) classes. For local development, if you modify styles in `form.html`, run `pnpm build` to generate a new stylesheet.

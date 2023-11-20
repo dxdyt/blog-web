@@ -1,9 +1,9 @@
 ---
 title: OrcaSlicer
-date: 2023-10-01T12:17:43+08:00
+date: 2023-11-20T12:17:50+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1692948505024-20a1288d0b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1692948505024-20a1288d0b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693087557029-9cbe5d2ef4f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693087557029-9cbe5d2ef4f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [SoftFever/OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
@@ -13,12 +13,13 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1692948505024-20a1
 # Orca Slicer     
 Orca Slicer is an open source slicer for FDM printers.   
 You can download Orca Slicer here: [github releases page](https://github.com/SoftFever/OrcaSlicer/releases/).  
-![discord-mark-blue](https://github.com/SoftFever/OrcaSlicer/assets/103989404/b97d5ffc-072d-4d0a-bbda-e67ef373876f) Join community: [OrcaSlicer Official Discord Server](https://discord.gg/WTEkCR6SnV)   
+![discord-mark-blue](https://github.com/SoftFever/OrcaSlicer/assets/103989404/b97d5ffc-072d-4d0a-bbda-e67ef373876f) Join community: [OrcaSlicer Official Discord Server](https://discord.gg/P4VE9UY9gJ)   
 
 # Main features
 - Auto calibrations for all printers
 - Sandwich(inner-outer-inner) mode - an improved version of the `External perimeters first` mode
 - Precise wall
+- Polyholes conversion support [SuperSlicer Wiki: Polyholes](https://github.com/supermerill/SuperSlicer/wiki/Polyholes)
 - Klipper support
 - More granular controls
 - More features can be found in [change notes](https://github.com/SoftFever/OrcaSlicer/releases/)  
@@ -92,12 +93,28 @@ Their generous support enables me to purchase filaments and other essential 3D p
 Thank you! :)
 
 ### Sponsors:  
+<table>
+<tr>
+<td>
 <a href="https://peopoly.net/">
     <img src="SoftFever_doc\sponsor_logos\peopoly-standard-logo.png" alt="Peopoly" width="64" height="">
 </a>
+</td> 
+</tr>
+<tr>
+<td> </td>
+</tr>
+<tr>
+<td>
+<a href="https://qidi3d.com/">
+    <img src="SoftFever_doc\sponsor_logos\QIDI.png" alt="QIDI" width="64" height="">
+</a>
+</td>
+</tr>
+</table>
 
 ### Backers:  
-*todo: extract ko-fi backers list*
+Ko-fi supporters: [Backers list](https://github.com/SoftFever/OrcaSlicer/wiki/OrcaSlicer-backers-%E2%80%90-28-Oct-2023)
 
 Support me  
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G5IP3CP)

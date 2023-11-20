@@ -1,9 +1,9 @@
 ---
 title: spring-reading
-date: 2023-11-18T12:18:33+08:00
+date: 2023-11-20T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698669529054-c55672959c31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698669529054-c55672959c31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAyODA5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693087557029-9cbe5d2ef4f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693087557029-9cbe5d2ef4f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading)
@@ -178,3 +178,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1698669529054-c55672959c
 <img alt="logo" src="image/WeChatPay.png" style="width: 370px;height: 400px">
 <img alt="logo" src="image/Alipay.png" style="width: 370px;height: 400px">
 </div>
+
+## 👥加入我们
+
+欢迎加入我们的群聊！一起探讨、分享和学习吧！ 🌐
+
+<div>
+<img alt="logo" src="image/wechat-group.jpg" style="width: 344px;height: 483px">
+</div>
+

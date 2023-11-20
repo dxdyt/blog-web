@@ -1,9 +1,9 @@
 ---
 title: Inferno
-date: 2023-11-19T12:15:31+08:00
+date: 2023-11-20T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698956197153-f14f37bd7dd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698956197153-f14f37bd7dd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [twostraws/Inferno](https://github.com/twostraws/Inferno)
@@ -871,7 +871,8 @@ struct ContentView: View {
 
 As well as the shaders listed above, Inferno provides a selection of shaders specifically designed to be used as transitions. Although these are still Metal shaders internally, you'll use them through `AnyTransition` extensions that make the process seamless.
 
-**Note:** As well as copying one specific shader into your project, you should also add Transitions.swift to include the `AnyTransition` extensions.
+> [!Note]
+> As well as copying one specific shader into your project, you should also add Transitions.swift to include the `AnyTransition` extensions.
 
 
 ### Circle 
@@ -1333,7 +1334,8 @@ If you’ve modified one of the shaders and want to see how it looks, the sandbo
 
 All shaders here work great on all devices that support macOS Sonoma and coordinated releases, including iOS 17.
 
-**Tip:** Although the sandbox is helpful for previewing shaders, almost all its code isn't required in order to use Inferno shaders in your own projects – you just need to copy the relevant Metal files across, and optionally also Transitions.swift if you're using a transition shader.
+> [!Tip]
+> Although the sandbox is helpful for previewing shaders, almost all its code isn't required in order to use Inferno shaders in your own projects – you just need to copy the relevant Metal files across, and optionally also Transitions.swift if you're using a transition shader.
 
 
 ## Contributing

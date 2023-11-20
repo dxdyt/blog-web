@@ -1,9 +1,9 @@
 ---
 title: calibre
-date: 2023-08-30T12:16:24+08:00
+date: 2023-11-20T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692660229286-302efad5e905?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692660229286-302efad5e905?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698422454454-a4e2a661aba8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698422454454-a4e2a661aba8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [kovidgoyal/calibre](https://github.com/kovidgoyal/calibre)
@@ -55,4 +55,4 @@ calibre binaries and installers for all the platforms calibre supports.
 
 ## calibre package versions in various repositories
 
-[![Packaging Status](https://repology.org/badge/vertical-allrepos/calibre.svg)](https://repology.org/project/calibre/versions)
+[![Packaging Status](https://repology.org/badge/vertical-allrepos/calibre.svg?columns=3&header=calibre)](https://repology.org/project/calibre/versions)

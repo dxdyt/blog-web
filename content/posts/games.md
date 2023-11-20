@@ -1,9 +1,9 @@
 ---
 title: games
-date: 2023-11-19T12:17:51+08:00
+date: 2023-11-20T12:17:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699796266962-be2e98f3ce4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699796266962-be2e98f3ce4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696639299159-6392834c4877?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696639299159-6392834c4877?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [flutter/games](https://github.com/flutter/games)
@@ -28,7 +28,7 @@ The projects in this repository are divided into two broad categories:
 1. **Templates.** A small number of starting points for your game project.
    Templates are intended to give you a simple project structure
    on top of which you can build your game.
-   They differ to accomodate different game types, 
+   They differ to accommodate different game types, 
    from the simplest casual games through drag&drop board games
    to 2D platformers.
 

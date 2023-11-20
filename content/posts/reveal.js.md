@@ -1,9 +1,9 @@
 ---
 title: reveal.js
-date: 2023-11-19T12:17:42+08:00
+date: 2023-11-20T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696523683663-164a0d20ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696523683663-164a0d20ae3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693761935619-facaa6d71587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693761935619-facaa6d71587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
 ---
 
 # [hakimel/reveal.js](https://github.com/hakimel/reveal.js)
