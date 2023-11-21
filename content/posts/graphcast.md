@@ -1,9 +1,9 @@
 ---
 title: graphcast
-date: 2023-11-20T12:18:27+08:00
+date: 2023-11-21T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695982207250-8ab2901d575d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695982207250-8ab2901d575d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698985371134-3c21d56336e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698985371134-3c21d56336e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
 ---
 
 # [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast)

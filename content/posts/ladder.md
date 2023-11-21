@@ -1,9 +1,9 @@
 ---
 title: ladder
-date: 2023-11-20T12:16:54+08:00
+date: 2023-11-21T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695982207250-8ab2901d575d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695982207250-8ab2901d575d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699088851470-4f0e05d4a485?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699088851470-4f0e05d4a485?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
 ---
 
 # [everywall/ladder](https://github.com/everywall/ladder)
@@ -23,6 +23,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1695982207250-8ab2901d57
 Freedom of information is an essential pillar of democracy and informed decision-making. While media organizations have legitimate financial interests, it is crucial to strike a balance between profitability and the public's right to access information. The proliferation of paywalls raises concerns about the erosion of this fundamental freedom, and it is imperative for society to find innovative ways to preserve access to vital information without compromising the sustainability of journalism. In a world where knowledge should be shared and not commodified, paywalls should be critically examined to ensure that they do not undermine the principles of an open and informed society.
 
 > **Disclaimer:** This project is intended for educational purposes only. The author does not endorse or encourage any unethical or illegal activity. Use this tool at your own risk.
+
+### How it works
+
+```mermaid
+sequenceDiagram
+    client->>+ladder: GET
+    ladder-->>ladder: apply RequestModifications
+    ladder->>+website: GET
+    website->>-ladder: 200 OK
+    ladder-->>ladder: apply ResultModifications
+    ladder->>-client: 200 OK
+```
 
 ### Features
 - [x] Bypass Paywalls

@@ -1,9 +1,9 @@
 ---
 title: tinygrad
-date: 2023-11-20T12:17:16+08:00
+date: 2023-11-21T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697381649399-0672a1568ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697381649399-0672a1568ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
 ---
 
 # [tinygrad/tinygrad](https://github.com/tinygrad/tinygrad)

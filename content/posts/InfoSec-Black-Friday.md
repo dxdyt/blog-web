@@ -1,9 +1,9 @@
 ---
 title: InfoSec-Black-Friday
-date: 2023-11-20T12:19:15+08:00
+date: 2023-11-21T12:18:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693245182886-5b57b1c56ad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693245182886-5b57b1c56ad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692355147175-55eb5df57435?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692355147175-55eb5df57435?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
 ---
 
 # [0x90n/InfoSec-Black-Friday](https://github.com/0x90n/InfoSec-Black-Friday)
@@ -69,12 +69,31 @@ Deal ends: December
 
 UnderDefense Cybersecurity \
 https://underdefense.com/cyber-monday-offer/  
-20-40% off App/Network/Infra Pentests \
-20-40% off 24×7 Managed Threat Detection and Response \
-20-40% off for Incident Response Retainer \
+- 20-40% off App/Network/Infra Pentests
+- 20-40% off 24×7 Managed Threat Detection and Response
+- 20-40% off for Incident Response Retainer
 Deal ends: 23rd December
 
+Immunity Systems \
+https://www.immunity-systems.com/1337blackfriday2023.html  
+- 45% off for Network Penetration tests
+- 30% off for Web Application Security tests
+- 25% off for Red Teaming services
+- 20% off for Mobile Application Security tests
+Deal ends: 30th December or until exhausted
+
+Coastline Cybersecurity \
+https://coastlinecyber.com  
+- 30% off for External/Internal/Web/AD Penetration Testing
+- 30% off for Mobile/Cloud/IoT Application Security assessments
+Deal ends: 30th December
+
 ## Tools
+Exploit Pack - Advanced exploitation framework with 0days and 39.000+ exploits \
+https://exploitpack.com/order.html  
+LIFETIME License - Upgrade from $980 USD 1-year license to Lifetime \
+Deal availability: 10 licenses only \
+Deal ends: 26th November
 
 Pākiki Proxy \
 https://pakikiproxy.com/  
@@ -98,17 +117,29 @@ Deal ends: 25th November
 
 PulseDive Threat Intelligence  :see_no_evil: \
 https://pulsedive.com/about/enterprise  
-50% off for 6 months with code: BLACKFRIDAY23 \
-Deal ends: 26th November
+50% off for 6 months of Pro with code: BLACKFRIDAY23 \
+Deal ends: 28th November
   
 SecureStack DevSecOps SaaS  :see_no_evil: \
 https://securestack.com/black-friday-sale  
 50% off for 12 months with code: BLACKFRIDAY23WOW \
 Deal ends: 2nd December
 
+Burp Bounty Pro (Burp Suite Marketplace App) \
+https://burpbounty.net  
+$21 off from $86 to $64 \
+Deal ends: 27th November
+
 ## Courses & Training
 
-AppSecEngineer - Hands-on Training, Labs and Challenges (AppSec/DevSecOps/Cloud Security/Kubernetes Security/Threat Modeling) \
+Security Blue Team (SBT) :see_no_evil: \
+https://www.securityblue.team/black-friday-2023  
+50% off for BTL2 \
+Free 6-months BTLO with BTL1 \
+$125 for 12 months for BTL Pro \
+Deal ends: 2nd December
+
+AppSecEngineer - Hands-on Training, Labs and Challenges \
 https://appsecengineer.com/  
 25% off on Annual Plans (Pro and Plus) for Individuals and Annual Business Plans with coupon code: PUMPKINPIE25 \
 Deal ends: 30th November
@@ -169,7 +200,7 @@ https://tcm-sec.com/
 (1) 20% off of certifications and live trainings \
 (2) 50% off of the first payment of the All-Access Membership (any plan) \
 Code: GobbleGobble23 \
-Deal yet to start
+Deal ends: 27th November
 
 Pensterlab :see_no_evil: \
 https://pentesterlab.com/pro  
@@ -187,6 +218,9 @@ TheXSSRat Bug Bounty and Hacking Courses \
 https://thexssrat.podia.com/  
 40% off with code: lemon \
 60% off with code: WEEKLYSALES \
+70% off with code: AC44Z9J \
+70% off "Endless Cybersecurity Journey" with code: BFCROWDFAV \
+(Buy the "all in one" Endless Cybersecurity Journey and get another code for a friend free) \
 Deal is live
 
 The SecOps Group Security Exams \
@@ -211,6 +245,25 @@ https://mr.un1k0d3r.world/portal/index.php
 25% off both the coding class and red team training courses \
 Discount live now
 
+The OSINTion Academy \
+On Demand Courses: https://academy.theosintion.com/courses?affcode=989966_6g0qf83e  
+Live Courses: https://theosintion.as.me/schedule.php  
+80% off all on-demand courses \
+40% off upcoming live courses with code: BLACKFRIDAY \
+
+Sektor7 Redteam courses \
+https://institute.sektor7.net/?coupon=BW23  
+20% off on all RED TEAM Operator courses with code: BW23 \
+Deal valid: 20th-27th November
+
+Blue Cape Security \
+On Demand Courses: https://bluecapesecurity.com/courses/  
+25% off training courses with code: BLACKFRIDAY25 \
+
+Invictus Incident Response Training \
+https://academy.invictus-ir.com  
+20% off with code: BLACKFRIDAY \
+Deal ends: 30th November
 
 ## Practical Labs:
 
@@ -239,6 +292,10 @@ https://www.crest-approved.org/crt-examination-promotional-form
 40% discount for non-CREST members \
 Exam must be booked by 31 January 2024 and must be taken by 30 April 2024 \
 Deal ends: 31st January
+
+eLearn Security Certifications \
+https://checkout.ine.com/black-friday-2023 \
+50% discount on many certifications like eWPTx 
 
 ## Hardware:
 

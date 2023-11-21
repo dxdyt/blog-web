@@ -1,9 +1,9 @@
 ---
 title: Inferno
-date: 2023-11-20T12:17:42+08:00
+date: 2023-11-21T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699974627415-1f3c5387af51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698248152617-55c4b9422b71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698248152617-55c4b9422b71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
 ---
 
 # [twostraws/Inferno](https://github.com/twostraws/Inferno)

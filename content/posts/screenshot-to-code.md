@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2023-11-20T12:16:15+08:00
+date: 2023-11-21T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699113493447-92ff3e321cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699113493447-92ff3e321cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA0NTM3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698475494920-dfcb8cf38926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698475494920-dfcb8cf38926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -18,10 +18,11 @@ See the [Examples](#examples) section below for more demos.
 
 ## 🚀 Try It Out!
 
-🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#faqs) section below for details**). Or see [Getting Started](#getting-started) below for local install instructions.
+🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section below for details**). Or see [Getting Started](#-getting-started) below for local install instructions.
 
 ## 🌟 Recent Updates
 
+- Nov 20 - Paste in a URL to screenshot and clone (requires [ScreenshotOne free API key](https://screenshotone.com?via=screenshot-to-code))
 - Nov 19 - Support for dark/light code editor theme - thanks https://github.com/kachbit
 - Nov 16 - Added a setting to disable DALL-E image generation if you don't need that
 - Nov 16 - View code directly within the app
@@ -75,8 +76,10 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 **NYTimes**
 
 | Original                                                                                                 | Replica                                                                                                 |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
-| ![Original](https://github.com/abi/screenshot-to-code/assets/23818/01b062c2-f39a-46dd-84ca-bec6c986463a) | ![Replica](https://github.com/abi/screenshot-to-code/assets/23818/e1f662b6-68f7-4578-a64d-ea4be52e31f5) |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | 
+| <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://github.com/abi/screenshot-to-code/assets/23818/3b644dfa-9ca6-4148-84a7-3405b6671922"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://github.com/abi/screenshot-to-code/assets/23818/26201c9f-1a28-4f35-a3b1-1f04e2b8ce2a"> |
+
+
 
 **Instagram page (with not Taylor Swift pics)**
 
@@ -88,4 +91,4 @@ https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-a
 
 ## 🌍 Hosted Version
 
-🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#faqs) section for details**). Or see [Getting Started](#getting-started) for local install instructions.
+🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section for details**). Or see [Getting Started](#-getting-started) for local install instructions.
