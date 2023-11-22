@@ -1,9 +1,9 @@
 ---
 title: angular-cli
-date: 2023-07-30T12:16:21+08:00
+date: 2023-11-22T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689182227491-022894f8ca5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689182227491-022894f8ca5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698414392331-ffcb3121e28e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698414392331-ffcb3121e28e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [angular/angular-cli](https://github.com/angular/angular-cli)
@@ -168,6 +168,7 @@ This is a monorepo which contains many tools and packages:
 
 | Project | Package | Version | Links |
 |---|---|---|---|
+**Angular SSR** | [`@angular/ssr`](https://npmjs.com/package/@angular/ssr) | [![latest](https://img.shields.io/npm/v/%40angular%2Fssr/latest.svg)](https://npmjs.com/package/@angular/ssr) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular/ssr/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-ssr-builds)
 **Architect** | [`@angular-devkit/architect`](https://npmjs.com/package/@angular-devkit/architect) | [![latest](https://img.shields.io/npm/v/%40angular-devkit%2Farchitect/latest.svg)](https://npmjs.com/package/@angular-devkit/architect) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular_devkit/architect/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-devkit-architect-builds)
 **Build Angular** | [`@angular-devkit/build-angular`](https://npmjs.com/package/@angular-devkit/build-angular) | [![latest](https://img.shields.io/npm/v/%40angular-devkit%2Fbuild-angular/latest.svg)](https://npmjs.com/package/@angular-devkit/build-angular) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular_devkit/build_angular/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-devkit-build-angular-builds)
 **Build Webpack** | [`@angular-devkit/build-webpack`](https://npmjs.com/package/@angular-devkit/build-webpack) | [![latest](https://img.shields.io/npm/v/%40angular-devkit%2Fbuild-webpack/latest.svg)](https://npmjs.com/package/@angular-devkit/build-webpack) | [![README](https://img.shields.io/badge/README--green.svg)](/packages/angular_devkit/build_webpack/README.md) [![snapshot](https://img.shields.io/badge/snapshot--blue.svg)](https://github.com/angular/angular-devkit-build-webpack-builds)

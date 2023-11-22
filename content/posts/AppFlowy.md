@@ -1,9 +1,9 @@
 ---
 title: AppFlowy
-date: 2023-09-06T12:17:52+08:00
+date: 2023-11-22T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689886342607-01073f9371c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689886342607-01073f9371c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM5NzM2OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697621766727-b1fb3d4ba833?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697621766727-b1fb3d4ba833?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)
@@ -28,7 +28,7 @@ You are in charge of your data and customizations.
 </p>
 
 <p align="center">
-    <a href="http://www.appflowy.io"><b>Website</b></a> •
+    <a href="https://www.appflowy.io"><b>Website</b></a> •
     <a href="https://discord.gg/9Q2xaN37tV"><b>Discord</b></a> •
     <a href="https://twitter.com/appflowy"><b>Twitter</b></a>
 </p>
@@ -57,7 +57,7 @@ You are in charge of your data and customizations.
 
 ## Getting Started with development
 
-Please view the [documentation](https://appflowy.gitbook.io/docs/essential-documentation/contribute-to-appflowy) for OS specific development instructions
+Please view the [documentation](https://docs.appflowy.io/docs/documentation/appflowy/from-source) for OS specific development instructions
 
 ## Roadmap
 
@@ -83,7 +83,7 @@ Proudly wear your T-shirt and show it to us by tagging [@appflowy](https://twitt
 
 [![translation badge](https://inlang.com/badge?url=github.com/AppFlowy-IO/AppFlowy)](https://inlang.com/editor/github.com/AppFlowy-IO/AppFlowy?ref=badge)
 
-To add translations, you can manually edit the JSON translation files in `/frontend/appflowy_flutter/assets/translations`, use the [inlang online editor](https://inlang.com/editor/github.com/AppFlowy-IO/AppFlowy), or run `npx inlang machine translate` to add missing translations.
+To add translations, you can manually edit the JSON translation files in `/frontend/resources/translations`, use the [inlang online editor](https://inlang.com/editor/github.com/AppFlowy-IO/AppFlowy), or run `npx inlang machine translate` to add missing translations.
 
 
 ## Join the community to build AppFlowy together

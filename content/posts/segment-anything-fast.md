@@ -1,9 +1,9 @@
 ---
 title: segment-anything-fast
-date: 2023-11-21T12:18:01+08:00
+date: 2023-11-22T12:19:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699393393208-6c25d65a4e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699393393208-6c25d65a4e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697359774044-35aa12ab7c91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697359774044-35aa12ab7c91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [pytorch-labs/segment-anything-fast](https://github.com/pytorch-labs/segment-anything-fast)

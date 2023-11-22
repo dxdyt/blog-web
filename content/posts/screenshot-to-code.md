@@ -1,16 +1,16 @@
 ---
 title: screenshot-to-code
-date: 2023-11-21T12:16:07+08:00
+date: 2023-11-22T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698475494920-dfcb8cf38926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698475494920-dfcb8cf38926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699302150582-bffc5309a8c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699302150582-bffc5309a8c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 
 # screenshot-to-code
 
-This simple app converts a screenshot to HTML/Tailwind CSS. It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images.
+This simple app converts a screenshot to HTML/Tailwind CSS. It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 
@@ -22,8 +22,9 @@ See the [Examples](#examples) section below for more demos.
 
 ## 🌟 Recent Updates
 
+- Nov 21 - You can now edit code in the code editor and preview changes live thanks to [@clean99](https://github.com/clean99)
 - Nov 20 - Paste in a URL to screenshot and clone (requires [ScreenshotOne free API key](https://screenshotone.com?via=screenshot-to-code))
-- Nov 19 - Support for dark/light code editor theme - thanks https://github.com/kachbit
+- Nov 19 - Support for dark/light code editor theme - thanks [@kachbit](https://github.com/kachbit)
 - Nov 16 - Added a setting to disable DALL-E image generation if you don't need that
 - Nov 16 - View code directly within the app
 - Nov 15 - 🔥 You can now instruct the AI to update the code as you wish. It is helpful if the AI messed up some styles or missed a section.

@@ -1,9 +1,9 @@
 ---
 title: InfoSec-Black-Friday
-date: 2023-11-21T12:18:54+08:00
+date: 2023-11-22T12:18:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692355147175-55eb5df57435?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692355147175-55eb5df57435?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698864273184-41cf2052196b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698864273184-41cf2052196b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [0x90n/InfoSec-Black-Friday](https://github.com/0x90n/InfoSec-Black-Friday)
@@ -65,13 +65,13 @@ https://letsdefend.io/cybersecurity-news.html
 95% off ($5 instead of $95) with code: BLCKFRDY-NEWS \
 Deal ends: December
 
-## Professional Services:
+## Professional Services
 
 UnderDefense Cybersecurity \
 https://underdefense.com/cyber-monday-offer/  
 - 20-40% off App/Network/Infra Pentests
 - 20-40% off 24×7 Managed Threat Detection and Response
-- 20-40% off for Incident Response Retainer
+- 20-40% off for Incident Response Retainer \
 Deal ends: 23rd December
 
 Immunity Systems \
@@ -79,13 +79,18 @@ https://www.immunity-systems.com/1337blackfriday2023.html
 - 45% off for Network Penetration tests
 - 30% off for Web Application Security tests
 - 25% off for Red Teaming services
-- 20% off for Mobile Application Security tests
+- 20% off for Mobile Application Security tests \
 Deal ends: 30th December or until exhausted
 
 Coastline Cybersecurity \
 https://coastlinecyber.com  
 - 30% off for External/Internal/Web/AD Penetration Testing
-- 30% off for Mobile/Cloud/IoT Application Security assessments
+- 30% off for Mobile/Cloud/IoT Application Security assessments \
+Deal ends: 30th December
+
+Security For Everyone \
+https://securityforeveryone.com/blog/unprecedented-black-friday-deal-50-off  
+- 50% off with code: BlackFriday50 \
 Deal ends: 30th December
 
 ## Tools
@@ -115,8 +120,8 @@ https://proxyman.io/
 30% off with code: PROXYMAN_BLACKFRIDAY_2023 \
 Deal ends: 25th November
 
-PulseDive Threat Intelligence  :see_no_evil: \
-https://pulsedive.com/about/enterprise  
+Pulsedive Threat Intelligence  :see_no_evil: \
+https://pulsedive.com/pro  
 50% off for 6 months of Pro with code: BLACKFRIDAY23 \
 Deal ends: 28th November
   
@@ -130,7 +135,33 @@ https://burpbounty.net
 $21 off from $86 to $64 \
 Deal ends: 27th November
 
-## Courses & Training
+Tenable Nessus Pro \
+https://www.tenable.com/buy  
+50% off Nessus PRO with code: takehalf \
+Deal valid: 23rd-27th November
+
+## Live Courses & Conferences (NEW CATEGORY 2023!)
+
+Ringzer0 BOOTSTRAP24 Training and Conference \
+https://ringzer0.training/#instructions  
+https://ringzer0.regfox.com/bootstrap24-austin/  
+$400 discount on trainings \
+$50 discount on conference tickets \
+Can be used with early-bird pricing, with code: R0CYBERMONDAY2023 \
+Deal valid: 24th-28th November
+
+The OSINTion Academy \
+On Demand Courses: https://academy.theosintion.com/courses?affcode=989966_6g0qf83e  
+Live Courses: https://theosintion.as.me/schedule.php  
+80% off all on-demand courses \
+40% off upcoming live courses with code: BLACKFRIDAY \
+
+Invictus Incident Response Training \
+https://academy.invictus-ir.com  
+20% off with code: BLACKFRIDAY \
+Deal ends: 30th November
+
+## Online Courses & Training
 
 Security Blue Team (SBT) :see_no_evil: \
 https://www.securityblue.team/black-friday-2023  
@@ -180,9 +211,9 @@ https://opsdisk.gumroad.com/l/cphlab/blackfriday2023
 Use code: BLACKFRIDAY2023  \
 Deal ends: December
 
-DroneSec (Drone Cybersec, Threat Intel & Counter-Drone Security Training) :see_no_evil:\
+DroneSec (Drone Cybersec, Threat Intel, OSINT, RF & Counter-Drone Security Training) :see_no_evil:\
 https://training.dronesec.com/p/bundle  
-20% off with code: GIVETHANKS23 \
+Down from $1495 to $495 + 20% off with code: GIVETHANKS23 \
 Deal valid: 22-30 November
 
 7asecurity (Security 100% Hands-On Training) \
@@ -233,6 +264,13 @@ https://tryhackme.com/room/adventofcyber2023
 20% off personal annual subscriptions with code: AOC2023 \
 Deal ends: 7th December
 
+SecurityDojo Kubernetes Security Training Courses \
+https://securitydojo.co.in/courses.html#bookTrainings
+(1) Flat 90% off on Student passes \
+(2) 25% off with code BlackFriday1 on 1-1 Instructor \
+(3) 25% off with code BlackFridayCorporate on Corporate passes \
+Deal is live
+
 CQURE Academy Cybersecurity SkillSet Courses \
 https://news.cqureacademy.com/blackfriday2023  
 (1) 20% Off Live Virtual Classes \
@@ -245,12 +283,6 @@ https://mr.un1k0d3r.world/portal/index.php
 25% off both the coding class and red team training courses \
 Discount live now
 
-The OSINTion Academy \
-On Demand Courses: https://academy.theosintion.com/courses?affcode=989966_6g0qf83e  
-Live Courses: https://theosintion.as.me/schedule.php  
-80% off all on-demand courses \
-40% off upcoming live courses with code: BLACKFRIDAY \
-
 Sektor7 Redteam courses \
 https://institute.sektor7.net/?coupon=BW23  
 20% off on all RED TEAM Operator courses with code: BW23 \
@@ -260,10 +292,28 @@ Blue Cape Security \
 On Demand Courses: https://bluecapesecurity.com/courses/  
 25% off training courses with code: BLACKFRIDAY25 \
 
-Invictus Incident Response Training \
-https://academy.invictus-ir.com  
-20% off with code: BLACKFRIDAY \
-Deal ends: 30th November
+Pluralsight InfoSec Courses \
+https://www.pluralsight.com/pricing/skills?type=individual  
+50% off - No code required
+
+APT Defend security awareness with phishing simulation platform \
+https://aptdefend.com/black-friday-2023/
+50% off for first three months of pay as you go subscription \
+50% off for first six months of annual subscription \
+Free phishing test for up to 250 users \
+Deal valid: now-31st December
+
+ArcX Cyber Threat Intelligence Training \
+https://arcx.io/courses  
+50% off - No code required \
+Deal ends: 27th November @ midnight
+
+Certificate of Cloud Security Knowledge (CCSK) Training by Cloud Security Alliance - CYBER MONDAY ONLY - \
+https://knowledge.cloudsecurityalliance.org/certificate-of-cloud-security-knowledge-foundation  
+https://knowledge.cloudsecurityalliance.org/certificate-of-cloud-security-knowledge-foundation-exam-bundle  
+https://cloudsecurityalliance.org/education/ccsk/  
+50% discount for exam and/or training course \
+Deal valid: 27 November 2023 only
 
 ## Practical Labs:
 
@@ -277,6 +327,12 @@ https://www.alteredsecurity.com/online-labs
 Deal valid: 24-27 November
 
 ## Mini Courses:
+
+NahamSec - Intro to Bug Bounty Hunting and Web Application Hacking \
+https://www.udemy.com/course/intro-to-bug-bounty-by-nahamsec        
+100% off with code: FREEBLACKFRIDAY \
+$9.99 with code: BLACKFRIDAY23 
+
 Hacking Android Applications for Bug Bounty and Pentesting \
 https://www.udemy.com/course/hacking-android-applications-for-bug-bounty-and-pentesting/  
 65% off at checkout with code: BLACKFRIDAY23 \
@@ -347,7 +403,6 @@ https://secdim.com
 (2) 35% off annual Professional plan when you reply here: https://discuss.secdim.com/t/35-off-annual-professional-plan/1568  
 Deal Ends: 1st December
 
-
 ## Services:
 
 AirVPN \
@@ -393,11 +448,11 @@ One month free ($29 USD off)
 -----------------------------------------------------------------------------------------
 
 ## How to edit formatting
-At the end of a normal sentence, place a backslash for newline (\)
+At the end of a normal sentence, place a backslash for newline (\\)
 After a link, please use a double-space (  )
 
 ## Credits
-If you wouldd like to DM me a deal rather than submitting a PR: @securitymeta_
+If you would like to DM me a deal rather than submitting a PR: @securitymeta_
 Other PRs and sources will be thanked here.
 
 Check out CriimBow's fork for a new/different formatting: https://github.com/CriimBow/InfoSec-Black-Friday/tree/master
