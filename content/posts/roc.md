@@ -1,9 +1,9 @@
 ---
 title: roc
-date: 2023-11-22T12:17:36+08:00
+date: 2023-11-23T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699302150582-bffc5309a8c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699302150582-bffc5309a8c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698208189346-6b356d242b09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698208189346-6b356d242b09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [roc-lang/roc](https://github.com/roc-lang/roc)
@@ -39,13 +39,13 @@ If you would like your company to become a corporate sponsor of Roc's developmen
 
 We'd also like to express our gratitude to our generous [individual sponsors](https://github.com/sponsors/roc-lang/)! A special thanks to those sponsoring $25/month or more:
 
+* [Chris Packett](https://github.com/chris-packett)
 * [James Birtles](https://github.com/jamesbirtles)
 * [Ivo Balbaert](https://github.com/Ivo-Balbaert)
 * [Lucas Rosa](https://github.com/rvcas)
 * [Jonas Schell](https://github.com/Ocupe)
 * [Christopher Dolan](https://github.com/cdolan)
 * [Nick Gravgaard](https://github.com/nickgravgaard)
-* [Aaron White](https://github.com/aaronwhite)
 * [Zeljko Nesic](https://github.com/popara)
 * [Shritesh Bhattarai](https://github.com/shritesh)
 * [Richard Feldman](https://github.com/rtfeldman)

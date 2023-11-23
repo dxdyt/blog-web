@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2023-11-22T12:16:31+08:00
+date: 2023-11-23T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699302150582-bffc5309a8c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699302150582-bffc5309a8c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1696814292947-8b6f06af3df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1696814292947-8b6f06af3df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -69,7 +69,7 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 ## 🙋‍♂️ FAQs
 
 - **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://github.com/abi/screenshot-to-code/issues/3#issuecomment-1814777959). If that still doesn't work, open an issue.
-- **How do I get an OpenAI API key that has the GPT4 Vision model available?** Create an OpenAI account. And then, you need to buy at least $1 worth of credit on the [Billing dashboard](https://platform.openai.com/account/billing/overview).
+- **How do I get an OpenAI API key that has the GPT4 Vision model available?** Create an OpenAI account. And then, you need to buy at least $1 worth of credit on the [Billing dashboard](https://platform.openai.com/account/billing/overview). Also, see [OpenAI docs](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4).
 - **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://twitter.com/_abi_).
 
 ## 📚 Examples

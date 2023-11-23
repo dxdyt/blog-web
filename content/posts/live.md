@@ -1,15 +1,15 @@
 ---
 title: live
-date: 2023-10-15T12:16:11+08:00
+date: 2023-11-23T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695849103692-031891ac21b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695849103692-031891ac21b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697909623126-e2ecf6f66869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697909623126-e2ecf6f66869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [fanmingming/live](https://github.com/fanmingming/live)
 
+<p align="center"><img alt="live.fanmingming.com" src="https://live.fanmingming.com/logo.png"></p>
 <h1 align="center"> ✯ 一个国内可直连的直播源分享项目 ✯ </h1>
-
 <h3 align="center">🔕 永久免费 直连访问 完整开源 不含广告 完善的台标 直播源支持IPv4/IPv6双栈访问 🔕</h3>
 
 <p align="center">
@@ -38,14 +38,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1695849103692-031891ac21
       <tr>
       <td>🌏Global直播源</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/global.m3u">https://live.fanmingming.com/tv/m3u/global.m3u</a></td>
-      <td>218个</td>
-      <td>2023.10.13</td>
+      <td>146个</td>
+      <td>2023.11.22</td>
     </tr>
     <tr>
       <td>📺IPTV(IPV6专用)</td>
       <td><a href="https://live.fanmingming.com/tv/m3u/ipv6.m3u">https://live.fanmingming.com/tv/m3u/ipv6.m3u</a></td>
-      <td>120个</td>
-      <td>2023.8.28</td>
+      <td>144个</td>
+      <td>2023.11.10</td>
     </tr>
     <tr>
       <td>📻Radio直播源</td>
@@ -59,7 +59,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1695849103692-031891ac21
 ## 🛠️工具
 - 📆EPG接口地址：
   -  [https://live.fanmingming.com/e.xml](https://live.fanmingming.com/e.xml)
-- 🆕Bing每日图片：
+- 🏞️Bing每日图片：
   -  [https://fanmingming.com/bing](https://fanmingming.com/bing)
 - 🎞️m3u8下载工具：
   -  [https://live.fanmingming.com/m3u8](https://live.fanmingming.com/m3u8)
@@ -79,11 +79,5 @@ featuredImagePreview: https://images.unsplash.com/photo-1695849103692-031891ac21
 - 您可以编辑本项目的m3u文件或上传缺失的频道Logo到`tv`或`radio`目录下并发起拉取请求，收到请求后我们会对您提交的内容进行验证，审核通过后会自动发布。
 
 ## 📔更新
-- 2023.10.13
-  - Global源更新了auth参数，添加了一些频道。
-
-## ☕捐赠
-- 支持项目，赋予更多流量，共创更好体验，让服务更强大！
-  - 自2022年10月创立以来，得益于大家的支持，项目已获得超过6K颗星星，在中文GitHub项目中名声鹊起。感激一路相伴，项目将持续免费。所有款项将透明公示于项目的[Sponsor.MD](https://github.com/fanmingming/live/blob/main/Sponsor.MD)。
-
-<img alt="Sponsor" src="https://live.fanmingming.com/sponsor.png">
+- 2023.11.22
+  - 抱歉！Global源即日起不再提供。

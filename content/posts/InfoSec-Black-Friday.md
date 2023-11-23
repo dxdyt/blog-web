@@ -1,9 +1,9 @@
 ---
 title: InfoSec-Black-Friday
-date: 2023-11-22T12:18:05+08:00
+date: 2023-11-23T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698864273184-41cf2052196b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698864273184-41cf2052196b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699800769234-e94e0ad0d69e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699800769234-e94e0ad0d69e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [0x90n/InfoSec-Black-Friday](https://github.com/0x90n/InfoSec-Black-Friday)
@@ -93,6 +93,11 @@ https://securityforeveryone.com/blog/unprecedented-black-friday-deal-50-off
 - 50% off with code: BlackFriday50 \
 Deal ends: 30th December
 
+Sekurno - Penetration testing \
+https://www.sekurno.com/#black-friday  
+- 20% Off on All Penetration Testing Services \
+Deal ends: December
+
 ## Tools
 Exploit Pack - Advanced exploitation framework with 0days and 39.000+ exploits \
 https://exploitpack.com/order.html  
@@ -139,6 +144,11 @@ Tenable Nessus Pro \
 https://www.tenable.com/buy  
 50% off Nessus PRO with code: takehalf \
 Deal valid: 23rd-27th November
+
+ZoomEye - Cyber OSINT Search Engine \
+https://zoomeye.org/business  
+50% off for one-year advanced member level \
+Deal ends: 27th November
 
 ## Live Courses & Conferences (NEW CATEGORY 2023!)
 
@@ -315,6 +325,11 @@ https://cloudsecurityalliance.org/education/ccsk/
 50% discount for exam and/or training course \
 Deal valid: 27 November 2023 only
 
+Expliot Academy (ioT Hacking Skills) \
+https://academy.expliot.io/courses  
+45% off on courses using Code: BF45 \
+Deal (allegedly) ends: 23rd November
+
 ## Practical Labs:
 
 Safer Internet Project Ongoing Labs \
@@ -334,10 +349,14 @@ https://www.udemy.com/course/intro-to-bug-bounty-by-nahamsec
 $9.99 with code: BLACKFRIDAY23 
 
 Hacking Android Applications for Bug Bounty and Pentesting \
-https://www.udemy.com/course/hacking-android-applications-for-bug-bounty-and-pentesting/  
+https://www.udemy.com/course/hacking-android-applications-for-bug-bounty-and-pentesting/?couponCode=BLACKFRIDAY23  
 65% off at checkout with code: BLACKFRIDAY23 \
-Starts: 11/20/2023 8:00 AM PST \
-Expires: 11/25/2023 8:00 AM PST 
+Deal valid: 20th November - 25th November
+
+Cybr's Cloud Security Training \
+https://cybr.com/pricing/
+4 months free ($19 off) yearly subscription, applied on page \
+Deal ends: 27 November
 
 ## Exams:
 
@@ -374,6 +393,11 @@ Yubico Hardware MFA Keys \
 https://www.yubico.com/gb/store/2023/cyber-week/  
 Buy One, Get One 50% OFF for YubiKey 5 Series and Security Key Series \
 Deal valid: 20-27 November
+
+Covert Instruments Lockpicking Tools \
+https://covertinstruments.com/collections/black-friday-sale  
+Multiple On-Sale Kits discounts applied automatically \
+Deal Ends: 3rd December 
 
 ## Wearables:
 HackCloth Hacking Hoodies, T-Shirts & Sweatshirts \

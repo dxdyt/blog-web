@@ -1,9 +1,9 @@
 ---
 title: FriendsDontLetFriends
-date: 2023-11-22T12:17:09+08:00
+date: 2023-11-23T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698414392331-ffcb3121e28e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698414392331-ffcb3121e28e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698208189346-6b356d242b09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698208189346-6b356d242b09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [cxli233/FriendsDontLetFriends](https://github.com/cxli233/FriendsDontLetFriends)

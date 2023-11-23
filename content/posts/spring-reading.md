@@ -1,9 +1,9 @@
 ---
 title: spring-reading
-date: 2023-11-22T12:16:44+08:00
+date: 2023-11-23T12:18:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698422768074-633e51154997?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698422768074-633e51154997?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698934294883-2dfaf5a538f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698934294883-2dfaf5a538f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading)
@@ -152,7 +152,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1698422768074-633e511549
 
   - [`Bean的依赖解析过程`](spring-core/spring-core-resolveDependency/README.md)：声明依赖，查找依赖，注入依赖，处理循环依赖，延迟依赖解析。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
 
-  - `Bean的销毁过程`：销毁方法调用，接口回调，后处理清理，通知触发，GC回收资源。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img><img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
+  - [`Bean的销毁过程`](spring-core/spring-core-destroyBean/README.md)：销毁方法调用，接口回调，后处理清理，通知触发，GC回收资源。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
 
 - Bean初始化与扩展点
 

@@ -1,9 +1,9 @@
 ---
 title: ml-engineering
-date: 2023-11-11T12:17:35+08:00
+date: 2023-11-23T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696527557773-ae260b7c4bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698586453442-b03506d193cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698586453442-b03506d193cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
@@ -98,7 +98,7 @@ Guides:
 
 None of this would have been possible without me being entrusted with doing the specific LLM/VLM trainings I have learned this know-how from. This is a privilege that only a few enjoy due to the prohibitively expensive cost of renting huge ML compute clusters. So hopefully the rest of the ML community will vicariously learn from these notes.
 
-Special thanks go to [Thom Wolf](https://github.com/thomwolf) who proposed that I lead the BLOOM-176B training when I didn't know anything about large scale training. This was the project that catapulted me into the intense learning process. And, of course, HuggingFace for giving me the opportunity to work full time on BLOOM-176B and later on IDEFICS-80B trainings.
+Special thanks go to [Thom Wolf](https://github.com/thomwolf) who proposed that I lead the BLOOM-176B training back when I didn't know anything about large scale training. This was the project that catapulted me into the intense learning process. And, of course, HuggingFace for giving me the opportunity to work full time on BLOOM-176B and later on IDEFICS-80B trainings.
 
 ## Contributing
 

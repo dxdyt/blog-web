@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-11-09T12:16:32+08:00
+date: 2023-11-23T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698111294594-044d973e2c4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698111294594-044d973e2c4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698342173518-480ff44fe486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698342173518-480ff44fe486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -216,7 +216,7 @@ Ollama has a REST API for running and managing models.
 For example, to generate text from a model:
 
 ```
-curl -X POST http://localhost:11434/api/generate -d '{
+curl http://localhost:11434/api/generate -d '{
   "model": "llama2",
   "prompt":"Why is the sky blue?"
 }'
@@ -226,6 +226,10 @@ See the [API documentation](./docs/api.md) for all endpoints.
 
 ## Community Integrations
 
+### Mobile
+
+- [Mobile Artificial Intelligence Distribution](https://github.com/MaidFoundation/Maid) (Maid)
+
 ### Web & Desktop
 
 - [HTML UI](https://github.com/rtcfirefly/ollama-ui)
@@ -234,6 +238,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Minimalistic React UI for Ollama Models](https://github.com/richawo/minimal-llm-ui)
 - [Web UI](https://github.com/ollama-webui/ollama-webui)
 - [Ollamac](https://github.com/kevinhermawan/Ollamac)
+- [big-AGI](https://github.com/enricoros/big-agi/blob/main/docs/config-ollama.md)
+- [Cheshire Cat assistant framework](https://github.com/cheshire-cat-ai/core)
 
 ### Terminal
 
@@ -241,16 +247,32 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Ellama Emacs client](https://github.com/s-kostyaev/ellama)
 - [Emacs client](https://github.com/zweifisch/ollama)
 - [gen.nvim](https://github.com/David-Kunz/gen.nvim)
+- [ollama.nvim](https://github.com/nomnivore/ollama.nvim)
+- [ogpt.nvim](https://github.com/huynle/ogpt.nvim)
+- [gptel Emacs client](https://github.com/karthink/gptel)
+- [Oatmeal](https://github.com/dustinblackman/oatmeal)
+
+### Package managers
+
+- [Pacman](https://archlinux.org/packages/extra/x86_64/ollama/)
 
 ### Libraries
 
 - [LangChain](https://python.langchain.com/docs/integrations/llms/ollama) and [LangChain.js](https://js.langchain.com/docs/modules/model_io/models/llms/integrations/ollama) with [example](https://js.langchain.com/docs/use_cases/question_answering/local_retrieval_qa)
+- [LangChainGo](https://github.com/tmc/langchaingo/) with [example](https://github.com/tmc/langchaingo/tree/main/examples/ollama-completion-example)
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/stable/examples/llm/ollama.html)
 - [LiteLLM](https://github.com/BerriAI/litellm)
 - [OllamaSharp for .NET](https://github.com/awaescher/OllamaSharp)
 - [Ollama-rs for Rust](https://github.com/pepperoni21/ollama-rs)
 - [Ollama4j for Java](https://github.com/amithkoujalgi/ollama4j)
 - [ModelFusion Typescript Library](https://modelfusion.dev/integration/model-provider/ollama)
+- [OllamaKit for Swift](https://github.com/kevinhermawan/OllamaKit)
+- [Ollama for Dart](https://github.com/breitburg/dart-ollama)
+- [Ollama for Laravel](https://github.com/cloudstudio/ollama-laravel)
+
+### Mobile
+
+- [Maid](https://github.com/danemadsen/Maid) (Mobile Artificial Intelligence Distribution)
 
 ### Extensions & Plugins
 
@@ -262,3 +284,6 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Dagger Chatbot](https://github.com/samalba/dagger-chatbot)
 - [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot)
 - [Hass Ollama Conversation](https://github.com/ej52/hass-ollama-conversation)
+- [Rivet plugin](https://github.com/abrenneke/rivet-plugin-ollama)
+- [Llama Coder](https://github.com/ex3ndr/llama-coder) (Copilot alternative using Ollama)
+- [Obsidian BMO Chatbot plugin](https://github.com/longy2k/obsidian-bmo-chatbot)
