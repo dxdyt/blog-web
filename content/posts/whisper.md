@@ -1,9 +1,9 @@
 ---
 title: whisper
-date: 2023-11-10T12:15:50+08:00
+date: 2023-11-24T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698414126582-96bc9a781e87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698414126582-96bc9a781e87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698158360685-db3f94818c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698158360685-db3f94818c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
 ---
 
 # [openai/whisper](https://github.com/openai/whisper)

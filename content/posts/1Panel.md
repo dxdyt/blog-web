@@ -1,9 +1,9 @@
 ---
 title: 1Panel
-date: 2023-09-28T12:16:54+08:00
+date: 2023-11-24T12:18:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693858763467-652b22ad724b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693858763467-652b22ad724b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699560506054-2d7a189a6321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699560506054-2d7a189a6321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
@@ -26,7 +26,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1693858763467-652b22ad72
 - **快速建站**：深度集成 Wordpress 和 [Halo](https://github.com/halo-dev/halo/)，域名绑定、SSL 证书配置等一键搞定；
 - **高效管理**：通过 Web 端轻松管理 Linux 服务器，包括主机监控、文件管理、数据库管理、容器管理等；
 - **安全可靠**：基于容器来管理和部署应用，最小漏洞暴露面，提供防火墙和日志审计等功能；
-- **一键备份**：支持一键备份和恢复，备份数据到各类云端存储，永不丢失。
+- **一键备份**：支持一键备份和恢复，备份数据到各类云端存储，永不丢失；
+- **应用商店**：精选各类高质量开源工具和应用软件，助力您轻松安装和升级。
 
 ## UI 展示
 
@@ -53,10 +54,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 - [在线文档](https://1panel.cn/docs/)
 - [教学视频](https://space.bilibili.com/510493147/channel/collectiondetail?sid=1199760)
 - [社区论坛](https://bbs.fit2cloud.com/c/1p/7)
-
-**加入微信交流群**
-
-<img src="https://1panel.cn/img/wechat-group.jpg" width="156" height="156"/>
+- [如何加入微信交流群?](https://bbs.fit2cloud.com/t/topic/2147)
 
 ## 安全说明
 

@@ -1,9 +1,9 @@
 ---
 title: Screenshot-to-code
-date: 2023-11-23T12:18:23+08:00
+date: 2023-11-24T12:15:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698342173518-480ff44fe486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698342173518-480ff44fe486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700578075560-ebacba6e5d22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700578075560-ebacba6e5d22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
 ---
 
 # [emilwallner/Screenshot-to-code](https://github.com/emilwallner/Screenshot-to-code)

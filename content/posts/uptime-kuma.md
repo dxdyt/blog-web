@@ -1,9 +1,9 @@
 ---
 title: uptime-kuma
-date: 2023-11-22T12:19:14+08:00
+date: 2023-11-24T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694734479864-59fbfc12bf96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694734479864-59fbfc12bf96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA2MjY1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698158360685-db3f94818c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698158360685-db3f94818c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
 ---
 
 # [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)

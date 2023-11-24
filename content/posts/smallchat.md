@@ -1,18 +1,25 @@
 ---
 title: smallchat
-date: 2023-11-06T12:16:26+08:00
+date: 2023-11-24T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695768231937-e63546703b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695768231937-e63546703b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699393393011-4f6f3e36a5c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699393393011-4f6f3e36a5c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
 ---
 
 # [antirez/smallchat](https://github.com/antirez/smallchat)
 
 # Smallchat
 
-TLDR: This is just a programming example for a few friends of mine. I uploaded a video on my YouTube channel [zooming into the code](https://www.youtube.com/watch?v=eT02gzeLmF0), to see what can be learned from a so simple and broken (on purpose) example. More videos and improvements will follow, see the end of this README file.
+TLDR: This is just a programming example for a few friends of mine. It somehow turned into a set of programming videos, continuing one project I started some time ago: Writing System Software videos series.
 
-And now, the full story:
+1. [First episode](https://www.youtube.com/watch?v=eT02gzeLmF0), how the basic server works.
+2. [Second episode](https://youtu.be/yogoUJ2zVYY), writing a simple client with raw terminal handling.
+
+Likely more will follow, stay tuned.
+
+**IMPORTANT: a warning about PRs**: please note that most pull requests adding features will be refused, because the point of this repository is to improve it step by step in the next videos. We will do refactoring during live coding sessions (or explaining how the refactoring was needed in the video), introducing more libraries to improve the program inner working (linenoise, rax, and so forth). So if you want to improve the program as an exercise, go ahead! It's a great idea. But I will not merge new features here since the point of the program is to evolve it step by step during the videos.
+
+## And now, the full story:
 
 Yesterday I was talking with a few friends of mine, front-end developers mostly, who are a bit far from system programming. We were remembering the old times of IRC. And inevitably I said: that writing a very simple IRC server is an experience everybody should do (I showed them my implementation written in TCL; I was quite shocked that I wrote it 18 years ago: time passes fast). There are very interesting parts in such a program. A single process doing multiplexing, taking the client state and trying to access such state fast once a client has new data, and so forth.
 
