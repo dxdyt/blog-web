@@ -1,9 +1,9 @@
 ---
 title: starrocks
-date: 2023-08-02T12:16:45+08:00
+date: 2023-11-25T12:16:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690086142286-caccce218c0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690086142286-caccce218c0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699040309386-11c615ed64d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699040309386-11c615ed64d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
 ---
 
 # [StarRocks/starrocks](https://github.com/StarRocks/starrocks)
@@ -44,7 +44,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1690086142286-caccce218c
 <div align="center"> 
 
   </div>
-StarRocks is the next-generation data platform designed to make data-intensive real-time analytics fast and easy. 
+StarRocks, a Linux Foundation project, is the next-generation data platform designed to make data-intensive real-time analytics fast and easy. 
 It delivers query speeds 5 to 10 times faster than other popular solutions. StarRocks can perform real-time analytics well while updating historical records. It can also enhance real-time analytics with historical data from data lakes easily. With StarRocks, you can get rid of the de-normalized tables and get the best performance and flexibility. <br>
 
 Learn more 👉🏻 [Introduction to StarRocks](https://www.starrocks.io/blog/introduction_to_starrocks )

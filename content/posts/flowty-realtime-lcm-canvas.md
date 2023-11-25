@@ -1,9 +1,9 @@
 ---
 title: flowty-realtime-lcm-canvas
-date: 2023-11-24T12:15:49+08:00
+date: 2023-11-25T12:16:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699560506054-2d7a189a6321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699560506054-2d7a189a6321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699174700778-4d7364cb0a24?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699174700778-4d7364cb0a24?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
 ---
 
 # [flowtyone/flowty-realtime-lcm-canvas](https://github.com/flowtyone/flowty-realtime-lcm-canvas)
@@ -12,8 +12,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1699560506054-2d7a189a63
 
 ![example gif](example.gif)
 
-This is a realtime sketch to image demo using LCM and the gradio library. 
-If you're not familiar with LCM, read about it here - [article on huggingface](https://huggingface.co/blog/lcm_lora).
+### About
+---
+
+This is a real-time sketch to image demo using LCM and the [gradio library](https://github.com/gradio-app/gradio). 
+If you're not familiar with LCM, read about it here - [article on Hugging Face](https://huggingface.co/blog/lcm_lora).
 
 Thanks to LCM LoRA, you can also use different models by altering the model id in the ui.
 The desired effect was for you to be able to draw on one side and see the changes at close to real-time on the other side.
@@ -22,19 +25,20 @@ Needless to say, this will perform worse on some GPUs, and better on some GPUs. 
 
 This was tested on a macbook pro with M2 Max, 30 GPU - 32GB combo, python 3.10. Inference times were tolerable, about 1.2s per render. If you're getting good performance on your machine, feel free to tweak the parameters in order to get better results. You can also change the canvas size to 768 / 1024 in ui.py, depending on your model.
 
-### Setup:
-* Setup a venv if you feel like: ```python -m venv env```
+### Setup
+---
+* Setup a venv if you'd like to isolate your project environment: ```python -m venv env```
   * activate on MacOS: ```source ./env/bin/activate```
   * activate on Windows: ```env\Scripts\activate```
-* Nvidia users should install pytorch using this command: ```pip install torch --extra-index-url https://download.pytorch.org/whl/cu121```
+* Nvidia users should install PyTorch using this command: ```pip install torch --extra-index-url https://download.pytorch.org/whl/cu121```
 * Install the requirements: ```pip install -r requirements.txt```
 * Run ui.py: ```python ui.py```
 
 After you run ui.py, models should be downloaded automatically to the models directory. It might take a few minutes depending on your network.
-After that gradio will print to the console the url where you can access the ui.
+Once the models are downloaded, gradio will print to the console the url where you can access the ui.
 
 ### Use Google Colab
-
+---
 Google Colab users can also enjoy it by executing the following command and accessing the generated Gradio Public URL.  
 (I think this is currently only available in the Colab Pro.)
 
