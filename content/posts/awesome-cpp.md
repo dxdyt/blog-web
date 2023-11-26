@@ -1,9 +1,9 @@
 ---
 title: awesome-cpp
-date: 2023-11-25T12:16:59+08:00
+date: 2023-11-26T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699040309386-11c615ed64d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699040309386-11c615ed64d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698430484227-006b70bc83cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698430484227-006b70bc83cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
 ---
 
 # [fffaraz/awesome-cpp](https://github.com/fffaraz/awesome-cpp)
@@ -548,6 +548,7 @@ A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny
 * [CEGUI](http://cegui.org.uk/) - Flexible, cross-platform GUI library.
 * [Elements](https://github.com/cycfi/elements) - Lightweight, fine-grained, resolution independent, modular GUI library. [MIT]
 * [FLTK](http://www.fltk.org/index.php) - Fast, light, cross-platform C++ GUI toolkit. [GPL2]
+* [FOX Toolkit](http://fox-toolkit.org) - an open-source, cross-platform widget toolkit. [LGPL]
 * [GacUI](https://github.com/vczh-libraries/GacUI) - GPU Accelerated C++ User Interface, with WYSIWYG developing tools, XML supports, built-in data binding and MVVM features. [Ms-PL]
 * [GTK+](http://www.gtk.org/) - A multi-platform toolkit for creating graphical user interfaces. [LGPL]
 * [gtkmm](http://www.gtkmm.org/en/) - The official C++ interface for the popular GUI library GTK+. [LGPL]

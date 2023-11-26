@@ -1,9 +1,9 @@
 ---
 title: clash-nyanpasu
-date: 2023-11-25T12:15:28+08:00
+date: 2023-11-26T12:15:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698422864754-de73a2a86007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698422864754-de73a2a86007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699116548123-73affe0987b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699116548123-73affe0987b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
 ---
 
 # [keiko233/clash-nyanpasu](https://github.com/keiko233/clash-nyanpasu)

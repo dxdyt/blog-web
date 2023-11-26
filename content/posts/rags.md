@@ -1,9 +1,9 @@
 ---
 title: rags
-date: 2023-11-24T12:15:31+08:00
+date: 2023-11-26T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698716206713-b2a8c7e50267?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698716206713-b2a8c7e50267?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699116548123-73affe0987b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699116548123-73affe0987b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
 ---
 
 # [run-llama/rags](https://github.com/run-llama/rags)
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 By default, we use OpenAI for both the builder agent as well as the generated RAG agent.
-Please `.streamlit/secrets.toml` in the home folder.
+Add `.streamlit/secrets.toml` in the home folder.
 
 Then put the following:
 ```
@@ -107,4 +107,4 @@ You can set the configuration either through natural language or manually for bo
 
 ## Issues / Contributions
 
-Running into issues? Please file a Github issue or join our [Discord](https://discord.gg/dGcwcsnxhU).
+Running into issues? Please file a GitHub issue or join our [Discord](https://discord.gg/dGcwcsnxhU).
