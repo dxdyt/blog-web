@@ -1,9 +1,9 @@
 ---
 title: live
-date: 2023-11-26T12:15:42+08:00
+date: 2023-11-27T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693307815317-f457f9b9d1fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693307815317-f457f9b9d1fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [fanmingming/live](https://github.com/fanmingming/live)

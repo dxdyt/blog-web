@@ -1,9 +1,9 @@
 ---
 title: Awesome-Black-Friday-Cyber-Monday
-date: 2023-11-26T12:15:37+08:00
+date: 2023-11-27T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697984787024-80be2406b632?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697984787024-80be2406b632?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692355147175-55eb5df57435?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692355147175-55eb5df57435?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [trungdq88/Awesome-Black-Friday-Cyber-Monday](https://github.com/trungdq88/Awesome-Black-Friday-Cyber-Monday)

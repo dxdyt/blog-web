@@ -1,9 +1,9 @@
 ---
 title: rags
-date: 2023-11-26T12:15:22+08:00
+date: 2023-11-27T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699116548123-73affe0987b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699116548123-73affe0987b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [run-llama/rags](https://github.com/run-llama/rags)
@@ -21,10 +21,10 @@ This project is inspired by [GPTs](https://openai.com/blog/introducing-gpts), la
 
 ## Installation and Setup 
 
-Clone this project, go into the `rags` project folder.
+Clone this project, go into the `rags` project folder. We recommend creating a virtual env for dependencies (`python3 -m venv .venv`).
 
 ```
-pip install -r requirements.txt
+poetry install --with dev
 ```
 
 By default, we use OpenAI for both the builder agent as well as the generated RAG agent.

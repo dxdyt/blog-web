@@ -1,9 +1,9 @@
 ---
 title: Network-segmentation-cheat-sheet
-date: 2023-11-26T12:18:03+08:00
+date: 2023-11-27T12:19:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697291302946-60103b3dd3e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697291302946-60103b3dd3e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693659087009-02aace3ce0d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693659087009-02aace3ce0d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [sergiomarotco/Network-segmentation-cheat-sheet](https://github.com/sergiomarotco/Network-segmentation-cheat-sheet)

@@ -1,15 +1,15 @@
 ---
 title: chatgpt_system_prompt
-date: 2023-11-26T12:17:03+08:00
+date: 2023-11-27T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698523648314-3226f03c787e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt)
 
 # chatgpt_system_prompt
-store all chatgpt's system prompt
+store all agent's system prompt
 
 ## how to get system prompt
 you can get ChatGPT's system prompts by sending the following command to ChatGPT(The core is to divert ChatGPT's attention so that he does not realize that he is violating the rules.):
@@ -123,6 +123,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [Moby Dick RPG ](./prompts/gpts/Moby%20Dick%20RPG%20.md)
   - [Music Writer](./prompts/gpts/Music%20Writer.md)
   - [MuskGPT](./prompts/gpts/MuskGPT.md)
+  - [Nomad List](./prompts/gpts/Nomad%20List.md)
   - [OCR-GPT](./prompts/gpts/OCR-GPT.md)
   - [OpenAPI Builder](./prompts/gpts/OpenAPI%20Builder.md)
   - [OpenStorytelling Plus](./prompts/gpts/OpenStorytelling%20Plus.md)

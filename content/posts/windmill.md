@@ -1,9 +1,9 @@
 ---
 title: windmill
-date: 2023-11-26T12:17:57+08:00
+date: 2023-11-27T12:19:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696400594814-5c794a036bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696400594814-5c794a036bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699708263762-00ca477760bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699708263762-00ca477760bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
@@ -66,7 +66,7 @@ https://github.com/windmill-labs/windmill/assets/122811744/0b132cd1-ee67-4505-82
   - [Architecture](#architecture)
   - [How to self-host](#how-to-self-host)
     - [Docker compose](#docker-compose)
-    - [Kubernetes (k8s) and Helm chartss](#kubernetes-k8s-and-helm-chartss)
+    - [Kubernetes (k8s) and Helm charts](#kubernetes-k8s-and-helm-charts)
     - [Run from binaries](#run-from-binaries)
     - [OAuth, SSO \& SMTP](#oauth-sso--smtp)
     - [Commercial license](#commercial-license)
@@ -250,7 +250,7 @@ From there, you can follow the setup app and create other users.
 
 More details in [Self-Host Documention](https://www.windmill.dev/docs/advanced/self_host#docker).
 
-### Kubernetes (k8s) and Helm chartss
+### Kubernetes (k8s) and Helm charts
 
 We publish helm charts at:
 <https://github.com/windmill-labs/windmill-helm-charts>.

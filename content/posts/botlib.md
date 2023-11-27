@@ -1,9 +1,9 @@
 ---
 title: botlib
-date: 2023-11-26T12:16:43+08:00
+date: 2023-11-27T12:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698728877137-963bca5b5310?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698728877137-963bca5b5310?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700740728423-7feef3951f92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700740728423-7feef3951f92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [antirez/botlib](https://github.com/antirez/botlib)

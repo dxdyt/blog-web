@@ -1,9 +1,9 @@
 ---
 title: angular
-date: 2023-11-26T12:18:15+08:00
+date: 2023-11-27T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693307815317-f457f9b9d1fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693307815317-f457f9b9d1fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA5NzIxMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699694927495-4b8da5df6ce5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699694927495-4b8da5df6ce5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [angular/angular](https://github.com/angular/angular)
