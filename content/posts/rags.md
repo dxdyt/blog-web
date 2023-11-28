@@ -1,9 +1,9 @@
 ---
 title: rags
-date: 2023-11-27T12:16:35+08:00
+date: 2023-11-28T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700485824824-8312219d1152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700485824824-8312219d1152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
 ---
 
 # [run-llama/rags](https://github.com/run-llama/rags)
@@ -105,6 +105,10 @@ You can set the configuration either through natural language or manually for bo
 - **Embeddings**: Supports text-embedding-ada-002 by default, but also supports Hugging Face models. To use a hugging face model simply prepend with local, e.g. local:BAAI/bge-small-en.
 
 
-## Issues / Contributions
+## Resources
 
 Running into issues? Please file a GitHub issue or join our [Discord](https://discord.gg/dGcwcsnxhU).
+
+This app was built with [LlamaIndex Python](https://github.com/run-llama/llama_index).
+
+See our launch blog post [here](https://blog.llamaindex.ai/introducing-rags-your-personalized-chatgpt-experience-over-your-data-2b9d140769b1).

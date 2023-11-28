@@ -1,9 +1,9 @@
 ---
 title: windmill
-date: 2023-11-27T12:19:15+08:00
+date: 2023-11-28T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699708263762-00ca477760bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699708263762-00ca477760bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700296783131-967edf54a333?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700296783131-967edf54a333?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
 ---
 
 # [windmill-labs/windmill](https://github.com/windmill-labs/windmill)
@@ -373,7 +373,7 @@ it being synced automatically everyday.
 | SMTP_PASSWORD                                 | None                                       | password for the smtp server to send invite emails                                                                                                                                                 | Server                |
 | SMTP_TLS_IMPLICIT                             | false                                      | https://docs.rs/mail-send/latest/mail_send/struct.SmtpClientBuilder.html#method.implicit_tlsemails                                                                                                 | Server                |
 | CREATE_WORKSPACE_REQUIRE_SUPERADMIN           | true                                       | If true, only superadmin can create workspaces                                                                                                                                                     | Server                |
-| GLOBAL_ERROR_HANDLER_PATH_IN_ADMINS_WORKSPACE | None                                       | Path to a script to run when a root job fails. The script will be run in and from the admins workspace                                                                                             | Server                |
+| GLOBAL_ERROR_HANDLER_PATH_IN_ADMINS_WORKSPACE | None                                       | Path to a script or flow to run when a root job fails. The path needs to be prefixed with either `script/` or `flow/` to indicate the kind of error handler being used (assuming `script/` by default). The error handler will be run in and from the admins workspace                                                                                             | Server                |
 | WHITELIST_ENVS                                | None                                       | List of envs variables, separated by a ',' that are whitelisted as being safe to passthrough the workers                                                                                           | Worker                |
 | SAML_METADATA                                 | None                                       | SAML Metadata URL to enable SAML SSO (EE only)                                                                                                                                                     | Server                |
 | SECRET_SALT                                   | None                                       | Secret Salt used for encryption and decryption of secrets. If defined, the secrets will not be decryptable unless the right salt is passed in, which is the case for the workers and the server    | Server + Worker       |

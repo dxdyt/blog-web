@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-11-27T12:17:20+08:00
+date: 2023-11-28T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695068545577-60fc2d9768f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695068545577-60fc2d9768f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695408249017-f056cbf795e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695408249017-f056cbf795e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -36,7 +36,7 @@ This repo collect leaked prompts of GPTs
 - [Sarcastic Humorist](./Sarcastic%20Humorist.md) by Irene L Williams
 - [Manga Miko - Anime Girlfriend](./Manga%20Miko%20-%20Anime%20Girlfriend.md) by Declan Gessel
 - [OCR-GPT](./OCR-GPT.md) by Siyang Qiu
-- [AI PDF](./AI%20PDF.md) by myaidrive.com
+- [Ai PDF](./Ai%20PDF.md) by myaidrive.com
 - [完蛋，我被美女包围了(AI同人)](./完蛋，我被美女包围了(AI同人).md) by ikena.ai
 - [Virtual Sweetheart](./Virtual%20Sweetheart.md) by Ryan Imgrund
 - [Synthia 😋🌟](./Synthia%20%F0%9F%98%8B%F0%9F%8C%9F.md) by BENARY Jacquis Ronaldo
@@ -171,3 +171,7 @@ This repo collect leaked prompts of GPTs
 - [英文校正GPT](./英文校正GPT.md)
 - [🍩 Get Simpsonized! 🍩](./Get%20Simpsonized!.md) by sprintrade.com
 - [CIPHERON 🧪](./CIPHERON.md) By community builder
+- [Nomad List](./Nomad%20List.md) by photoai.com
+- [Assistente AI per CEO marketing oriented](./Assistente%20AI%20per%20CEO%20marketing%20oriented.md) by Giorgio FATARELLA
+- [Captain Action](./Captain%20Action.md) by Yohei Nakajima
+- [Naruto GPT](./Naruto%20GPT.md) by selerite.com

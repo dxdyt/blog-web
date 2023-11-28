@@ -1,9 +1,9 @@
 ---
 title: AI-For-Beginners
-date: 2023-11-27T12:18:39+08:00
+date: 2023-11-28T12:18:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699708263762-00ca477760bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699708263762-00ca477760bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700485824824-8312219d1152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700485824824-8312219d1152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)
@@ -199,6 +199,7 @@ Our team produces other curricula! Check out:
 - [AI for Beginners](https://aka.ms/ai-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)
 - [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)

@@ -1,9 +1,9 @@
 ---
 title: chatgpt_system_prompt
-date: 2023-11-27T12:18:14+08:00
+date: 2023-11-28T12:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698584109673-12d97bc70d08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688733720228-4f7a18681c4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688733720228-4f7a18681c4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
 ---
 
 # [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt)
@@ -97,6 +97,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [Email Responder Pro](./prompts/gpts/Email%20Responder%20Pro.md)
   - [EmojAI](./prompts/gpts/EmojAI.md)
   - [Fantasy Book Weaver](./prompts/gpts/Fantasy%20Book%20Weaver.md)
+  - [Flipper Zero App Builder](./prompts/gpts/Flipper%20Zero%20App%20Builder.md)
   - [Framer Template Assistant](./prompts/gpts/Framer%20Template%20Assistant.md)
   - [FramerGPT](./prompts/gpts/FramerGPT.md)
   - [GPT Builder](./prompts/gpts/GPT%20Builder.md)
@@ -205,8 +206,11 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [猫耳美少女イラストメーカー](./prompts/gpts/猫耳美少女イラストメーカー.md)
   - [確定申告について教えてくれる君](./prompts/gpts/確定申告について教えてくれる君.md)
 - opensource-prj
+  - [netwrck](./prompts/opensource-prj/netwrck.md)
   - [screenshot-to-code](./prompts/opensource-prj/screenshot-to-code.md)
   - [tldraw](./prompts/opensource-prj/tldraw.md)
+
+
 
 
 ## Disclaimer

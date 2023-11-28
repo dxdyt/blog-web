@@ -1,9 +1,9 @@
 ---
 title: starrocks
-date: 2023-11-27T12:17:49+08:00
+date: 2023-11-28T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693659087009-02aace3ce0d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693659087009-02aace3ce0d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEwNTg1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698546750147-14625302034d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698546750147-14625302034d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
 ---
 
 # [StarRocks/starrocks](https://github.com/StarRocks/starrocks)
