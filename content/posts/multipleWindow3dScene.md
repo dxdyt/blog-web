@@ -1,51 +1,68 @@
 ---
 title: multipleWindow3dScene
-date: 2023-11-28T12:15:59+08:00
+date: 2023-11-29T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698546750147-14625302034d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698546750147-14625302034d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700224960039-4c8f392e1aee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700224960039-4c8f392e1aee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
 ---
 
-# [bgstaal/multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene)
+# [ShinoKana/multipleWindow3dScene](https://github.com/ShinoKana/multipleWindow3dScene)
 
-# Multiple Window 3D Scene using Three.js
+## 3d scene spanning multiple windows using three.js and localStorage
 
-## Introduction
-This project demonstrates a unique approach to creating and managing a 3D scene across multiple browser windows using Three.js and localStorage. It's designed for developers interested in advanced web graphics and window management techniques.
+A simple example showing how to setup a 3d scene across windows on the same origin using three.js and localStorage. 
+
+This is based on https://github.com/bgstaal/multipleWindow3dScene
+---
+
+https://github.com/ShinoKana/multipleWindow3dScene/assets/100673497/fc7a6357-0e29-4dc4-b183-194dfd6a16bc
+
+
 
 ## Features
-- 3D scene creation and rendering with Three.js.
-- Synchronization of 3D scenes across multiple browser windows.
-- Dynamic window management and state synchronization using localStorage.
 
-## Installation
-Clone the repository and open `index.html` in your browser to start exploring the 3D scene.
+- **Multi-Window Synchronization**: Using `localStorage`, the 3D scene's state is synchronized across multiple browser windows.
+- **three.js Integration**: Leveraging the power of `three.js` to render 3D graphics.
+- **Responsive Design**: The 3D scene adjusts to different window sizes, maintaining its visual consistency.
 
-```
-git clone https://github.com/bgstaal/multipleWindow3dScene
-```
-## Usage
-The main application logic is contained within `main.js` and `WindowManager.js`. The 3D scene is rendered in `index.html`, which serves as the entry point of the application.
+## Setup
 
-## Structure and Components
-- `index.html`: Entry point that sets up the HTML structure and includes the Three.js library and the main script.
-- `WindowManager.js`: Core class managing window creation, synchronization, and state management across multiple windows.
-- `main.js`: Contains the logic for initializing the 3D scene, handling window events, and rendering the scene.
-- `three.r124.min.js`: Minified version of the Three.js library used for 3D graphics rendering.
+To get started with this project, follow these steps:
 
-## Detailed Functionality
-- `WindowManager.js` handles the lifecycle of multiple browser windows, including creation, synchronization, and removal. It uses localStorage to maintain state across windows.
-- `main.js` initializes the 3D scene using Three.js, manages the window's resize events, and updates the scene based on window interactions.
+### Installation
 
-## Contributing
-Contributions to enhance or expand the project are welcome. Feel free to fork the repository, make changes, and submit pull requests.
+1. **Clone the Repository:**
 
-## License
-This project is open-sourced under the MIT License.
+   ```bash
+   git clone https://github.com/ShinoKana/multipleWindow3dScene.git
+   cd multipleWindow3dScene
+   ```
 
-## Acknowledgments
-- The Three.js team for their comprehensive 3D library.
-- x.com/didntdrinkwater for this readme.
+2. **Install http-server:**
 
-## Contact
-For more information and updates, follow [@_nonfigurativ_](https://twitter.com/_nonfigurativ_) on Twitter.
+   If you don't have `http-server` installed globally, run:
+
+   ```bash
+   npm install -g http-server
+   ```
+
+### Running the Project
+
+1. **Start the Server:**
+
+   In the project directory, start the server by running:
+
+   ```bash
+   http-server
+   ```
+
+2. **Open the Application:**
+
+   Open your web browser and navigate to `http://127.0.0.1:8080` or the URL provided in the command line output.
+
+3. **Open Multiple Windows:**
+
+   To fully experience the multi-window setup, open multiple instances of the URL in different windows or tabs.
+<img width="976" alt="cba819282e1fc915f926f2ed45a97e3" src="https://github.com/ShinoKana/multipleWindow3dScene/assets/100673497/e2dcd87a-5475-4cc9-b330-3ec4483cba96">
+
+
