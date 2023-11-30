@@ -1,9 +1,9 @@
 ---
 title: plane
-date: 2023-10-02T12:15:07+08:00
+date: 2023-11-30T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694704606055-9e30c5fea927?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694704606055-9e30c5fea927?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698847102523-cb8643d755a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698847102523-cb8643d755a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [makeplane/plane](https://github.com/makeplane/plane)
@@ -64,7 +64,7 @@ chmod +x setup.sh
 - Run setup.sh
 
 ```bash
-./setup.sh http://localhost
+./setup.sh
 ```
 
 > If running in a cloud env replace localhost with public facing IP address of the VM

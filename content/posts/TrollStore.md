@@ -1,9 +1,9 @@
 ---
 title: TrollStore
-date: 2023-11-29T12:16:42+08:00
+date: 2023-11-30T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698321958286-af3eb2a61916?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698321958286-af3eb2a61916?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698759362993-6797801de447?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698759362993-6797801de447?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [opa334/TrollStore](https://github.com/opa334/TrollStore)
@@ -30,7 +30,7 @@ Alternatively (if anything goes wrong), you can download the TrollStore.tar file
 
 ## Uninstalling an app
 
-Apps installed from TrollStore can only be uninstalled from TrollStore itself, tap an app or swipe it to the right in the 'Apps' tab to delete it.
+Apps installed from TrollStore can only be uninstalled from TrollStore itself, tap an app or swipe it to the left in the 'Apps' tab to delete it.
 
 ## Persistence Helper
 

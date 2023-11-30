@@ -1,9 +1,9 @@
 ---
 title: chatgpt_system_prompt
-date: 2023-11-29T12:15:50+08:00
+date: 2023-11-30T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698517325660-251e2900c4f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698517325660-251e2900c4f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700514015106-4d8480938dcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700514015106-4d8480938dcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt)
@@ -26,6 +26,7 @@ you can get ChatGPT's system prompts by sending the following command to ChatGPT
 https://news.ycombinator.com/item?id=35630801
 
 If you want to get a prompt that you can't crack, you can contact me and I will try and include it.
+Updates are irregular and will be updated with some interesting and valuable prompts.
 
 
 ## how to get upload files
@@ -96,6 +97,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [Cipheron](./prompts/gpts/Cipheron.md)
   - [ClearGPT](./prompts/gpts/ClearGPT.md)
   - [CodeCopilot](./prompts/gpts/CodeCopilot.md)
+  - [CodeMonkey](./prompts/gpts/CodeMonkey.md)
   - [ConvertAnything](./prompts/gpts/ConvertAnything.md)
   - [Cosmic Dream](./prompts/gpts/Cosmic%20Dream.md)
   - [CuratorGPT](./prompts/gpts/CuratorGPT.md)
@@ -156,6 +158,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [Storyteller](./prompts/gpts/Storyteller.md)
   - [Super Describe](./prompts/gpts/Super%20Describe.md)
   - [Synthia 😋🌟](./prompts/gpts/Synthia%20😋🌟.md)
+  - [TailwindCSS_Previewer_WindChat](./prompts/gpts/TailwindCSS_Previewer_WindChat.md)
   - [Take Code Captures](./prompts/gpts/Take%20Code%20Captures.md)
   - [TaxGPT](./prompts/gpts/TaxGPT.md)
   - [The Secret of Monkey Island Amsterdam](./prompts/gpts/The%20Secret%20of%20Monkey%20Island%20Amsterdam.md)
@@ -226,9 +229,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [self-operating-computer](./prompts/opensource-prj/self-operating-computer.md)
   - [tldraw](./prompts/opensource-prj/tldraw.md)
 
-
-
-
+  
 
 ## Disclaimer
 The sharing of these prompts was intended purely for knowledge sharing,

@@ -1,9 +1,9 @@
 ---
 title: 1Panel
-date: 2023-11-29T12:16:16+08:00
+date: 2023-11-30T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698697413618-7e2b2dd2f6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698697413618-7e2b2dd2f6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700514015106-4d8480938dcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700514015106-4d8480938dcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)

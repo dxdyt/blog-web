@@ -1,9 +1,9 @@
 ---
 title: IPTV-URL
-date: 2023-11-29T12:17:10+08:00
+date: 2023-11-30T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698697413618-7e2b2dd2f6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698697413618-7e2b2dd2f6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698847102523-cb8643d755a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698847102523-cb8643d755a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL)
