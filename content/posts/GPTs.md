@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-11-30T12:15:56+08:00
+date: 2023-12-01T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698871502566-bb35fd10c759?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698871502566-bb35fd10c759?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700587085844-b96c27958df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700587085844-b96c27958df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -12,6 +12,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1698871502566-bb35fd10c7
 This repo collects leaked prompts of GPTs.
 
 ## Prompts of GPTs
+- [DevRel Guide](./prompts/devrelguide.md) by Rohit Ghumare
+- [Istio Guru](./prompts/IstioGuru.md) by Rohit Ghumare
 - [BabyAgi.txt](./prompts/BabyAgi.txt.md) by Nicholas Dobos
 - [Take Code Captures](./prompts/Take%20Code%20Captures.md) by oscaramos.dev
 - [Diffusion Master](./prompts/Diffusion%20Master.md) by RUSLAN LICHENKO
@@ -180,3 +182,10 @@ This repo collects leaked prompts of GPTs.
 - [Naruto GPT](./prompts/Naruto%20GPT.md) by selerite.com
 - [🦾 ClubGPT - developer team in one GPT 🦾](./prompts/%F0%9F%A6%BE%20ClubGPT%20-%20developer%20team%20in%20one%20GPT%20%F0%9F%A6%BE.md) by clubgpt.vip
 - [Customer Service GPT](./prompts/Customer%20Service%20GPT.md) by Daniel J Patterson
+
+
+## Open Source GPTs
+GitHub repos with prompts, actions and knowledge files of existing GPTs.
+
+- [Open Data Germany](https://github.com/stefangrotz/OpenDataGermanyGPT)
+- [EsperantoGPT](https://github.com/parolteknologio/EsperantoGPT)

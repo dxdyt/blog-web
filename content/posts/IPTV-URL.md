@@ -1,9 +1,9 @@
 ---
 title: IPTV-URL
-date: 2023-11-30T12:17:13+08:00
+date: 2023-12-01T12:18:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698847102523-cb8643d755a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698847102523-cb8643d755a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
 ---
 
 # [Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL)
@@ -34,7 +34,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1698847102523-cb8643d755
         </p>
         <p dir="auto"><code>https://www.goodiptv.club/bililive.m3u</code>&nbsp;&nbsp;&nbsp;&nbsp;BiliBili直播
         </p>
-<!--        <p dir="auto"><code>https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/newbestv.m3u</code>&nbsp;&nbsp;&nbsp;&nbsp;BESTV源
+<!--        <p dir="auto"><code>https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/bestv.m3u</code>&nbsp;&nbsp;&nbsp;&nbsp;BESTV源
         </p>
         <p dir="auto"><code>https://mirror.ghproxy.com/https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/ghyx.m3u</code>&nbsp;&nbsp;&nbsp;&nbsp;GHYX源
         </p> -->

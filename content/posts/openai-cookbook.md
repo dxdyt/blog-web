@@ -1,9 +1,9 @@
 ---
 title: openai-cookbook
-date: 2023-11-11T12:16:06+08:00
+date: 2023-12-01T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697194097089-c78003fc69a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697194097089-c78003fc69a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698414126647-6c72b0e2dbf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-cookbook](https://github.com/openai/openai-cookbook)

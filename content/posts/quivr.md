@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-11-30T12:18:22+08:00
+date: 2023-12-01T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698871502566-bb35fd10c759?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698871502566-bb35fd10c759?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699462515790-00a0a655f5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699462515790-00a0a655f5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -136,6 +136,8 @@ Additionally, you'll need a [Supabase](https://supabase.com/) account for:
   ```
 
 - **Step 6**: Navigate to `localhost:3000` in your browser
+  
+  Once Quivr is running, you need to create an account to access the app. Go to supabase and create a new user in the `Users` section. You can then log in with your new user.
 
 - **Step 7**: Want to contribute to the project?
 

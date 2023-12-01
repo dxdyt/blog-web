@@ -1,9 +1,9 @@
 ---
 title: openai-python
-date: 2023-11-12T12:17:48+08:00
+date: 2023-12-01T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697895648538-0117b2383a03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697895648538-0117b2383a03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk3NjI0ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698551599971-0f2cdb391095?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698551599971-0f2cdb391095?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-python](https://github.com/openai/openai-python)
@@ -104,8 +104,9 @@ stream = client.chat.completions.create(
     messages=[{"role": "user", "content": "Say this is a test"}],
     stream=True,
 )
-for part in stream:
-    print(part.choices[0].delta.content or "")
+for chunk in stream:
+    if chunk.choices[0].delta.content is not None:
+        print(part.choices[0].delta.content)
 ```
 
 The async client uses the exact same interface.
@@ -120,8 +121,9 @@ stream = await client.chat.completions.create(
     messages=[{"role": "user", "content": "Say this is a test"}],
     stream=True,
 )
-async for part in stream:
-    print(part.choices[0].delta.content or "")
+async for chunk in stream:
+    if chunk.choices[0].delta.content is not None:
+        print(part.choices[0].delta.content)
 ```
 
 ## Module-level client
@@ -166,7 +168,10 @@ We recommend that you always instantiate a client (e.g., with `client = OpenAI()
 
 ## Using types
 
-Nested request parameters are [TypedDicts](https://docs.python.org/3/library/typing.html#typing.TypedDict). Responses are [Pydantic models](https://docs.pydantic.dev), which provide helper methods for things like serializing back into JSON ([v1](https://docs.pydantic.dev/1.10/usage/models/), [v2](https://docs.pydantic.dev/latest/usage/serialization/)). To get a dictionary, call `model.model_dump()`.
+Nested request parameters are [TypedDicts](https://docs.python.org/3/library/typing.html#typing.TypedDict). Responses are [Pydantic models](https://docs.pydantic.dev), which provide helper methods for things like:
+
+- Serializing back into JSON, `model.model_dump_json(indent=2, exclude_unset=True)`
+- Converting to a dictionary, `model.model_dump(exclude_unset=True)`
 
 Typed requests and responses provide autocomplete and documentation within your editor. If you would like to see type errors in VS Code to help catch bugs earlier, set `python.analysis.typeCheckingMode` to `basic`.
 
@@ -257,7 +262,7 @@ completion = client.chat.completions.create(
             "content": "Can you generate an example json object describing a fruit?",
         }
     ],
-    model="gpt-3.5-turbo",
+    model="gpt-3.5-turbo-1106",
     response_format={"type": "json_object"},
 )
 ```
@@ -447,6 +452,7 @@ import httpx
 from openai import OpenAI
 
 client = OpenAI(
+    # Or use the `OPENAI_BASE_URL` env var
     base_url="http://my.test.server.example.com:8083",
     http_client=httpx.Client(
         proxies="http://my.test.proxy.example.com",
@@ -493,13 +499,13 @@ print(completion.model_dump_json(indent=2))
 
 In addition to the options provided in the base `OpenAI` client, the following options are provided:
 
-- `azure_endpoint`
+- `azure_endpoint` (or the `AZURE_OPENAI_ENDPOINT` environment variable)
 - `azure_deployment`
-- `api_version`
-- `azure_ad_token`
+- `api_version` (or the `OPENAI_API_VERSION` environment variable)
+- `azure_ad_token` (or the `AZURE_OPENAI_AD_TOKEN` environment variable)
 - `azure_ad_token_provider`
 
-An example of using the client with Azure Active Directory can be found [here](https://github.com/openai/openai-python/blob/v1/examples/azure_ad.py).
+An example of using the client with Azure Active Directory can be found [here](https://github.com/openai/openai-python/blob/main/examples/azure_ad.py).
 
 ## Versioning
 
