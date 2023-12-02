@@ -1,9 +1,9 @@
 ---
 title: atomicals-js
-date: 2023-11-29T12:16:33+08:00
+date: 2023-12-02T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698254064280-d986d3d9cc91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698254064280-d986d3d9cc91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700073534843-7b461ea3b89a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700073534843-7b461ea3b89a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [atomicals/atomicals-js](https://github.com/atomicals/atomicals-js)

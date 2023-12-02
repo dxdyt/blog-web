@@ -1,9 +1,9 @@
 ---
 title: chatgpt_system_prompt
-date: 2023-12-01T12:16:06+08:00
+date: 2023-12-02T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692804945585-31609176a192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692804945585-31609176a192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697366672245-3116e94b52fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697366672245-3116e94b52fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [LouisShark/chatgpt_system_prompt](https://github.com/LouisShark/chatgpt_system_prompt)
@@ -155,6 +155,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [ScholarAI](./prompts/gpts/ScholarAI.md)
   - [Secret Code Guardian](./prompts/gpts/Secret%20Code%20Guardian.md)
   - [Simpsonize Me](./prompts/gpts/Simpsonize%20Me.md)
+  - [Socratic Mentor](./prompts/gpts/Socratic%20Mentor.md)
   - [Story Spock](./prompts/gpts/Story%20Spock.md)
   - [Storyteller](./prompts/gpts/Storyteller.md)
   - [Super Describe](./prompts/gpts/Super%20Describe.md)
@@ -166,6 +167,7 @@ reference: https://x.com/dotey/status/1724623497438155031?s=20
   - [The Shaman](./prompts/gpts/The%20Shaman.md)
   - [TherapistGPT](./prompts/gpts/TherapistGPT.md)
   - [There's An API For That - The #1 API Finder](./prompts/gpts/There's%20An%20API%20For%20That%20-%20The%20#1%20API%20Finder.md)
+  - [Translator](./prompts/gpts/Translator.md)
   - [Trey Ratcliff's Photo Critique GPT](./prompts/gpts/Trey%20Ratcliff's%20Photo%20Critique%20GPT.md)
   - [Video Game Almanac](./prompts/gpts/Video%20Game%20Almanac.md)
   - [Video Script Generator](./prompts/gpts/Video%20Script%20Generator.md)

@@ -1,121 +1,155 @@
 ---
 title: incubator-opendal
-date: 2023-03-28T12:19:31+08:00
+date: 2023-12-02T12:18:25+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11915/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
+featuredImage: https://images.unsplash.com/photo-1701275610953-d6877e61b897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701275610953-d6877e61b897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [apache/incubator-opendal](https://github.com/apache/incubator-opendal)
 
-# OpenDAL &emsp; [![Build Status]][actions] [![chat]][discord]
+# Apache OpenDAL
 
-[build status]: https://img.shields.io/github/actions/workflow/status/apache/incubator-opendal/ci.yml?branch=main
-[actions]: https://github.com/apache/incubator-opendal/actions?query=branch%3Amain
-[chat]: https://img.shields.io/discord/1081052318650339399
-[discord]: https://discord.gg/XQy8yGR2dg
+**OpenDAL** is a data access layer that allows users to easily and efficiently retrieve data from various storage services in a unified way.
 
-**Open** **D**ata **A**ccess **L**ayer: Access data freely, painlessly, and efficiently
+![OpenDAL Architectural](https://github.com/apache/incubator-opendal/assets/5351546/c81013b2-5455-4950-9d31-dbf272b07998)
 
-![](https://user-images.githubusercontent.com/5351546/222356748-14276998-501b-4d2a-9b09-b8cff3018204.png)
+Major components of the project include:
 
-## Components
+**Libraries**
 
-- [core](core/README.md): OpenDAL Rust Core
-  - Documentation: [stable](https://docs.rs/opendal/) | [main](https://opendal.apache.org/docs/rust/opendal/)
-- [binding-c](bindings/c): OpenDAL C Binding (working on)
-- [binding-java](bindings/java): OpenDAL Java Binding (working on)
-- [binding-nodejs](bindings/nodejs/README.md): OpenDAL Node.js Binding
-  - Documentation: [main](https://opendal.apache.org/docs/nodejs/)
-- [binding-python](bindings/python/README.md): OpenDAL Python Binding
-  - Documentation: [main](https://opendal.apache.org/docs/python/)
-- [binding-ruby](bindings/ruby): OpenDAL Ruby Binding (working on)
-- bin
-  - [oli](bin/oli): OpenDAL Command Line Interface
+- [Rust Core](core/README.md)
+- [C Binding](bindings/c/README.md) *not released*
+- [Cpp Binding](bindings/cpp/README.md) *not released*
+- [Haskell Binding](bindings/haskell/README.md) *not released*
+- [Java Binding](bindings/java/README.md)
+- [Lua Binding](bindings/lua/README.md) *not released*
+- [Node.js Binding](bindings/nodejs/README.md)
+- [Python Binding](bindings/python/README.md)
+- [Ruby Binding](bindings/ruby/README.md) *not released*
+- [Swift Binding](bindings/swift/README.md) *not released*
+- [Zig Binding](bindings/zig/README.md) *not released*
 
-## Quickstart
+**Applications**
 
-### Rust
+- [oli](bin/oli): OpenDAL Command Line Interface
+- [oay](bin/oay): OpenDAL Gateway
 
-```rust
-use opendal::Result;
-use opendal::layers::LoggingLayer;
-use opendal::services;
-use opendal::Operator;
+**Services**
 
-#[tokio::main]
-async fn main() -> Result<()> {
-    // Pick a builder and configure it.
-    let mut builder = services::S3::default();
-    builder.bucket("test");
+<details>
+<summary>Standard Storage Protocols (like ftp, webdav)</summary>
 
-    // Init an operator
-    let op = Operator::new(builder)?
-        // Init with logging layer enabled.
-        .layer(LoggingLayer::default())
-        .finish();
+- ftp: FTP and FTPS
+- http: HTTP read-only services
+- sftp: [SFTP](https://datatracker.ietf.org/doc/html/draft-ietf-secsh-filexfer-02) services *being worked on*
+- webdav: [WebDAV](https://datatracker.ietf.org/doc/html/rfc4918) Service
 
-    // Write data
-    op.write("hello.txt", "Hello, World!").await?;
+</details>
 
-    // Read data
-    let bs = op.read("hello.txt").await?;
+<details>
+<summary>Object Storage Services (like s3, gcs, azblob)</summary>
 
-    // Fetch metadata
-    let meta = op.stat("hello.txt").await?;
-    let mode = meta.mode();
-    let length = meta.content_length();
+- azblob: [Azure Storage Blob](https://azure.microsoft.com/en-us/services/storage/blobs/) services
+- cos: [Tencent Cloud Object Storage](https://www.tencentcloud.com/products/cos) services
+- gcs: [Google Cloud Storage](https://cloud.google.com/storage) Service
+- obs: [Huawei Cloud Object Storage](https://www.huaweicloud.com/intl/en-us/product/obs.html) Service (OBS)
+- oss: [Aliyun Object Storage Service](https://www.aliyun.com/product/oss) (OSS)
+- s3: [AWS S3](https://aws.amazon.com/s3/) alike services
+- supabase: [Supabase Storage](https://supabase.com/docs/guides/storage) Service *being worked on*
+- wasabi: [Wasabi](https://wasabi.com/) Cloud Storage
 
-    // Delete
-    op.delete("hello.txt").await?;
+</details>
 
-    Ok(())
-}
-```
+<details>
+<summary>File Storage Services (like fs, azdls, hdfs)</summary>
 
-### Python
+- fs: POSIX alike file system
+- azdls: [Azure Data Lake Storage Gen2](https://azure.microsoft.com/en-us/products/storage/data-lake-storage/) services (As known as [ABFS](https://learn.microsoft.com/en-us/azure/storage/blobs/data-lake-storage-abfs-driver))
+- hdfs: [Hadoop Distributed File System](https://hadoop.apache.org/docs/r3.3.4/hadoop-project-dist/hadoop-hdfs/HdfsDesign.html)(HDFS)
+- ipfs: [InterPlanetary File System](https://ipfs.tech/) HTTP Gateway
+- ipmfs: [InterPlanetary File System](https://ipfs.tech/) MFS API *being worked on*
+- webhdfs: [WebHDFS](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-hdfs/WebHDFS.html) Service
 
-```python
-import asyncio
+</details>
 
-async def main():
-    op = opendal.AsyncOperator("fs", root="/tmp")
-    await op.write("test.txt", b"Hello World")
-    print(await op.read("test.txt"))
+<details>
+<summary>Consumer Cloud Storage Service (like gdrive, onedrive)</summary>
 
-asyncio.run(main())
-```
+- gdrive: [Google Drive](https://www.google.com/drive/) *being worked on*
+- onedrive: [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage) *being worked on*
 
-### Node.js
+</details>
 
-```js
-import { Operator } from "opendal";
+<details>
+<summary>Key-Value Storage Service (like rocksdb, sled)</summary>
 
-async function main() {
-  const op = new Operator("fs", { root: "/tmp" });
-  await op.write("test", "Hello, World!");
-  const bs = await op.read("test");
-  console.log(new TextDecoder().decode(bs));
-  const meta = await op.stat("test");
-  console.log(`contentLength: ${meta.contentLength}`);
-}
-```
+- cacache: [cacache](https://crates.io/crates/cacache) backend
+- dashmap: [dashmap](https://github.com/xacrimon/dashmap) backend
+- memory: In memory backend
+- persy: [persy](https://crates.io/crates/persy) backend
+- redis: [Redis](https://redis.io/) services
+- rocksdb: [RocksDB](http://rocksdb.org/) services
+- sled: [sled](https://crates.io/crates/sled) backend
+- redb: [redb](https://crates.io/crates/redb) backend
+- tikv: [tikv](https://tikv.org/) backend
+- atomicserver: [Atomicserver](https://github.com/atomicdata-dev/atomic-server) services
 
-## Projects
+</details>
+
+<details>
+<summary>Cache Storage Service (like memcached, moka)</summary>
+
+- ghac: [GitHub Action Cache](https://docs.github.com/en/actions/using-workflows/caching-dependencies-to-speed-up-workflows) Service
+- memcached: [Memcached](https://memcached.org/) service
+- mini_moka: [Mini Moka](https://github.com/moka-rs/mini-moka) backend
+- moka: [Moka](https://github.com/moka-rs/moka) backend
+- vercel_artifacts: [Vercel Remote Caching](https://vercel.com/docs/concepts/monorepos/remote-caching) Service *being worked on*
+
+</details>
+
+> Welcome to add any services that are not currently supported [here](https://github.com/apache/incubator-opendal/issues/5).
+
+## Examples
+
+The examples are available at [here](./examples/).
+
+## Documentation
+
+The documentation is available at <https://opendal.apache.org>.
+
+## Contribute
+
+OpenDAL is an active open-source project. We are always open to people who want to use it or contribute to it. Here are some ways to go.
+
+- Start with [Contributing Guide](CONTRIBUTING.md).
+- Submit [Issues](https://github.com/apache/incubator-opendal/issues/new) for bug report or feature requests.
+- Discuss at [dev mailing list](mailto:dev-subscribe@opendal.apache.org) ([subscribe](mailto:dev-subscribe@opendal.apache.org?subject=(send%20this%20email%20to%20subscribe)) / [unsubscribe](mailto:dev-unsubscribe@opendal.apache.org?subject=(send%20this%20email%20to%20unsubscribe)) / [archives](https://lists.apache.org/list.html?dev@opendal.apache.org))
+- Asking questions in the [Discussions](https://github.com/apache/incubator-opendal/discussions/new?category=q-a).
+- Talk to community directly at [Discord](https://discord.gg/XQy8yGR2dg).
+
+## Who is using OpenDAL?
+
+### Rust Core
 
 - [Databend](https://github.com/datafuselabs/databend/): A modern Elasticity and Performance cloud data warehouse.
 - [GreptimeDB](https://github.com/GreptimeTeam/greptimedb): An open-source, cloud-native, distributed time-series database.
 - [deepeth/mars](https://github.com/deepeth/mars): The powerful analysis platform to explore and visualize data from blockchain.
-- [mozilla/sccache](https://github.com/mozilla/sccache/): sccache is ccache with cloud storage
-- [risingwave](https://github.com/risingwavelabs/risingwave): A Distributed SQL Database for Stream Processing
+- [mozilla/sccache](https://github.com/mozilla/sccache/): `sccache` is [`ccache`](https://github.com/ccache/ccache) with cloud storage
+- [RisingWave](https://github.com/risingwavelabs/risingwave): A Distributed SQL Database for Stream Processing
 - [Vector](https://github.com/vectordotdev/vector): A high-performance observability data pipeline.
+- [OctoBase](https://github.com/toeverything/OctoBase): the open-source database behind [AFFiNE](https://github.com/toeverything/affine), local-first, yet collaborative.
+- [Pants](https://github.com/pantsbuild/pants): A fast, scalable, user-friendly build system for codebases of all sizes.
+- [QuestDB](https://github.com/questdb/questdb): An open-source time-series database for high throughput ingestion and fast SQL queries with operational simplicity.
 
-## Getting help
+### C Binding
 
-Submit [issues](https://github.com/apache/incubator-opendal/issues/new) for bug report or asking questions in the [Discussions forum](https://github.com/apache/incubator-opendal/discussions/new?category=q-a).
+- [Milvus](https://github.com/milvus-io/milvus): A cloud-native vector database, storage for next generation AI applications
 
-Talk to develops at [discord].
+### Java Binding
+
+- [QuestDB](https://github.com/questdb/questdb): An open-source time-series database for high throughput ingestion and fast SQL queries with operational simplicity.
 
 ## License
 
-Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)

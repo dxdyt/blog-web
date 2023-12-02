@@ -1,9 +1,9 @@
 ---
 title: Modern-CPP-Programming
-date: 2023-12-01T12:16:12+08:00
+date: 2023-12-02T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698859858642-bb45d13a7e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698859858642-bb45d13a7e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700073534843-7b461ea3b89a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700073534843-7b461ea3b89a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming)

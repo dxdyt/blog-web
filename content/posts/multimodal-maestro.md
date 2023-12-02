@@ -1,9 +1,9 @@
 ---
 title: multimodal-maestro
-date: 2023-12-01T12:17:52+08:00
+date: 2023-12-02T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700504558905-0aceb8856113?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700504558905-0aceb8856113?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699111260849-f7e9cdfc1bde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699111260849-f7e9cdfc1bde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
 ---
 
 # [roboflow/multimodal-maestro](https://github.com/roboflow/multimodal-maestro)
@@ -28,9 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1700504558905-0aceb88561
 Multimodal-Maestro gives you more control over large multimodal models to get the 
 outputs you want. With more effective prompting tactics, you can get multimodal models 
 to do tasks you didn't know (or think!) were possible. Curious how it works? Try our 
-HF [space](https://huggingface.co/spaces/Roboflow/SoM)!
-
-🚧 The project is still under construction, and the API is prone to change.
+[HF space](https://huggingface.co/spaces/Roboflow/SoM)!
 
 ## 💻 install
 
@@ -40,6 +38,12 @@ HF [space](https://huggingface.co/spaces/Roboflow/SoM)!
 ```bash
 pip install maestro
 ```
+
+## 🔌 API
+
+🚧 The project is still under construction. The redesigned API is coming soon.
+
+![maestro-docs-Snap](https://github.com/roboflow/multimodal-maestro/assets/26109316/a787b7c0-527e-465a-9ca9-d46f4d63ea53)
 
 ## 🚀 examples
 
@@ -119,10 +123,9 @@ Find dog.
 ## 🚧 roadmap
 
 - [ ] Rewriting the `maestro` API.
+- [ ] Update [HF space](https://huggingface.co/spaces/Roboflow/SoM).
 - [ ] Documentation page.
 - [ ] Add GroundingDINO prompting strategy.
-- [ ] Segment Anything guided marks generation.
-- [ ] Non-Max Suppression marks refinement.
 - [ ] CovVLM demo.
 - [ ] Qwen-VL demo.
 
