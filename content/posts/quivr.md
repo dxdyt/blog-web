@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2023-12-02T12:15:28+08:00
+date: 2023-12-03T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697366672245-3116e94b52fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697366672245-3116e94b52fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686102575921-e902dde8b236?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686102575921-e902dde8b236?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
 ---
 
 # [StanGirard/quivr](https://github.com/StanGirard/quivr)
@@ -54,85 +54,79 @@ Ensure you have the following installed:
 
 ### 60 seconds Installation 💽
 
-- **Step 1**: Clone the repository using **one** of these commands:
+You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6dZJN48).
 
-  - If you don't have an SSH key set up:
+- **Step 1**: Clone the repository:
 
   ```bash
   git clone https://github.com/StanGirard/Quivr.git && cd Quivr
   ```
 
-  - If you have an SSH key set up or want to add it ([guide here](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account))
-
-  ```bash
-  git clone git@github.com:StanGirard/Quivr.git && cd Quivr
-  ```
-
-- **Step 2**: Install prerequisites:
-
-  ```bash
-    brew install gum # Windows (via Scoop) scoop install charm-gum
-    brew install postgresql # Windows (via Scoop) scoop install postgresql
-  ```
-
-
-
-- **Step 3**: Copy the `.env.example` files
+- **Step 2**: Copy the `.env.example` files
 
   ```bash
   cp .env.example .env
   ```
 
-- **Step 4**: Update the `.env` files
+- **Step 3**: Update the `.env` files
 
-Update **OPENAI_API_KEY** in the `.env` file.
+  ```bash
+  vim .env # or emacs or vscode or nano
+  ```
 
-You just need to update the `OPENAI_API_KEY` variable in the `.env` file. You can get your API key [here](https://platform.openai.com/api-keys). You need to create an account first. And put your credit card information. Don't worry, you won't be charged unless you use the API. You can find more information about the pricing [here](https://openai.com/pricing/).
+  Update **OPENAI_API_KEY** in the `.env` file.
 
-```bash
-vim .env # or emacs or vscode or nano
-```
+  You just need to update the `OPENAI_API_KEY` variable in the `.env` file. You can get your API key [here](https://platform.openai.com/api-keys). You need to create an account first. And put your credit card information. Don't worry, you won't be charged unless you use the API. You can find more information about the pricing [here](https://openai.com/pricing/).
 
-Quivr can be installed offline and is compatible with [Ollama.ai](https://ollama.ai) , in order to do so, follow the instructions [here](https://brain.quivr.app/docs/Developers/selfHosted/run_fully_local). It requires some technical expertise. If you need help, feel free to join our [Discord](https://discord.gg/HUpRgp2HG8) and ask for help. The OPENAI_API_KEY is still required if you install Quivr offline but you can put whatever you want in the `.env` file.
 
-- **Step 5**: Launch the db 
+  > Want to use [Ollama.ai](https://ollama.ai) instead?
+  > Uncomment the following lines in the `.env` file:
+  > OLLAMA_API_BASE_URL
+  > Run the following command to start Ollama: `ollama run llama2`
+  > You can find more information about Ollama [here](https://ollama.ai/).
+
+- **Step 4**: Launch the project
 
   ```bash
   docker compose pull 
-  
-  docker compose up db -d
+  docker compose up --build # if OPENAI 
+  # docker compose -f docker-compose-ollama.yml up --build  # Only if using Ollama. You need to run `ollama run llama2` first.                
   ```
 
-- **Step 6**: Use the `migration.sh` script to run the migration scripts
+  If you are a developer, you can run the project in development mode with the following command:  `docker compose -f docker-compose-dev.yml up --build`
+
+- **Step 5**: Login to the app
+
+  Connect to the supabase database at [http://localhost:8000/project/default/auth/users](http://localhost:8000/project/default/auth/users) with the following credentials: admin/admin in order to create new users. Auto-confirm the email.
+
+  You can now sign in to the app with your new user. You can access the app at [http://localhost:3000/login](http://localhost:3000/login).
+
+  
+
+  You can access Quivr backend API at [http://localhost:5050/docs](http://localhost:5050/docs)
+
+
+
+## Updating Quivr 🚀
+
+- **Step 1**: Pull the latest changes
+
+  ```bash
+  git pull
+  ```
+
+- **Step 2**: Use the `migration.sh` script to run the migration scripts
 
   ```bash
   chmod +x migration.sh
   ./migration.sh
-  # Select  1) Create all tables
+  # Select  2) Run migrations
   ```
-
-  Choose either `Create all tables` if it's your first time or `Run migrations`
-  if you are updating your database.
 
   Alternatively, you can run the script on the Supabase database via the web
   interface (SQL Editor -> `New query` -> paste the script -> `Run`)
 
   All the scripts can be found in the [scripts](scripts/) folder
-
-
-- **Step 7**: Launch the app
-
-  ```bash
-  docker compose up --build
-  ```
-
-- **Step 8**: Navigate to `localhost:8000` in your browser
-  
-Once Quivr is running, you need to create an account to access the app.  User is `admin` and password is `admin`. Go to [http://localhost:8000/project/default/auth/users](http://localhost:8000/project/default/auth/users) and create a new user in the `Users` section. You can then log in with your new user.
-
-- **Step 9**: Login to the app
-
-You can now sign in to the app with your new user. You can access the app at [http://localhost:3000/login](http://localhost:3000/login).
 
 ## Contributors ✨
 

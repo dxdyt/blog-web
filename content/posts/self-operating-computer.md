@@ -1,9 +1,9 @@
 ---
 title: self-operating-computer
-date: 2023-12-02T12:15:10+08:00
+date: 2023-12-03T12:16:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698911762536-53b9e8afb611?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698911762536-53b9e8afb611?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1688716332896-1a8d510030af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1688716332896-1a8d510030af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
 ---
 
 # [OthersideAI/self-operating-computer](https://github.com/OthersideAI/self-operating-computer)

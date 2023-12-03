@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2023-12-01T12:16:36+08:00
+date: 2023-12-03T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698734419287-2fc55dcf344f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698734419287-2fc55dcf344f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1693837996567-1ed7f5138cb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1693837996567-1ed7f5138cb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -55,6 +55,7 @@ Workflow examples can be found on the [Examples page](https://comfyanonymous.git
 |---------------------------|--------------------------------------------------------------------------------------------------------------------|
 | Ctrl + Enter              | Queue up current graph for generation                                                                              |
 | Ctrl + Shift + Enter      | Queue up current graph as first for generation                                                                     |
+| Ctrl + Z/Ctrl + Y         | Undo/Redo                                                                                                          |
 | Ctrl + S                  | Save workflow                                                                                                      |
 | Ctrl + O                  | Load workflow                                                                                                      |
 | Ctrl + A                  | Select all nodes                                                                                                   |
@@ -110,6 +111,7 @@ AMD users can install rocm and pytorch with pip if you don't have it already ins
 ```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm5.6```
 
 This is the command to install the nightly with ROCm 5.7 that might have some performance improvements:
+
 ```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm5.7```
 
 ### NVIDIA
@@ -202,7 +204,7 @@ To use a textual inversion concepts/embeddings in a text prompt put them in the 
 
 Make sure you use the regular loaders/Load Checkpoint node to load checkpoints. It will auto pick the right settings depending on your GPU.
 
-You can set this command line setting to disable the upcasting to fp32 in some cross attention operations which will increase your speed. Note that this will very likely give you black images on SD2.x models. If you use xformers this option does not do anything.
+You can set this command line setting to disable the upcasting to fp32 in some cross attention operations which will increase your speed. Note that this will very likely give you black images on SD2.x models. If you use xformers or pytorch attention this option does not do anything.
 
 ```--dont-upcast-attention```
 

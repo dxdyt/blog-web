@@ -1,9 +1,9 @@
 ---
 title: awesome-interview-questions
-date: 2023-10-24T12:17:07+08:00
+date: 2023-12-03T12:17:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695323764691-7a9d17deacc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695323764691-7a9d17deacc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700399366735-b23820fb18d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700399366735-b23820fb18d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
 ---
 
 # [DopplerHQ/awesome-interview-questions](https://github.com/DopplerHQ/awesome-interview-questions)
