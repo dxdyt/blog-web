@@ -1,9 +1,9 @@
 ---
 title: gpt-fast
-date: 2023-12-03T12:15:16+08:00
+date: 2023-12-04T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700578577841-db1c99da1c15?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700578577841-db1c99da1c15?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699877902199-49e09649e458?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699877902199-49e09649e458?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
 ---
 
 # [pytorch-labs/gpt-fast](https://github.com/pytorch-labs/gpt-fast)

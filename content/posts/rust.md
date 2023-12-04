@@ -1,9 +1,9 @@
 ---
 title: rust
-date: 2023-08-22T12:15:44+08:00
+date: 2023-12-04T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691071716244-db306a482fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691071716244-db306a482fc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699801571293-1215c99abdad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699801571293-1215c99abdad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
 ---
 
 # [rust-lang/rust](https://github.com/rust-lang/rust)
@@ -20,6 +20,20 @@ standard library, and documentation.
 **Note: this README is for _users_ rather than _contributors_.**
 If you wish to _contribute_ to the compiler, you should read
 [CONTRIBUTING.md](CONTRIBUTING.md) instead.
+
+<details>
+<summary>Table of content</summary>
+
+- [Quick Start](#quick-start)
+- [Installing from Source](#installing-from-source)
+- [Building Documentation](#building-documentation)
+- [Notes](#notes)
+- [Getting Help](#getting-help)
+- [Contributing](#contributing)
+- [License](#license)
+- [Trademark](#trademark)
+
+</details>
 
 ## Quick Start
 
@@ -126,7 +140,7 @@ See [the rustc-dev-guide for more info][sysllvm].
 #### Configure and Make
 
 This project provides a configure script and makefile (the latter of which just
-invokes `x.py`). `./configure` is the recommended way to programatically
+invokes `x.py`). `./configure` is the recommended way to programmatically
 generate a `config.toml`. `make` is not recommended (we suggest using `x.py`
 directly), but it is supported and we try not to break it unnecessarily.
 

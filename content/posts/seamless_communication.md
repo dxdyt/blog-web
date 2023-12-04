@@ -1,9 +1,9 @@
 ---
 title: seamless_communication
-date: 2023-12-03T12:16:27+08:00
+date: 2023-12-04T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700194127354-436405b4aa71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700194127354-436405b4aa71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699801571293-1215c99abdad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699801571293-1215c99abdad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication)
