@@ -1,9 +1,9 @@
 ---
 title: ComfyUI_IPAdapter_plus
-date: 2023-12-04T12:16:49+08:00
+date: 2023-12-05T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700607687506-5149877683e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700607687506-5149877683e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699459867086-9d9d4031c0e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699459867086-9d9d4031c0e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [cubiq/ComfyUI_IPAdapter_plus](https://github.com/cubiq/ComfyUI_IPAdapter_plus)

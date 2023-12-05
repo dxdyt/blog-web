@@ -1,9 +1,9 @@
 ---
 title: tabby
-date: 2023-10-14T12:16:56+08:00
+date: 2023-12-05T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695548043715-feb22ef40436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695548043715-feb22ef40436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699519388169-bd2b9a2f7d45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699519388169-bd2b9a2f7d45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [TabbyML/tabby](https://github.com/TabbyML/tabby)
@@ -11,11 +11,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1695548043715-feb22ef404
 <div align="center">
 
 # 🐾 Tabby
-  
-[![build status](https://img.shields.io/github/actions/workflow/status/TabbyML/tabby/ci.yml?label=build)](https://github.com/TabbyML/tabby/actions/workflows/ci.yml)
+
+[![latest release](https://shields.io/github/v/release/TabbyML/tabby?sort=semver)](https://github.com/TabbyML/tabby/releases/latest)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 [![Docker pulls](https://img.shields.io/docker/pulls/tabbyml/tabby)](https://hub.docker.com/r/tabbyml/tabby)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Slack Community](https://shields.io/badge/Tabby-Join%20Slack-red?logo=slack)](https://join.slack.com/t/tabbycommunity/shared_invite/zt-1xeiddizp-bciR2RtFTaJ37RBxr8VxpA)
+
+[![Slack Community](https://shields.io/badge/Join-Tabby%20Slack-red?logo=slack)](https://join.slack.com/t/tabbycommunity/shared_invite/zt-1xeiddizp-bciR2RtFTaJ37RBxr8VxpA)
+[![Office Hours](https://img.shields.io/badge/Book-Office%20Hours-purple?logo=googlecalendar&logoColor=white)](https://calendly.com/tabby_ml/chat-with-tabbyml)
 
 </div>
 
@@ -33,14 +35,18 @@ Tabby is a self-hosted AI coding assistant, offering an open-source and on-premi
 </p>
 
 ## 🔥 What's New
-* **10/04/2023** Check out the [model directory](https://tabby.tabbyml.com/docs/models/) for the latest models supported by Tabby.
-* **09/21/2023** We've hit **10K stars** 🌟 on GitHub! 🚀🎉👏
-* **09/18/2023** Apple's M1/M2 Metal inference support has landed in [v0.1.1](https://github.com/TabbyML/tabby/releases/tag/v0.1.1)!
-* **08/31/2023** Tabby's first stable release [v0.0.1](https://github.com/TabbyML/tabby/releases/tag/v0.0.1) 🥳.
+* **11/27/2023** [v0.6.0](https://github.com/TabbyML/tabby/releases/tag/v0.6.0) released!
+* **10/24/2023** ⛳️ Major updates for Tabby IDE plugins across [VSCode/Vim/IntelliJ](https://tabby.tabbyml.com/docs/extensions)!
+* **10/15/2023** RAG-based code completion is enabled by detail in [v0.3.0](https://github.com/TabbyML/tabby/releases/tag/v0.3.0)🎉! Check out the [blogpost](https://tabby.tabbyml.com/blog/2023/10/16/repository-context-for-code-completion/) explaining how Tabby utilizes repo-level context to get even smarter!
+
 
 <details>
   <summary>Archived</summary>
-  
+
+* **11/09/2023** [v0.5.5](https://github.com/TabbyML/tabby/releases/tag/v0.5.5) released! With a redesign of UI + performance improvement.
+* **10/04/2023** Check out the [model directory](https://tabby.tabbyml.com/docs/models/) for the latest models supported by Tabby.
+* **09/18/2023** Apple's M1/M2 Metal inference support has landed in [v0.1.1](https://github.com/TabbyML/tabby/releases/tag/v0.1.1)!
+* **08/31/2023** Tabby's first stable release [v0.0.1](https://github.com/TabbyML/tabby/releases/tag/v0.0.1) 🥳.
 * **08/28/2023** Experimental support for the [CodeLlama 7B](https://github.com/TabbyML/tabby/issues/370).
 * **08/24/2023** Tabby is now on [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/22379-tabby)!
 
@@ -49,9 +55,9 @@ Tabby is a self-hosted AI coding assistant, offering an open-source and on-premi
 ## 👋 Getting Started
 
 You can find our documentation [here](https://tabby.tabbyml.com/docs/getting-started).
-- [📚 Installation](https://tabby.tabbyml.com/docs/installation/)
-- [💻 IDE/Editor Extensions](https://tabby.tabbyml.com/docs/extensions/)
-- [⚙️ Configuration](https://tabby.tabbyml.com/docs/configuration)
+- 📚 [Installation](https://tabby.tabbyml.com/docs/installation/)
+- 💻 [IDE/Editor Extensions](https://tabby.tabbyml.com/docs/extensions/)
+- ⚙️ [Configuration](https://tabby.tabbyml.com/docs/configuration)
 
 ### Run Tabby in 1 Minute
 The easiest way to start a Tabby server is by using the following Docker command:
@@ -60,7 +66,7 @@ The easiest way to start a Tabby server is by using the following Docker command
 docker run -it \
   --gpus all -p 8080:8080 -v $HOME/.tabby:/data \
   tabbyml/tabby \
-  serve --model TabbyML/SantaCoder-1B --device cuda
+  serve --model TabbyML/StarCoder-1B --device cuda
 ```
 For additional options (e.g inference type, parallelism), please refer to the [documentation page](https://tabbyml.github.io/tabby).
 
@@ -94,7 +100,7 @@ apt-get install protobuf-compiler libopenblas-dev
 ... and don't forget to submit a [Pull Request](https://github.com/TabbyML/tabby/compare)
 
 ## 🌍 Community
-- #️⃣ [Slack](https://join.slack.com/t/tabbyml/shared_invite/zt-22thejc0z-7ePKeWNCHPX31pEtnT4oYQ) - connect with the TabbyML community 
+- #️⃣ [Slack](https://join.slack.com/t/tabbycommunity/shared_invite/zt-1xeiddizp-bciR2RtFTaJ37RBxr8VxpA) - connect with the TabbyML community 
 - 🎤 [Twitter / X](https://twitter.com/Tabby_ML) - engage with TabbyML for all things possible 
 - 📚 [LinkedIn](https://www.linkedin.com/company/tabbyml/) - follow for the latest from the community 
 - 💌 [Newsletter](https://tinyletter.com/tabbyml/) - subscribe to unlock Tabby insights and secrets

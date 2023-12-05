@@ -1,14 +1,14 @@
 ---
 title: ml-engineering
-date: 2023-11-23T12:17:45+08:00
+date: 2023-12-05T12:18:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698586453442-b03506d193cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698586453442-b03506d193cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700579837858-604ab37cbeac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700579837858-604ab37cbeac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
 
-# Machine Learning Engineering Guides and Tools
+# Machine Learning Engineering Online Book
 
 An open collection of methodologies to help with successful training of large language models and multi-modal models.
 
@@ -22,22 +22,26 @@ I've been compiling this information mostly for myself so that I could quickly f
 
 ## Table of Contents
 
-My apologies while I'm writing new chapters and re-organizing the content to be more intuitive. And some chapters are placeholders.
+My apologies if the layout is a bit unstable while I'm writing new chapters and gradually re-organizing the content to be more intuitive.
 
-**Part 1. Key Components**
+**Part 1. Insights**
+
+1. **[The AI Battlefield Engineering - What You Need To Know](./insights/ai-battlefield.md)**
+
+**Part 2. Key Hardware Components**
+
+1. **[Accelerator](./accelerator/)** - the work horses of ML - GPUs, TPUs, IPUs, FPGAs, HPUs, QPUs, RDUs (WIP)
 
 1. **[Network](./network/)** - intra-node and inter-node connectivity, calculating bandwidth requirements
 
 1. **[IO](./io/)** - local and distributed disks and filesystems
 
-2. **[CPU](./cpu/)** - cpus, affinities (WIP)
-
-1. **[GPU](./gpu/)** - the work horses (WIP)
+1. **[CPU](./cpu/)** - cpus, affinities (WIP)
 
 1. **[CPU Memory](./cpu-memory/)** - how much CPU memory is enough - the shortest chapter ever.
 
 
-**Part 2. Performance**
+**Part 3. Performance**
 
 1. **[Fault Tolerance](./fault-tolerance/)**
 
@@ -48,7 +52,7 @@ My apologies while I'm writing new chapters and re-organizing the content to be 
 1. **[Model parallelism](./model-parallelism/)**
 
 
-**Part 3. Operating**
+**Part 4. Operating**
 
 1. **[SLURM](./slurm/)**
 
@@ -57,7 +61,7 @@ My apologies while I'm writing new chapters and re-organizing the content to be 
 1. **[Instabilities](./instabilities/)**
 
 
-**Part 4. Development**
+**Part 5. Development**
 
 1. **[Debugging software and hardware failures](./debug/)**
 
@@ -70,7 +74,7 @@ My apologies while I'm writing new chapters and re-organizing the content to be 
 1. **[HF Transformers notes](./transformers/)** - making small models, tokenizers, datasets, and other tips
 
 
-**Part 5. Miscellaneous**
+**Part 6. Miscellaneous**
 
 1. **[Resources](./resources/)** - LLM/VLM chronicles
 

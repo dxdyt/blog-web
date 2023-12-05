@@ -1,9 +1,9 @@
 ---
 title: gpt-fast
-date: 2023-12-04T12:16:30+08:00
+date: 2023-12-05T12:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699877902199-49e09649e458?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699877902199-49e09649e458?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699459867086-9d9d4031c0e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699459867086-9d9d4031c0e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [pytorch-labs/gpt-fast](https://github.com/pytorch-labs/gpt-fast)
@@ -170,4 +170,4 @@ Thanks to:
 * Lightning AI for supporting pytorch and work in flash attention, int8 quantization, and LoRA fine-tuning.
 * GGML for driving forward fast, on device inference of LLMs
 * Karpathy for spearheading simple, interpretable and fast LLM implementations
-* MLC-LLM for pushing 4-bit quantization performance on heterogenous hardware
+* MLC-LLM for pushing 4-bit quantization performance on heterogeneous hardware

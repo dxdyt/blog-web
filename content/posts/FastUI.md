@@ -1,9 +1,9 @@
 ---
 title: FastUI
-date: 2023-12-04T12:18:19+08:00
+date: 2023-12-05T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697382803114-0be920c5e160?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697382803114-0be920c5e160?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700579837858-604ab37cbeac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700579837858-604ab37cbeac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [samuelcolvin/FastUI](https://github.com/samuelcolvin/FastUI)
@@ -151,7 +151,7 @@ FastUI already defines the following components, all are shown in the [demo app]
 - `Table` — renders a table from a list of Pydantic models
 - `Pagination` — renders a pagination component
 - `FormFieldInput` — renders a form field using `<input>`
-- `FormFieldCheckbox` — renders a form field for a boolean using `<input type="checkbox">`
+- `FormFieldBoolean` — renders a form field for a boolean using `<input type="checkbox">`
 - `FormFieldSelect` — renders a form field using `<select>` or [react-select](https://react-select.com)
 - `FormFieldSelectSearch` — renders a form field using [react-select](https://react-select.com) with options updated from the server on search
 - `Form` — renders a form using a list of `FormField` components
@@ -161,7 +161,7 @@ FastUI already defines the following components, all are shown in the [demo app]
 
 FastUI is an implementation of the RESTful principle; but not as it's usually understood, instead I mean the principle defined in the original [PhD dissertation](https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) by Roy Fielding, and excellently summarised in [this essay on htmx.org](https://htmx.org/essays/how-did-rest-come-to-mean-the-opposite-of-rest/) (HTMX people, I'm sorry to use your article to promote React which I know you despise 🙏).
 
-The RESTful principle as described in the HTMX article is that the frontend doesn't need to (and shouldn't) know anything about the application your building. Instead, it should just provide all the components you need to construct the interface, the backend can then tell the frontend what to do.
+The RESTful principle as described in the HTMX article is that the frontend doesn't need to (and shouldn't) know anything about the application you're building. Instead, it should just provide all the components you need to construct the interface, the backend can then tell the frontend what to do.
 
 Think of your frontend as a puppet, and the backend as the hand within it — the puppet doesn't need to know what to say, that's kind of the point.
 

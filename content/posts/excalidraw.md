@@ -1,17 +1,17 @@
 ---
 title: excalidraw
-date: 2023-03-28T12:17:45+08:00
+date: 2023-12-05T12:16:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11915/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
+featuredImage: https://images.unsplash.com/photo-1664985363388-0e4bd2b5cdb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1664985363388-0e4bd2b5cdb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
 
 <a href="https://excalidraw.com/" target="_blank" rel="noopener">
   <picture>
-    <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2FExcalidraw_Github_cover_dark.png" />
-    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github%2FExcalidraw_Github_cover.png" />
+    <source media="(prefers-color-scheme: dark)" alt="Excalidraw" srcset="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2_dark.png" />
+    <img alt="Excalidraw" src="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/github/excalidraw_github_cover_2.png" />
   </picture>
 </a>
 
@@ -27,13 +27,16 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/11915/0/1080p
     An open source virtual hand-drawn style whiteboard. </br>
     Collaborative and end-to-end encrypted. </br>
   <br />
-  </h3>
+  </h2>
 </div>
 
 <br />
 <p align="center">
   <a href="https://github.com/excalidraw/excalidraw/blob/master/LICENSE">
     <img alt="Excalidraw is released under the MIT license." src="https://img.shields.io/badge/license-MIT-blue.svg"  />
+  </a>
+  <a href="https://www.npmjs.com/package/@excalidraw/excalidraw">
+    <img alt="npm downloads/month" src="https://img.shields.io/npm/dm/@excalidraw/excalidraw"  />
   </a>
   <a href="https://docs.excalidraw.com/docs/introduction/contributing">
     <img alt="PRs welcome!" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat"  />
@@ -80,7 +83,7 @@ The Excalidraw editor (npm package) supports:
 
 ## Excalidraw.com
 
-The app hosted at [excalidraw.com](https://excalidraw.com) is a minimal showcase of what you can build with Excalidraw. Its [source code](https://github.com/excalidraw/excalidraw/tree/master/src/excalidraw-app) is part of this repository as well, and the app features:
+The app hosted at [excalidraw.com](https://excalidraw.com) is a minimal showcase of what you can build with Excalidraw. Its [source code](https://github.com/excalidraw/excalidraw/tree/master/excalidraw-app) is part of this repository as well, and the app features:
 
 - 📡&nbsp;PWA support (works offline).
 - 🤼&nbsp;Real-time collaboration.

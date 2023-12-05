@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2023-11-15T12:17:59+08:00
+date: 2023-12-05T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700573941868-5547f43dcbed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700573941868-5547f43dcbed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)
@@ -21,9 +21,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1698764474049-948f80fd34
 
 <p align="center">
   <a href="https://www.hello-algo.com/">
-    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.png" width="155"></a>
+    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.svg" width="155"></a>
   <a href="https://github.com/krahets/hello-algo/releases">
-    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_dark.png" width="155"></a>
+    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_dark.svg" width="155"></a>
 </p>
 
 <p align="center">

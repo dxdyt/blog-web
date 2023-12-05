@@ -1,9 +1,9 @@
 ---
 title: seamless_communication
-date: 2023-12-04T12:16:22+08:00
+date: 2023-12-05T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699801571293-1215c99abdad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699801571293-1215c99abdad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700573941868-5547f43dcbed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700573941868-5547f43dcbed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/seamless_communication](https://github.com/facebookresearch/seamless_communication)
@@ -20,9 +20,9 @@ SeamlessM4T models support the tasks of:
 - Text-to-text translation (T2TT)
 - Automatic speech recognition (ASR)
 
-:star2: We are releasing SemalessM4T v2, an updated version with our novel *UnitY2* architecture. This new model improves over SeamlessM4T v1 in quality as well as inference latency in speech generation tasks.
+:star2: We are releasing SeamlessM4T v2, an updated version with our novel *UnitY2* architecture. This new model improves over SeamlessM4T v1 in quality as well as inference latency in speech generation tasks.
 
-To learn more about the collection of SeamlessM4T models, the approach used in each, their language coverage and their performance, visit the [SeamlessM4T README](docs/m4t/README.md) or [🤗 Model Card](https://huggingface.co/facebook/seamless-m4t-v2-large)
+To learn more about the collection of SeamlessM4T models, the approach used in each, their language coverage and their performance, visit the [SeamlessM4T README](docs/m4t/README.md) or [🤗 Model Card](https://huggingface.co/facebook/seamless-m4t-v2-large).
 
 ## SeamlessExpressive
 
@@ -72,7 +72,7 @@ The Seamless model is the unified model for expressive streaming speech-to-speec
 ## Installation
 > [!NOTE]
 > One of the prerequisites is [fairseq2](https://github.com/facebookresearch/fairseq2) which has pre-built packages available only
-> for Linux x84-86 and Apple-silicon Mac computers. In addition it has a dependency on [libsndfile](https://github.com/libsndfile/libsndfile) which
+> for Linux x86-64 and Apple-silicon Mac computers. In addition it has a dependency on [libsndfile](https://github.com/libsndfile/libsndfile) which
 > might not be installed on your machine. If you experience any installation issues, please refer to its
 > [README](https://github.com/facebookresearch/fairseq2) for further instructions.
 
@@ -134,13 +134,16 @@ You can also run the demo locally, by cloning the space from [here](https://hugg
 
 ## Running SeamlessM4T & SeamlessExpressive [Gradio](https://github.com/gradio-app/gradio) demos locally
 
-To launch the same space demo we host on HuggingFace locally,
+To launch the same demo Space we host on Hugging Face locally:
 
 ```bash
 cd demo
 pip install -r requirements.txt
 python app.py
 ```
+
+Seamless M4T is also available in the 🤗 Transformers library. For more details, refer to the [SeamlessM4T docs](https://huggingface.co/docs/transformers/main/en/model_doc/seamless_m4t_v2) 
+or this hands-on [Google Colab](https://colab.research.google.com/github/ylacombe/explanatory_notebooks/blob/main/seamless_m4t_hugging_face.ipynb).
 
 # Resources and usage
 ## Model
@@ -188,11 +191,11 @@ To transcribe/translte a given audio,
 ./ggml/bin/unity --model seamlessM4T_medium.ggml input.wav
 ```
 
-For details of build and more usage please checkout [unity.cpp](ggml)
+For details of build and more usage please check out [unity.cpp](ggml)
 
 ## Expressive Datasets
 
-We created two expressive speech-to-speech translation datasets, mExpresso and mDRAL, between English and five other languages -- French, German, Italian, Mandarin and Spanish. We currently open source the speech-to-text of mExpresso for out-of-English directions, and we will open source the remaining part of the datasets soon. For details, please checkout [README](docs/expressive/README.md#benchmark-datasets)
+We created two expressive speech-to-speech translation datasets, mExpresso and mDRAL, between English and five other languages -- French, German, Italian, Mandarin and Spanish. We currently open source the speech-to-text of mExpresso for out-of-English directions, and we will open source the remaining part of the datasets soon. For details, please check out [README](docs/expressive/README.md#benchmark-datasets)
 
 ### SeamlessAlignExpressive
 We’re introducing the first expressive speech alignment procedure. Starting with raw data, the expressive alignment procedure automatically discovers pairs of audio segments sharing not only the same meaning, but the same overall expressivity. To showcase this procedure, we are making metadata available to create a benchmarking dataset called SeamlessAlignExpressive, that can be used to validate the quality of our alignment method. SeamlessAlignExpressive is the first large-scale (11k+ hours) collection of multilingual audio alignments for expressive translation. More details can be found on the [SeamlessAlignExpressive README](docs/expressive/seamless_align_expressive_README.md).
