@@ -1,9 +1,9 @@
 ---
 title: typehero
-date: 2023-12-05T12:16:15+08:00
+date: 2023-12-06T12:19:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700573941868-5547f43dcbed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700573941868-5547f43dcbed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700322153270-1221b6abe6cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700322153270-1221b6abe6cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
 ---
 
 # [typehero/typehero](https://github.com/typehero/typehero)

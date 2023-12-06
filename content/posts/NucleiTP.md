@@ -1,9 +1,9 @@
 ---
 title: NucleiTP
-date: 2023-12-04T12:18:55+08:00
+date: 2023-12-06T12:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700607687506-5149877683e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700607687506-5149877683e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1694721804143-7c611fde4b22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1694721804143-7c611fde4b22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
 ---
 
 # [ExpLangcn/NucleiTP](https://github.com/ExpLangcn/NucleiTP)

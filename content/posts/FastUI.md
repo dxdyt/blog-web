@@ -1,9 +1,9 @@
 ---
 title: FastUI
-date: 2023-12-05T12:16:30+08:00
+date: 2023-12-06T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700579837858-604ab37cbeac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700579837858-604ab37cbeac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700943872245-569730a1714b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700943872245-569730a1714b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
 ---
 
 # [samuelcolvin/FastUI](https://github.com/samuelcolvin/FastUI)
