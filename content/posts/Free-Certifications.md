@@ -1,9 +1,9 @@
 ---
 title: Free-Certifications
-date: 2023-12-05T12:18:05+08:00
+date: 2023-12-07T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1664985363388-0e4bd2b5cdb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1664985363388-0e4bd2b5cdb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700049753107-fb6dcd226c20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700049753107-fb6dcd226c20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
@@ -64,7 +64,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | SolusIO | Plesk University | Free SolusIO Professional Certification | [Link](https://university.plesk.com/catalog/info/id:369) | Unlimited |
 | Analytics | Google Analytics Academy | Google Analytics Academy free courses with certificates | [Link](https://analytics.google.com/analytics/academy/) | Unlimited |
 | SD-WAN | Silver Peak | Silver Peak , offers Free Training & Certification Exam for SD-WAN Profissional | [Link](https://www.silver-peak.com/support/training) | Unknown |
-| Data Science | IBM Cognitive Class | Data science courses with proof of completion and badge | [Link](https://cognitiveclass.ai/) | Unlimited |
+| Data Science, AI | IBM Cognitive Class | Free AI courses with proof of completion and badge | [Link](https://cognitiveclass.ai/) | Unlimited |
 | IT sector | Bitdegree | gain or improve digital skills on our eLearning platform | [Link](https://www.bitdegree.org/free-certifications-online) | Unknown |
 | SysTrack | Lakeside Software | Free SysTrack certification and badge upon completion of self-paced courses through their online learning platform. They offer three courses: SysTrack Technician, SysTrack Engineer, and SysTrack Dashboard Designer. | [Link](https://info.lakesidesoftware.com/acton/fs/blocks/showLandingPage/a/31052/p/p-0081/t/page/fm/0) | Unknown |
 | Eggplant | Eggplant | Free Eggplant courses and certifications. | [Link](https://www.eggplantsoftware.com/training-and-certifications) | Unknown |
@@ -159,6 +159,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Machine Learning | Google Cloud Skills Boost | Integrate with Machine Learning APIs | [Link](https://www.cloudskillsboost.google/course_templates/630) | Unlimited |
 | Cloud | Google Cloud Skills Boost | Cloud Engineering | [Link](https://www.cloudskillsboost.google/course_templates/695) | Unlimited |
 | AI | Elements of AI | Free online courses about the basics of AI | [Link](https://www.elementsofai.com/) | Unlimited |
+| AI | LinkedIn | Career Essentials in Generative AI by Microsoft and LinkedIn | [Link](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin) | Unknown |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
 

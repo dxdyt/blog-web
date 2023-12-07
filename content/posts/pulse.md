@@ -1,9 +1,9 @@
 ---
 title: pulse
-date: 2023-12-06T12:17:09+08:00
+date: 2023-12-07T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699019950419-ffe12ae956c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699019950419-ffe12ae956c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700049753107-fb6dcd226c20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700049753107-fb6dcd226c20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [laravel/pulse](https://github.com/laravel/pulse)

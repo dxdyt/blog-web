@@ -1,9 +1,9 @@
 ---
 title: awesome-selfhosted
-date: 2023-12-06T12:18:50+08:00
+date: 2023-12-07T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694721804143-7c611fde4b22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694721804143-7c611fde4b22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699931291540-e83ef6f01484?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699931291540-e83ef6f01484?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted)

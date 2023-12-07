@@ -1,9 +1,9 @@
 ---
 title: llm-viz
-date: 2023-12-06T12:17:33+08:00
+date: 2023-12-07T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699299229941-af8208a867ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699299229941-af8208a867ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698785617585-e4e635e0990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698785617585-e4e635e0990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [bbycroft/llm-viz](https://github.com/bbycroft/llm-viz)

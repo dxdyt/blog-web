@@ -1,9 +1,9 @@
 ---
 title: HierSpeechpp
-date: 2023-12-06T12:18:09+08:00
+date: 2023-12-07T12:17:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700591698073-833f3dc7127f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700591698073-833f3dc7127f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700833533652-2ebae7f13f47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700833533652-2ebae7f13f47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [sh-lee-prml/HierSpeechpp](https://github.com/sh-lee-prml/HierSpeechpp)
