@@ -1,9 +1,9 @@
 ---
 title: LVM
-date: 2023-12-07T12:18:07+08:00
+date: 2023-12-08T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695036300936-671d8b0d54c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695036300936-671d8b0d54c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
 ---
 
 # [ytongbai/LVM](https://github.com/ytongbai/LVM)

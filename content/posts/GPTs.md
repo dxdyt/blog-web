@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-12-02T12:16:16+08:00
+date: 2023-12-08T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700657362828-c06952b22c5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700657362828-c06952b22c5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -182,7 +182,17 @@ This repo collects leaked prompts of GPTs.
 - [Naruto GPT](./prompts/Naruto%20GPT.md) by selerite.com
 - [🦾 ClubGPT - developer team in one GPT 🦾](./prompts/%F0%9F%A6%BE%20ClubGPT%20-%20developer%20team%20in%20one%20GPT%20%F0%9F%A6%BE.md) by clubgpt.vip
 - [Customer Service GPT](./prompts/Customer%20Service%20GPT.md) by Daniel J Patterson
-
+- [中医专家](./prompts/中医专家.md) by asktutor.online
+- [Storybook Vision](./prompts/Storybook%20Vision.md) by karenx.com
+- [Starter Pack Generator](./prompts/Starter%20Pack%20Generator.md) by photoai.com
+- [DesignerGPT](./prompts/DesignerGPT.md) by Pietro Schirano
+- [Screenplay GPT](./prompts/Screenplay%20GPT.md) by kyrannio m margharos
+- [ResearchGPT: AI Research Assistant](./prompts/ResearchGPT.md) by consensus.app
+- [Auto Stock Analyst Expert](./prompts/Auto%20Stock%20Analyst%20Expert.md) by LEI WEI
+- [Photogasm 2.0](./prompts/Photogasm%202.0.md)
+- [ask_ida/c++](./prompts/ask_ida-c++.md) by Elias Bachaalany
+- [情感对话大师——帮你回复女生](./prompts/情感对话大师——帮你回复女生.md) by Audria Rice
+- [AboutMe](./prompts/AboutMe.md) by Pietro Schirano
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.

@@ -1,9 +1,9 @@
 ---
 title: magic-animate
-date: 2023-12-07T12:16:25+08:00
+date: 2023-12-08T12:16:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698785617585-e4e635e0990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698785617585-e4e635e0990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699918477547-bc6c99d639cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699918477547-bc6c99d639cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
 ---
 
 # [magic-research/magic-animate](https://github.com/magic-research/magic-animate)
