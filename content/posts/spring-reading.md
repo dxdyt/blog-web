@@ -1,9 +1,9 @@
 ---
 title: spring-reading
-date: 2023-12-08T12:18:40+08:00
+date: 2023-12-09T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701406708142-2de174101f01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701406708142-2de174101f01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701352281550-4a7b283df099?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701352281550-4a7b283df099?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
 ---
 
 # [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading)
@@ -138,15 +138,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1701406708142-2de174101f
 
   - [`GenericConverter`](spring-dataops/spring-dataops-genericConverter/README.md)：更复杂的转换器，支持多种源和目标类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
-  - [`ConditionalConverter`](/spring-dataops/spring-dataops-conditionalConverter/README.md)：根据条件选择是否执行转换的转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  - [`ConditionalConverter`](spring-dataops/spring-dataops-conditionalConverter/README.md)：根据条件选择是否执行转换的转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
-  - `ConversionService`：提供统一的类型转换服务接口，管理转换器。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
+  - [`ConversionService`](spring-dataops/spring-dataops-conversionService/README.md)：提供统一的类型转换服务接口，管理转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
-  - `BeanWrapper`：用于操作JavaBean的属性，实现动态属性设置和获取。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
+  - [`Printer`](spring-dataops/spring-dataops-printer/README.md)：用于将对象格式化为文本，专注于格式化输出。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   - `Parser`：用于将文本解析为对象，专注于解析逻辑。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
 
-  - `Printer`：用于将对象格式化为文本，专注于格式化输出。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
+  - `BeanWrapper`：用于操作JavaBean的属性，实现动态属性设置和获取。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
 
   - `AnnotationFormatterFactory`：针对带注解字段的格式化器工厂，链接注解与格式化逻辑。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
 

@@ -1,9 +1,9 @@
 ---
 title: magic-animate
-date: 2023-12-08T12:16:16+08:00
+date: 2023-12-09T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699918477547-bc6c99d639cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699918477547-bc6c99d639cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700061778407-01c43caeba03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700061778407-01c43caeba03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
 ---
 
 # [magic-research/magic-animate](https://github.com/magic-research/magic-animate)
@@ -41,15 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1699918477547-bc6c99d639
   <table align="center">
     <tr>
     <td>
-      <img src="assets/teaser/t1.gif">
-    </td>
-    <td>
       <img src="assets/teaser/t4.gif">
-    </td>
-    </tr>
-    <tr>
-    <td>
-      <img src="assets/teaser/t3.gif">
     </td>
     <td>
       <img src="assets/teaser/t2.gif">

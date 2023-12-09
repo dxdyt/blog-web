@@ -1,9 +1,9 @@
 ---
 title: DemoFusion
-date: 2023-12-08T12:16:38+08:00
+date: 2023-12-09T12:16:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699918477547-bc6c99d639cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699918477547-bc6c99d639cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701338479965-81c3e08b7dbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701338479965-81c3e08b7dbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
 ---
 
 # [PRIS-CV/DemoFusion](https://github.com/PRIS-CV/DemoFusion)
@@ -11,9 +11,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1699918477547-bc6c99d639
 # DemoFusion
 [![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://ruoyidu.github.io/demofusion/demofusion.html)
 [![arXiv](https://img.shields.io/badge/arXiv-2311.16973-b31b1b.svg)](https://arxiv.org/pdf/2311.16973.pdf)
-[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Diffusers-orange.svg)](https://huggingface.co/docs/diffusers/index)
 [![Replicate](https://img.shields.io/badge/Demo-%F0%9F%9A%80%20Replicate-blue)](https://replicate.com/lucataco/demofusion)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/DemoFusion-colab/blob/main/DemoFusion_colab.ipynb)
+[![Hugging Face](https://img.shields.io/badge/img2img-%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/radames/Enhance-This-DemoFusion-SDXL)
 [![Page Views Count](https://badges.toozhao.com/badges/01HFMAPCVTA1T32KN2PASNYGYK/blue.svg)](https://badges.toozhao.com/stats/01HFMAPCVTA1T32KN2PASNYGYK "Get your own page views count badge on badges.toozhao.com")
 
 Code release for "DemoFusion: Democratising High-Resolution Image Generation With No 💰" (arXiv 2023)
@@ -23,6 +23,7 @@ Code release for "DemoFusion: Democratising High-Resolution Image Generation Wit
 **Abstract**: High-resolution image generation with Generative Artificial Intelligence (GenAI) has immense potential but, due to the enormous capital investment required for training, it is increasingly centralised to a few large corporations, and hidden behind paywalls. This paper aims to democratise high-resolution GenAI by advancing the frontier of high-resolution generation while remaining accessible to a broad audience. We demonstrate that existing Latent Diffusion Models (LDMs) possess untapped potential for higher-resolution image generation. Our novel DemoFusion framework seamlessly extends open-source GenAI models, employing Progressive Upscaling, Skip Residual, and Dilated Sampling mechanisms to achieve higher-resolution image generation. The progressive nature of DemoFusion requires more passes, but the intermediate results can serve as "previews", facilitating rapid prompt iteration.
 
 # News
+- **2023.12.08**: 🚀 A HuggingFace Demo for Img2Img is now available! [![Hugging Face](https://img.shields.io/badge/img2img-%F0%9F%A4%97%20Hugging%20Face-blue)](https://huggingface.co/spaces/radames/Enhance-This-DemoFusion-SDXL) Thank [Radamés](https://github.com/radames) for the implementation and [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-Diffusers-orange.svg)](https://huggingface.co/docs/diffusers/index) for the support!
 - **2023.12.07**: 🚀 Add Colab demo [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/DemoFusion-colab/blob/main/DemoFusion_colab.ipynb). Check it out! Thank [camenduru](https://github.com/camenduru) for the implementation!
 - **2023.12.06**: 🚀 Local [Gradio Demo](https://github.com/PRIS-CV/DemoFusion#Running-with-Gradio-demo) is now available! Better interaction and presentation!
 - **2023.12.04**: ✨ A [low-vram version](https://github.com/PRIS-CV/DemoFusion#Running-on-Windows-with-8-GB-of-VRAM) of DemoFusion is available! Thank [klimaleksus](https://github.com/klimaleksus) for the implementation!

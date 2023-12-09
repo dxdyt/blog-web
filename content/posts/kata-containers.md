@@ -1,9 +1,9 @@
 ---
 title: kata-containers
-date: 2023-12-08T12:18:49+08:00
+date: 2023-12-09T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701528148237-437dce080fec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701528148237-437dce080fec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
 ---
 
 # [kata-containers/kata-containers](https://github.com/kata-containers/kata-containers)

@@ -1,9 +1,9 @@
 ---
 title: mamba
-date: 2023-12-08T12:17:16+08:00
+date: 2023-12-09T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699366089285-1170e63b78a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699366089285-1170e63b78a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
 ---
 
 # [state-spaces/mamba](https://github.com/state-spaces/mamba)

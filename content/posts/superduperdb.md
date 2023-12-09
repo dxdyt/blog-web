@@ -1,9 +1,9 @@
 ---
 title: superduperdb
-date: 2023-12-08T12:17:06+08:00
+date: 2023-12-09T12:15:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699782855127-acd42190fc20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699782855127-acd42190fc20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
 ---
 
 # [SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
