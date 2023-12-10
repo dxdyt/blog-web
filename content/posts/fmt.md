@@ -1,9 +1,9 @@
 ---
 title: fmt
-date: 2023-12-09T12:17:49+08:00
+date: 2023-12-10T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699470397651-b0d0c4421ccb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699470397651-b0d0c4421ccb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701220416880-2bfed18447bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701220416880-2bfed18447bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [fmtlib/fmt](https://github.com/fmtlib/fmt)
@@ -209,7 +209,7 @@ IEEE754 `float` and `double` formatting
 than [double-conversion](https://github.com/google/double-conversion)
 and [ryu](https://github.com/ulfjack/ryu):
 
-[![image](https://user-images.githubusercontent.com/576385/%0A95684665-11719600-0ba8-11eb-8e5b-972ff4e49428.png)](https://fmt.dev/unknown_mac64_clang12.0.html)
+[![image](https://user-images.githubusercontent.com/576385/95684665-11719600-0ba8-11eb-8e5b-972ff4e49428.png)](https://fmt.dev/unknown_mac64_clang12.0.html)
 
 ## Compile time and code bloat
 

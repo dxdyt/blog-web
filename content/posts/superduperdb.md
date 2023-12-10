@@ -1,9 +1,9 @@
 ---
 title: superduperdb
-date: 2023-12-09T12:15:42+08:00
+date: 2023-12-10T12:18:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699782855127-acd42190fc20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699782855127-acd42190fc20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701443478334-c1a4bfda91ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701443478334-c1a4bfda91ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
@@ -88,7 +88,7 @@ For more information about SuperDuperDB and why we believe it is much needed, [r
 |----------------------------|-|-|
 | Data Management & Security | Data stays in the database, with AI outputs stored alongside inputs available to downstream applications. Data access and security to be externally controlled via database access management.  |  Data duplication and migration to different environments, and specialized vector databases, imposing data management overhead.   |
 | Infrastructure             | A single environment to build, ship, and manage your AI applications, facilitating scalability and optimal compute efficiency.    |  Complex fragmented infrastructure, with multiple pipelines, coming with high adoption and maintenance costs and increasing security risks. |
-| Code                       | Minimal learning curve due to a simple and declarative API, requiring simple Python commands. |  Hundreds of lines of codes and settings in different environemts and tools.     |
+| Code                       | Minimal learning curve due to a simple and declarative API, requiring simple Python commands. |  Hundreds of lines of codes and settings in different environments and tools.     |
 
 
 ## Supported Datastores (*more coming soon*):
@@ -372,8 +372,8 @@ db = superduper(pymongo.MongoClient().my_db)
 # Models client can be converted to SuperDuperDB objects with a simple wrapper.
 model = superduper(SVC())
 
-# Predict on the selected data.
-model.train(X='input_col', y='target_col', db=db, select=Collection(name='test_documents').find({'_fold': 'valid'}))
+# Fit model on the training data.
+model.fit(X='input_col', y='target_col', db=db, select=Collection(name='test_documents').find({}))
 ```
 
 #### - Vector-Search your data:

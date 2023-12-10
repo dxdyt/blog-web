@@ -1,9 +1,9 @@
 ---
 title: learning-notes
-date: 2023-12-08T12:18:58+08:00
+date: 2023-12-10T12:18:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [keyvanakbary/learning-notes](https://github.com/keyvanakbary/learning-notes)

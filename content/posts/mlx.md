@@ -1,9 +1,9 @@
 ---
 title: mlx
-date: 2023-12-09T12:15:28+08:00
+date: 2023-12-10T12:16:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699470397651-b0d0c4421ccb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699470397651-b0d0c4421ccb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699459607033-ad9dd4df7021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699459607033-ad9dd4df7021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx](https://github.com/ml-explore/mlx)

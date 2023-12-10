@@ -1,9 +1,9 @@
 ---
 title: pypush
-date: 2023-12-09T12:16:11+08:00
+date: 2023-12-10T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700061778407-01c43caeba03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700061778407-01c43caeba03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [JJTech0130/pypush](https://github.com/JJTech0130/pypush)
