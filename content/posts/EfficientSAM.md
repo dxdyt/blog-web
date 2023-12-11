@@ -1,9 +1,9 @@
 ---
 title: EfficientSAM
-date: 2023-12-10T12:17:30+08:00
+date: 2023-12-11T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699951804334-15992907c42c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699951804334-15992907c42c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
 ---
 
 # [yformer/EfficientSAM](https://github.com/yformer/EfficientSAM)

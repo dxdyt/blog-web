@@ -1,9 +1,9 @@
 ---
 title: optimum-nvidia
-date: 2023-12-10T12:16:28+08:00
+date: 2023-12-11T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699459607033-ad9dd4df7021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699459607033-ad9dd4df7021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699147831362-9a875de53ed4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699147831362-9a875de53ed4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/optimum-nvidia](https://github.com/huggingface/optimum-nvidia)

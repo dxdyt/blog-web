@@ -1,9 +1,9 @@
 ---
 title: mlx-examples
-date: 2023-12-10T12:17:24+08:00
+date: 2023-12-11T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701380477617-a871a4e69318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701380477617-a871a4e69318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701676566409-ae132bdbc9ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701676566409-ae132bdbc9ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples)

@@ -1,9 +1,9 @@
 ---
 title: ai-group-tabs
-date: 2023-12-10T12:16:50+08:00
+date: 2023-12-11T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701084412727-1f3e01088a5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
 ---
 
 # [MichaelYuhe/ai-group-tabs](https://github.com/MichaelYuhe/ai-group-tabs)
@@ -18,7 +18,8 @@ A Chrome extension helps you group your tabs with AI.
 >
 > [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+99v98-XOQY0zZGNl)
 
-Demo Video: 
+Demo Video:
+
 > [![Watch the video](https://img.youtube.com/vi/SjfKiXy3zOc/default.jpg)](https://youtu.be/SjfKiXy3zOc)
 
 ## Roadmap
@@ -41,10 +42,6 @@ Demo Video:
 Download the latest released `dist.zip` from [the release page](https://github.com/MichaelYuhe/ai-group-tabs/releases), unzip after download, you will get a folder named `dist`.
 
 Open Chrome, go to `chrome://extensions/`, turn on `Developer mode` on the top right corner, click `Load unpacked` on the top left corner, select the `dist` folder you just unzipped.
-
-- Fill in the OpenAI API key, add some types and click on the "Save" button.
-- Click on the "Group Tabs" button, your current tabs will be grouped.
-- Your new tab will be grouped automatically.
 
 > You can change the model and API server in the options page.
 

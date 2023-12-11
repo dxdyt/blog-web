@@ -1,9 +1,9 @@
 ---
 title: vid2densepose
-date: 2023-12-10T12:18:38+08:00
+date: 2023-12-11T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701453031893-7ba3879de2c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701453031893-7ba3879de2c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700127272763-b775d79ecd8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700127272763-b775d79ecd8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
 ---
 
 # [Flode-Labs/vid2densepose](https://github.com/Flode-Labs/vid2densepose)
