@@ -1,9 +1,9 @@
 ---
 title: awesome-quant
-date: 2023-09-14T12:16:50+08:00
+date: 2023-12-12T12:18:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692367764006-f940d670a235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692367764006-f940d670a235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701261026789-aca18e71ae4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701261026789-aca18e71ae4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
 ---
 
 # [wilsonfreitas/awesome-quant](https://github.com/wilsonfreitas/awesome-quant)
@@ -72,6 +72,7 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 - [pypme](https://github.com/ymyke/pypme) - PME (Public Market Equivalent) calculation.
 - [AbsBox](https://github.com/yellowbean/AbsBox) - A Python based library to model cashflow for structured product like Asset-backed securities (ABS) and Mortgage-backed securities (MBS).
 - [Intrinsic-Value-Calculator](https://github.com/akashaero/Intrinsic-Value-Calculator) - A Python tool for quick calculations of a stock's fair value using Discounted Cash Flow analysis.
+- [Kelly-Criterion](https://github.com/deltaray-io/kelly-criterion) - Kelly Criterion implemented in Python to size portfolios based on J. L. Kelly Jr's formula.
 
 ### Indicators
 
@@ -81,7 +82,8 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 - [lppls](https://github.com/Boulder-Investment-Technologies/lppls) - A Python module for fitting the [Log-Periodic Power Law Singularity (LPPLS)](https://en.wikipedia.org/wiki/Didier_Sornette#The_JLS_and_LPPLS_models) model.
 
 ### Trading & Backtesting
-
+- [Investing algorithm framework](https://github.com/coding-kitties/investing-algorithm-framework) - Framework for developing, backtesting, and deploying automated trading algorithms.
+- [QSTrader](https://github.com/mhallsmoore/qstrader) - QSTrader backtesting simulation engine.
 - [Blankly](https://github.com/Blankly-Finance/Blankly) - Fully integrated backtesting, paper trading, and live deployment.
 - [TA-Lib](https://github.com/mrjbq7/ta-lib) - Python wrapper for TA-Lib (<http://ta-lib.org/>).
 - [zipline](https://github.com/quantopian/zipline) - Pythonic algorithmic trading library.
@@ -146,6 +148,10 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 - [pytrendseries](https://github.com/rafa-rod/pytrendseries) - Detect trend in time series, drawdown, drawdown within a constant look-back window , maximum drawdown, time underwater.
 - [PyLOB](https://github.com/DrAshBooth/PyLOB) - Fully functioning fast Limit Order Book written in Python.
 - [PyBroker](https://github.com/edtechre/pybroker) - Algorithmic Trading with Machine Learning.
+- [OctoBot Script](https://github.com/Drakkar-Software/OctoBot-Script) - A quant framework to create cryptocurrencies strategies - from backtesting to optimisation to livetrading.
+- [hftbacktest](https://github.com/nkaz001/hftbacktest) - A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.
+- [vnpy](https://github.com/vnpy/vnpy) - VeighNa is a Python-based open source quantitative trading system development framework.
+- [Intelligent Trading Bot](https://github.com/asavinov/intelligent-trading-bot) - Automatically generating signals and trading based on machine learning and feature engineering
 
 ### Risk Analysis
 
@@ -155,7 +161,7 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 - [finance](https://pypi.org/project/finance/) - Financial Risk Calculations. Optimized for ease of use through class construction and operator overload.
 - [qfrm](https://pypi.org/project/qfrm/) - Quantitative Financial Risk Management: awesome OOP tools for measuring, managing and visualizing risk of financial instruments and portfolios.
 - [visualize-wealth](https://github.com/benjaminmgross/visualize-wealth) - Portfolio construction and quantitative analysis.
-- [VisualPortfolio](https://github.com/wegamekinglc/VisualPortfolio) - This tool is used to visualize the perfomance of a portfolio.
+- [VisualPortfolio](https://github.com/wegamekinglc/VisualPortfolio) - This tool is used to visualize the performance of a portfolio.
 - [universal-portfolios](https://github.com/Marigold/universal-portfolios) - Collection of algorithms for online portfolio selection.
 - [FinQuant](https://github.com/fmilthaler/FinQuant) - A program for financial portfolio management, analysis and optimisation.
 - [Empyrial](https://github.com/ssantoshp/Empyrial) - Portfolio's risk and performance analytics and returns predictions.
@@ -166,6 +172,10 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 
 - [alphalens](https://github.com/quantopian/alphalens) - Performance analysis of predictive alpha factors.
 - [Spectre](https://github.com/Heerozh/spectre) - GPU-accelerated Factors analysis library and Backtester
+
+### Quant Research Environment
+
+- [Jupyter Quant](https://github.com/gnzsnz/jupyter-quant) - A dockerized Jupyter quant research environment with preloaded tools for quant analysis, statsmodels, pymc, arch, py_vollib, zipline-reloaded, PyPortfolioOpt, etc.
 
 ### Time Series
 
@@ -403,7 +413,6 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 - [IndicatorTS](https://github.com/cinar/indicatorts) - Indicator is a TypeScript module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.
 - [ccxt](https://github.com/ccxt/ccxt) - A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges.
 - [PENDAX](https://github.com/CompendiumFi/PENDAX-SDK) - Javascript SDK for Trading/Data API and Websockets for FTX, FTXUS, OKX, Bybit, & More.
-- [Mida](https://github.com/Reiryoku-Technologies/Mida) - The open-source and cross-platform trading framework (https://www.mida.org/).
 
 ### Data Visualization
 
@@ -451,10 +460,12 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
   - [PyQL](https://github.com/enthought/pyql) - Python port.
   - [QuantLib.jl](https://github.com/pazzo83/QuantLib.jl) - Julia port.
   - [QuantLib-Python Documentation](https://quantlib-python-docs.readthedocs.io/) - Documentation for the Python bindings for the QuantLib library
+  - [QuantLib with Automatic Differention enabled](https://github.com/auto-differentiation/quantlib-xad) - Integration of Automatic Differentiation with the QuantLib library
 - [TA-Lib](https://ta-lib.org) - perform technical analysis of financial market data.
   - [ta-lib-python](https://github.com/TA-Lib/ta-lib-python)
   - [ta-lib](https://github.com/TA-Lib/ta-lib)
 - [Portfolio Optimizer](https://portfoliooptimizer.io/) - Portfolio Optimizer is a Web API for portfolio analysis and optimization.
+
 
 ## CSharp
 
@@ -512,3 +523,6 @@ A curated list of insanely awesome libraries, packages and resources for Quants 
 - [ML_Finance_Codes](https://github.com/mfrdixon/ML_Finance_Codes) - Machine Learning in Finance: From Theory to Practice Book
 - [Hands-On Machine Learning for Algorithmic Trading](https://github.com/packtpublishing/hands-on-machine-learning-for-algorithmic-trading) - Hands-On Machine Learning for Algorithmic Trading, published by Packt
 - [financialnoob-misc](https://github.com/financialnoob/misc) - Codes from @financialnoob's posts
+- [MesoSim Options Trading Strategy Library](https://github.com/deltaray-io/strategy-library) - Free and public Options Trading strategy library for MesoSim. 
+- [Quant-Finance-With-Python-Code](https://github.com/lingyixu/Quant-Finance-With-Python-Code) - Repo for code examples in Quantitative Finance with Python by Chris Kelliher
+- [QuantFinanceTraining](https://github.com/JoaoJungblut/QuantFinanceTraining) - This repository contains codes that were executed during my training in the CQF (Certificate in Quantitative Finance). The codes are organized by class, facilitating navigation and reference.

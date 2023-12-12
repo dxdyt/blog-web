@@ -1,9 +1,9 @@
 ---
 title: superduperdb
-date: 2023-12-11T12:17:23+08:00
+date: 2023-12-12T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701676566409-ae132bdbc9ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701676566409-ae132bdbc9ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699568680745-5cc0138f1cc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699568680745-5cc0138f1cc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
 ---
 
 # [SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
@@ -60,7 +60,7 @@ SuperDuperDB eliminates complex MLOps pipelines, specialized vector databases - 
 - Highly custom AI use-cases involving ultra specialized models
 
 **To get started:**
-Check the uses cases that we have already implemented [here in the docs](https://docs.superduperdb.com/docs/category/use-cases) as well as apps built by the community in the dedicated [superduper-community-apps repo](https://github.com/SuperDuperDB/superduper-community-apps) and try all of them with [Jupyter right in your browser](https://demo.superduperdb.com/)! 
+Check the use-cases we have already implemented [here in the docs](https://docs.superduperdb.com/docs/category/use-cases) as well as the apps built by the community in the dedicated [superduper-community-apps repo](https://github.com/SuperDuperDB/superduper-community-apps) and try all of them with [Jupyter right in your browser](https://demo.superduperdb.com/)! 
 
 `SuperDuperDB is open-source: Please leave a star to support the project! ⭐`
 
@@ -317,13 +317,23 @@ Also find use-cases and apps built by the community in the [superduper-community
 
 
 ## Installation
+
 #### 1. Install SuperDuperDB via `pip` *(~1 minute)*:
+
+**Requirements**:
+
+- Python 3.10 or 3.11
+- Working `pip` installation (e.g. via virtual environment)
+
 ```
 pip install superduperdb
 ```
 
 #### 2. Try SuperDuperDB via Docker *(~2 minutes)*:
-   - You need to install Docker? See the docs <a href="https://docs.docker.com/engine/install/">here</a>.
+  
+**Requirements**:
+   
+- Working `docker` [installation](https://docs.docker.com/engine/install/)
 
 ```
 docker run -p 8888:8888 superduperdb/demo:latest

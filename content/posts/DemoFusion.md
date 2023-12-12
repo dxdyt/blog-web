@@ -1,9 +1,9 @@
 ---
 title: DemoFusion
-date: 2023-12-11T12:16:42+08:00
+date: 2023-12-12T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699247334203-da0063ab6db3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699247334203-da0063ab6db3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701261026789-aca18e71ae4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701261026789-aca18e71ae4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
 ---
 
 # [PRIS-CV/DemoFusion](https://github.com/PRIS-CV/DemoFusion)

@@ -1,21 +1,19 @@
 ---
 title: ai-group-tabs
-date: 2023-12-11T12:17:05+08:00
+date: 2023-12-12T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701688992044-7c58b09effa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701688992044-7c58b09effa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
 ---
 
 # [MichaelYuhe/ai-group-tabs](https://github.com/MichaelYuhe/ai-group-tabs)
 
 # AI Group Tabs
 
-[![Build](https://github.com/MichaelYuhe/ai-group-tabs/actions/workflows/build.yml/badge.svg)](https://github.com/MichaelYuhe/ai-group-tabs/actions/workflows/build.yml)
+[![Build](https://github.com/MichaelYuhe/ai-group-tabs/actions/workflows/build.yml/badge.svg)](https://github.com/MichaelYuhe/ai-group-tabs/actions/workflows/build.yml) [![Notify](https://github.com/MichaelYuhe/ai-group-tabs/actions/workflows/notify.yml/badge.svg)](https://github.com/MichaelYuhe/ai-group-tabs/actions/workflows/notify.yml)
 
 A Chrome extension helps you group your tabs with AI.
 
-> The extension is still under development, feel free to open issues and pull requests. Any suggestions are welcome.
->
 > [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+99v98-XOQY0zZGNl)
 
 Demo Video:
@@ -31,7 +29,7 @@ Demo Video:
 - [ ] Publish on Chrome store
 - [x] Better prompt engineering
 - [x] Logo and name
-- [ ] CI / CD for build and release new version
+- [x] CI / CD for build and release new version
 - [ ] Add toast
 - [x] Use Vite and pnpm
 - [x] Group the updated tab only when a tab is updated
@@ -63,3 +61,33 @@ pnpm build
 > Everyone contributor can get your one month free of Developer Plan on Zeabur.
 
 [![Deployed on Zeabur](https://zeabur.com/deployed-on-zeabur-dark.svg)](https://zeabur.com?referralCode=MichaelYuhe&utm_source=ai-group-tab&utm_campaign=oss)
+
+## Star History
+
+<div align="left">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="
+      https://api.star-history.com/svg?repos=MichaelYuhe/ai-group-tabs&type=Date&theme=dark
+    "
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="
+      https://api.star-history.com/svg?repos=MichaelYuhe/ai-group-tabs&type=Date
+    "
+  />
+  <img
+    alt="Star History Chart"
+    src="https://api.star-history.com/svg?repos=MichaelYuhe/ai-group-tabs&type=Date"
+  />
+</picture>
+</div>
+
+## Contributors
+
+<p align="left">
+<a href="https://github.com/MichaelYuhe/ai-group-tabs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MichaelYuhe/ai-group-tabs" style="width: 60%"/>
+</a></p>

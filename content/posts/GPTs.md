@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-12-11T12:16:26+08:00
+date: 2023-12-12T12:16:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699147831362-9a875de53ed4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699147831362-9a875de53ed4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1685097879207-1a897190300f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1685097879207-1a897190300f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -216,7 +216,7 @@ This repo collects leaked prompts of GPTs.
 - [Humanizer Pro](./prompts/Humanizer%20Pro.md) by charly-ai.com
 - [Ebook Writer & Designer GPT](./prompts/Ebook%20Writer%20%26%20Designer%20GPT.md) by Dasher
 - [Ghostwriters](./prompts/Ghostwriters.md) by osita okaforezeadi
-- [Riddle Master (燈謎天尊)](https://chat.openai.com/g/g-TBup2Psjm-riddle-master-deng-mi-tian-zun) by WEBBER CHANG
+- [Riddle Master (燈謎天尊)](./prompts/Riddle%20Master%20%28%E7%87%88%E8%AC%8E%E5%A4%A9%E5%B0%8A%29) by WEBBER CHANG
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.
