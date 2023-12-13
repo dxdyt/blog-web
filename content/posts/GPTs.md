@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-12-12T12:16:25+08:00
+date: 2023-12-13T12:16:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685097879207-1a897190300f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685097879207-1a897190300f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699786371594-c85b9349d691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699786371594-c85b9349d691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -26,6 +26,7 @@ This repo collects leaked prompts of GPTs.
 - [Sous Chef](./prompts/Sous%20Chef.md) by ChatGPT
 - [Tech Support Advisor](./prompts/Tech%20Support%20Advisor.md) by ChatGPT
 - [Sticker Whiz](./prompts/Sticker%20Whiz.md) by ChatGPT
+- [Obscribe](./prompts/Obscribe.md) by Azhar Hama
 - [Girlfriend Emma](./prompts/Girlfriend%20Emma.md) by dddshop.com
 - [TherapistGPT](./prompts/TherapistGPT.md) by David Boyle
 - [🎀My excellent classmates (Help with my homework!)](./prompts/%F0%9F%8E%80My%20excellent%20classmates%20(Help%20with%20my%20homework!).md) by Kevin Ivery
@@ -217,6 +218,7 @@ This repo collects leaked prompts of GPTs.
 - [Ebook Writer & Designer GPT](./prompts/Ebook%20Writer%20%26%20Designer%20GPT.md) by Dasher
 - [Ghostwriters](./prompts/Ghostwriters.md) by osita okaforezeadi
 - [Riddle Master (燈謎天尊)](./prompts/Riddle%20Master%20%28%E7%87%88%E8%AC%8E%E5%A4%A9%E5%B0%8A%29) by WEBBER CHANG
+- [互联网+挑战杯大创竞赛导师](./prompts/互联网+挑战杯大创竞赛导师.md) by studyinglover
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.

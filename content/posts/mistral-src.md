@@ -1,23 +1,25 @@
 ---
 title: mistral-src
-date: 2023-10-02T12:14:57+08:00
+date: 2023-12-13T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694813646545-2e791ec9d0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694813646545-2e791ec9d0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYyMjAwODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701986789884-f9d5a9bcf71d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701986789884-f9d5a9bcf71d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [mistralai/mistral-src](https://github.com/mistralai/mistral-src)
 
 # Mistral Transformer
 
-This repository contains minimal code to run our 7B model.\
+This repository contains minimal code to run our 7B model.
+
 Blog: [https://mistral.ai/news/announcing-mistral-7b/](https://mistral.ai/news/announcing-mistral-7b/)\
-Discord: [https://discord.com/invite/mistralai](https://discord.com/invite/mistralai)
+Discord: [https://discord.com/invite/mistralai](https://discord.com/invite/mistralai)\
+Documentation: [https://docs.mistral.ai/](https://docs.mistral.ai/)\
+Guardrailing: [https://docs.mistral.ai/usage/guardrailing](https://docs.mistral.ai/usage/guardrailing)
 
 ## Deployment
 
-The `deploy` folder contains code to build a [vLLM](https://github.com/vllm-project/vllm) image with the required dependencies to serve the Mistral AI model. In the image, the [transformers](https://github.c
-ggingface/transformers/) library is used instead of the reference implementation. To build it:
+The `deploy` folder contains code to build a [vLLM](https://github.com/vllm-project/vllm) image with the required dependencies to serve the Mistral AI model. In the image, the [transformers](https://github.com/huggingface/transformers/) library is used instead of the reference implementation. To build it:
 
 ```bash
 docker build deploy --build-arg MAX_JOBS=8
@@ -74,6 +76,16 @@ To run logits equivalence through chunking and sliding window, launch
 python -m test_generate
 ```
 
+### Running large models
+
+When running models that are too large to fit a single GPU's memory, use pipeline parallelism (PP) and `torchrun`. This is needed to run `Mixtral-7B-8x`. The code below does 2-way PP.
+
+```
+torchrun --nproc-per-node 2 -m main demo /path/to/mixtral-7B-8x-v0.1/ --num_pipeline_ranks=2
+```
+
+> [!Note]
+> PP is not supported when running in interactive mode.
 
 # Sliding window attention
 
@@ -120,9 +132,52 @@ For this we can choose as chunk size the window size. For each chunk, we thus ne
 ![Chunking](assets/chunking.png)
 
 
-## More Links
+# Sparse Mixture of Experts (SMoE)
 
-[Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1) and [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1) are also available on HuggingFace.
+Sparse Mixture of Experts allows one to decouple throughput from memory costs by only activating subsets of the overall model for each token. In this approach, each token is assigned to one or more "experts" -- a separate set of weights -- and only processed by sunch experts. This division happens at feedforward layers of the model. The expert models specialize in different aspects of the data, allowing them to capture complex patterns and make more accurate predictions.
+
+![SMoE](assets/smoe.png)
+
+## Pipeline Parallelism
+
+Pipeline parallelism is a set of techniques for partitioning models, enabling the distribution of a large model across multiple GPUs. We provide a simple implementation of pipeline parallelism, which allows our larger models to be executed within the memory constraints of modern GPUs. Note that this implementation favours simplicity over throughput efficiency, and most notabably does not include microbatching.
+
+
+## Integrations and related projects
+
+
+### Model platforms
+
+- Use Mistral AI in HuggingFace:
+  - [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
+  - [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)
+- Use Mistral 7B on [Vertex AI](https://github.com/GoogleCloudPlatform/vertex-ai-samples/blob/main/notebooks/community/model_garden/model_garden_pytorch_mistral.ipynb)
+- Use Mistral 7B on [Replicate](https://replicate.com/lucataco/mistral-7b-v0.1)
+- Use Mistral 7B on [Sagemaker Jumpstart](https://aws.amazon.com/blogs/machine-learning/mistral-7b-foundation-models-from-mistral-ai-are-now-available-in-amazon-sagemaker-jumpstart/)
+- Use Mistral 7B on [Baseten](https://app.baseten.co/explore/)
+
+### Applications
+
+- Compare Mistral 7B to Llama 13B on [LLMBoxing](https://llmboxing.com/)
+- Compare Mistral 7B to 10+ LLMs on [Chatbot Arena](https://chat.lmsys.org/) or host it yourself with [FastChat](https://github.com/lm-sys/FastChat) 
+- Use Mistral 7B in [Dust](https://dust.tt/)
+- Speak to Mistral AI Instruct on [Perplexity labs](https://labs.perplexity.ai/) (warning: deployed version is not [guardrailed](https://docs.mistral.ai/usage/guardrailing)) 
+- Use Mistral 7B in [Quivr](https://blog.quivr.app/is-mistral-a-good-replacement-for-openai/)
+- Use Mistral 7B or its Zephyr derivate on [LlamaIndex](https://docs.llamaindex.ai/en/stable/core_modules/model_modules/llms/root.html#open-source-llms)
+
+### Local deployment
+- [Ollama](https://ollama.ai/library/mistral) local deployment
+- [GGML](https://github.com/ggerganov/ggml) local deployment
+- [TextSynth](https://textsynth.com/pricing.html) local deployment
+
+### Derived models
+
+- Multimodal: [BakLLaVa-1](https://huggingface.co/SkunkworksAI/BakLLaVA-1)
+
+- Model fine-tuned on direct preferences: [Zephyr-7B-alpha](https://huggingface.co/HuggingFaceH4/zephyr-7b-alpha)
+
+- Model fine-tuned on generated data: [OpenOrca](https://huggingface.co/Open-Orca/Mistral-7B-OpenOrca)
+
 
 ## References
 

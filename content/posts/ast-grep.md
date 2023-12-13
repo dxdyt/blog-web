@@ -1,9 +1,9 @@
 ---
 title: ast-grep
-date: 2023-12-12T12:17:44+08:00
+date: 2023-12-13T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701688992044-7c58b09effa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701688992044-7c58b09effa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684974143728-6da5d843a5e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684974143728-6da5d843a5e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
@@ -16,6 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1701688992044-7c58b09eff
    <img src="https://github.com/ast-grep/ast-grep/actions/workflows/coverage.yaml/badge.svg" alt="coverage badge"/>
    <a href="https://app.codecov.io/gh/ast-grep/ast-grep"><img src="https://codecov.io/gh/ast-grep/ast-grep/branch/main/graph/badge.svg?token=37VX8H2EWV"/></a>
    <a href="https://discord.gg/4YZjf6htSQ" target="_blank"><img alt="Discord" src="https://img.shields.io/discord/1107749847722889217?label=Discord"></a>
+   <a href="https://repology.org/project/ast-grep/versions" target="_blank"><img alt="Repology" src="https://repology.org/badge/tiny-repos/ast-grep.svg"></a>
    <img src="https://img.shields.io/github/stars/ast-grep/ast-grep?style=social" alt="Badge"/>
    <img src="https://img.shields.io/github/forks/ast-grep/ast-grep?style=social" alt="Badge"/>
    <img alt="GitHub Sponsors" src="https://img.shields.io/github/sponsors/HerringtonDarkholme?style=social">
@@ -97,7 +98,7 @@ It can help you to do lightweight static analysis and massive scale code manipul
 Key highlights:
 
 * An intuitive pattern to find and replace AST.
-ast-grep's pattern looks like ordinary code you would write every day. (You can call the pattern is isomorphic to code).
+ast-grep's pattern looks like ordinary code you would write every day (you could say the pattern is isomorphic to code).
 
 * jQuery like API for AST traversal and manipulation.
 

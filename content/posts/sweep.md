@@ -1,9 +1,9 @@
 ---
 title: sweep
-date: 2023-12-12T12:18:36+08:00
+date: 2023-12-13T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700213397178-515803baab77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700213397178-515803baab77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701986789884-f9d5a9bcf71d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701986789884-f9d5a9bcf71d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [sweepai/sweep](https://github.com/sweepai/sweep)

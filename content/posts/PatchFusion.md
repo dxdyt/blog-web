@@ -1,9 +1,9 @@
 ---
 title: PatchFusion
-date: 2023-12-12T12:18:01+08:00
+date: 2023-12-13T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701261026789-aca18e71ae4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701261026789-aca18e71ae4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1525838428585-76ad2dc4b5f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1525838428585-76ad2dc4b5f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [zhyever/PatchFusion](https://github.com/zhyever/PatchFusion)
@@ -29,10 +29,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1701261026789-aca18e71ae
 
 ## **DEMO**
 
-Our official huggingface demo is available [here](https://huggingface.co/spaces/zhyever/PatchFusion)! You can have a test with your own high-resolution image, even without a local GPU! It only takes 1min for depth prediction plus controlnet generation!
+Our official huggingface demo is available [here](https://huggingface.co/spaces/zhyever/PatchFusion)! You can test with your own high-resolution image, even without a local GPU! It only takes 1 minute for depth prediction plus ControlNet generation!
 
 Thanks for the kind support from [hysts](https://github.com/hysts)!
-
+ 
 ## **Environment setup**
 The project depends on :
 - [pytorch](https://pytorch.org/) (Main framework)
@@ -45,8 +45,8 @@ Install environment using `environment.yml` :
 
 Using [mamba](https://github.com/mamba-org/mamba) (fastest):
 ```bash
-mamba (or micromamba) env create -n patchfusion --file environment.yml
-mamba (or micromamba) activate patchfusion
+mamba env create -n patchfusion --file environment.yml
+mamba activate patchfusion
 ```
 Using conda : 
 
@@ -56,7 +56,7 @@ conda activate patchfusion
 ```
 
 ## **Pre-Train Model**
-Download our pre-trained model [here](https://drive.google.com/file/d/13M_qLOVSANDT1ss59Iebzjj3d0ZeVCi4/view?usp=sharing), and put this checkpoint at ``nfs/patchfusion_u4k.pt`` as preparation for the following steps.
+Download our pre-trained model [here](https://huggingface.co/zhyever/PatchFusion/tree/main), and put this checkpoint at ``nfs/patchfusion_u4k.pt`` as preparation for the following steps.
 
 If you want to play the ControlNet demo, please download the pre-trained ControlNet model [here](https://huggingface.co/lllyasviel/ControlNet/blob/main/models/control_sd15_depth.pth), and put this checkpoint at ``nfs/control_sd15_depth.pth``.
 
@@ -87,7 +87,7 @@ python ./ui_generative.py --model zoedepth_custom --ckp_path nfs/patchfusion_u4k
 3. Check visualization results in ``path/to/show`` and depth results in ``path/to/save``, respectively.
 
 **Args**
-- We recommand users to use ``--blur_mask`` to reduce patch artifacts, though we didn't use it in our standard evaluation process.
+- We recommend using ``--blur_mask`` to reduce patch artifacts, though we didn't use it in our standard evaluation process.
 - ``--mode``: select from p16, p49, and r**n**, where **n** is the number of random added patches.
 - Please refer to ``infer_user.py`` for more details.
 

@@ -1,9 +1,9 @@
 ---
 title: lx-music-mobile
-date: 2023-11-13T12:18:01+08:00
+date: 2023-12-13T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697325705661-8c3b01d90eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697325705661-8c3b01d90eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699786371594-c85b9349d691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699786371594-c85b9349d691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [lyswhut/lx-music-mobile](https://github.com/lyswhut/lx-music-mobile)

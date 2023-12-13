@@ -1,9 +1,9 @@
 ---
 title: webstudio
-date: 2023-09-03T12:15:07+08:00
+date: 2023-12-13T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691068297801-4957c1b77209?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691068297801-4957c1b77209?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701986789884-f9d5a9bcf71d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701986789884-f9d5a9bcf71d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
 ---
 
 # [webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
@@ -16,11 +16,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1691068297801-4957c1b772
 </section>
 <br /><br />
 
-## Learning ressources
+## Learning Resources
 
 - [Blog](https://webstudio.is/blog)
-- [Community documentation](https://github.com/webstudio-is/webstudio-community/tree/main/docs)
-- [Brand and product design](https://github.com/webstudio-is/webstudio-design/)
+- [Community Documentation](https://github.com/webstudio-is/webstudio-community/tree/main/docs)
+- [Brand and Product Design](https://github.com/webstudio-is/webstudio-design/)
 
 ## Social Media
 
@@ -30,9 +30,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1691068297801-4957c1b772
 
 ## Contributing
 
-- [Contributing guide](https://github.com/webstudio-is/webstudio-community/blob/main/docs/contributing.md)
+- [Contributing Guide](https://github.com/webstudio-is/webstudio-community/blob/main/docs/contributing.md)
 - [Github Discussions](https://github.com/webstudio-is/webstudio-community/discussions)
 - [Wishlist](https://github.com/webstudio-is/webstudio-community/discussions/categories/wishlist)
-- [Builder Issues tracker](https://github.com/webstudio-is/webstudio/issues)
+- [Builder Issues Tracker](https://github.com/webstudio-is/webstudio/issues)
 - [Roadmap](https://github.com/orgs/webstudio-is/projects)
-- [Design Assets and docs](https://github.com/webstudio-is/webstudio-design)
+- [Design Assets and Docs](https://github.com/webstudio-is/webstudio-design)
