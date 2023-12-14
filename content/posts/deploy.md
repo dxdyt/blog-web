@@ -1,9 +1,9 @@
 ---
 title: deploy
-date: 2023-12-13T12:17:20+08:00
+date: 2023-12-14T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699712463340-6fe7f1260cb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699712463340-6fe7f1260cb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
 ---
 
 # [pandora-next/deploy](https://github.com/pandora-next/deploy)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1699712463340-6fe7f1260c
 # PandoraNext
 
 ## ✨ 现在我们可以使用PandoraNext [注册ChatGPT账号](https://zhile.io/2023/12/09/pandoranext-introduction.html)了，无墙，全代理！
-### ✨ [PandoraNext助手GPTs](https://chat1.zhile.io/g/g-CFsXuTRfy-pandoranextzhu-shou)，如你有Plus账号，可向它求助项目问题（不要试图套源码）
+### ✨ [PandoraNext助手GPTs](https://chat.oaifree.com/g/g-CFsXuTRfy-pandoranextzhu-shou)，如你有Plus账号，可向它求助项目问题（不要试图套源码）
 
 ## 简单介绍
 

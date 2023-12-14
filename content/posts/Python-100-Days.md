@@ -1,9 +1,9 @@
 ---
 title: Python-100-Days
-date: 2023-12-12T12:16:32+08:00
+date: 2023-12-14T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1522850084723-8d649459526a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1522850084723-8d649459526a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIzNTQ1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
 ---
 
 # [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)

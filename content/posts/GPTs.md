@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-12-13T12:16:16+08:00
+date: 2023-12-14T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699786371594-c85b9349d691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699786371594-c85b9349d691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700522188830-bd0323a2c571?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700522188830-bd0323a2c571?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -219,6 +219,7 @@ This repo collects leaked prompts of GPTs.
 - [Ghostwriters](./prompts/Ghostwriters.md) by osita okaforezeadi
 - [Riddle Master (燈謎天尊)](./prompts/Riddle%20Master%20%28%E7%87%88%E8%AC%8E%E5%A4%A9%E5%B0%8A%29) by WEBBER CHANG
 - [互联网+挑战杯大创竞赛导师](./prompts/互联网+挑战杯大创竞赛导师.md) by studyinglover
+- [Inkspire Tattoo Bot](./prompts/Inkspire%20Tattoo%20Bot.md) by idcesares
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.

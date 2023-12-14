@@ -1,9 +1,9 @@
 ---
 title: llmware
-date: 2023-12-13T12:17:56+08:00
+date: 2023-12-14T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700221691428-61155b9ace87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700221691428-61155b9ace87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700317440744-a126fc87b900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700317440744-a126fc87b900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
 ---
 
 # [llmware-ai/llmware](https://github.com/llmware-ai/llmware)

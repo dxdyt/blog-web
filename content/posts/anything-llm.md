@@ -1,9 +1,9 @@
 ---
 title: anything-llm
-date: 2023-12-13T12:17:00+08:00
+date: 2023-12-14T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684974143728-6da5d843a5e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684974143728-6da5d843a5e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI0NDA5Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699882236909-b66077950046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699882236909-b66077950046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
 ---
 
 # [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
@@ -104,6 +104,13 @@ This monorepo consists of three main sections:
 *AnythingLLM by default embeds text on instance privately [Learn More](/server/storage/models/README.md)
 
 ## Recommended usage with Docker (easy!)
+> [!IMPORTANT]
+> If you are running another service on localhost like Chroma, LocalAi, or LMStudio
+> you will need to use http://host.docker.internal:xxxx to access the service from within
+> the docker container using AnythingLLM as `localhost:xxxx` will not resolve for the host system.
+> eg: Chroma host URL running on localhost:8000 on host machine needs to be http://host.docker.internal:8000
+> when used in AnythingLLM.
+
 > [!TIP]
 > It is best to mount the containers storage volume to a folder on your host machine
 > so that you can pull in future updates without deleting your existing data!
