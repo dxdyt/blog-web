@@ -1,9 +1,9 @@
 ---
 title: illa-builder
-date: 2023-12-14T12:18:01+08:00
+date: 2023-12-15T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701069090867-3a8951584074?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701069090867-3a8951584074?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700544152656-b70c5d5c698a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700544152656-b70c5d5c698a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [illacloud/illa-builder](https://github.com/illacloud/illa-builder)
@@ -40,14 +40,11 @@ English | <a href="https://github.com/illacloud/illa-builder/blob/main/README-CN
   <a href="./CONTRIBUTING.md"><img src="https://badgen.net/badge/PRs/Welcome/green?icon=storybook" height=18></a>
 </p>
 
-
 [![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=socialflat-square&)](https://www.apache.org/licenses/LICENSE-2.0.html)
-[![Formatting (pre-commit)](https://github.com/ros-planning/moveit2/actions/workflows/format.yaml/badge.svg?branch=main)](https://github.com/illacloud/illa-builder/actions/workflows/format.yaml?query=branch%3Amain)
-[![CI (Rolling and Humble)](https://github.com/ros-planning/moveit2/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/illacloud/illa-builder/actions/workflows/ci.yaml?query=branch%3Amain)
-[![Code Coverage](https://codecov.io/gh/ros-planning/moveit2/branch/main/graph/badge.svg?token=W7uHKcY0ly)](https://codecov.io/gh/illacloud/illa-builder)
-[![Stars](https://img.shields.io/github/stars/ros-planning/moveit2.svg?style=flat)](https://github.com/illacloud/illa-builder/stars)
-[![Issues](https://img.shields.io/github/issues/ros-planning/moveit2.svg?style=flat)](https://github.com/illacloud/illa-builder/issues)
-[![Forks](https://img.shields.io/github/forks/ros-planning/moveit2.svg?style=flat)](https://github.com/illacloud/illa-builder/forks)
+[![CI (Rolling and Humble)](https://github.com/illacloud/illa-builder/actions/workflows/build-docker.yml/badge.svg?query=branch%3Amain)](https://github.com/illacloud/illa-builder/actions/workflows/build-docker.yml?query=branch%3Amain)
+[![Stars](https://img.shields.io/github/stars/illacloud/illa-builder.svg?style=flat)](https://github.com/illacloud/illa-builder/stars)
+[![Issues](https://img.shields.io/github/issues/illacloud/illa-builder.svg?style=flat)](https://github.com/illacloud/illa-builder/issues)
+[![Forks](https://img.shields.io/github/forks/illacloud/illa-builder.svg?style=flat)](https://github.com/illacloud/illa-builder/forks)
 [![PR:s Welcome](https://img.shields.io/badge/PR:s-welcome-brightgreen.svg)](https://github.com/illacloud/illa-builder/pulls)
 [![First Contributors](https://img.shields.io/badge/first-contributors-brightgreen.svg)](https://github.com/illacloud/illa-builder/pulls)
 ![GitHub repo size](https://img.shields.io/github/repo-size/illacloud/illa-builder)
@@ -59,7 +56,6 @@ To try ILLA, the most convenient way is to sign up and log in to [ILLA Cloud](ht
 You can also deploy and [self-host](https://docs.illacloud.com/self-hosted-deployment/) ILLA utils manually([Docker](https://www.docker.com/), [docker-compose](https://docs.docker.com/compose/), and [k8s](https://kubernetes.io/)).
 
 <p>
-  <a href="https://docs.illacloud.com/self-hosted-deployment/"><img src="https://github.com/illacloud/.github/blob/main/assets/images/selfhost.png" height=120 />
   <a href="https://cloud.illacloud.com?utm_source=github&utm_medium=readme&utm_campaign=github-readme"><img src="https://raw.githubusercontent.com/illacloud/.github/main/assets/images/ILLA%20Cloud.png" height=120 />
 </p>
 

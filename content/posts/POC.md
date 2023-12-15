@@ -1,15 +1,20 @@
 ---
 title: POC
-date: 2023-12-14T12:16:49+08:00
+date: 2023-12-15T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700223172746-ff5615d70345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700223172746-ff5615d70345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [wy876/POC](https://github.com/wy876/POC)
 
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
+
+## 2023.12.14 新增漏洞
+- 泛微云桥 e-Bridge addTaste接口SQL注入漏洞
+- Tenda路由器账号密码泄露
+- 思福迪运维安全管理系统RCE漏洞
 
 ## 2023.12.11 新增漏洞
 - Apache Struts2 CVE-2023-50164

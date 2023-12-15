@@ -1,9 +1,9 @@
 ---
 title: deploy
-date: 2023-12-14T12:16:58+08:00
+date: 2023-12-15T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [pandora-next/deploy](https://github.com/pandora-next/deploy)
@@ -234,22 +234,29 @@ server {
 
 ## 关于 license_id
 
+> [!WARNING]
+> 出现`Ping remote server failed`，通常是人在**湖北**或者Docker启动时遇到，请尝试设置`DNS`后启动。
+> 
+> 如果你遇到`Ping remote server failed`后面有ip、reason的，则非上述原因，请参考reason。
+
 * 在这里获取：[https://dash.pandoranext.com](https://dash.pandoranext.com)
 * 复制`License Id:`后的内容，填写在`config.json`的`license_id`字段。
 * 注意检查不要复制到多余的空格等不可见字符。
 * 如果`config.json`中没有填写`license_id`字段，启动会报错`License ID is required`。
 * **没有固定IP的情况**，IP变动后会自动尝试重新拉取。
-* 如果你要同时启动`web`和`proxy`模式，则必须共同一份`license.jwt`，此时建议手动拉取！
+* 更换`License Id`之后，通常需要手动删除`license.jwt`再启动。
 
 ## 其他说明
 
-* 如果你发现网页上不能复制，开启`https`或者使用`127.0.0.1`。
-* 如果你正在自定义页面元素，请保留：
-  * `Powered by PandoraNext`文字和链接。
-  * `About PandoraNext`文字和链接。
-* 如果要抹，请在**一百多个js**文件中去除若干`dom检测`代码。
-* 抹了后果如何我不说。
-* `PHP`是世界上最好的编程语言。
+> [!CAUTION]
+> * 如果你发现网页上不能复制，开启`https`或者使用`127.0.0.1`。
+> * 如果账密登录无限跳首页，请安装`ntpdate`后执行`sudo ntpdate time.windows.com`同步时间再试。
+> * 如果你正在自定义页面元素，请保留：
+>   * `Powered by PandoraNext`文字和链接。
+>   * `About PandoraNext`文字和链接。
+> * 如果要抹，请在**一百多个js**文件中去除若干`dom检测`代码。
+> * 抹了后果如何我不说。
+> * `PHP`是世界上最好的编程语言。
 
 ## 贡献者们
 

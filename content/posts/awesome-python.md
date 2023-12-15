@@ -1,9 +1,9 @@
 ---
 title: awesome-python
-date: 2023-12-14T12:18:40+08:00
+date: 2023-12-15T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220291853-99945bcc23d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701519664290-dac9ba60fce6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701519664290-dac9ba60fce6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [vinta/awesome-python](https://github.com/vinta/awesome-python)

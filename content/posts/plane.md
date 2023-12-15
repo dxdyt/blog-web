@@ -1,9 +1,9 @@
 ---
 title: plane
-date: 2023-12-03T12:18:11+08:00
+date: 2023-12-15T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700399366735-b23820fb18d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700399366735-b23820fb18d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [makeplane/plane](https://github.com/makeplane/plane)
@@ -17,7 +17,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1700399366735-b23820fb18
 </p>
 
 <h3 align="center"><b>Plane</b></h3>
-<p align="center"><b>Open-source, self-hosted project planning tool</b></p>
+<p align="center"><b>Flexible, extensible open-source project management</b></p>
 
 <p align="center">
 <a href="https://discord.com/invite/A92xrEGCge">
@@ -49,33 +49,31 @@ Meet [Plane](https://plane.so). An open-source software development tool to mana
 
 The easiest way to get started with Plane is by creating a [Plane Cloud](https://app.plane.so) account. Plane Cloud offers a hosted solution for Plane. If you prefer to self-host Plane, please refer to our [deployment documentation](https://docs.plane.so/self-hosting).
 
-## ⚡️ Quick start with Docker Compose
+## ⚡️ Contributors Quick Start
 
-### Docker Compose Setup
+### Prerequisite
 
-- Clone the repository
+Development system must have docker engine installed and running.
 
-```bash
-git clone https://github.com/makeplane/plane
-cd plane
-chmod +x setup.sh
-```
+### Steps
 
-- Run setup.sh
+Setting up local environment is extremely easy and straight forward. Follow the below step and you will be ready to contribute
 
-```bash
-./setup.sh
-```
+1. Clone the code locally using `git clone https://github.com/makeplane/plane.git`
+1. Switch to the code folder `cd plane`
+1. Create your feature or fix branch you plan to work on using `git checkout -b <feature-branch-name>`
+1. Open terminal and run `./setup.sh`
+1. Open the code on VSCode or similar equivalent IDE
+1. Review the `.env` files available in various folders. Visit [Environment Setup](./ENV_SETUP.md) to know about various environment variables used in system
+1. Run the docker command to initiate various services `docker compose -f docker-compose-local.yml up -d`
 
-> If running in a cloud env replace localhost with public facing IP address of the VM
+You are ready to make changes to the code. Do not forget to refresh the browser (in case id does not auto-reload)
 
-- Run Docker compose up
+Thats it!
 
-```bash
-docker compose up -d
-```
+## 🍙 Self Hosting
 
-<strong>You can use the default email and password for your first login `captain@plane.so` and `password123`.</strong>
+For self hosting environment setup, visit the [Self Hosting](https://docs.plane.so/self-hosting) documentation page
 
 ## 🚀 Features
 
