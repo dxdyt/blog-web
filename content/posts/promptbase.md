@@ -1,9 +1,9 @@
 ---
 title: promptbase
-date: 2023-12-15T12:16:22+08:00
+date: 2023-12-16T12:15:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/promptbase](https://github.com/microsoft/promptbase)
@@ -129,6 +129,7 @@ To run evaluations, download these datasets and add them to /src/promptbase/data
  - GSM8K: https://github.com/openai/grade-school-math
  - MATH: https://huggingface.co/datasets/hendrycks/competition_math
  - Big-Bench-Hard: https://github.com/suzgunmirac/BIG-Bench-Hard
+   The contents of this repo need to be put into a directory called `BigBench` in the `datasets` directory
 
 ## Other Resources:
 

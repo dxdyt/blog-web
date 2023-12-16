@@ -1,9 +1,9 @@
 ---
 title: threestudio
-date: 2023-07-16T12:18:54+08:00
+date: 2023-12-16T12:16:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686760143196-28a5789ae733?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686760143196-28a5789ae733?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701743804098-709611056bdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701743804098-709611056bdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [threestudio-project/threestudio](https://github.com/threestudio-project/threestudio)
@@ -23,18 +23,23 @@ threestudio is a unified framework for 3D content creation from text prompts, si
 <br/>
 <img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/01a00207-3240-4a8e-aa6f-d48436370fe7.png" width="100%">
 <br/>
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/e27cb946-ed34-4b8f-87aa-86b689337b0e.gif" width="68%">
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/22424247/0783ad8c-02ba-419b-aea1-9f5ecb16ac1b.gif" width="29%">
+<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/1dbdebab-43d5-4830-872c-66b38d9fda92" width="60%">
 <br/>
-<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/22424247/82df7872-7bfb-4508-a045-414b45f0f745.png" width="97%">
+<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/437b4044-142c-4e5d-a406-4d9bad0205e1" width="60%">
+<br/>
+<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/4f4d62c5-2304-4e20-b632-afe6d144a203" width="68%">
+<br/>
+<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/19284678/2f36ddbd-e3cf-4431-b269-47a9cb3d6e6e" width="68%">
 </p>
 
 <p align="center"><b>
 👆 Results obtained from methods implemented by threestudio 👆 <br/>
 | <a href="https://ml.cs.tsinghua.edu.cn/prolificdreamer/">ProlificDreamer</a> | <a href="https://dreamfusion3d.github.io/">DreamFusion</a> | <a href="https://research.nvidia.com/labs/dir/magic3d/">Magic3D</a> | <a href="https://pals.ttic.edu/p/score-jacobian-chaining">SJC</a> | <a href="https://github.com/eladrich/latent-nerf">Latent-NeRF</a> | <a href="https://fantasia3d.github.io/">Fantasia3D</a> | <a href="https://fabi92.github.io/textmesh/">TextMesh</a> |
 <br/>
-| <a href="https://instruct-nerf2nerf.github.io/">InstructNeRF2NeRF</a> | <a href="https://control4darxiv.github.io/">Control4D</a> | <a href="https://zero123.cs.columbia.edu/">Zero-1-to-3</a> |
-</b></p>
+| <a href="https://zero123.cs.columbia.edu/">Zero-1-to-3</a> | <a href="https://guochengqian.github.io/project/magic123/">Magic123</a> |
+<br />
+| <a href="https://instruct-nerf2nerf.github.io/">InstructNeRF2NeRF</a> | <a href="https://control4darxiv.github.io/">Control4D</a> |
+</b>
 
 <p align="center">
   <a href="https://colab.research.google.com/github/threestudio-project/threestudio/blob/main/threestudio.ipynb">
@@ -46,11 +51,20 @@ threestudio is a unified framework for 3D content creation from text prompts, si
 </p>
 
 <p align="center">
-    Did not find what you want? Submit a feature request or upvote others' requests <a href="https://github.com/threestudio-project/threestudio/discussions/46">here</a>!
+    Did not find what you want? Checkout <a href="https://threestudio-project.github.io/threestudio-extensions/"><b>threestudio-extension</b></a> or submit a feature request <a href="https://github.com/threestudio-project/threestudio/discussions/46">here</a>!
+</p>
+
+<p align="center">
+<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/ac6089a7-d88f-414c-96d6-a5e75616115a" width="68%">
+</p>
+<p align="center">
+<img alt="threestudio" src="https://github.com/threestudio-project/threestudio/assets/24589363/8892898f-8bd8-43dc-a4ec-dd8d078af860" width="50%">
 </p>
 
 ## News
-
+- 11/30/2023 Implementation of [MVDream](https://github.com/DSaurus/threestudio-mvdream), [Gaussian Splatting](https://github.com/DSaurus/threestudio-3dgs) as the custom extensions. You can also use neural representation to fit a mesh by [Mesh-Fitting](https://github.com/DSaurus/threestudio-meshfitting).
+- 11/30/2023: Implementation of [custom extension system](https://threestudio-project.github.io/threestudio-extensions/) and you can add your extensions in [this project](https://github.com/threestudio-project/threestudio-extensions).
+- 08/25/2023: Implementation of [Magic123](https://guochengqian.github.io/project/magic123/)! Follow the instructions [here](https://github.com/threestudio-project/threestudio#magic123-) to give it a try.
 - 07/06/2023: Join our [Discord server](https://discord.gg/ejer2MAB8N) for lively discussions!
 - 07/03/2023: Try text-to-3D online in [HuggingFace Spaces](https://huggingface.co/spaces/bennyguo/threestudio) or using our [self-hosted service](http://t23-g-01.threestudio.ai) (GPU support from Tencent). To host the web interface locally, see [here](https://github.com/threestudio-project/threestudio#gradio-web-interface).
 - 06/20/2023: Implementations of Instruct-NeRF2NeRF and Control4D for high-fidelity 3D editing! Follow the instructions for [Control4D](https://github.com/threestudio-project/threestudio#control4d-) and [Instruct-NeRF2NeRF](https://github.com/threestudio-project/threestudio#instructnerf2nerf-) to give it a try.
@@ -103,6 +117,8 @@ pip install ninja
 ```sh
 pip install -r requirements.txt
 ```
+
+- (Optional) `tiny-cuda-nn` installation might require downgrading pip to 23.0.1
 
 - (Optional, Recommended) The best-performing models in threestudio use the newly-released T2I model [DeepFloyd IF](https://github.com/deep-floyd/IF), which currently requires signing a license agreement. If you would like to use these models, you need to [accept the license on the model card of DeepFloyd IF](https://huggingface.co/DeepFloyd/IF-I-XL-v1.0), and login into the Hugging Face hub in the terminal by `huggingface-cli login`.
 
@@ -474,6 +490,69 @@ Download the data sample of InstructNeRF2NeRF using this [link](https://mailstsi
 # 3D editing with NeRF patch-based rendering, ~20GB VRAM
 python launch.py --config configs/instructnerf2nerf.yaml --train --gpu 0 data.dataroot="YOUR_DATAROOT/face" data.camera_layout="front" data.camera_distance=1 data.eval_interpolation=[1,3,50] system.prompt_processor.prompt="Turn him into Albert Einstein"
 ```
+
+### Magic123 [![arXiv](https://img.shields.io/badge/arXiv-2306.17843-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2306.17843)
+
+**Results obtained by threestudio (Zero123 + Stable Diffusion)**
+
+https://github.com/threestudio-project/threestudio/assets/19284678/335a58a8-8fee-485b-ac27-c55a16f4a673
+
+**Notable differences from the paper**
+- This is an unofficial re-implementation which shares the same overall idea with the [official implementation](https://github.com/guochengqian/Magic123) but differs in some aspects like hyperparameters.
+- Textual Inversion is not supported, which means a text prompt is needed for training.
+
+**Example running commands**
+
+First train the coarse stage NeRF:
+
+```sh
+# Zero123 + Stable Diffusion, ~12GB VRAM
+# data.image_path must point to a 4-channel RGBA image
+# system.prompt_proessor.prompt must be specified
+python launch.py --config configs/magic123-coarse-sd.yaml --train --gpu 0 data.image_path=load/images/hamburger_rgba.png system.prompt_processor.prompt="a delicious hamburger"
+```
+
+Then convert the NeRF from the coarse stage to DMTet and train with differentiable rasterization:
+
+```sh
+# Zero123 + Stable Diffusion, ~10GB VRAM
+# data.image_path must point to a 4-channel RGBA image
+# system.prompt_proessor.prompt must be specified
+python launch.py --config configs/magic123-refine-sd.yaml --train --gpu 0 data.image_path=load/images/hamburger_rgba.png system.prompt_processor.prompt="a delicious hamburger" system.geometry_convert_from=path/to/coarse/stage/trial/dir/ckpts/last.ckpt
+# if you're unsatisfied with the surface extracted using the default threshold (25)
+# you can specify a threshold value using `system.geometry_convert_override`
+# decrease the value if the extracted surface is incomplete, increase if it is extruded
+python launch.py --config configs/magic123-refine-sd.yaml --train --gpu 0 data.image_path=load/images/hamburger_rgba.png system.prompt_processor.prompt="a delicious hamburger" system.geometry_convert_from=path/to/coarse/stage/trial/dir/ckpts/last.ckpt system.geometry_convert_override.isosurface_threshold=10.
+```
+
+**Tips**
+
+- If the image contains non-front-facing objects, specifying the approximate elevation and azimuth angle by setting `data.default_elevation_deg` and `data.default_azimuth_deg` can be helpful. In threestudio, top is elevation +90 and bottom is elevation -90; left is azimuth -90 and right is azimuth +90.
+
+
+### Stable Zero123
+
+**Installation**
+
+Download pretrained Stable Zero123 checkpoint `stable-zero123.ckpt` into `load/zero123` from https://huggingface.co/stabilityai/stable-zero123
+
+**Results obtained by threestudio (Stable Zero123 vs Zero123-XL)**
+![Final_video_v01](https://github.com/threestudio-project/threestudio/assets/22424247/bf2d2213-5027-489c-a6ba-1c56c14ee8b7)
+
+**Example running commands**
+
+1. Take an image of your choice, or generate it from text using your favourite AI image generator such as SDXL Turbo (https://clipdrop.co/stable-diffusion-turbo) E.g. "A simple 3D render of a friendly dog"
+2. Remove its background using Clipdrop (https://clipdrop.co/remove-background)
+3. Save to `load/images/`, preferably with `_rgba.png` as the suffix
+4. Run Zero-1-to-3 with the Stable Zero123 ckpt:
+```sh
+python launch.py --config configs/stable-zero123.yaml --train --gpu 0 data.image_path=./load/images/hamburger_rgba.png
+```
+
+**IMPORTANT NOTE: This is an experimental implementation and we're constantly improving the quality.**
+
+**IMPORTANT NOTE: This implementation extends the Zero-1-to-3 implementation below, and is heavily inspired from the Zero-1-to-3 implementation in [https://github.com/ashawkey/stable-dreamfusion](stable-dreamfusion)! `extern/ldm_zero123` is borrowed from `stable-dreamfusion/ldm`.**
+
 
 ### Zero-1-to-3 [![arXiv](https://img.shields.io/badge/arXiv-2303.11328-b31b1b.svg?style=flat-square)](https://arxiv.org/abs/2303.11328)
 

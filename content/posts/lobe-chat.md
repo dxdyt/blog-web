@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2023-12-15T12:16:07+08:00
+date: 2023-12-16T12:15:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700581429504-7e14e219014a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700581429504-7e14e219014a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700235120867-3517dbe5dd52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700235120867-3517dbe5dd52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -216,12 +216,12 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 | Recent Submits                                                                                                                                                                       | Description                                                                                                                                                                                                                                                                                                                                                                                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Community Manager](https://chat-preview.lobehub.com/market?agent=community-manager)<br/><sup>By **[MakeTooRRSS](https://github.com/MakeTooRRSS)** on **2023-12-14**</sup>           | Social Media Community Manager who will help you create authentic, persuasive posts that call for action. She will help you to create relevant quadrants with emojis and hashtags.<br/>`community-manager` `social-media` `publications`                                                                                                                                                                    |
 | [Stable Diffusion Prompts Crafter](https://chat-preview.lobehub.com/market?agent=stable-diffusion)<br/><sup>By **[ShinChven](https://github.com/ShinChven)** on **2023-12-14**</sup> | This GPT helps create precise prompts for Stable Diffusion. You will get descriptions, prompts, and negative prompts. prompts and negative prompts are in plain text code blocks for easy copy.<br/>`stable-diffusion`                                                                                                                                                                                      |
 | [Dream Analyst](https://chat-preview.lobehub.com/market?agent=dream-psychoanalyst)<br/><sup>By **[ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>                   | Input a dream and I will help you analyze it.<br/>`dream` `master` `think`                                                                                                                                                                                                                                                                                                                                  |
 | [Payroll Game](https://chat-preview.lobehub.com/market?agent=payroll-game)<br/><sup>By **[ghyghoo8](https://github.com/ghyghoo8)** on **2023-12-13**</sup>                           | In this salary negotiation game, you'll be facing the notorious 'Iron Rooster,' a boss known for being tight-fisted. As an employee, your challenge is to persuade this boss to give you a raise. However, no matter how reasonable your arguments are, the 'Iron Rooster' always finds a way to reject them. Get ready with your arguments for a clever and humorous showdown!<br/>`game` `boss` `payroll` |
-| [Python Coder Gradio](https://chat-preview.lobehub.com/market?agent=gradio-coding)<br/><sup>By **[Igroshka](https://github.com/Igroshka)** on **2023-12-12**</sup>                   | Python programmer experienced with Gradio for Hugging Face.<br/>`programming` `assistant` `python`                                                                                                                                                                                                                                                                                                          |
 
-> 📊 Total agents: [<kbd>**64**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**65**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

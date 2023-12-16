@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-11-23T12:17:58+08:00
+date: 2023-12-16T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698342173518-480ff44fe486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698342173518-480ff44fe486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701309209453-7b69cd3b0cae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701309209453-7b69cd3b0cae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -57,6 +57,8 @@ Here are some example open-source models that can be downloaded:
 
 | Model              | Parameters | Size  | Download                       |
 | ------------------ | ---------- | ----- | ------------------------------ |
+| Neural Chat        | 7B         | 4.1GB | `ollama run neural-chat`       |
+| Starling           | 7B         | 4.1GB | `ollama run starling-lm`       |
 | Mistral            | 7B         | 4.1GB | `ollama run mistral`           |
 | Llama 2            | 7B         | 3.8GB | `ollama run llama2`            |
 | Code Llama         | 7B         | 3.8GB | `ollama run codellama`         |
@@ -65,6 +67,7 @@ Here are some example open-source models that can be downloaded:
 | Llama 2 70B        | 70B        | 39GB  | `ollama run llama2:70b`        |
 | Orca Mini          | 3B         | 1.9GB | `ollama run orca-mini`         |
 | Vicuna             | 7B         | 3.8GB | `ollama run vicuna`            |
+| LLaVA              | 7B         | 4.5GB | `ollama run llava`             |
 
 > Note: You should have at least 8 GB of RAM to run the 3B models, 16 GB to run the 7B models, and 32 GB to run the 13B models.
 
@@ -112,7 +115,7 @@ FROM llama2
 # set the temperature to 1 [higher is more creative, lower is more coherent]
 PARAMETER temperature 1
 
-# set the system prompt
+# set the system message
 SYSTEM """
 You are Mario from Super Mario Bros. Answer as Mario, the assistant, only.
 """
@@ -166,6 +169,13 @@ For multiline input, you can wrap text with `"""`:
 I'm a basic program that prints the famous "Hello, world!" message to the console.
 ```
 
+### Multimodal models
+
+```
+>>> What's in this image? /Users/jmorgan/Desktop/smile.png
+The image features a yellow smiley face, which is likely the central focus of the picture.
+```
+
 ### Pass in prompt as arguments
 
 ```
@@ -213,7 +223,8 @@ Finally, in a separate shell, run a model:
 ## REST API
 
 Ollama has a REST API for running and managing models.
-For example, to generate text from a model:
+
+### Generate a response
 
 ```
 curl http://localhost:11434/api/generate -d '{
@@ -222,16 +233,23 @@ curl http://localhost:11434/api/generate -d '{
 }'
 ```
 
+### Chat with a model
+
+```
+curl http://localhost:11434/api/chat -d '{
+  "model": "mistral",
+  "messages": [
+    { "role": "user", "content": "why is the sky blue?" }
+  ]
+}'
+```
+
 See the [API documentation](./docs/api.md) for all endpoints.
 
 ## Community Integrations
 
-### Mobile
-
-- [Mobile Artificial Intelligence Distribution](https://github.com/MaidFoundation/Maid) (Maid)
-
 ### Web & Desktop
-
+- [Bionic GPT](https://github.com/bionic-gpt/bionic-gpt)
 - [HTML UI](https://github.com/rtcfirefly/ollama-ui)
 - [Chatbot UI](https://github.com/ivanfioravanti/chatbot-ollama)
 - [Typescript UI](https://github.com/ollama-interface/Ollama-Gui?tab=readme-ov-file)
@@ -240,6 +258,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Ollamac](https://github.com/kevinhermawan/Ollamac)
 - [big-AGI](https://github.com/enricoros/big-agi/blob/main/docs/config-ollama.md)
 - [Cheshire Cat assistant framework](https://github.com/cheshire-cat-ai/core)
+- [Amica](https://github.com/semperai/amica)
+- [chatd](https://github.com/BruceMacD/chatd)
 
 ### Terminal
 
@@ -251,6 +271,10 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [ogpt.nvim](https://github.com/huynle/ogpt.nvim)
 - [gptel Emacs client](https://github.com/karthink/gptel)
 - [Oatmeal](https://github.com/dustinblackman/oatmeal)
+
+### Database
+
+- [MindsDB](https://github.com/mindsdb/mindsdb/blob/staging/mindsdb/integrations/handlers/ollama_handler/README.md)
 
 ### Package managers
 
@@ -272,7 +296,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 
 ### Mobile
 
-- [Maid](https://github.com/danemadsen/Maid) (Mobile Artificial Intelligence Distribution)
+- [Enchanted](https://github.com/AugustDev/enchanted)
+- [Maid](https://github.com/danemadsen/Maid)
 
 ### Extensions & Plugins
 
@@ -283,6 +308,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Logseq Ollama plugin](https://github.com/omagdy7/ollama-logseq)
 - [Dagger Chatbot](https://github.com/samalba/dagger-chatbot)
 - [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot)
+- [Ollama Telegram Bot](https://github.com/ruecat/ollama-telegram)
 - [Hass Ollama Conversation](https://github.com/ej52/hass-ollama-conversation)
 - [Rivet plugin](https://github.com/abrenneke/rivet-plugin-ollama)
 - [Llama Coder](https://github.com/ex3ndr/llama-coder) (Copilot alternative using Ollama)

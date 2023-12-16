@@ -1,9 +1,9 @@
 ---
 title: Best-websites-a-programmer-should-visit
-date: 2023-12-14T12:17:06+08:00
+date: 2023-12-16T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700317440744-a126fc87b900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700317440744-a126fc87b900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
@@ -134,7 +134,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [Lod - Cloud](http://lod-cloud.net) : The Linking Open Data cloud diagram
 - [Cave of programming](https://caveofprogramming.com) : Learn to program, Upgrade your skills.
 - [Vim adventures](https://vim-adventures.com/) : Learn VIM by playing
-- [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com) : Learn Vim Script from begining to expert.
+- [Learn Vimscript the Hard Way](http://learnvimscriptthehardway.stevelosh.com) : Learn Vim Script from beginning to expert.
 - [Programming Tasks](http://rosettacode.org/wiki/Category:Programming_Tasks) : large collection of small programs
 - [Pramp](https://www.pramp.com) : It's your turn to be the interviewer. when done, click on the swap roles button on the left
 - [Paqmind](http://paqmind.com) : Guides and challenges to learn programming
@@ -233,6 +233,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html): Google Java Style Guide
 - [Rust Coding style](https://github.com/rust-dev-tools/fmt-rfcs): Rust code formatting RFCs and coding style guides
 - [Google C# Style Guide](https://google.github.io/styleguide/csharp-style.html): Google C# Style Guide
+- [Uber Go Style Guide](https://github.com/uber-go/guide): Uber Go Style Guide
 
 <div align="right">
   <b><a href="#index">↥ Back To Top</a></b>

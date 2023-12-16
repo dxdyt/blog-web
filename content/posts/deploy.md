@@ -1,9 +1,9 @@
 ---
 title: deploy
-date: 2023-12-15T12:17:11+08:00
+date: 2023-12-16T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700818999650-c8bd381afa93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700818999650-c8bd381afa93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [pandora-next/deploy](https://github.com/pandora-next/deploy)
@@ -41,7 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1699479427055-9b5d23d1d5
 
 * 仓库内已包含相关文件和目录，拉到本地，[获取license_id](#%E5%85%B3%E4%BA%8E-license_id)填写在`data/config.json`中。
 * `data`目录中包含`config.json`、`tokens.json`示例文件可自行修改。
-* `docker-compose up -d` **原神启动！**
+* `docker compose up -d` **原神启动！**
 
 ## Docker 部署
 
@@ -122,6 +122,7 @@ server {
   "disable_signup": false,
   "auto_conv_arkose": false,
   "proxy_file_service": false,
+  "custom_doh_host": "",
   "captcha": {
     "provider": "",
     "site_key": "",
@@ -160,6 +161,7 @@ server {
 * `disable_signup` 禁用注册账号功能，`true`或`false`。
 * `auto_conv_arkose` 在`proxy`模式使用`gpt-4`模型调用`/backend-api/conversation`接口是否自动打码，使用消耗为`4+10`。
 * `proxy_file_service` 在`proxy`模式是否使用PandoraNext的文件代理服务，避免官方文件服务的墙。
+* `custom_doh_host` 配置自定义的`DoH`主机名，建议使用IP形式。默认在`+8`区使用`223.6.6.6`，其余地区使用`1.1.1.1`。
 * `captcha`配置一些关键页面的验证码。
     * `provider`验证码提供商，支持：`recaptcha_v2`、`recaptcha_enterprise`、`hcaptcha`、`turnstile`、`friendly_captcha`。
     * `site_key`验证码供应商后台获取的网站参数，是可以公布的信息。
@@ -234,11 +236,6 @@ server {
 
 ## 关于 license_id
 
-> [!WARNING]
-> 出现`Ping remote server failed`，通常是人在**湖北**或者Docker启动时遇到，请尝试设置`DNS`后启动。
-> 
-> 如果你遇到`Ping remote server failed`后面有ip、reason的，则非上述原因，请参考reason。
-
 * 在这里获取：[https://dash.pandoranext.com](https://dash.pandoranext.com)
 * 复制`License Id:`后的内容，填写在`config.json`的`license_id`字段。
 * 注意检查不要复制到多余的空格等不可见字符。
@@ -250,7 +247,6 @@ server {
 
 > [!CAUTION]
 > * 如果你发现网页上不能复制，开启`https`或者使用`127.0.0.1`。
-> * 如果账密登录无限跳首页，请安装`ntpdate`后执行`sudo ntpdate time.windows.com`同步时间再试。
 > * 如果你正在自定义页面元素，请保留：
 >   * `Powered by PandoraNext`文字和链接。
 >   * `About PandoraNext`文字和链接。

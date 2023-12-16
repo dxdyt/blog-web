@@ -1,9 +1,9 @@
 ---
 title: page-spy-web
-date: 2023-12-15T12:17:59+08:00
+date: 2023-12-16T12:17:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700581429504-7e14e219014a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700581429504-7e14e219014a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
 ---
 
 # [HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
