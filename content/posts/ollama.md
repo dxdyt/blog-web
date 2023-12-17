@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-12-16T12:16:58+08:00
+date: 2023-12-17T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701309209453-7b69cd3b0cae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701309209453-7b69cd3b0cae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701693989010-25b230d25ac3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701693989010-25b230d25ac3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)

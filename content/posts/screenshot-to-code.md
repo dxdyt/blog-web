@@ -1,33 +1,38 @@
 ---
 title: screenshot-to-code
-date: 2023-11-23T12:16:27+08:00
+date: 2023-12-17T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696814292947-8b6f06af3df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696814292947-8b6f06af3df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702140944216-e09d1284067e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702140944216-e09d1284067e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 
 # screenshot-to-code
 
-This simple app converts a screenshot to HTML/Tailwind CSS. It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
+This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Vue or Bootstrap). It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 
-See the [Examples](#examples) section below for more demos.
+See the [Examples](#-examples) section below for more demos.
 
 ## 🚀 Try It Out!
 
-🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section below for details**). Or see [Getting Started](#-getting-started) below for local install instructions.
+🆕 [Try it here](https://screenshottocode.com) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section below for details**). Or see [Getting Started](#-getting-started) below for local install instructions.
 
 ## 🌟 Recent Updates
 
-- Nov 21 - You can now edit code in the code editor and preview changes live thanks to [@clean99](https://github.com/clean99)
+- Dec 11 - Start a new project from existing code (allows you to come back to an older project)
+- Dec 7 - 🔥 🔥 🔥 View a history of your edits, and branch off them
+- Nov 30 - Dark mode, output code in Ionic (thanks [@dialmedu](https://github.com/dialmedu)), set OpenAI base URL
+- Nov 28 - 🔥 🔥 🔥 Customize your stack: React or Bootstrap or TailwindCSS
+- Nov 23 - Send in a screenshot of the current replicated version (sometimes improves quality of subsequent generations)
+- Nov 21 - Edit code in the code editor and preview changes live thanks to [@clean99](https://github.com/clean99)
 - Nov 20 - Paste in a URL to screenshot and clone (requires [ScreenshotOne free API key](https://screenshotone.com?via=screenshot-to-code))
 - Nov 19 - Support for dark/light code editor theme - thanks [@kachbit](https://github.com/kachbit)
 - Nov 16 - Added a setting to disable DALL-E image generation if you don't need that
 - Nov 16 - View code directly within the app
-- Nov 15 - 🔥 You can now instruct the AI to update the code as you wish. It is helpful if the AI messed up some styles or missed a section.
+- Nov 15 - You can now instruct the AI to update the code as you wish. It is helpful if the AI messed up some styles or missed a section.
 
 ## 🛠 Getting Started
 
@@ -55,6 +60,16 @@ Open http://localhost:5173 to use the app.
 
 If you prefer to run the backend on a different port, update VITE_WS_BACKEND_URL in `frontend/.env.local`
 
+For debugging purposes, if you don't want to waste GPT4-Vision credits, you can run the backend in mock mode (which streams a pre-recorded response):
+
+```bash
+MOCK=true poetry run uvicorn main:app --reload --port 7001
+```
+
+## Configuration
+
+* You can configure the OpenAI base URL if you need to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog
+
 ## Docker
 
 If you have Docker installed on your system, in the root directory, run:
@@ -69,18 +84,16 @@ The app will be up and running at http://localhost:5173. Note that you can't dev
 ## 🙋‍♂️ FAQs
 
 - **I'm running into an error when setting up the backend. How can I fix it?** [Try this](https://github.com/abi/screenshot-to-code/issues/3#issuecomment-1814777959). If that still doesn't work, open an issue.
-- **How do I get an OpenAI API key that has the GPT4 Vision model available?** Create an OpenAI account. And then, you need to buy at least $1 worth of credit on the [Billing dashboard](https://platform.openai.com/account/billing/overview). Also, see [OpenAI docs](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4).
+- **How do I get an OpenAI API key?** See https://github.com/abi/screenshot-to-code/blob/main/Troubleshooting.md
 - **How can I provide feedback?** For feedback, feature requests and bug reports, open an issue or ping me on [Twitter](https://twitter.com/_abi_).
 
 ## 📚 Examples
 
 **NYTimes**
 
-| Original                                                                                                 | Replica                                                                                                 |
-| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | 
+| Original                                                                                                                                                        | Replica                                                                                                                                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <img width="1238" alt="Screenshot 2023-11-20 at 12 54 03 PM" src="https://github.com/abi/screenshot-to-code/assets/23818/3b644dfa-9ca6-4148-84a7-3405b6671922"> | <img width="1414" alt="Screenshot 2023-11-20 at 12 59 56 PM" src="https://github.com/abi/screenshot-to-code/assets/23818/26201c9f-1a28-4f35-a3b1-1f04e2b8ce2a"> |
-
-
 
 **Instagram page (with not Taylor Swift pics)**
 
@@ -92,4 +105,6 @@ https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-a
 
 ## 🌍 Hosted Version
 
-🆕 [Try it here](https://picoapps.xyz/free-tools/screenshot-to-code) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section for details**). Or see [Getting Started](#-getting-started) for local install instructions.
+🆕 [Try it here](https://screenshottocode.com) (bring your own OpenAI key - **your key must have access to GPT-4 Vision. See [FAQ](#%EF%B8%8F-faqs) section for details**). Or see [Getting Started](#-getting-started) for local install instructions.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/abiraja)

@@ -1,9 +1,9 @@
 ---
 title: gutenberg
-date: 2023-12-16T12:16:30+08:00
+date: 2023-12-17T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701979396507-4f4f8db40269?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701979396507-4f4f8db40269?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702182910051-2481e0a486fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702182910051-2481e0a486fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [WordPress/gutenberg](https://github.com/WordPress/gutenberg)

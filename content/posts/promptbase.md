@@ -1,9 +1,9 @@
 ---
 title: promptbase
-date: 2023-12-16T12:15:43+08:00
+date: 2023-12-17T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701207859644-59994f41c62e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701207859644-59994f41c62e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/promptbase](https://github.com/microsoft/promptbase)

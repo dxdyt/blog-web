@@ -1,9 +1,9 @@
 ---
 title: OutfitAnyone
-date: 2023-12-16T12:15:51+08:00
+date: 2023-12-17T12:16:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702429509096-deae835cd84c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702429509096-deae835cd84c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [HumanAIGC/OutfitAnyone](https://github.com/HumanAIGC/OutfitAnyone)

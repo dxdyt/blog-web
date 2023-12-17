@@ -1,9 +1,9 @@
 ---
 title: Alamofire
-date: 2023-12-16T12:18:14+08:00
+date: 2023-12-17T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700475477254-5986ff2f1dc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701589623520-4fb55453094c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701589623520-4fb55453094c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire)

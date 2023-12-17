@@ -1,9 +1,9 @@
 ---
 title: deploy
-date: 2023-12-16T12:16:22+08:00
+date: 2023-12-17T12:18:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700818999650-c8bd381afa93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700818999650-c8bd381afa93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [pandora-next/deploy](https://github.com/pandora-next/deploy)

@@ -1,9 +1,9 @@
 ---
 title: threestudio
-date: 2023-12-16T12:16:50+08:00
+date: 2023-12-17T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743804098-709611056bdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743804098-709611056bdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
 ---
 
 # [threestudio-project/threestudio](https://github.com/threestudio-project/threestudio)
@@ -441,7 +441,7 @@ https://github.com/threestudio-project/threestudio/assets/19284678/72217cdd-765a
 
 - Most of the settings are the same as the DreamFusion model. Please refer to the notable differences of the DreamFusion model.
 - We use NeuS as the geometry representation while the original paper uses VolSDF.
-- We adopt techniques from [Neuralangelo](https://arxiv.org/abs/2306.03092) to stablize normal computation when using hash grids.
+- We adopt techniques from [Neuralangelo](https://arxiv.org/abs/2306.03092) to stabilize normal computation when using hash grids.
 - We currently only implemented the coarse stage of TextMesh.
 
 **Example running commands**
