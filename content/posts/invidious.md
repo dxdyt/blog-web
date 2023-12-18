@@ -1,9 +1,9 @@
 ---
 title: invidious
-date: 2023-06-13T12:18:29+08:00
+date: 2023-12-18T12:19:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683966116284-a8a80a17a420?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683966116284-a8a80a17a420?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY2Mjk3Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700730025710-58ff304c1c8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700730025710-58ff304c1c8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
 ---
 
 # [iv-org/invidious](https://github.com/iv-org/invidious)
@@ -92,7 +92,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1683966116284-a8a80a17a4
 
 **Data import/export**
 - Import subscriptions from YouTube, NewPipe and Freetube
-- Import watch history from NewPipe
+- Import watch history from YouTube and NewPipe
 - Export subscriptions to NewPipe and Freetube
 - Import/Export Invidious user data
 
@@ -155,18 +155,7 @@ Weblate also allows you to log-in with major SSO providers like Github, Gitlab, 
 
 ## Projects using Invidious
 
-- [FreeTube](https://github.com/FreeTubeApp/FreeTube): A libre software YouTube app for privacy.
-- [CloudTube](https://sr.ht/~cadence/tube/): A JavaScript-rich alternate YouTube player.
-- [PeerTubeify](https://gitlab.com/Cha_de_L/peertubeify): On YouTube, displays a link to the same video on PeerTube, if it exists.
-- [MusicPiped](https://github.com/deep-gaurav/MusicPiped): A material design music player that streams music from YouTube.
-- [HoloPlay](https://github.com/stephane-r/holoplay-wa): Progressive Web App connecting on Invidious API's with search, playlists and favorites.
-- [WatchTube](https://github.com/WatchTubeTeam/WatchTube): Powerful YouTube client for Apple Watch.
-- [Yattee](https://github.com/yattee/yattee): Alternative YouTube frontend for iPhone, iPad, Mac and Apple TV.
-- [TubiTui](https://codeberg.org/777/TubiTui): A lightweight, libre, TUI-based YouTube client.
-- [Ytfzf](https://github.com/pystardust/ytfzf): A posix script to find and watch youtube videos from the terminal. (Without API).
-- [Playlet](https://github.com/iBicha/playlet): Unofficial Youtube client for Roku TV.
-- [Clipious](https://github.com/lamarios/clipious): Unofficial Invidious client for Android.
-
+A list of projects and extensions for or utilizing Invidious can be found in the documentation: https://docs.invidious.io/applications/
 
 ## Liability
 

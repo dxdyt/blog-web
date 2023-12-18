@@ -1,9 +1,9 @@
 ---
 title: aimoneyhunter
-date: 2023-12-17T12:16:19+08:00
+date: 2023-12-18T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701693989010-25b230d25ac3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701693989010-25b230d25ac3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701932521067-ab10be5e9e2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701932521067-ab10be5e9e2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
 ---
 
 # [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
@@ -66,6 +66,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1701693989010-25b230d25a
 一起用AI
 ```
 
+# 一起用AI
+AI副业相关信息或合作，可关注Twitter:
+[![Twitter Follow](https://img.shields.io/twitter/follow/heroooooh?style=social)](https://twitter.com/heroooooh)
+
+目前正在将网络上各类博主介绍的AI副业技巧逐一尝试&探索，期望能为大家做更有价值的筛选。
+内容也会同步更新至网站(https://17yongai.com) 中，敬请关注。
 
 # 如何开始副业最稳妥
 
@@ -249,3 +255,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1701693989010-25b230d25a
 - 【AI直播】数字人生成项目！直播必备技能！ https://17yongai.com/11785.html
 - 一张图片就能虚拟直播！这个门槛确定不来看看吗？ https://17yongai.com/11790.html
 - 【虚拟人项目】开源聊天虚拟人项目！最有搞头的项目！ https://17yongai.com/11781.html
+
+# 项目历史
+
+该项目于2023/12/17日登陆Github Trending （1.2k stars），承蒙大家喜爱。
+和其他开源项目相比，信息聚合不值一提，也是诚惶诚恐，只期望能对一些人有所帮助。
+
+[![Star History Chart](https://api.star-history.com/svg?repos=bleedline/aimoneyhunter&type=Date)](https://star-history.com/#bleedline/aimoneyhunter&Date)
