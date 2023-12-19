@@ -1,9 +1,9 @@
 ---
 title: event_platform
-date: 2023-12-18T12:18:04+08:00
+date: 2023-12-19T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1648554130751-d71d42967691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1648554130751-d71d42967691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
 ---
 
 # [adrianhajdin/event_platform](https://github.com/adrianhajdin/event_platform)

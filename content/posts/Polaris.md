@@ -1,9 +1,9 @@
 ---
 title: Polaris
-date: 2023-12-18T12:17:17+08:00
+date: 2023-12-19T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701206886289-05bc76ff6071?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701206886289-05bc76ff6071?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
 ---
 
 # [vectorisvector/Polaris](https://github.com/vectorisvector/Polaris)

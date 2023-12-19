@@ -1,9 +1,9 @@
 ---
 title: generative-ai-docs
-date: 2023-12-17T12:17:47+08:00
+date: 2023-12-19T12:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701495943924-21a45d77ddf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701495943924-21a45d77ddf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
 ---
 
 # [google/generative-ai-docs](https://github.com/google/generative-ai-docs)

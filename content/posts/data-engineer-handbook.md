@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2023-11-23T12:18:15+08:00
+date: 2023-12-19T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699565979651-7fd87e4d38d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699565979651-7fd87e4d38d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701893850250-13d3ee3709e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701893850250-13d3ee3709e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
 ---
 
 # [DataEngineer-io/data-engineer-handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
@@ -35,6 +35,9 @@ Great books:
 - [Data Governance: The Definitive Guide](https://www.oreilly.com/library/view/data-governance-the/9781492063483/)
 - [Delta Lake: The Definitive Guide](https://www.oreilly.com/library/view/delta-lake-the/9781098151935/)
 - [Hadoop: The Definitive Guide](https://www.oreilly.com/library/view/hadoop-the-definitive/9781491901687/)
+- [Modern Data Engineering with Apache Spark: A Hands-On Guide for Building Mission-Critical Streaming Applications](https://www.amazon.com/Modern-Engineering-Apache-Spark-Hands/dp/1484274512)
+- [Data Engineering with dbt: A practical guide to building a dependable data platform with SQL](https://www.amazon.com/Data-Engineering-dbt-cloud-based-dependable-ebook/dp/B0C4LL19G7)
+  
 
 Communities:
 
@@ -107,6 +110,7 @@ Great YouTube Channels:
 - [nullQueries](https://www.youtube.com/@nullQueries)
 - [Kahan Data Solutions](https://www.youtube.com/@KahanDataSolutions)
 - [Ankit Bansal](https://youtube.com/@ankitbansal6)
+- [TECHTFQ by Thoufiq](https://www.youtube.com/@techTFQ)
 
 Great Podcasts
 
@@ -129,6 +133,8 @@ Great Podcasts
 - [Streaming Audio by confluent](https://developer.confluent.io/podcast/)
 - [The Data Scientist Show](https://podcasts.apple.com/us/podcast/the-data-scientist-show/id1584430381)
 - [MLOps.community](https://podcast.mlops.community/)
+- [Monday Morning Data Chat](https://open.spotify.com/show/3Km3lBNzJpc1nOTJUtbtMh)
+- [The Data Chief](https://www.thoughtspot.com/data-chief/podcast)
 
 
 Newsletters:
@@ -151,6 +157,7 @@ Newsletters:
 - [Technically](https://technically.substack.com/)
 - [Blef.fr Data News](https://www.blef.fr/blog/)
 - [All Hands on Data](https://allhandsondata.substack.com/)
+- [Modern Data 101](https://moderndata101.substack.com/)
 
 LinkedIn
 
@@ -173,6 +180,7 @@ LinkedIn
 - [Marc Lamberti](https://www.linkedin.com/in/marclamberti)
 - [Simon Whiteley](https://www.linkedin.com/in/simon-whiteley-uk/)
 - [Dipankar Mazumdar](https://www.linkedin.com/in/dipankar-mazumdar/)
+- [Ankit Bansal](https://www.linkedin.com/in/ankitbansal6/)
 
 Twitter / X 
 
@@ -185,6 +193,8 @@ Twitter / X
 - [Andreas Kretz](https://twitter.com/andreaskayy)
 - [Marc Lamberti](https://twitter.com/marclambertiml)
 - [Dipankar Mazumdar](https://twitter.com/Dipankartnt)
+- [Start Data Engineering](https://twitter.com/startdataeng)
+- [Data Cyborg](https://twitter.com/data_cyborg)
   
 Instagram
 
@@ -202,6 +212,7 @@ Design Patterns
 - [Cumulative Table Design](https://www.github.com/EcZachly/cumulative-table-design)
 - [Microbatch Deduplication](https://www.github.com/EcZachly/microbatch-hourly-deduped-tutorial)
 - [The Little Book of Pipelines](https://www.github.com/EcZachly/little-book-of-pipelines)
+- [Data Developer Platform](https://datadeveloperplatform.org/architecture/)
 
 
 Courses / Academies
@@ -224,3 +235,9 @@ Certifications Courses
 - [Microsoft Fabric Analytics Engineer Associate](https://learn.microsoft.com/credentials/certifications/fabric-analytics-engineer-associate/)
 - [Exam DP-203: Data Engineering on Microsoft Azure](https://learn.microsoft.com/en-us/credentials/certifications/exams/dp-203/?tab=tab-learning-paths)
 - [AWS Certified Data Engineer - Associate](https://aws.amazon.com/certification/certified-data-engineer-associate/)
+
+Conferences
+
+- [Trino Summit - December 13-14, 2023 - Virtual](https://www.starburst.io/info/trinosummit2023/)
+- [Data Universe - April 10-11, 2024 - New York City](https://www.datauniverseevent.com/)
+- [Data Nova @ Data Universe - April 10-11, 2024 - New York City](https://www.starburst.io/datanova/)
