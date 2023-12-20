@@ -1,14 +1,26 @@
 ---
 title: aimoneyhunter
-date: 2023-12-19T12:17:15+08:00
+date: 2023-12-20T12:14:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
 
+<h1 align="center">
+AiMonneyHunter
+</h1>
+<p align="center">
+  <a href="https://github.com/bleedline/aimoneyhunter">简体中文</a> | <a href="https://github.com/bleedline/aimoneyhunter/edit/main/README_en.md">English</a>
+</p>
+
+# 贡献方式
+
+目前项目接受使用AI赚钱的案例贡献，包括但不限于，文章，网站，博客，推文，公众号，可以加入你们的链接🔗
+
 # AI副业赚钱资讯合集
+
 这是一个ai副业赚钱资讯信息的大合集，将在全网搜索并整理ai副业赚钱的相关方法、技术、工具、以及一些可以赚钱的平台和渠道。
 期望能在AI时代，打破信息茧房，让大家都能在这个时代利用AI智能化做副业，赚取工作之余的额外收益。
 

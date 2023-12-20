@@ -1,9 +1,9 @@
 ---
 title: manticoresearch
-date: 2023-08-08T12:17:53+08:00
+date: 2023-12-20T12:14:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685209342301-9d9bf0c5ba4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685209342301-9d9bf0c5ba4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE0NjgwODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [manticoresoftware/manticoresearch](https://github.com/manticoresoftware/manticoresearch)
@@ -79,6 +79,7 @@ Manticore Search was forked from [Sphinx 2.3.2](https://github.com/sphinxsearch/
   - [Rich filtering functionality](https://manual.manticoresearch.com/Searching/Full_text_matching/Operators)
   - [Faceted search](https://play.manticoresearch.com/faceting/)
   - [Geo-spatial search](https://play.manticoresearch.com/geosearch/)
+  - [Vector search](https://manual.manticoresearch.com/Searching/dev/KNN)
   - [Spelling correction](https://play.manticoresearch.com/didyoumean/)
   - [Autocomplete](https://play.manticoresearch.com/simpleautocomplete/)
   - A wide range of functions for filtering and data manipulation
@@ -121,6 +122,12 @@ Manticore Search was forked from [Sphinx 2.3.2](https://github.com/sphinxsearch/
   - [With MySQL as a storage engine](https://manual.manticoresearch.com/Extensions/SphinxSE#Using-SphinxSE)
   - [With MySQL via FEDERATED engine](https://manual.manticoresearch.com/Extensions/FEDERATED)
   - [ProxySQL](https://manticoresearch.com/2018/06/18/using-proxysql-to-route-inserts-in-a-distributed-realtime-index/)
+  - [Apache Superset](https://manticoresearch.com/blog/manticoresearch-apache-superset-integration/)
+  - [Grafana](https://manticoresearch.com/blog/manticoresearch-grafana-integration/)
+  - [Fluentbit](https://manticoresearch.com/blog/integration-of-manticore-with-fluentbit/)
+  - [Logstash/Filebeat](https://manticoresearch.com/blog/integration-of-manticore-with-logstash-filebeat/)
+  - [Vector.dev](https://manticoresearch.com/blog/integration-of-manticore-with-vectordev/)
+  - [Mysqldump](Securing_and_compacting_a_table/Backup_and_restore.md#Backup-and-restore-with-mysqldump)
   - [Manticore Columnar Library](https://github.com/manticoresoftware/columnar)
 
 # Installation

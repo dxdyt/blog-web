@@ -1,9 +1,9 @@
 ---
 title: gkd
-date: 2023-12-08T12:18:30+08:00
+date: 2023-12-20T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701453031915-60f4fc287f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwMDg5NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700925338124-feb7c3dae1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700925338124-feb7c3dae1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [gkd-kit/gkd](https://github.com/gkd-kit/gkd)

@@ -1,9 +1,9 @@
 ---
 title: bytebase
-date: 2023-12-18T12:18:14+08:00
+date: 2023-12-20T12:15:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1681008570032-abdfcb23f875?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1681008570032-abdfcb23f875?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [bytebase/bytebase](https://github.com/bytebase/bytebase)
@@ -169,7 +169,7 @@ Bytebase is a Database CI/CD solution for the Developers and DBAs. It's the **on
 
 Live demo at https://demo.bytebase.com
 
-You can also [book a 30min product walkthrough](https://cal.com/adela-bytebase/30min) with one of
+You can also [book a 30min product walkthrough](https://cal.com/bytebase/product-walkthrough) with one of
 our product experts.
 
 <br />
@@ -365,4 +365,4 @@ Check out our [FAQ](https://www.bytebase.com/docs/faq).
 # 🙋 Contact Us
 
 - Interested in joining us? Check out our [jobs page](https://bytebase.com/jobs?source=github) for openings.
-- Want to solve your schema change and database management headache? Book a [30min demo](https://cal.com/adela-bytebase/30min) with one of our product experts.
+- Want to solve your schema change and database management headache? Book a [30min demo](https://cal.com/bytebase/product-walkthrough) with one of our product experts.

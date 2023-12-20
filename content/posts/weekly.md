@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2023-08-09T12:16:33+08:00
+date: 2023-12-20T12:14:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690695545785-3662bd1f8096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690695545785-3662bd1f8096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1690695545785-3662bd1f80
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/3324)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/3684)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索 
 
@@ -38,8 +38,37 @@ $ grep -nri css docs | cat --number
 
 ## 2023
 
+**十二月**
+
+- 第 282 期：[电动皮卡 Cybertruck 的 48V 供电](docs/issue-282.md)
+- 第 281 期：[新基建的政策选择](docs/issue-281.md)
+- 第 280 期：[机器点餐与宅文化](docs/issue-280.md)
+
+**十一月**
+
+- 第 279 期：[网络社区的悲剧](docs/issue-279.md)
+- 第 278 期：[棘手的 AI 版权](docs/issue-278.md)
+- 第 277 期：[工作台副屏的最佳选择](docs/issue-277.md)
+- 第 276 期：[内容行业的衰落](docs/issue-276.md)
+
+**十月**
+
+- 第 275 期：[彼得·蒂尔的实验](docs/issue-275.md)
+- 第 274 期：[加密通信的最后一块拼图](docs/issue-274.md)
+- 第 273 期：[任正非的三篇最新谈话](docs/issue-273.md)
+
+**九月**
+
+- 第 272 期：[Unity 的安装费，游戏业的缩影](docs/issue-272.md)
+- 第 271 期：[非线性的世界，线性的你](docs/issue-271.md)
+- 第 270 期：[“精益开发”的精益是什么？](docs/issue-270.md)
+- 第 269 期：[为什么英雄不使用炸药](docs/issue-269.md)
+
 **八月**
 
+- 第 268 期：[生产力是形容机器，不是形容人](docs/issue-268.md)
+- 第 267 期：[5G 的春天要来了](docs/issue-267.md)
+- 第 266 期：[自己做双语 EPUB 电子书](docs/issue-266.md)
 - 第 265 期：[WiFi 的后面是 LiFi](docs/issue-265.md)
 
 **七月**

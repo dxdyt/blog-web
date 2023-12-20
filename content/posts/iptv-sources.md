@@ -1,9 +1,9 @@
 ---
 title: iptv-sources
-date: 2023-12-18T12:19:20+08:00
+date: 2023-12-20T12:14:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701014159309-4a8b84faadfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
@@ -18,6 +18,8 @@ Autoupdate iptv sources
 [![Docker Pulls](https://img.shields.io/docker/pulls/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 [![Docker Stars](https://img.shields.io/docker/stars/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 
+**ATTENTION: `iptv-sources.sh` file maybe still unstable at this moment. Please use it with caution and check the latest version of this repository.**
+
 Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)](https://discord.gg/betxHcsTqa)
 
 Sources are from:
@@ -27,6 +29,11 @@ Sources are from:
 - [YueChan/Live](https://github.com/YueChan/Live)
 - [YanG-1989/m3u](https://github.com/YanG-1989/m3u)
 - [fanmingming/live](https://github.com/fanmingming/live)
+
+EPG Sources are from:
+
+- [fanmingming/live](https://github.com/fanmingming/live)
+- [112114.xyz](https://diyp1.112114.xyz)
 
 See <https://m3u.ibert.me> to get more.
 
@@ -79,6 +86,10 @@ crontab -e
 ```bash
 service crond restart
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=HerbertHe/iptv-sources&type=Date)](https://star-history.com/#HerbertHe/iptv-sources&Date)
 
 ## LICENSE
 

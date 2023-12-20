@@ -1,14 +1,15 @@
 ---
 title: data-engineer-handbook
-date: 2023-12-19T12:17:08+08:00
+date: 2023-12-20T12:14:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701893850250-13d3ee3709e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701893850250-13d3ee3709e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [DataEngineer-io/data-engineer-handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
 
 # The Data Engineering Handbook
+
 This repo has all the resources you need to become an amazing data engineer!
 
 Make sure to check out the [projects](projects.md) section for more hands-on examples!
@@ -33,12 +34,13 @@ Great books:
 - [Deciphering Data Architectures](https://www.oreilly.com/library/view/deciphering-data-architectures/9781098150754/)
 - [97 Things Every Data Engineer Should Know: Collective Wisdom from the Experts](https://www.amazon.com/Things-Every-Data-Engineer-Should/dp/1492062413)
 - [Data Governance: The Definitive Guide](https://www.oreilly.com/library/view/data-governance-the/9781492063483/)
+- [Trino: The Definitive Guide](https://trino.io/trino-the-definitive-guide.html)
 - [Delta Lake: The Definitive Guide](https://www.oreilly.com/library/view/delta-lake-the/9781098151935/)
 - [Hadoop: The Definitive Guide](https://www.oreilly.com/library/view/hadoop-the-definitive/9781491901687/)
 - [Modern Data Engineering with Apache Spark: A Hands-On Guide for Building Mission-Critical Streaming Applications](https://www.amazon.com/Modern-Engineering-Apache-Spark-Hands/dp/1484274512)
 - [Data Engineering with dbt: A practical guide to building a dependable data platform with SQL](https://www.amazon.com/Data-Engineering-dbt-cloud-based-dependable-ebook/dp/B0C4LL19G7)
+- [Data Engineering with AWS](https://www.oreilly.com/library/view/data-engineering-with/9781804614426/)
   
-
 Communities:
 
 - [Seattle Data Guy Discord](https://discord.gg/ah95MZKkFF)
@@ -54,26 +56,36 @@ Communities:
 
 Companies:
 
-- [Tabular](https://www.tabular.io)
-- [Starburst](https://www.starburst.io)
-- [Preset](https://www.preset.io)
-- [Astronomer](https://www.astronomer.io)
-- [Mage](https://www.mage.ai)
-- [Dagster](https://www.dagster.io)
-- [Prefect](https://www.prefect.io)
-- [AlgoExpert](https://www.algoexpert.io)
-- [ByteByteGo](https://www.bytebytego.com)
-- [Databricks](https://www.databricks.com/company/about-us)
-- [Spark](https://spark.apache.org/)
-- [dbt](https://www.getdbt.com/)
-- [Cube](https://cube.dev)
-- [Airbyte](https://airbyte.com)
-- [Microsoft](https://www.microsoft.com)
-- [Snowflake](https://www.snowflake.com/en/)
-- [Onehouse](https://www.onehouse.ai)
-
+- Orchestration
+  - [Mage](https://www.mage.ai)
+  - [Astronomer](https://www.astronomer.io)
+  - [Prefect](https://www.prefect.io)
+  - [Dagster](https://www.dagster.io)
+  - [Airbyte](https://airbyte.com)
+- Data Lake / Cloud
+  - [Tabular](https://www.tabular.io)
+  - [Microsoft](https://www.microsoft.com)
+  - [Databricks](https://www.databricks.com/company/about-us)
+  - [Onehouse](https://www.onehouse.ai)
+- Data Warehouse
+  - [Snowflake](https://www.snowflake.com/en/)
+- Data Quality
+  - [dbt](https://www.getdbt.com/)
+  - [Gable](https://www.gable.ai)
+- Education Companies
+  - [DataEngineer.io](https://www.dataengineer.io)
+  - [LearnDataEngineering.com](https://www.learndataengineering.com)
+  - [AlgoExpert](https://www.algoexpert.io)
+  - [ByteByteGo](https://www.bytebytego.com)
+- Analytics / Visualization
+  - [Preset](https://www.preset.io)
+  - [Starburst](https://www.starburst.io)
+- Data Integration
+  - [Cube](https://cube.dev)
+  - [Fivetran](https://www.fivetran.com)
 
 Data Engineering blogs of companies:
+
 - [Netflix](https://netflixtechblog.com/tagged/big-data)
 - [Uber](https://www.uber.com/blog/houston/data/?uclick_id=b2f43229-f3f4-4bae-bd5d-10a05db2f70c)
 - [Databricks](https://www.databricks.com/blog/category/engineering/data-engineering)
@@ -83,34 +95,40 @@ Data Engineering blogs of companies:
 - [Microsoft Fabric Blog](https://blog.fabric.microsoft.com/)
 - [Oracle](https://blogs.oracle.com/datawarehousing/)
 - [Meta](https://engineering.fb.com/category/data-infrastructure/)
+- [Onehouse](https://www.onehouse.ai/blog)
   
-
 Data Engineering Whitepapers:
+
 - [A Five-Layered Business Intelligence Architecture](https://ibimapublishing.com/articles/CIBIMA/2011/695619/695619.pdf)
 - [Lakehouse:A New Generation of Open Platforms that Unify Data Warehousing and Advanced Analytics](https://www.cidrdb.org/cidr2021/papers/cidr2021_paper17.pdf)
 - [Big Data Quality: A Data Quality Profiling Model](https://link.springer.com/chapter/10.1007/978-3-030-23381-5_5)
 - [The Data Lakehouse: Data Warehousing and More](https://arxiv.org/abs/2310.08697)
+- [Spark: Cluster Computing with Working Sets](https://dl.acm.org/doi/10.5555/1863103.1863113)
+- [The Google File System](https://research.google/pubs/the-google-file-system/)
+- [Building a Universal Data Lakehouse](https://www.onehouse.ai/whitepaper/onehouse-universal-data-lakehouse-whitepaper)
 
-  
 Great YouTube Channels:
 
-- [Data with Zach](https://www.youtube.com/c/datawithzach)
-- [Seattle Data Guy](https://www.youtube.com/c/SeattleDataGuy)
-- [TrendyTech](https://www.youtube.com/c/TrendytechInsights)
-- [E-learning Bridge](https://www.youtube.com/@shashank_mishra)
-- [Darshil Parmar](https://www.youtube.com/@DarshilParmar)
-- [Andreas Kretz](https://www.youtube.com/c/andreaskayy)
-- [ByteByteGo](https://www.youtube.com/c/ByteByteGo)
-- [The Ravit Show](https://youtube.com/@theravitshow)
-- [Azure Lib](https://www.youtube.com/@azurelib-academy)
-- [Eric Roby](https://www.youtube.com/@codingwithroby)
-- [Guy in a Cube](https://www.youtube.com/@GuyInACube)
-- [Advancing Analytics](https://www.youtube.com/@AdvancingAnalytics)
-- [Adam Marczak](https://www.youtube.com/@AdamMarczakYT)
-- [nullQueries](https://www.youtube.com/@nullQueries)
-- [Kahan Data Solutions](https://www.youtube.com/@KahanDataSolutions)
-- [Ankit Bansal](https://youtube.com/@ankitbansal6)
-- [TECHTFQ by Thoufiq](https://www.youtube.com/@techTFQ)
+- 100k+ subscribers
+  - [E-learning Bridge](https://www.youtube.com/@shashank_mishra)
+  - [TrendyTech](https://www.youtube.com/c/TrendytechInsights)
+  - [Darshil Parmar](https://www.youtube.com/@DarshilParmar)
+  - [Andreas Kretz](https://www.youtube.com/c/andreaskayy)
+  - [ByteByteGo](https://www.youtube.com/c/ByteByteGo)
+  - [The Ravit Show](https://youtube.com/@theravitshow)
+  - [Guy in a Cube](https://www.youtube.com/@GuyInACube)
+  - [Adam Marczak](https://www.youtube.com/@AdamMarczakYT)
+  - [nullQueries](https://www.youtube.com/@nullQueries)
+  - [TECHTFQ by Thoufiq](https://www.youtube.com/@techTFQ)
+- 10k+ subscribers
+  - [Data with Zach](https://www.youtube.com/c/datawithzach)
+  - [Seattle Data Guy](https://www.youtube.com/c/SeattleDataGuy)
+  - [Azure Lib](https://www.youtube.com/@azurelib-academy)
+  - [Advancing Analytics](https://www.youtube.com/@AdvancingAnalytics)
+  - [Kahan Data Solutions](https://www.youtube.com/@KahanDataSolutions)
+  - [Ankit Bansal](https://youtube.com/@ankitbansal6)
+- 1k+ subscribers
+  - [Eric Roby](https://www.youtube.com/@codingwithroby)
 
 Great Podcasts
 
@@ -129,13 +147,12 @@ Great Podcasts
 - [Data Brew by Databricks](https://www.databricks.com/discover/data-brew)
 - [The Data Cloud Podcast by Snowflake](https://rise-of-the-data-cloud.simplecast.com/)
 - [What's New in data](https://www.striim.com/podcast/)
-- [Open||Source||Data by Datastax](https://www.datastax.com/resources/podcast/open-source-data) 
+- [Open||Source||Data by Datastax](https://www.datastax.com/resources/podcast/open-source-data)
 - [Streaming Audio by confluent](https://developer.confluent.io/podcast/)
 - [The Data Scientist Show](https://podcasts.apple.com/us/podcast/the-data-scientist-show/id1584430381)
 - [MLOps.community](https://podcast.mlops.community/)
 - [Monday Morning Data Chat](https://open.spotify.com/show/3Km3lBNzJpc1nOTJUtbtMh)
 - [The Data Chief](https://www.thoughtspot.com/data-chief/podcast)
-
 
 Newsletters:
 
@@ -161,28 +178,34 @@ Newsletters:
 
 LinkedIn
 
-- [Zach Wilson](https://www.linkedin.com/in/eczachly)
-- [Ben Rogojan](https://www.linkedin.com/in/benjaminrogojan)
-- [Joe Reis](https://www.linkedin.com/in/josephreis)
-- [Sumit Mittal](https://www.linkedin.com/in/bigdatabysumit/)
-- [Shashank Mishra](https://www.linkedin.com/in/shashank219/)
-- [Darshil Parmar](https://www.linkedin.com/in/darshil-parmar/)
-- [Joseph Machado](https://www.linkedin.com/in/josephmachado1991/)
-- [Chip Huyen](https://www.linkedin.com/in/chiphuyen/)
-- [Alex Xu](https://www.linkedin.com/in/alexxubyte)
-- [Deepak Goyal](https://www.linkedin.com/in/deepak-goyal-93805a17/)
-- [Eric Roby](https://www.linkedin.com/in/codingwithroby/)
-- [Andreas Kretz](https://www.linkedin.com/in/andreas-kretz)
-- [Tobias Macey](https://www.linkedin.com/in/tmacey)
-- [Shruti Mantri](https://www.linkedin.com/in/shruti-mantri-88527a67/)
-- [Hugo Lu](https://www.linkedin.com/in/hugo-lu-confirmed/)
-- [Daniel Ciocirlan](https://www.linkedin.com/in/danielciocirlan)
-- [Marc Lamberti](https://www.linkedin.com/in/marclamberti)
-- [Simon Whiteley](https://www.linkedin.com/in/simon-whiteley-uk/)
-- [Dipankar Mazumdar](https://www.linkedin.com/in/dipankar-mazumdar/)
-- [Ankit Bansal](https://www.linkedin.com/in/ankitbansal6/)
 
-Twitter / X 
+- 100k+ Followers
+  - [Zach Wilson](https://www.linkedin.com/in/eczachly)
+  - [Ben Rogojan](https://www.linkedin.com/in/benjaminrogojan)
+  - [Sumit Mittal](https://www.linkedin.com/in/bigdatabysumit/)
+  - [Shashank Mishra](https://www.linkedin.com/in/shashank219/)
+  - [Chip Huyen](https://www.linkedin.com/in/chiphuyen/)
+  - [Alex Xu](https://www.linkedin.com/in/alexxubyte)
+  - [Deepak Goyal](https://www.linkedin.com/in/deepak-goyal-93805a17/)
+  - [Andreas Kretz](https://www.linkedin.com/in/andreas-kretz)
+- 50k+ Followers
+  - [Joe Reis](https://www.linkedin.com/in/josephreis)
+  - [Darshil Parmar](https://www.linkedin.com/in/darshil-parmar/)
+  - [Ankit Bansal](https://www.linkedin.com/in/ankitbansal6/)
+  - [Marc Lamberti](https://www.linkedin.com/in/marclamberti)
+- 10k+ Followers
+  - [Joseph Machado](https://www.linkedin.com/in/josephmachado1991/)
+  - [Eric Roby](https://www.linkedin.com/in/codingwithroby/)
+  - [Simon Whiteley](https://www.linkedin.com/in/simon-whiteley-uk/)
+- 5k+ Followers
+  - [Dipankar Mazumdar](https://www.linkedin.com/in/dipankar-mazumdar/)
+  - [Daniel Ciocirlan](https://www.linkedin.com/in/danielciocirlan)
+  - [Hugo Lu](https://www.linkedin.com/in/hugo-lu-confirmed/)
+  - [Tobias Macey](https://www.linkedin.com/in/tmacey)
+- 1k+ Followers
+  - [Shruti Mantri](https://www.linkedin.com/in/shruti-mantri-88527a67/)
+
+Twitter / X
 
 - [Zach Wilson](https://www.twitter.com/EcZachly)
 - [Seattle Data Guy](https://www.twitter.com/SeattleDataGuy)
@@ -200,20 +223,19 @@ Instagram
 
 - [Zach Wilson](https://www.instagram.com/eczachly)
 - [Andreas Kretz](https://www.instagram.com/learndataengineering)
-- [Seattle Data Guy](https://www.instagram.com/seattledataguy) 
+- [Seattle Data Guy](https://www.instagram.com/seattledataguy)
 
 TikTok
 
 - [Zach Wilson](https://www.tiktok.com/@eczachly)
 - [Alex The Analyst](https://www.tiktok.com/@alex_the_analyst)
 
-Design Patterns 
+Design Patterns
 
 - [Cumulative Table Design](https://www.github.com/EcZachly/cumulative-table-design)
 - [Microbatch Deduplication](https://www.github.com/EcZachly/microbatch-hourly-deduped-tutorial)
 - [The Little Book of Pipelines](https://www.github.com/EcZachly/little-book-of-pipelines)
 - [Data Developer Platform](https://datadeveloperplatform.org/architecture/)
-
 
 Courses / Academies
 

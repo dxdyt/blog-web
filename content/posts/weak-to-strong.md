@@ -1,9 +1,9 @@
 ---
 title: weak-to-strong
-date: 2023-12-18T12:16:54+08:00
+date: 2023-12-20T12:13:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701719708331-3d63393e4819?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701719708331-3d63393e4819?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI4NzI5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702352461386-15dcf064708a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702352461386-15dcf064708a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
 ---
 
 # [openai/weak-to-strong](https://github.com/openai/weak-to-strong)
