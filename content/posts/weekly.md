@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2023-12-20T12:14:48+08:00
+date: 2023-12-21T12:17:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)

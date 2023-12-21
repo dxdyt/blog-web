@@ -1,9 +1,9 @@
 ---
 title: danswer
-date: 2023-12-20T12:14:55+08:00
+date: 2023-12-21T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702352461386-15dcf064708a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702352461386-15dcf064708a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700557277193-896271a65773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700557277193-896271a65773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
 ---
 
 # [danswer-ai/danswer](https://github.com/danswer-ai/danswer)
@@ -39,7 +39,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1702352461386-15dcf06470
 Danswer provides a fully-featured web UI:
 
 
-https://github.com/danswer-ai/danswer/assets/25087905/619607a1-4ad2-41a0-9728-351752acc26e
+
+
+https://github.com/danswer-ai/danswer/assets/32520769/563be14c-9304-47b5-bf0a-9049c2b6f410
+
+
 
 
 Or, if you prefer, you can plug Danswer into your existing Slack workflows (more integrations to come 😁):

@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-12-19T12:18:09+08:00
+date: 2023-12-21T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -27,7 +27,7 @@ Get up and running with large language models locally.
 
 ### Windows
 
-Coming soon!
+Coming soon! For now, you can install Ollama on Windows via WSL2.
 
 ### Linux & WSL2
 
@@ -57,10 +57,11 @@ Here are some example open-source models that can be downloaded:
 
 | Model              | Parameters | Size  | Download                       |
 | ------------------ | ---------- | ----- | ------------------------------ |
+| Llama 2            | 7B         | 3.8GB | `ollama run llama2`            |
+| Mistral            | 7B         | 4.1GB | `ollama run mistral`           |
+| Phi-2              | 2.7B       | 1.7GB | `ollama run phi`               |
 | Neural Chat        | 7B         | 4.1GB | `ollama run neural-chat`       |
 | Starling           | 7B         | 4.1GB | `ollama run starling-lm`       |
-| Mistral            | 7B         | 4.1GB | `ollama run mistral`           |
-| Llama 2            | 7B         | 3.8GB | `ollama run llama2`            |
 | Code Llama         | 7B         | 3.8GB | `ollama run codellama`         |
 | Llama 2 Uncensored | 7B         | 3.8GB | `ollama run llama2-uncensored` |
 | Llama 2 13B        | 13B        | 7.3GB | `ollama run llama2:13b`        |
@@ -271,6 +272,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [ogpt.nvim](https://github.com/huynle/ogpt.nvim)
 - [gptel Emacs client](https://github.com/karthink/gptel)
 - [Oatmeal](https://github.com/dustinblackman/oatmeal)
+- [cmdh](https://github.com/pgibler/cmdh)
 
 ### Database
 
@@ -293,6 +295,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [OllamaKit for Swift](https://github.com/kevinhermawan/OllamaKit)
 - [Ollama for Dart](https://github.com/breitburg/dart-ollama)
 - [Ollama for Laravel](https://github.com/cloudstudio/ollama-laravel)
+- [LangChainDart](https://github.com/davidmigloz/langchain_dart)
 
 ### Mobile
 

@@ -1,9 +1,9 @@
 ---
 title: aimoneyhunter
-date: 2023-12-20T12:14:02+08:00
+date: 2023-12-21T12:18:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700413739071-d7ca09f1eb7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700413739071-d7ca09f1eb7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
 ---
 
 # [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e385
 AiMonneyHunter
 </h1>
 <p align="center">
-  <a href="https://github.com/bleedline/aimoneyhunter">简体中文</a> | <a href="https://github.com/bleedline/aimoneyhunter/edit/main/README_en.md">English</a>
+  <a href="https://github.com/bleedline/aimoneyhunter">简体中文</a> | <a href="https://github.com/bleedline/aimoneyhunter/blob/main/README_en.md">English</a>
 </p>
 
 # 贡献方式

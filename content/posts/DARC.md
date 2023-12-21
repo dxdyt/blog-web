@@ -1,9 +1,9 @@
 ---
 title: DARC
-date: 2023-12-20T12:13:52+08:00
+date: 2023-12-21T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700770845346-7e95de335eb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700770845346-7e95de335eb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
 ---
 
 # [Project-DARC/DARC](https://github.com/Project-DARC/DARC)
@@ -121,7 +121,7 @@ the program in the next 1 hour, or the program will be ignored and removed from 
 
 ## "Plugin-as-a-Law"
 
-The law of DARC is defined in below psuedo-code:
+The law of DARC is defined in below pseudo-code:
 
 ```javascript
 if (plugin_condition == true) {

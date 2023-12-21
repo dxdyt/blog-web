@@ -1,9 +1,9 @@
 ---
 title: mpv
-date: 2023-12-19T12:19:00+08:00
+date: 2023-12-21T12:18:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700880326547-3558d336f0c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700880326547-3558d336f0c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701372554658-f60c1157addd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701372554658-f60c1157addd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
 ---
 
 # [mpv-player/mpv](https://github.com/mpv-player/mpv)
