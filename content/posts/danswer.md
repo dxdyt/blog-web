@@ -1,9 +1,9 @@
 ---
 title: danswer
-date: 2023-12-21T12:18:49+08:00
+date: 2023-12-22T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700557277193-896271a65773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700557277193-896271a65773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701380477617-a871a4e69318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701380477617-a871a4e69318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [danswer-ai/danswer](https://github.com/danswer-ai/danswer)

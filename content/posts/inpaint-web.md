@@ -1,9 +1,9 @@
 ---
 title: inpaint-web
-date: 2023-12-20T12:15:54+08:00
+date: 2023-12-22T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700770845346-7e95de335eb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700770845346-7e95de335eb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1602172747217-c6e57bc7472a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1602172747217-c6e57bc7472a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [lxfater/inpaint-web](https://github.com/lxfater/inpaint-web)

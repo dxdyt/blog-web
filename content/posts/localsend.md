@@ -1,9 +1,9 @@
 ---
 title: localsend
-date: 2023-10-24T12:14:56+08:00
+date: 2023-12-22T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696590358767-4615ebd16cb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696590358767-4615ebd16cb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgxMjA4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701443478334-c1a4bfda91ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701443478334-c1a4bfda91ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [localsend/localsend](https://github.com/localsend/localsend)
@@ -16,6 +16,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1696590358767-4615ebd16c
 [ci-workflow]: https://github.com/localsend/localsend/actions/workflows/ci.yml
 
 [Homepage][homepage] • [Discord][discord] • [GitHub][github] • [Codeberg][codeberg]
+
+[中文](README_ZH.md)
 
 [homepage]: https://localsend.org
 [discord]: https://discord.gg/GSRWmQNP87
@@ -57,8 +59,8 @@ It is recommended to download the app either from an app store or from a package
 | [Scoop][]                | [Homebrew][]            | [AUR][]            | [F-Droid][]    |               |            |
 | [Chocolatey][]           | [DMG Installer][latest] | [NixOS][]          | [APK][latest]  |               |            |
 | [MSIX Installer][latest] |                         | [TAR][latest]      |                |               |            |
-| [Portable ZIP][latest]   |                         | [DEB][latest]      |                |               |            |
-|                          |                         | [AppImage][latest] |                |               |            |
+| [EXE Installer][latest]  |                         | [DEB][latest]      |                |               |            |
+| [Portable ZIP][latest]   |                         | [AppImage][latest] |                |               |            |
 
 Read more about [distribution channels][].
 
@@ -77,6 +79,25 @@ Read more about [distribution channels][].
 [latest]: https://github.com/localsend/localsend/releases/latest
 [distribution channels]: https://github.com/localsend/localsend/blob/main/CONTRIBUTING.md#distribution
 
+## Setup
+
+In most cases, LocalSend should work out of the box. However, if you are having trouble sending or receiving files, you may need to configure your firewall to allow LocalSend to communicate over your local network.
+
+| Traffic Type | Protocol | Port  | Action |
+|--------------|----------|-------|--------|
+| Incoming     | TCP, UDP | 53317 | Allow  |
+| Outgoing     | TCP, UDP | Any   | Allow  |
+
+Also make sure to disable AP isolation on your router. It should be usually disabled by default but some routers may have it enabled (especially guest networks).
+
+**Portable Mode**
+
+(Introduced in v1.13.0)
+
+Create a file named `settings.json` located in the same directory as the executable.
+This file can be empty.
+The app will use this file to store settings instead of the default location.
+
 ## How it Works
 
 LocalSend uses a secure communication protocol that allows devices to communicate with each other using a REST API. All data is sent securely over HTTPS, and the TLS/SSL certificate is generated on the fly on each device, ensuring maximum security.
@@ -85,21 +106,21 @@ For more information on the LocalSend Protocol, see the [documentation](https://
 
 ## Getting Started
 
-To start LocalSend from the source code, follow these steps:
+To compile LocalSend from the source code, follow these steps:
 
-1. Install [Flutter](https://flutter.dev)
-2. Clone the LocalSend repository
-3. Run `flutter pub get` to download dependencies
-4. Run `dart run build_runner build -d` to generate code
-5. Run `flutter run` to start the app
+1. Install [Flutter](https://flutter.dev).
+2. Clone the LocalSend repository.
+3. Run `cd app` to enter the app directory.
+4. Run `flutter pub get` to download dependencies.
+5. Run `flutter run` to start the app.
 
-It may be the case that it doesn't work because of a mismatch between the required Flutter version and the installed Flutter version.
+The issue may be caused by a mismatch between the required Flutter version and the installed Flutter version.
 
 LocalSend uses [fvm](https://fvm.app) to manage the project Flutter version (specified in [.fvm/fvm_config.json](.fvm/fvm_config.json)). After you install it, run `fvm flutter` instead of `flutter`.
 
 ## Contributing
 
-We welcome contributions from anyone who is interested in helping improve LocalSend. If you'd like to contribute, there are a few ways to get involved:
+We welcome contributions from anyone interested in helping improve LocalSend. If you'd like to contribute, there are a few ways to get involved:
 
 ### Translation
 
@@ -107,19 +128,20 @@ You can help translate this app to other languages!
 
 1. Fork this repository
 2. Choose one
-   - Add missing translations in existing languages: Only update `_missing_translations_<locale>.json` in [assets/i18n][i18n]
-   - Fix existing translations: Update `strings_<locale>.i18n.json` in [assets/i18n][i18n]
+   - Add missing translations in existing languages: Only update `_missing_translations_<locale>.json` in [app/assets/i18n][i18n]
+   - Fix existing translations: Update `strings_<locale>.i18n.json` in [app/assets/i18n][i18n]
    - Add new languages: Create a new file; see also: [locale codes][].
 3. Optional: Re-run this app
-   1. Make sure you have [run](#getting-started) this app once.
-   2. Update translations via `flutter pub run slang`
-   3. Run the app via `flutter run`
-4. Open a pull request
+   1. Run `cd app` to enter the app directory.
+   2. Make sure you have [run](#getting-started) this app once.
+   3. Update translations via `flutter pub run slang`
+   4. Run the app via `flutter run`
+   5. Open a pull request
 
 [i18n]: https://github.com/localsend/localsend/tree/main/app/assets/i18n
 [locale codes]: https://saimana.com/list-of-country-locale-code/
 
-#### _Take note:_ Fields decorated with `@` are not meant to be translated; they are not used in the app in any way, being merely informative text about the file or to give context to the translator.
+**_Take note:_ Fields decorated with `@` are not meant to be translated; they are not used in the app in any way, being merely informative text about the file or to give context to the translator.**
 
 ### Bug fixes and improvements
 

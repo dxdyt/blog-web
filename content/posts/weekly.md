@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2023-12-21T12:17:12+08:00
+date: 2023-12-22T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700684829709-c4d8f53bd311?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700684829709-c4d8f53bd311?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -40,6 +40,7 @@ $ grep -nri css docs | cat --number
 
 **十二月**
 
+- 第 283 期：[[年终感想] 没有目的地，向前走](docs/issue-283.md)
 - 第 282 期：[电动皮卡 Cybertruck 的 48V 供电](docs/issue-282.md)
 - 第 281 期：[新基建的政策选择](docs/issue-281.md)
 - 第 280 期：[机器点餐与宅文化](docs/issue-280.md)

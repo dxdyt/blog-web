@@ -1,9 +1,9 @@
 ---
 title: MetaGPT
-date: 2023-12-21T12:16:03+08:00
+date: 2023-12-22T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701380477617-a871a4e69318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701380477617-a871a4e69318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)
@@ -44,7 +44,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702499903230-867455db17
 <p align="center">Software Company Multi-Role Schematic (Gradually Implementing)</p>
 
 ## News
-- Dec 15: v0.5.0 is released! We introduce **incremental development**, facilitating agents to build up larger projects on top of their previous efforts or exisiting human codebase. We also launch a whole collection of important features, including multilingual support (experimental), multiple programming languages support (experimental), incremental development (experimental), CLI support, pip support, enhanced code review, documentation mechanism, and optimized messaging mechanism!
+- Dec 15: [v0.5.0](https://github.com/geekan/MetaGPT/releases/tag/v0.5.0) is released! We introduce **incremental development**, facilitating agents to build up larger projects on top of their previous efforts or exisiting codebase. We also launch a whole collection of important features, including **multilingual support** (experimental), multiple **programming languages support** (experimental), **incremental development** (experimental), CLI support, pip support, enhanced code review, documentation mechanism, and optimized messaging mechanism!
 
 ## Install
 
@@ -60,13 +60,17 @@ python3 --version
 # Step 2: Clone the repository to your local machine for latest version, and install it.
 git clone https://github.com/geekan/MetaGPT.git
 cd MetaGPT
-pip3 install -e.     # or pip3 install metagpt  # for stable version
+pip3 install -e .     # or pip3 install metagpt  # for stable version
 
-# Step 3: run metagpt cli
-# setup your OPENAI_API_KEY in key.yaml copy from config.yaml
-metagpt "Write a cli snake game"
+# Step 3: setup your OPENAI_API_KEY, or make sure it existed in the env
+mkdir ~/.metagpt
+cp config/config.yaml ~/.metagpt/key.yaml
+vim ~/.metagpt/key.yaml
 
-# Step 4 [Optional]: If you want to save the artifacts like diagrams such as quadrant chart, system designs, sequence flow in the workspace, you can execute the step before Step 3. By default, the framework is compatible, and the entire process can be run completely without executing this step.
+# Step 4: run metagpt cli
+metagpt "Create a 2048 game in python"
+
+# Step 5 [Optional]: If you want to save the artifacts like diagrams such as quadrant chart, system designs, sequence flow in the workspace, you can execute the step before Step 3. By default, the framework is compatible, and the entire process can be run completely without executing this step.
 # If executing, ensure that NPM is installed on your system. Then install mermaid-js. (If you don't have npm in your computer, please go to the Node.js official website to install Node.js https://nodejs.org/ and then you will have npm tool in your computer.)
 npm --version
 sudo npm install -g @mermaid-js/mermaid-cli
