@@ -1,9 +1,9 @@
 ---
 title: gpt-engineer
-date: 2023-12-21T12:16:37+08:00
+date: 2023-12-23T12:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702310595146-5ba83db35543?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702310595146-5ba83db35543?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701769007323-c7d360641ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
 ---
 
 # [gpt-engineer-org/gpt-engineer](https://github.com/gpt-engineer-org/gpt-engineer)
@@ -81,7 +81,7 @@ You can specify the "identity" of the AI agent by editing the files in the `prep
 
 Editing the `preprompts`, and evolving how you write the project prompt, is how you make the agent remember things between projects.
 
-You can also automatically copy all `preprompts` files into your project folder using the cli parameter `--use-custom-prepompts`. This way you can have custom preprompts for all of your projects without the need to edit the main files.
+You can also automatically copy all `preprompts` files into your project folder using the cli parameter `--use-custom-preprompts`. This way you can have custom preprompts for all of your projects without the need to edit the main files.
 
 You can also run with open source models, like WizardCoder. See the [documentation](https://gpt-engineer.readthedocs.io/en/latest/open_models.html) for example instructions.
 

@@ -1,9 +1,9 @@
 ---
 title: Vary
-date: 2023-12-21T12:17:29+08:00
+date: 2023-12-23T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701651545983-c3b357a8387f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701651545983-c3b357a8387f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701891928981-d3d6b5b43dc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701891928981-d3d6b5b43dc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
 ---
 
 # [Ucas-HaoranWei/Vary](https://github.com/Ucas-HaoranWei/Vary)

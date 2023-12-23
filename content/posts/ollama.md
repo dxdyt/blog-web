@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-12-22T12:18:50+08:00
+date: 2023-12-23T12:15:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1602172747217-c6e57bc7472a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1602172747217-c6e57bc7472a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702377168432-ac8b5e387998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702377168432-ac8b5e387998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -70,7 +70,7 @@ Here are some example open-source models that can be downloaded:
 | Vicuna             | 7B         | 3.8GB | `ollama run vicuna`            |
 | LLaVA              | 7B         | 4.5GB | `ollama run llava`             |
 
-> Note: You should have at least 8 GB of RAM to run the 3B models, 16 GB to run the 7B models, and 32 GB to run the 13B models.
+> Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 
 ## Customize your own model
 
@@ -139,6 +139,10 @@ For more examples, see the [examples](examples) directory. For more information 
 
 `ollama create` is used to create a model from a Modelfile.
 
+```
+ollama create mymodel -f ./Modelfile
+```
+
 ### Pull a model
 
 ```
@@ -202,13 +206,19 @@ Install `cmake` and `go`:
 brew install cmake go
 ```
 
-Then generate dependencies and build:
-
+Then generate dependencies:
 ```
 go generate ./...
+```
+Then build the binary:
+```
 go build .
 ```
 
+More detailed instructions can be found in the [developer guide](https://github.com/jmorganca/ollama/blob/main/docs/development.md)
+
+
+### Running local builds
 Next, start the server:
 
 ```

@@ -1,165 +1,283 @@
 ---
 title: DB-GPT
-date: 2023-06-24T12:18:04+08:00
+date: 2023-12-23T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686407449898-79cd2d0eba4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686407449898-79cd2d0eba4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODc1ODAyMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701891928981-d3d6b5b43dc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701891928981-d3d6b5b43dc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
 ---
 
-# [csunny/DB-GPT](https://github.com/csunny/DB-GPT)
+# [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
 
 # DB-GPT: Revolutionizing Database Interactions with Private LLM Technology
  
+<p align="left">
+  <img src="./assets/LOGO.png" width="100%" />
+</p>
+
 <div align="center">
   <p>
-    <a href="https://github.com/csunny/DB-GPT">
-        <img alt="stars" src="https://img.shields.io/github/stars/csunny/db-gpt?style=social" />
+    <a href="https://github.com/eosphoros-ai/DB-GPT">
+        <img alt="stars" src="https://img.shields.io/github/stars/eosphoros-ai/db-gpt?style=social" />
     </a>
-    <a href="https://github.com/csunny/DB-GPT">
-        <img alt="forks" src="https://img.shields.io/github/forks/csunny/db-gpt?style=social" />
+    <a href="https://github.com/eosphoros-ai/DB-GPT">
+        <img alt="forks" src="https://img.shields.io/github/forks/eosphoros-ai/db-gpt?style=social" />
+    </a>
+    <a href="https://opensource.org/licenses/MIT">
+      <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+    </a>
+     <a href="https://github.com/eosphoros-ai/DB-GPT/releases">
+      <img alt="Release Notes" src="https://img.shields.io/github/release/eosphoros-ai/DB-GPT" />
+    </a>
+    <a href="https://github.com/eosphoros-ai/DB-GPT/issues">
+      <img alt="Open Issues" src="https://img.shields.io/github/issues-raw/eosphoros-ai/DB-GPT" />
+    </a>
+    <a href="https://discord.gg/7uQnPuveTY">
+      <img alt="Discord" src="https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat" />
+    </a>
+    <a href="https://codespaces.new/eosphoros-ai/DB-GPT">
+      <img alt="Open in GitHub Codespaces" src="https://github.com/codespaces/badge.svg" />
     </a>
   </p>
 
-[**简体中文**](README.zh.md) |[**Discord**](https://discord.gg/hmGPnMSb) |[**Documents**](https://db-gpt.readthedocs.io/en/latest/)|[**Wechat**](https://github.com/csunny/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC) 
 
+[**简体中文**](README.zh.md) | [**Discord**](https://discord.gg/7uQnPuveTY) | [**Documents**](https://docs.dbgpt.site) | [**Wechat**](https://github.com/eosphoros-ai/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC) | [**Community**](https://github.com/eosphoros-ai/community)
 </div>
 
 ## What is DB-GPT?
 
-As large models are released and iterated upon, they are becoming increasingly intelligent. However, in the process of using large models, we face significant challenges in data security and privacy. We need to ensure that our sensitive data and environments remain completely controlled and avoid any data privacy leaks or security risks. Based on this, we have launched the DB-GPT project to build a complete private large model solution for all database-based scenarios. This solution supports local deployment, allowing it to be applied not only in independent private environments but also to be independently deployed and isolated according to business modules, ensuring that the ability of large models is absolutely private, secure, and controllable.
+DB-GPT is an open-source framework designed for the realm of large language models (LLMs) within the database field. Its primary purpose is to provide infrastructure that simplifies and streamlines the development of database-related applications. This is accomplished through the development of various technical capabilities, including:
 
-DB-GPT is an experimental open-source project that uses localized GPT large models to interact with your data and environment. With this solution, you can be assured that there is no risk of data leakage, and your data is 100% private and secure.
+1. **SMMF(Service-oriented Multi-model Management Framework)**
+2. **Text2SQL Fine-tuning**
+3. **RAG(Retrieval Augmented Generation) framework and optimization**
+4. **Data-Driven Agents framework collaboration**
+5. **GBI(Generative Business intelligence)**
 
-## News
-- [2023/06/14] support gpt4all model, which can run at M1/M2, or cpu machine. [documents](https://db-gpt.readthedocs.io/en/latest/modules/llms.html) 
-- [2023/06/01]🔥 On the basis of the Vicuna-13B basic model, task chain calls are implemented through plugins. For example, the implementation of creating a database with a single sentence.[demo](./assets/auto_plugin.gif)
-- [2023/06/01]🔥 QLoRA guanaco(7b, 13b, 33b) support.
-- [2023/05/28]🔥 Learning from crawling data from the Internet [demo](./assets/chaturl_en.gif)
-- [2023/05/21] Generate SQL and execute it automatically. [demo](./assets/auto_sql_en.gif)
-- [2023/05/15] Chat with documents. [demo](./assets/new_knownledge_en.gif)
-- [2023/05/06] SQL generation and diagnosis. [demo](./assets/demo_en.gif)
+DB-GPT simplifies the creation of these applications based on large language models (LLMs) and databases. 
+
+In the era of Data 3.0, enterprises and developers can take the ability to create customized applications with minimal coding, which harnesses the power of large language models (LLMs) and databases.
+
+
+## Contents
+- [Install](#install)
+- [Demo](#demo)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Contribution](#contribution)
+- [Roadmap](#roadmap)
+- [Contact](#contact-information)
+
+[DB-GPT Youtube Video](https://www.youtube.com/watch?v=f5_g0OObZBQ)
 
 ## Demo
+##### Chat Data
+![chatdata](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/1f77079e-d018-4eee-982b-9b6a66bf1063)
 
-Run on an RTX 4090 GPU.
+##### Chat Excel
+![excel](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/3044e83b-a71e-41fe-a1e2-98e479e0ab59)
 
-https://github.com/csunny/DB-GPT/assets/17919400/654b5a49-5ea4-4c02-b5b2-72d089dcc1f0
+## Install 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-<!-- <video id="video" controls="" preload="auto" poster="assets/exector_sql.png">
-      <source id="mp4" src="https://github.com/csunny/DB-GPT/assets/17919400/654b5a49-5ea4-4c02-b5b2-72d089dcc1f0" type="video/mp4">
-</videos> -->
+[**Usage Tutorial**](http://docs.dbgpt.site/docs/overview)
+- [**Install**](http://docs.dbgpt.site/docs/installation)
+- [**Quickstart**](http://docs.dbgpt.site/docs/quickstart)
+- [**Application**](http://docs.dbgpt.site/docs/operation_manual)
+- [**Debugging**](http://docs.dbgpt.site/docs/operation_manual/advanced_tutorial/debugging)
 
-<p align="left">
-  <img src="./assets/exector_sql.png" width="800px" />
-</p>
-
-<p align="left">
-  <img src="./assets/auto_sql_en.gif" width="800px" />
-</p>
-
-<p align="left">
-  <img src="./assets/knownledge_qa_en.jpg" width="800px" />
-</p>
 
 ## Features
 
-Currently, we have released multiple key features, which are listed below to demonstrate our current capabilities:
+At present, we have introduced several key features to showcase our current capabilities:
+- **Private Domain Q&A & Data Processing**
 
-- SQL language capabilities
-  - SQL generation
-  - SQL diagnosis
-- Private domain Q&A and data processing
-  -  Database knowledge Q&A
-  - Data processing
-- Plugins
-  -  Support custom plugin execution tasks and natively support the Auto-GPT plugin, such as:
-    - Automatic execution of SQL and retrieval of query results
-    - Automatic crawling and learning of knowledge
-- Unified vector storage/indexing of knowledge base
-  - Support for unstructured data such as PDF, TXT, Markdown, CSV, DOC, PPT, and WebURL
+  The DB-GPT project offers a range of functionalities designed to improve knowledge base construction and enable efficient storage and retrieval of both structured and unstructured data. These functionalities include built-in support for uploading multiple file formats, the ability to integrate custom data extraction plug-ins, and unified vector storage and retrieval capabilities for effectively managing large volumes of information.
 
-- Milti LLMs Support
-  - Supports multiple large language models, currently supporting Vicuna (7b, 13b), ChatGLM-6b (int4, int8), guanaco(7b,13b,33b), Gorilla(7b,13b)
-  - TODO: codegen2, codet5p
+- **Multi-Data Source & GBI(Generative Business intelligence)**
 
+  The DB-GPT project facilitates seamless natural language interaction with diverse data sources, including Excel, databases, and data warehouses. It simplifies the process of querying and retrieving information from these sources, empowering users to engage in intuitive conversations and gain insights. Moreover, DB-GPT supports the generation of analytical reports, providing users with valuable data summaries and interpretations.
+
+- **Multi-Agents&Plugins**
+
+  It offers support for custom plug-ins to perform various tasks and natively integrates the Auto-GPT plug-in model. The Agents protocol adheres to the Agent Protocol standard.
+
+- **Automated Fine-tuning text2SQL**
+
+  We've also developed an automated fine-tuning lightweight framework centred on large language models (LLMs), Text2SQL datasets, LoRA/QLoRA/Pturning, and other fine-tuning methods. This framework simplifies Text-to-SQL fine-tuning, making it as straightforward as an assembly line process. [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub)
+
+- **SMMF(Service-oriented Multi-model Management Framework)**
+
+  We offer extensive model support, including dozens of large language models (LLMs) from both open-source and API agents, such as LLaMA/LLaMA2, Baichuan, ChatGLM, Wenxin, Tongyi, Zhipu, and many more. 
+
+  - News
+    - 🔥🔥🔥  [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
+    - 🔥🔥🔥  [Qwen-72B-Chat](https://huggingface.co/Qwen/Qwen-72B-Chat)
+    - 🔥🔥🔥  [Yi-34B-Chat](https://huggingface.co/01-ai/Yi-34B-Chat)
+  - [More Supported LLMs](http://docs.dbgpt.site/docs/modules/smmf)
+
+- **Privacy and Security**
+  
+  We ensure the privacy and security of data through the implementation of various technologies, including privatized large models and proxy desensitization.
+
+- Support Datasources
+  - [Datasources](http://docs.dbgpt.site/docs/modules/connections)
 
 ## Introduction 
-DB-GPT creates a vast model operating system using [FastChat](https://github.com/lm-sys/FastChat) and offers a large language model powered by [Vicuna](https://huggingface.co/Tribbiani/vicuna-7b). In addition, we provide private domain knowledge base question-answering capability through LangChain. Furthermore, we also provide support for additional plugins, and our design natively supports the Auto-GPT plugin.
-
-Is the architecture of the entire DB-GPT shown in the following figure:
+The architecture of DB-GPT is shown in the following figure:
 
 <p align="center">
   <img src="./assets/DB-GPT.png" width="800" />
 </p>
 
-The core capabilities mainly consist of the following parts:
-1. Knowledge base capability: Supports private domain knowledge base question-answering capability.
-2. Large-scale model management capability: Provides a large model operating environment based on FastChat.
-3. Unified data vector storage and indexing: Provides a uniform way to store and index various data types.
-4. Connection module: Used to connect different modules and data sources to achieve data flow and interaction.
-5. Agent and plugins: Provides Agent and plugin mechanisms, allowing users to customize and enhance the system's behavior.
-6. Prompt generation and optimization: Automatically generates high-quality prompts and optimizes them to improve system response efficiency.
-7. Multi-platform product interface: Supports various client products, such as web, mobile applications, and desktop applications.
+The core capabilities primarily consist of the following components:
+1. Multi-Models: We support multiple Large Language Models (LLMs) such as LLaMA/LLaMA2, CodeLLaMA, ChatGLM, QWen, Vicuna, and proxy models like ChatGPT, Baichuan, Tongyi, Wenxin, and more.
+2. Knowledge-Based QA: Our system enables high-quality intelligent Q&A based on local documents such as PDFs, Word documents, Excel files, and other data sources.
+3. Embedding: We offer unified data vector storage and indexing. Data is embedded as vectors and stored in vector databases, allowing for content similarity search.
+4. Multi-Datasources: This feature connects different modules and data sources, facilitating data flow and interaction.
+5. Multi-Agents: Our platform provides Agent and plugin mechanisms, empowering users to customize and enhance the system's behaviour.
+6. Privacy & Security: Rest assured that there is no risk of data leakage, and your data is 100% private and secure.
+7. Text2SQL: We enhance Text-to-SQL performance through Supervised Fine-Tuning (SFT) applied to Large Language Models (LLMs).
+
+### SubModule
+- [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) Text-to-SQL workflow with high performance by applying Supervised Fine-Tuning (SFT) on Large Language Models (LLMs).
+- [DB-GPT-Plugins](https://github.com/eosphoros-ai/DB-GPT-Plugins) DB-GPT Plugins that can run Auto-GPT plugin directly
+- [DB-GPT-Web](https://github.com/eosphoros-ai/DB-GPT-Web)  ChatUI for DB-GPT  
+
+## Image
+🌐 [AutoDL Image](https://www.codewithgpu.com/i/eosphoros-ai/DB-GPT/dbgpt)
 
 
-
-## Install 
-[Quickstart](https://db-gpt.readthedocs.io/en/latest/getting_started/getting_started.html)
-
-## Usage Instructions
-
-- [Multi LLMs Usage](https://db-gpt.readthedocs.io/en/latest/modules/llms.html)
-- [Create your own knowledge repository](https://db-gpt.readthedocs.io/en/latest/modules/knowledge.html)
-
-We currently support many document formats: txt, pdf, md, html, doc, ppt, and url.
-before execution:
-
-```
-python -m spacy download zh_core_web_sm
-
-```
-2.set .env configuration set your vector store type, eg:VECTOR_STORE_TYPE=Chroma, now we support Chroma and Milvus(version > 2.1)
-
-3.Run the knowledge repository script in the tools directory.
-
-```bash
-& python tools/knowledge_init.py
-
---vector_name : your vector store name  default_value:default
---append: append mode, True:append, False: not append default_value:False
-```
-
-If nltk-related errors occur during the use of the knowledge base, you need to install the nltk toolkit. For more details, please refer to: [nltk documents](https://www.nltk.org/data.html)
-Run the Python interpreter and type the commands:
-
-```bash
->>> import nltk
->>> nltk.download()
-```
-
-## Acknowledgement
-
-This project is standing on the shoulders of giants and is not going to work without the open-source communities. Special thanks to the following projects for their excellent contribution to the AI industry:
-- [FastChat](https://github.com/lm-sys/FastChat) for providing chat services
-- [vicuna-13b](https://lmsys.org/blog/2023-03-30-vicuna/) as the base model
-- [langchain](https://langchain.readthedocs.io/) tool chain
-- [Auto-GPT](https://github.com/Significant-Gravitas/Auto-GPT) universal plugin template
-- [Hugging Face](https://huggingface.co/) for big model management
-- [Chroma](https://github.com/chroma-core/chroma) for vector storage
-- [Milvus](https://milvus.io/) for distributed vector storage
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B) as the base model
-- [llama_index](https://github.com/jerryjliu/llama_index) for enhancing database-related knowledge using [in-context learning](https://arxiv.org/abs/2301.00234) based on existing knowledge bases.
+### Language Switching
+    In the .env configuration file, modify the LANGUAGE parameter to switch to different languages. The default is English (Chinese: zh, English: en, other languages to be added later).
 
 ## Contribution
 
 - Please run `black .` before submitting the code.
+- To check detailed guidelines for new contributions, please refer [how to contribute](https://github.com/csunny/DB-GPT/blob/main/CONTRIBUTING.md)
+
+## RoadMap
+
+<p align="left">
+  <img src="./assets/roadmap.jpg" width="800px" />
+</p>
+
+### KBQA RAG optimization
+- [x] Multi Documents
+  - [x] PDF
+  - [x] Excel, CSV
+  - [x] Word
+  - [x] Text
+  - [x] MarkDown
+  - [ ] Code
+  - [ ] Images 
+
+- [x] RAG
+- [ ] Graph Database
+  - [ ] Neo4j Graph
+  - [ ] Nebula Graph
+- [x] Multi-Vector Database
+  - [x] Chroma
+  - [x] Milvus
+  - [x] Weaviate
+  - [x] PGVector
+  - [ ] Elasticsearch
+  - [ ] ClickHouse
+  - [ ] Faiss 
+  
+- [ ] Testing and Evaluation Capability Building
+  - [ ] Knowledge QA datasets
+  - [ ] Question collection [easy, medium, hard]:
+  - [ ] Scoring mechanism
+  - [ ] Testing and evaluation using Excel + DB datasets
+  
+### Multi Datasource Support
+
+- Multi Datasource Support 
+  - [x] MySQL
+  - [x] PostgreSQL
+  - [x] Spark
+  - [x] DuckDB
+  - [x] Sqlite
+  - [x] MSSQL
+  - [x] ClickHouse
+  - [ ] Oracle
+  - [ ] Redis
+  - [ ] MongoDB
+  - [ ] HBase
+  - [x] Doris
+  - [ ] DB2
+  - [ ] Couchbase
+  - [ ] Elasticsearch
+  - [ ] OceanBase
+  - [ ] TiDB
+  - [ ] StarRocks
+
+### Multi-Models And vLLM
+- [x] [Cluster Deployment](https://docs.dbgpt.site/docs/installation/model_service/cluster)
+- [x] [Fastchat Support](https://github.com/lm-sys/FastChat)
+- [x] [vLLM Support](https://docs.dbgpt.site/docs/installation/advanced_usage/vLLM_inference)
+- [ ] Cloud-native environment and support for Ray environment
+- [ ] Service Registry(eg:nacos)
+- [ ] Compatibility with OpenAI's interfaces
+- [ ] Expansion and optimization of embedding models
+
+### Agents market and Plugins
+- [x] multi-agents framework
+- [x] custom plugin development 
+- [x] plugin market
+- [ ] Integration with CoT
+- [ ] Enrich plugin sample library
+- [ ] Support for AutoGPT protocol
+- [ ] Integration of multi-agents and visualization capabilities, defining LLM+Vis new standards
+
+### Cost and Observability
+- [x] [debugging](https://docs.dbgpt.site/docs/application_manual/advanced_tutorial/debugging)
+- [ ] Observability
+- [ ] cost & budgets
+
+### Text2SQL Finetune
+- support llms
+  - [x] LLaMA
+  - [x] LLaMA-2
+  - [x] BLOOM
+  - [x] BLOOMZ
+  - [x] Falcon
+  - [x] Baichuan
+  - [x] Baichuan2
+  - [x] InternLM
+  - [x] Qwen
+  - [x] XVERSE
+  - [x] ChatGLM2
+
+-  SFT Accuracy
+As of October 10, 2023, through the fine-tuning of an open-source model with 13 billion parameters using this project, we have achieved execution accuracy on the Spider dataset that surpasses even GPT-4!
+
+[More Information about Text2SQL finetune](https://github.com/eosphoros-ai/DB-GPT-Hub)
 
 ## Licence
-
 The MIT License (MIT)
 
+## Citation
+Please consider citing our project if you find it useful:
+
+```bibtex
+@software{db-gpt,
+    author = {DB-GPT Team},
+    title = {{DB-GPT}},
+    url = {https://github.com/eosphoros-ai/DB-GPT},
+    year = {2023}
+}
+```
+
 ## Contact Information
-We are working on building a community, if you have any ideas about building the community, feel free to contact us. [Discord](https://discord.gg/hmGPnMSb)
+We are working on building a community, if you have any ideas for building the community, feel free to contact us.
+[![](https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat)](https://discord.gg/7uQnPuveTY)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=csunny/DB-GPT)](https://star-history.com/#csunny/DB-GPT)
+<p align="center">
+  <img src="./assets/wechat.jpg" width="300px" />
+</p>
 
+[![Star History Chart](https://api.star-history.com/svg?repos=csunny/DB-GPT&type=Date)](https://star-history.com/#csunny/DB-GPT)
