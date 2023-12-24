@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2023-12-23T12:16:17+08:00
+date: 2023-12-24T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702377168432-ac8b5e387998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702377168432-ac8b5e387998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702906221687-374391241fd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702906221687-374391241fd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
 ---
 
 # [karanpratapsingh/system-design](https://github.com/karanpratapsingh/system-design)

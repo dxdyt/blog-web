@@ -1,9 +1,9 @@
 ---
 title: PowerInfer
-date: 2023-12-23T12:14:57+08:00
+date: 2023-12-24T12:15:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702163752151-3c14fd39f906?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702163752151-3c14fd39f906?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702266449355-d5b7b821bb80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702266449355-d5b7b821bb80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
 ---
 
 # [SJTU-IPADS/PowerInfer](https://github.com/SJTU-IPADS/PowerInfer)
