@@ -1,9 +1,9 @@
 ---
 title: papers-we-love
-date: 2023-07-01T12:17:32+08:00
+date: 2023-12-25T12:17:17+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1684164600651-788480e8bf4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1684164600651-788480e8bf4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODgxODQ5ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701970912701-47d3a8e8515d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701970912701-47d3a8e8515d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
 ---
 
 # [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love)
@@ -37,9 +37,9 @@ We're looking for pull requests related to papers we should add, better organiza
 * [2 Minute Papers](https://www.youtube.com/user/keeroyz)
 * [Bell System Technical Journal, 1922-1983](https://www.bell-labs.com/our-research/technical-journal/)
 * [Best Paper Awards in Computer Science](http://jeffhuang.com/best_paper_awards.html)
-* [Facebook](https://research.fb.com/publications/)
+* [Facebook](https://research.facebook.com/publications/)
 * [Google Scholar](http://scholar.google.com/citations?view_op=top_venues&hl=en&vq=eng) (choose a subcategory)
-* [Microsoft Research](http://research.microsoft.com/apps/catalog/default.aspx?t=publications)
+* [Microsoft Research](https://www.microsoft.com/en-us/research/publications/)
 * [Functional Programming Books Review](http://alexott.net/en/fp/books/)
 * [MIT's Artificial Intelligence Lab Publications](http://dspace.mit.edu/handle/1721.1/39813)
 * [MIT's Distributed System's Reading Group](http://dsrg.pdos.csail.mit.edu/)

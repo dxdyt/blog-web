@@ -1,9 +1,9 @@
 ---
 title: Mindustry
-date: 2023-12-24T12:15:56+08:00
+date: 2023-12-25T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701713137683-7ef6f152a308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701713137683-7ef6f152a308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702298430594-5d604a5f9dc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702298430594-5d604a5f9dc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
 ---
 
 # [Anuken/Mindustry](https://github.com/Anuken/Mindustry)

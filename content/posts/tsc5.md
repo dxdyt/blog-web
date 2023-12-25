@@ -1,9 +1,9 @@
 ---
 title: tsc5
-date: 2023-12-24T12:17:36+08:00
+date: 2023-12-25T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701770443637-69c62f98324f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701770443637-69c62f98324f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700994630045-f7a20df6d92e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700994630045-f7a20df6d92e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
 ---
 
 # [ton-community/tsc5](https://github.com/ton-community/tsc5)

@@ -1,45 +1,27 @@
 ---
 title: ui
-date: 2023-11-02T12:18:19+08:00
+date: 2023-12-25T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693899121789-da923e57c419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693899121789-da923e57c419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702651442150-a83d94731f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702651442150-a83d94731f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
 ---
 
-# [atherosai/ui](https://github.com/atherosai/ui)
+# [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
 
-This is repository with examples of simple UI components. The repository is based on Next.js and React.js. 
+# shadcn/ui
 
-# installation
+Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 
-* Clone the repo with
-```
-git clone git@github.com:atherosai/ui.git
-```
+![hero](apps/www/public/og.jpg)
 
-# For HTML/CSS/JS
+## Documentation
 
-Just navigate to the folder with your chosen example and open html file in the browser.
+Visit http://ui.shadcn.com/docs to view the documentation.
 
-# For React Examples
+## Contributing
 
-* Install npm packages
-```
-npm i 
-```
-* Run development mode
-```
-npm run dev
-```
+Please read the [contributing guide](/CONTRIBUTING.md).
 
-Now the app is accessible at ```localhost:3000```
+## License
 
-
-# My Social Media
-The examples are posted here:
-
-* [TikTok](https://www.tiktok.com/@davidm_ai)
-* [Instagram](https://www.instagram.com/davidm_ai/)
-* [Youtube](https://www.youtube.com/@Atheroslearning)
-* [Twitter](https://twitter.com/davidm_ml)
-* [Linkedin](https://twitter.com/davidm_ml)
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).

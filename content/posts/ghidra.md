@@ -1,9 +1,9 @@
 ---
 title: ghidra
-date: 2023-09-20T12:17:08+08:00
+date: 2023-12-25T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693040516624-a22f0906faab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693040516624-a22f0906faab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703179120646-37642ea08138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703179120646-37642ea08138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
 ---
 
 # [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
