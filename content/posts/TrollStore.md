@@ -1,9 +1,9 @@
 ---
 title: TrollStore
-date: 2023-12-01T12:18:09+08:00
+date: 2023-12-26T12:18:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698551599971-0f2cdb391095?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698551599971-0f2cdb391095?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0MDQxNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701624314371-acc9aad51268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701624314371-acc9aad51268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
 ---
 
 # [opa334/TrollStore](https://github.com/opa334/TrollStore)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1698551599971-0f2cdb3910
 
 TrollStore is a permasigned jailed app that can permanently install any IPA you open in it.
 
-It works because of an AMFI/CoreTrust bug where iOS does not verify whether or not a root certificate used to sign a binary is legit.
+It works because of an AMFI/CoreTrust bug where iOS does not correctly verify code signatures of binaries in which there are multiple signers.
 
 Supported versions: 14.0 - 16.6.1, 17.0
 
@@ -110,7 +110,7 @@ When your app is not sandboxed, you can spawn other binaries using posix_spawn, 
 
 You can also add your own binaries into your app bundle.
 
-Afterwards you can use the [spawnRoot function in TSUtil.m](./Shared/TSUtil.m#L77) to spawn the binary as root.
+Afterwards you can use the [spawnRoot function in TSUtil.m](./Shared/TSUtil.m#L79) to spawn the binary as root.
 
 ### Things that are not possible using TrollStore
 
@@ -120,8 +120,12 @@ Afterwards you can use the [spawnRoot function in TSUtil.m](./Shared/TSUtil.m#L7
 
 ## Credits and Further Reading
 
-[@LinusHenze](https://twitter.com/LinusHenze/) - Found the CoreTrust bug that allows TrollStore to work.
+[@alfiecg_dev](https://twitter.com/alfiecg_dev/) - Found the CoreTrust bug that allows TrollStore to work through patchdiffing and worked on automating the bypass.
+
+Google Threat Analysis Group - Found the CoreTrust bug as part of an in-the-wild spyware chain and reported it to Apple.
+
+[@LinusHenze](https://twitter.com/LinusHenze) - Found the installd bypass used to install TrollStore on iOS 14-15.6.1 via TrollHelperOTA, as well as the original CoreTrust bug used in TrollStore 1.0.
 
 [Fugu15 Presentation](https://youtu.be/rPTifU1lG7Q)
 
-[Write-Up on the CoreTrust bug with more information](https://worthdoingbadly.com/coretrust/).
+[Write-Up on the first CoreTrust bug with more information](https://worthdoingbadly.com/coretrust/).

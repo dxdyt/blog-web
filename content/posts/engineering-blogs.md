@@ -1,9 +1,9 @@
 ---
 title: engineering-blogs
-date: 2023-12-24T12:16:26+08:00
+date: 2023-12-26T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702223175052-b577143bf2c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702223175052-b577143bf2c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701014159141-639d07c4eba4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701014159141-639d07c4eba4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
 ---
 
 # [kilimchoi/engineering-blogs](https://github.com/kilimchoi/engineering-blogs)

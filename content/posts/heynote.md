@@ -1,9 +1,9 @@
 ---
 title: heynote
-date: 2023-12-25T12:17:03+08:00
+date: 2023-12-26T12:16:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702298430594-5d604a5f9dc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702298430594-5d604a5f9dc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
 ---
 
 # [heyman/heynote](https://github.com/heyman/heynote)
@@ -11,6 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702298430594-5d604a5f9d
 # Heynote
 
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/heyman/heynote)](https://github.com/heyman/heynote/releases)
+[![Build Status](https://github.com/heyman/heynote/workflows/Tests/badge.svg)](https://github.com/heyman/heynote/actions?query=workflow%3ATests)
 
 
 Heynote is a dedicated scratchpad for developers. It functions as a large persistent text buffer where you can write down anything you like. Works great for that Slack message you don't want to accidentally send, a JSON response from an API you're working with, notes from a meeting, your daily to-do list, etc. 
@@ -26,17 +27,28 @@ Available for Mac, Windows, and Linux.
 -   Syntax highlighting
     -   C++
     -   C#
+    -   Clojure
     -   CSS
+    -   Erlang
+    -   Go
     -   HTML
     -   Java
     -   JavaScript
+    -   JSX
+    -   TypeScript
+    -   TOML
+    -   TSX
     -   JSON
+    -   Lezer
     -   Markdown
     -   PHP
     -   Python
+    -   Ruby
     -   Rust
+    -   Shell
     -   SQL
     -   XML
+    -   YAML
 -   Language auto-detection
 -   Auto-formatting
 -   Math/Calculator mode

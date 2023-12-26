@@ -1,9 +1,9 @@
 ---
 title: first-contributions
-date: 2023-12-25T12:18:52+08:00
+date: 2023-12-26T12:18:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700585560129-2c03e2a3f511?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700585560129-2c03e2a3f511?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
 ---
 
 # [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)
@@ -16,6 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1700585560129-2c03e2a3f5
 #### _Read this in [other languages](translations/Translations.md)._
 
 <kbd>[<img title="Shqip" alt="Shqip" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/al.svg" width="22">](translations/README.al.md)</kbd>
+<kbd>[<img title="Armenian" alt="Armenian" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/am.svg" width="22">](translations/README.arm.md)</kbd>
 <kbd>[<img title="Uzbek" alt="Uzbek language" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/uz.svg" width="22">](translations/README.uz.md)</kbd>
 <kbd>[<img title="Azərbaycan dili" alt="Azərbaycan dili" src="https://cdn.statically.io/flags/az.svg" width="22">](translations/README.aze.md)</kbd>
 <kbd>[<img title="বাংলা" alt="বাংলা" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/bd.svg" width="22">](translations/README.bn.md)</kbd>
@@ -84,6 +85,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1700585560129-2c03e2a3f5
 <kbd>[<img title="پښتو" alt="پښتو" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/af.svg" width="22">](translations/README.ps.md)</kbd>
 <kbd>[<img title="Af-soomaali" alt="Somalia" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/so.svg" width="22">](translations/README.so.md)</kbd>
 <kbd>[<img title="Español de Ecuador" alt="Ecuador" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/ec.svg" width="22">](translations/README.ec.md)</kbd>
+<kbd>[<img title="Turkmen" alt="Turkmen language" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/tm.svg" width="22">](translations/README.tm.md)</kbd>
+<kbd>[<img title="Ewe (TOGO)" alt="Ewe (TOGO)" src="https://cdn.statically.io/gh/hjnilsson/country-flags/master/svg/tg.svg" width="22">](translations/README.ewe.md)</kbd>
 
 # First Contributions
 
@@ -205,7 +208,7 @@ Congrats! You just completed the standard _fork -> clone -> edit -> pull request
 
 Celebrate your contribution and share it with your friends and followers by going to [web app](https://firstcontributions.github.io/#social-share).
 
-You could join our slack team if you need any help or have any questions. [Join slack team](https://join.slack.com/t/firstcontributors/shared_invite/zt-1n4y7xnk0-DnLVTaN6U9xLU79H5Hi62w).
+You could join our slack team if you need any help or have any questions. [Join slack team](https://firstcontributors.slack.com/join/shared_invite/zt-29qhyr9lt-Bi7WLbgGIFqV7aCEG_grvg#/shared-invite/email).
 
 Now let's get you started with contributing to other projects. We've compiled a list of projects with easy issues you can get started on. Check out [the list of projects in the web app](https://firstcontributions.github.io/#project-list).
 
