@@ -1,9 +1,9 @@
 ---
 title: clone-voice
-date: 2023-12-26T12:18:13+08:00
+date: 2023-12-27T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702429506966-5c8afe9b3c26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702429506966-5c8afe9b3c26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703243030062-58deb1b82367?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703243030062-58deb1b82367?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [jianchang512/clone-voice](https://github.com/jianchang512/clone-voice)
@@ -41,7 +41,7 @@ https://github.com/jianchang512/clone-voice/assets/3378335/4e63f2ac-cc68-4324-a4
 
 # win下预编译版使用方法(其他系统可源码部署)
 
-1. 右侧[Releases](https://github.com/jianchang512/clone-voice/releases)中分别下载 预编译版主文件(1.7G)和  模型(3G)
+1. [点击此处打开Releases页面](https://github.com/jianchang512/clone-voice/releases)，下载预编译版主文件(1.7G) 和  模型(3G)
 
 2. 下载后解压到某处，比如 E:/clone-voice 下
 

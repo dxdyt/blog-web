@@ -1,9 +1,9 @@
 ---
 title: ERCF_v2
-date: 2023-12-26T12:16:24+08:00
+date: 2023-12-27T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700348305514-b9eea0c9999b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700348305514-b9eea0c9999b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [Enraged-Rabbit-Community/ERCF_v2](https://github.com/Enraged-Rabbit-Community/ERCF_v2)

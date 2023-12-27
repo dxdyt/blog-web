@@ -1,16 +1,18 @@
 ---
 title: Complete-System-Design
-date: 2023-12-26T12:17:36+08:00
+date: 2023-12-27T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701624314371-acc9aad51268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701624314371-acc9aad51268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702692625117-c718df0a73fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702692625117-c718df0a73fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [Coder-World04/Complete-System-Design](https://github.com/Coder-World04/Complete-System-Design)
 
 # Complete System Design with Implemented Case Studies and Code
 
-This repository contains everything you need to become proficient in System Design .
+This repository contains everything you need to become proficient in System Design.
+
+![Instagram Design](https://github.com/Coder-World04/Complete-System-Design/assets/104568275/8b0172be-e6f4-47d6-a6c6-c25054692e0e)
 
 [Complete Cheat Sheet for Tech Interviews - How to prepare efficiently](https://open.substack.com/pub/naina0405/p/cheat-sheet-for-tech-interviews-how-339?r=14q3sp&utm_campaign=post&utm_medium=web)
 

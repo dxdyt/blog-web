@@ -1,9 +1,9 @@
 ---
 title: promptbench
-date: 2023-12-26T12:16:51+08:00
+date: 2023-12-27T12:16:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703323573002-506589366378?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703323573002-506589366378?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700451761309-656bd9439443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700451761309-656bd9439443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/promptbench](https://github.com/microsoft/promptbench)

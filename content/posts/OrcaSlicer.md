@@ -1,9 +1,9 @@
 ---
 title: OrcaSlicer
-date: 2023-12-26T12:17:15+08:00
+date: 2023-12-27T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702429506966-5c8afe9b3c26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702429506966-5c8afe9b3c26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [SoftFever/OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
@@ -40,7 +40,7 @@ Orca Slicer's logo is designed by community member Justin Levine(@freejstnalxndr
 **Mac**:
 1. Download the DMG for your computer: `arm64` version for Apple Silicon and `x86_64` for Intel CPU.  
 2. Drag OrcaSlicer.app to Application folder. 
-3. *If you want to run a build from a PR, you also need following instructions bellow*  
+3. *If you want to run a build from a PR, you also need following instructions below*  
     <details quarantine>
     - Option 1 (You only need to do this once. After that the app can be opened normally.):
       - Step 1: Hold _cmd_ and right click the app, from the context menu choose **Open**.

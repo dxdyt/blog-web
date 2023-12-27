@@ -1,9 +1,9 @@
 ---
 title: first-contributions
-date: 2023-12-26T12:18:52+08:00
+date: 2023-12-27T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700694177564-1bfae45112e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700694177564-1bfae45112e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [firstcontributions/first-contributions](https://github.com/firstcontributions/first-contributions)

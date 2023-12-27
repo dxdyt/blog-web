@@ -1,9 +1,9 @@
 ---
 title: heynote
-date: 2023-12-26T12:16:45+08:00
+date: 2023-12-27T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702651250304-2d1d94d1f847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [heyman/heynote](https://github.com/heyman/heynote)
@@ -107,6 +107,35 @@ No, at the moment this is out of scope, sorry.
 Currently, I'm not planning on adding this. The main reason is that it goes against the scratchpadness of the program.
 
 I can totally see the usefulness of such a feature, and it's definitely something that I would expect from a more traditional Notes app. However a large part of Heynote's appeal is it's simplicity, and if that is to remain so, I'm going to have to say no to a lot of actually useful features.
+
+### What are the default keyboard shortcuts?
+
+**On Mac**
+
+```
+⌘ + Enter           Add new block below the current block
+⌘ + Shift + Enter   Split the current block at cursor position
+⌘ + L               Change block language
+⌘ + Down            Goto next block
+⌘ + Up              Goto previous block
+⌘ + A               Select all text in a note block. Press again to select the whole buffer
+⌘ + ⌥ + Up/Down     Add additional cursor above/below
+⌥ + Shift + F       Format block content (works for JSON, JavaScript, HTML, CSS and Markdown)
+```
+
+**On Windows and Linux**
+
+```
+Ctrl + Enter           Add new block below the current block
+Ctrl + Shift + Enter   Split the current block at cursor position
+Ctrl + L               Change block language
+Ctrl + Down            Goto next block
+Ctrl + Up              Goto previous block
+Ctrl + A               Select all text in a note block. Press again to select the whole buffer
+Ctrl + Alt + Up/Down   Add additional cursor above/below
+Alt + Shift + F        Format block content (works for JSON, JavaScript, HTML, CSS and Markdown)
+Alt                    Show menu
+```
 
 ## Thanks!
 

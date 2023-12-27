@@ -1,9 +1,9 @@
 ---
 title: ml-ferret
-date: 2023-12-26T12:16:01+08:00
+date: 2023-12-27T12:15:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701523600650-007b393ed2fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701523600650-007b393ed2fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM1NjQxNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703192163780-2a4b87903da8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703192163780-2a4b87903da8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
 ---
 
 # [apple/ml-ferret](https://github.com/apple/ml-ferret)
