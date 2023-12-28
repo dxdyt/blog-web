@@ -1,9 +1,9 @@
 ---
 title: atomicals-js
-date: 2023-12-21T12:17:53+08:00
+date: 2023-12-28T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703244149331-33f166b82e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703244149331-33f166b82e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
 ---
 
 # [atomicals/atomicals-js](https://github.com/atomicals/atomicals-js)
@@ -20,17 +20,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1702165637236-46169676d7
 ## Install
 
 ```
-Download the github repo:
+# Download the github repo:
 git clone https://github.com/atomicals/atomicals-js.git
 
-Build:
-# If you don't have yarn installed
+cd atomicals-js
+
+# Build:
+# If you don't have yarn & node installed
+# npm install -g node
 # npm install -g yarn
 
 yarn install
 yarn run build
 
-See all commands at:
+#See all commands at:
 
 yarn run cli --help
 ```
@@ -48,6 +51,9 @@ ELECTRUMX_WSS=wss://electrumx.atomicals.xyz:50012
 
 // Optional (defaults to wallet.json)
 WALLET_PATH=path-to-wallet.json
+
+// The number of concurrent processes to be used. This should not exceed the number of CPU cores available. If not set, the default behavior is to use all available CPU cores minus one.
+CONCURRENCY=4
 ```
 
 _ELECTRUMX_WSS_: URL of the ElectrumX with Atomicals support. Note that only `wss` endpoints are accessible from web browsers.

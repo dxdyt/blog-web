@@ -1,9 +1,9 @@
 ---
 title: StreamDiffusion
-date: 2023-12-27T12:15:35+08:00
+date: 2023-12-28T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701433507837-563082c84e7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701433507837-563082c84e7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701921335693-3c1cf9b6e541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701921335693-3c1cf9b6e541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
 ---
 
 # [cumulo-autumn/StreamDiffusion](https://github.com/cumulo-autumn/StreamDiffusion)
