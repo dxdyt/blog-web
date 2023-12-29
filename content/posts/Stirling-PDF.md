@@ -1,9 +1,9 @@
 ---
 title: Stirling-PDF
-date: 2023-12-28T12:15:37+08:00
+date: 2023-12-29T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701921335693-3c1cf9b6e541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701921335693-3c1cf9b6e541?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702891150984-9ebc4e572b1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702891150984-9ebc4e572b1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
 ---
 
 # [Frooodle/Stirling-PDF](https://github.com/Frooodle/Stirling-PDF)

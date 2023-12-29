@@ -1,9 +1,9 @@
 ---
 title: page-spy-web
-date: 2023-12-16T12:17:33+08:00
+date: 2023-12-29T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700495525887-7554f360c531?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702241234961-b3f7861f57d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702241234961-b3f7861f57d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
 ---
 
 # [HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
@@ -44,7 +44,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1700495525887-7554f360c5
 [![API Version][api-ver-img]][api-ver-url]
 [![Go Version][api-go-img]][api-go-url]
 
-<a href="https://www.producthunt.com/posts/pagespy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pagespy" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=429852&theme=light" alt="PageSpy - Remote&#0032;debugging&#0032;as&#0032;seamless&#0032;as&#0032;local&#0032;debugging&#0046; | Product Hunt" height="36" /></a>
+<a href="https://www.producthunt.com/posts/pagespy?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-pagespy" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=429852&theme=light" alt="PageSpy - Remote&#0032;debugging&#0032;as&#0032;seamless&#0032;as&#0032;local&#0032;debugging&#0046; | Product Hunt" height="36" /></a> <a href="https://news.ycombinator.com/item?id=38679798" target="_blank"><img src="https://hackernews-badge.vercel.app/api?id=38679798" alt="PageSpy - Remote&#0032;debugging&#0032;as&#0032;seamless&#0032;as&#0032;local&#0032;debugging&#0046; | Hacker News" height="36" /></a>
 
 English | [中文](./README_ZH.md)
 
@@ -76,27 +76,35 @@ In order to ensure data security and facilitate your usage, we offer comprehensi
 
 ### Option 1: deploy by docker
 
-> Video tutorial: [Deploy PageSpy with docker](https://youtu.be/LttXrBbVqbI?si=AvcI9Fr1YdmyTCD1)
+> Video tutorial:
+>
+> <a href="https://www.youtube.com/watch?v=AYD84Kht5yA" target="_blank"><img src="./.github/assets/video-docker-en.jpg" width="320" /></a>
 
 ```bash
-$ docker run -d --restart=always -p 6752:6752 --name="pageSpy" ghcr.io/huolalatech/page-spy-web:release
+docker run -d --restart=always -p 6752:6752 --name="pageSpy" ghcr.io/huolalatech/page-spy-web:release
 ```
 
 Once the deployment is successful, you can open the browser and access `<host>:6752`, the `Inject SDK` menu will be at the top, and you can find how to configure and integrate in the business project by click the menu.
 
 ### Option 2: deploy by node
 
-> Video tutorial: [Deploy PageSpy with node](https://youtu.be/Xf7S6TPbYd0?si=J4vc_A-8AekCesUf)
+> Video tutorial:
+>
+> <a href="https://www.youtube.com/watch?v=5zVnFPjursQ" target="_blank"><img src="./.github/assets/video-node-en.jpg" width="320" /></a>
 
 ```bash
-$ yarn global add @huolala-tech/page-spy-api
+yarn global add @huolala-tech/page-spy-api
 
 # if you use npm
 
-$ npm install -g @huolala-tech/page-spy-api
+npm install -g @huolala-tech/page-spy-api
 ```
 
 After the download is complete, you can directly execute `page-spy-api` in the command line to start the service. Once the deployment is successful, you can open the browser and access `<host>:6752`, the `Inject SDK` menu will be at the top, and you can find how to configure and integrate in the business project by click the menu.
+
+## Community
+
+Join us on our [Official Discord Server](https://discord.gg/ERPpNZkX)!
 
 ## Roadmap
 
@@ -104,7 +112,7 @@ Click to see the [Roadmap](https://github.com/orgs/HuolalaTech/projects/1).
 
 ## How to contribute?
 
-Click to see the [Contribution](./CONTRIBUTING_EN.md).
+Click to see the [Contributing](./CONTRIBUTING.md).
 
 ## FAQ
 
