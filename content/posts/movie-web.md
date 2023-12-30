@@ -1,9 +1,9 @@
 ---
 title: movie-web
-date: 2023-12-29T12:16:47+08:00
+date: 2023-12-30T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702138062308-fc6beed165d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702138062308-fc6beed165d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702045541169-827c04a83cfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702045541169-827c04a83cfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [movie-web/movie-web](https://github.com/movie-web/movie-web)
@@ -37,7 +37,7 @@ We do not want this project to be yet another bulky streaming site, instead it a
 
 On top of that, hosting should be as cheap and simple as possible. Just a static website with a proxy, with an optional backend if you want cross-device syncing.
 
-Content is fetched from third parties and scraping is done fully done on the client. This means that the hoster has no files or media on their server. All files are streamed directly from the third parties.
+Content is fetched from third parties and scraping is fully done on the client. This means that the hoster has no files or media on their server. All files are streamed directly from the third parties.
 
 ## ⚠️ Limitations
 

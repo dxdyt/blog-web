@@ -1,9 +1,9 @@
 ---
 title: undici
-date: 2023-12-29T12:15:56+08:00
+date: 2023-12-30T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699614614613-bb757029f49f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699614614613-bb757029f49f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703446485384-547d8550303c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703446485384-547d8550303c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [nodejs/undici](https://github.com/nodejs/undici)

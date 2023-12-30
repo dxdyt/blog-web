@@ -1,9 +1,9 @@
 ---
 title: omnivore
-date: 2023-10-19T12:15:26+08:00
+date: 2023-12-30T12:18:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695556746240-55d9f92faf43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695556746240-55d9f92faf43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701111818123-7ffe68d8d49c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701111818123-7ffe68d8d49c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1695556746240-55d9f92faf
 
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/omnivore-app/omnivore/Run%20tests)](https://github.com/omnivore-app/omnivore/actions/workflows/run-tests.yaml)
 [![Discord](https://img.shields.io/discord/844965259462311966?label=Join%20our%20Discord)](https://discord.gg/h2z5rppzz9)
-[![Mastodon Follow](https://img.shields.io/mastodon/follow/109458738600914558?domain=https%3A%2F%2Fpkm.social)](https://pkm.social/@omnivore)  
+[![Mastodon Follow](https://img.shields.io/mastodon/follow/109458738600914558?domain=https%3A%2F%2Fpkm.social)](https://pkm.social/@omnivore)
 [![Twitter Follow](https://img.shields.io/twitter/follow/omnivoreapp)](https://twitter.com/OmnivoreApp)
 ![GitHub](https://img.shields.io/github/license/omnivore-app/omnivore)
 
@@ -28,7 +28,7 @@ We built Omnivore because we love reading and we want it to be more social. Join
 - Add newsletter articles via email (with substack support!)
 - PDF support
 - [Web app](https://omnivore.app/) written in Node.js and TypeScript
-- [Native iOS app](https://omnivore.app/install/ios)
+- [Native iOS app](https://omnivore.app/install/ios) ([source](https://github.com/omnivore-app/omnivore/tree/main/apple))
 - [Android app](https://omnivore.app/install/android) ([source](https://github.com/omnivore-app/omnivore/tree/main/android/Omnivore))
 - Progressive web app for Android users
 - Browser extensions for [Chrome](https://omnivore.app/install/chrome), [Safari](https://omnivore.app/install/safari), [Firefox](https://omnivore.app/install/firefox), and [Edge](https://omnivore.app/install/edge)
@@ -43,7 +43,6 @@ Every single part is fully open source! Fork it, extend it, or deploy it to your
 We also have a free hosted version of Omnivore at [omnivore.app](https://omnivore.app/) -- try it now!
 
 <img width="981" alt="web-screenshot-listview" src="https://github.com/omnivore-app/omnivore/assets/75189/df7c797a-4255-42f4-a686-ad94866cb580">
-
 
 ## Join us on Discord! :speech_balloon:
 
@@ -110,8 +109,20 @@ with docker compose and the frontend locally:
 ```bash
 docker compose up api content-fetch
 cd packages/web
-cp .env.template .env
+cp .env.template .env.local
 yarn dev
+```
+
+You will need to configure some values in the new `.env.local` file. These are
+the values for running the `web` service directly on your host machine and
+running `api` and `content-fetch` within docker:
+
+```sh
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_HIGHLIGHTS_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_LOCAL_BASE_URL=http://localhost:3000
+NEXT_PUBLIC_SERVER_BASE_URL=http://localhost:4000
+NEXT_PUBLIC_LOCAL_SERVER_BASE_URL=http://localhost:4000
 ```
 
 ### Running the puppeteer-parse service outside of Docker

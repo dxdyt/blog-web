@@ -1,9 +1,9 @@
 ---
 title: ChatGLM3
-date: 2023-12-29T12:17:02+08:00
+date: 2023-12-30T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701888203979-b7ae62de6319?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701888203979-b7ae62de6319?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701986789741-be476007d697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701986789741-be476007d697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3)
@@ -47,10 +47,19 @@ ChatGLM3 开源模型旨在与开源社区一起推动大模型技术发展，�
 | ChatGLM3-6B-32K | 32k |                                   [HuggingFace](https://huggingface.co/THUDM/chatglm3-6b-32k) \| [ModelScope](https://modelscope.cn/models/ZhipuAI/chatglm3-6b-32k)                                    
 
 ## 友情链接
-对 ChatGLM3 进行加速的开源项目：
+
+以下优秀开源仓库已经对 ChatGLM3-6B 模型深度支持，欢迎大家扩展学习。
+
+推理加速：
 * [chatglm.cpp](https://github.com/li-plus/chatglm.cpp): 类似 llama.cpp 的量化加速推理方案，实现笔记本上实时对话
 * [ChatGLM3-TPU](https://github.com/sophgo/ChatGLM3-TPU): 采用TPU加速推理方案，在算能端侧芯片BM1684X（16T@FP16，内存16G）上实时运行约7.5 token/s
 * [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/tree/main): NVIDIA开发的高性能GPU加速推理方案，可以参考此[步骤](./tensorrt_llm_demo/README.md)部署ChatGLM3
+
+高效微调：
+* [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory): 优秀易上手的高效微调框架。
+
+应用框架：
+* [LangChain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat): 基于 ChatGLM 等大语言模型与 Langchain 等应用框架实现，开源、可离线部署的检索增强生成(RAG)大模型知识库项目。
 
 ## 评测结果
 

@@ -1,9 +1,9 @@
 ---
 title: nuxt
-date: 2023-12-29T12:18:23+08:00
+date: 2023-12-30T12:17:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701069090867-3a8951584074?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701069090867-3a8951584074?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701220292112-b88ecb0f7401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701220292112-b88ecb0f7401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [nuxt/nuxt](https://github.com/nuxt/nuxt)
