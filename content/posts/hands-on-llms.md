@@ -1,9 +1,9 @@
 ---
 title: hands-on-llms
-date: 2023-12-29T12:17:17+08:00
+date: 2023-12-31T12:18:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701888203979-b7ae62de6319?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701888203979-b7ae62de6319?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM4MjMzMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
 ---
 
 # [iusztinpaul/hands-on-llms](https://github.com/iusztinpaul/hands-on-llms)

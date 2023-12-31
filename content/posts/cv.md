@@ -1,9 +1,9 @@
 ---
 title: cv
-date: 2023-12-30T12:16:03+08:00
+date: 2023-12-31T12:15:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220292112-b88ecb0f7401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220292112-b88ecb0f7401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
 ---
 
 # [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)

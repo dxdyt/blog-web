@@ -1,9 +1,9 @@
 ---
 title: deskhop
-date: 2023-12-30T12:15:51+08:00
+date: 2023-12-31T12:17:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701455516458-ae6e8999a0a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701455516458-ae6e8999a0a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703053658436-27e36f06d20a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703053658436-27e36f06d20a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
 ---
 
 # [hrvach/deskhop](https://github.com/hrvach/deskhop)
@@ -170,6 +170,14 @@ Not with the current version, as it assumes the mouse is plugged in the other po
 6. Will this work with wireless mice and keyboards that have separate wireless receivers (one for the mouse, another for the keyboard)?
 
 It wasn't tested with those, so surprises are always possible but in theory it should work out of the box.
+
+## Software Alternatives
+
+There are several software alternatives you can use if that works in your particular situation.
+
+1. [Barrier](https://github.com/debauchee/barrier) - Free, Open Source
+2. [Input Leap](https://github.com/input-leap/input-leap) - Free, Open Source
+3. [Synergy](https://symless.com/synergy) - Commercial
 
 ## Shortcomings
 
