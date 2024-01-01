@@ -1,9 +1,9 @@
 ---
 title: llm-course
-date: 2023-12-31T12:16:33+08:00
+date: 2024-01-01T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743804452-24fd24844bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743804452-24fd24844bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702988319113-051682d600a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702988319113-051682d600a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
 ---
 
 # [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
@@ -43,6 +43,7 @@ A list of notebooks and articles related to large language models.
 
 | Notebook | Description | Article | Notebook |
 |---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Merge LLMs with Mergekit | Combine multiple LLMs and create your own Frankenstein models | [Tweet](https://twitter.com/maximelabonne/status/1740732104554807676) | <a href="https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
 | Decoding Strategies in Large Language Models | A guide to text generation from beam search to nucleus sampling | [Article](https://mlabonne.github.io/blog/posts/2022-06-07-Decoding_strategies.html) | <a href="https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
 | Visualizing GPT-2's Loss Landscape | 3D plot of the loss landscape based on weight pertubations. | [Tweet](https://twitter.com/maximelabonne/status/1667618081844219904) | <a href="https://colab.research.google.com/drive/1Fu1jikJzFxnSPzR_V2JJyDVWWJNXssaL?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
 | Improve ChatGPT with Knowledge Graphs | Augment ChatGPT's answers with knowledge graphs. | [Article](https://mlabonne.github.io/blog/posts/Article_Improve_ChatGPT_with_Knowledge_Graphs.html) | <a href="https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing"><img src="images/colab.svg" alt="Open In Colab"></a> |
@@ -280,3 +281,7 @@ This roadmap was inspired by the excellent [DevOps Roadmap](https://github.com/m
 Special thanks to Thomas Thelen for motivating me to create a roadmap, and André Frade for his input and review of the first draft.
 
 *Disclaimer: I am not affiliated with any sources listed here.*
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mlabonne/llm-course&type=Date)](https://star-history.com/#mlabonne/llm-course&Date)

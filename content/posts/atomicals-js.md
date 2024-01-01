@@ -1,9 +1,9 @@
 ---
 title: atomicals-js
-date: 2023-12-28T12:15:49+08:00
+date: 2024-01-01T12:18:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703244149331-33f166b82e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703244149331-33f166b82e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM3MzY5MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702140944216-e09d1284067e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702140944216-e09d1284067e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
 ---
 
 # [atomicals/atomicals-js](https://github.com/atomicals/atomicals-js)
@@ -14,6 +14,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1703244149331-33f166b82e
 > Documentation: https://docs.atomicals.xyz
 
 ![Atomicals](banner.png)
+
+
+### WARNING: STRONGLY RECOMMENDED TO USE YARN INSTEAD OF NPM
+
+Use `yarn` package manager instead of `npm`. Instructions below (They are: `npm install -g yarn`)
+
+In the latest version of the CLI processing library the option switches (the settings starting with `--`) are not processed correctly and it would lead to
+too small of a fee being set and result in your transactions not being mined.
+
+Workaround: Use `yarn` instead of `npm`
+
 
 ### Install, Build and Run Tests
 
@@ -36,6 +47,7 @@ yarn run build
 #See all commands at:
 
 yarn run cli --help
+
 ```
 
 ### Quick Start - Command Line (CLI)

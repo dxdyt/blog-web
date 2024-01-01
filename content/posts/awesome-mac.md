@@ -1,9 +1,9 @@
 ---
 title: awesome-mac
-date: 2023-12-30T12:16:35+08:00
+date: 2024-01-01T12:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701455516458-ae6e8999a0a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701455516458-ae6e8999a0a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701421709945-4d0660948cc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701421709945-4d0660948cc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
 ---
 
 # [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
@@ -433,6 +433,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [WezTerm](https://wezfurlong.org/wezterm/) - A GPU-accelerated cross-platform terminal emulator and multiplexer implemented in Rust. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/wez/wezterm)
 * [xonsh](https://xon.sh/contents.html) - Python-powered, cross-platform, Unix-gazing shell language and command prompt. [![Open-Source Software][OSS Icon]](https://sourceforge.net/projects/zsh/) ![Freeware][Freeware Icon]
 * [Zsh](https://www.zsh.org) - Zsh is a shell designed for interactive use, although it is also a powerful scripting language. [![Open-Source Software][OSS Icon]](https://sourceforge.net/projects/zsh/) ![Freeware][Freeware Icon] [![Awesome List][awesome-list Icon]](https://github.com/unixorn/awesome-zsh-plugins#readme)
+* [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) - A delightful community-driven framework for managing your zsh configuration. [![Open-Source Software][OSS Icon]](https://github.com/ohmyzsh/ohmyzsh) ![Freeware][Freeware Icon]
 * [xcodes](https://github.com/RobotsAndPencils/xcodes) - A command-line tool to install and switch between multiple versions of Xcode. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/RobotsAndPencils/xcodes)
 * [xxh](https://github.com/xxh/xxh) - Bring your favorite shell wherever you go through the SSH. [![Open-Source Software][OSS Icon]](https://sourceforge.net/projects/zsh/) ![Freeware][Freeware Icon]
 
@@ -478,6 +479,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [Multipass](https://multipass.run/) - Ubuntu VMs on demand for any workstation. [![Open-Source Software][OSS Icon]](https://github.com/canonical/multipass)
 * [OrbStack](https://orbstack.dev/) - OrbStack is a fast, light, and simple way to run Docker containers and Linux machines on macOS. ![Freeware][Freeware Icon]
 * [Parallels](http://www.parallels.com/) - Powerful, easy-to-use VM. No free upgrade for each new Mac OS.
+* [Rancher Desktop](https://rancherdesktop.io) - Rancher Desktop is an app that provides container management and Kubernetes on the desktop. [![Open-Source Software][OSS Icon]](https://github.com/rancher-sandbox/rancher-desktop/blob/main/LICENSE)
 * [Lima](https://github.com/lima-vm/lima) - Lima launches Linux virtual machines with automatic file sharing and port forwarding. [![Open-Source Software][OSS Icon]](https://github.com/lima-vm/lima)
 * [QEMU](https://www.qemu.org/) - A free and open-source emulator and virtualizer that can perform hardware virtualization. [![Open-Source Software][OSS Icon]](https://github.com/qemu/qemu) ![Freeware][Freeware Icon]
 * [UTM](https://mac.getutm.app/) - UTM is an easy-to-use GUI for QEMU and can run ARM64, x64 and other VMs on M1 Macs. [![Open-Source Software][OSS Icon]](https://github.com/utmapp/UTM)
@@ -726,7 +728,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [Ardour](https://ardour.org/) - Cross-platform audio software for multi-track recording and editing. [![Open-Source Software][OSS Icon]](https://github.com/Ardour/ardour)
 * [Audacity](http://www.audacityteam.org/) - Free, open-source, cross-platform audio software for multi-track recording and editing. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/audacity/audacity)
 * [Audio Hijack](http://www.rogueamoeba.com/audiohijack/) - Record any application's audio, including VoIP calls from Skype, web streams from Safari, and much more.
-* [BeMyEars](https://www.bemyears.io/) - Free for hearing impaired, System wide on-device live caption, multi language support, just like you have YouTube subtitles everywhere.
+* [BeMyEars](https://www.bemyears.cn/) - Free for hearing impaired, System wide on-device live caption, multi language support, just like you have YouTube subtitles everywhere.
 * [BlackHole](https://github.com/ExistentialAudio/BlackHole) - Freemium, open-source virtual output/input audio driver for recording/routing internal audio. [![Open-Source Software][OSS Icon]](https://github.com/ExistentialAudio/BlackHole) [![Freeware][Freeware Icon]](https://github.com/ExistentialAudio/BlackHole)
 * [Carol](https://github.com/AnaghSharma/Carol) - A minimal and beautiful lyrics app for macOS. [![Open-Source Software][OSS Icon]](https://github.com/AnaghSharma/Carol) ![Freeware][Freeware Icon]
 * [Cog](http://cogx.org/) - Free, open-source audio player. [![Open-Source Software][OSS Icon]](https://github.com/losnoco/cog) ![Freeware][Freeware Icon] [![App Store][app-store Icon]](https://apps.apple.com/us/app/cog-kode54/id1630499622)
@@ -767,6 +769,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [Stremio](https://www.stremio.com/) - Movies, TV shows, series, live television or web channels like YouTube and Twitch.tv - you can find all this on Stremio. ![Freeware][Freeware Icon]
 * [Stringed 2](http://stringed.buenosapps.com/) - Music practice software designed to help users learn how to play their favorite songs.
 * [Synfig Studio](http://synfig.org) - Synfig Studio is free, open-source 2D animation software. [![Open-Source Software][OSS Icon]](https://github.com/synfig/synfig) ![Freeware][Freeware Icon]
+* [trax](https://github.com/nbonamy/trax) - Free, open-source music library management tool with audio conversion and tag management functionalities. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/nbonamy/trax)
 * [VLC](http://www.videolan.org/index.html) - Free, open-source, cross-platform multimedia player as well as framework that plays most multimedia files, DVDs, Audio CDs, VCDs and various streaming protocols. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/videolan/vlc)
 * [VOX Player](https://vox.rocks/mac-music-player) - High-definition audio player for Mac and iPhone. Music just sounds better! ![Freeware][Freeware Icon]
 * [XLD](http://tmkk.undo.jp/xld/index_e.html) - Tool to decode, convert and play various 'lossless' audio files. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://code.google.com/archive/p/xld/source)
@@ -774,6 +777,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [Omniplayer](https://okaapps.com/product/1470926410#) - Best media player on Mac, support almost all format. [![App Store][app-store Icon]](macappstore://itunes.apple.com/app/id1470926410?pt=119209922&l=en&mt=12&ct=newhomepage)
 * [YouTube Music](https://th-ch.github.io/youtube-music/) - YouTube Music Desktop App bundled with custom plugins (and built-in ad blocker / downloader). [![Open-Source Software][OSS Icon]](https://github.com/th-ch/youtube-music/) ![Freeware][Freeware Icon]
 * [YouTube Music Desktop](https://ytmdesktop.app/) -  Free cross platform Desktop Player for YouTube Music. [![Open-Source Software][OSS Icon]](https://github.com/ytmdesktop/ytmdesktop) ![Freeware][Freeware Icon]
+* [YPlayer](https://www.engineerdraft.com/en/yplayer/) - A multifunctional app capable of live caption on-device, converting audio and video files into text and subtitle, transforming recordings into text, and translating subtitles.
 
 ### Audio Record and Process
 
@@ -903,6 +907,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 #### Clipboard Tools
 
 * [Boop](https://boop.okat.best/) - Snippet tool that provides various functionalities like JSON formatting, MD5 Checksum, reverse string, encode, and much more. [![Open-Source Software][OSS Icon]](https://github.com/IvanMathy/Boop)
+* [CleanClip](https://cleanclip.cc) - The cleanest Clipboard Manager on macOS, ever! ![Freeware][Freeware Icon]
 * [Clipboard](https://getclipboard.app/) - Easy-to-use terminal clipboard manager for all platforms. [![Open-Source Software][OSS Icon]](https://github.com/Slackadays/Clipboard) ![Freeware][Freeware Icon]
 * [ClipMenu](http://www.clipmenu.com) - Clipboard manager for Mac OS X. [![Open-Source Software][OSS Icon]](https://github.com/naotaka/ClipMenu) ![Freeware][Freeware Icon]
 * [ClipTools](https://macmost.com/cliptools) - ClipTools is a status menu application that gives you access to a variety of simple clipboard utilities. ![Freeware][Freeware Icon] [![App Store][app-store Icon]](https://apps.apple.com/us/app/cliptools/id1619348240?mt=12)
@@ -1032,6 +1037,7 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [Keytty](http://keytty.com) - App to keep your hands on the keyboard. Move, click, scroll, drag and more with a few strokes.
 * [Lazy](https://www.lazy-app.com/) - Keyboard-driven commands to manage your surroundings directly from your mac.
 * [Linear Mouse](https://linearmouse.app/) - Full control of mouse. Change the speed, scrolling direction, pointer type and much more. [![Open-Source Software][OSS Icon]](https://github.com/linearmouse/linearmouse)
+* [Macaify](https://macaify.com) - Fast use of ChatGPT, lightweight, clean, keyboard-first. ![Freeware][Freeware Icon]
 * [MindMac](https://mindmac.app/) - Feature-rich & privacy-first native ChatGPT app to use OpenAI, Azure OpenAI, Anthropic Claude, OpenRouter all in one place.
 * [Mos](https://mos.caldis.me/) - Simple tool can offer the smooth scrolling and reverse the mouse scrolling direction on your Mac. [![Open-Source Software][OSS Icon]](https://github.com/Caldis/Mos) ![Freeware][Freeware Icon]
 * [OmniPlan](https://www.omnigroup.com/omniplan/) - The best way to visualize, maintain, and simplify your projects. Project Management made easy.

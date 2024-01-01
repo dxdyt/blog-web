@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2023-12-31T12:17:37+08:00
+date: 2024-01-01T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220416944-2f37adf10686?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220416944-2f37adf10686?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701695318246-2d48c7f1cc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701695318246-2d48c7f1cc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)
@@ -95,6 +95,10 @@ Currently the only supported process is `Process.sequential`, where one task is 
 
 ## Examples
 You can test different real life examples of AI crews [in the examples repo](https://github.com/joaomdmoura/crewAI-examples?tab=readme-ov-file)
+
+- [Trip Planner](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
+- [Stock Analysis](https://github.com/joaomdmoura/crewAI-examples/tree/main/stock_analysis)
+- [Landing Page Generator](https://github.com/joaomdmoura/crewAI-examples/tree/main/landing_page_generator)
 
 ## Local Open Source Models
 crewAI supports integration with local models, thorugh tools such as [Ollama](https://ollama.ai/), for enhanced flexibility and customization. This allows you to utilize your own models, which can be particularly useful for specialized tasks or data privacy concerns.
