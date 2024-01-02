@@ -1,9 +1,9 @@
 ---
 title: modular-monolith-with-ddd
-date: 2023-12-11T12:18:34+08:00
+date: 2024-01-02T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700127272763-b775d79ecd8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700127272763-b775d79ecd8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
 ---
 
 # [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd)
@@ -467,13 +467,15 @@ internal class GetAllMeetingGroupsQueryHandler : IQueryHandler<GetAllMeetingGrou
     {
         var connection = _sqlConnectionFactory.GetOpenConnection();
 
-        const string sql = "SELECT " +
-                           "[MeetingGroup].[Id], " +
-                           "[MeetingGroup].[Name], " +
-                           "[MeetingGroup].[Description], " +
-                           "[MeetingGroup].[LocationCountryCode], " +
-                           "[MeetingGroup].[LocationCity]" +
-                           "FROM [meetings].[v_MeetingGroups] AS [MeetingGroup]";
+        const string sql = $"""
+                           SELECT 
+                                [MeetingGroup].[Id] as [{nameof(MeetingGroupDto.Id)}] , 
+                                [MeetingGroup].[Name] as [{nameof(MeetingGroupDto.Name)}], 
+                                [MeetingGroup].[Description] as [{nameof(MeetingGroupDto.Description)}] 
+                                [MeetingGroup].[LocationCountryCode] as [{nameof(MeetingGroupDto.LocationCountryCode)}],
+                                [MeetingGroup].[LocationCity] as [{nameof(MeetingGroupDto.LocationCity)}]
+                           FROM [meetings].[v_MeetingGroups] AS [MeetingGroup]
+                           """;
         var meetingGroups = await connection.QueryAsync<MeetingGroupDto>(sql);
 
         return meetingGroups.AsList();

@@ -1,32 +1,34 @@
 ---
 title: LunarCore
-date: 2023-11-30T12:18:51+08:00
+date: 2024-01-02T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687960507238-5f6565a08b2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687960507238-5f6565a08b2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703354445674-7c39f58a37ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703354445674-7c39f58a37ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
 ---
 
 # [Melledy/LunarCore](https://github.com/Melledy/LunarCore)
 
-# Lunar Core
+![LunarCore](https://socialify.git.ci/Melledy/LunarCore/image?description=1&descriptionEditable=A%20game%20server%20reimplementation%20for%20version%201.6.0%20of%20a%20certain%20turn-based%20anime%20game%20for%20educational%20purposes.%20&font=Inter&forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Light)
+<div align="center"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Melledy/LunarCore?logo=java&style=for-the-badge"> <img alt="GitHub" src="https://img.shields.io/github/license/Melledy/LunarCore?style=for-the-badge"> <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Melledy/LunarCore?style=for-the-badge"> <img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/Melledy/LunarCore/build.yml?branch=development&logo=github&style=for-the-badge"></div>
 
-**_Language_**
-[EN](README.md) | [简中](README_zh-CN.md) | [日本語](README_ja-JP.md)
+<div align="center"><a href="https://discord.gg/cfPKJ6N5hw"><img alt="Discord - Grasscutter" src="https://img.shields.io/discord/1163718404067303444?label=Discord&logo=discord&style=for-the-badge"></a></div>
 
-#
-A game server reimplementation for version 1.5.0 of a certain turn-based anime game for educational purposes. For any extra support, questions, or discussions, check out our [discord](https://discord.gg/cfPKJ6N5hw).
+[EN](README.md) | [简中](docs/README_zh-CN.md) | [繁中](docs/README_zh-TW.md) | [JP](docs/README_ja-JP.md) | [RU](docs/README_ru-RU.md) | [FR](docs/README_fr-FR.md) | [KR](docs/README_ko-KR.md)
+
+**Attention:** For any extra support, questions, or discussions, check out our [Discord](https://discord.gg/cfPKJ6N5hw).
 
 ### Notable features
 - Basic game features: Logging in, team setup, inventory, basic scene/entity management
 - Monster battles working
 - Natural world monster/prop/NPC spawns
-- Most character techniques are handled
+- Character techniques
+- Crafting/Consumables working
 - Npc shops handled
 - Gacha system
 - Mail system
 - Friend system (Assists are not working yet)
-- Forgotten hall (with 1.4.0 features)
-- Simulated universe (Runs can be finished, but many features are missing)
+- Forgotten hall
+-  ~~Simulated universe (Runs can be finished, but many features are missing)~~
 
 # Running the server and client
 
@@ -37,13 +39,12 @@ A game server reimplementation for version 1.5.0 of a certain turn-based anime g
 * [MongoDB 4.0+](https://www.mongodb.com/try/download/community)
 
 ### Compiling the server
-1. Download the files from [https://gitlab.com/Melledy/LunarCore-Protos](https://gitlab.com/Melledy/LunarCore-Protos) and place the proto folder into your server directory
-2. Open your system terminal, and compile the server with `./gradlew jar`
-3. Create a folder named `resources` in your server directory
-4. Download the `Config`, `TextMap`, and `ExcelBin` folders from [https://github.com/Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData) and place them into your resources folder.
-5. Download the `Config` folder from [https://gitlab.com/Melledy/LunarCore-Configs](https://gitlab.com/Melledy/LunarCore-Configs) and place them into your resouces folder. REPLACE any files that your system asks about. These are for world spawns and are quite important for the server.
-6. Run the server with `java -jar LunarCore.jar` from your system terminal. Lunar Core comes with a built-in internal MongoDB server for its database, so no Mongodb installation is required. However, it is highly recommended to install Mongodb anyway.
-7. If you have `autoCreateAccount` set to true in the config, then you can skip creating an account. Otherwise, use the `/account` command in the server console to create one.
+1. Open your system terminal, and compile the server with `./gradlew jar`
+2. Create a folder named `resources` in your server directory
+3. Download the `Config`, `TextMap`, and `ExcelBin` folders from [https://github.com/Dimbreath/StarRailData](https://github.com/Dimbreath/StarRailData) and place them into your resources folder.
+4. Download the `Config` folder from [https://gitlab.com/Melledy/LunarCore-Configs](https://gitlab.com/Melledy/LunarCore-Configs) and place them into your resources folder. REPLACE any files that your system asks about. These are for world spawns and are quite important for the server.
+5. Run the server with `java -jar LunarCore.jar` from your system terminal. Lunar Core comes with a built-in internal MongoDB server for its database, so no Mongodb installation is required. However, it is highly recommended to install Mongodb anyway.
+6. If you have `autoCreateAccount` set to true in the config, then you can skip creating an account. Otherwise, use the `/account` command in the server console to create one.
 
 ### Connecting with the client (Fiddler)
 1. **Login with the client to an official server and Hoyoverse account at least once to download game data.**
@@ -74,18 +75,20 @@ Server commands can be run in the server console or in-game. There is a dummy us
 
 ```
 /account {create | delete} [username] (reserved player uid). Creates or deletes an account.
-/avatar lv(level) p(ascension) r(eidolon) s(skill levels). Sets the current avatar's properties
+/avatar lv(level) p(ascension) r(eidolon) s(skill levels). Sets the current avatar's properties.
 /clear {relics | lightcones | materials | items}. Removes filtered items from the player inventory.
 /gender {male | female}. Sets the player gender.
-/give [item id] x[amount]. Gives the targetted player an item.
-/giveall {materials | avatars}. Gives the targeted player items.
+/give [item id] x[amount] lv[number]. Gives the targetted player an item.
+/giveall {materials | avatars | lightcones | relics}. Gives the targeted player items.
+/heal. Heals your avatars.
 /help. Displays a list of available commands.
+/kick @[player id]. Kicks a player from the server.
 /mail [content]. Sends the targeted player a system mail.
 /permission {add | remove | clear} [permission]. Gives/removes a permission from the targeted player.
+/refill. Refill your skill points in open world.
 /reload. Reloads the server config.
 /scene [scene id] [floor id]. Teleports the player to the specified scene.
 /spawn [monster/prop id] x[amount] s[stage id]. Spawns a monster or prop near the targeted player.
 /unstuck @[player id]. Unstucks an offline player if theyre in a scene that doesnt load.
 /worldlevel [world level]. Sets the targeted player's equilibrium level.
-/refill. Refills your skill points in open world.
 ```

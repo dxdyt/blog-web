@@ -1,0 +1,36 @@
+---
+title: mixtral-offloading
+date: 2024-01-02T12:15:59+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+---
+
+# [dvmazur/mixtral-offloading](https://github.com/dvmazur/mixtral-offloading)
+
+# Mixtral offloading
+
+This project implements efficient inference of [Mixtral-8x7B models](https://mistral.ai/news/mixtral-of-experts/).
+
+## How does it work?
+
+In summary, we achieve efficient inference of Mixtral-8x7B models through a combination of techniques:
+
+* **Mixed quantization with HQQ**. We apply separate quantization schemes for attention layers and experts to fit the model into the combined GPU and CPU memory.
+* **MoE offloading strategy**. Each expert per layer is offloaded separately and only brought pack to GPU when needed. We store active experts in a LRU cache to reduce GPU-RAM communication when computing activations for adjacent tokens.
+
+For more detailed information about our methods and results, please refer to our [tech-report](https://arxiv.org/abs/2312.17238).
+
+## Running
+
+To try this demo, please use the demo notebook: [./notebooks/demo.ipynb](./notebooks/demo.ipynb) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dvmazur/mixtral-offloading/blob/master/notebooks/demo.ipynb)
+
+For now, there is no command-line script available for running the model locally. However, you can create one using the demo notebook as a reference. That being said, contributions are welcome!
+
+## Work in progress
+
+Some techniques described in our technical report are not yet available in this repo. However, we are actively working on adding support for them in the near future.
+
+Some of the upcoming features are:
+* Support for other quantization methods
+* Speculative expert prefetching

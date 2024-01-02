@@ -1,9 +1,9 @@
 ---
 title: path-to-senior-engineer-handbook
-date: 2023-11-29T12:16:52+08:00
+date: 2024-01-02T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698697413618-7e2b2dd2f6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698697413618-7e2b2dd2f6c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEyMzEzNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702952084675-b5489e589251?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702952084675-b5489e589251?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
 ---
 
 # [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)
@@ -48,6 +48,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [TLDR](https://tldr.tech/)
 - [Pointer.io](https://www.pointer.io/)
 - [Changelog News](https://changelog.com/news)
+- [Hungry Minds](https://hungryminds.dev/)
 
 ### Frameworks and smart thinking
 
@@ -108,6 +109,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Crucial accountability](https://www.amazon.com/Crucial-Accountability-Resolving-Expectations-Commitments-ebook/dp/B00C4BDRW6)
 - [It was the best of sentences, it was the worst of sentences](https://www.amazon.com/Was-Best-Sentences-Worst-Crafting-ebook/dp/B0036S4AX6)
 - [On writing well](https://www.amazon.com/Writing-Well-Classic-Guide-Nonfiction/dp/0060891548)
+- [The Insider's Guide to Technical Writing](https://www.amazon.com/Insiders-Guide-Technical-Writing-ebook/dp/B09X2CHHB1)
 
 ### Storytelling
 
@@ -124,7 +126,6 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [A philosophy of software design](https://www.amazon.com/Philosophy-Software-Design-2nd-ebook/dp/B09B8LFKQL)
 - [Web scalability for startup engineers](https://www.amazon.com/Scalability-Startup-Engineers-Artur-Ejsmont/dp/0071843655)
 - [Collection - Grady Booch, Software architecture/design books](https://handbookofsoftwarearchitecture.com/books/)
-
 
 ### Software Engineer Overall
 
@@ -174,14 +175,17 @@ This repo has all the resources you need to reach Senior Software Engineer!
 ## Courses
 
 ### Top Courses
+
 - [Mid-level to Senior Course by Jordan Cutler](https://maven.com/jordan-cutler/mid-level-to-senior?promoCode=PATHTOSENIORHANDBOOK)
 - [Josh Comeau CSS course](https://css-for-js.dev/)
 - [Josh Comeau React course](https://www.joyofreact.com/)
 - [Kent C Dodds Epic React](https://epicreact.dev/)
 - [Kent C Dodds Epic Web](https://www.epicweb.dev/)
 - [Bob Ziroll Learn React for Free](https://scrimba.com/learn/learnreact)
+- [Google Technical Writing](https://developers.google.com/tech-writing/overview)
 
 ### Recommended Websites
+
 - [Frontendmasters subscription](https://frontendmasters.com/)
 - [Udemy courses](https://www.udemy.com/)
 - [Educative subscription](https://www.educative.io/)
@@ -194,6 +198,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Microsoft Learn](https://learn.microsoft.com/en-us/)
 - [GreatFrontEnd](https://www.greatfrontend.com/)
 - [Scrimba interactive courses](https://scrimba.com)
+- [KodeKloud](https://www.kodekloud.com)
 
 ## Papers
 
@@ -240,6 +245,9 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Frontend First Podcast](https://www.youtube.com/@frontendfirst)
 - [The Changelog Podcast](https://changelog.fm)
 - [The Scrimba Podcast](https://scrimba.com/podcast/)
+- [Developing Leadership](https://www.developingleadership.co/)
+- [John Maxwell Leadership Podcast](https://johnmaxwellleadershippodcast.com/)
+
 
 ## Communities
 
@@ -289,6 +297,9 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Nordine Hadi](https://www.linkedin.com/in/nordinehadi/)
 - [Yangshun Tay](https://www.linkedin.com/in/yangshun/)
 - [David Anderson](https://www.linkedin.com/in/scarletink/)
+- [Alexandre Zajac](https://www.linkedin.com/in/alexandre-zajac/)
 
 ## Other Catalogs
+
 - [Software Engineer's Library](https://kevinsmith.io/library/)
+- [16x Engineer](https://16x.engineer/)
