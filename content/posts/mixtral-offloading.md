@@ -1,9 +1,9 @@
 ---
 title: mixtral-offloading
-date: 2024-01-02T12:15:59+08:00
+date: 2024-01-03T12:18:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702432876314-f8aa50fcbf8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702432876314-f8aa50fcbf8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
 ---
 
 # [dvmazur/mixtral-offloading](https://github.com/dvmazur/mixtral-offloading)

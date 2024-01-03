@@ -1,9 +1,9 @@
 ---
 title: C-Plus-Plus
-date: 2024-01-02T12:17:05+08:00
+date: 2024-01-03T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703127198588-aaf66f344c77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703127198588-aaf66f344c77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703027816278-2573b76e62f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703027816278-2573b76e62f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/C-Plus-Plus](https://github.com/TheAlgorithms/C-Plus-Plus)

@@ -1,9 +1,9 @@
 ---
 title: movie-web
-date: 2024-01-02T12:15:54+08:00
+date: 2024-01-03T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702952084675-b5489e589251?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702952084675-b5489e589251?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701970912790-fdf92cd1b183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701970912790-fdf92cd1b183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
 ---
 
 # [movie-web/movie-web](https://github.com/movie-web/movie-web)
