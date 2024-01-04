@@ -1,9 +1,9 @@
 ---
 title: next-auth-v5-advanced-guide
-date: 2024-01-03T12:16:43+08:00
+date: 2024-01-04T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702234893452-52302797f873?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702234893452-52302797f873?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701035858127-0f0e41ac8028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701035858127-0f0e41ac8028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
 ---
 
 # [AntonioErdeljac/next-auth-v5-advanced-guide](https://github.com/AntonioErdeljac/next-auth-v5-advanced-guide)

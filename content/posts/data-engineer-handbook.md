@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2023-12-20T12:14:16+08:00
+date: 2024-01-04T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701035858127-0f0e41ac8028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701035858127-0f0e41ac8028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
 ---
 
 # [DataEngineer-io/data-engineer-handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
@@ -40,6 +40,8 @@ Great books:
 - [Modern Data Engineering with Apache Spark: A Hands-On Guide for Building Mission-Critical Streaming Applications](https://www.amazon.com/Modern-Engineering-Apache-Spark-Hands/dp/1484274512)
 - [Data Engineering with dbt: A practical guide to building a dependable data platform with SQL](https://www.amazon.com/Data-Engineering-dbt-cloud-based-dependable-ebook/dp/B0C4LL19G7)
 - [Data Engineering with AWS](https://www.oreilly.com/library/view/data-engineering-with/9781804614426/)
+- [Practical DataOps: Delivering Agile Date Science at Scale](https://www.amazon.com/Practical-DataOps-Delivering-Agile-Science/dp/1484251032)
+- [Data Engineering Design Patterns](https://www.dedp.online/about-this-book.html)
   
 Communities:
 
@@ -53,6 +55,7 @@ Communities:
 - [r/MicrosoftFabric](https://www.reddit.com/r/MicrosoftFabric/)
 - [Data Talks Club Slack](https://datatalks.club/slack)
 - [SylphAI for data professional matchmaking](https://www.sylphai.com/)
+- [Data Engineering Wiki](https://dataengineering.wiki/)
 
 Companies:
 
@@ -177,7 +180,6 @@ Newsletters:
 - [Modern Data 101](https://moderndata101.substack.com/)
 
 LinkedIn
-
 
 - 100k+ Followers
   - [Zach Wilson](https://www.linkedin.com/in/eczachly)
