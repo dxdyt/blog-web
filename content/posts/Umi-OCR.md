@@ -1,9 +1,9 @@
 ---
 title: Umi-OCR
-date: 2024-01-04T12:18:19+08:00
+date: 2024-01-05T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703343575658-8825be03169a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703343575658-8825be03169a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
 ---
 
 # [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)

@@ -1,9 +1,9 @@
 ---
 title: coreutils
-date: 2023-10-19T12:17:29+08:00
+date: 2024-01-05T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695456527397-0b9e1c79fe96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695456527397-0b9e1c79fe96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701688992044-7c58b09effa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701688992044-7c58b09effa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
 ---
 
 # [uutils/coreutils](https://github.com/uutils/coreutils)
@@ -315,7 +315,7 @@ Below is the evolution of how many GNU tests uutils passes. A more detailed
 breakdown of the GNU test results of the main branch can be found
 [in the user manual](https://uutils.github.io/coreutils/book/test_coverage.html).
 
-See <https://github.com/uutils/coreutils/issues/3336> for the main meta bugs
+See <https://github.com/orgs/uutils/projects/1> for the main meta bugs
 (many are missing).
 
 ![Evolution over time](https://github.com/uutils/coreutils-tracking/blob/main/gnu-results.png?raw=true)
