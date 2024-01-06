@@ -1,9 +1,9 @@
 ---
 title: dreamtalk
-date: 2024-01-05T12:17:42+08:00
+date: 2024-01-06T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703163073537-3259fcffdc1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703163073537-3259fcffdc1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
 ---
 
 # [ali-vilab/dreamtalk](https://github.com/ali-vilab/dreamtalk)
@@ -18,6 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe8
 DreamTalk is a diffusion-based audio-driven expressive talking head generation framework that can produce high-quality talking head videos across diverse speaking styles. DreamTalk exhibits robust performance with a diverse array of inputs, including songs, speech in multiple languages, noisy audio, and out-of-domain portraits.
 
 ## News
+- __[2024.01]__ [fffiloni](https://huggingface.co/fffiloni) provides a HuggingFace Space <a href='https://huggingface.co/spaces/fffiloni/dreamtalk'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>. Thanks~
 - __[2023.12]__ Release inference code and pretrained checkpoint.
 
 ## Installation
@@ -59,7 +60,7 @@ python inference_for_demo_video.py \
 
 `wav_path` specifies the input audio. The input audio file extensions such as wav, mp3, m4a, and mp4 (video with sound) should all be compatible.
 
-`style_clip_path` specifies the reference speaking style and `pose_path` specifies head pose. They are 3DMM paramenter sequences extracted from reference videos. You can follow [PIRenderer](https://github.com/RenYurui/PIRender) to extract 3DMM parameters from your own videos. Note that the video frame rate should be 25 FPS. Besides, videos used for head pose reference should be first cropped to $256\times256$ using scripts in [FOMM video preprocessing](https://github.com/AliaksandrSiarohin/video-preprocessing).
+`style_clip_path` specifies the reference speaking style and `pose_path` specifies head pose. They are 3DMM parameter sequences extracted from reference videos. You can follow [PIRenderer](https://github.com/RenYurui/PIRender) to extract 3DMM parameters from your own videos. Note that the video frame rate should be 25 FPS. Besides, videos used for head pose reference should be first cropped to $256\times256$ using scripts in [FOMM video preprocessing](https://github.com/AliaksandrSiarohin/video-preprocessing).
 
 `image_path` specifies the input portrait. Its resolution should be larger than $256\times256$. Frontal portraits, with the face directly facing forward and not tilted to one side, usually achieve satisfactory results. The input portrait will be cropped to $256\times256$. If your portrait is already cropped to $256\times256$ and you want to disable cropping, use option `--disable_img_crop` like this:
 
@@ -83,6 +84,12 @@ The generated video will be named `$(output_name).mp4` and put in the output_vid
 
 Sample inputs are presented in `data` folder. Due to copyright issues, we are unable to include the songs we have used in this folder.
 
+If you want to run this program on CPU, please add `--device=cpu` to the command line arguments. (Thank [lukevs](https://github.com/lukevs) for adding CPU support.)
+
+## Ad-hoc solutions to improve resolution
+The main goal of this method is to achieve accurate lip-sync and produce vivid expressions across diverse speaking styles. The resolution was not considered in the initial design process. There are two ad-hoc solutions to improve resolution. The first option is to utilize [CodeFormer](https://github.com/sczhou/CodeFormer), which can achieve a resolution of $1024\times1024$; however, it is relatively slow, processing only one frame per second on an A100 GPU, and suffers from issues with temporal inconsistency. The second option is to employ the Temporal Super-Resolution Model from [MetaPortrait](https://github.com/Meta-Portrait/MetaPortrait), which attains a resolution of $512\times512$, offers a faster performance of 10 frames per second, and maintains temporal coherence. However, these super-resolution modules may reduce the intensity of facial emotions.
+
+The sample results after super-resolution processing are in the `output_video` folder.
 
 ## Acknowledgements
 

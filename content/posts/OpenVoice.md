@@ -1,9 +1,9 @@
 ---
 title: OpenVoice
-date: 2024-01-05T12:16:13+08:00
+date: 2024-01-06T12:15:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699341606473-3038483f93c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699341606473-3038483f93c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1679046948975-376caa1f31ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1679046948975-376caa1f31ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
 ---
 
 # [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice)
@@ -59,6 +59,10 @@ OpenVoice has been powering the instant voice cloning capability of [myshell.ai]
     &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://huggingface.co/spaces/myshell-ai/OpenVoice"><img src="resources/huggingface.png" height="32"></a>
 </div>
+
+## Common Issues
+
+Please see [QnA](QA.md) for common questions and answers. We will regularly update the question and answer list.
 
 ## Disclaimer
 

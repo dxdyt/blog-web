@@ -1,9 +1,9 @@
 ---
 title: everyone-can-use-english
-date: 2024-01-05T12:16:46+08:00
+date: 2024-01-06T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703028408891-934fc23fbc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703028408891-934fc23fbc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
 ---
 
 # [xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)

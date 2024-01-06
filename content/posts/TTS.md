@@ -1,20 +1,22 @@
 ---
 title: TTS
-date: 2023-10-10T12:16:22+08:00
+date: 2024-01-06T12:18:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694875464862-978a879a1210?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694875464862-978a879a1210?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
 ---
 
 # [coqui-ai/TTS](https://github.com/coqui-ai/TTS)
 
 
 ## 🐸Coqui.ai News
-- 📣 [🐶Bark](https://github.com/suno-ai/bark) is now available for inference with uncontrained voice cloning. [Docs](https://tts.readthedocs.io/en/dev/models/bark.html)
+- 📣 ⓍTTSv2 is here with 16 languages and better performance across the board.
+- 📣 ⓍTTS fine-tuning code is out. Check the [example recipes](https://github.com/coqui-ai/TTS/tree/dev/recipes/ljspeech).
+- 📣 ⓍTTS can now stream with <200ms latency.
+- 📣 ⓍTTS, our production TTS model that can speak 13 languages, is released [Blog Post](https://coqui.ai/blog/tts/open_xtts), [Demo](https://huggingface.co/spaces/coqui/xtts), [Docs](https://tts.readthedocs.io/en/dev/models/xtts.html)
+- 📣 [🐶Bark](https://github.com/suno-ai/bark) is now available for inference with unconstrained voice cloning. [Docs](https://tts.readthedocs.io/en/dev/models/bark.html)
 - 📣 You can use [~1100 Fairseq models](https://github.com/facebookresearch/fairseq/tree/main/examples/mms) with 🐸TTS.
 - 📣 🐸TTS now supports 🐢Tortoise with faster inference. [Docs](https://tts.readthedocs.io/en/dev/models/tortoise.html)
-- 📣 **Coqui Studio API** is landed on 🐸TTS. - [Example](https://github.com/coqui-ai/TTS/blob/dev/README.md#-python-api)
-- 📣 [**Coqui Studio API**](https://docs.coqui.ai/docs) is live.
 - 📣 Voice generation with prompts - **Prompt to Voice** - is live on [**Coqui Studio**](https://app.coqui.ai/auth/signin)!! - [Blog Post](https://coqui.ai/blog/tts/prompt-to-voice)
 - 📣 Voice generation with fusion - **Voice fusion** - is live on [**Coqui Studio**](https://app.coqui.ai/auth/signin).
 - 📣 Voice cloning is live on [**Coqui Studio**](https://app.coqui.ai/auth/signin).
@@ -34,7 +36,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1694875464862-978a879a12
 📚 Utilities for dataset analysis and curation.
 ______________________________________________________________________
 
-[![Dicord](https://img.shields.io/discord/1037326658807533628?color=%239B59B6&label=chat%20on%20discord)](https://discord.gg/5eXr5seRrv)
+[![Discord](https://img.shields.io/discord/1037326658807533628?color=%239B59B6&label=chat%20on%20discord)](https://discord.gg/5eXr5seRrv)
 [![License](<https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg>)](https://opensource.org/licenses/MPL-2.0)
 [![PyPI version](https://badge.fury.io/py/TTS.svg)](https://badge.fury.io/py/TTS)
 [![Covenant](https://camo.githubusercontent.com/7d620efaa3eac1c5b060ece5d6aacfcc8b81a74a04d05cd0398689c01c4463bb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f6e7472696275746f72253230436f76656e616e742d76322e3025323061646f707465642d6666363962342e737667)](https://github.com/coqui-ai/TTS/blob/master/CODE_OF_CONDUCT.md)
@@ -78,7 +80,7 @@ Please use our dedicated channels for questions and discussion. Help is much mor
 | Type                            | Links                               |
 | ------------------------------- | --------------------------------------- |
 | 💼 **Documentation**              | [ReadTheDocs](https://tts.readthedocs.io/en/latest/)
-| 💾 **Installation**               | [TTS/README.md](https://github.com/coqui-ai/TTS/tree/dev#install-tts)|
+| 💾 **Installation**               | [TTS/README.md](https://github.com/coqui-ai/TTS/tree/dev#installation)|
 | 👩‍💻 **Contributing**               | [CONTRIBUTING.md](https://github.com/coqui-ai/TTS/blob/main/CONTRIBUTING.md)|
 | 📌 **Road Map**                   | [Main Development Plans](https://github.com/coqui-ai/TTS/issues/378)
 | 🚀 **Released Models**            | [TTS Releases](https://github.com/coqui-ai/TTS/releases) and [Experimental Models](https://github.com/coqui-ai/TTS/wiki/Experimental-Released-Models)|
@@ -121,7 +123,7 @@ Underlined "TTS*" and "Judy*" are **internal** 🐸TTS models that are not relea
 - Delightful TTS: [paper](https://arxiv.org/abs/2110.12612)
 
 ### End-to-End Models
-- ⓍTTS: [blog]()
+- ⓍTTS: [blog](https://coqui.ai/blog/tts/open_xtts)
 - VITS: [paper](https://arxiv.org/pdf/2106.06103)
 - 🐸 YourTTS: [paper](https://arxiv.org/abs/2112.02418)
 - 🐢 Tortoise: [orig. repo](https://github.com/neonbjb/tortoise-tts)
@@ -155,7 +157,7 @@ Underlined "TTS*" and "Judy*" are **internal** 🐸TTS models that are not relea
 You can also help us implement more models.
 
 ## Installation
-🐸TTS is tested on Ubuntu 18.04 with **python >= 3.7, < 3.11.**.
+🐸TTS is tested on Ubuntu 18.04 with **python >= 3.9, < 3.12.**.
 
 If you are only interested in [synthesizing speech](https://tts.readthedocs.io/en/latest/inference.html) with the released 🐸TTS models, installing from PyPI is the easiest option.
 
@@ -207,17 +209,18 @@ from TTS.api import TTS
 # Get device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-# List available 🐸TTS models and choose the first one
-model_name = TTS().list_models()[0]
+# List available 🐸TTS models
+print(TTS().list_models())
+
 # Init TTS
-tts = TTS(model_name).to(device)
+tts = TTS("tts_models/multilingual/multi-dataset/xtts_v2").to(device)
 
 # Run TTS
-# ❗ Since this model is multi-speaker and multi-lingual, we must set the target speaker and the language
-# Text to speech with a numpy output
-wav = tts.tts("This is a test! This is also a test!!", speaker=tts.speakers[0], language=tts.languages[0])
+# ❗ Since this model is multi-lingual voice cloning model, we must set the target speaker_wav and language
+# Text to speech list of amplitude values as output
+wav = tts.tts(text="Hello world!", speaker_wav="my/cloning/audio.wav", language="en")
 # Text to speech to a file
-tts.tts_to_file(text="Hello world!", speaker=tts.speakers[0], language=tts.languages[0], file_path="output.wav")
+tts.tts_to_file(text="Hello world!", speaker_wav="my/cloning/audio.wav", language="en", file_path="output.wav")
 ```
 
 #### Running a single speaker model
@@ -258,35 +261,6 @@ tts.tts_with_vc_to_file(
 )
 ```
 
-#### Example using [🐸Coqui Studio](https://coqui.ai) voices.
-You access all of your cloned voices and built-in speakers in [🐸Coqui Studio](https://coqui.ai).
-To do this, you'll need an API token, which you can obtain from the [account page](https://coqui.ai/account).
-After obtaining the API token, you'll need to configure the COQUI_STUDIO_TOKEN environment variable.
-
-Once you have a valid API token in place, the studio speakers will be displayed as distinct models within the list.
-These models will follow the naming convention `coqui_studio/en/<studio_speaker_name>/coqui_studio`
-
-```python
-# XTTS model
-models = TTS(cs_api_model="XTTS").list_models()
-# Init TTS with the target studio speaker
-tts = TTS(model_name="coqui_studio/en/Torcull Diarmuid/coqui_studio", progress_bar=False)
-# Run TTS
-tts.tts_to_file(text="This is a test.", file_path=OUTPUT_PATH)
-
-# V1 model
-models = TTS(cs_api_model="V1").list_models()
-# Run TTS with emotion and speed control
-# Emotion control only works with V1 model
-tts.tts_to_file(text="This is a test.", file_path=OUTPUT_PATH, emotion="Happy", speed=1.5)
-
-# XTTS-multilingual
-models = TTS(cs_api_model="XTTS-multilingual").list_models()
-# Run TTS with emotion and speed control
-# Emotion control only works with V1 model
-tts.tts_to_file(text="Das ist ein Test.", file_path=OUTPUT_PATH, language="de", speed=1.0)
-```
-
 #### Example text to speech using **Fairseq models in ~1100 languages** 🤯.
 For Fairseq models, use the following name format: `tts_models/<lang-iso_code>/fairseq/vits`.
 You can find the language ISO codes [here](https://dl.fbaipublicfiles.com/mms/tts/all-tts-languages.html)
@@ -303,99 +277,129 @@ api.tts_with_vc_to_file(
 ```
 
 ### Command-line `tts`
+
+<!-- begin-tts-readme -->
+
+Synthesize speech on command line.
+
+You can either use your trained model or choose a model from the provided list.
+
+If you don't specify any models, then it uses LJSpeech based English model.
+
 #### Single Speaker Models
 
 - List provided models:
 
-    ```
-    $ tts --list_models
-    ```
+  ```
+  $ tts --list_models
+  ```
+
 - Get model info (for both tts_models and vocoder_models):
-    - Query by type/name:
-        The model_info_by_name uses the name as it from the --list_models.
-        ```
-        $ tts --model_info_by_name "<model_type>/<language>/<dataset>/<model_name>"
-        ```
-        For example:
 
-        ```
-        $ tts --model_info_by_name tts_models/tr/common-voice/glow-tts
-        ```
-        ```
-        $ tts --model_info_by_name vocoder_models/en/ljspeech/hifigan_v2
-        ```
-    - Query by type/idx:
-        The model_query_idx uses the corresponding idx from --list_models.
-        ```
-        $ tts --model_info_by_idx "<model_type>/<model_query_idx>"
-        ```
-        For example:
+  - Query by type/name:
+    The model_info_by_name uses the name as it from the --list_models.
+    ```
+    $ tts --model_info_by_name "<model_type>/<language>/<dataset>/<model_name>"
+    ```
+    For example:
+    ```
+    $ tts --model_info_by_name tts_models/tr/common-voice/glow-tts
+    $ tts --model_info_by_name vocoder_models/en/ljspeech/hifigan_v2
+    ```
+  - Query by type/idx:
+    The model_query_idx uses the corresponding idx from --list_models.
 
-        ```
-        $ tts --model_info_by_idx tts_models/3
-        ```
+    ```
+    $ tts --model_info_by_idx "<model_type>/<model_query_idx>"
+    ```
+
+    For example:
+
+    ```
+    $ tts --model_info_by_idx tts_models/3
+    ```
+
+  - Query info for model info by full name:
+    ```
+    $ tts --model_info_by_name "<model_type>/<language>/<dataset>/<model_name>"
+    ```
 
 - Run TTS with default models:
 
-    ```
-    $ tts --text "Text for TTS" --out_path output/path/speech.wav
-    ```
+  ```
+  $ tts --text "Text for TTS" --out_path output/path/speech.wav
+  ```
+
+- Run TTS and pipe out the generated TTS wav file data:
+
+  ```
+  $ tts --text "Text for TTS" --pipe_out --out_path output/path/speech.wav | aplay
+  ```
 
 - Run a TTS model with its default vocoder model:
 
-    ```
-    $ tts --text "Text for TTS" --model_name "<model_type>/<language>/<dataset>/<model_name>" --out_path output/path/speech.wav
-    ```
+  ```
+  $ tts --text "Text for TTS" --model_name "<model_type>/<language>/<dataset>/<model_name>" --out_path output/path/speech.wav
+  ```
+
   For example:
 
-    ```
-    $ tts --text "Text for TTS" --model_name "tts_models/en/ljspeech/glow-tts" --out_path output/path/speech.wav
-    ```
+  ```
+  $ tts --text "Text for TTS" --model_name "tts_models/en/ljspeech/glow-tts" --out_path output/path/speech.wav
+  ```
 
 - Run with specific TTS and vocoder models from the list:
 
-    ```
-    $ tts --text "Text for TTS" --model_name "<model_type>/<language>/<dataset>/<model_name>" --vocoder_name "<model_type>/<language>/<dataset>/<model_name>" --out_path output/path/speech.wav
-    ```
+  ```
+  $ tts --text "Text for TTS" --model_name "<model_type>/<language>/<dataset>/<model_name>" --vocoder_name "<model_type>/<language>/<dataset>/<model_name>" --out_path output/path/speech.wav
+  ```
 
   For example:
 
-    ```
-    $ tts --text "Text for TTS" --model_name "tts_models/en/ljspeech/glow-tts" --vocoder_name "vocoder_models/en/ljspeech/univnet" --out_path output/path/speech.wav
-    ```
-
+  ```
+  $ tts --text "Text for TTS" --model_name "tts_models/en/ljspeech/glow-tts" --vocoder_name "vocoder_models/en/ljspeech/univnet" --out_path output/path/speech.wav
+  ```
 
 - Run your own TTS model (Using Griffin-Lim Vocoder):
 
-    ```
-    $ tts --text "Text for TTS" --model_path path/to/model.pth --config_path path/to/config.json --out_path output/path/speech.wav
-    ```
+  ```
+  $ tts --text "Text for TTS" --model_path path/to/model.pth --config_path path/to/config.json --out_path output/path/speech.wav
+  ```
 
 - Run your own TTS and Vocoder models:
-    ```
-    $ tts --text "Text for TTS" --model_path path/to/model.pth --config_path path/to/config.json --out_path output/path/speech.wav
-        --vocoder_path path/to/vocoder.pth --vocoder_config_path path/to/vocoder_config.json
-    ```
+
+  ```
+  $ tts --text "Text for TTS" --model_path path/to/model.pth --config_path path/to/config.json --out_path output/path/speech.wav
+      --vocoder_path path/to/vocoder.pth --vocoder_config_path path/to/vocoder_config.json
+  ```
 
 #### Multi-speaker Models
 
 - List the available speakers and choose a <speaker_id> among them:
 
-    ```
-    $ tts --model_name "<language>/<dataset>/<model_name>"  --list_speaker_idxs
-    ```
+  ```
+  $ tts --model_name "<language>/<dataset>/<model_name>"  --list_speaker_idxs
+  ```
 
 - Run the multi-speaker TTS model with the target speaker ID:
 
-    ```
-    $ tts --text "Text for TTS." --out_path output/path/speech.wav --model_name "<language>/<dataset>/<model_name>"  --speaker_idx <speaker_id>
-    ```
+  ```
+  $ tts --text "Text for TTS." --out_path output/path/speech.wav --model_name "<language>/<dataset>/<model_name>"  --speaker_idx <speaker_id>
+  ```
 
 - Run your own multi-speaker TTS model:
 
-    ```
-    $ tts --text "Text for TTS" --out_path output/path/speech.wav --model_path path/to/model.pth --config_path path/to/config.json --speakers_file_path path/to/speaker.json --speaker_idx <speaker_id>
-    ```
+  ```
+  $ tts --text "Text for TTS" --out_path output/path/speech.wav --model_path path/to/model.pth --config_path path/to/config.json --speakers_file_path path/to/speaker.json --speaker_idx <speaker_id>
+  ```
+
+### Voice Conversion Models
+
+```
+$ tts --out_path output/path/speech.wav --model_name "<language>/<dataset>/<model_name>" --source_wav <path/to/speaker/wav> --target_wav <path/to/reference/wav>
+```
+
+<!-- end-tts-readme -->
 
 ## Directory Structure
 ```

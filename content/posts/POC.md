@@ -1,15 +1,74 @@
 ---
 title: POC
-date: 2023-12-16T12:17:15+08:00
+date: 2024-01-06T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701485509508-58d495844f45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701485509508-58d495844f45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703028408891-934fc23fbc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703028408891-934fc23fbc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
 ---
 
 # [wy876/POC](https://github.com/wy876/POC)
 
 # 漏洞收集
 2023HW漏洞整理，收集整理漏洞EXp/POC,大部分漏洞来源网络，目前收集整理了100多个poc/exp，善用CTRL+F搜索
+
+## 2024.01.05 新增漏洞
+- 用友NC_CLOUD_smartweb2.RPC.d_XML外部实体注入
+- IDocView_qJvqhFt接口任意文件读取
+- ⻜企互联loginService任意登录
+
+## 2024.01.03 新增漏洞
+- 天融信TOPSEC_maincgi.cgi远程命令执行
+- 天融信TOPSEC_static_convert远程命令执行漏洞
+- 用友CRM系统存在逻辑漏洞直接登录后台
+- 亿赛通电子文档uploadFile接口文件上传漏洞
+
+## 2023.12.31 新增漏洞
+- OfficeWeb365_任意文件读取漏洞
+- 东华医疗协同办公系统反序列化漏洞
+- 东华医疗协同办公系统文件上传
+- 飞企互联-FE企业运营管理平台登录绕过漏洞
+- 飞企互联Ognl表达式注入导致RCE
+- 西软云XMS反序列化漏洞
+- 用友U8_cloud_KeyWordDetailReportQuery_SQL注入漏洞
+- 用友NC_Cloud_soapFormat.ajax接口存在XXE
+  
+## 2023.12.28 新增漏洞
+- wordpress listingo 文件上传漏洞
+- Apache OFBiz 身份验证绕过漏洞 (CVE-2023-51467)
+- 福建科立讯通信有限公司指挥调度管理平台RCE
+- 海康威视-综合安防管理平台-files-文件读取
+- Apache OFBiz SSRF && 任意配置读取
+- Apache Dubbo 反序列化漏洞（CVE-2023-29234）
+
+## 2023.12.26 新增漏洞
+- 大华DSS itcBulletin SQL 注入漏洞
+- 湖南建研-检测系统 admintool 任意文件上传
+- OpenSSH ProxyCommand命令注入漏洞 (CVE-2023-51385)
+- Salia PLCC cPH2 远程命令执行漏洞(CVE-2023-46359)
+- 金蝶Apusic应用服务器loadTree JNDI注入漏洞
+- 科荣 AIO任意文件上传-目录遍历-任意文件读取漏洞
+- Secnet安网 智能AC管理系统 actpt_5g 信息泄露
+- 海康威视安全接入网关任意文件读取漏洞
+- 浙江宇视isc网络视频录像机LogReport.php存在远程命令执行漏洞
+- 海翔ERP SQL注入漏洞
+- 脸爱云 一脸通智慧管理平台任意用户添加漏洞
+- 安恒明御安全网关远程命令执行漏洞
+
+## 2023.12.23 新增漏洞
+- avcon综合管理平台SQL注入漏洞
+- 致远互联FE协作办公平台editflow_manager存在sql注入漏洞
+- 海康威视CVE-2023-6895 IP网络对讲广播系统远程命令执行
+- 铭飞CMS list接口存在SQL注入
+- 海康威视IP网络对讲广播系统任意文件下载漏洞CVE-2023-6893
+  
+## 2023.12.17 新增漏洞
+- 大华智能物联综合管理平台justForTest用户登录漏洞
+- CloudPanel RCE漏洞 CVE-2023-35885
+- Smartbi 内置用户登陆绕过
+- 金和OA jc6 clobfield SQL注入漏洞
+- EasyCVR 视频管理平台存在用户信息泄露
+- 用友CRM 任意文件读取漏洞
+- 金蝶星空云K3Cloud反序列化漏洞
 
 ## 2023.12.15 新增漏洞
 - 万户ezoffice wpsservlet任意文件上传漏洞

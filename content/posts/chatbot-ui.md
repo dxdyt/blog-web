@@ -1,9 +1,9 @@
 ---
 title: chatbot-ui
-date: 2023-12-25T12:16:24+08:00
+date: 2024-01-06T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702241234961-b3f7861f57d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702241234961-b3f7861f57d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700348307455-e2886ff35de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700348307455-e2886ff35de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
 ---
 
 # [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702241234961-b3f7861f57
 
 ## News
 
-Chatbot UI 2.0 will launch on December 28th, 2023.
+Chatbot UI 2.0 will launch on Monday January 8th, 2024.
 
 See a [preview](https://x.com/mckaywrigley/status/1738273242283151777?s=20).
 
