@@ -1,9 +1,9 @@
 ---
 title: CopilotKit
-date: 2023-12-09T12:15:48+08:00
+date: 2024-01-07T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699606251390-f25fee318176?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702569919518-b184427c75ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702569919518-b184427c75ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
 ---
 
 # [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)
@@ -72,7 +72,7 @@ in-app chatbots, and AI-enabled Textareas.
 
 
 <div align="center">
-  <img src="https://github.com/CopilotKit/CopilotKit/assets/746397/1aa17608-46a5-4e2f-aad5-19c8f5c5f1bd" height="220px" style="border-radius: 35px;">
+  <img src="https://github.com/CopilotKit/CopilotKit/assets/746397/1aa17608-46a5-4e2f-aad5-19c8f5c5f1bd" width="900px" max-width="100%" style="border-radius: 35px;">
 </div>
 <br/>
 
@@ -89,6 +89,15 @@ Starting with React. Use any LLM. <br/>
 Combines frontend SDKs, backend SDKs, and (optional) cloud infrastructure. Open-source 🪁
 
 
+## Installation
+
+```bash
+npm i @copilotkit/react-core @copilotkit/react-ui @copilotkit/react-textarea
+```
+
+
+## Getting started
+See quickstart in the [docs](https://docs.copilotkit.ai)
 
 
 ## 🎯 Features Overview
@@ -99,7 +108,7 @@ Combines frontend SDKs, backend SDKs, and (optional) cloud infrastructure. Open-
 - ✅ AI editing ✨ - "list the client's top 3 pain points from the last call using @SalesforceData"
 - 🟩 Generate from scratch ✨ - automatically populate the initial content based on given context
 - ✅ App context & 3rd party context with `useMakeCopilotReadable` and `useMakeCopilotDocumentReadable`
-- ✅ Fully custsomizable prompt engineering
+- ✅ Fully customizable prompt engineering
 - 🟩 Arbitrary LLM chains.
 - 🟩 Bold + italics.
 
@@ -123,14 +132,8 @@ Combines frontend SDKs, backend SDKs, and (optional) cloud infrastructure. Open-
 https://github.com/CopilotKit/CopilotKit/assets/746397/b0cdf38b-ec5c-4e95-8623-364bafb70907
 
 
-## Installation
 
-```bash
-npm i @copilotkit/react-core @copilotkit/react-ui @copilotkit/react-textarea
-```
 
-## Getting started
-See quickstart in the [docs](https://docs.copilotkit.ai)
 
 
 ## Examples
@@ -245,7 +248,7 @@ function Department(props: DepartmentProps): JSX.Element {
   // Let the copilot take action on behalf of the user.
   useMakeCopilotActionable(
     {
-      name: "setEmployeesAsSelected",
+      name: "setEmployeesAsSelected", // no spaces allowed in the function name
       description: "Set the given employees as 'selected'",
       argumentAnnotations: [
         {

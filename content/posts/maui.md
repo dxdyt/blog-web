@@ -1,9 +1,9 @@
 ---
 title: maui
-date: 2024-01-06T12:17:27+08:00
+date: 2024-01-07T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701948867768-6326f6cf9f73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701948867768-6326f6cf9f73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/maui](https://github.com/dotnet/maui)

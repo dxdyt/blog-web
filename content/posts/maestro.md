@@ -1,9 +1,9 @@
 ---
 title: maestro
-date: 2024-01-06T12:16:22+08:00
+date: 2024-01-07T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701839339724-7358680326a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701839339724-7358680326a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702573848697-9f21d2d74049?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702573848697-9f21d2d74049?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
 ---
 
 # [llenotre/maestro](https://github.com/llenotre/maestro)

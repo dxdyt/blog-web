@@ -1,9 +1,9 @@
 ---
 title: Open-AnimateAnyone
-date: 2024-01-06T12:17:20+08:00
+date: 2024-01-07T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703426108384-f5f3f45de1aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703426108384-f5f3f45de1aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1699730148440-22fc68a96752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1699730148440-22fc68a96752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
 ---
 
 # [guoqincode/Open-AnimateAnyone](https://github.com/guoqincode/Open-AnimateAnyone)

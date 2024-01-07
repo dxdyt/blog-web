@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2024-01-06T12:15:42+08:00
+date: 2024-01-07T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700348307455-e2886ff35de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700348307455-e2886ff35de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)
@@ -119,7 +119,7 @@ _Realtime Video: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14_
 #### Jan
 
 - [Jan website](https://jan.ai/)
-- [Jan Github](https://github.com/janhq/jan)
+- [Jan GitHub](https://github.com/janhq/jan)
 - [User Guides](https://jan.ai/guides/)
 - [Developer docs](https://jan.ai/developer/)
 - [API reference](https://jan.ai/api-reference/)
@@ -130,7 +130,7 @@ _Realtime Video: Jan v0.4.3-nightly on a Mac M1, 16GB Sonoma 14_
 Nitro is a high-efficiency C++ inference engine for edge computing. It is lightweight and embeddable, and can be used on its own within your own projects.
 
 - [Nitro Website](https://nitro.jan.ai)
-- [Nitro Github](https://github.com/janhq/nitro)
+- [Nitro GitHub](https://github.com/janhq/nitro)
 - [Documentation](https://nitro.jan.ai/docs)
 - [API Reference](https://nitro.jan.ai/api-reference)
 
