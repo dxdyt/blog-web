@@ -1,9 +1,9 @@
 ---
 title: SQLite.swift
-date: 2024-01-07T12:18:44+08:00
+date: 2024-01-08T12:19:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702573848697-9f21d2d74049?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702573848697-9f21d2d74049?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702651478500-0983b30b24a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702651478500-0983b30b24a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [stephencelis/SQLite.swift](https://github.com/stephencelis/SQLite.swift)

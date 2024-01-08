@@ -1,9 +1,9 @@
 ---
 title: copilot-gpt4-service
-date: 2024-01-07T12:16:52+08:00
+date: 2024-01-08T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701948867768-6326f6cf9f73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701948867768-6326f6cf9f73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701743805074-497f68fb33b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701743805074-497f68fb33b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [aaamoon/copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service)
@@ -18,41 +18,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1701948867768-6326f6cf9f
 简体中文 | <a href="README_EN.md">English</a>
 </p>
 
-## 使用方法
+## 如何使用
 
-1、访问 https://gpt4copilot.tech
+1. 部署 copilot-gpt4-service 服务，并配置 API 地址，如：`https://youcopilotgpt4service.com`;
+2. 获取你的 GitHub 账号 Github Copilot Plugin Token（详见下文）；
+3. 使用第三方客户端，如：[ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)，在设置中填入 copilot-gpt4-service 服务的 API 地址和 Github Copilot Plugin Token，即可使用 GPT-4 模型进行对话。
 
-2、在设置的接口地址填入本仓库项目部署出来的服务端 API 地址 `https://gpt4copilot.tech`（**强烈建议自行部署服务端，因为不清楚后续 Github 会不会检测到从该服务端 IP 发出太多不同 Token 的请求导致有风险存在**）
+## 客户端
 
-3、在 API Key 中填入 Github Copilot Plugin Token
+使用 copilot-gpt4-service，需要配合第三方客户端，目前已测试支持以下客户端：
 
-提供三个已经开通了 Github Copilot 账号的 Token，可以直接使用：
-- ~~**ghu_kEDPRczuQhVAxBxQD4Rkjv5uBba6zE3i0mNH**~~
+- [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) (推荐)
+- [Chatbox](https://github.com/Bin-Huang/chatbox)：支持 Windows, Mac, Linux 平台
+- [OpenCat APP](https://opencat.app/)：支持 iOS、Mac 平台
+- [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087) ：支持 iOS、Mac 平台
 
-**大佬们如果有开通 Github Copilot 的话，可以使用自己的 Token，通过 [copilot-token接口](https://cocopilot.org/copilot/token) 来获取，目前太多不同的IP请求了，我提供出去的 Token 半个钟就失效了，如果是内部几个人用的话，Token 有效期一般是好几个月**
+## 服务端
 
-![步骤1](/assets/step1.png)
+copilot-gpt4-service 服务的部署方式目前包含 Docker 部署、源码部署、Kubernetes 部署、Cloudflare Worker 实现，下面分别介绍。
 
-4、自行切换模型，支持 GPT-4 模型 **（据测试：模型参数仅支持 GPT-4 和 GPT-3.5-turbo ，实测使用其他模型均会以默认的 3.5 处理（对比 OpenAI API 的返回结果，猜测应该是最早的版本 GPT-4-0314 和 GPT-3.5-turbo-0301 ））**
+### Docker 部署
 
-5、接下来我们就可以无限制使用 GPT-4 模型了~
-
-## 异常 HTTP 响应状态码解析
-
-- 401: 使用的 Github Copilot Plugin Token 过期了或者错误，请重新获取
-- 403: 使用的账号没有开通 Github Copilot
-
-## 个人部署
-
-### 客户端
-
-客户端使用的是 [ChatGPT-Next-Web](https://github.com/Yidadaa/ChatGPT-Next-Web)，里面有详细的部署教程
-
-### 服务端
-
-#### Docker 部署
-
-##### 一键部署方式
+#### 一键部署方式
 
 ```bash
 docker run -d \
@@ -62,33 +49,68 @@ docker run -d \
   aaamoon/copilot-gpt4-service:latest
 ```
 
-##### 实时构建方式
+#### 代码构建方式
 
 ```bash
 git clone https://github.com/aaamoon/copilot-gpt4-service && cd copilot-gpt4-service
-# 可以在`docker-compose.yml`中修改端口  
+# 可在 docker-compose.yml 中修改端口  
 docker compose up -d
 ```
 
 如需更新容器，可在源代码文件夹重新拉取代码及构建镜像，命令如下：  
 
 ```bash
-git pull
-docker compose up -d --build
+git pull && docker compose up -d --build
 ```
 
-#### Cloudflare Worker 部署
+### Kubernetes 部署
 
-不方便使用 Docker 部署的话，可以使用 [Cloudflare Worker](https://github.com/wpv-chan/cf-copilot-service) 版本部署
+支持通过 Kubernetes 部署，具体部署方式如下：
 
-## 实现原理
+```shell
+git clone https://github.com/aaamoon/copilot-gpt4-service.git
+# git clone git@github.com:aaamoon/copilot-gpt4-service.git
+cd copilot-gpt4-service/.chart
+helm upgrade copilot-gpt4-service . --namespace copilot-gpt4-service --create-namespace --install  
+```
 
-<a href="principle.md">原理链接</a>
+### Cloudflare Worker
 
-原理流程图：
-![实现原理](/assets/principle.png)
+支持通过 Cloudflare Worker 部署，具体使用方式见 [cf-copilot-service](https://github.com/wpv-chan/cf-copilot-service)。
 
-## 如何判断是不是 GPT-4 模型
+## 获取 Copilot Token
+
+首先，你的账号需要开通 Github Copilot 服务
+
+获取 Github Copilot Plugin Token 的方式目前有两种方式：
+
+1. 通过安装 [Github Copilot CLI](https://githubnext.com/projects/copilot-cli/) 授权获取（推荐）。
+2. 通过 [https://cocopilot.org](https://cocopilot.org/copilot/token) 第三方接口授权获取。
+
+### 通过 Github Copilot CLI 授权获取
+
+**Linux/MacOS平台获取**
+
+```bash
+# 如下脚本会自动安装 Github Copilot CLI 并通过授权获取 Github Copilot Plugin Token 
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/aaamoon/copilot-gpt4-service/master/shells/get_copilot_token.sh)"
+```
+
+**Windows 平台获取**
+
+下载批处理脚本，双击运行即可：[get_copilot_token.bat](https://raw.githubusercontent.com/aaamoon/copilot-gpt4-service/master/shells/get_copilot_token.bat)。
+
+### 第三方接口授权获取
+
+通过 [https://cocopilot.org](https://cocopilot.org/copilot/token) 第三方接口授权获取，需要注意的是，该接口是第三方开发者提供的，不保证安全性，请谨慎使用。
+
+## 常见问题
+
+### 模型支持情况
+
+据测试：模型参数支持 GPT-4 和 GPT-3.5-turbo ，实测使用其他模型均会以默认的 3.5 处理（对比 OpenAI API 的返回结果，猜测应该是最早的版本 GPT-4-0314 和 GPT-3.5-turbo-0301 ）
+
+### 如何判断是不是 GPT-4 模型
 
 鲁迅为什么暴打周树人？
 
@@ -99,6 +121,11 @@ docker compose up -d --build
 
 - GPT-3.5 他们当时认为你还太小，所以没有邀请你。
 - GPT-4 他们结婚时你还没出生。
+
+### HTTP 响应状态码解析说明
+
+- 401: 使用的 Github Copilot Plugin Token 过期了或者错误，请重新获取
+- 403: 使用的账号没有开通 Github Copilot
 
 ## 鸣谢
 

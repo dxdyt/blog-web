@@ -1,9 +1,9 @@
 ---
 title: mlx-examples
-date: 2023-12-11T12:16:35+08:00
+date: 2024-01-08T12:19:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701676566409-ae132bdbc9ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701676566409-ae132bdbc9ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples)
@@ -15,15 +15,58 @@ framework](https://github.com/ml-explore/mlx).
 
 The [MNIST](mnist) example is a good starting point to learn how to use MLX.
 
-Some more useful examples include:
+Some more useful examples are listed below.
+
+### Text Models 
 
 - [Transformer language model](transformer_lm) training.
-- Large scale text generation with [LLaMA](llama) or [Mistral](mistral).
-- Parameter efficient fine-tuning with [LoRA](lora).
+- Large scale text generation with [LLaMA](llms/llama),
+  [Mistral](llms/mistral), [Phi-2](llms/phi2), and more in the [LLMs](llms)
+  directory.
+- A mixture-of-experts (MoE) language model with [Mixtral 8x7B](llms/mixtral).
+- Parameter efficient fine-tuning with [LoRA or QLoRA](lora).
+- Text-to-text multi-task Transformers with [T5](t5).
+- Bidirectional language understanding with [BERT](bert).
+
+### Image Models 
+
 - Generating images with [Stable Diffusion](stable_diffusion).
+
+### Audio Models
+
 - Speech recognition with [OpenAI's Whisper](whisper).
+
+### Other Models 
+
+- Semi-supervised learning on graph-structured data with [GCN](gcn).
+
+### Hugging Face
+
+Note: You can now directly download a few converted checkpoints from the [MLX
+Community](https://huggingface.co/mlx-community) organization on Hugging Face.
+We encourage you to join the community and [contribute new
+models](https://github.com/ml-explore/mlx-examples/issues/155).
 
 ## Contributing 
 
-Check out the [contribution guidelines](CONTRIBUTING.md) for more information
-on contributing to this repo.
+We are grateful for all of [our
+contributors](ACKNOWLEDGMENTS.md#Individual-Contributors). If you contribute
+to MLX Examples and wish to be acknowledged, please add your name to the list in your
+pull request.
+
+## Citing MLX Examples
+
+The MLX software suite was initially developed with equal contribution by Awni
+Hannun, Jagrit Digani, Angelos Katharopoulos, and Ronan Collobert. If you find
+MLX Examples useful in your research and wish to cite it, please use the following
+BibTex entry:
+
+```
+@software{mlx2023,
+  author = {Awni Hannun and Jagrit Digani and Angelos Katharopoulos and Ronan Collobert},
+  title = {{MLX}: Efficient and flexible machine learning on Apple silicon},
+  url = {https://github.com/ml-explore},
+  version = {0.0},
+  year = {2023},
+}
+```

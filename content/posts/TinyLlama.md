@@ -1,9 +1,9 @@
 ---
 title: TinyLlama
-date: 2024-01-04T12:18:48+08:00
+date: 2024-01-08T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702470170564-22dd352f5b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702470170564-22dd352f5b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703858951087-8c007b5aff4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703858951087-8c007b5aff4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [jzhang38/TinyLlama](https://github.com/jzhang38/TinyLlama)
@@ -172,12 +172,13 @@ This project is currently contributed by [Peiyuan Zhang](https://veiled-texture-
 If you find our work valuable, please cite:
 
 ```
-@online{tinyllama,
-  author    = {Peiyuan Zhang, Guangtao Zeng, Tianduo Wang and Wei Lu},
-  title     = {TinyLlama},
-  url       = {https://github.com/jzhang38/TinyLlama},
-  year      = {2023},
-  month     = {Sep}
+@misc{zhang2024tinyllama,
+      title={TinyLlama: An Open-Source Small Language Model}, 
+      author={Peiyuan Zhang and Guangtao Zeng and Tianduo Wang and Wei Lu},
+      year={2024},
+      eprint={2401.02385},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 ```
 

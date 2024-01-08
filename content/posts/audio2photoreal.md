@@ -1,9 +1,9 @@
 ---
 title: audio2photoreal
-date: 2024-01-07T12:15:48+08:00
+date: 2024-01-08T12:19:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702573848697-9f21d2d74049?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702573848697-9f21d2d74049?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal)

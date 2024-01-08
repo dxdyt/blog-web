@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2023-12-23T12:15:55+08:00
+date: 2024-01-08T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702377168432-ac8b5e387998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702377168432-ac8b5e387998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702651478500-0983b30b24a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702651478500-0983b30b24a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [jmorganca/ollama](https://github.com/jmorganca/ollama)
@@ -59,6 +59,7 @@ Here are some example open-source models that can be downloaded:
 | ------------------ | ---------- | ----- | ------------------------------ |
 | Llama 2            | 7B         | 3.8GB | `ollama run llama2`            |
 | Mistral            | 7B         | 4.1GB | `ollama run mistral`           |
+| Dolphin Phi        | 2.7B       | 1.6GB | `ollama run dolphin-phi`       |
 | Phi-2              | 2.7B       | 1.7GB | `ollama run phi`               |
 | Neural Chat        | 7B         | 4.1GB | `ollama run neural-chat`       |
 | Starling           | 7B         | 4.1GB | `ollama run starling-lm`       |
@@ -72,7 +73,7 @@ Here are some example open-source models that can be downloaded:
 
 > Note: You should have at least 8 GB of RAM available to run the 7B models, 16 GB to run the 13B models, and 32 GB to run the 33B models.
 
-## Customize your own model
+## Customize a model
 
 ### Import from GGUF
 
@@ -271,6 +272,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Cheshire Cat assistant framework](https://github.com/cheshire-cat-ai/core)
 - [Amica](https://github.com/semperai/amica)
 - [chatd](https://github.com/BruceMacD/chatd)
+- [Ollama-SwiftUI](https://github.com/kghandour/Ollama-SwiftUI)
+
 
 ### Terminal
 
@@ -299,6 +302,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/stable/examples/llm/ollama.html)
 - [LiteLLM](https://github.com/BerriAI/litellm)
 - [OllamaSharp for .NET](https://github.com/awaescher/OllamaSharp)
+- [Ollama for Ruby](https://github.com/gbaptista/ollama-ai)
 - [Ollama-rs for Rust](https://github.com/pepperoni21/ollama-rs)
 - [Ollama4j for Java](https://github.com/amithkoujalgi/ollama4j)
 - [ModelFusion Typescript Library](https://modelfusion.dev/integration/model-provider/ollama)
@@ -310,7 +314,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 ### Mobile
 
 - [Enchanted](https://github.com/AugustDev/enchanted)
-- [Maid](https://github.com/danemadsen/Maid)
+- [Maid](https://github.com/Mobile-Artificial-Intelligence/maid)
 
 ### Extensions & Plugins
 

@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2024-01-01T12:17:42+08:00
+date: 2024-01-08T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701695318246-2d48c7f1cc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701695318246-2d48c7f1cc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)
@@ -21,6 +21,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1701695318246-2d48c7f1cc
 - [Local Open Source Models](#local-open-source-models)
 - [CrewAI x AutoGen x ChatDev](#how-crewai-compares)
 - [Contribution](#contribution)
+- [💬 CrewAI Discord Community](https://discord.gg/4ZqbAStv)
+- [Hire Consulting](#hire-consulting)
 - [License](#license)
 
 ## Why CrewAI?
@@ -41,45 +43,89 @@ To get started with CrewAI, follow these simple steps:
 pip install crewai
 ```
 
+The example below also uses duckduckgo, so also install that
+```shell
+pip install duckduckgo-search
+```
+
 2. **Setting Up Your Crew**:
 
 ```python
 import os
 from crewai import Agent, Task, Crew, Process
 
-os.environ["OPENAI_API_KEY"] = "Your Key"
+os.environ["OPENAI_API_KEY"] = "YOUR KEY"
+
+# You can choose to use a local model through Ollama for example.
+#
+# from langchain.llms import Ollama
+# ollama_llm = Ollama(model="openhermes")
+
+# Install duckduckgo-search for this example:
+# !pip install -U duckduckgo-search
+
+from langchain.tools import DuckDuckGoSearchRun
+search_tool = DuckDuckGoSearchRun()
 
 # Define your agents with roles and goals
 researcher = Agent(
-  role='Researcher',
-  goal='Discover new insights',
-  backstory="You're a world class researcher working on a major data science company",
+  role='Senior Research Analyst',
+  goal='Uncover cutting-edge developments in AI and data science in',
+  backstory="""You work at a leading tech think tank.
+  Your expertise lies in identifying emerging trends.
+  You have a knack for dissecting complex data and presenting
+  actionable insights.""",
   verbose=True,
-  allow_delegation=False
-  # llm=OpenAI(temperature=0.7, model_name="gpt-4"). It uses langchain.chat_models, default is GPT4
+  allow_delegation=False,
+  tools=[search_tool]
+  # You can pass an optional llm attribute specifying what mode you wanna use.
+  # It can be a local model through Ollama / LM Studio or a remote
+  # model like OpenAI, Mistral, Antrophic of others (https://python.langchain.com/docs/integrations/llms/)
+  #
+  # Examples:
+  # llm=ollama_llm # was defined above in the file
+  # llm=ChatOpenAI(model_name="gpt-3.5", temperature=0.7)
 )
 writer = Agent(
-  role='Writer',
-  goal='Create engaging content',
-  backstory="You're a famous technical writer, specialized on writing data related content",
+  role='Tech Content Strategist',
+  goal='Craft compelling content on tech advancements',
+  backstory="""You are a renowned Content Strategist, known for
+  your insightful and engaging articles.
+  You transform complex concepts into compelling narratives.""",
   verbose=True,
-  allow_delegation=False
+  allow_delegation=True,
+  # (optional) llm=ollama_llm
 )
 
 # Create tasks for your agents
-task1 = Task(description='Investigate the latest AI trends', agent=researcher)
-task2 = Task(description='Write a blog post on AI advancements', agent=writer)
+task1 = Task(
+  description="""Conduct a comprehensive analysis of the latest advancements in AI in 2024.
+  Identify key trends, breakthrough technologies, and potential industry impacts.
+  Your final answer MUST be a full analysis report""",
+  agent=researcher
+)
+
+task2 = Task(
+  description="""Using the insights provided, develop an engaging blog
+  post that highlights the most significant AI advancements.
+  Your post should be informative yet accessible, catering to a tech-savvy audience.
+  Make it sound cool, avoid complex words so it doesn't sound like AI.
+  Your final answer MUST be the full blog post of at least 4 paragraphs.""",
+  agent=writer
+)
 
 # Instantiate your crew with a sequential process
 crew = Crew(
   agents=[researcher, writer],
   tasks=[task1, task2],
-  verbose=2, # Crew verbose more will let you know what tasks are being worked on, you can set it to 1 or 2 to different logging levels
-  process=Process.sequential # Sequential process will have tasks executed one after the other and the outcome of the previous one is passed as extra content into this next.
+  verbose=2, # You can set it to 1 or 2 to different logging levels
 )
 
 # Get your crew to work!
 result = crew.kickoff()
+
+print("######################")
+print(result)
 ```
 
 Currently the only supported process is `Process.sequential`, where one task is executed after the other and the outcome of one is passed as extra content into this next.
@@ -96,9 +142,21 @@ Currently the only supported process is `Process.sequential`, where one task is 
 ## Examples
 You can test different real life examples of AI crews [in the examples repo](https://github.com/joaomdmoura/crewAI-examples?tab=readme-ov-file)
 
+### Code
 - [Trip Planner](https://github.com/joaomdmoura/crewAI-examples/tree/main/trip_planner)
 - [Stock Analysis](https://github.com/joaomdmoura/crewAI-examples/tree/main/stock_analysis)
 - [Landing Page Generator](https://github.com/joaomdmoura/crewAI-examples/tree/main/landing_page_generator)
+- [Having Human input on the execution](https://github.com/joaomdmoura/crewAI/wiki/Human-Input-on-Execution)
+
+### Video
+#### Quick Tutorial
+[![CrewAI Tutorial](https://img.youtube.com/vi/tnejrr-0a94/0.jpg)](https://www.youtube.com/watch?v=tnejrr-0a94 "CrewAI Tutorial")
+
+#### Trip Planner
+[![Trip Planner](https://img.youtube.com/vi/xis7rWp-hjs/0.jpg)](https://www.youtube.com/watch?v=xis7rWp-hjs "Trip Planner")
+
+#### Stock Analysis
+[![Stock Analysis](https://img.youtube.com/vi/e0Uj4yWdaAg/0.jpg)](https://www.youtube.com/watch?v=e0Uj4yWdaAg "Stock Analysis")
 
 ## Local Open Source Models
 crewAI supports integration with local models, thorugh tools such as [Ollama](https://ollama.ai/), for enhanced flexibility and customization. This allows you to utilize your own models, which can be particularly useful for specialized tasks or data privacy concerns.
@@ -112,7 +170,7 @@ crewAI supports integration with local models, thorugh tools such as [Ollama](ht
 
 ```python
 from langchain.llms import Ollama
-ollama_openhermes = Ollama(model="agent")
+ollama_openhermes = Ollama(model="openhermes")
 # Pass Ollama Model to Agents: When creating your agents within the CrewAI framework, you can pass the Ollama model as an argument to the Agent constructor. For instance:
 
 local_expert = Agent(
@@ -178,6 +236,10 @@ poetry build
 ```bash
 pip install dist/*.tar.gz
 ```
+
+## Hire Consulting
+I, [@joaomdmoura](https://github.com/joaomdmoura) (creator or crewAI), offer consulting through my LLC ([AI Nest Labs](https://ainestlabs.com)).
+If you are interested on hiring weekly hours with me on a retainer, feel free to email me at [joao@ainestlabs.com](mailto:joao@ainestlabs.com)
 
 ## License
 CrewAI is released under the MIT License
