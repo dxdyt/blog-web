@@ -1,15 +1,18 @@
 ---
 title: audio2photoreal
-date: 2024-01-08T12:19:09+08:00
+date: 2024-01-09T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/audio2photoreal](https://github.com/facebookresearch/audio2photoreal)
 
 # From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations
 This repository contains a pytorch implementation of ["From Audio to Photoreal Embodiment: Synthesizing Humans in Conversations"](https://people.eecs.berkeley.edu/~evonne_ng/projects/audio2photoreal/)
+
+:hatching_chick: **Try out our demo [here](https://colab.research.google.com/drive/1lnX3d-3T3LaO3nlN6R8s6pPvVNAk5mdK?usp=sharing)** or continue following the steps below to run code locally!
+And thanks everyone for the support via contributions/comments/issues!
 
 https://github.com/facebookresearch/audio2photoreal/assets/17986358/5cba4079-275e-48b6-aecc-f84f3108c810
 
@@ -145,7 +148,7 @@ Once the dataset is downloaded and unzipped (via `scripts/download_datasets.sh`)
 Each of the four participants (`PXB184`, `RLW104`, `TXB805`, `GQS883`) should have independent "scenes" (1 to 26 or so).
 For each scene, there are 3 types of data annotations that we save. 
 ```
-*audio.wav: wavefile contining the raw audio (two channels, 1600*T samples) at 48kHz; channel 0 is the audio associated with the current person, channel 1 is the audio associated with their conversational partner.
+*audio.wav: wavefile containing the raw audio (two channels, 1600*T samples) at 48kHz; channel 0 is the audio associated with the current person, channel 1 is the audio associated with their conversational partner.
 
 *body_pose.npy: (T x 104) array of joint angles in a kinematic skeleton. Not all of the joints are represented with 3DoF. Each 104-d vector can be used to reconstruct a full-body skeleton.
 

@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2024-01-08T12:16:44+08:00
+date: 2024-01-09T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701733245239-c951f87a8587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701733245239-c951f87a8587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)

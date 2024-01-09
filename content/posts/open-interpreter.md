@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2023-11-16T12:17:34+08:00
+date: 2024-01-09T12:17:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698169275384-f405e0acc8d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -16,27 +16,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1698169275384-f405e0acc8
     <a href="docs/README_JA.md"><img src="https://img.shields.io/badge/ドキュメント-日本語-white.svg" alt="JA doc"/></a>
     <a href="docs/README_ZH.md"><img src="https://img.shields.io/badge/文档-中文版-white.svg" alt="ZH doc"/></a>
     <a href="docs/README_IN.md"><img src="https://img.shields.io/badge/Hindi-white.svg" alt="IN doc"/></a>
-    <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white&style=flat" alt="License"/>
+    <img src="https://img.shields.io/static/v1?label=license&message=AGPL&color=white&style=flat" alt="License"/>
     <br>
     <br>
-    <b>Let language models run code on your computer.</b><br>
-    An open-source, locally running implementation of OpenAI's Code Interpreter.<br>
-    <br><a href="https://openinterpreter.com">Get early access to the desktop app</a>‎ ‎ |‎ ‎ <b><a href="https://docs.openinterpreter.com/">Read our new docs</a></b><br>
+    <strong>Let language models run code.</strong><br>
+    <br><a href="https://openinterpreter.com">Get early access to the desktop app</a>‎ ‎ |‎ ‎ <a href="https://docs.openinterpreter.com/">Documentation</a><br>
 </p>
 
 <br>
 
-![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
+![thumbnail-ncu](https://github.com/KillianLucas/open-interpreter/assets/63927363/1b19a5db-b486-41fd-a7a1-fe2028031686)
 
 <br>
-
-**Update:** ● 0.1.12 supports `--vision` (experimental).
-
+<p align="center">
+<strong>The New Computer Update</strong> introduces <strong><code>--os</code></strong> and a new <strong>Computer API</strong>. <a href="https://changes.openinterpreter.com/log/the-new-computer-update">Read On →</a>
+</p>
 <br>
 
 ```shell
 pip install open-interpreter
 ```
+
+> Not working? Read our [setup guide](https://docs.openinterpreter.com/getting-started/setup).
 
 ```shell
 interpreter
@@ -65,10 +66,6 @@ https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKmRXZgsErej2xUriKzxrEAXdxMSgWbb?usp=sharing)
 
-#### Along with an example implementation of a voice interface (inspired by _Her_):
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NojYGHDgxH6Y1G1oxThEBBb2AtyODBIK)
-
 ## Quick Start
 
 ```shell
@@ -86,7 +83,7 @@ interpreter
 ### Python
 
 ```python
-import interpreter
+from interpreter import interpreter
 
 interpreter.chat("Plot AAPL and META's normalized stock prices") # Executes a single command
 interpreter.chat() # Starts an interactive chat
@@ -202,12 +199,14 @@ interpreter --model command-nightly
 In Python, set the model on the object:
 
 ```python
-interpreter.model = "gpt-3.5-turbo"
+interpreter.llm.model = "gpt-3.5-turbo"
 ```
 
 [Find the appropriate "model" string for your language model here.](https://docs.litellm.ai/docs/providers/)
 
 ### Running Open Interpreter locally
+
+#### Terminal
 
 Open Interpreter uses [LM Studio](https://lmstudio.ai/) to connect to local language models (experimental).
 
@@ -230,6 +229,21 @@ Once the server is running, you can begin your conversation with Open Interprete
 
 > **Note:** Local mode sets your `context_window` to 3000, and your `max_tokens` to 1000. If your model has different requirements, set these parameters manually (see below).
 
+#### Python
+
+Our Python package gives you more control over each setting. To replicate `--local` and connect to LM Studio, use these settings:
+
+```python
+from interpreter import interpreter
+
+interpreter.offline = True # Disables online features like Open Procedures
+interpreter.llm.model = "openai/x" # Tells OI to send messages in OpenAI's format
+interpreter.llm.api_key = "fake_key" # LiteLLM, which we use to talk to LM Studio, requires this
+interpreter.llm.api_base = "http://localhost:1234/v1" # Point this at any OpenAI compatible server
+
+interpreter.chat()
+```
+
 #### Context Window, Max Tokens
 
 You can modify the `max_tokens` and `context_window` (in tokens) of locally running models.
@@ -240,18 +254,18 @@ For local mode, smaller context windows will use less RAM, so we recommend tryin
 interpreter --local --max_tokens 1000 --context_window 3000
 ```
 
-### Debug mode
+### Verbose mode
 
-To help contributors inspect Open Interpreter, `--debug` mode is highly verbose.
+To help you inspect Open Interpreter we have a `--verbose` mode for debugging.
 
-You can activate debug mode by using it's flag (`interpreter --debug`), or mid-chat:
+You can activate verbose mode by using it's flag (`interpreter --verbose`), or mid-chat:
 
 ```shell
 $ interpreter
 ...
-> %debug true <- Turns on debug mode
+> %verbose true <- Turns on verbose mode
 
-> %debug false <- Turns off debug mode
+> %verbose false <- Turns off verbose mode
 ```
 
 ### Interactive Mode Commands
@@ -260,12 +274,10 @@ In the interactive mode, you can use the below commands to enhance your experien
 
 **Available Commands:**
 
-- `%debug [true/false]`: Toggle debug mode. Without arguments or with `true` it
-  enters debug mode. With `false` it exits debug mode.
+- `%verbose [true/false]`: Toggle verbose mode. Without arguments or with `true` it
+  enters verbose mode. With `false` it exits verbose mode.
 - `%reset`: Resets the current session's conversation.
 - `%undo`: Removes the previous user message and the AI's response from the message history.
-- `%save_message [path]`: Saves messages to a specified JSON path. If no path is provided, it defaults to `messages.json`.
-- `%load_message [path]`: Loads messages from a specified JSON path. If no path is provided, it defaults to `messages.json`.
 - `%tokens [prompt]`: (_Experimental_) Calculate the tokens that will be sent with the next prompt as context and estimate their cost. Optionally calculate the tokens and estimated cost of a `prompt` if one is provided. Relies on [LiteLLM's `cost_per_token()` method](https://docs.litellm.ai/docs/completion/token_usage#2-cost_per_token) for estimated costs.
 - `%help`: Show the help message.
 
@@ -301,7 +313,7 @@ interpreter --config_file $config_path
 
 **Note**: Replace `$config_path` with the name of or path to your configuration file.
 
-##### CLI Example
+##### Example
 
 1. Create a new `config.turbo.yaml` file
    ```
@@ -313,25 +325,6 @@ interpreter --config_file $config_path
    interpreter --config_file config.turbo.yaml
    ```
 
-##### Python Example
-
-You can also load configuration files when calling Open Interpreter from Python scripts:
-
-```python
-import os
-import interpreter
-
-currentPath = os.path.dirname(os.path.abspath(__file__))
-config_path=os.path.join(currentPath, './config.test.yaml')
-
-interpreter.extend_config(config_path=config_path)
-
-message = "What operating system are we on?"
-
-for chunk in interpreter.chat(message, display=False, stream=True):
-  print(chunk)
-```
-
 ## Sample FastAPI Server
 
 The generator update enables Open Interpreter to be controlled via HTTP REST endpoints:
@@ -341,7 +334,7 @@ The generator update enables Open Interpreter to be controlled via HTTP REST end
 
 from fastapi import FastAPI
 from fastapi.responses import StreamingResponse
-import interpreter
+from interpreter import interpreter
 
 app = FastAPI()
 
@@ -387,13 +380,15 @@ We then stream the model's messages, code, and your system's outputs to the term
 
 Thank you for your interest in contributing! We welcome involvement from the community.
 
-Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details on how to get involved.
+Please see our [contributing guidelines](docs/CONTRIBUTING.md) for more details on how to get involved.
 
-## License
+# Roadmap
 
-Open Interpreter is licensed under the MIT License. You are permitted to use, copy, modify, distribute, sublicense, and sell copies of the software.
+Visit [our roadmap](https://github.com/KillianLucas/open-interpreter/blob/main/docs/ROADMAP.md) to preview the future of Open Interpreter.
 
 **Note**: This software is not affiliated with OpenAI.
+
+![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
 > Having access to a junior programmer working at the speed of your fingertips ... can make new workflows effortless and efficient, as well as open the benefits of programming to new audiences.
 >
