@@ -1,9 +1,9 @@
 ---
 title: soybean-admin
-date: 2023-09-20T12:16:18+08:00
+date: 2024-01-10T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUxODMzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin)
@@ -14,6 +14,25 @@ featuredImagePreview: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9
 </div>
 
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE) ![](https://img.shields.io/github/stars/honghuangdc/soybean-admin) ![](https://img.shields.io/github/forks/honghuangdc/soybean-admin)
+
+## 注意 SoybeanAdmin 正在重构，全新 1.0 即将发布
+
+Soybean Admin v1.0 :
+
+- [x] 采用基于 pnpm 的 monorepo 管理项目
+- [x] 第三方 soybeanjs 的工具库直接抽离到项目中(ElegantRouter除外)，不再作为依赖
+- [x] 采用全新的路由插件 ElegantRouter
+- [x] 使用基于 ApiFox 的远程 mock 代替本地 mock
+- [x] 基于现有路由插件迁移至新路由插件的指南
+- [x] 代码实现遵循 SoybeanJS 的代码规范
+- [ ] 项目的 main 分支保留系统核心部分，示例页面和无关核心的插件移至 example 分支
+- [ ] 完整 1.0 版本的文档
+
+  1.0 源代码：[v1.0-beta](https://github.com/honghuangdc/soybean-admin/tree/v1.0-beta)
+
+> 同时推出开源的 [AntDesignVue 版本](https://github.com/soybeanjs/soybean-admin-antd) 和 ElementPlus 版本
+
+> 新开项目建议直接使用 [v1.0-beta](https://github.com/honghuangdc/soybean-admin/tree/v1.0-beta) 或 [AntDesignVue 版本](https://github.com/soybeanjs/soybean-admin-antd)
 
 ## 简介
 
@@ -52,9 +71,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1693370000365-1fb8ae16f9
 
 ## 代码仓库
 
-| 仓库           | github 地址                                                                   | gitee 镜像                                                                   | 预览                                                      |
+| 仓库           | GitHub 地址                                                                   | gitee 镜像                                                                   | 预览                                                      |
 | -------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------- |
-| soybean-admin  | [github](https://github.com/honghuangdc/soybean-admin)                        | [gitee](https://gitee.com/honghuangdc/soybean-admin)                         | [预览](https://admin.soybeanjs.cn/)                       |
+| soybean-admin  | [GitHub](https://github.com/honghuangdc/soybean-admin)                        | [gitee](https://gitee.com/honghuangdc/soybean-admin)                         | [预览](https://admin.soybeanjs.cn/)                       |
 | tauri 版       | [tauri 版](https://github.com/honghuangdc/soybean-admin/tree/tauri)           | [tauri 版](https://gitee.com/honghuangdc/soybean-admin/tree/tauri)           |                                                           |
 | 精简版         | [精简版](https://github.com/honghuangdc/soybean-admin/tree/thin)              | [精简版](https://gitee.com/honghuangdc/soybean-admin/tree/thin)              |                                                           |
 | 集成 fast-crud | [集成 fast-crud](https://github.com/honghuangdc/soybean-admin/tree/fast-crud) | [集成 fast-crud](https://gitee.com/honghuangdc/soybean-admin/tree/fast-crud) | [预览](http://fast-crud.docmirror.cn/soybean/#/crud/demo) |
@@ -175,7 +194,7 @@ docker run -d -p 80:80 soybean-admin-image
       <img src="https://i.loli.net/2021/11/24/1J6REWXiHomU2kM.jpg" style="width:200px" />
   	</div>
 		<div>
-			<p>添加本人微信，欢迎来技术交流，业务咨询</p>
+			<p>添加本人微信，欢迎来业务咨询(技术交流请加QQ群)</p>
 			<img src="https://s2.loli.net/2023/06/07/sVyCUFBvzQ9f5b7.jpg" style="width:200px" />
 		</div>
   </div>

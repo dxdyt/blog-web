@@ -1,9 +1,9 @@
 ---
 title: PowerInfer
-date: 2023-12-24T12:15:29+08:00
+date: 2024-01-10T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702266449355-d5b7b821bb80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702266449355-d5b7b821bb80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702888775639-a62799b409b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702888775639-a62799b409b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [SJTU-IPADS/PowerInfer](https://github.com/SJTU-IPADS/PowerInfer)
@@ -13,6 +13,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1702266449355-d5b7b821bb
 ## TL;DR
 PowerInfer is a CPU/GPU LLM inference engine leveraging **activation locality** for your device.
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+[Project Kanban](https://github.com/orgs/SJTU-IPADS/projects/2/views/2)
+
+## Latest News 🔥
+- [2023/12/24] We released an online [gradio demo](https://powerinfer-gradio.vercel.app/) for Falcon(ReLU)-40B-FP16!
+- [2023/12/19] We officially released PowerInfer!
 ## Demo 🔥
 
 https://github.com/SJTU-IPADS/PowerInfer/assets/34213478/fe441a42-5fce-448b-a3e5-ea4abb43ba23
@@ -20,6 +27,13 @@ https://github.com/SJTU-IPADS/PowerInfer/assets/34213478/fe441a42-5fce-448b-a3e5
 PowerInfer v.s. llama.cpp on a single RTX 4090(24G) running Falcon(ReLU)-40B-FP16 with a 11x speedup!
 
 <sub>Both PowerInfer and llama.cpp were running on the same hardware and fully utilized VRAM on RTX 4090.</sub>
+
+> [!NOTE]
+> **Live Demo Online⚡️**
+>
+> Try out our [Gradio server](https://powerinfer-gradio.vercel.app/) hosting Falcon(ReLU)-40B-FP16 on a RTX 4090!
+> 
+> <sub>Experimental and without warranties 🚧</sub>
 
 ## Abstract
 
@@ -68,6 +82,8 @@ And new features coming soon:
 
 - Mistral-7B model
 - Metal backend for sparse inference on macOS
+
+Please kindly refer to our [Project Kanban](https://github.com/orgs/SJTU-IPADS/projects/2/views/2) for our current focus of development. 
   
 ## Getting Started
 
@@ -75,6 +91,14 @@ And new features coming soon:
 - [Model Weights](#model-weights)
 
 ## Setup and Installation
+
+### Pre-requisites
+
+PowerInfer requires the following dependencies:
+
+- CMake (3.13+)
+- Python (3.8+) and pip (19.3+), for converting model weights and automatic FFN offloading
+
 ### Get the Code
 
 ```bash
@@ -91,7 +115,7 @@ Using `CMake`(3.13+) on Linux or macOS:
 cmake -S . -B build -DLLAMA_CUBLAS=ON
 cmake --build build --config Release
 ```
-* If you just CPU:
+* If you have just CPU:
 ```bash
 cmake -S . -B build
 cmake --build build --config Release

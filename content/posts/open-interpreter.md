@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2024-01-09T12:17:56+08:00
+date: 2024-01-10T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -65,6 +65,10 @@ https://github.com/KillianLucas/open-interpreter/assets/63927363/37152071-680d-4
 #### An interactive demo is also available on Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WKmRXZgsErej2xUriKzxrEAXdxMSgWbb?usp=sharing)
+
+#### Along with an example voice interface, inspired by _Her_:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NojYGHDgxH6Y1G1oxThEBBb2AtyODBIK)
 
 ## Quick Start
 
@@ -159,7 +163,7 @@ interpreter.chat("These look great but can you make the subtitles bigger?")
 In Python, Open Interpreter remembers conversation history. If you want to start fresh, you can reset it:
 
 ```python
-interpreter.reset()
+interpreter.messages = []
 ```
 
 ### Save and Restore Chats
@@ -168,7 +172,7 @@ interpreter.reset()
 
 ```python
 messages = interpreter.chat("My name is Killian.") # Save messages to 'messages'
-interpreter.reset() # Reset interpreter ("Killian" will be forgotten)
+interpreter.messages = [] # Reset interpreter ("Killian" will be forgotten)
 
 interpreter.messages = messages # Resume chat from 'messages' ("Killian" will be remembered)
 ```

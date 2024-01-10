@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2024-01-09T12:17:11+08:00
+date: 2024-01-10T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701733245239-c951f87a8587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701733245239-c951f87a8587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)
@@ -70,7 +70,7 @@ search_tool = DuckDuckGoSearchRun()
 # Define your agents with roles and goals
 researcher = Agent(
   role='Senior Research Analyst',
-  goal='Uncover cutting-edge developments in AI and data science in',
+  goal='Uncover cutting-edge developments in AI and data science',
   backstory="""You work at a leading tech think tank.
   Your expertise lies in identifying emerging trends.
   You have a knack for dissecting complex data and presenting

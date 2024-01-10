@@ -1,9 +1,9 @@
 ---
 title: Awesome-gptlike-shellsite
-date: 2024-01-09T12:19:13+08:00
+date: 2024-01-10T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701986789771-4ad3b2e0c82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701986789771-4ad3b2e0c82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [bleedline/Awesome-gptlike-shellsite](https://github.com/bleedline/Awesome-gptlike-shellsite)

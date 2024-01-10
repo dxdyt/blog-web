@@ -1,9 +1,9 @@
 ---
 title: dreamoving-project
-date: 2023-12-16T12:18:37+08:00
+date: 2024-01-10T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701309209453-7b69cd3b0cae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701309209453-7b69cd3b0cae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3MDAxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702295138368-21eea2d35a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702295138368-21eea2d35a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [dreamoving/dreamoving-project](https://github.com/dreamoving/dreamoving-project)
@@ -19,6 +19,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1701309209453-7b69cd3b0c
 > Institute for Intelligent Computing, Alibaba Group
 
 <strong>TL;DR</strong>: <strong>DreaMoving</strong> is a diffusion-based controllable video generation framework to produce high-quality customized human videos.
+
+## Demo
+中文版
+[ModelScope创空间](https://www.modelscope.cn/studios/vigen/video_generation/summary)
+
+English Version [HuggingFace](https://huggingface.co/spaces/jiayong/Dreamoving)
 
 <table border="0" cellspacing="0" cellpadding="0" align="center">
     <tr>

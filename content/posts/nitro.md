@@ -1,9 +1,9 @@
 ---
 title: nitro
-date: 2024-01-09T12:18:57+08:00
+date: 2024-01-10T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701986789771-4ad3b2e0c82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701986789771-4ad3b2e0c82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701948867768-6326f6cf9f73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701948867768-6326f6cf9f73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [janhq/nitro](https://github.com/janhq/nitro)
@@ -146,37 +146,37 @@ To compile nitro please visit [Compile from source](docs/new/build-source.md)
   <tr>
     <td style="text-align:center"><b>Stable (Recommended)</b></td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/nitro/releases/download/v0.2.6/nitro-0.2.6-win-amd64.tar.gz'>
+      <a href='https://github.com/janhq/nitro/releases/download/v0.2.8/nitro-0.2.8-win-amd64.tar.gz'>
         <img src='./docs/static/img/windows.png' style="height:15px; width: 15px" />
         <b>CPU</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/nitro/releases/download/v0.2.6/nitro-0.2.6-win-amd64-cuda.tar.gz'>
+      <a href='https://github.com/janhq/nitro/releases/download/v0.2.8/nitro-0.2.8-win-amd64-cuda.tar.gz'>
         <img src='./docs/static/img/windows.png' style="height:15px; width: 15px" />
         <b>CUDA</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/nitro/releases/download/v0.2.6/nitro-0.2.6-mac-amd64.tar.gz'>
+      <a href='https://github.com/janhq/nitro/releases/download/v0.2.8/nitro-0.2.8-mac-amd64.tar.gz'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/nitro/releases/download/v0.2.6/nitro-0.2.6-mac-arm64.tar.gz'>
+      <a href='https://github.com/janhq/nitro/releases/download/v0.2.8/nitro-0.2.8-mac-arm64.tar.gz'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/nitro/releases/download/v0.2.6/nitro-0.2.6-linux-amd64.tar.gz'>
+      <a href='https://github.com/janhq/nitro/releases/download/v0.2.8/nitro-0.2.8-linux-amd64.tar.gz'>
         <img src='./docs/static/img/linux.png' style="height:15px; width: 15px" />
         <b>CPU</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/nitro/releases/download/v0.2.6/nitro-0.2.6-linux-amd64-cuda.tar.gz'>
+      <a href='https://github.com/janhq/nitro/releases/download/v0.2.8/nitro-0.2.8-linux-amd64-cuda.tar.gz'>
         <img src='./docs/static/img/linux.png' style="height:15px; width: 15px" />
         <b>CUDA</b>
       </a>
@@ -185,7 +185,7 @@ To compile nitro please visit [Compile from source](docs/new/build-source.md)
   <tr style="text-align: center">
     <td style="text-align:center"><b>Experimental (Nighlty Build)</b></td>
     <td style="text-align:center" colspan="6">
-      <a href='https://github.com/janhq/nitro/actions/runs/7452554691'>
+      <a href='https://github.com/janhq/nitro/actions/runs/7466269365'>
         <b>Github action artifactory</b>
       </a>
     </td>

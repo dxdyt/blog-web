@@ -1,9 +1,9 @@
 ---
 title: copilot-gpt4-service
-date: 2024-01-09T12:17:19+08:00
+date: 2024-01-10T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743806568-4ce6e19500c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743806568-4ce6e19500c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
 ---
 
 # [aaamoon/copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service)
@@ -20,25 +20,36 @@ featuredImagePreview: https://images.unsplash.com/photo-1701743806568-4ce6e19500
 
 ## 如何使用
 
-1. 部署 copilot-gpt4-service 服务，并配置 API 地址，如：`https://youcopilotgpt4service.com`;
+1. 安装并启动 copilot-gpt4-service 服务，如本地启动后，API默认地址为：`http://127.0.0.1:8080`;
 2. 获取你的 GitHub 账号 Github Copilot Plugin Token（详见下文）；
-3. 使用第三方客户端，如：[ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)，在设置中填入 copilot-gpt4-service 服务的 API 地址和 Github Copilot Plugin Token，即可使用 GPT-4 模型进行对话。
+3. 安装第三方客户端，如：[ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)，在设置中填入 copilot-gpt4-service 的 API 地址和 Github Copilot Plugin Token，即可使用 GPT-4 模型进行对话。
 
 ## 部署方式
 
-### 最佳部署方式
-经社区验证，最佳部署方式为: 
-1. 本地部署
-2. 服务器集成 [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) 部署, 本服务不公开
-3. 服务器部署, 公开但个人使用 (例如多客户端使用场景 [Chatbox](https://github.com/Bin-Huang/chatbox), [OpenCat APP](https://opencat.app/), [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087))
+### 最佳实践方式
 
-### 不建议的方案
+经社区验证和讨论，最佳实践方式为:
+
+1. 本地部署，仅个人使用（推荐）；
+2. 自用服务器集成 [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) 部署, 服务不公开；
+3. 服务器部署, 公开但个人使用 (例如多客户端使用场景 [Chatbox](https://github.com/Bin-Huang/chatbox), [OpenCat APP](https://opencat.app/), [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087))。
+
+### 不建议方式
 1. 以公共服务的方式提供接口
     多个 Token 在同一个 IP 地址进行请求, 容易被判定为异常行为
 2. 同客户端 Web(例如 ChatGPT-Next-Web) 以默认 API 以及 API Key 的方式提供公共服务
     同一个 Token 请求频率过高, 容易被判定为异常行为
 3. Serverless 类型的提供商进行部署
     服务生命周期短, 更换 IP 地址频繁, 容易被判定为异常行为.
+4. 其他滥用行为或牟利等行为。
+
+### ⚠️ 非常重要
+
+**非常重要：以上不建议的方式，均可能会导致 Github Copilot 被封禁，且封禁后可能无法解封。**
+
+**非常重要：以上不建议的方式，均可能会导致 Github Copilot 被封禁，且封禁后可能无法解封。**
+
+**非常重要：以上不建议的方式，均可能会导致 Github Copilot 被封禁，且封禁后可能无法解封。**
 
 ## 客户端
 
@@ -76,6 +87,7 @@ docker run -d \
   --name copilot-gpt4-service \
   --restart always \
   -p 8080:8080 \
+  -e HOST=0.0.0.0 \
   aaamoon/copilot-gpt4-service:latest
 ```
 
@@ -118,7 +130,7 @@ helm install copilot-gpt4-service aaamoon/copilot-gpt4-service \
 获取 Github Copilot Plugin Token 的方式目前有两种方式：
 
 1. 通过安装 [Github Copilot CLI](https://githubnext.com/projects/copilot-cli/) 授权获取（推荐）。
-2. 通过 [https://cocopilot.org](https://cocopilot.org/copilot/token) 第三方接口授权获取。
+2. 通过第三方接口授权获取，不推荐，因为不安全。
 
 ### 通过 Github Copilot CLI 授权获取
 
@@ -132,10 +144,6 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/aaamoon/copilot-gpt4-ser
 **Windows 平台获取**
 
 下载批处理脚本，双击运行即可：[get_copilot_token.bat](https://raw.githubusercontent.com/aaamoon/copilot-gpt4-service/master/shells/get_copilot_token.bat)。
-
-### 第三方接口授权获取
-
-通过 [https://cocopilot.org](https://cocopilot.org/copilot/token) 第三方接口授权获取，需要注意的是，该接口是第三方开发者提供的，不保证安全性，请谨慎使用。
 
 ## 常见问题
 
