@@ -1,0 +1,64 @@
+---
+title: tachiyomi-extensions-revived
+date: 2024-01-11T12:17:16+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1703433729278-cf62027bbcb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703433729278-cf62027bbcb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+---
+
+# [ThePBone/tachiyomi-extensions-revived](https://github.com/ThePBone/tachiyomi-extensions-revived)
+
+# ![app icon](./.github/readme-images/app-icon.png)Tachiyomi Extensions Revived
+
+This repository contains all source extensions that have been removed from the official repository.
+
+## Usage
+
+Extension sources can be downloaded, installed, and uninstalled via the main Tachiyomi app. They are installed and uninstalled like regular apps, in `.apk` format.
+
+> [!IMPORTANT]
+> All extensions in this repo have a custom package name. While this technically allows you to install them alongside the old removed official extensions, it is not recommended and can cause issues. Uninstall the old extensions to avoid source conflicts.
+
+## Downloads
+
+### Add this repo to Tachiyomi (v0.15.2 and later)
+
+Starting with the latest [Tachiyomi version](https://tachiyomi.org/download/) (v0.15.2 and later), you can now add external extension repos without having to re-approve unofficial extensions after each app launch!
+
+
+1. Update to the latest version of [Tachiyomi](https://tachiyomi.org/download/)
+2. Go to Settings > Browse > Extension repos > Add
+3. Enter the following URL and accept: `https://raw.githubusercontent.com/ThePBone/tachiyomi-extensions-revived/repo/index.min.json`
+4. Go to the extension management screen, refresh it, and you can now download the removed extensions.
+5. After installing an extension, you need to approve it by tapping on the 'Trust' button.
+
+> [!NOTE]
+> Unofficial extensions must be manually re-approved on Tachiyomi's extension management screen after installing an update for an extension!
+>
+> If Tachiyomi suddenly complains about a missing source, then there probably was an extension update that needs to be approved.
+
+### Direct APK downloads
+You can also directly download the APK files in this GitHub repository in the [`repo` branch](https://github.com/ThePBone/tachiyomi-extensions-revived/tree/repo/apk).
+
+After installing any unofficial extension, you must **manually** enable the extension in Tachiyomi.
+
+## Disclaimer
+
+The developer of this application does not have any affiliation with the content providers available.
+
+
+## License
+
+    Copyright 2015 Javier Tomás
+    
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+    
+    http://www.apache.org/licenses/LICENSE-2.0
+    
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.

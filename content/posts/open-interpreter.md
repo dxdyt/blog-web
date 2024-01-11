@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2024-01-10T12:16:58+08:00
+date: 2024-01-11T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702427725739-4282dcc3e8e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702427725739-4282dcc3e8e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -25,7 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1703331539914-4c7da11848
 
 <br>
 
-![thumbnail-ncu](https://github.com/KillianLucas/open-interpreter/assets/63927363/1b19a5db-b486-41fd-a7a1-fe2028031686)
+![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
 <br>
 <p align="center">
@@ -392,7 +392,7 @@ Visit [our roadmap](https://github.com/KillianLucas/open-interpreter/blob/main/d
 
 **Note**: This software is not affiliated with OpenAI.
 
-![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
+![thumbnail-ncu](https://github.com/KillianLucas/open-interpreter/assets/63927363/1b19a5db-b486-41fd-a7a1-fe2028031686)
 
 > Having access to a junior programmer working at the speed of your fingertips ... can make new workflows effortless and efficient, as well as open the benefits of programming to new audiences.
 >

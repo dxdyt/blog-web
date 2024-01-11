@@ -1,9 +1,9 @@
 ---
 title: magento2
-date: 2023-09-07T12:16:59+08:00
+date: 2024-01-11T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691979461247-915ea0b410a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQwNjAwOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702651442150-a83d94731f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702651442150-a83d94731f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
 ---
 
 # [magento/magento2](https://github.com/magento/magento2)
@@ -36,7 +36,7 @@ However, for those who need a full-featured eCommerce solution, we recommend [Ad
 
 ## Contribute
 
-Our [Community](https://opensource.magento.com/) is large and diverse, and our project is enormous. As a contributor, you have countless opportunities to impact product development and delivery by introducing new features or improving existing ones, enhancing test coverage, updating documentation for [developers](https://developer.adobe.com/commerce/docs/) and [end-users](https://docs.magento.com/user-guide/), catching and fixing code bugs, suggesting points for optimization, and sharing your great ideas.
+Our [Community](https://opensource.magento.com/) is large and diverse, and our project is enormous. As a contributor, you have countless opportunities to impact product development and delivery by introducing new features or improving existing ones, enhancing test coverage, updating documentation for [developers](https://developer.adobe.com/commerce/docs/) and [end-users](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html), catching and fixing code bugs, suggesting points for optimization, and sharing your great ideas.
 
 - [Contribute to the code](https://developer.adobe.com/commerce/contributor/guides/code-contributions/)
 - [Report an issue](https://developer.adobe.com/commerce/contributor/guides/code-contributions/#report)

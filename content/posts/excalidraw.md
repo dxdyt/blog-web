@@ -1,9 +1,9 @@
 ---
 title: excalidraw
-date: 2023-12-05T12:16:43+08:00
+date: 2024-01-11T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1664985363388-0e4bd2b5cdb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1664985363388-0e4bd2b5cdb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702573849838-0f66f3731fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702573849838-0f66f3731fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
 ---
 
 # [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
@@ -95,7 +95,7 @@ We'll be adding these features as drop-in plugins for the npm package in the fut
 
 ## Quick start
 
-Install the [Excalidraw npm package](https://www.npmjs.com/package/@excalidraw/excalidraw):
+**Note:** following instructions are for installing the Excalidraw [npm package](https://www.npmjs.com/package/@excalidraw/excalidraw) when integrating Excalidraw into your own app. To run the repository locally for development, please refer to our [Development Guide](https://docs.excalidraw.com/docs/introduction/development).
 
 ```
 npm install react react-dom @excalidraw/excalidraw
@@ -107,7 +107,7 @@ or via yarn
 yarn add react react-dom @excalidraw/excalidraw
 ```
 
-Don't forget to check out our [Documentation](https://docs.excalidraw.com)!
+Check out our [documentation](https://docs.excalidraw.com/docs/@excalidraw/excalidraw/installation) for more details!
 
 ## Contributing
 

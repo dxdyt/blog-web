@@ -1,9 +1,9 @@
 ---
 title: stat_rethinking_2024
-date: 2023-12-11T12:18:44+08:00
+date: 2024-01-11T12:18:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695749800546-c23bbceb4d60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695749800546-c23bbceb4d60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIyNjgxNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700348306153-9a82f7574d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700348306153-9a82f7574d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
 ---
 
 # [rmcelreath/stat_rethinking_2024](https://github.com/rmcelreath/stat_rethinking_2024)

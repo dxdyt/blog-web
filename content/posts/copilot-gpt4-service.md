@@ -1,9 +1,9 @@
 ---
 title: copilot-gpt4-service
-date: 2024-01-10T12:16:24+08:00
+date: 2024-01-11T12:16:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703331539914-4c7da118489a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703015619478-0fe558ed7d05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703015619478-0fe558ed7d05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
 ---
 
 # [aaamoon/copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service)
@@ -11,76 +11,74 @@ featuredImagePreview: https://images.unsplash.com/photo-1703331539914-4c7da11848
 <h1 align="center">copilot-gpt4-service</h1>
 
 <p align="center">
-⚔️ 将 Github Copilot 转换为 ChatGPT
+⚔️ Convert Github Copilot to ChatGPT
 </p>
 
 <p align="center">
-简体中文 | <a href="README_EN.md">English</a>
+English | <a href="README_CN.md">简体中文</a>
 </p>
 
-## 如何使用
+## How To Use
 
-1. 安装并启动 copilot-gpt4-service 服务，如本地启动后，API默认地址为：`http://127.0.0.1:8080`;
-2. 获取你的 GitHub 账号 Github Copilot Plugin Token（详见下文）；
-3. 安装第三方客户端，如：[ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)，在设置中填入 copilot-gpt4-service 的 API 地址和 Github Copilot Plugin Token，即可使用 GPT-4 模型进行对话。
+1. Install and start the copilot-gpt4-service service, e.g., after local startup, the API default address is: `http://127.0.0.1:8080`;
+2. Get your GitHub account Github Copilot Plugin Token (see below for details);
+3. Install a third-party client, e.g., [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web), and fill in the settings with the API address of copilot-gpt4-service and the Github Copilot Plugin Token in the settings, and you can use the GPT-4 model to have a conversation.
 
-## 部署方式
+## Deployment Methods
 
-### 最佳实践方式
+### Best Practice Approach
 
-经社区验证和讨论，最佳实践方式为:
+As verified and discussed by the community, the best practice approach is.
 
-1. 本地部署，仅个人使用（推荐）；
-2. 自用服务器集成 [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) 部署, 服务不公开；
-3. 服务器部署, 公开但个人使用 (例如多客户端使用场景 [Chatbox](https://github.com/Bin-Huang/chatbox), [OpenCat APP](https://opencat.app/), [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087))。
+1. Local deployment for personal use only(Recommend);
+2. Deploy with your own server integration [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web), the service is not public;
+3. server deployment, public but for personal use (e.g. multi-client scenarios [Chatbox](https://github.com/Bin-Huang/chatbox), [OpenCat APP](https://opencat.app/), [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087)).
 
-### 不建议方式
-1. 以公共服务的方式提供接口
-    多个 Token 在同一个 IP 地址进行请求, 容易被判定为异常行为
-2. 同客户端 Web(例如 ChatGPT-Next-Web) 以默认 API 以及 API Key 的方式提供公共服务
-    同一个 Token 请求频率过高, 容易被判定为异常行为
-3. Serverless 类型的提供商进行部署
-    服务生命周期短, 更换 IP 地址频繁, 容易被判定为异常行为.
-4. 其他滥用行为或牟利等行为。
+### Not Recommended Approaches
 
-### ⚠️ 非常重要
+1. Providing an interface as a public service
 
-**非常重要：以上不建议的方式，均可能会导致 Github Copilot 被封禁，且封禁后可能无法解封。**
+    Making multiple token requests from the same IP address can be flagged as abnormal behavior.
+2. Offering public services using the same client web interface (e.g., ChatGPT-Next-Web) with the default API and API Key
 
-**非常重要：以上不建议的方式，均可能会导致 Github Copilot 被封禁，且封禁后可能无法解封。**
+   Making too many requests with the same token can be flagged as abnormal behavior.
+3. Deploying with serverless providers
 
-**非常重要：以上不建议的方式，均可能会导致 Github Copilot 被封禁，且封禁后可能无法解封。**
+   Serverless providers have short service lifecycles and frequently change IP addresses, which can be flagged as abnormal behavior.
+4. Other abusive behaviors or profiteering behaviors.
 
-## 客户端
+**⚠️ Very important: The above not recommended methods may cause Github Copilot to be banned, and it may not be possible to unban after being banned.**
 
-使用 copilot-gpt4-service，需要配合第三方客户端，目前已测试支持以下客户端：
+## Clients
 
-- [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) (推荐)
-- [Chatbox](https://github.com/Bin-Huang/chatbox)：支持 Windows, Mac, Linux 平台
-- [OpenCat APP](https://opencat.app/)：支持 iOS、Mac 平台
-- [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087) ：支持 iOS、Mac 平台
+To use copilot-gpt4-service, you need to use it with a third-party client. The following clients have been tested and are supported:
 
-## 服务端
+- [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) (recommended)
+- [Chatbox](https://github.com/Bin-Huang/chatbox): Supports Windows, Mac, and Linux platforms
+- [OpenCat APP](https://opencat.app/): Supports iOS and Mac platforms
+- [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087): Supports iOS and Mac platforms
 
-copilot-gpt4-service 服务的部署方式目前包含 Docker 部署、源码部署、Kubernetes 部署实现，下面分别介绍。
+## Server
 
-### 配置方式
+The deployment methods for copilot-gpt4-service currently include Docker deployment, source code deployment, Kubernetes deployment implementation. They are described below.
 
-使用环境变量或环境变量配置文件 `config.env` 配置服务（环境变量优先级高于 `config.env`），默认配置项如下：  
+### Configuration
+
+Use environment variables or environment variable configuration file `config.env` to configure the service (environment variables take precedence over `config.env`), the default configuration items are as follows:  
 
 ```env
-HOST=localhost # 服务监听地址
-PORT=8080 # 服务监听端口
-CACHE=true # 是否启用持久化
-CACHE_PATH=db/cache.sqlite3 # 持久化缓存的路径（仅当 CACHE=true 时有效）
-DEBUG=false # 是否启用调试模式，启用后会输出更多日志
-LOGGING=true # 是否启用日志
-LOG_LEVEL=info # 日志级别，可选值：panic、fatal、error、warn、info、debug、trace（注意：仅当 LOGGING=true 时有效）
+HOST=localhost # Service listening address
+PORT=8080 # Service listening port
+CACHE=true # Whether to enable persistence
+CACHE_PATH=db/cache.sqlite3 # Path to persistent cache (only used when CACHE=true)
+DEBUG=false # Whether to enable debug mode, more logs will be output when enabled
+LOGGING=true # Whether to enable logging
+LOG_LEVEL=info # Log level, optional values: panic, fatal, error, warn, info, debug, trace (Note: Only effective when LOGGING=true)
 ```
 
-### Docker 部署
+### Docker Deployment
 
-#### 一键部署方式
+#### One-click Deployment
 
 ```bash
 docker run -d \
@@ -91,92 +89,86 @@ docker run -d \
   aaamoon/copilot-gpt4-service:latest
 ```
 
-#### 代码构建方式
+#### Code Build
 
 ```bash
 git clone https://github.com/aaamoon/copilot-gpt4-service && cd copilot-gpt4-service
-# 可在 docker-compose.yml 中修改端口  
+# Modify the port in docker-compose.yml if necessary
 docker compose up -d
 ```
 
-如需更新容器，可在源代码文件夹重新拉取代码及构建镜像，命令如下：  
+To update the container, pull the code again and rebuild the image in the source code folder using the following command:
 
 ```bash
 git pull && docker compose up -d --build
 ```
 
-### Kubernetes 部署
+### Kubernetes Deployment
 
-支持通过 Kubernetes 部署，具体部署方式如下：
+Supports deployment through Kubernetes, the specific deployment method is as follows:
 
 ```shell
-helm repo add aaamoon https://charts.kii.la && helm repo update # 源由 github pages 提供
+helm repo add aaamoon https://charts.kii.la && helm repo update # Source by github pages
 helm install copilot-gpt4-service aaamoon/copilot-gpt4-service
 
 
-## 与Chat GPT Next Web一起安装
+## Installation with Chat GPT Next Web
 helm install copilot-gpt4-service aaamoon/copilot-gpt4-service \
   --set chatgpt-next-web.enabled=true \
-  --set chatgpt-next-web.config.OPENAI_API_KEY=[ your openai api key ] \ # copilot 获取的 token
-  --set chatgpt-next-web.config.CODE=[ backend access code ] \    # next gpt web ui 的访问密码
+  --set chatgpt-next-web.config.OPENAI_API_KEY=[ your openai api key ] \   #Token obtained by copilot
+  --set chatgpt-next-web.config.CODE=[ backend access code ] \    # Access password for next chatgpt web ui
   --set chatgpt-next-web.service.type=NodePort \
   --set chatgpt-next-web.service.nodePort=30080
 ```
 
-## 获取 Copilot Token
+## Obtaining Copilot Token
 
-首先，你的账号需要开通 Github Copilot 服务
+Your account needs to have Github Copilot service enabled.
 
-获取 Github Copilot Plugin Token 的方式目前有两种方式：
+There are currently two ways to obtain the Github Copilot Plugin Token:
 
-1. 通过安装 [Github Copilot CLI](https://githubnext.com/projects/copilot-cli/) 授权获取（推荐）。
-2. 通过第三方接口授权获取，不推荐，因为不安全。
+1. Obtain it by installing [Github Copilot CLI](https://githubnext.com/projects/copilot-cli/) and authorizing (recommended).
+2. Authorized access through a third-party interface, not recommended because it is not secure.
 
-### 通过 Github Copilot CLI 授权获取
+### Obtaining Through Github Copilot CLI
 
-**Linux/MacOS平台获取**
+**For Linux/MacOS Platforms**
 
 ```bash
-# 如下脚本会自动安装 Github Copilot CLI 并通过授权获取 Github Copilot Plugin Token 
+# The script below will automatically install Github Copilot CLI and obtain the Github Copilot Plugin Token through authorization
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/aaamoon/copilot-gpt4-service/master/shells/get_copilot_token.sh)"
 ```
 
-**Windows 平台获取**
+**For Windows Platform**
 
-下载批处理脚本，双击运行即可：[get_copilot_token.bat](https://raw.githubusercontent.com/aaamoon/copilot-gpt4-service/master/shells/get_copilot_token.bat)。
+Download the batch script and double-click to run it: [get_copilot_token.bat](https://raw.githubusercontent.com/aaamoon/copilot-gpt4-service/master/shells/get_copilot_token.bat).
 
-## 常见问题
+## Frequently Asked Questions
 
-### 模型支持情况
+### Model support
 
-据测试：模型参数支持 GPT-4 和 GPT-3.5-turbo ，实测使用其他模型均会以默认的 3.5 处理（对比 OpenAI API 的返回结果，猜测应该是最早的版本 GPT-4-0314 和 GPT-3.5-turbo-0301 ）
+According to the test, the model parameters support GPT-4 and GPT-3.5-turbo, and the actual test will be processed at the default 3.5 when using other models (compared with the return results of the OpenAI API, guess it should be the earliest versions of GPT-4-0314 and GPT-3.5-turbo-0301)
 
-### 如何判断是不是 GPT-4 模型
+## How To Determine If It's The GPT-4 Model
 
-鲁迅为什么暴打周树人？
+Why weren't I invited when my parents got married?
 
-- GPT-3.5 会一本正经的胡说八道
-- GPT-4 表示鲁迅和周树人是同一个人
+- GPT-3.5 They considered you too young at that time, so they didn't invite you.
+- GPT-4 They got married before you were born.
 
-我爸妈结婚时为什么没有邀请我？
+### Explanation Of HTTP Response Status Codes
 
-- GPT-3.5 他们当时认为你还太小，所以没有邀请你。
-- GPT-4 他们结婚时你还没出生。
+- 401: The Github Copilot Plugin Token used has expired or is incorrect. Please obtain it again.
+- 403: The account used does not have Github Copilot enabled.
 
-### HTTP 响应状态码解析说明
+## Acknowledgements
 
-- 401: 使用的 Github Copilot Plugin Token 过期了或者错误，请重新获取
-- 403: 使用的账号没有开通 Github Copilot
-
-
-## 鸣谢
-
-### 贡献者
+### Contributors
 
 <a href="https://github.com/aaamoon/copilot-gpt4-service/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=aaamoon/copilot-gpt4-service&anon=0" />
 </a>
 
-## 开源协议
+## LICENSE
 
 [MIT](https://opensource.org/license/mit/)
