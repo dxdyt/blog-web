@@ -1,9 +1,9 @@
 ---
 title: OpenCopilot
-date: 2024-01-02T12:17:41+08:00
+date: 2024-01-12T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703028408833-ff4033ce37ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703028408833-ff4033ce37ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704189277402-35a0edf7f410?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704189277402-35a0edf7f410?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
 ---
 
 # [openchatai/OpenCopilot](https://github.com/openchatai/OpenCopilot)

@@ -1,9 +1,9 @@
 ---
 title: IPTV
-date: 2024-01-10T12:19:06+08:00
+date: 2024-01-12T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704031456784-1bf65f7c9466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704031456784-1bf65f7c9466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
 ---
 
 # [Meroser/IPTV](https://github.com/Meroser/IPTV)

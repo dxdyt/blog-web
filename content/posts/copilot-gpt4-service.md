@@ -1,9 +1,9 @@
 ---
 title: copilot-gpt4-service
-date: 2024-01-11T12:16:10+08:00
+date: 2024-01-12T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703015619478-0fe558ed7d05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703015619478-0fe558ed7d05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704031456784-1bf65f7c9466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704031456784-1bf65f7c9466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
 ---
 
 # [aaamoon/copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service)
@@ -20,7 +20,7 @@ English | <a href="README_CN.md">简体中文</a>
 
 ## How To Use
 
-1. Install and start the copilot-gpt4-service service, e.g., after local startup, the API default address is: `http://127.0.0.1:8080`;
+1. Install and start the copilot-gpt4-service, e.g., after local startup, the API default address is: `http://127.0.0.1:8080`;
 2. Get your GitHub account Github Copilot Plugin Token (see below for details);
 3. Install a third-party client, e.g., [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web), and fill in the settings with the API address of copilot-gpt4-service and the Github Copilot Plugin Token in the settings, and you can use the GPT-4 model to have a conversation.
 
@@ -30,7 +30,7 @@ English | <a href="README_CN.md">简体中文</a>
 
 As verified and discussed by the community, the best practice approach is.
 
-1. Local deployment for personal use only(Recommend);
+1. Local deployment for personal use only (Recommend);
 2. Deploy with your own server integration [ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web), the service is not public;
 3. server deployment, public but for personal use (e.g. multi-client scenarios [Chatbox](https://github.com/Bin-Huang/chatbox), [OpenCat APP](https://opencat.app/), [ChatX APP](https://apps.apple.com/us/app/chatx-ai-chat-client/id6446304087)).
 
@@ -107,12 +107,14 @@ git pull && docker compose up -d --build
 
 Supports deployment through Kubernetes, the specific deployment method is as follows:
 
-```shell
+```bash
 helm repo add aaamoon https://charts.kii.la && helm repo update # Source by github pages
 helm install copilot-gpt4-service aaamoon/copilot-gpt4-service
+```
 
+## Installation with ChatGPT-Next-Web
 
-## Installation with Chat GPT Next Web
+```bash
 helm install copilot-gpt4-service aaamoon/copilot-gpt4-service \
   --set chatgpt-next-web.enabled=true \
   --set chatgpt-next-web.config.OPENAI_API_KEY=[ your openai api key ] \   #Token obtained by copilot
@@ -145,11 +147,11 @@ Download the batch script and double-click to run it: [get_copilot_token.bat](ht
 
 ## Frequently Asked Questions
 
-### Model support
+### Model Support
 
 According to the test, the model parameters support GPT-4 and GPT-3.5-turbo, and the actual test will be processed at the default 3.5 when using other models (compared with the return results of the OpenAI API, guess it should be the earliest versions of GPT-4-0314 and GPT-3.5-turbo-0301)
 
-## How To Determine If It's The GPT-4 Model
+### How To Determine If It's The GPT-4 Model
 
 Why weren't I invited when my parents got married?
 

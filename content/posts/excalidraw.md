@@ -1,9 +1,9 @@
 ---
 title: excalidraw
-date: 2024-01-11T12:17:45+08:00
+date: 2024-01-12T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702573849838-0f66f3731fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702573849838-0f66f3731fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703696396969-74436e241dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703696396969-74436e241dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
 ---
 
 # [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
