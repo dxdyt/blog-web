@@ -1,9 +1,9 @@
 ---
 title: atuin
-date: 2024-01-12T12:17:29+08:00
+date: 2024-01-13T12:17:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702906220125-30df48aac619?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702906220125-30df48aac619?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702225758160-c37ae5aa65bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702225758160-c37ae5aa65bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
 ---
 
 # [atuinsh/atuin](https://github.com/atuinsh/atuin)

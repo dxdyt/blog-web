@@ -1,9 +1,9 @@
 ---
 title: ionic-framework
-date: 2023-10-22T12:16:00+08:00
+date: 2024-01-13T12:18:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695725021729-ed3ebc84cb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695725021729-ed3ebc84cb32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702225758160-c37ae5aa65bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702225758160-c37ae5aa65bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
 ---
 
 # [ionic-team/ionic-framework](https://github.com/ionic-team/ionic-framework)

@@ -1,9 +1,9 @@
 ---
 title: chakra-ui
-date: 2024-01-11T12:19:07+08:00
+date: 2024-01-13T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700348306153-9a82f7574d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700348306153-9a82f7574d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703566757295-1a72f47a94de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703566757295-1a72f47a94de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
 ---
 
 # [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui)

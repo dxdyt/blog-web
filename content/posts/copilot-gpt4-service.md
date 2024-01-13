@@ -1,9 +1,9 @@
 ---
 title: copilot-gpt4-service
-date: 2024-01-12T12:16:46+08:00
+date: 2024-01-13T12:16:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704031456784-1bf65f7c9466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704031456784-1bf65f7c9466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704741253008-7b0a5ed52c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704741253008-7b0a5ed52c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
 ---
 
 # [aaamoon/copilot-gpt4-service](https://github.com/aaamoon/copilot-gpt4-service)

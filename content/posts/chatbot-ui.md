@@ -1,9 +1,9 @@
 ---
 title: chatbot-ui
-date: 2024-01-12T12:18:33+08:00
+date: 2024-01-13T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704189277402-35a0edf7f410?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704189277402-35a0edf7f410?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704741253008-7b0a5ed52c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704741253008-7b0a5ed52c12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
 ---
 
 # [mckaywrigley/chatbot-ui](https://github.com/mckaywrigley/chatbot-ui)

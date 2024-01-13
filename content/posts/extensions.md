@@ -1,9 +1,9 @@
 ---
 title: extensions
-date: 2024-01-12T12:16:52+08:00
+date: 2024-01-13T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702906220125-30df48aac619?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702906220125-30df48aac619?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704074136358-bc4aa804671c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704074136358-bc4aa804671c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
 ---
 
 # [keiyoushi/extensions](https://github.com/keiyoushi/extensions)
@@ -30,6 +30,7 @@ One-click installation is only supported by these Tachiyomi versions:
 - Tachiyomi Preview r6404+
 - TachiyomiSY v1.10.0+
 - TachiyomiSY Preview r539+
+- Aniyomi Preview r7443+
 
 Navigate to [the website](https://keiyoushi.github.io/extensions) and tap "Add to Tachiyomi", then restart the app.
 
