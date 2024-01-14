@@ -1,9 +1,9 @@
 ---
 title: DragNUWA
-date: 2024-01-12T12:20:07+08:00
+date: 2024-01-14T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702719796532-13c5bfbb741e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702719796532-13c5bfbb741e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702927706292-c57d75cf2143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702927706292-c57d75cf2143?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
 ---
 
 # [ProjectNUWA/DragNUWA](https://github.com/ProjectNUWA/DragNUWA)

@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-01-13T12:16:41+08:00
+date: 2024-01-14T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703858951087-8c007b5aff4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703858951087-8c007b5aff4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704857993895-e8fe6da58629?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704857993895-e8fe6da58629?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -24,9 +24,13 @@ We spent the better part of 2021/2022 building a personal finance + wealth manag
 
 The business end of things didn't work out and so we shut things down mid-2023.
 
-We spend the better part of $1,000,000 building the app (employees + contractors, data providers/services, infrastructure, etc).
+We spent the better part of $1,000,000 building the app (employees + contractors, data providers/services, infrastructure, etc).
 
 We're now reviving the product as a fully open-source project. The goal is to let you run the app yourself, for free, and use it to manage your own finances and eventually offer a hosted version of the app for a small monthly fee.
+
+## End goal
+
+Ultimately we want to rebuild this so that you can self-host, but we also have plans to offer a hosted version for a fee. That means some decisions will be made that don't explicitly make sense for self-hosted but _do_ support the goal of us offering a for-pay hosted version.
 
 ## Features
 

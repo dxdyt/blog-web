@@ -1,17 +1,21 @@
 ---
 title: deploy
-date: 2023-12-17T12:18:31+08:00
+date: 2024-01-14T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701007633412-e519020c7c22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702728139631-e50607576454?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702728139631-e50607576454?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
 ---
 
 # [pandora-next/deploy](https://github.com/pandora-next/deploy)
 
-# PandoraNext
+# PandoraNext 
 
-## ✨ 现在我们可以使用PandoraNext [注册ChatGPT账号](https://zhile.io/2023/12/09/pandoranext-introduction.html)了，无墙，全代理！
-### ✨ [PandoraNext助手GPTs](https://chat.oaifree.com/g/g-CFsXuTRfy-pandoranextzhu-shou)，如你有Plus账号，可向它求助项目问题（不要试图套源码）
+> [!IMPORTANT]
+> ✨ 一个新的 [文档站](https://docs.pandoranext.com)，从部署到常见问题，甚至接口调用都有详细说明。
+> 
+> ✨ 现在我们可以使用PandoraNext [注册ChatGPT账号](https://zhile.io/2023/12/09/pandoranext-introduction.html)了，无墙，全代理！
+> 
+> ✨ [PandoraNext助手GPTs](https://chat.oaifree.com/g/g-CFsXuTRfy-pandoranextzhu-shou)，如你有Plus账号，可向它求助项目问题（不要试图套源码）
 
 ## 简单介绍
 
@@ -24,11 +28,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1701007633412-e519020c7c
   * Refresh Token
   * Share Token
 * 可内置tokens（可使用上述所有Token），支持设置密码。（相当于Pandora Server）
-* 可配置共享的tokens，会有一个功能等同[chat-shared3.zhile.io](https://chat-shared3.zhile.io)的共享站（目前2622个普号、22个Plus）。
+* 可配置共享的tokens，会有一个功能等同[chat-shared3.zhile.io](https://chat-shared3.zhile.io)的共享站（目前1841个普号、6个Plus）。
 * 为全代理模式（能想象到的都代理了），你的用户只需要跟你的部署网络能通即可。
 * 可启动为BackendAPI Proxy模式，直接使用`Access Token`调用`/backend-api/`和chat2api的接口。
 * 还有疑问，那就进Telegram群让大家围观围观：[@ja_netfilter_group](https://t.me/ja_netfilter_group)
 
+<details>
+<summary>
+	
+    旧的、简易的文档。更新、更详细的访问文档站。
+</summary>
+	
 ## 手动部署
 
 * 在[Releases](https://github.com/pandora-next/deploy/releases)中下载对应操作系统和架构的包。
@@ -156,12 +166,14 @@ server {
     * `/v1/chat/completions` 3.5模型比例 `1:4`
     * `/v1/chat/completions` 4模型比例 `1:10`, 无需打码
     * `/api/auth/login` 登录接口比例 `1:100`，无需打码
+    * `/api/auth/login2` 获取`refresh_token`接口比例 `1:1000`，无需打码
     * `/api/arkose/token` 获取`arkose_token`，比例 `1:10`
+    * `/api/auth/platform/login` 登录platform接口比例 `1:100`，无需打码
 * `isolated_conv_title`现在隔离会话可以设置标题了，而不再是千篇一律的`*`号。
 * `disable_signup` 禁用注册账号功能，`true`或`false`。
 * `auto_conv_arkose` 在`proxy`模式使用`gpt-4`模型调用`/backend-api/conversation`接口是否自动打码，使用消耗为`4+10`。
 * `proxy_file_service` 在`proxy`模式是否使用PandoraNext的文件代理服务，避免官方文件服务的墙。
-* `custom_doh_host` 配置自定义的`DoH`主机名，建议使用IP形式。默认在`+8`区使用`223.6.6.6`，其余地区使用`1.1.1.1`。
+* `custom_doh_host` 配置自定义的`DoH`主机名，建议使用IP形式。默认启动时在公共`DoH`中挑选你所在地区最快的那个。
 * `captcha`配置一些关键页面的验证码。
     * `provider`验证码提供商，支持：`recaptcha_v2`、`recaptcha_enterprise`、`hcaptcha`、`turnstile`、`friendly_captcha`。
     * `site_key`验证码供应商后台获取的网站参数，是可以公布的信息。
@@ -221,11 +233,14 @@ server {
 * **POST** /api/auth/session 通过session token获取access token，使用urlencode form传递session_token参数。
 * **POST** /api/auth/refresh 通过refresh token获取access token，使用urlencode form传递refresh_token参数。
 * **POST** /api/auth/login 登录获取access token，使用urlencode form传递username 和 password 参数。
+* **POST** /api/auth/login2 登录获取refresh token，使用urlencode form传递username、password 和 mfa_code 参数。
 * **POST** /api/token/register 生成share token
 * **POST** /api/pool/update 生成更新pool token
 * **POST** /v1/chat/completions 使用`ChatGPT`模拟`API`的请求接口，支持share token和pool token。
 * **POST** /api/arkose/token 获取arkose_token，目前只支持`gpt-4`类型。使用urlencode form传递type=gpt-4参数。获取后可API方式调用`GPTs`
 * **POST** /api/setup/reload 重载当前服务的`config.json`、`tokens.json`等配置。
+* **POST** /api/auth/platform/refresh 通过`platform`的refresh token获取access token，使用urlencode form传递refresh_token参数。
+* **POST** /api/auth/platform/login 登录`platform`获取access token，使用urlencode form传递username 和 password 参数。如果要获取`sess key`，增加参数`prompt=login`。
 * 以上地址均需在最前面增加 `/<proxy_api_prefix>`，也就是你设置的前缀。
 
 
@@ -242,6 +257,8 @@ server {
 * 如果`config.json`中没有填写`license_id`字段，启动会报错`License ID is required`。
 * **没有固定IP的情况**，IP变动后会自动尝试重新拉取。
 * 更换`License Id`之后，通常需要手动删除`license.jwt`再启动。
+
+</details>
 
 ## 其他说明
 

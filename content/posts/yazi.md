@@ -1,25 +1,26 @@
 ---
 title: yazi
-date: 2023-10-26T12:17:56+08:00
+date: 2024-01-14T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695496573688-3e0e8ac8657e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695496573688-3e0e8ac8657e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704636487929-6a09f864d53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704636487929-6a09f864d53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
 ---
 
 # [sxyazi/yazi](https://github.com/sxyazi/yazi)
 
 ## Yazi - ⚡️ Blazing Fast Terminal File Manager
 
-Yazi ("duck" in Chinese) is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
+Yazi (means "duck") is a terminal file manager written in Rust, based on non-blocking async I/O. It aims to provide an efficient, user-friendly, and customizable file management experience.
 
-💫 A new article explaining its internal workings: [Why is Yazi Fast?](https://github.com/sxyazi/yazi/issues/143)
+💡 A new article explaining its internal workings: [Why is Yazi Fast?](https://yazi-rs.github.io/blog/why-is-yazi-fast)
 
 - 🚀 **Full Asynchronous Support**: All I/O operations are asynchronous, CPU tasks are spread across multiple threads, making the most of available resources.
 - 💪 **Powerful Async Task Scheduling and Management**: Provides real-time progress updates, task cancellation, and internal task priority assignment.
 - 🖼️ **Built-in Support for Multiple Image Protocols**: Also integrated with Überzug++, covering almost all terminals.
-- 🌟 **Built-in Code Highlighting and Image Encoding**: Combined with the pre-caching mechanism, greatly accelerates image and normal file loading.
+- 🌟 **Built-in Code Highlighting and Image Decoding**: Combined with the pre-loading mechanism, greatly accelerates image and normal file loading.
+- 🔌 **Concurrent Plugin System**: UI plugins (rewriting most of the UI), functional plugins (coming soon), custom previewer, and custom preloader; Just some pieces of Lua.
 - 🧰 Integration with fd, rg, fzf, zoxide
-- 💫 Vim-like Input component, and Select component
+- 💫 Vim-like input/select component, auto-completion for cd paths
 - 🏷️ Multi-Tab Support, Scrollable Preview (for videos, PDFs, archives, directories, code, etc.)
 - 🔄 Batch Renaming, Visual Mode, File Chooser
 - 🎨 Theme System, Custom Layouts, Trash Bin, CSI u
@@ -27,12 +28,12 @@ Yazi ("duck" in Chinese) is a terminal file manager written in Rust, based on no
 
 https://github.com/sxyazi/yazi/assets/17523360/92ff23fa-0cd5-4f04-b387-894c12265cc7
 
-⚠️ Note: Yazi is currently in active development and may be unstable. The API is subject to change without prior notice.
+⚠️ Note: Yazi is currently in heavy development and may be unstable. The API is subject to change without prior notice.
 
 ## Documentation
 
-- Usage: https://yazi-rs.github.io/usage/installation
-- Showcase: https://yazi-rs.github.io/showcase
+- Usage: https://yazi-rs.github.io/docs/installation
+- Features: https://yazi-rs.github.io/features
 
 ## Discussion
 
@@ -41,18 +42,19 @@ https://github.com/sxyazi/yazi/assets/17523360/92ff23fa-0cd5-4f04-b387-894c12265
 
 ## Image Preview
 
-| Platform          | Protocol                                                                         | Support               |
-| ----------------- | -------------------------------------------------------------------------------- | --------------------- |
-| Kitty             | [Terminal graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) | ✅ Built-in           |
-| WezTerm           | [Terminal graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) | ✅ Built-in           |
-| Konsole           | [Terminal graphics protocol](https://sw.kovidgoyal.net/kitty/graphics-protocol/) | ✅ Built-in           |
-| iTerm2            | [Inline images protocol](https://iterm2.com/documentation-images.html)           | ✅ Built-in           |
-| Mintty (Git Bash) | [Inline images protocol](https://iterm2.com/documentation-images.html)           | ✅ Built-in           |
-| Hyper             | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)      | ✅ Built-in           |
-| foot              | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)      | ✅ Built-in           |
-| Black Box         | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)      | ✅ Built-in           |
-| X11 / Wayland     | Window system protocol                                                           | ☑️ Überzug++ required |
-| Fallback          | [Chafa](https://hpjansson.org/chafa/)                                            | ☑️ Überzug++ required |
+| Platform          | Protocol                                                                                              | Support               |
+| ----------------- | ----------------------------------------------------------------------------------------------------- | --------------------- |
+| kitty             | [Kitty unicode placeholders](https://sw.kovidgoyal.net/kitty/graphics-protocol/#unicode-placeholders) | ✅ Built-in           |
+| Konsole           | [Kitty old protocol](https://github.com/sxyazi/yazi/blob/main/yazi-adaptor/src/kitty_old.rs)          | ✅ Built-in           |
+| iTerm2            | [Inline images protocol](https://iterm2.com/documentation-images.html)                                | ✅ Built-in           |
+| WezTerm           | [Inline images protocol](https://iterm2.com/documentation-images.html)                                | ✅ Built-in           |
+| Mintty (Git Bash) | [Inline images protocol](https://iterm2.com/documentation-images.html)                                | ✅ Built-in           |
+| foot              | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
+| Ghostty           | [Kitty old protocol](https://github.com/sxyazi/yazi/blob/main/yazi-adaptor/src/kitty_old.rs)          | ✅ Built-in           |
+| Black Box         | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
+| Hyper             | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
+| X11 / Wayland     | Window system protocol                                                                                | ☑️ Überzug++ required |
+| Fallback          | [Chafa](https://hpjansson.org/chafa/)                                                                 | ☑️ Überzug++ required |
 
 Yazi automatically selects the appropriate preview method for you, based on the priority from top to bottom.
 That's relying on the `$TERM`, `$TERM_PROGRAM`, and `$XDG_SESSION_TYPE` variables, make sure you don't overwrite them by mistake!
