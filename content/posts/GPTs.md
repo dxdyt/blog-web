@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2023-12-15T12:18:05+08:00
+date: 2024-01-15T12:19:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1608132844249-2146649be16a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1608132844249-2146649be16a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI2MTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701743805506-f615ba6b1edb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701743805506-f615ba6b1edb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -221,9 +221,42 @@ This repo collects leaked prompts of GPTs.
 - [互联网+挑战杯大创竞赛导师](./prompts/互联网+挑战杯大创竞赛导师.md) by studyinglover
 - [Inkspire Tattoo Bot](./prompts/Inkspire%20Tattoo%20Bot.md) by idcesares
 - [tsDoc Generator](./prompts/tsDoc%20Generator.md) by Timur Catakli
+- [Pepegen](./prompts/Pepegen.md) by nader dabit
+- [Small answer](./prompts/Small%20answer.md) by Jason McGhee
+- [AutoGen Engineer](./prompts/AutoGen%20Engineer.md) by adamludolph.com
+- [Geopolitics GPT](./prompts/Geopolitics%20GPT.md) by siamintelligenceunit.com
+- [GPT Shield](./prompts/GPT%20Shield.md) by wonderwhy-er.com
+- [MidJourney Prompt Generator](./prompts/MidJourney%20Prompt%20Generator.md) by Digiagent
+- [Codey](./prompts/Codey.md) by heaven.tools
+- [Executive f(x)n](./prompts/Executive%20f(x)n.md) by mindgoblinstudios.com
+- [Strap UI](./prompts/Strap%20UI.md) by nertai.co
+- [World Class Software Engineer](./prompts/World%20Class%20Software%20Engineer.md) by nertai.co
+- [Unbreakable GPT](./prompts/Unbreakable%20GPT.md) by aevummachinae.com
+- [Animal Chefs](./prompts/Animal%20Chefs.md) by simonwillison.net
+- [QuantFinance](./prompts/QuantFinance.md) by Nicolo Ceneda
+- [The Greatest Computer Science Tutor](./prompts/The%20Greatest%20Computer%20Science%20Tutor.md) by nertai.co
+- [Trending TikTok Hashtags Finder Tool](./prompts/Trending%20TikTok%20Hashtags%20Finder%20Tool.md) by seo.ai
+- [Mr. Ranedeer Config Wizard](./prompts/Mr.%20Ranedeer%20Config%20Wizard.md) by mr-ranedeer.com
+- [👌Academic Assistant Pro](./prompts/Academic%20Assistant%20Pro.md) by Kevin Ivery
+- [Front-end expert](./prompts/Front-end%20expert.md) by Zhang Xiaoyuan
+- [ChatSSH: talk to your linux computers](./prompts/chatssh.md) by chatssh.net
+- [Chat NeurIPS](./prompts/Chat%20NeurIPS.md) by myaidrive.com
+- [WebGPT🤖](./prompts/WebGPT.md) by wegpt.ai
+- [AllTrails](./prompts/AllTrails.md)　By alltrails.com
+- [ChatDB: talk to your databases](./prompts/ChatDB.md)　By chatssh.net
+
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.
 
 - [Open Data Germany](https://github.com/stefangrotz/OpenDataGermanyGPT)
 - [EsperantoGPT](https://github.com/parolteknologio/EsperantoGPT)
+
+## GPT Prompt Analysis
+Analysis and summaries of the GPT prompts.
+
+- [GPT Prompt Notes](https://grantjenks.github.io/gpt-prompt-notes/)
+
+## Contributors
+
+![Contributors](https://contrib.rocks/image?repo=linexjlin/GPTs)

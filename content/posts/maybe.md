@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-01-14T12:15:45+08:00
+date: 2024-01-15T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704857993895-e8fe6da58629?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704857993895-e8fe6da58629?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1634840884193-2f6cf2538871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1634840884193-2f6cf2538871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -53,8 +53,19 @@ This is the current state of building the app. You'll hit errors, which we're wo
 
 You'll need Docker installed to run the app locally.
 
+First, copy the `.env.example` file to `.env`:
+
 ```
 cp .env.example .env
+```
+
+Then, create a new secret using `openssl rand -base64 32` and populate `NEXTAUTH_SECRET` in your `.env` file with it.
+
+To enable transactional emails, you'll need to create a [Postmark](https://postmarkapp.com/) account and add your API key to your `.env` file (`NX_POSTMARK_API_TOKEN`). You can also set the from and reply-to email addresses (`NX_POSTMARK_FROM_ADDRESS` and `NX_POSTMARK_REPLY_TO_ADDRESS`). If you want to run the app without email, you can set `NX_POSTMARK_API_TOKEN` to a dummy value.
+
+Then run the following yarn commands:
+
+```
 yarn install
 yarn run dev:services
 yarn prisma:migrate:dev
@@ -83,7 +94,6 @@ To pull market data in (for investments), you'll need a Polygon.io API key. You 
 ## Relevant reading
 
 -   [Learn about how the app is organized as a monorepo](https://github.com/maybe-finance/maybe/wiki/Monorepo-File-Structure-Overview)
--   [Reference past Auth0 implementation as we work to replace it](https://github.com/maybe-finance/maybe/wiki/Auth0)
 -   [Data model assumptions and calculations](https://github.com/maybe-finance/maybe/wiki/Data-model-assumptions-and-calculations)
 -   [Handling money](https://github.com/maybe-finance/maybe/wiki/Handling-Money)
 -   [REST API](https://github.com/maybe-finance/maybe/wiki/REST-API)
@@ -91,3 +101,7 @@ To pull market data in (for investments), you'll need a Polygon.io API key. You 
 ## Credits
 
 The original app was built by [Zach Gollwitzer](https://twitter.com/zg_dev), [Nick Arciero](https://www.narciero.com/) and [Tim Wilson](https://twitter.com/actualTimWilson), with design work by [Justin Farrugia](https://twitter.com/justinmfarrugia). The app is currently maintained by [Josh Pigford](https://twitter.com/Shpigford).
+
+## Copyright & license
+
+Maybe is distributed under an [AGPLv3 license](https://github.com/maybe-finance/maybe/blob/main/LICENSE). "Maybe" is a trademark of Maybe Finance, Inc.

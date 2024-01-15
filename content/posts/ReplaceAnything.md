@@ -1,9 +1,9 @@
 ---
 title: ReplaceAnything
-date: 2024-01-14T12:16:22+08:00
+date: 2024-01-15T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703319958424-bfb960c17c52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703319958424-bfb960c17c52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701525124840-b5dc3127d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701525124840-b5dc3127d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
 ---
 
 # [AIGCDesignGroup/ReplaceAnything](https://github.com/AIGCDesignGroup/ReplaceAnything)

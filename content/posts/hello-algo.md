@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2023-12-07T12:17:32+08:00
+date: 2024-01-15T12:19:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699391618617-e70493b6cd9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699391618617-e70493b6cd9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704915171730-fe3483c749d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704915171730-fe3483c749d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTl8&ixlib=rb-4.0.3
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)
@@ -21,9 +21,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1699391618617-e70493b6cd
 
 <p align="center">
   <a href="https://www.hello-algo.com/">
-    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.svg" width="155"></a>
+    <img src="https://www.hello-algo.com/index.assets/btn_read_online_dark.svg" width="145"></a>
   <a href="https://github.com/krahets/hello-algo/releases">
-    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_dark.svg" width="155"></a>
+    <img src="https://www.hello-algo.com/index.assets/btn_download_pdf_dark.svg" width="145"></a>
+  <a href="https://github.com/krahets/hello-algo/blob/master/README-en.md">
+    <img src="https://www.hello-algo.com/index.assets/btn_english_edition_dark.svg" width="145"></a>
 </p>
 
 <p align="center">
@@ -73,7 +75,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1699391618617-e70493b6cd
 
 - [内容修正](https://www.hello-algo.com/chapter_appendix/contribution/)：请您协助修正或在评论区指出语法错误、内容缺失、文字歧义、无效链接或代码 bug 等问题。
 - [代码转译](https://github.com/krahets/hello-algo/issues/15)：期待您贡献各种语言代码，已支持 Python、Java、C++、Go、JavaScript 等 12 门编程语言。
-- [Chinese-to-English](https://github.com/krahets/hello-algo/tree/en)：诚邀您加入我们的翻译小组，成员主要来自计算机相关专业、英语专业和英文母语者。
+- [中译英](https://github.com/krahets/hello-algo/issues/914)：诚邀您加入我们的翻译小组，成员主要来自计算机相关专业、英语专业和英文母语者。
 
 欢迎您提出宝贵意见和建议，如有任何问题请提交 Issues 或微信联系 `krahets-jyd` 。
 

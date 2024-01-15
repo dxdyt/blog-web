@@ -1,9 +1,9 @@
 ---
 title: NekoBoxForAndroid
-date: 2023-11-05T12:15:45+08:00
+date: 2024-01-15T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696777926227-2ff8f6fa9567?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696777926227-2ff8f6fa9567?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkxNTc2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703179007975-6aeea846f663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703179007975-6aeea846f663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
 ---
 
 # [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid)
@@ -47,6 +47,7 @@ https://matsuridayo.github.io
 * Trojan-Go (trojan-go-plugin)
 * NaïveProxy (naive-plugin)
 * Hysteria (hysteria-plugin)
+* Mieru (mieru-plugin)
 * TUIC
 
 请到[这里](https://matsuridayo.github.io/m-plugin/)下载插件以获得完整的代理支持.
