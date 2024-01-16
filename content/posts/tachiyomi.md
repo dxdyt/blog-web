@@ -1,9 +1,9 @@
 ---
 title: tachiyomi
-date: 2024-01-15T12:18:12+08:00
+date: 2024-01-16T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701525124840-b5dc3127d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701525124840-b5dc3127d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1698846877274-7f53296cafb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1698846877274-7f53296cafb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
 # [tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi)

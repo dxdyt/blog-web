@@ -1,9 +1,9 @@
 ---
 title: cv
-date: 2023-12-31T12:15:51+08:00
+date: 2024-01-16T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
 # [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
@@ -51,6 +51,26 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
    ```
 
 5. Open the [Config file](./src/data/resume-data.tsx) and make changes
+
+# Run with Docker
+
+Build the container
+
+```
+docker compose build
+```
+
+Run the container
+
+```
+docker compose up -d
+```
+
+Stop the Container
+
+```
+docker compose down 
+```
 
 # License
 

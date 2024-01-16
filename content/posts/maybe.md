@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-01-15T12:18:06+08:00
+date: 2024-01-16T12:16:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1634840884193-2f6cf2538871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1634840884193-2f6cf2538871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1698846877274-7f53296cafb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1698846877274-7f53296cafb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1634840884193-2f6cf25388
 
 <b>Get involved: [Discord](https://link.maybe.co/discord) • [Website](https://maybe.co) • [Issues](https://github.com/maybe-finance/maybe/issues)</b>
 
-🚨 NOTE: This is the original React app of the previously-defunct personal finance app, Maybe. This original version used many external services (Plaid, Finicity, Auth0, etc) and getting it to fully function will be a decent amount of work.
+🚨 NOTE: This is the original React app of the previously-defunct personal finance app, Maybe. This original version used many external services (Plaid, Finicity, etc) and getting it to fully function will be a decent amount of work.
 
 There's a LOT of work to do to get this functioning, but it should be feasible.
 
@@ -67,15 +67,19 @@ Then run the following yarn commands:
 
 ```
 yarn install
-yarn run dev:services
+yarn run dev:services:all
 yarn prisma:migrate:dev
 yarn prisma:seed
 yarn dev
 ```
 
+## Contributing
+
+To contribute, please see our [contribution guide](https://github.com/maybe-finance/maybe/blob/main/CONTRIBUTING.md).
+
 ## High-priority issues
 
-The biggest focus at the moment is on getting the app functional without some previously key external services (namely Auth0, Plaid and Finicity).
+The biggest focus at the moment is on getting the app functional without some previously key external services (namely Plaid and Finicity).
 
 You can view the current [high-priority issues here](https://github.com/maybe-finance/maybe/issues?q=is:issue+is:open+label:%22high+priority%22). Those are the most impactful issues to tackle first.
 
@@ -97,6 +101,10 @@ To pull market data in (for investments), you'll need a Polygon.io API key. You 
 -   [Data model assumptions and calculations](https://github.com/maybe-finance/maybe/wiki/Data-model-assumptions-and-calculations)
 -   [Handling money](https://github.com/maybe-finance/maybe/wiki/Handling-Money)
 -   [REST API](https://github.com/maybe-finance/maybe/wiki/REST-API)
+
+## Repo Activity
+
+![Repo Activity](https://repobeats.axiom.co/api/embed/7866c9790deba0baf63ca1688b209130b306ea4e.svg 'Repobeats analytics image')
 
 ## Credits
 

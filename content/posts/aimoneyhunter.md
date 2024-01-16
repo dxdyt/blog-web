@@ -1,9 +1,9 @@
 ---
 title: aimoneyhunter
-date: 2023-12-21T12:18:02+08:00
+date: 2024-01-16T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700413739071-d7ca09f1eb7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700413739071-d7ca09f1eb7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
 # [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)
@@ -112,7 +112,7 @@ AI副业相关信息或合作，可关注Twitter:
 - `该怎么推广` - 如果你问了这个问题，你大概率还没搞明白：你的目标用户，你的核心功能，产品核心卖点，和目标用户聚集地。等你搞明白这四件事儿后，你压根不担心如何完成初期推广。
 
 ## 已验证的一些技术赚钱方案
-### 1、套壳站
+### 1、[套壳站](https://github.com/bleedline/Awesome-gptlike-shellsite)
 无论是GPT套壳站，还是MJ套壳站，基本思路就是做个站点，然后搞成SaaS或者支持私有化部署贴牌的，然后几千块一套往外卖给想赚钱的小老板。他们自己去搞流量挣钱。
 这种套壳站，往往都离不开分销系统。
 
@@ -270,7 +270,7 @@ AI副业相关信息或合作，可关注Twitter:
 
 # 项目历史
 
-该项目于2023/12/17日登陆Github Trending （1.2k stars），承蒙大家喜爱。
+该项目于2023/12/17日登陆Github Trending （1.2k stars），截止12/21日共计收获3.7k stars，承蒙大家喜爱。
 和其他开源项目相比，信息聚合不值一提，也是诚惶诚恐，只期望能对一些人有所帮助。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=bleedline/aimoneyhunter&type=Date)](https://star-history.com/#bleedline/aimoneyhunter&Date)

@@ -1,35 +1,53 @@
 ---
 title: website
-date: 2023-07-25T12:17:47+08:00
+date: 2024-01-16T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1682842268263-865e6dabcbe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1682842268263-865e6dabcbe9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
-# [agefanscom/website](https://github.com/agefanscom/website)
+# [tachiyomiorg/website](https://github.com/tachiyomiorg/website)
 
-## AGE动漫 · 最新网址（2023.07.05 最后更新）
-> 新版：[https://www.agemys.org](https://www.agemys.org?ref=github)
->
-> 老版：[https://www.agedm.tv](https://www.agedm.tv?ref=github)
-> 
-> 如果浏览器输入网址，请手动添加 `https` 而非 `http`
+<p align="center">
+	<br>
+	<a href="https://tachiyomi.org">
+		<img src="./.github/assets/logo.png" width="90"/>
+	</a>
+</p>
 
-## AGE动漫 · 易记域名
-> [http://www.age.tv](http://www.age.tv?ref=github)
-> 
-> [http://www.agefans.com](http://www.agefans.com?ref=github)
-> 
-> 记住上面的域名，不会迷路！!
+<h1 align="center">Tachiyomi <a href="#">Website</a></h1>
+<h3 align="center">Full-featured reader</h3>
+<p align="center">Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.</p>
 
+<p align="center">
+	<a title="Netlify deployment" href="https://app.netlify.com/sites/tachiyomiorg/deploys">
+		<img src="https://api.netlify.com/api/v1/badges/95d9e2f8-42ae-4e40-8c99-82b870c51e1a/deploy-status">
+	</a>
+	<br>
+	<br>
+</p>
 
-## AGE动漫 · APP下载地址
-> [https://www.agefans.app](https://www.agefans.app?ref=github)
->
-> 包含 iOS单页版客户端 和 Android 客户端，下载 app 不迷路，强烈建议下载！！
+<h3 align="center">Contributing</h3>
 
+<p align="center">
+	<a href="./CODE_OF_CONDUCT.md">Code of conduct</a>
+	·
+	<a href="./CONTRIBUTING.md">Contributing guide</a>
+	·
+	<a href="https://tachiyomi.org/sandbox/style-guide/">Project style guide</a>
+</p>
 
-## AGE动漫 · 百度官方贴吧
-> [https://tieba.baidu.com/f?kw=age%E5%8A%A8%E6%BC%AB&ie=utf-8](https://tieba.baidu.com/f?kw=age%E5%8A%A8%E6%BC%AB&ie=utf-8)
->
-> 有问题，可以在贴吧进行反馈
+<p align="center">Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.</p>
+
+<h3 align="center">License</h3>
+
+<pre align="center">Copyright © 2023 The Tachiyomi Open Source Project<br><br>This Source Code Form is subject to the terms of the Mozilla Public<br>License, v. 2.0. If a copy of the MPL was not distributed with this<br>file, You can obtain one at http://mozilla.org/MPL/2.0/.</pre>
+
+<h3 align="center">Credits</h3>
+
+<p align="center">Thank you to all the people who have already contributed!</p>
+<p align="right">
+	<a href="https://github.com/tachiyomiorg/tachiyomi/graphs/contributors">
+		<img src="https://contrib.rocks/image?repo=tachiyomiorg/website" width="800"/>
+	</a>
+</p>

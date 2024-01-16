@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2024-01-15T12:17:27+08:00
+date: 2024-01-16T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701525124840-b5dc3127d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701525124840-b5dc3127d2c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
 # [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
@@ -359,6 +359,10 @@ def history_endpoint():
 pip install fastapi uvicorn
 uvicorn server:app --reload
 ```
+
+## Android
+
+The step-by-step guide for installing Open Interpreter on your Android device can be found in the [open-interpreter-termux repo](https://github.com/Arrendy/open-interpreter-termux).
 
 ## Safety Notice
 

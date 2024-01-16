@@ -1,64 +1,44 @@
 ---
 title: extensions
-date: 2024-01-15T12:18:58+08:00
+date: 2024-01-16T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703179007975-6aeea846f663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703179007975-6aeea846f663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704137477371-bed38523c2eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704137477371-bed38523c2eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
 ---
 
-# [tachiyomiorg/extensions](https://github.com/tachiyomiorg/extensions)
+# [keiyoushi/extensions](https://github.com/keiyoushi/extensions)
+
+### Please give the repo a :star:
 
 | Build | Support Server |
 |-------|---------|
-| [![CI](https://github.com/tachiyomiorg/extensions/workflows/CI/badge.svg?event=push)](https://github.com/tachiyomiorg/extensions/actions/workflows/build_push.yml) | [![Discord](https://img.shields.io/discord/349436576037732353.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/tachiyomi) |
+| [![CI](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml/badge.svg)](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml) | [![Discord](https://img.shields.io/discord/1193460528052453448.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/3FbCpdKbdY) |
 
-# ![app icon](./.github/readme-images/app-icon.png)Tachiyomi Extensions
-Tachiyomi is a free and open source manga reader for Android 6.0 and above.
+## Source Code
 
-This repository contains the available extension catalogues for the [Tachiyomi](https://github.com/tachiyomiorg/tachiyomi) app.
+https://github.com/keiyoushi/extensions-source
 
-# Usage
+## Report issues
 
-Extension sources can be downloaded, installed, and uninstalled via the main Tachiyomi app. They are installed and uninstalled like regular apps, in `.apk` format.
+https://github.com/keiyoushi/extensions-source/issues/new/choose
 
-## Downloads
+## Guide
 
-If you prefer to directly download the APK files, they are available via https://tachiyomi.org/extensions/ or directly in this GitHub repository in the [`repo` branch](https://github.com/tachiyomiorg/extensions/tree/repo/apk).
+### One-click installation
+One-click installation is only supported by these Tachiyomi versions:
+- Tachiyomi v0.15.2+
+- Tachiyomi Preview r6404+
+- TachiyomiSY v1.10.0+
+- TachiyomiSY Preview r539+
+- Aniyomi Preview r7443+
 
-# Requests
+Navigate to [the website](https://keiyoushi.github.io/extensions) and tap "Add to Tachiyomi", then restart the app.
 
-To request a new source or bug fix, [create an issue](https://github.com/tachiyomiorg/extensions/issues/new/choose).
+### TachiyomiAZ
+1. Go to Settings → Browse
+2. Tap on "Edit repos" and then "+" button at bottom
+3. Input `keiyoushi/extensions`
+4. Enjoy!
 
-Note that requesting something does not imply that something will be added or fixed in a timely fashion or at all since the work is volunteer-based. Furthermore, some sources may be impossible to do or prohibitively difficult to maintain.
-
-If you would like to see a request fulfilled and have the necessary skills to do so, consider contributing! Issues are up-for-grabs for any developer if there is no assigned user already.
-
-# Contributing
-
-Contributions are welcome!
-
-Check out the repo's [issue backlog](https://github.com/tachiyomiorg/extensions/issues) for source requests and bug reports.
-
-To get started with development, see [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-It might also be good to read our [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
-
-## License
-
-    Copyright 2015 Javier Tomás
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
-## Disclaimer
-
-The developer of this application does not have any affiliation with the content providers available.
+# Others
+If you're not using any of the above fork then manually download and update extensions from [the listing page](https://keiyoushi.github.io/extensions/extensions)
