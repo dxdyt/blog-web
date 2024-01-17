@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2024-01-16T12:17:15+08:00
+date: 2024-01-17T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688924263208-fcd1e52cf4c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688924263208-fcd1e52cf4c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703016561082-9c2b58702158?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703016561082-9c2b58702158?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)

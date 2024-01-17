@@ -1,9 +1,9 @@
 ---
 title: Moore-AnimateAnyone
-date: 2024-01-16T12:17:38+08:00
+date: 2024-01-17T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701302280818-fcfc878f307d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701302280818-fcfc878f307d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703290858674-4895a3a2e25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703290858674-4895a3a2e25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
 ---
 
 # [MooreThreads/Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone)
@@ -77,16 +77,26 @@ pip install -r requirements.txt
 
 ## Download weights
 
-Download our trained [weights](https://huggingface.co/patrolli/AnimateAnyone/tree/main), which include four parts: `denoising_unet.pth`, `reference_unet.pth`, `pose_guider.pth` and `motion_module.pth`.
+**Automatically downloading**: You can run the following command to download weights automatically:
 
-Download pretrained weight of based models and other components: 
-- [StableDiffusion V1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
-- [sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)
-- [image_encoder](https://huggingface.co/lambdalabs/sd-image-variations-diffusers/tree/main/image_encoder)
+```shell
+python tools/download_weights.py
+```
 
-Download dwpose weights (`dw-ll_ucoco_384.onnx`, `yolox_l.onnx`) following [this](https://github.com/IDEA-Research/DWPose?tab=readme-ov-file#-dwpose-for-controlnet).
+Weights will be placed under the `./pretrained_weights` direcotry. The whole downloading process may take a long time.
 
-Put these weights under a directory, like `./pretrained_weights`, and orgnize them as follows:
+**Manually downloading**: You can also download weights manually, which has some steps:
+
+1. Download our trained [weights](https://huggingface.co/patrolli/AnimateAnyone/tree/main), which include four parts: `denoising_unet.pth`, `reference_unet.pth`, `pose_guider.pth` and `motion_module.pth`.
+
+2. Download pretrained weight of based models and other components: 
+    - [StableDiffusion V1.5](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+    - [sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse)
+    - [image_encoder](https://huggingface.co/lambdalabs/sd-image-variations-diffusers/tree/main/image_encoder)
+
+3. Download dwpose weights (`dw-ll_ucoco_384.onnx`, `yolox_l.onnx`) following [this](https://github.com/IDEA-Research/DWPose?tab=readme-ov-file#-dwpose-for-controlnet).
+
+Finally, these weights should be orgnized as follows:
 
 ```text
 ./pretrained_weights/
@@ -141,6 +151,10 @@ If you have your own GPU resource (>= 16GB vram), you can run a local gradio app
 
 `python app.py`
 
+# Community Contributions
+
+- Installation for Windows users: [Moore-AnimateAnyone-for-windows](https://github.com/sdbds/Moore-AnimateAnyone-for-windows)
+
 # 🖌️ Try on Mobi MaLiang
 
 We will launched this model on our [MoBi MaLiang](https://maliang.mthreads.com/) AIGC platform, running on our own full-featured GPU S4000 cloud computing platform. Mobi MaLiang has now integrated various AIGC applications and functionalities (e.g. text-to-image, controllable generation...). You can experience it by [clicking this link](https://maliang.mthreads.com/) or scanning the QR code bellow via WeChat!
@@ -156,4 +170,4 @@ This project is intended for academic research, and we explicitly disclaim any r
 
 # 🙏🏻 Acknowledgements
 
-We first thank the authors of [AnimateAnyone](). Additionally, we would like to thank the contributors to the [majic-animate](https://github.com/magic-research/magic-animate), [animatediff](https://github.com/guoyww/AnimateDiff) and [Open-AnimateAnyone](https://github.com/guoqincode/Open-AnimateAnyone) repositorities, for their open research and exploration. Furthermore, our repo incorporates some codes from [dwpose](https://github.com/IDEA-Research/DWPose) and [animatediff-cli-prompt-travel](https://github.com/s9roll7/animatediff-cli-prompt-travel/), and we extend our thanks to them as well.
+We first thank the authors of [AnimateAnyone](). Additionally, we would like to thank the contributors to the [majic-animate](https://github.com/magic-research/magic-animate), [animatediff](https://github.com/guoyww/AnimateDiff) and [Open-AnimateAnyone](https://github.com/guoqincode/Open-AnimateAnyone) repositories, for their open research and exploration. Furthermore, our repo incorporates some codes from [dwpose](https://github.com/IDEA-Research/DWPose) and [animatediff-cli-prompt-travel](https://github.com/s9roll7/animatediff-cli-prompt-travel/), and we extend our thanks to them as well.

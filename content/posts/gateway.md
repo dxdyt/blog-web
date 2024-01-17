@@ -1,9 +1,9 @@
 ---
 title: gateway
-date: 2024-01-15T12:18:01+08:00
+date: 2024-01-17T12:19:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702353214864-fcf6a60e9e2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702353214864-fcf6a60e9e2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703340020770-889bfc85f038?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703340020770-889bfc85f038?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
 ---
 
 # [Portkey-AI/gateway](https://github.com/Portkey-AI/gateway)

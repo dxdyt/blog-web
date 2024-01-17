@@ -1,9 +1,9 @@
 ---
 title: marimo
-date: 2024-01-15T12:17:53+08:00
+date: 2024-01-17T12:19:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743805362-86796f50a0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743805362-86796f50a0c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703192163759-316babf88c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703192163759-316babf88c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
 ---
 
 # [marimo-team/marimo](https://github.com/marimo-team/marimo)

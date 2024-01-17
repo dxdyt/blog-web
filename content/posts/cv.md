@@ -1,16 +1,16 @@
 ---
 title: cv
-date: 2024-01-16T12:18:26+08:00
+date: 2024-01-17T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703446592359-fefe8472cc79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703290858674-4895a3a2e25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703290858674-4895a3a2e25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
 ---
 
 # [BartoszJarocki/cv](https://github.com/BartoszJarocki/cv)
 
 ![cv](https://github.com/BartoszJarocki/cv/assets/1017620/79bdb9fc-0b20-4d2c-aafe-0526ad4a71d2)
 
-# Minimalist CV
+# Minimalist CV [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FBartoszJarocki%2Fcv)
 
 Simple web app that renders minimalist CV with print-friendly layout.
 

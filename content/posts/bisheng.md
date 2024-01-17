@@ -1,15 +1,19 @@
 ---
 title: bisheng
-date: 2023-11-03T12:15:26+08:00
+date: 2024-01-17T12:20:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694845480758-2c83c3e5a372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694845480758-2c83c3e5a372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702165639993-4ef92f484382?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702165639993-4ef92f484382?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
 ---
 
 # [dataelement/bisheng](https://github.com/dataelement/bisheng)
 
 <img src="https://www.dataelem.com/nstatic/bisheng.png" alt="Bisheng banner">
 
+<p align="center">
+  <a href="./README.md">简体中文</a> |
+  <a href="./README_ENG.md">English</a> 
+</p>
 <p align="center">
     <a href="https://dataelem.feishu.cn/wiki/ZxW6wZyAJicX4WkG0NqcWsbynde"><img src="https://img.shields.io/badge/docs-Wiki-brightgreen"></a>
     <img src="https://img.shields.io/github/license/dataelement/bisheng" alt="license"/>
@@ -95,7 +99,7 @@ Bisheng 基于 [Apache 2.0 License](https://github.com/dataelement/bisheng/blob/
 
 ### 源码编译 Bisheng
 
-Todo: 待补充
+- [编译Bisheng](https://dataelem.feishu.cn/wiki/EKdDw0IkyiNSAEkzc29cqKnmn7c)
 
 获取更多内容，请阅读 [开发者文档](https://m7a7tqsztt.feishu.cn/wiki/ITmJwMXVliBnzpkW3nkcqPVrnse)。
 
