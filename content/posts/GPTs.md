@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2024-01-17T12:18:49+08:00
+date: 2024-01-18T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703016561082-9c2b58702158?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703016561082-9c2b58702158?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704283135253-218a9d250302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704283135253-218a9d250302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -244,7 +244,7 @@ This repo collects leaked prompts of GPTs.
 - [WebGPT🤖](./prompts/WebGPT.md) by wegpt.ai
 - [AllTrails](./prompts/AllTrails.md)　By alltrails.com
 - [ChatDB: talk to your databases](./prompts/ChatDB.md)　By chatssh.net
-
+- [中文作文批改助手](./prompts/中文作文批改助手.md) by Arden Moses
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.

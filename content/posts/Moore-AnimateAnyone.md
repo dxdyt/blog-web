@@ -1,16 +1,18 @@
 ---
 title: Moore-AnimateAnyone
-date: 2024-01-17T12:17:17+08:00
+date: 2024-01-18T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703290858674-4895a3a2e25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703290858674-4895a3a2e25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703774626005-9eb89bd30df4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703774626005-9eb89bd30df4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
 ---
 
 # [MooreThreads/Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone)
 
 # 🤗 Introduction
 
-**update**：🔥🔥🔥We launch a HuggingFace Spaces demo of Moore-AnimateAnyone at [here](https://huggingface.co/spaces/xunsong/Moore-AnimateAnyone)!!
+**update** 🏋️🏋️🏋️ We release our training codes!! Now you can train your own AnimateAnyone models. See [here](#train) for more details. Have fun!
+
+**update**：🔥🔥🔥 We launch a HuggingFace Spaces demo of Moore-AnimateAnyone at [here](https://huggingface.co/spaces/xunsong/Moore-AnimateAnyone)!!
 
 This repository reproduces [AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone). To align the results demonstrated by the original paper, we adopt various approaches and tricks, which may differ somewhat from the paper and another [implementation](https://github.com/guoqincode/Open-AnimateAnyone). 
 
@@ -21,9 +23,7 @@ We will continue to develop it, and also welcome feedbacks and ideas from the co
 # 📝 Release Plans
 
 - [x] Inference codes and pretrained weights
-- [ ] Training scripts
-
-**Note** The training code involves private data and packages. We will organize this portion of the code as soon as possible and then release it.
+- [x] Training scripts
 
 # 🎞️ Examples 
 
@@ -126,7 +126,9 @@ Finally, these weights should be orgnized as follows:
 
 Note: If you have installed some of the pretrained models, such as `StableDiffusion V1.5`, you can specify their paths in the config file (e.g. `./config/prompts/animation.yaml`).
 
-# 🚀 Inference 
+# 🚀 Training and Inference 
+
+## Inference
 
 Here is the cli command for running inference scripts:
 
@@ -138,6 +140,61 @@ You can refer the format of `animation.yaml` to add your own reference images or
 
 ```shell
 python tools/vid2pose.py --video_path /path/to/your/video.mp4
+```
+
+## <span id="train"> Training </span>
+
+Note: package dependencies have been updated, you may upgrade your environment via `pip install -r requirements.txt` before training.
+
+### Data Preparation
+
+Extract keypoints from raw videos: 
+
+```shell
+python tools/extract_dwpose_from_vid.py --video_root /path/to/your/video_dir
+```
+
+Extract the meta info of dataset:
+
+```shell
+python tools/extract_meta_info.py --root_path /path/to/your/video_dir --dataset_name anyone 
+```
+
+Update lines in the training config file: 
+
+```yaml
+data:
+  meta_paths:
+    - "./data/anyone_meta.json"
+```
+
+### Stage1
+
+Put [openpose controlnet weights](https://huggingface.co/lllyasviel/control_v11p_sd15_openpose/tree/main) under `./pretrained_weights`, which is used to initialize the pose_guider.
+
+Put [sd-image-variation](https://huggingface.co/lambdalabs/sd-image-variations-diffusers/tree/main) under `./pretrained_weights`, which is used to initialize unet weights.
+
+Run command:
+
+```shell
+accelerate launch train_stage_1.py --config configs/train/stage1.yaml
+```
+
+### Stage2
+
+Put the pretrained motion module weights `mm_sd_v15_v2.ckpt` ([download link](https://huggingface.co/guoyww/animatediff/blob/main/mm_sd_v15_v2.ckpt)) under `./pretrained_weights`. 
+
+Specify the stage1 training weights in the config file `stage2.yaml`, for example:
+
+```yaml
+stage1_ckpt_dir: './exp_output/stage1'
+stage1_ckpt_step: 30000 
+```
+
+Run command:
+
+```shell
+accelerate launch train_stage_2.py --config configs/train/stage2.yaml
 ```
 
 # 🎨 Gradio Demo

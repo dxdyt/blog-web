@@ -1,9 +1,9 @@
 ---
 title: audiocraft
-date: 2023-09-27T12:16:03+08:00
+date: 2024-01-18T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693493422328-5c3a1b07d764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693493422328-5c3a1b07d764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU3ODgwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703282601007-737514c1c2de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703282601007-737514c1c2de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/audiocraft](https://github.com/facebookresearch/audiocraft)
@@ -18,16 +18,18 @@ for two state-of-the-art AI generative models producing high-quality audio: Audi
 
 
 ## Installation
-AudioCraft requires Python 3.9, PyTorch 2.0.0. To install AudioCraft, you can run the following:
+AudioCraft requires Python 3.9, PyTorch 2.1.0. To install AudioCraft, you can run the following:
 
 ```shell
 # Best to make sure you have torch installed first, in particular before installing xformers.
 # Don't run this if you already have PyTorch installed.
-pip install 'torch>=2.0'
+python -m pip install 'torch==2.1.0'
+# You might need the following before trying to install the packages
+python -m pip install setuptools wheel
 # Then proceed to one of the following
-pip install -U audiocraft  # stable release
-pip install -U git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft  # bleeding edge
-pip install -e .  # or if you cloned the repo locally (mandatory if you want to train).
+python -m pip install -U audiocraft  # stable release
+python -m pip install -U git+https://git@github.com/facebookresearch/audiocraft#egg=audiocraft  # bleeding edge
+python -m pip install -e .  # or if you cloned the repo locally (mandatory if you want to train).
 ```
 
 We also recommend having `ffmpeg` installed, either through your system or Anaconda:
@@ -44,6 +46,7 @@ At the moment, AudioCraft contains the training code and inference code for:
 * [AudioGen](./docs/AUDIOGEN.md): A state-of-the-art text-to-sound model.
 * [EnCodec](./docs/ENCODEC.md): A state-of-the-art high fidelity neural audio codec.
 * [Multi Band Diffusion](./docs/MBD.md): An EnCodec compatible decoder using diffusion.
+* [MAGNeT](./docs/MAGNET.md): A state-of-the-art non-autoregressive model for text-to-music and text-to-sound.
 
 ## Training code
 
@@ -82,11 +85,11 @@ Finally, if you use a model that relies on Demucs (e.g. `musicgen-melody`) and w
 
 For the general framework of AudioCraft, please cite the following.
 ```
-@article{copet2023simple,
+@inproceedings{copet2023simple,
     title={Simple and Controllable Music Generation},
     author={Jade Copet and Felix Kreuk and Itai Gat and Tal Remez and David Kant and Gabriel Synnaeve and Yossi Adi and Alexandre Défossez},
+    booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
     year={2023},
-    journal={arXiv preprint arXiv:2306.05284},
 }
 ```
 

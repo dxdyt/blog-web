@@ -1,9 +1,9 @@
 ---
 title: autoscaler
-date: 2023-10-15T12:15:39+08:00
+date: 2024-01-18T12:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1568826197047-0fc0311f65fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1568826197047-0fc0311f65fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
 ---
 
 # [kubernetes/autoscaler](https://github.com/kubernetes/autoscaler)

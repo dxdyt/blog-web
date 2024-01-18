@@ -1,9 +1,9 @@
 ---
 title: ReplaceAnything
-date: 2024-01-17T12:19:07+08:00
+date: 2024-01-18T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703192163759-316babf88c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703192163759-316babf88c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703179120646-37642ea08138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703179120646-37642ea08138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
 ---
 
 # [AIGCDesignGroup/ReplaceAnything](https://github.com/AIGCDesignGroup/ReplaceAnything)
@@ -20,20 +20,22 @@ ReplaceAnything as you want: Ultra-high quality content replacement
 
 Institute for Intelligent Computing, Alibaba Group
 
+For more AIGC related works of our group, please visit [here](https://github.com/AIGCDesignGroup), and we are seeking collaborators and research interns([Email us](mailto:cangyu.gyf@alibaba-inc.com)).
+
 <a href='https://aigcdesigngroup.github.io/replace-anything/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href=''><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 ---
 
-**<span style="color:red">
-News</span>**: Now you can try our ReplaceAnything v1.0 on <a href = "https://huggingface.co/spaces/modelscope/ReplaceAnything">HuggingFace space</a> ( in English ) . Enjoy it and have fun!
+## 📌News
+[2024.01.12] - Now you can try our ReplaceAnything v1.0 on <a href = "https://huggingface.co/spaces/modelscope/ReplaceAnything">HuggingFace space</a> ( in English ) . Enjoy it and have fun!
 
-**<span style="color:red">
-News</span>**: Now you can try our ReplaceAnything v1.0 on <a href = "https://www.modelscope.cn/studios/damo/ReplaceAnything/summary">ModelScope 魔搭</a> ( in Chinese ) . Enjoy it and have fun!
+[2024.01.11] - Now you can try our ReplaceAnything v1.0 on <a href = "https://www.modelscope.cn/studios/damo/ReplaceAnything/summary">ModelScope 魔搭</a> ( in Chinese ) . Enjoy it and have fun!
 
 
 Feel free to share your interesting results with us. If you have any questions or suggestions, don't hesitate to leave a message in issues.
 
 
-**<span>To Do Lists</span>**:
+## ⏰TODOs
+- [x] Release demos
 - [ ] Paper release
 - [ ] Code release
 
@@ -42,7 +44,7 @@ Feel free to share your interesting results with us. If you have any questions o
 
 ---
 
-
+# 🌄Gallery
 ## Clothing replacement (masked region is strictly retained):
 ![replaceanything](images/g0.png)
 
