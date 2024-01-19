@@ -1,17 +1,35 @@
 ---
 title: GPTs
-date: 2024-01-18T12:16:14+08:00
+date: 2024-01-19T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704283135253-218a9d250302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704283135253-218a9d250302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701198067567-24b886478206?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701198067567-24b886478206?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
 
 # GPTs
-This repo collects leaked prompts of GPTs.
+This repo collects leaked prompts of GPTs. 
 
-## Prompts of GPTs
+Most of prompts I colleted from [here](https://x.com/dotey/status/1722831122285932592?s=20)
+
+## Sponsors
+
+<p align="center">
+<h3 align="center">Sponsor</h3>
+</p>
+
+<p align="center">
+<a target="_blank" href="https://gptshunter.com/?utm_source=leaked_gpts">
+<img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
+</a>
+</p>
+
+
+
+- [gptshunter](https://gptshunter.com/?utm_source=leaked_gpts) Find userful GPTs here.
+
+## Leaked Prompts of GPTs
 - [DevRel Guide](./prompts/devrelguide.md) by Rohit Ghumare
 - [Istio Guru](./prompts/IstioGuru.md) by Rohit Ghumare
 - [BabyAgi.txt](./prompts/BabyAgi.txt.md) by Nicholas Dobos
@@ -245,6 +263,8 @@ This repo collects leaked prompts of GPTs.
 - [AllTrails](./prompts/AllTrails.md)　By alltrails.com
 - [ChatDB: talk to your databases](./prompts/ChatDB.md)　By chatssh.net
 - [中文作文批改助手](./prompts/中文作文批改助手.md) by Arden Moses
+- [DeepGame](./prompts/DeepGame.md)　By Utile Labs
+- [Pineapple Builder](./prompts/PineappleBuilder.md)　By Peter Kowalczyk
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.

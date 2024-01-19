@@ -1,12 +1,14 @@
 ---
 title: dinov2
-date: 2023-09-03T12:15:44+08:00
+date: 2024-01-19T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690801752850-9964e0ac3e3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690801752850-9964e0ac3e3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM3MTQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703179040740-fcd88a700b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703179040740-fcd88a700b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2)
+
+:new: [2023-10-26] *Added DINOv2 backbones with registers, following [Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588).*
 
 # DINOv2: Learning Robust Visual Features without Supervision
 
@@ -22,9 +24,9 @@ Patrick Labatut,
 Armand Joulin,
 Piotr Bojanowski
 
-[[`Paper`](https://arxiv.org/abs/2304.07193)] [[`Blog`](https://ai.facebook.com/blog/dino-v2-computer-vision-self-supervised-learning/)] [[`Demo`](https://dinov2.metademolab.com)] [[`BibTeX`](#citing-dinov2)]
+[[`Paper #1`](https://arxiv.org/abs/2304.07193)] [`Paper #2`](https://arxiv.org/abs/2309.16588)] [[`Blog`](https://ai.facebook.com/blog/dino-v2-computer-vision-self-supervised-learning/)] [[`Demo`](https://dinov2.metademolab.com)] [[`BibTeX`](#citing-dinov2)]
 
-PyTorch implementation and pretrained models for DINOv2. For details, see the paper: **[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)**.
+PyTorch implementation and pretrained models for DINOv2. For details, see the papers: **[DINOv2: Learning Robust Visual Features without Supervision](https://arxiv.org/abs/2304.07193)** and **[Vision Transformers Need Registers](https://arxiv.org/abs/2309.16588)**.
 
 DINOv2 models produce high-performance visual features that can be directly employed with classifiers as simple as linear layers on a variety of computer vision tasks; these visual features are robust and perform well across domains without any requirement for fine-tuning. The models were pretrained on a dataset of 142 M images without using any labels or annotations.
 
@@ -41,6 +43,7 @@ https://github.com/facebookresearch/dinov2/assets/60359573/f168823e-7922-415a-b4
     <tr>
       <th>model</th>
       <th># of<br />params</th>
+      <th>with<br />registers</th>
       <th>ImageNet<br />k-NN</th>
       <th>ImageNet<br />linear</th>
       <th>download</th>
@@ -50,30 +53,66 @@ https://github.com/facebookresearch/dinov2/assets/60359573/f168823e-7922-415a-b4
     <tr>
       <td>ViT-S/14 distilled</td>
       <td align="right">21 M</td>
+      <td align="center">:x:</td>
       <td align="right">79.0%</td>
       <td align="right">81.1%</td>
       <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth">backbone only</a></td>
     </tr>
     <tr>
+      <td>ViT-S/14 distilled</td>
+      <td align="right">21 M</td>
+      <td align="center">:white_check_mark:</td>
+      <td align="right">79.1%</td>
+      <td align="right">80.9%</td>
+      <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_pretrain.pth">backbone only</a></td>
+    </tr>
+    <tr>
       <td>ViT-B/14 distilled</td>
       <td align="right">86 M</td>
+      <td align="center">:x:</td>
       <td align="right">82.1%</td>
       <td align="right">84.5%</td>
       <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth">backbone only</a></td>
     </tr>
     <tr>
+      <td>ViT-B/14 distilled</td>
+      <td align="right">86 M</td>
+      <td align="center">:white_check_mark:</td>
+      <td align="right">82.0%</td>
+      <td align="right">84.6%</td>
+      <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_pretrain.pth">backbone only</a></td>
+    </tr>
+    <tr>
       <td>ViT-L/14 distilled</td>
       <td align="right">300 M</td>
+      <td align="center">:x:</td>
       <td align="right">83.5%</td>
       <td align="right">86.3%</td>
       <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth">backbone only</a></td>
     </tr>
     <tr>
+      <td>ViT-L/14 distilled</td>
+      <td align="right">300 M</td>
+      <td align="center">:white_check_mark:</td>
+      <td align="right">83.8%</td>
+      <td align="right">86.7%</td>
+      <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_pretrain.pth">backbone only</a></td>
+    </tr>
+    <tr>
       <td>ViT-g/14</td>
       <td align="right">1,100 M</td>
+      <td align="center">:x:</td>
       <td align="right">83.5%</td>
       <td align="right">86.5%</td>
       <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_pretrain.pth">backbone only</a></td>
+    </tr>
+    <tr>
+      <td>ViT-g/14</td>
+      <td align="right">1,100 M</td>
+      <td align="center">:white_check_mark:</td>
+      <td align="right">83.7%</td>
+      <td align="right">87.1%</td>
+      <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_reg4_pretrain.pth">backbone only</a></td>
     </tr>
   </tbody>
 </table>
@@ -87,10 +126,17 @@ A corresponding [model card](MODEL_CARD.md) is included in the repository.
 ```python
 import torch
 
+# DINOv2
 dinov2_vits14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14')
 dinov2_vitb14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14')
 dinov2_vitl14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitl14')
 dinov2_vitg14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitg14')
+
+# DINOv2 with registers
+dinov2_vits14_reg = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14_reg')
+dinov2_vitb14_reg = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14_reg')
+dinov2_vitl14_reg = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitl14_reg')
+dinov2_vitg14_reg = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitg14_reg')
 ```
 
 ### Pretrained heads - Image classification
@@ -99,6 +145,7 @@ dinov2_vitg14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitg14')
   <thead>
     <tr>
       <th rowspan="2">backbone</th>
+      <th rowspan="2">with<br />registers</th>
       <th>download</th>
     </tr>
     <tr>
@@ -108,28 +155,61 @@ dinov2_vitg14 = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitg14')
   <tbody>
     <tr>
       <td>ViT-S/14 distilled</td>
+      <td align="center">:x:</td>
       <td>
         linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_linear_head.pth">1 layer</a>,
         <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_linear4_head.pth">4 layers</a>)
       </td>
     </tr>
     <tr>
+      <td>ViT-S/14 distilled</td>
+      <td align="center">:white_check_mark:</td>
+      <td>
+        linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_linear_head.pth">1 layer</a>,
+        <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_linear4_head.pth">4 layers</a>)
+      </td>
+    </tr>
+    <tr>
       <td>ViT-B/14 distilled</td>
+      <td align="center">:x:</td>
       <td>
         linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_linear_head.pth">1 layer</a>,
         <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_linear4_head.pth">4 layers</a>)
     </tr>
     <tr>
+      <td>ViT-B/14 distilled</td>
+      <td align="center">:white_check_mark:</td>
+      <td>
+        linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_linear_head.pth">1 layer</a>,
+        <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_linear4_head.pth">4 layers</a>)
+    </tr>
+    <tr>
       <td>ViT-L/14 distilled</td>
+      <td align="center">:x:</td>
       <td>
         linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_linear_head.pth">1 layer</a>,
         <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_linear4_head.pth">4 layers</a>)
     </tr>
     <tr>
+      <td>ViT-L/14 distilled</td>
+      <td align="center">:white_check_mark:</td>
+      <td>
+        linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_linear_head.pth">1 layer</a>,
+        <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_linear4_head.pth">4 layers</a>)
+    </tr>
+    <tr>
       <td>ViT-g/14</td>
+      <td align="center">:x:</td>
       <td>
         linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_linear_head.pth">1 layer</a>,
         <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_linear4_head.pth">4 layers</a>)
+    </tr>
+    <tr>
+      <td>ViT-g/14</td>
+      <td align="center">:white_check_mark:</td>
+      <td>
+        linear head (<a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_lreg4_inear_head.pth">1 layer</a>,
+        <a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_reg4_linear4_head.pth">4 layers</a>)
     </tr>
   </tbody>
 </table>
@@ -139,10 +219,17 @@ The (full) classifier models can be loaded via PyTorch Hub:
 ```python
 import torch
 
+# DINOv2
 dinov2_vits14_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14_lc')
 dinov2_vitb14_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14_lc')
 dinov2_vitl14_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitl14_lc')
 dinov2_vitg14_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitg14_lc')
+
+# DINOv2 with registers
+dinov2_vits14_reg_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vits14_reg_lc')
+dinov2_vitb14_reg_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitb14_reg_lc')
+dinov2_vitl14_reg_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitl14_reg_lc')
+dinov2_vitg14_reg_lc = torch.hub.load('facebookresearch/dinov2', 'dinov2_vitg14_reg_lc')
 ```
 
 ### Pretrained heads - Depth estimation
@@ -439,28 +526,57 @@ We release the weights from evaluating the different models:
 <table style="margin: auto">
   <tr>
     <th>model</th>
+    <th>with<br />registers</th>
     <th>ImageNet<br />top-1</th>
     <th>linear evaluation</th>
   </tr>
   <tr>
     <td>ViT-S/14 distilled</td>
+    <td align="center">:x:</td>
     <td align="right">81.1%</td>
     <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_linear_head.pth">linear head weights</a></td>
   </tr>
   <tr>
+    <td>ViT-S/14 distilled</td>
+    <td align="center">:white_check_mark:</td>
+    <td align="right">80.8%</td>
+    <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_reg4_linear_head.pth">linear head weights</a></td>
+  </tr>
+  <tr>
     <td>ViT-B/14 distilled</td>
+    <td align="center">:x:</td>
     <td align="right">84.5%</td>
     <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_linear_head.pth">linear head weights</a></td>
   </tr>
   <tr>
+    <td>ViT-B/14 distilled</td>
+    <td align="center">:white_check_mark:</td>
+    <td align="right">84.4%</td>
+    <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_reg4_linear_head.pth">linear head weights</a></td>
+  </tr>
+  <tr>
     <td>ViT-L/14 distilled</td>
+    <td align="center">:x:</td>
     <td align="right">86.3%</td>
     <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_linear_head.pth">linear head weights</a></td>
   </tr>
   <tr>
+    <td>ViT-L/14 distilled</td>
+    <td align="center">:white_check_mark:</td>
+    <td align="right">86.5%</td>
+    <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_reg4_linear_head.pth">linear head weights</a></td>
+  </tr>
+  <tr>
     <td>ViT-g/14</td>
+    <td align="center">:x:</td>
     <td align="right">86.5%</td>
     <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_linear_head.pth">linear head weights</a></td>
+  </tr>
+  <tr>
+    <td>ViT-g/14</td>
+    <td align="center">:white_check_mark:</td>
+    <td align="right">87.0%</td>
+    <td><a href="https://dl.fbaipublicfiles.com/dinov2/dinov2_vitg14/dinov2_vitg14_reg4_linear_head.pth">linear head weights</a></td>
   </tr>
 </table>
 
@@ -500,6 +616,15 @@ If you find this repository useful, please consider giving a star :star: and cit
   title={DINOv2: Learning Robust Visual Features without Supervision},
   author={Oquab, Maxime and Darcet, Timothée and Moutakanni, Theo and Vo, Huy V. and Szafraniec, Marc and Khalidov, Vasil and Fernandez, Pierre and Haziza, Daniel and Massa, Francisco and El-Nouby, Alaaeldin and Howes, Russell and Huang, Po-Yao and Xu, Hu and Sharma, Vasu and Li, Shang-Wen and Galuba, Wojciech and Rabbat, Mike and Assran, Mido and Ballas, Nicolas and Synnaeve, Gabriel and Misra, Ishan and Jegou, Herve and Mairal, Julien and Labatut, Patrick and Joulin, Armand and Bojanowski, Piotr},
   journal={arXiv:2304.07193},
+  year={2023}
+}
+```
+
+```
+@misc{darcet2023vitneedreg,
+  title={Vision Transformers Need Registers},
+  author={Darcet, Timothée and Oquab, Maxime and Mairal, Julien and Bojanowski, Piotr},
+  journal={arXiv:2309.16588},
   year={2023}
 }
 ```

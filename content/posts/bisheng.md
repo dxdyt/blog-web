@@ -1,9 +1,9 @@
 ---
 title: bisheng
-date: 2024-01-17T12:20:04+08:00
+date: 2024-01-19T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702165639993-4ef92f484382?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702165639993-4ef92f484382?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703190619433-67a928f0b9e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703190619433-67a928f0b9e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
 ---
 
 # [dataelement/bisheng](https://github.com/dataelement/bisheng)
@@ -12,7 +12,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1702165639993-4ef92f4843
 
 <p align="center">
   <a href="./README.md">简体中文</a> |
-  <a href="./README_ENG.md">English</a> 
+  <a href="./README_ENG.md">English</a> |
+  <a href="./README_JPN.md">日本語</a>
 </p>
 <p align="center">
     <a href="https://dataelem.feishu.cn/wiki/ZxW6wZyAJicX4WkG0NqcWsbynde"><img src="https://img.shields.io/badge/docs-Wiki-brightgreen"></a>

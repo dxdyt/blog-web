@@ -1,9 +1,9 @@
 ---
 title: PhotoMaker
-date: 2024-01-18T12:16:01+08:00
+date: 2024-01-19T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704283135253-218a9d250302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704283135253-218a9d250302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704426882813-8acfff020487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704426882813-8acfff020487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
 ---
 
 # [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker)
@@ -38,6 +38,7 @@ Official implementation of **[PhotoMaker: Customizing Realistic Human Photos via
 ---
 
 ❗❗ Note: If there are any PhotoMaker based resources and applications, please leave them in the [discussion](https://github.com/TencentARC/PhotoMaker/discussions/36) and we will list them in the [Related Resources](https://github.com/TencentARC/PhotoMaker?tab=readme-ov-file#related-resources) section in README file.
+Now we know the implementation of **Replicate**, **Windows**, **ComfyUI**, and **WebUI**. Thank you all! 
 
 <div align="center">
 
@@ -103,7 +104,7 @@ from photomaker import PhotoMakerStableDiffusionXLPipeline
 ```
 
 # ⏬ Download Models 
-The model will be automatically downloaded through following two lines:
+The model will be automatically downloaded through the following two lines:
 
 ```python
 from huggingface_hub import hf_hub_download
@@ -199,14 +200,24 @@ python gradio_demo/app.py
 
 You could customize this script in [this file](gradio_demo/app.py).
 
+If you want to run it on MAC, you should follow [this Instruction](MacGPUEnv.md) and then run the app.py.
+
 ## Usage Tips:
-- Upload more photos of the person to be customized to improve ID fidelty. If the input is Asian face(s), maybe consider adding 'asian' before the class word, e.g., `asian woman img`
-- When stylizing, does the generated face look too realistic? Adjust the Style strength to 30-50, the larger the number, the less ID fidelty, but the stylization ability will be better. You could also try out other base models or LoRAs with good stylization effects.
+- Upload more photos of the person to be customized to improve ID fidelity. If the input is Asian face(s), maybe consider adding 'asian' before the class word, e.g., `asian woman img`
+- When stylizing, does the generated face look too realistic? Adjust the Style strength to 30-50, the larger the number, the less ID fidelity, but the stylization ability will be better. You could also try out other base models or LoRAs with good stylization effects.
 - For faster speed, reduce the number of generated images and sampling steps. However, please note that reducing the sampling steps may compromise the ID fidelity.
 
 # Related Resources
-- [Replicate demo of PhotoMaker](https://replicate.com/jd7h/photomaker) by [@yorickvP](https://github.com/yorickvP), transfer PhotoMaker to replicate.
-- [Windows version of PhotoMaker](https://github.com/bmaltais/PhotoMaker/tree/v1.0.1) by [@bmaltais](https://github.com/bmaltais), easy to deploy PhotoMaker on Windows. The description can be found in [this link](https://github.com/TencentARC/PhotoMaker/discussions/36#discussioncomment-8156199).
+### Replicate demo of PhotoMaker: 
+[Demo link](https://replicate.com/jd7h/photomaker) by [@yorickvP](https://github.com/yorickvP), transfer PhotoMaker to replicate.
+### Windows version of PhotoMaker: 
+1. [bmaltais/PhotoMaker](https://github.com/bmaltais/PhotoMaker/tree/v1.0.1) by [@bmaltais](https://github.com/bmaltais), easy to deploy PhotoMaker on Windows. The description can be found in [this link](https://github.com/TencentARC/PhotoMaker/discussions/36#discussioncomment-8156199).
+2. [sdbds/PhotoMaker-for-windows](https://github.com/sdbds/PhotoMaker-for-windows/tree/windows) by [@sdbds](https://github.com/bmaltais).
+### ComfyUI:
+1. https://github.com/ZHO-ZHO-ZHO/ComfyUI-PhotoMaker
+2. https://github.com/StartHua/Comfyui-Mine-PhotoMaker
+### Graido demo in 45 lines
+Provided by [@Gradio](https://twitter.com/Gradio/status/1747683500495691942)
 
 # 🤗 Acknowledgements
 - PhotoMaker is co-hosted by Tencent ARC Lab and Nankai University [MCG-NKU](https://mmcheng.net/cmm/).

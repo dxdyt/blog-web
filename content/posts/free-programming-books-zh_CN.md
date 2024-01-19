@@ -1,9 +1,9 @@
 ---
 title: free-programming-books-zh_CN
-date: 2024-01-17T12:18:59+08:00
+date: 2024-01-19T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702314876402-8f64d97030a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702314876402-8f64d97030a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1542768846-4064a7293322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1542768846-4064a7293322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
 ---
 
 # [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)

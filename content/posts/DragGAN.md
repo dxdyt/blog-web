@@ -1,9 +1,9 @@
 ---
 title: DragGAN
-date: 2023-10-25T12:17:07+08:00
+date: 2024-01-19T12:18:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696251301085-5aac48c83afa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696251301085-5aac48c83afa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyMDczMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703027817396-2e4a8ca87fdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703027817396-2e4a8ca87fdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
 ---
 
 # [XingangPan/DragGAN](https://github.com/XingangPan/DragGAN)
