@@ -1,18 +1,18 @@
 ---
 title: grpc-go
-date: 2023-09-10T12:16:34+08:00
+date: 2024-01-20T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692047306544-e99d44b54795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQzMTkyMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704805952481-7f6e3579de30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704805952481-7f6e3579de30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [grpc/grpc-go](https://github.com/grpc/grpc-go)
 
 # gRPC-Go
 
-[![Build Status](https://travis-ci.org/grpc/grpc-go.svg)](https://travis-ci.org/grpc/grpc-go)
 [![GoDoc](https://pkg.go.dev/badge/google.golang.org/grpc)][API]
 [![GoReportCard](https://goreportcard.com/badge/grpc/grpc-go)](https://goreportcard.com/report/github.com/grpc/grpc-go)
+[![codecov](https://codecov.io/gh/grpc/grpc-go/graph/badge.svg)](https://codecov.io/gh/grpc/grpc-go)
 
 The [Go][] implementation of [gRPC][]: A high performance, open source, general
 RPC framework that puts mobile and HTTP/2 first. For more information see the

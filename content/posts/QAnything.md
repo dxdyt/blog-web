@@ -1,9 +1,9 @@
 ---
 title: QAnything
-date: 2024-01-19T12:17:09+08:00
+date: 2024-01-20T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1542768846-4064a7293322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1542768846-4064a7293322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [netease-youdao/QAnything](https://github.com/netease-youdao/QAnything)
@@ -37,6 +37,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1542768846-4064a7293322?
 &nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://twitter.com/YDopensource"><img src="https://img.shields.io/badge/follow-%40YDOpenSource-1DA1F2?logo=twitter&style={style}"></a>
 &nbsp;&nbsp;&nbsp;&nbsp;
+
+<a href="https://discord.gg/5uNpPsEJz8"><img src="https://img.shields.io/discord/1197874288963895436?style=social&logo=discord"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+
 
 </div>
 
@@ -201,7 +206,7 @@ After successful installation, you can experience the application by entering th
 #### API
 If you want to visit API, please refer to the following address:
 - API address: http://`your_host`:8777/api/
-- For detailed API documentation, please refer to [QAnything API 文档](docs/API.md)
+- For detailed API documentation, please refer to [QAnything API documentation](docs/API.md)
 
 ### Close service
 If you are in the Windows11 system: Need to enter the WSL environment.
@@ -229,17 +234,26 @@ bash close.sh
 ### API Document
 If you need to access the API, please refer to the [QAnything API documentation](docs/API.md).
 
-## WeChat Group
+
+
+## Community & Support
+
+### Discord <a href="https://discord.gg/5uNpPsEJz8"><img src="https://img.shields.io/discord/1197874288963895436?style=social&logo=discord"></a>
+Welcome to the QAnything [Discord](https://discord.gg/5uNpPsEJz8) community
+
+
+### GitHub issues
+Reach out to the maintainer at one of the following places:
+
+- [Github issues](https://github.com/netease-youdao/QAnything/issues)
+- Contact options listed on [this GitHub profile](https://github.com/netease-youdao)
+
+### WeChat Group
 
 Welcome to scan the QR code below and join the WeChat group.
 
 <img src="docs/images/Wechat.jpg" width="20%" height="auto">
 
-## Support
-Reach out to the maintainer at one of the following places:
-
-- [Github issues](https://github.com/netease-youdao/QAnything/issues)
-- Contact options listed on [this GitHub profile](https://github.com/netease-youdao)
 
 
 ## Star History

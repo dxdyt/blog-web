@@ -1,9 +1,9 @@
 ---
 title: angular-cli
-date: 2024-01-18T12:17:06+08:00
+date: 2024-01-20T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704208316515-a32f81e373ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704208316515-a32f81e373ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704642406626-3a82c573dbd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704642406626-3a82c573dbd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [angular/angular-cli](https://github.com/angular/angular-cli)

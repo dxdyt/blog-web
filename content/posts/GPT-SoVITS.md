@@ -1,9 +1,9 @@
 ---
 title: GPT-SoVITS
-date: 2024-01-19T12:17:51+08:00
+date: 2024-01-20T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703192163894-dbc99acc00d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703192163894-dbc99acc00d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
@@ -58,6 +58,12 @@ conda activate GPTSoVits
 bash install.sh
 ```
 ### Install Manually
+#### Make sure you have the distutils for python3.9 installed
+
+```bash
+sudo apt-get install python3.9-distutils
+```
+
 #### Pip Packages
 
 ```bash

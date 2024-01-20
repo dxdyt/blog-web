@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2023-10-29T12:15:52+08:00
+date: 2024-01-20T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697222691126-c1be7bde3ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697222691126-c1be7bde3ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg1NTI4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700504312217-a7d07fa8c254?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700504312217-a7d07fa8c254?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
@@ -38,7 +38,7 @@ Languages： English | [中文](README_CN.md)
 Official website：[Chat2DB](https://sqlgpt.cn/en)
 
 <div style="display: flex; align-items: center;">
-  If you find Chat2DB helpful, please help<a style="display: flex; align-items: center;margin:0px 6px" target="_blank" href='https://github.com/chat2db/Chat2db'><img src="https://img.shields.io/github/stars/chat2db/Chat2DB.svg?style=flat-square&label=Stars&logo=github" alt="github star"/></a>Click ⭐ Star and Fork in the top right corner, and your support is the biggest motivation for Chat2DB to get bette
+  If you find Chat2DB helpful, please help<a style="display: flex; align-items: center;margin:0px 6px" target="_blank" href='https://github.com/chat2db/Chat2db'><img src="https://img.shields.io/github/stars/chat2db/Chat2DB.svg?style=flat-square&label=Stars&logo=github" alt="github star"/></a>Click ⭐ Star and Fork in the top right corner, and your support is the biggest motivation for Chat2DB to get better
 </div>
 
 </div>
@@ -79,7 +79,7 @@ Chat2DB supports connecting to the following databases:
 - SQLServer
 - SQLite
 - MariaDB
-- ClickHouseare
+- ClickHouse
 - DM
 - Presto
 - DB2
@@ -114,12 +114,10 @@ Redis and MongoDB are partially supported , Hbase、Elasticsearch、openGauss、
 
 ### CONFIGURE CUSTOM AI
 
-* [Refer here to deploy your ChatGLM-6B model](https://github.com/chat2db/chat2db-chatglm-6b-deploy)
-* [Refer here to deploy your sqlcoder model](https://github.com/chat2db/chat2db-sqlcoder-deploy)
+* The rest api format for Custom AI is same as ChatGPT.
 
 ## 📦 Docker installation
 
-```bash
 ```bash
   // Pull the latest client, then run Docker with the name 'chat2db', and mount 'root. chat2db' to '~. chat2db Docker'`
   docker run --name=chat2db -ti -p 10824:10824 -v ~/.chat2db-docker:/root/.chat2db  chat2db/chat2db:latest
@@ -129,7 +127,6 @@ Redis and MongoDB are partially supported , Hbase、Elasticsearch、openGauss、
   docker start chat2db
   // If you want to update chat2db, you need to first rm
   docker rm chat2db
-```
 ```
 
 ## 🎯 Operating Environment
@@ -189,12 +186,18 @@ $ npm run build:web:prod / cp -r dist ../chat2db-server/chat2db-server-start/src
 
 ## ☎️ Contact Us
 
-Please star and fork on GitHub before joining the group.
-Follow our WeChat public account.
+### WeChat
 
 <a><img src="https://github.com/chat2db/Chat2DB/assets/22975773/e4239d29-1426-4361-bf57-f1b0b67d1281" width="40%"/></a>
 
- Click and join <a href="https://discord.gg/dqae8nsC">discord server</a>
+### Discord
+<!-- [![Discord](https://img.shields.io/badge/-Discord-%237289DA.svg?style=flat&logo=Discord&logoColor=white)](您的Discord邀请链接) -->
+[![Discord](https://img.shields.io/badge/-Join%20us%20on%20Discord-%237289DA.svg?style=flat&logo=discord&logoColor=white)](https://discord.gg/N6JscF7q)
+
+## LICENSE
+
+The primary license used by this software is the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), supplemented by the [Chat2DB License](./Chat2DB_LICENSE).
+
 
 ## ❤️ Acknowledgements
 
