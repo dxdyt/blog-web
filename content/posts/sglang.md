@@ -1,9 +1,9 @@
 ---
 title: sglang
-date: 2024-01-20T12:18:00+08:00
+date: 2024-01-21T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705527396653-caa2c67f26f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705527396653-caa2c67f26f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704880513041-1a01cc3825ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704880513041-1a01cc3825ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [sgl-project/sglang](https://github.com/sgl-project/sglang)
@@ -21,7 +21,7 @@ The core features of SGLang include:
 ## Contents
 - [Install](#install)
 - [Quick Start](#quick-start)
-- [Frontend: Structured Generation Langauge (SGLang)](#frontend-structured-generation-langauge-sglang)
+- [Frontend: Structured Generation Language (SGLang)](#frontend-structured-generation-language-sglang)
 - [Backend: SGLang Runtime (SRT)](#backend-sglang-runtime-srt)
 - [Benchmark And Performance](#benchmark-and-performance)
 - [Roadmap](#roadmap)
@@ -114,7 +114,7 @@ for m in state.messages():
 Anthropic and VertexAI (Gemini) models are also supported.
 You can find more examples at [examples/quick_start](examples/quick_start).
 
-## Frontend: Structured Generation Langauge (SGLang)
+## Frontend: Structured Generation Language (SGLang)
 
 To begin with, import sglang.
 ```python

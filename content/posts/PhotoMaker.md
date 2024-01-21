@@ -1,9 +1,9 @@
 ---
 title: PhotoMaker
-date: 2024-01-20T12:16:15+08:00
+date: 2024-01-21T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703817843977-11fe5a469e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703817843977-11fe5a469e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1698362819313-7d3c58f1592e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1698362819313-7d3c58f1592e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [TencentARC/PhotoMaker](https://github.com/TencentARC/PhotoMaker)
@@ -19,7 +19,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1703817843977-11fe5a469e
 ## PhotoMaker: Customizing Realistic Human Photos via Stacked ID Embedding  [![Paper page](https://huggingface.co/datasets/huggingface/badges/resolve/main/paper-page-md-dark.svg)](https://huggingface.co/papers/2312.04461)
 [[Paper](https://huggingface.co/papers/2312.04461)] &emsp; [[Project Page](https://photo-maker.github.io)] &emsp; [[Model Card](https://huggingface.co/TencentARC/PhotoMaker)] <br>
 
-[[🤗 Demo (Realistic)](https://huggingface.co/spaces/TencentARC/PhotoMaker)] &emsp; [[🤗 Demo (Stylization)](https://huggingface.co/spaces/TencentARC/PhotoMaker-Style)] <be>
+[[🤗 Demo (Realistic)](https://huggingface.co/spaces/TencentARC/PhotoMaker)] &emsp; [[🤗 Demo (Stylization)](https://huggingface.co/spaces/TencentARC/PhotoMaker-Style)] <br>
+
+[[Replicate Demo (Realistic)](https://replicate.com/jd7h/photomaker)] &emsp; [[Replicate Demo (Stylization)](https://replicate.com/yorickvp/photomaker-style)] <be>
 
 If the ID fidelity is not enough for you, please try our [stylization application](https://huggingface.co/spaces/TencentARC/PhotoMaker-Style), you may be pleasantly surprised.
 </div>
@@ -47,6 +49,7 @@ Now we know the implementation of **Replicate**, **Windows**, **ComfyUI**, and *
 
 
 ## 🚩 **New Features/Updates**
+- ✅ Jan. 20, 2024. An **important** note: For those GPUs that do not support bfloat16, please change [this line](https://github.com/TencentARC/PhotoMaker/blob/6ec44fc13909d64a65c635b9e3b6f238eb1de9fe/gradio_demo/app.py#L39) to `torch_dtype = torch.float16`, the speed will be **greatly improved** (1min/img (before) vs. 14s/img (after) on V100). The minimum GPU memory requirement for PhotoMaker is **15G**.
 - ✅ Jan. 15, 2024. We release PhotoMaker.
 
 ---
@@ -209,7 +212,9 @@ If you want to run it on MAC, you should follow [this Instruction](MacGPUEnv.md)
 
 # Related Resources
 ### Replicate demo of PhotoMaker: 
-[Demo link](https://replicate.com/jd7h/photomaker) by [@yorickvP](https://github.com/yorickvP), transfer PhotoMaker to replicate.
+1. [Demo link](https://replicate.com/jd7h/photomaker), run PhotoMaker on replicate. 
+2. [Demo link (style version)](https://replicate.com/yorickvp/photomaker-style).
+
 ### Windows version of PhotoMaker: 
 1. [bmaltais/PhotoMaker](https://github.com/bmaltais/PhotoMaker/tree/v1.0.1) by [@bmaltais](https://github.com/bmaltais), easy to deploy PhotoMaker on Windows. The description can be found in [this link](https://github.com/TencentARC/PhotoMaker/discussions/36#discussioncomment-8156199).
 2. [sdbds/PhotoMaker-for-windows](https://github.com/sdbds/PhotoMaker-for-windows/tree/windows) by [@sdbds](https://github.com/bmaltais).

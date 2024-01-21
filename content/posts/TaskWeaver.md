@@ -1,9 +1,9 @@
 ---
 title: TaskWeaver
-date: 2024-01-20T12:17:42+08:00
+date: 2024-01-21T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703817843977-11fe5a469e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703817843977-11fe5a469e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704880513041-1a01cc3825ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704880513041-1a01cc3825ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/TaskWeaver](https://github.com/microsoft/TaskWeaver)

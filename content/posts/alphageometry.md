@@ -1,9 +1,9 @@
 ---
 title: alphageometry
-date: 2024-01-20T12:16:53+08:00
+date: 2024-01-21T12:15:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700504312217-a7d07fa8c254?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700504312217-a7d07fa8c254?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704928341414-5ae341023539?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704928341414-5ae341023539?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [google-deepmind/alphageometry](https://github.com/google-deepmind/alphageometry)

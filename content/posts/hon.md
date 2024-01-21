@@ -1,14 +1,24 @@
 ---
 title: hon
-date: 2024-01-20T12:16:44+08:00
+date: 2024-01-21T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700504312217-a7d07fa8c254?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700504312217-a7d07fa8c254?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
 ---
 
 # [Andre0512/hon](https://github.com/Andre0512/hon)
 
-## Haier wants to force me to delete this repository, have a look to the [Takedown FAQs](https://github.com/Andre0512/hon/blob/main/takedown_faq.md) and [discuss here](https://github.com/Andre0512/hon/issues/147)
+## Update: [Answer from Haier](https://github.com/Andre0512/hon/issues/147#issuecomment-1902075829) 
+## Have a look at [Takedown FAQs](https://github.com/Andre0512/hon/blob/main/takedown_faq.md) and [Timeline of events](https://github.com/Andre0512/hon/blob/main/takedown_timeline.md)
+## Announcement: I have to take the project down in the next few days
+> Dear User,
+> 
+> We are writing to inform you that we have discovered two Home Assistant integration plug-ins developed by you ( https://github.com/Andre0512/hon and https://github.com/Andre0512/pyhOn ) that are in violation of our terms of service. Specifically, the plug-ins are using our services in an unauthorized manner which is causing significant economic harm to our Company.
+> We take the protection of our intellectual property very seriously and demand that you immediately cease and desist all illegal activities related to the development and distribution of these plug-ins. We also request that you remove the plug-ins from all stores and code hosting platforms where they are currently available.
+> Please be advised that we will take all necessary legal action to protect our interests if you fail to comply with this notice. We reserve the right to pursue all available remedies, including but not limited to monetary damages, injunctive relief, and attorney's fees.
+> We strongly urge you to take immediate action to rectify this situation and avoid any further legal action. If you have any questions or concerns, please do not hesitate to contact us.
+> 
+> Haier Europe Security and Governance Department
 
 # Haier hOn
 [![hacs_badge](https://img.shields.io/badge/hacs-Default-41BDF5.svg)](https://hacs.xyz)
@@ -765,8 +775,8 @@ Translation of internal names like programs are available for all languages whic
 * 🇪🇸 Spanish
 * 🇹🇷 Turkish
 
-## Compatiblity
-Haier offers different apps for different markets. Some appliances are compatible with more than one app. This integration only supports appliances that can be controlled via hOn. Please download the hOn app and check compatibilty before you open an issue.   
+## Compatibility
+Haier offers different apps for different markets. Some appliances are compatible with more than one app. This integration only supports appliances that can be controlled via hOn. Please download the hOn app and check compatibility before you open an issue.   
 The apps on this (incomplete) list have been requested so far:
 
 | App             | Main Market   | Supported                               | Alternative                                                                     |
