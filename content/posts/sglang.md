@@ -1,9 +1,9 @@
 ---
 title: sglang
-date: 2024-01-21T12:18:34+08:00
+date: 2024-01-22T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704880513041-1a01cc3825ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704880513041-1a01cc3825ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703209935163-8c7fa7b685f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703209935163-8c7fa7b685f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [sgl-project/sglang](https://github.com/sgl-project/sglang)
@@ -44,7 +44,9 @@ pip install -e "python[all]"
 ```
 
 ### Notes
-- If you are using older GPUs (NVIDIA T4, V100), please use `pip install "triton>=2.2.0"` to avoid some bugs in the triton compiler
+- If you are using older GPUs (NVIDIA V100, T4), please pick the correct triton compiler version to avoid some known bugs.
+  - For NVIDIA T4, please use `pip install "triton>=2.2.0"`.
+  - For NVIDIA V100, please install the [nightly](https://triton-lang.org/main/getting-started/installation.html) version.
 - If you only need to use the OpenAI backend, you can avoid installing other dependencies by using `pip install sglang[openai]`
 
 ## Quick Start
@@ -174,7 +176,8 @@ def image_qa(s, image_file, question):
 ```
 
 ### Constrained Decoding
-Use `regex=` to specify a regular expression as a decoding constraint.
+Use `regex` to specify a regular expression as a decoding constraint.
+This is only supported for local models.
 
 ```python
 @sgl.function
@@ -337,7 +340,7 @@ Learn more [here](docs/benchmark_results.md).
 
 ## Roadmap
 - [ ] Function call APIs
-- [ ] S-LoRA
+- [ ] S-LoRA (expect by Feb. 5)
 - [ ] Support more models
 - [ ] Support more hardware backends
 

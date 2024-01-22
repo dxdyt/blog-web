@@ -1,9 +1,9 @@
 ---
 title: InstantID
-date: 2024-01-21T12:17:09+08:00
+date: 2024-01-22T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703586015469-62e744b5b949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703586015469-62e744b5b949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [InstantID/InstantID](https://github.com/InstantID/InstantID)
@@ -59,6 +59,9 @@ Comparison of InstantID with InsightFace Swapper (also known as ROOP or Refactor
 ## Code
 
 We are working with diffusers team and will release the code before the end of January. Starring our work will definitely speed up the process. No kidding!
+
+## Disclaimer
+This project is released under [Apache License](https://github.com/InstantID/InstantID?tab=Apache-2.0-1-ov-file#readme) and aims to positively impact the field of AI-driven image generation. Users are granted the freedom to create images using this tool, but they are obligated to comply with local laws and utilize it responsibly. The developers will not assume any responsibility for potential misuse by users.
 
 ## Cite
 If you find InstantID useful for your research and applications, please cite us using this BibTeX:

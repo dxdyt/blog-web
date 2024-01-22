@@ -1,9 +1,9 @@
 ---
 title: Vim
-date: 2024-01-21T12:16:23+08:00
+date: 2024-01-22T12:19:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705323111650-4297b5cad135?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705323111650-4297b5cad135?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702590611375-36733e9e905a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702590611375-36733e9e905a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [hustvl/Vim](https://github.com/hustvl/Vim)

@@ -1,9 +1,9 @@
 ---
 title: agency-swarm
-date: 2024-01-20T12:17:51+08:00
+date: 2024-01-22T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704805952481-7f6e3579de30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704805952481-7f6e3579de30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705641084239-a55888e2fe12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705641084239-a55888e2fe12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [VRSEN/agency-swarm](https://github.com/VRSEN/agency-swarm)

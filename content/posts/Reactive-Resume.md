@@ -1,9 +1,9 @@
 ---
 title: Reactive-Resume
-date: 2024-01-21T12:18:26+08:00
+date: 2024-01-22T12:18:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703586015469-62e744b5b949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703586015469-62e744b5b949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705641084239-a55888e2fe12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705641084239-a55888e2fe12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
@@ -103,3 +103,9 @@ Reactive Resume is packaged and distributed using the [MIT License](/LICENSE.md)
 
 _By the community, for the community._  
 A passion project by [Amruth Pillai](https://www.amruthpillai.com/)
+
+<p>
+  <a href="https://www.digitalocean.com/?utm_medium=opensource&utm_source=Reactive-Resume">
+    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="200px">
+  </a>
+</p>

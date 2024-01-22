@@ -1,9 +1,9 @@
 ---
 title: Hello-Python
-date: 2023-09-16T12:16:34+08:00
+date: 2024-01-22T12:20:01+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1691852519415-0df4c22e49e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1702590611375-36733e9e905a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1702590611375-36733e9e905a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python)
@@ -14,6 +14,7 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1691852519415-0df4
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.88.0+-00a393?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=101010)](https://fastapi.tiangolo.com)
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0+-00684A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=101010)](https://www.mongodb.com)
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-GPT--4-7CF178?style=for-the-badge&logo=openai&logoColor=white&labelColor=101010)](https://platform.openai.com)
+[![Reflex](https://img.shields.io/badge/Reflex-0.3.6+-5646ED?style=for-the-badge&logo=reflex&logoColor=white&labelColor=101010)](https://reflex.dev)
 
 ## Curso para aprender el lenguaje de programación Python desde cero y para principiantes
 
@@ -22,14 +23,11 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1691852519415-0df4
 ### Proyecto realizado durante emisiones en directo desde [Twitch](https://twitch.tv/mouredev)
 > ##### Si consideras útil el curso, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
 
-## ¡Nuevo!
-### Aprende a integrar ChatGPT en tu proyecto desde cero
+## ¡NUEVO! Curso de Python para web
 
-<a href="https://youtu.be/b8COygWdvmw"><img src="http://i3.ytimg.com/vi/b8COygWdvmw/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
+[![Curso Python Web](https://img.shields.io/github/stars/mouredev/python-web?label=Curso%20Python%20web&style=social)](https://github.com/mouredev/python-web)
 
-Clase de una hora de duración donde aprenderás a interactuar con ChatGPT desde tu aplicación, mantener conversaciones y establecer el contexto de la IA para potenciar tu proyecto.
-
-Con todo el código publicado [aquí](https://gist.github.com/mouredev/58abfbcef017efaf3852e8821564c011).
+<a href="https://github.com/mouredev/python-web"><img src="https://raw.githubusercontent.com/mouredev/python-web/main/Images/header.jpg"/></a>
 
 ## Clases en vídeo
 
@@ -111,6 +109,26 @@ Curso en el que aprenderemos a utilizar Python para backend e implementaremos un
 
 ***ACTUALIZACIÓN Sobre la lección 18:** Deta ha actualizado ligeramente su servicio de despliegue de aplicaciones con FastAPI. Tienes toda la documentación [aquí](https://deta.space/docs/en/quickstart-guides/python#fastapi). También han creado una [guía de migración](https://deta.space/migration/guides/migrate-a-micro/).
 
+### Frontend desde cero
+
+Cursos en los que aprenderemos a utilizar Python para desarrollo web con dos proyectos reales desplegados en producción. Tutoriales en vídeo paso a paso con 9 horas de contenido.
+
+<a href="https://github.com/mouredev/python-web"><img src="http://i3.ytimg.com/vi/n2YrGsXJC6Y/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
+
+[![Curso Python Web](https://img.shields.io/github/stars/mouredev/python-web?label=Curso%20Python%20web&style=social)](https://github.com/mouredev/python-web)
+
+<a href="https://github.com/mouredev/adeviento-web"><img src="http://i3.ytimg.com/vi/h8Tn0ITRoQs/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
+
+[![Curso Python Web](https://img.shields.io/github/stars/mouredev/adeviento-web?label=Tutorial%20Python%20web%20extra&style=social)](https://github.com/mouredev/adeviento-web)
+
+### Aprende a integrar ChatGPT en tu proyecto desde cero
+
+<a href="https://youtu.be/b8COygWdvmw"><img src="http://i3.ytimg.com/vi/b8COygWdvmw/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
+
+Clase de una hora de duración donde aprenderás a interactuar con ChatGPT desde tu aplicación, mantener conversaciones y establecer el contexto de la IA para potenciar tu proyecto.
+
+Con todo el código publicado [aquí](https://gist.github.com/mouredev/58abfbcef017efaf3852e8821564c011).
+
 ### Introducción al Testing
 
 Taller de introducción a testing con Python creado junto a [Carlos Blé](https://www.carlosble.com) y [Miguel A. Gómez](https://softwarecrafters.io), expertos en la materia.
@@ -164,7 +182,7 @@ Si quieres unirte a nuestra comunidad de desarrollo, aprender programación de A
 ![GitHub Followers](https://img.shields.io/github/followers/mouredev?style=social)
 ![GitHub Followers](https://img.shields.io/github/stars/mouredev?style=social)
 
-Soy ingeniero de software desde hace más de 12 años. Desde hace 4 años combino mi trabajo desarrollando Apps con creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
+Soy ingeniero de software desde hace más de 13 años. Desde hace 4 años combino mi trabajo desarrollando Apps con creación de contenido formativo sobre programación y tecnología en diferentes redes sociales como **[@mouredev](https://moure.dev)**.
 
 ### En mi perfil de GitHub tienes más información
 

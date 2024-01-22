@@ -1,9 +1,9 @@
 ---
 title: bun
-date: 2023-09-14T12:16:01+08:00
+date: 2024-01-22T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705641084239-a55888e2fe12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705641084239-a55888e2fe12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
 ---
 
 # [oven-sh/bun](https://github.com/oven-sh/bun)
@@ -34,14 +34,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1693164189280-fc799a38d7
 
 ## What is Bun?
 
-> **​​Bun is still under development.** Use it to speed up your development workflows or run simpler production code in resource-constrained environments like serverless functions. We're working on more complete Node.js compatibility and integration with existing frameworks. Join the [Discord](https://bun.sh/discord) and watch the [GitHub repository](https://github.com/oven-sh/bun) to keep tabs on future releases.
+> **​​Bun is under active development.** Use it to speed up your development workflows or run simpler production code in resource-constrained environments like serverless functions. We're working on more complete Node.js compatibility and integration with existing frameworks. Join the [Discord](https://bun.sh/discord) and watch the [GitHub repository](https://github.com/oven-sh/bun) to keep tabs on future releases.
 
 Bun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called `bun​`.
 
 At its core is the _Bun runtime_, a fast JavaScript runtime designed as a drop-in replacement for Node.js. It's written in Zig and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.
 
 ```bash
-bun run index.tsx             # TS and JSX supported out of the box
+bun run index.tsx             # TS and JSX supported out-of-the-box
 ```
 
 ​​The `bun​` command-line tool also implements a test runner, script runner, and Node.js-compatible package manager. Instead of 1,000 node_modules for development, you only need `bun`. Bun's built-in tools are significantly faster than existing options and usable in existing Node.js projects with little to no changes.
@@ -103,7 +103,8 @@ bun upgrade --canary
   - [`bun run`](https://bun.sh/docs/cli/run)
   - [`bun install`](https://bun.sh/docs/cli/install)
   - [`bun test`](https://bun.sh/docs/cli/test)
-  - [`bun create`](https://bun.sh/docs/cli/create)
+  - [`bun init`](https://bun.sh/docs/cli/init)
+  - [`bun create`](https://bun.sh/docs/cli/bun-create)
   - [`bunx`](https://bun.sh/docs/cli/bunx)
 - Runtime
   - [Runtime](https://bun.sh/docs/runtime/index)
@@ -137,7 +138,7 @@ bun upgrade --canary
 
 ## Contributing
 
-Refer to the [Project > Development](https://bun.sh/docs/project/development) guide to start contributing to Bun.
+Refer to the [Project > Contributing](https://bun.sh/docs/project/contributing) guide to start contributing to Bun.
 
 ## License
 
