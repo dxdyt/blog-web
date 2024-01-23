@@ -1,9 +1,9 @@
 ---
 title: yt-dlp
-date: 2024-01-02T12:17:59+08:00
+date: 2024-01-23T12:19:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703028408833-ff4033ce37ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703028408833-ff4033ce37ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
 ---
 
 # [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)
@@ -290,7 +290,7 @@ While all the other dependencies are optional, `ffmpeg` and `ffprobe` are highly
 
 * [**ffmpeg** and **ffprobe**](https://www.ffmpeg.org) - Required for [merging separate video and audio files](#format-selection) as well as for various [post-processing](#post-processing-options) tasks. License [depends on the build](https://www.ffmpeg.org/legal.html)
 
-    There are bugs in ffmpeg that causes various issues when used alongside yt-dlp. Since ffmpeg is such an important dependency, we provide [custom builds](https://github.com/yt-dlp/FFmpeg-Builds#ffmpeg-static-auto-builds) with patches for some of these issues at [yt-dlp/FFmpeg-Builds](https://github.com/yt-dlp/FFmpeg-Builds). See [the readme](https://github.com/yt-dlp/FFmpeg-Builds#patches-applied) for details on the specific issues solved by these builds
+    There are bugs in ffmpeg that cause various issues when used alongside yt-dlp. Since ffmpeg is such an important dependency, we provide [custom builds](https://github.com/yt-dlp/FFmpeg-Builds#ffmpeg-static-auto-builds) with patches for some of these issues at [yt-dlp/FFmpeg-Builds](https://github.com/yt-dlp/FFmpeg-Builds). See [the readme](https://github.com/yt-dlp/FFmpeg-Builds#patches-applied) for details on the specific issues solved by these builds
     
     **Important**: What you need is ffmpeg *binary*, **NOT** [the python package of the same name](https://pypi.org/project/ffmpeg)
 
@@ -1897,6 +1897,9 @@ The following extractors use this feature:
 
 #### nflplusreplay
 * `type`: Type(s) of game replays to extract. Valid types are: `full_game`, `full_game_spanish`, `condensed_game` and `all_22`. You can use `all` to extract all available replay types, which is the default
+
+#### jiosaavn
+* `bitrate`: Audio bitrates to request. One or more of `16`, `32`, `64`, `128`, `320`. Default is `128,320`
 
 **Note**: These options may be changed/removed in the future without concern for backward compatibility
 

@@ -1,9 +1,9 @@
 ---
 title: spotube
-date: 2024-01-22T12:17:14+08:00
+date: 2024-01-23T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
 ---
 
 # [KRTirtho/spotube](https://github.com/KRTirtho/spotube)
@@ -314,4 +314,4 @@ If you are concerned, you can [read the reason of choosing this license](https:/
 1. [dart_discord_rpc](https://github.com/alexmercerind/dart_discord_rpc) - Discord Rich Presence for Flutter & Dart apps & games.
 </details>
 
-<div align="center"><h4>© Copyright Spotube 2023</h4></div>
+<div align="center"><h4>© Copyright Spotube 2024</h4></div>

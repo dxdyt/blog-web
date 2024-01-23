@@ -1,9 +1,9 @@
 ---
 title: AlphaCodium
-date: 2024-01-22T12:17:43+08:00
+date: 2024-01-23T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705503473943-177b27e60220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705503473943-177b27e60220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
 ---
 
 # [Codium-ai/AlphaCodium](https://github.com/Codium-ai/AlphaCodium)
