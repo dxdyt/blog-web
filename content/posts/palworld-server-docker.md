@@ -1,9 +1,9 @@
 ---
 title: palworld-server-docker
-date: 2024-01-23T12:18:04+08:00
+date: 2024-01-24T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704321200989-abe803f52491?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704321200989-abe803f52491?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703566757295-1a72f47a94de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703566757295-1a72f47a94de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [thijsvanloef/palworld-server-docker](https://github.com/thijsvanloef/palworld-server-docker)
@@ -51,7 +51,7 @@ services:
          - PGID=1000
          - PORT=8211 # Optional but recommended
          - PLAYERS=16 # Optional but recommended
-         - MULTITHREADING=false
+         - MULTITHREADING=true
          - RCON_ENABLED=true
          - RCON_PORT=25575
          - ADMIN_PASSWORD="adminPasswordHere"
@@ -61,10 +61,6 @@ services:
          # - SERVER_NAME="World of Pals"
       volumes:
          - ./palworld:/palworld/
-   rcon:
-      image: outdead/rcon:latest
-      entrypoint: ['/rcon', '-a', 'palworld:25575', '-p', 'adminPasswordHere']
-      profiles: ['rcon'] 
 ```
 
 ### Docker Run
@@ -94,6 +90,8 @@ It is highly recommended you set the following environment values before startin
 
 * PLAYERS
 * PORT
+* PUID
+* PGID
 
 | Variable         | Info                                                                                                                                                                                               | Default Values | Allowed Values |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|----------------|
@@ -111,6 +109,7 @@ It is highly recommended you set the following environment values before startin
 | UPDATE_ON_BOOT** | Update/Install the server when the docker container starts (THIS HAS TO BE ENABLED THE FIRST TIME YOU RUN THE CONTAINER)                                                                           | true           | true/false     |
 | RCON_ENABLED     | Enable RCON for the Palworld server                                                                                                                                                                | true           | true/false     |
 | RCON_PORT        | RCON port to connect to                                                                                                                                                                            | 25575          | 1024-65535     |
+| QUERY_PORT       | Query port used to communicate with Steam servers                                                                                                                                                  | 27015          | 1024-65535     |
 
 *highly recommended to set
 
@@ -118,29 +117,31 @@ It is highly recommended you set the following environment values before startin
 
 ### Game Ports
 
-| Port  | Info             | note                                           |
-|-------|------------------|------------------------------------------------|
-| 8211  | Game Port (UDP)  |                                                |
-| 27015 | Query Port (UDP) | You are not able to change this port as of now |
-| 25575 | RCON Port (TCP)  |                                                |
+| Port  | Info             |
+|-------|------------------|
+| 8211  | Game Port (UDP)  |
+| 27015 | Query Port (UDP) |
+| 25575 | RCON Port (TCP)  |
 
 ## Using RCON
 
 RCON is enabled by default for the palworld-server-docker image.
-Using the RCON commands is quite easy:
+Opening the RCON cli is quite easy:
 
 ```bash
-docker compose run --rm rcon "Server Command"
+docker exec -it palworld-server rcon-cli
 ```
+
+This will open a CLI that use can use to write commands to the Palworld Server.
 
 ### List of server commands
 
-| Command                           | Info                                                |
-|-----------------------------------|-----------------------------------------------------|
+| Command                          | Info                                                |
+|----------------------------------|-----------------------------------------------------|
 | Shutdown {Seconds} {MessageText} | The server is shut down after the number of Seconds |
 | DoExit                           | Force stop the server.                              |
 | Broadcast                        | Send message to all player in the server            |
-| KickPlayer {SteamID}t            | Kick player from the server..                       |
+| KickPlayer {SteamID}             | Kick player from the server..                       |
 | BanPlayer {SteamID}              | BAN player from the server.                         |
 | TeleportToPlayer {SteamID}       | Teleport to current location of target player.      |
 | TeleportToMe {SteamID}           | Target player teleport to your current location     |
@@ -149,6 +150,17 @@ docker compose run --rm rcon "Server Command"
 | Save                             | Save the world data.                                |
 
 For a full list of commands go to: [https://tech.palworldgame.com/server-commands](https://tech.palworldgame.com/server-commands)
+
+## Editing Server Settings
+
+When the server starts, a `PalWorldSettings.ini` file will be created in the following location: `<mount_folder>/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini`
+
+Any changes made there will be applied to the Server on next boot.
+
+Please keep in mind that the ENV variables will always overwrite the changes made to `PalWorldSettings.ini`.
+
+> [!TIP]
+> If the `<mount_folder>/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini` is empty, delete the file and restart the server, a new file with content will be created.
 
 ## Reporting Issues/Feature Requests
 

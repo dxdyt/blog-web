@@ -1,9 +1,9 @@
 ---
 title: demo-ai-app
-date: 2024-01-22T12:20:20+08:00
+date: 2024-01-24T12:19:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704158853213-1213fb88e02d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704158853213-1213fb88e02d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [sst/demo-ai-app](https://github.com/sst/demo-ai-app)

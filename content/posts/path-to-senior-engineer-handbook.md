@@ -1,9 +1,9 @@
 ---
 title: path-to-senior-engineer-handbook
-date: 2024-01-04T12:18:10+08:00
+date: 2024-01-24T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702472180420-0cf1f4240695?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702472180420-0cf1f4240695?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705323111671-8bb38301d9f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705323111671-8bb38301d9f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)
@@ -40,7 +40,8 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Strategize Your Career](https://open.substack.com/pub/strategizeyourcareer)
 - [Saiyan Growth Letter](https://open.substack.com/pub/tigerabrodi)
 - [Software Design: Tidy First?](https://open.substack.com/pub/tidyfirst)
-- [Dev Interrupted](https://open.substack.com/users/89759436-dev-interrupted?utm_source=mentions)
+- [Dev Interrupted](https://open.substack.com/users/89759436-dev-interrupted)
+- [Exaltitude Career Growth](https://www.exaltitude.io/newsletter)
 
 ### Staying up-to-date
 
@@ -132,7 +133,6 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Software Engineer's Guidebook](https://www.amazon.com/Software-Engineers-Guidebook-Navigating-positions/dp/908338182X)
 - [Engineers Survival Guide](https://www.amazon.com/Engineers-Survival-Guide-Facebook-Microsoft/dp/B09MBZBGFK)
 - [The Coding Career Handbook](https://learninpublic.org/)
-- [The Complete Software Developer's Career Guide](https://www.amazon.com/Complete-Software-Developers-Career-Guide-ebook/dp/B073X6GNJ1)
 - [Coders at Work: Reflections on the Craft of Programming](https://www.amazon.com/gp/product/1430219483)
 
 ### System Design
@@ -219,6 +219,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 
 ### Senior+ Soft skills
 
+- [Exaltitude Career Growth](https://www.youtube.com/@exaltitude)
 - [LeadDev](https://www.youtube.com/@LeadDev/videos)
 - [Lenny’s Podcast](https://www.youtube.com/@LennysPodcast)
 - [Charisma on Command](https://www.youtube.com/@Charismaoncommand)
@@ -252,12 +253,15 @@ This repo has all the resources you need to reach Senior Software Engineer!
 ## Communities
 
 - [Taro](https://www.jointaro.com/)
+- [Exaltitude Engineering Leadership Community](https://www.exaltitude.io/)
 - [Small Bets Community](https://dvassallo.gumroad.com/l/small-bets)
 - [Theo - T3](https://discord.com/invite/xHdCpcPHRE)
 - [Frontend Mentor](https://www.frontendmentor.io/)
 - [Kent C. Dodds Discord Community](https://kentcdodds.com/discord)
 - [Changelog Community](https://changelog.com/community)
 - [Scrimba Discord Community](https://scrimba.com/community)
+- [ladderly.io](https://ladderly.io/)
+- [Rands Leadership Community (Slack)](https://randsinrepose.com/welcome-to-rands-leadership-slack/)
 
 ## LinkedIn
 
@@ -298,6 +302,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Yangshun Tay](https://www.linkedin.com/in/yangshun/)
 - [David Anderson](https://www.linkedin.com/in/scarletink/)
 - [Alexandre Zajac](https://www.linkedin.com/in/alexandre-zajac/)
+- [Jean Lee](https://www.linkedin.com/in/jeanklee/)
 
 ## Other Catalogs
 

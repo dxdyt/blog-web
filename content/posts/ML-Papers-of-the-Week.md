@@ -1,9 +1,9 @@
 ---
 title: ML-Papers-of-the-Week
-date: 2024-01-23T12:18:14+08:00
+date: 2024-01-24T12:19:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703192163894-dbc99acc00d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703192163894-dbc99acc00d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705411394726-01f6920d5f46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705411394726-01f6920d5f46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [dair-ai/ML-Papers-of-the-Week](https://github.com/dair-ai/ML-Papers-of-the-Week)

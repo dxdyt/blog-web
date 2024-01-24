@@ -1,9 +1,9 @@
 ---
 title: docker-palworld-dedicated-server
-date: 2024-01-23T12:18:27+08:00
+date: 2024-01-24T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [jammsen/docker-palworld-dedicated-server](https://github.com/jammsen/docker-palworld-dedicated-server)
@@ -43,20 +43,21 @@ This includes a Palworld Dedicated Server based on Linux and Docker.
 5. After first start, stop the server, setup your config at `game/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini` and start it again
 
 ## Environment-Variables
-| Variable               | Describe                                                                                                                              | Default Value                                          | Allowed Value |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------- |
-| ALWAYS_UPDATE_ON_START | Updates the server on startup                                                                                                         | true                                                   | false/true    |
-| MAX_PLAYERS            | Maximum amout of players                                                                                                              | 32                                                     | 1-32          |
-| MULTITHREAD_ENABLED    | Sets options for "Improved multi-threaded CPU performance"                                                                            | true                                                   | false/true    |
-| COMMUNITY_SERVER       | Sets the server to a "Community-Server". If true, the server will appear in the Community-Serverlist. Needs PUBLIC_IP and PUBLIC_PORT | true                                                   | false/true    |
-| RCON_ENABLED           | RCON function - use ADMIN_PASSWORD to login after enabling it                                                                         | true                                                   | false/true    |
-| RCON_PORT              | RCON port to connect to                                                                                                               | 25575                                                  | 1024-65535    |
-| PUBLIC_IP              | Public ip, auto-detect if not specified, see COMMUNITY_SERVER                                                                         | 10.0.0.1                                               | ip address    |
-| PUBLIC_PORT            | Public port, auto-detect if not specified, see COMMUNITY_SERVER                                                                       | 8211                                                   | 1024-65535    |
-| SERVER_NAME            | Name of the server                                                                                                                    | jammsen-docker-generated-###RANDOM###                  | string        |
-| SERVER_DESCRIPTION     | Desription of the server                                                                                                              | Palworld-Dedicated-Server running in Docker by jammsen | string        |
-| SERVER_PASSWORD        | Password of the server                                                                                                                | serverPasswordHere                                     | string        |
-| ADMIN_PASSWORD         | Admin password of the server                                                                                                          | adminPasswordHere                                      | string        |
+| Variable               | Description                                                                                                                           | Default Value                                          | Allowed Value   |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ | --------------- |
+| ALWAYS_UPDATE_ON_START | Updates the server on startup                                                                                                         | true                                                   | false/true      |
+| MAX_PLAYERS            | Maximum amout of players                                                                                                              | 32                                                     | 1-32            |
+| MULTITHREAD_ENABLED    | Sets options for "Improved multi-threaded CPU performance"                                                                            | true                                                   | false/true      |
+| COMMUNITY_SERVER       | Sets the server to a "Community-Server". If true, the server will appear in the Community-Serverlist. Needs PUBLIC_IP and PUBLIC_PORT | true                                                   | false/true      |
+| RCON_ENABLED           | RCON function - use ADMIN_PASSWORD to login after enabling it - Will be listening on port 25575 inside the container                  | true                                                   | false/true      |
+| PUBLIC_IP              | Public ip, auto-detect if not specified, see COMMUNITY_SERVER                                                                         | 10.0.0.1                                               | ip address      |
+| PUBLIC_PORT            | Public port, auto-detect if not specified, see COMMUNITY_SERVER                                                                       | 8211                                                   | 1024-65535      |
+| SERVER_NAME            | Name of the server                                                                                                                    | jammsen-docker-generated-###RANDOM###                  | string          |
+| SERVER_DESCRIPTION     | Description of the server                                                                                                             | Palworld-Dedicated-Server running in Docker by jammsen | string          |
+| SERVER_PASSWORD        | Password of the server                                                                                                                | serverPasswordHere                                     | string          |
+| ADMIN_PASSWORD         | Admin password of the server                                                                                                          | adminPasswordHere                                      | string          |
+| BACKUP_ENABLED         | Backup function, creates backups in your `game` directory                                                                             | true                                                   | false/true      |
+| BACKUP_CRON_EXPRESSION | Needs a Cron-Expression - See https://github.com/aptible/supercronic#crontab-format or https://crontab-generator.org/                 | 0 * * * * (meaning every hour)                         | Cron-Expression |
 
 Look at https://tech.palworldgame.com/optimize-game-balance for more information and config-settings in `game/Pal/Saved/Config/LinuxServer/PalWorldSettings.ini`
 
@@ -67,7 +68,7 @@ Look at https://tech.palworldgame.com/optimize-game-balance for more information
 version: '3.9'
 services:
   palworld-dedicated-server:
-    build: .
+    #build: .
     container_name: palworld-dedicated-server
     image: jammsen/palworld-dedicated-server:latest
     restart: always
@@ -94,6 +95,8 @@ services:
       - SERVER_DESCRIPTION=Palworld-Dedicated-Server running in Docker by jammsen
       - SERVER_PASSWORD=serverPasswordHere
       - ADMIN_PASSWORD=adminPasswordHere
+      - BACKUP_ENABLED=true
+      - BACKUP_CRON_EXPRESSION=0 * * * *
     volumes:
       - ./game:/palworld
 ```
@@ -102,7 +105,7 @@ services:
 version: '3.9'
 services:
   palworld-dedicated-server:
-    build: .
+    #build: .
     container_name: palworld-dedicated-server
     image: jammsen/palworld-dedicated-server:latest
     restart: always
@@ -129,6 +132,8 @@ services:
       - SERVER_DESCRIPTION=Palworld-Dedicated-Server running in Docker by jammsen
       - SERVER_PASSWORD=serverPasswordHere
       - ADMIN_PASSWORD=adminPasswordHere
+      - BACKUP_ENABLED=true
+      - BACKUP_CRON_EXPRESSION=0 * * * *
     volumes:
       - ./game:/palworld
   

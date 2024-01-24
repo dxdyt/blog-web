@@ -1,9 +1,9 @@
 ---
 title: OpenGFW
-date: 2024-01-23T12:16:47+08:00
+date: 2024-01-24T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703282582605-b3287114e681?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703282582605-b3287114e681?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705326701287-346fc37a2c86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705326701287-346fc37a2c86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [apernet/OpenGFW](https://github.com/apernet/OpenGFW)

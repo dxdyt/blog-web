@@ -1,9 +1,9 @@
 ---
 title: coding-interview-university
-date: 2023-12-25T12:17:24+08:00
+date: 2024-01-24T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702651442150-a83d94731f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702651442150-a83d94731f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM0Nzc3NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703494395643-4f5a2dd57e9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703494395643-4f5a2dd57e9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
@@ -579,7 +579,7 @@ But don't forget to do coding problems from above while you learn!
     - [Computational Complexity: Section 1](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
     - [Computational Complexity: Section 2](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20two)
 - [ ] [Cheat sheet](http://bigocheatsheet.com/)
-- [ ] [[Review] Big-O notation in 5 minutes (video)](https://youtu.be/__vX2sjlpXU)
+- [ ] [[Review] Analyzing Algorithms (playlist) in 18 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZMxejjIyFHWa-4nKg6sdoIv)
 
 Well, that's about enough of that.
 
@@ -1209,7 +1209,7 @@ Graphs can be used to represent many problems in computer science, so this secti
 
 - [ ] Series of 2-3 minutes short subject videos (23 videos)
     - [Videos](https://www.youtube.com/watch?v=r4r1DZcx1cM&list=PLmVb1OknmNJuC5POdcDv5oCS7_OUkDgpj&index=22)
-- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (46 videos):
+- [ ] Series of 2-5 minutes short subject videos - Michael Sambol (48 videos):
     - [Videos](https://www.youtube.com/@MichaelSambol)
     - [Code Examples](https://github.com/msambol/dsa)
 - [ ] [Sedgewick Videos - Algorithms I](https://www.coursera.org/learn/algorithms-part1)

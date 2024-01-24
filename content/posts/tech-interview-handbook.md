@@ -1,9 +1,9 @@
 ---
 title: tech-interview-handbook
-date: 2024-01-02T12:18:43+08:00
+date: 2024-01-24T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703028408833-ff4033ce37ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703028408833-ff4033ce37ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703566757295-1a72f47a94de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703566757295-1a72f47a94de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)

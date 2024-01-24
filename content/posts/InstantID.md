@@ -1,9 +1,9 @@
 ---
 title: InstantID
-date: 2024-01-22T12:18:15+08:00
+date: 2024-01-24T12:18:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
 ---
 
 # [InstantID/InstantID](https://github.com/InstantID/InstantID)
@@ -12,28 +12,27 @@ featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c
 <a href='https://instantid.github.io/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href='https://arxiv.org/abs/2401.07519'><img src='https://img.shields.io/badge/Technique-Report-red'></a> 
 <a href='https://huggingface.co/papers/2401.07519'><img src='https://img.shields.io/static/v1?label=Paper&message=Huggingface&color=orange'></a> 
-
+<a href='https://huggingface.co/spaces/InstantX/InstantID'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a> 
+[![Replicate](https://replicate.com/zsxkib/instant-id/badge)](https://replicate.com/zsxkib/instant-id)
 
 **InstantID : Zero-shot Identity-Preserving Generation in Seconds**
 
-We are currently organizing code and pre-training checkpoints, which will be available soon! Please don't hesitate to star our work.
+InstantID is a new state-of-the-art tuning-free method to achieve ID-Preserving generation with only single image, supporting various downstream tasks.
 
-## Abstract
-
-There has been significant progress in personalized image synthesis with methods such as Textual Inversion, DreamBooth, and LoRA. Yet, their real-world applicability is hindered by high storage demands, lengthy fine-tuning processes, and the need for multiple reference images. Conversely, existing ID embedding-based methods, while requiring only a single forward inference, face challenges: they either necessitate extensive fine-tuning across numerous model parameters, lack compatibility with community pre-trained models, or fail to maintain high face fidelity. Addressing these limitations, we introduce InstantID, a powerful diffusion model-based solution. Our plug-and-play module adeptly handles image personalization in various styles using just a single facial image, while ensuring high fidelity.  To achieve this, we design a novel IdentityNet by imposing strong semantic and weak spatial conditions, integrating facial and landmark images with textual prompts to steer the image generation. InstantID demonstrates exceptional performance and efficiency, proving highly beneficial in real-world applications where identity preservation is paramount. Moreover, our work seamlessly integrates with popular pre-trained text-to-image diffusion models like SD1.5 and SDXL, serving as an adaptable plugin. Our codes and pre-trained checkpoints will be available at https://github.com/InstantID/InstantID.
-
-<img src='assets/famous.png'>
+<img src='assets/applications.png'>
 
 ## Release
-- [2024/1/15] 🔥 We release the technical report.
-- [2023/12/11] 🔥 We launch the project page.
+- [2024/1/23] 🔥 Our pipeline has been merged into [diffusers](https://github.com/huggingface/diffusers/blob/main/examples/community/pipeline_stable_diffusion_xl_instantid.py)!
+- [2024/1/22] 🔥 We release the [pre-trained checkpoints](https://huggingface.co/InstantX/InstantID), [inference code](https://github.com/InstantID/InstantID/blob/main/infer.py) and [gradio demo](https://huggingface.co/spaces/InstantX/InstantID)!
+- [2024/1/15] 🔥 We release the [technical report](https://arxiv.org/abs/2401.07519).
+- [2023/12/11] 🔥 We launch the [project page](https://instantid.github.io/).
 
 ## Demos
 
 ### Stylized Synthesis
 
 <p align="center">
-  <img src="assets/author.png">
+  <img src="assets/0.png">
 </p>
 
 ### Comparison with Previous Works
@@ -42,23 +41,149 @@ There has been significant progress in personalized image synthesis with methods
   <img src="assets/compare-a.png">
 </p>
 
-Comparison with existing tuning-free state-of-the-art techniques. Specifically, we compare with IP-Adapter (IPA), IP-Adapter-FaceID, and recent PhotoMaker. Among them, PhotoMaker needs to train the LoRA parameters of UNet. It can be seen that both PhotoMaker and IP-Adapter-FaceID achieves good fidelity, but there is obvious degradation of text control capabilities. In contrast, InstantID achieves better fidelity and retain good text editability (faces and styles blend better).
+Comparison with existing tuning-free state-of-the-art techniques. InstantID achieves better fidelity and retain good text editability (faces and styles blend better).
 
 <p align="center">
   <img src="assets/compare-c.png">
 </p>
 
-Comparison of InstantID with pre-trained character LoRAs. We can achieve competitive results as LoRAs without any training.
+Comparison with pre-trained character LoRAs. We don't need multiple images and still can achieve competitive results as LoRAs without any training.
 
 <p align="center">
   <img src="assets/compare-b.png">
 </p>
 
-Comparison of InstantID with InsightFace Swapper (also known as ROOP or Refactor). However, in non-realistic style, our work is more flexible on the integration of face and background.
+Comparison with InsightFace Swapper (also known as ROOP or Refactor). However, in non-realistic style, our work is more flexible on the integration of face and background.
 
-## Code
 
-We are working with diffusers team and will release the code before the end of January. Starring our work will definitely speed up the process. No kidding!
+## Download
+
+You can directly download the model from [Huggingface](https://huggingface.co/InstantX/InstantID).
+You also can download the model in python script:
+
+```python
+from huggingface_hub import hf_hub_download
+hf_hub_download(repo_id="InstantX/InstantID", filename="ControlNetModel/config.json", local_dir="./checkpoints")
+hf_hub_download(repo_id="InstantX/InstantID", filename="ControlNetModel/diffusion_pytorch_model.safetensors", local_dir="./checkpoints")
+hf_hub_download(repo_id="InstantX/InstantID", filename="ip-adapter.bin", local_dir="./checkpoints")
+```
+
+If you cannot access to Huggingface, you can use [hf-mirror](https://hf-mirror.com/) to download models.
+```python
+export HF_ENDPOINT=https://hf-mirror.com
+huggingface-cli download --resume-download InstantX/InstantID --local-dir checkpoints
+```
+
+For face encoder, you need to manually download via this [URL](https://github.com/deepinsight/insightface/issues/1896#issuecomment-1023867304) to `models/antelopev2` as the default link is invalid. Once you have prepared all models, the folder tree should be like:
+
+```
+  .
+  ├── models
+  ├── checkpoints
+  ├── ip_adapter
+  ├── pipeline_stable_diffusion_xl_instantid.py
+  └── README.md
+```
+
+## Usage
+
+```python
+# !pip install opencv-python transformers accelerate insightface
+import diffusers
+from diffusers.utils import load_image
+from diffusers.models import ControlNetModel
+
+import cv2
+import torch
+import numpy as np
+from PIL import Image
+
+from insightface.app import FaceAnalysis
+from pipeline_stable_diffusion_xl_instantid import StableDiffusionXLInstantIDPipeline, draw_kps
+
+# prepare 'antelopev2' under ./models
+app = FaceAnalysis(name='antelopev2', root='./', providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+app.prepare(ctx_id=0, det_size=(640, 640))
+
+# prepare models under ./checkpoints
+face_adapter = f'./checkpoints/ip-adapter.bin'
+controlnet_path = f'./checkpoints/ControlNetModel'
+
+# load IdentityNet
+controlnet = ControlNetModel.from_pretrained(controlnet_path, torch_dtype=torch.float16)
+
+base_model = 'wangqixun/YamerMIX_v8'  # from https://civitai.com/models/84040?modelVersionId=196039
+pipe = StableDiffusionXLInstantIDPipeline.from_pretrained(
+    base_model,
+    controlnet=controlnet,
+    torch_dtype=torch.float16
+)
+pipe.cuda()
+
+# load adapter
+pipe.load_ip_adapter_instantid(face_adapter)
+```
+
+Then, you can customized your own face images
+
+```python
+# load an image
+face_image = load_image("./examples/yann-lecun_resize.jpg")
+
+# prepare face emb
+face_info = app.get(cv2.cvtColor(np.array(face_image), cv2.COLOR_RGB2BGR))
+face_info = sorted(face_info, key=lambda x:(x['bbox'][2]-x['bbox'][0])*x['bbox'][3]-x['bbox'][1])[-1]  # only use the maximum face
+face_emb = face_info['embedding']
+face_kps = draw_kps(face_image, face_info['kps'])
+
+# prompt
+prompt = "film noir style, ink sketch|vector, male man, highly detailed, sharp focus, ultra sharpness, monochrome, high contrast, dramatic shadows, 1940s style, mysterious, cinematic"
+negative_prompt = "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful"
+
+# generate image
+pipe.set_ip_adapter_scale(0.8)
+image = pipe(
+    prompt,
+    image_embeds=face_emb,
+    image=face_kps,
+    controlnet_conditioning_scale=0.8,
+).images[0]
+```
+
+## Start a local gradio demo
+Run the following command:
+
+```python
+python gradio_demo/app.py
+```
+
+## Usage Tips
+- For higher similarity, increase the weight of controlnet_conditioning_scale (IdentityNet) and ip_adapter_scale (Adapter).
+- For over-saturation, decrease the ip_adapter_scale. If not work, decrease controlnet_conditioning_scale.
+- For higher text control ability, decrease ip_adapter_scale.
+- For specific styles, choose corresponding base model makes differences.
+- We have not supported multi-person yet, will only use the largest face as reference pose.
+
+## Resources
+
+### Gradio Demo
+- [Huggingface Space](https://huggingface.co/spaces/InstantX/InstantID)
+- [instantid.org](https://instantid.org/)
+
+### Replicate Demo
+- [zsxkib/instant-id](https://replicate.com/zsxkib/instant-id)
+
+### ComfyUI
+- [ZHO-ZHO-ZHO/ComfyUI-InstantID](https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID)
+- [huxiuhan/ComfyUI-InstantID](https://github.com/huxiuhan/ComfyUI-InstantID)
+
+### Windows
+- [sdbds/InstantID-for-windows](https://github.com/sdbds/InstantID-for-windows)
+
+## Acknowledgements
+- Our work is highly inspired by [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) and [ControlNet](https://github.com/lllyasviel/ControlNet). Thanks for their great works!
+- Thanks [ZHO-ZHO-ZHO](https://github.com/ZHO-ZHO-ZHO), [huxiuhan](https://github.com/huxiuhan), [sdbds](https://github.com/sdbds), [zsxkib](https://replicate.com/zsxkib) for their generous contributions.
+- Thanks to the [HuggingFace](https://github.com/huggingface) gradio team for their free GPU support!
 
 ## Disclaimer
 This project is released under [Apache License](https://github.com/InstantID/InstantID?tab=Apache-2.0-1-ov-file#readme) and aims to positively impact the field of AI-driven image generation. Users are granted the freedom to create images using this tool, but they are obligated to comply with local laws and utilize it responsibly. The developers will not assume any responsibility for potential misuse by users.
