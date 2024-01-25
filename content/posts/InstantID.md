@@ -1,9 +1,9 @@
 ---
 title: InstantID
-date: 2024-01-24T12:18:37+08:00
+date: 2024-01-25T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698795762966-c446e6c1120c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703442701061-a5d0bdfdac9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703442701061-a5d0bdfdac9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
 ---
 
 # [InstantID/InstantID](https://github.com/InstantID/InstantID)
@@ -12,8 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1698795762966-c446e6c112
 <a href='https://instantid.github.io/'><img src='https://img.shields.io/badge/Project-Page-green'></a> 
 <a href='https://arxiv.org/abs/2401.07519'><img src='https://img.shields.io/badge/Technique-Report-red'></a> 
 <a href='https://huggingface.co/papers/2401.07519'><img src='https://img.shields.io/static/v1?label=Paper&message=Huggingface&color=orange'></a> 
-<a href='https://huggingface.co/spaces/InstantX/InstantID'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a> 
-[![Replicate](https://replicate.com/zsxkib/instant-id/badge)](https://replicate.com/zsxkib/instant-id)
+<a href='https://huggingface.co/spaces/InstantX/InstantID'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
 
 **InstantID : Zero-shot Identity-Preserving Generation in Seconds**
 
@@ -28,6 +27,9 @@ InstantID is a new state-of-the-art tuning-free method to achieve ID-Preserving 
 - [2023/12/11] 🔥 We launch the [project page](https://instantid.github.io/).
 
 ## Demos
+<a href='https://huggingface.co/spaces/InstantX/InstantID'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a> 
+[![Replicate](https://replicate.com/zsxkib/instant-id/badge)](https://replicate.com/zsxkib/instant-id)
+[![ModelScope](https://img.shields.io/badge/modelscope-InstantID-blue)](https://modelscope.cn/studios/instantx/InstantID/summary)
 
 ### Stylized Synthesis
 
@@ -141,13 +143,36 @@ prompt = "film noir style, ink sketch|vector, male man, highly detailed, sharp f
 negative_prompt = "ugly, deformed, noisy, blurry, low contrast, realism, photorealistic, vibrant, colorful"
 
 # generate image
-pipe.set_ip_adapter_scale(0.8)
 image = pipe(
     prompt,
     image_embeds=face_emb,
     image=face_kps,
     controlnet_conditioning_scale=0.8,
+    ip_adapter_scale=0.8,
 ).images[0]
+```
+
+## Speed Up with LCM-LoRA
+
+Our work is compatible with [LCM-LoRA](https://github.com/luosiallen/latent-consistency-model). First, download the model.
+
+```python
+from huggingface_hub import hf_hub_download
+hf_hub_download(repo_id="latent-consistency/lcm-lora-sdxl", filename="pytorch_lora_weights.safetensors", local_dir="./checkpoints")
+```
+
+To use it, you just need to load it and infer with a small num_inference_steps. Note that it is recommendated to set guidance_scale between [0, 1].
+```python
+from diffusers import LCMScheduler
+
+lcm_lora_path = "./checkpoints/pytorch_lora_weights.safetensors"
+
+pipe.load_lora_weights(lcm_lora_path)
+pipe.fuse_lora()
+pipe.scheduler = LCMScheduler.from_config(pipe.scheduler.config)
+
+num_inference_steps = 10
+guidance_scale = 0
 ```
 
 ## Start a local gradio demo
@@ -164,10 +189,9 @@ python gradio_demo/app.py
 - For specific styles, choose corresponding base model makes differences.
 - We have not supported multi-person yet, will only use the largest face as reference pose.
 
-## Resources
+## Community Resources
 
 ### Gradio Demo
-- [Huggingface Space](https://huggingface.co/spaces/InstantX/InstantID)
 - [instantid.org](https://instantid.org/)
 
 ### Replicate Demo
@@ -184,9 +208,15 @@ python gradio_demo/app.py
 - Our work is highly inspired by [IP-Adapter](https://github.com/tencent-ailab/IP-Adapter) and [ControlNet](https://github.com/lllyasviel/ControlNet). Thanks for their great works!
 - Thanks [ZHO-ZHO-ZHO](https://github.com/ZHO-ZHO-ZHO), [huxiuhan](https://github.com/huxiuhan), [sdbds](https://github.com/sdbds), [zsxkib](https://replicate.com/zsxkib) for their generous contributions.
 - Thanks to the [HuggingFace](https://github.com/huggingface) gradio team for their free GPU support!
+- Thanks to the [ModelScope](https://github.com/modelscope/modelscope) team for their free GPU support!
 
 ## Disclaimer
-This project is released under [Apache License](https://github.com/InstantID/InstantID?tab=Apache-2.0-1-ov-file#readme) and aims to positively impact the field of AI-driven image generation. Users are granted the freedom to create images using this tool, but they are obligated to comply with local laws and utilize it responsibly. The developers will not assume any responsibility for potential misuse by users.
+The code of InstantID is released under [Apache License](https://github.com/InstantID/InstantID?tab=Apache-2.0-1-ov-file#readme) for both academic and commercial usage. **However, both manual-downloading and auto-downloading face models from insightface are for non-commercial research purposes only** accoreding to their [license](https://github.com/deepinsight/insightface?tab=readme-ov-file#license). Users are granted the freedom to create images using this tool, but they are obligated to comply with local laws and utilize it responsibly. The developers will not assume any responsibility for potential misuse by users.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=InstantID/InstantID&type=Date)](https://star-history.com/#InstantID/InstantID&Date)
+
 
 ## Cite
 If you find InstantID useful for your research and applications, please cite us using this BibTeX:

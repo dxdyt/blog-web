@@ -1,9 +1,9 @@
 ---
 title: self-rewarding-lm-pytorch
-date: 2024-01-24T12:19:40+08:00
+date: 2024-01-25T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705113166863-1eb65346628a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705113166863-1eb65346628a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
 ---
 
 # [lucidrains/self-rewarding-lm-pytorch](https://github.com/lucidrains/self-rewarding-lm-pytorch)
@@ -32,5 +32,27 @@ May generalize the framework so one can add <a href="https://arxiv.org/abs/2401.
     eprint  = {2401.10020},
     archivePrefix = {arXiv},
     primaryClass = {cs.CL}
+}
+```
+
+```bibtex
+@article{Chen2024SelfPlayFC,
+    title   = {Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models},
+    author  = {Zixiang Chen and Yihe Deng and Huizhuo Yuan and Kaixuan Ji and Quanquan Gu},
+    journal = {ArXiv},
+    year    = {2024},
+    volume  = {abs/2401.01335},
+    url     = {https://api.semanticscholar.org/CorpusID:266725672}
+}
+```
+
+```bibtex
+@article{Rafailov2023DirectPO,
+    title   = {Direct Preference Optimization: Your Language Model is Secretly a Reward Model},
+    author  = {Rafael Rafailov and Archit Sharma and Eric Mitchell and Stefano Ermon and Christopher D. Manning and Chelsea Finn},
+    journal = {ArXiv},
+    year    = {2023},
+    volume  = {abs/2305.18290},
+    url     = {https://api.semanticscholar.org/CorpusID:258959321}
 }
 ```

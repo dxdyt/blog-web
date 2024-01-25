@@ -1,21 +1,20 @@
 ---
 title: ml-engineering
-date: 2023-12-06T12:18:25+08:00
+date: 2024-01-25T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700943872245-569730a1714b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700943872245-569730a1714b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704120103349-f9db80e2cd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704120103349-f9db80e2cd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
 
-# Machine Learning Engineering Online Book
+# Machine Learning Engineering Open Book
 
 An open collection of methodologies to help with successful training of large language models and multi-modal models.
 
 This is a technical material suitable for LLM/VLM training engineers and operators. That is the content here contains lots of scripts and copy-n-paste commands to enable you to quickly address your needs.
 
-This repo is an ongoing brain dump of my experiences training Large Language Models (LLM) (and VLMs); a lot of the know-how I acquired while training the open-source [BLOOM-176B](https://huggingface.co/bigscience/bloom) model in 2022 and
-[IDEFICS-80B](https://huggingface.co/HuggingFaceM4/idefics-80b-instruct) multi-modal model in 2023. Currently, I'm working on developing/training open-source Retrieval Augmented models at [Contextual.AI](https://contextual.ai/).
+This repo is an ongoing brain dump of my experiences training Large Language Models (LLM) (and VLMs); a lot of the know-how I acquired while training the open-source [BLOOM-176B](https://huggingface.co/bigscience/bloom) model in 2022 and [IDEFICS-80B](https://huggingface.co/HuggingFaceM4/idefics-80b-instruct) multi-modal model in 2023. Currently, I'm working on developing/training open-source Retrieval Augmented models at [Contextual.AI](https://contextual.ai/).
 
 I've been compiling this information mostly for myself so that I could quickly find solutions I have already researched in the past and which have worked, but as usual I'm happy to share these with the wider ML community.
 
@@ -34,7 +33,7 @@ My apologies if the layout is a bit unstable while I'm writing new chapters and 
 
 1. **[Network](./network/)** - intra-node and inter-node connectivity, calculating bandwidth requirements
 
-1. **[IO](./io/)** - local and distributed disks and filesystems
+1. **[Storage](./storage/)** - local and distributed disks and file systems
 
 1. **[CPU](./cpu/)** - cpus, affinities (WIP)
 
@@ -54,7 +53,7 @@ My apologies if the layout is a bit unstable while I'm writing new chapters and 
 
 **Part 4. Operating**
 
-1. **[SLURM](./slurm/)**
+1. **[SLURM](orchestration/slurm)**
 
 1. **[Training hyper-parameters and model initializations](./hparams/)**
 
@@ -93,9 +92,14 @@ Tools:
 Guides:
 
 - [debugging pytorch applications](./debug/pytorch.md) - quick copy-n-paste solutions to resolve hanging or breaking pytorch applications
-- [slurm for users](./slurm/users.md) - a slurm cheatsheet and tricks
+- [slurm for users](orchestration/slurm/users.md) - a slurm cheatsheet and tricks
 - [make tiny models/datasets/tokenizers](./transformers/make-tiny-models.md)
 - [LLM/VLM chronicles collection](https://github.com/stas00/ml-engineering/tree/master/resources#publicly-available-training-llmvlm-logbooks)
+
+
+## Book Building
+
+If you want to build a PDF, check links, etc. See [Book building](./build/)
 
 
 ## Gratitude
@@ -114,10 +118,13 @@ If you found a bug, typo or would like to propose an improvement please don't he
 The content of this site is distributed under [Attribution-ShareAlike 4.0 International](./LICENSE-CC-BY-SA).
 
 
+
+
+
 ## My repositories map
 
 ✔ **Machine Learning:**
- [ML Engineering](https://github.com/stas00/ml-engineering) |
+ [ML Engineering Open Book](https://github.com/stas00/ml-engineering) |
  [ML ways](https://github.com/stas00/ml-ways) |
  [Porting](https://github.com/stas00/porting)
 

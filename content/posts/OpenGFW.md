@@ -1,9 +1,9 @@
 ---
 title: OpenGFW
-date: 2024-01-24T12:17:07+08:00
+date: 2024-01-25T12:16:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705326701287-346fc37a2c86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705326701287-346fc37a2c86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703442701061-a5d0bdfdac9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703442701061-a5d0bdfdac9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
 ---
 
 # [apernet/OpenGFW](https://github.com/apernet/OpenGFW)
@@ -13,6 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1705326701287-346fc37a2c
 [![License][1]][2]
 
 [1]: https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg
+
 [2]: LICENSE
 
 **[中文文档](README.zh.md)**
@@ -29,11 +30,11 @@ Linux that's in many ways more powerful than the real thing. It's cyber sovereig
 ## Features
 
 - Full IP/TCP reassembly, various protocol analyzers
-  - HTTP, TLS, DNS, SSH, and many more to come
-  - "Fully encrypted traffic" detection for Shadowsocks,
-    etc. (https://gfw.report/publications/usenixsecurity23/data/paper/paper.pdf)
-  - Trojan (proxy protocol) detection based on Trojan-killer (https://github.com/XTLS/Trojan-killer)
-  - [WIP] Machine learning based traffic classification
+    - HTTP, TLS, DNS, SSH, and many more to come
+    - "Fully encrypted traffic" detection for Shadowsocks,
+      etc. (https://gfw.report/publications/usenixsecurity23/data/paper/paper.pdf)
+    - Trojan (proxy protocol) detection based on Trojan-killer (https://github.com/XTLS/Trojan-killer)
+    - [WIP] Machine learning based traffic classification
 - Full IPv4 and IPv6 support
 - Flow-based multicore load balancing
 - Connection offloading
@@ -82,8 +83,7 @@ workers:
 
 ### Example rules
 
-Documentation on all supported protocols and what field each one has is not yet ready. For now, you have to check the
-code under "analyzer" directory directly.
+[Analyzer properties](docs/Analyzers.md)
 
 For syntax of the expression language, please refer
 to [Expr Language Definition](https://expr-lang.org/docs/language-definition).

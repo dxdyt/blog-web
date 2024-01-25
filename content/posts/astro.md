@@ -1,14 +1,14 @@
 ---
 title: astro
-date: 2023-11-03T12:16:58+08:00
+date: 2024-01-25T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697971741569-b9009f2847cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704180479458-dbc66edced2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704180479458-dbc66edced2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
 ---
 
 # [withastro/astro](https://github.com/withastro/astro)
 
-![Build the web you want](.github/assets/banner.png 'Build the web you want')
+![Build the web you want](.github/assets/banner.jpg 'Build the web you want')
 
 <p align="center">
   <br/>
@@ -17,6 +17,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1697971741569-b9009f2847
   powerful developer experience meets lightweight output.
   <br/><br/>
 </p>
+
+<div align="center">
+
+![Build Status](https://github.com/withastro/astro/actions/workflows/ci.yml/badge.svg)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/withastro/astro/blob/main/LICENSE)
+[![npm version](https://badge.fury.io/js/astro.svg)](https://badge.fury.io/js/astro)
+
+</div>
 
 ## Install
 
@@ -70,7 +78,6 @@ Join us on [Discord](https://astro.build/chat) to meet other maintainers. We'll 
 | [@astrojs/tailwind](packages/integrations/tailwind)                                        | [![astro version](https://img.shields.io/npm/v/@astrojs/tailwind.svg?label=%20)](packages/integrations/tailwind/CHANGELOG.md)                                        |
 | [@astrojs/alpinejs](packages/integrations/alpinejs)                                        | [![astro version](https://img.shields.io/npm/v/@astrojs/alpinejs.svg?label=%20)](packages/integrations/alpinejs/CHANGELOG.md)                                        |
 | [@astrojs/mdx](packages/integrations/mdx)                                                  | [![astro version](https://img.shields.io/npm/v/@astrojs/mdx.svg?label=%20)](packages/integrations/mdx/CHANGELOG.md)                                                  |
-| [@astrojs/prefetch](packages/integrations/prefetch)                                        | [![astro version](https://img.shields.io/npm/v/@astrojs/prefetch.svg?label=%20)](packages/integrations/prefetch/CHANGELOG.md)                                        |
 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/6178/badge)](https://bestpractices.coreinfrastructure.org/projects/6178)
 
