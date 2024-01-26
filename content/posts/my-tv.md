@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-01-14T12:16:29+08:00
+date: 2024-01-26T12:17:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704857993895-e8fe6da58629?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704857993895-e8fe6da58629?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706059923775-31f39dfcb1f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706059923775-31f39dfcb1f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)
@@ -23,6 +23,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1704857993895-e8fe6da586
 ![image](./screenshots/img_1.png)
 
 ## 更新日志
+
+### v1.4.7（高版本专用）
+
+* 修复部分用户cctv13播放过程中卡住的问题
+* 调整cctv的频道顺序
+
+### v1.4.5（高版本专用）
+
+* 数字选台配置
+
+### v1.4.4（通用版）
+
+* 优化图标显示
+* 增加换台反转
 
 ### v1.3.3
 

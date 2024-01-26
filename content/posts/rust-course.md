@@ -1,9 +1,9 @@
 ---
 title: rust-course
-date: 2023-09-02T12:14:53+08:00
+date: 2024-01-26T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690692322953-fb0f543c6658?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690692322953-fb0f543c6658?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704795718500-e280f5aaac2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704795718500-e280f5aaac2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
 ---
 
 # [sunface/rust-course](https://github.com/sunface/rust-course)
@@ -87,6 +87,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1690692322953-fb0f543c66
 <table>
     <tr>
         <td align="center">
+            <a href="https://github.com/SUN-LG">
+                <img src="https://avatars.githubusercontent.com/u/15073915?v=4" width="100px" alt=""/>
+                <br />
+                <sub><b>孙立刚</b></sub>
+            </a>
+        </td>
+        <td align="center">
             <a href="https://github.com/JesseAtSZ">
                 <img src="https://avatars.githubusercontent.com/u/35264598?v=4?s=100" width="100px" alt=""/>
                 <br />
@@ -105,13 +112,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1690692322953-fb0f543c66
                 <img src="https://avatars.githubusercontent.com/u/10138791?v=4?s=100" width="100px" alt=""/>
                 <br />
                 <sub><b>1132719438</b></sub>
-            </a>
-        </td>
-        <td align="center">
-            <a href="https://github.com/zongzi531">
-                <img src="https://avatars.githubusercontent.com/u/22429236?v=4?s=100" width="100px" alt=""/>
-                <br />
-                <sub><b>zongzi531</b></sub>
             </a>
         </td>
     </tr>

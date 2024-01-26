@@ -1,9 +1,9 @@
 ---
 title: GFPGAN
-date: 2023-08-24T12:14:57+08:00
+date: 2024-01-26T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1623804991279-6b8db3145fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1623804991279-6b8db3145fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI4NTA0NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706059923775-31f39dfcb1f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706059923775-31f39dfcb1f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
 ---
 
 # [TencentARC/GFPGAN](https://github.com/TencentARC/GFPGAN)
