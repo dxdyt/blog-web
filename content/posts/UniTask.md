@@ -1,9 +1,9 @@
 ---
 title: UniTask
-date: 2023-10-14T12:17:08+08:00
+date: 2024-01-27T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694875294031-169b75f14a2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694875294031-169b75f14a2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706148949292-709fe87bd2f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706148949292-709fe87bd2f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [Cysharp/UniTask](https://github.com/Cysharp/UniTask)
@@ -61,7 +61,7 @@ For advanced tips, see blog post: [Extends UnityWebRequest via async decorator p
 
 Getting started
 ---
-Install via [UPM package](#upm-package) or asset package(`UniTask.*.*.*.unitypackage`) available in [UniTask/releases](https://github.com/Cysharp/UniTask/releases) page.
+Install via [UPM package](#upm-package) with git reference or asset package(`UniTask.*.*.*.unitypackage`) available in [UniTask/releases](https://github.com/Cysharp/UniTask/releases).
 
 ```csharp
 // extension awaiter/methods can be used by this namespace
@@ -305,7 +305,7 @@ public class MyBehaviour : MonoBehaviour
 
 When cancellation is detected, all methods throw `OperationCanceledException` and propagate upstream. When exception(not limited to `OperationCanceledException`) is not handled in async method, it is propagated finally to `UniTaskScheduler.UnobservedTaskException`. The default behaviour of received unhandled exception is to write log as exception. Log level can be changed using `UniTaskScheduler.UnobservedExceptionWriteLogType`. If you want to use custom behaviour, set an action to `UniTaskScheduler.UnobservedTaskException.`
 
-Andalso `OperationCanceledException` is a special exception, this is silently ignored at `UnobservedTaskException`.
+And also `OperationCanceledException` is a special exception, this is silently ignored at `UnobservedTaskException`.
 
 If you want to cancel behaviour in an async UniTask method, throw `OperationCanceledException` manually.
 
@@ -346,6 +346,18 @@ if (isCanceled)
 
 Note: Only suppress throws if you call directly into the most source method. Otherwise, the return value will be converted, but the entire pipeline will not suppress throws.
 
+Some features that use Unity's player loop, such as `UniTask.Yield` and `UniTask.Delay` etc, determines CancellationToken state on the player loop. 
+This means it does not cancel immediately upon `CancellationToken` fired. 
+
+If you want to change this behaviour, the cancellation to be immediate, set the `cancelImmediately` flag as an argument.
+
+```csharp
+await UniTask.Yield(cancellationToken, cancelImmediately: true);
+```
+
+Note: Setting `cancelImmediately` to true and detecting an immediate cancellation is more costly than the default behavior.
+This is because it uses `CancellationToken.Register`; it is heavier than checking CancellationToken on the player loop.
+
 Timeout handling
 ---
 Timeout is a variation of cancellation. You can set timeout by `CancellationTokenSouce.CancelAfterSlim(TimeSpan)` and pass CancellationToken to async methods.
@@ -373,7 +385,7 @@ If you want to use timeout with other source of cancellation, use `CancellationT
 
 ```csharp
 var cancelToken = new CancellationTokenSource();
-cancelButton.onClick.AddListener(()=>
+cancelButton.onClick.AddListener(() =>
 {
     cancelToken.Cancel(); // cancel from button click.
 });
@@ -698,7 +710,7 @@ Unity 2020.2 supports C# 8.0 so you can use `await foreach`. This is the new Upd
 
 ```csharp
 // Unity 2020.2, C# 8.0
-await foreach (var _ in UniTaskAsyncEnumerable.EveryUpdate(token))
+await foreach (var _ in UniTaskAsyncEnumerable.EveryUpdate().WithCancellation(token))
 {
     Debug.Log("Update() " + Time.frameCount);
 }
@@ -708,10 +720,10 @@ In a C# 7.3 environment, you can use the `ForEachAsync` method to work in almost
 
 ```csharp
 // C# 7.3(Unity 2018.3~)
-await UniTaskAsyncEnumerable.EveryUpdate(token).ForEachAsync(_ =>
+await UniTaskAsyncEnumerable.EveryUpdate().ForEachAsync(_ =>
 {
     Debug.Log("Update() " + Time.frameCount);
-});
+}, token);
 ```
 
 UniTaskAsyncEnumerable implements asynchronous LINQ, similar to LINQ in `IEnumerable<T>` or Rx in `IObservable<T>`. All standard LINQ query operators can be applied to asynchronous streams. For example, the following code shows how to apply a Where filter to a button-click asynchronous stream that runs once every two clicks.

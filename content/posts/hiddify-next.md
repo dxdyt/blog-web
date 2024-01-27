@@ -1,9 +1,9 @@
 ---
 title: hiddify-next
-date: 2024-01-25T12:17:06+08:00
+date: 2024-01-27T12:16:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703432931202-0706a656c8bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703432931202-0706a656c8bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1629806591623-dc5b6102dfc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1629806591623-dc5b6102dfc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next)
@@ -67,7 +67,7 @@ Vless, Vmess, Reality, TUIC, Hysteria, SSH etc.
 
 📱 Available on [Google Play](https://play.google.com/store/apps/details?id=app.hiddify.com)
 
-## Download
+## 🔗 Download
 
 <div align=left>
 <table>
@@ -107,7 +107,7 @@ Vless, Vmess, Reality, TUIC, Hysteria, SSH etc.
 
 </div>
 
-## Installation and tutorials
+## ⚙️ Installation and tutorials
 
 **Find tutorial information on our wiki page by clicking on image below.**
 
@@ -118,7 +118,7 @@ Vless, Vmess, Reality, TUIC, Hysteria, SSH etc.
 
 </div>
 
-## Translations 🌎
+## 🌎 Translations
 
 <div align=center>
     
@@ -127,7 +127,7 @@ Vless, Vmess, Reality, TUIC, Hysteria, SSH etc.
 
 Improve existing languages or add new ones by manually editing the JSON files located in `/assets/translations` or by using the [Inlang online editor](https://inlang.com/editor/github.com/hiddify/hiddify-next).
 
-## Acknowledgements
+## ✏️ Acknowledgements
 
 We would like to express our sincere appreciation to the contributors of the following projects, whose robust foundation and innovative features have significantly enhanced the success and functionality of this project.
 
@@ -140,7 +140,7 @@ We would like to express our sincere appreciation to the contributors of the fol
 - [Vazirmatn Font by Saber Rastikerdar](https://github.com/rastikerdar/vazirmatn)
 - [Others](./pubspec.yaml)
 
-## Donation and Support
+## 🎯 Donation and Support
 
 The easiest way to support us is to click on the star (⭐) at the top of this page.
 
@@ -152,7 +152,7 @@ The easiest way to support us is to click on the star (⭐) at the top of this p
 
 We also need financial support for our services. All of our activities are done voluntarily and financial support will be spent on the development of the project. You can view our support addresses [here](https://github.com/hiddify/hiddify-server/wiki/support).
 
-## Collaboration and Contact Information
+## 👩‍🏫 Collaboration and Contact Information
 
 Hiddify Next is a community driven project. If you're interested in contributing, please read the [contribution guidelines](./CONTRIBUTING.md). We would specially appreciate any help we can get in these areas: **Flutter, Go, iOS development (Swift), Android development (Kotlin).**
 

@@ -1,9 +1,9 @@
 ---
 title: Modern-CPP-Programming
-date: 2023-12-30T12:17:19+08:00
+date: 2024-01-27T12:15:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702591185810-6e4402a53ca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702591185810-6e4402a53ca7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [federico-busato/Modern-CPP-Programming](https://github.com/federico-busato/Modern-CPP-Programming)
@@ -164,7 +164,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 
 **[10. Templates and Meta-programming II -  Class Templates and SFINAE](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/10.Templates_II.pdf)**
 
-* **Class Template**: Class specialization, Template class constructor, Constructor template automatic deduction (CTAD)
+* **Class Template**: Class specialization, Class template constructor, Constructor template automatic deduction (CTAD)
 * **Class Template - Advanced Concepts**: Class + Function - Specialization, Dependent Names - `typename` and `template` Keywords, Class template hierarchy and `using`, `friend` Keyword, Template Template Arguments
 * **Template Meta-Programming**
 * **SFINAE: Substitution Failure Is Not An Error**: Function SFINAE, Class SFINAE, Class + Function SFINAE
@@ -234,7 +234,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 * **Math Libraries**
 * **Random Number**: Basic Concepts, C++ `<random>`, Seed, PRNG period and quality, Distribution, Quasi-random
 * **Time Measuring**: Wall-Clock time, User time, System time
-* **Std Template Classes**: `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`, `std::stacktrace`
+* **Std Class Templates**: `std::pair`, `std::tuple`, `std::variant`, `std::optional`, `std::any`, `std::stacktrace`
 * **Filesystem Library**: Query methods, Modify methods
 
 **[17. Containers, Iterators, and Algorithms](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/17.Iterators_Containers_Alg.pdf)**
@@ -287,7 +287,7 @@ If you enjoy the course or you find it useful, please add a **Star**
 **[22. Optimization III - Non-Coding Optimizations and Benchmarking](https://github.com/federico-busato/Modern-CPP-Programming/blob/master/22.Optimization_III.pdf)**
 
 * **Compiler Optimizations**: About the compiler, Compiler optimization flags, Linker optimization flags, Architecture flags, Help the Compiler to produce better code, Profile guided optimization (PGO), Post-Processing Binary Optimizer
-* **Compiler Transformation Techniques**
+* **Compiler Transformation Techniques**: Basic Transformations, Loop unswitching, Loop fusion, Loop fission, Loop interchange, Loop tiling
 * **Libraries and Data Structures**: External libraries
 * **Performance Benchmarking**: What to test?, Workload/Dataset quality, Cache behavior, Stable CPU performance, Program, Multi-threads considerations, Program memory layout, Measurement overhead, Compiler optimizations, Metric evaluation
 * **Profiling**: `gprof`, `uftrace`, `callgrind`, `cachegrind`, `perf` Linux profiler

@@ -1,9 +1,9 @@
 ---
 title: Azure-zero-to-hero
-date: 2024-01-26T12:16:56+08:00
+date: 2024-01-27T12:17:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704094516867-d8ff1d9b71cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704094516867-d8ff1d9b71cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703868673582-becc3bd199d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703868673582-becc3bd199d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [iam-veeramalla/Azure-zero-to-hero](https://github.com/iam-veeramalla/Azure-zero-to-hero)
@@ -56,7 +56,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1704094516867-d8ff1d9b71
 - Routes and Route Tables
 - Network Security Groups(NSGs)
 - Application Security Groups(ASGs)
-- Demo 
 
 ## Day 6: Advanced Networking Services
 - Introduction to Virtual Network Peering and VNet Gateway

@@ -1,9 +1,9 @@
 ---
 title: awesome-scalability
-date: 2024-01-18T12:18:28+08:00
+date: 2024-01-27T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703017927998-6e4b17ecbcbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703017927998-6e4b17ecbcbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705833600877-bf0e3865fdd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705833600877-bf0e3865fdd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
@@ -163,6 +163,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Prefetch Caching of Items at eBay](https://tech.ebayinc.com/engineering/prefetch-caching-of-ebay-items/)
 	* [Cross-Region Caching Library at Wix](https://www.wix.engineering/post/how-we-built-a-cross-region-caching-library)
 	* [Improving Distributed Caching Performance and Efficiency at Pinterest](https://medium.com/pinterest-engineering/improving-distributed-caching-performance-and-efficiency-at-pinterest-92484b5fe39b)
+	* [Standardize and Improve Microservices Caching at DoorDash](https://doordash.engineering/2023/10/19/how-doordash-standardized-and-improved-microservices-caching/)
     * [HTTP Caching and CDN](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
         * [Zynga Geo Proxy: Reducing Mobile Game Latency at Zynga](https://www.zynga.com/blogs/engineering/zynga-geo-proxy-reducing-mobile-game-latency)
         * [Google AMP at Condé Nast](https://technology.condenast.com/story/the-why-and-how-of-google-amp-at-conde-nast)

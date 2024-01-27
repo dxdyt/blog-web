@@ -1,9 +1,9 @@
 ---
 title: papers-we-love
-date: 2024-01-13T12:17:23+08:00
+date: 2024-01-27T12:14:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1683427850494-bcf6511c962b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1683427850494-bcf6511c962b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703868673582-becc3bd199d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703868673582-becc3bd199d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [papers-we-love/papers-we-love](https://github.com/papers-we-love/papers-we-love)

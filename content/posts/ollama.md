@@ -1,18 +1,15 @@
 ---
 title: ollama
-date: 2024-01-08T12:19:19+08:00
+date: 2024-01-27T12:14:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702651478500-0983b30b24a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702651478500-0983b30b24a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
-# [jmorganca/ollama](https://github.com/jmorganca/ollama)
+# [ollama/ollama](https://github.com/ollama/ollama)
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" height="200px" srcset="https://github.com/jmorganca/ollama/assets/3325447/56ea1849-1284-4645-8970-956de6e51c3c">
-    <img alt="logo" height="200px" src="https://github.com/jmorganca/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
-  </picture>
+  <img alt="ollama" height="200px" src="https://github.com/jmorganca/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
 </div>
 
 # Ollama
@@ -40,6 +37,11 @@ curl https://ollama.ai/install.sh | sh
 ### Docker
 
 The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
+
+### Libraries
+
+- [ollama-python](https://github.com/ollama/ollama-python)
+- [ollama-js](https://github.com/ollama/ollama-js)
 
 ## Quickstart
 
@@ -310,6 +312,9 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Ollama for Dart](https://github.com/breitburg/dart-ollama)
 - [Ollama for Laravel](https://github.com/cloudstudio/ollama-laravel)
 - [LangChainDart](https://github.com/davidmigloz/langchain_dart)
+- [Semantic Kernel - Python](https://github.com/microsoft/semantic-kernel/tree/main/python/semantic_kernel/connectors/ai/ollama)
+- [Haystack](https://github.com/deepset-ai/haystack-integrations/blob/main/integrations/ollama.md)
+
 
 ### Mobile
 
@@ -330,3 +335,4 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Rivet plugin](https://github.com/abrenneke/rivet-plugin-ollama)
 - [Llama Coder](https://github.com/ex3ndr/llama-coder) (Copilot alternative using Ollama)
 - [Obsidian BMO Chatbot plugin](https://github.com/longy2k/obsidian-bmo-chatbot)
+- [Open Interpreter](https://docs.openinterpreter.com/language-model-setup/local-models/ollama)

@@ -1,9 +1,9 @@
 ---
 title: RPG-DiffusionMaster
-date: 2024-01-26T12:16:39+08:00
+date: 2024-01-27T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704795718500-e280f5aaac2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704795718500-e280f5aaac2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705593540462-c6ca3f8be0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705593540462-c6ca3f8be0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
 ---
 
 # [YangLing0818/RPG-DiffusionMaster](https://github.com/YangLing0818/RPG-DiffusionMaster)
@@ -277,3 +277,7 @@ Here we can also specify other usual parameters in diffusion model like:
   year={2024}
 }
 ```
+
+# Acknowledgements
+Our RPG is a general MLLM-controlled text-to-image generation/editing framework, which is builded upon several solid works. Thanks to [AUTOMATIC1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui), [regional-prompter](https://github.com/hako-mikan/sd-webui-regional-prompter), [SAM](https://github.com/facebookresearch/segment-anything)
+and [IA](https://github.com/geekyutao/Inpaint-Anything) for their wonderful work and codebase! We also thank Hugging Face for sharing our [paper](https://huggingface.co/papers/2401.11708). 
