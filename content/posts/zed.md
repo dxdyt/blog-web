@@ -1,9 +1,9 @@
 ---
 title: zed
-date: 2024-01-27T12:14:30+08:00
+date: 2024-01-28T12:15:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703747269814-769250ef0568?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703747269814-769250ef0568?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
 ---
 
 # [zed-industries/zed](https://github.com/zed-industries/zed)
@@ -13,6 +13,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1705640073358-a6943451d1
 [![CI](https://github.com/zed-industries/zed/actions/workflows/ci.yml/badge.svg)](https://github.com/zed-industries/zed/actions/workflows/ci.yml)
 
 Welcome to Zed, a high-performance, multiplayer code editor from the creators of [Atom](https://github.com/atom/atom) and [Tree-sitter](https://github.com/tree-sitter/tree-sitter).
+
+## Installation
+
+You can [download](https://zed.dev/download) Zed today for macOS (v10.15+).
+
+Support for additional platforms is on our [roadmap](https://zed.dev/roadmap):
+
+- Linux ([tracking issue](https://github.com/zed-industries/zed/issues/5395))
+- Windows ([tracking issue](https://github.com/zed-industries/zed/issues/5394))
+- Web ([tracking issue](https://github.com/zed-industries/zed/issues/5396))
 
 ## Developing Zed
 

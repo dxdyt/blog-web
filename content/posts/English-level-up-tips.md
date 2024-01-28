@@ -1,9 +1,9 @@
 ---
 title: English-level-up-tips
-date: 2024-01-26T12:16:23+08:00
+date: 2024-01-28T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703737276078-51f967d962bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703737276078-51f967d962bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
 ---
 
 # [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
@@ -99,9 +99,6 @@ The only way to do great work is to love what you do. If you haven't found it ye
 
 本作品采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a> 进行许可。
 
-## 项目状态
-
-![Alt](https://repobeats.axiom.co/api/embed/e9f25b6200dc09f2d6d831bca87c5035869980fd.svg "Repobeats analytics image")
 
 ## 特别声明
 

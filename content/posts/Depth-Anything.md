@@ -1,9 +1,9 @@
 ---
 title: Depth-Anything
-date: 2024-01-26T12:16:13+08:00
+date: 2024-01-28T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703514881823-eda837e5fbbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703514881823-eda837e5fbbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
 ---
 
 # [LiheYoung/Depth-Anything](https://github.com/LiheYoung/Depth-Anything)
@@ -48,7 +48,7 @@ This work presents Depth Anything, a highly practical solution for robust monocu
 
 - **Better depth-conditioned ControlNet**
 
-    We re-train **a better depth-conditioned ControlNet** based on Depth Anything. It offers more precise synthesis than the previous MiDaS-based ControlNet. Please refer [here](./controlnet/) for details. You can also use our new ControlNet based on Depth Anything in [ControlNet WebUI](https://github.com/Mikubill/sd-webui-controlnet).
+    We re-train **a better depth-conditioned ControlNet** based on Depth Anything. It offers more precise synthesis than the previous MiDaS-based ControlNet. Please refer [here](./controlnet/) for details. You can also use our new ControlNet based on Depth Anything in [ControlNet WebUI](https://github.com/Mikubill/sd-webui-controlnet) or [ComfyUI's ControlNet](https://github.com/Fannovel16/comfyui_controlnet_aux).
 
 - **Downstream high-level scene understanding**
 
@@ -90,6 +90,8 @@ from depth_anything.dpt import DepthAnything
 encoder = 'vits' # can also be 'vitb' or 'vitl'
 depth_anything = DepthAnything.from_pretrained('LiheYoung/depth_anything_{:}14'.format(encoder))
 ```
+
+Depth Anything is also supported in ``transformers``. You can use it for depth prediction within [3 lines of code](https://huggingface.co/docs/transformers/main/model_doc/depth_anything) (credit to [@niels](https://huggingface.co/nielsr)).
 
 ### No network connection, cannot load these models?
 
@@ -186,9 +188,9 @@ depth = depth_anything(image)
 ```
 </details>
 
-### Do not want to define image pre-processing and download our model definition files?
+### Do not want to define image pre-processing or download model definition files?
 
-Easily use Depth Anything through ``transformers``! Please refer to [these instructions](https://huggingface.co/LiheYoung/depth-anything-small-hf) (credit to [@niels](https://huggingface.co/nielsr)).
+Easily use Depth Anything through ``transformers`` within 3 lines of code! Please refer to [these instructions](https://huggingface.co/docs/transformers/main/model_doc/depth_anything) (credit to [@niels](https://huggingface.co/nielsr)).
 
 <details>
 <summary>Click here for a brief demo:</summary>
@@ -221,6 +223,8 @@ If you have your amazing projects supporting or improving (*e.g.*, speed) Depth 
 ## Acknowledgement
 
 We would like to express our deepest gratitude to [AK(@_akhaliq)](https://twitter.com/_akhaliq) and the awesome HuggingFace team ([@niels](https://huggingface.co/nielsr), [@hysts](https://huggingface.co/hysts), and [@yuvraj](https://huggingface.co/ysharma)) for helping improve the online demo and build the HF models.
+
+Besides, we thank the [MagicEdit](https://magic-edit.github.io/) team for providing some video examples for video depth estimation, and [Tiancheng Shen](https://scholar.google.com/citations?user=iRY1YVoAAAAJ) for evaluating the depth maps with MagicEdit.
 
 ## Citation
 

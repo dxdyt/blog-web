@@ -1,9 +1,9 @@
 ---
 title: google-indexing-script
-date: 2024-01-27T12:14:04+08:00
+date: 2024-01-28T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705640073358-a6943451d138?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703514881823-eda837e5fbbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703514881823-eda837e5fbbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
 ---
 
 # [goenning/google-indexing-script](https://github.com/goenning/google-indexing-script)

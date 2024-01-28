@@ -1,9 +1,9 @@
 ---
 title: palworld-host-save-fix
-date: 2024-01-25T12:17:53+08:00
+date: 2024-01-28T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698051300591-8c8bb88e9851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698051300591-8c8bb88e9851?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705260527801-0bfd739f8c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705260527801-0bfd739f8c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
 ---
 
 # [xNul/palworld-host-save-fix](https://github.com/xNul/palworld-host-save-fix)
