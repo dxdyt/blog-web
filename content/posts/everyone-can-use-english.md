@@ -1,9 +1,9 @@
 ---
 title: everyone-can-use-english
-date: 2024-01-21T12:17:17+08:00
+date: 2024-01-29T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703138560531-7b033a785ae6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704531815335-dab68018e8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704531815335-dab68018e8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
@@ -67,6 +67,7 @@ yarn make:enjoy
    brew install nvm
    nvm install 20.5.1
    brew install yarn
+   brew install ffmpeg
    ```
 
 4. 设置 yarn 环境变量以及 Node.js 配置
@@ -83,7 +84,16 @@ yarn make:enjoy
    mkdir github
    cd github
    git clone https://github.com/xiaolai/everyone-can-use-english
-   cd everyone-can-use-english
+   cd ~/github/everyone-can-use-english
+   yarn install
+   yarn start:enjoy
+   ```
+
+6. 以后重新启动用 Terminal 
+
+   ```bash
+   cd ~/github/everyone-can-use-english
+   git pull
    yarn install
    yarn start:enjoy
    ```
@@ -202,3 +212,9 @@ yarn make:enjoy
 **Q: 还有 bug，怎么办？**
 
 > A: 可以提 [Issue](https://github.com/xiaolai/everyone-can-use-english/issues/new)，也可以 Mixin 开发者（Mixin ID: 1051445）。
+
+**Q: 很多解决不了的问题，怎么办？**
+
+其实，可能还有很多其它问题，比如，本软件安装、OpenAI（注册、支付）、美国线路…… 
+
+> A: 1）文本生成，可以暂时用各种翻译工具，比如 Google Translate，或者其它的替代方案；2）语音生成，可以暂时用开源免费的 [Edge-TTS-record](https://github.com/LuckyHookin/edge-TTS-record)

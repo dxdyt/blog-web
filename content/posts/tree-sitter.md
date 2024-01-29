@@ -1,9 +1,9 @@
 ---
 title: tree-sitter
-date: 2023-07-10T12:19:48+08:00
+date: 2024-01-29T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686628056497-9061e8893335?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686628056497-9061e8893335?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg5NjI2NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704959963337-049b20caf2fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704959963337-049b20caf2fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)

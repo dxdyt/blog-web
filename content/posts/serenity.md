@@ -1,9 +1,9 @@
 ---
 title: serenity
-date: 2023-06-20T12:16:57+08:00
+date: 2024-01-29T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685280947527-fbfe7d85da2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685280947527-fbfe7d85da2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcyMzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [SerenityOS/serenity](https://github.com/SerenityOS/serenity)
@@ -34,12 +34,12 @@ You can watch videos of the system being developed on YouTube:
 
 ## Screenshot
 
-![Screenshot as of b36968c.png](https://raw.githubusercontent.com/SerenityOS/serenity/master/Meta/Screenshots/screenshot-b36968c.png)
+![Screenshot as of c03b788.png](Meta/Screenshots/screenshot-c03b788.png)
 
 ## Features
 
 * Modern x86 64-bit kernel with pre-emptive multi-threading
-* [Browser](Userland/Applications/Browser/) with JavaScript, WebAssembly, and more (check the spec compliance for [JS](https://libjs.dev/test262/), [CSS](https://css.tobyase.de/), and [Wasm](https://libjs.dev/wasm/))
+* [Browser](Userland/Applications/Browser/) with JavaScript, WebAssembly, and more (check the spec compliance for [JS](https://serenityos.github.io/libjs-website/test262/), [CSS](https://css.tobyase.de/), and [Wasm](https://serenityos.github.io/libjs-website/wasm/))
 * Security features (hardware protections, limited userland capabilities, W^X memory, `pledge` & `unveil`, (K)ASLR, OOM-resistance, web-content isolation, state-of-the-art TLS algorithms, ...)
 * [System services](Userland/Services/) (WindowServer, LoginServer, AudioServer, WebServer, RequestServer, CrashServer, ...) and modern IPC
 * Good POSIX compatibility ([LibC](Userland/Libraries/LibC/), Shell, syscalls, signals, pseudoterminals, filesystem notifications, standard Unix [utilities](Userland/Utilities/), ...)
@@ -54,7 +54,7 @@ You can watch videos of the system being developed on YouTube:
 
 ... and all of the above are right in this repository, no extra dependencies, built from-scratch by us :^)
 
-Additionally, there are [over two hundred ports of popular open-source software](Ports/AvailablePorts.md), including games, compilers, Unix tools, multimedia apps and more.
+Additionally, there are [over three hundred ports of popular open-source software](Ports/AvailablePorts.md), including games, compilers, Unix tools, multimedia apps and more.
 
 ## How do I read the documentation?
 
@@ -96,7 +96,7 @@ A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTIN
 * **Itamar Shenhar** - [itamar8910](https://github.com/itamar8910)
 * **Luke Wilde** - [Lubrsi](https://github.com/Lubrsi)
 * **Brendan Coles** - [bcoles](https://github.com/bcoles)
-* **Andrew Kaster** - [ADKaster](https://github.com/ADKaster)
+* **Andrew Kaster** - [ADKaster](https://github.com/ADKaster) [![GitHub Sponsors](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub)](https://github.com/sponsors/ADKaster)
 * **thankyouverycool** - [thankyouverycool](https://github.com/thankyouverycool)
 * **Idan Horowitz** - [IdanHo](https://github.com/IdanHo)
 * **Gunnar Beutner** - [gunnarbeutner](https://github.com/gunnarbeutner)
@@ -134,6 +134,14 @@ A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTIN
 * **Gregory Bertilson** - [Zaggy1024](https://github.com/Zaggy1024)
 * **Erik Wouters** - [EWouters](https://github.com/EWouters)
 * **Rodrigo Tobar** - [rtobar](https://github.com/rtobar)
+* **Alexander Kalenik** - [kalenikaliaksandr](https://github.com/kalenikaliaksandr) 
+* **Tim Ledbetter** - [tcl3](https://github.com/tcl3)
+* **Steffen T. Larssen** - [stelar7](https://github.com/stelar7)
+* **Andi Gallo** - [axgallo](https://github.com/axgallo)
+* **Simon Wanner** - [skyrising](https://github.com/skyrising)
+* **FalseHonesty** - [FalseHonesty](https://github.com/FalseHonesty)
+* **Bastiaan van der Plaat** - [bplaat](https://github.com/bplaat)
+* **Dan Klishch** - [DanShaders](https://github.com/DanShaders)
 
 And many more! [See here](https://github.com/SerenityOS/serenity/graphs/contributors) for a full contributor list. The people listed above have landed more than 100 commits in the project. :^)
 

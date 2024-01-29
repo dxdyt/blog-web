@@ -1,14 +1,16 @@
 ---
 title: lede
-date: 2024-01-01T12:19:19+08:00
+date: 2024-01-29T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701421709945-4d0660948cc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701421709945-4d0660948cc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQwODI1NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704531815335-dab68018e8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704531815335-dab68018e8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
 
 # 欢迎来到 Lean 的 LEDE 源码仓库
+
+为国产龙芯 LOONGSON SoC loongarch64 / 飞腾 Phytium 腾锐2000 系列架构添加支持
 
 I18N: [English](README_EN.md) | [简体中文](README.md) | [日本語](README_JA.md)
 

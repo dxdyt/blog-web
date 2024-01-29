@@ -1,9 +1,9 @@
 ---
 title: data-engineering-zoomcamp
-date: 2024-01-18T12:16:42+08:00
+date: 2024-01-29T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1568826197047-0fc0311f65fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1568826197047-0fc0311f65fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705703479966-87b2dd277216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705703479966-87b2dd277216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
@@ -39,7 +39,8 @@ Syllabus
 
 * **Start**: 15 January 2024 (Monday) at 17:00 CET
 * **Registration link**: https://airtable.com/shr6oVXeQvSI5HuWD
-* [Cohort folder](cohorts/2024/) with homeworks and deadlines 
+* [Cohort folder](cohorts/2024/) with homeworks and deadlines
+* [Launch stream with course overview](https://www.youtube.com/live/AtRhA-NfS24?si=5JzA_E8BmJjiLi8l)
 
 
 ### Self-paced mode
@@ -95,7 +96,6 @@ can take the course at your own pace
 * Partitioning and clustering
 * BigQuery best practices
 * Internals of BigQuery
-* Integrating BigQuery with Airflow
 * BigQuery Machine Learning
 
 [More details](03-data-warehouse/)
@@ -226,3 +226,6 @@ Thanks to the course sponsors for making it possible to run this course
 
 Do you want to support our course and our community? Please reach out to [alexey@datatalks.club](alexey@datatalks.club)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=DataTalksClub/data-engineering-zoomcamp&type=Date)](https://star-history.com/#DataTalksClub/data-engineering-zoomcamp&Date)

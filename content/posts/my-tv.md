@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-01-27T12:16:46+08:00
+date: 2024-01-29T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704928339913-ac93aaa6a821?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704928339913-ac93aaa6a821?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704629803946-04b543133943?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704629803946-04b543133943?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)
@@ -24,10 +24,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1704928339913-ac93aaa6a8
 
 ## 更新日志
 
+### v1.5.1（高版本专用）
+
+* 性能优化
+
+### v1.4.9（高版本专用）
+
+* 同步v1.4.8
+
+### v1.4.8（通用版）
+
+* 频道号从1开始，CCTV5+为18
+* 提高CCTV6清晰度
+* 增加天津卫视、新疆卫视
+
 ### v1.4.7（高版本专用）
 
-* 修复部分用户cctv13播放过程中卡住的问题
-* 调整cctv的频道顺序
+* 修复部分用户CCTV13播放过程中卡住的问题
+* 调整CCTV的频道顺序
+
+### v1.4.6（通用版）
+
+* 10以下频道不再需要先按0
 
 ### v1.4.5（高版本专用）
 

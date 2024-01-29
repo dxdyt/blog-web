@@ -1,16 +1,16 @@
 ---
 title: leptonai
-date: 2023-10-07T12:16:01+08:00
+date: 2024-01-29T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1656603581635-1696386abe58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1656603581635-1696386abe58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY2NTIwNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
 ---
 
 # [leptonai/leptonai](https://github.com/leptonai/leptonai)
 
 <img src="https://raw.githubusercontent.com/leptonai/leptonai/main/assets/logo.svg" height=100>
 
-# LeptonAI python library
+# Lepton AI
 
 **A Pythonic framework to simplify AI service building**
 
