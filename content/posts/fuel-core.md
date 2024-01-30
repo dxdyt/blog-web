@@ -1,9 +1,9 @@
 ---
 title: fuel-core
-date: 2023-07-08T12:18:44+08:00
+date: 2024-01-30T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687263150247-17b649fd04e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687263150247-17b649fd04e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3ODk3ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705648373513-4a886ddb7636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705648373513-4a886ddb7636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core)
@@ -148,9 +148,13 @@ ulimit -n 10240
 
 #### Log level
 
-The service relies on the environment variable `RUST_LOG`. For more information, check the [EnvFilter examples](https://docs.rs/tracing-subscriber/latest/tracing_subscriber/struct.EnvFilter.html#examples) crate.
+The service relies on the environment variable `RUST_LOG`. For more information, check the [EnvFilter examples](https://docs.rs/tracing-subscriber/latest/tracing_subscriber/filter/struct.EnvFilter.html#examples) crate.
 
 Human logging can be disabled with the environment variable `HUMAN_LOGGING=false`
+
+## Debugging
+
+See the guide on [debugging](docs/developers/debugging.md) for an overview on running a debug build of a local node.
 
 ## Docker & Kubernetes
 
@@ -179,7 +183,7 @@ The transaction executor currently performs instant block production. Changes ar
 -   Service endpoint: `/graphql`
 -   Schema (available after building): `crates/client/assets/schema.sdl`
 
-The service expects a mutation defined as `submit` that receives a [Transaction](https://github.com/FuelLabs/fuel-vm/tree/master/fuel-tx) in hex encoded binary format, as [specified here](https://github.com/FuelLabs/fuel-specs/blob/master/src/protocol/tx_format/transaction.md).
+The service expects a mutation defined as `submit` that receives a [Transaction](https://github.com/FuelLabs/fuel-vm/tree/master/fuel-tx) in hex encoded binary format, as [specified here](https://github.com/FuelLabs/fuel-specs/blob/master/src/tx-format/transaction.md).
 
 ### cURL example
 
@@ -194,7 +198,7 @@ RET(RegId::ONE),
 
 ```console
 $ cargo run --bin fuel-core-client -- transaction submit \
-"{\"Script\":{\"gas_price\":0,\"gas_limit\":1000000,\"maturity\":0,\"script\":[80,64,0,202,80,68,0,186,51,65,16,0,36,4,0,0],\"script_data\":[],\"inputs\":[
+"{\"Script\":{\"script_gas_limit\":1000000,\"policies\":{\"bits\":\"GasPrice\",\"values\":[0,0,0,0]},\"maturity\":0,\"script\":[80,64,0,202,80,68,0,186,51,65,16,0,36,4,0,0],\"script_data\":[],\"inputs\":[
 {
   \"CoinSigned\": {
     \"utxo_id\": {
@@ -216,70 +220,7 @@ $ cargo run --bin fuel-core-client -- transaction submit \
   }
 }],\"outputs\":[],\"witnesses\":[{
   \"data\": [
-    150,
-    31,
-    98,
-    51,
-    6,
-    239,
-    255,
-    243,
-    45,
-    35,
-    182,
-    26,
-    129,
-    152,
-    46,
-    95,
-    45,
-    211,
-    114,
-    58,
-    51,
-    64,
-    129,
-    194,
-    97,
-    14,
-    181,
-    70,
-    190,
-    37,
-    106,
-    223,
-    170,
-    174,
-    221,
-    230,
-    87,
-    239,
-    67,
-    224,
-    100,
-    137,
-    25,
-    249,
-    193,
-    14,
-    184,
-    195,
-    15,
-    85,
-    156,
-    82,
-    91,
-    78,
-    91,
-    80,
-    126,
-    168,
-    215,
-    170,
-    139,
-    48,
-    19,
-    5
+    150,31,98,51,6,239,255,243,45,35,182,26,129,152,46,95,45,211,114,58,51,64,129,194,97,14,181,70,190,37,106,223,170,174,221,230,87,239,67,224,100,137,25,249,193,14,184,195,15,85,156,82,91,78,91,80,126,168,215,170,139,48,19,5
   ]
 }],\"receipts_root\":\"0x6114142d12e0f58cfb8c72c270cd0535944fb1ba763dce83c17e882c482224a2\"}}"
 ```

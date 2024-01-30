@@ -1,9 +1,9 @@
 ---
 title: fuels-ts
-date: 2023-07-25T12:16:57+08:00
+date: 2024-01-30T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1675351085230-ab39b2289ff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1675351085230-ab39b2289ff4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTAyNTg1MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705935396032-d8727a102f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705935396032-d8727a102f4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/fuels-ts](https://github.com/FuelLabs/fuels-ts)
@@ -17,20 +17,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1675351085230-ab39b2289f
 
 [![test](https://github.com/FuelLabs/fuels-ts/actions/workflows/test.yaml/badge.svg)](https://github.com/FuelLabs/fuels-ts/actions/workflows/test.yaml)
 [![npm](https://img.shields.io/npm/v/fuels)](https://www.npmjs.com/package/fuels)
-[![docs](https://img.shields.io/badge/docs-fuels.ts-brightgreen.svg?style=flat)](https://fuellabs.github.io/fuels-ts/)
+[![docs](https://img.shields.io/badge/docs-fuels.ts-brightgreen.svg?style=flat)](https://docs.fuel.network/docs/fuels-ts/)
 [![discord](https://img.shields.io/badge/chat%20on-discord-orange?&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/xfpK4Pe)
 
 # Resources
 
-The [documentation](https://fuellabs.github.io/fuels-ts) site is your main stop for resources.
+The [documentation](https://docs.fuel.network/docs/fuels-ts/) site is your main stop for resources.
 
-- [Quickstart](https://fuellabs.github.io/fuel-docs/master/quickstart/developer-quickstart.html)
-- [Documentation](https://fuellabs.github.io/fuels-ts)
-  - [Wallets](https://fuellabs.github.io/fuels-ts/guide/wallets/)
-  - [Contracts](https://fuellabs.github.io/fuels-ts/guide/contracts/)
-  - [Scripts](https://fuellabs.github.io/fuels-ts/guide/scripts/)
-  - [Predicates](https://fuellabs.github.io/fuels-ts/guide/predicates/)
-  - [ABI Typegen](https://fuellabs.github.io/fuels-ts/guide/abi-typegen/)
+- [Quickstart](https://docs.fuel.network/docs/intro/quickstart-contract/)
+- [Documentation](https://docs.fuel.network/docs/fuels-ts/)
+  - [Wallets](https://docs.fuel.network/docs/fuels-ts/wallets/)
+  - [Contracts](https://docs.fuel.network/docs/fuels-ts/contracts/)
+  - [Scripts](https://docs.fuel.network/docs/fuels-ts/scripts/)
+  - [Predicates](https://docs.fuel.network/docs/fuels-ts/predicates/)
+  - [ABI Typegen](https://docs.fuel.network/docs/fuels-ts/abi-typegen/)
 - [Contributing](https://github.com/FuelLabs/fuels-ts/blob/master/CONTRIBUTING.md)
 - [The Fuel Forum](https://forum.fuel.network/)
 - [The Fuel Ecosystem](#the-fuel-ecosystem)
@@ -40,6 +40,8 @@ The [documentation](https://fuellabs.github.io/fuels-ts) site is your main stop 
 ```sh
 npm install fuels --save
 ```
+
+> If you are a Windows user, you will need to be running Windows Subsystem for Linux (WSL) to install and use the Fuel toolchain, including the TypeScript SDK. We don't support Windows natively at this time.
 
 # Import
 
@@ -59,27 +61,37 @@ console.log(new Wallet("0x0000...0000"));
 
 Fuels include some utility commands via built-in CLI tool.
 
+Check the [docs](https://docs.fuel.network/docs/fuels-ts/) for more info.
+
 ```console
 $ npm add fuels
 $ npx fuels --help
 Usage: fuels [options] [command]
 
 Options:
-  -V, --version      output the version number
-  -h, --help         display help for command
+  -D, --debug        Enables verbose logging (default: false)
+  -S, --silent       Omit output messages (default: false)
+  -v, --version      Output the version number
+  -h, --help         Display help
 
 Commands:
-  versions           check for version incompatibilities
-  typegen [options]  generate typescript from contract abi json files
-  help [command]     display help for command
+  init [options]     Create a sample `fuel.config.ts` file
+  dev [options]      Start a Fuel node and run build + deploy on every file change
+  build [options]    Build Sway programs and generate Typescript for them
+  deploy [options]   Deploy contracts to the Fuel network
+  typegen [options]  Generate Typescript from Sway ABI JSON files
+  versions           Check for version incompatibilities
+  core               Wrapper around Fuel Core binary
+  forc               Wrapper around Forc binary
+  help [command]     Display help for command
 ```
 
 # The Fuel Ecosystem
 
 Learn more about the Fuel Ecosystem.
 
-- [🌴 Sway](https://fuellabs.github.io/sway/) — The new language, empowering everyone to build reliable and efficient smart contracts
-- [🧰 Forc](https://fuellabs.github.io/sway/v0.30.1/forc/index.html) — The Fuel toolbox: _Build, deploy and manage your sway projects_
+- [🌴 Sway](https://docs.fuel.network/docs/sway/) — The new language, empowering everyone to build reliable and efficient smart contracts
+- [🧰 Forc](https://docs.fuel.network/docs/forc/) — The Fuel toolbox: _Build, deploy and manage your sway projects_
 - [⚙️ Fuel Core](https://github.com/FuelLabs/fuel-core) — The new FuelVM, a blazingly fast blockchain VM
 - [🔗 Fuel Specs](https://github.com/FuelLabs/fuel-specs) — The Fuel protocol specifications
 - [💼 Fuels Wallet](https://github.com/FuelLabs/fuels-wallet) — The Official Fuels Wallet

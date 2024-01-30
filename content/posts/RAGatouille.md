@@ -1,9 +1,9 @@
 ---
 title: RAGatouille
-date: 2024-01-07T12:16:58+08:00
+date: 2024-01-30T12:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743804452-24fd24844bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743804452-24fd24844bd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [bclavie/RAGatouille](https://github.com/bclavie/RAGatouille)
@@ -13,6 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1701743804452-24fd24844b
 _Easily use and train state of the art retrieval methods in any RAG pipeline. Designed for modularity and ease-of-use, backed by research._
 
 [![GitHub stars](https://img.shields.io/github/stars/bclavie/ragatouille.svg)](https://github.com/bclavie/ragatouille/stargazers)
+[![Downloads](https://static.pepy.tech/badge/ragatouille/month)](https://pepy.tech/project/ragatouille)
 [![Documentation](https://img.shields.io/badge/docs-available-brightgreen)](https://ben.clavie.eu/ragatouille/)
 [![Twitter Follow](https://img.shields.io/twitter/follow/bclavie?style=social)](https://twitter.com/bclavie)
 
@@ -132,14 +133,30 @@ RAG = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
 my_documents = [get_wikipedia_page("Hayao_Miyazaki"), get_wikipedia_page("Studio_Ghibli")]
 index_path = RAG.index(index_name="my_index", collection=my_documents)
 ```
+You can also optionally add document IDs or document metadata when creating the index:
+
+```python
+document_ids = ["miyazaki", "ghibli"]
+document_metadatas = [
+    {"entity": "person", "source": "wikipedia"},
+    {"entity": "organisation", "source": "wikipedia"},
+]
+index_path = RAG.index(
+    index_name="my_index_with_ids_and_metadata",
+    collection=my_documents,
+    document_ids=document_ids,
+    document_metadatas=document_metadatas,
+)
+```
 
 Once this is done running, your index will be saved on-disk and ready to be queried! RAGatouille and ColBERT handle everything here:
+- Splitting your documents
 - Tokenizing your documents
 - Identifying the individual terms
 - Embedding the documents and generating the bags-of-embeddings
 - Compressing the vectors and storing them on disk
 
-Curious about how this works? Check out the [Late-Interaction & ColBERT concept explainer](https://ben.clavie.eu/ragatouille/concepts)
+Curious about how this works? Check out the [Late-Interaction & ColBERT concept explainer](https://ben.clavie.eu/ragatouille/#late-interaction)
 <!-- or find out more about [indexing](https://ben.clavie.eu/ragatouille/indexing)! -->
 
 ### 🔎 Retrieving Documents
@@ -155,23 +172,13 @@ results = RAG.search(query)
 ```
 
 This is the preferred way of doing things, since every index saves the full configuration of the model used to create it, and you can easily load it back up.
-However, if you'd rather do it yourself or want to use a slightly different configuration, you can spin-up an instance of `RAGPretrainedModel` and specify the index you want to use:
-
-```python
-from ragatouille import RAGPretrainedModel
-
-query = "What manga did Hayao Miyazaki write?"
-RAG = RAGPretrainedModel.from_pretrained("colbert-ir/colbertv2.0")
-results = RAG.search(query, index_name="my_index")
-```
 
 `RAG.search` is a flexible method! You can set the `k` value to however many results you want (it defaults to `10`), and you can also use it to search for multiple queries at once:
 
 ```python
 RAG.search(["What manga did Hayao Miyazaki write?",
 "Who are the founders of Ghibli?"
-"Who is the director of Spirited Away?"],
-index_name="my_index")
+"Who is the director of Spirited Away?"],)
 ```
 
 `RAG.search` returns results in the form of a list of dictionaries, or a list of list of dictionaries if you used multiple queries: 
@@ -179,25 +186,33 @@ index_name="my_index")
 ```python
 # single-query result
 [
-    {"content": "blablabla", "score": 42.424242, "rank": 1},
+    {"content": "blablabla", "score": 42.424242, "rank": 1, "document_id": "x"},
     ...,
-    {"content": "albalbalba", "score": 24.242424, "rank": k},
+    {"content": "albalbalba", "score": 24.242424, "rank": k, "document_id": "y"},
 ]
 # multi-query result
 [
     [
-        {"content": "blablabla", "score": 42.424242, "rank": 1},
+        {"content": "blablabla", "score": 42.424242, "rank": 1, "document_id": "x"},
         ...,
-        {"content": "albalbalba", "score": 24.242424, "rank": k},
+        {"content": "albalbalba", "score": 24.242424, "rank": k, "document_id": "y"},
     ],
     [
-        {"content": "blablabla", "score": 42.424242, "rank": 1},
+        {"content": "blablabla", "score": 42.424242, "rank": 1, "document_id": "x"},
         ...,
-        {"content": "albalbalba", "score": 24.242424, "rank": k},
+        {"content": "albalbalba", "score": 24.242424, "rank": k, "document_id": "y"},
     ],
  ],
 ```
-
+If your index includes document metadata, it'll be returned as a dictionary in the `document_metadata` key of the result dictionary:
+    
+```python
+[
+    {"content": "blablabla", "score": 42.424242, "rank": 1, "document_id": "x", "document_metadata": {"A": 1, "B": 2}},
+    ...,
+    {"content": "albalbalba", "score": 24.242424, "rank": k, "document_id": "y", "document_metadata": {"A": 3, "B": 4}},
+]
+```
 
 ## I'm sold, can I integrate late-interaction RAG into my project?
 

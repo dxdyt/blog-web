@@ -1,9 +1,9 @@
 ---
 title: palworld-save-tools
-date: 2024-01-29T12:15:56+08:00
+date: 2024-01-30T12:15:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704629803946-04b543133943?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704629803946-04b543133943?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705609140398-6b5b54814e37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705609140398-6b5b54814e37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [cheahjs/palworld-save-tools](https://github.com/cheahjs/palworld-save-tools)
@@ -25,6 +25,7 @@ This tool currently supports additional parsing of the following data not handle
     - Groups such as in-game organizations and guilds
 1. `Level.sav`:`CharacterSaveParameterMap`
     - Characters such as players and pals
+1. `Level.sav`: `MapObjectSaveData.MapObjectSaveData.Model`
 
 ## Converting co-op saves to dedicated server saves
 
@@ -65,6 +66,6 @@ Please follow the instructions provided over at https://github.com/xNul/palworld
 Additional command line arguments:
 
 1. `--to-json`: Force SAV to JSON conversion regardless of file extension
-1. `--from-json`: Force JSON to SAV converrsion regardless of file extension
+1. `--from-json`: Force JSON to SAV conversion regardless of file extension
 1. `--output`: Override the default output path
 1. `--minify-json`: Minify output JSON to help speed up processing by other tools consuming JSON

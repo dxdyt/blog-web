@@ -1,9 +1,9 @@
 ---
 title: data-engineering-zoomcamp
-date: 2024-01-29T12:16:40+08:00
+date: 2024-01-30T12:14:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705703479966-87b2dd277216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705703479966-87b2dd277216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
@@ -84,6 +84,12 @@ can take the course at your own pace
 
 
 ### [Workshop 1: Data Ingestion](cohorts/2024/workshops/dlt.md)
+
+* Reading from apis
+* Building scalable pipelines
+* Normalising data
+* Incremental loading
+* Homework
 
 
 [More details](cohorts/2024/workshops/dlt.md)

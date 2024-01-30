@@ -1,9 +1,9 @@
 ---
 title: PalWorld-NetCrack
-date: 2024-01-29T12:16:02+08:00
+date: 2024-01-30T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704531815335-dab68018e8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704531815335-dab68018e8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [swordbluesword/PalWorld-NetCrack](https://github.com/swordbluesword/PalWorld-NetCrack)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1704531815335-dab68018e8
 This is the PalWorld network cracking framework
 modifying player data in the Player tab
 Network cracking in the Exploit tab
-# Note: The master branch does not include visual
+# Note: The master branch does not include visual,but In imperfect branch, we'll add something that isn't on the master branch.
 
 # Player Features
 - Modify Player Speed

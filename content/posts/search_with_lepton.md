@@ -1,9 +1,9 @@
 ---
 title: search_with_lepton
-date: 2024-01-29T12:15:10+08:00
+date: 2024-01-30T12:14:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703672141188-117ba6518b12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703672141188-117ba6518b12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705609140398-6b5b54814e37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705609140398-6b5b54814e37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
 ---
 
 # [leptonai/search_with_lepton](https://github.com/leptonai/search_with_lepton)
@@ -25,9 +25,13 @@ Build your own conversational search engine using less than 500 lines of code.
 - Shareable, cached search results
 
 ## Setup Search Engine API
+There are two default supported search engines: Bing and Google.
+ 
+### Bing Search
+To use the Bing Web Search API, please visit [this link](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api) to obtain your Bing subscription key.
 
-> [!NOTE]
-> Visit [here](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api) to get your Bing subscription key.
+### Google Search
+You have two options for Google Search: you can use the [Google Search API](https://www.serper.dev) from Serper or opt for the [Programmable Search Engine](https://developers.google.com/custom-search) provided by Google.
 
 ## Setup LLM and KV
 
@@ -53,6 +57,19 @@ cd web && npm install && npm run build
 3. Run server
 ```shell
 BACKEND=BING python search_with_lepton.py
+```
+
+For Google Search using Serper:
+```shell
+export SERPER_SEARCH_API_KEY=YOUR_SERPER_API_KEY
+BACKEND=SERPER python search_with_lepton.py
+```
+
+For Google Search using Programmable Search Engine:
+```shell
+export GOOGLE_SEARCH_API_KEY=YOUR_GOOGLE_SEARCH_API_KEY
+export GOOGLE_SEARCH_CX=YOUR_GOOGLE_SEARCH_ENGINE_ID
+BACKEND=GOOGLE python search_with_lepton.py
 ```
 
 
