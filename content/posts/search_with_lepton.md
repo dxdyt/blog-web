@@ -1,9 +1,9 @@
 ---
 title: search_with_lepton
-date: 2024-01-30T12:14:23+08:00
+date: 2024-01-31T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705609140398-6b5b54814e37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705609140398-6b5b54814e37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704121355552-10ac4d5b1677?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704121355552-10ac4d5b1677?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [leptonai/search_with_lepton](https://github.com/leptonai/search_with_lepton)
@@ -31,7 +31,7 @@ There are two default supported search engines: Bing and Google.
 To use the Bing Web Search API, please visit [this link](https://www.microsoft.com/en-us/bing/apis/bing-web-search-api) to obtain your Bing subscription key.
 
 ### Google Search
-You have two options for Google Search: you can use the [Google Search API](https://www.serper.dev) from Serper or opt for the [Programmable Search Engine](https://developers.google.com/custom-search) provided by Google.
+You have three options for Google Search: you can use the [SearchApi Google Search API](https://www.searchapi.io/) from SearchApi, [Serper Google Search API](https://www.serper.dev) from Serper, or opt for the [Programmable Search Engine](https://developers.google.com/custom-search) provided by Google.
 
 ## Setup LLM and KV
 
@@ -57,6 +57,12 @@ cd web && npm install && npm run build
 3. Run server
 ```shell
 BACKEND=BING python search_with_lepton.py
+```
+
+For Google Search using SearchApi:
+```shell
+export SEARCHAPI_API_KEY=YOUR_SEARCHAPI_API_KEY
+BACKEND=SEARCHAPI python search_with_lepton.py
 ```
 
 For Google Search using Serper:

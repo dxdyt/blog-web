@@ -1,9 +1,9 @@
 ---
 title: codellama
-date: 2023-08-29T12:14:51+08:00
+date: 2024-01-31T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692665240237-aadb86836077?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692665240237-aadb86836077?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMyODI0NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705321963943-de94bb3f0dd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705321963943-de94bb3f0dd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/codellama](https://github.com/facebookresearch/codellama)
@@ -22,7 +22,7 @@ This repository is intended as a minimal example to load [Code Llama](https://ai
 
 ## Download
 
-In order to download the model weights and tokenizers, please visit the [Meta AI website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and accept our License.
+In order to download the model weights and tokenizers, please visit the [Meta website](https://ai.meta.com/resources/models-and-libraries/llama-downloads/) and accept our License.
 
 Once your request is approved, you will receive a signed URL over email. Then run the download.sh script, passing the URL provided when prompted to start the download. Make sure that you copy the URL text itself, **do not use the 'Copy link address' option** when you right click the URL. If the copied URL text starts with: https://download.llamameta.net, you copied it correctly. If the copied URL text starts with: https://l.facebook.com, you copied it the wrong way.
 
@@ -30,11 +30,20 @@ Pre-requisites: make sure you have `wget` and `md5sum` installed. Then to run th
 
 Keep in mind that the links expire after 24 hours and a certain amount of downloads. If you start seeing errors such as `403: Forbidden`, you can always re-request a link.
 
-[comment]: <> (Access on Hugging Face, We are also providing downloads on Hugging Face. You must first request a download from the Meta AI website using the same email address as your Hugging Face account. After doing so, you can request access to any of the models on Hugging Face and within 1-2 days your account will be granted access to all versions.)
+### Model sizes
+
+| Model | Size     |
+|-------|----------|
+| 7B    | ~12.55GB |
+| 13B   | 24GB     |
+| 34B   | 63GB     |
+| 70B   | 131GB    |
+
+[comment]: <> (Access on Hugging Face, We are also providing downloads on Hugging Face. You must first request a download from the Meta website using the same email address as your Hugging Face account. After doing so, you can request access to any of the models on Hugging Face and within 1-2 days your account will be granted access to all versions.)
 
 ## Setup
 
-In a conda env with PyTorch / CUDA available, clone the repo and run in the top-level directory:
+In a conda environment with PyTorch / CUDA available, clone the repo and run in the top-level directory:
 
 ```
 pip install -e .
@@ -44,13 +53,14 @@ pip install -e .
 
 Different models require different model-parallel (MP) values:
 
-|  Model | MP |
-|--------|----|
-| 7B     | 1  |
-| 13B    | 2  |
-| 34B    | 4  |
+| Model | MP |
+|-------|----|
+| 7B    | 1  |
+| 13B   | 2  |
+| 34B   | 4  |
+| 70B   | 8  |
 
-All models support sequence lengths up to 100,000 tokens, but we pre-allocate the cache according to `max_seq_len` and `max_batch_size` values. So set those according to your hardware and use-case.
+All models, except the 70B python and instruct versions, support sequence lengths up to 100,000 tokens, but we pre-allocate the cache according to `max_seq_len` and `max_batch_size` values. So set those according to your hardware and use-case.
 
 ### Pretrained Code Models
 
@@ -66,8 +76,8 @@ torchrun --nproc_per_node 1 example_completion.py \
     --max_seq_len 128 --max_batch_size 4
 ```
 
-Pretrained code models are: the Code Llama models `CodeLlama-7b`, `CodeLlama-13b`, `CodeLlama-34b` and the Code Llama - Python models 
-`CodeLlama-7b-Python`, `CodeLlama-13b-Python`, `CodeLlama-34b-Python`.
+Pretrained code models are: the Code Llama models `CodeLlama-7b`, `CodeLlama-13b`, `CodeLlama-34b`, `CodeLlama-70b` and the Code Llama - Python models
+`CodeLlama-7b-Python`, `CodeLlama-13b-Python`, `CodeLlama-34b-Python`, `CodeLlama-70b-Python`.
 
 ### Code Infilling
 
@@ -86,10 +96,12 @@ Pretrained infilling models are: the Code Llama models `CodeLlama-7b` and `CodeL
 
 ### Fine-tuned Instruction Models
 
-Code Llama - Instruct models are fine-tuned to follow instructions. To get the expected features and performance for them, a specific formatting defined in [`chat_completion`](https://github.com/facebookresearch/codellama/blob/main/llama/generation.py#L212)
+Code Llama - Instruct models are fine-tuned to follow instructions. To get the expected features and performance for the 7B, 13B and 34B variants, a specific formatting defined in [`chat_completion()`](https://github.com/facebookresearch/codellama/blob/main/llama/generation.py#L319-L361)
 needs to be followed, including the `INST` and `<<SYS>>` tags, `BOS` and `EOS` tokens, and the whitespaces and linebreaks in between (we recommend calling `strip()` on inputs to avoid double-spaces).
+`CodeLlama-70b-Instruct` requires a separate turn-based prompt format defined in [`dialog_prompt_tokens()`](https://github.com/facebookresearch/codellama/blob/main/llama/generation.py#L506-L548).
+You can use `chat_completion()` directly to generate answers with all instruct models; it will automatically perform the required formatting.
 
-You can also deploy additional classifiers for filtering out inputs and outputs that are deemed unsafe. See the llama-recipes repo for [an example](https://github.com/facebookresearch/llama-recipes/blob/main/inference/inference.py) of how to add a safety checker to the inputs and outputs of your inference code.
+You can also deploy additional classifiers for filtering out inputs and outputs that are deemed unsafe. See the llama-recipes repo for [an example](https://github.com/facebookresearch/llama-recipes/blob/main/src/llama_recipes/inference/safety_utils.py) of how to add a safety checker to the inputs and outputs of your inference code.
 
 Examples using `CodeLlama-7b-Instruct`:
 
@@ -100,13 +112,13 @@ torchrun --nproc_per_node 1 example_instructions.py \
     --max_seq_len 512 --max_batch_size 4
 ```
 
-Fine-tuned instruction-following models are: the Code Llama - Instruct models `CodeLlama-7b-Instruct`, `CodeLlama-13b-Instruct`, `CodeLlama-34b-Instruct`.
+Fine-tuned instruction-following models are: the Code Llama - Instruct models `CodeLlama-7b-Instruct`, `CodeLlama-13b-Instruct`, `CodeLlama-34b-Instruct`, `CodeLlama-70b-Instruct`.
 
 Code Llama is a new technology that carries potential risks with use. Testing conducted to date has not — and could not — cover all scenarios.
 In order to help developers address these risks, we have created the [Responsible Use Guide](https://github.com/facebookresearch/llama/blob/main/Responsible-Use-Guide.pdf). More details can be found in our research papers as well.
 
 ## Issues
-Please report any software “bug,” or other problems with the models through one of the following means:
+Please report any software “bug”, or other problems with the models through one of the following means:
 - Reporting issues with the model: [github.com/facebookresearch/codellama](http://github.com/facebookresearch/codellama)
 - Reporting risky content generated by the model: [developers.facebook.com/llama_output_feedback](http://developers.facebook.com/llama_output_feedback)
 - Reporting bugs and security concerns: [facebook.com/whitehat/info](http://facebook.com/whitehat/info)

@@ -1,9 +1,9 @@
 ---
 title: nitter
-date: 2024-01-30T12:17:31+08:00
+date: 2024-01-31T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684162440652-107bf47ab89b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1ODgwNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705844996076-eaf8cfad3a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705844996076-eaf8cfad3a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [zedeus/nitter](https://github.com/zedeus/nitter)

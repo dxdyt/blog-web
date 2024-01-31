@@ -1,9 +1,9 @@
 ---
 title: moondream
-date: 2024-01-26T12:17:23+08:00
+date: 2024-01-31T12:15:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704241135858-2e10153afaec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704241135858-2e10153afaec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [vikhyat/moondream](https://github.com/vikhyat/moondream)
@@ -16,7 +16,7 @@ a tiny vision language model that kicks ass and runs anywhere
 
 1.6B parameter model built using SigLIP, Phi-1.5 and the LLaVA training dataset.
 Weights are licensed under CC-BY-SA due to using the LLaVA dataset. Try it out
-on [Huggingface Spaces](https://huggingface.co/spaces/vikhyatk/moondream1)!
+on [Hugging Face Spaces](https://huggingface.co/spaces/vikhyatk/moondream1)!
 
 **Benchmarks**
 

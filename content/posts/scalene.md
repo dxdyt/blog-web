@@ -1,14 +1,14 @@
 ---
 title: scalene
-date: 2023-09-02T12:16:09+08:00
+date: 2024-01-31T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692731753558-f7913c3e0076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692731753558-f7913c3e0076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM2MjgwNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705844996076-eaf8cfad3a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705844996076-eaf8cfad3a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [plasma-umass/scalene](https://github.com/plasma-umass/scalene)
 
-![scalene](https://github.com/plasma-umass/scalene/raw/master/docs/scalene-image.png)
+![scalene](https://github.com/plasma-umass/scalene/raw/master/docs/scalene-icon-white.png)
 
 # Scalene: a Python CPU+GPU+memory profiler with AI-powered optimization proposals
 
@@ -16,7 +16,7 @@ by [Emery Berger](https://emeryberger.com), [Sam Stern](https://samstern.me/), a
 
 [![Scalene community Slack](https://github.com/plasma-umass/scalene/raw/master/docs/images/slack-logo.png)](https://join.slack.com/t/scaleneprofil-jge3234/shared_invite/zt-110vzrdck-xJh5d4gHnp5vKXIjYD3Uwg)[Scalene community Slack](https://join.slack.com/t/scaleneprofil-jge3234/shared_invite/zt-110vzrdck-xJh5d4gHnp5vKXIjYD3Uwg)
 
-[![PyPI Latest Release](https://img.shields.io/pypi/v/scalene.svg)](https://pypi.org/project/scalene/)[![Anaconda-Server Badge](https://anaconda.org/conda-forge/scalene/badges/version.svg)](https://anaconda.org/conda-forge/scalene)[![Downloads](https://static.pepy.tech/badge/scalene)](https://pepy.tech/project/scalene) [![Downloads](https://static.pepy.tech/badge/scalene/month)](https://pepy.tech/project/scalene) ![Python versions](https://img.shields.io/pypi/pyversions/scalene.svg?style=flat-square) ![License](https://img.shields.io/github/license/plasma-umass/scalene)
+[![PyPI Latest Release](https://img.shields.io/pypi/v/scalene.svg)](https://pypi.org/project/scalene/)[![Anaconda-Server Badge](https://img.shields.io/conda/v/conda-forge/scalene)](https://anaconda.org/conda-forge/scalene) [![Downloads](https://static.pepy.tech/badge/scalene)](https://pepy.tech/project/scalene)[![Anaconda downloads](https://img.shields.io/conda/d/conda-forge/scalene?logo=conda)](https://anaconda.org/conda-forge/scalene) [![Downloads](https://static.pepy.tech/badge/scalene/month)](https://pepy.tech/project/scalene) ![Python versions](https://img.shields.io/pypi/pyversions/scalene.svg?style=flat-square)[![Visual Studio Code Extension version](https://img.shields.io/visual-studio-marketplace/v/emeryberger.scalene?logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=EmeryBerger.scalene) ![License](https://img.shields.io/github/license/plasma-umass/scalene)
 
 ![Ozsvald tweet](https://github.com/plasma-umass/scalene/raw/master/docs/Ozsvald-tweet.png)
 
@@ -24,6 +24,8 @@ by [Emery Berger](https://emeryberger.com), [Sam Stern](https://samstern.me/), a
 
 ![Semantic Scholar success story](https://github.com/plasma-umass/scalene/raw/master/docs/semantic-scholar-success.png)
 
+***Scalene web-based user interface:*** [http://plasma-umass.org/scalene-gui/](http://plasma-umass.org/scalene-gui/)
+ 
 ## About Scalene
 
 Scalene is a high-performance CPU, GPU *and* memory profiler for
@@ -63,9 +65,23 @@ conda install -c conda-forge scalene
 
 #### Using Scalene:
 
+After installing Scalene, you can use Scalene at the command line, or as a Visual Studio Code extension.
+
+<details>
+  <summary>
+    Using the Scalene VS Code Extension:
+  </summary>
+  
+
+First, install <a href="https://marketplace.visualstudio.com/items?itemName=EmeryBerger.scalene">the Scalene extension from the VS Code Marketplace</a> or by searching for it within VS Code by typing Command-Shift-X (Mac) or Ctrl-Shift-X (Windows). Once that's installed, click Command-Shift-P or Ctrl-Shift-P to open the <a href="https://code.visualstudio.com/docs/getstarted/userinterface">Command Palette</a>. Then select <b>"Scalene: AI-powered profiling..."</b> (you can start typing Scalene and it will pop up if it's installed). Run that and, assuming your code runs for at least a second, a Scalene profile will appear in a webview.
+  
+<img width="734" alt="Screenshot 2023-09-20 at 7 09 06 PM" src="https://github.com/plasma-umass/scalene/assets/1612723/7e78e3d2-e649-4f02-86fd-0da2a259a1a4">
+
+</details>
+
 <details>
 <summary>
-Commonly used options:
+Commonly used command-line options:
 </summary>
 
 ```console
@@ -325,10 +341,15 @@ code...
 
 ## Installation
 
-<details>
+<details open>
 <summary>Using <code>pip</code> (Mac OS X, Linux, Windows, and WSL2)</summary>
 
-Scalene is distributed as a `pip` package and works on Mac OS X, Linux (including Ubuntu in [Windows WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index)) and (with limitations) Windows platforms. (**Note**: the Windows version isn't yet complete; it currently only supports CPU and GPU profiling, but not memory profiling.)
+Scalene is distributed as a `pip` package and works on Mac OS X, Linux (including Ubuntu in [Windows WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index)) and (with limitations) Windows platforms.
+
+> **Note**
+>
+> The Windows version currently only supports CPU and GPU profiling, but not memory or copy profiling.
+> 
 
 You can install it as follows:
 ```console
@@ -351,16 +372,19 @@ For Ubuntu/Debian:
 ```
 </details>
 
-
 <details>
-<summary>Using <code>Homebrew</code> (Mac OS X)</summary>
-
-As an alternative to `pip`, you can use Homebrew to install the current version of Scalene from this repository:
+<summary>Using <code>conda</code> (Mac OS X, Linux, Windows, and WSL2)</summary>
 
 ```console
-  % brew tap plasma-umass/scalene
-  % brew install --head plasma-umass/scalene/scalene
+  % conda install -c conda-forge scalene
 ```
+
+Scalene is distributed as a `conda` package and works on Mac OS X, Linux (including Ubuntu in [Windows WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-index)) and (with limitations) Windows platforms.
+
+> **Note**
+>
+> The Windows version currently only supports CPU and GPU profiling, but not memory or copy profiling.
+> 
 </details>
 
 <details>
@@ -426,9 +450,32 @@ How do I use Scalene with PyTorch on the Mac?
 
 For details about how Scalene works, please see the following paper, which won the Jay Lepreau Best Paper Award at [OSDI 2023](https://www.usenix.org/conference/osdi23/presentation/berger): [Triangulating Python Performance Issues with Scalene](https://arxiv.org/pdf/2212.07597). (Note that this paper does not include information about the AI-driven proposed optimizations.)
 
+<details>
+<summary>
+To cite Scalene in an academic paper, please use the following:
+</summary>
+
+```latex
+@inproceedings{288540,
+author = {Emery D. Berger and Sam Stern and Juan Altmayer Pizzorno},
+title = {Triangulating Python Performance Issues with {S}calene}},
+booktitle = {{17th USENIX Symposium on Operating Systems Design and Implementation (OSDI 23)}},
+year = {2023},
+isbn = {978-1-939133-34-2},
+address = {Boston, MA},
+pages = {51--64},
+url = {https://www.usenix.org/conference/osdi23/presentation/berger},
+publisher = {USENIX Association},
+month = jul
+}
+```
+</details>
+
+
 # Success Stories
 
 If you use Scalene to successfully debug a performance problem, please [add a comment to this issue](https://github.com/plasma-umass/scalene/issues/58)!
+
 
 # Acknowledgements
 

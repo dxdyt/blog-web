@@ -1,9 +1,9 @@
 ---
 title: sway
-date: 2023-07-07T12:18:31+08:00
+date: 2024-01-31T12:17:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685390974459-9aa10daa8180?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685390974459-9aa10daa8180?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg3MDM0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703994643972-22956416b857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703994643972-22956416b857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/sway](https://github.com/FuelLabs/sway)
@@ -20,6 +20,8 @@ Sway is a language developed for the Fuel blockchain. It is heavily inspired by 
 ## Documentation
 
 For user documentation, including installing release builds, see the Sway Book: <https://fuellabs.github.io/sway/latest/>.
+
+For Sway Standard library documentation, see: <https://fuellabs.github.io/sway/master/std/>
 
 Also view the technical reference for the Sway programming language: <https://fuellabs.github.io/sway/master/reference/>
 

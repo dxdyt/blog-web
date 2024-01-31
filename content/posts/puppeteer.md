@@ -1,9 +1,9 @@
 ---
 title: puppeteer
-date: 2024-01-06T12:17:33+08:00
+date: 2024-01-31T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702550484181-8321ef193e77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702550484181-8321ef193e77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703994643972-22956416b857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703994643972-22956416b857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
 ---
 
 # [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
@@ -56,10 +56,10 @@ pnpm i puppeteer
 ```
 
 When you install Puppeteer, it automatically downloads a recent version of
-[Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) (~170MB macOS, ~282MB Linux, ~280MB Windows) that is [guaranteed to
+[Chrome for Testing](https://developer.chrome.com/blog/chrome-for-testing/) (~170MB macOS, ~282MB Linux, ~280MB Windows) and a `chrome-headless-shell` binary (starting with Puppeteer v21.6.0) that is [guaranteed to
 work](https://pptr.dev/faq#q-why-doesnt-puppeteer-vxxx-work-with-chromium-vyyy)
 with Puppeteer. The browser is downloaded to the `$HOME/.cache/puppeteer` folder
-by default (starting with Puppeteer v19.0.0).
+by default (starting with Puppeteer v19.0.0). See [configuration](https://pptr.dev/api/puppeteer.configuration) for configuration options and environmental variables to control the download behavor.
 
 If you deploy a project using Puppeteer to a hosting provider, such as Render or
 Heroku, you might need to reconfigure the location of the cache to be within
@@ -166,10 +166,10 @@ import puppeteer from 'puppeteer';
   await page.setViewport({width: 1080, height: 1024});
 
   // Type into search box
-  await page.type('.search-box__input', 'automate beyond recorder');
+  await page.type('.devsite-search-field', 'automate beyond recorder');
 
   // Wait and click on first result
-  const searchResultSelector = '.search-box__link';
+  const searchResultSelector = '.devsite-result-item-link';
   await page.waitForSelector(searchResultSelector);
   await page.click(searchResultSelector);
 
