@@ -1,9 +1,9 @@
 ---
 title: 90DaysOfCyberSecurity
-date: 2024-01-31T12:16:10+08:00
+date: 2024-02-01T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704121355552-10ac4d5b1677?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704121355552-10ac4d5b1677?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705866649609-9ea7159fe1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705866649609-9ea7159fe1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
 ---
 
 # [farhanashrafdev/90DaysOfCyberSecurity](https://github.com/farhanashrafdev/90DaysOfCyberSecurity)

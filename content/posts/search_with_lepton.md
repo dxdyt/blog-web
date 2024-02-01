@@ -1,9 +1,9 @@
 ---
 title: search_with_lepton
-date: 2024-01-31T12:15:01+08:00
+date: 2024-02-01T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704121355552-10ac4d5b1677?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704121355552-10ac4d5b1677?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704510204319-16a1ae46d16b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704510204319-16a1ae46d16b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
 ---
 
 # [leptonai/search_with_lepton](https://github.com/leptonai/search_with_lepton)

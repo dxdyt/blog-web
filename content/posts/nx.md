@@ -1,9 +1,9 @@
 ---
 title: nx
-date: 2023-09-28T12:16:41+08:00
+date: 2024-02-01T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692736230219-d2c2d9afeecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692736230219-d2c2d9afeecc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU4NzQ0ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704173423733-d01e3466645a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704173423733-d01e3466645a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
 ---
 
 # [nrwl/nx](https://github.com/nrwl/nx)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692736230219-d2c2d9afee
 <p style="text-align: center;">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-dark.svg">
-    <img alt="Nx - Smart, Fast and Extensible Build System" src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg" width="100%">
+    <img alt="Nx - Smart Monorepos · Fast CI" src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-light.svg" width="100%">
   </picture>
 </p>
 
@@ -29,9 +29,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1692736230219-d2c2d9afee
 
 <hr>
 
-# Smart, Fast and Extensible Build System
+# Smart Monorepos · Fast CI
 
-Nx is a next generation build system with first class monorepo support and powerful integrations.
+Nx is a build system with built-in tooling and advanced CI capabilities. It helps you maintain and scale monorepos, both locally and on CI.
 
 A few links to help you get started:
 
@@ -42,7 +42,7 @@ A few links to help you get started:
 - [Blog Posts About Nx](https://blog.nrwl.io/nx/home)
 
 <p style="text-align: center;"><a href="https://nx.dev/#learning-materials" target="_blank" rel="noreferrer"><img src="./images/nx-courses-and-videos.svg" 
-width="100%" alt="Nx - Smart, Fast and Extensible Build System"></a></p>
+width="100%" alt="Nx - Smart Monorepos · Fast CI"></a></p>
 
 # Engage with the Core Team and the Community
 
@@ -83,7 +83,7 @@ help you get started.
 | ![Emily Xiong](https://avatars.githubusercontent.com/u/16211801?s=160) | ![Miroslav Jonaš](https://avatars.githubusercontent.com/u/881612?s=160) | ![Leosvel Pérez Espinosa](https://avatars.githubusercontent.com/u/12051310?s=160) | ![Zachary DeRose](https://avatars.githubusercontent.com/u/3788405?s=160) |
 | [xiongemi](https://github.com/xiongemi)                                | [meeroslav](https://github.com/meeroslav)                               | [leosvelperez](https://github.com/leosvelperez)                                   | [ZackDeRose](https://github.com/ZackDeRose)                              |
 
-| Craigory Coppola                                                           | Chau Tran                                                            | Nicholas Cunningham                                                          |
-| -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ![Craigory Coppola](https://avatars.githubusercontent.com/u/6933928?s=160) | ![Chau Tran](https://avatars.githubusercontent.com/u/25516557?s=160) | ![Nicholas Cunningham](https://avatars.githubusercontent.com/u/338948?s=160) |
-| [AgentEnder](https://github.com/AgentEnder)                                | [nartc](https://github.com/nartc)                                    | [ndcunningham](https://github.com/ndcunningham)                              |
+| Craigory Coppola                                                           | Chau Tran                                                            | Nicholas Cunningham                                                          | Max Kless                                                            |
+| -------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| ![Craigory Coppola](https://avatars.githubusercontent.com/u/6933928?s=160) | ![Chau Tran](https://avatars.githubusercontent.com/u/25516557?s=160) | ![Nicholas Cunningham](https://avatars.githubusercontent.com/u/338948?s=160) | ![Max Kless](https://avatars.githubusercontent.com/u/34165455?s=160) |
+| [AgentEnder](https://github.com/AgentEnder)                                | [nartc](https://github.com/nartc)                                    | [ndcunningham](https://github.com/ndcunningham)                              | [MaxKless](https://github.com/MaxKless)                              |

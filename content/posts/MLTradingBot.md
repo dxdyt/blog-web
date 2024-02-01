@@ -1,9 +1,9 @@
 ---
 title: MLTradingBot
-date: 2024-01-31T12:17:17+08:00
+date: 2024-02-01T12:19:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704241135858-2e10153afaec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704241135858-2e10153afaec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1696891412325-1d3879a623d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1696891412325-1d3879a623d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
 ---
 
 # [nicknochnack/MLTradingBot](https://github.com/nicknochnack/MLTradingBot)

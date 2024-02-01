@@ -1,9 +1,9 @@
 ---
 title: leptonai
-date: 2024-01-29T12:16:54+08:00
+date: 2024-02-01T12:16:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705582350747-b5c716d1aa45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705582350747-b5c716d1aa45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
 ---
 
 # [leptonai/leptonai](https://github.com/leptonai/leptonai)

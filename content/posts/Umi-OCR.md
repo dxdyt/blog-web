@@ -1,9 +1,9 @@
 ---
 title: Umi-OCR
-date: 2024-01-05T12:17:18+08:00
+date: 2024-02-01T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705582350747-b5c716d1aa45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705582350747-b5c716d1aa45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
 ---
 
 # [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
@@ -74,7 +74,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe8
 - **方便**：解压即用，离线运行，无需网络。
 - **高效**：自带高效率离线OCR引擎。只要电脑性能足够，可以比在线OCR服务更快。
 - **灵活**：支持命令行、HTTP接口等多种调用方式。
-- **功能**：截图OCR / 批量OCR / 二维码 / 数学公式识别（[测试中](https://github.com/hiroi-sora/Umi-OCR/issues/254)）
+- **功能**：截图OCR / 批量OCR / 二维码 / 公式识别（[测试中](https://github.com/hiroi-sora/Umi-OCR/issues/254)） / PDF识别（[测试中](https://github.com/hiroi-sora/Umi-OCR/releases)）
 
 <p align="center"><img src="https://tupian.li/images/2023/11/19/65599097ab5f4.png" alt="1-标题-1.png" style="width: 80%;"></p>
 
@@ -87,6 +87,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1631559416257-aca23abbe8
 - [批量识别](#批量OCR)
   - [忽略区域](#忽略区域) - 排除截图水印处的文字
 - [二维码](#二维码) 支持扫码或生成二维码图片
+- [文档识别](#文档识别) 从PDF扫描件中提取文本，或转为双层可搜索PDF
 - [全局设置](#全局设置) 添加更多PP-OCR支持的语言模型库！
 - [命令行调用](docs/README_CLI.md)
 - [HTTP接口](docs/README_HTTP.md)
@@ -188,6 +189,19 @@ Umi-OCR v2 由一系列灵活好用的**标签页**组成。您可按照自己�
 
 ---
 
+### 文档识别
+
+<p align="center"><img src="https://github.com/hiroi-sora/Umi-OCR/assets/56373419/fc2266ee-b9b7-4079-8b10-6610e6da6cf5" alt="" style="width: 80%;"></p>
+
+仅在 [最新测试版](https://github.com/hiroi-sora/Umi-OCR/releases) 中支持。
+
+**文档识别**：
+- 支持导入`pdf, xps, epub, mobi, fb2, cbz`格式的文件。
+- 支持识别扫描件，转为文本文件（支持所有格式文档）或**可搜索双层PDF**（仅支持原文件为pdf格式）。
+- 支持设定忽略区域，可排除页眉页脚的文字。
+
+---
+
 ### 全局设置
 
 <p align="center"><img src="https://tupian.li/images/2023/11/19/655991252e780.png" alt="5-全局设置-1.png" style="width: 80%;"></p>
@@ -245,7 +259,7 @@ Umi-OCR v2 由一系列灵活好用的**标签页**组成。您可按照自己�
 
 近期准备进行的工作，将会在 v2 头几个版本内逐步上线。
 
-- [ ] PDF识别
+- [x] PDF识别
 - [ ] 图片翻译
 
 ##### 远期计划
