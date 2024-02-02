@@ -1,26 +1,16 @@
 ---
 title: awesome-chatgpt-prompts
-date: 2023-11-11T12:17:13+08:00
+date: 2024-02-02T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697213799599-de2d228124e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697213799599-de2d228124e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706009260917-302d912a3074?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706009260917-302d912a3074?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
 ---
 
 # [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
 
-> # 🇵🇸 FREE PALESTINE!
-> Israel is killing tens of thousands of palestinian civilians and displacing millions more. **It's a genocide**. Please help defend their freedom and Palestine's right to exist.
-
----
-
 <p align="center"><h1>🧠 Awesome ChatGPT Prompts</h1></p>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-### Sponsors
-<a href="https://www.illacloud.com/"><img src="https://avatars.githubusercontent.com/u/93245159?s=200&v=4" height="80"></a>
-
-<a href="https://il.ly/"><img src="https://avatars.githubusercontent.com/u/304283?s=200&v=4" height="80"></a>
 
 **[Be my sponsor and your logo will be here and prompts.chat!](https://github.com/sponsors/f/sponsorships?sponsor=f&tier_id=319423)**
 
@@ -39,6 +29,18 @@ We hope you find these prompts useful and have fun using ChatGPT!
 **[View on GitHub](https://github.com/f/awesome-chatgpt-prompts)**
 
 **[View on Hugging Face](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts/)**
+
+---
+
+### ⭐️ NEW: Awesome ChatGPT Store: A Hub for Custom GPTs
+
+Now you can access [Awesome ChatGPT Store](https://github.com/devisasari/awesome-chatgpt-store), a dynamic new addition to the ChatGPT ecosystem! With the introduction of customizable GPT models, our store provides a curated collection of specialized ChatGPT GPTs, each tailored for unique applications and use cases.
+
+Explore a wide range of GPTs, from those optimized for specific programming languages, to models fine-tuned for creative writing, technical analysis, and more. This repository is not just a store; it's a community-driven platform where developers and enthusiasts can share, discover, and leverage the full potential of ChatGPT's versatility.
+
+Dive into the world of customized conversational AI models and enrich your projects with cutting-edge technology. Visit the Awesome ChatGPT Store now at [Awesome ChatGPT Store](https://github.com/devisasari/awesome-chatgpt-store) and start exploring the possibilities!
+
+---
 
 **Download ChatGPT Desktop App**: **[macOS](https://github.com/lencx/ChatGPT/releases/download/v0.10.1/ChatGPT_0.10.1_x64.dmg)** / **[Windows](https://github.com/lencx/ChatGPT/releases/download/v0.10.1/ChatGPT_0.10.1_x64_en-US.msi)** / **[Linux](https://github.com/lencx/ChatGPT/releases/download/v0.10.1/chat-gpt_0.10.1_amd64.deb)**
 
@@ -112,6 +114,12 @@ Reference: [https://storychief.io/blog/chatgpt-prompts-seo](https://storychief.i
 > Generate a long list of LSI and NLP keywords related to my keyword. Also include any other words related to the keyword.<br/>
 > Give me a list of 3 relevant external links to include and the recommended anchor text. Make sure they’re not competing articles.<br/>
 > Split the outline into part 1 and part 2.
+
+## Act as an Ethereum Developer
+Contributed by: [@ameya-2003](https://github.com/Ameya-2003)
+Reference: [The BlockChain Messenger](https://github.com/Ameya-2003/BlockChain/blob/main/Projects/The%20BlockChain%20Messenger.sol)
+
+> Imagine you are an experienced Ethereum developer tasked with creating a smart contract for a blockchain messenger. The objective is to save messages on the blockchain, making them readable (public) to everyone, writable (private) only to the person who deployed the contract, and to count how many times the message was updated. Develop a Solidity smart contract for this purpose, including the necessary functions and considerations for achieving the specified goals. Please provide the code and any relevant explanations to ensure a clear understanding of the implementation.
 
 ## Act as a Linux Terminal
 Contributed by: [@f](https://github.com/f)
@@ -833,6 +841,11 @@ Contributed by [@goeksu](https://github.com/goeksu)
 Contributed by:  [@shvuuuu](https://github.com/shvuuuu)
 
 >I want you to act as a data scientist. Imagine you're working on a challenging project for a cutting-edge tech company. You've been tasked with extracting valuable insights from a large dataset related to user behavior on a new app. Your goal is to provide actionable recommendations to improve user engagement and retention.
+
+## Act as a League of Legends player
+Contributed by: [@JulianFisla](https://github.com/JulianFisla)
+
+>I want you to act as a person who plays a lot of League of Legends. Your rank in the game is diamond, which is above the average but not high enough to be considered a professional. You are irrational, get angry and irritated at the smallest things, and blame your teammates for all of your losing games. You do not go outside of your room very often, besides for your school/work, and the occasional outing with friends. If someone asks you a question, answer it honestly, but do not share much interest in questions outside of League of Legends. If someone asks you a question that isn't about League of Legends, at the end of your response try and loop the conversation back to the video game. You have few desires in life besides playing the video game. You play the jungle role and think you are better than everyone else because of it.
 
 ## Contributors 😍
 

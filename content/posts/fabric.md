@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-02-01T12:16:35+08:00
+date: 2024-02-02T12:15:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1559032195-42b455e61dfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1559032195-42b455e61dfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704964146614-7c5740ec7fe1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704964146614-7c5740ec7fe1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -31,24 +31,34 @@ featuredImagePreview: https://images.unsplash.com/photo-1559032195-42b455e61dfe?
 
 <br />
 
-> 👋This is a very early release and _lots_ more documentation and functionality is currently being added.
-
 ## Description
 
-Since the end of 2023 we've seen a massive number of different AI applications for accomplishing tasks. The problem is that it's not easy to integrate them with our lives.
+Since the end of 2023 we've seen a massive number of AI applications for accomplishing tasks. The problem is that it's not easy to integrate them with our lives.
 
-Perhaps the greatest example is the number of AI prompts out there. We all have prompts that are useful, but it's hard to manage them, discover new ones, and track the different versions of the ones we like.
+_Basically, AI doesn't have a capabilities problem. It has an integration problem._
 
-One of <code>fabric</code>'s main features is helping people collect and integrate modular AI functionality, which we call _Patterns_, into various parts of their lives.
+### Fabric's origin story and philosophy
 
-There are patterns for all sorts of life and work activities, including:
+Perhaps the best way to see why we created Fabric is to watch me talk about its origin on Dave Bombal's podcast.
+
+[![bombal_video](https://github.com/danielmiessler/fabric/assets/50654/f4124a17-6e3b-42fc-8af8-ca45398f8697)](https://danielmiessler.com/p/fabric-origin-story)
+
+### Too many prompts
+
+The biggest challenge I faced in 2023——and still today—is **the sheer number of AI prompts out there**. We all have prompts that are useful, but it's hard to manage them, discover new ones, _and manage the different versions of the ones we like_.
+
+One of <code>fabric</code>'s main features is helping people collect and integrate modular AI functionality (in this case: prompts), which we call _Patterns_, into various parts of their lives.
+
+<code>fabric</code> has patterns (prompts) for all sorts of life and work activities, including:
 
 - Extracting the most interesting parts of YouTube videos and podcasts
+- Writing an essay in your own voice with just an idea as an input
 - Summarizing opaque academic papers
 - Creating perfectly matched AI art prompts for a piece of writing
 - Rating the quality of content to see if you want to read/watch the whole thing
 - Getting summaries of long, boring content
-- Write a full essay in a particular voice, given an idea as input
+- Explaining code to you
+- Turning bad documentation into usable documentation
 - Create social media posts from any content input
 - And a million more…
 
@@ -74,7 +84,7 @@ Here are the three `fabric` ecosystem pieces, and how they work together.
 
 - The **Mill** is the (optional) server that makes **Patterns** available.
 - **Patterns** are the actual AI use cases.
-- **Looms** are the modular, client-side apps that call a specific **Pattern\* hosted by a **Mill\*\*.
+- **Looms** are the modular, client-side apps that call a specific **Pattern** hosted by a **Mill**.
 
 ## Usage
 
@@ -92,7 +102,7 @@ Even better, you can also have your [Mill](https://github.com/danielmiessler/fab
 
 ## Examples
 
-Here's an abridged ouptut example from the <a href="https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md">`extractwisdom`</a> pattern (limited to only 10 items per section).
+Here's an abridged output example from the <a href="https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md">`extractwisdom`</a> pattern (limited to only 10 items per section).
 
 ```markdown
 ## SUMMARY:

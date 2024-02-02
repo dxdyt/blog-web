@@ -1,9 +1,9 @@
 ---
 title: sample-app-aoai-chatGPT
-date: 2024-02-01T12:18:55+08:00
+date: 2024-02-02T12:17:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705103325780-0bd586187adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705103325780-0bd586187adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705648373513-4a886ddb7636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705648373513-4a886ddb7636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/sample-app-aoai-chatGPT](https://github.com/microsoft/sample-app-aoai-chatGPT)

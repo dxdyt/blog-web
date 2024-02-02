@@ -1,9 +1,9 @@
 ---
 title: MoE-LLaVA
-date: 2024-02-01T12:18:02+08:00
+date: 2024-02-02T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704731016470-d39be735cc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704731016470-d39be735cc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705648373513-4a886ddb7636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705648373513-4a886ddb7636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/MoE-LLaVA](https://github.com/PKU-YuanGroup/MoE-LLaVA)
@@ -43,6 +43,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1704731016470-d39be735cc
 
 
 ## 📰 News
+* **[2024.02.01]**  🔥 People who cannot access HF can now download the model through the <img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;"> model scope, checking our [model zoo](#-model-zoo).
 * **[2024.01.30]**  🔥 We release a stronger [MoE-LLaVA-Phi2](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384). **The average performance surpasses LLaVA-1.5-7B by using 3.6B sparse activated parameters,** checking our [model zoo](#-model-zoo).
 * **[2024.01.27]**  🤗 [Hugging Face demo](https://huggingface.co/spaces/LanguageBind/MoE-LLaVA) and **all codes & datasets** are available now! Welcome to **watch** 👀 this repository for the latest updates.
 
@@ -99,13 +100,13 @@ deepspeed --include localhost:0 moellava/serve/cli.py --model-path "LanguageBind
 
 ## 🐳 Model Zoo
 
-| Model | Activated Param | Checkpoint | Avg | VQAv2 | GQA | VizWiz | SQA | T-VQA | POPE | MM-Bench | MM-Vet |
-|----------|-----------|-----------|---|---|---|---|---|---|---|---|---|
-| MoE-LLaVA-1.6B×4-Top2 | 2.0B | [LanguageBind/MoE-LLaVA-StableLM-1.6B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-1.6B-4e) | 57.3 | 76.7 | 60.3 | 36.2 | 62.6 | 50.1 | 85.7 | 60.2 | 26.9 |
-| MoE-LLaVA-1.8B×4-Top2 | 2.2B | [LanguageBind/MoE-LLaVA-Qwen-1.8B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-Qwen-1.8B-4e) | 56.7 | 76.2 | 61.5 | 32.6 | 63.1 | 48.0 | 87.0 | 59.6 | 25.3 |
-| MoE-LLaVA-2.7B×4-Top2 | 3.6B | [LanguageBind/MoE-LLaVA-Phi2-2.7B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e) | 61.1 | 77.6 | 61.4 | 43.9 | 68.5 | 51.4 | 86.3 | 65.2 | 34.3 |
-| MoE-LLaVA-2.7B×4-Top2-384 | 3.6B | [LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384) | 62.9 | 79.9 | 62.6 | 43.7 | 70.3 | 57.0 | 85.7 | 68.0 | 35.9 |
-| LLaVA-1.5 | 7B | [liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b) | 62.0 | 78.5 | 62.0 | 50.0 | 66.8 | 58.2 | 85.9 | 64.3 | 30.5 |
+| Model | Activated Param | Transformers(HF) | ModelScope(HF) | Avg | VQAv2 | GQA | VizWiz | SQA | T-VQA | POPE | MM-Bench | MM-Vet |
+|----------|-----------|-----------|---|---|---|---|---|---|---|---|---|---|
+| MoE-LLaVA-1.6B×4-Top2 | 2.0B | [🤗LanguageBind/MoE-LLaVA-StableLM-1.6B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-StableLM-1.6B-4e) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-StableLM-1.6B-4e](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-StableLM-1.6B-4e) | 57.3 | 76.7 | 60.3 | 36.2 | 62.6 | 50.1 | 85.7 | 60.2 | 26.9 |
+| MoE-LLaVA-1.8B×4-Top2 | 2.2B | [🤗LanguageBind/MoE-LLaVA-Qwen-1.8B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-Qwen-1.8B-4e) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-Qwen-1.8B-4e](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-Qwen-1.8B-4e) | 56.7 | 76.2 | 61.5 | 32.6 | 63.1 | 48.0 | 87.0 | 59.6 | 25.3 |
+| MoE-LLaVA-2.7B×4-Top2 | 3.6B | [🤗LanguageBind/MoE-LLaVA-Phi2-2.7B-4e](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e) | 61.1 | 77.6 | 61.4 | 43.9 | 68.5 | 51.4 | 86.3 | 65.2 | 34.3 |
+| MoE-LLaVA-2.7B×4-Top2-384 | 3.6B | [🤗LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384](https://huggingface.co/LanguageBind/MoE-LLaVA-Phi2-2.7B-4e-384) | [<img src="https://github.com/PKU-YuanGroup/MoE-LLaVA/raw/main/assets/modelscope_logo.png" width="20px" style="max-width: 100%;">PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e-384](https://modelscope.cn/models/PKU-YuanLab/MoE-LLaVA-Phi2-2.7B-4e-384) | **62.9** | 79.9 | 62.6 | 43.7 | 70.3 | 57.0 | 85.7 | 68.0 | 35.9 |
+| LLaVA-1.5 | 7B | [🤗liuhaotian/llava-v1.5-7b](https://huggingface.co/liuhaotian/llava-v1.5-7b) | - | 62.0 | 78.5 | 62.0 | 50.0 | 66.8 | 58.2 | 85.9 | 64.3 | 30.5 |
 
 <!--
 | LLaVA-1.5 | 13B | [liuhaotian/llava-v1.5-13b](https://huggingface.co/liuhaotian/llava-v1.5-13b) | 64.9 | 80.0 | 63.3 | 53.6 | 71.6 | 61.3 | 85.9 | 67.7 | 35.4 |
@@ -170,6 +171,7 @@ deepspeed --include localhost:0 predict.py
 
 ```python
 import torch
+from PIL import Image
 from moellava.constants import IMAGE_TOKEN_INDEX, DEFAULT_IMAGE_TOKEN
 from moellava.conversation import conv_templates, SeparatorStyle
 from moellava.model.builder import load_pretrained_model
@@ -189,7 +191,7 @@ def main():
     conv_mode = "phi"  # qwen or stablelm
     conv = conv_templates[conv_mode].copy()
     roles = conv.roles
-    image_tensor = image_processor.preprocess(image, return_tensors='pt')['pixel_values'].to(model.device, dtype=torch.float16)
+    image_tensor = image_processor.preprocess(Image.open(image).convert('RGB'), return_tensors='pt')['pixel_values'].to(model.device, dtype=torch.float16)
 
     print(f"{roles[1]}: {inp}")
     inp = DEFAULT_IMAGE_TOKEN + '\n' + inp

@@ -1,9 +1,9 @@
 ---
 title: excelCPU
-date: 2024-02-01T12:16:59+08:00
+date: 2024-02-02T12:16:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705103325780-0bd586187adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705103325780-0bd586187adf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704739308671-96dd994617d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704739308671-96dd994617d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
 ---
 
 # [InkboxSoftware/excelCPU](https://github.com/InkboxSoftware/excelCPU)
