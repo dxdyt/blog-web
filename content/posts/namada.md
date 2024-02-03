@@ -1,9 +1,9 @@
 ---
 title: namada
-date: 2024-01-03T12:16:58+08:00
+date: 2024-02-03T12:15:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701970912790-fdf92cd1b183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701970912790-fdf92cd1b183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706558429630-0b7a10fa0633?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706558429630-0b7a10fa0633?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
 ---
 
 # [anoma/namada](https://github.com/anoma/namada)

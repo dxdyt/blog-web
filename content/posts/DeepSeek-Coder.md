@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-Coder
-date: 2023-11-10T12:15:42+08:00
+date: 2024-02-03T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698002253060-b82a6336fd85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698002253060-b82a6336fd85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1ODk3MDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703442701300-cb06c58378a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703442701300-cb06c58378a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)
@@ -12,6 +12,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1698002253060-b82a6336fd
 <img width="1000px" alt="DeepSeek Coder" src="pictures/logo.png">
 </p>
 <p align="center"><a href="https://www.deepseek.com/">[<img src="pictures/home.png" width="20px"> Homepage]</a> | <a href="https://coder.deepseek.com/">[🤖 Chat with DeepSeek Coder]</a> | <a href="https://huggingface.co/deepseek-ai">[🤗 Models Download]</a> | <a href="https://discord.gg/Tc7c45Zzu5">[Discord]</a> | <a href="https://github.com/guoday/assert/blob/main/QR.png?raw=true">[WeChat (微信)]</a></p>
+<p align="center">
+  <a href="https://arxiv.org/abs/2401.14196"><b>Paper Link</b>👁️</a>
+</p>
 <hr>
 
 
@@ -31,6 +34,8 @@ DeepSeek Coder is composed of a series of code language models, each trained fro
 
 - **Advanced Code Completion Capabilities**: A window size of 16K and a fill-in-the-blank task, supporting project-level code completion and infilling tasks.
 
+#### Supported Programming Languages
+`['ada', 'agda', 'alloy', 'antlr', 'applescript', 'assembly', 'augeas', 'awk', 'batchfile', 'bluespec', 'c', 'c-sharp', 'clojure', 'cmake', 'coffeescript', 'common-lisp', 'cpp', 'css', 'cuda', 'dart', 'dockerfile', 'elixir', 'elm', 'emacs-lisp', 'erlang', 'f-sharp', 'fortran', 'glsl', 'go', 'groovy', 'haskell', 'html', 'idris', 'isabelle', 'java', 'java-server-pages', 'javascript', 'json', 'julia', 'jupyter-notebook', 'kotlin', 'lean', 'literate-agda', 'literate-coffeescript', 'literate-haskell', 'lua', 'makefile', 'maple', 'markdown', 'mathematica', 'matlab', 'ocaml', 'pascal', 'perl', 'php', 'powershell', 'prolog', 'protocol-buffer', 'python', 'r', 'racket', 'restructuredtext', 'rmarkdown', 'ruby', 'rust', 'sas', 'scala', 'scheme', 'shell', 'smalltalk', 'solidity', 'sparql', 'sql', 'stan', 'standard-ml', 'stata', 'systemverilog', 'tcl', 'tcsh', 'tex', 'thrift', 'typescript', 'verilog', 'vhdl', 'visual-basic', 'xslt', 'yacc', 'yaml', 'zig']`
 
 ### 2. Evaluation Results
 We evaluate DeepSeek Coder on various coding-related benchmarks.
@@ -82,7 +87,7 @@ Here are some examples of how to use our model.
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True).cuda()
+model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
 input_text = "#write a quick sort algorithm"
 inputs = tokenizer(input_text, return_tensors="pt").to(model.device)
 outputs = model.generate(**inputs, max_length=128)
@@ -109,7 +114,7 @@ def quick_sort(arr):
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True).cuda()
+model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
 input_text = """<｜fim▁begin｜>def quick_sort(arr):
     if len(arr) <= 1:
         return arr
@@ -135,13 +140,13 @@ This code will output the following result:
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True).cuda()
+model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-instruct", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
 messages=[
     { 'role': 'user', 'content': "write a quick sort algorithm in python."}
 ]
-inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
-# 32021 is the id of <|EOT|> token
-outputs = model.generate(inputs, max_new_tokens=512, do_sample=False, top_k=50, top_p=0.95, num_return_sequences=1, eos_token_id=32021)
+inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt").to(model.device)
+# tokenizer.eos_token_id is the id of <|EOT|> token
+outputs = model.generate(inputs, max_new_tokens=512, do_sample=False, top_k=50, top_p=0.95, num_return_sequences=1, eos_token_id=tokenizer.eos_token_id)
 print(tokenizer.decode(outputs[0][len(inputs[0]):], skip_special_tokens=True))
 ```
 This code will output the following result:
@@ -183,7 +188,7 @@ You are an AI programming assistant, utilizing the DeepSeek Coder model, develop
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM
 tokenizer = AutoTokenizer.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True).cuda()
+model = AutoModelForCausalLM.from_pretrained("deepseek-ai/deepseek-coder-6.7b-base", trust_remote_code=True, torch_dtype=torch.bfloat16).cuda()
 
 input_text = """#utils.py
 import torch
@@ -273,7 +278,52 @@ In the following scenario, the DeepSeek-Coder-6.7B model effectively calls a cla
 
 ![Completion GIF](pictures/completion_demo.gif)
 
-### 5. Detailed Evaluation Results
+### 5. How to Fine-tune DeepSeek-Coder
+
+We provide script `finetune/finetune_deepseekcoder.py` for users to finetune our models on downstream tasks.
+
+The script supports the training with [DeepSpeed](https://github.com/microsoft/DeepSpeed). You need install required packages by:
+
+```bash
+pip install -r finetune/requirements.txt
+```
+
+Please follow [Sample Dataset Format](https://huggingface.co/datasets/nickrosh/Evol-Instruct-Code-80k-v1) to prepare your training data.
+Each line is a json-serialized string with two required fields `instruction` and `output`.
+
+After data preparation, you can use the sample shell script to finetune `deepseek-ai/deepseek-coder-6.7b-instruct`. 
+Remember to specify `DATA_PATH`, `OUTPUT_PATH`.
+And please choose appropriate hyper-parameters(e.g., `learning_rate`, `per_device_train_batch_size`) according to your scenario.
+
+```bash
+DATA_PATH="<your_data_path>"
+OUTPUT_PATH="<your_output_path>"
+MODEL="deepseek-ai/deepseek-coder-6.7b-instruct"
+
+cd finetune && deepspeed finetune_deepseekcoder.py \
+    --model_name_or_path $MODEL_PATH \
+    --data_path $DATA_PATH \
+    --output_dir $OUTPUT_PATH \
+    --num_train_epochs 3 \
+    --model_max_length 1024 \
+    --per_device_train_batch_size 16 \
+    --per_device_eval_batch_size 1 \
+    --gradient_accumulation_steps 4 \
+    --evaluation_strategy "no" \
+    --save_strategy "steps" \
+    --save_steps 100 \
+    --save_total_limit 100 \
+    --learning_rate 2e-5 \
+    --warmup_steps 10 \
+    --logging_steps 1 \
+    --lr_scheduler_type "cosine" \
+    --gradient_checkpointing True \
+    --report_to "tensorboard" \
+    --deepspeed configs/ds_config_zero3.json \
+    --bf16 True
+```
+
+### 6. Detailed Evaluation Results
 
 The reproducible code for the following evaluation results can be found in the [Evaluation](https://github.com/deepseek-ai/deepseek-coder/tree/main/Evaluation) directory.
 #### 1) Multilingual HumanEval Benchmark
@@ -288,14 +338,58 @@ The reproducible code for the following evaluation results can be found in the [
 #### 4) Program-Aid Math Reasoning Benchmark
 ![Math](pictures/Math.png)
 
-### 6. Resources
+### 7. Q&A
+
+#### Could You Provide the tokenizer.model File for Model Quantization?
+
+DeepSeek Coder utilizes the [HuggingFace Tokenizer](https://huggingface.co/docs/tokenizers/index) to implement the Bytelevel-BPE algorithm, with specially designed pre-tokenizers to ensure optimal performance. Currently, there is no direct way to convert the tokenizer into a SentencePiece tokenizer. We are contributing to the open-source quantization methods facilitate the usage of HuggingFace Tokenizer.
+
+##### GGUF(llama.cpp)
+
+We have submitted a [PR](https://github.com/ggerganov/llama.cpp/pull/4070) to the popular quantization repository [llama.cpp](https://github.com/ggerganov/llama.cpp) to fully support all HuggingFace pre-tokenizers, including ours.
+
+While waiting for the PR to be merged, you can generate your GGUF model using the following steps:
+
+```bash
+git clone https://github.com/DOGEwbx/llama.cpp.git
+cd llama.cpp
+git checkout regex_gpt2_preprocess
+# set up the environment according to README
+make
+python3 -m pip install -r requirements.txt
+# generate GGUF model
+python convert-hf-to-gguf.py <MODEL_PATH> --outfile <GGUF_PATH> --model-name deepseekcoder
+# use q4_0 quantization as an example
+./quantize <GGUF_PATH> <OUTPUT_PATH> q4_0
+./main -m <OUTPUT_PATH> -n 128 -p <PROMPT>
+```
+##### GPTQ(exllamav2)
+
+`UPDATE:`[exllamav2](https://github.com/turboderp/exllamav2) has been able to support Huggingface Tokenizer. Please pull the latest version and try out.
+
+Remember to set RoPE scaling to 4 for correct output, more discussion could be found in this [PR](https://github.com/turboderp/exllamav2/pull/189).
+
+
+### 8. Resources
 [awesome-deepseek-coder](https://github.com/deepseek-ai/awesome-deepseek-coder) is a curated list of open-source projects related to DeepSeek Coder.
 
-### 7. License
+### 9. License
 This code repository is licensed under the MIT License. The use of DeepSeek Coder models is subject to the Model License. DeepSeek Coder supports commercial use.
 
 See the [LICENSE-CODE](LICENSE-CODE) and [LICENSE-MODEL](LICENSE-MODEL) for more details.
 
-### 8. Contact
+### 10. Citation
+```
+@misc{deepseek-coder,
+  author = {Daya Guo, Qihao Zhu, Dejian Yang, Zhenda Xie, Kai Dong, Wentao Zhang, Guanting Chen, Xiao Bi, Y. Wu, Y.K. Li, Fuli Luo, Yingfei Xiong, Wenfeng Liang},
+  title = {DeepSeek-Coder: When the Large Language Model Meets Programming -- The Rise of Code Intelligence},
+  journal = {CoRR},
+  volume = {abs/2401.14196},
+  year = {2024},
+  url = {https://arxiv.org/abs/2401.14196},
+}
+```
 
-If you have any questions, please raise an issue or contact us at [agi_code@deepseek.com](mailto:agi_code@deepseek.com).
+### 11. Contact
+
+If you have any questions, please raise an issue or contact us at [service@deepseek.com](mailto:service@deepseek.com).
