@@ -1,9 +1,9 @@
 ---
 title: monaspace
-date: 2023-11-15T12:17:39+08:00
+date: 2024-02-04T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698764474049-948f80fd34d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAwMjE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704235275952-d2389cf8c5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704235275952-d2389cf8c5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
 ---
 
 # [githubnext/monaspace](https://github.com/githubnext/monaspace)

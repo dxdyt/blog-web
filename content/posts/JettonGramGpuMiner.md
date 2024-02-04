@@ -1,9 +1,9 @@
 ---
 title: JettonGramGpuMiner
-date: 2024-02-03T12:16:46+08:00
+date: 2024-02-04T12:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706528465042-5f485884b84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1607699032287-f58742a2693d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1607699032287-f58742a2693d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
 ---
 
 # [TrueCarry/JettonGramGpuMiner](https://github.com/TrueCarry/JettonGramGpuMiner)

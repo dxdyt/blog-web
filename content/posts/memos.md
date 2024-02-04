@@ -1,30 +1,29 @@
 ---
 title: memos
-date: 2023-09-23T12:16:17+08:00
+date: 2024-02-04T12:14:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693152064304-cbc7a4ee7b1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705418713859-914fd7877817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705418713859-914fd7877817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
 ---
 
 # [usememos/memos](https://github.com/usememos/memos)
 
-# memos
-
-<img height="72px" src="https://usememos.com/logo.webp" alt="✍️ memos" align="right" />
+<img height="56px" src="https://www.usememos.com/full-logo-landscape.png" alt="Memos" />
 
 A privacy-first, lightweight note-taking service. Easily capture and share your great thoughts.
 
-<a href="https://usememos.com/docs">Documentation</a> •
-<a href="https://demo.usememos.com/">Live Demo</a> •
-Discuss in <a href="https://discord.gg/tfPJa4UmAv">Discord</a> / <a href="https://t.me/+-_tNF1k70UU4ZTc9">Telegram</a>
+<a href="https://www.usememos.com">Home Page</a> •
+<a href="https://www.usememos.com/blog">Blogs</a> •
+<a href="https://www.usememos.com/docs">Docs</a> •
+<a href="https://demo.usememos.com/">Live Demo</a>
 
 <p>
-  <a href="https://github.com/usememos/memos/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/usememos/memos?logo=github" /></a>
   <a href="https://hub.docker.com/r/neosmemo/memos"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/neosmemo/memos.svg"/></a>
+  <a href="https://hosted.weblate.org/engage/memos-i18n/"><img src="https://hosted.weblate.org/widget/memos-i18n/english/svg-badge.svg" alt="Translation status" /></a>
   <a href="https://discord.gg/tfPJa4UmAv"><img alt="Discord" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5" /></a>
 </p>
 
-![demo](https://usememos.com/demo.webp)
+![demo](https://www.usememos.com/demo.png)
 
 ## Key points
 
@@ -37,39 +36,26 @@ Discuss in <a href="https://discord.gg/tfPJa4UmAv">Discord</a> / <a href="https:
 ## Deploy with Docker in seconds
 
 ```bash
-docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos ghcr.io/usememos/memos:latest
+docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/memos:stable
 ```
 
 > The `~/.memos/` directory will be used as the data directory on your local machine, while `/var/opt/memos` is the directory of the volume in Docker and should not be modified.
 
-Learn more about [other installation methods](https://usememos.com/docs#installation).
+Learn more about [other installation methods](https://www.usememos.com/docs/install).
 
 ## Contribution
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. We greatly appreciate any contributions you make. Thank you for being a part of our community! 🥰
 
 <a href="https://github.com/usememos/memos/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=usememos/memos" />
+  <img src="https://contri-graphy.yourselfhosted.com/graph?repo=usememos/memos&format=svg" />
 </a>
-
----
-
-- [Moe Memos](https://memos.moe/) - Third party client for iOS and Android
-- [lmm214/memos-bber](https://github.com/lmm214/memos-bber) - Chrome extension
-- [Rabithua/memos_wmp](https://github.com/Rabithua/memos_wmp) - WeChat MiniProgram
-- [qazxcdswe123/telegramMemoBot](https://github.com/qazxcdswe123/telegramMemoBot) - Telegram bot
-- [eallion/memos.top](https://github.com/eallion/memos.top) - Static page rendered with the Memos API
-- [eindex/logseq-memos-sync](https://github.com/EINDEX/logseq-memos-sync) - Logseq plugin
-- [JakeLaoyu/memos-import-from-flomo](https://github.com/JakeLaoyu/memos-import-from-flomo) - Import data. Support from flomo, wechat reading
-- [Send to memos](https://sharecuts.cn/shortcut/12640) - A shortcut for iOS
-- [Memos Raycast Extension](https://www.raycast.com/JakeYu/memos) - Raycast extension
-- [Memos Desktop](https://github.com/xudaolong/memos-desktop) - Third party client for MacOS and Windows
-- [MemosGallery](https://github.com/BarryYangi/MemosGallery) - A static Gallery rendered with the Memos API
-
-## Acknowledgements
-
-- Thanks [Uffizzi](https://www.uffizzi.com/) for sponsoring preview environments for PRs.
 
 ## Star history
 
 [![Star History Chart](https://api.star-history.com/svg?repos=usememos/memos&type=Date)](https://star-history.com/#usememos/memos&Date)
+
+## Other resources
+
+- [**Gomark**](https://github.com/yourselfhosted/gomark): A markdown parser written in Go for Memos. And its [WebAssembly version](https://github.com/yourselfhosted/gomark-wasm) is also available.
+- [**Bytebase**](https://www.bytebase.com): World's most advanced database DevOps and CI/CD for Developer, DBA and Platform Engineering teams. The GitLab/GitHub for database DevOps.

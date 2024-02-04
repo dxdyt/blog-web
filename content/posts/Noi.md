@@ -1,15 +1,15 @@
 ---
 title: Noi
-date: 2024-01-28T12:16:52+08:00
+date: 2024-02-04T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705360130924-71f23ff03cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705360130924-71f23ff03cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704714695191-a40c000ff64b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704714695191-a40c000ff64b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
 ---
 
 # [lencx/Noi](https://github.com/lencx/Noi)
 
 <h2 align="center">
-  <img width="160" src="./assets/noi-logo.png" />
+  <img width="160" src="./website/static/readme/noi.png" />
   <p>AI + Tools + Plugins + Community</p>
 </h2>
 
@@ -39,12 +39,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1705360130924-71f23ff03c
 
 |Preview|Preview|
 |---|---|
-|![theme-dark](./assets/noi-theme-dark.png)|![theme-light](./assets/noi-theme-light.png)|
-|![batch-ask](./assets/noi-batch-ask.png)|![settings-prompts](./assets/noi-settings-prompts.png)|
-
----
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lencx/Noi&type=Timeline)](https://star-history.com/#lencx/Noi&Timeline)
+|![theme-dark](./website/static/readme/noi-theme-dark.png)|![theme-light](./website/static/readme/noi-theme-light.png)|
+|![batch-ask](./website/static/readme/noi-batch-ask.png)|![settings-prompts](./website/static/readme/noi-settings-prompts.png)|
 
 ## FAQ
 
@@ -56,7 +52,7 @@ If you encounter the error message "Noi" is damaged and can't be opened. You sho
 xattr -cr /Applications/Noi.app
 ```
 
-![mac-install-error](assets/mac-install-error.png)
+![mac-install-error](./website/static/readme/mac-install-error.png)
 
 ## TODO
 
@@ -68,4 +64,4 @@ xattr -cr /Applications/Noi.app
 
 国内用户如果遇到使用问题或者想交流 Noi，可以关注公众号「**浮之静**」，发送 “**noi**” 进群参与讨论。如果 Noi 应用对你有帮助可以分享给更多人，或者微信扫码打赏。
 
-<img height="200" src="https://user-images.githubusercontent.com/16164244/207228025-117b5f77-c5d2-48c2-a070-774b7a1596f2.png"> <img height="200" src="https://user-images.githubusercontent.com/16164244/207228300-ea5c4688-c916-4c55-a8c3-7f862888f351.png">
+<img height="240" src="https://user-images.githubusercontent.com/16164244/207228025-117b5f77-c5d2-48c2-a070-774b7a1596f2.png"> <img height="240" src="https://user-images.githubusercontent.com/16164244/207228300-ea5c4688-c916-4c55-a8c3-7f862888f351.png">

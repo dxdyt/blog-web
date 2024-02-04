@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-02-03T12:14:22+08:00
+date: 2024-02-04T12:14:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706528465042-5f485884b84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -14,35 +14,54 @@ featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b8
 
 # `fabric`
 
+![Static Badge](https://img.shields.io/badge/mission-human_flourishing_via_AI_augmentation-purple)
+<br />
+![GitHub top language](https://img.shields.io/github/languages/top/danielmiessler/fabric)
+![GitHub last commit](https://img.shields.io/github/last-commit/danielmiessler/fabric)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+<p class="align center">
 <h4><code>fabric</code> is an open-source framework for augmenting humans using AI.</h4>
+</p>
 
 [What and Why](#whatandwhy) •
+[Philosophy](#philosophy) •
 [Quickstart](#quickstart) •
-[Usage](#usage) •
-[Examples](#examples) •
 [Structure](#structure) •
-[Naming](#naming) •
+[Examples](#examples) •
 [Meta](#meta)
 
 </div>
 
-<br />
-
-## What and Why
+## What and why
 
 Since the start of 2023 and GenAI we've seen a massive number of AI applications for accomplishing tasks. It's powerful, but **it's not easy to integrate this functionality into our lives.**
 
-_In other words, AI doesn't have a capabilities problem—it has an **integration** problem._
+<div align="center">
+<h4>In other words, AI doesn't have a capabilities problem—it has an <em>integration</em> problem.</h4>
+</div>
 
-Fabric was created to address that problem by allowing everyone to leverage AI throughout our life and work.
+Fabric was created to address this by enabling everyone to granularly apply AI to everyday challenges.
+
+## Philosophy
+
+> AI isn't a thing; it's a _magnifier_ of a thing. And that thing is **human creativity**.
+
+We believe the purpose of technology is to help humans flourish, so when we talk about AI we start with the **human** problems we want to solve.
+
+### Breaking problems into components
+
+Our approach is to break problems into individual pieces (see below) and then apply AI to them one at a time. See below for some examples.
+
+<img width="2078" alt="augmented_challenges" src="https://github.com/danielmiessler/fabric/assets/50654/31997394-85a9-40c2-879b-b347e4701f06">
 
 ### Too many prompts
 
-The biggest challenge I faced in 2023——and still have today—is **the sheer number of AI prompts out there**. We all have prompts that are useful, but it's hard to manage them, discover new ones, _and manage the different versions of the ones we like_.
+Prompts are good for this, but the biggest challenge I faced in 2023——which still exists today—is **the sheer number of AI prompts out there**. We all have prompts that are useful, but it's hard to discover new ones, know if they are good or not, _and manage different versions of the ones we like_.
 
-One of <code>fabric</code>'s main features is helping people collect and integrate modular AI functionality (in this case: prompts), which we call _Patterns_, into various parts of their lives.
+One of <code>fabric</code>'s primary features is helping people collect and integrate prompts, which we call _Patterns_, into various parts of their lives.
 
-Fabric has patterns (prompts) for all sorts of life and work activities, including:
+Fabric has Patterns for all sorts of life and work activities, including:
 
 - Extracting the most interesting parts of YouTube videos and podcasts
 - Writing an essay in your own voice with just an idea as an input
@@ -55,59 +74,141 @@ Fabric has patterns (prompts) for all sorts of life and work activities, includi
 - Create social media posts from any content input
 - And a million more…
 
+### Our approach to prompting
+
+Fabric _Patterns_ are different than most prompts you'll see.
+
+- **First, we use `Markdown` to help ensure maximum readability and editability**. This not only helps the creator make a good one, but also anyone who wants to deeply understand what it does. _Importantly, this also includes the AI you're sending it to!_
+
+Here's an example of a Fabric Pattern.
+
+```bash
+https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
+```
+
+<img width="1461" alt="pattern-example" src="https://github.com/danielmiessler/fabric/assets/50654/b910c551-9263-405f-9735-71ca69bbab6d">
+
+- **Next, we are extremely clear in our instructions**, and we use the Markdown structure to emphasize what we want the AI to do, and in what order.
+
+- **And finally, we tend to use the System section of the prompt almost exclusively**. In over a year of being heads-down with this stuff, we've just seen more efficacy from doing that. If that changes, or we're shown data that says otherwise, we will adjust.
+
 ## Quickstart
 
-There are three main ways to get started with Fabric.
+The most feature-rich way to use Fabric is to use the `fabric` client, which can be found under <a href="https://github.com/danielmiessler/fabric/tree/main/client">`/client`</a> in this repository.
+
+### 1. Using the `fabric` client
+
+
+
 
 <img width="1173" alt="fabric-patterns-screenshot" src="https://github.com/danielmiessler/fabric/assets/50654/9186a044-652b-4673-89f7-71cf066f32d8">
 
-### 1. Just use the patterns (prompts)
+### 2. Just use the Patterns
 
-If you're not looking to do anything fancy, and you just want a lot of great prompts, you can navigate to the [`/patterns`](https://github.com/danielmiessler/fabric/tree/main/patterns) directory and start exploring! 
+If you're not looking to do anything fancy, and you just want a lot of great prompts, you can navigate to the [`/patterns`](https://github.com/danielmiessler/fabric/tree/main/patterns) directory and start exploring!
 
-You can use any of those in any AI application that you have!
+We hope that if you used nothing else from Fabric, the Patterns by themselves will make the project useful.
 
-### 2. Create your own Fabric Mill (server)
+You can use any of the Patterns you see there in any AI application that you have, whether that's ChatGPT or some other app or website. Our plan and prediction is that people will soon be sharing many more than those we've published, and they will be way better than ours.
 
-If you want your very own Fabric server, head over to the [`/server/`](https://github.com/danielmiessler/fabric/tree/main/server) directory and set up your own Fabric Mill with your own patterns running! You can then use the [`/client/standalone_client_examples`](https://github.com/danielmiessler/fabric/tree/main/client/standalone_client_examples) to connect to it.
+The wisdom of crowds for the win.
 
-### 3. The standalone client 
+### 3. Create your own Fabric Mill (Server)
 
-We're almost done with a universal client that will let you do all sorts of cool stuff, including:
+<img width="2070" alt="fabric_mill_architecture" src="https://github.com/danielmiessler/fabric/assets/50654/ec3bd9b5-d285-483d-9003-7a8e6d842584">
 
-- Calling patterns without connecting to a Fabric server (direct to OpenAI).
-- Streaming mode to get instant and dynamic results.
-- Other cool stuff…
+<br />
 
-We expect this client to be ready very within a day or two, and we'll update the Quickstart as soon as it is.
+But we go beyond just providing Patterns. We provide code for you to build your very own Fabric server and personal AI infrastructure!
 
-## Usage
+To get started, head over to the [`/server/`](https://github.com/danielmiessler/fabric/tree/main/server) directory and set up your own Fabric Mill with your own Patterns running! You can then use the [`/client/standalone_client_examples`](https://github.com/danielmiessler/fabric/tree/main/client/standalone_client_examples) to connect to it.
 
-`fabric`'s main function is to make **Patterns** available to everyone in an open ecosystem, i.e., to allow people to share and fork prompts in a transparent, scalable, and dependable way.
+## Structure
 
-But it also includes two other components that make it possible for AI enthusiasts and developers to _build your own Personal AI Ecosystem_.
-
-_In other words you can have your own server, with your own copy of `fabric`, running your own specific combination of **Patterns** for your specific use cases._
+Fabric is themed off of, well… _fabric_—as in…woven materials. So, think blankets, quilts, patterns, etc. Here's the concept and structure:
 
 ### Components
 
-Here are the three `fabric` ecosystem pieces, and how they work together.
+The Fabric ecosystem has three primary components, all named within this textile theme.
 
 - The **Mill** is the (optional) server that makes **Patterns** available.
-- **Patterns** are the actual AI use cases.
-- **Looms** are the modular, client-side apps that call a specific **Pattern** hosted by a **Mill**.
+- **Patterns** are the actual granular AI use cases (prompts).
+- **Stitches** are chained together _Patterns_ that create advanced functionality (see below).
+- **Looms** are the client-side apps that call a specific **Pattern** hosted by a **Mill**.
+
+### CLI-native
+
+One of the coolest parts of the project is that it's **command-line native**!
+
+Each Pattern you see in the `/patterns` directory can be used in any AI application you use, but you can also set up your own server using the `/server` code and then call APIs directly!
+
+Once you're set up, you can do things like:
+
+```bash
+# Take any idea from `stdin` and send it to the `/write_essay` API!
+cat "An idea that coding is like speaking with rules." | write_essay
+```
+
+### Directly calling Patterns
 
 One key feature of `fabric` and its Markdown-based format is the ability to ** directly reference** (and edit) individual [patterns](https://github.com/danielmiessler/fabric/tree/main#naming) directly—on their own—without surrounding code.
 
-As an example, here's how to call _the direct location_ of the **system** prompt for the `extract_wisdom` pattern.
+As an example, here's how to call _the direct location_ of the `extract_wisdom` pattern.
 
-```
+```bash
 https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
 ```
 
 This means you can cleanly, and directly reference any pattern for use in a web-based AI app, your own code, or wherever!
 
 Even better, you can also have your [Mill](https://github.com/danielmiessler/fabric/tree/main#naming) functionality directly call **system** and **user** prompts from `fabric`, meaning you can have your personal AI ecosystem automatically kept up to date with the latest version of your favorite [Patterns](https://github.com/danielmiessler/fabric/tree/main#naming).
+
+Here's what that looks like in code:
+
+```bash
+https://github.com/danielmiessler/fabric/blob/main/server/fabric_api_server.py
+```
+
+```python
+# /extwis
+@app.route("/extwis", methods=["POST"])
+@auth_required  # Require authentication
+def extwis():
+    data = request.get_json()
+
+    # Warn if there's no input
+    if "input" not in data:
+        return jsonify({"error": "Missing input parameter"}), 400
+
+    # Get data from client
+    input_data = data["input"]
+
+    # Set the system and user URLs
+    system_url = "https://raw.githubusercontent.com/danielmiessler/fabric/main/patterns/extract_wisdom/system.md"
+    user_url = "https://raw.githubusercontent.com/danielmiessler/fabric/main/patterns/extract_wisdom/user.md"
+
+    # Fetch the prompt content
+    system_content = fetch_content_from_url(system_url)
+    user_file_content = fetch_content_from_url(user_url)
+
+    # Build the API call
+    system_message = {"role": "system", "content": system_content}
+    user_message = {"role": "user", "content": user_file_content + "\n" + input_data}
+    messages = [system_message, user_message]
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-4-1106-preview",
+            messages=messages,
+            temperature=0.0,
+            top_p=1,
+            frequency_penalty=0.1,
+            presence_penalty=0.1,
+        )
+        assistant_message = response.choices[0].message.content
+        return jsonify({"response": assistant_message})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+```
 
 ## Examples
 
@@ -188,53 +289,24 @@ The content features a conversation between two individuals discussing various t
 9. Bertrand Russell's definition of philosophy
 10. Nietzsche's walks
 ```
-
-## Structure
-
-<img width="2070" alt="fabric_mill_architecture" src="https://github.com/danielmiessler/fabric/assets/50654/ec3bd9b5-d285-483d-9003-7a8e6d842584">
-
-There are multiple ways to use `fabric`.
-
-1. You can just use the `/patterns` in other AI applications/websites.
-2. You can build your own server and host these patterns there (plus your own) using the Mill code in `/infrastructure/server`.
-3. You can use the `fabric` client to switch between these (coming soon)!
-
-If you are self-hosting your own Mill, the image above shows you what's going on. Basically, you are sending your input to your Fabric Mill, and your Fabric Mill then sends the input and the pattern on to OpenAI. Local model options also being added soon.
-
-## CLI-native
-
-One of the coolest parts of the project is that it's **command-line native**!
-
-Each pattern (prompt) you see in the `/patterns` directory can be used in any AI application you use, but you can also set up your own server using the `/server` code and then call APIs directly!
-
-Once you're set up, you can do things like:
-```bash
-# Take any idea from `stdin` and send it to the `/write_essay` API!
-cat "An idea that coding is like speaking with rules." | write_essay
-```
-
-## Naming
-
-Fabric is themed off of, well… _fabric_—as in…woven materials. So, think blankets, quilts, patterns, etc. Here's the concept and structure:
-
-- The project itself is called **Fabric**, and it's the parent concept.
-- Individual AI modules (think prompts) are called **Patterns**.
-- Chaining together _Patterns_ to create advanced functionality is called a **Stitch**.
-- The optional server-side functionality of `fabric` is called the **Mill**.
-- The optional client-side scripts within `fabric` are called **Looms**.
-
-
-## More Documentation
-
-> [!IMPORTANT]\
-> We are pushing hard to add lots more functionality and documentation. Please be patient and let us know what you'd like to see in Issues. Thank you!
+> [!NOTE]  
+> We're still working on both code and documentation. Please be patient with us as we roll things out in the next week.
 
 ## Meta
 
-`fabric` was created by <a href="https://danielmiessler.com/" target="_blank">Daniel Miessler</a> in January of 2024.
-
-Special thanks to the following people for inspiration and contributions.
+> [!NOTE]  
+> Special thanks to the following people for their inspiration and contributions!
 
 - **Caleb Sima** for pushing me over the edge of whether to make this a public project or not.
 - **Joel Parish** for super useful input on the project's Github directory structure.
 - **Jonathan Dunn** for spectacular work on the soon-to-be-released universal client.
+
+### Primary contributors
+
+<a href="https://github.com/sbehrens"><img src="https://avatars.githubusercontent.com/u/50654?v=4" title="Daniel Miessler" width="50" height="50"></a>
+<a href="https://github.com/xssdoctor"><img src="https://avatars.githubusercontent.com/u/9218431?v=4" title="Jonathan Dunn" width="50" height="50"></a>
+<a href="https://github.com/danielmiessler"><img src="https://avatars.githubusercontent.com/u/688589?v=4" title="Scott Behrens" width="50" height="50"></a>
+
+`fabric` was created by <a href="https://danielmiessler.com/subscribe" target="_blank">Daniel Miessler</a> in January of 2024.
+<br /><br />
+<a href="https://twitter.com/intent/user?screen_name=danielmiessler">![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/danielmiessler)</a>
