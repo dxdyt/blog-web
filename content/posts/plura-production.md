@@ -1,9 +1,9 @@
 ---
 title: plura-production
-date: 2024-02-04T12:16:44+08:00
+date: 2024-02-05T12:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697162103256-dad37889d979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697162103256-dad37889d979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [webprodigies/plura-production](https://github.com/webprodigies/plura-production)

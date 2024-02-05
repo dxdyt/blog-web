@@ -1,9 +1,9 @@
 ---
 title: ollama-webui
-date: 2023-12-21T12:18:17+08:00
+date: 2024-02-05T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702499903230-867455db1752?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704642220407-392955316c7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704642220407-392955316c7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [ollama-webui/ollama-webui](https://github.com/ollama-webui/ollama-webui)
@@ -23,7 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702499903230-867455db17
 
 ChatGPT-Style Web Interface for Ollama 🦙
 
-**Disclaimer:** *ollama-webui is a community-driven project and is not affiliated with the Ollama team in any way. This initiative is independent, and any inquiries or feedback should be directed to [our community on Discord](https://discord.gg/5rJgQTnV4s). We kindly request users to refrain from contacting or harassing the Ollama team regarding this project.*
+**Disclaimer:** _ollama-webui is a community-driven project and is not affiliated with the Ollama team in any way. This initiative is independent, and any inquiries or feedback should be directed to [our community on Discord](https://discord.gg/5rJgQTnV4s). We kindly request users to refrain from contacting or harassing the Ollama team regarding this project._
 
 ![Ollama Web UI Demo](./demo.gif)
 
@@ -37,13 +37,23 @@ Also check our sibling project, [OllamaHub](https://ollamahub.com/), where you c
 
 - ⚡ **Swift Responsiveness**: Enjoy fast and responsive performance.
 
-- 🚀 **Effortless Setup**: Install seamlessly using Docker for a hassle-free experience.
+- 🚀 **Effortless Setup**: Install seamlessly using Docker or Kubernetes (kubectl, kustomize or helm) for a hassle-free experience.
 
 - 💻 **Code Syntax Highlighting**: Enjoy enhanced code readability with our syntax highlighting feature.
 
 - ✒️🔢 **Full Markdown and LaTeX Support**: Elevate your LLM experience with comprehensive Markdown and LaTeX capabilities for enriched interaction.
 
+- 📚 **Local RAG Integration**: Dive into the future of chat interactions with the groundbreaking Retrieval Augmented Generation (RAG) support. This feature seamlessly integrates document interactions into your chat experience. You can load documents directly into the chat or add files to your document library, effortlessly accessing them using `#` command in the prompt. In its alpha phase, occasional issues may arise as we actively refine and enhance this feature to ensure optimal performance and reliability.
+
+- 📜 **Prompt Preset Support**: Instantly access preset prompts using the `/` command in the chat input. Load predefined conversation starters effortlessly and expedite your interactions. Effortlessly import prompts through [OllamaHub](https://ollamahub.com/) integration.
+
+- 👍👎 **RLHF Annotation**: Empower your messages by rating them with thumbs up and thumbs down, facilitating the creation of datasets for Reinforcement Learning from Human Feedback (RLHF). Utilize your messages to train or fine-tune models, all while ensuring the confidentiality of locally saved data.
+
+- 🏷️ **Conversation Tagging**: Effortlessly categorize and locate specific chats for quick reference and streamlined data collection.
+
 - 📥🗑️ **Download/Delete Models**: Easily download or remove models directly from the web UI.
+
+- ⬆️ **GGUF File Model Creation**: Effortlessly create Ollama models by uploading GGUF files directly from the web UI. Streamlined process with options to upload from your machine or download GGUF files from Hugging Face.
 
 - 🤖 **Multiple Model Support**: Seamlessly switch between different chat models for diverse interactions.
 
@@ -53,7 +63,9 @@ Also check our sibling project, [OllamaHub](https://ollamahub.com/), where you c
 
 - ⚙️ **Many Models Conversations**: Effortlessly engage with various models simultaneously, harnessing their unique strengths for optimal responses. Enhance your experience by leveraging a diverse set of models in parallel.
 
-- 🤝 **OpenAI Model Integration**: Seamlessly utilize OpenAI models alongside Ollama models for a versatile conversational experience.
+- 💬 **Collaborative Chat**: Harness the collective intelligence of multiple models by seamlessly orchestrating group conversations. Use the `@` command to specify the model, enabling dynamic and diverse dialogues within your chat interface. Immerse yourself in the collective intelligence woven into your chat environment.
+
+- 🤝 **OpenAI API Integration**: Effortlessly integrate OpenAI-compatible API for versatile conversations alongside Ollama models. Customize the API Base URL to link with **LMStudio, Mistral, OpenRouter, and more**.
 
 - 🔄 **Regeneration History Access**: Easily revisit and explore your entire regeneration history.
 
@@ -65,11 +77,11 @@ Also check our sibling project, [OllamaHub](https://ollamahub.com/), where you c
 
 - ⚙️ **Fine-Tuned Control with Advanced Parameters**: Gain a deeper level of control by adjusting parameters such as temperature and defining your system prompts to tailor the conversation to your specific preferences and needs.
 
-- 🔐 **Auth Header Support**: Effortlessly enhance security by adding Authorization headers to Ollama requests directly from the web UI settings, ensuring access to secured Ollama servers.
+- 🔗 **External Ollama Server Connection**: Seamlessly link to an external Ollama server hosted on a different address by configuring the environment variable.
 
-- 🔗 **External Ollama Server Connection**: Seamlessly link to an external Ollama server hosted on a different address by configuring the environment variable during the Docker build phase. Additionally, you can also set the external server connection URL from the web UI post-build.
+- 🔐 **Role-Based Access Control (RBAC)**: Ensure secure access with restricted permissions; only authorized individuals can access your Ollama, and exclusive model creation/pulling rights are reserved for administrators.
 
-- 🔒 **Backend Reverse Proxy Support**: Strengthen security by enabling direct communication between Ollama Web UI backend and Ollama, eliminating the need to expose Ollama over LAN.
+- 🔒 **Backend Reverse Proxy Support**: Bolster security through direct communication between Ollama Web UI backend and Ollama. This key feature eliminates the need to expose Ollama over LAN. Requests made to the '/ollama/api' route from the web UI are seamlessly redirected to Ollama from the backend, enhancing overall system security.
 
 - 🌟 **Continuous Updates**: We are committed to improving Ollama Web UI with regular updates and new features.
 
@@ -79,67 +91,152 @@ Don't forget to explore our sibling project, [OllamaHub](https://ollamahub.com/)
 
 ## How to Install 🚀
 
-### Installing Both Ollama and Ollama Web UI Using Docker Compose
+🌟 **Important Note on User Roles and Privacy:**
 
-If you don't have Ollama installed yet, you can use the provided Docker Compose file for a hassle-free installation. Simply run the following command:
+- **Admin Creation:** The very first account to sign up on the Ollama Web UI will be granted **Administrator privileges**. This account will have comprehensive control over the platform, including user management and system settings.
 
-```bash
-docker compose up -d --build
-```
+- **User Registrations:** All subsequent users signing up will initially have their accounts set to **Pending** status by default. These accounts will require approval from the Administrator to gain access to the platform functionalities.
 
-This command will install both Ollama and Ollama Web UI on your system. Ensure to modify the `compose.yaml` file for GPU support and Exposing Ollama API outside the container stack if needed.
+- **Privacy and Data Security:** We prioritize your privacy and data security above all. Please be reassured that all data entered into the Ollama Web UI is stored locally on your device. Our system is designed to be privacy-first, ensuring that no external requests are made, and your data does not leave your local environment. We are committed to maintaining the highest standards of data privacy and security, ensuring that your information remains confidential and under your control.
 
-### Installing Ollama Web UI Only
+### Steps to Install Ollama Web UI
 
-#### Prerequisites
+#### Before You Begin
 
-Make sure you have the latest version of Ollama installed before proceeding with the installation. You can find the latest version of Ollama at [https://ollama.ai/](https://ollama.ai/).
+1. **Installing Docker:**
 
-##### Checking Ollama
+   - **For Windows and Mac Users:**
 
-After installing Ollama, verify that Ollama is running by accessing the following link in your web browser: [http://127.0.0.1:11434/](http://127.0.0.1:11434/). Note that the port number may differ based on your system configuration.
+     - Download Docker Desktop from [Docker's official website](https://www.docker.com/products/docker-desktop).
+     - Follow the installation instructions provided on the website. After installation, open Docker Desktop to ensure it's running properly.
 
-#### Using Docker 🐳
+   - **For Ubuntu and Other Linux Users:**
+     - Open your terminal.
+     - Set up your Docker apt repository according to the [Docker documentation](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository)
+     - Update your package index:
+       ```bash
+       sudo apt-get update
+       ```
+     - Install Docker using the following command:
+       ```bash
+       sudo apt-get install docker-ce docker-ce-cli containerd.io
+       ```
+     - Verify the Docker installation with:
+       ```bash
+       sudo docker run hello-world
+       ```
+       This command downloads a test image and runs it in a container, which prints an informational message.
 
-If Ollama is hosted on your local machine and accessible at [http://127.0.0.1:11434/](http://127.0.0.1:11434/), run the following command:
+2. **Ensure You Have the Latest Version of Ollama:**
 
-```bash
-docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
-```
+   - Download the latest version from [https://ollama.ai/](https://ollama.ai/).
 
-Alternatively, if you prefer to build the container yourself, use the following command:
+3. **Verify Ollama Installation:**
+   - After installing Ollama, check if it's working by visiting [http://127.0.0.1:11434/](http://127.0.0.1:11434/) in your web browser. Remember, the port number might be different for you.
 
-```bash
-docker build -t ollama-webui .
-docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway --name ollama-webui --restart always ollama-webui
-```
+#### Installing with Docker 🐳
 
-Your Ollama Web UI should now be hosted at [http://localhost:3000](http://localhost:3000) and accessible over LAN (or Network). Enjoy! 😄
+- **Important:** When using Docker to install Ollama Web UI, make sure to include the `-v ollama-webui:/app/backend/data` in your Docker command. This step is crucial as it ensures your database is properly mounted and prevents any loss of data.
 
-#### Accessing External Ollama on a Different Server
+- **If Ollama is on your computer**, use this command:
 
-Change `OLLAMA_API_BASE_URL` environment variable to match the external Ollama Server url:
+  ```bash
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+  ```
 
-```bash
-docker run -d -p 3000:8080 -e OLLAMA_API_BASE_URL=https://example.com/api --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
-```
+- **To build the container yourself**, follow these steps:
 
-Alternatively, if you prefer to build the container yourself, use the following command:
+  ```bash
+  docker build -t ollama-webui .
+  docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v ollama-webui:/app/backend/data --name ollama-webui --restart always ollama-webui
+  ```
 
-```bash
-docker build -t ollama-webui .
-docker run -d -p 3000:8080 -e OLLAMA_API_BASE_URL=https://example.com/api --name ollama-webui --restart always ollama-webui
-```
+- After installation, you can access Ollama Web UI at [http://localhost:3000](http://localhost:3000).
+
+#### Using Ollama on a Different Server
+
+- To connect to Ollama on another server, change the `OLLAMA_API_BASE_URL` to the server's URL:
+
+  ```bash
+  docker run -d -p 3000:8080 -e OLLAMA_API_BASE_URL=https://example.com/api -v ollama-webui:/app/backend/data --name ollama-webui --restart always ghcr.io/ollama-webui/ollama-webui:main
+  ```
+
+  Or for a self-built container:
+
+  ```bash
+  docker build -t ollama-webui .
+  docker run -d -p 3000:8080 -e OLLAMA_API_BASE_URL=https://example.com/api -v ollama-webui:/app/backend/data --name ollama-webui --restart always ollama-webui
+  ```
+
+### Installing Ollama and Ollama Web UI Together
+
+#### Using Docker Compose
+
+- If you don't have Ollama yet, use Docker Compose for easy installation. Run this command:
+
+  ```bash
+  docker compose up -d --build
+  ```
+
+- **For GPU Support:** Use an additional Docker Compose file:
+
+  ```bash
+  docker compose -f docker-compose.yaml -f docker-compose.gpu.yaml up -d --build
+  ```
+
+- **To Expose Ollama API:** Use another Docker Compose file:
+
+  ```bash
+  docker compose -f docker-compose.yaml -f docker-compose.api.yaml up -d --build
+  ```
+
+#### Using `run-compose.sh` Script (Linux or Docker-Enabled WSL2 on Windows)
+
+- Give execute permission to the script:
+
+  ```bash
+  chmod +x run-compose.sh
+  ```
+
+- For CPU-only container:
+
+  ```bash
+  ./run-compose.sh
+  ```
+
+- For GPU support (read the note about GPU compatibility):
+
+  ```bash
+  ./run-compose.sh --enable-gpu
+  ```
+
+- To build the latest local version, add `--build`:
+
+  ```bash
+  ./run-compose.sh --enable-gpu --build
+  ```
+
+### Alternative Installation Methods
+
+For other ways to install, like using Kustomize or Helm, check out [INSTALLATION.md](/INSTALLATION.md). Join our [Ollama Web UI Discord community](https://discord.gg/5rJgQTnV4s) for more help and information.
 
 ## How to Install Without Docker
 
 While we strongly recommend using our convenient Docker container installation for optimal support, we understand that some situations may require a non-Docker setup, especially for development purposes. Please note that non-Docker installations are not officially supported, and you might need to troubleshoot on your own.
 
-**Warning: Backend Dependency for Proper Functionality**
+### Project Components
 
-In order to ensure the seamless operation of our application, it is crucial to run both the backend and frontend components simultaneously. Serving only the frontend in isolation is not supported and may lead to unpredictable outcomes, rendering the application inoperable. Attempting to raise an issue when solely serving the frontend will not be addressed, as it falls outside the intended usage. To achieve optimal results, please strictly adhere to the specified steps outlined in this documentation. Utilize the frontend solely for building static files, and subsequently run the complete application with the provided backend commands. Failure to follow these instructions may result in unsupported configurations, and we may not be able to provide assistance in such cases. Your cooperation in following the prescribed procedures is essential for a smooth user experience and effective issue resolution.
+The Ollama Web UI consists of two primary components: the frontend and the backend (which serves as a reverse proxy, handling static frontend files, and additional features). Both need to be running concurrently for the development environment.
 
-### TL;DR 🚀
+> [!IMPORTANT]
+> The backend is required for proper functionality
+
+### Requirements 📦
+
+- 🐰 [Bun](https://bun.sh) >= 1.0.21 or 🐢 [Node.js](https://nodejs.org/en) >= 20.10
+- 🐍 [Python](https://python.org) >= 3.11
+
+### Build and Install 🛠️
 
 Run the following commands to install:
 
@@ -150,97 +247,21 @@ cd ollama-webui/
 # Copying required .env file
 cp -RPp example.env .env
 
-# Building Frontend
+# Building Frontend Using Node
 npm i
 npm run build
 
+# or Building Frontend Using Bun
+# bun install
+# bun run build
+
 # Serving Frontend with the Backend
 cd ./backend
-pip install -r requirements.txt
+pip install -r requirements.txt -U
 sh start.sh
 ```
 
 You should have the Ollama Web UI up and running at http://localhost:8080/. Enjoy! 😄
-
-### Project Components
-
-The Ollama Web UI consists of two primary components: the frontend and the backend (which serves as a reverse proxy, handling static frontend files, and additional features). Both need to be running concurrently for the development environment using `npm run dev`. Alternatively, you can set the `PUBLIC_API_BASE_URL` during the build process to have the frontend connect directly to your Ollama instance or build the frontend as static files and serve them with the backend.
-
-### Prerequisites
-
-1. **Clone and Enter the Project:**
-
-   ```sh
-   git clone https://github.com/ollama-webui/ollama-webui.git
-   cd ollama-webui/
-   ```
-
-2. **Create and Edit `.env`:**
-
-   ```sh
-   cp -RPp example.env .env
-   ```
-
-### Building Ollama Web UI Frontend
-
-1. **Install Node Dependencies:**
-
-   ```sh
-   npm install
-   ```
-
-2. **Run in Dev Mode or Build for Deployment:**
-
-   - Dev Mode (requires the backend to be running simultaneously):
-
-     ```sh
-     npm run dev
-     ```
-
-   - Build for Deployment:
-
-     ```sh
-     # `PUBLIC_API_BASE_URL` overwrites the value in `.env`
-     PUBLIC_API_BASE_URL='https://example.com/api' npm run build
-     ```
-
-3. **Test the Build with `Caddy` (or your preferred server):**
-
-   ```sh
-   curl https://webi.sh/caddy | sh
-
-   PUBLIC_API_BASE_URL='https://localhost/api' npm run build
-   caddy run --envfile .env --config ./Caddyfile.localhost
-   ```
-
-### Running Ollama Web UI Backend
-
-If you wish to run the backend for deployment, ensure that the frontend is built so that the backend can serve the frontend files along with the API route.
-
-#### Setup Instructions
-
-1. **Install Python Requirements:**
-
-   ```sh
-   cd ./backend
-   pip install -r requirements.txt
-   ```
-
-2. **Run Python Backend:**
-
-   - Dev Mode with Hot Reloading:
-
-     ```sh
-     sh dev.sh
-     ```
-
-   - Deployment:
-
-     ```sh
-     sh start.sh
-     ```
-
-Now, you should have the Ollama Web UI up and running at [http://localhost:8080/](http://localhost:8080/). Feel free to explore the features and functionalities of Ollama! If you encounter any issues, please refer to the instructions above or reach out to the community for assistance.
 
 ## Troubleshooting
 
@@ -252,8 +273,10 @@ See [TROUBLESHOOTING.md](/TROUBLESHOOTING.md) for information on how to troubles
 
 Here are some exciting tasks on our roadmap:
 
-- 📚 **RAG Integration**: Experience first-class retrieval augmented generation support, enabling chat with your documents.
-- 🔐 **Access Control**: Securely manage requests to Ollama by utilizing the backend as a reverse proxy gateway, ensuring only authenticated users can send specific requests.
+- 🌐 **Web Browsing Capability**: Experience the convenience of seamlessly integrating web content directly into your chat. Easily browse and share information without leaving the conversation.
+- 🔄 **Function Calling**: Empower your interactions by running code directly within the chat. Execute functions and commands effortlessly, enhancing the functionality of your conversations.
+- ⚙️ **Custom Python Backend Actions**: Empower your Ollama Web UI by creating or downloading custom Python backend actions. Unleash the full potential of your web interface with tailored actions that suit your specific needs, enhancing functionality and versatility.
+- 🧠 **Long-Term Memory**: Witness the power of persistent memory in our agents. Enjoy conversations that feel continuous as agents remember and reference past interactions, creating a more cohesive and personalized user experience.
 - 🧪 **Research-Centric Features**: Empower researchers in the fields of LLM and HCI with a comprehensive web UI for conducting user studies. Stay tuned for ongoing feature enhancements (e.g., surveys, analytics, and participant tracking) to facilitate their research.
 - 📈 **User Study Tools**: Providing specialized tools, like heat maps and behavior tracking modules, to empower researchers in capturing and analyzing user behavior patterns with precision and accuracy.
 - 📚 **Enhanced Documentation**: Elevate your setup and customization experience with improved, comprehensive documentation.
@@ -266,7 +289,11 @@ A big shoutout to our amazing supporters who's helping to make this project poss
 
 ### Platinum Sponsors 🤍
 
-- [Prof. Lawrence Kim @ SFU](https://www.lhkim.com/)
+- We're looking for Sponsors!
+
+### Acknowledgments
+
+Special thanks to [Prof. Lawrence Kim](https://www.lhkim.com/) and [Prof. Nick Vincent](https://www.nickmvincent.com/) for their invaluable support and guidance in shaping this project into a research endeavor. Grateful for your mentorship throughout the journey! 🙌
 
 ## License 📜
 

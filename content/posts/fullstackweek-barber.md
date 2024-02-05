@@ -1,9 +1,9 @@
 ---
 title: fullstackweek-barber
-date: 2024-02-03T12:17:25+08:00
+date: 2024-02-05T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704122545548-385c09c16e22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704122545548-385c09c16e22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [felipemotarocha/fullstackweek-barber](https://github.com/felipemotarocha/fullstackweek-barber)

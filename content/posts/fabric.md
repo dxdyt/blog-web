@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-02-04T12:14:23+08:00
+date: 2024-02-05T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -33,9 +33,27 @@ featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d1
 
 </div>
 
+## Navigation
+
+- [What and Why](#what-and-why)
+- [Philosophy](#philosophy)
+  - [Breaking problems into components](#breaking-problems-into-components)
+  - [Too many prompts](#too-many-prompts)
+  - [The Fabric approach to prompting](#our-approach-to-prompting)
+- [Quickstart](#quickstart)
+  - [1. Just use the Patterns (Prompts)](#just-use-the-patterns)
+  - [2. Create your own Fabric Mill (Server)](#create-your-own-fabric-mill)
+- [Structure](#structure)
+  - [Components](#components)
+  - [CLI-native](#cli-native)
+  - [Directly calling Patterns](#directly-calling-patterns)
+- [Examples](#examples)
+- [Meta](#meta)
+  - [Primary contributors](#primary-contributors)
+
 ## What and why
 
-Since the start of 2023 and GenAI we've seen a massive number of AI applications for accomplishing tasks. It's powerful, but **it's not easy to integrate this functionality into our lives.**
+Since the start of 2023 and GenAI we've seen a massive number of AI applications for accomplishing tasks. It's powerful, but _it's not easy to integrate this functionality into our lives._
 
 <div align="center">
 <h4>In other words, AI doesn't have a capabilities problem—it has an <em>integration</em> problem.</h4>
@@ -94,16 +112,119 @@ https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/syste
 
 ## Quickstart
 
-The most feature-rich way to use Fabric is to use the `fabric` client, which can be found under <a href="https://github.com/danielmiessler/fabric/tree/main/client">`/client`</a> in this repository.
+The most feature-rich way to use Fabric is to use the `fabric` client, which can be found under <a href="https://github.com/danielmiessler/fabric/tree/main/client">`/client`</a> directory in this repository.
 
-### 1. Using the `fabric` client
+### Setting up the `fabric` client
 
+Follow these steps to get the client installed and configured.
 
+1. Navigate to where you want the Fabric project to live on your systemClone the directory to a semi-permanent place on your computer.
 
+```bash
+# Find a home for Fabric
+cd /where/you/keep/code
+```
+
+2. Clone the project to your computer.
+
+```bash
+# Clone Fabric to your computer
+git clone git@github.com:danielmiessler/fabric.git
+```
+
+3. Enter Fabric's /client directory
+
+```bash
+# Enter the project and its /client folder
+cd fabric/client
+```
+
+4. Install the dependencies
+
+```bash
+# Install the pre-requisites
+pip3 install -r requirements.txt
+```
+
+5. Add the path to the `fabric` client to your shell
+
+```bash
+# Tell your shell how to find the `fabric` client
+echo 'alias fabric="/the/path/to/fabric/client" >> .bashrc'
+# Example of ~/.zshrc or ~/.bashrc
+alias fabric="~/Development/fabric/client/fabric"
+```
+
+6. Restart your shell
+
+```bash
+# Make sure you can
+echo 'alias fabric="/the/path/to/fabric/client" >> .bashrc'
+# Example
+echo 'alias fabric="~/Development/fabric/client/fabric" >> .zshrc'
+```
+
+### Using the `fabric` client
+
+Once you have it all set up, here's how to use it.
+
+1. Check out the options
+   `fabric -h`
+
+```bash
+fabric [-h] [--text TEXT] [--copy] [--output [OUTPUT]] [--stream] [--list]
+              [--update] [--pattern PATTERN] [--setup]
+
+An open-source framework for augmenting humans using AI.
+
+options:
+  -h, --help            show this help message and exit
+  --text TEXT, -t TEXT  Text to extract summary from
+  --copy, -c            Copy the response to the clipboard
+  --output [OUTPUT], -o [OUTPUT]
+                        Save the response to a file
+  --stream, -s          Use this option if you want to see the results in realtime.
+                        NOTE: You will not be able to pipe the output into another
+                        command.
+  --list, -l            List available patterns
+  --update, -u          Update patterns
+  --pattern PATTERN, -p PATTERN
+                        The pattern (prompt) to use
+  --setup               Set up your fabric instance
+```
+
+2. Set up the client
+
+```bash
+fabric --setup
+```
+
+You'll be asked to enter your OpenAI API key, which will be written to `~/.config/fabric/.env`. Patterns will then be downloaded from Github, which will take a few moments.
+
+#### Example commands
+
+The client, by default, runs Fabric patterns without needing a server (the Patterns were downloaded during setup). This means the client connects directly to OpenAI using the input given and the Fabric pattern used.
+
+1. Run the `summarize` Pattern based on input from `stdin`. In this case, the body of an article.
+
+```bash
+pbpaste | fabric --pattern summarize
+```
+
+2. Run the `analyze_claims` Pattern with the `--stream` option to get immediate and streaming results.
+
+```bash
+pbpaste | fabric --stream --pattern analyze_claims
+```
+
+> [!NOTE]  
+> More examples coming in the next few days, including a demo video!
+
+### Just use the Patterns
 
 <img width="1173" alt="fabric-patterns-screenshot" src="https://github.com/danielmiessler/fabric/assets/50654/9186a044-652b-4673-89f7-71cf066f32d8">
 
-### 2. Just use the Patterns
+<br />
 
 If you're not looking to do anything fancy, and you just want a lot of great prompts, you can navigate to the [`/patterns`](https://github.com/danielmiessler/fabric/tree/main/patterns) directory and start exploring!
 
@@ -113,7 +234,7 @@ You can use any of the Patterns you see there in any AI application that you hav
 
 The wisdom of crowds for the win.
 
-### 3. Create your own Fabric Mill (Server)
+### Create your own Fabric Mill
 
 <img width="2070" alt="fabric_mill_architecture" src="https://github.com/danielmiessler/fabric/assets/50654/ec3bd9b5-d285-483d-9003-7a8e6d842584">
 
@@ -151,7 +272,7 @@ cat "An idea that coding is like speaking with rules." | write_essay
 
 ### Directly calling Patterns
 
-One key feature of `fabric` and its Markdown-based format is the ability to ** directly reference** (and edit) individual [patterns](https://github.com/danielmiessler/fabric/tree/main#naming) directly—on their own—without surrounding code.
+One key feature of `fabric` and its Markdown-based format is the ability to _ directly reference_ (and edit) individual [patterns](https://github.com/danielmiessler/fabric/tree/main#naming) directly—on their own—without surrounding code.
 
 As an example, here's how to call _the direct location_ of the `extract_wisdom` pattern.
 
@@ -161,7 +282,7 @@ https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/syste
 
 This means you can cleanly, and directly reference any pattern for use in a web-based AI app, your own code, or wherever!
 
-Even better, you can also have your [Mill](https://github.com/danielmiessler/fabric/tree/main#naming) functionality directly call **system** and **user** prompts from `fabric`, meaning you can have your personal AI ecosystem automatically kept up to date with the latest version of your favorite [Patterns](https://github.com/danielmiessler/fabric/tree/main#naming).
+Even better, you can also have your [Mill](https://github.com/danielmiessler/fabric/tree/main#naming) functionality directly call _system_ and _user_ prompts from `fabric`, meaning you can have your personal AI ecosystem automatically kept up to date with the latest version of your favorite [Patterns](https://github.com/danielmiessler/fabric/tree/main#naming).
 
 Here's what that looks like in code:
 
@@ -289,17 +410,15 @@ The content features a conversation between two individuals discussing various t
 9. Bertrand Russell's definition of philosophy
 10. Nietzsche's walks
 ```
-> [!NOTE]  
-> We're still working on both code and documentation. Please be patient with us as we roll things out in the next week.
 
 ## Meta
 
 > [!NOTE]  
 > Special thanks to the following people for their inspiration and contributions!
 
-- **Caleb Sima** for pushing me over the edge of whether to make this a public project or not.
-- **Joel Parish** for super useful input on the project's Github directory structure.
-- **Jonathan Dunn** for spectacular work on the soon-to-be-released universal client.
+- _Caleb Sima_ for pushing me over the edge of whether to make this a public project or not.
+- _Joel Parish_ for super useful input on the project's Github directory structure.
+- _Jonathan Dunn_ for spectacular work on the soon-to-be-released universal client.
 
 ### Primary contributors
 

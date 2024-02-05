@@ -1,9 +1,9 @@
 ---
 title: OLMo
-date: 2024-02-04T12:15:03+08:00
+date: 2024-02-05T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704235275952-d2389cf8c5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704235275952-d2389cf8c5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705260603741-771c6d9238da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705260603741-771c6d9238da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [allenai/OLMo](https://github.com/allenai/OLMo)

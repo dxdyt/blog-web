@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-02-04T12:14:29+08:00
+date: 2024-02-05T12:16:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1607699032287-f58742a2693d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1607699032287-f58742a2693d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706582748265-de941eeacfe6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706582748265-de941eeacfe6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -65,7 +65,7 @@ And visit [http://localhost:3000](http://localhost:3000)
 
 In development, we use `letter_opener` to automatically open emails in your browser. However, if you self-host, you'll likely want some basic email sending abilities.
 
-You can use any SMTP-based mail service and then simply drop in your SMPT credentials in the `.env` file.
+You can use any SMTP-based mail service and then simply drop in your SMTP credentials in the `.env` file.
 
 [Resend](https://resend.com) is a great option for personal use as they have a very generous free plan.
 
@@ -85,7 +85,7 @@ If you've got an improvement, just send in a pull request!
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-If you've got feature ideas, simply [open a new issues](https://github.com/maybe-finance/maybe/issues/new)!
+If you've got feature ideas, simply [open a new issue](https://github.com/maybe-finance/maybe/issues/new)!
 
 ## Repo Activity
 

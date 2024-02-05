@@ -1,9 +1,9 @@
 ---
 title: yazi
-date: 2024-01-14T12:16:44+08:00
+date: 2024-02-05T12:19:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704636487929-6a09f864d53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704636487929-6a09f864d53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704311572256-93e885ad095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704311572256-93e885ad095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [sxyazi/yazi](https://github.com/sxyazi/yazi)
@@ -22,7 +22,7 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 - 🧰 Integration with fd, rg, fzf, zoxide
 - 💫 Vim-like input/select component, auto-completion for cd paths
 - 🏷️ Multi-Tab Support, Scrollable Preview (for videos, PDFs, archives, directories, code, etc.)
-- 🔄 Batch Renaming, Visual Mode, File Chooser
+- 🔄 Bulk Renaming, Visual Mode, File Chooser
 - 🎨 Theme System, Custom Layouts, Trash Bin, CSI u
 - ... and more!
 
@@ -52,6 +52,7 @@ https://github.com/sxyazi/yazi/assets/17523360/92ff23fa-0cd5-4f04-b387-894c12265
 | foot              | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
 | Ghostty           | [Kitty old protocol](https://github.com/sxyazi/yazi/blob/main/yazi-adaptor/src/kitty_old.rs)          | ✅ Built-in           |
 | Black Box         | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
+| Tabby             | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
 | Hyper             | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
 | X11 / Wayland     | Window system protocol                                                                                | ☑️ Überzug++ required |
 | Fallback          | [Chafa](https://hpjansson.org/chafa/)                                                                 | ☑️ Überzug++ required |

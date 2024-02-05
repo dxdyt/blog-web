@@ -1,9 +1,9 @@
 ---
 title: gpt-crawler
-date: 2023-11-24T12:16:37+08:00
+date: 2024-02-05T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698429894935-707de47ab2c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698429894935-707de47ab2c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706556947173-6e83907e3b99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706556947173-6e83907e3b99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
@@ -25,6 +25,7 @@ Crawl a site to generate knowledge files to create your own custom GPT from one 
     - [Running in a container with Docker](#running-in-a-container-with-docker)
     - [Running as a CLI](#running-as-a-cli)
       - [Development](#development)
+    - [Running as an API](#running-as-an-api)
   - [Upload your data to OpenAI](#upload-your-data-to-openai)
     - [Create a custom GPT](#create-a-custom-gpt)
     - [Create a custom assistant](#create-a-custom-assistant)
@@ -60,7 +61,7 @@ npm i
 
 #### Configure the crawler
 
-Open [config.ts](config.ts) and edit the `url` and `selectors` properties to match your needs.
+Open [config.ts](config.ts) and edit the `url` and `selector` properties to match your needs.
 
 E.g. to crawl the Builder.io docs to make our custom GPT you can use:
 
@@ -74,11 +75,11 @@ export const defaultConfig: Config = {
 };
 ```
 
-See [config.ts](src/config.ts) for all available options. Here is a sample of the common configu options:
+See [config.ts](src/config.ts) for all available options. Here is a sample of the common configuration options:
 
 ```ts
 type Config = {
-  /** URL to start the crawl */
+  /** URL to start the crawl, if sitemap is provided then it will be used instead and download all pages in the sitemap */
   url: string;
   /** Pattern to match against for links on a page to subsequently crawl */
   match: string;
@@ -88,6 +89,16 @@ type Config = {
   maxPagesToCrawl: number;
   /** File name for the finished data */
   outputFileName: string;
+  /** Optional resources to exclude
+   *
+   * @example
+   * ['png','jpg','jpeg','gif','svg','css','js','ico','woff','woff2','ttf','eot','otf','mp4','mp3','webm','ogg','wav','flac','aac','zip','tar','gz','rar','7z','exe','dmg','apk','csv','xls','xlsx','doc','docx','pdf','epub','iso','dmg','bin','ppt','pptx','odt','avi','mkv','xml','json','yml','yaml','rss','atom','swf','txt','dart','webp','bmp','tif','psd','ai','indd','eps','ps','zipx','srt','wasm','m4v','m4a','webp','weba','m4b','opus','ogv','ogm','oga','spx','ogx','flv','3gp','3g2','jxr','wdp','jng','hief','avif','apng','avifs','heif','heic','cur','ico','ani','jp2','jpm','jpx','mj2','wmv','wma','aac','tif','tiff','mpg','mpeg','mov','avi','wmv','flv','swf','mkv','m4v','m4p','m4b','m4r','m4a','mp3','wav','wma','ogg','oga','webm','3gp','3g2','flac','spx','amr','mid','midi','mka','dts','ac3','eac3','weba','m3u','m3u8','ts','wpl','pls','vob','ifo','bup','svcd','drc','dsm','dsv','dsa','dss','vivo','ivf','dvd','fli','flc','flic','flic','mng','asf','m2v','asx','ram','ra','rm','rpm','roq','smi','smil','wmf','wmz','wmd','wvx','wmx','movie','wri','ins','isp','acsm','djvu','fb2','xps','oxps','ps','eps','ai','prn','svg','dwg','dxf','ttf','fnt','fon','otf','cab']
+   */
+  resourceExclusions?: string[];
+  /** Optional maximum file size in megabytes to include in the output file */
+  maxFileSize?: number;
+  /** Optional maximum number tokens to include in the output file */
+  maxTokens?: number;
 };
 ```
 
@@ -101,7 +112,19 @@ npm start
 
 #### [Running in a container with Docker](./containerapp/README.md)
 
-To obtain the `output.json` with a containerized execution. Go into the `containerapp` directory. Modify the `config.ts` same as above, the `output.json`file should be generated in the data folder. Note : the `outputFileName` property in the `config.ts` file in containerapp folder is configured to work with the container.
+To obtain the `output.json` with a containerized execution, go into the `containerapp` directory and modify the `config.ts` as shown above. The `output.json`file should be generated in the data folder. Note: the `outputFileName` property in the `config.ts` file in the `containerapp` directory is configured to work with the container.
+
+#### Running as an API
+
+To run the app as a API server you will need to do an `npm install` to install the dependencies. The server is written in Express JS.
+
+To run the server.
+
+`npm run start:server` to start the server. The server runs by default on port 3000.
+
+You can use the endpoint `/crawl` with the post request body of config json to run the crawler. The api docs are served on the endpoint `/api-docs` and are served using swagger.
+
+To modify the environment you can copy over the `.env.example` to `.env` and set your values like port, etc. to override the variables for the server.
 
 ### Upload your data to OpenAI
 
@@ -119,6 +142,7 @@ Use this option for UI access to your generated knowledge that you can easily sh
 4. Choose "Create a GPT"
 5. Choose "Configure"
 6. Under "Knowledge" choose "Upload a file" and upload the file you generated
+7. if you get an error about the file being too large, you can try to split it into multiple files and upload them separately using the option maxFileSize in the config.ts file or also use tokenization to reduce the size of the file with the option maxTokens in the config.ts file
 
 ![Gif of how to upload a custom GPT](https://github.com/BuilderIO/gpt-crawler/assets/844291/22f27fb5-6ca5-4748-9edd-6bcf00b408cf)
 

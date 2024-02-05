@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-02-04T12:15:51+08:00
+date: 2024-02-05T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705517649861-5450dc4dd44a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705517649861-5450dc4dd44a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)
@@ -24,9 +24,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1705517649861-5450dc4dd4
 
 ## 更新日志
 
+### v1.5.2（通用版）
+
+* 修复APP恢复后频道号、频道列表不自动消失的问题
+
 ### v1.5.1（高版本专用）
 
 * 性能优化
+
+### v1.5.0（通用版）
+
+* 修复部分情况下APP切换后无法继续播放的问题
 
 ### v1.4.9（高版本专用）
 
@@ -95,6 +103,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1705517649861-5450dc4dd4
 ```shell
 adb install my-tv.apk
 ```
+
+## TODO
+
+* 音量不同
+* 大湾区卫视、广东4k超高清、广东珠江
+* CETV教育频道
+* CHC高清三个电影频道
+* 地方频道
+* 收藏夹
+* 自定义源
+* 凤凰卫视、凤凰资讯台
+* 海外
+* 1.5.0 无法安装，1.5.1 可以安装
+* 获取系统时间
+* 选中的图标比例能否相差更大
+* 自动重连
 
 ## 赞赏
 

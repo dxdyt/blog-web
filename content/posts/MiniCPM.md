@@ -1,9 +1,9 @@
 ---
 title: MiniCPM
-date: 2024-02-04T12:14:15+08:00
+date: 2024-02-05T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706556947173-6e83907e3b99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706556947173-6e83907e3b99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM)
@@ -88,6 +88,10 @@ MiniCPM 是面壁智能与清华大学自然语言处理实验室共同开源的
 <p id="2"></p>
 
 ## 快速上手
+
+#### 在线体验
+
+- [Colab](https://colab.research.google.com/drive/1tJcfPyWGWA5HezO7GKLeyeIso0HyOc0l?usp=sharing)
 
 #### vLLM 推理
 
@@ -385,7 +389,7 @@ print(res)
 |iPhone 12 Pro|iOS 16.5.1|A14|6|5.8|
 |iPhone 12|iOS 17.2.1|A14|4|5.8|
 |iPhone 11|iOS 16.6|A13|4|4.6|
-
+|Xiaomi Redmi K50|HyperOS 1.0.2|MediaTek Dimensity 8100|12|3.5
 ![多模态样例](https://github.com/OpenBMB/OmniLMM/blob/main/assets/Snake_cn_Mushroom_en.gif)
 
 
