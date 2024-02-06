@@ -1,9 +1,9 @@
 ---
 title: sway
-date: 2024-01-31T12:17:43+08:00
+date: 2024-02-06T12:18:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703994643972-22956416b857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703994643972-22956416b857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704388160055-9c3e9c090e03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704388160055-9c3e9c090e03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/sway](https://github.com/FuelLabs/sway)

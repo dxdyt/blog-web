@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-02-05T12:17:05+08:00
+date: 2024-02-06T12:14:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704372569833-c9f60f52eda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704372569833-c9f60f52eda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)

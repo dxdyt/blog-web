@@ -1,12 +1,14 @@
 ---
 title: rawdog
-date: 2024-02-05T12:17:14+08:00
+date: 2024-02-06T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704646526970-85f3a1d1a6da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704646526970-85f3a1d1a6da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [AbanteAI/rawdog](https://github.com/AbanteAI/rawdog)
+
+[![Discord Follow](https://dcbadge.vercel.app/api/server/XbPdxAMJte?style=flat)](https://discord.gg/zbvd9qx9Pb)
 
 # Rawdog
 
@@ -19,7 +21,7 @@ You'll be surprised how useful this can be:
 - "Give me the pd.describe() for all the csv's in this directory"
 - "What ports are currently active?" ... "What are the Google ones?" ... "Cancel those please."
 
-Rawdog (Recursive Augmentation With Deterministic Output Generations) is a novel alternative to RAG (Retreival Augmented Generation). Rawdog can self-select context by running scripts to print things, adding the output to the conversation, and then calling itself again. 
+Rawdog (Recursive Augmentation With Deterministic Output Generations) is a novel alternative to RAG (Retrieval Augmented Generation). Rawdog can self-select context by running scripts to print things, adding the output to the conversation, and then calling itself again. 
 
 This works for tasks like:
 - "Setup the repo per the instructions in the README"

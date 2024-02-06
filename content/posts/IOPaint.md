@@ -1,9 +1,9 @@
 ---
 title: IOPaint
-date: 2024-02-04T12:15:10+08:00
+date: 2024-02-06T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704212607070-ed740ea8c7e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704212607070-ed740ea8c7e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [Sanster/IOPaint](https://github.com/Sanster/IOPaint)
@@ -20,6 +20,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d1
   </a>
   <a href="">
     <img alt="python version" src="https://img.shields.io/pypi/pyversions/iopaint" />
+  </a>
+  <a href="https://huggingface.co/spaces/Sanster/iopaint-lama">
+    <img alt="HuggingFace Spaces" src="https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Spaces-blue" />
+  </a>
+  <a href="https://colab.research.google.com/drive/1wg3Y874eAgdaX0EIjIgTZROze3hqXyo7?usp=sharing">
+    <img alt="Open in Colab" src="https://colab.research.google.com/assets/colab-badge.svg" />
   </a>
 </p>
 

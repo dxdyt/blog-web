@@ -1,14 +1,16 @@
 ---
 title: plura-production
-date: 2024-02-05T12:18:33+08:00
+date: 2024-02-06T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704795602011-b2e489e7dc3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1697183381264-03c2526b6fa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1697183381264-03c2526b6fa4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [webprodigies/plura-production](https://github.com/webprodigies/plura-production)
 
 # SaaS Website Builder, Project Management And Dashboard With Stripe using Nextjs14, Bun, Stripe Connect, Prisma, MySQL, Tailwind
+
+License: Not for commercial purpose. Please contact me on Instagram @webprodigies to purchase a lincese for the code. 
 
 ![Application Logo](https://storage.googleapis.com/msgsndr/0wtSXexlPhMN1945ooxW/media/65b7c3d24660477daf3d6708.png)
 
