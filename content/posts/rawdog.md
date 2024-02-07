@@ -1,9 +1,9 @@
 ---
 title: rawdog
-date: 2024-02-06T12:15:47+08:00
+date: 2024-02-07T12:15:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704646526970-85f3a1d1a6da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704646526970-85f3a1d1a6da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706271952260-a846f6df1048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706271952260-a846f6df1048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
 ---
 
 # [AbanteAI/rawdog](https://github.com/AbanteAI/rawdog)
@@ -21,7 +21,9 @@ You'll be surprised how useful this can be:
 - "Give me the pd.describe() for all the csv's in this directory"
 - "What ports are currently active?" ... "What are the Google ones?" ... "Cancel those please."
 
-Rawdog (Recursive Augmentation With Deterministic Output Generations) is a novel alternative to RAG (Retrieval Augmented Generation). Rawdog can self-select context by running scripts to print things, adding the output to the conversation, and then calling itself again. 
+Rawdog (Recursive Augmentation With Deterministic Output Generations) is a novel alternative to RAG
+(Retrieval Augmented Generation). Rawdog can self-select context by running scripts to print things,
+adding the output to the conversation, and then calling itself again. 
 
 This works for tasks like:
 - "Setup the repo per the instructions in the README"
@@ -36,7 +38,13 @@ Please proceed with caution. This obviously has the potential to cause harm if s
     pip install rawdog-ai
     ```
 
-2. Choose a mode of interaction. You will be prompted to input an API key if not found:
+2. Export your api key. See [Model selection](#model-selection) for how to use other providers
+
+    ```
+    export OPENAI_API_KEY=your-api-key
+    ```
+
+3. Choose a mode of interaction.
 
     Direct: Execute a single prompt and close
     ```
@@ -55,4 +63,37 @@ Please proceed with caution. This obviously has the potential to cause harm if s
 
 ## Model selection
 Rawdog uses `litellm` for completions with 'gpt-4' as the default. You can adjust the model or
-point it to other providers by modifying `~/.rawdog/config.yaml`.
+point it to other providers by modifying `~/.rawdog/config.yaml`. Some examples:
+
+To use gpt-3.5 turbo a minimal config is:
+```yaml
+llm_model: gpt-3.5-turbo
+```
+
+To run mixtral locally with ollama a minimal config is (assuming you have [ollama](https://ollama.ai/)
+installed and a sufficient gpu):
+```yaml
+llm_custom_provider: ollama
+llm_model: mixtral
+```
+
+To run claude-2.1 set your API key:
+```bash
+export ANTHROPIC_API_KEY=your-api-key
+```
+and then set your config:
+```yaml
+llm_model: claude-2.1
+```
+
+If you have a model running at a local endpoint (or want to change the baseurl for some other reason)
+you can set the `llm_base_url`. For instance if you have an openai compatible endpoint running at
+http://localhost:8000 you can set your config to:
+```
+llm_base_url: http://localhost:8000
+llm_model: openai/model # So litellm knows it's an openai compatible endpoint
+```
+
+Litellm supports a huge number of providers including Azure, VertexAi and Huggingface. See
+[their docs](https://docs.litellm.ai/docs/) for details on what environment variables, model names
+and llm_custom_providers you need to use for other providers.

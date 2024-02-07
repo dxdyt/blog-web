@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-02-06T12:14:51+08:00
+date: 2024-02-07T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704372569833-c9f60f52eda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704372569833-c9f60f52eda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706271952260-a846f6df1048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706271952260-a846f6df1048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)
@@ -122,4 +122,4 @@ adb install my-tv.apk
 
 ## 赞赏
 
-![image](./screenshots/appreciate.jpeg)
+![image](./screenshots/zfb.jpg)

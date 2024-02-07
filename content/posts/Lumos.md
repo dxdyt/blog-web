@@ -1,9 +1,9 @@
 ---
 title: Lumos
-date: 2024-01-28T12:16:24+08:00
+date: 2024-02-07T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705360130924-71f23ff03cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705360130924-71f23ff03cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706401795357-36561e966374?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706401795357-36561e966374?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
 ---
 
 # [andrewnguonly/Lumos](https://github.com/andrewnguonly/Lumos)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1705360130924-71f23ff03c
 
 A RAG LLM co-pilot for browsing the web, powered by local LLMs.
 
-![Screenshot of Lumos](lumos_screenshot_2.png)
+![Screenshot of Lumos](./screenshots/lumos_screenshot_2.png)
 
 This Chrome extension is powered by [Ollama](https://ollama.ai/). Inference is done on your local machine without any _external_ server support. However, due to security constraints in the Chrome extension platform, the app does rely on _local_ server support to run the LLM. This app is inspired by the [Chrome extension example](https://github.com/mlc-ai/web-llm/tree/main/examples/chrome-extension) provided by the [Web LLM project](https://webllm.mlc.ai/) and the [local LLM examples](https://js.langchain.com/docs/use_cases/question_answering/local_retrieval_qa) provided by [LangChain](https://github.com/langchain-ai/langchainjs).
 
@@ -21,26 +21,16 @@ This Chrome extension is powered by [Ollama](https://ollama.ai/). Inference is d
 
 _Lumos. Nox. Lumos. Nox._
 
+## Use Cases
+- Summarize long threads on issue tracking sites, forums, and social media sites.
+- Summarize news articles.
+- Ask questions about reviews on business and product pages.
+- Ask questions about long, technical documentation.
+- ... what else?
+
 ## Ollama Server
 
 A local Ollama server is needed for the embedding database and LLM inference. Download and install Ollama and the CLI [here](https://ollama.ai/).
-
-### Pull Model
-
-`llama2` model is required. The implementation of Lumos is [hardcoded](https://github.com/andrewnguonly/Lumos/blob/main/src/scripts/background.ts#L12) to use `llama2`.
-```
-ollama pull llama2
-```
-
-To change models, pull the desired model and update the hardcoded model value.
-```
-ollama pull mistral
-```
-
-Update `src/scripts/background.ts`.
-```typescript
-const OLLAMA_MODEL = "mistral"; // change model name here
-```
 
 ### Start Server
 
@@ -67,11 +57,6 @@ Run `docker run` with the `-e` flag to set the `OLLAMA_ORIGINS` environment vari
 docker run -e OLLAMA_ORIGINS="chrome-extension://*" -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 ```
 
-Update the host and port as needed (`src/scripts/background.ts`):
-```typescript
-const OLLAMA_BASE_URL = "http://0.0.0.0:11434";
-```
-
 ## Chrome Extension
 
 In the project directory, you can run:
@@ -80,6 +65,10 @@ In the project directory, you can run:
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run lint`
+
+Runs `eslint` and `prettier` on `src` files.
 
 ### `npm run build`
 
@@ -95,40 +84,102 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 https://developer.chrome.com/docs/extensions/mv3/getstarted/development-basics/#load-unpacked
 
-## Custom Content Parser
+### Releases
 
-Lumos's default content parser will extract all text content between a page's `<body></body>` tag. To customize the content parser, add an entry to the file `contentConfig.ts`.
+If you don't have `npm` installed, you can download the pre-built extension package from the [Releases](https://github.com/andrewnguonly/Lumos/releases) page.
+
+## Lumos Options
+
+Right-click on the extension icon and select `Options` to access the extension's [Options page](https://developer.chrome.com/docs/extensions/develop/ui/options-page).
+
+- **Ollama Model**: Select desired model (e.g. `llama2`)
+- **Ollama Host**: Select desired host (defaults to `http://0.0.0.0:11434`)
+- **Vector Store TTL (minutes)**: Number of minutes to store a URL's content in the vector store cache.
+- **Content Parser Config**: Lumos's default content parser will extract all text content between a page's `<body></body>` tag. To customize the content parser, add an entry to the configuration.
+
+### Content Parser Config
+
+Each domain can have its own content parser.
+
+- **chunkSize**: Number of characters to chunk page content into for indexing into RAG vectorstore
+- **chunkOverlap**: Number of characters to overlap in chunks for indexing into RAG vectorstore
+- **selectors**: `document.querySelector()` queries to perform to retrieve page content
+- **selectorsAll**: `document.querySelectorAll()` queries to perform to retrieve page content
+
+See docs for [How to Create a Custom Content Parser](./docs/content_parser.md). See documentation for [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) and [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to confirm all querying capabilities.
 
 Example:
-```typescript
-export const contentConfig: ContentConfig = {
-  // each domain can have its own content parser
-  "domain.com": {
-    // number of characters to chunk page content into for indexing into RAG vectorstore
-    chunkSize: 500, 
-    // number of characters to overlap in chunks for indexing into RAG vectorstore
-    chunkOverlap: 100,
-    // document.querySelector() queries to perform to retrieve page content
-    selectors: [
-      "body",
+```json
+{
+  "default": {
+    "chunkSize": 500,
+    "chunkOverlap": 0,
+    "selectors": [
+      "body"
     ],
-    // document.querySelectorAll() queries to perform to retrieve page content
-    selectorsAll: [
-      "comment",
-    ],
+    "selectorsAll": []
   },
+  "medium.com": {
+    "chunkSize": 500,
+    "chunkOverlap": 0,
+    "selectors": [
+      "article"
+    ],
+    "selectorsAll": []
+  },
+  "reddit.com": {
+    "chunkSize": 500,
+    "chunkOverlap": 0,
+    "selectors": [],
+    "selectorsAll": [
+      "shreddit-comment"
+    ]
+  },
+  "stackoverflow.com": {
+    "chunkSize": 500,
+    "chunkOverlap": 0,
+    "selectors": [
+      "#question-header",
+      "#mainbar"
+    ],
+    "selectorsAll": []
+  },
+  "substack.com": {
+    "chunkSize": 500,
+    "chunkOverlap": 0,
+    "selectors": [
+      "article"
+    ],
+    "selectorsAll": []
+  },
+  "wikipedia.org": {
+    "chunkSize": 2000,
+    "chunkOverlap": 500,
+    "selectors": [
+      "#bodyContent"
+    ],
+    "selectorsAll": []
+  },
+  "yelp.com": {
+    "chunkSize": 500,
+    "chunkOverlap": 0,
+    "selectors": [
+      "#location-and-hours",
+      "#reviews"
+    ],
+    "selectorsAll": []
+  }
 }
 ```
+### Highlighted Content
 
-See documentation for [`querySelector()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector) and [`querySelectorAll()`](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll) to confirm all querying capabilities.
+Alternatively, if content is highlighted on a page (e.g. highlighted text), that content will be parsed instead of the content produced from the content parser configuration.
 
-## Use Cases
-- Summarize long threads on issue tracking sites, forums, and social media sites.
-- Summarize news articles.
-- Ask questions about reviews on business and product pages.
-- Ask questions about long, technical documentation.
-- ... what else?
+## Multimodal
+
+Lumos supports multimodal models! Images that are present on the current page will be downloaded and bound to the model for prompting. See documentation and examples [here](./docs/multimodal.md).
 
 ## Reading
 - [Local LLM in the Browser Powered by Ollama](https://medium.com/@andrewnguonly/local-llm-in-the-browser-powered-by-ollama-236817f335da)
 - [Local LLM in the Browser Powered by Ollama (Part 2)](https://medium.com/@andrewnguonly/local-llm-in-the-browser-powered-by-ollama-part-2-6eb10caf39a1)
+- [Let’s Normalize Online, In-Memory RAG! (Part 3)](https://medium.com/@andrewnguonly/lets-normalize-online-in-memory-rag-88e8169e9806)

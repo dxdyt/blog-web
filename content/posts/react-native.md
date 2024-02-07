@@ -1,9 +1,9 @@
 ---
 title: react-native
-date: 2023-09-16T12:16:50+08:00
+date: 2024-02-07T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1635799994259-e99ff99ca747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1635799994259-e99ff99ca747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ4Mzc2NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706401795357-36561e966374?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706401795357-36561e966374?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
 ---
 
 # [facebook/react-native](https://github.com/facebook/react-native)
@@ -77,7 +77,7 @@ React Native is developed and supported by many companies and individual core co
 
 ## 📋 Requirements
 
-React Native apps may target iOS 13.4 and Android 5.0 (API 21) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like [Expo](https://expo.dev) can be used to work around this.
+React Native apps may target iOS 13.4 and Android 6.0 (API 23) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like [Expo](https://expo.dev) can be used to work around this.
 
 ## 🎉 Building your first React Native app
 

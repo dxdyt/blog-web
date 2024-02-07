@@ -1,9 +1,9 @@
 ---
 title: JetBrainsActiveCode
-date: 2024-02-06T12:17:45+08:00
+date: 2024-02-07T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704212607070-ed740ea8c7e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704212607070-ed740ea8c7e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxOTI4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704928339913-ac93aaa6a821?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704928339913-ac93aaa6a821?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
 ---
 
 # [superbeyone/JetBrainsActiveCode](https://github.com/superbeyone/JetBrainsActiveCode)
