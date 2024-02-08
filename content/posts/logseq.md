@@ -1,9 +1,9 @@
 ---
 title: logseq
-date: 2023-07-21T12:16:41+08:00
+date: 2024-02-08T12:16:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689613303014-09d130d7240d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689613303014-09d130d7240d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk5MTI5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707045531422-11b4fef815b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707045531422-11b4fef815b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [logseq/logseq](https://github.com/logseq/logseq)

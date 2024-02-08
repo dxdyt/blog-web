@@ -1,9 +1,9 @@
 ---
 title: OpenGFW
-date: 2024-01-26T12:17:03+08:00
+date: 2024-02-08T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704676849858-41c9af3e4764?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYyNDI1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [apernet/OpenGFW](https://github.com/apernet/OpenGFW)
@@ -13,10 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1704676849858-41c9af3e47
 [![License][1]][2]
 
 [1]: https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg
-
 [2]: LICENSE
 
 **[中文文档](README.zh.md)**
+**[日本語ドキュメント](README.ja.md)**
 
 OpenGFW is a flexible, easy-to-use, open source implementation of [GFW](https://en.wikipedia.org/wiki/Great_Firewall) on
 Linux that's in many ways more powerful than the real thing. It's cyber sovereignty you can have on a home router.
@@ -30,15 +30,16 @@ Linux that's in many ways more powerful than the real thing. It's cyber sovereig
 ## Features
 
 - Full IP/TCP reassembly, various protocol analyzers
-    - HTTP, TLS, DNS, SSH, and many more to come
-    - "Fully encrypted traffic" detection for Shadowsocks,
-      etc. (https://gfw.report/publications/usenixsecurity23/data/paper/paper.pdf)
-    - Trojan (proxy protocol) detection based on Trojan-killer (https://github.com/XTLS/Trojan-killer)
-    - [WIP] Machine learning based traffic classification
+  - HTTP, TLS, DNS, SSH, SOCKS4/5, WireGuard, and many more to come
+  - "Fully encrypted traffic" detection for Shadowsocks,
+    etc. (https://gfw.report/publications/usenixsecurity23/data/paper/paper.pdf)
+  - Trojan (proxy protocol) detection based on Trojan-killer (https://github.com/XTLS/Trojan-killer)
+  - [WIP] Machine learning based traffic classification
 - Full IPv4 and IPv6 support
 - Flow-based multicore load balancing
 - Connection offloading
 - Powerful rule engine based on [expr](https://github.com/expr-lang/expr)
+- Hot-reloadable rules (send `SIGHUP` to reload)
 - Flexible analyzer & modifier framework
 - Extensible IO implementation (only NFQueue for now)
 - [WIP] Web UI
@@ -113,12 +114,28 @@ to [Expr Language Definition](https://expr-lang.org/docs/language-definition).
       a: "0.0.0.0"
       aaaa: "::"
   expr: dns != nil && dns.qr && any(dns.questions, {.name endsWith "v2ex.com"})
+
+- name: block google socks
+  action: block
+  expr: string(socks?.req?.addr) endsWith "google.com" && socks?.req?.port == 80
+
+- name: block wireguard by handshake response
+  action: drop
+  expr: wireguard?.handshake_response?.receiver_index_matched == true
+
+- name: block bilibili geosite
+  action: block
+  expr: geosite(string(tls?.req?.sni), "bilibili")
+
+- name: block CN geoip
+  action: block
+  expr: geoip(string(ip.dst), "cn")
 ```
 
 #### Supported actions
 
 - `allow`: Allow the connection, no further processing.
-- `block`: Block the connection, no further processing. Send a TCP RST if it's a TCP connection.
+- `block`: Block the connection, no further processing.
 - `drop`: For UDP, drop the packet that triggered the rule, continue processing future packets in the same flow. For
   TCP, same as `block`.
 - `modify`: For UDP, modify the packet that triggered the rule using the given modifier, continue processing future

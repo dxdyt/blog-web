@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-02-07T12:15:25+08:00
+date: 2024-02-08T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702311178078-1edf877d3afe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702311178078-1edf877d3afe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)

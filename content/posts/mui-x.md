@@ -1,9 +1,9 @@
 ---
 title: mui-x
-date: 2024-02-07T12:18:02+08:00
+date: 2024-02-08T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705107959309-ca7d26fbeb08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705107959309-ca7d26fbeb08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705419705586-40b9e910961e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705419705586-40b9e910961e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
 ---
 
 # [mui/mui-x](https://github.com/mui/mui-x)
