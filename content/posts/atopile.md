@@ -1,9 +1,9 @@
 ---
 title: atopile
-date: 2024-02-08T12:17:32+08:00
+date: 2024-02-09T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706091843782-8629c9163299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706091843782-8629c9163299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707236536755-482034eed3d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707236536755-482034eed3d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
 ---
 
 # [atopile/atopile](https://github.com/atopile/atopile)
@@ -89,7 +89,7 @@ module Blinky:
 
 ### Full Projects
 
-Checkout out the [servo drive project](https://github.com/atopile/spin-servo-drive) of the [logic card project](https://github.com/timot05/logic-card).
+Checkout out the [servo drive project](https://github.com/atopile/spin-servo-drive) or the [logic card project](https://github.com/timot05/logic-card).
 
 ## 🔨 Getting Started
 

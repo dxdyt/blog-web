@@ -1,9 +1,9 @@
 ---
 title: backstage
-date: 2024-02-08T12:18:14+08:00
+date: 2024-02-09T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705615427946-847174bd8cf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705615427946-847174bd8cf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
 ---
 
 # [backstage/backstage](https://github.com/backstage/backstage)

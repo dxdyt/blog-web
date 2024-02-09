@@ -1,9 +1,9 @@
 ---
 title: netbox
-date: 2024-02-08T12:17:25+08:00
+date: 2024-02-09T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706219413873-74517aea8585?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706219413873-74517aea8585?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705657309585-bfd95e05d0fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705657309585-bfd95e05d0fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
 ---
 
 # [netbox-community/netbox](https://github.com/netbox-community/netbox)

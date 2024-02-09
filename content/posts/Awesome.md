@@ -1,9 +1,9 @@
 ---
 title: Awesome
-date: 2024-02-08T12:16:37+08:00
+date: 2024-02-09T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1639686990178-0c0127b927f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1639686990178-0c0127b927f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707236536755-482034eed3d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707236536755-482034eed3d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
 ---
 
 # [Awesome-Windows/Awesome](https://github.com/Awesome-Windows/Awesome)

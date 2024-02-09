@@ -1,9 +1,9 @@
 ---
 title: YOLO-World
-date: 2024-02-03T12:15:09+08:00
+date: 2024-02-09T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706528465042-5f485884b84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704642155498-70b60672f1f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704642155498-70b60672f1f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
 ---
 
 # [AILab-CVC/YOLO-World](https://github.com/AILab-CVC/YOLO-World)
@@ -28,7 +28,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b8
 
 [![arxiv paper](https://img.shields.io/badge/Project-Page-green)](https://wondervictor.github.io/)
 [![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2401.17270)
-[![video](https://img.shields.io/badge/🤗HugginngFace-Spaces-orange)](https://huggingface.co/spaces/stevengrove/YOLO-World)
+[![demo](https://img.shields.io/badge/🤗HugginngFace-Spaces-orange)](https://huggingface.co/spaces/stevengrove/YOLO-World)
+[![hfpaper](https://img.shields.io/badge/🤗HugginngFace-Paper-yellow)](https://huggingface.co/papers/2401.17270)
 [![license](https://img.shields.io/badge/License-GPLv3.0-blue)](LICENSE)
 
 </div>
@@ -37,7 +38,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b8
 
 ## Updates 
 
-`🔥[2024-2-1]:` We've released the code and weights of YOLO-World now!  
+`🔥[2024-2-3]:` We support the `Gradio` demo now in the repo and you can build the YOLO-World demo on your own device!  
+`[2024-2-1]:` We've released the code and weights of YOLO-World now!  
 `[2024-2-1]:` We deploy the YOLO-World demo on [HuggingFace 🤗](https://huggingface.co/spaces/stevengrove/YOLO-World), you can try it now!  
 `[2024-1-31]:` We are excited to launch **YOLO-World**, a cutting-edge real-time open-vocabulary object detector.  
 
@@ -47,6 +49,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1706528465042-5f485884b8
 
 YOLO-World is under active development and please stay tuned ☕️!
 
+- [x] Gradio demo!
 - [ ] Complete documents for pre-training YOLO-World.
 - [ ] COCO & LVIS fine-tuning.
 - [ ] Extra pre-trained models on more data, such as CC3M.
@@ -100,18 +103,7 @@ We've pre-trained YOLO-World-S/M/L from scratch and evaluate on the `LVIS val-1.
 YOLO-World is developed based on `torch==1.11.0` `mmyolo==0.6.0` and `mmdetection==3.0.0`.
 
 ```bash
-# install key dependencies
-pip install mmdetection==3.0.0 mmengine transformers
-
-# clone the repo
-git clone https://github.com/AILAB-CVC/YOLO-World.git
-cd YOLO-World 
-
-# install mmyolo
-mkdir third_party
-git clone https://github.com/open-mmlab/mmyolo.git
-cd ..
-
+python setup.py build develop
 ```
 
 ### 2. Preparing Data
@@ -145,6 +137,14 @@ chmod +x tools/dist_test.sh
 
 We provide the details about deployment for downstream applications in [docs/deployment](./docs/deploy.md).
 You can directly download the ONNX model through the online [demo](https://huggingface.co/spaces/stevengrove/YOLO-World) in Huggingface Spaces 🤗.
+
+## Demo
+
+We provide the [Gradio](https://www.gradio.app/) demo for local devices:
+
+```bash
+python demo.py path/to/config path/to/weights
+```
 
 ## Acknowledgement
 

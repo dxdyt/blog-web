@@ -1,9 +1,9 @@
 ---
 title: tauri
-date: 2024-02-08T12:17:17+08:00
+date: 2024-02-09T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705419705586-40b9e910961e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705419705586-40b9e910961e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706799709181-e0ee699f5026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706799709181-e0ee699f5026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
 ---
 
 # [tauri-apps/tauri](https://github.com/tauri-apps/tauri)
