@@ -1,9 +1,9 @@
 ---
 title: Azure-Sentinel
-date: 2023-11-02T12:18:04+08:00
+date: 2024-02-10T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693899121789-da923e57c419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693899121789-da923e57c419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705320678589-9454f397451b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705320678589-9454f397451b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [Azure/Azure-Sentinel](https://github.com/Azure/Azure-Sentinel)
@@ -26,7 +26,7 @@ We value your feedback. Here are some channels to help surface your questions or
 5. General feedback on community and contribution process - File a GitHub Issue using [Feature Request template](https://github.com/Azure/Azure-Sentinel/issues/new?assignees=&labels=&template=feature_request.md&title=)
 
 
-# Contributing
+# Contribution guidelines
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -41,7 +41,7 @@ Brand new or update to a contribution via these methods:
     * Browse to the folder you want to upload your file to
     * Choose Upload Files and browse to your file. 
     * You will be required to create your own branch and then submit the Pull Request for review.
-* Use [GitHub Desktop](https://help.github.com/en/desktop/getting-started-with-github-desktop) or [Visual Studio](https://visualstudio.microsoft.com/vs/) or [VSCode](https://code.visualstudio.com/?wt.mc_id=DX_841432)
+* Use [GitHub Desktop](https://docs.github.com/en/desktop/overview/getting-started-with-github-desktop) or [Visual Studio](https://visualstudio.microsoft.com/vs/) or [VSCode](https://code.visualstudio.com/?wt.mc_id=DX_841432)
     * [Fork the repo](https://docs.github.com/github/getting-started-with-github/fork-a-repo)  
     * [Clone the repo](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository)
     * [Create your own branch](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work)

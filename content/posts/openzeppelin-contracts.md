@@ -1,9 +1,9 @@
 ---
 title: openzeppelin-contracts
-date: 2023-10-31T12:17:42+08:00
+date: 2024-02-10T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697247079184-efb23487a172?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg3MjU3MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706545512931-13ee29166e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706545512931-13ee29166e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1697247079184-efb23487a1
 
 :mage: **Not sure how to get started?** Check out [Contracts Wizard](https://wizard.openzeppelin.com/) — an interactive smart contract generator.
 
-:building_construction: **Want to scale your decentralized application?** Check out [OpenZeppelin Defender](https://openzeppelin.com/defender) — a secure platform for automating and monitoring your operations.
+:building_construction: **Want to scale your decentralized application?** Check out [OpenZeppelin Defender](https://openzeppelin.com/defender) — a mission-critical developer security platform to code, audit, deploy, monitor, and operate with confidence.
 
 > [!IMPORTANT]
 > OpenZeppelin Contracts uses semantic versioning to communicate backwards compatibility of its API and storage layout. For upgradeable contracts, the storage layout of different major versions should be assumed incompatible, for example, it is unsafe to upgrade from 4.9.3 to 5.0.0. Learn more at [Backwards Compatibility](https://docs.openzeppelin.com/contracts/backwards-compatibility).
@@ -33,7 +33,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1697247079184-efb23487a1
 
 ### Installation
 
-#### Hardhat, Truffle (npm)
+#### Hardhat (npm)
 
 ```
 $ npm install @openzeppelin/contracts

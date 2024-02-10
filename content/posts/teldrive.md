@@ -1,9 +1,9 @@
 ---
 title: teldrive
-date: 2024-02-09T12:16:08+08:00
+date: 2024-02-10T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705773335857-2c0a243a604a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705773335857-2c0a243a604a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706612527282-1e7004678ab1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706612527282-1e7004678ab1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [divyam234/teldrive](https://github.com/divyam234/teldrive)
@@ -38,12 +38,12 @@ version: "3.8"
 
 services:
   server:
-    image: ghcr.io/divyam234/teldrive/server
+    image: ghcr.io/divyam234/teldrive
     restart: always
     container_name: teldrive
     volumes:
-      - ./teldrive.db:/app/teldrive.db:rw
-      - ./logs:/app/logs:rw
+      - ./teldrive.db:/teldrive.db:rw
+      - ./logs:/logs:rw
     env_file: teldrive.env
     ports:
       - 8080:8080
@@ -56,11 +56,12 @@ version: "3.8"
 
 services:
   server:
-    image: ghcr.io/divyam234/teldrive/server
+    image: ghcr.io/divyam234/teldrive
     restart: always
     container_name: teldrive
     volumes:
-      - ./teldrive.db:/app/teldrive.db:rw
+      - ./teldrive.db:/teldrive.db:rw
+      - ./logs:/logs:rw
     env_file: teldrive.env
     ports:
       - 8080:8080
@@ -162,7 +163,7 @@ so you don't need to enable crypt in rclone.**Teldrive generates random salt for
 ### For making use of Multi Bots
 
 > [!WARNING]
-> Bots will be auto added as admin in channel if you set them from UI if it fails somehow add it manually.For newly logged session you have to wait 20-30 min to add bots to telegram channel.
+> Bots will be auto added as admin in channel if you set them from UI if it fails somehow add it manually.For newly logged session you have to wait 20-30 min to add bots to telegram channel.**FRESH_CHANGE_ADMINS_FORBIDDEN** error  will be thrown if you try to add bots before that time frame.
 
 ### Rclone Config Example
 ```conf

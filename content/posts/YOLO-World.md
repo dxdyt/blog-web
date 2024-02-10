@@ -1,9 +1,9 @@
 ---
 title: YOLO-World
-date: 2024-02-09T12:18:11+08:00
+date: 2024-02-10T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704642155498-70b60672f1f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704642155498-70b60672f1f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706379329067-17140f74344f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706379329067-17140f74344f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [AILab-CVC/YOLO-World](https://github.com/AILab-CVC/YOLO-World)
