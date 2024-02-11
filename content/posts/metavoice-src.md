@@ -1,9 +1,9 @@
 ---
 title: metavoice-src
-date: 2024-02-10T12:16:38+08:00
+date: 2024-02-11T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706887577952-2c3237ba079e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706887577952-2c3237ba079e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
 ---
 
 # [metavoiceio/metavoice-src](https://github.com/metavoiceio/metavoice-src)
@@ -49,7 +49,7 @@ python fam/llm/sample.py --huggingface_repo_id="metavoiceio/metavoice-1B-v0.1" -
 python fam/llm/serving.py --huggingface_repo_id="metavoiceio/metavoice-1B-v0.1"
 ```
 
-3. Use it via [HuggingFace](https://huggingface.co/metavoiceio)
+3. Use it via [Hugging Face](https://huggingface.co/metavoiceio)
 
 ## Soon
 - Long form TTS
@@ -76,4 +76,4 @@ The model supports:
 - See all [active issues](https://github.com/metavoiceio/metavoice-src/issues)!
 
 ## Acknowledgements
-We are grateful to Together.ai for their 24/7 help in marshalling our cluster. We thank the teams of AWS, GCP & HuggingFace for support with their cloud platforms.
+We are grateful to Together.ai for their 24/7 help in marshalling our cluster. We thank the teams of AWS, GCP & Hugging Face for support with their cloud platforms.

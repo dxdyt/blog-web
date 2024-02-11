@@ -1,9 +1,9 @@
 ---
 title: Live
-date: 2023-12-06T12:19:25+08:00
+date: 2024-02-11T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700943872245-569730a1714b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700943872245-569730a1714b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE4MzYxODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704895390342-b52a2f45786c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704895390342-b52a2f45786c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
 ---
 
 # [YueChan/Live](https://github.com/YueChan/Live)

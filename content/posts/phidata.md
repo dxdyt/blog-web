@@ -1,9 +1,9 @@
 ---
 title: phidata
-date: 2024-02-10T12:17:37+08:00
+date: 2024-02-11T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706612527282-1e7004678ab1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706612527282-1e7004678ab1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704676836005-713d641c9983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
 ---
 
 # [phidatahq/phidata](https://github.com/phidatahq/phidata)
@@ -59,7 +59,7 @@ pip install -U phidata
 from phi.assistant import Assistant
 
 assistant = Assistant(description="You help people with their health and fitness goals.")
-assistant.print_response("Share a quick healthy breakfast recipe.")
+assistant.print_response("Share a quick healthy breakfast recipe.", markdown=True)
 ```
 
 - Run the `Assistant`
@@ -75,7 +75,7 @@ from phi.assistant import Assistant
 from phi.tools.duckduckgo import DuckDuckGo
 
 assistant = Assistant(tools=[DuckDuckGo()], show_tool_calls=True)
-assistant.print_response("Whats happening in France?")
+assistant.print_response("Whats happening in France?", markdown=True)
 ```
 
 - Run the `Assistant`
@@ -111,7 +111,7 @@ Instead of wiring tools manually, phidata provides **pre-built** templates for A
 
 <details>
 
-<summary><h3>Assistant that can call an API</h3></summary>
+<summary><h3>Assistant that calls the HackerNews API</h3></summary>
 
 - Create a file `api_assistant.py` that can call the HackerNews API to get top stories.
 
@@ -147,7 +147,7 @@ def get_top_hackernews_stories(num_stories: int = 10) -> str:
     return json.dumps(stories)
 
 assistant = Assistant(tools=[get_top_hackernews_stories], show_tool_calls=True)
-assistant.print_response("Summarize the top stories on hackernews?")
+assistant.print_response("Summarize the top stories on hackernews?", markdown=True)
 ```
 
 - Run the `api_assistant.py` file
@@ -202,7 +202,7 @@ python api_assistant.py
 
 <details>
 
-<summary><h3>Assistant that can analyze data using SQL</h3></summary>
+<summary><h3>Assistant that analyzes data using SQL</h3></summary>
 
 The `DuckDbAssistant` can perform data analysis using SQL queries.
 
@@ -224,7 +224,7 @@ duckdb_assistant = DuckDbAssistant(
     }),
 )
 
-duckdb_assistant.print_response("What is the average rating of movies? Show me the SQL.")
+duckdb_assistant.print_response("What is the average rating of movies? Show me the SQL.", markdown=True)
 ```
 
 - Run the `data_assistant.py` file
@@ -263,7 +263,7 @@ INFO     Running: SELECT AVG(Rating) AS average_rating
 
 <details>
 
-<summary><h3>Assistant that can run python code</h3></summary>
+<summary><h3>Assistant that runs python code</h3></summary>
 
 The `PythonAssistant` can perform virtually any task using python code.
 
@@ -284,7 +284,7 @@ python_assistant = PythonAssistant(
     show_tool_calls=True,
 )
 
-python_assistant.print_response("What is the average rating of movies?")
+python_assistant.print_response("What is the average rating of movies?", markdown=True)
 ```
 
 - Run the `python_assistant.py` file
@@ -314,7 +314,7 @@ INFO     Running /Users/zu/ai/average_rating
 
 <details>
 
-<summary><h3>Assistant that can generate pydantic models</h3></summary>
+<summary><h3>Assistant that generates pydantic models</h3></summary>
 
 One of our favorite features is generating structured data (i.e. a pydantic model) from sparse information.
 Meaning we can use Assistants to return pydantic models and generate content which previously could not be possible.
@@ -465,7 +465,7 @@ def pdf_assistant(new: bool = False, user: str = "user"):
         message = Prompt.ask(f"[bold] :sunglasses: {user} [/bold]")
         if message in ("exit", "bye"):
             break
-        assistant.print_response(message)
+        assistant.print_response(message, markdown=True)
 
 if __name__ == "__main__":
     typer.run(pdf_assistant)

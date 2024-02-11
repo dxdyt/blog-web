@@ -1,9 +1,9 @@
 ---
 title: nlw-expert-react
-date: 2024-02-10T12:17:47+08:00
+date: 2024-02-11T12:17:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706545512931-13ee29166e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706545512931-13ee29166e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704895390342-b52a2f45786c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704895390342-b52a2f45786c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
 ---
 
 # [rocketseat-education/nlw-expert-react](https://github.com/rocketseat-education/nlw-expert-react)

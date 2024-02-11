@@ -1,9 +1,9 @@
 ---
 title: ml-mgie
-date: 2024-02-10T12:16:19+08:00
+date: 2024-02-11T12:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706859450156-0214dca4260d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706859450156-0214dca4260d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706545512971-95cccce534f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706545512971-95cccce534f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
 ---
 
 # [apple/ml-mgie](https://github.com/apple/ml-mgie)

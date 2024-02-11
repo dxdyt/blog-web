@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinter
-date: 2024-02-10T12:16:03+08:00
+date: 2024-02-11T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705917676092-72ae4a46cab3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705917676092-72ae4a46cab3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705959313477-e82abedc22f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705959313477-e82abedc22f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
 ---
 
 # [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter)
@@ -43,7 +43,7 @@ python -m http.server 3000
 
 See [`.env.example`](.env.example) for the required environment variables.
 
-If you need help, open [ENV.md](ENV.md) for more information.
+If you need help, open [EnvironmentVariables.md](EnvironmentVariables.md) for more information.
 
 ## Usage 🛠️
 
