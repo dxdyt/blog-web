@@ -1,9 +1,9 @@
 ---
 title: metamask-extension
-date: 2023-11-25T12:17:07+08:00
+date: 2024-02-12T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698422864754-de73a2a86007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698422864754-de73a2a86007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA4ODU3MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705522369595-40d0b2667739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705522369595-40d0b2667739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
 ---
 
 # [MetaMask/metamask-extension](https://github.com/MetaMask/metamask-extension)
@@ -127,7 +127,12 @@ Different build types have different e2e tests sets. In order to run them look i
     "test:e2e:chrome:snaps": "SELENIUM_BROWSER=chrome node test/e2e/run-all.js --snaps",
     "test:e2e:chrome:mv3": "ENABLE_MV3=true SELENIUM_BROWSER=chrome node test/e2e/run-all.js",
 ```
-Note: MMI runs a subset of MetaMask's e2e tests. To facilitate this, we have appended the `@no-mmi` tags to the names of those tests that are not applicable to this build type.
+
+
+#### Note: Running MMI e2e tests
+When running e2e on an MMI build you need to know that there are 2 separated set of tests:
+- MMI runs a subset of MetaMask's e2e tests. To facilitate this, we have appended the `@no-mmi` tags to the names of those tests that are not applicable to this build type.
+- MMI runs another specific set of e2e legacy tests which are better documented [here](test/e2e/mmi/README.md)
 
 ### Changing dependencies
 

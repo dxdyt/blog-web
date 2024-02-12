@@ -1,9 +1,9 @@
 ---
 title: subql
-date: 2024-01-14T12:16:50+08:00
+date: 2024-02-12T12:15:52+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1671734045770-4b9e1a5e53a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1671734045770-4b9e1a5e53a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703866772340-048b3877605d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703866772340-048b3877605d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
 ---
 
 # [subquery/subql](https://github.com/subquery/subql)
@@ -40,7 +40,7 @@ Dig into every term, usecases, and best-practices that help you build a dApp whi
 
 #### Publish your SubQuery Project to our Managed Service
 
-Don't want to worry about running your own indexing infrastructure? SubQuery provides a [managed Service](https://explorer.subquery.network) with industry leading hosting so you can sleep easy. Trused by hundreds of projects with millions of daily requests, follow our publishing guide to see how you can upload your project to [SubQuery Projects](https://academy.subquery.network/run_publish/publish.html).
+Don't want to worry about running your own indexing infrastructure? SubQuery provides a [managed Service](https://explorer.subquery.network) with industry leading hosting so you can sleep easy. Trusted by hundreds of projects with millions of daily requests, follow our publishing guide to see how you can upload your project to [SubQuery Projects](https://academy.subquery.network/run_publish/publish.html).
 
 #### Run your own Indexer and Query Service
 

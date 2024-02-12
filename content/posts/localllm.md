@@ -1,9 +1,9 @@
 ---
 title: localllm
-date: 2024-02-11T12:15:42+08:00
+date: 2024-02-12T12:16:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704894908795-2823d704d831?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707162796436-e716e46e7e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707162796436-e716e46e7e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
 ---
 
 # [GoogleCloudPlatform/localllm](https://github.com/GoogleCloudPlatform/localllm)

@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinter
-date: 2024-02-11T12:15:36+08:00
+date: 2024-02-12T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705959313477-e82abedc22f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705959313477-e82abedc22f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705905440260-22c4b4d53305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705905440260-22c4b4d53305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
 ---
 
 # [FujiwaraChoki/MoneyPrinter](https://github.com/FujiwaraChoki/MoneyPrinter)
@@ -58,7 +58,9 @@ If you need help, open [EnvironmentVariables.md](EnvironmentVariables.md) for mo
 
 To use your own music, compress all your MP3 Files into a ZIP file and upload it somewhere. Provide the link to the ZIP file in the Frontend.
 
-It is recommended to use Services such as [Filebin](https://filebin.net) to upload your ZIP file.
+It is recommended to use Services such as [Filebin](https://filebin.net) to upload your ZIP file. If you decide to use Filebin, provide the Frontend with the absolute path to the ZIP file by using More -> Download File, e.g. (use this [Popular TT songs ZIP](https://filebin.net/2avx134kdibc4c3q/drive-download-20240209T180019Z-001.zip), not this [Popular TT songs](https://filebin.net/2avx134kdibc4c3q))
+
+You can also just move your MP3 files into the `Songs` folder. 
 
 ## Fonts 🅰
 
@@ -89,6 +91,31 @@ The authentication process creates and stores a `main.py-oauth2.json` file insid
 Videos are uploaded as private by default. For a completely automated workflow, change the privacyStatus in main.py to your desired setting ("public", "private", or "unlisted").
 
 For videos that have been locked as private due to upload via an unverified API service, you will not be able to appeal. You’ll need to re-upload the video via a verified API service or via the YouTube app/site. The unverified API service can also apply for an API audit. So make sure to verify your API, see [OAuth App Verification Help Center](https://support.google.com/cloud/answer/13463073) for more information.
+
+## FAQ 🤔
+
+### How do I get the TikTok session ID?
+
+You can obtain your TikTok session ID by logging into TikTok in your browser and copying the value of the `sessionid` cookie.
+
+### My ImageMagick binary is not being detected
+
+Make sure you set your path to the ImageMagick binary correctly in the `.env` file, it should look something like this:
+
+```env
+IMAGEMAGICK_BINARY="C:\\Program Files\\ImageMagick-7.1.0-Q16\\magick.exe"
+```
+
+Don't forget to use double backslashes (`\\`) in the path, instead of one.
+
+### I can't install `playsound`: Wheel failed to build
+
+If you're having trouble installing `playsound`, you can try installing it using the following command:
+
+```bash
+pip install -U wheel
+pip install -U playsound
+```
 
 ## Donate 🎁
 

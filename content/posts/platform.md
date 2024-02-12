@@ -1,9 +1,9 @@
 ---
 title: platform
-date: 2024-02-11T12:17:09+08:00
+date: 2024-02-12T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706059925993-42795fd8eef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706059925993-42795fd8eef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1661174731983-904796ac76c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1661174731983-904796ac76c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
 ---
 
 # [hcengineering/platform](https://github.com/hcengineering/platform)

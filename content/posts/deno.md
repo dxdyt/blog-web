@@ -1,9 +1,9 @@
 ---
 title: deno
-date: 2024-02-11T12:18:27+08:00
+date: 2024-02-12T12:18:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1630371235753-864305a48ef3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1630371235753-864305a48ef3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc2MjQ5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705522369595-40d0b2667739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705522369595-40d0b2667739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
 ---
 
 # [denoland/deno](https://github.com/denoland/deno)
