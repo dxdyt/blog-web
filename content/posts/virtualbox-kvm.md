@@ -1,9 +1,9 @@
 ---
 title: virtualbox-kvm
-date: 2024-02-12T12:16:11+08:00
+date: 2024-02-13T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706463631724-2860bff820f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706463631724-2860bff820f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703593191760-ff33fe19c56d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703593191760-ff33fe19c56d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
 ---
 
 # [cyberus-technology/virtualbox-kvm](https://github.com/cyberus-technology/virtualbox-kvm)

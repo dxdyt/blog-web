@@ -1,9 +1,9 @@
 ---
 title: llrt
-date: 2024-02-12T12:15:38+08:00
+date: 2024-02-13T12:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706611498219-3c73fdcd83e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706611498219-3c73fdcd83e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
 ---
 
 # [awslabs/llrt](https://github.com/awslabs/llrt)
@@ -35,7 +35,7 @@ Choose `Custom Runtime on Amazon Linux 2023` and package the LLRT `bootstrap` bi
 
 Choose `Custom Runtime on Amazon Linux 2023`, upload `llrt-lambda-arm64.zip` or `llrt-lambda-x86.zip` as a layer and add to your function
 
-Thats it 🎉
+That's it 🎉
 
 > [!IMPORTANT]
 > Even though LLRT supports [ES2020](https://262.ecma-international.org/11.0/) it's **NOT** a drop in replacement for Node.js. Consult [Compatibility matrix](#compatibility-matrix) and [API](API.md) for more details.

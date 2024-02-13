@@ -1,9 +1,9 @@
 ---
 title: Odin
-date: 2024-02-12T12:17:26+08:00
+date: 2024-02-13T12:16:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707162796436-e716e46e7e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707162796436-e716e46e7e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
 ---
 
 # [odin-lang/Odin](https://github.com/odin-lang/Odin)

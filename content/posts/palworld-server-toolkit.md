@@ -1,9 +1,9 @@
 ---
 title: palworld-server-toolkit
-date: 2024-02-12T12:18:18+08:00
+date: 2024-02-13T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706126199160-1b3867dbf587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706126199160-1b3867dbf587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706126199160-1b3867dbf587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706126199160-1b3867dbf587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
 ---
 
 # [magicbear/palworld-server-toolkit](https://github.com/magicbear/palworld-server-toolkit)

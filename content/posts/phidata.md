@@ -1,9 +1,9 @@
 ---
 title: phidata
-date: 2024-02-12T12:15:46+08:00
+date: 2024-02-13T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706550634007-69d1ed91613c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706550634007-69d1ed91613c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704973982149-6729c94f10ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704973982149-6729c94f10ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
 ---
 
 # [phidatahq/phidata](https://github.com/phidatahq/phidata)

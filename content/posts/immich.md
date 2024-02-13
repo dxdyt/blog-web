@@ -1,16 +1,16 @@
 ---
 title: immich
-date: 2023-12-20T12:15:13+08:00
+date: 2024-02-13T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700405936040-a593ec18ec78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700405936040-a593ec18ec78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703982924533-22c9f7f34624?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703982924533-22c9f7f34624?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
 
 <p align="center"> 
   <br/>  
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-green.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: MIT"></a>
+  <a href="https://opensource.org/license/agpl-v3"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: AGPLv3"></a>
   <a href="https://discord.gg/D8JsnBEuKb">
     <img src="https://img.shields.io/discord/979116623879368755.svg?label=Discord&logo=Discord&style=for-the-badge&logoColor=000000&labelColor=ececec" alt="Discord"/>
   </a>
@@ -38,6 +38,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1700405936040-a593ec18ec
   <a href="README_nl_NL.md">Nederlands</a>
   <a href="README_tr_TR.md">Türkçe</a>
   <a href="README_zh_CN.md">中文</a>
+  <a href="README_ru_RU.md">Русский</a>
 </p>
 
 ## Disclaimer
@@ -78,12 +79,17 @@ password: demo
 Spec: Free-tier Oracle VM - Amsterdam - 2.4Ghz quad-core ARM64 CPU, 24GB RAM
 ```
 
+## Activities
+![Activities](https://repobeats.axiom.co/api/embed/9e86d9dc3ddd137161f2f6d2e758d7863b1789cb.svg "Repobeats analytics image")
+
 ## Features
 
+
 | Features                                     | Mobile | Web |
-| -------------------------------------------- | ------ | --- |
+| :--------------------------------------------- | -------- | ----- |
 | Upload and view videos and photos            | Yes    | Yes |
 | Auto backup when the app is opened           | Yes    | N/A |
+| Prevent duplication of assets                | Yes    | Yes |
 | Selective album(s) for backup                | Yes    | N/A |
 | Download photos and videos to local device   | Yes    | Yes |
 | Multi-user support                           | Yes    | Yes |
@@ -98,6 +104,7 @@ Spec: Free-tier Oracle VM - Amsterdam - 2.4Ghz quad-core ARM64 CPU, 24GB RAM
 | OAuth support                                | Yes    | Yes |
 | API Keys                                     | N/A    | Yes |
 | LivePhoto/MotionPhoto backup and playback    | Yes    | Yes |
+| Support 360 degree image display             | No     | Yes |
 | User-defined storage structure               | Yes    | Yes |
 | Public Sharing                               | No     | Yes |
 | Archive and Favorites                        | Yes    | Yes |
@@ -119,14 +126,15 @@ If you feel like this is the right cause and the app is something you are seeing
 
 ### Donation
 
-- [Monthly donation](https://github.com/sponsors/alextran1502) via GitHub Sponsors
-- [One-time donation](https://github.com/sponsors/alextran1502?frequency=one-time&sponsor=alextran1502) via GitHub Sponsors
-- [Librepay](https://liberapay.com/alex.tran1502/)
+- [Monthly donation](https://github.com/sponsors/immich-app) via GitHub Sponsors
+- [One-time donation](https://github.com/sponsors/immich-app?frequency=one-time&sponsor=alextran1502) via GitHub Sponsors
+- [Liberapay](https://liberapay.com/alex.tran1502/)
 - [buymeacoffee](https://www.buymeacoffee.com/altran1502)
-- Bitcoin: 1FvEp6P6NM8EZEkpGUFAN2LqJ1gxusNxZX
+- Bitcoin: 3QVAb9dCHutquVejeNXitPqZX26Yg5kxb7
 - ZCash: u1smm4wvqegcp46zss2jf5xptchgeczp4rx7a0wu3mermf2wxahm26yyz5w9mw3f2p4emwlljxjumg774kgs8rntt9yags0whnzane4n67z4c7gppq4yyvcj404ne3r769prwzd9j8ntvqp44fa6d67sf7rmcfjmds3gmeceff4u8e92rh38nd30cr96xw6vfhk6scu4ws90ldzupr3sz
 
 ## Contributors
+
 <a href="https://github.com/alextran1502/immich/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=immich-app/immich" width="100%"/>
 </a>
