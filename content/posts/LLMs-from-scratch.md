@@ -1,14 +1,16 @@
 ---
 title: LLMs-from-scratch
-date: 2024-02-01T12:17:39+08:00
+date: 2024-02-14T12:18:13+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1696891412325-1d3879a623d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1696891412325-1d3879a623d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY3NjA5ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707305318944-0dd559c12789?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707305318944-0dd559c12789?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
 ---
 
 # [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 
 # Build a Large Language Model (From Scratch)
+
+This repository contains the code for coding, pretraining, and finetuning a GPT-like LLM and is the official code repository for the book [Build a Large Language Model (From Scratch)](http://mng.bz/orYv).
 
 (If you downloaded the code bundle from the Manning website, please consider visiting the official code repository on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch).)
 
@@ -43,8 +45,8 @@ Alternatively, you can view this and other files on GitHub at [https://github.co
 |------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
 | Ch 1: Understanding Large Language Models      | No code                                                                                                                         | No code                       |
 | Ch 2: Working with Text Data                   | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb) | [./ch02](./ch02)              |
-| Ch 3: Coding Attention Mechanisms              | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) | [./ch03](./ch03)              |
-| Ch 4: Implementing a GPT Model from Scratch    | coming soon                                                                                                                     | ...                           |
+| Ch 3: Coding Attention Mechanisms              | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)              |
+| Ch 4: Implementing a GPT Model from Scratch    | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |
 | Ch 5: Pretraining on Unlabeled Data            | Q1 2024                                                                                                                         | ...                           |
 | Ch 6: Finetuning for Text Classification       | Q2 2024                                                                                                                         | ...                           |
 | Ch 7: Finetuning with Human Feedback           | Q2 2024                                                                                                                         | ...                           |

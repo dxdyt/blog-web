@@ -1,9 +1,9 @@
 ---
 title: llrt
-date: 2024-02-13T12:14:50+08:00
+date: 2024-02-14T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706179530596-b2ef0e33062f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706459418431-f68031d1b006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706459418431-f68031d1b006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
 ---
 
 # [awslabs/llrt](https://github.com/awslabs/llrt)
@@ -22,6 +22,8 @@ It's built in Rust, utilizing QuickJS as JavaScript engine, ensuring efficient m
 
 <sub>Node.js 20 - [DynamoDB Put, ARM, 128MB](example/functions/src/v3-lib.mjs):<sub>
 ![DynamoDB Put Node20](./benchmarks/node20-ddb-put.png "Node20 DynamoDB Put")
+
+HTTP benchmarks measured in **round trip time** for a cold start ([why?](#benchmark-methodology))
 
 ## Configure Lambda functions to use LLRT
 
@@ -98,7 +100,7 @@ LLRT can work with any bundler of your choice. Below are some configurations for
 
 ### ESBuild
 
-    esbuild index.js --platform=node --target=es2020 --format=esm --bundle --minify --external:@aws-sdk --external:uuid
+    esbuild index.js --platform=node --target=es2020 --format=esm --bundle --minify --external:@aws-sdk --external:@smithy --external:uuid
 
 ### Rollup
 
@@ -120,7 +122,7 @@ export default {
     commonjs(),
     terser(), 
   ],
-  external: ["@aws-sdk","uuid"],
+  external: ["@aws-sdk","@smithy","uuid"],
 };
 ```
 
@@ -142,7 +144,7 @@ export default {
   resolve: {
     extensions: ['.js'],
   },
-  externals: [nodeExternals(),"@aws-sdk","uuid"],
+  externals: [nodeExternals(),"@aws-sdk","@smithy","uuid"],
   optimization: {
     minimize: true,
     minimizer: [
@@ -160,30 +162,38 @@ export default {
 ## Using AWS SDK (v3) with LLRT
 
 LLRT includes many AWS SDK clients and utils as part of the runtime, built into the executable. These SDK Clients have been specifically fine-tuned to offer best performance while not compromising on compatibility. LLRT replaces some JavaScript dependencies used by the AWS SDK by native ones such as Hash calculations and XML parsing.
-V3 SDK packages not included in the list below have to be bundled with your source code while marking the following packages as external.
+V3 SDK packages not included in the list below have to be bundled with your source code while marking the following packages as external:
 
-**Bundled AWS SDK packages:**
+| Bundled AWS SDK packages             |
+| ------------------------------------- |
+| @aws-sdk/client-dynamodb              |
+| @aws-sdk/lib-dynamodb                 |
+| @aws-sdk/client-kms                   |
+| @aws-sdk/client-lambda                |
+| @aws-sdk/client-s3                    |
+| @aws-sdk/client-secrets-manager       |
+| @aws-sdk/client-ses                   |
+| @aws-sdk/client-sns                   |
+| @aws-sdk/client-sqs                   |
+| @aws-sdk/client-sts                   |
+| @aws-sdk/client-ssm                   |
+| @aws-sdk/client-cloudwatch-logs       |
+| @aws-sdk/client-cloudwatch-events     |
+| @aws-sdk/client-eventbridge           |
+| @aws-sdk/client-sfn                   |
+| @aws-sdk/client-xray                  |
+| @aws-sdk/client-cognito-identity      |
+| @aws-sdk/util-dynamodb                |
+| @aws-sdk/credential-providers         |
+| @smithy                               |
 
-* @aws-sdk/client-dynamodb
-* @aws-sdk/lib-dynamodb
-* @aws-sdk/client-kms
-* @aws-sdk/client-lambda
-* @aws-sdk/client-s3
-* @aws-sdk/client-secrets-manager
-* @aws-sdk/client-ses
-* @aws-sdk/client-sns
-* @aws-sdk/client-sqs
-* @aws-sdk/client-sts
-* @aws-sdk/client-ssm
-* @aws-sdk/client-cloudwatch-logs
-* @aws-sdk/client-cloudwatch-events
-* @aws-sdk/client-eventbridge
-* @aws-sdk/client-sfn
-* @aws-sdk/client-xray
-* @aws-sdk/client-cognito-identity
-* @aws-sdk/util-dynamodb
-* @aws-sdk/credential-providers
-* @smithy/signature-v4
+> [!IMPORTANT] 
+> LLRT currently does not support returning streams from SDK responses. Use `response.Body.transformToString();` or `response.Body.transformToByteArray();` as shown below.
+> ```javascript
+>const response = await client.send(command);
+>// or 'transformToByteArray()'
+>const str = await response.Body.transformToString();
+>```
 
 ## Running TypeScript with LLRT
 
@@ -282,6 +292,16 @@ Start the `lambda-server.js` in a separate terminal
 Then run llrt:
 
     make run
+
+## Benchmark Methodology
+Although Init Duration [reported by Lambda](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html) is commonly used to understand cold start impact on overall request latency, this metric does not include the time needed to copy code into the Lambda sandbox. 
+
+The technical definition of Init Duration ([source](https://docs.aws.amazon.com/lambda/latest/dg/nodejs-logging.html#node-logging-output)):
+> For the first request served, the amount of time it took the runtime to load the function and run code outside of the handler method.
+
+Measuring round-trip request duration provides a more complete picture of user facing cold-start latency.
+
+Lambda invocation results (λ-labeled row) report the sum total of Init Duration + Function Duration.
 
 ## Security
 

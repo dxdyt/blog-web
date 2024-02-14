@@ -1,31 +1,38 @@
 ---
 title: continue
-date: 2023-08-31T12:17:26+08:00
+date: 2024-02-14T12:18:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690394472903-23ce57cb5953?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
 
-> 🎁 **New!: [Use Code Llama with Continue](https://continue.dev/docs/walkthroughs/codellama)**
+![Continue logo](media/c_d.png)
 
 <h1 align="center">Continue</h1>
 
 <div align="center">
 
-**[Continue](https://continue.dev/docs) is the open-source autopilot for software development—a [VS Code extension](https://marketplace.visualstudio.com/items?itemName=Continue.continue) that brings the power of ChatGPT to your IDE**
+**[Continue](https://continue.dev/docs) is an open-source autopilot for [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension)—the easiest way to code with any LLM**
 
 </div>
 
 <div align="center">
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<a target="_blank" href="https://opensource.org/licenses/Apache-2.0" style="background:none">
+    <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" style="height: 22px;" />
+</a>
+<a target="_blank" href="https://continue.dev/docs" style="background:none">
+    <img src="https://img.shields.io/badge/continue_docs-%23BE1B55" style="height: 22px;" />
+</a>
 <a target="_blank" href="https://discord.gg/vapESyrFmJ" style="background:none">
-<img src="https://img.shields.io/badge/discord-join-continue.svg?labelColor=191937&color=6F6FF7&logo=discord" />
+    <img src="https://img.shields.io/badge/discord-join-continue.svg?labelColor=191937&color=6F6FF7&logo=discord" style="height: 22px;" />
 </a>
 
-![Editing With Continue](readme.gif)
+<p></p>
+
+![Editing With Continue](media/readme.gif)
 
 </div>
 
@@ -33,35 +40,39 @@ featuredImagePreview: https://images.unsplash.com/photo-1690394472903-23ce57cb59
 
 ### Answer coding questions
 
-Highlight sections of code and ask Continue for another perspective
+Highlight + select sections of code and ask Continue for another perspective
 
-- “how can I set up a Prisma schema that cascades deletes?”
-- “where in the page should I be making this request to the backend?”
-- “how can I communicate between these iframes?”
+- “what does this forRoot() static function do in nestjs?”
+- “why is the first left join in this query necessary here?”
+- “how do I run a performance benchmark on this rust binary?”
 
 ### Edit in natural language
 
-Highlight a section of code and instruct Continue to refactor it
+Highlight + select a section of code and instruct Continue to refactor it
 
-- “/edit migrate this digital ocean terraform file into one that works for GCP”
-- “/edit change this plot into a bar chart in this dashboard component”
-- “/edit rewrite this function to be async”
+- “/edit rewrite this to return a flattened list from a 3x3 matrix”
+- “/edit refactor these into an angular flex layout on one line"
+- “/edit define a type here for a list of lists of dictionaries”
 
 ### Generate files from scratch
 
 Open a blank file and let Continue start new Python scripts, React components, etc.
 
-- “/edit here is a connector for postgres, now write one for kafka”
-- “/edit make an IAM policy that creates a user with read-only access to S3”
-- “/edit use this schema to write me a SQL query that gets recently churned users”
+- “/edit get me started with a basic supabase edge function”
+- “/edit implement a c++ shortest path algo in a concise way”
+- “/edit create a docker compose file with php and mysql server"
 
 ## Getting Started
 
-### [Download for VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
+#### Download for [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension)
 
-By default, Continue uses `GPT-4` and `GPT-3.5-turbo` via the OpenAI API.
+You can try out Continue for free using a proxy server that securely makes calls with our API key to models like GPT-4, Gemini Pro, and Phind CodeLlama via OpenAI, Google, and Together respectively.
 
-You can adjust the config to use different LLMs, including local, private models. Read more [here](https://continue.dev/docs/customization#change-the-default-llm).
+Once you're ready to use your own API key or a different model / provider, press the `+` button in the bottom left to add a new model to your `config.json`. Learn more about the models and providers [here](https://continue.dev/docs/model-setup/overview).
+
+## Contributing
+
+Check out the [contribution ideas board](https://github.com/orgs/continuedev/projects/2), read the [contributing guide](https://github.com/continuedev/continue/blob/main/CONTRIBUTING.md), and join [#contribute on Discord](https://discord.gg/vapESyrFmJ)
 
 ## License
 

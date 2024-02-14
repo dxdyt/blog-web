@@ -1,20 +1,20 @@
 ---
 title: ml-engineering
-date: 2024-01-25T12:17:18+08:00
+date: 2024-02-14T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704120103349-f9db80e2cd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704120103349-f9db80e2cd6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706887074248-2f10a59dfc68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706887074248-2f10a59dfc68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
 
 # Machine Learning Engineering Open Book
 
-An open collection of methodologies to help with successful training of large language models and multi-modal models.
+This is an open collection of methodologies, tools and step by step instructions to help with successful training of large language models and multi-modal models.
 
 This is a technical material suitable for LLM/VLM training engineers and operators. That is the content here contains lots of scripts and copy-n-paste commands to enable you to quickly address your needs.
 
-This repo is an ongoing brain dump of my experiences training Large Language Models (LLM) (and VLMs); a lot of the know-how I acquired while training the open-source [BLOOM-176B](https://huggingface.co/bigscience/bloom) model in 2022 and [IDEFICS-80B](https://huggingface.co/HuggingFaceM4/idefics-80b-instruct) multi-modal model in 2023. Currently, I'm working on developing/training open-source Retrieval Augmented models at [Contextual.AI](https://contextual.ai/).
+This repo is an ongoing brain dump of my experiences training Large Language Models (LLM) (and VLMs); a lot of the know-how I acquired while training the open-source [BLOOM-176B](https://huggingface.co/bigscience/bloom) model in 2022 and [IDEFICS-80B](https://huggingface.co/HuggingFaceM4/idefics-80b-instruct) multi-modal model in 2023. Currently, I'm working on developing/training open-source Retrieval Augmented Generation (RAG) models at [Contextual.AI](https://contextual.ai/).
 
 I've been compiling this information mostly for myself so that I could quickly find solutions I have already researched in the past and which have worked, but as usual I'm happy to share these with the wider ML community.
 
@@ -25,60 +25,52 @@ My apologies if the layout is a bit unstable while I'm writing new chapters and 
 
 **Part 1. Insights**
 
-1. **[The AI Battlefield Engineering - What You Need To Know](./insights/ai-battlefield.md)**
+1. **[The AI Battlefield Engineering](./insights/ai-battlefield.md)** - what you need to know in order to succeed
 
-**Part 2. Key Hardware Components**
+**Part 2. Hardware**
 
-1. **[Accelerator](./accelerator/)** - the work horses of ML - GPUs, TPUs, IPUs, FPGAs, HPUs, QPUs, RDUs (WIP)
+1. **[Compute](compute)** - accelerators, CPUs, CPU memory.
 
-1. **[Network](./network/)** - intra-node and inter-node connectivity, calculating bandwidth requirements
+1. **[Storage](storage)** - local, distributed and shared file systems.
 
-1. **[Storage](./storage/)** - local and distributed disks and file systems
-
-1. **[CPU](./cpu/)** - cpus, affinities (WIP)
-
-1. **[CPU Memory](./cpu-memory/)** - how much CPU memory is enough - the shortest chapter ever.
+1. **[Network](network)** - intra- and inter-node networking.
 
 
-**Part 3. Performance**
+**Part 3. Orchestration**
 
-1. **[Fault Tolerance](./fault-tolerance/)**
-
-1. **[Performance](./performance/)**
-
-1. **[Multi-Node networking](./multi-node)**
-
-1. **[Model parallelism](./model-parallelism/)**
+1. **[SLURM](orchestration/slurm)** - the main orchestration environment
 
 
-**Part 4. Operating**
+**Part 4. Training**
 
-1. **[SLURM](orchestration/slurm)**
-
-1. **[Training hyper-parameters and model initializations](./hparams/)**
-
-1. **[Instabilities](./instabilities/)**
+1. **[Training](training)** - model training related guides
 
 
 **Part 5. Development**
 
-1. **[Debugging software and hardware failures](./debug/)**
+1. **[Debugging and Troubleshooting](debug)** - how to debug easy and difficult issues
 
 1. **[And more debugging](https://github.com/stas00/the-art-of-debugging)**
 
-1. **[Reproducibility](./reproducibility/)**
-
-1. **[Tensor precision / Data types](./dtype/)**
-
-1. **[HF Transformers notes](./transformers/)** - making small models, tokenizers, datasets, and other tips
+1. **[Testing](testing)** - numerous tips and tools to make test writing enjoyable
 
 
 **Part 6. Miscellaneous**
 
-1. **[Resources](./resources/)** - LLM/VLM chronicles
+1. **[Resources](resources)** - LLM/VLM chronicles
 
 
+## Updates
 
+I announce any significant updates on my twitter channel https://twitter.com/StasBekman
+
+## PDF version
+
+Download the [PDF](https://huggingface.co/stas/ml-engineering-book/resolve/main/Stas%20Bekman%20-%20Machine%20Learning%20Engineering.pdf?download=true) version of the book.
+
+I will try to rebuild it once a week or so, but if you want the latest, the instructions for building are [here](build).
+
+Thanks to HuggingFace for giving me permission to host my book's PDF at the [HF hub](https://huggingface.co/).
 
 ## Shortcuts
 
@@ -86,20 +78,15 @@ Things that you are likely to need to find quickly and often.
 
 Tools:
 
-- [all_reduce_bench.py](./multi-node/all_reduce_bench.py) - a much easier way to benchmark network throughput than nccl-tests.
-- [torch-distributed-gpu-test.py](./debug/torch-distributed-gpu-test.py) - a tool to quickly test your inter-node connectivity
+- [all_reduce_bench.py](network/benchmarks/all_reduce_bench.py) - a much easier way to benchmark network throughput than nccl-tests.
+- [torch-distributed-gpu-test.py](debug/torch-distributed-gpu-test.py) - a tool to quickly test your inter-node connectivity
 
 Guides:
 
-- [debugging pytorch applications](./debug/pytorch.md) - quick copy-n-paste solutions to resolve hanging or breaking pytorch applications
+- [debugging pytorch applications](debug/pytorch.md) - quick copy-n-paste solutions to resolve hanging or breaking pytorch applications
 - [slurm for users](orchestration/slurm/users.md) - a slurm cheatsheet and tricks
-- [make tiny models/datasets/tokenizers](./transformers/make-tiny-models.md)
-- [LLM/VLM chronicles collection](https://github.com/stas00/ml-engineering/tree/master/resources#publicly-available-training-llmvlm-logbooks)
-
-
-## Book Building
-
-If you want to build a PDF, check links, etc. See [Book building](./build/)
+- [make tiny models/datasets/tokenizers](debug/make-tiny-models-tokenizers-datasets.md)
+- [LLM/VLM chronicles collection](resources#publicly-available-training-llmvlm-logbooks)
 
 
 ## Gratitude
@@ -115,7 +102,7 @@ If you found a bug, typo or would like to propose an improvement please don't he
 
 ## License
 
-The content of this site is distributed under [Attribution-ShareAlike 4.0 International](./LICENSE-CC-BY-SA).
+The content of this site is distributed under [Attribution-ShareAlike 4.0 International](LICENSE-CC-BY-SA).
 
 
 

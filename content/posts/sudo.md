@@ -1,9 +1,9 @@
 ---
 title: sudo
-date: 2024-02-13T12:15:56+08:00
+date: 2024-02-14T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706126199160-1b3867dbf587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706126199160-1b3867dbf587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706431332248-ee95920ef9d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706431332248-ee95920ef9d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/sudo](https://github.com/microsoft/sudo)
