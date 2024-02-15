@@ -1,9 +1,9 @@
 ---
 title: ml-engineering
-date: 2024-02-14T12:16:47+08:00
+date: 2024-02-15T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706887074248-2f10a59dfc68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706887074248-2f10a59dfc68?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707739148852-45e220d066b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707739148852-45e220d066b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
 ---
 
 # [stas00/ml-engineering](https://github.com/stas00/ml-engineering)
