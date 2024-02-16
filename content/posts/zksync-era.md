@@ -1,9 +1,9 @@
 ---
 title: zksync-era
-date: 2023-03-27T12:19:29+08:00
+date: 2024-02-16T12:16:43+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11945/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11945/0/1080p
+featuredImage: https://images.unsplash.com/photo-1705468616275-616b7c01d317?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705468616275-616b7c01d317?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
 ---
 
 # [matter-labs/zksync-era](https://github.com/matter-labs/zksync-era)
@@ -21,20 +21,26 @@ write smart contracts in C++, Rust and other popular languages.
 
 The following questions will be answered by the following resources:
 
-| Question                                                | Resource                                |
-| ------------------------------------------------------- | --------------------------------------- |
-| What do I need to develop the project locally?          | [development.md](docs/development.md)   |
-| How can I set up my dev environment?                    | [setup-dev.md](docs/setup-dev.md)       |
-| How can I run the project?                              | [launch.md](docs/launch.md)             |
-| What is the logical project structure and architecture? | [architecture.md](docs/architecture.md) |
-| Where can I find developer docs?                        | [docs](https://v2-docs.zksync.io/dev/)  |
+| Question                                                | Resource                                       |
+| ------------------------------------------------------- | ---------------------------------------------- |
+| What do I need to develop the project locally?          | [development.md](docs/guides/development.md)   |
+| How can I set up my dev environment?                    | [setup-dev.md](docs/guides/setup-dev.md)       |
+| How can I run the project?                              | [launch.md](docs/guides/launch.md)             |
+| What is the logical project structure and architecture? | [architecture.md](docs/guides/architecture.md) |
+| Where can I find protocol specs?                        | [specs](docs/specs/README.md)                  |
+| Where can I find developer docs?                        | [docs](https://era.zksync.io/docs/)            |
+
+## Policies
+
+- [Security policy](SECURITY.md)
+- [Contribution policy](CONTRIBUTING.md)
 
 ## License
 
 zkSync Era is distributed under the terms of either
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or <http://www.apache.org/licenses/LICENSE-2.0>)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or <http://opensource.org/licenses/MIT>)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or <https://opensource.org/license/mit/>)
 
 at your option.
 
@@ -42,13 +48,16 @@ at your option.
 
 - [Website](https://zksync.io/)
 - [GitHub](https://github.com/matter-labs)
+- [ZK Credo](https://github.com/zksync/credo)
 - [Twitter](https://twitter.com/zksync)
-- [Twitter for Devs](https://twitter.com/zkSyncDevs)
-- [Discord](https://discord.gg/nMaPGrDDwk)
+- [Twitter for Developers](https://twitter.com/zkSyncDevs)
+- [Discord](https://join.zksync.dev/)
+- [Mirror](https://zksync.mirror.xyz/)
+- [Youtube](https://www.youtube.com/@zkSync-era)
 
 ## Disclaimer
 
 zkSync Era has been through lots of testing and audits. Although it is live, it is still in alpha state and will go
-through more audits and bug bounties programs. We would love to hear our community's thoughts and suggestions about it!
-It is important to state that forking it now can potentially lead to missing important security updates, critical
-features, and performance improvements.
+through more audits and bug bounty programs. We would love to hear our community's thoughts and suggestions about it! It
+is important to state that forking it now can potentially lead to missing important security updates, critical features,
+and performance improvements.

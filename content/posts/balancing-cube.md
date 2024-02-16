@@ -1,9 +1,9 @@
 ---
 title: balancing-cube
-date: 2024-02-15T12:16:54+08:00
+date: 2024-02-16T12:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687341426897-9d2fb554cd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687341426897-9d2fb554cd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931622510-096b8faf03ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931622510-096b8faf03ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
 ---
 
 # [willem-pennings/balancing-cube](https://github.com/willem-pennings/balancing-cube)

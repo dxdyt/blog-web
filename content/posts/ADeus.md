@@ -1,9 +1,9 @@
 ---
 title: ADeus
-date: 2024-02-15T12:16:41+08:00
+date: 2024-02-16T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704739339246-6f0fa34f754f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704739339246-6f0fa34f754f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706425280045-455a8b0eba4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706425280045-455a8b0eba4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
 ---
 
 # [adamcohenhillel/ADeus](https://github.com/adamcohenhillel/ADeus)
@@ -38,7 +38,7 @@ Adeus is a wearable device that captures what you say and hear in the real world
 
 ## Why Adeus?
 
-In the upcoming world, Personal AI will become an integrated part of our daily lives, they will be with us all the time, and will know much about us as our closest friends - and therefore, with Adeus, we are making sure it is completely open-source, and that you can **own** you own data.
+In the upcoming world, Personal AI will become an integrated part of our daily lives, they will be with us all the time, and will know much about us as our closest friends - and therefore, with Adeus, we are making sure it is completely open-source, and that you can **own** your own data.
 
 ## How Adeus is built
 

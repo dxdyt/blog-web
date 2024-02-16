@@ -1,29 +1,46 @@
 ---
 title: core
-date: 2023-11-17T12:16:30+08:00
+date: 2024-02-16T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698174407796-165a2994ab99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698174407796-165a2994ab99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxOTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931622510-096b8faf03ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931622510-096b8faf03ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/core](https://github.com/dotnet/core)
 
-# .NET Release Notes
+# .NET News & Release Notes
+
+Welcome to the home of .NET news & release notes to help you stay up to date with all of latest previews and releases. 
+
+Follow our [GitHub Discussions](https://github.com/dotnet/core/discussions), where you will find the latest new on preview releases, service releases, and CVEs for .NET.
+
+You can subscribe to news posts with the following RSS feeds:
+
+| Category | GitHub Discussions | RSS Feed |
+| --- | :--: | :--: |
+| All Discussions | [🔗](https://github.com/dotnet/core/discussions) | [🔗](https://github.com/dotnet/core/discussions.atom) |
+| News | [🔗](https://github.com/dotnet/core/discussions/categories/news) | [🔗](https://github.com/dotnet/core/discussions/categories/news.atom) |
+| Security Disclosures (CVEs)  | [🔗](https://github.com/dotnet/core/discussions/categories/security-disclosures-cves) | [🔗](https://github.com/dotnet/core/discussions/categories/security-disclosures-cves.atom) |
+| Sevicing Releases  | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases) | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases.atom) |
+
+## Release Notes
 
 The following [.NET releases](./releases.md) are currently supported:
 
 |  Version  | Release Date | Support | Latest Patch Version | End of Support |
 | :-- | :-- | :-- | :-- | :-- |
-| [.NET 8](release-notes/8.0/README.md) | [November 14, 2023](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) | [LTS][policies] | [8.0.0][8.0.0] | November 10, 2026 |
-| [.NET 7](release-notes/7.0/README.md) | [November 8, 2022](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/) | [STS][policies] | [7.0.14][7.0.14] | May 14, 2024 |
-| [.NET 6](release-notes/6.0/README.md) | [November 8, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6/) | [LTS][policies] | [6.0.25][6.0.25]  | November 12, 2024 |
+| [.NET 9](release-notes/9.0/README.md) | November 12, 2024 | [STS][policies] | [9.0.0-preview.1][9.0.0-preview.1] |  |
+| [.NET 8](release-notes/8.0/README.md) | [November 14, 2023](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) | [LTS][policies] | [8.0.2][8.0.2] | November 10, 2026 |
+| [.NET 7](release-notes/7.0/README.md) | [November 8, 2022](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/) | [STS][policies] | [7.0.16][7.0.16] | May 14, 2024 |
+| [.NET 6](release-notes/6.0/README.md) | [November 8, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6/) | [LTS][policies] | [6.0.27][6.0.27]  | November 12, 2024 |
 
 
 You can find release notes for all releases, including out-of-support releases, in the [release-notes](release-notes) directory.
 
-[8.0.0]: release-notes/8.0/8.0.0/8.0.0.md
-[7.0.14]: release-notes/7.0/7.0.14/7.0.14.md
-[6.0.25]: release-notes/6.0/6.0.25/6.0.25.md
+[9.0.0-preview.1]: release-notes/9.0/preview/preview1/9.0.0-preview.1.md
+[8.0.2]: release-notes/8.0/8.0.2/8.0.2.md
+[7.0.16]: release-notes/7.0/7.0.16/7.0.16.md
+[6.0.27]: release-notes/6.0/6.0.27/6.0.27.md
 
 ## Release Information
 

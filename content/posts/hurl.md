@@ -1,9 +1,9 @@
 ---
 title: hurl
-date: 2024-02-15T12:18:46+08:00
+date: 2024-02-16T12:15:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706479552865-c24007563e39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706479552865-c24007563e39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
 ---
 
 # [Orange-OpenSource/hurl](https://github.com/Orange-OpenSource/hurl)

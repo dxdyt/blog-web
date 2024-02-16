@@ -1,9 +1,9 @@
 ---
 title: dbt-core
-date: 2024-02-15T12:18:55+08:00
+date: 2024-02-16T12:16:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706346796362-5874ce24ae9b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706346796362-5874ce24ae9b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
 ---
 
 # [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core)
