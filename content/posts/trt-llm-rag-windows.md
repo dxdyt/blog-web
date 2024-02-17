@@ -1,9 +1,9 @@
 ---
 title: trt-llm-rag-windows
-date: 2024-02-16T12:17:24+08:00
+date: 2024-02-17T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705947172050-f930e2856301?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705947172050-f930e2856301?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706478106213-d36ae1f2a6ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706478106213-d36ae1f2a6ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/trt-llm-rag-windows](https://github.com/NVIDIA/trt-llm-rag-windows)

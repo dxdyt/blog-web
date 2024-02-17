@@ -1,9 +1,9 @@
 ---
 title: Mario-Kart-3.js
-date: 2024-02-16T12:14:49+08:00
+date: 2024-02-17T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1700224673906-36185dafec8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1700224673906-36185dafec8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [Lunakepio/Mario-Kart-3.js](https://github.com/Lunakepio/Mario-Kart-3.js)
@@ -11,9 +11,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1707090804669-72f8a7f334
 # Mario Kart 3.js - JavaScript/WebGL Mario Kart
 [Link](https://mario-kart-3-js.vercel.app/)
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Lunakepio/Mario-Kart-3.js)
+
 DISCLAIMER : This is not a completed project, I would say around 50% of the work has been done up to now. It takes a lot of time so please enjoy.
 
 ## How to install
+
+Fork the repository
 
 Clone the repository or download it
 
@@ -31,15 +35,15 @@ Start the dev server
 
 ## How to use (Gameplay)
 
-- Use the W key to accelerate, the mouse to steer for now (will be updated for mobile/gamepad/keyboard).
+- Use the <kbd>W</kbd> key to accelerate, the mouse to steer for now (will be updated for mobile/gamepad/keyboard).
 
 - Steer with the mouse.
 
 - Press and hold the space bar to initiate a drift. Steer and counter steer to maintain the drift. release it to get a mini - turbo.
 
-- Press E key to use the current item.
+- Press <kbd>E</kbd> key to use the current item.
 
-- Press R to reset your position, usable anytime.
+- Press <kbd>R</kbd> to reset your position, usable anytime.
 
 ## How to use (Code)
 

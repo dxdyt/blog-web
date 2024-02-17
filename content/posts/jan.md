@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2024-01-07T12:18:18+08:00
+date: 2024-02-17T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2MDA5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)
@@ -48,59 +48,71 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
     <td style="text-align:center"><b>Version Type</b></td>
     <td style="text-align:center"><b>Windows</b></td>
     <td colspan="2" style="text-align:center"><b>MacOS</b></td>
-    <td style="text-align:center"><b>Linux</b></td>
+    <td colspan="2" style="text-align:center"><b>Linux</b></td>
   </tr>
   <tr style="text-align:center">
     <td style="text-align:center"><b>Stable (Recommended)</b></td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.3/jan-win-x64-0.4.3.exe'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-win-x64-0.4.6.exe'>
         <img src='./docs/static/img/windows.png' style="height:14px; width: 14px" />
         <b>jan.exe</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.3/jan-mac-x64-0.4.3.dmg'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-mac-x64-0.4.6.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.3/jan-mac-arm64-0.4.3.dmg'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-mac-arm64-0.4.6.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.3/jan-linux-amd64-0.4.3.deb'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-linux-amd64-0.4.6.deb'>
         <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.deb</b>
+      </a>
+    </td>
+    <td style="text-align:center">
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-linux-x86_64-0.4.6.AppImage'>
+        <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
+        <b>jan.AppImage</b>
       </a>
     </td>
   </tr>
   <tr style="text-align:center">
     <td style="text-align:center"><b>Experimental (Nightly Build)</b></td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/0.4.3-126/jan-win-x64-0.4.3-126.exe'>
+      <a href='https://delta.jan.ai/latest/jan-win-x64-0.4.6-273.exe'>
         <img src='./docs/static/img/windows.png' style="height:14px; width: 14px" />
         <b>jan.exe</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/0.4.3-126/jan-mac-x64-0.4.3-126.dmg'>
+      <a href='https://delta.jan.ai/latest/jan-mac-x64-0.4.6-273.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/0.4.3-126/jan-mac-arm64-0.4.3-126.dmg'>
+      <a href='https://delta.jan.ai/latest/jan-mac-arm64-0.4.6-273.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/0.4.3-126/jan-linux-amd64-0.4.3-126.deb'>
+      <a href='https://delta.jan.ai/latest/jan-linux-amd64-0.4.6-273.deb'>
         <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.deb</b>
+      </a>
+    </td>
+    <td style="text-align:center">
+      <a href='https://delta.jan.ai/latest/jan-linux-x86_64-0.4.6-273.AppImage'>
+        <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
+        <b>jan.AppImage</b>
       </a>
     </td>
   </tr>
@@ -164,6 +176,21 @@ To reset your installation:
    - Delete all `node_modules` in current folder
    - Clear Application cache in `~/Library/Caches/jan`
 
+## Requirements for running Jan
+
+- MacOS: 13 or higher
+- Windows:
+  - Windows 10 or higher
+  - To enable GPU support:
+    - Nvidia GPU with CUDA Toolkit 11.7 or higher
+    - Nvidia driver 470.63.01 or higher
+- Linux:
+  - glibc 2.27 or higher (check with `ldd --version`)
+  - gcc 11, g++ 11, cpp 11 or higher, refer to this [link](https://jan.ai/guides/troubleshooting/gpu-not-used/#specific-requirements-for-linux) for more information
+  - To enable GPU support:
+    - Nvidia GPU with CUDA Toolkit 11.7 or higher
+    - Nvidia driver 470.63.01 or higher
+
 ## Contributing
 
 Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file
@@ -178,17 +205,17 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fi
 
 1. **Clone the repository and prepare:**
 
-    ```bash
-    git clone https://github.com/janhq/jan
-    cd jan
-    git checkout -b DESIRED_BRANCH
-    ```
+   ```bash
+   git clone https://github.com/janhq/jan
+   cd jan
+   git checkout -b DESIRED_BRANCH
+   ```
 
 2. **Run development and use Jan Desktop**
 
-    ```bash
-    make dev
-    ```
+   ```bash
+   make dev
+   ```
 
 This will start the development server and open the desktop app.
 
@@ -201,6 +228,78 @@ make build
 ```
 
 This will build the app MacOS m1/m2 for production (with code signing already done) and put the result in `dist` folder.
+
+### Docker mode
+
+- Supported OS: Linux, WSL2 Docker
+- Pre-requisites:
+
+  - Docker Engine and Docker Compose are required to run Jan in Docker mode. Follow the [instructions](https://docs.docker.com/engine/install/ubuntu/) below to get started with Docker Engine on Ubuntu.
+
+    ```bash
+    curl -fsSL https://get.docker.com -o get-docker.sh
+    sudo sh ./get-docker.sh --dry-run
+    ```
+
+  - If you intend to run Jan in GPU mode, you need to install `nvidia-driver` and `nvidia-docker2`. Follow the instruction [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) for installation.
+
+- Run Jan in Docker mode
+
+  - **Option 1**: Run Jan in CPU mode
+
+    ```bash
+    docker compose --profile cpu up -d
+    ```
+
+  - **Option 2**: Run Jan in GPU mode
+
+    - **Step 1**: Check CUDA compatibility with your NVIDIA driver by running `nvidia-smi` and check the CUDA version in the output
+
+      ```bash
+      nvidia-smi
+
+      # Output
+      +---------------------------------------------------------------------------------------+
+      | NVIDIA-SMI 531.18                 Driver Version: 531.18       CUDA Version: 12.1     |
+      |-----------------------------------------+----------------------+----------------------+
+      | GPU  Name                      TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+      | Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+      |                                         |                      |               MIG M. |
+      |=========================================+======================+======================|
+      |   0  NVIDIA GeForce RTX 4070 Ti    WDDM | 00000000:01:00.0  On |                  N/A |
+      |  0%   44C    P8               16W / 285W|   1481MiB / 12282MiB |      2%      Default |
+      |                                         |                      |                  N/A |
+      +-----------------------------------------+----------------------+----------------------+
+      |   1  NVIDIA GeForce GTX 1660 Ti    WDDM | 00000000:02:00.0 Off |                  N/A |
+      |  0%   49C    P8               14W / 120W|      0MiB /  6144MiB |      0%      Default |
+      |                                         |                      |                  N/A |
+      +-----------------------------------------+----------------------+----------------------+
+      |   2  NVIDIA GeForce GTX 1660 Ti    WDDM | 00000000:05:00.0 Off |                  N/A |
+      | 29%   38C    P8               11W / 120W|      0MiB /  6144MiB |      0%      Default |
+      |                                         |                      |                  N/A |
+      +-----------------------------------------+----------------------+----------------------+
+
+      +---------------------------------------------------------------------------------------+
+      | Processes:                                                                            |
+      |  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+      |        ID   ID                                                             Usage      |
+      |=======================================================================================|
+      ```
+
+    - **Step 2**: Visit [NVIDIA NGC Catalog ](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda/tags) and find the smallest minor version of image tag that matches your CUDA version (e.g., 12.1 -> 12.1.0)
+
+    - **Step 3**: Update the `Dockerfile.gpu` line number 5 with the latest minor version of the image tag from step 2 (e.g. change `FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04 AS base` to `FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04 AS base`)
+
+    - **Step 4**: Run command to start Jan in GPU mode
+
+      ```bash
+      # GPU mode
+      docker compose --profile gpu up -d
+      ```
+
+  This will start the web server and you can access Jan at `http://localhost:3000`.
+
+  > Note: Currently, Docker mode is only work for development and localhost, production is not supported yet. RAG feature is not supported in Docker mode yet.
 
 ## Acknowledgements
 

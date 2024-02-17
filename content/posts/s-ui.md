@@ -1,9 +1,9 @@
 ---
 title: s-ui
-date: 2024-02-16T12:16:38+08:00
+date: 2024-02-17T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706620842914-3f5523ca664b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706620842914-3f5523ca664b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705960467825-5420aa333231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705960467825-5420aa333231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [alireza0/s-ui](https://github.com/alireza0/s-ui)

@@ -1,9 +1,9 @@
 ---
 title: agentkit
-date: 2024-02-16T12:15:26+08:00
+date: 2024-02-17T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705651250587-5e2981d23493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705651250587-5e2981d23493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [BCG-X-Official/agentkit](https://github.com/BCG-X-Official/agentkit)

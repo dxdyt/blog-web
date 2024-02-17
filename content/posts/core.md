@@ -1,9 +1,9 @@
 ---
 title: core
-date: 2024-02-16T12:17:31+08:00
+date: 2024-02-17T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705931622510-096b8faf03ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705931622510-096b8faf03ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/core](https://github.com/dotnet/core)
@@ -21,7 +21,7 @@ You can subscribe to news posts with the following RSS feeds:
 | All Discussions | [🔗](https://github.com/dotnet/core/discussions) | [🔗](https://github.com/dotnet/core/discussions.atom) |
 | News | [🔗](https://github.com/dotnet/core/discussions/categories/news) | [🔗](https://github.com/dotnet/core/discussions/categories/news.atom) |
 | Security Disclosures (CVEs)  | [🔗](https://github.com/dotnet/core/discussions/categories/security-disclosures-cves) | [🔗](https://github.com/dotnet/core/discussions/categories/security-disclosures-cves.atom) |
-| Sevicing Releases  | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases) | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases.atom) |
+| Servicing Releases  | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases) | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases.atom) |
 
 ## Release Notes
 

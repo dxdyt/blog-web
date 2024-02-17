@@ -1,9 +1,9 @@
 ---
 title: notesGPT
-date: 2024-02-16T12:15:55+08:00
+date: 2024-02-17T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705651250587-5e2981d23493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705651250587-5e2981d23493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705960467825-5420aa333231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705960467825-5420aa333231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [Nutlope/notesGPT](https://github.com/Nutlope/notesGPT)
@@ -60,8 +60,8 @@ You can deploy this template by setting up the following services and adding the
 - [ ] Animate the purple microphone to be in sync with your voice
 - [ ] Store completed action items for the future instead of fully deleting them
 - [ ] Make text/images in the landing page smaller to account for multiple screen sizes.
-- [ ] Make the search experience a little smoother overall
-- [ ] Be able to have it as a PWA or a mobile app
+- [ ] Make the search experience a little smoother overall by searching automatically on entering text
+- [ ] Be able to have this as a PWA if there's an easy step to do that
 - [ ] Prompt engineer the summary a little more to be more useful than what's currently displaying
 - [ ] Add a Notion integration to be able to get the transcript + summary + action items on there
 - [ ] UI updates to make it look a little nicer based on Youssef's redesign

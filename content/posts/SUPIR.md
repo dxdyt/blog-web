@@ -1,9 +1,9 @@
 ---
 title: SUPIR
-date: 2024-02-16T12:17:18+08:00
+date: 2024-02-17T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707707366307-6996af74a6f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707707366307-6996af74a6f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705957231585-c092c8396c70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705957231585-c092c8396c70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
 ---
 
 # [Fanghua-Yu/SUPIR](https://github.com/Fanghua-Yu/SUPIR)
