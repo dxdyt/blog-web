@@ -1,9 +1,9 @@
 ---
 title: 90DaysOfDevOps
-date: 2023-07-30T12:16:12+08:00
+date: 2024-02-18T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689759567912-45775221afb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689759567912-45775221afb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2OTA0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706391347393-5c7b564a89a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706391347393-5c7b564a89a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1689759567912-45775221af
  <img src="logo.png?raw=true" alt="90DaysOfDevOps Logo" width="50%" height="50%" />
 </p>
 
- [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.90daysofdevops.com)](https://www.90daysofdevops.com) [![GitHub Repo stars](https://img.shields.io/github/stars/MichaelCade/90DaysOfDevOps)](https://github.com/MichaelCade/90DaysOfDevOps) [![GitHub Repo stars](https://img.shields.io/github/forks/MichaelCade/90DaysOfDevOps)](https://github.com/MichaelCade/90DaysOfDevOps)  [![GitHub Repo issues](https://img.shields.io/github/issues/MichaelCade/90DaysOfDevOps)](https://github.com/MichaelCade/90DaysOfDevOps)  
+[![RepoRater](https://repo-rater.eddiehub.io/api/badge?owner=MichaelCade&name=90DaysOfDevOps)](https://repo-rater.eddiehub.io/rate?owner=MichaelCade&name=90DaysOfDevOps) [![Website](https://img.shields.io/website?url=https%3A%2F%2Fwww.90daysofdevops.com)](https://www.90daysofdevops.com) [![GitHub Repo stars](https://img.shields.io/github/stars/MichaelCade/90DaysOfDevOps)](https://github.com/MichaelCade/90DaysOfDevOps) [![GitHub Repo stars](https://img.shields.io/github/forks/MichaelCade/90DaysOfDevOps)](https://github.com/MichaelCade/90DaysOfDevOps)  [![GitHub Repo issues](https://img.shields.io/github/issues/MichaelCade/90DaysOfDevOps)](https://github.com/MichaelCade/90DaysOfDevOps)  
 
 This repository is used to document my journey on getting a better foundational knowledge of "DevOps". I will be starting this journey on the 1st January 2022 but the idea is that we take 90 days which just so happens to be January 1st to March 31st.
 
@@ -30,17 +30,37 @@ This will **not cover all things** "DevOps" but it will cover the areas that I f
 
 The two images below will take you to the 2022 and 2023 edition of the learning journey. 
 
-<p align="center">
- <a href="2022.md">
- <img src="2022.png?raw=true" alt="2022" width="70%" height="70%" />
-</p>
+<div style="display: flex; justify-content: center; align-items: center;">
 
-</a>
-<p align="center">
- <a href="2023.md">
- <img src="2023.png?raw=true" alt="2023" width="70%" height="70%" />
-</p>
-</a>
+  <div style="margin: 10px; text-align: center;">
+    <a href="2022.md">
+      <img src="2022.png?raw=true" alt="2022" style="border: 2px solid #555; border-radius: 8px; width: 100%; max-width: 400px;" />
+    </a>
+    <br />
+    <em>Year 2022 - This is where we start, 110k words </em>
+  </div>
+
+  <div style="margin: 10px; text-align: center;">
+    <a href="2023.md">
+      <img src="2023.png?raw=true" alt="2023" style="border: 2px solid #555; border-radius: 8px; width: 100%; max-width: 400px;" />
+    </a>
+    <br />
+    <em>Year 2023 - Continues... Some help from my friends</em>
+  </div>
+
+  <div style="margin: 10px; text-align: center;">
+    <a href="2024.md">
+      <img src="2024.png?raw=true" alt="2024" style="border: 2px solid #555; border-radius: 8px; width: 100%; max-width: 400px;" />
+    </a>
+    <br />
+    <em>Year 2024 - Community Edition: 90 Sessions</em>
+  </div>
+
+</div>
+
+
+
+## 
 
 From this year we have built website for 90DaysOfDevops Challenge :rocket:	:technologist: - [Link for website](https://www.90daysofdevops.com/#/2023)
 

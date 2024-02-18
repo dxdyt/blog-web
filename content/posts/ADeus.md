@@ -1,9 +1,9 @@
 ---
 title: ADeus
-date: 2024-02-17T12:18:00+08:00
+date: 2024-02-18T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705336402584-b5deb3aa6cd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705336402584-b5deb3aa6cd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [adamcohenhillel/ADeus](https://github.com/adamcohenhillel/ADeus)

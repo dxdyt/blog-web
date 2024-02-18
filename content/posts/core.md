@@ -1,9 +1,9 @@
 ---
 title: core
-date: 2024-02-17T12:16:39+08:00
+date: 2024-02-18T12:14:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706586348467-5c1593cd0aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706332390145-78d1d30bfd22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706332390145-78d1d30bfd22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/core](https://github.com/dotnet/core)

@@ -1,9 +1,9 @@
 ---
 title: graphcast
-date: 2023-11-21T12:18:14+08:00
+date: 2024-02-18T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698985371134-3c21d56336e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698985371134-3c21d56336e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA1NDAxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707724190331-15ac0c62f55e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707724190331-15ac0c62f55e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [google-deepmind/graphcast](https://github.com/google-deepmind/graphcast)
@@ -29,7 +29,8 @@ The model weights, normalization statistics, and example inputs are available on
 
 Full model training requires downloading the
 [ERA5](https://www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era5)
-dataset, available from [ECMWF](https://www.ecmwf.int/).
+dataset, available from [ECMWF](https://www.ecmwf.int/). This can best be
+accessed as Zarr from [Weatherbench2's ERA5 data](https://weatherbench2.readthedocs.io/en/latest/data-guide.html#era5) (see the 6h downsampled versions).
 
 ## Overview of files
 
@@ -69,6 +70,9 @@ The one-step implementation of GraphCast architecture, is provided in
     and all of the wrappers implement.
 *   `rollout.py`: Similar to `autoregressive.py` but used only at inference time
     using a python loop to produce longer, but non-differentiable trajectories.
+*   `solar_radiation.py`: Computes Top-Of-the-Atmosphere (TOA) incident solar
+    radiation compatible with ERA5. This is used as a forcing variable and thus
+    needs to be computed for target lead times in an operational setting.
 *   `typed_graph.py`: Definition of `TypedGraph`'s.
 *   `typed_graph_net.py`: Implementation of simple graph neural network
     building blocks defined over `TypedGraph`'s that can be combined to build

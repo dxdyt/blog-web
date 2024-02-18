@@ -1,9 +1,9 @@
 ---
 title: rye
-date: 2024-02-09T12:16:34+08:00
+date: 2024-02-18T12:16:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705320678447-a7a76063d888?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705320678447-a7a76063d888?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [mitsuhiko/rye](https://github.com/mitsuhiko/rye)

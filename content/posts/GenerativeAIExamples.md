@@ -1,9 +1,9 @@
 ---
 title: GenerativeAIExamples
-date: 2024-01-27T12:15:17+08:00
+date: 2024-02-18T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703868673582-becc3bd199d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703868673582-becc3bd199d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705336402584-b5deb3aa6cd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705336402584-b5deb3aa6cd2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/GenerativeAIExamples](https://github.com/NVIDIA/GenerativeAIExamples)

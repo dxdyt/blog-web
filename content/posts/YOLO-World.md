@@ -1,9 +1,9 @@
 ---
 title: YOLO-World
-date: 2024-02-10T12:18:24+08:00
+date: 2024-02-18T12:14:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706379329067-17140f74344f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706379329067-17140f74344f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705900689854-55ae8dcf7c89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705900689854-55ae8dcf7c89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [AILab-CVC/YOLO-World](https://github.com/AILab-CVC/YOLO-World)
@@ -29,16 +29,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1706379329067-17140f7434
 [![arxiv paper](https://img.shields.io/badge/Project-Page-green)](https://wondervictor.github.io/)
 [![arxiv paper](https://img.shields.io/badge/arXiv-Paper-red)](https://arxiv.org/abs/2401.17270)
 [![demo](https://img.shields.io/badge/🤗HugginngFace-Spaces-orange)](https://huggingface.co/spaces/stevengrove/YOLO-World)
+[![Replicate](https://replicate.com/zsxkib/yolo-world/badge)](https://replicate.com/zsxkib/yolo-world)
 [![hfpaper](https://img.shields.io/badge/🤗HugginngFace-Paper-yellow)](https://huggingface.co/papers/2401.17270)
 [![license](https://img.shields.io/badge/License-GPLv3.0-blue)](LICENSE)
-
+[![yoloworldseg](https://img.shields.io/badge/YOLOWorldxEfficientSAM-🤗Spaces-orange)](https://huggingface.co/spaces/SkalskiP/YOLO-World)
 </div>
 </div>
 
 
 ## Updates 
-
-`🔥[2024-2-3]:` We support the `Gradio` demo now in the repo and you can build the YOLO-World demo on your own device!  
+`🔥[2024-2-18]:` We thank [@Skalskip92](https://twitter.com/skalskip92) for developing the wonderful segmentation demo via connecting YOLO-World and EfficientSAM. You can try it now at the [🤗 HuggingFace Spaces](https://huggingface.co/spaces/SkalskiP/YOLO-World).   
+`🔥[2024-2-17]:` The largest model **X** of YOLO-World is released, which achieves better zero-shot performance!   
+`🔥[2024-2-17]:` We release the code & models for **YOLO-World-Seg** now! YOLO-World now supports open-vocabulary / zero-shot object segmentation!  
+`[2024-2-15]:` The pre-traind YOLO-World-L with CC3M-Lite is released!     
+`[2024-2-14]:` We provide the [`image_demo`](demo.py) for inference on images or directories.   
+`[2024-2-10]:` We provide the [fine-tuning](./docs/finetuning.md) and [data](./docs/data.md) details for fine-tuning YOLO-World on the COCO dataset or the custom datasets!  
+`[2024-2-3]:` We support the `Gradio` demo now in the repo and you can build the YOLO-World demo on your own device!  
 `[2024-2-1]:` We've released the code and weights of YOLO-World now!  
 `[2024-2-1]:` We deploy the YOLO-World demo on [HuggingFace 🤗](https://huggingface.co/spaces/stevengrove/YOLO-World), you can try it now!  
 `[2024-1-31]:` We are excited to launch **YOLO-World**, a cutting-edge real-time open-vocabulary object detector.  
@@ -50,8 +56,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1706379329067-17140f7434
 YOLO-World is under active development and please stay tuned ☕️!
 
 - [x] Gradio demo!
-- [ ] Complete documents for pre-training YOLO-World.
-- [ ] COCO & LVIS fine-tuning.
+- [x] Complete documents for pre-training YOLO-World.
+- [x] COCO & LVIS fine-tuning.
 - [ ] Extra pre-trained models on more data, such as CC3M.
 - [ ] Deployment toolkits, e.g., ONNX or TensorRT. 
 - [ ] Inference acceleration and scripts for speed evaluation.
@@ -85,16 +91,41 @@ We've pre-trained YOLO-World-S/M/L from scratch and evaluate on the `LVIS val-1.
 
 ### Zero-shot Inference on LVIS dataset
 
-| model | Pre-train Data | AP<sup>fixed</sup> | AP<sup>mini</su> | AP<sub>r</sub> | AP<sub>c</sub> | AP<sub>f</sub> | AP<sup>val</su> | AP<sub>r</sub> | AP<sub>c</sub> | AP<sub>f</sub> | weights |
-| :---- | :------------- | :----------------: | :---------------:| :------------: |:-------------: | :------------: | :-:| :------------: |:-------------: | :------------:  | :---: |
-| [YOLO-World-S](./configs/pretrain/yolo_world_s_dual_3block_2e-4_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py) | O365+GoldG | 26.2 | 24.3 | 16.6 | 22.1 | 27.7 | 17.8 | 11.0 | 14.8 | 24.0 | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/resolve/main/yolo_world_s_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_train_pretrained-18bea4d2.pth) |
-| [YOLO-World-M](./configs/pretrain/yolo_world_m_dual_l2norm_2e-4_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py) | O365+GoldG | 31.0 | 28.6 | 19.7 | 26.6 | 31.9 | 22.3 | 16.2 | 19.0 | 28.7 | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/resolve/main/yolo_world_m_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_train_pretrained-2b7bd1be.pth) |
-| [YOLO-World-L](./configs/pretrain/yolo_world_s_dual_3block_2e-4_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py) | O365+GoldG | 35.0 | 32.5 | 22.3 | 30.6 | 36.1 | 24.8 | 17.8 | 22.4 | 32.5 | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/resolve/main/yolo_world_l_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_train_pretrained-0e566235.pth)  | 
+| model                                                                                                                | Pre-train Data       | AP<sup>fixed</sup> | AP<sup>mini</su> | AP<sub>r</sub> | AP<sub>c</sub> | AP<sub>f</sub> | AP<sup>val</su> | AP<sub>r</sub> | AP<sub>c</sub> | AP<sub>f</sub> |                                                                                        weights                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------- | :------------------- | :----------------: | :--------------: | :------------: | :------------: | :------------: | :-------------: | :------------: | :------------: | :------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| [YOLO-World-S](./configs/pretrain/yolo_world_s_dual_vlpan_l2norm_2e-3_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py)   | O365+GoldG           |        26.2        |       24.3       |      16.6      |      22.1      |      27.7      |      17.8       |      11.0      |      14.8      |      24.0      |    [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/resolve/main/yolo_world_s_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_train_pretrained-18bea4d2.pth)    |
+| [YOLO-World-M](./configs/pretrain/yolo_world_m_dual_l2norm_2e-4_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py)   | O365+GoldG           |        31.0        |       28.6       |      19.7      |      26.6      |      31.9      |      22.3       |      16.2      |      19.0      |      28.7      |    [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/resolve/main/yolo_world_m_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_train_pretrained-2b7bd1be.pth)    |
+| [YOLO-World-L](./configs/pretrain/yolo_world_l_dual_vlpan_l2norm_2e-3_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py)   | O365+GoldG           |        35.0        |       32.5       |      22.3      |      30.6      |      36.1      |      24.8       |      17.8      |      22.4      |      32.5      |    [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/resolve/main/yolo_world_l_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_train_pretrained-0e566235.pth)    |
+| 🔥 [YOLO-World-L](./configs/pretrain/yolo_world_l_dual_vlpan_l2norm_2e-3_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py) | O365+GoldG+CC3M-Lite |        35.4        |       33.0       |      23.6      |      32.0      |      35.5      |      25.3       |      18.0      |      22.1      |      32.1      | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_l_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_cc3mlite_train_pretrained-7a5eea3b.pth) |
+| 🔥 [YOLO-World-X](./configs/pretrain/yolo_world_x_dual_vlpan_l2norm_2e-3_100e_4x8gpus_obj365v1_goldg_train_lvis_minival.py) | O365+GoldG+CC3M-Lite | 36.6 | 33.4 | 24.4 | 31.6 | 36.6 | 26.6 | 19.2 | 23.5 | 33.2 | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_x_clip_base_dual_vlpan_2e-3adamw_32xb16_100e_o365_goldg_cc3mlite_train_pretrained-8cf6b025.pth) |
 
 **NOTE:**
 1. The evaluation results of AP<sup>fixed</sup> are tested on LVIS `minival` with [fixed AP](https://github.com/achalddave/large-vocab-devil).
 2. The evaluation results of AP<sup>mini</sup> are tested on LVIS `minival`.
 3. The evaluation results of AP<sup>val</sup> are tested on LVIS `val 1.0`.
+4. [HuggingFace Mirror](https://hf-mirror.com/) provides the mirror of HuggingFace, which is a choice for users who are unable to reach.
+
+### YOLO-World-Seg: Open-Vocabulary Instance Segmentation
+
+We fine-tune YOLO-World on LVIS (`LVIS-Base`) with mask annotations for open-vocabulary (zero-shot) instance segmentation.
+
+We provide two fine-tuning strategies YOLO-World towards open-vocabulary instance segmentation:
+
+* fine-tuning `all modules`: leads to better LVIS segmentation accuracy but affects the zero-shot performance.
+
+* fine-tuning the `segmentation head`: maintains the zero-shot performanc but lowers LVIS segmentation accuracy. 
+
+| Model | Fine-tuning Data | Fine-tuning Modules| AP<sup>mask</su> | AP<sub>r</sub> | AP<sub>c</sub> | AP<sub>f</sub> | Weights |
+| :---- | :--------------- | :----------------: | :--------------: | :------------: | :------------: | :------------: | :-----: |
+| [YOLO-World-Seg-M](./configs/segmentation/yolo_world_seg_m_dual_vlpan_2e-4_80e_8gpus_allmodules_finetune_lvis.py) | `LVIS-Base` | `all modules` | 25.9 | 13.4 | 24.9 | 32.6  | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_seg_m_dual_vlpan_2e-4_80e_8gpus_allmodules_finetune_lvis-ca465825.pth) |
+| [YOLO-World-Seg-L](./configs/segmentation/yolo_world_seg_l_dual_vlpan_2e-4_80e_8gpus_allmodules_finetune_lvis.py) | `LVIS-Base` | `all modules` | 28.7 | 15.0 | 28.3 | 35.2| [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_seg_l_dual_vlpan_2e-4_80e_8gpus_allmodules_finetune_lvis-8c58c916.pth) |
+| [YOLO-World-Seg-M](./configs/segmentation/yolo_seg_world_m_dual_vlpan_2e-4_80e_8gpus_seghead_finetune_lvis.py) | `LVIS-Base` | `seg head` | 16.7 | 12.6 | 14.6 | 20.8  | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_seg_m_dual_vlpan_2e-4_80e_8gpus_seghead_finetune_lvis-7bca59a7.pth) |
+| [YOLO-World-Seg-L](./configs/segmentation/yolo_seg_world_l_dual_vlpan_2e-4_80e_8gpus_seghead_finetune_lvis.py) | `LVIS-Base` | `seg head` | 19.1 | 14.2 | 17.2 | 23.5 | [HF Checkpoints 🤗](https://huggingface.co/wondervictor/YOLO-World/blob/main/yolo_world_seg_l_dual_vlpan_2e-4_80e_8gpus_seghead_finetune_lvis-5a642d30.pth) |
+
+**NOTE:**
+1. The mask AP are evaluated on the LVIS `val 1.0`.
+2. All models are fine-tuned for 80 epochs on `LVIS-Base` (866 categories, `common + frequent`).
+3. The YOLO-World-Seg with only `seg head` fine-tuned maintains the original zero-shot detection capability and segments objects.
 
 ## Getting started
 
@@ -102,8 +133,16 @@ We've pre-trained YOLO-World-S/M/L from scratch and evaluate on the `LVIS val-1.
 
 YOLO-World is developed based on `torch==1.11.0` `mmyolo==0.6.0` and `mmdetection==3.0.0`.
 
+#### Clone Project 
+
 ```bash
-python setup.py build develop
+git clone --recursive https://github.com/AILab-CVC/YOLO-World.git
+```
+#### Install
+
+```bash
+pip install torch wheel -q
+pip install -e .
 ```
 
 ### 2. Preparing Data
@@ -133,6 +172,10 @@ chmod +x tools/dist_test.sh
 
 **NOTE:** We mainly evaluate the performance on LVIS-minival for pre-training.
 
+## Fine-tuning YOLO-World
+
+We provide the details about fine-tuning YOLO-World in [docs/fine-tuning](./docs/finetuning.md).
+
 ## Deployment
 
 We provide the details about deployment for downstream applications in [docs/deployment](./docs/deploy.md).
@@ -140,11 +183,32 @@ You can directly download the ONNX model through the online [demo](https://huggi
 
 ## Demo
 
+### Gradio Demo
+
 We provide the [Gradio](https://www.gradio.app/) demo for local devices:
 
 ```bash
+pip install gradio
 python demo.py path/to/config path/to/weights
 ```
+
+### Image Demo
+
+We provide a simple image demo for inference on images with visualization outputs.
+
+```bash
+python image_demo.py path/to/config path/to/weights image/path/directory 'person,dog,cat' --topk 100 --threshold 0.005 --output-dir demo_outputs
+```
+
+**Notes:**
+* The `image` can be a directory or a single image.
+* The `texts` can be a string of categories (noun phrases) which is separated by a comma. We also support `txt` file in which each line contains a category ( noun phrases).
+* The `topk` and `threshold` control the number of predictions and the confidence threshold.
+
+### Google Golab Notebook
+
+We sincerely thank [Onuralp](https://github.com/onuralpszr) for sharing the [Colab Demo](https://colab.research.google.com/drive/1F_7S5lSaFM06irBCZqjhbN7MpUXo6WwO?usp=sharing), you can have a try 😊！
+
 
 ## Acknowledgement
 
