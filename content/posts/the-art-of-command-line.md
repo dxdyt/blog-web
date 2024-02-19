@@ -1,9 +1,9 @@
 ---
 title: the-art-of-command-line
-date: 2023-12-23T12:16:04+08:00
+date: 2024-02-19T12:17:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702893575487-90a6423e67a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702893575487-90a6423e67a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707676408226-c6cec142358f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707676408226-c6cec142358f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
 # [jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)

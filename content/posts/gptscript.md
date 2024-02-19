@@ -1,9 +1,9 @@
 ---
 title: gptscript
-date: 2024-02-17T12:17:44+08:00
+date: 2024-02-19T12:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707676408226-c6cec142358f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707676408226-c6cec142358f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
 # [gptscript-ai/gptscript](https://github.com/gptscript-ai/gptscript)

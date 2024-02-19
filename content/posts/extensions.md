@@ -1,44 +1,21 @@
 ---
 title: extensions
-date: 2024-01-16T12:17:01+08:00
+date: 2024-02-19T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704137477371-bed38523c2eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704137477371-bed38523c2eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUzNzg1Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705602688600-d57336f0e4de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705602688600-d57336f0e4de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
-# [keiyoushi/extensions](https://github.com/keiyoushi/extensions)
+# [zed-industries/extensions](https://github.com/zed-industries/extensions)
 
-### Please give the repo a :star:
+# Zed Extensions
 
-| Build | Support Server |
-|-------|---------|
-| [![CI](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml/badge.svg)](https://github.com/keiyoushi/extensions-source/actions/workflows/build_push.yml) | [![Discord](https://img.shields.io/discord/1193460528052453448.svg?label=discord&labelColor=7289da&color=2c2f33&style=flat)](https://discord.gg/3FbCpdKbdY) |
+This is the central repository containing the extensions available for [Zed](https://zed.dev/).
 
-## Source Code
+## Authoring extensions
 
-https://github.com/keiyoushi/extensions-source
+See [`AUTHORING_EXTENSIONS.md`](./AUTHORING_EXTENSIONS.md) for how to author your own extension and get it added to the extension registry.
 
-## Report issues
+Looking for extension ideas? Check out:
 
-https://github.com/keiyoushi/extensions-source/issues/new/choose
-
-## Guide
-
-### One-click installation
-One-click installation is only supported by these Tachiyomi versions:
-- Tachiyomi v0.15.2+
-- Tachiyomi Preview r6404+
-- TachiyomiSY v1.10.0+
-- TachiyomiSY Preview r539+
-- Aniyomi Preview r7443+
-
-Navigate to [the website](https://keiyoushi.github.io/extensions) and tap "Add to Tachiyomi", then restart the app.
-
-### TachiyomiAZ
-1. Go to Settings → Browse
-2. Tap on "Edit repos" and then "+" button at bottom
-3. Input `keiyoushi/extensions`
-4. Enjoy!
-
-# Others
-If you're not using any of the above fork then manually download and update extensions from [the listing page](https://keiyoushi.github.io/extensions/extensions)
+- [Theme requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Atheme+sort%3Areactions-%2B1-desc)

@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-02-18T12:15:15+08:00
+date: 2024-02-19T12:15:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706332390145-78d1d30bfd22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706332390145-78d1d30bfd22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706460257771-b1c110b09b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706460257771-b1c110b09b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)
@@ -55,6 +55,9 @@ pip install uv
 
 # With pipx.
 pipx install uv
+
+# With Homebrew.
+brew install uv
 ```
 
 To create a virtual environment:
@@ -282,7 +285,7 @@ Historically, `pip` has supported "constraints" (`-c constraints.txt`), which al
 narrow the set of acceptable versions for a given package.
 
 uv supports constraints, but also takes this concept further by allowing users to _override_ the
-acceptable versions of a package across the dependency tree via overrides (`-o overrides.txt`).
+acceptable versions of a package across the dependency tree via overrides (`--override overrides.txt`).
 
 In short, overrides allow the user to lie to the resolver by overriding the declared dependencies
 of a package. Overrides are a useful last resort for cases in which the user knows that a

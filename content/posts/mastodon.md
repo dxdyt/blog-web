@@ -1,9 +1,9 @@
 ---
 title: mastodon
-date: 2023-09-23T12:14:40+08:00
+date: 2024-02-19T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693672761919-d4cc6d20ab2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTU0NDI0MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705602688600-d57336f0e4de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705602688600-d57336f0e4de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
 # [mastodon/mastodon](https://github.com/mastodon/mastodon)
@@ -77,10 +77,10 @@ Mastodon acts as an OAuth2 provider, so 3rd party apps can use the REST and Stre
 
 ### Requirements
 
-- **PostgreSQL** 9.5+
+- **PostgreSQL** 12+
 - **Redis** 4+
-- **Ruby** 2.7+
-- **Node.js** 14+
+- **Ruby** 3.0+
+- **Node.js** 16+
 
 The repository includes deployment configurations for **Docker and docker-compose** as well as specific platforms like **Heroku**, **Scalingo**, and **Nanobox**. For Helm charts, reference the [mastodon/chart repository](https://github.com/mastodon/chart). The [**standalone** installation guide](https://docs.joinmastodon.org/admin/install/) is available in the documentation.
 
@@ -104,9 +104,10 @@ To set up **MacOS** for native development, complete the following steps:
 - Run `brew install postgresql@14`
 - Run `brew install redis`
 - Run `brew install imagemagick`
+- Run `brew install libidn`
 - Install Foreman or a similar tool (such as [overmind](https://github.com/DarthSim/overmind)) to handle multiple process launching.
 - Navigate to Mastodon's root directory and run `brew install nvm` then `nvm use` to use the version from .nvmrc
-- Run `corepack enable && yarn set version classic`
+- Run `corepack enable && corepack prepare`
 - Run `bundle exec rails db:setup` (optionally prepend `RAILS_ENV=development` to target the dev environment)
 - Finally, run `overmind start -f Procfile.dev`
 
@@ -142,7 +143,7 @@ You can open issues for bugs you've found or features you think are missing. You
 
 ## License
 
-Copyright (C) 2016-2023 Eugen Rochko & other Mastodon contributors (see [AUTHORS.md](AUTHORS.md))
+Copyright (C) 2016-2024 Eugen Rochko & other Mastodon contributors (see [AUTHORS.md](AUTHORS.md))
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

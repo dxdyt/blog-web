@@ -1,9 +1,9 @@
 ---
 title: reor
-date: 2024-02-18T12:16:28+08:00
+date: 2024-02-19T12:15:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706391347393-5c7b564a89a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706391347393-5c7b564a89a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706504287548-19beca05cbab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706504287548-19beca05cbab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
 # [reorproject/reor](https://github.com/reorproject/reor)
@@ -18,8 +18,9 @@ A self-organizing AI note-taking app that runs models locally.</h4>
 
 <p align="center">
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPLv3-blue.svg"></a>
-<img alt="GitHub Release Date - Published_At" src="https://img.shields.io/github/release-date/reorproject/reor">
+<a href="https://discord.gg/dVYhyssr"><img alt="Discord" src="https://img.shields.io/discord/1208825200959955004"></a>
     <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/reorproject/reor">
+
 
 </p>
 

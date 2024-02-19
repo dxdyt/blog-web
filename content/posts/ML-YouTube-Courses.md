@@ -1,9 +1,9 @@
 ---
 title: ML-YouTube-Courses
-date: 2024-02-18T12:16:20+08:00
+date: 2024-02-19T12:16:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704601312882-b294a46e0aca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704601312882-b294a46e0aca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706818033062-fb97420ef25e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706818033062-fb97420ef25e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
 ---
 
 # [dair-ai/ML-YouTube-Courses](https://github.com/dair-ai/ML-YouTube-Courses)
