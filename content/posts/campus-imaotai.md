@@ -1,9 +1,9 @@
 ---
 title: campus-imaotai
-date: 2024-02-15T12:18:30+08:00
+date: 2024-02-20T12:18:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706034381055-d176c40693d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706034381055-d176c40693d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707305311503-b94312242a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707305311503-b94312242a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
 ---
 
 # [oddfar/campus-imaotai](https://github.com/oddfar/campus-imaotai)
@@ -25,7 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1706034381055-d176c40693
 
 i茅台app，每日自动预约茅台
 
-- [x] 平台注册账号(可用i茅台)
+- [x] 平台注册账号
 - [x] 添加多个用户
 - [x] 自动预约
 - [x] 类型选择（本市出货量最大的门店，或位置附近门店）
@@ -33,30 +33,16 @@ i茅台app，每日自动预约茅台
 - [x] 首次旅行分享
 - [x] 获取申购耐力值
 - [x] 自定义时间/随机时间预约或旅行
-- [x] 结果消息推送
+- [x] 申购结果消息推送
 
 此项目使用 **Campus** 进行编写：<https://github.com/oddfar/campus>
 
-## 使用教程
+## 文档
 
-- 文档教程
+- 文档：https://oddfar.github.io/campus-doc/campus-imaotai
 
-  https://oddfar.github.io/campus-doc/campus-imaotai
-  
-- 视频教程
+- 视频：https://www.bilibili.com/video/BV1dj411H7oT
 
-  https://www.bilibili.com/video/BV1dj411H7oT
-
-有问题请查看文档，查找 [issues](https://github.com/oddfar/campus-imaotai/issues) 上是否有相同问题，若没有则提交 [issues](https://github.com/oddfar/campus-imaotai/issues)  ，附带详细的错误原因
-
-不会Docker部署的，可使用客户端：<https://github.com/lisongkun/hygge-imaotai>
-
-
-## 友情链接
-
-- 葫芦娃项目
-
-  yize8888-maotai: https://github.com/yize8888/maotai
 
 ## 演示图
 
@@ -86,7 +72,15 @@ i茅台app，每日自动预约茅台
 
 ![Stargazers over time](https://starchart.cc/oddfar/campus-imaotai.svg)
 
+## 友情链接
 
+- 本项目其他版
+
+  C#：<https://github.com/lisongkun/hygge-imaotai>
+
+- 葫芦娃项目
+
+  yize8888-maotai：https://github.com/yize8888/maotai
 
 ## 声明
 

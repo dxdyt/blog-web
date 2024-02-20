@@ -1,9 +1,9 @@
 ---
 title: gopeed
-date: 2023-07-09T12:18:35+08:00
+date: 2024-02-20T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688380303719-bf812819080b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688380303719-bf812819080b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707111136277-5a84207d4161?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707111136277-5a84207d4161?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
 ---
 
 # [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
@@ -12,34 +12,83 @@ featuredImagePreview: https://images.unsplash.com/photo-1688380303719-bf81281908
 [![Codecov](https://codecov.io/gh/GopeedLab/gopeed/branch/main/graph/badge.svg)](https://codecov.io/gh/GopeedLab/gopeed)
 [![Release](https://img.shields.io/github/release/GopeedLab/gopeed.svg)](https://github.com/GopeedLab/gopeed/releases)
 [![Download](https://img.shields.io/github/downloads/GopeedLab/gopeed/total.svg)](https://github.com/GopeedLab/gopeed/releases)
-[![Donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://github.com/GopeedLab/gopeed/blob/main/.donate/index.md#donate)
+[![Donate](https://img.shields.io/badge/%24-donate-ff69b4.svg)](https://docs.gopeed.com/donate.html)
 [![Discord](https://img.shields.io/discord/1037992631881449472?label=Discord&logo=discord&style=social)](https://discord.gg/ZUJqJrwCGB)
 
 ![](_docs/img/banner.png)
 
-[English](/README.md) | [中文](/README_zh-CN.md) | [日本語](/README_ja-JP.md)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R6IJGN6)
+
+[English](/README.md) | [中文](/README_zh-CN.md) | [日本語](/README_ja-JP.md) | [正體中文](/README_zh-TW.md)
 
 ## Introduction
 
-Gopeed (full name Go Speed), a high-speed downloader developed by `Golang` + `Flutter`, supports (HTTP, BitTorrent, Magnet) protocol, and supports all platforms.
+Gopeed (full name Go Speed), a high-speed downloader developed by `Golang` + `Flutter`, supports (HTTP, BitTorrent, Magnet) protocol, and supports all platforms. In addition to basic download functions, Gopeed is also a highly customizable downloader that supports implementing more features through integration with [APIs](https://docs.gopeed.com/dev-api.html) or installation and development of [extensions](https://docs.gopeed.com/dev-extension.html).
 
-Visit ✈ [Official Website](https://gopeed.com) | 📖 [Develop Docs](https://docs.gopeed.com)
+Visit ✈ [Official Website](https://gopeed.com) | 📖 [Official Docs](https://docs.gopeed.com)
 
-## Install
+## Download
 
-**Supported platforms**
+<table>
+    <thead>
+        <tr>
+            <th>Platform</th>
+            <th>Package Type</th>
+            <th>Download Link</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=2>Windows</td>
+            <td><code>EXE Installer</code></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-windows-amd64.zip">Link</a></td>
+        </tr>
+        <tr>
+            <td><code>Portable ZIP</code></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-windows-amd64-portable.zip">Link</a></td>
+        </tr>
+        <tr>
+            <td>MacOS</td>
+            <td><code>DMG Installer</code></td>          
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-macos.dmg">Link</a></td>
+        </tr>
+        <tr>
+            <td rowspan=3>Linux</td>
+            <td><code>SNAP</code></td>
+            <td><a href="https://snapcraft.io/gopeed">Link</a></td>
+        </tr>
+        <tr>
+            <td><code>DEB</code></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-linux.deb">Link</a></td>
+        </tr>
+        <tr>
+            <td><code>AppImage</code></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-linux-amd64.AppImage">Link</a></td>
+        </tr>
+        <tr>
+            <td>Android</td>
+            <td><code>APK</code></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-android.apk">Link</a></td>
+        </tr>
+        <tr>
+            <td>iOS</td>
+            <td><code>IPA</code></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-ios.ipa">Link</a></td>
+        </tr>
+        <tr>
+            <td>Web</td>
+            <td></td>
+            <td><a href="https://github.com/GopeedLab/gopeed/releases/latest">Link</a></td>
+        </tr>
+        <tr>
+            <td>Docker</td>
+            <td></td>
+            <td><a href="https://hub.docker.com/r/liwei2633/gopeed">Link</a></td>
+        </tr>
+    </tbody>
+</table>
 
-- [x] windows
-- [x] macos
-- [x] linux
-- [x] android
-- [ ] ios
-- [x] web
-- [x] docker
-
-[Download](https://github.com/GopeedLab/gopeed/releases/latest)
-
-> Tips: If the macos open failed, please execute the `xattr -d com.apple.quarantine /Applications/Gopeed.app` command in the terminal
+More about installation, please refer to [Installation](https://docs.gopeed.com/install.html)
 
 ### Command tool
 
@@ -49,29 +98,9 @@ use `go install`:
 go install github.com/GopeedLab/gopeed/cmd/gopeed@latest
 ```
 
-### Docker
-
-#### Start directly
-
-```bash
-docker run -d -p 9999:9999 -v /path/to/download:/download liwei2633/gopeed
-```
-
-#### Using Docker Compose
-
-```bash
-docker-compose up -d
-```
-
-#### Access Gopeed
-
-When the docker container is running, you can access the web page through `http://localhost:9999`.
-
-> Tip: Modify the download path to `/download` on the setting page to access the downloaded files on the host.
-
 ## Donate
 
-If you like this project, please consider [donating](/.donate/index.md#donate) to support the development of this project, thank you!
+If you like this project, please consider [donating](https://docs.gopeed.com/donate.html) to support the development of this project, thank you!
 
 ## Showcase
 
@@ -85,8 +114,8 @@ This project is divided into two parts, the front end uses `flutter`, the back e
 
 ### Environment
 
-1. Golang 1.19+
-2. Flutter 3.7+
+1. Golang 1.21+
+2. Flutter 3.16+
 
 ### Clone
 
@@ -150,6 +179,14 @@ cd ui/flutter
 flutter build apk
 ```
 
+- ios
+
+```bash
+gomobile bind -tags nosqlite -ldflags="-w -s" -o ui/flutter/ios/Frameworks/Libgopeed.xcframework -target=ios github.com/GopeedLab/gopeed/bind/mobile
+cd ui/flutter
+flutter build ios --no-codesign
+```
+
 #### Web
 
 command:
@@ -161,10 +198,9 @@ cd ../../
 rm -rf cmd/web/dist
 cp -r ui/flutter/build/web cmd/web/dist
 go build -tags nosqlite,web -ldflags="-s -w" -o bin/ github.com/GopeedLab/gopeed/cmd/web
-go run cmd/web/main.go
 ```
 
-## Thanks
+## Credits
 
 ### Contributors
 

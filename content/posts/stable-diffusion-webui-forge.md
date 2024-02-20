@@ -1,9 +1,9 @@
 ---
 title: stable-diffusion-webui-forge
-date: 2024-02-09T12:15:48+08:00
+date: 2024-02-20T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
 ---
 
 # [lllyasviel/stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)
@@ -35,6 +35,8 @@ Forge also adds a few samplers, including but not limited to DDPM, DDPM Karras, 
 Finally, Forge promise that we will only do our jobs. Forge will never add unnecessary opinioned changes to the user interface. You are still using 100% Automatic1111 WebUI.
 
 # Installing Forge
+
+If you are proficient in Git and you want to install Forge as another branch of SD-WebUI, please see [here](https://github.com/continue-revolution/sd-webui-animatediff/blob/forge/master/docs/how-to-use.md#you-have-a1111-and-you-know-git). In this way, you can reuse all SD checkpoints and all extensions you installed previously in your OG SD-WebUI, but you should know what you are doing.
 
 If you know what you are doing, you can install Forge using same method as SD-WebUI. (Install Git, Python, Git Clone the forge repo `https://github.com/lllyasviel/stable-diffusion-webui-forge.git` and then run webui-user.bat).
 
@@ -130,6 +132,8 @@ If you really want to play with cmd flags, you can additionally control the GPU 
 Again, Forge do not recommend users to use any cmd flags unless you are very sure that you really need these.
 
 # UNet Patcher
+
+Note that [Forge does not use any other software as backend](https://github.com/lllyasviel/stable-diffusion-webui-forge/discussions/169). The full name of the backend is `Stable Diffusion WebUI with Forge backend`, or for simplicity, the `Forge backend`. The API and python symbols are made similar to previous software only for reducing the learning cost of developers.
 
 Now developing an extension is super simple. We finally have a patchable UNet.
 
@@ -678,7 +682,7 @@ ControlNet and TiledVAE are integrated, and you should uninstall these two exten
     sd-webui-controlnet
     multidiffusion-upscaler-for-automatic1111
 
-Note that **AnimateDiff** is under construction by [continue-revolution](https://github.com/continue-revolution) at [sd-webui-animatediff forge/master branch](https://github.com/continue-revolution/sd-webui-animatediff/tree/forge/master) and [sd-forge-animatediff](https://github.com/continue-revolution/sd-forge-animatediff) (they are in sync). (continue-revolution original words: "basic features (prompt travel, inf t2v) have been proven to work well, motion lora, cn v2v still under construction and may be finished in a week, and we can mention motion brush")
+Note that **AnimateDiff** is under construction by [continue-revolution](https://github.com/continue-revolution) at [sd-webui-animatediff forge/master branch](https://github.com/continue-revolution/sd-webui-animatediff/tree/forge/master) and [sd-forge-animatediff](https://github.com/continue-revolution/sd-forge-animatediff) (they are in sync). (continue-revolution original words: prompt travel, inf t2v, controlnet v2v have been proven to work well; motion lora, i2i batch still under construction and may be finished in a week")
 
 Other extensions should work without problems, like:
 
@@ -692,3 +696,11 @@ Other extensions should work without problems, like:
 However, if newer extensions use Forge, their codes can be much shorter. 
 
 Usually if an old extension rework using Forge's unet patcher, 80% codes can be removed, especially when they need to call controlnet.
+
+# Contribution
+
+Forge uses a bot to get commits and codes from https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/dev every afternoon (if merge is automatically successful by a git bot, or by my compiler, or by my ChatGPT bot) or mid-night (if my compiler and my ChatGPT bot both failed to merge and I review it manually).
+
+All PRs that can be implemented in https://github.com/AUTOMATIC1111/stable-diffusion-webui/tree/dev should submit PRs there.
+
+Feel free to submit PRs related to the functionality of Forge here.

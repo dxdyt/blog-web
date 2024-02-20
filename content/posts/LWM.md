@@ -1,9 +1,9 @@
 ---
 title: LWM
-date: 2024-02-19T12:15:23+08:00
+date: 2024-02-20T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706818033062-fb97420ef25e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706818033062-fb97420ef25e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707588883437-9b3709880e3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707588883437-9b3709880e3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
 ---
 
 # [LargeWorldModel/LWM](https://github.com/LargeWorldModel/LWM)

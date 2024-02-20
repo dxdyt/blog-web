@@ -1,9 +1,9 @@
 ---
 title: GPT-SoVITS
-date: 2024-02-19T12:15:34+08:00
+date: 2024-02-20T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706504287548-19beca05cbab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706504287548-19beca05cbab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707111136277-5a84207d4161?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707111136277-5a84207d4161?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
 ---
 
 # [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
@@ -117,7 +117,7 @@ For Chinese ASR (additionally), download models from [Damo ASR Model](https://mo
 
 If you are a Mac user, make sure you meet the following conditions for training and inferencing with GPU:
 
-- Mac computers with Apple silicon or AMD GPUs
+- Mac computers with Apple silicon
 - macOS 12.3 or later
 - Xcode command-line tools installed by running `xcode-select --install`
 
