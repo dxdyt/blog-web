@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2024-02-20T12:17:17+08:00
+date: 2024-02-21T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705965485279-4c3ee59ea5af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705965485279-4c3ee59ea5af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
 ---
 
 # [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)

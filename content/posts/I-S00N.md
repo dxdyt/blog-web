@@ -1,9 +1,9 @@
 ---
 title: I-S00N
-date: 2024-02-20T12:19:51+08:00
+date: 2024-02-21T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705917662542-7fd6af312a1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705917662542-7fd6af312a1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707090804388-7e9d7c6d6ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707090804388-7e9d7c6d6ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
 ---
 
 # [I-S00N/I-S00N](https://github.com/I-S00N/I-S00N)

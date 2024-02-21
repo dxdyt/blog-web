@@ -1,9 +1,9 @@
 ---
 title: sherlock
-date: 2023-12-07T12:18:13+08:00
+date: 2024-02-21T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700049753107-fb6dcd226c20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700049753107-fb6dcd226c20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707131001327-00916e33e1a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707131001327-00916e33e1a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
 ---
 
 # [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
@@ -56,11 +56,11 @@ usage: sherlock [-h] [--version] [--verbose] [--folderoutput FOLDEROUTPUT]
                 [--browse] [--local] [--nsfw]
                 USERNAMES [USERNAMES ...]
 
-Sherlock: Find Usernames Across Social Networks (Version 0.14.2)
+Sherlock: Find Usernames Across Social Networks (Version 0.14.3)
 
 positional arguments:
   USERNAMES             One or more usernames to check with social networks.
-                        Check similar usernames using {%} (replace to '_', '-', '.').
+                        Check similar usernames using {?} (replace to '_', '-', '.').
 
 optional arguments:
   -h, --help            show this help message and exit

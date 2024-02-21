@@ -1,9 +1,9 @@
 ---
 title: minbpe
-date: 2024-02-20T12:16:45+08:00
+date: 2024-02-21T12:15:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703159453462-8a2d2866afaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703159453462-8a2d2866afaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707696199186-d26b0f779f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707696199186-d26b0f779f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/minbpe](https://github.com/karpathy/minbpe)

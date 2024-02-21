@@ -1,9 +1,9 @@
 ---
 title: jepa
-date: 2024-02-20T12:18:35+08:00
+date: 2024-02-21T12:16:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707621786198-c4fdc4af3719?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707131001327-00916e33e1a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707131001327-00916e33e1a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/jepa](https://github.com/facebookresearch/jepa)
@@ -18,6 +18,7 @@ Adrien Bardes, Quentin Garrido, Jean Ponce, Xinlei Chen, Michael Rabbat, Yann Le
 
 [\[Blog\]](https://ai.meta.com/blog/v-jepa-yann-lecun-ai-model-video-joint-embedding-predictive-architecture/)
 [\[Paper\]](https://ai.meta.com/research/publications/revisiting-feature-prediction-for-learning-visual-representations-from-video/)
+[\[Yannic Kilcher's Video\]](https://www.youtube.com/watch?v=7UkJPwz_N_0)
 
 V-JEPA models are trained by passively watching video pixels from the VideoMix2M dataset, and produce versatile visual representations that perform well on downstream video and image tasks, without adaption of the model’s parameters; e.g., using a frozen backbone and only a light-weight task-specific attentive probe.
 
@@ -394,7 +395,8 @@ python -m evals.main_distributed \
 ---
 
 ### Setup
-Create a new Conda environment, activate it, and run the [setup.py](setup.py) script.
+Create a new Conda environment, activate it, and run the [setup.py](setup.py) script:
+`python setup.py install`
 
 ## License
 See the [LICENSE](./LICENSE) file for details about the license under which this code is made available.
