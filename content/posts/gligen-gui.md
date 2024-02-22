@@ -1,9 +1,9 @@
 ---
 title: gligen-gui
-date: 2024-02-21T12:17:35+08:00
+date: 2024-02-22T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707090804388-7e9d7c6d6ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707090804388-7e9d7c6d6ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931607440-61189f2380cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931607440-61189f2380cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
 ---
 
 # [mut-ex/gligen-gui](https://github.com/mut-ex/gligen-gui)

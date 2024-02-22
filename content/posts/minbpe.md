@@ -1,9 +1,9 @@
 ---
 title: minbpe
-date: 2024-02-21T12:15:16+08:00
+date: 2024-02-22T12:15:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707696199186-d26b0f779f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707696199186-d26b0f779f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/minbpe](https://github.com/karpathy/minbpe)
@@ -140,13 +140,16 @@ to run the tests. (-v is verbose, slightly prettier).
 
 For those trying to study BPE, here is the advised progression exercise for how you can build your own minbpe step by step. See [exercise.md](exercise.md).
 
+## video
+
+[Let's build the GPT Tokenizer](https://www.youtube.com/watch?v=zduSFxRajkE)
+
 ## todos
 
 - write a more optimized Python version that could run over large files and big vocabs
 - write an even more optimized C or Rust version (think through)
 - rename GPT4Tokenizer to GPTTokenizer and support GPT-2/GPT-3/GPT-3.5 as well?
 - write a LlamaTokenizer similar to GPT4Tokenizer (i.e. attempt sentencepiece equivalent)
-- video coming soon ;)
 
 ## License
 

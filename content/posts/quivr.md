@@ -1,12 +1,12 @@
 ---
 title: quivr
-date: 2024-01-25T12:19:30+08:00
+date: 2024-02-22T12:16:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703432931202-0706a656c8bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703432931202-0706a656c8bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYxNTYxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931607440-61189f2380cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931607440-61189f2380cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
 ---
 
-# [StanGirard/quivr](https://github.com/StanGirard/quivr)
+# [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr)
 
 # Quivr - Your Second Brain, Empowered by Generative AI
 
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1703432931202-0706a656c8
 </div>
 
 [![Discord Follow](https://dcbadge.vercel.app/api/server/HUpRgp2HG8?style=flat)](https://discord.gg/HUpRgp2HG8)
-[![GitHub Repo stars](https://img.shields.io/github/stars/stangirard/quivr?style=social)](https://github.com/stangirard/quivr)
+[![GitHub Repo stars](https://img.shields.io/github/stars/quivrhq/quivr?style=social)](https://github.com/quivrhq/quivr)
 [![Twitter Follow](https://img.shields.io/twitter/follow/StanGirard?style=social)](https://twitter.com/_StanGirard)
 
 Quivr, your second brain, utilizes the power of GenerativeAI to be your personal assistant ! Think of it as Obsidian, but turbocharged with AI capabilities.
@@ -35,7 +35,7 @@ Quivr, your second brain, utilizes the power of GenerativeAI to be your personal
 
 ## Demo Highlights 🎥
 
-https://github.com/StanGirard/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5
+https://github.com/quivrhq/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dca71f5
 
 ## Getting Started 🚀
 
@@ -66,7 +66,7 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 - **Step 1**: Clone the repository:
 
   ```bash
-  git clone https://github.com/StanGirard/Quivr.git && cd Quivr
+  git clone https://github.com/quivrhq/quivr.git && cd Quivr
   ```
 
 - **Step 2**: Copy the `.env.example` files
@@ -128,25 +128,29 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 ## Contributors ✨
 
 Thanks go to these wonderful people:
-<a href="https://github.com/stangirard/quivr/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=stangirard/quivr" />
+<a href="https://github.com/quivrhq/quivr/graphs/contributors">
+<img src="https://contrib.rocks/image?repo=quivrhq/quivr" />
 </a>
 
 ## Contribute 🤝
 
 Did you get a pull request? Open it, and we'll review it as soon as possible. Check out our project board [here](https://github.com/users/StanGirard/projects/5) to see what we're currently focused on, and feel free to bring your fresh ideas to the table!
 
-- [Open Issues](https://github.com/StanGirard/quivr/issues)
-- [Open Pull Requests](https://github.com/StanGirard/quivr/pulls)
-- [Good First Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
-- [Frontend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
-- [Backend Issues](https://github.com/StanGirard/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
+- [Open Issues](https://github.com/quivrhq/quivr/issues)
+- [Open Pull Requests](https://github.com/quivrhq/quivr/pulls)
+- [Good First Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
+- [Frontend Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Afrontend)
+- [Backend Issues](https://github.com/quivrhq/quivr/issues?q=is%3Aopen+is%3Aissue+label%3Abackend)
 - [Translate](https://docs.quivr.app/docs/Developers/contribution/guidelines#translations)
 
 ## Partners ❤️
 
 This project would not be possible without the support of our partners. Thank you for your support!
 
+
+<a href="https://ycombinator.com/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/1200px-Y_Combinator_logo.svg.png" alt="YCombinator" style="padding: 10px" width="70px">
+</a>
 <a href="https://www.theodo.fr/">
   <img src="https://avatars.githubusercontent.com/u/332041?s=200&v=4" alt="Theodo" style="padding: 10px" width="70px">
 </a>
@@ -157,4 +161,4 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENS
 
 ## Stars History 📈
 
-[![Star History Chart](https://api.star-history.com/svg?repos=StanGirard/quivr&type=Timeline)](https://star-history.com/#StanGirard/quivr&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=quivrhq/quivr&type=Timeline)](https://star-history.com/#quivrhq/quivr&Timeline)

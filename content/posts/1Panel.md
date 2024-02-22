@@ -1,9 +1,9 @@
 ---
 title: 1Panel
-date: 2023-11-30T12:16:36+08:00
+date: 2024-02-22T12:15:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700514015106-4d8480938dcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700514015106-4d8480938dcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707159432991-ac67eace0014?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707159432991-ac67eace0014?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
@@ -21,13 +21,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1700514015106-4d8480938d
 
 ------------------------------
 
-1Panel 是一个现代化、开源的 Linux 服务器运维管理面板。1Panel 的功能和优势包括：
+1Panel 是新一代的 Linux 服务器运维管理面板。
 
-- **快速建站**：深度集成 Wordpress 和 [Halo](https://github.com/halo-dev/halo/)，域名绑定、SSL 证书配置等一键搞定；
 - **高效管理**：通过 Web 端轻松管理 Linux 服务器，包括主机监控、文件管理、数据库管理、容器管理等；
+- **快速建站**：深度集成 Wordpress 和 [Halo](https://github.com/halo-dev/halo/)，域名绑定、SSL 证书配置等一键搞定；
+- **应用商店**：精选各类高质量开源工具和应用软件，助力您轻松安装和升级；
 - **安全可靠**：基于容器来管理和部署应用，最小漏洞暴露面，提供防火墙和日志审计等功能；
-- **一键备份**：支持一键备份和恢复，备份数据到各类云端存储，永不丢失；
-- **应用商店**：精选各类高质量开源工具和应用软件，助力您轻松安装和升级。
+- **一键备份**：支持一键备份和恢复，备份数据到各类云端存储，永不丢失。
 
 ## UI 展示
 
@@ -73,7 +73,7 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 
 ## License
 
-Copyright (c) 2014-2023 [FIT2CLOUD 飞致云](https://fit2cloud.com/), All rights reserved.
+Copyright (c) 2014-2024 [FIT2CLOUD 飞致云](https://fit2cloud.com/), All rights reserved.
 
 Licensed under The GNU General Public License version 3 (GPLv3)  (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

@@ -1,9 +1,9 @@
 ---
 title: one-api
-date: 2023-12-30T12:17:13+08:00
+date: 2024-02-22T12:16:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701676566598-75ce4b488597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701676566598-75ce4b488597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
 ---
 
 # [songquanpeng/one-api](https://github.com/songquanpeng/one-api)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1701676566598-75ce4b4885
 
 
 <p align="center">
-  <a href="https://github.com/songquanpeng/one-api"><img src="https://raw.githubusercontent.com/songquanpeng/one-api/main/web/public/logo.png" width="150" height="150" alt="one-api logo"></a>
+  <a href="https://github.com/songquanpeng/one-api"><img src="https://raw.githubusercontent.com/songquanpeng/one-api/main/web/default/public/logo.png" width="150" height="150" alt="one-api logo"></a>
 </p>
 
 <div align="center">
@@ -83,6 +83,9 @@ _✨ 通过标准的 OpenAI API 格式访问所有的大模型，开箱即用 �
    + [x] [智谱 ChatGLM 系列模型](https://bigmodel.cn)
    + [x] [360 智脑](https://ai.360.cn)
    + [x] [腾讯混元大模型](https://cloud.tencent.com/document/product/1729)
+   + [x] [Moonshot AI](https://platform.moonshot.cn/)
+   + [ ] [字节云雀大模型](https://www.volcengine.com/product/ark) (WIP)
+   + [ ] [MINIMAX](https://api.minimax.chat/) (WIP)
 2. 支持配置镜像以及众多[第三方代理服务](https://iamazing.cn/page/openai-api-third-party-services)。
 3. 支持通过**负载均衡**的方式访问多个渠道。
 4. 支持 **stream 模式**，可以通过流式传输实现打字机效果。
@@ -109,6 +112,7 @@ _✨ 通过标准的 OpenAI API 格式访问所有的大模型，开箱即用 �
     + 邮箱登录注册（支持注册邮箱白名单）以及通过邮箱进行密码重置。
     + [GitHub 开放授权](https://github.com/settings/applications/new)。
     + 微信公众号授权（需要额外部署 [WeChat Server](https://github.com/songquanpeng/wechat-server)）。
+23. 支持主题切换，设置环境变量 `THEME` 即可，默认为 `default`，欢迎 PR 更多主题，具体参考[此处](./web/README.md)。
 
 ## 部署
 ### 基于 Docker 进行部署
@@ -183,12 +187,12 @@ docker-compose ps
    git clone https://github.com/songquanpeng/one-api.git
    
    # 构建前端
-   cd one-api/web
+   cd one-api/web/default
    npm install
    npm run build
    
    # 构建后端
-   cd ..
+   cd ../..
    go mod download
    go build -ldflags "-s -w" -o one-api
    ````
@@ -376,6 +380,8 @@ graph LR
     + `DATA_GYM_CACHE_DIR`：目前该配置作用与 `TIKTOKEN_CACHE_DIR` 一致，但是优先级没有它高。
 15. `RELAY_TIMEOUT`：中继超时设置，单位为秒，默认不设置超时时间。
 16. `SQLITE_BUSY_TIMEOUT`：SQLite 锁等待超时设置，单位为毫秒，默认 `3000`。
+17. `GEMINI_SAFETY_SETTING`：Gemini 的安全设置，默认 `BLOCK_NONE`。
+18. `THEME`：系统的主题设置，默认为 `default`，具体可选值参考[此处](./web/README.md)。
 
 ### 命令行参数
 1. `--port <port_number>`: 指定服务器监听的端口号，默认为 `3000`。
@@ -421,6 +427,9 @@ https://openai.justsong.cn
 8. 升级之前数据库需要做变更吗？
    + 一般情况下不需要，系统将在初始化的时候自动调整。
    + 如果需要的话，我会在更新日志中说明，并给出脚本。
+9. 手动修改数据库后报错：`数据库一致性已被破坏，请联系管理员`？
+   + 这是检测到 ability 表里有些记录的通道 id 是不存在的，这大概率是因为你删了 channel 表里的记录但是没有同步在 ability 表里清理无效的通道。
+   + 对于每一个通道，其所支持的模型都需要有一个专门的 ability 表的记录，表示该通道支持该模型。
 
 ## 相关项目
 * [FastGPT](https://github.com/labring/FastGPT): 基于 LLM 大语言模型的知识库问答系统

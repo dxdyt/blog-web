@@ -1,9 +1,9 @@
 ---
 title: campus-imaotai
-date: 2024-02-20T12:18:05+08:00
+date: 2024-02-22T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707305311503-b94312242a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707305311503-b94312242a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708029085505-6b0c1ccc11f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708029085505-6b0c1ccc11f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
 ---
 
 # [oddfar/campus-imaotai](https://github.com/oddfar/campus-imaotai)
