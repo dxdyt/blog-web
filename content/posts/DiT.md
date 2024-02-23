@@ -1,9 +1,9 @@
 ---
 title: DiT
-date: 2024-02-21T12:15:38+08:00
+date: 2024-02-23T12:16:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707131001327-00916e33e1a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707131001327-00916e33e1a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707093963143-5c5e48186bab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707093963143-5c5e48186bab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/DiT](https://github.com/facebookresearch/DiT)

@@ -1,9 +1,9 @@
 ---
 title: professional-programming
-date: 2024-02-22T12:14:26+08:00
+date: 2024-02-23T12:14:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708024975443-fd628051db27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708024975443-fd628051db27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707539159841-40a0db23ddc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707539159841-40a0db23ddc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
 ---
 
 # [charlax/professional-programming](https://github.com/charlax/professional-programming)

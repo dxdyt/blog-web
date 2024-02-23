@@ -1,9 +1,9 @@
 ---
 title: gpt4free
-date: 2024-02-22T12:16:43+08:00
+date: 2024-02-23T12:16:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705651460515-40fd99cf8f59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705651460515-40fd99cf8f59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
 ---
 
 # [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
@@ -13,7 +13,7 @@ Written by [@xtekky](https://github.com/hlohaus) & maintained by [@hlohaus](http
 
 <div id="top"></div>
 
-> By using this repository or any code related to it, you agree to the [legal notice](LEGAL_NOTICE.md). The author is **not responsible for the usage of this repository nor endorses it**, nor is the author responsible for any any copies, forks, re-uploads made by other users, or anything else related to GPT4Free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses.  
+> By using this repository or any code related to it, you agree to the [legal notice](LEGAL_NOTICE.md). The author is **not responsible for the usage of this repository nor endorses it**, nor is the author responsible for any copies, forks, re-uploads made by other users, or anything else related to GPT4Free. This is the author's only account and repository. To prevent impersonation or irresponsible actions, please comply with the GNU GPL license this Repository uses.  
 
 > [!Warning]
 *"gpt4free"* serves as a **PoC** (proof of concept), demonstrating the development of a an api package with multi-provider requests, with features like timeouts, load balance and flow control.
@@ -182,7 +182,7 @@ To start the web interface, type the following codes in python:
 from g4f.gui import run_gui
 run_gui()
 ```
-or type in command line:
+or execute the following command:
 ```bash
 python -m g4f.cli gui -port 8080 -debug
 ```
@@ -197,7 +197,7 @@ See: [/docs/interference](/docs/interference.md)
 
 ##### Cookies / Access Token
 
-For generating images with Bing and for the OpenAi Chat  you need cookies or a token from your browser session. From Bing you need the "_U" cookie and from OpenAI you need the "access_token". You can pass the cookies / the  access token in the create function or you use the `set_cookies` setter before you run G4F:
+For generating images with Bing and for the OpenAi Chat  you need cookies or a token from your browser session. From Bing you need the "_U" cookie and from OpenAI you need the "access_token". You can pass the cookies / the access token in the create function or you use the `set_cookies` setter before you run G4F:
 
 ```python
 from g4f.cookies import set_cookies

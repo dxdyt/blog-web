@@ -1,9 +1,9 @@
 ---
 title: hiddify-next
-date: 2024-02-21T12:16:32+08:00
+date: 2024-02-23T12:14:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707090804388-7e9d7c6d6ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707090804388-7e9d7c6d6ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707093963143-5c5e48186bab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707093963143-5c5e48186bab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
 ---
 
 # [hiddify/hiddify-next](https://github.com/hiddify/hiddify-next)
