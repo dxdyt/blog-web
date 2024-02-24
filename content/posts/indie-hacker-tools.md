@@ -1,9 +1,9 @@
 ---
 title: indie-hacker-tools
-date: 2024-02-23T12:15:21+08:00
+date: 2024-02-24T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707647132749-8f1322ed1b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707760509806-c39421dfe76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707760509806-c39421dfe76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [weijunext/indie-hacker-tools](https://github.com/weijunext/indie-hacker-tools)
@@ -19,6 +19,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 - 市场上足够流行
 
 欢迎提 pr 和 issues 更新。
+
+本仓库贡献者[@zhuima](https://github.com/zhuima) 发布了在线导航站：https://nav.678668.xyz/
 
 ## Web 开发模板
 
@@ -41,8 +43,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 
 | 技术栈 | 备注|
 | --- | --- |
-| [Next.js](https://nextjs.org/)🌟 | 基于 React。附属学习教程：[Next.js Practice](https://nextjs.weijunext.com/)  |
-| [Remix](https://remix.run/) | 基于 React |
+| [Next.js](https://nextjs.org/)🌟 | 基于 React，附属学习教程：[Next.js Practice](https://nextjs.weijunext.com/)  |
+| [Remix](https://remix.run/) |  基于 React，Next.js最大竞争对手 |
 | [Nuxt](https://nuxt.com/) | 基于 Vue |
 
 ### 后端
@@ -73,13 +75,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | [Tailwind CSS](https://tailwindcss.com/)🌟 | |
 | [Shadcn/ui](https://ui.shadcn.com/)🌟 |  |
 
+
+### 原型设计
+
+| 平台 | 备注 |
+| --- | --- |
+| [v0](https://v0.dev/) | Text to UI, 免费用户有 200 Credits / 每月|
+| [usegalileo](https://www.usegalileo.ai/) | Text to UI, 免费用户有 200 Credits |
+| [vx.dev](https://github.com/Yuyz0112/vx.dev) | Text to UI, v0.dev的开源替代品 |
+
+
 ### 登录鉴权
 
 | 技术栈 | 备注 |
 | --- | --- |
 | [Clerk](https://clerk.com/)🌟 | |
 | [Supabase](https://supabase.com/) |  PostgreSQL数据库、文件存储、登录鉴权 |
-| [lucia](https://github.com/lucia-auth/lucia) |  登录鉴权 |
+| [Lucia](https://github.com/lucia-auth/lucia) |  登录鉴权 |
 | [Next-Auth v4](https://next-auth.js.org/) | |
 | [Next-Auth v5](https://authjs.dev/getting-started/introduction) | v5 配置和 v4 不同，请注意区分<br> [v5 Demo](https://github.com/AntonioErdeljac/next-auth-v5-advanced-guide) |
 
@@ -105,6 +117,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | [Google Analytics](https://analytics.google.com/analytics/web/) | |
 | [Plausible]( https://plausible.io) | |
 | [Umami](https://umami.is/)| 开源可自部署 |
+| [Clarity](https://clarity.microsoft.com/) | 微软出的分析工具 |
 
 ### 在线客服
 
@@ -118,7 +131,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | --- | --- |
 | [Vercel](https://vercel.com/dashboard)🌟 | 首选 |
 | [Aircode](https://aircode.io/) | 字节跳动出品 |
-| [Zeabur](https://zeabur.com/) | 国内出海团队出品 |
+| [Zeabur](https://zeabur.com/) | 国内出海团队出品，作者：[@MichaelYuhe](https://github.com/MichaelYuhe) |
 | [Railway](https://railway.app/) |  |
 | [Netlify](https://www.netlify.com/) | |
 | [Github Pages](https://pages.github.com/) | |
@@ -131,14 +144,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | [Namesilo](https://www.namesilo.com/)🌟 | 自动屏蔽whois |
 | [Namecheap](https://www.namecheap.com/) | 据说比较便宜 |
 | [Godaddy](https://www.godaddy.com/) | 狗爹，懂的都懂 |
-| [阿里云](https://wanwang.aliyun.com/domain) <br>  [腾讯云](https://cloud.tencent.com/act/pro/domain-sale) <br> [字节火山引擎](https://www.volcengine.com/product/domain-service)| 国内平台，cn域名首选平台 |
 | [Cloudflare](https://cloudflare.com/) | |
+| [阿里云](https://wanwang.aliyun.com/domain) <br>  [腾讯云](https://cloud.tencent.com/act/pro/domain-sale) <br> [字节火山引擎](https://www.volcengine.com/product/domain-service)| 国内平台，cn域名首选平台 |
 
 ### 文档管理
 
 | 平台 | 备注 |
 | --- | --- |
 | [Notion](https://notion.so/) |  |
+| [VitePress](https://vitepress.vuejs.org/) | Vite & Vue 驱动的静态站点生成器 |
+| [Astro Starlight](https://starlight.astro.build/) | 建立在 Astro 框架之上的全功能文档主题。<br>Astro 团队成员与中文文档翻译者：[@liruifengv](https://github.com/liruifengv/liruifengv) |
 
 ### logo
 
@@ -148,7 +163,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | [iconray](https://icon.ray.so/) |  logo 设计 |
 | [icon horse](https://icon.horse/) |  logo 探测 |
 | [favicon generator](https://realfavicongenerator.net/) |  生成多平台多种类logo(ico、PNG、SVG) |
-| [比特虫](https://www.bitbug.net/) |  PNG/JPG 转 ico |
+| [big bug](https://www.bitbug.net/) |  PNG/JPG 转 ico |
 
 ### 图标库
 
@@ -157,6 +172,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | [iconbuddy](https://iconbuddy.app/) | |
 | [fontawesome](https://fontawesome.com/icons) | |
 | [MingCute](https://www.mingcute.com/) | |
+| [iconify](https://iconify.design/) | |
 
 ### 图片视频处理工具
 
@@ -172,17 +188,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b
 | --- | --- |
 | [focusee](https://gemoo.com/focusee/) | |
 | [Screen Studio](https://www.screen.studio) | |
+| [OBS Studio](https://obsproject.com/) | 开源、windows、mac、linux |
 
 ### 短链
 
 | 平台 | 备注 |
 | --- | --- |
 | [dub](https://github.com/dubinc/dub) | 免费用户每个月可以创建25个链接 |
-
-### 原型设计
-
-| 平台 | 备注 |
-| --- | --- |
-| [v0](https://v0.dev/) | Text to UI, 免费用户有 200 Credits / 每月|
-| [usegalileo](https://www.usegalileo.ai/) | Text to UI, 免费用户有 200 Credits |
-| [vx.dev](https://github.com/Yuyz0112/vx.dev) | Text to UI, v0.dev的开源替代品 |

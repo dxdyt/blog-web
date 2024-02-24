@@ -1,19 +1,19 @@
 ---
 title: Noi
-date: 2024-02-04T12:16:52+08:00
+date: 2024-02-24T12:18:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704714695191-a40c000ff64b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704714695191-a40c000ff64b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcwMjAwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706459418464-b38b4d3270f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706459418464-b38b4d3270f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [lencx/Noi](https://github.com/lencx/Noi)
 
-<h2 align="center">
+<p align="center">
   <img width="160" src="./website/static/readme/noi.png" />
-  <p>AI + Tools + Plugins + Community</p>
+  <p align="center">🚀 Power Your World with AI - Explore, Extend, Empower.</p>
 </h2>
 
-[![Noi downloads](https://img.shields.io/github/downloads/lencx/Noi/total.svg?style=flat-square)](https://github.com/lencx/Noi/releases)
+[![Noi downloads](https://img.shields.io/github/downloads/lencx/Noi/total.svg?style=flat)](https://github.com/lencx/Noi/releases) [![Noi](https://img.shields.io/badge/Noi-discord-blue?style=flat&logo=discord&logoColor=f2f0ea)](https://discord.gg/kq2HXcpJSQ)
 
 <a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
@@ -28,19 +28,25 @@ featuredImagePreview: https://images.unsplash.com/photo-1704714695191-a40c000ff6
 
 ## Install
 
+[🕒 History versions...](https://github.com/lencx/Noi/releases)
+
 - **macOS**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1.dmg)
-  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_macos_0.2.1-arm64.dmg)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0.dmg)
+  - [⬇️ arm64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_macos_0.3.0-arm64.dmg)
 - **Windows**
-  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi-win32-x64-0.2.1-setup.exe)
+  - [⬇️ x64](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi-win32-x64-0.3.0-setup.exe)
 - **Linux**
-  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.2.1/Noi_linux_0.2.1.AppImage)
-  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.2.1/noi_linux_amd64_0.2.1.deb)
+  - [⬇️ AppImage](https://github.com/lencx/Noi/releases/download/v0.3.0/Noi_linux_0.3.0.AppImage)
+  - [⬇️ amd64.deb](https://github.com/lencx/Noi/releases/download/v0.3.0/noi_linux_amd64_0.3.0.deb)
 
 |Preview|Preview|
 |---|---|
-|![theme-dark](./website/static/readme/noi-theme-dark.png)|![theme-light](./website/static/readme/noi-theme-light.png)|
-|![batch-ask](./website/static/readme/noi-batch-ask.png)|![settings-prompts](./website/static/readme/noi-settings-prompts.png)|
+|![theme-dark](./website/static/readme/noi-theme-dark.png)|![noi-settings](./website/static/readme/noi-settings.png)|
+|![settings-prompts](./website/static/readme/noi-prompt.png)|![batch-ask](./website/static/readme/noi-prompt-use.png)|
+
+---
+
+[![Star History Chart](https://api.star-history.com/svg?repos=lencx/Noi&type=Timeline)](https://star-history.com/#lencx/Noi&Timeline)
 
 ## FAQ
 
@@ -61,6 +67,14 @@ xattr -cr /Applications/Noi.app
 - Plugin system
 
 ## 中国用户
+
+> [!NOTE]
+> Noi 目前未做应用自动更新，需要自己留意此项目的新版本发布（如果有 GitHub 账号的，可以 watch 或 star）。
+
+这里有两篇使用文档，对 Noi 的理念和插件系统做了详细介绍，推荐新手仔细阅读。
+
+- [Noi：跨平台定制化浏览器，最得力 AI 助手](https://mp.weixin.qq.com/s/dAN7LOw7mH609HdAyEvXfg)
+- [Noi：插件介绍](https://mp.weixin.qq.com/s/M6gO6MdK5obCvs2LIBZA3w)
 
 国内用户如果遇到使用问题或者想交流 Noi，可以关注公众号「**浮之静**」，发送 “**noi**” 进群参与讨论。如果 Noi 应用对你有帮助可以分享给更多人，或者微信扫码打赏。
 
