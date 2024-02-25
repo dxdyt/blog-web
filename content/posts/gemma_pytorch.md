@@ -1,9 +1,9 @@
 ---
 title: gemma_pytorch
-date: 2024-02-24T12:15:11+08:00
+date: 2024-02-25T12:15:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707173513975-5367d9f1a371?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707173513975-5367d9f1a371?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708555205842-f38972eed725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708555205842-f38972eed725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [google/gemma_pytorch](https://github.com/google/gemma_pytorch)

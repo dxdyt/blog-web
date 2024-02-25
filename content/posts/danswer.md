@@ -1,9 +1,9 @@
 ---
 title: danswer
-date: 2024-02-18T12:15:58+08:00
+date: 2024-02-25T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706931723349-3cd3ce9b0e12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706931723349-3cd3ce9b0e12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708531254027-af44084bc76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708531254027-af44084bc76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [danswer-ai/danswer](https://github.com/danswer-ai/danswer)
@@ -32,7 +32,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1706931723349-3cd3ce9b0e
 </a>
 </p>
 
-<strong>[Danswer](https://www.danswer.ai/)</strong> lets you ask questions in natural language questions and get back
+<strong>[Danswer](https://www.danswer.ai/)</strong> lets you ask questions in natural language and get back
 answers based on your team specific documents. Think ChatGPT if it had access to your team's unique
 knowledge. Connects to all common workplace tools such as Slack, Google Drive, Confluence, etc.
 

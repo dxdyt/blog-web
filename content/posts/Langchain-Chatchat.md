@@ -1,9 +1,9 @@
 ---
 title: Langchain-Chatchat
-date: 2024-02-23T12:14:30+08:00
+date: 2024-02-25T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706621927383-c212d9477535?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706621927383-c212d9477535?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1597495528367-e4f4bb3f3c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1597495528367-e4f4bb3f3c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [chatchat-space/Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat)
@@ -203,7 +203,7 @@ $ python startup.py -a
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white "langchain-chatglm")](https://t.me/+RjliQ3jnJ1YyN2E9)
 
 ### 项目交流群
-<img src="img/qr_code_91.jpg" alt="二维码" width="300" />
+<img src="img/qr_code_92.jpg" alt="二维码" width="300" />
 
 🎉 Langchain-Chatchat 项目微信交流群，如果你也对本项目感兴趣，欢迎加入群聊参与讨论交流。
 

@@ -1,9 +1,9 @@
 ---
 title: SoraWebui
-date: 2024-02-24T12:15:31+08:00
+date: 2024-02-25T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1652449823136-b279fbe5dfd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1652449823136-b279fbe5dfd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [SoraWebui/SoraWebui](https://github.com/SoraWebui/SoraWebui)
@@ -20,9 +20,9 @@ English | [简体中文](https://github.com/SoraWebui/SoraWebui/blob/main/README
 
   You can see this feature in 👉 [main](https://github.com/SoraWebui/SoraWebui/tree/main) or 👉 [version-0.1](https://github.com/SoraWebui/SoraWebui/tree/version-0.1)
 
-- [ ] Login with Google:
+- ✅ Login with Google:
 
-  Coming soon
+  You can see this feature in 👉 [login](https://github.com/SoraWebui/SoraWebui/tree/login)
 
 - [ ] Stripe payment：
 

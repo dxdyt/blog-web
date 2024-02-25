@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-02-23T12:15:13+08:00
+date: 2024-02-25T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707539159841-40a0db23ddc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707539159841-40a0db23ddc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706515558066-59425588daec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706515558066-59425588daec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
@@ -17,6 +17,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1707539159841-40a0db23dd
     :newspaper: Try Newsletter
   </a>
 </p>
+
+# System Design
 
 ## Case Studies
 

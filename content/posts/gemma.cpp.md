@@ -1,9 +1,9 @@
 ---
 title: gemma.cpp
-date: 2024-02-24T12:15:21+08:00
+date: 2024-02-25T12:16:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1652449823136-b279fbe5dfd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1652449823136-b279fbe5dfd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706515558066-59425588daec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706515558066-59425588daec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [google/gemma.cpp](https://github.com/google/gemma.cpp)
@@ -318,19 +318,19 @@ The code defines two C++ structs, `ConfigGemma7B` and `ConfigGemma2B`, which are
 
 **ConfigGemma7B**:
 
-* `seq_len`: Stores the length of the sequence to be processed. It's set to 7168.
-* `vocab_size`: Stores the size of the vocabulary, which is 256128.
-* `n_layers`: Number of layers in the deep learning model. It's set to 28.
-* `dim_model`: Dimension of the model's internal representation. It's set to 3072.
-* `dim_ffw_hidden`: Dimension of the feedforward and recurrent layers' hidden representations. It's set to 16 * 3072 / 2.
+* `kSeqLen`: Stores the length of the sequence to be processed. It's set to 7168.
+* `kVocabSize`: Stores the size of the vocabulary, which is 256128.
+* `kLayers`: Number of layers in the deep learning model. It's set to 28.
+* `kModelDim`: Dimension of the model's internal representation. It's set to 3072.
+* `kFFHiddenDim`: Dimension of the feedforward and recurrent layers' hidden representations. It's set to 16 * 3072 / 2.
 
 **ConfigGemma2B**:
 
-* `seq_len`: Stores the length of the sequence to be processed. It's also set to 7168.
-* `vocab_size`: Size of the vocabulary, which is 256128.
-* `n_layers`: Number of layers in the deep learning model. It's set to 18.
-* `dim_model`: Dimension of the model's internal representation. It's set to 2048.
-* `dim_ffw_hidden`: Dimension of the feedforward and recurrent layers' hidden representations. It's set to 16 * 2048 / 2.
+* `kSeqLen`: Stores the length of the sequence to be processed. It's also set to 7168.
+* `kVocabSize`: Size of the vocabulary, which is 256128.
+* `kLayers`: Number of layers in the deep learning model. It's set to 18.
+* `kModelDim`: Dimension of the model's internal representation. It's set to 2048.
+* `kFFHiddenDim`: Dimension of the feedforward and recurrent layers' hidden representations. It's set to 16 * 2048 / 2.
 
 These structs are used to configure a deep learning model with specific parameters for either Gemma7B or Gemma2B architecture.
 ```

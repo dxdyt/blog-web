@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-02-24T12:17:08+08:00
+date: 2024-02-25T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705899334041-243c497f67ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705899334041-243c497f67ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -267,12 +267,12 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 | Recent Submits                                                                                                                                                                                             | Description                                                                                                                                                                                                                           |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [GitHub Finder](https://chat-preview.lobehub.com/market?agent=github-finder)<br/><sup>By **[nullmastermind](https://github.com/nullmastermind)** on **2024-02-25**</sup>                                   | Specializes in suggesting open source repositories on GitHub based on a custom formula.<br/>`coding` `open-source` `github` `algorithm` `sorting`                                                                                     |
+| [Naming Expert](https://chat-preview.lobehub.com/market?agent=variable-naming)<br/><sup>By **[zsio](https://github.com/zsio)** on **2024-02-24**</sup>                                                     | Specialized in generating variable names and function names<br/>`programming` `variable-naming` `function-naming`                                                                                                                     |
 | [LobeChat Technical Documentation Expert](https://chat-preview.lobehub.com/market?agent=lobe-chat-developer-document-writer)<br/><sup>By **[arvinxx](https://github.com/arvinxx)** on **2024-02-22**</sup> | LobeChat is an AI conversation application built with the Next.js framework. I will help you write the development documentation for LobeChat.<br/>`development-documentation` `technical-introduction` `next-js` `react` `lobe-chat` |
-| [Facebook Advertising Writing Expert](https://chat-preview.lobehub.com/market?agent=facebook-advertising-writing-expert)<br/><sup>By **[pllz7](https://github.com/pllz7)** on **2024-02-19**</sup>         | Specializing in creating attention-grabbing headlines, compelling primary texts, and effective ad copy<br/>`facebook` `advertising` `writing` `expert` `ecommerce`                                                                    |
-| [Jira Story Facilitator](https://chat-preview.lobehub.com/market?agent=jira-product-manager)<br/><sup>By **[emad-pg](https://github.com/emad-pg)** on **2024-02-19**</sup>                                 | Specialized in transforming feature ideas into comprehensive Jira stories<br/>`technical-product-management` `story-creation` `jira`                                                                                                  |
-| [ThinkTank360](https://chat-preview.lobehub.com/market?agent=think-tank-business-strategy)<br/><sup>By **[mikelix](https://github.com/mikelix)** on **2024-02-19**</sup>                                   | Skilled consultant channeling wisdom of Steve Jobs, Elon Musk, MA Yun, Plato, and Ray Dalio for decision reviews, judgements, and advice.<br/>`innovation` `wisdom` `think-tank` `business-strategy`                                  |
+| [Your daily AI companion.](https://chat-preview.lobehub.com/market?agent=causal)<br/><sup>By **[richards199999](https://github.com/richards199999)** on **2024-02-21**</sup>                               | I have been a good Bing. 😊<br/>`bing` `conversation` `creative`                                                                                                                                                                      |
 
-> 📊 Total agents: [<kbd>**181**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**184**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

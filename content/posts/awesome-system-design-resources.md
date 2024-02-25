@@ -1,21 +1,21 @@
 ---
 title: awesome-system-design-resources
-date: 2023-12-31T12:16:53+08:00
+date: 2024-02-25T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702911088572-38871abff63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702911088572-38871abff63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)
 
 # Awesome System Design Resources
-This repository contains System Design resources which are useful to learn concepts and prepare for interviews.
+This repository contains resources to learn System Design concepts and prepare for interviews all using free resources.
 
 ## System Design Fundamentals
 
+- [Horizontal vs Vertical Scaling](https://www.spiceworks.com/tech/cloud/articles/horizontal-vs-vertical-cloud-scaling/)
 - [Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 - [Caching](https://medium.com/must-know-computer-science/system-design-caching-acbd1b02ca01)
-- [Caching Patterns](https://newsletter.systemdesign.one/p/caching-patterns)
 - [Distributed Caching](https://redis.com/glossary/distributed-caching/)
 - [Latency vs Throughput](https://aws.amazon.com/compare/the-difference-between-throughput-and-latency/)
 - [CAP Theorem](https://www.bmc.com/blogs/cap-theorem/)
@@ -27,8 +27,10 @@ This repository contains System Design resources which are useful to learn conce
 - [Rate Limiting](https://www.imperva.com/learn/application-security/rate-limiting/)
 - [Microservices Architecture](https://medium.com/hashmapinc/the-what-why-and-how-of-a-microservices-architecture-4179579423a9)
 - [Microservices Guidelines](https://newsletter.systemdesign.one/p/netflix-microservices)
+- [API Design](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f)
 - [Strong vs Eventual Consistency](https://hackernoon.com/eventual-vs-strong-consistency-in-distributed-databases-282fdad37cf7)
 - [Consistency Patterns](https://systemdesign.one/consistency-patterns/)
+- [Synchronous vs. asynchronous communications](https://www.techtarget.com/searchapparchitecture/tip/Synchronous-vs-asynchronous-communication-The-differences)
 - [REST vs RPC](https://aws.amazon.com/compare/the-difference-between-rpc-and-rest/)
 - [Batch Processing vs Stream Processing](https://atlan.com/batch-processing-vs-stream-processing/)
 - [HeartBeat](https://martinfowler.com/articles/patterns-of-distributed-systems/heartbeat.html)
@@ -48,10 +50,14 @@ This repository contains System Design resources which are useful to learn conce
 - [Consensus Algorithms](https://medium.com/@sourabhatta1819/consensus-in-distributed-system-ac79f8ba2b8c)
 - [Gossip Protocol](http://highscalability.com/blog/2023/7/16/gossip-protocol-explained.html)
 - [API Gateway](https://www.nginx.com/learn/api-gateway/)
+- [Serverless Architecture](https://www.datadoghq.com/knowledge-center/serverless-architecture/)
+- [Service Discovery](https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/)
+- [Disaster Recovery](https://cloud.google.com/learn/what-is-disaster-recovery)
 - [Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
 - [Distributed Tracing](https://www.dynatrace.com/news/blog/what-is-distributed-tracing/)
 - [Checksum](https://www.lifewire.com/what-does-checksum-mean-2625825)
 
+### [System Design Interview Template](interview-template.md)
 
 ## System Design Interview Problems
 ### Easy
@@ -90,6 +96,7 @@ This repository contains System Design resources which are useful to learn conce
 - [Design an Analytics Platform (Metrics & Logging)](https://www.youtube.com/watch?v=kIcq1_pBQSY)
 - [Design Notification Service](https://www.youtube.com/watch?v=CUwt9_l0DOg)
 - [Design Payment System](https://www.youtube.com/watch?v=olfaBgJrUBI)
+- [Design a Digital Wallet](https://www.youtube.com/watch?v=MCKdixWBnco)
 ### Hard
 - [Design Slack](https://systemdesign.one/slack-architecture/)
 - [Design Live Comments](https://systemdesign.one/live-comment-system-design/)
@@ -109,8 +116,20 @@ This repository contains System Design resources which are useful to learn conce
 
 ## Must-Read Engineering Articles
 - [How Discord stores trillions of messages](https://discord.com/blog/how-discord-stores-trillions-of-messages)
-- [Building In-Video Search](https://netflixtechblog.com/building-in-video-search-936766f0017c)
+- [Building In-Video Search at Netflix](https://netflixtechblog.com/building-in-video-search-936766f0017c)
 - [How Canva scaled Media uploads from Zero to 50 Million per Day](https://www.canva.dev/blog/engineering/from-zero-to-50-million-uploads-per-day-scaling-media-at-canva/)
 - [How Airbnb avoids double payments in a Distributed Payments System](https://medium.com/airbnb-engineering/avoiding-double-payments-in-a-distributed-payments-system-2981f6b070bb)
 - [Stripe’s payments APIs - The first 10 years](https://stripe.com/blog/payment-api-design)
 - [Real time messaging at Slack](https://slack.engineering/real-time-messaging/)
+
+## Books
+- [Designing Data-Intensive Applications](https://www.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable/dp/B08VL1BLHB/)
+- [System Design Interview – An insider's guide](https://www.amazon.com/System-Design-Interview-insiders-Second/dp/B08CMF2CQF/)
+
+## YouTube Channels
+- [Tech Dummies Narendra L](https://www.youtube.com/@TechDummiesNarendraL)
+- [Gaurav Sen](https://www.youtube.com/@gkcs)
+- [codeKarle](https://www.youtube.com/@codeKarle)
+- [ByteByteGo](https://www.youtube.com/@ByteByteGo)
+- [System Design Interview](https://www.youtube.com/@SystemDesignInterview)
+- [Success in Tech](https://www.youtube.com/@SuccessinTech/videos)

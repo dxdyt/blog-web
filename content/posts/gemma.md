@@ -1,9 +1,9 @@
 ---
 title: gemma
-date: 2024-02-24T12:16:53+08:00
+date: 2024-02-25T12:16:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703028410154-b96ff1ee4db2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703028410154-b96ff1ee4db2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706859872183-a500efab7ef7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706859872183-a500efab7ef7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [google-deepmind/gemma](https://github.com/google-deepmind/gemma)

@@ -1,9 +1,9 @@
 ---
 title: Noi
-date: 2024-02-24T12:18:10+08:00
+date: 2024-02-25T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706459418464-b38b4d3270f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706459418464-b38b4d3270f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708531254027-af44084bc76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708531254027-af44084bc76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [lencx/Noi](https://github.com/lencx/Noi)
@@ -41,8 +41,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1706459418464-b38b4d3270
 
 |Preview|Preview|
 |---|---|
-|![theme-dark](./website/static/readme/noi-theme-dark.png)|![noi-settings](./website/static/readme/noi-settings.png)|
-|![settings-prompts](./website/static/readme/noi-prompt.png)|![batch-ask](./website/static/readme/noi-prompt-use.png)|
+|![theme-dark](./website/static/readme/noi-theme-dark.jpg)|![noi-settings](./website/static/readme/noi-settings.jpg)|
+|![settings-prompts](./website/static/readme/noi-prompt.jpg)|![batch-ask](./website/static/readme/noi-prompt-use.jpg)|
 
 ---
 
@@ -58,7 +58,7 @@ If you encounter the error message "Noi" is damaged and can't be opened. You sho
 xattr -cr /Applications/Noi.app
 ```
 
-![mac-install-error](./website/static/readme/mac-install-error.png)
+![mac-install-error](./website/static/readme/mac-install-error.jpg)
 
 ## TODO
 

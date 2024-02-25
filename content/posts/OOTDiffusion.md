@@ -1,9 +1,9 @@
 ---
 title: OOTDiffusion
-date: 2024-02-24T12:16:12+08:00
+date: 2024-02-25T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706460257771-b1c110b09b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706460257771-b1c110b09b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708531254027-af44084bc76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708531254027-af44084bc76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
 ---
 
 # [levihsu/OOTDiffusion](https://github.com/levihsu/OOTDiffusion)
