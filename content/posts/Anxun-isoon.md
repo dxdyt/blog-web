@@ -1,9 +1,9 @@
 ---
 title: Anxun-isoon
-date: 2024-02-24T12:17:15+08:00
+date: 2024-02-26T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703028410154-b96ff1ee4db2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703028410154-b96ff1ee4db2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706384749415-d2c65054a9a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706384749415-d2c65054a9a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [soufianetahiri/Anxun-isoon](https://github.com/soufianetahiri/Anxun-isoon)

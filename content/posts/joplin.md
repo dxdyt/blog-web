@@ -1,9 +1,9 @@
 ---
 title: joplin
-date: 2023-07-09T12:19:13+08:00
+date: 2024-02-26T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688115689832-c071620c05f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688115689832-c071620c05f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODg4NzYxODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706887577952-2c3237ba079e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706887577952-2c3237ba079e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [laurent22/joplin](https://github.com/laurent22/joplin)

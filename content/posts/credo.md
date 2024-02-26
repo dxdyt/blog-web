@@ -1,9 +1,9 @@
 ---
 title: credo
-date: 2024-02-25T12:18:33+08:00
+date: 2024-02-26T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706515558066-59425588daec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706515558066-59425588daec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705798543468-5b951da25e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705798543468-5b951da25e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [zksync/credo](https://github.com/zksync/credo)

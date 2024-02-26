@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2024-01-11T12:17:26+08:00
+date: 2024-02-26T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700348306153-9a82f7574d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700348306153-9a82f7574d1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705798543468-5b951da25e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705798543468-5b951da25e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -95,7 +95,7 @@ After you have Python and (optionally) PostgreSQL installed, follow these steps:
    - LLM Provider (OpenAI/Azure/Openrouter)
    - Your API key
    - database settings: SQLite/PostgreSQL (to change from SQLite to PostgreSQL, just set `DATABASE_TYPE=postgres`)
-   - optionally set IGNORE_FOLDERS for the folders which shouldn't be tracked by GPT Pilot in workspace, useful to ignore folders created by compilers (i.e. `IGNORE_FOLDERS=folder1,folder2,folder3`)
+   - optionally set IGNORE_PATHS for the folders which shouldn't be tracked by GPT Pilot in workspace, useful to ignore folders created by compilers (i.e. `IGNORE_PATHS=folder1,folder2,folder3`)
 9. `python db_init.py` (initialize the database)
 10. `python main.py` (start GPT Pilot)
 
@@ -156,24 +156,6 @@ If not specified `email` will be parsed from `~/.gitconfig` if the file exists.
 See also [What's the purpose of arguments.password / User.password?](https://github.com/Pythagora-io/gpt-pilot/discussions/55)
 
 
-## `advanced`
-The Architect, by default, favors certain technologies, including:
-
-- Node.JS
-- MongoDB
-- PeeWee ORM
-- Jest & PyUnit
-- Bootstrap
-- Vanilla JavaScript
-- Socket.io
-
-If you have your own preferences, you can have a deeper conversation with the Architect.
-
-```bash
-python main.py advanced=True
-```
-
-
 ## `step`
 Continue working on an existing app from a specific **`step`** (eg: `user_tasks`)
 ```bash
@@ -216,9 +198,25 @@ python main.py theme=dark
 
 
 # 🔎 Examples
+### Backend system for billing, admin, and user management
+- 💬 [Full initial prompt + additional features prompts](https://github.com/Pythagora-io/credit-based-backend-gpt-pilot-example/tree/main/prompts)
+- ▶️ [Video overview of app features](https://youtu.be/-OB6BJKADEo)
+- 💻️ [GitHub repo](https://github.com/Pythagora-io/credit-based-backend-gpt-pilot-example)
+- 📊 Stats:
+  - **3185** lines of code
+  - **104** files
+  - **~3** days of work
 
-Here are a couple of example apps GPT Pilot created by itself:
+### SQLite db analytics app
+- 💬 [All prompts used (initial and for additional features)](https://github.com/Pythagora-io/gpt-pilot-sqlite-analysis-tool/tree/main/prompts)
+- ▶️ [Video overview of app features](https://youtu.be/7t-Q2e7QsbE)
+- 💻️ [GitHub repo](https://github.com/Pythagora-io/gpt-pilot-sqlite-analysis-tool)
+- 📊 Stats:
+  - **730** lines of code
+  - **9** files
+  - **6** hours of work
 
+## Simple Examples
 ### 📱 Real-time chat app
 - 💬 Prompt: `A simple chat app with real-time communication`
 - ▶️ [Video of the app creation process](https://youtu.be/bUj9DbMRYhA)

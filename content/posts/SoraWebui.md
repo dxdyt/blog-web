@@ -1,9 +1,9 @@
 ---
 title: SoraWebui
-date: 2024-02-25T12:16:29+08:00
+date: 2024-02-26T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706887577952-2c3237ba079e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706887577952-2c3237ba079e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [SoraWebui/SoraWebui](https://github.com/SoraWebui/SoraWebui)

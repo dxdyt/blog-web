@@ -1,15 +1,20 @@
 ---
 title: awesome-system-design-resources
-date: 2024-02-25T12:18:19+08:00
+date: 2024-02-26T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706384749415-d2c65054a9a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706384749415-d2c65054a9a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)
 
-# Awesome System Design Resources
-This repository contains resources to learn System Design concepts and prepare for interviews all using free resources.
+<p align="center">
+  <img src="diagrams/system-design-github-logo.png" width="350" height="200">
+</p>
+<p align="center">
+  <a href="https://www.linkedin.com/in/ashishps1/">LinkedIn</a> | <a href="https://www.youtube.com/@ashishps_1/videos">YouTube</a> | <a href="https://twitter.com/ashishps_1">X</a> | <a href="https://newsletter.ashishps.com/">Newsletter</a>
+</p>
+This repository contains resources to learn System Design concepts and prepare for interviews using free resources.
 
 ## System Design Fundamentals
 
@@ -58,6 +63,8 @@ This repository contains resources to learn System Design concepts and prepare f
 - [Checksum](https://www.lifewire.com/what-does-checksum-mean-2625825)
 
 ### [System Design Interview Template](interview-template.md)
+<img src="diagrams/interview-template.png" width="400" height="250">
+
 
 ## System Design Interview Problems
 ### Easy

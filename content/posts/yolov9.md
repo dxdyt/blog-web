@@ -1,9 +1,9 @@
 ---
 title: yolov9
-date: 2024-02-25T12:15:23+08:00
+date: 2024-02-26T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707058666063-f15349d30363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707058666063-f15349d30363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706638327120-70aec615cae2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706638327120-70aec615cae2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9)

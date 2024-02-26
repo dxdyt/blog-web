@@ -1,9 +1,9 @@
 ---
 title: generative-models
-date: 2023-11-28T12:17:57+08:00
+date: 2024-02-26T12:16:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700485824824-8312219d1152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700485824824-8312219d1152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708422413256-863fbbc89d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708422413256-863fbbc89d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
 ---
 
 # [Stability-AI/generative-models](https://github.com/Stability-AI/generative-models)
@@ -13,15 +13,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1700485824824-8312219d11
 ![sample1](assets/000.jpg)
 
 ## News
+**November 30, 2023**
+- Following the launch of SDXL-Turbo, we are releasing [SD-Turbo](https://huggingface.co/stabilityai/sd-turbo).
+
+**November 28, 2023**
+- We are releasing SDXL-Turbo, a lightning fast text-to image model.
+  Alongside the model, we release a [technical report](https://stability.ai/research/adversarial-diffusion-distillation)
+    - Usage:
+        - Follow the installation instructions or update the existing environment with `pip install streamlit-keyup`.
+        - Download the [weights](https://huggingface.co/stabilityai/sdxl-turbo) and place them in the `checkpoints/` directory.
+        - Run `streamlit run scripts/demo/turbo.py`.
+
+  ![tile](assets/turbo_tile.png)
+
 
 **November 21, 2023**
-
 - We are releasing Stable Video Diffusion, an image-to-video model, for research purposes:
     - [SVD](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid): This model was trained to generate 14
-      frames at resolution 576x1024 given a context frame of the same size. 
+      frames at resolution 576x1024 given a context frame of the same size.
       We use the standard image encoder from SD 2.1, but replace the decoder with a temporally-aware `deflickering decoder`.
     - [SVD-XT](https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt): Same architecture as `SVD` but finetuned
       for 25 frame generation.
+    - You can run the community-build gradio demo locally by running `python -m scripts.demo.gradio_app`.  
     - We provide a streamlit demo `scripts/demo/video_sampling.py` and a standalone python script `scripts/sampling/simple_video_sample.py` for inference of both models.
     - Alongside the model, we release a [technical report](https://stability.ai/research/stable-video-diffusion-scaling-latent-video-diffusion-models-to-large-datasets).
 
@@ -95,7 +108,7 @@ now `DiffusionEngine`) has been cleaned up:
 #### 1. Clone the repo
 
 ```shell
-git clone git@github.com:Stability-AI/generative-models.git
+git clone https://github.com/Stability-AI/generative-models.git
 cd generative-models
 ```
 
