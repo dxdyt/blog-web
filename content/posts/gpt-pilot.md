@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2024-02-26T12:18:06+08:00
+date: 2024-02-27T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705798543468-5b951da25e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705798543468-5b951da25e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708623460319-3f1d8865778a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708623460319-3f1d8865778a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -19,7 +19,7 @@ You specify what kind of app you want to build. Then, GPT Pilot asks clarifying 
 
 <a href="vscode:extension/PythagoraTechnologies.gpt-pilot-vs-code" target="_blank"><img src="https://github.com/Pythagora-io/gpt-pilot/assets/10895136/5792143e-77c7-47dd-ad96-6902be1501cd" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 185px; height: 55px;" width="185" height="55"/></a>
 
-GPT Pilot is the core technology for the [VS Code extension](https://marketplace.visualstudio.com/items?itemName=PythagoraTechnologies.gpt-pilot-vs-code) that aims to provide **the first real AI developer companion**. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
+GPT Pilot is the core technology for the [VS Code extension](https://bit.ly/3IeZxp6) that aims to provide **the first real AI developer companion**. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
 
 ---
 
@@ -79,7 +79,7 @@ https://github.com/Pythagora-io/gpt-pilot/assets/10895136/0495631b-511e-451b-93d
 
 
 # 🚦How to start using gpt-pilot?
-👉 If you are using VS Code as your IDE, the easiest way to start is by downloading [GPT Pilot VS Code extension](https://marketplace.visualstudio.com/items?itemName=PythagoraTechnologies.gpt-pilot-vs-code). 👈
+👉 If you are using VS Code as your IDE, the easiest way to start is by downloading [GPT Pilot VS Code extension](https://bit.ly/3IeZxp6). 👈
 
 Otherwise, you can use the CLI tool.
 

@@ -1,9 +1,9 @@
 ---
 title: WARP-Clash-API
-date: 2024-02-26T12:15:53+08:00
+date: 2024-02-27T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708457753320-02e52a276a80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708457753320-02e52a276a80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707432777342-3cf708f95065?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707432777342-3cf708f95065?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API)
@@ -88,18 +88,19 @@ python3 app.py optimize
 
 以下是可用的环境变量：
 
-| 变量名                 | 默认值                               | 说明                                                                                                         |
-|---------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------|
-| DELAY_THRESHOLD     | `500`                             | 延迟阈值，超过该阈值的`IP`将被剔除                                                                                        |
-| DO_GET_WARP_DATA    | `True`                            | 是否刷取`WARP+`流量，若不需要刷取流量，则设置为`False`即可                                                                       |
-| LOSS_THRESHOLD      | `10`                              | 丢包率阈值，超过该阈值的`IP`将被剔除                                                                                       |
-| PROXY_POOL_URL      | `https://getproxy.bzpl.tech/get/` | IP代理池地址，用于刷取`WARP+`流量，您可以自行搭建，参照[proxy_pool](https://github.com/jhao104/proxy_pool)                        |
-| PUBLIC_URL          | `无`                               | 部署在公网上时，填写公网`IP`或域名，用于生成订阅链接，比如 `https://subs.zeabur.app`                                                  |
-| RANDOM_COUNT        | `10`                              | 每次更新订阅随机节点的数量                                                                                              |
-| REOPTIMIZE_INTERVAL | `-1`                              | 重新选优的时间间隔，单位为秒，若小于等于0，则不会重新选优，否则每隔该时间间隔会重新选优一次，不建议间隔设置过短。                                                  |                     
-| REQUEST_RATE_LIMIT  | `0`                               | 限制X秒一次请求，该功能不太稳定，建议不要开启                                                                                    |
-| SECRET_KEY          | `无`                               | 用于保护订阅链接，若不配置，则不需要输入`SECRET_KEY`即可获取订阅链接                                                                   |
-| SHARE_SUBSCRIPTION  | `False`                           | 若您的站点想要向社区分享订阅，但不想让自己的账户信息被公开或修改，可以设置为`True`，此时，访问订阅链接时，不需要输入`SECRET_KEY`即可获取，而对于其他的操作，仍然需要输入`SECRET_KEY`。 |
+| 变量名                    | 默认值                               | 说明                                                                                                         |
+|------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------|
+| DELAY_THRESHOLD        | `500`                             | 延迟阈值，超过该阈值的`IP`将被剔除                                                                                        |
+| DO_GET_WARP_DATA       | `True`                            | 是否刷取`WARP+`流量，若不需要刷取流量，则设置为`False`即可                                                                       |
+| GET_WARP_DATA_INTERVAL | `18`                              | 刷取`WARP+`流量的时间间隔，单位为秒，每隔该时间间隔会刷取一次`WARP+`流量，不建议间隔设置过短。                                                     |
+| LOSS_THRESHOLD         | `10`                              | 丢包率阈值，超过该阈值的`IP`将被剔除                                                                                       |
+| PROXY_POOL_URL         | `https://getproxy.bzpl.tech/get/` | IP代理池地址，用于刷取`WARP+`流量，您可以自行搭建，参照[proxy_pool](https://github.com/jhao104/proxy_pool)                        |
+| PUBLIC_URL             | `无`                               | 部署在公网上时，填写公网`IP`或域名，用于生成订阅链接，比如 `https://subs.zeabur.app`                                                  |
+| RANDOM_COUNT           | `10`                              | 每次更新订阅随机节点的数量                                                                                              |
+| REOPTIMIZE_INTERVAL    | `-1`                              | 重新选优的时间间隔，单位为秒，若小于等于0，则不会重新选优，否则每隔该时间间隔会重新选优一次，不建议间隔设置过短。                                                  |                     
+| REQUEST_RATE_LIMIT     | `0`                               | 限制X秒一次请求，该功能不太稳定，建议不要开启                                                                                    |
+| SECRET_KEY             | `无`                               | 用于保护订阅链接，若不配置，则不需要输入`SECRET_KEY`即可获取订阅链接                                                                   |
+| SHARE_SUBSCRIPTION     | `False`                           | 若您的站点想要向社区分享订阅，但不想让自己的账户信息被公开或修改，可以设置为`True`，此时，访问订阅链接时，不需要输入`SECRET_KEY`即可获取，而对于其他的操作，仍然需要输入`SECRET_KEY`。 |
 
 ## 🧰 进阶操作
 

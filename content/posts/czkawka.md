@@ -1,9 +1,9 @@
 ---
 title: czkawka
-date: 2024-02-25T12:17:55+08:00
+date: 2024-02-27T12:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706859450156-0214dca4260d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706859450156-0214dca4260d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [qarmin/czkawka](https://github.com/qarmin/czkawka)

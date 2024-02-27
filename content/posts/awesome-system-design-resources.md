@@ -1,9 +1,9 @@
 ---
 title: awesome-system-design-resources
-date: 2024-02-26T12:17:27+08:00
+date: 2024-02-27T12:17:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706384749415-d2c65054a9a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706384749415-d2c65054a9a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707432777342-3cf708f95065?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707432777342-3cf708f95065?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)

@@ -1,9 +1,9 @@
 ---
 title: I-S00N
-date: 2024-02-25T12:15:32+08:00
+date: 2024-02-27T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707432777342-3cf708f95065?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707432777342-3cf708f95065?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [mttaggart/I-S00N](https://github.com/mttaggart/I-S00N)

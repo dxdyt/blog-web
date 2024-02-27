@@ -1,9 +1,9 @@
 ---
 title: highway
-date: 2024-02-26T12:17:41+08:00
+date: 2024-02-27T12:18:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708422413256-863fbbc89d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708422413256-863fbbc89d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707779706350-0fdac3993592?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707779706350-0fdac3993592?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [google/highway](https://github.com/google/highway)

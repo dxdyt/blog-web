@@ -1,9 +1,9 @@
 ---
 title: PyRIT
-date: 2024-02-26T12:16:46+08:00
+date: 2024-02-27T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706638327120-70aec615cae2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706638327120-70aec615cae2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708623460319-3f1d8865778a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708623460319-3f1d8865778a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [Azure/PyRIT](https://github.com/Azure/PyRIT)

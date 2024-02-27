@@ -1,9 +1,9 @@
 ---
 title: mamba
-date: 2024-01-28T12:15:47+08:00
+date: 2024-02-27T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705899844877-81bb0a0665c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705899844877-81bb0a0665c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706346796362-5874ce24ae9b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706346796362-5874ce24ae9b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
 ---
 
 # [state-spaces/mamba](https://github.com/state-spaces/mamba)
@@ -23,7 +23,7 @@ with an efficient hardware-aware design and implementation in the spirit of [Fla
 
 ## Installation
 
-- `pip install causal-conv1d>=1.1.0`: an efficient implementation of a simple causal Conv1d layer used inside the Mamba block.
+- `pip install causal-conv1d>=1.1.0,<1.2.0`: an efficient implementation of a simple causal Conv1d layer used inside the Mamba block.
 - `pip install mamba-ssm`: the core Mamba package.
 
 It can also be built from source with `pip install .` from this repository.
@@ -148,6 +148,7 @@ To test generation latency (e.g. batch size = 1) with different sampling strateg
 ```
 python benchmarks/benchmark_generation_mamba_simple.py --model-name "state-spaces/mamba-2.8b" --prompt "My cat wrote all this CUDA code for a new language model and" --topp 0.9 --temperature 0.7 --repetition-penalty 1.2
 python benchmarks/benchmark_generation_mamba_simple.py --model-name "EleutherAI/pythia-2.8b" --prompt "My cat wrote all this CUDA code for a new language model and" --topp 0.9 --temperature 0.7 --repetition-penalty 1.2
+python benchmarks/benchmark_generation_mamba_simple.py --model-name "state-spaces/mamba-2.8b" --prompt "My cat wrote all this CUDA code for a new language model and" --minp 0.05 --topk 0 --temperature 0.7 --repetition-penalty 1.2
 ```
 
 To test generation throughput with random prompts (e.g. large batch size):
