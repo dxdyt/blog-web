@@ -1,9 +1,9 @@
 ---
 title: components
-date: 2023-10-28T12:16:50+08:00
+date: 2024-02-28T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698207855716-545d43cc0bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698207855716-545d43cc0bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
 ---
 
 # [angular/components](https://github.com/angular/components)
@@ -41,7 +41,8 @@ Material.
 
 If you'd like to contribute, please follow our [contributing guidelines][contributing]. Please see
 our [`help wanted`][help-wanted] label for a list of issues with good opportunities for
-contribution.
+contribution. You can also use the [`good first issue`][good-first-issue] label to find issues 
+if you are just starting to contribute to the project.
 
 ## What we're working on now (Q2 2023):
 * Investigating and fixing reported regressions for the new components launched in v15
@@ -91,3 +92,4 @@ We aim for great user experience with the following screen readers:
 [getting-started]: https://material.angular.io/guide/getting-started
 [contributing]: https://github.com/angular/components/blob/main/CONTRIBUTING.md
 [help-wanted]: https://github.com/angular/components/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
+[good-first-issue]: https://github.com/angular/components/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+label%3A%22good+first+issue%22

@@ -1,9 +1,9 @@
 ---
 title: gemma.cpp
-date: 2024-02-27T12:16:24+08:00
+date: 2024-02-28T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706460546168-34705dde5d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706460546168-34705dde5d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
 ---
 
 # [google/gemma.cpp](https://github.com/google/gemma.cpp)
@@ -124,8 +124,12 @@ convenient directory location (e.g. the `build/` directory in this repo).
 
 The build system uses [CMake](https://cmake.org/). To build the gemma inference
 runtime, create a build directory and generate the build files using `cmake`
-from the top-level project directory. For the 8-bit switched floating point
-weights (sfp), run cmake with no options:
+from the top-level project directory. Note if you previous ran `cmake` and are
+re-running with a different setting, be sure to clean out the `build/` directory
+with `rm -rf build/*` (warning this will delete any other files in the `build/` 
+directory.
+
+For the 8-bit switched floating point weights (sfp), run cmake with no options:
 
 #### Unix-like Platforms
 ```sh

@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2023-11-03T12:16:22+08:00
+date: 2024-02-28T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc7345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg5ODQ5MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706591789943-e32e814413ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706591789943-e32e814413ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -25,11 +25,203 @@ featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc73
 |--------|--------|--------|
 | :clock8: | :white_check_mark: | :x: |
 
-### 社区投票
-<a href="https://creatorsdaily.com/c2102b74-878e-4a2b-9c86-caf7bdf14cb9?utm_source=vote" target="_blank"><img src="https://creatorsdaily.com/api/c2102b74-878e-4a2b-9c86-caf7bdf14cb9/vote.svg?theme=light" /></a>
-
 ## 3. 项目列表
 （名字按时间排序，最新添加的在最上面）
+
+### 2024年2月28号添加
+#### 潮汐表表(青岛) - [博客](http://blog.75271.com)
+* :white_check_mark: [潮汐表表](http://images.75271.com/wp-content/uploads/2024/01/2024012208223581.jpg)：看潮汐,查天气就在潮汐表表,出行必备小程序 - [更多介绍](https://blog.75271.com/55685.html)
+
+#### flyun(北京) - [Github](https://github.com/flyun)
+* :white_check_mark: [ChatAir](https://github.com/flyun/chatAir)：OpenAI 和 Gemini 的原生 Android 客户端（开源）
+
+#### Jebberwocky - [Github](https://github.com/jebberwocky)
+* :white_check_mark: [我不会说出去](http://chat.colbt.cc/)：匿名心理咨询/宣泄（和 AI 对话）
+
+### 2024年2月26号添加
+#### 诸葛子房
+* :white_check_mark: [AI好物](https://www.ai-code.online/)：好物推荐网站，当你有需求又不知道买什么的时候，可以根据输入内容给你推荐商品 - [更多介绍](https://www.ai-code.online/story)
+
+### 2024年2月25号添加
+#### 刚师傅(长沙) - [Github](https://github.com/margox)
+* :white_check_mark: [简约简历](https://jianli.online)：在线简历创建工具（简约风格），支持在线预览、评论和生成高清PDF
+* :white_check_mark: [RepicApp](https://repic.cc)：图片压缩工具，支持多种格式的图片，支持压缩前后细节对比
+
+### 2024年2月23号添加
+#### Tans(佛山)
+* :white_check_mark: [Photo Mint](https://github.com/tans/photo-mint.git)：图片批量压缩工具 (基于 Tauri, 开源)
+
+### 2024年2月21号添加
+#### 王君敕(南京) - [Github](https://github.com/stardust), [博客](https://wangxuan.me)
+* :white_check_mark: [拼拼古诗](https://wangxuan.me/chinese_poem/)：古诗拼图小游戏，涵盖唐诗三百首和小学初中高中教科书中的古诗 - [更多介绍](https://mp.weixin.qq.com/s/G5Swlt7hH_3tWZDZ1ffgqw)
+
+### 2024年2月18号添加
+#### ThinkStu(北京) - [Github](https://github.com/Bistutu)
+* :white_check_mark: [流畅阅读-浏览器翻译插件](https://github.com/Bistutu/FluentRead)：一款拥有人工智能翻译引擎的浏览器插件，支持 OpenAI、Gemini、通义千问、文心一言、智谱清言等模型，可以为网站提供更加友好的翻译，让所有人都能拥有母语般的阅读体验。
+
+### 2024年1月31号添加
+#### Xiao Hanyu - [Github](https://github.com/xiaohanyu), [Twitter](https://twitter.com/xiaohanyu1988)
+* :white_check_mark: [PPResume](https://ppresume.com?utm_source=chinese-independent-developer)：基于 LaTeX 的简历制作 web app，提供极高质量的简历排版和 PDF 输出
+
+### 2024年1月30号添加
+#### windowye(北京) - [Github](https://github.com/windowye)
+* :white_check_mark: [CoSS](https://w-coss.space)：聚合主流文件存储服务和文件操作服务
+
+### 2024年1月25号添加
+#### FreeMind-LJ - [Github](https://github.com/FreeMind-LJ)
+* :white_check_mark: [FreeMind](https://freemind.fit)：以大自然的声音为灵感，轻松创建专注或放松的音乐氛围。无需账户，无需麻烦——只有纯粹的宁静。无论是在繁忙的办公室，还是在家中的安静角落，FreeMind 将简约与宁静相结合，为您提供一个没有干扰的空间
+
+
+### 2024年1月22号添加
+#### Lykin(广州) - [Github](https://github.com/tiny-craft/tiny-rdm)
+* :white_check_mark: [Tiny RDM](https://redis.tinycraft.cc/zh/): 美观易用、极致轻量的 Redis 桌面客户端
+
+### 2024年1月20号添加
+#### Fun(广州) - [Github](https://github.com/17fun)
+* :white_check_mark: [17fei.fun](https://17fei.fun): 情侣互动小游戏集合
+
+### 2024年1月18号添加
+#### yesmore(成都) - [Github](https://github.com/yesmore)
+* :white_check_mark: [iconce](https://iconce.com)：在线 SVG 图标生成器
+
+#### ddd702(广州) - [Github](https://github.com/ddd702) ,[博客](https://qtcat.cn)
+* :white_check_mark: [DE好图壁纸](https://raw.githubusercontent.com/ddd702/learnfe/main/bovi8x8htx.png): 分享一些图片，壁纸的小程序
+
+### 2024年1月12号添加
+#### Leo(上海) - [Github](https://github.com/LHRUN/paint-board)
+* :white_check_mark: [Paint Board](https://songlh.top/paint-board/)：功能强大的创意画板，支持多端
+
+### 2024年1月12号添加
+#### 罗伊 - [Twitter](https://twitter.com/LuoSays)
+* :white_check_mark: [EarlyBird](https://earlybird.im)：快速搭建落地页验证产品 idea 的低代码建站工具
+* :white_check_mark: [Jing Bio](https://jingle.bio) - 轻松创建优雅的个人品牌页面
+* :white_check_mark: [HeyForm](https://heyform.net) - 对话式表单
+* :white_check_mark: [TinySnap](https://tinysnap.app) - 截图美化工具
+
+### 2024年1月9号添加
+#### lizhichao - [Github](https://github.com/lizhichao)
+* :white_check_mark: [在线甘特图工具](https://zz-plan.com): 可以在线使用, 也可以私有化部署 - [更多介绍](https://zz-plan.com/share/87f1340286f1343ba5)
+
+### 2024年1月5号添加
+#### peacefullmind - [Github](https://github.com/peacefullmind)
+* :white_check_mark: [易匹配](https://www.yipipei.com/): 面向"表哥表姐"的表格匹配工具, 只需要在网页上点点点, 就可以实现数据匹配, 还可以自定义阈值, 实现模糊匹配.
+
+### 2023年12月31号添加
+---
+#### MrXujiang(重庆) - [Github](https://github.com/MrXujiang)
+* :white_check_mark: [h5-dooring](https://github.com/MrXujiang/h5-Dooring): 开箱即用的零代码搭建平台, 致力于让页面制作更简单
+
+### 2023年12月29号添加
+---
+#### GenOuka(湖南) - [Github](https://github.com/GenOuka)
+* :white_check_mark: [Rare计划](https://rare.genouka.rr.nu/)：发布了一系列使智能手表更好用、更易用、更实用的程序。例如RareBox可以让手表用户在手表上更便捷地安装程序。适用于普通用户和开发者，主要面向普通用户。
+
+#### ThinkStu(上海) - [Github](https://github.com/Bistutu)
+* :white_check_mark: [流畅阅读](https://github.com/Bistutu/FluentRead)：浏览器油猴插件，基于上下文语境的人工智能翻译引擎，为部分网站提供精准翻译，让所有人都能够拥有基于母语般的阅读体验。
+
+
+### 2023年12月27号添加
+---
+#### jianchang512(青岛) - [Github](https://github.com/jianchang512)
+* :white_check_mark: [人声和背景音乐分离工具](https://github.com/jianchang512/vocal-separate)：极简的人声和背景音乐分离工具，本地化网页操作，无需连接外网，使用 2stems/4stems/5stems 模型。
+
+* :white_check_mark: [CV 声音克隆工具](https://github.com/jianchang512/clone-voice)：声音克隆工具，可使用任何人类音色，将一段文字合成为使用该音色说话的声音，或者将一个声音使用该音色转换为另一个声音。
+
+
+### 2023年12月19号添加
+---
+#### 风逝
+* :white_check_mark: [Tabs Fast Easy](https://chromewebstore.google.com/detail/tabs-fast-easy/falglioamaogaliloglbhkannkjlpjil)：改变你的 Tab 页浏览方式：简化 、分组、聚焦专注和分屏管理等体验 - [更多介绍](https://www.producthunt.com/posts/tabs-fast-easy-2)
+
+
+### 2023年12月18号添加
+---
+#### webjuzi(杭州) - [博客](https://www.inav.site)
+* :white_check_mark: [变量命名](https://www.inav.site/tools/#/p/var/var)：输入中文自动翻译为各种格式的变量名,可设置一种格式自动复制到剪切板
+
+#### mengxianliang(北京) - [主页](https://mengxianliang.com)
+* :white_check_mark: [一休](https://apps.apple.com/cn/app/%E4%B8%80%E4%BC%91-%E4%BC%91%E6%81%AF%E4%B8%80%E4%BC%9A%E5%84%BF/id6467176005)：macOS 休息提醒工具
+
+#### menglike - [Github](https://github.com/menglike)
+* :white_check_mark: [免费API共享平台](https://www.liangmlk.cn)：给广大开发者提供一个免费 API 共享平台,目前共计 400+ 个API接口，欢迎大家使用
+
+
+### 2023年12月14号添加
+---
+#### PengChen96 - [Github](https://github.com/PengChen96)
+* :white_check_mark: [ajax-tools](https://chromewebstore.google.com/detail/ajax-interceptor-tools/kphegobalneikdjnboeiheiklpbbhncm)：修改 Ajax 请求及响应的 Chrome 扩展插件
+
+
+### 2023年12月11号添加
+---
+#### FreeMind-LJ - [Github](https://github.com/FreeMind-LJ)
+* :white_check_mark: [什么值得看](https://smzdk.top)：简洁干净的高质量全球热点资讯网站
+
+#### heygsc - [Github](https://github.com/heygsc)
+* :white_check_mark: [数数游戏](https://count-puzzle.pages.dev/)：数数游戏，简洁但不简单，交互细节人性化 (PC) 
+
+
+### 2023年12月5号添加
+---
+#### gorpeln(北京) - [Github](https://github.com/gorpeln), [博客](https://gorpeln.top/)
+* :white_check_mark: [时光本](https://apps.apple.com/cn/app/%E6%97%B6%E5%85%89%E6%9C%AC-%E6%97%A5%E8%AE%B0%E6%9C%AC-%E7%AC%94%E8%AE%B0%E6%9C%AC-%E8%AE%B0%E4%BA%8B%E6%9C%AC-%E5%A4%87%E5%BF%98%E5%BD%95/id1495623965)：一款专注效率与安全的笔记工具
+
+### 2023年12月4号添加
+---
+#### j20cc(武汉) - [官网](https://j20.cc/)
+* :white_check_mark: [云剪切板](https://cv.j20.cc)：一个无依赖即用即走的剪切板，支持 web 与 curl
+* :white_check_mark: [Github 图床](https://pic.j20.cc)：把你的 Github 仓库变成免费图床
+
+#### CSBuyer(江西) - [官网](https://www.csbuyer.com)
+* :white_check_mark: [Steam 自动捡漏机器人](https://www.csbuyer.com)：一款在 Steam 市场自动购买低磨损、特殊模板 CSGO 饰品的工具 - [更多介绍](https://support.qq.com/product/611323/faqs-more/?id=147296)
+* :white_check_mark: [美国免税地址生成器](https://www.csbuyer.com/workbench/address)：自动生成美国免税地址，可用于填写 Steam 美区账号账单地址
+
+### 2023年12月1号添加
+---
+#### ThinkStu(上海) - [Github](https://github.com/Bistutu)
+* :white_check_mark: [音乐歌单迁移助手](https://music.unmeta.cn/)：迁移网易云/QQ音乐歌单到 Apple Music、Youtube Music、Spotify
+
+### 2023年11月17号添加
+---
+#### bimohxh(成都) - [Github](https://github.com/bimohxh)
+* :white_check_mark: [JSONT](https://www.jsont.run/)：简洁强大的 JSON 格式化工具 - [更多介绍](https://www.jsont.run/about)
+
+### 2023年11月14号添加
+---
+#### ysnows(北京) - [Github](https://github.com/ysnows), [Twitter](https://twitter.com/FrostyEveing)
+* :white_check_mark: [Enconvo](https://enconvo.com)：AI Launcher，Mac Copilot 客户端
+
+#### 简具科技(杭州) -  [官网](http://jianju.3ddysj.com)
+* :white_check_mark: [抖音高转化精准词获取工具](http://jianju.3ddysj.com/douyinxialachi.html)：一键自动挖掘抖音下拉热词,分析计算出综合得分高的抖音高转化精准免费流量词获取工具 - [更多介绍](https://ba0k26ibyp.feishu.cn/docx/AyaqdVqk8oKSk3x9dOxc99hHnCd)
+
+### 2023年11月13号添加
+---
+#### 控Kong(广州) - [小红书](https://www.xiaohongshu.com/user/profile/5b5c7e7e4eacab25f7faa410)
+* :white_check_mark: [AI食谱](https://user-images.githubusercontent.com/17782609/282380944-121b80d7-c981-4502-b91f-aa4de163fa13.jpg)：(微信小程序) 根据体重与万能减脂/增肌公式自动生成食谱，达到效果
+
+### 2023年11月5号添加
+---
+#### yvonuk - [推特](https://x.com/mcwangcn?s=21)
+* :white_check_mark: [StockAI.Trade](https://stockai.trade/)： AI 选股分析网站（基于 ChatGPT），完全免费，无需注册 - [更多介绍](https://xueqiu.com/2012445484/263058893)
+
+### 2023年11月4号添加
+---
+#### 林建彧 - [GitHub](https://github.com/CheneyLin)
+* :white_check_mark: [DevShots](https://devshots.gpwzw.com)：Online Developer Tool to Create Code Share Image - [更多介绍](https://github.com/70Apps/DevShots)
+
+#### VOME(澳大利亚)  
+* :white_check_mark: [VOME](https://apps.apple.com/au/app/vome/id6468956601)：一款极简的语音转文字 Memo 应用 - [更多介绍](https://iduo.ai)
+
+### 2023年11月3号添加
+---
+#### 硬地骇客(杭州) - [官网](https://hardhacker.com) 
+* :white_check_mark: [Podwise](https://podwise.xyz/)：专为播客听友设计的 AI 知识管理应用
+
+#### yesmore(成都) - [Github](https://github.com/yesmore)
+* :white_check_mark: [Inke笔记](https://inke.app)：一个集成 AI 写作/润色和多人协作的 Web 笔记本
+
+#### duyafeng
+* :white_check_mark: [Tabs Smart Grouping](https://chrome.google.com/webstore/detail/tabs-smart-grouping/ijljhpdhecidmiaimeaalnfgoogcmmme?hl=zh-CN&authuser=0)：(浏览器插件) 可以对浏览器已打开 Tab 进行自动分组
 
 ### 2023年11月2号添加
 ---
@@ -129,9 +321,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc73
 
 ### 2023年8月18号添加
 ---
-#### 极客学伟(北京) - [Github](https://github.com/qxuewei)
-*  :white_check_mark: [加一](https://apps.apple.com/cn/app/id1477743089)：习惯养成打卡，追踪生活小事，记录日常情绪，计数、统计
-*  :white_check_mark: [学伟扫描](https://apps.apple.com/cn/app/id1468603429)：OCR、识别图片文字、翻译、图片转PDF、打印、相册资料整理
+#### 极客学伟(北京) - [Github](https://github.com/qxuewei/), [博客](https://qiuxuewei.com/) ,[Twitter](https://twitter.com/qxuewei/)
+*  :white_check_mark: [Island Widgets - 灵动岛&锁屏小组件](https://apps.apple.com/cn/app/id6464542768)：灵动岛/锁屏小组件，下班倒计时、手机拿起次数、步数、心率、热搜、待办、天气、抢票倒计时等 (iOS)
+*  :white_check_mark: [加一 - 自律打卡](https://apps.apple.com/cn/app/id1477743089)：习惯养成打卡，追踪生活小事，记录日常情绪，计数、统计 (iOS)
+*  :white_check_mark: [学伟扫描 - OCR&PDF扫描打印](https://apps.apple.com/cn/app/id1468603429)：OCR、识别图片文字、翻译、图片转PDF、打印、相册资料整理 (iOS)
 
 ### 2023年8月17号添加
 ---
@@ -571,11 +764,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc73
 ### 2022年6月6号添加
 ---
 #### hzlzh自力（深圳） - [Github](https://github.com/hzlzh), [Twitter](https://twitter.com/hzlzh)
-* :white_check_mark: [MenubarX (macOS)](https://MenubarX.app)：一款强大的 Mac 菜单栏浏览器，把网页添加到菜单栏上，像原生 App 一样即开即用
 * :white_check_mark: [锁屏启动 (iOS)](https://LockLauncher.app)：丰富小组件、灵动岛网速/天气/步数等
+* :white_check_mark: [MenubarX (macOS)](https://MenubarX.app)：一款强大的 Mac 菜单栏浏览器，把网页添加到菜单栏上，像原生 App 一样即开即用
 * :white_check_mark: [ChatX (iOS/macOS)](https://6x.studio/chatx/)：一款强大的 ChatGPT 客户端
+* :white_check_mark: [DockX (macOS)](https://dockx.app/)：在程序坞显示任意状态，如：网速、CPU、时钟等
+* :white_check_mark: [桌面计算器 (iOS)](https://desktop-calculator.com/)：一款超强的桌面计算器，无需打开App，随时随地计算
 * :white_check_mark: [念念不忘 (iOS)](https://buwang.app/)：一款简单粗暴的 iOS 提醒小组件
-* :white_check_mark: [WordleX (微信小程序)](https://wordlex.app/)：一款 Wordle 游戏的练习工具
+* :white_check_mark: [WordleX (微信小程序)](https://6x.studio/wordlex/img/644eac00gy1gza0ma0rfkj20nw0nwgoc.jpg)：一款 Wordle 游戏的练习工具
 
 ### 2022年6月5号添加
 ---
@@ -884,8 +1079,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1696763617320-d53424bc73
 OldPanda [GitHub](https://github.com/OldPanda), [博客](https://old-panda.com/)
 * :x: [MPAA 电影分级插件](https://old-panda.com/projects/mpaa-rating-extension-project/)：在豆瓣电影、腾讯视频页面显示该片的 MPAA 分级 - [更多介绍](https://creatorsdaily.com/posts/f3510a80-6c40-494d-9404-a158c283c140)
 * :white_check_mark: [Bamboo](https://old-panda.com/projects/bamboo-parquet-viewer/)：可能是 macOS 上最好用的 Parquet 文件查看器
-* :white_check_mark: [Douban Book+](https://old-panda.com/douban-book-plus.html)：打破豆瓣读书与微信读书之间的壁障 - [更多介绍](https://www.appinn.com/weread-on-douban/)
-* :white_check_mark: [Green Tiles](https://green-tiles.vercel.app/): 统计程序员在 GitHub 上贴过的所有瓷砖
+* :white_check_mark: [Douban Book+](https://doubanbook.plus/)：打破豆瓣读书与各种电子书平台之间的壁障
+* :white_check_mark: [Green Tiles](https://green-tiles.vercel.app/)：统计程序员在 GitHub 上贴过的所有瓷砖
+* :white_check_mark: [小地瓜](https://xiaodigua.app/)：一键下载小红书帖子的图片视频
 
 ### 2020年5月14号添加
 ---
@@ -2299,6 +2495,7 @@ OldPanda [GitHub](https://github.com/OldPanda), [博客](https://old-panda.com/)
 * [Stripe Atlas Guide](https://stripe.com/atlas/guides)
 * [Opps Daily - 这家的 newsletter 做得好，推荐订阅](https://www.oppslist.com/)
 * [Master of Scale](https://mastersofscale.com)
+* [OkJob](https://okjob.io) - 每周工作 4 天的工作委员会/4 day week job board
 
 [中文]
 * [Sideidea](http://sideidea.com/) - 分享独立开发者的盈利故事
@@ -2310,7 +2507,3 @@ OldPanda [GitHub](https://github.com/OldPanda), [博客](https://old-panda.com/)
 * [Patrick McKenzie (@patio11)](https://twitter.com/patio11)
 * [Pieter Levels (@levelsio)](https://twitter.com/levelsio)  - 做了 Nomadlist 和 RemoteOK 等产品 - [更多介绍](https://twitter.com/levelsio/status/968027544103473152)
 * [Courtland Allen (@csallen)](https://twitter.com/csallen) - Indie Hacker 创始人
-
-#### 6. 最后
-本库创建者 1c7 也做了 [sideidea.com](http://sideidea.com/)<br/>
-**sideidea - 独立开发者分享做产品盈利的故事**<br/>

@@ -1,9 +1,9 @@
 ---
 title: Hello-Python
-date: 2024-02-27T12:17:16+08:00
+date: 2024-02-28T12:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708366396301-c70a3ab5a41c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708366396301-c70a3ab5a41c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
 ---
 
 # [mouredev/Hello-Python](https://github.com/mouredev/Hello-Python)

@@ -1,9 +1,9 @@
 ---
 title: yolov9
-date: 2024-02-27T12:15:26+08:00
+date: 2024-02-28T12:16:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708623460319-3f1d8865778a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708623460319-3f1d8865778a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
 ---
 
 # [WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9)
@@ -47,6 +47,8 @@ ONNX export: https://github.com/WongKinYiu/yolov9/issues/2#issuecomment-19605195
 
 TensorRT inference: https://github.com/WongKinYiu/yolov9/issues/34#issue-2150393690 https://github.com/WongKinYiu/yolov9/issues/79#issue-2153547004
 
+C# inference: https://github.com/WongKinYiu/yolov9/issues/95#issue-2155974619
+
 Hugging Face demo: https://github.com/WongKinYiu/yolov9/issues/45#issuecomment-1961496943
 
 CoLab demo: https://github.com/WongKinYiu/yolov9/pull/18
@@ -55,9 +57,15 @@ ONNXSlim export: https://github.com/WongKinYiu/yolov9/pull/37
 
 YOLOv9 ByteTrack: https://github.com/WongKinYiu/yolov9/issues/78#issue-2153512879
 
+YOLOv9 DeepSORT: https://github.com/WongKinYiu/yolov9/issues/98#issue-2156172319
+
 YOLOv9 counting: https://github.com/WongKinYiu/yolov9/issues/84#issue-2153904804
 
 AnyLabeling tool: https://github.com/WongKinYiu/yolov9/issues/48#issue-2152139662
+
+AX650N deploy: https://github.com/WongKinYiu/yolov9/issues/96#issue-2156115760
+
+Conda environment: https://github.com/WongKinYiu/yolov9/pull/93
 
 </details>
 
