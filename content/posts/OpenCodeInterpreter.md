@@ -1,9 +1,9 @@
 ---
 title: OpenCodeInterpreter
-date: 2024-02-27T12:17:44+08:00
+date: 2024-02-29T12:15:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707757349249-c812bf8c600f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707757349249-c812bf8c600f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
 ---
 
 # [OpenCodeInterpreter/OpenCodeInterpreter](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter)
@@ -21,21 +21,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1707757349249-c812bf8c60
 <hr>
 
 ## 🌟 Upcoming Features
+- 💡 **Open Sourcing OpenCodeInterpreter-SC2 series Model (based on StarCoder2 base)** 
 
-- 💡 **Open Sourcing OpenCodeInterpreter-GM-7b Model with gemma-7b Base;** 
-
-- 🚀 **Deploying Demo on HuggingFace Spaces;** 
-
-- 🛠️ **Open Sourcing Demo Local Deployment Code with a Setup Guide** 
+- 💡 **Open Sourcing OpenCodeInterpreter-GM-7b Model with gemma-7b Base** 
 
 ## 🔔News
+🛠️[2024-02-29]: Our official online demo is deployed on HuggingFace Spaces! Take a look at [Demo Page](https://huggingface.co/spaces/m-a-p/OpenCodeInterpreter_demo)!
+
+🛠️[2024-02-28]: We have open-sourced the Demo Local Deployment Code with a Setup Guide.
+
 ✨[2024-02-26]: We have open-sourced the [OpenCodeInterpreter-DS-1.3b](https://huggingface.co/m-a-p/OpenCodeInterpreter-DS-1.3B) Model.
 
 📘[2024-02-26]: We have open-sourced the [CodeFeedback-Filtered-Instruction](https://huggingface.co/datasets/m-a-p/CodeFeedback-Filtered-Instruction) Dataset.
 
 🚀[2024-02-23]: We have open-sourced the datasets used in our project named [Code-Feedback](https://huggingface.co/datasets/m-a-p/Code-Feedback).
 
-🔥[2024-02-19]: We have open-sourced all models in the OpenCodeInterpreter series ! We welcome everyone to try out our models and look forward to your participation! 😆
+🔥[2024-02-19]: We have open-sourced all models in the OpenCodeInterpreter series! We welcome everyone to try out our models and look forward to your participation! 😆
 
 
 
@@ -50,10 +51,43 @@ Supported by Code-Feedback, a dataset featuring 68K multi-turn interactions, Ope
 For additional insights into data collection procedures, please consult the readme provided under [Data Collection](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter/blob/main/data_collection/README.md).
 
 ## Evaluation
-Our evaluation framework primarily utilizes HumanEval and MBP, alongside their extended versions, HumanEval+ and MBPP+, leveraging the [EvalPlus framework](https://github.com/evalplus/evalplus) for a more comprehensive assessment.
+Our evaluation framework primarily utilizes HumanEval and MBPP, alongside their extended versions, HumanEval+ and MBPP+, leveraging the [EvalPlus framework](https://github.com/evalplus/evalplus) for a more comprehensive assessment.
 For specific evaluation methodologies, please refer to the [Evaluation README](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter/blob/main/evaluation/README.md) for more details.
+
+## Demo
+We're excited to present our open-source demo, enabling users to effortlessly generate and execute code with our LLM locally. Within the demo, users can leverage the power of LLM to generate code and execute it locally, receiving automated execution feedback. LLM dynamically adjusts the code based on this feedback, ensuring a smoother coding experience. Additionally, users can engage in chat-based interactions with the LLM model, providing feedback to further enhance the generated code.
+
+To begin exploring the demo and experiencing the capabilities firsthand, please refer to the instructions outlined in the [OpenCodeInterpreter Demo README](https://github.com/OpenCodeInterpreter/OpenCodeInterpreter/blob/main/demo/README.md) file. Happy coding!
+
+### Quick Start
+- **Entering the workspace**:
+   ```bash
+   git clone https://github.com/OpenCodeInterpreter/OpenCodeInterpreter.git
+   cd demo
+   ```
+- **Create a new conda environment**: `conda create -n demo python=3.10`
+
+- **Activate the demo environment you create**: `conda activate demo`
+
+- **Install requirements**: `pip install -r requirements.txt`
+
+- **Create a Huggingface access token with write permission [here](https://huggingface.co/docs/hub/en/security-tokens). Our code will only use this token to create and push content to a specific repository called `opencodeinterpreter_user_data` under your own Huggingface account. We cannot get access to your data if you deploy this demo on your own device.**
+
+- **Add the access token to environment variables:** `export HF_TOKEN="your huggingface access token"`
+
+- **Run the Gradio App**:
+   ```bash
+   python3 chatbot.py --path "the model name of opencodeinterpreter model family. e.g., m-a-p/OpenCodeInterpreter-DS-6.7B"
+   ```
+### Video
+https://github.com/OpenCodeInterpreter/OpenCodeInterpreter/assets/46103100/2337f34d-f5ed-4ecb-857b-3c2d085b72fd
+
 
 ## Contact
 
 If you have any inquiries, please feel free to raise an issue or reach out to us via email at: xiangyue.work@gmail.com, zhengtianyu0428@gmail.com. 
 We're here to assist you!
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=OpenCodeInterpreter/OpenCodeInterpreter&type=Date)](https://star-history.com/#OpenCodeInterpreter/OpenCodeInterpreter&Date)

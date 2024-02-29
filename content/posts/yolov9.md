@@ -1,9 +1,9 @@
 ---
 title: yolov9
-date: 2024-02-28T12:16:43+08:00
+date: 2024-02-29T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931607240-9cdbd103554f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931607240-9cdbd103554f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
 ---
 
 # [WongKinYiu/yolov9](https://github.com/WongKinYiu/yolov9)
@@ -32,8 +32,8 @@ MS COCO
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: |
 | [**YOLOv9-S**]() | 640 | **46.8%** | **63.4%** | **50.7%** | **7.1M** | **26.4G** |
 | [**YOLOv9-M**]() | 640 | **51.4%** | **68.1%** | **56.1%** | **20.0M** | **76.3G** |
-| [**YOLOv9-C**](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c.pt) | 640 | **53.0%** | **70.2%** | **57.8%** | **25.3M** | **102.1G** |
-| [**YOLOv9-E**](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-e.pt) | 640 | **55.6%** | **72.8%** | **60.6%** | **57.3M** | **189.0G** |
+| [**YOLOv9-C**](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-c-converted.pt) | 640 | **53.0%** | **70.2%** | **57.8%** | **25.3M** | **102.1G** |
+| [**YOLOv9-E**](https://github.com/WongKinYiu/yolov9/releases/download/v0.1/yolov9-e-converted.pt) | 640 | **55.6%** | **72.8%** | **60.6%** | **57.3M** | **189.0G** |
 
 <!-- small and medium models will be released after the paper be accepted and published. -->
 

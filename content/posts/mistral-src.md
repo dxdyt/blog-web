@@ -1,9 +1,9 @@
 ---
 title: mistral-src
-date: 2024-01-12T12:18:51+08:00
+date: 2024-02-29T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702499125289-bf10ff572d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702499125289-bf10ff572d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUwMzI5OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931607240-9cdbd103554f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931607240-9cdbd103554f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
 ---
 
 # [mistralai/mistral-src](https://github.com/mistralai/mistral-src)
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Download the model
 ```
-wget https://files.mistral-7b-v0-1.mistral.ai/mistral-7B-v0.1.tar
+wget https://models.mistralcdn.com/mistral-7b-v0-1/mistral-7B-v0.1.tar (md5sum: 37dab53973db2d56b2da0a033a15307f)
 tar -xf mistral-7B-v0.1.tar
 ```
 
@@ -145,9 +145,9 @@ Pipeline parallelism is a set of techniques for partitioning models, enabling th
 
 ## Integrations and related projects
 
-
 ### Model platforms
 
+- Use Mistral 7B Instruct on [Mistral AI official API](https://console.mistral.ai/) (La Plateforme)
 - Use Mistral AI in HuggingFace:
   - [Mistral-7B-v0.1](https://huggingface.co/mistralai/Mistral-7B-v0.1)
   - [Mistral-7B-Instruct-v0.1](https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1)

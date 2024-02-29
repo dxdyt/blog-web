@@ -1,9 +1,9 @@
 ---
 title: awesome-system-design-resources
-date: 2024-02-28T12:19:27+08:00
+date: 2024-02-29T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706526785815-0d47cc723dc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706526785815-0d47cc723dc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)
@@ -18,6 +18,7 @@ This repository contains resources to learn System Design concepts and prepare f
 
 ## System Design Fundamentals
 
+- [Scalability](https://newsletter.ashishps.com/p/scalability)
 - [Horizontal vs Vertical Scaling](https://www.spiceworks.com/tech/cloud/articles/horizontal-vs-vertical-cloud-scaling/)
 - [Content Delivery Network (CDN)](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 - [Caching](https://medium.com/must-know-computer-science/system-design-caching-acbd1b02ca01)

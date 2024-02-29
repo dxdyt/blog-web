@@ -1,9 +1,9 @@
 ---
 title: WARP-Clash-API
-date: 2024-02-28T12:17:02+08:00
+date: 2024-02-29T12:15:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706591789943-e32e814413ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706591789943-e32e814413ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706885503200-1cd927834318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706885503200-1cd927834318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
 ---
 
 # [vvbbnn00/WARP-Clash-API](https://github.com/vvbbnn00/WARP-Clash-API)
@@ -102,7 +102,22 @@ python3 app.py optimize
 | SECRET_KEY             | `无`                               | 用于保护订阅链接，若不配置，则不需要输入`SECRET_KEY`即可获取订阅链接                                                                   |
 | SHARE_SUBSCRIPTION     | `False`                           | 若您的站点想要向社区分享订阅，但不想让自己的账户信息被公开或修改，可以设置为`True`，此时，访问订阅链接时，不需要输入`SECRET_KEY`即可获取，而对于其他的操作，仍然需要输入`SECRET_KEY`。 |
 
+### 📝 配置示例
+
+例如，您设置`SECRET_KEY`为`123456`，并打算将订阅分享给社区，那么您的`.env.local`文件应该如下：
+
+```env
+SECRET_KEY=123456
+SHARE_SUBSCRIPTION=True
+```
+
 ## 🧰 进阶操作
+
+**请注意，如果您设置了`SECRET_KEY`，需要在URL的末尾添加`secret_key`参数**，例如：
+
+```
+http://your_IP:21001/some/api/actions?secret_key=your_secret_key
+```
 
 ### 重置账户的`PublicKey`和`PrivateKey`
 

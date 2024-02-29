@@ -1,9 +1,9 @@
 ---
 title: movie-web
-date: 2024-01-04T12:17:35+08:00
+date: 2024-02-29T12:15:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703343575658-8825be03169a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703343575658-8825be03169a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705931607240-9cdbd103554f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705931607240-9cdbd103554f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
 ---
 
 # [movie-web/movie-web](https://github.com/movie-web/movie-web)
@@ -14,13 +14,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1703343575658-8825be0316
 <p align="center">
   <img src="https://skillicons.dev/icons?i=react,vite,ts" />
   <br/>
-  <a href="https://discord.movie-web.app"><kbd>🔵 discord</kbd></a> <a href="https://movie-web.app"><kbd>🟢 website</kbd></a>
+  <a href="https://movie-web.github.io/links/discord"><kbd>🔵 discord</kbd></a> <a href="https://movie-web.github.io/docs"><kbd>🟢 docs</kbd></a>
 </p>
 <br/><br/>
 
 # ⚡What is movie-web?
 
-movie-web is a web app for watching movies easily. Check it out at <a href="https://movie-web.app"><kbd>movie-web.app</kbd></a>.
+movie-web is a web app for watching movies easily.
 
 This service works by displaying video files from third-party providers inside an intuitive and aesthetic user interface.
 
@@ -67,7 +67,7 @@ pnpm build
 
 A simple guide has been written to assist in hosting your own instance of movie-web. Check it out below
 
-|[Selfhosting guide](https://docs.movie-web.app)|
+|[Selfhosting guide](https://movie-web.github.io/docs)|
 |---|
 
 ## 🤝 Thanks to all Contributors
