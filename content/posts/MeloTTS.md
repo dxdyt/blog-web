@@ -1,9 +1,9 @@
 ---
 title: MeloTTS
-date: 2024-02-29T12:16:34+08:00
+date: 2024-03-01T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707048736006-84133842de0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707048736006-84133842de0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706820642350-805585dd2adc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706820642350-805585dd2adc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS)

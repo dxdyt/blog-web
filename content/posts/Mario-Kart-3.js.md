@@ -1,9 +1,9 @@
 ---
 title: Mario-Kart-3.js
-date: 2024-02-17T12:16:47+08:00
+date: 2024-03-01T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700224673906-36185dafec8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700224673906-36185dafec8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708583626459-7873cdc3ebea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708583626459-7873cdc3ebea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [Lunakepio/Mario-Kart-3.js](https://github.com/Lunakepio/Mario-Kart-3.js)
@@ -55,36 +55,38 @@ Start the dev server
 
 ## TO - DO
 
-- Design Landing page
+- [ ] Design Landing page
 
-- Add items
+- [ ] Add items
 
-- Add texture to the flame shaders
+- [ ] Add texture to the flame shaders
 
-- Add curve/length modifiers to drift particles 3/4
+- [ ] Add curve/length modifiers to drift particles 3/4
 
-- Add Skid marks 
+- [ ] Add Skid marks 
 
-- Add smokes
+- [x] Add smokes
 
-- Add wind screen effect when boosting
+- [ ] Add wind screen effect when boosting
 
-- Improve sound design quality
+- [ ] Improve sound design quality
 
-- Design UI for HUD
+- [ ] Design UI for HUD
 
-- Make Time Trial mode
+- [ ] Make Time Trial mode
 
-- Design tracks and checkpoints
+- [ ] Design tracks and checkpoints
 
-- Improve code quality
+- [ ] Improve code quality
 
-- Items
-  - Tennis ball
-  - Bomb
-  - Real red shell
-  - Treats
-  - ?
+- [ ] Add Minimap
+
+- [ ] Items
+  - [ ] Tennis ball
+  - [ ] Bomb
+  - [ ] Real red shell
+  - [ ] Treats
+  - [ ] ?
 
 ## License
 

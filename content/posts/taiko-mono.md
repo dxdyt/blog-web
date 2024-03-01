@@ -1,9 +1,9 @@
 ---
 title: taiko-mono
-date: 2024-02-29T12:16:06+08:00
+date: 2024-03-01T12:17:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706948133297-f5eb1fa74a49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706948133297-f5eb1fa74a49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [taikoxyz/taiko-mono](https://github.com/taikoxyz/taiko-mono)

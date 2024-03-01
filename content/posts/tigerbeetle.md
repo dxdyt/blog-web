@@ -1,9 +1,9 @@
 ---
 title: tigerbeetle
-date: 2024-02-29T12:15:56+08:00
+date: 2024-03-01T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707124760569-c39b73b374f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707162740878-e947e511d5cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707162740878-e947e511d5cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle)

@@ -1,21 +1,19 @@
 ---
 title: yuzu-android
-date: 2024-01-14T12:17:43+08:00
+date: 2024-03-01T12:16:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704636487929-6a09f864d53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704636487929-6a09f864d53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyMDU3Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706441935855-3cd94494087a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706441935855-3cd94494087a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [yuzu-emu/yuzu-android](https://github.com/yuzu-emu/yuzu-android)
 
 | Pull Request | Commit | Title | Author | Merged? |
 |----|----|----|----|----|
-| [12579](https://github.com/yuzu-emu/yuzu-android//pull/12579) | [`66ae60a9e`](https://github.com/yuzu-emu/yuzu-android//pull/12579/files) | Core: Implement Device Mapping & GPU SMMU | [FernandoS27](https://github.com/FernandoS27/) | Yes |
-| [12610](https://github.com/yuzu-emu/yuzu-android//pull/12610) | [`200b371d1`](https://github.com/yuzu-emu/yuzu-android//pull/12610/files) | server_manager: respond to session close correctly | [liamwhite](https://github.com/liamwhite/) | Yes |
-| [12611](https://github.com/yuzu-emu/yuzu-android//pull/12611) | [`2f0b57ca1`](https://github.com/yuzu-emu/yuzu-android//pull/12611/files) | kernel: fix resource management issues | [liamwhite](https://github.com/liamwhite/) | Yes |
-| [12612](https://github.com/yuzu-emu/yuzu-android//pull/12612) | [`76880b84f`](https://github.com/yuzu-emu/yuzu-android//pull/12612/files) | fsp-srv: use program registry for SetCurrentProcess | [liamwhite](https://github.com/liamwhite/) | Yes |
-| [12652](https://github.com/yuzu-emu/yuzu-android//pull/12652) | [`2a0d707ce`](https://github.com/yuzu-emu/yuzu-android//pull/12652/files) | shader_recompiler: emulate 8-bit and 16-bit storage writes with cas loop | [liamwhite](https://github.com/liamwhite/) | Yes |
-| [12659](https://github.com/yuzu-emu/yuzu-android//pull/12659) | [`d94097478`](https://github.com/yuzu-emu/yuzu-android//pull/12659/files) | audio: fetch process object from handle table | [liamwhite](https://github.com/liamwhite/) | Yes |
+| [12461](https://github.com/yuzu-emu/yuzu//pull/12461) | [`a84e8e26f`](https://github.com/yuzu-emu/yuzu//pull/12461/files) | Rework Nvdec and VIC to fix out-of-order videos, and speed up decoding. | [Kelebek1](https://github.com/Kelebek1/) | Yes |
+| [13018](https://github.com/yuzu-emu/yuzu//pull/13018) | [`01cbc638a`](https://github.com/yuzu-emu/yuzu//pull/13018/files) | am: rewrite part 2 | [liamwhite](https://github.com/liamwhite/) | Yes |
+| [13174](https://github.com/yuzu-emu/yuzu//pull/13174) | [`7d1284826`](https://github.com/yuzu-emu/yuzu//pull/13174/files) | glue/time: Remove global variables | [FearlessTobi](https://github.com/FearlessTobi/) | Yes |
+| [13177](https://github.com/yuzu-emu/yuzu//pull/13177) | [`f5cc94f05`](https://github.com/yuzu-emu/yuzu//pull/13177/files) | vfs: misc performance improvements | [liamwhite](https://github.com/liamwhite/) | Yes |
 
 
 End of merge log. You can find the original README.md below the break.

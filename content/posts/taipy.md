@@ -1,9 +1,9 @@
 ---
 title: taipy
-date: 2024-01-23T12:18:53+08:00
+date: 2024-03-01T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706441935855-3cd94494087a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706441935855-3cd94494087a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [Avaiga/taipy](https://github.com/Avaiga/taipy)
@@ -69,7 +69,7 @@ Taipy is designed for data scientists and machine learning engineers to build fu
 
 ## ⚙️ Quickstart
 To install Taipy stable release run:
-```
+```bash
 pip install taipy
 ```
 

@@ -1,9 +1,9 @@
 ---
 title: yuzu-mainline
-date: 2023-05-15T12:16:38+08:00
+date: 2024-03-01T12:17:54+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImage: https://images.unsplash.com/photo-1707658614134-542d5db18f72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707658614134-542d5db18f72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [yuzu-emu/yuzu-mainline](https://github.com/yuzu-emu/yuzu-mainline)
@@ -23,7 +23,7 @@ SPDX-License-Identifier: GPL-2.0-or-later
 
 <h4 align="center"><b>yuzu</b> is the world's most popular, open-source, Nintendo Switch emulator — started by the creators of <a href="https://citra-emu.org" target="_blank">Citra</a>.
 <br>
-It is written in C++ with portability in mind, and we actively maintain builds for Windows and Linux.
+It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
 </h4>
 
 <p align="center">
@@ -50,7 +50,7 @@ It is written in C++ with portability in mind, and we actively maintain builds f
 
 The emulator is capable of running most commercial games at full speed, provided you meet the [necessary hardware requirements](https://yuzu-emu.org/help/quickstart/#hardware-requirements).
 
-For a full list of games yuzu support, please visit our [Compatibility page](https://yuzu-emu.org/game/)
+For a full list of games yuzu supports, please visit our [Compatibility page](https://yuzu-emu.org/game/).
 
 Check out our [website](https://yuzu-emu.org/) for the latest news on exciting features, monthly progress reports, and more!
 

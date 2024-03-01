@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2024-02-28T12:19:36+08:00
+date: 2024-03-01T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706591789943-e32e814413ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706591789943-e32e814413ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708583626459-7873cdc3ebea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708583626459-7873cdc3ebea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -28,7 +28,27 @@ featuredImagePreview: https://images.unsplash.com/photo-1706591789943-e32e814413
 ## 3. 项目列表
 （名字按时间排序，最新添加的在最上面）
 
+### 2024年2月29号添加
+#### zhenming(上海)
+* :white_check_mark: [xldream](https://www.xldream.com)：免费 AIGC 图片素材网
+
+#### shartoo(上海) - [Github](https://github.com/shartoo), [博客](https://www.zhihu.com/people/xia-zhi-66-34)
+* :white_check_mark: [webhub123](https://www.webhub123.com/#/home/more)：跨站收藏夹，网站收录管理和分享
+
+#### Zoyou(上海)
+* :white_check_mark: [PhotoFun](https://www.photofun.cn/)：📷高效的在线图片编辑压缩处理工具。
+
 ### 2024年2月28号添加
+
+#### Qiwei(上海) - [GitHub](https://github.com/qiweiii)
+* :white_check_mark: [Markdown Sticky Note](https://chrome.google.com/webstore/detail/aiakblgmlabokilgljkglggnpflljdgp) 浏览器插件，可以在任何网页创建 Markdown 便签并保存 - [源代码](https://github.com/qiweiii/markdown-sticky-notes)
+
+#### Fooying(福建) - [Github](https://github.com/fooying),
+* :white_check_mark: [SEC.CAFE安全咖啡](https://sec.cafe)：安全漏洞情报聚合去重、订阅平台
+
+#### AILOOKME (江苏)
+* :white_check_mark: [AI工具箱](https://www.ailookme.com)：人工智能领域工具导航网站
+
 #### 潮汐表表(青岛) - [博客](http://blog.75271.com)
 * :white_check_mark: [潮汐表表](http://images.75271.com/wp-content/uploads/2024/01/2024012208223581.jpg)：看潮汐,查天气就在潮汐表表,出行必备小程序 - [更多介绍](https://blog.75271.com/55685.html)
 
