@@ -1,9 +1,9 @@
 ---
 title: MeloTTS
-date: 2024-03-01T12:19:26+08:00
+date: 2024-03-02T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706820642350-805585dd2adc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706820642350-805585dd2adc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707647132749-8f1322ed1b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
 ---
 
 # [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS)
@@ -36,6 +36,8 @@ Some other features include:
 ## Usage
 - [Use without Installation](docs/quick_use.md)
 - [Install and Use Locally](docs/install.md)
+
+The Python API and model cards can be found in [this repo](https://github.com/myshell-ai/MeloTTS/blob/main/docs/install.md#python-api) or on [HuggingFace](https://huggingface.co/myshell-ai).
 
 ## Join the Community
 

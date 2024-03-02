@@ -1,9 +1,9 @@
 ---
 title: uikit
-date: 2024-02-29T12:15:02+08:00
+date: 2024-03-02T12:15:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707048736006-84133842de0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707048736006-84133842de0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707730376818-a7a02fe896d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707730376818-a7a02fe896d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
 ---
 
 # [pmndrs/uikit](https://github.com/pmndrs/uikit)
@@ -30,7 +30,6 @@ TODO Release
 - feat: nesting inside non root/container components (e.g. image)
 - fix: scrollbar border radius to high (happens with very long panels)
 - feat: drag/click threshold
-- feat: cli for kits
 - feat: add apfel components
 - feat: input
 - fix: decrease clipping rect when scrollbar present

@@ -1,9 +1,9 @@
 ---
 title: data-engineering-zoomcamp
-date: 2024-01-31T12:17:11+08:00
+date: 2024-03-02T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706378398503-eeeeee0c1b16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706378398503-eeeeee0c1b16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY2NzQ0OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708555205842-f38972eed725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708555205842-f38972eed725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
 ---
 
 # [DataTalksClub/data-engineering-zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp)
@@ -159,9 +159,7 @@ Putting everything we learned to practice
 
 ## Overview
 
-
-<img src="images/architecture/photo1700757552.jpeg" />
-
+<img src="images/architecture/arch_v3_workshops.jpg" />
 
 ### Prerequisites
 
@@ -186,14 +184,6 @@ Past instructors:
 
 - [Sejal Vaidya](https://www.linkedin.com/in/vaidyasejal/)
 - [Irem Erturk](https://www.linkedin.com/in/iremerturk/)
-
-## Course UI
-
-Alternatively, you can access this course using the provided UI app, the app provides a user-friendly interface for navigating through the course material. 
-
-* Visit the following link: [DE Zoomcamp UI](https://dezoomcamp.streamlit.app/)
-
-![dezoomcamp-ui](https://github.com/DataTalksClub/data-engineering-zoomcamp/assets/66017329/4466d2bc-3728-4fca-8e9e-b1c6be30a430)
 
 
 ## Asking for help in Slack
