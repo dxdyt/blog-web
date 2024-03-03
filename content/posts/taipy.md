@@ -1,9 +1,9 @@
 ---
 title: taipy
-date: 2024-03-01T12:19:02+08:00
+date: 2024-03-03T12:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706441935855-3cd94494087a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706441935855-3cd94494087a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706403877465-c5c3b4427caa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706403877465-c5c3b4427caa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [Avaiga/taipy](https://github.com/Avaiga/taipy)

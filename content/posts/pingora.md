@@ -1,9 +1,9 @@
 ---
 title: pingora
-date: 2024-03-02T12:14:36+08:00
+date: 2024-03-03T12:16:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708789738414-c4a49ed21f1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708789738414-c4a49ed21f1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706047837347-043e85df8b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706047837347-043e85df8b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [cloudflare/pingora](https://github.com/cloudflare/pingora)

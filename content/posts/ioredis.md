@@ -1,9 +1,9 @@
 ---
 title: ioredis
-date: 2024-03-02T12:16:33+08:00
+date: 2024-03-03T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708789738414-c4a49ed21f1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708789738414-c4a49ed21f1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706012877193-70fb8442179d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706012877193-70fb8442179d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [redis/ioredis](https://github.com/redis/ioredis)

@@ -1,9 +1,9 @@
 ---
 title: unilm
-date: 2023-08-31T12:17:52+08:00
+date: 2024-03-03T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692744740151-3318616aff36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692744740151-3318616aff36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707066051008-ffbc2a517362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707066051008-ffbc2a517362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/unilm](https://github.com/microsoft/unilm)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1692744740151-3318616aff
 We are hiring at all levels (including FTE researchers and interns)! If you are interested in working with us on Foundation Models (aka large-scale pre-trained models) and General AI, NLP, MT, Speech, Document AI and Multimodal AI, please send your resume to <a href="mailto:fuwei@microsoft.com" class="x-hidden-focus">fuwei@microsoft.com</a>.
 
 # Foundation Architecture
-### TorchScale - Transformers at (any) Scale ([repo](https://github.com/microsoft/torchscale))
+### TorchScale - A Library of Foundation Architectures ([repo](https://github.com/microsoft/torchscale))
 
 Fundamental research to develop new architectures for foundation models and AI, focusing on modeling generality and capability, as well as training stability and efficiency.
 
@@ -26,7 +26,9 @@ Fundamental research to develop new architectures for foundation models and AI, 
 
 > Efficiency & Transferability - [**X-MoE**](https://github.com/microsoft/unilm/tree/master/xmoe): scalable & finetunable sparse Mixture-of-Experts (MoE)
 
-### Revolutionizing Transformers for (M)LLMs and AI
+### The Revolution of Model Architecture
+
+> [**BitNet**](https://arxiv.org/abs/2310.11453): 1-bit Transformers for Large Language Models
 
 > [**RetNet**](https://arxiv.org/abs/2307.08621): Retentive Network: A Successor to Transformer for Large Language Models
 
@@ -34,7 +36,9 @@ Fundamental research to develop new architectures for foundation models and AI, 
 
 # Foundation Models
 
-### LLM / MLLM (Multimodal LLM)
+### The Evolution of (M)LLM (Multimodal LLM)
+
+> [**Kosmos-2.5**](https://github.com/microsoft/unilm/tree/master/kosmos-2.5): **A Multimodal Literate Model**
 
 > [**Kosmos-2**](https://github.com/microsoft/unilm/tree/master/kosmos-2): **Grounding Multimodal Large Language Models to the World**
 
@@ -70,7 +74,7 @@ Fundamental research to develop new architectures for foundation models and AI, 
 
 > [**DiT**](https://github.com/microsoft/unilm/tree/master/dit): self-supervised pre-training for Document Image Transformers
 
-> [**TextDiffuser**](https://github.com/microsoft/unilm/tree/master/textdiffuser) (```NEW```): Diffusion Models as Text Painters
+> [**TextDiffuser**](https://github.com/microsoft/unilm/tree/master/textdiffuser)/[**TextDiffuser-2**](https://github.com/microsoft/unilm/tree/master/textdiffuser-2) (```NEW```): Diffusion Models as Text Painters
 
 ### Speech
 > [**WavLM**](https://github.com/microsoft/unilm/tree/master/wavlm): speech pre-training for full stack tasks
@@ -116,6 +120,9 @@ Fundamental research to develop new architectures for foundation models and AI, 
 General technology for enabling AI capabilities w/ LLMs and MLLMs.
 
 ## News
+- December, 2023: [**LongNet**](https://github.com/microsoft/unilm/tree/master/longnet) and [**LongViT**](https://github.com/microsoft/unilm/tree/master/longvit) released
+- [Model Release] Dec, 2023: [**TextDiffuser-2**](https://github.com/microsoft/unilm/tree/master/textdiffuser-2) models, code and [demo](https://huggingface.co/spaces/JingyeChen22/TextDiffuser-2). 
+- Sep, 2023: [**Kosmos-2.5**](https://arxiv.org/abs/2309.11419) - a multimodal literate model for machine reading of text-intensive images.
 - [Model Release] May, 2023: [**TextDiffuser**](https://github.com/microsoft/unilm/tree/master/textdiffuser) models and code.
 - [Model Release] March, 2023: [**BEiT-3**](https://github.com/microsoft/unilm/tree/master/beit3) pretrained models and code.
 - March, 2023: [**Kosmos-1**](https://arxiv.org/abs/2302.14045) - a Multimodal Large Language Model (MLLM) that can perceive general modalities, learn in context (i.e., few-shot), and follow instructions (i.e., zero-shot).
@@ -129,7 +136,7 @@ General technology for enabling AI capabilities w/ LLMs and MLLMs.
 - August, 2022: [**BEiT-3**](https://arxiv.org/abs/2208.10442) - a general-purpose multimodal foundation model, which achieves state-of-the-art transfer performance on both vision and vision-language tasks
 - July, 2022: [**SimLM**](https://github.com/microsoft/unilm/tree/master/simlm) - Large-scale self-supervised pre-training for similarity matching
 - June, 2022: [**DiT**](https://arxiv.org/abs/2203.02378) and [**LayoutLMv3**](https://arxiv.org/abs/2204.08387) were accepted by ACM Multimedia 2022.
-- June, 2022: [**MetaLM**](https://github.com/microsoft/unilm/tree/master/metalm) - Language models are general-purpose interfaces to foudation models (language/multilingual, vision, speech, and multimodal)
+- June, 2022: [**MetaLM**](https://github.com/microsoft/unilm/tree/master/metalm) - Language models are general-purpose interfaces to foundation models (language/multilingual, vision, speech, and multimodal)
 - June, 2022: [**VL-BEiT**](https://github.com/microsoft/unilm/tree/master/vl-beit) - bidirectional multimodal Transformer learned from scratch with one unified pretraining task, one shared backbone, and one-stage training, supporting both vision and vision-language tasks.
 - [Model Release] June, 2022: [**LayoutLMv3 Chinese**](https://github.com/microsoft/unilm/tree/master/layoutlmv3#form-understanding-on-xfund) - Chinese version of LayoutLMv3
 - [Code Release] May, 2022: [**Aggressive Decoding**](https://github.com/microsoft/unilm/tree/master/decoding) - Lossless Speedup for Seq2seq Generation
@@ -158,7 +165,7 @@ General technology for enabling AI capabilities w/ LLMs and MLLMs.
 - May, 2021: [LayoutLMv2](https://github.com/microsoft/unilm/tree/master/layoutlmv2), InfoXLMv2, MiniLMv2, UniLMv3, and AdaLM were accepted by ACL 2021.
 - April, 2021: [LayoutXLM](https://github.com/microsoft/unilm/tree/master/layoutxlm) is coming by extending the LayoutLM into multilingual support! A multilingual form understanding benchmark [XFUND](https://github.com/doc-analysis/XFUND) is also introduced, which includes forms with human labeled key-value pairs in 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese).
 - March, 2021: [InfoXLM](https://github.com/microsoft/unilm/tree/master/infoxlm) was accepted by NAACL 2021.
-- December 29th, 2020: [LayoutLMv2](https://arxiv.org/abs/2012.14740) is coming with the new SOTA on a wide varierty of document AI tasks, including [DocVQA](https://rrc.cvc.uab.es/?ch=17&com=evaluation&task=1) and [SROIE](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3) leaderboard.
+- December 29th, 2020: [LayoutLMv2](https://arxiv.org/abs/2012.14740) is coming with the new SOTA on a wide variety of document AI tasks, including [DocVQA](https://rrc.cvc.uab.es/?ch=17&com=evaluation&task=1) and [SROIE](https://rrc.cvc.uab.es/?ch=13&com=evaluation&task=3) leaderboard.
 - October 8th, 2020: T-ULRv2 (aka [InfoXLM](https://arxiv.org/abs/2007.07834)) as the SOTA on the [XTREME](https://sites.research.google/xtreme) leaderboard. // [Blog](https://www.microsoft.com/en-us/research/blog/microsoft-turing-universal-language-representation-model-t-ulrv2-tops-xtreme-leaderboard/)
 - September, 2020: [MiniLM](https://github.com/microsoft/unilm/tree/master/minilm) was accepted by NeurIPS 2020.
 - July 16, 2020: [**InfoXLM** (Multilingual UniLM)](https://github.com/microsoft/unilm/tree/master/infoxlm) [arXiv](https://arxiv.org/pdf/2007.07834.pdf)
@@ -222,7 +229,7 @@ WavLM integrates the gated relative position embedding structure and the utteran
 
 - [x] [**LayoutXLM**](https://github.com/microsoft/unilm/tree/master/layoutxlm) (April 17, 2021): multimodal pre-training for multilingual visually-rich document understanding. The pre-trained LayoutXLM model has significantly outperformed the existing SOTA cross-lingual pre-trained models on the FUNSD and multilingual [XFUND](https://github.com/doc-analysis/XFUND) dataset including 7 languages (Chinese, Japanese, Spanish, French, Italian, German, Portuguese). "[LayoutXLM: Multimodal Pre-training for Multilingual Visually-rich Document Understanding](https://arxiv.org/abs/2104.08836)"
 - [x] [**AdaLM**](https://github.com/microsoft/unilm/tree/master/adalm) (June 2021): a simple yet effective approach for domain adaptation of pre-trained models. Biomedical specific pre-trained models are released. "[Adapt-and-Distill: Developing Small, Fast and Effective Pretrained Language Models for Domains](#) ```ACL 2021```"
-- [x] [**MiniLMv2**](https://github.com/microsoft/unilm/tree/master/minilm) (December, 2020): a simple yet effective task-agnostic knoweldge distillation method, namely multi-head self-attention relation distillation, for compressing large pre-trained Transformers into small and fast pre-trained models. MiniLMv2 significantly outperforms MiniLMv1. Both English and multilingual MiniLM models are released. "[MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers](https://arxiv.org/abs/2012.15828) ```ACL 2021```"
+- [x] [**MiniLMv2**](https://github.com/microsoft/unilm/tree/master/minilm) (December, 2020): a simple yet effective task-agnostic knowledge distillation method, namely multi-head self-attention relation distillation, for compressing large pre-trained Transformers into small and fast pre-trained models. MiniLMv2 significantly outperforms MiniLMv1. Both English and multilingual MiniLM models are released. "[MiniLMv2: Multi-Head Self-Attention Relation Distillation for Compressing Pretrained Transformers](https://arxiv.org/abs/2012.15828) ```ACL 2021```"
 
 **\*\*\*\*\* ```May, 2021```: [LayoutLMv2](https://github.com/microsoft/unilm/tree/master/layoutlmv2) | [LayoutXLM](https://github.com/microsoft/unilm/tree/master/layoutxlm) release \*\*\*\*\***
 

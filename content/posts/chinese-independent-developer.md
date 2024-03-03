@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2024-03-01T12:18:08+08:00
+date: 2024-03-03T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708583626459-7873cdc3ebea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708583626459-7873cdc3ebea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707066051008-ffbc2a517362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707066051008-ffbc2a517362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -27,6 +27,27 @@ featuredImagePreview: https://images.unsplash.com/photo-1708583626459-7873cdc3eb
 
 ## 3. 项目列表
 （名字按时间排序，最新添加的在最上面）
+
+### 2024年3月2号添加
+#### H1DDENADM1N (邯郸) - [Github](https://github.com/H1DDENADM1N)
+* :white_check_mark: [CapsWriter-Offline-GUI](https://github.com/H1DDENADM1N/CapsWriter-Offline)：Windows 端 离线语音输入、中译英、字幕转录；在线多译多、云剪贴板。 - [更多介绍](https://github.com/H1DDENADM1N/CapsWriter-Offline?tab=readme-ov-file#-%E7%9B%AE%E5%BD%95)
+
+### 2024年3月1号添加
+#### TrumanDu(西安) - [Github](https://github.com/TrumanDu), [博客](http://blog.trumandu.top/)
+* :white_check_mark: [Toolkit](http://toolkit.trumandu.top/)：一个极简、插件化的工具集！utools 对标开源版
+
+#### morestrive(武汉) - [Github](https://github.com/dromara/yft-design)  
+* :white_check_mark: [yft在线设计](https://yft.design)：基于 canvas 的开源版【稿定设计】。  导入稿定 PDF 模板完美还原，导入PSD，支持导出为图片/PDF/SVG - [更多介绍](https://github.com/dromara/yft-design)
+
+#### meetqy(成都) - [Github](https://github.com/meetqy)
+* :white_check_mark: [aspoem](https://aspoem.com)： 现代化诗词学习网站
+
+#### 菩提尘埃(厦门)
+* :white_check_mark: [奇趣网站](https://qiqu.dreamthere.cn)：奇趣网站是您的在线探索伙伴，提供您没见过的网站，为网站收藏家增添色彩，加入我们，开启您的奇趣探索之旅 - [更多介绍](https://nav.dreamthere.cn/about)
+* :white_check_mark: [创意导航](https://idea.dreamthere.cn)：使用我们的创意导航服务，探索未知的网路世界。我们提供最新，最独特的网站链接，帮助你发现互联网的新领域
+
+#### AtlanticF(成都) - [GitHub](https://github.com/AtlanticF)
+* :white_check_mark: [AI语音记账](https://github.com/AtlanticF/chinese-independent-developer/assets/14820026/83165766-9dca-47fb-a475-49892f1f719c)：(微信小程序) AI语音识别记账
 
 ### 2024年2月29号添加
 #### zhenming(上海)
@@ -58,9 +79,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1708583626459-7873cdc3eb
 #### Jebberwocky - [Github](https://github.com/jebberwocky)
 * :white_check_mark: [我不会说出去](http://chat.colbt.cc/)：匿名心理咨询/宣泄（和 AI 对话）
 
-### 2024年2月26号添加
-#### 诸葛子房
-* :white_check_mark: [AI好物](https://www.ai-code.online/)：好物推荐网站，当你有需求又不知道买什么的时候，可以根据输入内容给你推荐商品 - [更多介绍](https://www.ai-code.online/story)
 
 ### 2024年2月25号添加
 #### 刚师傅(长沙) - [Github](https://github.com/margox)

@@ -1,9 +1,9 @@
 ---
 title: BitNet
-date: 2024-03-02T12:15:36+08:00
+date: 2024-03-03T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707301452478-ad6df0ab40f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707301452478-ad6df0ab40f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707909123862-d230b874c073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707909123862-d230b874c073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [kyegomez/BitNet](https://github.com/kyegomez/BitNet)
@@ -60,22 +60,28 @@ print(y)
 - Complete with residuals and skip connections for gradient flow
 
 ```python
+# Import the necessary libraries
 import torch
-
 from bitnet import BitNetTransformer
 
+# Create a random tensor of integers
+x = torch.randint(0, 20000, (1, 1024))
+
+# Initialize the BitNetTransformer model
 bitnet = BitNetTransformer(
-    num_tokens=20000,
-    dim=512,
-    depth=6,
-    dim_head=64,
-    heads=8,
-    ff_mult=4,
+    num_tokens=20000,  # Number of unique tokens in the input
+    dim=1024,  # Dimension of the input and output embeddings
+    depth=6,  # Number of transformer layers
+    heads=8,  # Number of attention heads
+    ff_mult=4,  # Multiplier for the hidden dimension in the feed-forward network
 )
 
-tokens = torch.randint(0, 20000, (1, 512))
-logits = bitnet(tokens)
-print(logits.shape)
+# Pass the tensor through the transformer model
+logits = bitnet(x)
+
+# Print the shape of the output
+print(logits)
+
 ```
 
 

@@ -1,9 +1,9 @@
 ---
 title: fuel-core
-date: 2024-02-28T12:17:16+08:00
+date: 2024-03-03T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708366396301-c70a3ab5a41c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708366396301-c70a3ab5a41c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707909123862-d230b874c073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707909123862-d230b874c073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core)

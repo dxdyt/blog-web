@@ -1,9 +1,9 @@
 ---
 title: embedchain
-date: 2024-01-09T12:17:36+08:00
+date: 2024-03-03T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703798463020-3ffd5047785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706034381055-d176c40693d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706034381055-d176c40693d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [embedchain/embedchain](https://github.com/embedchain/embedchain)
@@ -42,14 +42,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1703798463020-3ffd504778
 
 <hr />
 
-
-> ### Checkout our latest [Sadhguru AI app](https://sadhguru-ai.streamlit.app/) built using Embedchain.
-
 ## What is Embedchain?
 
 Embedchain is an Open Source RAG Framework that makes it easy to create and deploy AI apps. At its core, Embedchain follows the design principle of being *"Conventional but Configurable"* to serve both software engineers and machine learning engineers.
 
-Embedchain streamlines the creation of RAG applications, offering a seamless process for managing various types of unstructured data. It efficiently segments data into manageable chunks, generates relevant embeddings, and stores them in a vector database for optimized retrieval. With a suite of diverse APIs, it enables users to extract contextual information, find precise answers, or engage in interactive chat conversations, all tailored to their own data.
+Embedchain streamlines the creation of Retrieval-Augmented Generation (RAG) applications, offering a seamless process for managing various types of unstructured data. It efficiently segments data into manageable chunks, generates relevant embeddings, and stores them in a vector database for optimized retrieval. With a suite of diverse APIs, it enables users to extract contextual information, find precise answers, or engage in interactive chat conversations, all tailored to their own data.
 
 ## 🔧 Quick install
 
@@ -74,7 +71,7 @@ For example, you can create an Elon Musk bot using the following code:
 
 ```python
 import os
-from embedchain import Pipeline as App
+from embedchain import App
 
 # Create a bot instance
 os.environ["OPENAI_API_KEY"] = "YOUR API KEY"

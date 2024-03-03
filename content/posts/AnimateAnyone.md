@@ -1,9 +1,9 @@
 ---
 title: AnimateAnyone
-date: 2024-03-02T12:15:51+08:00
+date: 2024-03-03T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706547041896-d5af33b5fd48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706547041896-d5af33b5fd48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708748053605-31f7161a09a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708748053605-31f7161a09a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone)

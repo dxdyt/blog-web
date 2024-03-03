@@ -1,9 +1,9 @@
 ---
 title: EMO
-date: 2024-03-02T12:15:17+08:00
+date: 2024-03-03T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1652449823136-b279fbe5dfd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1652449823136-b279fbe5dfd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706047837347-043e85df8b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706047837347-043e85df8b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
 ---
 
 # [HumanAIGC/EMO](https://github.com/HumanAIGC/EMO)
