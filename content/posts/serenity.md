@@ -1,9 +1,9 @@
 ---
 title: serenity
-date: 2024-02-09T12:17:43+08:00
+date: 2024-03-04T12:45:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705217554963-4d999ac5605f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705217554963-4d999ac5605f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709028942660-f8525396a90d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709028942660-f8525396a90d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
 ---
 
 # [SerenityOS/serenity](https://github.com/SerenityOS/serenity)
@@ -142,6 +142,9 @@ A general guide for contributing can be found in [`CONTRIBUTING.md`](CONTRIBUTIN
 * **FalseHonesty** - [FalseHonesty](https://github.com/FalseHonesty)
 * **Bastiaan van der Plaat** - [bplaat](https://github.com/bplaat)
 * **Dan Klishch** - [DanShaders](https://github.com/DanShaders)
+* **Julian Offenhäuser** - [janso3](https://github.com/janso3)
+* **Sönke Holz** - [spholz](https://github.com/spholz)
+* **implicitfield** - [implicitfield](https://github.com/implicitfield)
 
 And many more! [See here](https://github.com/SerenityOS/serenity/graphs/contributors) for a full contributor list. The people listed above have landed more than 100 commits in the project. :^)
 

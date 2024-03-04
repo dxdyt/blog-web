@@ -1,15 +1,15 @@
 ---
 title: stable-diffusion-webui
-date: 2024-02-21T12:17:40+08:00
+date: 2024-03-04T12:43:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707834831436-a61faa9e2f2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707834831436-a61faa9e2f2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707843745563-d46b8ffb82fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707843745563-d46b8ffb82fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
 ---
 
 # [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)
 
 # Stable Diffusion web UI
-A browser interface based on Gradio library for Stable Diffusion.
+A web interface for Stable Diffusion, implemented using Gradio library.
 
 ![](screenshot.png)
 
@@ -161,11 +161,12 @@ Licenses for borrowed code can be found in `Settings -> Licenses` screen, and al
 
 - Stable Diffusion - https://github.com/Stability-AI/stablediffusion, https://github.com/CompVis/taming-transformers
 - k-diffusion - https://github.com/crowsonkb/k-diffusion.git
-- GFPGAN - https://github.com/TencentARC/GFPGAN.git
-- CodeFormer - https://github.com/sczhou/CodeFormer
-- ESRGAN - https://github.com/xinntao/ESRGAN
-- SwinIR - https://github.com/JingyunLiang/SwinIR
-- Swin2SR - https://github.com/mv-lab/swin2sr
+- Spandrel - https://github.com/chaiNNer-org/spandrel implementing
+  - GFPGAN - https://github.com/TencentARC/GFPGAN.git
+  - CodeFormer - https://github.com/sczhou/CodeFormer
+  - ESRGAN - https://github.com/xinntao/ESRGAN
+  - SwinIR - https://github.com/JingyunLiang/SwinIR
+  - Swin2SR - https://github.com/mv-lab/swin2sr
 - LDSR - https://github.com/Hafiidz/latent-diffusion
 - MiDaS - https://github.com/isl-org/MiDaS
 - Ideas for optimizations - https://github.com/basujindal/stable-diffusion

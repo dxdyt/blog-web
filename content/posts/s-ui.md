@@ -1,9 +1,9 @@
 ---
 title: s-ui
-date: 2024-02-17T12:18:18+08:00
+date: 2024-03-04T12:45:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705960467825-5420aa333231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705960467825-5420aa333231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707301452478-ad6df0ab40f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707301452478-ad6df0ab40f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
 ---
 
 # [alireza0/s-ui](https://github.com/alireza0/s-ui)
@@ -38,7 +38,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1705960467825-5420aa3332
 
 ## Default Installation Informarion
 - Panel Port: 2095
+- Panel Path: /app/
 - Subscription Port: 2096
+- Subscription Path: /sub/
 - User/Passowrd: admin
 
 ## Install & Upgrade to Latest Version
@@ -53,6 +55,19 @@ bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.s
 
 ```sh
 bash <(curl -Ls https://raw.githubusercontent.com/alireza0/s-ui/master/install.sh) 0.0.1
+```
+
+## Uninstall S-UI
+
+```sh
+systemctl disable sing-box --now
+systemctl disable s-ui  --now
+
+rm -f /etc/systemd/system/s-ui.service
+rm -f /etc/systemd/system/sing-box.service
+systemctl daemon-reload
+
+rm -fr /usr/local/s-ui
 ```
 
 ## Install using Docker
@@ -92,6 +107,7 @@ docker build -t s-ui .
 
 - English
 - Farsi
+- Chinese (Simplified)
 
 ## Features
 
@@ -150,5 +166,4 @@ certbot certonly --standalone --register-unsafely-without-email --non-interactiv
 </details>
 
 ## Stargazers over Time
-
-[![Stargazers over time](https://starchart.cc/alireza0/s-ui.svg)](https://starchart.cc/alireza0/s-ui)
+[![Stargazers over time](https://starchart.cc/alireza0/s-ui.svg?variant=adaptive)](https://starchart.cc/alireza0/s-ui)
