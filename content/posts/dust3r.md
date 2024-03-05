@@ -1,9 +1,9 @@
 ---
 title: dust3r
-date: 2024-03-04T12:42:47+08:00
+date: 2024-03-05T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706624171073-d282a9072afe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706624171073-d282a9072afe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706696648779-aace52d2d443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706696648779-aace52d2d443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [naver/dust3r](https://github.com/naver/dust3r)

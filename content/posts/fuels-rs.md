@@ -1,9 +1,9 @@
 ---
 title: fuels-rs
-date: 2024-03-03T12:18:59+08:00
+date: 2024-03-05T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708936201506-1765d86c0b16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708936201506-1765d86c0b16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708366399616-1961558313f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708366399616-1961558313f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/fuels-rs](https://github.com/FuelLabs/fuels-rs)

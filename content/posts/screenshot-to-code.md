@@ -1,16 +1,16 @@
 ---
 title: screenshot-to-code
-date: 2023-12-17T12:17:39+08:00
+date: 2024-03-05T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702140944216-e09d1284067e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702140944216-e09d1284067e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708060195246-8fef752157e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708060195246-8fef752157e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 
 # screenshot-to-code
 
-This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Vue or Bootstrap). It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
+This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Bootstrap or Vue). It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 
@@ -68,7 +68,7 @@ MOCK=true poetry run uvicorn main:app --reload --port 7001
 
 ## Configuration
 
-* You can configure the OpenAI base URL if you need to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog
+- You can configure the OpenAI base URL if you need to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog
 
 ## Docker
 

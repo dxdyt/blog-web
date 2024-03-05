@@ -1,9 +1,9 @@
 ---
 title: fuels-ts
-date: 2024-02-28T12:18:09+08:00
+date: 2024-03-05T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706526785815-0d47cc723dc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706526785815-0d47cc723dc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1692485023061-e2999c314af0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1692485023061-e2999c314af0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/fuels-ts](https://github.com/FuelLabs/fuels-ts)

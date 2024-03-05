@@ -1,9 +1,9 @@
 ---
 title: wewe-rss
-date: 2024-03-04T12:43:02+08:00
+date: 2024-03-05T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707301452478-ad6df0ab40f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707301452478-ad6df0ab40f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707870771435-50d769227de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707870771435-50d769227de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [cooderl/wewe-rss](https://github.com/cooderl/wewe-rss)
@@ -36,7 +36,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707301452478-ad6df0ab40
 
 [Railway](https://railway.app/)
 
-[HuggingFace部署参考](https://github.com/cooderl/wewe-rss/issues/32)
+[Hugging Face部署参考](https://github.com/cooderl/wewe-rss/issues/32)
 
 ### Docker Compose 部署
 

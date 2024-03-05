@@ -1,9 +1,9 @@
 ---
 title: ente
-date: 2024-03-04T12:43:42+08:00
+date: 2024-03-05T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707398254229-3c823c6cc881?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707398254229-3c823c6cc881?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708779493105-9c743e367a3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708779493105-9c743e367a3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [ente-io/ente](https://github.com/ente-io/ente)

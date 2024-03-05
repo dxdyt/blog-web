@@ -1,9 +1,9 @@
 ---
 title: fuel-core
-date: 2024-03-04T12:45:33+08:00
+date: 2024-03-05T12:17:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709028942660-f8525396a90d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709028942660-f8525396a90d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708710015560-732ff9319982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708710015560-732ff9319982?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [FuelLabs/fuel-core](https://github.com/FuelLabs/fuel-core)
@@ -180,7 +180,7 @@ The client functionality is available through a service endpoint that expect Gra
 
 The transaction executor currently performs instant block production. Changes are persisted to RocksDB by default.
 
--   Service endpoint: `/graphql`
+-   Service endpoint: `/v1/graphql`
 -   Schema (available after building): `crates/client/assets/schema.sdl`
 
 The service expects a mutation defined as `submit` that receives a [Transaction](https://github.com/FuelLabs/fuel-vm/tree/master/fuel-tx) in hex encoded binary format, as [specified here](https://github.com/FuelLabs/fuel-specs/blob/master/src/tx-format/transaction.md).

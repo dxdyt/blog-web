@@ -1,9 +1,9 @@
 ---
 title: starcoder2
-date: 2024-03-04T12:43:54+08:00
+date: 2024-03-05T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709028942660-f8525396a90d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709028942660-f8525396a90d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708060195246-8fef752157e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708060195246-8fef752157e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
 ---
 
 # [bigcode-project/starcoder2](https://github.com/bigcode-project/starcoder2)
