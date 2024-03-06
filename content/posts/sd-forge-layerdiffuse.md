@@ -1,9 +1,9 @@
 ---
 title: sd-forge-layerdiffuse
-date: 2024-03-05T12:16:19+08:00
+date: 2024-03-06T12:14:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708366399616-1961558313f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708366399616-1961558313f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707926015479-cc723418afc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707926015479-cc723418afc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [layerdiffusion/sd-forge-layerdiffuse](https://github.com/layerdiffusion/sd-forge-layerdiffuse)

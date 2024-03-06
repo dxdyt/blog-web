@@ -1,20 +1,22 @@
 ---
 title: screenshot-to-code
-date: 2024-03-05T12:15:34+08:00
+date: 2024-03-06T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708060195246-8fef752157e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708060195246-8fef752157e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707870771435-50d769227de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707870771435-50d769227de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 
 # screenshot-to-code
 
-This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Bootstrap or Vue). It uses GPT-4 Vision to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website!
+This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Bootstrap or Vue). It uses GPT-4 Vision (or Claude 3) to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website.
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 
 See the [Examples](#-examples) section below for more demos.
+
+[Follow me on Twitter for updates](https://twitter.com/_abi_).
 
 ## 🚀 Try It Out!
 
@@ -22,17 +24,7 @@ See the [Examples](#-examples) section below for more demos.
 
 ## 🌟 Recent Updates
 
-- Dec 11 - Start a new project from existing code (allows you to come back to an older project)
-- Dec 7 - 🔥 🔥 🔥 View a history of your edits, and branch off them
-- Nov 30 - Dark mode, output code in Ionic (thanks [@dialmedu](https://github.com/dialmedu)), set OpenAI base URL
-- Nov 28 - 🔥 🔥 🔥 Customize your stack: React or Bootstrap or TailwindCSS
-- Nov 23 - Send in a screenshot of the current replicated version (sometimes improves quality of subsequent generations)
-- Nov 21 - Edit code in the code editor and preview changes live thanks to [@clean99](https://github.com/clean99)
-- Nov 20 - Paste in a URL to screenshot and clone (requires [ScreenshotOne free API key](https://screenshotone.com?via=screenshot-to-code))
-- Nov 19 - Support for dark/light code editor theme - thanks [@kachbit](https://github.com/kachbit)
-- Nov 16 - Added a setting to disable DALL-E image generation if you don't need that
-- Nov 16 - View code directly within the app
-- Nov 15 - You can now instruct the AI to update the code as you wish. It is helpful if the AI messed up some styles or missed a section.
+- Mar 5 - Added support for Claude Sonnet 3 (as capable as or better than GPT-4 Vision, and faster!)
 
 ## 🛠 Getting Started
 
@@ -69,6 +61,13 @@ MOCK=true poetry run uvicorn main:app --reload --port 7001
 ## Configuration
 
 - You can configure the OpenAI base URL if you need to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog
+
+## Using Claude 3
+
+We recently added support for Claude 3 Sonnet. It performs well, on par or better than GPT-4 vision for many inputs, and it tends to be faster. 
+
+1. Add an env var `ANTHROPIC_API_KEY` to `backend/.env` with your API key from Anthropic
+2. When using the front-end, select "Claude 3 Sonnet" from the model dropdown
 
 ## Docker
 

@@ -1,9 +1,9 @@
 ---
 title: luminal
-date: 2024-03-04T12:44:37+08:00
+date: 2024-03-06T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707408282726-3522ebdc1f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707408282726-3522ebdc1f5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [jafioti/luminal](https://github.com/jafioti/luminal)
@@ -102,7 +102,7 @@ Once you've written all your computation code, run `cx.display()` to see the ent
 - Performance on M-series macs with LLMs is within 20% of llama.cpp (a *heavily* optimized library)
 - Mistral 7B and Llama 7B are implemented in `examples/`. See instructions above for running.
 - We have a small library of NN modules in `nn`, including transformers.
-- A signifigant amount of high-level ops are implemented in `hl_ops`. We are aiming to match the most used ~80% of the pytorch api.
+- A significant amount of high-level ops are implemented in `hl_ops`. We are aiming to match the most used ~80% of the pytorch api.
 - The aim for 0.3 is to achieve SOTA performance on an M1 pro (50 tok/s), and near SOTA on single nvidia gpus (>100 tok/s), as well as support many mainstream models (Whisper, Stable Diffusion, Yolo v9, etc.) See the tracking issue [here](https://github.com/jafioti/luminal/issues/29)
 
 Some things on the roadmap:

@@ -1,9 +1,9 @@
 ---
 title: Open-Sora-Plan
-date: 2024-03-05T12:16:43+08:00
+date: 2024-03-06T12:14:49+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1692485023061-e2999c314af0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1692485023061-e2999c314af0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707093884016-badd7fd3d376?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707093884016-badd7fd3d376?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
@@ -12,18 +12,33 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1692485023061-e299
 
 [[Project Page]](https://pku-yuangroup.github.io/Open-Sora-Plan/) [[中文主页]](https://pku-yuangroup.github.io/Open-Sora-Plan/blog_cn.html)
 
+## Goal
 This project aims to create a simple and scalable repo, to reproduce [Sora](https://openai.com/sora) (OpenAI, but we prefer to call it "CloseAI" ) and build knowledge about Video-VQVAE (VideoGPT) + DiT at scale. However, we have limited resources, we deeply wish all open-source community can contribute to this project. Pull request are welcome!!!
 
 本项目希望通过开源社区的力量复现Sora，由北大-兔展AIGC联合实验室共同发起，当前我们资源有限仅搭建了基础架构，无法进行完整训练，希望通过开源社区逐步增加模块并筹集资源进行训练，当前版本离目标差距巨大，仍需持续完善和快速迭代，欢迎Pull request！！！
-<p align="center">
-<img src="assets/we_want_you.jpg" width=27%>
-</p>
 
-![The architecture of Open-Sora-Plan](assets/framework.jpg)
+Project stages:
+- Primary
+1. Setup the codebase and train a un-conditional model on landscape dataset.
+2. Train models that boost resolution and duration.
+
+- Extensions
+3. Conduct text2video experiments on landscape dataset.
+4. Train the 1080p model on video2text dataset.
+5. Control model with more condition.
+
+
+<div style="display: flex; justify-content: center;"> 
+  <img src="assets/we_want_you.jpg" width=200> 
+  <img src="assets/framework.jpg" width=600> 
+</div>
 
   
 ## News
-**[2024.03.04]** We re-organize and modulize our codes and make it easy to contribute to the project, please see the Repo structure.
+
+**[2024.03.05]**  See our latest [todo](https://github.com/PKU-YuanGroup/Open-Sora-Plan?tab=readme-ov-file#todo), welcome to pull request.
+
+**[2024.03.04]** We re-organize and modulize our codes and make it easy to [contribute](https://github.com/PKU-YuanGroup/Open-Sora-Plan?tab=readme-ov-file#how-to-contribute-to-the-open-sora-plan-community) to the project, please see the [Repo structure](https://github.com/PKU-YuanGroup/Open-Sora-Plan?tab=readme-ov-file#repo-structure).
 
 **[2024.03.03]** We open some [discussions](https://github.com/PKU-YuanGroup/Open-Sora-Plan/discussions) and clarify several issues.
 
@@ -32,22 +47,49 @@ This project aims to create a simple and scalable repo, to reproduce [Sora](http
 
 ## Todo
 
-- [x] support variable aspect ratios, resolutions, durations training on DiT
-- [x] dynamic mask input
-- [x] add class-conditioning on embeddings
+#### Setup the codebase and train a unconditional model on landscape dataset
+- [x] Setup repo-structure.
+- [x] Add Video-VQGAN model, which is borrowed from [VideoGPT](https://github.com/wilson1yan/VideoGPT).
+- [x] Support variable aspect ratios, resolutions, durations training on [DiT](https://github.com/facebookresearch/DiT).
+- [x] Support Dynamic mask input inspired [FiT](https://github.com/whlzy/FiT).
+- [x] Add class-conditioning on embeddings.
+- [ ] Incorporating [Latte](https://github.com/Vchitect/Latte) as main codebase.
+- [ ] Add VAE model, which is borrowed from [Stable Diffusion](https://github.com/CompVis/latent-diffusion).
+- [ ] Joint dynamic mask input with VAE.
+- [ ] Make the codebase ready for the cluster training. Add SLURM scripts.
+- [ ] Add sampling script.
+- [ ] Incorporating [SiT](https://github.com/willisma/SiT).
 
-- [ ] sampling script
-- [ ] add positional interpolation
-- [ ] fine-tune Video-VQVAE on higher resolution
-- [ ] incorporating SiT
-- [ ] incorporating more conditions
-- [ ] training with more data and more GPU
+#### Train models that boost resolution and duration
+- [ ] Add [PI](https://arxiv.org/abs/2306.15595) to support out-of-domain size.
+- [x] Add frame interpolation model.
+
+#### Conduct text2video experiments on landscape dataset.
+- [ ] Finish data loading, pre-processing utils.
+- [ ] Add CLIP and T5 support.
+- [ ] Add text2image training script.
+- [ ] Add prompt captioner.
+
+#### Train the 1080p model on video2text dataset
+- [ ] Looking for a suitable dataset, welcome to discuss and recommend.
+- [ ] Finish data loading, pre-processing utils.
+- [ ] Support memory friendly training.
+  - [ ] Add flash-attention2 from pytorch.
+  - [ ] Add xformers.
+  - [ ] Add accelerate to automatically manage training, e.g. mixed precision training.
+  - [ ] Add gradient checkpoint.
+  - [ ] Train using the deepspeed engine.
+
+#### Control model with more condition
+- [ ] Load pretrained weight from [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha).
+- [ ] Incorporating [ControlNet](https://github.com/lllyasviel/ControlNet).
 
 ## Repo structure
 ```
 ├── README.md
 ├── docs
-│   ├── data.md                    -> Datasets description.
+│   ├── Data.md                    -> Datasets description.
+│   ├── Contribution_Guidelines.md -> Contribution guidelines description.
 ├── scripts                        -> All training scripts.
 │   └── train.sh
 ├── sora
@@ -60,8 +102,8 @@ This project aims to create a simple and scalable repo, to reproduce [Sora](http
 │   │   │   ├── vqvae
 │   │   │   ├── vae
 │   │   ├── diffusion              -> denoise latents
-│   │   │   ├── diffusion_2d
-│   │   │   ├── diffusion_3d
+│   │   │   ├── dit
+│   │   │   ├── unet
 |   ├── utils.py                   
 │   ├── train.py                   -> Training code
 ```
@@ -90,17 +132,18 @@ cd ..
 ## Usage
 
 ### Datasets
-Refer to [data.md](docs/data.md)
+Refer to [Data.md](docs/Data.md)
 
 
 ### Video-VQVAE (VideoGPT)
 
 #### Training
 
+```
+cd src/sora/modules/ae/vqvae/videogpt
+```
+
 Refer to origin [repo](https://github.com/wilson1yan/VideoGPT?tab=readme-ov-file#training-vq-vae). Use the `scripts/train_vqvae.py` script to train a Video-VQVAE. Execute `python scripts/train_vqvae.py -h` for information on all available training settings. A subset of more relevant settings are listed below, along with default values.
-```
-cd VideoGPT
-```
 
 ##### VQ-VAE Specific Settings
 * `--embedding_dim`: number of dimensions for codebooks embeddings
@@ -124,10 +167,10 @@ cd VideoGPT
 #### Reconstructing
 
 ```Python
-python VideoGPT/rec_video.py --video-path "assets/origin_video_0.mp4" --rec-path "rec_video_0.mp4" --num-frames 500 --sample-rate 1
+python rec_video.py --video-path "assets/origin_video_0.mp4" --rec-path "rec_video_0.mp4" --num-frames 500 --sample-rate 1
 ```
 ```Python
-python VideoGPT/rec_video.py --video-path "assets/origin_video_1.mp4" --rec-path "rec_video_1.mp4" --resolution 196 --num-frames 600 --sample-rate 1
+python rec_video.py --video-path "assets/origin_video_1.mp4" --rec-path "rec_video_1.mp4" --resolution 196 --num-frames 600 --sample-rate 1
 ```
 
 
@@ -151,6 +194,11 @@ sh scripts/train.sh
 
 #### Sampling
 Coming soon.
+
+## How to Contribute to the Open-Sora Plan Community
+We greatly appreciate your contributions to the Open-Sora Plan open-source community and helping us make it even better than it is now!
+
+For more details, please refer to the [Contribution Guidelines](docs/Contribution_Guidelines.md)
 
 ## Acknowledgement
 * [DiT](https://github.com/facebookresearch/DiT/tree/main): Scalable Diffusion Models with Transformers.

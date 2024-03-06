@@ -1,9 +1,9 @@
 ---
 title: awesome-entra
-date: 2024-03-05T12:18:21+08:00
+date: 2024-03-06T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706696648779-aace52d2d443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706696648779-aace52d2d443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708247899914-db888e0ce29a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708247899914-db888e0ce29a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [merill/awesome-entra](https://github.com/merill/awesome-entra)
@@ -197,6 +197,7 @@ These posts will make your head hurt, but in a good way.
 - [Rod Trent (@rodtrent)](https://twitter.com/rodtrent), Microsoft
 - [rootsecdev (@rootsecdev)](https://twitter.com/rootsecdev)
 - [Ryan Hausknecht (@Haus3c)](https://twitter.com/Haus3c)
+- [Ryan Yates (@ryanyates1990)](https://twitter.com/ryanyates1990), Former MVP in Cloud & Datacenter Management
 - [Sean Metcalf (@PyroTek3)](https://twitter.com/PyroTek3)
 - [Stian A. Strysse (@stianstrysse)](https://twitter.com/stianstrysse)
 - [Suryendu Bhattacharyya (@crookedbong)](https://twitter.com/crookedbong)

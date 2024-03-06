@@ -1,9 +1,9 @@
 ---
 title: dust3r
-date: 2024-03-05T12:15:40+08:00
+date: 2024-03-06T12:15:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706696648779-aace52d2d443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706696648779-aace52d2d443?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708651949109-42b52f1c6e5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708651949109-42b52f1c6e5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [naver/dust3r](https://github.com/naver/dust3r)
@@ -204,7 +204,7 @@ if __name__ == '__main__':
 ![matching example on croco pair](assets/matching.jpg)
 
 ## Training
-In this section, we present propose a short demonstration to get started with training DUSt3R. At the moment, we didn't release the training datasets, so we're going to download and prepare a subset of [CO3Dv2](https://github.com/facebookresearch/co3d) - [Creative Commons Attribution-NonCommercial 4.0 International](https://github.com/facebookresearch/co3d/blob/main/LICENSE) and launch the training code on it.
+In this section, we present a short demonstration to get started with training DUSt3R. At the moment, we didn't release the training datasets, so we're going to download and prepare a subset of [CO3Dv2](https://github.com/facebookresearch/co3d) - [Creative Commons Attribution-NonCommercial 4.0 International](https://github.com/facebookresearch/co3d/blob/main/LICENSE) and launch the training code on it.
 The demo model will be trained for a few epochs on a very small dataset. It will not be very good. 
 
 ### Demo

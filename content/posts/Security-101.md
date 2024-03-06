@@ -1,9 +1,9 @@
 ---
 title: Security-101
-date: 2024-03-04T12:44:13+08:00
+date: 2024-03-06T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706955279426-9924ebe60002?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706955279426-9924ebe60002?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MjczNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707093884016-badd7fd3d376?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707093884016-badd7fd3d376?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/Security-101](https://github.com/microsoft/Security-101)
