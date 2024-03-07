@@ -1,9 +1,9 @@
 ---
 title: ComfyUI-layerdiffuse
-date: 2024-03-06T12:18:01+08:00
+date: 2024-03-07T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706872286099-b10b657b3fb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706872286099-b10b657b3fb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707727726723-347c0a18390d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707727726723-347c0a18390d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [huchenlei/ComfyUI-layerdiffuse](https://github.com/huchenlei/ComfyUI-layerdiffuse)

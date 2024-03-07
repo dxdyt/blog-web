@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2024-03-06T12:15:50+08:00
+date: 2024-03-07T12:14:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707870771435-50d769227de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707870771435-50d769227de9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2OTg0ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707899486979-beaf9c7498e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707899486979-beaf9c7498e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -11,6 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1707870771435-50d769227d
 # screenshot-to-code
 
 This simple app converts a screenshot to code (HTML/Tailwind CSS, or React or Bootstrap or Vue). It uses GPT-4 Vision (or Claude 3) to generate the code and DALL-E 3 to generate similar-looking images. You can now also enter a URL to clone a live website.
+
+🆕 Now, supporting Claude 3!
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 

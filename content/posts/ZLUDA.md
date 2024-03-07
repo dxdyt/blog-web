@@ -1,9 +1,9 @@
 ---
 title: ZLUDA
-date: 2024-02-16T12:15:01+08:00
+date: 2024-03-07T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705947172050-f930e2856301?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705947172050-f930e2856301?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707420256622-0af616bb57b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707420256622-0af616bb57b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [vosen/ZLUDA](https://github.com/vosen/ZLUDA)
@@ -47,7 +47,7 @@ Make sure you have the following installed:
 * Rust (1.66.1 or newer)
 * C++ compiler
 * (Linux only) ROCm 5.7+ (_not ROCm 6_) (https://rocm.docs.amd.com/en/latest/deploy/linux/install_overview.html)
-* (Windows only) Recent AMD Radeon Software Adrenalin (https://rocm.docs.amd.com/en/latest/deploy/linux/install_overview.html)
+* (Windows only) Recent [AMD Radeon Software Adrenalin](https://www.amd.com/en/technologies/software)
 * (Recommended, optional) Ninja (https://ninja-build.org/)
 
 Alternatively, if you are building for Linux, [.devcontainer](.devcontainer) directory contains various developer Dockerfiles with all the required dependencies

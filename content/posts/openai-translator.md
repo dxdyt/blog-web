@@ -1,9 +1,9 @@
 ---
 title: openai-translator
-date: 2023-09-13T12:17:45+08:00
+date: 2024-03-07T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691839227411-9ad2ac6a944a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ1Nzg0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707382847896-1311b0498133?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707382847896-1311b0498133?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [openai-translator/openai-translator](https://github.com/openai-translator/openai-translator)
@@ -169,7 +169,7 @@ For details, see [Desktop Clip Extension](./CLIP-EXTENSIONS.md)
 
 ```ts
 const API_URL = `https://${resourceName}.openai.azure.com`
-const API_URL_PATH = `/openai/deployments/${deployName}/completions?api-version=${apiVersion}`
+const API_URL_PATH = `/openai/deployments/${deployName}/chat/completions?api-version=${apiVersion}`
 ```
 
 - resourceName: Your Azure OpenAI Service resource name.

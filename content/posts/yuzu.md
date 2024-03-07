@@ -1,12 +1,12 @@
 ---
 title: yuzu
-date: 2024-03-03T12:16:45+08:00
+date: 2024-03-07T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708936201506-1765d86c0b16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708936201506-1765d86c0b16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708368954671-f383a1887157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708368954671-f383a1887157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
 ---
 
-# [yuzu-emu/yuzu](https://github.com/yuzu-emu/yuzu)
+# [yuzu-mirror/yuzu](https://github.com/yuzu-mirror/yuzu)
 
 <!--
 SPDX-FileCopyrightText: 2018 yuzu Emulator Project
@@ -15,7 +15,7 @@ SPDX-License-Identifier: GPL-2.0-or-later
 
 <h1 align="center">
   <br>
-  <a href="https://yuzu-emu.org/"><img src="https://raw.githubusercontent.com/yuzu-emu/yuzu-assets/master/icons/icon.png" alt="yuzu" width="200"></a>
+  <a href="https://yuzu-emu.org/"><img src="https://raw.githubusercontent.com/yuzu-mirror/yuzu-assets/master/icons/icon.png" alt="yuzu" width="200"></a>
   <br>
   <b>yuzu</b>
   <br>
@@ -26,11 +26,14 @@ SPDX-License-Identifier: GPL-2.0-or-later
 It is written in C++ with portability in mind, and we actively maintain builds for Windows, Linux and Android.
 </h4>
 
+> [!NOTE]
+> This is an unofficial mirror fork of the original repository.
+
 <p align="center">
-    <a href="https://dev.azure.com/yuzu-emu/yuzu/">
+    <!-- <a href="https://dev.azure.com/yuzu-emu/yuzu/">
         <img src="https://dev.azure.com/yuzu-emu/yuzu/_apis/build/status/yuzu%20mainline?branchName=master"
             alt="Azure Mainline CI Build Status">
-    </a>
+    </a> -->
     <a href="https://discord.com/invite/u77vRWY">
         <img src="https://img.shields.io/discord/398318088170242053?color=5865F2&label=yuzu&logo=discord&logoColor=white"
             alt="Discord">
@@ -50,7 +53,7 @@ It is written in C++ with portability in mind, and we actively maintain builds f
 
 The emulator is capable of running most commercial games at full speed, provided you meet the [necessary hardware requirements](https://yuzu-emu.org/help/quickstart/#hardware-requirements).
 
-For a full list of games yuzu supports, please visit our [Compatibility page](https://yuzu-emu.org/game/).
+For a full list of games yuzu supports, please visit our [Compatibility page](https://web.archive.org/web/20240303155638/https://yuzu-emu.org/game/).
 
 Check out our [website](https://yuzu-emu.org/) for the latest news on exciting features, monthly progress reports, and more!
 
@@ -58,19 +61,21 @@ Check out our [website](https://yuzu-emu.org/) for the latest news on exciting f
 
 Most of the development happens on GitHub. It's also where [our central repository](https://github.com/yuzu-emu/yuzu) is hosted. For development discussion, please join us on [Discord](https://discord.com/invite/u77vRWY).
 
-If you want to contribute, please take a look at the [Contributor's Guide](https://github.com/yuzu-emu/yuzu/wiki/Contributing) and [Developer Information](https://github.com/yuzu-emu/yuzu/wiki/Developer-Information).
+If you want to contribute, please take a look at the [Contributor's Guide](https://github.com/yuzu-mirror/yuzu/wiki/Contributing) and [Developer Information](https://github.com/yuzu-mirror/yuzu/wiki/Developer-Information).
 You can also contact any of the developers on Discord in order to know about the current state of the emulator.
 
 If you want to contribute to the user interface translation project, please check out the [yuzu project on transifex](https://www.transifex.com/yuzu-emulator/yuzu). We centralize translation work there, and periodically upstream translations.
 
 ## Building
 
-* __Windows__: [Windows Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Windows)
-* __Linux__: [Linux Build](https://github.com/yuzu-emu/yuzu/wiki/Building-For-Linux)
+* __Windows__: [Windows Build](https://github.com/yuzu-mirror/yuzu/wiki/Building-For-Windows)
+* __Linux__: [Linux Build](https://github.com/yuzu-mirror/yuzu/wiki/Building-For-Linux)
+* __MacOS__: [MacOS Build](https://github.com/yuzu-mirror/yuzu/wiki/Building-For-MacOS)
+* __Android__: [Android Build](https://github.com/yuzu-mirror/yuzu/wiki/Building-For-Android)
 
 ## Download
 
-You can download the latest releases automatically via the installer on our [downloads](https://yuzu-emu.org/downloads/) page.
+You can download the latest releases automatically via the installer on our [downloads](https://web.archive.org/web/20240304063132/https://yuzu-emu.org/downloads/) page.
 
 
 ## Support
@@ -92,4 +97,4 @@ If you wish to support us a different way, please join our [Discord](https://dis
 
 ## License
 
-yuzu is licensed under the GPLv3 (or any later version). Refer to the [LICENSE.txt](https://github.com/yuzu-emu/yuzu/blob/master/LICENSE.txt) file.
+yuzu is licensed under the GPLv3 (or any later version). Refer to the [LICENSE.txt](https://github.com/yuzu-mirror/yuzu/blob/master/LICENSE.txt) file.

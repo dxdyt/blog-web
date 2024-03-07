@@ -1,12 +1,23 @@
 ---
 title: HumanSystemOptimization
-date: 2023-05-19T12:16:42+08:00
+date: 2024-03-07T12:16:27+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12133/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12133/0/1080p
+featuredImage: https://images.unsplash.com/photo-1707058665507-765a1575e7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707058665507-765a1575e7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
 ---
 
 # [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
+
+UPDATE: 鉴于文章比较长，很多同学没有耐心读完，后续也分享录制了一个 [视频版](https://www.bilibili.com/video/BV1EW4y1R7yi/)，基本涵盖了文章里的大部分内容。
+
+另外在健康生活实践方面，也提供一个极简版的基础列表，供大家参考：
+
+- 保持睡眠时长与质量。
+- 不要吸烟。
+- 尽可能每天做点运动。
+- 减少糖分的摄入。
+
+能做到这四点，就已经可以达到一个还不错的健康状态了。剩下的可以根据各自的身体状况再来做补充调整。
 
 # 背景
 
