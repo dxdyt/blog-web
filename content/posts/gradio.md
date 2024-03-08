@@ -1,9 +1,9 @@
 ---
 title: gradio
-date: 2024-03-07T12:17:24+08:00
+date: 2024-03-08T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708200497058-534e828a367d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708200497058-534e828a367d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709593491176-447d2309cd5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709593491176-447d2309cd5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
 ---
 
 # [gradio-app/gradio](https://github.com/gradio-app/gradio)

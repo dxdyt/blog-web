@@ -1,9 +1,9 @@
 ---
 title: clash-rules
-date: 2024-03-07T12:15:20+08:00
+date: 2024-03-08T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707420256622-0af616bb57b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707420256622-0af616bb57b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706558425696-b0f156d79637?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706558425696-b0f156d79637?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
 ---
 
 # [Loyalsoldier/clash-rules](https://github.com/Loyalsoldier/clash-rules)

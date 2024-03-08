@@ -1,9 +1,9 @@
 ---
 title: ZLUDA
-date: 2024-03-07T12:17:10+08:00
+date: 2024-03-08T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707420256622-0af616bb57b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707420256622-0af616bb57b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
 ---
 
 # [vosen/ZLUDA](https://github.com/vosen/ZLUDA)
@@ -76,7 +76,7 @@ If an application fails to start under ZLUDA or crashes please check [Known Issu
 
 - If both integrated AMD GPU and dedicated AMD GPU are present in the system, ZLUDA uses the integrated GPU.
 
-  This is a bug in underying ROCm/HIP runtime. You can work around it by disabling the integrated GPU.
+  This is a bug in underlying ROCm/HIP runtime. You can work around it by disabling the integrated GPU.
 
   On Windows we recommend you use environment variable `HIP_VISIBLE_DEVICES=1` environment variable (more [here](https://rocmdocs.amd.com/en/latest/conceptual/gpu-isolation.html#hip-visible-devices)) or disable it system-wide in Device Manager.
 

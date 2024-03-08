@@ -1,9 +1,9 @@
 ---
 title: moondream
-date: 2024-03-07T12:15:10+08:00
+date: 2024-03-08T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708443683202-a5be0ced5b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708443683202-a5be0ced5b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708977843956-c6c4b5dfd900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708977843956-c6c4b5dfd900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
 ---
 
 # [vikhyat/moondream](https://github.com/vikhyat/moondream)

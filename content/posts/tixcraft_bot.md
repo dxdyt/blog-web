@@ -1,9 +1,9 @@
 ---
 title: tixcraft_bot
-date: 2024-01-19T12:18:47+08:00
+date: 2024-03-08T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704635021570-fd5af2fadf77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
 ---
 
 # [max32002/tixcraft_bot](https://github.com/max32002/tixcraft_bot)
@@ -18,15 +18,13 @@ MaxBot is a FREE and open source bot program. Good luck getting your expected ti
 
 https://github.com/max32002/tixcraft_bot/releases
 
-如果你是使用 macOS, 而且是在 release頁面下載整包的MaxBot的zip檔，在你的macOS系統預設 python 版本可以使用 3.8 / 3.9 / 3.10。
-
 如果你是要用原始碼執行MaxBot, 在透過git clone 或在github按下載原始碼的 zip檔，你的python 版本可以使用3.7 / 3.8 / 3.9 / 3.10 這4個版號。
 
-如果你是使用 macOS 或 Linux 平台，建議你使用原始碼來執行MaxBot, 使用方法是先取得原始碼後，開啟Terminal 視窗來下指令，應該是2行指令就可以了。
+如果有辦法的話，建議使用原始碼來執行MaxBot，執行上的效率與相容性的問題會較少，使用方法是先取得原始碼後，開啟 Terminal 視窗來下指令，應該是4行指令就可以了。
 
 請參看看文章: 如何用虛擬主機搶拓元的門票，這篇文章是以虛擬主機來示範，在 Windows / macOS / Linux 平台裡的 python 操作方式幾乎相同。
 
-https://max-everyday.com/2023/11/buy-ticket-by-vm/
+https://max-everyday.com/2023/11/buy-ticket-by-vm/#maxbot
 
 # Demo 
 (示範影片)
@@ -47,19 +45,59 @@ https://github.com/max32002/tixcraft_bot/blob/master/demo_video.md
 # How to Execute Source Code 
 (透過原始碼的執行方法)
 
-1: <code>python3 -m pip install -r pip-req.txt</code>
+透過原始碼執行MaxBot教學影片：
+https://youtu.be/HpVG91j0lbI
 
-2: <code>python3 settings.py</code>
+Step 1: 取得source code:
+
+<code>git clone https://github.com/max32002/tixcraft_bot.git</code>
+
+Step 2: 進入 clone 的資料夾: tixcraft_bot:
+
+<code>cd tixcraft_bot </code>
+
+Step 3: 安裝第三方套件:
+
+<code>python3 -m pip install -r pip-req.txt</code>
+
+Step 4: 執行設定介面主桯式:
+
+<code>python3 settings.py</code>
+
+如果不使用設定介面，直接執行主程式:
+
+<code>python3 chrome_tixcraft.py</code>
+
+如果不使用設定介面，直接執行主程式並套用特定的設定檔:
+
+<code>python3 chrome_tixcraft.py --input settings.json</code>
+
+如果遇到MaxBot 改版, 請重新操作上面4個步驟一次, 即可取得新的版本.
+
+如果MaxBot 沒改版, 第二次要再執行的話, 使用 Step 2 + Step 4, 這2行指令, 就可以執行 MaxBot.
+
+如果你是 ARM CPU 應該會在 Step 3 就顯示錯誤訊息,  解法:
+https://github.com/max32002/tixcraft_bot/issues/82#issuecomment-1878986084
+
+不管是 macOS 還是 Windows 預設都是沒有 git 這個指令，如果 Step 1 執行後,  沒有檔案被下載, 請先安裝 git 到你的作業系統。或是使用github 網頁裡的 Download 功能把python 腳本下載。
+
+如果你選擇下載 github 上的 zip 檔, 在 Step 2 進入目錄的指令可能會遇到問題, 因為「直接解壓縮」後的目錄名稱並不是 tixcraft_bot 而是 tixcraft_bot-master, 你在進入的資料夾名稱, 需要調整為你實際解壓縮後的目錄名稱。
+
+透過瀏覽器下載 github 上的 zip 檔, 在 Windows / macOS / Linux 平台, 預設的路徑在「下載」(~/Download) 的資料夾, 你在執行的 Terminal 視窗的路徑, 與你解壓縮的路徑可能不同, 直接執行上面的指令, 會無法進入到預期的資料夾內。
 
 PS:
 * 請先確定你的python 執行環境下已安裝 selenium 及相關的套件，請參考 pip-req.txt 檔案內容。
-* 透過 python3 執行 settings.py 就可以有 GUI 的設定界面。
+* 透過 python3 執行 settings.py 就可以有 GUI 的設定介面。
 * 如果你是使用 macOS 並且執行環境沒有 python3，請 python 官方網站([https://www.python.org/downloads/](https://www.python.org/downloads/))來安裝 python3.
 * 如果你是使用 Firefox, ChromeDriver 的元件是叫 geckodriver，下載點在：https://github.com/mozilla/geckodriver/releases ，與 ChromeDriver 的處理方式是一樣，如果是 mac 電腦，要在元件按右鍵開啟，做一次授權的動作，mac 有2個版本，-macos.tar.gz 與 -macos-aarch64.tar.gz ，如果是 intel CPU 的版本，請服用前面沒有 aarch64 的版本。
 
 PS：搶票程式可以多開chrome瀏覽器，如果你電腦效能高。
 
 PS：「掛機模式」的選項，指人不需要在電腦前，驗證碼會猜到對為止。
+
+Q: 是只有使用虛擬主機才要用程式碼執行搶票機器人嗎？
+
+A: 除了 Window 有打包的執行檔之外, macOS / Linux 只能使用原始碼來執行, 當然 Windows 也可以用原始碼來執行.
 
 
 # Introduce the Implement 
@@ -102,8 +140,11 @@ https://github.com/JasonLiTW/simple-railway-captcha-solver
 * 買到太多票
 * 如何處理多的票？
 * 使用搶票程式會讓自己的帳號被鎖住嗎？
+* 如何恢復拓元的「購票權限」？
+* 網頁刷新速度有推薦幾秒刷新一次嗎？
 * 拓元的搶票，要多少的網路頻寬才夠？
 * 使用VPN/代理伺服器(Proxy)來搶票會有用嗎？
+* 同一個IP短時間重試被系統視為惡意程式而封鎖怎麼辦？
 * Firefox和chrome搶票上有差距嗎？我看大家基本上都用chrome 很少用Firefox.
 * 為什麼要設計搶票的機制？
 * 為什麼網頁會有驗證碼？

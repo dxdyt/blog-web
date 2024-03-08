@@ -1,9 +1,9 @@
 ---
 title: ComfyUI-layerdiffuse
-date: 2024-03-07T12:15:32+08:00
+date: 2024-03-08T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707727726723-347c0a18390d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707727726723-347c0a18390d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709621139563-47fe6aba26a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709621139563-47fe6aba26a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
 ---
 
 # [huchenlei/ComfyUI-layerdiffuse](https://github.com/huchenlei/ComfyUI-layerdiffuse)
@@ -61,6 +61,8 @@ with layer diffusion authors on whether this is expected.
 
 ## Note
 - Currently only SDXL is supported. See https://github.com/layerdiffuse/sd-forge-layerdiffuse#model-notes for more details.
+- To decode RGBA result, the generation dimension must be multiple of 64. Otherwise, you will get decode error: ![image](https://github.com/huchenlei/ComfyUI-layerdiffuse/assets/20929282/ff055f99-9297-4ff1-9a33-065aaadcf98e)
+
 
 ## TODO
 - [x] Foreground conditioning
