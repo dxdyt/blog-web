@@ -1,9 +1,9 @@
 ---
 title: LLMs-from-scratch
-date: 2024-03-08T12:16:20+08:00
+date: 2024-03-09T12:14:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708977843956-c6c4b5dfd900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708977843956-c6c4b5dfd900?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
 ---
 
 # [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)

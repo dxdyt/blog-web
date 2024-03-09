@@ -1,9 +1,9 @@
 ---
 title: saas-starter-kit
-date: 2023-10-30T12:16:48+08:00
+date: 2024-03-09T12:14:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696251143046-2d32fb985b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696251143046-2d32fb985b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
 ---
 
 # [boxyhq/saas-starter-kit](https://github.com/boxyhq/saas-starter-kit)
@@ -13,23 +13,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1696251143046-2d32fb985b
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/boxyhq/jackson/assets/66887028/4073c181-0653-4d5b-b74f-e7e84fe79da8">
   <img alt="BoxyHQ Banner" src="https://github.com/boxyhq/jackson/assets/66887028/b40520b7-dbce-400b-88d3-400d1c215ea1">
 </picture>
-
-<h3 align="center">
-  Participating in 
-</h3>
-
-<div align="center">  
-  
-  ![Hacktoberfest](https://ziadoua.github.io/m3-Markdown-Badges/badges/Hacktoberfest2023/hacktoberfest20231.svg)
-</div>
-
-<h3 align="center">
-
-[⬆️ Take a look at our Issues ⬆️](https://github.com/boxyhq/saas-starter-kit/issues)
-
-</h3>
-
----
 
 # ⭐ Enterprise SaaS Starter Kit
 

@@ -1,9 +1,9 @@
 ---
 title: QtScrcpy
-date: 2024-03-08T12:18:07+08:00
+date: 2024-03-09T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707985664702-ca4afd7f9203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707985664702-ca4afd7f9203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701888281386-5ac0e1bb1ef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701888281386-5ac0e1bb1ef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
 ---
 
 # [barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)

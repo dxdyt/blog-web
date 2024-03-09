@@ -1,9 +1,9 @@
 ---
 title: TripoSR
-date: 2024-03-08T12:15:27+08:00
+date: 2024-03-09T12:15:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708977517310-7f31ea71b421?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708977517310-7f31ea71b421?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707477291179-a9f31f833807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707477291179-a9f31f833807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
 ---
 
 # [VAST-AI-Research/TripoSR](https://github.com/VAST-AI-Research/TripoSR)

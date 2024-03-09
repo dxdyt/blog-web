@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2024-03-07T12:14:54+08:00
+date: 2024-03-09T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707899486979-beaf9c7498e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707899486979-beaf9c7498e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708275245585-ec4e217e4ed5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708275245585-ec4e217e4ed5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -26,6 +26,7 @@ See the [Examples](#-examples) section below for more demos.
 
 ## 🌟 Recent Updates
 
+- Mar 8 - 🔥🎉🎁 Video-to-app: turn videos/screen recordings into functional apps
 - Mar 5 - Added support for Claude Sonnet 3 (as capable as or better than GPT-4 Vision, and faster!)
 
 ## 🛠 Getting Started
@@ -60,13 +61,21 @@ For debugging purposes, if you don't want to waste GPT4-Vision credits, you can 
 MOCK=true poetry run uvicorn main:app --reload --port 7001
 ```
 
+## Video to app (experimental)
+
+https://github.com/abi/screenshot-to-code/assets/23818/1468bef4-164f-4046-a6c8-4cfc40a5cdff
+
+Record yourself using any website or app or even a Figma prototype, drag & drop in a video and in a few minutes, get a functional, similar-looking app.
+
+[You need an Anthropic API key for this functionality. Follow instructions here.](https://github.com/abi/screenshot-to-code/blob/main/blog/video-to-app.md)
+
 ## Configuration
 
 - You can configure the OpenAI base URL if you need to use a proxy: Set OPENAI_BASE_URL in the `backend/.env` or directly in the UI in the settings dialog
 
 ## Using Claude 3
 
-We recently added support for Claude 3 Sonnet. It performs well, on par or better than GPT-4 vision for many inputs, and it tends to be faster. 
+We recently added support for Claude 3 Sonnet. It performs well, on par or better than GPT-4 vision for many inputs, and it tends to be faster.
 
 1. Add an env var `ANTHROPIC_API_KEY` to `backend/.env` with your API key from Anthropic
 2. When using the front-end, select "Claude 3 Sonnet" from the model dropdown

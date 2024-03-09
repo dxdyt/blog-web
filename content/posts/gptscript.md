@@ -1,21 +1,26 @@
 ---
 title: gptscript
-date: 2024-02-19T12:15:48+08:00
+date: 2024-03-09T12:15:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707676408226-c6cec142358f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707676408226-c6cec142358f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707477291179-a9f31f833807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707477291179-a9f31f833807?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
 ---
 
 # [gptscript-ai/gptscript](https://github.com/gptscript-ai/gptscript)
 
 # GPTScript
 
+[![Discord](https://img.shields.io/discord/1204558420984864829?label=Discord)](https://discord.gg/9sSf4UyAMC)
+
 ## Overview
 
-GPTScript is a new scripting language to automate your interaction with a Large Language Model (LLM), namely OpenAI. The ultimate goal is to create a fully natural language based programming experience. The syntax of GPTScript is largely natural language, making it very easy to learn and use.
+GPTScript is a new scripting language to automate your interaction with a Large Language Model (LLM), namely OpenAI. The ultimate goal is to create a natural language programming experience. The syntax of GPTScript is largely natural language, making it very easy to learn and use.
 Natural language prompts can be mixed with traditional scripts such as bash and python or even external HTTP service
-calls. With GPTScript you can do just about anything like [plan a vacation](./examples/travel-agent.gpt),
+calls. With GPTScript you can do just about anything, like [plan a vacation](./examples/travel-agent.gpt),
 [edit a file](./examples/add-go-mod-dep.gpt), [run some SQL](./examples/sqlite-download.gpt), or [build a mongodb/flask app](./examples/hacker-news-headlines.gpt).
+
+| :memo: | We are currently exploring options for interacting with local models using GPTScript. |
+| ------ | :------------------------------------------------------------------------------------ |
 
 ```yaml
 # example.gpt
@@ -33,14 +38,18 @@ the result of that.
 
 When done remove the database file and the downloaded content.
 ```
-```
-$ gptscript ./example.gpt
 
+```shell
+$ gptscript ./example.gpt
+```
+
+```
 OUTPUT:
 
 The artist with the most number of albums in the database is Iron Maiden, with a total
 of 21 albums.
 ```
+
 ## Quick Start
 
 ### 1. Install the latest release
@@ -57,30 +66,66 @@ brew install gptscript-ai/tap/gptscript
 curl https://get.gptscript.ai/install.sh | sh
 ```
 
+### Scoop (Windows)
+
+```shell
+scoop bucket add extras # If 'extras' is not already enabled
+scoop install gptscript
+```
+
+#### WinGet (Windows)
+
+```shell
+winget install gptscript-ai.gptscript
+```
+
 #### Manually
 
 Download and install the archive for your platform and architecture from the [releases page](https://github.com/gptscript-ai/gptscript/releases).
 
 ### 2. Get an API key from [OpenAI](https://platform.openai.com/api-keys).
 
+#### macOS and Linux
+
 ```shell
 export OPENAI_API_KEY="your-api-key"
+```
+
+Alternatively Azure OpenAI can be utilized. If the [Azure deployment name is different than the model being used](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/switching-endpoints#keyword-argument-for-model), be sure to include the `OPENAI_AZURE_DEPLOYMENT` argument.
+
+```shell
+export OPENAI_API_KEY="your-api-key"
+export OPENAI_BASE_URL="https://<your-endpoint>.openai.azure.com/"
+export OPENAI_API_TYPE="AZURE"
+export OPENAI_AZURE_DEPLOYMENT="<your-deployment-name>"
+```
+
+#### Windows
+
+```powershell
+$env:OPENAI = 'your-api-key'
 ```
 
 ### 3. Run Hello World
 
 ```shell
 gptscript https://get.gptscript.ai/echo.gpt --input 'Hello, World!'
+```
 
+```
 OUTPUT:
 
 Hello, World!
 ```
+
 The model used by default is `gpt-4-turbo-preview` and you must have access to that model in your OpenAI account.
+
+If using Azure OpenAI, make sure you configure the model to be one of the supported versions with the `--default-model` argument.
 
 ### 4. Extra Credit: Examples and Run Debugging UI
 
 Clone examples and run debugging UI
+
 ```shell
 git clone https://github.com/gptscript-ai/gptscript
 cd gptscript/examples
@@ -91,13 +136,14 @@ gptscript --server
 
 ## How it works
 
-***GPTScript is composed of tools.*** Each tool performs a series of actions similar to a function. Tools have available
+**_GPTScript is composed of tools._** Each tool performs a series of actions similar to a function. Tools have available
 to them other tools that can be invoked similar to a function call. While similar to a function, the tools are
-primarily implemented with a natural language prompt. ***The interaction of the tools is determined by the AI model***,
+primarily implemented with a natural language prompt. **_The interaction of the tools is determined by the AI model_**,
 the model determines if the tool needs to be invoked and what arguments to pass. Tools are intended to be implemented
 with a natural language prompt but can also be implemented with a command or HTTP call.
 
 ### Example
+
 Below are two tool definitions, separated by `---`. The first tool does not require a name or description, but
 every tool after name and description are required. The first tool, has the parameter `tools: bob` meaning that the tool named `bob` is available to be called if needed.
 
@@ -113,14 +159,19 @@ args: question: The question to ask Bob.
 
 When asked how I am doing, respond with "Thanks for asking "${question}", I'm doing great fellow friendly AI tool!"
 ```
+
 Put the above content in a file named `bob.gpt` and run the following command:
+
 ```shell
 $ gptscript bob.gpt
+```
 
+```
 OUTPUT:
 
 Bob said, "Thanks for asking 'How are you doing?', I'm doing great fellow friendly AI tool!"
 ```
+
 Tools can be implemented by invoking a program instead of a natural language prompt. The below
 example is the same as the previous example but implements Bob using python.
 
@@ -147,9 +198,11 @@ or external services.
 ## GPT File Reference
 
 ### Extension
+
 GPTScript files use the `.gpt` extension by convention.
 
 ### File Structure
+
 A GPTScript file has one or more tools in the file. Each tool is separated by three dashes `---` alone on a line.
 
 ```yaml
@@ -179,9 +232,10 @@ Description: Tool description
 # This tool can invoke tool1 or tool2 if needed
 Tools: tool1, tool2
 Args: arg1: The description of arg1
-      
+
 Tool instructions go here.
 ```
+
 #### Tool Parameters
 
 Tool parameters are key-value pairs defined at the beginning of a tool block, before any instructional text. They are specified in the format `key: value`. The parser recognizes the following keys (case-insensitive and spaces are ignored):
@@ -232,7 +286,7 @@ description: A tool that echos the input
 args: input: The input
 
 #!/bin/bash
-        
+
 echo "${input}"
 ```
 
@@ -251,7 +305,7 @@ Join us on Discord: [![Discord](https://img.shields.io/discord/12045584209848648
 
 ## License
 
-Copyright (c) 2023 [Acorn Labs, Inc.](http://acorn.io)
+Copyright (c) 2024 [Acorn Labs, Inc.](http://acorn.io)
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
