@@ -1,9 +1,9 @@
 ---
 title: ZLUDA
-date: 2024-03-08T12:15:49+08:00
+date: 2024-03-10T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707672980546-3be1f182050f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707672980546-3be1f182050f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
 ---
 
 # [vosen/ZLUDA](https://github.com/vosen/ZLUDA)

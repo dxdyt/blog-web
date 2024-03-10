@@ -1,9 +1,9 @@
 ---
 title: electron
-date: 2023-09-01T12:17:30+08:00
+date: 2024-03-10T12:18:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691894875807-802d4d30d0fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM1NDE2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
 ---
 
 # [electron/electron](https://github.com/electron/electron)
@@ -19,8 +19,8 @@ View these docs in other languages on our [Crowdin](https://crowdin.com/project/
 
 The Electron framework lets you write cross-platform desktop applications
 using JavaScript, HTML and CSS. It is based on [Node.js](https://nodejs.org/) and
-[Chromium](https://www.chromium.org) and is used by the [Atom
-editor](https://github.com/atom/atom) and many other [apps](https://electronjs.org/apps).
+[Chromium](https://www.chromium.org) and is used by the [Visual Studio
+Code](https://github.com/Microsoft/vscode/) and many other [apps](https://electronjs.org/apps).
 
 Follow [@electronjs](https://twitter.com/electronjs) on Twitter for important
 announcements.
@@ -51,9 +51,9 @@ Each Electron release provides binaries for macOS, Windows, and Linux.
 * macOS (Catalina and up): Electron provides 64-bit Intel and ARM binaries for macOS. Apple Silicon support was added in Electron 11.
 * Windows (Windows 10 and up): Electron provides `ia32` (`x86`), `x64` (`amd64`), and `arm64` binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was [removed in Electron 23, in line with Chromium's Windows deprecation policy](https://www.electronjs.org/blog/windows-7-to-8-1-deprecation-notice).
 * Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
-  * Ubuntu 14.04 and newer
-  * Fedora 24 and newer
-  * Debian 8 and newer
+  * Ubuntu 18.04 and newer
+  * Fedora 32 and newer
+  * Debian 10 and newer
 
 ## Quick start & Electron Fiddle
 

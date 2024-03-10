@@ -1,16 +1,16 @@
 ---
 title: MeloTTS
-date: 2024-03-03T12:18:17+08:00
+date: 2024-03-10T12:15:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707066051008-ffbc2a517362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707066051008-ffbc2a517362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
 ---
 
 # [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS)
 
 <div align="center">
   <div>&nbsp;</div>
-  <img src="logo.png" width="200"/> 
+  <img src="logo.png" width="300"/> 
 </div>
 
 ## Introduction
@@ -41,15 +41,35 @@ The Python API and model cards can be found in [this repo](https://github.com/my
 
 ## Join the Community
 
-**Open Source AI Grant**
+**Discord**
 
-We are actively sponsoring open-source AI projects. The sponsorship includes GPU resources, fundings and intellectual support (collaboration with top research labs). We welcome both reseach and engineering projects, as long as the open-source community needs them. Please contact [Zengyi Qin](https://www.qinzy.tech/) if you are interested.
+Join our [Discord community](https://discord.gg/myshell) and select the `Developer` role upon joining to gain exclusive access to our developer-only channel! Don't miss out on valuable discussions and collaboration opportunities.
 
 **Contributing**
 
 If you find this work useful, please consider contributing to this repo.
 
 - Many thanks to [@fakerybakery](https://github.com/fakerybakery) for adding the Web UI and CLI part.
+
+## Authors
+
+- [Wenliang Zhao](https://wl-zhao.github.io) at Tsinghua University
+- [Xumin Yu](https://yuxumin.github.io) at Tsinghua University
+- [Zengyi Qin](https://www.qinzy.tech) at MIT and MyShell
+
+**Citation**
+```
+@software{zhao2024melo,
+  author={Zhao, Wenliang and Yu, Xumin and Qin, Zengyi},
+  title = {MeloTTS: High-quality Multi-lingual Multi-accent Text-to-Speech},
+  url = {https://github.com/myshell-ai/MeloTTS},
+  year = {2023}
+}
+```
+
+## TODO
+
+- Training code release.
 
 ## License
 
