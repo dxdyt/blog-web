@@ -1,0 +1,55 @@
+---
+title: rolldown
+date: 2024-03-11T12:16:23+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1707651020201-f8ccbb481361?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707651020201-f8ccbb481361?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+---
+
+# [rolldown/rolldown](https://github.com/rolldown/rolldown)
+
+<p align="center">
+  <a href="https://rolldown.rs" target="_blank" rel="noopener noreferrer">
+    <img width="180" src="https://rolldown.rs/rolldown-round.svg" alt="Rolldown logo">
+  </a>
+</p>
+
+> 🚧 **Work in Progress**
+>
+> Rolldown is currently in active development and not usable for production yet.
+
+# Rolldown
+
+Rolldown is a JavaScript bundler written in Rust intended to serve as the future bundler used in [Vite](https://vitejs.dev/). It provides Rollup-compatible APIs and plugin interface, but will be more similar to esbuild in scope.
+
+For more information, please check out the documentation at [rolldown.rs](https://rolldown.rs/about).
+
+# Contributing
+
+We would love to have more contributors involved!
+
+To get started, please read our [Contributing Guide](https://rolldown.rs/contrib-guide/).
+
+# Credits
+
+The Rolldown project is heavily inspired by:
+
+- [Rollup](https://github.com/rollup/rollup), created by [Rich Harris](https://github.com/Rich-Harris) and maintained by [Lukas Taegert-Atkinson](https://github.com/lukastaegert).
+- [esbuild](https://github.com/evanw/esbuild), created by [Evan Wallace](https://github.com/evanw).
+
+And supported by:
+
+- [napi-rs](https://github.com/napi-rs/napi-rs) for Node.js add-ons in Rust via Node-API.
+- [oxc](https://github.com/oxc-project/oxc) for the underlying parser and resolver.
+- [@parcel/sourcemap](https://github.com/parcel-bundler/source-map).
+
+# Licenses
+
+This project is licensed under the [MIT License](LICENSE).
+
+This project also partially contains code derived or copied from the following projects:
+
+- [rollup(MIT)](https://github.com/rollup/rollup/blob/680912e2ceb42c8d5e571e01c6ece0e4889aecbb/LICENSE-CORE.md)
+- [esbuild(MIT)](https://github.com/evanw/esbuild/blob/0c8a0a901d9a6c7bbff9b4dd347c8a3f65f6c6dd/LICENSE.md)
+
+Licenses of these projects are listed in [THIRD-PARTY-LICENSE](/THIRD-PARTY-LICENSE)

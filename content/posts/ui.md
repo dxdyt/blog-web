@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2024-03-10T12:15:31+08:00
+date: 2024-03-11T12:16:16+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1707372370553-185696a2a2ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1707372370553-185696a2a2ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1698965524945-cc6385d11d82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1698965524945-cc6385d11d82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [atherosai/ui](https://github.com/atherosai/ui)
@@ -43,4 +43,6 @@ The examples are posted here:
 * [Twitter](https://twitter.com/davidm_ml)
 * [Linkedin](https://www.linkedin.com/in/david-mraz/)
 * [Threads](https://www.threads.net/@davidm_ai)
+
+* Learn more at [Atheros Learning](https://learning.atheros.ai)! HTML and CSS course is coming this month!
 

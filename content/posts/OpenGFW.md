@@ -1,9 +1,9 @@
 ---
 title: OpenGFW
-date: 2024-02-09T12:17:00+08:00
+date: 2024-03-11T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705773335857-2c0a243a604a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705773335857-2c0a243a604a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [apernet/OpenGFW](https://github.com/apernet/OpenGFW)
@@ -18,8 +18,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1705773335857-2c0a243a60
 **[中文文档](README.zh.md)**
 **[日本語ドキュメント](README.ja.md)**
 
-OpenGFW is a flexible, easy-to-use, open source implementation of [GFW](https://en.wikipedia.org/wiki/Great_Firewall) on
-Linux that's in many ways more powerful than the real thing. It's cyber sovereignty you can have on a home router.
+OpenGFW is your very own DIY Great Firewall of China (https://en.wikipedia.org/wiki/Great_Firewall), available as a flexible, easy-to-use open source program on Linux. Why let the powers that be have all the fun? It's time to give power to the people and democratize censorship. Bring the thrill of cyber-sovereignty right into your home router and start filtering like a pro - you too can play Big Brother.
+
+Telegram group: https://t.me/OpGFW
 
 > [!CAUTION]
 > This project is still in very early stages of development. Use at your own risk.
@@ -30,9 +31,9 @@ Linux that's in many ways more powerful than the real thing. It's cyber sovereig
 ## Features
 
 - Full IP/TCP reassembly, various protocol analyzers
-  - HTTP, TLS, DNS, SSH, SOCKS4/5, WireGuard, and many more to come
+  - HTTP, TLS, QUIC, DNS, SSH, SOCKS4/5, WireGuard, and many more to come
   - "Fully encrypted traffic" detection for Shadowsocks,
-    etc. (https://gfw.report/publications/usenixsecurity23/data/paper/paper.pdf)
+    etc. (https://gfw.report/publications/usenixsecurity23/en/)
   - Trojan (proxy protocol) detection based on Trojan-killer (https://github.com/XTLS/Trojan-killer)
   - [WIP] Machine learning based traffic classification
 - Full IPv4 and IPv6 support
@@ -51,6 +52,7 @@ Linux that's in many ways more powerful than the real thing. It's cyber sovereig
 - Malware protection
 - Abuse prevention for VPN/proxy services
 - Traffic analysis (log only mode)
+- Help you fulfill your dictatorial ambitions
 
 ## Usage
 
@@ -67,11 +69,27 @@ export OPENGFW_LOG_LEVEL=debug
 ./OpenGFW -c config.yaml rules.yaml
 ```
 
+#### OpenWrt
+
+OpenGFW has been tested to work on OpenWrt 23.05 (other versions should also work, just not verified).
+
+Install the dependencies:
+
+```shell
+# For OpenWrt version 22.03 and later (nftables based firewall)
+opkg install kmod-nft-queue kmod-nf-conntrack-netlink
+
+# For OpenWrt versions prior to 22.03 (excluding 22.03, iptables based firewall)
+opkg install kmod-ipt-nfqueue iptables-mod-nfqueue kmod-nf-conntrack-netlink
+```
+
 ### Example config
 
 ```yaml
 io:
   queueSize: 1024
+  rcvBuf: 4194304
+  sndBuf: 4194304
   local: true # set to false if you want to run OpenGFW on FORWARD chain
 
 workers:
@@ -80,6 +98,12 @@ workers:
   tcpMaxBufferedPagesTotal: 4096
   tcpMaxBufferedPagesPerConn: 64
   udpMaxStreams: 4096
+
+# The path to load specific local geoip/geosite db files.
+# If not set, they will be automatically downloaded from https://github.com/Loyalsoldier/v2ray-rules-dat
+# geo:
+#   geoip: geoip.dat
+#   geosite: geosite.dat
 ```
 
 ### Example rules
@@ -90,6 +114,11 @@ For syntax of the expression language, please refer
 to [Expr Language Definition](https://expr-lang.org/docs/language-definition).
 
 ```yaml
+# A rule must have at least one of "action" or "log" field set.
+- name: log horny people
+  log: true
+  expr: let sni = string(tls?.req?.sni); sni contains "porn" || sni contains "hentai"
+
 - name: block v2ex http
   action: block
   expr: string(http?.req?.headers?.host) endsWith "v2ex.com"
@@ -98,8 +127,13 @@ to [Expr Language Definition](https://expr-lang.org/docs/language-definition).
   action: block
   expr: string(tls?.req?.sni) endsWith "v2ex.com"
 
-- name: block shadowsocks
+- name: block v2ex quic
   action: block
+  expr: string(quic?.req?.sni) endsWith "v2ex.com"
+
+- name: block and log shadowsocks
+  action: block
+  log: true
   expr: fet != nil && fet.yes
 
 - name: block trojan
@@ -130,6 +164,10 @@ to [Expr Language Definition](https://expr-lang.org/docs/language-definition).
 - name: block CN geoip
   action: block
   expr: geoip(string(ip.dst), "cn")
+
+- name: block cidr
+  action: block
+  expr: cidr(string(ip.dst), "192.168.0.0/16")
 ```
 
 #### Supported actions

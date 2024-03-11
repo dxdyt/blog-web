@@ -1,9 +1,9 @@
 ---
 title: mlx-examples
-date: 2024-01-08T12:19:00+08:00
+date: 2024-03-11T12:17:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701959345939-6cc64d0ca93d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples)
@@ -30,15 +30,24 @@ Some more useful examples are listed below.
 
 ### Image Models 
 
+- Image classification using [ResNets on CIFAR-10](cifar).
 - Generating images with [Stable Diffusion](stable_diffusion).
+- Convolutional variational autoencoder [(CVAE) on MNIST](cvae).
 
 ### Audio Models
 
 - Speech recognition with [OpenAI's Whisper](whisper).
 
+### Multimodal models
+
+- Joint text and image embeddings with [CLIP](clip).
+- Text generation from image and text inputs with [LLaVA](llava).
+
 ### Other Models 
 
 - Semi-supervised learning on graph-structured data with [GCN](gcn).
+- Real NVP [normalizing flow](normalizing_flow) for density estimation and
+  sampling.
 
 ### Hugging Face
 

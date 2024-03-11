@@ -1,14 +1,14 @@
 ---
 title: SUPIR
-date: 2024-02-17T12:18:34+08:00
+date: 2024-03-11T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705957231585-c092c8396c70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705957231585-c092c8396c70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708583625765-e02e3fb6621d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708583625765-e02e3fb6621d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [Fanghua-Yu/SUPIR](https://github.com/Fanghua-Yu/SUPIR)
 
-## Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild
+## (CVPR2024) Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild
 
 > [[Paper](https://arxiv.org/abs/2401.13627)] &emsp; [[Project Page](http://supir.xpixel.group/)] &emsp; [Online Demo (Coming soon)] <br>
 > Fanghua, Yu, [Jinjin Gu](https://www.jasongt.com/), Zheyuan Li, Jinfan Hu, Xiangtao Kong, [Xintao Wang](https://xinntao.github.io/), [Jingwen He](https://scholar.google.com.hk/citations?user=GUxrycUAAAAJ), [Yu Qiao](https://scholar.google.com.hk/citations?user=gFtI-8QAAAAJ), [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ) <br>
@@ -20,8 +20,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1705957231585-c092c8396c
 </p>
 
 ---
-## 🔧 Dependencies and Installation
+#### ⚠ Due to the large RAM (60G) and VRAM (30G x2) costs of SUPIR, we are working on the online demo releasing.
 
+---
+## 🔧 Dependencies and Installation
 
 1. Clone repo
     ```bash
@@ -38,20 +40,27 @@ featuredImagePreview: https://images.unsplash.com/photo-1705957231585-c092c8396c
     ```
 
 3. Download Checkpoints
+
+For users who can connect to huggingface, please setting `LLAVA_CLIP_PATH, SDXL_CLIP1_PATH, SDXL_CLIP2_CKPT_PTH` in `CKPT_PTH.py` as `None`. These CLIPs will be downloaded automatically. 
+
 #### Dependent Models
 * [SDXL CLIP Encoder-1](https://huggingface.co/openai/clip-vit-large-patch14)
 * [SDXL CLIP Encoder-2](https://huggingface.co/laion/CLIP-ViT-bigG-14-laion2B-39B-b160k)
 * [SDXL base 1.0_0.9vae](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/blob/main/sd_xl_base_1.0_0.9vae.safetensors)
 * [LLaVA CLIP](https://huggingface.co/openai/clip-vit-large-patch14-336)
 * [LLaVA v1.5 13B](https://huggingface.co/liuhaotian/llava-v1.5-13b)
+* (optional) [Juggernaut-XL_v9_RunDiffusionPhoto_v2](https://huggingface.co/RunDiffusion/Juggernaut-XL-v9/blob/main/Juggernaut-XL_v9_RunDiffusionPhoto_v2.safetensors)
+  * Replacement of `SDXL base 1.0_0.9vae` for Photo Realistic
+* (optional) [Juggernaut_RunDiffusionPhoto2_Lightning_4Steps](https://huggingface.co/RunDiffusion/Juggernaut-XL-Lightning/blob/main/Juggernaut_RunDiffusionPhoto2_Lightning_4Steps.safetensors)
+  * Distilling model used in `SUPIR_v0_Juggernautv9_lightning.yaml`
 
 
 #### Models we provided:
-* `SUPIR-v0Q`: (Coming Soon) Google Drive, Baidu Netdisk
+* `SUPIR-v0Q`: [Baidu Netdisk](https://pan.baidu.com/s/1lnefCZhBTeDWijqbj1jIyw?pwd=pjq6), [Google Drive](https://drive.google.com/drive/folders/1yELzm5SvAi9e7kPcO_jPp2XkTs4vK6aR?usp=sharing)
     
     Default training settings with paper. High generalization and high image quality in most cases.
 
-* `SUPIR-v0F`: (Coming Soon) Google Drive, Baidu Netdisk
+* `SUPIR-v0F`: [Baidu Netdisk](https://pan.baidu.com/s/1AECN8NjiVuE3hvO8o-Ua6A?pwd=k2uz), [Google Drive](https://drive.google.com/drive/folders/1yELzm5SvAi9e7kPcO_jPp2XkTs4vK6aR?usp=sharing)
 
     Training with light degradation settings. Stage1 encoder of `SUPIR-v0F` remains more details when facing light degradations.
 
@@ -63,11 +72,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1705957231585-c092c8396c
 ---
 
 ## ⚡ Quick Inference
-
+### Val Dataset
+RealPhoto60: [Baidu Netdisk](https://pan.baidu.com/s/1CJKsPGtyfs8QEVCQ97voBA?pwd=aocg), [Google Drive](https://drive.google.com/drive/folders/1yELzm5SvAi9e7kPcO_jPp2XkTs4vK6aR?usp=sharing)
 
 ### Usage of SUPIR
-
-```console
+```Shell
 Usage: 
 -- python test.py [options] 
 -- python gradio_demo.py [interactive options]
@@ -112,11 +121,20 @@ CUDA_VISIBLE_DEVICES=0,1 python test.py --img_dir '/opt/data/private/LV_Dataset/
 
 ### Gradio Demo
 ```Shell
-CUDA_VISIBLE_DEVICES=0,1 python gradio_demo.py --ip 0.0.0.0 --port 6688
+CUDA_VISIBLE_DEVICES=0,1 python gradio_demo.py --ip 0.0.0.0 --port 6688 --use_image_slider --log_history
+
+# Juggernaut_RunDiffusionPhoto2_Lightning_4Steps and DPM++ M2 SDE Karras for fast sampling
+CUDA_VISIBLE_DEVICES=0,1 python gradio_demo.py --ip 0.0.0.0 --port 6688 --use_image_slider --log_history --opt options/SUPIR_v0_Juggernautv9_lightning.yaml
+
+# less VRAM & slower (12G for Diffusion, 16G for LLaVA)
+CUDA_VISIBLE_DEVICES=0,1 python gradio_demo.py --ip 0.0.0.0 --port 6688 --use_image_slider --log_history --loading_half_params --use_tile_vae --load_8bit_llava
 ```
+<p align="center">
+  <img src="assets/DemoGuide.png">
+</p>
+
 
 ### Online Demo (Coming Soon)
-
 
 
 ---
@@ -131,5 +149,19 @@ CUDA_VISIBLE_DEVICES=0,1 python gradio_demo.py --ip 0.0.0.0 --port 6688
       primaryClass={cs.CV}
     }
 
+---
+
 ## 📧 Contact
 If you have any question, please email `fanghuayu96@gmail.com`.
+
+---
+## Non-Commercial Use Only Declaration
+The SUPIR ("Software") is made available for use, reproduction, and distribution strictly for non-commercial purposes. For the purposes of this declaration, "non-commercial" is defined as not primarily intended for or directed towards commercial advantage or monetary compensation.
+
+By using, reproducing, or distributing the Software, you agree to abide by this restriction and not to use the Software for any commercial purposes without obtaining prior written permission from Dr. Jinjin Gu.
+
+This declaration does not in any way limit the rights under any open source license that may apply to the Software; it solely adds a condition that the Software shall not be used for commercial purposes.
+
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+For inquiries or to obtain permission for commercial use, please contact Dr. Jinjin Gu (hellojasongt@gmail.com).

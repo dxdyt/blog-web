@@ -1,9 +1,9 @@
 ---
 title: anthropic-cookbook
-date: 2024-03-09T12:16:38+08:00
+date: 2024-03-11T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708026652083-3820f6242817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708026652083-3820f6242817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708295368743-e32e098e48a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708295368743-e32e098e48a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook)
@@ -38,7 +38,7 @@ If you have ideas for new examples or guides, share them on the [issues page](ht
 
 
 - [Tool use & function calling](https://github.com/anthropics/anthropic-cookbook/blob/main/function_calling/function_calling.ipynb): Learn how to integrate Claude with external tools and functions to extend its capabilities, including how to prompt Claude to [make SQL queries](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/how_to_make_sql_queries.ipynb).
-- [Retrieval augmented generation](https://github.com/anthropics/anthropic-cookbook/tree/main/third_party): Learn how to supplement Claude's knowledge and improve the accuracy and relevance of Claude's responses with data retrieved from [vector databases](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Pinecone/rag_using_pinecone.ipynb), [Wikipedia](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/wikipedia-search-cookbook.ipynb), and the [internet](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Brave/web_search_using_brave.ipynb).
+- [Retrieval augmented generation](https://github.com/anthropics/anthropic-cookbook/tree/main/third_party): Learn how to supplement Claude's knowledge and improve the accuracy and relevance of Claude's responses with data retrieved from [vector databases](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Pinecone/rag_using_pinecone.ipynb), [Wikipedia](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Wikipedia/wikipedia-search-cookbook.ipynb/), and the [internet](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/Brave/web_search_using_brave.ipynb).
 - [Embeddings](https://github.com/anthropics/anthropic-cookbook/blob/main/third_party/VoyageAI/how_to_create_embeddings.md): Learn how to use Voyage AI to handle embeddings.
 - [Use images with Claude](https://github.com/anthropics/anthropic-cookbook/tree/main/multimodal): This cookbook has tips on [getting started with images](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/getting_started_with_vision.ipynb) and [best practice techniques](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/best_practices_for_vision.ipynb) to ensure the highest quality performance with images. See how you can effectively prompt Claude with images to carry out tasks such as [interpreting and analyzing charts](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/reading_charts_graphs_powerpoints.ipynb) or [extracting content from forms](https://github.com/anthropics/anthropic-cookbook/blob/main/multimodal/how_to_trascribe_text.ipynb).
 - [Generate images with Claude](https://github.com/anthropics/anthropic-cookbook/blob/main/misc/how_to_generate_imgaes.ipynb): This cookbook will show you how to have Claude generate images via Stable Diffusion.

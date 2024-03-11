@@ -1,9 +1,9 @@
 ---
 title: Next-js-Boilerplate
-date: 2024-03-09T12:16:46+08:00
+date: 2024-03-11T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708356472352-4dcb5312ebcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708356472352-4dcb5312ebcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708295368743-e32e098e48a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708295368743-e32e098e48a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [ixartz/Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate)

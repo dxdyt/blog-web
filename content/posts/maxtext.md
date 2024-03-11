@@ -1,9 +1,9 @@
 ---
 title: maxtext
-date: 2024-03-10T12:17:36+08:00
+date: 2024-03-11T12:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708359495712-2cef26b73452?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708359495712-2cef26b73452?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706922926159-d32db3419657?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706922926159-d32db3419657?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
 ---
 
 # [google/maxtext](https://github.com/google/maxtext)
