@@ -1,9 +1,9 @@
 ---
 title: MeloTTS
-date: 2024-03-10T12:15:45+08:00
+date: 2024-03-12T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707653056939-5bf9eae73228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707653056939-5bf9eae73228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [myshell-ai/MeloTTS](https://github.com/myshell-ai/MeloTTS)
@@ -36,6 +36,7 @@ Some other features include:
 ## Usage
 - [Use without Installation](docs/quick_use.md)
 - [Install and Use Locally](docs/install.md)
+- [Training on Custom Dataset](docs/training.md)
 
 The Python API and model cards can be found in [this repo](https://github.com/myshell-ai/MeloTTS/blob/main/docs/install.md#python-api) or on [HuggingFace](https://huggingface.co/myshell-ai).
 
@@ -66,10 +67,6 @@ If you find this work useful, please consider contributing to this repo.
   year = {2023}
 }
 ```
-
-## TODO
-
-- Training code release.
 
 ## License
 

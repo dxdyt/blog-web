@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-02-26T12:17:18+08:00
+date: 2024-03-12T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708422413256-863fbbc89d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708422413256-863fbbc89d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg5MjA5MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704519839001-c041db1f07f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704519839001-c041db1f07f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
@@ -34,9 +34,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1708422413256-863fbbc89d
 
 |    |    |    |    |    |    |    |    |    |
 |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
-| [#](#-technologies)  | [A](#a-technologies)  | [B](#b-technologies)  | [C](#c-technologies)  | [D](#d-technologies)  | [E](#e-technologies)  | [F](#f-technologies)  | [G](#g-technologies)  | [H](#h-technologies)  |
-| [I](#i-technologies)  | [J](#j-technologies)  | [K](#k-technologies)  | [L](#l-technologies)  | [M](#m-technologies)  | [N](#n-technologies)  | [O](#o-technologies)  | [P](#p-technologies)  | [Q](#q-technologies)  |
-| [R](#r-technologies)  | [S](#s-technologies)  | [T](#t-technologies)  | [U](#u-technologies)  | [V](#v-technologies)  | [W](#w-technologies)  | [X](#x-technologies)  | [Y](#y-technologies)  | [Z](#z-technologies) |
+| [#](#-technologies)  | [A](#a-technologies)  | [B](#b-technologies)  | [C](#c-technologies)  | [](#d-technologies)  | [](#e-technologies)  | [](#f-technologies)  | [G](#g-technologies)  | [H](#h-technologies)  |
+| [](#i-technologies)  | [](#j-technologies)  | [](#k-technologies)  | [](#l-technologies)  | [M](#m-technologies)  | [](#n-technologies)  | [](#o-technologies)  | [](#p-technologies)  | [Q](#q-technologies)  |
+| [](#r-technologies)  | [S](#s-technologies)  | [](#t-technologies)  | [](#u-technologies)  | [](#v-technologies)  | [](#w-technologies)  | [](#x-technologies)  | [](#y-technologies)  | [](#z-technologies) |
 
 ---
 
@@ -56,6 +56,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1708422413256-863fbbc89d
 - [How to Scale an App to 10 Million Users on AWS](https://newsletter.systemdesign.one/p/aws-scale)
 - [This Is How Airbnb Adopted HTTP Streaming to Save 84 Million USD in Costs](https://newsletter.systemdesign.one/p/what-is-critical-rendering-path)
 - [Amazon Prime Video Microservices Top Failure](https://newsletter.systemdesign.one/p/prime-video-microservices)
+- [How Amazon S3 Achieves 99.999999999% Durability](https://newsletter.systemdesign.one/p/amazon-s3-durability)
 
 #### B companies
 

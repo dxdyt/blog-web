@@ -1,12 +1,16 @@
 ---
 title: yazi
-date: 2024-02-05T12:19:07+08:00
+date: 2024-03-12T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704311572256-93e885ad095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704311572256-93e885ad095b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708585948246-6067272a0992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708585948246-6067272a0992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [sxyazi/yazi](https://github.com/sxyazi/yazi)
+
+<div align="center">
+  <img src="assets/logo.png" alt="Yazi logo" width="20%">
+</div>
 
 ## Yazi - ⚡️ Blazing Fast Terminal File Manager
 
@@ -18,10 +22,10 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 - 💪 **Powerful Async Task Scheduling and Management**: Provides real-time progress updates, task cancellation, and internal task priority assignment.
 - 🖼️ **Built-in Support for Multiple Image Protocols**: Also integrated with Überzug++, covering almost all terminals.
 - 🌟 **Built-in Code Highlighting and Image Decoding**: Combined with the pre-loading mechanism, greatly accelerates image and normal file loading.
-- 🔌 **Concurrent Plugin System**: UI plugins (rewriting most of the UI), functional plugins (coming soon), custom previewer, and custom preloader; Just some pieces of Lua.
+- 🔌 **Concurrent Plugin System**: UI plugins (rewriting most of the UI), functional plugins, custom previewer, and custom preloader; Just some pieces of Lua.
 - 🧰 Integration with fd, rg, fzf, zoxide
-- 💫 Vim-like input/select component, auto-completion for cd paths
-- 🏷️ Multi-Tab Support, Scrollable Preview (for videos, PDFs, archives, directories, code, etc.)
+- 💫 Vim-like input/select/notify component, auto-completion for cd paths
+- 🏷️ Multi-Tab Support, Cross-directory selection, Scrollable Preview (for videos, PDFs, archives, directories, code, etc.)
 - 🔄 Bulk Renaming, Visual Mode, File Chooser
 - 🎨 Theme System, Custom Layouts, Trash Bin, CSI u
 - ... and more!
@@ -52,23 +56,14 @@ https://github.com/sxyazi/yazi/assets/17523360/92ff23fa-0cd5-4f04-b387-894c12265
 | foot              | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
 | Ghostty           | [Kitty old protocol](https://github.com/sxyazi/yazi/blob/main/yazi-adaptor/src/kitty_old.rs)          | ✅ Built-in           |
 | Black Box         | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
-| Tabby             | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
-| Hyper             | [Sixel graphics format](https://www.vt100.net/docs/vt3xx-gp/chapter14.html)                           | ✅ Built-in           |
+| VSCode            | [Inline images protocol](https://iterm2.com/documentation-images.html)                                | ✅ Built-in           |
+| Tabby             | [Inline images protocol](https://iterm2.com/documentation-images.html)                                | ✅ Built-in           |
+| Hyper             | [Inline images protocol](https://iterm2.com/documentation-images.html)                                | ✅ Built-in           |
 | X11 / Wayland     | Window system protocol                                                                                | ☑️ Überzug++ required |
 | Fallback          | [Chafa](https://hpjansson.org/chafa/)                                                                 | ☑️ Überzug++ required |
 
-Yazi automatically selects the appropriate preview method for you, based on the priority from top to bottom.
-That's relying on the `$TERM`, `$TERM_PROGRAM`, and `$XDG_SESSION_TYPE` variables, make sure you don't overwrite them by mistake!
-
-For instance, if your terminal is Alacritty, which doesn't support displaying images itself, but you are running on an X11/Wayland environment,
-it will automatically use the "Window system protocol" to display images -- this requires you to have [Überzug++](https://github.com/jstkdng/ueberzugpp) installed.
-
-Here is a guide for tmux users: [Image preview within tmux](https://github.com/sxyazi/yazi/wiki/Image-preview-within-tmux)
-
-## TODO
-
-See [Feature requests](https://github.com/sxyazi/yazi/issues/51) for more details.
+See https://yazi-rs.github.io/docs/image-preview for details.
 
 ## License
 
-Yazi is MIT licensed. For more information check the [LICENSE](LICENSE) file.
+Yazi is MIT-licensed. For more information check the [LICENSE](LICENSE) file.

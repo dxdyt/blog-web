@@ -1,9 +1,9 @@
 ---
 title: electron
-date: 2024-03-10T12:18:36+08:00
+date: 2024-03-12T12:20:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708977667084-5270a9bb1be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709848770676-b6f8a50dee1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709848770676-b6f8a50dee1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [electron/electron](https://github.com/electron/electron)

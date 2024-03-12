@@ -1,9 +1,9 @@
 ---
 title: Hyprland
-date: 2023-10-30T12:17:29+08:00
+date: 2024-03-12T12:20:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698350335067-d44252583526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698350335067-d44252583526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg2MzkzMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709777161731-4b96c90a16a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709777161731-4b96c90a16a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
@@ -51,6 +51,7 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 - Much more QoL stuff than other wlr-based compositors
 - Custom bezier curves for the best animations
 - Powerful plugin support
+- Built-in plugin manager
 - Tearing support for better gaming performance
 - Easily expandable and readable codebase
 - Fast and active development
@@ -133,13 +134,13 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 [Wayfire]: https://github.com/WayfireWM/wayfire
 [TinyWl]: https://gitlab.freedesktop.org/wlroots/wlroots/-/blob/master/tinywl/tinywl.c
 [Sway]: https://github.com/swaywm/sway
-[DWL]: https://github.com/djpohly/dwl
+[DWL]: https://codeberg.org/dwl/dwl
 
 <!----------------------------------{ Images }--------------------------------->
 
 [Stars Preview]: https://starchart.cc/vaxerski/Hyprland.svg
-[Preview A]: https://cdn.discordapp.com/attachments/1091569872535814185/1107675866101723277/screenshot-summer.png
-[Preview B]: https://i.ibb.co/SX7GbYR/winter-rice.png
+[Preview A]: https://i.ibb.co/C1yTb0r/falf.png
+[Preview B]: https://cdn.discordapp.com/attachments/1091569872535814185/1107675866101723277/screenshot-summer.png
 [Preview C]: https://i.ibb.co/B3GJg28/20221126-20h53m26s-grim.png
 
 

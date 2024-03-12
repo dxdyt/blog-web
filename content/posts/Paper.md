@@ -1,9 +1,9 @@
 ---
 title: Paper
-date: 2023-09-12T12:17:38+08:00
+date: 2024-03-12T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692650787358-b2dfb445c2d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709761402478-52114c2df7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709761402478-52114c2df7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [PaperMC/Paper](https://github.com/PaperMC/Paper)
@@ -18,7 +18,7 @@ The most widely used, high-performance Minecraft server that aims to fix gamepla
 
 
 **Support and Project Discussion:**
-- [Our forums](https://forums.papermc.io/), [Discord](https://discord.gg/papermc), or [IRC](https://webchat.esper.net/?channels=paper)
+- [Our forums](https://forums.papermc.io/) or [Discord](https://discord.gg/papermc)
 
 How To (Server Admins)
 ------
@@ -50,7 +50,7 @@ How To (Plugin Developers)
 <dependency>
     <groupId>io.papermc.paper</groupId>
     <artifactId>paper-api</artifactId>
-    <version>1.20.1-R0.1-SNAPSHOT</version>
+    <version>1.20.4-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -63,7 +63,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.20.1-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.20.4-R0.1-SNAPSHOT")
 }
 
 java {

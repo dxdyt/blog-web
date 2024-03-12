@@ -1,9 +1,9 @@
 ---
 title: rolldown
-date: 2024-03-11T12:16:23+08:00
+date: 2024-03-12T12:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707651020201-f8ccbb481361?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707651020201-f8ccbb481361?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708338168854-46b5958a5173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708338168854-46b5958a5173?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [rolldown/rolldown](https://github.com/rolldown/rolldown)

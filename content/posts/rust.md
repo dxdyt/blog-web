@@ -1,9 +1,9 @@
 ---
 title: rust
-date: 2024-03-11T12:19:19+08:00
+date: 2024-03-12T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709049017472-1c0575b57805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709049017472-1c0575b57805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709848770676-b6f8a50dee1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709848770676-b6f8a50dee1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
 # [rust-lang/rust](https://github.com/rust-lang/rust)

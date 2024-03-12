@@ -1,48 +1,27 @@
 ---
 title: ui
-date: 2024-03-11T12:16:16+08:00
+date: 2024-03-12T12:19:52+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1698965524945-cc6385d11d82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1698965524945-cc6385d11d82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708660758299-40bdc5b87f98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708660758299-40bdc5b87f98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
 ---
 
-# [atherosai/ui](https://github.com/atherosai/ui)
+# [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
 
-This is repository with examples of simple UI components. The repository is based on Next.js and React.js. 
+# shadcn/ui
 
-# installation
+Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 
-* Clone the repo with
-```
-git clone git@github.com:atherosai/ui.git
-```
+![hero](apps/www/public/og.jpg)
 
-# For HTML/CSS/JS
+## Documentation
 
-Just navigate to the folder with your chosen example and open html file in the browser.
+Visit http://ui.shadcn.com/docs to view the documentation.
 
-# For React Examples
+## Contributing
 
-* Install npm packages
-```
-npm i 
-```
-* Run development mode
-```
-npm run dev
-```
+Please read the [contributing guide](/CONTRIBUTING.md).
 
-Now the app is accessible at ```localhost:3000```
+## License
 
-# My Social Media
-The examples are posted here:
-
-* [TikTok](https://www.tiktok.com/@davidm_ai)
-* [Instagram](https://www.instagram.com/davidm_ai/)
-* [Youtube](https://www.youtube.com/@Atheroslearning)
-* [Twitter](https://twitter.com/davidm_ml)
-* [Linkedin](https://www.linkedin.com/in/david-mraz/)
-* [Threads](https://www.threads.net/@davidm_ai)
-
-* Learn more at [Atheros Learning](https://learning.atheros.ai)! HTML and CSS course is coming this month!
-
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
