@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-03-12T12:18:18+08:00
+date: 2024-03-13T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704519839001-c041db1f07f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704519839001-c041db1f07f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709456759370-c95738e766aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709456759370-c95738e766aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
@@ -26,7 +26,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1704519839001-c041db1f07
 |     |     |     |     |     |     |     |     |     |
 |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
 | [#](#-companies)  | [A](#a-companies)  | [B](#b-companies)  | [C](#c-companies)  | [D](#d-companies)  | [](#e-companies)  | [](#f-companies)  | [G](#g-companies)  | [H](#h-companies)  |
-| [](#i-companies)  | [](#j-companies)  | [](#k-companies)  | [L](#l-companies)  | [](#m-companies)  | [N](#n-companies)  | [](#o-companies)  | [P](#p-companies)  | [Q](#q-companies)  |
+| [](#i-companies)  | [](#j-companies)  | [K](#k-companies)  | [L](#l-companies)  | [](#m-companies)  | [N](#n-companies)  | [](#o-companies)  | [P](#p-companies)  | [Q](#q-companies)  |
 | [](#r-companies)  | [S](#s-companies)  | [T](#t-companies)  | [U](#u-companies)  | [V](#v-companies)  | [W](#w-companies)  | [](#x-companies)  | [Y](#y-companies)  | [Z](#z-companies)   |
 
 
@@ -80,6 +80,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1704519839001-c041db1f07
 #### H companies
 
 - [How Hashnode Generates Feed at Scale](https://newsletter.systemdesign.one/p/feed-architecture)
+
+
+#### K companies
+
+- [How Khan Academy Scaled to 30 Million Users](https://newsletter.systemdesign.one/p/khan-academy-architecture)
 
 #### L companies
 

@@ -1,101 +1,491 @@
 ---
 title: fabric
-date: 2024-02-14T12:18:06+08:00
+date: 2024-03-13T12:15:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707305318944-0dd559c12789?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707305318944-0dd559c12789?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709456759370-c95738e766aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709456759370-c95738e766aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
 ---
 
-# [hyperledger/fabric](https://github.com/hyperledger/fabric)
+# [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
 
-# Hyperledger Fabric
+<div align="center">
 
-[![Build Status](https://dev.azure.com/Hyperledger/Fabric/_apis/build/status/Merge?branchName=main)](https://dev.azure.com/Hyperledger/Fabric/_build/latest?definitionId=51&branchName=main)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/955/badge)](https://bestpractices.coreinfrastructure.org/projects/955)
-[![Go Report Card](https://goreportcard.com/badge/github.com/hyperledger/fabric)](https://goreportcard.com/report/github.com/hyperledger/fabric)
-[![GoDoc](https://godoc.org/github.com/hyperledger/fabric?status.svg)](https://godoc.org/github.com/hyperledger/fabric)
-[![Documentation Status](https://readthedocs.org/projects/hyperledger-fabric/badge/?version=latest)](http://hyperledger-fabric.readthedocs.io/en/latest)
+<img src="./images/fabric-logo-gif.gif" alt="fabriclogo" width="400" height="400"/>
 
-This project is a _Graduated_ Hyperledger project. For more information on the history of this project, see the [Fabric wiki page](https://wiki.hyperledger.org/display/fabric). Information on what _Graduated_ entails can be found in
-the [Hyperledger Project Lifecycle document](https://tsc.hyperledger.org/project-lifecycle.html).
-Hyperledger Fabric is a platform for distributed ledger solutions underpinned
-by a modular architecture delivering high degrees of confidentiality,
-resiliency, flexibility, and scalability. It is designed to support pluggable
-implementations of different components and accommodate the complexity and
-intricacies that exist across the economic ecosystem.
+# `fabric`
 
-Hyperledger Fabric delivers a uniquely elastic and extensible architecture,
-distinguishing it from alternative blockchain solutions. Planning for the
-future of enterprise blockchain requires building on top of a fully-vetted,
-open-source architecture; Hyperledger Fabric is your starting point.
+![Static Badge](https://img.shields.io/badge/mission-human_flourishing_via_AI_augmentation-purple)
+<br />
+![GitHub top language](https://img.shields.io/github/languages/top/danielmiessler/fabric)
+![GitHub last commit](https://img.shields.io/github/last-commit/danielmiessler/fabric)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
-## Releases
+<p class="align center">
+<h4><code>fabric</code> is an open-source framework for augmenting humans using AI.</h4>
+</p>
 
-Fabric provides periodic releases with new features
-and improvements. Additionally, certain releases are designated as long-term
-support (LTS) releases. Important fixes will be backported to the most recent
-LTS release, and to the prior LTS release during periods of LTS release overlap.
-For more details see the [LTS strategy](https://github.com/hyperledger/fabric-rfcs/blob/main/text/0005-lts-release-strategy.md).
+[Introduction Video](#introduction-video) •
+[What and Why](#whatandwhy) •
+[Philosophy](#philosophy) •
+[Quickstart](#quickstart) •
+[Structure](#structure) •
+[Examples](#examples) •
+[Meta](#meta)
 
-Current LTS release:
-- [v2.5.x](https://hyperledger-fabric.readthedocs.io/en/release-2.5/whatsnew.html)
+</div>
 
-Prior LTS release:
-- [v2.2.x](https://hyperledger-fabric.readthedocs.io/en/release-2.2/whatsnew.html) (maintained through December 2023)
+## Navigation
 
-Historic LTS releases:
-- [v1.4.x](https://hyperledger-fabric.readthedocs.io/en/release-1.4/whatsnew.html) (maintenance ended in April 2021 with the delivery of v1.4.12)
+- [Introduction Video](#introduction-video)
+- [What and Why](#what-and-why)
+- [Philosophy](#philosophy)
+  - [Breaking problems into components](#breaking-problems-into-components)
+  - [Too many prompts](#too-many-prompts)
+  - [The Fabric approach to prompting](#our-approach-to-prompting)
+- [Quickstart](#quickstart)
+  - [Setting up the fabric commands](#setting-up-the-fabric-commands)
+  - [Using the fabric client](#using-the-fabric-client)
+  - [Just use the Patterns](#just-use-the-patterns)
+  - [Create your own Fabric Mill](#create-your-own-fabric-mill)
+- [Structure](#structure)
+  - [Components](#components)
+  - [CLI-native](#cli-native)
+  - [Directly calling Patterns](#directly-calling-patterns)
+- [Examples](#examples)
+- [Meta](#meta)
+  - [Primary contributors](#primary-contributors)
 
-Unless specified otherwise, all releases will be upgradable from the prior minor release.
-Additionally, each LTS release is upgradable to the next LTS release.
+<br />
 
-Fabric releases and release notes can be found on the [GitHub releases page](https://github.com/hyperledger/fabric/releases).
+> [!NOTE]  
+> We are adding functionality to the project so often that you should update often as well. That means: `git pull; ./setup.sh; fabric --update` in the main directory, and then sourcing your shell files and/or restarting your terminal. So exciting!
 
-Please visit the [GitHub issues with Epic label](https://github.com/hyperledger/fabric/labels/Epic) for our release roadmap.
+**March 11, 2024** — We just added support for Claude, local models via Ollama, and a number of new Patterns. Be sure to update and check `fabric -h` for the latest!
 
-## Documentation, Getting Started and Developer Guides
+## Introduction video
 
-Please visit our
-online documentation for
-information on getting started using and developing with the fabric, SDK and chaincode:
-- [v2.5](http://hyperledger-fabric.readthedocs.io/en/release-2.5/)
-- [v2.4](http://hyperledger-fabric.readthedocs.io/en/release-2.4/)
-- [v2.3](http://hyperledger-fabric.readthedocs.io/en/release-2.3/)
-- [v2.2](http://hyperledger-fabric.readthedocs.io/en/release-2.2/)
-- [v2.1](http://hyperledger-fabric.readthedocs.io/en/release-2.1/)
-- [v2.0](http://hyperledger-fabric.readthedocs.io/en/release-2.0/)
-- [v1.4](http://hyperledger-fabric.readthedocs.io/en/release-1.4/)
-- [v1.3](http://hyperledger-fabric.readthedocs.io/en/release-1.3/)
-- [v1.2](http://hyperledger-fabric.readthedocs.io/en/release-1.2/)
-- [v1.1](http://hyperledger-fabric.readthedocs.io/en/release-1.1/)
-- [main branch (development)](http://hyperledger-fabric.readthedocs.io/en/latest/)
+<div align="center">
+<a href="https://youtu.be/wPEyyigh10g">
+  <img width="972" alt="fabric_intro_video" src="https://github.com/danielmiessler/fabric/assets/50654/1eb1b9be-0bab-4c77-8ed2-ed265e8a3435">
+</a>
+</div>
 
-It's recommended for first-time users to begin by going through the Getting Started section of the documentation in order to gain familiarity with the Hyperledger Fabric components and the basic transaction flow.
+## What and why
 
-## Contributing
+Since the start of 2023 and GenAI we've seen a massive number of AI applications for accomplishing tasks. It's powerful, but _it's not easy to integrate this functionality into our lives._
 
-We welcome contributions to the Hyperledger Fabric project in many forms.
-There’s always plenty to do! Check [the documentation on how to contribute to this project](http://hyperledger-fabric.readthedocs.io/en/latest/CONTRIBUTING.html)
-for the full details.
+<div align="center">
+<h4>In other words, AI doesn't have a capabilities problem—it has an <em>integration</em> problem.</h4>
+</div>
 
-## Community
+Fabric was created to address this by enabling everyone to granularly apply AI to everyday challenges.
 
-[Hyperledger Community](https://www.meetup.com/pro/hyperledger/)
+## Philosophy
 
-[Hyperledger mailing lists and archives](http://lists.hyperledger.org/)
+> AI isn't a thing; it's a _magnifier_ of a thing. And that thing is **human creativity**.
 
-[Hyperledger Discord Chat](https://discord.com/invite/hyperledger)
+We believe the purpose of technology is to help humans flourish, so when we talk about AI we start with the **human** problems we want to solve.
 
-[Hyperledger Fabric Issue Tracking (GitHub Issues)](https://github.com/hyperledger/fabric/issues)
+### Breaking problems into components
 
-[Hyperledger Fabric Wiki](https://wiki.hyperledger.org/display/Fabric)
+Our approach is to break problems into individual pieces (see below) and then apply AI to them one at a time. See below for some examples.
 
-[Hyperledger Wiki](https://wiki.hyperledger.org/)
+<img width="2078" alt="augmented_challenges" src="https://github.com/danielmiessler/fabric/assets/50654/31997394-85a9-40c2-879b-b347e4701f06">
 
-[Hyperledger Code of Conduct](https://wiki.hyperledger.org/display/HYP/Hyperledger+Code+of+Conduct)
+### Too many prompts
 
-[Community Calendar](https://wiki.hyperledger.org/display/HYP/Calendar+of+Public+Meetings)
+Prompts are good for this, but the biggest challenge I faced in 2023——which still exists today—is **the sheer number of AI prompts out there**. We all have prompts that are useful, but it's hard to discover new ones, know if they are good or not, _and manage different versions of the ones we like_.
 
-## License <a name="license"></a>
+One of <code>fabric</code>'s primary features is helping people collect and integrate prompts, which we call _Patterns_, into various parts of their lives.
 
-Hyperledger Project source code files are made available under the Apache License, Version 2.0 (Apache-2.0), located in the [LICENSE](LICENSE) file. Hyperledger Project documentation files are made available under the Creative Commons Attribution 4.0 International License (CC-BY-4.0), available at http://creativecommons.org/licenses/by/4.0/.
+Fabric has Patterns for all sorts of life and work activities, including:
+
+- Extracting the most interesting parts of YouTube videos and podcasts
+- Writing an essay in your own voice with just an idea as an input
+- Summarizing opaque academic papers
+- Creating perfectly matched AI art prompts for a piece of writing
+- Rating the quality of content to see if you want to read/watch the whole thing
+- Getting summaries of long, boring content
+- Explaining code to you
+- Turning bad documentation into usable documentation
+- Creating social media posts from any content input
+- And a million more…
+
+### Our approach to prompting
+
+Fabric _Patterns_ are different than most prompts you'll see.
+
+- **First, we use `Markdown` to help ensure maximum readability and editability**. This not only helps the creator make a good one, but also anyone who wants to deeply understand what it does. _Importantly, this also includes the AI you're sending it to!_
+
+Here's an example of a Fabric Pattern.
+
+```bash
+https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
+```
+
+<img width="1461" alt="pattern-example" src="https://github.com/danielmiessler/fabric/assets/50654/b910c551-9263-405f-9735-71ca69bbab6d">
+
+- **Next, we are extremely clear in our instructions**, and we use the Markdown structure to emphasize what we want the AI to do, and in what order.
+
+- **And finally, we tend to use the System section of the prompt almost exclusively**. In over a year of being heads-down with this stuff, we've just seen more efficacy from doing that. If that changes, or we're shown data that says otherwise, we will adjust.
+
+## Quickstart
+
+The most feature-rich way to use Fabric is to use the `fabric` client, which can be found under <a href="https://github.com/danielmiessler/fabric/tree/main/client">`/client`</a> directory in this repository.
+
+### Setting up the fabric commands
+
+Follow these steps to get all fabric related apps installed and configured.
+
+1. Navigate to where you want the Fabric project to live on your system in a semi-permanent place on your computer.
+
+```bash
+# Find a home for Fabric
+cd /where/you/keep/code
+```
+
+2. Clone the project to your computer.
+
+```bash
+# Clone Fabric to your computer
+git clone https://github.com/danielmiessler/fabric.git
+```
+
+3. Enter Fabric's main directory
+
+```bash
+# Enter the project folder (where you cloned it)
+cd fabric
+```
+
+4. Ensure the `setup.sh` script is executable. If you're not sure, you can make it executable by running the following command:
+
+```bash
+chmod +x setup.sh
+```
+
+5. Install poetry
+
+ref.: https://python-poetry.org/docs/#installing-with-the-official-installer
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+6. Run the `setup.sh`, which will do the following:
+
+- Installs python dependencies.
+- Creates aliases in your OS. It should update `~/.bashrc`, `/.zshrc`, and `~/.bash_profile` if they are present in your file system.
+
+```bash
+./setup.sh
+```
+
+7. Restart your shell to reload everything.
+
+8. Set your `OPENAI_API_KEY`.
+
+```bash
+fabric --setup
+```
+
+You'll be asked to enter your OpenAI API key, which will be written to `~/.config/fabric/.env`. Patterns will then be downloaded from Github, which will take a few moments.
+
+9. Now you are up and running! You can test by pulling the help.
+
+```bash
+# Making sure the paths are set up correctly
+fabric --help
+```
+
+> [!NOTE]  
+> If you're using the `server` functions, `fabric-api` and `fabric-webui` need to be run in distinct terminal windows.
+
+### Using the `fabric` client
+
+Once you have it all set up, here's how to use it.
+
+1. Check out the options
+   `fabric -h`
+
+```bash
+fabric [-h] [--text TEXT] [--copy] [--agents {trip_planner,ApiKeys}]
+              [--output [OUTPUT]] [--stream] [--list] [--clear] [--update]
+              [--pattern PATTERN] [--setup]
+              [--changeDefaultModel CHANGEDEFAULTMODEL] [--model MODEL]
+              [--listmodels] [--context]
+
+An open source framework for augmenting humans using AI.
+
+options:
+  -h, --help            show this help message and exit
+  --text TEXT, -t TEXT  Text to extract summary from
+  --copy, -C            Copy the response to the clipboard
+  --agents {trip_planner,ApiKeys}, -a {trip_planner,ApiKeys}
+                        Use an AI agent to help you with a task. Acceptable
+                        values are 'trip_planner' or 'ApiKeys'. This option
+                        cannot be used with any other flag.
+  --output [OUTPUT], -o [OUTPUT]
+                        Save the response to a file
+  --stream, -s          Use this option if you want to see the results in
+                        realtime. NOTE: You will not be able to pipe the
+                        output into another command.
+  --list, -l            List available patterns
+  --clear               Clears your persistent model choice so that you can
+                        once again use the --model flag
+  --update, -u          Update patterns
+  --pattern PATTERN, -p PATTERN
+                        The pattern (prompt) to use
+  --setup               Set up your fabric instance
+  --changeDefaultModel CHANGEDEFAULTMODEL
+                        Change the default model. Your choice will be saved in
+                        ~/.config/fabric/.env). For a list of available
+                        models, use the --listmodels flag.
+  --model MODEL, -m MODEL
+                        Select the model to use. NOTE: Will not work if you
+                        have set a default model. please use --clear to clear
+                        persistence before using this flag
+  --listmodels          List all available models
+  --context, -c         Use Context file (context.md) to add context to your
+                        pattern
+```
+
+#### Example commands
+
+The client, by default, runs Fabric patterns without needing a server (the Patterns were downloaded during setup). This means the client connects directly to OpenAI using the input given and the Fabric pattern used.
+
+1. Run the `summarize` Pattern based on input from `stdin`. In this case, the body of an article.
+
+```bash
+pbpaste | fabric --pattern summarize
+```
+
+2. Run the `analyze_claims` Pattern with the `--stream` option to get immediate and streaming results.
+
+```bash
+pbpaste | fabric --stream --pattern analyze_claims
+```
+
+3. **new** All of the patterns have been added as aliases to your bash (or zsh) config file
+
+```bash
+pbpaste | analyze_claims --stream
+```
+
+> [!NOTE]  
+> More examples coming in the next few days, including a demo video!
+
+### Just use the Patterns
+
+<img width="1173" alt="fabric-patterns-screenshot" src="https://github.com/danielmiessler/fabric/assets/50654/9186a044-652b-4673-89f7-71cf066f32d8">
+
+<br />
+
+If you're not looking to do anything fancy, and you just want a lot of great prompts, you can navigate to the [`/patterns`](https://github.com/danielmiessler/fabric/tree/main/patterns) directory and start exploring!
+
+We hope that if you used nothing else from Fabric, the Patterns by themselves will make the project useful.
+
+You can use any of the Patterns you see there in any AI application that you have, whether that's ChatGPT or some other app or website. Our plan and prediction is that people will soon be sharing many more than those we've published, and they will be way better than ours.
+
+The wisdom of crowds for the win.
+
+### Create your own Fabric Mill
+
+<img width="2070" alt="fabric_mill_architecture" src="https://github.com/danielmiessler/fabric/assets/50654/ec3bd9b5-d285-483d-9003-7a8e6d842584">
+
+<br />
+
+But we go beyond just providing Patterns. We provide code for you to build your very own Fabric server and personal AI infrastructure!
+
+To get started, just run the `./setup.sh` file and it'll set up the client, the API server, and the API server web interface. The output of the setup command will also tell you how to run the commands to start them.
+
+## Structure
+
+Fabric is themed off of, well… _fabric_—as in…woven materials. So, think blankets, quilts, patterns, etc. Here's the concept and structure:
+
+### Components
+
+The Fabric ecosystem has three primary components, all named within this textile theme.
+
+- The **Mill** is the (optional) server that makes **Patterns** available.
+- **Patterns** are the actual granular AI use cases (prompts).
+- **Stitches** are chained together _Patterns_ that create advanced functionality (see below).
+- **Looms** are the client-side apps that call a specific **Pattern** hosted by a **Mill**.
+
+### CLI-native
+
+One of the coolest parts of the project is that it's **command-line native**!
+
+Each Pattern you see in the `/patterns` directory can be used in any AI application you use, but you can also set up your own server using the `/server` code and then call APIs directly!
+
+Once you're set up, you can do things like:
+
+```bash
+# Take any idea from `stdin` and send it to the `/write_essay` API!
+echo "An idea that coding is like speaking with rules." | write_essay
+```
+
+### Directly calling Patterns
+
+One key feature of `fabric` and its Markdown-based format is the ability to _ directly reference_ (and edit) individual [patterns](https://github.com/danielmiessler/fabric/tree/main#naming) directly—on their own—without surrounding code.
+
+As an example, here's how to call _the direct location_ of the `extract_wisdom` pattern.
+
+```bash
+https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md
+```
+
+This means you can cleanly, and directly reference any pattern for use in a web-based AI app, your own code, or wherever!
+
+Even better, you can also have your [Mill](https://github.com/danielmiessler/fabric/tree/main#naming) functionality directly call _system_ and _user_ prompts from `fabric`, meaning you can have your personal AI ecosystem automatically kept up to date with the latest version of your favorite [Patterns](https://github.com/danielmiessler/fabric/tree/main#naming).
+
+Here's what that looks like in code:
+
+```bash
+https://github.com/danielmiessler/fabric/blob/main/server/fabric_api_server.py
+```
+
+```python
+# /extwis
+@app.route("/extwis", methods=["POST"])
+@auth_required  # Require authentication
+def extwis():
+    data = request.get_json()
+
+    # Warn if there's no input
+    if "input" not in data:
+        return jsonify({"error": "Missing input parameter"}), 400
+
+    # Get data from client
+    input_data = data["input"]
+
+    # Set the system and user URLs
+    system_url = "https://raw.githubusercontent.com/danielmiessler/fabric/main/patterns/extract_wisdom/system.md"
+    user_url = "https://raw.githubusercontent.com/danielmiessler/fabric/main/patterns/extract_wisdom/user.md"
+
+    # Fetch the prompt content
+    system_content = fetch_content_from_url(system_url)
+    user_file_content = fetch_content_from_url(user_url)
+
+    # Build the API call
+    system_message = {"role": "system", "content": system_content}
+    user_message = {"role": "user", "content": user_file_content + "\n" + input_data}
+    messages = [system_message, user_message]
+    try:
+        response = openai.chat.completions.create(
+            model="gpt-4-1106-preview",
+            messages=messages,
+            temperature=0.0,
+            top_p=1,
+            frequency_penalty=0.1,
+            presence_penalty=0.1,
+        )
+        assistant_message = response.choices[0].message.content
+        return jsonify({"response": assistant_message})
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+```
+
+## Examples
+
+Here's an abridged output example from the <a href="https://github.com/danielmiessler/fabric/blob/main/patterns/extract_wisdom/system.md">`extract_wisdom`</a> pattern (limited to only 10 items per section).
+
+```bash
+# Paste in the transcript of a YouTube video of Riva Tez on David Perrel's podcast
+pbpaste | extract_wisdom
+```
+
+```markdown
+## SUMMARY:
+
+The content features a conversation between two individuals discussing various topics, including the decline of Western culture, the importance of beauty and subtlety in life, the impact of technology and AI, the resonance of Rilke's poetry, the value of deep reading and revisiting texts, the captivating nature of Ayn Rand's writing, the role of philosophy in understanding the world, and the influence of drugs on society. They also touch upon creativity, attention spans, and the importance of introspection.
+
+## IDEAS:
+
+1. Western culture is perceived to be declining due to a loss of values and an embrace of mediocrity.
+2. Mass media and technology have contributed to shorter attention spans and a need for constant stimulation.
+3. Rilke's poetry resonates due to its focus on beauty and ecstasy in everyday objects.
+4. Subtlety is often overlooked in modern society due to sensory overload.
+5. The role of technology in shaping music and performance art is significant.
+6. Reading habits have shifted from deep, repetitive reading to consuming large quantities of new material.
+7. Revisiting influential books as one ages can lead to new insights based on accumulated wisdom and experiences.
+8. Fiction can vividly illustrate philosophical concepts through characters and narratives.
+9. Many influential thinkers have backgrounds in philosophy, highlighting its importance in shaping reasoning skills.
+10. Philosophy is seen as a bridge between theology and science, asking questions that both fields seek to answer.
+
+## QUOTES:
+
+1. "You can't necessarily think yourself into the answers. You have to create space for the answers to come to you."
+2. "The West is dying and we are killing her."
+3. "The American Dream has been replaced by mass packaged mediocrity porn, encouraging us to revel like happy pigs in our own meekness."
+4. "There's just not that many people who have the courage to reach beyond consensus and go explore new ideas."
+5. "I'll start watching Netflix when I've read the whole of human history."
+6. "Rilke saw beauty in everything... He sees it's in one little thing, a representation of all things that are beautiful."
+7. "Vanilla is a very subtle flavor... it speaks to sort of the sensory overload of the modern age."
+8. "When you memorize chapters [of the Bible], it takes a few months, but you really understand how things are structured."
+9. "As you get older, if there's books that moved you when you were younger, it's worth going back and rereading them."
+10. "She [Ayn Rand] took complicated philosophy and embodied it in a way that anybody could resonate with."
+
+## HABITS:
+
+1. Avoiding mainstream media consumption for deeper engagement with historical texts and personal research.
+2. Regularly revisiting influential books from youth to gain new insights with age.
+3. Engaging in deep reading practices rather than skimming or speed-reading material.
+4. Memorizing entire chapters or passages from significant texts for better understanding.
+5. Disengaging from social media and fast-paced news cycles for more focused thought processes.
+6. Walking long distances as a form of meditation and reflection.
+7. Creating space for thoughts to solidify through introspection and stillness.
+8. Embracing emotions such as grief or anger fully rather than suppressing them.
+9. Seeking out varied experiences across different careers and lifestyles.
+10. Prioritizing curiosity-driven research without specific goals or constraints.
+
+## FACTS:
+
+1. The West is perceived as declining due to cultural shifts away from traditional values.
+2. Attention spans have shortened due to technological advancements and media consumption habits.
+3. Rilke's poetry emphasizes finding beauty in everyday objects through detailed observation.
+4. Modern society often overlooks subtlety due to sensory overload from various stimuli.
+5. Reading habits have evolved from deep engagement with texts to consuming large quantities quickly.
+6. Revisiting influential books can lead to new insights based on accumulated life experiences.
+7. Fiction can effectively illustrate philosophical concepts through character development and narrative arcs.
+8. Philosophy plays a significant role in shaping reasoning skills and understanding complex ideas.
+9. Creativity may be stifled by cultural nihilism and protectionist attitudes within society.
+10. Short-term thinking undermines efforts to create lasting works of beauty or significance.
+
+## REFERENCES:
+
+1. Rainer Maria Rilke's poetry
+2. Netflix
+3. Underworld concert
+4. Katy Perry's theatrical performances
+5. Taylor Swift's performances
+6. Bible study
+7. Atlas Shrugged by Ayn Rand
+8. Robert Pirsig's writings
+9. Bertrand Russell's definition of philosophy
+10. Nietzsche's walks
+```
+
+## Meta
+
+> [!NOTE]  
+> Special thanks to the following people for their inspiration and contributions!
+
+- _Caleb Sima_ for pushing me over the edge of whether to make this a public project or not.
+- _Joel Parish_ for super useful input on the project's Github directory structure.
+- _Jonathan Dunn_ for spectacular work on the soon-to-be-released universal client.
+- _Joseph Thacker_ for the idea of a `-c` context flag that adds pre-created context in the `./config/fabric/` directory to all Pattern queries.
+- _Jason Haddix_ for the idea of a stitch (chained Pattern) to filter content using a local model before sending on to a cloud model, i.e., cleaning customer data using `llama2` before sending on to `gpt-4` for analysis.
+- _Dani Goland_ for enhancing the Fabric Server (Mill) infrastructure by migrating to FastAPI, breaking the server into discrete pieces, and Dockerizing the entire thing.
+- _Andre Guerra_ for simplifying installation by getting us onto Poetry for virtual environment and dependency management.
+
+### Primary contributors
+
+<a href="https://github.com/danielmiessler"><img src="https://avatars.githubusercontent.com/u/50654?v=4" title="Daniel Miessler" width="50" height="50"></a>
+<a href="https://github.com/xssdoctor"><img src="https://avatars.githubusercontent.com/u/9218431?v=4" title="Jonathan Dunn" width="50" height="50"></a>
+<a href="https://github.com/sbehrens"><img src="https://avatars.githubusercontent.com/u/688589?v=4" title="Scott Behrens" width="50" height="50"></a>
+<a href="https://github.com/agu3rra"><img src="https://avatars.githubusercontent.com/u/10410523?v=4" title="Andre Guerra" width="50" height="50"></a>
+
+`fabric` was created by <a href="https://danielmiessler.com/subscribe" target="_blank">Daniel Miessler</a> in January of 2024.
+<br /><br />
+<a href="https://twitter.com/intent/user?screen_name=danielmiessler">![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/danielmiessler)</a>

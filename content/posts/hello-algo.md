@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2024-02-23T12:16:51+08:00
+date: 2024-03-13T12:15:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706908432387-b28d74db7559?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706908432387-b28d74db7559?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709786704802-d1641c3ad048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709786704802-d1641c3ad048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)
@@ -83,10 +83,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1706908432387-b28d74db75
 
 <p align="left">
     <a href="https://github.com/krahets/hello-algo/graphs/contributors">
-        <img width="550" src="https://contrib.rocks/image?repo=krahets/hello-algo" />
+        <img width="770" src="https://contrib.rocks/image?repo=krahets/hello-algo&max=300&columns=16" />
     </a>
 </p>
 
 ## License
 
-The texts, code, images, photos, and videos in this repository are licensed under [CC BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+The texts, code, images, photos, and videos in this repository are licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

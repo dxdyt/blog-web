@@ -1,9 +1,9 @@
 ---
 title: appwrite
-date: 2024-03-11T12:18:03+08:00
+date: 2024-03-13T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708583625765-e02e3fb6621d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708583625765-e02e3fb6621d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
 ---
 
 # [appwrite/appwrite](https://github.com/appwrite/appwrite)
