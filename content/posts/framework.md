@@ -1,9 +1,9 @@
 ---
 title: framework
-date: 2023-09-15T12:17:11+08:00
+date: 2024-03-14T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692364795593-ae28f43e5991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692364795593-ae28f43e5991?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ3NTEyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709653600438-08b8088fe0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709653600438-08b8088fe0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [laravel/framework](https://github.com/laravel/framework)
@@ -38,7 +38,7 @@ Laravel has the most extensive and thorough documentation and video tutorial lib
 
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 1100 video tutorials covering a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+If you're not in the mood to read, [Laracasts](https://laracasts.com) contains thousands of video tutorials covering a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
 
 ## Contributing
 

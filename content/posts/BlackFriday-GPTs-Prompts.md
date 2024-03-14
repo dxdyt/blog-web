@@ -1,9 +1,9 @@
 ---
 title: BlackFriday-GPTs-Prompts
-date: 2024-03-12T12:18:49+08:00
+date: 2024-03-14T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709848770676-b6f8a50dee1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709848770676-b6f8a50dee1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [friuns2/BlackFriday-GPTs-Prompts](https://github.com/friuns2/BlackFriday-GPTs-Prompts)

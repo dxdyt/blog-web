@@ -1,15 +1,16 @@
 ---
 title: OpenGFW
-date: 2024-03-13T12:16:10+08:00
+date: 2024-03-14T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707639606163-b2fadec59eab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707639606163-b2fadec59eab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708966847292-175a76fdc98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708966847292-175a76fdc98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [apernet/OpenGFW](https://github.com/apernet/OpenGFW)
 
 # ![OpenGFW](docs/logo.png)
 
+[![Quality check status](https://github.com/apernet/OpenGFW/actions/workflows/check.yml/badge.svg)](https://github.com/apernet/OpenGFW/actions/workflows/check.yml)
 [![License][1]][2]
 
 [1]: https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg

@@ -1,0 +1,76 @@
+---
+title: fully-local-pdf-chatbot
+date: 2024-03-14T12:18:00+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1709653600438-08b8088fe0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709653600438-08b8088fe0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+---
+
+# [jacoblee93/fully-local-pdf-chatbot](https://github.com/jacoblee93/fully-local-pdf-chatbot)
+
+# 🏠 Fully Client-Side Chat Over Documents
+
+Yes, it's another chat over documents implementation... but this one is entirely local!
+
+![](/public/images/demo.gif)
+
+It's a Next.js app that read the content of an uploaded PDF, chunks it, adds it to a vector store, and
+performs RAG, all client side. You can even turn off your WiFi after the site loads!
+
+You can see a live version at https://webml-demo.vercel.app.
+
+Users will need to download and set up [Ollama](https://ollama.ai), then run the following commands to
+allow the site access to a locally running Mistral instance:
+
+## Mac/Linux
+
+```bash
+$ OLLAMA_ORIGINS=https://webml-demo.vercel.app OLLAMA_HOST=127.0.0.1:11435 ollama serve
+```
+Then, in another terminal window:
+
+```bash
+$ OLLAMA_HOST=127.0.0.1:11435 ollama pull mistral
+```
+
+## Windows
+
+```cmd
+$ set OLLAMA_ORIGINS=https://webml-demo.vercel.app
+set OLLAMA_HOST=127.0.0.1:11435
+ollama serve
+```
+Then, in another terminal window:
+
+```cmd
+$ set OLLAMA_HOST=127.0.0.1:11435
+ollama pull mistral
+```
+
+## ⚡ Stack
+
+It uses the following:
+
+- [Voy](https://github.com/tantaraio/voy) as the vector store, fully WASM in the browser.
+- [Ollama](https://ollama.ai/) to run an LLM locally and expose it to the web app.
+- [LangChain.js](https://js.langchain.com) to call the models, perform retrieval, and generally orchestrate all the pieces.
+- [Transformers.js](https://huggingface.co/docs/transformers.js/index) to run open source [Nomic](https://www.nomic.ai/) embeddings in the browser.
+  - For more speed on some machines, switch to `"Xenova/all-MiniLM-L6-v2"` in `app/worker.ts`.
+
+I wanted to run as much of the app as possible directly in the browser, but you can swap in [Ollama embeddings](https://js.langchain.com/docs/modules/data_connection/text_embedding/integrations/ollama) as well.
+
+## 🔱 Forking
+
+To run/deploy this yourself, simply fork this repo and install the required dependencies with `yarn`.
+
+There are no required environment variables!
+
+## 📖 Further reading
+
+For a bit more on this topic, check out [my blog post on Ollama](https://ollama.ai/blog/building-llm-powered-web-apps) or [my Google Summit talk on building with LLMs in the browser](https://www.youtube.com/watch?v=-1sdWLr3TbI).
+
+## 🙏 Thank you!
+
+Special thanks to [@dawchihliou](https://twitter.com/dawchihliou) for making Voy, [@jmorgan](https://twitter.com/jmorgan) and [@mchiang0610](https://twitter.com/mchiang0610) for making Ollama and for your feedback, and [@xenovacom](https://twitter.com/xenovacom) for making Transformers.js.
+
+For more, follow me on Twitter [@Hacubu](https://x.com/hacubu)!

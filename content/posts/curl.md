@@ -1,9 +1,9 @@
 ---
 title: curl
-date: 2024-02-02T12:18:00+08:00
+date: 2024-03-14T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705037197182-4d8197173080?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705037197182-4d8197173080?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY4NDczNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709753422610-39ed7ddf9e08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709753422610-39ed7ddf9e08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [curl/curl](https://github.com/curl/curl)

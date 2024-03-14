@@ -1,9 +1,9 @@
 ---
 title: chatnio
-date: 2024-03-13T12:15:42+08:00
+date: 2024-03-14T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699960215277-6168913dd180?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699960215277-6168913dd180?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707750795395-f9a4cababde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707750795395-f9a4cababde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [Deeptrain-Community/chatnio](https://github.com/Deeptrain-Community/chatnio)
@@ -41,7 +41,7 @@ English | [简体中文](https://github.com/Deeptrain-Community/chatnio/blob/mas
   4. **Support for Multi-platform Adaptation**, supports PWA apps, desktop platforms (desktop is based on [Tauri](https://github.com/tauri-apps/tauri)).
   5. **Dialogue Memory**, cloud synchronization, native support for direct link sharing of site conversations, supports using shared conversations, saving shared conversations as images, and share management (including viewing, deleting shares, etc.).
   6. **Native Support for Full Model File Parsing**, supports pdf, docx, pptx, xlsx, images, and other formats parsing (for more details, see the project [chatnio-blob-service](https://github.com/Deeptrain-Community/chatnio-blob-service)).
-  7. Supports Full-model DuckDuckGo Online Search _(for details, refer to the [duckduckgo-api](https://github.com/binjie09/duckduckgo-api) project, needs to be set up on your own and configured in the internet settings in the system settings, thanks to the author [@binjie09](https://github.com/binjie09))_
+  7. Supports Full-model DuckDuckGo Online Search _(for details, refer to the [duckduckgo-api](https://github.com/binjie09/duckduckgo-api) project, needs to be set up on your own and configured in the internet settings in the system settings, thanks to the author [@binjie09](https://github.com/binjie09), enable web searching by prefixing the relay api model with **web-**.)_
      ![Online Search](/screenshot/online.png)
   8. **Full-screen Large Text Editing**, supports *plain text editing*, *edit-preview mode*, *pure preview mode* three mode switching.
      ![Editor](/screenshot/editor.png)
@@ -287,10 +287,14 @@ Apache License 2.0
 ## ❤ Sponsors
 [@Sh1n3zZ](https://github.com/Sh1n3zZ) [@4EvEr](https://github.com/3081394176)
 
-- [晞云 LightXi](https://open.lightxi.com) 提供字体 CDN 支持
-- [BootCDN](https://bootcdn.cn) 和 [Static File](https://staticfile.org) 提供资源 CDN 支持
+- [LightXi](https://open.lightxi.com) Provide Font CDN support
+- [BootCDN](https://bootcdn.cn) & [Static File](https://staticfile.org) Provide Resources CDN support
 
-## 写在最后
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zmh-program/chatnio&type=Date)](https://star-history.com/#zmh-program/chatnio&Date)
+
+## At Last
 Chat Nio leans towards a one-stop service, integrating user chat interface and API intermediary and management projects.
 - Compared to projects like NextChat which are front-end and lightweight deployment-oriented, Chat Nio's advantages include more convenient cloud synchronization, account management, richer sharing functionalities, as well as a billing management system.
 - Compared to projects like OneAPI which are backend and lightweight deployment-oriented, Chat Nio's advantages include a richer user interface, a more comprehensive channel management system, richer user management, and the introduction of a subscription management system aimed at the user interface.

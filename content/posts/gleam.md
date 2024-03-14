@@ -1,9 +1,9 @@
 ---
 title: gleam
-date: 2024-03-13T12:14:58+08:00
+date: 2024-03-14T12:15:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708086504310-134d8c4005f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708086504310-134d8c4005f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709653600438-08b8088fe0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709653600438-08b8088fe0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [gleam-lang/gleam](https://github.com/gleam-lang/gleam)
@@ -70,7 +70,9 @@ Thank you to our sponsors! Gleam would not be possible without you.
   <a href="https://github.com/brian-dawn">Brian Dawn</a> -
   <a href="https://github.com/bglusman">Brian Glusman</a> -
   <a href="https://github.com/nono">Bruno Michel</a> -
+  <a href="https://github.com/carlomunguia">Carlo Munguia</a> -
   <a href="https://github.com/csaltos">Carlos Saltos</a> -
+  <a href="https://github.com/chazwatkins">Chaz Watkins</a> -
   <a href="https://github.com/choonkeat">Chew Choon Keat</a> -
   <a href="https://github.com/chrislloyd">Chris Lloyd</a> -
   <a href="https://github.com/utilForever">Chris Ohk</a> -
@@ -105,10 +107,10 @@ Thank you to our sponsors! Gleam would not be possible without you.
   <a href="https://github.com/fschwalbe">F. Schwalbe</a> -
   <a href="https://github.com/nandofarias">Fernando Farias</a> -
   <a href="https://github.com/ffigiel">Filip Figiel</a> -
+  <a href="https://github.com/fhammerschmidt">Florian Hammerschmidt</a> -
   <a href="https://github.com/floriank">Florian Kraft</a> -
   <a href="https://github.com/superfly">fly.io</a> -
   <a href="https://github.com/hagenek">Georg H. Ekeberg</a> -
-  <a href="https://github.com/ggobbe">ggobbe</a> -
   <a href="https://github.com/giacomocavalieri">Giacomo Cavalieri</a> -
   <a href="https://github.com/obmarg">Graeme Coupar</a> -
   <a href="https://github.com/nirev">Guilherme de Maio</a> -

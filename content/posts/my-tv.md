@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-02-20T12:18:13+08:00
+date: 2024-03-14T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706859872183-a500efab7ef7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706859872183-a500efab7ef7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)
@@ -23,6 +23,29 @@ featuredImagePreview: https://images.unsplash.com/photo-1706859872183-a500efab7e
 ![image](./screenshots/img_1.png)
 
 ## 更新日志
+
+### v1.6.4（通用）
+
+* 增加CETV1
+* 增加凤凰卫视
+* 默认关闭开机启动
+
+### v1.6.3（安卓5及以上专用）
+
+* 增加CETV1
+* 凤凰卫视增强画质
+* 默认关闭开机启动
+* 延迟菜单自动关闭时间
+* 解决一些可能导致首次打开时黑屏的问题
+
+### v1.6.2（通用）
+
+* 修复按键无效的问题
+* 新的频道列表样式
+
+### v1.6.1（安卓5及以上专用）
+
+* 增加凤凰卫视
 
 ### v1.6.0（通用）
 
@@ -200,18 +223,15 @@ adb install my-tv.apk
 ## TODO
 
 * 音量不同
-* 大湾区卫视、广东4k超高清、广东珠江
-* CETV教育频道
+* 大湾区卫视、广东4k超高清、广东珠江、三沙卫视
 * CHC高清三个电影频道
 * 地方频道
 * 收藏夹
 * 自定义源
-* 凤凰卫视、凤凰资讯台
 * 海外
-* 1.5.0 无法安装，1.5.1 可以安装
-* 选中的图标比例能否相差更大
-* 自动重连
 * 节目增加预告
+* 频道列表优化
+* 自动更新
 
 ## 赞赏
 
