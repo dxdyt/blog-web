@@ -1,9 +1,9 @@
 ---
 title: chatnio
-date: 2024-03-14T12:15:56+08:00
+date: 2024-03-15T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707750795395-f9a4cababde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707750795395-f9a4cababde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707910072166-6d3e607cd056?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707910072166-6d3e607cd056?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
 ---
 
 # [Deeptrain-Community/chatnio](https://github.com/Deeptrain-Community/chatnio)
@@ -85,7 +85,7 @@ English | [简体中文](https://github.com/Deeptrain-Community/chatnio/blob/mas
   - [x] Chat Completions (support *vision*, *tools_calling* and *function_calling*)
   - [x] Image Generation
 - [x] Azure OpenAI
-- [x] Anthropic Claude (claude-2, claude-2.1, claude-instant)
+- [x] Anthropic Claude (support *vision*)
 - [x] Slack Claude (deprecated)
 - [x] Sparkdesk (support *function_calling*)
 - [x] Google Gemini (PaLM2)

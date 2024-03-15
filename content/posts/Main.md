@@ -1,9 +1,9 @@
 ---
 title: Main
-date: 2024-03-13T12:17:07+08:00
+date: 2024-03-15T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699960215277-6168913dd180?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699960215277-6168913dd180?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707965900855-b486520ede8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707965900855-b486520ede8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
 ---
 
 # [ScoopInstaller/Main](https://github.com/ScoopInstaller/Main)

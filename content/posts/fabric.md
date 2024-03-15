@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-03-14T12:14:58+08:00
+date: 2024-03-15T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709929170176-bc35e8bd57b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709929170176-bc35e8bd57b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709468746988-eb87dc5f019e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709468746988-eb87dc5f019e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -63,6 +63,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1709929170176-bc35e8bd57
 **March 13, 2024** — We just added `pipx` install support, which makes it way easier to install Fabric, support for Claude, local models via Ollama, and a number of new Patterns. Be sure to update and check `fabric -h` for the latest!
 
 ## Introduction videos
+
+> [!NOTE]  
+> These videos use the `./setup.sh` install method, which is now replaced with the easier `pipx install .` method. Other than that everything else is still the same.
 
 <div align="center">
 <a href="https://youtu.be/wPEyyigh10g">

@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-VL
-date: 2024-03-14T12:15:28+08:00
+date: 2024-03-15T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707697781368-d4f7a152510e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707697781368-d4f7a152510e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709071784840-cf3ecc434749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709071784840-cf3ecc434749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL)
@@ -21,8 +21,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1707697781368-d4f7a15251
   <a href="https://www.deepseek.com/" target="_blank">
     <img alt="Homepage" src="images/badge.svg" />
   </a>
-  <a href="https://chat.deepseek.com/" target="_blank">
-    <img alt="Chat" src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20LLM-536af5?color=536af5&logoColor=white" />
+  <a href="https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B" target="_blank">
+    <img alt="Chat" src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20VL-536af5?color=536af5&logoColor=white" />
   </a>
   <a href="https://huggingface.co/deepseek-ai" target="_blank">
     <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white" />
@@ -57,15 +57,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1707697781368-d4f7a15251
 
 
 <p align="center">
-  <a href="#3-model-downloads">Model Download</a> |
-  <a href="#4-quick-start">Quick Start</a> |
-  <a href="#5-license">License</a> |
-  <a href="#6-citation">Citation</a>
-</p>
-
-
-<p align="center">
-  <a href="https://arxiv.org/abs/2403.05525"><b>Paper Link</b>👁️</a>
+  <a href="#3-model-downloads"><b>📥 Model Download</b></a> |
+  <a href="#4-quick-start"><b>⚡ Quick Start</b></a> |
+  <a href="#5-license"><b>📜 License</b></a> |
+  <a href="#6-citation"><b>📖 Citation</b></a> <br>
+  <a href="https://arxiv.org/abs/2403.05525"><b>📄 Paper Link</b></a> |
+  <a href="https://huggingface.co/papers/2403.05525"><b>🤗 Huggingface Paper Link</b></a> |
+  <a href="https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B"><b>👁️ Demo</b></a>
 </p>
 
 
@@ -80,6 +78,12 @@ Haoyu Lu*, Wen Liu*, Bo Zhang**, Bingxuan Wang, Kai Dong, Bo Liu, Jingxiang Sun,
 ![](https://github.com/deepseek-ai/DeepSeek-VL/blob/main/images/sample.jpg)
 
 ## 2. Release
+
+<details>
+<summary>✅ <b>2024-03-14</b>: Demo for DeepSeek-VL-7B available on <a href="https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B">Hugging Face</a>.</summary>
+<br>Check out the gradio demo of DeepSeek-VL-7B at <a href="https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B">https://huggingface.co/spaces/deepseek-ai/DeepSeek-VL-7B</a>. Experience its capabilities firsthand!
+</details>
+
 
 <details>
 <summary>✅ <b>2024-03-13</b>: Support DeepSeek-VL gradio demo.

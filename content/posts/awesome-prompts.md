@@ -1,9 +1,9 @@
 ---
 title: awesome-prompts
-date: 2024-03-14T12:16:18+08:00
+date: 2024-03-15T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708966847292-175a76fdc98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708966847292-175a76fdc98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707962688729-fa3e0b968d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707962688729-fa3e0b968d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
 ---
 
 # [ai-boost/awesome-prompts](https://github.com/ai-boost/awesome-prompts)
