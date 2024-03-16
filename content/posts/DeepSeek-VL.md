@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-VL
-date: 2024-03-15T12:17:46+08:00
+date: 2024-03-16T12:16:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709071784840-cf3ecc434749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709071784840-cf3ecc434749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709377059113-3c429b2e0796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709377059113-3c429b2e0796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL)

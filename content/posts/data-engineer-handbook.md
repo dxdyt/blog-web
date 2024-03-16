@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2024-01-04T12:17:58+08:00
+date: 2024-03-16T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701035858127-0f0e41ac8028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701035858127-0f0e41ac8028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQzNDE3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709037805384-035dc3989923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709037805384-035dc3989923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
 ---
 
 # [DataEngineer-io/data-engineer-handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
@@ -41,7 +41,9 @@ Great books:
 - [Data Engineering with dbt: A practical guide to building a dependable data platform with SQL](https://www.amazon.com/Data-Engineering-dbt-cloud-based-dependable-ebook/dp/B0C4LL19G7)
 - [Data Engineering with AWS](https://www.oreilly.com/library/view/data-engineering-with/9781804614426/)
 - [Practical DataOps: Delivering Agile Date Science at Scale](https://www.amazon.com/Practical-DataOps-Delivering-Agile-Science/dp/1484251032)
-- [Data Engineering Design Patterns](https://www.dedp.online/about-this-book.html)
+- [Data Engineering Design Patterns](https://www.dedp.online/)
+- [Snowflake Data Engineering](https://www.manning.com/books/snowflake-data-engineering)
+- [Unlocking dbt](https://www.amazon.com/Unlocking-dbt-Design-Transformations-Warehouse/dp/1484296990/)
   
 Communities:
 
@@ -54,7 +56,6 @@ Communities:
 - [Microsoft Fabric Community](https://community.fabric.microsoft.com/)
 - [r/MicrosoftFabric](https://www.reddit.com/r/MicrosoftFabric/)
 - [Data Talks Club Slack](https://datatalks.club/slack)
-- [SylphAI for data professional matchmaking](https://www.sylphai.com/)
 - [Data Engineering Wiki](https://dataengineering.wiki/)
 
 Companies:
@@ -65,27 +66,43 @@ Companies:
   - [Prefect](https://www.prefect.io)
   - [Dagster](https://www.dagster.io)
   - [Airbyte](https://airbyte.com)
+  - [Shipyard](https://www.shipyardapp.com/)
+  - [Hamilton](https://github.com/dagworks-inc/hamilton)
 - Data Lake / Cloud
   - [Tabular](https://www.tabular.io)
   - [Microsoft](https://www.microsoft.com)
   - [Databricks](https://www.databricks.com/company/about-us)
   - [Onehouse](https://www.onehouse.ai)
+  - [Delta Lake](https://delta.io/)
 - Data Warehouse
   - [Snowflake](https://www.snowflake.com/en/)
+  - [Firebolt](https://www.firebolt.io/)
 - Data Quality
   - [dbt](https://www.getdbt.com/)
   - [Gable](https://www.gable.ai)
+  - [Great Expectations](https://www.greatexpectations.io)
+  - [Streamdal](https://streamdal.com)
+  - [Coalesce](https://coalesce.io/)
+  - [Soda](https://www.soda.io/)
 - Education Companies
-  - [DataEngineer.io](https://www.dataengineer.io)
+  - [DataExpert.io](https://www.dataexpert.io)
   - [LearnDataEngineering.com](https://www.learndataengineering.com)
   - [AlgoExpert](https://www.algoexpert.io)
   - [ByteByteGo](https://www.bytebytego.com)
 - Analytics / Visualization
   - [Preset](https://www.preset.io)
   - [Starburst](https://www.starburst.io)
+  - [Metabase](https://www.metabase.com/)
 - Data Integration
   - [Cube](https://cube.dev)
   - [Fivetran](https://www.fivetran.com)
+  - [Airbyte](https://airbyte.io)
+  - [dlt](https://dlthub.com/)
+- Modern OLAP
+  - [Apache Druid](https://druid.apache.org/)
+  - [ClickHouse](https://clickhouse.com/)
+  - [Apache Pinot](https://pinot.apache.org/)
+  - [Apache Kylin](https://kylin.apache.org/)
 
 Data Engineering blogs of companies:
 
@@ -130,6 +147,7 @@ Great YouTube Channels:
   - [Advancing Analytics](https://www.youtube.com/@AdvancingAnalytics)
   - [Kahan Data Solutions](https://www.youtube.com/@KahanDataSolutions)
   - [Ankit Bansal](https://youtube.com/@ankitbansal6)
+  - [Mr. K Talks Tech](https://www.youtube.com/channel/UCzdOan4AmF65PmLLks8Lmww)
 - 1k+ subscribers
   - [Eric Roby](https://www.youtube.com/@codingwithroby)
 
@@ -178,6 +196,17 @@ Newsletters:
 - [Blef.fr Data News](https://www.blef.fr/blog/)
 - [All Hands on Data](https://allhandsondata.substack.com/)
 - [Modern Data 101](https://moderndata101.substack.com/)
+- [SELECT Insights](https://newsletter.ssp.sh/)
+- [Interesting Data Gigs](https://newsletter.interestinggigs.com)
+
+Glossaries:
+- [Data Engineering Vault](https://www.ssp.sh/brain/data-engineering/)
+- [Airbyte Data Glossary](https://glossary.airbyte.com/)
+- [Data Engineering Wiki by Reddit](https://dataengineering.wiki/Index)
+- [Seconda Glossary](https://www.secoda.co/glossary/) 
+- [Glossary Databricks](https://www.databricks.com/glossary)
+- [Airtable Glossary](https://airtable.com/shrGh8BqZbkfkbrfk/tbluZ3ayLHC3CKsDb)
+- [Data Engineering Glossary by Dagster](https://dagster.io/glossary)
 
 LinkedIn
 
@@ -199,11 +228,13 @@ LinkedIn
   - [Joseph Machado](https://www.linkedin.com/in/josephmachado1991/)
   - [Eric Roby](https://www.linkedin.com/in/codingwithroby/)
   - [Simon Whiteley](https://www.linkedin.com/in/simon-whiteley-uk/)
+  - [Simon Späti](https://www.linkedin.com/in/sspaeti/)
 - 5k+ Followers
   - [Dipankar Mazumdar](https://www.linkedin.com/in/dipankar-mazumdar/)
   - [Daniel Ciocirlan](https://www.linkedin.com/in/danielciocirlan)
   - [Hugo Lu](https://www.linkedin.com/in/hugo-lu-confirmed/)
   - [Tobias Macey](https://www.linkedin.com/in/tmacey)
+  - [Marcos Ortiz](https://www.linkedin.com/in/mlortiz)
 - 1k+ Followers
   - [Shruti Mantri](https://www.linkedin.com/in/shruti-mantri-88527a67/)
 
@@ -220,6 +251,8 @@ Twitter / X
 - [Dipankar Mazumdar](https://twitter.com/Dipankartnt)
 - [Start Data Engineering](https://twitter.com/startdataeng)
 - [Data Cyborg](https://twitter.com/data_cyborg)
+- [Simon Späti](https://twitter.com/sspaeti)
+- [Marcos Ortiz](https://twitter.com/marcosluis2186)
   
 Instagram
 
@@ -231,6 +264,7 @@ TikTok
 
 - [Zach Wilson](https://www.tiktok.com/@eczachly)
 - [Alex The Analyst](https://www.tiktok.com/@alex_the_analyst)
+- [Marcos Ortiz](https://www.tiktok.com/@marcosluis2186)
 
 Design Patterns
 
@@ -241,7 +275,7 @@ Design Patterns
 
 Courses / Academies
 
-- [DataEngineer.io Bootcamp/course](https://www.dataengineer.io) use code **HANDBOOK10** for a discount!
+- [DataExpert.io course](https://www.dataexpert.io) use code **HANDBOOK10** for a discount!
 - [LearnDataEngineering.com](https://www.learndataengineering.com)
 - [Technical Freelancer Academy](https://www.technicalfreelanceracademy.com/) Use code **zwtech** for a discount!
 - [IBM Data Engineering for Everyone](https://www.edx.org/learn/data-engineering/ibm-data-engineering-basics-for-everyone)
@@ -265,3 +299,4 @@ Conferences
 - [Trino Summit - December 13-14, 2023 - Virtual](https://www.starburst.io/info/trinosummit2023/)
 - [Data Universe - April 10-11, 2024 - New York City](https://www.datauniverseevent.com/)
 - [Data Nova @ Data Universe - April 10-11, 2024 - New York City](https://www.starburst.io/datanova/)
+- [DataTune Conference - March 8-9, 2024 - Nashville, TN](https://www.datatuneconf.com/)

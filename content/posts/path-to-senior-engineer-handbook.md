@@ -1,9 +1,9 @@
 ---
 title: path-to-senior-engineer-handbook
-date: 2024-01-24T12:19:05+08:00
+date: 2024-03-16T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705323111671-8bb38301d9f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705323111671-8bb38301d9f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709377059113-3c429b2e0796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709377059113-3c429b2e0796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
 ---
 
 # [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)
@@ -22,13 +22,14 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Podcasts](#podcasts)
 - [Communities](#communities)
 - [LinkedIn](#linkedin)
+- [Platforms](#platforms)
 - [Other Catalogs](#other-catalogs)
 
 ## Newsletters
 
 ### General software engineer growth
 
-- [High Growth Engineer](https://careercutler.substack.com/)
+- [High Growth Engineer](https://read.highgrowthengineer.com/)
 - [The Developing Dev](https://open.substack.com/pub/ryanlpeterman)
 - [Level up software engineering](https://open.substack.com/pub/levelupsoftwareengineering)
 - [Engineer’s Codex](https://open.substack.com/pub/engineercodex)
@@ -42,6 +43,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Software Design: Tidy First?](https://open.substack.com/pub/tidyfirst)
 - [Dev Interrupted](https://open.substack.com/users/89759436-dev-interrupted)
 - [Exaltitude Career Growth](https://www.exaltitude.io/newsletter)
+- [A Life Engineered](https://newsletter.alifeengineered.com/)
 
 ### Staying up-to-date
 
@@ -177,6 +179,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 ### Top Courses
 
 - [Mid-level to Senior Course by Jordan Cutler](https://maven.com/jordan-cutler/mid-level-to-senior?promoCode=PATHTOSENIORHANDBOOK)
+- [Speedrun to Promotion by Steve Huynh](https://speedruntopromotion.com/)
 - [Josh Comeau CSS course](https://css-for-js.dev/)
 - [Josh Comeau React course](https://www.joyofreact.com/)
 - [Kent C Dodds Epic React](https://epicreact.dev/)
@@ -199,6 +202,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [GreatFrontEnd](https://www.greatfrontend.com/)
 - [Scrimba interactive courses](https://scrimba.com)
 - [KodeKloud](https://www.kodekloud.com)
+- [Hyperskill](https://hyperskill.org/tracks)
 
 ## Papers
 
@@ -219,6 +223,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 
 ### Senior+ Soft skills
 
+- [A Life Engineered - Steve Huynh](https://www.youtube.com/@ALifeEngineered)
 - [Exaltitude Career Growth](https://www.youtube.com/@exaltitude)
 - [LeadDev](https://www.youtube.com/@LeadDev/videos)
 - [Lenny’s Podcast](https://www.youtube.com/@LennysPodcast)
@@ -303,6 +308,22 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [David Anderson](https://www.linkedin.com/in/scarletink/)
 - [Alexandre Zajac](https://www.linkedin.com/in/alexandre-zajac/)
 - [Jean Lee](https://www.linkedin.com/in/jeanklee/)
+
+## Platforms
+
+### Interview Prep
+
+#### Coding
+- [Leetcode](https://www.leetcode.com)
+- [Neetcode](https://www.neetcode.io)
+- [PyPup](https://www.pypup.com)
+
+#### Mock Interviews
+- [Pramp](https://www.pramp.com)
+- [Hello Interview](https://www.hellointerview.com)
+- [Interviewing IO](https://www.interviewing.io)
+- [IGotAnOffer](https://www.igotanoffer.com)
+- [MeetAPro](https://www.meetapro.com)
 
 ## Other Catalogs
 

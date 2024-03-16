@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2024-03-15T12:16:21+08:00
+date: 2024-03-16T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709456136012-59707ec6217d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709456136012-59707ec6217d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710065007570-1c729aeadc5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710065007570-1c729aeadc5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)
@@ -186,9 +186,13 @@ docker-compose up -d
 
 for more details, see [dockers/examples](dockers/examples)
 
-### Deploy with Railway
+### One Click Deployment
+
+These platforms are easy to deploy with one click and come with free credits.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/wada5e?referralCode=rE4BjB)
+
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/QF8695)
 
 ## Development
 
