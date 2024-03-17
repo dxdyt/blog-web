@@ -1,9 +1,9 @@
 ---
 title: LaVague
-date: 2024-03-16T12:14:39+08:00
+date: 2024-03-17T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708077444964-1bf21d80887c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708077444964-1bf21d80887c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710097092321-9244834715e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710097092321-9244834715e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
 ---
 
 # [lavague-ai/LaVague](https://github.com/lavague-ai/LaVague)
@@ -73,7 +73,7 @@ LaVague is built on open-source projects and leverages open-sources models, eith
 
 You can try LaVague in the following Colab notebook:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dhuynh95/LaVague/blob/main/examples/gradio-demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/lavague-ai/LaVague/blob/main/examples/gradio-demo.ipynb)
 
 ## 🗺️ Roadmap
 

@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-02-25T12:16:54+08:00
+date: 2024-03-17T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704904902693-11913f35c990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg4MzQ1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708194950241-a3c16872e29c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708194950241-a3c16872e29c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -226,14 +226,14 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 
 <!-- PLUGIN LIST -->
 
-| Recent Submits                                                                                                    | Description                                                                                                                                                                                                                     |
-| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Charts & Diagrams](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **pyxl** on **2024-02-05**</sup> | Mermaid Diagrams, Schemes for Presentations, Analysis, research websites, pie charts.<br/>`chart` `diagram`                                                                                                                     |
-| [Social Search](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-02-02**</sup> | The Social Search provides access to tweets, users, followers, images, media and more.<br/>`social` `twitter` `x` `search`                                                                                                      |
-| [TokenInsights](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **feednews** on **2024-01-27**</sup> | Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.<br/>`crypto` `btc` `eth` `bnb`                                                                                |
-| [Bilibili](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **LobeHub** on **2024-01-27**</sup>       | Dive into Bilibili's vast content with features like keyword video search, replay access, interactive danmaku, trending video recommendations, and hot-search insights, all at your fingertips.<br/>`video` `bilibili` `search` |
+| Recent Submits                                                                                                    | Description                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [Calendar Assistant](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **cc** on **2024-03-13**</sup>  | A plugin to manage your calendar events # will auto generate i18n in workflow<br/>`calendar` `schedule` `will-auto-generate-i-18-n-in-workflow`  |
+| [Charts & Diagrams](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **pyxl** on **2024-02-05**</sup> | Mermaid Diagrams, Schemes for Presentations, Analysis, research websites, pie charts.<br/>`chart` `diagram`                                      |
+| [Social Search](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-02-02**</sup> | The Social Search provides access to tweets, users, followers, images, media and more.<br/>`social` `twitter` `x` `search`                       |
+| [TokenInsights](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **feednews** on **2024-01-27**</sup> | Get realtime crypto price, BTC, ETH, BNB, and the latest insights.The latest coin news and airdrop opportunities.<br/>`crypto` `btc` `eth` `bnb` |
 
-> 📊 Total plugins: [<kbd>**61**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**59**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -265,14 +265,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                                             | Description                                                                                                                                                                                                                           |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [GitHub Finder](https://chat-preview.lobehub.com/market?agent=github-finder)<br/><sup>By **[nullmastermind](https://github.com/nullmastermind)** on **2024-02-25**</sup>                                   | Specializes in suggesting open source repositories on GitHub based on a custom formula.<br/>`coding` `open-source` `github` `algorithm` `sorting`                                                                                     |
-| [Naming Expert](https://chat-preview.lobehub.com/market?agent=variable-naming)<br/><sup>By **[zsio](https://github.com/zsio)** on **2024-02-24**</sup>                                                     | Specialized in generating variable names and function names<br/>`programming` `variable-naming` `function-naming`                                                                                                                     |
-| [LobeChat Technical Documentation Expert](https://chat-preview.lobehub.com/market?agent=lobe-chat-developer-document-writer)<br/><sup>By **[arvinxx](https://github.com/arvinxx)** on **2024-02-22**</sup> | LobeChat is an AI conversation application built with the Next.js framework. I will help you write the development documentation for LobeChat.<br/>`development-documentation` `technical-introduction` `next-js` `react` `lobe-chat` |
-| [Your daily AI companion.](https://chat-preview.lobehub.com/market?agent=causal)<br/><sup>By **[richards199999](https://github.com/richards199999)** on **2024-02-21**</sup>                               | I have been a good Bing. 😊<br/>`bing` `conversation` `creative`                                                                                                                                                                      |
+| Recent Submits                                                                                                                                                                               | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Amazon Seller Support Agent](https://chat-preview.lobehub.com/market?agent=amazon-seller-support-agent)<br/><sup>By **[etnperlong](https://github.com/etnperlong)** on **2024-03-15**</sup> | AI assistant that assists Amazon sellers in responding to customer service replies, providing detailed and cogent responses towards a satisfactory resolution.<br/>`amazon` `seller` `writing`                                                                                                                                                                                                                                                                                                                                |
+| [TikTok Script Writer](https://chat-preview.lobehub.com/market?agent=tiktok-script-writer)<br/><sup>By **[sdhjn19dj1m](https://github.com/sdhjn19dj1m)** on **2024-03-12**</sup>             | This script is tailored for TikTok's short video format, designed to engage and entertain the specified target audience. It incorporates trending elements and best practices for content virality, ensuring the video captures attention from the start. The script is structured to include a captivating opening, concise and impactful message body, and a compelling call-to-action, all while reflecting the user's desired tone and theme.<br/>`tik-tok` `short-video` `viral-content` `trending-hashtag` `engagement` |
+| [Gen Z Engagement Specialist](https://chat-preview.lobehub.com/market?agent=gen-z)<br/><sup>By **[MYSeaIT](https://github.com/MYSeaIT)** on **2024-03-09**</sup>                             | Specializes in engaging Gen Z users with tailored interactions reflecting their preferences and values.<br/>`engagement` `gen-z` `communication` `advice` `interaction`                                                                                                                                                                                                                                                                                                                                                       |
+| [Schedule Management Assistant](https://chat-preview.lobehub.com/market?agent=calendar-manager)<br/><sup>By **[ccdanpian](https://github.com/ccdanpian)** on **2024-03-07**</sup>            | Schedule Management Assistant, calls the time plugin to handle requests for adding, querying, and deleting schedules, supports multiple operations and reminders.<br/>`schedule-management` `time-plugin` `add-schedule` `query-schedule` `delete-schedule`                                                                                                                                                                                                                                                                   |
 
-> 📊 Total agents: [<kbd>**184**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**202**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
@@ -406,6 +406,10 @@ If you want to deploy this service yourself on either Vercel or Zeabur, you can 
 | [![][deploy-button-image]][deploy-link] | [![][deploy-on-zeabur-button-image]][deploy-on-zeabur-link] | [![][deploy-on-sealos-button-image]][deploy-on-sealos-link] |
 
 </div>
+
+#### After Fork
+
+After fork, only retain the upstream sync action and disable other actions in your repository on GitHub.
 
 #### Keep Updated
 

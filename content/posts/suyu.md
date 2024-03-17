@@ -1,9 +1,9 @@
 ---
 title: suyu
-date: 2024-03-16T12:14:49+08:00
+date: 2024-03-17T12:17:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707249696459-9f7acb0df492?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707249696459-9f7acb0df492?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710097092321-9244834715e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710097092321-9244834715e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
 ---
 
 # [suyu-emu/suyu](https://github.com/suyu-emu/suyu)

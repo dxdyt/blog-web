@@ -1,9 +1,9 @@
 ---
 title: DARC
-date: 2023-12-21T12:16:17+08:00
+date: 2024-03-17T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709314848358-06b5e198c98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709314848358-06b5e198c98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
 ---
 
 # [Project-DARC/DARC](https://github.com/Project-DARC/DARC)
@@ -14,11 +14,23 @@ Welcome to the official repository for the Decentralized Autonomous Regulated Co
 that aims to create a decentralized autonomous company that is regulated by a plugin system based on commercial laws.
 The project is currently in the early stages of development and is not yet ready for production use.
 
-English | [简体中文](./README_cn.md)
+English | [简体中文](./README_cn.md) | [日本語](./README_ja.md)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=project-darc/darc&type=Date)](https://star-history.com/#project-darc/darc&Date)
+
 
 ## Join our community
 
 Telegram: [https://t.me/projectdarc](https://t.me/projectdarc)
+Discord: [https://discord.gg/QzKbTHVgGG](https://discord.gg/QzKbTHVgGG)
+
+## Whitepaper
+
+English: [darc-whitepaper.pdf](https://github.com/Project-DARC/DARC-whitepaper/blob/release/darc-whitepaper.pdf)
+
+Chinese(中文版): [darc-whitepaper-cn.pdf](https://github.com/Project-DARC/DARC-whitepaper/blob/release/darc-whitepaper-cn.pdf)
 
 ## What is DARC?
 
@@ -78,7 +90,7 @@ can add a new plugin and corresponding voting rule to the DARC VM contract:
 add_voting_rule(  // add a voting rule (as index 5)
     [
         {
-            voting_class: [1], // voting token class: 1, level-1 token ownners (board of directors) are required to vote
+            voting_class: [1], // voting token class: 1, level-1 token owners (board of directors) are required to vote
             approve_percentage: 99,  // 99% voting power is required to approve
             voting_duration: 3600,  // voting duration: 1 hour (3600 seconds)
             execute_duration: 3600,  // pending duration for execution: 1 hour (3600 seconds)
