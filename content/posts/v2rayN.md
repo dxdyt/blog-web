@@ -1,9 +1,9 @@
 ---
 title: v2rayN
-date: 2023-11-07T12:16:00+08:00
+date: 2024-03-18T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696456102429-f2667cdbf349?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696456102429-f2667cdbf349?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707229219459-03dd69961ab0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707229219459-03dd69961ab0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
 ---
 
 # [2dust/v2rayN](https://github.com/2dust/v2rayN)
@@ -24,7 +24,8 @@ A GUI client for Windows, support [Xray core](https://github.com/XTLS/Xray-core)
 - Run v2rayN.exe
 
 ## Requirements  
-- [Microsoft .NET 6.0 Desktop Runtime ](https://download.visualstudio.microsoft.com/download/pr/513d13b7-b456-45af-828b-b7b7981ff462/edf44a743b78f8b54a2cec97ce888346/windowsdesktop-runtime-6.0.15-win-x64.exe)
+- (6.35 and above)[Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- (6.33 and below)[Microsoft .NET 6.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 - [Supported cores](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
 
 

@@ -1,9 +1,9 @@
 ---
 title: facefusion
-date: 2024-03-17T12:17:10+08:00
+date: 2024-03-18T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708194950241-a3c16872e29c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708194950241-a3c16872e29c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709525091803-7d73b3d5f814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709525091803-7d73b3d5f814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
 ---
 
 # [facefusion/facefusion](https://github.com/facefusion/facefusion)

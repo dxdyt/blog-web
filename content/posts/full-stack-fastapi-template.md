@@ -1,9 +1,9 @@
 ---
 title: full-stack-fastapi-template
-date: 2024-03-17T12:15:07+08:00
+date: 2024-03-18T12:15:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709314848358-06b5e198c98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709314848358-06b5e198c98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709714173314-8332e78010f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709714173314-8332e78010f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
 ---
 
 # [tiangolo/full-stack-fastapi-template](https://github.com/tiangolo/full-stack-fastapi-template)

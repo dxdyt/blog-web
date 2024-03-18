@@ -1,9 +1,9 @@
 ---
 title: DARC
-date: 2024-03-17T12:16:08+08:00
+date: 2024-03-18T12:16:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709314848358-06b5e198c98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709314848358-06b5e198c98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710009437292-77d057fd47f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710009437292-77d057fd47f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
 ---
 
 # [Project-DARC/DARC](https://github.com/Project-DARC/DARC)

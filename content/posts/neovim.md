@@ -1,9 +1,9 @@
 ---
 title: neovim
-date: 2023-08-22T12:17:24+08:00
+date: 2024-03-18T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691629028503-0fc680775da4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691629028503-0fc680775da4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI2Nzc2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709522065858-d73b9ee76105?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709522065858-d73b9ee76105?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
 ---
 
 # [neovim/neovim](https://github.com/neovim/neovim)
@@ -17,7 +17,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1691629028503-0fc680775d
 
 [![Coverity Scan analysis](https://scan.coverity.com/projects/2227/badge.svg)](https://scan.coverity.com/projects/2227)
 [![Clang analysis](https://neovim.io/doc/reports/clang/badge.svg)](https://neovim.io/doc/reports/clang)
-[![PVS-Studio analysis](https://neovim.io/doc/reports/pvs/badge.svg)](https://neovim.io/doc/reports/pvs/PVS-studio.html.d)
 [![Packages](https://repology.org/badge/tiny-repos/neovim.svg)](https://repology.org/metapackage/neovim)
 [![Debian CI](https://badges.debian.net/badges/debian/testing/neovim/version.svg)](https://buildd.debian.org/neovim)
 [![Downloads](https://img.shields.io/github/downloads/neovim/neovim/total.svg?maxAge=2592001)](https://github.com/neovim/neovim/releases/)
@@ -27,7 +26,7 @@ Neovim is a project that seeks to aggressively refactor [Vim](https://www.vim.or
 - Simplify maintenance and encourage [contributions](CONTRIBUTING.md)
 - Split the work between multiple developers
 - Enable [advanced UIs] without modifications to the core
-- Maximize [extensibility](https://github.com/neovim/neovim/wiki/Plugin-UI-architecture)
+- Maximize [extensibility](https://neovim.io/doc/user/ui.html)
 
 See the [Introduction](https://github.com/neovim/neovim/wiki/Introduction) wiki page and [Roadmap]
 for more information.
@@ -58,7 +57,7 @@ Pre-built packages for Windows, macOS, and Linux are found on the
 Install from source
 -------------------
 
-See the [Building Neovim](https://github.com/neovim/neovim/wiki/Building-Neovim) wiki page and [supported platforms](https://neovim.io/doc/user/support.html#supported-platforms) for details.
+See [BUILD.md](./BUILD.md) and [supported platforms](https://neovim.io/doc/user/support.html#supported-platforms) for details.
 
 The build is CMake-based, but a Makefile is provided as a convenience.
 After installing the dependencies, run the following command.
@@ -124,7 +123,7 @@ Apache 2.0 license, except for contributions copied from Vim (identified by the
 [nvim-news]: https://neovim.io/doc/user/news.html
 [Roadmap]: https://neovim.io/roadmap/
 [advanced UIs]: https://github.com/neovim/neovim/wiki/Related-projects#gui
-[Managed packages]: https://github.com/neovim/neovim/wiki/Installing-Neovim#install-from-package
+[Managed packages]: ./INSTALL.md#install-from-package
 [Debian]: https://packages.debian.org/testing/neovim
 [Ubuntu]: https://packages.ubuntu.com/search?keywords=neovim
 [Fedora]: https://packages.fedoraproject.org/pkgs/neovim/neovim/

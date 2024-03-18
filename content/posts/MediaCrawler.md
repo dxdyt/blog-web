@@ -1,9 +1,9 @@
 ---
 title: MediaCrawler
-date: 2024-03-17T12:15:17+08:00
+date: 2024-03-18T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707845690193-ec178cf78041?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707845690193-ec178cf78041?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710156348905-0f632a11ce3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710156348905-0f632a11ce3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
 ---
 
 # [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)
@@ -28,13 +28,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1707845690193-ec178cf780
 成为赞助者，展示你的产品在这里，联系作者：relakkes@gmail.com
 
 ## 功能列表
-| 平台  | Cookie 登录 | 二维码登录 | 手机号登录 | 关键词搜索 | 指定视频/帖子 ID 爬取 | 登录状态缓存 | 数据保存 | IP 代理池 | 滑块验证码 |
-|:---:|:---------:|:-----:|:-----:|:-----:|:-------------:|:------:|:----:|:------:|:-----:|
-| 小红书 |     ✅     |   ✅   | ✅     |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |   ✕   |
-| 抖音  |     ✅     |   ✅   | ✅     |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |   ✅   |
-| 快手  |     ✅     |   ✅   | ✕     |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |    ✕   |
-| B 站 |     ✅     |   ✅   | ✕     |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |   ✕   |
-| 微博  |     ✅      |   ✅    | ✕     |   ✅    |       ✅        |    ✅    |   ✅   |    ✅    |   ✕   |
+| 平台  | Cookie 登录 | 二维码登录 | 指定创作者主页 | 关键词搜索 | 指定视频/帖子 ID 爬取 | 登录状态缓存 | 数据保存 | IP 代理池 | 滑块验证码 |
+|:---:|:---------:|:-----:|:-------:|:-----:|:-------------:|:------:|:----:|:------:|:-----:|
+| 小红书 |     ✅     |   ✅   |    ✅    |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |   ✕   |
+| 抖音  |     ✅     |   ✅   |    ✕     |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |   ✅   |
+| 快手  |     ✅     |   ✅   |    ✕    |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |    ✕   |
+| B 站 |     ✅     |   ✅   |    ✕    |   ✅   |       ✅       |   ✅    |  ✅   |   ✅    |   ✕   |
+| 微博  |     ✅      |   ✅    |    ✕    |   ✅    |       ✅        |    ✅    |   ✅   |    ✅    |   ✕   |
 
 
 ## 使用方法
@@ -105,6 +105,8 @@ PS：如果打赏时请备注捐赠者，如有遗漏请联系我添加（有时
 
 | 捐赠者         | 捐赠金额  | 捐赠日期       |
 |-------------|-------|------------|
+| *木          | 20 元  | 2024-03-17 |
+| *诚          | 20 元  | 2024-03-17 |
 | Strem Gamer | 20 元  | 2024-03-16 |
 | *鑫          | 20 元  | 2024-03-14 |
 | Yuzu        | 20 元  | 2024-03-07 |
