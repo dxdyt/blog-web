@@ -1,9 +1,9 @@
 ---
 title: litellm
-date: 2024-03-18T12:16:55+08:00
+date: 2024-03-19T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697462247996-51fdc8a1fe0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697462247996-51fdc8a1fe0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
 ---
 
 # [BerriAI/litellm](https://github.com/BerriAI/litellm)

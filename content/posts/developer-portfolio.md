@@ -1,9 +1,9 @@
 ---
 title: developer-portfolio
-date: 2024-03-18T12:17:11+08:00
+date: 2024-03-19T12:18:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704799191531-085f46e6221c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704799191531-085f46e6221c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709290608385-e6b029804f9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709290608385-e6b029804f9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
 ---
 
 # [said7388/developer-portfolio](https://github.com/said7388/developer-portfolio)

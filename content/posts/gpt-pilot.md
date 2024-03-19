@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2024-03-18T12:15:49+08:00
+date: 2024-03-19T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710009437292-77d057fd47f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710009437292-77d057fd47f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)

@@ -1,9 +1,9 @@
 ---
 title: awesome-generative-ai-guide
-date: 2024-03-18T12:16:46+08:00
+date: 2024-03-19T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709522065858-d73b9ee76105?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709522065858-d73b9ee76105?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706443930469-663f42523dc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706443930469-663f42523dc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
 ---
 
 # [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)

@@ -1,9 +1,9 @@
 ---
 title: MediaCrawler
-date: 2024-03-18T12:15:05+08:00
+date: 2024-03-19T12:15:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710156348905-0f632a11ce3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710156348905-0f632a11ce3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709525091803-7d73b3d5f814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709525091803-7d73b3d5f814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
 ---
 
 # [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler)
@@ -25,6 +25,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1710156348905-0f632a11ce
 视频配置教程：[MediaCrawler视频入门教程](https://space.bilibili.com/434377496/channel/series)
 
 ## 感谢下列Sponsors对本仓库赞助
+<a href="https://dashboard.ipcola.com/register?referral_code=vkybwyucyuidpne">全球ip代理超新星</a>
+<a href="https://dashboard.ipcola.com/register?referral_code=vkybwyucyuidpne" target="_blank"><img src="https://s2.loli.net/2024/03/18/LKJaWcIHQl92ip5.jpg" alt="IPCola,  全球ip代理超新星-官网图"></a>
+
+
 成为赞助者，展示你的产品在这里，联系作者：relakkes@gmail.com
 
 ## 功能列表
@@ -105,6 +109,10 @@ PS：如果打赏时请备注捐赠者，如有遗漏请联系我添加（有时
 
 | 捐赠者         | 捐赠金额  | 捐赠日期       |
 |-------------|-------|------------|
+| Tsen Ming   | 100 元 | 2024-03-18 |
+| *皓          | 50 元  | 2024-03-18 |
+| *刚          | 50 元  | 2024-03-18 |
+| *乐          | 20 元  | 2024-03-17 |
 | *木          | 20 元  | 2024-03-17 |
 | *诚          | 20 元  | 2024-03-17 |
 | Strem Gamer | 20 元  | 2024-03-16 |
@@ -125,7 +133,7 @@ PS：如果打赏时请备注捐赠者，如有遗漏请联系我添加（有时
 | 坠落          | 50 元  | 2023-11-08 |
 
 ## 运行报错常见问题Q&A
-> 遇到问题先自行搜索解决下，现在AI很火，用ChatGPT大多情况下能解决你的问题 [免费的ChatGPT](https://sider.ai/invited?c=8e03db1a973401fdf114ed9cf9f8c183)  
+> 遇到问题先自行搜索解决下，现在AI很火，用ChatGPT大多情况下能解决你的问题  
 
 ➡️➡️➡️ [常见问题](docs/常见问题.md)
 
