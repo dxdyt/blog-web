@@ -1,9 +1,9 @@
 ---
 title: grok
-date: 2024-03-19T12:15:46+08:00
+date: 2024-03-20T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710418467761-cb8efcf525db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710418467761-cb8efcf525db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709572563747-5de4d256fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709572563747-5de4d256fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
 ---
 
 # [openai/grok](https://github.com/openai/grok)

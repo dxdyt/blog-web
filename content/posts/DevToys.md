@@ -1,15 +1,15 @@
 ---
 title: DevToys
-date: 2024-01-11T12:18:15+08:00
+date: 2024-03-20T12:19:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702476320482-0736c4b962f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702476320482-0736c4b962f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709056842165-20d5f72064b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709056842165-20d5f72064b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
 ---
 
-# [veler/DevToys](https://github.com/veler/DevToys)
+# [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys)
 
 <p align="center">
-  <img width="128" align="center" src="/assets/logo/300x300.png">
+  <img width="128" align="center" src="/assets/logo/Icon-Windows-Linux.png">
 </p>
 <h1 align="center">
   DevToys
@@ -24,8 +24,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1702476320482-0736c4b962
   <a title="Crowdin" target="_blank" href="https://crowdin.com/project/devtoys">
     <img src="https://badges.crowdin.net/devtoys/localized.svg">
   </a>
-  <a style="text-decoration:none" href="https://github.com/veler/DevToys/releases" target="_blank">
-    <img src="https://img.shields.io/github/release/veler/devtoys.svg?label=Latest%20version" alt="Latest version" />
+  <a style="text-decoration:none" href="https://github.com/DevToys-app/DevToys/releases" target="_blank">
+    <img src="https://img.shields.io/github/release/DevToys-app/DevToys.svg?label=Latest%20version" alt="Latest version" />
   </a>
   <a style="text-decoration:none" href="https://community.chocolatey.org/packages/devtoys" target="_blank">
     <img src="https://img.shields.io/chocolatey/v/devtoys?include_prereleases" alt="Chocolatey Version (including pre-releases)">
@@ -37,10 +37,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1702476320482-0736c4b962
     <img src="https://img.shields.io/badge/Website-devtoys.app-blue" alt="Website" />
   </a>
 </p>
-
-## Note
-
-`DevToys 2.0` is currently under development in branch `dev/2.0`.
 
 ## Introduction
 
@@ -194,10 +190,10 @@ DevToys is using a license that permits redistribution of the app as trialware o
 
 ### Code contributors
 
-![Alt](https://repobeats.axiom.co/api/embed/31f4c9d2d532ef010e6171dc501f976c1481d799.svg "Repobeats analytics image")
+![Alt](https://repobeats.axiom.co/api/embed/324efe7f02eac0ea57d264c986651a346e86caf9.svg "Repobeats analytics image")
 
-<a href="https://github.com/veler/devtoys/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=veler/devtoys" />
+<a href="https://github.com/DevToys-app/DevToys/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DevToys-app/DevToys" />
 </a>
 
 ### Designers

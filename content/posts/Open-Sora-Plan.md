@@ -1,9 +1,9 @@
 ---
 title: Open-Sora-Plan
-date: 2024-03-08T12:16:33+08:00
+date: 2024-03-20T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706558425696-b0f156d79637?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706558425696-b0f156d79637?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708169652663-0e71cf739405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708169652663-0e71cf739405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
@@ -12,8 +12,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1706558425696-b0f156d796
 
 [[Project Page]](https://pku-yuangroup.github.io/Open-Sora-Plan/) [[中文主页]](https://pku-yuangroup.github.io/Open-Sora-Plan/blog_cn.html)
 
-[![slack badge](https://img.shields.io/badge/Discord-join-blueviolet?logo=discord&amp)](https://discord.gg/fqpmStRX)
-[![WeChat badge](https://img.shields.io/badge/微信-加入-green?logo=wechat&amp)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/issues/53#issuecomment-1980312563)
+[![slack badge](https://img.shields.io/badge/Discord-join-blueviolet?logo=discord&amp)](https://discord.gg/f429rwHs)
+[![WeChat badge](https://img.shields.io/badge/微信-加入-green?logo=wechat&amp)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/issues/53#issuecomment-1987226516)
 [![Twitter](https://img.shields.io/badge/-Twitter@LinBin46984-black?logo=twitter&logoColor=1D9BF0)](https://x.com/LinBin46984/status/1763476690385424554?s=20) <br>
 [![License](https://img.shields.io/badge/License-MIT-yellow)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/blob/main/LICENSE) 
 [![GitHub repo contributors](https://img.shields.io/github/contributors-anon/PKU-YuanGroup/Open-Sora-Plan?style=flat&label=Contributors)](https://github.com/PKU-YuanGroup/Open-Sora-Plan/graphs/contributors) 
@@ -52,6 +52,8 @@ Project stages:
 
   
 ## 📰 News
+**[2024.03.10]** 🚀🚀🚀 This repo supports training a latent size of 225×90×90 (t×h×w), which means we are able to **train 1 minute of 1080P video with 30FPS** (2× interpolated frames and 2× super resolution) under class-condition.
+
 **[2024.03.08]** We support the training code of text condition with 16 frames of 512x512. The code is mainly borrowed from [Latte](https://github.com/Vchitect/Latte).
 
 **[2024.03.07]** We support training with 128 frames (when sample rate = 3, which is about 13 seconds) of 256x256, or 64 frames (which is about 6 seconds) of 512x512.
@@ -68,10 +70,11 @@ Project stages:
 ## ✊ Todo
 
 #### Setup the codebase and train a unconditional model on landscape dataset
-- [x] Fix typos & Update readme. 🤝 Thanks to [@mio2333](https://github.com/mio2333), [@CreamyLong](https://github.com/CreamyLong), [@chg0901](https://github.com/chg0901), [@Nyx-177](https://github.com/Nyx-177), [@HowardLi1984](https://github.com/HowardLi1984), [@sennnnn](https://github.com/sennnnn)
-- [x] Setup repo-structure.
-- [ ] Add docker file. ⌛ [WIP]
-- [ ] Enable type hints for functions. 🙏 **[Need your contribution]**
+- [x] Fix typos & Update readme. 🤝 Thanks to [@mio2333](https://github.com/mio2333), [@CreamyLong](https://github.com/CreamyLong), [@chg0901](https://github.com/chg0901), [@Nyx-177](https://github.com/Nyx-177), [@HowardLi1984](https://github.com/HowardLi1984), [@sennnnn](https://github.com/sennnnn), [@Jason-fan20](https://github.com/Jason-fan20)
+- [x] Setup environment. 🤝 Thanks to [@nameless1117](https://github.com/nameless1117)
+- [ ] Add docker file. ⌛ [WIP] 🤝 Thanks to [@Mon-ius](https://github.com/Mon-ius), [@SimonLeeGit](https://github.com/SimonLeeGit)
+- [ ] Enable type hints for functions. 🤝 Thanks to [@RuslanPeresy](https://github.com/RuslanPeresy), 🙏 **[Need your contribution]**
+- [x] Resume from checkpoint.
 - [x] Add Video-VQGAN model, which is borrowed from [VideoGPT](https://github.com/wilson1yan/VideoGPT).
 - [x] Support variable aspect ratios, resolutions, durations training on [DiT](https://github.com/facebookresearch/DiT).
 - [x] Support Dynamic mask input inspired by [FiT](https://github.com/whlzy/FiT).
@@ -81,39 +84,54 @@ Project stages:
 - [x] Joint dynamic mask input with VAE.
 - [ ] Add VQVAE from [VQGAN](https://github.com/CompVis/taming-transformers). 🙏 **[Need your contribution]**
 - [ ] Make the codebase ready for the cluster training. Add SLURM scripts. 🙏 **[Need your contribution]**
-- [x] Refactor VideoGPT. 🤝 Thanks to [@qqingzheng](https://github.com/qqingzheng), [@luo3300612](https://github.com/luo3300612)
+- [x] Refactor VideoGPT. 🤝 Thanks to [@qqingzheng](https://github.com/qqingzheng), [@luo3300612](https://github.com/luo3300612), [@sennnnn](https://github.com/sennnnn)
 - [x] Add sampling script.
+- [ ] Add DDP sampling script. ⌛ [WIP]
+- [x] Use accelerate on multi-node. 🤝 Thanks to [@sysuyy](https://github.com/sysuyy)
 - [x] Incorporate [SiT](https://github.com/willisma/SiT). 🤝 Thanks to [@khan-yin](https://github.com/khan-yin)
-- [ ] Add eavluation scripts (FVD, CLIP score). 🙏 **[Need your contribution]**
+- [x] Add evaluation scripts (FVD, CLIP score). 🤝 Thanks to [@rain305f](https://github.com/rain305f)
 
 #### Train models that boost resolution and duration
-- [ ] Add [PI](https://arxiv.org/abs/2306.15595) to support out-of-domain size. 🙏 **[Need your contribution]**
-- [ ] Add 2D RoPE to improve generalization ability as [FiT](https://github.com/whlzy/FiT). 🙏 **[Need your contribution]**
+- [x] Add [PI](https://arxiv.org/abs/2306.15595) to support out-of-domain size. 🤝 Thanks to [@jpthu17](https://github.com/jpthu17)
+- [x] Add 2D RoPE to improve generalization ability as [FiT](https://github.com/whlzy/FiT). 🤝 Thanks to [@jpthu17](https://github.com/jpthu17)
+- [x] Compress KV according to [PixArt-sigma](https://pixart-alpha.github.io/PixArt-sigma-project). 
+- [x] Support deepspeed for videogpt training. 🤝 Thanks to [@sennnnn](https://github.com/sennnnn)
+- [ ] Train a **low dimension** Video-AE, whether it is VAE or VQVAE. ⌛ [WIP] 🚀 **[Require more computation]**
 - [x] Extract offline feature.
+- [x] Train with offline feature.
 - [x] Add frame interpolation model. 🤝 Thanks to [@yunyangge](https://github.com/yunyangge)
 - [x] Add super resolution model. 🤝 Thanks to [@Linzy19](https://github.com/Linzy19)
 - [x] Add accelerate to automatically manage training.
 - [ ] Joint training with images. 🙏 **[Need your contribution]**
+- [ ] Implement [MaskDiT](https://github.com/Anima-Lab/MaskDiT) technique for fast training. 🙏 **[Need your contribution]**
 - [ ] Incorporate [NaViT](https://arxiv.org/abs/2307.06304). 🙏 **[Need your contribution]**
 - [ ] Add [FreeNoise](https://github.com/arthur-qiu/FreeNoise-LaVie) support for training-free longer video generation. 🙏 **[Need your contribution]**
 
 #### Conduct text2video experiments on landscape dataset.
+- [ ] Implement [PeRFlow](https://github.com/magic-research/piecewise-rectified-flow) for improving the sampling process. 🙏 **[Need your contribution]**
 - [x] Finish data loading, pre-processing utils.
 - [x] Add T5 support. 
 - [ ] Add CLIP support. 🙏 **[Need your contribution]**
 - [x] Add text2image training script.
-- [ ] Add prompt captioner. 🙏 **[Need your contribution]** 🚀 **[Require more computation]**
+- [ ] Add prompt captioner. 
+  - [ ] Collect training data.
+    - [ ] Need video-text pairs with poor caption. 🙏 **[Need your contribution]**
+    - [ ] Extract multi-frame descriptions by large image-language models. 🤝 Thanks to [@HowardLi1984](https://github.com/HowardLi1984)
+    - [ ] Extract video description by large video-language models. 🙏 **[Need your contribution]**
+    - [ ] Integrate captions to get a dense caption by using a large language model, such as GPT-4. 🤝 Thanks to [@HowardLi1984](https://github.com/HowardLi1984)
+  - [ ] Train a captioner to refine captions. 🚀 **[Require more computation]**
 
 #### Train the 1080p model on video2text dataset
 - [ ] Looking for a suitable dataset, welcome to discuss and recommend. 🙏 **[Need your contribution]**
+- [ ] Add synthetic video created by game engines or 3D representations. 🙏 **[Need your contribution]**
 - [ ] Finish data loading, and pre-processing utils. ⌛ [WIP]
 - [ ] Support memory friendly training.
   - [x] Add flash-attention2 from pytorch.
-  - [x] Add xformers.
+  - [x] Add xformers.  🤝 Thanks to [@jialin-zhao](https://github.com/jialin-zhao)
   - [x] Support mixed precision training.
   - [x] Add gradient checkpoint.
   - [x] Support for ReBased and Ring attention. 🤝 Thanks to [@kabachuha](https://github.com/kabachuha)
-  - [ ] Train using the deepspeed engine. 🙏 **[Need your contribution]**
+  - [x] Train using the deepspeed engine. 🤝 Thanks to [@sennnnn](https://github.com/sennnnn)
   - [ ] Integrate with [Colossal-AI](https://github.com/PKU-YuanGroup/Open-Sora-Plan/issues/59#issue-2170735221) for a cheaper, faster, and more efficient. 🙏 **[Need your contribution]**
 - [ ] Train with a text condition. Here we could conduct different experiments:
   - [ ] Train with T5 conditioning. 🚀 **[Require more computation]**
@@ -121,7 +139,7 @@ Project stages:
   - [ ] Train with CLIP + T5 conditioning (probably costly during training and experiments). 🚀 **[Require more computation]**
 
 #### Control model with more condition
-- [ ] Load pretrained weights from [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha). ⌛ [WIP]
+- [x] Load pretrained weights from [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha).
 - [ ] Incorporating [ControlNet](https://github.com/lllyasviel/ControlNet). 🙏 **[Need your contribution]**
 
 ## 📂 Repo structure (WIP)
@@ -148,7 +166,8 @@ Project stages:
 │   │   │   ├── latte
 │   │   │   └── unet
 │   │   ├── frame_interpolation
-│   │   └── super_resolution
+│   │   ├── super_resolution
+│   │   └── text_encoder
 │   ├── sample
 │   ├── train                      -> Training code
 │   └── utils
@@ -156,18 +175,25 @@ Project stages:
 
 ## 🛠️ Requirements and Installation
 
-The requirements are as follows.
-
-* Python >= 3.8
-* CUDA Version >= 11.7
-* Install required packages:
-
+1. Clone this repository and navigate to Open-Sora-Plan folder
 ```
 git clone https://github.com/PKU-YuanGroup/Open-Sora-Plan
 cd Open-Sora-Plan
+```
+2. Install required packages
+```
 conda create -n opensora python=3.8 -y
 conda activate opensora
 pip install -e .
+```
+3. Install additional packages for training cases
+```
+pip install -e ".[train]"
+pip install flash-attn --no-build-isolation
+```
+4. Install optional requirements such as static type checking:
+```
+pip install -e '.[dev]'
 ```
 
 ## 🗝️ Usage
@@ -175,6 +201,8 @@ pip install -e .
 ### Datasets
 Refer to [Data.md](docs/Data.md)
 
+###  Evaluation
+Refer to the document [EVAL.md](docs/EVAL.md).
 
 ### Video-VQVAE (VideoGPT)
 
@@ -183,7 +211,7 @@ Refer to [Data.md](docs/Data.md)
 To train VQVAE, run the script:
 
 ```
-scripts/train_vqvae.sh
+scripts/videogpt/train_videogpt.sh
 ```
 
 You can modify the training parameters within the script. For training parameters, please refer to [transformers.TrainingArguments](https://huggingface.co/docs/transformers/v4.38.2/en/main_classes/trainer#transformers.TrainingArguments). Other parameters are explained as follows:
@@ -220,15 +248,17 @@ We present four reconstructed videos in this demonstration, arranged from left t
 
 Please refer to the document [VQVAE](docs/VQVAE.md).
 
-### VideoDiT (DiT)
+### Video Diffusion Transformer
 
 #### Training
 ```
 sh scripts/train.sh
 ```
 
+The current resources are only enough for us to do primary experiments on the Sky dataset. 
+
 <p align="center">
-<img src="assets/loss.jpg" width=60%>
+<img src="assets/loss.png" width=90%>
 </p>
 
 #### Sampling
@@ -236,16 +266,48 @@ sh scripts/train.sh
 sh scripts/sample.sh
 ```
 
-## 🤝 How to Contribute to the Open-Sora Plan Community
+Below is a visualization of the sampling results.
+
+| **12s 256x256** | **25s 256x256** |
+| --- | --- |
+| <img src="assets/demo_0006.gif">  | <img src="assets/demo_0011.gif">  |
+
+## 🚀 Improved Training Performance
+
+In comparison to the original implementation, we implement a selection of training speed acceleration and memory saving features including gradient checkpointing, mixed precision training, and pre-extracted features, xformers, deepspeed. Some data points using **a batch size of 1 with a A100**:
+ 
+### 64×32×32 (origin size: 256×256×256)
+
+| gradient checkpointing | mixed precision | xformers | feature pre-extraction | deepspeed config | compress kv | training speed | memory       |
+|:----------------------:|:---------------:|:--------:|:----------------------:|:----------------:|:--------------:|:------------:|:------------:|
+| ✔                     | ✔               | ✔        | ✔                     | ❌               | ❌            |0.64 steps/sec  |   43G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2             | ❌            |0.66 steps/sec  |   14G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2             | ✔             |0.66 steps/sec  |   15G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2 offload     | ❌            |0.33 steps/sec  |   11G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2 offload     | ✔             |0.31 steps/sec  |   12G        |
+
+### 128×64×64 (origin size: 512×512×512)
+
+| gradient checkpointing | mixed precision | xformers | feature pre-extraction | deepspeed config | compress kv | training speed | memory       |
+|:----------------------:|:---------------:|:--------:|:----------------------:|:----------------:|:--------------:|:------------:|:------------:|
+| ✔                     | ✔               | ✔        | ✔                     | ❌               | ❌            |0.08 steps/sec  |   77G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2             | ❌            |0.08 steps/sec  |   41G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2             | ✔             |0.09 steps/sec  |   36G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2 offload     | ❌            |0.07 steps/sec  |   39G        |
+| ✔                     | ✔               | ✔        | ✔                     | Zero2 offload     | ✔             |0.07 steps/sec  |   33G        |
+
+## 💡 How to Contribute to the Open-Sora Plan Community
 We greatly appreciate your contributions to the Open-Sora Plan open-source community and helping us make it even better than it is now!
 
 For more details, please refer to the [Contribution Guidelines](docs/Contribution_Guidelines.md)
 
 
+
+
 ## 👍 Acknowledgement
 * [Latte](https://github.com/Vchitect/Latte): The **main codebase** we built upon and it is an wonderful video gererated model.
-* [DiT](https://github.com/facebookresearch/DiT): Scalable Diffusion Models with Transformers.
 * [VideoGPT](https://github.com/wilson1yan/VideoGPT): Video Generation using VQ-VAE and Transformers.
+* [DiT](https://github.com/facebookresearch/DiT): Scalable Diffusion Models with Transformers.
 * [FiT](https://github.com/whlzy/FiT): Flexible Vision Transformer for Diffusion Model.
 * [Positional Interpolation](https://arxiv.org/abs/2306.15595): Extending Context Window of Large Language Models via Positional Interpolation.
 
@@ -253,7 +315,14 @@ For more details, please refer to the [Contribution Guidelines](docs/Contributio
 ## 🔒 License
 * The service is a research preview intended for non-commercial use only. See [LICENSE](LICENSE) for details.
 
-
+<!--
 ## ✨ Star History
 
 [![Star History](https://api.star-history.com/svg?repos=PKU-YuanGroup/Open-Sora-Plan)](https://star-history.com/#PKU-YuanGroup/Open-Sora-Plan&Date)
+-->
+
+## 🤝 Community contributors
+
+<a href="https://github.com/PKU-YuanGroup/Open-Sora-Plan/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=PKU-YuanGroup/Open-Sora-Plan" />
+</a>

@@ -1,9 +1,9 @@
 ---
 title: chronos-forecasting
-date: 2024-03-18T12:15:21+08:00
+date: 2024-03-20T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709315748250-c8f2ec1ebfbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709315748250-c8f2ec1ebfbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709572563747-5de4d256fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709572563747-5de4d256fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
 ---
 
 # [amazon-science/chronos-forecasting](https://github.com/amazon-science/chronos-forecasting)
@@ -47,6 +47,7 @@ pip install git+https://github.com/amazon-science/chronos-forecasting.git
 A minimal example showing how to perform inference using Chronos models:
 
 ```python
+# for plotting, run: pip install pandas matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -65,7 +66,14 @@ df = pd.read_csv("https://raw.githubusercontent.com/AileenNielsen/TimeSeriesAnal
 # or a left-padded 2D tensor with batch as the first dimension
 context = torch.tensor(df["#Passengers"])
 prediction_length = 12
-forecast = pipeline.predict(context, prediction_length)  # shape [num_series, num_samples, prediction_length]
+forecast = pipeline.predict(
+  context,
+  prediction_length,
+  num_samples=20,
+  temperature=1.0,
+  top_k=50,
+  top_p=1.0,
+) # forecast shape: [num_series, num_samples, prediction_length]
 
 # visualize the forecast
 forecast_index = range(len(df), len(df) + prediction_length)

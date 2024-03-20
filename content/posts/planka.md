@@ -1,9 +1,9 @@
 ---
 title: planka
-date: 2024-03-11T12:18:48+08:00
+date: 2024-03-20T12:19:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707965900953-8083ff0bdd55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707965900953-8083ff0bdd55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708556863286-16a9ada29871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708556863286-16a9ada29871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
 ---
 
 # [plankanban/planka](https://github.com/plankanban/planka)
@@ -20,13 +20,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1707965900953-8083ff0bdd
 ## Features
 
 - Create projects, boards, lists, cards, labels and tasks
-- Add card members, track time, set a due date, add attachments, write comments
-- Markdown support in a card description and comment
+- Add card members, track time, set due dates, add attachments, write comments
+- Markdown support in card description and comments
 - Filter by members and labels
-- Customize project background
+- Customize project backgrounds
 - Real-time updates
-- User notifications
-- Internationalization
+- Internal notifications
+- Multiple interface languages
+- Single sign-on via OpenID Connect
 
 ## How to deploy Planka
 
@@ -54,3 +55,7 @@ See the [development section](https://docs.planka.cloud/docs/Development).
 ## License
 
 Planka is [AGPL-3.0 licensed](https://github.com/plankanban/planka/blob/master/LICENSE).
+
+## Contributors
+
+[![](https://contrib.rocks/image?repo=plankanban/planka)](https://github.com/plankanban/planka/graphs/contributors)

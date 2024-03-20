@@ -1,9 +1,9 @@
 ---
 title: continue
-date: 2024-02-14T12:18:38+08:00
+date: 2024-03-20T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709418354361-afdfb41ce4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709418354361-afdfb41ce4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
@@ -36,7 +36,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac
 
 </div>
 
-## Task, not tab, auto-complete
+## Task and tab autocomplete
 
 ### Answer coding questions
 
@@ -61,6 +61,12 @@ Open a blank file and let Continue start new Python scripts, React components, e
 - “/edit get me started with a basic supabase edge function”
 - “/edit implement a c++ shortest path algo in a concise way”
 - “/edit create a docker compose file with php and mysql server"
+
+### And much more!
+
+- Try out [experimental support for local tab autocomplete](https://continue.dev/docs/walkthroughs/tab-autocomplete) in VS Code
+- Use [built-in context providers](https://continue.dev/docs/customization/context-providers#built-in-context-providers) or create your own [custom context providers](https://continue.dev/docs/customization/context-providers#building-your-own-context-provider)
+- Use [built-in slash commands](https://arc.net/l/quote/zbhwfjmp) or create your own [custom slash commands](https://continue.dev/docs/customization/slash-commands#custom-slash-commands)
 
 ## Getting Started
 
