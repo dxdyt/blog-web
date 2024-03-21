@@ -1,9 +1,9 @@
 ---
 title: uBlockOrigin-HUGE-AI-Blocklist
-date: 2024-03-20T12:18:08+08:00
+date: 2024-03-21T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709418354361-afdfb41ce4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709418354361-afdfb41ce4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709424111307-a0edc36fb50a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709424111307-a0edc36fb50a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
 ---
 
 # [laylavish/uBlockOrigin-HUGE-AI-Blocklist](https://github.com/laylavish/uBlockOrigin-HUGE-AI-Blocklist)
@@ -121,7 +121,7 @@ uBlock Origin's implementation is technically superior, as it allows you to cont
 
 uBlacklist on the otherhand, **blocks the queries outright**--meaning if too many AI sites are in your image search results, you will not be able to scroll any further than the first 6 rows of images (seems to be exclusive to Google Images).
 
-Although the latter is inferrior, it is a bit rare for that to happen, especially if you append operators such as ```-ai``` in your query. Just keep that in mind (it may also be a bug on uBlacklist's part).
+Although the latter is inferior, it is a bit rare for that to happen, especially if you append operators such as ```-ai``` in your query. Just keep that in mind (it may also be a bug on uBlacklist's part).
 
 ## What if you want to go even further beyond?
 

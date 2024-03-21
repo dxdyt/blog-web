@@ -1,9 +1,9 @@
 ---
 title: spreadsheets-are-all-you-need
-date: 2024-03-20T12:18:42+08:00
+date: 2024-03-21T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708556863286-16a9ada29871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708556863286-16a9ada29871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709971352230-71b99641b140?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709971352230-71b99641b140?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
 ---
 
 # [ianand/spreadsheets-are-all-you-need](https://github.com/ianand/spreadsheets-are-all-you-need)

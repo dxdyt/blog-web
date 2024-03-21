@@ -1,9 +1,9 @@
 ---
 title: DevToys
-date: 2024-03-20T12:19:32+08:00
+date: 2024-03-21T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709056842165-20d5f72064b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709056842165-20d5f72064b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708457753320-02e52a276a80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708457753320-02e52a276a80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
 ---
 
 # [DevToys-app/DevToys](https://github.com/DevToys-app/DevToys)
