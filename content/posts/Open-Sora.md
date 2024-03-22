@@ -1,9 +1,9 @@
 ---
 title: Open-Sora
-date: 2024-03-21T12:17:01+08:00
+date: 2024-03-22T12:14:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694805175672-248659553c83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694805175672-248659553c83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709316010508-6c86856540e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709316010508-6c86856540e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
 ---
 
 # [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora)
@@ -104,6 +104,8 @@ Videos are downsampled to `.gif` for display. Click for original videos. Prompts
 ```bash
 # create a virtual env
 conda create -n opensora python=3.10
+# activate opensora
+conda activate opensora
 
 # install torch
 # the command below is for CUDA 12.1, choose install commands from 
@@ -146,21 +148,21 @@ To run inference with our provided weights, first download [T5](https://huggingf
 
 ```bash
 # Sample 16x256x256 (5s/sample, 100 time steps, 22 GB memory)
-torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/16x256x256.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./asserts/texts/t2v_samples.txt
+torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/16x256x256.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./assets/texts/t2v_samples.txt
 # Auto Download
 torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/16x256x256.py --ckpt-path OpenSora-v1-HQ-16x256x256.pth --prompt-path ./assets/texts/t2v_samples.txt
 
 # Sample 16x512x512 (20s/sample, 100 time steps, 24 GB memory)
-torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/16x512x512.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./asserts/texts/t2v_samples.txt
+torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/16x512x512.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./assets/texts/t2v_samples.txt
 # Auto Download
 torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/16x512x512.py --ckpt-path OpenSora-v1-HQ-16x512x512.pth --prompt-path ./assets/texts/t2v_samples.txt
 
 # Sample 64x512x512 (40s/sample, 100 time steps)
-torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/64x512x512.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./asserts/texts/t2v_samples.txt
+torchrun --standalone --nproc_per_node 1 scripts/inference.py configs/opensora/inference/64x512x512.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./assets/texts/t2v_samples.txt
 
 # Sample 64x512x512 with sequence parallelism (30s/sample, 100 time steps)
 # sequence parallelism is enabled automatically when nproc_per_node is larger than 1
-torchrun --standalone --nproc_per_node 2 scripts/inference.py configs/opensora/inference/64x512x512.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./asserts/texts/t2v_samples.txt
+torchrun --standalone --nproc_per_node 2 scripts/inference.py configs/opensora/inference/64x512x512.py --ckpt-path ./path/to/your/ckpt.pth --prompt-path ./assets/texts/t2v_samples.txt
 ```
 
 The speed is tested on H800 GPUs. For inference with other models, see [here](docs/commands.md) for more instructions. To lower the memory usage, set a smaller `vae.micro_batch_size` in the config (slightly lower sampling speed).

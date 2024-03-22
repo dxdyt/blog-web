@@ -1,9 +1,9 @@
 ---
 title: ruoyi-vue-pro
-date: 2024-02-21T12:17:04+08:00
+date: 2024-03-22T12:15:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706106608771-aebb15ebf321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706106608771-aebb15ebf321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0ODg4OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710302043859-6077fea7205a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710302043859-6077fea7205a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
 ---
 
 # [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)
@@ -265,6 +265,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1706106608771-aebb15ebf3
 
 演示地址：<https://doc.iocoder.cn/erp-preview/>
 
+### CRM 系统
+
+![功能图](/.image/common/crm-feature.png)
+
+演示地址：<https://doc.iocoder.cn/crm-preview/>
+
 ## 🐨 技术栈
 
 ### 模块
@@ -289,7 +295,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1706106608771-aebb15ebf3
 
 | 框架                                                                                          | 说明               | 版本             | 学习指南                                                           |
 |---------------------------------------------------------------------------------------------|------------------|----------------|----------------------------------------------------------------|
-| [Spring Boot](https://spring.io/projects/spring-boot)                                       | 应用开发框架           | 2.7.17         | [文档](https://github.com/YunaiV/SpringBoot-Labs)                |
+| [Spring Boot](https://spring.io/projects/spring-boot)                                       | 应用开发框架           | 2.7.18         | [文档](https://github.com/YunaiV/SpringBoot-Labs)                |
 | [MySQL](https://www.mysql.com/cn/)                                                          | 数据库服务器           | 5.7 / 8.0+     |                                                                |
 | [Druid](https://github.com/alibaba/druid)                                                   | JDBC 连接池、监控组件    | 1.2.19         | [文档](http://www.iocoder.cn/Spring-Boot/datasource-pool/?yudao) |
 | [MyBatis Plus](https://mp.baomidou.com/)                                                    | MyBatis 增强工具包    | 3.5.3.2        | [文档](http://www.iocoder.cn/Spring-Boot/MyBatis/?yudao)         |
