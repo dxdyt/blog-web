@@ -1,9 +1,9 @@
 ---
 title: garnet
-date: 2024-03-22T12:14:47+08:00
+date: 2024-03-23T12:16:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709525091854-7152bddb6d9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709525091854-7152bddb6d9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710438641275-1b1512304344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710438641275-1b1512304344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/garnet](https://github.com/microsoft/garnet)

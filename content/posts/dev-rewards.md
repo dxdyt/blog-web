@@ -1,16 +1,20 @@
 ---
 title: dev-rewards
-date: 2024-03-12T12:19:03+08:00
+date: 2024-03-23T12:16:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709761402478-52114c2df7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709761402478-52114c2df7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710438641275-1b1512304344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710438641275-1b1512304344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
 # [fluencelabs/dev-rewards](https://github.com/fluencelabs/dev-rewards)
 
 # Fluence Developer Rewards
 
-# Generate proof (docker)
+This repo allows the one to generate proof signature for Fluence dev reward claiming.
+
+The methods for generating signature are described below:
+
+## Generate proof in docker
 
 1. Build docker image
 
@@ -25,7 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709761402478-52114c2df7
 
    > `docker run -it --rm --network none -v /{dir_path_for_your_ssh_keys}:/root/.ssh:ro dev-reward-script`
 
-# Generate proof (local sh script)
+## Generate proof via local sh script
 
 1. Install dependencies
 
@@ -35,7 +39,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709761402478-52114c2df7
 
    > `./proof-sh/proof.sh`
 
-# Generate proof (local python script)
+## Generate proof via local python script
 
 1. Install python
 
@@ -54,3 +58,24 @@ featuredImagePreview: https://images.unsplash.com/photo-1709761402478-52114c2df7
 3. Run the script
 
    > `python3 python/proof.py`
+
+## Generate proof through a website
+
+1. Enter the `web` directory
+
+    > cd web
+
+2. Download the metadata.json file
+
+    > curl https://fluence-dao.s3.eu-west-1.amazonaws.com/metadata.json > metadata.json
+
+3. Spin up an HTTP server
+
+    > python3 -m http.server
+
+4. Open `http://127.0.0.1:8000` in your browser and follow the instructions
+
+## Notes:
+
+Also check out [paranoid](./MANUAL_INSTRUCTIONS.md) instruction
+in case you have any security concerns regarding the methods above.

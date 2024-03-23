@@ -1,9 +1,9 @@
 ---
 title: embedded-app-sdk
-date: 2024-03-21T12:16:34+08:00
+date: 2024-03-23T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708386125614-e0dbd9758847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708386125614-e0dbd9758847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709971359786-cfb4bcc1e344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709971359786-cfb4bcc1e344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
 # [discord/embedded-app-sdk](https://github.com/discord/embedded-app-sdk)

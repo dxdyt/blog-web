@@ -1,9 +1,9 @@
 ---
 title: nodejs.org
-date: 2024-03-05T12:18:14+08:00
+date: 2024-03-23T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708366399616-1961558313f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708366399616-1961558313f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709548145082-04d0cde481d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709548145082-04d0cde481d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
 # [nodejs/nodejs.org](https://github.com/nodejs/nodejs.org)
@@ -12,8 +12,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708366399616-1961558313
   <br />
   <a href="https://nodejs.org">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./public/static/images/logos/nodejs-new-pantone-white.svg">
-      <img src="./public/static/images/logos/nodejs-new-pantone-black.svg" width="200px">
+      <source media="(prefers-color-scheme: dark)" srcset="./public/static/logos/nodejsDark.svg">
+      <img src="./public/static/logos/nodejsLight.svg" width="200px">
     </picture>
   </a>
 </p>

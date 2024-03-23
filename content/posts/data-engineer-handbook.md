@@ -1,12 +1,12 @@
 ---
 title: data-engineer-handbook
-date: 2024-03-16T12:15:34+08:00
+date: 2024-03-23T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709037805384-035dc3989923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709037805384-035dc3989923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
-# [DataEngineer-io/data-engineer-handbook](https://github.com/DataEngineer-io/data-engineer-handbook)
+# [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)
 
 # The Data Engineering Handbook
 
@@ -44,7 +44,7 @@ Great books:
 - [Data Engineering Design Patterns](https://www.dedp.online/)
 - [Snowflake Data Engineering](https://www.manning.com/books/snowflake-data-engineering)
 - [Unlocking dbt](https://www.amazon.com/Unlocking-dbt-Design-Transformations-Warehouse/dp/1484296990/)
-  
+
 Communities:
 
 - [Seattle Data Guy Discord](https://discord.gg/ah95MZKkFF)
@@ -116,7 +116,7 @@ Data Engineering blogs of companies:
 - [Oracle](https://blogs.oracle.com/datawarehousing/)
 - [Meta](https://engineering.fb.com/category/data-infrastructure/)
 - [Onehouse](https://www.onehouse.ai/blog)
-  
+
 Data Engineering Whitepapers:
 
 - [A Five-Layered Business Intelligence Architecture](https://ibimapublishing.com/articles/CIBIMA/2011/695619/695619.pdf)
@@ -203,7 +203,7 @@ Glossaries:
 - [Data Engineering Vault](https://www.ssp.sh/brain/data-engineering/)
 - [Airbyte Data Glossary](https://glossary.airbyte.com/)
 - [Data Engineering Wiki by Reddit](https://dataengineering.wiki/Index)
-- [Seconda Glossary](https://www.secoda.co/glossary/) 
+- [Seconda Glossary](https://www.secoda.co/glossary/)
 - [Glossary Databricks](https://www.databricks.com/glossary)
 - [Airtable Glossary](https://airtable.com/shrGh8BqZbkfkbrfk/tbluZ3ayLHC3CKsDb)
 - [Data Engineering Glossary by Dagster](https://dagster.io/glossary)
@@ -225,6 +225,7 @@ LinkedIn
   - [Ankit Bansal](https://www.linkedin.com/in/ankitbansal6/)
   - [Marc Lamberti](https://www.linkedin.com/in/marclamberti)
 - 10k+ Followers
+  - [Li Yin](https://www.linkedin.com/in/li-yin-ai/)
   - [Joseph Machado](https://www.linkedin.com/in/josephmachado1991/)
   - [Eric Roby](https://www.linkedin.com/in/codingwithroby/)
   - [Simon Whiteley](https://www.linkedin.com/in/simon-whiteley-uk/)
@@ -237,6 +238,7 @@ LinkedIn
   - [Marcos Ortiz](https://www.linkedin.com/in/mlortiz)
 - 1k+ Followers
   - [Shruti Mantri](https://www.linkedin.com/in/shruti-mantri-88527a67/)
+  - [Volker Janz](https://www.linkedin.com/in/vjanz/)
 
 Twitter / X
 
@@ -253,7 +255,7 @@ Twitter / X
 - [Data Cyborg](https://twitter.com/data_cyborg)
 - [Simon Späti](https://twitter.com/sspaeti)
 - [Marcos Ortiz](https://twitter.com/marcosluis2186)
-  
+
 Instagram
 
 - [Zach Wilson](https://www.instagram.com/eczachly)

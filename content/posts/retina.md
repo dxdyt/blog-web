@@ -1,9 +1,9 @@
 ---
 title: retina
-date: 2024-03-22T12:15:29+08:00
+date: 2024-03-23T12:16:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708793699824-e9eb61c80bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708793699824-e9eb61c80bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709971352230-71b99641b140?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709971352230-71b99641b140?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/retina](https://github.com/microsoft/retina)
@@ -87,7 +87,7 @@ Execute Retina:
 kubectl-retina capture create --help
 ```
 
-For further CLI documentation, see [Capture with Retina CLI](../captures/cli.md).
+For further CLI documentation, see [Capture with Retina CLI](https://retina.sh/docs/captures/cli).
 
 #### Captures via CRD
 

@@ -1,9 +1,9 @@
 ---
 title: jnv
-date: 2024-03-22T12:15:22+08:00
+date: 2024-03-23T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709714173314-8332e78010f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709714173314-8332e78010f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
 # [ynqa/jnv](https://github.com/ynqa/jnv)
@@ -135,3 +135,6 @@ Options:
   -V, --version
           Print version
 ```
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/ynqa/jnv.svg?variant=adaptive)](https://starchart.cc/ynqa/jnv)

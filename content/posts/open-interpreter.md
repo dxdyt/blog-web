@@ -1,12 +1,12 @@
 ---
 title: open-interpreter
-date: 2024-03-19T12:18:09+08:00
+date: 2024-03-23T12:17:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706443930469-663f42523dc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706443930469-663f42523dc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
 ---
 
-# [KillianLucas/open-interpreter](https://github.com/KillianLucas/open-interpreter)
+# [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
 
 <h1 align="center">● Open Interpreter</h1>
 
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1706443930469-663f42523d
     <img src="https://img.shields.io/static/v1?label=license&message=AGPL&color=white&style=flat" alt="License"/>
     <br>
     <br>
-    <strong>Let language models run code.</strong><br>
+    <strong>Today we launched a new computer (the 01) with Open Interpreter at the center. <a href="https://github.com/OpenInterpreter/01">Star the repo →</a></strong><br>
     <br><a href="https://openinterpreter.com">Get early access to the desktop app</a>‎ ‎ |‎ ‎ <a href="https://docs.openinterpreter.com/">Documentation</a><br>
 </p>
 
@@ -28,9 +28,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1706443930469-663f42523d
 ![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
 <br>
-<p align="center">
+<!--<p align="center">
 <strong>The New Computer Update</strong> introduces <strong><code>--os</code></strong> and a new <strong>Computer API</strong>. <a href="https://changes.openinterpreter.com/log/the-new-computer-update">Read On →</a>
-</p>
+</p>-->
 <br>
 
 ```shell
