@@ -1,9 +1,9 @@
 ---
 title: redis
-date: 2024-03-23T12:18:49+08:00
+date: 2024-03-24T12:19:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710438641275-1b1512304344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710438641275-1b1512304344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707985665904-4d6beaa8d9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707985665904-4d6beaa8d9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [redis/redis](https://github.com/redis/redis)

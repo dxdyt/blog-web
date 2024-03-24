@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2023-12-23T12:17:06+08:00
+date: 2024-03-24T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702651364906-f4312ed8f4a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702651364906-f4312ed8f4a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709707546257-08d69fd42d8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709707546257-08d69fd42d8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702651364906-f4312ed8f4
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/3684)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/4075)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索 
 
@@ -35,11 +35,32 @@ $ grep -nri [搜索词] docs | cat --number
 ```bash
 $ grep -nri css docs | cat --number
 ```
+## 2024
+
+**三月**
+
+- 第 294 期：[崖门海战的感想](docs/issue-294.md)
+- 第 293 期：[一周是一年的2%](docs/issue-293.md)
+- 第 292 期：[所有代码都是技术债](docs/issue-292.md)
+- 第 291 期：[AI 没有护城河](docs/issue-291.md)
+
+**二月**
+
+- 第 290 期：[苹果头盔的最大问题](docs/issue-290.md)
+- 第 289 期：[宽容从何而来](docs/issue-289.md)
+
+**一月**
+
+- 第 288 期：[技术写作的首要诀窍](docs/issue-288.md)
+- 第 287 期：[禄丰恐龙谷记行](docs/issue-287.md)
+- 第 286 期：[蓝色指示灯的解决方案](docs/issue-286.md)
+- 第 285 期：[为什么 PPT 不如备忘录](docs/issue-285.md)
 
 ## 2023
 
 **十二月**
 
+- 第 284 期：[YouTube 有多少个视频？](docs/issue-284.md)
 - 第 283 期：[[年终感想] 没有目的地，向前走](docs/issue-283.md)
 - 第 282 期：[电动皮卡 Cybertruck 的 48V 供电](docs/issue-282.md)
 - 第 281 期：[新基建的政策选择](docs/issue-281.md)

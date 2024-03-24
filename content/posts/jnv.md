@@ -1,9 +1,9 @@
 ---
 title: jnv
-date: 2024-03-23T12:16:41+08:00
+date: 2024-03-24T12:17:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706677258097-3177eed99294?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706677258097-3177eed99294?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [ynqa/jnv](https://github.com/ynqa/jnv)
@@ -38,10 +38,19 @@ and [jiq](https://github.com/fiatjaf/jiq).
 brew install ynqa/tap/jnv
 ```
 
+### MacPorts
+
+```bash
+sudo port install jnv
+```
+
+More info [here](https://ports.macports.org/port/jnv/)
+
 ### Cargo
 
 #### Requirements
 
+- [autoconf](https://www.gnu.org/software/autoconf/)
 - [automake](https://www.gnu.org/software/automake/)
 
 ```bash

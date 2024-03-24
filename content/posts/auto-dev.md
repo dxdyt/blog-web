@@ -1,9 +1,9 @@
 ---
 title: auto-dev
-date: 2024-03-23T12:17:03+08:00
+date: 2024-03-24T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709707546257-08d69fd42d8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709707546257-08d69fd42d8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [unit-mesh/auto-dev](https://github.com/unit-mesh/auto-dev)
@@ -38,7 +38,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708446448564-4158aa4785
 [DevIns — AI Agent language for AutoDevelopment →](https://ide.unitmesh.cc/devins) which you can use follow syntax as
 bridges for Human-AI-IDE:
 
-    /write:src/main/java/com/example/Controller.java#L1-L12
+    /write:src/main/java/cc/unitmesh/Controller.java#L1-L12
+
     ```java
     public class Controller {
         public void method() {
@@ -46,6 +47,8 @@ bridges for Human-AI-IDE:
         }
     }
     ```
+
+With built-in syntax highlighting and auto-completion, you can use DevIns as next-generation AI Agent language.
 
 ## AutoDev Architecture
 

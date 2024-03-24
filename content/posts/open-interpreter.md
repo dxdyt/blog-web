@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2024-03-23T12:17:56+08:00
+date: 2024-03-24T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1605707159327-f43132f89a5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709290608385-e6b029804f9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709290608385-e6b029804f9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)

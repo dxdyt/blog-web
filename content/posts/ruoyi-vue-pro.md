@@ -1,9 +1,9 @@
 ---
 title: ruoyi-vue-pro
-date: 2024-03-22T12:15:05+08:00
+date: 2024-03-24T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710302043859-6077fea7205a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710302043859-6077fea7205a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEwODA4Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710183327912-b8c95b5e1442?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710183327912-b8c95b5e1442?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [YunaiV/ruoyi-vue-pro](https://github.com/YunaiV/ruoyi-vue-pro)

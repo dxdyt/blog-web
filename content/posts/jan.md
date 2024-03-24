@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2024-02-17T12:19:13+08:00
+date: 2024-03-24T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708348127662-6c3771e8c3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708348127662-6c3771e8c3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)
@@ -53,31 +53,31 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
   <tr style="text-align:center">
     <td style="text-align:center"><b>Stable (Recommended)</b></td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-win-x64-0.4.6.exe'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-win-x64-0.4.9.exe'>
         <img src='./docs/static/img/windows.png' style="height:14px; width: 14px" />
         <b>jan.exe</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-mac-x64-0.4.6.dmg'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-mac-x64-0.4.9.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-mac-arm64-0.4.6.dmg'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-mac-arm64-0.4.9.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-linux-amd64-0.4.6.deb'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-linux-amd64-0.4.9.deb'>
         <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.deb</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.6/jan-linux-x86_64-0.4.6.AppImage'>
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-linux-x86_64-0.4.9.AppImage'>
         <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.AppImage</b>
       </a>
@@ -86,31 +86,31 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
   <tr style="text-align:center">
     <td style="text-align:center"><b>Experimental (Nightly Build)</b></td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-win-x64-0.4.6-273.exe'>
+      <a href='https://delta.jan.ai/latest/jan-win-x64-0.4.9-341.exe'>
         <img src='./docs/static/img/windows.png' style="height:14px; width: 14px" />
         <b>jan.exe</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-mac-x64-0.4.6-273.dmg'>
+      <a href='https://delta.jan.ai/latest/jan-mac-x64-0.4.9-341.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-mac-arm64-0.4.6-273.dmg'>
+      <a href='https://delta.jan.ai/latest/jan-mac-arm64-0.4.9-341.dmg'>
         <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-linux-amd64-0.4.6-273.deb'>
+      <a href='https://delta.jan.ai/latest/jan-linux-amd64-0.4.9-341.deb'>
         <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.deb</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-linux-x86_64-0.4.6-273.AppImage'>
+      <a href='https://delta.jan.ai/latest/jan-linux-x86_64-0.4.9-341.AppImage'>
         <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.AppImage</b>
       </a>
@@ -219,6 +219,12 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fi
 
 This will start the development server and open the desktop app.
 
+3. (Optional) **Run the API server without frontend**
+
+   ```bash
+   yarn dev:server
+   ```
+
 ### For production build
 
 ```bash
@@ -245,68 +251,93 @@ This will build the app MacOS m1/m2 for production (with code signing already do
 
 - Run Jan in Docker mode
 
-  - **Option 1**: Run Jan in CPU mode
+| Docker compose Profile | Description                                  |
+| ---------------------- | -------------------------------------------- |
+| `cpu-fs`               | Run Jan in CPU mode with default file system |
+| `cpu-s3fs`             | Run Jan in CPU mode with S3 file system      |
+| `gpu-fs`               | Run Jan in GPU mode with default file system |
+| `gpu-s3fs`             | Run Jan in GPU mode with S3 file system      |
+
+| Environment Variable    | Description                                                                                             |
+| ----------------------- | ------------------------------------------------------------------------------------------------------- |
+| `S3_BUCKET_NAME`        | S3 bucket name - leave blank for default file system                                                    |
+| `AWS_ACCESS_KEY_ID`     | AWS access key ID - leave blank for default file system                                                 |
+| `AWS_SECRET_ACCESS_KEY` | AWS secret access key - leave blank for default file system                                             |
+| `AWS_ENDPOINT`          | AWS endpoint URL - leave blank for default file system                                                  |
+| `AWS_REGION`            | AWS region - leave blank for default file system                                                        |
+| `API_BASE_URL`          | Jan Server URL, please modify it as your public ip address or domain name default http://localhost:1377 |
+
+- **Option 1**: Run Jan in CPU mode
+
+  ```bash
+  # cpu mode with default file system
+  docker compose --profile cpu-fs up -d
+
+  # cpu mode with S3 file system
+  docker compose --profile cpu-s3fs up -d
+  ```
+
+- **Option 2**: Run Jan in GPU mode
+
+  - **Step 1**: Check CUDA compatibility with your NVIDIA driver by running `nvidia-smi` and check the CUDA version in the output
 
     ```bash
-    docker compose --profile cpu up -d
+    nvidia-smi
+
+    # Output
+    +---------------------------------------------------------------------------------------+
+    | NVIDIA-SMI 531.18                 Driver Version: 531.18       CUDA Version: 12.1     |
+    |-----------------------------------------+----------------------+----------------------+
+    | GPU  Name                      TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+    | Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+    |                                         |                      |               MIG M. |
+    |=========================================+======================+======================|
+    |   0  NVIDIA GeForce RTX 4070 Ti    WDDM | 00000000:01:00.0  On |                  N/A |
+    |  0%   44C    P8               16W / 285W|   1481MiB / 12282MiB |      2%      Default |
+    |                                         |                      |                  N/A |
+    +-----------------------------------------+----------------------+----------------------+
+    |   1  NVIDIA GeForce GTX 1660 Ti    WDDM | 00000000:02:00.0 Off |                  N/A |
+    |  0%   49C    P8               14W / 120W|      0MiB /  6144MiB |      0%      Default |
+    |                                         |                      |                  N/A |
+    +-----------------------------------------+----------------------+----------------------+
+    |   2  NVIDIA GeForce GTX 1660 Ti    WDDM | 00000000:05:00.0 Off |                  N/A |
+    | 29%   38C    P8               11W / 120W|      0MiB /  6144MiB |      0%      Default |
+    |                                         |                      |                  N/A |
+    +-----------------------------------------+----------------------+----------------------+
+
+    +---------------------------------------------------------------------------------------+
+    | Processes:                                                                            |
+    |  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+    |        ID   ID                                                             Usage      |
+    |=======================================================================================|
     ```
 
-  - **Option 2**: Run Jan in GPU mode
+  - **Step 2**: Visit [NVIDIA NGC Catalog ](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda/tags) and find the smallest minor version of image tag that matches your CUDA version (e.g., 12.1 -> 12.1.0)
 
-    - **Step 1**: Check CUDA compatibility with your NVIDIA driver by running `nvidia-smi` and check the CUDA version in the output
+  - **Step 3**: Update the `Dockerfile.gpu` line number 5 with the latest minor version of the image tag from step 2 (e.g. change `FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04 AS base` to `FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04 AS base`)
 
-      ```bash
-      nvidia-smi
+  - **Step 4**: Run command to start Jan in GPU mode
 
-      # Output
-      +---------------------------------------------------------------------------------------+
-      | NVIDIA-SMI 531.18                 Driver Version: 531.18       CUDA Version: 12.1     |
-      |-----------------------------------------+----------------------+----------------------+
-      | GPU  Name                      TCC/WDDM | Bus-Id        Disp.A | Volatile Uncorr. ECC |
-      | Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
-      |                                         |                      |               MIG M. |
-      |=========================================+======================+======================|
-      |   0  NVIDIA GeForce RTX 4070 Ti    WDDM | 00000000:01:00.0  On |                  N/A |
-      |  0%   44C    P8               16W / 285W|   1481MiB / 12282MiB |      2%      Default |
-      |                                         |                      |                  N/A |
-      +-----------------------------------------+----------------------+----------------------+
-      |   1  NVIDIA GeForce GTX 1660 Ti    WDDM | 00000000:02:00.0 Off |                  N/A |
-      |  0%   49C    P8               14W / 120W|      0MiB /  6144MiB |      0%      Default |
-      |                                         |                      |                  N/A |
-      +-----------------------------------------+----------------------+----------------------+
-      |   2  NVIDIA GeForce GTX 1660 Ti    WDDM | 00000000:05:00.0 Off |                  N/A |
-      | 29%   38C    P8               11W / 120W|      0MiB /  6144MiB |      0%      Default |
-      |                                         |                      |                  N/A |
-      +-----------------------------------------+----------------------+----------------------+
+    ```bash
+    # GPU mode with default file system
+    docker compose --profile gpu-fs up -d
 
-      +---------------------------------------------------------------------------------------+
-      | Processes:                                                                            |
-      |  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
-      |        ID   ID                                                             Usage      |
-      |=======================================================================================|
-      ```
+    # GPU mode with S3 file system
+    docker compose --profile gpu-s3fs up -d
+    ```
 
-    - **Step 2**: Visit [NVIDIA NGC Catalog ](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/cuda/tags) and find the smallest minor version of image tag that matches your CUDA version (e.g., 12.1 -> 12.1.0)
+This will start the web server and you can access Jan at `http://localhost:3000`.
 
-    - **Step 3**: Update the `Dockerfile.gpu` line number 5 with the latest minor version of the image tag from step 2 (e.g. change `FROM nvidia/cuda:12.2.0-runtime-ubuntu22.04 AS base` to `FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04 AS base`)
-
-    - **Step 4**: Run command to start Jan in GPU mode
-
-      ```bash
-      # GPU mode
-      docker compose --profile gpu up -d
-      ```
-
-  This will start the web server and you can access Jan at `http://localhost:3000`.
-
-  > Note: Currently, Docker mode is only work for development and localhost, production is not supported yet. RAG feature is not supported in Docker mode yet.
+> Note: RAG feature is not supported in Docker mode with s3fs yet.
 
 ## Acknowledgements
 
 Jan builds on top of other open-source projects:
 
 - [llama.cpp](https://github.com/ggerganov/llama.cpp)
+- [LangChain](https://github.com/langchain-ai)
 - [TensorRT](https://github.com/NVIDIA/TensorRT)
+- [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
 
 ## Contact
 
