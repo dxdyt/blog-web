@@ -1,9 +1,9 @@
 ---
 title: devika
-date: 2024-03-24T12:16:06+08:00
+date: 2024-03-25T12:16:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708748565077-d6ecbe15801b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705651460796-f4b4d74c9fea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705651460796-f4b4d74c9fea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
 ---
 
 # [stitionai/devika](https://github.com/stitionai/devika)
@@ -99,6 +99,7 @@ uv pip install -r requirements.txt
 cd ui/
 bun install
 bun run dev
+cd ..
 python3 devika.py
 ```
 
@@ -226,14 +227,7 @@ To join the Devika community Discord server, [click here](https://discord.com/in
 
 ## Contributing
 
-We welcome contributions to enhance Devika's capabilities and improve its performance. To contribute, please follow these steps:
-
-1. Fork the Devika repository on GitHub.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure that the code passes all tests.
-4. Submit a pull request describing your changes and their benefits.
-
-Please adhere to the coding conventions, maintain clear documentation, and provide thorough testing for your contributions.
+We welcome contributions to enhance Devika's capabilities and improve its performance. To contribute, please see the `CONTRIBUTING.md` file for steps.
 
 ## License
 

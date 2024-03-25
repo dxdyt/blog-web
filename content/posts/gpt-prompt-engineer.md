@@ -1,9 +1,9 @@
 ---
 title: gpt-prompt-engineer
-date: 2024-03-24T12:16:32+08:00
+date: 2024-03-25T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707985665904-4d6beaa8d9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707985665904-4d6beaa8d9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710537432988-516a114f5955?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710537432988-516a114f5955?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
 ---
 
 # [mshumer/gpt-prompt-engineer](https://github.com/mshumer/gpt-prompt-engineer)

@@ -1,9 +1,9 @@
 ---
 title: Marlin
-date: 2023-09-18T12:17:42+08:00
+date: 2024-03-25T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692613174661-a239fbf8ebe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705651460796-f4b4d74c9fea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705651460796-f4b4d74c9fea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
 ---
 
 # [MarlinFirmware/Marlin](https://github.com/MarlinFirmware/Marlin)
@@ -152,7 +152,6 @@ Regular users can open and close their own issues, but only the administrators c
 
  🇳🇱  **Erik van der Zalm**
        [@ErikZalm](https://github.com/ErikZalm)
-       [<kbd>  Donate 💸  </kbd>](https://flattr.com/submit/auto?user_id=ErikZalm&url=https://github.com/MarlinFirmware/Marlin&title=Marlin&language=&tags=github&category=software)
 
 </td></tr>
 </table>

@@ -1,9 +1,9 @@
 ---
 title: LLMs-from-scratch
-date: 2024-03-11T12:16:45+08:00
+date: 2024-03-25T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709049017472-1c0575b57805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709049017472-1c0575b57805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAxMzA1NzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709927628742-c3da31d7707f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709927628742-c3da31d7707f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
 ---
 
 # [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
@@ -17,9 +17,9 @@ This repository contains the code for coding, pretraining, and finetuning a GPT-
 <br>
 <br>
 
-<a href="http://mng.bz/orYv"><img src="images/cover.jpg" width="250px"></a>
+<a href="http://mng.bz/orYv"><img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/cover.jpg" width="250px"></a>
 
-In [*Build a Large Language Model (from Scratch)*](http://mng.bz/orYv), you'll discover how LLMs work from the inside out. In this book, I'll guide you step by step through creating your own LLM, explaining each stage with clear text, diagrams, and examples. 
+In [*Build a Large Language Model (From Scratch)*](http://mng.bz/orYv), you'll discover how LLMs work from the inside out. In this book, I'll guide you step by step through creating your own LLM, explaining each stage with clear text, diagrams, and examples.
 
 The method described in this book for training and developing your own small-but-functional model for educational purposes mirrors the approach used in creating large-scale foundational models such as those behind ChatGPT.
 
@@ -41,21 +41,20 @@ Alternatively, you can view this and other files on GitHub at [https://github.co
 <br>
 <br>
 
-| Chapter Title                                  | Main Code (for quick access)                                                                                                    | All Code + Supplementary      |
-|------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
-| Ch 1: Understanding Large Language Models      | No code                                                                                                                         | No code                       |
-| Ch 2: Working with Text Data                   | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb) | [./ch02](./ch02)              |
-| Ch 3: Coding Attention Mechanisms              | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)              |
-| Ch 4: Implementing a GPT Model from Scratch    | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |
-| Ch 5: Pretraining on Unlabeled Data            | Q1 2024                                                                                                                         | ...                           |
-| Ch 6: Finetuning for Text Classification       | Q2 2024                                                                                                                         | ...                           |
-| Ch 7: Finetuning with Human Feedback           | Q2 2024                                                                                                                         | ...                           |
-| Ch 8: Using Large Language Models in Practice  | Q2/3 2024                                                                                                                       | ...                           |
-| Appendix A: Introduction to PyTorch            | - [code-part1.ipynb](appendix-A/03_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](appendix-A/03_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](appendix-A/03_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](appendix-A/03_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
-| Appendix B: References and Further Reading     | No code                                                                                                                         |                               |
-| Appendix C: Exercises                          | No code                                                                                                                         |                               |
-
-
+| Chapter Title                                              | Main Code (for quick access)                                                                                                    | All Code + Supplementary      |
+|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
+| Ch 1: Understanding Large Language Models                  | No code                                                                                                                         | -                             |
+| Ch 2: Working with Text Data                               | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)              |
+| Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)              |
+| Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |
+| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.ipynb)<br/>- [train.py](ch05/01_main-chapter-code/train.py) (summary) <br/>- [generate.py](ch05/01_main-chapter-code/generate.py) (summary) | [./ch05](./ch05)              |
+| Ch 6: Finetuning for Text Classification                   | Q2 2024                                                                                                                         | ...                           |
+| Ch 7: Finetuning with Human Feedback                       | Q2 2024                                                                                                                         | ...                           |
+| Ch 8: Using Large Language Models in Practice              | Q2/3 2024                                                                                                                       | ...                           |
+| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](appendix-A/03_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](appendix-A/03_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](appendix-A/03_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](appendix-A/03_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
+| Appendix B: References and Further Reading                 | No code                                                                                                                         | -                             |
+| Appendix C: Exercises                                      | No code                                                                                                                         | -                             |
+| Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |
 <br>
 
 > [!TIP]
@@ -68,5 +67,62 @@ Alternatively, you can view this and other files on GitHub at [https://github.co
 
 Shown below is a mental model summarizing the contents covered in this book.
 
-<img src="images/mental-model.jpg" width="600px">
+<img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg" width="650px">
 
+<br>
+<br>
+&nbsp
+
+## Bonus Material
+
+Several folders contain optional materials as a bonus for interested readers:
+
+- **Appendix A:**
+  - [Python Setup Tips](appendix-A/01_optional-python-setup-preferences)
+  - [Installing Libraries Used In This Book](appendix-A/02_installing-python-libraries)
+  - [Docker Environment Setup Guide](appendix-A/04_optional-docker-environment)
+
+- **Chapter 2:**
+  - [Comparing Various Byte Pair Encoding (BPE) Implementations](ch02/02_bonus_bytepair-encoder)
+  - [Understanding the Difference Between Embedding Layers and Linear Layers](ch02/03_bonus_embedding-vs-matmul)
+
+- **Chapter 3:**
+  - [Comparing Efficient Multi-Head Attention Implementations](ch03/02_bonus_efficient-multihead-attention/mha-implementations.ipynb)
+
+- **Chapter 5:**
+  - [Alternative Weight Loading from Hugging Face Model Hub using Transformers](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
+  - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg) 
+  - [Adding Bells and Whistles to the Training Loop](ch05/04_learning_rate_schedulers)
+  - [Optimizing Hyperparameters for Pretraining](05_bonus_hparam_tuning)
+
+<br>
+<br>
+&nbsp
+
+
+### Reader Projects and Showcase
+
+Below are interesting projects by readers of the *Build A Large Language Model From Scratch* book:
+
+- [https://github.com/Intelligence-Manifesto/LLMs-from-scratch](https://github.com/Intelligence-Manifesto/LLMs-from-scratch), a fork of this repository with Chinese translation
+
+<br>
+<br>
+&nbsp
+
+### Citation
+
+If you find this book  or code useful for your research, please consider citing it:
+
+```
+@book{build-llms-from-scratch-book,
+  author       = {Sebastian Raschka},
+  title        = {Build A Large Language Model (From Scratch)},
+  publisher    = {Manning},
+  year         = {2023},
+  isbn         = {978-1633437166},
+  url          = {https://www.manning.com/books/build-a-large-language-model-from-scratch},
+  note         = {Work in progress},
+  github       = {https://github.com/rasbt/LLMs-from-scratch}
+}
+```

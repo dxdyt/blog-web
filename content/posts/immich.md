@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2024-02-13T12:15:32+08:00
+date: 2024-03-25T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703982924533-22c9f7f34624?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703982924533-22c9f7f34624?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708935838044-632cada56bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708935838044-632cada56bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -19,26 +19,26 @@ featuredImagePreview: https://images.unsplash.com/photo-1703982924533-22c9f7f346
 </p>
 
 <p align="center">
-<img src="design/immich-logo.svg" width="150" title="Login With Custom URL">
+<img src="design/immich-logo-stacked-light.svg" width="300" title="Login With Custom URL">
 </p>
-<h3 align="center">Immich - High performance self-hosted photo and video backup solution</h3>
+<h3 align="center">High performance self-hosted photo and video management solution</h3>
 <br/>
 <a href="https://immich.app">
 <img src="design/immich-screenshots.png" title="Main Screenshot">
 </a>
 <br/>
 <p align="center">
-  <a href="README_ca_ES.md">Català</a>
-  <a href="README_es_ES.md">Español</a>
-  <a href="README_fr_FR.md">Français</a>
-  <a href="README_it_IT.md">Italiano</a>
-  <a href="README_ja_JP.md">日本語</a>
-  <a href="README_ko_KR.md">한국어</a>
-  <a href="README_de_DE.md">Deutsch</a>
-  <a href="README_nl_NL.md">Nederlands</a>
-  <a href="README_tr_TR.md">Türkçe</a>
-  <a href="README_zh_CN.md">中文</a>
-  <a href="README_ru_RU.md">Русский</a>
+  <a href="readme_i18n/README_ca_ES.md">Català</a>
+  <a href="readme_i18n/README_es_ES.md">Español</a>
+  <a href="readme_i18n/README_fr_FR.md">Français</a>
+  <a href="readme_i18n/README_it_IT.md">Italiano</a>
+  <a href="readme_i18n/README_ja_JP.md">日本語</a>
+  <a href="readme_i18n/README_ko_KR.md">한국어</a>
+  <a href="readme_i18n/README_de_DE.md">Deutsch</a>
+  <a href="readme_i18n/README_nl_NL.md">Nederlands</a>
+  <a href="readme_i18n/README_tr_TR.md">Türkçe</a>
+  <a href="readme_i18n/README_zh_CN.md">中文</a>
+  <a href="readme_i18n/README_ru_RU.md">Русский</a>
 </p>
 
 ## Disclaimer
@@ -137,4 +137,10 @@ If you feel like this is the right cause and the app is something you are seeing
 
 <a href="https://github.com/alextran1502/immich/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=immich-app/immich" width="100%"/>
+</a>
+
+## Star History
+
+<a href="https://star-history.com/#immich-app/immich">
+  <img src="https://api.star-history.com/svg?repos=immich-app/immich&type=Date" alt="Star History Chart" width="100%" />
 </a>

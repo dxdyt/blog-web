@@ -1,9 +1,9 @@
 ---
 title: bulma
-date: 2024-03-24T12:18:18+08:00
+date: 2024-03-25T12:18:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706677258097-3177eed99294?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706677258097-3177eed99294?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709314633232-b01d4f45596c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709314633232-b01d4f45596c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
 ---
 
 # [jgthms/bulma](https://github.com/jgthms/bulma)
