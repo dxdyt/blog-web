@@ -1,9 +1,9 @@
 ---
 title: evolutionary-model-merge
-date: 2024-03-24T12:18:26+08:00
+date: 2024-03-26T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708524775953-6f19621cd787?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708524775953-6f19621cd787?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711064643485-c3039d067839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711064643485-c3039d067839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
 ---
 
 # [SakanaAI/evolutionary-model-merge](https://github.com/SakanaAI/evolutionary-model-merge)

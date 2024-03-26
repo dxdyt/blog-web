@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-03-25T12:16:57+08:00
+date: 2024-03-26T12:15:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709314633232-b01d4f45596c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709314633232-b01d4f45596c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711064643485-c3039d067839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711064643485-c3039d067839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)

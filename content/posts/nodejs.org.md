@@ -1,9 +1,9 @@
 ---
 title: nodejs.org
-date: 2024-03-23T12:19:01+08:00
+date: 2024-03-26T12:15:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709548145082-04d0cde481d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709548145082-04d0cde481d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711064643485-c3039d067839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711064643485-c3039d067839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
 ---
 
 # [nodejs/nodejs.org](https://github.com/nodejs/nodejs.org)
@@ -121,6 +121,7 @@ These are maintained in different repositories and we urge users to open **issue
   - A really warm thank you to Cloudflare as we would not be able to serve our community without their immense support.
 - Thanks to [Sentry](https://sentry.io/welcome/) for providing an open source license for their error reporting, monitoring and diagnostic tools.
 - Thanks to [Crowdin](https://crowdin.com/) for providing a platform that allows us to localize the Node.js Website and collaborate with translators.
+- Thanks to [Orama](https://docs.oramasearch.com/) for providing a search platform that indexes our expansive content and provides lightning-fast results for our users.
 
 [code of conduct]: https://github.com/nodejs/admin/blob/main/CODE_OF_CONDUCT.md
 [contribution guidelines]: https://github.com/nodejs/nodejs.org/blob/main/CONTRIBUTING.md

@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-03-19T12:18:19+08:00
+date: 2024-03-26T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709667642843-12864d3d78e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709667642843-12864d3d78e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1476458438255-0ab285b38cb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1476458438255-0ab285b38cb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -16,9 +16,36 @@ featuredImagePreview: https://images.unsplash.com/photo-1709667642843-12864d3d78
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+[demo-video.webm](https://github.com/OpenDevin/OpenDevin/assets/38853559/5b1092cc-3554-4357-a279-c2a2e9b352ad)
+
+
 ## Mission 🎯
 Welcome to OpenDevin, an open-source project aiming to replicate [Devin](https://www.cognition-labs.com/introducing-devin), an autonomous AI software engineer who is capable of executing complex engineering tasks and collaborating actively with users on software development projects. This project aspires to replicate, enhance, and innovate upon Devin through the power of the open-source community.
 
+## Work in Progress
+
+OpenDevin is still a work in progress. But you can run the current app to see things working end-to-end.
+
+### Requirements
+* [Docker](https://docs.docker.com/engine/install/)
+* [Python](https://www.python.org/downloads/) >= 3.10
+* [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+
+### Installation
+```bash
+export OPENAI_API_KEY="..."
+export WORKSPACE_DIR="/path/to/your/project"
+python -m pip install -r requirements.txt
+uvicorn opendevin.server.listen:app --port 3000
+```
+Then in a second terminal:
+```bash
+cd frontend
+npm install
+npm run start -- --port 3001
+```
+
+You'll see OpenDevin running at localhost:3001
 
 ## 🤔 What is [Devin](https://www.cognition-labs.com/introducing-devin)?
 
@@ -45,8 +72,15 @@ Achieving full replication of production-grade applications with LLMs is a compl
 
 ## 🚀 Next Steps
 
-- **Literature Review:** Conduct a thorough review of existing literature (1-2 weeks).
-- **Community Engagement:** Release the plan to the community, form research groups, and begin collaborative work.
+An MVP demo is urgent for us. Here are the most important things to do:
+
+- UI: a chat interface, a shell demonstrating commands, a browser, etc.
+- Architecture: an agent framework with a stable backend, which can read, write and run simple commands
+- Agent: capable of generating bash scripts, running tests, etc.
+- Evaluation: a minimal evaluation pipeline that is consistent with Devin's evaluation.
+
+After finishing building the MVP, we will move towards research in different topics, including foundation models, specialist capabilities, evaluation, agent studies, etc.
+
 
 ## How to Contribute
 
@@ -56,10 +90,11 @@ OpenDevin is a community-driven project, and we welcome contributions from every
 - **Research and Evaluation:** Contribute to our understanding of LLMs in software engineering, participate in evaluating the models, or suggest improvements.
 - **Feedback and Testing:** Use the OpenDevin toolset, report bugs, suggest features, or provide feedback on usability.
 
-**Please fill in the [form](https://forms.gle/758d5p6Ve8r2nxxq6) if you would like to become a core member of OpenDevin Team. We will reach out shortly if we feel you are a good fit to the current team!**
+For details, please check [this document](./CONTRIBUTING.md).
 
-## Stay Connected
+## Join Us
+We use Slack to discuss. Feel free to fill in the [form](https://forms.gle/758d5p6Ve8r2nxxq6) if you would like to join the Slack organization of OpenDevin. We will reach out shortly if we feel you are a good fit to the current team! 
 
-Join our community to stay updated on OpenDevin's progress, share your ideas, and collaborate with fellow enthusiasts and experts. Together, we can make significant strides towards simplifying software engineering tasks and creating more efficient, powerful tools for developers everywhere.
+Stay updated on OpenDevin's progress, share your ideas, and collaborate with fellow enthusiasts and experts. Together, we can make significant strides towards simplifying software engineering tasks and creating more efficient, powerful tools for developers everywhere.
 
 🐚 **Code less, make more with OpenDevin.**
