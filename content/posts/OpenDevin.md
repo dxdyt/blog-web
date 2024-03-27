@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-03-26T12:16:48+08:00
+date: 2024-03-27T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1476458438255-0ab285b38cb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1476458438255-0ab285b38cb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710183758420-707ed8801b01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710183758420-707ed8801b01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -24,12 +24,12 @@ Welcome to OpenDevin, an open-source project aiming to replicate [Devin](https:/
 
 ## Work in Progress
 
-OpenDevin is still a work in progress. But you can run the current app to see things working end-to-end.
+OpenDevin is still a work in progress. But you can run the alpha version to see things working end-to-end.
 
 ### Requirements
 * [Docker](https://docs.docker.com/engine/install/)
 * [Python](https://www.python.org/downloads/) >= 3.10
-* [NPM](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+* [NodeJS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) >= 14.8
 
 ### Installation
 ```bash
@@ -46,6 +46,18 @@ npm run start -- --port 3001
 ```
 
 You'll see OpenDevin running at localhost:3001
+
+### Picking a Model
+We use LiteLLM, so you can run OpenDevin with any foundation model, including OpenAI, Claude, and Gemini.
+LiteLLM has a [full list of providers](https://docs.litellm.ai/docs/providers).
+
+To change the model, set the `LLM_MODEL` and `LLM_API_KEY` environment variables.
+
+For example, to run Claude:
+```bash
+export LLM_API_KEY="your-api-key"
+export LLM_MODEL="claude-3-opus-20240229"
+```
 
 ## 🤔 What is [Devin](https://www.cognition-labs.com/introducing-devin)?
 

@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-03-25T12:17:13+08:00
+date: 2024-03-27T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709548145082-04d0cde481d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709548145082-04d0cde481d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -15,14 +15,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1709548145082-04d0cde481
 ![](docs/webui.jpg)
 
 ## 特别感谢 🙏
-由于该项目的 **部署** 和 **使用**，对于一些小白用户来说，还是 **有一定的门槛**，在此特别感谢 
+
+由于该项目的 **部署** 和 **使用**，对于一些小白用户来说，还是 **有一定的门槛**，在此特别感谢
 
 **录咖（AI智能 多媒体服务平台）** 网站基于该项目，提供的免费`AI视频生成器`服务，可以不用部署，直接在线使用，非常方便。
 
 - 中文版：https://reccloud.cn
 - 英文版：https://reccloud.com
 
-![reccloud.png](docs/reccloud.jpg)
+![](docs/reccloud.jpg)
 
 ## 功能特性 🎯
 
@@ -38,9 +39,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1709548145082-04d0cde481
 - [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
 - [x] 视频素材来源 **高清**，而且 **无版权**
+- [x] 支持 **OpenAI**、**moonshot**、**Azure**、**gpt4free**、**one-api** 等多种模型接入
 
 ### 后期计划 📅
 
+- [ ] GPT-SoVITS 配音支持
 - [ ] 优化语音合成，利用大模型，使其合成的声音，更加自然，情绪更加丰富
 - [ ] 增加视频转场效果，使其看起来更加的流畅
 - [ ] 优化视频素材的匹配度
@@ -173,33 +176,75 @@ python main.py
 
 当前支持2种字幕生成方式：
 
-- edge
-- whisper
+- edge: 生成速度更快，性能更好，对电脑配置没有要求，但是质量可能不稳定
+- whisper: 生成速度较慢，性能较差，对电脑配置有一定要求，但是质量更可靠
 
-可以修改 `config.toml` 配置文件中的 `subtitle_provider` 进行切换，如果留空，表示不生成字幕。
+可以修改 `config.toml` 配置文件中的 `subtitle_provider` 进行切换
+
+建议使用 `edge` 模式，如果生成的字幕质量不好，再切换到 `whisper` 模式
+
+> 如果留空，表示不生成字幕。
 
 ## 背景音乐 🎵
 
-用于视频的背景音乐，位于项目的 `resource/songs` 目录下。当前项目里面放了一些默认的音乐，来自于 YouTube 视频，如有侵权，请删除。
+用于视频的背景音乐，位于项目的 `resource/songs` 目录下。
+> 当前项目里面放了一些默认的音乐，来自于 YouTube 视频，如有侵权，请删除。
 
 ## 字幕字体 🅰
 
 用于视频字幕的渲染，位于项目的 `resource/fonts` 目录下，你也可以放进去自己的字体。
 
 ## 常见问题 🤔
-### RuntimeError: No ffmpeg exe could be found
+
+### ❓RuntimeError: No ffmpeg exe could be found
+
 通常情况下，ffmpeg 会被自动下载，并且会被自动检测到。
 但是如果你的环境有问题，无法自动下载，可能会遇到如下错误：
+
 ```
 RuntimeError: No ffmpeg exe could be found.
 Install ffmpeg on your system, or set the IMAGEIO_FFMPEG_EXE environment variable.
 ```
+
 此时你可以从 https://www.gyan.dev/ffmpeg/builds/ 下载ffmpeg，解压后，设置 `ffmpeg_path` 为你的实际安装路径即可。
+
 ```toml
 [app]
-    # 请根据你的实际路径设置，注意 Windows 路径分隔符为 \\
-    ffmpeg_path = "C:\\Users\\harry\\Downloads\\ffmpeg.exe"
+# 请根据你的实际路径设置，注意 Windows 路径分隔符为 \\
+ffmpeg_path = "C:\\Users\\harry\\Downloads\\ffmpeg.exe"
 ```
+
+### ❓生成音频时报错或下载视频报错
+
+[issue 56](https://github.com/harry0703/MoneyPrinterTurbo/issues/56)
+
+```
+failed to generate audio, maybe the network is not available. 
+if you are in China, please use a VPN.
+```
+
+[issue 44](https://github.com/harry0703/MoneyPrinterTurbo/issues/44)
+
+```
+failed to download videos, maybe the network is not available. 
+if you are in China, please use a VPN.
+```
+
+这个大概率是网络原因，无法访问境外的服务，请使用VPN解决。
+
+### ❓ImageMagick is not installed on your computer
+
+[issue 33](https://github.com/harry0703/MoneyPrinterTurbo/issues/33)
+
+1. 按照 `示例配置` 里面提供的 `下载地址`
+   ，安装 https://imagemagick.org/archive/binaries/ImageMagick-7.1.1-29-Q16-x64-static.exe, 用静态库
+2. 不要安装在中文路径里面，避免出现一些无法预料的问题
+
+[issue 54](https://github.com/harry0703/MoneyPrinterTurbo/issues/54#issuecomment-2017842022)
+
+如果是linux系统，可以手动安装，参考 https://cn.linux-console.net/?p=16978
+
+感谢 [@wangwenqiao666](https://github.com/wangwenqiao666)的研究探索
 
 ## 反馈建议 📢
 

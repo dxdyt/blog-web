@@ -1,9 +1,9 @@
 ---
 title: Mora
-date: 2024-03-26T12:17:01+08:00
+date: 2024-03-27T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709238810760-bae86f4c2204?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709238810760-bae86f4c2204?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709418354359-6695ee7ea61d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709418354359-6695ee7ea61d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
 ---
 
 # [lichao-sun/Mora](https://github.com/lichao-sun/Mora)
@@ -20,6 +20,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1709238810760-bae86f4c22
 ## What is Mora
 Mora is a multi-agent framework designed to facilitate generalist video generation tasks, leveraging a collaborative approach with multiple visual agents. It aims to replicate and extend the capabilities of OpenAI's Sora.
 ![Task](/image/task.jpg)
+
+## 📹Demo for Artist Creation
+Inspired by OpenAI [Sora: First Impressions](https://openai.com/blog/sora-first-impressions), We utilize Mora to generate Shy kids video. Even though Mora has reached the similar level as Sora in terms of video duration, 80s, Mora still has a significant gap in terms of resolution, object consistency, motion smoothness, etc.
+<p align="left">
+  <img src="./image/demo_shy_kids.gif" width="100%" height="auto" />
+</p>
+
 ## 🎥Demo (1024×576 resolution, 12 seconds and more!)
 <p align="left">
   <img src="./image/demo1.gif" width="49%" height="auto" />

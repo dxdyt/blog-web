@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-03-13T12:16:03+08:00
+date: 2024-03-27T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709456759370-c95738e766aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709456759370-c95738e766aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709286636205-c419afdf70aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709286636205-c419afdf70aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
@@ -37,6 +37,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1709456759370-c95738e766
 | [#](#-technologies)  | [A](#a-technologies)  | [B](#b-technologies)  | [C](#c-technologies)  | [](#d-technologies)  | [](#e-technologies)  | [](#f-technologies)  | [G](#g-technologies)  | [H](#h-technologies)  |
 | [](#i-technologies)  | [](#j-technologies)  | [](#k-technologies)  | [](#l-technologies)  | [M](#m-technologies)  | [](#n-technologies)  | [](#o-technologies)  | [](#p-technologies)  | [Q](#q-technologies)  |
 | [](#r-technologies)  | [S](#s-technologies)  | [](#t-technologies)  | [](#u-technologies)  | [](#v-technologies)  | [](#w-technologies)  | [](#x-technologies)  | [](#y-technologies)  | [](#z-technologies) |
+
+
+#### [Software White Papers](#Software-White-Papers-1)
+
+|    |    |    |    |    |    |    |    |    |
+|:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
+| [](#-white-papers)  | [](#a-white-papers)  | [](#b-white-papers)  | [](#c-white-papers)  | [D](#d-white-papers)  | [](#e-white-papers)  | [](#f-white-papers)  | [](#g-white-papers)  | [](#h-white-papers)  |
+| [](#i-white-papers)  | [](#j-white-papers)  | [](#k-white-papers)  | [](#l-white-papers)  | [](#m-white-papers)  | [](#n-white-papers)  | [](#o-white-papers)  | [](#p-white-papers)  | [](#q-white-papers)  |
+| [](#r-white-papers)  | [](#s-white-papers)  | [](#t-white-papers)  | [](#u-white-papers)  | [](#v-white-papers)  | [](#w-white-papers)  | [](#x-white-papers)  | [](#y-white-papers)  | [](#z-white-papers) |
+
 
 ---
 
@@ -117,6 +127,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709456759370-c95738e766
 
 - [Tumblr Shares Database Migration Strategy With 60+ Billion Rows](https://newsletter.systemdesign.one/p/how-to-migrate-a-mysql-database)
 - [6 Proven Guidelines on Open Sourcing From Tumblr](https://newsletter.systemdesign.one/p/open-source-guidelines)
+- [How Tinder Scaled to 1.6 Billion Swipes per Day](https://newsletter.systemdesign.one/p/tinder-architecture)
 
 #### U companies
 
@@ -186,6 +197,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1709456759370-c95738e766
 #### S technologies
 
 - [Service Discovery](https://systemdesign.one/what-is-service-discovery/)
+
+---
+
+## Software White Papers
+
+#### D white papers
+
+- [Amazon Dynamo](https://newsletter.systemdesign.one/p/amazon-dynamo-architecture)
 
 ---
 

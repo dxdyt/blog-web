@@ -1,9 +1,9 @@
 ---
 title: awesome-generative-ai-guide
-date: 2024-03-20T12:19:07+08:00
+date: 2024-03-27T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709572563747-5de4d256fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709572563747-5de4d256fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707400711008-dd2fa19e76ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707400711008-dd2fa19e76ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
 ---
 
 # [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
@@ -16,7 +16,7 @@ Explore the following resources:
 1. [Monthly Best GenAI Papers List](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#star-best-genai-papers-list-january-2024)
 2. [GenAI Interview Resources](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#computer-interview-prep)
 3. [Applied LLMs Mastery 2024 (created by Aishwarya Naresh Reganti) course material](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#ongoing-applied-llms-mastery-2024)
-4. [List of all GenAI-related free courses (over 30 already listed)](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#book-list-of-free-genai-courses)
+4. [List of all GenAI-related free courses (over 65 listed)](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#book-list-of-free-genai-courses)
 5. [List of code repositories/notebooks for developing generative AI applications](https://github.com/aishwaryanr/awesome-generative-ai-guide?tab=readme-ov-file#notebook-code-notebooks)
 
 We'll be updating this repository regularly, so keep an eye out for the latest additions!
@@ -68,7 +68,7 @@ Happy Learning!
 | 15 Feb 2024 | [Generative Representational Instruction Tuning](https://arxiv.org/pdf/2402.09906.pdf) | The paper introduces generative representational instruction tuning (GRIT), enabling a large language model to excel in both generative and embedding tasks by distinguishing between them through instructions. GRITLM 7B sets a new state-of-the-art on the Massive Text Embedding Benchmark (MTEB) and outperforms all models of its size on generative tasks. Scaling up to GRITLM 8X7B further surpasses all open generative language models while remaining among the best embedding models. GRIT unifies generative and embedding training without performance loss, significantly speeding up RAG by over 60% for long documents. Models and code are available.                                                                                                                                | RAG, Instruction Tuning        |
 | 15 Feb 2024 | [Chain-of-Thought Reasoning Without Prompting](https://arxiv.org/pdf/2402.10200.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | The study enhances large language models' reasoning abilities without explicit prompting by altering the decoding process to uncover inherent chain-of-thought (CoT) reasoning paths. This method bypasses manual prompt engineering, assesses intrinsic reasoning abilities, and correlates CoT presence with higher confidence in decoded answers. Extensive empirical studies across benchmarks demonstrate significant performance improvement over standard greedy decoding.                                                                                                                                                                                                                                                                                                                       | Prompt Engineering             |
 | 15 Feb 2024 | [Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context](https://storage.googleapis.com/deepmind-media/gemini/gemini_v1_5_report.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                                                  | The report introduces Gemini 1.5 Pro, a highly efficient multimodal model excelling in recalling and reasoning over vast amounts of context, including long documents and videos. It achieves near-perfect recall across tasks, surpasses previous state-of-the-art models, and exhibits surprising translation abilities for rare languages like Kalamang.                                                                                                                                                                                                                                                                                                                                                                                                                                             | Foundation LLMs                |
-| 15 Feb 2024 | [Revisiting Feature Prediction for Learning Visual Representations from Video](https://scontent-sjc3-1.xx.fbcdn.net/v/t39.2365-6/427986745_768441298640104_1604906292521363076_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=buAjC_nNnqUAX_pFLGu&_nc_ht=scontent-sjc3-1.xx&oh=00_AfArQSha7RDlNPxQSmkYElwmG3p5BwlKUM4tUroqmW5d_A&oe=65E670B1) | The paper introduces V-JEPA, a collection of vision models trained solely on video data using a feature prediction objective, without relying on pretrained image encoders, text, negative examples, or reconstruction. Trained on 2 million videos, these models are evaluated on downstream image and video tasks, demonstrating versatile visual representations that excel in both motion and appearance-based tasks without requiring adaptation of model parameters. The largest model, a ViT-H/16 trained only on videos, achieves impressive performance on Kinetics-400, Something-Something-v2, and ImageNet1K datasets.                                                                                                                                                                      | Multimodal LLMs                |
+| 15 Feb 2024 | [Revisiting Feature Prediction for Learning Visual Representations from Video](https://scontent.fsyd14-1.fna.fbcdn.net/v/t39.2365-6/427986745_768441298640104_1604906292521363076_n.pdf) | The paper introduces V-JEPA, a collection of vision models trained solely on video data using a feature prediction objective, without relying on pretrained image encoders, text, negative examples, or reconstruction. Trained on 2 million videos, these models are evaluated on downstream image and video tasks, demonstrating versatile visual representations that excel in both motion and appearance-based tasks without requiring adaptation of model parameters. The largest model, a ViT-H/16 trained only on videos, achieves impressive performance on Kinetics-400, Something-Something-v2, and ImageNet1K datasets.                                                                                                                                                                      | Multimodal LLMs                |
 | 13 Feb 2024 | [World Model on Million-Length Video and Language with Ring Attention](https://arxiv.org/pdf/2402.08268.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | The paper addresses limitations of current language models by proposing a joint modeling approach with video sequences to enhance understanding of complex, long-form tasks. It curates a large dataset of diverse videos and books, trains transformers with RingAttention technique on long sequences, and gradually increases context size. Key contributions include training one of the largest context size transformers, overcoming vision-language training challenges, and open-sourcing optimized models capable of processing multimodal sequences over 1M tokens. This work enables training on massive datasets to develop understanding of both human knowledge and the multimodal world, paving the way for broader AI capabilities.                                                      | Multimodal LLMs                |
 | 10 Feb 2024 | [ChemLLM: A Chemical Large Language Model](https://arxiv.org/pdf/2402.06852.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | The paper introduces ChemLLM, the first large language model tailored specifically for chemistry applications, addressing the challenge of integrating structured chemical data into coherent dialogue. Through a template-based instruction construction method, ChemLLM transforms structured knowledge into plain dialogue for effective language model training. ChemLLM outperforms GPT-3.5 and GPT-4 on key chemistry tasks such as name conversion, molecular captioning, and reaction prediction, demonstrating exceptional adaptability to related mathematical and physical tasks. Moreover, ChemLLM showcases proficiency in specialized NLP tasks within chemistry, opening new avenues for exploration in chemical studies.                                                                 | Task Specific LLMs             |
 | 6 Feb 2024  | [LLM Agents can Autonomously Hack Websites](https://arxiv.org/pdf/2402.06664v1.pdf)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 | The paper demonstrates that LLMs, particularly GPT-4, possess the capability to autonomously conduct website hacking tasks such as blind database schema extraction and SQL injections without prior knowledge of vulnerabilities. This ability, enabled by advanced models adept at tool usage and leveraging extended context, raises concerns about the potential offensive capabilities of LLM agents and prompts questions regarding their widespread deployment in cybersecurity contexts.                                                                                                                                                                                                                                                                                                        | LLM Agents                     |
@@ -170,6 +170,15 @@ Engineering](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/mai
 11. [Introduction to Generative AI](https://www.cloudskillsboost.google/paths/118/course_templates/536) by Google Cloud
 12. [Generative AI Concepts](https://www.datacamp.com/courses/generative-ai-concepts) by DataCamp (Daniel Tedesco Data Lead @ Google)
 13. [1 Hour Introduction to LLM (Large Language Models)](https://www.youtube.com/watch?v=xu5_kka-suc) by WeCloudData
+14. [LLM Foundation Models from the Ground Up | Primer](https://www.youtube.com/watch?v=W0c7jQezTDw&list=PLTPXxbhUt-YWjMCDahwdVye8HW69p5NYS) by Databricks
+15. [Generative AI Explained](https://courses.nvidia.com/courses/course-v1:DLI+S-FX-07+V1/) by Nvidia
+16. [Transformer Models and BERT Model](https://www.cloudskillsboost.google/course_templates/538) by Google Cloud
+17. [Generative AI Learning Plan for Decision Makers](https://explore.skillbuilder.aws/learn/public/learning_plan/view/1909/generative-ai-learning-plan-for-decision-makers) by AWS
+18. [Introduction to Responsible AI](https://www.cloudskillsboost.google/course_templates/554) by Google Cloud
+19. [Fundamentals of Generative AI](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) by Microsoft Azure
+20. [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-122979-leestott)  by Microsoft
+21. [ChatGPT for Beginners: The Ultimate Use Cases for Everyone](https://www.udemy.com/course/chatgpt-for-beginners-the-ultimate-use-cases-for-everyone/) by Udemy
+    
 
 
 
@@ -197,27 +206,56 @@ Engineering](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/mai
 11. [LLMOps](https://learn.deeplearning.ai/llmops) by DeepLearning.AI
 
 12. [Automated Testing for LLMOps](https://learn.deeplearning.ai/automated-testing-llmops) by DeepLearning.AI
+13. [Building RAG Agents with LLMs](https://courses.nvidia.com/courses/course-v1:DLI+S-FX-15+V1/) by Nvidia
+14. [Building Generative AI Applications Using Amazon Bedrock](https://explore.skillbuilder.aws/learn/course/external/view/elearning/17904/building-generative-ai-applications-using-amazon-bedrock-aws-digital-training) by AWS
+15. [Efficiently Serving LLMs](https://learn.deeplearning.ai/courses/efficiently-serving-llms/lesson/1/introduction) by DeepLearning.AI
+16. [Building Systems with the ChatGPT API](https://www.deeplearning.ai/short-courses/building-systems-with-chatgpt/) by DeepLearning.AI
+17. [Serverless LLM apps with Amazon Bedrock](https://www.deeplearning.ai/short-courses/serverless-llm-apps-amazon-bedrock/) by DeepLearning.AI
+18. [Building Applications with Vector Databases](https://www.deeplearning.ai/short-courses/building-applications-vector-databases/) by DeepLearning.AI
+19. [Automated Testing for LLMOps](https://www.deeplearning.ai/short-courses/automated-testing-llmops/) by DeepLearning.AI
+20. [LLMOps](https://www.deeplearning.ai/short-courses/llmops/) by DeepLearning.AI
+21. [Build LLM Apps with LangChain.js](https://www.deeplearning.ai/short-courses/build-llm-apps-with-langchain-js/) by DeepLearning.AI
+22. [Advanced Retrieval for AI with Chroma](https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/) by DeepLearning.AI
+    
 
-##### 3. Prompt Engineering, RAG and Fine-Tuning
+##### Prompt Engineering, RAG and Fine-Tuning
 1. [LangChain & Vector Databases in Production](https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbVhnQW8xNDdhSU9IUDVLXzFhV2N0UkNRMkZrQXxBQ3Jtc0traUxHMzZJcGJQYjlyckYxaGxYVWlsOFNGUFlFVEdhNzdjTWpPUlQ2TF9XczRqNkxMVGpJTnd5YmYzV0prQ0IwZURNcHhIZ3h1Z051VTl5MXBBLUN0dkM0NHRkQTFua1Jpc0VCRFJUb0ZQZG95b0JqMA&q=https%3A%2F%2Flearn.activeloop.ai%2Fcourses%2Flangchain&v=gKUTDC13jys) by Activeloop
 
 2. [Reinforcement Learning from Human Feedback](https://learn.deeplearning.ai/reinforcement-learning-from-human-feedback) by DeepLearning.AI
 
 3. [Building Applications with Vector Databases](https://learn.deeplearning.ai/building-applications-vector-databases) by DeepLearning.AI
 
-4. [How Diffusion Models Work](https://learn.deeplearning.ai/diffusion-models) by DeepLearning.AI
-5. [Finetuning Large Language Models](https://learn.deeplearning.ai/finetuning-large-language-models) by Deeplearning.AI
-6. [LangChain: Chat with Your Data](http://learn.deeplearning.ai/langchain-chat-with-your-data/) by Deeplearning.AI
+4. [Finetuning Large Language Models](https://learn.deeplearning.ai/finetuning-large-language-models) by Deeplearning.AI
+5. [LangChain: Chat with Your Data](http://learn.deeplearning.ai/langchain-chat-with-your-data/) by Deeplearning.AI
 
-7. [Building Systems with the ChatGPT API](https://learn.deeplearning.ai/chatgpt-building-system) by Deeplearning.AI
+6. [Building Systems with the ChatGPT API](https://learn.deeplearning.ai/chatgpt-building-system) by Deeplearning.AI
+7. [Prompt Engineering with Llama 2](https://www.deeplearning.ai/short-courses/prompt-engineering-with-llama-2/) by Deeplearning.AI
 8. [Building Applications with Vector Databases](https://learn.deeplearning.ai/building-applications-vector-databases) by Deeplearning.AI
 9. [ChatGPT Prompt Engineering for Developers](https://learn.deeplearning.ai/chatgpt-prompt-eng/lesson/1/introduction) by Deeplearning.AI
 10. [Advanced RAG Orchestration series](https://www.youtube.com/watch?v=CeDS1yvw9E4) by LlamaIndex
+11. [Prompt Engineering Specialization](https://www.coursera.org/specializations/prompt-engineering) by Coursera
+12. [Augment your LLM Using Retrieval Augmented Generation](https://courses.nvidia.com/courses/course-v1:NVIDIA+S-FX-16+v1/) by Nvidia
+13. [Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/)  by Deeplearning.AI
+14. [Open Source Models with Hugging Face](https://www.deeplearning.ai/short-courses/open-source-models-hugging-face/) by Deeplearning.AI
+15. [Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/) by Deeplearning.AI
+16. [Understanding and Applying Text Embeddings](https://www.deeplearning.ai/short-courses/google-cloud-vertex-ai/) by Deeplearning.AI
+    
 
 ##### Evaluation
 1. [Building and Evaluating Advanced RAG Applications](https://learn.deeplearning.ai/building-evaluating-advanced-rag) by DeepLearning.AI
-
 2. [Evaluating and Debugging Generative AI Models Using Weights and Biases](https://learn.deeplearning.ai/evaluating-debugging-generative-ai) by Deeplearning.AI
+3. [Quality and Safety for LLM Applications](https://www.deeplearning.ai/short-courses/quality-safety-llm-applications/) by Deeplearning.AI
+   
+
+##### Multimodal 
+1. [How Diffusion Models Work](https://www.deeplearning.ai/short-courses/how-diffusion-models-work/) by DeepLearning.AI
+2. [How to Use Midjourney, AI Art and ChatGPT to Create an Amazing Website](https://www.youtube.com/watch?v=5wdCev86RYE) by Brad Hussey
+3. [Build AI Apps with ChatGPT, DALL-E and GPT-4](https://scrimba.com/learn/buildaiapps) by Scrimba
+   
+
+
+
+   
 
 
 
