@@ -1,9 +1,9 @@
 ---
 title: solana-sniper-bot
-date: 2024-03-27T12:20:12+08:00
+date: 2024-03-28T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709418440136-9c5c2900782d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709418440136-9c5c2900782d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711100360032-c59368872526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711100360032-c59368872526?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [fdundjer/solana-sniper-bot](https://github.com/fdundjer/solana-sniper-bot)

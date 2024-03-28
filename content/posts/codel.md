@@ -1,22 +1,18 @@
 ---
 title: codel
-date: 2024-03-27T12:18:01+08:00
+date: 2024-03-28T12:15:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707400711008-dd2fa19e76ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707400711008-dd2fa19e76ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [semanser/codel](https://github.com/semanser/codel)
 
-<div align="center">
-  <img src="./.github/logo.png" width="200" />
-</div>
-
-<div align="center">Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.</div>
-
 <img src="./.github/demo.png" />
+<div align="center">Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.</div>
+</br>
 
-Discord: https://discord.gg/uMaGSHNjzc
+**Discord: https://discord.gg/uMaGSHNjzc**
 
 # Features
 - 🔓 Secure. Everything is running in a sandboxed Docker environment.
@@ -33,6 +29,7 @@ Discord: https://discord.gg/uMaGSHNjzc
 - golang
 - nodejs
 - docker
+- postgresql
 
 ## Environment variables
 Add to `.env` file in the `backend` folder.
@@ -71,4 +68,5 @@ This project wouldn't be possible without:
 - https://arxiv.org/abs/2308.00352
 - https://arxiv.org/abs/2403.08299
 - https://www.cognition-labs.com/introducing-devin
+- https://github.com/go-rod/rod
 - https://github.com/semanser/JsonGenius

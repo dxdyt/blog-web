@@ -1,14 +1,16 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-03-27T12:17:28+08:00
+date: 2024-03-28T12:15:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c725?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 
 # MoneyPrinterTurbo 💸
+
+[English](README-en.md)
 
 只需提供一个视频 **主题** 或 **关键词** ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。
 
@@ -23,7 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c7
 - 中文版：https://reccloud.cn
 - 英文版：https://reccloud.com
 
-![](docs/reccloud.jpg)
+![](docs/reccloud.cn.jpg)
 
 ## 功能特性 🎯
 
@@ -39,7 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c7
 - [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
 - [x] 视频素材来源 **高清**，而且 **无版权**
-- [x] 支持 **OpenAI**、**moonshot**、**Azure**、**gpt4free**、**one-api** 等多种模型接入
+- [x] 支持 **OpenAI**、**moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问** 等多种模型接入
 
 ### 后期计划 📅
 
@@ -47,6 +49,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709203401459-64ac9935c7
 - [ ] 优化语音合成，利用大模型，使其合成的声音，更加自然，情绪更加丰富
 - [ ] 增加视频转场效果，使其看起来更加的流畅
 - [ ] 优化视频素材的匹配度
+- [ ] OLLAMA 支持
 
 ## 视频演示 📺
 

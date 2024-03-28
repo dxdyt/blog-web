@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2024-03-27T12:17:46+08:00
+date: 2024-03-28T12:15:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710183758420-707ed8801b01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710183758420-707ed8801b01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
@@ -92,6 +92,10 @@ from interpreter import interpreter
 interpreter.chat("Plot AAPL and META's normalized stock prices") # Executes a single command
 interpreter.chat() # Starts an interactive chat
 ```
+
+### GitHub Codespaces
+
+Press the `,` key on this repository's GitHub page to create a codespace. After a moment, you'll receive a cloud virtual machine environment pre-installed with open-interpreter. You can then start interacting with it directly and freely confirm its execution of system commands without worrying about damaging the system.
 
 ## Comparison to ChatGPT's Code Interpreter
 

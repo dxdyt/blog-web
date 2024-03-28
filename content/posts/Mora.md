@@ -1,9 +1,9 @@
 ---
 title: Mora
-date: 2024-03-27T12:18:41+08:00
+date: 2024-03-28T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709418354359-6695ee7ea61d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709418354359-6695ee7ea61d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1708589335486-1645a4730e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1708589335486-1645a4730e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [lichao-sun/Mora](https://github.com/lichao-sun/Mora)
@@ -23,9 +23,9 @@ Mora is a multi-agent framework designed to facilitate generalist video generati
 
 ## 📹Demo for Artist Creation
 Inspired by OpenAI [Sora: First Impressions](https://openai.com/blog/sora-first-impressions), We utilize Mora to generate Shy kids video. Even though Mora has reached the similar level as Sora in terms of video duration, 80s, Mora still has a significant gap in terms of resolution, object consistency, motion smoothness, etc.
-<p align="left">
-  <img src="./image/demo_shy_kids.gif" width="100%" height="auto" />
-</p>
+
+https://github.com/JHL328/test/assets/55661930/abe276f7-12d3-4d24-aff3-7474296e854e
+
 
 ## 🎥Demo (1024×576 resolution, 12 seconds and more!)
 <p align="left">

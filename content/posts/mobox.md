@@ -1,9 +1,9 @@
 ---
 title: mobox
-date: 2024-03-27T12:18:35+08:00
+date: 2024-03-28T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707423948446-95e2604d4f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707423948446-95e2604d4f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710587384959-3541e5e27999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710587384959-3541e5e27999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [olegos2/mobox](https://github.com/olegos2/mobox)

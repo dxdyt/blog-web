@@ -1,9 +1,9 @@
 ---
 title: gpt-investor
-date: 2024-03-27T12:19:30+08:00
+date: 2024-03-28T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710490149825-9b3e978de5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710490149825-9b3e978de5c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1MTMwMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
 ---
 
 # [mshumer/gpt-investor](https://github.com/mshumer/gpt-investor)
