@@ -1,210 +1,175 @@
 ---
 title: soybean-admin
-date: 2024-01-10T12:17:47+08:00
+date: 2024-03-29T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702653082070-f5c83c643627?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ4NjAxNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710700359756-8c101c32029f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710700359756-8c101c32029f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
-# [honghuangdc/soybean-admin](https://github.com/honghuangdc/soybean-admin)
+# [soybeanjs/soybean-admin](https://github.com/soybeanjs/soybean-admin)
 
 <div align="center">
-	<img src="./public/favicon.svg" style="width: 160px;"/>
+	<img src="./public/favicon.svg" width="160" />
 	<h1>Soybean Admin</h1>
+  <span>English | <a href="./README.zh_CN.md">中文</a></span>
 </div>
+<br />
 
-[![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE) ![](https://img.shields.io/github/stars/honghuangdc/soybean-admin) ![](https://img.shields.io/github/forks/honghuangdc/soybean-admin)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE) ![](https://img.shields.io/github/stars/soybeanjs/soybean-admin) ![](https://img.shields.io/github/forks/soybeanjs/soybean-admin)
 
-## 注意 SoybeanAdmin 正在重构，全新 1.0 即将发布
 
-Soybean Admin v1.0 :
+>[!CAUTION]
+> the old version of `Soybean Admin` is moved to branch [legacy](https://github.com/soybeanjs/soybean-admin/tree/legacy). It is recommended to use the latest version of `Soybean Admin`.
 
-- [x] 采用基于 pnpm 的 monorepo 管理项目
-- [x] 第三方 soybeanjs 的工具库直接抽离到项目中(ElegantRouter除外)，不再作为依赖
-- [x] 采用全新的路由插件 ElegantRouter
-- [x] 使用基于 ApiFox 的远程 mock 代替本地 mock
-- [x] 基于现有路由插件迁移至新路由插件的指南
-- [x] 代码实现遵循 SoybeanJS 的代码规范
-- [ ] 项目的 main 分支保留系统核心部分，示例页面和无关核心的插件移至 example 分支
-- [ ] 完整 1.0 版本的文档
+> [!NOTE]
+> If you think `Soybean Admin` is helpful to you, or you like our project, please give us a ⭐️ on GitHub. Your support is the driving force for us to continue to improve and add new features! Thank you for your support!
 
-  1.0 源代码：[v1.0-beta](https://github.com/honghuangdc/soybean-admin/tree/v1.0-beta)
+## Introduction
 
-> 同时推出开源的 [AntDesignVue 版本](https://github.com/soybeanjs/soybean-admin-antd) 和 ElementPlus 版本
+[`Soybean Admin`](https://github.com/soybeanjs/soybean-admin) is a clean, elegant, beautiful and powerful admin template, based on the latest front-end technology stack, including Vue3, Vite5, TypeScript, Pinia and UnoCSS. It has built-in rich theme configuration and components, strict code specifications, and an automated file routing system. In addition, it also uses the online mock data solution based on ApiFox. `Soybean Admin` provides you with a one-stop admin solution, no additional configuration, and out of the box. It is also a best practice for learning cutting-edge technologies quickly.
 
-> 新开项目建议直接使用 [v1.0-beta](https://github.com/honghuangdc/soybean-admin/tree/v1.0-beta) 或 [AntDesignVue 版本](https://github.com/soybeanjs/soybean-admin-antd)
 
-## 简介
+## Features
 
-[Soybean Admin](https://github.com/honghuangdc/soybean-admin) 是一个基于 Vue3、Vite3、TypeScript、NaiveUI、Pinia 和 UnoCSS 的清新优雅的中后台模版，它使用了最新流行的前端技术栈，内置丰富的主题配置，有着极高的代码规范，基于文件的路由系统以及基于 Mock 的动态权限路由，开箱即用的中后台前端解决方案，也可用于学习参考。
+- **Cutting-edge technology application**: using the latest popular technology stack such as Vue3, Vite5, TypeScript, Pinia and UnoCSS.
+- **Clear project architecture**: using pnpm monorepo architecture, clear structure, elegant and easy to understand.
+- **Strict code specifications**: follow the [SoybeanJS specification](https://docs.soybeanjs.cn/standard), integrate eslint, prettier and simple-git-hooks to ensure the code is standardized.
+- **TypeScript**: support strict type checking to improve code maintainability.
+- **Rich theme configuration**: built-in a variety of theme configurations, perfectly integrated with UnoCSS.
+- **Built-in internationalization solution**: easily realize multi-language support.
+- **Automated file routing system**: automatically generate route import, declaration and type. For more details, please refer to [Elegant Router](https://github.com/soybeanjs/elegant-router).
+- **Flexible permission routing**: support both front-end static routing and back-end dynamic routing.
+- **Rich page components**: built-in a variety of pages and components, including 403, 404, 500 pages, as well as layout components, tag components, theme configuration components, etc.
+- **Command line tool**: built-in efficient command line tool, git commit, delete file, release, etc.
+- **Mobile adaptation**: perfectly support mobile terminal to realize adaptive layout.
 
-## 特性
 
-- **最新流行技术栈**：使用 Vue3/Vite 等前端前沿技术开发, 使用高效率的 npm 包管理器 pnpm
-- **TypeScript**: 应用程序级 JavaScript 的语言
-- **主题**：丰富可配置的主题、暗黑模式，基于原子 css 框架 - UnoCss 的动态主题颜色
-- **代码规范**：丰富的规范插件及极高的代码规范
-- **文件路由系统**：基于文件的路由系统，根据页面文件自动生成路由声明、路由导入和路由模块
-- **权限路由**：提供前端静态和后端动态两种路由模式，基于 mock 的动态路由能快速实现后端动态路由
-- **请求函数**：基于 axios 的完善的请求函数封装，提供 Promise 和 hooks 两种请求函数，加入请求结果数据转换的适配器
+## Version
 
-## SoybeanJS 工具库
+- **NaiveUI Version:**
+  - [Preview Link](https://naive.soybeanjs.cn/)
+  - [Github Repository](https://github.com/soybeanjs/soybean-admin)
+  - [Gitee Repository](https://gitee.com/honghuangdc/soybean-admin)
 
-- [@soybeanjs/cli](https://github.com/soybeanjs/cli): SoybeanJS 命令行工具，包含发布、git 和依赖等相关的实用命令
-- [@soybeanjs/changelog](https://github.com/soybeanjs/changelog): 根据 git tags 和 commits 生成 changelog [示例](./CHANGELOG.md)
-- [eslint-config-soybeanjs](https://github.com/soybeanjs/eslint-config): SoybeanJS 的 eslint 预设配置
-- [@soybeanjs/materials](https://github.com/soybeanjs/materials): SoybeanJS 的物料仓库
-- [@soybeanjs/vite-plugin-vue-page-route](https://github.com/soybeanjs/vite-plugin-vue-page-route): SoybeanAdmin 的路由插件
+- **AntDesignVue Version:**
+  - [Preview Link](https://antd.soybeanjs.cn/)
+  - [Github Repository](https://github.com/soybeanjs/soybean-admin-antd)
+  - [Gitee Repository](https://gitee.com/honghuangdc/soybean-admin-antd)
 
-## 基于 SoybeanAdmin 二次开发的项目
+- **Legacy Version:**
+  - [Preview Link](https://legacy.soybeanjs.cn/)
+  - [Github Repository](https://github.com/soybeanjs/soybean-admin/tree/legacy)
 
-- [electron-mock-admin](https://github.com/lixin59/electron-mock-api): 一个 Mock Api 管理系统，帮助前端开发伙伴快速实现接口的 mock。
-- [T-Shell](https://github.com/TheBlindM/T-Shell): 是一个可配置命令提示的终端模拟器和 SSH 客户端。
 
-## 在线预览
+## Documentation
 
-- [Soybean Admin 预览地址](https://admin.soybeanjs.cn/)
+- [Link](https://docs.soybeanjs.cn)
+- [Legacy Docs](https://legacy-docs.soybeanjs.cn)
 
-## 文档
+## Example Images
 
-- [项目文档预览地址](https://admin-docs.soybeanjs.cn/)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-01.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-02.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-03.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-04.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-05.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-06.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-07.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-08.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-09.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-10.png)
+![](https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/soybean-admin-v1-mobile.png)
 
-## 代码仓库
 
-| 仓库           | GitHub 地址                                                                   | gitee 镜像                                                                   | 预览                                                      |
-| -------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------- |
-| soybean-admin  | [GitHub](https://github.com/honghuangdc/soybean-admin)                        | [gitee](https://gitee.com/honghuangdc/soybean-admin)                         | [预览](https://admin.soybeanjs.cn/)                       |
-| tauri 版       | [tauri 版](https://github.com/honghuangdc/soybean-admin/tree/tauri)           | [tauri 版](https://gitee.com/honghuangdc/soybean-admin/tree/tauri)           |                                                           |
-| 精简版         | [精简版](https://github.com/honghuangdc/soybean-admin/tree/thin)              | [精简版](https://gitee.com/honghuangdc/soybean-admin/tree/thin)              |                                                           |
-| 集成 fast-crud | [集成 fast-crud](https://github.com/honghuangdc/soybean-admin/tree/fast-crud) | [集成 fast-crud](https://gitee.com/honghuangdc/soybean-admin/tree/fast-crud) | [预览](http://fast-crud.docmirror.cn/soybean/#/crud/demo) |
+## Usage
 
-## 更新日志
+**Environment Preparation**
 
-[CHANGELOG](./CHANGELOG.md)
+Make sure your environment meets the following requirements:
 
-## 后端服务
+- **git**: you need git to clone and manage project versions.
+- **NodeJS**: >=18.0.0, recommended 18.19.0 or higher.
+  > You can use [fnm](https://github.com/Schniz/fnm) to manage your NodeJS version, [installation tutorial](https://juejin.cn/post/7113462239734022158).
+- **pnpm**: >= 8.0.0, recommended 8.14.0 or higher.
 
-- [soybean-admin-java](https://github.com/honghuangdc/soybean-admin-java)
-
-## 项目示例图
-
-![](https://s2.loli.net/2022/05/16/keOtgFH27r9nqYS.png)
-
-![](https://s2.loli.net/2022/05/18/bW7mftiQexkvSTG.png)
-
-![](https://s2.loli.net/2022/05/16/uV5nzjb3gYptAEl.png)
-
-![](https://s2.loli.net/2022/05/16/rSnNHLdpuvkKxWq.png)
-
-![](https://s2.loli.net/2023/06/07/O39EKNa675FZIuS.png)
-
-![](https://s2.loli.net/2022/05/18/Mt6YZqmDxO8v4uR.png)
-
-![](https://s2.loli.net/2023/06/07/zhmWnFlPTfDpot8.png)
-
-![](https://s2.loli.net/2022/05/16/VPl6Ru1iCAhLcS4.png)
-
-![](https://s2.loli.net/2023/06/07/n6Dy1HXBvuPc9oT.png)
-
-![](https://s2.loli.net/2022/06/07/rY8TyAftM5dxspv.png)
-
-![](https://s2.loli.net/2022/06/07/5GNBAd31IzQVjLP.png)
-
-![](https://s2.loli.net/2022/06/07/rRSG6mEZpujOACT.png)
-
-<div align="center">
-	<img style="width:380px;margin-right:18px;border:1px solid #dedede;" src="https://s2.loli.net/2023/06/07/A5Nonc9vI6pB1lr.png" />
-	&nbsp;
-	<img style="width:380px;border:1px solid #dedede;" src="https://s2.loli.net/2023/06/07/VwBjqEhTke3OxXF.png" />
-</div>
-
-## 安装使用
-
-- 环境配置
-  **本地环境需要安装 pnpm 7.x 、Node.js 14.18+ 和 Git**
-
-- 克隆代码
+**Clone Project**
 
 ```bash
-git clone https://github.com/honghuangdc/soybean-admin.git
+git clone https://github.com/soybeanjs/soybean-admin.git
 ```
 
-- 安装依赖
+**Install Dependencies**
 
 ```bash
 pnpm i
 ```
+> Since this project uses the pnpm monorepo management method, please do not use npm or yarn to install dependencies.
 
-- 运行
+**Start Project**
 
 ```bash
 pnpm dev
 ```
 
-- 打包
+**Build Project**
 
 ```bash
 pnpm build
 ```
 
-## Docker 部署
+## How to Contribute
 
-- Docker 部署 Soybean
+We warmly welcome and appreciate all forms of contributions. If you have any ideas or suggestions, please feel free to share them by submitting [pull requests](https://github.com/soybeanjs/soybean-admin/pulls) or creating GitHub [issue](https://github.com/soybeanjs/soybean-admin/issues/new).
 
-```bash
-docker build -t soybean-admin-image -f docker/Dockerfile .
-docker run -d -p 80:80 soybean-admin-image
-```
+## Git Commit Guidelines
 
-- 访问 SoybeanAdmin
+This project has built-in `commit` command, you can execute `pnpm commit` to generate commit information that conforms to [Conventional Commits](conventionalcommits) specification. When submitting PR, please be sure to use `commit` command to create commit information to ensure the standardization of information.
 
-打开本地浏览器访问`http://localhost`
+## Browser Support
 
-## 如何贡献
+It is recommended to use the latest version of Chrome in development for a better experience.
 
-非常欢迎您的加入！[提一个 Issue](https://github.com/honghuangdc/soybean-admin/issues/new) 或者提交一个 Pull Request。
+| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png" alt="IE" width="24px" height="24px"  />](http://godban.github.io/browsers-support-badges/) | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/) | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/) | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/) | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/) |
+| --- | --- | --- | --- | --- |
+| not support | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
-## Git 贡献提交规范
+## OpenSource Author
 
-项目已经内置 Angular 提交规范，直接执行 commit 命令即可生成符合 Angular 提交规范的 commit。
+[Soybean](https://github.com/honghuangdc)
 
-项目已用 simple-git-hooks 代替了 husky, 旧版本用了 husky，执行 pnpm soy init-simple-git-hooks 进行初始化配置
+## Contributors
 
-## 浏览器支持
+Thanks the following people for their contributions. If you want to contribute to this project, please refer to [How to Contribute](#how-to-contribute).
 
-本地开发推荐使用`Chrome 90+` 浏览器
+<a href="https://github.com/soybeanjs/soybean-admin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=soybeanjs/soybean-admin" />
+</a>
 
-支持现代浏览器, 不支持 IE
+## Communication
 
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/archive/internet-explorer_9-11/internet-explorer_9-11_48x48.png" alt="IE" width="24px" height="24px"  />](http://godban.github.io/browsers-support-badges/)IE | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt=" Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)Safari |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                not support                                                                                                                |                                                                                          last 2 versions                                                                                          |                                                                                               last 2 versions                                                                                                |                                                                                             last 2 versions                                                                                              |                                                                                             last 2 versions                                                                                              |
+`Soybean Admin` is a completely open source and free project, helping developers to develop medium and large-scale management systems more conveniently. It also provides WeChat and QQ communication groups. If you have any questions, please feel free to ask in the group.
 
-## 开源作者
-
-[@Soybean](https://github.com/honghuangdc)
-
-## 交流
-
-`Soybean Admin` 是完全开源免费的项目，在帮助开发者更方便地进行中大型管理系统开发，同时也提供微信和 QQ 交流群，使用问题欢迎在群内提问。
-
-  <div style="display:flex;">
-  	<div style="padding-right:24px;">
-  		<p>QQ交流群</p>
-      <img src="https://i.loli.net/2021/11/24/1J6REWXiHomU2kM.jpg" style="width:200px" />
-  	</div>
-		<div>
-			<p>添加本人微信，欢迎来业务咨询(技术交流请加QQ群)</p>
-			<img src="https://s2.loli.net/2023/06/07/sVyCUFBvzQ9f5b7.jpg" style="width:200px" />
-		</div>
+  <div>
+  	<p>QQ Group</p>
+    <img src="https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/qq-soybean-admin-2.jpg" style="width:200px" />
+  </div>
+	<div>
+		<p>WeChat Group</p>
+		<img src="https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/wechat-0402.jpg" style="width:200px" />
+	</div>
+	<div>
+		<p>Add the following WeChat to invite to the WeChat group</p>
+		<img src="https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/wechat-soybeanjs.jpg" style="width:200px" />
+	</div>
+  <!-- <div>
+    <p>Add Soybean's WeChat for business consultation, cooperation, project architecture, one-on-one guidance, etc.</p>
+    <img src="https://soybeanjs-1300612522.cos.ap-guangzhou.myqcloud.com/uPic/wechat-soybean.jpg" style="width:200px" /> -->
   </div>
 
-## 捐赠
+## Star Trend
 
-如果你觉得这个项目对你有帮助，可以请 Soybean 喝杯饮料表示支持，Soybean 开源的动力离不开各位的支持和鼓励。
-
-![赞助](https://s2.loli.net/2022/01/24/i9cpq7lTCrKUoFf.png)
+[![Star History Chart](https://api.star-history.com/svg?repos=soybeanjs/soybean-admin&type=Date)](https://star-history.com/#soybeanjs/soybean-admin&Date)
 
 ## License
 
-本项目基于[MIT © Soybean-2021](./LICENSE) 协议，仅供参考学习，商用时请保留作者的版权信息，作者不对软件做担保和负责。
+This project is based on the [MIT © 2021 Soybean](./LICENSE) protocol, for learning purposes only, please retain the author's copyright information for commercial use, the author does not guarantee and is not responsible for the software.

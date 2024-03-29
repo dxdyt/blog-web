@@ -1,9 +1,9 @@
 ---
 title: devika
-date: 2024-03-28T12:14:47+08:00
+date: 2024-03-29T12:17:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
 # [stitionai/devika](https://github.com/stitionai/devika)
@@ -153,7 +153,7 @@ To start using Devika, follow these steps:
 
 ## Configuration
 
-Devika requires certain configuration settings and API keys to function properly. Update the `config.toml` file with the following information:
+Devika requires certain configuration settings and API keys to function properly. Rename the `sample.config.toml` to `config.toml` and update the file with the following information:
 
 - `SQLITE_DB`: The path to the SQLite database file for storing Devika's data.
 - `SCREENSHOTS_DIR`: The directory where screenshots captured by Devika will be stored.
@@ -236,6 +236,18 @@ We welcome contributions to enhance Devika's capabilities and improve its perfor
 ## License
 
 Devika is released under the [MIT License](https://opensource.org/licenses/MIT). See the `LICENSE` file for more information.
+
+## Star History
+
+<div align="center">
+<a href="https://star-history.com/#stitionai/devika&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=stitionai/devika&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=stitionai/devika&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=stitionai/devika&type=Date" />
+ </picture>
+</a>
+</div>
 
 ---
 

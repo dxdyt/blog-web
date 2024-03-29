@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-03-28T12:15:02+08:00
+date: 2024-03-29T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708669101365-1a9e3e834ee7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708669101365-1a9e3e834ee7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -199,6 +199,12 @@ python main.py
 
 ## 常见问题 🤔
 
+### ❓AttributeError: 'str' object has no attribute 'choices'`
+
+这个问题是由于 OpenAI 或者其他 LLM，没有返回正确的回复导致的。
+
+大概率是网络原因， 使用 **VPN**，或者设置 `openai_base_url` 为你的代理 ，应该就可以解决了。
+
 ### ❓RuntimeError: No ffmpeg exe could be found
 
 通常情况下，ffmpeg 会被自动下载，并且会被自动检测到。
@@ -248,6 +254,55 @@ if you are in China, please use a VPN.
 如果是linux系统，可以手动安装，参考 https://cn.linux-console.net/?p=16978
 
 感谢 [@wangwenqiao666](https://github.com/wangwenqiao666)的研究探索
+
+### ❓ImageMagick的安全策略阻止了与临时文件@/tmp/tmpur5hyyto.txt相关的操作
+
+[issue 92](https://github.com/harry0703/MoneyPrinterTurbo/issues/92)
+
+可以在ImageMagick的配置文件policy.xml中找到这些策略。
+这个文件通常位于 /etc/ImageMagick-`X`/ 或 ImageMagick 安装目录的类似位置。
+修改包含`pattern="@"`的条目，将`rights="none"`更改为`rights="read|write"`以允许对文件的读写操作。
+
+感谢 [@chenhengzh](https://github.com/chenhengzh)的研究探索
+
+### ❓OSError: [Errno 24] Too many open files
+
+[issue 100](https://github.com/harry0703/MoneyPrinterTurbo/issues/100)
+
+这个问题是由于系统打开文件数限制导致的，可以通过修改系统的文件打开数限制来解决。
+
+查看当前限制
+
+```shell
+ulimit -n
+```
+
+如果过低，可以调高一些，比如
+
+```shell
+ulimit -n 10240
+```
+
+### ❓AttributeError: module 'PIL.Image' has no attribute 'ANTIALIAS'
+
+[issue 101](https://github.com/harry0703/MoneyPrinterTurbo/issues/101),
+[issue 83](https://github.com/harry0703/MoneyPrinterTurbo/issues/83),
+[issue 70](https://github.com/harry0703/MoneyPrinterTurbo/issues/70)
+
+先看下当前的 Pillow 版本是多少
+
+```shell
+pip list |grep Pillow
+```
+
+如果是 10.x 的版本，可以尝试下降级看看，有用户反馈降级后正常
+
+```shell
+pip uninstall Pillow
+pip install Pillow==9.5.0
+# 或者降级到 8.4.0
+pip install Pillow==8.4.0
+```
 
 ## 反馈建议 📢
 

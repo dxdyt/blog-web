@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-03-28T12:14:55+08:00
+date: 2024-03-29T12:16:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710587384959-3541e5e27999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710587384959-3541e5e27999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)

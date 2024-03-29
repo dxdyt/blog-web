@@ -1,9 +1,9 @@
 ---
 title: rerun
-date: 2023-10-08T12:16:29+08:00
+date: 2024-03-29T12:19:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693491012999-09a3764eab33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693491012999-09a3764eab33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY3Mzg0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711313525588-c4b9f3ef4847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711313525588-c4b9f3ef4847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
 # [rerun-io/rerun](https://github.com/rerun-io/rerun)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1693491012999-09a3764eab
 
 # Build time aware visualizations of multimodal data
 
-Use the Rerun SDK (available in Python, Rust, and soon C++) to log data like images, tensors, point clouds, and text. Logs are streamed to the Rerun Viewer for live visualization or to file for later use.
+Use the Rerun SDK (available for C++, Python and Rust) to log data like images, tensors, point clouds, and text. Logs are streamed to the Rerun Viewer for live visualization or to file for later use.
 
 ```py
 import rerun as rr  # pip install rerun-sdk
@@ -44,13 +44,19 @@ rr.log("path/to/points", rr.Points3D(positions, colors=colors))
 ```
 
 <p align="center">
-  <img width="800" alt="Rerun Viewer" src="https://github.com/rerun-io/rerun/assets/2624717/c4900538-fc3a-43b8-841a-8d226e7b5a2e">
+  <picture>
+    <img src="https://static.rerun.io/opf_screenshot/bee51040cba93c0bae62ef6c57fa703704012a41/full.png" alt="">
+    <source media="(max-width: 480px)" srcset="https://static.rerun.io/opf_screenshot/bee51040cba93c0bae62ef6c57fa703704012a41/480w.png">
+    <source media="(max-width: 768px)" srcset="https://static.rerun.io/opf_screenshot/bee51040cba93c0bae62ef6c57fa703704012a41/768w.png">
+    <source media="(max-width: 1024px)" srcset="https://static.rerun.io/opf_screenshot/bee51040cba93c0bae62ef6c57fa703704012a41/1024w.png">
+    <source media="(max-width: 1200px)" srcset="https://static.rerun.io/opf_screenshot/bee51040cba93c0bae62ef6c57fa703704012a41/1200w.png">
+  </picture>
 </p>
 
 ## Getting started
+* **C++**: [Guide](https://www.rerun.io/docs/getting-started/cpp)
 * **Python**: `pip install rerun-sdk` or on [`conda`](https://github.com/conda-forge/rerun-sdk-feedstock)
 * **Rust**: `cargo add rerun`
-* **C / C++**: [Coming soon](https://github.com/rerun-io/rerun/issues/2919)
 
 ### Rerun Viewer binary
 Both the Python and Rust library can start the Rerun Viewer, but to stream log data over the network or load our `.rrd` data files you also need the `rerun` binary.
@@ -62,7 +68,9 @@ You should now be able to run `rerun --help` in any terminal.
 
 ### Documentation
 - 📚 [High-level docs](http://rerun.io/docs)
+- ⏃ [Loggable Types](https://www.rerun.io/docs/reference/types)
 - ⚙️ [Examples](http://rerun.io/examples)
+- 🌊 [C++ API docs](https://ref.rerun.io/docs/cpp)
 - 🐍 [Python API docs](https://ref.rerun.io/docs/python)
 - 🦀 [Rust API docs](https://docs.rs/rerun/)
 - ⁉️ [Troubleshooting](https://www.rerun.io/docs/getting-started/troubleshooting)
@@ -74,12 +82,10 @@ There are many features we want to add, and the API is still evolving.
 _Expect breaking changes!_
 
 Some shortcomings:
-* Big points clouds (1M+) are slow ([#1136](https://github.com/rerun-io/rerun/issues/1136))
+* [Multi-million point clouds are slow](https://github.com/rerun-io/rerun/issues/1136).
 * The data you want to visualize must fit in RAM.
-  - See <https://www.rerun.io/docs/howto/limit-ram> for how to bound memory use
-  - We plan on having a disk-based data store some time in the future
-* The Rust library takes a long time to compile
-  - We have way too many big dependencies, and we are planning on improving the situation ([#1316](https://github.com/rerun-io/rerun/pull/1316))
+  - See <https://www.rerun.io/docs/howto/limit-ram> for how to bound memory use.
+  - We plan on having a disk-based data store some time in the future.
 
 
 ## Business model
@@ -89,6 +95,31 @@ In the future, Rerun will offer a commercial product that builds on top of the c
 The Rerun open source project targets the needs of individual developers.
 The commercial product targets the needs specific to teams that build and run computer vision and robotics products.
 
+## How to Cite Rerun
+
+When using Rerun in your research, please cite it to acknowledge its contribution to your work. This can be done by
+including a reference to Rerun in the software or methods section of your paper.
+
+Suggested citation format:
+
+```bibtex
+@software{RerunSDK,
+  title = {Rerun: A Visualization SDK for Multimodal Data},
+  author = {{Rerun Development Team}},
+  url = {https://www.rerun.io},
+  version = {insert version number},
+  date = {insert date of usage},
+  year = {2024},
+  publisher = {{Rerun Technologies AB}},
+  address = {Online},
+  note = {Available from https://www.rerun.io/ and https://github.com/rerun-io/rerun}
+}
+```
+
+Please replace "insert version number" with the version of Rerun you used and "insert date of usage" with the date(s)
+you used the tool in your research.
+This citation format helps ensure that Rerun's development team receives appropriate credit for their work and
+facilitates the tool's discovery by other researchers.
 
 # Development
 * [`ARCHITECTURE.md`](ARCHITECTURE.md)

@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2024-02-29T12:15:43+08:00
+date: 2024-03-29T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707672972137-64390186af62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707672972137-64390186af62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkxODAwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708669101365-1a9e3e834ee7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708669101365-1a9e3e834ee7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)
@@ -59,16 +59,10 @@ To get started with CrewAI, follow these simple steps:
 pip install crewai
 ```
 
-If you want to also install crewai-tools, which is a package with tools that can be used by the agents, but more dependencies, you can install it with:
+If you want to also install crewai-tools, which is a package with tools that can be used by the agents, but more dependencies, you can install it with, example bellow uses it:
 
 ```shell
 pip install 'crewai[tools]'
-```
-
-The example below also uses DuckDuckGo's Search. You can install it with `pip` too:
-
-```shell
-pip install duckduckgo-search
 ```
 
 ### 2. Setting Up Your Crew
@@ -76,19 +70,18 @@ pip install duckduckgo-search
 ```python
 import os
 from crewai import Agent, Task, Crew, Process
+from crewai_tools import SerperDevTool
 
 os.environ["OPENAI_API_KEY"] = "YOUR_API_KEY"
+os.environ["SERPER_API_KEY"] = "Your Key" # serper.dev API key
 
 # You can choose to use a local model through Ollama for example. See https://docs.crewai.com/how-to/LLM-Connections/ for more information.
-# osOPENAI_API_BASE='http://localhost:11434/v1'
-# OPENAI_MODEL_NAME='openhermes'  # Adjust based on available model
-# OPENAI_API_KEY=''
 
-# Install duckduckgo-search for this example:
-# !pip install -U duckduckgo-search
+# os.environ["OPENAI_API_BASE"] = 'http://localhost:11434/v1'
+# os.environ["OPENAI_MODEL_NAME"] ='openhermes'  # Adjust based on available model
+# os.environ["OPENAI_API_KEY"] ='sk-111111111111111111111111111111111111111111111111'
 
-from langchain_community.tools import DuckDuckGoSearchRun
-search_tool = DuckDuckGoSearchRun()
+search_tool = SerperDevTool()
 
 # Define your agents with roles and goals
 researcher = Agent(
@@ -162,7 +155,7 @@ In addition to the sequential process, you can use the hierarchical process, whi
 - **Processes Driven**: Currently only supports `sequential` task execution and `hierarchical` processes, but more complex processes like consensual and autonomous are being worked on.
 - **Save output as file**: Save the output of individual tasks as a file, so you can use it later.
 - **Parse output as Pydantic or Json**: Parse the output of individual tasks as a Pydantic model or as a Json if you want to.
-- **Works with Open Source Models**: Run your crew using Open AI or open source models refer to the [Connect crewAI to LLMs](https://docs.crewai.com/how-to/LLM-Connections/) page for details on configuring you agents' connections to models, even ones running locally!
+- **Works with Open Source Models**: Run your crew using Open AI or open source models refer to the [Connect crewAI to LLMs](https://docs.crewai.com/how-to/LLM-Connections/) page for details on configuring your agents' connections to models, even ones running locally!
 
 ![CrewAI Mind Map](./docs/crewAI-mindmap.png "CrewAI Mind Map")
 

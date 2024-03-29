@@ -1,9 +1,9 @@
 ---
 title: codel
-date: 2024-03-28T12:15:31+08:00
+date: 2024-03-29T12:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710535940607-d07d6826c324?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710535940607-d07d6826c324?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
 ---
 
 # [semanser/codel](https://github.com/semanser/codel)
@@ -56,10 +56,11 @@ Frontend environment variables can be set by creating a `.env.local` file in the
 - [x] Backend API + PostgreSQL integration
 - [x] Docker runner
 - [x] Terminal output streaming
-- [ ] Browser output streaming (in progress)
 - [ ] Editor output
 - [ ] SWE-bench
 - [ ] Better way to run it (eg a single docker command)
+
+See more detailed roadmap [here](https://github.com/semanser/codel/milestones).
 
 
 
