@@ -1,9 +1,9 @@
 ---
 title: llm-answer-engine
-date: 2024-03-28T12:17:15+08:00
+date: 2024-03-30T12:15:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700652230512-f6e61be8fdcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700652230512-f6e61be8fdcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711409785043-17c7ae9ab8ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711409785043-17c7ae9ab8ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
 ---
 
 # [developersdigest/llm-answer-engine](https://github.com/developersdigest/llm-answer-engine)
@@ -107,9 +107,14 @@ More info: https://ollama.com/blog/openai-compatibility
 ### Roadmap
 
 - [In progress] Add support for dynamic and conditionally rendered UI components based on the user's query
+
 ![Example](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExN284d3p5azAyNHpubm9mb2F0cnB6MWdtcTdnd2Nkb2d1ZnRtMG0yYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OMpt8ZbBsjphZz6mue/giphy.gif)
+
 - [] Add a settings component to allow users to select the model, embeddings model, and other parameters from the UI
 - [] Add support for follow-up questions when using Ollama
+- [Completed] Add dark mode support based on the user's system preference
+
+![Example](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDQxdHR0NWc4MHl6cDBsNmpiMGNyeWNwbnE4MjZlb29oZGRsODBhMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QjINYAx6le5PMY020A/giphy.gif)
 
 ### Backend + Node Only Express API
 

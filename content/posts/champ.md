@@ -1,9 +1,9 @@
 ---
 title: champ
-date: 2024-03-29T12:16:26+08:00
+date: 2024-03-30T12:15:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711313525588-c4b9f3ef4847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711313525588-c4b9f3ef4847?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710743385031-c281b779d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710743385031-c281b779d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
 ---
 
 # [fudan-generative-vision/champ](https://github.com/fudan-generative-vision/champ)
@@ -114,6 +114,10 @@ Animation results will be saved in `results` folder. You can change the referenc
 You can also extract the driving motion from any videos and then render with Blender. We will later provide the instructions and scripts for this.
 
 Note: The default motion-01 in `inference.yaml` has more than 500 frames and takes about 36GB VRAM. If you encounter VRAM issues, consider switching to other example data with less frames.
+
+# ComfyUI tutorial
+
+Champ ComfyUI tutorial see [here](https://www.youtube.com/watch?app=desktop&v=cbElsTBv2-A)!
 
 # Acknowledgements
 

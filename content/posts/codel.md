@@ -1,9 +1,9 @@
 ---
 title: codel
-date: 2024-03-29T12:18:55+08:00
+date: 2024-03-30T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710535940607-d07d6826c324?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710535940607-d07d6826c324?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709625862206-84f82e0754a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709625862206-84f82e0754a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
 ---
 
 # [semanser/codel](https://github.com/semanser/codel)

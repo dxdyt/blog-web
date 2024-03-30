@@ -1,14 +1,14 @@
 ---
 title: midday
-date: 2024-03-23T12:18:11+08:00
+date: 2024-03-30T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707341529566-5c63668edc11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707341529566-5c63668edc11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708886383759-fb23c24db348?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708886383759-fb23c24db348?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
 ---
 
 # [midday-ai/midday](https://github.com/midday-ai/midday)
 
-![](github.gif)
+![hero](github.png)
 
 <p align="center">
 	<h1 align="center"><b>Midday</b></h1>
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707341529566-5c63668edc
 - Nextjs
 - Supabase
 - Shadcn
-- Tauri
+- ToDesktop
 - Expo
 - TailwindCSS
 

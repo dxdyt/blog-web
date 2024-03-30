@@ -1,9 +1,9 @@
 ---
 title: langchain-extract
-date: 2024-03-29T12:16:43+08:00
+date: 2024-03-30T12:16:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710743385031-c281b779d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710743385031-c281b779d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
 ---
 
 # [langchain-ai/langchain-extract](https://github.com/langchain-ai/langchain-extract)

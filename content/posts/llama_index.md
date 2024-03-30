@@ -1,9 +1,9 @@
 ---
 title: llama_index
-date: 2024-03-29T12:18:49+08:00
+date: 2024-03-30T12:15:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711216818772-c810e99c7434?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711216818772-c810e99c7434?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
 ---
 
 # [run-llama/llama_index](https://github.com/run-llama/llama_index)
