@@ -1,9 +1,9 @@
 ---
 title: champ
-date: 2024-03-30T12:15:57+08:00
+date: 2024-03-31T12:19:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710743385031-c281b779d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710743385031-c281b779d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708426045412-08658fb82e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708426045412-08658fb82e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [fudan-generative-vision/champ](https://github.com/fudan-generative-vision/champ)

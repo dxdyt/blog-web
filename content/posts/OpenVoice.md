@@ -1,9 +1,9 @@
 ---
 title: OpenVoice
-date: 2024-03-29T12:18:41+08:00
+date: 2024-03-31T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708660758299-40bdc5b87f98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708660758299-40bdc5b87f98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710976329659-7763e7dc5d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710976329659-7763e7dc5d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [myshell-ai/OpenVoice](https://github.com/myshell-ai/OpenVoice)

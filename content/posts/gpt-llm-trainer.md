@@ -1,15 +1,21 @@
 ---
 title: gpt-llm-trainer
-date: 2023-08-17T12:16:37+08:00
+date: 2024-03-31T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691858355141-765f3507fc77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691858355141-765f3507fc77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyNDU2NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710876061330-48d84aa3fe5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710876061330-48d84aa3fe5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [mshumer/gpt-llm-trainer](https://github.com/mshumer/gpt-llm-trainer)
 
 # gpt-llm-trainer
-[![Twitter Follow](https://img.shields.io/twitter/follow/mattshumer_?style=social)](https://twitter.com/mattshumer_) [![Open Main Version In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mV9sAY4QBKLmS58dpFGHgwCXQKRASR31?usp=sharing)
+[![Twitter Follow](https://img.shields.io/twitter/follow/mattshumer_?style=social)](https://twitter.com/mattshumer_)
+
+NEW: Claude 3 -> LLaMA 2 7B Fine-Tuning version: [![Open Claude -> LLaMA Version In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eLe0t8Alu997w5Ewnw9mE96dtaC-qEho?usp=sharing)
+
+LLaMA 2 7B Fine-Tuning version: [![Open LLaMA Version In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1mV9sAY4QBKLmS58dpFGHgwCXQKRASR31?usp=sharing)
+
+GPT-3.5 Fine-Tuning version: [![Open GPT-3.5 Version In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NLqxHHCv3kFyw45t8k_CUfNlcepMdeDW?usp=sharing)
 
 ## Overview
 
@@ -17,11 +23,11 @@ Training models is hard. You have to collect a dataset, clean it, get it in the 
 
 The goal of this project is to explore an experimental new pipeline to train a high-performing task-specific model. We try to abstract away all the complexity, so it's as easy as possible to go from idea -> performant fully-trained model.
 
-**Simply input a description of your task, and the system will generate a dataset from scratch, parse it into the right format, and fine-tune a LLaMA 2 model for you.**
+**Simply input a description of your task, and the system will generate a dataset from scratch, parse it into the right format, and fine-tune a LLaMA 2 or GPT-3.5 model for you.**
 
 ## Features
 
-- **Dataset Generation**: Using GPT-4, `gpt-llm-trainer` will generate a variety of prompts and responses based on the provided use-case.
+- **Dataset Generation**: Using Claude 3 or GPT-4, `gpt-llm-trainer` will generate a variety of prompts and responses based on the provided use-case.
 
 - **System Message Generation**: `gpt-llm-trainer` will generate an effective system prompt for your model.
 
@@ -45,11 +51,11 @@ temperature = .4
 number_of_examples = 100
 ```
 
-2. Run all the cells (stop at `Merge the model and store in Google Drive`).
+2. Run all the cells (stop at `Merge the model and store in Google Drive` if using the LLaMA 2 version).
 
 *It'll take some time (from 10 minutes to a couple of hours, depending on how many examples you generate), but soon, you'll have your fine-tuned model!*
 
-3. After your model is trained, you can use the `Run Inference` cell to test the model, and the cells below that allow you to save and load the model to and from Google Drive for later use.
+3. After your model is trained, you can use the `Run Inference` cell (on the LLaMA 2 version) or the `Let's try it out!` cell (on the GPT-3.5 version) to test the model, and the cells below that allow you to save and load the model to and from Google Drive for later use if you are using the LLaMA version. If you're using the OpenAI version, your model will be available for use via the API or in the OpenAI Playground.
 
 ## Contributions are welcome! Some ideas:
 - improve the example generation pipeline for efficiency/cost reduction (using n=)
@@ -58,6 +64,8 @@ number_of_examples = 100
 - use GPT-4 to automatically choose the training hyperparameters (and potentially, even the model to fine-tune!) based on a few examples + high-level dataset details (i.e. number of examples)
 - train multiple model variants and choose the one with the lowest eval loss
 
+## Huge shoutout to [Maxime Labonne](https://twitter.com/maximelabonne) for the training code that was used in this repo!
+
 ## License
 
 This project is [MIT](https://github.com/mshumer/gpt-llm-trainer/blob/master/LICENSE) licensed.
@@ -65,7 +73,5 @@ This project is [MIT](https://github.com/mshumer/gpt-llm-trainer/blob/master/LIC
 ## Contact
 
 Matt Shumer - [@mattshumer_](https://twitter.com/mattshumer_)
-
-Project Link: [https://github.com/mshumer/gpt-llm-trainer](url)
 
 Lastly, if you want to try something even cooler than this, sign up for [Personal Assistant](https://www.hyperwriteai.com/personal-assistant) (most of my time is spent on this). It's basically an AI that can operate your web browser to complete tasks for you.

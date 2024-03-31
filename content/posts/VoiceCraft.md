@@ -1,9 +1,9 @@
 ---
 title: VoiceCraft
-date: 2024-03-28T12:15:49+08:00
+date: 2024-03-31T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709551969611-51f5152ec7e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709551969611-51f5152ec7e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft)
@@ -11,21 +11,65 @@ featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d7
 # VoiceCraft: Zero-Shot Speech Editing and Text-to-Speech in the Wild
 [Demo](https://jasonppy.github.io/VoiceCraft_web) [Paper](https://jasonppy.github.io/assets/pdfs/VoiceCraft.pdf)
 
+
 ### TL;DR
 VoiceCraft is a token infilling neural codec language model, that achieves state-of-the-art performance on both **speech editing** and **zero-shot text-to-speech (TTS)** on in-the-wild data including audiobooks, internet videos, and podcasts.
 
 To clone or edit an unseen voice, VoiceCraft needs only a few seconds of reference.
 
+## News
+:star: 03/28/2024: Model weights are up on HuggingFace🤗 [here](https://huggingface.co/pyp1/VoiceCraft/tree/main)!
 
 ## TODO
-The TODOs left will be completed by the end of March 2024.
 - [x] Codebase upload
 - [x] Environment setup
 - [x] Inference demo for speech editing and TTS
 - [x] Training guidance
-- [x] Upload the RealEdit dataset and training manifest
-- [ ] Upload model weights (encodec weights are up)
+- [x] RealEdit dataset and training manifest
+- [x] Model weights (both 330M and 830M, the former seems to be just as good)
+- [ ] Write colab notebooks for better hands-on experience
+- [ ] HuggingFace Spaces demo
+- [ ] Better guidance on training
 
+## How to run TTS inference 
+There are two ways: 
+1. with docker. see [quickstart](#quickstart)
+2. without docker. see [envrionment setup](#environment-setup)
+
+When you are inside the docker image or you have installed all dependencies, Checkout [`inference_tts.ipynb`](./inference_tts.ipynb).
+
+## QuickStart
+:star: To try out TTS inference with VoiceCraft, the best way is using docker. Thank [@ubergarm](https://github.com/ubergarm) and [@jayc88](https://github.com/jay-c88) for making this happen. 
+
+Tested on Linux and Windows and should work with any host with docker installed.
+```bash
+# 1. clone the repo on in a directory on a drive with plenty of free space
+git clone git@github.com:jasonppy/VoiceCraft.git
+cd VoiceCraft
+
+# 2. assumes you have docker installed with nvidia container container-toolkit (windows has this built into the driver)
+# https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/1.13.5/install-guide.html
+# sudo apt-get install -y nvidia-container-toolkit-base || yay -Syu nvidia-container-toolkit || echo etc...
+
+# 3. Try to start an existing container otherwise create a new one passing in all GPUs
+./start-jupyter.sh  # linux
+start-jupyter.bat   # windows
+
+# 4. now open a webpage on the host box to the URL shown at the bottom of:
+docker logs jupyter
+
+# 5. optionally look inside from another terminal
+docker exec -it jupyter /bin/bash
+export USER=(your_linux_username_used_above)
+export HOME=/home/$USER
+sudo apt-get update
+
+# 6. confirm video card(s) are visible inside container
+nvidia-smi
+
+# 7. Now in browser, open inference_tts.ipynb and work through one cell at a time
+echo GOOD LUCK
+```
 
 ## Environment setup
 ```bash

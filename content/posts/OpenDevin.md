@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-03-30T12:14:55+08:00
+date: 2024-03-31T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709699714159-29bc3ac99486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709699714159-29bc3ac99486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709377060397-14c021810ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709377060397-14c021810ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -33,31 +33,28 @@ OpenDevin is still a work in progress. But you can run the alpha version to see 
 * [NodeJS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) >= 14.8
 
 ### Installation
-First, make sure Docker is running:
-```bash
-docker ps # this should exit successfully
-```
-
-Then pull our latest image [here](https://github.com/opendevin/OpenDevin/pkgs/container/sandbox)
+First, pull our latest sandbox image [here](https://github.com/opendevin/OpenDevin/pkgs/container/sandbox)
 ```bash
 docker pull ghcr.io/opendevin/sandbox
 ```
+Note: you need to be able to [run `docker` without sudo](https://docs.docker.com/engine/install/linux-postinstall/)
 
-Then copy `config.toml.template` to `config.toml`. Add an API key to `config.toml`.
-(See below for how to use different models.)
+Then copy `config.toml.template` to `config.toml`. Add an OpenAI API key to `config.toml`,
+or see below for how to use different models.
 ```toml
-OPENAI_API_KEY="..."
-WORKSPACE_DIR="..."
+LLM_API_KEY="sk-..."
 ```
 
-Next, start the backend.
-We manage python packages and the virtual environment with `pipenv`.
-Make sure you have python >= 3.10.
+Next, start the backend:
 ```bash
 python -m pip install pipenv
-pipenv install -v
-pipenv shell
+python -m pipenv install -v
+python -m pipenv shell
 uvicorn opendevin.server.listen:app --port 3000
+```
+If `pipenv` doesn't work for you, you can also run:
+```
+python -m pipenv requirements > requirements.txt && python -m pip install -r requirements.txt
 ```
 
 Then, in a second terminal, start the frontend:
@@ -66,6 +63,7 @@ cd frontend
 npm install
 npm start
 ```
+You'll see OpenDevin running at localhost:3001
 
 ### Picking a Model
 We use LiteLLM, so you can run OpenDevin with any foundation model, including OpenAI, Claude, and Gemini.
@@ -88,20 +86,6 @@ And you can customize which embeddings are used for the vector database storage:
 ```toml
 LLM_EMBEDDING_MODEL="llama2" # can be "llama2", "openai", "azureopenai", or "local"
 ```
-
-### Running the app
-You should be able to run the backend now
-```bash
-uvicorn opendevin.server.listen:app --port 3000
-```
-Then in a second terminal:
-```bash
-cd frontend
-npm install
-npm run start -- --port 3001
-```
-
-You'll see OpenDevin running at localhost:3001
 
 ### Running on the Command Line
 You can run OpenDevin from your command line:

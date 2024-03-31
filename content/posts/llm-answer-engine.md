@@ -1,9 +1,9 @@
 ---
 title: llm-answer-engine
-date: 2024-03-30T12:15:01+08:00
+date: 2024-03-31T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711409785043-17c7ae9ab8ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711409785043-17c7ae9ab8ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710078325346-ff0123a86163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710078325346-ff0123a86163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [developersdigest/llm-answer-engine](https://github.com/developersdigest/llm-answer-engine)
@@ -47,7 +47,7 @@ This repository contains the code and instructions needed to build a sophisticat
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/perplexity-inspired-llm-answer-engine.git
+    git clone https://github.com/developersdigest/llm-answer-engine.git
     ```
 2. Install the required dependencies:
     ```

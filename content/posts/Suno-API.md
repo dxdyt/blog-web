@@ -1,9 +1,9 @@
 ---
 title: Suno-API
-date: 2024-03-30T12:16:07+08:00
+date: 2024-03-31T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709625862206-84f82e0754a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709625862206-84f82e0754a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710876061330-48d84aa3fe5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710876061330-48d84aa3fe5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [SunoAI-API/Suno-API](https://github.com/SunoAI-API/Suno-API)

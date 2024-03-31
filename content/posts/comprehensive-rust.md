@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2023-12-04T12:17:06+08:00
+date: 2024-03-31T12:18:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700393289645-d6ad5fe31059?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700393289645-d6ad5fe31059?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE2NjMzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710078325346-ff0123a86163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710078325346-ff0123a86163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)
@@ -20,7 +20,7 @@ from basic syntax to generics and error handling. It also includes deep dives on
 [Android], [Chromium], [bare-metal], and [concurrency].
 
 [Android]: https://google.github.io/comprehensive-rust/android.html
-[Chromium]: https://google.github.io/comprehensive-rust/comprehensive.html
+[Chromium]: https://google.github.io/comprehensive-rust/chromium.html
 [bare-metal]: https://google.github.io/comprehensive-rust/bare-metal.html
 [concurrency]: https://google.github.io/comprehensive-rust/concurrency.html
 
@@ -75,10 +75,10 @@ Then install these tools with:
 
 ```shell
 cargo install mdbook
-cargo install mdbook-svgbob
-cargo install mdbook-i18n-helpers
-cargo install --path mdbook-exerciser
-cargo install --path mdbook-course
+cargo install --locked mdbook-svgbob
+cargo install --locked mdbook-i18n-helpers
+cargo install --locked --path mdbook-exerciser
+cargo install --locked --path mdbook-course
 ```
 
 Run
