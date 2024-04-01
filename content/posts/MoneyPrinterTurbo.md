@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-03-31T12:16:44+08:00
+date: 2024-04-01T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710976329659-7763e7dc5d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710976329659-7763e7dc5d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710273887091-d2c7222a65bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710273887091-d2c7222a65bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -51,15 +51,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1710976329659-7763e7dc5d
 - [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
 - [x] 视频素材来源 **高清**，而且 **无版权**
-- [x] 支持 **OpenAI**、**moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问** 等多种模型接入
+- [x] 支持 **OpenAI**、**moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini** 等多种模型接入
 
 ### 后期计划 📅
 
 - [ ] GPT-SoVITS 配音支持
 - [ ] 优化语音合成，利用大模型，使其合成的声音，更加自然，情绪更加丰富
 - [ ] 增加视频转场效果，使其看起来更加的流畅
-- [ ] 优化视频素材的匹配度
+- [ ] 增加更多视频素材来源，优化视频素材和文案的匹配度
 - [ ] OLLAMA 支持
+- [ ] 增加视频长度选项：短、中、长
+- [ ] 制作Docker镜像，方便部署
+- [ ] 打包成一键启动包（Windows，macOS），方便使用
+- [ ] 增加免费网络代理，让访问OpenAI和素材下载不再受限
+- [ ] 可以使用自己的素材
+- [ ] 朗读声音和背景音乐，提供实时试听
+- [ ] 支持更多的语音合成服务商，比如 OpenAI TTS
+- [ ] 自动上传到YouTube平台
 
 ## 视频演示 📺
 

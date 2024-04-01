@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-03-31T12:17:05+08:00
+date: 2024-04-01T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709377060397-14c021810ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709377060397-14c021810ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709041976630-2c1ee438a941?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709041976630-2c1ee438a941?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -29,7 +29,7 @@ OpenDevin is still a work in progress. But you can run the alpha version to see 
 ### Requirements
 * Linux, Mac OS, or [WSL on Windows](https://learn.microsoft.com/en-us/windows/wsl/install)
 * [Docker](https://docs.docker.com/engine/install/)
-* [Python](https://www.python.org/downloads/) >= 3.10
+* [Python](https://www.python.org/downloads/) >= 3.11
 * [NodeJS](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) >= 14.8
 
 ### Installation

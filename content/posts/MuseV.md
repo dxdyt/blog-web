@@ -1,9 +1,9 @@
 ---
 title: MuseV
-date: 2024-03-31T12:17:32+08:00
+date: 2024-04-01T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710976329659-7763e7dc5d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710976329659-7763e7dc5d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709416618667-0d745351ad02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709416618667-0d745351ad02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [TMElyralab/MuseV](https://github.com/TMElyralab/MuseV)
@@ -417,7 +417,7 @@ git clone https://huggingface.co/TMElyralab/MuseV ./checkpoints
         - `referencenet`: similar to `AnimateAnyone`
         - `ip_adapter_image_proj.bin`: images clip emb project layer, refer to `IPAdapter`
     - `musev_referencenet_pose`: based on `musev_referencenet`, fix `referencenet`and `controlnet_pose`, train `unet motion` and `IPAdapter`. `GPU memory consumption` $\approx 12G$
-- `t2i/sd1.5`: text2image model, paramter are frozen when training motion module.
+- `t2i/sd1.5`: text2image model, parameter are frozen when training motion module.
     - majicmixRealv6Fp16: example, could be replaced with other t2i base. download from [majicmixRealv6Fp16](https://civitai.com/models/43331/majicmix-realistic)
 - `IP-Adapter/models`: download from [IPAdapter](https://huggingface.co/h94/IP-Adapter/tree/main)
     - `image_encoder`: vision clip model.
@@ -476,7 +476,7 @@ python scripts/inference/video2video.py --sd_model_name majicmixRealv6Fp16  --un
 ```
 **import parameters**
 
-Most of the paramters are same as `musev_text2video`. Special parameters of `video2video` are:
+Most of the parameters are same as `musev_text2video`. Special parameters of `video2video` are:
 1. need to set `video_path` in `test_data`. Now supports `rgb video` and `controlnet_middle_video`。
 - `which2video`: whether `rgb` video influences initial noise, more strongly than controlnet condition. If `True`, then redraw video.
 - `controlnet_name`：whether to use `controlnet condition`, such as `dwpose,depth`.

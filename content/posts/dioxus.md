@@ -1,9 +1,9 @@
 ---
 title: dioxus
-date: 2023-08-09T12:15:15+08:00
+date: 2024-04-01T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1568201402596-ececfcf0ce4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1568201402596-ececfcf0ce4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710225342718-11c18a806f59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710225342718-11c18a806f59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)
@@ -50,27 +50,32 @@ featuredImagePreview: https://images.unsplash.com/photo-1568201402596-ececfcf0ce
     <span> | </span>
     <a href="https://github.com/DioxusLabs/example-projects"> Examples </a>
     <span> | </span>
-    <a href="https://dioxuslabs.com/docs/0.3/guide/en/"> Guide </a>
+    <a href="https://dioxuslabs.com/learn/0.4/guide"> Guide </a>
     <span> | </span>
-    <a href="https://github.com/DioxusLabs/dioxus/blob/master/notes/README/ZH_CN.md"> 中文 </a>
+    <a href="https://github.com/DioxusLabs/dioxus/blob/master/translations/zh-cn/README.md"> 中文 </a>
     <span> | </span>
     <a href="https://github.com/DioxusLabs/dioxus/blob/master/translations/pt-br/README.md"> PT-BR </a>
+    <span> | </span>
+    <a href="https://github.com/DioxusLabs/dioxus/blob/master/translations/ja-jp/README.md"> 日本語 </a>
   </h3>
 </div>
 
 <br/>
 
+> [!WARNING]
+> Dioxus 0.5 (currently in master) contains massive breaking changes and is not compatible with Dioxus 0.4
+
 Dioxus is a portable, performant, and ergonomic framework for building cross-platform user interfaces in Rust.
 
 ```rust
-fn app(cx: Scope) -> Element {
-    let mut count = use_state(cx, || 0);
+fn app() -> Element {
+    let mut count = use_signal(|| 0);
 
-    cx.render(rsx! {
+    rsx! {
         h1 { "High-Five counter: {count}" }
         button { onclick: move |_| count += 1, "Up high!" }
         button { onclick: move |_| count -= 1, "Down low!" }
-    })
+    }
 }
 ```
 
@@ -167,8 +172,9 @@ So... Dioxus is great, but why won't it work for me?
 
 
 ## Contributing
+- Check out the website [section on contributing](https://dioxuslabs.com/learn/0.4/contributing).
 - Report issues on our [issue tracker](https://github.com/dioxuslabs/dioxus/issues).
-- Join the discord and ask questions!
+- [Join](https://discord.gg/XgGxMSkvUM) the discord and ask questions!
 
 
 <a href="https://github.com/dioxuslabs/dioxus/graphs/contributors">

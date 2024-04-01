@@ -1,9 +1,9 @@
 ---
 title: VoiceCraft
-date: 2024-03-31T12:17:16+08:00
+date: 2024-04-01T12:15:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709551969611-51f5152ec7e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709551969611-51f5152ec7e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709041976630-2c1ee438a941?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709041976630-2c1ee438a941?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft)
@@ -29,7 +29,7 @@ To clone or edit an unseen voice, VoiceCraft needs only a few seconds of referen
 - [x] Model weights (both 330M and 830M, the former seems to be just as good)
 - [ ] Write colab notebooks for better hands-on experience
 - [ ] HuggingFace Spaces demo
-- [ ] Better guidance on training
+- [ ] Better guidance on training/finetuning
 
 ## How to run TTS inference 
 There are two ways: 
@@ -37,6 +37,8 @@ There are two ways:
 2. without docker. see [envrionment setup](#environment-setup)
 
 When you are inside the docker image or you have installed all dependencies, Checkout [`inference_tts.ipynb`](./inference_tts.ipynb).
+
+If you want to do model development such as training/finetuning, I recommend following [envrionment setup](#environment-setup) and [training](#training).
 
 ## QuickStart
 :star: To try out TTS inference with VoiceCraft, the best way is using docker. Thank [@ubergarm](https://github.com/ubergarm) and [@jayc88](https://github.com/jay-c88) for making this happen. 
@@ -76,13 +78,13 @@ echo GOOD LUCK
 conda create -n voicecraft python=3.9.16
 conda activate voicecraft
 
-pip install torch==2.0.1 # this assumes your system is compatible with CUDA 11.7, otherwise checkout https://pytorch.org/get-started/previous-versions/#v201
-apt-get install ffmpeg # if you don't already have ffmpeg installed
 pip install -e git+https://github.com/facebookresearch/audiocraft.git@c5157b5bf14bf83449c17ea1eeb66c19fb4bc7f0#egg=audiocraft
+pip install xformers==0.0.22
+pip install torchaudio==2.0.2 torch==2.0.1 # this assumes your system is compatible with CUDA 11.7, otherwise checkout https://pytorch.org/get-started/previous-versions/#v201
+apt-get install ffmpeg # if you don't already have ffmpeg installed
 apt-get install espeak-ng # backend for the phonemizer installed below
 pip install tensorboard==2.16.2
 pip install phonemizer==3.2.1
-pip install torchaudio==2.0.2
 pip install datasets==2.16.0
 pip install torchmetrics==0.11.1
 # install MFA for getting forced-alignment, this could take a few minutes
@@ -90,7 +92,7 @@ conda install -c conda-forge montreal-forced-aligner=2.2.17 openfst=1.8.2 kaldi=
 # conda install pocl # above gives an warning for installing pocl, not sure if really need this
 
 # to run ipynb
-conda install -n voicecraft ipykernel --update-deps --force-reinstall
+conda install -n voicecraft ipykernel --no-deps --force-reinstall
 ```
 
 If you have encountered version issues when running things, checkout [environment.yml](./environment.yml) for exact matching.
@@ -139,7 +141,7 @@ bash e830M.sh
 
 
 ## License
-The codebase is under CC BY-NC-SA 4.0 ([LICENSE-CODE](./LICENSE-CODE)), and the model weights are under Coqui Public Model License 1.0.0 ([LICENSE-MODEL](./LICENSE-MODEL)). Note that we use some of the code from other repository that are under different licenses: `./models/codebooks_patterns.py` is under MIT license; `./models/modules`, `./steps/optim.py`, `data/tokenizer.py` are under Apache License, Version 2.0; the phonemizer we used is under GNU 3.0 License. For drop-in replacement of the phonemizer (i.e. text to IPA phoneme mapping), try [g2p](https://github.com/roedoejet/g2p) (MIT License) or [OpenPhonemizer](https://github.com/NeuralVox/OpenPhonemizer) (BSD-3-Clause Clear), although these are not tested.
+The codebase is under CC BY-NC-SA 4.0 ([LICENSE-CODE](./LICENSE-CODE)), and the model weights are under Coqui Public Model License 1.0.0 ([LICENSE-MODEL](./LICENSE-MODEL)). Note that we use some of the code from other repository that are under different licenses: `./models/codebooks_patterns.py` is under MIT license; `./models/modules`, `./steps/optim.py`, `data/tokenizer.py` are under Apache License, Version 2.0; the phonemizer we used is under GNU 3.0 License.
 
 <!-- How to use g2p to convert english text into IPA phoneme sequence
 first install it with `pip install g2p`

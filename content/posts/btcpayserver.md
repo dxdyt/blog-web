@@ -1,9 +1,9 @@
 ---
 title: btcpayserver
-date: 2023-08-07T12:17:14+08:00
+date: 2024-04-01T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690821303703-4b2e3f87c0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690821303703-4b2e3f87c0d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709238672317-9464e3d278e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709238672317-9464e3d278e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [btcpayserver/btcpayserver](https://github.com/btcpayserver/btcpayserver)
@@ -133,7 +133,7 @@ If you're a developer looking to help, but you're not sure where to begin, check
 
 Contributors looking to do something a bit more challenging, before opening a pull request, please join [our community chat](https://chat.btcpayserver.org/) or [start a GitHub discussion](https://github.com/btcpayserver/btcpayserver/discussions) to get early feedback, discuss the best ways to tackle the problem, and ensure there is no work duplication.
 
-There are many other ways to get involved with the project. Check our [contribution guidelines](https://docs.btcpayserver.org/Contribute/). To get the big-picture of the project development, visit our [evolving roadmap](https://github.com/orgs/btcpayserver/projects/9). We organize different types of community calls several times a month. [Subscribe to our calendar](https://github.com/btcpayserver/organization#calendar) and feel free to join our calls to discuss development, design, documentation, and more.
+There are many other ways to get involved with the project. Check our [contribution guidelines](https://docs.btcpayserver.org/Contribute/). To get the big-picture of the project development, visit our [evolving roadmap](https://github.com/orgs/btcpayserver/projects/16).
 
 ## 🧑‍💻 Developing
 
@@ -147,7 +147,7 @@ To begin developing locally, visit our [local development guide](https://docs.bt
 
 While the documentation advises using docker-compose, you may want to build BTCPay Server yourself.
 
-First, install .NET Core SDK v6.0 as specified by the [Microsoft website](https://dotnet.microsoft.com/download/dotnet-core/6.0).
+First, install .NET SDK v8.0 as specified by the [Microsoft website](https://dotnet.microsoft.com/download/dotnet/8.0).
 
 On Powershell:
 
@@ -227,7 +227,6 @@ The BTCPay Server Project is proudly supported by these entities through the [BT
 [![Baillie Gifford](BTCPayServer/wwwroot/img/readme/supporter_bailliegifford.svg)](https://www.bailliegifford.com)
 [![Strike](BTCPayServer/wwwroot/img/readme/supporter_strike.svg)](https://strike.me)
 [![Human Rights Foundation](BTCPayServer/wwwroot/img/readme/supporter_hrf.svg)](https://hrf.org)
-[![Escape to El Salvador](BTCPayServer/wwwroot/img/readme/supporter_esc.svg)](https://escapetoelsalvador.org/)
 [![LunaNode](BTCPayServer/wwwroot/img/readme/supporter_lunanode.svg)](https://lunanode.com)
 [![Wallet of Satoshi](BTCPayServer/wwwroot/img/readme/supporter_walletofsatoshi.svg)](https://walletofsatoshi.com/)
 [![Coincards](BTCPayServer/wwwroot/img/readme/supporter_coincards.svg)](https://coincards.com/)

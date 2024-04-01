@@ -1,9 +1,9 @@
 ---
 title: revanced-patches
-date: 2024-01-29T12:18:11+08:00
+date: 2024-04-01T12:18:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704629803946-04b543133943?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704629803946-04b543133943?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY1MDE3MDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709416618667-0d745351ad02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709416618667-0d745351ad02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [ReVanced/revanced-patches](https://github.com/ReVanced/revanced-patches)
@@ -77,7 +77,7 @@ This repository contains a collection of ReVanced Patches.
 
 ## ❓ About
 
-Patches are small modifications to Android apps that allow you to change the behaviour of or add new features, 
+Patches are small modifications to Android apps that allow you to change the behavior of or add new features,
 block ads, customize the appearance, and much more.
 
 ## 💪 Features
@@ -87,11 +87,11 @@ Some of the features the patches provide are:
 * 🚫 **Block ads**: Say goodbye to ads
 * ⭐ **Customize your app**: Personalize the appearance of apps with various layouts and themes
 * 🪄 **Add new features**: Extend the functionality of apps with lots of new features
-* ⚙️ **Miscellaneous and general purpose**: Rename packages, enable debugging, disable screen capture restrictions, 
-export activities, etc.
+* ⚙️ **Miscellaneous and general purpose**: Rename packages, enable debugging, disable screen capture restrictions,
+  export activities, etc.
 * ✨ **And much more!**
 
-For a full list of all available patches, visit [revanced.app/patches](https://revanced.app/patches).
+For a complete list of all available patches, visit [revanced.app/patches](https://revanced.app/patches).
 
 ## 🚀 How to get started
 
@@ -103,17 +103,13 @@ You can use [ReVanced CLI](https://github.com/ReVanced/revanced-cli) or [ReVance
 
 Thank you for considering contributing to ReVanced Patches. You can find the contribution guidelines [here](CONTRIBUTING.md).
 
-### 📃 Documentation
-
-The documentation provides the fundamentals of patches and everything necessary to create your own patch from scratch.
-You can find it [here](https://github.com/ReVanced/revanced-patches/tree/docs/docs).
-
 ### 🛠️ Building
 
-In order to build ReVanced Patches, you can follow the [ReVanced documentation](https://github.com/ReVanced/revanced-documentation).
+To build ReVanced Patches, you can follow the [ReVanced documentation](https://github.com/ReVanced/revanced-documentation).
 
 ## 📜 Licence
 
-ReVanced Patches is licensed under the GPLv3 licence. Please see the [licence file](LICENSE) for more information.
-[tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute and modify ReVanced patches as long as you track changes/dates in source files.
-Any modifications to ReVanced Patches must also be made available under the GPL along with build & install instructions.
+ReVanced Patches is licensed under the GPLv3 license. Please see the [license file](LICENSE) for more information.
+[tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute and modify ReVanced Patches as long as you track changes/dates in source files.
+Any modifications to ReVanced Patches must also be made available under the GPL,
+along with build & install instructions.

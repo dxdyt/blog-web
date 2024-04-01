@@ -1,9 +1,9 @@
 ---
 title: helix
-date: 2023-10-28T12:16:05+08:00
+date: 2024-04-01T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696352589275-2c5e97c97ebf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696352589275-2c5e97c97ebf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg0NjY0ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710273887091-d2c7222a65bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710273887091-d2c7222a65bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
 ---
 
 # [helix-editor/helix](https://github.com/helix-editor/helix)
@@ -28,7 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1696352589275-2c5e97c97e
 
 ![Screenshot](./screenshot.png)
 
-A Kakoune / Neovim inspired editor, written in Rust.
+A [Kakoune](https://github.com/mawww/kakoune) / [Neovim](https://github.com/neovim/neovim) inspired editor, written in Rust.
 
 The editing model is very heavily based on Kakoune; during development I found
 myself agreeing with most of Kakoune's design decisions.
