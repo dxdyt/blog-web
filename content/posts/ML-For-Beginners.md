@@ -1,9 +1,9 @@
 ---
 title: ML-For-Beginners
-date: 2023-12-07T12:17:46+08:00
+date: 2024-04-02T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700387412251-0e747cb53b6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700387412251-0e747cb53b6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE5MjI1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)
@@ -161,6 +161,7 @@ Our team produces other curricula! Check out:
 - [AI for Beginners](https://aka.ms/ai-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [**NEW** Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
 - [Machine Learning for Beginners](https://aka.ms/ml-beginners)

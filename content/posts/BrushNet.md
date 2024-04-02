@@ -1,9 +1,9 @@
 ---
 title: BrushNet
-date: 2024-03-31T12:18:25+08:00
+date: 2024-04-02T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708426045412-08658fb82e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708426045412-08658fb82e1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704159498384-8566c54bfbad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704159498384-8566c54bfbad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
 ---
 
 # [TencentARC/BrushNet](https://github.com/TencentARC/BrushNet)
@@ -49,7 +49,7 @@ Keywords: Image Inpainting, Diffusion Models, Image Generation
 - [x] Release trainig and inference code
 - [x] Release checkpoint (sdv1.5)
 - [ ] Release checkpoint (sdxl)
-- [x] Release evluation code
+- [x] Release evaluation code
 - [x] Release gradio demo
 
 ## 🛠️ Method Overview

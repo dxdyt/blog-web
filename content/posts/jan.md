@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2024-03-28T12:17:28+08:00
+date: 2024-04-02T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710587384959-3541e5e27999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710587384959-3541e5e27999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)
@@ -53,32 +53,32 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
   <tr style="text-align:center">
     <td style="text-align:center"><b>Stable (Recommended)</b></td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-win-x64-0.4.9.exe'>
-        <img src='./docs/static/img/windows.png' style="height:14px; width: 14px" />
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.10/jan-win-x64-0.4.10.exe'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/windows.png' style="height:14px; width: 14px" />
         <b>jan.exe</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-mac-x64-0.4.9.dmg'>
-        <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.10/jan-mac-x64-0.4.10.dmg'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-mac-arm64-0.4.9.dmg'>
-        <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.10/jan-mac-arm64-0.4.10.dmg'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-linux-amd64-0.4.9.deb'>
-        <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.10/jan-linux-amd64-0.4.10.deb'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.deb</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://github.com/janhq/jan/releases/download/v0.4.9/jan-linux-x86_64-0.4.9.AppImage'>
-        <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
+      <a href='https://github.com/janhq/jan/releases/download/v0.4.10/jan-linux-x86_64-0.4.10.AppImage'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.AppImage</b>
       </a>
     </td>
@@ -86,32 +86,32 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
   <tr style="text-align:center">
     <td style="text-align:center"><b>Experimental (Nightly Build)</b></td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-win-x64-0.4.9-346.exe'>
-        <img src='./docs/static/img/windows.png' style="height:14px; width: 14px" />
+      <a href='https://delta.jan.ai/latest/jan-win-x64-0.4.9-355.exe'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/windows.png' style="height:14px; width: 14px" />
         <b>jan.exe</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-mac-x64-0.4.9-346.dmg'>
-        <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
+      <a href='https://delta.jan.ai/latest/jan-mac-x64-0.4.9-355.dmg'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/mac.png' style="height:15px; width: 15px" />
         <b>Intel</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-mac-arm64-0.4.9-346.dmg'>
-        <img src='./docs/static/img/mac.png' style="height:15px; width: 15px" />
+      <a href='https://delta.jan.ai/latest/jan-mac-arm64-0.4.9-355.dmg'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/mac.png' style="height:15px; width: 15px" />
         <b>M1/M2</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-linux-amd64-0.4.9-346.deb'>
-        <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
+      <a href='https://delta.jan.ai/latest/jan-linux-amd64-0.4.9-355.deb'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.deb</b>
       </a>
     </td>
     <td style="text-align:center">
-      <a href='https://delta.jan.ai/latest/jan-linux-x86_64-0.4.9-346.AppImage'>
-        <img src='./docs/static/img/linux.png' style="height:14px; width: 14px" />
+      <a href='https://delta.jan.ai/latest/jan-linux-x86_64-0.4.9-355.AppImage'>
+        <img src='https://github.com/janhq/docs/blob/main/static/img/linux.png' style="height:14px; width: 14px" />
         <b>jan.AppImage</b>
       </a>
     </td>
@@ -250,6 +250,7 @@ This will build the app MacOS m1/m2 for production (with code signing already do
   - If you intend to run Jan in GPU mode, you need to install `nvidia-driver` and `nvidia-docker2`. Follow the instruction [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html) for installation.
 
 - Run Jan in Docker mode
+  > User can choose between `docker-compose.yml` with latest prebuilt docker image or `docker-compose-dev.yml` with local docker build
 
 | Docker compose Profile | Description                                  |
 | ---------------------- | -------------------------------------------- |

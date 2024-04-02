@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2024-03-31T12:18:42+08:00
+date: 2024-04-02T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710078325346-ff0123a86163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710078325346-ff0123a86163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)

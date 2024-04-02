@@ -1,9 +1,9 @@
 ---
 title: zoom-clone
-date: 2024-04-01T12:17:38+08:00
+date: 2024-04-02T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710273887091-d2c7222a65bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710273887091-d2c7222a65bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708348127662-6c3771e8c3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708348127662-6c3771e8c3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
 ---
 
 # [adrianhajdin/zoom-clone](https://github.com/adrianhajdin/zoom-clone)

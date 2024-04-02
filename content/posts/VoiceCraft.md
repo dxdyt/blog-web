@@ -1,9 +1,9 @@
 ---
 title: VoiceCraft
-date: 2024-04-01T12:15:51+08:00
+date: 2024-04-02T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709041976630-2c1ee438a941?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709041976630-2c1ee438a941?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710958695511-5b0242e6868c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710958695511-5b0242e6868c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
 ---
 
 # [jasonppy/VoiceCraft](https://github.com/jasonppy/VoiceCraft)
