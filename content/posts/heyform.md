@@ -1,9 +1,9 @@
 ---
 title: heyform
-date: 2024-04-02T12:15:53+08:00
+date: 2024-04-03T12:16:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707058855897-9c03822150d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707058855897-9c03822150d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
 ---
 
 # [heyform/heyform](https://github.com/heyform/heyform)
@@ -61,6 +61,10 @@ Choosing our hosted version not only saves a significant amount of time and reso
 ## Self-hosting
 
 Interested in self-hosting HeyForm on your server? Take a look at the [self-hosting installation instructions](https://docs.heyform.net/self-hosting).
+
+### Deploy on Zeabur with One Click
+
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/9YAUUO)
 
 ## Local development
 

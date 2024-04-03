@@ -1,9 +1,9 @@
 ---
 title: AIOS
-date: 2024-04-01T12:16:05+08:00
+date: 2024-04-03T12:19:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710225342718-11c18a806f59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710225342718-11c18a806f59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
 ---
 
 # [agiresearch/AIOS](https://github.com/agiresearch/AIOS)
@@ -33,7 +33,7 @@ AIOS, a Large Language Model (LLM) Agent operating system, embeds large language
 ```bash
 git clone https://github.com/agiresearch/AIOS.git
 ```
-**Make sure you have Python >= 3.9**  
+**Make sure you have Python >= 3.9 and <= 3.11**  
 Install the required packages using pip  
 ```bash
 pip install -r requirements.txt
@@ -69,7 +69,8 @@ python main.py --llm_name gemini-pro
 ```
 
 ## 🌟 Join Us!
-AIOS is dedicated to facilitating LLM agents' development and deployment in a systematic way, we are always looking for passionate collaborators to join us to foster a more cohesive, effective and efficient AIOS-Agent ecosystem. Suggestions and pull requests are always welcome!
+AIOS is dedicated to facilitating LLM agents' development and deployment in a systematic way, we are always looking for passionate collaborators to join us to foster a more cohesive, effective and efficient AIOS-Agent ecosystem. Suggestions and pull requests are always welcome! 
+For detailed information on how to contribute, see [here](https://github.com/agiresearch/AIOS/blob/main/CONTRIBUTE.md).
 
 ## 🖋️ Citation
 ```
@@ -88,4 +89,9 @@ AIOS is dedicated to facilitating LLM agents' development and deployment in a sy
 ```
 
 ## 📪 Contact
-If you have any suggestions, or wish to contact us for any reason, feel free to email us at marknju2018@gmail.com
+If you have any suggestions, or wish to contact us for any reason, feel free to email us at aios.github@gmail.com
+
+## 🌍 AIOS Contributors
+<a href="https://github.com/agiresearch/AIOS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=agiresearch/AIOS" />
+</a>

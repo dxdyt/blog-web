@@ -1,9 +1,9 @@
 ---
 title: openui
-date: 2024-04-02T12:16:07+08:00
+date: 2024-04-03T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704159498384-8566c54bfbad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704159498384-8566c54bfbad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
 ---
 
 # [wandb/openui](https://github.com/wandb/openui)
@@ -24,7 +24,7 @@ OpenUI let's you describe UI using your imagination, then see it rendered live. 
 
 ## Running Locally
 
-You can also run OpenUI locally and use models available to [Ollama](https://olama.com).  [Install Ollama](https://ollama.com/download) and pull a model like [CodeLlama](https://ollama.com/library/codellama), then assuming you have git and python installed:
+You can also run OpenUI locally and use models available to [Ollama](https://ollama.com).  [Install Ollama](https://ollama.com/download) and pull a model like [CodeLlama](https://ollama.com/library/codellama), then assuming you have git and python installed:
 
 ```bash
 git clone https://github.com/wandb/openui
