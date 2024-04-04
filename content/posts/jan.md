@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2024-04-03T12:19:10+08:00
+date: 2024-04-04T12:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710199274726-5faec59d0ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710199274726-5faec59d0ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706670542491-61eeb26510de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706670542491-61eeb26510de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)
@@ -346,6 +346,15 @@ Jan builds on top of other open-source projects:
 - For discussion: join our Discord [here](https://discord.gg/FTk2MvZwJH)
 - For business inquiries: email hello@jan.ai
 - For jobs: please email hr@jan.ai
+
+## Trust & Safety
+
+Beware of scams.
+
+- We will never ask you for personal info
+- We are a free product; there's no paid version
+- We don't have a token or ICO
+- We are not actively fundraising or seeking donations
 
 ## License
 

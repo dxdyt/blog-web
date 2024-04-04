@@ -1,9 +1,9 @@
 ---
 title: javascript
-date: 2023-10-01T12:14:57+08:00
+date: 2024-04-04T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693895786267-1f9341880842?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693895786267-1f9341880842?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYxMzM2Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711271595823-4f7caa592129?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711271595823-4f7caa592129?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [airbnb/javascript](https://github.com/airbnb/javascript)
@@ -3416,7 +3416,7 @@ Other Style Guides
     this.firstName = 'Panda';
 
     // good, in environments where WeakMaps are available
-    // see https://kangax.github.io/compat-table/es6/#test-WeakMap
+    // see https://compat-table.github.io/compat-table/es6/#test-WeakMap
     const firstNames = new WeakMap();
     firstNames.set(this, 'Panda');
     ```
@@ -3870,7 +3870,7 @@ Other Style Guides
 
   - [Latest ECMA spec](https://tc39.github.io/ecma262/)
   - [ExploringJS](https://exploringjs.com/)
-  - [ES6 Compatibility Table](https://kangax.github.io/compat-table/es6/)
+  - [ES6 Compatibility Table](https://compat-table.github.io/compat-table/es6/)
   - [Comprehensive Overview of ES6 Features](http://es6-features.org/)
   - [JavaScript Roadmap](https://roadmap.sh/javascript)
 

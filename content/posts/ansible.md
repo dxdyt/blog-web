@@ -1,9 +1,9 @@
 ---
 title: ansible
-date: 2024-02-08T12:18:06+08:00
+date: 2024-04-04T12:20:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706199405787-90ccfa160fa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706199405787-90ccfa160fa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDczNjU3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710768746922-a04af7673ef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710768746922-a04af7673ef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [ansible/ansible](https://github.com/ansible/ansible)
@@ -56,7 +56,7 @@ in the Ansible community if you want to run the `devel` branch.
   kinds of ways to contribute to and interact with the project,
   including mailing list information and how to submit bug reports and
   code to Ansible.
-* Join a [Working Group](https://github.com/ansible/community/wiki),
+* Join a [Working Group](https://docs.ansible.com/ansible/devel/community/communication.html#working-groups),
   an organized community devoted to a specific technology domain or platform.
 * Submit a proposed code update through a pull request to the `devel` branch.
 * Talk to us before making larger changes
@@ -64,7 +64,7 @@ in the Ansible community if you want to run the `devel` branch.
   know what is going on, but it also helps save time and effort if we decide
   some changes are needed.
 * For a list of email lists, IRC channels and Working Groups, see the
-  [Communication page](https://docs.ansible.com/ansible/latest/community/communication.html)
+  [Communication page](https://docs.ansible.com/ansible/devel/community/communication.html)
 
 ## Coding Guidelines
 

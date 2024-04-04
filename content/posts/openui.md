@@ -1,9 +1,9 @@
 ---
 title: openui
-date: 2024-04-03T12:16:49+08:00
+date: 2024-04-04T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706670542491-61eeb26510de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706670542491-61eeb26510de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [wandb/openui](https://github.com/wandb/openui)
@@ -53,7 +53,7 @@ A [dev container](https://github.com/wandb/openui/blob/main/.devcontainer/devcon
 
 ### Codespace
 
-![New with options...](./assets/codespace.png)
+<img src="./assets/codespace.png" alt="New with options..." width="500" />
 
 Choose more options when creating a Codespace, then select **New with options...**.  Select the US West region if you want a really fast boot time.  You'll also want to configure your OPENAI_API_KEY secret or just set it to `xxx` if you want to try Ollama *(you'll want at least 16GB of Ram)*.
 
@@ -65,6 +65,13 @@ npm run dev
 ```
 
 This should open another service on port 5173, that's the service you'll want to visit.  All changes to both the frontend and backend will automatically be reloaded and reflected in your browser.
+
+### Ollama
+
+The codespace installs ollama automaticaly and downloads the `llava` model.  You can verify Ollama is running with `ollama list` if that fails, open a new terminal and run `ollama serve`.  In Codespaces we pull llava on boot so you should see it in the list.  You can select Ollama models from the settings gear icon in the upper left corner of the application.  Any models you pull i.e. `ollama pull llama` will show up in the settings modal.
+
+<img src="./assets/ollama.png" width="500" alt="Select Ollama models" />
+
 
 ### Resources
 

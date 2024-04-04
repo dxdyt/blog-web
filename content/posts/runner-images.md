@@ -1,9 +1,9 @@
 ---
 title: runner-images
-date: 2024-02-03T12:15:24+08:00
+date: 2024-04-04T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703610481674-0b631119228e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703610481674-0b631119228e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706670542491-61eeb26510de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706670542491-61eeb26510de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [actions/runner-images](https://github.com/actions/runner-images)
@@ -29,16 +29,18 @@ To build a VM machine from this repo's source, see the [instructions](docs/creat
 
 ## Available Images
 
-| Image | YAML Label | Included Software |
-| --------------------|---------------------|--------------------|
-| Ubuntu 22.04 | `ubuntu-latest` or `ubuntu-22.04` | [ubuntu-22.04] |
-| Ubuntu 20.04 | `ubuntu-20.04` | [ubuntu-20.04] |
-| macOS 14 [beta] | `macos-14`, `macos-14-large`, or  `macos-14-xlarge`| [macOS-14] |
-| macOS 13 | `macos-13`, `macos-13-large`, or  `macos-13-xlarge`| [macOS-13] |
-| macOS 12 | `macos-latest`,`macos-12`, `macos-latest-large`, or `macos-12-large`| [macOS-12] |
-| macOS 11 [deprecated] | `macos-11`| [macOS-11] |
-| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] |
-| Windows Server 2019 | `windows-2019` | [windows-2019] |
+| Image | YAML Label | Included Software | Rollout Status of Latest Image Release |
+| --------------------|---------------------|--------------------|--------------------|
+| Ubuntu 22.04 | `ubuntu-latest` or `ubuntu-22.04` | [ubuntu-22.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fubuntu22.json) |
+| Ubuntu 20.04 | `ubuntu-20.04` | [ubuntu-20.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fubuntu20.json) |
+| macOS 14 | `macos-latest-large` or `macos-14-large`| [macOS-14] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-14.json) |
+| macOS 14 Arm64 |`macos-latest`, `macos-14`, `macos-latest-xlarge` or `macos-14-xlarge`| [macOS-14-arm64] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-14-arm64.json) |
+| macOS 13 | `macos-13` or `macos-13-large` | [macOS-13] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-13.json) |
+| macOS 13 Arm64 | `macos-13-xlarge` | [macOS-13-arm64] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-13-arm64.json) |
+| macOS 12 | `macos-12` or `macos-12-large`| [macOS-12] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2FmacOS-12.json) |
+| macOS 11 [deprecated] | `macos-11`| [macOS-11] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2FmacOS-11.json) |
+| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fwin22.json) |
+| Windows Server 2019 | `windows-2019` | [windows-2019] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fwin19.json) |
 
 ### Label scheme
 
@@ -52,7 +54,9 @@ To build a VM machine from this repo's source, see the [instructions](docs/creat
 [macOS-11]: https://github.com/actions/runner-images/blob/main/images/macos/macos-11-Readme.md
 [macOS-12]: https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md
 [macOS-13]: https://github.com/actions/runner-images/blob/main/images/macos/macos-13-Readme.md
+[macOS-13-arm64]: https://github.com/actions/runner-images/blob/main/images/macos/macos-13-arm64-Readme.md
 [macOS-14]: https://github.com/actions/runner-images/blob/main/images/macos/macos-14-Readme.md
+[macOS-14-arm64]: https://github.com/actions/runner-images/blob/main/images/macos/macos-14-arm64-Readme.md
 [self-hosted runners]: https://help.github.com/en/actions/hosting-your-own-runners
 
 ## Announcements
@@ -210,4 +214,10 @@ For some tools, we always install the latest at the time of the deployment; for 
 <details>
    <summary><b><i>How do I request that a new tool be pre-installed on the image?</b></i></summary>
 Please create an issue and get an approval from us to add this tool to the image before creating the pull request.
+</details>
+
+<details>
+   <summary><b><i>What branch should I use to build custom image?</b></i></summary>
+We strongly encourage customers to build their own images using the main branch.
+This repository contains multiple branches and releases that serve as document milestones to reflect what software is installed in the images at certain point of time. Current builds are not idempotent and if one tries to build a runner image using the specific tag it is not guaranteed that the build will succeed.
 </details>

@@ -1,9 +1,9 @@
 ---
 title: typer
-date: 2024-04-02T12:18:03+08:00
+date: 2024-04-04T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709911784111-5e424d2de998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709911784111-5e424d2de998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710664416954-3f4f088a2f12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710664416954-3f4f088a2f12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [tiangolo/typer](https://github.com/tiangolo/typer)

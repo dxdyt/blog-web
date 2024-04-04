@@ -1,9 +1,9 @@
 ---
 title: dioxus
-date: 2024-04-03T12:17:01+08:00
+date: 2024-04-04T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710199274726-5faec59d0ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710199274726-5faec59d0ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711348787246-5125ca266e7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711348787246-5125ca266e7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [DioxusLabs/dioxus](https://github.com/DioxusLabs/dioxus)

@@ -1,9 +1,9 @@
 ---
 title: heyform
-date: 2024-04-03T12:16:02+08:00
+date: 2024-04-04T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707058855897-9c03822150d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707058855897-9c03822150d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711529793944-f75057def2ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711529793944-f75057def2ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [heyform/heyform](https://github.com/heyform/heyform)
@@ -62,9 +62,15 @@ Choosing our hosted version not only saves a significant amount of time and reso
 
 Interested in self-hosting HeyForm on your server? Take a look at the [self-hosting installation instructions](https://docs.heyform.net/self-hosting).
 
-### Deploy on Zeabur with One Click
+### One Click Deployment
 
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/9YAUUO)
+<a href="https://railway.app/template/f5vBKm?referralCode=bDs1YJ">
+	<img src="https://railway.app/button.svg" alt="Deploy on Railway" height="36" />
+</a>
+
+<a href="https://zeabur.com/templates/9YAUUO" style="margin-left:8px">
+	<img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" />
+</a>
 
 ## Local development
 

@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2024-03-23T12:19:14+08:00
+date: 2024-04-04T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710597195945-54b90040720c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710597195945-54b90040720c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
 # [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)
@@ -84,6 +84,7 @@ Companies:
   - [Streamdal](https://streamdal.com)
   - [Coalesce](https://coalesce.io/)
   - [Soda](https://www.soda.io/)
+  - [DQOps](https://dqops.com/)
 - Education Companies
   - [DataExpert.io](https://www.dataexpert.io)
   - [LearnDataEngineering.com](https://www.learndataengineering.com)
@@ -98,6 +99,7 @@ Companies:
   - [Fivetran](https://www.fivetran.com)
   - [Airbyte](https://airbyte.io)
   - [dlt](https://dlthub.com/)
+  - [Sling](https://slingdata.io/)
 - Modern OLAP
   - [Apache Druid](https://druid.apache.org/)
   - [ClickHouse](https://clickhouse.com/)

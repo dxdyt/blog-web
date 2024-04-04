@@ -1,145 +1,154 @@
 ---
 title: bun
-date: 2024-01-23T12:19:18+08:00
+date: 2024-04-04T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705596704673-fb6b8c193a3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705596704673-fb6b8c193a3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710768746922-a04af7673ef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710768746922-a04af7673ef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
 ---
 
-# [oven-sh/bun](https://github.com/oven-sh/bun)
+# [uptrace/bun](https://github.com/uptrace/bun)
 
-<p align="center">
-  <a href="https://bun.sh"><img src="https://user-images.githubusercontent.com/709451/182802334-d9c42afe-f35d-4a7b-86ea-9985f73f20c3.png" alt="Logo" height=170></a>
-</p>
-<h1 align="center">Bun</h1>
+# SQL-first Golang ORM for PostgreSQL, MySQL, MSSQL, and SQLite
 
-<p align="center">
-<a href="https://bun.sh/discord" target="_blank"><img height=20 src="https://img.shields.io/discord/876711213126520882" /></a>
-<img src="https://img.shields.io/github/stars/oven-sh/bun" alt="stars">
-<a href="https://twitter.com/jarredsumner/status/1542824445810642946"><img src="https://img.shields.io/static/v1?label=speed&message=fast&color=success" alt="Bun speed" /></a>
-</p>
+[![build workflow](https://github.com/uptrace/bun/actions/workflows/build.yml/badge.svg)](https://github.com/uptrace/bun/actions)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/uptrace/bun)](https://pkg.go.dev/github.com/uptrace/bun)
+[![Documentation](https://img.shields.io/badge/bun-documentation-informational)](https://bun.uptrace.dev/)
+[![Chat](https://discordapp.com/api/guilds/752070105847955518/widget.png)](https://discord.gg/rWtp5Aj)
 
-<div align="center">
-  <a href="https://bun.sh/docs">Documentation</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://discord.com/invite/CXdq2DP29u">Discord</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://github.com/oven-sh/bun/issues/new">Issues</a>
-  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://github.com/oven-sh/bun/issues/159">Roadmap</a>
-  <br />
-</div>
-
-### [Read the docs →](https://bun.sh/docs)
-
-## What is Bun?
-
-> **​​Bun is under active development.** Use it to speed up your development workflows or run simpler production code in resource-constrained environments like serverless functions. We're working on more complete Node.js compatibility and integration with existing frameworks. Join the [Discord](https://bun.sh/discord) and watch the [GitHub repository](https://github.com/oven-sh/bun) to keep tabs on future releases.
-
-Bun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called `bun​`.
-
-At its core is the _Bun runtime_, a fast JavaScript runtime designed as a drop-in replacement for Node.js. It's written in Zig and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.
-
-```bash
-bun run index.tsx             # TS and JSX supported out-of-the-box
-```
-
-​​The `bun​` command-line tool also implements a test runner, script runner, and Node.js-compatible package manager. Instead of 1,000 node_modules for development, you only need `bun`. Bun's built-in tools are significantly faster than existing options and usable in existing Node.js projects with little to no changes.
-
-```bash
-bun test                      # run tests
-bun run start                 # run the `start` script in `package.json`
-bun install <pkg>​             # install a package
-bunx cowsay 'Hello, world!'   # execute a package
-```
-
-## Install
-
-Bun supports Linux (x64 & arm64) and macOS (x64 & Apple Silicon).
-
-> **Linux users** — Kernel version 5.6 or higher is strongly recommended, but the minimum is 5.1.
+> Bun is brought to you by :star: [**uptrace/uptrace**](https://github.com/uptrace/uptrace). Uptrace
+> is an open-source APM tool that supports distributed tracing, metrics, and logs. You can use it to
+> monitor applications and set up automatic alerts to receive notifications via email, Slack,
+> Telegram, and others.
 >
-> **Windows users** — Bun does not currently provide a native Windows build. We're working on this; progress can be tracked at [this issue](https://github.com/oven-sh/bun/issues/43). In the meantime, use one of the installation methods below for Windows Subsystem for Linux.
+> See [OpenTelemetry](example/opentelemetry) example which demonstrates how you can use Uptrace to
+> monitor Bun.
 
-```sh
-# with install script (recommended)
-curl -fsSL https://bun.sh/install | bash
+## Features
 
-# with npm
-npm install -g bun
+- Works with [PostgreSQL](https://bun.uptrace.dev/guide/drivers.html#postgresql),
+  [MySQL](https://bun.uptrace.dev/guide/drivers.html#mysql) (including MariaDB),
+  [MSSQL](https://bun.uptrace.dev/guide/drivers.html#mssql),
+  [SQLite](https://bun.uptrace.dev/guide/drivers.html#sqlite).
+- [ORM-like](/example/basic/) experience using good old SQL. Bun supports structs, map, scalars, and
+  slices of map/structs/scalars.
+- [Bulk inserts](https://bun.uptrace.dev/guide/query-insert.html).
+- [Bulk updates](https://bun.uptrace.dev/guide/query-update.html) using common table expressions.
+- [Bulk deletes](https://bun.uptrace.dev/guide/query-delete.html).
+- [Fixtures](https://bun.uptrace.dev/guide/fixtures.html).
+- [Migrations](https://bun.uptrace.dev/guide/migrations.html).
+- [Soft deletes](https://bun.uptrace.dev/guide/soft-deletes.html).
 
-# with Homebrew
-brew tap oven-sh/bun
-brew install bun
+### Resources
 
-# with Docker
-docker pull oven/bun
-docker run --rm --init --ulimit memlock=-1:-1 oven/bun
+- [**Get started**](https://bun.uptrace.dev/guide/golang-orm.html)
+- [Examples](https://github.com/uptrace/bun/tree/master/example)
+- [Discussions](https://github.com/uptrace/bun/discussions)
+- [Chat](https://discord.gg/rWtp5Aj)
+- [Reference](https://pkg.go.dev/github.com/uptrace/bun)
+- [Starter kit](https://github.com/go-bun/bun-starter-kit)
+
+### Tutorials
+
+Wrote a tutorial for Bun? Create a PR to add here and on [Bun](https://bun.uptrace.dev/) site.
+
+### Featured projects using Bun
+
+- [uptrace](https://github.com/uptrace/uptrace) - Distributed tracing and metrics.
+- [paralus](https://github.com/paralus/paralus) - All-in-one Kubernetes access manager.
+- [inovex/scrumlr.io](https://github.com/inovex/scrumlr.io) - Webapp for collaborative online
+  retrospectives.
+- [gotosocial](https://github.com/superseriousbusiness/gotosocial) - Golang fediverse server.
+- [lorawan-stack](https://github.com/TheThingsNetwork/lorawan-stack) - The Things Stack, an Open
+  Source LoRaWAN Network Server.
+- [anti-phishing-bot](https://github.com/Benricheson101/anti-phishing-bot) - Discord bot for
+  deleting Steam/Discord phishing links.
+- [emerald-web3-gateway](https://github.com/oasisprotocol/emerald-web3-gateway) - Web3 Gateway for
+  the Oasis Emerald paratime.
+- [lndhub.go](https://github.com/getAlby/lndhub.go) - accounting wrapper for the Lightning Network.
+- [penguin-statistics](https://github.com/penguin-statistics/backend-next) - Penguin Statistics v3
+  Backend.
+- And
+  [hundreds more](https://github.com/uptrace/bun/network/dependents?package_id=UGFja2FnZS0yMjkxOTc4OTA4).
+
+## Why another database client?
+
+So you can elegantly write complex queries:
+
+```go
+regionalSales := db.NewSelect().
+	ColumnExpr("region").
+	ColumnExpr("SUM(amount) AS total_sales").
+	TableExpr("orders").
+	GroupExpr("region")
+
+topRegions := db.NewSelect().
+	ColumnExpr("region").
+	TableExpr("regional_sales").
+	Where("total_sales > (SELECT SUM(total_sales) / 10 FROM regional_sales)")
+
+var items []map[string]interface{}
+err := db.NewSelect().
+	With("regional_sales", regionalSales).
+	With("top_regions", topRegions).
+	ColumnExpr("region").
+	ColumnExpr("product").
+	ColumnExpr("SUM(quantity) AS product_units").
+	ColumnExpr("SUM(amount) AS product_sales").
+	TableExpr("orders").
+	Where("region IN (SELECT region FROM top_regions)").
+	GroupExpr("region").
+	GroupExpr("product").
+	Scan(ctx, &items)
 ```
 
-### Upgrade
-
-To upgrade to the latest version of Bun, run:
-
-```sh
-bun upgrade
+```sql
+WITH regional_sales AS (
+    SELECT region, SUM(amount) AS total_sales
+    FROM orders
+    GROUP BY region
+), top_regions AS (
+    SELECT region
+    FROM regional_sales
+    WHERE total_sales > (SELECT SUM(total_sales)/10 FROM regional_sales)
+)
+SELECT region,
+       product,
+       SUM(quantity) AS product_units,
+       SUM(amount) AS product_sales
+FROM orders
+WHERE region IN (SELECT region FROM top_regions)
+GROUP BY region, product
 ```
 
-Bun automatically releases a canary build on every commit to `main`. To upgrade to the latest canary build, run:
+And scan results into scalars, structs, maps, slices of structs/maps/scalars:
 
-```sh
-bun upgrade --canary
+```go
+users := make([]User, 0)
+if err := db.NewSelect().Model(&users).OrderExpr("id ASC").Scan(ctx); err != nil {
+	panic(err)
+}
+
+user1 := new(User)
+if err := db.NewSelect().Model(user1).Where("id = ?", 1).Scan(ctx); err != nil {
+	panic(err)
+}
 ```
 
-[View canary build](https://github.com/oven-sh/bun/releases/tag/canary)
+See [**Getting started**](https://bun.uptrace.dev/guide/golang-orm.html) guide and check
+[examples](example).
 
-## Quick links
+## See also
 
-- Intro
-  - [What is Bun?](https://bun.sh/docs/index)
-  - [Installation](https://bun.sh/docs/installation)
-  - [Quickstart](https://bun.sh/docs/quickstart)
-- CLI
-  - [`bun run`](https://bun.sh/docs/cli/run)
-  - [`bun install`](https://bun.sh/docs/cli/install)
-  - [`bun test`](https://bun.sh/docs/cli/test)
-  - [`bun init`](https://bun.sh/docs/cli/init)
-  - [`bun create`](https://bun.sh/docs/cli/bun-create)
-  - [`bunx`](https://bun.sh/docs/cli/bunx)
-- Runtime
-  - [Runtime](https://bun.sh/docs/runtime/index)
-  - [Module resolution](https://bun.sh/docs/runtime/modules)
-  - [Hot &amp; live reloading](https://bun.sh/docs/runtime/hot)
-  - [Plugins](https://bun.sh/docs/bundler/plugins)
-- Ecosystem
-  - [Node.js](https://bun.sh/docs/ecosystem/nodejs)
-  - [TypeScript](https://bun.sh/docs/ecosystem/typescript)
-  - [React](https://bun.sh/docs/ecosystem/react)
-  - [Elysia](https://bun.sh/docs/ecosystem/elysia)
-  - [Hono](https://bun.sh/docs/ecosystem/hono)
-  - [Express](https://bun.sh/docs/ecosystem/express)
-  - [awesome-bun](https://github.com/apvarun/awesome-bun)
-- API
-  - [HTTP](https://bun.sh/docs/api/http)
-  - [WebSockets](https://bun.sh/docs/api/websockets)
-  - [TCP Sockets](https://bun.sh/docs/api/tcp)
-  - [File I/O](https://bun.sh/docs/api/file-io)
-  - [SQLite](https://bun.sh/docs/api/sqlite)
-  - [FileSystemRouter](https://bun.sh/docs/api/file-system-router)
-  - [Globals](https://bun.sh/docs/api/globals)
-  - [Spawn](https://bun.sh/docs/api/spawn)
-  - [Transpiler](https://bun.sh/docs/api/transpiler)
-  - [Console](https://bun.sh/docs/api/console)
-  - [FFI](https://bun.sh/docs/api/ffi)
-  - [HTMLRewriter](https://bun.sh/docs/api/html-rewriter)
-  - [Testing](https://bun.sh/docs/api/test)
-  - [Utils](https://bun.sh/docs/api/utils)
-  - [Node-API](https://bun.sh/docs/api/node-api)
+- [Golang HTTP router](https://github.com/uptrace/bunrouter)
+- [Golang ClickHouse ORM](https://github.com/uptrace/go-clickhouse)
+- [Golang msgpack](https://github.com/vmihailenco/msgpack)
 
 ## Contributing
 
-Refer to the [Project > Contributing](https://bun.sh/docs/project/contributing) guide to start contributing to Bun.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for some hints.
 
-## License
+And thanks to all the people who already contributed!
 
-Refer to the [Project > License](https://bun.sh/docs/project/licensing) page for information about Bun's licensing.
+<a href="https://github.com/uptrace/bun/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=uptrace/bun" />
+</a>
