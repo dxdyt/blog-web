@@ -1,9 +1,9 @@
 ---
 title: homepage
-date: 2024-01-18T12:17:29+08:00
+date: 2024-04-05T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704319236961-3cc376bdcf3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704319236961-3cc376bdcf3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711560705614-0bf664b26f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711560705614-0bf664b26f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [gethomepage/homepage](https://github.com/gethomepage/homepage)
@@ -51,7 +51,7 @@ With features like quick search, bookmarks, weather support, a wide range of int
 
 ## Docker Integration
 
-Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker](https://gethomepage.dev/latest/installation/docker/) page for more information.
+Homepage has built-in support for Docker, and can automatically discover and add services to the homepage based on labels. See the [Docker Service Discovery](https://gethomepage.dev/latest/configs/docker/#automatic-service-discovery) page for more information.
 
 ## Service Widgets
 
@@ -173,8 +173,6 @@ mkdocs serve # or build, to build the static site
 # Support & Suggestions
 
 If you have any questions, suggestions, or general issues, please start a discussion on the [Discussions](https://github.com/gethomepage/homepage/discussions) page.
-
-For bug reports, please open an issue on the [Issues](https://github.com/gethomepage/homepage/issues) page.
 
 ## Contributing & Contributors
 

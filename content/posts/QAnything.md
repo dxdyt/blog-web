@@ -1,9 +1,9 @@
 ---
 title: QAnything
-date: 2024-01-22T12:18:23+08:00
+date: 2024-04-05T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4OTcwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711580299304-b7ebf7ff20d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711580299304-b7ebf7ff20d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [netease-youdao/QAnything](https://github.com/netease-youdao/QAnything)
@@ -51,6 +51,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c
 - [What is QAnything](#What-is-QAnything)
   - [Key features](#Key-features)
   - [Architecture](#Architecture)
+- [Before You Start](#Before-You-Start)
+- [Latest Updates](#-Latest-Updates)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
@@ -58,7 +60,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c
 - [Usage](#usage)
   - [API Document](#API-Document)
 - [WeChat Group](#WeChat-Group)
-- [Support](#support)
+- [Community & Support](#Community--Support)
 - [License](#license)
 - [Acknowledgements](#Acknowledgments)
 
@@ -69,7 +71,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1704128728168-21b9f1381c
 
 With `QAnything`, you can simply drop any locally stored file of any format and receive accurate, fast, and reliable answers.
 
-Currently supported formats include: **PDF, Word (doc/docx), PPT, Markdown, Eml, TXT, Images (jpg, png, etc.), Web links** and more formats coming soon…
+Currently supported formats include: **PDF(pdf)**,**Word(docx)**,**PPT(pptx)**,**XLS(xlsx)**,**Markdown(md)**,**Email(eml)**,**TXT(txt)**,**Image(jpg，jpeg，png)**,**CSV(csv)**,**Web links(html)** and more formats coming soon…
 
 
 ### Key features
@@ -147,44 +149,102 @@ If you need to use it for commercial purposes, please follow the license of Qwen
 * [🛠️ Only use our BCEmbedding(embedding & rerank)](https://github.com/netease-youdao/BCEmbedding)
 * [📖 FAQ](FAQ_zh.md)
 
+## 🚀 Latest Updates
+
+- ***2024-04-03***: **Support installation in a pure Python environment.Support hybrid search.** - See More👉 [v1.3.0](https://github.com/netease-youdao/QAnything/releases/tag/v1.3.0)
+- ***2024-01-29***: **Support for custom large models, including OpenAI API and other open-source large models, with a minimum GPU requirement of GTX 1050Ti, greatly improving deployment, debugging, and user experience.** - See More👉 [v1.2.0](https://github.com/netease-youdao/QAnything/releases/tag/v1.2.0)
+- ***2024-01-23***: **Enable rerank by default and fix various issues when starting on Windows.** - See More👉 [v1.1.1](https://github.com/netease-youdao/QAnything/releases/tag/v1.1.1)
+- ***2024-01-18***: **Support one-click startup, support Windows deployment, improve PDF, XLSX, HTML parsing efficiency.** - See More👉 [v1.1.0](https://github.com/netease-youdao/QAnything/releases/tag/v1.1.0)
+
 ## Getting Started
 
 ### Prerequisites
 #### **For Linux**
-|**System**| **Required item**        | **Minimum Requirement**   | **Note**                                                                           |
-|---------------------------|--------------------------|---------------------------|-------------------------------------------------------------------------|
-|Linux | Single NVIDIA GPU Memory  <br> or Double NVIDIA GPU Memory | >= 16GB <br> >= 11GB + 5G    | NVIDIA 3090 x 1 recommended <br> NVIDIA 2080TI × 2 recommended            |
-|      | NVIDIA Driver Version    | >= 525.105.17             |                                                                                               |
-|      | CUDA Version             | >= 12.0                   |                                                                                               |
-|      |  Docker version           | >= 20.10.5                |  [Docker install](https://docs.docker.com/engine/install/) |
-|      | docker compose  version  | >= 2.23.3                 | [docker compose install](https://docs.docker.com/compose/install/)  |
+|**System**| **Required item**  | **Minimum Requirement** | **Note**                                                         |
+|---------------------------|--------------------|-------------------------|------------------------------------------------------------------|
+|Linux | NVIDIA GPU Memory  | >= 4GB (use OpenAI API) | Minimum: GTX 1050Ti(use OpenAI API) <br> Recommended: RTX 3090                   |
+|      | NVIDIA Driver Version | >= 525.105.17           |                                                                  |
+|      |  Docker version    | >= 20.10.5              | [Docker install](https://docs.docker.com/engine/install/)        |
+|      | docker compose  version | >= 2.23.3               | [docker compose install](https://docs.docker.com/compose/install/) |
+|      | git-lfs   |                         | [git-lfs install](https://git-lfs.com/)                          |
 
-#### **For Winodws 11 with WSL 2**
-|**System**| **Required item**        | **Minimum Requirement**   | **Note**                                                                           |
-|---------------------------|--------------------------|---------------------------|-----------------------------------------------------------------------------------------------|
-|Windows 11 with WSL 2| Single NVIDIA GPU Memory <br> or Double NVIDIA GPU Memory | >= 16GB  <br>  >= 11GB + 5G                | NVIDIA 3090 <br> NVIDIA 2080TI × 2                                                                      |                                                                |
-|      | GEFORCE EXPERIENCE    | >= 546.33 |[GEFORCE EXPERIENCE download](https://us.download.nvidia.com/GFE/GFEClient/3.27.0.120/GeForce_Experience_v3.27.0.120.exe)             |                                                                                               |
-|      |  Docker Desktop           | >=  4.26.1（131620）     | [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)     |
+#### **For Windows with WSL Ubuntu Subsystem**
+| **System**                    | **Required item**        | **Minimum Requirement** | **Note**                                                                                                                  |
+|-------------------------------|--------------------------|-------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Windows with WSL Ubuntu Subsystem | NVIDIA GPU Memory | >= 4GB (use OpenAI API) | Minimum: GTX 1050Ti(use OpenAI API) <br> Recommended: RTX 3090                                                            |                                                                |
+|                               | GEFORCE EXPERIENCE    | >= 546.33 | [GEFORCE EXPERIENCE download](https://us.download.nvidia.com/GFE/GFEClient/3.27.0.120/GeForce_Experience_v3.27.0.120.exe) |                                                                                               |
+|                               |  Docker Desktop           | >=  4.26.1（131620）     | [Docker Desktop for Windows](https://docs.docker.com/desktop/install/windows-install/)                                    |
+|                               | git-lfs   |                  | [git-lfs install](https://git-lfs.com/)                                                                                   |
 
 
-### Installation
+### Installation(Pure Python environment)
+If you prefer not to use Docker for installation, we provide a [Pure Python Installation Guide](https://github.com/netease-youdao/QAnything/tree/develop_for_v1.3.1?tab=readme-ov-file#pure-python-environment-installation-guide). The installation of a pure Python environment is intended for demo purposes only and is not recommended for deployment in a production environment.
+
+### Installation(Docker)
 ### step1: pull qanything repository
 ```shell
 git clone https://github.com/netease-youdao/QAnything.git
 ```
 ### step2: Enter the project root directory and execute the startup script.
-If you are in the Windows11 system: Need to enter the WSL environment.
+* [📖 QAnything_Startup_Usage](docs/QAnything_Startup_Usage_README.md)
+* Get detailed usage of LLM interface by ```bash ./run.sh -h```
+
 ```shell
 cd QAnything
 bash run.sh  # Start on GPU 0 by default.
 ```
 
 <details>
-<summary>(Optional) Specify GPU startup</summary>
+<summary>(Note) If automatic download fails, you can manually download the model from one of the three addresses below.</summary>
+
+modelscope: https://modelscope.cn/models/netease-youdao/QAnything
+
+wisemodel: https://wisemodel.cn/models/Netease_Youdao/qanything
+
+huggingfase: https://huggingface.co/netease-youdao/QAnything
+
+</details>
+
+<details>
+<summary>(Optional) Specify GPU startup </summary>
 
 ```shell
 cd QAnything
-bash run.sh 0  # gpu id 0
+bash ./run.sh -c local -i 0 -b default  # gpu id 0
+```
+</details>
+
+<details>
+<summary>(Optional) Specify GPU startup - Recommended for Windows10/Windows11 WSL2 User</summary>
+
+```shell
+# For Windows OS: Need to enter the **WSL2** environment.
+# Step 1. Download the public LLM model (e.g., Qwen-7B-QAnything) and save to "/path/to/QAnything/assets/custom_models"
+# (Optional) Download Qwen-7B-QAnything from ModelScope: https://www.modelscope.cn/models/netease-youdao/Qwen-7B-QAnything
+# (Optional) Download Qwen-7B-QAnything from Huggingface: https://huggingface.co/netease-youdao/Qwen-7B-QAnything
+cd QAnything/assets/custom_models
+git clone https://huggingface.co/netease-youdao/Qwen-7B-QAnything
+
+# Step 2. Execute the service startup command. Here we use "-b hf" to specify the Huggingface transformers backend.
+cd ../../
+bash ./run.sh -c local -i 0 -b hf -m Qwen-7B-QAnything -t qwen-7b-qanything
+```
+</details>
+
+<details>
+<summary>(Optional) Specify GPU startup - Recommended for GPU Compute Capability >= 8.6 and VRAM >= 24GB</summary>
+
+```shell
+# GPU Compute Capability: https://developer.nvidia.com/cuda-gpus
+# Step 1. Download the public LLM model (e.g., Qwen-7B-QAnything) and save to "/path/to/QAnything/assets/custom_models"
+# (Optional) Download Qwen-7B-QAnything from ModelScope: https://www.modelscope.cn/models/netease-youdao/Qwen-7B-QAnything
+# (Optional) Download Qwen-7B-QAnything from Huggingface: https://huggingface.co/netease-youdao/Qwen-7B-QAnything
+cd QAnything/assets/custom_models
+git clone https://huggingface.co/netease-youdao/Qwen-7B-QAnything
+
+# Step 2. Execute the service startup command. Here we use "-b vllm" to specify the vllm backend.
+cd ../../
+bash ./run.sh -c local -i 0 -b vllm -m Qwen-7B-QAnything -t qwen-7b-qanything -p 1 -r 0.85
 ```
 </details>
 
@@ -193,7 +253,7 @@ bash run.sh 0  # gpu id 0
 
 ```shell
 cd QAnything
-bash run.sh 0,1  # gpu ids: 0,1, Please confirm how many GPUs are available. Supports up to two cards for startup. 
+bash ./run.sh -c local -i 0,1 -b default  # gpu ids: 0,1, Please confirm how many GPUs are available. Supports up to two cards for startup. 
 ```
 </details>
 
@@ -208,12 +268,90 @@ If you want to visit API, please refer to the following address:
 - API address: http://`your_host`:8777/api/
 - For detailed API documentation, please refer to [QAnything API documentation](docs/API.md)
 
+#### DEBUG
+If you want to view the relevant logs, please check the log files in the `QAnything/logs/debug_logs` directory.
+- **debug.log**
+  - User request processing log
+- **sanic_api.log**
+  - Backend service running log
+- **llm_embed_rerank_tritonserver.log**(Single card deployment)
+  - LLM embedding and rerank tritonserver service startup log
+- **llm_tritonserver.log**(Multi-card deployment)
+  - LLM tritonserver service startup log
+- **embed_rerank_tritonserver.log**(Multi-card deployment or use of the OpenAI interface.)
+  - Embedding and rerank tritonserver service startup log
+- rerank_server.log
+  - Rerank service running log
+- ocr_server.log
+  - OCR service running log
+- npm_server.log
+  - Front-end service running log 
+- llm_server_entrypoint.log
+  - LLM intermediate server running log
+- fastchat_logs/*.log
+  - FastChat service running log
+
 ### Close service
 If you are in the Windows11 system: Need to enter the WSL environment.
 ```shell
 bash close.sh
 ```
 
+## offline install
+If you want to install QAnything offline, you can start the service using the following command.
+### install offline for  windows 
+```shell 
+# Download the docker image on a networked machine
+docker pull quay.io/coreos/etcd:v3.5.5
+docker pull minio/minio:RELEASE.2023-03-20T20-16-18Z
+docker pull milvusdb/milvus:v2.3.4
+docker pull mysql:latest
+docker pull freeren/qanything-win:v1.2.1
+
+# pack image
+docker save quay.io/coreos/etcd:v3.5.5 minio/minio:RELEASE.2023-03-20T20-16-18Z milvusdb/milvus:v2.3.4 mysql:latest freeren/qanything-win:v1.2.1 -o qanything_offline.tar
+
+# download QAnything code
+wget https://github.com/netease-youdao/QAnything/archive/refs/heads/master.zip
+
+# Copy the image qanything_offline.tar and the code qany-master.zip to the offline machine
+cp QAnything-master.zip qanything_offline.tar /path/to/your/offline/machine
+
+# Load the image on the disconnected machine
+docker load -i qanything_offline.tar
+
+# Unzip the code and run it
+unzip QAnything-master.zip
+cd QAnything-master
+bash run.sh
+```
+
+### install offline for  linux
+```shell 
+# Download the docker image on a networked machine
+docker pull quay.io/coreos/etcd:v3.5.5
+docker pull minio/minio:RELEASE.2023-03-20T20-16-18Z
+docker pull milvusdb/milvus:v2.3.4
+docker pull mysql:latest
+docker pull freeren/qanything:v1.2.1
+
+# pack image
+docker save quay.io/coreos/etcd:v3.5.5 minio/minio:RELEASE.2023-03-20T20-16-18Z milvusdb/milvus:v2.3.4 mysql:latest freeren/qanything:v1.2.1 -o qanything_offline.tar
+
+# download QAnything code
+wget https://github.com/netease-youdao/QAnything/archive/refs/heads/master.zip
+
+# Copy the image qanything_offline.tar and the code qany-master.zip to the offline machine
+cp QAnything-master.zip qanything_offline.tar /path/to/your/offline/machine
+
+# Load the image on the disconnected machine
+docker load -i qanything_offline.tar
+
+# Unzip the code and run it
+unzip QAnything-master.zip
+cd QAnything-master
+bash run.sh
+```
 
 ## FAQ
 [FAQ](FAQ_zh.md)
@@ -234,7 +372,12 @@ bash close.sh
 ### API Document
 If you need to access the API, please refer to the [QAnything API documentation](docs/API.md).
 
-
+## Contributing
+We appreciate your interest in contributing to our project. Whether you're fixing a bug, improving an existing feature, or adding something completely new, your contributions are welcome!
+### Thanks to all contributors for their efforts
+<a href="https://github.com/netease-youdao/QAnything/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=netease-youdao/QAnything" />
+</a>
 
 ## Community & Support
 
@@ -242,18 +385,32 @@ If you need to access the API, please refer to the [QAnything API documentation]
 Welcome to the QAnything [Discord](https://discord.gg/5uNpPsEJz8) community
 
 
+
+### WeChat
+
+Welcome to follow QAnything WeChat Official Account to get the latest information.
+
+<img src="docs/images/qrcode_for_qanything.jpg" width="30%" height="auto">
+
+
+Welcome to scan the code to join the QAnything discussion group.
+
+<img src="docs/images/Wechat.jpg" width="30%" height="auto">
+
+
+
+
+
+### Email
+If you need to contact our team privately, please reach out to us via the following email:
+
+qanything@rd.netease.com
+
 ### GitHub issues
 Reach out to the maintainer at one of the following places:
 
 - [Github issues](https://github.com/netease-youdao/QAnything/issues)
 - Contact options listed on [this GitHub profile](https://github.com/netease-youdao)
-
-### WeChat Group
-
-Welcome to scan the QR code below and join the WeChat group.
-
-<img src="docs/images/Wechat.jpg" width="20%" height="auto">
-
 
 
 ## Star History
@@ -271,7 +428,8 @@ Welcome to scan the QR code below and join the WeChat group.
 - Thanks to our [BCEmbedding](https://github.com/netease-youdao/BCEmbedding) for the excellent embedding and rerank model. 
 - Thanks to [Qwen](https://github.com/QwenLM/Qwen) for strong base language models.
 - Thanks to [Triton Inference Server](https://github.com/triton-inference-server/server) for providing great open source inference serving.
-- Thanks to [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) for highly optimized LLM inference backend.
+- Thanks to [FastChat](https://github.com/lm-sys/FastChat) for providing a fully OpenAI-compatible API server.
+- Thanks to [FasterTransformer](https://github.com/NVIDIA/FasterTransformer) and [vllm](https://github.com/vllm-project/vllm) for highly optimized LLM inference backend.
 - Thanks to [Langchain](https://github.com/langchain-ai/langchain) for the wonderful llm application framework. 
 - Thanks to [Langchain-Chatchat](https://github.com/chatchat-space/Langchain-Chatchat) for the inspiration provided on local knowledge base Q&A.
 - Thanks to [Milvus](https://github.com/milvus-io/milvus) for the excellent semantic search library.

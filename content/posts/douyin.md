@@ -1,9 +1,9 @@
 ---
 title: douyin
-date: 2024-04-04T12:18:24+08:00
+date: 2024-04-05T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711348787246-5125ca266e7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711348787246-5125ca266e7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708583382060-5bcfebc34a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708583382060-5bcfebc34a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1711348787246-5125ca266e
 </h1>
 
 <p align="center">
-  <a href="README.md">简体中文</a> | <a href="README-en-US.md">English</a>
+  <a href="README.md">简体中文</a> | <a href="README-en-US.md">English</a> | <a href="README-ja-JP.md">日本語</a>
 </p>
 
 `douyin` 是一个模仿抖音的移动端短视频项目，它基于 [`Vue`](https://cn.vuejs.org/)、[`Vite`](https://cn.vitejs.dev/) 实现。使用了最新的 `Vue` 全家桶技术栈，接口数据通过 [`axios-mock-adapter`](https://github.com/ctimmerm/axios-mock-adapter) 模拟

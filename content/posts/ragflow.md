@@ -1,9 +1,9 @@
 ---
 title: ragflow
-date: 2024-04-04T12:18:34+08:00
+date: 2024-04-05T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710629173038-eb1444dafe39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710629173038-eb1444dafe39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710390916960-3047fcdf561e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710390916960-3047fcdf561e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
@@ -184,7 +184,7 @@ See the [RAGFlow Roadmap 2024](https://github.com/infiniflow/ragflow/issues/162)
 
 ## 🏄 Community
 
-- [Discord](https://discord.gg/uqQ4YMDf)
+- [Discord](https://discord.gg/trjjfJ9y)
 - [Twitter](https://twitter.com/infiniflowai)
 
 ## 🙌 Contributing

@@ -1,9 +1,9 @@
 ---
 title: xzbot
-date: 2024-04-04T12:17:15+08:00
+date: 2024-04-05T12:18:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709423377982-fbe2169e5b67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709423377982-fbe2169e5b67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711014476933-5a064094136b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711014476933-5a064094136b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [amlweems/xzbot](https://github.com/amlweems/xzbot)

@@ -1,9 +1,9 @@
 ---
 title: ChatDev
-date: 2024-04-03T12:16:31+08:00
+date: 2024-04-05T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709037813912-f2b0cfa924e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709037813912-f2b0cfa924e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710390916960-3047fcdf561e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710390916960-3047fcdf561e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/ChatDev](https://github.com/OpenBMB/ChatDev)

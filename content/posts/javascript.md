@@ -1,9 +1,9 @@
 ---
 title: javascript
-date: 2024-04-04T12:19:46+08:00
+date: 2024-04-05T12:20:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711271595823-4f7caa592129?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711271595823-4f7caa592129?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709418354364-8f3e9ad5c32c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709418354364-8f3e9ad5c32c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [airbnb/javascript](https://github.com/airbnb/javascript)

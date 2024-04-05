@@ -1,16 +1,16 @@
 ---
 title: puter
-date: 2024-03-08T12:15:36+08:00
+date: 2024-04-05T12:19:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8db0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk4NzEzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711560705614-0bf664b26f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711560705614-0bf664b26f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
 ---
 
 # [HeyPuter/puter](https://github.com/HeyPuter/puter)
 
 <h3 align="center"><img width="80" alt="Puter.com, The Personal Cloud Computer: All your files, apps, and games in one place accessible from anywhere at any time." src="https://assets.puter.site/puter-logo.png"></h3>
 
-<h3 align="center">Internet OS and Desktop Environment in the Browser!</h3>
+<h3 align="center">The Internet OS! Free, Open-Source, and Self-Hostable!</h3>
 
 <p align="center">
     <a href="https://puter.com/"><strong>« LIVE DEMO »</strong></a>
@@ -33,11 +33,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1708200216317-84160f5e8d
 
 ## Puter
 
-Puter is an advanced open-source desktop environment in the browser, designed to be feature-rich, exceptionally fast, and highly extensible. It can be used to build remote desktop environments or serve as an interface for cloud storage services, remote servers, web hosting platforms, and more.
+Puter is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. It can be used to build remote desktop environments or serve as an interface for cloud storage services, remote servers, web hosting platforms, and more.
 
 <br/>
 
 ## Getting Started
+
+After reading this section, please proceed to **Self-Hosting** and **Configuration** below.
+Read these instructions carefully or you may see errors due to
+an invalid setup.
 
 ### Local Development
 
@@ -54,17 +58,71 @@ This will launch Puter at http://localhost:4000 (or the next available port).
 
 ### Using Docker
 
+**note:** it is **not** necessary to run this within a clone of this repository. For contributors, it is recommended to use the [Local Development](#local-development) instructions.
+
 ```bash
-git clone https://github.com/HeyPuter/puter
-cd puter
+mkdir puter && cd puter && mkdir -p puter/config puter/data && sudo chown -R 1000:1000 puter && docker run --rm -p 4100:4100 -v `pwd`/puter/config:/etc/puter -v `pwd`/puter/data:/var/puter  ghcr.io/heyputer/puter
+```
+
+### Using Docker Compose
+
+**note:** it is **not** necessary to run this within a clone of this repository. For contributors, it is recommended to use the [Local Development](#local-development) instructions.
+
+```bash
+mkdir -p puter/config puter/data
+sudo chown -R 1000:1000 puter
+wget https://raw.githubusercontent.com/HeyPuter/puter/main/docker-compose.yml
 docker compose up
 ```
 
 <br/>
 
-## Deploy to Production
+See [Configuration](#configuration) for next steps.
 
-Detailed guide on how to deploy Puter in production: [docs/prod.md](docs/prod.md)
+<br/>
+
+## ⚠️ Self-Hosting ⚠️
+The self-hosted version of Puter is currently in alpha stage and should not be used in production yet. It is under active development and may contain bugs, other issues. Please exercise caution and use it for testing and evaluation purposes only.
+
+<br/>
+
+## Configuration
+
+Running the server will generate a configuration file in one of these locations:
+- `config/config.json` when [Using Docker](#using-docker)
+- `volatile/config/config.json` in [Local Development](#local-development)
+- `/etc/puter/config.json` on a server (or within a Docker container)
+
+### Domain Name
+
+To access Puter on your device, you can simply go to the address printed in
+the server console (usually `puter.localhost:4100`).
+
+To access Puter from another device, a domain name must be configured, as well as
+an `api` subdomain. For example, `example.local` might be the domain name pointing
+to the IP address of the server running puter, and `api.example.com` must point to
+this address as well. This domain must be specified in the configuration file
+(usually `volatile/config/config.json`) as well.
+
+See [domain configuration](./doc/self-hosters/domains.md) for more information.
+
+### Configure the Port
+
+- You can specify a custom port by setting `http_port` to a desired value
+- If you're using a reverse-proxy such as nginx or cloudflare, you should
+  also set `pub_port` to the public (external) port (usually `443`)
+- If you have HTTPS enabled on your reverse-proxy, ensure that
+  `protocol` in config.json is set accordingly
+
+### Default User
+
+By default, Puter will create a user called `default_user`.
+This user will have a randomly generated password, which will be printed
+in the development console.
+A warning will persist in the dev console until this user's
+password is changed. Please login to this user and change the password as
+your first step. This user by default has 10GB storage instead of the default
+(500MB storage) for new/temporary users.
 
 <br/>
 
@@ -93,6 +151,18 @@ Also partly inspired by some of our favorite projects that are not built with fr
 ### ❓ Why jQuery?
 
 Puter interacts directly with the DOM and jQuery provides an elegant yet powerful API to manipulate the DOM, handle events, and much more. It's also fast, mature, and battle-tested. 
+
+<br/>
+
+## #DoesItRunPuter
+
+- [Minecraft](https://twitter.com/HeyPuter/status/1771957571496092036) | [video](https://www.youtube.com/watch?v=GIowZUXkg5g)
+- [PlayStation 4](https://twitter.com/HeyPuter/status/1767978053014270059)
+- [Skyworth TV](https://twitter.com/ericalexdube/status/1767983049277411564)
+- [Oculus Quest 2](https://twitter.com/HeyPuter/status/1768664081756754012)
+- [Tesla Model S](https://twitter.com/HeyPuter/status/1767971178864587057)
+- [Tesla Model Y](https://twitter.com/HeyPuter/status/1772858333751636310)
+- Tesla Model 3
 
 <br/>
 
