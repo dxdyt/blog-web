@@ -1,9 +1,9 @@
 ---
 title: FreeTube
-date: 2024-01-17T12:18:06+08:00
+date: 2024-04-06T12:18:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702903868474-4b6646c3844c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702903868474-4b6646c3844c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU0NjUwMDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710302112350-e14ceae0c385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710302112350-e14ceae0c385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
 ---
 
 # [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)
@@ -99,6 +99,8 @@ These builds are maintained by the community. While they should be safe, downloa
 
 * FreeTubeCordova (FreeTube port for Android and PWA): [Download](https://github.com/MarmadileManteater/FreeTubeCordova/releases) and [Source Code](https://github.com/MarmadileManteater/FreeTubeCordova)
 
+* Homebrew Formulae (Mac only): [Download](https://formulae.brew.sh/cask/freetube)
+
 * makedeb Package Repository (MPR): [Download](https://mpr.makedeb.org/packages/freetube-bin)
 
 * Nix Packages: [Download](https://search.nixos.org/packages?query=freetube)
@@ -108,6 +110,8 @@ These builds are maintained by the community. While they should be safe, downloa
 * Scoop (Windows Only): [Usage](https://github.com/ScoopInstaller/Scoop)
 
 * Snap: [Download](https://snapcraft.io/freetube) and [Source Code](https://git.launchpad.net/freetube)
+
+* WAPT: [Download](https://wapt.tranquil.it/store/tis-freetube)
 
 * Windows Package Manager (winget): [Usage](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
 

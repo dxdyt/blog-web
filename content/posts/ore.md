@@ -1,9 +1,9 @@
 ---
 title: ore
-date: 2024-04-05T12:19:12+08:00
+date: 2024-04-06T12:16:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711580299304-b7ebf7ff20d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711580299304-b7ebf7ff20d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710976328936-b756eb722b8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710976328936-b756eb722b8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
 ---
 
 # [HardhatChad/ore](https://github.com/HardhatChad/ore)
