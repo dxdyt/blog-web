@@ -1,9 +1,9 @@
 ---
 title: availup
-date: 2024-04-06T12:17:26+08:00
+date: 2024-04-07T12:17:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711427686380-ca4a1b004e7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711427686380-ca4a1b004e7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711919880500-ffe6a4bbf4af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711919880500-ffe6a4bbf4af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
 ---
 
 # [availproject/availup](https://github.com/availproject/availup)

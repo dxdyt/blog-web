@@ -1,9 +1,9 @@
 ---
 title: iptv-sources
-date: 2023-12-20T12:14:31+08:00
+date: 2024-04-07T12:19:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMwNDU1ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707024257674-2e656346fbbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707024257674-2e656346fbbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
 ---
 
 # [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
@@ -13,12 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1701752656381-7f9dcf3c36
 Autoupdate iptv sources
 
 [![Docker Build](https://img.shields.io/docker/automated/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
-[![Docker Version](https://img.shields.io/docker/v/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
+[![Docker Version](https://img.shields.io/docker/v/herberthe0229/iptv-sources/latest?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 [![Docker Image](https://img.shields.io/docker/image-size/herberthe0229/iptv-sources/latest?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 [![Docker Pulls](https://img.shields.io/docker/pulls/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
 [![Docker Stars](https://img.shields.io/docker/stars/herberthe0229/iptv-sources?style=flat-square)](https://hub.docker.com/r/herberthe0229/iptv-sources)
-
-**ATTENTION: `iptv-sources.sh` file maybe still unstable at this moment. Please use it with caution and check the latest version of this repository.**
 
 Join discord: [![Discord](https://discord.badge.ibert.me/api/server/betxHcsTqa)](https://discord.gg/betxHcsTqa)
 
@@ -29,63 +27,52 @@ Sources are from:
 - [YueChan/Live](https://github.com/YueChan/Live)
 - [YanG-1989/m3u](https://github.com/YanG-1989/m3u)
 - [fanmingming/live](https://github.com/fanmingming/live)
+- [qwerttvv/Beijing-IPTV](https://github.com/qwerttvv/Beijing-IPTV)
+- [joevess/IPTV](https://github.com/joevess/IPTV)
+- ~~[Meroser/IPTV](https://github.com/Meroser/IPTV)~~ The project content has been removed by Author
 
 EPG Sources are from:
 
 - [fanmingming/live](https://github.com/fanmingming/live)
 - [112114.xyz](https://diyp1.112114.xyz)
+- [epg.51zmt.top:8000](http://epg.51zmt.top:8000/)
 
 See <https://m3u.ibert.me> to get more.
 
-> Use CDN **(Not recommended)**: You can use `https://fastly.jsdelivr.net/gh/HerbertHe/iptv-sources@gh-pages/` to replace `https://m3u.ibert.me/` for using CDN Service. Due to the **Cache Policy** of CDN, the content wouldn't be the latest, the m3u files would be updated every **2 hours**.
-
-> 使用 CDN **（不建议）**：你可以通过 `https://fastly.jsdelivr.net/gh/HerbertHe/iptv-sources@gh-pages/` 替换 `https://m3u.ibert.me/` 来使用 CDN 服务。由于 CDN 的 **缓存策略**，内容不会是最新的，m3u 文件每 **2 小时** 会更新一次。
-
 ## Deploy by yourself
 
-You can also deploy the project by yourself with docker.
+- [How to deploy with GitHub Pages](https://github.com/HerbertHe/iptv-sources/discussions/35)
+- [How to deploy with docker](https://github.com/HerbertHe/iptv-sources/discussions/36)
+- [How to deploy with nodejs](https://github.com/HerbertHe/iptv-sources/discussions/37)
 
-```bash
-docker run --name iptv-sources -p 3000:8080 -d herberthe0229/iptv-sources:latest
+## Supported Environment Variables
+
+```shell
+# add custom rollback urls, default is empty
+# ROLLBACK_URLS=https://xxxx.xxx.com
+
+# close source proxy, default is false
+# CLOSE_SOURCE_PROXY=true
+
+# add custom github raw source proxy url
+# The custom proxy service you configured MUST supports the request urls, like `${CUSTOM_GITHUB_RAW_SOURCE_PROXY_URL}/https://raw.githubusercontent.com/xxx/xxx`
+# If you want to deploy the ghproxy by yourself, see https://github.com/hunshcn/gh-proxy
+# CUSTOM_GITHUB_RAW_SOURCE_PROXY_URL=https://ghproxy.net
+
+# enable iptv checker, default is false
+# ENABLE_IPTV_CHECKER=true
+
+# add iptv checker url, default is empty
+# IPTV_CHECKER_URL=http://[::1]:8081
 ```
 
-- Run `docker ps` to get container status.
+## Q&A
 
-Wait a minute, visit <http://localhost:3000>.
-
-Then, you can use `http://localhost:3000` instead of `https://m3u.ibert.me`.
-
-For example: `https://m3u.ibert.me/cn.m3u` -> `http://localhost:3000/cn.m3u`
-
-Or, you can also deploy with your own server & domain.
-
-## Crontab
-
-Maybe you want to set schedule for auto-updating per 2 hours.
-
-- Download bash script file `iptv-sources.sh` <https://github.com/HerbertHe/iptv-sources/blob/main/iptv-sources.sh> to your homedir.
-
-- Edit you crontab:
-
-```bash
-crontab -e
-```
-
-- Press keyboard `i` for adding schedule.
-
-- Add:
-
-```cron
-0 */2 * * * /bin/sh ~/iptv-sources.sh
-```
-
-- Press keyboard `ESC` to exit edit mode
-- Type `:wq` to save
-- Restart crontab service
-
-```bash
-service crond restart
-```
+- [How to close the github raw content proxy](https://github.com/HerbertHe/iptv-sources/discussions/38)
+- [How to set the custom github raw source proxy url](https://github.com/HerbertHe/iptv-sources/discussions/39)
+- [How to use `iptv-checker` feature](https://github.com/HerbertHe/iptv-sources/discussions/40)
+- [How to add your own rollback urls](https://github.com/HerbertHe/iptv-sources/discussions/41)
+- [How to create custom sources based on the upstream](https://github.com/HerbertHe/iptv-sources/discussions/68)
 
 ## Star History
 
@@ -93,4 +80,10 @@ service crond restart
 
 ## LICENSE
 
-MIT &copy; Herbert He 2023
+GPL-3.0 &copy; Herbert He
+
+本项目基于 GPL-3.0 协议开源，但下面的个人或组织不在允许名单目录中。
+
+| 名称      | 链接                           | 原因                                                                                                                             |
+| --------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| vodtv/m3u | <https://github.com/vodtv/m3u> | 违反 MIT 开源协议 "在软件和软件的所有副本中都必须包含以上版权声明和本许可声明。" [Commit](https://github.com/vodtv/m3u/issues/3) |

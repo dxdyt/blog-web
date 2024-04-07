@@ -1,9 +1,9 @@
 ---
 title: openzeppelin-contracts
-date: 2024-02-10T12:18:32+08:00
+date: 2024-04-07T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706545512931-13ee29166e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706545512931-13ee29166e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc1Mzg1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709625509094-7947968103ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709625509094-7947968103ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
 ---
 
 # [OpenZeppelin/openzeppelin-contracts](https://github.com/OpenZeppelin/openzeppelin-contracts)
@@ -51,7 +51,7 @@ $ npm install @openzeppelin/contracts
 $ forge install OpenZeppelin/openzeppelin-contracts
 ```
 
-Add `@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/` in `remappings.txt.` 
+Add `@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/` in `remappings.txt.`
 
 ### Usage
 

@@ -1,9 +1,9 @@
 ---
 title: SWE-agent
-date: 2024-04-06T12:16:26+08:00
+date: 2024-04-07T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710376624049-8e439bd1d108?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710376624049-8e439bd1d108?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711919880500-ffe6a4bbf4af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711919880500-ffe6a4bbf4af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
 ---
 
 # [princeton-nlp/SWE-agent](https://github.com/princeton-nlp/SWE-agent)
@@ -58,58 +58,55 @@ Read our paper for more details [coming soon!].
 
 ### 🏎️ Express Setup + Run
 
+> [!WARNING]
+> Our containers on dockerhub are currently only provided for arm64.
+> If you run on another architecture, please use the instructions for the setup
+> with conda (next section).
+
 You can run the software directly using Docker. 
 
 1. [Install Docker](https://docs.docker.com/engine/install/), then start Docker locally.
 2. Run `docker pull sweagent/swe-agent:latest`
+3. Add your API tokens to a file `keys.cfg` as explained [below](#-add-your-api-keystokens)
 
 Then run
 
 ```bash
+# Please remove all comments (lines starting with '#') before running this command!
 docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock \
-  -e GITHUB_TOKEN="your github token here" \
-  -e OPENAI_API_KEY="your openai API key if you're using GPT" \
+  # replace /xxxx/keys.cfg with the paths to your keys
+  -v /xxxx/keys.cfg:/app/keys.cfg \
   sweagent/swe-agent-run:latest \
   python run.py --image_name=sweagent/swe-agent:latest \
-  # the rest of the command as shown below
+  # the rest of the command as shown in the quickstart/benchmarking section,
+  # for example to run on a specific github issue
+  --model_name gpt4 \
+  --data_path https://github.com/pvlib/pvlib-python/issues/1603 \
+  --config_file config/default_from_url.yaml  --skip_existing=False
 ```
 
 > [!TIP]
 > * For more information on the different API keys/tokens, see [below](#-add-your-api-keystokens).
 > * If you're using docker on Windows, use `-v //var/run/docker.sock:/var/run/docker.sock`
 >   (double slash) to escape it ([more information](https://stackoverflow.com/a/47229180/)).
-> * For a complete command example, expand the fold-out directly below this box. 
-
-<details>
-<summary>🔎 Example: Running on a github issue</summary>
-
-```bash
-docker run --rm -it -v /var/run/docker.sock:/var/run/docker.sock \
-    -e GITHUB_TOKEN="your github token here" \
-    -e OPENAI_API_KEY="your openai API key if you're using GPT" \
-    sweagent/swe-agent-run:latest \
-    python run.py --image_name=sweagent/swe-agent:latest \
-    --model_name gpt4 \
-    ---data_path https://github.com/pvlib/pvlib-python/issues/1603 \
-    --config_file config/default_from_url.yaml  --skip_existing=False
-```
-</details>
 
 ### 🐍 Setup with conda (development version) 
+
+To install the development version:
 
 1. [Install Docker](https://docs.docker.com/engine/install/), then start Docker locally.
 2. Clone this repository
 3. [Install Miniconda](https://docs.anaconda.com/free/miniconda/miniconda-install/), then create the `swe-agent` environment with `conda env create -f environment.yml`
 4. Activate using `conda activate swe-agent`.
 5. Run `./setup.sh` to create the `swe-agent` docker image.
-6. Create a `keys.cfg` file at the root of this repository (see below)
-
+6. Create a `keys.cfg` file at the root of this repository ([see below](#-add-your-api-keystokens))
 
 > [!WARNING]
 > Expect some issues with Windows (we're working on them).
 > In the meantime, simply use Docker (see above).
 > If you want the latest version, you can also build your own `swe-agent-run`
-> container with the `Dockerfile` at the root of this repository.
+> container with the `Dockerfile` at the root of this repository by running
+> `docker built -t sweagent/swe-agent-run:latest .`
 
 ### 🔑 Add your API keys/tokens
 

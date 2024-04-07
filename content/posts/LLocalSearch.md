@@ -1,9 +1,9 @@
 ---
 title: LLocalSearch
-date: 2024-04-06T12:17:06+08:00
+date: 2024-04-07T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709595009183-0fd1eb37ed61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709595009183-0fd1eb37ed61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711470053377-bdd52fdba484?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711470053377-bdd52fdba484?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
 ---
 
 # [nilsherzig/LLocalSearch](https://github.com/nilsherzig/LLocalSearch)
@@ -51,6 +51,7 @@ Please read [infra](https://github.com/nilsherzig/LLocalSearch/issues/17) to get
 
 - A running [Ollama](https://ollama.com/) server, reachable from the container
     - GPU is not needed, but recommended
+    - 🔴 make sure that Ollama is not just listening on localhost but on all interfaces (or at least the docker network). You don't have to change anything if you're using ollama inside docker.
 - Docker Compose
 
 ### Run the latest release
