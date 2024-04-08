@@ -1,9 +1,9 @@
 ---
 title: langflow
-date: 2024-04-06T12:17:36+08:00
+date: 2024-04-08T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711669321296-227ff3bc1318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711669321296-227ff3bc1318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710528925809-8f91d349283e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710528925809-8f91d349283e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
 ---
 
 # [logspace-ai/langflow](https://github.com/logspace-ai/langflow)

@@ -1,9 +1,9 @@
 ---
 title: AstroNvim
-date: 2024-04-07T12:17:28+08:00
+date: 2024-04-08T12:16:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710186753218-9d0a082837e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710186753218-9d0a082837e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712081024200-400ca47d02d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712081024200-400ca47d02d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
 ---
 
 # [AstroNvim/AstroNvim](https://github.com/AstroNvim/AstroNvim)

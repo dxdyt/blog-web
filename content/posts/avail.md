@@ -1,9 +1,9 @@
 ---
 title: avail
-date: 2024-04-06T12:19:24+08:00
+date: 2024-04-08T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711950905572-e7885a3eec5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711950905572-e7885a3eec5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711658364398-b7b697baf4e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711658364398-b7b697baf4e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
 ---
 
 # [availproject/avail](https://github.com/availproject/avail)

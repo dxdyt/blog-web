@@ -1,9 +1,9 @@
 ---
 title: neovim
-date: 2024-03-18T12:16:38+08:00
+date: 2024-04-08T12:18:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709522065858-d73b9ee76105?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709522065858-d73b9ee76105?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712013839549-4b74e7ba9c8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712013839549-4b74e7ba9c8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
 ---
 
 # [neovim/neovim](https://github.com/neovim/neovim)

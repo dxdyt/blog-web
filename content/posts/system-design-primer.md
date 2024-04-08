@@ -1,9 +1,9 @@
 ---
 title: system-design-primer
-date: 2024-02-15T12:17:15+08:00
+date: 2024-04-08T12:18:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687341426897-9d2fb554cd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687341426897-9d2fb554cd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710528925809-8f91d349283e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710528925809-8f91d349283e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
 ---
 
 # [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
