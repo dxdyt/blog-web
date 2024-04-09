@@ -1,142 +1,167 @@
 ---
 title: ChatGPT
-date: 2023-04-01T12:18:32+08:00
+date: 2024-04-09T12:17:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11956/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11956/0/1080p
+featuredImage: https://images.unsplash.com/photo-1711834231647-0c92a545b3e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711834231647-0c92a545b3e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
 ---
 
-# [lencx/ChatGPT](https://github.com/lencx/ChatGPT)
+# [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT)
 
-<p align="center">
-  <img width="180" src="./public/logo.png" alt="ChatGPT">
-  <h1 align="center">ChatGPT</h1>
-  <p align="center">ChatGPT Desktop Application (Mac, Windows and Linux)</p>
-</p>
+# ChatGPT API Free Reverse Proxy
 
-[![English badge](https://img.shields.io/badge/%E8%8B%B1%E6%96%87-English-blue)](./README.md)
-[![简体中文 badge](https://img.shields.io/badge/%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-Simplified%20Chinese-blue)](./README-ZH_CN.md)\
-![visitor](https://visitor-badge.glitch.me/badge?page_id=lencx.chatgpt)
-[![ChatGPT downloads](https://img.shields.io/github/downloads/lencx/ChatGPT/total.svg?style=flat-square)](https://github.com/lencx/ChatGPT/releases)
-[![chat](https://img.shields.io/badge/chat-discord-blue?style=flat&logo=discord)](https://discord.gg/aPhCRf4zZr)
-[![lencx](https://img.shields.io/badge/follow-lencx__-blue?style=flat&logo=Twitter)](https://twitter.com/lencx_)
+Welcome to the **ChatGPT API Free Reverse Proxy** project, a complimentary resource allowing seamless access to OpenAI's API. This project mirrors the official OpenAI API endpoints, enabling users to leverage OpenAI functionalities without direct cost. Dive into our documentation to discover how to set up your reverse proxy or connect with our hosted service for an even smoother experience.
 
-<!-- [![lencx](https://img.shields.io/twitter/follow/lencx_.svg?style=social)](https://twitter.com/lencx_) -->
+## Quick Links
 
-<!-- [![中文版 badge](https://img.shields.io/badge/%E4%B8%AD%E6%96%87-Traditional%20Chinese-blue)](./README-ZH.md) -->
+- [Join our Discord Community](https://discord.pawan.krd) for support and questions.
+	- ⚡Note: Your Discord account must be at least 7 days old to be able join our Discord community.
 
-<a href="https://www.buymeacoffee.com/lencx" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
+## Table of Contents
 
-**🛑 URGENT NOTICE: A hacker has been found to take advantage of the heat of `lencx/ChatGPT` to plant a Trojan horse after the fork project and rebuild the installer. If you have friends around you who are using this desktop application, please remind them not to download unknown links freely. Now the project will remove other installation ways and only provide this download link https://github.com/lencx/ChatGPT/releases**
+- [Features](#features)
+- Option 1: [Installing/Self-Hosting Guide](#installingself-hosting-guide) (Without using any API key)
+  - Method 1: [Using Docker](#using-docker)
+  - Method 2: [Your PC/Server](#your-pcserver) (manually)
+  - Method 3: [Termux on Android Phones](#termux-on-android-phones)
+- Option 2: [Accessing Our Hosted API](#accessing-our-hosted-api) (Free)
+- [Usage Examples](#usage-examples)
+- [License](#license)
 
-**🛑 紧急通知：目前发现有黑客利用 `lencx/ChatGPT` 的热度，在 fork 项目后植入木马，重新构建安装程序。如果你身边有朋友正在使用此桌面应用，请提醒 TA 们不要随意下载不明链接。现在项目将删除其他安装途径，仅提供此下载链接 https://github.com/lencx/ChatGPT/releases**
+## Features
 
----
+- **Streaming Response**: The API supports streaming response, so you can get the response as soon as it's available.
+- **API Endpoint Compatibility**: Full alignment with official OpenAI API endpoints, ensuring hassle-free integration with existing OpenAI libraries.
+- **Complimentary Access**: No charges for API usage, making advanced AI accessible to everyone even **without an API key**.
 
-**It is an unofficial project intended for personal learning and research purposes only. During the time that the ChatGPT desktop application was open-sourced, it received a lot of attention, and I would like to thank everyone for their support. However, as things have developed, there are two issues that seriously affect the project's next development plan:**
+## Installing/Self-Hosting Guide
 
-- **Some people have used it for repackaging and selling for profit.**
-- **The name and icon of ChatGPT may be involved in infringement issues.**
+### Using Docker
+1. Ensure Docker is installed by referring to the [Docker Installation Docs](https://docs.docker.com/engine/install/).
+2. Run the following command:
+   ```bash
+   docker run -dp 3040:3040 pawanosman/chatgpt:latest
+   ```
+3. Done! You can now connect to your local server's API at:
+   ```
+   http://localhost:3040/v1/chat/completions
+   ```
+   Note that the base URL is `http://localhost:3040/v1`.
 
-**New repository: https://github.com/lencx/nofwl**
+### Your PC/Server
 
----
+To install and run the ChatGPT API Reverse Proxy on your PC/Server by following these steps:
 
-## 📦 Install
+Note: This option is not available to all countries yet. if you are from a country that is not supported, you can use a **U.S. VPN** or use **our hosted API**.
 
-- [📝 Update Log](./UPDATE_LOG.md)
-- [🕒 History versions...](https://github.com/lencx/ChatGPT/releases)
+1. Ensure NodeJs (v19+) is installed: [Download NodeJs](https://nodejs.org/en/download)
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/PawanOsman/ChatGPT.git
+   ```
+3. Open `start.bat` (Windows) or `start.sh` (Linux with `bash start.sh` command) to install dependencies and launch the server.
+4. Done, you can connect to your local server's API at:
+   ```
+   http://localhost:3040/v1/chat/completions
+   ```
+   Note that the base url will be `http://localhost:3040/v1`
 
-<!-- tr-download-start -->
+To include installation instructions for Termux on Android devices, you can add the following section right after the instructions for Linux in the **Installing/Self-Hosting Guide**:
 
-### Windows
+### Termux on Android Phones
 
-- [ChatGPT_0.12.0_windows_x86_64.msi](https://github.com/lencx/ChatGPT/releases/download/v0.12.0/ChatGPT_0.12.0_windows_x86_64.msi): Direct download installer
-- Use [winget](https://winstall.app/apps/lencx.ChatGPT):
+To install and run the ChatGPT API Reverse Proxy on Android using Termux, follow these steps:
 
-  ```bash
-  # install the latest version
-  winget install --id=lencx.ChatGPT -e
+1. Install [Termux](https://play.google.com/store/apps/details?id=com.termux) from the Play Store.
+2. Update Termux packages:
+   ```bash
+   apt update
+   ```
+3. Upgrade Termux packages:
+   ```bash
+   apt upgrade
+   ```
+4. Install git, Node.js, and npm:
+   ```bash
+   apt install -y git nodejs
+   ```
+5. Clone the repository:
+   ```bash
+   git clone https://github.com/PawanOsman/ChatGPT.git
+   ```
+6. Navigate to the cloned directory:
+   ```bash
+   cd ChatGPT
+   ```
+7. Start the server with:
 
-  # install the specified version
-  winget install --id=lencx.ChatGPT -e --version 0.10.0
-  ```
+   ```bash
+   bash start.sh
+   ```
 
-**Note: If the installation path and application name are the same, it will lead to conflict ([#142](https://github.com/lencx/ChatGPT/issues/142#issuecomment-0.12.0))**
+8. Your local server will now be running and accessible at:
 
-### Mac
+   ```
+   http://localhost:3040/v1/chat/completions
+   ```
 
-- [ChatGPT_0.12.0_macos_aarch64.dmg](https://github.com/lencx/ChatGPT/releases/download/v0.12.0/ChatGPT_0.12.0_macos_aarch64.dmg): Direct download installer
-- [ChatGPT_0.12.0_macos_x86_64.dmg](https://github.com/lencx/ChatGPT/releases/download/v0.12.0/ChatGPT_0.12.0_macos_x86_64.dmg): Direct download installer
-- Homebrew \
-  Or you can install with _[Homebrew](https://brew.sh) ([Cask](https://docs.brew.sh/Cask-Cookbook)):_
-  ```sh
-  brew tap lencx/chatgpt https://github.com/lencx/ChatGPT.git
-  brew install --cask chatgpt --no-quarantine
-  ```
-  Also, if you keep a _[Brewfile](https://github.com/Homebrew/homebrew-bundle#usage)_, you can add something like this:
-  ```rb
-  repo = "lencx/chatgpt"
-  tap repo, "https://github.com/#{repo}.git"
-  cask "chatgpt", args: { "no-quarantine": true }
-  ```
+   Note that the base url will be `http://localhost:3040/v1`
 
-**If you encounter the error message `"ChatGPT" is damaged and can't be opened. You should move it to the Trash`. while installing software on macOS, it may be due to security settings restrictions in macOS. To solve this problem, please try the following command in Terminal:**
+   You can now use this address to connect to your self-hosted ChatGPT API Reverse Proxy from Android applications/websites that support reverse proxy configurations, on the same device.
 
-```bash
-sudo xattr -r -d com.apple.quarantine /YOUR_PATH/ChatGPT.app
+## Accessing Our Hosted API
+
+Utilize our pre-hosted ChatGPT-like API for free by:
+
+1. Joining our [Discord server](https://discord.pawan.krd).
+2. Obtaining an API key from the `#Bot` channel with the `/key` command.
+3. Incorporating the API key into your requests to:
+   ```
+   https://api.pawan.krd/v1/chat/completions
+   ```
+
+## Usage Examples
+
+Leverage the same integration code as OpenAI's official libraries by simply adjusting the API key and base URL in your requests. For self-hosted setups, ensure to switch the base URL to your local server's address as mentioned above.
+
+### Example Usage with OpenAI Libraries
+
+#### Python Example
+
+```python
+import openai
+
+openai.api_key = 'anything'
+openai.base_url = "http://localhost:3040/v1/"
+
+completion = openai.chat.completions.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "user", "content": "How do I list all files in a directory using Python?"},
+    ],
+)
+
+print(completion.choices[0].message.content)
 ```
 
-### Linux
+#### Node.js Example
 
-- [ChatGPT_0.12.0_linux_x86_64.deb](https://github.com/lencx/ChatGPT/releases/download/v0.12.0/ChatGPT_0.12.0_linux_x86_64.deb): Download `.deb` installer, advantage small size, disadvantage poor compatibility
-- [ChatGPT_0.12.0_linux_x86_64.AppImage.tar.gz](https://github.com/lencx/ChatGPT/releases/download/v0.12.0/ChatGPT_0.12.0_linux_x86_64.AppImage.tar.gz): Works reliably, you can try it if `.deb` fails to run
+```js
+import OpenAI from 'openai';
 
-<!-- tr-download-end -->
+const openai = new OpenAI({
+	apiKey: "anything",
+	baseURL: "http://localhost:3040/v1",
+});
 
-## ChatGPT Prompts!
+const chatCompletion = await openai.chat.completions.create({
+  messages: [{ role: 'user', content: 'Say this is a test' }],
+  model: 'gpt-3.5-turbo',
+});
 
-You can look at **[awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)** to find interesting features to import into the app. You can also use `Sync Prompts` to sync all in one click, and if you don't want certain prompts to appear in your slash commands, you can disable them.
-
-![chatgpt cmd](./assets/chatgpt-cmd.png)
-
-## ✨ Features
-
-- Multi-platform: `macOS` `Linux` `Windows`
-- Text-to-Speech
-- Export ChatGPT history (PNG, PDF and Markdown)
-- The main window and system tray support custom URLs to wrap any website into a desktop application
-- Automatic application upgrade notification
-- Common shortcut keys
-- System tray hover window
-- Powerful menu items
-- Support for slash commands and their configuration (can be configured manually or synchronized from a file [#55](https://github.com/lencx/ChatGPT/issues/55))
-- Customize global shortcuts ([#108](https://github.com/lencx/ChatGPT/issues/108))
-- Pop-up Search ([#122](https://github.com/lencx/ChatGPT/issues/122) mouse selected content, no more than 400 characters): The application is built using Tauri, and due to its security restrictions, some of the action buttons will not work, so we recommend going to your browser.
-
-## ❤️ Sponsors
-
-### **ChatGPT-Powered Email Finding & Outreach at Scale**
-
-[FinalScout](https://finalscout.com/?utm_source=github&utm_medium=lencx&utm_campaign=chatgpt): Extract valid email addresses from LinkedIn & craft tailored emails based on LinkedIn profile with ChatGPT, guaranteeing up to 98% email deliverability. Scale your outreach efforts and connect with potential customers or clients like never before. [Begin automating your email finding and writing process](https://finalscout.com/?utm_source=github&utm_medium=lencx&utm_campaign=chatgpt)
-
-## Thanks
-
-- The core implementation of the share button code was copied from the [@liady](https://github.com/liady) extension with some modifications.
-- Thanks to the [Awesome ChatGPT Prompts](https://github.com/f/awesome-chatgpt-prompts) repository for inspiring the custom command function for this application.
-
----
-
-[![Star History Chart](https://api.star-history.com/svg?repos=lencx/chatgpt&type=Timeline)](https://star-history.com/#lencx/chatgpt&Timeline)
-
-## 中国用户
-
-国内用户如果遇到使用问题或者想交流 ChatGPT 技巧，可以关注公众号“浮之静”，发送 “chat” 进群参与讨论。公众号会更新[《Tauri 系列》](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzIzNjE2NTI3NQ==&action=getalbum&album_id=2593843659863752704)文章，技术思考等等，如果对 tauri 开发应用感兴趣可以关注公众号后回复 “tauri” 进技术开发群（想私聊的也可以关注公众号，来添加微信）。开源不易，如果这个项目对你有帮助可以分享给更多人，或者微信扫码打赏。
-
-<img width="180" src="https://user-images.githubusercontent.com/16164244/207228300-ea5c4688-c916-4c55-a8c3-7f862888f351.png"> <img width="200" src="https://user-images.githubusercontent.com/16164244/207228025-117b5f77-c5d2-48c2-a070-774b7a1596f2.png">
-
-<a href="https://t.zsxq.com/0bQikmcVw"><img width="360" src="./assets/zsxq.png"></a>
+console.log(chatCompletion.choices[0].message.content);
+```
 
 ## License
 
-AGPL-3.0 License
+This project is under the AGPL-3.0 License. Refer to the [LICENSE](LICENSE) file for detailed information.

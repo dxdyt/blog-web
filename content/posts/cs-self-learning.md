@@ -1,9 +1,9 @@
 ---
 title: cs-self-learning
-date: 2024-04-08T12:16:21+08:00
+date: 2024-04-09T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710268503380-7f87a599d15b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710268503380-7f87a599d15b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710764275022-ede939a1f5e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710764275022-ede939a1f5e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
 ---
 
 # [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)

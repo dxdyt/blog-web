@@ -1,9 +1,9 @@
 ---
 title: pokerogue
-date: 2024-04-08T12:18:36+08:00
+date: 2024-04-09T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711322741681-4d65a5a657e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711322741681-4d65a5a657e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710764275022-ede939a1f5e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710764275022-ede939a1f5e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
 ---
 
 # [pagefaultgames/pokerogue](https://github.com/pagefaultgames/pokerogue)

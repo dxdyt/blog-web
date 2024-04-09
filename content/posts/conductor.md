@@ -1,9 +1,9 @@
 ---
 title: conductor
-date: 2024-02-14T12:17:56+08:00
+date: 2024-04-09T12:18:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705694617225-c5fcfcd0ac07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc4ODQxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712371962978-d610c39b00ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712371962978-d610c39b00ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
 ---
 
 # [conductor-oss/conductor](https://github.com/conductor-oss/conductor)
@@ -38,15 +38,13 @@ Please update your forks to point to this repo.  This will ensure your commits a
 git remote set-url origin https://github.com/conductor-oss/conductor
 ```
 > [!IMPORTANT]  
-> **Follow the steps below if you have an active PR againt the Netflix/Conductor repository**
+> **Follow the steps below if you have an active PR against the Netflix/Conductor repository**
 > 1. Fork **this** repository
 > 2. Update your local repository to change the remote to this repository
 > 3. Send a PR against the `main` branch
 
 ## Releases
 The latest version is [![Github release](https://img.shields.io/github/v/release/conductor-oss/conductor.svg)](https://GitHub.com/conductor-oss/conductor/releases)
-
-The next scheduled release is in Feb 2024.
 
 ## Resources
 #### [Slack Community](https://join.slack.com/t/orkes-conductor/shared_invite/zt-xyxqyseb-YZ3hwwAgHJH97bsrYRnSZg)
@@ -71,22 +69,11 @@ The runnable server is in server/ module.
 Follow the steps below to launch the docker container:
 
 ```shell
-
-# Create volumes for persistent stores
-# Used to create a persistent volume that will preserve the 
-docker volume create postgres
-docker volume create redis
-
-docker run --init -p 8080:8080 -p 1234:5000 --mount source=redis,target=/redis \
---mount source=postgres,target=/pgdata conductoross/conductor-standalone:3.15.0
+docker compose -f docker/docker-compose.yaml up
 ```
-
-Navigate to http://localhost:1234 once the container starts to launch UI.
-
-## Docker Containers for production usage
-```shell
-docker pull conductoross/conductor:3.15.0
-```
+* Navigate to http://localhost:5000 once the container starts to launch UI.
+* APIs are accessible at http://localhost:8080
+* Swagger Docs:http://localhost:8080/swagger-ui/index.html?configUrl=/api-docs/swagger-config#/
 
 
 ## Database Requirements

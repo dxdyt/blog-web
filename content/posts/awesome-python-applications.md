@@ -1,9 +1,9 @@
 ---
 title: awesome-python-applications
-date: 2024-04-07T12:19:26+08:00
+date: 2024-04-09T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707024257674-2e656346fbbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707024257674-2e656346fbbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711741509725-36db34d58a5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711741509725-36db34d58a5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
 ---
 
 # [mahmoud/awesome-python-applications](https://github.com/mahmoud/awesome-python-applications)

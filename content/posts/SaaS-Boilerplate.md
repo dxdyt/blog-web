@@ -1,9 +1,9 @@
 ---
 title: SaaS-Boilerplate
-date: 2024-04-08T12:17:21+08:00
+date: 2024-04-09T12:19:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710528925809-8f91d349283e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710528925809-8f91d349283e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI1NDk3NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710780929995-077b959febdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710780929995-077b959febdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
 ---
 
 # [ixartz/SaaS-Boilerplate](https://github.com/ixartz/SaaS-Boilerplate)
