@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-03-28T12:15:58+08:00
+date: 2024-04-10T12:16:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d745?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709807465345-6e41c03888ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709807465345-6e41c03888ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
@@ -81,6 +81,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1708793699503-7834e296d7
 
 - [How Disney+ Hotstar Delivered 5 Billion Emojis in Real Time](https://newsletter.systemdesign.one/p/hotstar-architecture)
 - [How Disney+ Hotstar Scaled to 25 Million Concurrent Users](https://newsletter.systemdesign.one/p/hotstar-scaling)
+- [How Disney+ Scaled to 11 Million Users on Launch Day](https://newsletter.systemdesign.one/p/disney-architecture)
 - [How Discord Boosts Performance With Code-Splitting](https://newsletter.systemdesign.one/p/what-is-code-splitting-in-react)
 
 #### G companies

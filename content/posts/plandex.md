@@ -1,9 +1,9 @@
 ---
 title: plandex
-date: 2024-04-09T12:16:51+08:00
+date: 2024-04-10T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710780929995-077b959febdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710780929995-077b959febdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708791416184-fe5f5ed40bad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708791416184-fe5f5ed40bad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
 ---
 
 # [plandex-ai/plandex](https://github.com/plandex-ai/plandex)
@@ -82,7 +82,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710780929995-077b959feb
 
 📑  Manage context efficiently in the terminal. Easily add files or entire directories to context, and keep them updated automatically as you work so that models always have the latest state of your project.
 
-🧠  Plandex relies on the OpenAI API and requires an `OPENAI_API_KEY` environment variable. Support for open source models, Google Gemini, and Anthropic Claude is coming soon.
+🧠  Plandex relies on the OpenAI API and requires an `OPENAI_API_KEY` environment variable. Support for open source models, Google Gemini, and Anthropic Claude is coming soon. Use the `OPENAI_ENDPOINT`  environment variable for a custom OpenAI endpoint.
 
 ✅  Plandex supports Mac, Linux, FreeBSD, and Windows. It runs from a single binary with no dependencies.
 
@@ -132,6 +132,8 @@ Then [generate an API key here.](https://platform.openai.com/account/api-keys)
 ```bash
 cd your-project
 export OPENAI_API_KEY=...
+export OPENAI_ENDPOINT=... # optional e.g. https://<your-proxy>/v1
+export OPENAI_ORG_ID=... # optional - set the OrgID if you have multiple OpenAI orgs
 plandex new
 ```
 
