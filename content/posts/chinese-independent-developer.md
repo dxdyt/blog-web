@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2024-04-10T12:16:21+08:00
+date: 2024-04-11T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710390916960-3047fcdf561e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710390916960-3047fcdf561e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711348270674-02bc8ac8673c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711348270674-02bc8ac8673c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)
@@ -29,6 +29,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1710390916960-3047fcdf56
 （名字按时间排序，最新添加的在最上面）
 
 ### 2024年4月10日添加
+#### H寒峰(杭州) - [博客](https://hagerhu.com/)，[Twiter](https://twitter.com/hagerhu),
+* :white_check_mark: [TTW: Travel Memoir from Photos](https://apps.apple.com/us/app/ttw-travel-memoir-from-photos/id6473322389)：旅行🗺️，使用手机中的照片生成你的旅行时间线，看过的风景，去过的地方！
+
 #### 奔跑的小山猪 - [Github](https://github.com/uestccokey), [Twiter](https://twitter.com/uestccokey), [官网](http://www.ezandroid.cn/)
 * :white_check_mark: [阿Q专业版](https://www.pgyer.com/aqgo)：手机上具有职业九段水平的围棋 AI 软件！
 * :white_check_mark: [阿Q连线器](https://www.pgyer.com/connector)：手机上的通用围棋 AI 连线器，看棋、遛狗必备！
@@ -93,8 +96,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1710390916960-3047fcdf56
 * :white_check_mark: [结构化 SQL 语句生成器](https://github.com/liyupi/sql-generator)：(用更优雅的方式)快速生成复杂的嵌套 SQL 
 
 ### 2024年3月16号添加
-#### yesmore(成都) - [Github](https://github.com/yesmore)
-* :white_check_mark: [vmail](https://vmail.dev)：临时邮箱生成 - [更多介绍](https://github.com/yesmore/vmail)
+#### oiov(成都) - [Github](https://github.com/oiov)
+* :white_check_mark: [vmail](https://vmail.dev)：临时邮箱生成 - [更多介绍](https://github.com/oiov/vmail)
 
 ### 2024年3月15号添加
 #### Ethan Sunray（纽约）

@@ -1,12 +1,22 @@
 ---
 title: daily-code
-date: 2024-02-03T12:15:02+08:00
+date: 2024-04-11T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704026438248-dc928eb4d60d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704026438248-dc928eb4d60d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710880693354-45d67b9884b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710880693354-45d67b9884b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [code100x/daily-code](https://github.com/code100x/daily-code)
+
+# quick start dailycode
+
+install yarn in your system.
+
+install dependencies
+yarn install
+
+start development
+yarn run dev
 
 # Turborepo starter
 
@@ -47,8 +57,8 @@ This Turborepo has some additional tools already setup for you:
 To build all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-pnpm build
+cd daily-code
+yarn build
 ```
 
 ### Develop
@@ -56,8 +66,9 @@ pnpm build
 To develop all apps and packages, run the following command:
 
 ```
-cd my-turborepo
-pnpm dev
+cd daily-code
+yarn
+yarn dev
 ```
 
 ### Remote Caching
@@ -67,7 +78,7 @@ Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo
 By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
 
 ```
-cd my-turborepo
+cd daily-code
 npx turbo login
 ```
 
