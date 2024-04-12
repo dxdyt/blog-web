@@ -1,9 +1,9 @@
 ---
 title: llm.c
-date: 2024-04-11T12:15:39+08:00
+date: 2024-04-12T12:14:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711348270674-02bc8ac8673c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711348270674-02bc8ac8673c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/llm.c](https://github.com/karpathy/llm.c)
@@ -53,7 +53,7 @@ You can have a look inside the `Makefile` and its comments. It will try to autod
 
 ```
 # try this first
-CFLAGS = -O3 -Ofast -fno-fast-math -Wno-unused-result
+CFLAGS = -Ofast -fno-fast-math -Wno-unused-result
 # try this second
 CFLAGS = -O3 -Wno-unused-result
 ```
@@ -177,6 +177,15 @@ python train_gpt2.py --inference_only 1 --write_tensors 0 --sequence_length 1024
 ```
 
 The time drops down to 26ms/iteration. So we have a gap to close :)! At the current 111ms we are about 4.2X slower.
+
+## discussions
+
+Ways of organizing development:
+
+- Experiencing a concrete issue with the repo? Use [Issues](https://github.com/karpathy/llm.c/issues).
+- Have some code to contribute? Open a [PR](https://github.com/karpathy/llm.c/pulls)
+- Chat about the repo, ask questions, etc.? Look at [Discussions](https://github.com/karpathy/llm.c/discussions).
+- Something faster? I created a new `#llmc` channel on my [Zero to Hero Discord channel](https://discord.gg/3zy8kqD9Cp).
 
 ## license
 

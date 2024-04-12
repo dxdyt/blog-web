@@ -1,9 +1,9 @@
 ---
 title: Open-Sora-Plan
-date: 2024-04-11T12:15:02+08:00
+date: 2024-04-12T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711346254170-8ddc8c6ee786?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711346254170-8ddc8c6ee786?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)
@@ -35,7 +35,7 @@ We are thrilled to present **Open-Sora-Plan v1.0.0**, which significantly enhanc
 
 Thanks to **HUAWEI Ascend NPU Team** for supporting us.
 
-目前已支持国产AI芯片(华为昇腾910，期待更多国产算力芯片)进行推理，下一步将支持国产算力训练，具体可参考昇腾分支[hw branch](https://github.com/PKU-YuanGroup/Open-Sora-Plan/tree/hw).
+目前已支持国产AI芯片(华为昇腾，期待更多国产算力芯片)进行推理，下一步将支持国产算力训练，具体可参考昇腾分支[hw branch](https://github.com/PKU-YuanGroup/Open-Sora-Plan/tree/hw).
 
 | 257×512×512 (10s) | 65×1024×1024 (2.7s) | 65×1024×1024 (2.7s) | 
 | --- | --- | --- |
@@ -258,12 +258,19 @@ Refer to the document [EVAL.md](docs/EVAL.md).
 
 #### Reconstructing
 
+Example:
+
 ```Python
-python examples/rec_video_vae.py --rec-path test_video.mp4 --video-path video.mp4 --resolution 512 --num-frames 1440 --sample-rate 1 --sample-fps 24 -
--device cuda --ckpt <Your ckpt>
+python examples/rec_imvi_vae.py --video_path test_video.mp4 --rec_path output_video.mp4 --fps 24 --resolution 512 --crop_size 512 --num_frames 128 --sample_rate 1 --ae CausalVAEModel_4x8x8 --model_path pretrained_488_release --enable_tiling --enable_time_chunk
 ```
 
-#### Training and Inference
+Parameter explanation:
+
+- `--enable_tiling`: This parameter is a flag to enable a tiling conv.
+
+- `--enable_time_chunk`: This parameter is a flag to enable a time chunking. This will block the video in the temporal dimension and reconstruct the long video. This is only an operation performed in the video space, not the latent space, and cannot be used for training.
+
+#### Training and Eval
 
 Please refer to the document [CausalVideoVAE](docs/Train_And_Eval_CausalVideoVAE.md).
 

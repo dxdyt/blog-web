@@ -1,9 +1,9 @@
 ---
 title: chinese-independent-developer
-date: 2024-04-11T12:16:17+08:00
+date: 2024-04-12T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711348270674-02bc8ac8673c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711348270674-02bc8ac8673c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1701592559853-188818cb385e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1701592559853-188818cb385e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)

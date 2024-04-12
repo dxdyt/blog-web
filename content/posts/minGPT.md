@@ -1,9 +1,9 @@
 ---
 title: minGPT
-date: 2024-04-11T12:17:34+08:00
+date: 2024-04-12T12:17:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710840673642-3b191437f716?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710840673642-3b191437f716?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710367847994-7b456c7aa507?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/minGPT](https://github.com/karpathy/minGPT)

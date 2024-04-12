@@ -1,9 +1,9 @@
 ---
 title: FreeAskInternet
-date: 2024-04-11T12:15:12+08:00
+date: 2024-04-12T12:15:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712392753848-7921812a66b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712392753848-7921812a66b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711166827048-d7e103af0869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711166827048-d7e103af0869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [nashsu/FreeAskInternet](https://github.com/nashsu/FreeAskInternet)

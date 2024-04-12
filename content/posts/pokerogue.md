@@ -1,9 +1,9 @@
 ---
 title: pokerogue
-date: 2024-04-11T12:15:32+08:00
+date: 2024-04-12T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711346254170-8ddc8c6ee786?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711346254170-8ddc8c6ee786?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712221370157-922ea45f0605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712221370157-922ea45f0605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [pagefaultgames/pokerogue](https://github.com/pagefaultgames/pokerogue)
@@ -61,7 +61,7 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
   - Squip (Paid Commissions)
   - Contributions by Someonealive-QN
 
-### UI
+### 🎨 UI
   - GAMEFREAK
   - LJ Birdman
 
@@ -104,5 +104,5 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
   - mangalos810
   - Involuntary-Twitch
 
-### Move Animations
+### 🎨 Move Animations
   - Pokémon Reborn

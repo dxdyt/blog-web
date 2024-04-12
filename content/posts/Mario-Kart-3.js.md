@@ -1,14 +1,15 @@
 ---
 title: Mario-Kart-3.js
-date: 2024-03-02T12:14:48+08:00
+date: 2024-04-12T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707647132749-8f1322ed1b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707647132749-8f1322ed1b8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkzNTI4Njh8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [Lunakepio/Mario-Kart-3.js](https://github.com/Lunakepio/Mario-Kart-3.js)
 
 # Mario Kart 3.js - JavaScript/WebGL Mario Kart
+
 [Link](https://mario-kart-3-js.vercel.app/)
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Lunakepio/Mario-Kart-3.js)
@@ -53,6 +54,16 @@ Start the dev server
 
 - Feel free to bring your ideas to the project even if you can't code them.
 
+## How to use (Editor)
+
+- [Download Triplex](https://triplex.dev/download)
+
+- Open this project in Triplex from the projects root directory
+
+- Iterate on individual components, set props, have some fun
+
+- [Learn more about Triplex](https://triplex.dev/docs/get-started/user-interface)
+
 ## TO - DO
 
 - [ ] Design Landing page
@@ -63,7 +74,7 @@ Start the dev server
 
 - [ ] Add curve/length modifiers to drift particles 3/4
 
-- [ ] Add Skid marks 
+- [ ] Add Skid marks
 
 - [x] Add smokes
 

@@ -1,16 +1,16 @@
 ---
 title: ChatGPT
-date: 2024-04-10T12:15:21+08:00
+date: 2024-04-12T12:17:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710441970901-c9c2ae39a77c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710441970901-c9c2ae39a77c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710697517104-429f0842a417?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710697517104-429f0842a417?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT)
 
-# ChatGPT API Free Reverse Proxy
+## ChatGPT `gpt-3.5-turbo` API for Free (as a Reverse Proxy)
 
-Welcome to the **ChatGPT API Free Reverse Proxy** project, a complimentary resource allowing seamless access to OpenAI's API. This project mirrors the official OpenAI API endpoints, enabling users to leverage OpenAI functionalities without direct cost. Dive into our documentation to discover how to set up your reverse proxy or connect with our hosted service for an even smoother experience.
+Welcome to the ChatGPT API Free Reverse Proxy, offering free self-hosted API access to ChatGPT (`gpt-3.5-turbo`) with OpenAI's familiar structure, so no code changes are needed.
 
 ## Quick Links
 
@@ -21,7 +21,7 @@ Welcome to the **ChatGPT API Free Reverse Proxy** project, a complimentary resou
 
 - [Features](#features)
 - Option 1: [Installing/Self-Hosting Guide](#installingself-hosting-guide) (Without using any API key)
-  - Method 1: [Using Docker](#using-docker)
+  - Method 1: [Using Docker](#using-docker) or [Run it with a Chat Web UI using docker-compose](./docker-compose)
   - Method 2: [Your PC/Server](#your-pcserver) (manually)
   - Method 3: [Termux on Android Phones](#termux-on-android-phones)
 - Option 2: [Accessing Our Hosted API](#accessing-our-hosted-api) (Free)
@@ -47,6 +47,9 @@ Welcome to the **ChatGPT API Free Reverse Proxy** project, a complimentary resou
    http://localhost:3040/v1/chat/completions
    ```
    Note that the base URL is `http://localhost:3040/v1`.
+
+### Install with chat web interfaces
+✅ You can run third-party chat web interfaces, such as BetterChatGPT and LobeChat, with this API using Docker Compose. [Click here for the installation guide](./docker-compose).
 
 ### Your PC/Server
 

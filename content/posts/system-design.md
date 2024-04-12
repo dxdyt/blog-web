@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-04-11T12:16:10+08:00
+date: 2024-04-12T12:17:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710880693354-45d67b9884b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710880693354-45d67b9884b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
