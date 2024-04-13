@@ -1,9 +1,9 @@
 ---
 title: Open-Sora-Plan
-date: 2024-04-12T12:15:34+08:00
+date: 2024-04-13T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan)

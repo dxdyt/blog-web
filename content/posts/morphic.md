@@ -1,9 +1,9 @@
 ---
 title: morphic
-date: 2024-04-12T12:15:11+08:00
+date: 2024-04-13T12:14:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701592559853-188818cb385e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701592559853-188818cb385e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711336763708-0e3d60e1a9d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711336763708-0e3d60e1a9d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [miurla/morphic](https://github.com/miurla/morphic)
@@ -59,6 +59,10 @@ Your .env.local file should look like this:
 # Used to set the base URL path for OpenAI API requests.
 # If you need to set a BASE URL, uncomment and set the following:
 # OPENAI_API_BASE=
+
+# Used to set the model for OpenAI API requests.
+# If not set, the default is gpt-4-turbo.
+# OPENAI_API_MODEL='gpt-4-turbo'
 
 # OpenAI API key retrieved here: https://platform.openai.com/api-keys
 OPENAI_API_KEY=[YOUR_OPENAI_API_KEY]

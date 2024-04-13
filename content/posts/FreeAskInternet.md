@@ -1,14 +1,18 @@
 ---
 title: FreeAskInternet
-date: 2024-04-12T12:15:06+08:00
+date: 2024-04-13T12:16:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711166827048-d7e103af0869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711166827048-d7e103af0869?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710775346091-25e5a8840e99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710775346091-25e5a8840e99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [nashsu/FreeAskInternet](https://github.com/nashsu/FreeAskInternet)
 
 # FreeAskInternet
+
+## 🎉🎉🎉 Yeah we have a logo now! 🎉🎉🎉
+
+![lgoo](./doc/logo-20240412.png)
 
 > Running www.perplexity.ai like app complete FREE, LOCAL, PRIVATE and NO GPU NEED on any computer
 > [!IMPORTANT]  
@@ -108,6 +112,14 @@ docker-compose up -d
 - FreeGPT35: [https://github.com/missuo/FreeGPT35](https://github.com/missuo/FreeGPT35)
 - Kimi\Qwen\ZhipuAI [https://github.com/LLM-Red-Team](https://github.com/LLM-Red-Team)
 - searxng: [https://github.com/searxng/searxng](https://github.com/searxng/searxng)
+
+## Special thanks to our logo designer
+
+[AdlerMurcus](https://github.com/AdlerMurcus)
+
+<a href="https://github.com/AdlerMurcus">
+  <img src="https://avatars.githubusercontent.com/u/40649955?v=4" width="100" height="100" class="avatar avatar-user width-full border color-bg-default"/>
+</a>
 
 ## License
 

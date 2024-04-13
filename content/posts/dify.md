@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2024-04-12T12:16:02+08:00
+date: 2024-04-13T12:17:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711336763708-0e3d60e1a9d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711336763708-0e3d60e1a9d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b9
   <a href="https://cloud.dify.ai">Dify Cloud</a> ·
   <a href="https://docs.dify.ai/getting-started/install-self-hosted">Self-hosting</a> ·
   <a href="https://docs.dify.ai">Documentation</a> ·
-  <a href="https://cal.com/guchenhe/30min">Commercial inquiry</a>
+  <a href="https://cal.com/guchenhe/dify-demo">Schedule demo</a>
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ Dify is an open-source LLM app development platform. Its intuitive interface com
 **2. Comprehensive model support**: 
   Seamless integration with hundreds of proprietary / open-source LLMs from dozens of inference providers and self-hosted solutions, covering GPT, Mistral, Llama2, and any OpenAI API-compatible models. A full list of supported model providers can be found [here](https://docs.dify.ai/getting-started/readme/model-providers).
 
-![providers-v3](https://github.com/langgenius/dify/assets/13230914/55fab860-d818-4c95-95a2-7ac39f6aea83)
+![providers-v5](https://github.com/langgenius/dify/assets/13230914/5a17bdbe-097a-4100-8363-40255b70f6e3)
 
 
 **3. Prompt IDE**: 

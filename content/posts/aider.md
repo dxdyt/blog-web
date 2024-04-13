@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2023-11-09T12:16:39+08:00
+date: 2024-04-13T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696229951930-df940c1e4255?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696229951930-df940c1e4255?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk1MDMzMDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710438399463-e7b374c2db9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710438399463-e7b374c2db9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
@@ -13,11 +13,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1696229951930-df940c1e42
 
 Aider is a command line tool that lets you pair program with GPT-3.5/GPT-4,
 to edit code stored in your local git repository.
-You can start a new project or work with an existing repo.
-Aider makes sure edits from GPT are
-[committed to git](https://aider.chat/docs/faq.html#how-does-aider-use-git)
+Aider will directly edit the code in your local source files,
+and [git commit the changes](https://aider.chat/docs/faq.html#how-does-aider-use-git)
 with sensible commit messages.
-Aider is unique in that it [works well with pre-existing, larger codebases](https://aider.chat/docs/repomap.html).
+You can start a new project or work with an existing git repo.
+Aider is unique in that it lets you ask for changes to [pre-existing, larger codebases](https://aider.chat/docs/repomap.html).
 
 <p align="center">
   <img src="assets/screencast.svg" alt="aider screencast">
@@ -33,29 +33,15 @@ Aider is unique in that it [works well with pre-existing, larger codebases](http
 - [Example chat transcripts](#example-chat-transcripts)
 - [Features](#features)
 - [Usage](#usage)
+- [Tutorial videos](https://aider.chat/docs/install.html#tutorial-videos)
 - [In-chat commands](#in-chat-commands)
 - [Tips](#tips)
-- [GPT-4 vs GPT-3.5](https://aider.chat/docs/faq.html#gpt-4-vs-gpt-35)
 - [Installation](https://aider.chat/docs/install.html)
 - [Voice-to-code](https://aider.chat/docs/voice.html)
 - [FAQ](https://aider.chat/docs/faq.html)
 - [Discord](https://discord.gg/Tv2uQnR88V)
+- [Blog](https://aider.chat/blog/)
 
-## New GPT-4 Turbo with 128k context window
-
-Aider supports OpenAI's new GPT-4 model that has the massive 128k context window.
-Early benchmark results
-indicate that it is
-[very fast](https://aider.chat/docs/benchmarks-speed-1106.html)
-and a bit
-[better at coding](https://aider.chat/docs/benchmarks-1106.html)
-than previous GPT-4 models.
-
-To use it, run aider like this:
-
-```
-aider --model gpt-4-1106-preview
-```
 
 ## Getting started
 
@@ -93,13 +79,14 @@ You can find more chat transcripts on the [examples page](https://aider.chat/exa
 ## Features
 
 * Chat with GPT about your code by launching `aider` from the command line with set of source files to discuss and edit together. Aider lets GPT see and edit the content of those files.
-* GPT can write and edit code in most popular languages: python, javascript, typescript, html, css, etc.
+* GPT can write and edit code in most popular languages: python, javascript, typescript, php, html, css, etc.
 * Request new features, changes, improvements, or bug fixes to your code. Ask for new test cases, updated documentation or code refactors.
 * Aider will apply the edits suggested by GPT directly to your source files.
 * Aider will [automatically commit each changeset to your local git repo](https://aider.chat/docs/faq.html#how-does-aider-use-git) with a descriptive commit message. These frequent, automatic commits provide a safety net. It's easy to undo changes or use standard git workflows to manage longer sequences of changes.
 * You can use aider with multiple source files at once, so GPT can make coordinated code changes across all of them in a single changeset/commit.
 * Aider can [give *GPT-4* a map of your entire git repo](https://aider.chat/docs/repomap.html), which helps it understand and modify large codebases.
 * You can also edit files by hand using your editor while chatting with aider. Aider will notice these out-of-band edits and keep GPT up to date with the latest versions of your files. This lets you bounce back and forth between the aider chat and your editor, to collaboratively code with GPT.
+* If you are using gpt-4 through openai directly, you can add image files to your context which will automatically switch you to the gpt-4-vision-preview model
 
 
 ## Usage
@@ -126,8 +113,15 @@ session with the `/add` and `/drop` chat commands described below.
 If you or GPT mention one of the repo's filenames in the conversation,
 aider will ask if you'd like to add it to the chat.
 
-Aider will work best if you think about which files need to be edited to make your change and add them to the chat.
-Aider has some ability to help GPT figure out which files to edit all by itself, but the most effective approach is to explicitly add the needed files to the chat yourself.
+Think about the change you want to make and which files will need
+to be edited -- add those files to the chat.
+Don't add *all* the files in your repo to the chat.
+Be selective, and just add the files that GPT will need to edit.
+If you add a bunch of unrelated files, GPT can get overwhelmed
+and confused (and it costs more tokens).
+Aider will automatically
+share snippets from other, related files with GPT so it can
+[understand the rest of your code base](https://aider.chat/docs/repomap.html).
 
 Aider also has many
 additional command-line options, environment variables or configuration file
@@ -163,17 +157,6 @@ Aider has some ability to help GPT figure out which files to edit all by itself,
 * I also shared some general [GPT coding tips on Hacker News](https://news.ycombinator.com/item?id=36211879).
 
 
-## GPT-4 vs GPT-3.5
-
-Aider supports all of OpenAI's chat models.
-You can choose a model with the `--model` command line argument.
-
-You should probably use GPT-4 if you can. For more details see the
-[FAQ entry that compares GPT-4 vs GPT-3.5](https://aider.chat/docs/faq.html#gpt-4-vs-gpt-35).
-
-For a discussion of using other non-OpenAI models, see the
-[FAQ about other LLMs](https://aider.chat/docs/faq.html#can-i-use-aider-with-other-llms-local-llms-etc).
-
 ## Installation
 
 See the [installation instructions](https://aider.chat/docs/install.html).
@@ -192,7 +175,10 @@ For more information, see the [FAQ](https://aider.chat/docs/faq.html).
 * *What an amazing tool. It's incredible.* -- [valyagolev](https://github.com/paul-gauthier/aider/issues/6#issue-1722897858)
 * *Aider is such an astounding thing!* -- [cgrothaus](https://github.com/paul-gauthier/aider/issues/82#issuecomment-1631876700)
 * *It was WAY faster than I would be getting off the ground and making the first few working versions.* -- [Daniel Feldman](https://twitter.com/d_feldman/status/1662295077387923456)
+* *THANK YOU for Aider! It really feels like a glimpse into the future of coding.* -- [derwiki](https://news.ycombinator.com/item?id=38205643)
+* *It's just amazing.  It is freeing me to do things I felt were out my comfort zone before.* -- [Dougie](https://discord.com/channels/1131200896827654144/1174002618058678323/1174084556257775656)
 * *This project is stellar.* -- [funkytaco](https://github.com/paul-gauthier/aider/issues/112#issuecomment-1637429008)
 * *Amazing project, definitely the best AI coding assistant I've used.* -- [joshuavial](https://github.com/paul-gauthier/aider/issues/84)
 * *I am an aider addict. I'm getting so much more work done, but in less time.* -- [dandandan](https://discord.com/channels/1131200896827654144/1131200896827654149/1135913253483069470)
+* *After wasting $100 on tokens trying to find something better, I'm back to Aider. It blows everything else out of the water hands down, there's no competition whatsoever.* -- [SystemSculpt](https://discord.com/channels/1131200896827654144/1131200896827654149/1178736602797846548)
 * *Best agent for actual dev work in existing codebases.* -- [Nick Dobos](https://twitter.com/NickADobos/status/1690408967963652097?s=20)

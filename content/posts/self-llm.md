@@ -1,9 +1,9 @@
 ---
 title: self-llm
-date: 2024-04-11T12:16:01+08:00
+date: 2024-04-13T12:15:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710840673642-3b191437f716?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710840673642-3b191437f716?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711336763708-0e3d60e1a9d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711336763708-0e3d60e1a9d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm)
@@ -219,5 +219,5 @@ featuredImagePreview: https://images.unsplash.com/photo-1710840673642-3b191437f7
 ### Star History
 
 <div align=center style="margin-top: 30px;">
-  <img src="./images/star-history-2024410.png"/>
+  <img src="./images/star-history-2024411.png"/>
 </div>

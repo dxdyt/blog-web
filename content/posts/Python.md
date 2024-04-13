@@ -1,9 +1,9 @@
 ---
 title: Python
-date: 2023-11-13T12:17:54+08:00
+date: 2024-04-13T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697325705661-8c3b01d90eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697325705661-8c3b01d90eb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk4NDg5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710270822133-803dbff85a32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710270822133-803dbff85a32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
