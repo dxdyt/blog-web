@@ -1,9 +1,9 @@
 ---
 title: zulip
-date: 2023-12-19T12:16:37+08:00
+date: 2024-04-14T12:40:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701893850250-13d3ee3709e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701893850250-13d3ee3709e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705301000174-2b021fef670b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705301000174-2b021fef670b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [zulip/zulip](https://github.com/zulip/zulip)

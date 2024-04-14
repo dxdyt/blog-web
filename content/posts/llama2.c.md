@@ -1,9 +1,9 @@
 ---
 title: llama2.c
-date: 2024-04-12T12:15:28+08:00
+date: 2024-04-14T12:40:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710697517104-429f0842a417?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710697517104-429f0842a417?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710631292664-481aa3b59000?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710631292664-481aa3b59000?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/llama2.c](https://github.com/karpathy/llama2.c)

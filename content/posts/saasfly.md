@@ -1,0 +1,217 @@
+---
+title: saasfly
+date: 2024-04-14T12:40:00+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1712249764665-15da106b4be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712249764665-15da106b4be8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+---
+
+# [saasfly/saasfly](https://github.com/saasfly/saasfly)
+
+
+<div align="center" width="100%">
+    <img src="./saasfly-logo.svg" width="128" alt="" />
+</div>
+
+# Saasfly </br>
+
+[![GitHub Actions Workflow Status][check-workflow-badge]][check-workflow-badge-link] [![GitHub License][github-license-badge]][github-license-badge-link]  [![Discord][discord-badge]][discord-badge-link] [![Saasfly][made-by-nextify-badge]][made-by-nextify-badge-link]
+[![Chinese](https://img.shields.io/badge/-Chinese-red.svg)](README_zh.md)
+[![German](https://img.shields.io/badge/-German-yellow.svg)](README_de.md)
+[![Vietnamese](https://img.shields.io/badge/-Vietnamese-yellow.svg)](README_vi.md) </br>
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fsaasfly%2Fsaasfly&labelColor=%23f47373&countColor=%23263759)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fsaasfly%2Fsaasfly)
+
+An easy-to-use and enterprise-grade Next.js boilerplate.
+
+You don't need to buy templates anymore; Saasfly provides a complete, open-source solution for building SaaS applications quickly and easily.
+
+> **[Nextify](https://nextify.ltd)** provides a complete Enterprise SaaS solution. Contact us at [contact@nextify.ltd](mailto:contact@nextify.ltd) if you're interested in discussing your project, or if you'd simply like to have a conversation with us, please feel free to reach out.
+
+> ❤️ We provide **free technical support and deployment services to non-profit organizations**.
+>
+> 🙌 All profits obtained from our open source projects will be **entirely dedicated to supporting open source initiatives and charitable causes**.
+
+## ⚡ Live Demo
+
+Try it out for yourself!
+
+Demo Server1 (Location: Washington - USA): <https://show.saasfly.io>
+
+Demo Server2 (Location: Japan - Tokyo): <https://demo.saasfly.io>
+
+See more documentation at <https://document.saasfly.io>
+
+## 🌟 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=saasfly/saasfly&type=Timeline)](https://star-history.com/#saasfly/saasfly&Timeline)
+
+## 🚀 Getting Started
+
+### 🖱 One Click Template
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsaasfly%2Fsaasfly&env=NEXT_PUBLIC_APP_URL,NEXTAUTH_URL,NEXTAUTH_SECRET,STRIPE_API_KEY,STRIPE_WEBHOOK_SECRET,POSTGRES_URL,GITHUB_CLIENT_ID,GITHUB_CLIENT_SECRET,RESEND_API_KEY,RESEND_FROM&install-command=bun%20install&build-command=bun%20run%20build&root-directory=apps%2Fnextjs)
+
+### 📋 Prerequisites
+
+Before you start, make sure you have the following installed:
+
+1. [Bun](https://bun.sh/) & [Node.js](https://nodejs.org/) & [Git](https://git-scm.com/)
+
+   1. Linux
+
+    ```bash
+      curl -sL https://gist.github.com/tianzx/874662fb204d32390bc2f2e9e4d2df0a/raw -o ~/downloaded_script.sh && chmod +x ~/downloaded_script.sh && source ~/downloaded_script.sh
+    ```
+
+   2. MacOS
+
+    ```bash
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      brew install git
+      brew install oven-sh/bun/bun
+      brew install nvm
+    ```
+
+2. [PostgreSQL](https://www.postgresql.org/)
+   1. You can use Vercel Postgres or a local PostgreSQL server(add POSTGRES_URL env in .env.local)
+      ```bash
+         POSTGRES_URL = ''
+      ```
+
+### Installation
+
+To get started with this boilerplate, we offer two options:
+
+1. Use the `bun create` command(🌟Strongly recommend🌟):
+
+```bash
+bun create saasfly 
+```
+
+2. Manually clone the repository:
+
+```bash
+git clone https://github.com/saasfly/saasfly.git
+cd saasfly
+bun install
+```
+
+### Setup
+
+Follow these steps to set up your project:
+
+1. Set up the environment variables:
+
+```bash
+cp .env.example .env.local
+// (you must have a database prepared before running this command)
+bun db:push
+```
+
+2. Run the development server:
+
+```bash
+bun run dev:web
+```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## 🥺 Project Roadmap
+
+1. Admin Dashboard Page (in alpha !!!)
+   2. only provide static page now and we plan to integrate with headless arch
+   3. You can provide your admin account and change **ADMIN_EMAIL="admin@saasfly.io,root@saasfly.io"** in .env.local and access host:port/admin/dashboard
+   4. Based on security concerns, we will not provide online demos for the time being.
+2. Consider integrating Payload CMS.
+
+## ⭐ Features
+
+### 🐭 Frameworks
+
+- **[Next.js](https://nextjs.org/)** - The React Framework for the Web (with **App Directory**)
+- **[NextAuth.js](https://next-auth.js.org/)** - Authentication for Next.js
+- **[Kysely](https://kysely.dev/)** - The type-safe SQL query builder for TypeScript
+- **[Prisma](https://www.prisma.io/)** - Next-generation ORM for Node.js and TypeScript, used as a schema management tool
+- **[React-email](https://react.email/)** - A React renderer for creating beautiful emails using React components
+
+### 🐮 Platforms
+
+- **[Vercel](https://vercel.com/)** – Deploy your Next.js app with ease
+- **[Stripe](https://stripe.com/)** – Payment processing for internet businesses
+- **[Resend](https://resend.com/)** – Email marketing platform for developers
+
+### 🐯 Enterprise Features
+
+- **[i18n](https://nextjs.org/docs/app/building-your-application/routing/internationalization)** - Support for internationalization
+- **[SEO](https://nextjs.org/docs/app/building-your-application/optimizing/metadata)** - Search engine optimization
+- **[MonoRepo](https://turbo.build/)** - Monorepo for better code management
+- **[T3 Env](https://env.t3.gg/)** - Manage your environment variables with ease
+
+### 🐰 Data Fetching
+
+- **[trpc](https://trpc.io/)** – End-to-end typesafe APIs made easy
+- **[tanstack/react-query](https://react-query.tanstack.com/)** – Hooks for fetching, caching and updating asynchronous data in React
+
+### 🐲 Global State Management
+
+- **[Zustand](https://zustand.surge.sh/)** – Small, fast and scalable state management for React
+
+### 🐒 UI
+
+- **[Tailwind CSS](https://tailwindcss.com/)** – Utility-first CSS framework for rapid UI development
+- **[Shadcn/ui](https://ui.shadcn.com/)** – Re-usable components built using Radix UI and Tailwind CSS
+- **[Framer Motion](https://framer.com/motion)** – Motion library for React to animate components with ease
+- **[Lucide](https://lucide.dev/)** – Beautifully simple, pixel-perfect icons
+- **[next/font](https://nextjs.org/docs/basic-features/font-optimization)** – Optimize custom fonts and remove external network requests for improved performance
+
+### 🐴 Code Quality
+
+- **[TypeScript](https://www.typescriptlang.org/)** – Static type checker for end-to-end type safety
+- **[Prettier](https://prettier.io/)** – Opinionated code formatter for consistent code style
+- **[ESLint](https://eslint.org/)** – Pluggable linter for Next.js and TypeScript
+- **[Husky](https://typicode.github.io/husky)** – Git hooks made easy
+
+### 🐑 Performance
+
+- **[Vercel Analytics](https://vercel.com/analytics)** – Real-time performance metrics for your Next.js app
+- **[bun.sh](https://bun.sh/)** – npm alternative for faster and more reliable package management
+
+### 🐘 Database
+
+- **[PostgreSQL](https://www.postgresql.org/)** – The world's most advanced open source database
+
+## 📦 Apps and Packages
+
+- `web`: The main Next.js application
+- `ui`: Shared UI components
+- `db`: Database schema and utilities
+- `auth`: Authentication utilities
+- `email`: Email templates and utilities
+
+## 📜 License
+
+This project is licensed under the MIT License. For more information, see the [LICENSE](./LICENSE) file.
+
+## 🙏 Credits
+
+This project was inspired by shadcn's [Taxonomy](https://github.com/shadcn-ui/taxonomy) and t3-oss's [create-t3-turbo](https://github.com/t3-oss/create-t3-turbo).
+
+## 👨‍💻 Contributors
+
+<a href="https://github.com/saasfly/saasfly/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=saasfly/saasfly" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+<!-- Badges and links -->
+
+[check-workflow-badge]: https://img.shields.io/github/actions/workflow/status/saasfly/saasfly/ci.yml?label=ci
+[github-license-badge]: https://img.shields.io/badge/License-MIT-green.svg
+[discord-badge]: https://img.shields.io/discord/1204690198382911488?color=7b8dcd&link=https%3A%2F%2Fsaasfly.io%2Fdiscord
+[made-by-nextify-badge]: https://img.shields.io/badge/made_by-nextify-blue?color=FF782B&link=https://nextify.ltd/
+
+[check-workflow-badge-link]: https://github.com/saasfly/saasfly/actions/workflows/check.yml
+[github-license-badge-link]: https://github.com/saasfly/saasfly/blob/main/LICENSE
+[discord-badge-link]: https://discord.com/invite/b9uTZjdkrb
+[made-by-nextify-badge-link]: https://nextify.ltd

@@ -1,9 +1,9 @@
 ---
 title: neco
-date: 2024-04-12T12:16:31+08:00
+date: 2024-04-14T12:40:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712473876226-76a24a5bdbce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712473876226-76a24a5bdbce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [tidwall/neco](https://github.com/tidwall/neco)
@@ -31,7 +31,7 @@ easy.
 - [Synchronization](docs/API.md#channels): channels, generators, mutexes, condition variables, and waitgroups.
 - Support for [deadlines and cancelation](docs/API.md#deadlines-and-cancelation).
 - [Posix friendly](docs/API.md#posix-wrappers) interface using file descriptors.
-- Addtional APIs for [networking](docs/API.md#networking-utilities),
+- Additional APIs for [networking](docs/API.md#networking-utilities),
 [signals](docs/API.md#signals), [random data](docs/API.md#random-number-generator), [streams](docs/API.md#streams-and-buffered-io), and [buffered I/O](docs/API.md#streams-and-buffered-io).
 - Lightweight runtime with a fair and deterministic [scheduler](#the-scheduler).
 - [Fast](#fast-context-switching) user-space context switching. Uses assembly in most cases.
