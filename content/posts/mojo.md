@@ -1,9 +1,9 @@
 ---
 title: mojo
-date: 2024-04-01T12:18:16+08:00
+date: 2024-04-15T12:29:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1471018289981-5d9f06e2bf45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1471018289981-5d9f06e2bf45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711699487023-a5b25f3e7e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711699487023-a5b25f3e7e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [modularml/mojo](https://github.com/modularml/mojo)
@@ -50,7 +50,7 @@ or the standalone Mojo SDK:
 - [Get the Mojo SDK](https://docs.modular.com/mojo/manual/get-started/)
 
 Then follow the docs to [write your first Mojo
-program](https://https://docs.modular.com/mojo/manual/get-started/hello-world).
+program](https://docs.modular.com/mojo/manual/get-started/hello-world).
 
 ### Latest Nightly
 

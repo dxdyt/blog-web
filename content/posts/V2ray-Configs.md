@@ -1,9 +1,9 @@
 ---
 title: V2ray-Configs
-date: 2024-04-13T12:16:36+08:00
+date: 2024-04-15T12:30:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710270822133-803dbff85a32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710270822133-803dbff85a32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712231872602-78fafcac90d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712231872602-78fafcac90d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [barry-far/V2ray-Configs](https://github.com/barry-far/V2ray-Configs)

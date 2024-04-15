@@ -1,9 +1,9 @@
 ---
 title: MagicTime
-date: 2024-04-13T12:16:01+08:00
+date: 2024-04-15T12:30:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712229307272-5cbb18c96f94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712229307272-5cbb18c96f94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [PKU-YuanGroup/MagicTime](https://github.com/PKU-YuanGroup/MagicTime)
@@ -19,7 +19,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd
 <h5 align="center">
 
 
-[![hf_space](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/BestWishYsh/MagicTime?logs=build)  
+[![hf_space](https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg)](https://huggingface.co/spaces/BestWishYsh/MagicTime?logs=build)
+[![Replicate demo and cloud API](https://replicate.com/camenduru/magictime/badge)](https://replicate.com/camenduru/magictime)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/MagicTime-jupyter/blob/main/MagicTime_jupyter.ipynb)
+[![hf_space](https://img.shields.io/badge/🤗-Paper%20In%20HF-red.svg)](https://huggingface.co/papers/2404.05014)
 [![arXiv](https://img.shields.io/badge/Arxiv-2404.05014-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2404.05014) 
 [![Home Page](https://img.shields.io/badge/Project-<Website>-blue.svg)](https://pku-yuangroup.github.io/MagicTime/) 
 [![Dataset](https://img.shields.io/badge/Dataset-<Google>-green)](https://drive.google.com/drive/folders/1WsomdkmSp3ql3ImcNsmzFuSQ9Qukuyr8?usp=sharing)
@@ -50,7 +53,9 @@ This repository is the official implementation of MagicTime, a metamorphic video
 ## 📣 News
 * ⏳⏳⏳ Training a stronger model with the support of [Open-Sora-Plan](https://github.com/PKU-YuanGroup/Open-Sora-Plan) (e.g 257 x 512 × 512).
 * ⏳⏳⏳ Release the training code of MagicTime.
-* `[2024.04.12]`  Thanks [@Jukka Seppänen](https://github.com/kijai) and [Baobao Wang](https://www.bilibili.com/video/BV1wx421U7Gn/?spm_id_from=333.1007.top_right_bar_window_history.content.click) for providing ComfyUI Extension [ComfyUI-MagicTimeWrapper](https://github.com/kijai/ComfyUI-MagicTimeWrapper). If you find related work, please let us know. 
+* `[2024.04.14]`  Thanks [@camenduru](https://twitter.com/camenduru) and [@ModelsLab](https://modelslab.com/) for providing Jupyter Notebook [MagicTime-jupyter](https://github.com/camenduru/MagicTime-jupyter) and [Replicate Demo](https://replicate.com/camenduru/magictime).
+* `[2024.04.13]`  🔥 We have compressed the size of repo with less than 1.0 MB, so that everyone can clone easier and faster. You can click [here](https://github.com/PKU-YuanGroup/MagicTime/archive/refs/heads/main.zip) to download, or use `git clone --depth=1` command to obtain this repo.
+* `[2024.04.12]`  Thanks [@Jukka Seppänen](https://github.com/kijai) and [@Baobao Wang](https://www.bilibili.com/video/BV1wx421U7Gn/?spm_id_from=333.1007.top_right_bar_window_history.content.click) for providing ComfyUI Extension [ComfyUI-MagicTimeWrapper](https://github.com/kijai/ComfyUI-MagicTimeWrapper). If you find related work, please let us know. 
 * `[2024.04.11]`  🔥 We release the Hugging Face Space of MagicTime, you can [click](https://huggingface.co/spaces/BestWishYsh/MagicTime?logs=build) here to have a try.
 * `[2024.04.10]`  🔥 We release the inference code and model weight of MagicTime.
 * `[2024.04.09]`  🔥 We release the arXiv paper for MagicTime, and you can click [here](https://arxiv.org/abs/2404.05014) to see more details.
@@ -75,17 +80,17 @@ Compared to general videos, metamorphic videos contain physical knowledge, long 
   </tr>
   <tr>
     <td>General Videos</td>  
-    <td><img src="__assets__/videos/C_0_0.gif" alt="MakeLongVideo"></td>
-    <td><img src="__assets__/videos/C_0_1.gif" alt="MakeLongVideo"></td>
-    <td><img src="__assets__/videos/C_0_2.gif" alt="MakeLongVideo"></td>
-    <td><img src="__assets__/videos/C_0_3.gif" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_0_0.gif?raw=true" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_0_1.gif?raw=true" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_0_2.gif?raw=true" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_0_3.gif?raw=true" alt="MakeLongVideo"></td>
   </tr>
   <tr>
     <td>Metamorphic Videos</td>  
-    <td><img src="__assets__/videos/C_1_0.gif" alt="ModelScopeT2V"></td>
-    <td><img src="__assets__/videos/C_1_1.gif" alt="ModelScopeT2V"></td>
-    <td><img src="__assets__/videos/C_1_2.gif" alt="ModelScopeT2V"></td>
-    <td><img src="__assets__/videos/C_1_3.gif" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_1_0.gif?raw=true" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_1_1.gif?raw=true" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_1_2.gif?raw=true" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/C_1_3.gif?raw=true" alt="ModelScopeT2V"></td>
   </tr>
 </table>
 
@@ -103,66 +108,66 @@ We showcase some metamorphic videos generated by **MagicTime**, [MakeLongVideo](
   </tr>
   <tr>
     <td>MakeLongVideo</td>  
-    <td><img src="__assets__/videos/A_0_0.gif" alt="MakeLongVideo"></td>
-    <td><img src="__assets__/videos/A_0_1.gif" alt="MakeLongVideo"></td>
-    <td><img src="__assets__/videos/A_0_2.gif" alt="MakeLongVideo"></td>
-    <td><img src="__assets__/videos/A_0_3.gif" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_0_0.gif?raw=true" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_0_1.gif?raw=true" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_0_2.gif?raw=true" alt="MakeLongVideo"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_0_3.gif?raw=true" alt="MakeLongVideo"></td>
   </tr>
   <tr>
     <td>ModelScopeT2V</td>  
-    <td><img src="__assets__/videos/A_1_0.gif" alt="ModelScopeT2V"></td>
-    <td><img src="__assets__/videos/A_1_1.gif" alt="ModelScopeT2V"></td>
-    <td><img src="__assets__/videos/A_1_2.gif" alt="ModelScopeT2V"></td>
-    <td><img src="__assets__/videos/A_1_3.gif" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_1_0.gif?raw=true" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_1_1.gif?raw=true" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_1_2.gif?raw=true" alt="ModelScopeT2V"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_1_3.gif?raw=true" alt="ModelScopeT2V"></td>
   </tr>
   <tr>
     <td>VideoCrafter</td>  
-    <td><img src="__assets__/videos/A_2_0.gif" alt="VideoCrafter"></td>
-    <td><img src="__assets__/videos/A_2_1.gif" alt="VideoCrafter"></td>
-    <td><img src="__assets__/videos/A_2_2.gif" alt="VideoCrafter"></td>
-    <td><img src="__assets__/videos/A_2_3.gif" alt="VideoCrafter"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_2_0.gif?raw=true" alt="VideoCrafter"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_2_1.gif?raw=true" alt="VideoCrafter"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_2_2.gif?raw=true" alt="VideoCrafter"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_2_3.gif?raw=true" alt="VideoCrafter"></td>
   </tr>
   <tr>
     <td>ZeroScope</td>  
-    <td><img src="__assets__/videos/A_3_0.gif" alt="ZeroScope"></td>
-    <td><img src="__assets__/videos/A_3_1.gif" alt="ZeroScope"></td>
-    <td><img src="__assets__/videos/A_3_2.gif" alt="ZeroScope"></td>
-    <td><img src="__assets__/videos/A_3_3.gif" alt="ZeroScope"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_3_0.gif?raw=true" alt="ZeroScope"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_3_1.gif?raw=true" alt="ZeroScope"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_3_2.gif?raw=true" alt="ZeroScope"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_3_3.gif?raw=true" alt="ZeroScope"></td>
   </tr>
   <tr>
     <td>LaVie</td>  
-    <td><img src="__assets__/videos/A_4_0.gif" alt="LaVie"></td>
-    <td><img src="__assets__/videos/A_4_1.gif" alt="LaVie"></td>
-    <td><img src="__assets__/videos/A_4_2.gif" alt="LaVie"></td>
-    <td><img src="__assets__/videos/A_4_3.gif" alt="LaVie"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_4_0.gif?raw=true" alt="LaVie"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_4_1.gif?raw=true" alt="LaVie"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_4_2.gif?raw=true" alt="LaVie"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_4_3.gif?raw=true" alt="LaVie"></td>
   </tr>
   <tr>
     <td>T2V-Zero</td> 
-    <td><img src="__assets__/videos/A_5_0.gif" alt="T2V-Zero"></td>
-    <td><img src="__assets__/videos/A_5_1.gif" alt="T2V-Zero"></td>
-    <td><img src="__assets__/videos/A_5_2.gif" alt="T2V-Zero"></td>
-    <td><img src="__assets__/videos/A_5_3.gif" alt="T2V-Zero"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_5_0.gif?raw=true" alt="T2V-Zero"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_5_1.gif?raw=true" alt="T2V-Zero"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_5_2.gif?raw=true" alt="T2V-Zero"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_5_3.gif?raw=true" alt="T2V-Zero"></td>
   </tr>
   <tr>
     <td>Latte</td>
-    <td><img src="__assets__/videos/A_6_0.gif" alt="Latte"></td>
-    <td><img src="__assets__/videos/A_6_1.gif" alt="Latte"></td>
-    <td><img src="__assets__/videos/A_6_2.gif" alt="Latte"></td>
-    <td><img src="__assets__/videos/A_6_3.gif" alt="Latte"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_6_0.gif?raw=true" alt="Latte"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_6_1.gif?raw=true" alt="Latte"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_6_2.gif?raw=true" alt="Latte"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_6_3.gif?raw=true" alt="Latte"></td>
   </tr>
   <tr>
     <td>Animatediff</td>
-    <td><img src="__assets__/videos/A_7_0.gif" alt="Animatediff"></td>
-    <td><img src="__assets__/videos/A_7_1.gif" alt="Animatediff"></td>
-    <td><img src="__assets__/videos/A_7_2.gif" alt="Animatediff"></td>
-    <td><img src="__assets__/videos/A_7_3.gif" alt="Animatediff"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_7_0.gif?raw=true" alt="Animatediff"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_7_1.gif?raw=true" alt="Animatediff"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_7_2.gif?raw=true" alt="Animatediff"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_7_3.gif?raw=true" alt="Animatediff"></td>
   </tr>
   <tr>
     <td>Ours</td>  
-    <td><img src="__assets__/videos/A_8_0.gif" alt="Ours"></td>
-    <td><img src="__assets__/videos/A_8_1.gif" alt="Ours"></td>
-    <td><img src="__assets__/videos/A_8_2.gif" alt="Ours"></td>
-    <td><img src="__assets__/videos/A_8_3.gif" alt="Ours"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_8_0.gif?raw=true" alt="Ours"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_8_1.gif?raw=true" alt="Ours"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_8_2.gif?raw=true" alt="Ours"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/A_8_3.gif?raw=true" alt="Ours"></td>
   </tr>
 </table>
 
@@ -171,9 +176,9 @@ We show more metamorphic videos generated by **MagicTime** with the help of [Rea
 
 <table>
   <tr>
-    <td><img src="__assets__/videos/B_0_0.gif" alt="Realistic"></td>
-    <td><img src="__assets__/videos/B_0_1.gif" alt="Realistic"></td>
-    <td><img src="__assets__/videos/B_0_2.gif" alt="Realistic"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_0_0.gif?raw=true" alt="Realistic"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_0_1.gif?raw=true" alt="Realistic"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_0_2.gif?raw=true" alt="Realistic"></td>
   </tr>
   <tr>
     <td colspan="1"><center>"[...] bean sprouts grow and mature from seeds"</center></td>
@@ -181,9 +186,9 @@ We show more metamorphic videos generated by **MagicTime** with the help of [Rea
     <td colspan="1"><center>"the construction [...] in Minecraft [...]"</center></td>
   </tr>
   <tr>
-    <td><img src="__assets__/videos/B_1_0.gif" alt="RcnzCartoon"></td>
-    <td><img src="__assets__/videos/B_1_1.gif" alt="RcnzCartoon"></td>
-    <td><img src="__assets__/videos/B_1_2.gif" alt="RcnzCartoon"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_1_0.gif?raw=true" alt="RcnzCartoon"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_1_1.gif?raw=true" alt="RcnzCartoon"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_1_2.gif?raw=true" alt="RcnzCartoon"></td>
   </tr>
   <tr>
     <td colspan="1"><center>"a bud transforms into a yellow flower"</center></td>
@@ -191,9 +196,9 @@ We show more metamorphic videos generated by **MagicTime** with the help of [Rea
     <td colspan="1"><center>"[...] a modern house being constructed in Minecraft [...]"</center></td>
   </tr>
   <tr>
-    <td><img src="__assets__/videos/B_2_0.gif" alt="ToonYou"></td>
-    <td><img src="__assets__/videos/B_2_1.gif" alt="ToonYou"></td>
-    <td><img src="__assets__/videos/B_2_2.gif" alt="ToonYou"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_2_0.gif?raw=true" alt="ToonYou"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_2_1.gif?raw=true" alt="ToonYou"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/B_2_2.gif?raw=true" alt="ToonYou"></td>
   </tr>
   <tr>
     <td colspan="1"><center>"an ice cube is melting"</center></td>
@@ -209,10 +214,10 @@ The mission of this project is to help reproduce Sora and provide high-quality v
 
 <table>
   <tr>
-    <td><img src="__assets__/videos/D_0_0.gif" alt="OpenSora"></td>
-    <td><img src="__assets__/videos/D_0_1.gif" alt="OpenSora"></td>
-    <td><img src="__assets__/videos/D_0_2.gif" alt="OpenSora"></td>
-    <td><img src="__assets__/videos/D_0_3.gif" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_0.gif?raw=true" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_1.gif?raw=true" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_2.gif?raw=true" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_3.gif?raw=true" alt="OpenSora"></td>
   </tr>
   <tr>
     <td colspan="1"><center>"Time-lapse of a coastal landscape [...]"</center></td>
@@ -220,10 +225,10 @@ The mission of this project is to help reproduce Sora and provide high-quality v
     <td colspan="1"><center>"Sunrise Splendor: Capture the breathtaking moment [...]"</center></td>
     <td colspan="1"><center>"Nightfall Elegance: Embrace the tranquil beauty [...]"</center></td>
   </tr>
-    <td><img src="__assets__/videos/D_0_4.gif" alt="OpenSora"></td>
-    <td><img src="__assets__/videos/D_0_5.gif" alt="OpenSora"></td>
-    <td><img src="__assets__/videos/D_0_6.gif" alt="OpenSora"></td>
-    <td><img src="__assets__/videos/D_0_7.gif" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_4.gif?raw=true" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_5.gif?raw=true" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_6.gif?raw=true" alt="OpenSora"></td>
+    <td><img src="https://github.com/PKU-YuanGroup/MagicTime/blob/ProjectPage/static/videos/D_0_7.gif?raw=true" alt="OpenSora"></td>
   </tr>
   <tr>
     <td colspan="1"><center>"The sun descending below the horizon [...]"</center></td>
@@ -264,7 +269,7 @@ We recommend the requirements as follows.
 ### Environment
 
 ```bash
-git clone https://github.com/PKU-YuanGroup/MagicTime.git
+git clone --depth=1 https://github.com/PKU-YuanGroup/MagicTime.git
 cd MagicTime
 conda create -n magictime python=3.10.13
 conda activate magictime
@@ -304,6 +309,8 @@ sh inference.sh
 We found some plugins created by community developers. Thanks for their efforts: 
 
   - ComfyUI Extension [ComfyUI-MagicTimeWrapper](https://github.com/kijai/ComfyUI-MagicTimeWrapper) (by [@Jukka Seppänen](https://github.com/kijai)). And you can click [here](https://www.bilibili.com/video/BV1wx421U7Gn/?spm_id_from=333.1007.top_right_bar_window_history.content.click) to view the installation tutorial.
+  - Replicate Demo & Cloud API [Replicate-MagicTime](https://replicate.com/camenduru/magictime) (by [@camenduru](https://twitter.com/camenduru)).
+  - Jupyter Notebook [Jupyter-MagicTime](https://github.com/camenduru/MagicTime-jupyter) (by [@ModelsLab](https://modelslab.com/)).
 
 If you find related work, please let us know. 
 
@@ -323,13 +330,11 @@ ChronoMagic with 2265 metamorphic time-lapse videos, each accompanied by a detai
 If you find our paper and code useful in your research, please consider giving a star :star: and citation :pencil:.
 
 ```BibTeX
-@misc{yuan2024magictime,
-      title={MagicTime: Time-lapse Video Generation Models as Metamorphic Simulators}, 
-      author={Shenghai Yuan and Jinfa Huang and Yujun Shi and Yongqi Xu and Ruijie Zhu and Bin Lin and Xinhua Cheng and Li Yuan and Jiebo Luo},
-      year={2024},
-      eprint={2404.05014},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{yuan2024magictime,
+  title={MagicTime: Time-lapse Video Generation Models as Metamorphic Simulators},
+  author={Yuan, Shenghai and Huang, Jinfa and Shi, Yujun and Xu, Yongqi and Zhu, Ruijie and Lin, Bin and Cheng, Xinhua and Yuan, Li and Luo, Jiebo},
+  journal={arXiv preprint arXiv:2404.05014},
+  year={2024}
 }
 ```
 

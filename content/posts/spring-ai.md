@@ -1,9 +1,9 @@
 ---
 title: spring-ai
-date: 2024-04-14T12:39:01+08:00
+date: 2024-04-15T12:31:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711639105861-f55ef78adc51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711639105861-f55ef78adc51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712701088157-3f9f1ca4c718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712701088157-3f9f1ca4c718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [spring-projects/spring-ai](https://github.com/spring-projects/spring-ai)

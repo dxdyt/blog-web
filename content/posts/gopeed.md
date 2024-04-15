@@ -1,9 +1,9 @@
 ---
 title: gopeed
-date: 2024-02-22T12:14:47+08:00
+date: 2024-04-15T12:29:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706441919995-d0d0320b4fe5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706441919995-d0d0320b4fe5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712231872602-78fafcac90d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712231872602-78fafcac90d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed)
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1706441919995-d0d0320b4f
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R6IJGN6)
 
-[English](/README.md) | [中文](/README_zh-CN.md) | [日本語](/README_ja-JP.md) | [正體中文](/README_zh-TW.md)
+[English](/README.md) | [中文](/README_zh-CN.md) | [日本語](/README_ja-JP.md) | [正體中文](/README_zh-TW.md) | [Tiếng Việt](/README_vi-VN.md)
 
 ## Introduction
 
@@ -53,17 +53,21 @@ Visit ✈ [Official Website](https://gopeed.com) | 📖 [Official Docs](https://
             <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-macos.dmg">Link</a></td>
         </tr>
         <tr>
-            <td rowspan=3>Linux</td>
+            <td rowspan=4>Linux</td>
+            <td><code>Flathub</code></td>
+            <td><a href="https://flathub.org/apps/com.gopeed.Gopeed">Link</a></td>
+        </tr>
+        <tr>
             <td><code>SNAP</code></td>
             <td><a href="https://snapcraft.io/gopeed">Link</a></td>
         </tr>
         <tr>
             <td><code>DEB</code></td>
-            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-linux.deb">Link</a></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-linux-amd64.deb">Link</a></td>
         </tr>
         <tr>
             <td><code>AppImage</code></td>
-            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-linux-amd64.AppImage">Link</a></td>
+            <td><a href="https://gopeed.com/api/download?tpl=Gopeed-$version-linux-x86_64.AppImage">Link</a></td>
         </tr>
         <tr>
             <td>Android</td>
@@ -97,6 +101,10 @@ use `go install`:
 ```bash
 go install github.com/GopeedLab/gopeed/cmd/gopeed@latest
 ```
+
+## Browser Extension
+
+Gopeed also provides a browser extension to take over browser downloads, supporting browsers such as Chrome, Edge, Firefox, etc., please refer to: [https://github.com/GopeedLab/browser-extension](https://github.com/GopeedLab/browser-extension)
 
 ## Donate
 
@@ -174,7 +182,7 @@ command:
 - android
 
 ```bash
-gomobile bind -tags nosqlite -ldflags="-w -s" -o ui/flutter/android/app/libs/libgopeed.aar -target=android -androidapi 19 -javapkg=com.gopeed github.com/GopeedLab/gopeed/bind/mobile
+gomobile bind -tags nosqlite -ldflags="-w -s" -o ui/flutter/android/app/libs/libgopeed.aar -target=android -androidapi 19 -javapkg="com.gopeed" github.com/GopeedLab/gopeed/bind/mobile
 cd ui/flutter
 flutter build apk
 ```

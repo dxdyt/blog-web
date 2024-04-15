@@ -1,9 +1,9 @@
 ---
 title: MaxKB
-date: 2024-04-13T12:17:10+08:00
+date: 2024-04-15T12:30:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712672162815-c4cca99b27f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712672162815-c4cca99b27f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712229307272-5cbb18c96f94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712229307272-5cbb18c96f94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB)

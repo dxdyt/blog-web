@@ -1,9 +1,9 @@
 ---
 title: cms
-date: 2024-04-14T12:38:06+08:00
+date: 2024-04-15T12:29:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711639105861-f55ef78adc51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711639105861-f55ef78adc51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711291817956-30c8fc8f9663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711291817956-30c8fc8f9663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
 ---
 
 # [code100x/cms](https://github.com/code100x/cms)
@@ -31,6 +31,13 @@ Without Docker
 * ```npm run dev```
 * Login using any userid and password 123456
 * You should be able to see some test courses
+
+Make sure to lint and format your code before creating a PR
+* ```npm run lint:check``` to check for lint errors
+* ```npm run lint:fix``` to fix lint errors
+* ```npm run format:check``` to format the code
+* ```npm run format:fix``` to fix the formatting
+* If the code is not formatted properly, the CI will fail
 
 ---
 
