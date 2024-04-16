@@ -1,9 +1,9 @@
 ---
 title: puter
-date: 2024-04-05T12:19:53+08:00
+date: 2024-04-16T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711560705614-0bf664b26f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711560705614-0bf664b26f58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711039610568-80b888ae319c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711039610568-80b888ae319c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
 ---
 
 # [HeyPuter/puter](https://github.com/HeyPuter/puter)
@@ -121,8 +121,13 @@ This user will have a randomly generated password, which will be printed
 in the development console.
 A warning will persist in the dev console until this user's
 password is changed. Please login to this user and change the password as
-your first step. This user by default has 10GB storage instead of the default
-(500MB storage) for new/temporary users.
+your first step.
+
+<br/>
+
+##  License
+
+This repository is licensed under AGPL3. However, our SDK (puter.js) is also available under Apache 2.0, as indicated by the license file in that section (packages/puter-dot-js) of this repository.
 
 <br/>
 
@@ -159,6 +164,7 @@ Puter interacts directly with the DOM and jQuery provides an elegant yet powerfu
 - [Minecraft](https://twitter.com/HeyPuter/status/1771957571496092036) | [video](https://www.youtube.com/watch?v=GIowZUXkg5g)
 - [PlayStation 4](https://twitter.com/HeyPuter/status/1767978053014270059)
 - [Skyworth TV](https://twitter.com/ericalexdube/status/1767983049277411564)
+- [A Fridge!](https://twitter.com/HeyPuter/status/1778890003797745842)
 - [Oculus Quest 2](https://twitter.com/HeyPuter/status/1768664081756754012)
 - [Tesla Model S](https://twitter.com/HeyPuter/status/1767971178864587057)
 - [Tesla Model Y](https://twitter.com/HeyPuter/status/1772858333751636310)
