@@ -1,9 +1,9 @@
 ---
 title: MaxKB
-date: 2024-04-15T12:30:53+08:00
+date: 2024-04-17T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712229307272-5cbb18c96f94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712229307272-5cbb18c96f94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711669326598-1edabde24845?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711669326598-1edabde24845?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB)
@@ -61,7 +61,7 @@ docker run -d --name=maxkb -p 8080:8080 -v ~/.maxkb:/var/lib/postgresql/data 1pa
 
 -   前端：[Vue.js](https://cn.vuejs.org/)
 -   后端：[Python / Django](https://www.djangoproject.com/)
--   Langchain：[Langchain](https://www.langchain.com/)
+-   LangChain：[LangChain](https://www.langchain.com/)
 -   向量数据库：[PostgreSQL / pgvector](https://www.postgresql.org/)
 -   大模型：Azure OpenAI、百度千帆大模型、[Ollama](https://github.com/ollama/ollama)
 

@@ -1,9 +1,9 @@
 ---
 title: aiXcoder-7B
-date: 2024-04-15T12:28:20+08:00
+date: 2024-04-17T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1661174585122-83a2909163ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1661174585122-83a2909163ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711699486853-071af06b6c2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711699486853-071af06b6c2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
 ---
 
 # [aixcoder-plugin/aiXcoder-7B](https://github.com/aixcoder-plugin/aiXcoder-7B)

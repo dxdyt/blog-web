@@ -1,9 +1,9 @@
 ---
 title: Graphite
-date: 2023-08-02T12:16:36+08:00
+date: 2024-04-17T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688550608780-700bd9bd0bb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688550608780-700bd9bd0bb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA5NDk2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711560708537-4c1985469c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711560708537-4c1985469c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
 ---
 
 # [GraphiteEditor/Graphite](https://github.com/GraphiteEditor/Graphite)
@@ -18,15 +18,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1688550608780-700bd9bd0b
 
 <h1 align="center">Redefining state-of-the-art graphics editing</h1>
 
-Graphite is an in-development raster and vector 2D graphics editor that is free and open source. It is powered by a node graph compositing engine that supercharges your layer stack, providing a completely non-destructive editing experience.
+**Graphite** is an in-development raster and vector graphics package that's free and open source. It is powered by a node graph compositing engine that fuses layers with nodes, providing a fully nondestructive editing experience.
 
-Graphite is a lightweight vector graphics editor that runs in your browser. Its nascent node-based compositor lets you apply raster effects and co-create amazing art with AI in a non-destructive workflow. Fully-featured raster image editing and a native desktop application are the current focus of development and will be made available in the coming months.
+Presently, Graphite is a lightweight vector graphics editor that runs in your browser. Its node-based compositor lets you apply image effects and co-create art with generative AI.
 
-Launch the latest alpha release of the [Graphite editor](https://editor.graphite.rs) and learn more on the [project website](https://graphite.rs/).
+Photo editing, digital painting, desktop publishing, VFX compositing, and motion graphics are additional competencies planned on the [roadmap](https://graphite.rs/features/#roadmap) to make Graphite a highly versatile content creation tool.
+
+Launch the latest alpha release of the [Graphite editor](https://editor.graphite.rs) and learn more at the [project website](https://graphite.rs/).
 
 ⭐ Please remember to star this project here on GitHub! ⭐
 
-![Vector artwork: "Valley of Spires"](https://static.graphite.rs/content/index/gui-demo-valley-of-spires.png)
+[![Vector artwork: "Red Dress"](https://static.graphite.rs/content/index/gui-demo-red-dress.png)](https://editor.graphite.rs/#demo/red-dress)
+
+*[Red Dress](https://editor.graphite.rs/#demo/red-dress) (click to open this artwork and explore it yourself)*
+
+[![Vector artwork: "Valley of Spires"](https://static.graphite.rs/content/index/gui-demo-valley-of-spires__4.png)](https://editor.graphite.rs/#demo/valley-of-spires)
+
+*[Valley of Spires](https://editor.graphite.rs/#demo/valley-of-spires) (click to open this artwork and explore it yourself)*
 
 ## Discord community
 
@@ -34,14 +42,16 @@ Launch the latest alpha release of the [Graphite editor](https://editor.graphite
 
 ## Building/contributing
 
-We need Rust and web developers! See [instructions here](https://graphite.rs/contribute/) for setting up the project and getting started.
+We need Rust and web developers! See [instructions here](https://graphite.rs/volunteer/guide/) for setting up the project and getting started.
 
 We are also in search of artists to create beautiful sample work in Graphite and illustrations for the website and social media. Please [get in touch](https://graphite.rs/contact/) if you are able to help out.
 
-## Feature and roadmap
+By submitting code for inclusion in the project, you are agreeing to license your changes under the Apache 2.0 license, and that you have the authority to do so. Some directories may have other licenses, like dual-licensed MIT/Apache 2.0, and code submissions to those directories mean you agree to the applicable license(s).
+
+## Features and roadmap
 
 [See the web page for this information.](https://graphite.rs/features/)
 
 ## Support the project
 
-Please consider pledging a monthly donation using the "♥ Sponsor" button to the right part of this project repository page. Your contribution helps sustain this volunteer-run open source project and brings powerful, free creative tools to the masses.
+Please consider [pledging a monthly donation](https://graphite.rs/donate/). Your contribution helps sustain this volunteer-run open source project and brings powerful, free creative tools to the masses.

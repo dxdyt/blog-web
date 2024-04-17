@@ -1,9 +1,9 @@
 ---
 title: whisper.cpp
-date: 2024-04-16T12:15:48+08:00
+date: 2024-04-17T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711117479774-5102ba0eee19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711117479774-5102ba0eee19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712506758835-fb1244091d3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712506758835-fb1244091d3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/whisper.cpp](https://github.com/ggerganov/whisper.cpp)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1711117479774-5102ba0eee
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![npm](https://img.shields.io/npm/v/whisper.cpp.svg)](https://www.npmjs.com/package/whisper.cpp/)
 
-Stable: [v1.5.4](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.5.4) / [Roadmap | F.A.Q.](https://github.com/ggerganov/whisper.cpp/discussions/126)
+Stable: [v1.5.5](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.5.5) / [Roadmap | F.A.Q.](https://github.com/ggerganov/whisper.cpp/discussions/126)
 
 High-performance inference of [OpenAI's Whisper](https://github.com/openai/whisper) automatic speech recognition (ASR) model:
 
@@ -818,6 +818,7 @@ For more details, see the conversion script [models/convert-pt-to-ggml.py](model
   - [NickDarvey/whisper](https://github.com/NickDarvey/whisper)
 - [x] Python: | [#9](https://github.com/ggerganov/whisper.cpp/issues/9)
   - [stlukey/whispercpp.py](https://github.com/stlukey/whispercpp.py) (Cython)
+  - [AIWintermuteAI/whispercpp](https://github.com/AIWintermuteAI/whispercpp) (Updated fork of aarnphm/whispercpp)
   - [aarnphm/whispercpp](https://github.com/aarnphm/whispercpp) (Pybind11)
 - [x] R: [bnosac/audio.whisper](https://github.com/bnosac/audio.whisper)
 - [x] Unity: [macoron/whisper.unity](https://github.com/Macoron/whisper.unity)

@@ -1,9 +1,9 @@
 ---
 title: reader
-date: 2024-04-16T12:16:54+08:00
+date: 2024-04-17T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711117479774-5102ba0eee19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711117479774-5102ba0eee19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1710107446932-a7d8880f4b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1710107446932-a7d8880f4b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
 ---
 
 # [jina-ai/reader](https://github.com/jina-ai/reader)
@@ -20,6 +20,11 @@ Reader converts any URL to an **LLM-friendly** input with a simple prefix `https
 > Feel free to use https://r.jina.ai/* in production. It is free, stable and scalable. We are maintaining it actively as one of the core products of Jina AI.
 
 [![banner-reader-api.png](https://jina.ai/banner-reader-api.png)](https://jina.ai/reader)
+
+
+## Updates
+
+- **2024-04-15**: Reader now supports image reading! It captions all images at the specified URL and adds `Image [idx]: [caption]` as an alt tag (if they initially lack one). This enables downstream LLMs to interact with the images in reasoning, summarizing etc. [See example here](https://x.com/JinaAI_/status/1780094402071023926).
 
 ## Usage
 
