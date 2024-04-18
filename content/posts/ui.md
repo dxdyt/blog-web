@@ -1,16 +1,19 @@
 ---
 title: ui
-date: 2024-04-16T12:17:04+08:00
+date: 2024-04-18T12:16:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710432157411-dcaa1c5b9494?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710432157411-dcaa1c5b9494?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711948742565-5943c7583603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711948742565-5943c7583603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
 ---
 
 # [atherosai/ui](https://github.com/atherosai/ui)
 
+
+Learn more with me Modern Frontend Developer: HTML and CSS [https://learning.atheros.ai/course-detail/modern-frontend-developer-html-and-css]
+
 This is repository with examples of simple UI components. The repository is based on Next.js and React.js. 
 
-# installation
+# Installation
 
 * Clone the repo with
 ```
@@ -43,6 +46,4 @@ The examples are posted here:
 * [Twitter](https://twitter.com/davidm_ml)
 * [Linkedin](https://www.linkedin.com/in/david-mraz/)
 * [Threads](https://www.threads.net/@davidm_ai)
-
-* Learn more at [Atheros Learning](https://learning.atheros.ai)! HTML and CSS course is coming this month!
 

@@ -1,9 +1,9 @@
 ---
 title: reader
-date: 2024-04-17T12:17:27+08:00
+date: 2024-04-18T12:15:59+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1710107446932-a7d8880f4b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1710107446932-a7d8880f4b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711948742565-5943c7583603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711948742565-5943c7583603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
 ---
 
 # [jina-ai/reader](https://github.com/jina-ai/reader)

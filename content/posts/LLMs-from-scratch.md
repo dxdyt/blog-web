@@ -1,9 +1,9 @@
 ---
 title: LLMs-from-scratch
-date: 2024-03-28T12:15:41+08:00
+date: 2024-04-18T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712392753848-7921812a66b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712392753848-7921812a66b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
 ---
 
 # [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
@@ -34,11 +34,23 @@ The method described in this book for training and developing your own small-but
 
 # Table of Contents
 
-Please note that the `Readme.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [MarkText](https://www.marktext.cc) is a good free option.
+Please note that this `README.md` file is a Markdown (`.md`) file. If you have downloaded this code bundle from the Manning website and are viewing it on your local computer, I recommend using a Markdown editor or previewer for proper viewing. If you haven't installed a Markdown editor yet, [MarkText](https://www.marktext.cc) is a good free option.
 
 Alternatively, you can view this and other files on GitHub at [https://github.com/rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch).
 
 <br>
+<br>
+<!--  -->
+
+> [!TIP]
+> If you're seeking guidance on installing Python and Python packages and setting up your code environment, I suggest reading the [README.md](setup/README.md) file located in the [setup](setup) directory.
+
+<br>
+
+[![Python PEP8 linting](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/pep8-linter.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/pep8-linter.yml)
+[![Python tests](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/basic-tests.yml)
+[![Check hyperlinks](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/check-links.yml/badge.svg)](https://github.com/rasbt/LLMs-from-scratch/actions/workflows/check-links.yml)
+
 <br>
 
 | Chapter Title                                              | Main Code (for quick access)                                                                                                    | All Code + Supplementary      |
@@ -47,18 +59,14 @@ Alternatively, you can view this and other files on GitHub at [https://github.co
 | Ch 2: Working with Text Data                               | - [ch02.ipynb](ch02/01_main-chapter-code/ch02.ipynb)<br/>- [dataloader.ipynb](ch02/01_main-chapter-code/dataloader.ipynb) (summary)<br/>- [exercise-solutions.ipynb](ch02/01_main-chapter-code/exercise-solutions.ipynb)               | [./ch02](./ch02)              |
 | Ch 3: Coding Attention Mechanisms                          | - [ch03.ipynb](ch03/01_main-chapter-code/ch03.ipynb)<br/>- [multihead-attention.ipynb](ch03/01_main-chapter-code/multihead-attention.ipynb) (summary) <br/>- [exercise-solutions.ipynb](ch03/01_main-chapter-code/exercise-solutions.ipynb)| [./ch03](./ch03)              |
 | Ch 4: Implementing a GPT Model from Scratch                | - [ch04.ipynb](ch04/01_main-chapter-code/ch04.ipynb)<br/>- [gpt.py](ch04/01_main-chapter-code/gpt.py) (summary)<br/>- [exercise-solutions.ipynb](ch04/01_main-chapter-code/exercise-solutions.ipynb) | [./ch04](./ch04)           |
-| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.ipynb)<br/>- [train.py](ch05/01_main-chapter-code/train.py) (summary) <br/>- [generate.py](ch05/01_main-chapter-code/generate.py) (summary) | [./ch05](./ch05)              |
+| Ch 5: Pretraining on Unlabeled Data                        | - [ch05.ipynb](ch05/01_main-chapter-code/ch05.ipynb)<br/>- [gpt_train.py](ch05/01_main-chapter-code/gpt_train.py) (summary) <br/>- [gpt_generate.py](ch05/01_main-chapter-code/gpt_generate.py) (summary) <br/>- [exercise-solutions.ipynb](ch05/01_main-chapter-code/exercise-solutions.ipynb) | [./ch05](./ch05)              |
 | Ch 6: Finetuning for Text Classification                   | Q2 2024                                                                                                                         | ...                           |
 | Ch 7: Finetuning with Human Feedback                       | Q2 2024                                                                                                                         | ...                           |
 | Ch 8: Using Large Language Models in Practice              | Q2/3 2024                                                                                                                       | ...                           |
-| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](appendix-A/03_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](appendix-A/03_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](appendix-A/03_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](appendix-A/03_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
+| Appendix A: Introduction to PyTorch                        | - [code-part1.ipynb](appendix-A/01_main-chapter-code/code-part1.ipynb)<br/>- [code-part2.ipynb](appendix-A/01_main-chapter-code/code-part2.ipynb)<br/>- [DDP-script.py](appendix-A/01_main-chapter-code/DDP-script.py)<br/>- [exercise-solutions.ipynb](appendix-A/01_main-chapter-code/exercise-solutions.ipynb) | [./appendix-A](./appendix-A) |
 | Appendix B: References and Further Reading                 | No code                                                                                                                         | -                             |
-| Appendix C: Exercises                                      | No code                                                                                                                         | -                             |
+| Appendix C: Exercise Solutions                             | No code                                                                                                                         | -                             |
 | Appendix D: Adding Bells and Whistles to the Training Loop | - [appendix-D.ipynb](appendix-D/01_main-chapter-code/appendix-D.ipynb)                                                          | [./appendix-D](./appendix-D)  |
-<br>
-
-> [!TIP]
-> Please see [this](appendix-A/01_optional-python-setup-preferences) and [this](appendix-A/02_installing-python-libraries) folder if you need more guidance on installing Python and Python packages.
 
 
 
@@ -77,10 +85,10 @@ Shown below is a mental model summarizing the contents covered in this book.
 
 Several folders contain optional materials as a bonus for interested readers:
 
-- **Appendix A:**
-  - [Python Setup Tips](appendix-A/01_optional-python-setup-preferences)
-  - [Installing Libraries Used In This Book](appendix-A/02_installing-python-libraries)
-  - [Docker Environment Setup Guide](appendix-A/04_optional-docker-environment)
+- **Setup**
+  - [Python Setup Tips](setup/01_optional-python-setup-preferences)
+  - [Installing Libraries Used In This Book](setup/02_installing-python-libraries)
+  - [Docker Environment Setup Guide](setup/03_optional-docker-environment)
 
 - **Chapter 2:**
   - [Comparing Various Byte Pair Encoding (BPE) Implementations](ch02/02_bonus_bytepair-encoder)
@@ -91,24 +99,15 @@ Several folders contain optional materials as a bonus for interested readers:
 
 - **Chapter 5:**
   - [Alternative Weight Loading from Hugging Face Model Hub using Transformers](ch05/02_alternative_weight_loading/weight-loading-hf-transformers.ipynb)
-  - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg) 
+  - [Pretraining GPT on the Project Gutenberg Dataset](ch05/03_bonus_pretraining_on_gutenberg)
   - [Adding Bells and Whistles to the Training Loop](ch05/04_learning_rate_schedulers)
-  - [Optimizing Hyperparameters for Pretraining](05_bonus_hparam_tuning)
+  - [Optimizing Hyperparameters for Pretraining](ch05/05_bonus_hparam_tuning)
 
 <br>
 <br>
 &nbsp
 
 
-### Reader Projects and Showcase
-
-Below are interesting projects by readers of the *Build A Large Language Model From Scratch* book:
-
-- [https://github.com/Intelligence-Manifesto/LLMs-from-scratch](https://github.com/Intelligence-Manifesto/LLMs-from-scratch), a fork of this repository with Chinese translation
-
-<br>
-<br>
-&nbsp
 
 ### Citation
 

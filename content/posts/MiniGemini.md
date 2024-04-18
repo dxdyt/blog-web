@@ -1,9 +1,9 @@
 ---
 title: MiniGemini
-date: 2024-04-03T12:17:57+08:00
+date: 2024-04-18T12:15:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710976329277-ab5c3e57d8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710976329277-ab5c3e57d8a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
 ---
 
 # [dvlab-research/MiniGemini](https://github.com/dvlab-research/MiniGemini)
@@ -12,6 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710976329277-ab5c3e57d8
 
 <a href='https://mini-gemini.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>
 <a href='http://103.170.5.190:7860/'><img src='https://img.shields.io/badge/Project-Demo-violet'></a>
+<a href='https://huggingface.co/spaces/wcy1122/Mini-Gemini'><img src='https://img.shields.io/badge/🤗-Open%20In%20Spaces-blue.svg'></a>
 <a href='https://arxiv.org/pdf/2403.18814.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 <a href='https://huggingface.co/collections/YanweiLi/mini-gemini-6603c50b9b43d044171d0854'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-blue'></a>
 <a href='https://huggingface.co/collections/YanweiLi/mini-gemini-data-660463ea895a01d8f367624e'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Data-green'></a>
@@ -20,6 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710976329277-ab5c3e57d8
 Mini-Gemini supports a series of dense and MoE Large Language Models (LLMs) from 2B to 34B with image understanding, reasoning, and generation simultaneously. We build this repo based on LLaVA.
 
 ## Release
+- [04/15] 🔥 The [Hugging Face demo](https://huggingface.co/spaces/wcy1122/Mini-Gemini) is available. It's a 13B-HD version, welcome to watch and try.
 - [03/28] 🔥 Mini-Gemini is coming! We release the [paper](https://arxiv.org/pdf/2403.18814.pdf), [demo](http://103.170.5.190:7860/), [code](https://github.com/dvlab-research/MiniGemini), [models](https://huggingface.co/collections/YanweiLi/mini-gemini-6603c50b9b43d044171d0854), and [data](https://huggingface.co/collections/YanweiLi/mini-gemini-data-660463ea895a01d8f367624e) for Mini-Gemini!
 
 ## Contents
@@ -89,11 +91,14 @@ We provide all our fully finetuned models on Stage 1 and 2 data for Mini-Gemini:
 | Mini-Gemini-8x7B-HD | 672 | 1536 | Mixtral-8x7B-Instruct-v0.1 | CLIP-L | MiniGemini-Instruct | full_ft-1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-8x7B-HD) |
 | Mini-Gemini-34B-HD | 672 | 1536 | Nous-Hermes-2-Yi-34B | CLIP-L | MiniGemini-Instruct | full_ft-1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-34B-HD) |
 
-<!-- 
-Here are the pretrained weights (text decoder + context attention + projector) on Stage 1 data only:
-| Model | LR | HR | Base LLM | Vision Encoder | Finetuning Data | Finetuning schedule | Download |
+Here are the pretrained weights on Stage 1 data only:
+| Model | LR | HR | Base LLM | Vision Encoder | Pretrain Data | Finetuning schedule | Download |
 |----------|----------|----------|----------|----------------|---------------|--------------------|------------------|
-| Mini-Gemini-2B | 336 | 768 | Gemma-2B | CLIP-L | MiniGemini-Pretrain | full_pt-1e | [ckpt]() | -->
+| Mini-Gemini-2B | 336 | 768 | Gemma-2B | CLIP-L | MiniGemini-Pretrain | 1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-Pretrain/tree/main/Mini-Gemini-2B) |
+| Mini-Gemini-7B | 336 | 768 | Vicuna-7B-v1.5 | CLIP-L | MiniGemini-Pretrain | 1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-Pretrain/tree/main/Mini-Gemini-7B) |
+| Mini-Gemini-13B | 336 | 768 | Vicuna-13B-v1.5 | CLIP-L | MiniGemini-Pretrain | 1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-Pretrain/tree/main/Mini-Gemini-13B) |
+| Mini-Gemini-8x7B | 336 | 768 | Mixtral-8x7B-Instruct-v0.1 | CLIP-L | MiniGemini-Pretrain | 1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-Pretrain/tree/main/Mini-Gemini-8x7B) |
+| Mini-Gemini-34B | 336 | 768 | Nous-Hermes-2-Yi-34B | CLIP-L | MiniGemini-Pretrain | 1e | [ckpt](https://huggingface.co/YanweiLi/Mini-Gemini-Pretrain/tree/main/Mini-Gemini-34B) |
 
 ## Preparation
 ### Dataset
@@ -101,7 +106,7 @@ We provide the processed data for Mini-Gemini training.
 For model pretraining, please download the following the training image-based data and organize them as:
 
 `->` means put the data in the local folder.
-- [LLaVA Images](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) -> `data/MiniGemini-Pretrain/images`
+- [LLaVA Images](https://huggingface.co/datasets/liuhaotian/LLaVA-Pretrain) -> `data/MiniGemini-Pretrain/images`, `data/MiniGemini-Finetune/llava/LLaVA-Pretrain/images`
 - [ALLaVA Caption](https://github.com/FreedomIntelligence/ALLaVA) -> `data/MiniGemini-Pretrain/ALLaVA-4V`
 
 For model finetuning, please download the following the instruction data and organize them as:
@@ -137,6 +142,10 @@ For meta info, please download the following files and organize them as in [Stru
 | --- | ---: |
 | [minigemini_pretrain.json](https://huggingface.co/datasets/YanweiLi/Mini-Gemini-Pretrain) | 1.68 G |
 | [minigemini_instruction.json](https://huggingface.co/datasets/YanweiLi/Mini-Gemini-Instruction) | 1.79 G |
+| [minigemini_generation_pure_text.json](https://huggingface.co/datasets/YanweiLi/Mini-Gemini-Instruction/blob/main/minigemini_generation_pure_text.json) | 0.04 G |
+
+IMPORTANT: `minigemini_generation_pure_text.json` is a generation-related subset. **DO NOT** merge it with `minigemini_instruction.json` as it is already included in it. You may merge this file with your customized LLM/VLM SFT dataset to enable the reasoning generation ability.
+
 
 ### Pretrained Weights
 We recommend users to download the pretrained weights from the following link [CLIP-Vit-L-336](https://huggingface.co/openai/clip-vit-large-patch14-336), [OpenCLIP-ConvNeXt-L](https://huggingface.co/laion/CLIP-convnext_large_d_320.laion2B-s29B-b131K-ft-soup), [Gemma-2b-it](https://huggingface.co/google/gemma-2b-it), [Vicuna-7b-v1.5](https://huggingface.co/lmsys/vicuna-7b-v1.5), [Vicuna-13b-v1.5](https://huggingface.co/lmsys/vicuna-13b-v1.5), [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1), and [Nous-Hermes-2-Yi-34B](https://huggingface.co/NousResearch/Nous-Hermes-2-Yi-34B) , and put them in `model_zoo` following [Structure](#structure).
@@ -174,6 +183,7 @@ MiniGemini
 │   │   ├── ALLaVA-4V
 │   ├── MiniGemini-Finetune
 │   │   ├── minigemini_instruction.json
+│   │   ├── llava
 │   │   ├── coco
 │   │   ├── gqa
 │   │   ├── ocr_vqa
