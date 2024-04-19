@@ -1,14 +1,15 @@
 ---
 title: anything-llm
-date: 2024-01-05T12:18:00+08:00
+date: 2024-04-19T12:18:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701691741348-00b3444ccca0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701691741348-00b3444ccca0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ0MjgxNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
 ---
 
 # [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
 
 <a name="readme-top"></a>
+
 <p align="center">
   <a href="https://useanything.com"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/images/wordmark.png?raw=true" alt="AnythingLLM logo"></a>
 </p>
@@ -34,7 +35,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1701691741348-00b3444ccc
 </p>
 
 <p align="center">
-👉 AnythingLLM for desktop! <a href="https://mintplexlabs.typeform.com/to/sFgD2TIb" target="_blank"> Sign up</a>
+👉 AnythingLLM for desktop is in <b>public beta</b>! <a href="https://useanything.com/download" target="_blank"> Download Now</a>
 </p>
 
 A full-stack application that enables you to turn any document, resource, or piece of content into context that any LLM can use as references during chatting. This application allows you to pick and choose which LLM or Vector Database you want to use as well as supporting multi-user management and permissions.
@@ -48,113 +49,138 @@ A full-stack application that enables you to turn any document, resource, or pie
 
 </details>
 
-
 ### Product Overview
+
 AnythingLLM is a full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.
 
 AnythingLLM divides your documents into objects called `workspaces`. A Workspace functions a lot like a thread, but with the addition of containerization of your documents. Workspaces can share documents, but they do not talk to each other so you can keep your context for each workspace clean.
 
 Some cool features of AnythingLLM
+
 - **Multi-user instance support and permissioning**
+- **_New_** [Custom Embeddable Chat widget for your website](./embed/README.md)
 - Multiple document type support (PDF, TXT, DOCX, etc)
 - Manage documents in your vector database from a simple UI
 - Two chat modes `conversation` and `query`. Conversation retains previous questions and amendments. Query is simple QA against your documents
-- In-chat citations linked to the original document source and text
-- Simple technology stack for fast iteration
+- In-chat citations
 - 100% Cloud deployment ready.
 - "Bring your own LLM" model.
 - Extremely efficient cost-saving measures for managing very large documents. You'll never pay to embed a massive document or transcript more than once. 90% more cost effective than other document chatbot solutions.
 - Full Developer API for custom integrations!
 
-### Supported LLMs, Embedders, and Vector Databases
+### Supported LLMs, Embedders, Transcriptions models, and Vector Databases
+
 **Supported LLMs:**
+
 - [Any open-source llama.cpp compatible model](/server/storage/models/README.md#text-generation-llm-selection)
 - [OpenAI](https://openai.com)
 - [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-- [Anthropic ClaudeV2](https://www.anthropic.com/)
+- [Anthropic](https://www.anthropic.com/)
 - [Google Gemini Pro](https://ai.google.dev/)
+- [Hugging Face (chat models)](https://huggingface.co/)
 - [Ollama (chat models)](https://ollama.ai/)
 - [LM Studio (all models)](https://lmstudio.ai)
 - [LocalAi (all models)](https://localai.io/)
+- [Together AI (chat models)](https://www.together.ai/)
+- [Perplexity (chat models)](https://www.perplexity.ai/)
+- [OpenRouter (chat models)](https://openrouter.ai/)
+- [Mistral](https://mistral.ai/)
+- [Groq](https://groq.com/)
 
 **Supported Embedding models:**
+
 - [AnythingLLM Native Embedder](/server/storage/models/README.md) (default)
 - [OpenAI](https://openai.com)
 - [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 - [LM Studio (all)](https://lmstudio.ai)
 - [LocalAi (all)](https://localai.io/)
+- [Ollama (all)](https://ollama.ai/)
+
+**Supported Transcription models:**
+
+- [AnythingLLM Built-in](https://github.com/Mintplex-Labs/anything-llm/tree/master/server/storage/models#audiovideo-transcription) (default)
+- [OpenAI](https://openai.com/)
 
 **Supported Vector Databases:**
+
 - [LanceDB](https://github.com/lancedb/lancedb) (default)
+- [Astra DB](https://www.datastax.com/products/datastax-astra)
 - [Pinecone](https://pinecone.io)
 - [Chroma](https://trychroma.com)
 - [Weaviate](https://weaviate.io)
 - [QDrant](https://qdrant.tech)
-
+- [Milvus](https://milvus.io)
+- [Zilliz](https://zilliz.com)
 
 ### Technical Overview
+
 This monorepo consists of three main sections:
+
 - `frontend`: A viteJS + React frontend that you can run to easily create and manage all your content the LLM can use.
 - `server`: A NodeJS express server to handle all the interactions and do all the vectorDB management and LLM interactions.
 - `docker`: Docker instructions and build process + information for building from source.
 - `collector`: NodeJS express server that process and parses documents from the UI.
 
 ## 🛳 Self Hosting
-Mintplex Labs & the community maintain a number of deployment methods, scripts, and templates that you can use to run AnythingLLM locally. Refer to the table below to read how to deploy on your preferred environment or to automatically deploy.
-| Docker                                 | AWS | GCP | Digital Ocean | Render.com |
-|----------------------------------------|----:|-----|---------------|------------|
-| [![Deploy on Docker][docker-btn]][docker-deploy] |  [![Deploy on AWS][aws-btn]][aws-deploy] | [![Deploy on GCP][gcp-btn]][gcp-deploy]  | [![Deploy on DigitalOcean][do-btn]][aws-deploy]  |  [![Deploy on Render.com][render-btn]][render-deploy] |
 
+Mintplex Labs & the community maintain a number of deployment methods, scripts, and templates that you can use to run AnythingLLM locally. Refer to the table below to read how to deploy on your preferred environment or to automatically deploy.
+| Docker | AWS | GCP | Digital Ocean | Render.com |
+|----------------------------------------|----:|-----|---------------|------------|
+| [![Deploy on Docker][docker-btn]][docker-deploy] | [![Deploy on AWS][aws-btn]][aws-deploy] | [![Deploy on GCP][gcp-btn]][gcp-deploy] | [![Deploy on DigitalOcean][do-btn]][do-deploy] | [![Deploy on Render.com][render-btn]][render-deploy] |
+
+| Railway                                             |
+| --------------------------------------------------- |
+| [![Deploy on Railway][railway-btn]][railway-deploy] |
+
+[or set up a production AnythingLLM instance without Docker →](./BARE_METAL.md)
 
 ## How to setup for development
-- `yarn setup` from the project root directory.
-  - This will fill in the required `.env` files you'll need in each of the application sections. Go fill those out before proceeding or else things won't work right.
-- `yarn prisma:setup` To build the Prisma client and migrate the database.
 
-To boot the server locally (from root of repo):
-- ensure `server/.env.development` is set and filled out.
-`yarn dev:server`
- 
-To boot the frontend locally (from root of repo):
-`yarn dev:frontend`
-
-To then run the document collector (from root of repo)
-`yarn dev:collector`
+- `yarn setup` To fill in the required `.env` files you'll need in each of the application sections (from root of repo).
+  - Go fill those out before proceeding. Ensure `server/.env.development` is filled or else things won't work right.
+- `yarn dev:server` To boot the server locally (from root of repo).
+- `yarn dev:frontend` To boot the frontend locally (from root of repo).
+- `yarn dev:collector` To then run the document collector (from root of repo).
 
 [Learn about documents](./server/storage/documents/DOCUMENTS.md)
 
 [Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)
 
 ## Contributing
+
 - create issue
 - create PR with branch name format of `<issue number>-<short name>`
 - yee haw let's merge
 
-<details>
-<summary><kbd>Telemetry for AnythingLLM</kbd></summary>
 
-## Telemetry
+## Telemetry & Privacy
+
 AnythingLLM by Mintplex Labs Inc contains a telemetry feature that collects anonymous usage information.
 
+<details>
+<summary><kbd>More about Telemetry & Privacy for AnythingLLM</kbd></summary>
+
 ### Why?
+
 We use this information to help us understand how AnythingLLM is used, to help us prioritize work on new features and bug fixes, and to help us improve AnythingLLM's performance and stability.
 
 ### Opting out
-Set `DISABLE_TELEMETRY` in your server or docker .env settings to "true" to opt out of telemetry.
 
-```
-DISABLE_TELEMETRY="true"
-```
+Set `DISABLE_TELEMETRY` in your server or docker .env settings to "true" to opt out of telemetry. You can also do this in-app by going to the sidebar > `Privacy` and disabling telemetry.
 
 ### What do you explicitly track?
+
 We will only track usage details that help us make product and roadmap decisions, specifically:
-- Version of your installation
+
+- Typ of your installation (Docker or Desktop)
 - When a document is added or removed. No information _about_ the document. Just that the event occurred. This gives us an idea of use.
 - Type of vector database in use. Let's us know which vector database provider is the most used to prioritize changes when updates arrive for that provider.
 - Type of LLM in use. Let's us know the most popular choice and prioritize changes when updates arrive for that provider.
 - Chat is sent. This is the most regular "event" and gives us an idea of the daily-activity of this project across all installations. Again, only the event is sent - we have no information on the nature or content of the chat itself.
 
 You can verify these claims by finding all locations `Telemetry.sendTelemetry` is called. Additionally these events are written to the output log so you can also see the specific data which was sent - if enabled. No IP or other identifying information is collected. The Telemetry provider is [PostHog](https://posthog.com/) - an open-source telemetry collection service.
+
+[View all telemetry events in source code](https://github.com/search?q=repo%3AMintplex-Labs%2Fanything-llm%20.sendTelemetry\(&type=code)
 
 </details>
 
@@ -175,6 +201,7 @@ Copyright © 2023 [Mintplex Labs][profile-link]. <br />
 This project is [MIT](./LICENSE) licensed.
 
 <!-- LINK GROUP -->
+
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-222628?style=flat-square
 [profile-link]: https://github.com/mintplex-labs
 [vector-admin]: https://github.com/mintplex-labs/vector-admin
@@ -189,3 +216,7 @@ This project is [MIT](./LICENSE) licensed.
 [do-deploy]: ./cloud-deployments/digitalocean/terraform/DEPLOY.md
 [render-btn]: https://render.com/images/deploy-to-render-button.svg
 [render-deploy]: https://render.com/deploy?repo=https://github.com/Mintplex-Labs/anything-llm&branch=render
+[render-btn]: https://render.com/images/deploy-to-render-button.svg
+[render-deploy]: https://render.com/deploy?repo=https://github.com/Mintplex-Labs/anything-llm&branch=render
+[railway-btn]: https://railway.app/button.svg
+[railway-deploy]: https://railway.app/template/HNSCS1?referralCode=WFgJkn

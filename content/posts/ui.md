@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2024-04-18T12:16:16+08:00
+date: 2024-04-19T12:15:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711948742565-5943c7583603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711948742565-5943c7583603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711436470690-cf49602d1cf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711436470690-cf49602d1cf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
 ---
 
 # [atherosai/ui](https://github.com/atherosai/ui)

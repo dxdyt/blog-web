@@ -1,12 +1,21 @@
 ---
 title: otel-profiling-agent
-date: 2024-04-18T12:16:46+08:00
+date: 2024-04-19T12:15:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712309910201-c1bc5d70744e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712309910201-c1bc5d70744e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
 ---
 
 # [elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent)
+
+> [!NOTE] 
+> 
+> Please be aware that we currently won't merge 3rd party PRs because this repository
+> is temporary. We are waiting for the decision of the OpenTelemetry technical
+> commitee on the donation of this repository.
+>
+> In case the donation gets accepted, this repository will move to the [GitHub open-telemetry organization](https://github.com/open-telemetry),
+> which requires signing a different CLA. At that point we will start working on reviewing and merging 3rd party PRs.
 
 # Introduction
 

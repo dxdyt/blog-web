@@ -1,9 +1,9 @@
 ---
 title: pokedex-compose
-date: 2024-04-17T12:18:47+08:00
+date: 2024-04-19T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711699486853-071af06b6c2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711699486853-071af06b6c2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711436470690-cf49602d1cf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711436470690-cf49602d1cf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
 ---
 
 # [skydoves/pokedex-compose](https://github.com/skydoves/pokedex-compose)

@@ -1,17 +1,16 @@
 ---
 title: gpt_academic
-date: 2024-02-20T12:18:28+08:00
+date: 2024-04-19T12:15:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707305311503-b94312242a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707305311503-b94312242a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg0MDI1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
 ---
 
 # [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic)
 
-> [!IMPORTANT]  
+> [!IMPORTANT]
+> 2024.3.11: 恭迎Claude3和Moonshot，全力支持Qwen、GLM、DeepseekCoder等中文大语言模型！  
 > 2024.1.18: 更新3.70版本，支持Mermaid绘图库（让大模型绘制脑图）  
-> 2024.1.17: 恭迎GLM4，全力支持Qwen、GLM、DeepseekCoder等国内中文大语言基座模型！  
-> 2024.1.17: 某些依赖包尚不兼容python 3.12，推荐python 3.11。  
 > 2024.1.17: 安装依赖时，请选择`requirements.txt`中**指定的版本**。 安装命令：`pip install -r requirements.txt`。本项目完全开源免费，您可通过订阅[在线服务](https://github.com/binary-husky/gpt_academic/wiki/online)的方式鼓励本项目的发展。
 
 <br>
@@ -263,8 +262,7 @@ P.S. 如果需要依赖Latex的插件功能，请见Wiki。另外，您也可以
 # Advanced Usage
 ### I：自定义新的便捷按钮（学术快捷键）
 
-任意文本编辑器打开`core_functional.py`，添加如下条目，然后重启程序。（如果按钮已存在，那么可以直接修改（前缀、后缀都已支持热修改），无需重启程序即可生效。）
-例如
+现在已可以通过UI中的`界面外观`菜单中的`自定义菜单`添加新的便捷按钮。如果需要在代码中定义，请使用任意文本编辑器打开`core_functional.py`，添加如下条目即可：
 
 ```python
 "超级英译中": {
