@@ -1,9 +1,9 @@
 ---
 title: awesome-generative-ai-guide
-date: 2024-04-10T12:16:39+08:00
+date: 2024-04-20T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709962225055-01ac99b1e231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709962225055-01ac99b1e231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI3MjI0OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [aishwaryanr/awesome-generative-ai-guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
@@ -35,6 +35,11 @@ Happy Learning!
 - 60 Common GenAI Interview Questions out now! ([Click Here](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/interview_prep/60_gen_ai_questions.md))
 - ICLR 2024 paper summaries ([Click Here](https://areganti.notion.site/06f0d4fe46a94d62bff2ae001cfec22c?v=d501ca62e4b745768385d698f173ae14))
 - List of free GenAI courses ([Click Here](https://github.com/aishwaryanr/awesome-generative-ai-guide#book-list-of-free-genai-courses))
+- Generative AI resources and roadmaps
+  - [3-day RAG roadmap](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/RAG_roadmap.md)
+  - [5-day LLM foundations roadmap](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/genai_roadmap.md)
+  - [5-day LLM agents roadmap](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_roadmap.md)
+  - [Agents 101 guide](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/main/resources/agents_101_guide.md)
 
 
 
@@ -174,6 +179,8 @@ Engineering](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/mai
 19. [Fundamentals of Generative AI](https://learn.microsoft.com/en-us/training/modules/fundamentals-generative-ai/) by Microsoft Azure
 20. [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners?WT.mc_id=academic-122979-leestott)  by Microsoft
 21. [ChatGPT for Beginners: The Ultimate Use Cases for Everyone](https://www.udemy.com/course/chatgpt-for-beginners-the-ultimate-use-cases-for-everyone/) by Udemy
+22. [[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g) by Andrej Karpathy
+
     
 
 
@@ -214,6 +221,7 @@ Engineering](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/mai
 22. [Advanced Retrieval for AI with Chroma](https://www.deeplearning.ai/short-courses/advanced-retrieval-for-ai/) by DeepLearning.AI
 23. [Operationalizing LLMs on Azure](https://www.coursera.org/learn/llmops-azure) by Coursera
 24. [Generative AI Full Course – Gemini Pro, OpenAI, Llama, Langchain, Pinecone, Vector Databases & More](https://www.youtube.com/watch?v=mEsleV16qdo) by freeCodeCamp.org
+25. [Training & Fine-Tuning LLMs for Production](https://learn.activeloop.ai/courses/llms) by Activeloop
     
 
 ##### Prompt Engineering, RAG and Fine-Tuning
@@ -238,6 +246,10 @@ Engineering](https://github.com/aishwaryanr/awesome-generative-ai-guide/blob/mai
 15. [Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/) by Deeplearning.AI
 16. [Understanding and Applying Text Embeddings](https://www.deeplearning.ai/short-courses/google-cloud-vertex-ai/) by Deeplearning.AI
 17. [JavaScript RAG Web Apps with LlamaIndex](https://www.deeplearning.ai/short-courses/javascript-rag-web-apps-with-llamaindex/) by Deeplearning.AI
+18. [Quantization Fundamentals with Hugging Face](https://www.deeplearning.ai/short-courses/quantization-fundamentals-with-hugging-face/) by Deeplearning.AI
+19. [Preprocessing Unstructured Data for LLM Applications](https://www.deeplearning.ai/short-courses/preprocessing-unstructured-data-for-llm-applications/) by Deeplearning.AI
+20. [Retrieval Augmented Generation for Production with LangChain & LlamaIndex](https://learn.activeloop.ai/courses/rag)  by Activeloop
+
     
 
 ##### Evaluation

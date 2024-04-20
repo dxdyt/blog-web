@@ -1,12 +1,15 @@
 ---
 title: Automatic_ticket_purchase
-date: 2023-09-14T12:16:44+08:00
+date: 2024-04-20T12:19:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693164189280-fc799a38d750?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ2NjQ4Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710937737232-7f0805d61525?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710937737232-7f0805d61525?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [MakiNaruto/Automatic_ticket_purchase](https://github.com/MakiNaruto/Automatic_ticket_purchase)
+
+# 已停止维护
+大部分购买方式已迁移至手机端，需配合抓包处理。暂无更新计划。
 
 # 大麦抢票脚本 V2.1
 更新
@@ -23,7 +26,7 @@ ps: 暂不支持选座购买。
 
 其流程图如下:
 
-<img src="https://github.com/MakiNaruto/Automatic_ticket_purchase/blob/master/images/flow_chart.jpeg" width="50%" height="50%" />
+<img src="images/flow_chart.jpeg" width="50%" height="50%" />
 
 ## 准备工作
 ### 1. 配置环境

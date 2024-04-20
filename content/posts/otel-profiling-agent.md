@@ -1,9 +1,9 @@
 ---
 title: otel-profiling-agent
-date: 2024-04-19T12:15:39+08:00
+date: 2024-04-20T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712409975551-cae1413218f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712409975551-cae1413218f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [elastic/otel-profiling-agent](https://github.com/elastic/otel-profiling-agent)

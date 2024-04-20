@@ -1,9 +1,9 @@
 ---
 title: gpt_academic
-date: 2024-04-19T12:15:34+08:00
+date: 2024-04-20T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic)

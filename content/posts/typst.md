@@ -1,9 +1,9 @@
 ---
 title: typst
-date: 2024-02-05T12:19:15+08:00
+date: 2024-04-20T12:19:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698027180803-a46e7a918c45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713106216268-9d6faf591c36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713106216268-9d6faf591c36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [typst/typst](https://github.com/typst/typst)
@@ -130,7 +130,7 @@ Typst's CLI is available from different sources:
 
 - If you have a [Rust][rust] toolchain installed, you can also install the
   latest development version with
-  `cargo install --git https://github.com/typst/typst typst-cli`. Note that this
+  `cargo install --git https://github.com/typst/typst --locked typst-cli`. Note that this
   will be a "nightly" version that may be broken or not yet properly documented.
 
 - Nix users can use the `typst` package with `nix-shell -p typst` or build and
