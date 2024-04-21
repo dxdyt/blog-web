@@ -1,9 +1,9 @@
 ---
 title: torchtune
-date: 2024-04-20T12:17:23+08:00
+date: 2024-04-21T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711987893415-0be6d8472460?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711987893415-0be6d8472460?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
 ---
 
 # [pytorch/torchtune](https://github.com/pytorch/torchtune)

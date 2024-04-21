@@ -1,9 +1,9 @@
 ---
 title: PurpleLlama
-date: 2024-04-20T12:17:50+08:00
+date: 2024-04-21T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710781403938-5a29304f37ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710781403938-5a29304f37ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712865323167-2931e83f7a62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712865323167-2931e83f7a62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/PurpleLlama](https://github.com/meta-llama/PurpleLlama)

@@ -1,14 +1,15 @@
 ---
 title: gpt_academic
-date: 2024-04-20T12:18:25+08:00
+date: 2024-04-21T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709108254795-40d910d825d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713073530306-271688b2f144?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713073530306-271688b2f144?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
 ---
 
 # [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic)
 
 > [!IMPORTANT]
+> 2024.4.21: 开始测试3.75版本(`frontier`)分支，引入多种TTS(文本转语音)模块  
 > 2024.3.11: 恭迎Claude3和Moonshot，全力支持Qwen、GLM、DeepseekCoder等中文大语言模型！  
 > 2024.1.18: 更新3.70版本，支持Mermaid绘图库（让大模型绘制脑图）  
 > 2024.1.17: 安装依赖时，请选择`requirements.txt`中**指定的版本**。 安装命令：`pip install -r requirements.txt`。本项目完全开源免费，您可通过订阅[在线服务](https://github.com/binary-husky/gpt_academic/wiki/online)的方式鼓励本项目的发展。

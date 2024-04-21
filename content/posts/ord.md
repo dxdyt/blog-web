@@ -1,9 +1,9 @@
 ---
 title: ord
-date: 2023-12-19T12:16:51+08:00
+date: 2024-04-21T12:16:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699614614449-d19235e38574?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI5NTkzNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710674293279-962ca4a5be7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710674293279-962ca4a5be7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
 ---
 
 # [ordinals/ord](https://github.com/ordinals/ord)
@@ -25,11 +25,8 @@ See [the docs](https://docs.ordinals.com) for documentation and guides.
 See [the BIP](bip.mediawiki) for a technical description of the assignment and
 transfer algorithm.
 
-See [the project board](https://github.com/users/casey/projects/3/) for
+See [the project board](https://github.com/orgs/ordinals/projects/1) for
 currently prioritized issues.
-
-See [milestones](https://github.com/ordinals/ord/milestones) to get a sense of
-where the project is and where it's going.
 
 Join [the Discord server](https://discord.gg/87cjuz4FYg) to chat with fellow
 ordinal degenerates.
@@ -67,7 +64,7 @@ This has a number of implications that you must understand in order to use
   lead to loss of inscriptions.
 
 - `ord wallet` commands automatically load the `ord` wallet given by the
-  `--wallet` option, which defaults to 'ord'. Keep in mind that after running
+  `--name` option, which defaults to 'ord'. Keep in mind that after running
   an `ord wallet` command, an `ord` wallet may be loaded.
 
 - Because `ord` has access to your Bitcoin Core wallets, `ord` should not be
@@ -100,10 +97,19 @@ command line.
 Building
 --------
 
-On Debian and Ubuntu, `ord` requires `libssl-dev` when building from source:
+On Linux, `ord` requires `libssl-dev` when building from source.
+
+On Debian-derived Linux distributions, including Ubuntu:
 
 ```
-sudo apt-get install libssl-dev
+sudo apt-get install pkg-config libssl-dev build-essential
+```
+
+On Red Hat-derived Linux distributions:
+
+```
+yum install -y pkgconfig openssl-devel
+yum groupinstall "Development Tools"
 ```
 
 You'll also need Rust:
@@ -112,17 +118,37 @@ You'll also need Rust:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-To build `ord` from source:
+Clone the `ord` repo:
 
 ```
 git clone https://github.com/ordinals/ord.git
 cd ord
+```
+
+To build a specific version of `ord`, first checkout that version:
+
+```
+git checkout <VERSION>
+```
+
+And finally to actually build `ord`:
+
+```
 cargo build --release
 ```
 
 Once built, the `ord` binary can be found at `./target/release/ord`.
 
-`ord` requires `rustc` version 1.67.0 or later. Run `rustc --version` to ensure you have this version. Run `rustup update` to get the latest stable release.
+`ord` requires `rustc` version 1.76.0 or later. Run `rustc --version` to ensure
+you have this version. Run `rustup update` to get the latest stable release.
+
+### Docker
+
+A Docker image can be built with:
+
+```
+docker build -t ordinals/ord .
+```
 
 ### Homebrew
 
@@ -221,22 +247,22 @@ Alternatively, `ord` can be supplied with a username and password on the
 command line:
 
 ```
-ord --bitcoin-rpc-user foo --bitcoin-rpc-pass bar server
+ord --bitcoin-rpc-username foo --bitcoin-rpc-password bar server
 ```
 
 Using environment variables:
 
 ```
-export ORD_BITCOIN_RPC_USER=foo
-export ORD_BITCOIN_RPC_PASS=bar
+export ORD_BITCOIN_RPC_USERNAME=foo
+export ORD_BITCOIN_RPC_PASSWORD=bar
 ord server
 ```
 
 Or in the config file:
 
 ```yaml
-bitcoin_rpc_user: foo
-bitcoin_rpc_pass: bar
+bitcoin_rpc_username: foo
+bitcoin_rpc_password: bar
 ```
 
 Logging
@@ -260,63 +286,64 @@ Release x.y.z
 
 - Bump version: x.y.z → x.y.z
 - Update changelog
+- Update changelog contributor credits
 - Update dependencies
-- Update database schema version
 ```
 
 Translations
 ------------
 
-To translate [the docs](https://docs.ordinals.com) we use this
+To translate [the docs](https://docs.ordinals.com) we use
 [mdBook i18n helper](https://github.com/google/mdbook-i18n-helpers).
-So read through their [usage guide](https://github.com/google/mdbook-i18n-helpers/blob/main/i18n-helpers/USAGE.md)
-to see the structure that translations should follow.
 
-There are some other things to watch out for but feel free to just start a
-translation and open a PR. Have a look at [this commit](https://github.com/ordinals/ord/commit/329f31bf6dac207dad001507dd6f18c87fdef355)
-for an idea of what to do. A maintainer will also help you integrate it into our
-build system.
+See
+[mdbook-i18n-helpers usage guide](https://github.com/google/mdbook-i18n-helpers/blob/main/i18n-helpers/USAGE.md)
+for help.
 
-To align your translated version of the Handbook with reference to commit
-[#2427](https://github.com/ordinals/ord/pull/2426), here are some guiding
-commands to assist you. It is assumed that your local environment is already
-well-configured with [Python](https://www.python.org/),
-[Mdbook](https://github.com/rust-lang/mdBook),
-[mdBook i18n helper](https://github.com/google/mdbook-i18n-helpers) and that you've clone
-this repo.
+Adding a new translations is somewhat involved, so feel free to start
+translation and open a pull request, even if your translation is incomplete.
 
+Take a look at
+[this commit](https://github.com/ordinals/ord/commit/329f31bf6dac207dad001507dd6f18c87fdef355)
+for an example of adding a new translation. A maintainer will help you integrate it
+into our build system.
 
-1. Run the following command to generate a new `pot` file, which is named as
-`messages.pot`:
+To start a new translation:
 
-```
-MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}'
-mdbook build -d po
-```
+1. Install `mdbook`, `mdbook-i18n-helpers`, and `mdbook-linkcheck`:
 
-2. Run `msgmerge` where `xx.po` is your localized language version following
-the naming standard of [ISO639-1](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).
-This process will update the `po` file with the most recent original version:
+   ```
+   cargo install mdbook mdbook-i18n-helpers mdbook-linkcheck
+   ```
 
-```
-msgmerge --update po/xx.po po/messages.pot
-```
+2. Generate a new `pot` file named `messages.pot`:
 
-3. Look for `#, fuzzy`. The `mdBook-i18n-helper` tool utilizes the `"fuzzy"` tag
-to highlight sections that have been recently edited. You can proceed to perform
-the translation tasks by editing the `"fuzzy"`part.
+   ```
+   MDBOOK_OUTPUT='{"xgettext": {"pot-file": "messages.pot"}}'
+   mdbook build -d po
+   ```
 
-4. Execute the `mdbook` command. A demonstration in Chinese (`zh`) is given below:
+3. Run `msgmerge` on `XX.po` where `XX` is the two-letter
+   [ISO-639](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) code for
+   the language you are translating into. This will update the `po` file with
+   the text of the most recent English version:
 
-```
-mdbook build docs -d build
-MDBOOK_BOOK__LANGUAGE=zh mdbook build docs -d build/zh
-mv docs/build/zh/html docs/build/html/zh
-python3 -m http.server --directory docs/build/html --bind 127.0.0.1 8080
-```
+   ```
+   msgmerge --update po/XX.po po/messages.pot
+   ```
 
-5. Upon verifying everything and ensuring all is in order, you can commit the
-modifications and progress to open a Pull Request (PR) on Github.
-(**Note**: Please ensure **ONLY** the **'xx.po'** file is pushed, other files
-such as '.pot' or files ending in '~' are **unnecessary** and should **NOT** be
-included in the Pull Request.）
+4. Untranslated sections are marked with `#, fuzzy` in `XX.po`. Edit the
+   `msgstr` string with the translated text.
+
+5. Execute the `mdbook` command to rebuild the docs. For Chinese, whose
+   two-letter ISO-639 code is `zh`:
+
+   ```
+   mdbook build docs -d build
+   MDBOOK_BOOK__LANGUAGE=zh mdbook build docs -d build/zh
+   mv docs/build/zh/html docs/build/html/zh
+   python3 -m http.server --directory docs/build/html --bind 127.0.0.1 8080
+   ```
+
+6. If everything looks good, commit `XX.po` and open a pull request on GitHub.
+   Other changed files should be omitted from the pull request.
