@@ -1,9 +1,9 @@
 ---
 title: codellama
-date: 2024-04-21T12:16:44+08:00
+date: 2024-04-22T12:16:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711699487023-a5b25f3e7e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711699487023-a5b25f3e7e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/codellama](https://github.com/meta-llama/codellama)

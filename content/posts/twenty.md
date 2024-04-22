@@ -1,9 +1,9 @@
 ---
 title: twenty
-date: 2024-01-03T12:17:27+08:00
+date: 2024-04-22T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702234893452-52302797f873?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702234893452-52302797f873?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710621665220-68b5deec87f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710621665220-68b5deec87f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [twentyhq/twenty](https://github.com/twentyhq/twenty)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702234893452-52302797f8
   </a>
 </p>
 
-<h2 align="center" >A Modern Open Source CRM </h3>
+<h2 align="center" >The #1 Open-Source CRM </h3>
 <p align="center">Tailored to your unique business needs</p>
 
 <p align="center"><a href="https://twenty.com">🌐 Website</a> · <a href="https://docs.twenty.com">📚 Documentation</a> ·  <a href="https://discord.gg/cx5n4Jzs57"><img src="./packages/twenty-docs/static/img/discord-icon.svg" width="12" height="12"/> Discord</a> · <a href="https://www.figma.com/file/xt8O9mFeLl46C5InWwoMrN/Twenty"><img src="./packages/twenty-docs/static/img/figma-icon.png"  width="12" height="12"/>  Figma</a><p>
@@ -36,12 +36,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1702234893452-52302797f8
 
 We’ve spent thousands of hours grappling with traditional CRMs like Pipedrive and Salesforce to align them with our business needs, only to end up frustrated — customizations are complex and the closed ecosystems of these platforms can feel restrictive.
 
-We felt the need for a CRM platform that empowers rather than constrains. We believe the next great CRM will come from the open source community. And we’ve packed Twenty with powerful features to give you full control and help you win more deals. 
+We felt the need for a CRM platform that empowers rather than constrains. We believe the next great CRM will come from the open source community. And we’ve packed Twenty with powerful features to give you full control and help you run your business efficiently. 
 
 <br>
 
 # Demo 
-Go to <a href="https://app.twenty.com/">app.twenty.com</a> and login with the following credentials:
+Go to <a href="https://demo.twenty.com/">demo.twenty.com</a> and login with the following credentials:
 ```
 email: noah@demo.dev
 password: Applecar2025
@@ -49,10 +49,10 @@ password: Applecar2025
 
 See also:  
 🚀 [Self-hosting](https://docs.twenty.com/start/self-hosting/)  
-🖥️ [Local Setup](https://docs.twenty.com/contributor/local-setup)  
+🖥️ [Local Setup](https://docs.twenty.com/start/local-setup)  
 
 # Why Choose Twenty?
-We understand that the CRM landscape is vast. So why should you chose us?
+We understand that the CRM landscape is vast. So why should you choose us?
 
 ⛓️ **Full control, Full Freedom:** Contribute, self-host, fork. Break free from vendor lock-in and join us in shaping the open future of CRM.
 
@@ -81,8 +81,8 @@ Below are some features we have implemented to date:
 
 <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/visualise-customer-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/visualise-customer-light.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/index-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/index-light.png">
       <img src="./packages/twenty-docs/static/img/visualise-customer-light.png" alt="Companies view" />
     </picture>
 </p>
@@ -91,18 +91,38 @@ Below are some features we have implemented to date:
 
 <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/follow-your-deals-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/follow-your-deals-light.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/kanban-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/kanban-light.png">
       <img src="./packages/twenty-docs/static/img/follow-your-deals-light.png" alt="Companies view" />
     </picture>
 </p>
 
-## See rich notes tasks displayed in a timeline:
+## Track deals effortlessly with the email integration:
 
 <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/rich-notes-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/rich-notes-light.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/emails-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/emails-light.png">
+      <img src="./packages/twenty-docs/static/img/rich-notes-light.png" alt="Companies view" />
+    </picture>
+</p>
+
+## Tailor your data model to meet business needs:
+
+<p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/data-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/data-light.png">
+      <img src="./packages/twenty-docs/static/img/rich-notes-light.png" alt="Companies view" />
+    </picture>
+</p>
+
+## See rich notes displayed in a timeline:
+
+<p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/notes-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/notes-light.png">
       <img src="./packages/twenty-docs/static/img/rich-notes-light.png" alt="Companies view" />
     </picture>
 </p>
@@ -111,19 +131,28 @@ Below are some features we have implemented to date:
 
 <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/create-tasks-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/create-tasks-light.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/tasks-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/tasks-light.png">
       <img src="./packages/twenty-docs/static/img/create-tasks-light.png" alt="Companies view" />
     </picture>
 </p>
-
 
 ## Navigate quickly through the app using keyboard shortcuts and search:
 
 <p align="center">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/shortcut-navigation-dark.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/shortcut-navigation-light.png">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/keyboard-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/keyboard-light.png">
+      <img src="./packages/twenty-docs/static/img/shortcut-navigation-light.png" alt="Companies view" />
+    </picture>
+</p>
+
+## Connect your CRM to all your tools through our APIs and Webhooks.
+
+<p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/api-dark.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/twentyhq/twenty/main/packages/twenty-docs/static/img/api-light.png">
       <img src="./packages/twenty-docs/static/img/shortcut-navigation-light.png" alt="Companies view" />
     </picture>
 </p>

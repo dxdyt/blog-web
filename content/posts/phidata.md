@@ -1,9 +1,9 @@
 ---
 title: phidata
-date: 2024-04-20T12:18:35+08:00
+date: 2024-04-22T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712346226699-e415ad57e22f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712346226699-e415ad57e22f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710170601277-eef520e0a14b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710170601277-eef520e0a14b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [phidatahq/phidata](https://github.com/phidatahq/phidata)
@@ -12,14 +12,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1712346226699-e415ad57e2
   phidata
 </h1>
 
-<p align="center">
-<a href="https://trendshift.io/repositories/7569" target="_blank"><img src="https://trendshift.io/api/badge/repositories/7569" alt="phidatahq%2Fphidata | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</p>
-
-<h4 align="center">
+<h3 align="center">
 Phidata is a framework for building AI Assistants with memory, knowledge and tools.
-</h4>
-
+</h3>
 
 ![image](https://github.com/phidatahq/phidata/assets/22579644/295187f6-ac9d-41e0-abdb-38e3291ad1d1)
 
@@ -353,15 +348,6 @@ python pdf_assistant.py --new
 </details>
 
 ### Checkout the [cookbook](https://github.com/phidatahq/phidata/tree/main/cookbook) for more examples.
-
-## Tutorials
-
-### Build an AI App in 3 steps
-
-[![Build an AI App](https://img.youtube.com/vi/VNoBVR5t1yI/0.jpg)](https://www.youtube.com/watch?v=VNoBVR5t1yI&t "Build an AI App")
-
-### Build a Local RAG AI App using OpenHermes and Ollama
-[![Local AI App](https://img.youtube.com/vi/EVQLYncsDVI/0.jpg)](https://www.youtube.com/watch?v=EVQLYncsDVI&t "Local AI App")
 
 ## Looking to build an AI product?
 

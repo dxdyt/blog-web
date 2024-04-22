@@ -1,9 +1,9 @@
 ---
 title: llamafile
-date: 2024-04-04T12:18:44+08:00
+date: 2024-04-22T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711529793944-f75057def2ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711529793944-f75057def2ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile)

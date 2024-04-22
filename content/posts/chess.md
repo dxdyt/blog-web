@@ -1,9 +1,9 @@
 ---
 title: chess
-date: 2024-04-21T12:15:47+08:00
+date: 2024-04-22T12:16:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708961571391-29a62c082300?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708961571391-29a62c082300?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [code100x/chess](https://github.com/code100x/chess)
@@ -24,5 +24,5 @@ Let's keep it simple
 1. React for Frontend
 2. Node.js for Backend
 3. Typescript as the language
-4. Saparate Websocket servers for handling real time games
+4. Separate Websocket servers for handling real time games
 5. Redis for storing all moves of a game in a queue

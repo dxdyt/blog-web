@@ -1,9 +1,9 @@
 ---
 title: llama-recipes
-date: 2024-04-21T12:16:28+08:00
+date: 2024-04-22T12:18:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711554341104-fb1cdaa68892?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711554341104-fb1cdaa68892?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-recipes](https://github.com/meta-llama/llama-recipes)

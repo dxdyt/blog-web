@@ -1,9 +1,9 @@
 ---
 title: zig
-date: 2024-03-25T12:18:49+08:00
+date: 2024-04-22T12:16:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711122870383-c0a068f2f431?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711122870383-c0a068f2f431?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
 ---
 
 # [ziglang/zig](https://github.com/ziglang/zig)
@@ -95,8 +95,6 @@ therefore lacking these features:
 - [Some ELF linking features](https://github.com/ziglang/zig/issues/17749)
 - [Most COFF/PE linking features](https://github.com/ziglang/zig/issues/17751)
 - [Some WebAssembly linking features](https://github.com/ziglang/zig/issues/17750)
-- [Ability to output LLVM bitcode](https://github.com/ziglang/zig/issues/13265)
-- [Windows resource file compilation](https://github.com/ziglang/zig/issues/17752)
 - [Ability to create import libs from def files](https://github.com/ziglang/zig/issues/17807)
 - [Automatic importlib file generation for Windows DLLs](https://github.com/ziglang/zig/issues/17753)
 - [Ability to create static archives from object files](https://github.com/ziglang/zig/issues/9828)
