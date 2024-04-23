@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2024-03-31T12:19:26+08:00
+date: 2024-04-23T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708696767929-fc5bd50c164c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708696767929-fc5bd50c164c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713300530486-2794c8f4b350?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713300530486-2794c8f4b350?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)
@@ -40,7 +40,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1708696767929-fc5bd50c16
 - [Connecting Your Crew to a Model](#connecting-your-crew-to-a-model)
 - [How CrewAI Compares](#how-crewai-compares)
 - [Contribution](#contribution)
-- [Hire CrewAI](#hire-crewai)
 - [Telemetry](#telemetry)
 - [License](#license)
 
@@ -93,7 +92,7 @@ researcher = Agent(
   verbose=True,
   allow_delegation=False,
   tools=[search_tool]
-  # You can pass an optional llm attribute specifying what mode you wanna use.
+  # You can pass an optional llm attribute specifying what model you wanna use.
   # It can be a local model through Ollama / LM Studio or a remote
   # model like OpenAI, Mistral, Antrophic or others (https://docs.crewai.com/how-to/LLM-Connections/)
   #
@@ -257,11 +256,6 @@ poetry build
 pip install dist/*.tar.gz
 ```
 
-## Hire CrewAI
-
-We're a company developing crewAI and crewAI Enterprise, we for a limited time are offer consulting with selected customers, to get them early access to our enterprise solution
-If you are interested on having access to it and hiring weekly hours with our team, feel free to email us at [joao@crewai.com](mailto:joao@crewai.com).
-
 ## Telemetry
 
 CrewAI uses anonymous telemetry to collect usage data with the main purpose of helping us improve the library by focusing our efforts on the most used features, integrations and tools.
@@ -269,6 +263,7 @@ CrewAI uses anonymous telemetry to collect usage data with the main purpose of h
 There is NO data being collected on the prompts, tasks descriptions agents backstories or goals nor tools usage, no API calls, nor responses nor any data that is being processed by the agents, nor any secrets and env vars.
 
 Data collected includes:
+
 - Version of crewAI
   - So we can understand how many users are using the latest version
 - Version of Python

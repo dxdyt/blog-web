@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2024-04-21T12:16:01+08:00
+date: 2024-04-23T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711987893415-0be6d8472460?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711987893415-0be6d8472460?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710946264456-0786fd17d34a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710946264456-0786fd17d34a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
 ---
 
 # [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
@@ -31,7 +31,7 @@ We provide an easy to use API with our hosted version. You can find the playgrou
 - [ ] LangchainJS - Coming Soon
 
 
-Self-host. To self-host refer to guide [here](https://github.com/mendableai/firecrawl/blob/main/SELF_HOST.md).
+To run locally, refer to guide [here](https://github.com/mendableai/firecrawl/blob/main/CONTRIBUTING.md).
 
 ### API Key
 

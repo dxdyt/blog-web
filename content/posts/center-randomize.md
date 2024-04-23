@@ -1,9 +1,9 @@
 ---
 title: center-randomize
-date: 2024-04-22T12:16:50+08:00
+date: 2024-04-23T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713300530486-2794c8f4b350?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713300530486-2794c8f4b350?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
 ---
 
 # [moest-np/center-randomize](https://github.com/moest-np/center-randomize)
