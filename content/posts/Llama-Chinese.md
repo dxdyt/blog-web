@@ -1,9 +1,9 @@
 ---
 title: Llama-Chinese
-date: 2024-04-22T12:18:57+08:00
+date: 2024-04-24T12:16:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710621665220-68b5deec87f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710621665220-68b5deec87f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
 ---
 
 # [LlamaFamily/Llama-Chinese](https://github.com/LlamaFamily/Llama-Chinese)
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710621665220-68b5deec87
   <img src="assets/llama.jpg" alt="Llama" style="width: 20%; display: block; margin: auto;"></a>
 </p>
 <p align="center">
-  <font face="黑体" color=orange size="6"> 最好的中文Llama大模型 </font>
+  <font face="黑体" color=orange size="6"> Llama3体验和微调已开放，最好的中文Llama大模型 </font>
 </p>
 
 <p align="center">
@@ -43,6 +43,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710621665220-68b5deec87
   * [🤗 模型](#-模型)
     + [🤗 中文预训练模型Atom-7B](#-中文预训练模型atom)
     + [🤗 Llama3官方模型](#llama3官方模型)
+    + [🤗 Llama3中文微调模型](#llama3中文微调模型)
     + [🤗 Llama2官方模型](#llama2官方模型)
     + [🤗 Llama2中文微调模型](#llama2中文微调模型)
   * [🌟 社区资源](#社区资源)
@@ -139,6 +140,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1710621665220-68b5deec87
 
 ### 📢 最新动态
 
+【最新】2024年04月23日：社区增加了llama3 8B中文微调模型[Llama3-Chinese-8B-Instruct](https://github.com/LlamaFamily/Llama-Chinese?tab=readme-ov-file#llama3%E4%B8%AD%E6%96%87%E5%BE%AE%E8%B0%83%E6%A8%A1%E5%9E%8B)以及对应的[免费API调用](https://llama.family/docs/chat-completion-v1)。
+ 
 【最新】2024年04月19日：社区增加了llama3 8B、llama3 70B[在线体验链接](https://llama.family/chat/#/)。
 
 【最新】2024年04月14日：社区更新了四个专家角色：心理咨询师、羊驼夸夸 、律师、医生。链接：[角色role](https://llama.family/tools/#/agent)。
@@ -264,6 +267,12 @@ Atom大模型默认支持4K上下文，利用位置插值PI和Neural Tangent Ker
 |  预训练  | Llama3-70B | meta-llama/Meta-Llama-3-70B | [HuggingFace](https://huggingface.co/meta-llama/Meta-Llama-3-7B) \| [百度网盘](https://pan.baidu.com/s/1gBZ7wEn3gC8VRok0Onh9BQ?pwd=8frq) |
 |  对话模型  | Llama3-8B-Chat  | meta-llama/Meta-Llama-3-8B-Instruct  | [HuggingFace](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) \| [百度网盘](https://pan.baidu.com/s/1gBZ7wEn3gC8VRok0Onh9BQ?pwd=8frq) |
 |  对话模型  | Llama3-70B-Chat  | meta-llama/Meta-Llama-3-70B-Instruct  | [HuggingFace](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct) \| [百度网盘](https://pan.baidu.com/s/1gBZ7wEn3gC8VRok0Onh9BQ?pwd=8frq) |
+
+#### Llama3中文微调模型
+
+|  类别  | 模型名称   | 🤗模型加载名称             | 下载地址                                                     |
+|  ----------  | ---------- | ------------------------- | --------------------- |
+|  对话模型  | Llama3-Chinese-8B-Instruct  | FlagAlpha/Llama3-Chinese-8B-Instruct  | [HuggingFace](https://huggingface.co/FlagAlpha/Llama3-Chinese-8B-Instruct) \| [modelscope](https://modelscope.cn/models/FlagAlpha/Llama3-Chinese-8B-Instruct/summary) \| [wisemodel](https://wisemodel.cn/models/FlagAlpha/Llama3-Chinese-8B-Instruct/file) |
 
 
 #### Llama2官方模型
@@ -422,7 +431,7 @@ docker build -f docker/Dockerfile -t flagalpha/llama2-chinese:gradio .
 第 2 步：通过docker-compose启动chat_gradio
 ```bash
 cd Llama-Chinese/docker
-doker-compose up -d --build
+docker-compose up -d --build
 ```
 
 ### 快速上手-使用llama.cpp
@@ -559,7 +568,7 @@ if __name__ == "__main__":
 
 每个csv文件中包含一列“text”，每一行为一个训练样例，每个训练样例按照以下格式将问题和答案组织为模型输入，您可以按照以下格式自定义训练和验证数据集：
 ```
-"<s>Human: "+问题+"\n</s><s>Assistant: "+答案
+"<s>Human: "+问题+"\n</s><s>Assistant: "+答案+"\n"</s>
 ```
 例如，
 ```
@@ -578,7 +587,7 @@ LoRA微调脚本见：[train/sft/finetune_lora.sh](https://github.com/LlamaFamil
 ### Step4: 加载微调模型
 
 #### LoRA微调
-基于LoRA微调的模型参数见：[基于Llama2的中文微调模型](#基于llama2的中文微调模型)，LoRA参数需要和基础模型参数结合使用。
+基于LoRA微调的模型参数见：[基于Llama2的中文微调模型](#llama2中文微调模型)，LoRA参数需要和基础模型参数结合使用。
 
 通过[PEFT](https://github.com/huggingface/peft)加载预训练模型参数和微调模型参数，以下示例代码中，base_model_name_or_path为预训练模型参数保存路径，finetune_model_path为微调模型参数保存路径。
 
@@ -741,7 +750,9 @@ Llama2-7B-Chat的测试结果见[meta_eval_7B.md](assets/meta_eval_7B.md)，Llam
 Meta Llama全系列模型官方文档：https://llama.meta.com/docs/get-started
 
 ### Llama3
-Llama 3官方链接：https://llama.meta.com/llama3
+[Llama3全套学习资料](https://chinesellama.feishu.cn/wiki/XBKPwbhWriWCfrkmJhfcrS9Rnqc?fromScene=spaceOverview)
+
+Llama3官方链接：https://llama.meta.com/llama3
 
 ### Llama2
 

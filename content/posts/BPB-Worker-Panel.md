@@ -1,0 +1,82 @@
+---
+title: BPB-Worker-Panel
+date: 2024-04-24T12:16:59+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1711122870383-c0a068f2f431?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711122870383-c0a068f2f431?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+---
+
+# [bia-pain-bache/BPB-Worker-Panel](https://github.com/bia-pain-bache/BPB-Worker-Panel)
+
+<h1 align="center">💦 BPB Panel</h1>
+
+### 🌏 Readme in [Farsi](README_fa.md)
+
+<p align="center">
+  <img src="docs/assets/images/Panel.jpg">
+</p>
+<br>
+
+## Introduction
+This project is dedicated to developing a user panel for the [Cloudflare-workers/pages proxy script](https://github.com/yonggekkk/Cloudflare-workers-pages-vless) created by [yonggekkk](https://github.com/yonggekkk). The panel offers two deployment options: 
+- **Worker** deployment
+- **Pages** deployment
+<br>
+
+🌟 If you found **BPB Panel** valuable, Your donations make all the difference 🌟
+- **USDT (TRC20):** `TUeGCozCNL1s5XqGkZ1DtKuCnugJaDnYcc`
+- **Tezos (XTZ):** `tz1RSFQ8jDTZC2UZPwHy55D9XvfnW9KqfZb1`
+
+## Features
+
+1. **Free**: No cost involved.
+2. **User-Friendly Panel:** Designed for easy navigation, configuration and usage.
+3. **Support Fragment:** Provides support for fragment functionality.
+4. **Ad Blocking (Optional):** Option to block Ads.
+5. **Direct Iran (Optional):** Includes an option for direct access to Iran.
+6. **Full routing rules:** Bypassing Iran, Blocking Ads, Malwares, Phishing... for Sing-box.
+7. **Chain Proxy:** Capable of adding a chain proxy to fix IP.
+8. **Supports Wide Range of Clients:** Offers subscription links for Xray and Sing-box core clients.
+9. **Subscription Link (JSON):** Provides subscription link for JSON configs.
+10. **Password-Protected Panel:** Secure your panel with password protection.
+11. **Custom Cloudflare Clean IP:** Ability to use online scanner and setting up clean IP-domains.
+<br>
+
+## How to use:
+- [Installation (Pages)](docs/pages_installation_fa.md)
+
+- [Installation (Worker)](docs/worker_installation_fa.md)
+
+- [How to use](docs/configuration_fa.md)
+
+- [FAQ](docs/faq.md)
+<br>
+
+## Supported Clients
+| Client  | Version | Fragment |
+| :-------------: | :-------------: | :-------------: |
+| **v2rayNG**  | 1.8.19 or higher  | :heavy_check_mark: |
+| **v2rayN**  | 6.42 or higher  | :heavy_check_mark: |
+| **Nekobox**  |   | :x: |
+| **Sing-box**  | 1.8.10 or higher  | :x: |
+| **Streisand**  |   | :heavy_check_mark: |
+| **V2Box**  |   | :x: |
+| **Shadowrocket**  |   | :x: |
+| **Nekoray**  |   | :heavy_check_mark: |
+| **Hiddify**  |   | :x: |
+
+
+---
+
+## Stargazers Over Time
+[![Stargazers Over Time](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel.svg?variant=adaptive)](https://starchart.cc/bia-pain-bache/BPB-Worker-Panel)
+
+---
+
+### Special Thanks
+- CF-vless code author [3Kmfi6HP](https://github.com/3Kmfi6HP/EDtunnel)
+- CF preferred IP program author [badafans](https://github.com/badafans/Cloudflare-IP-SpeedTest), [XIU2](https://github.com/XIU2/CloudflareSpeedTest)
+
+---
+
+For a detailed tutorial on the core script, please refer to [Yongge’s blog and video tutorials](https://ygkkk.blogspot.com/2023/07/cfworkers-vless.html).

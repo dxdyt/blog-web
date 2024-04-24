@@ -1,14 +1,14 @@
 ---
 title: AppAgent
-date: 2023-12-27T12:16:25+08:00
+date: 2024-04-24T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703243030062-58deb1b82367?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703243030062-58deb1b82367?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
 ---
 
 # [mnotgod96/AppAgent](https://github.com/mnotgod96/AppAgent)
 
-# AppAgent
+# AppAgent-[TencentQQGYLab](https://github.com/TencentQQGYLab)
 
 <div align="center">
 
@@ -20,14 +20,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1703243030062-58deb1b823
  <!-- [![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/listen2you002/ChartLlama-13b) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 [![Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-blue)](https://huggingface.co/datasets/listen2you002/ChartLlama-Dataset) -->
 
-[**Chi Zhang***](https://icoz69.github.io/), [**Zhao Yang***](https://github.com/yz93), [**Jiaxuan Liu***](https://www.linkedin.com/in/jiaxuan-liu-9051b7105/), [Yucheng Han](http://tingxueronghua.github.io), [Xin Chen](https://chenxin.tech/), [Zebiao Huang](),
+[**Chi Zhang***†](https://icoz69.github.io/), [**Zhao Yang***](https://github.com/yz93), [**Jiaxuan Liu***](https://www.linkedin.com/in/jiaxuan-liu-9051b7105/), [Yucheng Han](http://tingxueronghua.github.io), [Xin Chen](https://chenxin.tech/), [Zebiao Huang](),
 <br>
-[Bin Fu](https://openreview.net/profile?id=~BIN_FU2), [Gang Yu (Corresponding Author)](https://www.skicyyu.org/)
+[Bin Fu](https://openreview.net/profile?id=~BIN_FU2), [Gang Yu✦](https://www.skicyyu.org/)
 <br>
-(* equal contributions)
+(* equal contribution, † Project Leader, ✦ Corresponding Author )
 </div>
 
+
 ![](./assets/teaser.png)
+
+ℹ️Should you encounter any issues⚠️ while using our project, please feel free to report them on [GitHub Issues](https://github.com/mnotgod96/AppAgent/issues) or reach out to [Dr. Chi Zhang](https://icoz69.github.io/) via email at dr.zhang.chi@outlook.com.
+
+ℹ️This project will be synchronously updated on the official [TencentQQGYLab](https://github.com/TencentQQGYLab/AppAgent) Github Page.
+
+## 📝 Changelog
+- __[2024.2.8]__: Added `qwen-vl-max` (通义千问-VL) as an alternative multi-modal model. The model is currently free to use but has a relatively poorer performance compared with GPT-4V.
+- __[2024.1.31]__: Released the [evaluation benchmark](https://github.com/mnotgod96/AppAgent/blob/main/assets/testset.md) used during our testing of AppAgent
+- __[2024.1.2]__: 🔥Added an optional method for the agent to bring up a grid overlay on the screen to **tap/swipe anywhere** on the screen.
+- __[2023.12.26]__: Added [Tips](#tips) section for better use experience; added instruction for using the **Android Studio emulator** for
+  users who do not have Android devices.
+- __[2023.12.21]__: 🔥🔥 Open-sourced the git repository, including the detailed configuration steps to implement our AppAgent!
+
 
 ## 🔆 Introduction
 
@@ -37,10 +51,6 @@ Our framework enables the agent to operate smartphone applications through a sim
 
 Central to our agent's functionality is its innovative learning method. The agent learns to navigate and use new apps either through autonomous exploration or by observing human demonstrations. This process generates a knowledge base that the agent refers to for executing complex tasks across different applications.
 
-## 📝 Changelog
-- __[2023.12.26]__: Added [Tips](#tips) section for better use experience; added instruction for using the Android Studio emulator for
-  users who do not have Android devices.
-- __[2023.12.21]__: 🔥🔥 Open-sourced the git repository, including the detailed configuration steps to implement our AppAgent!
 
 ## ✨ Demo
 
@@ -52,9 +62,13 @@ An interesting experiment showing AppAgent's ability to pass CAPTCHA.
 
 https://github.com/mnotgod96/AppAgent/assets/27103154/5cc7ba50-dbab-42a0-a411-a9a862482548
 
+An example of using the grid overlay to locate a UI element that is not labeled with a numeric tag.
+
+https://github.com/mnotgod96/AppAgent/assets/27103154/71603333-274c-46ed-8381-2f9a34cdfc53
+
 ## 🚀 Quick Start
 
-This section will guide you on how to quickly use gpt-4-vision-preview as an agent to complete specific tasks for you on
+This section will guide you on how to quickly use `gpt-4-vision-preview` (or `qwen-vl-max`) as an agent to complete specific tasks for you on
 your Android app.
 
 ### ⚙️ Step 1. Prerequisites
@@ -97,8 +111,13 @@ Other parameters in `config.yaml` are well commented. Modify them as you need.
 
 > Be aware that GPT-4V is not free. Each request/response pair involved in this project costs around $0.03. Use it wisely.
 
-If you want to test AppAgent using your own models, you should modify the `ask_gpt_4v` function in `scripts/model.py` 
-accordingly.
+You can also try `qwen-vl-max` (通义千问-VL) as the alternative multi-modal model to power the AppAgent. The model is currently 
+free to use but its performance in the context of AppAgent is poorer compared with GPT-4V.
+
+To use it, you should create an Alibaba Cloud account and [create a Dashscope API key](https://help.aliyun.com/zh/dashscope/developer-reference/activate-dashscope-and-create-an-api-key?spm=a2c4g.11186623.0.i1) to fill in the `DASHSCOPE_API_KEY` field 
+in the `config.yaml` file. Change the `MODEL` field from `OpenAI` to `Qwen` as well.
+
+If you want to test AppAgent using your own models, you should write a new model class in `scripts/model.py` accordingly.
 
 ### 🔍 Step 3. Exploration Phase
 
@@ -152,15 +171,18 @@ python run.py
 ```
 
 ## 💡 Tips<a name="tips"></a>
-- For a better experience, you can let AppAgent try a few more tasks through autonomous exploration or manually demonstrate
-  a few more app functions to the agent to enrich the app documentation. Usually, the more documentation the agent has, the
-  higher the probability the agent completes the task successfully.
+- For an improved experience, you might permit AppAgent to undertake a broader range of tasks through autonomous exploration, or you can directly demonstrate more app functions to enhance the app documentation. Generally, the more extensive the documentation provided to the agent, the higher the likelihood of successful task completion.
 - It is always a good practice to inspect the documentation generated by the agent. When you find some documentation not accurately
   describe the function of the element, manually revising the documentation is also an option.
 
 
+## 📊 Evaluation
+Please refer to  [evaluation benchmark](https://github.com/mnotgod96/AppAgent/blob/main/assets/testset.md).
+
+
 ## 📖 To-Do List
-- [ ] Open source the Benchmark.
+- [ ] Incorporate more LLM APIs into the project.
+- [x] Open source the Benchmark.
 - [x] Open source the configuration.
 
 ## 😉 Citation

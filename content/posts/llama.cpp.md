@@ -1,9 +1,9 @@
 ---
 title: llama.cpp
-date: 2024-04-23T12:17:21+08:00
+date: 2024-04-24T12:16:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711634537178-87449f29c628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711634537178-87449f29c628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711574786543-0078cf358b50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711574786543-0078cf358b50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)

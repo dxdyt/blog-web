@@ -1,14 +1,20 @@
 ---
 title: kimi-free-api
-date: 2024-03-31T12:18:34+08:00
+date: 2024-04-24T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709983966850-575eb81478ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709983966850-575eb81478ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711216818772-c810e99c7434?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711216818772-c810e99c7434?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
 ---
 
 # [LLM-Red-Team/kimi-free-api](https://github.com/LLM-Red-Team/kimi-free-api)
 
 # KIMI AI Free 服务
+
+
+<hr>
+
+<span>[ 中文 | <a href="README_EN.md">English</a> ]</span>
+
 
 ![](https://img.shields.io/github/license/llm-red-team/kimi-free-api.svg)
 ![](https://img.shields.io/github/stars/llm-red-team/kimi-free-api.svg)
@@ -19,13 +25,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1709983966850-575eb81478
 
 与ChatGPT接口完全兼容。
 
-还有以下四个free-api欢迎关注：
+还有以下五个free-api欢迎关注：
 
 阶跃星辰 (跃问StepChat) 接口转API [step-free-api](https://github.com/LLM-Red-Team/step-free-api)
 
 阿里通义 (Qwen) 接口转API [qwen-free-api](https://github.com/LLM-Red-Team/qwen-free-api)
 
 ZhipuAI (智谱清言) 接口转API [glm-free-api](https://github.com/LLM-Red-Team/glm-free-api)
+
+秘塔AI (metaso) 接口转API [metaso-free-api](https://github.com/LLM-Red-Team/metaso-free-api)
 
 聆心智能 (Emohaa) 接口转API [emohaa-free-api](https://github.com/LLM-Red-Team/emohaa-free-api)
 
@@ -38,15 +46,20 @@ ZhipuAI (智谱清言) 接口转API [glm-free-api](https://github.com/LLM-Red-Te
   * [多账号接入](#多账号接入)
 * [Docker部署](#Docker部署)
   * [Docker-compose部署](#Docker-compose部署)
+* [Render部署](#Render部署)
+* [Vercel部署](#Vercel部署)
 * [原生部署](#原生部署)
 * [接口列表](#接口列表)
   * [对话补全](#对话补全)
   * [文档解读](#文档解读)
   * [图像解析](#图像解析)
+  * [refresh_token存活检测](#refresh_token存活检测)
 * [注意事项](#注意事项)
   * [Nginx反代优化](#Nginx反代优化)
 
 ## 免责声明
+
+**逆向API是不稳定的，建议前往MoonshotAI官方 https://platform.moonshot.cn/ 付费使用API，避免封禁的风险。**
 
 **本组织和个人不接受任何资金捐助和交易，此项目是纯粹研究交流学习性质！**
 
@@ -64,23 +77,23 @@ https://udify.app/chat/Po0F6BMJ15q5vu2P
 
 ## 效果示例
 
-### 验明正身
+### 验明正身Demo
 
 ![验明正身](./doc/example-1.png)
 
-### 多轮对话
+### 多轮对话Demo
 
 ![多轮对话](./doc/example-6.png)
 
-### 联网搜索
+### 联网搜索Demo
 
 ![联网搜索](./doc/example-2.png)
 
-### 长文档解读
+### 长文档解读Demo
 
 ![长文档解读](./doc/example-5.png)
 
-### 图像解析
+### 图像解析Demo
 
 ![图像解析](./doc/example-3.png)
 
@@ -151,6 +164,39 @@ services:
     environment:
       - TZ=Asia/Shanghai
 ```
+
+### Render部署
+
+**注意：部分部署区域可能无法连接kimi，如容器日志出现请求超时或无法连接（新加坡实测不可用）请切换其他区域部署！**
+**注意：免费账户的容器实例将在一段时间不活动时自动停止运行，这会导致下次请求时遇到50秒或更长的延迟，建议查看[Render容器保活](https://github.com/LLM-Red-Team/free-api-hub/#Render%E5%AE%B9%E5%99%A8%E4%BF%9D%E6%B4%BB)**
+
+1. fork本项目到你的github账号下。
+
+2. 访问 [Render](https://dashboard.render.com/) 并登录你的github账号。
+
+3. 构建你的 Web Service（New+ -> Build and deploy from a Git repository -> Connect你fork的项目 -> 选择部署区域 -> 选择实例类型为Free -> Create Web Service）。
+
+4. 等待构建完成后，复制分配的域名并拼接URL访问即可。
+
+### Vercel部署
+
+**注意：Vercel免费账户的请求响应超时时间为10秒，但接口响应通常较久，可能会遇到Vercel返回的504超时错误！**
+
+请先确保安装了Node.js环境。
+
+```shell
+npm i -g vercel --registry http://registry.npmmirror.com
+vercel login
+git clone https://github.com/LLM-Red-Team/kimi-free-api
+cd kimi-free-api
+vercel --prod
+```
+
+### Zeabur部署
+
+**注意：免费账户的容器实例可能无法稳定运行**
+
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/GRFYBP)
 
 ## 原生部署
 
@@ -386,6 +432,26 @@ Authorization: Bearer [refresh_token]
         "total_tokens": 2
     },
     "created": 1710123627
+}
+```
+
+### refresh_token存活检测
+
+检测refresh_token是否存活，如果存活live为true，否则为false，请不要频繁（小于10分钟）调用此接口。
+
+**POST /token/check**
+
+请求数据：
+```json
+{
+    "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9..."
+}
+```
+
+响应数据：
+```json
+{
+    "live": true
 }
 ```
 

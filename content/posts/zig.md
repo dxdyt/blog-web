@@ -1,9 +1,9 @@
 ---
 title: zig
-date: 2024-04-22T12:16:59+08:00
+date: 2024-04-24T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711881380520-7a60253500a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707808512103-23f911fab68a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707808512103-23f911fab68a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
 ---
 
 # [ziglang/zig](https://github.com/ziglang/zig)
