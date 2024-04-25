@@ -1,9 +1,9 @@
 ---
 title: ChatGPT
-date: 2024-04-12T12:17:09+08:00
+date: 2024-04-25T12:22:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710697517104-429f0842a417?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710697517104-429f0842a417?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712514045725-ff67403caead?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712514045725-ff67403caead?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [PawanOsman/ChatGPT](https://github.com/PawanOsman/ChatGPT)

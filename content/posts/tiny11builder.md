@@ -1,9 +1,9 @@
 ---
 title: tiny11builder
-date: 2024-04-24T12:15:51+08:00
+date: 2024-04-25T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712371962655-e012be1aa79d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712371962655-e012be1aa79d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712074228235-cc1fa4e4070f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712074228235-cc1fa4e4070f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
@@ -68,7 +68,7 @@ Known issues:
 
 1. Although Edge is removed, there are some remnants in the Settings. But the app in itself is deleted. You can install any browser using WinGet (after you update the app using Microsoft Store). If you want Edge, Copilot and Web Search back, simply install Edge using Winget: `winget install edge`.
 <br>
-Note: You might have to update Winget first usimg Microsoft Store.
+Note: You might have to update Winget before using Microsoft Store.
 <br>
 </br>
 2. Outlook and Dev Home might reappear after some time.

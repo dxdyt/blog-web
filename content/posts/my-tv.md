@@ -1,9 +1,9 @@
 ---
 title: my-tv
-date: 2024-03-25T12:18:06+08:00
+date: 2024-04-25T12:22:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711058539696-75d41199ef10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711058539696-75d41199ef10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEzNDAxNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713117222954-7e50825ead4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713117222954-7e50825ead4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [lizongying/my-tv](https://github.com/lizongying/my-tv)
@@ -41,13 +41,27 @@ adb install my-tv.apk
 * CHC高清三个电影频道
 * 地方频道
 * 收藏夹
-* 自定义源
 * 海外
 * 节目增加预告
 * 频道列表优化
 * 自动更新
 * 显示时间
 * 软解
+* 不同分辨率
+
+無法自啟的設備：
+斐讯N1盒子，[Phicomm] Phicomm p230 (Android 7.1.2)
+
+閃退：
+中国移动盒子(新魔百和M302A) 4.4.2
+
+## 版权说明
+
+本项目仅供学习研究，禁止用于商业用途，请于下载二十四小时内删除。
+
+本项目可能随时终止，请大家谨慎使用，建议使用官方渠道进行观看。
+
+本项目使用的部分代码、图片、文字等资源来源于网络，如有侵权，请联系删除。
 
 ## 赞赏
 

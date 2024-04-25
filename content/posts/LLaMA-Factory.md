@@ -1,9 +1,9 @@
 ---
 title: LLaMA-Factory
-date: 2024-04-24T12:15:29+08:00
+date: 2024-04-25T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711127016876-9a1b7e05126f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713098124568-bf6f01fb2327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713098124568-bf6f01fb2327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [hiyouga/LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)

@@ -1,9 +1,9 @@
 ---
 title: phidata
-date: 2024-04-23T12:18:19+08:00
+date: 2024-04-25T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712145078393-665300b197e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712145078393-665300b197e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712383830015-31c97367b899?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712383830015-31c97367b899?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [phidatahq/phidata](https://github.com/phidatahq/phidata)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1712145078393-665300b197
 </h1>
 
 <h3 align="center">
-Phidata is a framework for building AI Assistants with memory, knowledge and tools.
+Phidata adds memory, knowledge and tools to LLMs
 </h3>
 
 ![image](https://github.com/phidatahq/phidata/assets/22579644/295187f6-ac9d-41e0-abdb-38e3291ad1d1)

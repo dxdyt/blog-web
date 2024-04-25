@@ -1,30 +1,34 @@
 ---
 title: English-level-up-tips
-date: 2024-01-28T12:15:22+08:00
+date: 2024-04-25T12:22:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705407193485-98a3cca5d125?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713098124568-bf6f01fb2327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713098124568-bf6f01fb2327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [byoungd/English-level-up-tips](https://github.com/byoungd/English-level-up-tips)
+
+谨以此献给我曾今的挚爱 `W.`
+
+> 我们每个人都生活在各自的过去中，人们会用一分钟的时间去认识一个人，用一小时的时间去喜欢一个人，再用一天的时间去爱上一个人，到最后呢，却要用一辈子的时间去忘记一个人。
 
 # 项目介绍
 
 An advanced guide to learn English which might benefit you a lot.
 
-离谱的英语学习指南。
+离谱的英语学习指南/英语学习教程。
 
 ## 背景
 
 大家好，我是离谱，欢迎来到离谱的英语学习指南，让我们像老朋友一样，随便聊聊。
 
-时间回到 2017 年 7 月初，备考托福的女神问了我一个问题：如何高效学习英语？
+时间回到 2017 年 7 月初，备考托福的女神`W.`问了我一个问题：**如何高效学习英语？**
 
-在我思考如何回答这个问题时，想到了在大四上一学期我考过 26 门课的经验（其中重修 19 门，当前学期 7 门），觉得我应该能勉强提供一些高效学习的小技巧。
+在我思考如何回答这个问题时，回想起我在大四一学期一次性考过 26 门课的经验（其中重修 19 门，当前学期 7 门），再加上本人英语和语文两门学科曾侥幸在高考时取得了省第一（江苏卷），或许我勉强有资格提供一些`高效学习`的`小技巧`，权当抛砖引玉。
 
-与她交流了一番学习心得后，我惊讶于她在学习方面的热情竟是如此之高，同时也发现了她的学习方法存在一些不可取之处。
+与她交流了一番学习心得后，我惊讶于她在学习方面的热情竟是如此之高，同时也发现了她的学习方法存在一些`不可取之处`。
 
-于是我写了一篇简单的文章零散地介绍了下我学习英语的小技巧，几天后她告诉我，希望我可以将这些学习经验稍加整理，分享给更多有需要的人。
+于是我写了一篇简单的文章零散地介绍了下我学习英语的心得体会，几天后她告诉我，希望我可以将这些学习经验稍加整理，分享给更多有需要的人。
 
 在此之前，我并不知道原来有那么多的同学在学习英语的道路上是一路走到黑的。
 他们甚至从未想过：**英语作为一门语言，学习起来应该是一件比较自然而然的事情，就像我们自然而然地学会汉语那样**。
@@ -70,20 +74,17 @@ The only way to do great work is to love what you do. If you haven't found it ye
 
 - 感谢所有关心以及为这份指南做出贡献的人 ❤️
 
-## 关于赞赏
-
-有不少热心的小伙伴来信，表明本指南写的很用心，认为对其学习英语有一定的帮助，希望能进行赞赏。
-
-2017 年 6 月 8 日我和一见钟情的女神走到一起，**既然已经得到此生所爱，便不再需要其他奖赏**。
-
-![](assets/l1.jpeg)
-![](assets/l3.jpeg)
-
-和她相遇的那天，我的脑海中只有一句话：草在结它的种子，风在摇它的叶子。我们站着，不说话，就十分美好。——顾城《门前》
-
 ## 番外篇
 
 聊聊我的个人成长经历中的爱情部分，欢迎查阅 [离谱的前女友们](https://github.com/byoungd/how-to-find-love)
+
+## 离谱的抖音
+
+如果你对我感兴趣，可以关注我的抖音号: 72581209403
+
+或搜索 `你好离谱` 找到红色 `P` 的头像
+
+![离谱的抖音](/assets/douyin.jpg)
 
 ## 在线阅读
 
@@ -97,10 +98,15 @@ The only way to do great work is to love what you do. If you haven't found it ye
 
 ## 协议/License
 
-本作品采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a> 进行许可。
+本作品采用知识共享署名-非商业性使用 4.0 国际许可协议进行许可。
 
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a> <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a>
 
 ## 特别声明
+
+有不少热心的小伙伴来信，表明本指南写的很用心，认为对其学习英语有一定的帮助，希望能进行赞赏。
+
+**命运已经给了离谱诸多额外的馈赠，便不再需要其他奖赏**。
 
 统一声明：**本指南不接受也不需要金钱上的赞助**。
 

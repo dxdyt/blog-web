@@ -1,9 +1,9 @@
 ---
 title: llama3-Chinese-chat
-date: 2024-04-24T12:16:09+08:00
+date: 2024-04-25T12:21:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711834232269-cfb17a5cb2fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711834232269-cfb17a5cb2fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711207469465-e17f3c20c5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711207469465-e17f3c20c5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
 ---
 
 # [CrazyBoyM/llama3-Chinese-chat](https://github.com/CrazyBoyM/llama3-Chinese-chat)
@@ -29,6 +29,7 @@ first version of llama3 in Chinese (首个llama3 中文版)  ，本仓库供交�
 ### 可用Chat版模型整理
 注意由于只训练了常见对话，base + sft版有可能会出现不符合预期的回复 （尤其是对于一些非常见回答），本教程更多用于优质资源整理（包含如何对llama3进行中文微调，怎样制作中文对话数据集，角色扮演、agent能力增强，扩充上下文长度，如何进行网页部署和量化，手机、电脑cpu推理部署等），将会逐渐整理补充进来。  
 llama3相关对话版本优质权重整理：（欢迎issue补充）
+- 中文微调数据集部分汇总 - https://modelscope.cn/datasets/zhuangxialie/Llama3-Chinese-Dataset/summary
 - shareAI系列：
   - base预训练 + 直接中文sft版:
      - 训练数据：https://modelscope.cn/datasets/baicai003/Llama3-Chinese-dataset/summary 
@@ -40,9 +41,13 @@ llama3相关对话版本优质权重整理：（欢迎issue补充）
      - V3版
         - https://modelscope.cn/models/zhuangxialie/Llama3_Chinese_Sft/files 
   - Instruct + 继续中文sft版：https://modelscope.cn/models/baicai003/llama-3-8b-Instruct-chinese_v2/summary
-  - Instruct + DPO偏好中文版：正在进行中
+  - Instruct + DPO偏好中文版：https://www.modelscope.cn/models/zhuangxialie/Llama3-Chinese-DPO/summary ```偏爱长对话```
+  - Base + ORPO偏好中文版：https://modelscope.cn/models/zhuangxialie/Llama3-Chinese-ORPO/summary ```偏爱长对话```
   - Base预训练 + 海量中文优质数据增量预训练：正在进行中 
   - 70b 中文版：计划中
+- llama3 Pro（加block版）：
+  - ORPO + 2block：https://github.com/linjh1118/Llama3-Chinese-ORPO
+- llama3 Moe增强版：计划中
 - 联通微调版：https://www.modelscope.cn/models/UnicomAI/Unichat-llama3-Chinese/summary
 - Openbuddy微调版：https://www.modelscope.cn/models/OpenBuddy/openbuddy-llama3-8b-v21.1-8k/summary
 - zhichen微调版：https://github.com/seanzhang-zhichen/llama3-chinese
@@ -52,13 +57,11 @@ llama3相关对话版本优质权重整理：（欢迎issue补充）
   - Unholy：https://huggingface.co/Undi95/Llama-3-Unholy-8B
   - neural-chat：https://hf-mirror.com/Locutusque/llama-3-neural-chat-v1-8b
   - dolphin：https://huggingface.co/cognitivecomputations/dolphin-2.9-llama3-8b
-- llama3 Moe增强版：计划中
-- llama3 Pro（加block版）：
-  - ORPO + 2block：https://github.com/linjh1118/Llama3-Chinese-ORPO  
 - v-llama3 多模态图文版：（支持视觉问答）
   - Bunny-Llama-3-8B-V：https://wisemodel.cn/models/BAAI/Bunny-Llama-3-8B-V
   - llava-llama-3-8b：https://huggingface.co/xtuner/llava-llama-3-8b-v1_1
-- agent工具能力增强版：计划中
+- agent工具能力增强版：
+  - ModelScope Chinese Agent版V1：https://modelscope.cn/models/swift/Llama3-Chinese-8B-Instruct-Agent-v1/summary
 - 小说、网文、故事撰写任务增强版：计划中
 - 音乐生成任务版：计划中
 - 猫娘扮演版：计划中
@@ -78,6 +81,7 @@ llama3相关对话版本优质权重整理：（欢迎issue补充）
 后面我也会在b站录制相关模型部署推理、训练的演示教程视频，我的个人b站：https://space.bilibili.com/291593914  
 
 ### 可用训练数据整理
+
 
 | 数据集                                                                                                          | 介绍                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,6 +109,7 @@ llama3相关对话版本优质权重整理：（欢迎issue补充）
 - LLaMA-Factory - https://github.com/hiyouga/LLaMA-Factory
 - unsloth  -  https://github.com/unslothai/unsloth
 - Xtuner  -  https://github.com/SmartFlowAI/Llama3-XTuner-CN  
+- SWIFT  -  https://github.com/modelscope/swift
 
 ### Llama3 相关教程整理
 - self-llm  -   https://github.com/datawhalechina/self-llm/tree/master/LLaMA3
@@ -227,7 +232,7 @@ def load_model(model_name_or_path, load_in_4bit=False, adapter_name_or_path=None
 
     return model
 
-## 加载tokenzier
+## 加载tokenizer
 def load_tokenizer(model_name_or_path):
     tokenizer = AutoTokenizer.from_pretrained(
         model_name_or_path,
