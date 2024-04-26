@@ -1,9 +1,9 @@
 ---
 title: llm-scraper
-date: 2024-04-24T12:16:16+08:00
+date: 2024-04-26T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711122870383-c0a068f2f431?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711122870383-c0a068f2f431?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713780985224-bfd1a9e622ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713780985224-bfd1a9e622ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
 ---
 
 # [mishushakov/llm-scraper](https://github.com/mishushakov/llm-scraper)

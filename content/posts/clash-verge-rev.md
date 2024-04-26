@@ -1,9 +1,9 @@
 ---
 title: clash-verge-rev
-date: 2024-03-15T12:18:56+08:00
+date: 2024-04-26T12:15:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707910072166-6d3e607cd056?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707910072166-6d3e607cd056?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712858286350-705f84b25824?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712858286350-705f84b25824?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
 ---
 
 # [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)

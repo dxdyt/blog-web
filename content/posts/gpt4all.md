@@ -1,9 +1,9 @@
 ---
 title: gpt4all
-date: 2024-04-25T12:21:07+08:00
+date: 2024-04-26T12:16:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711699487054-aca10a6b85ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711699487054-aca10a6b85ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713288971566-40cd263c2792?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713288971566-40cd263c2792?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
 ---
 
 # [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
