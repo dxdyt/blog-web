@@ -1,175 +1,167 @@
 ---
 title: maestro
-date: 2024-01-08T12:17:00+08:00
+date: 2024-04-27T12:15:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743805074-497f68fb33b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743805074-497f68fb33b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ2ODczOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711466338988-e6dd163339e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711466338988-e6dd163339e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
 ---
 
-# [llenotre/maestro](https://github.com/llenotre/maestro)
+# [Doriandarko/maestro](https://github.com/Doriandarko/maestro)
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/llenotre/maestro-lnf/master/logo-light.svg">
-    <img src="https://raw.githubusercontent.com/llenotre/maestro-lnf/master/logo.svg" alt="logo" width="50%" />
-  </picture>
-</p>
-
-[![MIT license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge&logo=book)](./LICENSE)
-![Version](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fllenotre%2Fmaestro%2Fmaster%2FCargo.toml&query=%24.package.version&style=for-the-badge&label=version)
-![Rust toolchain](https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2Fllenotre%2Fmaestro%2Fmaster%2Frust-toolchain.toml&query=%24.toolchain.channel&style=for-the-badge&logo=rust&label=rust%20toolchain&color=%23444)
-![Continuous integration](https://img.shields.io/github/actions/workflow/status/llenotre/maestro/check.yml?style=for-the-badge&logo=github)
-![Stars](https://img.shields.io/github/stars/llenotre/maestro?style=for-the-badge&color=yellow)
-[![Discord](https://img.shields.io/discord/971452040821760080?style=for-the-badge&logo=discord&color=%235865f2)](https://discord.gg/4JMBN3YPAk)
+# Maestro - A Framework for Claude Opus, GPT and local LLMs to Orchestrate Subagents
 
 
+This Python script demonstrates an AI-assisted task breakdown and execution workflow using the Anthropic API. It utilizes two AI models, Opus and Haiku, to break down an objective into sub-tasks, execute each sub-task, and refine the results into a cohesive final output.
 
-# About
+## New
 
-Maestro is a lightweight Unix-like kernel written in Rust.
+Mestro now runs locally thanks to the Ollama platform. Experience the power of Llama 3 locally! 
 
-The goal is to provide a lightweight operating system able to use the safety features of the Rust language to be reliable.
+Before running the script
 
-> This project is still in early stage development, thus it is highly unstable and misses a lot of features. **Do not use it in production!**
+Install Ollama client from here
+https://ollama.com/download
 
-To stay updated with the project, follow the [blog](https://blog.lenot.re)!
+then
 
-<p align="center">
-  <img src="https://blog.lenot.re/assets/article/neofetch.png" alt="neofetch" width="100%" />
-</p>
+```bash
+pip install ollama
+```
+And 
 
-[Neofetch](https://github.com/dylanaraps/neofetch) and bash running on the OS.
+```bash
+ollama.pull('llama3:70b')
+```
+This will depend on the model you want to use it, you only need to do it once or if you want to update the model when a new version it's out.
+In the script I am using both versions but you can customize the model you want to use
 
+ollama.pull('llama3:70b')
+ollama.pull('llama3:8b')
 
+Then
 
-# Features
-
-The following features are currently implemented (non-exhaustive):
-- Terminal with [VGA text mode](https://en.wikipedia.org/wiki/VGA_text_mode) and [PS/2](https://en.wikipedia.org/wiki/PS/2_port) keyboard (with forward compatibility with USB handled by the motherboard's firmware)
-    - Partial support of [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code)
-- Memory allocation/virtual memory
-    - [Buddy allocator](https://en.wikipedia.org/wiki/Buddy_memory_allocation)
-    - Internal memory allocator, with similarities with **dlmalloc**'s implementation, working on top of the buddy allocator
-- Processes and [scheduler](https://en.wikipedia.org/wiki/Scheduling_(computing)) ([round-robin](https://en.wikipedia.org/wiki/Round-robin_scheduling))
-    - POSIX signals
-- [PCI](https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect) devices enumeration
-- Files:
-    - Mountpoints
-    - [IDE/PATA](https://en.wikipedia.org/wiki/Parallel_ATA) driver
-    - Filesystem ([ext2](https://en.wikipedia.org/wiki/Extended_file_system) only for now)
-    - Disk partitions ([MBR](https://en.wikipedia.org/wiki/Master_boot_record) and [GPT](https://en.wikipedia.org/wiki/GUID_Partition_Table))
-    - Virtual filesystems (`/tmp` and `/proc`)
-    - initramfs
-- Time/Clock ([RTC](https://en.wikipedia.org/wiki/Real-time_clock))
-- Linux system calls (roughly 30% are currently implemented)
-- Kernel modules
-- [ELF](https://en.wikipedia.org/wiki/Executable_and_Linkable_Format) programs
-
-
-
-# Quickstart
-
-This repository is not a full operating system in itself but only the kernel.
-
-You can either:
-- Use the [installer](https://github.com/llenotre/maestro-install) to build a full operating system from an ISO file
-- Build the OS by hand. For this, you can check the kernel's book
-
-The OS can then be run by a virtual machine such a **QEMU** or **VirtualBox**, or on a physical machine.
-
-
-
-## Build
-
-The configuration allows to easily specify which features have to be enabled in the kernel. This configuration is *required* to compile the kernel.
-
-A default configuration is available in the file `default.config.toml`. To use it, simply type the command:
-
-```sh
-cp default.config.toml config.toml
+```bash
+python maestro-ollama.py
 ```
 
-After configuration, the kernel can be built using the following commands:
-
-```sh
-cargo build               # Debug mode
-cargo build --release     # Release mode
+## Higly requested features
+- GROQ SUPPORT
+Experience the power of maestro thanks to Groq super fast api responses.
+```bash
+pip install groq
 ```
+Then
 
-The default architecture is `x86`. To specify another architecture, add the following parameter to the build command: `--target arch/<arch>/<arch>.json`, where `<arch>` is the selected architecture.
-
-The list of available architectures can be retrieved by typing the command:
-
-```sh
-ls -1 arch/
+```bash
+python maestro-groq.py
 ```
 
 
+- SEARCH 🔍
 
-## Run
+Now, when it's creating a task for its subagent, Claude Opus will perform a search and get the best answer to help the subagent solve that task even better.
 
-### With QEMU
+Make sure you replace your Tavil API for search to work
 
-QEMU is the preferred virtual machine to test the kernel.
+Get one here https://tavily.com/
+  
+- GPT4 SUPPORT
 
-To install QEMU, type the following command:
-
-Ubuntu/Debian:
-
-```sh
-apt install qemu
+Add support for GPT-4 as an orchestrator in maestro-gpt.py
+Simply
+```bash
+python maestro-gpt.py
 ```
 
-Arch Linux:
+After you complete your installs.
 
-```sh
-pacman -S qemu
+
+## Features
+
+- Breaks down an objective into manageable sub-tasks using the Opus model
+- Executes each sub-task using the Haiku model
+- Provides the Haiku model with memory of previous sub-tasks for context
+- Refines the sub-task results into a final output using the Opus model
+- Generates a detailed exchange log capturing the entire task breakdown and execution process
+- Saves the exchange log to a Markdown file for easy reference
+- Utilizes an improved prompt for the Opus model to better assess task completion
+- Creates code files and folders when working on code projects.
+
+## Prerequisites
+
+To run this script, you need to have the following:
+
+- Python installed
+- Anthropic API key
+- Required Python packages: `anthropic` and `rich`
+
+## Installation
+
+1. Clone the repository or download the script file.
+2. Install the required Python packages by running the following command:
+
+```bash
+pip install -r requirements.txt
 ```
 
-A fully built operating system is required to run the system. This system must be present on a raw disk in the file `qemu_disk` at the root of the repository. The option `-drive file=qemu_disk,format=raw` is used on QEMU to reference the disk.
+3. Replace the placeholder API key in the script with your actual Anthropic API key:
 
-The kernel can be run using:
-
-```sh
-cargo run               # Debug mode
-cargo run --release     # Release mode
+```python
+client = Anthropic(api_key="YOUR_API_KEY_HERE")
 ```
 
-
-#### Run unit tests
-
-The following command runs unit tests in QEMU:
-
-```sh
-cargo test --lib
+If using search, replace your Tavil API
+```python
+tavily = TavilyClient(api_key="YOUR API KEY HERE")
 ```
 
+## Usage
 
+1. Open a terminal or command prompt and navigate to the directory containing the script.
+2. Run the script using the following command:
 
-## Documentation
-
-### The book
-
-The kernel's book contains general information on how to use the kernel.
-
-The book can be built using *mdbook*, with the command:
-
-```sh
-mdbook build doc/
+```bash
+python maestro.py
 ```
 
-Then, it can be accessed at `doc/book/index.html`.
+3. Enter your objective when prompted:
 
-
-
-### References
-
-The references contain the documentation for functions, structures, etc...
-
-It can be built using the command:
-
-```sh
-cargo doc
+```bash
+Please enter your objective: Your objective here
 ```
 
-Then, it can be accessed at `target/<arch>/doc/kernel/index.html`, where `<arch>` is the architecture the kernel has been compiled for.
+The script will start the task breakdown and execution process. It will display the progress and results in the console using formatted panels.
+
+Once the process is complete, the script will display the refined final output and save the full exchange log to a Markdown file with a filename based on the objective.
+
+## Code Structure
+
+The script consists of the following main functions:
+
+- `opus_orchestrator(objective, previous_results=None)`: Calls the Opus model to break down the objective into sub-tasks or provide the final output. It uses an improved prompt to assess task completion and includes the phrase "The task is complete:" when the objective is fully achieved.
+- `haiku_sub_agent(prompt, previous_haiku_tasks=None)`: Calls the Haiku model to execute a sub-task prompt, providing it with the memory of previous sub-tasks.
+- `opus_refine(objective, sub_task_results)`: Calls the Opus model to review and refine the sub-task results into a cohesive final output.
+
+The script follows an iterative process, repeatedly calling the opus_orchestrator function to break down the objective into sub-tasks until the final output is provided. Each sub-task is then executed by the haiku_sub_agent function, and the results are stored in the task_exchanges and haiku_tasks lists.
+
+The loop terminates when the Opus model includes the phrase "The task is complete:" in its response, indicating that the objective has been fully achieved.
+
+Finally, the opus_refine function is called to review and refine the sub-task results into a final output. The entire exchange log, including the objective, task breakdown, and refined final output, is saved to a Markdown file.
+
+## Customization
+
+You can customize the script according to your needs:
+
+- Adjust the max_tokens parameter in the client.messages.create() function calls to control the maximum number of tokens generated by the AI models.
+- Change the models to what you prefer, like replacing Haiku with Sonnet or Opus.
+- Modify the console output formatting by updating the rich library's Panel and Console configurations.
+- Customize the exchange log formatting and file extension by modifying the relevant code sections.
+
+## License
+
+This script is released under the MIT License.
+
+## Acknowledgements
+
+- Anthropic for providing the AI models and API.
+- Rich for the beautiful console formatting.

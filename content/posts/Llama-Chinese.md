@@ -1,9 +1,9 @@
 ---
 title: Llama-Chinese
-date: 2024-04-26T12:15:50+08:00
+date: 2024-04-27T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711281048469-77313ce297ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711281048469-77313ce297ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711637720126-693a567b4a1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711637720126-693a567b4a1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
 ---
 
 # [LlamaFamily/Llama-Chinese](https://github.com/LlamaFamily/Llama-Chinese)

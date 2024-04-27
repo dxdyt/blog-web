@@ -1,9 +1,9 @@
 ---
 title: OpenCRISPR
-date: 2024-04-26T12:17:48+08:00
+date: 2024-04-27T12:17:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713780985224-bfd1a9e622ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713780985224-bfd1a9e622ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710959575225-835d7d4a3b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710959575225-835d7d4a3b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
 ---
 
 # [Profluent-AI/OpenCRISPR](https://github.com/Profluent-AI/OpenCRISPR)

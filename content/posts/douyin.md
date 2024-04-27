@@ -1,89 +1,113 @@
 ---
 title: douyin
-date: 2024-04-05T12:18:09+08:00
+date: 2024-04-27T12:16:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708583382060-5bcfebc34a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708583382060-5bcfebc34a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
 
 <h1 align="center">
-  Douyin
+  Douyin-Vue
 </h1>
 
 <p align="center">
-  <a href="README.md">简体中文</a> | <a href="README-en-US.md">English</a> | <a href="README-ja-JP.md">日本語</a>
+ <a href="docs/README.en.md">English</a> | <a href="docs/README.es.md">Spanish</a> | <a href="docs/README.de.md">German</a> | 
+<a href="docs/README.fr.md">French</a> | <a href="README.md">简体中文</a> |  <a href="docs/README.ja.md">日本語</a> 
 </p>
 
-`douyin` 是一个模仿抖音的移动端短视频项目，它基于 [`Vue`](https://cn.vuejs.org/)、[`Vite`](https://cn.vitejs.dev/) 实现。使用了最新的 `Vue` 全家桶技术栈，接口数据通过 [`axios-mock-adapter`](https://github.com/ctimmerm/axios-mock-adapter) 模拟
+<p align="center">
+  <a href="https://github.com/zyronon/douyin/blob/master/LICENSE"><img src="https://img.shields.io/github/license/zyronon/douyin" alt="License"></a>
+  <a><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg"/></a>
+  <a><img src="https://img.shields.io/badge/Powered%20by-Vue-blue"/></a>
+</p>
 
-> 分享我其他开源项目：
-> 
->_[**Typing Word** - 可在网页上使用的背单词软件~](https://github.com/zyronon/typing-word) <img src="https://img.shields.io/github/stars/zyronon/typing-word.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_  
->_[**Web Scripts** - 一些好用的油猴脚本~](https://github.com/zyronon/web-scripts) <img src="https://img.shields.io/github/stars/zyronon/web-scripts.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_
+`douyin-vue` 是一个模仿 `抖音|TikTok` 的移动端短视频项目，完全度90%。使用了最新的 `Vue` 全家桶技术栈，它基于 [`Vue3`](https://cn.vuejs.org/)、[`Vite5`](https://cn.vitejs.dev/)
+、[`Pinia`](https://pinia.vuejs.org/)实现。数据保存在项目本地，视频采集自`抖音|TikTok`，图集采集自`小红书|Xiaohongshu`，通过 [`axios-mock-adapter`](https://github.com/ctimmerm/axios-mock-adapter) 库拦截Api 并返回本地json数据，模拟真实后端请求
 
-
-## 免责声明
-
-本项目仅适用于技术研究和分享，不得用于商业使用
+<div>
+<img width="150px" src='docs/imgs/1.gif' />
+<img width="150px" src='docs/imgs/2.gif' />
+<img width="150px" src='docs/imgs/3.gif' />
+<img width="150px" src='docs/imgs/4.gif' />
+<img width="150px" src='docs/imgs/5.gif' />
+<img width="150px" src='docs/imgs/img-1.jpg' />
+<img width="150px" src='docs/imgs/img-2.jpg' />
+<img width="150px" src='docs/imgs/img-3.jpg' />
+<img width="150px" src='docs/imgs/img-4.jpg' />
+<img width="150px" src='docs/imgs/img-5.jpg' />
+</div>
 
 ## 在线访问
 
-Vercel： [http://dy.ttentau.top/](http://dy.ttentau.top/) (国内推荐访问这个)
+Gitee pages: [https://zyronon.gitee.io/douyin/](https://zyronon.gitee.io/douyin/) (中国地区推荐访问这个地址)  
+Vercel:  [https://douyins.vercel.app](https://douyins.vercel.app)
 
-Netlify：[https://douyins.netlify.app/](https://douyins.netlify.app/) (需要翻墙)
+[//]: # (Github pages: [https://zyronon.github.io/douyin/]&#40;https://zyronon.github.io/douyin/&#41;  )
 
-**注意**：`PC` 浏览器请用手机模式访问。先按 `F12` 调出控制台，再按 `Ctrl+Shift+M` 切换到手机模式
+[//]: # (Vercel:  [http://dy.ttentau.top/]&#40;http://dy.ttentau.top/&#41;)
 
-**注意**：手机请用 [Via 浏览器](https://viayoo.com/zh-cn/) 或者 Chrome 浏览器预览。其它浏览器会强制将视频全屏，导致样式失效
+[//]: # (~~Netlify: [https://douyins.netlify.app/]&#40;https://douyins.netlify.app/&#41;~~)
 
-## 效果截图
+[//]: # (Vercel和Netlify分别送的100G免费流量已经用完了...🤣)
 
-<div>
-<img width="150px" src='./public/docs/1.gif' />
-<img width="150px" src='./public/docs/2.gif' />
-<img width="150px" src='./public/docs/3.gif' />
-<img width="150px" src='./public/docs/4.gif' />
-<img width="150px" src='./public/docs/5.gif' />
-<img width="150px" src='./public/docs/img-1.jpg' />
-<img width="150px" src='./public/docs/img-2.jpg' />
-<img width="150px" src='./public/docs/img-3.jpg' />
-<img width="150px" src='./public/docs/img-4.jpg' />
-<img width="150px" src='./public/docs/img-5.jpg' />
-</div>
+[//]: # (Android Apk: https://github.com/zyronon/douyin/releases)
 
-## 相关帖子
+[//]: # (**注意**：`PC` 必须将浏览器切到手机模式，先按 `F12` 调出控制台，再按 `Ctrl+Shift+M`才能正常预览)
 
-- 掘金：https://juejin.cn/post/7352813352051687458
-- V2EX：https://www.v2ex.com/t/1028678#reply116
+[//]: # (**注意**：手机请用  [Via 浏览器]&#40;https://viayoo.com/zh-cn/&#41;  或 Chrome 浏览器预览。其它浏览器可能会强制将视频全屏，导致无法正常显示)
 
-## 项目所展示的网红
+## 链接
 
-- 我是香秀 🐂🍺： [https://v.douyin.com/iYRAPA2L/](https://v.douyin.com/iYRAPA2L/)
-- 杨老虎 🐯（磕穿下巴掉牙版）： [https://v.douyin.com/iYRA56de/](https://v.douyin.com/iYRA56de/)
-- 条子： [https://v.douyin.com/iYRAaqjr/](https://v.douyin.com/iYRAaqjr/)
-- 达莎 Digi：[https://v.douyin.com/iYRA6rwT/](https://v.douyin.com/iYRA6rwT/)
-- 小橙子： [https://v.douyin.com/iYRAnudw/](https://v.douyin.com/iYRAnudw/)
-- 南恬： [https://v.douyin.com/iYRAbKm3/](https://v.douyin.com/iYRAbKm3/)
-- 小霸宠牛排 🥩：[https://v.douyin.com/iYRSosVB/](https://v.douyin.com/iYRSosVB/)
-- 奶茶妹 ◕🌱： [https://v.douyin.com/iYRACKhP/](https://v.douyin.com/iYRACKhP/)
-- 我才是岚岚： [https://v.douyin.com/iYRAQM1C/](https://v.douyin.com/iYRAQM1C/)
-- 周憬艺 ziran： [https://v.douyin.com/iYRAQs4h/](https://v.douyin.com/iYRAQs4h/)
-- 刘思瑶 nice： [https://v.douyin.com/iYRAaERn/](https://v.douyin.com/iYRAaERn/)
-- 彭十六 elf： [https://v.douyin.com/iYRAHrVG/](https://v.douyin.com/iYRAHrVG/)
-- 李子柒：[https://v.douyin.com/iYRA5B88/](https://v.douyin.com/iYRA5B88/)
+【douyin-vue】一：[200行代码实现类似Swiper.js的轮播组件](https://juejin.cn/post/7360512664317018146)  
+【douyin-vue】二：[实现抖音 “视频无限滑动“效果
+](https://juejin.cn/post/7361614921519054883)  
+更多文章正在准备中...
 
-## 运行项目
 
-本项目是基于 `Vue` 开发的，需要 `node` 环境来运行。
+## 运行
+注意：本项目仅适用于学习和研究，不得用于商业使用
 
-1. 安装 `NodeJS`，参考[官方文档](https://nodejs.org/en/download)
-2. 安装 `pnpm` 包管理工具，运行 `npm install -g pnpm` 来安装
-3. 使用 `git clone https://github.com/zyronon/douyin.git` 下载项目到本地
-4. 进入项目目录`cd douyin`，在项目根目录下，运行`pnpm install`来下载依赖。
-5. 执行`pnpm dev`来启动项目，项目默认地址为[`http://localhost:3000`](http://localhost:3000)
-6. 在浏览器中打开[`http://localhost:3000`](http://localhost:3000) 来访问项目。 `Chrome` 切换成手机模式快捷键，先按 `F12` 调出控制台，再按 `Ctrl+Shift+M`（设备仿真模拟）
+### 快速部署至Vercel
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zyronon/douyin)
+
+### 本地开发
+
+```bash
+git clone https://github.com/zyronon/douyin.git
+cd douyin
+npm install
+npm run dev
+```
+
+打开浏览器并访问: [http://127.0.0.1:3000](http://127.0.0.1:3000)
+
+**注意：需要将浏览器切至手机模式，先按 `F12` 调出控制台，再按 `Ctrl+Shift+M` 才能正常预览**
+
+## 数据来源
+
+视频来源于以下抖音网红
+
+- `我是香秀 🐂🍺`: [https://v.douyin.com/iYRAPA2L/](https://v.douyin.com/iYRAPA2L/)
+- `杨老虎 🐯（磕穿下巴掉牙版）`: [https://v.douyin.com/iYRA56de/](https://v.douyin.com/iYRA56de/)
+- `条子`: [https://v.douyin.com/iYRAaqjr/](https://v.douyin.com/iYRAaqjr/)
+- `达莎 Digi`：[https://v.douyin.com/iYRA6rwT/](https://v.douyin.com/iYRA6rwT/)
+- `小橙子`: [https://v.douyin.com/iYRAnudw/](https://v.douyin.com/iYRAnudw/)
+- `南恬`: [https://v.douyin.com/iYRAbKm3/](https://v.douyin.com/iYRAbKm3/)
+- `小霸宠牛排 🥩`：[https://v.douyin.com/iYRSosVB/](https://v.douyin.com/iYRSosVB/)
+- `奶茶妹 ◕🌱`: [https://v.douyin.com/iYRACKhP/](https://v.douyin.com/iYRACKhP/)
+- `我才是岚岚`: [https://v.douyin.com/iYRAQM1C/](https://v.douyin.com/iYRAQM1C/)
+- `周憬艺 ziran`: [https://v.douyin.com/iYRAQs4h/](https://v.douyin.com/iYRAQs4h/)
+- `刘思瑶 nice`: [https://v.douyin.com/iYRAaERn/](https://v.douyin.com/iYRAaERn/)
+- `彭十六 elf`: [https://v.douyin.com/iYRAHrVG/](https://v.douyin.com/iYRAHrVG/)
+- `李子柒`: [https://v.douyin.com/iYRA5B88/](https://v.douyin.com/iYRA5B88/)
+
+图片来自于小红书公开笔记
+
+以上内容均是互联网公开信息
+
 
 ## 功能与建议
 
@@ -93,7 +117,13 @@ Netlify：[https://douyins.netlify.app/](https://douyins.netlify.app/) (需要�
 ## 联系我
 
 您可以联系我的邮箱 <a href="mailto:zyronon@163.com">zyronon@163.com</a>
+> 分享我其他开源项目：
+>
+>_[**Typing Word
+** - 可在网页上使用的背单词软件~](https://github.com/zyronon/typing-word) <img src="https://img.shields.io/github/stars/zyronon/typing-word.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_  
+> _[**Web Scripts
+** - 一些好用的油猴脚本~](https://github.com/zyronon/web-scripts) <img src="https://img.shields.io/github/stars/zyronon/web-scripts.svg?style=flat-square&label=Star&color=4285dd&logo=github" height="16px" />_
 
 ## 许可协议
 
-[MIT](LICENSE)
+[GPL](LICENSE)

@@ -1,9 +1,9 @@
 ---
 title: webllama
-date: 2024-04-26T12:18:42+08:00
+date: 2024-04-27T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713160848399-a9ad13c79003?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713160848399-a9ad13c79003?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713245294954-c5805efcd5da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713245294954-c5805efcd5da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
 ---
 
 # [McGill-NLP/webllama](https://github.com/McGill-NLP/webllama)
