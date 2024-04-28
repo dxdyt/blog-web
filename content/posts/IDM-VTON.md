@@ -1,9 +1,9 @@
 ---
 title: IDM-VTON
-date: 2024-04-27T12:17:50+08:00
+date: 2024-04-28T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711637720126-693a567b4a1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711637720126-693a567b4a1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710775338511-3766c13110b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710775338511-3766c13110b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [yisol/IDM-VTON](https://github.com/yisol/IDM-VTON)

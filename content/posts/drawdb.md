@@ -1,15 +1,15 @@
 ---
 title: drawdb
-date: 2024-04-12T12:15:55+08:00
+date: 2024-04-28T12:16:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710775338511-3766c13110b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710775338511-3766c13110b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
 
 <h3 align="center">
-    <img width="80" alt="Puter.com, The Personal Cloud Computer: All your files, apps, and games in one place accessible from anywhere at any time." src="./src/assets/icon-dark.png">
+    <img width="80" alt="drawdb logo" src="./src/assets/icon-dark.png">
 </h3>
 
 <h3 align="center">Free, simple, and intuitive database design tool and SQL generator.</h3>

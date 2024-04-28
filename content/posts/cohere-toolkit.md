@@ -1,9 +1,9 @@
 ---
 title: cohere-toolkit
-date: 2024-04-27T12:15:08+08:00
+date: 2024-04-28T12:15:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712135596996-3dda241aa9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712135596996-3dda241aa9bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711354613729-3b1544ac94d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711354613729-3b1544ac94d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [cohere-ai/cohere-toolkit](https://github.com/cohere-ai/cohere-toolkit)

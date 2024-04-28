@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2024-04-11T12:16:48+08:00
+date: 2024-04-28T12:16:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711741509725-36db34d58a5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711741509725-36db34d58a5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711972638202-e9585b245609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711972638202-e9585b245609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
@@ -98,7 +98,7 @@ Chat2DB Pro supports all the following databases, including the most requested R
 
 ## ⏬ Download and Install Chat2DB(Pro)
 
-- Download installation package from [official website](https://chat2db-ai.com/download)
+- Download installation package from [official website](https://chat2db.ai/download)
 - Double click package to install
 
 

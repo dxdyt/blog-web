@@ -1,9 +1,9 @@
 ---
 title: awesome-datascience
-date: 2024-04-26T12:18:51+08:00
+date: 2024-04-28T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713498566844-e466c2f29d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713498566844-e466c2f29d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxMDQ5MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713791234907-0daa87dfd658?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713791234907-0daa87dfd658?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [academic/awesome-datascience](https://github.com/academic/awesome-datascience)

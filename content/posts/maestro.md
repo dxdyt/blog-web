@@ -1,9 +1,9 @@
 ---
 title: maestro
-date: 2024-04-27T12:15:48+08:00
+date: 2024-04-28T12:15:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711466338988-e6dd163339e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711466338988-e6dd163339e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712797654798-df483a296cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712797654798-df483a296cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [Doriandarko/maestro](https://github.com/Doriandarko/maestro)

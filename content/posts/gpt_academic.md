@@ -1,9 +1,9 @@
 ---
 title: gpt_academic
-date: 2024-04-21T12:18:01+08:00
+date: 2024-04-28T12:16:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713073530306-271688b2f144?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713073530306-271688b2f144?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711999468281-8c9ccaeed770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711999468281-8c9ccaeed770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic)
@@ -95,6 +95,10 @@ Latex论文一键校对 | [插件] 仿Grammarly对Latex文章进行语法、拼�
 - 新界面（修改`config.py`中的LAYOUT选项即可实现“左右布局”和“上下布局”的切换）
 <div align="center">
 <img src="https://user-images.githubusercontent.com/96192199/279702205-d81137c3-affd-4cd1-bb5e-b15610389762.gif" width="700" >
+</div>
+
+<div align="center">
+<img src="https://github.com/binary-husky/gpt_academic/assets/96192199/70ff1ec5-e589-4561-a29e-b831079b37fb.gif" width="700" >
 </div>
 
 

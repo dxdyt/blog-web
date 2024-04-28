@@ -1,9 +1,9 @@
 ---
 title: douyin
-date: 2024-04-27T12:16:05+08:00
+date: 2024-04-28T12:15:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712609036335-ff1bb47e803a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712609036335-ff1bb47e803a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
@@ -23,8 +23,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba
   <a><img src="https://img.shields.io/badge/Powered%20by-Vue-blue"/></a>
 </p>
 
-`douyin-vue` 是一个模仿 `抖音|TikTok` 的移动端短视频项目，完全度90%。使用了最新的 `Vue` 全家桶技术栈，它基于 [`Vue3`](https://cn.vuejs.org/)、[`Vite5`](https://cn.vitejs.dev/)
-、[`Pinia`](https://pinia.vuejs.org/)实现。数据保存在项目本地，视频采集自`抖音|TikTok`，图集采集自`小红书|Xiaohongshu`，通过 [`axios-mock-adapter`](https://github.com/ctimmerm/axios-mock-adapter) 库拦截Api 并返回本地json数据，模拟真实后端请求
+`douyin-vue` 是一个模仿 `抖音|TikTok` 的移动端短视频项目。`Vue` 在移动端的"最佳实践"，媲美原生 `App` 丝滑流畅的使用体验。使用了最新的 `Vue` 技术栈，基于 [`Vue3`](https://cn.vuejs.org/)、[`Vite5`](https://cn.vitejs.dev/)
+、[`Pinia`](https://pinia.vuejs.org/)实现。数据保存在项目本地，通过 [`axios-mock-adapter`](https://github.com/ctimmerm/axios-mock-adapter) 库拦截Api 并返回本地json数据，模拟真实后端请求
+
 
 <div>
 <img width="150px" src='docs/imgs/1.gif' />
@@ -41,14 +42,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba
 
 ## 在线访问
 
-Gitee pages: [https://zyronon.gitee.io/douyin/](https://zyronon.gitee.io/douyin/) (中国地区推荐访问这个地址)  
-Vercel:  [https://douyins.vercel.app](https://douyins.vercel.app)
+Gitee pages: [https://dy.ttentau.top/](https://dy.ttentau.top/) (中国地区推荐访问这个地址)  
+Netlify: [https://douyins.netlify.app/](https://douyins.netlify.app/)
+
+[//]: # (Vercel:  [https://douyins.vercel.app]&#40;https://douyins.vercel.app&#41;)
+
+[//]: # (Gitee pages: [https://zyronon.gitee.io/douyin/]&#40;https://zyronon.gitee.io/douyin/&#41; &#40;中国地区推荐访问这个地址&#41;  )
 
 [//]: # (Github pages: [https://zyronon.github.io/douyin/]&#40;https://zyronon.github.io/douyin/&#41;  )
-
-[//]: # (Vercel:  [http://dy.ttentau.top/]&#40;http://dy.ttentau.top/&#41;)
-
-[//]: # (~~Netlify: [https://douyins.netlify.app/]&#40;https://douyins.netlify.app/&#41;~~)
 
 [//]: # (Vercel和Netlify分别送的100G免费流量已经用完了...🤣)
 

@@ -1,9 +1,9 @@
 ---
 title: open-interpreter
-date: 2024-03-28T12:15:18+08:00
+date: 2024-04-28T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709377195538-5522ed0f9e10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE1OTkyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711354613729-3b1544ac94d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711354613729-3b1544ac94d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [OpenInterpreter/open-interpreter](https://github.com/OpenInterpreter/open-interpreter)
@@ -19,7 +19,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1709377195538-5522ed0f9e
     <img src="https://img.shields.io/static/v1?label=license&message=AGPL&color=white&style=flat" alt="License"/>
     <br>
     <br>
-    <strong>We launched a new computer (the 01) with Open Interpreter at the center. <a href="https://github.com/OpenInterpreter/01">Star the repo →</a></strong><br>
     <br><a href="https://0ggfznkwh4j.typeform.com/to/G21i9lJ2">Get early access to the desktop app</a>‎ ‎ |‎ ‎ <a href="https://docs.openinterpreter.com/">Documentation</a><br>
 </p>
 
@@ -28,9 +27,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1709377195538-5522ed0f9e
 ![poster](https://github.com/KillianLucas/open-interpreter/assets/63927363/08f0d493-956b-4d49-982e-67d4b20c4b56)
 
 <br>
-<!--<p align="center">
-<strong>The New Computer Update</strong> introduces <strong><code>--os</code></strong> and a new <strong>Computer API</strong>. <a href="https://changes.openinterpreter.com/log/the-new-computer-update">Read On →</a>
-</p>-->
+<p align="center">
+<strong>The New Computer Update</strong> introduced <strong><code>--os</code></strong> and a new <strong>Computer API</strong>. <a href="https://changes.openinterpreter.com/log/the-new-computer-update">Read On →</a>
+</p>
 <br>
 
 ```shell
@@ -373,6 +372,34 @@ There is **experimental** support for a [safe mode](docs/SAFE_MODE.md) to help m
 Open Interpreter equips a [function-calling language model](https://platform.openai.com/docs/guides/gpt/function-calling) with an `exec()` function, which accepts a `language` (like "Python" or "JavaScript") and `code` to run.
 
 We then stream the model's messages, code, and your system's outputs to the terminal as Markdown.
+
+# Access Documentation Offline
+
+The full [documentation](https://docs.openinterpreter.com/) is accessible on-the-go without the need for an internet connection.
+
+[Node](https://nodejs.org/en) is a pre-requisite:
+
+- Version 18.17.0 or any later 18.x.x version.
+- Version 20.3.0 or any later 20.x.x version.
+- Any version starting from 21.0.0 onwards, with no upper limit specified.
+
+Install [Mintlify](https://mintlify.com/):
+
+```bash
+npm i -g mintlify@latest
+```
+
+Change into the docs directory and run the appropriate command:
+
+```bash
+# Assuming you're at the project's root directory
+cd ./docs
+
+# Run the documentation server
+mintlify dev
+```
+
+A new browser window should open. The documentation will be available at [http://localhost:3000](http://localhost:3000) as long as the documentation server is running.
 
 # Contributing
 

@@ -1,9 +1,9 @@
 ---
 title: pingora
-date: 2024-03-03T12:16:10+08:00
+date: 2024-04-28T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706047837347-043e85df8b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706047837347-043e85df8b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710775338511-3766c13110b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710775338511-3766c13110b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
 ---
 
 # [cloudflare/pingora](https://github.com/cloudflare/pingora)
@@ -67,6 +67,17 @@ Both x86_64 and aarch64 architectures will be supported.
 Pingora keeps a rolling MSRV (minimum supported Rust version) policy of 6 months. This means we will accept PRs that upgrade the MSRV as long as the new Rust version used is at least 6 months old.
 
 Our current MSRV is 1.72.
+
+## Build Requirements
+
+Some of the crates in this repository have dependencies on additional tools and
+libraries that must be satisfied in order to build them:
+
+* Make sure that [Clang] is installed on your system (for boringssl)
+* Make sure that [Perl 5] is installed on your system (for openssl)
+
+[Clang]:https://clang.llvm.org/
+[Perl 5]:https://www.perl.org/
 
 # Contributing
 Please see our [contribution guidelines](./.github/CONTRIBUTING.md).
