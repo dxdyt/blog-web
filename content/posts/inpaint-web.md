@@ -1,18 +1,24 @@
 ---
 title: inpaint-web
-date: 2023-12-22T12:18:11+08:00
+date: 2024-04-29T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1602172747217-c6e57bc7472a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1602172747217-c6e57bc7472a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMyMTg1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [lxfater/inpaint-web](https://github.com/lxfater/inpaint-web)
 
-# [Inpaint-web](https://github.com/lxfater/inpaint-web)
+![Inpaint-web](./media/cover.png)
+<div align="center">
+  
+# Inpaint-web
+
 
 A free and open-source inpainting & image-upscaling tool powered by webgpu and wasm on the browser.
 
 基于 Webgpu 技术和 wasm 技术的免费开源 inpainting & image-upscaling 工具, 纯浏览器端实现。
+
+</div>
 
 ## Inpaint（图片修复）
 
@@ -62,7 +68,18 @@ Demo link:https://inpaintweb.lxfater.com/
   <img src="https://contrib.rocks/image?repo=lxfater/inpaint-web" />
 </a>
 
+## Translations via [fink editor](https://inlang.com/m/tdozzpar/app-inlang-editor)
+
+[![inlang status badge](https://inlang.com/badge?url=github.com/lxfater/inpaint-web)](https://inlang.com/editor/github.com/lxfater/inpaint-web?ref=badge)
+
 ## About me
+
+### Wechat
+
+<div align="left">
+    <span>联系我之前说明来意，我创业了，时间很宝贵。</span>
+    <img src="https://raw.githubusercontent.com/lxfater/inpaint-web/main/media/wechat.jpg" style="width: 200px; display: inline-block;">
+</div>
 
 ### English Content
 

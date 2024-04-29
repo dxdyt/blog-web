@@ -1,9 +1,9 @@
 ---
 title: douyin
-date: 2024-04-28T12:15:46+08:00
+date: 2024-04-29T12:17:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712609036335-ff1bb47e803a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712609036335-ff1bb47e803a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
@@ -33,11 +33,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1712609036335-ff1bb47e80
 <img width="150px" src='docs/imgs/3.gif' />
 <img width="150px" src='docs/imgs/4.gif' />
 <img width="150px" src='docs/imgs/5.gif' />
-<img width="150px" src='docs/imgs/img-1.jpg' />
-<img width="150px" src='docs/imgs/img-2.jpg' />
-<img width="150px" src='docs/imgs/img-3.jpg' />
-<img width="150px" src='docs/imgs/img-4.jpg' />
-<img width="150px" src='docs/imgs/img-5.jpg' />
 </div>
 
 ## 在线访问
@@ -61,11 +56,11 @@ Netlify: [https://douyins.netlify.app/](https://douyins.netlify.app/)
 
 ## 链接
 
-【douyin-vue】一：[200行代码实现类似Swiper.js的轮播组件](https://juejin.cn/post/7360512664317018146)  
-【douyin-vue】二：[实现抖音 “视频无限滑动“效果
-](https://juejin.cn/post/7361614921519054883)  
-更多文章正在准备中...
+【模仿抖音系列】一：[200行代码实现类似Swiper.js的轮播组件](https://juejin.cn/post/7360512664317018146)  
+【模仿抖音系列】二：[实现抖音 “视频无限滑动“效果](https://juejin.cn/post/7361614921519054883)  
+【模仿抖音系列】三：[Vue 路由使用介绍以及添加转场动画](https://juejin.cn/post/7361614921519054883) 
 
+更多文章正在准备中...
 
 ## 运行
 注意：本项目仅适用于学习和研究，不得用于商业使用
@@ -77,7 +72,8 @@ Netlify: [https://douyins.netlify.app/](https://douyins.netlify.app/)
 ### 本地开发
 
 ```bash
-git clone https://github.com/zyronon/douyin.git
+git clone https://gitee.com/zyronon/douyin.git (中国使用)
+          https://github.com/zyronon/douyin.git 
 cd douyin
 npm install
 npm run dev

@@ -1,9 +1,9 @@
 ---
 title: serenity
-date: 2024-03-19T12:18:00+08:00
+date: 2024-04-29T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708913156542-9042bb5410eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708913156542-9042bb5410eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [SerenityOS/serenity](https://github.com/SerenityOS/serenity)

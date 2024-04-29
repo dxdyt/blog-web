@@ -1,9 +1,9 @@
 ---
 title: langfuse
-date: 2024-04-28T12:17:34+08:00
+date: 2024-04-29T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712230879699-e8a0a389da63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [langfuse/langfuse](https://github.com/langfuse/langfuse)

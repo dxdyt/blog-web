@@ -1,9 +1,9 @@
 ---
 title: maestro
-date: 2024-04-28T12:15:25+08:00
+date: 2024-04-29T12:17:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712797654798-df483a296cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712797654798-df483a296cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714052326829-f63c6172382c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714052326829-f63c6172382c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [Doriandarko/maestro](https://github.com/Doriandarko/maestro)
@@ -44,7 +44,7 @@ Then
 python maestro-ollama.py
 ```
 
-## Higly requested features
+## Highly requested features
 - GROQ SUPPORT
 Experience the power of maestro thanks to Groq super fast api responses.
 ```bash

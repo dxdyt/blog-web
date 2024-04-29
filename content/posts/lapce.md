@@ -1,9 +1,9 @@
 ---
 title: lapce
-date: 2023-11-16T12:18:43+08:00
+date: 2024-04-29T12:19:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698080658445-1eb4171f3ee1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713007210641-1b154c6d7e0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713007210641-1b154c6d7e0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [lapce/lapce](https://github.com/lapce/lapce)
@@ -24,9 +24,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1698080658445-1eb4171f3e
   <a href="https://discord.gg/n8tGJ6Rn6D" target="_blank">
     <img src="https://img.shields.io/discord/946858761413328946?logo=discord" />
   </a>
-  <a href="https://matrix.to/#/#lapce-editor:matrix.org" target="_blank">
-    <img src="https://img.shields.io/matrix/lapce-editor:matrix.org?color=turquoise&logo=Matrix" />
-  </a>
   <a href="https://docs.lapce.dev" target="_blank">
       <img src="https://img.shields.io/static/v1?label=Docs&message=docs.lapce.dev&color=blue" alt="Lapce Docs">
   </a>
@@ -42,7 +39,7 @@ Lapce (IPA: /læps/) is written in pure Rust with a UI in [Floem](https://github
 
 * Built-in LSP ([Language Server Protocol](https://microsoft.github.io/language-server-protocol/)) support to give you intelligent code features such as: completion, diagnostics and code actions
 * Modal editing support as first class citizen (Vim-like, and toggleable)
-* Built-in remote development support inspired by [VSCode Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Enjoy the benefits of a "local" experience, and seamlessly gain the full power of a remote system.
+* Built-in remote development support inspired by [VSCode Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Enjoy the benefits of a "local" experience, and seamlessly gain the full power of a remote system. We also have [lapdev](https://github.com/lapce/lapdev) which can help manage your remote dev environments. 
 * Plugins can be written in programming languages that can compile to the [WASI](https://wasi.dev/) format (C, Rust, [AssemblyScript](https://www.assemblyscript.org/))
 * Built-in terminal, so you can execute commands in your workspace, without leaving Lapce.
 

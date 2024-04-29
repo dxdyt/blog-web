@@ -1,9 +1,9 @@
 ---
 title: hydra
-date: 2024-04-16T12:18:22+08:00
+date: 2024-04-29T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710432157411-dcaa1c5b9494?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710432157411-dcaa1c5b9494?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710946264456-0786fd17d34a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710946264456-0786fd17d34a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
 # [hydralauncher/hydra](https://github.com/hydralauncher/hydra)
@@ -58,8 +58,10 @@ pip install -r requirements.txt
 
 ## Environment variables
 
-You'll need an SteamGridDB API Key in order to fetch the game icons on installation.
-Once you have it, you can paste the `.env.example` file and put it on `STEAMGRIDDB_API_KEY`.
+You'll need a SteamGridDB API Key in order to fetch the game icons on installation.
+If you want to have onlinefix as a repacker you'll need to add your credentials to the .env
+
+Once you have it, you can paste the `.env.example` file and put it on `STEAMGRIDDB_API_KEY`, `ONLINEFIX_USERNAME`, `ONLINEFIX_PASSWORD`.
 
 ## Running
 
@@ -76,7 +78,7 @@ yarn start
 Build the bittorrent client by using this command:
 
 ```bash
-pyinstaller torrent-client/main.py --distpath resources/dist --icon=images/icon.ico -n hydra-download-manager
+python torrent-client/setup.py build
 ```
 
 ### Build the Electron application

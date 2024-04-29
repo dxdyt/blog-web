@@ -1,12 +1,12 @@
 ---
 title: TagStudio
-date: 2024-04-27T12:15:15+08:00
+date: 2024-04-29T12:16:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710291703020-cc2412538d4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710291703020-cc2412538d4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711722221946-e271830d5081?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711722221946-e271830d5081?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
 ---
 
-# [CyanVoxel/TagStudio](https://github.com/CyanVoxel/TagStudio)
+# [TagStudioDev/TagStudio](https://github.com/TagStudioDev/TagStudio)
 
 # TagStudio (Preview/Alpha): A User-Focused Document Management System
 
