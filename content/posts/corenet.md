@@ -1,9 +1,9 @@
 ---
 title: corenet
-date: 2024-04-29T12:16:31+08:00
+date: 2024-04-30T12:16:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714052326829-f63c6172382c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714052326829-f63c6172382c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713978800692-2993b7900a3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713978800692-2993b7900a3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
 ---
 
 # [apple/corenet](https://github.com/apple/corenet)

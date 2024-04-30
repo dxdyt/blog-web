@@ -1,9 +1,9 @@
 ---
 title: tiny-gpu
-date: 2024-04-29T12:17:40+08:00
+date: 2024-04-30T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712282244289-aa73c99f7ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712282244289-aa73c99f7ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
 ---
 
 # [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu)

@@ -1,9 +1,9 @@
 ---
 title: xelis-blockchain
-date: 2024-04-28T12:16:43+08:00
+date: 2024-04-30T12:17:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711999468281-8c9ccaeed770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711999468281-8c9ccaeed770?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712187466004-c64b4571828b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712187466004-c64b4571828b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
 ---
 
 # [xelis-project/xelis-blockchain](https://github.com/xelis-project/xelis-blockchain)
@@ -23,8 +23,8 @@ Pruning system is also available to reduce the size of the blockchain by removin
 
 We also aims to enabled Smart Contracts support in the future.
 
-We provide differents built-in network:
-- Mainnet: Not released yet
+We provide different built-in networks:
+- Mainnet: Released April 20, 2024.
 - Testnet: Running
 - Devnet: this network is used for local development purpose where you want to create your own local chain. It has no peers
 

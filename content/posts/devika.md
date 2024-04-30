@@ -1,9 +1,9 @@
 ---
 title: devika
-date: 2024-04-29T12:18:29+08:00
+date: 2024-04-30T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1705433505174-b8ea6227bc6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1705433505174-b8ea6227bc6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
 ---
 
 # [stitionai/devika](https://github.com/stitionai/devika)

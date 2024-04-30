@@ -1,9 +1,9 @@
 ---
 title: douyin
-date: 2024-04-29T12:17:06+08:00
+date: 2024-04-30T12:16:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711448105350-e2a0e8e329df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713813091291-ba9b947b8803?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713813091291-ba9b947b8803?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
@@ -37,28 +37,24 @@ featuredImagePreview: https://images.unsplash.com/photo-1711448105350-e2a0e8e329
 
 ## 在线访问
 
-Gitee pages: [https://dy.ttentau.top/](https://dy.ttentau.top/) (中国地区推荐访问这个地址)  
-Netlify: [https://douyins.netlify.app/](https://douyins.netlify.app/)
+Gitee Pages: [https://zyronon.gitee.io/douyin/](https://zyronon.gitee.io/douyin/)(中国地区推荐访问这个地址)   
+注意：Gitee Pages现在无法更新，代码不是最新的。如果你能翻墙推荐访问下面地址  
 
-[//]: # (Vercel:  [https://douyins.vercel.app]&#40;https://douyins.vercel.app&#41;)
+Github Pages: [https://dy.ttentau.top/](https://dy.ttentau.top/)  
 
-[//]: # (Gitee pages: [https://zyronon.gitee.io/douyin/]&#40;https://zyronon.gitee.io/douyin/&#41; &#40;中国地区推荐访问这个地址&#41;  )
-
+[//]: # (Gitee pages: [https://dy.ttentau.top/]&#40;https://dy.ttentau.top/&#41; &#40;中国地区推荐访问这个地址&#41;  )
 [//]: # (Github pages: [https://zyronon.github.io/douyin/]&#40;https://zyronon.github.io/douyin/&#41;  )
-
-[//]: # (Vercel和Netlify分别送的100G免费流量已经用完了...🤣)
-
+[//]: # (Netlify: [https://douyins.netlify.app/]&#40;https://douyins.netlify.app/&#41;)
+[//]: # (Vercel:  [https://douyins.vercel.app]&#40;https://douyins.vercel.app&#41;)
 [//]: # (Android Apk: https://github.com/zyronon/douyin/releases)
-
 [//]: # (**注意**：`PC` 必须将浏览器切到手机模式，先按 `F12` 调出控制台，再按 `Ctrl+Shift+M`才能正常预览)
-
 [//]: # (**注意**：手机请用  [Via 浏览器]&#40;https://viayoo.com/zh-cn/&#41;  或 Chrome 浏览器预览。其它浏览器可能会强制将视频全屏，导致无法正常显示)
 
 ## 链接
 
 【模仿抖音系列】一：[200行代码实现类似Swiper.js的轮播组件](https://juejin.cn/post/7360512664317018146)  
 【模仿抖音系列】二：[实现抖音 “视频无限滑动“效果](https://juejin.cn/post/7361614921519054883)  
-【模仿抖音系列】三：[Vue 路由使用介绍以及添加转场动画](https://juejin.cn/post/7361614921519054883) 
+【模仿抖音系列】三：[Vue 路由使用介绍以及添加转场动画](https://juejin.cn/post/7362528152777130025) 
 
 更多文章正在准备中...
 
