@@ -1,9 +1,9 @@
 ---
 title: torchtitan
-date: 2024-04-30T12:18:01+08:00
+date: 2024-05-01T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713813091291-ba9b947b8803?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713813091291-ba9b947b8803?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711971782079-62a788d72e73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711971782079-62a788d72e73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
 ---
 
 # [pytorch/torchtitan](https://github.com/pytorch/torchtitan)

@@ -1,53 +1,65 @@
 ---
 title: core
-date: 2024-02-19T12:18:07+08:00
+date: 2024-05-01T12:18:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705579608433-25fba5aa1fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705579608433-25fba5aa1fdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
 ---
 
-# [dotnet/core](https://github.com/dotnet/core)
+# [module-federation/core](https://github.com/module-federation/core)
 
-# .NET News & Release Notes
+<p align="center">
+  <img alt="Module federation Banner"  width="260" src="https://github.com/module-federation/core/assets/27547179/11234712-40fc-4696-a7fd-16e0c631005a">
+</p>
 
-Welcome to the home of .NET news & release notes to help you stay up to date with all of latest previews and releases. 
+# Module Federation
 
-Follow our [GitHub Discussions](https://github.com/dotnet/core/discussions), where you will find the latest new on preview releases, service releases, and CVEs for .NET.
+<p align="center">
+  <a href="https://www.npmjs.com/package/@module-federation/runtime?activeTab=readme">
+   <img src="https://img.shields.io/npm/v/@module-federation/runtime?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
+  </a>
+  <a href="https://npmcharts.com/compare/@module-federation/runtime?minimal=true">
+    <img src="https://img.shields.io/npm/dm/@module-federation/runtime.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" />
+  </a>
+  <a href="https://github.com/web-infra-dev/rspack/blob/main/LICENSE">
+    <img src="https://img.shields.io/npm/l/@module-federation/runtime?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  </a>
+</p>
 
-You can subscribe to news posts with the following RSS feeds:
+You can consider the module federation capabilities provided by this repository as "module federation 2.0". "Module Federation 2.0" differs from the "Module Federation" built into Webpack 5 by offering not only the core features of module export, loading, and dependency sharing but also additional dynamic type hinting, a "Manifest", a "Federation Runtime", and a "Runtime Plugin System". These features make "Module Federation" more suitable for use as a micro-frontend architecture in large-scale web applications.
 
-| Category | GitHub Discussions | RSS Feed |
-| --- | :--: | :--: |
-| All Discussions | [🔗](https://github.com/dotnet/core/discussions) | [🔗](https://github.com/dotnet/core/discussions.atom) |
-| News | [🔗](https://github.com/dotnet/core/discussions/categories/news) | [🔗](https://github.com/dotnet/core/discussions/categories/news.atom) |
-| Security Disclosures (CVEs)  | [🔗](https://github.com/dotnet/core/discussions/categories/security-disclosures-cves) | [🔗](https://github.com/dotnet/core/discussions/categories/security-disclosures-cves.atom) |
-| Servicing Releases  | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases) | [🔗](https://github.com/dotnet/core/discussions/categories/servicing-releases.atom) |
+## 💡 What is Module Federation?
 
-## Release Notes
+- Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications
 
-The following [.NET releases](./releases.md) are currently supported:
+- Module Federation can be used to split monolithic applications into micro-front-end architectures
 
-|  Version  | Release Date | Support | Latest Patch Version | End of Support |
-| :-- | :-- | :-- | :-- | :-- |
-| [.NET 9](release-notes/9.0/README.md) | November 12, 2024 | [STS][policies] | [9.0.0-preview.1][9.0.0-preview.1] |  |
-| [.NET 8](release-notes/8.0/README.md) | [November 14, 2023](https://devblogs.microsoft.com/dotnet/announcing-dotnet-8/) | [LTS][policies] | [8.0.2][8.0.2] | November 10, 2026 |
-| [.NET 7](release-notes/7.0/README.md) | [November 8, 2022](https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/) | [STS][policies] | [7.0.16][7.0.16] | May 14, 2024 |
-| [.NET 6](release-notes/6.0/README.md) | [November 8, 2021](https://devblogs.microsoft.com/dotnet/announcing-net-6/) | [LTS][policies] | [6.0.27][6.0.27]  | November 12, 2024 |
+- Module Federation reuses common dependencies between modules as much as possible
 
 
-You can find release notes for all releases, including out-of-support releases, in the [release-notes](release-notes) directory.
+## ✨ What new features does Module Federation provide?
 
-[9.0.0-preview.1]: release-notes/9.0/preview/preview1/9.0.0-preview.1.md
-[8.0.2]: release-notes/8.0/8.0.2/8.0.2.md
-[7.0.16]: release-notes/7.0/7.0.16/7.0.16.md
-[6.0.27]: release-notes/6.0/6.0.27/6.0.27.md
+* 🎨 Module Federation Runtime
+* 🧩 Runtime Plugins System
+* 📝 Manifest
+* 🚀 Dynamic type prompt
+* 🛠️ Chrome Devtool
 
-## Release Information
+## 📚 Getting Started
 
-* [Download .NET](https://dotnet.microsoft.com/download/dotnet)
-* [Releases Index][releases-index.json] -- Index for all release channels in JSON format
-* [dotnet-install scripts](https://learn.microsoft.com/dotnet/core/tools/dotnet-install-script)
-* [Installation docs](https://learn.microsoft.com/dotnet/core/install/)
+To get started with Module Federation, see the [Quick Start](https://module-federation.io/guide/start/quick-start.html).
 
-[releases-index.json]: https://dotnetcli.blob.core.windows.net/dotnet/release-metadata/releases-index.json
-[policies]: release-policies.md
+
+# 🧑‍💻 Community
+
+Come and chat with us on [Discussions](https://github.com/module-federation/universe/discussions) or [Discord](https://discord.gg/n69NnT3ACV)! The Module federation team and users are active there, and we're always looking for contributions.
+
+# 🤝 Contribution
+
+> New contributors welcome!
+
+Please read the [Contributing Guide](https://github.com/module-federation/core/blob/main/CONTRIBUTING.md).
+
+# 🙌 Code of Conduct
+
+This repo has adopted the Code of Conduct. Please check [Code of Conduct](./CODE_OF_CONDUCT.md) for more details.

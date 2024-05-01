@@ -1,9 +1,9 @@
 ---
 title: douyin
-date: 2024-04-30T12:16:29+08:00
+date: 2024-05-01T12:15:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713813091291-ba9b947b8803?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713813091291-ba9b947b8803?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
@@ -66,6 +66,7 @@ Github Pages: [https://dy.ttentau.top/](https://dy.ttentau.top/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zyronon/douyin)
 
 ### 本地开发
+**注意：必须 git 命令 clone 下来才能运行，下载 zip 包是无法运行的。如果 clone 速度太慢，推荐使用 gitee 地址**
 
 ```bash
 git clone https://gitee.com/zyronon/douyin.git (中国使用)

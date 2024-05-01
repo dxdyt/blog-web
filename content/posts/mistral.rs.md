@@ -1,9 +1,9 @@
 ---
 title: mistral.rs
-date: 2024-04-30T12:19:02+08:00
+date: 2024-05-01T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712282244289-aa73c99f7ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712282244289-aa73c99f7ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
 ---
 
 # [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs)
@@ -42,7 +42,7 @@ Mistral.rs is a fast LLM inference platform supporting inference on a variety of
 - Quantized model support: 2-bit, 3-bit, 4-bit, 5-bit, 6-bit and 8-bit for faster inference and optimized memory usage.
 - Continuous batching.
 - Prefix caching.
-- Device mapping: load and run some layers on the device and the reset on the CPU.
+- Device mapping: load and run some layers on the device and the rest on the CPU.
 
 **Accelerator support**:
 - Apple silicon support with the Metal framework.
@@ -95,7 +95,7 @@ Python API for mistral.rs.
 - [Cookbook](examples/python/cookbook.ipynb)
 
 ```python
-from mistralrs import Runner, Which, ChatCompletionRequest, Message, Role
+from mistralrs import Runner, Which, ChatCompletionRequest
 
 runner = Runner(
     which=Which.GGUF(
@@ -110,7 +110,7 @@ runner = Runner(
 res = runner.send_chat_completion_request(
     ChatCompletionRequest(
         model="mistral",
-        messages=[Message(Role.User, "Tell me a story about the Rust type system.")],
+        messages=[{"role":"user", "content":"Tell me a story about the Rust type system."}],
         max_tokens=256,
         presence_penalty=1.0,
         top_p=0.1,

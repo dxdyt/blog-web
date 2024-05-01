@@ -1,9 +1,9 @@
 ---
 title: tiny-gpu
-date: 2024-04-30T12:17:17+08:00
+date: 2024-05-01T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712282244289-aa73c99f7ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712282244289-aa73c99f7ee8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
 ---
 
 # [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu)
@@ -323,7 +323,11 @@ RET                            ; end of kernel
 
 # Simulation
 
-tiny-gpu is setup to simulate the execution of both of the above kernels. Before simulating, you'll need to install [iverilog](https://steveicarus.github.io/iverilog/usage/installation.html) and [cocotb](https://docs.cocotb.org/en/stable/install.html).
+tiny-gpu is setup to simulate the execution of both of the above kernels. Before simulating, you'll need to install [iverilog](https://steveicarus.github.io/iverilog/usage/installation.html) and [cocotb](https://docs.cocotb.org/en/stable/install.html):
+
+- Install Verilog compilers with `brew install icarus-verilog` and `pip3 install cocotb`
+- Download the latest version of sv2v from https://github.com/zachjs/sv2v/releases, unzip it and put the binary in $PATH.
+- Run `mkdir build` in the root directory of this repository.
 
 Once you've installed the pre-requisites, you can run the kernel simulations with `make test_matadd` and `make test_matmul`.
 
