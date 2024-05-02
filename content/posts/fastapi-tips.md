@@ -1,9 +1,9 @@
 ---
 title: fastapi-tips
-date: 2024-05-01T12:16:16+08:00
+date: 2024-05-02T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711843250829-1234532f335f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711843250829-1234532f335f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1706800282670-61c04d56a4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1706800282670-61c04d56a4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
 ---
 
 # [Kludex/fastapi-tips](https://github.com/Kludex/fastapi-tips)

@@ -1,9 +1,9 @@
 ---
 title: Perplexica
-date: 2024-05-01T12:15:53+08:00
+date: 2024-05-02T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712260703248-97970be897b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712260703248-97970be897b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1706800282670-61c04d56a4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1706800282670-61c04d56a4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
 ---
 
 # [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica)
@@ -48,7 +48,7 @@ Using SearxNG to stay current and fully open source, Perplexica ensures you alwa
   - **YouTube Search Mode:** Finds YouTube videos based on the search query.
   - **Wolfram Alpha Search Mode:** Answers queries that need calculations or data analysis using Wolfram Alpha.
   - **Reddit Search Mode:** Searches Reddit for discussions and opinions related to the query.
-- **Current Information:** Some search tools might give you outdated info because they use data from crawling bots and convert them into embeddings and store them in a index. Unlike them, Perplexica uses SearxNG, a metasearch engine to get the results and rerank and get the most relevent source out of it, ensuring you always get the latest information without the overhead of daily data updates.
+- **Current Information:** Some search tools might give you outdated info because they use data from crawling bots and convert them into embeddings and store them in a index. Unlike them, Perplexica uses SearxNG, a metasearch engine to get the results and rerank and get the most relevant source out of it, ensuring you always get the latest information without the overhead of daily data updates.
 
 It has many more features like image and video search. Some of the planned features are mentioned in [upcoming features](#upcoming-features).
 

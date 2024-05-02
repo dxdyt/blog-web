@@ -1,9 +1,9 @@
 ---
 title: tiny-gpu
-date: 2024-05-01T12:17:27+08:00
+date: 2024-05-02T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713296416394-7889c4955862?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713296416394-7889c4955862?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
 ---
 
 # [adam-maj/tiny-gpu](https://github.com/adam-maj/tiny-gpu)
@@ -54,7 +54,7 @@ This is why I built `tiny-gpu`!
 >
 > Specifically, with the trend toward general-purpose GPUs (GPGPUs) and ML-accelerators like Google's TPU, tiny-gpu focuses on highlighting the general principles of all of these architectures, rather than on the details of graphics-specific hardware.
 
-With this motivation in mind, we can simplify GPUs by cutting out the majority of complexity involved with building a production-grade graphics card, and focus on the core elements that are critical to all of these modern hardwareaccelerators.
+With this motivation in mind, we can simplify GPUs by cutting out the majority of complexity involved with building a production-grade graphics card, and focus on the core elements that are critical to all of these modern hardware accelerators.
 
 This project is primarily focused on exploring:
 

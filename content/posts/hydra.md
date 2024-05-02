@@ -1,9 +1,9 @@
 ---
 title: hydra
-date: 2024-05-01T12:15:39+08:00
+date: 2024-05-02T12:15:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710101749861-aef7c032d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
 ---
 
 # [hydralauncher/hydra](https://github.com/hydralauncher/hydra)
@@ -123,20 +123,34 @@ yarn make
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/fhilipecrash">
-            <img src="https://avatars.githubusercontent.com/u/36455575?v=4" width="100;" alt="fhilipecrash"/>
-            <br />
-            <sub><b>Fhilipe Coelho</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/Magrid0">
             <img src="https://avatars.githubusercontent.com/u/73496008?v=4" width="100;" alt="Magrid0"/>
             <br />
             <sub><b>Magrid</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/fhilipecrash">
+            <img src="https://avatars.githubusercontent.com/u/36455575?v=4" width="100;" alt="fhilipecrash"/>
+            <br />
+            <sub><b>Fhilipe Coelho</b></sub>
+        </a>
     </td></tr>
 <tr>
+    <td align="center">
+        <a href="https://github.com/jps14">
+            <img src="https://avatars.githubusercontent.com/u/168477146?v=4" width="100;" alt="jps14"/>
+            <br />
+            <sub><b>José Luís</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/shadowtosser">
+            <img src="https://avatars.githubusercontent.com/u/168544958?v=4" width="100;" alt="shadowtosser"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td>
     <td align="center">
         <a href="https://github.com/ferivoq">
             <img src="https://avatars.githubusercontent.com/u/36544651?v=4" width="100;" alt="ferivoq"/>
@@ -164,7 +178,8 @@ yarn make
             <br />
             <sub><b>Ikko Eltociear Ashimine</b></sub>
         </a>
-    </td>
+    </td></tr>
+<tr>
     <td align="center">
         <a href="https://github.com/Netflixyapp">
             <img src="https://avatars.githubusercontent.com/u/91623880?v=4" width="100;" alt="Netflixyapp"/>

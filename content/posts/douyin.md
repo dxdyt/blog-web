@@ -1,9 +1,9 @@
 ---
 title: douyin
-date: 2024-05-01T12:15:47+08:00
+date: 2024-05-02T12:16:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713184359231-832519897def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713184359231-832519897def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
 ---
 
 # [zyronon/douyin](https://github.com/zyronon/douyin)
@@ -37,8 +37,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1714159411177-f0b09967eb
 
 ## 在线访问
 
-Gitee Pages: [https://zyronon.gitee.io/douyin/](https://zyronon.gitee.io/douyin/)(中国地区推荐访问这个地址)   
-注意：Gitee Pages现在无法更新，代码不是最新的。如果你能翻墙推荐访问下面地址  
+[//]: # (Gitee Pages: [https://zyronon.gitee.io/douyin/]&#40;https://zyronon.gitee.io/douyin/&#41;&#40;中国地区推荐访问这个地址&#41;   )
+[//]: # (注意：Gitee Pages现在无法更新，代码不是最新的。如果你能翻墙推荐访问下面地址  )
 
 Github Pages: [https://dy.ttentau.top/](https://dy.ttentau.top/)  
 
@@ -61,10 +61,18 @@ Github Pages: [https://dy.ttentau.top/](https://dy.ttentau.top/)
 ## 运行
 注意：本项目仅适用于学习和研究，不得用于商业使用
 
-### 快速部署至Vercel
+### 快速部署至 Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zyronon/douyin)
 
+### 部署到 Docker
+```bash
+# pull Docker image
+docker pull ghcr.io/zyronon/douyin-vue:latest
+
+# start container, nginx reverse proxy custom port, for example: docker run -d -p 80:80 ghcr.io/zyronon/douyin-vue:latest
+docker run -d -p 80:80 ghcr.io/zyronon/douyin-vue:latest
+```
 ### 本地开发
 **注意：必须 git 命令 clone 下来才能运行，下载 zip 包是无法运行的。如果 clone 速度太慢，推荐使用 gitee 地址**
 

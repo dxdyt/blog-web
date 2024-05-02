@@ -1,9 +1,9 @@
 ---
 title: Rust
-date: 2023-05-22T12:17:48+08:00
+date: 2024-05-02T12:18:39+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12149/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
+featuredImage: https://images.unsplash.com/photo-1713184359231-832519897def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713184359231-832519897def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)
@@ -15,8 +15,14 @@ featuredImagePreview: https://wallpaperhub.app/api/v1/get/12149/0/1080p
 <h1><a href="https://github.com/TheAlgorithms/">The Algorithms</a> - Rust</h1>
 
 <!-- Labels: -->
+<a href="https://gitpod.io/#https://github.com/TheAlgorithms/Rust">
+    <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square" height="20" alt="Gitpod Ready-to-Code">
+</a>
 <a href="https://github.com/TheAlgorithms/Rust/actions/workflows/build.yml">
   <img src="https://github.com/TheAlgorithms/Rust/actions/workflows/build.yml/badge.svg" height="20" alt="Build workflow">
+</a>
+<a href="https://codecov.io/gh/TheAlgorithms/Rust" > 
+  <img src="https://codecov.io/gh/TheAlgorithms/Rust/graph/badge.svg?token=nRkPKfbs42"/> 
 </a>
 <a href="https://the-algorithms.com/discord">
   <img src="https://img.shields.io/discord/808045925556682782.svg?logo=discord&colorB=00d37d" height="20" alt="Discord community">
