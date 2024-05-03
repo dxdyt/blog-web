@@ -1,9 +1,9 @@
 ---
 title: Perplexica
-date: 2024-05-02T12:18:24+08:00
+date: 2024-05-03T12:18:14+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1706800282670-61c04d56a4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1706800282670-61c04d56a4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
 ---
 
 # [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica)
@@ -20,6 +20,7 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1706800282670-61c0
 - [Installation](#installation)
   - [Getting Started with Docker (Recommended)](#getting-started-with-docker-recommended)
   - [Non-Docker Installation](#non-docker-installation)
+- [One-Click Deployment](#one-click-deployment)
 - [Upcoming Features](#upcoming-features)
 - [Support Us](#support-us)
 - [Contribution](#contribution)
@@ -69,13 +70,11 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
 
 4. Rename the `sample.config.toml` file to `config.toml`. For Docker setups, you need only fill in the following fields:
 
-   - `CHAT_MODEL`: The name of the LLM to use. Like `llama3:latest` (using Ollama), `gpt-3.5-turbo` (using OpenAI), etc.
-   - `CHAT_MODEL_PROVIDER`: The chat model provider, either `openai` or `ollama`. Depending upon which provider you use you would have to fill in the following fields:
+   - `OPENAI`: Your OpenAI API key. **You only need to fill this if you wish to use OpenAI's models**.
+   - `OLLAMA`: Your Ollama API URL. You should enter it as `http://host.docker.internal:PORT_NUMBER`. If you installed Ollama on port 11434, use `http://host.docker.internal:11434`. For other ports, adjust accordingly. **You need to fill this if you wish to use Ollama's models instead of OpenAI's**.
+   - `GROQ`: Your Groq API key. **You only need to fill this if you wish to use Groq's hosted models**
 
-     - `OPENAI`: Your OpenAI API key. **You only need to fill this if you wish to use OpenAI's models**.
-     - `OLLAMA`: Your Ollama API URL. You should enter it as `http://host.docker.internal:PORT_NUMBER`. If you installed Ollama on port 11434, use `http://host.docker.internal:11434`. For other ports, adjust accordingly. **You need to fill this if you wish to use Ollama's models instead of OpenAI's**.
-
-       **Note**: You can change these and use different models after running Perplexica as well from the settings page.
+     **Note**: You can change these after starting Perplexica from the settings dialog.
 
    - `SIMILARITY_MEASURE`: The similarity measure to use (This is filled by default; you can leave it as is if you are unsure about it.)
 
@@ -98,6 +97,10 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
 5. Finally, start both the frontend and the backend by running `npm run start` in both the `ui` folder and the root directory.
 
 **Note**: Using Docker is recommended as it simplifies the setup process, especially for managing environment variables and dependencies.
+
+## One-Click Deployment
+
+[![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app_id=267)
 
 ## Upcoming Features
 

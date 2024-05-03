@@ -1,9 +1,9 @@
 ---
 title: hydra
-date: 2024-05-02T12:15:58+08:00
+date: 2024-05-03T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
 ---
 
 # [hydralauncher/hydra](https://github.com/hydralauncher/hydra)
@@ -185,6 +185,13 @@ yarn make
             <img src="https://avatars.githubusercontent.com/u/91623880?v=4" width="100;" alt="Netflixyapp"/>
             <br />
             <sub><b>Netflixy</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/FerNikoMF">
+            <img src="https://avatars.githubusercontent.com/u/76095334?v=4" width="100;" alt="FerNikoMF"/>
+            <br />
+            <sub><b>Firdavs</b></sub>
         </a>
     </td></tr>
 </table>

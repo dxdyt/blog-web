@@ -1,9 +1,9 @@
 ---
 title: penpot
-date: 2024-04-12T12:17:15+08:00
+date: 2024-05-03T12:18:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710169473427-eaed5969b91b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
 ---
 
 # [penpot/penpot](https://github.com/penpot/penpot)
@@ -53,8 +53,7 @@ Penpot is available on browser and [self host](https://penpot.app/self-host). It
 Penpot’s latest [huge release 2.0](https://penpot.app/dev-diaries), takes the platform to a whole new level. This update introduces the ground-breaking [CSS Grid Layout feature](https://penpot.app/penpot-2.0), a complete UI redesign, a new Components system, and much more. Plus, it's faster and more accessible. 
 
 
-🎇 **Penpot Fest is back!** Our design, code & Open Source event is happening in Barcelona | June 5-7th. [Get your tickets](https://www.eventbrite.es/e/penpot-fest-2024-tickets-859331883797) to join other designers and developers from open-source communities and beyond. 
-Check out the highlights from [Penpot Fest 2023 edition](https://www.youtube.com/watch?v=sOpLZaK5mDc)!
+🎇 **Penpot Fest** is our design, code & Open Source event. Check out the highlights from [Penpot Fest 2023 edition](https://www.youtube.com/watch?v=sOpLZaK5mDc)!
 
 ## Table of contents ##
 
@@ -124,7 +123,7 @@ You will find the following categories:
 <br />
 
 <p align="center">
-  <img src="https://github.com/penpot/penpot/assets/5446186/6ac62220-a16c-46c9-ab21-d24ae357ed03" alt="Communnity" style="width: 65%;">
+  <img src="https://github.com/penpot/penpot/assets/5446186/6ac62220-a16c-46c9-ab21-d24ae357ed03" alt="Community" style="width: 65%;">
 </p>
 <br />
 

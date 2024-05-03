@@ -1,9 +1,9 @@
 ---
 title: pokerogue
-date: 2024-04-12T12:16:39+08:00
+date: 2024-05-03T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712221370157-922ea45f0605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712221370157-922ea45f0605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712916571150-e19f05d07b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712916571150-e19f05d07b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
 ---
 
 # [pagefaultgames/pokerogue](https://github.com/pagefaultgames/pokerogue)
@@ -17,8 +17,11 @@ PokéRogue is a browser based Pokémon fangame heavily inspired by the roguelite
 If you have the motivation and experience with Typescript/Javascript (or are willing to learn) please feel free to fork the repository and make pull requests with contributions. If you don't know what to work on but want to help, reference the below **To-Do** section or the **#vote** channel in the discord. 
 
 ### 💻 Environment Setup
-node: 18.3.0
+#### Prerequisites
+- node: 18.3.0
+- npm: [how to install](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
+#### Running Locally
 1. Clone the repo and in the root directory run `npm install`
     - *if you run into any errors, reach out in the **#dev-corner** channel in discord*
 2. Run `npm run start:dev` to locally run the project in `localhost:8000`
@@ -64,6 +67,9 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
 ### 🎨 UI
   - GAMEFREAK
   - LJ Birdman
+
+### 🎨 Pagefault Games Intro
+  - Spectremint
 
 ### 🎨 Game Logo
   - Gonstar (Paid Commission)
