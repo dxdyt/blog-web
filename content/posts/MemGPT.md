@@ -1,308 +1,115 @@
 ---
 title: MemGPT
-date: 2023-10-23T12:15:33+08:00
+date: 2024-05-04T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697082390841-bbe568972ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgwMzQ1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712262825783-c0b5ef123959?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712262825783-c0b5ef123959?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [cpacker/MemGPT](https://github.com/cpacker/MemGPT)
 
-<a href="#user-content-memgpt"><img src="https://memgpt.ai/assets/img/memgpt_logo_circle.png" alt="MemGPT logo" width="75" align="right"></a>
-
-# [MemGPT](https://memgpt.ai)
+<p align="center">
+  <a href="https://memgpt.ai"><img src="https://github.com/cpacker/MemGPT/assets/5475622/80f2f418-ef92-4f7a-acab-5d642faa4991" alt="MemGPT logo"></a>
+</p>
 
 <div align="center">
 
- <strong>Try out our MemGPT chatbot on <a href="https://discord.gg/9GEQrxmVyE">Discord</a>!</strong>
+ <strong>MemGPT allows you to build LLM agents with long term memory & custom tools</strong>
 
 [![Discord](https://img.shields.io/discord/1161736243340640419?label=Discord&logo=discord&logoColor=5865F2&style=flat-square&color=5865F2)](https://discord.gg/9GEQrxmVyE)
-[![arXiv 2310.08560](https://img.shields.io/badge/arXiv-2310.08560-B31B1B?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2310.08560)
+[![arxiv 2310.08560](https://img.shields.io/badge/arXiv-2310.08560-B31B1B?logo=arxiv&style=flat-square)](https://arxiv.org/abs/2310.08560)
+[![Documentation](https://img.shields.io/github/v/release/cpacker/MemGPT?label=Documentation&logo=readthedocs&style=flat-square)](https://memgpt.readme.io/docs)
 
 </div>
 
-<details open>
-  <summary><h2>🤖 Create perpetual chatbots with self-editing memory!</h2></summary>
-  <div align="center">
-    <br>
-    <img src="https://memgpt.ai/assets/img/demo.gif" alt="MemGPT demo video" width="800">
-  </div>
-</details>
+MemGPT makes it easy to build and deploy stateful LLM agents with support for: 
+* Long term memory/state management 
+* Connections to [external data sources](https://memgpt.readme.io/docs/data_sources) (e.g. PDF files) for RAG 
+* Defining and calling [custom tools](https://memgpt.readme.io/docs/functions) (e.g. [google search](https://github.com/cpacker/MemGPT/blob/main/examples/google_search.py))
 
-<details>
- <summary><h2>🗃️ Chat with your data - talk to your SQL database or your local files!</strong></h2></summary>
-  <strong>SQL Database</strong>
-  <div align="center">
-    <img src="https://memgpt.ai/assets/img/sql_demo.gif" alt="MemGPT demo video for sql search" width="800">
-  </div>
-  <strong>Local files</strong>
-  <div align="center">
-    <img src="https://memgpt.ai/assets/img/preload_archival_demo.gif" alt="MemGPT demo video for sql search" width="800">
-  </div>
-</details>
+You can also use MemGPT to depoy agents as a *service*. You can use a MemGPT server to run a multi-user, multi-agent application on top of supported LLM providers.
 
-<details>
-  <summary><h2>📄 You can also talk to docs - for example ask about <a href="memgpt/personas/examples/docqa">LlamaIndex</a>!</h1></summary>
-  <div align="center">
-    <img src="https://memgpt.ai/assets/img/docqa_demo.gif" alt="MemGPT demo video for llamaindex api docs search" width="800">
-  </div>
-  <details>
-  <summary><b>ChatGPT (GPT-4) when asked the same question:</b></summary>
-    <div align="center">
-      <img src="https://memgpt.ai/assets/img/llama_index_gpt4.png" alt="GPT-4 when asked about llamaindex api docs" width="800">
-    </div>
-    (Question from https://github.com/run-llama/llama_index/issues/7756)
-  </details>
-</details>
+<img width="1000" alt="image" src="https://github.com/cpacker/MemGPT/assets/8505980/1096eb91-139a-4bc5-b908-fa585462da09">
 
-## Quick setup
 
-Join <a href="https://discord.gg/9GEQrxmVyE">Discord</a></strong> and message the MemGPT bot (in the `#memgpt` channel). Then run the following commands (messaged to "MemGPT Bot"):
-* `/profile` (to create your profile)
-* `/key` (to enter your OpenAI key)
-* `/create` (to create a MemGPT chatbot)
-
-Make sure your privacy settings on this server are open so that MemGPT Bot can DM you: \
-MemGPT → Privacy Settings → Direct Messages set to ON
-<div align="center">
- <img src="https://memgpt.ai/assets/img/discord/dm_settings.png" alt="set DMs settings on MemGPT server to be open in MemGPT so that MemGPT Bot can message you" width="400">
-</div>
-
-You can see the full list of available commands when you enter `/` into the message box.
-<div align="center">
- <img src="https://memgpt.ai/assets/img/discord/slash_commands.png" alt="MemGPT Bot slash commands" width="400">
-</div>
-
-## What is MemGPT?
-
-Memory-GPT (or MemGPT in short) is a system that intelligently manages different memory tiers in LLMs in order to effectively provide extended context within the LLM's limited context window. For example, MemGPT knows when to push critical information to a vector database and when to retrieve it later in the chat, enabling perpetual conversations. Learn more about MemGPT in our [paper](https://arxiv.org/abs/2310.08560).
-
-## Running MemGPT locally
-
-Install dependencies:
-
+## Installation & Setup   
+Install MemGPT:
 ```sh
-pip install -r requirements.txt
+pip install -U pymemgpt
 ```
-
-Extra step for Windows:
-
-```sh
-# only needed on Windows
-pip install pyreadline3
+To use MemGPT with OpenAI, set the environment variable `OPENAI_API_KEY` to your OpenAI key then run: 
 ```
-
-Add your OpenAI API key to your environment:
-
-```sh
-# on Linux/Mac
-export OPENAI_API_KEY=YOUR_API_KEY
+memgpt quickstart --backend openai
 ```
-
-```sh
-# on Windows
-set OPENAI_API_KEY=YOUR_API_KEY
+To use MemGPT with a free hosted endpoint, you run run: 
 ```
-
-To run MemGPT for as a conversation agent in CLI mode, simply run `main.py`:
-
-```sh
-python3 main.py
+memgpt quickstart --backend memgpt
 ```
+For more advanced configuration options or to use a different [LLM backend](https://memgpt.readme.io/docs/endpoints) or [local LLMs](https://memgpt.readme.io/docs/local_llm), run `memgpt configure`. 
 
-If you're using Azure OpenAI, set these variables instead:
+## Quickstart (CLI)  
+You can create and chat with a MemGPT agent by running `memgpt run` in your CLI. The `run` command supports the following optional flags (see the [CLI documentation](https://memgpt.readme.io/docs/quickstart) for the full list of flags):
+* `--agent`: (str) Name of agent to create or to resume chatting with.
+* `--first`: (str) Allow user to sent the first message.
+* `--debug`: (bool) Show debug logs (default=False)
+* `--no-verify`: (bool) Bypass message verification (default=False)
+* `--yes`/`-y`: (bool) Skip confirmation prompt and use defaults (default=False)
 
-```sh
-# see https://github.com/openai/openai-python#microsoft-azure-endpoints
-export AZURE_OPENAI_KEY = ...
-export AZURE_OPENAI_ENDPOINT = ...
-export AZURE_OPENAI_VERSION = ...
-export AZURE_OPENAI_DEPLOYMENT = ...
+You can view the list of available in-chat commands (e.g. `/memory`, `/exit`) in the [CLI documentation](https://memgpt.readme.io/docs/quickstart).
 
-# then use the --use_azure_openai flag
-python main.py --use_azure_openai
-```
+## Dev portal (alpha build)
+MemGPT provides a developer portal that enables you to easily create, edit, monitor, and chat with your MemGPT agents. The easiest way to use the dev portal is to install MemGPT via **docker** (see instructions below).
 
-To create a new starter user or starter persona (that MemGPT gets initialized with), create a new `.txt` file in [/memgpt/humans/examples](/memgpt/humans/examples) or [/memgpt/personas/examples](/memgpt/personas/examples), then use the `--persona` or `--human` flag when running `main.py`. For example:
+<img width="1000" alt="image" src="https://github.com/cpacker/MemGPT/assets/5475622/071117c5-46a7-4953-bc9d-d74880e66258">
 
-```sh
-# assuming you created a new file /memgpt/humans/examples/me.txt
-python main.py --human me.txt
-```
+## Quickstart (Server)  
 
-### GPT-3.5 support
-You can run MemGPT with GPT-3.5 as the LLM instead of GPT-4:
-```sh
-python main.py --model gpt-3.5-turbo
-```
+**Option 1 (Recommended)**: Run with docker compose  
+1. [Install docker on your system](https://docs.docker.com/get-docker/)
+2. Clone the repo: `git clone git@github.com:cpacker/MemGPT.git`
+3. Run `docker compose up`
+4. Go to `memgpt.localhost` in the browser to view the developer portal 
 
-**Note that this is experimental gpt-3.5-turbo support. It's quite buggy compared to gpt-4, but it should be runnable.**
+**Option 2:** Run with the CLI:
+1. Run `memgpt server`
+2. Go to `localhost:8283` in the browser to view the developer portal 
 
-Please report any bugs you encounter regarding MemGPT running on GPT-3.5 to  https://github.com/cpacker/MemGPT/issues/59.
-
-### `main.py` flags
-
-```text
---model
-  select which model to use ('gpt-4', 'gpt-3.5-turbo-0613', 'gpt-3.5-turbo')
---persona
-  load a specific persona file
---human
-  load a specific human file
---first
-  allows you to send the first message in the chat (by default, MemGPT will send the first message)
---debug
-  enables debugging output
---archival_storage_faiss_path=<ARCHIVAL_STORAGE_FAISS_PATH>
-  load in document database (backed by FAISS index)
---archival_storage_files="<ARCHIVAL_STORAGE_FILES_GLOB_PATTERN>"
-  pre-load files into archival memory
---archival_storage_files_compute_embeddings="<ARCHIVAL_STORAGE_FILES_GLOB_PATTERN>"
-  pre-load files into archival memory and also compute embeddings for embedding search
---archival_storage_sqldb=<SQLDB_PATH>
-  load in SQL database
-```
-
-### Interactive CLI commands
-
-These are the commands for the CLI, **not the Discord bot**! The Discord bot has separate commands you can see in Discord by typing `/`.
-
-While using MemGPT via the CLI (not Discord!) you can run various commands:
-
-```text
-//
-  enter multiline input mode (type // again when done)
-/exit
-  exit the CLI
-/save
-  save a checkpoint of the current agent/conversation state
-/load
-  load a saved checkpoint
-/dump
-  view the current message log (see the contents of main context)
-/memory
-  print the current contents of agent memory
-/pop
-  undo the last message in the conversation
-/heartbeat
-  send a heartbeat system message to the agent
-/memorywarning
-  send a memory warning system message to the agent
-```
-## Example applications
-<details open>
-<summary><h3>Use MemGPT to talk to your Database!</h3></summary>
-
-MemGPT's archival memory let's you load your database and talk to it! To motivate this use-case, we have included a toy example.
-
-Consider the `test.db` already included in the repository.
-
-id	| name |	age
---- | --- | ---
-1	| Alice |	30
-2	| Bob	 | 25
-3	| Charlie |	35
-
-To talk to this database, run:
-
-```sh
-python main.py  --archival_storage_sqldb=memgpt/personas/examples/sqldb/test.db
-```
-
-And then you can input the path to your database, and your query.
-
-```python
-Please enter the path to the database. test.db
-...
-Enter your message: How old is Bob?
-...
-🤖 Bob is 25 years old.
-```
-</details>
-<details>
- <summary><h3>Loading local files into archival memory</h3></summary>
- MemGPT enables you to chat with your data locally -- this example gives the workflow for loading documents into MemGPT's archival memory.
-
-To run our example where you can search over the SEC 10-K filings of Uber, Lyft, and Airbnb,
-
-1. Download the .txt files from [Hugging Face](https://huggingface.co/datasets/MemGPT/example-sec-filings/tree/main) and place them in `memgpt/personas/examples/preload_archival`.
-
-2. In the root `MemGPT` directory, run
-    ```bash
-    python3 main.py --archival_storage_files="memgpt/personas/examples/preload_archival/*.txt" --persona=memgpt_doc --human=basic
-    ```
-
-If you would like to load your own local files into MemGPT's archival memory, run the command above but replace `--archival_storage_files="memgpt/personas/examples/preload_archival/*.txt"` with your own file glob expression (enclosed in quotes).
-
-#### Enhance with embeddings search
-In the root `MemGPT` directory, run
-  ```bash
-  python3 main.py --archival_storage_files_compute_embeddings="<GLOB_PATTERN>" --persona=memgpt_doc --human=basic
-  ```
-
-This will generate embeddings, stick them into a FAISS index, and write the index to a directory, and then output:
-```
-  To avoid computing embeddings next time, replace --archival_storage_files_compute_embeddings=<GLOB_PATTERN> with
-    --archival_storage_faiss_path=<DIRECTORY_WITH_EMBEDDINGS> (if your files haven't changed).
-```
-
-If you want to reuse these embeddings, run
-```bash
-python3 main.py --archival_storage_faiss_path="<DIRECTORY_WITH_EMBEDDINGS>" --persona=memgpt_doc --human=basic
-```
+Once the server is running, you can use the [Python client](https://memgpt.readme.io/docs/admin-client) or [REST API](https://memgpt.readme.io/reference/api) to connect to `memgpt.localhost` (if you're running with docker compose) or `localhost:8283` (if you're running with the CLI) to create users, agents, and more. The service requires authentication with a MemGPT admin password, which can be set with running `export MEMGPT_SERVER_PASS=password`. 
 
 
-</details>
-<details>
-<summary><h3>Talking to LlamaIndex API Docs</h3></summary>
+## Supported Endpoints & Backends 
+MemGPT is designed to be model and provider agnostic. The following LLM and embedding endpoints are supported: 
 
-MemGPT also enables you to chat with docs -- try running this example to talk to the LlamaIndex API docs!
+| Provider            | LLM Endpoint    | Embedding Endpoint |
+|---------------------|-----------------|--------------------|
+| OpenAI              | ✅               | ✅                  |
+| Azure OpenAI        | ✅               | ✅                  |
+| Google AI (Gemini)  | ✅               | ❌                  |
+| Anthropic (Claude)  | ✅               | ❌                  |
+| Groq                | ✅ (alpha release) | ❌                  |
+| Cohere API          | ✅               | ❌                  |
+| vLLM                | ✅               | ❌                  |
+| Ollama              | ✅               | ❌                  |
+| LM Studio           | ✅               | ❌                  |
+| koboldcpp           | ✅               | ❌                  |
+| oobabooga web UI    | ✅               | ❌                  |
+| llama.cpp           | ✅               | ❌                  |
+| HuggingFace TEI     | ❌               | ✅                  |
 
-1.
-    a. Download LlamaIndex API docs and FAISS index from [Hugging Face](https://huggingface.co/datasets/MemGPT/llamaindex-api-docs).
-   ```bash
-   # Make sure you have git-lfs installed (https://git-lfs.com)
-   git lfs install
-   git clone https://huggingface.co/datasets/MemGPT/llamaindex-api-docs
-   mv llamaindex-api-docs
-   ```
+When using MemGPT with open LLMs (such as those downloaded from HuggingFace), the performance of MemGPT will be highly dependent on the LLM's function calling ability. You can find a list of LLMs/models that are known to work well with MemGPT on the [#model-chat channel on Discord](https://discord.gg/9GEQrxmVyE), as well as on [this spreadsheet](https://docs.google.com/spreadsheets/d/1fH-FdaO8BltTMa4kXiNCxmBCQ46PRBVp3Vn6WbPgsFs/edit?usp=sharing).
 
-    **-- OR --**
-
-   b. Build the index:
-    1. Build `llama_index` API docs with `make text`. Instructions [here](https://github.com/run-llama/llama_index/blob/main/docs/DOCS_README.md). Copy over the generated `_build/text` folder to `memgpt/personas/docqa`.
-    2. Generate embeddings and FAISS index.
-        ```bash
-        cd memgpt/personas/docqa
-        python3 scrape_docs.py
-        python3 generate_embeddings_for_docs.py all_docs.jsonl
-        python3 build_index.py --embedding_files all_docs.embeddings.jsonl --output_index_file all_docs.index
-
-3. In the root `MemGPT` directory, run
-    ```bash
-    python3 main.py --archival_storage_faiss_path=<ARCHIVAL_STORAGE_FAISS_PATH> --persona=memgpt_doc --human=basic
-    ```
-    where `ARCHIVAL_STORAGE_FAISS_PATH` is the directory where `all_docs.jsonl` and `all_docs.index` are located.
-   If you downloaded from Hugging Face, it will be `memgpt/personas/docqa/llamaindex-api-docs`.
-   If you built the index yourself, it will be `memgpt/personas/docqa`.
-</details>
+## Documentation
+See full documentation at: https://memgpt.readme.io
 
 ## Support
+For issues and feature requests, please [open a GitHub issue](https://github.com/cpacker/MemGPT/issues) or message us on our `#support` channel on [Discord](https://discord.gg/9GEQrxmVyE).
 
-If you have any further questions, or have anything to share, we are excited to hear your feedback!
+## Legal notices
+By using MemGPT and related MemGPT services (such as the MemGPT endpoint or hosted service), you agree to our [privacy policy](PRIVACY.md) and [terms of service](TERMS.md).
 
-* By default MemGPT will use `gpt-4`, so your API key will require `gpt-4` API access
-* For issues and feature requests, please [open a GitHub issue](https://github.com/cpacker/MemGPT/issues) or message us on our `#support` channel on [Discord](https://discord.gg/9GEQrxmVyE)
+## Roadmap
+You can view (and comment on!) the MemGPT developer roadmap on GitHub: https://github.com/cpacker/MemGPT/issues/1200.
 
-## Datasets
-Datasets used in our [paper](https://arxiv.org/abs/2310.08560) can be downloaded at [Hugging Face](https://huggingface.co/MemGPT).
+## Benchmarking 
+To evaluate the performance of a model on MemGPT, simply configure the appropriate model settings using `memgpt configure`, and then initiate the benchmark via `memgpt benchmark`. The duration will vary depending on your hardware. This will run through a predefined set of prompts through multiple iterations to test the function calling capabilities of a model. You can help track what LLMs work well with MemGPT by contributing your benchmark results via [this form](https://forms.gle/XiBGKEEPFFLNSR348), which will be used to update the spreadsheet.
 
-## 🚀 Project Roadmap
-- [x] Release MemGPT Discord bot demo (perpetual chatbot)
-- [x] Add additional workflows (load SQL/text into MemGPT external context)
-- [x] Integration tests
-- [x] Integrate with AutoGen ([discussion](https://github.com/cpacker/MemGPT/discussions/65))
-- [x] Add official gpt-3.5-turbo support ([discussion](https://github.com/cpacker/MemGPT/discussions/66))
-- [ ] Release MemGPT family of open models (eg finetuned Mistral) ([discussion](https://github.com/cpacker/MemGPT/discussions/67))
-- [ ] CLI UI improvements ([issue](https://github.com/cpacker/MemGPT/issues/11))
-- [ ] Add support for other LLM backends ([issue](https://github.com/cpacker/MemGPT/issues/18))

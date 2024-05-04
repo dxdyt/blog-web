@@ -1,9 +1,9 @@
 ---
 title: pokerogue
-date: 2024-05-03T12:18:27+08:00
+date: 2024-05-04T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712916571150-e19f05d07b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712916571150-e19f05d07b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711834232016-65162c210eda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711834232016-65162c210eda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [pagefaultgames/pokerogue](https://github.com/pagefaultgames/pokerogue)
@@ -29,7 +29,7 @@ If you have the motivation and experience with Typescript/Javascript (or are wil
 ### ❔ FAQ 
 
 **How do I test a new _______?**
-- In the `battle-scene.ts` file there are overrides for most values you'll need to change for testing
+- In the `src/overrides.ts` file there are overrides for most values you'll need to change for testing
 
 
 ## 🪧 To Do

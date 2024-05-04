@@ -1,9 +1,9 @@
 ---
 title: tracecat
-date: 2024-05-03T12:17:49+08:00
+date: 2024-05-04T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712675009273-5a6c46663fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712675009273-5a6c46663fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [TracecatHQ/tracecat](https://github.com/TracecatHQ/tracecat)
@@ -45,13 +45,18 @@ _Want to take Tracecat for a spin? Try out our [tutorials](https://docs.tracecat
 
 It's designed to be simple but powerful. Security automation should be accessible to everyone, ~~including~~ especially understaffed small-to-mid sized teams.
 
-SOAR [(Security Orchestration, Automation and Response)](https://www.gartner.com/en/information-technology/glossary/security-orchestration-automation-response-soar) refers to technologies that enable organizations to automatically collect and respond to alerts across different tooling. Though Tracecat is built for security, it's workflow automation and case management system can be applied to other alerting environments (e.g. site reliability engineering, DevOps, and physical systems monitoring).
-
 Check out our [quickstart](https://docs.tracecat.com/quickstart) and build your first AI workflow in 15 minutes.
 The easiest way to get started is to sign-up for [Tracecat Cloud](https://platform.tracecat.com).
 We also support [self-hosted](https://docs.tracecat.com/installation) Tracecat.
 
-![autocomplete_gif](https://github.com/TracecatHQ/tracecat/assets/46541035/52b822a9-fbd5-4f08-a4ec-54e8fd1b8f02)
+> [!NOTE]
+> SOAR [(Security Orchestration, Automation and Response)](https://www.gartner.com/en/information-technology/glossary/security-orchestration-automation-response-soar) refers to technologies that enable organizations to automatically collect and respond to alerts across different security tooling (e.g. Crowdstrike, Microsoft Defender, SIEM) and data sources (e.g. AWS CloudTrail, Okta system logs).
+
+### Build SecOps Automations
+<img src="https://github.com/TracecatHQ/tracecat/blob/main/img/workflow.png" width="100%" />
+
+### Manage Cases with AI Tagging
+<img src="https://github.com/TracecatHQ/tracecat/blob/main/img/cases.gif" width="100%" />
 
 ## Getting started
 

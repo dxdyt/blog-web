@@ -1,9 +1,9 @@
 ---
 title: fastfetch
-date: 2024-05-03T12:17:33+08:00
+date: 2024-05-04T12:17:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714379066483-9600552fa95f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714379066483-9600552fa95f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712675009273-5a6c46663fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712675009273-5a6c46663fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)

@@ -1,9 +1,9 @@
 ---
 title: system-design
-date: 2024-04-12T12:17:00+08:00
+date: 2024-05-04T12:20:36+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [systemdesign42/system-design](https://github.com/systemdesign42/system-design)
@@ -26,7 +26,7 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e
 |     |     |     |     |     |     |     |     |     |
 |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |:-:  |
 | [#](#-companies)  | [A](#a-companies)  | [B](#b-companies)  | [C](#c-companies)  | [D](#d-companies)  | [](#e-companies)  | [](#f-companies)  | [G](#g-companies)  | [H](#h-companies)  |
-| [](#i-companies)  | [](#j-companies)  | [K](#k-companies)  | [L](#l-companies)  | [](#m-companies)  | [N](#n-companies)  | [](#o-companies)  | [P](#p-companies)  | [Q](#q-companies)  |
+| [](#i-companies)  | [](#j-companies)  | [K](#k-companies)  | [L](#l-companies)  | [M](#m-companies)  | [N](#n-companies)  | [](#o-companies)  | [P](#p-companies)  | [Q](#q-companies)  |
 | [](#r-companies)  | [S](#s-companies)  | [T](#t-companies)  | [U](#u-companies)  | [V](#v-companies)  | [W](#w-companies)  | [](#x-companies)  | [Y](#y-companies)  | [Z](#z-companies)   |
 
 
@@ -83,6 +83,7 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e
 - [How Disney+ Hotstar Scaled to 25 Million Concurrent Users](https://newsletter.systemdesign.one/p/hotstar-scaling)
 - [How Disney+ Scaled to 11 Million Users on Launch Day](https://newsletter.systemdesign.one/p/disney-architecture)
 - [How Discord Boosts Performance With Code-Splitting](https://newsletter.systemdesign.one/p/what-is-code-splitting-in-react)
+- [How Dropbox Scaled to 100 Thousand Users in a Year After Launch](https://newsletter.systemdesign.one/p/dropbox-architecture)
 
 #### G companies
 
@@ -102,6 +103,11 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e
 - [How LinkedIn Scaled to 930 Million Users](https://newsletter.systemdesign.one/p/scalable-software-architecture)
 - [How LinkedIn Adopted Protocol Buffers to Reduce Latency by 60%](https://newsletter.systemdesign.one/p/protocol-buffers-vs-json)
 - [Tech Stack Evolution at Levels fyi](https://newsletter.systemdesign.one/p/levels-fyi-google-sheets)
+- [How Lyft Support Rides to 21 Million Users](https://newsletter.systemdesign.one/p/lyft-engineering)
+
+#### M companies
+
+- [How McDonald’s Food Delivery Platform Handles 20,000 Orders per Second](https://newsletter.systemdesign.one/p/mcdonalds-architecture)
 
 #### N companies
 

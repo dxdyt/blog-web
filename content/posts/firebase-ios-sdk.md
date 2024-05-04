@@ -1,9 +1,9 @@
 ---
 title: firebase-ios-sdk
-date: 2024-04-07T12:18:01+08:00
+date: 2024-05-04T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711919880500-ffe6a4bbf4af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711919880500-ffe6a4bbf4af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714115816960-55cc9086768a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714115816960-55cc9086768a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [firebase/firebase-ios-sdk](https://github.com/firebase/firebase-ios-sdk)
@@ -96,7 +96,7 @@ For details on using Firebase from a Framework or a library, refer to [firebase_
 To develop Firebase software in this repository, ensure that you have at least
 the following software:
 
-* Xcode 14.1 (or later)
+* Xcode 15.2 (or later)
 
 CocoaPods is still the canonical way to develop, but much of the repo now supports
 development with Swift Package Manager.

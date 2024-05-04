@@ -1,9 +1,9 @@
 ---
 title: Chinese-LLaMA-Alpaca-3
-date: 2024-05-02T12:17:43+08:00
+date: 2024-05-04T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
 ---
 
 # [ymcui/Chinese-LLaMA-Alpaca-3](https://github.com/ymcui/Chinese-LLaMA-Alpaca-3)
