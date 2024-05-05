@@ -1,9 +1,9 @@
 ---
 title: espeak-ng
-date: 2024-05-04T12:17:54+08:00
+date: 2024-05-05T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713211460724-7d7f608528a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713211460724-7d7f608528a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [espeak-ng/espeak-ng](https://github.com/espeak-ng/espeak-ng)

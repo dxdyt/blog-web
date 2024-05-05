@@ -1,9 +1,9 @@
 ---
 title: PPPwn
-date: 2024-05-04T12:17:32+08:00
+date: 2024-05-05T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711834232016-65162c210eda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711834232016-65162c210eda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712174863129-dcbd52938915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712174863129-dcbd52938915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [TheOfficialFloW/PPPwn](https://github.com/TheOfficialFloW/PPPwn)
@@ -12,6 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1711834232016-65162c210e
 PPPwn is a kernel remote code execution exploit for PlayStation 4 up to FW 11.00. This is a proof-of-concept exploit for [CVE-2006-4304](https://hackerone.com/reports/2177925) that was reported responsibly to PlayStation.
 
 Supported versions are:
+- FW 8.50
 - FW 9.00
 - FW 9.03 / 9.04
 - FW 9.50 / 9.60

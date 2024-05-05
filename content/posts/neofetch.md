@@ -1,9 +1,9 @@
 ---
 title: neofetch
-date: 2024-05-04T12:18:16+08:00
+date: 2024-05-05T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713783479486-312f89193721?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713783479486-312f89193721?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712846040326-a3d06c0b1667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712846040326-a3d06c0b1667?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [dylanaraps/neofetch](https://github.com/dylanaraps/neofetch)

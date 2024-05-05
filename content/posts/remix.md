@@ -1,9 +1,9 @@
 ---
 title: remix
-date: 2024-05-04T12:19:19+08:00
+date: 2024-05-05T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712433052101-055a988678a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712433052101-055a988678a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711881027254-e9ff3234d9d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711881027254-e9ff3234d9d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [remix-run/remix](https://github.com/remix-run/remix)

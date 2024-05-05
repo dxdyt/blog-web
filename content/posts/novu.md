@@ -1,21 +1,40 @@
 ---
 title: novu
-date: 2023-10-06T12:15:46+08:00
+date: 2024-05-05T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694399120199-72ac9241c2f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694399120199-72ac9241c2f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY1NjU2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [novuhq/novu](https://github.com/novuhq/novu)
 
 <div align="center">
-  <a href="https://novu.co" target="_blank">
+  👨‍💻 <a href="https://jobs.ashbyhq.com/novu.co?utm_source=github" target="_blank">
+     We are hiring in Europe/UK/Israel!</a> 👩‍💻
+</div>
+<br/>
+<br/>
+
+<div align="center">
+  <a href="https://novu.co?utm_source=github" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/2233092/213641039-220ac15f-f367-4d13-9eaf-56e79433b8c1.png">
-    <img src="https://user-images.githubusercontent.com/2233092/213641043-3bbb3f21-3c53-4e67-afe5-755aeb222159.png" width="280" alt="Logo"/>
+    <img alt="Novu Logo" src="https://user-images.githubusercontent.com/2233092/213641043-3bbb3f21-3c53-4e67-afe5-755aeb222159.png" width="280"/>
   </picture>
   </a>
 </div>
+
+<br/>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@novu/node">
+    <img src="https://img.shields.io/npm/v/@novu/node" alt="NPM">
+  </a>
+  <a href="https://www.npmjs.com/package/@novu/node">
+    <img src="https://img.shields.io/npm/dm/@novu/node" alt="npm downloads">
+  </a>
+  <img src="https://img.shields.io/github/license/novuhq/novu" alt="MIT">
+</p>
 
 <h1 align="center">The open-source notification infrastructure for developers</h1>
 
@@ -37,7 +56,7 @@ The ultimate service for managing multi-channel notifications with a single API.
     ·
     <a href="https://roadmap.novu.co">Roadmap</a>
     ·
-    <a href="https://twitter.com/novuhq">Twitter</a>
+    <a href="https://twitter.com/novuhq">X</a>
     ·
     <a href="https://notifications.directory">Notifications Directory</a>
   </p>
@@ -68,7 +87,7 @@ With Novu, you can create custom workflows and define conditions for each channe
 - 📦 Easy to set up and integrate
 - 🛡 Debug and analyze multi-channel messages in a single dashboard
 - 📦 Embeddable notification center with real-time updates
-- 👨‍💻 Community driven
+- 👨‍💻 Community-driven
 
 ## 📚 Table Of Contents
 
@@ -87,13 +106,17 @@ With Novu, you can create custom workflows and define conditions for each channe
 
 ## 🚀 Getting Started
 
-We are excited to launch the complete Novu API and admin panel. Want to give it a test before the official release? Here is how:
+We are excited to launch the complete Novu API and admin panel. Do you want to give it a test before the official release? Here is how:
 
 ```
 npx novu init
 ```
 
-After setting up your account using the cloud or docker version you can trigger the API using the `@novu/node` package.
+After setting up your account using the cloud or docker version, you can trigger the API using the `@novu/node` package.
+
+For API documentation and reference, please visit [Novu API Reference] (https://docs.novu.co/api-reference/events/trigger-event).
+
+To get started with the Node.js package, you can install it using npm:
 
 ```bash
 npm install @novu/node
@@ -124,17 +147,17 @@ await novu.trigger('<TRIGGER_NAME>', {
 
 ## Embeddable Notification Center
 
-Using the Novu API and admin panel, you can easily add a real-time notification center to your web app without building it yourself. You can use our React / Vue / Angular component or an iframe embed.
+Using the Novu API and admin panel, you can easily add a real-time notification center to your web app without building it yourself. You can use our [React](https://docs.novu.co/notification-center/client/react/get-started) / [Vue](https://docs.novu.co/notification-center/client/vue) / [Angular](https://docs.novu.co/notification-center/client/angular) components or an [iframe embed](https://docs.novu.co/notification-center/client/iframe), as well as a [Web component](https://docs.novu.co/notification-center/client/web-component).
 
 <div align="center">
-<img width="762" alt="notification-center-912bb96e009fb3a69bafec23bcde00b0" src="https://user-images.githubusercontent.com/80174214/193887395-f1c95042-b4e6-480e-a89c-a78aa247fa90.gif">
+<img width="762" alt="notification-center-912bb96e009fb3a69bafec23bcde00b0" src="https://user-images.githubusercontent.com/80174214/193887395-f1c95042-b4e6-480e-a89c-a78aa247fa90.gif" alt-text="GIF of Novu's Embeddable Notification Center">
 
 Read more about how to add a notification center to your app with the Novu API [here](https://docs.novu.co/notification-center/getting-started)
 
 <p align="center">
-  <a href="https://docs.novu.co/notification-center/getting-started">React Component</a>
-  · <a href="https://docs.novu.co/notification-center/vue-component">Vue Component</a>
-  · <a href="https://github.com/novuhq/novu/tree/next/packages/notification-center-angular">Angular Component</a>
+  <a href="https://docs.novu.co/sdks/react">React Component</a>
+  · <a href="https://docs.novu.co/sdks/vue">Vue Component</a>
+  · <a href="https://docs.novu.co/sdks/angular">Angular Component</a>
   </p>
   
 </div>
@@ -177,9 +200,9 @@ Novu provides a single API to manage providers across multiple channels with a s
 - [x] [Burst SMS](https://github.com/novuhq/novu/tree/main/providers/burst-sms)
 - [x] [Firetext](https://github.com/novuhq/novu/tree/main/providers/firetext)
 - [x] [Infobip](https://github.com/novuhq/novu/tree/main/providers/infobip)
-- [x] [SNS](https://github.com/novuhq/novu/tree/main/providers/sns)
 - [ ] Bandwidth
 - [ ] RingCentral
+
 
 #### 📱 Push
 
@@ -187,14 +210,15 @@ Novu provides a single API to manage providers across multiple channels with a s
 - [x] [Expo](https://github.com/novuhq/novu/tree/main/providers/expo)
 - [x] [APNS](https://github.com/novuhq/novu/tree/main/providers/apns)
 - [x] [OneSignal](https://github.com/novuhq/novu/tree/main/providers/one-signal)
+- [x] [Pushpad](https://github.com/novuhq/novu/tree/main/providers/pushpad)
 - [ ] Pushwoosh
 
 #### 👇 Chat
 
-- [x] Slack
-- [x] Discord
-- [x] MS Teams
-- [x] Mattermost
+- [x] [Slack](https://github.com/novuhq/novu/tree/main/providers/slack)
+- [x] [Discord](https://github.com/novuhq/novu/tree/main/providers/discord)
+- [x] [MS Teams](https://github.com/novuhq/novu/tree/main/providers/ms-teams)
+- [x] [Mattermost](https://github.com/novuhq/novu/tree/main/providers/mattermost)
 
 #### 📱 In-App
 
@@ -207,7 +231,7 @@ Novu provides a single API to manage providers across multiple channels with a s
 
 ## 📋 Read Our Code Of Conduct
 
-Before you begin coding and collaborating, please read our [Code of Conduct](https://github.com/novuhq/novu/blob/main/CODE_OF_CONDUCT.md) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you are agreeing to abide by our [Code of Conduct](https://github.com/novuhq/novu/blob/main/CODE_OF_CONDUCT.md).
+Before you begin coding and collaborating, please read our [Code of Conduct](https://github.com/novuhq/novu/blob/main/CODE_OF_CONDUCT.md) thoroughly to understand the standards (that you are required to adhere to) for community engagement. As part of our open-source community, we hold ourselves and other contributors to a high standard of communication. As a participant and contributor to this project, you agree to abide by our [Code of Conduct](https://github.com/novuhq/novu/blob/main/CODE_OF_CONDUCT.md).
 
 ## 💻 Need Help?
 
@@ -219,9 +243,9 @@ We are more than happy to help you. If you are getting any errors or facing prob
 
 ## 🔗 Links
 
-- [Home page](https://novu.co/)
+- [Home page](https://novu.co?utm_source=github)
 - [Contribution Guidelines](https://github.com/novuhq/novu/blob/main/CONTRIBUTING.md)
-- [Run Novu Locally](https://docs.novu.co/community/run-locally)
+- [Run Novu Locally](https://docs.novu.co/community/run-in-local-machine)
 
 ## 🛡️ License
 
@@ -231,6 +255,6 @@ Novu is licensed under the MIT License - see the [LICENSE](https://github.com/no
 
 Thanks a lot for spending your time helping Novu grow. Keep rocking 🥂
 
-<a href="https://novu.co/contributors">
+<a href="https://novu.co/contributors?utm_source=github">
   <img src="https://contributors-img.web.app/image?repo=novuhq/novu" alt="Contributors"/>
 </a>

@@ -1,9 +1,9 @@
 ---
 title: fastfetch
-date: 2024-05-04T12:17:39+08:00
+date: 2024-05-05T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712675009273-5a6c46663fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712675009273-5a6c46663fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711881027254-e9ff3234d9d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711881027254-e9ff3234d9d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [fastfetch-cli/fastfetch](https://github.com/fastfetch-cli/fastfetch)
@@ -40,7 +40,7 @@ There are [screenshots on different platforms](https://github.com/fastfetch-cli/
 Some distros packaged an outdated fastfetch version. Older version is not supported, please always ensure that the latest version is used.
 
 * Ubuntu: [`ppa:zhangsongcui3371/fastfetch`](https://launchpad.net/~zhangsongcui3371/+archive/ubuntu/fastfetch) (for Ubuntu 22.04 or newer)
-* Debian / Ubuntu: Download `fastfetch-<version>-Linux.deb` from [Github release page](https://github.com/fastfetch-cli/fastfetch/releases/latest) and `dpkg -i fastfetch-<version>-Linux.deb` (for Ubuntu 20.04 or newer and Debian 11 or newer).
+* Debian / Ubuntu: Download `fastfetch-linux-<proper architecture>.deb` from [Github release page](https://github.com/fastfetch-cli/fastfetch/releases/latest) and `dpkg -i fastfetch-linux-<proper architecture>.deb` (for Ubuntu 20.04 or newer and Debian 11 or newer).
 * Arch Linux: `sudo pacman -S fastfetch`
 * Fedora: `sudo dnf install fastfetch`
 * Gentoo: `sudo emerge --ask app-misc/fastfetch`
