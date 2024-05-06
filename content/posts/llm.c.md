@@ -1,26 +1,100 @@
 ---
 title: llm.c
-date: 2024-04-13T12:14:57+08:00
+date: 2024-05-06T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711998060866-aaaf9ad9fd08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713208179674-0298f6a54fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713208179674-0298f6a54fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/llm.c](https://github.com/karpathy/llm.c)
 
 # llm.c
 
-LLM training in simple, pure C/CUDA. There is no need for 245MB of PyTorch or 107MB of cPython. For example, training GPT-2 (CPU, fp32) is ~1,000 lines of clean code in a single file. It compiles and runs instantly, and exactly matches the PyTorch reference implementation. I chose GPT-2 as the first working example because it is the grand-daddy of LLMs, the first time the modern stack was put together.
+LLM training in simple, pure C/CUDA. There is no need for 245MB of PyTorch or 107MB of cPython. Training GPT-2 (CPU, fp32) is ~1,000 lines of clean code in the single file [train_gpt2.c](train_gpt2.c), and training it on GPU is ~3,000 lines (adds CUDA kernels) in [train_gpt2.cu](train_gpt2.cu). The code compiles and runs instantly, it exactly matches the PyTorch reference implementation, and currently slightly exceeds the speed of (compiled) PyTorch (with bf16, torch compile, and flash attention). I chose GPT-2 as the first working example because it is the grand-daddy of LLMs, the first time the modern stack was put together.
 
-Currently, I am working on:
+Our current goal is to reproduce GPT-2. For an overview of current ongoing work, see the latest [State of the Union](https://github.com/karpathy/llm.c/discussions/344) post.
 
-- direct CUDA implementation, which will be significantly faster and probably come close to PyTorch.
-- speed up the CPU version with SIMD instructions, AVX2 on x86 / NEON on ARM (e.g. Apple Silicon).
-- more modern architectures, e.g. Llama2, Gemma, etc.
+I'd like this repo to only maintain C and CUDA code. Ports of this repo to other languages are very welcome, but should be done in separate repos, and then I am happy to link to them below in the "notable forks" section, just like I did in [llama2.c notable forks](https://github.com/karpathy/llama2.c/tree/master?tab=readme-ov-file#notable-forks).
 
-For the repo, I'd like to maintain both clean, simple reference implementations alongside a also lot more optimized versions that can come close to PyTorch, but in a tiny fraction of the code and dependencies.
+## quick start (GPU, slow but stable and educational)
 
-## quick start
+The "I don't care about anything I just want to train and I have a GPU" section. Run:
+
+```bash
+pip install -r requirements.txt
+python prepro_tinyshakespeare.py
+python train_gpt2.py
+make train_gpt2fp32cu
+./train_gpt2fp32cu
+```
+
+The above lines (1) download the [tinyshakespeare](https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt) dataset, tokenize it with the GPT-2 Tokenizer, (2) download and save the GPT-2 (124M) weights, (3) init from them in C/CUDA and train for one epoch on tineshakespeare with AdamW (using batch size 4, context length 1024, total of 74 steps), evaluate validation loss, and sample some text. Note that in this quickstart we are using the fp32 version [train_gpt2_fp32.cu](train_gpt2_fp32.cu) of the CUDA code. Below in the CUDA section we document the current "mainline" [train_gpt2.cu](train_gpt2.cu), which is still being very actively developed, uses mixed precision, and runs ~2X faster.
+
+## quick start (GPU, fast bleeding edge)
+
+I want to see it go fast. In this case switch to our mainline, most optimized `train_gpt2.cu` and also turn on flash attention. Run:
+
+```bash
+pip install -r requirements.txt
+python prepro_tinyshakespeare.py
+python train_gpt2.py
+make train_gpt2cu
+./train_gpt2cu
+```
+
+If you additionally install cuDNN (see `Makefile` for instructions), you can also go faster with flash attention
+
+```bash
+make train_gpt2cu USE_CUDNN=1
+./train_gpt2cu
+```
+
+Note that the default batch size is very low (4). If you have enough memory on your GPU, I recommend you increase this to e.g. 32:
+
+```bash
+./train_gpt2cu -b 32
+```
+
+My standard "prod" run with a nice GPU (e.g. A100 40GB) actually trains on TinyStories instead of TinyShakespeare, and looks like this:
+
+```bash
+python prepro_tinystories.py
+make train_gpt2cu USE_CUDNN=1
+./train_gpt2cu -i data/TinyStories -v 250 -s 250 -g 144 -o stories.log -b 32
+```
+
+Where I decrease the frequency of validation loss and sampling to every 250 steps, sample 144 tokens during sampling stage (to fit ~one story), and at batch size 32.
+
+## quick start (CPU)
+
+The "I am so GPU poor that I don't even have one" section. No worries, run:
+
+```bash
+pip install -r requirements.txt
+python prepro_tinyshakespeare.py
+python train_gpt2.py
+make train_gpt2
+OMP_NUM_THREADS=8 ./train_gpt2
+```
+
+The above lines (1) download the [tinyshakespeare](https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt) dataset, tokenize it with the GPT-2 Tokenizer, (2) download and save the GPT-2 (124M) weights, (3) init from them in C and train for 40 steps on tineshakespeare with AdamW (using batch size 4, context length only 64), evaluate validation loss, and sample some text. Honestly, unless you have a beefy CPU (and can crank up the number of OMP threads in the launch command), you're not going to get that far on CPU training LLMs, but it might be a good demo/reference.
+
+## quick start (multiple GPUs)
+
+You'll be using the (more bleeding edge) mixed precision version of the code:
+
+```
+sudo apt install openmpi-bin openmpi-doc libopenmpi-dev
+pip install -r requirements.txt
+python prepro_tinyshakespeare.py
+python train_gpt2.py
+make train_gpt2cu
+mpirun -np <number of GPUs on your machine> ./train_gpt2cu
+```
+
+Sub in the number of GPUs you'd like to run on in the last command.
+
+## training: more detail
 
 Download and tokenize a dataset. The [tinyshakespeare](https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt) dataset is the fastest to download and tokenize:
 
@@ -43,7 +117,7 @@ In principle we'd be ready to train the model right here. However the baseline C
 python train_gpt2.py
 ```
 
-You'll recognize this code from nanoGPT as a simple GPT-2 reference implementation in PyTorch. This script will download the GPT-2 (124M) model, overfit a single batch of data for 10 iterations, run a few steps of generation, and most importantly it will save two files: 1) the `gpt2_124M.bin` file that contains the raw model weights for loading in C, and `gpt2_124M_debug_state.bin`, which also contains more debug state: the inputs, targets, logits and loss. This is very useful for debugging C code, for unit testing, and making sure we're exactly matching the PyTorch reference implementation. For now all we care about are the model weights in `gpt2_124M.bin`. We can now initialize with them and train in raw C. First compile the code:
+You'll recognize this code from nanoGPT as a simple GPT-2 reference implementation in PyTorch. This script will download the GPT-2 (124M) model, overfit a single batch of data for 10 iterations, run a few steps of generation, and most importantly it will save three files: 1) the `gpt2_124M.bin` file that contains the raw model weights for loading in C, 2) the `gpt2_124M_debug_state.bin`, which also contains more debug state: the inputs, targets, logits and loss (useful for debugging and unit testing), and finally 3) the `gpt2_tokenizer.bin` which stores the vocabulary for the GPT-2 tokenizer, translating token ids to byte sequences of UTF-8 encoded string pieces. We can now initialize with these model weights and continue training in raw C. First compile the code:
 
 ```bash
 make train_gpt2
@@ -53,9 +127,9 @@ You can have a look inside the `Makefile` and its comments. It will try to autod
 
 ```
 # try this first
-CFLAGS = -Ofast -fno-fast-math -Wno-unused-result
+CFLAGS="-Ofast -fno-finite-math-only -Wno-unused-result -march=native" make train_gpt2
 # try this second
-CFLAGS = -O3 -Wno-unused-result
+CFLAGS="-O3 -Wno-unused-result -march=native" make train_gpt2
 ```
 
 Once `train_gpt2` is compiled, you can run it:
@@ -85,23 +159,9 @@ step 3: train loss 4.600470 (took 1290.761000 ms)
 ... (trunctated) ...
 step 39: train loss 3.970751 (took 1323.779000 ms)
 val loss 4.107781
-generated: 50256 16773 18162 21986 11 198 13681 263 23875 198 3152 262 11773 2910 198 1169 6002 6386 2583 286 262 11858 198 20424 428 3135 7596 995 3675 13 198 40 481 407 736 17903 11 329 703 6029 706 4082 198 42826 1028 1128 633 263 11 198 10594 407 198 2704 454 680 1028 262 1027 28860 286 198 3237 323
-step 40: train loss 4.377757 (took 1366.368000 ms)
-```
-
-The generation just gives you the token ids for now, which we have to decode back to text. We can implement this in C quite easily also, because decoding is very straight-forward, it's just string chunk lookups and prints. For now we can use tiktoken:
-
-```python
-import tiktoken
-enc = tiktoken.get_encoding("gpt2")
-ptok = lambda x: print(enc.decode(list(map(int, x.strip().split()))))
-ptok("50256 16773 18162 21986 11 198 13681 263 23875 198 3152 262 11773 2910 198 1169 6002 6386 2583 286 262 11858 198 20424 428 3135 7596 995 3675 13 198 40 481 407 736 17903 11 329 703 6029 706 4082 198 42826 1028 1128 633 263 11 198 10594 407 198 2704 454 680 1028 262 1027 28860 286 198 3237 323")
-```
-
-which prints:
-
-```
-<|endoftext|>Come Running Away,
+generating:
+---
+Come Running Away,
 Greater conquer
 With the Imperial blood
 the heaviest host of the gods
@@ -111,9 +171,10 @@ Netflix against repounder,
 will not
 flourish against the earlocks of
 Allay
+---
 ```
 
-I like how Netflix comes up, it's clear that the shadow of the training past is still lurking in the model. I did not attempt to tune the finetuning hyperparameters so it's quite likely this can be improved quite a bit, most likely especially if one was to train a bit longer.
+I like how Netflix comes up, it's clear that the shadow of the training past is still lurking in the model. I did not attempt to tune the finetuning hyperparameters so it's quite likely this can be improved quite a bit. I also noticed that slightly different platforms (e.g. MacOS / Linux) will (sadly) give very slightly different results, so perhaps don't expect to get the exact numbers or generation above. Also note that if you are seeing token ids instead of text in the generation, it might be because your code is out of date, as Tokenizer decoding was added April 14, 2024. `git pull` the updates, and then re-run `python train_gpt2.py`, which will now also save the tokenizer, which C can read and then use to print text instead of token ids.
 
 ## test
 
@@ -130,54 +191,183 @@ This now loads the `gpt2_124M_debug_state.bin` file, runs a forward pass, compar
 
 I attached a very small tutorial here, in [doc/layernorm/layernorm.md](doc/layernorm/layernorm.md). It's a simple, step-by-step guide to implementing a single layer of the GPT-2 model, the layernorm layer. This is a good starting point to understand how the layers are implemented in C.
 
-## cuda
+## CUDA
 
-CUDA port is WIP, I'm keeping the growing collection of kernels in the `dev` folder, e.g. see [dev/cuda/README.md](dev/cuda/README.md).
+The full training loop is also implemented in pure CUDA in one file, but optimizations of the kernels are ongoing. Currently, we roughly match the speed of PyTorch. The way we organize code is that we have a growing collection of kernels of increasing complexity in the `dev/cuda` folder, see [dev/cuda/README.md](dev/cuda/README.md). We then copy paste the best kernels into the main training loop in the single training file `train_gpt2cu.cu`.
 
-As of April 10, 2024 the full forward pass is now implemented in pure CUDA in one file. First we can check that all of the logits and the final loss matches the PyTorch reference:
+**WIP alert, April 23**. We merged the first version of mixed precision training code. I checkpointed the fp32 version to separate files that include `_fp32` in their filename, and would like to preserve this version in the root of the repo because it 1) doesn't require the most up to date CUDA and will a lot more likely compile and is more portable, 2) it is a lot simpler and acts as reference. In fact, we'd like to diverge the fp32 version in the direction of being pure CUDA (e.g. do not even call cuBLAS by default), to be used as an educational reference, maybe even a kernel of a course on CUDA. The "mainline" development concerned with speed will from there on move to the [train_gpt2.cu](train_gpt2.cu) file, which includes mixed precision training.
+
+In the descriptions below I will default to using the fp32 version for now because it is currently more portable and stable, then at the end I will cover to the new mixed precision version.
+
+**Correctness**. First, we can do 10 iterations of training and verify that our code exactly matches and preproduces the numbers from PyTorch:
 
 ```bash
-make test_gpt2cu
-./test_gpt2cu
+make test_gpt2fp32cu
+./test_gpt2fp32cu
 ```
 
-This prints `overall okay: 1`. Now that we are calculating all the right values, we can time our code. We can't train yet because the backward pass + update are not implemented yet, but we can run the training loop and see the timings:
+This prints `overall okay: 1`. So the forward activations, backward gradients, and the individual loss values for 10 iterations all match exactly.
+
+**Training**. To train GPT-2 in a single file of CUDA, run the train script:
+
+```bash
+make train_gpt2fp32cu
+./train_gpt2fp32cu
+```
+
+This will load the tiny_shakespeare dataset validation and training splits. At the default settings of B=4, T=1024, there are 8 validation batches and 74 training batches. The script is currently configured to do a single epoch of finetuning with learning rate 1e-4, and along the way it evaluates the validation performance and generates samples, e.g.:
+
+```
+step 1/74: train loss 4.367631 (80.639749 ms)
+step 2/74: train loss 4.031242 (77.378867 ms)
+step 3/74: train loss 4.034144 (77.315861 ms)
+step 4/74: train loss 3.859865 (77.357575 ms)
+...
+step 72/74: train loss 3.085081 (78.850895 ms)
+step 73/74: train loss 3.668018 (78.197064 ms)
+step 74/74: train loss 3.467508 (78.009975 ms)
+val loss 3.516490
+generating:
+---
+?Where will you go?
+I take you wherefore I can, myself, and must.
+I cast off my beak, that I may look him up on the point;
+For on his rock shall he be opencast.
+
+<|endoftext|>My little nephew:
+Keep on with me, my
+```
+
+This runs on my A100 in about ~10 seconds. This training loop in the PyTorch script is about 80ms/iteration, so we are slightly better than PyTorch here. However, this is measured with PyTorch that is a bit stale (I'm on 2.1.0) and we're not yet including FlashAttention or the PyTorch scaled_dot_product_attention fused operation.
+
+We can compare to naive PyTorch like this, where we turn on `torch.compile` and the use of TensorCores, which use tf32 type:
+
+```bash
+python train_gpt2.py --write_tensors 0 --sequence_length 1024 --batch_size 4 --compile 1 --tensorcores 1
+```
+
+The compilation (first iteration) is ~27 seconds, but after that on my A100 this currently runs at ~80ms/iteration.
+
+**Mixed precision**. The new CUDA mixed precision version, where most of the development will happen going forward, is [train_gpt2.cu](train_gpt2.cu), along with its test [test_gpt2.cu](test_gpt2.cu). Here, a lot of the calculations happen in lower-precision formats (fp16 or bf16), which allows us to run really fast (~2X of the TF32 performance above). Note that I describe the baseline implementation as `fp32` but, to be more accurate, it is actually a `tf32` (TensorFloat32). To train and test, it's the same commands just drop the fp32 parts:
 
 ```bash
 make train_gpt2cu
 ./train_gpt2cu
+
+make test_gpt2cu
+./test_gpt2cu
 ```
 
-This will run GPT-2 (124M) in one file of pure CUDA (see [train_gpt2.cu](train_gpt2.cu)), using batch size 4 and sequence length 1024. This will print a bunch of hyperparameters and then the "training":
+If you have the latest CUDA you should expect this to compile OK, and you should see a lot more improved performance.
 
-```
-val loss 4.517436
-step 0: train loss 4.368065 (took 52.865066 ms)
-step 1: train loss 4.406586 (took 53.200757 ms)
-step 2: train loss 4.484988 (took 52.613289 ms)
-step 3: train loss 4.345425 (took 53.017961 ms)
-...
-```
-
-The loss is changing because we are still loading real data batches from our dataset, but there is no training so they won't go down over time. In any case, on my A100 40GB PCIe GPU we are seeing about 53ms/iteration. We can compare this to PyTorch fp32 training by calling our python script like this:
+**Flash Attention**. As of May 1, 2024 we now support the Flash Attention from cuDNN. Because cuDNN bloats the compile time from a few seconds to ~minute and this code path is right now very new, this is disabled by default. You can enable it by compiling like this:
 
 ```bash
-python train_gpt2.py --inference_only 1 --write_tensors 0 --sequence_length 1024 --batch_size 4
+make train_gpt2cu USE_CUDNN=1
 ```
 
-Which shows time per iteration with the same hyperparameters (batch 4, time 1024) at 104ms/iteration. We can then enable `torch.compile` by adding the `--compile 1` flag:
+This will try to compile with cudnn and run it. You have to have cuDNN installed on your system. Follow the [cuDNN installation instructions](https://developer.nvidia.com/cudnn) to install cuDNN with apt-get. On top of this you need the [cuDNN frontend](https://github.com/NVIDIA/cudnn-frontend/tree/main), but this is just header files. So simply download the repo to your disk, currently assumed to be in your home directory (i.e. the Makefile looks for `~/cudnn-frontend/include`).
+
+**Multi-GPU training**. As of April 26, 2024 there is now also support for multi-GPU training using MPI and NCCL. Make sure you install MPI, e.g. on Linux:
 
 ```bash
-python train_gpt2.py --inference_only 1 --write_tensors 0 --sequence_length 1024 --batch_size 4 --compile 1
+sudo apt install openmpi-bin openmpi-doc libopenmpi-dev
 ```
 
-And see that the first iteration now takes 20 seconds (compilation time), but all following iterations take ~86ms. And if we additionally turn on the use of fp32 tensorcores (only GPUs since Volta) with `--tensorcores 1`:
+and then:
 
 ```bash
-python train_gpt2.py --inference_only 1 --write_tensors 0 --sequence_length 1024 --batch_size 4 --compile 1 --tensorcores 1
+make train_gpt2cu
+mpirun -np <number of GPUs> ./train_gpt2cu
 ```
 
-The time drops down to 26ms/iteration. So we have a gap to close :)! At the current 53ms we are almost exactly 2X slower.
+The fp32 version of the code does not support multi-GPU. This is because we want the GPT-2 fp32 version to become a nice educational endpoint of a CUDA optimization course. The mixed precision version is where we are doing the cutting edge development, so this is the version that supports multi-GPU training.
+
+## experiments / sweeps
+
+Now that the basic argparse and logging functionality is there in the .cu script, we can do our first learning rate sweeps. This is fairly manual right now, but just to document one example process to sweep learning rates on a machine with 4 GPUs on TinyStories. Run a shell script `sweep.sh` (after you of course `chmod u+x sweep.sh`):
+
+```bash
+#!/bin/bash
+
+learning_rates=(3e-5 1e-4 3e-4 1e-3)
+
+for i in {0..3}; do
+    export CUDA_VISIBLE_DEVICES=$i
+    screen -dmS "tr$i" bash -c "./train_gpt2cu -i data/TinyStories -v 250 -s 250 -g 144 -l ${learning_rates[$i]} -o stories$i.log"
+done
+
+# you can bring these down with
+# screen -ls | grep -E "tr[0-3]" | cut -d. -f1 | xargs -I {} screen -X -S {} quit
+```
+
+This example opens up 4 screen sessions and runs the four commands with different LRs. This writes the log files `stories$i.log` with all the losses, which you can plot as you wish in Python. Here's a quick example script to plot the losses in a Jupyter notebook, obviously can become more sophisticated later:
+
+```python
+import matplotlib.pyplot as plt
+%matplotlib inline
+
+def parse_log(logfile):
+  # look for lines like e.g. "s:100 tel:1.6952", step 100, val 1.6952
+    val_steps, val_losses = [], []
+    with open(logfile, "r") as f:
+        lines = f.readlines()
+    for line in lines:
+        if "tel" in line:
+            parts = line.split()
+            step = parts[0].split(":")[1]
+            loss = parts[1].split(":")[1]
+            val_steps.append(int(step))
+            val_losses.append(float(loss))
+    return val_steps, val_losses
+
+results = [parse_log(f"stories{i}.log") for i in range(0, 4)]
+for i, (val_steps, val_losses) in enumerate(results):
+    plt.plot(val_steps, val_losses, label="run {}".format(i))
+plt.xlabel("steps")
+plt.ylabel("loss")
+plt.legend()
+```
+
+## repo philosophy
+
+A few more words on what I want this repo to be:
+
+First, I want `llm.c` to be a place for education. E.g. our `dev/cuda` folder is a place for a library of kernels for all the layers that are manually hand-written and very well documented, starting from very simple kernels all the way to more complex / faster kernels. If you have a new kernel with various different tradeoffs, please feel free to contribute it here.
+
+That said, I also want `llm.c` to be very fast too, even practically useful to train networks. E.g. to start, we should be able to reproduce the big GPT-2 (1.6B) training run. This requires that we incorporate whatever fastest kernels there are, including the use of libraries such as cuBLAS, cuBLASLt, CUTLASS, cuDNN, etc. I also think doing so serves an educational purpose to establish an expert upper bound, and a unit of measurement, e.g. you could say that your manually written kernels are 80% of cuBLAS speed, etc. Then you can choose to do a super fast run, or you can choose to "drag and drop" whatever manual kernels you wish to use, and run with those.
+
+However, as a constraint, I want to keep the mainline `llm.c` in the root folder simple and readable. If there is a PR that e.g. improves performance by 2% but it "costs" 500 lines of complex C code, and maybe an exotic 3rd party dependency, I may reject the PR because the complexity is not worth it. As a concrete example - making cuBLAS for matmuls the default in the root training loop is a no-brainer: it makes the mainline code much faster, it is a single line of interpretable code, and it is a very common dependency. On the side of this, we can have manual implementations that can compete with cuBLAS in `dev/cuda`.
+
+Lastly, I will be a lot more sensitive to complexity in the root folder of the project, which contains the main / default files of the project. In comparison, the `dev/` folder is a bit more of a scratch space for us to develop a library of kernels or classes and share useful or related or educational code, and some of this code could be ok to be (locally) complex.
+
+## notable forks
+
+- C#
+  - [llm.cs](https://github.com/azret/llm.cs) by @[azret](https://github.com/azret): a C# port of this project
+
+- CUDA C++
+  - [llm.cpp](https://github.com/gevtushenko/llm.c) by @[gevtushenko](https://github.com/gevtushenko): a port of this project using the [CUDA C++ Core Libraries](https://github.com/NVIDIA/cccl)
+     - A presentation this fork was covered in [this lecture](https://www.youtube.com/watch?v=WiB_3Csfj_Q) in the [CUDA MODE Discord Server](https://discord.gg/cudamode)
+
+- Go
+  - [llm.go](https://github.com/joshcarp/llm.go) by @[joshcarp](https://github.com/joshcarp): a Go port of this project
+
+- Java
+  - [llm.java](https://github.com/harryjackson/llm.java) by @[harryjackson](https://github.com/harryjackson): a Java port of this project
+
+- Metal
+  - [llm.metal](https://github.com/regrettable-username/llm.metal) by @[regrettable-username](https://github.com/regrettable-username): LLM training in simple, raw C/Metal Shading Language
+
+- Mojo
+  - [llm.🔥](https://github.com/dorjeduck/llm.mojo) by @[dorjeduck](https://github.com/dorjeduck): a Mojo port of this project
+
+- Rust
+  -  [llm.rs](https://github.com/ToJen/llm.rs) by @[ToJen](https://github.com/ToJen): a Rust port of this project
+
+- Zig
+  - [llm.zig](https://github.com/Saimirbaci/llm.zig) by @[saimirbaci](https://github.com/Saimirbaci): a Zig port of this project
+
 
 ## discussions
 

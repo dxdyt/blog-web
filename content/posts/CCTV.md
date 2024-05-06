@@ -1,9 +1,9 @@
 ---
 title: CCTV
-date: 2024-05-05T12:18:12+08:00
+date: 2024-05-06T12:17:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712174863129-dcbd52938915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712174863129-dcbd52938915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712574340322-aaeae2cbaa8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712574340322-aaeae2cbaa8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
 ---
 
 # [IvanGlinkin/CCTV](https://github.com/IvanGlinkin/CCTV)
@@ -30,18 +30,25 @@ register the application
 get App's api_id, api_hash, title and name
 ```
 
-3. Setting up Telegram creds
+3. Settings<br>
+Upon first launch script will create `config.yaml` file and request all needed settings.<br>
+This settings can be manually changed later:
 ```
-nano ./backend/telegram_creds.py
-  phone_number = 'your_phone_number' // put your phone number 
-  telegram_name = 'api_name' // put your API name from the step 2
-  telegram_api_id = 'api_id' // put your API ID from the step 2
-  telegram_api_hash = 'api_hash' // put your API Hash from the step 2
+api_config:
+  api_hash: ***
+  api_id: 00000000
+  phone: "+123456789000"
+location:
+  lat: 51.51404
+  lon: -0.15063
+  meters: 1200
+misc:
+  speed_kmh: 50
+  timesleep: 30
 ```
 
 4. Launch
 ```
-nano ./backend/general_settings.py // set the location and radius
 python3 start.py
 ```
 
@@ -65,8 +72,8 @@ Help message:
    ██║   ███████╗███████╗███████╗╚██████╔╝██║  ██║██║  ██║██║ ╚═╝ ██║     ╚████╔╝ ██║███████║██║╚██████╔╝██║ ╚████║
    ╚═╝   ╚══════╝╚══════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝      ╚═══╝  ╚═╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝
 
-usage: start.py [-h] [-lat LATITUDE] [-long LONGITUDE] [-m METERS] [-t TIMESLEEP] [-tn TELEGRAM_NAME]
-                [-ti TELEGRAM_API_ID] [-th TELEGRAM_API_HASH]
+usage: start.py [-h] [-lat LATITUDE] [-long LONGITUDE] [-m METERS] [-t TIMESLEEP] [-s SPEED_KMH] [-tn TELEGRAM_NAME] [-ti TELEGRAM_API_ID]
+                [-th TELEGRAM_API_HASH]
 
 Custom settings for script launch
 
@@ -80,8 +87,10 @@ optional arguments:
                         Meters setting
   -t TIMESLEEP, --timesleep TIMESLEEP
                         Timesleep setting
+  -s SPEED_KMH, --speed_kmh SPEED_KMH
+                        Speed setting
   -tn TELEGRAM_NAME, --telegram_name TELEGRAM_NAME
-                        Telegram username
+                        Telegram session name
   -ti TELEGRAM_API_ID, --telegram_api_id TELEGRAM_API_ID
                         Telegram API ID
   -th TELEGRAM_API_HASH, --telegram_api_hash TELEGRAM_API_HASH

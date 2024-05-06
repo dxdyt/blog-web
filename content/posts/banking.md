@@ -1,9 +1,9 @@
 ---
 title: banking
-date: 2024-05-05T12:17:58+08:00
+date: 2024-05-06T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712701088157-3f9f1ca4c718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712701088157-3f9f1ca4c718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713754315141-e6d9111bb09a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713754315141-e6d9111bb09a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
 ---
 
 # [adrianhajdin/banking](https://github.com/adrianhajdin/banking)

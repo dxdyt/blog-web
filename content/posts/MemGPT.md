@@ -1,9 +1,9 @@
 ---
 title: MemGPT
-date: 2024-05-04T12:18:34+08:00
+date: 2024-05-06T12:19:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712262825783-c0b5ef123959?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712262825783-c0b5ef123959?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713442861323-7a5a6b07553d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713442861323-7a5a6b07553d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
 ---
 
 # [cpacker/MemGPT](https://github.com/cpacker/MemGPT)
