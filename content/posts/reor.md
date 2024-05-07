@@ -1,9 +1,9 @@
 ---
 title: reor
-date: 2024-05-06T12:18:09+08:00
+date: 2024-05-07T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713442861323-7a5a6b07553d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713442861323-7a5a6b07553d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
 ---
 
 # [reorproject/reor](https://github.com/reorproject/reor)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1713442861323-7a5a6b0755
 </p> -->
 
 <h4 align="center">
-Private & offline AI personal knowledge management app.</h4>
+Private & local AI personal knowledge management app.</h4>
 
 <p align="center">
     <a href="https://tooomm.github.io/github-release-stats/?username=reorproject&repository=reor">    <img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/reorproject/reor/total"></a>

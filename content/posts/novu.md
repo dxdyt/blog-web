@@ -1,9 +1,9 @@
 ---
 title: novu
-date: 2024-05-05T12:19:29+08:00
+date: 2024-05-07T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712475795499-169672690493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712475795499-169672690493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
 ---
 
 # [novuhq/novu](https://github.com/novuhq/novu)
@@ -252,7 +252,6 @@ We are more than happy to help you. If you are getting any errors or facing prob
 Novu is licensed under the MIT License - see the [LICENSE](https://github.com/novuhq/novu/blob/main/LICENSE) file for details.
 
 ## 💪 Thanks To All Contributors
-
 Thanks a lot for spending your time helping Novu grow. Keep rocking 🥂
 
 <a href="https://novu.co/contributors?utm_source=github">

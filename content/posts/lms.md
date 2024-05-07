@@ -1,9 +1,9 @@
 ---
 title: lms
-date: 2024-05-06T12:17:28+08:00
+date: 2024-05-07T12:19:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713872288272-afa3f0d001c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713872288272-afa3f0d001c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
 ---
 
 # [lmstudio-ai/lms](https://github.com/lmstudio-ai/lms)

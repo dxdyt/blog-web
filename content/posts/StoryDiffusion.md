@@ -1,9 +1,9 @@
 ---
 title: StoryDiffusion
-date: 2024-05-06T12:18:21+08:00
+date: 2024-05-07T12:17:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713164833894-8dd3058d2ec0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713164833894-8dd3058d2ec0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
 ---
 
 # [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion)
@@ -132,6 +132,11 @@ Run the following command:
 python gradio_app_sdxl_specific_id.py
 ```
 
+We provide a low GPU Memory cost version, it was test on a machine with 24GB GPU-memory(Tesla A10) and 30GB RAM, and expcted work well with >20 G GPU-memory.
+
+```python
+python gradio_app_sdxl_specific_id_low_vram.py
+```
 
 
 ## Contact

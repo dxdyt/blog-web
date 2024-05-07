@@ -1,9 +1,9 @@
 ---
 title: llm.c
-date: 2024-05-06T12:17:11+08:00
+date: 2024-05-07T12:18:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713208179674-0298f6a54fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713208179674-0298f6a54fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713046184524-e8338098102e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713046184524-e8338098102e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/llm.c](https://github.com/karpathy/llm.c)

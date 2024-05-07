@@ -1,9 +1,9 @@
 ---
 title: Ryujinx
-date: 2024-03-09T12:14:19+08:00
+date: 2024-05-07T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713872288272-afa3f0d001c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713872288272-afa3f0d001c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
 ---
 
 # [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
