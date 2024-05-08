@@ -1,9 +1,9 @@
 ---
 title: LLMs-from-scratch
-date: 2024-05-07T12:17:42+08:00
+date: 2024-05-08T12:14:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713190190659-22fe536876f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713190190659-22fe536876f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712737823405-df21d3a825c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712737823405-df21d3a825c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
@@ -71,18 +71,21 @@ Alternatively, you can view this and other files on GitHub at [https://github.co
 | Appendix E: Parameter-efficient Finetuning with LoRA       | - [appendix-E.ipynb](appendix-E/01_main-chapter-code/appendix-E.ipynb)                                                 | [./appendix-E](./appendix-E) |
 
 
-
 <br>
-<br>
+&nbsp
 
 Shown below is a mental model summarizing the contents covered in this book.
 
 <img src="https://sebastianraschka.com/images/LLMs-from-scratch-images/mental-model.jpg" width="650px">
 
 <br>
-<br>
 &nbsp
 
+## Hardware Requirements
+
+The code in the main chapters of this book is designed to run on conventional laptops within a reasonable timeframe and does not require specialized hardware. This approach ensures that a wide audience can engage with the material. Additionally, the code automatically utilizes GPUs if they are available.
+
+&nbsp;
 ## Bonus Material
 
 Several folders contain optional materials as a bonus for interested readers:
@@ -106,7 +109,6 @@ Several folders contain optional materials as a bonus for interested readers:
   - [Additional experiments finetuning different layers and using larger models](ch06/02_bonus_additional-experiments)
   - [Finetuning different models on 50k IMDB movie review dataset](ch06/03_bonus_imdb-classification)
 
-<br>
 <br>
 &nbsp
 

@@ -1,9 +1,9 @@
 ---
 title: OFGB
-date: 2024-05-07T12:18:23+08:00
+date: 2024-05-08T12:15:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712364918385-24f65c8a54b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712364918385-24f65c8a54b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714216363143-960163ac6afa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714216363143-960163ac6afa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [xM4ddy/OFGB](https://github.com/xM4ddy/OFGB)

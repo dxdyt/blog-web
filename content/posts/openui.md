@@ -1,9 +1,9 @@
 ---
 title: openui
-date: 2024-05-07T12:17:14+08:00
+date: 2024-05-08T12:14:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712313275295-105a8ab7bb1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712313275295-105a8ab7bb1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [wandb/openui](https://github.com/wandb/openui)

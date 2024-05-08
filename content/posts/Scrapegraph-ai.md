@@ -1,9 +1,9 @@
 ---
 title: Scrapegraph-ai
-date: 2024-05-07T12:19:49+08:00
+date: 2024-05-08T12:14:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712174766230-cb7304feaafe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712174766230-cb7304feaafe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712313275295-105a8ab7bb1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712313275295-105a8ab7bb1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai)
@@ -99,7 +99,7 @@ Note: before using the local model remember to create the docker container!
     docker-compose up -d
     docker exec -it ollama ollama pull stablelm-zephyr
 ```
-You can use which models avaiable on Ollama or your own model instead of stablelm-zephyr
+You can use which models available on Ollama or your own model instead of stablelm-zephyr
 ```python
 from scrapegraphai.graphs import SmartScraperGraph
 
@@ -257,7 +257,7 @@ Please see the [contributing guidelines](https://github.com/VinciGit00/Scrapegra
 [![My Skills](https://skillicons.dev/icons?i=twitter)](https://twitter.com/scrapegraphai)
 
 ## 📈 Roadmap
-Check out the project roadmap [here](docs/README.md)! 🚀
+Check out the project roadmap [here](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/docs/README.md)! 🚀
 
 Wanna visualize the roadmap in a more interactive way? Check out the [markmap](https://markmap.js.org/repl) visualization by copy pasting the markdown content in the editor!
 

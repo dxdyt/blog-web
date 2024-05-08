@@ -1,9 +1,9 @@
 ---
 title: logfire
-date: 2024-05-06T12:17:48+08:00
+date: 2024-05-08T12:15:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713208179674-0298f6a54fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713208179674-0298f6a54fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713646195420-b92887a4b570?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713646195420-b92887a4b570?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [pydantic/logfire](https://github.com/pydantic/logfire)
@@ -100,7 +100,7 @@ Logfire gives you a view into how your code is running like this:
 
 ## Contributing
 
-We'd love anyone interested to contribute to the Logfire SDK and documentation, see the [contributing guide](./CONTRIBUTING.md).
+We'd love anyone interested to contribute to the Logfire SDK and documentation, see the [contributing guide](https://github.com/pydantic/logfire/blob/main/CONTRIBUTING.md).
 
 ## Reporting a Security Vulnerability
 

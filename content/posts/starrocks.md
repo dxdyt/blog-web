@@ -1,9 +1,9 @@
 ---
 title: starrocks
-date: 2023-11-28T12:17:17+08:00
+date: 2024-05-08T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698546750147-14625302034d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698546750147-14625302034d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDExNDQ5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712313275295-105a8ab7bb1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712313275295-105a8ab7bb1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [StarRocks/starrocks](https://github.com/StarRocks/starrocks)
@@ -116,7 +116,7 @@ We welcome all kinds of contributions from the community, individuals and partne
 
 1. See [Contributing.md](https://github.com/StarRocks/starrocks/blob/main/CONTRIBUTING.md) to get started.
 2. Set up StarRocks development environment:
-* [IDE Setup](https://docs.starrocks.io/en-us/main/developers/development-environment/ide-setup) 
+* [IDE Setup](https://docs.starrocks.io/docs/developers/development-environment/ide-setup/) 
 3. Understand our [GitHub workflow](https://github.com/StarRocks/community/blob/main/Contributors/guide/workflow.md) for opening a pull request; use this [PR Template](https://github.com/StarRocks/starrocks/blob/main/.github/PULL_REQUEST_TEMPLATE.md) when submitting a pull request.
 4. Pick a [good first issue](https://github.com/StarRocks/starrocks/labels/good%20first%20issue) and start contributing. 
 
@@ -131,6 +131,7 @@ We welcome all kinds of contributions from the community, individuals and partne
 This project is used by the following companies. Learn more about their use cases:
 
 - [Airbnb](https://www.youtube.com/watch?v=AzDxEZuMBwM&ab_channel=StarRocks_labs)
+- [Tencent](https://www.starrocks.io/blog/tencent-unifies-their-gaming-analytics-with-starrocks)
+- [Shopee](https://www.youtube.com/watch?v=FJf6tVFr-20)
 - [Trip.com](https://starrocks.medium.com/trip-com-starrocks-efficiently-supports-high-concurrent-queries-dramatically-reduces-labor-and-1e1921dd6bf8) 
-- [Zepp Health](https://starrocks.io/blog/zeppheath) 
-- [Lenovo](https://starrocks.io/blog/lenovo_en) 
+- [Didi](https://www.starrocks.io/blog/reduced-80-cost-didis-journey-from-multiple-olap-engines-to-starrocks) 

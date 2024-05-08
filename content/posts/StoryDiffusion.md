@@ -1,9 +1,9 @@
 ---
 title: StoryDiffusion
-date: 2024-05-07T12:17:27+08:00
+date: 2024-05-08T12:14:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1680194983739-aecf445c4cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1680194983739-aecf445c4cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion)
@@ -38,7 +38,9 @@ Official implementation of **[StoryDiffusion: Consistent Self-Attention for Long
 https://github.com/HVision-NKU/StoryDiffusion/assets/49511209/d5b80f8f-09b0-48cd-8b10-daff46d422af
 
 
+### Update History
 
+You can visit [here](update.md) to visit update history.
 
 ### 🌠  **Key Features:**
 StoryDiffusion can create a magic story by generating consistent images and videos. Our work mainly has two parts: 

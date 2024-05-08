@@ -1,9 +1,9 @@
 ---
 title: pykan
-date: 2024-05-07T12:18:36+08:00
+date: 2024-05-08T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713190190659-22fe536876f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713190190659-22fe536876f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713646195420-b92887a4b570?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713646195420-b92887a4b570?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
 ---
 
 # [KindXiaoming/pykan](https://github.com/KindXiaoming/pykan)
