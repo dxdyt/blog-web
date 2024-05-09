@@ -1,12 +1,14 @@
 ---
 title: skyvern
-date: 2024-03-19T12:16:41+08:00
+date: 2024-05-09T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708913156542-9042bb5410eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708913156542-9042bb5410eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA4MjE3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712939707471-15dbed487f51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712939707471-15dbed487f51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern)
+
+<!-- DOCTOC SKIP -->
 
 <h1 align="center">
  <a href="https://www.skyvern.com">
@@ -28,7 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1708913156542-9042bb5410
   <a href="https://discord.gg/fG2XXEuQX3"><img src="https://img.shields.io/discord/1212486326352617534?logo=discord&label=discord"/></a>
   <!-- <a href="https://pepy.tech/project/skyvern" target="_blank"><img src="https://static.pepy.tech/badge/skyvern" alt="Total Downloads"/></a> -->
   <a href="https://github.com/skyvern-ai/skyvern"><img src="https://img.shields.io/github/stars/skyvern-ai/skyvern" /></a>
-  <a href="https://www.linkedin.com/company/95726232"><img src="https://img.shields.io/github/license/skyvern-ai/skyvern"/></a>
+  <a href="https://github.com/Skyvern-AI/skyvern/blob/main/LICENSE"><img src="https://img.shields.io/github/license/skyvern-ai/skyvern"/></a>
   <a href="https://twitter.com/skyvernai"><img src="https://img.shields.io/twitter/follow/skyvernai?style=social"/></a>
   <a href="https://www.linkedin.com/company/95726232"><img src="https://img.shields.io/badge/Follow%20 on%20LinkedIn-8A2BE2?logo=linkedin"/></a>
 </p>
@@ -88,7 +90,8 @@ Before you begin, make sure you have the following installed:
 - [Brew (if you're on a Mac)](https://brew.sh/)
 - [Poetry](https://python-poetry.org/docs/#installation)
     - `brew install poetry`
-
+- [Docker](https://docs.docker.com/engine/install/)
+  
 Note: Our setup script does these two for you, but they are here for reference.
 - [Python 3.11](https://www.python.org/downloads/)
     - `poetry env use 3.11`
@@ -97,6 +100,7 @@ Note: Our setup script does these two for you, but they are here for reference.
 
 ## Setup
 1. Clone the repository and navigate to the root directory
+1. Open Docker Desktop (Works for Windows, macOS, and Linux) or run Docker Daemon
 1. Run the setup script to install the necessary dependencies and setup your environment
     ```bash
     ./setup.sh
@@ -110,6 +114,16 @@ Note: Our setup script does these two for you, but they are here for reference.
     ./run_ui.sh
     ```
 1. Navigate to `http://localhost:8501` in your browser to start using the UI
+
+## Docker Compose setup
+
+1. Fill in the LLM provider key on the [docker-compose.yml](./docker-compose.yml)
+2. Run the following command:
+   ```bash
+    docker compose up -d
+   ```
+3. Navigate to `http://localhost:8501` in your browser to start using the UI
+
 
 ## Additional Setup for Contributors
 If you're looking to contribute to Skyvern, you'll need to install the pre-commit hooks to ensure code quality and consistency. You can do this by running the following command:

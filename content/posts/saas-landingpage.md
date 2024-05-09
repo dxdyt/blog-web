@@ -1,9 +1,9 @@
 ---
 title: saas-landingpage
-date: 2024-05-08T12:14:40+08:00
+date: 2024-05-09T12:21:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1680194983739-aecf445c4cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1680194983739-aecf445c4cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712939707471-15dbed487f51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712939707471-15dbed487f51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [AtotheY/saas-landingpage](https://github.com/AtotheY/saas-landingpage)

@@ -1,9 +1,9 @@
 ---
 title: ant
-date: 2024-01-21T12:17:32+08:00
+date: 2024-05-09T12:19:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703696396969-74436e241dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703696396969-74436e241dba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU4MTA1Mzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713593931118-ebb1807d8f3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713593931118-ebb1807d8f3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [ejoy/ant](https://github.com/ejoy/ant)
@@ -19,37 +19,36 @@ Ant 是由灵犀互娱开发的开源游戏引擎。现阶段仅将代码仓库�
 
 ### 搭建编译环境
 
-#### MSVC
-- 安装Visual Studio
+#### 1.1 Windows
+##### 1.1.1 MSVC
+- 安装 Visual Studio
 
-#### MINGW
-- 下载并安装[msys2](https://www.msys2.org/)
-- 找到msys2安装目录，用mingw64.exe打开msys2的终端
-- 修改镜像服务器
+##### 1.1.2 MINGW
+- 下载并安装 [msys2](https://www.msys2.org/)
+- 找到 msys2 安装目录，用 mingw64.exe 打开 msys2 的终端
+- 在 msys2 的终端中修改镜像服务器
 ``` bash
 echo "Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/i686/" > /etc/pacman.d/mirrorlist.mingw32
 echo "Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/mingw/x86_64/" > /etc/pacman.d/mirrorlist.mingw64
 echo "Server = https://mirrors.tuna.tsinghua.edu.cn/msys2/msys/\$arch/" > /etc/pacman.d/mirrorlist.msys
 ```
 
-- 把ming64的路径加到环境变量
+- 把 ming64 的路径加到环境变量
 ``` bash
 echo "export MINGW=/mingw64" >> ~/.bash_profile
 echo "export PATH=\$MINGW/bin:\$PATH" >> ~/.bash_profile
 ```
 
-- 安装gcc/ninja
+- 安装 gcc/ninja
 ``` bash
 pacman -Syu mingw-w64-x86_64-gcc mingw-w64-x86_64-ninja
 ```
 
-#### MACOS
+#### 1.2 MACOS
 - 安装xcode, ninja
 
-
-### 编译
-
-#### 编译构建工具 luamake
+#### 2.1 Common
+##### 2.1.1 编译构建工具 luamake
 
 ``` bash
 git clone https://github.com/actboy168/luamake
@@ -58,6 +57,8 @@ git submodule update --init
 .\compile\install.bat (msvc)
 ./compile/install.sh (mingw/linux/macos)
 ```
+
+### 编译
 
 #### 编译runtime
 
@@ -80,13 +81,13 @@ luamake [target] -mode [debug/release] #-mode默认是debug
 ### 运行
 运行一个最简单的示例
 ``` bash
-bin/msvc/debug/lua.exe test/simple/main.lua
+bin/msvc/debug/ant.exe test/simple/main.lua
 ```
 
 ### 启动编辑器
 
 ```bash
-bin/msvc/debug/lua.exe tools/editor/main.lua
+bin/msvc/debug/lua.exe tools/editor/main.lua [projectdir] #for example: test/simple
 ```
 
 ### 调试
@@ -102,7 +103,10 @@ bin/msvc/debug/lua.exe tools/editor/main.lua
             "type": "lua",
             "request": "launch",
             "name": "Debug",
-            "luaexe": "${workspaceFolder}/bin/msvc/debug/lua.exe",
+            "luaexe": "${workspaceFolder}/bin/msvc/debug/ant.exe",
+            "luaVersion": "lua-latest",
+            "path": null,
+            "cpath": null,
             "console": "integratedTerminal",
             "stopOnEntry": true,
             "outputCapture": [],

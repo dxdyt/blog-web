@@ -1,9 +1,9 @@
 ---
 title: mlops-zoomcamp
-date: 2023-05-18T12:15:26+08:00
+date: 2024-05-09T12:20:47+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12129/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12129/0/1080p
+featuredImage: https://images.unsplash.com/photo-1713553579944-5f8a041eeae5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713553579944-5f8a041eeae5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [DataTalksClub/mlops-zoomcamp](https://github.com/DataTalksClub/mlops-zoomcamp)
@@ -33,12 +33,12 @@ Our MLOps Zoomcamp course
 
 ## Taking the course
 
-### 2023 Cohort
+### 2024 Cohort
 
-* **Start**: 15 May 2023 (Monday) at 17:00 CET
+* **Start**: 13 May 2024 (Monday) at 17:00 CET
 * **Registration link**: https://airtable.com/shrCb8y6eTbPKwSTL
 * Subscribe to our [public Google Calendar](https://calendar.google.com/calendar/?cid=M3Jzbmg0ZDA2aHVsY2M1ZjcyNDJtODNyMTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ) (it works from Desktop only)
-* [Cohort folder](cohorts/2023)
+
 
 ### Self-paced mode
 
@@ -106,6 +106,8 @@ To make discussions in Slack more organized:
 
 [More details](02-experiment-tracking)
 
+[**Weights and biases workshop**](cohorts/2023/02-experiment-tracking/wandb.md) 
+
 
 ### [Module 3: Orchestration and ML Pipelines](03-orchestration)
 
@@ -143,7 +145,7 @@ To make discussions in Slack more organized:
 * Testing: unit, integration
 * Python: linting and formatting
 * Pre-commit hooks and makefiles
-* CI/CD (Github Actions)
+* CI/CD (GitHub Actions)
 * Infrastructure as code (Terraform)
 * Homework
 
@@ -219,17 +221,11 @@ No and yes. There will be two parts:
 Thanks to the course sponsors for making it possible to create this course
 
 <p align="center">
-  <a href="https://www.prefect.io/">
-    <img height="100" src="images/prefect.png">
+  <a href="https://mage.ai/">
+    <img height="120" src="https://github.com/DataTalksClub/data-engineering-zoomcamp/raw/main/images/mage.svg">
   </a>
 </p>
 
-
-<p align="center">
-  <a href="https://wandb.ai/">
-    <img height="100" src="https://datatalks.club/images/partners/wandb-abb.svg">
-  </a>
-</p>
-
+Do you want to support our course and our community? Reach out to [alexey@datatalks.club](alexey@datatalks.club)
 
 

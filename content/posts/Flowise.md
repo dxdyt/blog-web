@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2024-04-17T12:19:01+08:00
+date: 2024-05-09T12:21:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712506758835-fb1244091d3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712506758835-fb1244091d3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713735963670-67cf1914a178?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713735963670-67cf1914a178?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1712506758835-fb1244091d
 [![GitHub star chart](https://img.shields.io/github/stars/FlowiseAI/Flowise?style=social)](https://star-history.com/#FlowiseAI/Flowise)
 [![GitHub fork](https://img.shields.io/github/forks/FlowiseAI/Flowise?style=social)](https://github.com/FlowiseAI/Flowise/fork)
 
-English | [中文](./README-ZH.md)
+English | [中文](./README-ZH.md) | [日本語](./README-JA.md) | [한국어](./README-KR.md)
 
 <h3>Drag & drop UI to build your customized LLM flow</h3>
 <a href="https://github.com/FlowiseAI/Flowise">

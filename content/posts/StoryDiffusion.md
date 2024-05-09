@@ -1,9 +1,9 @@
 ---
 title: StoryDiffusion
-date: 2024-05-08T12:14:26+08:00
+date: 2024-05-09T12:19:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1680194983739-aecf445c4cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1680194983739-aecf445c4cf4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713858849070-ac9ce0cf7a3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713858849070-ac9ce0cf7a3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion)
@@ -99,7 +99,7 @@ Our Image-to-Video model can generate a video by providing a sequence of user-in
 
 
 ## 🚩 **TODO/Updates**
-- [x] Commic Results of StoryDiffusion.
+- [x] Comic Results of StoryDiffusion.
 - [x] Video Results of StoryDiffusion.
 - [x] Source code of Comic Generation
 - [x] Source code of gradio demo
@@ -134,7 +134,7 @@ Run the following command:
 python gradio_app_sdxl_specific_id.py
 ```
 
-We provide a low GPU Memory cost version, it was test on a machine with 24GB GPU-memory(Tesla A10) and 30GB RAM, and expcted work well with >20 G GPU-memory.
+**(Recommend)** We provide a low GPU Memory cost version, it was tested on a machine with 24GB GPU-memory(Tesla A10) and 30GB RAM, and expected to work well with >20 G GPU-memory.
 
 ```python
 python gradio_app_sdxl_specific_id_low_vram.py
@@ -154,8 +154,9 @@ This project strives to impact the domain of AI-driven image and video generatio
 If you find StoryDiffusion useful for your research and applications, please cite using this BibTeX:
 
 ```BibTeX
-@article{Zhou2024storydiffusion,
+@article{zhou2024storydiffusion,
   title={StoryDiffusion: Consistent Self-Attention for Long-Range Image and Video Generation},
   author={Zhou, Yupeng and Zhou, Daquan and Cheng, Ming-Ming and Feng, Jiashi and Hou, Qibin},
+  journal={arXiv preprint arXiv:2405.01434},
   year={2024}
 }

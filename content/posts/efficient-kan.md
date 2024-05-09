@@ -1,9 +1,9 @@
 ---
 title: efficient-kan
-date: 2024-05-08T12:14:21+08:00
+date: 2024-05-09T12:20:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713549519427-b49b7aadd814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713549519427-b49b7aadd814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712512161920-5619da46f0ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712512161920-5619da46f0ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
 ---
 
 # [Blealtan/efficient-kan](https://github.com/Blealtan/efficient-kan)
