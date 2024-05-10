@@ -1,9 +1,9 @@
 ---
 title: pokerogue
-date: 2024-05-07T12:20:02+08:00
+date: 2024-05-10T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714056801323-32eb0b0fd8ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713171158509-f2a6582581a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713171158509-f2a6582581a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [pagefaultgames/pokerogue](https://github.com/pagefaultgames/pokerogue)
@@ -54,6 +54,7 @@ Check out our [Trello Board](https://trello.com/b/z10B703R/pokerogue-board) to s
     - Arata Iiyoshi
     - Atsuhiro Ishizuna
   - Pokémon Black/White 2
+  - Firel (Additional biome themes)
   - edifette (Title screen music)
 
 ### 🎵 Sound Effects

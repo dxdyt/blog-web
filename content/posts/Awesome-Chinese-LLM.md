@@ -1,9 +1,9 @@
 ---
 title: Awesome-Chinese-LLM
-date: 2024-04-25T12:21:45+08:00
+date: 2024-05-10T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711699487054-aca10a6b85ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711699487054-aca10a6b85ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713171158509-f2a6582581a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713171158509-f2a6582581a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [HqWu-HITCS/Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)
@@ -42,9 +42,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1711699487054-aca10a6b85
 | 底座     | 包含模型                    | 模型参数大小      | 训练token数  | 训练最大长度 | 是否可商用 |
 |----------|---------------------------|-----------------|-------------|------------|-------   |
 | ChatGLM  | ChatGLM/2/3 Base&Chat     | 6B              | 1T/1.4      | 2K/32K     | 可商用   |
-| LLaMA    | LLaMA/2 Base&Chat         | 7B/13B/33B/65B  | 1T/2T       | 2k/4k      | 部分可商用  |
+| LLaMA    | LLaMA/2/3 Base&Chat       | 7B/8B/13B/33B/70B | 1T/2T       | 2k/4k      | 部分可商用  |
 | Baichuan | Baichuan/2 Base&Chat      | 7B/13B          | 1.2T/1.4T | 4k     | 可商用   |
-| Qwen     | Qwen/1.5 Base&Chat        | 7B/14B/72B      | 2.2T/3T      | 8k/32k     | 可商用   |
+| Qwen     | Qwen/1.5 Base&Chat        | 7B/14B/72B/110B | 2.2T/3T      | 8k/32k     | 可商用   |
 | BLOOM    | BLOOM                     | 1B/7B/176B-MT   | 1.5T      | 2k     | 可商用   |
 | Aquila   | Aquila/2 Base/Chat        | 7B/34B          | -         | 2k     | 可商用   |
 | InternLM | InternLM/2 Base/Chat/Code | 7B/20B          | -         | 200k | 可商用 |
@@ -118,10 +118,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1711699487054-aca10a6b85
   * 地址：https://github.com/FlagAlpha/Llama2-Chinese
   ![](https://img.shields.io/github/stars/FlagAlpha/Llama2-Chinese.svg)
   * 简介：该项目专注于Llama2模型在中文方面的优化和上层建设，基于大规模中文数据，从预训练开始对Llama2模型进行中文能力的持续迭代升级。
-* Qwen
+* Qwen/Qwen1.5
   * 地址：https://github.com/QwenLM/Qwen
   ![](https://img.shields.io/github/stars/QwenLM/Qwen.svg)
-  * 简介：通义千问 是阿里云研发的通义千问大模型系列模型，包括参数规模为18亿（1.8B）、70亿（7B）、140亿（14B）和720亿（72B）。各个规模的模型包括基础模型Qwen，即Qwen-1.8B、Qwen-7B、Qwen-14B、Qwen-72B，以及对话模型Qwen-Chat，即Qwen-1.8B-Chat、Qwen-7B-Chat、Qwen-14B-Chat和Qwen-72B-Chat。数据集包括文本和代码等多种数据类型，覆盖通用领域和专业领域，能支持8K的上下文长度，针对插件调用相关的对齐数据做了特定优化，当前模型能有效调用插件以及升级为Agent。
+  * 简介：通义千问 是阿里云研发的通义千问大模型系列模型，包括参数规模为18亿（1.8B）、70亿（7B）、140亿（14B）、720亿（72B）和1100亿（110B）。各个规模的模型包括基础模型Qwen，以及对话模型。数据集包括文本和代码等多种数据类型，覆盖通用领域和专业领域，能支持8K的上下文长度，针对插件调用相关的对齐数据做了特定优化，当前模型能有效调用插件以及升级为Agent。
 * OpenChineseLLaMA：
   * 地址：https://github.com/OpenLMLab/OpenChineseLLaMA
   ![](https://img.shields.io/github/stars/OpenLMLab/OpenChineseLLaMA.svg)

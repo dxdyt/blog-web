@@ -1,9 +1,9 @@
 ---
 title: skynet
-date: 2024-05-09T12:21:58+08:00
+date: 2024-05-10T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710769509812-1b5cf1605362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710769509812-1b5cf1605362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713101418878-2bcc194548ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713101418878-2bcc194548ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [cloudwu/skynet](https://github.com/cloudwu/skynet)
@@ -14,7 +14,7 @@ Skynet is a multi-user Lua framework supporting the actor model, often used in g
 
 [It is heavily used in the Chinese game industry](https://github.com/cloudwu/skynet/wiki/Uses), but is also now spreading to other industries, and to English-centric developers. To visit related sites, visit the Chinese pages using something like Google or Deepl translate.
 
-The community is friendly and almost all contributors can speak English, so English speakers are welcome to ask questions in [Discussion](https://github.com/cloudwu/skynet/discussions), or sumbit issues in English.
+The community is friendly and almost all contributors can speak English, so English speakers are welcome to ask questions in [Discussion](https://github.com/cloudwu/skynet/discussions), or submit issues in English.
 
 ## Build
 

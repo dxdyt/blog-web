@@ -1,15 +1,16 @@
 ---
 title: CCTV
-date: 2024-05-06T12:17:05+08:00
+date: 2024-05-10T12:16:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712574340322-aaeae2cbaa8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712574340322-aaeae2cbaa8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713810211578-87d0dc635917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713810211578-87d0dc635917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [IvanGlinkin/CCTV](https://github.com/IvanGlinkin/CCTV)
 
 # CCTV
-Close-Circuit Telegram Vision revolutionizes location tracking with its open-source design and Telegram API integration. Offering precise tracking within 50-100 meters, users can monitor others in real-time for logistics or safety, redefining how we navigate our surroundings
+Close-Circuit Telegram Vision revolutionizes location tracking with its open-source design and Telegram API integration. Offering precise tracking within 50-100 meters, users can monitor others in real-time for logistics or safety, redefining how we navigate our surroundings.
+PLEASE BE AWARED TELEGRAM STARTED BANNING ACCOUNTS FOR USING "FIND PEOPLE NEARBY" FEATURE
 
 Usage example:
 --------------
@@ -97,9 +98,50 @@ optional arguments:
                         Telegram API hash
 ```
 
+Media mentions: (so many, just google it ["close-circuit telegram vision"](https://www.google.com/search?q=%22close-circuit+telegram+vision%22))
+---------------
+1. English language:
+  * https://www.linkedin.com/feed/update/urn:li:activity:7191073927949938688/
+  * https://www.404media.co/this-tool-shows-some-telegram-users-approximate-physical-location/
+  * https://www.newsbytesapp.com/news/science/locations-of-telegram-users-are-now-easy-to-find/story
+  * https://www.transforminggov.ca/taxonomy/1kd79926usd10/
+  * https://sector035.nl/articles/2024-18
+  * https://twitter.com/404mediaco/status/1787880234294951949
+  * https://twitter.com/hack_git/status/1786271191847539117
+  * https://www.youtube.com/watch?v=AV6E-bUYVSs
+  * https://knowpy.com/be-careful-if-telegram-has-access-to-your-location-this-portal-reveals-your-position
+  * https://www.gearrice.com/update/be-careful-with-this-telegram-function-a-tool-manages-to-track-our-location-if-we-have-it-activated/
+2. Russian language:
+  * https://dzen.ru/b/ZjMjQrQIlkH8ypnH
+  * https://tgstat.ru/channel/@infosec_globe/2642
+  * https://botiprobiva.org/cctv-api-dlya-otslezhivaniya-mestopolozheniya-v-telegram/
+  * https://istories.media/news/2024/05/07/vipusknik-universiteta-minoboroni-rf-razrabotal-instrument-kotorii-pozvolyaet-uznat-primernie-adresa-polzovatelei-telegrama/
+  * https://holod.media/2024/05/08/rossiiskii-khaker-razrabotal/
+  * https://vk.com/wall-225594201_181?ysclid=lvxhixzl7o951682138
+  * https://www.securitylab.ru/news/548052.php
+  * https://meduza.io/news/2024/05/08/vypusknik-universiteta-minoborony-rf-sozdal-instrument-pokazyvayuschiy-primernoe-mestopolozhenie-polzovateley-telegram
+  * https://t.me/exploitex/14680
+  * https://t.me/CyberStrikeNews/530
+  * https://hi-tech.mail.ru/news/109683-srochno-otklyuchite-etu-funkciyu-v-telegram-inache-vas-najdut/
+  * https://the-geek.ru/news/razrabotan-instrument-dlja-slezhki-za-polzovateljami-telegram?ysclid=lvxwoeu1te198960
+  * https://skynetzone.org/threads/cctv-novyj-instrument-dlja-slezhki-v-telegram.32700/
+  * https://www.iguides.ru/main/security/utilita_vychislyayushchaya_tochnoe_mestopolozhenie_polzovateley_telegram/
+  * https://www.mentoday.ru/life/news/08-05-2024/hakery-vyshli-na-novyi-uroven-oni-mogut-uznat-vashe-tochnoe-mestopolojenie-s-pomoshchyu-telegram/
+  * https://applespbevent.ru/k-funktsii-liudi-riadom-v-telegram-iest-bolshiie-voprosy-v-planie-konfidientsialnosti-polzovatieliei/
+  * https://xakep.ru/2024/05/08/close-circuit-telegram-vision/
+  * https://habr.com/ru/news/813209/
+3. Italian language:
+  * https://www.redhotcyber.com/post/sorveglianza-o-funzionalita-di-telegram-cctv-e-il-nuovo-strumento-che-rintraccia-gli-utenti-in-tempo-reale/
+4. Spanish language:
+  * https://www.adslzone.net/noticias/seguridad/telegram-acceso-ubicacion-posicion/
+  * https://www.xatakamovil.com/seguridad/cuidado-esta-funcion-telegram-herramienta-consigue-rastrear-nuestra-ubicacion-llevamos-activada
+
 Video example:
 --------------
 [![Close-Curcuit Telegram Vision PoC](https://raw.githubusercontent.com/IvanGlinkin/media_support/main/CCTV_youtube.png)](https://www.youtube.com/watch?v=y9jEiZS5pAc "Close-Curcuit Telegram Vision PoC")
+Banned by YouTube
+
+https://github.com/IvanGlinkin/media_support/raw/main/CCTV_Github.mp4
 
 Screenshots:
 ------------

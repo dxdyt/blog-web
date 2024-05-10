@@ -1,15 +1,17 @@
 ---
 title: ant
-date: 2024-05-09T12:19:32+08:00
+date: 2024-05-10T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713593931118-ebb1807d8f3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713593931118-ebb1807d8f3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710600633775-5bd245fdaffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710600633775-5bd245fdaffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
 ---
 
 # [ejoy/ant](https://github.com/ejoy/ant)
 
 Ant 游戏引擎
 =====
+
+[English Version](./README.en.md) | [中文版本](./README.md)
 
 Ant 是由灵犀互娱开发的开源游戏引擎。现阶段仅将代码仓库公开，尚未正式发布。文档、示例等均待在 [Wiki](https://github.com/ejoy/ant/wiki) 上逐步完善。如有任何问题，可在 [Discussions](https://github.com/ejoy/ant/discussions) 发帖讨论。Issues 仅用于 Bug 跟踪，请不要在里面提问题。
 
