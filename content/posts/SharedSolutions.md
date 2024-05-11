@@ -1,12 +1,12 @@
 ---
 title: SharedSolutions
-date: 2024-01-27T12:15:59+08:00
+date: 2024-05-11T12:17:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703812572795-2e2c87db6c2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703812572795-2e2c87db6c2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714756125244-695a9a65049e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714756125244-695a9a65049e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
-# [CodingChallegesFYI/SharedSolutions](https://github.com/CodingChallegesFYI/SharedSolutions)
+# [CodingChallengesFYI/SharedSolutions](https://github.com/CodingChallengesFYI/SharedSolutions)
 
 <div id="top"></div>
 
@@ -56,6 +56,7 @@ Essentially:
 - [Build your own Rate Limiter](Solutions/challenge-rate-limiter.md)
 - [Build your own Scheduling Automation App](Solutions/challenge-scheduleing-automation.md)
 - [Build your own Lisp Interpreter](Solutions/challenge-lisp.md)
+- [Build your own Tetris](Solutions/challenge-tetris.md)
 - [Build your own QR Code Generator](Solutions/challenge-qr-generator.md)
 - [Build your own CronTab Tool](Solutions/challenge-crontab.md)
 - [Build your own head](Solutions/challenge-head.md)
@@ -63,5 +64,10 @@ Essentially:
 - [Build your own Pong](Solutions/challenge-pong.md)
 - [Build your own curl](Solutions/challenge-curl.md)
 - [Build your own HTTP(S) Load Tester](Solutions/challenge-load-tester.md)
+- [Build Your Own Data Privacy Vault](Solutions/challenge-data-privacy-vault.md)
+- [Build Your Own Password Cracker](Solutions/challenge-password-cracker.md)
+- [Build Your own Spell Checker using Bloom Filter](Solutions/challenge-bloom-filter-spell-checker.md)
+- [Build Your own Xxd](Solutions/challenge-xxd.md)
+- [Build your own Snake](Solutions/challenge-snake.md)
 
 <p align="right">(<a href="#top">🔼 Back to top</a>)</p>

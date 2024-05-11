@@ -1,9 +1,9 @@
 ---
 title: Lecture_Notes
-date: 2024-04-28T12:17:15+08:00
+date: 2024-05-11T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711972638202-e9585b245609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711972638202-e9585b245609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQyNzc2OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712925975246-7b1b8df829e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712925975246-7b1b8df829e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [KingsGambitLab/Lecture_Notes](https://github.com/KingsGambitLab/Lecture_Notes)

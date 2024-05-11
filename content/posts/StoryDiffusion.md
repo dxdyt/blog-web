@@ -1,9 +1,9 @@
 ---
 title: StoryDiffusion
-date: 2024-05-10T12:18:54+08:00
+date: 2024-05-11T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713350472373-fb79157678b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713350472373-fb79157678b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713350471498-243d2c5dff3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713350471498-243d2c5dff3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [HVision-NKU/StoryDiffusion](https://github.com/HVision-NKU/StoryDiffusion)

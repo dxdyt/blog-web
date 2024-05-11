@@ -1,9 +1,9 @@
 ---
 title: path-to-senior-engineer-handbook
-date: 2024-05-01T12:17:52+08:00
+date: 2024-05-11T12:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711843250829-1234532f335f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711843250829-1234532f335f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714848195655-91cf68b23f26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714848195655-91cf68b23f26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)
@@ -79,6 +79,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Engineering Leadership](https://open.substack.com/pub/gregorojstersek)
 - [Addy Osmani](https://addyosmani.com/blog/) ([RSS Link](https://addyosmani.com/feed.xml))
 - [Irrational Exuberance](https://lethain.com/newsletter/)
+- [Leadership Letters](https://www.leadership-letters.com)
 
 ### Web-dev specific
 
@@ -308,6 +309,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [David Anderson](https://www.linkedin.com/in/scarletink/)
 - [Alexandre Zajac](https://www.linkedin.com/in/alexandre-zajac/)
 - [Jean Lee](https://www.linkedin.com/in/jeanklee/)
+- [Akash Mukherjee](https://www.linkedin.com/in/akashmuk/)
 
 ## Platforms
 
@@ -317,6 +319,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [Leetcode](https://www.leetcode.com)
 - [Neetcode](https://www.neetcode.io)
 - [PyPup](https://www.pypup.com)
+- [Codemia](https://codemia.io)
 
 #### Mock Interviews
 - [Pramp](https://www.pramp.com)

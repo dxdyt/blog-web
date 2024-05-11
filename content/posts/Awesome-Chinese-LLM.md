@@ -1,9 +1,9 @@
 ---
 title: Awesome-Chinese-LLM
-date: 2024-05-10T12:17:30+08:00
+date: 2024-05-11T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713171158509-f2a6582581a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713171158509-f2a6582581a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714113728562-6c67a7cb4542?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714113728562-6c67a7cb4542?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [HqWu-HITCS/Awesome-Chinese-LLM](https://github.com/HqWu-HITCS/Awesome-Chinese-LLM)

@@ -1,9 +1,9 @@
 ---
 title: lottie-ios
-date: 2024-05-10T12:17:37+08:00
+date: 2024-05-11T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711669323433-0313ee078bf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711669323433-0313ee078bf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713815278347-bd3d3fecbda0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713815278347-bd3d3fecbda0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [airbnb/lottie-ios](https://github.com/airbnb/lottie-ios)

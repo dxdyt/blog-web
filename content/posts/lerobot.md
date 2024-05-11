@@ -1,9 +1,9 @@
 ---
 title: lerobot
-date: 2024-05-10T12:16:20+08:00
+date: 2024-05-11T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713815540987-0324b70c33cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713815540987-0324b70c33cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/lerobot](https://github.com/huggingface/lerobot)

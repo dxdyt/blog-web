@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-V2
-date: 2024-05-10T12:17:59+08:00
+date: 2024-05-11T12:17:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710600633775-5bd245fdaffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710600633775-5bd245fdaffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712925975246-7b1b8df829e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712925975246-7b1b8df829e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2)
@@ -296,6 +296,19 @@ generated_text = [output.outputs[0].text for output in outputs]
 print(generated_text)
 ```
 
+### LangChain Support
+Since our API is compatible with OpenAI, you can easily use it in [langchain](https://www.langchain.com/).
+Here is an example:
+
+```
+from langchain_openai import ChatOpenAI
+llm = ChatOpenAI(
+    model='deepseek-chat',
+    openai_api_key=<your-deepseek-api-key>,
+    openai_api_base='https://api.deepseek.com/v1',
+    temperature=0.85,
+    max_tokens=8000)
+``` 
 ## 8. License
 This code repository is licensed under [the MIT License](LICENSE-CODE). The use of DeepSeek-V2 Base/Chat models is subject to [the Model License](LICENSE-MODEL). DeepSeek-V2 series (including Base and Chat) supports commercial use.
 

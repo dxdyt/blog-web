@@ -1,9 +1,9 @@
 ---
 title: awesome-low-level-design
-date: 2024-04-18T12:16:39+08:00
+date: 2024-05-11T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712146503065-63ac5510f2f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712146503065-63ac5510f2f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)
@@ -14,20 +14,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1712146503065-63ac5510f2
 <p align="center">
   <a href="https://www.linkedin.com/in/ashishps1/">LinkedIn</a> | <a href="https://www.youtube.com/@ashishps_1/videos">YouTube</a> | <a href="https://twitter.com/ashishps_1">X</a> | <a href="https://newsletter.ashishps.com/">Newsletter</a>
 </p>
-This repository contains low level design (LLD) resources to improve object oriented design (OOD) skills and prepare for interviews.
+Learn Low Level Design (LLD) and prepare for interviews using free resources.
 
 ## Fundamental Concepts
-- [Basics of OOPS](concepts/OOPS.md)
+- [Basics OOP Concepts](https://newsletter.ashishps.com/p/basic-oop-concepts-explained-with-code)
 - [SOLID Principles with Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
 - [SOLID Principles with Code](https://newsletter.ashishps.com/p/solid-principles-explained-with-code)
-- [DRY Principle](concepts/DRY.md)
-- [YAGNI Principle](concepts/YAGNI.md)
-- [KISS Principle](concepts/KISS.md)
+- [DRY Principle](https://newsletter.ashishps.com/p/082450d8-0e7b-4447-a8dc-b7308e45f048)
+- [YAGNI Principle](https://newsletter.ashishps.com/p/8c3c7da7-885b-4a9c-a6e4-70ee02de4772)
+- [KISS Principle](https://newsletter.ashishps.com/p/21b57678-b351-4ed4-b390-3b6308af2f7d)
+- [Coursera - Object-Oriented Design](https://www.coursera.org/learn/object-oriented-design)
 
 ## Design Patterns
 - [Refactoring Guru - Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
 - [Fireship - 10 Design Patterns in 10 Minutes](https://www.youtube.com/watch?v=tv-_1er1mWI&pp=ygUPZGVzaWduIHBhdHRlcm5z)
 - [Design Pattern Playlist](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+- [Coursera - Design Patterns](https://www.coursera.org/learn/design-patterns)
 - [Github - Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
 
 ## UML
@@ -78,10 +80,3 @@ This repository contains low level design (LLD) resources to improve object orie
 - [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X/)
 - [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/B08X8ZXT15)
 - [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/)
-
-## Courses
-- [Coursera - Object-Oriented Design](https://www.coursera.org/learn/object-oriented-design)
-- [Coursera - Design Patterns](https://www.coursera.org/learn/design-patterns)
-
-## Additional Resources
-- [LLD Coding](http://lldcoding.com)
