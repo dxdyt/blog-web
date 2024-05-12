@@ -1,9 +1,9 @@
 ---
 title: 1Panel
-date: 2024-02-22T12:15:02+08:00
+date: 2024-05-12T12:19:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707159432991-ac67eace0014?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707159432991-ac67eace0014?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
@@ -23,23 +23,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1707159432991-ac67eace00
 
 1Panel 是新一代的 Linux 服务器运维管理面板。
 
-- **高效管理**：通过 Web 端轻松管理 Linux 服务器，包括主机监控、文件管理、数据库管理、容器管理等；
-- **快速建站**：深度集成 Wordpress 和 [Halo](https://github.com/halo-dev/halo/)，域名绑定、SSL 证书配置等一键搞定；
-- **应用商店**：精选各类高质量开源工具和应用软件，助力您轻松安装和升级；
-- **安全可靠**：基于容器来管理和部署应用，最小漏洞暴露面，提供防火墙和日志审计等功能；
-- **一键备份**：支持一键备份和恢复，备份数据到各类云端存储，永不丢失。
+- **高效管理**：用户可以通过 Web 图形界面轻松管理 Linux 服务器，实现主机监控、文件管理、数据库管理、容器管理等功能；
+- **快速建站**：深度集成开源建站软件 WordPress 和 [Halo](https://github.com/halo-dev/halo/)，域名绑定、SSL 证书配置等操作一键搞定；
+- **应用商店**：精选上架各类高质量的开源工具和应用软件，协助用户轻松安装并升级；
+- **安全可靠**：基于容器管理并部署应用，实现最小的漏洞暴露面，同时提供防火墙和日志审计等功能；
+- **一键备份**：支持一键备份和恢复，用户可以将数据备份到各类云端存储介质，永不丢失。
 
-## UI 展示
-
-![UI展示](https://resource.fit2cloud.com/1panel/img/overview.png)
+1Panel 三分钟速览：https://www.bilibili.com/video/BV1Mt421n7LZ/
 
 ## 快速开始
-
-**在线体验**
-
-- 环境地址：<https://demo.1panel.cn/>
-- 用户名：demo
-- 密码：1panel
 
 **一键安装**
 
@@ -52,24 +44,24 @@ curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_
 **学习资料**
 
 - [在线文档](https://1panel.cn/docs/)
-- [教学视频](https://space.bilibili.com/510493147/channel/collectiondetail?sid=1199760)
 - [社区论坛](https://bbs.fit2cloud.com/c/1p/7)
 - [如何加入微信交流群?](https://bbs.fit2cloud.com/t/topic/2147)
 
-## 安全说明
+## UI 展示
 
-如果您在使用过程中发现任何安全问题，请通过以下方式直接联系我们：
-
-- 邮箱：support@fit2cloud.com
-- 电话：400-052-0755
+![UI展示](https://resource.fit2cloud.com/1panel/img/overview.png)
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=1Panel-dev/1Panel&type=Date)](https://star-history.com/#1Panel-dev/1Panel&Date)
 
-## FOSSA Status
+## 我们的其他明星项目
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel?ref=badge_large)
+- [MaxKB](https://github.com/1Panel-dev/MaxKB/) - 基于 LLM 大语言模型的开源知识库问答系统
+- [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
+- [Halo](https://github.com/halo-dev/halo/) - 强大易用的开源建站工具
+- [DataEase](https://github.com/dataease/dataease/) - 人人可用的开源数据可视化分析工具
+- [MeterSphere](https://github.com/metersphere/metersphere/) - 开源自动化测试平台
 
 ## License
 

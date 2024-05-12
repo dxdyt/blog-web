@@ -1,18 +1,23 @@
 ---
 title: KawaiiLogos
-date: 2024-05-11T12:16:54+08:00
+date: 2024-05-12T12:17:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712730923763-362d0da20b97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712730923763-362d0da20b97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713204641930-9be477a56a8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713204641930-9be477a56a8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
 ---
 
 # [SAWARATSUKI/KawaiiLogos](https://github.com/SAWARATSUKI/KawaiiLogos)
 
 # KawaiiLogos
 
-[简体中文 README](./README-zhHans.md)
+[简体中文 README](/README-zhHans.md) | [Indonesian README](/README-ID.md)
 
 こんにちは、こんばんは。このリポジトリはさわらつきが作成したロゴがアップロードされているリポジトリです。
+
+## 言語 / Languages
+
+- [English](./README_EN.md)
+
 
 > [!WARNING]  
  ここにあるロゴはさわらつきが作成したロゴです。各サービス、団体が作成したものではありません。  

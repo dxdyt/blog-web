@@ -1,9 +1,9 @@
 ---
 title: IC-Light
-date: 2024-05-11T12:16:27+08:00
+date: 2024-05-12T12:17:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713815278347-bd3d3fecbda0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713815278347-bd3d3fecbda0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713042451651-42cecb8a2e19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713042451651-42cecb8a2e19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
 ---
 
 # [lllyasviel/IC-Light](https://github.com/lllyasviel/IC-Light)

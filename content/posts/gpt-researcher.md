@@ -1,9 +1,9 @@
 ---
 title: gpt-researcher
-date: 2024-05-10T12:18:08+08:00
+date: 2024-05-12T12:19:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712371963405-a109900e74dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712371963405-a109900e74dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUzMTQ1NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713528192259-c3514aa54224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713528192259-c3514aa54224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
 ---
 
 # [assafelovic/gpt-researcher](https://github.com/assafelovic/gpt-researcher)
@@ -139,13 +139,21 @@ from gpt_researcher import GPTResearcher
 query = "why is Nvidia stock going up?"
 researcher = GPTResearcher(query=query, report_type="research_report")
 # Conduct research on the given query
-await researcher.conduct_research()
+research_result = await researcher.conduct_research()
 # Write the report
 report = await researcher.write_report()
 ```
 
 **For more examples and configurations, please refer to the [PIP documentation](https://docs.tavily.com/docs/gpt-researcher/pip-package) page.**
 
+## 👪 Multi-Agent Assistant
+As AI evolves from prompt engineering and RAG to multi-agent systems, we're excited to introduce our new multi-agent assistant built with [LangGraph](https://python.langchain.com/v0.1/docs/langgraph/).
+
+By using LangGraph, the research process can be significantly improved in depth and quality by leveraging multiple agents with specialized skills. Inspired by the recent [STORM](https://arxiv.org/abs/2402.14207) paper, this project showcases how a team of AI agents can work together to conduct research on a given topic, from planning to publication.
+
+An average run generates a 5-6 page research report in multiple formats such as PDF, Docx and Markdown.
+
+Check it out [here](https://github.com/assafelovic/gpt-researcher/tree/master/multi_agents) or head over to our [documentation](https://docs.tavily.com/docs/gpt-researcher/agent_frameworks) for more information.
 
 ## 🚀 Contributing
 We highly welcome contributions! Please check out [contributing](https://github.com/assafelovic/gpt-researcher/blob/master/CONTRIBUTING.md) if you're interested.
