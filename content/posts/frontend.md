@@ -1,9 +1,9 @@
 ---
 title: frontend
-date: 2024-05-12T12:18:02+08:00
+date: 2024-05-13T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713204641930-9be477a56a8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713204641930-9be477a56a8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713782894016-01154435f4f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713782894016-01154435f4f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [SOS-RS/frontend](https://github.com/SOS-RS/frontend)

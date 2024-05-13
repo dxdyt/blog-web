@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-05-11T12:19:03+08:00
+date: 2024-05-13T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714113728562-6c67a7cb4542?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714113728562-6c67a7cb4542?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714029122697-d74d8ba99893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714029122697-d74d8ba99893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -69,7 +69,7 @@ docker run \
     -v $WORKSPACE_BASE:/opt/workspace_base \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -p 3000:3000 \
-    --add-host host.docker.internal:host-gateway \
+    --add-host host.docker.internal=host-gateway \
     ghcr.io/opendevin/opendevin:0.5
 ```
 

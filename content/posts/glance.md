@@ -1,9 +1,9 @@
 ---
 title: glance
-date: 2024-05-12T12:18:53+08:00
+date: 2024-05-13T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713007272846-14202cbba86c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713007272846-14202cbba86c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710244366153-716315e96a42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710244366153-716315e96a42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [glanceapp/glance](https://github.com/glanceapp/glance)
@@ -26,6 +26,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1713007272846-14202cbba8
 * iframe
 * Twitch channels & top games
 * GitHub releases
+* Repository overview
 * Site monitor
 
 #### Themeable
@@ -51,16 +52,16 @@ Checkout the [configuration docs](docs/configuration.md) to learn more. A [preco
 #### Manual
 Checkout the [releases page](https://github.com/glanceapp/glance/releases) for available binaries. You can place the binary inside `/opt/glance/` and have it start with your server via a [systemd service](https://linuxhandbook.com/create-systemd-services/). To specify a different path for the config file use the `--config` option:
 
-```
+```bash
 /opt/glance/glance --config /etc/glance.yml
 ```
 
 #### Docker
 > [!IMPORTANT]
 >
-> Make sure you have a valid `glance.yml` file before running the container.
+> Make sure you have a valid `glance.yml` file in the same directory before running the container.
 
-```console
+```bash
 docker run -d -p 8080:8080 \
   -v ./glance.yml:/app/glance.yml \
   -v /etc/timezone:/etc/timezone:ro \
@@ -89,12 +90,34 @@ Requirements: [Go](https://go.dev/dl/) >= v1.22
 
 To build:
 
-```
-go build .
+```bash
+go build -o build/glance .
 ```
 
 To run:
 
-```
+```bash
 go run .
+```
+
+### Building Docker image
+
+Build Glance with CGO disabled:
+
+```bash
+CGO_ENABLED=0 go build -o build/glance .
+```
+
+Build the image:
+
+**Make sure to replace "owner" with your name or organization.**
+
+```bash
+docker build -t owner/glance:latest -f Dockerfile.single-platform .
+```
+
+Push the image to your registry:
+
+```bash
+docker push owner/glance:latest
 ```

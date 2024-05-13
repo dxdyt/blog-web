@@ -1,9 +1,9 @@
 ---
 title: FreeAskInternet
-date: 2024-04-13T12:16:20+08:00
+date: 2024-05-13T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710775346091-25e5a8840e99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710775346091-25e5a8840e99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711598850168-ae7592efc741?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711598850168-ae7592efc741?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [nashsu/FreeAskInternet](https://github.com/nashsu/FreeAskInternet)
@@ -101,6 +101,7 @@ cd ./FreeAskInternet
 git pull
 docker compose down
 docker compose rm backend
+docker compose rm free_ask_internet_ui
 docker image rm nashsu/free_ask_internet
 docker image rm nashsu/free_ask_internet_ui
 docker-compose up -d

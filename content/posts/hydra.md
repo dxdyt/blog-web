@@ -1,9 +1,9 @@
 ---
 title: hydra
-date: 2024-05-12T12:16:49+08:00
+date: 2024-05-13T12:17:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711116180104-b737dccc850b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711116180104-b737dccc850b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713107100803-c5877621cdde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713107100803-c5877621cdde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [hydralauncher/hydra](https://github.com/hydralauncher/hydra)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1711116180104-b737dccc85
 
 <div align="center">
 
-  [<img src="./resources/icon.png" width="144"/>](https://hydralauncher.site)
+[<img src="./resources/icon.png" width="144"/>](https://hydralauncher.site)
 
   <h1 align="center">Hydra Launcher</h1>
   
@@ -20,15 +20,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1711116180104-b737dccc85
     <strong>Hydra is a game launcher with its own embedded bittorrent client and a self-managed repack scraper.</strong>
   </p>
 
-  [![build](https://img.shields.io/github/actions/workflow/status/hydralauncher/hydra/build.yml)](https://github.com/hydralauncher/hydra/actions)
-  [![release](https://img.shields.io/github/package-json/v/hydralauncher/hydra)](https://github.com/hydralauncher/hydra/releases)
-  
-  [![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
-  [![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
-  [![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
-  [![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](README.uk-UA.md)
-  
-  ![Hydra Catalogue](./docs/screenshot.png)
+[![build](https://img.shields.io/github/actions/workflow/status/hydralauncher/hydra/build.yml)](https://github.com/hydralauncher/hydra/actions)
+[![release](https://img.shields.io/github/package-json/v/hydralauncher/hydra)](https://github.com/hydralauncher/hydra/releases)
+
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
+[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
+[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](README.uk-UA.md)
+
+![Hydra Catalogue](./docs/screenshot.png)
 
 </div>
 

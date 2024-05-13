@@ -1,9 +1,9 @@
 ---
 title: ugly-avatar
-date: 2024-03-30T12:16:27+08:00
+date: 2024-05-13T12:19:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709699714159-29bc3ac99486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709699714159-29bc3ac99486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714479140002-62d1824fffb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714479140002-62d1824fffb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [txstc55/ugly-avatar](https://github.com/txstc55/ugly-avatar)

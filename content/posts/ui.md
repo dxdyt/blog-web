@@ -1,15 +1,25 @@
 ---
 title: ui
-date: 2024-04-21T12:16:08+08:00
+date: 2024-05-13T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710674293279-962ca4a5be7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710674293279-962ca4a5be7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM2NzI5MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713701203359-c562228343b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713701203359-c562228343b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [atherosai/ui](https://github.com/atherosai/ui)
 
 
-Learn more with me Modern Frontend Developer: HTML and CSS [https://learning.atheros.ai/course-detail/modern-frontend-developer-html-and-css]
+# Modern Frontend Developer: HTML and CSS
+
+Learn more with me [Modern Frontend Developer: HTML and CSS](https://learning.atheros.ai/course-detail/modern-frontend-developer-html-and-css)
+
+* Modern Frontend Developer Ebook (almost 500 pages)
+* UI Components Collection
+* Frontend Resources
+* Quizzes And Certificate!
+* Interactive Tutorials (coming soon)
+* Coding Quizzes (coming soon)
+* Video Course (coming soon)
 
 This is repository with examples of simple UI components. The repository is based on Next.js and React.js. 
 
@@ -27,10 +37,13 @@ Just navigate to the folder with your chosen example and open html file in the b
 # For React Examples
 
 * Install npm packages
+
 ```
 npm i 
 ```
+
 * Run development mode
+
 ```
 npm run dev
 ```

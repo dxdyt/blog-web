@@ -1,9 +1,9 @@
 ---
 title: awesome-low-level-design
-date: 2024-05-11T12:17:36+08:00
+date: 2024-05-13T12:19:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)

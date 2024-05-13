@@ -1,16 +1,21 @@
 ---
 title: backend
-date: 2024-05-12T12:16:58+08:00
+date: 2024-05-13T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713042451651-42cecb8a2e19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713042451651-42cecb8a2e19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710244366153-716315e96a42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710244366153-716315e96a42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
 ---
 
 # [SOS-RS/backend](https://github.com/SOS-RS/backend)
 
 # 🌊 Backend para App de Ajuda em Enchentes 🌊
 
-Este repositório contém o backend de um aplicativo projetado para ajudar na organização e distribuição de suprimentos, bem como na coordenação de voluntários durante enchentes no Rio Grande do Sul. Ele fornece APIs essenciais para a autenticação de usuários, gerenciamento de abrigos e suprimentos, e muito mais.
+Este repositório contém o backend de um aplicativo projetado para ajudar na organização e distribuição de suprimentos,
+bem como na coordenação de voluntários durante enchentes no Rio Grande do Sul. Ele fornece APIs essenciais para a
+autenticação de usuários, gerenciamento de abrigos e suprimentos, e muito mais.
+
+Se você quiser discutir ideias, problemas ou contribuições, sinta-se à vontade para se juntar ao nosso servidor do
+Discord [aqui](https://discord.gg/sosrs).
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -22,7 +27,8 @@ Este repositório contém o backend de um aplicativo projetado para ajudar na or
 
 ## 🗂 Dump do Banco de Dados
 
-Para iniciar com dados de exemplo, utilize o dump do banco disponível em `prisma/migration/dev_dump.sql`. Este arquivo pode ser executado após as migrations estarem aplicadas.
+Para iniciar com dados de exemplo, utilize o dump do banco disponível em `prisma/migration/dev_dump.sql`. Este arquivo
+pode ser executado após as migrations estarem aplicadas.
 
 Se estiver usando Docker, os comandos para carregar o dump são:
 
@@ -106,6 +112,7 @@ ports:
 
 ## 🤝 Contribuição
 
-Contribuições são muito bem-vindas! Se deseja ajudar, faça um fork do repositório, crie uma branch com suas modificações, e envie um pull request.
+Contribuições são muito bem-vindas! Se deseja ajudar, faça um fork do repositório, crie uma branch com suas
+modificações, e envie um pull request.
 
 Sua ajuda é crucial para apoiar a comunidade afetada pelas enchentes no Rio Grande do Sul!
