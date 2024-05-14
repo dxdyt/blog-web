@@ -1,9 +1,9 @@
 ---
 title: open-webui
-date: 2024-05-13T12:18:02+08:00
+date: 2024-05-14T12:16:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714579328738-c882ca3d7fdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7fdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
 ---
 
 # [open-webui/open-webui](https://github.com/open-webui/open-webui)

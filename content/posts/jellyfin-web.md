@@ -1,9 +1,9 @@
 ---
 title: jellyfin-web
-date: 2023-10-04T12:16:14+08:00
+date: 2024-05-14T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693299406274-92e8a075fe29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzOTI4OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711656166064-1b18600c26fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711656166064-1b18600c26fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
 ---
 
 # [jellyfin/jellyfin-web](https://github.com/jellyfin/jellyfin-web)
@@ -87,8 +87,9 @@ Jellyfin Web is the frontend used for most of the clients available for end user
 .
 └── src
     ├── apps
-    │   ├── experimental  # New experimental app layout
-    │   └── stable        # Classic (stable) app layout
+    │   ├── dashboard     # Admin dashboard app layout and routes
+    │   ├── experimental  # New experimental app layout and routes
+    │   └── stable        # Classic (stable) app layout and routes
     ├── assets            # Static assets
     ├── components        # Higher order visual components and React components
     ├── controllers       # Legacy page views and controllers 🧹
@@ -97,7 +98,6 @@ Jellyfin Web is the frontend used for most of the clients available for end user
     ├── legacy            # Polyfills for legacy browsers
     ├── libraries         # Third party libraries 🧹
     ├── plugins           # Client plugins
-    ├── routes            # React routes/pages
     ├── scripts           # Random assortment of visual components and utilities 🐉
     ├── strings           # Translation files
     ├── styles            # Common app Sass stylesheets

@@ -1,9 +1,9 @@
 ---
 title: gemma-2B-10M
-date: 2024-05-13T12:17:42+08:00
+date: 2024-05-14T12:16:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713422500591-daa10c032ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713422500591-daa10c032ab5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
 ---
 
 # [mustafaaljadery/gemma-2B-10M](https://github.com/mustafaaljadery/gemma-2B-10M)

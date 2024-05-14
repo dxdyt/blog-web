@@ -1,9 +1,9 @@
 ---
 title: anything-llm
-date: 2024-05-12T12:18:46+08:00
+date: 2024-05-14T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714579328738-c882ca3d7fdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7fdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
 ---
 
 # [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
@@ -13,6 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1711741507608-b99fa0f16e
 <p align="center">
   <a href="https://useanything.com"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/images/wordmark.png?raw=true" alt="AnythingLLM logo"></a>
 </p>
+
+<div align='center'>
+<a href="https://trendshift.io/repositories/2415" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2415" alt="Mintplex-Labs%2Fanything-llm | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</div>
 
 <p align="center">
     <b>AnythingLLM:</b> The all-in-one AI app you were looking for.<br />

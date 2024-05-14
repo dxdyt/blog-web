@@ -1,18 +1,19 @@
 ---
 title: AutoGroq
-date: 2024-05-13T12:17:25+08:00
+date: 2024-05-14T12:16:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713701203359-c562228343b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713701203359-c562228343b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713145872144-351db3748385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713145872144-351db3748385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
 ---
 
 # [jgravelle/AutoGroq](https://github.com/jgravelle/AutoGroq)
 
 ## The PDF file...
 ...contains all the code for this project.  It's handy for uploading to Claude.AI or ChatGPT if you want to make your own modifications.
-I create those sorts of PDFs with:  https://github.com/jgravelle/GetCodeAsPdf  
+I create those sorts of PDFs with my PyToPdf utility:  https://github.com/jgravelle/PyToPdf
 
 ## What's new?
+**AGENT SKILL: URL/HTML READER!**  We're getting there!  Autogen agents can now read URLs and HTML for extracting information.  This opens up a world of possibilities for web/data scraping agents!
 **Customizable agents!**  They're now manually editable, and **NOW**, they can 'evolve' with your project!  We'll have a new video out soon!
 **Temperature control**  Careful setting it too low.  It can hose up your agent generations.
 
@@ -26,7 +27,7 @@ It's how I wish Autogen worked:  quickly, simply, and automatically.  In the tim
 
 **UPDATED** video tutorial:  https://www.youtube.com/watch?v=JkYzuL8V_4g
 
-Autogroq creates your team of AutoGen compatible agent assistants AND workflows on the fly.  Just type in your request! 
+Autogroq creates your team of AutoGen compatible agent assistants AND workflows on the fly.  Just type in your request! You can test your agents before exporting them to AutoGen and CrewAI.
 
 **AutoGroq** is an AI-powered conversational assistant designed to revolutionize the way users interact with AI tools. Built with the goal of addressing the limitations of existing solutions, AutoGroq offers a user-friendly, powerful, and configuration-free experience. Our platform focuses on providing immediate and relevant assistance by automatically generating expert agents tailored to help you with any question, problem, or project, regardless of its complexity.
 

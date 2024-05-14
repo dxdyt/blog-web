@@ -1,9 +1,9 @@
 ---
 title: yazi
-date: 2024-03-12T12:19:12+08:00
+date: 2024-05-14T12:17:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708585948246-6067272a0992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708585948246-6067272a0992?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713528197472-7b7f7dbb5bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713528197472-7b7f7dbb5bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
 ---
 
 # [sxyazi/yazi](https://github.com/sxyazi/yazi)
@@ -23,8 +23,10 @@ Yazi (means "duck") is a terminal file manager written in Rust, based on non-blo
 - 🖼️ **Built-in Support for Multiple Image Protocols**: Also integrated with Überzug++, covering almost all terminals.
 - 🌟 **Built-in Code Highlighting and Image Decoding**: Combined with the pre-loading mechanism, greatly accelerates image and normal file loading.
 - 🔌 **Concurrent Plugin System**: UI plugins (rewriting most of the UI), functional plugins, custom previewer, and custom preloader; Just some pieces of Lua.
+- 📡 **Data Distribution Service**: Built on a client-server architecture (no additional server process required), integrated with a Lua-based publish-subscribe model, achieving cross-instance communication and state persistence.
+- 📦 **Package Manager**: Install plugins and themes with one command, keeping them always up to date, or pin them to a specific version.
 - 🧰 Integration with fd, rg, fzf, zoxide
-- 💫 Vim-like input/select/notify component, auto-completion for cd paths
+- 💫 Vim-like input/select/which/notify component, auto-completion for cd paths
 - 🏷️ Multi-Tab Support, Cross-directory selection, Scrollable Preview (for videos, PDFs, archives, directories, code, etc.)
 - 🔄 Bulk Renaming, Visual Mode, File Chooser
 - 🎨 Theme System, Custom Layouts, Trash Bin, CSI u
