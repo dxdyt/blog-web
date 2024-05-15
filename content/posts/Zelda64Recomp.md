@@ -1,9 +1,9 @@
 ---
 title: Zelda64Recomp
-date: 2024-05-14T12:15:48+08:00
+date: 2024-05-15T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715090488848-4d05af86009b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715090488848-4d05af86009b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [Mr-Wiseguy/Zelda64Recomp](https://github.com/Mr-Wiseguy/Zelda64Recomp)
@@ -107,6 +107,10 @@ This project provides mouse aiming as a way to allow using gyro on Steam Deck, a
 ![Controller Settings menu](docs/deck_gyro_1.jpg)
 
 You'll probably also want to change the default behavior so that you don't need to be touching the right stick to allow gyro input. To do so, click on the Gear icon to the right of "Gyro Behavior" and ensure that "Gyro Activation Buttons" is set to "None Selected (Gyro Always On)." If this isn't the case, then select that option and then press "Select None" in the following menu.
+
+#### Where is the savefile stored?
+- Windows: `%LOCALAPPDATA%\Zelda64Recompiled\saves`
+- Linux: `~/.config/Zelda64Recompiled/saves`
 
 ## Known Issues
 * The motion blur effect used by the game was capped to prevent ghosting at incredibly high framerates, which causes it to be less noticeable (this is only really noticeable above 120FPS). This may be fixed in the future by offering the option to render to an HDR framebuffer internally, which would allow it to be uncapped.

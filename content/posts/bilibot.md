@@ -1,9 +1,9 @@
 ---
 title: bilibot
-date: 2024-05-14T12:17:29+08:00
+date: 2024-05-15T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713528197472-7b7f7dbb5bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713528197472-7b7f7dbb5bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [linyiLYi/bilibot](https://github.com/linyiLYi/bilibot)

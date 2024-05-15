@@ -1,9 +1,9 @@
 ---
 title: MaxKB
-date: 2024-05-13T12:18:28+08:00
+date: 2024-05-15T12:19:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713245275828-a83869408f96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713245275828-a83869408f96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714329454213-54101f5f0d9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714329454213-54101f5f0d9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1713245275828-a83869408f
 <p align="center"><img src= "https://github.com/1Panel-dev/maxkb/assets/52996290/c0694996-0eed-40d8-b369-322bf2a380bf" alt="MaxKB" width="300" /></p>
 <h3 align="center">基于 LLM 大语言模型的知识库问答系统</h3>
 <p align="center">
-  <a href="https://www.gnu.org/licenses/old-licenses/gpl-3.0"><img src="https://img.shields.io/github/license/1Panel-dev/maxkb?color=%231890FF" alt="License: GPL v3"></a>
+  <a href="https://www.gnu.org/licenses/gpl-3.0.html#license-text"><img src="https://img.shields.io/github/license/1Panel-dev/maxkb?color=%231890FF" alt="License: GPL v3"></a>
   <a href="https://app.codacy.com/gh/1Panel-dev/maxkb?utm_source=github.com&utm_medium=referral&utm_content=1Panel-dev/maxkb&utm_campaign=Badge_Grade_Dashboard"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
   <a href="https://github.com/1Panel-dev/maxkb/releases/latest"><img src="https://img.shields.io/github/v/release/1Panel-dev/maxkb" alt="Latest release"></a>
   <a href="https://github.com/1Panel-dev/maxkb"><img src="https://img.shields.io/github/stars/1Panel-dev/maxkb?color=%231890FF&style=flat-square" alt="Stars"></a>    
@@ -46,7 +46,6 @@ docker run -d --name=maxkb -p 8080:8080 -v ~/.maxkb:/var/lib/postgresql/data 1pa
 -   技术交流群     
       <image height="150px" width="150px" src="https://github.com/1Panel-dev/MaxKB/assets/52996290/a4f6303d-9667-4be0-bc2d-0110af782f67"/>
 
-
 ## UI 展示
 
 <table style="border-collapse: collapse; border: 1px solid black;">
@@ -72,13 +71,14 @@ docker run -d --name=maxkb -p 8080:8080 -v ~/.maxkb:/var/lib/postgresql/data 1pa
 
 [![Star History Chart](https://api.star-history.com/svg?repos=1Panel-dev/MaxKB&type=Date)](https://star-history.com/#1Panel-dev/MaxKB&Date)
 
-## 我们的其他开源产品
+## 我们的其他明星开源项目
 
-- [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
-- [DataEase](https://github.com/dataease/dataease/) - 人人可用的开源数据可视化分析工具
-- [MeterSphere](https://github.com/metersphere/metersphere/) - 一站式开源自动化测试平台
 - [1Panel](https://github.com/1panel-dev/1panel/) - 现代化、开源的 Linux 服务器运维管理面板
 - [Halo](https://github.com/halo-dev/halo/) - 强大易用的开源建站工具
+- [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
+- [DataEase](https://github.com/dataease/dataease/) - 人人可用的开源数据可视化分析工具
+- [MeterSphere](https://github.com/metersphere/metersphere/) - 现代化、开源的测试管理及接口测试工具
+
 
 ## License
 

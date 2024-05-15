@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-05-13T12:17:34+08:00
+date: 2024-05-15T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714479140002-62d1824fffb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714479140002-62d1824fffb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715128083410-6590520c82d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715128083410-6590520c82d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -62,13 +62,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1714479140002-62d1824fff
     - [x] 竖屏 9:16，`1080x1920`
     - [x] 横屏 16:9，`1920x1080`
 - [x] 支持 **批量视频生成**，可以一次生成多个视频，然后选择一个最满意的
-- [x] 支持 **视频片段时长**设置，方便调节素材切换频率
+- [x] 支持 **视频片段时长** 设置，方便调节素材切换频率
 - [x] 支持 **中文** 和 **英文** 视频文案
-- [x] 支持 **多种语音** 合成
+- [x] 支持 **多种语音** 合成，可 **实时试听** 效果
 - [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
-- [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的本地素材
-- [x] 支持 **OpenAI**、**moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama** 等多种模型接入
+- [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的 **本地素材**
+- [x] 支持 **OpenAI**、**Moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama**、**DeepSeek** 等多种模型接入
 
   ❓[如何使用免费的 **OpenAI GPT-3.5
   ** 模型?](https://github.com/harry0703/MoneyPrinterTurbo?tab=readme-ov-file#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98-)
@@ -80,8 +80,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1714479140002-62d1824fff
 - [ ] 增加视频转场效果，使其看起来更加的流畅
 - [ ] 增加更多视频素材来源，优化视频素材和文案的匹配度
 - [ ] 增加视频长度选项：短、中、长
-- [ ] 增加免费网络代理，让访问OpenAI和素材下载不再受限
-- [ ] 朗读声音和背景音乐，提供实时试听
 - [ ] 支持更多的语音合成服务商，比如 OpenAI TTS
 - [ ] 自动上传到YouTube平台
 

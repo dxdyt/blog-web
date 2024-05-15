@@ -1,9 +1,9 @@
 ---
 title: AniTalker
-date: 2024-05-14T12:17:37+08:00
+date: 2024-05-15T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713528197472-7b7f7dbb5bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713528197472-7b7f7dbb5bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713257510108-4f9baf6dc652?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713257510108-4f9baf6dc652?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [X-LANCE/AniTalker](https://github.com/X-LANCE/AniTalker)

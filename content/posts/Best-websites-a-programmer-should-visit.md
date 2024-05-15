@@ -1,9 +1,9 @@
 ---
 title: Best-websites-a-programmer-should-visit
-date: 2024-05-13T12:20:03+08:00
+date: 2024-05-15T12:19:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710244366153-716315e96a42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710244366153-716315e96a42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
@@ -799,6 +799,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [CodePad](https://codepad.remoteinterview.io) : Code editor to try, test and run 25+ languages
 - [Coder](https://coder.com) : A Web-based development environment using Visual Studio Code as a code editor
 - [Codesandbox.io](https://codesandbox.io) : CodeSandbox makes it easier to create, share, and reuse React projects with others.
+- [Github Codespaces](https://github.com/codespaces) : Integrated cloud-based IDE directly to your browser.
 - [Github Gist](https://gist.github.com) : Instantly share code, notes, and snippets.
 - [Godbolt.org](https://godbolt.org) : Excellent tool for exploring the assembly output of different compilers with and without optimization.
 - [Ideone.com](https://ideone.com) : online compiler and debugging tool for more than 60 programming languages

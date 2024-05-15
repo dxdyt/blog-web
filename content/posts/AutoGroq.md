@@ -1,9 +1,9 @@
 ---
 title: AutoGroq
-date: 2024-05-14T12:16:50+08:00
+date: 2024-05-15T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713145872144-351db3748385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713145872144-351db3748385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [jgravelle/AutoGroq](https://github.com/jgravelle/AutoGroq)

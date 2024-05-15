@@ -1,9 +1,9 @@
 ---
 title: Lumina-T2X
-date: 2024-05-14T12:17:14+08:00
+date: 2024-05-15T12:19:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713795324015-4e290fd30c37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714428203754-7d5fbfc5f6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714428203754-7d5fbfc5f6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
 ---
 
 # [Alpha-VLLM/Lumina-T2X](https://github.com/Alpha-VLLM/Lumina-T2X)
@@ -43,9 +43,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c
 [[🤖️ Lumina-T2I 5B Checkpoints](https://huggingface.co/Alpha-VLLM/Lumina-T2I)]
 [[🤖️ Lumina-Next-T2I 2B Checkpoints (recommend)](https://huggingface.co/Alpha-VLLM/Lumina-Next-T2I)]
 
-[[🕹️ GUI Demo for Lumina-T2I 5B model (node1)](http://106.14.2.150:10020/)]
+[[🔮 GUI Demo for Lumina-Next-T2I 2B model (node1)](http://106.14.2.150:10020/)]
 
 [[🔮 GUI Demo for Lumina-Next-T2I 2B model (node2)](http://106.14.2.150:10021/)]
+
 [[🔮 GUI Demo for Lumina-Next-T2I 2B model (node3)](http://106.14.2.150:10022/)]
 
 
@@ -60,12 +61,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c
 <!-- [[中文版本]](./README_cn.md) -->
 
 ## 📰 News
-- [2024-05-13] 🔥🔥🔥 Lumina-Next now supports simple **text-to-music** generation! See some [examples](#text-to-music-generation).
+- [2024-05-14] 🔥🔥🔥 Lumina-Next now supports simple **text-to-music** generation ([examples](#text-to-music-generation)), **high-resolution (1024*4096) Panorama** generation conditioned on text ([examples](#panorama-generation)), and **3D point cloud** generation conditioned on labels ([examples](#point-cloud-generation)).
 - [2024-05-13] 🔥🔥🔥 We give [examples](#multilingual-generation) demonstrating Lumina-T2X's capability to support **multilingual prompts**, and even support prompts containing **emojis**.
-- **[2024-05-12]** 🤩🤩🤩 **We excitedly released our `Lumina-Next-T2I` model ([checkpoint](https://huggingface.co/Alpha-VLLM/Lumina-Next-T2I)) which uses a 2B Next-DiT model as the backbone and Gemma-2B as the text encoder. Try it out at [demo1](http://106.14.2.150:10021/) & [demo2](http://106.14.2.150:10022/).**
+- **[2024-05-12]** 🤩🤩🤩 **We excitedly released our `Lumina-Next-T2I` model ([checkpoint](https://huggingface.co/Alpha-VLLM/Lumina-Next-T2I)) which uses a 2B Next-DiT model as the backbone and Gemma-2B as the text encoder. Try it out at [demo1](http://106.14.2.150:10020/) & [demo2](http://106.14.2.150:10021/) & [demo3](http://106.14.2.150:10022/).**
 - **[2024-05-10]** 🔥🔥🔥 **We released the technical report on [arXiv](https://arxiv.org/abs/2405.05945).**
 - **[2024-05-09]** 🚀🚀🚀 **We released `Lumina-T2A` (Text-to-Audio) Demos. [Examples](#text-to-audio-generation)**
-- [2024-04-29] 🔥 We released the 5B model [checkpoint](https://huggingface.co/Alpha-VLLM/Lumina-T2I) and [demo](http://106.14.2.150:10020/) built upon it for text-to-image generation.
+- [2024-04-29] 🔥 We released the 5B model [checkpoint](https://huggingface.co/Alpha-VLLM/Lumina-T2I) and demo built upon it for text-to-image generation.
 - [2024-04-25] 🔥 Support 720P video generation with arbitrary aspect ratio. [Examples](#text-to-video-generation) 🚀🚀🚀
 - [2024-04-19]  Demo examples released.
 - [2024-04-05] Code released for `Lumina-T2I`.
@@ -81,11 +82,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c
 
 In order to quickly get you guys using our model, we built different versions of the GUI demo site.
 
-#### Lumina-T2I 5B model demo:
-[[node1](http://106.14.2.150:10020/)]
-
 #### Lumina-Next-T2I 2B model demo:
-[[node1](http://106.14.2.150:10021/)] [[node2](http://106.14.2.150:10022/)]
+[[node1](http://106.14.2.150:10020/)] [[node2](http://106.14.2.150:10021/)] [[node3](http://106.14.2.150:10022/)]
 
 
 For more details about training and inference, please refer to [Lumina-T2I](./lumina_t2i/README.md#Installation) and [Lumina-Next-T2I](./lumina_nextr_t2i/README.md#Installation)
@@ -149,6 +147,13 @@ We introduce the $\textbf{Lumina-T2X}$ family, a series of text-conditioned Diff
  <br>
 </p>
 
+#### Panorama Generation
+
+<p align="center">
+ <img src="https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/88b75b4e-5e16-4ea3-aba8-134904dd3381" width="90%"/> 
+ <br>
+</p>
+
 ### Text-to-Video Generation
 
 **720P Videos:**
@@ -170,6 +175,13 @@ https://github.com/Alpha-VLLM/Lumina-T2X/assets/54879512/d7fec32c-3655-4fd1-aa14
 ### Text-to-3D Generation
 
 https://github.com/Alpha-VLLM/Lumina-T2X/assets/54879512/cd061b8d-c47b-4c0c-b775-2cbaf8014be9
+
+#### Point Cloud Generation
+
+<p align="center">
+ <img src="https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/742237ad-be47-4a7d-aa11-b3aaba07a75a" width="90%"/> 
+ <br>
+</p>
 
 ### Text-to-Audio Generation
 
@@ -250,12 +262,6 @@ https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/8994a573-e776-488b-a86c
 
 https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/e0b5d197-589c-47d6-954b-b9c1d54feebb
 
-
-
-
-
-
-
 ### Multilingual Generation
 
 We present three multilingual capabilities of Lumina-Next-2B.
@@ -263,12 +269,12 @@ We present three multilingual capabilities of Lumina-Next-2B.
 **Generating Images conditioned on Chinese poems:**
 
 <p align="center">
- <img src="https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/08460829-1ed4-4489-ac01-1904ef196db2" width="90%"/> 
+ <img src="https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/9aa79d67-e304-4867-81f3-cfc934c625d9" width="90%"/> 
  <br>
 </p>
 
-
 **Generating Images with multilignual prompts:**
+
 
 <p align="center">
  <img src="https://github.com/Alpha-VLLM/Lumina-T2X/assets/86041420/7c62bb94-42e4-4525-a298-9e25475b511d" width="90%"/> 
