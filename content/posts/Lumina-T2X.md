@@ -1,9 +1,9 @@
 ---
 title: Lumina-T2X
-date: 2024-05-15T12:19:41+08:00
+date: 2024-05-16T12:17:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714428203754-7d5fbfc5f6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714428203754-7d5fbfc5f6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714745454999-f9dd3b04901f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714745454999-f9dd3b04901f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
 ---
 
 # [Alpha-VLLM/Lumina-T2X](https://github.com/Alpha-VLLM/Lumina-T2X)

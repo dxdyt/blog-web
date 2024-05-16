@@ -1,9 +1,9 @@
 ---
 title: taiko-mono
-date: 2024-03-23T12:18:55+08:00
+date: 2024-05-16T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709436075317-23505f51bcb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709436075317-23505f51bcb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTExNjczNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1680422273918-5f1d443272a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1680422273918-5f1d443272a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
 ---
 
 # [taikoxyz/taiko-mono](https://github.com/taikoxyz/taiko-mono)
@@ -49,12 +49,17 @@ taiko-mono/
 │   ├── <a href="./packages/blobstorage">blob-storage</a>: Blob storage service.
 │   ├── <a href="./packages/branding">branding</a>: Taiko branding materials.
 │   ├── <a href="./packages/bridge-ui">bridge-ui</a>: Bridge UI.
+│   ├── <a href="./packages/docs-site">docs-site</a>: End user documentation site.
 │   ├── <a href="./packages/eventindexer">eventindexer</a>: Event indexer.
 │   ├── <a href="./packages/fork-diff">fork-diff</a>: Fork diff page.
 │   ├── <a href="./packages/guardian-prover-health-check">guardian-prover-health-check</a>: Guardian prover health check service.
 │   ├── <a href="./packages/guardian-prover-health-check-ui">guardian-prover-health-check-ui</a>: Guardian prover health check UI.
 │   ├── <a href="./packages/protocol">protocol</a>: Taiko protocol smart contracts.
-│   └── <a href="./packages/relayer">relayer</a>: Bridge backend relayer.
+│   ├── <a href="./packages/relayer">relayer</a>: Bridge backend relayer.
+│   ├── <a href="./packages/supplementary-contracts">supplementary-contracts</a>: Supplementary smart contracts that are not part of the Taiko rollup protocol.
+│   ├── <a href="./packages/taiko-client">taiko-client</a>: Taiko client implementation in Go.
+│   ├── <a href="./packages/taikoon">taikoon</a>: Taikoon NFT contracts.
+│   └── <a href="./packages/taikoon-ui">taikoon-ui</a>: Taikoon NFT UI.
 ...
 </pre>
 
@@ -64,9 +69,10 @@ If you find a bug or have a feature request, please [open an issue](https://gith
 
 ## Contributing
 
-Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to contribute.
+> [!WARNING]
+> Please refrain from submitting typo/comment-only pull requests with the expectation of receiving TKO airdrops.
 
-You can also check out our grants cycle at [grants.taiko.xyz](https://grants.taiko.xyz).
+Check out [CONTRIBUTING.md](./CONTRIBUTING.md) for details on how to contribute. You can also check out our grants cycle at [grants.taiko.xyz](https://grants.taiko.xyz).
 
 ## Getting support
 

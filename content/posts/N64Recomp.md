@@ -1,9 +1,9 @@
 ---
 title: N64Recomp
-date: 2024-05-15T12:17:07+08:00
+date: 2024-05-16T12:14:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714428203754-7d5fbfc5f6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714428203754-7d5fbfc5f6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713709165079-fbdf3ce6b137?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713709165079-fbdf3ce6b137?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
 ---
 
 # [Mr-Wiseguy/N64Recomp](https://github.com/Mr-Wiseguy/N64Recomp)
