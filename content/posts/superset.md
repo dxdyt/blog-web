@@ -1,9 +1,9 @@
 ---
 title: superset
-date: 2024-05-16T12:16:53+08:00
+date: 2024-05-17T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713453321322-28ef26986cc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713453321322-28ef26986cc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715610864584-691f309f7e1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715610864584-691f309f7e1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
 ---
 
 # [apache/superset](https://github.com/apache/superset)

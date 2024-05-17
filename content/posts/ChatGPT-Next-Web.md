@@ -1,9 +1,9 @@
 ---
 title: ChatGPT-Next-Web
-date: 2024-05-16T12:14:19+08:00
+date: 2024-05-17T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713453321322-28ef26986cc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713453321322-28ef26986cc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714523768081-805b7fe3eba6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714523768081-805b7fe3eba6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
 ---
 
 # [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web)
@@ -255,12 +255,16 @@ To control custom models, use `+` to add a custom model, use `-` to hide a model
 
 User `-all` to disable all default models, `+all` to enable all default models.
 
-### `WHITE_WEBDEV_ENDPOINTS` (可选)
+### `WHITE_WEBDEV_ENDPOINTS` (optional)
 
 You can use this option if you want to increase the number of webdav service addresses you are allowed to access, as required by the format：
 - Each address must be a complete endpoint 
 > `https://xxxx/yyy`
 - Multiple addresses are connected by ', '
+
+### `DEFAULT_INPUT_TEMPLATE` (optional)
+
+Customize the default template used to initialize the User Input Preprocessing configuration item in Settings.
 
 ## Requirements
 

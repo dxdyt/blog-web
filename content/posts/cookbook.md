@@ -1,9 +1,9 @@
 ---
 title: cookbook
-date: 2024-04-14T12:37:58+08:00
+date: 2024-05-17T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705301000174-2b021fef670b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705301000174-2b021fef670b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMwNjk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714524719552-f89418e053c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714524719552-f89418e053c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
 ---
 
 # [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
@@ -33,7 +33,7 @@ The Gemini API is a REST API. You can call the API using a command line tool lik
 * [Go](https://github.com/google/generative-ai-go)
 
 ## Get help
-Open an [issue](https://github.com/google-gemini/cookbook/issues) on GitHub.
+Ask a question on the new [Build with Google AI Forum](https://discuss.ai.google.dev/), or open an [issue](https://github.com/google-gemini/cookbook/issues) on GitHub.
 
 ## Contributing
 Contributions are welcome. See [contributing](https://github.com/google-gemini/cookbook/blob/main/CONTRIBUTING.md) to learn more.

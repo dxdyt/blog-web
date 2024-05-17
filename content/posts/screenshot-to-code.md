@@ -1,16 +1,16 @@
 ---
 title: screenshot-to-code
-date: 2024-04-19T12:18:05+08:00
+date: 2024-05-17T12:18:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712891444420-41fc1bce23fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1MDAxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714524719552-f89418e053c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714524719552-f89418e053c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 
 # screenshot-to-code
 
-A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI.
+A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI. **Now supporting GPT-4O!**
 
 https://github.com/abi/screenshot-to-code/assets/23818/6cebadae-2fe3-4986-ac6a-8fb9db030045
 
@@ -25,9 +25,10 @@ Supported stacks:
 
 Supported AI models:
 
-- GPT-4 Turbo (Apr 2024) - Best model
-- GPT-4 Vision (Nov 2023) - Good model that's better than GPT-4 Turbo on some inputs
-- Claude 3 Sonnet - Faster, and on par or better than GPT-4 vision for many inputs
+- GPT-4O - Best model!
+- GPT-4 Turbo (Apr 2024)
+- GPT-4 Vision (Nov 2023)
+- Claude 3 Sonnet
 - DALL-E 3 for image generation
 
 See the [Examples](#-examples) section below for more demos.

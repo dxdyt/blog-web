@@ -1,20 +1,23 @@
 ---
 title: InternVL
-date: 2024-05-02T12:18:58+08:00
+date: 2024-05-17T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712678486360-b052af40d7b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712678486360-b052af40d7b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711109631731-f3ae890bf2ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711109631731-f3ae890bf2ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
 ---
 
 # [OpenGVLab/InternVL](https://github.com/OpenGVLab/InternVL)
 
-# <img width="60" alt="image" src="https://github.com/OpenGVLab/InternVL/assets/8529570/5aa4cda8-b453-40a0-9336-17012b430ae8"> InternVL Family: Closing the Gap to Commercial Multimodal Models with Open-Source Suites —— A Pioneering Open-Source Alternative to GPT-4V
+# <img width="60" alt="image" src="https://github.com/OpenGVLab/InternVL/assets/47669167/7037290e-f474-4d11-b90f-1d8316087bf8"> InternVL Family: Closing the Gap to Commercial Multimodal Models with Open-Source Suites —— A Pioneering Open-Source Alternative to GPT-4V
 
-\[[Update Blog](./BLOG.md)\]   \[[Paper](https://arxiv.org/abs/2312.14238)\]   \[[InternVL 1.5 Technical Report](https://arxiv.org/abs/2404.16821)\]   \[[Chat Demo](https://internvl.opengvlab.com/)\] [\[HuggingFace Demo\]](https://huggingface.co/spaces/OpenGVLab/InternVL) \[[Quick Start](#quick-start-with-huggingface)\]  \[[中文解读](https://zhuanlan.zhihu.com/p/675877376)\]
+[\[Update Blog\]](./BLOG.md)  [\[Paper\]](https://arxiv.org/abs/2312.14238)  [\[InternVL 1.5 Technical Report\]](https://arxiv.org/abs/2404.16821)  [\[Chat Demo\]](https://internvl.opengvlab.com/) [\[HuggingFace Demo\]](https://huggingface.co/spaces/OpenGVLab/InternVL) [\[Quick Start\]](#quick-start-with-huggingface)  [\[中文解读\]](https://zhuanlan.zhihu.com/p/675877376)
+
+<a href="https://trendshift.io/repositories/9803" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9803" alt="OpenGVLab%2FInternVL | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 ## News🚀🚀🚀
 
-- `2024/04/28`: We release the INT8 version of InternVL-Chat-V1-5, see [here](https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5-Int8).
+- `2024/05/13`: 🔥 InternVL can now be used as the [text encoder](https://huggingface.co/OpenGVLab/InternVL-14B-224px) for diffusion models to support multilingual generation natively in over 110 languages worldwide. See [MuLan](https://github.com/mulanai/MuLan) for more details.
+- `2024/04/28`: We release the INT8 version of InternVL-Chat-V1-5, see [HF link](https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5-Int8).
 - `2024/04/28`: We achieve the SOTA performance (75.74) on the Infographics VQA benchmark, see [here](https://rrc.cvc.uab.es/?ch=17&com=evaluation&task=3).
 - `2024/04/18`: InternVL-Chat-V1.5 has been released at [HF link](https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5), approaching the performance of GPT-4V and Gemini Pro on various benchmarks like MMMU, DocVQA, ChartQA, MathVista, etc.
 - `2024/02/27`: InternVL is accepted by CVPR 2024! 🎉
@@ -33,6 +36,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1712678486360-b052af40d7
 - How to evaluate InternVL-Chat-V1-5? [\[link\]](./document/how_to_evaluate_internvl_chat_1_5.md)
 - How to evaluate InternVL-Chat-V1-5 using VLMEvalKit? (Recommend) [\[link\]](./document/how_to_evaluate_internvl_chat_1_5_using_vlmevalkit.md)
 - How to deploy a local demo? [\[link\]](./document/how_to_deploy_a_local_demo.md)
+- How to run InternVL 1.5-8bit with Nvidia V100 GPU? [\[link\]](https://github.com/OpenGVLab/InternVL/issues/144) [\[中文教程\]](https://zhuanlan.zhihu.com/p/697188143)
+- Inference Acceleration by LMDeploy [\[link\]](#inference-acceleration-by-lmdeploy)
 
 ## Compared with SOTA VLLMs
 
@@ -633,6 +638,51 @@ for question, response in zip(questions, responses):
 ```
 
 </details>
+
+## Inference Acceleration by LMDeploy
+
+We recommend using [LMDeploy](https://github.com/InternLM/lmdeploy), if InternVL-Chat model inference optimization is required.
+
+In the following subsections, we will introduce the usage of LMDeploy with the [InternVL-Chat-V1-5](https://huggingface.co/OpenGVLab/InternVL-Chat-V1-5) model as an example.
+
+First of all, please setup the inference environment as follows:
+
+```shell
+conda create -n internvl python=3.10 -y
+conda activate internvl
+
+pip install timm torchvision==0.17.2
+pip install lmdeploy
+```
+
+LMDeploy pypi package depends on CUDA 12.x by default. For a CUDA 11.x environment, please refer to the [installation guide](https://lmdeploy.readthedocs.io/en/latest/get_started.html#installation).
+
+### Offline Inference Pipeline
+
+```python
+from lmdeploy import pipeline
+from lmdeploy.vl import load_image
+pipe = pipeline('OpenGVLab/InternVL-Chat-V1-5')
+image = load_image('examples/image2.jpg')
+response = pipe(('describe this image', image))
+print(response)
+```
+
+For more on using the VLM pipeline, including multi-image inference or multi-turn chat, please overview [this](https://lmdeploy.readthedocs.io/en/latest/inference/vl_pipeline.html) guide.
+
+### Online Inference Service
+
+LMDeploy supports one-click packaging of the VLM model into an OpenAI service, providing seamless integration with the OpenAI API.
+
+The service can be launched by one command as below:
+
+```shell
+lmdeploy serve api_server OpenGVLab/InternVL-Chat-V1-5
+```
+
+The arguments of `api_server` can be viewed through the command `lmdeploy serve api_server -h`, for instance, `--tp` to set tensor parallelism, `--session-len` to specify the max length of the context window, `--cache-max-entry-count` to adjust the GPU mem ratio for k/v cache etc.
+
+For more details, including service startup with docker, RESTful API information, and openai integration methods, please refer to [this](https://lmdeploy.readthedocs.io/en/latest/serving/api_server_vl.html) guide.
 
 ## License
 
