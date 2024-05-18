@@ -1,9 +1,9 @@
 ---
 title: InternVL
-date: 2024-05-17T12:18:15+08:00
+date: 2024-05-18T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711109631731-f3ae890bf2ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711109631731-f3ae890bf2ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714547948462-35d76260e4a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714547948462-35d76260e4a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [OpenGVLab/InternVL](https://github.com/OpenGVLab/InternVL)

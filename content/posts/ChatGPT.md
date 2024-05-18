@@ -1,9 +1,9 @@
 ---
 title: ChatGPT
-date: 2024-05-17T12:16:39+08:00
+date: 2024-05-18T12:15:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713877561507-881bf3b1c310?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713877561507-881bf3b1c310?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713885248266-51f2ae5afecd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713885248266-51f2ae5afecd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [lencx/ChatGPT](https://github.com/lencx/ChatGPT)

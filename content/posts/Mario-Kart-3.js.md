@@ -1,9 +1,9 @@
 ---
 title: Mario-Kart-3.js
-date: 2024-04-12T12:17:38+08:00
+date: 2024-05-18T12:16:25+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1709311450638-6b7e2d66df74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4OTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [Lunakepio/Mario-Kart-3.js](https://github.com/Lunakepio/Mario-Kart-3.js)

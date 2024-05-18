@@ -1,9 +1,9 @@
 ---
 title: oblivion
-date: 2024-02-15T12:17:39+08:00
+date: 2024-05-18T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704739339246-6f0fa34f754f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704739339246-6f0fa34f754f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715760407683-9435ede6be95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715760407683-9435ede6be95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [bepass-org/oblivion](https://github.com/bepass-org/oblivion)
@@ -24,9 +24,12 @@ It's leveraging `bepass-sdk` and a custom Go implementation of WireGuard, it's d
 
 ## Quick Start
 
-1. **Download**: Grab the APK from our [Releases](https://github.com/bepass-org/oblivion/releases) page.
-2. **Install**: Open the APK file to install.
-3. **Connect**: Launch Oblivion and hit the switch button.
+1. **Download**: Grab the APK from our [Releases](https://github.com/bepass-org/oblivion/releases) page or [Google play store](https://play.google.com/store/apps/details?id=org.bepass.oblivion) and install it.
+<a href="https://play.google.com/store/apps/details?id=org.bepass.oblivion">
+<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="165" height="64" />
+</a>
+
+2. **Connect**: Launch Oblivion and hit the switch button.
 
 ## Building the Project
 
@@ -35,7 +38,7 @@ It's leveraging `bepass-sdk` and a custom Go implementation of WireGuard, it's d
 - Gradle 8
 - Android Gradle Plugin (AGP) 8.1.2
 - NDK r26b (26.1.10909125)
-- Go 1.20.0
+- Go 1.21
 
 Follow the steps below to build the Oblivion:
 
@@ -46,44 +49,13 @@ Navigate to the libs directory:
 
 ```bash
 cd app/libs
-```
-Initialize Go modules and install required packages:
-
-```bash
-go mod tidy
-go install golang.org/x/mobile/cmd/gomobile@latest
-go install golang.org/x/mobile/cmd/gobind@latest
-go get golang.org/x/mobile/cmd/gobind
-go get golang.org/x/mobile/cmd/gomobile
-go get golang.org/x/mobile
-```
-Initialize Go mobile:
-
-```bash
-gomobile init
-```
-Bind the Go package to Android:
-
-```bash
-gomobile bind -ldflags '-s -w' -o tun2socks.aar -androidapi 21 -target android .
+go run golang.org/x/mobile/cmd/gomobile init
+go run golang.org/x/mobile/cmd/gomobile bind -ldflags="-w -s" -target=android -androidapi=21 -o=tun2socks.aar .
 ```
 ### Generate Signed Bundle/APK:
 - In Android Studio, navigate to "Build" in the menu bar.
 - Select "Generate Signed Bundle/APK..."
 - Choose "APK" and proceed.
-
-#### Select Keystore:
-- Click on "Choose existing..." or "Create new..." to locate your keystore file.
-- Enter the keystore password when prompted.
-
-#### Configure APK Signature:
-- Select the appropriate key alias from the dropdown menu.
-- Input the key password.
-- Continue to the next step.
-
-#### Select APK Destination:
-- Choose the destination folder for the signed APK.
-- Finalize by clicking "Finish" to generate the signed APK.
 
 ## Get Involved
 

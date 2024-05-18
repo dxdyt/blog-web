@@ -1,9 +1,9 @@
 ---
 title: chatgpt-on-wechat
-date: 2024-05-17T12:18:30+08:00
+date: 2024-05-18T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714524719552-f89418e053c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714524719552-f89418e053c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713746738119-b6ae17a226bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713746738119-b6ae17a226bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat)

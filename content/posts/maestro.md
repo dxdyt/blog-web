@@ -1,9 +1,9 @@
 ---
 title: maestro
-date: 2024-04-29T12:17:20+08:00
+date: 2024-05-18T12:16:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714052326829-f63c6172382c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714052326829-f63c6172382c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713746738119-b6ae17a226bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713746738119-b6ae17a226bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [Doriandarko/maestro](https://github.com/Doriandarko/maestro)
@@ -13,8 +13,34 @@ featuredImagePreview: https://images.unsplash.com/photo-1714052326829-f63c617238
 
 This Python script demonstrates an AI-assisted task breakdown and execution workflow using the Anthropic API. It utilizes two AI models, Opus and Haiku, to break down an objective into sub-tasks, execute each sub-task, and refine the results into a cohesive final output.
 
-## New
+## New: 
 
+# GPT-4o
+
+The GPT script has been updated from the ground up to support the code capabilities of GPT-4o
+
+Afeter installing dependecies run
+
+```bash
+python maestro-gpt4o.py
+```
+
+## Run locally with LMStudio or Ollama
+
+### Lmstudio
+
+First download the app here
+https://lmstudio.ai/
+
+Then run the local server using your preferred method. I also recommend removing any system prompt for the app (leave your prompt field empty so it can take advantage of the script prompts).
+
+Then
+```bash
+python maestro-lmstudio.py
+```
+
+
+### Ollama
 Mestro now runs locally thanks to the Ollama platform. Experience the power of Llama 3 locally! 
 
 Before running the script

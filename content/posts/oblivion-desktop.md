@@ -1,27 +1,29 @@
 ---
 title: oblivion-desktop
-date: 2024-05-07T12:18:54+08:00
+date: 2024-05-18T12:17:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713190190659-22fe536876f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713190190659-22fe536876f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop)
 
-# Oblivion Desktop - Unofficial Warp Client for Windows/Mac/Linux
-
-"Internet, for all or none!"
-
-![oblivion.png](screenshot/oblivion.png)
-
----
+# Oblivion Desktop
 
 Unofficial Desktop version of [oblivion](https://github.com/bepass-org/oblivion)
 
 Oblivion provides secure, optimized internet access through a user-friendly Windows/Mac/Linux app using cloudflare warp
 technology
 
-![virustotal.png](screenshot/virustotal.png)
+<b>"Internet, for all or none!"</b>
+
+[![Version](https://img.shields.io/github/package-json/v/bepass-org/oblivion-desktop?label=Version&color=blue)](https://github.com/bepass-org/oblivion-desktop/releases/latest)
+[![Download](https://img.shields.io/github/downloads/bepass-org/oblivion-desktop/total?label=Downloads)](https://github.com/bepass-org/oblivion-desktop/releases/latest)
+[![Stars](https://img.shields.io/github/stars/bepass-org/oblivion-desktop?style=flat&label=Stars&color=tomato
+)](https://github.com/bepass-org/oblivion-desktop)
+[![License](https://img.shields.io/badge/License-Restrictive-f84e29.svg?color=white)](LICENSE.md)
+
+![oblivion.png](screenshot/oblivion.png)
 
 ## Features
 
@@ -30,9 +32,79 @@ technology
 
 ![oblivion.jpg](screenshot/oblivion.jpg)
 
-## Download
+## Quick Overview
 
-![Download](https://img.shields.io/github/downloads/bepass-org/oblivion-desktop/total)
+<div align=left>
+<table>
+    <thead align=left>
+        <tr>
+            <th>Feature</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody align=left>
+        <tr>
+            <td>Method</td>
+            <td>
+                :white_check_mark:  Warp & Warp+ <br>
+                :white_check_mark:  Gool<br>
+                :white_check_mark:  Cfon <small>(Psiphon)</small>
+            </td>
+        </tr>
+        <tr>
+            <td>Network Configuration</td>
+            <td>
+                :white_check_mark: Proxy(No Change)<br>
+                :white_check_mark: System Proxy<br>
+                :white_large_square: TUN
+            </td>
+        </tr>
+        <tr>
+            <td>Routing Rules</td>
+            <td>
+                :white_large_square: GeoIP
+            </td>
+        </tr>
+        <tr>
+            <td>System Tray</td>
+            <td>
+                :white_check_mark:  Minimize<br>
+                :white_large_square: Shortcuts<br>
+                :white_large_square: BootUp
+            </td>
+        </tr>
+        <tr>
+            <td>Languages</td>
+            <td>
+                :white_check_mark:  Persian (Farsi) <br>
+                :white_check_mark:  English <br>
+                :white_check_mark:  Chinese <br>
+                :white_check_mark:  Russian
+            </td>
+        </tr>
+        <tr>
+            <td>Theme</td>
+            <td>
+                :white_check_mark: Light<br>
+                :white_check_mark: Dark<br>
+                :white_check_mark: RTL<br>
+                :white_check_mark: LTR<br>
+                :white_large_square: Auto
+            </td>
+        </tr>
+        <tr>
+            <td>Other</td>
+            <td>
+                :white_large_square: SpeedTest<br>
+                :white_large_square: Inline Update<br>
+                :white_large_square: Accessibility
+            </td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+## Download
 
 <div align=left>
 <table>
@@ -40,30 +112,37 @@ technology
         <tr>
             <th>OS</th>
             <th>Download</th>
+            <th>Compatibility</th>
         </tr>
     </thead>
     <tbody align=left>
         <tr>
             <td>Windows</td>
             <td>
-                <a href="https://github.com/bepass-org/oblivion-desktop/releases/download/v0.2.44-beta/oblivion-desktop-win-x64.exe"><img src="https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows"></a><br>
-                <a href="https://github.com/bepass-org/oblivion-desktop/releases/download/v0.2.44-beta/oblivion-desktop-win-x64.zip"><img src="https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows"></a>
+                <a href="https://github.com/bepass-org/oblivion-desktop/releases/download/v0.2.52-beta/oblivion-desktop-win-x64.exe"><img src="https://img.shields.io/badge/Setup-x64-2d7d9a.svg?logo=windows"></a><br>
+                <a href="https://github.com/bepass-org/oblivion-desktop/releases/download/v0.2.52-beta/oblivion-desktop-win-x64.zip"><img src="https://img.shields.io/badge/Portable-x64-67b7d1.svg?logo=windows"></a>
+            </td>
+            <td>
+                v10 x64<br>
+                v11 x64
             </td>
         </tr>
         <tr>
             <td>macOS</td>
             <td>
                 <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-mac-arm64.dmg"><img src="https://img.shields.io/badge/DMG-arm64-ea005e.svg?logo=apple"></a><br>
-                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-mac-arm64.pkg"><img src="https://img.shields.io/badge/PKG-arm64-bc544b.svg?logo=apple" /></a>
+                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-mac-x64.dmg"><img src="https://img.shields.io/badge/DMG-x64-ea005e.svg?logo=apple"></a><br>
+                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-mac-arm64.pkg"><img src="https://img.shields.io/badge/PKG-arm64-bc544b.svg?logo=apple" /></a><br>
+                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-mac-x64.pkg"><img src="https://img.shields.io/badge/PKG-x64-bc544b.svg?logo=apple" /></a><br>
             </td>
+            <td></td>
         </tr>
         <tr>
             <td>Linux</td>
             <td>                
-                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-linux-amd64.deb"><img src="https://img.shields.io/badge/DebPackage-x64-FF9966.svg?logo=debian"> </a><br>
-                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop-linux-x86_64.rpm"><img src="https://img.shields.io/badge/RpmPackage-x64-F1B42F.svg?logo=redhat"> </a><br>
-                <a href="https://github.com/bepass-org/oblivion-desktop/releases/latest/download/oblivion-desktop"><img src="https://img.shields.io/badge/tar.xz-x64-f84e29.svg?logo=linux"> </a>
+                <small>Coming Soon ...</small>
             </td>
+            <td></td>
         </tr>
         <tr>
         <td>Android</td>
@@ -71,17 +150,17 @@ technology
                 <a href="https://github.com/bepass-org/oblivion/releases/latest"><img src="https://img.shields.io/badge/APK-Universal-044d29.svg?logo=android"></a><br>
 <a href="https://play.google.com/store/apps/details?id=org.bepass.oblivion"><img src="https://img.shields.io/badge/APK-Universal-044d29.svg?logo=googleplay"></a>
             </td>
+            <td>v6+</td>
         </tr>
         <tr>
-        <td>iOS</td>
+            <td>iOS</td>
             <td>
                 <small>Coming Soon ...</small>
             </td>
+            <td></td>
         </tr>
     </tbody>
 </table>
-
-
 </div>
 
 ## Get Involved
@@ -90,7 +169,16 @@ We're a community-driven project, aiming to make the internet accessible for all
 suggest features, or need some help, we'd love to hear from you! Check out
 our [GitHub Issues](https://github.com/bepass-org/oblivion-desktop/issues) or submit a pull request.
 
-![Star History Chart](https://api.star-history.com/svg?repos=bepass-org/oblivion-desktop&type=Date)
+[![Stargazers over time](https://starchart.cc/bepass-org/oblivion-desktop.svg?variant=adaptive&background=%23FFFFFF&axis=%23333333&line=%23ffb300)](https://starchart.cc/bepass-org/oblivion-desktop)
+
+## Know more
+
+* [FAQ.md](FAQ.md)
+* [License.md](LICENSE.md)
+* [SECURITY.md](SECURITY.md)
+* [DOCS.md](DOCS.md)
+
+![virustotal.jpg](screenshot/virustotal.jpg)
 
 ## Acknowledgements
 
@@ -104,11 +192,3 @@ provided by the following repositories:
 - [sing-box](https://github.com/SagerNet/sing-box)
 - [hiddify-next](https://github.com/hiddify/hiddify-next)
 - [and others 🧡](package.json)
-
-## Dev Docs
-
-[DOCS.md](DOCS.md)
-
-## Restrictive License
-
-[License.md](LICENSE.md)

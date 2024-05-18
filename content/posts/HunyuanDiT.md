@@ -1,9 +1,9 @@
 ---
 title: HunyuanDiT
-date: 2024-05-17T12:17:31+08:00
+date: 2024-05-18T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715610864584-691f309f7e1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715610864584-691f309f7e1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714547948462-35d76260e4a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714547948462-35d76260e4a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
 ---
 
 # [Tencent/HunyuanDiT](https://github.com/Tencent/HunyuanDiT)
