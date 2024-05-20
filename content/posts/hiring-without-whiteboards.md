@@ -1,9 +1,9 @@
 ---
 title: hiring-without-whiteboards
-date: 2024-05-18T12:17:47+08:00
+date: 2024-05-20T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [poteto/hiring-without-whiteboards](https://github.com/poteto/hiring-without-whiteboards)

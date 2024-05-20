@@ -1,9 +1,9 @@
 ---
 title: Bend
-date: 2024-05-19T12:17:19+08:00
+date: 2024-05-20T12:17:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713971346394-6030222f7ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713971346394-6030222f7ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715941187874-d8b2c5352bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715941187874-d8b2c5352bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [HigherOrderCO/Bend](https://github.com/HigherOrderCO/Bend)
@@ -29,7 +29,16 @@ A Quick Demo
 
 > Currently not working on Windows, please use [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install) as a workaround.
 
-First, install [Rust nightly](https://www.oreilly.com/library/view/rust-programming-by/9781788390637/e07dc768-de29-482e-804b-0274b4bef418.xhtml). Then, install both HVM2 and Bend with:
+> If you're having issues or have a question about Bend, please first read the [Known Issues](https://github.com/HigherOrderCO/Bend/blob/main/KNOWN_ISSUES.md) page and check if your question has already been addressed.
+
+First, install [Rust nightly](https://www.oreilly.com/library/view/rust-programming-by/9781788390637/e07dc768-de29-482e-804b-0274b4bef418.xhtml).
+
+If you want to use the C runtime, install a C compiler (like GCC or Clang).
+If you want to use the CUDA runtime, install the CUDA toolkit (CUDA and `nvcc`) version 12.x.
+
+> **_Note_: [Only Nvidia GPUs are supported at the moment](https://github.com/HigherOrderCO/Bend/issues/341).**
+
+Then, install both HVM2 and Bend with:
 
 ```sh
 cargo +nightly install hvm
@@ -39,9 +48,9 @@ cargo +nightly install bend-lang
 Finally, write some Bend file, and run it with one of these commands:
 
 ```sh
-bend run    <file.hvm> # uses the Rust interpreter (sequential)
-bend run-c  <file.hvm> # uses the C interpreter (parallel)
-bend run-cu <file.hvm> # uses the CUDA interpreter (massively parallel)
+bend run    <file.bend> # uses the Rust interpreter (sequential)
+bend run-c  <file.bend> # uses the C interpreter (parallel)
+bend run-cu <file.bend> # uses the CUDA interpreter (massively parallel)
 ```
 
 You can also compile `Bend` to standalone C/CUDA files with `gen-c` and

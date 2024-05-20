@@ -1,9 +1,9 @@
 ---
 title: react-conf-app
-date: 2024-05-19T12:17:24+08:00
+date: 2024-05-20T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710781944947-7cd4a381499f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710781944947-7cd4a381499f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714556982592-dd2eaedf6bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714556982592-dd2eaedf6bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [expo/react-conf-app](https://github.com/expo/react-conf-app)

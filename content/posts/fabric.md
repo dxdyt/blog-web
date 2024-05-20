@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-05-19T12:19:21+08:00
+date: 2024-05-20T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713474091271-91a7e22be5fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713474091271-91a7e22be5fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714556982592-dd2eaedf6bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714556982592-dd2eaedf6bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)

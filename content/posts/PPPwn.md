@@ -1,9 +1,9 @@
 ---
 title: PPPwn
-date: 2024-05-05T12:18:21+08:00
+date: 2024-05-20T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712174863129-dcbd52938915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712174863129-dcbd52938915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ4ODI2Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714476370797-b60a4f27b7ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [TheOfficialFloW/PPPwn](https://github.com/TheOfficialFloW/PPPwn)
@@ -12,10 +12,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1712174863129-dcbd529389
 PPPwn is a kernel remote code execution exploit for PlayStation 4 up to FW 11.00. This is a proof-of-concept exploit for [CVE-2006-4304](https://hackerone.com/reports/2177925) that was reported responsibly to PlayStation.
 
 Supported versions are:
-- FW 8.50
+- FW 7.00 / 7.01 / 7.02
+- FW 7.50 / 7.51 / 7.55
+- FW 8.00 / 8.01 / 8.03
+- FW 8.50 / 8.52
 - FW 9.00
 - FW 9.03 / 9.04
-- FW 9.50 / 9.60
+- FW 9.50 / 9.51 / 9.60
 - FW 10.00 / 10.01
 - FW 10.50 / 10.70 / 10.71
 - FW 11.00
@@ -60,7 +63,7 @@ make -C stage2 FW=1100 clean && make -C stage2 FW=1100
 
 For other firmwares, e.g. FW 9.00, pass `FW=900`.
 
-Run the exploit (see `ifconfig` for the correct interface):
+DO NOT RUN the exploit just yet (don't press Enter yet) but prepare this command on your prompt (see `ifconfig` for the correct interface):
 
 ```sh
 sudo python3 pppwn.py --interface=enp0s3 --fw=1100
@@ -76,11 +79,15 @@ On your PS4:
 - Enter anything for `PPPoE User ID` and `PPPoE Password`
 - Choose `Automatic` for `DNS Settings` and `MTU Settings`
 - Choose `Do Not Use` for `Proxy Server`
-- Click `Test Internet Connection` to communicate with your computer
 
-If the exploit fails or the PS4 crashes, you can skip the internet setup and simply click on `Test Internet Connection`. If the `pppwn.py` script is stuck waiting for a request/response, abort it and run it again on your computer, and then click on `Test Internet Connection` on your PS4.
+- Now, simultaneously press the 'X' button on your controller on `Test Internet Connection` and 'Enter' on your keyboard (on the computer you have your Python script ready to run).
 
-If the exploit works, you should see an output similar to below, and you should see `Cannot connect to network.` followed by `PPPwned` printed on your PS4.
+ALWAYS wait for the console to show the message "Cannot connect to network: (NW-31274-7)" before trying this PPPOE injection again.
+
+If the exploit fails or the PS4 crashes, you can skip the internet setup and simply click on `Test Internet Connection`. Kill the `pppwn.py` script and run it again on your computer, and then click on `Test Internet Connection` on your PS4: always simultaneously.
+
+
+If the exploit works, you should see an output similar to below, and you should see `Cannot connect to network.` followed by `PPPwned` printed on your PS4, or the other way around. 
 
 ### Example run
 
@@ -168,7 +175,7 @@ If the exploit works, you should see an output similar to below, and you should 
 ```
 
 ## Notes for Mac Apple Silicon Users (arm64 / aarch64)
-The code will not compile on Apple Silicon and requires AMD64 architecture. 
+The code will not compile on Apple Silicon and requires AMD64 architecture.
 There is a workaround using docker which will build the bin files required.
-Clone this repository to your mac system, then from the repo folder run `./build-macarm.sh`.This will build the binaries for PS4 FW 1100 and place the necessary files into the correct folders. To build the binaries for a different version, i.e. 900, run the command as such: `./build-macarm.sh 900`. Once built, copy this folder structure into the Linux VM and execute as instructed above. 
+Clone this repository to your mac system, then from the repo folder run `./build-macarm.sh`. This will build the binaries for PS4 FW 1100 and place the necessary files into the correct folders. To build the binaries for a different version, i.e. 900, run the command as such: `./build-macarm.sh 900`. Once built, copy this folder structure into the Linux VM and execute as instructed above.
 This has been tested using VMware Fusion 13.5.1, with the VM Guest as Ubuntu 24.04, and the host machine is MacOS 14.4.1

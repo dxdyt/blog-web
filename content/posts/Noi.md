@@ -1,9 +1,9 @@
 ---
 title: Noi
-date: 2024-03-29T12:17:39+08:00
+date: 2024-05-20T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711291817956-30c8fc8f9663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711291817956-30c8fc8f9663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714837311766-eac4e92f284c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714837311766-eac4e92f284c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [lencx/Noi](https://github.com/lencx/Noi)
@@ -67,13 +67,13 @@ To set up a custom sync link, follow the steps below:
 
 #### Sync URL
 
-- [AI](./noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Gemini, Claude, Poe, etc.).
+- [AI](configs/noi.mode.json): Popular AI websites and communities (e.g., ChatGPT, Gemini, Claude, Poe, etc.).
 
   ```bash
   https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.json
   ```
 
-- [AI（内陆版）](./noi.mode.cn.json): 主流 AI 及国内 AI（如：通义千问、扣子、豆包、智谱清言、讯飞星火、文心一言等）。
+- [AI（内陆版）](configs/noi.mode.cn.json): 主流 AI 及国内 AI（如：通义千问、扣子、豆包、智谱清言、讯飞星火、文心一言等）。
 
   ```bash
   https://raw.githubusercontent.com/lencx/Noi/main/configs/noi.mode.cn.json
@@ -140,13 +140,19 @@ Learn more: [electronjs/doc](https://www.electronjs.org/docs/latest/api/extensio
 
 ### macOS
 
-If you encounter the error message "Noi" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS. To solve this problem, please try the following command in Terminal:
+If you encounter the error message "Noi" is damaged and can't be opened. You should move it to the Trash. while installing software on macOS, it may be due to security settings restrictions in macOS.
+
+![mac-install-error](./website/static/readme/mac-install-error.jpg)
+
+To solve this problem, please choose Apple menu  > System Preferences, then click Security & Privacy and choose General tab:
+
+![](./website/static/readme/fix-mac-install-error.png)
+
+or try the following command in Terminal:
 
 ```bash
 xattr -cr /Applications/Noi.app
 ```
-
-![mac-install-error](./website/static/readme/mac-install-error.jpg)
 
 ## 中国用户
 

@@ -1,9 +1,9 @@
 ---
 title: bulletproof-react
-date: 2024-05-18T12:15:44+08:00
+date: 2024-05-20T12:17:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713283546996-58ebbb6d02a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwMDU3MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714837311766-eac4e92f284c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714837311766-eac4e92f284c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react)
@@ -43,7 +43,7 @@ This repo doesn't aim to be a silver bullet for all React applications as there 
 
 This is not supposed to be a template, boilerplate or a framework. It is an opinionated guide that shows how to do some things in a certain way. You are not forced to do everything exactly as it is shown here, decide what works best for you and your team and stay consistent with your style.
 
-To get most out of it, do not get limited by the technologies used in this sample app, but rather focus on the principles and the concepts that are being presented here. The tools and libraries used here are just a suggestion, you can always replace them with something that fits your needs better Sometimes, your project might require a slightly different approach, and that's totally fine.
+To get most out of it, do not get limited by the technologies used in this sample app, but rather focus on the principles and the concepts that are being presented here. The tools and libraries used here are just a suggestion, you can always replace them with something that fits your needs better. Sometimes, your project might require a slightly different approach, and that's totally fine.
 
 ## Table Of Contents:
 
