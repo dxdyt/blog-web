@@ -1,9 +1,9 @@
 ---
 title: Verba
-date: 2024-05-20T12:20:08+08:00
+date: 2024-05-21T12:18:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713204767450-cf0411357b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713204767450-cf0411357b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715239306718-247eac556aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715239306718-247eac556aa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
 ---
 
 # [weaviate/Verba](https://github.com/weaviate/Verba)

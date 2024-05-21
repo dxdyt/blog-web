@@ -1,16 +1,16 @@
 ---
 title: oblivion-desktop
-date: 2024-05-20T12:19:37+08:00
+date: 2024-05-21T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715941187874-d8b2c5352bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715941187874-d8b2c5352bc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713689951349-075296a924c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713689951349-075296a924c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
 ---
 
 # [bepass-org/oblivion-desktop](https://github.com/bepass-org/oblivion-desktop)
 
 # Oblivion Desktop
 
-Unofficial Desktop version of [oblivion](https://github.com/bepass-org/oblivion)
+Unofficial Desktop version of [Oblivion](https://github.com/bepass-org/oblivion)
 
 Oblivion provides secure, optimized internet access through a user-friendly Windows/Mac/Linux app using cloudflare warp
 technology
@@ -184,12 +184,13 @@ our [GitHub Issues](https://github.com/bepass-org/oblivion-desktop/issues), [Con
 ## Acknowledgements
 
 This project stands on the shoulders of giants, and we are deeply grateful for the contributions and inspiration
-provided by the following:
+provided by the following friends:
 
 - Cloudflare Warp
 - [warp-plus](https://github.com/bepass-org/warp-plus/) (Yousef Ghobadi & Mark Pashmfouroush)
-- [oblivion](https://github.com/bepass-org/oblivion)
-- [electron](https://www.electronjs.org/)
+- [Oblivion](https://github.com/bepass-org/oblivion)
+- [Electron](https://www.electronjs.org/)
+- [React](https://github.com/facebook/react)
 - [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
 - [electron-builder](https://github.com/electron-userland/electron-builder)
 - [GitHub](https://github.com/)
