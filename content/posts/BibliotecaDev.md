@@ -1,9 +1,9 @@
 ---
 title: BibliotecaDev
-date: 2024-05-21T12:17:12+08:00
+date: 2024-05-22T12:16:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712237617382-d2e8e3d1546a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712237617382-d2e8e3d1546a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714675166149-bc60579792cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714675166149-bc60579792cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
 ---
 
 # [KAYOKG/BibliotecaDev](https://github.com/KAYOKG/BibliotecaDev)

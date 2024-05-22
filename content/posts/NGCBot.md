@@ -1,9 +1,9 @@
 ---
 title: NGCBot
-date: 2024-05-19T12:17:59+08:00
+date: 2024-05-22T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713971346394-6030222f7ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713971346394-6030222f7ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714675166149-bc60579792cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714675166149-bc60579792cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
 ---
 
 # [ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot)

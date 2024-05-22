@@ -1,9 +1,9 @@
 ---
 title: tokyonight.nvim
-date: 2024-05-21T12:18:21+08:00
+date: 2024-05-22T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712237617382-d2e8e3d1546a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712237617382-d2e8e3d1546a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715292779594-36abc181602a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715292779594-36abc181602a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
 ---
 
 # [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim)
@@ -68,6 +68,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 - [Windows Terminal](https://aka.ms/terminal-documentation) ([windows_terminal](extras/windows_terminal))
 - [Xfce Terminal](https://docs.xfce.org/apps/terminal/advanced) ([xfceterm](extras/xfceterm))
 - [Xresources](https://wiki.archlinux.org/title/X_resources) ([xresources](extras/xresources))
+- [Yazi](https://github.com/sxyazi/yazi) ([yazi](extras/yazi))
 - [Zathura](https://pwmt.org/projects/zathura/) ([zathura](extras/zathura))
 - [Zellij](https://zellij.dev/) ([zellij](extras/zellij))
 <!-- extras:end -->

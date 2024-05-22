@@ -1,9 +1,9 @@
 ---
 title: Devon
-date: 2024-05-21T12:18:39+08:00
+date: 2024-05-22T12:16:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715645973101-f07bc6951c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715645973101-f07bc6951c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714387717443-023059298406?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714387717443-023059298406?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
 ---
 
 # [entropy-research/Devon](https://github.com/entropy-research/Devon)
@@ -119,6 +119,7 @@ devon --help
   - [x] GPT4-o
   - [x] Groq llama3-70b
   - [ ] Ollama llama3-70b + 7b
+  - [ ] Google Gemini 1.5 Pro
 - Launch plugin system for tool and agent builders
 - Create self-hostable Electron app
 - Set SOTA on [SWE-bench Lite](https://www.swebench.com/lite.html)
@@ -187,4 +188,4 @@ Join our Discord server and say hi!
 
 # License
 
-Distributed under the Apache 2.0 License. See [`LICENSE`](./LICENSE) for more information.
+Distributed under the AGPL License. See [`LICENSE`](./LICENSE) for more information.

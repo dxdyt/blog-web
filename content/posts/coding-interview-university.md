@@ -1,9 +1,9 @@
 ---
 title: coding-interview-university
-date: 2024-04-20T12:17:14+08:00
+date: 2024-05-22T12:16:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712409975551-cae1413218f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712409975551-cae1413218f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714837291207-4985c06c9a60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714837291207-4985c06c9a60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
 ---
 
 # [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
@@ -32,6 +32,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1712409975551-cae1413218
 - [Español](translations/README-es.md)
 - [German](translations/README-de.md)
 - [Japanese (日本語)](translations/README-ja.md)
+- [Marathi](translations/README-mr.md)
 - [Polish](translations/README-pl.md)
 - [Português Brasileiro](translations/README-ptbr.md)
 - [Russian](translations/README-ru.md)
@@ -315,6 +316,7 @@ You may not need it, but here are some sites for learning a new language:
 - [Codewars](http://www.codewars.com)
 - [HackerEarth](https://www.hackerearth.com/for-developers/)
 - [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
+- [Programiz PRO Community Challenges)](https://programiz.pro/)
 
 ### For your Coding Interview
 
