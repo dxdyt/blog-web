@@ -1,9 +1,9 @@
 ---
 title: web-llm
-date: 2024-05-06T12:18:29+08:00
+date: 2024-05-23T12:17:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712146503065-63ac5510f2f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712146503065-63ac5510f2f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714480931553-e78a5a045c8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714480931553-e78a5a045c8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
 ---
 
 # [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm)
@@ -48,7 +48,7 @@ async function main() {
     label.innerText = report.text;
   };
   const selectedModel = "Llama-3-8B-Instruct-q4f32_1";
-  const engine: webllm.EngineInterface = await webllm.CreateEngine(
+  const engine: webllm.MLCEngineInterface = await webllm.CreateMLCEngine(
     selectedModel,
     /*engineConfig=*/{ initProgressCallback: initProgressCallback }
   );
@@ -63,10 +63,10 @@ async function main() {
 main();
 ```
 
-Note that if you need to separate the instantiation of `webllm.Engine` from loading a model, you could substitute
+Note that if you need to separate the instantiation of `webllm.MLCEngine` from loading a model, you could substitute
 
 ```typescript
-const engine: webllm.EngineInterface = await webllm.CreateEngine(
+const engine: webllm.MLCEngineInterface = await webllm.CreateMLCEngine(
   selectedModel,
   /*engineConfig=*/{ initProgressCallback: initProgressCallback }
 );
@@ -75,9 +75,38 @@ const engine: webllm.EngineInterface = await webllm.CreateEngine(
 with the equivalent
 
 ```typescript
-const engine: webllm.EngineInterface = new webllm.Engine();
+const engine: webllm.MLCEngineInterface = new webllm.MLCEngine();
 engine.setInitProgressCallback(initProgressCallback);
 await engine.reload(selectedModel, chatConfig, appConfig);
+```
+
+### CDN Delivery
+Thanks to [jsdelivr.com](https://www.jsdelivr.com/package/npm/@mlc-ai/web-llm), the following Javascript code should work out-of-the-box on sites like [jsfiddle.net](https://jsfiddle.net/):
+
+```javascript
+import * as webllm from 'https://esm.run/@mlc-ai/web-llm';
+
+async function main() {
+  const initProgressCallback = (report) => {
+    console.log(report.text);
+  };
+  const selectedModel = "TinyLlama-1.1B-Chat-v0.4-q4f16_1-1k";
+  const engine = await webllm.CreateMLCEngine(
+    selectedModel,
+    {initProgressCallback: initProgressCallback}
+  );
+
+  const reply = await engine.chat.completions.create({
+    messages: [{
+      "role": "user",
+      "content": "Tell me about Pittsburgh."
+    }]
+  });
+  console.log(reply);
+  console.log(await engine.runtimeStatsText());
+}
+
+main();
 ```
 
 ### Using Web Worker
@@ -86,31 +115,31 @@ WebLLM comes with API support for WebWorker so you can hook
 the generation process into a separate worker thread so that
 the compute in the webworker won't disrupt the UI.
 
-We first create a worker script that created a Engine and
+We first create a worker script that created a MLCEngine and
 hook it up to a handler that handles requests.
 
 ```typescript
 // worker.ts
-import { EngineWorkerHandler, Engine } from "@mlc-ai/web-llm";
+import { MLCEngineWorkerHandler, MLCEngine } from "@mlc-ai/web-llm";
 
-// Hookup an Engine to a worker handler
-const engine = new Engine();
-const handler = new EngineWorkerHandler(engine);
+// Hookup an MLCEngine to a worker handler
+const engine = new MLCEngine();
+const handler = new MLCEngineWorkerHandler(engine);
 self.onmessage = (msg: MessageEvent) => {
   handler.onmessage(msg);
 };
 ```
 
-Then in the main logic, we create a `WebWorkerEngine` that
-implements the same `EngineInterface`. The rest of the logic remains the same.
+Then in the main logic, we create a `WebWorkerMLCEngine` that
+implements the same `MLCEngineInterface`. The rest of the logic remains the same.
 
 ```typescript
 // main.ts
 import * as webllm from "@mlc-ai/web-llm";
 
 async function main() {
-  // Use a WebWorkerEngine instead of Engine here
-  const engine: webllm.EngineInterface = await webllm.CreateWebWorkerEngine(
+  // Use a WebWorkerMLCEngine instead of MLCEngine here
+  const engine: webllm.MLCEngineInterface = await webllm.CreateWebWorkerMLCEngine(
     /*worker=*/new Worker(
       new URL('./worker.ts', import.meta.url),
       { type: 'module' }
@@ -122,6 +151,53 @@ async function main() {
 }
 ```
 
+### Use Service Worker
+
+WebLLM comes with API support for ServiceWorker so you can hook the generation process 
+into a service worker to avoid reloading the model in every page visit and optimize 
+your application's offline experience.
+
+We first create a service worker script that created a MLCEngine and hook it up to a handler
+that handles requests when the service worker is ready.
+
+```typescript
+// sw.ts
+import {
+  ServiceWorkerMLCEngineHandler,
+  MLCEngineInterface,
+  MLCEngine,
+} from "@mlc-ai/web-llm";
+
+const engine: MLCEngineInterface = new MLCEngine();
+let handler: ServiceWorkerMLCEngineHandler;
+
+self.addEventListener("activate", function (event) {
+  handler = new ServiceWorkerMLCEngineHandler(engine);
+  console.log("Service Worker is ready")
+});
+
+```
+
+Then in the main logic, we register the service worker and then create the engine using
+`CreateServiceWorkerMLCEngine` function. The rest of the logic remains the same.
+
+```typescript
+// main.ts
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register(
+    /*workerScriptURL=*/new URL("sw.ts", import.meta.url),
+    { type: "module" }
+  );
+}
+
+const engine: webllm.MLCEngineInterface =
+  await webllm.CreateServiceWorkerMLCEngine(
+    /*modelId=*/selectedModel,
+    /*engineConfig=*/{ initProgressCallback: initProgressCallback }
+  );
+```
+
+You can find a complete example on how to run WebLLM in service worker in [examples/service-worker](examples/service-worker/).
 
 ### Build a ChatApp
 
@@ -129,7 +205,7 @@ You can find a complete chat app example in [examples/simple-chat](examples/simp
 
 ### Chrome Extension
 
-You can also find examples on building chrome extension with WebLLM in [examples/chrome-extension](examples/chrome-extension/) and [examples/chrome-extension-webgpu-service-worker](examples/chrome-extension-webgpu-service-worker/). The latter one leverages service worker, so the extension is persisten in the background.
+You can also find examples on building chrome extension with WebLLM in [examples/chrome-extension](examples/chrome-extension/) and [examples/chrome-extension-webgpu-service-worker](examples/chrome-extension-webgpu-service-worker/). The latter one leverages service worker, so the extension is persistent in the background.
 
 ## Full OpenAI Compatibility
 
@@ -142,9 +218,10 @@ WebLLM is designed to be fully compatible with [OpenAI API](https://platform.ope
 ## Model Support
 
 We export all supported models in `webllm.prebuiltAppConfig`, where you can see a list of models
-that you can simply call `const engine: webllm.EngineInterface = await webllm.CreateEngine(anyModel)` with.
+that you can simply call `const engine: webllm.MLCEngineInterface = await webllm.CreateMLCEngine(anyModel)` with.
 Prebuilt models include:
 - Llama-2
+- Llama-3
 - Gemma
 - Phi-1.5 and Phi-2
 - Mistral-7B-Instruct
@@ -190,7 +267,7 @@ async main() {
   // and cache it in the browser cache
   // The chat will also load the model library from "/url/to/myllama3b.wasm",
   // assuming that it is compatible to the model in myLlamaUrl.
-  const engine = await webllm.CreateEngine(
+  const engine = await webllm.CreateMLCEngine(
     "MyLlama-3b-v1-q4f32_0", 
     /*engineConfig=*/{ chatOpts: chatOpts, appConfig: appConfig }
   );

@@ -1,9 +1,9 @@
 ---
 title: realworld
-date: 2023-08-09T12:16:54+08:00
+date: 2024-05-23T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690896855003-8c9dbbf87106?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690896855003-8c9dbbf87106?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE1NTQ0OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
 ---
 
 # [gothinkster/realworld](https://github.com/gothinkster/realworld)
@@ -14,13 +14,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1690896855003-8c9dbbf871
 <img src="media/stacks_hr.gif"  />
 </p>
 
-<a href="https://demo.realworld.io/"><img src="media/conduit_l.png" align="right" width="250px" /></a>
+<a href="https://conduit.realworld.how/"><img src="media/conduit_l.png" align="right" width="250px" /></a>
 
-### See how _the exact same_ Medium.com clone (called [Conduit](https://demo.realworld.io)) is built using different [frontends](https://codebase.show/projects/realworld?category=frontend) and [backends](https://codebase.show/projects/realworld?category=backend). Yes, you can mix and match them, because **they all adhere to the same [API spec](https://realworld-docs.netlify.app/docs/specs/backend-specs/introduction)** 😮😎
+### See how _the exact same_ Medium.com clone (called [Conduit](https://conduit.realworld.how)) is built using different [frontends](https://codebase.show/projects/realworld?category=frontend) and [backends](https://codebase.show/projects/realworld?category=backend). Yes, you can mix and match them, because **they all adhere to the same [API spec](https://realworld-docs.netlify.app/docs/specs/backend-specs/introduction)** 😮😎
 
 While most "todo" demos provide an excellent cursory glance at a framework's capabilities, they typically don't convey the knowledge & perspective required to actually build _real_ applications with it.
 
-**RealWorld** solves this by allowing you to choose any frontend (React, Angular, & more) and any backend (Node, Django, & more) and see how they power a real-world, beautifully designed full-stack app called [**Conduit**](https://demo.realworld.io).
+**RealWorld** solves this by allowing you to choose any frontend (React, Angular, & more) and any backend (Node, Django, & more) and see how they power a real-world, beautifully designed full-stack app called [**Conduit**](https://conduit.realworld.how).
 
 _Read the [full blog post announcing RealWorld on Medium.](https://medium.com/@ericsimons/introducing-realworld-6016654d36b5)_
 

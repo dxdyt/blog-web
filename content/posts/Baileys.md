@@ -1,9 +1,9 @@
 ---
 title: Baileys
-date: 2024-04-30T12:18:32+08:00
+date: 2024-05-23T12:16:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712187466004-c64b4571828b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712187466004-c64b4571828b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ0NTA1ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
 ---
 
 # [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)

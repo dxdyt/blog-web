@@ -1,9 +1,9 @@
 ---
 title: Devon
-date: 2024-05-22T12:16:41+08:00
+date: 2024-05-23T12:18:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714387717443-023059298406?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714387717443-023059298406?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713471288083-d67cf693f448?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713471288083-d67cf693f448?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
 ---
 
 # [entropy-research/Devon](https://github.com/entropy-research/Devon)
@@ -26,6 +26,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1714387717443-0230592984
 https://github.com/entropy-research/Devon/assets/61808204/d42a8b9a-0211-4624-9804-d24df1d4dbf6
 </div>
 
+### How do y'all ship so quickly?
+<a href="https://discord.gg/p5YpZ5vjd9"><img src="https://img.shields.io/badge/Discord-Join%20Us-purple?logo=discord&logoColor=white&style=for-the-badge" alt="Join our Discord community"></a> 
+← We have a __**community-driven Dev Team**__ for this repo. Come join us! It's great.
+  
 # Installation
 
 ## Prerequisites
