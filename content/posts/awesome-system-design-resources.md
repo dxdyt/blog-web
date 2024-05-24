@@ -1,9 +1,9 @@
 ---
 title: awesome-system-design-resources
-date: 2024-04-20T12:18:43+08:00
+date: 2024-05-24T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710781403938-5a29304f37ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710781403938-5a29304f37ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM1ODY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1713823800401-8c5335891cfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1713823800401-8c5335891cfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-system-design-resources](https://github.com/ashishps1/awesome-system-design-resources)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710781403938-5a29304f37
 <p align="center">
   <a href="https://www.linkedin.com/in/ashishps1/">LinkedIn</a> | <a href="https://www.youtube.com/@ashishps_1/videos">YouTube</a> | <a href="https://twitter.com/ashishps_1">X</a> | <a href="https://newsletter.ashishps.com/">Newsletter</a>
 </p>
-This repository contains resources to learn System Design concepts and prepare for interviews using free resources.
+Learn System Design concepts and prepare for interviews using free resources.
 
 ## 📌 System Design Key Concepts
 - [Scalability](https://newsletter.ashishps.com/p/scalability)
@@ -25,9 +25,9 @@ This repository contains resources to learn System Design concepts and prepare f
 - [Rate Limiting](https://www.imperva.com/learn/application-security/rate-limiting/)
 - [API Design](https://abdulrwahab.medium.com/api-architecture-best-practices-for-designing-rest-apis-bf907025f5f)
 - [Strong vs Eventual Consistency](https://hackernoon.com/eventual-vs-strong-consistency-in-distributed-databases-282fdad37cf7)
-- [Synchronous vs. asynchronous communications](https://www.techtarget.com/searchapparchitecture/tip/Synchronous-vs-asynchronous-communication-The-differences)
+- [Synchronous vs. asynchronous communications](https://newsletter.ashishps.com/p/aec1cebf-6060-45a7-8e00-47364ca70761)
 - [REST vs RPC](https://aws.amazon.com/compare/the-difference-between-rpc-and-rest/)
-- [Batch Processing vs Stream Processing](https://atlan.com/batch-processing-vs-stream-processing/)
+- [Batch Processing vs Stream Processing](https://newsletter.ashishps.com/p/d9442268-03d8-4f55-a103-7a3d4fb54661)
 - [Fault Tolerance](https://www.cockroachlabs.com/blog/what-is-fault-tolerance/)
 - [Consensus Algorithms](https://medium.com/@sourabhatta1819/consensus-in-distributed-system-ac79f8ba2b8c)
 - [Gossip Protocol](http://highscalability.com/blog/2023/7/16/gossip-protocol-explained.html)
@@ -45,15 +45,16 @@ This repository contains resources to learn System Design concepts and prepare f
 - [Distributed Caching](https://redis.com/glossary/distributed-caching/)
 - [Load Balancing](https://aws.amazon.com/what-is/load-balancing/)
 - [SQL vs NoSQL](https://www.integrate.io/blog/the-sql-vs-nosql-difference/)
-- [Database Index](https://www.progress.com/tutorials/odbc/using-indexes)
+- [Database Index](https://newsletter.ashishps.com/p/a-detailed-guide-on-database-indexes)
 - [Consistency Patterns](https://systemdesign.one/consistency-patterns/)
-- [HeartBeat](https://martinfowler.com/articles/patterns-of-distributed-systems/heartbeat.html)
+- [HeartBeats](https://newsletter.ashishps.com/p/heartbeats-in-distributed-systems)
 - [Circuit Breaker](https://medium.com/geekculture/design-patterns-for-microservices-circuit-breaker-pattern-276249ffab33)
 - [Idempotency](https://blog.dreamfactory.com/what-is-idempotency/)
 - [Database Scaling](https://thenewstack.io/techniques-for-scaling-applications-with-a-database/)
 - [Data Replication](https://redis.com/blog/what-is-data-replication/)
 - [Data Redundancy](https://www.egnyte.com/guides/governance/data-redundancy)
-- [Database Sharding](https://www.mongodb.com/features/database-sharding-explained#)
+- [Database Sharding](https://newsletter.ashishps.com/p/what-is-database-sharding)
+- [Database Architectures](https://www.mongodb.com/developer/products/mongodb/active-active-application-architectures/)
 - [Microservices Guidelines](https://newsletter.systemdesign.one/p/netflix-microservices)
 - [Failover](https://avinetworks.com/glossary/failover/)
 - [Proxy Server](https://www.fortinet.com/resources/cyberglossary/proxy-server)
@@ -62,7 +63,7 @@ This repository contains resources to learn System Design concepts and prepare f
 - [Bloom Filters](https://www.enjoyalgorithms.com/blog/bloom-filter)
 - [API Gateway](https://www.nginx.com/learn/api-gateway/)
 - [Distributed Locking](https://martin.kleppmann.com/2016/02/08/how-to-do-distributed-locking.html)
-- [Checksum](https://www.lifewire.com/what-does-checksum-mean-2625825)
+- [Checksum](https://newsletter.ashishps.com/p/6e505422-4291-4b21-99aa-9584c1b0b0b7)
 
 ## 🖇️ System Design Architectural Patterns
 - [Client-Server Architecture](https://www.redswitches.com/blog/client-server-architecture/)
@@ -162,4 +163,5 @@ This repository contains resources to learn System Design concepts and prepare f
 - [codeKarle](https://www.youtube.com/@codeKarle)
 - [ByteByteGo](https://www.youtube.com/@ByteByteGo)
 - [System Design Interview](https://www.youtube.com/@SystemDesignInterview)
+- [sudoCODE](https://www.youtube.com/@sudocode)
 - [Success in Tech](https://www.youtube.com/@SuccessinTech/videos)

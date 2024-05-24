@@ -1,9 +1,9 @@
 ---
 title: requests
-date: 2023-05-26T12:15:41+08:00
+date: 2024-05-24T12:19:36+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12171/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12171/0/1080p
+featuredImage: https://images.unsplash.com/photo-1713782522418-45329c8ea5ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713782522418-45329c8ea5ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
 ---
 
 # [psf/requests](https://github.com/psf/requests)
@@ -31,7 +31,7 @@ Requests allows you to send HTTP/1.1 requests extremely easily. There’s no nee
 
 Requests is one of the most downloaded Python packages today, pulling in around `30M downloads / week`— according to GitHub, Requests is currently [depended upon](https://github.com/psf/requests/network/dependents?package_id=UGFja2FnZS01NzA4OTExNg%3D%3D) by `1,000,000+` repositories. You may certainly put your trust in this code.
 
-[![Downloads](https://pepy.tech/badge/requests/month)](https://pepy.tech/project/requests)
+[![Downloads](https://static.pepy.tech/badge/requests/month)](https://pepy.tech/project/requests)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/requests.svg)](https://pypi.org/project/requests)
 [![Contributors](https://img.shields.io/github/contributors/psf/requests.svg)](https://github.com/psf/requests/graphs/contributors)
 
@@ -43,7 +43,7 @@ Requests is available on PyPI:
 $ python -m pip install requests
 ```
 
-Requests officially supports Python 3.7+.
+Requests officially supports Python 3.8+.
 
 ## Supported Features & Best–Practices
 

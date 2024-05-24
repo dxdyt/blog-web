@@ -1,9 +1,9 @@
 ---
 title: cover-agent
-date: 2024-05-23T12:17:03+08:00
+date: 2024-05-24T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698343476549-ecf593b3f3e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698343476549-ecf593b3f3e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
 ---
 
 # [Codium-ai/cover-agent](https://github.com/Codium-ai/cover-agent)
@@ -61,6 +61,9 @@ This tool is part of a broader suite of utilities designed to automate the creat
 ### Requirements
 Before you begin, make sure you have the following:
 - `OPENAI_API_KEY` set in your environment variables, which is required for calling the OpenAI API.
+- Code Coverage tool: A Cobertura XML code coverage report is required for the tool to function correctly.
+  - For example, in Python one could use `pytest-cov`. Add the `--cov-report=xml` option when running Pytest.
+  - Note: We are actively working on adding more coverage types but please feel free to open a PR and contribute to `cover_agent/CoverageProcessor.py`
 
 If running directly from the repository you will also need:
 - Python installed on your system.

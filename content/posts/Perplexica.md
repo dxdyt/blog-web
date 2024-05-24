@@ -1,9 +1,9 @@
 ---
 title: Perplexica
-date: 2024-05-03T12:18:14+08:00
+date: 2024-05-24T12:19:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714299758704-f06d6ca16122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714299758704-f06d6ca16122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
 ---
 
 # [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica)
@@ -20,9 +20,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1710846929336-df39142437
 - [Installation](#installation)
   - [Getting Started with Docker (Recommended)](#getting-started-with-docker-recommended)
   - [Non-Docker Installation](#non-docker-installation)
+  - [Ollama connection errors](#ollama-connection-errors)
+- [Using as a Search Engine](#using-as-a-search-engine)
 - [One-Click Deployment](#one-click-deployment)
 - [Upcoming Features](#upcoming-features)
 - [Support Us](#support-us)
+  - [Donations](#donations)
 - [Contribution](#contribution)
 - [Help and Support](#help-and-support)
 
@@ -31,6 +34,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1710846929336-df39142437
 Perplexica is an open-source AI-powered searching tool or an AI-powered search engine that goes deep into the internet to find answers. Inspired by Perplexity AI, it's an open-source option that not just searches the web but understands your questions. It uses advanced machine learning algorithms like similarity searching and embeddings to refine results and provides clear answers with sources cited.
 
 Using SearxNG to stay current and fully open source, Perplexica ensures you always get the most up-to-date information without compromising your privacy.
+
+Want to know more about its architecture and how it works? You can read it [here](https://github.com/ItzCrazyKns/Perplexica/tree/master/docs/architecture/README.md).
 
 ## Preview
 
@@ -98,6 +103,27 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
 
 **Note**: Using Docker is recommended as it simplifies the setup process, especially for managing environment variables and dependencies.
 
+See the [installation documentation](https://github.com/ItzCrazyKns/Perplexica/tree/master/docs/installation) for more information like exposing it your network, etc.
+
+### Ollama connection errors
+
+If you're facing an Ollama connection error, it is often related to the backend not being able to connect to Ollama's API. How can you fix it? You can fix it by updating your Ollama API URL in the settings menu to the following:
+
+On Windows: `http://host.docker.internal:11434`<br>
+On Mac: `http://host.docker.internal:11434`<br>
+On Linux: `http://private_ip_of_computer_hosting_ollama:11434`
+
+You need to edit the ports accordingly.
+
+## Using as a Search Engine
+
+If you wish to use Perplexica as an alternative to traditional search engines like Google or Bing, or if you want to add a shortcut for quick access from your browser's search bar, follow these steps:
+
+1. Open your browser's settings.
+2. Navigate to the 'Search Engines' section.
+3. Add a new site search with the following URL: `http://localhost:3000/?q=%s`. Replace `localhost` with your IP address or domain name, and `3000` with the port number if Perplexica is not hosted locally.
+4. Click the add button. Now, you can use Perplexica directly from your browser's search bar.
+
 ## One-Click Deployment
 
 [![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app_id=267)
@@ -112,7 +138,15 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
 
 ## Support Us
 
-If you find Perplexica useful, consider giving us a star on GitHub. This helps more people discover Perplexica and supports the development of new features. Your support is appreciated.
+If you find Perplexica useful, consider giving us a star on GitHub. This helps more people discover Perplexica and supports the development of new features. Your support is greatly appreciated.
+
+### Donations
+
+We also accept donations to help sustain our project. If you would like to contribute, you can use the following button to make a donation in cryptocurrency. Thank you for your support!
+
+<a href="https://nowpayments.io/donation?api_key=RFFKJH1-GRR4DQG-HFV1DZP-00G6MMK&source=lk_donation&medium=referral" target="_blank">
+  <img src="https://nowpayments.io/images/embeds/donation-button-white.svg" alt="Crypto donation button by NOWPayments">
+</a>
 
 ## Contribution
 

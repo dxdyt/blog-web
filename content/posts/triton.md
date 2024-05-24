@@ -1,12 +1,12 @@
 ---
 title: triton
-date: 2024-02-16T12:16:50+08:00
+date: 2024-05-24T12:20:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707127085747-8274154889fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707127085747-8274154889fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714385998351-341d070aa79e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714385998351-341d070aa79e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
 ---
 
-# [openai/triton](https://github.com/openai/triton)
+# [triton-lang/triton](https://github.com/triton-lang/triton)
 
 <div align="center">
   <img src="https://cdn.openai.com/triton/assets/triton-logo.png" alt="Triton logo" width="88" height="100">
@@ -16,7 +16,7 @@ We're hiring! If you are interested in working on Triton at OpenAI, we have role
 
 | **`Documentation`** | **`Nightly Wheels`** |
 |-------------------- | -------------------- |
-| [![Documentation](https://github.com/openai/triton/actions/workflows/documentation.yml/badge.svg)](https://triton-lang.org/) | [![Wheels](https://github.com/openai/triton/actions/workflows/wheels.yml/badge.svg?branch=release/2.0.x)](https://github.com/openai/triton/actions/workflows/wheels.yml) |
+| [![Documentation](https://github.com/triton-lang/triton/actions/workflows/documentation.yml/badge.svg)](https://triton-lang.org/) | [![Wheels](https://github.com/triton-lang/triton/actions/workflows/wheels.yml/badge.svg?branch=release/2.0.x)](https://github.com/triton-lang/triton/actions/workflows/wheels.yml) |
 
 
 # Triton
@@ -25,7 +25,7 @@ This is the development repository of Triton, a language and compiler for writin
 
 The foundations of this project are described in the following MAPL2019 publication: [Triton: An Intermediate Language and Compiler for Tiled Neural Network Computations](http://www.eecs.harvard.edu/~htk/publication/2019-mapl-tillet-kung-cox.pdf). Please consider citing this work if you use Triton!
 
-The [official documentation](https://triton-lang.org) contains installation instructions and tutorials.
+The [official documentation](https://triton-lang.org) contains installation instructions and tutorials.  See also these third-party [Triton puzzles](https://github.com/srush/Triton-Puzzles), which can all be run using the Triton interpreter -- no GPU required.
 
 # Quick Installation
 
@@ -34,7 +34,7 @@ You can install the latest stable release of Triton from pip:
 ```bash
 pip install triton
 ```
-Binary wheels are available for CPython 3.7-3.11 and PyPy 3.8-3.9.
+Binary wheels are available for CPython 3.8-3.12 and PyPy 3.8-3.9.
 
 And the latest nightly release:
 
@@ -45,7 +45,7 @@ pip install -U --index-url https://aiinfra.pkgs.visualstudio.com/PublicPackages/
 # Install from source
 
 ```
-git clone https://github.com/openai/triton.git;
+git clone https://github.com/triton-lang/triton.git;
 cd triton;
 
 pip install ninja cmake wheel; # build-time dependencies
@@ -55,7 +55,7 @@ pip install -e python
 Or with a virtualenv:
 
 ```
-git clone https://github.com/openai/triton.git;
+git clone https://github.com/triton-lang/triton.git;
 cd triton;
 
 python -m venv .venv --prompt triton;
@@ -88,7 +88,7 @@ arbitrary LLVM version.
        $ cd $HOME/llvm-project  # your clone of LLVM.
        $ mkdir build
        $ cd build
-       $ cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=ON  ../llvm -DLLVM_ENABLE_PROJECTS="mlir;llvm"
+       $ cmake -G Ninja -DCMAKE_BUILD_TYPE=Release -DLLVM_ENABLE_ASSERTIONS=ON ../llvm -DLLVM_ENABLE_PROJECTS="mlir;llvm" -DLLVM_TARGETS_TO_BUILD="host;NVPTX;AMDGPU"
        $ ninja
 
 4. Grab a snack, this will take a while.
@@ -138,7 +138,7 @@ follow the following recipe.
 ```shell
 # One-time setup.  Note we have to reinstall local Triton because torch
 # overwrites it with the public version.
-$ pip install scipy numpy torch pytest lit && pip install -e python
+$ pip install scipy numpy torch pytest lit pandas matplotlib && pip install -e python
 
 # Run Python tests using your local GPU.
 $ python3 -m pytest python/test/unit
@@ -168,6 +168,48 @@ Then you can e.g. rebuild and run lit with the following command.
 $ ninja -C build && ( cd build ; lit test )
 ```
 
+# Tips for hacking
+
+For detailed instructions on how to debug Triton's frontend, please refer to this [tutorial](https://triton-lang.org/main/programming-guide/chapter-3/debugging.html). The following includes additional tips for hacking on Triton's backend.
+
+**Helpful environment variables**
+
+- `MLIR_ENABLE_DUMP=1` dumps the IR before every MLIR pass Triton runs.
+- `LLVM_IR_ENABLE_DUMP=1` dumps the IR before every pass run over the LLVM IR.
+- `TRITON_INTERPRET=1` uses the Triton interpreter instead of running on the
+  GPU.  You can insert Python breakpoints in your kernel code!
+- `TRITON_ENABLE_LLVM_DEBUG=1` passes `-debug` to LLVM, printing a lot of
+  debugging information to stdout.  If this is too noisy, run with just
+  `TRITON_LLVM_DEBUG_ONLY` instead to limit the output.
+
+  An alternative way to reduce output noisiness is running with
+  `LLVM_IR_ENABLE_DUMP=1`, extract the IR before the LLVM pass of interest, and
+  then run LLVM's `opt` standalone, perhaps passing `-debug-only=foo` on the
+  command line.
+- `TRITON_LLVM_DEBUG_ONLY=<comma-separated>` is the equivalent of LLVM's
+  `-debug-only` command-line option. This limits the LLVM debug output to
+  specific pass or component names (which are specified using `#define
+  DEBUG_TYPE` throughout LLVM and Triton) in order to allow the debug output to
+  be less noisy. `TRITON_LLVM_DEBUG_ONLY` allows for one or more comma
+  separated values to be specified (eg
+  `TRITON_LLVM_DEBUG_ONLY="tritongpu-remove-layout-conversions` or
+  `TRITON_LLVM_DEBUG_ONLY="tritongpu-remove-layout-conversions,regalloc"`).
+- `USE_TTGIR_LOC=1` reparses the ttgir such that the location information will
+  be the line number of the ttgir instead of line number of the python file.
+  This can provide a direct mapping from ttgir to llir/ptx. When used with
+  performance tools, it can provide a breakdown on ttgir instructions.
+- `TRITON_PRINT_AUTOTUNING=1` prints out the best autotuning config and total time
+  spent for each kernel after autotuning is complete.
+- `DISABLE_LLVM_OPT` will disable llvm optimizations for make_llir and make_ptx
+  if its value is true when parsing as Bool. Otherwise, it will be parsed as a list
+  of flags to disable llvm optimizations. One usage case is
+  `DISABLE_LLVM_OPT="disable-lsr"`
+  Loop strength reduction is known to cause up to 10% performance changes for
+  certain kernels with register pressure.
+- `TRITON_ALWAYS_COMPILE=1` forces to compile kernels regardless of cache hit.
+- `MLIR_ENABLE_TIMING` dumps the timing information for each MLIR pass.
+- `LLVM_ENABLE_TIMING` dumps the timing information for each LLVM pass.
+
 # Changelog
 
 Version 2.0 is out! New features include:
@@ -178,7 +220,7 @@ Version 2.0 is out! New features include:
 
 # Contributing
 
-Community contributions are more than welcome, whether it be to fix bugs or to add new features at [github](https://github.com/openai/triton/). For more detailed instructions, please visit our [contributor's guide](CONTRIBUTING.md).
+Community contributions are more than welcome, whether it be to fix bugs or to add new features at [github](https://github.com/triton-lang/triton/). For more detailed instructions, please visit our [contributor's guide](CONTRIBUTING.md).
 
 
 # Compatibility

@@ -1,0 +1,112 @@
+---
+title: ts-comments.nvim
+date: 2024-05-24T12:20:17+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1714176000623-32aa2f4c6f22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714176000623-32aa2f4c6f22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+---
+
+# [folke/ts-comments.nvim](https://github.com/folke/ts-comments.nvim)
+
+# 🚀 `ts-comments.nvim`
+
+Tiny plugin to enhance Neovim's native comments:
+
+- Easily override the comment string for a given **treesitter** language
+- Supports different comment strings for different **treesitter** node types
+- Relaxed rules for uncommenting
+- Add proper whitespace when needed
+- Supports multiple commentstrings for the same language.
+  The first one is used for adding comments.
+  All are used for uncommenting.
+
+## ⚡️ Requirements
+
+- Neovim >= 0.10.0
+
+## 📦 Installation
+
+Using [lazy.nvim](https://github.com/folke/lazy.nvim):
+
+```lua
+{
+  "folke/ts-comments.nvim",
+  opts = {},
+  event = "VeryLazy",
+  enabled = vim.fn.has("nvim-0.10.0") == 1,
+}
+```
+
+## ⚙️ Configuration
+
+**ts-comments.nvim** uses the default Neovim `commentstring` as a fallback,
+so there's no need to configure every language.
+
+Default configuration:
+
+<!-- config:start -->
+
+```lua
+{
+  lang = {
+    astro = "<!-- %s -->",
+    axaml = "<!-- %s -->",
+    blueprint = "// %s",
+    c = "// %s",
+    c_sharp = "// %s",
+    clojure = { ";; %s", "; %s" },
+    cpp = "// %s",
+    cs_project = "<!-- %s -->",
+    css = "/* %s */",
+    cue = "// %s",
+    fsharp = "// %s",
+    fsharp_project = "<!-- %s -->",
+    gleam = "// %s",
+    glimmer = "{{! %s }}",
+    handlebars = "{{! %s }}",
+    hcl = "# %s",
+    html = "<!-- %s -->",
+    ini = "; %s",
+    javascript = {
+      "// %s", -- default commentstring when no treesitter node matches
+      "/* %s */",
+      call_expression = "// %s", -- specific commentstring for call_expression
+      jsx_attribute = "// %s",
+      jsx_element = "{/* %s */}",
+      jsx_fragment = "{/* %s */}",
+      spread_element = "// %s",
+      statement_block = "// %s",
+    },
+    lua = { "-- %s", "--- %s" }, -- langs can have multiple commentstrings
+    ocaml = "(* %s *)",
+    php = "// %s",
+    rego = "# %s",
+    rescript = "// %s",
+    rust = { "// %s", "/* %s */", "/// %s" },
+    svelte = "<!-- %s -->",
+    terraform = "# %s",
+    tsx = {
+      "// %s", -- default commentstring when no treesitter node matches
+      "/* %s */",
+      call_expression = "// %s", -- specific commentstring for call_expression
+      jsx_attribute = "// %s",
+      jsx_element = "{/* %s */}",
+      jsx_fragment = "{/* %s */}",
+      spread_element = "// %s",
+      statement_block = "// %s",
+    },
+    twig = "{# %s #}",
+    typescript = "// %s",
+    vim = '" %s',
+    vue = "<!-- %s -->",
+    xaml = "<!-- %s -->",
+    xml = "<!-- %s -->",
+  },
+}
+```
+
+<!-- config:end -->
+
+## 🔗 Related
+
+- [nvim-ts-context-commentstring](https://github.com/JoosepAlviste/nvim-ts-context-commentstring)

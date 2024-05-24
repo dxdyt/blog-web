@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-05-23T12:18:31+08:00
+date: 2024-05-24T12:19:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711705422785-1080757d3c84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711705422785-1080757d3c84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1698343476549-ecf593b3f3e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1698343476549-ecf593b3f3e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -63,14 +63,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1711705422785-1080757d3c
 <br />
 
 > [!NOTE]
-> We are adding functionality to the project so often that you should update often as well. That means: `git pull; pipx install . --force; fabric --update; source ~/.zshrc (or ~/.bashrc)` in the main directory!
-
-**April 21, 2024** — We now have context in Fabric, so you can build on previous queries! Be sure to update and check `fabric -h` for the latest!
+> May 23, 2024 — We will be switching Fabric to Go in a few weeks to avoid all the installation issues with Python. The Go version will be dead-simple to install and will be even faster. Plus easier to update. We already have it working thanks to the heroic efforts of @xssdoctor, and we're just working on testing now! Stay tuned for more info on the release date!
 
 ## Introduction videos
 
-> [!NOTE]
-> These videos use the `./setup.sh` install method, which is now replaced with the easier `pipx install .` method. Other than that everything else is still the same.
+**NOTE**: These videos use the `./setup.sh` install method, which is now replaced with the easier `pipx install .` method. Other than that everything else is still the same.
 
 <div align="center">
 <a href="https://youtu.be/wPEyyigh10g">
