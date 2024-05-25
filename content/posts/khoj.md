@@ -1,9 +1,9 @@
 ---
 title: khoj
-date: 2024-05-24T12:19:24+08:00
+date: 2024-05-25T12:15:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714176000623-32aa2f4c6f22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714176000623-32aa2f4c6f22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713955417511-f2bd115230a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713955417511-f2bd115230a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
 ---
 
 # [khoj-ai/khoj](https://github.com/khoj-ai/khoj)

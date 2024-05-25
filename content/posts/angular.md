@@ -1,9 +1,9 @@
 ---
 title: angular
-date: 2023-12-23T12:16:27+08:00
+date: 2024-05-25T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701743808933-3467556d43c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701743808933-3467556d43c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714423616168-e9a6f38b6806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714423616168-e9a6f38b6806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
 ---
 
 # [angular/angular](https://github.com/angular/angular)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1701743808933-3467556d43
 <h1 align="center">Angular - The modern web developer's platform</h1>
 
 <p align="center">
-  <img src="aio/src/assets/images/logos/angular/angular_renaissance.png" alt="angular-logo" width="120px" height="120px"/>
+  <img src="adev/src/assets/images/press-kit/angular_icon_gradient.gif" alt="angular-logo" width="120px" height="120px"/>
   <br>
   <em>Angular is a development platform for building mobile and desktop web applications
     <br> using TypeScript/JavaScript and other languages.</em>
@@ -70,6 +70,10 @@ Get started with Angular, learn the fundamentals and explore advanced topics on 
 - [Schematics][schematics]
 - [Lazy Loading][lazyloading]
 - [Animations][animations]
+
+### Local Development
+
+To contribute to the Angular Docs, check out the [Angular.dev README](adev/README.md)
 
 ## Development Setup
 
@@ -158,8 +162,8 @@ Join the conversation and help the community.
 [angularmaterial]: https://material.angular.io/
 [cli]: https://angular.dev/tools/cli
 [architecture]: https://angular.dev/essentials
-[componentstemplates]: https://angular.dev/tutorials/learn-angular/components-in-angular
-[forms]: https://angular.dev/tutorials/learn-angular/forms
+[componentstemplates]: https://angular.dev/tutorials/learn-angular/1-components-in-angular
+[forms]: https://angular.dev/tutorials/learn-angular/15-forms
 [api]: https://angular.dev/api
 [angularelements]: https://angular.dev/guide/elements
 [ssr]: https://angular.dev/guide/ssr

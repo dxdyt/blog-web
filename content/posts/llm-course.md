@@ -1,9 +1,9 @@
 ---
 title: llm-course
-date: 2024-04-07T12:19:59+08:00
+date: 2024-05-25T12:16:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711470053377-bdd52fdba484?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711470053377-bdd52fdba484?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713972327618-381d95481ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713972327618-381d95481ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
 ---
 
 # [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
@@ -49,9 +49,11 @@ A list of notebooks and articles related to large language models.
 
 | Notebook | Description | Article | Notebook |
 |---------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Fine-tune Llama 2 in Google Colab | Step-by-step guide to fine-tune your first Llama 2 model. | [Article](https://mlabonne.github.io/blog/posts/Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.html) | <a href="https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
-| Fine-tune LLMs with Axolotl | End-to-end guide to the state-of-the-art tool for fine-tuning. | [Article](https://mlabonne.github.io/blog/posts/A_Beginners_Guide_to_LLM_Finetuning.html) | <a href="https://colab.research.google.com/drive/1Xu0BrCB7IShwSWKVcfAfhehwjDrDMH5m?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
-| Fine-tune Mistral-7b with DPO | Boost the performance of supervised fine-tuned models with DPO. | [Article](https://medium.com/towards-data-science/fine-tune-a-mistral-7b-model-with-direct-preference-optimization-708042745aac) | <a href="https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
+| Fine-tune Llama 2 with SFT | Step-by-step guide to supervised fine-tune Llama 2 in Google Colab. | [Article](https://mlabonne.github.io/blog/posts/Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.html) | <a href="https://colab.research.google.com/drive/1PEQyJO1-f6j0S_XJ8DV50NkpzasXkrzd?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
+| Fine-tune CodeLlama using Axolotl | End-to-end guide to the state-of-the-art tool for fine-tuning. | [Article](https://mlabonne.github.io/blog/posts/A_Beginners_Guide_to_LLM_Finetuning.html) | <a href="https://colab.research.google.com/drive/1Xu0BrCB7IShwSWKVcfAfhehwjDrDMH5m?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
+| Fine-tune Mistral-7b with SFT | Supervised fine-tune Mistral-7b in a free-tier Google Colab with TRL. | [Article](https://mlabonne.github.io/blog/posts/Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.html) | <a href="https://colab.research.google.com/drive/1o_w0KastmEJNVwT5GoqMCciH-18ca5WS?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
+| Fine-tune Mistral-7b with DPO | Boost the performance of supervised fine-tuned models with DPO. | [Article](https://mlabonne.github.io/blog/posts/Fine_tune_Mistral_7b_with_DPO.html) | <a href="https://colab.research.google.com/drive/15iFBr1xWgztXvhrj5I9fBv20c7CFOPBE?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
+| Fine-tune Llama 3 with ORPO | Cheaper and faster fine-tuning in a single stage with ORPO. | [Article](https://mlabonne.github.io/blog/posts/2024-04-19_Fine_tune_Llama_3_with_ORPO.html) | <a href="https://colab.research.google.com/drive/1eHNWg9gnaXErdAa8_mcvjMupbSS6rDvi"><img src="img/colab.svg" alt="Open In Colab"></a> |
 
 ### Quantization
 
@@ -69,7 +71,7 @@ A list of notebooks and articles related to large language models.
 | Decoding Strategies in Large Language Models | A guide to text generation from beam search to nucleus sampling | [Article](https://mlabonne.github.io/blog/posts/2022-06-07-Decoding_strategies.html) | <a href="https://colab.research.google.com/drive/19CJlOS5lI29g-B3dziNn93Enez1yiHk2?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
 | Improve ChatGPT with Knowledge Graphs | Augment ChatGPT's answers with knowledge graphs. | [Article](https://mlabonne.github.io/blog/posts/Article_Improve_ChatGPT_with_Knowledge_Graphs.html) | <a href="https://colab.research.google.com/drive/1mwhOSw9Y9bgEaIFKT4CLi0n18pXRM4cj?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
 | Merge LLMs with MergeKit | Create your own models easily, no GPU required! | [Article](https://mlabonne.github.io/blog/posts/2024-01-08_Merge_LLMs_with_mergekit%20copy.html) | <a href="https://colab.research.google.com/drive/1_JS7JKJAQozD48-LhYdegcuuZ2ddgXfr?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
-| Create MoEs with MergeKit | Combine multiple experts into a single frankenMoE | [Article](https://towardsdatascience.com/merge-large-language-models-with-mergekit-2118fb392b54) | <a href="https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
+| Create MoEs with MergeKit | Combine multiple experts into a single frankenMoE | [Article](https://mlabonne.github.io/blog/posts/2024-03-28_Create_Mixture_of_Experts_with_MergeKit.html) | <a href="https://colab.research.google.com/drive/1obulZ1ROXHjYLn6PPZJwRR6GzgQogxxb?usp=sharing"><img src="img/colab.svg" alt="Open In Colab"></a> |
 
 ## 🧩 LLM Fundamentals
 
@@ -77,6 +79,7 @@ This section introduces essential knowledge about mathematics, Python, and neura
 
 <details>
 <summary>Toggle section</summary>
+  
 ![](img/roadmap_fundamentals.png)
 
 ### 1. Mathematics for Machine Learning
@@ -234,7 +237,7 @@ Pre-trained models are only trained on a next-token prediction task, which is wh
 * [A Beginner's Guide to LLM Fine-Tuning](https://mlabonne.github.io/blog/posts/A_Beginners_Guide_to_LLM_Finetuning.html): Tutorial on how to fine-tune a CodeLlama model using Axolotl.
 
 ---
-### 5. Reinforcement Learning from Human Feedback
+### 5. Preference Alignment
 
 After supervised fine-tuning, RLHF is a step used to align the LLM's answers with human expectations. The idea is to learn preferences from human (or artificial) feedback, which can be used to reduce biases, censor models, or make them act in a more useful way. It is more complex than SFT and often seen as optional.
 
@@ -243,10 +246,11 @@ After supervised fine-tuning, RLHF is a step used to align the LLM's answers wit
 * **[Direct Preference Optimization](https://arxiv.org/abs/2305.18290)**: DPO simplifies the process by reframing it as a classification problem. It uses a reference model instead of a reward model (no training needed) and only requires one hyperparameter, making it more stable and efficient.
 
 📚 **References**:
+* [Distilabel](https://github.com/argilla-io/distilabel) by Argilla: Excellent tool to create your own datasets. It was especially designed for preference datasets but can also do SFT.
 * [An Introduction to Training LLMs using RLHF](https://wandb.ai/ayush-thakur/Intro-RLAIF/reports/An-Introduction-to-Training-LLMs-Using-Reinforcement-Learning-From-Human-Feedback-RLHF---VmlldzozMzYyNjcy) by Ayush Thakur: Explain why RLHF is desirable to reduce bias and increase performance in LLMs.
 * [Illustration RLHF](https://huggingface.co/blog/rlhf) by Hugging Face: Introduction to RLHF with reward model training and fine-tuning with reinforcement learning.
-* [StackLLaMA](https://huggingface.co/blog/stackllama) by Hugging Face: Tutorial to efficiently align a LLaMA model with RLHF using the transformers library.
-* [LLM Training: RLHF and Its Alternatives](https://substack.com/profile/27393275-sebastian-raschka-phd) by Sebastian Rashcka: Overview of the RLHF process and alternatives like RLAIF.
+* [Preference Tuning LLMs](https://huggingface.co/blog/pref-tuning) by Hugging Face: Comparison of the DPO, IPO, and KTO algorithms to perform preference alignment.
+* [LLM Training: RLHF and Its Alternatives](https://magazine.sebastianraschka.com/p/llm-training-rlhf-and-its-alternatives) by Sebastian Rashcka: Overview of the RLHF process and alternatives like RLAIF.
 * [Fine-tune Mistral-7b with DPO](https://huggingface.co/blog/dpo-trl): Tutorial to fine-tune a Mistral-7b model with DPO and reproduce [NeuralHermes-2.5](https://huggingface.co/mlabonne/NeuralHermes-2.5-Mistral-7B).
 
 ---
