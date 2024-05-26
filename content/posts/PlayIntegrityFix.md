@@ -1,95 +1,56 @@
 ---
 title: PlayIntegrityFix
-date: 2023-12-02T12:18:17+08:00
+date: 2024-05-26T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699111260849-f7e9cdfc1bde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699111260849-f7e9cdfc1bde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715313676046-06e4837b02b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715313676046-06e4837b02b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [chiteroman/PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
 
 # Play Integrity Fix
 
-A Zygisk module which fixes "ctsProfileMatch" (SafetyNet) and "MEETS_DEVICE_INTEGRITY" (Play Integrity).
+This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
 
-To use this module you must have one of the following:
+You will need root and Zygisk, so you must choose ONE of this three setups:
 
-- Magisk with Zygisk enabled.
-- KernelSU with [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [Magisk](https://github.com/topjohnwu/Magisk) with Zygisk enabled.
+- [KernelSU](https://github.com/tiann/KernelSU) with [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) module installed.
+- [APatch](https://github.com/bmax121/APatch) with [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) module installed.
 
-[**Download the latest here**](https://github.com/chiteroman/PlayIntegrityFix/releases/latest).
+After flashing and reboot your device, you can check PI and SN using these apps:
 
-## Telegram group
+- Play Integrity -> https://play.google.com/store/apps/details?id=gr.nikolasspyr.integritycheck
+- SafetyNet -> https://play.google.com/store/apps/details?id=rikka.safetynetchecker
 
-https://t.me/playintegrityfix
+NOTE: if you get an error message about a limit, you need to use another app, this is because a lot of users are requesting an attestation.
+
+NOTE: SafetyNet is obsolete, more info here: https://developer.android.com/privacy-and-security/safetynet/deprecation-timeline
+
+Also, if you are using custom rom or custom kernel, be sure that your kernel name isn't blacklisted, you can check it running ```uname -r``` command. This is a list of banned strings: https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89308909
+
+After requesting an attestation in Play Integrity API you should get this result:
+
+- MEETS_BASIC_INTEGRITY   ✅
+- MEETS_DEVICE_INTEGRITY  ✅
+- MEETS_STRONG_INTEGRITY  ❌
+- MEETS_VIRTUAL_INTEGRITY ❌
+
+You can know more about verdicts in this post: https://xdaforums.com/t/info-play-integrity-api-replacement-for-safetynet.4479337/
+
+And in SafetyNet you should get this:
+
+- basicIntegrity:  true
+- ctsProfileMatch: true
+- evaluationType:  BASIC
+
+NOTE: Strong verdict is impossible to pass on unlocked bootloader devices, there are few devices and "exploits" which will allow you to pass it, but, in normal conditions, this verdict will be green only if you are using stock ROM and locked bootloader. The old posts talking about Strong pass was an "exploit" in Google servers, obviously, now it's patched.
+
+FAQ: https://xdaforums.com/t/pif-faq.4653307/
+
+## Download
+https://github.com/chiteroman/PlayIntegrityFix/releases/latest
 
 ## Donations
 
-- [PayPal](https://paypal.me/chiteroman)
-
-## Official posts
-
-- [XDA](https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/)
-
-## About module
-
-It injects a classes.dex file to modify a few fields in the android.os.Build class. Also, it creates a hook in the native code to modify system properties. These are spoofed only to Google Play Services' DroidGuard (SafetyNet/Play Integrity) service.
-
-The purpose of the module is to avoid a hardware attestation.
-
-## About 'custom.pif.json' file
-
-You can create this file in the module directory to spoof custom values to the GMS unstable process. It will be used instead of the included pif.json.
-
-You can't use values from recent devices due them triggering hardware backed attestation.
-
-## Troubleshooting
-
-### Failing BASIC verdict
-
-If you are failing basicIntegrity (SafetyNet) or MEETS_BASIC_INTEGRITY (Play Integrity) something is wrong in your setup. Recommended steps in order to find the problem:
-
-- Disable all modules except this one
-
-Some modules which modify system can trigger DroidGuard detection, never hook GMS processes.
-
-### Failing DEVICE verdict (on KernelSU)
-
-- Disable ZygiskNext
-- Reboot
-- Enable ZygiskNext
-
-### Play Protect/Store Certification and Google Wallet Tap To Pay Setup Security Requirements
-
-Follow these steps:
-
-- Flash the module in Magisk/KernelSU
-- Clear Google Wallet cache (if you have it)
-- Clear Google Play Store cache and data
-- Clear Google Play Services (com.google.android.gms) cache and data (Optionally skip clearing data and wait some time, ~24h, for it to resolve on its own)
-- Reboot
-
-<details>
-<summary>Guide</summary>
-
-![Google services cache](./wallet-troubleshoot-1.jpg)
-![Removing all data](./wallet-troubleshoot-2.jpg)
-
-</details>
-
-### Read module logs
-
-You can read module logs using this command directly after boot:
-
-```
-adb shell "logcat | grep 'PIF'"
-```
-
-## Can this module pass MEETS_STRONG_INTEGRITY?
-
-No.
-
-## About Play Integrity, SafetyNet is deprecated
-
-You can read more info
-here: [click me](https://xdaforums.com/t/info-play-integrity-api-replacement-for-safetynet.4479337/)
+[PayPal](https://www.paypal.com/paypalme/chiteroman)

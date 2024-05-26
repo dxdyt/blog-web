@@ -1,9 +1,9 @@
 ---
 title: cover-agent
-date: 2024-05-25T12:16:29+08:00
+date: 2024-05-26T12:15:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713955417511-f2bd115230a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713955417511-f2bd115230a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716146395242-203dbd25042a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716146395242-203dbd25042a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [Codium-ai/cover-agent](https://github.com/Codium-ai/cover-agent)

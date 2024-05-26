@@ -1,9 +1,9 @@
 ---
 title: solid-start
-date: 2024-05-24T12:20:40+08:00
+date: 2024-05-26T12:17:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714517615056-e8d12c09b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714517615056-e8d12c09b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714904244831-1cb33ead836c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714904244831-1cb33ead836c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [solidjs/solid-start](https://github.com/solidjs/solid-start)

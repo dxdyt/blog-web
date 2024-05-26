@@ -1,14 +1,18 @@
 ---
 title: aspire
-date: 2023-11-19T12:18:06+08:00
+date: 2024-05-26T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694159783518-fb44ca1bf53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694159783518-fb44ca1bf53f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAzNjczMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715630915104-1f319c1154af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715630915104-1f319c1154af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/aspire](https://github.com/dotnet/aspire)
 
 # .NET Aspire
+
+[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status%2Fdotnet%2Faspire%2Fdotnet.aspire?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=274&branchName=main)
+[![Help Wanted](https://img.shields.io/github/issues/dotnet/aspire/help%20wanted?style=flat&color=%24EC820&label=help%20wanted)](https://github.com/dotnet/aspire/labels/help%20wanted)
+[![Good First Issue](https://img.shields.io/github/issues/dotnet/aspire/good%20first%20issue?style=flat&color=%24EC820&label=good%20first%20issue)](https://github.com/dotnet/aspire/labels/good%20first%20issue)
 
 ## What is .NET Aspire?
 
@@ -20,15 +24,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1694159783518-fb44ca1bf5
 
 [Components](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview?#net-aspire-components): .NET Aspire components are NuGet packages for commonly used services, such as Redis or Postgres, with standardized interfaces ensuring they connect consistently and seamlessly with your app.
 
-[Tooling](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview?#project-templates-and-tooling): .NET Aspire comes with project templates and tooling experiences for Visual Studio and the dotnet CLI help you create and interact with .NET Aspire apps.
+[Tooling](https://learn.microsoft.com/dotnet/aspire/get-started/aspire-overview?#project-templates-and-tooling): .NET Aspire comes with project templates and tooling experiences for Visual Studio and the dotnet CLI which help you create and interact with .NET Aspire apps.
 
-To learn more, read the full [.NET Aspire overview and documentation](https://learn.microsoft.com/dotnet/aspire/). Samples are available in the [.NET Aspire samples repository](https://github.com/dotnet/aspire-samples).
+To learn more, read the full [.NET Aspire overview and documentation](https://learn.microsoft.com/dotnet/aspire/). Samples are available in the [.NET Aspire samples repository](https://github.com/dotnet/aspire-samples). You can find the eShop sample [here](https://github.com/dotnet/eshop) and the Azure version [here](https://github.com/Azure-Samples/eShopOnAzure).
 
 ## What is in this repo?
 
-The .NET Aspire application host, dashboard, service discovery infrastructure, and all .NET Aspire components. It also contains the project templates and a simple sample, 'eShopLite'.
-
-You can find the full version of the eShop sample [here](https://github.com/dotnet/eshop) and the Azure version [here](https://github.com/Azure-Samples/eShopOnAzure).
+The .NET Aspire application host, dashboard, service discovery infrastructure, and all .NET Aspire components. It also contains the project templates.
 
 ## Using latest daily builds
 
@@ -45,6 +47,12 @@ Follow instructions in [docs/contributing.md](docs/contributing.md) for working 
 Security issues and bugs should be reported privately, via email, to the Microsoft Security Response Center (MSRC) <secure@microsoft.com>. You should receive a response within 24 hours. If for some reason you do not, please follow up via email to ensure we received your original message. Further information, including the MSRC PGP key, can be found in the [Security TechCenter](https://www.microsoft.com/msrc/faqs-report-an-issue). You can also find these instructions in this repo's [Security doc](SECURITY.md).
 
 Also see info about related [Microsoft .NET Core and ASP.NET Core Bug Bounty Program](https://www.microsoft.com/msrc/bounty-dot-net-core).
+
+### Note on containers used by Aspire components/resources
+
+The .NET team cannot evaluate the underlying third-party containers for which we have API support for suitability for specific customer requirements.
+
+You should evaluate whichever containers you chose to compose and automate with Aspire to ensure they meet your, your employers or your government’s requirements on security and safety as well as cryptographic regulations and any other regulatory or corporate standards that may apply to your use of the container.
 
 ## .NET Foundation
 

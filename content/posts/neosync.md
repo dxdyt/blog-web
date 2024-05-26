@@ -1,9 +1,9 @@
 ---
 title: neosync
-date: 2024-05-25T12:16:46+08:00
+date: 2024-05-26T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714423616168-e9a6f38b6806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714423616168-e9a6f38b6806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716146395242-203dbd25042a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716146395242-203dbd25042a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [nucleuscloud/neosync](https://github.com/nucleuscloud/neosync)
