@@ -1,9 +1,9 @@
 ---
 title: termux-packages
-date: 2023-10-10T12:16:30+08:00
+date: 2024-05-27T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695711453545-0b33b06df225?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695711453545-0b33b06df225?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5MTEyODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715197346025-a170ad84db33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715197346025-a170ad84db33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [termux/termux-packages](https://github.com/termux/termux-packages)

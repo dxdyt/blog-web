@@ -1,9 +1,9 @@
 ---
 title: CADmium
-date: 2024-05-26T12:16:53+08:00
+date: 2024-05-27T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715304564655-38720cdf88f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715304564655-38720cdf88f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714591755376-349fd01b41cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714591755376-349fd01b41cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
@@ -101,7 +101,7 @@ Watch vitest unit tests only:
 
 ```shell
 cd applications/web
-pnpm test:unit -w 
+pnpm test:unit -w
 ```
 
 ### rust
@@ -145,7 +145,7 @@ Github project for tracking progress is [here](https://github.com/orgs/CADmium-C
 - [ ] Extrusion
   - [ ] Configure an extrusion to create new solid or subtract from existing solid
 - [ ] Project
-  - [ ] Ability to rename the project
+  - [x] Ability to rename the project
   - [ ] Ability to delete steps
   - [ ] bind ctrl + s to .cadmium export, and ctrl + o to .cadmium import
 - [ ] Units

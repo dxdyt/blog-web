@@ -1,9 +1,9 @@
 ---
 title: awesome-low-level-design
-date: 2024-05-13T12:19:56+08:00
+date: 2024-05-27T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714682597753-a646ba506cee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714206866539-7b2db12c39df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714206866539-7b2db12c39df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)
@@ -40,7 +40,7 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 ## Low Level Design Interview Problems
 ### Easy
 - [Design Parking Lot](problems/parking-lot.md)
-- [Design a Vending Machine](https://medium.com/swlh/vending-machine-design-a-state-design-pattern-approach-5b7e1a026cd2)
+- [Design a Vending Machine](problems/vending-machine.md)
 - [Design Stack Overflow](problems/stack-overflow.md)
 - [Design Logging Framework](problems/logging-framework.md)
 - [Design Coffee Vending Machine](problems/coffee-vending-machine.md)
@@ -53,23 +53,22 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 - [Design an ATM](problems/atm.md)
 - [Design Hotel Management System](problems/hotel-management-system.md)
 - [Design LinkedIn](problems/linkedin.md)
-- [Design a Social Network like Facebook](problems/facebook.md)
+- [Design a Social Network like Facebook](problems/social-networking-service.md)
 - [Design an Elevator System](problems/elevator-system.md)
 - [Design a Library Management System](problems/library-management-system.md)
 - [Design Restaurant Management System](problems/restaurant-management-system.md)
 - [Design Airline Management System](problems/airline-management-system.md)
 - [Design a Digital Wallet System](problems/digital-wallet-system.md)
 - [Design an Online Auction System](problems/online-auction-system.md)
-- [Design a Vehicle Rental System:](problems/vehicle-rental-system.md)
 - [Design a Concert Ticket Booking System](problems/concert-ticketing-system.md)
 - [Design a Cache using LRU Eviction Policy](problems/lru-cache.md)
 ### Hard
-- [Design Movie Ticket Booking System](https://www.youtube.com/watch?v=CC7DwkQOsS0&list=PLAC2AM9O1C5KioUMeH9qIjbAV_RMmX8rd&index=8)
-- [Design Splitwise](https://workat.tech/machine-coding/editorial/how-to-design-splitwise-machine-coding-ayvnfo1tfst6)
-- [Design a Snake and Ladder game](https://workat.tech/machine-coding/editorial/how-to-design-snake-and-ladder-machine-coding-ehskk9c40x2w)
-- [Design Online Shopping System like Amazon](problems/amazon.md)
+- [Design Movie Ticket Booking System](problems/movie-ticket-booking-system.md)
+- [Design Splitwise](problems/splitwise.md)
+- [Design a Snake and Ladder game](problems/snake-and-ladder.md)
+- [Design Online Shopping System like Amazon](problems/online-shopping-service.md)
 - [Design Online Stock Brokerage System](problems/online-stock-brokerage-system.md)
-- [Design CricInfo](https://www.youtube.com/watch?v=VDqwCo6lhkY&list=PLAC2AM9O1C5KioUMeH9qIjbAV_RMmX8rd&index=6)
+- [Design CricInfo](problems/cricinfo.md)
 - [Design Chess Game](problems/chess-game.md)
 - [Design Ride-Sharing Service (like Uber)](problems/ride-sharing-service.md)
 - [Design Online Food Delivery Service (like Swiggy)](problems/food-delivery-service.md)

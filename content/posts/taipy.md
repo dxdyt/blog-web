@@ -1,18 +1,21 @@
 ---
 title: taipy
-date: 2024-03-03T12:17:57+08:00
+date: 2024-05-27T12:20:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706403877465-c5c3b4427caa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706403877465-c5c3b4427caa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715314945142-2980c03c93be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715314945142-2980c03c93be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [Avaiga/taipy](https://github.com/Avaiga/taipy)
 
+[![Taipy Designer](https://github.com/nevo-david/taipy/assets/100117126/e787ba7b-ec7a-4d3f-a7e4-0f195daadce7)
+](https://taipy.io/enterprise)
+
 <div align="center">
   <a href="https://taipy.io?utm_source=github" target="_blank">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Avaiga/taipy/assets/100117126/f59f70e9-1905-4abc-8760-8631b57c14c2">
-    <img alt="Taipy" src="readme_img/readme_logo.png" width="200" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Avaiga/taipy/assets/100117126/509bf101-54c2-4321-adaf-a2af63af9682">
+    <img alt="Taipy" src="https://github.com/Avaiga/taipy/assets/100117126/4df8a733-d8d0-4893-acf0-d24ef9e8b58a" width="400" />
   </picture>
   </a>
 </div>
@@ -31,7 +34,7 @@ Taipy is an open-source Python library for easy, end-to-end application developm
     <br/><br/>
     <a href="https://discord.com/invite/SJyz2VJGxV">Discord support</a>
     ·
-    <a href="https://docs.taipy.io/en/latest/knowledge_base/demos">Demos & Examples</a>
+    <a href="https://docs.taipy.io/en/latest/gallery/">Demos & Examples</a>
   </p>
 
 &nbsp;
@@ -188,12 +191,6 @@ And the final result:
 <img src="readme_img/readme_app.gif" />
 
 &nbsp;
-
-## ☁️ Taipy cloud
-With Taipy Cloud, you can deploy your Taipy applications in a few clicks and for free!
-To learn more about Taipy Cloud, please refer to the [Taipy Cloud Documentation](https://docs.taipy.io/en/latest/cloud/).
-
-![TaipyCloud](https://github.com/Avaiga/taipy/raw/develop/readme_img/readme_cloud_demo.gif)
 
 ## ⚒️ Contributing
 Want to help build Taipy? Check out our [Contributing Guide](https://github.com/Avaiga/taipy/blob/develop/CONTRIBUTING.md).

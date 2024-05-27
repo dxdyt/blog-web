@@ -1,9 +1,9 @@
 ---
 title: continue
-date: 2024-04-25T12:23:33+08:00
+date: 2024-05-27T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710667069063-55d8afe19014?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710667069063-55d8afe19014?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715314945142-2980c03c93be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715314945142-2980c03c93be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710667069063-55d8afe190
 
 <div align="center">
 
-**[Continue](https://continue.dev/docs) keeps developers in flow. Our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions enable you to easily create your own modular AI software development system that you can improve.**
+**[Continue](https://docs.continue.dev) keeps developers in flow. Our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions enable you to easily create your own modular AI software development system that you can improve.**
 
 </div>
 
@@ -27,7 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710667069063-55d8afe190
 <a target="_blank" href="https://opensource.org/licenses/Apache-2.0" style="background:none">
     <img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" style="height: 22px;" />
 </a>
-<a target="_blank" href="https://continue.dev/docs" style="background:none">
+<a target="_blank" href="https://docs.continue.dev" style="background:none">
     <img src="https://img.shields.io/badge/continue_docs-%23BE1B55" style="height: 22px;" />
 </a>
 <a target="_blank" href="https://discord.gg/vapESyrFmJ" style="background:none">
@@ -64,9 +64,9 @@ JetBrains: `cmd+I` (MacOS) / `ctrl+I` (Windows)
 
 ![codebase](docs/static/img/codebase.gif)
 
-VS Code: `@codebase` (MacOS) / `@codebase` (Windows)
+VS Code: `cmd+enter` (MacOS) / `ctrl+enter` (Windows)
 
-JetBrains: Support coming soon
+JetBrains: `cmd+enter` (MacOS) / `ctrl+enter` (Windows)
 
 ## Quickly use documentation as context
 

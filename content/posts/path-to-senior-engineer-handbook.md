@@ -1,9 +1,9 @@
 ---
 title: path-to-senior-engineer-handbook
-date: 2024-05-26T12:18:51+08:00
+date: 2024-05-27T12:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715313676046-06e4837b02b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715313676046-06e4837b02b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714828099295-b799256b2be7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714828099295-b799256b2be7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)
@@ -151,6 +151,7 @@ This repo has all the resources you need to reach Senior Software Engineer!
 - [The Coaching Habit](https://www.amazon.com/Coaching-Habit-Less-Change-Forever-ebook/dp/B01BUIBBZI)
 - [The Advice Trap](https://www.amazon.com/Advice-Trap-Humble-Curious-Forever-ebook/dp/B083YZTW4B)
 - [The making of a manager](https://www.amazon.com/Making-Manager-What-Everyone-Looks-ebook/dp/B079WNPRL2)
+- [Become an Effective Software Engineering Manager: How to Be the Leader Your Development Team Need](https://www.amazon.com/Become-Effective-Software-Engineering-Manager/dp/1680507249)
 
 ### Persuasion & influence
 

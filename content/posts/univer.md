@@ -1,9 +1,9 @@
 ---
 title: univer
-date: 2024-05-26T12:16:04+08:00
+date: 2024-05-27T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714904244831-1cb33ead836c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714904244831-1cb33ead836c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715645971181-c7479b08604b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715645971181-c7479b08604b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [dream-num/univer](https://github.com/dream-num/univer)

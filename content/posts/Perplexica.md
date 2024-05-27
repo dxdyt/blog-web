@@ -1,9 +1,9 @@
 ---
 title: Perplexica
-date: 2024-05-26T12:16:12+08:00
+date: 2024-05-27T12:19:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716146395242-203dbd25042a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716146395242-203dbd25042a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714423718253-b1bd2d95ddd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714423718253-b1bd2d95ddd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
 ---
 
 # [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica)
