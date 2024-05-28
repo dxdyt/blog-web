@@ -1,9 +1,9 @@
 ---
 title: CADmium
-date: 2024-05-27T12:18:26+08:00
+date: 2024-05-28T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714591755376-349fd01b41cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714591755376-349fd01b41cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1680485038236-eee7be40b2e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1680485038236-eee7be40b2e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
 ---
 
 # [CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)

@@ -1,9 +1,9 @@
 ---
 title: LaVague
-date: 2024-05-27T12:18:56+08:00
+date: 2024-05-28T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714423718253-b1bd2d95ddd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714423718253-b1bd2d95ddd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1704688618021-557e23d44850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1704688618021-557e23d44850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
 ---
 
 # [lavague-ai/LaVague](https://github.com/lavague-ai/LaVague)

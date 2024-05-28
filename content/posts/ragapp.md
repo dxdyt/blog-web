@@ -1,9 +1,9 @@
 ---
 title: ragapp
-date: 2024-05-27T12:18:50+08:00
+date: 2024-05-28T12:19:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713453062856-6e8bb34d0520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713453062856-6e8bb34d0520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1686715018049-f73970aa97d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1686715018049-f73970aa97d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
 ---
 
 # [ragapp/ragapp](https://github.com/ragapp/ragapp)

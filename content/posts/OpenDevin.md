@@ -1,9 +1,9 @@
 ---
 title: OpenDevin
-date: 2024-05-13T12:19:26+08:00
+date: 2024-05-28T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714029122697-d74d8ba99893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714029122697-d74d8ba99893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716223996696-ad6252a7fe7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716223996696-ad6252a7fe7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
 ---
 
 # [OpenDevin/OpenDevin](https://github.com/OpenDevin/OpenDevin)
@@ -37,14 +37,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1714029122697-d74d8ba998
   <a href="https://join.slack.com/t/opendevin/shared_invite/zt-2i1iqdag6-bVmvamiPA9EZUu7oCO6KhA"><img src="https://img.shields.io/badge/Slack-Join%20Us-red?logo=slack&logoColor=white&style=for-the-badge" alt="Join our Slack community"></a>
   <a href="https://discord.gg/ESHStjSjD4"><img src="https://img.shields.io/badge/Discord-Join%20Us-purple?logo=discord&logoColor=white&style=for-the-badge" alt="Join our Discord community"></a>
   <br/>
-  <a href="https://xwang.dev/blog/2024/opendevin-codeact-1.0-swebench/"><img src="https://img.shields.io/badge/SWE--bench%20Lite-21.0%25-green?style=for-the-badge" alt="SWE-bench "></a>
+  <a href="https://huggingface.co/spaces/OpenDevin/evaluation"><img src="https://img.shields.io/badge/SWE--bench%20Lite-25.0%25-green?style=for-the-badge" alt="SWE-bench "></a>
+  <a href="https://codecov.io/github/opendevin/opendevin?branch=main"><img alt="CodeCov" src="https://img.shields.io/codecov/c/github/opendevin/opendevin?style=for-the-badge"></a>
 </div>
 
 <!-- PROJECT LOGO -->
 <div align="center">
   <img src="./docs/static/img/logo.png" alt="Logo" width="200" height="200">
   <h1 align="center">OpenDevin: Code Less, Make More</h1>
-  <a href="https://opendevin.github.io/OpenDevin/"><img src="https://img.shields.io/badge/Documenation-OpenDevin-blue?logo=googledocs&logoColor=white&style=for-the-badge" alt="Check out the documentation"></a>
+  <a href="https://opendevin.github.io/OpenDevin/"><img src="https://img.shields.io/badge/Documentation-OpenDevin-blue?logo=googledocs&logoColor=white&style=for-the-badge" alt="Check out the documentation"></a>
 </div>
 <hr>
 
@@ -54,24 +55,35 @@ OpenDevin agents collaborate with human developers to write code, fix bugs, and 
 
 ![App screenshot](./docs/static/img/screenshot.png)
 
-## ⚡ Quick Start
-You can run OpenDevin with Docker. It works best with the most recent
-version of Docker, `26.0.0`.
+## ⚡ Getting Started
+The easiest way to run OpenDevin is inside a Docker container. It works best with the most recent version of Docker, `26.0.0`.
+You must be using Linux, Mac OS, or WSL on Windows.
+
+To start the app, run these commands, replacing `$(pwd)/workspace` with the directory you want OpenDevin to work with.
 
 ```bash
-#The directory you want OpenDevin to modify. MUST be an absolute path!
+# The directory you want OpenDevin to work with. MUST be an absolute path!
 export WORKSPACE_BASE=$(pwd)/workspace;
+```
 
+> [!WARNING]  
+> OpenDevin runs bash commands within a Docker sandbox, so it should not affect your machine. 
+> But your workspace directory will be attached to that sandbox, and files in the directory may be modified or deleted.
+
+```bash
 docker run \
+    -it \
     --pull=always \
     -e SANDBOX_USER_ID=$(id -u) \
     -e WORKSPACE_MOUNT_PATH=$WORKSPACE_BASE \
     -v $WORKSPACE_BASE:/opt/workspace_base \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -p 3000:3000 \
-    --add-host host.docker.internal=host-gateway \
+    --add-host host.docker.internal:host-gateway \
     ghcr.io/opendevin/opendevin:0.5
 ```
+
+You'll find OpenDevin running at [http://localhost:3000](http://localhost:3000).
 
 ## 🚀 Documentation
 
