@@ -1,14 +1,14 @@
 ---
 title: jan
-date: 2024-04-24T12:18:07+08:00
+date: 2024-05-29T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715607347255-8ab4816bf923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715607347255-8ab4816bf923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)
 
-# Jan - Bring AI to your Desktop
+# Jan - Turn your computer into an AI computer
 
 ![Jan banner](https://github.com/janhq/jan/assets/89722390/35daac7d-b895-487c-a6ac-6663daaad78e)
 
@@ -29,13 +29,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deab
   - <a href="https://discord.gg/AsJ8krTT3N">Discord</a>
 </p>
 
-> ⚠️ **Jan is currently in Development**: Expect breaking changes and bugs!
+>[!Warning]
+>**Jan is currently in Development**: Expect breaking changes and bugs!
 
 Jan is an open-source ChatGPT alternative that runs 100% offline on your computer.
 
 **Jan runs on any hardware.** From PCs to multi-GPU clusters, Jan supports universal architectures:
 
-- [x] Nvidia GPUs (fast)
+- [x] NVIDIA GPUs (fast)
 - [x] Apple M-series (fast)
 - [x] Apple Intel
 - [x] Linux Debian
@@ -67,7 +68,7 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
     <td style="text-align:center">
       <a href='https://app.jan.ai/download/latest/mac-arm64'>
         <img src='https://github.com/janhq/docs/blob/main/static/img/mac.png' style="height:15px; width: 15px" />
-        <b>M1/M2</b>
+        <b>M1/M2/M3/M4</b>
       </a>
     </td>
     <td style="text-align:center">
@@ -100,7 +101,7 @@ Jan is an open-source ChatGPT alternative that runs 100% offline on your compute
     <td style="text-align:center">
       <a href='https://app.jan.ai/download/nightly/mac-arm64'>
         <img src='https://github.com/janhq/docs/blob/main/static/img/mac.png' style="height:15px; width: 15px" />
-        <b>M1/M2</b>
+        <b>M1/M2/M3/M4</b>
       </a>
     </td>
     <td style="text-align:center">

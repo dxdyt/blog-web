@@ -1,9 +1,9 @@
 ---
 title: yolov10
-date: 2024-05-28T12:18:43+08:00
+date: 2024-05-29T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715610864584-691f309f7e1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715610864584-691f309f7e1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715619684759-8203b89e88ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715619684759-8203b89e88ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [THU-MIG/yolov10](https://github.com/THU-MIG/yolov10)
@@ -31,6 +31,8 @@ Over the past years, YOLOs have emerged as the predominant paradigm in the field
 </details>
 
 **UPDATES** 🔥
+- 2024/05/29: We identify a bug in existing HuggingFace demos. Please use `gr.Image(type="pil", label="Image")` rather than ``gr.Image(type="numpy", label="Image")`` for prediction. Please refer to the [issue](https://github.com/THU-MIG/yolov10/issues/100#issuecomment-2136440517) for details.
+- 2024/05/29: Add the gradio demo for running the models locally. Thanks to [AK](https://x.com/_akhaliq)!
 - 2024/05/27: Thanks to [sujanshresstha](sujanshresstha) for the integration with [DeepSORT](https://github.com/sujanshresstha/YOLOv10_DeepSORT.git)!
 - 2024/05/27: We have updated the [checkpoints](https://github.com/THU-MIG/yolov10/releases/tag/v1.1) with other attributes, like class names, for ease of use.
 - 2024/05/26: Thanks to [CVHub520](https://github.com/CVHub520) for the integration into [X-AnyLabeling](https://github.com/CVHub520/X-AnyLabeling)!
@@ -56,6 +58,11 @@ conda create -n yolov10 python=3.9
 conda activate yolov10
 pip install -r requirements.txt
 pip install -e .
+```
+## Demo
+```
+python app.py
+# Please visit http://127.0.0.1:7860
 ```
 
 ## Validation

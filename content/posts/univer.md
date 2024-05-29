@@ -1,9 +1,9 @@
 ---
 title: univer
-date: 2024-05-27T12:17:52+08:00
+date: 2024-05-29T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715645971181-c7479b08604b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715645971181-c7479b08604b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712229648117-b4079c1a4157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712229648117-b4079c1a4157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [dream-num/univer](https://github.com/dream-num/univer)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1715645971181-c7479b0860
 </p>
 
 <p align="center">
-    <a href="./LICENSE.txt">
+    <a href="./LICENSE">
         <img src="https://img.shields.io/github/license/dream-num/univer" alt="GitHub License" />
     </a>
     <a href="https://github.com/dream-num/univer/actions/workflows/build.yml">

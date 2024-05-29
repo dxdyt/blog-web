@@ -1,9 +1,9 @@
 ---
 title: CopilotKit
-date: 2024-05-28T12:20:30+08:00
+date: 2024-05-29T12:18:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686715018049-f73970aa97d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686715018049-f73970aa97d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715619684759-8203b89e88ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715619684759-8203b89e88ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)
@@ -159,7 +159,7 @@ See quickstart in the [docs](https://docs.copilotkit.ai)
 ## Building blocks
 
 A more comprehensive and up-to-date overview is available in the [docs](https://docs.copilotkit.ai). <br/>
-But roughtly:
+But roughly:
 
 ### Copilot entrypoints
 

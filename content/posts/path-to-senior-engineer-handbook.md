@@ -1,9 +1,9 @@
 ---
 title: path-to-senior-engineer-handbook
-date: 2024-05-27T12:19:11+08:00
+date: 2024-05-29T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714828099295-b799256b2be7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714828099295-b799256b2be7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716319486301-3da5ba30f743?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716319486301-3da5ba30f743?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [jordan-cutler/path-to-senior-engineer-handbook](https://github.com/jordan-cutler/path-to-senior-engineer-handbook)

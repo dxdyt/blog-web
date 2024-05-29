@@ -1,9 +1,9 @@
 ---
 title: mistral-finetune
-date: 2024-05-27T12:18:43+08:00
+date: 2024-05-29T12:21:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714423718253-b1bd2d95ddd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714423718253-b1bd2d95ddd9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716500158551-2832edbe6eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716500158551-2832edbe6eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [mistralai/mistral-finetune](https://github.com/mistralai/mistral-finetune)

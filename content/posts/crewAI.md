@@ -1,9 +1,9 @@
 ---
 title: crewAI
-date: 2024-04-25T12:22:53+08:00
+date: 2024-05-29T12:20:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711721954862-7009c23e90d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711721954862-7009c23e90d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQwMTg4NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716319486301-3da5ba30f743?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716319486301-3da5ba30f743?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [joaomdmoura/crewAI](https://github.com/joaomdmoura/crewAI)
@@ -58,7 +58,7 @@ To get started with CrewAI, follow these simple steps:
 pip install crewai
 ```
 
-If you want to also install crewai-tools, which is a package with tools that can be used by the agents, but more dependencies, you can install it with, example below uses it:
+If you want to install the 'crewai' package along with its optional features that include additional tools for agents, you can do so by using the following command: pip install 'crewai[tools]'. This command installs the basic package and also adds extra components which require more dependencies to function."
 
 ```shell
 pip install 'crewai[tools]'
@@ -80,6 +80,17 @@ os.environ["SERPER_API_KEY"] = "Your Key" # serper.dev API key
 # os.environ["OPENAI_MODEL_NAME"] ='openhermes'  # Adjust based on available model
 # os.environ["OPENAI_API_KEY"] ='sk-111111111111111111111111111111111111111111111111'
 
+# You can pass an optional llm attribute specifying what model you wanna use.
+# It can be a local model through Ollama / LM Studio or a remote
+# model like OpenAI, Mistral, Antrophic or others (https://docs.crewai.com/how-to/LLM-Connections/)
+#
+# import os
+# os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
+#
+# OR
+#
+# from langchain_openai import ChatOpenAI
+
 search_tool = SerperDevTool()
 
 # Define your agents with roles and goals
@@ -91,18 +102,9 @@ researcher = Agent(
   You have a knack for dissecting complex data and presenting actionable insights.""",
   verbose=True,
   allow_delegation=False,
-  tools=[search_tool]
   # You can pass an optional llm attribute specifying what model you wanna use.
-  # It can be a local model through Ollama / LM Studio or a remote
-  # model like OpenAI, Mistral, Antrophic or others (https://docs.crewai.com/how-to/LLM-Connections/)
-  #
-  # import os
-  # os.environ['OPENAI_MODEL_NAME'] = 'gpt-3.5-turbo'
-  #
-  # OR
-  #
-  # from langchain_openai import ChatOpenAI
-  # llm=ChatOpenAI(model_name="gpt-3.5", temperature=0.7)
+  # llm=ChatOpenAI(model_name="gpt-3.5", temperature=0.7),
+  tools=[search_tool]
 )
 writer = Agent(
   role='Tech Content Strategist',
@@ -241,7 +243,7 @@ poetry run pytest
 ### Running static type checks
 
 ```bash
-poetry run pyright
+poetry run mypy
 ```
 
 ### Packaging

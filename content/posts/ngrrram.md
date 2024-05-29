@@ -1,9 +1,9 @@
 ---
 title: ngrrram
-date: 2024-05-28T12:20:39+08:00
+date: 2024-05-29T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1680485038236-eee7be40b2e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1680485038236-eee7be40b2e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY4Njk5MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1712229648117-b4079c1a4157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1712229648117-b4079c1a4157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
 ---
 
 # [wintermute-cell/ngrrram](https://github.com/wintermute-cell/ngrrram)
@@ -40,11 +40,21 @@ ones.
 Precompiled [releases](https://github.com/wintermute-cell/ngrrram/releases) for
 linux, windows and macos are available.
 
+### AUR (maintained by [JinEnMok](https://github.com/JinEnMok))
+
+Use `yay` or any other AUR helper to install for an Archlinux system:
+
+```bash
+yay -S ngrrram-git
+or
+yay -S ngrrram-bin
+```
+
 ### From Source
 
 Make sure you have the rust tooling installed, then simply run:
 
-```
+```bash
 cargo build --release
 ```
 
@@ -68,8 +78,8 @@ Options:
 --rep <number>               how often to repeat *each* different ngram in a lesson.
 --wpm <number>               the wpm threshold at which the lesson is considered a success.
 --acc <0-100>                the accuracy in percent at which the lesson is considered a success.
---emu_in <layout>            see section (## Layout Emulation).
---emu_out <layout>           see section (## Layout Emulation).
+--emu-in <layout>            see section (## Layout Emulation).
+--emu-out <layout>           see section (## Layout Emulation).
 --nokb                       pass this flag to disable the keyboard layout display.
 --cat                        the most important flag. don't practice alone.
 ```
@@ -82,7 +92,7 @@ ngrrram --n 2 --top 50 --combi 2 --rep 3 --wpm 40 --acc 100
 ## Layout Emulation
 
 To emulate a different keyboard layout in `ngrrram`, you must pass the flags
-`--emu_in` and `--emu_out`, the first one describing your current layout, and
+`--emu-in` and `--emu-out`, the first one describing your current layout, and
 the second one being the one you want to emulate.
 
 Available layouts are:
@@ -95,7 +105,7 @@ Available layouts are:
 - `colemakdh` (ColemakDH)
 
 > Having to provide an input layout is sub-optimal. I'm not sure how to get
-> layout independant scancodes in rust; Could not get `device_query` to work.
+> layout independent scancodes in rust; Could not get `device_query` to work.
 > If you know a solution, please tell me.
 
 ## Random Notes
