@@ -1,9 +1,9 @@
 ---
 title: awesome-scalability
-date: 2024-01-27T12:15:34+08:00
+date: 2024-05-30T12:20:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705833600877-bf0e3865fdd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705833600877-bf0e3865fdd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713553731819-d4dc1e8f7705?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713553731819-d4dc1e8f7705?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
 ---
 
 # [binhnguyennus/awesome-scalability](https://github.com/binhnguyennus/awesome-scalability)
@@ -390,6 +390,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 		* [MezzFS: Mounting Object Storage in Media Processing Platform at Netflix](https://medium.com/netflix-techblog/mezzfs-mounting-object-storage-in-netflixs-media-processing-platform-cda01c446ba)	
 		* [Magic Pocket: In-house Multi-exabyte Storage System at Dropbox](https://blogs.dropbox.com/tech/2016/05/inside-the-magic-pocket/)
 * [Relational Databases](https://www.mysql.com/products/cluster/scalability.html)
+	* [Building and Deploying MySQL Raft at Meta](https://engineering.fb.com/2023/05/16/data-infrastructure/mysql-raft-meta/)
 	* [MySQL for Schema-less Data at FriendFeed](https://backchannel.org/blog/friendfeed-schemaless-mysql)
 	* [MySQL at Pinterest](https://medium.com/@Pinterest_Engineering/learn-to-stop-using-shiny-new-things-and-love-mysql-3e1613c2ce14)
 	* [PostgreSQL at Twitch](https://blog.twitch.tv/how-twitch-uses-postgresql-c34aa9e56f58)
@@ -717,6 +718,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [RBEA: Real-time Analytics Platform at King](https://techblog.king.com/rbea-scalable-real-time-analytics-king/)
 	* [AresDB: GPU-Powered Real-time Analytics Engine at Uber](https://eng.uber.com/aresdb/)
 	* [AthenaX: Streaming Analytics Platform at Uber](https://eng.uber.com/athenax/)
+	* [Jupiter: Config Driven Adtech Batch Ingestion Platform at Uber](https://www.uber.com/en-SG/blog/jupiter-batch-ingestion-platform/)
 	* [Delta: Data Synchronization and Enrichment Platform at Netflix](https://medium.com/netflix-techblog/delta-a-data-synchronization-and-enrichment-platform-e82c36a79aee)
 	* [Keystone: Real-time Stream Processing Platform at Netflix](https://medium.com/netflix-techblog/keystone-real-time-stream-processing-platform-a3ee651812a)
 	* [Databook: Turning Big Data into Knowledge with Metadata at Uber](https://eng.uber.com/databook/)
@@ -743,11 +745,12 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Scaling Hadoop YARN cluster beyond 10,000 nodes at LinkedIn](https://engineering.linkedin.com/blog/2021/scaling-linkedin-s-hadoop-yarn-cluster-beyond-10-000-nodes)
 	* [Scaling Big Data Access Controls at Pinterest](https://medium.com/pinterest-engineering/securely-scaling-big-data-access-controls-at-pinterest-bbc3406a1695)
 * [Distributed Machine Learning](https://www.csie.ntu.edu.tw/~cjlin/talks/bigdata-bilbao.pdf)
-	* [Machine Learning Platform at Uber](https://eng.uber.com/michelangelo/)
 	* [Machine Learning Platform at Yelp](https://engineeringblog.yelp.com/2020/07/ML-platform-overview.html)
 	* [Machine Learning Platform at Etsy](https://codeascraft.com/2021/12/21/redesigning-etsys-machine-learning-platform/)
 	* [Machine Learning Platform at Zalando](https://engineering.zalando.com/posts/2022/04/zalando-machine-learning-platform.html)
+	* [Scaling AI/ML Infrastructure at Uber](https://www.uber.com/en-SG/blog/scaling-ai-ml-infrastructure-at-uber/)
 	* [Recommendation System at Lyft](https://eng.lyft.com/the-recommendation-system-at-lyft-67bc9dcc1793)
+	* [Reinforcement Learning Platform at Lyft](https://eng.lyft.com/lyfts-reinforcement-learning-platform-670f77ff46ec)
 	* [Platform for Serving Recommendations at Etsy](https://www.etsy.com/sg-en/codeascraft/building-a-platform-for-serving-recommendations-at-etsy)
 	* [Infrastructure to Run User Forecasts at Spotify](https://engineering.atspotify.com/2022/06/how-we-built-infrastructure-to-run-user-forecasts-at-spotify/)
 	* [Aroma: Using ML for Code Recommendation at Facebook](https://code.fb.com/developer-tools/aroma/)
@@ -770,6 +773,7 @@ An updated and organized reading list for illustrating the patterns of scalable,
 	* [Deep Learning for Image Classification Experiment at Mercari](https://medium.com/mercari-engineering/mercaris-image-classification-experiment-using-deep-learning-9b4e994a18ec)
 	* [Deep Learning for Frame Detection in Product Images at Allegro](https://allegro.tech/2016/12/deep-learning-for-frame-detection.html)
 	* [Content-based Video Relevance Prediction at Hulu](https://medium.com/hulu-tech-blog/content-based-video-relevance-prediction-b2c448e14752)
+	* [Moderating Inappropriate Video Content at Yelp](https://engineeringblog.yelp.com/2024/03/moderating-inappropriate-video-content-at-yelp.html)
 	* [Improving Photo Selection With Deep Learning at TripAdvisor](http://engineering.tripadvisor.com/improving-tripadvisor-photo-selection-deep-learning/)
 	* [Personalized Recommendations for Experiences Using Deep Learning at TripAdvisor](https://www.tripadvisor.com/engineering/personalized-recommendations-for-experiences-using-deep-learning/)
 	* [Personalised Recommender Systems at BBC](https://medium.com/bbc-design-engineering/developing-personalised-recommender-systems-at-the-bbc-e26c5e0c4216)
@@ -970,5 +974,5 @@ An updated and organized reading list for illustrating the patterns of scalable,
 * [Scaling Git at Microsoft - Saeed Noursalehi, Principal Program Manager at Microsoft](https://www.youtube.com/watch?v=g_MPGU_m01s)
 * [Scaling Multitenant Architecture Across Multiple Data Centres at Shopify - Weingarten, Engineering Lead at Shopify](https://www.youtube.com/watch?v=F-f0-k46WVk)
 
-## Donation
-Roses are red. Violets are blue. [Binh](https://nguyenquocbinh.org/) likes sweet. [Treat Binh a tiramisu?](https://paypal.me/binhnguyennus) :cake:
+## A Piece of Cake
+Roses are red. Violets are blue. [Ben](https://nguyenquocbinh.org/) likes sweet. [Treat Ben a tiramisu?](https://paypal.me/binhnguyennus) :cake:

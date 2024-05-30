@@ -1,9 +1,9 @@
 ---
 title: protobuf
-date: 2023-10-15T12:17:45+08:00
+date: 2024-05-30T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693833515798-be0212227aea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTczNDMyNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714891203151-128aa39565e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714891203151-128aa39565e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
 ---
 
 # [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
@@ -25,6 +25,23 @@ can learn more about it in [protobuf's documentation](https://protobuf.dev).
 This README file contains protobuf installation instructions. To install
 protobuf, you need to install the protocol compiler (used to compile .proto
 files) and the protobuf runtime for your chosen programming language.
+
+Working With Protobuf Source Code
+---------------------------------
+
+Most users will find working from
+[supported releases](https://github.com/protocolbuffers/protobuf/releases) to be
+the easiest path.
+
+If you choose to work from the head revision of the main branch your build will
+occasionally be broken by source-incompatible changes and insufficiently-tested
+(and therefore broken) behavior.
+
+If you are using C++ or otherwise need to build protobuf from source as a part
+of your project, you should pin to a release commit on a release branch.
+
+This is because even release branches can experience some instability in between
+release commits.
 
 Protobuf Compiler Installation
 ------------------------------

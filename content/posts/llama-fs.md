@@ -1,9 +1,9 @@
 ---
 title: llama-fs
-date: 2024-05-29T12:19:14+08:00
+date: 2024-05-30T12:19:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716500158551-2832edbe6eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716500158551-2832edbe6eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716117273853-75a1989029f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716117273853-75a1989029f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
 ---
 
 # [iyaja/llama-fs](https://github.com/iyaja/llama-fs)
@@ -75,7 +75,10 @@ To install the project, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-
+4. (Optional) Install moondream if you want to use the incognito mode
+    ```bash
+    ollama pull moondream
+    ```
 ## Usage
 
 To serve the application locally using FastAPI, run the command
