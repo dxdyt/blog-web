@@ -1,9 +1,9 @@
 ---
 title: QuickRecorder
-date: 2024-05-29T12:19:29+08:00
+date: 2024-05-31T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713689951355-7df0f904e54d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713689951355-7df0f904e54d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715646527352-3e9a4e406952?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715646527352-3e9a4e406952?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
 ---
 
 # [lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)

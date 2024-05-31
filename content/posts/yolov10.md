@@ -1,9 +1,9 @@
 ---
 title: yolov10
-date: 2024-05-30T12:19:43+08:00
+date: 2024-05-31T12:18:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712869456131-f20d945004cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712869456131-f20d945004cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
 ---
 
 # [THU-MIG/yolov10](https://github.com/THU-MIG/yolov10)
@@ -31,6 +31,10 @@ Over the past years, YOLOs have emerged as the predominant paradigm in the field
 </details>
 
 **UPDATES** 🔥
+- 2024/05/31: Thanks to [kaylorchen](https://github.com/kaylorchen) for the integration with [rk3588](https://github.com/kaylorchen/rk3588-yolo-demo)!
+- 2024/05/31: Please use the [exported format](https://github.com/THU-MIG/yolov10?tab=readme-ov-file#export) for benchmark. In the non-exported format, e.g., pytorch, the speed of YOLOv10 is biased because the unnecessary `cv2` and `cv3` operations in the `v10Detect` are executed during inference.
+- 2024/05/30: We provide [some clarifications and suggestions](https://github.com/THU-MIG/yolov10/issues/136) for detecting smaller objects or objects in the distance with YOLOv10. Thanks to [SkalskiP](https://github.com/SkalskiP)!
+- 2024/05/30: Thanks to [eaidova](https://github.com/eaidova) for the integration with [OpenVINO™](https://github.com/openvinotoolkit/openvino_notebooks/blob/0ba3c0211bcd49aa860369feddffdf7273a73c64/notebooks/yolov10-optimization/yolov10-optimization.ipynb)!
 - 2024/05/29: Add the gradio demo for running the models locally. Thanks to [AK](https://x.com/_akhaliq)!
 - 2024/05/27: Thanks to [sujanshresstha](sujanshresstha) for the integration with [DeepSORT](https://github.com/sujanshresstha/YOLOv10_DeepSORT.git)!
 - 2024/05/27: We have updated the [checkpoints](https://github.com/THU-MIG/yolov10/releases/tag/v1.1) with other attributes, like class names, for ease of use.
@@ -41,6 +45,7 @@ Over the past years, YOLOs have emerged as the predominant paradigm in the field
 
 ## Performance
 COCO
+
 | Model | Test Size | #Params | FLOPs | AP<sup>val</sup> | Latency |
 |:---------------|:----:|:---:|:--:|:--:|:--:|
 | [YOLOv10-N](https://github.com/THU-MIG/yolov10/releases/download/v1.1/yolov10n.pt) |   640  |     2.3M    |   6.7G   |     38.5%     | 1.84ms |
@@ -77,6 +82,7 @@ yolo detect train data=coco.yaml model=yolov10n/s/m/b/l/x.yaml epochs=500 batch=
 ```
 
 ## Prediction
+Note that a smaller confidence threshold can be set to detect smaller objects or objects in the distance. Please refer to [here](https://github.com/THU-MIG/yolov10/issues/136) for details.
 ```
 yolo predict model=yolov10n/s/m/b/l/x.pt
 ```

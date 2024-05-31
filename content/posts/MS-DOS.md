@@ -1,9 +1,9 @@
 ---
 title: MS-DOS
-date: 2024-05-15T12:17:27+08:00
+date: 2024-05-31T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713701203359-c562228343b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713701203359-c562228343b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU3NDY2MTF8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1714303744946-4c8ce259d5f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1714303744946-4c8ce259d5f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/MS-DOS](https://github.com/microsoft/MS-DOS)

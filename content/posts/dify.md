@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2024-05-09T12:19:53+08:00
+date: 2024-05-31T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713593931118-ebb1807d8f3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713593931118-ebb1807d8f3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1714303744946-4c8ce259d5f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1714303744946-4c8ce259d5f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -45,13 +45,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1713593931118-ebb1807d8f
   <a href="./README_ES.md"><img alt="README en Español" src="https://img.shields.io/badge/Español-d9d9d9"></a>
   <a href="./README_FR.md"><img alt="README en Français" src="https://img.shields.io/badge/Français-d9d9d9"></a>
   <a href="./README_KL.md"><img alt="README tlhIngan Hol" src="https://img.shields.io/badge/Klingon-d9d9d9"></a>
+  <a href="./README_KR.md"><img alt="README in Korean" src="https://img.shields.io/badge/한국어-d9d9d9"></a>
 </p>
 
-#
 
-<p align="center">
-  <a href="https://trendshift.io/repositories/2152" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2152" alt="langgenius%2Fdify | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-</p>
 Dify is an open-source LLM app development platform. Its intuitive interface combines AI workflow, RAG pipeline, agent capabilities, model management, observability features and more, letting you quickly go from prototype to production. Here's a list of the core features:
 </br> </br>
 
@@ -119,7 +116,7 @@ Dify is an open-source LLM app development platform. Its intuitive interface com
     <td align="center">Agent</td>
     <td align="center">✅</td>
     <td align="center">✅</td>
-    <td align="center">✅</td>
+    <td align="center">❌</td>
     <td align="center">✅</td>
   </tr>
   <tr>
@@ -137,7 +134,7 @@ Dify is an open-source LLM app development platform. Its intuitive interface com
     <td align="center">❌</td>
   </tr>
   <tr>
-    <td align="center">Enterprise Feature (SSO/Access control)</td>
+    <td align="center">Enterprise Features (SSO/Access control)</td>
     <td align="center">✅</td>
     <td align="center">❌</td>
     <td align="center">❌</td>
