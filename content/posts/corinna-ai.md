@@ -1,9 +1,9 @@
 ---
 title: corinna-ai
-date: 2024-05-31T12:19:17+08:00
+date: 2024-06-01T12:18:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714573807621-56ec401b0a60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714573807621-56ec401b0a60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [webprodigies/corinna-ai](https://github.com/webprodigies/corinna-ai)

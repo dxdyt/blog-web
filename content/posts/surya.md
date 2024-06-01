@@ -1,9 +1,9 @@
 ---
 title: surya
-date: 2024-05-30T12:21:53+08:00
+date: 2024-06-01T12:17:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716132813050-ed33a6dbb05d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716132813050-ed33a6dbb05d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [VikParuchuri/surya](https://github.com/VikParuchuri/surya)
@@ -54,6 +54,10 @@ Surya is named for the [Hindu sun god](https://en.wikipedia.org/wiki/Surya), who
 I want surya to be as widely accessible as possible, while still funding my development/training costs. Research and personal usage is always okay, but there are some restrictions on commercial usage.
 
 The weights for the models are licensed `cc-by-nc-sa-4.0`, but I will waive that for any organization under $5M USD in gross revenue in the most recent 12-month period AND under $5M in lifetime VC/angel funding raised. If you want to remove the GPL license requirements (dual-license) and/or use the weights commercially over the revenue limit, check out the options [here](https://www.datalab.to).
+
+# Hosted API
+
+There is a hosted API for all surya models available [here](https://www.datalab.to/).  It's currently in beta, and I'm working on optimizing speed.
 
 # Installation
 

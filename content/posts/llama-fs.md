@@ -1,9 +1,9 @@
 ---
 title: llama-fs
-date: 2024-05-31T12:18:40+08:00
+date: 2024-06-01T12:16:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715645940897-69561d7a2c83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715645940897-69561d7a2c83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [iyaja/llama-fs](https://github.com/iyaja/llama-fs)

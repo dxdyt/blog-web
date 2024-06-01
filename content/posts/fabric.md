@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2024-05-31T12:18:23+08:00
+date: 2024-06-01T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716117273853-75a1989029f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716117273853-75a1989029f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713560625744-46175f1b4a37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713560625744-46175f1b4a37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -65,17 +65,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1716117273853-75a1989029
 > [!NOTE]
 > May 23, 2024 — We will be switching Fabric to Go in a few weeks to avoid all the installation issues with Python. The Go version will be dead-simple to install and will be even faster. Plus easier to update. We already have it working thanks to the heroic efforts of @xssdoctor, and we're just working on testing now! Stay tuned for more info on the release date!
 
-## Introduction videos
+## Introduction video by Network Chuck!
 
-**NOTE**: These videos use the `./setup.sh` install method, which is now replaced with the easier `pipx install .` method. Other than that everything else is still the same.
+This is a **brilliant** video by Network Chuck that goes over why he's started using Fabric for all things AI. He talks about the spirit of the project, how to install it, and how he uses it, and he just generally articulates the spirit of what we're doing here SO WELL. Thanks to Chuck for this!
 
-<div align="center">
-<a href="https://youtu.be/wPEyyigh10g">
-<img width="972" alt="fabric_intro_video" src="https://github.com/danielmiessler/fabric/assets/50654/1eb1b9be-0bab-4c77-8ed2-ed265e8a3435"></a>
-    <br /><br />
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lEXd6TXPw7E target="_blank">
- <img src="http://img.youtube.com/vi/lEXd6TXPw7E/mqdefault.jpg" alt="Watch the video" width="972" " />
-</a>
+<div class="center">
+<a href="https://youtu.be/UbDyjIIGaxQ"><img width="1000" alt="image" src="https://github.com/danielmiessler/fabric/assets/50654/a6a61885-7bb1-48d7-8ea9-777ebb2fdb94"></a>
 </div>
 
 ## What and why
@@ -507,7 +502,7 @@ pbpaste | fabric -p your_custom_pattern
 
 ## Agents
 
-NEW FEATURE! We have incorporated (PraisonAI)[https://github.com/MervinPraison/PraisonAI] into Fabric. This feature creates AI agents and then uses them to perform a task.
+NEW FEATURE! We have incorporated [PraisonAI](https://github.com/MervinPraison/PraisonAI) into Fabric. This feature creates AI agents and then uses them to perform a task.
 
 ```bash
 echo "Search for recent articles about the future of AI and write me a 500-word essay on the findings" | fabric --agents

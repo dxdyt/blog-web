@@ -1,9 +1,9 @@
 ---
 title: MusePose
-date: 2024-05-31T12:19:24+08:00
+date: 2024-06-01T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714952226774-b7a2c5707e30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714952226774-b7a2c5707e30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [TMElyralab/MusePose](https://github.com/TMElyralab/MusePose)
@@ -29,6 +29,9 @@ Lyra Lab, Tencent Music Entertainment
 `MusePose` is the last building block of **the Muse opensource serie**. Together with [MuseV](https://github.com/TMElyralab/MuseV) and [MuseTalk](https://github.com/TMElyralab/MuseTalk), we hope the community can join us and march towards the vision where a virtual human can be generated end2end with native ability of full body movement and interaction. Please stay tuned for our next milestone!
 
 We really appreciate [AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone) for their academic paper and [Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone) for their code base, which have significantly expedited the development of the AIGC community and [MusePose](https://github.com/TMElyralab/MusePose).
+
+Update:
+1. We support [Comfyui-MusePose](https://github.com/TMElyralab/Comfyui-MusePose) now!
 
 ## Overview
 [MusePose](https://github.com/TMElyralab/MusePose) is a diffusion-based and pose-guided virtual human video generation framework.  
@@ -82,11 +85,12 @@ Our main contributions could be summarized as follows:
 
 ## News
 - [05/27/2024] Release `MusePose` and pretrained models.
-
+- [05/31/2024] Support [Comfyui-MusePose](https://github.com/TMElyralab/Comfyui-MusePose)
 
 ## Todo:
 - [x] release our trained models and inference codes of MusePose.
 - [x] release pose align algorithm.
+- [x] Comfyui-MusePose
 - [ ] training guidelines.
 - [ ] Huggingface Gradio demo.
 - [ ] a improved architecture and model (may take longer).

@@ -1,9 +1,9 @@
 ---
 title: primeng
-date: 2023-11-23T12:18:32+08:00
+date: 2024-06-01T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699565979651-7fd87e4d38d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699565979651-7fd87e4d38d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3MTI5NDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [primefaces/primeng](https://github.com/primefaces/primeng)

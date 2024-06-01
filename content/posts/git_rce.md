@@ -1,9 +1,9 @@
 ---
 title: git_rce
-date: 2024-05-24T12:18:57+08:00
+date: 2024-06-01T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714299758704-f06d6ca16122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714299758704-f06d6ca16122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY1MjQyNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716220982197-b8e8439ed096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716220982197-b8e8439ed096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [amalmurali47/git_rce](https://github.com/amalmurali47/git_rce)

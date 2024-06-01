@@ -1,9 +1,9 @@
 ---
 title: Alamofire
-date: 2023-12-17T12:17:26+08:00
+date: 2024-06-01T12:19:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701589623520-4fb55453094c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701589623520-4fb55453094c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI3ODY1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714612673675-7561c122c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
 ---
 
 # [Alamofire/Alamofire](https://github.com/Alamofire/Alamofire)
@@ -134,6 +134,30 @@ Due to these issues, Alamofire is unsupported on Linux, Windows, and Android. Pl
 
 ## Installation
 
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
+
+Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift` or the Package list in Xcode.
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.9.1"))
+]
+```
+
+Normally you'll want to depend on the `Alamofire` target:
+
+```swift
+.product(name: "Alamofire", package: "Alamofire")
+```
+
+But if you want to force Alamofire to be dynamically linked (do not do this unless you're sure you need it), you can depend on the `AlamofireDynamic` target:
+
+```swift
+.product(name: "AlamofireDynamic", package: "Alamofire")
+```
+
 ### CocoaPods
 
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
@@ -148,18 +172,6 @@ pod 'Alamofire'
 
 ```ogdl
 github "Alamofire/Alamofire"
-```
-
-### Swift Package Manager
-
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
-
-Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`.
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.8.1"))
-]
 ```
 
 ### Manually
