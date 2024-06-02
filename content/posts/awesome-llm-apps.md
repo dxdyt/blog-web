@@ -1,0 +1,118 @@
+---
+title: awesome-llm-apps
+date: 2024-06-02T12:17:00+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1714911463721-193701866e58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714911463721-193701866e58?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+---
+
+# [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+
+<p align="center">
+  <a href="https://unwindai.substack.com">
+    <img src="docs/banner/unwind.png" width="600px" alt="Unwind AI">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/shubhamsaboo/">
+    <img src="https://img.shields.io/badge/-Follow%20Shubham%20Saboo-blue?logo=linkedin&style=flat-square" alt="LinkedIn">
+  </a>
+  <a href="https://twitter.com/Saboo_Shubham_">
+    <img src="https://img.shields.io/twitter/follow/Shubham_Saboo" alt="Twitter">
+  </a>
+</p>
+
+<hr/>
+
+# 🌟 Awesome LLM Apps
+A curated collection of awesome LLM apps built with RAG and AI agents. This repository features LLM apps that use models from OpenAI, Anthropic, Google, and even open-source models like LLaMA that you can run locally on your computer.
+
+## 📑 Table of Contents
+
+- [🤔 Why Awesome LLM Apps?](#-why-awesome-llm-apps)
+- [📂 Featured Projects](#-featured-projects)
+  - [💻 Local Lllama-3 with RAG](#-local-llama-3-with-rag)
+  - [🎯 Generative AI Web Search Assistant](#-generative-ai-web-search-assistant)
+  - [💬 Chat with GitHub Repo](#-chat-with-github-repo)
+  - [📈 AI Investment Agent](#-ai-investment-agent)
+  - [📰 Multi-Agent AI Researcher](#-multi-agent-ai-researcher)
+  - [📄 Chat with PDF](#-chat-with-pdf)
+  - [💻 Web Scraping AI Agent](#-web-scraping-ai-agent)
+  - [📨 Chat with Gmail](#-chat-with-gmail)
+  - [📽️ Chat with YouTube Videos](#-chat-with-youtube-videos)
+  - [🔎 Chat with Arxiv Research Papers](#-chat-with-arxiv-research-papers)
+  - [📝 Chat with Substack Newsletter](#-chat-with-substack-newsletter)
+- [🚀 Getting Started](#-getting-started)
+- [🤝 Contributing to Opensource](#-contributing-to-opensource)
+
+## 🤔 Why Awesome LLM Apps?
+- 💡 Discover practical and creative ways LLMs can be applied across different domains, from code repositories to email inboxes and more.
+- 🔥 Explore apps that combine LLMs from OpenAI, Anthropic, Gemini, and open-source alternatives with RAG and AI Agents.
+- 🎓 Learn from well-documented projects and contribute to the growing open-source ecosystem of LLM-powered applications.
+
+## 📂 Featured Projects
+
+### 💻 Local Lllama-3 with RAG
+Chat with any webpage using local Llama-3 and Retrieval Augmented Generation (RAG) in a Streamlit app. Enjoy 100% free and offline functionality.
+
+### 🎯 Generative AI Web Search Assistant
+Get pinpointed answers to your queries by combining search engines and LLMs using OpenAI's GPT-4 and the DuckDuckGo search engine for accurate responses.
+
+### 💬 Chat with GitHub Repo
+Engage in natural conversations with your GitHub repositories using GPT-4. Uncover valuable insights and documentation effortlessly.
+
+### 📈 AI Investment Agent
+AI investment agent that compares the performance of two stocks and generates detailed stock reports with company insights, news, and analyst recommendations to help you make smart investment choices.
+
+### 📰 Multi-Agent AI Researcher
+Use a team of AI agents to research top HackerNews stories and users with GPT-4 to generate blog posts, reports, and social media content on autopilot.
+
+### 📄 Chat with PDF
+Engage in intelligent conversation and question-answering based on the content of your PDF documents. Simply upload and start asking questions.
+
+### 💻 Web Scraping AI Agent
+Intelligently scrape websites using OpenAI API and the scrapegraphai library. Specify the URL and extraction requirements, and let the AI agent handle the rest.
+
+### 📨 Chat with Gmail
+Interact with your Gmail inbox using natural language. Get accurate answers to your questions based on the content of your emails with Retrieval Augmented Generation (RAG).
+
+### 📽️ Chat with YouTube Videos
+Dive into video content with interactive conversation and question-answering based on YouTube videos. Provide a URL and engage with the video's content through natural language.
+
+### 🔎 Chat with Arxiv Research Papers
+Explore the vast knowledge in arXiv research papers through interactive conversations using GPT-4 and unlock insights from millions of research papers.
+
+### 📝 Chat with Substack Newsletter
+Chat with a Substack newsletter using OpenAI's API and the Embedchain library in a Streamlit app. Leverage GPT-4 for precise answers based on newsletter content.
+
+## 🚀 Getting Started
+
+1. Clone the repository 
+
+    ```bash 
+    git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git 
+    ```
+
+2. Navigate to the desired project directory
+
+    ```bash 
+    cd awesome-llm-apps/chat_with_gmail 
+    ```
+
+3. Install the required dependencies
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4. Follow the project-specific instructions in each project's README.md file to set up and run the app.
+
+## 🤝 Contributing to Opensource
+Contributions are welcome! If you have any ideas, improvements, or new apps to add, please create a new [GitHub Issue](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) or submit a pull request. Make sure to follow the existing project structure and include a detailed README.md for each new app.
+
+### Thank you community for the support 🙏
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Shubhamsaboo/awesome-llm-apps&type=Date)](https://star-history.com/#Shubhamsaboo/awesome-llm-apps&Date)
+
+🌟 **Don’t miss out on future updates! Star the repo now and be the first to know about new and exciting LLM applications with RAG.**

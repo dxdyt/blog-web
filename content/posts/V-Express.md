@@ -1,9 +1,9 @@
 ---
 title: V-Express
-date: 2024-06-01T12:16:43+08:00
+date: 2024-06-02T12:16:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716220982197-b8e8439ed096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716220982197-b8e8439ed096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715630914630-145eff95062b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715630914630-145eff95062b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [tencent-ailab/V-Express](https://github.com/tencent-ailab/V-Express)
@@ -52,6 +52,8 @@ pip install torchvision==0.15.2
 pip install transformers==4.30.2
 pip install einops==0.4.1
 pip install tqdm==4.66.1
+pip install xformers==0.0.22
+pip install av==11.0.0
 
 # download the codes
 git clone https://github.com/tencent-ailab/V-Express

@@ -1,42 +1,72 @@
 ---
 title: AnimateAnyone
-date: 2024-03-29T12:18:34+08:00
+date: 2024-06-02T12:16:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708446448564-4158aa4785e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714983020605-d94a202c8366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714983020605-d94a202c8366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
 ---
 
-# [HumanAIGC/AnimateAnyone](https://github.com/HumanAIGC/AnimateAnyone)
+# [novitalabs/AnimateAnyone](https://github.com/novitalabs/AnimateAnyone)
 
-# AnimateAnyone
-Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation
+# Animate Anyone
 
-[Li Hu](https://scholar.google.com/citations?view_op=list_works&hl=zh-CN&user=Arz3iGUAAAAJ&gmla=AJsN-F72u4R_vwVl2Jc0Sy_qIYuSwExx8ilpfrd-w5Yfi5FYFP_WhbJtHbAK_c5w-3KNBgTRjWiTvEFLtJSV5ryd1JuNVQdMVDMuSJS5dfn7NWbZQQpGGyyxlrfoq6cv6S_23QTSUWWY), 
-[Xin Gao](https://scholar.google.com/citations?user=cze1sXQAAAAJ&hl=en), 
-[Peng Zhang](https://scholar.google.com/citations?user=QTgxKmkAAAAJ&hl=zh-CN),
-[Ke Sun](https://dblp.org/pid/69/476-9.html), 
-[Bang Zhang](https://dblp.org/pid/11/4046.html),
-[Liefeng Bo](https://scholar.google.com/citations?user=FJwtMf0AAAAJ&hl=zh-CN)
+[![Novita AI](https://github.com/novitalabs/AnimateAnyone/assets/4327933/2a6ef880-e5c3-437e-adc5-2ae8601ac4f8)](https://novita.ai)
 
-<a href='https://humanaigc.github.io/animate-anyone/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/pdf/2311.17117.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://www.youtube.com/watch?v=8PCn5hLKNu4)
+## Overview
 
-![Teaser Image](docs/video_t1.png "Teaser")
+This repository currently provides the unofficial pre-trained weights and inference code of [Animate Anyone](https://humanaigc.github.io/animate-anyone). It is inspired by the implementation of the [MooreThreads/Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone) repository and we made some adjustments to the training process and datasets.
 
-## Updates
-Thank you all for your incredible support and interest in our project. We've received lots of  inquiries regarding  a demo or the source code. We want to assure you that we are actively working on preparing the demo and code for public release.  Although we cannot commit to a specific release date at this very moment, please be certain that the intention to provide access to both the demo and our source code is firm. 
+## Samples
 
-Our goal is to not only share the code but also ensure that it is robust and user-friendly, transitioning it from an academic prototype to a more polished version that provides a seamless experience. We appreciate your patience as we take the necessary steps to clean, document, and test the code to meet these standards.  
+<table class="center">
+    <tr><td><video controls autoplay loop src="https://github.com/novitalabs/AnimateAnyone/assets/4327933/49d9c98c-a3bb-4cfc-b1ce-c0e85731e7f8">Demo 1</video></td></tr>
+    <tr><td><video controls autoplay loop src="https://github.com/novitalabs/AnimateAnyone/assets/4327933/cd58d1e8-95d8-46e2-8b34-ba004067c6c9">Demo 2</video></td></tr>
+    <tr><td><video controls autoplay loop src="https://github.com/novitalabs/AnimateAnyone/assets/4327933/1f07f5e7-073e-4d02-872b-da63e2a97c1b">Demo 3</video></td></tr>
+    <tr><td><video controls autoplay loop src="https://github.com/novitalabs/AnimateAnyone/assets/4327933/3e492adf-9d07-493d-b3c9-65db47713bf3">Demo 4</video></td></tr>
+</table>
 
-Thank you for your understanding and continuous support.  
+## Quickstart
 
-## Citation	
+### Build Environtment
 
+We Recommend a python version `>=3.10` and cuda version `=11.7`. Then build environment as follows:
+
+```shell
+# [Optional] Create a virtual env
+python -m venv .venv
+source .venv/bin/activate
+# Install with pip:
+pip install -r requirements.txt
 ```
-@article{hu2023animateanyone,
-  title={Animate Anyone: Consistent and Controllable Image-to-Video Synthesis for Character Animation},
-  author={Li Hu and Xin Gao and Peng Zhang and Ke Sun and Bang Zhang and Liefeng Bo},
-  journal={arXiv preprint arXiv:2311.17117},
-  website={https://humanaigc.github.io/animate-anyone/},
-  year={2023}
-}
+
+### Download weights
+
+**Automatically downloading**: You can run the following command to download weights automatically:
+
+```shell
+python tools/download_weights.py
 ```
+
+Weights will be placed under the `./pretrained_weights` direcotry. The whole downloading process may take a long time.
+
+### Inference
+
+Here is the cli command for running inference scripts:
+
+```shell
+python -m scripts.pose2vid --config ./configs/prompts/animation.yaml -W 512 -H 784 -L 64
+```
+
+You can refer the format of `animation.yaml` to add your own reference images or pose videos. To convert the raw video into a pose video (keypoint sequence), you can run with the following command:
+
+```shell
+python tools/vid2pose.py --video_path /path/to/your/video.mp4
+```
+
+## Or try it on Novita AI
+
+We've deployed this model on Novita AI, and you can try it out with Playground ➡️ https://novita.ai/playground#animate-anyone .
+
+## Acknowledgements
+
+This project is based on [MooreThreads/Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone) which is licensed under the Apache License 2.0. We thank to the authors of [Animate Anyone](https://humanaigc.github.io/animate-anyone) and [MooreThreads/Moore-AnimateAnyone](https://github.com/MooreThreads/Moore-AnimateAnyone), for their open research and exploration.

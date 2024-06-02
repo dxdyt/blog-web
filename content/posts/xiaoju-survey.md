@@ -1,9 +1,9 @@
 ---
 title: xiaoju-survey
-date: 2024-05-31T12:18:33+08:00
+date: 2024-06-02T12:15:56+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1714303744946-4c8ce259d5f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1714303744946-4c8ce259d5f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714894324471-d2552e264030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714894324471-d2552e264030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [didi/xiaoju-survey](https://github.com/didi/xiaoju-survey)

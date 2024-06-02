@@ -1,9 +1,9 @@
 ---
 title: ChatTTS
-date: 2024-06-01T12:16:37+08:00
+date: 2024-06-02T12:15:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [2noise/ChatTTS](https://github.com/2noise/ChatTTS)

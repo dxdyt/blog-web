@@ -1,9 +1,9 @@
 ---
 title: MusePose
-date: 2024-06-01T12:17:38+08:00
+date: 2024-06-02T12:16:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714786435265-cef4d29884ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716080192370-1f1ab8f1dfc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716080192370-1f1ab8f1dfc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
 ---
 
 # [TMElyralab/MusePose](https://github.com/TMElyralab/MusePose)
@@ -197,7 +197,7 @@ python test_stage_2.py --config ./configs/test_stage_2.yaml -W 512 -H 512
 ```
 It will generate the video at 512 x 512 first, and then resize it back to the original size of the pose video.
 
-Currently, it takes 16GB VRAM to run on 512 x 512 x 48 and takes 28GB VRAM to run on 768 x 768 x 48. However, it should be noticed that the inference resolution would affect the final results.
+Currently, it takes 16GB VRAM to run on 512 x 512 x 48 and takes 28GB VRAM to run on 768 x 768 x 48. However, it should be noticed that the inference resolution would affect the final results (especially face region).
 
 #### Face Enhancement
 
