@@ -1,9 +1,9 @@
 ---
 title: OSX-KVM
-date: 2023-09-18T12:16:58+08:00
+date: 2024-06-03T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692520703852-ecfefd7eb377?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692520703852-ecfefd7eb377?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTUwMTA0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [kholia/OSX-KVM](https://github.com/kholia/OSX-KVM)
@@ -64,7 +64,7 @@ help (pull-requests!) with the following work items:
 * A CPU with AVX2 support is required for >= macOS Mojave
 
 Note: Older AMD CPU(s) are known to be problematic but modern AMD Ryzen
-processors work just fine.
+processors work just fine (even for macOS Sonoma).
 
 
 ### Installation Preparation
@@ -74,7 +74,7 @@ processors work just fine.
   ```
   sudo apt-get install qemu uml-utilities virt-manager git \
       wget libguestfs-tools p7zip-full make dmg2img tesseract-ocr \
-      tesseract-ocr-eng genisoimage -y
+      tesseract-ocr-eng genisoimage vim net-tools screen -y
   ```
 
   This step may need to be adapted for your Linux distribution.
@@ -145,8 +145,9 @@ processors work just fine.
   4. Big Sur (11.7)
   5. Monterey (12.6)
   6. Ventura (13) - RECOMMENDED
+  7. Sonoma (14)
 
-  Choose a product to download (1-6): 4
+  Choose a product to download (1-6): 6
   ```
 
   Note: Modern NVIDIA GPUs are supported on HighSierra but not on later
@@ -163,7 +164,7 @@ processors work just fine.
   will need to be updated to point to the new image name.
 
   ```
-  qemu-img create -f qcow2 mac_hdd_ng.img 128G
+  qemu-img create -f qcow2 mac_hdd_ng.img 256G
   ```
 
   NOTE: Create this HDD image file on a fast SSD/NVMe disk for best results.
@@ -183,11 +184,10 @@ processors work just fine.
   Note: This same script works for all recent macOS versions.
 
 - Use the `Disk Utility` tool within the macOS installer to partition, and
-  format the virtual disk attached to the macOS VM.
+  format the virtual disk attached to the macOS VM. Use `APFS` (the default)
+  for modern macOS versions.
 
 - Go ahead, and install macOS 🙌
-
-- TIP: Using a non-APFS filesystem is recommended.
 
 - (OPTIONAL) Use this macOS VM disk with libvirt (virt-manager / virsh stuff).
 

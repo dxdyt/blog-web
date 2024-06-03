@@ -1,9 +1,9 @@
 ---
 title: xmrig
-date: 2023-11-07T12:17:11+08:00
+date: 2024-06-03T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697927024125-1f7eb9aaa9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697927024125-1f7eb9aaa9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715090488848-4d05af86009b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715090488848-4d05af86009b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [xmrig/xmrig](https://github.com/xmrig/xmrig)

@@ -1,9 +1,9 @@
 ---
 title: revanced-patches
-date: 2024-06-02T12:15:48+08:00
+date: 2024-06-03T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715630914630-145eff95062b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715630914630-145eff95062b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [ReVanced/revanced-patches](https://github.com/ReVanced/revanced-patches)

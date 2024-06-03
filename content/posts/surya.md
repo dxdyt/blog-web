@@ -1,9 +1,9 @@
 ---
 title: surya
-date: 2024-06-01T12:17:07+08:00
+date: 2024-06-03T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716478084745-6459c7de7d42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [VikParuchuri/surya](https://github.com/VikParuchuri/surya)

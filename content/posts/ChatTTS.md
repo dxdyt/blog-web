@@ -1,9 +1,9 @@
 ---
 title: ChatTTS
-date: 2024-06-02T12:15:33+08:00
+date: 2024-06-03T12:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713458159923-e511573e905c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716724900031-77635db1c723?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716724900031-77635db1c723?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [2noise/ChatTTS](https://github.com/2noise/ChatTTS)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1713458159923-e511573e90
 
 ChatTTS is a text-to-speech model designed specifically for dialogue scenario such as LLM assistant. It supports both English and Chinese languages. Our model is trained with 100,000+ hours composed of chinese and english. The open-source version on **[HuggingFace](https://huggingface.co/2Noise/ChatTTS)** is a 40,000 hours pre trained model without SFT.
 
-For formal inquiries about model and roadmap, please contact us at **open-source@2noise.com**. You could join our QQ group: 808364215 for discussion. Adding github issues is always welcomed.
+For formal inquiries about model and roadmap, please contact us at **open-source@2noise.com**. You could join our QQ group: ~~808364215 (Full)~~ 230696694 (Group 2) for discussion. Adding github issues is always welcomed.
 
 ---
 ## Highlights

@@ -1,16 +1,16 @@
 ---
 title: ChatTTS-ui
-date: 2024-06-02T12:15:39+08:00
+date: 2024-06-03T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715630914630-145eff95062b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715630914630-145eff95062b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716724900031-77635db1c723?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716724900031-77635db1c723?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [jianchang512/ChatTTS-ui](https://github.com/jianchang512/ChatTTS-ui)
 
 # ChatTTS webUI & API 
 
-一个简单的本地网页界面，直接在网页使用 [ChatTTS](https://github.com/2noise/chattts) 将文字合成为语音，同时支持对外提供API接口。
+一个简单的本地网页界面，直接在网页使用 [ChatTTS](https://github.com/2noise/chattts) 将文字合成为语音，支持中英文、数字混杂，并提供API接口。
 
 [Releases中可下载Windows整合包](https://github.com/jianchang512/ChatTTS-ui/releases)。
 
@@ -18,13 +18,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1715630914630-145eff9506
 
 > 界面预览
 >
-> ![image](https://github.com/jianchang512/ChatTTS-ui/assets/3378335/6ed7c993-3882-4c34-9abd-f0635b133012)
+> ![image](https://github.com/jianchang512/ChatTTS-ui/assets/3378335/26249652-5511-48a7-abad-76e3247910d2)
+
 >
 
 
 试听合成语音效果
 
-https://github.com/jianchang512/ChatTTS-ui/assets/3378335/03cf1c0f-0245-44b5-8007-370d9db2bda8
+https://github.com/jianchang512/ChatTTS-ui/assets/3378335/bd6aaef9-a49a-4a81-803a-91e3320bf808
+
+
+
+中英数字混杂效果
+
+https://github.com/jianchang512/ChatTTS-ui/assets/3378335/43370012-68c3-495f-a1be-c58035cbe8dc
+
+
 
 ## Windows预打包版
 

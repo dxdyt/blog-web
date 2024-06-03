@@ -1,9 +1,9 @@
 ---
 title: soybean-admin
-date: 2024-06-02T12:17:48+08:00
+date: 2024-06-03T12:21:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715114064378-b97c82f06856?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715114064378-b97c82f06856?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczMDE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [soybeanjs/soybean-admin](https://github.com/soybeanjs/soybean-admin)

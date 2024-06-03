@@ -1,22 +1,23 @@
 ---
 title: Scrapegraph-ai
-date: 2024-05-12T12:18:29+08:00
+date: 2024-06-03T12:20:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713528192259-c3514aa54224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713528192259-c3514aa54224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
 ---
 
 # [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai)
 
 
 # 🕷️ ScrapeGraphAI: You Only Scrape Once
+[English](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/README.md) | [中国人](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/docs/chinese.md)
+
 [![Downloads](https://static.pepy.tech/badge/scrapegraphai)](https://pepy.tech/project/scrapegraphai)
 [![linting: pylint](https://img.shields.io/badge/linting-pylint-yellowgreen)](https://github.com/pylint-dev/pylint)
 [![Pylint](https://github.com/VinciGit00/Scrapegraph-ai/actions/workflows/pylint.yml/badge.svg)](https://github.com/VinciGit00/Scrapegraph-ai/actions/workflows/pylint.yml)
 [![CodeQL](https://github.com/VinciGit00/Scrapegraph-ai/actions/workflows/codeql.yml/badge.svg)](https://github.com/VinciGit00/Scrapegraph-ai/actions/workflows/codeql.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![](https://dcbadge.vercel.app/api/server/gkxQDAjfeX)](https://discord.gg/gkxQDAjfeX)
-
 
 ScrapeGraphAI is a *web scraping* python library that uses LLM and direct graph logic to create scraping pipelines for websites and local documents (XML, HTML, JSON, etc.).
 
@@ -26,21 +27,12 @@ Just say which information you want to extract and the library will do it for yo
   <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/scrapegraphai_logo.png" alt="Scrapegraph-ai Logo" style="width: 50%;">
 </p>
 
-[![My Skills](https://skillicons.dev/icons?i=discord)](https://discord.gg/gkxQDAjfeX)
-[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/company/scrapegraphai/)
-[![My Skills](https://skillicons.dev/icons?i=twitter)](https://twitter.com/scrapegraphai)
-
-
 ## 🚀 Quick install
 
-The reference page for Scrapegraph-ai is available on the official page of pypy: [pypi](https://pypi.org/project/scrapegraphai/).
+The reference page for Scrapegraph-ai is available on the official page of PyPI: [pypi](https://pypi.org/project/scrapegraphai/).
 
 ```bash
 pip install scrapegraphai
-```
-you will also need to install Playwright for javascript-based scraping:
-```bash
-playwright install
 ```
 
 **Note**: it is recommended to install the library in a virtual environment to avoid conflicts with other libraries 🐱
@@ -48,25 +40,24 @@ playwright install
 ## 🔍 Demo
 Official streamlit demo:
 
-[![My Skills](https://skillicons.dev/icons?i=react)](https://scrapegraph-ai-demo.streamlit.app/)
+[![My Skills](https://skillicons.dev/icons?i=react)](https://scrapegraph-ai-web-dashboard.streamlit.app)
 
 Try it directly on the web using Google Colab:
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1sEZBonBMGP44CtO6GQTwAlL0BGJXjtfd?usp=sharing)
 
-Follow the procedure on the following link to setup your OpenAI API key: [link](https://scrapegraph-ai.readthedocs.io/en/latest/index.html).
-
 ## 📖 Documentation
 
 The documentation for ScrapeGraphAI can be found [here](https://scrapegraph-ai.readthedocs.io/en/latest/).
 
-Check out also the docusaurus [documentation](https://scrapegraph-doc.onrender.com/).
+Check out also the Docusaurus [here](https://scrapegraph-doc.onrender.com/).
 
 ## 💻 Usage
 There are three main scraping pipelines that can be used to extract information from a website (or local file):
 - `SmartScraperGraph`: single-page scraper that only needs a user prompt and an input source;
 - `SearchGraph`: multi-page scraper that extracts information from the top n search results of a search engine;
 - `SpeechGraph`: single-page scraper that extracts information from a website and generates an audio file.
+- `SmartScraperMultiGraph`: multiple page scraper given a single prompt
 
 It is possible to use different LLM through APIs, such as **OpenAI**, **Groq**, **Azure** and **Gemini**, or local models using **Ollama**.
 
@@ -189,6 +180,10 @@ Feel free to contribute and join our Discord server to discuss with us improveme
 
 Please see the [contributing guidelines](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/CONTRIBUTING.md).
 
+[![My Skills](https://skillicons.dev/icons?i=discord)](https://discord.gg/uJN7TYcpNa)
+[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/company/scrapegraphai/)
+[![My Skills](https://skillicons.dev/icons?i=twitter)](https://twitter.com/scrapegraphai)
+
 ## 📈 Roadmap
 Check out the project roadmap [here](https://github.com/VinciGit00/Scrapegraph-ai/blob/main/docs/README.md)! 🚀
 
@@ -196,10 +191,16 @@ Wanna visualize the roadmap in a more interactive way? Check out the [markmap](h
 
 ## ❤️ Contributors
 [![Contributors](https://contrib.rocks/image?repo=VinciGit00/Scrapegraph-ai)](https://github.com/VinciGit00/Scrapegraph-ai/graphs/contributors)
+
 ## Sponsors
-<p align="center">
-  <a href="https://serpapi.com/"><img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/serp_api_logo.png" alt="SerpAPI" style="width: 10%;"></a>
-</p>
+<div style="text-align: center;">
+  <a href="https://serpapi.com?utm_source=scrapegraphai">
+    <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/serp_api_logo.png" alt="SerpAPI" style="width: 10%;">
+  </a>
+  <a href="https://dashboard.statproxies.com/?refferal=scrapegraph">
+    <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/transparent_stat.png" alt="Stats" style="width: 15%;">
+  </a>
+</div>
 
 ## 🎓 Citations
 If you have used our library for research purposes please quote us with the following reference:
