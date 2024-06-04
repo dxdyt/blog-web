@@ -1,9 +1,9 @@
 ---
 title: ChatTTS-ui
-date: 2024-06-03T12:19:26+08:00
+date: 2024-06-04T12:16:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716724900031-77635db1c723?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716724900031-77635db1c723?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714752899377-65bec18b5917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714752899377-65bec18b5917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
 ---
 
 # [jianchang512/ChatTTS-ui](https://github.com/jianchang512/ChatTTS-ui)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1716724900031-77635db1c7
 
 > 界面预览
 >
-> ![image](https://github.com/jianchang512/ChatTTS-ui/assets/3378335/26249652-5511-48a7-abad-76e3247910d2)
+> ![image](https://github.com/jianchang512/ChatTTS-ui/assets/3378335/4ce62ff7-6e82-4695-97fc-861a4393d052)
 
 >
 
@@ -96,23 +96,60 @@ https://github.com/jianchang512/ChatTTS-ui/assets/3378335/43370012-68c3-495f-a1b
 3. 创建虚拟环境 `python3 -m venv venv`
 4. 激活虚拟环境 `source ./venv/bin/activate`
 5. 安装依赖 `pip3 install -r requirements.txt`
-6. 如果不需要CUDA加速，执行 `pip3 install torch torchaudio`
+6. 如果不需要CUDA加速，执行 `pip3 install torch==2.1.2 torchaudio==2.1.2`
 
 	如果需要CUDA加速，执行 
 	```
-	pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
+	pip install torch==2.1.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
 			
 	pip install nvidia-cublas-cu11 nvidia-cudnn-cu11
 		
 	```
 	另需安装 CUDA11.8+ ToolKit，请自行搜索安装方法 或参考 https://juejin.cn/post/7318704408727519270
+
+   	除CUDA外，也可以使用AMD GPU进行加速，这需要安装ROCm和PyTorch_ROCm版本。AMG GPU借助ROCm，在PyTorch开箱即用，无需额外修改代码。
+   	1. 请参考https://rocm.docs.amd.com/projects/install-on-linux/en/latest/tutorial/quick-start.html 来安装AMD GPU Driver及ROCm.
+	1. 再通过https://pytorch.org/ 安装PyTorch_ROCm版本。
+
+
+	```
+     	pip3 install torch==2.1.2  torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/rocm6.0
+	```
+        安装完成后，可以通过rocm-smi命令来查看系统中的AMD GPU。也可以用以下Torch代码(query_gpu.py)来查询当前AMD GPU Device.
+	```
+	import torch
 	
+	print(torch.__version__)
+	
+	if torch.cuda.is_available():
+	    device = torch.device("cuda")          # a CUDA device object
+	    print('Using GPU:', torch.cuda.get_device_name(0))
+	else:
+	    device = torch.device("cpu")
+	    print('Using CPU')
+	
+	torch.cuda.get_device_properties(0)
+
+	```
+
+ 	使用以上代码，以AMD Radeon Pro W7900为例，查询设备如下。
+
+ 	```
+ 	$ python ~/query_gpu.py
+	
+	2.4.0.dev20240401+rocm6.0
+	
+ 	Using GPU: AMD Radeon PRO W7900
+ 	```
+
+
+ 
 7. 执行 `python3 app.py` 启动，将自动打开浏览器窗口，默认地址 `http://127.0.0.1:9966` (注意：默认从 modelscope 魔塔下载模型，不可使用代理下载，请关闭代理)
 
 
 ## MacOS 下源码部署
 
-1. 配置好 python3.9+环境,安装git ，执行命令  `brew install git python@3.10`
+1. 配置好 python3.9+环境,安装git ，执行命令  `brew install libsndfile git python@3.10`
    继续执行
 
     ```
@@ -128,7 +165,7 @@ https://github.com/jianchang512/ChatTTS-ui/assets/3378335/43370012-68c3-495f-a1b
 3. 创建虚拟环境 `python3 -m venv venv`
 4. 激活虚拟环境 `source ./venv/bin/activate`
 5. 安装依赖 `pip3 install -r requirements.txt`
-6. 安装torch `pip3 install torch torchaudio`
+6. 安装torch `pip3 install torch==2.1.2 torchaudio==2.1.2`
 7. 执行 `python3 app.py` 启动，将自动打开浏览器窗口，默认地址 `http://127.0.0.1:9966`  (注意：默认从 modelscope 魔塔下载模型，不可使用代理下载，请关闭代理)
 
 
@@ -140,11 +177,11 @@ https://github.com/jianchang512/ChatTTS-ui/assets/3378335/43370012-68c3-495f-a1b
 4. 创建虚拟环境，执行命令 `python -m venv venv`
 4. 激活虚拟环境，执行 `.\venv\scripts\activate`
 5. 安装依赖,执行 `pip install -r requirements.txt`
-6. 如果不需要CUDA加速，执行 `pip install torch torchaudio`
+6. 如果不需要CUDA加速，执行 `pip install torch==2.1.2 torchaudio==2.1.2`
 
 	如果需要CUDA加速，执行 
 	
-	`pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118`
+	`pip install torch==2.1.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118`
 	
 	另需安装 CUDA11.8+ ToolKit，请自行搜索安装方法或参考 https://juejin.cn/post/7318704408727519270
 	
@@ -157,7 +194,7 @@ https://github.com/jianchang512/ChatTTS-ui/assets/3378335/43370012-68c3-495f-a1b
 
 2. 注意 modelscope 仅允许中国大陆ip下载模型，如果遇到 proxy 类错误，请关闭代理。如果你希望从 huggingface.co 下载模型，请打开 `app.py` 查看大约第50行-60行的注释。
 
-3. 如果需要GPU加速，必须是英伟达显卡，并且安装 cuda版本的torch。`pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118`
+3. 如果需要GPU加速，必须是英伟达显卡，并且安装 cuda版本的torch。`pip install torch==2.1.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118`
 
 ```
 # 默认从 modelscope 下载模型,如果想从huggingface下载模型，请将以下3行注释掉

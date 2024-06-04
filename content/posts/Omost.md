@@ -1,9 +1,9 @@
 ---
 title: Omost
-date: 2024-06-03T12:18:48+08:00
+date: 2024-06-04T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715512518597-7b42f0a1f528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715512518597-7b42f0a1f528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
 ---
 
 # [lllyasviel/Omost](https://github.com/lllyasviel/Omost)
@@ -652,6 +652,8 @@ Also read ...
 [DOCCI: Descriptions of Connected and Contrasting Images](https://google.github.io/docci/)
 
 [(RPG-DiffusionMaster) Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://github.com/YangLing0818/RPG-DiffusionMaster)
+
+[Ranni: Taming Text-to-Image Diffusion for Accurate Instruction Following](https://arxiv.org/abs/2311.17002)
 
 [LLM-grounded Diffusion: Enhancing Prompt Understanding of Text-to-Image Diffusion Models with Large Language Models](https://arxiv.org/abs/2305.13655) and [Self-correcting LLM-controlled Diffusion Models](https://arxiv.org/abs/2311.16090)
 

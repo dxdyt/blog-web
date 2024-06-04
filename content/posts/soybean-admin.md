@@ -1,9 +1,9 @@
 ---
 title: soybean-admin
-date: 2024-06-03T12:21:34+08:00
+date: 2024-06-04T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716745324526-8a4149760198?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714836992953-b8f7b4dc8afc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714836992953-b8f7b4dc8afc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
 ---
 
 # [soybeanjs/soybean-admin](https://github.com/soybeanjs/soybean-admin)
@@ -88,8 +88,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1716745324526-8a41497601
 Make sure your environment meets the following requirements:
 
 - **git**: you need git to clone and manage project versions.
-- **NodeJS**: >=18.0.0, recommended 18.19.0 or higher.
-- **pnpm**: >= 8.0.0, recommended 8.14.0 or higher.
+- **NodeJS**: >=18.12.0, recommended 18.19.0 or higher.
+- **pnpm**: >= 8.7.0, recommended 8.14.0 or higher.
 
 **Clone Project**
 

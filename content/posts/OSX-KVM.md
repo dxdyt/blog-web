@@ -1,9 +1,9 @@
 ---
 title: OSX-KVM
-date: 2024-06-03T12:20:43+08:00
+date: 2024-06-04T12:17:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714752899377-65bec18b5917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714752899377-65bec18b5917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
 ---
 
 # [kholia/OSX-KVM](https://github.com/kholia/OSX-KVM)

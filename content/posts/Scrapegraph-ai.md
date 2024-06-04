@@ -1,9 +1,9 @@
 ---
 title: Scrapegraph-ai
-date: 2024-06-03T12:20:25+08:00
+date: 2024-06-04T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714659784722-1b8d820e2174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTczODgzMjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714733710373-e2a8178d55e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714733710373-e2a8178d55e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
 ---
 
 # [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai)
@@ -174,6 +174,16 @@ print(result)
 
 The output will be an audio file with the summary of the projects on the page.
 
+## Sponsors
+<div style="text-align: center;">
+  <a href="https://serpapi.com?utm_source=scrapegraphai">
+    <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/serp_api_logo.png" alt="SerpAPI" style="width: 10%;">
+  </a>
+  <a href="https://dashboard.statproxies.com/?refferal=scrapegraph">
+    <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/transparent_stat.png" alt="Stats" style="width: 15%;">
+  </a>
+</div>
+
 ## 🤝 Contributing
 
 Feel free to contribute and join our Discord server to discuss with us improvements and give us suggestions!
@@ -191,16 +201,6 @@ Wanna visualize the roadmap in a more interactive way? Check out the [markmap](h
 
 ## ❤️ Contributors
 [![Contributors](https://contrib.rocks/image?repo=VinciGit00/Scrapegraph-ai)](https://github.com/VinciGit00/Scrapegraph-ai/graphs/contributors)
-
-## Sponsors
-<div style="text-align: center;">
-  <a href="https://serpapi.com?utm_source=scrapegraphai">
-    <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/serp_api_logo.png" alt="SerpAPI" style="width: 10%;">
-  </a>
-  <a href="https://dashboard.statproxies.com/?refferal=scrapegraph">
-    <img src="https://raw.githubusercontent.com/VinciGit00/Scrapegraph-ai/main/docs/assets/transparent_stat.png" alt="Stats" style="width: 15%;">
-  </a>
-</div>
 
 ## 🎓 Citations
 If you have used our library for research purposes please quote us with the following reference:
