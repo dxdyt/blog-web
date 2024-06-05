@@ -1,9 +1,9 @@
 ---
 title: ToonCrafter
-date: 2024-06-04T12:17:09+08:00
+date: 2024-06-05T12:19:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715128083410-6590520c82d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715128083410-6590520c82d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716277522326-9d9f154c63bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716277522326-9d9f154c63bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
 ---
 
 # [ToonCrafter/ToonCrafter](https://github.com/ToonCrafter/ToonCrafter)

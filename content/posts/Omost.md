@@ -1,9 +1,9 @@
 ---
 title: Omost
-date: 2024-06-04T12:16:27+08:00
+date: 2024-06-05T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715512518597-7b42f0a1f528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715512518597-7b42f0a1f528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716277522326-9d9f154c63bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716277522326-9d9f154c63bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
 ---
 
 # [lllyasviel/Omost](https://github.com/lllyasviel/Omost)

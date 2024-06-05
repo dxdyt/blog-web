@@ -1,23 +1,18 @@
 ---
 title: KawaiiLogos
-date: 2024-05-12T12:17:13+08:00
+date: 2024-06-05T12:21:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713204641930-9be477a56a8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713204641930-9be477a56a8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714890419065-1f6d7d6ad28c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714890419065-1f6d7d6ad28c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
 ---
 
 # [SAWARATSUKI/KawaiiLogos](https://github.com/SAWARATSUKI/KawaiiLogos)
 
 # KawaiiLogos
 
-[简体中文 README](/README-zhHans.md) | [Indonesian README](/README-ID.md)
+[English README](./README_EN.md) | [简体中文 README](/README-zhHans.md) | [Indonesian README](/README-ID.md) | [Türkçe README](/README-tr.md) | [한국어 README](/README-kr.md) | [README Français](/README-fr.md)
 
 こんにちは、こんばんは。このリポジトリはさわらつきが作成したロゴがアップロードされているリポジトリです。
-
-## 言語 / Languages
-
-- [English](./README_EN.md)
-
 
 > [!WARNING]  
  ここにあるロゴはさわらつきが作成したロゴです。各サービス、団体が作成したものではありません。  
