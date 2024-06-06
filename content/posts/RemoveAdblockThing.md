@@ -1,28 +1,28 @@
 ---
 title: RemoveAdblockThing
-date: 2023-10-22T12:16:50+08:00
+date: 2024-06-06T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696456117424-2cc9bf467800?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696456117424-2cc9bf467800?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714925298789-9cf7192d89c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714925298789-9cf7192d89c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
 ---
 
 # [TheRealJoelmatic/RemoveAdblockThing](https://github.com/TheRealJoelmatic/RemoveAdblockThing)
 
 # Remove the Adblock Popup from YOUTUBE
-[![picture](https://github.com/TheRealJoelmatic/RemoveAdblockThing/blob/main/Thumnail.jpg?raw=true)](https://www.youtube.com/watch?v=jvSf10lgxs4&ab_channel=Joelmatic)
+
+[![picture](Thumbnail.jpg?raw=true)](https://www.youtube.com/watch?v=jvSf10lgxs4&ab_channel=Joelmatic)
+
 ## Introduction
 
-This repository contains a userscript designed to remove the annoying "Ad blocker are not allowed on Youtube" popup. Follow the instructions below to get started.
-We also have an undetected way of skipping ads if you get blocked from the video player.
+This repository contains a userscript designed to remove the annoying "Ad blocker is not allowed on Youtube" popup. Follow the instructions below to get started. We also have an undetected way of skipping ads if you get blocked from the video player.
 
 ## Table of Contents:
 
 1. [Introduction](#introduction)
 2. [Installation](#installation)
-3. [How to bypass the video player ban from using an ad blocker](#how-to-bypass-the-video-player-ban-from-using-an-ad-blocker)
-4. [Usage](#usage)
-5. [Contribution](#contribution)
-6. [License](#license)
+3. [Common Issues](#Common-Issues)
+4. [Contribution](#contribution)
+5. [License](#license)
 
 ## Installation
 
@@ -33,43 +33,54 @@ We also have an undetected way of skipping ads if you get blocked from the video
    - [Tampermonkey for Edge](https://microsoftedge.microsoft.com/addons/detail/tampermonkey/iikmkjmpaadaobahmlepeloendndfphd)
    - [Tampermonkey for Opera/OperaGX](https://addons.opera.com/en-gb/extensions/details/tampermonkey-beta/)
 
-2. **Open Tampermonkey Dashboard**:
-   Click on the Tampermonkey extension icon in your browser and select "Dashboard."
+2. **Install the Script**:
+   [Click Here and Press Install](Youtube-Ad-blocker-Reminder-Remover.user.js?raw=True).
 
-3. **Create a New Script**:
-   In the Tampermonkey Dashboard, click on the "Utilities" tab and select "Create a new script."
-
-4. **Install the Script**:
-   [Click Here and Press Install](https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js).
-
-5. **Enable the Script**:
+3. **Enable the Script**:
    Enable the script by clicking the switch next to the script name in the Tampermonkey Dashboard.
 
-## How to bypass the video player ban from using an ad blocker
+4. **Disable your adblocker**:
+   Whitelist YouTube on any Chrome extensions that block ads or any third-party things that disable ads. Don't worry; our script removes ads on YouTube.
 
-1. **Install the script**:
-   Install the script using the instructions above
 
-2. **Disable your adblocker**:
-   **whitelist YouTube on any Chrome extensions that block ads or any third-party things that disable ads**. Don't worry our script removes ads.
+Note: This also allows you to watch videos when your video player is banned from using an adblock.
 
-## Usage
+## Common Issues
 
-Once you've installed and enabled the userscript, it should start working automatically Enjoy.
+**"Ad Blockers violate Youtube Terms Of Service" OR Just a black screen**
+
+This happens when there is an adblock other than the script running. Common ways you may be blocking ads accidentally on Youtube is:
+
+- **Adblock extension:** Disable or whitelist YouTube on your ad blocker extension.
+
+- **Browser built-in adblock:** Some browsers have built-in ad blockers. Disable or configure them.
+
+- **Other Tampermonkey scripts:** Scripts like YouTube enhancer may conflict. Disable them one by one to identify the issue.
+
+- **Wi-Fi/DNS/Firewall adblock rules:** Check network settings for any ad-blocking configurations.
+
+- **Windows hosts file rules:** Inspect the Windows hosts file (C:\Windows\System32\drivers\etc) for ad-blocking rules.
 
 ## Contribution
 
 If you have any suggestions, bug reports, or want to contribute to this userscript, feel free to create issues or pull requests in this GitHub repository.
 
-Contributors
-- [AngelPuzzle](https://github.com/angelapuzzle)
-- [oSumAtrIX](https://github.com/oSumAtrIX)
-- [Albedo-13](https://github.com/Albedo-13)
-- [SleepingPig35](https://github.com/SleepingPig35)
-- [marjansimic](https://github.com/marjansimic)
-- [Pecunia201](https://github.com/Pecunia201)
-- [henryli17](https://github.com/henryli17)
+### Contributors
+
+<a href="https://github.com/TheRealJoelmatic/RemoveAdblockThing/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TheRealJoelmatic/RemoveAdblockThing" />
+</a>
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Star History
+
+<a href="https://star-history.com/#TheRealJoelmatic/RemoveAdblockThing&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=TheRealJoelmatic/RemoveAdblockThing&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=TheRealJoelmatic/RemoveAdblockThing&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=TheRealJoelmatic/RemoveAdblockThing&type=Date" />
+  </picture>
+</a>

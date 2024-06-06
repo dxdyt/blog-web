@@ -1,9 +1,9 @@
 ---
 title: IsaacLab
-date: 2024-06-05T12:20:01+08:00
+date: 2024-06-06T12:17:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714890419065-1f6d7d6ad28c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714890419065-1f6d7d6ad28c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715550722304-b6ee97071817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715550722304-b6ee97071817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
 ---
 
 # [isaac-sim/IsaacLab](https://github.com/isaac-sim/IsaacLab)
