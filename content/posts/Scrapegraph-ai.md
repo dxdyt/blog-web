@@ -1,9 +1,9 @@
 ---
 title: Scrapegraph-ai
-date: 2024-06-06T12:18:24+08:00
+date: 2024-06-07T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714925298789-9cf7192d89c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714925298789-9cf7192d89c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717138523926-186e0b922e05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc3MzM4NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717138523926-186e0b922e05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc3MzM4NTd8&ixlib=rb-4.0.3
 ---
 
 # [VinciGit00/Scrapegraph-ai](https://github.com/VinciGit00/Scrapegraph-ai)

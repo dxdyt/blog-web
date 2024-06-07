@@ -1,9 +1,9 @@
 ---
 title: puter
-date: 2024-06-05T12:22:31+08:00
+date: 2024-06-07T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715405155683-e36aff15fd53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715405155683-e36aff15fd53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717138523926-186e0b922e05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc3MzM4NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717138523926-186e0b922e05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc3MzM4NTd8&ixlib=rb-4.0.3
 ---
 
 # [HeyPuter/puter](https://github.com/HeyPuter/puter)
