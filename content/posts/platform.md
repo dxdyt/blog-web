@@ -1,9 +1,9 @@
 ---
 title: platform
-date: 2024-02-13T12:16:11+08:00
+date: 2024-06-08T12:17:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703593191760-ff33fe19c56d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703593191760-ff33fe19c56d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3OTc2ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714987347327-c288166d169f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714987347327-c288166d169f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
 ---
 
 # [hcengineering/platform](https://github.com/hcengineering/platform)
@@ -21,11 +21,16 @@ The Huly Platform is a robust framework designed to accelerate the development o
 This repository includes several applications, such as Chat, Project Management, CRM, HRM, and ATS. 
 Various teams are building products on top of the Platform, including [Huly](https://huly.io) and [TraceX](https://tracex.co).
 
-![Huly](https://huly.io/_astro/dark-kanban.51390fd6_vIfr7.webp)
+![Huly](https://huly.io/_astro/dark-kanban.D2kAOX88_q4nnu.webp)
 
 ## Activity
 
 ![Alt](https://repobeats.axiom.co/api/embed/c42c99e21691fa60ea61b5cdf11c2e0647621534.svg "Repobeats analytics image")
+
+## Self-Hosting
+
+If you're primarily interested in self-hosting Huly without the intention to modify or contribute to its development, please use [huly-selfhost](https://github.com/hcengineering/huly-selfhost). 
+This project offers a convenient method to host Huly using `docker`, designed for ease of use and quick setup. Explore this option to effortlessly enjoy Huly on your own server.
 
 ## Table of Content
 
@@ -44,13 +49,19 @@ Various teams are building products on top of the Platform, including [Huly](htt
 
 ## Pre-requisites
 
-- Make sure you have the following installed on your system:
-  - [Node.js](https://nodejs.org/en/download/)
+- Before proceeding, ensure that your system meets the following requirements:
+  - [Node.js](https://nodejs.org/en/download/) (v20.11.0 is required)
   - [Docker](https://docs.docker.com/get-docker/)
   - [Docker Compose](https://docs.docker.com/compose/install/)
-- Make sure what docker and `docker compose` commands are available in your terminal (e.g. `docker --version` and `docker compose --version`).
-- Make sure what docker and `docker compose` commands can be executed without sudo (e.g. `docker run hello-world` and `docker compose --version`).
 
+## Verification
+
+To verify the installation, perform the following checks in your terminal:
+
+- Ensure that the `docker` commands are available:
+  ```bash
+  docker --version
+  docker compose version
 ## Fast start
 
 ```bash
@@ -61,7 +72,14 @@ sh ./scripts/fast-start.sh
 
 You need Microsoft's [rush](https://rushjs.io) to install application.
 
-Install [rush](https://rushjs.io) with `$ npm install -g @microsoft/rush` command and run `$ rush install` from the repository root, followed by `$ rush build` or just:
+1. Install Rush globally using the command:
+   ```bash
+   npm install -g @microsoft/rush
+2. Navigate to the repository root and run the following commands:
+   ```bash
+   rush install
+   rush build
+Alternatively, you can just execute:
 
 ```bash
 sh ./scripts/presetup-rush.sh
@@ -71,17 +89,23 @@ sh ./scripts/presetup-rush.sh
 
 Development environment setup requires Docker to be installed on system.
 
-Support is available for both amd64 and armv8 (arm64) containers on Linux and macOS.
+Support is available for both amd64 and arm64 containers on Linux and macOS.
 
 ```bash
 cd ./dev/
-rush build    # Will build all the required packages.
+rush build    # Will build all the required packages. 
+# rush rebuild  # could be used to omit build cache.
 rush bundle   # Will prepare bundles.
+rush package  # Will build all webpack packages.
+rush validate # Will validate all sources with typescript and generate d.ts files required for ts-node execution.
+rush svelte-check # Optional. svelte files validation using svelte-check.
 rush docker:build   # Will build Docker containers for all applications in the local Docker environment.
-docker compose up -d --force-recreate # Will set up all the containers
+rush docker:up # Will set up all the containers
 ```
 
-or just:
+Be aware `rush docker:build` will automatically execute all required phases like build, bundle, package.
+
+Alternatively, you can just execute:
 
 ```bash
 sh ./scripts/build.sh
@@ -101,7 +125,7 @@ rushx run-local confirm-email user1 # To allow the creation of additional test w
 
 ```
 
-or just:
+Alternatively, you can just execute:
 
 ```bash
 sh ./scripts/create-workspace.sh
@@ -111,8 +135,8 @@ Accessing the URL http://localhost:8087 will lead you to the app in production m
 
 Limitations:
 
-- Local installation does not allow sending emails, so password recovery and notification to email functionalities are not working.
-- Integrations with Telegram, Gmail, and other content sources are available only as Docker containers, built from private repository sources. However, these integrations can be used with the platform.
+- Local installation does not support sending emails, thus disabling functionalities such as password recovery and email notifications.
+- Integrations with Telegram, Gmail, and other content sources are exclusively available as Docker containers, sourced from private repositories. However, these integrations are fully functional and can be utilized with the platform.
 
 ## Run in development mode
 
@@ -126,7 +150,8 @@ rushx dev-server
 Then go to http://localhost:8080
 
 Use the following login credentials:
-```
+
+```plain
 Email: user1
 Password: 1234
 Workspace: ws1
@@ -148,12 +173,20 @@ cd ./dev/tool
 rushx upgrade -f
 ```
 
-In cases where the project fails to build for any logical reason, try the following steps:
+## Troubleshooting
+
+If a build fails, but the code is correct, try to delete the [build cache](https://rushjs.io/pages/maintainer/build_cache/) and retry.
 
 ```bash
-rush update
-rush build --clean
+# from the project root
+rm -rf common/temp/build-cache
 ```
+
+## Build & Watch
+
+For development purpose `rush build:watch` action could be used.
+
+It includes build and validate phases in watch mode.
 
 ## Tests
 
@@ -198,4 +231,4 @@ node ./common/scripts/bump.js -p projectName
 
 This project is tested with BrowserStack.
 
-<sub><sup>&copy; 2024 Hardcore Engineering Inc.</sup></sub>
+<sub><sup>&copy; 2024 <a href="https://hardcoreeng.com">Hardcore Engineering Inc</a>.</sup></sub>

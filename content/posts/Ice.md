@@ -1,0 +1,107 @@
+---
+title: Ice
+date: 2024-06-08T12:17:18+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1716040313180-aa8df510ccfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716040313180-aa8df510ccfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+---
+
+# [jordanbaird/Ice](https://github.com/jordanbaird/Ice)
+
+<div align="center">
+    <img src="Ice/Assets.xcassets/AppIcon.appiconset/icon_256x256.png" width=200 height=200>
+    <h1>Ice</h1>
+</div>
+
+Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
+
+![Banner](https://github.com/jordanbaird/Ice/assets/90936861/e256575b-880c-49ee-90a1-b6eabd4a7868)
+
+[![Download](https://img.shields.io/badge/download-latest-brightgreen?style=flat-square)](https://github.com/jordanbaird/Ice/releases/latest)
+![Platform](https://img.shields.io/badge/platform-macOS-blue?style=flat-square)
+![Requirements](https://img.shields.io/badge/requirements-macOS%2014%2B-fa4e49?style=flat-square)
+[![Support](https://img.shields.io/badge/Support%20%E2%9D%A4%EF%B8%8F-8A2BE2?style=flat-square)](https://jordanbaird.gumroad.com/l/ice)
+[![Website](https://img.shields.io/badge/Website-015FBA?style=flat-square)](https://icemenubar.app)
+[![License](https://img.shields.io/github/license/jordanbaird/Ice?style=flat-square)](LICENSE)
+
+> [!NOTE]
+> Ice is currently in active development. Some features have not yet been implemented. Download the latest release [here](https://github.com/jordanbaird/Ice/releases/latest) and see the roadmap below for upcoming features. 
+
+## Usage
+
+Simply `Command` + drag your menu bar items to rearrange them.
+
+![Rearranging](Resources/rearranging.gif)
+
+## Install
+
+### Manual Installation
+
+Download the "Ice.zip" file from the [latest release](https://github.com/jordanbaird/Ice/releases/latest) and move the unzipped app into your `Applications` folder.
+
+### Homebrew
+
+If you use [Homebrew](https://brew.sh/), you can install Ice using the following command:
+
+```sh
+brew install jordanbaird-ice
+```
+
+## Features/Roadmap
+
+### Menu bar item management
+
+- [x] Hide menu bar items
+- [x] "Always Hidden" menu bar section
+- [x] Show hidden items when hovering over the menu bar
+- [x] Show hidden items when an empty area in the menu bar is clicked
+- [x] Show hidden items by scrolling or swiping in the menu bar
+- [x] Automatically rehide
+- [x] Hide application menus when they overlap with shown menu bar items
+- [ ] Drag and drop interface to arrange individual items
+- [ ] Search menu bar items
+- [ ] Display hidden items in a separate bar (e.g. for MacBooks with the notch)
+- [ ] Custom spacing between items
+- [ ] Profiles for menu bar layout
+
+### Menu bar appearance
+
+- [x] Menu bar tint (solid and gradient)
+- [x] Menu bar shadow
+- [x] Menu bar border
+- [x] Custom menu bar shapes (rounded and/or split)
+
+### Hotkeys
+
+- [x] Toggle individual menu bar sections
+- [x] Toggle application menus
+- [x] Show/hide section divider icons
+- [ ] Temporarily show individual menu bar items
+- [ ] Enable/disable auto rehide
+
+### Other
+
+- [x] Launch at login
+- [x] Automatic updates
+- [ ] Menu bar widgets
+
+## Why the name?
+
+Because your menu bar becomes like ice, allowing your menu bar items to slide away 🧊🧊🧊
+
+## Why not support earlier operating systems?
+
+There are a number of system APIs that Ice uses that are only available starting with macOS 14.
+
+## Gallery
+
+#### Choose your own icon to show in the menu bar
+![Custom Icon Example](https://github.com/jordanbaird/Ice/assets/90936861/ded03af0-f6cf-4bc1-a094-af0cf32ead96)
+
+#### Customize the menu bar's appearance
+![Menu Bar Appearance Example 1](https://github.com/jordanbaird/Ice/assets/90936861/99a59cc7-914a-4f8a-af4b-11a5193534da)
+![Menu Bar Appearance Example 2](https://github.com/jordanbaird/Ice/assets/90936861/ba3bd8d9-0eeb-447b-8a62-1bc811319132)
+
+## License
+
+Ice is available under the [MIT license](LICENSE).

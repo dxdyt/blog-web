@@ -1,9 +1,9 @@
 ---
 title: LazyVim
-date: 2024-05-21T12:17:58+08:00
+date: 2024-06-08T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714572877777-59bf4765f462?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714572877777-59bf4765f462?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716094978938-3909e20d05e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716094978938-3909e20d05e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
 ---
 
 # [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)
@@ -124,6 +124,10 @@ docker run -w /root -it --rm alpine:edge sh -uelic '
 There's a great video created by [@elijahmanor](https://github.com/elijahmanor) with a walkthrough to get started.
 
 [![Watch the video](https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg)](https://www.youtube.com/watch?v=N93cTbtLCIM)
+
+[@dusty-phillips](https://github.com/dusty-phillips) is working on a book called
+[LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes)
+available for free online.
 
 ## 📂 File Structure
 
