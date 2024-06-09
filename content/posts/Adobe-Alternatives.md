@@ -1,9 +1,9 @@
 ---
 title: Adobe-Alternatives
-date: 2024-06-08T12:17:51+08:00
+date: 2024-06-09T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715045086640-09ceccc6fdcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715045086640-09ceccc6fdcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716441392930-b4daa288266a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716441392930-b4daa288266a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
 ---
 
 # [KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)

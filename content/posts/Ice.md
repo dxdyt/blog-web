@@ -1,9 +1,9 @@
 ---
 title: Ice
-date: 2024-06-08T12:17:18+08:00
+date: 2024-06-09T12:17:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716040313180-aa8df510ccfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716040313180-aa8df510ccfb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708741163431-7ac8fd4c25d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708741163431-7ac8fd4c25d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
 ---
 
 # [jordanbaird/Ice](https://github.com/jordanbaird/Ice)
@@ -105,3 +105,7 @@ There are a number of system APIs that Ice uses that are only available starting
 ## License
 
 Ice is available under the [MIT license](LICENSE).
+
+## Stargazers over time
+
+[![Star History Chart](https://api.star-history.com/svg?repos=jordanbaird/Ice&type=Date)](https://star-history.com/#jordanbaird/Ice&Date)

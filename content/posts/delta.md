@@ -1,9 +1,9 @@
 ---
 title: delta
-date: 2024-06-08T12:18:36+08:00
+date: 2024-06-09T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717463726221-d2b5621135c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717463726221-d2b5621135c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714738760088-8eb4aaf6916b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714738760088-8eb4aaf6916b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
 ---
 
 # [delta-io/delta](https://github.com/delta-io/delta)

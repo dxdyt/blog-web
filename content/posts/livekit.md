@@ -1,9 +1,9 @@
 ---
 title: livekit
-date: 2024-06-08T12:18:00+08:00
+date: 2024-06-09T12:18:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715045086640-09ceccc6fdcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715045086640-09ceccc6fdcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717661568439-a677b026f401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717661568439-a677b026f401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
 ---
 
 # [livekit/livekit](https://github.com/livekit/livekit)

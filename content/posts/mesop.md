@@ -1,14 +1,18 @@
 ---
 title: mesop
-date: 2024-06-08T12:18:15+08:00
+date: 2024-06-09T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717034231682-96bde6d558f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717034231682-96bde6d558f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc4MjAyMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716878388213-52738f52b390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716878388213-52738f52b390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
 ---
 
 # [google/mesop](https://github.com/google/mesop)
 
 # Mesop: Build delightful web apps quickly in Python 🚀
+
+- If you're interested in learning how to use Mesop, please [read our main docs](https://google.github.io/mesop/).
+
+- If you're interested in contributing to the core Mesop framework, please [read our contributing guide](https://google.github.io/mesop/contributing/).
 
 ### Used at Google for rapid internal app development
 
