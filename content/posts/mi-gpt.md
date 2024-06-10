@@ -1,9 +1,9 @@
 ---
 title: mi-gpt
-date: 2024-06-09T12:17:03+08:00
+date: 2024-06-10T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716277486487-1c9d08eaf021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716277486487-1c9d08eaf021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716814294705-741d999eaf44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716814294705-741d999eaf44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
 ---
 
 # [idootop/mi-gpt](https://github.com/idootop/mi-gpt)

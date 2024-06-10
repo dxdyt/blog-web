@@ -1,9 +1,9 @@
 ---
 title: MaaAssistantArknights
-date: 2024-05-06T12:18:43+08:00
+date: 2024-06-10T12:21:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712322915932-a9e42f858c6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712322915932-a9e42f858c6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ5Njg5OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715630914955-d91c67c20c2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715630914955-d91c67c20c2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
 ---
 
 # [MaaAssistantArknights/MaaAssistantArknights](https://github.com/MaaAssistantArknights/MaaAssistantArknights)
@@ -72,12 +72,7 @@ MAA 的意思是 MAA Assistant Arknights
 
 ### 基本说明
 
-1. 请根据 [模拟器和设备支持](https://maa.plus/docs/用户手册/模拟器和设备支持)，进行对应的操作；
-2. 修改模拟器分辨率为 `16:9` 比例，最低 `1280 * 720`，最高 `2K`；  
-   对于国际服（美服）玩家，由于界面布局、字号等问题，我们则建议您将分辨率修改为 `1920 * 1080`；
-3. 开始使用吧！
-
-更多使用说明请参阅 [详细介绍](https://maa.plus/docs/用户手册/详细介绍.html)
+请参阅 [新手上路](https://maa.plus/docs/用户手册/新手上路.html) 与 [详细介绍](https://maa.plus/docs/用户手册/详细介绍.html)。
 
 ### 常见问题
 

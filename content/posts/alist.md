@@ -1,15 +1,15 @@
 ---
 title: alist
-date: 2023-07-19T12:21:27+08:00
+date: 2024-06-10T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687702720204-a56bb8311469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687702720204-a56bb8311469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk3NDAzOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716813376299-c1f9d40a7f7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716813376299-c1f9d40a7f7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
 ---
 
 # [alist-org/alist](https://github.com/alist-org/alist)
 
 <div align="center">
-  <a href="https://alist.nn.ci"><img height="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
+  <a href="https://alist.nn.ci"><img width="100px" alt="logo" src="https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg"/></a>
   <p><em>🗂️A file list program that supports multiple storages, powered by Gin and Solidjs.</em></p>
 <div>
   <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
@@ -49,13 +49,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1687702720204-a56bb83114
 
 ---
 
-English | [中文](./README_cn.md) | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
+English | [中文](./README_cn.md)| [日本語](./README_ja.md) | [Contributing](./CONTRIBUTING.md) | [CODE_OF_CONDUCT](./CODE_OF_CONDUCT.md)
 
 ## Features
 
-- [x] Multiple storage
+- [x] Multiple storages
     - [x] Local storage
-    - [x] [Aliyundrive](https://www.aliyundrive.com/)
+    - [x] [Aliyundrive](https://www.alipan.com/)
     - [x] OneDrive / Sharepoint ([global](https://www.office.com/), [cn](https://portal.partner.microsoftonline.cn),de,us)
     - [x] [189cloud](https://cloud.189.cn) (Personal, Family)
     - [x] [GoogleDrive](https://drive.google.com/)
@@ -76,7 +76,8 @@ English | [中文](./README_cn.md) | [Contributing](./CONTRIBUTING.md) | [CODE_O
     - [x] [Quark](https://pan.quark.cn)
     - [x] [Thunder](https://pan.xunlei.com)
     - [x] [Lanzou](https://www.lanzou.com/)
-    - [x] [Aliyundrive share](https://www.aliyundrive.com/)
+    - [x] [ILanzou](https://www.ilanzou.com/)
+    - [x] [Aliyundrive share](https://www.alipan.com/)
     - [x] [Google photo](https://photos.google.com/)
     - [x] [Mega.nz](https://mega.nz)
     - [x] [Baidu photo](https://photo.baidu.com/)
@@ -84,6 +85,8 @@ English | [中文](./README_cn.md) | [Contributing](./CONTRIBUTING.md) | [CODE_O
     - [x] [115](https://115.com/)
     - [X] Cloudreve
     - [x] [Dropbox](https://www.dropbox.com/)
+    - [x] [FeijiPan](https://www.feijipan.com/)
+    - [x] [dogecloud](https://www.dogecloud.com/product/oss)
 - [x] Easy to deploy and out-of-the-box
 - [x] File preview (PDF, markdown, code, plain text, ...)
 - [x] Image preview in gallery mode
@@ -96,11 +99,12 @@ English | [中文](./README_cn.md) | [Contributing](./CONTRIBUTING.md) | [CODE_O
 - [x] Protected routes (password protection and authentication)
 - [x] WebDav (see https://alist.nn.ci/guide/webdav.html for details)
 - [x] [Docker Deploy](https://hub.docker.com/r/xhofe/alist)
-- [x] Cloudflare workers proxy
+- [x] Cloudflare Workers proxy
 - [x] File/Folder package download
 - [x] Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy
 - [x] Offline download
 - [x] Copy files between two storage
+- [x] Multi-thread downloading acceleration for single-thread download/stream
 
 ## Document
 
@@ -112,7 +116,7 @@ English | [中文](./README_cn.md) | [Contributing](./CONTRIBUTING.md) | [CODE_O
 
 ## Discussion
 
-Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) for general questions, **issues are for bug reports and feature request only.**
+Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) for general questions, **issues are for bug reports and feature requests only.**
 
 ## Sponsor
 
@@ -121,22 +125,22 @@ https://alist.nn.ci/guide/sponsor.html
 
 ### Special sponsors
 
-- [亚洲云 - 高防服务器|服务器租用|福州高防|广东电信|香港服务器|美国服务器|海外服务器 - 国内靠谱的企业级云计算服务提供商](https://www.asiayun.com/aff/QQCOOQKZ) (sponsored Chinese API server)
-- [找资源 - 阿里云盘资源搜索引擎](https://zhaoziyuan.pw/)
-- [JetBrains: Essential tools for software developers and teams](https://www.jetbrains.com/)
+- [VidHub](https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=alist&mt=8) - An elegant cloud video player within the Apple ecosystem. Support for iPhone, iPad, Mac, and Apple TV.
+- [亚洲云](https://www.asiayun.com/aff/QQCOOQKZ) - 高防服务器|服务器租用|福州高防|广东电信|香港服务器|美国服务器|海外服务器 - 国内靠谱的企业级云计算服务提供商 (sponsored Chinese API server)
+- [找资源](https://zhaoziyuan.pw/) - 阿里云盘资源搜索引擎
 
 ## Contributors
 
 Thanks goes to these wonderful people:
 
-[![Contributors](http://contributors.nn.ci/api?repo=alist-org/alist&repo=alist-org/alist-web&repo=alist-org/docs)](https://github.com/alist-org/alist/graphs/contributors)
+[![Contributors](http://contrib.nn.ci/api?repo=alist-org/alist&repo=alist-org/alist-web&repo=alist-org/docs)](https://github.com/alist-org/alist/graphs/contributors)
 
 ## License
 
 The `AList` is open-source software licensed under the AGPL-3.0 license.
 
 ## Disclaimer
-- This program is a free and open source project. It is designed to share files on the network disk, which is convenient for downloading and learning golang. Please abide by relevant laws and regulations when using it, and do not abuse it;
+- This program is a free and open source project. It is designed to share files on the network disk, which is convenient for downloading and learning Golang. Please abide by relevant laws and regulations when using it, and do not abuse it;
 - This program is implemented by calling the official sdk/interface, without destroying the official interface behavior;
 - This program only does 302 redirect/traffic forwarding, and does not intercept, store, or tamper with any user data;
 - Before using this program, you should understand and bear the corresponding risks, including but not limited to account ban, download speed limit, etc., which is none of this program's business;
