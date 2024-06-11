@@ -1,9 +1,9 @@
 ---
 title: OrcaSlicer
-date: 2023-12-27T12:17:08+08:00
+date: 2024-06-11T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701364406051-156d47df2477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM2NTA1MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716285386261-8de02ca53ce9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716285386261-8de02ca53ce9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
 ---
 
 # [SoftFever/OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1701364406051-156d47df24
 [![Build all](https://github.com/SoftFever/OrcaSlicer/actions/workflows/build_all.yml/badge.svg?branch=main)](https://github.com/SoftFever/OrcaSlicer/actions/workflows/build_all.yml)
 # Orca Slicer     
 Orca Slicer is an open source slicer for FDM printers.   
-You can download Orca Slicer here: [github releases page](https://github.com/SoftFever/OrcaSlicer/releases/).  
+
 ![discord-mark-blue](https://github.com/SoftFever/OrcaSlicer/assets/103989404/b97d5ffc-072d-4d0a-bbda-e67ef373876f) Join community: [OrcaSlicer Official Discord Server](https://discord.gg/P4VE9UY9gJ)   
 
 # Main features
@@ -23,19 +23,29 @@ You can download Orca Slicer here: [github releases page](https://github.com/Sof
 - More granular controls
 - More features can be found in [change notes](https://github.com/SoftFever/OrcaSlicer/releases/)  
 
-### Some background
-OrcaSlicer is fork of Bambu Studio  
-It was previously known as BambuStudio-SoftFever  
-Bambu Studio is forked from [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) by Prusa Research, which is from [Slic3r](https://github.com/Slic3r/Slic3r) by Alessandro Ranellucci and the RepRap community. 
-Orca Slicer incorporates a lot of features from SuperSlicer by @supermerill
-Orca Slicer's logo is designed by community member Justin Levine(@freejstnalxndr)  
+
+# Download
+
+### Stable Release
+📥 **[Download the Latest Stable Release](https://github.com/SoftFever/OrcaSlicer/releases/latest)**  
+Visit our GitHub Releases page for the latest stable version of Orca Slicer, recommended for most users.
+
+### Nightly Builds
+🌙 **[Download the Latest Nightly Build](https://github.com/SoftFever/OrcaSlicer/releases/tag/nightly-builds)**  
+Explore the latest developments in Orca Slicer with our nightly builds. Feedback on these versions is highly appreciated.
+
 
 # How to install
 **Windows**: 
-1.  Install and run  
+1.  Download the installer for your preferred version from the [releases page](https://github.com/SoftFever/OrcaSlicer/releases).
+    - *For convenience there is also a portable build available.*
     - *If you have troubles to run the build, you might need to install following runtimes:*
-      - [MicrosoftEdgeWebView2RuntimeInstallerX64](https://github.com/SoftFever/BambuStudio-SoftFever/releases/download/v1.0.10-sf2/MicrosoftEdgeWebView2RuntimeInstallerX64.exe)  
-      - [vcredist2019_x64](https://github.com/SoftFever/BambuStudio-SoftFever/releases/download/v1.0.10-sf2/vcredist2019_x64.exe)  
+      - [MicrosoftEdgeWebView2RuntimeInstallerX64](https://github.com/SoftFever/OrcaSlicer/releases/download/v1.0.10-sf2/MicrosoftEdgeWebView2RuntimeInstallerX64.exe)
+          - [Details of this runtime](https://aka.ms/webview2)
+          - [Alternative Download Link Hosted by Microsoft](https://go.microsoft.com/fwlink/p/?LinkId=2124703)
+      - [vcredist2019_x64](https://github.com/SoftFever/OrcaSlicer/releases/download/v1.0.10-sf2/vcredist2019_x64.exe)
+          -  [Alternative Download Link Hosted by Microsoft](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+          -  This file may already be available on your computer if you've installed visual studio.  Check the following location: `%VCINSTALLDIR%Redist\MSVC\v142`
 
 **Mac**:
 1. Download the DMG for your computer: `arm64` version for Apple Silicon and `x86_64` for Intel CPU.  
@@ -60,17 +70,31 @@ Orca Slicer's logo is designed by community member Justin Levine(@freejstnalxndr
     
 **Linux(Ubuntu)**:
  1. If you run into trouble to execute it, try this command in terminal:  
-    `chmod +x /path_to_appimage/OrcaSlicer_ubu64.AppImage`
+    `chmod +x /path_to_appimage/OrcaSlicer_Linux.AppImage`
+    
 # How to compile
 - Windows 64-bit  
-  - Tools needed: Visual Studio 2019, Cmake, git, Strawberry Perl.
+  - Tools needed: Visual Studio 2019, Cmake, git, git-lfs, Strawberry Perl.
+      - You will require cmake version 3.14 or later, which is available [on their website](https://cmake.org/download/).
+      - Strawberry Perl is [available on their github repository](https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/).
   - Run `build_release.bat` in `x64 Native Tools Command Prompt for VS 2019`
+  - Note: Don't forget to run `git lfs pull` after cloning the repository to download tools on Windows
 
 - Mac 64-bit  
-  - Tools needed: Xcode, Cmake, git, gettext, libtool, automake, autoconf
+  - Tools needed: Xcode, Cmake, git, gettext, libtool, automake, autoconf, texinfo
+      - You can install most of them by running `brew install cmake gettext libtool automake autoconf texinfo`
   - run `build_release_macos.sh`
+  - To build and debug in XCode:
+      - run `XCode.app`
+      - open ``build_`arch`/OrcaSlicer.xcodeproj``
+      - menu bar: Product => Scheme => OrcaSlicer
+      - menu bar: Product => Scheme => Edit Scheme...
+          - Run => Info tab => Build Configuration: `RelWithDebInfo`
+          - Run => Options tab => Document Versions: uncheck `Allow debugging when browsing versions`
+      - menu bar: Product => Run
 
-- Ubuntu  
+- Ubuntu 
+  - Dependencies **Will be auto installed with the shell script**: `libmspack-dev libgstreamerd-3-dev libsecret-1-dev libwebkit2gtk-4.0-dev libosmesa6-dev libssl-dev libcurl4-openssl-dev eglexternalplatform-dev libudev-dev libdbus-1-dev extra-cmake-modules libgtk2.0-dev libglew-dev libudev-dev libdbus-1-dev cmake git texinfo`
   - run 'sudo ./BuildLinux.sh -u'
   - run './BuildLinux.sh -dsir'
 
@@ -99,24 +123,32 @@ Thank you! :)
     <img src="SoftFever_doc\sponsor_logos\peopoly-standard-logo.png" alt="Peopoly" width="64" height="">
 </a>
 </td> 
-</tr>
-<tr>
-<td> </td>
-</tr>
-<tr>
 <td>
 <a href="https://qidi3d.com/">
     <img src="SoftFever_doc\sponsor_logos\QIDI.png" alt="QIDI" width="64" height="">
+</a>
+</td>
+<td>
+<a href="https://phrozen3d.com/">
+    <img src="SoftFever_doc\sponsor_logos\Phrozen_Logo圓_.png" alt="Phrozen Technology" width="64" height="">
 </a>
 </td>
 </tr>
 </table>
 
 ### Backers:  
-Ko-fi supporters: [Backers list](https://github.com/SoftFever/OrcaSlicer/wiki/OrcaSlicer-backers-%E2%80%90-28-Oct-2023)
+Ko-fi supporters: [Backers list](https://github.com/SoftFever/OrcaSlicer/files/14855600/sponsors.csv)
 
 Support me  
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G5IP3CP)
+
+## Some background
+OrcaSlicer is originaly forked from Bambu Studio, it was previously known as BambuStudio-SoftFever.
+
+Bambu Studio is forked from [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) by Prusa Research, which is from [Slic3r](https://github.com/Slic3r/Slic3r) by Alessandro Ranellucci and the RepRap community. 
+Orca Slicer incorporates a lot of features from SuperSlicer by @supermerill
+Orca Slicer's logo is designed by community member Justin Levine(@freejstnalxndr)  
+
 
 # License
 Orca Slicer is licensed under the GNU Affero General Public License, version 3. Orca Slicer is based on Bambu Studio by BambuLab.

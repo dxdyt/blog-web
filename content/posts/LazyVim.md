@@ -1,9 +1,9 @@
 ---
 title: LazyVim
-date: 2024-06-10T12:19:14+08:00
+date: 2024-06-11T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717446871102-fe2d9f837936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717446871102-fe2d9f837936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715645971181-c7479b08604b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715645971181-c7479b08604b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
 ---
 
 # [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)

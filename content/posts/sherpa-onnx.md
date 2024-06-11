@@ -1,9 +1,9 @@
 ---
 title: sherpa-onnx
-date: 2024-06-09T12:18:13+08:00
+date: 2024-06-11T12:19:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716277486487-1c9d08eaf021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716277486487-1c9d08eaf021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717436881289-561adf58e8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717436881289-561adf58e8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
 ---
 
 # [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)
