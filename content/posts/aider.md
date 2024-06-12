@@ -1,89 +1,101 @@
 ---
 title: aider
-date: 2024-06-06T12:17:24+08:00
+date: 2024-06-12T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716369413898-852306c79bcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716369413898-852306c79bcb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716632943255-355b59566d11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716632943255-355b59566d11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
 
+
+<!-- Edit README.md, not index.md -->
 
 # Aider is AI pair programming in your terminal
 
 Aider lets you pair program with LLMs,
 to edit code in your local git repository.
 Start a new project or work with an existing git repo.
-Aider works well with GPT-4o, Claude 3 Opus, GPT-3.5
+Aider works best with GPT-4o and Claude 3 Opus
 and can [connect to almost any LLM](https://aider.chat/docs/llms.html).
 
 <p align="center">
-  <img src="https://aider.chat/assets/screencast.svg" alt="aider screencast">
+  <img
+    src="https://aider.chat/assets/screencast.svg"
+    alt="aider screencast"
+  >
 </p>
 
 <p align="center">
   <a href="https://discord.gg/Tv2uQnR88V">
     <img src="https://img.shields.io/badge/Join-Discord-blue.svg"/>
   </a>
+  <a href="https://aider.chat/docs/install.html">
+    <img src="https://img.shields.io/badge/Read-Docs-green.svg"/>
+  </a>
 </p>
 
 ## Getting started
-
-See the
-[installation instructions](https://aider.chat/docs/install.html)
-for more details, but you can
-get started quickly like this:
+<!--[[[cog
+# We can't do this here: {% include get-started.md %}
+# Because this page is rendered by GitHub as the repo README
+cog.out(open("website/_includes/get-started.md").read())
+]]]-->
+You can get started quickly like this:
 
 ```
 $ pip install aider-chat
 
-# To work with GPT-4o
+# Change directory into a git repo
+$ cd /to/your/git/repo
+
+# Work with GPT-4o on your repo
 $ export OPENAI_API_KEY=your-key-goes-here
 $ aider 
 
-# To work with Claude 3 Opus:
+# Or, work with Claude 3 Opus on your repo
 $ export ANTHROPIC_API_KEY=your-key-goes-here
 $ aider --opus
 ```
+<!--[[[end]]]-->
 
+See the
+[installation instructions](https://aider.chat/docs/install.html)
+and other
+[documentation](https://aider.chat/docs/usage.html)
+for more details.
 
 ## Features
 
-- Chat with aider about your code: `aider <file1> <file2> ...`
+- Run aider with the files you want to edit: `aider <file1> <file2> ...`
 - Ask for changes:
-  - New features, changes, improvements, or bug fixes to your code.
-  - New test cases, updated documentation or code refactors.
-  - Paste in a GitHub issue url that needs to be solved.
+  - Add new features or test cases.
+  - Describe a bug.
+  - Paste in an error message or or GitHub issue URL.
+  - Refactor code.
+  - Update docs.
 - Aider will edit your files to complete your request.
-- Aider [automatically git commits](https://aider.chat/docs/faq.html#how-does-aider-use-git) changes with a sensible commit message.
+- Aider [automatically git commits](https://aider.chat/docs/git.html) changes with a sensible commit message.
 - Aider works with [most popular languages](https://aider.chat/docs/languages.html): python, javascript, typescript, php, html, css, and more...
-- Aider works well with GPT-4o, Claude 3 Opus, GPT-3.5 and supports [connecting to many LLMs](https://aider.chat/docs/llms.html).
-- Aider can make coordinated changes across multiple files at once.
+- Aider works best with GPT-4o and Claude 3 Opus
+and can [connect to almost any LLM](https://aider.chat/docs/llms.html).
+- Aider can edit multiple files at once for complex requests.
 - Aider uses a [map of your entire git repo](https://aider.chat/docs/repomap.html), which helps it work well in larger codebases.
-- You can also edit files in your editor while chatting with aider.
-Aider will notice and always use the latest version.
-So you can bounce back and forth between aider and your editor, to collaboratively code with AI.
-- Images can be added to the chat (GPT-4o, GPT-4 Turbo, etc).
-- URLs can be added to the chat and aider will read their content.
-- [Code with your voice](https://aider.chat/docs/voice.html) using speech recognition.
-
-
-## Documentation
-
-- [Installation](https://aider.chat/docs/install.html)
-- [Usage](https://aider.chat/docs/usage.html)
-- [Tutorial videos](https://aider.chat/docs/tutorials.html)
-- [Connecting to LLMs](https://aider.chat/docs/llms.html)
-- [LLM Leaderboards](https://aider.chat/docs/leaderboards/)
-- [FAQ](https://aider.chat/docs/faq.html)
-- [Discord](https://discord.gg/Tv2uQnR88V)
-- [Blog](https://aider.chat/blog/)
+- Edit files in your editor while chatting with aider,
+and it will always use the latest version.
+Pair program with AI.
+- Add images to the chat (GPT-4o, GPT-4 Turbo, etc).
+- Add URLs to the chat and aider will read their content.
+- [Code with your voice](https://aider.chat/docs/voice.html).
 
 
 ## State of the art
 
-Aider has the highest score on the challenging
-[SWE Bench benchmark](https://aider.chat/2024/06/02/main-swe-bench.html).
+Aider has the
+[top score on SWE Bench](https://aider.chat/2024/06/02/main-swe-bench.html).
+SWE Bench is a challenging software engineering benchmark where aider
+solved *real* GitHub issues from popular open source
+projects like django, scikitlearn, matplotlib, etc.
 
 <p align="center">
    <a href="https://aider.chat/2024/06/02/main-swe-bench.html">
@@ -91,11 +103,25 @@ Aider has the highest score on the challenging
    </a>
 </p>
 
+## More info
+
+- [Documentation](https://aider.chat/)
+- [Installation](https://aider.chat/docs/install.html)
+- [Usage](https://aider.chat/docs/usage.html)
+- [Tutorial videos](https://aider.chat/docs/tutorials.html)
+- [Connecting to LLMs](https://aider.chat/docs/llms.html)
+- [Configuration](https://aider.chat/docs/config.html)
+- [Troubleshooting](https://aider.chat/docs/troubleshooting.html)
+- [LLM Leaderboards](https://aider.chat/docs/leaderboards/)
+- [GitHub](https://github.com/paul-gauthier/aider)
+- [Discord](https://discord.gg/Tv2uQnR88V)
+- [Blog](https://aider.chat/blog/)
+
 
 ## Kind words from users
 
+- *The best free open source AI coding assistant.* -- [IndyDevDan](https://youtu.be/YALpX8oOn78)
 - *The best AI coding assistant so far.* -- [Matthew Berman](https://www.youtube.com/watch?v=df8afeb1FY8)
-- *Hands down, this is the best AI coding assistant tool so far.* -- [IndyDevDan](https://www.youtube.com/watch?v=MPYFPvxfGZs)
 - *Aider ... has easily quadrupled my coding productivity.* -- [SOLAR_FIELDS](https://news.ycombinator.com/item?id=36212100)
 - *It's a cool workflow... Aider's ergonomics are perfect for me.* -- [qup](https://news.ycombinator.com/item?id=38185326)
 - *It's really like having your senior developer live right in your Git repo - truly amazing!* -- [rappster](https://github.com/paul-gauthier/aider/issues/124)
@@ -110,4 +136,5 @@ Aider has the highest score on the challenging
 - *I have been recovering from multiple shoulder surgeries ... and have used aider extensively. It has allowed me to continue productivity.* -- [codeninja](https://www.reddit.com/r/OpenAI/s/nmNwkHy1zG)
 - *I am an aider addict. I'm getting so much more work done, but in less time.* -- [dandandan](https://discord.com/channels/1131200896827654144/1131200896827654149/1135913253483069470)
 - *After wasting $100 on tokens trying to find something better, I'm back to Aider. It blows everything else out of the water hands down, there's no competition whatsoever.* -- [SystemSculpt](https://discord.com/channels/1131200896827654144/1131200896827654149/1178736602797846548)
+- *Hands down, this is the best AI coding assistant tool so far.* -- [IndyDevDan](https://www.youtube.com/watch?v=MPYFPvxfGZs)
 - *Best agent for actual dev work in existing codebases.* -- [Nick Dobos](https://twitter.com/NickADobos/status/1690408967963652097?s=20)

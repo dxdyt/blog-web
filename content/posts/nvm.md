@@ -1,9 +1,9 @@
 ---
 title: nvm
-date: 2024-03-21T12:18:51+08:00
+date: 2024-06-12T12:17:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710657292082-13d877bebda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710657292082-13d877bebda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716565679311-5179cc3dd908?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716565679311-5179cc3dd908?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
 ---
 
 # [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1710657292082-13d877bebd
 </a>
 
 
-# Node Version Manager [![Build Status](https://app.travis-ci.com/nvm-sh/nvm.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.39.7-yellow.svg)][4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
+# Node Version Manager [![Build Status](https://app.travis-ci.com/nvm-sh/nvm.svg?branch=master)][3] [![nvm version](https://img.shields.io/badge/version-v0.39.7-yellow.svg)][4] [![CII Best Practices](https://bestpractices.dev/projects/684/badge)](https://bestpractices.dev/projects/684)
 
 <!-- To update this table of contents, ensure you have run `npm install` then `npm run doctoc` -->
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -308,6 +308,13 @@ To install a specific version of node:
 nvm install 14.7.0 # or 16.3.0, 12.22.1, etc
 ```
 
+To set an alias:
+
+```sh
+nvm alias my_alias v14.4.0
+```
+Make sure that your alias does not contain any spaces or slashes.
+
 The first version installed becomes the default. New shells will start with the default version of node (e.g., `nvm alias default`).
 
 You can list available versions using `ls-remote`:
@@ -573,7 +580,11 @@ Now using node v5.9.1 (npm v3.7.3)
 
 `nvm use` et. al. will traverse directory structure upwards from the current directory looking for the `.nvmrc` file. In other words, running `nvm use` et. al. in any subdirectory of a directory with an `.nvmrc` will result in that `.nvmrc` being utilized.
 
-The contents of a `.nvmrc` file **must** be the `<version>` (as described by `nvm --help`) followed by a newline. No trailing spaces are allowed, and the trailing newline is required.
+The contents of a `.nvmrc` file **must** contain precisely one `<version>` (as described by `nvm --help`) followed by a newline. `.nvmrc` files may also have comments. The comment delimiter is `#`, and it and any text after it, as well as blank lines, and leading and trailing white space, will be ignored when parsing.
+
+Key/value pairs using `=` are also allowed and ignored, but are reserved for future use, and may cause validation errors in the future.
+
+Run [`npx nvmrc`](https://npmjs.com/nvmrc) to validate an `.nvmrc` file. If that tool’s results do not agree with nvm, one or the other has a bug - please file an issue.
 
 ### Deeper Shell Integration
 
