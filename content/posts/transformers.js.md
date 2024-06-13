@@ -1,9 +1,9 @@
 ---
 title: transformers.js
-date: 2024-06-12T12:17:27+08:00
+date: 2024-06-13T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717438671329-077f530f0c0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717438671329-077f530f0c0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716300738696-694a980c4bc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716300738696-694a980c4bc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
 ---
 
 # [xenova/transformers.js](https://github.com/xenova/transformers.js)

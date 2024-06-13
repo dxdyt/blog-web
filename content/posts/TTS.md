@@ -1,9 +1,9 @@
 ---
 title: TTS
-date: 2024-01-06T12:18:00+08:00
+date: 2024-06-13T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702747891854-506cc3275eb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ1MTQ1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716319485866-45dd846ed95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716319485866-45dd846ed95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
 ---
 
 # [coqui-ai/TTS](https://github.com/coqui-ai/TTS)

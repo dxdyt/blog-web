@@ -1,9 +1,9 @@
 ---
 title: coolify
-date: 2024-06-12T12:17:18+08:00
+date: 2024-06-13T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717501218603-1fc7cca58d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717501218603-1fc7cca58d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716221224894-106801b57b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716221224894-106801b57b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
 ---
 
 # [coollabsio/coolify](https://github.com/coollabsio/coolify)

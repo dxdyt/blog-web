@@ -1,15 +1,15 @@
 ---
 title: OpenCore-Legacy-Patcher
-date: 2024-03-10T12:17:09+08:00
+date: 2024-06-13T12:19:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708792083117-52286bee89f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708792083117-52286bee89f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAwNDQxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716319485866-45dd846ed95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716319485866-45dd846ed95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
 ---
 
 # [dortania/OpenCore-Legacy-Patcher](https://github.com/dortania/OpenCore-Legacy-Patcher)
 
 <div align="center">
-             <img src="images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
+             <img src="docs/images/OC-Patcher.png" alt="OpenCore Patcher Logo" width="256" />
              <h1>OpenCore Legacy Patcher</h1>
 </div>
 
