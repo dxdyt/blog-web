@@ -1,9 +1,9 @@
 ---
 title: mistral.rs
-date: 2024-06-12T12:19:05+08:00
+date: 2024-06-14T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716346061596-b15ad7ae5391?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716346061596-b15ad7ae5391?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714894324471-d2552e264030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714894324471-d2552e264030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs)
@@ -56,6 +56,7 @@ Please submit requests for new models [here](https://github.com/EricLBuehler/mis
 - φ³ 📷 Run the Phi 3 vision model: [documentation and guide here](docs/PHI3V.md)
 
     <img src="https://www.nhmagazine.com/content/uploads/2019/05/mtwashingtonFranconia-2-19-18-108-Edit-Edit.jpg" alt="Mount Washington" width = "400" height = "267">
+    <h6><a href = "https://www.nhmagazine.com/mount-washington/">Credit</a></h6>
 
     *After following installation instructions*
 
@@ -207,10 +208,12 @@ Please submit more benchmarks via raising an issue!
 ## Installation and Build
 
 1) Install required packages
-    - `openssl` (ex., `sudo apt install libssl-dev`)
-    - `pkg-config` (ex., `sudo apt install pkg-config`)
+    - `openssl` (*Example on Ubuntu:* `sudo apt install libssl-dev`)
+    - `pkg-config` (*Example on Ubuntu:* `sudo apt install pkg-config`)
 
 2) Install Rust: https://rustup.rs/
+
+    *Example on Ubuntu:*
     ```bash
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
     source $HOME/.cargo/env
@@ -260,6 +263,8 @@ Please submit more benchmarks via raising an issue!
         cargo install --path mistralrs-server --features cuda
         ```
 6) The build process will output a binary `misralrs-server` at `./target/release/mistralrs-server` which may be copied into the working directory with the following command:
+    
+    *Example on Ubuntu:*
     ```
     cp ./target/release/mistralrs-server ./mistralrs_server
     ```

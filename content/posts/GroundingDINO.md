@@ -1,9 +1,9 @@
 ---
 title: GroundingDINO
-date: 2024-04-13T12:17:03+08:00
+date: 2024-06-14T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710092662335-065cdbfb9781?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710092662335-065cdbfb9781?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI5ODE2NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715630913929-7337eacb5a7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715630913929-7337eacb5a7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [IDEA-Research/GroundingDINO](https://github.com/IDEA-Research/GroundingDINO)
@@ -27,6 +27,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1710092662335-065cdbfb97
 
 
 PyTorch implementation and pretrained models for Grounding DINO. For details, see the paper **[Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection](https://arxiv.org/abs/2303.05499)**.
+
+- 🔥 **[Grounding DINO 1.5](https://github.com/IDEA-Research/Grounding-DINO-1.5-API)** is released now, which is IDEA Research's **Most Capable** Open-World Object Detection Model!
+- 🔥 **[Grounding DINO](https://arxiv.org/abs/2303.05499)** and **[Grounded SAM](https://arxiv.org/abs/2401.14159)** are now supported in Huggingface. For more convenient use, you can refer to [this documentation](https://huggingface.co/docs/transformers/model_doc/grounding-dino)
 
 ## :sun_with_face: Helpful Tutorial
 
@@ -73,7 +76,7 @@ PyTorch implementation and pretrained models for Grounding DINO. For details, se
 ## :bulb: Highlight
 
 - **Open-Set Detection.** Detect **everything** with language!
-- **High Performancce.** COCO zero-shot **52.5 AP** (training without COCO data!). COCO fine-tune **63.0 AP**.
+- **High Performance.** COCO zero-shot **52.5 AP** (training without COCO data!). COCO fine-tune **63.0 AP**.
 - **Flexible.** Collaboration with Stable Diffusion for Image Editting.
 
 

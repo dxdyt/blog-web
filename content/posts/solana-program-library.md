@@ -1,9 +1,9 @@
 ---
 title: solana-program-library
-date: 2023-12-23T12:18:06+08:00
+date: 2024-06-14T12:18:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703027816278-2573b76e62f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703027816278-2573b76e62f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715549950698-14f6673ea6b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715549950698-14f6673ea6b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
 ---
 
 # [solana-labs/solana-program-library](https://github.com/solana-labs/solana-program-library)
@@ -42,7 +42,7 @@ In addition, one program is planned for deployment to Solana Mainnet Beta:
 
 | Program | Version |
 | --- | --- |
-| [single-pool](https://github.com/solana-labs/solana-program-library/tree/master/single-pool/program) | [1.0.0](https://github.com/solana-labs/solana-program-library/releases/tag/single-pool-v1.0.0) |
+| [single-pool](https://github.com/solana-labs/solana-program-library/tree/master/single-pool/program) | [1.0.1](https://github.com/solana-labs/solana-program-library/releases/tag/single-pool-v1.0.1) |
 
 ## Audits
 
@@ -53,10 +53,10 @@ Only a subset of programs within the Solana Program Library repo are audited. Cu
 | [token](https://github.com/solana-labs/solana-program-library/tree/master/token/program) | 2022-08-04 (Peer review) | [4fadd55](https://github.com/solana-labs/solana-program-library/commit/4fadd553e1c549afd1d62aeb5ffa7ef31d1999d1) |
 | [associated-token-account](https://github.com/solana-labs/solana-program-library/tree/master/associated-token-account/program) | 2022-08-04 (Peer review) | [c00194d](https://github.com/solana-labs/solana-program-library/commit/c00194d2257302f028f44a403c6dee95c0f9c3bc) |
 | [token-2022](https://github.com/solana-labs/solana-program-library/tree/master/token/program-2022) | [2023-11-03](https://github.com/solana-labs/security-audits/blob/master/spl/OtterSecToken2022Audit-2023-11-03.pdf) | [e924132](https://github.com/solana-labs/solana-program-library/tree/e924132d65ba0896249fb4983f6f97caff15721a) |
-| [stake-pool](https://github.com/solana-labs/solana-program-library/tree/master/stake-pool/program) | [2023-11-14](https://github.com/solana-labs/security-audits/blob/master/spl/NeodymeStakePoolAudit-2023-11-14.pdf) | [6ed7254](https://github.com/solana-labs/solana-program-library/commit/6ed7254d1a578ffbc2b091d28cb92b25e7cc511d) |
+| [stake-pool](https://github.com/solana-labs/solana-program-library/tree/master/stake-pool/program) | [2023-12-31](https://github.com/solana-labs/security-audits/blob/master/spl/HalbornStakePoolAudit-2023-12-31.pdf) | [a17fffe](https://github.com/solana-labs/solana-program-library/commit/a17fffe70d6cc13742abfbc4a4a375b087580bc1) |
 | [account-compression](https://github.com/solana-labs/solana-program-library/tree/master/account-compression/programs/account-compression) | [2022-12-05](https://github.com/solana-labs/security-audits/blob/master/spl/OtterSecAccountCompressionAudit-2022-12-03.pdf) | [6e81794](https://github.com/solana-labs/solana-program-library/commit/6e81794) |
 | [shared-memory](https://github.com/solana-labs/solana-program-library/tree/master/shared-memory/program) | [2021-02-25](https://github.com/solana-labs/security-audits/blob/master/spl/KudelskiTokenSwapSharedMemAudit-2021-02-25.pdf) | [b40e0dd](https://github.com/solana-labs/solana-program-library/commit/b40e0dd3fd6c0e509dc1e8dd3da0a6d609035bbd) |
-| [single-pool](https://github.com/solana-labs/solana-program-library/tree/master/single-pool/program) | [2023-08-08](https://github.com/solana-labs/security-audits/blob/master/spl/NeodymeSinglePoolAudit-2023-08-08.pdf) | [735d729](https://github.com/solana-labs/solana-program-library/commit/735d7292e35d35101750a4452d2647bdbf848e8b) |
+| [single-pool](https://github.com/solana-labs/solana-program-library/tree/master/single-pool/program) | [2024-01-02](https://github.com/solana-labs/security-audits/blob/master/spl/ZellicSinglePoolAudit-2024-01-02.pdf) | [ef44df9](https://github.com/solana-labs/solana-program-library/commit/ef44df985e76a697ee9a8aabb3a223610e4cf1dc) |
 
 All other programs may be updated from time to time. These programs are not
 audited, so fork and deploy them at your own risk. Here is the full list of
@@ -229,11 +229,11 @@ master. Once a program is tested and deemed ready for release:
 
   * Increment the version number in the program's Cargo.toml
   * Run `cargo build-sbf <program>` to build binary. Note the
-    location of the generated `spl_<program>.so` for attaching to the Github
+    location of the generated `spl_<program>.so` for attaching to the GitHub
     release.
   * Open a PR with these version changes and merge after passing CI.
 
-### Create Github tag
+### Create GitHub tag
 
 Program tags are of the form `<program>-vX.Y.Z`.
 Create the new tag at the version-bump commit and push to the
@@ -244,7 +244,7 @@ $ git tag token-v1.0.0 b24bfe7
 $ git push upstream --tags
 ```
 
-### Publish Github release
+### Publish GitHub release
 
   * Go to [GitHub Releases UI](https://github.com/solana-labs/solana-program-library/releases)
   * Click "Draft new release", and enter the new tag in the "Tag version" box.
