@@ -1,9 +1,9 @@
 ---
 title: folly
-date: 2023-11-11T12:16:52+08:00
+date: 2024-06-15T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698399923752-16109547a59e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698399923752-16109547a59e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [facebook/folly](https://github.com/facebook/folly)
@@ -20,7 +20,7 @@ Folly: Facebook Open-source Library
 <img src="static/logo.svg" alt="Logo Folly" width="15%" align="right" />
 
 Folly (acronymed loosely after Facebook Open Source Library) is a
-library of C++14 components designed with practicality and efficiency
+library of C++17 components designed with practicality and efficiency
 in mind. **Folly contains a variety of core library components used extensively
 at Facebook**. In particular, it's often a dependency of Facebook's other
 open source C++ efforts and place where those projects can share code.

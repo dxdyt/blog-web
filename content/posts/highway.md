@@ -1,9 +1,9 @@
 ---
 title: highway
-date: 2024-02-27T12:18:02+08:00
+date: 2024-06-15T12:20:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707779706350-0fdac3993592?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707779706350-0fdac3993592?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716979151889-d5cef50d1196?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716979151889-d5cef50d1196?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [google/highway](https://github.com/google/highway)
@@ -65,6 +65,13 @@ the biggest gains are unlocked by designing algorithms and data structures for
 scalable vectors. Helpful techniques include batching, structure-of-array
 layouts, and aligned/padded allocations.
 
+We recommend these resources for getting started:
+
+-   [SIMD for C++ Developers](http://const.me/articles/simd/simd.pdf)
+-   [Algorithms for Modern Hardware](https://en.algorithmica.org/hpc/)
+-   [Optimizing software in C++](https://agner.org/optimize/optimizing_cpp.pdf)
+-   [Improving performance with SIMD intrinsics in three use cases](https://stackoverflow.blog/2020/07/08/improving-performance-with-simd-intrinsics-in-three-use-cases/)
+
 ## Examples
 
 Online demos using Compiler Explorer:
@@ -76,7 +83,7 @@ Online demos using Compiler Explorer:
     flags)
 
 We observe that Highway is referenced in the following open source projects,
-found via sourcegraph.com. Most are Github repositories. If you would like to
+found via sourcegraph.com. Most are GitHub repositories. If you would like to
 add your project or link to it directly, feel free to raise an issue or contact
 us via the below email.
 
@@ -100,7 +107,7 @@ Other
 *   [zimt](https://github.com/kfjahnke/zimt): C++11 template library to process n-dimensional arrays with multi-threaded SIMD code
 *   [vectorized Quicksort](https://github.com/google/highway/tree/master/hwy/contrib/sort) ([paper](https://arxiv.org/abs/2205.05982))
 
-If you'd like to get Highway, in addition to cloning from this Github repository
+If you'd like to get Highway, in addition to cloning from this GitHub repository
 or using it as a Git submodule, you can also find it in the following package
 managers or repositories: alpinelinux, conan-io, conda-forge, DragonFlyBSD,
 freebsd, ghostbsd, microsoft/vcpkg, MidnightBSD, MSYS2, NetBSD, openSUSE,
@@ -111,13 +118,14 @@ https://repology.org/project/highway-simd-library/versions .
 
 ### Targets
 
-Highway supports 22 targets, listed in alphabetical order of platform:
+Highway supports 24 targets, listed in alphabetical order of platform:
 
 -   Any: `EMU128`, `SCALAR`;
--   Arm: `NEON` (Armv7+), `SVE`, `SVE2`, `SVE_256`, `SVE2_128`;
+-   Armv7+: `NEON_WITHOUT_AES`, `NEON`, `NEON_BF16`, `SVE`, `SVE2`, `SVE_256`,
+    `SVE2_128`;
 -   IBM Z: `Z14`, `Z15`;
--   POWER: `PPC8` (v2.07), `PPC9` (v3.0), `PPC10` (v3.1B, not yet supported
-    due to compiler bugs, see #1207; also requires QEMU 7.2);
+-   POWER: `PPC8` (v2.07), `PPC9` (v3.0), `PPC10` (v3.1B, not yet supported due
+    to compiler bugs, see #1207; also requires QEMU 7.2);
 -   RISC-V: `RVV` (1.0);
 -   WebAssembly: `WASM`, `WASM_EMU256` (a 2x unrolled version of wasm128,
     enabled if `HWY_WANT_WASM2` is defined. This will remain supported until it
@@ -132,7 +140,8 @@ Highway supports 22 targets, listed in alphabetical order of platform:
         VBMI2 + VNNI + VPOPCNT; requires opt-in by defining `HWY_WANT_AVX3_DL`
         unless compiling for static dispatch),
     -   `AVX3_ZEN4` (like AVX3_DL but optimized for AMD Zen4; requires opt-in by
-        defining `HWY_WANT_AVX3_ZEN4` if compiling for static dispatch)
+        defining `HWY_WANT_AVX3_ZEN4` if compiling for static dispatch, but
+        enabled by default for runtime dispatch),
     -   `AVX3_SPR` (~Sapphire Rapids, includes AVX-512FP16)
 
 Our policy is that unless otherwise specified, targets will remain supported as
@@ -192,12 +201,15 @@ sudo apt install cmake
 
 Highway's unit tests use [googletest](https://github.com/google/googletest).
 By default, Highway's CMake downloads this dependency at configuration time.
-You can disable this by setting the `HWY_SYSTEM_GTEST` CMake variable to ON and
+You can avoid this by setting the `HWY_SYSTEM_GTEST` CMake variable to ON and
 installing gtest separately:
 
 ```bash
 sudo apt install libgtest-dev
 ```
+
+Alternatively, you can define `HWY_TEST_STANDALONE=1` and remove all occurrences
+of `gtest_main` in each BUILD file, then tests avoid the dependency on GUnit.
 
 Running cross-compiled tests requires support from the OS, which on Debian is
 provided by the `qemu-user-binfmt` package.
@@ -274,6 +286,11 @@ be prefixed with `HWY_ATTR`, OR reside between `HWY_BEFORE_NAMESPACE()` and
 `HWY_AFTER_NAMESPACE()`. Lambda functions currently require `HWY_ATTR` before
 their opening brace.
 
+Do not use namespace-scope nor `static` initializers for SIMD vectors because
+this can cause SIGILL when using runtime dispatch and the compiler chooses an
+initializer compiled for a target not supported by the current CPU. Instead,
+constants initialized via `Set` should generally be local (const) variables.
+
 The entry points into code using Highway differ slightly depending on whether
 they use static or dynamic dispatch. In both cases, we recommend that the
 top-level function receives one or more pointers to arrays, rather than
@@ -321,16 +338,19 @@ function templates) are usually inlined.
 
 ## Compiler flags
 
-Applications should be compiled with optimizations enabled - without inlining,
+Applications should be compiled with optimizations enabled. Without inlining
 SIMD code may slow down by factors of 10 to 100. For clang and GCC, `-O2` is
 generally sufficient.
 
 For MSVC, we recommend compiling with `/Gv` to allow non-inlined functions to
 pass vector arguments in registers. If intending to use the AVX2 target together
 with half-width vectors (e.g. for `PromoteTo`), it is also important to compile
-with `/arch:AVX2`. This seems to be the only way to generate VEX-encoded SSE4
-instructions on MSVC. Otherwise, mixing VEX-encoded AVX2 instructions and
-non-VEX SSE4 may cause severe performance degradation. Unfortunately, the
+with `/arch:AVX2`. This seems to be the only way to reliably generate VEX-encoded
+SSE instructions on MSVC. Sometimes MSVC generates VEX-encoded SSE instructions,
+if they are mixed with AVX, but not always, see 
+[DevCom-10618264](https://developercommunity.visualstudio.com/t/10618264).
+Otherwise, mixing VEX-encoded AVX2 instructions and non-VEX SSE may cause severe 
+performance degradation. Unfortunately, with `/arch:AVX2` option, the
 resulting binary will then require AVX2. Note that no such flag is needed for
 clang and GCC because they support target-specific attributes, which we use to
 ensure proper VEX code generation for AVX2 targets.

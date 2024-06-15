@@ -1,9 +1,9 @@
 ---
 title: gemma.cpp
-date: 2024-02-28T12:17:42+08:00
+date: 2024-06-15T12:19:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706460546168-34705dde5d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706460546168-34705dde5d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [google/gemma.cpp](https://github.com/google/gemma.cpp)
@@ -17,6 +17,11 @@ For additional information about Gemma, see
 [ai.google.dev/gemma](https://ai.google.dev/gemma). Model weights, including gemma.cpp
 specific artifacts, are [available on
 kaggle](https://www.kaggle.com/models/google/gemma).
+
+NOTE: 2024-04-04: if using 2B models, please re-download weights from Kaggle and
+ensure you have the latest version (-mqa or version 3). We are changing the code
+to match the new weights. If you wish to use old weights, change `ConfigGemma2B`
+in `configs.h` back to `kVocabSize = 256128` and `kKVHeads = 8`.
 
 ## Who is this project for?
 
@@ -46,7 +51,12 @@ For production-oriented edge deployments we recommend standard deployment
 pathways using Python frameworks like JAX, Keras, PyTorch, and Transformers
 ([all model variations here](https://www.kaggle.com/models/google/gemma)).
 
-Community contributions large and small are welcome. This project follows
+## Contributing
+
+Community contributions large and small are welcome. See
+[DEVELOPERS.md](https://github.com/google/gemma.cpp/blob/main/DEVELOPERS.md)
+for additional notes contributing developers and [join the discord by following
+this invite link](https://discord.gg/H5jCBAWxAe). This project follows
 [Google's Open Source Community
 Guidelines](https://opensource.google.com/conduct/).
 
@@ -75,14 +85,25 @@ winget install --id Kitware.CMake
 winget install --id Microsoft.VisualStudio.2022.BuildTools --force --override "--passive --wait --add Microsoft.VisualStudio.Workload.VCTools;installRecommended --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --add Microsoft.VisualStudio.Component.VC.Llvm.ClangToolset"
 ```
 
-### Step 1: Obtain model weights and tokenizer from Kaggle
+### Step 1: Obtain model weights and tokenizer from Kaggle or Hugging Face Hub
 
 Visit [the Gemma model page on
-Kaggle](https://www.kaggle.com/models/google/gemma) and select `Model Variations
+Kaggle](https://www.kaggle.com/models/google/gemma/frameworks/gemmaCpp) and select `Model Variations
 |> Gemma C++`. On this tab, the `Variation` dropdown includes the options below.
 Note bfloat16 weights are higher fidelity, while 8-bit switched floating point
 weights enable faster inference. In general, we recommend starting with the
 `-sfp` checkpoints.
+
+Alternatively, visit the [gemma.cpp](https://huggingface.co/models?other=gemma.cpp)
+models on the Hugging Face Hub. First go the the model repository of the model of interest
+(see recommendations below). Then, click the `Files and versions` tab and download the 
+model and tokenizer files. For programmatic downloading, if you have `huggingface_hub`
+installed, you can also download by running:
+
+```
+huggingface-cli login # Just the first time
+huggingface-cli download google/gemma-2b-sfp-cpp --local-dir build/
+```
 
 2B instruction-tuned (`it`) and pre-trained (`pt`) models:
 
@@ -102,11 +123,13 @@ weights enable faster inference. In general, we recommend starting with the
 | `7b-pt`     | 7 billion parameter pre-trained model, bfloat16 |
 | `7b-pt-sfp` | 7 billion parameter pre-trained model, 8-bit switched floating point |
 
-> [!NOTE] 
+> [!NOTE]
 > **Important**: We strongly recommend starting off with the `2b-it-sfp` model to
 > get up and running.
 
 ### Step 2: Extract Files
+
+If you downloaded the models from Hugging Face, skip to step 3.
 
 After filling out the consent form, the download should proceed to retrieve a
 tar archive file `archive.tar.gz`. Extract files from `archive.tar.gz` (this can
@@ -126,7 +149,7 @@ The build system uses [CMake](https://cmake.org/). To build the gemma inference
 runtime, create a build directory and generate the build files using `cmake`
 from the top-level project directory. Note if you previous ran `cmake` and are
 re-running with a different setting, be sure to clean out the `build/` directory
-with `rm -rf build/*` (warning this will delete any other files in the `build/` 
+with `rm -rf build/*` (warning this will delete any other files in the `build/`
 directory.
 
 For the 8-bit switched floating point weights (sfp), run cmake with no options:
@@ -185,25 +208,38 @@ cmake --build --preset windows -j [number of parallel threads to use]
 
 If the build is successful, you should now have a `gemma.exe` executable in the `build/` directory.
 
+#### Bazel
+
+```sh
+bazel build -c opt --cxxopt=-std=c++20 :gemma
+```
+
+If the build is successful, you should now have a `gemma` executable in the `bazel-bin/` directory.
+
+#### Make
+
+If you prefer Makefiles, @jart has made one available here:
+
+https://github.com/jart/gemma3/blob/main/Makefile
+
 ### Step 4: Run
 
 You can now run `gemma` from inside the `build/` directory.
 
 `gemma` has the following required arguments:
 
-| Argument | Description | Example value |
-| -------- | ----------- | ------------- |
-| `--model` | The model type. | `2b-it`, `2b-pt`, `7b-it`, `7b-pt`, ... (see above) |
-| `--compressed_weights` | The compressed weights file. | `2b-it-sfp.sbs`, ... (see above) |
-| `--tokenizer` | The tokenizer file. | `tokenizer.spm` |
-
+| Argument      | Description                  | Example value              |
+| ------------- | ---------------------------- | -------------------------- |
+| `--model`     | The model type.              | `2b-it`, `2b-pt`, `7b-it`, `7b-pt`, ... (see above) |
+| `--weights`   | The compressed weights file. | `2b-it-sfp.sbs`, ... (see above) |
+| `--tokenizer` | The tokenizer file.          | `tokenizer.spm`            |
 
 `gemma` is invoked as:
 
 ```sh
 ./gemma \
 --tokenizer [tokenizer file] \
---compressed_weights [compressed weights file] \
+--weights [compressed weights file] \
 --model [2b-it or 2b-pt or 7b-it or 7b-pt or ...]
 ```
 
@@ -216,9 +252,26 @@ Example invocation for the following configuration:
 ```sh
 ./gemma \
 --tokenizer tokenizer.spm \
---compressed_weights 2b-it-sfp.sbs \
+--weights 2b-it-sfp.sbs \
 --model 2b-it
 ```
+
+### RecurrentGemma
+
+This repository includes a version of Gemma based on Griffin
+([paper](https://arxiv.org/abs/2402.19427),
+[code](https://github.com/google-deepmind/recurrentgemma)). Its architecture
+includes both recurrent layers and local attention, thus it is more efficient
+for longer sequences and has a smaller memory footprint than standard Gemma. We
+here provide a C++ implementation of this model based on the paper.
+
+To use the recurrent version of Gemma included in this repository, build the
+gemma binary as noted above in Step 3. Download the compressed weights and
+tokenizer from the RecurrentGemma
+[Kaggle](https://www.kaggle.com/models/google/recurrentgemma/gemmaCpp) as in
+Step 1, and run the binary as follows:
+
+`./gemma --tokenizer tokenizer.spm --model gr2b-it --weights 2b-it-sfp.sbs`
 
 ### Troubleshooting and FAQs
 
@@ -251,6 +304,21 @@ and not a pre-trained model (any model with a `-pt` suffix).
 We're working on a python script to convert a standard model format to `.sbs`,
 and hope have it available in the next week or so. Follow [this
 issue](https://github.com/google/gemma.cpp/issues/11) for updates.
+
+**What are some easy ways to make the model run faster?**
+
+1. Make sure you are using the 8-bit switched floating point `-sfp` models.
+2. If you're on a laptop, make sure power mode is set to maximize performance
+and saving mode is **off**. For most laptops, the power saving modes get
+activated automatically if the computer is not plugged in.
+3. Close other unused cpu-intensive applications.
+4. On macs, anecdotally we observe a "warm-up" ramp-up in speed as performance
+cores get engaged.
+5. Experiment with the `--num_threads` argument value. Depending on the device,
+larger numbers don't always mean better performance.
+
+We're also working on algorithmic and optimization approaches for faster
+inference, stay tuned.
 
 ## Usage
 
@@ -322,7 +390,7 @@ For using the `gemma` executable as a command line tool, it may be useful to
 create an alias for gemma.cpp with arguments fully specified:
 
 ```sh
-alias gemma2b="~/gemma.cpp/build/gemma -- --tokenizer ~/gemma.cpp/build/tokenizer.spm --compressed_weights ~/gemma.cpp/build/2b-it-sfp.sbs --model 2b-it --verbosity 0"
+alias gemma2b="~/gemma.cpp/build/gemma -- --tokenizer ~/gemma.cpp/build/tokenizer.spm --weights ~/gemma.cpp/build/2b-it-sfp.sbs --model 2b-it --verbosity 0"
 ```
 
 Replace the above paths with your own paths to the model and tokenizer paths
@@ -425,10 +493,26 @@ make -j [number of parallel threads to use] libgemma
 If this is successful, you should now have a `libgemma` library file in the
 `build/` directory. On Unix platforms, the filename is `libgemma.a`.
 
+## Independent Projects Using gemma.cpp
+
+Some independent projects using gemma.cpp:
+
+- [gemma-cpp-python - Python bindings](https://github.com/namtranase/gemma-cpp-python)
+- [lua-cgemma - Lua bindings](https://github.com/ufownl/lua-cgemma)
+- [Godot engine demo project](https://github.com/Rliop913/Gemma-godot-demo-project)
+
+If you would like to have your project included, feel free to get in touch or
+submit a PR with a `README.md` edit.
+
 ## Acknowledgements and Contacts
 
 gemma.cpp was started in fall 2023 by [Austin Huang](mailto:austinvhuang@google.com)
 and [Jan Wassenberg](mailto:janwas@google.com), and subsequently released February 2024
 thanks to contributions from Phil Culliton, Paul Chang, and Dan Zheng.
+
+Griffin support was implemented in April 2024 thanks to contributions by Andrey
+Mikhaylov, Eugene Kliuchnikov, Jan Wassenberg, Jyrki Alakuijala, Lode
+Vandevenne, Luca Versari, Martin Bruse, Phil Culliton, Sami Boukortt, Thomas
+Fischbacher and Zoltan Szabadka.
 
 This is not an officially supported Google product.

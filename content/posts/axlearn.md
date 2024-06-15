@@ -1,9 +1,9 @@
 ---
 title: axlearn
-date: 2024-06-13T12:17:55+08:00
+date: 2024-06-15T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715966966827-25a227141ee9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715966966827-25a227141ee9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716847214612-e2c2f3771d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716847214612-e2c2f3771d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [apple/axlearn](https://github.com/apple/axlearn)

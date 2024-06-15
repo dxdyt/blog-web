@@ -1,9 +1,9 @@
 ---
 title: azure-sdk-for-java
-date: 2023-10-20T12:17:35+08:00
+date: 2024-06-15T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687778335869-4f7da0690fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687778335869-4f7da0690fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716847214612-e2c2f3771d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716847214612-e2c2f3771d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [Azure/azure-sdk-for-java](https://github.com/Azure/azure-sdk-for-java)

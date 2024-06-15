@@ -1,9 +1,9 @@
 ---
 title: LightGBM
-date: 2023-07-16T12:18:32+08:00
+date: 2024-06-15T12:18:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685207739378-8f17893aad31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685207739378-8f17893aad31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODk0ODA5NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716847214612-e2c2f3771d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716847214612-e2c2f3771d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/LightGBM](https://github.com/microsoft/LightGBM)
@@ -51,7 +51,6 @@ Next you may want to read:
 - [**Features**](https://github.com/microsoft/LightGBM/blob/master/docs/Features.rst) and algorithms supported by LightGBM.
 - [**Parameters**](https://github.com/microsoft/LightGBM/blob/master/docs/Parameters.rst) is an exhaustive list of customization you can make.
 - [**Distributed Learning**](https://github.com/microsoft/LightGBM/blob/master/docs/Parallel-Learning-Guide.rst) and [**GPU Learning**](https://github.com/microsoft/LightGBM/blob/master/docs/GPU-Tutorial.rst) can speed up computation.
-- [**Laurae++ interactive documentation**](https://sites.google.com/view/lauraepp/parameters) is a detailed guide for hyperparameters.
 - [**FLAML**](https://www.microsoft.com/en-us/research/project/fast-and-lightweight-automl-for-large-scale-data/articles/flaml-a-fast-and-lightweight-automl-library/) provides automated tuning for LightGBM ([code examples](https://microsoft.github.io/FLAML/docs/Examples/AutoML-for-LightGBM/)).
 - [**Optuna Hyperparameter Tuner**](https://medium.com/optuna/lightgbm-tuner-new-optuna-integration-for-hyperparameter-optimization-8b7095e99258) provides automated tuning for LightGBM hyperparameters ([code examples](https://github.com/optuna/optuna-examples/blob/main/lightgbm/lightgbm_tuner_simple.py)).
 - [**Understanding LightGBM Parameters (and How to Tune Them using Neptune)**](https://neptune.ai/blog/lightgbm-parameters-guide).
@@ -73,6 +72,8 @@ External (Unofficial) Repositories
 
 Projects listed here offer alternative ways to use LightGBM.
 They are not maintained or officially endorsed by the `LightGBM` development team.
+
+LightGBMLSS (An extension of LightGBM to probabilistic modelling from which prediction intervals and quantiles can be derived): https://github.com/StatMixedML/LightGBMLSS
 
 FLAML (AutoML library for hyperparameter optimization): https://github.com/microsoft/FLAML
 
@@ -135,6 +136,8 @@ MLflow (experiment tracking, model monitoring framework): https://github.com/mlf
 lightgbm-transform (feature transformation binding): https://github.com/microsoft/lightgbm-transform
 
 `postgresml` (LightGBM training and prediction in SQL, via a Postgres extension): https://github.com/postgresml/postgresml
+
+`vaex-ml` (Python DataFrame library with its own interface to LightGBM): https://github.com/vaexio/vaex
 
 Support
 -------

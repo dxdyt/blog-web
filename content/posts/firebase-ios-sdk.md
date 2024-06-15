@@ -1,9 +1,9 @@
 ---
 title: firebase-ios-sdk
-date: 2024-06-05T12:22:07+08:00
+date: 2024-06-15T12:19:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715405155683-e36aff15fd53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715405155683-e36aff15fd53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [firebase/firebase-ios-sdk](https://github.com/firebase/firebase-ios-sdk)

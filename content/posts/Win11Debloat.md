@@ -1,9 +1,9 @@
 ---
 title: Win11Debloat
-date: 2024-05-22T12:18:41+08:00
+date: 2024-06-15T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715523089278-c2c768164abb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715523089278-c2c768164abb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
 ---
 
 # [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
@@ -33,9 +33,10 @@ You can pick and choose exactly which modifications you want the script to make,
 - Disable telemetry, diagnostic data, app-launch tracking & targeted ads.
 - Disable tips, tricks, suggestions and ads in start, settings, notifications, Windows explorer, and on the lockscreen.
 
-#### Bing & Copilot
+#### Bing, Copilot & More
 - Disable & remove bing search & cortana in Windows search.
 - Disable Windows Copilot. (Windows 11 only)
+- Disable Windows Recall snapshots. (Windows 11 only)
 
 #### Windows Explorer
 - Show hidden files, folders and drives.
@@ -117,7 +118,8 @@ The default mode applies the changes that are recommended for most users, expand
       - Microsoft.XboxApp (Old Xbox Console Companion App, no longer supported)
       - Microsoft.ZuneVideo  
       - MicrosoftCorporationII.MicrosoftFamily (Microsoft Family Safety)
-      - MicrosoftTeams (Personal version only, does not remove MS teams for business/enterprise)
+      - MicrosoftTeams (Old personal version of MS Teams from the MS Store)
+      - MSTeams (New MS Teams app)
   
       Third party bloat:
       - ACGMediaPlayer  
@@ -225,14 +227,14 @@ The default mode applies the changes that are recommended for most users, expand
 
 ### Quick method
 
-Download & run the script automatically via powershell. Please note that this will install git if it's not already installed on your system.
+Download & run the script automatically via powershell.
 
 1. Open powershell as an administrator.
 2. Copy and paste the code below into powershell, press enter to run the script:
 ```powershell
 & ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Raphire/Win11Debloat/master/Get.ps1")))
 ```
-3. Wait for the script to automatically install git and download Win11Debloat.
+3. Wait for the script to automatically download Win11Debloat.
 4. A new powershell window will open showing the Win11Debloat menu. Select either the default or custom mode to continue.
 5. Carefully read through and follow the on-screen instructions.
 
@@ -286,10 +288,11 @@ The quick and advanced method support parameters to tailor the behaviour of the 
 | -RemoveApps                        |    Remove the default selection of bloatware apps. |
 | -RemoveAppsCustom                  |    Remove all apps from the 'CustomAppsList' file. IMPORTANT: Run the script with the `-RunAppConfigurator` parameter to create this file first. No apps will be removed if this file does not exist! |
 | -RunAppConfigurator                |    Run the app configurator to create a 'CustomAppsList' file. Run the script with the `-RemoveAppsCustom` parameter to remove these apps. |
-| -RemoveCommApps                    |    Remove the Mail, Calender, and People apps. |
+| -RemoveCommApps                    |    Remove the Mail, Calendar, and People apps. |
 | -RemoveW11Outlook                  |    Remove the new Outlook for Windows app. |
 | -RemoveDevApps                     |    Remove developer-related apps such as Remote Desktop, DevHome and Power Automate. |
 | -RemoveGamingApps                  |    Remove the Xbox App and Xbox Gamebar. |
+| -DisableDVR                        |    Disable Xbox game DVR. |
 | -ClearStart                        |    Remove all pinned apps from the start menu. NOTE: This applies to all existing and new users. (Windows 11 update 22H2 or later only) |
 | -DisableTelemetry                  |    Disable telemetry, diagnostic data & targeted ads. |
 | -DisableBing                       |    Disable & remove bing search, bing AI & cortana in Windows search. |
@@ -306,6 +309,7 @@ The quick and advanced method support parameters to tailor the behaviour of the 
 | -ShowSearchBoxTb                   |    Show search box on the taskbar. (Windows 11 only) |
 | -HideTaskview                      |    Hide the taskview button from the taskbar. (Windows 11 only) |
 | -DisableCopilot                    |    Disable Windows copilot. (Windows 11 only) |
+| -DisableRecall                     |    Disable Windows Recall snapshots. (Windows 11 only) |
 | -DisableWidgets                    |    Disable the widget service & hide the widget (news and interests) icon from the taskbar. |
 | -HideChat                          |    Hide the chat (meet now) icon from the taskbar. |
 | -HideOnedrive                      |    Hide the onedrive folder in the Windows explorer sidepanel. (Windows 10 only) |
