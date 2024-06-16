@@ -1,9 +1,9 @@
 ---
 title: wpt
-date: 2024-06-15T12:18:14+08:00
+date: 2024-06-16T12:17:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716979151889-d5cef50d1196?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716979151889-d5cef50d1196?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718046254440-77bb25734514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718046254440-77bb25734514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
 ---
 
 # [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt)

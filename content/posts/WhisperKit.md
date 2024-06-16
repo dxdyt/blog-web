@@ -1,9 +1,9 @@
 ---
 title: WhisperKit
-date: 2024-03-05T12:17:41+08:00
+date: 2024-06-16T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708458927308-f798522882a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708458927308-f798522882a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk2MTIxMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715594564975-2664fdf28a19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715594564975-2664fdf28a19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
 ---
 
 # [argmaxinc/WhisperKit](https://github.com/argmaxinc/WhisperKit)
@@ -21,9 +21,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1708458927308-f798522882
 
 # WhisperKit
 
-[![Unit Tests](https://github.com/argmaxinc/whisperkit/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/argmaxinc/whisperkit/actions/workflows/unit-tests.yml)
+[![Tests](https://github.com/argmaxinc/whisperkit/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/argmaxinc/whisperkit/actions/workflows/pre-release-tests.yml)
 [![License](https://img.shields.io/github/license/argmaxinc/whisperkit?logo=github&logoColor=969da4&label=License&labelColor=353a41&color=32d058)](LICENSE.md)
 [![Supported Swift Version](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fargmaxinc%2FWhisperKit%2Fbadge%3Ftype%3Dswift-versions&labelColor=353a41&color=32d058)](https://swiftpackageindex.com/argmaxinc/WhisperKit) [![Supported Platforms](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fargmaxinc%2FWhisperKit%2Fbadge%3Ftype%3Dplatforms&labelColor=353a41&color=32d058)](https://swiftpackageindex.com/argmaxinc/WhisperKit)
+[![Discord](https://img.shields.io/discord/1171912382512115722?style=flat&logo=discord&logoColor=969da4&label=Discord&labelColor=353a41&color=32d058&link=https%3A%2F%2Fdiscord.gg%2FG5F5GZGecC)](https://discord.gg/G5F5GZGecC)
+
 
 </div>
 
@@ -36,8 +38,10 @@ Check out the demo app on [TestFlight](https://testflight.apple.com/join/LPVOyJZ
 ## Table of Contents
 
 - [Installation](#installation)
+  - [Swift Package Manager](#swift-package-manager)
   - [Prerequisites](#prerequisites)
   - [Steps](#steps)
+  - [Homebrew](#homebrew)
 - [Getting Started](#getting-started)
   - [Quick Example](#quick-example)
   - [Model Selection](#model-selection)
@@ -48,6 +52,8 @@ Check out the demo app on [TestFlight](https://testflight.apple.com/join/LPVOyJZ
 - [Citation](#citation)
 
 ## Installation
+
+### Swift Package Manager
 
 WhisperKit can be integrated into your Swift project using the Swift Package Manager.
 
@@ -63,6 +69,14 @@ WhisperKit can be integrated into your Swift project using the Swift Package Man
 3. Enter the package repository URL: `https://github.com/argmaxinc/whisperkit`.
 4. Choose the version range or specific version.
 5. Click `Finish` to add WhisperKit to your project.
+
+### Homebrew
+
+You can install `WhisperKit` command line app using [Homebrew](https://brew.sh) by running the following command:
+
+```bash
+brew install whisperkit-cli
+```  
 
 ## Getting Started
 
@@ -90,6 +104,14 @@ WhisperKit automatically downloads the recommended model for the device if not s
 ```swift
 let pipe = try? await WhisperKit(model: "large-v3")
 ```
+
+This method also supports glob search, so you can use wildcards to select a model:
+
+```swift
+let pipe = try? await WhisperKit(model: "distil*large-v3")
+```
+
+Note that the model search must return a single model from the source repo, otherwise an error will be thrown.
 
 For a list of available models, see our [HuggingFace repo](https://huggingface.co/argmaxinc/whisperkit-coreml).
 
@@ -131,13 +153,13 @@ make download-models
 You can then run them via the CLI with:
 
 ```bash
-swift run transcribe --model-path "Models/whisperkit-coreml/openai_whisper-large-v3" --audio-path "path/to/your/audio.{wav,mp3,m4a,flac}" 
+swift run whisperkit-cli transcribe --model-path "Models/whisperkit-coreml/openai_whisper-large-v3" --audio-path "path/to/your/audio.{wav,mp3,m4a,flac}" 
 ```
 
 Which should print a transcription of the audio file. If you would like to stream the audio directly from a microphone, use:
 
 ```bash
-swift run transcribe --model-path "Models/whisperkit-coreml/openai_whisper-large-v3" --stream
+swift run whisperkit-cli transcribe --model-path "Models/whisperkit-coreml/openai_whisper-large-v3" --stream
 ```
 
 ## Contributing & Roadmap

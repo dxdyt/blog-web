@@ -1,9 +1,9 @@
 ---
 title: terraform-provider-aws
-date: 2023-10-22T12:17:34+08:00
+date: 2024-06-16T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695531332121-50706061e21a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695531332121-50706061e21a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc5NDgwNTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717062587597-5fe4f718e7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717062587597-5fe4f718e7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
 ---
 
 # [hashicorp/terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1695531332121-50706061e2
 [discuss-badge]: https://img.shields.io/badge/discuss-terraform--aws-623CE4.svg?style=flat
 [discuss]: https://discuss.hashicorp.com/c/terraform-providers/tf-aws/
 
-The [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) allows [Terraform](https://terraform.io) to manage [AWS](https://aws.amazon.com) resources.
+The [AWS Provider](https://registry.terraform.io/providers/hashicorp/aws/latest/docs) enables [Terraform](https://terraform.io) to manage [AWS](https://aws.amazon.com) resources.
 
 - [Contributing guide](https://hashicorp.github.io/terraform-provider-aws/)
 - [Quarterly development roadmap](ROADMAP.md)

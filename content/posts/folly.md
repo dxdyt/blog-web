@@ -1,9 +1,9 @@
 ---
 title: folly
-date: 2024-06-15T12:18:49+08:00
+date: 2024-06-16T12:17:50+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1496112196184-93846ceb7523?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1496112196184-93846ceb7523?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
 ---
 
 # [facebook/folly](https://github.com/facebook/folly)
