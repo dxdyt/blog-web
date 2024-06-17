@@ -1,9 +1,9 @@
 ---
 title: TensorRT
-date: 2024-06-15T12:17:51+08:00
+date: 2024-06-17T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716979151889-d5cef50d1196?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716979151889-d5cef50d1196?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717226411428-033bdcacb1c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717226411428-033bdcacb1c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/TensorRT](https://github.com/NVIDIA/TensorRT)

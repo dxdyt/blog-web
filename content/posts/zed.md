@@ -1,9 +1,9 @@
 ---
 title: zed
-date: 2024-04-18T12:17:38+08:00
+date: 2024-06-17T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712392753848-7921812a66b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712392753848-7921812a66b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717095858833-881cb335d37c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717095858833-881cb335d37c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [zed-industries/zed](https://github.com/zed-industries/zed)
@@ -33,16 +33,15 @@ brew install --cask zed
 Alternatively, to install the Preview release:
 
 ```sh
-brew tap homebrew/cask-versions
-brew install zed-preview
+brew install --cask zed@preview
 ```
 
 ## Developing Zed
 
-- [Building Zed for macOS](./docs/src/developing_zed__building_zed_macos.md)
-- [Building Zed for Linux](./docs/src/developing_zed__building_zed_linux.md)
-- [Building Zed for Windows](./docs/src/developing_zed__building_zed_windows.md)
-- [Running Collaboration Locally](./docs/src/developing_zed__local_collaboration.md)
+- [Building Zed for macOS](./docs/src/development/macos.md)
+- [Building Zed for Linux](./docs/src/development/linux.md)
+- [Building Zed for Windows](./docs/src/development/windows.md)
+- [Running Collaboration Locally](./docs/src/development/local-collaboration.md)
 
 ## Contributing
 

@@ -1,9 +1,9 @@
 ---
 title: mlx-examples
-date: 2024-03-26T12:17:51+08:00
+date: 2024-06-17T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708432683889-c3133790465f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708432683889-c3133790465f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE0MjY0ODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717095858833-881cb335d37c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717095858833-881cb335d37c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-examples](https://github.com/ml-explore/mlx-examples)
@@ -19,10 +19,10 @@ Some more useful examples are listed below.
 
 ### Text Models 
 
+- [MLX LM](llms/README.md) a package for LLM text generation, fine-tuning, and more.
 - [Transformer language model](transformer_lm) training.
-- Large scale text generation with [LLaMA](llms/llama),
-  [Mistral](llms/mistral), [Phi-2](llms/phi2), and more in the [LLMs](llms)
-  directory.
+- Minimal examples of large scale text generation with [LLaMA](llms/llama),
+  [Mistral](llms/mistral), and more in the [LLMs](llms) directory.
 - A mixture-of-experts (MoE) language model with [Mixtral 8x7B](llms/mixtral).
 - Parameter efficient fine-tuning with [LoRA or QLoRA](lora).
 - Text-to-text multi-task Transformers with [T5](t5).
@@ -31,7 +31,7 @@ Some more useful examples are listed below.
 ### Image Models 
 
 - Image classification using [ResNets on CIFAR-10](cifar).
-- Generating images with [Stable Diffusion](stable_diffusion).
+- Generating images with [Stable Diffusion or SDXL](stable_diffusion).
 - Convolutional variational autoencoder [(CVAE) on MNIST](cvae).
 
 ### Audio Models

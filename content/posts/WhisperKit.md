@@ -1,9 +1,9 @@
 ---
 title: WhisperKit
-date: 2024-06-16T12:17:58+08:00
+date: 2024-06-17T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715594564975-2664fdf28a19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715594564975-2664fdf28a19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717318104110-d8ef457d9c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717318104110-d8ef457d9c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [argmaxinc/WhisperKit](https://github.com/argmaxinc/WhisperKit)

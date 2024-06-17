@@ -1,9 +1,9 @@
 ---
 title: mlx
-date: 2024-01-09T12:18:40+08:00
+date: 2024-06-17T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702234673977-98a88fdb1092?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702234673977-98a88fdb1092?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ3NzM3OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717318104110-d8ef457d9c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717318104110-d8ef457d9c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx](https://github.com/ml-explore/mlx)
@@ -16,15 +16,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1702234673977-98a88fdb10
 
 [![CircleCI](https://circleci.com/gh/ml-explore/mlx.svg?style=svg)](https://circleci.com/gh/ml-explore/mlx)
 
-MLX is an array framework for machine learning on Apple silicon, brought to you
-by Apple machine learning research.
+MLX is an array framework for machine learning research on Apple silicon,
+brought to you by Apple machine learning research.
 
 Some key features of MLX include:
 
- - **Familiar APIs**: MLX has a Python API that closely follows NumPy.
-   MLX also has a fully featured C++ API, which closely mirrors the Python API. 
-   MLX has higher-level packages like `mlx.nn` and `mlx.optimizers` with APIs
-   that closely follow PyTorch to simplify building more complex models.
+ - **Familiar APIs**: MLX has a Python API that closely follows NumPy.  MLX
+   also has fully featured C++, [C](https://github.com/ml-explore/mlx-c), and
+   [Swift](https://github.com/ml-explore/mlx-swift/) APIs, which closely mirror
+   the Python API.  MLX has higher-level packages like `mlx.nn` and
+   `mlx.optimizers` with APIs that closely follow PyTorch to simplify building
+   more complex models.
 
  - **Composable function transformations**: MLX supports composable function
    transformations for automatic differentiation, automatic vectorization,
@@ -78,8 +80,16 @@ in the documentation.
 
 MLX is available on [PyPI](https://pypi.org/project/mlx/). To install the Python API, run:
 
+**With `pip`**:
+
 ```
 pip install mlx
+```
+
+**With `conda`**:
+
+```
+conda install -c conda-forge mlx
 ```
 
 Checkout the
@@ -88,13 +98,13 @@ for more information on building the C++ and Python APIs from source.
 
 ## Contributing 
 
-Check out the [contribution guidelines](CONTRIBUTING.md) for more information
+Check out the [contribution guidelines](https://github.com/ml-explore/mlx/tree/main/CONTRIBUTING.md) for more information
 on contributing to MLX. See the
 [docs](https://ml-explore.github.io/mlx/build/html/install.html) for more
 information on building from source, and running tests.
 
 We are grateful for all of [our
-contributors](ACKNOWLEDGMENTS.md#Individual-Contributors). If you contribute
+contributors](https://github.com/ml-explore/mlx/tree/main/ACKNOWLEDGMENTS.md#Individual-Contributors). If you contribute
 to MLX and wish to be acknowledged, please add your name to the list in your
 pull request.
 

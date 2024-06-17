@@ -1,16 +1,16 @@
 ---
 title: StableSwarmUI
-date: 2024-06-15T12:19:34+08:00
+date: 2024-06-17T12:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717251220156-4fabe51bad4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717251220156-4fabe51bad4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717445956950-f12e558810a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717445956950-f12e558810a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
 ---
 
 # [Stability-AI/StableSwarmUI](https://github.com/Stability-AI/StableSwarmUI)
 
 # StableSwarmUI
 
-**StableSwarmUI 0.6.4 Beta**.
+**StableSwarmUI 0.6.4.1 Beta**.
 
 A Modular Stable Diffusion Web-User-Interface, with an emphasis on making powertools easily accessible, high performance, and extensibility.
 
@@ -26,7 +26,7 @@ This project is in **Beta** status. This means for most tasks, Swarm has excelle
 
 Beginner users will love Swarm's primary Generate tab interface, making it easy to generate anything with a variety of powerful features. Advanced users may favor the Comfy Workflow tab to get the unrestricted raw graph, but will still have reason to come back to the Generate tab for convenience features (image editor, auto-workflow-generation, etc) and powertools (eg Grid Generator).
 
-Those interested in helping push Swarm from Beta to a Full ready-for-anything perfected Release status are welcome to submit PRs (read the [Contributing](/CONTRIBUTING.md) document first), and you can contact us here on GitHub or on [Discord](https://discord.gg/q2y38cqjNw). I highly recommended reaching out to ask about plans for a feature before PRing it. There may already be specific plans or even a work in progress.
+Those interested in helping push Swarm from Beta to a Full ready-for-anything perfected Release status are welcome to submit PRs (read the [Contributing](/CONTRIBUTING.md) document first), and you can contact us here on GitHub or on [Discord](https://discord.gg/q2y38cqjNw). I highly recommend reaching out to ask about plans for a feature before PRing it. There may already be specific plans or even a work in progress.
 
 Key feature targets not yet implemented:
 - Better mobile browser support
@@ -47,7 +47,7 @@ Colab link if you want to try Swarm: https://colab.research.google.com/github/St
 
 Runpod template (note: maintained by third party contributor [nerdylive123](https://github.com/nerdylive123)): https://runpod.io/console/deploy?template=u7mlkrmxq3&ref=c6jd6jj0
 
-Note it may take several minutes to start up the first time. Check the container logs to see setup progress. Check the template `?` info for hint on how to use.
+Note it may take several minutes to start up the first time. Check the container logs to see setup progress. Check the template `?` info for hints on how to use.
 
 # Installing on Windows
 
@@ -104,13 +104,14 @@ Note: if you're on Windows 10, you may need to manually install [git](https://gi
 
 > **Note**: You can only run StableSwarmUI on Mac computers with M1 or M2 (Mx) Apple silicon processors.
 
-1. Open Terminal.
-2. Ensure your `brew` packages are updated with `brew update`.
-3. Verify your `brew` installation with `brew doctor`. You should not see any error in the command output.
-4. Install .NET for macOS: `brew install dotnet`.
-5. Change the directory (`cd`) to the folder where you want to install StableSwarmUI.
-6. Clone the StableSwarmUI GitHub repository: `git clone https://github.com/Stability-AI/StableSwarmUI`.
-7. `cd StableSwarmUI` and run the installation script: `./launch-macos.sh`.
+- Open Terminal.
+- Ensure your `brew` packages are updated with `brew update`.
+- Verify your `brew` installation with `brew doctor`. You should not see any error in the command output.
+- Install .NET for macOS: `brew install dotnet`.
+- If you don't have Python, install it: `brew install python@3.10` and `brew install virtualenv`
+- Change the directory (`cd`) to the folder where you want to install StableSwarmUI.
+- Clone the StableSwarmUI GitHub repository: `git clone https://github.com/Stability-AI/StableSwarmUI`.
+- `cd StableSwarmUI` and run the installation script: `./launch-macos.sh`.
 
 The installation starts now and downloads the Stable Diffusion models from the internet. Depending on your internet connection, this may take several minutes. Wait for your web browser to open the StableSwarmUI window.
 
