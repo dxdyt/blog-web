@@ -1,9 +1,9 @@
 ---
 title: StableSwarmUI
-date: 2024-06-17T12:18:33+08:00
+date: 2024-06-18T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717445956950-f12e558810a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717445956950-f12e558810a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg2ODQxOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716668596098-40ff5f73fb9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg2ODQxOTl8&ixlib=rb-4.0.3
 ---
 
 # [Stability-AI/StableSwarmUI](https://github.com/Stability-AI/StableSwarmUI)
