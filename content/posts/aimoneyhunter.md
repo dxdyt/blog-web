@@ -1,9 +1,9 @@
 ---
 title: aimoneyhunter
-date: 2024-01-20T12:17:27+08:00
+date: 2024-06-19T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704642406626-3a82c573dbd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704642406626-3a82c573dbd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716404084927-176ee37a9dbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716404084927-176ee37a9dbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
 ---
 
 # [bleedline/aimoneyhunter](https://github.com/bleedline/aimoneyhunter)

@@ -1,9 +1,9 @@
 ---
 title: warp
-date: 2024-06-17T12:20:18+08:00
+date: 2024-06-19T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716878388213-52738f52b390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716878388213-52738f52b390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715261174985-cc54833c0e27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715261174985-cc54833c0e27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/warp](https://github.com/NVIDIA/warp)

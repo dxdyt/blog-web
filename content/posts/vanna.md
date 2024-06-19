@@ -1,9 +1,9 @@
 ---
 title: vanna
-date: 2024-01-18T12:17:00+08:00
+date: 2024-06-19T12:18:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703774626005-9eb89bd30df4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703774626005-9eb89bd30df4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU1NTEzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715630915001-35be2d8dba4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715630915001-35be2d8dba4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
 ---
 
 # [vanna-ai/vanna](https://github.com/vanna-ai/vanna)
@@ -22,6 +22,10 @@ https://github.com/vanna-ai/vanna/assets/7146154/1901f47a-515d-4982-af50-f12761a
 ![vanna-quadrants](https://github.com/vanna-ai/vanna/assets/7146154/1c7c88ba-c144-4ecf-a028-cf5ba7344ca2)
 
 ## How Vanna works
+
+![Screen Recording 2024-01-24 at 11 21 37 AM](https://github.com/vanna-ai/vanna/assets/7146154/1d2718ad-12a8-4a76-afa2-c61754462f93)
+
+
 Vanna works in two easy steps - train a RAG "model" on your data, and then ask questions which will return SQL queries that can be set up to automatically run on your database.
 
 1. **Train a RAG "model" on your data**.
@@ -31,12 +35,12 @@ Vanna works in two easy steps - train a RAG "model" on your data, and then ask q
 
 If you don't know what RAG is, don't worry -- you don't need to know how this works under the hood to use it. You just need to know that you "train" a model, which stores some metadata and then use it to "ask" questions.
 
-See the [base class](src/vanna/base/base.py) for more details on how this works under the hood.
+See the [base class](https://github.com/vanna-ai/vanna/blob/main/src/vanna/base/base.py) for more details on how this works under the hood.
 
 ## User Interfaces
 These are some of the user interfaces that we've built using Vanna. You can use these as-is or as a starting point for your own custom interface.
 
-- [Jupyter Notebook](https://github.com/vanna-ai/vanna/blob/main/notebooks/getting-started.ipynb)
+- [Jupyter Notebook](https://vanna.ai/docs/postgres-openai-vanna-vannadb/)
 - [vanna-ai/vanna-streamlit](https://github.com/vanna-ai/vanna-streamlit)
 - [vanna-ai/vanna-flask](https://github.com/vanna-ai/vanna-flask)
 - [vanna-ai/vanna-slack](https://github.com/vanna-ai/vanna-slack)
@@ -45,7 +49,7 @@ These are some of the user interfaces that we've built using Vanna. You can use 
 ## Getting started
 See the [documentation](https://vanna.ai/docs/) for specifics on your desired database, LLM, etc.
 
-If you want to get a feel for how it works after training, you can try this [Colab notebook](https://colab.research.google.com/github/vanna-ai/vanna/blob/main/notebooks/getting-started.ipynb).
+If you want to get a feel for how it works after training, you can try this [Colab notebook](https://vanna.ai/docs/app/).
 
 
 ### Install
@@ -59,7 +63,20 @@ There are a number of optional packages that can be installed so see the [docume
 See the [documentation](https://vanna.ai/docs/) if you're customizing the LLM or vector database.
 
 ```python
-import vanna as vn
+# The import statement will vary depending on your LLM and vector database. This is an example for OpenAI + ChromaDB
+
+from vanna.openai.openai_chat import OpenAI_Chat
+from vanna.chromadb.chromadb_vector import ChromaDB_VectorStore
+
+class MyVanna(ChromaDB_VectorStore, OpenAI_Chat):
+    def __init__(self, config=None):
+        ChromaDB_VectorStore.__init__(self, config=config)
+        OpenAI_Chat.__init__(self, config=config)
+
+vn = MyVanna(config={'api_key': 'sk-...', 'model': 'gpt-4-...'})
+
+# See the documentation for other options
+
 ```
 
 
@@ -211,7 +228,11 @@ Fine-Tuning
     - Expose to your end users via Slackbot, web app, Streamlit app, or a custom front end.
 
 ## Extending Vanna
-Vanna is designed to connect to any database, LLM, and vector database. There's a [VannaBase](src/vanna/base/base.py) abstract base class that defines some basic functionality. The package provides implementations for use with OpenAI and ChromaDB. You can easily extend Vanna to use your own LLM or vector database. See the [documentation](https://vanna.ai/docs/) for more details.
+Vanna is designed to connect to any database, LLM, and vector database. There's a [VannaBase](https://github.com/vanna-ai/vanna/blob/main/src/vanna/base/base.py) abstract base class that defines some basic functionality. The package provides implementations for use with OpenAI and ChromaDB. You can easily extend Vanna to use your own LLM or vector database. See the [documentation](https://vanna.ai/docs/) for more details.
+
+## Vanna in 100 Seconds
+
+https://github.com/vanna-ai/vanna/assets/7146154/eb90ee1e-aa05-4740-891a-4fc10e611cab
 
 ## More resources
  - [Full Documentation](https://vanna.ai/docs/)

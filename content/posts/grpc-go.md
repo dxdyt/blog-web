@@ -1,9 +1,9 @@
 ---
 title: grpc-go
-date: 2024-01-20T12:19:01+08:00
+date: 2024-06-19T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704805952481-7f6e3579de30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704805952481-7f6e3579de30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715959168135-614434bad26d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715959168135-614434bad26d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
 ---
 
 # [grpc/grpc-go](https://github.com/grpc/grpc-go)
@@ -20,7 +20,7 @@ RPC framework that puts mobile and HTTP/2 first. For more information see the
 
 ## Prerequisites
 
-- **[Go][]**: any one of the **three latest major** [releases][go-releases].
+- **[Go][]**: any one of the **two latest major** [releases][go-releases].
 
 ## Installation
 

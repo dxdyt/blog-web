@@ -1,16 +1,16 @@
 ---
 title: omnivore
-date: 2023-12-30T12:18:44+08:00
+date: 2024-06-19T12:18:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701111818123-7ffe68d8d49c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701111818123-7ffe68d8d49c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715261174985-cc54833c0e27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715261174985-cc54833c0e27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
 ---
 
 # [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
 
 # Omnivore
 
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/omnivore-app/omnivore/Run%20tests)](https://github.com/omnivore-app/omnivore/actions/workflows/run-tests.yaml)
+[![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/omnivore-app/omnivore/run-tests.yaml?branch=main)](https://github.com/omnivore-app/omnivore/actions/workflows/run-tests.yaml)
 [![Discord](https://img.shields.io/discord/844965259462311966?label=Join%20our%20Discord)](https://discord.gg/h2z5rppzz9)
 [![Mastodon Follow](https://img.shields.io/mastodon/follow/109458738600914558?domain=https%3A%2F%2Fpkm.social)](https://pkm.social/@omnivore)
 [![Twitter Follow](https://img.shields.io/twitter/follow/omnivoreapp)](https://twitter.com/OmnivoreApp)
@@ -60,13 +60,13 @@ Omnivore takes advantage of some great open source software:
 - [Stitches](https://stitches.dev/) - We use Stitches on the frontend to style our components.
 - [Mozilla Readability](https://github.com/mozilla/readability) - We use Mozilla's Readability library to make pages easier to read.
 - [Swift GraphQL](https://www.swift-graphql.com/) - We generate our GraphQL queries on iOS using Swift GraphQL.
+- [Apollo GraphQL](https://www.apollographql.com/) - We generate our GraphQL queries on Android using Apollo GraphQL.
 - [Radix](https://www.radix-ui.com/) - We use Radix UI's components on our frontend.
 - And many more awesome libraries, just checkout our package files to see what we are using.
 
 ## Importing Libraries
 
-If you have a library you'd like to import, [@davidohlin](https://github.com/davidohlin) has created
-a tool that imports a list of CSV URLs: [omnivore-import](https://github.com/davidohlin/instapaper-to-omnivore-import)
+Check out our [docs](https://docs.omnivore.app/using/importing.html) for information on importing your data from other apps.
 
 ## How to setup local development :computer:
 
@@ -76,7 +76,7 @@ The easiest way to get started with local development is to use `docker compose 
 
 Omnivore is written in TypeScript and JavaScript.
 
-- [Node](https://nodejs.org/) -- currently we are using Node.js v14.18
+- [Node](https://nodejs.org/) -- currently we are using Node.js v18.16
 - [Chromium](https://www.chromium.org/chromium-projects/) -- see below for installation info
 
 ### Running the web and API services
