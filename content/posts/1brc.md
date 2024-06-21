@@ -1,9 +1,9 @@
 ---
 title: 1brc
-date: 2024-02-27T12:16:49+08:00
+date: 2024-06-21T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706147095818-88771b00f509?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706147095818-88771b00f509?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715464881886-0fd63cd7997b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715464881886-0fd63cd7997b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
 ---
 
 # [gunnarmorling/1brc](https://github.com/gunnarmorling/1brc)
@@ -543,7 +543,8 @@ A list of external resources such as blog posts and videos, discussing 1BRC and 
 * [1BRC - What a Journey](https://www.esolutions.tech/1brc-what-a-journey), by Marius Staicu (blog post)
 * [One Billion Rows Challenge in Golang](https://www.bytesizego.com/blog/one-billion-row-challenge-go), by Shraddha Agrawal (blog post)
 * [The Billion Row Challenge (1BRC) - Step-by-step from 71s to 1.7s](https://questdb.io/blog/billion-row-challenge-step-by-step/) by Marko Topolnik (blog post)
-
+* [Entering The One Billion Row Challenge With GitHub Copilot](https://devblogs.microsoft.com/java/entering-the-one-billion-row-challenge-with-github-copilot/) by Antonio Goncalves (blog post)
+* [DataFrame and The One Billion Row Challenge--How to use a Java DataFrame to save developer time, produce readable code, and not win any prizes](https://medium.com/@zakhav/dataframe-and-one-billion-row-challenge-97b3d0255dd1) by Vladimir Zakharov (blog post)
 ## License
 
 This code base is available under the Apache License, version 2.

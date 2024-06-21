@@ -1,9 +1,9 @@
 ---
 title: Open-Sora
-date: 2024-06-20T12:16:17+08:00
+date: 2024-06-21T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715593694322-3443b8863126?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715593694322-3443b8863126?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716319487463-b3d0ea7f3d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716319487463-b3d0ea7f3d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
 ---
 
 # [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora)
@@ -307,7 +307,7 @@ In the Gradio application, the basic options are as follows:
 
 The easiest way to generate a video is to input a text prompt and click the "**Generate video**" button (scroll down if you cannot find). The generated video will be displayed in the right panel. Checking the "**Enhance prompt with GPT4o**" will use GPT-4o to refine the prompt, while "**Random Prompt**" button will generate a random prompt by GPT-4o for you. Due to the OpenAI's API limit, the prompt refinement result has some randomness.
 
-Then, you can choose the **resolution**, **duration**, and **aspect ratio** of the generated video. Different resolution and video length will affect the video generation speed. On a 80G H100 GPU, the generation speed and peak memory usage is:
+Then, you can choose the **resolution**, **duration**, and **aspect ratio** of the generated video. Different resolution and video length will affect the video generation speed. On a 80G H100 GPU, the generation speed (with `num_sampling_step=30`) and peak memory usage is:
 
 |      | Image   | 2s       | 4s        | 8s        | 16s       |
 | ---- | ------- | -------- | --------- | --------- | --------- |

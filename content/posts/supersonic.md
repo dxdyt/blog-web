@@ -1,14 +1,14 @@
 ---
 title: supersonic
-date: 2024-06-20T12:18:13+08:00
+date: 2024-06-21T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717501219074-943fc738e5a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717501219074-943fc738e5a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714579340610-88f3a5ce6a18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714579340610-88f3a5ce6a18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
 ---
 
 # [tencentmusic/supersonic](https://github.com/tencentmusic/supersonic)
 
-[中文介绍](README_CN.md) | [Docs](https://supersonicbi.github.io/)
+[中文介绍](README_CN.md) | [日本語版](README_JP.md) | [Docs](https://supersonicbi.github.io/)
 
 ![Java CI](https://github.com/tencentmusic/supersonic/workflows/supersonic%20CI/badge.svg)
 
