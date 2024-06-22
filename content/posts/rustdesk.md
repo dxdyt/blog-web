@@ -1,9 +1,9 @@
 ---
 title: rustdesk
-date: 2024-06-21T12:17:14+08:00
+date: 2024-06-22T12:16:14+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1664304382526-cd68d8e42ce5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1664304382526-cd68d8e42ce5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716369414548-b6b791a95796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716369414548-b6b791a95796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
 ---
 
 # [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)

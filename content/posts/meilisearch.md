@@ -1,9 +1,9 @@
 ---
 title: meilisearch
-date: 2024-01-13T12:16:32+08:00
+date: 2024-06-22T12:17:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702469856961-6fedab34fb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702469856961-6fedab34fb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUxMTkzNjR8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1715914879541-57bf3411c4ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1715914879541-57bf3411c4ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
 ---
 
 # [meilisearch/meilisearch](https://github.com/meilisearch/meilisearch)
@@ -35,7 +35,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1702469856961-6fedab34fb
 
 <p align="center">⚡ A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow 🔍</p>
 
-Meilisearch helps you shape a delightful search experience in a snap, offering features that work out-of-the-box to speed up your workflow.
+[Meilisearch](https://www.meilisearch.com) helps you shape a delightful search experience in a snap, offering features that work out of the box to speed up your workflow.
 
 <p align="center" name="demo">
   <a href="https://where2watch.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=demo-gif#gh-light-mode-only" target="_blank">
@@ -46,15 +46,18 @@ Meilisearch helps you shape a delightful search experience in a snap, offering f
   </a>
 </p>
 
-🔥 [**Try it!**](https://where2watch.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=demo-link) 🔥
+## 🖥 Demos
+- [**Where To Watch:**](https://where2watch.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=demo-link) Find the movie you will watch tonight through an up-to-date IMDb dataset, [featuring Hybrid Search](https://meilisearch.notion.site/Where2Watch-Noticeable-Queries-881f6270abef4452a94255462df740d7).
+- [**Millions of Musics:**](https://music.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=demo-link) Search throught a 47 millions musics and artists dataset.
+- [**Tenant Tokens:**](https://tenant-token.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=demo-link) Experience the search with restricted results that leverage the use of tenant tokens.
 
 ## ✨ Features
-
-- **Search-as-you-type:** find search results in less than 50 milliseconds
-- **[Typo tolerance](https://www.meilisearch.com/docs/learn/getting_started/customizing_relevancy?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features#typo-tolerance):** get relevant matches even when queries contain typos and misspellings
-- **[Filtering](https://www.meilisearch.com/docs/learn/fine_tuning_results/filtering?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features) and [faceted search](https://www.meilisearch.com/docs/learn/fine_tuning_results/faceted_search?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** enhance your user's search experience with custom filters and build a faceted search interface in a few lines of code
+- **Hybrid search:** Combine the best of both [semantic](https://www.meilisearch.com/docs/learn/experimental/vector_search) & full-text search to get the most relevant results
+- **Search-as-you-type:** find & display results in less than 50 milliseconds to provide an intuitive experience
+- **[Typo tolerance](https://www.meilisearch.com/docs/learn/configuration/typo_tolerance?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** get relevant matches even when queries contain typos and misspellings
+- **[Filtering](https://www.meilisearch.com/docs/learn/fine_tuning_results/filtering?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features) and [faceted search](https://www.meilisearch.com/docs/learn/fine_tuning_results/faceted_search?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** enhance your users' search experience with custom filters and build a faceted search interface in a few lines of code
 - **[Sorting](https://www.meilisearch.com/docs/learn/fine_tuning_results/sorting?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** sort results based on price, date, or pretty much anything else your users need
-- **[Synonym support](https://www.meilisearch.com/docs/learn/getting_started/customizing_relevancy?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features#synonyms):** configure synonyms to include more relevant content in your search results
+- **[Synonym support](https://www.meilisearch.com/docs/learn/configuration/synonyms?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** configure synonyms to include more relevant content in your search results
 - **[Geosearch](https://www.meilisearch.com/docs/learn/fine_tuning_results/geosearch?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** filter and sort documents based on geographic data
 - **[Extensive language support](https://www.meilisearch.com/docs/learn/what_is_meilisearch/language?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** search datasets in any language, with optimized support for Chinese, Japanese, Hebrew, and languages using the Latin alphabet
 - **[Security management](https://www.meilisearch.com/docs/learn/security/master_api_keys?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=features):** control which users can access what data with API keys that allow fine-grained permissions handling
@@ -65,17 +68,15 @@ Meilisearch helps you shape a delightful search experience in a snap, offering f
 
 ## 📖 Documentation
 
-You can consult Meilisearch's documentation at [https://www.meilisearch.com/docs](https://www.meilisearch.com/docs/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=docs).
+You can consult Meilisearch's documentation at [meilisearch.com/docs](https://www.meilisearch.com/docs/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=docs).
 
 ## 🚀 Getting started
 
 For basic instructions on how to set up Meilisearch, add documents to an index, and search for documents, take a look at our [Quick Start](https://www.meilisearch.com/docs/learn/getting_started/quick_start?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=get-started) guide.
 
-You may also want to check out [Meilisearch 101](https://www.meilisearch.com/docs/learn/getting_started/filtering_and_sorting?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=get-started) for an introduction to some of Meilisearch's most popular features.
+## 🌍 Supercharge your Meilisearch experience
 
-## ⚡ Supercharge your Meilisearch experience
-
-Say goodbye to server deployment and manual updates with [Meilisearch Cloud](https://www.meilisearch.com/cloud?utm_campaign=oss&utm_source=github&utm_medium=meilisearch). No credit card required.
+Say goodbye to server deployment and manual updates with [Meilisearch Cloud](https://www.meilisearch.com/cloud?utm_campaign=oss&utm_source=github&utm_medium=meilisearch). Additional features include analytics & monitoring in many regions around the world. No credit card is required.
 
 ## 🧰 SDKs & integration tools
 
@@ -97,13 +98,13 @@ Finally, for more in-depth information, refer to our articles explaining fundame
 
 Meilisearch collects **anonymized** data from users to help us improve our product. You can [deactivate this](https://www.meilisearch.com/docs/learn/what_is_meilisearch/telemetry?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=telemetry#how-to-disable-data-collection) whenever you want.
 
-To request deletion of collected data, please write to us at [privacy@meilisearch.com](mailto:privacy@meilisearch.com). Don't forget to include your `Instance UID` in the message, as this helps us quickly find and delete your data.
+To request deletion of collected data, please write to us at [privacy@meilisearch.com](mailto:privacy@meilisearch.com). Remember to include your `Instance UID` in the message, as this helps us quickly find and delete your data.
 
 If you want to know more about the kind of data we collect and what we use it for, check the [telemetry section](https://www.meilisearch.com/docs/learn/what_is_meilisearch/telemetry?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=telemetry#how-to-disable-data-collection) of our documentation.
 
 ## 📫 Get in touch!
 
-Meilisearch is a search engine created by [Meili](https://www.welcometothejungle.com/en/companies/meilisearch), a software development company based in France and with team members all over the world. Want to know more about us? [Check out our blog!](https://blog.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=contact)
+Meilisearch is a search engine created by [Meili]([https://www.welcometothejungle.com/en/companies/meilisearch](https://www.meilisearch.com/careers)), a software development company headquartered in France and with team members all over the world. Want to know more about us? [Check out our blog!](https://blog.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=contact)
 
 🗞 [Subscribe to our newsletter](https://meilisearch.us2.list-manage.com/subscribe?u=27870f7b71c908a8b359599fb&id=79582d828e) if you don't want to miss any updates! We promise we won't clutter your mailbox: we only send one edition every two months.
 
@@ -111,7 +112,7 @@ Meilisearch is a search engine created by [Meili](https://www.welcometothejungle
 
 - For feature requests, please visit our [product repository](https://github.com/meilisearch/product/discussions)
 - Found a bug? Open an [issue](https://github.com/meilisearch/meilisearch/issues)!
-- Want to be part of our Discord community? [Join us!](https://discord.gg/meilisearch)
+- Want to be part of our Discord community? [Join us!](https://discord.meilisearch.com/?utm_campaign=oss&utm_source=github&utm_medium=meilisearch&utm_content=contact)
 
 Thank you for your support!
 

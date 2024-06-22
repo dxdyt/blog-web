@@ -1,9 +1,9 @@
 ---
 title: Open-Sora
-date: 2024-06-21T12:17:08+08:00
+date: 2024-06-22T12:16:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716319487463-b3d0ea7f3d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716319487463-b3d0ea7f3d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg5NDM0MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716369414548-b6b791a95796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716369414548-b6b791a95796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
 ---
 
 # [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora)
@@ -34,7 +34,7 @@ With Open-Sora, our goal is to foster innovation, creativity, and inclusivity wi
 
 ## 📰 News
 
-- **[2024.06.17]** 🔥 We released **Open-Sora 1.2**, which includes **3D-VAE**, **rectified flow**, and **score condition**. The video quality is greatly improved. [[checkpoints]](#open-sora-10-model-weights) [[report]](/docs/report_03.md)
+- **[2024.06.17]** 🔥 We released **Open-Sora 1.2**, which includes **3D-VAE**, **rectified flow**, and **score condition**. The video quality is greatly improved. [[checkpoints]](#open-sora-10-model-weights) [[report]](/docs/report_03.md)   [[blog]](https://hpc-ai.com/blog/open-sora-from-hpc-ai-tech-team-continues-open-source-generate-any-16-second-720p-hd-video-with-one-click-model-weights-ready-to-use)
 - **[2024.04.25]** 🤗 We released the [Gradio demo for Open-Sora](https://huggingface.co/spaces/hpcai-tech/open-sora) on Hugging Face Spaces.
 - **[2024.04.25]** We released **Open-Sora 1.1**, which supports **2s~15s, 144p to 720p, any aspect ratio** text-to-image, **text-to-video, image-to-video, video-to-video, infinite time** generation. In addition, a full video processing pipeline is released. [[checkpoints]]() [[report]](/docs/report_02.md)
 - **[2024.03.18]** We released **Open-Sora 1.0**, a fully open-source project for video generation.

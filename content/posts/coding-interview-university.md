@@ -1,9 +1,9 @@
 ---
 title: coding-interview-university
-date: 2024-05-25T12:18:48+08:00
+date: 2024-06-22T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713972327618-381d95481ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713972327618-381d95481ca2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716244044193-1cb4daa4f487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716244044193-1cb4daa4f487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
 ---
 
 # [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1713972327618-381d95481c
 - [Português Brasileiro](translations/README-ptbr.md)
 - [Russian](translations/README-ru.md)
 - [Tiếng Việt - Vietnamese](translations/README-vi.md)
-- [Urdu - اردو](tanslations/README-ur.md)
+- [Urdu - اردو](translations/README-ur.md)
 - [Uzbek](translations/README-uz.md)
 - [বাংলা - Bangla](translations/README-bn.md)
 - [ខ្មែរ - Khmer](translations/README-kh.md)
@@ -811,7 +811,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [ ] [Heap Sort - jumps to start (video)](https://youtu.be/odNJmw5TOEE?list=PLFDnELG9dpVxQCxuD-9BSy2E7BWY3t5Sm&t=3291)
     - [ ] [Heap Sort (video)](https://www.coursera.org/lecture/data-structures/heap-sort-hSzMO)
     - [ ] [Building a heap (video)](https://www.coursera.org/lecture/data-structures/building-a-heap-dwrOS)
-    - [ ] [MIT: Heaps and Heap Sort (video)](https://www.youtube.com/watch?v=B7hVxCmfPtM&index=4&list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb)
+    - [ ] [MIT 6.006 Introduction to Algorithms: Binary Heaps](https://www.youtube.com/watch?v=Xnpo1atN-Iw&list=PLUl4u3cNGP63EdVPNLG3ToM6LaEUuStEY&index=12)
     - [ ] [CS 61B Lecture 24: Priority Queues (video)](https://archive.org/details/ucberkeley_webcast_yIUFT6AKBGE)
     - [ ] [Linear Time BuildHeap (max-heap)](https://www.youtube.com/watch?v=MiyLo8adrWw)
     - [ ] [[Review] Heap (playlist) in 13 minutes (video)](https://www.youtube.com/playlist?list=PL9xmBV_5YoZNsyqgPW-DNwUeT8F8uhWc6)

@@ -1,9 +1,9 @@
 ---
 title: argilla
-date: 2024-06-20T12:17:13+08:00
+date: 2024-06-22T12:17:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717028430111-6a58f59fa4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717028430111-6a58f59fa4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716369414548-b6b791a95796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716369414548-b6b791a95796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
 ---
 
 # [argilla-io/argilla](https://github.com/argilla-io/argilla)
