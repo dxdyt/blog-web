@@ -1,9 +1,9 @@
 ---
 title: Rust
-date: 2024-06-05T12:20:43+08:00
+date: 2024-06-23T12:17:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715276611617-21d4395134f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715276611617-21d4395134f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717949630415-ac4ef091bcfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717949630415-ac4ef091bcfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/Rust](https://github.com/TheAlgorithms/Rust)

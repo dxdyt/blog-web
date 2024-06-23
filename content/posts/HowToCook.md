@@ -1,9 +1,9 @@
 ---
 title: HowToCook
-date: 2024-06-22T12:16:38+08:00
+date: 2024-06-23T12:17:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716244044193-1cb4daa4f487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716244044193-1cb4daa4f487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717501218603-1fc7cca58d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717501218603-1fc7cca58d6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
 ---
 
 # [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)

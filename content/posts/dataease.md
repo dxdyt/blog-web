@@ -1,9 +1,9 @@
 ---
 title: dataease
-date: 2023-12-30T12:18:34+08:00
+date: 2024-06-23T12:17:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703446485384-547d8550303c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703446485384-547d8550303c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5MDk3Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718078769613-18dc0163f587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718078769613-18dc0163f587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
 ---
 
 # [dataease/dataease](https://github.com/dataease/dataease)
@@ -16,13 +16,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1703446485384-547d855030
   <a href="https://github.com/dataease/dataease"><img src="https://img.shields.io/github/stars/dataease/dataease?color=%231890FF&style=flat-square" alt="Stars"></a>
 </p>
 
+------------------------------
+
 ## 什么是 DataEase？
 
-DataEase 是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。
-
-<p align="center">
-  <img src="https://github.com/dataease/dataease/assets/41712985/f951e258-a328-43a9-aa37-ee470d37ed63" alt="DataEase 概览图" border="0" />
-</p>
+DataEase 是开源的数据可视化分析工具（ BI 工具 ），帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。
 
 **DataEase 的优势：**
 
@@ -33,35 +31,65 @@ DataEase 是开源的数据可视化分析工具，帮助用户快速分析数�
 
 **DataEase 支持的数据源：**
 
-<p align="center">
-  <img src="https://dataease.io/images/dataSource/excel.jpg" alt="excel" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/mysql.png" alt="mysql" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/oracle.jpg" alt="oracle" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/sqlservel.jpg" alt="sqlserver" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/mariadb.jpg" alt="mariadb" border="0" width="155" height="107"/>  
-  <img src="https://dataease.io/images/dataSource/clickhouse.jpg" alt="clickhouse" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/doris.jpg" alt="doris" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/mongodb.jpg" alt="mongodb" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/redshift.jpg" alt="redshift" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/DB2.jpg" alt="DB2" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/TiDB.jpg" alt="TiDB" border="0" width="155" height="107"/>
-  <img src="https://dataease.io/images/dataSource/StarRocks.jpg" alt="StarRocks" border="0" width="155" height="107"/>
-</p>
+-   OLTP 数据库： MySQL、Oracle、SQL Server、PostgreSQL、MariaDB、Db2、TiDB、MongoDB-BI 等;
+-   OLAP 数据库： ClickHouse、Apache Doris、Apache Impala、StarRocks 等;
+-   数据仓库/数据湖： Amazon RedShift 等;
+-   数据文件： Excel、CSV 等;
+-   API 数据源。
 
-**DataEase 的技术栈：**
+## 快速开始
+
+```
+# 准备一台 2核4G 以上 Linux 服务器，以 root 运行以下一键安装脚本：
+
+curl -sSL https://dataease.oss-cn-hangzhou.aliyuncs.com/quick_start_v2.sh | bash
+
+# 用户名: admin
+# 密码: DataEase@123456
+```
+
+你也可以通过 [1Panel 应用商店](https://dataease.io/docs/v2/installation/1panel_installation/) 快速部署 DataEase。
+
+如果是用于生产环境，推荐使用 [离线安装包方式](https://dataease.io/docs/v2/installation/offline_INSTL_and_UPG/) 进行安装部署。
+
+如你有更多问题，可以查看在线文档，或者通过论坛与我们交流。
+
+-   [在线体验](https://dataease.io/demo.html)
+-   [在线文档](https://dataease.io/docs/)
+-   [社区论坛](https://bbs.fit2cloud.com/c/de/6)
+-   [入门视频](https://www.bilibili.com/video/BV1Z84y1X7eF/)
+-   [模版市场](https://templates.dataease.cn/)
+
+## DataEase 的 UI 展示
+
+<table style="border-collapse: collapse; border: 1px solid black;">
+  <tr>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/dataease/dataease/assets/41712985/8dbed4e1-39f0-4392-aa8c-d1fd83ba42eb" alt="DataEase 工作台"   /></td>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/dataease/dataease/assets/41712985/7c54cb07-51ef-4bb6-a931-8a95c64c7e11" alt="DataEase 仪表板"   /></td>
+  </tr>
+
+  <tr>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/dataease/dataease/assets/41712985/ffa79361-a7b3-4486-b14a-f3fd3a28f01a" alt="DataEase 数据源"   /></td>
+    <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/dataease/dataease/assets/41712985/bb28f4e4-636e-4ab0-85c5-1dfbd7a5397e" alt="DataEase 模板中心"   /></td>
+  </tr>
+</table>
+
+## DataEase 的技术栈
 
 -   前端：[Vue.js](https://vuejs.org/)、[Element](https://element.eleme.cn/)
 -   图库：[AntV](https://antv.vision/zh)
 -   后端：[Spring Boot](https://spring.io/projects/spring-boot)
--   中间件：[MySQL](https://www.mysql.com/)
--   数据处理：[Apache Calcite](https://github.com/apache/calcite/)
+-   数据库：[MySQL](https://www.mysql.com/)
+-   数据处理：[Apache Calcite](https://github.com/apache/calcite/)、[Apache SeaTunnel](https://github.com/apache/seatunnel)
 -   基础设施：[Docker](https://www.docker.com/)
 
-## DataEase 快速入门
+## 我们的其他明星开源项目
 
--   [在线文档](https://dataease.io/docs/)
--   [社区论坛](https://bbs.fit2cloud.com/c/de/6)
--   [快速入门视频](https://www.bilibili.com/video/BV1Z84y1X7eF/)
+- [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
+- [1Panel](https://github.com/1panel-dev/1panel/) - 现代化、开源的 Linux 服务器运维管理面板
+- [Halo](https://github.com/halo-dev/halo/) - 强大易用的开源建站工具
+- [MaxKB](https://github.com/1panel-dev/MaxKB/) - 基于 LLM 大语言模型的开源知识库问答系统
+- [MeterSphere](https://github.com/metersphere/metersphere/) - 开源的测试管理和接口测试工具
 
 ## License
 

@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2024-05-31T12:19:39+08:00
+date: 2024-06-23T12:17:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715586042534-4534fad6863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715586042534-4534fad6863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716199287176-90597a25c74a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716199287176-90597a25c74a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
 ---
 
 # [janhq/jan](https://github.com/janhq/jan)

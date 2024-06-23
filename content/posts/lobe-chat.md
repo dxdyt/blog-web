@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-06-22T12:16:30+08:00
+date: 2024-06-23T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717699967168-9ccd317a0524?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717699967168-9ccd317a0524?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkwMjk3NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715963443302-4c194d8b5981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715963443302-4c194d8b5981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -243,7 +243,7 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 | [Search1API](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>            | Search aggregation service, specifically designed for LLMs<br/>`web` `search`                                              |
 | [Search Google via Serper](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **Barry** on **2024-04-30**</sup> | Google search engine via Serper.dev free API (2500x🆓/month)<br/>`web` `search`                                            |
 
-> 📊 Total plugins: [<kbd>**53**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**52**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
