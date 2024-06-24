@@ -1,9 +1,9 @@
 ---
 title: ente
-date: 2024-05-29T12:20:09+08:00
+date: 2024-06-24T12:17:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713107100803-c5877621cdde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713107100803-c5877621cdde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716155705161-fcf2e13da07a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716155705161-fcf2e13da07a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
 ---
 
 # [ente-io/ente](https://github.com/ente-io/ente)
@@ -70,8 +70,8 @@ Our labour of love. Two years ago, while building Ente Photos, we realized that
 there was no open source end-to-end encrypted authenticator app. We already had
 the building blocks, so we built one.
 
-Ente Auth is currently free. If in the future we convert this to a paid service,
-existing users will be grandfathered in.
+Ente Auth is free, and will remain free forever. If you like the service and
+want to give back, please check out Ente Photos or spread the word.
 
 <br />
 
@@ -80,7 +80,7 @@ existing users will be grandfathered in.
 [<img height="42" src=".github/assets/app-store-badge.svg">](https://apps.apple.com/app/id6444121398)
 [<img height="42" src=".github/assets/play-store-badge.png">](https://play.google.com/store/apps/details?id=io.ente.auth)
 [<img height="42" src=".github/assets/f-droid-badge.png">](https://f-droid.org/packages/io.ente.auth/)
-[<img height="42" src=".github/assets/desktop-badge.png">](https://github.com/ente-io/ente/releases?q=tag%3Aauth-v2)
+[<img height="42" src=".github/assets/desktop-badge.png">](https://github.com/ente-io/ente/releases?q=tag%3Aauth-v3)
 [<img height="42" src=".github/assets/web-badge.svg">](https://auth.ente.io)
 
 </div>

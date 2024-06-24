@@ -1,9 +1,9 @@
 ---
 title: micrograd
-date: 2024-06-23T12:16:42+08:00
+date: 2024-06-24T12:17:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716393763723-64e389f248fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716393763723-64e389f248fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716042539914-50bf7ea49d00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716042539914-50bf7ea49d00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/micrograd](https://github.com/karpathy/micrograd)

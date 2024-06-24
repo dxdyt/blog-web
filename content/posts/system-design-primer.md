@@ -1,9 +1,9 @@
 ---
 title: system-design-primer
-date: 2024-06-11T12:19:15+08:00
+date: 2024-06-24T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714334544535-4c5eddeb0ec1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714334544535-4c5eddeb0ec1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718068838055-3a8311f0e8ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718068838055-3a8311f0e8ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
 ---
 
 # [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
@@ -611,8 +611,8 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
     * Prevent traffic from going to servers under maintenance
     * Balance between varying cluster sizes
     * A/B testing
-* [Latency-based](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-latency)
-* [Geolocation-based](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy.html#routing-policy-geo)
+* [Latency-based](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-latency.html)
+* [Geolocation-based](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/routing-policy-geo.html)
 
 ### Disadvantage(s): DNS
 

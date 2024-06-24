@@ -1,9 +1,9 @@
 ---
 title: maestro
-date: 2024-05-19T12:18:40+08:00
+date: 2024-06-24T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715236031186-9b9650b75e55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715236031186-9b9650b75e55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYwOTIxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716983541742-1a2bb3d2b5b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716983541742-1a2bb3d2b5b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
 ---
 
 # [Doriandarko/maestro](https://github.com/Doriandarko/maestro)
@@ -14,8 +14,45 @@ featuredImagePreview: https://images.unsplash.com/photo-1715236031186-9b9650b75e
 This Python script demonstrates an AI-assisted task breakdown and execution workflow using the Anthropic API. It utilizes two AI models, Opus and Haiku, to break down an objective into sub-tasks, execute each sub-task, and refine the results into a cohesive final output.
 
 ## New: 
+# Updated the original Maestro to support Claude 3.5 Sonnet
+```bash
+python maestro.py
+```
 
-# GPT-4o
+
+# Use Maestro with any APIs, Anthropic, Gemini, OpenAI, Cohere, etc.
+Thanks to a rewrite of the codebase using LiteLLM, it's now much easier to select the model you want.
+
+Simply
+#### Set environment variables for API keys for the services you are using
+os.environ["OPENAI_API_KEY"] = "YOUR KEY" 
+
+os.environ["ANTHROPIC_API_KEY"] = "YOUR KEY"
+
+os.environ["GEMINI_API_KEY"] = "YOUR KEY"
+
+#### Define the models to be used for each stage
+ORCHESTRATOR_MODEL = "gemini/gemini-1.5-flash-latest"
+
+SUB_AGENT_MODEL = "gemini/gemini-1.5-flash-latest"
+
+REFINER_MODEL = "gemini/gemini-1.5-flash-latest"
+
+Or gpt-3.5-turbo, etc.
+
+First install litellm
+```bash
+pip install litellm
+```
+
+Afeter installing dependecies run
+
+```bash
+python maestro-anyapi.py
+```
+
+
+## GPT-4o
 
 The GPT script has been updated from the ground up to support the code capabilities of GPT-4o
 
@@ -191,3 +228,38 @@ This script is released under the MIT License.
 
 - Anthropic for providing the AI models and API.
 - Rich for the beautiful console formatting.
+
+## Flask App Integration
+
+We have now integrated a Flask app to provide a user-friendly interface for interacting with the Maestro framework. This addition allows users to input objectives and view results through a web interface, enhancing the overall usability of the tool.
+
+### Setting Up and Running the Flask App
+
+To set up and run the Flask app, follow these steps:
+
+1. Ensure Flask is installed by running `pip install Flask` or by adding Flask to the `requirements.txt` file and running `pip install -r requirements.txt`.
+2. Navigate to the directory containing the Flask app files (`app.py`, `templates/`, and `static/`).
+3. Run the Flask app by executing `python app.py` in your terminal or command prompt.
+4. Access the web interface by opening a web browser and navigating to `http://localhost:5000/`.
+
+The Flask app supports all features of the Maestro framework, allowing users to input objectives and view the orchestrated task breakdown and execution results in a structured and easy-to-read format.
+
+### UI Features
+
+The Flask app includes the following UI features:
+
+- A form for inputting objectives.
+- A results display area where the orchestrated task breakdown and execution results are shown.
+- Basic styling for improved readability and user experience.
+
+This integration aims to make the Maestro framework more accessible and user-friendly, providing an intuitive way for users to leverage the power of AI-assisted task breakdown and execution.
+
+### Updated Instructions for Running the Flask App
+
+To run the Flask app with the updated file structure, follow these steps:
+
+1. Navigate to the `flask_app` directory.
+2. Execute `python app.py` to start the Flask server.
+3. Access the web interface by navigating to `http://localhost:5000/` in your web browser.
+
+This update ensures that all Flask app-related files are neatly organized within the `flask_app` folder, simplifying the project structure and making it easier to manage.
