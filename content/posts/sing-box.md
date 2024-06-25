@@ -1,9 +1,9 @@
 ---
 title: sing-box
-date: 2024-01-23T12:17:21+08:00
+date: 2024-06-25T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705257756848-933788b564ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705257756848-933788b564ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717226411428-033bdcacb1c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717226411428-033bdcacb1c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
 ---
 
 # [SagerNet/sing-box](https://github.com/SagerNet/sing-box)

@@ -1,9 +1,9 @@
 ---
 title: ragflow
-date: 2024-06-01T12:19:39+08:00
+date: 2024-06-25T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714612673675-7561c122c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718900351979-3e00f88386a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718900351979-3e00f88386a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
 ---
 
 # [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
@@ -29,7 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c1
     <a href="https://hub.docker.com/r/infiniflow/ragflow" target="_blank">
         <img src="https://img.shields.io/badge/docker_pull-ragflow:v0.7.0-brightgreen" alt="docker pull infiniflow/ragflow:v0.7.0"></a>
     <a href="https://github.com/infiniflow/ragflow/blob/main/LICENSE">
-    <img height="21" src="https://img.shields.io/badge/License-Apache--2.0-ffffff?style=flat-square&labelColor=d4eaf7&color=2e6cc4" alt="license">
+    <img height="21" src="https://img.shields.io/badge/License-Apache--2.0-ffffff?labelColor=d4eaf7&color=2e6cc4" alt="license">
   </a>
 </p>
 
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c1
   <a href="https://ragflow.io/docs/dev/">Document</a> |
   <a href="https://github.com/infiniflow/ragflow/issues/162">Roadmap</a> |
   <a href="https://twitter.com/infiniflowai">Twitter</a> |
-  <a href="https://discord.gg/jEfRUwEYEV">Discord</a> |
+  <a href="https://discord.gg/4XxujFgUN7">Discord</a> |
   <a href="https://demo.ragflow.io">Demo</a>
 </h4>
 
@@ -67,9 +67,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c1
 ## 🎮 Demo
 
 Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
+<div align="center" style="margin-top:20px;margin-bottom:20px;">
+<img src="https://github.com/infiniflow/ragflow/assets/7248/2f6baa3e-1092-4f11-866d-36f6a9d075e5" width="1200"/>
+</div>
+
 
 ## 📌 Latest Updates
 
+- 2024-06-14 Supports PDF in the Q&A parsing method.
+
+- 2024-06-06 Supports [Self-RAG](https://huggingface.co/papers/2310.11511), which is enabled by default in dialog settings.
 - 2024-05-30 Integrates [BCE](https://github.com/netease-youdao/BCEmbedding) and [BGE](https://github.com/FlagOpen/FlagEmbedding) reranker models.
 - 2024-05-28 Supports LLM Baichuan and VolcanoArk.
 - 2024-05-23 Supports [RAPTOR](https://arxiv.org/html/2401.18059v1) for better text retrieval.
@@ -123,7 +130,7 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
 
 ### 🚀 Start up the server
 
-1. Ensure `vm.max_map_count` >= 262144 ([more](./docs/guides/max_map_count.md)):
+1. Ensure `vm.max_map_count` >= 262144:
 
    > To check the value of `vm.max_map_count`:
    >
@@ -187,10 +194,10 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
    > If you skip this confirmation step and directly log in to RAGFlow, your browser may prompt a `network anomaly` error because, at that moment, your RAGFlow may not be fully initialized.  
 
 5. In your web browser, enter the IP address of your server and log in to RAGFlow.
-   > With default settings, you only need to enter `http://IP_OF_YOUR_MACHINE` (**sans** port number) as the default HTTP serving port `80` can be omitted when using the default configurations.
+   > With the default settings, you only need to enter `http://IP_OF_YOUR_MACHINE` (**sans** port number) as the default HTTP serving port `80` can be omitted when using the default configurations.
 6. In [service_conf.yaml](./docker/service_conf.yaml), select the desired LLM factory in `user_default_llm` and update the `API_KEY` field with the corresponding API key.
 
-   > See [./docs/guides/llm_api_key_setup.md](./docs/guides/llm_api_key_setup.md) for more information.
+   > See [llm_api_key_setup](https://ragflow.io/docs/dev/llm_api_key_setup) for more information.
 
    _The show is now on!_
 
@@ -302,7 +309,7 @@ To launch the service from source:
    $ cd web
    $ npm install --registry=https://registry.npmmirror.com --force
    $ vim .umirc.ts
-   # Update proxy.target to 127.0.0.1:9380
+   # Update proxy.target to http://127.0.0.1:9380
    $ npm run dev 
    ```
 
@@ -325,7 +332,7 @@ To launch the service from source:
 
 - [Quickstart](https://ragflow.io/docs/dev/)
 - [User guide](https://ragflow.io/docs/dev/category/user-guides)
-- [Reference](https://ragflow.io/docs/dev/category/references)
+- [References](https://ragflow.io/docs/dev/category/references)
 - [FAQ](https://ragflow.io/docs/dev/faq)
 
 ## 📜 Roadmap
@@ -336,6 +343,7 @@ See the [RAGFlow Roadmap 2024](https://github.com/infiniflow/ragflow/issues/162)
 
 - [Discord](https://discord.gg/4XxujFgUN7)
 - [Twitter](https://twitter.com/infiniflowai)
+- [GitHub Discussions](https://github.com/orgs/infiniflow/discussions)
 
 ## 🙌 Contributing
 
