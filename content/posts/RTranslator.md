@@ -1,9 +1,9 @@
 ---
 title: RTranslator
-date: 2024-06-25T12:18:02+08:00
+date: 2024-06-26T12:18:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718568081670-47b9a0ee772d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718568081670-47b9a0ee772d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717881147879-c2acf17d6c88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717881147879-c2acf17d6c88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
 ---
 
 # [niedev/RTranslator](https://github.com/niedev/RTranslator)

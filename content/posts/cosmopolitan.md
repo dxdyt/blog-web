@@ -1,9 +1,9 @@
 ---
 title: cosmopolitan
-date: 2023-12-02T12:16:31+08:00
+date: 2024-06-26T12:18:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697366672245-3116e94b52fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697366672245-3116e94b52fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718152220071-dc4396f654fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718152220071-dc4396f654fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
 ---
 
 # [jart/cosmopolitan](https://github.com/jart/cosmopolitan)
@@ -22,10 +22,11 @@ possible performance and the tiniest footprint imaginable.
 
 ## Background
 
-For an introduction to this project, please read the [αcτµαlly pδrταblε
-εxεcµταblε](https://justine.lol/ape.html) blog post and [cosmopolitan
+For an introduction to this project, please read the [actually portable
+executable](https://justine.lol/ape.html) blog post and [cosmopolitan
 libc](https://justine.lol/cosmopolitan/index.html) website. We also have
-[API documentation](https://justine.lol/cosmopolitan/documentation.html).
+[API
+documentation](https://justine.lol/cosmopolitan/documentation.html).
 
 ## Getting Started
 
@@ -85,18 +86,7 @@ make install
 ## Cosmopolitan Source Builds
 
 Cosmopolitan can be compiled from source on any of our supported
-platforms. First, you need to download or clone the repository. If
-you're not using x86-64 Linux then you'll need cosmocc too.
-
-```sh
-git clone https://github.com/jart/cosmopolitan cosmo
-cd cosmo
-mkdir -p o/third_party/gcc
-pushd o/third_party/gcc
-wget https://cosmo.zip/pub/cosmocc/cosmocc.zip
-unzip cosmocc.zip
-popd
-```
+platforms. The Makefile will download cosmocc automatically.
 
 It's recommended that you install a systemwide APE Loader. This command
 requires `sudo` access to copy the `ape` command to a system folder and
@@ -112,8 +102,8 @@ guaranteed to be compatible and furthermore includes our extensions for
 doing build system sandboxing.
 
 ```sh
-o//third_party/gcc/bin/make -j8
-o//examples/hello.com
+build/bootstrap/make -j8
+o//examples/hello
 ```
 
 Since the Cosmopolitan repository is very large, you might only want to
@@ -123,8 +113,8 @@ depends on core LIBC packages.
 
 ```sh
 rm -rf o//libc o//test
-o//third_party/gcc/bin/make o//test/posix/signal_test.com
-o//test/posix/signal_test.com
+build/bootstrap/make o//test/posix/signal_test
+o//test/posix/signal_test
 ```
 
 Sometimes it's desirable to build a subset of targets, without having to
@@ -132,21 +122,21 @@ list out each individual one. For example if you wanted to build and run
 all the unit tests in the `TEST_POSIX` package, you could say:
 
 ```sh
-o//third_party/gcc/bin/make o//test/posix
+build/bootstrap/make o//test/posix
 ```
 
 Cosmopolitan provides a variety of build modes. For example, if you want
 really tiny binaries (as small as 12kb in size) then you'd say:
 
 ```sh
-o//third_party/gcc/bin/make m=tiny
+build/bootstrap/make m=tiny
 ```
 
 You can furthermore cut out the bloat of other operating systems, and
 have Cosmopolitan become much more similar to Musl Libc.
 
 ```sh
-o//third_party/gcc/bin/make m=tinylinux
+build/bootstrap/make m=tinylinux
 ```
 
 For further details, see [//build/config.mk](build/config.mk).
@@ -199,11 +189,11 @@ end
 src
 ```
 
-You normally run the `.com.dbg` file under gdb. If you need to debug the
-`.com` file itself, then you can load the debug symbols independently as
+You normally run the `.dbg` file under gdb. If you need to debug the
+`` file itself, then you can load the debug symbols independently as
 
 ```sh
-gdb foo.com -ex 'add-symbol-file foo.com.dbg 0x401000'
+gdb foo -ex 'add-symbol-file foo.dbg 0x401000'
 ```
 
 ## Platform Notes
@@ -262,16 +252,16 @@ server. You're welcome to join us! <https://discord.gg/FwAVVu7eJ4>
 
 ## Support Vector
 
-| Platform        | Min Version | Circa |
-| :---            | ---:        | ---:  |
-| AMD             | K8 Venus    | 2005  |
-| Intel           | Core        | 2006  |
-| Linux           | 2.6.18      | 2007  |
-| Windows         | 8 [1]       | 2012  |
-| Mac OS X        | 15.6        | 2018  |
-| OpenBSD         | 7           | 2021  |
-| FreeBSD         | 13          | 2020  |
-| NetBSD          | 9.2         | 2021  |
+| Platform       | Min Version | Circa |
+| :---           | ---:        | ---:  |
+| AMD            | K8 Venus    | 2005  |
+| Intel          | Core        | 2006  |
+| Linux          | 2.6.18      | 2007  |
+| Windows        | 8 [1]       | 2012  |
+| Darwin (macOS) | 23.1.0+     | 2023  |
+| OpenBSD        | 7           | 2021  |
+| FreeBSD        | 13          | 2020  |
+| NetBSD         | 9.2         | 2021  |
 
 [1] See our [vista branch](https://github.com/jart/cosmopolitan/tree/vista)
     for a community supported version of Cosmopolitan that works on Windows
