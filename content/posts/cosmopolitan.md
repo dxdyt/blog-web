@@ -1,9 +1,9 @@
 ---
 title: cosmopolitan
-date: 2024-06-26T12:18:36+08:00
+date: 2024-06-27T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718152220071-dc4396f654fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718152220071-dc4396f654fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1708336795870-2dc53f5926aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1708336795870-2dc53f5926aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
 ---
 
 # [jart/cosmopolitan](https://github.com/jart/cosmopolitan)

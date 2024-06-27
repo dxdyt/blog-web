@@ -1,9 +1,9 @@
 ---
 title: DiffSynth-Studio
-date: 2024-06-26T12:18:27+08:00
+date: 2024-06-27T12:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718152220071-dc4396f654fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718152220071-dc4396f654fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717249458260-8e94cf177d05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717249458260-8e94cf177d05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
 ---
 
 # [modelscope/DiffSynth-Studio](https://github.com/modelscope/DiffSynth-Studio)

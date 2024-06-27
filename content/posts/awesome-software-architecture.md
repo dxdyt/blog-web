@@ -1,9 +1,9 @@
 ---
 title: awesome-software-architecture
-date: 2024-06-26T12:18:57+08:00
+date: 2024-06-27T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716369415883-db404f0a8425?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716369415883-db404f0a8425?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkzNzU0OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717733812723-543792d9e74e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717733812723-543792d9e74e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
 ---
 
 # [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture)
@@ -236,7 +236,7 @@ I created this repository to share a set of links that I found valuable and insp
 | [Open Closed Principles](docs/architectural-design-principles/open-closed-principles.md) | The Open-Closed Principle (OCP) is a design principle that promotes the idea of writing code that is open to extension but closed to modification, meaning that new features should be added to a system without changing its existing codebase. |
 | [Persistence Ignorance](docs/architectural-design-principles/persistence-ignorance.md) | Persistence Ignorance (PI) is a design principle that encourages decoupling business logic from persistence logic to increase flexibility, maintainability, and testability. |
 | [Single Responsibility](docs/architectural-design-principles/single-responsibility.md) | The Single Responsibility Principle (SRP) is a design principle that advocates for a class or module to have only one reason to change, meaning it should only have one responsibility or job. |
-| [Strangler Fig Pattern](docs/architectural-design-principles/strangler-fig-pattern) | The Strangler Fig Pattern is an approach to software modernization that involves gradually replacing an existing system with a new one, module by module, rather than attempting to migrate it all at once. |
+| [Strangler Fig Pattern](docs/architectural-design-principles/strangler-fig-pattern.md) | The Strangler Fig Pattern is an approach to software modernization that involves gradually replacing an existing system with a new one, module by module, rather than attempting to migrate it all at once. |
 | [Solid](docs/architectural-design-principles/solid.md) | SOLID is an acronym for five object-oriented design principles (Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle) that aim to make software systems more maintainable, scalable, and testable. |
 | [Yagni](docs/architectural-design-principles/yagni.md) | You Aren't Gonna Need It (YAGNI) is a principle that advises against writing code for features that are not yet needed, to avoid adding unnecessary complexity to the codebase and focus on delivering only what is required. |
 
