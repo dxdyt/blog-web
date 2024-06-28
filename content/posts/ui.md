@@ -1,62 +1,27 @@
 ---
 title: ui
-date: 2024-05-16T12:14:38+08:00
+date: 2024-06-28T12:18:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714212494809-555606435baa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714212494809-555606435baa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU4MzI4MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719054415376-2fdc899d9df9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719054415376-2fdc899d9df9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
 ---
 
-# [atherosai/ui](https://github.com/atherosai/ui)
+# [shadcn-ui/ui](https://github.com/shadcn-ui/ui)
 
+# shadcn/ui
 
-# Modern Frontend Developer: HTML and CSS
+Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
 
-Learn more with me [Modern Frontend Developer: HTML and CSS](https://learning.atheros.ai/course-detail/modern-frontend-developer-html-and-css)
+![hero](apps/www/public/og.jpg)
 
-* Modern Frontend Developer Ebook (almost 500 pages)
-* UI Components Collection
-* Frontend Resources
-* Quizzes And Certificate!
-* Interactive Tutorials (coming soon)
-* Coding Quizzes (coming soon)
-* Video Course (coming soon)
+## Documentation
 
-This is repository with examples of simple UI components. The repository is based on Next.js and React.js. 
+Visit http://ui.shadcn.com/docs to view the documentation.
 
-# Installation
+## Contributing
 
-* Clone the repo with
-```
-git clone git@github.com:atherosai/ui.git
-```
+Please read the [contributing guide](/CONTRIBUTING.md).
 
-# For HTML/CSS/JS
+## License
 
-Just navigate to the folder with your chosen example and open html file in the browser.
-
-# For React Examples
-
-* Install npm packages
-
-```
-npm i 
-```
-
-* Run development mode
-
-```
-npm run dev
-```
-
-Now the app is accessible at ```localhost:3000```
-
-# My Social Media
-The examples are posted here:
-
-* [TikTok](https://www.tiktok.com/@davidm_ai)
-* [Instagram](https://www.instagram.com/davidm_ai/)
-* [Youtube](https://www.youtube.com/@Atheroslearning)
-* [Twitter](https://twitter.com/davidm_ml)
-* [Linkedin](https://www.linkedin.com/in/david-mraz/)
-* [Threads](https://www.threads.net/@davidm_ai)
-
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).

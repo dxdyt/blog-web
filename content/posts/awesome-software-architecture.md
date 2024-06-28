@@ -1,9 +1,9 @@
 ---
 title: awesome-software-architecture
-date: 2024-06-27T12:19:51+08:00
+date: 2024-06-28T12:17:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717733812723-543792d9e74e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717733812723-543792d9e74e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718963904724-d45712e7c864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718963904724-d45712e7c864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture)

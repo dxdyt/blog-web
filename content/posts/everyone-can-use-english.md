@@ -1,9 +1,9 @@
 ---
 title: everyone-can-use-english
-date: 2024-03-16T12:17:08+08:00
+date: 2024-06-28T12:16:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709037805384-035dc3989923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709037805384-035dc3989923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718561193320-3e8638a838da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718561193320-3e8638a838da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
@@ -34,7 +34,11 @@ yarn install
 yarn enjoy:start
 ```
 
-# 人人都能用英语
+# 语音塑造（新版）（2024）
+
+请参阅 https://1000h.org/sounds-of-american-english/1-basics.html
+
+# 人人都能用英语（2010）
 
 ## 目录
 
