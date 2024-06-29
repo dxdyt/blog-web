@@ -1,9 +1,9 @@
 ---
 title: ragflow
-date: 2024-06-27T12:19:57+08:00
+date: 2024-06-29T12:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715512518597-7b42f0a1f528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715512518597-7b42f0a1f528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk0NjE5NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718398138214-20fa84ca95a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718398138214-20fa84ca95a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
 ---
 
 # [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
@@ -74,6 +74,7 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
 
 ## 📌 Latest Updates
 
+- 2024-06-27 Supports Markdown and Docx in the Q&A parsing method. Supports extracting images from Docx files. Supports extracting tables from Markdown files.
 - 2024-06-14 Supports PDF in the Q&A parsing method.
 
 - 2024-06-06 Supports [Self-RAG](https://huggingface.co/papers/2310.11511), which is enabled by default in dialog settings.

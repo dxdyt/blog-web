@@ -1,9 +1,9 @@
 ---
 title: ui
-date: 2024-06-28T12:18:15+08:00
+date: 2024-06-29T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719054415376-2fdc899d9df9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719054415376-2fdc899d9df9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717501219074-943fc738e5a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717501219074-943fc738e5a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
 ---
 
 # [shadcn-ui/ui](https://github.com/shadcn-ui/ui)

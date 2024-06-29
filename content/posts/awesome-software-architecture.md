@@ -1,9 +1,9 @@
 ---
 title: awesome-software-architecture
-date: 2024-06-28T12:17:15+08:00
+date: 2024-06-29T12:19:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718963904724-d45712e7c864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718963904724-d45712e7c864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718398138214-20fa84ca95a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718398138214-20fa84ca95a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
 ---
 
 # [mehdihadeli/awesome-software-architecture](https://github.com/mehdihadeli/awesome-software-architecture)
@@ -232,7 +232,7 @@ I created this repository to share a set of links that I found valuable and insp
 | [GRASP](docs/architectural-design-principles/grasp.md) | The General Responsibility Assignment Software Patterns (GRASP) are a set of guidelines for assigning responsibilities to objects and modules in a software system. |
 | [Interface Segregation](docs/architectural-design-principles/interface-segregation.md) | The Interface Segregation principle, which states that clients should not be forced to depend on interfaces they do not use, and that interfaces should be designed to be cohesive and focused on a single purpose. |
 | [Inversion Control](docs/architectural-design-principles/inversion-control.md) | The Inversion of Control (IoC) pattern, which is a technique for decoupling the dependencies between modules or components in a system, by inverting the direction of the dependencies. |
-| [KIIS](docs/architectural-design-principles/kiss.md) | Keep It Simple, Stupid (KISS) is a design principle that encourages keeping systems and solutions as simple as possible to avoid unnecessary complexity and increase maintainability. |
+| [KISS](docs/architectural-design-principles/kiss.md) | Keep It Simple, Stupid (KISS) is a design principle that encourages keeping systems and solutions as simple as possible to avoid unnecessary complexity and increase maintainability. |
 | [Open Closed Principles](docs/architectural-design-principles/open-closed-principles.md) | The Open-Closed Principle (OCP) is a design principle that promotes the idea of writing code that is open to extension but closed to modification, meaning that new features should be added to a system without changing its existing codebase. |
 | [Persistence Ignorance](docs/architectural-design-principles/persistence-ignorance.md) | Persistence Ignorance (PI) is a design principle that encourages decoupling business logic from persistence logic to increase flexibility, maintainability, and testability. |
 | [Single Responsibility](docs/architectural-design-principles/single-responsibility.md) | The Single Responsibility Principle (SRP) is a design principle that advocates for a class or module to have only one reason to change, meaning it should only have one responsibility or job. |
@@ -362,10 +362,10 @@ I created this repository to share a set of links that I found valuable and insp
 |:-------:|:----------- |
 | [Object Oriented Design](docs/object-oriented-design.md) | TODO...
 
-### System Design
+### Systems Design
 | Topic | Description |
 |:-------:|:----------- |
-| [System Design](docs/systems-design/systems-design.md) | TODO...
+| [Systems Design](docs/systems-design/systems-design.md) | TODO...
 | [Consistent Hash](docs/systems-design/consistent-hash.md) | TODO...
 
 ### Scaling

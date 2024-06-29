@@ -1,9 +1,9 @@
 ---
 title: langfuse
-date: 2024-04-29T12:18:35+08:00
+date: 2024-06-29T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deabf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQzNjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715708752740-04129af2f4df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715708752740-04129af2f4df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
 ---
 
 # [langfuse/langfuse](https://github.com/langfuse/langfuse)
@@ -33,6 +33,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1712646914663-accad6deab
       <a href="https://langfuse.com/discord"><strong>Discord</strong></a> 
    </div>
    <span>Langfuse uses <a href="https://github.com/orgs/langfuse/discussions"><strong>Github Discussions</strong></a>  for Support and Feature Requests.</span>
+   <br/>
+   <span>We're hiring. <a href="https://langfuse.com/careers"><strong>Join us</strong></a> in Backend Engineering, Product Engineering, and Developer Relations.</span>
    <br/>
    <br/>
    <div>
@@ -116,22 +118,26 @@ See the [→ Quickstart](https://langfuse.com/docs/get-started) to integrate Lan
 
 ### Integrations
 
-| Integration                                                      | Supports      | Description                                                 |
-| ---------------------------------------------------------------- | ------------- | ----------------------------------------------------------- |
-| [**SDK** - _recommended_](https://langfuse.com/docs/sdk)         | Python, JS/TS | Manual instrumentation using the SDKs for full flexibility. |
-| [OpenAI SDK](https://langfuse.com/docs/integrations/openai)      | Python, JS/TS | Automated instrumentation of OpenAI SDK.                    |
-| [Langchain](https://langfuse.com/docs/integrations/langchain)    | Python, JS/TS | Instrumentation via Langchain callbacks.                    |
-| [LlamaIndex](https://langfuse.com/docs/integrations/llama-index) | Python        | Automated instrumentation via LlamaIndex callback system.   |
-| [API](https://langfuse.com/docs/api)                             |               | Directly call the public API. OpenAPI spec available.       |
+| Integration                                              | Supports                   | Description                                                                                                                                      |
+| -------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [SDK](/docs/sdk)                                         | Python, JS/TS              | Manual instrumentation using the SDKs for full flexibility.                                                                                      |
+| [OpenAI](/docs/integrations/openai)                      | Python, JS/TS              | Automated instrumentation using drop-in replacement of OpenAI SDK.                                                                               |
+| [Langchain](/docs/integrations/langchain)                | Python, JS/TS              | Automated instrumentation by passing callback handler to Langchain application.                                                                  |
+| [LlamaIndex](/docs/integrations/llama-index/get-started) | Python                     | Automated instrumentation via LlamaIndex callback system.                                                                                        |
+| [Haystack](/docs/integrations/haystack)                  | Python                     | Automated instrumentation via Haystack content tracing system.                                                                                   |
+| [LiteLLM](/docs/integrations/litellm)                    | Python, JS/TS (proxy only) | Use any LLM as a drop in replacement for GPT. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs). |
+| [API](/docs/api)                                         |                            | Directly call the public API. OpenAPI spec available.                                                                                            |
 
-External projects/packages that integrate with Langfuse:
+Packages that integrate with Langfuse:
 
-| Name                                                            | Description                                                                                                                                      |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [LiteLLM](https://langfuse.com/docs/integrations/litellm)       | Use any LLM as a drop in replacement for GPT. Use Azure, OpenAI, Cohere, Anthropic, Ollama, VLLM, Sagemaker, HuggingFace, Replicate (100+ LLMs). |
-| [Flowise](https://langfuse.com/docs/integrations/flowise)       | JS/TS no-code builder for customized LLM flows.                                                                                                  |
-| [Langflow](https://langfuse.com/docs/integrations/langflow)     | Python-based UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows.                          |
-| [Superagent](https://langfuse.com/docs/integrations/superagent) | Open Source AI Assistant Framework & API for prototyping and deployment of agents.                                                               |
+| Name                                                       | Description                                                                                                             |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [Instructor](/docs/integrations/instructor)                | Library to get structured LLM outputs (JSON, Pydantic)                                                                  |
+| [Mirascope](/docs/integrations/mirascope)                  | Python toolkit for building LLM applications.                                                                           |
+| [AI SDK by Vercel](/docs/sdk/typescript/example-vercel-ai) | Typescript SDK that makes streaming LLM outputs super easy.                                                             |
+| [Flowise](/docs/integrations/flowise)                      | JS/TS no-code builder for customized LLM flows.                                                                         |
+| [Langflow](/docs/integrations/langflow)                    | Python-based UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows. |
+| [Superagent](/docs/integrations/superagent)                | Open Source AI Assistant Framework & API for prototyping and deployment of agents.                                      |
 
 ## Questions and feedback
 

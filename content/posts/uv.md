@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-04-06T12:18:45+08:00
+date: 2024-06-29T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711669321296-227ff3bc1318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711669321296-227ff3bc1318?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIzNzY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717866546279-55dca04f5479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717866546279-55dca04f5479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)
@@ -43,7 +43,7 @@ replacement for common `pip` and `pip-tools` workflows.
 - 🧪 Tested at-scale against the top 10,000 PyPI packages.
 - 🖥️ Support for macOS, Linux, and Windows.
 - 🧰 Advanced features such as [dependency version overrides](#dependency-overrides) and
-   [alternative resolution strategies](#resolution-strategy).
+  [alternative resolution strategies](#resolution-strategy).
 - ⁉️ Best-in-class error messages with a conflict-tracking resolver.
 - 🤝 Support for a wide range of advanced `pip` features, including editable installs, Git
   dependencies, direct URL dependencies, local dependencies, constraints, source distributions,
@@ -62,6 +62,10 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 # On Windows.
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
+# For a specific version.
+curl -LsSf https://astral.sh/uv/0.2.17/install.sh | sh
+powershell -c "irm https://astral.sh/uv/0.2.17/install.ps1 | iex"
+
 # With pip.
 pip install uv
 
@@ -70,9 +74,6 @@ pipx install uv
 
 # With Homebrew.
 brew install uv
-
-# With Pacman.
-pacman -S uv
 ```
 
 To create a virtual environment:
@@ -189,18 +190,29 @@ search for a Python interpreter matching that version in the following order:
 
 ### Installing into arbitrary Python environments
 
-Since uv has no dependency on Python, it can even install into virtual environments other than
+Since uv has no dependency on Python, it can install into virtual environments other than
 its own. For example, setting `VIRTUAL_ENV=/path/to/venv` will cause uv to install into
-`/path/to/venv`, no matter where uv is installed.
+`/path/to/venv`, regardless of where uv is installed. Note that if `VIRTUAL_ENV` is set to
+a directory that is **not** a [PEP 405 compliant](https://peps.python.org/pep-0405/#specification)
+virtual environment, it will be ignored.
 
-uv can also install into arbitrary, even non-virtual environments by providing a `--python` argument
-to `uv pip sync` or `uv pip install`. For example, `uv pip install --python=/path/to/python` will
-install into the environment linked to the `/path/to/python` interpreter.
+uv can also install into arbitrary, even non-virtual environments, with the `--python` argument
+provided to `uv pip sync` or `uv pip install`. For example, `uv pip install --python=/path/to/python`
+will install into the environment linked to the `/path/to/python` interpreter.
 
-For convenience, `uv pip install --system` will install into the system Python environment, as an
-approximate shorthand for, e.g., `uv pip install --python=$(which python3)`. Though we generally
-recommend the use of virtual environments for dependency management, `--system` is intended to
-enable the use of uv in continuous integration and containerized environments.
+For convenience, `uv pip install --system` will install into the system Python environment.
+Using `--system` is roughly equivalent to `uv pip install --python=$(which python)`,
+but note that executables that are linked to virtual environments will be skipped.
+Although we generally recommend using virtual environments for dependency management,
+`--system` is appropriate in continuous integration and containerized environments.
+
+The `--system` flag is also used to opt in to mutating system environments. For example, the
+the `--python` argument can be used to request a Python version (e.g., `--python 3.12`), and uv will
+search for an interpreter that meets the request. If uv finds a system interpreter (e.g., `/usr/lib/python3.12`),
+then the `--system` flag is required to allow modification of this non-virtual Python environment.
+Without the `--system` flag, uv will ignore any interpreters that are not in virtual environments.
+Conversely, when the `--system` flag is provided, uv will ignore any interpreters that *are*
+in virtual environments.
 
 Installing into system Python across platforms and distributions is notoriously difficult. uv
 supports the common cases, but will not work in all cases. For example, installing into system
@@ -208,6 +220,57 @@ Python on Debian prior to Python 3.10 is unsupported due to the [distribution's 
 of `distutils` (but not `sysconfig`)](https://ffy00.github.io/blog/02-python-debian-and-the-install-locations/).
 While we always recommend the use of virtual environments, uv considers them to be required in
 these non-standard environments.
+
+If uv is installed in a Python environment, e.g., with `pip`, it can still be used to modify
+other environments. However, when invoked with `python -m uv`, uv will default to using the parent
+interpreter's environment. Invoking uv via Python adds startup overhead and is not recommended for
+general usage.
+
+### Persistent configuration
+
+uv supports persistent configuration at both the project- and user-level.
+
+Specifically, uv will search for a `pyproject.toml` or `uv.toml` file in the current directory, or
+in the nearest parent directory.
+
+If a `pyproject.toml` file is found, uv will read configuration from the `[tool.uv.pip]` table.
+For example, to set a persistent index URL, add the following to a `pyproject.toml`:
+
+```toml
+[tool.uv.pip]
+index-url = "https://test.pypi.org/simple"
+```
+
+(If there is no such table, the `pyproject.toml` file will be ignored, and uv will continue searching in
+the directory hierarchy.)
+
+If a `uv.toml` file is found, uv will read from the `[pip]` table. For example:
+
+```toml
+[pip]
+index-url = "https://test.pypi.org/simple"
+```
+
+uv will also discover user-level configuration at `~/.config/uv/uv.toml` (or
+`$XDG_CONFIG_HOME/uv/uv.toml`) on macOS and Linux, or `%APPDATA%\uv\uv.toml` on Windows. User-level
+configuration must use the `uv.toml` format, rather than the `pyproject.toml` format, as a
+`pyproject.toml` is intended to define a Python _project_.
+
+If both project- and user-level configuration are found, the settings will be merged, with the
+project-level configuration taking precedence. Specifically, if a string, number, or boolean is
+present in both tables, the project-level value will be used, and the user-level value will be
+ignored. If an array is present in both tables, the arrays will be concatenated, with the
+project-level settings appearing earlier in the merged array.
+
+Settings provided via environment variables take precedence over persistent configuration, and
+settings provided via the command line take precedence over both.
+
+uv accepts a `--isolated` command-line argument which, when provided, disables the discovery of any
+persistent configuration.
+
+uv also accepts a `--config-file` command-line argument, which accepts a path to a `uv.toml` to use
+as the configuration file. When provided, this file will be used in place of _any_ discovered
+configuration files (e.g., user-level configuration will be ignored).
 
 ### Git authentication
 
@@ -362,7 +425,7 @@ By default, uv will accept pre-release versions during dependency resolution in 
 If dependency resolution fails due to a transitive pre-release, uv will prompt the user to
 re-run with `--prerelease=allow`, to allow pre-releases for all dependencies.
 
-Alternatively, you can add the transitive dependency to your `requirements.in` file with
+Alternatively, you can add the transitive dependency to your `requirements.in` file with a
 pre-release specifier (e.g., `flask>=2.0.0rc1`) to opt in to pre-release support for that specific
 dependency.
 
@@ -394,28 +457,63 @@ While constraints are purely _additive_, and thus cannot _expand_ the set of acc
 a package, overrides _can_ expand the set of acceptable versions for a package, providing an escape
 hatch for erroneous upper version bounds.
 
-### Multi-version resolution
+### Multi-platform resolution
 
-uv's `pip-compile` command produces a resolution that's known to be compatible with the
-current platform and Python version. Unlike Poetry, PDM, and other package managers, uv does
-not yet produce a machine-agnostic lockfile.
+By default, uv's `pip-compile` command produces a resolution that's known to be compatible with
+the current platform and Python version. Unlike Poetry and PDM, uv does not yet produce a
+machine-agnostic lockfile ([#2679](https://github.com/astral-sh/uv/issues/2679)).
 
-However, uv _does_ support resolving for alternate Python versions via the `--python-version`
-command line argument. For example, if you're running uv on Python 3.9, but want to resolve for
-Python 3.8, you can run `uv pip compile --python-version=3.8 requirements.in` to produce a
-Python 3.8-compatible resolution.
+However, uv _does_ support resolving for alternate platforms and Python versions via the
+`--python-platform` and `--python-version` command line arguments.
 
-### Reproducible resolution
+For example, if you're running uv on macOS, but want to resolve for Linux, you can run
+`uv pip compile --python-platform=linux requirements.in` to produce a `manylinux2014`-compatible
+resolution.
+
+Similarly, if you're running uv on Python 3.9, but want to resolve for Python 3.8, you can run
+`uv pip compile --python-version=3.8 requirements.in` to produce a Python 3.8-compatible resolution.
+
+The `--python-platform` and `--python-version` arguments can be combined to produce a resolution for
+a specific platform and Python version, enabling users to generate multiple lockfiles for
+different environments from a single machine.
+
+_N.B. Python's environment markers expose far more information about the current machine
+than can be expressed by a simple `--python-platform` argument. For example, the `platform_version` marker
+on macOS includes the time at which the kernel was built, which can (in theory) be encoded in
+package requirements. uv's resolver makes a best-effort attempt to generate a resolution that is
+compatible with any machine running on the target `--python-platform`, which should be sufficient for
+most use cases, but may lose fidelity for complex package and platform combinations._
+
+### Time-restricted reproducible resolutions
 
 uv supports an `--exclude-newer` option to limit resolution to distributions published before a specific
 date, allowing reproduction of installations regardless of new package releases. The date may be specified
-as a RFC 3339 timestamp (e.g., `2006-12-02T02:07:43Z`) or UTC date in the same format (e.g., `2006-12-02`).
+as an [RFC 3339](https://www.rfc-editor.org/rfc/rfc3339.html) timestamp (e.g., `2006-12-02T02:07:43Z`) or
+UTC date in the same format (e.g., `2006-12-02`).
 
 Note the package index must support the `upload-time` field as specified in [`PEP 700`](https://peps.python.org/pep-0700/).
 If the field is not present for a given distribution, the distribution will be treated as unavailable.
 
 To ensure reproducibility, messages for unsatisfiable resolutions will not mention that distributions were excluded
 due to the `--exclude-newer` flag — newer distributions will be treated as if they do not exist.
+
+### Custom CA certificates
+
+By default, uv loads certificates from the bundled `webpki-roots` crate. The `webpki-roots` are a
+reliable set of trust roots from Mozilla, and including them in uv improves portability and
+performance (especially on macOS, where reading the system trust store incurs a significant delay).
+
+However, in some cases, you may want to use the platform's native certificate store, especially if
+you're relying on a corporate trust root (e.g., for a mandatory proxy) that's included in your
+system's certificate store. To instruct uv to use the system's trust store, run uv with the
+`--native-tls` command-line flag, or set the `UV_NATIVE_TLS` environment variable to `true`.
+
+If a direct path to the certificate is required (e.g., in CI), set the `SSL_CERT_FILE` environment
+variable to the path of the certificate bundle, to instruct uv to use that file instead of the
+system's trust store.
+
+If client certificate authentication (mTLS) is desired, set the `SSL_CLIENT_CERT` environment
+variable to the path of the PEM formatted file containing the certificate followed by the private key.
 
 ## Platform support
 
@@ -444,6 +542,7 @@ tested or developed against, and so stability may vary in practice.
 
 Beyond the Tier 1 and Tier 2 platforms, uv is known to build on i686 Windows, and known _not_
 to build on aarch64 Windows, but does not consider either platform to be supported at this time.
+The minimum supported Windows version is Windows 10, following [Rust's own Tier 1 support](https://blog.rust-lang.org/2024/02/26/Windows-7.html).
 
 uv supports and is tested against Python 3.8, 3.9, 3.10, 3.11, and 3.12.
 
@@ -463,15 +562,47 @@ uv accepts the following command-line arguments as environment variables:
   `lowest-direct`, uv will install the lowest compatible versions of all direct dependencies.
 - `UV_PRERELEASE`: Equivalent to the `--prerelease` command-line argument. For example, if set to
   `allow`, uv will allow pre-release versions for all dependencies.
-- `UV_SYSTEM_PYTHON`:  Equivalent to the `--system` command-line argument. If set to `true`, uv
+- `UV_SYSTEM_PYTHON`: Equivalent to the `--system` command-line argument. If set to `true`, uv
   will use the first Python interpreter found in the system `PATH`.
-  WARNING: `UV_SYSTEM_PYTHON=true` is intended for use in continuous integration (CI) environments and
-  should be used with caution, as it can modify the system Python installation.
+  WARNING: `UV_SYSTEM_PYTHON=true` is intended for use in continuous integration (CI) or
+  containerized environments and should be used with caution, as modifying the system Python
+  can lead to unexpected behavior.
+- `UV_PYTHON`: Equivalent to the `--python` command-line argument. If set to a path, uv will
+  use this Python interpreter for all operations.
+- `UV_BREAK_SYSTEM_PACKAGES`: Equivalent to the `--break-system-packages` command-line argument. If
+  set to `true`, uv will allow the installation of packages that conflict with system-installed
+  packages.
+  WARNING: `UV_BREAK_SYSTEM_PACKAGES=true` is intended for use in continuous integration (CI) or
+  containerized environments and should be used with caution, as modifying the system Python
+  can lead to unexpected behavior.
 - `UV_NATIVE_TLS`: Equivalent to the `--native-tls` command-line argument. If set to `true`, uv
   will use the system's trust store instead of the bundled `webpki-roots` crate.
 - `UV_INDEX_STRATEGY`: Equivalent to the `--index-strategy` command-line argument. For example, if
   set to `unsafe-any-match`, uv will consider versions of a given package available across all
   index URLs, rather than limiting its search to the first index URL that contains the package.
+- `UV_REQUIRE_HASHES`: Equivalent to the `--require-hashes` command-line argument. If set to `true`,
+  uv will require that all dependencies have a hash specified in the requirements file.
+- `UV_CONSTRAINT`: Equivalent to the `--constraint` command-line argument. If set, uv will use this
+  file as the constraints file. Uses space-separated list of files.
+- `UV_LINK_MODE`: Equivalent to the `--link-mode` command-line argument. If set, uv will use this
+  as a link mode.
+- `UV_NO_BUILD_ISOLATION`: Equivalent to the `--no-build-isolation` command-line argument. If set,
+  uv will skip isolation when building source distributions.
+- `UV_CUSTOM_COMPILE_COMMAND`: Used to override `uv` in the output header of the `requirements.txt`
+  files generated by `uv pip compile`. Intended for use-cases in which `uv pip compile` is called
+  from within a wrapper script, to include the name of the wrapper script in the output file.
+- `UV_KEYRING_PROVIDER`: Equivalent to the `--keyring-provider` command-line argument. If set, uv
+  will use this value as the keyring provider.
+- `UV_CONFIG_FILE`: Equivalent to the `--config-file` command-line argument. Expects a path to a
+  local `uv.toml` file to use as the configuration file.
+- `UV_CONCURRENT_DOWNLOADS`: Sets the maximum number of in-flight concurrent downloads that `uv`
+  will perform at any given time.
+- `UV_CONCURRENT_BUILDS`: Sets the maximum number of source distributions that `uv` will build
+  concurrently at any given time.
+- `UV_CONCURRENT_INSTALLS`: Used to control the number of threads used when installing and unzipping
+  packages.
+- `UV_EXCLUDE_NEWER`: Equivalent to the `--exclude-newer` command-line argument. If set, uv will
+  exclude distributions published after the specified date.
 
 In each case, the corresponding command-line argument takes precedence over an environment variable.
 
@@ -479,33 +610,37 @@ In addition, uv respects the following environment variables:
 
 - `SSL_CERT_FILE`: If set, uv will use this file as the certificate bundle instead of the system's
   trust store.
+- `SSL_CLIENT_CERT`: If set, uv will use this file for mTLS authentication. This should be a single
+  file containing both the certificate and the private key in PEM format.
 - `RUST_LOG`: If set, uv will use this value as the log level for its `--verbose` output. Accepts
   any filter compatible with the `tracing_subscriber` crate. For example, `RUST_LOG=trace` will
   enable trace-level logging. See the [tracing documentation](https://docs.rs/tracing-subscriber/latest/tracing_subscriber/filter/struct.EnvFilter.html#example-syntax)
   for more.
+- `HTTP_PROXY`, `HTTPS_PROXY`, `ALL_PROXY`: The proxy to use for all HTTP/HTTPS requests.
 - `HTTP_TIMEOUT` (or `UV_HTTP_TIMEOUT`): If set, uv will use this value (in seconds) as the timeout
-  for HTTP requests.
+  for HTTP reads (default: 30 s).
 - `PYC_INVALIDATION_MODE`: The validation modes to use when run with `--compile`.
   See: [`PycInvalidationMode`](https://docs.python.org/3/library/py_compile.html#py_compile.PycInvalidationMode).
 - `VIRTUAL_ENV`: Used to detect an activated virtual environment.
 - `CONDA_PREFIX`: Used to detect an activated Conda environment.
-- `PROMPT`: Used to detect the appropriate activation script after generating a virtual environment.
-- `NU_VERSION`: Used to detect the appropriate activation script after generating a virtual environment.
+- `PROMPT`: Used to detect the use of the Windows Command Prompt (as opposed to PowerShell).
+- `NU_VERSION`: Used to detect the use of NuShell.
+- `FISH_VERSION`: Used to detect the use of the Fish shell.
+- `BASH_VERSION`: Used to detect the use of the Bash shell.
+- `ZSH_VERSION`: Used to detect the use of the Zsh shell.
+- `MACOSX_DEPLOYMENT_TARGET`: Used with `--python-platform macos` and related variants to set the
+  deployment target (i.e., the minimum supported macOS version). Defaults to `12.0`, the
+  least-recent non-EOL macOS version at time of writing.
+- `NO_COLOR`: Disable colors. Takes precedence over `FORCE_COLOR`. See [no-color.org](https://no-color.org).
+- `FORCE_COLOR`: Enforce colors regardless of TTY support. See [force-color.org](https://force-color.org).
 
-## Custom CA Certificates
+## Versioning
 
-By default, uv loads certificates from the bundled `webpki-roots` crate. The `webpki-roots` are a
-reliable set of trust roots from Mozilla, and including them in uv improves portability and
-performance (especially on macOS, where reading the system trust store incurs a significant delay).
+uv uses a custom versioning scheme in which the minor version number is bumped for breaking changes,
+and the patch version number is bumped for bug fixes, enhancements, and other non-breaking changes.
 
-However, in some cases, you may want to use the platform's native certificate store, especially if
-you're relying on a corporate trust root (e.g., for a mandatory proxy) that's included in your
-system's certificate store. To instruct uv to use the system's trust store, run uv with the
-`--native-tls` command-line flag, or set the `UV_NATIVE_TLS` environment variable to `true`.
-
-If a direct path to the certificate is required (e.g., in CI), set the `SSL_CERT_FILE` environment
-variable to the path of the certificate bundle, to instruct uv to use that file instead of the
-system's trust store.
+uv does not yet have a stable API; once uv's API is stable (v1.0.0), the versioning scheme will
+adhere to [Semantic Versioning](https://semver.org/).
 
 ## Acknowledgements
 

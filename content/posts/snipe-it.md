@@ -1,9 +1,9 @@
 ---
 title: snipe-it
-date: 2024-06-28T12:17:06+08:00
+date: 2024-06-29T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718030323555-214805b7f884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718030323555-214805b7f884?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718042416613-43cc2d64f518?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718042416613-43cc2d64f518?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
 ---
 
 # [snipe/snipe-it](https://github.com/snipe/snipe-it)
