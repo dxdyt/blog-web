@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-06-29T12:19:22+08:00
+date: 2024-06-30T12:17:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717866546279-55dca04f5479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717866546279-55dca04f5479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715582986219-646df4e13cd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715582986219-646df4e13cd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)
@@ -63,8 +63,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 # For a specific version.
-curl -LsSf https://astral.sh/uv/0.2.17/install.sh | sh
-powershell -c "irm https://astral.sh/uv/0.2.17/install.ps1 | iex"
+curl -LsSf https://astral.sh/uv/0.2.18/install.sh | sh
+powershell -c "irm https://astral.sh/uv/0.2.18/install.ps1 | iex"
 
 # With pip.
 pip install uv

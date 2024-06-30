@@ -1,9 +1,9 @@
 ---
 title: YimMenu
-date: 2023-06-17T12:16:05+08:00
+date: 2024-06-30T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1685053260054-f9ec199844cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1685053260054-f9ec199844cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY5NzUyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718817502686-1fa1c2e8b108?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718817502686-1fa1c2e8b108?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
 ---
 
 # [YimMenu/YimMenu](https://github.com/YimMenu/YimMenu)
@@ -24,7 +24,6 @@ So here I am with an up-to-date menu focusing on protecting the user from toxic 
  * [Make your own flavour of YimMenu](#make-your-own-flavour-of-yimmenu)
  * [Staying Up To Date](#staying-up-to-date)
  * [Project Structure](#project-structure)
- * [Features](#features)
  * [Contributing](#contributing)
  
 ## How to compile YimMenu

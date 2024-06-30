@@ -1,12 +1,12 @@
 ---
 title: everyone-can-use-english
-date: 2024-06-28T12:16:58+08:00
+date: 2024-06-30T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718561193320-3e8638a838da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718561193320-3e8638a838da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk1NDgxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715582986219-646df4e13cd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715582986219-646df4e13cd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
 ---
 
-# [xiaolai/everyone-can-use-english](https://github.com/xiaolai/everyone-can-use-english)
+# [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english)
 
 # 一千小时
 
