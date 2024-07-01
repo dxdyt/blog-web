@@ -1,9 +1,9 @@
 ---
 title: starship
-date: 2023-11-11T12:16:39+08:00
+date: 2024-07-01T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698231033086-a38438d50c70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698231033086-a38438d50c70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTk2NzYwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1596984358985-bf4b2faba9e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1596984358985-bf4b2faba9e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
 ---
 
 # [starship/starship](https://github.com/starship/starship)
@@ -242,6 +242,7 @@ Alternatively, install Starship using any of the following package managers:
 | Gentoo             | [Gentoo Packages]       | `emerge app-shells/starship`                                  |
 | Manjaro            |                         | `pacman -S starship`                                          |
 | NixOS              | [nixpkgs]               | `nix-env -iA nixpkgs.starship`                                |
+| openSUSE           | [OSS]                   | `zypper in starship`                                          |
 | Void Linux         | [Void Linux Packages]   | `xbps-install -S starship`                                    |
 
 </details>
@@ -442,9 +443,7 @@ Please check out these previous works that helped inspire the creation of starsh
 
 Support this project by [becoming a sponsor](https://github.com/sponsors/starship). Your name or logo will show up here with a link to your website.
 
-**Supporter Tier**
-
-- [Appwrite](https://appwrite.io/)
+- Free code signing provided by [SignPath.io], certificate by [SignPath Foundation]
 
 <p align="center">
     <br>
@@ -468,8 +467,11 @@ This project is [ISC](https://github.com/starship/starship/blob/master/LICENSE) 
 [homebrew]: https://formulae.brew.sh/formula/starship
 [macports]: https://ports.macports.org/port/starship
 [nixpkgs]: https://github.com/NixOS/nixpkgs/blob/master/pkgs/tools/misc/starship/default.nix
+[OSS]: https://software.opensuse.org/package/starship
 [pkgsrc]: https://pkgsrc.se/shells/starship
 [scoop]: https://github.com/ScoopInstaller/Main/blob/master/bucket/starship.json
+[SignPath Foundation]: https://signpath.org
+[SignPath.io]: https://signpath.io
 [termux]: https://github.com/termux/termux-packages/tree/master/packages/starship
 [void linux packages]: https://github.com/void-linux/void-packages/tree/master/srcpkgs/starship
 [winget]: https://github.com/microsoft/winget-pkgs/tree/master/manifests/s/Starship/Starship

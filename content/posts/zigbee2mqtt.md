@@ -1,9 +1,9 @@
 ---
 title: zigbee2mqtt
-date: 2024-01-03T12:18:02+08:00
+date: 2024-07-01T12:19:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702031617375-f71096eb385d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702031617375-f71096eb385d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQyNTUzNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715939961057-302b72eb75bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715939961057-302b72eb75bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
 ---
 
 # [Koenkk/zigbee2mqtt](https://github.com/Koenkk/zigbee2mqtt)

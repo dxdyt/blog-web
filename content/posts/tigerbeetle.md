@@ -1,38 +1,40 @@
 ---
 title: tigerbeetle
-date: 2024-03-01T12:18:32+08:00
+date: 2024-07-01T12:17:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707162740878-e947e511d5cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707162740878-e947e511d5cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkyNjY1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715449187020-e090eb0dc3d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715449187020-e090eb0dc3d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
 ---
 
 # [tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle)
 
 # tigerbeetle
 
-*TigerBeetle is a financial accounting database designed for mission critical safety and performance to power the future of financial services.*
-
-TigerBeetle is not yet production-ready. In particular, the protocol and data file formats may change and [might not be compatible across different commits](https://github.com/tigerbeetle/tigerbeetle/issues/1109), while we fine-tune the format ahead of release.
-
-The production version of **TigerBeetle is now under active development**.
+*TigerBeetle is a financial transactions database designed for mission critical safety and performance to power the next 30 years of OLTP.*
 
 ## Quickstart
 
 First, download a prebuilt copy of TigerBeetle.
 
-On macOS/Linux:
-
 ```console
-git clone https://github.com/tigerbeetle/tigerbeetle && cd tigerbeetle && ./bootstrap.sh
+# macOS
+curl -Lo tigerbeetle.zip https://mac.tigerbeetle.com && unzip tigerbeetle.zip && ./tigerbeetle version
+
+# Linux
+curl -Lo tigerbeetle.zip https://linux.tigerbeetle.com && unzip tigerbeetle.zip && ./tigerbeetle version
+
+# Windows
+powershell -command "curl.exe -Lo tigerbeetle.zip https://windows.tigerbeetle.com; Expand-Archive tigerbeetle.zip .; .\tigerbeetle version"
 ```
 
-On Windows:
+Want to build from source locally?
 
 ```console
-git clone https://github.com/tigerbeetle/tigerbeetle && cd tigerbeetle && .\bootstrap.ps1
+git clone https://github.com/tigerbeetle/tigerbeetle && cd tigerbeetle
+./scripts/install_zig.sh # or .bat if you're on Windows.
+zig/zig build
+./tigerbeetle version
 ```
-
-Want to build from source locally? Add `-build` as an argument to the bootstrap script.
 
 #### Running TigerBeetle
 
@@ -49,7 +51,7 @@ info(io): allocating 660.140625MiB...
 And start the replica.
 
 ```console
-./tigerbeetle start --addresses=3000 0_0.tigerbeetle
+./tigerbeetle start --addresses=3000 --development 0_0.tigerbeetle
 ```
 ```console
 info(io): opening "0_0.tigerbeetle"...
@@ -72,18 +74,17 @@ TigerBeetle Client
   Hit enter after a semicolon to run a command.
 
 Examples:
-  create_accounts id=1 code=10 ledger=700,
+  create_accounts id=1 code=10 ledger=700 flags=linked|history,
                   id=2 code=10 ledger=700;
   create_transfers id=1 debit_account_id=1 credit_account_id=2 amount=10 ledger=700 code=10;
   lookup_accounts id=1;
   lookup_accounts id=1, id=2;
+  get_account_transfers account_id=1 flags=debits|credits;
+  get_account_balances account_id=1 flags=debits|credits;
 ```
 ```console
 create_accounts id=1 code=10 ledger=700,
                 id=2 code=10 ledger=700;
-```
-```console
-info(message_bus): connected to replica 0
 ```
 
 Now create a transfer of `10` (of some amount/currency) between the two accounts.
@@ -129,23 +130,21 @@ and account `2` has `credits_posted` as `10`. The `10` amount is fully
 accounted for!
 
 For further reading:
-
-* [Run a single-node cluster](https://docs.tigerbeetle.com/quick-start/single-binary)
-* [Run a three-node cluster](https://docs.tigerbeetle.com/quick-start/single-binary-three)
+* [Run a single-node cluster](https://docs.tigerbeetle.com/getting-started/single-binary)
+* [Run a three-node cluster](https://docs.tigerbeetle.com/getting-started/single-binary-three)
 
 ## Next Steps
 
-Watch an introduction to TigerBeetle on [Zig
-SHOWTIME](https://www.youtube.com/watch?v=BH2jvJ74npM) for our design
-decisions regarding performance, safety, and financial accounting
+Watch an introduction to TigerBeetle on [The Primeagen](https://www.youtube.com/watch?v=sC1B3d9C_sI) for our design
+decisions regarding performance, safety, and financial accounting debit/credit
 primitives:
 
-[![A million financial transactions per second in
-Zig](https://img.youtube.com/vi/BH2jvJ74npM/0.jpg)](https://www.youtube.com/watch?v=BH2jvJ74npM)
+[![The FASTEST and SAFEST Database
+](https://img.youtube.com/vi/sC1B3d9C_sI/0.jpg)](https://www.youtube.com/watch?v=sC1B3d9C_sI)
 
-Read more about the [history](./docs/HISTORY.md) of TigerBeetle, the
+Read more about the [history](./docs/about/README.md#history) of TigerBeetle, the
 problem of balance tracking at scale, and the solution of a
-purpose-built financial accounting database.
+purpose-built financial transactions database.
 
 Check out our [DESIGN doc](./docs/DESIGN.md) to see an overview of
 TigerBeetle's data structures, take a look at our
@@ -160,13 +159,13 @@ Check out [docs.tigerbeetle.com](https://docs.tigerbeetle.com/).
 Here are a few key pages you might be interested in:
 
 - Deployment
-  - [Hardware](https://docs.tigerbeetle.com/deploy/hardware)
+  - [Hardware](https://docs.tigerbeetle.com/deploy/hardware/)
 - Usage
   - [Integration](https://docs.tigerbeetle.com/#designing-for-tigerbeetle)
 - Reference
-  - [Accounts](https://docs.tigerbeetle.com/reference/accounts)
-  - [Transfers](https://docs.tigerbeetle.com/reference/transfers)
-  - [Operations](https://docs.tigerbeetle.com/reference/operations)
+  - [Account](https://docs.tigerbeetle.com/reference/account)
+  - [Transfer](https://docs.tigerbeetle.com/reference/transfer)
+  - [Requests](https://docs.tigerbeetle.com/reference/requests)
 
 ## Clients
 
@@ -182,22 +181,6 @@ Here are a few key pages you might be interested in:
 * [Follow us on Twitter](https://twitter.com/TigerBeetleDB), [YouTube](https://www.youtube.com/@tigerbeetledb), and [Twitch](https://www.twitch.tv/tigerbeetle).
 * [Subscribe to our monthly newsletter for the backstory on recent database changes.](https://mailchi.mp/8e9fa0f36056/subscribe-to-tigerbeetle)
 * [Check out past and upcoming talks.](/docs/TALKS.md)
-
-## Benchmarks
-
-First grab the sources and run the setup script:
-
-```console
-git clone https://github.com/tigerbeetle/tigerbeetle.git
-cd tigerbeetle
-scripts/install.sh
-```
-
-With TigerBeetle installed, you are ready to benchmark!
-
-```console
-./tigerbeetle benchmark
-```
 
 ## Contributing
 
