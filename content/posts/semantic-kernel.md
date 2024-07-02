@@ -1,9 +1,9 @@
 ---
 title: semantic-kernel
-date: 2024-07-01T12:18:12+08:00
+date: 2024-07-02T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717342103910-83ee0cdcde31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717342103910-83ee0cdcde31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717155736971-b53c6dfd940f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717155736971-b53c6dfd940f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)

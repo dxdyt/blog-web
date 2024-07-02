@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-07-01T12:17:15+08:00
+date: 2024-07-02T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715939961057-302b72eb75bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715939961057-302b72eb75bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719715845503-79c03b15ca55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719715845503-79c03b15ca55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)

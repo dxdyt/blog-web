@@ -1,9 +1,9 @@
 ---
 title: whatsapp-web.js
-date: 2024-07-01T12:19:15+08:00
+date: 2024-07-02T12:19:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715449187020-e090eb0dc3d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715449187020-e090eb0dc3d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716220557737-f2616bd6bb37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716220557737-f2616bd6bb37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
 ---
 
 # [pedroslopez/whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js)

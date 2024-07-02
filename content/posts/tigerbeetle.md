@@ -1,9 +1,9 @@
 ---
 title: tigerbeetle
-date: 2024-07-01T12:17:09+08:00
+date: 2024-07-02T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715449187020-e090eb0dc3d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715449187020-e090eb0dc3d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717155736971-b53c6dfd940f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717155736971-b53c6dfd940f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
 ---
 
 # [tigerbeetle/tigerbeetle](https://github.com/tigerbeetle/tigerbeetle)
@@ -51,7 +51,7 @@ info(io): allocating 660.140625MiB...
 And start the replica.
 
 ```console
-./tigerbeetle start --addresses=3000 --development 0_0.tigerbeetle
+./tigerbeetle start --addresses=3000 0_0.tigerbeetle
 ```
 ```console
 info(io): opening "0_0.tigerbeetle"...

@@ -1,9 +1,9 @@
 ---
 title: earthworm
-date: 2024-06-30T12:16:40+08:00
+date: 2024-07-02T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718554517651-1978c9fe3a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718554517651-1978c9fe3a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718227696407-4de5de9c3599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718227696407-4de5de9c3599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
 ---
 
 # [cuixueshe/earthworm](https://github.com/cuixueshe/earthworm)

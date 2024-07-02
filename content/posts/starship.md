@@ -1,9 +1,9 @@
 ---
 title: starship
-date: 2024-07-01T12:17:38+08:00
+date: 2024-07-02T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1596984358985-bf4b2faba9e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1596984358985-bf4b2faba9e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1661895457573-65598b20a104?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1661895457573-65598b20a104?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
 ---
 
 # [starship/starship](https://github.com/starship/starship)
