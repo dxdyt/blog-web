@@ -1,9 +1,9 @@
 ---
 title: moby
-date: 2023-10-14T12:17:41+08:00
+date: 2024-07-03T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695193984598-2cbfd23c6b0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695193984598-2cbfd23c6b0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTcyNTY4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719225629917-f23d5e0295f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719225629917-f23d5e0295f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
 ---
 
 # [moby/moby](https://github.com/moby/moby)

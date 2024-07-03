@@ -1,9 +1,9 @@
 ---
 title: react-native
-date: 2024-04-27T12:16:25+08:00
+date: 2024-07-03T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719225629917-f23d5e0295f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719225629917-f23d5e0295f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
 ---
 
 # [facebook/react-native](https://github.com/facebook/react-native)
