@@ -1,14 +1,16 @@
 ---
 title: fish-speech
-date: 2024-05-17T12:19:25+08:00
+date: 2024-07-04T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714329454213-54101f5f0d9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714329454213-54101f5f0d9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU5MTkzODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719208750955-cb740a420cf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719208750955-cb740a420cf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
 ---
 
 # [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)
 
 # Fish Speech
+
+# Warning: We are updating code to fish-speech 1.2, the last stable branch is [1.1.2](https://github.com/fishaudio/fish-speech/tree/v1.1.2)
 
 <div>
 <a target="_blank" href="https://discord.gg/Es5qTB9BcN">
@@ -21,25 +23,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1714329454213-54101f5f0d
 <img alt="Docker" src="https://img.shields.io/docker/pulls/lengyue233/fish-speech?style=flat-square&logo=docker"/>
 </a>
 <a target="_blank" href="https://github.com/fishaudio/fish-speech/actions/workflows/build-windows-package.yml">
-<img alt="Docker" src="https://img.shields.io/github/actions/workflow/status/fishaudio/fish-speech/build-windows-package.yml?style=flat-square&label=Build%20Windows%20Package&logo=github"/>
+<img alt="Action" src="https://img.shields.io/github/actions/workflow/status/fishaudio/fish-speech/build-windows-package.yml?style=flat-square&label=Build%20Windows%20Package&logo=github"/>
 </a>
 </div>
 
-This codebase is released under BSD-3-Clause License, and all models are released under CC-BY-NC-SA-4.0 License. Please refer to [LICENSE](LICENSE) for more details. 
+This codebase and all models are released under CC-BY-NC-SA-4.0 License. Please refer to [LICENSE](LICENSE) for more details. 
 
-此代码库根据 BSD-3-Clause 许可证发布, 所有模型根据 CC-BY-NC-SA-4.0 许可证发布。请参阅 [LICENSE](LICENSE) 了解更多细节.
+此代码库及模型根据 CC-BY-NC-SA-4.0 许可证发布。请参阅 [LICENSE](LICENSE) 了解更多细节.
 
 ## Disclaimer / 免责声明
 We do not hold any responsibility for any illegal usage of the codebase. Please refer to your local laws about DMCA and other related laws.  
 我们不对代码库的任何非法使用承担任何责任. 请参阅您当地关于 DMCA (数字千年法案) 和其他相关法律法规.
 
 ## Online Demo
-[Fish Speech](https://fs.firefly.matce.cn/)   
-支持中/日/英三语合成。基于原神/崩坏星穹铁道/BlueArchive角色。   
-音频所有权归米哈游网络科技有限公司及YoStar所有。  
+[Fish Audio](https://fish.audio)   
 
 ## Videos
-#### Demo Video: https://www.bilibili.com/video/BV18E421371Q    
+#### Demo Video: https://www.bilibili.com/video/BV1wz421B71D
 #### Tech slides Video: https://www.bilibili.com/video/BV1zJ4m1K7cj
 
 ## Documents / 文档
