@@ -1,9 +1,9 @@
 ---
 title: restic
-date: 2024-07-03T12:18:36+08:00
+date: 2024-07-05T12:19:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717534423353-a67deaf80b18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717534423353-a67deaf80b18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718004438746-4ef85144ee96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718004438746-4ef85144ee96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
 ---
 
 # [restic/restic](https://github.com/restic/restic)
