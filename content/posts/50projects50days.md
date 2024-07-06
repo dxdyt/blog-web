@@ -1,9 +1,9 @@
 ---
 title: 50projects50days
-date: 2024-04-07T12:18:10+08:00
+date: 2024-07-06T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707024257674-2e656346fbbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707024257674-2e656346fbbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI0NjM0MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719715769983-416ca174a405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719715769983-416ca174a405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [bradtraversy/50projects50days](https://github.com/bradtraversy/50projects50days)

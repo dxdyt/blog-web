@@ -1,9 +1,9 @@
 ---
 title: graphrag
-date: 2024-07-05T12:18:56+08:00
+date: 2024-07-06T12:17:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717534423353-a67deaf80b18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717534423353-a67deaf80b18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719352354072-214d291f7871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719352354072-214d291f7871?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/graphrag](https://github.com/microsoft/graphrag)

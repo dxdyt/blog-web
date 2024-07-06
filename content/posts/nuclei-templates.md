@@ -1,9 +1,9 @@
 ---
 title: nuclei-templates
-date: 2024-07-04T12:16:57+08:00
+date: 2024-07-06T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719239311459-e27b3b6a7ea2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719239311459-e27b3b6a7ea2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1715945469434-e1259ca8c4df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1715945469434-e1259ca8c4df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [projectdiscovery/nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)

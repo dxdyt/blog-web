@@ -1,9 +1,9 @@
 ---
 title: BLAKE3
-date: 2024-07-05T12:19:58+08:00
+date: 2024-07-06T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718963892337-b6729c302b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718963892337-b6729c302b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718248028314-c144318686dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718248028314-c144318686dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [BLAKE3-team/BLAKE3](https://github.com/BLAKE3-team/BLAKE3)

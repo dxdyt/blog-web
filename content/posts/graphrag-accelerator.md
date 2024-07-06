@@ -1,9 +1,9 @@
 ---
 title: graphrag-accelerator
-date: 2024-07-05T12:19:11+08:00
+date: 2024-07-06T12:17:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718296010059-031bc61ddc0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718296010059-031bc61ddc0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAxNTMxMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719257726822-9899127bb072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719257726822-9899127bb072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [Azure-Samples/graphrag-accelerator](https://github.com/Azure-Samples/graphrag-accelerator)
