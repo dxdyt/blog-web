@@ -1,16 +1,15 @@
 ---
 title: gaianet-node
-date: 2024-06-01T12:18:58+08:00
+date: 2024-07-07T12:18:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714612673675-7561c122c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c14e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717328499550-e6addc3def8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717328499550-e6addc3def8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
 ---
 
 # [GaiaNet-AI/gaianet-node](https://github.com/GaiaNet-AI/gaianet-node)
 
 # Run your own GaiaNet node
 
-[README in Turkish (Türkçe)](README.tr.md)
 
 <p align="center">
   <a href="https://discord.gg/gaianet-ai">
@@ -26,8 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714612673675-7561c122c1
 
 
 
-[[Japanese](README-ja.md)] [[Chinese](README-cn.md)] | We need your help to translate this README into your native language.
-
+[Japanese(日本語)](README-ja.md) | [Chinese(中文)](README-cn.md) | [Turkish (Türkçe)](README-tr.md) | We need your help to translate this README into your native language.
 
 Like our work? ⭐ Star us!
 
@@ -38,8 +36,10 @@ Like our work? ⭐ Star us!
 Install the default node software stack with a single line of command on Mac, Linux, or Windows WSL.
 
 ```bash
-curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/main/install.sh' | bash
+curl -sSfL 'https://github.com/GaiaNet-AI/gaianet-node/releases/latest/download/install.sh' | bash
 ```
+
+Then, follow the prompt on your screen to set up the environment path. The command line will begin with `source`.
 
 Initialize the node. It will download the model files and vector database files specified in the `$HOME/gaianet/config.json` file, and it could take a few minutes since the files are large.
 
@@ -57,7 +57,7 @@ The script prints the official node address on the console as follows.
 You can open a browser to that URL to see the node information and then chat with the AI agent on the node.
 
 ```
-... ... https://0xf63939431ee11267f4855a166e11cc44d24960c0.gaianet.xyz
+... ... https://0xf63939431ee11267f4855a166e11cc44d24960c0.us.gaianet.network
 ```
 
 To stop the node, you can run the following script.
@@ -75,8 +75,6 @@ curl -sSfL 'https://raw.githubusercontent.com/GaiaNet-AI/gaianet-node/main/insta
 <details><summary> The output should look like below: </summary>
 
 ```console
-Password:
-
 [+] Downloading default config file ...
 
 [+] Downloading nodeid.json ...
@@ -158,10 +156,10 @@ gaianet init
 
 </details>
 
-The `init` command initializes the node according to the `$HOME/gaianet/config.json` file. You can use some of our pre-set configurations. For example, the command below initializes a node with the GaiaNet documentaton as knowledge base. It is equipped to answer questions about GaiaNet.
+The `init` command initializes the node according to the `$HOME/gaianet/config.json` file. You can use some of our pre-set configurations. For example, the command below initializes a node with the llama-3 8B model with a London guidebook as knowledge base.
 
 ```bash
-gaianet init --config gaianet_docs
+gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/llama-3-8b-instruct_london/config.json
 ```
 
 To see a list of pre-set configurations, you can do `gaianet init --help`.

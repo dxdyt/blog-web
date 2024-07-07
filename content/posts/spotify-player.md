@@ -1,9 +1,9 @@
 ---
 title: spotify-player
-date: 2024-07-06T12:17:55+08:00
+date: 2024-07-07T12:16:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719150006655-62fdcadf01a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719150006655-62fdcadf01a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718703358688-046752ef11f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718703358688-046752ef11f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
 ---
 
 # [aome510/spotify-player](https://github.com/aome510/spotify-player)
@@ -52,7 +52,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1719150006655-62fdcadf01
 
 ## Examples
 
-A demo of `spotify_player` `v0.5.0-pre-release` on [youtube](https://www.youtube.com/shorts/Jbfe9GLNWbA) or on [asciicast](https://asciinema.org/a/446913):
+A demo of `spotify_player` `v0.5.0-pre-release` on [youtube](https://www.youtube.com/watch/Jbfe9GLNWbA) or on [asciicast](https://asciinema.org/a/446913):
 
 Checkout [examples/README.md](./examples/README.md) for more examples.
 

@@ -1,9 +1,9 @@
 ---
 title: security-research
-date: 2023-07-29T12:15:02+08:00
+date: 2024-07-07T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690287363823-b9e864c01b48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690287363823-b9e864c01b48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA2MDQwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718103377026-df9e40c78141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718103377026-df9e40c78141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
 ---
 
 # [google/security-research](https://github.com/google/security-research)
@@ -37,6 +37,7 @@ security vulnerabilities.
 
 | Year | Title | Advisories | Links |
 | ---- | ----- | ---------- | ----- |
+| 2023 | Oracle VM VirtualBox 7.0.10 r158379 Escape | [CVE-2023-22098](https://github.com/google/security-research/security/advisories/GHSA-q7p4-pxjx-6h42) | [PoC](pocs/oracle/virtualbox/cve-2023-22098)
 | 2023 | Linux: eBPF Path Pruning gone wrong | [CVE-2023-2163](https://github.com/google/security-research/security/advisories/GHSA-j87x-j6mh-mv8v) | [PoC](pocs/linux/cve-2023-2163)
 | 2023 | XGETBV is non-deterministic on Intel CPUs | | [PoC](pocs/cpus/xgetbv)
 | 2023 | XSAVES Instruction May Fail to Save XMM Registers | | [PoC](pocs/cpus/errata/amd/1386)
@@ -51,7 +52,7 @@ security vulnerabilities.
 | 2021 | Linux: KVM VM_IO\|VM_PFNMAP vma mishandling | [CVE-2021-22543](https://github.com/google/security-research/security/advisories/GHSA-7wq5-phmq-m584) | [PoC](pocs/linux/kvm_vma)
 | 2021 | BleedingTooth: Linux Bluetooth Zero-Click Remote Code Execution | [CVE-2020-24490](https://github.com/google/security-research/security/advisories/GHSA-ccx2-w2r4-x649), [CVE-2020-12351](https://github.com/google/security-research/security/advisories/GHSA-h637-c88j-47wq), [CVE-2020-12352](https://github.com/google/security-research/security/advisories/GHSA-7mh3-gq28-gfrq) | [Write-up](https://google.github.io/security-research/pocs/linux/bleedingtooth/writeup.html), [PoC](pocs/linux/bleedingtooth)
 
-# Licence & Patents
+# License & Patents
 
 The advisories and patches posted here are free and open source.
 

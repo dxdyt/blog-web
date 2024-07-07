@@ -1,9 +1,9 @@
 ---
 title: digitalhippo
-date: 2024-07-06T12:19:09+08:00
+date: 2024-07-07T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719150006655-62fdcadf01a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719150006655-62fdcadf01a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718554517663-83ffd1ce66f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718554517663-83ffd1ce66f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
 ---
 
 # [joschan21/digitalhippo](https://github.com/joschan21/digitalhippo)
