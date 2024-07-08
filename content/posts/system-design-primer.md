@@ -1,9 +1,9 @@
 ---
 title: system-design-primer
-date: 2024-06-25T12:17:29+08:00
+date: 2024-07-08T12:18:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716449262015-7b97bb7ac40a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716449262015-7b97bb7ac40a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719122180607-66d0c7d5c26c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0MTIzMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719122180607-66d0c7d5c26c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0MTIzMDJ8&ixlib=rb-4.0.3
 ---
 
 # [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
@@ -1509,7 +1509,7 @@ HTTP APIs following **REST** tend to be used more often for public APIs.
 * RPC clients become tightly coupled to the service implementation.
 * A new API must be defined for every new operation or use case.
 * It can be difficult to debug RPC.
-* You might not be able to leverage existing technologies out of the box.  For example, it might require additional effort to ensure [RPC calls are properly cached](http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/) on caching servers such as [Squid](http://www.squid-cache.org/).
+* You might not be able to leverage existing technologies out of the box.  For example, it might require additional effort to ensure [RPC calls are properly cached](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/) on caching servers such as [Squid](http://www.squid-cache.org/).
 
 ### Representational state transfer (REST)
 
@@ -1561,7 +1561,7 @@ REST is focused on exposing data.  It minimizes the coupling between client/serv
 * [Do you really know why you prefer REST over RPC](https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/)
 * [When are RPC-ish approaches more appropriate than REST?](http://programmers.stackexchange.com/a/181186)
 * [REST vs JSON-RPC](http://stackoverflow.com/questions/15056878/rest-vs-json-rpc)
-* [Debunking the myths of RPC and REST](http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)
+* [Debunking the myths of RPC and REST](https://web.archive.org/web/20170608193645/http://etherealbits.com/2012/12/debunking-the-myths-of-rpc-rest/)
 * [What are the drawbacks of using REST](https://www.quora.com/What-are-the-drawbacks-of-using-RESTful-APIs)
 * [Crack the system design interview](http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview)
 * [Thrift](https://code.facebook.com/posts/1468950976659943/)
