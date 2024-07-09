@@ -1,9 +1,9 @@
 ---
 title: graphrag
-date: 2024-07-08T12:18:35+08:00
+date: 2024-07-09T12:17:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718817504878-5354719ebb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0MTIzMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718817504878-5354719ebb52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0MTIzMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719917226618-a4a415f477e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719917226618-a4a415f477e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/graphrag](https://github.com/microsoft/graphrag)
@@ -43,6 +43,8 @@ To get started with the GraphRAG system we recommend trying the [Solution Accele
 ## Repository Guidance
 
 This repository presents a methodology for using knowledge graph memory structures to enhance LLM outputs. Please note that the provided code serves as a demonstration and is not an officially supported Microsoft offering.
+
+⚠️ *Warning: GraphRAG indexing can be an expensive operation, please read all of the documentation to understand the process and costs involved, and start small.*
 
 ## Diving Deeper
 
