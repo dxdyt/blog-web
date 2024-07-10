@@ -1,12 +1,20 @@
 ---
 title: CopilotKit
-date: 2024-05-31T12:20:25+08:00
+date: 2024-07-10T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714952226774-b7a2c5707e30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714952226774-b7a2c5707e30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcxMjkwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719032238663-e7fe70eb5c95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719032238663-e7fe70eb5c95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
 ---
 
 # [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)
+
+<div align="center">
+  <a href="https://ai88.substack.com/p/copilotkit-v1-launch">
+    CopilotKit v1.0 release! Read about it here.
+  </a>
+</div>
+
+<br/>
 
 <div align="center">
   <picture>
@@ -51,7 +59,7 @@ in-app AI chatbots, AI agents, and AI Textareas.
     <img src="https://github.com/CopilotKit/CopilotKit/assets/131273140/a4a0fd04-6aee-4e02-9c3e-3f11d60b4e8b" alt="Read the Docs" height="30">
   </a>
   &nbsp;&middot;&nbsp;
-  <a href="https://go.copilotkit.ai/kM4Lo86">
+  <a href="https://cloud.copilotkit.ai">
     <img src="https://github.com/CopilotKit/CopilotKit/assets/131273140/28ca62a8-cf93-4d3f-96b0-dc11bf89b734" alt="Try Copilot Cloud" height="30">
   </a>
 </p>
@@ -75,31 +83,31 @@ in-app AI chatbots, AI agents, and AI Textareas.
 <table align="center">
   <tr>
     <td align="center" valign="top">
-      PowerPoint + Copilot + Voice <br/>
-      <a href="https://go.copilotkit.ai/PowerPointVoiceTemplate">https://github.com/CopilotKit/presentation-voice</a> <br/><br>
-      <a href="https://go.copilotkit.ai/PowerPointVoiceTemplate">
-        <img alt="Presentation-Voice" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/6e1a448b-d153-431f-8132-46a668d8a0d1" width="200px" style="max-width:100%; border-radius: 10px;"/>
+      PowerPoint + Copilot <br/>
+      <a href="https://github.com/CopilotKit/demo-presentation">https://github.com/CopilotKit/demo-presentation</a> <br/><br>
+      <a href="https://github.com/CopilotKit/demo-presentation">
+        <img alt="Presentation" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/6e1a448b-d153-431f-8132-46a668d8a0d1" width="200px" style="max-width:100%; border-radius: 10px;"/>
       </a>
     </td>
     <td align="center" valign="top">
       "Hello World" (A Todo App) <br/>
-      <a href="https://github.com/CopilotKit/example_app-todo">https://github.com/CopilotKit/example_app-todo</a> <br/><br>
-      <a href="https://github.com/CopilotKit/presentation-demo">
+      <a href="https://github.com/CopilotKit/demo-todo">https://github.com/CopilotKit/demo-todo</a> <br/><br>
+      <a href="https://github.com/CopilotKit/demo-todo">
         <img alt="Todo App" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/63798c02-1892-4d2d-bc9f-2994b7c88694" width="200px" style="max-width:100%; border-radius: 10px;"/>
       </a>
-    </td>
+    </td>    
     <td align="center" valign="top">
-      PowerPoint + Copilot <br/>
-      <a href="https://github.com/CopilotKit/presentation-demo">https://github.com/CopilotKit/presentation-demo</a> <br/><br>
-      <a href="https://github.com/CopilotKit/presentation-demo">
-        <img alt="Presentation-Demo" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/6e1a448b-d153-431f-8132-46a668d8a0d1" width="200px" style="max-width:100%; border-radius: 10px;"/>
+      Spreadsheets + Copilot <br/>
+      <a href="https://github.com/CopilotKit/demo-spreadsheet">https://github.com/CopilotKit/demo-spreadsheet</a> <br/><br>
+      <a href="https://github.com/CopilotKit/demo-spreadsheet">
+        <img alt="Presentation-Demo" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/871e4c9c-0ced-490b-9e3f-8594de7c5c89" width="200px" style="max-width:100%; border-radius: 10px;"/>
       </a>
     </td>
     <td align="center" valign="top">
-      Spreadsheets + Copilot <br/>
-      <a href="https://github.com/CopilotKit/spreadsheet-demo">https://github.com/CopilotKit/spreadsheet-demo</a> <br/><br>
-      <a href="https://github.com/CopilotKit/spreadsheet-demo">
-        <img alt="Presentation-Demo" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/871e4c9c-0ced-490b-9e3f-8594de7c5c89" width="200px" style="max-width:100%; border-radius: 10px;"/>
+      PowerPoint + Copilot + Voice <br/>
+      <a href="https://github.com/CopilotKit/demo-presentation-voice">https://github.com/CopilotKit/demo-presentation-voice</a> <br/><br>
+      <a href="https://github.com/CopilotKit/demo-presentation-voice">
+        <img alt="Presentation-Voice" src="https://github.com/CopilotKit/CopilotKit/assets/131273140/6e1a448b-d153-431f-8132-46a668d8a0d1" width="200px" style="max-width:100%; border-radius: 10px;"/>
       </a>
     </td>
 <!--     <td align="center" valign="top">

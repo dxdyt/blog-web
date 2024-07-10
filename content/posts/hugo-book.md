@@ -1,9 +1,9 @@
 ---
 title: hugo-book
-date: 2024-07-09T12:17:47+08:00
+date: 2024-07-10T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718938610048-843cfecefef6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718938610048-843cfecefef6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719165104360-f7e637a1785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719165104360-f7e637a1785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
 ---
 
 # [alex-shpak/hugo-book](https://github.com/alex-shpak/hugo-book)

@@ -1,9 +1,9 @@
 ---
 title: vanna
-date: 2024-06-19T12:18:59+08:00
+date: 2024-07-10T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715630915001-35be2d8dba4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715630915001-35be2d8dba4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719317574403-361227ad1a4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719317574403-361227ad1a4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
 ---
 
 # [vanna-ai/vanna](https://github.com/vanna-ai/vanna)

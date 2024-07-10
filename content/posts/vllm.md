@@ -1,9 +1,9 @@
 ---
 title: vllm
-date: 2023-12-14T12:17:41+08:00
+date: 2024-07-10T12:19:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701725047112-ecfe6c4f0cad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDI1MjczNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
 ---
 
 # [vllm-project/vllm](https://github.com/vllm-project/vllm)
@@ -26,8 +26,21 @@ Easy, fast, and cheap LLM serving for everyone
 
 ---
 
+**Ray Summit CPF is Open (June 4th to June 20th)!**
+
+There will be a track for vLLM at the Ray Summit (09/30-10/02, SF) this year!
+If you have cool projects related to vLLM or LLM inference, we would love to see your proposals.
+This will be a great chance for everyone in the community to get together and learn.
+Please submit your proposal [here](https://raysummit.anyscale.com/flow/anyscale/raysummit2024/landing/page/eventsite)
+
+---
+
 *Latest News* 🔥
-- [2023/12] Added ROCm support to vLLM.
+- [2024/06] We hosted [the fourth vLLM meetup](https://lu.ma/agivllm) with Cloudflare and BentoML! Please find the meetup slides [here](https://docs.google.com/presentation/d/1iJ8o7V2bQEi0BFEljLTwc5G1S10_Rhv3beed5oB0NJ4/edit?usp=sharing).
+- [2024/04] We hosted [the third vLLM meetup](https://robloxandvllmmeetup2024.splashthat.com/) with Roblox! Please find the meetup slides [here](https://docs.google.com/presentation/d/1A--47JAK4BJ39t954HyTkvtfwn0fkqtsL8NGFuslReM/edit?usp=sharing).
+- [2024/01] We hosted [the second vLLM meetup](https://lu.ma/ygxbpzhl) in SF! Please find the meetup slides [here](https://docs.google.com/presentation/d/12mI2sKABnUw5RBWXDYY-HtHth4iMSNcEoQ10jDQbxgA/edit?usp=sharing).
+- [2024/01] Added ROCm 6.0 support to vLLM.
+- [2023/12] Added ROCm 5.7 support to vLLM.
 - [2023/10] We hosted [the first vLLM meetup](https://lu.ma/first-vllm-meetup) in SF! Please find the meetup slides [here](https://docs.google.com/presentation/d/1QL-XPFXiFpDBh86DbEegFXBXFXjix4v032GhShbKf3s/edit?usp=sharing).
 - [2023/09] We created our [Discord server](https://discord.gg/jz7wjKhh6g)! Join us to discuss vLLM and LLM serving! We will also post the latest announcements and updates there.
 - [2023/09] We released our [PagedAttention paper](https://arxiv.org/abs/2309.06180) on arXiv!
@@ -37,7 +50,7 @@ Easy, fast, and cheap LLM serving for everyone
 - [2023/06] We officially released vLLM! FastChat-vLLM integration has powered [LMSYS Vicuna and Chatbot Arena](https://chat.lmsys.org) since mid-April. Check out our [blog post](https://vllm.ai).
 
 ---
-
+## About
 vLLM is a fast and easy-to-use library for LLM inference and serving.
 
 vLLM is fast with:
@@ -45,6 +58,8 @@ vLLM is fast with:
 - State-of-the-art serving throughput
 - Efficient management of attention key and value memory with **PagedAttention**
 - Continuous batching of incoming requests
+- Fast model execution with CUDA/HIP graph
+- Quantization: [GPTQ](https://arxiv.org/abs/2210.17323), [AWQ](https://arxiv.org/abs/2306.00978), [SqueezeLLM](https://arxiv.org/abs/2306.07629), FP8 KV Cache
 - Optimized CUDA kernels
 
 vLLM is flexible and easy to use with:
@@ -54,42 +69,26 @@ vLLM is flexible and easy to use with:
 - Tensor parallelism support for distributed inference
 - Streaming outputs
 - OpenAI-compatible API server
-- Support NVIDIA CUDA and AMD ROCm.
+- Support NVIDIA GPUs, AMD GPUs, Intel CPUs and GPUs
+- (Experimental) Prefix caching support
+- (Experimental) Multi-lora support
 
-vLLM seamlessly supports many Hugging Face models, including the following architectures:
+vLLM seamlessly supports most popular open-source models on HuggingFace, including:
+- Transformer-like LLMs (e.g., Llama)
+- Mixture-of-Expert LLMs (e.g., Mixtral)
+- Multi-modal LLMs (e.g., LLaVA)
 
-- Aquila & Aquila2 (`BAAI/AquilaChat2-7B`, `BAAI/AquilaChat2-34B`, `BAAI/Aquila-7B`, `BAAI/AquilaChat-7B`, etc.)
-- Baichuan & Baichuan2 (`baichuan-inc/Baichuan2-13B-Chat`, `baichuan-inc/Baichuan-7B`, etc.)
-- BLOOM (`bigscience/bloom`, `bigscience/bloomz`, etc.)
-- ChatGLM (`THUDM/chatglm2-6b`, `THUDM/chatglm3-6b`, etc.)
-- Falcon (`tiiuae/falcon-7b`, `tiiuae/falcon-40b`, `tiiuae/falcon-rw-7b`, etc.)
-- GPT-2 (`gpt2`, `gpt2-xl`, etc.)
-- GPT BigCode (`bigcode/starcoder`, `bigcode/gpt_bigcode-santacoder`, etc.)
-- GPT-J (`EleutherAI/gpt-j-6b`, `nomic-ai/gpt4all-j`, etc.)
-- GPT-NeoX (`EleutherAI/gpt-neox-20b`, `databricks/dolly-v2-12b`, `stabilityai/stablelm-tuned-alpha-7b`, etc.)
-- InternLM (`internlm/internlm-7b`, `internlm/internlm-chat-7b`, etc.)
-- LLaMA & LLaMA-2 (`meta-llama/Llama-2-70b-hf`, `lmsys/vicuna-13b-v1.3`, `young-geng/koala`, `openlm-research/open_llama_13b`, etc.)
-- Mistral (`mistralai/Mistral-7B-v0.1`, `mistralai/Mistral-7B-Instruct-v0.1`, etc.)
-- Mixtral (`mistralai/Mixtral-8x7B-v0.1`, `mistralai/Mixtral-8x7B-Instruct-v0.1`, etc.)
-- MPT (`mosaicml/mpt-7b`, `mosaicml/mpt-30b`, etc.)
-- OPT (`facebook/opt-66b`, `facebook/opt-iml-max-30b`, etc.)
-- Phi-1.5 (`microsoft/phi-1_5`, etc.)
-- Qwen (`Qwen/Qwen-7B`, `Qwen/Qwen-7B-Chat`, etc.)
-- Yi (`01-ai/Yi-6B`, `01-ai/Yi-34B`, etc.)
+Find the full list of supported models [here](https://docs.vllm.ai/en/latest/models/supported_models.html).
+
+## Getting Started
 
 Install vLLM with pip or [from source](https://vllm.readthedocs.io/en/latest/getting_started/installation.html#build-from-source):
 
 ```bash
 pip install vllm
 ```
-**NOTE:** The Mixtral model additionally requires `megablocks` which can be installed with pip or [from source](https://github.com/stanford-futuredata/megablocks):
-```bash
-pip install megablocks
-```
 
-## Getting Started
-
-Visit our [documentation](https://vllm.readthedocs.io/en/latest/) to get started.
+Visit our [documentation](https://vllm.readthedocs.io/en/latest/) to learn more.
 - [Installation](https://vllm.readthedocs.io/en/latest/getting_started/installation.html)
 - [Quickstart](https://vllm.readthedocs.io/en/latest/getting_started/quickstart.html)
 - [Supported Models](https://vllm.readthedocs.io/en/latest/models/supported_models.html)
@@ -98,6 +97,34 @@ Visit our [documentation](https://vllm.readthedocs.io/en/latest/) to get started
 
 We welcome and value any contributions and collaborations.
 Please check out [CONTRIBUTING.md](./CONTRIBUTING.md) for how to get involved.
+
+## Sponsors
+
+vLLM is a community project. Our compute resources for development and testing are supported by the following organizations. Thank you for your support!
+
+<!-- Note: Please sort them in alphabetical order. -->
+<!-- Note: Please keep these consistent with docs/source/community/sponsors.md -->
+
+- a16z
+- AMD
+- Anyscale
+- AWS
+- Crusoe Cloud
+- Databricks
+- DeepInfra
+- Dropbox
+- Lambda Lab
+- NVIDIA
+- Replicate
+- Roblox
+- RunPod
+- Sequoia Capital
+- Trainy
+- UC Berkeley
+- UC San Diego
+- ZhenFund
+
+We also have an official fundraising venue through [OpenCollective](https://opencollective.com/vllm). We plan to use the fund to support the development, maintenance, and adoption of vLLM.
 
 ## Citation
 

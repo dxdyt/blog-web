@@ -1,9 +1,9 @@
 ---
 title: hiring-without-whiteboards
-date: 2024-06-12T12:18:04+08:00
+date: 2024-07-10T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716346061596-b15ad7ae5391?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716346061596-b15ad7ae5391?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718143388903-ab7815add83d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718143388903-ab7815add83d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
 ---
 
 # [poteto/hiring-without-whiteboards](https://github.com/poteto/hiring-without-whiteboards)
@@ -64,7 +64,6 @@ Also check out [No Whiteboards](https://www.nowhiteboard.org) to search for jobs
 - [Admiral](https://getadmiral.com) | Gainesville, FL / Remote | Intro phone call with hiring manager, take-home assignment, (mostly) non-technical on-site with team/leadership
 - [Adnymics](https://adnymics.com) | Munich, DE | Take home project, then work with the team for a day
 - [Adthena](http://adthena.com) | London, UK | Takehome project and discussion on-site
-- [AdWyze](https://angel.co/adwyze/jobs) | Bangalore, India | Short takehome project + (for fulltime) onsite pairing
 - [Adyen](https://www.adyen.com) | Amsterdam, NL | Take-home assignment, design discussion based on take home, culture fit etc. Provides visa sponsorship to the Netherlands.
 - [Affinipay](https://www.affinipay.com) | Austin, TX | Short takehome project + video interview about coding with engineering manager
 - [Agency Enterprise Studio](https://ae.studio) | Remote / Los Angeles, CA / Florianópolis, Brazil | Live coding of a task you'd do daily
@@ -131,6 +130,7 @@ Also check out [No Whiteboards](https://www.nowhiteboard.org) to search for jobs
 - [BigaBid](https://www.bigabid.com/careers) | Tel Aviv, Israel | Design a real time solution to a problem relevant to the business, followed by a take home project implementing a lean version of the solution
 - [BigBinary](https://www.bigbinary.com/jobs) | Remote | Phone discussion with a developer and the CEO
 - [BioConnect](https://www.bioconnect.com/company/careers) | Toronto, Canada | Take-home assignment & discussion
+- [Bitchief Technology Services](https://www.bitchief.com) | India, Gurgaon | Screening Round: General comms and aptitude, Technical Round: Questions related to required technology, Home Assignments
 - [bitExpert AG](https://www.bitexpert.de/karriere) | Mannheim, Germany | Interview with experience based technical questions
 - [Bitpanda](https://www.bitpanda.com/en/career) | Cracow, Poland / Remote | HR talk, take-home task, tech interview, culture fit interview
 - [Bits of Love](https://www.bitsoflove.be/careers) | Bruges, Belgium | In-person interview to evaluate experience and motivation, potentially followed by take-home project.
@@ -197,6 +197,7 @@ Also check out [No Whiteboards](https://www.nowhiteboard.org) to search for jobs
 - [Civis Analytics](https://www.civisanalytics.com/careers) | Chicago, IL | Take-home project and discussion via Skype, followed by pair programming exercise
 - [CJ Affiliate](https://www.cj.com/careers) | Los Angeles, CA & Westlake Village, CA | Phone coding design exercise (no algorithms), followed by an on-site final interview that includes pair programming on a realistic object-oriented design problem
 - [Clara Lending](https://clara.com/careers) | San Francisco, CA | Phone conversation around technical background and experience, followed by take-home project, pair programming and discussion
+- [Clarisights](https://careers.clarisights.com/) | Bangalore, India / Remote | Culture fit Interview, Basic Tech Round, Design Interview
 - [Clerkie](https://angel.co/clerkie/jobs) | San Francisco, CA | Phone conversation followed by take-home project
 - [ClickMagick](https://www.clickmagick.com) | Austin, TX / Remote | Phone conversations and examples of Free Software/Open Source work
 - [Clippings](https://clippings.com) | Sofia, Bulgaria | Video screening first, then send us code they've recently wrote, then technical interview. We could ask questions about the code they wrote at home.
@@ -218,7 +219,7 @@ Also check out [No Whiteboards](https://www.nowhiteboard.org) to search for jobs
 - [Container Solutions](https://container-solutions.com) | Remote; Berlin, Germany; Amsterdam, Netherlands; London, UK | Unbiased process in a nutshell: chat with one of our recruiters, skills assessment and tech assessment, personality assessment which is followed by an interview with one of our occupational psychologists to discuss results. At the end a panel interview.
 - [Contentful](https://www.contentful.com/careers) | Berlin, Germany & SF, USA | Multiple interviews, discussion of technical background & live coding challenge (you can use the internet).
 - [ContentSquare](https://www.contentsquare.com/careers) | Paris, France | Real-world challenges with open discussions.
-- [Contino](https://www.contino.io/join-us) London, UK; New York ,USA; Sydney, Australia | Intro call, remote pair programming interview (Your IDE, your language, no code challenges), An open discussion on experience and technical backgroud
+- [Contino](https://www.contino.io/join-us) | London, UK; New York, USA; Sydney, Australia | Intro call, remote pair programming interview (Your IDE, your language, no code challenges), An open discussion on experience and technical backgroud
 - [ConvertKit](https://convertkit.com/careers) | Remote | Fully remote job in USA and EMEA timezones with interview process starting with a written application, phone screen, short 2-hour coding and writing assignment, technical interview about assignment and culture contribution interview.
 - [Convious](https://www.convious.com) | Vilnius, Lithuania | Intro interview (video call), followed by a homework assignment, followed by a bit more technical interview discussing homework, technical background, etc. Homework feedback is always provided.
 - [Cookpad](https://cookpad.com/us) | Tokyo, Japan; Bristol, UK | Interviews, discussion of technical background and experiences, remotely pair with devs.
@@ -469,6 +470,7 @@ Also check out [No Whiteboards](https://www.nowhiteboard.org) to search for jobs
 - [Kahoot!](https://www.getkahoot.com/jobs) | London, UK / Oslo, Norway | Phone screening to discuss technical background and past experience. Take-home assignment followed by on-site code review and interview. Cultural fit assessment
 - [Kata.ai](https://kata.ai) | Malang, Indonesia / Jakarta, Indonesia | Take-home assignment, then invited to discuss the assignment and interview.
 - [Kayako](https://www.kayako.com) | London, UK / Gurgaon, India | Take-home assignment, series of experience based interviews, cultural fit assessment
+- [KEF Robotics](https://www.kefrobotics.com) | Pittsburgh PA USA | Presentation on a technical topic of your choice, cultural fit assessment
 - [Kentik](https://www.kentik.com/careers) | San Francisco, CA | Phone screening to discuss technical background and past experience. Take-home assignment followed by on-site code review and interview. Cultural fit assessment
 - [Keymetrics](https://keymetrics.io) | Paris, France | Phone Interview, Take-home project based on our [API](https://github.com/keymetrics/keymetrics-api), IRL meeting with the whole team
 - [Kiến Guru](https://www.kienguru.vn) | Hồ Chí Minh, Vietnam | Phone screening with technical recruiter --> live coding with an engineer --> panel interview with related engineers (Test Engineers, Frontend Engineers, Backend Engineers, etc) --> final interview with VP of Engineering

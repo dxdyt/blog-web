@@ -1,9 +1,9 @@
 ---
 title: pi-hole
-date: 2023-10-19T12:17:35+08:00
+date: 2024-07-10T12:20:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695753273682-b544b1eb64aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695753273682-b544b1eb64aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc2ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
 ---
 
 # [pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)
