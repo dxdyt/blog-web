@@ -1,9 +1,9 @@
 ---
 title: simplebank
-date: 2024-07-10T12:19:42+08:00
+date: 2024-07-11T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712688930249-98e1963af7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712688930249-98e1963af7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720155243642-313849a7027b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720155243642-313849a7027b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
 ---
 
 # [techschool/simplebank](https://github.com/techschool/simplebank)

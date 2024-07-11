@@ -1,9 +1,9 @@
 ---
 title: vllm
-date: 2024-07-10T12:19:52+08:00
+date: 2024-07-11T12:19:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719397887764-c768f8b36c8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720155243642-313849a7027b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720155243642-313849a7027b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
 ---
 
 # [vllm-project/vllm](https://github.com/vllm-project/vllm)
@@ -69,7 +69,7 @@ vLLM is flexible and easy to use with:
 - Tensor parallelism support for distributed inference
 - Streaming outputs
 - OpenAI-compatible API server
-- Support NVIDIA GPUs, AMD GPUs, Intel CPUs and GPUs
+- Support NVIDIA GPUs, AMD CPUs and GPUs, Intel CPUs and GPUs, PowerPC CPUs
 - (Experimental) Prefix caching support
 - (Experimental) Multi-lora support
 

@@ -1,9 +1,9 @@
 ---
 title: optimism
-date: 2024-07-10T12:20:37+08:00
+date: 2024-07-11T12:19:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717154462649-e0c67fa0f556?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717154462649-e0c67fa0f556?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA1ODUxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1680726122447-389365db3d5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1680726122447-389365db3d5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
 ---
 
 # [ethereum-optimism/optimism](https://github.com/ethereum-optimism/optimism)
