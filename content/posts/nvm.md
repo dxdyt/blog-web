@@ -1,9 +1,9 @@
 ---
 title: nvm
-date: 2024-07-11T12:20:28+08:00
+date: 2024-07-12T12:17:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717620380245-8e476305eb97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717620380245-8e476305eb97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719952167449-33940005b007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719952167449-33940005b007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
 ---
 
 # [nvm-sh/nvm](https://github.com/nvm-sh/nvm)

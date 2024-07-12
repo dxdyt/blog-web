@@ -1,9 +1,9 @@
 ---
 title: AutoGPT
-date: 2024-03-15T12:18:22+08:00
+date: 2024-07-12T12:18:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709418354370-082f0359a03d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709418354370-082f0359a03d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718632831132-c3fa7b1d83a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718632831132-c3fa7b1d83a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
 ---
 
 # [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
@@ -14,7 +14,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1709418354370-082f0359a0
 [![Twitter Follow](https://img.shields.io/twitter/follow/Auto_GPT?style=social)](https://twitter.com/Auto_GPT) &ensp;
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**AutoGPT** is the vision of the power of AI accessible to everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters:
+**AutoGPT** is a generalist LLM based AI agent that can autonomously accomplish minor tasks. 
+
+**Examples**:
+
+- Look up and summarize this research paper
+- Write a marketing for food supplements
+- Write a blog post detailing the news in AI
+
+Our mission is to provide the tools, so that you can focus on what matters:
 
 - 🏗️ **Building** - Lay the foundation for something amazing.
 - 🧪 **Testing** - Fine-tune your agent to perfection.
@@ -26,25 +34,18 @@ Be part of the revolution! **AutoGPT** is here to stay, at the forefront of AI i
 &ensp;|&ensp;
 **🚀 [Contributing](CONTRIBUTING.md)**
 &ensp;|&ensp;
-**🛠️ [Build your own Agent - Quickstart](QUICKSTART.md)**
-
-## 🥇 Current Best Agent: evo.ninja
-[Current Best Agent]: #-current-best-agent-evoninja
-
-The AutoGPT Arena Hackathon saw [**evo.ninja**](https://github.com/polywrap/evo.ninja) earn the top spot on our Arena Leaderboard, proving itself as the best open-source generalist agent. Try it now at https://evo.ninja!
-
-📈 To challenge evo.ninja, AutoGPT, and others, submit your benchmark run to the [Leaderboard](#-leaderboard), and maybe your agent will be up here next!
+**🛠️ [Build your own Agent - Quickstart](FORGE-QUICKSTART.md)**
 
 ## 🧱 Building blocks
 
 ### 🏗️ Forge
 
-**Forge your own agent!** &ndash; Forge is a ready-to-go template for your agent application. All the boilerplate code is already handled, letting you channel all your creativity into the things that set *your* agent apart. All tutorials are located [here](https://medium.com/@aiedge/autogpt-forge-e3de53cc58ec). Components from the [`forge.sdk`](/autogpts/forge/forge/sdk) can also be used individually to speed up development and reduce boilerplate in your agent project.
+**Forge your own agent!** &ndash; Forge is a ready-to-go template for your agent application. All the boilerplate code is already handled, letting you channel all your creativity into the things that set *your* agent apart. All tutorials are located [here](https://medium.com/@aiedge/autogpt-forge-e3de53cc58ec). Components from the [`forge.sdk`](/forge/forge/sdk) can also be used individually to speed up development and reduce boilerplate in your agent project.
 
-🚀 [**Getting Started with Forge**](https://github.com/Significant-Gravitas/AutoGPT/blob/master/autogpts/forge/tutorials/001_getting_started.md) &ndash;
+🚀 [**Getting Started with Forge**](https://github.com/Significant-Gravitas/AutoGPT/blob/master/forge/tutorials/001_getting_started.md) &ndash;
 This guide will walk you through the process of creating your own agent and using the benchmark and user interface.
 
-📘 [Learn More](https://github.com/Significant-Gravitas/AutoGPT/tree/master/autogpts/forge) about Forge
+📘 [Learn More](https://github.com/Significant-Gravitas/AutoGPT/tree/master/forge) about Forge
 
 ### 🎯 Benchmark
 
@@ -56,18 +57,11 @@ This guide will walk you through the process of creating your own agent and usin
 &ensp;|&ensp;
 📘 [Learn More](https://github.com/Significant-Gravitas/AutoGPT/blob/master/benchmark) about the Benchmark
 
-#### 🏆 [Leaderboard][leaderboard]
-[leaderboard]: https://leaderboard.agpt.co
-
-Submit your benchmark run through the UI and claim your place on the AutoGPT Arena Leaderboard! The best scoring general agent earns the title of **[Current Best Agent]**, and will be adopted into our repo so people can easily run it through the [CLI].
-
-[![Screenshot of the AutoGPT Arena leaderboard](https://github.com/Significant-Gravitas/AutoGPT/assets/12185583/60813392-9ddb-4cca-bb44-b477dbae225d)][leaderboard]
-
 ### 💻 UI
 
 **Makes agents easy to use!** The `frontend` gives you a user-friendly interface to control and monitor your agents. It connects to agents through the [agent protocol](#-agent-protocol), ensuring compatibility with many agents from both inside and outside of our ecosystem.
 
-<!-- TODO: instert screenshot of front end -->
+<!-- TODO: insert screenshot of front end -->
 
 The frontend works out-of-the-box with all agents in the repo. Just use the [CLI] to run your agent of choice!
 
@@ -88,7 +82,6 @@ Options:
 
 Commands:
   agent      Commands to create, start and stop agents
-  arena      Commands to enter the arena
   benchmark  Commands to start the benchmark and list tests and categories
   setup      Installs dependencies needed for your system.
 ```

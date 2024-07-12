@@ -1,9 +1,9 @@
 ---
 title: Rocket.Chat
-date: 2023-08-31T12:17:35+08:00
+date: 2024-07-12T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1692807504985-88adc57803a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1692807504985-88adc57803a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM0NTUyOTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718976142419-33f3c7333430?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718976142419-33f3c7333430?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
 ---
 
 # [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
@@ -76,6 +76,14 @@ yarn dsv # run only meteor (front and back) with pre-built packages
 ```
 
 After initialized, you can access the server at http://localhost:3000
+
+# Gitpod Setup
+
+1. Click the button below to open this project in Gitpod.
+
+2. This will open a fully configured workspace in your browser with all the necessary dependencies already installed.
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/RocketChat/Rocket.Chat)
 
 **Starting Rocket.Chat in microservices mode:**
 

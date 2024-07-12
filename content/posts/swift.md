@@ -1,12 +1,12 @@
 ---
 title: swift
-date: 2024-06-01T12:18:16+08:00
+date: 2024-07-12T12:17:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716182716887-a285a8466308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716182716887-a285a8466308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718703358688-046752ef11f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718703358688-046752ef11f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
 ---
 
-# [apple/swift](https://github.com/apple/swift)
+# [swiftlang/swift](https://github.com/swiftlang/swift)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://www.swift.org/assets/images/swift~dark.svg">
@@ -72,6 +72,11 @@ To learn more about the programming language, visit [swift.org](https://swift.or
 
 Contributions to Swift are welcomed and encouraged! Please see the
 [Contributing to Swift guide](https://swift.org/contributing/).
+
+Before submitting the pull request, please make sure you have [tested your
+ changes](https://github.com/apple/swift/blob/main/docs/ContinuousIntegration.md)
+ and that they follow the Swift project [guidelines for contributing
+ code](https://swift.org/contributing/#contributing-code).
 
 To be a truly great community, [Swift.org](https://swift.org/) needs to welcome
 developers from all walks of life, with different backgrounds, and with a wide
