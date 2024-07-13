@@ -1,9 +1,9 @@
 ---
 title: tiptap
-date: 2024-07-12T12:17:59+08:00
+date: 2024-07-13T12:16:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718825425588-44299bbb52dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718825425588-44299bbb52dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718365837196-1e2f5fb9ad0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718365837196-1e2f5fb9ad0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
 ---
 
 # [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap)

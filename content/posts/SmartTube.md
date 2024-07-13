@@ -1,9 +1,9 @@
 ---
 title: SmartTube
-date: 2024-07-12T12:16:52+08:00
+date: 2024-07-13T12:17:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719843076878-437479063d53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719843076878-437479063d53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720462813863-cf94aef89b38?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720462813863-cf94aef89b38?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
 ---
 
 # [yuliskov/SmartTube](https://github.com/yuliskov/SmartTube)

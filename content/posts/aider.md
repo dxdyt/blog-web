@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2024-06-12T12:18:35+08:00
+date: 2024-07-13T12:18:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716632943255-355b59566d11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716632943255-355b59566d11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgxNjU4MTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717501219599-653a991b25f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717501219599-653a991b25f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
@@ -16,8 +16,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1716632943255-355b59566d
 Aider lets you pair program with LLMs,
 to edit code in your local git repository.
 Start a new project or work with an existing git repo.
-Aider works best with GPT-4o and Claude 3 Opus
-and can [connect to almost any LLM](https://aider.chat/docs/llms.html).
+Aider works best with GPT-4o & Claude 3.5 Sonnet and can 
+[connect to almost any LLM](https://aider.chat/docs/llms.html).
 
 <p align="center">
   <img
@@ -37,10 +37,11 @@ and can [connect to almost any LLM](https://aider.chat/docs/llms.html).
 
 ## Getting started
 <!--[[[cog
-# We can't do this here: {% include get-started.md %}
+# We can't "include" here.
 # Because this page is rendered by GitHub as the repo README
-cog.out(open("website/_includes/get-started.md").read())
+cog.out(open("aider/website/_includes/get-started.md").read())
 ]]]-->
+
 You can get started quickly like this:
 
 ```
@@ -49,13 +50,13 @@ $ pip install aider-chat
 # Change directory into a git repo
 $ cd /to/your/git/repo
 
+# Work with Claude 3.5 Sonnet on your repo
+$ export ANTHROPIC_API_KEY=your-key-goes-here
+$ aider
+
 # Work with GPT-4o on your repo
 $ export OPENAI_API_KEY=your-key-goes-here
 $ aider 
-
-# Or, work with Claude 3 Opus on your repo
-$ export ANTHROPIC_API_KEY=your-key-goes-here
-$ aider --opus
 ```
 <!--[[[end]]]-->
 
@@ -77,38 +78,30 @@ for more details.
 - Aider will edit your files to complete your request.
 - Aider [automatically git commits](https://aider.chat/docs/git.html) changes with a sensible commit message.
 - Aider works with [most popular languages](https://aider.chat/docs/languages.html): python, javascript, typescript, php, html, css, and more...
-- Aider works best with GPT-4o and Claude 3 Opus
-and can [connect to almost any LLM](https://aider.chat/docs/llms.html).
+- Aider works best with GPT-4o & Claude 3.5 Sonnet and can [connect to almost any LLM](https://aider.chat/docs/llms.html).
 - Aider can edit multiple files at once for complex requests.
 - Aider uses a [map of your entire git repo](https://aider.chat/docs/repomap.html), which helps it work well in larger codebases.
 - Edit files in your editor while chatting with aider,
 and it will always use the latest version.
 Pair program with AI.
-- Add images to the chat (GPT-4o, GPT-4 Turbo, etc).
-- Add URLs to the chat and aider will read their content.
-- [Code with your voice](https://aider.chat/docs/voice.html).
+- [Add images to the chat](https://aider.chat/docs/usage/images-urls.html) (GPT-4o, Claude 3.5 Sonnet, etc).
+- [Add URLs to the chat](https://aider.chat/docs/usage/images-urls.html) and aider will read their content.
+- [Code with your voice](https://aider.chat/docs/usage/voice.html).
 
 
-## State of the art
+## Top tier performance
 
-Aider has the
-[top score on SWE Bench](https://aider.chat/2024/06/02/main-swe-bench.html).
+[Aider has the one of the top scores on SWE Bench](https://aider.chat/2024/06/02/main-swe-bench.html).
 SWE Bench is a challenging software engineering benchmark where aider
 solved *real* GitHub issues from popular open source
 projects like django, scikitlearn, matplotlib, etc.
-
-<p align="center">
-   <a href="https://aider.chat/2024/06/02/main-swe-bench.html">
-     <img src="https://aider.chat/assets/swe_bench.svg" alt="aider swe bench">
-   </a>
-</p>
 
 ## More info
 
 - [Documentation](https://aider.chat/)
 - [Installation](https://aider.chat/docs/install.html)
 - [Usage](https://aider.chat/docs/usage.html)
-- [Tutorial videos](https://aider.chat/docs/tutorials.html)
+- [Tutorial videos](https://aider.chat/docs/usage/tutorials.html)
 - [Connecting to LLMs](https://aider.chat/docs/llms.html)
 - [Configuration](https://aider.chat/docs/config.html)
 - [Troubleshooting](https://aider.chat/docs/troubleshooting.html)
@@ -137,4 +130,5 @@ projects like django, scikitlearn, matplotlib, etc.
 - *I am an aider addict. I'm getting so much more work done, but in less time.* -- [dandandan](https://discord.com/channels/1131200896827654144/1131200896827654149/1135913253483069470)
 - *After wasting $100 on tokens trying to find something better, I'm back to Aider. It blows everything else out of the water hands down, there's no competition whatsoever.* -- [SystemSculpt](https://discord.com/channels/1131200896827654144/1131200896827654149/1178736602797846548)
 - *Hands down, this is the best AI coding assistant tool so far.* -- [IndyDevDan](https://www.youtube.com/watch?v=MPYFPvxfGZs)
+- *[Aider] changed my daily coding workflows. It's mind-blowing how a single Python application can change your life.* -- [maledorak](https://discord.com/channels/1131200896827654144/1131200896827654149/1258453375620747264)
 - *Best agent for actual dev work in existing codebases.* -- [Nick Dobos](https://twitter.com/NickADobos/status/1690408967963652097?s=20)

@@ -1,9 +1,9 @@
 ---
 title: PaddleOCR
-date: 2023-11-02T12:15:55+08:00
+date: 2024-07-13T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698319361163-69baf7fad322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698319361163-69baf7fad322?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTg4OTg1MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719432932892-13f5581b448e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719432932892-13f5581b448e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
 ---
 
 # [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
@@ -13,19 +13,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1698319361163-69baf7fad3
 <p align="center">
  <img src="./doc/PaddleOCR_log.png" align="middle" width = "600"/>
 <p align="center">
-<p align="left">
+<p align="center">
+    <a href="https://discord.gg/z9xaRVjdbD"><img src="https://img.shields.io/badge/Chat-on%20discord-7289da.svg?sanitize=true" alt="Chat"></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202-dfd.svg"></a>
     <a href="https://github.com/PaddlePaddle/PaddleOCR/releases"><img src="https://img.shields.io/github/v/release/PaddlePaddle/PaddleOCR?color=ffa"></a>
     <a href=""><img src="https://img.shields.io/badge/python-3.7+-aff.svg"></a>
     <a href=""><img src="https://img.shields.io/badge/os-linux%2C%20win%2C%20mac-pink.svg"></a>
-    <a href=""><img src="https://img.shields.io/pypi/format/PaddleOCR?color=c77"></a>
     <a href="https://pypi.org/project/PaddleOCR/"><img src="https://img.shields.io/pypi/dm/PaddleOCR?color=9cf"></a>
     <a href="https://github.com/PaddlePaddle/PaddleOCR/stargazers"><img src="https://img.shields.io/github/stars/PaddlePaddle/PaddleOCR?color=ccf"></a>
 </p>
 
 ## 简介
-
-PaddleOCR旨在打造一套丰富、领先、且实用的OCR工具库，助力开发者训练出更好的模型，并应用落地。
+PaddleOCR 旨在打造一套丰富、领先、且实用的 OCR 工具库，助力开发者训练出更好的模型，并应用落地。
 
 <div align="center">
     <img src="./doc/imgs_results/ch_ppocr_mobile_v2.0/test_add_91.jpg" width="800">
@@ -35,28 +34,51 @@ PaddleOCR旨在打造一套丰富、领先、且实用的OCR工具库，助力�
     <img src="./doc/imgs_results/ch_ppocr_mobile_v2.0/00006737.jpg" width="800">
 </div>
 
+## 🚀 社区
+PaddleOCR 由 [PMC](https://github.com/PaddlePaddle/PaddleOCR/issues/12122) 监督。Issues 和 PRs 将在尽力的基础上进行审查。欲了解 PaddlePaddle 社区的完整概况，请访问 [community](https://github.com/PaddlePaddle/community)。
+
+⚠️注意：[Issues](https://github.com/PaddlePaddle/PaddleOCR/issues)模块仅用来报告程序🐞Bug，其余提问请移步[Discussions](https://github.com/PaddlePaddle/PaddleOCR/discussions)模块提问。如所提Issue不是Bug，会被移到Discussions模块，敬请谅解。
+
 ## 📣 近期更新
+
+- **🔥2024.7 添加 PaddleOCR 算法模型挑战赛冠军方案**：
+    - 赛题一：OCR 端到端识别任务冠军方案——[场景文本识别算法-SVTRv2](doc/doc_ch/algorithm_rec_svtrv2.md)；
+    - 赛题二：通用表格识别任务冠军方案——[表格识别算法-SLANet-LCNetV2](doc/doc_ch/algorithm_table_slanet.md)。
+
+- **💥2024.6.27 飞桨低代码开发工具 [PaddleX 3.0](https://github.com/paddlepaddle/paddlex) 重磅更新！**
+  - 低代码开发范式：支持 OCR 模型全流程低代码开发，提供 Python API，支持用户自定义串联模型；
+  - 多硬件训推支持：支持英伟达 GPU、昆仑芯、昇腾和寒武纪等多种硬件进行模型训练与推理。PaddleOCR支持的模型见 [模型列表](doc/doc_ch/hardware/supported_models.md)
+
+- **📚直播和OCR实战打卡营预告**：《PP-ChatOCRv2赋能金融报告信息智能化抽取，新金融效率再升级》课程上线，破解复杂版面、表格识别、信息抽取OCR解析难题，直播时间：6月6日（周四）19：00。并于6月11日启动【政务采购合同信息抽取】实战打卡营。报名链接：https://www.wjx.top/vm/eBcYmqO.aspx?udsid=197406
+
+- **🔥2024.5.10 上线星河零代码产线(OCR 相关)**：全面覆盖了以下四大 OCR 核心任务，提供极便捷的 Badcase 分析和实用的在线体验：
+  - [通用 OCR](https://aistudio.baidu.com/community/app/91660) (PP-OCRv4)。
+  - [通用表格识别](https://aistudio.baidu.com/community/app/91661) (SLANet)。
+  - [通用图像信息抽取](https://aistudio.baidu.com/community/app/91662) (PP-ChatOCRv2-common)。
+  - [文档场景信息抽取](https://aistudio.baidu.com/community/app/70303) (PP-ChatOCRv2-doc)。
+
+  同时采用了 **[全新的场景任务开发范式](https://aistudio.baidu.com/pipeline/mine)** ,将模型统一汇聚，实现训练部署的零代码开发，并支持在线服务化部署和导出离线服务化部署包。
+
 - **🔥2023.8.7 发布 PaddleOCR [release/2.7](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.7)**
-    - 发布[PP-OCRv4](./doc/doc_ch/PP-OCRv4_introduction.md)，提供mobile和server两种模型
-      - PP-OCRv4-mobile：速度可比情况下，中文场景效果相比于PP-OCRv3再提升4.5%，英文场景提升10%，80语种多语言模型平均识别准确率提升8%以上
-      - PP-OCRv4-server：发布了目前精度最高的OCR模型，中英文场景上检测模型精度提升4.9%， 识别模型精度提升2%
-        可参考[快速开始](./doc/doc_ch/quickstart.md) 一行命令快速使用，同时也可在飞桨AI套件(PaddleX)中的[通用OCR产业方案](https://aistudio.baidu.com/aistudio/modelsdetail?modelId=286)中低代码完成模型训练、推理、高性能部署全流程
-    - 发布[PP-ChatOCR](https://aistudio.baidu.com/aistudio/modelsdetail?modelId=332) ,使用融合PP-OCR模型和文心大模型的通用场景关键信息抽取全新方案
-- 🔨**2022.11 新增实现[4种前沿算法](doc/doc_ch/algorithm_overview.md)**：文本检测 [DRRG](doc/doc_ch/algorithm_det_drrg.md),  文本识别 [RFL](doc/doc_ch/algorithm_rec_rfl.md), 文本超分[Text Telescope](doc/doc_ch/algorithm_sr_telescope.md)，公式识别[CAN](doc/doc_ch/algorithm_rec_can.md)
-- **2022.10 优化[JS版PP-OCRv3模型](./deploy/paddlejs/README_ch.md)**：模型大小仅4.3M，预测速度提升8倍，配套web demo开箱即用
-- **💥 直播回放：PaddleOCR研发团队详解PP-StructureV2优化策略**。微信扫描[下方二维码](#开源社区)，关注公众号并填写问卷后进入官方交流群，获取直播回放链接与20G重磅OCR学习大礼包（内含PDF转Word应用程序、10种垂类模型、《动手学OCR》电子书等）
+    - 发布[PP-OCRv4](./doc/doc_ch/PP-OCRv4_introduction.md)，提供 mobile 和 server 两种模型
+      - PP-OCRv4-mobile：速度可比情况下，中文场景效果相比于 PP-OCRv3 再提升 4.5%，英文场景提升 10%，80 语种多语言模型平均识别准确率提升 8%以上
+      - PP-OCRv4-server：发布了目前精度最高的 OCR 模型，中英文场景上检测模型精度提升 4.9%， 识别模型精度提升 2%
+      可参考[快速开始](./doc/doc_ch/quickstart.md) 一行命令快速使用，同时也可在飞桨 AI 套件(PaddleX)中的[通用 OCR 产业方案](https://aistudio.baidu.com/aistudio/modelsdetail?modelId=286)中低代码完成模型训练、推理、高性能部署全流程
+- 🔨**2022.11 新增实现[4 种前沿算法](doc/doc_ch/algorithm_overview.md)**：文本检测 [DRRG](doc/doc_ch/algorithm_det_drrg.md),  文本识别 [RFL](doc/doc_ch/algorithm_rec_rfl.md), 文本超分[Text Telescope](doc/doc_ch/algorithm_sr_telescope.md)，公式识别[CAN](doc/doc_ch/algorithm_rec_can.md)
+- **2022.10 优化[JS 版 PP-OCRv3 模型](./deploy/paddlejs/README_ch.md)**：模型大小仅 4.3M，预测速度提升 8 倍，配套 web demo 开箱即用
+- **💥 直播回放：PaddleOCR 研发团队详解 PP-StructureV2 优化策略**。微信扫描[下方二维码](#开源社区)，关注公众号并填写问卷后进入官方交流群，获取直播回放链接与 20G 重磅 OCR 学习大礼包（内含 PDF 转 Word 应用程序、10 种垂类模型、《动手学 OCR》电子书等）
 - **🔥2022.8.24 发布 PaddleOCR [release/2.6](https://github.com/PaddlePaddle/PaddleOCR/tree/release/2.6)**
-  - 发布[PP-StructureV2](./ppstructure/README_ch.md)，系统功能性能全面升级，适配中文场景，新增支持[版面复原](./ppstructure/recovery/README_ch.md)，支持**一行命令完成PDF转Word**；
-  - [版面分析](./ppstructure/layout/README_ch.md)模型优化：模型存储减少95%，速度提升11倍，平均CPU耗时仅需41ms；
-  - [表格识别](./ppstructure/table/README_ch.md)模型优化：设计3大优化策略，预测耗时不变情况下，模型精度提升6%；
-  - [关键信息抽取](./ppstructure/kie/README_ch.md)模型优化：设计视觉无关模型结构，语义实体识别精度提升2.8%，关系抽取精度提升9.1%。
-- 🔥**2022.8 发布 [OCR场景应用集合](./applications)**：包含数码管、液晶屏、车牌、高精度SVTR模型、手写体识别等**9个垂类模型**，覆盖通用，制造、金融、交通行业的主要OCR垂类应用。
+  - 发布[PP-StructureV2](./ppstructure/README_ch.md)，系统功能性能全面升级，适配中文场景，新增支持[版面复原](./ppstructure/recovery/README_ch.md)，支持**一行命令完成 PDF 转 Word**；
+  - [版面分析](./ppstructure/layout/README_ch.md)模型优化：模型存储减少 95%，速度提升 11 倍，平均 CPU 耗时仅需 41ms；
+  - [表格识别](./ppstructure/table/README_ch.md)模型优化：设计 3 大优化策略，预测耗时不变情况下，模型精度提升 6%；
+  - [关键信息抽取](./ppstructure/kie/README_ch.md)模型优化：设计视觉无关模型结构，语义实体识别精度提升 2.8%，关系抽取精度提升 9.1%。
+- 🔥**2022.8 发布 [OCR 场景应用集合](./applications)**：包含数码管、液晶屏、车牌、高精度 SVTR 模型、手写体识别等**9 个垂类模型**，覆盖通用，制造、金融、交通行业的主要 OCR 垂类应用。
 
 > [更多](./doc/doc_ch/update.md)
 
 ## 🌟 特性
 
-支持多种OCR相关前沿算法，在此基础上打造产业级特色模型[PP-OCR](./doc/doc_ch/ppocr_introduction.md)、[PP-Structure](./ppstructure/README_ch.md)和[PP-ChatOCR](https://aistudio.baidu.com/aistudio/projectdetail/6488689)，并打通数据生产、模型训练、压缩、预测部署全流程。
+支持多种 OCR 相关前沿算法，在此基础上打造产业级特色模型[PP-OCR](./doc/doc_ch/ppocr_introduction.md)、[PP-Structure](./ppstructure/README_ch.md)和[PP-ChatOCRv2](https://aistudio.baidu.com/community/app/70303)，并打通数据生产、模型训练、压缩、预测部署全流程。
 
 <div align="center">
     <img src="https://raw.githubusercontent.com/tink2123/test/master/ppocrv4.png">
@@ -67,61 +89,33 @@ PaddleOCR旨在打造一套丰富、领先、且实用的OCR工具库，助力�
 
 ## ⚡ 快速开始
 
-- 在线网站体验：
-    - PP-OCRv4 在线体验地址：https://aistudio.baidu.com/application/detail/7658
-    - PP-ChatOCR 在线体验地址：https://aistudio.baidu.com/application/detail/7709
+- 在线免费体验：
+    - PP-OCRv4 在线体验地址：https://aistudio.baidu.com/community/app/91660
+    - SLANet 在线体验地址：https://aistudio.baidu.com/community/app/91661
+    - PP-ChatOCRv2-common 在线体验地址：https://aistudio.baidu.com/community/app/91662
+    - PP-ChatOCRv2-doc 在线体验地址：https://aistudio.baidu.com/community/app/70303
+
 - 一行命令快速使用：[快速开始（中英文/多语言/文档分析）](./doc/doc_ch/quickstart.md)
-- 飞桨AI套件（PaddleX）中训练、推理、高性能部署全流程体验：
-    - PP-OCRv4：https://aistudio.baidu.com/projectdetail/paddlex/6796224
-    - PP-ChatOCR：https://aistudio.baidu.com/projectdetail/paddlex/6796372
-- 移动端demo体验：[安装包DEMO下载地址](https://ai.baidu.com/easyedge/app/openSource?from=paddlelite)(基于EasyEdge和Paddle-Lite, 支持iOS和Android系统)
+- 移动端 demo 体验：[安装包 DEMO 下载地址](https://ai.baidu.com/easyedge/app/openSource?from=paddlelite)(基于 EasyEdge 和 Paddle-Lite, 支持 iOS 和 Android 系统)
 
-<a name="技术交流合作"></a>
 ## 📖 技术交流合作
-- 飞桨AI套件（PaddleX）—— 精选产业实用模型的一站式开发平台。包含如下特点：
-* 【优质的算法库】包含10大任务领域的36个精选模型，实现在一个平台中完成不同任务模型算法的开发。更多领域模型持续丰富中！PaddleX还提供完善的模型训练推理benchmark数据，服务开发者基于业务需求选择最合适的模型。
-* 【简易的开发方式】工具箱/开发者双模式联动，无代码+低代码开发方式，四步完成数据、训练、验证、部署的全流程AI开发。
-* 【高效的训练部署】沉淀百度算法团队的最佳调优策略，实现每个模型都能最快最优地收敛。完善的部署SDK支持，实现跨平台、跨硬件的快速产业级部署（服务化部署能力完善中）。
-* 【丰富的国产硬件支持】PaddleX除了在AI Studio云端使用，还沉淀了windows本地端，正在丰富Linux版本、昆仑芯版本、昇腾版本、寒武纪版本。
-* 【共赢的联创共建】除了便捷地开发AI应用外，PaddleX还为大家提供了获取商业收益的机会，为企业探索更多商业空间。
 
-作为一款高效的开发神器，PaddleX值得每一位开发者拥有。
+- 飞桨低代码开发工具 PaddleX 官方交流频道：https://aistudio.baidu.com/community/channel/610
 
-PaddleX官网地址：https://www.paddlepaddle.org.cn/paddle/paddleX
+## 📚《动手学 OCR》电子书
+- [《动手学 OCR》电子书](./doc/doc_ch/ocr_book.md)
 
-微信扫描下面二维码添加运营同学，并回复【paddlex】，运营同学会邀请您加入官方交流群，获得更高效的问题答疑。
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/PaddlePaddle/PaddleOCR/dygraph/doc/joinus_paddlex.jpg"  width = "150" height = "150",caption='' />
-<p>飞桨AI套件【PaddleX】技术交流群二维码</p>
-</div>
-
-<a name="电子书"></a>
-## 📚《动手学OCR》电子书
-- [《动手学OCR》电子书](./doc/doc_ch/ocr_book.md)
-
-<a name="开源共建"></a>
-## 🚀 开源共建
-- **👫 加入社区**：感谢大家长久以来对 PaddleOCR 的支持和关注，与广大开发者共同构建一个专业、和谐、相互帮助的开源社区是 PaddleOCR 的目标。我们非常欢迎各位开发者参与到飞桨社区的开源建设中，加入开源、共建飞桨。**为感谢社区开发者在 PaddleOCR release2.7 中做出的代码贡献，我们将为贡献者制作与邮寄[开源贡献证书](https://github.com/PaddlePaddle/community/blob/master/contributors/certificate-inspection.md)，烦请[填写问卷](https://paddle.wjx.cn/vm/wFNr6w7.aspx)提供必要的邮寄信息。**
-- **🤩 社区活动**：飞桨开源社区长期运营与发布各类丰富的活动与开发任务，在 PaddleOCR 社区，你可以关注以下社区活动，并选择自己感兴趣的内容参与开源共建：
-  - **🎁 飞桨套件快乐开源常规赛 | [传送门](https://github.com/PaddlePaddle/PaddleOCR/issues/10223)**：OCR 社区常规赛升级版，以建设更好用的 OCR 套件为目标，包括但不限于学术前沿模型训练与推理、打磨优化 OCR 工具与应用项目开发等，任何有利于社区意见流动和问题解决的行为都热切希望大家的参与。让我们共同成长为飞桨套件的重要 Contributor 🎉🎉🎉。
-  - **💡 新需求征集 | [传送门](https://github.com/PaddlePaddle/PaddleOCR/issues/10334)**：你在日常研究和实践深度学习过程中，有哪些你期望的 feature 亟待实现？请按照格式描述你想实现的 feature 和你提出的初步实现思路，我们会定期沟通与讨论这些需求，并将其纳入未来的版本规划中。
-  - **💬 PP-SIG 技术研讨会 | [传送门](https://github.com/PaddlePaddle/community/tree/master/ppsigs)**：PP-SIG 是飞桨社区开发者由于相同的兴趣汇聚在一起形成的虚拟组织，通过定期召开技术研讨会的方式，分享行业前沿动态、探讨社区需求与技术开发细节、发起社区联合贡献任务。PaddleOCR 希望可以通过 AI 的力量助力任何一位有梦想的开发者实现自己的想法，享受创造价值带来的愉悦。
-- **📑 项目合作**：如果你有企业中明确的 OCR 垂类应用需求，我们推荐你使用训压推一站式全流程高效率开发平台 PaddleX，助力 AI 技术快速落地。PaddleX 还支持联创开发，利润分成！欢迎广大的个人开发者和企业开发者参与进来，共创繁荣的 AI 技术生态！
-
-
-<a name="模型下载"></a>
-## 🛠️ PP-OCR系列模型列表（更新中）
+## 🛠️ PP-OCR 系列模型列表（更新中）
 
 | 模型简介                              | 模型名称                | 推荐场景        | 检测模型                                                     | 方向分类器                                                   | 识别模型                                                     |
 | ------------------------------------- | ----------------------- | --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 中英文超轻量PP-OCRv4模型（15.8M）     | ch_PP-OCRv4_xx          | 移动端&服务器端 | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_det_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_rec_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_rec_train.tar) |
-| 中英文超轻量PP-OCRv3模型（16.2M）     | ch_PP-OCRv3_xx          | 移动端&服务器端 | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_det_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_det_distill_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_rec_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_rec_train.tar) |
-| 英文超轻量PP-OCRv3模型（13.4M）     | en_PP-OCRv3_xx          | 移动端&服务器端 | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_det_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_det_distill_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_rec_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_rec_train.tar) |
+| 中英文超轻量 PP-OCRv4 模型（15.8M）     | ch_PP-OCRv4_xx          | 移动端&服务器端 | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_det_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_det_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_rec_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv4/chinese/ch_PP-OCRv4_rec_train.tar) |
+| 中英文超轻量 PP-OCRv3 模型（16.2M）     | ch_PP-OCRv3_xx          | 移动端&服务器端 | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_det_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_det_distill_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_rec_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/chinese/ch_PP-OCRv3_rec_train.tar) |
+| 英文超轻量 PP-OCRv3 模型（13.4M）     | en_PP-OCRv3_xx          | 移动端&服务器端 | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_det_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_det_distill_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/dygraph_v2.0/ch/ch_ppocr_mobile_v2.0_cls_train.tar) | [推理模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_rec_infer.tar) / [训练模型](https://paddleocr.bj.bcebos.com/PP-OCRv3/english/en_PP-OCRv3_rec_train.tar) |
 
-- 超轻量OCR系列更多模型下载（包括多语言），可以参考[PP-OCR系列模型下载](./doc/doc_ch/models_list.md)，文档分析相关模型参考[PP-Structure系列模型下载](./ppstructure/docs/models_list.md)
+- 超轻量 OCR 系列更多模型下载（包括多语言），可以参考[PP-OCR 系列模型下载](./doc/doc_ch/models_list.md)，文档分析相关模型参考[PP-Structure 系列模型下载](./ppstructure/docs/models_list.md)
 
-### PaddleOCR场景应用模型
+### PaddleOCR 场景应用模型
 
 | 行业 | 类别         | 亮点                               | 文档说明                                                     | 模型下载                                      |
 | ---- | ------------ | ---------------------------------- | ------------------------------------------------------------ | --------------------------------------------- |
@@ -129,14 +123,12 @@ PaddleX官网地址：https://www.paddlepaddle.org.cn/paddle/paddleX
 | 金融 | 通用表单识别 | 多模态通用表单结构化提取           | [多模态表单识别](./applications/多模态表单识别.md)           | [下载链接](./applications/README.md#模型下载) |
 | 交通 | 车牌识别     | 多角度图像处理、轻量模型、端侧部署 | [轻量级车牌识别](./applications/轻量级车牌识别.md)           | [下载链接](./applications/README.md#模型下载) |
 
-- 更多制造、金融、交通行业的主要OCR垂类应用模型（如电表、液晶屏、高精度SVTR模型等），可参考[场景应用模型下载](./applications)
-
-<a name="文档教程"></a>
+- 更多制造、金融、交通行业的主要 OCR 垂类应用模型（如电表、液晶屏、高精度 SVTR 模型等），可参考[场景应用模型下载](./applications)
 
 ## 📖 文档教程
 
 - [运行环境准备](./doc/doc_ch/environment.md)
-- [PP-OCR文本检测识别🔥](./doc/doc_ch/ppocr_introduction.md)
+- [PP-OCR 文本检测识别🔥](./doc/doc_ch/ppocr_introduction.md)
     - [快速开始](./doc/doc_ch/quickstart.md)
     - [模型库](./doc/doc_ch/models_list.md)
     - [模型训练](./doc/doc_ch/training.md)
@@ -148,14 +140,14 @@ PaddleX官网地址：https://www.paddlepaddle.org.cn/paddle/paddleX
         - [模型裁剪](./deploy/slim/prune/README.md)
         - [知识蒸馏](./doc/doc_ch/knowledge_distillation.md)
     - [推理部署](./deploy/README_ch.md)
-        - [基于Python预测引擎推理](./doc/doc_ch/inference_ppocr.md)
-        - [基于C++预测引擎推理](./deploy/cpp_infer/readme_ch.md)
+        - [基于 Python 预测引擎推理](./doc/doc_ch/inference_ppocr.md)
+        - [基于 C++预测引擎推理](./deploy/cpp_infer/readme_ch.md)
         - [服务化部署](./deploy/pdserving/README_CN.md)
         - [端侧部署](./deploy/lite/readme.md)
-        - [Paddle2ONNX模型转化与预测](./deploy/paddle2onnx/readme.md)
+        - [Paddle2ONNX 模型转化与预测](./deploy/paddle2onnx/readme_ch.md)
         - [云上飞桨部署工具](./deploy/paddlecloud/README.md)
         - [Benchmark](./doc/doc_ch/benchmark.md)
-- [PP-Structure文档分析🔥](./ppstructure/README_ch.md)
+- [PP-Structure 文档分析🔥](./ppstructure/README_ch.md)
     - [快速开始](./ppstructure/docs/quickstart.md)
     - [模型库](./ppstructure/docs/models_list.md)
     - [模型训练](./doc/doc_ch/training.md)
@@ -163,36 +155,36 @@ PaddleX官网地址：https://www.paddlepaddle.org.cn/paddle/paddleX
         - [表格识别](./ppstructure/table/README_ch.md)
         - [关键信息提取](./ppstructure/kie/README_ch.md)
     - [推理部署](./deploy/README_ch.md)
-        - [基于Python预测引擎推理](./ppstructure/docs/inference.md)
-        - [基于C++预测引擎推理](./deploy/cpp_infer/readme_ch.md)
+        - [基于 Python 预测引擎推理](./ppstructure/docs/inference.md)
+        - [基于 C++预测引擎推理](./deploy/cpp_infer/readme_ch.md)
         - [服务化部署](./deploy/hubserving/readme.md)
 - [前沿算法与模型🚀](./doc/doc_ch/algorithm_overview.md)
     - [文本检测算法](./doc/doc_ch/algorithm_overview.md)
     - [文本识别算法](./doc/doc_ch/algorithm_overview.md)
-    - [端到端OCR算法](./doc/doc_ch/algorithm_overview.md)
+    - [端到端 OCR 算法](./doc/doc_ch/algorithm_overview.md)
     - [表格识别算法](./doc/doc_ch/algorithm_overview.md)
     - [关键信息抽取算法](./doc/doc_ch/algorithm_overview.md)
-    - [使用PaddleOCR架构添加新算法](./doc/doc_ch/add_new_algorithm.md)
+    - [使用 PaddleOCR 架构添加新算法](./doc/doc_ch/add_new_algorithm.md)
 - [场景应用](./applications)
 - 数据标注与合成
-    - [半自动标注工具PPOCRLabel](./PPOCRLabel/README_ch.md)
-    - [数据合成工具Style-Text](./StyleText/README_ch.md)
+    - [半自动标注工具 PPOCRLabel](https://github.com/PFCCLab/PPOCRLabel/blob/main/README_ch.md)
+    - [数据合成工具 Style-Text](https://github.com/PFCCLab/StyleText/blob/main/README_ch.md)
     - [其它数据标注工具](./doc/doc_ch/data_annotation.md)
     - [其它数据合成工具](./doc/doc_ch/data_synthesis.md)
 - 数据集
-    - [通用中英文OCR数据集](doc/doc_ch/dataset/datasets.md)
-    - [手写中文OCR数据集](doc/doc_ch/dataset/handwritten_datasets.md)
-    - [垂类多语言OCR数据集](doc/doc_ch/dataset/vertical_and_multilingual_datasets.md)
+    - [通用中英文 OCR 数据集](doc/doc_ch/dataset/datasets.md)
+    - [手写中文 OCR 数据集](doc/doc_ch/dataset/handwritten_datasets.md)
+    - [垂类多语言 OCR 数据集](doc/doc_ch/dataset/vertical_and_multilingual_datasets.md)
     - [版面分析数据集](doc/doc_ch/dataset/layout_datasets.md)
     - [表格识别数据集](doc/doc_ch/dataset/table_datasets.md)
     - [关键信息提取数据集](doc/doc_ch/dataset/kie_datasets.md)
 - [代码组织结构](./doc/doc_ch/tree.md)
 - [效果展示](#效果展示)
-- [《动手学OCR》电子书📚](./doc/doc_ch/ocr_book.md)
+- [《动手学 OCR》电子书📚](./doc/doc_ch/ocr_book.md)
 - [开源社区](#开源社区)
 - FAQ
     - [通用问题](./doc/doc_ch/FAQ.md)
-    - [PaddleOCR实战问题](./doc/doc_ch/FAQ.md)
+    - [PaddleOCR 实战问题](./doc/doc_ch/FAQ.md)
 - [参考文献](./doc/doc_ch/reference.md)
 - [许可证书](#许可证书)
 
@@ -237,12 +229,12 @@ PaddleX官网地址：https://www.paddlepaddle.org.cn/paddle/paddleX
 <details open>
 <summary>PP-Structure 文档分析</summary>
 
-- 版面分析+表格识别  
+- 版面分析+表格识别
 <div align="center">
     <img src="./ppstructure/docs/table/ppstructure.GIF" width="800">
 </div>
 
-- SER（语义实体识别）  
+- SER（语义实体识别）
 <div align="center">
     <img src="https://user-images.githubusercontent.com/14270174/185310636-6ce02f7c-790d-479f-b163-ea97a5a04808.jpg" width="600">
 </div>
