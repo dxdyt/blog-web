@@ -1,9 +1,9 @@
 ---
 title: bunkerweb
-date: 2024-07-13T12:17:54+08:00
+date: 2024-07-14T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718365837196-1e2f5fb9ad0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718365837196-1e2f5fb9ad0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719066373323-c3712474b2a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719066373323-c3712474b2a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
 ---
 
 # [bunkerity/bunkerweb](https://github.com/bunkerity/bunkerweb)
