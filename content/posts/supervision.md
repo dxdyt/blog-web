@@ -1,9 +1,9 @@
 ---
 title: supervision
-date: 2024-06-16T12:16:44+08:00
+date: 2024-07-15T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717062587597-5fe4f718e7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717062587597-5fe4f718e7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711118882380-085ab7f04f92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711118882380-085ab7f04f92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
@@ -38,7 +38,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1717062587597-5fe4f718e7
 
 **We write your reusable computer vision tools.** Whether you need to load your dataset from your hard drive, draw detections on an image or video, or count how many detections are in a zone. You can count on us! 🤝
 
-[![supervision-hackfest](https://github.com/roboflow/supervision/assets/26109316/c05cc954-b9a6-4ed5-9a52-d0b4b619ff65)](https://github.com/orgs/roboflow/projects/10)
+[![supervision-hackfest](https://github.com/roboflow/supervision/assets/26109316/c05cc954-b9a6-4ed5-9a52-d0b4b619ff65)](https://github.com/orgs/roboflow/projects)
 
 ## 💻 install
 
@@ -96,7 +96,7 @@ len(detections)
 
 ### annotators
 
-Supervision offers a wide range of highly customizable [annotators](https://supervision.roboflow.com/latest/annotators/), allowing you to compose the perfect visualization for your use case.
+Supervision offers a wide range of highly customizable [annotators](https://supervision.roboflow.com/latest/detection/annotators/), allowing you to compose the perfect visualization for your use case.
 
 ```python
 import cv2
@@ -105,8 +105,8 @@ import supervision as sv
 image = cv2.imread(...)
 detections = sv.Detections(...)
 
-bounding_box_annotator = sv.BoundingBoxAnnotator()
-annotated_frame = bounding_box_annotator.annotate(
+box_annotator = sv.BoxAnnotator()
+annotated_frame = box_annotator.annotate(
     scene=image.copy(),
     detections=detections
 )
@@ -116,7 +116,7 @@ https://github.com/roboflow/supervision/assets/26109316/691e219c-0565-4403-9218-
 
 ### datasets
 
-Supervision provides a set of [utils](https://supervision.roboflow.com/latest/datasets/) that allow you to load, split, merge, and save datasets in one of the supported formats.
+Supervision provides a set of [utils](https://supervision.roboflow.com/latest/datasets/core/) that allow you to load, split, merge, and save datasets in one of the supported formats.
 
 ```python
 import supervision as sv
@@ -226,7 +226,7 @@ len(dataset)
 
 ## 🎬 tutorials
 
-Want to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](https://github.com/roboflow/supervision/tree/develop/examples), and [cookbooks](https://supervision.roboflow.com/develop/cookbooks/)!
+Want to learn how to use Supervision? Explore our [how-to guides](https://supervision.roboflow.com/develop/how_to/detect_and_annotate/), [end-to-end examples](https://github.com/roboflow/supervision/tree/develop/examples), [cheatsheet](https://roboflow.github.io/cheatsheet-supervision/), and [cookbooks](https://supervision.roboflow.com/develop/cookbooks/)!
 
 <br/>
 

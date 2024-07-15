@@ -1,9 +1,9 @@
 ---
 title: crawlee-python
-date: 2024-07-14T12:20:10+08:00
+date: 2024-07-15T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718804714822-8b81342a5e9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718804714822-8b81342a5e9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718717621302-a359be21a111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718717621302-a359be21a111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
 ---
 
 # [apify/crawlee-python](https://github.com/apify/crawlee-python)

@@ -1,269 +1,214 @@
 ---
 title: Cradle
-date: 2024-03-15T12:17:18+08:00
+date: 2024-07-15T12:21:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707962688729-fa3e0b968d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707962688729-fa3e0b968d4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719328555718-90eb4fac3e31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719328555718-90eb4fac3e31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
 ---
 
 # [BAAI-Agents/Cradle](https://github.com/BAAI-Agents/Cradle)
 
-# Cradle: Towards General Computer Control
+# Cradle: Empowering Foundation Agents Towards General Computer Control
+
 <div align="center">
 
 [[Website]](https://baai-agents.github.io/Cradle/)
-[[Arxiv]](https://arxiv.org/abs/2403.03186)
-[[PDF]](https://arxiv.org/pdf/2403.03186.pdf)
+[[arXiv]](https://arxiv.org/abs/2403.03186)
+[[PDF]](https://arxiv.org/pdf/2403.03186)
 
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)]()
 [![GitHub license](https://img.shields.io/badge/MIT-blue)]()
 
-![](docs/images/cradle-intro.png)
-
-The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements.
-
-<img src="docs/images/rd2_task_grid_03.gif" width="320" height="180"/> <img src="docs/images/rd2_task_grid_02.gif" width="320" height="180"/> </br>
-<img src="docs/images/rd2_task_grid_01.gif" width="320" height="180"/> <img src="docs/images/rd2_task_grid_04.gif" width="320" height="180"/>
-
-## Videos
-
-<a alt="Watch the video" href="https://www.youtube.com/watch?v=Cx-D708BedY"><img src="docs/images/video1.jpg" width="33%" /></a>
-&nbsp;&nbsp;
-<a alt="Watch the video" href="https://www.youtube.com/watch?v=Oa4Ese8mMD0"><img src="docs/images/video2.jpg" width="33%" /></a>
-
-Click on either of the video thumbnails above to watch them on YouTube.
+![](docs/images/cradle-intro-cr.png)
 
 </div>
 
-# Notice
+The Cradle framework empowers nascent foundation models to perform complex computer tasks
+via the same unified interface humans use, i.e., screenshots as input and keyboard & mouse operations as output.
 
-We are still working on further cleaning up the code and constantly updating it. We are also extending Cradle to more games and software. Feel free to reach out!
+## 📢 Updates
+- 2024-06-27: A major update! Cradle is extened to four games: [RDR2](https://www.rockstargames.com/reddeadredemption2), [Stardew Valley](https://www.stardewvalley.net/), [Cities: Skylines](https://www.paradoxinteractive.com/games/cities-skylines/about), and [Dealer's Life 2](https://abyteentertainment.com/dealers-life-2/) and various software, including but not limited to Chrome, Outlook, Capcut, Meitu and Feishu. We also release our latest [paper](https://arxiv.org/pdf/2403.03186). Check it out!
 
+<div align="center">
 
-# Project Setup
+![](docs/images/gcc.jpg)
 
-Please setup your environment as:
-```bash
-conda create --name cradle-dev python=3.10
-conda activate cradle-dev
-pip3 install -r requirements.txt
-```
+</div>
 
-### To install GroundingDino:
+## Latest Videos
+<div align="center">
+<a alt="Watch the video" href="https://www.youtube.com/watch?v=fkkSJw1iJJ8"><img src="./docs/envs/images/rdr2/RDR2_story_cover.jpg" width="33%" /></a>
+&nbsp;&nbsp;
+<a alt="Watch the video" href="https://www.youtube.com/watch?v=ay5gBqzPcDE"><img src="./docs/envs/images/rdr2/RDR2_openended_cover.jpg" width="33%" /></a>
+&nbsp;&nbsp;
+<a alt="Watch the video" href="https://www.youtube.com/watch?v=regULK_60_8"><img src="./docs/envs/images/skylines/cityskyline_video_cover.png" width="33%" /></a>
+&nbsp;&nbsp;
+<a alt="Watch the video" href="https://www.youtube.com/watch?v=Kaiz4yJieUk"><img src="./docs/envs/images/stardew/stardew_video_cover.png" width="33%" /></a>
+&nbsp;&nbsp;
+<a alt="Watch the video" href="https://www.youtube.com/watch?v=WZiL_0V880M"><img src="./docs/envs/images/dealers/dealer_video_cover.png" width="33%" /></a>
+&nbsp;&nbsp;
+<a alt="Watch the video" href="https://www.youtube.com/watch?v=uWgLnZmpVTM"><img src="./docs/envs/images/software/Software_cover.png" width="33%" /></a>
+&nbsp;&nbsp;
+</div>
 
-Download its weights to the cache directory:
+Click on either of the video thumbnails above to watch them on YouTube.
 
-```bash
-mkdir cache
-cd cache
-curl -L -C - -O https://github.com/IDEA-Research/GroundingDINO/releases/download/v0.1.0-alpha2/groundingdino_swinb_cogcoor.pth
-cd ..
-```
+# 💾 Installation
 
-**Note:**
-You should have a CUDA environment, please make sure you have properly installed CUDA dependencies first. You can use the following command to detect it on Linux.
-```bash
-nvcc -V
-```
+## Prepare the Environment File
+We currently provide access to OpenAI's and Claude's API. Please create a `.env` file in the root of the repository to store the keys (one of them is enough).
 
-Or search for its environment variable: CUDA_HOME or CUDA_PATH. On Windows it should be something like "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8" and on Linux like "/usr/local/cuda".
-
-If you don't get the specific version, you should download cudatoolkit and cuDNN first (version 11.8 is recommended).
-
-If you don't download CUDA correctly, after installing GroundingDino, the code will produce:
-
-```bash
-NameError: name '_C' is not defined
-```
-
-If this happened, please re-setup CUDA and pytorch, reclone the git and perform all installation steps again.
-
-On Windows install from https://developer.nvidia.com/cuda-11-8-0-download-archive (Linux packages also available).
-
-Make sure pytorch is installed using the right CUDA dependencies.
-
-```bash
-conda install pytorch torchvision cudatoolkit=11.8 -c nvidia -c pytorch
-```
-
-If this doesn't work, or you prefer the pip way, you can try something like:
-
-```bash
-pip3 install --upgrade torch==2.1.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
-pip3 install torchvision==0.16.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
-```
-
-Now, you should install the pre-compiled GroundingDino with the project dependencies. You can use the package in our repo and the following commands:
-
-```bash
-cd deps
-pip install groundingdino-0.1.0-cp310-cp310-win_amd64.whl
-cd ..
-```
-
-Once it is installed, we need to pre-download some required model files and set some environment variables.
-
-```bash
-# Define the necessary environment variables, this can be done in the .env file in the /cradle directory
-HUGGINGFACE_HUB_CACHE = "./cache/hf" # This can be the full path too, if the relative one doesn't work
-
-# Pre-download huggingface files needed by GroundingDino
-# This step may require a VPN connection
-# Windows user needs to run it in git bash
-mkdir $HUGGINGFACE_HUB_CACHE
-huggingface-cli download bert-base-uncased config.json tokenizer.json vocab.txt tokenizer_config.json model.safetensors --cache-dir $HUGGINGFACE_HUB_CACHE
-
-# Define the last necessary environment variable, this can be done in the .env file in the /cradle directory
-# This step will avoid needing a VPN to run
-TRANSFORMERS_OFFLINE = "TRUE"
-```
-
-If for some reason there is some incompatibility in installing or running GroundingDino, it's recommended to recreate your environment.
-
-Only if really necessary, you can try to clone and compile/install GroundingDino yourself.
-
-```bash
-# Clone
-cd ..
-git clone https://github.com/IDEA-Research/GroundingDINO.git
-cd GroundingDINO
-
-# Build and install it
-pip3 install -r requirements.txt
-pip3 install .
-cd ../Cradle
-```
-
-It should install without errors and now it will be available for any project using the same conda environment (cradle-dev).
-
-To build the C++ code on Windows, you may need to install build tools.
-
-Download them from https://visualstudio.microsoft.com/visual-cpp-build-tools/
-Make sure to select "Desktop Environment with C++" and include the 1st 3 optional packages:
-- MSVC v141 or higher
-- Windows SDK for your OS version
-- CMake tools
-
-### To install the videosubfinder for gather information module
-
-Download the videosubfinder from https://sourceforge.net/projects/videosubfinder/ and extract the files into the res/tool/subfinder folder.
-
-The file structure should be like this:
-- res
-  - tool
-    - subfinder
-      - VideoSubFinderWXW.exe
-      - test.srt
-      - ...
-
-#### Tunning videosubfinder
-Use res/tool/general.clg to overwrite res/tool/subfinder/settings/general.cfg file.
-To get the best extraction results, you can tune the subfinder by changing the parameters in the settings/general.cfg file. You may follow the readme me in Docs folder to get more information about the parameters.
-Only modify it if absolutely necessary. Values have already been tuned to game scenario and environment setup.
-
-
-## General guidelines
-
-Always, **always**, **ALLWAYS** get the latest /main branch.
-
-Any file with text content in the project in the resources directory (./res) should be in UTF-8 encoding. Use the cradle.utils to open/save files.
-
-
-## Infra code
-
-### 1. OpenAI provider
-
-OpenAI provider now can expose embeddings and LLM from OpenAI and Azure together. Users only need to create one instance of each and pass the appropriate configuration.
-
-Example configurations are in /conf. To avoid exposing sensitive details, keys and other private info should be defined in environmental variables.
-
-The suggested way to do it is to create a .env file in the root of the repository (never push this file to GitHub) where variables can be defined, and then mention the variable names in the configs.
-
-Please check the examples below.
-
-Sample .env file containing private info that should never be on git/GitHub:
+Sample `.env` file containing private information:
 ```
 OA_OPENAI_KEY = "abc123abc123abc123abc123abc123ab"
+RF_CLAUDE_AK = "abc123abc123abc123abc123abc123ab" # Access Key for Claude
+RF_CLAUDE_SK = "123abc123abc123abc123abc123abc12" # Secret Access Key for Claude
 AZ_OPENAI_KEY = "123abc123abc123abc123abc123abc12"
 AZ_BASE_URL = "https://abc123.openai.azure.com/"
+RF_CLAUDE_AK = "abc123abc123abc123abc123abc123ab"
+RF_CLAUDE_SK = "123abc123abc123abc123abc123abc12"
+IDE_NAME = "Code"
+```
+OA_OPENAI_KEY is the OpenAI API key. You can get it from the [OpenAI](https://platform.openai.com/api-keys).
+
+AZ_OPENAI_KEY is the Azure OpenAI API key. You can get it from the [Azure Portal](https://portal.azure.com/#view/HubsExtension/BrowseResource/resourceType/Microsoft.CognitiveServices%2Faccounts).
+
+OA_CLAUDE_KEY is the Anthropic Claude API key. You can get it from the [Anthropic](https://console.anthropic.com/settings/keys).
+
+RF_CLAUDE_AK and RF_CLAUDE_SK are AWS Restful API key and secret key for Claude API.
+
+IDE_NAME refers to the IDE environment in which the repository's code runs, such as `PyCharm` or `Code` (VSCode). It is primarily used to enable automatic switching between the IDE and the target environment.
+
+
+## Setup
+
+### Python Environment
+Please setup your python environment and install the required dependencies as:
+```bash
+# Clone the repository
+git clone https://github.com/BAAI-Agents/Cradle.git
+cd Cradle
+
+# Create a new conda environment
+conda create --name cradle-dev python=3.10
+conda activate cradle-dev
+pip install -r requirements.txt
 ```
 
-Sample config for an OpenAI provider:
+### Install the OCR Tools
 ```
-{
-	"key_var" : "OA_OPENAI_KEY",
-	"emb_model": "text-embedding-ada-002",
-	"comp_model": "gpt-4-vision-preview",
-	"is_azure": false
-}
-```
+1. Option 1
+# Download best-matching version of specific model for your spaCy installation
+python -m spacy download en_core_web_lg
 
-## RDR2 Install
-Cradle currently focuses on [RDR2 game](https://www.rockstargames.com/reddeadredemption2). You can get it from any PC platform you prefer. However, the current codebase has been tested on MS Windows.
+or
 
-## Game Settings
+# pip install .tar.gz archive or .whl from path or URL
+pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1.tar.gz
 
-
-### 1. Change settings before running the code.
-
-#### 1.1 Mouse mode
-Change mouse mode in the control setting to DirectInput.
-| Original interface | Changed interface |
-|------------|------------|
-| ![Original interface](docs/images/raw_input.png) | ![Changed interface](docs/images/direct_input.png) |
-
-#### 1.2 Control
-Change both two 'Tap and Hold Speed Control' to on, so we can press w twice to run, saving the need to press shift. Also make sure 'Aiming Mode' to 'Hold To Aim', so we need to keep pressing the mouse right button when aiming.
-| Original interface | Changed interface |
-|------------|------------|
-| ![Original interface](docs/images/move_control_previous.png) | ![Changed interface](docs/images/move_control_now.png) |
-
-#### 1.3 Game screen
-The recommended default resolution to use is 1920x1080, but it can vary if the **16:9** aspect ratio is preserved.  Other resolution is not fully tested. DO NOT change the aspect ratio. Also, remember to set the game Screen Type to **Windowed Borderless**.
-
-`SETTING -> GRAPHICS -> Resolution = 1920X1080` and  `Screen Type = Windowed Borderless`
-![game_position](docs/images/game_position.png)
-
-![resolution](docs/images/resolution.png)
-
-#### 1.4 Mini-map
-Remember to enlarge the icon to ensure the program is working well following: `SETTING -> DISPLAY ->  Radar Blip Size = Large` and  `SETTING -> DISPLAY ->  Map Blip Size = Large` and  `SETTING -> DISPLAY ->  Radar = Expanded` (or press Alt + X).
-
-![](docs/images/enlarge_minimap.png)
-
-![minimap_setting](docs/images/minimap_setting.png)
-
-#### 1.4 Subtitles
-Enable to show the speaker's name in the subtitles.
-
-![subtitles_setting](docs/images/subtitles.png)
-
-## Getting Started
-
-To run the agent, follow these steps:
-
-1- Launch the RDR2 game
-
-2- To start from the beginning of Chapter #1, after you lauch the game, pass all introductory videos
-
-3- Pause the game
-
-4- Launch the framework agent with the command:
-
-```
-python prototype_runner.py 
+2. Option 2
+# Copy this url https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-3.7.1/en_core_web_lg-3.7.1.tar.gz
+# Paste it in the browser and download the file to res/spacy/data
+cd res/spacy/data
+pip install en_core_web_lg-3.7.1.tar.gz
 ```
 
+# 🚀 Get Started
+Due to the vast differences between each game and software, we have provided the specific settings for each of them below.
+1. [Red Dead Redemption 2](docs/envs/rdr2.md)
+2. [Stardew Valley](docs/envs/stardew.md)
+3. [Cities: Skylines](docs/envs/skylines.md)
+4. [Dealer's Life 2](docs/envs/dealers.md)
+5. [Software](docs/envs/software.md)
 
-## Citation
+<div align="center">
+<img src="./docs/images/games_wheel.png" height="365" /> <img src="./docs/images/applications_wheel.png" height="365" />
+</div>
+
+# 🌲 File Structure
+Since some users may want to apply our framework to new games, this section primarily showcases the core directories and organizational structure of Cradle. We will highlight in "⭐⭐⭐" the modules related to migrating to new games, and provide detailed explanations later.
+```
+Cradle
+├── cache # Cache the GroundingDino model and the bert-base-uncased model
+├── conf # ⭐⭐⭐ The configuration files for the environment and the llm model
+│   ├── env_config_dealers.json
+│   ├── env_config_rdr2_main_storyline.json
+│   ├── env_config_rdr2_open_ended_mission.json
+│   ├── env_config_skylines.json
+│   ├── env_config_stardew_cultivation.json
+│   ├── env_config_stardew_farm_clearup.json
+│   ├── env_config_stardew_shopping.json
+│   ├── openai_config.json
+│   ├── claude_config.json
+│   ├── restful_claude_config.json
+│   └── ...
+├── deps # The dependencies for the Cradle framework, ignore this folder
+├── docs # The documentation for the Cradle framework, ignore this folder
+├── res # The resources for the Cradle framework
+│   ├── models # Ignore this folder
+│   ├── tool # Subfinder for RDR2
+│   ├── [game or software] # ⭐⭐⭐ The resources for game, exmpale: rdr2, dealers, skylines, stardew, outlook, chrome, capcut, meitu, feishu
+│   │   ├── prompts # The prompts for the game
+│   │   │   └── templates
+│   │   │       ├── action_planning.prompt
+│   │   │       ├── information_gathering.prompt
+│   │   │       ├── self_reflection.prompt
+│   │   │       └── task_inference.prompt
+│   │   ├── skills # The skills json for the game, it will be generated automatically
+│   │   ├── icons # The icons difficult for GPT-4 to recognize in the game can be replaced with text for better recognition using an icon replacer
+│   │   └── saves # Save files in the game
+│   └── ...
+├── requirements.txt # The requirements for the Cradle framework
+├── runner.py # The main entry for the Cradle framework
+├── cradle # Cradle's core modules
+│   ├── config # The configuration for the Cradle framework
+│   ├── environment # The environment for the Cradle framework
+│   │   ├── [game or software] # ⭐⭐⭐ The environment for the game, exmpale: rdr2, dealers, skylines, stardew, outlook, chrome, capcut, meitu, feishu
+│   │   │   ├── __init__.py # The initialization file for the environment
+│   │   │   ├── atomic_skills # Atomic skills in the game. Users should customise them to suit the needs of the game or software, e.g. character movement
+│   │   │   ├── composite_skills # Combination skills for atomic skills in games or software
+│   │   │   ├── skill_registry.py # The skill registry for the game. Will register all atomic skills and composite skills into the registry.
+│   │   │   └── ui_control.py # The UI control for the game. Define functions to pause the game and switch to the game window
+│   │   └── ...
+│   ├── gameio # Interfaces that directly wrap the skill registry and ui control in the environment
+│   ├── log # The log for the Cradle framework
+│   ├── memory # The memory for the Cradle framework
+│   ├── module # Currently there is only the skill execution module. Later will migrate action planning, self-reflection and other modules from planner and provider
+│   ├── planner # The planner for the Cradle framework. Unified interface for action planning, self-reflection and other modules. This module will be deleted later and will be moved to the module module.
+│   ├── runner # ⭐⭐⭐ The logical flow of execution for each game and software. All game and software processes will then be unified into a single runner
+│   ├── utils # Defines some helper functions such as save json and load json
+│   └── provider # The provider for the Cradle framework. We have semantically decomposed most of the execution flow in the runner into providers
+│       ├── augment # Methods for image augmentation
+│       ├── llm # Call for the LLM model, e.g. OpenAI's GPT-4o, Claude, etc.
+│       ├── module # ⭐⭐⭐ The module for the Cradle framework. e.g., action planning, self-reflection and other modules. It will be migrated to the cradle/module later.
+│       ├── object_detect # Methods for object detection
+│       ├── process # ⭐⭐⭐ Methods for pre-processing and post-processing for action planning, self-reflection and other modules
+│       ├── video # Methods for video processing
+│       ├── others # Methods for other operations, e.g., save and load coordinates for skylines
+│       ├── circle_detector.py # The circle detector for the rdr2
+│       ├── icon_replacer.py # Methods for replacing icons with text
+│       ├── sam_provider.py # Segment anything for software
+│       └── ...
+└── ...
+```
+
+# Citation
 If you find our work useful, please consider citing us!
 ```
-@article{weihao2024cradle,
-  title     = {{Towards General Computer Control: A Multimodal Agent For Red Dead Redemption II As A Case Study}},
-  author    = {Weihao Tan and Ziluo Ding and Wentao Zhang and Boyu Li and Bohan Zhou and Junpeng Yue and Haochong Xia and Jiechuan Jiang and Longtao Zheng and Xinrun Xu and Yifei Bi and Pengjie Gu and Xinrun Wang and Börje F. Karlsson and Bo An and Zongqing Lu},
-  journal   = {arXiv:2403.03186},
-  month     = {March},
-  year      = {2024},
-  primaryClass={cs.AI}
+@article{tan2024cradle,
+  title={Cradle: Empowering Foundation Agents towards General Computer Control},
+  author={Tan, Weihao and Zhang, Wentao and Xu, Xinrun and Xia, Haochong and Ding, Ziluo and Li, Boyu and Zhou, Bohan and Yue, Junpeng and Jiang, Jiechuan and Li, Yewen and An, Ruyi and Qin, Molei and Zong, Chuqiao and Zheng, Longtao and Wu, Yujie and Chai, Xiaoqiang and Bi, Yifei and Xie, Tianbao and Gu, Pengjie and Li, Xiyun and Zhang, Ceyao and Tian, Long and Wang, Chaojie and Wang, Xinrun and Karlsson, Börje F. and An, Bo and Yan, Shuicheng and Lu, Zongqing},
+  journal={arXiv preprint arXiv:2403.03186},
+  year={2024}
 }
 ```
+[//]: # (```)
+[//]: # (@article{weihao2024cradle,)
+[//]: # (  title     = {{Cradle: Empowering Foundation Agents towards General Computer Control}},)
+[//]: # (  author    = {Weihao Tan and Wentao Zhang and Xinrun Xu and Haochong Xia and Ziluo Ding and Boyu Li and Bohan Zhou and Junpeng Yue and Jiechuan Jiang and Yewen Li and Ruyi An and Molei Qin and Chuqiao Zong and Longtao Zheng and Yujie Wu and Xiaoqiang Chai and Yifei Bi and Tianbao Xie and Pengjie Gu and Xiyun Li and Ceyao Zhang and Long Tian and Chaojie Wang and Xinrun Wang and Börje F. Karlsson and Bo An and Shuicheng Yan and Zongqing Lu},)
+[//]: # (  journal   = {arXiv:2403.03186},)
+[//]: # (  month     = {March},)
+[//]: # (  year      = {2024},)
+[//]: # (  primaryClass={cs.AI})
+[//]: # (})
+[//]: # (```)

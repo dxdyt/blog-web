@@ -1,16 +1,24 @@
 ---
 title: mojo
-date: 2024-04-17T12:17:12+08:00
+date: 2024-07-15T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711560708537-4c1985469c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711560708537-4c1985469c87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMzMjczOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718964312844-b7babca688b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718964312844-b7babca688b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
 ---
 
 # [modularml/mojo](https://github.com/modularml/mojo)
 
-<p align="center">
+<div align="center">
     <img src="https://modular-assets.s3.amazonaws.com/images/mojo_github_logo_bg.png">
-</p>
+
+  [Website][Mojo] | [Getting Started] | [API Documentation] | [Contributing] | [Changelog]
+</div>
+
+[Mojo]: https://www.modular.com/mojo/
+[Getting Started]: https://docs.modular.com/mojo/manual/get-started/
+[API Documentation]: https://docs.modular.com/mojo/lib
+[Contributing]: ./CONTRIBUTING.md
+[Changelog]: ./docs/changelog.md
 
 # Welcome to Mojo 🔥
 
@@ -56,7 +64,23 @@ program](https://docs.modular.com/mojo/manual/get-started/hello-world).
 
 The nightly Mojo builds are subject to breakage and provide an inside
 view of how the development of Mojo is progressing.  Use at your own risk
-and be patient! Install them using the instructions [here](./CONTRIBUTING.md).
+and be patient!
+
+To get nightly builds, see the same instructions to [install the Mojo
+SDK](https://docs.modular.com/mojo/manual/get-started/#install-mojo), but use
+the command shown there to install `nightly/mojo`.
+
+When you clone this repo, be sure you switch to the `nightly` branch, because
+the `main` branch is for stable releases and might not be compatible with
+nightly builds:
+
+```bash
+git clone https://github.com/modularml/mojo.git
+```
+
+```bash
+git checkout nightly
+```
 
 ## Contributing
 
