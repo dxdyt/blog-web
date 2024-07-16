@@ -1,17 +1,17 @@
 ---
 title: gpt_academic
-date: 2024-05-29T12:21:12+08:00
+date: 2024-07-16T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713107100803-c5877621cdde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713107100803-c5877621cdde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718776300369-aa9d15e29a9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718776300369-aa9d15e29a9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
 ---
 
 # [binary-husky/gpt_academic](https://github.com/binary-husky/gpt_academic)
 
 > [!IMPORTANT]
+> 2024.6.1: 版本3.80加入插件二级菜单功能（详见wiki）  
 > 2024.5.1: 加入Doc2x翻译PDF论文的功能，[查看详情](https://github.com/binary-husky/gpt_academic/wiki/Doc2x)  
-> 2024.4.30: 3.75版本引入Edge-TTS和SoVits语音克隆模块，[查看详情](https://www.bilibili.com/video/BV1Rp421S7tF/)  
-> 2024.3.11: 恭迎Claude3和Moonshot，全力支持Qwen、GLM、DeepseekCoder等中文大语言模型！  
+> 2024.3.11: 全力支持Qwen、GLM、DeepseekCoder等中文大语言模型！ SoVits语音克隆模块，[查看详情](https://www.bilibili.com/video/BV1Rp421S7tF/) 
 > 2024.1.17: 安装依赖时，请选择`requirements.txt`中**指定的版本**。 安装命令：`pip install -r requirements.txt`。本项目完全开源免费，您可通过订阅[在线服务](https://github.com/binary-husky/gpt_academic/wiki/online)的方式鼓励本项目的发展。
 
 <br>

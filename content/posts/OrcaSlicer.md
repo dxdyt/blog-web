@@ -1,9 +1,9 @@
 ---
 title: OrcaSlicer
-date: 2024-06-11T12:18:39+08:00
+date: 2024-07-16T12:19:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716285386261-8de02ca53ce9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716285386261-8de02ca53ce9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719370281932-299f40a5d8ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719370281932-299f40a5d8ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
 ---
 
 # [SoftFever/OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
@@ -120,30 +120,40 @@ Thank you! :)
 <tr>
 <td>
 <a href="https://peopoly.net/">
-    <img src="SoftFever_doc\sponsor_logos\peopoly-standard-logo.png" alt="Peopoly" width="64" height="">
+    <img src="SoftFever_doc\sponsor_logos\peopoly-standard-logo.png" alt="Peopoly" width="96" height="">
 </a>
 </td> 
 <td>
 <a href="https://qidi3d.com/">
-    <img src="SoftFever_doc\sponsor_logos\QIDI.png" alt="QIDI" width="64" height="">
+    <img src="SoftFever_doc\sponsor_logos\QIDI.png" alt="QIDI" width="96" height="">
 </a>
 </td>
 <td>
 <a href="https://phrozen3d.com/">
-    <img src="SoftFever_doc\sponsor_logos\Phrozen_Logo圓_.png" alt="Phrozen Technology" width="64" height="">
+    <img src="SoftFever_doc\sponsor_logos\Phrozen_Logo圓_.png" alt="Phrozen Technology" width="96" height="">
+</a>
+</td>
+<td>
+<a href="https://bigtree-tech.com/">
+    <img src="SoftFever_doc\sponsor_logos\BigTreeTech.png" alt="BIGTREE TECH" width="96" height="">
 </a>
 </td>
 </tr>
 </table>
 
 ### Backers:  
-Ko-fi supporters: [Backers list](https://github.com/SoftFever/OrcaSlicer/files/14855600/sponsors.csv)
+**Ko-fi supporters**: [Backers list](https://github.com/user-attachments/files/16147016/Supporters_638561417699952499.csv)
 
-Support me  
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G5IP3CP)
+## Support me  
+<a href="https://github.com/sponsors/SoftFever"><img src="https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86" width="130"></a>
+
+<a href="https://ko-fi.com/G2G5IP3CP"><img src="https://ko-fi.com/img/githubbutton_sm.svg" width="200"></a>
+
+[![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/softfever3d)
+
 
 ## Some background
-OrcaSlicer is originaly forked from Bambu Studio, it was previously known as BambuStudio-SoftFever.
+OrcaSlicer is originally forked from Bambu Studio, it was previously known as BambuStudio-SoftFever.
 
 Bambu Studio is forked from [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) by Prusa Research, which is from [Slic3r](https://github.com/Slic3r/Slic3r) by Alessandro Ranellucci and the RepRap community. 
 Orca Slicer incorporates a lot of features from SuperSlicer by @supermerill

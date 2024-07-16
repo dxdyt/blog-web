@@ -1,9 +1,9 @@
 ---
 title: crawlee-python
-date: 2024-07-15T12:21:06+08:00
+date: 2024-07-16T12:17:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718717621302-a359be21a111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718717621302-a359be21a111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718147155878-e2baab858e74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718147155878-e2baab858e74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
 ---
 
 # [apify/crawlee-python](https://github.com/apify/crawlee-python)
@@ -41,13 +41,13 @@ pip install crawlee
 
 Additional, optional dependencies unlocking more features are shipped as package extras.
 
-If you plan to use `BeautifulSoupCrawler`, install `crawlee` with `beautifulsoup` extra:
+If you plan to parse HTML and use CSS selectors, install `crawlee` with `beautifulsoup` extra:
 
 ```sh
 pip install 'crawlee[beautifulsoup]'
 ```
 
-If you plan to use `PlaywrightCrawler`, install `crawlee` with the `playwright` extra:
+If you plan to use a (headless) browser, install `crawlee` with the `playwright` extra:
 
 ```sh
 pip install 'crawlee[playwright]'
@@ -63,6 +63,12 @@ You can install multiple extras at once by using a comma as a separator:
 
 ```sh
 pip install 'crawlee[beautifulsoup,playwright]'
+```
+
+Verify that Crawlee is successfully installed:
+
+```sh
+python -c 'import crawlee; print(crawlee.__version__)'
 ```
 
 ### With Crawlee CLI
@@ -87,7 +93,7 @@ crawlee create my-crawler
 
 ## Examples
 
-Here are some practical examples to help you get started with different types of crawlers in Crawlee. Each example demonstrates how to set up and run a crawler for specific use cases, whether you need to handle simple HTML pages or interact with JavaScript-heavy sites.
+Here are some practical examples to help you get started with different types of crawlers in Crawlee. Each example demonstrates how to set up and run a crawler for specific use cases, whether you need to handle simple HTML pages or interact with JavaScript-heavy sites. A crawler run will create a `storage/` directory in your current working directory.
 
 ### BeautifulSoupCrawler
 
@@ -211,4 +217,4 @@ Your code contributions are welcome, and you'll be praised for eternity! If you 
 
 ## License
 
-This project is licensed under the Apache License 2.0 - see the [LICENSE.md](https://github.com/apify/crawlee-python/blob/master/LICENSE.md) file for details.
+This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/apify/crawlee-python/blob/master/LICENSE) file for details.

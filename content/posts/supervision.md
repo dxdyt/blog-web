@@ -1,9 +1,9 @@
 ---
 title: supervision
-date: 2024-07-15T12:20:13+08:00
+date: 2024-07-16T12:18:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711118882380-085ab7f04f92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711118882380-085ab7f04f92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEwMTcxNjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717989606068-6c795e6bcef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717989606068-6c795e6bcef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
@@ -120,18 +120,21 @@ Supervision provides a set of [utils](https://supervision.roboflow.com/latest/da
 
 ```python
 import supervision as sv
+from roboflow import Roboflow
 
-dataset = sv.DetectionDataset.from_yolo(
-    images_directory_path=...,
-    annotations_directory_path=...,
-    data_yaml_path=...
+project = Roboflow().workspace(<WORKSPACE_ID>).project(<PROJECT_ID>)
+dataset = project.version(<PROJECT_VERSION>).download("coco")
+
+ds = sv.DetectionDataset.from_coco(
+    images_directory_path=f"{dataset.location}/train",
+    annotations_path=f"{dataset.location}/train/_annotations.coco.json",
 )
 
-dataset.classes
-['dog', 'person']
+path, image, annotation = ds[0]
+    # loads image on demand
 
-len(dataset)
-# 1000
+for path, image, annotation in ds:
+    # loads image on demand
 ```
 
 <details close>

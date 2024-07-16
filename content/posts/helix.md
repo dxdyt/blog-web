@@ -1,9 +1,9 @@
 ---
 title: helix
-date: 2024-04-02T12:16:40+08:00
+date: 2024-07-16T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717989606068-6c795e6bcef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717989606068-6c795e6bcef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
 ---
 
 # [helix-editor/helix](https://github.com/helix-editor/helix)
@@ -57,7 +57,7 @@ Note: Only certain languages have indentation definitions at the moment. Check
 
 [Installation documentation](https://docs.helix-editor.com/install.html).
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/helix.svg)](https://repology.org/project/helix/versions)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/helix.svg?exclude_unsupported=1)](https://repology.org/project/helix/versions)
 
 # Contributing
 
