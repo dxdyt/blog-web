@@ -1,9 +1,9 @@
 ---
 title: OrcaSlicer
-date: 2024-07-16T12:19:47+08:00
+date: 2024-07-17T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719370281932-299f40a5d8ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719370281932-299f40a5d8ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720356778345-6996c57af4bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720356778345-6996c57af4bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
 ---
 
 # [SoftFever/OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
