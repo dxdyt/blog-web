@@ -1,9 +1,9 @@
 ---
 title: gs-quant
-date: 2024-07-04T12:16:48+08:00
+date: 2024-07-18T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719208750955-cb740a420cf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719208750955-cb740a420cf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
 ---
 
 # [goldmansachs/gs-quant](https://github.com/goldmansachs/gs-quant)
@@ -13,6 +13,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1719208750955-cb740a420c
 **GS Quant** is a Python toolkit for quantitative finance, created on top of one of the world’s most powerful risk transfer platforms. Designed to accelerate development of quantitative trading strategies and risk management solutions, crafted over 25 years of experience navigating global markets.
 
 It is created and maintained by quantitative developers (quants) at Goldman Sachs to enable the development of trading strategies and analysis of derivative products. GS Quant can be used to facilitate derivative structuring, trading, and risk management, or as a set of statistical packages for data analytics applications.
+
+In order to access the APIs you will need a client id and secret.  These are available to institutional clients of Goldman Sachs.  Please speak to your sales coverage or Marquee Sales for further information. 
 
 Please refer to [Goldman Sachs Developer](https://developer.gs.com/docs/gsquant/) for additional information.
 

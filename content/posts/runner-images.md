@@ -1,9 +1,9 @@
 ---
 title: runner-images
-date: 2024-04-05T12:20:48+08:00
+date: 2024-07-18T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709418354364-8f3e9ad5c32c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709418354364-8f3e9ad5c32c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyOTA2Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718810125230-e8e2271354f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718810125230-e8e2271354f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
 ---
 
 # [actions/runner-images](https://github.com/actions/runner-images)
@@ -31,27 +31,27 @@ To build a VM machine from this repo's source, see the [instructions](docs/creat
 
 | Image | YAML Label | Included Software | Rollout Status of Latest Image Release |
 | --------------------|---------------------|--------------------|--------------------|
-| Ubuntu 22.04 | `ubuntu-latest` or `ubuntu-22.04` | [ubuntu-22.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fubuntu22.json) |
-| Ubuntu 20.04 | `ubuntu-20.04` | [ubuntu-20.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fubuntu20.json) |
-| macOS 14 | `macos-latest-large` or `macos-14-large`| [macOS-14] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-14.json) |
-| macOS 14 Arm64 |`macos-latest`, `macos-14`, `macos-latest-xlarge` or `macos-14-xlarge`| [macOS-14-arm64] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-14-arm64.json) |
-| macOS 13 | `macos-13` or `macos-13-large` | [macOS-13] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-13.json) |
-| macOS 13 Arm64 | `macos-13-xlarge` | [macOS-13-arm64] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fmacos-13-arm64.json) |
-| macOS 12 | `macos-12` or `macos-12-large`| [macOS-12] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2FmacOS-12.json) |
-| macOS 11 [deprecated] | `macos-11`| [macOS-11] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2FmacOS-11.json) |
-| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fwin22.json) |
-| Windows Server 2019 | `windows-2019` | [windows-2019] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fmikhailkoliada%2F35b243dd6e217d041fe3dfa5b4e2e2ed%2Fraw%2Fwin19.json) |
+| Ubuntu 24.04 <sup>beta</sup> | `ubuntu-24.04` | [ubuntu-24.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fubuntu24.json) |
+| Ubuntu 22.04 | `ubuntu-latest` or `ubuntu-22.04` | [ubuntu-22.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fubuntu22.json) |
+| Ubuntu 20.04 | `ubuntu-20.04` | [ubuntu-20.04] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fubuntu20.json) |
+| macOS 14 | `macos-latest-large` or `macos-14-large`| [macOS-14] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fmacos-14.json) |
+| macOS 14 Arm64 |`macos-latest`, `macos-14`, `macos-latest-xlarge` or `macos-14-xlarge`| [macOS-14-arm64] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fmacos-14-arm64.json) |
+| macOS 13 | `macos-13` or `macos-13-large` | [macOS-13] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fmacos-13.json) |
+| macOS 13 Arm64 | `macos-13-xlarge` | [macOS-13-arm64] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fmacos-13-arm64.json) |
+| macOS 12 | `macos-12` or `macos-12-large`| [macOS-12] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fmacos-12.json) |
+| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fwin22.json) |
+| Windows Server 2019 | `windows-2019` | [windows-2019] | ![Endpoint Badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fgist.githubusercontent.com%2Fijunaidm%2F0b5459bbe18604a639e1d2f7accd204f%2Fraw%2Fwin19.json) |
 
 ### Label scheme
 
 - In general the `-latest` label is used for the latest OS image version that is GA
 - Before moving the`-latest` label to a new OS version we will announce the change and give sufficient lead time for users to update their workflows
 
+[ubuntu-24.04]: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2404-Readme.md
 [ubuntu-22.04]: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2204-Readme.md
 [ubuntu-20.04]: https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2004-Readme.md
 [windows-2022]: https://github.com/actions/runner-images/blob/main/images/windows/Windows2022-Readme.md
 [windows-2019]: https://github.com/actions/runner-images/blob/main/images/windows/Windows2019-Readme.md
-[macOS-11]: https://github.com/actions/runner-images/blob/main/images/macos/macos-11-Readme.md
 [macOS-12]: https://github.com/actions/runner-images/blob/main/images/macos/macos-12-Readme.md
 [macOS-13]: https://github.com/actions/runner-images/blob/main/images/macos/macos-13-Readme.md
 [macOS-13-arm64]: https://github.com/actions/runner-images/blob/main/images/macos/macos-13-arm64-Readme.md
@@ -90,7 +90,6 @@ GitHub Actions and Azure DevOps use the `-latest` YAML label (ex: `ubuntu-latest
 
 
 The `-latest` migration process is gradual and happens over 1-2 months in order to allow customers to adapt their workflows to the newest OS version. During this process, any workflow using the `-latest` label, may see changes in the OS version in their workflows or pipelines. To avoid unwanted migration, users can specify a specific OS version in the yaml file (ex: macos-12, windows-2022, ubuntu-22.04).
-
 
 ## Image Releases
 
@@ -138,7 +137,7 @@ We use third-party package managers to install software during the image generat
 
 | Operating system | Package manager                       | Third-party repos and packages |
 | :---             |        :---:                          |                           ---: |
-| Ubuntu           | [APT](https://wiki.debian.org/Apt)    | [containers](https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable) (Ubuntu 20 only) <br/> [docker](https://download.docker.com/linux/ubuntu) <br/> [Eclipse-Temurin (Adoptium)](https://packages.adoptium.net/artifactory/deb/) <br/> [Erlang](https://packages.erlang-solutions.com/ubuntu) <br/> [Firefox](http://ppa.launchpad.net/mozillateam/ppa/ubuntu) <br/> [gcc, gfortran](https://launchpad.net/~ubuntu-toolchain-r/+archive/ubuntu/test)  <br/> [git-lfs](https://packagecloud.io/install/repositories/github/git-lfs) <br/> [git](https://launchpad.net/~git-core/+archive/ubuntu/ppa) <br/> [Google Cloud CLI](https://packages.cloud.google.com/apt) <br/> [Heroku](https://cli-assets.heroku.com/channels/stable/apt) <br/> [HHvm](https://dl.hhvm.com/ubuntu) <br/> [MongoDB](https://repo.mongodb.org/apt/ubuntu) <br/> [Mono](https://download.mono-project.com/repo/ubuntu) <br/> [MS Edge](https://packages.microsoft.com/repos/edge) <br/> [PostgreSQL](https://apt.postgresql.org/pub/repos/apt/) <br/> [R](https://cloud.r-project.org/bin/linux/ubuntu)                                      |
+| Ubuntu           | [APT](https://wiki.debian.org/Apt)    | [containers](https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable) (Ubuntu 20 only) <br/> [docker](https://download.docker.com/linux/ubuntu) (Ubuntu20 0nly) <br/> [Eclipse-Temurin (Adoptium)](https://packages.adoptium.net/artifactory/deb/) <br/> [Erlang](https://packages.erlang-solutions.com/ubuntu) <br/> [Firefox](http://ppa.launchpad.net/mozillateam/ppa/ubuntu) <br/> [git-lfs](https://packagecloud.io/install/repositories/github/git-lfs) <br/> [git](https://launchpad.net/~git-core/+archive/ubuntu/ppa) <br/> [Google Cloud CLI](https://packages.cloud.google.com/apt) <br/> [Heroku](https://cli-assets.heroku.com/channels/stable/apt) <br/> [HHvm](https://dl.hhvm.com/ubuntu) <br/> [MongoDB](https://repo.mongodb.org/apt/ubuntu) <br/> [Mono](https://download.mono-project.com/repo/ubuntu) <br/> [MS Edge](https://packages.microsoft.com/repos/edge) <br/> [PostgreSQL](https://apt.postgresql.org/pub/repos/apt/) <br/> [R](https://cloud.r-project.org/bin/linux/ubuntu)                                      |
 |                  | [pipx](https://pypa.github.io/pipx)   | ansible-core <br/>yamllint     |
 | Windows          | [Chocolatey](https://chocolatey.org)  | No third-party repos installed |
 | macOS            | [Homebrew](https://brew.sh)           | [aws-cli v2](https://github.com/aws/homebrew-tap) </br> [azure/bicep](https://github.com/Azure/homebrew-bicep) </br> [mongodb/brew](https://github.com/mongodb/homebrew-brew)                                                  |

@@ -1,9 +1,9 @@
 ---
 title: git-credential-manager
-date: 2023-06-16T12:17:23+08:00
+date: 2024-07-18T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684076863982-8493240cd49b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684076863982-8493240cd49b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODY4ODg4OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
 ---
 
 # [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
@@ -125,7 +125,7 @@ We're [MIT][gcm-license] licensed.
 When using GitHub logos, please be sure to follow the
 [GitHub logo guidelines][github-logos].
 
-[azure-devops]: https://dev.azure.com/
+[azure-devops]: https://azure.microsoft.com/en-us/products/devops
 [azure-devops-ssh]: https://docs.microsoft.com/en-us/azure/devops/repos/git/use-ssh-keys-to-authenticate?view=azure-devops
 [bitbucket]: https://bitbucket.org
 [bitbucket-ssh]: https://confluence.atlassian.com/bitbucket/ssh-keys-935365775.html

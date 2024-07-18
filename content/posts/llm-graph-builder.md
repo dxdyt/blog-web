@@ -1,9 +1,9 @@
 ---
 title: llm-graph-builder
-date: 2024-07-16T12:19:27+08:00
+date: 2024-07-18T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719370281932-299f40a5d8ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719370281932-299f40a5d8ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721143133240-8b4da5312e83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721143133240-8b4da5312e83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
 ---
 
 # [neo4j-labs/llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder)
@@ -88,7 +88,7 @@ If none of the mode is mentioned in the chat modes variable all modes will be av
 CHAT_MODES=""
 ```
 
-If however you want to specifiy the only vector mode or only graph mode you can do that by specifying the mode in the env:
+If however you want to specify the only vector mode or only graph mode you can do that by specifying the mode in the env:
 ```env
 CHAT_MODES="vector,graph+vector"
 ```

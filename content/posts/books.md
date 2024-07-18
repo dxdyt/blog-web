@@ -1,9 +1,9 @@
 ---
 title: books
-date: 2024-07-17T12:17:25+08:00
+date: 2024-07-18T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719115220172-72a57293a5d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719115220172-72a57293a5d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
 ---
 
 # [free-educa/books](https://github.com/free-educa/books)

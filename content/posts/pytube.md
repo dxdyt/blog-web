@@ -1,9 +1,9 @@
 ---
 title: pytube
-date: 2024-07-16T12:19:32+08:00
+date: 2024-07-18T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719014323201-d7ae3f83d260?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719014323201-d7ae3f83d260?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
 ---
 
 # [pytube/pytube](https://github.com/pytube/pytube)
