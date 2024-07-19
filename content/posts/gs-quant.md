@@ -1,9 +1,9 @@
 ---
 title: gs-quant
-date: 2024-07-18T12:18:57+08:00
+date: 2024-07-19T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718809070453-47e72a835635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718294330460-7f6355d3895a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718294330460-7f6355d3895a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
 ---
 
 # [goldmansachs/gs-quant](https://github.com/goldmansachs/gs-quant)

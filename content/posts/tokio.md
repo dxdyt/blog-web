@@ -1,9 +1,9 @@
 ---
 title: tokio
-date: 2024-07-18T12:18:35+08:00
+date: 2024-07-19T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719831601731-2e10191e0558?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719831601731-2e10191e0558?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720975945110-6278215f280d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720975945110-6278215f280d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
 ---
 
 # [tokio-rs/tokio](https://github.com/tokio-rs/tokio)

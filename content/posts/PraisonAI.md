@@ -1,9 +1,9 @@
 ---
 title: PraisonAI
-date: 2024-07-17T12:18:40+08:00
+date: 2024-07-19T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720549385830-905a78562bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720549385830-905a78562bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719938570902-6fe35719cde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719938570902-6fe35719cde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
 ---
 
 # [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)
@@ -15,6 +15,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1720549385830-905a78562b
     <img alt="PraisonAI Logo" src="docs/images/praisonai-logo-black-large.png">
   </picture>
 </p>
+
+<p align="center">
+<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://static.pepy.tech/badge/PraisonAI" alt="Total Downloads"></a>
+<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/github/v/release/MervinPraison/PraisonAI" alt="Latest Stable Version"></a>
+<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+</p>
+
 <div align="center">
 
 # Praison AI
@@ -23,12 +30,47 @@ featuredImagePreview: https://images.unsplash.com/photo-1720549385830-905a78562b
 
 Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, represents a low-code, centralised framework designed to simplify the creation and orchestration of multi-agent systems for various LLM applications, emphasizing ease of use, customization, and human-agent interaction.
 
-|  | Cookbook | Open in Colab |
-| --- | --- | --- |
-| Basic | PraisonAI | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="docs/images/architecture-light.png">
+    <img alt="PraisonAI Architecture" src="docs/images/architecture-light.png">
+  </picture>
+</div>
+
+## Different User Interfaces:
+
+| Interface | Description | URL |
+|---|---|---|
+| **UI** | Multi Agents such as CrewAI or AutoGen | [https://docs.praison.ai/ui/ui](https://docs.praison.ai/ui/ui) |
+| **Chat** | Chat with 100+ LLMs, single AI Agent | [https://docs.praison.ai/ui/chat](https://docs.praison.ai/ui/chat) |
+| **Code** | Chat with entire Codebase, single AI Agent | [https://docs.praison.ai/ui/code](https://docs.praison.ai/ui/code) |
+
+## Google Colab Multi Agents
+
+|               | Cookbook        | Open in Colab                                                                                                                                                                                                                                  |
+| ------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Basic         | PraisonAI       | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>       |
 | Include Tools | PraisonAI Tools | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-tools-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
 
-## TL;DR
+## Install
+
+| PraisonAI | PraisonAI Code | PraisonAI Chat |
+| --- | --- | --- |
+| `pip install praisonai` | `pip install "praisonai[code]"` | `pip install "praisonai[chat]"` |
+
+## Key Features
+
+- Automated AI Agents Creation
+- Use CrewAI or AutoGen Framework
+- 100+ LLM Support
+- Chat with ENTIRE Codebase
+- Interactive UIs
+- YAML-based Configuration
+- Custom Tool Integration
+
+## TL;DR Multi Agents
+
 ```bash
 pip install praisonai
 export OPENAI_API_KEY="Enter your API key"
@@ -52,7 +94,7 @@ praisonai
 - [Contributing](#contributing)
 - [Star History](#star-history)
 
-## Installation
+## Installation Multi Agents
 
 ```bash
 pip install praisonai
@@ -67,13 +109,14 @@ export OPENAI_API_KEY="Enter your API key"
 Generate your OPENAI API KEY from here: https://platform.openai.com/api-keys
 
 Note: You can use other providers such as Ollama, Mistral ... etc. Details are provided at the bottom.
-    
+
 ```bash
 praisonai --init create a movie script about dog in moon
 ```
+
 This will automatically create agents.yaml file in the current directory.
 
-### To initialse with a specific agent framework (Optional):
+### To initialise with a specific agent framework (Optional):
 
 ```bash
 praisonai --framework autogen --init create movie script about cat in mars
@@ -85,8 +128,8 @@ praisonai --framework autogen --init create movie script about cat in mars
 praisonai
 ```
 
-or 
-    
+or
+
 ```bash
 python -m praisonai
 ```
@@ -107,12 +150,11 @@ praisonai --auto create a movie script about Dog in Moon
 
 ## PraisonAI User Interfaces:
 
-| Interface | Description | URL |
-|---|---|---|
-| **UI** | Multi Agents such as CrewAI or AutoGen | [https://docs.praisonai.com/ui/ui](https://docs.praison.ai/ui/ui) |
-| **Chat** | Chat with 100+ LLMs, single AI Agent | [https://docs.praisonai.com/ui/chat](https://docs.praison.ai/ui/chat) |
-| **Code** | Chat with entire Codebase, single AI Agent | [https://docs.praisonai.com/ui/code](https://docs.praison.ai/ui/code) |
-
+| Interface | Description                                | URL                                                                   |
+| --------- | ------------------------------------------ | --------------------------------------------------------------------- |
+| **UI**    | Multi Agents such as CrewAI or AutoGen     | [https://docs.praisonai.com/ui/ui](https://docs.praison.ai/ui/ui)     |
+| **Chat**  | Chat with 100+ LLMs, single AI Agent       | [https://docs.praisonai.com/ui/chat](https://docs.praison.ai/ui/chat) |
+| **Code**  | Chat with entire Codebase, single AI Agent | [https://docs.praisonai.com/ui/code](https://docs.praison.ai/ui/code) |
 
 ```bash
 pip install -U "praisonai[ui]"
@@ -122,7 +164,7 @@ export CHAINLIT_AUTH_SECRET=xxxxxxxx
 praisonai ui
 ```
 
-or 
+or
 
 ```
 python -m praisonai ui
@@ -130,7 +172,7 @@ python -m praisonai ui
 
 ## Praison AI Chat
 
-* https://docs.praison.ai/chat/
+- https://docs.praison.ai/chat/
 
 ```bash
 pip install "praisonai[chat]"
@@ -138,56 +180,19 @@ export OPENAI_API_KEY="Enter your API key"
 praisonai chat
 ```
 
+## Praison AI Code
+
+```bash
+pip install "praisonai[code]"
+export OPENAI_API_KEY="Enter your API key"
+praisonai code
+```
+
 ## Create Custom Tools
 
-* https://docs.praison.ai/tools/custom/
+- https://docs.praison.ai/tools/custom/
 
-### Step 1: Pre-requisite to Create a Custom Tool
-`agents.yaml` file should be present in the current directory. 
-
-If it doesn't exist, create it by running the command `praisonai --init research about the latest AI News and prepare a detailed report`.
-
-### Step 2: to Create a Custom Tool
-
-Create a file called tools.py in the same directory as the agents.yaml file.
-
-```python
-# example tools.py
-from duckduckgo_search import DDGS
-from praisonai_tools import BaseTool
-
-class InternetSearchTool(BaseTool):
-    name: str = "InternetSearchTool"
-    description: str = "Search Internet for relevant information based on a query or latest news"
-
-    def _run(self, query: str):
-        ddgs = DDGS()
-        results = ddgs.text(keywords=query, region='wt-wt', safesearch='moderate', max_results=5)
-        return results
-```
-
-### Step 3: to Create a Custom Tool
-
-Add the tool to the agents.yaml file as show below under the tools section `- InternetSearchTool`.
-
-```yaml
-framework: crewai
-topic: research about the latest AI News and prepare a detailed report
-roles:
-  research_analyst:
-    backstory: Experienced in gathering and analyzing data related to AI news trends.
-    goal: Analyze AI News trends
-    role: Research Analyst
-    tasks:
-      gather_data:
-        description: Conduct in-depth research on the latest AI News trends from reputable
-          sources.
-        expected_output: Comprehensive report on current AI News trends.
-    tools:
-    - InternetSearchTool
-```
-
-## Agents Playbook 
+## Agents Playbook
 
 ### Simple Playbook Example
 
@@ -196,23 +201,23 @@ framework: crewai
 topic: Artificial Intelligence
 roles:
   screenwriter:
-    backstory: 'Skilled in crafting scripts with engaging dialogue about {topic}.'
+    backstory: "Skilled in crafting scripts with engaging dialogue about {topic}."
     goal: Create scripts from concepts.
     role: Screenwriter
     tasks:
       scriptwriting_task:
-        description: 'Develop scripts with compelling characters and dialogue about {topic}.'
-        expected_output: 'Complete script ready for production.'
+        description: "Develop scripts with compelling characters and dialogue about {topic}."
+        expected_output: "Complete script ready for production."
 ```
 
 ## Use 100+ Models
 
-* https://docs.praison.ai/models/
+- https://docs.praison.ai/models/
 
 ## Include praisonai package in your project
 
-* https://docs.praison.ai/developers/wrapper
-* https://docs.praison.ai/developers/wrapper-tools/
+- https://docs.praison.ai/developers/wrapper
+- https://docs.praison.ai/developers/wrapper-tools/
 
 ## Option 1: Using RAW YAML
 
@@ -247,8 +252,7 @@ print(result)
 
 ## Option 2: Using separate agents.yaml file
 
-
-Note: Please create agents.yaml file before hand. 
+Note: Please create agents.yaml file before hand.
 
 ```python
 from praisonai import PraisonAI
@@ -264,16 +268,19 @@ if __name__ == "__main__":
 ## Commands to Install Dependencies:
 
 1. **Install all dependencies, including dev dependencies:**
+
    ```sh
    poetry install
    ```
 
 2. **Install only documentation dependencies:**
+
    ```sh
    poetry install --with docs
    ```
 
 3. **Install only test dependencies:**
+
    ```sh
    poetry install --with test
    ```
@@ -298,3 +305,7 @@ This configuration ensures that your development dependencies are correctly cate
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=MervinPraison/PraisonAI&type=Date)](https://docs.praison.ai)
+
+## License
+
+Praison AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.

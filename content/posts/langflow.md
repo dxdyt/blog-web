@@ -1,9 +1,9 @@
 ---
 title: langflow
-date: 2024-07-18T12:17:53+08:00
+date: 2024-07-19T12:19:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717076525469-1bb36da6a23e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717076525469-1bb36da6a23e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEyNzYyNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718603596123-772d1a23adc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718603596123-772d1a23adc7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
 ---
 
 # [langflow-ai/langflow](https://github.com/langflow-ai/langflow)
@@ -28,7 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1717076525469-1bb36da6a2
     <a href="https://docs.langflow.org" style="text-decoration: underline;">Docs</a> -
     <a href="https://discord.com/invite/EqksyE2EX9" style="text-decoration: underline;">Join our Discord</a> -
     <a href="https://twitter.com/langflow_ai" style="text-decoration: underline;">Follow us on X</a> -
-    <a href="https://huggingface.co/spaces/Langflow/Langflow-Preview" style="text-decoration: underline;">Live demo</a>
+    <a href="https://huggingface.co/spaces/Langflow/Langflow" style="text-decoration: underline;">Live demo</a>
 </p>
 
 <p align="center">
@@ -44,6 +44,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1717076525469-1bb36da6a2
   <a href="./README.md"><img alt="README in English" src="https://img.shields.io/badge/English-d9d9d9"></a>
   <a href="./README.PT.md"><img alt="README in Portuguese" src="https://img.shields.io/badge/Portuguese-d9d9d9"></a>
   <a href="./README.zh_CN.md"><img alt="README in Simplified Chinese" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
+  <a href="./README.ja.md"><img alt="README in Japanese" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
 </div>
 
 <p align="center">
@@ -115,7 +116,7 @@ DataStax Langflow is a hosted version of Langflow integrated with [AstraDB](http
 
 ## Deploy Langflow on Hugging Face Spaces
 
-You can also preview Langflow in [HuggingFace Spaces](https://huggingface.co/spaces/Langflow/Langflow-Preview). [Clone the space using this link](https://huggingface.co/spaces/Langflow/Langflow-Preview?duplicate=true) to create your own Langflow workspace in minutes.
+You can also preview Langflow in [HuggingFace Spaces](https://huggingface.co/spaces/Langflow/Langflow). [Clone the space using this link](https://huggingface.co/spaces/Langflow/Langflow?duplicate=true) to create your own Langflow workspace in minutes.
 
 ## Deploy Langflow on Google Cloud Platform
 
