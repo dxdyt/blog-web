@@ -1,9 +1,9 @@
 ---
 title: semantic-kernel
-date: 2024-07-02T12:18:41+08:00
+date: 2024-07-20T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717155736971-b53c6dfd940f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717155736971-b53c6dfd940f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720727612331-1c432da0ebb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720727612331-1c432da0ebb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
@@ -29,7 +29,7 @@ is an SDK that integrates Large Language Models (LLMs) like
 [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service),
 and [Hugging Face](https://huggingface.co/)
 with conventional programming languages like C#, Python, and Java. Semantic Kernel achieves this
-by allowing you to define [plugins](https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/plugins)
+by allowing you to define [plugins](https://learn.microsoft.com/en-us/semantic-kernel/concepts/plugins)
 that can be chained together
 in just a [few lines of code](https://learn.microsoft.com/en-us/semantic-kernel/ai-orchestration/chaining-functions?tabs=Csharp#using-the-runasync-method-to-simplify-your-code).
 

@@ -1,9 +1,9 @@
 ---
 title: abseil-cpp
-date: 2024-07-19T12:20:12+08:00
+date: 2024-07-20T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719938570902-6fe35719cde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719938570902-6fe35719cde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720727612331-1c432da0ebb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720727612331-1c432da0ebb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
 ---
 
 # [abseil/abseil-cpp](https://github.com/abseil/abseil-cpp)
