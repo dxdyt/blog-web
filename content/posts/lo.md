@@ -1,9 +1,9 @@
 ---
 title: lo
-date: 2024-07-20T12:20:00+08:00
+date: 2024-07-21T12:18:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717501218037-2a88e2cbd2f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717501218037-2a88e2cbd2f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719216325389-3ccff69dc785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719216325389-3ccff69dc785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
 ---
 
 # [samber/lo](https://github.com/samber/lo)

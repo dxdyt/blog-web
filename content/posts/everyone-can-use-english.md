@@ -1,46 +1,62 @@
 ---
 title: everyone-can-use-english
-date: 2024-06-30T12:18:08+08:00
+date: 2024-07-21T12:17:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715582986219-646df4e13cd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715582986219-646df4e13cd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718582896304-4d147f0a364e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718582896304-4d147f0a364e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
 ---
 
 # [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english)
 
-# 一千小时
+<div align="center">
+  <img src="./enjoy/assets/icon.png" alt="Clash" width="128" />
+</div>
 
-## 在线阅读
+<h3 align="center">
+AI 是当今世界上最好的外语老师，Enjoy 做 AI 最好的助教。
+</h3>
 
-[1000h.org](https://1000h.org)
+[![Deploy 1000h website](https://github.com/ZuodaoTech/everyone-can-use-english/actions/workflows/deploy-1000h.yml/badge.svg)](https://github.com/ZuodaoTech/everyone-can-use-english/actions/workflows/deploy-1000h.yml)
+[![Test Enjoy App](https://github.com/ZuodaoTech/everyone-can-use-english/actions/workflows/test-enjoy-app.yml/badge.svg)](https://github.com/ZuodaoTech/everyone-can-use-english/actions/workflows/test-enjoy-app.yml)
+[![Release Enjoy App](https://github.com/ZuodaoTech/everyone-can-use-english/actions/workflows/release-enjoy-app.yml/badge.svg)](https://github.com/ZuodaoTech/everyone-can-use-english/actions/workflows/release-enjoy-app.yml)
+![Recording Duration](https://img.shields.io/endpoint?url=https%3A%2F%2Fenjoy.bot%2Fapi%2Fbadges%2Frecordings)
 
-## 本地阅读
+---
 
-```
-yarn install
-yarn docs:dev
-```
+## 安装及使用
 
-# Enjoy App
+下载及使用相关说明，请参阅 [文档](https://1000h.org/enjoy-app/)。
 
-## 使用说明
+## 预览
 
-请参阅 https://1000h.org/enjoy-app/
+<div align="center" style="display:flex;overflow:auto;">
+  <img src="./enjoy/snapshots/home.png" alt="Home" width="800" />
 
-## 本地启动
+  <img src="./enjoy/snapshots/shadow.png" alt="Home" width="800" />
 
-```
+  <img src="./enjoy/snapshots/assessment.png" alt="Home" width="800" />
+
+  <img src="./enjoy/snapshots/course.png" alt="Home" width="800" />
+</div>
+
+## 开发
+
+```bash
 yarn install
 yarn enjoy:start
 ```
 
-# 语音塑造（新版）（2024）
+## 相关阅读
 
-请参阅 https://1000h.org/sounds-of-american-english/1-basics.html
+### 一千小时（2024）
 
-# 人人都能用英语（2010）
+- [简要说明](https://1000h.org/intro.html)
+- [训练任务](https://1000h.org/training-tasks/kick-off.html)
+- [语音塑造](https://1000h.org/sounds-of-american-english/1-basics.html)
+- [大脑内部](https://1000h.org/in-the-brain/01-inifinite.html)
+- [自我训练](https://1000h.org/self-training/00-intro.html)
 
-## 目录
+### 人人都能用英语（2010）
 
 - [简介](./book/README.md)
 - [第一章：起点](./book/chapter1.md)

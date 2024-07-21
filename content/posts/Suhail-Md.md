@@ -1,9 +1,9 @@
 ---
 title: Suhail-Md
-date: 2024-07-07T12:17:22+08:00
+date: 2024-07-21T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718653505304-7a4ab69748c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718653505304-7a4ab69748c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719179513227-15758bc779ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719179513227-15758bc779ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
 ---
 
 # [SuhailTechInfo/Suhail-Md](https://github.com/SuhailTechInfo/Suhail-Md)

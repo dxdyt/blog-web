@@ -1,9 +1,9 @@
 ---
 title: vault
-date: 2024-07-20T12:20:09+08:00
+date: 2024-07-21T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720010943528-d709a0857650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720010943528-d709a0857650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720378042263-bd1a33156bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720378042263-bd1a33156bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
 ---
 
 # [hashicorp/vault](https://github.com/hashicorp/vault)

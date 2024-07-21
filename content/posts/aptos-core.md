@@ -1,9 +1,9 @@
 ---
 title: aptos-core
-date: 2024-05-03T12:19:50+08:00
+date: 2024-07-21T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711873317218-73f1cb784b2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711873317218-73f1cb784b2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719216325389-3ccff69dc785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719216325389-3ccff69dc785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
 ---
 
 # [aptos-labs/aptos-core](https://github.com/aptos-labs/aptos-core)

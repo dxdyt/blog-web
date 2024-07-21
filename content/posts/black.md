@@ -1,9 +1,9 @@
 ---
 title: black
-date: 2024-02-18T12:15:22+08:00
+date: 2024-07-21T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707757618962-010cdd24bbc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgyMjk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720409886741-0fc1bed267f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720409886741-0fc1bed267f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
 ---
 
 # [psf/black](https://github.com/psf/black)
