@@ -1,9 +1,9 @@
 ---
 title: alist
-date: 2024-06-11T12:19:08+08:00
+date: 2024-07-22T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717436881289-561adf58e8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717436881289-561adf58e8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1717154462649-e0c67fa0f556?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1717154462649-e0c67fa0f556?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [alist-org/alist](https://github.com/alist-org/alist)
@@ -15,13 +15,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1717436881289-561adf58e8
   <a href="https://goreportcard.com/report/github.com/alist-org/alist/v3">
     <img src="https://goreportcard.com/badge/github.com/alist-org/alist/v3" alt="latest version" />
   </a>
-  <a href="https://github.com/Xhofe/alist/blob/main/LICENSE">
+  <a href="https://github.com/alist-org/alist/blob/main/LICENSE">
     <img src="https://img.shields.io/github/license/Xhofe/alist" alt="License" />
   </a>
-  <a href="https://github.com/Xhofe/alist/actions?query=workflow%3ABuild">
+  <a href="https://github.com/alist-org/alist/actions?query=workflow%3ABuild">
     <img src="https://img.shields.io/github/actions/workflow/status/Xhofe/alist/build.yml?branch=main" alt="Build status" />
   </a>
-  <a href="https://github.com/Xhofe/alist/releases">
+  <a href="https://github.com/alist-org/alist/releases">
     <img src="https://img.shields.io/github/release/Xhofe/alist" alt="latest version" />
   </a>
   <a title="Crowdin" target="_blank" href="https://crwd.in/alist">
@@ -29,13 +29,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1717436881289-561adf58e8
   </a>
 </div>
 <div>
-  <a href="https://github.com/Xhofe/alist/discussions">
+  <a href="https://github.com/alist-org/alist/discussions">
     <img src="https://img.shields.io/github/discussions/Xhofe/alist?color=%23ED8936" alt="discussions" />
   </a>
   <a href="https://discord.gg/F4ymsH4xv2">
     <img src="https://img.shields.io/discord/1018870125102895134?logo=discord" alt="discussions" />
   </a>
-  <a href="https://github.com/Xhofe/alist/releases">
+  <a href="https://github.com/alist-org/alist/releases">
     <img src="https://img.shields.io/github/downloads/Xhofe/alist/total?color=%239F7AEA&logo=github" alt="Downloads" />
   </a>
   <a href="https://hub.docker.com/r/xhofe/alist">
@@ -116,7 +116,7 @@ English | [中文](./README_cn.md)| [日本語](./README_ja.md) | [Contributing]
 
 ## Discussion
 
-Please go to our [discussion forum](https://github.com/Xhofe/alist/discussions) for general questions, **issues are for bug reports and feature requests only.**
+Please go to our [discussion forum](https://github.com/alist-org/alist/discussions) for general questions, **issues are for bug reports and feature requests only.**
 
 ## Sponsor
 
@@ -148,4 +148,4 @@ The `AList` is open-source software licensed under the AGPL-3.0 license.
 
 ---
 
-> [@Blog](https://nn.ci/) · [@GitHub](https://github.com/Xhofe) · [@TelegramGroup](https://t.me/alist_chat) · [@Discord](https://discord.gg/F4ymsH4xv2)
+> [@Blog](https://nn.ci/) · [@GitHub](https://github.com/alist-org) · [@TelegramGroup](https://t.me/alist_chat) · [@Discord](https://discord.gg/F4ymsH4xv2)

@@ -1,9 +1,9 @@
 ---
 title: open-gpu-kernel-modules
-date: 2024-07-21T12:17:40+08:00
+date: 2024-07-22T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720233833466-64415765eaf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720233833466-64415765eaf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714852575817-79e1e6ef27e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714852575817-79e1e6ef27e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/open-gpu-kernel-modules](https://github.com/NVIDIA/open-gpu-kernel-modules)

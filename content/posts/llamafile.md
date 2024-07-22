@@ -1,46 +1,48 @@
 ---
 title: llamafile
-date: 2024-05-29T12:19:54+08:00
+date: 2024-07-22T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715619684759-8203b89e88ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715619684759-8203b89e88ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY5NTYyOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720849644323-499c62694fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720849644323-499c62694fbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [Mozilla-Ocho/llamafile](https://github.com/Mozilla-Ocho/llamafile)
 
 # llamafile
 
+[![ci status](https://github.com/Mozilla-Ocho/llamafile/actions/workflows/ci.yml/badge.svg)](https://github.com/Mozilla-Ocho/llamafile/actions/workflows/ci.yml)<br/>
+[![](https://dcbadge.vercel.app/api/server/YuMNeuKStr)](https://discord.gg/YuMNeuKStr)<br/><br/>
+
 <img src="llamafile/llamafile-640x640.png" width="320" height="320"
      alt="[line drawing of llama animal head in front of slightly open manilla folder filled with files]">
 
 **llamafile lets you distribute and run LLMs with a single file. ([announcement blog post](https://hacks.mozilla.org/2023/11/introducing-llamafile/))**
 
-[![](https://dcbadge.vercel.app/api/server/teDuGYVTB2)](https://discord.gg/teDuGYVTB2)
-
-Our goal is to make open LLMs much more 
-accessible to both developers and end users. We're doing that by 
-combining [llama.cpp](https://github.com/ggerganov/llama.cpp) with [Cosmopolitan Libc](https://github.com/jart/cosmopolitan) into one 
-framework that collapses all the complexity of LLMs down to 
+Our goal is to make open LLMs much more
+accessible to both developers and end users. We're doing that by
+combining [llama.cpp](https://github.com/ggerganov/llama.cpp) with [Cosmopolitan Libc](https://github.com/jart/cosmopolitan) into one
+framework that collapses all the complexity of LLMs down to
 a single-file executable (called a "llamafile") that runs
-locally on most computers, with no installation.
+locally on most computers, with no installation.<br/><br/>
 
-[Join us on our Discord](https://discord.gg/teDuGYVTB2)
+<a href="https://future.mozilla.org"><img src="llamafile/mozilla-logo-bw-rgb.png" width="150"></a><br/>
+llamafile is a Mozilla Builders project.<br/><br/>
 
 ## Quickstart
 
-The easiest way to try it for yourself is to download our example 
-llamafile for the [LLaVA](https://llava-vl.github.io/) model (license: [LLaMA 2](https://ai.meta.com/resources/models-and-libraries/llama-downloads/), 
-[OpenAI](https://openai.com/policies/terms-of-use)). LLaVA is a new LLM that can do more 
-than just chat; you can also upload images and ask it questions 
-about them. With llamafile, this all happens locally; no data 
+The easiest way to try it for yourself is to download our example
+llamafile for the [LLaVA](https://llava-vl.github.io/) model (license: [LLaMA 2](https://ai.meta.com/resources/models-and-libraries/llama-downloads/),
+[OpenAI](https://openai.com/policies/terms-of-use)). LLaVA is a new LLM that can do more
+than just chat; you can also upload images and ask it questions
+about them. With llamafile, this all happens locally; no data
 ever leaves your computer.
 
 1. Download [llava-v1.5-7b-q4.llamafile](https://huggingface.co/Mozilla/llava-v1.5-7b-llamafile/resolve/main/llava-v1.5-7b-q4.llamafile?download=true) (4.29 GB).
 
 2. Open your computer's terminal.
 
-3. If you're using macOS, Linux, or BSD, you'll need to grant permission 
-for your computer to execute this new file. (You only need to do this 
+3. If you're using macOS, Linux, or BSD, you'll need to grant permission
+for your computer to execute this new file. (You only need to do this
 once.)
 
 ```sh
@@ -55,7 +57,7 @@ chmod +x llava-v1.5-7b-q4.llamafile
 ./llava-v1.5-7b-q4.llamafile
 ```
 
-6. Your browser should open automatically and display a chat interface. 
+6. Your browser should open automatically and display a chat interface.
 (If it doesn't, just open your browser and point it at http://localhost:8080)
 
 7. When you're done chatting, return to your terminal and hit
@@ -227,13 +229,13 @@ later in this document.
 
 ## How llamafile works
 
-A llamafile is an executable LLM that you can run on your own 
-computer. It contains the weights for a given open LLM, as well 
-as everything needed to actually run that model on your computer. 
-There's nothing to install or configure (with a few caveats, discussed 
+A llamafile is an executable LLM that you can run on your own
+computer. It contains the weights for a given open LLM, as well
+as everything needed to actually run that model on your computer.
+There's nothing to install or configure (with a few caveats, discussed
 in subsequent sections of this document).
 
-This is all accomplished by combining llama.cpp with Cosmopolitan Libc, 
+This is all accomplished by combining llama.cpp with Cosmopolitan Libc,
 which provides some useful capabilities:
 
 1. llamafiles can run on multiple CPU microarchitectures. We
@@ -247,10 +249,10 @@ and most UNIX shells. It's also able to be easily converted (by either
 you or your users) to the platform-native format, whenever required.
 
 3. llamafiles can run on six OSes (macOS, Windows, Linux,
-FreeBSD, OpenBSD, and NetBSD). If you make your own llama files, you'll 
-only need to build your code once, using a Linux-style toolchain. The 
-GCC-based compiler we provide is itself an Actually Portable Executable, 
-so you can build your software for all six OSes from the comfort of 
+FreeBSD, OpenBSD, and NetBSD). If you make your own llama files, you'll
+only need to build your code once, using a Linux-style toolchain. The
+GCC-based compiler we provide is itself an Actually Portable Executable,
+so you can build your software for all six OSes from the comfort of
 whichever one you prefer most for development.
 
 4. The weights for an LLM can be embedded within the llamafile.
@@ -260,19 +262,19 @@ archive. It enables quantized weights distributed online to be prefixed
 with a compatible version of the llama.cpp software, thereby ensuring
 its originally observed behaviors can be reproduced indefinitely.
 
-5. Finally, with the tools included in this project you can create your 
-*own* llamafiles, using any compatible model weights you want. You can 
-then distribute these llamafiles to other people, who can easily make 
+5. Finally, with the tools included in this project you can create your
+*own* llamafiles, using any compatible model weights you want. You can
+then distribute these llamafiles to other people, who can easily make
 use of them regardless of what kind of computer they have.
 
 ## Using llamafile with external weights
 
-Even though our example llamafiles have the weights built-in, you don't 
-*have* to use llamafile that way. Instead, you can download *just* the 
-llamafile software (without any weights included) from our releases page. 
-You can then use it alongside any external weights you may have on hand. 
-External weights are particularly useful for Windows users because they 
-enable you to work around Windows' 4GB executable file size limit. 
+Even though our example llamafiles have the weights built-in, you don't
+*have* to use llamafile that way. Instead, you can download *just* the
+llamafile software (without any weights included) from our releases page.
+You can then use it alongside any external weights you may have on hand.
+External weights are particularly useful for Windows users because they
+enable you to work around Windows' 4GB executable file size limit.
 
 For Windows users, here's an example for the Mistral LLM:
 
@@ -307,13 +309,13 @@ sudo sh -c "echo ':APE:M::MZqFpD::/usr/bin/ape:' >/proc/sys/fs/binfmt_misc/regis
 sudo sh -c "echo ':APE-jart:M::jartsr::/usr/bin/ape:' >/proc/sys/fs/binfmt_misc/register"
 ```
 
-As mentioned above, on Windows you may need to rename your llamafile by 
-adding `.exe` to the filename. 
+As mentioned above, on Windows you may need to rename your llamafile by
+adding `.exe` to the filename.
 
 Also as mentioned above, Windows also has a maximum file size limit of 4GB
 for executables. The LLaVA server executable above is just 30MB shy of
 that limit, so it'll work on Windows, but with larger models like
-WizardCoder 13B, you need to store the weights in a separate file. An 
+WizardCoder 13B, you need to store the weights in a separate file. An
 example is provided above; see "Using llamafile with external weights."
 
 On WSL, it's recommended that the WIN32 interop feature be disabled:
@@ -338,7 +340,7 @@ if you have CrowdStrike and then ask to be whitelisted.
 
 ## Supported OSes
 
-llamafile supports the following operating systems, which require a minimum 
+llamafile supports the following operating systems, which require a minimum
 stock install:
 
 - Linux 2.6.18+ (i.e. every distro since RHEL5 c. 2007)
@@ -712,8 +714,8 @@ for further details.
 
 ## A note about models
 
-The example llamafiles provided above should not be interpreted as 
-endorsements or recommendations of specific models, licenses, or data 
+The example llamafiles provided above should not be interpreted as
+endorsements or recommendations of specific models, licenses, or data
 sets on the part of Mozilla.
 
 ## Security

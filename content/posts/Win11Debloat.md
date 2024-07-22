@@ -1,9 +1,9 @@
 ---
 title: Win11Debloat
-date: 2024-07-21T12:17:55+08:00
+date: 2024-07-22T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720233833466-64415765eaf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720233833466-64415765eaf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718830934774-919322ecc1af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718830934774-919322ecc1af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)

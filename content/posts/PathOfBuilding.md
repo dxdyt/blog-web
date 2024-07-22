@@ -1,9 +1,9 @@
 ---
 title: PathOfBuilding
-date: 2023-04-05T12:17:04+08:00
+date: 2024-07-22T12:18:40+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11999/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11999/0/1080p
+featuredImage: https://images.unsplash.com/photo-1718830934774-919322ecc1af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718830934774-919322ecc1af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [PathOfBuildingCommunity/PathOfBuilding](https://github.com/PathOfBuildingCommunity/PathOfBuilding)

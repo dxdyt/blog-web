@@ -1,9 +1,9 @@
 ---
 title: Paper
-date: 2024-06-18T12:17:37+08:00
+date: 2024-07-22T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716407406494-6ad6a8c16ad3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg2ODQxOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716407406494-6ad6a8c16ad3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg2ODQxOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1695221087406-257eca10a2e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1695221087406-257eca10a2e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [PaperMC/Paper](https://github.com/PaperMC/Paper)

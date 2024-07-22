@@ -1,9 +1,9 @@
 ---
 title: v2rayNG
-date: 2023-11-06T12:16:15+08:00
+date: 2024-07-22T12:17:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698681062595-20766b790815?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkyNDQxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714852575817-79e1e6ef27e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714852575817-79e1e6ef27e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
 ---
 
 # [2dust/v2rayNG](https://github.com/2dust/v2rayNG)
