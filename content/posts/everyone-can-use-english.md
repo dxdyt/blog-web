@@ -1,9 +1,9 @@
 ---
 title: everyone-can-use-english
-date: 2024-07-22T12:19:36+08:00
+date: 2024-07-23T12:17:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718830934774-919322ecc1af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718830934774-919322ecc1af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720575073320-6c9d3a00d360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720575073320-6c9d3a00d360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
 ---
 
 # [ZuodaoTech/everyone-can-use-english](https://github.com/ZuodaoTech/everyone-can-use-english)

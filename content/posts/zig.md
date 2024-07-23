@@ -1,9 +1,9 @@
 ---
 title: zig
-date: 2024-04-24T12:18:01+08:00
+date: 2024-07-23T12:17:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707808512103-23f911fab68a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707808512103-23f911fab68a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM5MzIxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718964313564-a79ff1a60ffa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718964313564-a79ff1a60ffa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
 ---
 
 # [ziglang/zig](https://github.com/ziglang/zig)
@@ -57,9 +57,9 @@ mechanism supports that use case too (i.e. `/usr/bin/zig` and `/usr/lib/zig/`).
 
 Ensure you have the required dependencies:
 
- * CMake >= 3.5
+ * CMake >= 3.15
  * System C/C++ Toolchain
- * LLVM, Clang, LLD development libraries == 17.x
+ * LLVM, Clang, LLD development libraries == 18.x
 
 Then it is the standard CMake build process:
 

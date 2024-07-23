@@ -1,9 +1,9 @@
 ---
 title: Ryujinx
-date: 2024-05-07T12:19:01+08:00
+date: 2024-07-23T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713872288272-afa3f0d001c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713872288272-afa3f0d001c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUwNTU0MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720983685929-3ed3309aed63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720983685929-3ed3309aed63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
 ---
 
 # [Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
@@ -46,8 +46,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1713872288272-afa3f0d001
 
 ## Compatibility
 
-As of October 2023, Ryujinx has been tested on approximately 4,200 titles;
-over 4,150 boot past menus and into gameplay, with roughly 3,500 of those being considered playable.
+As of May 2024, Ryujinx has been tested on approximately 4,300 titles;
+over 4,100 boot past menus and into gameplay, with roughly 3,550 of those being considered playable.
 
 You can check out the compatibility list [here](https://github.com/Ryujinx/Ryujinx-Games-List/issues).
 

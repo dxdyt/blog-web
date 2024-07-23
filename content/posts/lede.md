@@ -1,9 +1,9 @@
 ---
 title: lede
-date: 2024-06-18T12:17:57+08:00
+date: 2024-07-23T12:19:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716407406494-6ad6a8c16ad3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg2ODQxOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716407406494-6ad6a8c16ad3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg2ODQxOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1713994099171-dcfc05d556aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1713994099171-dcfc05d556aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
 ---
 
 # [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
@@ -142,6 +142,8 @@ PS > git clone git@github.com:coolsnowwolf/lede.git <your_local_lede_path>
 
 4. 然后输入以下命令，添加到系统环境变量中：
 
+   - intel 芯片的 mac
+
    ```bash
    echo 'export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"' >> ~/.bashrc
    echo 'export PATH="/usr/local/opt/findutils/libexec/gnubin:$PATH"' >> ~/.bashrc
@@ -150,6 +152,17 @@ PS > git clone git@github.com:coolsnowwolf/lede.git <your_local_lede_path>
    echo 'export PATH="/usr/local/opt/grep/libexec/gnubin:$PATH"' >> ~/.bashrc
    echo 'export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.bashrc
    echo 'export PATH="/usr/local/opt/make/libexec/gnubin:$PATH"' >> ~/.bashrc
+   ```
+   - apple 芯片的 mac
+   
+   ```zsh
+   echo 'export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"' >> ~/.bashrc
+   echo 'export PATH="/opt/homebrew/opt/findutils/libexec/gnubin:$PATH"' >> ~/.bashrc
+   echo 'export PATH="/opt/homebrew/opt/gnu-getopt/bin:$PATH"' >> ~/.bashrc
+   echo 'export PATH="/opt/homebrew/opt/gnu-tar/libexec/gnubin:$PATH"' >> ~/.bashrc
+   echo 'export PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"' >> ~/.bashrc
+   echo 'export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH"' >> ~/.bashrc
+   echo 'export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"' >> ~/.bashrc
    ```
 
 5. 重新加载一下 shell 启动文件 `source ~/.bashrc`，然后输入 `bash` 进入 bash shell，就可以和 Linux 一样正常编译了

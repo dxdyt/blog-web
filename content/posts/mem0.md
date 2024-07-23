@@ -1,9 +1,9 @@
 ---
 title: mem0
-date: 2024-07-22T12:17:49+08:00
+date: 2024-07-23T12:17:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720247522784-ba24b938534d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720247522784-ba24b938534d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718964313564-a79ff1a60ffa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718964313564-a79ff1a60ffa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
 ---
 
 # [mem0ai/mem0](https://github.com/mem0ai/mem0)
@@ -13,14 +13,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1720247522784-ba24b93853
 </p>
 
 <p align="center">
-  <a href="https://embedchain.ai/slack">
-    <img src="https://img.shields.io/badge/slack-embedchain-brightgreen.svg?logo=slack" alt="Slack">
+  <a href="https://mem0.ai/slack">
+    <img src="https://img.shields.io/badge/slack-mem0-brightgreen.svg?logo=slack" alt="Mem0 Slack">
   </a>
-  <a href="https://embedchain.ai/discord">
-    <img src="https://dcbadge.vercel.app/api/server/6PzXDgEjG5?style=flat" alt="Discord">
+  <a href="https://mem0.ai/discord">
+    <img src="https://dcbadge.vercel.app/api/server/6PzXDgEjG5?style=flat" alt="Mem0 Discord">
   </a>
-  <a href="https://twitter.com/mem0ai">
-    <img src="https://img.shields.io/twitter/follow/mem0ai" alt="Twitter">
+  <a href="https://x.com/mem0ai">
+    <img src="https://img.shields.io/twitter/follow/mem0ai" alt="Mem0 Twitter">
   </a>
 </p>
 

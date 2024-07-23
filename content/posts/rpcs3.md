@@ -1,9 +1,9 @@
 ---
 title: rpcs3
-date: 2024-04-16T12:18:09+08:00
+date: 2024-07-23T12:18:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711638753941-3a7128aa759f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711638753941-3a7128aa759f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721308895921-094c78aae7c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721308895921-094c78aae7c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
 ---
 
 # [RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
