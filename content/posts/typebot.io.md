@@ -1,9 +1,9 @@
 ---
 title: typebot.io
-date: 2024-06-20T12:17:06+08:00
+date: 2024-07-24T12:17:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717028430111-6a58f59fa4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717028430111-6a58f59fa4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg4NTY5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1708162426274-514093c95e0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1708162426274-514093c95e0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
 ---
 
 # [baptisteArno/typebot.io](https://github.com/baptisteArno/typebot.io)

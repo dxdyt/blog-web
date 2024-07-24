@@ -1,9 +1,9 @@
 ---
 title: lit
-date: 2023-06-18T12:17:27+08:00
+date: 2024-07-24T12:18:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1684001217547-17bf9b62931f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1684001217547-17bf9b62931f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODcwNjE2NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718301702411-79babe48eb27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718301702411-79babe48eb27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
 ---
 
 # [lit/lit](https://github.com/lit/lit)

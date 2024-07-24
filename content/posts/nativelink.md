@@ -1,9 +1,9 @@
 ---
 title: nativelink
-date: 2024-07-23T12:18:26+08:00
+date: 2024-07-24T12:17:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720575073320-6c9d3a00d360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720575073320-6c9d3a00d360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720247524001-46a6ec33c60b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720247524001-46a6ec33c60b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
 ---
 
 # [TraceMachina/nativelink](https://github.com/TraceMachina/nativelink)
