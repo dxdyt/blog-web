@@ -1,9 +1,9 @@
 ---
 title: testify
-date: 2024-07-24T12:18:05+08:00
+date: 2024-07-25T12:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721296381825-426cfb4dc450?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721296381825-426cfb4dc450?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719328376616-463c69404f0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719328376616-463c69404f0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
 ---
 
 # [stretchr/testify](https://github.com/stretchr/testify)

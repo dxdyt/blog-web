@@ -1,9 +1,9 @@
 ---
 title: qdrant
-date: 2024-03-20T12:19:44+08:00
+date: 2024-07-25T12:19:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709418354361-afdfb41ce4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709418354361-afdfb41ce4dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719607055881-fe8c6aa6a199?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719607055881-fe8c6aa6a199?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
 ---
 
 # [qdrant/qdrant](https://github.com/qdrant/qdrant)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709418354361-afdfb41ce4
 
 <p align=center>
     <a href="https://github.com/qdrant/qdrant/actions/workflows/rust.yml"><img src="https://img.shields.io/github/actions/workflow/status/qdrant/qdrant/rust.yml?style=flat-square" alt="Tests status"></a>
-    <a href="https://qdrant.github.io/qdrant/redoc/index.html"><img src="https://img.shields.io/badge/Docs-OpenAPI%203.0-success?style=flat-square" alt="OpenAPI Docs"></a>
+    <a href="https://api.qdrant.tech/"><img src="https://img.shields.io/badge/Docs-OpenAPI%203.0-success?style=flat-square" alt="OpenAPI Docs"></a>
     <a href="https://github.com/qdrant/qdrant/blob/master/LICENSE"><img src="https://img.shields.io/github/license/qdrant/qdrant?style=flat-square" alt="Apache 2.0 License"></a>
     <a href="https://qdrant.to/discord"><img src="https://img.shields.io/discord/907569970500743200?logo=Discord&style=flat-square&color=7289da" alt="Discord"></a>
     <a href="https://qdrant.to/roadmap"><img src="https://img.shields.io/badge/Roadmap-2024-bc1439.svg?style=flat-square" alt="Roadmap 2024"></a>
@@ -60,7 +60,7 @@ client = QdrantClient(path="path/to/db")  # Persists changes to disk, fast proto
 
 ### Client-Server
 
-This is the recommended method for production usage. To run the container, use the command:
+To experience the full power of Qdrant locally, run the container with this command:
 
 ```bash
 docker run -p 6333:6333 qdrant/qdrant
@@ -69,8 +69,10 @@ docker run -p 6333:6333 qdrant/qdrant
 Now you can connect to this with any client, including Python:
 
 ```python
-qdrant = QdrantClient("http://localhost:6333") # Connect to existing Qdrant instance, for production
+qdrant = QdrantClient("http://localhost:6333") # Connect to existing Qdrant instance
 ```
+
+Before deploying Qdrant to production, be sure to read our [installation](https://qdrant.tech/documentation/guides/installation/) and [security](https://qdrant.tech/documentation/guides/security/) guides.
 
 ### Clients
 
@@ -169,7 +171,7 @@ Enter the cutting-edge realm of extreme classification, an emerging machine lear
 
 ### REST
 
-Online OpenAPI 3.0 documentation is available [here](https://qdrant.github.io/qdrant/redoc/index.html).
+Online OpenAPI 3.0 documentation is available [here](https://api.qdrant.tech/).
 OpenAPI makes it easy to generate a client for virtually any framework or programming language.
 
 You can also download raw OpenAPI [definitions](https://github.com/qdrant/qdrant/blob/master/docs/redoc/master/openapi.json).
@@ -214,17 +216,17 @@ Qdrant offers comprehensive horizontal scaling support through two key mechanism
 * **Query Planning and Payload Indexes** - leverages stored payload information to optimize query execution strategy.
 * **SIMD Hardware Acceleration** - utilizes modern CPU x86-x64 and Neon architectures to deliver better performance.
 * **Async I/O** - uses `io_uring` to maximize disk throughput utilization even on a network-attached storage.
-* **Write-Ahead Logging** - ensures data persistence with update confirmation, even during power outages. 
+* **Write-Ahead Logging** - ensures data persistence with update confirmation, even during power outages.
 
 
 # Integrations
 
 Examples and/or documentation of Qdrant integrations:
 
-- [Cohere](https://docs.cohere.com/docs/integrations#qdrant) ([blogpost on building a QA app with Cohere and Qdrant](https://qdrant.tech/articles/qa-with-cohere-and-qdrant/)) - Use Cohere embeddings with Qdrant
-- [DocArray](https://docarray.jina.ai/advanced/document-store/qdrant/) - Use Qdrant as a document store in DocArray
+- [Cohere](https://docs.cohere.com/docs/qdrant-and-cohere) ([blogpost on building a QA app with Cohere and Qdrant](https://qdrant.tech/articles/qa-with-cohere-and-qdrant/)) - Use Cohere embeddings with Qdrant
+- [DocArray](https://docs.docarray.org/user_guide/storing/index_qdrant/) - Use Qdrant as a document store in DocArray
 - [Haystack](https://haystack.deepset.ai/integrations/qdrant-document-store) - Use Qdrant as a document store with Haystack ([blogpost](https://haystack.deepset.ai/blog/qdrant-integration)).
-- [LangChain](https://python.langchain.com/en/latest/modules/indexes/vectorstores/examples/qdrant.html) ([blogpost](https://qdrant.tech/articles/langchain-integration/)) - Use Qdrant as a memory backend for LangChain.
+- [LangChain](https://python.langchain.com/docs/integrations/providers/qdrant/) ([blogpost](https://qdrant.tech/articles/langchain-integration/)) - Use Qdrant as a memory backend for LangChain.
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/examples/vector_stores/QdrantIndexDemo.html) - Use Qdrant as a Vector Store with LlamaIndex.
 - [OpenAI - ChatGPT retrieval plugin](https://github.com/openai/chatgpt-retrieval-plugin/blob/main/docs/providers/qdrant/setup.md) - Use Qdrant as a memory backend for ChatGPT
 - [Microsoft Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/the-power-of-persistent-memory-with-semantic-kernel-and-qdrant-vector-database/) - Use Qdrant as persistent memory with Semantic Kernel

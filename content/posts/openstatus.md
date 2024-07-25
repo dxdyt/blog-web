@@ -1,9 +1,9 @@
 ---
 title: openstatus
-date: 2024-07-23T12:18:19+08:00
+date: 2024-07-25T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721265576553-e7f8242fc915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721265576553-e7f8242fc915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719996510843-25348b436dcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719996510843-25348b436dcc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
 ---
 
 # [openstatusHQ/openstatus](https://github.com/openstatusHQ/openstatus)
@@ -84,7 +84,7 @@ Made with [Contrib.rocks](https://contrib.rocks)
 
 ![Alt](https://repobeats.axiom.co/api/embed/180eee159c0128f683a30f15f51ac35bdbd9fa44.svg "Repobeats analytics image")
 
-## Built with 🛠️
+## Tech stack 🥞
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
@@ -93,6 +93,8 @@ Made with [Contrib.rocks](https://contrib.rocks)
 - [turso](http://turso.tech/)
 - [drizzle](https://orm.drizzle.team/)
 - [Resend](https://resend.com/)
+
+[![Built with Depot](https://depot.dev/badges/built-with-depot.svg)](https://depot.dev/?utm_source=Opource=OpenStatus)
 
 ## Getting Started 🚀
 

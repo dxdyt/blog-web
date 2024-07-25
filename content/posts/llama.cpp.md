@@ -1,9 +1,9 @@
 ---
 title: llama.cpp
-date: 2024-07-24T12:17:51+08:00
+date: 2024-07-25T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719805716024-3ed09a2713a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719805716024-3ed09a2713a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721240531496-fd9cd44e44dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721240531496-fd9cd44e44dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/llama.cpp](https://github.com/ggerganov/llama.cpp)
@@ -148,6 +148,7 @@ Typically finetunes of the base models below are supported as well.
 
 Unless otherwise noted these projects are open-source with permissive licensing:
 
+- [MindWorkAI/AI-Studio](https://github.com/MindWorkAI/AI-Studio) (FSL-1.1-MIT)
 - [iohub/collama](https://github.com/iohub/coLLaMA)
 - [janhq/jan](https://github.com/janhq/jan) (AGPL)
 - [nat/openplayground](https://github.com/nat/openplayground)
@@ -190,6 +191,9 @@ Unless otherwise noted these projects are open-source with permissive licensing:
 **Infrastructure:**
 
 - [Paddler](https://github.com/distantmagic/paddler) - Stateful load balancer custom-tailored for llama.cpp
+
+**Games:**
+- [Lucy's Labyrinth](https://github.com/MorganRO8/Lucys_Labyrinth) - A simple maze game where agents controlled by an AI model will try to trick you.
 
 ## Demo
 
