@@ -1,9 +1,9 @@
 ---
 title: lz4
-date: 2024-07-25T12:19:31+08:00
+date: 2024-07-26T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720247521833-56edf0d7d809?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720247521833-56edf0d7d809?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721116858340-d955652c2fc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721116858340-d955652c2fc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
 ---
 
 # [lz4/lz4](https://github.com/lz4/lz4)

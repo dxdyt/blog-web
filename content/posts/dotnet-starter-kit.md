@@ -1,9 +1,9 @@
 ---
 title: dotnet-starter-kit
-date: 2024-06-04T12:18:01+08:00
+date: 2024-07-26T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699436245533-219dc22501a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699436245533-219dc22501a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719943071246-36880df28062?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719943071246-36880df28062?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
 ---
 
 # [fullstackhero/dotnet-starter-kit](https://github.com/fullstackhero/dotnet-starter-kit)
