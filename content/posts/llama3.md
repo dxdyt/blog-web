@@ -1,9 +1,9 @@
 ---
 title: llama3
-date: 2024-07-26T12:18:21+08:00
+date: 2024-07-27T12:18:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719943071246-36880df28062?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719943071246-36880df28062?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719150006674-da2bbf9b94c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719150006674-da2bbf9b94c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama3](https://github.com/meta-llama/llama3)

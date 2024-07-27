@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2024-07-11T12:20:12+08:00
+date: 2024-07-27T12:19:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717957719901-219c075fb78c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717957719901-219c075fb78c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719090024488-a8e83d65bb06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719090024488-a8e83d65bb06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -226,7 +226,6 @@ At the same time, please consider supporting Dify by sharing it on social media 
 
 * [Github Discussion](https://github.com/langgenius/dify/discussions). Best for: sharing feedback and asking questions.
 * [GitHub Issues](https://github.com/langgenius/dify/issues). Best for: bugs you encounter using Dify.AI, and feature proposals. See our [Contribution Guide](https://github.com/langgenius/dify/blob/main/CONTRIBUTING.md).
-* [Email](mailto:support@dify.ai?subject=[GitHub]Questions%20About%20Dify). Best for: questions you have about using Dify.AI.
 * [Discord](https://discord.gg/FngNHpbcY7). Best for: sharing your applications and hanging out with the community.
 * [Twitter](https://twitter.com/dify_ai). Best for: sharing your applications and hanging out with the community.
 

@@ -1,9 +1,9 @@
 ---
 title: maestro
-date: 2024-07-26T12:18:04+08:00
+date: 2024-07-27T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721116858340-d955652c2fc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721116858340-d955652c2fc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719512867124-9ea3bc4d8f1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719512867124-9ea3bc4d8f1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
 ---
 
 # [Netflix/maestro](https://github.com/Netflix/maestro)
