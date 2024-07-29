@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-07-28T12:17:54+08:00
+date: 2024-07-29T12:17:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720623606537-05c9fd614192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIxNDAxNjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720623606537-05c9fd614192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIxNDAxNjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719743581496-b49b52756d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719743581496-b49b52756d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1720623606537-05c9fd6141
 <div id="top">
 
 <p align="center">
-  <img src="docs/images/MinerU-logo.png" width="160px" style="vertical-align:middle;">
+  <img src="docs/images/MinerU-logo.png" width="300px" style="vertical-align:middle;">
 </p>
 
 </div>
@@ -24,12 +24,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1720623606537-05c9fd6141
 [![PyPI version](https://badge.fury.io/py/magic-pdf.svg)](https://badge.fury.io/py/magic-pdf)
 [![Downloads](https://static.pepy.tech/badge/magic-pdf)](https://pepy.tech/project/magic-pdf)
 [![Downloads](https://static.pepy.tech/badge/magic-pdf/month)](https://pepy.tech/project/magic-pdf)
-<a href="https://trendshift.io/repositories/11174" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11174" alt="opendatalab%2FMinerU | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+<a href="https://trendshift.io/repositories/11174" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11174" alt="opendatalab%2FMinerU | Trendshift" style="width: 200px; height: 55px;"/></a>
 
 
 
 
-[English](README.md) | [简体中文](README_zh-CN.md)
+[English](README.md) | [简体中文](README_zh-CN.md) | [日本語](README_ja-JP.md)
 
 </div>
 
@@ -290,6 +291,13 @@ The project currently leverages PyMuPDF to deliver advanced functionalities; how
 # Citation
 
 ```bibtex
+@article{he2024opendatalab,
+  title={Opendatalab: Empowering general artificial intelligence with open datasets},
+  author={He, Conghui and Li, Wei and Jin, Zhenjiang and Xu, Chao and Wang, Bin and Lin, Dahua},
+  journal={arXiv preprint arXiv:2407.13773},
+  year={2024}
+}
+
 @misc{2024mineru,
     title={MinerU: A One-stop, Open-source, High-quality Data Extraction Tool},
     author={MinerU Contributors},

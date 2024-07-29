@@ -1,9 +1,9 @@
 ---
 title: open-saas
-date: 2024-02-03T12:16:06+08:00
+date: 2024-07-29T12:19:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704115859446-601dfae181c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704115859446-601dfae181c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709406158154-83d674d019a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709406158154-83d674d019a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
 ---
 
 # [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas)
@@ -33,22 +33,55 @@ The template itself is built on top of some very powerful tools and frameworks, 
 - 🚀 [Astro](https://starlight.astro.build/) - Astro's lightweight "Starlight" template for documentation and blog
 - 💸 [Stripe](https://stripe.com) - for products and payments
 - 📈 [Plausible](https://plausible.io) or [Google](https://analytics.google.com/) Analytics
-- 🤖 [OpenAI](https://openai.com) - OpenAI API integrated into the app
+- 🤖 [OpenAI](https://openai.com) - OpenAI API integrated into the app or [Replicate](https://replicate.com/) (coming soon 👀)
+- 📦 [AWS S3](https://aws.amazon.com/s3/) - for file uploads
 - 📧 [SendGrid](https://sendgrid.com), [MailGun](https://mailgun.com), or SMTP - for email sending
 - 💅 [TailwindCSS](https://tailwindcss.com) - for styling
 - 🧑‍💼 [TailAdmin](https://tailadmin.com/) - admin dashboard & components for TailwindCSS
+- 🧪 [Playwright](https://playwright.dev) - end-to-end tests with Playwright
 
 Because we're using Wasp as the full-stack framework, we can leverage a lot of its features to build our SaaS in record time, including:
 
 - 🔐 [Full-stack Authentication](https://wasp-lang.dev/docs/auth/overview) - Email verified + social Auth in a few lines of code.
 - ⛑ [End-to-end Type Safety](https://wasp-lang.dev/docs/data-model/operations/overview) - Type your backend functions and get inferred types on the front-end automatically, without the need to install or configure any third-party libraries. Oh, and type-safe Links, too!
-- 🤖 [Jobs](https://wasp-lang.dev/docs/language/features#jobs) - Run cron jobs in the background or set up queues simply by defining a function in the config file.
-- 🚀 [One-command Deploy](https://wasp-lang.dev/docs/advanced/deployment/overview) - Easily deploy via the CLI to [Fly.io](https://fly.io), or to other provides like [Railway](https://railway.app) and [Netlify](https://netlify.com).
+- 🤖 [Jobs](https://wasp-lang.dev/docs/advanced/jobs) - Run cron jobs in the background or set up queues simply by defining a function in the config file.
+- 🚀 [One-command Deploy](https://wasp-lang.dev/docs/advanced/deployment/overview) - Easily deploy via the CLI to [Fly.io](https://fly.io), or to other providers like [Railway](https://railway.app) and [Netlify](https://netlify.com).
 
 You also get access to Wasp's diverse, helpful community if you get stuck or need help.
 - 🤝 [Wasp Discord](https://discord.gg/aCamt5wCpS)
 
+## Getting Started
+
+### Simple Instructions
+
+First, to install the latest version of [Wasp](https://wasp.sh/) on macOS, Linux, or Windows with WSL, run the following command:
+```bash
+curl -sSL https://get.wasp-lang.dev/installer.sh | sh
+```
+
+Then, create a new SaaS app with the following command:
+
+```bash
+wasp new -t saas
+```
+
+This will create a **clean copy of the Open SaaS template** into a new directory, and you can start building your SaaS app right away!
+
+### Detailed Instructions
+
+For everything you need to know about getting started and using this template, check out the [Open SaaS Docs](https://docs.opensaas.sh).
+
+We've documented everything in great detail, including installation instructions, pulling updates to the template, guides for integrating services, SEO, deployment, and more. 🚀
+
+## Getting Help & Providing Feedback
+
+There are two ways to get help or provide feedback (and we try to always respond quickly!):
+1. [Open an issue](https://github.com/wasp-lang/open-saas/issues)
+2. [Wasp Discord](https://discord.gg/aCamt5wCpS) -- please direct questions to the #🙋questions forum channel
+
+## Contributing
 
 Note that we've tried to get as many of the core features of a SaaS app into this template as possible, but there still might be some missing features or functionality.
 
-We could always use some help tying up loose ends, so consider [contributing](https://github.com/wasp-lang/open-saas/blob/main/CONTRIBUTING.md)!
+We could always use some help tying up loose ends: contributions are welcome! Check out [CONTRIBUTING.md](/CONTRIBUTING.md) for more details.
+

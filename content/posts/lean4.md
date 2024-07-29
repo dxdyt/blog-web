@@ -1,9 +1,9 @@
 ---
 title: lean4
-date: 2024-07-28T12:16:20+08:00
+date: 2024-07-29T12:18:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720623606537-05c9fd614192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIxNDAxNjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720623606537-05c9fd614192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIxNDAxNjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719825718360-7de63c92135f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719825718360-7de63c92135f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
 ---
 
 # [leanprover/lean4](https://github.com/leanprover/lean4)
