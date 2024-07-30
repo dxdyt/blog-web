@@ -1,9 +1,9 @@
 ---
 title: CyberChef
-date: 2024-06-14T12:17:34+08:00
+date: 2024-07-30T12:19:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715549950698-14f6673ea6b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715549950698-14f6673ea6b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgzMzg2Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721069662098-f2031c2319b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721069662098-f2031c2319b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
 ---
 
 # [gchq/CyberChef](https://github.com/gchq/CyberChef)

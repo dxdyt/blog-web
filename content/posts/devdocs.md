@@ -1,9 +1,9 @@
 ---
 title: devdocs
-date: 2024-07-28T12:18:04+08:00
+date: 2024-07-30T12:17:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721341739771-b36de0f37eb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIxNDAxNjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721341739771-b36de0f37eb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIxNDAxNjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722072977408-0865d9cc3904?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722072977408-0865d9cc3904?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
 ---
 
 # [freeCodeCamp/devdocs](https://github.com/freeCodeCamp/devdocs)

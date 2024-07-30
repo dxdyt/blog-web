@@ -1,9 +1,9 @@
 ---
 title: diagrams
-date: 2024-01-24T12:19:21+08:00
+date: 2024-07-30T12:18:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705323111671-8bb38301d9f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705323111671-8bb38301d9f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721657459654-9acf4d6d8211?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721657459654-9acf4d6d8211?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
 ---
 
 # [mingrammer/diagrams](https://github.com/mingrammer/diagrams)

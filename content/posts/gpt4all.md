@@ -1,9 +1,9 @@
 ---
 title: gpt4all
-date: 2024-07-06T12:18:00+08:00
+date: 2024-07-30T12:19:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719715769983-416ca174a405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719715769983-416ca174a405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAyMzk0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720857018297-1fd008d44b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720857018297-1fd008d44b07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
 ---
 
 # [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
@@ -32,6 +32,13 @@ https://github.com/nomic-ai/gpt4all/assets/70534565/513a0f15-4964-4109-89e4-4f9a
   <a href="https://gpt4all.io/installers/gpt4all-installer-linux.run">
     <img src="gpt4all-bindings/python/docs/assets/ubuntu.svg" width="120" height="120"><br>
     Download for Ubuntu
+  </a>
+</p>
+
+<p align="center">
+  <a href='https://flathub.org/apps/io.gpt4all.gpt4all'>
+    <img width='240' alt='Get it on Flathub' src='https://flathub.org/api/badge?locale=en'><br>
+    Get it on Flathub (community maintained)
   </a>
 </p>
 

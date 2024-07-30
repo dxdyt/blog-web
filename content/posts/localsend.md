@@ -1,9 +1,9 @@
 ---
 title: localsend
-date: 2024-03-14T12:17:44+08:00
+date: 2024-07-30T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708966847292-175a76fdc98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708966847292-175a76fdc98b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzODk2OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720887237251-f46eb98416c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720887237251-f46eb98416c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
 ---
 
 # [localsend/localsend](https://github.com/localsend/localsend)
@@ -17,7 +17,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1708966847292-175a76fdc9
 
 [Homepage][homepage] • [Discord][discord] • [GitHub][github] • [Codeberg][codeberg]
 
-[中文](README_ZH.md)
+[English](README.md) • [中文](README_ZH.md) • [日本語](README_JA.md)
 
 [homepage]: https://localsend.org
 [discord]: https://discord.gg/GSRWmQNP87
@@ -53,14 +53,15 @@ LocalSend is a cross-platform app that enables secure communication between devi
 
 It is recommended to download the app either from an app store or from a package manager because the app does not have an auto-update.
 
-| Windows                  | macOS                   | Linux              | Android        | iOS           | Fire OS    |
-|--------------------------|-------------------------|--------------------|----------------|---------------|------------|
-| [Winget][]               | [App Store][]           | [Flathub][]        | [Play Store][] | [App Store][] | [Amazon][] |
-| [Scoop][]                | [Homebrew][]            | [AUR][]            | [F-Droid][]    |               |            |
-| [Chocolatey][]           | [DMG Installer][latest] | [NixOS][]          | [APK][latest]  |               |            |
-| [MSIX Installer][latest] |                         | [TAR][latest]      |                |               |            |
-| [EXE Installer][latest]  |                         | [DEB][latest]      |                |               |            |
-| [Portable ZIP][latest]   |                         | [AppImage][latest] |                |               |            |
+| Windows                 | macOS                   | Linux              | Android        | iOS           | Fire OS    |
+|-------------------------|-------------------------|--------------------|----------------|---------------|------------|
+| [Winget][]              | [App Store][]           | [Flathub][]        | [Play Store][] | [App Store][] | [Amazon][] |
+| [Scoop][]               | [Homebrew][]            | [Nixpkgs][]        | [F-Droid][]    |               |            |
+| [Chocolatey][]          | [DMG Installer][latest] | [Snap][]           | [APK][latest]  |               |            |
+| [EXE Installer][latest] |                         | [AUR][]            |                |               |            |
+| [Portable ZIP][latest]  |                         | [TAR][latest]      |                |               |            |
+|                         |                         | [DEB][latest]      |                |               |            |
+|                         |                         | [AppImage][latest] |                |               |            |
 
 Read more about [distribution channels][].
 
@@ -74,8 +75,9 @@ Read more about [distribution channels][].
 [chocolatey]: https://community.chocolatey.org/packages/localsend
 [homebrew]: https://github.com/localsend/homebrew-localsend
 [flathub]: https://flathub.org/apps/details/org.localsend.localsend_app
+[nixpkgs]: https://search.nixos.org/packages?show=localsend
+[snap]: https://snapcraft.io/localsend
 [aur]: https://aur.archlinux.org/packages/localsend-bin
-[nixos]: https://search.nixos.org/packages?show=localsend
 [latest]: https://github.com/localsend/localsend/releases/latest
 [distribution channels]: https://github.com/localsend/localsend/blob/main/CONTRIBUTING.md#distribution
 
@@ -98,6 +100,14 @@ Create a file named `settings.json` located in the same directory as the executa
 This file can be empty.
 The app will use this file to store settings instead of the default location.
 
+**Start hidden**
+
+(Updated in v1.15.0)
+
+To start the app hidden (only in tray), use the `--hidden` flag (example: `localsend_app.exe --hidden`).
+
+On v1.14.0 and earlier, the app starts hidden if `autostart` flag is set, and the hidden setting is enabled.
+
 ## How It Works
 
 LocalSend uses a secure communication protocol that allows devices to communicate with each other using a REST API. All data is sent securely over HTTPS, and the TLS/SSL certificate is generated on the fly on each device, ensuring maximum security.
@@ -108,15 +118,17 @@ For more information on the LocalSend Protocol, see the [documentation](https://
 
 To compile LocalSend from the source code, follow these steps:
 
-1. Install [Flutter](https://flutter.dev).
-2. Clone the LocalSend repository.
-3. Run `cd app` to enter the app directory.
-4. Run `flutter pub get` to download dependencies.
-5. Run `flutter run` to start the app.
+1. Install Flutter [directly](https://flutter.dev) or using [fvm](https://fvm.app) (see [version required](.fvmrc))
+2. Clone the `LocalSend` repository
+3. Run `cd app` to enter the app directory
+4. Run `flutter pub get` to download dependencies
+5. Run `flutter run` to start the app
 
-The issue may be caused by a mismatch between the required Flutter version and the installed Flutter version.
-
-LocalSend uses [fvm](https://fvm.app) to manage the project Flutter version (specified in [.fvm/fvm_config.json](.fvm/fvm_config.json)). After you install it, run `fvm flutter` instead of `flutter`.
+> [!NOTE]
+> LocalSend currently requires an older Flutter version (specified in [.fvmrc](.fvmrc))
+> and thus build issues may be caused by a mismatch between the required and the (system-wide) installed Flutter version.  
+> To make development more consistent, LocalSend uses [fvm](https://fvm.app) to manage the project Flutter version.
+> After installing `fvm`, run `fvm flutter` instead of `flutter`.
 
 ## Contributing
 

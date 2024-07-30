@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-07-29T12:17:42+08:00
+date: 2024-07-30T12:17:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719743581496-b49b52756d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719743581496-b49b52756d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720887237251-f46eb98416c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720887237251-f46eb98416c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)
@@ -268,7 +268,7 @@ https://github.com/opendatalab/MinerU/assets/11393164/20438a02-ce6c-4af8-9dde-d7
 
 # All Thanks To Our Contributors
 
-<a href="https://github.com/magicpdf/Magic-PDF/graphs/contributors">
+<a href="https://github.com/opendatalab/MinerU/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=opendatalab/MinerU" />
 </a>
 
