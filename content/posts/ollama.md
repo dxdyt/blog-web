@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2024-07-30T12:17:38+08:00
+date: 2024-07-31T12:15:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719512867124-9ea3bc4d8f1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719512867124-9ea3bc4d8f1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
 ---
 
 # [ollama/ollama](https://github.com/ollama/ollama)
@@ -183,7 +183,7 @@ I'm a basic program that prints the famous "Hello, world!" message to the consol
 ### Multimodal models
 
 ```
->>> What's in this image? /Users/jmorgan/Desktop/smile.png
+ollama run llava "What's in this image? /Users/jmorgan/Desktop/smile.png"
 The image features a yellow smiley face, which is likely the central focus of the picture.
 ```
 
@@ -347,6 +347,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 ### Libraries
 
 - [LangChain](https://python.langchain.com/docs/integrations/llms/ollama) and [LangChain.js](https://js.langchain.com/docs/modules/model_io/models/llms/integrations/ollama) with [example](https://js.langchain.com/docs/use_cases/question_answering/local_retrieval_qa)
+- [Firebase Genkit](https://firebase.google.com/docs/genkit/plugins/ollama)
 - [LangChainGo](https://github.com/tmc/langchaingo/) with [example](https://github.com/tmc/langchaingo/tree/main/examples/ollama-completion-example)
 - [LangChain4j](https://github.com/langchain4j/langchain4j) with [example](https://github.com/langchain4j/langchain4j-examples/tree/main/ollama-examples/src/main/java)
 - [LangChainRust](https://github.com/Abraxas-365/langchain-rust) with [example](https://github.com/Abraxas-365/langchain-rust/blob/main/examples/llm_ollama.rs)

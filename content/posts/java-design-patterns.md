@@ -1,18 +1,14 @@
 ---
 title: java-design-patterns
-date: 2024-05-25T12:18:33+08:00
+date: 2024-07-31T12:15:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715292779494-a16d8064c628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715292779494-a16d8064c628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
 ---
 
 # [iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns)
 
-<!-- the line below needs to be an empty line C: (its because kramdown isn't
-     that smart and dearly wants an empty line before a heading to be able to
-     display it as such, e.g. website) -->
-
-# Design patterns implemented in Java
+# Design Patterns Implemented in Java
 
 ![Java CI](https://github.com/iluwatar/java-design-patterns/workflows/Java%20CI/badge.svg)
 [![License MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/iluwatar/java-design-patterns/master/LICENSE.md)
@@ -20,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1715292779494-a16d8064c6
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=iluwatar_java-design-patterns&metric=coverage)](https://sonarcloud.io/dashboard?id=iluwatar_java-design-patterns)
 [![Join the chat at https://gitter.im/iluwatar/java-design-patterns](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/iluwatar/java-design-patterns?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-342-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-347-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 <br/>
@@ -30,49 +26,38 @@ Read in different language : [**zh**](localization/zh/README.md), [**ko**](local
 
 # Introduction
 
-Design patterns are the best, formalized practices a programmer can use to
-solve common problems when designing an application or system.
+Design patterns are the best, formalized practices a programmer can use to solve common problems when designing an application or system.
 
-Design patterns can speed up the development process by providing tested, proven
-development paradigms.
+Design patterns can speed up the development process by providing tested, proven development paradigms.
 
-Reusing design patterns helps prevent subtle issues that cause major
-problems, and it also improves code readability for coders and architects who
-are familiar with the patterns.
+Reusing design patterns helps prevent subtle issues that cause major problems, and it also improves code readability for coders and architects who are familiar with the patterns.
 
-# Getting started
+# Getting Started
 
-This site showcases Java Design Patterns. The solutions have been developed by
-experienced programmers and architects from the open-source community. The
-patterns can be browsed by their high-level descriptions or by looking at their
-source code. The source code examples are well commented and can be thought of as
-programming tutorials on how to implement a specific pattern. We use the most
-popular battle-proven open-source Java technologies.
+This site showcases Java Design Patterns. The solutions have been developed by experienced programmers and architects from the open-source community. The patterns can be browsed by their high-level descriptions or by looking at their
+source code. The source code examples are well commented and can be thought of as programming tutorials on how to implement a specific pattern. We use the most popular battle-proven open-source Java technologies.
 
-Before you dive into the material, you should be familiar with various
-[Software Design Principles](https://java-design-patterns.com/principles/).
+Before you dive into the material, you should be familiar with various [Software Design Principles](https://java-design-patterns.com/principles/).
 
-All designs should be as simple as possible. You should start with KISS, YAGNI,
-and Do The Simplest Thing That Could Possibly Work principles. Complexity and
-patterns should only be introduced when they are needed for practical
-extensibility.
+All designs should be as simple as possible. You should start with KISS, YAGNI, and Do The Simplest Thing That Could Possibly Work principles. Complexity and patterns should only be introduced when they are needed for practical extensibility.
 
-Once you are familiar with these concepts you can start drilling down into the
-[available design patterns](https://java-design-patterns.com/patterns/) by any
-of the following approaches
+Once you are familiar with these concepts you can start drilling down into the [available design patterns](https://java-design-patterns.com/patterns/) by any of the following approaches:
 
  - Search for a specific pattern by name. Can't find one? Please report a new pattern [here](https://github.com/iluwatar/java-design-patterns/issues).
  - Using tags such as `Performance`, `Gang of Four` or `Data access`.
  - Using pattern categories, `Creational`, `Behavioral`, and others.
 
-Hopefully, you find the object-oriented solutions presented on this site useful
-in your architectures and have as much fun learning them as we had while developing them.
+Hopefully, you find the object-oriented solutions presented on this site useful in your architectures and have as much fun learning them as we had while developing them.
 
-# How to contribute
+# How to Contribute
 
-If you are willing to contribute to the project you will find the relevant information in
-our [developer wiki](https://github.com/iluwatar/java-design-patterns/wiki). We will help
-you and answer your questions in the [Gitter chatroom](https://gitter.im/iluwatar/java-design-patterns).
+If you are willing to contribute to the project you will find the relevant information in our [developer wiki](https://github.com/iluwatar/java-design-patterns/wiki). We will help you and answer your questions in the [Gitter chatroom](https://gitter.im/iluwatar/java-design-patterns).
+
+# The Book
+
+The design patterns are now available as an e-book. Find out more about "Open Source Java Design Patterns" here: https://payhip.com/b/kcaF9
+
+The project contributors can get the book for free. Contact the maintainer via [Gitter chatroom](https://gitter.im/iluwatar/java-design-patterns) or email (iluwatar (at) gmail (dot) com ). Send a message that contains your email address, Github username, and a link to an accepted pull request.
 
 # License
 
@@ -540,6 +525,13 @@ This project is licensed under the terms of the MIT license.
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/dev-yugantar"><img src="https://avatars.githubusercontent.com/u/153066190?v=4?s=100" width="100px;" alt="dev-yugantar"/><br /><sub><b>dev-yugantar</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=dev-yugantar" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/Adelechka"><img src="https://avatars.githubusercontent.com/u/65678470?v=4?s=100" width="100px;" alt="Adelya"/><br /><sub><b>Adelya</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=Adelechka" title="Code">💻</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/gatlanagaprasanna"><img src="https://avatars.githubusercontent.com/u/154739216?v=4?s=100" width="100px;" alt="gatlanagaprasanna"/><br /><sub><b>gatlanagaprasanna</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=gatlanagaprasanna" title="Documentation">📖</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Avinash2110"><img src="https://avatars.githubusercontent.com/u/37360069?v=4?s=100" width="100px;" alt="Avinash Shukla"/><br /><sub><b>Avinash Shukla</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=Avinash2110" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Mayankchoudhary294"><img src="https://avatars.githubusercontent.com/u/97609699?v=4?s=100" width="100px;" alt="Mayank Choudhary"/><br /><sub><b>Mayank Choudhary</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=Mayankchoudhary294" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/romannimets"><img src="https://avatars.githubusercontent.com/u/137268574?v=4?s=100" width="100px;" alt="romannimets"/><br /><sub><b>romannimets</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=romannimets" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/Joel-Dandin"><img src="https://avatars.githubusercontent.com/u/60149879?v=4?s=100" width="100px;" alt="Joel"/><br /><sub><b>Joel</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=Joel-Dandin" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/244Walyson"><img src="https://avatars.githubusercontent.com/u/125759796?v=4?s=100" width="100px;" alt="Walyson Moises"/><br /><sub><b>Walyson Moises</b></sub></a><br /><a href="https://github.com/iluwatar/java-design-patterns/commits?author=244Walyson" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>

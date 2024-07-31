@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2024-07-17T12:17:41+08:00
+date: 2024-07-31T12:15:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720549385830-905a78562bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720549385830-905a78562bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719836257725-cc6659c4100e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719836257725-cc6659c4100e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
@@ -91,7 +91,7 @@ Pair program with AI.
 
 ## Top tier performance
 
-[Aider has the one of the top scores on SWE Bench](https://aider.chat/2024/06/02/main-swe-bench.html).
+[Aider has one of the top scores on SWE Bench](https://aider.chat/2024/06/02/main-swe-bench.html).
 SWE Bench is a challenging software engineering benchmark where aider
 solved *real* GitHub issues from popular open source
 projects like django, scikitlearn, matplotlib, etc.
