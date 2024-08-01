@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-07-31T12:14:27+08:00
+date: 2024-08-01T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721297013514-d6ed27f3a9d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721297013514-d6ed27f3a9d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721843431268-b8e380c6892f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721843431268-b8e380c6892f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)
@@ -41,7 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1721297013514-d6ed27f3a9
 </p>
 
 <p align="center">
-    👋 join us on <a href="https://discord.gg/AsQMhuMN" target="_blank">Discord</a> and <a href="https://cdn.vansin.top/internlm/mineru.jpg" target="_blank">WeChat</a>
+    👋 join us on <a href="https://discord.gg/gPxmVeGC" target="_blank">Discord</a> and <a href="https://cdn.vansin.top/internlm/mineru.jpg" target="_blank">WeChat</a>
 </p>
 </div>
 
@@ -116,8 +116,15 @@ Install the full-feature package with pip:
 >For CUDA/MPS acceleration in production, see [Acceleration Using CUDA or MPS](#4-Acceleration-Using-CUDA-or-MPS).
 
 ```bash
-pip install magic-pdf[full-cpu]
+pip install magic-pdf[full]==0.6.2b1
 ```
+> ❗️❗️❗️
+> We have pre-released the 0.6.2 beta version, addressing numerous issues mentioned in our logs. However, this build has not undergone full QA testing and does not represent the final release quality. Should you encounter any problems, please promptly report them to us via issues or revert to using version 0.6.1.
+> ```bash
+> pip install magic-pdf[full-cpu]==0.6.1
+> ```
+
+ 
 The full-feature package depends on detectron2, which requires a compilation installation.   
 If you need to compile it yourself, please refer to https://github.com/facebookresearch/detectron2/issues/5114  
 Alternatively, you can directly use our precompiled whl package (limited to Python 3.10):
@@ -153,10 +160,16 @@ If you have an available Nvidia GPU or are using a Mac with Apple Silicon, you c
 ##### CUDA
 
 You need to install the corresponding PyTorch version according to your CUDA version.  
-This example installs the CUDA 11.8 version.More information https://pytorch.org/get-started/locally/  
+This example installs the CUDA 11.8 version.More information https://pytorch.org/get-started/locally/
 ```bash
 pip install --force-reinstall torch==2.3.1 torchvision==0.18.1 --index-url https://download.pytorch.org/whl/cu118
 ```
+> ❗ ️Make sure to specify version
+> ```bash
+> torch==2.3.1 torchvision==0.18.1
+> ```
+>  in the command, as these are the highest versions we support. Failing to specify the versions may result in automatically installing higher versions which can cause the program to fail.
+
 Also, you need to modify the value of "device-mode" in the configuration file magic-pdf.json.  
 ```json
 {

@@ -1,9 +1,9 @@
 ---
 title: developer2gwy
-date: 2024-07-31T12:15:11+08:00
+date: 2024-08-01T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721824294646-df999b8922d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721824294646-df999b8922d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
 ---
 
 # [miss-mumu/developer2gwy](https://github.com/miss-mumu/developer2gwy)

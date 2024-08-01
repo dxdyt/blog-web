@@ -1,9 +1,9 @@
 ---
 title: GoodbyeDPI
-date: 2024-07-31T12:14:11+08:00
+date: 2024-08-01T12:17:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721548902888-36f759c71727?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721548902888-36f759c71727?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720010944703-48cb41c457f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720010944703-48cb41c457f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
 ---
 
 # [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
@@ -151,7 +151,7 @@ Modify them according to your own needs.
 
 # Similar projects
 
-- **[zapret](https://github.com/bol-van/zapret)** by @bol-van (for Linux)
+- **[zapret](https://github.com/bol-van/zapret)** by @bol-van (for MacOS, Linux and Windows)
 - **[Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel)** by @SadeghHayeri (for MacOS, Linux and Windows)
 - **[DPI Tunnel CLI](https://github.com/zhenyolka/DPITunnel-cli)** by @zhenyolka (for Linux and routers)
 - **[DPI Tunnel for Android](https://github.com/zhenyolka/DPITunnel-android)** by @zhenyolka (for Android)

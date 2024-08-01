@@ -1,9 +1,9 @@
 ---
 title: c3c
-date: 2024-07-31T12:15:04+08:00
+date: 2024-08-01T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722152253464-4ad8cbec563f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722152253464-4ad8cbec563f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721843431268-b8e380c6892f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721843431268-b8e380c6892f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
 ---
 
 # [c3lang/c3c](https://github.com/c3lang/c3c)

@@ -1,9 +1,9 @@
 ---
 title: spring-reading
-date: 2024-04-03T12:18:46+08:00
+date: 2024-08-01T12:20:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720010944703-48cb41c457f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720010944703-48cb41c457f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
 ---
 
 # [xuchengsheng/spring-reading](https://github.com/xuchengsheng/spring-reading)
@@ -25,6 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     <img src="https://visitor-badge.lithub.cc/badge?page_id=github.com/xuchengsheng&left_text=Visitors" alt="Visitor Badge"/>
     <img src="https://img.shields.io/badge/WeChat-spring_reading-%2307C160?logo=wechat" alt="Wechat Badge"/>
     <a href="https://blog.csdn.net/duzhuang2399"><img src="https://img.shields.io/badge/dynamic/xml?url=https%3A%2F%2Fblog.csdn.net%2Fduzhuang2399&query=%2F%2F*%5B%40id%3D%22userSkin%22%5D%2Fdiv%5B1%5D%2Fdiv%5B2%5D%2Fdiv%5B1%5D%2Fdiv%2Fdiv%5B2%5D%2Fdiv%5B1%5D%2Fdiv%5B1%5D%2Fdiv%5B2%5D%2Fspan&logo=C&logoColor=red&label=CSDN&color=red&cacheSeconds=3600" alt="CSDN Badge"></a>
+        <a href="https://hellogithub.com/repository/f43b683fa175499ca3af4e9b1684e88b" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=f43b683fa175499ca3af4e9b1684e88b&claim_uid=AVv4KeNnZs2Ig3a&theme=small" alt="Featured｜HelloGitHub"/></a>
 </p>
 <p align="center">
     ⚡ <a href="#技术">技术</a>
@@ -73,28 +74,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
 
 + Spring Core
   + 资源加载与访问
-      - [Resource](spring-resources/spring-resource/README.md)：抽象接口，表示文件、类路径等，用于访问不同来源的资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [ResourceLoader](spring-resources/spring-resource-resourceLoader/README.md)：资源获取核心接口，实现统一加载不同位置资源的策略。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [ResourcePatternResolver](spring-resources/spring-resource-resourcePatternResolver/README.md)：资源模式解析接口，用于灵活加载应用中的多种资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [DocumentLoader](spring-resources/spring-resource-documentLoader/README.md)：XML文档加载解析核心接口，支持后台自动配置Spring应用。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Resource](spring-resources/spring-resource/README.md)：抽象接口，表示文件、类路径等，用于访问不同来源的资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ResourceLoader](spring-resources/spring-resource-resourceLoader/README.md)：资源获取核心接口，实现统一加载不同位置资源的策略。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ResourcePatternResolver](spring-resources/spring-resource-resourcePatternResolver/README.md)：资源模式解析接口，用于灵活加载应用中的多种资源。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [DocumentLoader](spring-resources/spring-resource-documentLoader/README.md)：XML文档加载解析核心接口，支持后台自动配置Spring应用。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + 元数据与过滤
-      - [MetadataReader](spring-metadata/spring-metadata-metadataReader/README.md)：类元数据获取核心，支持组件扫描、条件化注解、AOP等高级功能。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [AnnotationMetadata](spring-metadata/spring-metadata-annotationMetadata/README.md)：动态获取和操作运行时类注解信息。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [TypeFilter](spring-metadata/spring-metadata-typeFilter/README.md)：组件扫描时自定义类筛选，支持复杂条件和精确过滤。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [Condition](spring-metadata/spring-metadata-condition/README.md)：条件判断，决定Bean创建和配置的灵活机制。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [MetadataReader](spring-metadata/spring-metadata-metadataReader/README.md)：类元数据获取核心，支持组件扫描、条件化注解、AOP等高级功能。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [AnnotationMetadata](spring-metadata/spring-metadata-annotationMetadata/README.md)：动态获取和操作运行时类注解信息。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [TypeFilter](spring-metadata/spring-metadata-typeFilter/README.md)：组件扫描时自定义类筛选，支持复杂条件和精确过滤。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Condition](spring-metadata/spring-metadata-condition/README.md)：条件判断，决定Bean创建和配置的灵活机制。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
 
   + 验证、数据绑定和类型转换
-      - [Validator](spring-dataops/spring-dataops-validator/README.md)：提供自定义数据验证逻辑，确保模型对象满足业务规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [PropertyEditor](spring-dataops/spring-dataops-propertyEditor/README.md)：自定义JavaBean属性的转换逻辑，处理属性类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [Converter](spring-dataops/spring-dataops-converter/README.md)：用于不同类型间的转换，定义简单的源至目标类型转换规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [ConverterFactory](spring-dataops/spring-dataops-converterFactory/README.md)：创建针对特定源类型的转换器，用于类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [GenericConverter](spring-dataops/spring-dataops-genericConverter/README.md)：更复杂的转换器，支持多种源和目标类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [ConditionalConverter](spring-dataops/spring-dataops-conditionalConverter/README.md)：根据条件选择是否执行转换的转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [ConversionService](spring-dataops/spring-dataops-conversionService/README.md)：提供统一的类型转换服务接口，管理转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [Printer](spring-dataops/spring-dataops-printer/README.md)：用于将对象格式化为文本，专注于格式化输出。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-      - [Parser](spring-dataops/spring-dataops-parser/README.md)：用于将文本解析为对象，专注于解析逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    
+    - [Validator](spring-dataops/spring-dataops-validator/README.md)：提供自定义数据验证逻辑，确保模型对象满足业务规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [PropertyEditor](spring-dataops/spring-dataops-propertyEditor/README.md)：自定义JavaBean属性的转换逻辑，处理属性类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Converter](spring-dataops/spring-dataops-converter/README.md)：用于不同类型间的转换，定义简单的源至目标类型转换规则。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ConverterFactory](spring-dataops/spring-dataops-converterFactory/README.md)：创建针对特定源类型的转换器，用于类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [GenericConverter](spring-dataops/spring-dataops-genericConverter/README.md)：更复杂的转换器，支持多种源和目标类型转换。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ConditionalConverter](spring-dataops/spring-dataops-conditionalConverter/README.md)：根据条件选择是否执行转换的转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ConversionService](spring-dataops/spring-dataops-conversionService/README.md)：提供统一的类型转换服务接口，管理转换器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Printer](spring-dataops/spring-dataops-printer/README.md)：用于将对象格式化为文本，专注于格式化输出。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Parser](spring-dataops/spring-dataops-parser/README.md)：用于将文本解析为对象，专注于解析逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+
   + Spring 表达式语言（SpEL）
     - [ExpressionParser](spring-spel/spring-spel-expressionParser/README.md): 解析字符串形式的 SpEL 表达式，创建并返回 Expression 实例。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
     - [Expression](spring-spel/spring-spel-expression/README.md): 对表达式字符串进行求值的功能，支持类型转换、获取原始字符串等操作。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
@@ -127,7 +128,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - [ConfigurableBeanFactory](spring-factory/spring-factory-configurableBeanFactory/README.md)：提供对BeanFactory配置的扩展，如属性编辑器、作用域等。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
     - [AutowireCapableBeanFactory](spring-factory/spring-factory-autowireCapableBeanFactory/README.md)：Bean创建、初始化、注入、销毁的核心功能接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
     - [ConfigurableListableBeanFactory](spring-factory/spring-factory-configurableListableBeanFactory/README.md)：支持配置和列表操作的可配置Bean工厂接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
-    
+
   + 容器上下文
     - [ClassPathXmlApplicationContext](spring-context/spring-context-classPathXmlApplicationContext/README.md)：类路径（classpath）加载 XML 配置文件的上下文。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [AnnotationConfigApplicationContext](spring-context/spring-context-annotationConfigApplicationContext/README.md)：注解配置类中加载配置信息的上下文。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
@@ -137,13 +138,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - ImportBeanDefinitionRegistrar：运行时动态注册 Bean，实现灵活配置，扩展配置类功能。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
     - ImportSelector：运行时动态导入配置类，实现条件选择和灵活配置。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
     - DeferredImportSelector：运行时动态导入配置，支持条件选择和按组别延迟加载。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
-    
+
   + Bean生命周期
     - [Bean的定义注册过程](spring-core/spring-core-registerBeanDefinition)：加载与解析配置文件，注册解析Bean定义，类名、作用域、属性等。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [Bean的初始化过程](spring-core/spring-core-getBean/README.md)：实例化、属性注入、Aware回调、后置处理器、初始化方法调用。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
     - [Bean的依赖解析过程](spring-core/spring-core-resolveDependency/README.md)：声明依赖，查找依赖，注入依赖，处理循环依赖，延迟依赖解析。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
     - [Bean的销毁过程](spring-core/spring-core-destroyBean/README.md)：销毁方法调用，接口回调，后处理清理，通知触发，GC回收资源。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
-    
+
   + 属性解析和环境配置
     - [PropertySource](spring-env/spring-env-propertySource/README.md)：管理各种配置源的抽象类，支持灵活地加载和访问应用配置。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [PropertySources](spring-env/spring-env-propertySources/README.md)：用于统一管理和访问多个 PropertySource 实例，简化配置数据的处理。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
@@ -151,7 +152,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - [ConfigurablePropertyResolver](spring-env/spring-env-configurablePropertyResolver/README.md)：属性解析配置，占位符设置，适应不同配置需求。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [Environment](spring-env/spring-env-environment/README.md)：应用环境表示，提供属性访问，支持配置文件，实现动态配置。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [ConfigurableEnvironment](spring-env/spring-env-configurableEnvironment/README.md)：动态配置应用环境，激活、默认配置，提升应用灵活性。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-    
+
   + Bean初始化与扩展点
     - [InitializingBean](spring-interface/spring-interface-initializingBean/README.md)：提供Bean初始化时执行自定义逻辑的接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [DisposableBean](spring-interface/spring-interface-disposableBean/README.md)：定义Bean销毁前执行清理操作的接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
@@ -163,7 +164,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - [MergedBeanDefinitionPostProcessor](spring-interface/spring-interface-mergedBeanDefinitionPostProcessor/README.md)：在合并Bean定义时对BeanDefinition进行处理。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [SmartInstantiationAwareBeanPostProcessor](spring-interface/spring-interface-smartInstantiationAwareBeanPostProcessor/README.md)：提供更智能的实例化控制。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [SmartInitializingSingleton](spring-interface/spring-interface-smartInitializingSingleton/README.md)：在所有单例Bean初始化完成后，执行自定义逻辑。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
-    
+
   + Aware接口系列
     - [BeanNameAware](spring-aware/spring-aware-beanNameAware/README.md)：让Bean获取自身在容器中的名字。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [BeanClassLoaderAware](spring-aware/spring-aware-beanClassLoaderAware/README.md)：允许Bean获取其类加载器。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
@@ -173,10 +174,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - [ResourceLoaderAware](spring-aware/spring-aware-beanClassLoaderAware/README.md)：允许Bean获取资源加载器。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [ApplicationEventPublisherAware](spring-aware/spring-aware-applicationEventPublisherAware/README.md)：允许Bean发布应用程序事件。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [MessageSourceAware](spring-aware/spring-aware-messageSourceAware/README.md)：允许Bean获取消息源。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
-    - [ApplicationStartupAware](spring-aware/spring-aware-applicationStartupAware/README.md)：允许Bean获取应用程序启动信息。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [ApplicationContextAware](spring-aware/spring-aware-applicationContextAware/README.md)：允许Bean获取应用程序上下文。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [ImportAware](spring-aware/spring-aware-importAware/README.md)：允许被导入的配置类获取导入它的类的信息。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
-    
+
   + 核心注解
     - [@Configuration](spring-annotation/spring-annotation-configuration/README.md)：声明类为配置类，定义Bean和Bean之间的依赖关系。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
     - [@ComponentScan](spring-annotation/spring-annotation-componentScan/README.md)：启用组件扫描，自动发现并注册标记为组件的类。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
@@ -193,7 +193,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - @Role：为Bean提供角色提示，用于区分相似类型的Bean。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
     - @Indexed： 标记Bean用于索引。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
     - @Order：指定Bean的加载顺序。<img src="https://img.shields.io/badge/%E5%8D%B3%E5%B0%86%E6%9B%B4%E6%96%B0-339933"></img>
-    
+
   + JSR规范
     - [@Inject](spring-jsr/spring-jsr330-inject/README.md)：JSR-330标准的依赖注入注解。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [@Named](spring-jsr/spring-jsr330-named/README.md)：JSR-330标准的命名注解。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
@@ -204,20 +204,54 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
     - [@PostConstruct](spring-jsr/spring-jsr250-postConstruct/README.md)：指定初始化方法。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [@PreDestroy](spring-jsr/spring-jsr250-preDestroy/README.md)：指定销毁方法。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
     - [Provider](spring-jsr/spring-jsr330-provider/README.md)：Java标准库提供的通用Bean工厂接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF8C69"></img>
-  
+
   + Spring AOP
+    - [JDK动态代理](spring-aop/spring-aop-jdkProxy/README.md)：接口实现，动态生成代理类，处理方法调用，统一横切关注点。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Cglib动态代理](spring-aop/spring-aop-cglibProxy/README.md)：基于字节码生成的库，无需接口，可拦截类方法并进行增强。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ClassFilter](spring-aop/spring-aop-classFilter/README.md)：确定类是否匹配拦截条件。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [MethodMatcher](spring-aop/spring-aop-methodMatcher/README.md)：确定方法是否匹配拦截条件。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
     - [Pointcut](spring-aop/spring-aop-pointcut/README.md)：定义切入点，匹配被拦截的方法。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
-  
-  + Spring AOT
-  
-  + Spring Log
-  
-  + Data Buffer 和编解码器
-  
-+ Spring MVC
-
+    - [Advice](spring-aop/spring-aop-advice/README.md)：AOP中定义各种通知类型行为的核心接口。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+      - [MethodInterceptor](spring-aop/spring-aop-advice-methodInterceptor/README.md)：拦截方法执行，允许在前后添加额外逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+      - [MethodBeforeAdvice](spring-aop/spring-aop-advice-methodBeforeAdvice/README.md)：允许在方法调用之前插入自定义逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+      - [AfterReturningAdvice](spring-aop/spring-aop-advice-afterReturningAdvice/README.md)：允许在方法调用之后插入自定义逻辑。<<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+      - [ThrowsAdvice](spring-aop/spring-aop-advice-throwsAdvice/README.md)：异常通知，捕获方法抛出的异常，执行额外逻辑。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+      - [IntroductionInterceptor](spring-aop/spring-aop-advice-introductionInterceptor/README.md)：动态地向目标对象引入新的功能或属性。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Advisor](spring-aop/spring-aop-advisor/README.md)：用于将通知和切点结合，实现切面编程的横切关注点。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [Advised](spring-aop/spring-aop-advised/README.md)：配置AOP代理的通知、通知器、目标等。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ProxyFactory](spring-aop/spring-aop-proxyFactory/README.md)：一种便捷的方式来创建代理对象。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [AopProxyFactory](spring-aop/spring-aop-aopProxyFactory/README.md)：创建AOP代理工厂，支持JDK和CGLIB。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AopProxy](spring-aop/spring-aop-aopProxy/README.md)：创建和管理AOP代理对象。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
+    - [AdvisorChainFactory](spring-aop/spring-aop-advisorChainFactory/README.md)：创建Advisor链的工厂接口。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AdvisorAdapterRegistry](spring-aop/spring-aop-advisorAdapterRegistry/README.md)：适配各种Advice到AOP拦截器，注册和管理Advisor适配器。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AdvisorAdapter](spring-aop/spring-aop-advisorAdapter/README.md)：适配不同类型通知到拦截器链。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [ProxyMethodInvocation](spring-aop/spring-aop-proxyMethodInvocation/README.md)：AOP方法调用代理，处理拦截器链和方法调用。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [@EnableAspectJAutoProxy](spring-aop/spring-aop-enableAspectJAutoProxy/README.md)：启用AspectJ切面自动代理。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AnnotationAwareAspectJAutoProxyCreator](spring-aop/spring-aop-annotationAwareAspectJAutoProxyCreator/README.md)：创建AOP代理以应用AspectJ风格的切面。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
+    - [BeanFactoryAdvisorRetrievalHelper](spring-aop/spring-aop-beanFactoryAdvisorRetrievalHelper/README.md)：帮助检索并管理Spring AOP 中的 Advisor Beans。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [BeanFactoryAspectJAdvisorsBuilder](spring-aop/spring-aop-beanFactoryAspectJAdvisorsBuilder/README.md)：构建@AspectJ注解切面，生成Spring AOP Advisors。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AspectInstanceFactory](spring-aop/spring-aop-aspectInstanceFactory/README.md)：创建切面实例，支持多种实现方式。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [MetadataAwareAspectInstanceFactory](spring-aop/spring-aop-metadataAwareAspectInstanceFactory/README.md)：管理切面实例和元数据，支持多种实例化策略。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AspectJAdvisorFactory](spring-aop/spring-aop-aspectJAdvisorFactory/README.md)：创建AspectJ通知器实例，管理切面通知的创建和配置。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
+    - [TargetSource](spring-aop/spring-aop-targetSource/README.md)：管理AOP代理对象的获取与释放。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [TargetSourceCreator](spring-aop/spring-aop-targetSourceCreator/README.md)：创建特殊的目标源，定制代理对象的创建和管理。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+    - [AopContext](spring-aop/spring-aop-aopContext/README.md)：获取Spring AOP代理对象的工具。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [ExposeInvocationInterceptor](spring-aop/spring-aop-exposeInvocationInterceptor/README.md)：暴露Spring AOP方法调用上下文的拦截器。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+    - [@EnableLoadTimeWeaving](spring-aop/spring-aop-enableLoadTimeWeaving/README.md)：启用Spring加载时编织。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
 + Spring 事务
+  + [Connection](spring-transaction/spring-transaction-connection/README.md)：管理数据库连接，执行SQL，处理事务。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [DataSource](spring-transaction/spring-transaction-dataSource/README.md)：提供高效管理数据库连接的接口。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [DriverManager](spring-transaction/spring-transaction-driverManager/README.md)：管理和建立数据库连接的核心类。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [JdbcTemplate](spring-transaction/spring-transaction-jdbcTemplate/README.md)：简化了JDBC操作，提供了方便的数据库访问抽象。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [TransactionDefinition](spring-transaction/spring-transaction-transactionDefinition/README.md)：定义事务的传播行为和隔离级别。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [TransactionAttributeSource](spring-transaction/spring-transaction-transactionAttributeSource/README.md)：用于获取事务属性的策略接口。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [PlatformTransactionManager](spring-transaction/spring-transaction-platformTransactionManager/README.md)：用于管理和协调事务的生命周期和执行。<img src="https://img.shields.io/badge/Level-%E5%9B%B0%E9%9A%BE-%23FF3030"></img>
+  + [TransactionTemplate](spring-transaction/spring-transaction-transactionTemplate/README.md)：简化事务管理，支持编程式事务控制与异常处理。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [SpringTransactionAnnotationParser](spring-transaction/spring-transaction-springTransactionAnnotationParser/README.md)：解析 `@Transactional`注解并转换为事务配置。<img src="https://img.shields.io/badge/Level-%E7%AE%80%E5%8D%95-0099ff"></img>
+  + [TransactionInterceptor](spring-transaction/spring-transaction-transactionInterceptor/README.md)：事务拦截器，用于管理方法级别的事务处理。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
+  + [EnableTransactionManagement](spring-transaction/spring-transaction-enableTransactionManagement/README.md)：启用Spring的注解驱动事务管理。<img src="https://img.shields.io/badge/Level-%E4%B8%80%E8%88%AC-%23FF6347"></img>
 
++ Spring MVC
 + Spring OpenFeign
 
 ## 💬与我联系
@@ -232,31 +266,35 @@ featuredImagePreview: https://images.unsplash.com/photo-1709708210553-490ba885fc
 
 为了给大家提供最新🌱、最有价值的内容💼，我会坚持每天更新这个仓库⏳。每一天，你都可以期待看到一些新的内容或者对已有内容的改进✨。如果你有任何建议或反馈📣，欢迎随时联系我📞。我非常珍视每一个反馈💌，因为这是我持续改进的动力🚀。
 
-## 💻我的 GitHub 统计
+## ✨Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date)](https://star-history.com/#xuchengsheng/spring-reading&Date)
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=xuchengsheng/spring-reading&type=Date" />
+ </picture>
+
+## 🎉Stargazers
+
+[![Stargazers123 repo roster for @xuchengsheng/spring-reading](https://reporoster.com/stars/xuchengsheng/spring-reading)](https://github.com/xuchengsheng/spring-reading/stargazers)
+
+## 🎉Forkers
+
+[![Forkers repo roster for @xuchengsheng/spring-reading](https://reporoster.com/forks/xuchengsheng/spring-reading)](https://github.com/xuchengsheng/spring-reading/network/members)
 
 ## 🍱请我吃盒饭？
 
 作者晚上还要写博客✍️,平时还需要工作💼,如果帮到了你可以请作者吃个盒饭🥡
 <div>
-<img alt="logo" src="image/WeChatPay.png" style="width: 370px;height: 400px">
-<img alt="logo" src="image/Alipay.png" style="width: 370px;height: 400px">
+<img alt="logo" src="image/WeChatPay.png" style="width: 260px;height: 280px">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img alt="logo" src="image/Alipay.png" style="width: 260px;height: 280px">
 </div>
 
-## 👥加入我们
+## 👥**关注公众号**
 
-📢 想要一起加入我们的精彩微信群吗？跟着以下简单步骤：
-
-1️⃣ **扫描我的二维码**：使用微信的扫一扫功能，扫描下方的二维码，将我添加为你的好友。
+关注后，回复关键字 **“加群”**，即可加入我们的技术交流群，与更多开发者一起交流学习。
 
 <div>
-<img alt="logo" src="image/wechat-group.jpg" style="width: 344px;height: 483px">
+<img alt="logo" src="image/wechat-mp.png" style="height: 220px">
 </div>
-
-2️⃣ **等待好友请求被接受**：一旦你的好友请求被接受，你将收到一份群组邀请。
-
-3️⃣ **点击邀请链接**：打开邀请链接，立即加入我们的精彩群组！
-
-4️⃣ **尽情参与和分享**：在群组中，你将有机会与其他成员分享观点、经验和信息。我们热切期待你的参与！
-

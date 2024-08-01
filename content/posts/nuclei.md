@@ -1,9 +1,9 @@
 ---
 title: nuclei
-date: 2024-06-05T12:21:59+08:00
+date: 2024-08-01T12:19:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712144237317-5b0674033914?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712144237317-5b0674033914?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc1NjExNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721240074674-35a47e1bdb13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721240074674-35a47e1bdb13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
 ---
 
 # [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
@@ -40,7 +40,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1712144237317-5b06740339
   <a href="https://github.com/projectdiscovery/nuclei/blob/main/README.md">English</a> •
   <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_CN.md">中文</a> •
   <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_KR.md">Korean</a> •
-  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ID.md">Indonesia</a>
+  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ID.md">Indonesia</a> •
+  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_ES.md">Spanish</a> •
+  <a href="https://github.com/projectdiscovery/nuclei/blob/main/README_JP.md">日本語</a>
+</p>
 </p>
 
 ---
@@ -189,6 +192,8 @@ OUTPUT:
 
 CONFIGURATIONS:
    -config string                        path to the nuclei configuration file
+   -tp, -profile string                  template profile config file to run
+   -tpl, -profile-list                   list community template profiles
    -fr, -follow-redirects                enable following redirects for http templates
    -fhr, -follow-host-redirects          follow redirects on the same host
    -mr, -max-redirects int               max number of redirects to follow for http templates (default 10)
@@ -208,17 +213,17 @@ CONFIGURATIONS:
    -sml, -show-match-line                show match lines for file templates, works with extractors only
    -ztls                                 use ztls library with autofallback to standard one for tls13 [Deprecated] autofallback to ztls is enabled by default
    -sni string                           tls sni hostname to use (default: input domain name)
-   -dt, -dialer-timeout value            timeout for network requests.
    -dka, -dialer-keep-alive value        keep-alive duration for network requests.
    -lfa, -allow-local-file-access        allows file (payload) access anywhere on the system
    -lna, -restrict-local-network-access  blocks connections to the local / private network
    -i, -interface string                 network interface to use for network scan
    -at, -attack-type string              type of payload combinations to perform (batteringram,pitchfork,clusterbomb)
    -sip, -source-ip string               source ip address to use for network scan
-   -rsr, -response-size-read int         max response size to read in bytes (default 10485760)
+   -rsr, -response-size-read int         max response size to read in bytes
    -rss, -response-size-save int         max response size to read in bytes (default 1048576)
    -reset                                reset removes all nuclei configuration and data files (including nuclei-templates)
    -tlsi, -tls-impersonate               enable experimental client hello (ja3) tls randomization
+   -hae, -http-api-endpoint string       experimental http api endpoint
 
 INTERACTSH:
    -iserver, -interactsh-server string  interactsh server url for self-hosted instance (default: oast.pro,oast.live,oast.site,oast.online,oast.fun,oast.me)
@@ -230,28 +235,33 @@ INTERACTSH:
    -ni, -no-interactsh                  disable interactsh server for OAST testing, exclude OAST based templates
 
 FUZZING:
-   -ft, -fuzzing-type string  overrides fuzzing type set in template (replace, prefix, postfix, infix)
-   -fm, -fuzzing-mode string  overrides fuzzing mode set in template (multiple, single)
-   -fuzz                      enable loading fuzzing templates (Deprecated: use -dast instead)
-   -dast                      only run DAST templates
+   -ft, -fuzzing-type string     overrides fuzzing type set in template (replace, prefix, postfix, infix)
+   -fm, -fuzzing-mode string     overrides fuzzing mode set in template (multiple, single)
+   -fuzz                         enable loading fuzzing templates (Deprecated: use -dast instead)
+   -dast                         enable / run dast (fuzz) nuclei templates
+   -dfp, -display-fuzz-points    display fuzz points in the output for debugging
+   -fuzz-param-frequency int     frequency of uninteresting parameters for fuzzing before skipping (default 10)
+   -fa, -fuzz-aggression string  fuzzing aggression level controls payload count for fuzz (low, medium, high) (default "low")
 
 UNCOVER:
    -uc, -uncover                  enable uncover engine
    -uq, -uncover-query string[]   uncover search query
-   -ue, -uncover-engine string[]  uncover search engine (shodan,censys,fofa,shodan-idb,quake,hunter,zoomeye,netlas,criminalip,publicwww,hunterhow) (default shodan)
+   -ue, -uncover-engine string[]  uncover search engine (shodan,censys,fofa,shodan-idb,quake,hunter,zoomeye,netlas,criminalip,publicwww,hunterhow,google) (default shodan)
    -uf, -uncover-field string     uncover fields to return (ip,port,host) (default "ip:port")
    -ul, -uncover-limit int        uncover results to return (default 100)
    -ur, -uncover-ratelimit int    override ratelimit of engines with unknown ratelimit (default 60 req/min) (default 60)
 
 RATE-LIMIT:
    -rl, -rate-limit int               maximum number of requests to send per second (default 150)
-   -rlm, -rate-limit-minute int       maximum number of requests to send per minute
+   -rld, -rate-limit-duration value   maximum number of requests to send per second (default 1s)
+   -rlm, -rate-limit-minute int       maximum number of requests to send per minute (DEPRECATED)
    -bs, -bulk-size int                maximum number of hosts to be analyzed in parallel per template (default 25)
    -c, -concurrency int               maximum number of templates to be executed in parallel (default 25)
    -hbs, -headless-bulk-size int      maximum number of headless hosts to be analyzed in parallel per template (default 10)
    -headc, -headless-concurrency int  maximum number of headless templates to be executed in parallel (default 10)
    -jsc, -js-concurrency int          maximum number of javascript runtimes to be executed in parallel (default 120)
    -pc, -payload-concurrency int      max payload concurrency for each template (default 25)
+   -prc, -probe-concurrency int       http probe concurrency with httpx (default 50)
 
 OPTIMIZATIONS:
    -timeout int                     time to wait in seconds before timeout (default 10)
@@ -309,9 +319,10 @@ STATISTICS:
    -mp, -metrics-port int    port to expose nuclei metrics on (default 9092)
 
 CLOUD:
-   -auth                  configure projectdiscovery cloud (pdcp) api key
-   -cup, -cloud-upload    upload scan results to pdcp dashboard
-   -sid, -scan-id string  upload scan results to given scan id
+   -auth                      configure projectdiscovery cloud (pdcp) api key (default true)
+   -cup, -cloud-upload        upload scan results to pdcp dashboard
+   -sid, -scan-id string      upload scan results to existing scan id (optional)
+   -sname, -scan-name string  scan name to set (optional)
 
 AUTHENTICATION:
    -sf, -secret-file string[]  path to config file containing secrets for nuclei authenticated scan
