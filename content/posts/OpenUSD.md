@@ -1,9 +1,9 @@
 ---
 title: OpenUSD
-date: 2023-08-04T12:15:24+08:00
+date: 2024-08-02T12:20:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688362379195-b8c04f735968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688362379195-b8c04f735968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTExMjI0NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720854802555-768aa847f011?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720854802555-768aa847f011?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
 ---
 
 # [PixarAnimationStudios/OpenUSD](https://github.com/PixarAnimationStudios/OpenUSD)
@@ -22,8 +22,8 @@ Build Status
 
 |         |   Linux   |  Windows  |   macOS   |
 |:-------:|:---------:|:---------:|:---------:|
-|   dev   | [![Build Status](https://dev.azure.com/PixarAnimationStudios/USD/_apis/build/status/PixarAnimationStudios.USD?branchName=dev&amp;jobName=Linux)](https://dev.azure.com/PixarAnimationStudios/USD/_build/latest?definitionId=2&branchName=dev) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/USD/_apis/build/status/PixarAnimationStudios.USD?branchName=dev&amp;jobName=Windows)](https://dev.azure.com/PixarAnimationStudios/USD/_build/latest?definitionId=2&branchName=dev) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/USD/_apis/build/status/PixarAnimationStudios.USD?branchName=dev&amp;jobName=macOS)](https://dev.azure.com/PixarAnimationStudios/USD/_build/latest?definitionId=2&branchName=dev) |
-|  release | [![Build Status](https://dev.azure.com/PixarAnimationStudios/USD/_apis/build/status/PixarAnimationStudios.USD?branchName=release&amp;jobName=Linux)](https://dev.azure.com/PixarAnimationStudios/USD/_build/latest?definitionId=2&branchName=release) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/USD/_apis/build/status/PixarAnimationStudios.USD?branchName=release&amp;jobName=Windows)](https://dev.azure.com/PixarAnimationStudios/USD/_build/latest?definitionId=2&branchName=release) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/USD/_apis/build/status/PixarAnimationStudios.USD?branchName=release&amp;jobName=macOS)](https://dev.azure.com/PixarAnimationStudios/USD/_build/latest?definitionId=2&branchName=release) |
+|   dev   | [![Build Status](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_apis/build/status/PixarAnimationStudios.OpenUSD?branchName=dev&amp;jobName=Linux)](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_build/latest?definitionId=2&branchName=dev) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_apis/build/status/PixarAnimationStudios.OpenUSD?branchName=dev&amp;jobName=Windows)](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_build/latest?definitionId=2&branchName=dev) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_apis/build/status/PixarAnimationStudios.OpenUSD?branchName=dev&amp;jobName=macOS)](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_build/latest?definitionId=2&branchName=dev) |
+|  release | [![Build Status](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_apis/build/status/PixarAnimationStudios.OpenUSD?branchName=release&amp;jobName=Linux)](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_build/latest?definitionId=2&branchName=release) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_apis/build/status/PixarAnimationStudios.OpenUSD?branchName=release&amp;jobName=Windows)](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_build/latest?definitionId=2&branchName=release) | [![Build Status](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_apis/build/status/PixarAnimationStudios.OpenUSD?branchName=release&amp;jobName=macOS)](https://dev.azure.com/PixarAnimationStudios/OpenUSD/_build/latest?definitionId=2&branchName=release) |
 
 Additional Documentation
 ------------------------
@@ -40,13 +40,16 @@ Need help understanding certain concepts in USD? See
 visit our [forum](https://groups.google.com/forum/#!forum/usd-interest).
 
 If you are experiencing undocumented problems with the software, please 
-[file a bug](https://github.com/PixarAnimationStudios/USD/issues/new).
+[file a bug](https://github.com/PixarAnimationStudios/OpenUSD/issues/new).
 
 Supported Platforms
 -------------------
 
 USD is primarily developed on Linux platforms (CentOS 7), but is built, tested 
 and supported on macOS and Windows.
+
+It is also possible to build USD libraries that can be embedded
+in iOS and visionOS apps.
 
 Please see [VERSIONS.md](VERSIONS.md) for explicitly tested versions. 
 
@@ -56,11 +59,7 @@ Dependencies
 Required:
  - C/C++ compiler
  - [CMake](https://cmake.org/documentation/)
- - [Boost](https://boost.org)
  - [Intel TBB](https://www.threadingbuildingblocks.org/)
-
-Optional:
- - [Python](https://python.org)
 
 See [3rd Party Library and Application Versions](VERSIONS.md) for version information.
 
@@ -80,10 +79,16 @@ Optional:
  - [OSL (OpenShadingLanguage)](https://github.com/imageworks/OpenShadingLanguage)
  - [Ptex](http://ptex.us/)                          
 
+**Python Bindings**
+
+Required:
+ - [Python](https://python.org)
+ - [Boost](https://boost.org)
+
 **usdview**
 
 Required:
-
+ - Python bindings
  - [PySide6](http://wiki.qt.io/PySide6) or [PySide2](http://wiki.qt.io/PySide2)
  - [PyOpenGL](https://pypi.python.org/pypi/PyOpenGL/)
 
@@ -117,34 +122,65 @@ additional documentation for running cmake directly.
 
 #### 2. Download the USD source code
 
-You can download source code archives from [GitHub](https://www.github.com/PixarAnimationStudios/USD) or use `git` to clone the repository.
+You can download source code archives from [GitHub](https://www.github.com/PixarAnimationStudios/OpenUSD) or use `git` to clone the repository.
 
 ```
-> git clone https://github.com/PixarAnimationStudios/USD
-Cloning into 'USD'...
+> git clone https://github.com/PixarAnimationStudios/OpenUSD
+Cloning into 'OpenUSD'...
 ```
 
 #### 3. Run the script
 
+Run the build_usd.py script to build and install USD. Note that the build script 
+is structured with an out-of-source build in mind -- installing a build into the  
+directory where the repository was cloned is untested. 
+
 ##### Linux:
 
 For example, the following will download, build, and install USD's dependencies,
-then build and install USD into `/usr/local/USD`.
+then build and install USD into `/path/to/my_usd_install_dir`.
 
 ```
-> python USD/build_scripts/build_usd.py /usr/local/USD
+> python OpenUSD/build_scripts/build_usd.py /path/to/my_usd_install_dir
 ```
 
-##### MacOS:
+##### macOS:
 
 In a terminal, run `xcode-select` to ensure command line developer tools are
 installed. Then run the script.
 
 For example, the following will download, build, and install USD's dependencies,
-then build and install USD into `/opt/local/USD`.
+then build and install USD into `/path/to/my_usd_install_dir`.
 
 ```
-> python USD/build_scripts/build_usd.py /opt/local/USD
+> python OpenUSD/build_scripts/build_usd.py /path/to/my_usd_install_dir
+```
+
+##### iOS and visionOS:
+
+When building from a macOS system, you can cross compile
+for iOS based platforms.
+
+Cross compilation builds are restricted to building libraries that can be
+embedded in applications built for the target platform. It can be helpful
+to use a monolithic build when embedding USD
+(see [Advanced Build Configuration](BUILDING.md)).
+
+These builds do not support Python bindings or command line tools.
+
+Currently, these builds also do not support Imaging or USD Imaging.
+
+For example, the following will download, build, and install USD's dependencies,
+then build and install USD for iOS into `/path/to/my_usd_install_dir`.
+
+```
+> python OpenUSD/build_scripts/build_usd.py --build-target iOS --build-monolithic /path/to/my_usd_install_dir
+```
+
+Or for visionOS:
+
+```
+> python OpenUSD/build_scripts/build_usd.py --build-target visionOS --build-monolithic /path/to/my_usd_install_dir
 ```
 
 ##### Windows:
@@ -156,10 +192,10 @@ command prompt and not the 32-bit (x86) command prompt.
 See https://docs.microsoft.com/en-us/cpp/build/how-to-enable-a-64-bit-visual-cpp-toolset-on-the-command-line for more details.
 
 For example, the following will download, build, and install USD's dependencies,
-then build and install USD into `C:\USD`.
+then build and install USD into `C:\path\to\my_usd_install_dir`.
 
 ```
-C:\> python USD\build_scripts\build_usd.py "C:\USD"
+C:\> python OpenUSD\build_scripts\build_usd.py "C:\path\to\my_usd_install_dir"
 ```
 
 #### 4. Try it out
@@ -168,7 +204,7 @@ Set the environment variables specified by the script when it finishes and
 launch `usdview` with a sample asset.
 
 ```
-> usdview USD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
+> usdview OpenUSD/extras/usd/tutorials/convertingLayerFormats/Sphere.usda
 ```
 
 Contributing

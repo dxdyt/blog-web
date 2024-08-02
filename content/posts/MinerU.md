@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-08-01T12:19:17+08:00
+date: 2024-08-02T12:19:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721843431268-b8e380c6892f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721843431268-b8e380c6892f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720979085654-1fb29d87d067?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720979085654-1fb29d87d067?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)
@@ -110,7 +110,17 @@ conda activate MinerU
 
 #### 1. Install Magic-PDF
 
-Install the full-feature package with pip:
+**1.Install dependencies**
+
+The full-feature package depends on detectron2, which requires a compilation installation.   
+If you need to compile it yourself, please refer to https://github.com/facebookresearch/detectron2/issues/5114  
+Alternatively, you can directly use our precompiled whl package (limited to Python 3.10):
+
+```bash
+pip install detectron2 --extra-index-url https://wheels.myhloli.com
+```
+
+**2.Install the full-feature package with pip**
 >Note: The pip-installed package supports CPU-only and is ideal for quick tests.
 >
 >For CUDA/MPS acceleration in production, see [Acceleration Using CUDA or MPS](#4-Acceleration-Using-CUDA-or-MPS).
@@ -124,14 +134,6 @@ pip install magic-pdf[full]==0.6.2b1
 > pip install magic-pdf[full-cpu]==0.6.1
 > ```
 
- 
-The full-feature package depends on detectron2, which requires a compilation installation.   
-If you need to compile it yourself, please refer to https://github.com/facebookresearch/detectron2/issues/5114  
-Alternatively, you can directly use our precompiled whl package (limited to Python 3.10):
-
-```bash
-pip install detectron2 --extra-index-url https://myhloli.github.io/wheels/
-```
 
 
 #### 2. Downloading model weights files

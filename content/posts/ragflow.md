@@ -1,9 +1,9 @@
 ---
 title: ragflow
-date: 2024-07-13T12:17:01+08:00
+date: 2024-08-02T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717501219599-653a991b25f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717501219599-653a991b25f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA4NDQxODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718825425588-44299bbb52dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718825425588-44299bbb52dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
 ---
 
 # [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
@@ -73,18 +73,21 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
 </div>
 
 
-## 📌 Latest Updates
+## 🔥 Latest Updates
+
+- 2024-07-23 Supports audio file parsing.
+
+- 2024-07-21 Supports more LLMs (LocalAI, OpenRouter, StepFun, and Nvidia).
+
+- 2024-07-18 Adds more components (Wikipedia, PubMed, Baidu, and Duckduckgo) to the graph.
 
 - 2024-07-08 Supports workflow based on [Graph](./graph/README.md).
 - 2024-06-27 Supports Markdown and Docx in the Q&A parsing method. 
 - 2024-06-27 Supports extracting images from Docx files. 
 - 2024-06-27 Supports extracting tables from Markdown files.
-- 2024-06-14 Supports PDF in the Q&A parsing method.
 - 2024-06-06 Supports [Self-RAG](https://huggingface.co/papers/2310.11511), which is enabled by default in dialog settings.
 - 2024-05-30 Integrates [BCE](https://github.com/netease-youdao/BCEmbedding) and [BGE](https://github.com/FlagOpen/FlagEmbedding) reranker models.
-- 2024-05-28 Supports LLM Baichuan and VolcanoArk.
 - 2024-05-23 Supports [RAPTOR](https://arxiv.org/html/2401.18059v1) for better text retrieval.
-- 2024-05-21 Supports streaming output and text chunk retrieval API. 
 - 2024-05-15 Integrates OpenAI GPT-4o.
 
 ## 🌟 Key Features
