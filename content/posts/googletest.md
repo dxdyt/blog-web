@@ -1,9 +1,9 @@
 ---
 title: googletest
-date: 2024-06-15T12:20:19+08:00
+date: 2024-08-03T12:17:25+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1671482215376-f5dc225287cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722260612891-81562573cc82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722260612891-81562573cc82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
 ---
 
 # [google/googletest](https://github.com/google/googletest)
@@ -19,7 +19,7 @@ GoogleTest now follows the
 We recommend
 [updating to the latest commit in the `main` branch as often as possible](https://github.com/abseil/abseil-cpp/blob/master/FAQ.md#what-is-live-at-head-and-how-do-i-do-it).
 We do publish occasional semantic versions, tagged with
-`v${major}.${minor}.${patch}` (e.g. `v1.14.0`).
+`v${major}.${minor}.${patch}` (e.g. `v1.15.2`).
 
 #### Documentation Updates
 
@@ -27,25 +27,21 @@ Our documentation is now live on GitHub Pages at
 https://google.github.io/googletest/. We recommend browsing the documentation on
 GitHub Pages rather than directly in the repository.
 
-#### Release 1.14.0
+#### Release 1.15.2
 
-[Release 1.14.0](https://github.com/google/googletest/releases/tag/v1.14.0) is
+[Release 1.15.2](https://github.com/google/googletest/releases/tag/v1.15.2) is
 now available.
 
-The 1.14.x branch requires at least C++14.
+The 1.15.x branch requires at least C++14.
 
 #### Continuous Integration
 
-We use Google's internal systems for continuous integration. \
-GitHub Actions were added for the convenience of open-source contributors. They
-are exclusively maintained by the open-source community and not used by the
-GoogleTest team.
+We use Google's internal systems for continuous integration.
 
 #### Coming Soon
 
 *   We are planning to take a dependency on
     [Abseil](https://github.com/abseil/abseil-cpp).
-*   More documentation improvements are planned.
 
 ## Welcome to **GoogleTest**, Google's C++ test framework!
 

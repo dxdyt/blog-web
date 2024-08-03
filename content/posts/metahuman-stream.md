@@ -1,9 +1,9 @@
 ---
 title: metahuman-stream
-date: 2024-08-02T12:18:45+08:00
+date: 2024-08-03T12:18:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719056307923-a11de279d25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719056307923-a11de279d25f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
 ---
 
 # [lipku/metahuman-stream](https://github.com/lipku/metahuman-stream)

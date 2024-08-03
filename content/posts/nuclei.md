@@ -1,9 +1,9 @@
 ---
 title: nuclei
-date: 2024-08-01T12:19:41+08:00
+date: 2024-08-03T12:17:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721240074674-35a47e1bdb13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721240074674-35a47e1bdb13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI0ODU4NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722260612891-81562573cc82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722260612891-81562573cc82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
 ---
 
 # [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
