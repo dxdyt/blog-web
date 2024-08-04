@@ -1,9 +1,9 @@
 ---
 title: GoodbyeDPI
-date: 2024-08-03T12:17:04+08:00
+date: 2024-08-04T12:18:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721322127828-3a47d648f24a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721322127828-3a47d648f24a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721673679585-367c9029e75d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721673679585-367c9029e75d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
 ---
 
 # [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)

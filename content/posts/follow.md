@@ -1,9 +1,9 @@
 ---
 title: follow
-date: 2024-08-03T12:17:41+08:00
+date: 2024-08-04T12:19:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713449585141-0af71bcbfcc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713449585141-0af71bcbfcc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722234629410-7ca203bf7594?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722234629410-7ca203bf7594?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
 ---
 
 # [RSSNext/follow](https://github.com/RSSNext/follow)

@@ -1,44 +1,43 @@
 ---
 title: vue-vben-admin
-date: 2023-10-11T12:16:36+08:00
+date: 2024-08-04T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695349090413-265c7329e10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTY5OTc2ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720735730586-564f7b9d89f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720735730586-564f7b9d89f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
 ---
 
 # [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 
-<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="200" height="200" src="https://anncwb.github.io/anncwb/images/logo.png"> </a> <br> <br>
+<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="200" height="200" src="https://unpkg.com/@vbenjs/static-source@0.1.5/source/logo-v1.webp"> </a> <br> <br>
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
-<h1>Vue vben admin</h1>
+<h1>Vue Vben Admin</h1>
 </div>
 
 **English** | [中文](./README.zh-CN.md)
 
 ## Introduction
 
-Vue Vben Admin is a free and open source middle and back-end template. Using the latest `vue3`, `vite4`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
+Vue Vben Admin is a free and open source middle and back-end template. Using the latest `vue3`, `vite`, `TypeScript` and other mainstream technology development, the out-of-the-box middle and back-end front-end solutions can also be used for learning reference.
+
+## Upgrade Notice
+
+This is the latest version, 5.0, and it is not compatible with previous versions. If you are starting a new project, it is recommended to use the latest version. If you wish to view the old version, please use the [v2 branch](https://github.com/vbenjs/vue-vben-admin/tree/v2).
 
 ## Feature
 
-- **State of The Art Development**：Use front-end front-end technology development such as Vue3/vite2
-- **TypeScript**: Application-level JavaScript language
-- **Theming**: Configurable themes
-- **International**：Built-in complete internationalization program
-- **Mock Server** Built-in mock data scheme
-- **Authority** Built-in complete dynamic routing permission generation scheme.
-- **Component** Multiple commonly used components are encapsulated twice
+- **Latest Technology Stack**: Developed with cutting-edge front-end technologies like Vue 3 and Vite
+- **TypeScript**: A language for application-scale JavaScript
+- **Themes**: Multiple theme colors available with customizable options
+- **Internationalization**: Comprehensive built-in internationalization support
+- **Permissions**: Built-in solution for dynamic route-based permission generation
 
 ## Preview
 
-- [vue-vben-admin](https://vben.vvbin.cn/) - Full version Chinese site
-- [vue-vben-admin-gh-pages](https://anncwb.github.io/vue-vben-admin/) - Full version of the github site
-- [vben-admin-thin-next](https://vben.vvbin.cn/thin/next/) - Simplified Chinese site
-- [vben-admin-thin-gh-pages](https://anncwb.github.io/vben-admin-thin-next/) -Simplified github site
+- [Vben Admin](https://vben.pro/) - Full version Chinese site
 
-Test account: vben/123456
+Test Account: vben/123456
 
 <p align="center">
     <img alt="VbenAdmin Logo" width="100%" src="https://anncwb.github.io/anncwb/images/preview1.png">
@@ -50,35 +49,26 @@ Test account: vben/123456
 
 Open the project in Gitpod (free online dev environment for GitHub) and start coding immediately.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/anncwb/vue-vben-admin)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vbenjs/vue-vben-admin)
 
 ## Documentation
 
-[Document](https://doc.vvbin.cn/)
-
-## Preparation
-
-- [node](http://nodejs.org/) and [git](https://git-scm.com/) - Project development environment
-- [Vite](https://vitejs.dev/) - Familiar with vite features
-- [Vue3](https://v3.vuejs.org/) - Familiar with Vue basic syntax
-- [TypeScript](https://www.typescriptlang.org/) - Familiar with the basic syntax of `TypeScript`
-- [Es6+](http://es6.ruanyifeng.com/) - Familiar with es6 basic syntax
-- [Vue-Router-Next](https://next.router.vuejs.org/) - Familiar with the basic use of vue-router
-- [Ant-Design-Vue](https://antdv.com/docs/vue/introduce-cn/) - ui basic use
-- [Mock.js](https://github.com/nuysoft/Mock) - mockjs basic syntax
+[Document](https://doc.vben.pro/)
 
 ## Install and use
 
 - Get the project code
 
 ```bash
-git clone https://github.com/anncwb/vue-vben-admin.git
+git clone https://github.com/vbenjs/vue-vben-admin.git
 ```
 
 - Installation dependencies
 
 ```bash
 cd vue-vben-admin
+
+corepack enable
 
 pnpm install
 
@@ -87,7 +77,7 @@ pnpm install
 - run
 
 ```bash
-pnpm serve
+pnpm dev
 ```
 
 - build
@@ -96,32 +86,9 @@ pnpm serve
 pnpm build
 ```
 
-- docker
-
-### The dockerFile is located in the project root directory and supports differential deployment
-
-#### build image
-
-```bash
-docker build -t vue-vben-admin .
-```
-
-#### Environment variables are dynamically used to achieve differentiated container deployment. Different VG_BASE_URL environment variables point to different back-end service addresses. In the following example, http://localhost:3333 is used as the back-end service address and the container is mapped to port 6666
-
-```bash
-docker run --name vue-vben-admin -d -p 6666:80  -e VG_BASE_URL=http://localhost:3333 vue-vben-admin
-```
-
-Then you can navigate http://localhost:6666
-
 ## Change Log
 
 [CHANGELOG](./CHANGELOG.zh_CN.md)
-
-## Project
-
-- [vue-vben-admin](https://github.com/anncwb/vue-vben-admin) - full version
-- [vue-vben-admin-thin-next](https://github.com/anncwb/vben-admin-thin-next) - Simplified version
 
 ## How to contribute
 
@@ -148,19 +115,9 @@ You are very welcome to join！[Raise an issue](https://github.com/anncwb/vue-vb
   - `test` Test related
   - `docs` Documentation/notes
   - `chore` Dependency update/scaffolding configuration modification etc.
-  - `workflow` Workflow improvements
   - `ci` Continuous integration
   - `types` Type definition file changes
   - `wip` In development
-
-## Related warehouse
-
-If these plugins are helpful to you, you can give a star support
-
-- [vite-plugin-mock](https://github.com/anncwb/vite-plugin-mock) - Used for local and development environment data mock
-- [vite-plugin-html](https://github.com/anncwb/vite-plugin-html) - Used for html template conversion and compression
-- [vite-plugin-compression](https://github.com/anncwb/vite-plugin-compression) - Used to pack input .gz|.brotil files
-- [vite-plugin-svg-icons](https://github.com/anncwb/vite-plugin-svg-icons) - Used to quickly generate svg sprite
 
 ## Browser support
 
@@ -180,14 +137,19 @@ Support modern browsers, not IE
 
 If you think this project is helpful to you, you can help the author buy a cup of coffee to show your support!
 
-![donate](https://anncwb.github.io/anncwb/images/sponsor.png)
+![donate](https://unpkg.com/@vbenjs/static-source@0.1.5/source/sponsor.png)
 
 <a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvvben">Paypal Me</a>
 
+## Contributor
+
+<a href="https://github.com/vbenjs/vue-vben-admin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=vbenjs/vue-vben-admin" />
+</a>
+
 ## Discord
 
-- [github discussions](https://github.com/anncwb/vue-vben-admin/discussions)
-- [Discord](https://discord.gg/8GuAdwDhj6)
+- [Github Discussions](https://github.com/anncwb/vue-vben-admin/discussions)
 
 ## License
 

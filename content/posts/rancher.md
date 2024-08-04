@@ -1,9 +1,9 @@
 ---
 title: rancher
-date: 2024-08-03T12:18:31+08:00
+date: 2024-08-04T12:20:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719074124029-6474e6a3452e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719074124029-6474e6a3452e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
 ---
 
 # [rancher/rancher](https://github.com/rancher/rancher)

@@ -1,86 +1,145 @@
 ---
 title: mlc-llm
-date: 2023-08-15T12:16:30+08:00
+date: 2024-08-04T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690636108226-f9f17860bb77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIwNzI4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716673630033-a7c33d85ca12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716673630033-a7c33d85ca12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
 ---
 
 # [mlc-ai/mlc-llm](https://github.com/mlc-ai/mlc-llm)
 
-[discord-url]: https://discord.gg/9Xpy2HGBuD
+<div align="center">
 
 # MLC LLM
 
-[Project Page](https://mlc.ai/mlc-llm/) | [Documentation](https://mlc.ai/mlc-llm/docs/) | [Blog](https://mlc.ai/blog/2023/05/01/bringing-accelerated-llm-to-consumer-hardware) | [WebLLM](https://webllm.mlc.ai/) | [WebStableDiffusion](https://websd.mlc.ai/) | [Discord][discord-url]
+[![Installation](https://img.shields.io/badge/docs-latest-green)](https://llm.mlc.ai/docs/)
+[![License](https://img.shields.io/badge/license-apache_2-blue)](https://github.com/mlc-ai/mlc-llm/blob/main/LICENSE)
+[![Join Discoard](https://img.shields.io/badge/Join-Discord-7289DA?logo=discord&logoColor=white)]("https://discord.gg/9Xpy2HGBuD")
+[![Related Repository: WebLLM](https://img.shields.io/badge/Related_Repo-WebLLM-fafbfc?logo=github)](https://github.com/mlc-ai/web-llm/)
 
-MLC LLM is a **universal solution** that allows **any language models** to be **deployed natively** on a diverse set of hardware backends and native applications, plus a **productive framework** for everyone to further optimize model performance for their own use cases.
+**Universal LLM Deployment Engine with ML Compilation**
 
-Our mission is to **enable everyone to develop, optimize and deploy AI models natively on everyone's devices**.
+[Get Started](https://llm.mlc.ai/docs/get_started/quick_start) | [Documentation](https://llm.mlc.ai/docs) | [Blog](https://blog.mlc.ai/)
 
-Everything runs locally  with no server support and accelerated with local GPUs on your phone and laptops.
-[Supported platforms](https://github.com/mlc-ai/mlc-llm/issues/15) include:
-* iPhone, iPad;
-* Android phones;
-* Apple Silicon and x86 MacBooks;
-* AMD, Intel and NVIDIA GPUs via Vulkan on Windows and Linux;
-* NVIDIA GPUs via CUDA on Windows and Linux;
-* WebGPU on browsers (through companion project [WebLLM](https://github.com/mlc-ai/web-llm/tree/main)).
+</div>
 
-<ins>**[Check out our instruction page to try out!](https://mlc.ai/mlc-llm/docs/get_started/try_out.html)**</ins>
+## About
 
-<p align="center">
-  <img src="site/gif/ios-demo.gif" height="700">
-</p>
+MLC LLM is a machine learning compiler and high-performance deployment engine for large language models.  The mission of this project is to enable everyone to develop, optimize, and deploy AI models natively on everyone's platforms. 
 
-## News
+<div align="center">
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th style="width:15%"> </th>
+      <th style="width:20%">AMD GPU</th>
+      <th style="width:20%">NVIDIA GPU</th>
+      <th style="width:20%">Apple GPU</th>
+      <th style="width:24%">Intel GPU</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Linux / Win</td>
+      <td>✅ Vulkan, ROCm</td>
+      <td>✅ Vulkan, CUDA</td>
+      <td>N/A</td>
+      <td>✅ Vulkan</td>
+    </tr>
+    <tr>
+      <td>macOS</td>
+      <td>✅ Metal (dGPU)</td>
+      <td>N/A</td>
+      <td>✅ Metal</td>
+      <td>✅ Metal (iGPU)</td>
+    </tr>
+    <tr>
+      <td>Web Browser</td>
+      <td colspan=4>✅ WebGPU and WASM </td>
+    </tr>
+    <tr>
+      <td>iOS / iPadOS</td>
+      <td colspan=4>✅ Metal on Apple A-series GPU</td>
+    </tr>
+    <tr>
+      <td>Android</td>
+      <td colspan=2>✅ OpenCL on Adreno GPU</td>
+      <td colspan=2>✅ OpenCL on Mali GPU</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-* [08/02/2023] [Dockerfile](https://github.com/junrushao/llm-perf-bench/) released for CUDA performance benchmarking
-* [07/19/2023] Supports 7B/13B/70B Llama-2
+MLC LLM compiles and runs code on MLCEngine -- a unified high-performance LLM inference engine across the above platforms. MLCEngine provides OpenAI-compatible API available through REST server, python, javascript, iOS, Android, all backed by the same engine and compiler that we keep improving with the community.
 
-## What is MLC LLM?
+## Get Started
 
-In recent years, there has been remarkable progress in generative artificial intelligence (AI) and large language models (LLMs), which are becoming increasingly prevalent. Thanks to open-source initiatives, it is now possible to develop personal AI assistants using open-sourced models. However, LLMs tend to be resource-intensive and computationally demanding. To create a scalable service, developers may need to rely on powerful clusters and expensive hardware to run model inference. Additionally, deploying LLMs presents several challenges, such as their ever-evolving model innovation, memory constraints, and the need for potential optimization techniques.
+Please visit our [documentation](https://llm.mlc.ai/docs/) to get started with MLC LLM.
+- [Installation](https://llm.mlc.ai/docs/install/mlc_llm)
+- [Quick start](https://llm.mlc.ai/docs/get_started/quick_start)
+- [Introduction](https://llm.mlc.ai/docs/get_started/introduction)
 
-The goal of this project is to enable the development, optimization, and deployment of AI models for inference across a range of devices, including not just server-class hardware, but also users' browsers, laptops, and mobile apps. To achieve this, we need to address the diverse nature of compute devices and deployment environments. Some of the key challenges include:
+## Citation
 
-- Supporting different models of CPUs, GPUs, and potentially other co-processors and accelerators.
-- Deploying on the native environment of user devices, which may not have python or other necessary dependencies readily available.
-- Addressing memory constraints by carefully planning allocation and aggressively compressing model parameters.
+Please consider citing our project if you find it useful:
 
-MLC LLM offers a repeatable, systematic, and customizable workflow that empowers developers and AI system researchers to implement models and optimizations in a productivity-focused, Python-first approach. This methodology enables quick experimentation with new models, new ideas and new compiler passes, followed by native deployment to the desired targets. Furthermore, we are continuously expanding LLM acceleration by broadening TVM backends to make model compilation more transparent and efficient.
+```bibtex
+@software{mlc-llm,
+    author = {MLC team},
+    title = {{MLC-LLM}},
+    url = {https://github.com/mlc-ai/mlc-llm},
+    year = {2023}
+}
+```
 
-## How does MLC Enable Universal Native Deployment?
+The underlying techniques of MLC LLM include:
 
-The cornerstone of our solution is machine learning compilation ([MLC](https://mlc.ai/)), which we leverage to efficiently deploy AI models. We build on the shoulders of open-source ecosystems, including tokenizers from Hugging Face and Google, as well as open-source LLMs like Llama, Vicuna, Dolly, MOSS, RWKV and more. Our primary workflow is based on [Apache TVM Unity](https://github.com/apache/tvm/tree/unity), an exciting ongoing development in the Apache TVM Community.
+<details>
+  <summary>References (Click to expand)</summary>
 
-- Dynamic shape: We bake a language model as a TVM IRModule with native dynamic shape support, avoiding the need for extra padding to the maximum length and reducing both computation amount and memory usage.
-- Composable ML compilation optimizations: we perform many model deployment optimizations, such as better compilation code transformation, fusion, memory planning, library offloading and manual code optimization can be easily incorporated as TVM's IRModule transformations exposed as Python APIs.
-- Quantization: We utilize low-bit quantizations to compress the model weights and leverage TVM's loop-level TensorIR to quickly customize code generations for different compression encoding schemes.
-- Runtime: The final generated libraries run on the native environment, with TVM runtime that comes with minimal dependencies, which supports various GPU driver APIs and native language bindings (C, JavaScript, etc).
+  ```bibtex
+  @inproceedings{tensorir,
+      author = {Feng, Siyuan and Hou, Bohan and Jin, Hongyi and Lin, Wuwei and Shao, Junru and Lai, Ruihang and Ye, Zihao and Zheng, Lianmin and Yu, Cody Hao and Yu, Yong and Chen, Tianqi},
+      title = {TensorIR: An Abstraction for Automatic Tensorized Program Optimization},
+      year = {2023},
+      isbn = {9781450399166},
+      publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+      url = {https://doi.org/10.1145/3575693.3576933},
+      doi = {10.1145/3575693.3576933},
+      booktitle = {Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2},
+      pages = {804–817},
+      numpages = {14},
+      keywords = {Tensor Computation, Machine Learning Compiler, Deep Neural Network},
+      location = {Vancouver, BC, Canada},
+      series = {ASPLOS 2023}
+  }
 
-<img src="site/img/diag.svg" alt="Architecture Diagram" height=""/>
+  @inproceedings{metaschedule,
+      author = {Shao, Junru and Zhou, Xiyou and Feng, Siyuan and Hou, Bohan and Lai, Ruihang and Jin, Hongyi and Lin, Wuwei and Masuda, Masahiro and Yu, Cody Hao and Chen, Tianqi},
+      booktitle = {Advances in Neural Information Processing Systems},
+      editor = {S. Koyejo and S. Mohamed and A. Agarwal and D. Belgrave and K. Cho and A. Oh},
+      pages = {35783--35796},
+      publisher = {Curran Associates, Inc.},
+      title = {Tensor Program Optimization with Probabilistic Programs},
+      url = {https://proceedings.neurips.cc/paper_files/paper/2022/file/e894eafae43e68b4c8dfdacf742bcbf3-Paper-Conference.pdf},
+      volume = {35},
+      year = {2022}
+  }
 
-Additionally, we also provide a lightweight C++-based example CLI app that showcases how to wrap up the compiled artifacts and necessary pre/post-processing, which will hopefully clarify the workflow to embed them into native applications.
+  @inproceedings{tvm,
+      author = {Tianqi Chen and Thierry Moreau and Ziheng Jiang and Lianmin Zheng and Eddie Yan and Haichen Shen and Meghan Cowan and Leyuan Wang and Yuwei Hu and Luis Ceze and Carlos Guestrin and Arvind Krishnamurthy},
+      title = {{TVM}: An Automated {End-to-End} Optimizing Compiler for Deep Learning},
+      booktitle = {13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18)},
+      year = {2018},
+      isbn = {978-1-939133-08-3},
+      address = {Carlsbad, CA},
+      pages = {578--594},
+      url = {https://www.usenix.org/conference/osdi18/presentation/chen},
+      publisher = {USENIX Association},
+      month = oct,
+  }
+  ```
+</details>
 
-As a starting point, MLC generates GPU shaders for CUDA, Vulkan and Metal. It is possible to add more support, such as OpenCL, sycl, webgpu-native, through improvements to TVM compiler and runtime. MLC also supports various CPU targets including ARM and x86 via LLVM.
 
-We heavily rely on open-source ecosystem, more specifically, [TVM Unity](https://discuss.tvm.apache.org/t/establish-tvm-unity-connection-a-technical-strategy/13344), an exciting latest development in the TVM project that enables python-first interactive MLC development experiences that allows us to easily compose new optimizations all in Python, and incrementally bring our app to the environment of interest. We also leveraged optimizations such as fused quantization kernels, first class dynamic shape support and diverse GPU backends.
-
-## Get Started with MLC-LLM
-
-Please check our [documentation](https://mlc.ai/mlc-llm/docs/get_started/try_out.html) to start the journey with MLC-LLM.
-
-## Links
-
-- You might also be interested in [WebLLM](https://github.com/mlc-ai/web-llm/tree/main), our companion derived project that focus on bringing LLM to browsers.
-- Project page for [instructions](site/index.md).
-- [Local build Instructions for ios App](ios/README.md).
-- You might want to check out our online public [Machine Learning Compilation course](https://mlc.ai) for a systematic
-walkthrough of our approaches.
-
-## Acknowledgements
-
-This project is initiated by members from CMU catalyst, UW SAMPL, SJTU, OctoML and the MLC community. We would love to continue developing and supporting the open-source ML community.
-
-This project is only possible thanks to the shoulders open-source ecosystems that we stand on. We want to thank the Apache TVM community and developers of the TVM Unity effort. The open-source ML community members made these models publicly available. PyTorch and Hugging Face communities that make these models accessible. We would like to thank the teams behind Vicuna, SentencePiece, LLaMA, Alpaca, MOSS and RWKV. We also would like to thank the Vulkan, Swift, C++, Python Rust communities that enables this project.
