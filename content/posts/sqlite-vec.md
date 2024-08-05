@@ -1,9 +1,9 @@
 ---
 title: sqlite-vec
-date: 2024-08-04T12:18:18+08:00
+date: 2024-08-05T12:18:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719918698473-a1812bc12b76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719918698473-a1812bc12b76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1714494403760-aa327020e67c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1714494403760-aa327020e67c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
 ---
 
 # [asg017/sqlite-vec](https://github.com/asg017/sqlite-vec)

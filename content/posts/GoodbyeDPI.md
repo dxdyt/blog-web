@@ -1,9 +1,9 @@
 ---
 title: GoodbyeDPI
-date: 2024-08-04T12:18:24+08:00
+date: 2024-08-05T12:17:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721673679585-367c9029e75d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721673679585-367c9029e75d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721297014353-538367ffa263?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721297014353-538367ffa263?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
 ---
 
 # [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
@@ -32,6 +32,7 @@ Download [latest version from Releases page](https://github.com/ValdikSS/Goodbye
 ```
 Usage: goodbyedpi.exe [OPTION...]
  -p          block passive DPI
+ -q          block QUIC/HTTP3
  -r          replace Host with hoSt
  -s          remove space between host header and its value
  -m          mix Host header case (test.com -> tEsT.cOm)
@@ -87,8 +88,13 @@ LEGACY modesets:
  -4          -p -r -s (best speed)
 
 Modern modesets (more stable, more compatible, faster):
- -5          -f 2 -e 2 --auto-ttl --reverse-frag --max-payload (this is the default)
+ -5          -f 2 -e 2 --auto-ttl --reverse-frag --max-payload
  -6          -f 2 -e 2 --wrong-seq --reverse-frag --max-payload
+ -7          -f 2 -e 2 --wrong-chksum --reverse-frag --max-payload
+ -8          -f 2 -e 2 --wrong-seq --wrong-chksum --reverse-frag --max-payload
+ -9          -f 2 -e 2 --wrong-seq --wrong-chksum --reverse-frag --max-payload -q (this is the default)
+
+ Note: combination of --wrong-seq and --wrong-chksum generates two different fake packets.
 ```
 
 To check if your ISP's DPI could be circumvented, first make sure that your provider does not poison DNS answers by enabling "Secure DNS (DNS over HTTPS)" option in your browser.
@@ -153,8 +159,8 @@ Modify them according to your own needs.
 
 - **[zapret](https://github.com/bol-van/zapret)** by @bol-van (for MacOS, Linux and Windows)
 - **[Green Tunnel](https://github.com/SadeghHayeri/GreenTunnel)** by @SadeghHayeri (for MacOS, Linux and Windows)
-- **[DPI Tunnel CLI](https://github.com/zhenyolka/DPITunnel-cli)** by @zhenyolka (for Linux and routers)
-- **[DPI Tunnel for Android](https://github.com/zhenyolka/DPITunnel-android)** by @zhenyolka (for Android)
+- **[DPI Tunnel CLI](https://github.com/nomoresat/DPITunnel-cli)** by @zhenyolka (for Linux and routers)
+- **[DPI Tunnel for Android](https://github.com/nomoresat/DPITunnel-android)** by @zhenyolka (for Android)
 - **[PowerTunnel](https://github.com/krlvm/PowerTunnel)** by @krlvm (for Windows, MacOS and Linux)
 - **[PowerTunnel for Android](https://github.com/krlvm/PowerTunnel-Android)** by @krlvm (for Android)
 - **[SpoofDPI](https://github.com/xvzc/SpoofDPI)** by @xvzc (for macOS and Linux)

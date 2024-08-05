@@ -1,9 +1,9 @@
 ---
 title: torchchat
-date: 2024-08-04T12:18:11+08:00
+date: 2024-08-05T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716673630033-a7c33d85ca12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716673630033-a7c33d85ca12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721956662218-9a90f700c584?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721956662218-9a90f700c584?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
 ---
 
 # [pytorch/torchchat](https://github.com/pytorch/torchchat)
