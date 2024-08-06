@@ -1,9 +1,9 @@
 ---
 title: sqlite-vec
-date: 2024-08-05T12:18:45+08:00
+date: 2024-08-06T12:19:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714494403760-aa327020e67c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714494403760-aa327020e67c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI4MzE0NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1716890385566-dee802c56d2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI5MTc5MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1716890385566-dee802c56d2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI5MTc5MDB8&ixlib=rb-4.0.3
 ---
 
 # [asg017/sqlite-vec](https://github.com/asg017/sqlite-vec)
@@ -43,7 +43,7 @@ anywhere! A successor to [`sqlite-vss`](https://github.com/asg017/sqlite-vss)
 <a href="https://hacks.mozilla.org/2024/06/sponsoring-sqlite-vec-to-enable-more-powerful-local-ai-applications/">Mozilla Builders project</a>,
 with additional sponsorship from
 <a href="https://fly.io/"><img width=14px src="./.github/logos/flyio.small.ico"/> Fly.io </a>,
-<a href="https://turso.tech/"><img width=14px src="./.github/logos/turso.small.ico"/> Turso</a>, and
+<a href="https://tur.so/sqlite-vec"><img width=14px src="./.github/logos/turso.small.ico"/> Turso</a>, and
 <a href="https://sqlitecloud.io/"><img width=14px src="./.github/logos/sqlitecloud.small.svg"/> SQLite Cloud</a>.
 See <a href="#sponsors">the Sponsors section</a> for more details.
 </i>
@@ -127,7 +127,7 @@ is the main sponsor through the new Builders project.
 </picture>
 </a>
 
-<a href="https://turso.tech/">
+<a href="https://tur.so/sqlite-vec">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./.github/logos/turso.svg">
   <source media="(prefers-color-scheme: light)" srcset="./.github/logos/turso.svg">

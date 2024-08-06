@@ -1,9 +1,9 @@
 ---
 title: LibreChat
-date: 2024-06-23T12:16:33+08:00
+date: 2024-08-06T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716393763723-64e389f248fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716393763723-64e389f248fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720440906281-b4367a242a86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI5MTc5MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720440906281-b4367a242a86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI5MTc5MDB8&ixlib=rb-4.0.3
 ---
 
 # [danny-avila/LibreChat](https://github.com/danny-avila/LibreChat)
@@ -37,7 +37,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1716393763723-64e389f248
 </p>
 
 <p align="center">
-<a href="https://railway.app/template/b5k2mn?referralCode=myKrVZ">
+<a href="https://railway.app/template/b5k2mn?referralCode=HI9hWz">
   <img src="https://railway.app/button.svg" alt="Deploy on Railway" height="30">
 </a>
 <a href="https://zeabur.com/templates/0X2ZY8">
@@ -60,7 +60,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1716393763723-64e389f248
 - 🔄 Edit, Resubmit, and Continue Messages with Conversation branching
 - 🌿 Fork Messages & Conversations for Advanced Context control
 - 💬 Multimodal Chat:
-    - Upload and analyze images with Claude 3, GPT-4 (including `gpt-4o`), and Gemini Vision 📸
+    - Upload and analyze images with Claude 3, GPT-4 (including `gpt-4o` and `gpt-4o-mini`), and Gemini Vision 📸
     - Chat with Files using Custom Endpoints, OpenAI, Azure, Anthropic, & Google. 🗃️
     - Advanced Agents with Files, Code Interpreter, Tools, and API Actions 🔦
       - Available through the [OpenAI Assistants API](https://platform.openai.com/docs/assistants/overview) 🌤️
