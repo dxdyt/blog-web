@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2024-05-13T12:18:52+08:00
+date: 2024-08-07T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714479140002-62d1824fffb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714479140002-62d1824fffb5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU1NzM4MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722259038071-6082eaf397ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwMDQzMjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722259038071-6082eaf397ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwMDQzMjJ8&ixlib=rb-4.0.3
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -91,7 +91,7 @@ AFFiNE is an open-source, all-in-one workspace and an operating system for all t
 
 - Quip & Notion with their great concept of “everything is a block”
 - Trello with their Kanban
-- Airtable & Miro with their no-code programable datasheets
+- Airtable & Miro with their no-code programmable datasheets
 - Miro & Whimiscal with their edgeless visual whiteboard
 - Remote & Capacities with their object-based tag system
 
@@ -195,7 +195,7 @@ See [LICENSE] for details.
 [jobs available]: ./docs/jobs.md
 [latest packages]: https://github.com/toeverything/AFFiNE/pkgs/container/affine-self-hosted
 [contributor license agreement]: https://github.com/toeverything/affine/edit/canary/.github/CLA.md
-[rust-version-icon]: https://img.shields.io/badge/Rust-1.77.2-dea584
+[rust-version-icon]: https://img.shields.io/badge/Rust-1.79.0-dea584
 [stars-icon]: https://img.shields.io/github/stars/toeverything/AFFiNE.svg?style=flat&logo=github&colorB=red&label=stars
 [codecov]: https://codecov.io/gh/toeverything/affine/branch/canary/graphs/badge.svg?branch=canary
 [node-version-icon]: https://img.shields.io/badge/node-%3E=18.16.1-success
