@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2024-07-27T12:19:20+08:00
+date: 2024-08-08T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719090024488-a8e83d65bb06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719090024488-a8e83d65bb06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIwNTM4NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721212771093-f03363e1da22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721212771093-f03363e1da22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1719090024488-a8e83d65bb
   <a href="https://cloud.dify.ai">Dify Cloud</a> ·
   <a href="https://docs.dify.ai/getting-started/install-self-hosted">Self-hosting</a> ·
   <a href="https://docs.dify.ai">Documentation</a> ·
-  <a href="https://cal.com/guchenhe/60-min-meeting">Enterprise inquiry</a>
+  <a href="https://udify.app/chat/22L1zSxg6yW1cWQg">Enterprise inquiry</a>
 </p>
 
 <p align="center">
@@ -47,6 +47,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1719090024488-a8e83d65bb
   <a href="./README_KL.md"><img alt="README tlhIngan Hol" src="https://img.shields.io/badge/Klingon-d9d9d9"></a>
   <a href="./README_KR.md"><img alt="README in Korean" src="https://img.shields.io/badge/한국어-d9d9d9"></a>
   <a href="./README_AR.md"><img alt="README بالعربية" src="https://img.shields.io/badge/العربية-d9d9d9"></a>
+  <a href="./README_TR.md"><img alt="Türkçe README" src="https://img.shields.io/badge/Türkçe-d9d9d9"></a>
 </p>
 
 
@@ -74,7 +75,7 @@ Dify is an open-source LLM app development platform. Its intuitive interface com
   Extensive RAG capabilities that cover everything from document ingestion to retrieval, with out-of-box support for text extraction from PDFs, PPTs, and other common document formats.
 
 **5. Agent capabilities**: 
-  You can define agents based on LLM Function Calling or ReAct, and add pre-built or custom tools for the agent. Dify provides 50+ built-in tools for AI agents, such as Google Search, DELL·E, Stable Diffusion and WolframAlpha.
+  You can define agents based on LLM Function Calling or ReAct, and add pre-built or custom tools for the agent. Dify provides 50+ built-in tools for AI agents, such as Google Search, DALL·E, Stable Diffusion and WolframAlpha.
 
 **6. LLMOps**: 
   Monitor and analyze application logs and performance over time. You could continuously improve prompts, datasets, and models based on production data and annotations.
