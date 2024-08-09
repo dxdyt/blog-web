@@ -1,9 +1,9 @@
 ---
 title: multiplier
-date: 2024-08-08T12:20:31+08:00
+date: 2024-08-09T12:19:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720247522878-d6825f50d650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720247522878-d6825f50d650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722641277067-a7fba0ad1a59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722641277067-a7fba0ad1a59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
 ---
 
 # [trailofbits/multiplier](https://github.com/trailofbits/multiplier)

@@ -1,9 +1,9 @@
 ---
 title: SimpleTuner
-date: 2024-08-08T12:20:10+08:00
+date: 2024-08-09T12:18:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720728659931-388fa6f62f8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720728659931-388fa6f62f8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1718016675738-7772815af223?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1718016675738-7772815af223?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
 ---
 
 # [bghira/SimpleTuner](https://github.com/bghira/SimpleTuner)

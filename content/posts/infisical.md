@@ -1,19 +1,18 @@
 ---
 title: infisical
-date: 2023-08-16T12:15:19+08:00
+date: 2024-08-09T12:18:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691468800130-060a134a58d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691468800130-060a134a58d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIxNTkyNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722641277067-a7fba0ad1a59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722641277067-a7fba0ad1a59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
 ---
 
 # [Infisical/infisical](https://github.com/Infisical/infisical)
 
 <h1 align="center">
-  <img width="300" src="/img/logoname-black.svg#gh-light-mode-only" alt="infisical">
   <img width="300" src="/img/logoname-white.svg#gh-dark-mode-only" alt="infisical">
 </h1>
 <p align="center">
-  <p align="center"><b>Open-source, end-to-end encrypted secret management platform</b>: distribute secrets/configs across your team/infrastructure and prevent secret leaks.</p>
+  <p align="center"><b>The open-source secret management platform</b>: Sync secrets/configs across your team/infrastructure and prevent secret leaks.</p>
 </p>
 
 <h4 align="center">
@@ -21,7 +20,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1691468800130-060a134a58
   <a href="https://infisical.com/">Infisical Cloud</a> |
   <a href="https://infisical.com/docs/self-hosting/overview">Self-Hosting</a> |
   <a href="https://infisical.com/docs/documentation/getting-started/introduction">Docs</a> |
-  <a href="https://www.infisical.com">Website</a>
+  <a href="https://www.infisical.com">Website</a> |
+  <a href="https://infisical.com/careers">Hiring (Remote/SF)</a>
 </h4>
 
 <p align="center">
@@ -44,7 +44,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691468800130-060a134a58
     <img src="https://img.shields.io/github/commit-activity/m/infisical/infisical" alt="git commit activity" />
   </a>
   <a href="https://cloudsmith.io/~infisical/repos/">
-    <img src="https://img.shields.io/badge/Downloads-821.8k-orange" alt="Cloudsmith downloads" />
+    <img src="https://img.shields.io/badge/Downloads-6.95M-orange" alt="Cloudsmith downloads" />
   </a>
   <a href="https://infisical.com/slack">
     <img src="https://img.shields.io/badge/chat-on%20Slack-blueviolet" alt="Slack community channel" />
@@ -54,27 +54,30 @@ featuredImagePreview: https://images.unsplash.com/photo-1691468800130-060a134a58
   </a>
 </h4>
 
-<img src="/img/infisical_github_repo.png" width="100%" alt="Dashboard" />
+<img src="/img/infisical_github_repo2.png" width="100%" alt="Dashboard" />
 
 ## Introduction
 
-**[Infisical](https://infisical.com)** is an open source, end-to-end encrypted secret management platform that teams use to centralize their secrets like API keys, database credentials, and configurations.
+**[Infisical](https://infisical.com)** is the open source secret management platform that teams use to centralize their application configuration and secrets like API keys and database credentials as well as manage their internal PKI.
 
-We're on a mission to make secret management more accessible to everyone, not just security teams, and that means redesigning the entire developer experience from ground up.
+We're on a mission to make security tooling more accessible to everyone, not just security teams, and that means redesigning the entire developer experience from ground up.
 
 ## Features
 
-- **[User-friendly dashboard](https://infisical.com/docs/documentation/platform/project)** to manage secrets across projects and environments (e.g. development, production, etc.)
-- **[Client SDKs](https://infisical.com/docs/sdks/overview)** to fetch secrets for your apps and infrastructure on demand
-- **[Infisical CLI](https://infisical.com/docs/cli/overview)** to fetch and inject secrets into any framework in local development
-- **[Native integrations](https://infisical.com/docs/integrations/overview)** with platforms like GitHub, Vercel, Netlify, and more
-- [**Automatic Kubernetes deployment secret reloads**](https://infisical.com/docs/documentation/getting-started/kubernetes)
-- **[Complete control over your data](https://infisical.com/docs/self-hosting/overview)** - host it yourself on any infrastructure
-- **[Secret versioning](https://infisical.com/docs/documentation/platform/secret-versioning)** and **[Point-in-Time Recovery]()** to version every secret and project state
-- **[Audit logs](https://infisical.com/docs/documentation/platform/audit-logs)** to record every action taken in a project
-- **Role-based Access Controls** per environment
-- [**Simple on-premise deployments** to AWS, Digital Ocean, and more](https://infisical.com/docs/self-hosting/overview)
-- [**Secret Scanning and Leak Prevention**](https://infisical.com/docs/cli/scanning-overview)
+- **[User-friendly dashboard](https://infisical.com/docs/documentation/platform/project)** to manage secrets across projects and environments (e.g. development, production, etc.).
+- **[Client SDKs](https://infisical.com/docs/sdks/overview)** to fetch secrets for your apps and infrastructure on demand.
+- **[Infisical CLI](https://infisical.com/docs/cli/overview)** to fetch and inject secrets into any framework in local development and CI/CD.
+- **[Infisical API](https://infisical.com/docs/api-reference/overview/introduction)** to perform CRUD operation on secrets, users, projects, and any other resource in Infisical.
+- **[Native integrations](https://infisical.com/docs/integrations/overview)** with platforms like [GitHub](https://infisical.com/docs/integrations/cicd/githubactions), [Vercel](https://infisical.com/docs/integrations/cloud/vercel), [AWS](https://infisical.com/docs/integrations/cloud/aws-secret-manager), and tools like [Terraform](https://infisical.com/docs/integrations/frameworks/terraform), [Ansible](https://infisical.com/docs/integrations/platforms/ansible), and more.
+- **[Infisical Kubernetes operator](https://infisical.com/docs/documentation/getting-started/kubernetes)** to managed secrets in k8s, automatically reload deployments, and more.
+- **[Infisical Agent](https://infisical.com/docs/infisical-agent/overview)** to inject secrets into your applications without modifying any code logic.
+- **[Self-hosting and on-prem](https://infisical.com/docs/self-hosting/overview)** to get complete control over your data.
+- **[Secret versioning](https://infisical.com/docs/documentation/platform/secret-versioning)** and **[Point-in-Time Recovery](https://infisical.com/docs/documentation/platform/pit-recovery)** to version every secret and project state.
+- **[Audit logs](https://infisical.com/docs/documentation/platform/audit-logs)** to record every action taken in a project.
+- **[Role-based Access Controls](https://infisical.com/docs/documentation/platform/role-based-access-controls)** to create permission sets on any resource in Infisica and assign those to user or machine identities.
+- **[Simple on-premise deployments](https://infisical.com/docs/self-hosting/overview)** to AWS, Digital Ocean, and more.
+- **[Internal PKI](https://infisical.com/docs/documentation/platform/pki/private-ca)** to create Private CA hierarchies and start issuing and managing X.509 digital certificates.
+- **[Secret Scanning and Leak Prevention](https://infisical.com/docs/cli/scanning-overview)** to prevent secrets from leaking to git.
 
 And much more.
 
@@ -82,9 +85,9 @@ And much more.
 
 Check out the [Quickstart Guides](https://infisical.com/docs/getting-started/introduction)
 
-| Use Infisical Cloud                                                                                                                                     | Deploy Infisical on premise                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| The fastest and most reliable way to <br> get started with Infisical is signing up <br> for free to [Infisical Cloud](https://app.infisical.com/login). | <a href="https://infisical.com/docs/self-hosting/deployment-options/aws-ec2"><img src=".github/images/deploy-to-aws.png" width="150" width="300" /></a> <a href="https://infisical.com/docs/self-hosting/deployment-options/digital-ocean-marketplace" alt="Deploy to DigitalOcean"> <img width="217" alt="Deploy to DO" src="https://www.deploytodo.com/do-btn-blue.svg"/> </a> <br> View all [deployment options](https://infisical.com/docs/self-hosting/overview) |
+| Use Infisical Cloud                                                                                                                                     | Deploy Infisical on premise                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| The fastest and most reliable way to <br> get started with Infisical is signing up <br> for free to [Infisical Cloud](https://app.infisical.com/login). | <br> View all [deployment options](https://infisical.com/docs/self-hosting/overview) |
 
 ### Run Infisical locally
 
@@ -93,13 +96,13 @@ To set up and run Infisical locally, make sure you have Git and Docker installed
 Linux/macOS:
 
 ```console
-git clone https://github.com/Infisical/infisical && cd "$(basename $_ .git)" && cp .env.example .env && docker-compose -f docker-compose.yml up
+git clone https://github.com/Infisical/infisical && cd "$(basename $_ .git)" && cp .env.example .env && docker compose -f docker-compose.prod.yml up
 ```
 
 Windows Command Prompt:
 
 ```console
-git clone https://github.com/Infisical/infisical && cd infisical && copy .env.example .env && docker-compose -f docker-compose.yml up
+git clone https://github.com/Infisical/infisical && cd infisical && copy .env.example .env && docker compose -f docker-compose.prod.yml up
 ```
 
 Create an account at `http://localhost:80`
@@ -126,9 +129,9 @@ Lean about Infisical's code scanning feature [here](https://infisical.com/docs/c
 
 This repo available under the [MIT expat license](https://github.com/Infisical/infisical/blob/main/LICENSE), with the exception of the `ee` directory which will contain premium enterprise features requiring a Infisical license.
 
-If you are interested in managed Infisical Cloud of self-hosted Enterprise Offering, take a look at [our website](https://infisical.com/) or [book a meeting with us](https://cal.com/vmatsiiako/infisical-demo):
+If you are interested in managed Infisical Cloud of self-hosted Enterprise Offering, take a look at [our website](https://infisical.com/) or [book a meeting with us](https://infisical.cal.com/vlad/infisical-demo):
 
-<a href="https://cal.com/vmatsiiako/infisical-demo"><img alt="Schedule a meeting" src="https://cal.com/book-with-cal-dark.svg" /></a>
+<a href="[https://infisical.cal.com/vlad/infisical-demo](https://infisical.cal.com/vlad/infisical-demo)"><img alt="Schedule a meeting" src="https://cal.com/book-with-cal-dark.svg" /></a>
 
 ## Security
 
@@ -140,11 +143,10 @@ Note that this security address should be used only for undisclosed vulnerabilit
 
 ## Contributing
 
-Whether it's big or small, we love contributions. Check out our guide to see how to [get started](https://infisical.com/docs/contributing/overview).
+Whether it's big or small, we love contributions. Check out our guide to see how to [get started](https://infisical.com/docs/contributing/getting-started).
 
 Not sure where to get started? You can:
 
-- [Book a free, non-pressure pairing session / code walkthrough with one of our teammates](https://cal.com/tony-infisical/30-min-meeting-contributing)!
 - Join our <a href="https://infisical.com/slack">Slack</a>, and ask us any questions there.
 - Join our [community calls](https://us06web.zoom.us/j/82623506356) every Wednesday at 11am EST to ask any questions, provide feedback, hangout and more.
 

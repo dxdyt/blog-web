@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2024-03-17T12:16:38+08:00
+date: 2024-08-09T12:18:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707408267251-a23626d3bd70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707408267251-a23626d3bd70?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA2NDg5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719693764027-1192ffb2497a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719693764027-1192ffb2497a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707408267251-a23626d3bd
 </div>
 
 <p align="center">
-  <a target="_blank" href="https://teable.io">Home</a> | <a target="_blank" href="https://help.teable.io">Help</a> | <a target="_blank" href="https://Blog.teable.io">Blog</a> | <a target="_blank" href="https://template.teable.io">Template</a> | <a target="_blank" href="https://app.teable.io/share/shr04TEw1u9EOQojPmG/view">Roadmap</a> | <a target="_blank" href="https://discord.gg/n2JQqekG">Discord</a> | <a target="_blank" href="https://twitter.com/teableio">Twitter</a>
+  <a target="_blank" href="https://teable.io">Home</a> | <a target="_blank" href="https://help.teable.io">Help</a> | <a target="_blank" href="https://Blog.teable.io">Blog</a> | <a target="_blank" href="https://template.teable.io">Template</a> | <a target="_blank" href="https://help.teable.io/developer/api">API</a> | <a target="_blank" href="https://app.teable.io/share/shr04TEw1u9EOQojPmG/view">Roadmap</a> | <a target="_blank" href="https://discord.gg/uZwp7tDE5W">Discord</a> | <a target="_blank" href="https://twitter.com/teableio">Twitter</a>
 </p>
 
 <p align="center">
@@ -30,8 +30,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1707408267251-a23626d3bd
   <a aria-label="Codefactor grade" href="https://www.codefactor.io/repository/github/teableio/teable">
     <img alt="Codefactor" src="https://img.shields.io/codefactor/grade/github/teableio/teable?label=Codefactor&logo=codefactor&style=flat-quare&labelColor=000000" />
   </a>
-  <a aria-label="CodeClimate maintainability" href="https://codeclimate.com/github/teableio/teable">
-    <img alt="Maintainability" src="https://img.shields.io/codeclimate/maintainability/teableio/teable?label=Maintainability&logo=code-climate&style=flat-quare&labelColor=000000" />
+  <a aria-label="Coverage Status" href="https://coveralls.io/github/teableio/teable?branch=develop">
+    <img alt="Coverage" src="https://coveralls.io/repos/github/teableio/teable/badge.svg?branch=develop" />
   </a>
   <a aria-label="CodeClimate technical debt" href="https://codeclimate.com/github/teableio/teable">
     <img alt="Techdebt" src="https://img.shields.io/codeclimate/tech-debt/teableio/teable?label=TechDebt&logo=code-climate&style=flat-quare&labelColor=000000" />
@@ -63,7 +63,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707408267251-a23626d3bd
 
 ## ✨Features
 
-#### 📊 Spreadsheet-like interface
+#### 📊 Spreadsheet-like Interface
 
 All you want is here
 
@@ -80,7 +80,6 @@ All you want is here
 - Data Validation: Limit or validate data that are entered into cells. (coming soon)
 - Undo/Redo: Undo or redo recent changes. (coming soon)
 - Comments & Annotations: Attach comments to rows, providing explanations or feedback for other users. (coming soon)
-- Find & Replace: Search content within the table and replace it with new content. (coming soon)
 
 #### 🗂️ Multiple Views
 
@@ -88,7 +87,7 @@ Visualize and interact with data in various ways best suited for their specific 
 
 - Grid View: The default view of the table, which displays data in a spreadsheet-like format.
 - Form View: Input data in a form format, which is useful for collecting data.
-- Kanban View: Displays data in a Kanban board, which is a visual representation of data in columns and cards. (coming soon)
+- Kanban View: Displays data in a Kanban board, which is a visual representation of data in columns and cards.
 - Calendar View: Displays data in a calendar format, which is useful for tracking dates and events. (coming soon)
 - Gallery View: Displays data in a gallery format, which is useful for displaying images and other media. (coming soon)
 - Gantt View: Displays data in a Gantt chart, which is useful for tracking project schedules. (coming soon)
@@ -116,7 +115,7 @@ You own your data, in spite of the cloud
 
 - Bring your own database (coming soon)
 
-#### ⚡️ Real-time collaboration
+#### ⚡️ Real-time Collaboration
 
 Designed for teams
 
@@ -124,7 +123,7 @@ Designed for teams
 - Seamlessly integrate collaboration member invitation and management
 - Perfect permission management mechanism, from table to column level
 
-#### 🧩 Extensions (coming soon)
+#### 🧩 Extensions (Coming Soon)
 
 Expand infinite possibilities
 
@@ -132,14 +131,14 @@ Expand infinite possibilities
 - Customize your own application with extremely low cost
 - Extremely easy-to-use script extensions mode
 
-#### 🤖 Automation (coming soon)
+#### 🤖 Automation (Coming Soon)
 
 Empower data-driven workflows effortlessly and seamlessly
 
 - Design your workflow with AI or Visual programming
 - Super easy to retrieve data from the table
 
-#### 🧠 Copilot (coming soon)
+#### 🧠 Copilot (Coming Soon)
 
 Native Integrated AI ability
 
@@ -149,7 +148,7 @@ Native Integrated AI ability
 - Chat 2 Action. "After the order is paid and completed, an email notification will be sent to the customer"
 - More actions...
 
-#### 🗄️ Support for multiple databases (coming soon)
+#### 🗄️ Support for Multiple Databases (Coming Soon)
 
 Choose the SQL database you like
 
@@ -177,7 +176,7 @@ Choose the SQL database you like
 
 ## Deploy
 
-### Deploy with docker
+### Deploy With Docker
 
 ```sh
 cd dockers/examples/standalone/
@@ -194,6 +193,8 @@ These platforms are easy to deploy with one click and come with free credits.
 
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/QF8695)
 
+[![Deploy on Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+
 ## Development
 
 #### 1. Initialize
@@ -204,9 +205,6 @@ corepack enable
 
 # Install project dependencies
 pnpm install
-
-# Build packages
-pnpm g:build
 ```
 
 #### 2. Select Database
@@ -217,14 +215,14 @@ we currently support `sqlite` and `postgres`, you can switch between them by run
 make switch-db-mode
 ```
 
-#### 3. Custom environment variables（optional）
+#### 3. Custom Environment Variables（Optional）
 
 ```sh
 cd apps/nextjs-app
 copy .env.development .env.development.local
 ```
 
-#### 4. Run dev server
+#### 4. Run Dev Server
 
 you just need to start backend, it will start next server for frontend automatically, file change will be auto reload
 
@@ -246,7 +244,7 @@ Giving non-techy people the ability to create their software sounds exciting. Bu
 - Maintaining systems with complex setups can be hard for developers, especially if these aren't built using common software standards.
 - Systems that don't use these standards might need revamping or replacing, costing more in the long run. It might even mean ditching the no-code route and going back to traditional coding.
 
-#### What we think the future of no-code products look like
+#### What We Think the Future Of No-code Products Look Like
 
 - An interface that anyone can use to build applications easily.
 - Easy access to data, letting users grab, move, and reuse their information as they wish.

@@ -1,9 +1,9 @@
 ---
 title: MiniCPM-V
-date: 2024-08-08T12:20:15+08:00
+date: 2024-08-09T12:17:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722239319483-d8bf42f6035b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722239319483-d8bf42f6035b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)
@@ -1691,10 +1691,10 @@ This project is developed by the following institutions:
 If you find our model/code/paper helpful, please consider cite our papers 📝 and star us ⭐️！
 
 ```bib
-@article{yao2024minicpmv,
-      title={MiniCPM-V: A GPT-4V Level MLLM on Your Phone}, 
-      author={Yao, Yuan and Yu, Tianyu and Zhang, Ao and Wang, Chongyi and Cui, Junbo and Zhu, Hongji and Cai, Tianchi and Li, Haoyu and Zhao, Weilin and He, Zhihui and Chen, Qianyu and Zhou, Huarong and Zou, Zhensheng and Zhang, Haoye and Hu, Shengding and Zheng, Zhi and Zhou, Jie and Cai, Jie and Han, Xu and Zeng, Guoyang and Li, Dahai and Liu, Zhiyuan and Sun, Maosong},
-      journal={arXiv preprint 2408.01800},
-      year={2024},
+@article{yao2024minicpm,
+  title={MiniCPM-V: A GPT-4V Level MLLM on Your Phone},
+  author={Yao, Yuan and Yu, Tianyu and Zhang, Ao and Wang, Chongyi and Cui, Junbo and Zhu, Hongji and Cai, Tianchi and Li, Haoyu and Zhao, Weilin and He, Zhihui and others},
+  journal={arXiv preprint arXiv:2408.01800},
+  year={2024}
 }
 ```
