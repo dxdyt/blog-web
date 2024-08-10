@@ -1,9 +1,9 @@
 ---
 title: MiniCPM-V
-date: 2024-08-09T12:17:56+08:00
+date: 2024-08-10T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722239319483-d8bf42f6035b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722239319483-d8bf42f6035b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720914746573-5dfb4841d134?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720914746573-5dfb4841d134?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)

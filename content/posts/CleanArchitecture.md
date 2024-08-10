@@ -1,9 +1,9 @@
 ---
 title: CleanArchitecture
-date: 2024-08-08T12:19:53+08:00
+date: 2024-08-10T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721002335874-16ca86e39cd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721002335874-16ca86e39cd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721783676859-c9feec4fbdf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721783676859-c9feec4fbdf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
 ---
 
 # [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)

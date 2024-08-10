@@ -1,9 +1,9 @@
 ---
 title: ckeditor5
-date: 2024-08-09T12:19:15+08:00
+date: 2024-08-10T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720457975117-d3f6764358f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720457975117-d3f6764358f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721297015695-43027e98a178?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721297015695-43027e98a178?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
 ---
 
 # [ckeditor/ckeditor5](https://github.com/ckeditor/ckeditor5)
