@@ -1,9 +1,9 @@
 ---
 title: penpot
-date: 2024-05-03T12:18:36+08:00
+date: 2024-08-11T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712290403808-2589bc83b4c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
 ---
 
 # [penpot/penpot](https://github.com/penpot/penpot)
@@ -60,6 +60,7 @@ Penpot’s latest [huge release 2.0](https://penpot.app/dev-diaries), takes the 
 - [Why Penpot](#why-penpot)
 - [Getting Started](#getting-started)
 - [Community](#community)
+- [Contributing](#contributing)
 - [Resources](#resources)
 - [License](#license)
 

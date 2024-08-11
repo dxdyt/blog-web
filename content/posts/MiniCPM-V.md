@@ -1,9 +1,9 @@
 ---
 title: MiniCPM-V
-date: 2024-08-10T12:19:59+08:00
+date: 2024-08-11T12:18:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720914746573-5dfb4841d134?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720914746573-5dfb4841d134?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMyNjM1NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720733785341-168737dd14ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720733785341-168737dd14ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM-V](https://github.com/OpenBMB/MiniCPM-V)
@@ -38,6 +38,8 @@ Join our <a href="docs/wechat.md" target="_blank"> 💬 WeChat</a>
 ## News <!-- omit in toc -->
 
 #### 📌 Pinned
+
+* [2024.08.10] 🚀🚀🚀 MiniCPM-Llama3-V 2.5 is now fully supported by [official](https://github.com/ggerganov/llama.cpp) llama.cpp! GGUF models of various sizes are available [here](https://huggingface.co/openbmb/MiniCPM-Llama3-V-2_5-gguf).
 * [2024.08.06] 🔥🔥🔥 We open-source MiniCPM-V 2.6, which outperforms GPT-4V on single image, multi-image and video understanding. It advances popular features of MiniCPM-Llama3-V 2.5, and can support real-time video understanding on iPad. Try it now!
 * [2024.08.03] MiniCPM-Llama3-V 2.5 technical report is released! See [here](https://arxiv.org/abs/2408.01800).
 * [2024.07.19] MiniCPM-Llama3-V 2.5 supports vLLM now! See [here](#inference-with-vllm).
