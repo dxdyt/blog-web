@@ -1,9 +1,9 @@
 ---
 title: pico-sdk
-date: 2024-08-11T12:18:11+08:00
+date: 2024-08-12T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722015487898-936442fb5a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722015487898-936442fb5a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722152253464-4ad8cbec563f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722152253464-4ad8cbec563f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
 ---
 
 # [raspberrypi/pico-sdk](https://github.com/raspberrypi/pico-sdk)

@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2024-08-11T12:18:01+08:00
+date: 2024-08-12T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722218530021-aa1dfba50fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722218530021-aa1dfba50fa5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)
@@ -194,6 +194,8 @@ These platforms are easy to deploy with one click and come with free credits.
 [![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/QF8695)
 
 [![Deploy on Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+
+[![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app_id=273)
 
 ## Development
 
