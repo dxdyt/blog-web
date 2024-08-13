@@ -1,16 +1,16 @@
 ---
 title: electron
-date: 2024-03-13T12:17:19+08:00
+date: 2024-08-13T12:17:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707639606163-b2fadec59eab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707639606163-b2fadec59eab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAzMDMyODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722503281726-37999cd45366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722503281726-37999cd45366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
 ---
 
 # [electron/electron](https://github.com/electron/electron)
 
 [![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)
 
-[![CircleCI Build Status](https://circleci.com/gh/electron/electron/tree/main.svg?style=shield)](https://circleci.com/gh/electron/electron/tree/main)
+[![GitHub Actions Build Status](https://github.com/electron/electron/actions/workflows/build.yml/badge.svg)](https://github.com/electron/electron/actions/workflows/build.yml)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/4lggi9dpjc1qob7k/branch/main?svg=true)](https://ci.appveyor.com/project/electron-bot/electron-ljo26/branch/main)
 [![Electron Discord Invite](https://img.shields.io/discord/745037351163527189?color=%237289DA&label=chat&logo=discord&logoColor=white)](https://discord.gg/electronjs)
 
@@ -19,8 +19,8 @@ View these docs in other languages on our [Crowdin](https://crowdin.com/project/
 
 The Electron framework lets you write cross-platform desktop applications
 using JavaScript, HTML and CSS. It is based on [Node.js](https://nodejs.org/) and
-[Chromium](https://www.chromium.org) and is used by the [Visual Studio
-Code](https://github.com/Microsoft/vscode/) and many other [apps](https://electronjs.org/apps).
+[Chromium](https://www.chromium.org) and is used by the
+[Visual Studio Code](https://github.com/Microsoft/vscode/) and many other [apps](https://electronjs.org/apps).
 
 Follow [@electronjs](https://twitter.com/electronjs) on Twitter for important
 announcements.
@@ -48,7 +48,7 @@ For more installation options and troubleshooting tips, see
 
 Each Electron release provides binaries for macOS, Windows, and Linux.
 
-* macOS (Catalina and up): Electron provides 64-bit Intel and ARM binaries for macOS. Apple Silicon support was added in Electron 11.
+* macOS (Big Sur and up): Electron provides 64-bit Intel and Apple Silicon / ARM binaries for macOS.
 * Windows (Windows 10 and up): Electron provides `ia32` (`x86`), `x64` (`amd64`), and `arm64` binaries for Windows. Windows on ARM support was added in Electron 5.0.8. Support for Windows 7, 8 and 8.1 was [removed in Electron 23, in line with Chromium's Windows deprecation policy](https://www.electronjs.org/blog/windows-7-to-8-1-deprecation-notice).
 * Linux: The prebuilt binaries of Electron are built on Ubuntu 20.04. They have also been verified to work on:
   * Ubuntu 18.04 and newer
@@ -122,4 +122,4 @@ and more can be found on the [Community page](https://www.electronjs.org/communi
 
 [MIT](https://github.com/electron/electron/blob/main/LICENSE)
 
-When using Electron logos, make sure to follow [OpenJS Foundation Trademark Policy](https://openjsf.org/wp-content/uploads/sites/84/2021/01/OpenJS-Foundation-Trademark-Policy-2021-01-12.docx.pdf).
+When using Electron logos, make sure to follow [OpenJS Foundation Trademark Policy](https://trademark-policy.openjsf.org/).

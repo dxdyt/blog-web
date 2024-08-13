@@ -1,9 +1,9 @@
 ---
 title: Deep-Live-Cam
-date: 2024-08-12T12:18:01+08:00
+date: 2024-08-13T12:17:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721152839659-dabbacabd5d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721152839659-dabbacabd5d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720671847847-0b127f440aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720671847847-0b127f440aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)

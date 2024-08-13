@@ -1,9 +1,9 @@
 ---
 title: cocos-engine
-date: 2024-08-11T12:19:08+08:00
+date: 2024-08-13T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720733785341-168737dd14ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720733785341-168737dd14ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720887237185-6b8d5c01005d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720887237185-6b8d5c01005d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
 ---
 
 # [cocos/cocos-engine](https://github.com/cocos/cocos-engine)

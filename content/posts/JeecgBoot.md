@@ -1,9 +1,9 @@
 ---
 title: JeecgBoot
-date: 2024-08-12T12:18:37+08:00
+date: 2024-08-13T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722837174160-1b9b555f67db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722837174160-1b9b555f67db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721983314435-ce4426702c66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721983314435-ce4426702c66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
 ---
 
 # [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
