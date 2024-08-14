@@ -1,9 +1,9 @@
 ---
 title: stable-diffusion-webui-forge
-date: 2024-08-13T12:18:26+08:00
+date: 2024-08-14T12:18:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720671847847-0b127f440aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720671847847-0b127f440aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
 ---
 
 # [lllyasviel/stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)

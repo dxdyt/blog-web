@@ -1,14 +1,14 @@
 ---
 title: bark
-date: 2023-12-24T12:15:36+08:00
+date: 2024-08-14T12:20:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700975928909-da4a46227a47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700975928909-da4a46227a47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721032608880-b82c45362c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721032608880-b82c45362c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
 ---
 
 # [suno-ai/bark](https://github.com/suno-ai/bark)
 
-> Notice: Bark is Suno's open-source text-to-speech+ model. If you are looking for our new text-to-music model, Chirp, have a look at our [Chirp Examples Page](https://suno.ai/examples/chirp-v1) and join us on [Discord](https://suno.ai/discord). 
+> Notice: Bark is Suno's open-source text-to-speech+ model. If you are looking for our text-to-music models, please visit us on our [web page](https://suno.ai) and join our community on [Discord](https://suno.ai/discord). 
 
      
 # 🐶 Bark
@@ -297,8 +297,6 @@ Requests for future language support [here](https://github.com/suno-ai/bark/disc
 ## © License
 
 Bark is licensed under the MIT License. 
-
-Please contact us at 📧 [bark@suno.ai](mailto:bark@suno.ai) to request access to a larger version of the model.  
 
 ## 📱 Community
 

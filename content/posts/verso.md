@@ -1,9 +1,9 @@
 ---
 title: verso
-date: 2024-08-13T12:19:23+08:00
+date: 2024-08-14T12:17:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722503281726-37999cd45366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722503281726-37999cd45366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722218424131-843e1277909a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722218424131-843e1277909a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
 ---
 
 # [versotile-org/verso](https://github.com/versotile-org/verso)
@@ -16,8 +16,10 @@ A web browser that plays old world blues to build new world hope.
 
 ![](https://github.com/pewsheen/verso/assets/460329/7df44c7d-a4c5-4393-8378-a8b7bc438b03)
 
-Verso is a web browser built on top of Servo web engine. It's still under development. We don't accept any feature request at the moment.
-But if you are interested, feel free to help test it.
+Verso is a web browser built on top of the [Servo](https://servo.org/) web engine. We aim to explore embedding solutions for Servo while growing it into a mature browser one day.
+This means we want to experiment with multi-view and multi-window first and then build UI elements entirely from Servo itself. At the moment, [Servoshell](https://servo.org/download/) should provide a better user experience.
+
+Verso is still under development. We don't accept feature requests at the moment, and the whole navigation workflow hasn't been polished yet, either. But if you are interested, feel free to open bug issues.
 
 # Usage
 
@@ -61,23 +63,15 @@ cargo run
 #### Flatpak
 
 For unified environment setup and package experience, we choose Flatpak to build the project from the start.
-Please follow the [Flatpak Setup](https://flatpak.org/setup/) page to install Flakpak based on your distribution.
+Please follow the [Flatpak Setup](https://flatpak.org/setup/) page to install Flatpak based on your distribution.
 
-- Install flatpak runtimes and extensions:
-
-```sh
-flatpak install flathub org.freedesktop.Platform//23.08
-flatpak install flathub org.freedesktop.Sdk//23.08
-flatpak install flathub org.freedesktop.Sdk.Extension.rust-stable//23.08
-flatpak install flathub org.freedesktop.Sdk.Extension.llvm18//23.08
-```
 
 - Generate manifests and build:
 // TODO Exporting to a repository instead
 
 ```sh
 python3 ./flatpak-cargo-generator.py ./Cargo.lock -o cargo-sources.json
-flatpak-builder --user --install --force-clean target org.versotile.verso.yml
+flatpak-builder --user --install --install-deps-from=flathub --force-clean target org.versotile.verso.yml
 flatpak run org.versotile.verso
 ```
 
@@ -104,7 +98,7 @@ But please understand we don't triage any build issue without flatpak or nix set
 
 Nightly releases built with CrabNebula Cloud can be found at [releases](https://web.crabnebula.cloud/verso/verso-nightly/releases).
 
-> Packages are unsigned currently. If you have problem opening the app on macOS, try `xattr -d com.apple.quarantine /Applications/verso.app` after installation. 
+> Packages are unsigned currently. If you have problem opening the app on macOS, try `xattr -d com.apple.quarantine /Applications/verso.app` after installation.
 
 ## Future Work
 

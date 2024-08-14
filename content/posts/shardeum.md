@@ -1,9 +1,9 @@
 ---
 title: shardeum
-date: 2024-08-13T12:18:06+08:00
+date: 2024-08-14T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722352566806-dad00329109c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722352566806-dad00329109c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
 ---
 
 # [shardeum/shardeum](https://github.com/shardeum/shardeum)
@@ -54,11 +54,19 @@ Shardeum is an innovative EVM-compliant blockchain platform that leverages dynam
 
 ### Prerequisites
 
-- First, [setup your local dev environment for Shardeum](local-environment-setup.md)
 - Node.js (v18.16.1)
 - npm (v9.5.1)
 - Rust (v1.74.1)
 - Docker (optional, for containerized deployment)
+
+### Setting Up Your Environment
+
+Shardeum requires specific versions of Nodejs, Rust and other build tools to run. 
+
+We have detailed setup instructions [in this page](local-environment-setup.md) 
+
+>[!IMPORTANT] 
+> This is a crucial step, ensure your local environment is correctly set up before proceeding with the next steps
 
 ### Installation
 
@@ -89,7 +97,7 @@ Learn more about the different config options [here](local)
 npm run prepare
 ```
 
-4. Install the Shardus CLI:
+5. Install the Shardus CLI:
 
 ```bash
 npm install -g shardus
