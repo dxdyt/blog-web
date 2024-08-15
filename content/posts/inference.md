@@ -1,265 +1,169 @@
 ---
 title: inference
-date: 2023-08-25T12:16:47+08:00
+date: 2024-08-15T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691815862778-249e9cd7f63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691815862778-249e9cd7f63f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI5MzY4NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721069662098-f2031c2319b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721069662098-f2031c2319b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
 ---
 
-# [roboflow/inference](https://github.com/roboflow/inference)
-
-![Roboflow Inference banner](https://github.com/roboflow/inference/blob/main/banner.png?raw=true)
-
-## 👋 hello
-
-[Roboflow](https://roboflow.com) Inference is an opinionated tool for running inference on state-of-the-art computer vision models. With no prior 
-knowledge of machine learning or device-specific deployment, you can deploy a computer vision model to a range of devices and environments. Inference supports object detection, classification, and instance segmentation models, and running foundation models (CLIP and SAM).
-
-## 🎥  Inference in action
-
-Check out Inference running on a video of a football game:
-
-https://github.com/roboflow/inference/assets/37276661/05512458-8424-4ddd-b214-57204b278528
-
-## 💻 Why Inference?
-
-Inference provides a scalable method through which you can manage inferences for your vision projects.
-
-Inference is backed by:
-
-* A server, so you don’t have to reimplement things like image processing and prediction visualization on every project.
-
-* Standardized APIs for computer vision tasks, so switching out the model weights and architecture can be done independently of your application code.
-
-* Model architecture implementations, which implement the tensor parsing glue between images and predictions for supervised models that you've fine-tuned to perform custom tasks.
-
-* A model registry, so your code can be independent from your model weights & you don't have to re-build and re-deploy every time you want to iterate on your model weights.
-
-* Data management integrations, so you can collect more images of edge cases to improve your dataset & model the more it sees in the wild.
-
-And more!
-
-### 📌 Install pip vs Docker:
-
-- **pip**: Installs `inference` into your Python environment. Lightweight, good for Python-centric projects.
-- **Docker**: Packages `inference` with its environment. Ensures consistency across setups; ideal for scalable deployments.
-
-## 💻 install
-
-### With ONNX CPU Runtime:
-For CPU powered inference:
-```bash
-pip install inference
-```
-or
-```bash
-pip install inference-cpu
-```
-
-### With ONNX GPU Runtime:
-If you have an NVIDIA GPU, you can accelerate your inference with:
-```bash
-pip install inference-gpu
-```
-
-### Without ONNX Runtime:
-Roboflow Inference uses Onnxruntime as its core inference engine. Onnxruntime provides an array of different [execution providers](https://onnxruntime.ai/docs/execution-providers/) that can optimize inference on differnt target devices. If you decide to install onnxruntime on your own, install inference with:
-```bash
-pip install inference-core
-```
-Alternatively, you can take advantage of some advanced execution providers using one of our published docker images.
-
-### Extras:
-Some functionality requires extra dependancies. These can be installed by specifying the desired extras during installation of Roboflow Inference.
-| extra  | description                                      |
-|:-------|:-------------------------------------------------|
-| `http` | Ability to run the http interface                |
-
-Example install with http dependancies:
-```bash
-pip install inference[http]
-```
-
-## 🐋 docker
-
-You can learn more about Roboflow Inference Docker Image build, pull and run in our [documentation](https://roboflow.github.io/inference/quickstart/docker/).
-
-- Run on x86 CPU:
-
-```bash
-docker run --net=host roboflow/roboflow-inference-server-cpu:latest
-```
-  
-- Run on Nvidia GPU:
-
-```bash
-docker run --network=host --gpus=all roboflow/roboflow-inference-server-gpu:latest
-```
-  
-<details close>
-<summary>👉 more docker run options</summary>
-
-- Run on arm64 CPU:
-
-```bash
-docker run -p 9001:9001 roboflow/roboflow-inference-server-arm-cpu:latest
-```
-  
-- Run on Nvidia GPU with TensorRT Runtime:
-
-```bash
-docker run --network=host --gpus=all roboflow/roboflow-inference-server-trt:latest
-```
-  
-- Run on Nvidia Jetson with JetPack `4.x`:
-
-```bash
-docker run --privileged --net=host --runtime=nvidia roboflow/roboflow-inference-server-trt-jetson:latest
-```
-  
-- Run on Nvidia Jetson with JetPack `5.x`:
-
-```bash
-docker run --privileged --net=host --runtime=nvidia roboflow/roboflow-inference-server-trt-jetson-5.1.1:latest
-```
-
-</details>
-
-<br/>
-
-## 🔥 quickstart
-
-**Docker Quickstart**:
-
-```python
-import requests
-
-dataset_id = "soccer-players-5fuqs"
-version_id = "1"
-image_url = "https://source.roboflow.com/pwYAXv9BTpqLyFfgQoPZ/u48G0UpWfk8giSw7wrU8/original.jpg"
-#Replace ROBOFLOW_API_KEY with your Roboflow API Key
-api_key = "ROBOFLOW_API_KEY"
-confidence = 0.5
-
-url = f"http://localhost:9001/{dataset_id}/{version_id}"
-
-params = {
-    "api_key": api_key,
-    "confidence": confidence,
-    "image": image_url,
-}
-
-res = requests.post(url, params=params)
-print(res.json())
-```
-**Pip Quickstart**:
-
-After installing via pip, you can run a simple inference using:
-
-```python
-from inference.core.data_models import ObjectDetectionInferenceRequest
-from inference.models.yolov5.yolov5_object_detection import (
-    YOLOv5ObjectDetectionOnnxRoboflowInferenceModel,
-)
-
-model = YOLOv5ObjectDetectionOnnxRoboflowInferenceModel(
-    model_id="soccer-players-5fuqs/1", device_id="my-pc", 
-    #Replace ROBOFLOW_API_KEY with your Roboflow API Key
-    api_key="ROBOFLOW_API_KEY"
-)
-
-request = ObjectDetectionInferenceRequest(
-    image={
-        "type": "url",
-        "value": "https://source.roboflow.com/pwYAXv9BTpqLyFfgQoPZ/u48G0UpWfk8giSw7wrU8/original.jpg",
-    },
-    confidence=0.5,
-    iou_threshold=0.5,
-)
-
-results = model.infer(request)
-
-print(results)
-
-```
-
-
-## 📝 license
-
-The Roboflow Inference code is distributed under an [Apache 2.0 license](https://github.com/roboflow/inference/blob/master/LICENSE.md). The models supported by Roboflow Inference have their own licenses. View the licenses for supported models below.
-
-| model                     |                                       license                                        |
-|:--------------------------|:------------------------------------------------------------------------------------:|
-| `inference/models/clip`   |               [MIT](https://github.com/openai/CLIP/blob/main/LICENSE)                |
-| `inference/models/sam`    | [Apache 2.0](https://github.com/facebookresearch/segment-anything/blob/main/LICENSE) |
-| `inference/models/vit`    | [Apache 2.0](https://github.com/roboflow/inference/main/inference/models/vit/LICENSE)|
-| `inference/models/yolact` |            [MIT](https://github.com/dbolya/yolact/blob/master/README.md)             |
-| `inference/models/yolov5` |        [AGPL-3.0](https://github.com/ultralytics/yolov5/blob/master/LICENSE)         |
-| `inference/models/yolov7` |         [GPL-3.0](https://github.com/WongKinYiu/yolov7/blob/main/README.md)          |
-| `inference/models/yolov8` |     [AGPL-3.0](https://github.com/ultralytics/ultralytics/blob/master/LICENSE)       |
-
-## 🚀 enterprise
-
-With a Roboflow Inference Enterprise License, you can access additional Inference features, including:
-
-- Server cluster deployment
-- Device management
-- Active learning
-- YOLOv5 and YOLOv8 model sub-license
-
-To learn more, [contact the Roboflow team](https://roboflow.com/sales).
-
-## 📚 documentation
-
-Visit our [documentation](https://roboflow.github.io/inference) for usage examples and reference for Roboflow Inference.
-
-## 🏆 contribution
-
-We would love your input to improve Roboflow Inference! Please see our [contributing guide](https://github.com/roboflow/inference/blob/master/CONTRIBUTING.md) to get started. Thank you to all of our contributors! 🙏
-
-<br>
+# [xorbitsai/inference](https://github.com/xorbitsai/inference)
 
 <div align="center">
-  <div align="center">
-      <a href="https://youtube.com/roboflow">
-          <img
-            src="https://media.roboflow.com/notebooks/template/icons/purple/youtube.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949634652"
-            width="3%"
-          />
-      </a>
-      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
-      <a href="https://roboflow.com">
-          <img
-            src="https://media.roboflow.com/notebooks/template/icons/purple/roboflow-app.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949746649"
-            width="3%"
-          />
-      </a>
-      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
-      <a href="https://www.linkedin.com/company/roboflow-ai/">
-          <img
-            src="https://media.roboflow.com/notebooks/template/icons/purple/linkedin.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633691"
-            width="3%"
-          />
-      </a>
-      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
-      <a href="https://docs.roboflow.com">
-          <img
-            src="https://media.roboflow.com/notebooks/template/icons/purple/knowledge.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949634511"
-            width="3%"
-          />
-      </a>
-      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
-      <a href="https://disuss.roboflow.com">
-          <img
-            src="https://media.roboflow.com/notebooks/template/icons/purple/forum.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633584"
-            width="3%"
-          />
-      <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
-      <a href="https://blog.roboflow.com">
-          <img
-            src="https://media.roboflow.com/notebooks/template/icons/purple/blog.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633605"
-            width="3%"
-          />
-      </a>
-      </a>
-  </div>
+<img src="./assets/xorbits-logo.png" width="180px" alt="xorbits" />
+
+# Xorbits Inference: Model Serving Made Easy 🤖
+
+[![PyPI Latest Release](https://img.shields.io/pypi/v/xinference.svg?style=for-the-badge)](https://pypi.org/project/xinference/)
+[![License](https://img.shields.io/pypi/l/xinference.svg?style=for-the-badge)](https://github.com/xorbitsai/inference/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/xorbitsai/inference/python.yaml?branch=main&style=for-the-badge&label=GITHUB%20ACTIONS&logo=github)](https://actions-badge.atrox.dev/xorbitsai/inference/goto?ref=main)
+[![Slack](https://img.shields.io/badge/join_Slack-781FF5.svg?logo=slack&style=for-the-badge)](https://join.slack.com/t/xorbitsio/shared_invite/zt-1o3z9ucdh-RbfhbPVpx7prOVdM1CAuxg)
+[![Twitter](https://img.shields.io/twitter/follow/xorbitsio?logo=x&style=for-the-badge)](https://twitter.com/xorbitsio)
+
+English | [中文介绍](README_zh_CN.md) | [日本語](README_ja_JP.md)
+</div>
+<br />
+
+
+Xorbits Inference(Xinference) is a powerful and versatile library designed to serve language, 
+speech recognition, and multimodal models. With Xorbits Inference, you can effortlessly deploy 
+and serve your or state-of-the-art built-in models using just a single command. Whether you are a 
+researcher, developer, or data scientist, Xorbits Inference empowers you to unleash the full 
+potential of cutting-edge AI models.
+
+<div align="center">
+<i><a href="https://join.slack.com/t/xorbitsio/shared_invite/zt-1z3zsm9ep-87yI9YZ_B79HLB2ccTq4WA">👉 Join our Slack community!</a></i>
+</div>
+
+## 🔥 Hot Topics
+### Framework Enhancements
+- Support Continuous batching for Transformers engine: [#1724](https://github.com/xorbitsai/inference/pull/1724)
+- Support MLX backend for Apple Silicon chips: [#1765](https://github.com/xorbitsai/inference/pull/1765)
+- Support specifying worker and GPU indexes for launching models: [#1195](https://github.com/xorbitsai/inference/pull/1195)
+- Support SGLang backend: [#1161](https://github.com/xorbitsai/inference/pull/1161)
+- Support LoRA for LLM and image models: [#1080](https://github.com/xorbitsai/inference/pull/1080)
+- Support speech recognition model: [#929](https://github.com/xorbitsai/inference/pull/929)
+- Metrics support: [#906](https://github.com/xorbitsai/inference/pull/906)
+### New Models
+- Built-in support for [CogVideoX](https://github.com/THUDM/CogVideo): [#2049](https://github.com/xorbitsai/inference/pull/2049)
+- Built-in support for [flux.1-schnell & flux.1-dev](https://www.basedlabs.ai/tools/flux1): [#2007](https://github.com/xorbitsai/inference/pull/2007)
+- Built-in support for [MiniCPM-V 2.6](https://github.com/OpenBMB/MiniCPM-V): [#2031](https://github.com/xorbitsai/inference/pull/2031)
+- Built-in support for [Kolors](https://huggingface.co/Kwai-Kolors/Kolors): [#2028](https://github.com/xorbitsai/inference/pull/2028)
+- Built-in support for [SenseVoice](https://github.com/FunAudioLLM/SenseVoice): [#2008](https://github.com/xorbitsai/inference/pull/2008)
+- Built-in support for [Mistral Large 2](https://mistral.ai/news/mistral-large-2407/): [#1944](https://github.com/xorbitsai/inference/pull/1944)
+- Built-in support for [llama3.1](https://ai.meta.com/blog/meta-llama-3-1/): [#1932](https://github.com/xorbitsai/inference/pull/1932)
+- Built-in support for [Mistral Nemo](https://mistral.ai/news/mistral-nemo/): [#1936](https://github.com/xorbitsai/inference/pull/1936)
+### Integrations
+- [Dify](https://docs.dify.ai/advanced/model-configuration/xinference): an LLMOps platform that enables developers (and even non-developers) to quickly build useful applications based on large language models, ensuring they are visual, operable, and improvable.
+- [FastGPT](https://github.com/labring/FastGPT): a knowledge-based platform built on the LLM, offers out-of-the-box data processing and model invocation capabilities, allows for workflow orchestration through Flow visualization.
+- [Chatbox](https://chatboxai.app/): a desktop client for multiple cutting-edge LLM models, available on Windows, Mac and Linux.
+- [RAGFlow](https://github.com/infiniflow/ragflow): is an open-source RAG engine based on deep document understanding.
+
+
+## Key Features
+🌟 **Model Serving Made Easy**: Simplify the process of serving large language, speech 
+recognition, and multimodal models. You can set up and deploy your models
+for experimentation and production with a single command.
+
+⚡️ **State-of-the-Art Models**: Experiment with cutting-edge built-in models using a single 
+command. Inference provides access to state-of-the-art open-source models!
+
+🖥 **Heterogeneous Hardware Utilization**: Make the most of your hardware resources with
+[ggml](https://github.com/ggerganov/ggml). Xorbits Inference intelligently utilizes heterogeneous
+hardware, including GPUs and CPUs, to accelerate your model inference tasks.
+
+⚙️ **Flexible API and Interfaces**: Offer multiple interfaces for interacting
+with your models, supporting OpenAI compatible RESTful API (including Function Calling API), RPC, CLI 
+and WebUI for seamless model management and interaction.
+
+🌐 **Distributed Deployment**: Excel in distributed deployment scenarios, 
+allowing the seamless distribution of model inference across multiple devices or machines.
+
+🔌 **Built-in Integration with Third-Party Libraries**: Xorbits Inference seamlessly integrates
+with popular third-party libraries including [LangChain](https://python.langchain.com/docs/integrations/providers/xinference), [LlamaIndex](https://gpt-index.readthedocs.io/en/stable/examples/llm/XinferenceLocalDeployment.html#i-run-pip-install-xinference-all-in-a-terminal-window), [Dify](https://docs.dify.ai/advanced/model-configuration/xinference), and [Chatbox](https://chatboxai.app/).
+
+## Why Xinference
+| Feature                                        | Xinference | FastChat | OpenLLM | RayLLM |
+|------------------------------------------------|------------|----------|---------|--------|
+| OpenAI-Compatible RESTful API                  | ✅ | ✅ | ✅ | ✅ |
+| vLLM Integrations                              | ✅ | ✅ | ✅ | ✅ |
+| More Inference Engines (GGML, TensorRT)        | ✅ | ❌ | ✅ | ✅ |
+| More Platforms (CPU, Metal)                    | ✅ | ✅ | ❌ | ❌ |
+| Multi-node Cluster Deployment                  | ✅ | ❌ | ❌ | ✅ |
+| Image Models (Text-to-Image)                   | ✅ | ✅ | ❌ | ❌ |
+| Text Embedding Models                          | ✅ | ❌ | ❌ | ❌ |
+| Multimodal Models                              | ✅ | ❌ | ❌ | ❌ |
+| Audio Models                                   | ✅ | ❌ | ❌ | ❌ |
+| More OpenAI Functionalities (Function Calling) | ✅ | ❌ | ❌ | ❌ |
+
+## Getting Started
+
+**Please give us a star before you begin, and you'll receive instant notifications for every new release on GitHub!**
+
+* [Docs](https://inference.readthedocs.io/en/latest/index.html)
+* [Built-in Models](https://inference.readthedocs.io/en/latest/models/builtin/index.html)
+* [Custom Models](https://inference.readthedocs.io/en/latest/models/custom.html)
+* [Deployment Docs](https://inference.readthedocs.io/en/latest/getting_started/using_xinference.html)
+* [Examples and Tutorials](https://inference.readthedocs.io/en/latest/examples/index.html)
+
+### Jupyter Notebook
+
+The lightest way to experience Xinference is to try our [Jupyter Notebook on Google Colab](https://colab.research.google.com/github/xorbitsai/inference/blob/main/examples/Xinference_Quick_Start.ipynb).
+
+### Docker 
+
+Nvidia GPU users can start Xinference server using [Xinference Docker Image](https://inference.readthedocs.io/en/latest/getting_started/using_docker_image.html). Prior to executing the installation command, ensure that both [Docker](https://docs.docker.com/get-docker/) and [CUDA](https://developer.nvidia.com/cuda-downloads) are set up on your system.
+
+```bash
+docker run --name xinference -d -p 9997:9997 -e XINFERENCE_HOME=/data -v </on/your/host>:/data --gpus all xprobe/xinference:latest xinference-local -H 0.0.0.0
+```
+
+### K8s via helm
+
+Ensure that you have GPU support in your Kubernetes cluster, then install as follows.
+
+```
+# add repo
+helm repo add xinference https://xorbitsai.github.io/xinference-helm-charts
+
+# update indexes and query xinference versions
+helm repo update xinference
+helm search repo xinference/xinference --devel --versions
+
+# install xinference
+helm install xinference xinference/xinference -n xinference --version 0.0.1-v<xinference_release_version>
+```
+
+For more customized installation methods on K8s, please refer to the [documentation](https://inference.readthedocs.io/en/latest/getting_started/using_kubernetes.html).
+
+### Quick Start
+
+Install Xinference by using pip as follows. (For more options, see [Installation page](https://inference.readthedocs.io/en/latest/getting_started/installation.html).)
+
+```bash
+pip install "xinference[all]"
+```
+
+To start a local instance of Xinference, run the following command:
+
+```bash
+$ xinference-local
+```
+
+Once Xinference is running, there are multiple ways you can try it: via the web UI, via cURL,
+ via the command line, or via the Xinference’s python client. Check out our [docs]( https://inference.readthedocs.io/en/latest/getting_started/using_xinference.html#run-xinference-locally) for the guide.
+
+![web UI](assets/screenshot.png)
+
+## Getting involved
+
+| Platform                                                                                      | Purpose                                            |
+|-----------------------------------------------------------------------------------------------|----------------------------------------------------|
+| [Github Issues](https://github.com/xorbitsai/inference/issues)                                | Reporting bugs and filing feature requests.        |
+| [Slack](https://join.slack.com/t/xorbitsio/shared_invite/zt-1o3z9ucdh-RbfhbPVpx7prOVdM1CAuxg) | Collaborating with other Xorbits users.            |
+| [Twitter](https://twitter.com/xorbitsio)                                                      | Staying up-to-date on new features.                |
+
+## Contributors
+
+<a href="https://github.com/xorbitsai/inference/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=xorbitsai/inference" />
+</a>

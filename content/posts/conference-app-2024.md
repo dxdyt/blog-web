@@ -1,9 +1,9 @@
 ---
 title: conference-app-2024
-date: 2024-08-14T12:20:24+08:00
+date: 2024-08-15T12:17:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722325017152-92fc38f6f38e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722325017152-92fc38f6f38e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721143571164-06550363f6d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721143571164-06550363f6d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [DroidKaigi/conference-app-2024](https://github.com/DroidKaigi/conference-app-2024)

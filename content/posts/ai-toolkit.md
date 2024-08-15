@@ -1,9 +1,9 @@
 ---
 title: ai-toolkit
-date: 2024-08-14T12:18:32+08:00
+date: 2024-08-15T12:17:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723376779603-69f15cdfa034?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723376779603-69f15cdfa034?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
 ---
 
 # [ostris/ai-toolkit](https://github.com/ostris/ai-toolkit)
@@ -110,7 +110,7 @@ Coming very soon. Getting base out then will have a notebook that makes all that
 
 Datasets generally need to be a folder containing images and associated text files. Currently, the only supported
 formats are jpg, jpeg, and png. Webp currently has issues. The text files should be named the same as the images
-but with a `.txt` extension. For example `image22.jpg` and `image2.txt`. The text file should contain only the caption.
+but with a `.txt` extension. For example `image2.jpg` and `image2.txt`. The text file should contain only the caption.
 You can add the word `[trigger]` in the caption file and if you have `trigger_word` in your config, it will be automatically
 replaced. 
 
