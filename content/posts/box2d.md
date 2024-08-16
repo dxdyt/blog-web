@@ -1,9 +1,9 @@
 ---
 title: box2d
-date: 2024-08-15T12:18:22+08:00
+date: 2024-08-16T12:17:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721069662098-f2031c2319b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721069662098-f2031c2319b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720983685929-3ed3309aed63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720983685929-3ed3309aed63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [erincatto/box2d](https://github.com/erincatto/box2d)
@@ -15,6 +15,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1721069662098-f2031c2319
 
 # Box2D 
 Box2D is a 2D physics engine for games.
+
+[![Box2D Version 3.0 Release Demo](https://img.youtube.com/vi/dAoM-xjOWtA/0.jpg)](https://www.youtube.com/watch?v=dAoM-xjOWtA)
 
 ## Features
 

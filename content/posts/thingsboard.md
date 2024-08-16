@@ -1,9 +1,9 @@
 ---
 title: thingsboard
-date: 2024-08-14T12:20:01+08:00
+date: 2024-08-16T12:18:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721539584865-134ea847dbaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721539584865-134ea847dbaf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720970230359-7d75432f5688?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720970230359-7d75432f5688?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [thingsboard/thingsboard](https://github.com/thingsboard/thingsboard)

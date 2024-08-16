@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2024-08-09T12:19:08+08:00
+date: 2024-08-16T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718016675738-7772815af223?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718016675738-7772815af223?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMxNzcwNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720983685929-3ed3309aed63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720983685929-3ed3309aed63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -33,7 +33,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1718016675738-7772815af2
 
 <div align="center">
     <a href="https://affine.pro">Home Page</a> |
-    <a href="https://discord.com/invite/yz6tGVsf5p">Discord</a> |
+    <a href="https://discord.gg/whd5mjYqVw">Discord</a> |
     <a href="https://app.affine.pro">Live Demo</a> |
     <a href="https://affine.pro/blog/">Blog</a> |
     <a href="https://docs.affine.pro/docs/">Documentation</a>
@@ -185,6 +185,12 @@ See [docs/contributing/tutorial.md](./docs/contributing/tutorial.md) for details
 Thanks to [Chromatic](https://www.chromatic.com/) for providing the visual testing platform that helps us review UI changes and catch visual regressions.
 
 ## License
+
+### Editions
+
+- AFFiNE Community Edition (CE) is the current available version, it's free for self-host under the MIT license.
+
+- AFFiNE Enterprise Edition (EE) is yet to be published, it will have more advanced features and enterprise-oriented offerings, including but not exclusive to rebranding and SSO, advanced admin and audit, etc., you may refer to https://affine.pro/pricing for more information
 
 See [LICENSE] for details.
 

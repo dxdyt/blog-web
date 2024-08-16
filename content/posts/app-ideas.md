@@ -1,9 +1,9 @@
 ---
 title: app-ideas
-date: 2023-11-30T12:17:33+08:00
+date: 2024-08-16T12:19:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700740719410-d29266379a23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700740719410-d29266379a23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDEzMTc3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720887237185-6b8d5c01005d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720887237185-6b8d5c01005d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)

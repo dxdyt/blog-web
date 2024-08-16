@@ -1,14 +1,57 @@
 ---
 title: sherpa-onnx
-date: 2024-06-11T12:19:43+08:00
+date: 2024-08-16T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717436881289-561adf58e8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717436881289-561adf58e8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722620113962-56f7c216cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722620113962-56f7c216cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [k2-fsa/sherpa-onnx](https://github.com/k2-fsa/sherpa-onnx)
 
-# Introduction
+### Supported functions
+
+|Speech recognition| Speech synthesis | Speaker verification | Speaker identification |
+|------------------|------------------|----------------------|------------------------|
+|   ✔️              |         ✔️        |          ✔️           |                ✔️       |
+
+| Spoken Language identification | Audio tagging | Voice activity detection |
+|--------------------------------|---------------|--------------------------|
+|                 ✔️              |          ✔️    |                ✔️         |
+
+| Keyword spotting | Add punctuation |
+|------------------|-----------------|
+|     ✔️            |       ✔️         |
+
+### Supported platforms
+
+|Architecture| Android          | iOS           | Windows    | macOS | linux |
+|------------|------------------|---------------|------------|-------|-------|
+|   x64      |  ✔️               |               |   ✔️        | ✔️     |  ✔️    |
+|   x86      |  ✔️               |               |   ✔️        |       |       |
+|   arm64    |  ✔️               | ✔️             |   ✔️        | ✔️     |  ✔️    |
+|   arm32    |  ✔️               |               |            |       |  ✔️    |
+|   riscv64  |                  |               |            |       |  ✔️    |
+
+
+### Supported programming languages
+
+| 1. C++ | 2. C  | 3. Python | 4. C# | 5. Java |
+|--------|-------|-----------|-------|---------|
+|   ✔️    | ✔️     | ✔️         | ✔️     |  ✔️      |
+
+| 6. JavaScript | 7. Kotlin | 8. Swift | 9. Go | 10. Dart |
+|---------------|-----------|----------|-------|----------|
+|      ✔️        | ✔️         |  ✔️       | ✔️     |  ✔️       |
+
+| 11. Rust | 12. Pascal |
+|----------|------------|
+|  ✔️       |    ✔️       |
+
+For Rust support, please see https://github.com/thewh1teagle/sherpa-rs
+
+It also supports WebAssembly.
+
+## Introduction
 
 This repository supports running the following functions **locally**
 
@@ -41,8 +84,9 @@ with the following APIs
   - C++, C, Python, Go, ``C#``
   - Java, Kotlin, JavaScript
   - Swift
+  - Dart
 
-## Links for pre-built Android APKs
+### Links for pre-built Android APKs
 
 | Description                    | URL                                                                                     | 中国用户                                                                             |
 |--------------------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|
@@ -57,7 +101,27 @@ with the following APIs
 | Spoken language identification | [Address](https://k2-fsa.github.io/sherpa/onnx/spoken-language-identification/apk.html) | [点此](https://k2-fsa.github.io/sherpa/onnx/spoken-language-identification/apk-cn.html) |
 |Keyword spotting| [Address](https://k2-fsa.github.io/sherpa/onnx/kws/apk.html)| [点此](https://k2-fsa.github.io/sherpa/onnx/kws/apk-cn.html)|
 
-## Links for pre-trained models
+### Links for pre-built Flutter APPs
+
+#### Real-time speech recognition
+
+| Description                    | URL                                                                 | 中国用户                                                            |
+|--------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
+| Streaming speech recognition   | [Address](https://k2-fsa.github.io/sherpa/onnx/flutter/asr/app.html)| [点此](https://k2-fsa.github.io/sherpa/onnx/flutter/asr/app-cn.html)|
+
+#### Text-to-speech
+
+| Description                    | URL                                                          | 中国用户                                                                    |
+|--------------------------------|--------------------------------------------------------------|-----------------------------------------------------------------------------|
+| Android (arm64-v8a, armeabi-v7a, x86_64) | [Address](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-android.html) | [点此](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-android-cn.html)|
+| Linux (x64)    | [Address](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-linux.html)       | [点此](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-linux-cn.html)      |
+| macOS (x64)    | [Address](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-macos-x64.html)   | [点此](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-macos-x64-cn.html)  |
+| macOS (arm64)  | [Address](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-macos-arm64.html) | [点此](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-macos-arm64-cn.html)|
+| Windows (x64)  | [Address](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-win.html)         | [点此](https://k2-fsa.github.io/sherpa/onnx/flutter/tts-win-cn.html)        |
+
+> Note: You need to build from source for iOS.
+
+### Links for pre-trained models
 
 | Description                    | URL                                                                                                                            |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
@@ -70,12 +134,12 @@ with the following APIs
 | Spoken language identification (Language ID) | See multi-lingual Whisper ASR models from  [Speech recognition](https://github.com/k2-fsa/sherpa-onnx/releases/tag/asr-models) |
 | Punctuation| [Address](https://github.com/k2-fsa/sherpa-onnx/releases/tag/punctuation-models)|
 
-## Useful links
+### Useful links
 
 - Documentation: https://k2-fsa.github.io/sherpa/onnx/
 - Bilibili 演示视频: https://search.bilibili.com/all?keyword=%E6%96%B0%E4%B8%80%E4%BB%A3Kaldi
 
-## How to reach us
+### How to reach us
 
 Please see
 https://k2-fsa.github.io/sherpa/social-groups.html

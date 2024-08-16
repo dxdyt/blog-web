@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2024-08-07T12:19:44+08:00
+date: 2024-08-16T12:18:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722218530816-0fa912f1d216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwMDQzMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722218530816-0fa912f1d216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwMDQzMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722236133390-b3e698722d0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722236133390-b3e698722d0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)

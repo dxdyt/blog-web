@@ -1,9 +1,9 @@
 ---
 title: bootstrap
-date: 2024-08-15T12:18:31+08:00
+date: 2024-08-16T12:17:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723376779603-69f15cdfa034?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723376779603-69f15cdfa034?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2OTU0MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722620113962-56f7c216cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722620113962-56f7c216cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [twbs/bootstrap](https://github.com/twbs/bootstrap)

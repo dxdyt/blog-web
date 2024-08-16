@@ -1,9 +1,9 @@
 ---
 title: bark
-date: 2024-08-14T12:20:15+08:00
+date: 2024-08-16T12:17:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721032608880-b82c45362c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721032608880-b82c45362c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721470392423-5b2ae8add3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721470392423-5b2ae8add3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [suno-ai/bark](https://github.com/suno-ai/bark)

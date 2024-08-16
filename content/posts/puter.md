@@ -1,9 +1,9 @@
 ---
 title: puter
-date: 2024-07-16T12:19:04+08:00
+date: 2024-08-16T12:17:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719014323201-d7ae3f83d260?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719014323201-d7ae3f83d260?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721470392423-5b2ae8add3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721470392423-5b2ae8add3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
 ---
 
 # [HeyPuter/puter](https://github.com/HeyPuter/puter)
@@ -11,6 +11,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1719014323201-d7ae3f83d2
 <h3 align="center"><img width="80" alt="Puter.com, The Personal Cloud Computer: All your files, apps, and games in one place accessible from anywhere at any time." src="https://assets.puter.site/puter-logo.png"></h3>
 
 <h3 align="center">The Internet OS! Free, Open-Source, and Self-Hostable.</h3>
+
+<p align="center">
+    <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/HeyPuter/puter"> <img alt="GitHub Release" src="https://img.shields.io/github/v/release/HeyPuter/puter?label=latest%20version"> <img alt="GitHub License" src="https://img.shields.io/github/license/HeyPuter/puter">
+</p>
 
 <p align="center">
     <a href="https://puter.com/"><strong>« LIVE DEMO »</strong></a>
@@ -22,6 +26,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1719014323201-d7ae3f83d2
     ·
     <a href="https://discord.com/invite/PQcx7Teh8u">Discord</a>
     ·
+    <a href="https://www.youtube.com/@EricsPuterVideos">YouTube</a>
+    ·
     <a href="https://reddit.com/r/puter">Reddit</a>
     ·
     <a href="https://twitter.com/HeyPuter">X (Twitter)</a>
@@ -29,7 +35,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1719014323201-d7ae3f83d2
     <a href="https://hackerone.com/puter_h1b">Bug Bounty</a>
 </p>
 
-<h3 align="center"><img width="700" style="border-radius:5px;" alt="screenshot" src="https://assets.puter.site/puter.com-screenshot-3.webp"></h3>
+<h3 align="center"><img width="800" style="border-radius:5px;" alt="screenshot" src="https://assets.puter.site/puter.com-screenshot-3.webp"></h3>
 
 <br/>
 
@@ -57,7 +63,7 @@ npm install
 npm start
 ```
 
-This will launch Puter at http://localhost:4000 (or the next available port).
+This will launch Puter at http://puter.localhost:4100 (or the next available port).
 
 <br/>
 
@@ -74,10 +80,24 @@ mkdir puter && cd puter && mkdir -p puter/config puter/data && sudo chown -R 100
 ### 🐙 Docker Compose
 
 
+#### Linux/macOS
 ```bash
 mkdir -p puter/config puter/data
 sudo chown -R 1000:1000 puter
 wget https://raw.githubusercontent.com/HeyPuter/puter/main/docker-compose.yml
+docker compose up
+```
+<br/>
+
+#### Windows
+
+
+```powershell
+mkdir -p puter
+cd puter
+New-Item -Path "puter\config" -ItemType Directory -Force
+New-Item -Path "puter\data" -ItemType Directory -Force
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/HeyPuter/puter/main/docker-compose.yml" -OutFile "docker-compose.yml"
 docker compose up
 ```
 <br/>
@@ -88,15 +108,26 @@ Puter is available as a hosted service at [**puter.com**](https://puter.com).
 
 <br/>
 
+## System Requirements
+
+- **Operating Systems:** Linux, macOS, Windows
+- **RAM:** 2GB minimum (4GB recommended)
+- **Disk Space:** 1GB free space
+- **Node.js:** Version 16+ (Version 22+ recommended)
+- **npm:** Latest stable version
+
+<br/>
+
 ## Support
 
 Connect with the maintainers and community through these channels:
 
-- Bug report or feature request? Please [open an issue](github.com/HeyPuter/puter/issues/new/choose).
+- Bug report or feature request? Please [open an issue](https://github.com/HeyPuter/puter/issues/new/choose).
 - Discord: [discord.com/invite/PQcx7Teh8u](https://discord.com/invite/PQcx7Teh8u)
 - X (Twitter): [x.com/HeyPuter](https://x.com/HeyPuter)
 - Reddit: [reddit.com/r/puter/](https://www.reddit.com/r/puter/)
 - Mastodon: [mastodon.social/@puter](https://mastodon.social/@puter)
+- Security issues? [security@puter.com](mailto:security@puter.com)
 - Email maintainers at [hi@puter.com](mailto:hi@puter.com)
 
 We are always happy to help you with any questions you may have. Don't hesitate to ask!
@@ -109,3 +140,13 @@ We are always happy to help you with any questions you may have. Don't hesitate 
 This repository, including all its contents, sub-projects, modules, and components, is licensed under [AGPL-3.0](https://github.com/HeyPuter/puter/blob/main/LICENSE.txt) unless explicitly stated otherwise. Third-party libraries included in this repository may be subject to their own licenses.
 
 <br/>
+
+## Translations
+
+- [Danish / Dansk](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.da.md)
+- [English](https://github.com/HeyPuter/puter/blob/main/README.md)
+- [Hindi / हिंदी](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.hi.md)
+- [Japanese / 日本語](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.jp.md)
+- [Portuguese / Português](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.pt.md)
+- [Russian / Русский](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.ru.md)
+- [Spanish / Español](https://github.com/HeyPuter/puter/blob/main/doc/i18n/README.es.md)
