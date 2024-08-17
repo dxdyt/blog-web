@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2024-07-31T12:15:28+08:00
+date: 2024-08-17T12:21:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719961738545-0dbf4a66d9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722218424136-1464ac520514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722218424136-1464ac520514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
 ---
 
 # [ollama/ollama](https://github.com/ollama/ollama)
@@ -64,6 +64,7 @@ Here are some example models that can be downloaded:
 | Llama 3.1          | 405B       | 231GB | `ollama run llama3.1:405b`     |
 | Phi 3 Mini         | 3.8B       | 2.3GB | `ollama run phi3`              |
 | Phi 3 Medium       | 14B        | 7.9GB | `ollama run phi3:medium`       |
+| Gemma 2            | 2B         | 1.6GB | `ollama run gemma2:2b`         |
 | Gemma 2            | 9B         | 5.5GB | `ollama run gemma2`            |
 | Gemma 2            | 27B        | 16GB  | `ollama run gemma2:27b`        |
 | Mistral            | 7B         | 4.1GB | `ollama run mistral`           |
@@ -309,6 +310,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [AI Studio](https://github.com/MindWorkAI/AI-Studio)
 - [Sidellama](https://github.com/gyopak/sidellama) (browser-based LLM client)
 - [LLMStack](https://github.com/trypromptly/LLMStack) (No-code multi-agent framework to build LLM agents and workflows)
+- [BoltAI for Mac](https://boltai.com) (AI Chat Client for Mac)
+- [Harbor](https://github.com/av/harbor) (Containerized LLM Toolkit with Ollama as default backend)
 
 ### Terminal
 
@@ -332,6 +335,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [tlm](https://github.com/yusufcanb/tlm)
 - [podman-ollama](https://github.com/ericcurtin/podman-ollama)
 - [gollama](https://github.com/sammcj/gollama)
+- [Ollama eBook Summary](https://github.com/cognitivetech/ollama-ebook-summary/)
 
 ### Database
 

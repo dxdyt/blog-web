@@ -1,9 +1,9 @@
 ---
 title: ai-toolkit
-date: 2024-08-16T12:18:15+08:00
+date: 2024-08-17T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723398341301-78a5d4b054c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723398341301-78a5d4b054c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723391962154-8a2b6299bc09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723391962154-8a2b6299bc09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
 ---
 
 # [ostris/ai-toolkit](https://github.com/ostris/ai-toolkit)

@@ -1,9 +1,9 @@
 ---
 title: platform
-date: 2024-06-10T12:20:23+08:00
+date: 2024-08-17T12:20:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714779573220-39c843a7daa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714779573220-39c843a7daa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723391962154-8a2b6299bc09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723391962154-8a2b6299bc09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
 ---
 
 # [hcengineering/platform](https://github.com/hcengineering/platform)
@@ -21,31 +21,37 @@ The Huly Platform is a robust framework designed to accelerate the development o
 This repository includes several applications, such as Chat, Project Management, CRM, HRM, and ATS. 
 Various teams are building products on top of the Platform, including [Huly](https://huly.io) and [TraceX](https://tracex.co).
 
-![Huly](https://huly.io/_astro/dark-kanban.D2kAOX88_q4nnu.webp)
-
-## Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/c42c99e21691fa60ea61b5cdf11c2e0647621534.svg "Repobeats analytics image")
+![Huly](https://repository-images.githubusercontent.com/392073243/6d27d5cc-38cd-4d88-affe-bb88b393180c)
 
 ## Self-Hosting
 
 If you're primarily interested in self-hosting Huly without the intention to modify or contribute to its development, please use [huly-selfhost](https://github.com/hcengineering/huly-selfhost). 
 This project offers a convenient method to host Huly using `docker`, designed for ease of use and quick setup. Explore this option to effortlessly enjoy Huly on your own server.
 
+## Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/c42c99e21691fa60ea61b5cdf11c2e0647621534.svg "Repobeats analytics image")
+
 ## Table of Content
 
-- [Pre-requisites](#pre-requisites)
-- [Fast start](#fast-start)
-- [Installation](#installation)
-- [Build and run](#build-and-run)
-- Development mode
+- [Huly Platform](#huly-platform)
+  - [About](#about)
+  - [Self-Hosting](#self-hosting)
+  - [Activity](#activity)
+  - [Table of Content](#table-of-content)
+  - [Pre-requisites](#pre-requisites)
+  - [Verification](#verification)
+  - [Installation](#installation)
+  - [Build and run](#build-and-run)
   - [Run in development mode](#run-in-development-mode)
   - [Update project structure and database](#update-project-structure-and-database)
-  - Tests
-    - [Tests](#tests)
+  - [Troubleshooting](#troubleshooting)
+  - [Build \& Watch](#build--watch)
+  - [Tests](#tests)
     - [Unit tests](#unit-tests)
     - [UI tests](#ui-tests)
   - [Package publishing](#package-publishing)
+  - [Additional testing](#additional-testing)
 
 ## Pre-requisites
 
@@ -232,3 +238,4 @@ node ./common/scripts/bump.js -p projectName
 This project is tested with BrowserStack.
 
 <sub><sup>&copy; 2024 <a href="https://hardcoreeng.com">Hardcore Engineering Inc</a>.</sup></sub>
+
