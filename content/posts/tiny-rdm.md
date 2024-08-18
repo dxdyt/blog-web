@@ -1,9 +1,9 @@
 ---
 title: tiny-rdm
-date: 2024-01-28T12:16:47+08:00
+date: 2024-08-18T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705360130924-71f23ff03cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705360130924-71f23ff03cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY0MTUzMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723220217716-a328c198a60c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723220217716-a328c198a60c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
 ---
 
 # [tiny-craft/tiny-rdm](https://github.com/tiny-craft/tiny-rdm)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1705360130924-71f23ff03c
 </div>
 <h1 align="center">Tiny RDM</h1>
 <h4 align="center"><strong>English</strong> | <a href="https://github.com/tiny-craft/tiny-rdm/blob/main/README_zh.md">
-简体中文</a></h4>
+简体中文</a> | <a href="https://github.com/tiny-craft/tiny-rdm/blob/main/README_ja.md">日本語</a></h4>
 <div align="center">
 
 [![License](https://img.shields.io/github/license/tiny-craft/tiny-rdm)](https://github.com/tiny-craft/tiny-rdm/blob/main/LICENSE)
@@ -47,7 +47,7 @@ Linux.</strong>
 * Provides visually and user-friendly UI, light and dark themes (Thanks to [Naive UI](https://github.com/tusen-ai/naive-ui)
   and [IconPark](https://iconpark.oceanengine.com)).
 * Multi-language support ([Need more languages ? Click here to contribute](.github/CONTRIBUTING.md)).
-* Better connection management: supports SSH Tunnel/SSL/Sentinel Mode/Cluster Mode.
+* Better connection management: supports SSH Tunnel/SSL/Sentinel Mode/Cluster Mode/HTTP proxy/SOCKS5 proxy.
 * Visualize key value operations, CRUD support for Lists, Hashes, Strings, Sets, Sorted Sets, and Streams.
 * Support multiple data viewing format and decode/decompression methods.
 * Use SCAN for segmented loading, making it easy to list millions of keys.
@@ -60,11 +60,8 @@ Linux.</strong>
 * Support real-time commands monitoring.
 * Support import/export data.
 * Support publish/subscribe.
-* support import/export connection profile
-
-## Roadmap
-
-- [ ] Custom data encoder and decoder for value display
+* Support import/export connection profile.
+* Custom data encoder and decoder for value display ([Here are the instructions](https://redis.tinycraft.cc/guide/custom-decoder/)).
 
 ## Installation
 
@@ -83,25 +80,32 @@ Available to download for free from [here](https://github.com/tiny-craft/tiny-rd
 * Node.js >= 16
 * NPM >= 9
 
-### Install wails
+### Install Wails
 
 ```bash
 go install github.com/wailsapp/wails/v2/cmd/wails@latest
 ```
 
-### Clone the code
+### Pull the Code
 
 ```bash
 git clone https://github.com/tiny-craft/tiny-rdm --depth=1
 ```
 
-### Build frontend
+### Build Frontend
 
 ```bash
 npm install --prefix ./frontend
 ```
 
-### Compile and run
+or
+
+```bash
+cd frontend
+npm install
+```
+
+### Compile and Run
 
 ```bash
 wails dev

@@ -1,9 +1,9 @@
 ---
 title: nacos
-date: 2024-07-21T12:18:28+08:00
+date: 2024-08-18T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719216325389-3ccff69dc785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719216325389-3ccff69dc785?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723207197293-34000bddd70b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723207197293-34000bddd70b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
 ---
 
 # [alibaba/nacos](https://github.com/alibaba/nacos)

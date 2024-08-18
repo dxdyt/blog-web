@@ -1,9 +1,9 @@
 ---
 title: crawlee
-date: 2023-11-24T12:18:16+08:00
+date: 2024-08-18T12:21:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698158360685-db3f94818c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698158360685-db3f94818c4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDA3OTkzMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
 ---
 
 # [apify/crawlee](https://github.com/apify/crawlee)
@@ -23,7 +23,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1698158360685-db3f94818c
     <a href="https://www.npmjs.com/package/@crawlee/core" rel="nofollow"><img src="https://img.shields.io/npm/v/@crawlee/core.svg" alt="NPM latest version" data-canonical-src="https://img.shields.io/npm/v/@crawlee/core/next.svg" style="max-width: 100%;"></a>
     <a href="https://www.npmjs.com/package/@crawlee/core" rel="nofollow"><img src="https://img.shields.io/npm/dm/@crawlee/core.svg" alt="Downloads" data-canonical-src="https://img.shields.io/npm/dm/@crawlee/core.svg" style="max-width: 100%;"></a>
     <a href="https://discord.gg/jyEM2PRvMU" rel="nofollow"><img src="https://img.shields.io/discord/801163717915574323?label=discord" alt="Chat on discord" data-canonical-src="https://img.shields.io/discord/801163717915574323?label=discord" style="max-width: 100%;"></a>
-    <a href="https://github.com/apify/crawlee/actions/workflows/test-and-release.yml"><img src="https://github.com/apify/crawlee/actions/workflows/test-and-release.yml/badge.svg?branch=master" alt="Build Status" style="max-width: 100%;"></a>
+    <a href="https://github.com/apify/crawlee/actions/workflows/test-ci.yml"><img src="https://github.com/apify/crawlee/actions/workflows/test-ci.yml/badge.svg?branch=master" alt="Build Status" style="max-width: 100%;"></a>
 </p>
 
 Crawlee covers your crawling and scraping end-to-end and **helps you build reliable scrapers. Fast.**
@@ -33,6 +33,8 @@ Your crawlers will appear human-like and fly under the radar of modern bot prote
 Crawlee is available as the [`crawlee`](https://www.npmjs.com/package/crawlee) NPM package.
 
 > 👉 **View full documentation, guides and examples on the [Crawlee project website](https://crawlee.dev)** 👈
+
+> Crawlee for Python is open for early adopters. 🐍  [👉 Checkout the source code 👈](https://github.com/apify/crawlee-python).
 
 ## Installation
 
