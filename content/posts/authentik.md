@@ -1,9 +1,9 @@
 ---
 title: authentik
-date: 2024-08-18T12:19:12+08:00
+date: 2024-08-19T12:17:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723403820168-b6ac50fb982b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723403820168-b6ac50fb982b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721706866185-93a74883b6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721706866185-93a74883b6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
 ---
 
 # [goauthentik/authentik](https://github.com/goauthentik/authentik)

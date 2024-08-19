@@ -1,9 +1,9 @@
 ---
 title: graphrag
-date: 2024-07-09T12:17:38+08:00
+date: 2024-08-19T12:18:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719917226618-a4a415f477e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719917226618-a4a415f477e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721893484306-23d5379b5d9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721893484306-23d5379b5d9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/graphrag](https://github.com/microsoft/graphrag)
@@ -34,7 +34,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1719917226618-a4a415f477
 
 The GraphRAG project is a data pipeline and transformation suite that is designed to extract meaningful, structured data from unstructured text using the power of LLMs.
 
-To learn more about GraphRAG and how it can be used to enhance your LLMs ability to reason about your private data, please visit the <a href="https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/" target="_blank">Microsoft Research Blog Post.</a>
+To learn more about GraphRAG and how it can be used to enhance your LLM's ability to reason about your private data, please visit the <a href="https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/" target="_blank">Microsoft Research Blog Post.</a>
 
 ## Quickstart
 

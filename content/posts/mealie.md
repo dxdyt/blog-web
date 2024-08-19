@@ -1,20 +1,20 @@
 ---
 title: mealie
-date: 2024-03-21T12:18:16+08:00
+date: 2024-08-19T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710183758420-707ed8801b01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710183758420-707ed8801b01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721934081766-3107b9b7b6aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721934081766-3107b9b7b6aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
 ---
 
 # [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)
 
 [![Latest Release][latest-release-shield]][latest-release-url]
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![AGPL License][license-shield]][license-url]
-[![Docker Pulls][docker-pull]][docker-pull]
+[![Docker Pulls][docker-pull]][docker-url]
+[![GHCR Pulls][ghcr-pulls]][ghcr-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -28,9 +28,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1710183758420-707ed8801b
   <h3 align="center">Mealie</h3>
 
   <p align="center">
-    A Place for All Your Recipes
+    A Place For All Your Recipes
     <br />
-    <a href="https://nightly.mealie.io"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.mealie.io/"><strong>Explore the docs »</strong></a>
   <a href="https://github.com/mealie-recipes/mealie">
   </a>
     <br />
@@ -48,11 +48,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1710183758420-707ed8801b
 
 # About The Project
 
-Mealie is a self hosted recipe manager and meal planner with a RestAPI backend and a reactive frontend application built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the URL and Mealie will automatically import the relevant data, or add a family recipe with the UI editor. Mealie also provides an API for interactions from 3rd party applications.
+Mealie is a self hosted recipe manager, meal planner and shopping list with a RestAPI backend and a reactive frontend built in Vue for a pleasant user experience for the whole family. Easily add recipes into your database by providing the URL and Mealie will automatically import the relevant data, or add a family recipe with the UI editor. Mealie also provides an API for interactions from 3rd party applications.
 
 - [Remember to join the Discord](https://discord.gg/QuStdQGSGK)!
-- [Documentation](https://nightly.mealie.io)
+- [Documentation](https://docs.mealie.io/)
 
+
+## Key Features
+- Recipe imports: Create recipes, by **importing from a URL** or entering data manually
+- Meal Planner: Use the **Meal Planner** to plan your what you'll cook for the next week
+- Shopping List: Put the necessary ingredients on your **Shopping List**, organised into sections of your local supermarket
+- Cookbooks: Group recipes into **Cookbooks** based on your own criteria
+- Docker: Easy **Docker** deployment
+- Localisation: **Translations** for 35+ languages
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -68,7 +76,7 @@ If you are not a coder, you can still contribute financially. Financial contribu
 
 ### Translations
 
-Translations can be a great way for **non-coders** to contribute to project. We use [Crowdin](https://crowdin.com/project/mealie) to allow several contributors to work on translating Mealie. You can simply help by voting for your preferred translations, or even by completely translating Mealie into a new language.
+Translations can be a great way for **non-coders** to contribute to the project. We use [Crowdin](https://crowdin.com/project/mealie) to allow several contributors to work on translating Mealie. You can simply help by voting for your preferred translations, or even by completely translating Mealie into a new language.
 
 For more information, check out the translation page on the [contributor's guide](https://nightly.mealie.io/contributors/translating/).
 
@@ -90,16 +98,17 @@ Thanks to Depot for providing build instances for our Docker image builds.
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/mealie-recipes/mealie.svg?style=flat-square
-[docker-pull]: https://img.shields.io/docker/pulls/hkotel/mealie
+[docker-pull]: https://img.shields.io/docker/pulls/hkotel/mealie?style=flat-square
+[docker-url]: https://hub.docker.com/r/hkotel/mealie
+[ghcr-pulls]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fipitio%2Fghcr-pulls%2Fmaster%2Findex.json&query=%24%5B%3F(%40.owner%3D%3D%22mealie-recipes%22%20%26%26%20%40.repo%3D%3D%22mealie%22%20%26%26%20%40.image%3D%3D%22mealie%22)%5D.pulls&style=flat-square&label=ghcr%20pulls
+[ghcr-url]: https://github.com/mealie-recipes/mealie/pkgs/container/mealie
 [contributors-url]: https://github.com/mealie-recipes/mealie/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/mealie-recipes/mealie.svg?style=flat-square
-[forks-url]: https://github.com/mealie-recipes/mealie/network/members
 [stars-shield]: https://img.shields.io/github/stars/mealie-recipes/mealie.svg?style=flat-square
 [stars-url]: https://github.com/mealie-recipes/mealie/stargazers
 [issues-shield]: https://img.shields.io/github/issues/mealie-recipes/mealie.svg?style=flat-square
 [issues-url]: https://github.com/mealie-recipes/mealie/issues
 [latest-release-shield]: https://img.shields.io/github/v/release/mealie-recipes/mealie?style=flat-square&label=latest%20release
-[latest-release-url]: https://img.shields.io/github/v/release/mealie-recipes/mealie
+[latest-release-url]: https://github.com/mealie-recipes/mealie/releases
 [license-shield]: https://img.shields.io/github/license/mealie-recipes/mealie.svg?style=flat-square
 [license-url]: https://github.com/mealie-recipes/mealie/blob/mealie-next/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555

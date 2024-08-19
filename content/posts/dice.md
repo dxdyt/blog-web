@@ -1,9 +1,9 @@
 ---
 title: dice
-date: 2024-08-03T12:18:08+08:00
+date: 2024-08-19T12:18:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721742145236-d89b27b8ceb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721742145236-d89b27b8ceb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721706866185-93a74883b6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721706866185-93a74883b6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
 ---
 
 # [DiceDB/dice](https://github.com/DiceDB/dice)
@@ -35,7 +35,7 @@ to it using DiceDB CLI and SDKs, or even Redis CLIs and SDKs.
 
 > Note: Given it is a drop-in replacement of Redis, you can also use any Redis CLI and SDK to connect to DiceDB.
 
-### Setting up
+### Setting up DiceDB from source for development and contributions
 
 To run DiceDB for local development or running from source, you will need
 
@@ -43,12 +43,43 @@ To run DiceDB for local development or running from source, you will need
 2. Any of the below supported platform environment:
     1. [Linux based environment](https://en.wikipedia.org/wiki/Comparison_of_Linux_distributions)
     2. [OSX (Darwin) based environment](https://en.wikipedia.org/wiki/MacOS)
+    3. WSL under Windows
 
 ```
 $ git clone https://github.com/dicedb/dice
 $ cd dice
 $ go run main.go
 ```
+
+### Live Development Server
+
+DiceDB provides a hot-reloading development environment, which allows you to instantly view your code changes in a live server. This functionality is supported by [Air](https://github.com/air-verse/air)
+
+To Install Air on your system you have following options.
+
+1. If you're on go 1.22+
+```sh
+go install github.com/air-verse/air@latest
+```
+
+
+
+2. Install the Air binary
+```sh
+# binary will be installed at $(go env GOPATH)/bin/air
+curl -sSfL https://raw.githubusercontent.com/air-verse/air/master/install.sh | sh -s -- -b $(go env GOPATH)/bin
+```
+
+Once `air` is installed you can verify the installation using the command `air -v`
+
+To run the live DiceDB server for local development:
+
+```sh
+$ git clone https://github.com/dicedb/dice
+$ cd dice
+$ air
+```
+
 
 ## Setting up CLI
 
