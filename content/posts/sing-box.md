@@ -1,9 +1,9 @@
 ---
 title: sing-box
-date: 2024-07-30T12:19:26+08:00
+date: 2024-08-20T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721213126988-3450888e603a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721213126988-3450888e603a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzMTMwMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722015487898-936442fb5a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722015487898-936442fb5a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
 ---
 
 # [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
@@ -13,10 +13,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1721213126988-3450888e60
 The universal proxy platform.
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/sing-box.svg)](https://repology.org/project/sing-box/versions)
-
-## Documentation
-
-https://sing-box.sagernet.org
 
 ## Support
 
