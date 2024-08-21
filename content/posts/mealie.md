@@ -1,9 +1,9 @@
 ---
 title: mealie
-date: 2024-08-20T12:20:59+08:00
+date: 2024-08-21T12:20:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722806592361-dd0d6cf95149?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722806592361-dd0d6cf95149?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
 ---
 
 # [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)

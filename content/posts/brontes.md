@@ -1,9 +1,9 @@
 ---
 title: brontes
-date: 2024-08-20T12:21:44+08:00
+date: 2024-08-21T12:20:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721297014475-42f2e99d3271?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721297014475-42f2e99d3271?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722054502816-61090c88f126?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722054502816-61090c88f126?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
 ---
 
 # [SorellaLabs/brontes](https://github.com/SorellaLabs/brontes)
