@@ -1,9 +1,9 @@
 ---
 title: SWE-agent
-date: 2024-08-20T12:19:57+08:00
+date: 2024-08-22T12:18:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723477450561-791fd67efa56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723477450561-791fd67efa56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722050764765-836958ab98eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzMDAyNDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722050764765-836958ab98eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzMDAyNDl8&ixlib=rb-4.0.3
 ---
 
 # [princeton-nlp/SWE-agent](https://github.com/princeton-nlp/SWE-agent)

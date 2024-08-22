@@ -1,9 +1,9 @@
 ---
 title: authentik
-date: 2024-08-21T12:18:48+08:00
+date: 2024-08-22T12:17:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721678160780-2ea6aa76a90c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzMDAyNDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721678160780-2ea6aa76a90c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzMDAyNDl8&ixlib=rb-4.0.3
 ---
 
 # [goauthentik/authentik](https://github.com/goauthentik/authentik)
@@ -25,7 +25,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6
 
 ## What is authentik?
 
-authentik is an open-source Identity Provider that emphasizes flexibility and versatility. It can be seamlessly integrated into existing environments to support new protocols. authentik is also a great solution for implementing sign-up, recovery, and other similar features in your application, saving you the hassle of dealing with them.
+authentik is an open-source Identity Provider that emphasizes flexibility and versatility, with support for a wide set of protocols.
+
+Our [enterprise offer](https://goauthentik.io/pricing) can also be used as a self-hosted replacement for large-scale deployments of Okta/Auth0, Entra ID, Ping Identity, or other legacy IdPs for employees and B2B2C use.
 
 ## Installation
 
