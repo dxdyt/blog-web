@@ -1,9 +1,9 @@
 ---
 title: pgvector
-date: 2024-08-08T12:21:44+08:00
+date: 2024-08-23T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723297503846-b1bd7db82312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723297503846-b1bd7db82312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [pgvector/pgvector](https://github.com/pgvector/pgvector)

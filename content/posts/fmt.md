@@ -1,9 +1,9 @@
 ---
 title: fmt
-date: 2023-12-10T12:16:59+08:00
+date: 2024-08-23T12:19:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220416880-2bfed18447bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220416880-2bfed18447bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIxODE3Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [fmtlib/fmt](https://github.com/fmtlib/fmt)
@@ -30,16 +30,16 @@ that help victims of the war in Ukraine: <https://www.stopputin.net/>.
 Q&A: ask questions on [StackOverflow with the tag
 fmt](https://stackoverflow.com/questions/tagged/fmt).
 
-Try {fmt} in [Compiler Explorer](https://godbolt.org/z/Eq5763).
+Try {fmt} in [Compiler Explorer](https://godbolt.org/z/8Mx1EW73v).
 
 # Features
 
-- Simple [format API](https://fmt.dev/latest/api.html) with positional
+- Simple [format API](https://fmt.dev/latest/api/) with positional
   arguments for localization
 - Implementation of [C++20
   std::format](https://en.cppreference.com/w/cpp/utility/format) and
   [C++23 std::print](https://en.cppreference.com/w/cpp/io/print)
-- [Format string syntax](https://fmt.dev/latest/syntax.html) similar
+- [Format string syntax](https://fmt.dev/latest/syntax/) similar
   to Python\'s
   [format](https://docs.python.org/3/library/stdtypes.html#str.format)
 - Fast IEEE 754 floating-point formatter with correct rounding,
@@ -47,10 +47,10 @@ Try {fmt} in [Compiler Explorer](https://godbolt.org/z/Eq5763).
   [Dragonbox](https://github.com/jk-jeon/dragonbox) algorithm
 - Portable Unicode support
 - Safe [printf
-  implementation](https://fmt.dev/latest/api.html#printf-formatting)
+  implementation](https://fmt.dev/latest/api/#printf-formatting)
   including the POSIX extension for positional arguments
 - Extensibility: [support for user-defined
-  types](https://fmt.dev/latest/api.html#formatting-user-defined-types)
+  types](https://fmt.dev/latest/api/#formatting-user-defined-types)
 - High performance: faster than common standard library
   implementations of `(s)printf`, iostreams, `to_string` and
   `to_chars`, see [Speed tests](#speed-tests) and [Converting a
@@ -68,8 +68,8 @@ Try {fmt} in [Compiler Explorer](https://godbolt.org/z/Eq5763).
   buffer overflow errors
 - Ease of use: small self-contained code base, no external
   dependencies, permissive MIT
-  [license](https://github.com/fmtlib/fmt/blob/master/LICENSE.rst)
-- [Portability](https://fmt.dev/latest/index.html#portability) with
+  [license](https://github.com/fmtlib/fmt/blob/master/LICENSE)
+- [Portability](https://fmt.dev/latest/#portability) with
   consistent output across platforms and support for older compilers
 - Clean warning-free codebase even on high warning levels such as
   `-Wall -Wextra -pedantic`
@@ -106,22 +106,22 @@ std::string s = fmt::format("I'd rather be {1} than {0}.", "right", "happy");
 // s == "I'd rather be happy than right."
 ```
 
-**Print chrono durations** ([run](https://godbolt.org/z/K8s4Mc))
+**Print dates and times** ([run](https://godbolt.org/z/c31ExdY3W))
 
 ``` c++
 #include <fmt/chrono.h>
 
 int main() {
-  using namespace std::literals::chrono_literals;
-  fmt::print("Default format: {} {}\n", 42s, 100ms);
-  fmt::print("strftime-like format: {:%H:%M:%S}\n", 3h + 15min + 30s);
+  auto now = std::chrono::system_clock::now();
+  fmt::print("Date and time: {}\n", now);
+  fmt::print("Time: {:%H:%M}\n", now);
 }
 ```
 
 Output:
 
-    Default format: 42s 100ms
-    strftime-like format: 03:15:30
+    Date and time: 2023-12-26 19:10:31.557195597
+    Time: 19:10
 
 **Print a container** ([run](https://godbolt.org/z/MxM1YqjE7))
 
@@ -213,43 +213,38 @@ and [ryu](https://github.com/ulfjack/ryu):
 
 ## Compile time and code bloat
 
-The script
-[bloat-test.py](https://github.com/fmtlib/format-benchmark/blob/master/bloat-test.py)
-from [format-benchmark](https://github.com/fmtlib/format-benchmark)
-tests compile time and code bloat for nontrivial projects. It generates
-100 translation units and uses `printf()` or its alternative five times
-in each to simulate a medium-sized project. The resulting executable
-size and compile time (Apple LLVM version 8.1.0 (clang-802.0.42), macOS
-Sierra, best of three) is shown in the following tables.
+The script [bloat-test.py][test] from [format-benchmark][bench] tests compile
+time and code bloat for nontrivial projects. It generates 100 translation units
+and uses `printf()` or its alternative five times in each to simulate a
+medium-sized project. The resulting executable size and compile time (Apple
+clang version 15.0.0 (clang-1500.1.0.2.5), macOS Sonoma, best of three) is shown
+in the following tables.
+
+[test]: https://github.com/fmtlib/format-benchmark/blob/master/bloat-test.py
+[bench]: https://github.com/fmtlib/format-benchmark
 
 **Optimized build (-O3)**
 
 | Method        | Compile Time, s | Executable size, KiB | Stripped size, KiB |
 |---------------|-----------------|----------------------|--------------------|
-| printf        |   2.6           |   29                 |   26               |
-| printf+string |   16.4          |   29                 |   26               |
-| iostreams     |   31.1          |   59                 |   55               |
-| {fmt}         |   19.0          |   37                 |   34               |
-| Boost Format  |   91.9          |   226                |   203              |
-| Folly Format  |   115.7         |   101                |   88               |
+| printf        |             1.6 |                   54 |                 50 |
+| IOStreams     |            25.9 |                   98 |                 84 |
+| fmt 83652df   |             4.8 |                   54 |                 50 |
+| tinyformat    |            29.1 |                  161 |                136 |
+| Boost Format  |            55.0 |                  530 |                317 |
 
-As you can see, {fmt} has 60% less overhead in terms of resulting binary
-code size compared to iostreams and comes pretty close to `printf`.
-Boost Format and Folly Format have the largest overheads.
-
-`printf+string` is the same as `printf` but with an extra `<string>`
-include to measure the overhead of the latter.
+{fmt} is fast to compile and is comparable to `printf` in terms of per-call
+binary size (within a rounding error on this system).
 
 **Non-optimized build**
 
 | Method        | Compile Time, s | Executable size, KiB | Stripped size, KiB |
 |---------------|-----------------|----------------------|--------------------|
-| printf        |   2.2           |   33                 |   30               |
-| printf+string |   16.0          |   33                 |   30               |
-| iostreams     |   28.3          |   56                 |   52               |
-| {fmt}         |   18.2          |   59                 |   50               |
-| Boost Format  |   54.1          |   365                |   303              |
-| Folly Format  |   79.9          |   445                |   430              |
+| printf        |             1.4 |                   54 |                 50 |
+| IOStreams     |            23.4 |                   92 |                 68 |
+| {fmt} 83652df |             4.4 |                   89 |                 85 |
+| tinyformat    |            24.5 |                  204 |                161 |
+| Boost Format  |            36.4 |                  831 |                462 |
 
 `libc`, `lib(std)c++`, and `libfmt` are all linked as shared libraries
 to compare formatting function overhead only. Boost Format is a
@@ -258,7 +253,7 @@ header-only library so it doesn\'t provide any linkage options.
 ## Running the tests
 
 Please refer to [Building the
-library](https://fmt.dev/latest/usage.html#building-the-library) for
+library](https://fmt.dev/latest/get-started/#building-from-source) for
 instructions on how to build the library and run the unit tests.
 
 Benchmarks reside in a separate repository,
@@ -280,19 +275,20 @@ or the bloat test:
 
 # Migrating code
 
-[clang-tidy](https://clang.llvm.org/extra/clang-tidy/) v17 (not yet
-released) provides the
+[clang-tidy](https://clang.llvm.org/extra/clang-tidy/) v18 provides the
 [modernize-use-std-print](https://clang.llvm.org/extra/clang-tidy/checks/modernize/use-std-print.html)
 check that is capable of converting occurrences of `printf` and
 `fprintf` to `fmt::print` if configured to do so. (By default it
 converts to `std::print`.)
 
-# Projects using this library
+# Notable projects using this library
 
 - [0 A.D.](https://play0ad.com/): a free, open-source, cross-platform
   real-time strategy game
 - [AMPL/MP](https://github.com/ampl/mp): an open-source library for
   mathematical programming
+- [Apple's FoundationDB](https://github.com/apple/foundationdb): an open-source,
+  distributed, transactional key-value store
 - [Aseprite](https://github.com/aseprite/aseprite): animated sprite
   editor & pixel art tool
 - [AvioBook](https://www.aviobook.aero/en): a comprehensive aircraft
@@ -311,7 +307,7 @@ converts to `std::print`.)
   underwater vehicle
 - [Drake](https://drake.mit.edu/): a planning, control, and analysis
   toolbox for nonlinear dynamical systems (MIT)
-- [Envoy](https://lyft.github.io/envoy/): C++ L7 proxy and
+- [Envoy](https://github.com/envoyproxy/envoy): C++ L7 proxy and
   communication bus (Lyft)
 - [FiveM](https://fivem.net/): a modification framework for GTA V
 - [fmtlog](https://github.com/MengRao/fmtlog): a performant
@@ -351,7 +347,7 @@ converts to `std::print`.)
 - [Quill](https://github.com/odygrd/quill): asynchronous low-latency
   logging library
 - [QKW](https://github.com/ravijanjam/qkw): generalizing aliasing to
-  simplify navigation, and executing complex multi-line terminal
+  simplify navigation, and execute complex multi-line terminal
   command sequences
 - [redis-cerberus](https://github.com/HunanTV/redis-cerberus): a Redis
   cluster proxy
@@ -440,7 +436,7 @@ code bloat issues (see [Benchmarks](#benchmarks)).
 
 ## FastFormat
 
-This is an interesting library that is fast, safe, and has positional
+This is an interesting library that is fast, safe and has positional
 arguments. However, it has significant limitations, citing its author:
 
 > Three features that have no hope of being accommodated within the
@@ -450,8 +446,8 @@ arguments. However, it has significant limitations, citing its author:
 > - Octal/hexadecimal encoding
 > - Runtime width/alignment specification
 
-It is also quite big and has a heavy dependency, STLSoft, which might be
-too restrictive for using it in some projects.
+It is also quite big and has a heavy dependency, on STLSoft, which might be
+too restrictive for use in some projects.
 
 ## Boost Spirit.Karma
 
@@ -470,7 +466,7 @@ second](http://www.zverovich.net/2020/06/13/fast-int-to-string-revisited.html).
 
 # Documentation License
 
-The [Format String Syntax](https://fmt.dev/latest/syntax.html) section
+The [Format String Syntax](https://fmt.dev/latest/syntax/) section
 in the documentation is based on the one from Python [string module
 documentation](https://docs.python.org/3/library/string.html#module-string).
 For this reason, the documentation is distributed under the Python
@@ -494,5 +490,5 @@ To report a security issue, please disclose it at [security
 advisory](https://github.com/fmtlib/fmt/security/advisories/new).
 
 This project is maintained by a team of volunteers on a
-reasonable-effort basis. As such, please give us at least 90 days to
+reasonable-effort basis. As such, please give us at least *90* days to
 work on a fix before public exposure.

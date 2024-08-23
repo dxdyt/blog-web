@@ -1,19 +1,18 @@
 ---
 title: roop
-date: 2023-10-27T12:16:48+08:00
+date: 2024-08-23T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1696326117395-5097014f290a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1696326117395-5097014f290a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgzODAwOTR8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1690417698203-bcb06d206f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1690417698203-bcb06d206f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/roop](https://github.com/s0md3v/roop)
 
 ## This project has been discontinued
 
-Yes, you can still use this software. It just won't recieve any updates now.
+Yes, it still works, you can still use this software. It just won't recieve any updates now.
 
-> The reason behind shutting the project down is that a developer with write access to the code published a [problematic video](https://github.com/s0md3v/roop/commit/cf7ba1caf932e8c9f39d972100f74022e7372c27) to the documentation of the project. This happened while I was taking a break from the project in July-Aug 2023. It went unnoticed for 2 weeks until someone reached out to me to talk about this project. It was a complete breach of trust for me and I decided that I do not have the interest or time to oversee the development of a software with such ethical issues.
-> I thank all the amazing people who contributed to this project and made what it is in it's final form.
+> I do not have the interest or time to oversee the development of this software. I thank all the amazing people who contributed to this project and made what it is in it's final form.
 
 # Roop
 
@@ -21,9 +20,11 @@ Yes, you can still use this software. It just won't recieve any updates now.
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/s0md3v/roop/ci.yml.svg?branch=main)](https://github.com/s0md3v/roop/actions?query=workflow:ci)
 
+<img src="https://i.ibb.co/4RdPYwQ/Untitled.jpg"/>
+
 ## Installation
 
-Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub. We have a very helpful [Discord](https://discord.com/invite/Y9p4ZQ2sB9) community that will guide you to install roop.
+Be aware, the installation needs technical skills and is not for beginners. Please do not open platform and installation related issues on GitHub.
 
 [Basic](https://github.com/s0md3v/roop/wiki/1.-Installation) - It is more likely to work on your computer, but will be quite slow
 

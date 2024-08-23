@@ -1,9 +1,9 @@
 ---
 title: es-toolkit
-date: 2024-08-22T12:17:42+08:00
+date: 2024-08-23T12:18:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723675747885-84f60ccc4db8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzMDAyNDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723675747885-84f60ccc4db8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzMDAyNDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721371095567-ea7c54569363?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [toss/es-toolkit](https://github.com/toss/es-toolkit)

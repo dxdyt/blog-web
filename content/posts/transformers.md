@@ -1,9 +1,9 @@
 ---
 title: transformers
-date: 2024-07-11T12:19:39+08:00
+date: 2024-08-23T12:18:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717957719901-219c075fb78c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717957719901-219c075fb78c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723596927564-f8070e535aee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723596927564-f8070e535aee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/transformers](https://github.com/huggingface/transformers)
@@ -58,6 +58,7 @@ limitations under the License.
         <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fr.md">Français</a> |
         <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_de.md">Deutsch</a> |
         <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
+	<a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ar.md">العربية</a> |
     </p>
 </h4>
 

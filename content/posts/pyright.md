@@ -1,9 +1,9 @@
 ---
 title: pyright
-date: 2024-07-11T12:20:01+08:00
+date: 2024-08-23T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717154462649-e0c67fa0f556?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717154462649-e0c67fa0f556?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723233523808-9b8a672704bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723233523808-9b8a672704bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/pyright](https://github.com/microsoft/pyright)

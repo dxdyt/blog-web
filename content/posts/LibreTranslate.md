@@ -1,9 +1,9 @@
 ---
 title: LibreTranslate
-date: 2024-08-21T12:20:03+08:00
+date: 2024-08-23T12:18:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721679241473-d00437cb5a44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721679241473-d00437cb5a44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722353619589-5baa433c3fab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722353619589-5baa433c3fab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)

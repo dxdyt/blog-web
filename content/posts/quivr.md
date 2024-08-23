@@ -1,9 +1,9 @@
 ---
 title: quivr
-date: 2024-03-30T12:16:55+08:00
+date: 2024-08-23T12:19:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711409785043-17c7ae9ab8ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711409785043-17c7ae9ab8ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721679241840-05534f295cf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721679241840-05534f295cf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [QuivrHQ/quivr](https://github.com/QuivrHQ/quivr)
@@ -39,7 +39,14 @@ https://github.com/quivrhq/quivr/assets/19614572/a6463b73-76c7-4bc0-978d-70562dc
 
 ## Getting Started 🚀
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+You can deploy Quivr to Porter Cloud with one-click:
+
+<a href="https://cloud.porter.run/addons/new?addon_name=quivr" target="_blank">
+  <img src="https://mintlify.s3-us-west-1.amazonaws.com/porter/images/deploying-applications/deploy-to-porter.svg" alt="Deploy to Porter" style="width: 150px;">
+</a>
+
+
+If you would like to deploy locally, follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
 You can find everything on the [documentation](https://docs.quivr.app/).
 
@@ -66,7 +73,7 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 - **Step 1**: Clone the repository:
 
   ```bash
-  git clone https://github.com/quivrhq/quivr.git && cd Quivr
+  git clone https://github.com/quivrhq/quivr.git && cd quivr
   ```
 
 - **Step 2**: Copy the `.env.example` files
@@ -85,15 +92,15 @@ You can find the installation video [here](https://www.youtube.com/watch?v=cXBa6
 
   You just need to update the `OPENAI_API_KEY` variable in the `.env` file. You can get your API key [here](https://platform.openai.com/api-keys). You need to create an account first. And put your credit card information. Don't worry, you won't be charged unless you use the API. You can find more information about the pricing [here](https://openai.com/pricing/).
 
-  > Don't want to use OpenAI and want to use Ollama instead for a completely private experience? You can find the instructions [here](https://docs.quivr.app/developers/contribution/llm/ollama).
 
 - **Step 4**: Launch the project
 
   ```bash
-  supabase start
+  cd backend && supabase start
   ```
   and then 
   ```bash
+  cd ../
   docker compose pull
   docker compose up
   ```
