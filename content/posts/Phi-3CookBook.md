@@ -1,9 +1,9 @@
 ---
 title: Phi-3CookBook
-date: 2024-08-23T12:18:27+08:00
+date: 2024-08-24T12:18:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723297503846-b1bd7db82312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723297503846-b1bd7db82312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723250262102-19ab713c05b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723250262102-19ab713c05b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/Phi-3CookBook](https://github.com/microsoft/Phi-3CookBook)

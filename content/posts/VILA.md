@@ -1,9 +1,9 @@
 ---
 title: VILA
-date: 2024-08-23T12:18:34+08:00
+date: 2024-08-24T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723297503846-b1bd7db82312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723297503846-b1bd7db82312?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722262179250-93e46b15f50f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722262179250-93e46b15f50f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
 ---
 
 # [NVlabs/VILA](https://github.com/NVlabs/VILA)
