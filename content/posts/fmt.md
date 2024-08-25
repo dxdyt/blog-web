@@ -1,9 +1,9 @@
 ---
 title: fmt
-date: 2024-08-24T12:18:29+08:00
+date: 2024-08-25T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721804978859-d2f31f8cfcc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721804978859-d2f31f8cfcc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723477450561-791fd67efa56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ1NTk0NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723477450561-791fd67efa56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ1NTk0NjB8&ixlib=rb-4.0.3
 ---
 
 # [fmtlib/fmt](https://github.com/fmtlib/fmt)
