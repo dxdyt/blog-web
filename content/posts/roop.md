@@ -1,9 +1,9 @@
 ---
 title: roop
-date: 2024-08-25T12:19:29+08:00
+date: 2024-08-26T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722486110902-3e1a6e2600e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ1NTk0NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722486110902-3e1a6e2600e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ1NTk0NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722218424232-14a9d128524f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722218424232-14a9d128524f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
 ---
 
 # [s0md3v/roop](https://github.com/s0md3v/roop)

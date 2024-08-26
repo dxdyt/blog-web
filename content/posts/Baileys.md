@@ -1,9 +1,9 @@
 ---
 title: Baileys
-date: 2024-05-23T12:16:51+08:00
+date: 2024-08-26T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715501948704-a31e742e76a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722218424232-14a9d128524f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722218424232-14a9d128524f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
 ---
 
 # [WhiskeySockets/Baileys](https://github.com/WhiskeySockets/Baileys)
@@ -334,13 +334,13 @@ const sock = makeWASocket({ })
 // the store can listen from a new socket once the current socket outlives its lifetime
 store.bind(sock.ev)
 
-sock.ev.on('chats.set', () => {
+sock.ev.on('chats.upsert', () => {
     // can use "store.chats" however you want, even after the socket dies out
     // "chats" => a KeyedDB instance
     console.log('got chats', store.chats.all())
 })
 
-sock.ev.on('contacts.set', () => {
+sock.ev.on('contacts.upsert', () => {
     console.log('got contacts', Object.values(store.contacts))
 })
 
@@ -432,7 +432,8 @@ await sock.sendMessage(
     { 
         video: "./Media/ma_gif.mp4", 
         caption: "hello!",
-        gifPlayback: true
+        gifPlayback: true,
+	ptv: false // if set to true, will send as a `video note`
     }
 )
 
@@ -844,7 +845,7 @@ Of course, replace ``` xyz ``` with an actual ID.
     ```
 - To update the Groups Add privacy
     ``` ts
-    const value = 'all' // 'contacts' | 'contact_blacklist' | 'none'
+    const value = 'all' // 'contacts' | 'contact_blacklist'
     await sock.updateGroupsAddPrivacy(value)
     ```
 - To update the Default Disappearing Mode

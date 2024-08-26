@@ -1,9 +1,9 @@
 ---
 title: llm.c
-date: 2024-07-14T12:21:12+08:00
+date: 2024-08-26T12:19:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717501220582-af14e7c247b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717501220582-af14e7c247b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722705988572-e9b589fbf2bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722705988572-e9b589fbf2bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
 ---
 
 # [karpathy/llm.c](https://github.com/karpathy/llm.c)
@@ -250,6 +250,9 @@ Lastly, I will be a lot more sensitive to complexity in the root folder of the p
 
 - Zig
   - [llm.zig](https://github.com/Saimirbaci/llm.zig) by @[saimirbaci](https://github.com/Saimirbaci): a Zig port of this project
+ 
+- Habana Gaudi2
+  - [llm.tpc](https://github.com/abhilash1910/llm.tpc) by @[abhilash1910](https://github.com/abhilash1910): a Habana Gaudi2 port of this project 
 
 - Nim
   - [llm.nim](https://github.com/Vindaar/llm.nim) by @[Vindaar](https://github.com/Vindaar): a Nim port of this project
