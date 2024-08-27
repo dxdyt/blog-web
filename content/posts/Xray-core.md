@@ -1,9 +1,9 @@
 ---
 title: Xray-core
-date: 2024-07-24T12:17:06+08:00
+date: 2024-08-27T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719805716024-3ed09a2713a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719805716024-3ed09a2713a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722556496519-37acdd9ff07d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff07d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
 ---
 
 # [XTLS/Xray-core](https://github.com/XTLS/Xray-core)
@@ -13,6 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1719805716024-3ed09a2713
 [Project X](https://github.com/XTLS) originates from XTLS protocol, providing a set of network tools such as [Xray-core](https://github.com/XTLS/Xray-core) and [REALITY](https://github.com/XTLS/REALITY).
 
 [README](https://github.com/XTLS/Xray-core#readme) is open, so feel free to submit your project [here](https://github.com/XTLS/Xray-core/pulls).
+
+## Donation & NFTs
+
+[Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)
 
 ## License
 
@@ -27,6 +31,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1719805716024-3ed09a2713
 [Project X](https://t.me/projectXray)
 
 [Project X Channel](https://t.me/projectXtls)
+
+[Project VLESS](https://t.me/projectVless) (non-Chinese)
 
 ## Installation
 

@@ -1,9 +1,9 @@
 ---
 title: DevOps-Roadmap
-date: 2024-03-18T12:17:20+08:00
+date: 2024-08-27T12:20:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709878455013-33700da90501?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709878455013-33700da90501?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA3MzUyOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724254351233-914fd32f2515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724254351233-914fd32f2515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
 ---
 
 # [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)
@@ -14,6 +14,12 @@ This is a step-by-step guide on how to become a DevOps engineer, with links to r
 
 If you want to learn more about DevOps, be sure to subscribe to **[my newsletter](https://newsletter.techworld-with-milan.com/)**. 
 
+## Support My Work
+
+If you find this repository helpful, consider supporting me on Patreon:
+
+[![Patreon](patreon.png)](https://www.patreon.com/techworld_with_milan)
+
 ## Disclaimer
 
 > The purpose of this roadmap is to give you an idea about the landscape. The road map will guide you if you are confused about what to learn next, rather than encouraging you to pick what is hype and trendy. You should grow some understanding of why one tool would be better suited for some cases than the other and remember that hype and trendy do not always mean best suited for the job.
@@ -23,8 +29,6 @@ If you want to learn more about DevOps, be sure to subscribe to **[my newsletter
 If you like or are using this project to learn or start your solution, please give it a star. Thanks!
 
 ![DevOps roadmap](DevOps%20Roadmap.png)
-
-Download [Version without background](DevOps%20Roadmap%20No%20Background.png).
 
 ## PDF version
 
@@ -123,7 +127,7 @@ Here you will need to know how a network works, how to configure **firewalls**, 
 Resources:
 
 - [OSI Model Explained](https://www.cloudflare.com/en-gb/learning/ddos/glossary/open-systems-interconnection-model-osi/) <sup>FREE</sup>
-- [Computer Networking: A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) <sup>book</sup>
+- [Computer Networking: A Top-Down Approach](https://www.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149) <sup>book</sup> [Video Content](https://www.youtube.com/playlist?list=PLByK_3hwzY3Tysh-SY9MKZhMm9wIfNOas)<sup>video</sup>
 - [TCP/IP and Networking Fundamentals for IT Pros](https://www.pluralsight.com/courses/tcpip-networking-it-pros) <sup>Pluralsight course</sup>
 - [DevSecOps : Master Securing CI/CD | DevOps Pipeline](https://www.udemy.com/course/devsecops/) <sup>Udemy course</sup>
 - [Hands-On Security in DevOps: Ensure continuous security, deployment, and delivery with DevSecOps](https://www.amazon.com/Hands-Security-DevOps-continuous-deployment/dp/1788995503) <sup> Book</sup>
@@ -163,6 +167,7 @@ Resources:
 - [Docker Tutorial for Beginners by TechWorld with Nana](https://www.youtube.com/watch?v=3c-iBn73dDE) <sup>FREE</sup>
 - [Docker Mastery: with Kubernetes +Swarm from a Docker Captain](https://www.udemy.com/course/docker-mastery/) <sup>Udemy course</sup>
 - [What is Service Mesh?](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh) <sup>FREE</sup>
+- [DevOps with Kubernetes](https://devopswithkubernetes.com/) <sup>FREE</sup>
 
 ### 7. Learn Container Orchestration
 
@@ -292,6 +297,8 @@ Resources:
 - [Learn SAFe](https://www.scaledagileframework.com/) <sup>FREE</sup>
 - [Learn Automation Testing](https://blog.testproject.io/2020/03/26/automation-testing-for-beginners-ultimate-guide/) <sup>FREE</sup>
 - [GitLab - Beginner's Guide to DevOps](https://page.gitlab.com/resources-ebook-beginners-guide-devops.html) <sup>FREE</sup>
+- [Common SDLC Models](https://www.scaler.com/blog/software-development-life-cycle/#common-sdlc-models) <sup>FREE</sup>
+
 
 ## Additional resources
 
