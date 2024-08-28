@@ -1,9 +1,9 @@
 ---
 title: lerobot
-date: 2024-08-21T12:20:20+08:00
+date: 2024-08-28T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722893358732-fb2db987bfd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722893358732-fb2db987bfd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723084701888-658cf3b8f515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723084701888-658cf3b8f515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
 ---
 
 # [huggingface/lerobot](https://github.com/huggingface/lerobot)
@@ -277,13 +277,20 @@ checkpoints
 │   └── training_state.pth  # optimizer/scheduler/rng state and training step
 ```
 
+To resume training from a checkpoint, you can add these to the `train.py` python command:
+```bash
+    hydra.run.dir=your/original/experiment/dir resume=true
+```
+
+It will load the pretrained model, optimizer and scheduler states for training. For more information please see our tutorial on training resumption [here](https://github.com/huggingface/lerobot/blob/main/examples/5_resume_training.md).
+
 To use wandb for logging training and evaluation curves, make sure you've run `wandb login` as a one-time setup step. Then, when running the training command above, enable WandB in the configuration by adding:
 
 ```bash
     wandb.enable=true
 ```
 
-A link to the wandb logs for the run will also show up in yellow in your terminal. Here is an example of what they look like in your browser:
+A link to the wandb logs for the run will also show up in yellow in your terminal. Here is an example of what they look like in your browser. Please also check [here](https://github.com/huggingface/lerobot/blob/main/examples/4_train_policy_with_script.md#typical-logs-and-metrics) for the explaination of some commonly used metrics in logs.
 
 ![](media/wandb.png)
 

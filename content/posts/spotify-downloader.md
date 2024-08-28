@@ -1,9 +1,9 @@
 ---
 title: spotify-downloader
-date: 2024-08-27T12:20:35+08:00
+date: 2024-08-28T12:19:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721974337801-f789a76057fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721974337801-f789a76057fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
 ---
 
 # [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader)

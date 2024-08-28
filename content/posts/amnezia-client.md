@@ -1,9 +1,9 @@
 ---
 title: amnezia-client
-date: 2024-08-26T12:18:28+08:00
+date: 2024-08-28T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722172118908-1a97c312ce8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722172118908-1a97c312ce8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722100351136-99ea67635707?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722100351136-99ea67635707?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
 ---
 
 # [amnezia-vpn/amnezia-client](https://github.com/amnezia-vpn/amnezia-client)

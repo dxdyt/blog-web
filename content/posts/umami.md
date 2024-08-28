@@ -1,9 +1,9 @@
 ---
 title: umami
-date: 2024-08-26T12:19:02+08:00
+date: 2024-08-28T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722172118908-1a97c312ce8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722172118908-1a97c312ce8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
 ---
 
 # [umami-software/umami](https://github.com/umami-software/umami)

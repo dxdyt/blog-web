@@ -1,9 +1,9 @@
 ---
 title: Telegram-iOS
-date: 2024-08-27T12:20:42+08:00
+date: 2024-08-28T12:20:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723065456699-dcbf1f55c974?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723065456699-dcbf1f55c974?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721911870886-63368f4d4631?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721911870886-63368f4d4631?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
 ---
 
 # [TelegramMessenger/Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
