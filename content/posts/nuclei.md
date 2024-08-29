@@ -1,9 +1,9 @@
 ---
 title: nuclei
-date: 2024-08-03T12:17:19+08:00
+date: 2024-08-29T12:18:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722260612891-81562573cc82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722260612891-81562573cc82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723013082052-3a38205b2a49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723013082052-3a38205b2a49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
 ---
 
 # [projectdiscovery/nuclei](https://github.com/projectdiscovery/nuclei)
@@ -189,6 +189,7 @@ OUTPUT:
    -se, -sarif-export string     file to export results in SARIF format
    -je, -json-export string      file to export results in JSON format
    -jle, -jsonl-export string    file to export results in JSONL(ine) format
+   -rd, -redact string[]         redact given list of keys from query parameter, request header and body
 
 CONFIGURATIONS:
    -config string                        path to the nuclei configuration file
@@ -320,6 +321,7 @@ STATISTICS:
 
 CLOUD:
    -auth                      configure projectdiscovery cloud (pdcp) api key (default true)
+   -tid, -team-id string      upload scan results to given team id (optional) (default "none")
    -cup, -cloud-upload        upload scan results to pdcp dashboard
    -sid, -scan-id string      upload scan results to existing scan id (optional)
    -sname, -scan-name string  scan name to set (optional)

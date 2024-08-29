@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2024-08-28T12:20:56+08:00
+date: 2024-08-29T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724003450399-d8142e845b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724003450399-d8142e845b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)

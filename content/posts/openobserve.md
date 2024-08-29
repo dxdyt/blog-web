@@ -1,112 +1,241 @@
 ---
 title: openobserve
-date: 2023-08-07T12:17:23+08:00
+date: 2024-08-29T12:18:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690916340622-6c9d7f0bd754?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEzODE2Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
 ---
 
 # [openobserve/openobserve](https://github.com/openobserve/openobserve)
 
-🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance, 🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces).
+<p align="center">
+  <a href="https://openobserve.ai"><img src="https://openobserve.ai/img/logo/logo_horizontal.svg" alt="OpenObserve"></a>
+</p>
+<p align="center">
+    <em>🚀 10x easier, 🚀 140x lower storage cost, 🚀 high performance, 🚀 petabyte scale - Elasticsearch/Splunk/Datadog alternative for 🚀 (logs, metrics, traces).</em>
+</p>
+<p align="center">
+<a href="https://github.com/openobserve/openobserve" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/openobserve/openobserve" alt="Last Commit">
+</a>
+<a href="https://github.com/openobserve/openobserve/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/openobserve/openobserve" alt="GitHub Stars">
+</a>
+<a href="https://github.com/openobserve/openobserve/issues" target="_blank">
+    <img src="https://img.shields.io/github/issues/openobserve/openobserve" alt="GitHub Issues">
+</a>
+<a href="https://github.com/openobserve/openobserve/graphs/contributors" target="_blank">
+    <img src="https://img.shields.io/github/contributors/openobserve/openobserve" alt="Contributors">
+</a>
+<a href="https://github.com/openobserve/openobserve/releases" target="_blank">
+    <img src="https://img.shields.io/github/v/release/openobserve/openobserve" alt="GitHub Release">
+</a>
+</p>
 
-# [OpenObserve Cloud](https://cloud.openobserve.ai) | [Docs](https://openobserve.ai/docs/) | [Slack](https://join.slack.com/t/zincobserve/shared_invite/zt-11r96hv2b-UwxUILuSJ1duzl_6mhJwVg) | [Website](https://openobserve.ai)
+OpenObserve (O2 for short) is a cloud-native observability platform built specifically for logs, metrics, traces, analytics, RUM (Real User Monitoring - Performance, Errors, Session Replay) designed to work at petabyte scale.
 
-# OpenObserve
+It is straightforward and easy to operate, in contrast to Elasticsearch, which requires understanding and tuning numerous settings. Get OpenObserve up and running in under 2 minutes.
 
-OpenObserve is a cloud native observability platform built specifically for logs, metrics, traces and analytics designed to work at petabyte scale.
+OpenObserve serves as a seamless replacement for Elasticsearch for users who ingest data using APIs and perform searches. OpenObserve comes with its own user interface, eliminating the need for separate installation.
 
-It is very simple and easy to operate as opposed to Elasticsearch which requires a couple dozen knobs to understand and tune which you can get up and running in under 2 minutes.
+You can reduce your log storage costs by ~140x compared to Elasticsearch by using OpenObserve. Below, we present the results from pushing logs from our production Kubernetes cluster to both Elasticsearch and OpenObserve using Fluent Bit.
 
-It is a drop-in replacement for Elasticsearch if you are just ingesting data using APIs and searching using kibana (Kibana is not supported nor required with OpenObserve. OpenObserve provides its own UI which does not require separate installation unlike kibana).
+![OpenObserve Vs Elasticsearch](./screenshots/zo_vs_es.png)
 
-You can reduce your log storage costs by ~140x compared to Elasticsearch by using OpenObserve. Below are the results when we pushed logs from our production kubernetes cluster to Elasticsearch and OpenObserve using fluentbit. OpenObserve stored data in Amazon s3 and Elasticsearch stored data on Amazon EBS volumes.
-
-![OpenObserve Vs ElasticSearch](./screenshots/zo_vs_es.png)
-
-## Introduction video
-
+## 🎥 Introduction Video
 
 https://github.com/openobserve/openobserve/assets/4242188/77c71e8c-23f6-4123-b42a-7113b464f7a6
 
+## 🌟 Features:
 
-## Features:
+- **Logs, Metrics, Traces**: Comprehensive support for various data types.
+- **OpenTelemetry Support**: Full compatibility with OTLP for logs, metrics, and traces.
+- **Real User Monitoring (RUM)**: Includes performance tracking, error logging, and session replay.
+- **Alerts & Dashboards**: Features over 14 different chart types for comprehensive data visualization.
+- **Advanced Ingest and Query Functions**: Aid in enrichment, redaction, log reduction, and compliance, like redacting sensitive data from logs.
+- **Advanced Embedded GUI**: Intuitive and user-friendly interface.
+- **SQL and PromQL Support**: Query logs and traces with SQL, and metrics with SQL and PromQL.
+- **Single Binary Installation**: Easy installation and running, with binaries available for multiple platforms under [releases](https://github.com/openobserve/openobserve/releases).
+- **Versatile Storage Options**: Supports local disk, S3, MinIO, GCS, Azure Blob Storage.
+- **High Availability and Clustering**: Ensures reliable and scalable performance.
+- **Dynamic Schema**: Adapts to your data structure seamlessly.
+- **Built-in Authentication**: Secure and ready to use.
+- **Ease of Operation**: Designed for simplicity and efficiency.
+- **Seamless Upgrades**: Hassle-free updates.
+- **Multilingual UI**: Supports 11 languages, including English, Spanish, German, French, Chinese, and more.
 
-Some of the features are:
+For a full list of features, check the [documentation](https://openobserve.ai/docs/#project-status-features-and-roadmap).
 
-1. Logs, Metrics, Traces
-1. Alerts, Dashboards
-1. Ingest and Query functions to aid advanced capabilities like enrichment, redaction, log reduction, compliance, etc. e.g. you can use ingest functions to redact sensitive data like email IDs, AWS keys, etc. from logs before the get stored in logs.
-1. Advanced Embedded GUI
-1. SQL for Logs and Traces. SQL and PromQL for metrics. No need to learn yet another query language.
-1. Single binary for installation & running. Binaries available under [releases](https://github.com/openobserve/openobserve/releases) for multiple platforms.
-1. Storage in local Disk, s3, MinIO, GCS
-1. High availability and clustering
-1. Drop in replacement for elasticsearch
-1. Dynamic Schema
-1. Out of the box authentication
-1. Vastly easier to operate
-1. Seamless upgrades
+## ⚡️ Quick start
 
-For full list of features check [documentation](https://openobserve.ai/docs/#project-status-features-and-roadmap)
+### 🐳 Docker:
+```bash
+docker run -d \
+      --name openobserve \
+      -v $PWD/data:/data \
+      -p 5080:5080 \
+      -e ZO_ROOT_USER_EMAIL="root@example.com" \
+      -e ZO_ROOT_USER_PASSWORD="Complexpass#123" \
+      public.ecr.aws/zinclabs/openobserve:latest
+```
 
-# Installation
+### 🐙 Docker Compose:
+```yaml
+services:
+  openobserve:
+    image: public.ecr.aws/zinclabs/openobserve:latest
+    restart: unless-stopped
+    environment:
+      ZO_ROOT_USER_EMAIL: "root@example.com"
+      ZO_ROOT_USER_PASSWORD: "Complexpass#123"
+    ports:
+      - "5080:5080"
+    volumes:
+      - data:/data
+volumes:
+  data:
+```
 
-You can install OpenObserve in under 2 minutes by following the [quickstart](https://openobserve.ai/docs/quickstart/) documentation
+For other ways to quickly install OpenObserve or use OpenObserve cloud, check [quickstart documentation](https://openobserve.ai/docs/quickstart).
 
-# OpenObserve Cloud
+For installing OpenObserve in HA mode, check [HA deployment documentation](https://openobserve.ai/docs/ha_deployment/).
 
-You can also try OpenObserve without installing it in under 2 minutes by trying out OpenObserve Cloud at [https://cloud.openobserve.ai](https://cloud.openobserve.ai)
+## Enterprise Vs Open source Vs Cloud edition
 
-# Screenshots
+OpenObserve is available in three different editions:
 
-## Home
+
+| Feature | Open Source (Self hosted) | Enterprise (Self hosted) | Cloud |
+| --- | --- | --- | --- | 
+| Logs | ✅ | ✅ | ✅ |
+| Metrics | ✅ | ✅ | ✅ |
+| Traces | ✅ | ✅ | ✅ |
+| RUM | ✅ | ✅ | ✅ |
+| Alerts | ✅ | ✅ | ✅ |
+| Dashboards | ✅ | ✅ | ✅ |
+| Reports | ✅ | ✅ | ✅ |
+| VRL functions | ✅ | ✅ | ✅ |
+| Pipelines | ✅ | ✅ | ✅ |
+| High Availability | ✅ | ✅ | ✅ |
+| Multitenancy (Organizations) | ✅ | ✅ | ✅ |
+| Dynamic schema and schema evolution | ✅ | ✅ | ✅ |
+| Advanced multilingual GUI | ✅ | ✅ | ✅ |
+| Single Sign On | ❌ | ✅ | ✅ |
+| Role Based Access Control (RBAC) | ❌ | ✅ | ✅ |
+| Federated search / Super cluster | ❌ | ✅ | ❌ |
+| Query management | ❌ | ✅ | ❌ |
+| Workload management (QoS) | ❌ | ✅ | ❌ |
+| Audit trail | ❌ | ✅ | ❌ |
+| Ability to influence roadmap | ❌ | ✅ | ✅ on enterprise plan |
+| License | AGPL | Enterprise | Cloud |
+| Support | Community | Enterprise | Cloud |
+| Cost | Free | If self hosted, free for up to 200 GB/Day data ingested <br> Paid thereafter  | Free 200 GB/Month data ingested <br> Paid thereafter |
+
+
+## 📷 Screenshots
+
+### Home
 
 ![Home](./screenshots/zo_home.png)
 
-## Logs
+### Logs
 
-![Home](./screenshots/logs.webp)
+![Logs](./screenshots/logs.png)
 
-## Traces (Opentelemetry supported)
+### Traces (OpenTelemetry)
 
-![Traces using Opentelemetry](./screenshots/traces.webp)
+Trace details page
+![Traces using OpenTelemetry](./screenshots/traces.png)
 
+Golden metrics based on traces
+![Traces golden metrics](./screenshots/traces-overall.png)
 
-## Visualization and dashboard
+### Visualizations and Dashboards
 
 ![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./screenshots/dashboard2.png)
+![Create panel](./screenshots/create-panel.png)
+![Map](./screenshots/map.png)
 
-## Alerts
+### Front end monitoring
 
-### Real time alerts
+Performance analytics
+![Performance](./screenshots/performance.png)
 
-![Alerts Realtime](./screenshots/alert_realtime.jpg)
+Session replay
+![Session replay](./screenshots/session-replay.png)
 
-### Scheduled alerts
+Error tracking
+![Error tracking](./screenshots/error-tracking.png)
 
-![Alerts Scheduled](./screenshots/alert_scheduled.jpg)
 
-## Streams
+### Alerts
 
-![Home](./screenshots/zo_streams.png)
+![Alerts](./screenshots/alerts.png)
 
-## Ingestion
 
-![Home](./screenshots/ingestion.webp)
+### Streams
 
-# Community
+![Streams](./screenshots/streams.png)
 
-- #### How to develop and contribute to OpenObserve
+### Ingestion
 
-  Check the [contributing guide](./CONTRIBUTING.md) . Also check the [roadmap items](https://github.com/orgs/openobserve/projects/7)
+![Ingestion](./screenshots/ingestion1.png)
 
-- #### Join our Slack Channel
+![Ingestion](./screenshots/ingestion2.png)
 
-  [![Slack](./screenshots/slack.png)](https://join.slack.com/t/zincobserve/shared_invite/zt-11r96hv2b-UwxUILuSJ1duzl_6mhJwVg)
+### SBOM
 
-  Easiest way to get support is to join the [Slack channel](https://join.slack.com/t/zincobserve/shared_invite/zt-11r96hv2b-UwxUILuSJ1duzl_6mhJwVg).
+Software Bill of Materials for OpenObserve
 
-- #### Join our weChat Group
+#### Rust
 
-  <img src="./screenshots/wechat_qr.jpg" width="300">
+SBOM can be found [here](./openobserve.cdx.xml). You can analyze it using [dependency track](https://dependencytrack.org/).
+
+In order to generate the SBOM, you can use the following commands:
+
+Install cargo-cyclonedx:
+
+````bash
+cargo install cargo-cyclonedx
+````
+
+Generate the SBOM:
+```bash
+cargo-cyclonedx cyclonedx
+```
+
+#### JavaScript
+
+SBOM can be found [here](./web/sbom.json ). You can analyze it using [dependency track](https://dependencytrack.org/).
+
+In order to generate the SBOM, you can use the following commands:
+
+Install cyclonedx-npm:
+
+````bash
+npm install --global @cyclonedx/cyclonedx-npm
+````
+
+Generate the SBOM:
+```bash
+cd web
+cyclonedx-npm > sbom.json         
+```
+
+
+## ⚖️ License
+
+OpenObserve is licensed under the AGPL-3.0 license. For more details, see the [LICENSE](https://github.com/openobserve/openobserve/blob/main/LICENSE).
+
+## 🌍 Community
+
+### 🔗 Join our Slack Channel
+
+[![Slack](./screenshots/slack.png)](https://short.openobserve.ai/community)
+
+Easiest way to get support is to join the [Slack channel](https://short.openobserve.ai/community).
+
+### 📱 Join our WeChat Group
+
+<img src="./screenshots/wechat_qr.jpg" width="300">
