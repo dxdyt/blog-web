@@ -1,9 +1,9 @@
 ---
 title: vaultwarden
-date: 2024-08-14T12:18:37+08:00
+date: 2024-08-30T12:19:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691157915037-68576ba139b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691157915037-68576ba139b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723538523199-61e20b5de045?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5OTE1MTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723538523199-61e20b5de045?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5OTE1MTZ8&ixlib=rb-4.0.3
 ---
 
 # [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)

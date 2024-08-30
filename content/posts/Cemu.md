@@ -1,9 +1,9 @@
 ---
 title: Cemu
-date: 2024-03-07T12:17:58+08:00
+date: 2024-08-30T12:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707382847896-1311b0498133?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707382847896-1311b0498133?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1606331033904-0d8c8152c21d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5OTE1MTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1606331033904-0d8c8152c21d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5OTE1MTZ8&ixlib=rb-4.0.3
 ---
 
 # [cemu-project/Cemu](https://github.com/cemu-project/Cemu)
@@ -58,7 +58,7 @@ Before submitting a pull request, please read and follow our code style guidelin
 
 If coding isn't your thing, testing games and making detailed bug reports or updating the (usually outdated) compatibility wiki is also appreciated!
 
-Questions about Cemu's software architecture can also be answered on Discord (through the Matrix bridge).
+Questions about Cemu's software architecture can also be answered on Discord (or through the Matrix bridge).
 
 ## License
 Cemu is licensed under [Mozilla Public License 2.0](/LICENSE.txt). Exempt from this are all files in the dependencies directory for which the licenses of the original code apply as well as some individual files in the src folder, as specified in those file headers respectively.
