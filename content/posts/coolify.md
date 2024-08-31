@@ -1,9 +1,9 @@
 ---
 title: coolify
-date: 2024-08-26T12:19:55+08:00
+date: 2024-08-31T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722630169108-5cef80b9f95b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722630169108-5cef80b9f95b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720491468850-368cd24ce9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720491468850-368cd24ce9d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
 ---
 
 # [coollabsio/coolify](https://github.com/coollabsio/coolify)
@@ -59,6 +59,8 @@ Special thanks to our biggest sponsors!
 <a href="https://blacksmith.sh/?ref=coolify.io" target="_blank"><img src="./other/logos/blacksmith.svg" alt="blacksmith logo" width="200"/></a>
 <a href="https://latitude.sh/?ref=coolify.io" target="_blank"><img src="./other/logos/latitude.svg" alt="latitude logo" width="200"/></a>
 <a href="https://brand.dev/?ref=coolify.io" target="_blank"><img src="./other/logos/branddev.png" alt="branddev logo" width="200"/></a>
+<a href="https://jobscollider.com/remote-jobs?ref=coolify.io" target="_blank"><img src="./other/logos/jobscollider.svg" alt="jobscollider logo" width="200"/></a>
+<a href="https://hostinger.com?ref=coolify.io" target="_blank"><img src="./other/logos/hostinger.svg" alt="hostinger logo" width="200"/></a>
 
 ## Github Sponsors ($40+)
 <a href="https://serpapi.com/?ref=coolify.io"><img width="60px" alt="SerpAPI" src="https://github.com/serpapi.png"/></a>
@@ -81,8 +83,10 @@ Special thanks to our biggest sponsors!
 <a href="https://github.com/aniftyco"><img src="https://github.com/aniftyco.png" width="60px" alt="NiftyCo" /></a>
 <a href="https://github.com/iujlaki"><img src="https://github.com/iujlaki.png" width="60px" alt="Imre Ujlaki" /></a>
 <a href="https://il.ly"><img src="https://github.com/Illyism.png" width="60px" alt="Ilias Ism" /></a>
+<a href="https://www.breakcold.com/?utm_source=coolify.io"><img src="https://github.com/breakcold.png" width="60px" alt="Breakcold" /></a>
 <a href="https://github.com/urtho"><img src="https://github.com/urtho.png" width="60px" alt="Paweł Pierścionek" /></a>
 <a href="https://github.com/monocursive"><img src="https://github.com/monocursive.png" width="60px" alt="Michael Mazurczak" /></a>
+<a href="https://formbricks.com/?utm_source=coolify.io"><img src="https://github.com/formbricks.png" width="60px" alt="Formbricks" /></a>
 
 ## Organizations
 <a href="https://opencollective.com/coollabsio/organization/0/website"><img src="https://opencollective.com/coollabsio/organization/0/avatar.svg"></a>

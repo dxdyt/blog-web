@@ -1,9 +1,9 @@
 ---
 title: openobserve
-date: 2024-08-29T12:18:34+08:00
+date: 2024-08-31T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723743809756-d8576dc3fe59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723458226643-6ac0e1e6f1a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723458226643-6ac0e1e6f1a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
 ---
 
 # [openobserve/openobserve](https://github.com/openobserve/openobserve)

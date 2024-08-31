@@ -1,9 +1,9 @@
 ---
 title: kotaemon
-date: 2024-08-30T12:18:45+08:00
+date: 2024-08-31T12:19:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723387046130-191915c3ba2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5OTE1MTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723387046130-191915c3ba2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5OTE1MTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723390926441-5840f12432fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723390926441-5840f12432fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
 ---
 
 # [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)
@@ -13,9 +13,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1723387046130-191915c3ba
 An open-source clean & customizable RAG UI for chatting with your documents. Built with both end users and
 developers in mind.
 
-![Preview](docs/images/preview-graph.png)
+![Preview](https://raw.githubusercontent.com/Cinnamon/kotaemon/main/docs/images/preview-graph.png)
 
-[Live Demo](https://huggingface.co/spaces/taprosoft/kotaemon) |
+[Live Demo](https://huggingface.co/spaces/cin-model/kotaemon-demo) |
 [Source Code](https://github.com/Cinnamon/kotaemon)
 
 [User Guide](https://cinnamon.github.io/kotaemon/) |
@@ -78,7 +78,7 @@ appreciated.
 
 - **Extensible**. Being built on Gradio, you are free to customize / add any UI elements as you like. Also, we aim to support multiple strategies for document indexing & retrieval. `GraphRAG` indexing pipeline is provided as an example.
 
-![Preview](docs/images/preview.png)
+![Preview](https://raw.githubusercontent.com/Cinnamon/kotaemon/main/docs/images/preview.png)
 
 ## Installation
 
@@ -124,7 +124,7 @@ pip install -e "libs/ktem"
 
 - (Optional) To enable in-browser PDF_JS viewer, download [PDF_JS_DIST](https://github.com/mozilla/pdf.js/releases/download/v4.0.379/pdfjs-4.0.379-dist.zip) and extract it to `libs/ktem/ktem/assets/prebuilt`
 
-<img src="docs/images/pdf-viewer-setup.png" alt="pdf-setup" width="300">
+<img src="https://raw.githubusercontent.com/Cinnamon/kotaemon/main/docs/images/pdf-viewer-setup.png" alt="pdf-setup" width="300">
 
 - Start the web server:
 
@@ -137,6 +137,10 @@ The app will be automatically launched in your browser.
 Default username / password are: `admin` / `admin`. You can setup additional users directly on the UI.
 
 ![Chat tab](https://raw.githubusercontent.com/Cinnamon/kotaemon/main/docs/images/chat-tab.png)
+
+## Setup local models (for local / private RAG)
+
+See [Local model setup](docs/local_model.md).
 
 ## Customize your application
 
@@ -162,7 +166,7 @@ starting point.
 KH_DOCSTORE=(Elasticsearch | LanceDB | SimpleFileDocumentStore)
 
 # setup your preferred vectorstore (for vector-based search)
-KH_VECTORSTORE=(ChromaDB | LanceDB
+KH_VECTORSTORE=(ChromaDB | LanceDB | InMemory)
 
 # Enable / disable multimodal QA
 KH_REASONINGS_USE_MULTIMODAL=True
@@ -235,7 +239,7 @@ ollama pull nomic-embed-text
 
 Set the model names on web UI and make it as default.
 
-![Models](docs/images/models.png)
+![Models](https://raw.githubusercontent.com/Cinnamon/kotaemon/main/docs/images/models.png)
 
 ##### Using GGUF with llama-cpp-python
 
