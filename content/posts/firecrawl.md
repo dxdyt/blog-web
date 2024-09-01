@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2024-08-31T12:19:44+08:00
+date: 2024-09-01T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723390926441-5840f12432fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723390926441-5840f12432fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723108709917-b46502072c93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723108709917-b46502072c93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
 ---
 
 # [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
@@ -239,20 +239,19 @@ Response will be an ordered list from the most relevant to the least relevant.
 }
 ```
 
-### LLM Extraction (v0) (Beta)
+### LLM Extraction (Beta)
 
 Used to extract structured data from scraped pages.
 
 ```bash
-curl -X POST https://api.firecrawl.dev/v0/scrape \
+curl -X POST https://api.firecrawl.dev/v1/scrape \
     -H 'Content-Type: application/json' \
     -H 'Authorization: Bearer YOUR_API_KEY' \
     -d '{
       "url": "https://www.mendable.ai/",
-      "extractorOptions": {
-        "mode": "llm-extraction",
-        "extractionPrompt": "Based on the information on the page, extract the information from the schema. ",
-        "extractionSchema": {
+      "formats": ["extract"],
+      "extract": {
+        "schema": {
           "type": "object",
           "properties": {
             "company_mission": {
@@ -304,6 +303,23 @@ curl -X POST https://api.firecrawl.dev/v0/scrape \
     }
   }
 }
+```
+
+### Extracting without a schema (New)
+
+You can now extract without a schema by just passing a `prompt` to the endpoint. The llm chooses the structure of the data.
+
+```bash
+curl -X POST https://api.firecrawl.dev/v1/scrape \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer YOUR_API_KEY' \
+    -d '{
+      "url": "https://docs.firecrawl.dev/",
+      "formats": ["extract"],
+      "extract": {
+        "prompt": "Extract the company mission from the page."
+      }
+    }'
 ```
 
 

@@ -1,9 +1,9 @@
 ---
 title: AppFlowy
-date: 2024-08-31T12:19:24+08:00
+date: 2024-09-01T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721934081836-89b4fd1d0b77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721934081836-89b4fd1d0b77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUwNzc5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724410343614-5283725bac7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724410343614-5283725bac7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
 ---
 
 # [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy)

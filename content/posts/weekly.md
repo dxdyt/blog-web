@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2024-03-24T12:18:35+08:00
+date: 2024-09-01T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709707546257-08d69fd42d8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709707546257-08d69fd42d8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTEyNTM3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723596927564-f8070e535aee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723596927564-f8070e535aee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,9 +14,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1709707546257-08d69fd42d
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/4075)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/4911)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
-## 如何搜索 
+## 如何搜索
 
 周刊已经沉淀了大量内容，可以使用下面的几种方法进行搜索。
 
@@ -37,8 +37,44 @@ $ grep -nri css docs | cat --number
 ```
 ## 2024
 
+**八月**
+
+- 第 315 期：[一份谷歌离职报告](docs/issue-315.md)
+- 第 314 期：[《黑神话：悟空》可以产业化吗？](docs/issue-314.md)
+- 第 313 期：[如果新加坡没有空调](docs/issue-313.md)
+- 第 312 期：[从英特尔看“美国制造”](docs/issue-312.md)
+- 第 311 期：[低利率与长期项目](docs/issue-311.md)
+
+**七月**
+
+- 第 310 期：[内容农场的 AI 赚钱术](docs/issue-310.md)
+- 第 309 期：[无人驾驶出租车的双面刃](docs/issue-309.md)
+- 第 308 期：[工作找不到，博士能读吗？](docs/issue-308.md)
+- 第 307 期：[不要看重 Product Hunt](docs/issue-307.md)
+
+**六月**
+
+- 第 306 期：[信息就像糖一样上瘾](docs/issue-306.md)
+- 第 305 期：[随机数，这是一个问题](docs/issue-305.md)
+- 第 304 期：[最受欢迎的颜色](docs/issue-304.md)
+- 第 303 期：[技术封建主义](docs/issue-303.md)
+
+**五月**
+
+- 第 302 期：[创业虽然好，不敢推荐了](docs/issue-302.md)
+- 第 301 期：[OpenAI 的图书馆工位](docs/issue-301.md)
+- 第 300 期：[三十年，解决人生三大问题](docs/issue-300.md)
+- 第 299 期：[AI 的关键是语料](docs/issue-299.md)
+
+**四月**
+
+- 第 298 期：[轮到硬件工程师吃香了](docs/issue-298.md)
+- 第 297 期：[饮水鸟玩具](docs/issue-297.md)
+- 第 296 期：[xz 后门的作者 Jia Tan 是谁？](docs/issue-296.md)
+
 **三月**
 
+- 第 295 期：[巧妙的灯泡钟](docs/issue-295.md)
 - 第 294 期：[崖门海战的感想](docs/issue-294.md)
 - 第 293 期：[一周是一年的2%](docs/issue-293.md)
 - 第 292 期：[所有代码都是技术债](docs/issue-292.md)
@@ -143,7 +179,7 @@ $ grep -nri css docs | cat --number
 
 ## 2022
 
-十二月
+**十二月**
 
 - 第 237 期：[真实方位是如何暴露的？](docs/issue-237.md)
 - 第 236 期：[中国的阳光地带](docs/issue-236.md)
@@ -151,20 +187,20 @@ $ grep -nri css docs | cat --number
 - 第 234 期：[AI 聊天有多强](docs/issue-234.md)
 - 第 233 期：[生活就像一个鱼缸](docs/issue-233.md)
 
-十一月
+**十一月**
 
 - 第 232 期：[好用的平面设计软件](docs/issue-232.md)
 - 第 231 期：[互联网公司需要多少员工？](docs/issue-231.md)
 - 第 230 期：[电子产品的用电量](docs/issue-230.md)
 - 第 229 期：[手机充电问题的解决](docs/issue-229.md)
 
-十月
+**十月**
 
 - 第 228 期：[人类和人生的意义](docs/issue-228.md)
 - 第 227 期：[脸书的公司入职教育](docs/issue-227.md)
 - 第 226 期：[谷歌出了什么问题？](docs/issue-226.md)
 
-九月
+**九月**
 
 - 第 225 期：[游戏 NPC 也是一种职业](docs/issue-225.md)
 - 第 224 期：[Figma 为什么赢了 Sketch](docs/issue-224.md)
@@ -172,14 +208,14 @@ $ grep -nri css docs | cat --number
 - 第 222 期：[四十年编程感想](docs/issue-222.md)
 - 第 221 期：[全世界最繁荣的行业](docs/issue-221.md)
 
-八月
+**八月**
 
 - 第 220 期：[人工智能的机会在哪里](docs/issue-220.md)
 - 第 219 期：[如何防止帐号被黑](docs/issue-219.md)
 - 第 218 期：[葡萄酒，樱花，全球变暖](docs/issue-218.md)
 - 第 217 期：[沙特的新未来城](docs/issue-217.md)
 
-七月
+**七月**
 
 - 第 216 期：[极简主义的胜利](docs/issue-216.md)
 - 第 215 期：[互联网最喜欢的行为模式](docs/issue-215.md)
@@ -187,13 +223,13 @@ $ grep -nri css docs | cat --number
 - 第 213 期：[知识孤岛，知识软件](docs/issue-213.md)
 - 第 212 期：[人生不短](docs/issue-212.md)
 
-六月
+**六月**
 
 - 第 211 期：[虚拟商品可以拉动 GDP](docs/issue-211.md)
 - 第 210 期：[为什么软件变得复杂](docs/issue-210.md)
 - 第 209 期：[程序员是怎样的人](docs/issue-209.md)
 
-五月
+**五月**
 
 - 第 208 期：[晋升制度的问题](docs/issue-208.md)
 - 第 207 期：[汽车行业的顶峰可能过去了](docs/issue-207.md)

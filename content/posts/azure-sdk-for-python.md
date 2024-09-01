@@ -1,9 +1,9 @@
 ---
 title: azure-sdk-for-python
-date: 2024-01-11T12:18:39+08:00
+date: 2024-09-01T12:21:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702427725739-4282dcc3e8e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702427725739-4282dcc3e8e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721843458829-4773b1cc4c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721843458829-4773b1cc4c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
 ---
 
 # [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python)
@@ -63,12 +63,8 @@ Management libraries can be identified by namespaces that start with `azure-mgmt
 ## Need help?
 
 * For detailed documentation visit our [Azure SDK for Python documentation](https://aka.ms/python-docs)
-* File an issue via [Github Issues](https://github.com/Azure/azure-sdk-for-python/issues)
+* File an issue via [GitHub Issues](https://github.com/Azure/azure-sdk-for-python/issues)
 * Check [previous questions](https://stackoverflow.com/questions/tagged/azure+python) or ask new ones on StackOverflow using `azure` and `python` tags.
-
-### Community
-
-* Chat with other community members [![Join the chat at https://gitter.im/azure/azure-sdk-for-python](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/azure/azure-sdk-for-python?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Reporting security issues and security bugs
 
