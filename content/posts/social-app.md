@@ -1,9 +1,9 @@
 ---
 title: social-app
-date: 2024-04-16T12:16:39+08:00
+date: 2024-09-02T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1665661494360-bee38eaf0f36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMyNDA5MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723983548529-d6bc1bebdc73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723983548529-d6bc1bebdc73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
 ---
 
 # [bluesky-social/social-app](https://github.com/bluesky-social/social-app)
@@ -20,7 +20,7 @@ Get the app itself:
 
 ## Development Resources
 
-This is a [React Native](https://reactnative.dev/) application, written in the TypeScript programming language. It builds on the `atproto` TypeScript packages (like [`@atproto/api`](https://www.npmjs.com/package/@atproto/api)), code for which is also on open source, but in [a different git repository](https://github.com/bluesky-social/atproto).
+This is a [React Native](https://reactnative.dev/) application, written in the TypeScript programming language. It builds on the `atproto` TypeScript packages (like [`@atproto/api`](https://www.npmjs.com/package/@atproto/api)), code for which is also open source, but in [a different git repository](https://github.com/bluesky-social/atproto).
 
 There is a small amount of Go language source code (in `./bskyweb/`), for a web service that returns the React Native Web application.
 
@@ -52,10 +52,10 @@ The Bluesky Social application encompasses a set of schemas and APIs built in th
 - Open an issue and give some time for discussion before submitting a PR.
 - Stay away from PRs like...
   - Changing "Post" to "Skeet."
-  - Refactoring the codebase, eg to replace mobx with redux or something.
+  - Refactoring the codebase, e.g., to replace MobX with Redux or something.
   - Adding entirely new features without prior discussion. 
 
-Remember, we serve a wide community of users. Our day to day involves us constantly asking "which top priority is our top priority." If you submit well-written PRs that solve problems concisely, that's an awesome contribution. Otherwise, as much as we'd love to accept your ideas and contributions, we really don't have the bandwidth. That's what forking is for!
+Remember, we serve a wide community of users. Our day-to-day involves us constantly asking "which top priority is our top priority." If you submit well-written PRs that solve problems concisely, that's an awesome contribution. Otherwise, as much as we'd love to accept your ideas and contributions, we really don't have the bandwidth. That's what forking is for!
 
 ## Forking guidelines
 
@@ -73,7 +73,7 @@ If you discover any security issues, please send an email to security@bsky.app. 
 
 ## Are you a developer interested in building on atproto?
 
-Bluesky is an open social network built on the AT Protocol, a flexible technology that will never lock developers out of the ecosystems that they help build. With atproto, third-party can be as seamless as first-party through custom feeds, federated services, clients, and more.
+Bluesky is an open social network built on the AT Protocol, a flexible technology that will never lock developers out of the ecosystems that they help build. With atproto, third-party integration can be as seamless as first-party through custom feeds, federated services, clients, and more.
 
 ## License (MIT)
 

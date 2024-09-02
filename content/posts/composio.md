@@ -1,9 +1,9 @@
 ---
 title: composio
-date: 2024-07-23T12:17:28+08:00
+date: 2024-09-02T12:20:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721059050925-2ca8e3cef68e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721059050925-2ca8e3cef68e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721308000535-429e1d8de107?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721308000535-429e1d8de107?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
 ---
 
 # [ComposioHQ/composio](https://github.com/ComposioHQ/composio)
@@ -87,9 +87,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1721059050925-2ca8e3cef6
   - [2. **Setup the OpenAI and Composio Tool Set**:](#2-setup-the-openai-and-composio-tool-set)
   - [3. **Run your script**:](#3-run-your-script)
 - [💡 Examples](#-examples)
-  - [Competitor Researcher](#competitor-researcher)
-  - [Todolist to Calendar](#todolist-to-calendar)
-  - [Github to Trellox](#github-to-trellox)
+  - [Python Examples](#python-examples)
+  - [Javascript Examples](#javascript-examples)
 - [Star History](#star-history)
 - [📋 Read Our Code Of Conduct](#-read-our-code-of-conduct)
 - [🤗 Contributions](#-contributions)
@@ -117,7 +116,7 @@ Composio is the best toolset to integrate AI Agents to best Agentic Tools and us
 
 - **Frameworks**: Use tools with agent frameworks like **OpenAI, Claude, LlamaIndex, Langchain, CrewAI, Autogen, Gemini, Julep, Lyzr**, and more in a single line of code.
 - **Managed Authorisation**: Supports six different auth protocols. _Access Token, Refresh token, OAuth, API Keys, JWT, and more_ abstracted out so you can focus on the building agents.
-- **Accuracy**: Get _upto 40% better agentic accuracy_ in your tool calls due to better tool designs.
+- **Accuracy**: Get _up to 40% better agentic accuracy_ in your tool calls due to better tool designs.
 - **Embeddable**: Whitelabel in the backend of your applications managing Auth & Integrations for all your users & agents and maintain a consistent experience.
 - **Pluggable**: Designed to be extended with additional Tools, Frameworks and Authorisation Protocols very easily.
 
@@ -156,7 +155,7 @@ composio_tool_set = ComposioToolSet()
 
 # Get GitHub tools that are pre-configured
 actions = composio_tool_set.get_actions(
-    actions=[Action.GITHUB_ACTIVITY_STAR_REPO_FOR_AUTHENTICATED_USER]
+    actions=[Action.GITHUB_STAR_A_REPOSITORY_FOR_THE_AUTHENTICATED_USER]
 )
 
 my_task = "Star a repo composiodev/composio on GitHub"
@@ -266,11 +265,11 @@ For more details, refer to the [Composio SDK Documentation](https://docs.composi
 
 ## 💡 Examples
 
-### [Competitor Researcher](https://docs.composio.dev/guides/examples/CompetitorResearcher)
+### [Python Examples](https://docs.composio.dev/guides/python/)
 
-### [Todolist to Calendar](https://docs.composio.dev/guides/examples/todo-to-calendar)
+### [Javascript Examples](https://docs.composio.dev/guides/javascript/)
 
-### [Github to Trellox](https://docs.composio.dev/guides/examples/github-trello)
+
 
 ## Star History
 
