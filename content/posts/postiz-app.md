@@ -1,9 +1,9 @@
 ---
 title: postiz-app
-date: 2024-09-02T12:19:51+08:00
+date: 2024-09-03T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724766609759-6c4c589809d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724766609759-6c4c589809d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722787823392-4bfc6d27ef71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722787823392-4bfc6d27ef71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
@@ -87,6 +87,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1724766609759-6c4c589809
 - Measure your work with analytics.
 - Collaborate with other team members to exchange or buy posts.
 - Invite your team members to collaborate, comment, and schedule posts.
+- At the moment there is no difference between the hosted version to the self-hosted version
 
 ## Tech Stack
 
@@ -94,12 +95,23 @@ featuredImagePreview: https://images.unsplash.com/photo-1724766609759-6c4c589809
 - NextJS (React)
 - NestJS
 - Prisma (Default to PostgreSQL)
-- Redis
+- Redis (BullMQ)
 - Resend (email notifications)
 
 ## Quick Start
-To have the project up and running, please follow the [Quick Start Guide](https://docs.gitroom.com/quickstart)
+To have the project up and running, please follow the [Quick Start Guide](https://docs.postiz.com/quickstart)
+
+##
+
 
 # License
 
 This repository's source code is available under the [Apache 2.0 License](LICENSE).
+
+<br /><br /><br />
+
+<p align="center">
+  <a href="https://www.g2.com/products/postiz/take_survey" target="blank"><img alt="g2" src="https://github.com/user-attachments/assets/892cb74c-0b49-4589-b2f5-fbdbf7a98f66" /></a>
+</p>
+
+

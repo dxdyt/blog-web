@@ -1,9 +1,9 @@
 ---
 title: winlator
-date: 2024-07-09T12:18:13+08:00
+date: 2024-09-03T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718681033400-9b3d71e42b17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718681033400-9b3d71e42b17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722621050464-937f33f1e39d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722621050464-937f33f1e39d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
 ---
 
 # [brunodev85/winlator](https://github.com/brunodev85/winlator)

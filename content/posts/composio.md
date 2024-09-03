@@ -1,13 +1,26 @@
 ---
 title: composio
-date: 2024-09-02T12:20:20+08:00
+date: 2024-09-03T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721308000535-429e1d8de107?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721308000535-429e1d8de107?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724770646663-2a806ed04ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724770646663-2a806ed04ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
 ---
 
 # [ComposioHQ/composio](https://github.com/ComposioHQ/composio)
 
+<p align="center">
+  <a href="https://x.com/GanatraSoham/?utm_campaign=github-readme" target="_blank">
+    <img src="./python/docs/imgs/follow_x.png" width="100%" alt="Follow me" />
+  </a>
+  <br /> <br />
+</p>
+<p align="center">
+  <a href="https://app.composio.dev/?utm_campaign=github-readme" target="_blank">
+    <img src="./python/docs/imgs/try_hosted.png" width="100%" alt="Sign up" />
+  </a>
+
+  <br /> <br />
+</p>
 <p>
   <a href="https://github.com/composiohq/composio/blob/master/README.md">EN</a> | <a href="https://github.com/composiohq/composio/blob/master/README-CN.md">CN</a> | <a href="https://github.com/composiohq/composio/blob/master/README-JP.md">JP</a>
 </p>

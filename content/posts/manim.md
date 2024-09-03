@@ -1,127 +1,150 @@
 ---
 title: manim
-date: 2024-06-13T12:18:59+08:00
+date: 2024-09-03T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717128584253-de3daf336a72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717128584253-de3daf336a72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgyNTIyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723201964235-ea5b99b55d17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723201964235-ea5b99b55d17?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
 ---
 
-# [3b1b/manim](https://github.com/3b1b/manim)
+# [ManimCommunity/manim](https://github.com/ManimCommunity/manim)
 
 <p align="center">
-    <a href="https://github.com/3b1b/manim">
-        <img src="https://raw.githubusercontent.com/3b1b/manim/master/logo/cropped.png">
-    </a>
+    <a href="https://www.manim.community/"><img src="https://raw.githubusercontent.com/ManimCommunity/manim/main/logo/cropped.png"></a>
+    <br />
+    <br />
+    <a href="https://pypi.org/project/manim/"><img src="https://img.shields.io/pypi/v/manim.svg?style=flat&logo=pypi" alt="PyPI Latest Release"></a>
+    <a href="https://hub.docker.com/r/manimcommunity/manim"><img src="https://img.shields.io/docker/v/manimcommunity/manim?color=%23099cec&label=docker%20image&logo=docker" alt="Docker image"> </a>
+    <a href="https://mybinder.org/v2/gh/ManimCommunity/jupyter_examples/HEAD?filepath=basic_example_scenes.ipynb"><img src="https://mybinder.org/badge_logo.svg"></a>
+    <a href="http://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/license-MIT-red.svg?style=flat" alt="MIT License"></a>
+    <a href="https://www.reddit.com/r/manim/"><img src="https://img.shields.io/reddit/subreddit-subscribers/manim.svg?color=orange&label=reddit&logo=reddit" alt="Reddit" href=></a>
+    <a href="https://twitter.com/manim_community/"><img src="https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40manim_community" alt="Twitter">
+    <a href="https://www.manim.community/discord/"><img src="https://img.shields.io/discord/581738731934056449.svg?label=discord&color=yellow&logo=discord" alt="Discord"></a>
+    <a href="https://github.com/psf/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black">
+    <a href="https://docs.manim.community/"><img src="https://readthedocs.org/projects/manimce/badge/?version=latest" alt="Documentation Status"></a>
+    <a href="https://pepy.tech/project/manim"><img src="https://pepy.tech/badge/manim/month?" alt="Downloads"> </a>
+    <img src="https://github.com/ManimCommunity/manim/workflows/CI/badge.svg" alt="CI">
+    <br />
+    <br />
+    <i>An animation engine for explanatory math videos</i>
 </p>
+<hr />
 
-[![pypi version](https://img.shields.io/pypi/v/manimgl?logo=pypi)](https://pypi.org/project/manimgl/)
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://choosealicense.com/licenses/mit/)
-[![Manim Subreddit](https://img.shields.io/reddit/subreddit-subscribers/manim.svg?color=ff4301&label=reddit&logo=reddit)](https://www.reddit.com/r/manim/)
-[![Manim Discord](https://img.shields.io/discord/581738731934056449.svg?label=discord&logo=discord)](https://discord.com/invite/bYCyhM9Kz2)
-[![docs](https://github.com/3b1b/manim/workflows/docs/badge.svg)](https://3b1b.github.io/manim/)
+Manim is an animation engine for explanatory math videos. It's used to create precise animations programmatically, as demonstrated in the videos of [3Blue1Brown](https://www.3blue1brown.com/).
 
-Manim is an engine for precise programmatic animations, designed for creating explanatory math videos.
+> NOTE: This repository is maintained by the Manim Community and is not associated with Grant Sanderson or 3Blue1Brown in any way (although we are definitely indebted to him for providing his work to the world). If you would like to study how Grant makes his videos, head over to his repository ([3b1b/manim](https://github.com/3b1b/manim)). This fork is updated more frequently than his, and it's recommended to use this fork if you'd like to use Manim for your own projects.
 
-Note, there are two versions of manim.  This repository began as a personal project by the author of [3Blue1Brown](https://www.3blue1brown.com/) for the purpose of animating those videos, with video-specific code available [here](https://github.com/3b1b/videos).  In 2020 a group of developers forked it into what is now the [community edition](https://github.com/ManimCommunity/manim/), with a goal of being more stable, better tested, quicker to respond to community contributions, and all around friendlier to get started with. See [this page](https://docs.manim.community/en/stable/faq/installation.html#different-versions) for more details.
+## Table of Contents:
+
+-  [Installation](#installation)
+-  [Usage](#usage)
+-  [Documentation](#documentation)
+-  [Docker](#docker)
+-  [Help with Manim](#help-with-manim)
+-  [Contributing](#contributing)
+-  [License](#license)
 
 ## Installation
-> **WARNING:** These instructions are for ManimGL _only_. Trying to use these instructions to install [ManimCommunity/manim](https://github.com/ManimCommunity/manim) or instructions there to install this version will cause problems. You should first decide which version you wish to install, then only follow the instructions for your desired version.
-> 
-> **Note**: To install manim directly through pip, please pay attention to the name of the installed package. This repository is ManimGL of 3b1b. The package name is `manimgl` instead of `manim` or `manimlib`. Please use `pip install manimgl` to install the version in this repository.
 
-Manim runs on Python 3.7 or higher.
+> **WARNING:** These instructions are for the community version _only_. Trying to use these instructions to install [3b1b/manim](https://github.com/3b1b/manim) or instructions there to install this version will cause problems. Read [this](https://docs.manim.community/en/stable/faq/installation.html#why-are-there-different-versions-of-manim) and decide which version you wish to install, then only follow the instructions for your desired version.
 
-System requirements are [FFmpeg](https://ffmpeg.org/), [OpenGL](https://www.opengl.org/) and [LaTeX](https://www.latex-project.org) (optional, if you want to use LaTeX).
-For Linux, [Pango](https://pango.gnome.org) along with its development headers are required. See instruction [here](https://github.com/ManimCommunity/ManimPango#building).
+Manim requires a few dependencies that must be installed prior to using it. If you
+want to try it out first before installing it locally, you can do so
+[in our online Jupyter environment](https://try.manim.community/).
+
+For local installation, please visit the [Documentation](https://docs.manim.community/en/stable/installation.html)
+and follow the appropriate instructions for your operating system.
+
+## Usage
+
+Manim is an extremely versatile package. The following is an example `Scene` you can construct:
+
+```python
+from manim import *
 
 
-### Directly
+class SquareToCircle(Scene):
+    def construct(self):
+        circle = Circle()
+        square = Square()
+        square.flip(RIGHT)
+        square.rotate(-3 * TAU / 8)
+        circle.set_fill(PINK, opacity=0.5)
 
-```sh
-# Install manimgl
-pip install manimgl
-
-# Try it out
-manimgl
+        self.play(Create(square))
+        self.play(Transform(square, circle))
+        self.play(FadeOut(square))
 ```
 
-For more options, take a look at the [Using manim](#using-manim) sections further below.
-
-If you want to hack on manimlib itself, clone this repository and in that directory execute:
+In order to view the output of this scene, save the code in a file called `example.py`. Then, run the following in a terminal window:
 
 ```sh
-# Install manimgl
-pip install -e .
-
-# Try it out
-manimgl example_scenes.py OpeningManimExample
-# or
-manim-render example_scenes.py OpeningManimExample
+manim -p -ql example.py SquareToCircle
 ```
 
-### Directly (Windows)
+You should see your native video player program pop up and play a simple scene in which a square is transformed into a circle. You may find some more simple examples within this
+[GitHub repository](example_scenes). You can also visit the [official gallery](https://docs.manim.community/en/stable/examples.html) for more advanced examples.
 
-1. [Install FFmpeg](https://www.wikihow.com/Install-FFmpeg-on-Windows).
-2. Install a LaTeX distribution. [MiKTeX](https://miktex.org/download) is recommended.
-3. Install the remaining Python packages.
-    ```sh
-    git clone https://github.com/3b1b/manim.git
-    cd manim
-    pip install -e .
-    manimgl example_scenes.py OpeningManimExample
-    ```
+Manim also ships with a `%%manim` IPython magic which allows to use it conveniently in JupyterLab (as well as classic Jupyter) notebooks. See the
+[corresponding documentation](https://docs.manim.community/en/stable/reference/manim.utils.ipython_magic.ManimMagic.html) for some guidance and
+[try it out online](https://mybinder.org/v2/gh/ManimCommunity/jupyter_examples/HEAD?filepath=basic_example_scenes.ipynb).
 
-### Mac OSX
+## Command line arguments
 
-1. Install FFmpeg, LaTeX in terminal using homebrew.
-    ```sh
-    brew install ffmpeg mactex
-    ```
-   
-2. Install latest version of manim using these command.
-    ```sh
-    git clone https://github.com/3b1b/manim.git
-    cd manim
-    pip install -e .
-    manimgl example_scenes.py OpeningManimExample
-    ```
+The general usage of Manim is as follows:
 
-## Anaconda Install
+![manim-illustration](https://raw.githubusercontent.com/ManimCommunity/manim/main/docs/source/_static/command.png)
 
-1. Install LaTeX as above.
-2. Create a conda environment using `conda create -n manim python=3.8`.
-3. Activate the environment using `conda activate manim`.
-4. Install manimgl using `pip install -e .`.
+The `-p` flag in the command above is for previewing, meaning the video file will automatically open when it is done rendering. The `-ql` flag is for a faster rendering at a lower quality.
 
+Some other useful flags include:
 
-## Using manim
-Try running the following:
-```sh
-manimgl example_scenes.py OpeningManimExample
-```
-This should pop up a window playing a simple scene.
+-  `-s` to skip to the end and just show the final frame.
+-  `-n <number>` to skip ahead to the `n`'th animation of a scene.
+-  `-f` show the file in the file browser.
 
-Some useful flags include:
-* `-w` to write the scene to a file
-* `-o` to write the scene to a file and open the result
-* `-s` to skip to the end and just show the final frame.
-    * `-so` will save the final frame to an image and show it
-* `-n <number>` to skip ahead to the `n`'th animation of a scene.
-* `-f` to make the playback window fullscreen
+For a thorough list of command line arguments, visit the [documentation](https://docs.manim.community/en/stable/guides/configuration.html).
 
-Take a look at custom_config.yml for further configuration.  To add your customization, you can either edit this file, or add another file by the same name "custom_config.yml" to whatever directory you are running manim from.  For example [this is the one](https://github.com/3b1b/videos/blob/master/custom_config.yml) for 3blue1brown videos.  There you can specify where videos should be output to, where manim should look for image files and sounds you want to read in, and other defaults regarding style and video quality.
+## Documentation
 
-Look through the [example scenes](https://3b1b.github.io/manim/getting_started/example_scenes.html) to get a sense of how it is used, and feel free to look through the code behind [3blue1brown videos](https://github.com/3b1b/videos) for a much larger set of example. Note, however, that developments are often made to the library without considering backwards compatibility with those old videos. To run an old project with a guarantee that it will work, you will have to go back to the commit which completed that project.
+Documentation is in progress at [ReadTheDocs](https://docs.manim.community/).
 
-### Documentation
-Documentation is in progress at [3b1b.github.io/manim](https://3b1b.github.io/manim/). And there is also a Chinese version maintained by [**@manim-kindergarten**](https://manim.org.cn): [docs.manim.org.cn](https://docs.manim.org.cn/) (in Chinese).
+## Docker
 
-[manim-kindergarten](https://github.com/manim-kindergarten/) wrote and collected some useful extra classes and some codes of videos in [manim_sandbox repo](https://github.com/manim-kindergarten/manim_sandbox).
+The community also maintains a docker image (`manimcommunity/manim`), which can be found [on DockerHub](https://hub.docker.com/r/manimcommunity/manim).
+Instructions on how to install and use it can be found in our [documentation](https://docs.manim.community/en/stable/installation/docker.html).
 
+## Help with Manim
+
+If you need help installing or using Manim, feel free to reach out to our [Discord
+Server](https://www.manim.community/discord/) or [Reddit Community](https://www.reddit.com/r/manim). If you would like to submit a bug report or feature request, please open an issue.
 
 ## Contributing
-Is always welcome.  As mentioned above, the [community edition](https://github.com/ManimCommunity/manim) has the most active ecosystem for contributions, with testing and continuous integration, but pull requests are welcome here too.  Please explain the motivation for a given change and examples of its effect.
 
+Contributions to Manim are always welcome. In particular, there is a dire need for tests and documentation. For contribution guidelines, please see the [documentation](https://docs.manim.community/en/stable/contributing.html).
+
+However, please note that Manim is currently undergoing a major refactor. In general,
+contributions implementing new features will not be accepted in this period.
+The contribution guide may become outdated quickly; we highly recommend joining our
+[Discord server](https://www.manim.community/discord/) to discuss any potential
+contributions and keep up to date with the latest developments.
+
+Most developers on the project use `poetry` for management. You'll want to have poetry installed and available in your environment.
+Learn more about `poetry` at its [documentation](https://python-poetry.org/docs/) and find out how to install manim with poetry at the [manim dev-installation guide](https://docs.manim.community/en/stable/contributing/development.html) in the manim documentation.
+
+## How to Cite Manim
+
+We acknowledge the importance of good software to support research, and we note
+that research becomes more valuable when it is communicated effectively. To
+demonstrate the value of Manim, we ask that you cite Manim in your work.
+Currently, the best way to cite Manim is to go to our
+[repository page](https://github.com/ManimCommunity/manim) (if you aren't already) and
+click the "cite this repository" button on the right sidebar. This will generate
+a citation in your preferred format, and will also integrate well with citation managers.
+
+## Code of Conduct
+
+Our full code of conduct, and how we enforce it, can be read on [our website](https://docs.manim.community/en/stable/conduct.html).
 
 ## License
-This project falls under the MIT license.
+
+The software is double-licensed under the MIT license, with copyright by 3blue1brown LLC (see LICENSE), and copyright by Manim Community Developers (see LICENSE.community).

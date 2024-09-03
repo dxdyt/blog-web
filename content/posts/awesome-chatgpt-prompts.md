@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts
-date: 2024-09-01T12:21:20+08:00
+date: 2024-09-03T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722238584402-c736306f2362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722238584402-c736306f2362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUxNjQzNjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725203574074-a33eae85ba71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725203574074-a33eae85ba71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
 ---
 
 # [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
