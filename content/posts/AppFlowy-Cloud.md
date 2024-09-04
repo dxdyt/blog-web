@@ -1,9 +1,9 @@
 ---
 title: AppFlowy-Cloud
-date: 2024-09-02T12:21:07+08:00
+date: 2024-09-04T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724579243894-6a8c9bbfe88c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724579243894-6a8c9bbfe88c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722349672354-6d3b4504b197?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722349672354-6d3b4504b197?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
 ---
 
 # [AppFlowy-IO/AppFlowy-Cloud](https://github.com/AppFlowy-IO/AppFlowy-Cloud)

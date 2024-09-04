@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts
-date: 2024-09-03T12:18:58+08:00
+date: 2024-09-04T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725203574074-a33eae85ba71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725203574074-a33eae85ba71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721999610570-6b6ed05447c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721999610570-6b6ed05447c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
 ---
 
 # [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
@@ -12,7 +12,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1725203574074-a33eae85ba
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-**[Be my sponsor and your logo will be here and prompts.chat!](https://github.com/sponsors/f/sponsorships?sponsor=f&tier_id=319423)**
+
+<h2 align="center">Sponsors</h2>
+
+<p align="center">
+  <a href="https://hf.co/chat" align="center" target="_blank">
+    <img height="60" alt="Hugging Face logo" src="https://github.com/user-attachments/assets/4187ef06-7cae-402a-a410-e0a999758fed">
+  </a>
+  <br>
+  <sub><a href="https://github.com/sponsors/f/sponsorships?sponsor=f&amp;tier_id=319423">Be my sponsor and your logo will be here and prompts.chat!</a></sub>
+</p>
 
 ---
 
@@ -41,8 +50,6 @@ Explore a wide range of GPTs, from those optimized for specific programming lang
 Dive into the world of customized conversational AI models and enrich your projects with cutting-edge technology. Visit the Awesome ChatGPT Store now at [Awesome ChatGPT Store](https://github.com/devisasari/awesome-chatgpt-store) and start exploring the possibilities!
 
 ---
-
-**Download ChatGPT Desktop App**: **[macOS](https://github.com/lencx/ChatGPT/releases/download/v0.10.1/ChatGPT_0.10.1_x64.dmg)** / **[Windows](https://github.com/lencx/ChatGPT/releases/download/v0.10.1/ChatGPT_0.10.1_x64_en-US.msi)** / **[Linux](https://github.com/lencx/ChatGPT/releases/download/v0.10.1/chat-gpt_0.10.1_amd64.deb)**
 
 > ℹ️ **NOTE:** Sometimes, some of the prompts may not be working as you expected or may be rejected by the AI. Please try again, start a new thread, or log out and log back in. If these solutions do not work, please try rewriting the prompt using your own sentences while keeping the instructions same.
 
@@ -76,16 +83,6 @@ I've authored an e-book called **"The Art of Midjourney AI: A Guide to Creating 
 
 ---
 
-### Using ChatGPT Desktop App
-
-The _unofficial_ ChatGPT desktop application provides a convenient way to access and use the prompts in this repository. With the app, you can easily import all the prompts and use them with slash commands, such as `/linux_terminal`. This feature eliminates the need to manually copy and paste prompts each time you want to use them.
-
-> **Desktop App is an unofficial [open source project by @lencx](https://github.com/lencx/ChatGPT). It's a simple wrapper for ChatGPT web interface with powerful extras.**
-
-<img width="400" alt="Screenshot 2022-12-19 at 19 13 41" src="https://user-images.githubusercontent.com/196477/208471439-877c2bcf-93ec-4ad9-9cb0-7e4ed7b1756a.png">
-
----
-
 ### Create your own prompt using AI
 
 [Merve Noyan](https://huggingface.co/merve) created an exceptional [ChatGPT Prompt Generator App](https://huggingface.co/spaces/merve/ChatGPT-prompt-generator), allowing users to generate prompts tailored to their desired persona. The app uses this repository as its training dataset.
@@ -100,13 +97,19 @@ The _unofficial_ ChatGPT desktop application provides a convenient way to access
 
 ---
 
-## Dark Mode Implementation
+## Dark Mode (on https://prompts.chat)
 
 We have implemented a dark mode for this repository to enhance your reading experience. The dark mode is implemented using CSS variables and a toggle button. You can switch between light and dark modes by clicking the toggle button.
 
 ## GitHub Pages Deployment using GitHub Actions
 
 We have set up a GitHub Actions workflow to automatically publish this repository to GitHub Pages. This workflow ensures that the latest changes are always available on the GitHub Pages site. You can find the workflow configuration in the `.github/workflows/publish.yml` file.
+
+## Unmerged Prompts
+
+There are many Pull Requests to this repository waiting to be merged. There are many hidden gems there. Take a look!
+
+📖 **[View Unmerged Prompts](https://github.com/f/awesome-chatgpt-prompts/pulls)**
 
 # Prompts
 

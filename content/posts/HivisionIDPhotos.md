@@ -1,9 +1,9 @@
 ---
 title: HivisionIDPhotos
-date: 2024-09-03T12:20:11+08:00
+date: 2024-09-04T12:18:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721925376073-4d2c53dd12f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721925376073-4d2c53dd12f2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723764430241-3d20a78d9d77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723764430241-3d20a78d9d77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
 ---
 
 # [Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos)
@@ -11,14 +11,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1721925376073-4d2c53dd12
 <div align="center">
 <h1>HivisionIDPhoto</h1>
 
-[English](README_EN.md) / 中文 / [日本語](README_JP.md)
+[English](README_EN.md) / 中文 / [日本語](README_JP.md) / [한국어](README_KO.md)
 
 [![GitHub](https://img.shields.io/static/v1?label=GitHub&message=GitHub&color=black)](https://github.com/xiaolin199912/HivisionIDPhotos)
 [![SwanHub Demo](https://swanhub.co/git/repo/SwanHub%2FAuto-README/file/preview?ref=main&path=swanhub.svg)](https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo)
 [![zhihu](https://img.shields.io/static/v1?label=知乎&message=知乎&color=blue)](https://zhuanlan.zhihu.com/p/638254028)
 [![Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/TheEeeeLin/HivisionIDPhotos)
 
+<a href="https://trendshift.io/repositories/11622" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11622" alt="Zeyi-Lin%2FHivisionIDPhotos | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 <img src="assets/demoImage.png" width=900>
+
 </div>
 
 <br>
@@ -31,7 +34,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1721925376073-4d2c53dd12
 
 # 🤩 项目更新
 
-- 在线体验： [![SwanHub Demo](https://img.shields.io/static/v1?label=Demo&message=SwanHub%20Demo&color=blue)](https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo)
+- 在线体验： [![SwanHub Demo](https://img.shields.io/static/v1?label=Demo&message=SwanHub%20Demo&color=blue)](https://swanhub.co/ZeYiLin/HivisionIDPhotos/demo)、[![Spaces](https://img.shields.io/badge/🤗-Open%20in%20Spaces-blue)](https://huggingface.co/spaces/TheEeeeLin/HivisionIDPhotos)
 - 2024.9.2: 更新**调整照片 KB 大小**
 - 2023.12.1: 更新**API 部署（基于 fastapi）**
 - 2023.6.20: 更新**预设尺寸菜单**
@@ -89,7 +92,7 @@ pip install -r requirements.txt
 
 **3. 下载权重文件**
 
-在我们的[Release](https://github.com/Zeyi-Lin/HivisionIDPhotos/releases/tag/pretrained-model)下载权重文件`hivision_modnet.onnx`，存到根目录下。
+在我们的[Release](https://github.com/Zeyi-Lin/HivisionIDPhotos/releases/tag/pretrained-model)下载权重文件`hivision_modnet.onnx` (24.7MB)，存到根目录下。
 
 <br>
 
@@ -105,11 +108,15 @@ python app.py
 
 # ⚡️ 部署 API 服务
 
+API 文档：[Python](docs/python_api_CN.md) | RestAPI（waiting）
+
+**启动后端**
+
 ```
 python deploy_api.py
 ```
 
-**请求 API 服务（Python）**
+**请求 API 服务 - Python**
 
 用 Python 给服务发送请求：
 
