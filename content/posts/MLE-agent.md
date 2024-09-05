@@ -1,9 +1,9 @@
 ---
 title: MLE-agent
-date: 2024-09-03T12:19:16+08:00
+date: 2024-09-05T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722787823392-4bfc6d27ef71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722787823392-4bfc6d27ef71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721297013317-e4976cc284d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721297013317-e4976cc284d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [MLSysOps/MLE-agent](https://github.com/MLSysOps/MLE-agent)
@@ -11,6 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1722787823392-4bfc6d27ef
 <div align="center">
 <h1 align="center">MLE-Agent: Your intelligent companion for seamless AI engineering and research.</h1>
 <img alt="kaia-llama" height="200px" src="assets/kaia_llama.webp">
+<a href="https://trendshift.io/repositories/11658" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11658" alt="MLSysOps%2FMLE-agent | Trendshift" style="width: 250px; height: 200px;" width="250" height="200px"/></a>
 <p align="center">:love_letter: Fathers' love for Kaia :love_letter:</p>
 
 ![](https://github.com/MLSysOps/MLE-agent/actions/workflows/lint.yml/badge.svg) 

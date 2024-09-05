@@ -1,9 +1,9 @@
 ---
 title: bulletproof-react
-date: 2024-05-20T12:17:33+08:00
+date: 2024-09-05T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714837311766-eac4e92f284c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714837311766-eac4e92f284c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYxNzg2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721297013317-e4976cc284d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721297013317-e4976cc284d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react)
@@ -34,9 +34,9 @@ This repo doesn't aim to be a silver bullet for all React applications as there 
 - Uses the right tools for the job
 - Clean boundaries between different parts of the application
 - Everyone on the team is on the same page when it comes to how things are done
-- Security
-- Performance
-- Scalability in terms of codebase and team size
+- Secure
+- Performant
+- Scalable in terms of codebase and team size
 - Issues detectable as early as possible
 
 #### Disclaimer:
@@ -66,9 +66,10 @@ Contributions are always welcome! If you have any ideas, suggestions, fixes, fee
 
 1. Clone this repo
 2. Create a branch: `git checkout -b your-feature`
-3. Make some changes
-4. Test your changes
-5. Push your branch and open a Pull Request
+3. Execute the `yarn prepare` script.
+4. Make some changes
+5. Test your changes
+6. Push your branch and open a Pull Request
 
 ## License
 
