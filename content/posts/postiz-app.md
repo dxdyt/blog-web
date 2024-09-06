@@ -1,16 +1,16 @@
 ---
 title: postiz-app
-date: 2024-09-05T12:19:06+08:00
+date: 2024-09-06T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722808333348-1b61caa91203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722808333348-1b61caa91203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722698508879-7456d50d5cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722698508879-7456d50d5cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
 
 
 <p align="center">
-  <a href="https://x.com/nevodavid" target="_blank">
+  <a href="https://x.com/intent/follow?screen_name=nevodavid" target="_blank">
     <img alt="Follow me" src="https://github.com/user-attachments/assets/1562c93f-95c6-4307-8a85-e62003e26348" />
   </a>
   <br /><br />

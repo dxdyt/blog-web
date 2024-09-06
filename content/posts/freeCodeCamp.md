@@ -1,9 +1,9 @@
 ---
 title: freeCodeCamp
-date: 2024-08-08T12:20:41+08:00
+date: 2024-09-06T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719743581496-b49b52756d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719743581496-b49b52756d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwOTA3ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722966689319-a2f588e13141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722966689319-a2f588e13141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
 ---
 
 # [freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp)

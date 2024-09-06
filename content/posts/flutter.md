@@ -1,9 +1,9 @@
 ---
 title: flutter
-date: 2024-07-14T12:21:28+08:00
+date: 2024-09-06T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720006300213-9a18c917d0bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720006300213-9a18c917d0bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA5MzA3NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724098035045-bed5b03fa7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724098035045-bed5b03fa7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
 ---
 
 # [flutter/flutter](https://github.com/flutter/flutter)
@@ -22,7 +22,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1720006300213-9a18c917d0
 [![Twitter handle][]][Twitter badge]
 [![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/flutter/flutter/badge)](https://deps.dev/project/github/flutter%2Fflutter)
 [![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
 
 Flutter is Google's SDK for crafting beautiful, fast user experiences for
