@@ -1,9 +1,9 @@
 ---
 title: arrow
-date: 2023-08-03T12:17:02+08:00
+date: 2024-09-07T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688765938914-640925a67a3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688765938914-640925a67a3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTEwMzYwODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723104170735-85afed12d3ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723104170735-85afed12d3ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
 ---
 
 # [apache/arrow](https://github.com/apache/arrow)
@@ -109,4 +109,4 @@ integrations in other projects, we'd be happy to have you involved:
 [2]: https://github.com/apache/arrow/tree/main/format
 [3]: https://github.com/apache/arrow/issues
 [4]: https://github.com/apache/arrow
-[5]: https://arrow.apache.org/docs/dev/developers/contributing.html
+[5]: https://arrow.apache.org/docs/dev/developers/index.html

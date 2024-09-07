@@ -1,9 +1,9 @@
 ---
 title: python-docs-samples
-date: 2024-09-06T12:18:51+08:00
+date: 2024-09-07T12:20:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723675747885-84f60ccc4db8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723675747885-84f60ccc4db8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723886738851-db052605153b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723886738851-db052605153b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
 ---
 
 # [GoogleCloudPlatform/python-docs-samples](https://github.com/GoogleCloudPlatform/python-docs-samples)
