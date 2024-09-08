@@ -1,9 +1,9 @@
 ---
 title: quill
-date: 2024-09-06T12:19:05+08:00
+date: 2024-09-08T12:18:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723958929247-ef054b525153?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723958929247-ef054b525153?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723125742314-22a9028e0096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723125742314-22a9028e0096?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
 ---
 
 # [odygrd/quill](https://github.com/odygrd/quill)
@@ -84,7 +84,7 @@ applications where every microsecond counts.
 - **Extensive Documentation**: Comprehensive guides and examples available.
 - **Community-Driven**: Open to contributions, feedback, and feature requests.
 
-Try it on [Compiler Explorer](https://godbolt.org/z/v1oa7Y3dY)
+Try it on [Compiler Explorer](https://godbolt.org/z/81srfYr64)
 
 ## ⏩ Quick Start
 

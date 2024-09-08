@@ -1,9 +1,9 @@
 ---
 title: anything-llm
-date: 2024-05-14T12:18:14+08:00
+date: 2024-09-08T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714579328738-c882ca3d7fdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7fdc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722963220475-979db2dbf216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722963220475-979db2dbf216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
 ---
 
 # [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7f
 <a name="readme-top"></a>
 
 <p align="center">
-  <a href="https://useanything.com"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/images/wordmark.png?raw=true" alt="AnythingLLM logo"></a>
+  <a href="https://anythingllm.com"><img src="https://github.com/Mintplex-Labs/anything-llm/blob/master/images/wordmark.png?raw=true" alt="AnythingLLM logo"></a>
 </p>
 
 <div align='center'>
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7f
 
 <p align="center">
     <b>AnythingLLM:</b> The all-in-one AI app you were looking for.<br />
-    Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no fustrating set up required.
+    Chat with your docs, use AI Agents, hyper-configurable, multi-user, & no frustrating set up required.
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7f
   <a href="https://github.com/Mintplex-Labs/anything-llm/blob/master/LICENSE" target="_blank">
       <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=white" alt="License">
   </a> |
-  <a href="https://docs.useanything.com" target="_blank">
+  <a href="https://docs.anythingllm.com" target="_blank">
     Docs
   </a> |
    <a href="https://my.mintplexlabs.com/aio-checkout?product=anythingllm" target="_blank">
@@ -39,11 +39,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1714579328738-c882ca3d7f
 </p>
 
 <p align="center">
-  <b>English</b> · <a href='/README.zh-CN.md'>简体中文</a>
+  <b>English</b> · <a href='./locales/README.zh-CN.md'>简体中文</a> · <a href='./locales/README.ja-JP.md'>日本語</a>
 </p>
 
 <p align="center">
-👉 AnythingLLM for desktop (Mac, Windows, & Linux)! <a href="https://useanything.com/download" target="_blank"> Download Now</a>
+👉 AnythingLLM for desktop (Mac, Windows, & Linux)! <a href="https://anythingllm.com/download" target="_blank"> Download Now</a>
 </p>
 
 A full-stack application that enables you to turn any document, resource, or piece of content into context that any LLM can use as references during chatting. This application allows you to pick and choose which LLM or Vector Database you want to use as well as supporting multi-user management and permissions.
@@ -63,28 +63,29 @@ AnythingLLM is a full-stack application where you can use commercial off-the-she
 
 AnythingLLM divides your documents into objects called `workspaces`. A Workspace functions a lot like a thread, but with the addition of containerization of your documents. Workspaces can share documents, but they do not talk to each other so you can keep your context for each workspace clean.
 
-Some cool features of AnythingLLM
+## Cool features of AnythingLLM
 
-- **Multi-user instance support and permissioning**
-- Agents inside your workspace (browse the web, run code, etc)
-- [Custom Embeddable Chat widget for your website](./embed/README.md)
-- Multiple document type support (PDF, TXT, DOCX, etc)
-- Manage documents in your vector database from a simple UI
-- Two chat modes `conversation` and `query`. Conversation retains previous questions and amendments. Query is simple QA against your documents
-- In-chat citations
+- 🆕 **Multi-modal support (both closed and open-source LLMs!)**
+- 👤 Multi-user instance support and permissioning _Docker version only_
+- 🦾 Agents inside your workspace (browse the web, run code, etc)
+- 💬 [Custom Embeddable Chat widget for your website](./embed/README.md) _Docker version only_
+- 📖 Multiple document type support (PDF, TXT, DOCX, etc)
+- Simple chat UI with Drag-n-Drop funcitonality and clear citations.
 - 100% Cloud deployment ready.
-- "Bring your own LLM" model.
-- Extremely efficient cost-saving measures for managing very large documents. You'll never pay to embed a massive document or transcript more than once. 90% more cost effective than other document chatbot solutions.
+- Works with all popular [closed and open-source LLM providers](#supported-llms-embedder-models-speech-models-and-vector-databases).
+- Built-in cost & time-saving measures for managing very large documents compared to any other chat UI.
 - Full Developer API for custom integrations!
+- Much more...install and find out!
 
-### Supported LLMs, Embedders, Transcriptions models, and Vector Databases
+### Supported LLMs, Embedder Models, Speech models, and Vector Databases
 
-**Supported LLMs:**
+**Large Language Models (LLMs):**
 
 - [Any open-source llama.cpp compatible model](/server/storage/models/README.md#text-generation-llm-selection)
 - [OpenAI](https://openai.com)
 - [OpenAI (Generic)](https://openai.com)
 - [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+- [AWS Bedrock](https://aws.amazon.com/bedrock/)
 - [Anthropic](https://www.anthropic.com/)
 - [Google Gemini Pro](https://ai.google.dev/)
 - [Hugging Face (chat models)](https://huggingface.co/)
@@ -98,9 +99,10 @@ Some cool features of AnythingLLM
 - [Groq](https://groq.com/)
 - [Cohere](https://cohere.com/)
 - [KoboldCPP](https://github.com/LostRuins/koboldcpp)
+- [LiteLLM](https://github.com/BerriAI/litellm)
 - [Text Generation Web UI](https://github.com/oobabooga/text-generation-webui)
 
-**Supported Embedding models:**
+**Embedder models:**
 
 - [AnythingLLM Native Embedder](/server/storage/models/README.md) (default)
 - [OpenAI](https://openai.com)
@@ -110,19 +112,30 @@ Some cool features of AnythingLLM
 - [LM Studio (all)](https://lmstudio.ai)
 - [Cohere](https://cohere.com/)
 
-**Supported Transcription models:**
+**Audio Transcription models:**
 
 - [AnythingLLM Built-in](https://github.com/Mintplex-Labs/anything-llm/tree/master/server/storage/models#audiovideo-transcription) (default)
 - [OpenAI](https://openai.com/)
 
-**Supported Vector Databases:**
+**TTS (text-to-speech) support:**
+
+- Native Browser Built-in (default)
+- [PiperTTSLocal - runs in browser](https://github.com/rhasspy/piper)
+- [OpenAI TTS](https://platform.openai.com/docs/guides/text-to-speech/voice-options)
+- [ElevenLabs](https://elevenlabs.io/)
+
+**STT (speech-to-text) support:**
+
+- Native Browser Built-in (default)
+
+**Vector Databases:**
 
 - [LanceDB](https://github.com/lancedb/lancedb) (default)
 - [Astra DB](https://www.datastax.com/products/datastax-astra)
 - [Pinecone](https://pinecone.io)
 - [Chroma](https://trychroma.com)
 - [Weaviate](https://weaviate.io)
-- [QDrant](https://qdrant.tech)
+- [Qdrant](https://qdrant.tech)
 - [Milvus](https://milvus.io)
 - [Zilliz](https://zilliz.com)
 
@@ -132,8 +145,10 @@ This monorepo consists of three main sections:
 
 - `frontend`: A viteJS + React frontend that you can run to easily create and manage all your content the LLM can use.
 - `server`: A NodeJS express server to handle all the interactions and do all the vectorDB management and LLM interactions.
-- `docker`: Docker instructions and build process + information for building from source.
 - `collector`: NodeJS express server that process and parses documents from the UI.
+- `docker`: Docker instructions and build process + information for building from source.
+- `embed`: Submodule for generation & creation of the [web embed widget](https://github.com/Mintplex-Labs/anythingllm-embed).
+- `browser-extension`: Submodule for the [chrome browser extension](https://github.com/Mintplex-Labs/anythingllm-extension).
 
 ## 🛳 Self Hosting
 
@@ -142,9 +157,9 @@ Mintplex Labs & the community maintain a number of deployment methods, scripts, 
 |----------------------------------------|----:|-----|---------------|------------|
 | [![Deploy on Docker][docker-btn]][docker-deploy] | [![Deploy on AWS][aws-btn]][aws-deploy] | [![Deploy on GCP][gcp-btn]][gcp-deploy] | [![Deploy on DigitalOcean][do-btn]][do-deploy] | [![Deploy on Render.com][render-btn]][render-deploy] |
 
-| Railway                                             |
-| --------------------------------------------------- |
-| [![Deploy on Railway][railway-btn]][railway-deploy] |
+| Railway  |  RepoCloud | Elestio |
+| --- | --- | --- |
+| [![Deploy on Railway][railway-btn]][railway-deploy] | [![Deploy on RepoCloud][repocloud-btn]][repocloud-deploy] | [![Deploy on Elestio][elestio-btn]][elestio-deploy] |
 
 [or set up a production AnythingLLM instance without Docker →](./BARE_METAL.md)
 
@@ -159,12 +174,6 @@ Mintplex Labs & the community maintain a number of deployment methods, scripts, 
 [Learn about documents](./server/storage/documents/DOCUMENTS.md)
 
 [Learn about vector caching](./server/storage/vector-cache/VECTOR_CACHE.md)
-
-## Contributing
-
-- create issue
-- create PR with branch name format of `<issue number>-<short name>`
-- yee haw let's merge
 
 ## Telemetry & Privacy
 
@@ -196,6 +205,19 @@ You can verify these claims by finding all locations `Telemetry.sendTelemetry` i
 [View all telemetry events in source code](https://github.com/search?q=repo%3AMintplex-Labs%2Fanything-llm%20.sendTelemetry\(&type=code)
 
 </details>
+
+
+## 👋 Contributing
+
+- create issue
+- create PR with branch name format of `<issue number>-<short name>`
+- LGTM from core-team
+
+## 🌟 Contributors
+
+[![anythingllm contributors](https://contrib.rocks/image?repo=mintplex-labs/anything-llm)](https://github.com/mintplex-labs/anything-llm/graphs/contributors)
+
+[![Star History Chart](https://api.star-history.com/svg?repos=mintplex-labs/anything-llm&type=Timeline)](https://star-history.com/#mintplex-labs/anything-llm&Date)
 
 ## 🔗 More Products
 
@@ -233,3 +255,7 @@ This project is [MIT](./LICENSE) licensed.
 [render-deploy]: https://render.com/deploy?repo=https://github.com/Mintplex-Labs/anything-llm&branch=render
 [railway-btn]: https://railway.app/button.svg
 [railway-deploy]: https://railway.app/template/HNSCS1?referralCode=WFgJkn
+[repocloud-btn]: https://d16t0pc4846x52.cloudfront.net/deploylobe.svg
+[repocloud-deploy]: https://repocloud.io/details/?app_id=276
+[elestio-btn]: https://elest.io/images/logos/deploy-to-elestio-btn.png
+[elestio-deploy]: https://elest.io/open-source/anythingllm

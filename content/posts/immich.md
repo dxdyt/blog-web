@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2024-07-23T12:18:01+08:00
+date: 2024-09-08T12:18:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721059050925-2ca8e3cef68e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721059050925-2ca8e3cef68e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724688045438-a1b9f095dc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724688045438-a1b9f095dc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -102,7 +102,7 @@ For the mobile app, you can use `https://demo.immich.app/api` for the `Server En
 | LivePhoto/MotionPhoto backup and playback    | Yes    | Yes |
 | Support 360 degree image display             | No     | Yes |
 | User-defined storage structure               | Yes    | Yes |
-| Public Sharing                               | No     | Yes |
+| Public Sharing                               | Yes    | Yes |
 | Archive and Favorites                        | Yes    | Yes |
 | Global Map                                   | Yes    | Yes |
 | Partner Sharing                              | Yes    | Yes |
