@@ -1,9 +1,9 @@
 ---
 title: Cataclysm-DDA
-date: 2024-06-24T12:18:03+08:00
+date: 2024-09-09T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716983541742-1a2bb3d2b5b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716983541742-1a2bb3d2b5b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
 ---
 
 # [CleverRaven/Cataclysm-DDA](https://github.com/CleverRaven/Cataclysm-DDA)
@@ -52,6 +52,10 @@ Ncurses and tiles versions are available in the [official repos](https://src.fed
 Ncurses and tiles versions are available in the [official repos](https://tracker.debian.org/pkg/cataclysm-dda).
 
 `sudo apt install cataclysm-dda-curses cataclysm-dda-sdl`
+
+#### Flathub
+
+[Download from Flathub](https://flathub.org/apps/org.cataclysmdda.CataclysmDDA)
 
 ## Compile
 

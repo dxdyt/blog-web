@@ -1,9 +1,9 @@
 ---
 title: alist
-date: 2024-07-24T12:17:57+08:00
+date: 2024-09-09T12:20:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719805716024-3ed09a2713a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719805716024-3ed09a2713a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724931498964-a1f392ba9ace?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724931498964-a1f392ba9ace?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
 ---
 
 # [alist-org/alist](https://github.com/alist-org/alist)
@@ -127,7 +127,7 @@ https://alist.nn.ci/guide/sponsor.html
 
 - [VidHub](https://apps.apple.com/app/apple-store/id1659622164?pt=118612019&ct=alist&mt=8) - An elegant cloud video player within the Apple ecosystem. Support for iPhone, iPad, Mac, and Apple TV.
 - [亚洲云](https://www.asiayun.com/aff/QQCOOQKZ) - 高防服务器|服务器租用|福州高防|广东电信|香港服务器|美国服务器|海外服务器 - 国内靠谱的企业级云计算服务提供商 (sponsored Chinese API server)
-- [找资源](https://zhaoziyuan.pw/) - 阿里云盘资源搜索引擎
+- [找资源](http://zhaoziyuan2.cc/) - 阿里云盘资源搜索引擎
 
 ## Contributors
 

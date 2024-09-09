@@ -1,9 +1,9 @@
 ---
 title: bitcoin
-date: 2024-06-07T12:18:44+08:00
+date: 2024-09-09T12:18:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714890038412-a85c47641d78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc3MzM4NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714890038412-a85c47641d78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc3MzM4NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723750592003-9603e5c6170a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723750592003-9603e5c6170a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
 ---
 
 # [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)
@@ -58,7 +58,7 @@ lots of money.
 
 Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
 submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`. Further details on running
+(assuming they weren't disabled during the generation of the build system) with: `ctest`. Further details on running
 and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
 
 There are also [regression and integration tests](/test), written

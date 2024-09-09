@@ -1,9 +1,9 @@
 ---
 title: appsmith
-date: 2024-09-08T12:19:39+08:00
+date: 2024-09-09T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724454920878-a4cba430db4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724454920878-a4cba430db4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722698508879-7456d50d5cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722698508879-7456d50d5cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
 ---
 
 # [appsmithorg/appsmith](https://github.com/appsmithorg/appsmith)

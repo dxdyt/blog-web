@@ -1,16 +1,16 @@
 ---
 title: rustdesk
-date: 2024-08-16T12:18:56+08:00
+date: 2024-09-09T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722620113962-56f7c216cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722620113962-56f7c216cdae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
 ---
 
 # [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk)
 
 <p align="center">
   <img src="res/logo-header.svg" alt="RustDesk - Your remote desktop"><br>
-  <a href="#free-public-servers">Servers</a> •
+  <a href="#public-servers">Servers</a> •
   <a href="#raw-steps-to-build">Build</a> •
   <a href="#how-to-build-with-docker">Docker</a> •
   <a href="#file-structure">Structure</a> •
@@ -181,3 +181,7 @@ Please ensure that you are running these commands from the root of the RustDesk 
 ![File Transfer](https://github.com/rustdesk/rustdesk/assets/28412477/39511ad3-aa9a-4f8c-8947-1cce286a46ad)
 
 ![TCP Tunneling](https://github.com/rustdesk/rustdesk/assets/28412477/78e8708f-e87e-4570-8373-1360033ea6c5)
+
+## [Public Servers](#public-servers)
+
+RustDesk is supported by a free EU server, graciously provided by [Codext GmbH](https://codext.link/rustdesk?utm_source=github)

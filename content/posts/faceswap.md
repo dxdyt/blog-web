@@ -1,9 +1,9 @@
 ---
 title: faceswap
-date: 2024-09-07T12:19:57+08:00
+date: 2024-09-09T12:20:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722205165567-1c0f8221f7ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722205165567-1c0f8221f7ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723714807771-23b5447e2f65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723714807771-23b5447e2f65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
 ---
 
 # [deepfakes/faceswap](https://github.com/deepfakes/faceswap)
