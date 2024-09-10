@@ -1,9 +1,9 @@
 ---
 title: Hi.Events
-date: 2024-09-09T12:19:38+08:00
+date: 2024-09-10T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722956467257-37e6e527503e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723910332316-463af386e82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723910332316-463af386e82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [HiEventsDev/Hi.Events](https://github.com/HiEventsDev/Hi.Events)

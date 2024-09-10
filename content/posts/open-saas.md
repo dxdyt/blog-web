@@ -1,9 +1,9 @@
 ---
 title: open-saas
-date: 2024-07-29T12:19:04+08:00
+date: 2024-09-10T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709406158154-83d674d019a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709406158154-83d674d019a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIyMjY2NDZ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1722897350308-86c223f889b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1722897350308-86c223f889b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [wasp-lang/open-saas](https://github.com/wasp-lang/open-saas)
