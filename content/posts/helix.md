@@ -1,9 +1,9 @@
 ---
 title: helix
-date: 2024-07-16T12:19:19+08:00
+date: 2024-09-11T12:21:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717989606068-6c795e6bcef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717989606068-6c795e6bcef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExMDM0NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709321954258-698bea8a21e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709321954258-698bea8a21e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
 ---
 
 # [helix-editor/helix](https://github.com/helix-editor/helix)

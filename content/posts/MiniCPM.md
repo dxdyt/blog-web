@@ -1,9 +1,9 @@
 ---
 title: MiniCPM
-date: 2024-09-09T12:19:30+08:00
+date: 2024-09-11T12:20:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723263573579-d8ac56a39aae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723263573579-d8ac56a39aae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722407767379-9e8a15e098a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722407767379-9e8a15e098a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM)
@@ -434,14 +434,14 @@ print(responds)
 我们提供了使用 MiniCPM3 调用工具的示例代码：
 
 ```bash
-cd demo/function_call
+cd demo/minicpm3/function_call
 python function_call.py
 ```
 
 如果你想启动一个能够调用工具的推理服务，使用以下代码：
 
 ```bash
-cd demo/function_call
+cd demo/minicpm3/function_call
 pip install -r requirements.txt
 python openai_api_server.py \
     --model openbmb/MiniCPM3-4B \
@@ -462,7 +462,7 @@ python openai_api_server.py \
 我们提供了一个 MiniCPM3 使用代码解释器的示例代码：
 
 ```bash
-cd demo/code_interpreter
+cd demo/minicpm3/code_interpreter
 pip install -r requirements.txt
 python code_interpreter.py openbmb/MiniCPM3-4B
 ```
@@ -795,9 +795,9 @@ MiniCPM-2B 语言模型有 24亿（2.4B）的非词嵌入参数量, 总计 2.7B 
 
 ```shell
 # generation powered by vllm
-python demo/vllm_based_demo.py --model_path <vllmcpm_repo_path>
+python demo/minicpm/vllm_based_demo.py --model_path <vllmcpm_repo_path>
 # generation powered by huggingface
-python demo/hf_based_demo.py --model_path <hf_repo_path>
+python demo/minicpm/hf_based_demo.py --model_path <hf_repo_path>
 ```
 
 #### HuggingFace 推理

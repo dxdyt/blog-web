@@ -1,23 +1,40 @@
 ---
 title: wealthfolio
-date: 2024-09-10T12:18:49+08:00
+date: 2024-09-11T12:20:51+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1722897350308-86c223f889b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1722897350308-86c223f889b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1711479898431-9031deb4ff0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1711479898431-9031deb4ff0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
 ---
 
 # [afadil/wealthfolio](https://github.com/afadil/wealthfolio)
 
+<div align="center">
+  <a href="https://github.com/afadil/wealthfolio">
+    <img src="public/logo.svg" alt="Logo" width="80" height="80">
+  </a>
 
+  <h3 align="center">Wealthfolio</h3>
+
+  <p align="center">
+    A Beautiful and Boring Desktop Investment Tracker
+    <br />
+    <br />
+    <a href="https://wealthfolio.app">Website</a>
+    ·
+    <a href="https://discord.gg/KFWg22au">Discord</a>
+    ·
+    <a href="https://x.com/intent/follow?screen_name=WealthfolioApp">Twitter</a>
+    ·
+    <a href="https://github.com/afadil/wealthfolio/releases">Releases</a>
+  </p>
+</div>
 <div align="center">
 
 [<img src="./public/button-buy-me-a-coffee.png" width="150" alt="Buy me a coffee button"/>](https://www.buymeacoffee.com/afadil)
 
 </div>
 
-# Wealthfolio
-
-## Overview
+## Introduction
 
 **Wealthfolio App** is a Beautiful and Boring Investment Tracker, with Local Data Storage. No
 Subscriptions, No Cloud.
@@ -27,12 +44,8 @@ Visit the app website at [Wealthfolio App](https://wealthfolio.app/).
 ![Screenshot](public/screenshot.png)
 
 ## Roadmap
-- [ ] Export Data
-- [ ] Support Options
-- [ ] Support Bonds
-- [ ] Monte-Carlo Portfolio Projection
-- [ ] CSV Import Profile by Account
-- [ ] Mobile App with Database File Sync
+
+See [ROADMAP.md](./ROADMAP.md).
 
 ## Getting Started
 
@@ -163,7 +176,7 @@ Contributions are welcome! Please follow these steps:
 This project is licensed under the LGPL-3.0 license. See the `LICENSE` file for details.
 
 ## 🌟 Star History
-[![Star History Chart](https://api.star-history.com/svg?repos=afadil/wealthfolio&type=Timeline)](https://star-history.com/#afadil/wealthfolio&Date)
----
+
+## [![Star History Chart](https://api.star-history.com/svg?repos=afadil/wealthfolio&type=Timeline)](https://star-history.com/#afadil/wealthfolio&Date)
 
 Enjoy managing your wealth with **Wealthfolio**! 🚀

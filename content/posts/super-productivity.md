@@ -1,9 +1,9 @@
 ---
 title: super-productivity
-date: 2024-09-10T12:19:17+08:00
+date: 2024-09-11T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724593887946-a5958b4a58a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724593887946-a5958b4a58a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725714834865-439b8e720421?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725714834865-439b8e720421?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
 ---
 
 # [johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
