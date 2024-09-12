@@ -1,9 +1,9 @@
 ---
 title: Reactive-Resume
-date: 2024-01-24T12:17:33+08:00
+date: 2024-09-12T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703108783854-a3f23dbaab95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYwNjk4MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724140168197-f420ec273700?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724140168197-f420ec273700?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
 ---
 
 # [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
@@ -50,11 +50,11 @@ Start creating your standout resume with Reactive Resume today!
 
 - **Free, forever** and open-source
 - No telemetry, user tracking or advertising
-- You can self-host the application in less then 30 seconds
+- You can self-host the application in less than 30 seconds
 - **Available in multiple languages** ([help add/improve your language here](https://translate.rxresu.me/))
 - Use your email address (or a throw-away address, no problem) to create an account
 - You can also sign in with your GitHub or Google account, and even set up two-factor authentication for extra security
-- Create as many resumes as you like under a single account, optimising each resume for every job application based on it’s description for a higher ATS score
+- Create as many resumes as you like under a single account, optimising each resume for every job application based on its description for a higher ATS score
 - **Bring your own OpenAI API key** and unlock features such as improving your writing, fixing spelling and grammar or changing the tone of your text in one-click
 - Translate your resume into any language using ChatGPT and import it back for easier editing
 - Create single page resumes or a resume that spans multiple pages easily
@@ -79,11 +79,9 @@ Start creating your standout resume with Reactive Resume today!
 - NestJS, for the backend
 - Postgres (primary database)
 - Prisma ORM, which frees you to switch to any other relational database with a few minor changes in the code
-- Redis (for caching, session storage and resume statistics)
 - Minio (for object storage: to store avatars, resume PDFs and previews)
 - Browserless (for headless chrome, to print PDFs and generate previews)
 - SMTP Server (to send password recovery emails)
-- Sentry (for error tracing and performance monitoring)
 - GitHub/Google OAuth (for quickly authenticating users)
 - LinguiJS and Crowdin (for translation management and localization)
 

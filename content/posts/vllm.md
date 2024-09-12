@@ -1,9 +1,9 @@
 ---
 title: vllm
-date: 2024-07-11T12:19:56+08:00
+date: 2024-09-12T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720155243642-313849a7027b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720155243642-313849a7027b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA2NzE1NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725256772360-cf203e3cf897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725256772360-cf203e3cf897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
 ---
 
 # [vllm-project/vllm](https://github.com/vllm-project/vllm)
@@ -20,33 +20,30 @@ Easy, fast, and cheap LLM serving for everyone
 </h3>
 
 <p align="center">
-| <a href="https://docs.vllm.ai"><b>Documentation</b></a> | <a href="https://vllm.ai"><b>Blog</b></a> | <a href="https://arxiv.org/abs/2309.06180"><b>Paper</b></a> | <a href="https://discord.gg/jz7wjKhh6g"><b>Discord</b></a> |
+| <a href="https://docs.vllm.ai"><b>Documentation</b></a> | <a href="https://vllm.ai"><b>Blog</b></a> | <a href="https://arxiv.org/abs/2309.06180"><b>Paper</b></a> | <a href="https://discord.gg/jz7wjKhh6g"><b>Discord</b></a> | <a href="https://x.com/vllm_project"><b>Twitter/X</b></a> |
 
 </p>
 
+
 ---
 
-**Ray Summit CPF is Open (June 4th to June 20th)!**
+**vLLM, AMD, Anyscale Meet & Greet at [Ray Summit 2024](http://raysummit.anyscale.com) (Monday, Sept 30th, 5-7pm PT) at Marriott Marquis San Francisco**
 
-There will be a track for vLLM at the Ray Summit (09/30-10/02, SF) this year!
-If you have cool projects related to vLLM or LLM inference, we would love to see your proposals.
-This will be a great chance for everyone in the community to get together and learn.
-Please submit your proposal [here](https://raysummit.anyscale.com/flow/anyscale/raysummit2024/landing/page/eventsite)
+We are excited to announce our special vLLM event in collaboration with AMD and Anyscale.
+Join us to learn more about recent advancements of vLLM on MI300X.
+Register [here](https://lu.ma/db5ld9n5) and be a part of the event!
 
 ---
 
 *Latest News* 🔥
+- [2024/09] We hosted [the sixth vLLM meetup](https://lu.ma/87q3nvnh) with NVIDIA! Please find the meetup slides [here](https://docs.google.com/presentation/d/1wrLGwytQfaOTd5wCGSPNhoaW3nq0E-9wqyP7ny93xRs/edit?usp=sharing).
+- [2024/07] We hosted [the fifth vLLM meetup](https://lu.ma/lp0gyjqr) with AWS! Please find the meetup slides [here](https://docs.google.com/presentation/d/1RgUD8aCfcHocghoP3zmXzck9vX3RCI9yfUAB2Bbcl4Y/edit?usp=sharing).
+- [2024/07] In partnership with Meta, vLLM officially supports Llama 3.1 with FP8 quantization and pipeline parallelism! Please check out our blog post [here](https://blog.vllm.ai/2024/07/23/llama31.html).
 - [2024/06] We hosted [the fourth vLLM meetup](https://lu.ma/agivllm) with Cloudflare and BentoML! Please find the meetup slides [here](https://docs.google.com/presentation/d/1iJ8o7V2bQEi0BFEljLTwc5G1S10_Rhv3beed5oB0NJ4/edit?usp=sharing).
 - [2024/04] We hosted [the third vLLM meetup](https://robloxandvllmmeetup2024.splashthat.com/) with Roblox! Please find the meetup slides [here](https://docs.google.com/presentation/d/1A--47JAK4BJ39t954HyTkvtfwn0fkqtsL8NGFuslReM/edit?usp=sharing).
-- [2024/01] We hosted [the second vLLM meetup](https://lu.ma/ygxbpzhl) in SF! Please find the meetup slides [here](https://docs.google.com/presentation/d/12mI2sKABnUw5RBWXDYY-HtHth4iMSNcEoQ10jDQbxgA/edit?usp=sharing).
-- [2024/01] Added ROCm 6.0 support to vLLM.
-- [2023/12] Added ROCm 5.7 support to vLLM.
-- [2023/10] We hosted [the first vLLM meetup](https://lu.ma/first-vllm-meetup) in SF! Please find the meetup slides [here](https://docs.google.com/presentation/d/1QL-XPFXiFpDBh86DbEegFXBXFXjix4v032GhShbKf3s/edit?usp=sharing).
-- [2023/09] We created our [Discord server](https://discord.gg/jz7wjKhh6g)! Join us to discuss vLLM and LLM serving! We will also post the latest announcements and updates there.
-- [2023/09] We released our [PagedAttention paper](https://arxiv.org/abs/2309.06180) on arXiv!
+- [2024/01] We hosted [the second vLLM meetup](https://lu.ma/ygxbpzhl) with IBM! Please find the meetup slides [here](https://docs.google.com/presentation/d/12mI2sKABnUw5RBWXDYY-HtHth4iMSNcEoQ10jDQbxgA/edit?usp=sharing).
+- [2023/10] We hosted [the first vLLM meetup](https://lu.ma/first-vllm-meetup) with a16z! Please find the meetup slides [here](https://docs.google.com/presentation/d/1QL-XPFXiFpDBh86DbEegFXBXFXjix4v032GhShbKf3s/edit?usp=sharing).
 - [2023/08] We would like to express our sincere gratitude to [Andreessen Horowitz](https://a16z.com/2023/08/30/supporting-the-open-source-ai-community/) (a16z) for providing a generous grant to support the open-source development and research of vLLM.
-- [2023/07] Added support for LLaMA-2! You can run and serve 7B/13B/70B LLaMA-2s on vLLM with a single command!
-- [2023/06] Serving vLLM On any Cloud with SkyPilot. Check out a 1-click [example](https://github.com/skypilot-org/skypilot/blob/master/llm/vllm) to start the vLLM demo, and the [blog post](https://blog.skypilot.co/serving-llm-24x-faster-on-the-cloud-with-vllm-and-skypilot/) for the story behind vLLM development on the clouds.
 - [2023/06] We officially released vLLM! FastChat-vLLM integration has powered [LMSYS Vicuna and Chatbot Arena](https://chat.lmsys.org) since mid-April. Check out our [blog post](https://vllm.ai).
 
 ---
@@ -59,30 +56,35 @@ vLLM is fast with:
 - Efficient management of attention key and value memory with **PagedAttention**
 - Continuous batching of incoming requests
 - Fast model execution with CUDA/HIP graph
-- Quantization: [GPTQ](https://arxiv.org/abs/2210.17323), [AWQ](https://arxiv.org/abs/2306.00978), [SqueezeLLM](https://arxiv.org/abs/2306.07629), FP8 KV Cache
-- Optimized CUDA kernels
+- Quantizations: [GPTQ](https://arxiv.org/abs/2210.17323), [AWQ](https://arxiv.org/abs/2306.00978), INT4, INT8, and FP8.
+- Optimized CUDA kernels, including integration with FlashAttention and FlashInfer.
+- Speculative decoding
+- Chunked prefill
+
+**Performance benchmark**: We include a [performance benchmark](https://buildkite.com/vllm/performance-benchmark/builds/4068) that compares the performance of vLLM against other LLM serving engines ([TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [text-generation-inference](https://github.com/huggingface/text-generation-inference) and [lmdeploy](https://github.com/InternLM/lmdeploy)).
 
 vLLM is flexible and easy to use with:
 
 - Seamless integration with popular Hugging Face models
 - High-throughput serving with various decoding algorithms, including *parallel sampling*, *beam search*, and more
-- Tensor parallelism support for distributed inference
+- Tensor parallelism and pipeline parallelism support for distributed inference
 - Streaming outputs
 - OpenAI-compatible API server
-- Support NVIDIA GPUs, AMD CPUs and GPUs, Intel CPUs and GPUs, PowerPC CPUs
-- (Experimental) Prefix caching support
-- (Experimental) Multi-lora support
+- Support NVIDIA GPUs, AMD CPUs and GPUs, Intel CPUs and GPUs, PowerPC CPUs, TPU, and AWS Neuron.
+- Prefix caching support
+- Multi-lora support
 
 vLLM seamlessly supports most popular open-source models on HuggingFace, including:
 - Transformer-like LLMs (e.g., Llama)
 - Mixture-of-Expert LLMs (e.g., Mixtral)
+- Embedding Models (e.g. E5-Mistral)
 - Multi-modal LLMs (e.g., LLaVA)
 
 Find the full list of supported models [here](https://docs.vllm.ai/en/latest/models/supported_models.html).
 
 ## Getting Started
 
-Install vLLM with pip or [from source](https://vllm.readthedocs.io/en/latest/getting_started/installation.html#build-from-source):
+Install vLLM with `pip` or [from source](https://vllm.readthedocs.io/en/latest/getting_started/installation.html#build-from-source):
 
 ```bash
 pip install vllm
@@ -113,12 +115,14 @@ vLLM is a community project. Our compute resources for development and testing a
 - Databricks
 - DeepInfra
 - Dropbox
+- Google Cloud
 - Lambda Lab
 - NVIDIA
 - Replicate
 - Roblox
 - RunPod
 - Sequoia Capital
+- Skywork AI
 - Trainy
 - UC Berkeley
 - UC San Diego
@@ -137,3 +141,10 @@ If you use vLLM for your research, please cite our [paper](https://arxiv.org/abs
   year={2023}
 }
 ```
+
+## Contact Us
+
+* For technical questions and feature requests, please use Github issues or discussions.
+* For discussing with fellow users, please use Discord.
+* For security disclosures, please use Github's security advisory feature.
+* For collaborations and partnerships, please contact us at vllm-questions AT lists.berkeley.edu.

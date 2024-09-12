@@ -1,18 +1,16 @@
 ---
 title: documenso
-date: 2023-08-23T12:15:22+08:00
+date: 2024-09-12T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691211237213-8b84884acdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691211237213-8b84884acdda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI3NjQwNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724582120489-a2d6e70854dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724582120489-a2d6e70854dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
 ---
 
 # [documenso/documenso](https://github.com/documenso/documenso)
 
-<p align="center" style="margin-top: 120px">
-  <a href="https://github.com/documenso/documenso">
-   <img width="250px" src="https://github.com/documenso/documenso/assets/1309312/cd7823ec-4baa-40b9-be78-4acb3b1c73cb" alt="Documenso Logo">
-  </a>
+<img src="https://github.com/documenso/documenso/assets/13398220/a643571f-0239-46a6-a73e-6bef38d1228b" alt="Documenso Logo">
 
+<p align="center" style="margin-top: 20px">
   <p align="center">
   The Open Source DocuSign Alternative.
   <br>
@@ -25,68 +23,54 @@ featuredImagePreview: https://images.unsplash.com/photo-1691211237213-8b84884acd
     ·
     <a href="https://github.com/documenso/documenso/issues">Issues</a>
     ·
-    <a href="https://github.com/documenso/documenso/milestones">Roadmap</a>
+    <a href="https://documen.so/live">Upcoming Releases</a>
+    ·
+    <a href="https://documen.so/roadmap">Roadmap</a>
   </p>
 </p>
 
 <p align="center">
-   <a href="https://documen.so/discord"><img src="https://img.shields.io/badge/Discord-documen.so/discord-%235865F2" alt="Join Documenso on Discord"></a> 
+   <a href="https://documen.so/discord"><img src="https://img.shields.io/badge/Discord-documen.so/discord-%235865F2" alt="Join Documenso on Discord"></a>
    <a href="https://github.com/documenso/documenso/stargazers"><img src="https://img.shields.io/github/stars/documenso/documenso" alt="Github Stars"></a>
    <a href="https://github.com/documenso/documenso/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
    <a href="https://github.com/documenso/documenso/pulse"><img src="https://img.shields.io/github/commit-activity/m/documenso/documenso" alt="Commits-per-month"></a>
+   <a href="https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/documenso/documenso">
+   <img alt="open in devcontainer" src="https://img.shields.io/static/v1?label=Dev%20Containers&message=Enabled&color=blue&logo=visualstudiocode" />
+   </a>
+   <a href="CODE_OF_CONDUCT.md"><img src="https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg" alt="Contributor Covenant"></a>
 </p>
 
-> **🚧 We're currently working on a large scale refactor which can be found on the [feat/refresh](https://github.com/documenso/documenso/tree/feat/refresh) branch.**
->
-> **[Read more on why 👀](https://documenso.com/blog/why-were-doing-a-rewrite)**
-
-# Documenso 0.9 - Developer Preview
-
-<div>
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224570645-167128ee-3e39-4578-85d2-5394d9a0379c.png">
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224570651-0afd12f8-cfe3-49d1-805e-e495af963d91.png">
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224570655-328d2279-058d-4a3e-b5c3-5cbd8a1f4e05.png">
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224571617-1f3c2811-c1ac-4d7d-b9b0-4ab183731405.png">
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224570322-b2c76ea8-7482-4043-ad97-f1221220c591.png">
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224570325-a8055f24-9826-4a23-b116-4fbb0577581a.png">
-  <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224570318-f724bbd9-c394-4bdc-bace-2d78af92de44.png">
-      <img style="display: block; height: 120px; width: 24%"
-    src="https://user-images.githubusercontent.com/1309312/224571539-f019b860-f613-4b20-86e8-4437c5784265.png">
+<div align="center">
+  <img src="https://github.com/documenso/documenso/assets/13398220/d96ed533-6f34-4a97-be9b-442bdb189c69" style="width: 80%;" />
 </div>
 
-> **Note**
-> This project is currently under community review and will publish it's first production release soon™.
+## About Documenso
 
-## About this project
+Signing documents digitally should be fast and easy and should be the best practice for every document signed worldwide. This is technically quite easy today, but it also introduces a new party to every signature: The signing tool providers. While this is not a problem in itself, it should make us think about how we want these providers of trust to work. Documenso aims to be the world's most trusted document-signing tool. This trust is built by empowering you to self-host Documenso and review how it works under the hood.
 
-Signing documents digitally is fast, easy and should be best practice for every document signed worldwide. This is technically quite easy today, but it also introduces a new party to every signature: The signing tool providers. While this is not a problem in itself, it should make us think about how we want these providers of trust to work. Documenso aims to be the world's most trusted document signing tool. This trust is built by empowering you to self-host Documenso and review how it works under the hood. Join us in creating the next generation of open trust infrastructure.
+Join us in creating the next generation of open trust infrastructure.
 
 ## Recognition
 
-<a href="https://www.producthunt.com/posts/documenso?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-documenso" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=395047&theme=light&period=daily" alt="Documenso - The&#0032;open&#0032;source&#0032;DocuSign&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-<a href="https://www.producthunt.com/posts/documenso?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-documenso" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=395047&theme=light" alt="Documenso - The&#0032;Open&#0032;Source&#0032;DocuSign&#0032;Alternative&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+<p align="center">
+  <a href="https://www.producthunt.com/posts/documenso?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-documenso" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=395047&theme=light&period=daily" alt="Documenso - The&#0032;open&#0032;source&#0032;DocuSign&#0032;alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+  <a href="https://www.producthunt.com/posts/documenso?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-documenso" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=395047&theme=light" alt="Documenso - The&#0032;Open&#0032;Source&#0032;DocuSign&#0032;Alternative&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</p>
 
 ## Community and Next Steps 🎯
 
-We're currently working on a redesign of the application including a revamp of the codebase so Documenso can be more intuitive to use and robust to develop upon.
+We're currently working on a redesign of the application, including a revamp of the codebase, so Documenso can be more intuitive to use and robust to develop upon.
 
-- Check out the first source code release in this repository and test it
-- Tell us what you think in the current [Discussions](https://github.com/documenso/documenso/discussions)
-- Join the [Discord server](https://documen.so/discord) for any questions and getting to know to other community members
-- ⭐ the repository to help us raise awareness
-- Spread the word on Twitter, that Documenso is working towards a more open signing tool
-- Fix or create [issues](https://github.com/documenso/documenso/issues), that are needed for the first production release
+- Check out the first source code release in this repository and test it.
+- Tell us what you think in the [Discussions](https://github.com/documenso/documenso/discussions).
+- Join the [Discord server](https://documen.so/discord) for any questions and getting to know to other community members.
+- ⭐ the repository to help us raise awareness.
+- Spread the word on Twitter that Documenso is working towards a more open signing tool.
+- Fix or create [issues](https://github.com/documenso/documenso/issues), that are needed for the first production release.
 
 ## Contributing
 
-- To contribute please see our [contribution guide](https://github.com/documenso/documenso/blob/main/CONTRIBUTING.md).
+- To contribute, please see our [contribution guide](https://github.com/documenso/documenso/blob/main/CONTRIBUTING.md).
 
 ## Contact us
 
@@ -94,92 +78,125 @@ Contact us if you are interested in our Enterprise plan for large organizations 
 
 <a href="https://cal.com/timurercan/enterprise-customers?utm_source=banner&utm_campaign=oss"><img alt="Book us with Cal.com" src="https://cal.com/book-with-cal-dark.svg" /></a>
 
-# Tech
+## Tech Stack
+<p align="left">
+  <a href="https://www.typescriptlang.org"><img src="https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square" alt="TypeScript"></a>
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="NextJS"></a>
+  <a href="https://prisma.io"><img width="122" height="20" src="http://made-with.prisma.io/indigo.svg" alt="Made with Prisma" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/tailwindcss-0F172A?&logo=tailwindcss" alt="Tailwind CSS"></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+  <a href=""><img src="" alt=""></a>
+</p>
 
-Documenso is built using awesome open source tech including:
 
-- [Typescript](https://www.typescriptlang.org/)
-- [Javascript (when necessary)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [NextJS (JS Fullstack Framework)](https://nextjs.org/)
-- [Postgres SQL (Database)](https://www.postgresql.org/)
-- [Prisma (ORM - Object-relational mapping)](https://www.prisma.io/)
-- [Tailwind CSS (Styling)](https://tailwindcss.com/)
-- [Node SignPDF (Digital Signature)](https://github.com/vbuch/node-signpdf)
-- [React-PDF for viewing PDFs](https://github.com/wojtekmaj/react-pdf)
-- [PDF-Lib for PDF manipulation](https://github.com/Hopding/pdf-lib)
-- Check out `/package.json` and `/apps/web/package.json` for more
-- Support for [opensignpdf (requires Java on server)](https://github.com/open-pdf-sign) is currently planned.
+- [Typescript](https://www.typescriptlang.org/) - Language
+- [Next.js](https://nextjs.org/) - Framework
+- [Prisma](https://www.prisma.io/)  - ORM
+- [Tailwind](https://tailwindcss.com/) - CSS
+- [shadcn/ui](https://ui.shadcn.com/) - Component Library
+- [NextAuth.js](https://next-auth.js.org/) - Authentication
+- [react-email](https://react.email/) - Email Templates
+- [tRPC](https://trpc.io/) - API
+- [@documenso/pdf-sign](https://www.npmjs.com/package/@documenso/pdf-sign) - PDF Signatures (launching soon)
+- [React-PDF](https://github.com/wojtekmaj/react-pdf) - Viewing PDFs
+- [PDF-Lib](https://github.com/Hopding/pdf-lib) - PDF manipulation
+- [Stripe](https://stripe.com/) - Payments
+- [Vercel](https://vercel.com) - Hosting
 
-# Getting Started
+<!-- - Support for [opensignpdf (requires Java on server)](https://github.com/open-pdf-sign) is currently planned. -->
 
-## Requirements
+## Local Development
 
-To run Documenso locally you need
+### Requirements
 
-- [Node.js (Version: >=18.x)](https://nodejs.org/en/download/)
-- Node Package Manager NPM - included in Node.js
-- [PostgreSQL (local or remote)](https://www.postgresql.org/download/)
+To run Documenso locally, you will need
 
-## Developer Quickstart
+- Node.js (v18 or above)
+- Postgres SQL Database
+- Docker (optional)
+
+### Developer Quickstart
 
 > **Note**: This is a quickstart for developers. It assumes that you have both [docker](https://docs.docker.com/get-docker/) and [docker-compose](https://docs.docker.com/compose/) installed on your machine.
 
 Want to get up and running quickly? Follow these steps:
 
-- [Clone the repository](https://help.github.com/articles/cloning-a-repository/) it to your local device.
+1. [Fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) to your GitHub account.
 
-  ```sh
-  git clone https://github.com/documenso/documenso
-  ```
+After forking the repository, clone it to your local device by using the following command:
 
-- Set up your `.env` file using the recommendations in the `.env.example` file.
-- Run `npm run dx` in the root directory
-  - This will spin up a postgres database and inbucket mail server in docker containers.
-- Run `npm run dev` in the root directory
-- Want it even faster? Just use
-  ```sh
-  npm run d
-  ```
+```sh
+git clone https://github.com/<your-username>/documenso
+```
 
-That's it! You should now be able to access the app at http://localhost:3000
+2. Set up your `.env` file using the recommendations in the `.env.example` file. Alternatively, just run `cp .env.example .env` to get started with our handpicked defaults.
 
-Incoming mail will be available at http://localhost:9000
+3. Run `npm run dx` in the root directory
 
-Your database will also be available on port `54320`. You can connect to it using your favorite database client.
+   - This will spin up a postgres database and inbucket mailserver in a docker container.
+
+4. Run `npm run dev` in the root directory
+
+5. Want it even faster? Just use
+
+```sh
+npm run d
+```
+
+#### Access Points for Your Application
+
+1. **App** - http://localhost:3000
+2. **Incoming Mail Access** - http://localhost:9000
+3. **Database Connection Details**
+
+   - **Port**: 54320
+   - **Connection**: Use your favorite database client to connect using the provided port.
+
+4. **S3 Storage Dashboard** - http://localhost:9001
 
 ## Developer Setup
 
 ### Manual Setup
 
-Follow these steps to setup documenso on you local machine:
+Follow these steps to setup Documenso on your local machine:
 
-- [Clone the repository](https://help.github.com/articles/cloning-a-repository/) it to your local device.
-  ```sh
-  git clone https://github.com/documenso/documenso
-  ```
-- Run `npm i` in root directory
-- Rename `.env.example` to `.env`
-- Set DATABASE_URL value in .env file
-  - You can use the provided test database url (may be wiped at any point)
-  - Or setup a local postgres sql instance (recommended)
-- Create the database scheme by running `db-migrate:dev`
-- Setup your mail provider
-  - Set `SENDGRID_API_KEY` value in .env file
-  - You need a SendGrid account, which you can create [here](https://signup.sendgrid.com/).
-  - Documenso uses [Nodemailer](https://nodemailer.com/about/) so you can easily use your own SMTP server by setting the `SMTP
-    \_
-  * variables` in your .env
-- Run `npm run dev` root directory to start
-- Register a new user at http://localhost:3000/signup
+1. [Fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks) to your GitHub account.
+
+After forking the repository, clone it to your local device by using the following command:
+
+```sh
+git clone https://github.com/<your-username>/documenso
+```
+
+2. Run `npm i` in the root directory
+
+3. Create your `.env` from the `.env.example`. You can use `cp .env.example .env` to get started with our handpicked defaults.
+
+4. Set the following environment variables:
+
+   - NEXTAUTH_URL
+   - NEXTAUTH_SECRET
+   - NEXT_PUBLIC_WEBAPP_URL
+   - NEXT_PUBLIC_MARKETING_URL
+   - NEXT_PRIVATE_DATABASE_URL
+   - NEXT_PRIVATE_DIRECT_DATABASE_URL
+   - NEXT_PRIVATE_SMTP_FROM_NAME
+   - NEXT_PRIVATE_SMTP_FROM_ADDRESS
+
+5. Create the database schema by running `npm run prisma:migrate-dev`
+
+6. Run `npm run dev` in the root directory to start
+
+7. Register a new user at http://localhost:3000/signup
 
 ---
 
-- Optional: Seed the database using `npm run db-seed` to create a test user and document
-- Optional: Upload and sign `apps/web/resources/example.pdf` manually to test your setup
-
-- Optional: Create your own signing certificate
-  - A demo certificate is provided in `/app/web/resources/certificate.p12`
-  - To generate your own using these steps and a Linux Terminal or Windows Subsystem for Linux (WSL) see **[Create your own signing certificate](#creating-your-own-signing-certificate)**.
+- Optional: Seed the database using `npm run prisma:seed -w @documenso/prisma` to create a test user and document.
+- Optional: Create your own signing certificate.
+  - To generate your own using these steps and a Linux Terminal or Windows Subsystem for Linux (WSL), see **[Create your own signing certificate](./SIGNING.md)**.
 
 ### Run in Gitpod
 
@@ -187,64 +204,130 @@ Follow these steps to setup documenso on you local machine:
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/documenso/documenso)
 
-## Updating
+### Run in DevContainer
 
-- If you pull the newest version from main, using `git pull`, it may be necessary to regenerate your database client
-- You can do this by running the generate command in `/packages/prisma`:
-  ```sh
-  npx prisma generate
-  ```
-- This is not necessary on first clone.
+We support DevContainers for VSCode. [Click here to get started.](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/documenso/documenso)
 
-# Creating your own signing certificate
+### Video walkthrough
 
-For the digital signature of your documents you need a signing certificate in .p12 format (public and private key). You can buy one (not recommended for dev) or use the steps to create a self-signed one:
+If you're a visual learner and prefer to watch a video walkthrough of setting up Documenso locally, check out this video:
 
-1. Generate a private key using the OpenSSL command. You can run the following command to generate a 2048-bit RSA key:
+[![Watch the video](https://img.youtube.com/vi/Y0ppIQrEnZs/hqdefault.jpg)](https://youtu.be/Y0ppIQrEnZs)
 
-   `openssl genrsa -out private.key 2048`
+## Docker
 
-2. Generate a self-signed certificate using the private key. You can run the following command to generate a self-signed certificate:
+We provide a Docker container for Documenso, which is published on both DockerHub and GitHub Container Registry.
 
-   `openssl req -new -x509 -key private.key -out certificate.crt -days 365`
+- DockerHub: [https://hub.docker.com/r/documenso/documenso](https://hub.docker.com/r/documenso/documenso)
+- GitHub Container Registry: [https://ghcr.io/documenso/documenso](https://ghcr.io/documenso/documenso)
 
-   This will prompt you to enter some information, such as the Common Name (CN) for the certificate. Make sure you enter the correct information. The -days parameter sets the number of days for which the certificate is valid.
+You can pull the Docker image from either of these registries and run it with your preferred container hosting provider.
 
-3. Combine the private key and the self-signed certificate to create the p12 certificate. You can run the following command to do this:
+Please note that you will need to provide environment variables for connecting to the database, mailserver, and so forth.
 
-   `openssl pkcs12 -export -out certificate.p12 -inkey private.key -in certificate.crt`
+For detailed instructions on how to configure and run the Docker container, please refer to the [Docker README](./docker/README.md) in the `docker` directory.
 
-4. You will be prompted to enter a password for the p12 file. Choose a strong password and remember it, as you will need it to use the certificate (**can be empty for dev certificates**)
-5. Place the certificate `/apps/web/resources/certificate.p12`
-
-# Docker
-
-> We are still working on the publishing of docker images, in the meantime you can follow the steps below to create a production ready docker image.
-
-Want to create a production ready docker image? Follow these steps:
-
-- Run `./docker/build.sh` in the root directory.
-- Publish the image to your docker registry of choice.
-
-# Deployment
+## Self Hosting
 
 We support a variety of deployment methods, and are actively working on adding more. Stay tuned for updates!
 
-## Railway
+> Please note that the below deployment methods are for v0.9, we will update these to v1.0 once it has been released.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/DjrRRX)
+### Fetch, configure, and build
 
-# Troubleshooting
+First, clone the code from Github:
 
-## I'm not receiving any emails when using the developer quickstart
+```
+git clone https://github.com/documenso/documenso.git
+```
 
-When using the developer quickstart an [Inbucket](https://inbucket.org/) server will be spun up in a docker container that will store all outgoing email locally for you to view.
+Then, inside the `documenso` folder, copy the example env file:
 
-The Web UI can be found at http://localhost:9000 while the SMTP port will be on localhost:2500.
+```
+cp .env.example .env
+```
 
-## Support IPv6
+The following environment variables must be set:
 
-In case you are deploying to a cluster that uses only IPv6. You can use a custom command to pass a parameter to the NextJS start command
+- `NEXTAUTH_URL`
+- `NEXTAUTH_SECRET`
+- `NEXT_PUBLIC_WEBAPP_URL`
+- `NEXT_PUBLIC_MARKETING_URL`
+- `NEXT_PRIVATE_DATABASE_URL`
+- `NEXT_PRIVATE_DIRECT_DATABASE_URL`
+- `NEXT_PRIVATE_SMTP_FROM_NAME`
+- `NEXT_PRIVATE_SMTP_FROM_ADDRESS`
+
+> If you are using a reverse proxy in front of Documenso, don't forget to provide the public URL for both `NEXTAUTH_URL` and `NEXT_PUBLIC_WEBAPP_URL` variables!
+
+Now you can install the dependencies and build it:
+
+```
+npm i
+npm run build:web
+npm run prisma:migrate-deploy
+```
+
+Finally, you can start it with:
+
+```
+cd apps/web
+npm run start
+```
+
+This will start the server on `localhost:3000`. For now, any reverse proxy can then do the frontend and SSL termination.
+
+> If you want to run with another port than 3000, you can start the application with `next -p <ANY PORT>` from the `apps/web` folder.
+
+### Run as a service
+
+You can use a systemd service file to run the app. Here is a simple example of the service running on port 3500 (using 3000 by default):
+
+```bash
+[Unit]
+Description=documenso
+After=network.target
+
+[Service]
+Environment=PATH=/path/to/your/node/binaries
+Type=simple
+User=www-data
+WorkingDirectory=/var/www/documenso/apps/web
+ExecStart=/usr/bin/next start -p 3500
+TimeoutSec=15
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+### Railway
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/bG6D4p)
+
+### Render
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/documenso/documenso)
+
+### Koyeb
+
+[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/documenso/documenso&branch=main&name=documenso-app&builder=dockerfile&dockerfile=/docker/Dockerfile)
+
+## Elestio
+
+[![Deploy on Elestio](https://elest.io/images/logos/deploy-to-elestio-btn.png)](https://elest.io/open-source/documenso)
+
+## Troubleshooting
+
+### I'm not receiving any emails when using the developer quickstart.
+
+When using the developer quickstart, an [Inbucket](https://inbucket.org/) server will be spun up in a docker container that will store all outgoing emails locally for you to view.
+
+The Web UI can be found at http://localhost:9000, while the SMTP port will be on localhost:2500.
+
+### Support IPv6
+
+If you are deploying to a cluster that uses only IPv6, You can use a custom command to pass a parameter to the Next.js start command
 
 For local docker run
 
@@ -266,5 +349,25 @@ containers:
       - start
       - --
       - -H
-      - "::"
+      - '::'
 ```
+
+### I can't see environment variables in my package scripts.
+
+Wrap your package script with the `with:env` script like such:
+
+```
+npm run with:env -- npm run myscript
+```
+
+The same can be done when using `npx` for one of the bin scripts:
+
+```
+npm run with:env -- npx myscript
+```
+
+This will load environment variables from your `.env` and `.env.local` files.
+
+## Repo Activity
+
+![Repository Activity](https://repobeats.axiom.co/api/embed/622a2e9aa709696f7226304b5b7178a5741b3868.svg)

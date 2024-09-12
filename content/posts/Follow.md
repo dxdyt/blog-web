@@ -1,21 +1,21 @@
 ---
 title: Follow
-date: 2024-09-11T12:20:41+08:00
+date: 2024-09-12T12:19:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722618424583-9f09d91e14f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722618424583-9f09d91e14f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725914774525-0e81a46583b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725914774525-0e81a46583b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
 ---
 
 # [RSSNext/Follow](https://github.com/RSSNext/Follow)
 
 <div align="center">
-  <a href="https://github.com/PlayCover/PlayCover">
+  <a href="https://github.com/RSSNext/Follow">
     <img src="https://github.com/RSSNext/follow/assets/41265413/c6c02ad5-cddc-46f5-8420-a47afe1c82fe" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Follow</h3>
+  <h3>Follow</h3>
 
-  <p align="center">
+  <p>
     Next generation information browser.
     <br />
     <br />
@@ -24,6 +24,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1722618424583-9f09d91e14
     <a href="https://x.com/intent/follow?screen_name=follow_app_">Twitter</a>
     ·
     <a href="https://github.com/RSSNext/Follow/releases">Releases</a>
+    <br />
+    <br />
+    <a href="https://trendshift.io/repositories/9938" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9938" alt="RSSNext%2Ffollow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   </p>
 </div>
 
@@ -86,7 +89,7 @@ Currently, Follow is still in the early developer preview stage (alpha) and is o
 
 You can get an invitation code in the following ways:
 
-- Looking for any beta user to invite you.
+- Looking for any alpha test user to invite you.
 - Join our Discord server for occasional giveaways.
 - Follow our X account for occasional giveaways.
 
