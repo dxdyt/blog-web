@@ -1,23 +1,28 @@
 ---
 title: fish-speech
-date: 2024-07-07T12:16:44+08:00
+date: 2024-09-13T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718703358688-046752ef11f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718703358688-046752ef11f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723894960978-3f1e1cead774?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723894960978-3f1e1cead774?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
 ---
 
 # [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)
 
 # Fish Speech
 
-# Warning: We are updating code to fish-speech 1.2, the last stable branch is [1.1.2](https://github.com/fishaudio/fish-speech/tree/v1.1.2)
+**English** | [中文简体](README.zh.md) | [Portuguese (Brazil)](README.pt-BR.md)| [日本語](README.ja.md)
+
+<div>
+<a href="https://www.producthunt.com/posts/fish-speech-1-4?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-fish&#0045;speech&#0045;1&#0045;4" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=488440&theme=light" alt="Fish&#0032;Speech&#0032;1&#0046;4 - Open&#0045;Source&#0032;Multilingual&#0032;Text&#0045;to&#0045;Speech&#0032;with&#0032;Voice&#0032;Cloning | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+
+<a href="https://trendshift.io/repositories/7014" target="_blank">
+<img src="https://trendshift.io/api/badge/repositories/7014" alt="fishaudio%2Ffish-speech | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+</a>
+</div>
 
 <div>
 <a target="_blank" href="https://discord.gg/Es5qTB9BcN">
 <img alt="Discord" src="https://img.shields.io/discord/1214047546020728892?color=%23738ADB&label=Discord&logo=discord&logoColor=white&style=flat-square"/>
-</a>
-<a target="_blank" href="http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=jCKlUP7QgSm9kh95UlBoYv6s1I-Apl1M&authKey=xI5ttVAp3do68IpEYEalwXSYZFdfxZSkah%2BctF5FIMyN2NqAa003vFtLqJyAVRfF&noverify=0&group_code=593946093">
-<img alt="QQ" src="https://img.shields.io/badge/QQ Group-%2312B7F5?logo=tencent-qq&logoColor=white&style=flat-square"/>
 </a>
 <a target="_blank" href="https://hub.docker.com/r/lengyue233/fish-speech">
 <img alt="Docker" src="https://img.shields.io/docker/pulls/lengyue233/fish-speech?style=flat-square&logo=docker"/>
@@ -27,30 +32,40 @@ featuredImagePreview: https://images.unsplash.com/photo-1718703358688-046752ef11
 </a>
 </div>
 
-This codebase and all models are released under CC-BY-NC-SA-4.0 License. Please refer to [LICENSE](LICENSE) for more details. 
+This codebase and all models are released under CC-BY-NC-SA-4.0 License. Please refer to [LICENSE](LICENSE) for more details.
 
-此代码库及模型根据 CC-BY-NC-SA-4.0 许可证发布。请参阅 [LICENSE](LICENSE) 了解更多细节.
+## Disclaimer
 
-## Disclaimer / 免责声明
-We do not hold any responsibility for any illegal usage of the codebase. Please refer to your local laws about DMCA and other related laws.  
-我们不对代码库的任何非法使用承担任何责任. 请参阅您当地关于 DMCA (数字千年法案) 和其他相关法律法规.
+We do not hold any responsibility for any illegal usage of the codebase. Please refer to your local laws about DMCA and other related laws.
 
 ## Online Demo
-[Fish Audio](https://fish.audio)   
+
+[Fish Audio](https://fish.audio)
+
+## Quick Start for Local Inference
+
+[inference.ipynb](/inference.ipynb)
 
 ## Videos
-#### Demo Video: https://www.bilibili.com/video/BV1wz421B71D
-#### Tech slides Video: https://www.bilibili.com/video/BV1zJ4m1K7cj
 
-## Documents / 文档
-- [English](https://speech.fish.audio/en/)
-- [中文](https://speech.fish.audio/)
+#### V1.4 Demo Video: [Youtube](https://www.youtube.com/watch?v=Ghc8cJdQyKQ)
 
-## Samples / 例子
-- [English](https://speech.fish.audio/en/samples/)
-- [中文](https://speech.fish.audio/samples/)
+## Documents
 
-## Credits / 鸣谢
+- [English](https://speech.fish.audio/)
+- [中文](https://speech.fish.audio/zh/)
+- [日本語](https://speech.fish.audio/ja/)
+- [Portuguese (Brazil)](https://speech.fish.audio/pt/)
+
+## Samples
+
+- [English](https://speech.fish.audio/samples/)
+- [中文](https://speech.fish.audio/zh/samples/)
+- [日本語](https://speech.fish.audio/ja/samples/)
+- [Portuguese (Brazil)](https://speech.fish.audio/pt/samples/)
+
+## Credits
+
 - [VITS2 (daniilrobnikov)](https://github.com/daniilrobnikov/vits2)
 - [Bert-VITS2](https://github.com/fishaudio/Bert-VITS2)
 - [GPT VITS](https://github.com/innnky/gpt-vits)
@@ -58,19 +73,19 @@ We do not hold any responsibility for any illegal usage of the codebase. Please 
 - [GPT Fast](https://github.com/pytorch-labs/gpt-fast)
 - [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 
-## Sponsor / 赞助
+## Sponsor
 
 <div>
   <a href="https://6block.com/">
     <img src="https://avatars.githubusercontent.com/u/60573493" width="100" height="100" alt="6Block Avatar"/>
   </a>
   <br>
-  <a href="https://6block.com/">数据处理服务器由 6Block 提供 (Data Processing sponsor by 6Block)</a>
+  <a href="https://6block.com/">Data Processing sponsor by 6Block</a>
 </div>
 <div>
-  <a href="http://fs.firefly.matce.cn/">
-    <img src="https://dice-forum.s3.ap-northeast-1.amazonaws.com/2024-05-10/1715299538-382065-04170e083d92c5e0eeff534d6e7704ee.jpg" width="158" height="80" alt="6Block Avatar"/>
+  <a href="https://www.lepton.ai/">
+    <img src="https://www.lepton.ai/favicons/apple-touch-icon.png" width="100" height="100" alt="Lepton Avatar"/>
   </a>
   <br>
-  <a href="http://fs.firefly.matce.cn/">在线推理Demo服务器由淮北艾阿网络科技有限公司提供 (Online inference sponsor)</a>
+  <a href="https://www.lepton.ai/">Fish Audio is served on Lepton.AI</a>
 </div>

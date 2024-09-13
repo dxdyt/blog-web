@@ -1,9 +1,9 @@
 ---
 title: verso
-date: 2024-08-16T12:18:05+08:00
+date: 2024-09-13T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721470392423-5b2ae8add3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721470392423-5b2ae8add3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM3ODE4MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1722784531767-82dcea9be179?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1722784531767-82dcea9be179?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
 ---
 
 # [versotile-org/verso](https://github.com/versotile-org/verso)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1721470392423-5b2ae8add3
 
 A web browser that plays old world blues to build new world hope.
 
-![](https://github.com/pewsheen/verso/assets/460329/7df44c7d-a4c5-4393-8378-a8b7bc438b03)
+<img src="https://github.com/user-attachments/assets/ca124b2b-c54c-4796-b2cb-0819228495b6" width="600" />
 
 Verso is a web browser built on top of the [Servo](https://servo.org/) web engine. We aim to explore embedding solutions for Servo while growing it into a mature browser one day.
 This means we want to experiment with multi-view and multi-window first and then build UI elements entirely from Servo itself. At the moment, [Servoshell](https://servo.org/download/) should provide a better user experience.
