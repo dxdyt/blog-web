@@ -1,9 +1,9 @@
 ---
 title: drawio-desktop
-date: 2024-08-02T12:20:32+08:00
+date: 2024-09-14T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718825425588-44299bbb52dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718825425588-44299bbb52dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725145994885-c960e6dae7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725145994885-c960e6dae7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
 ---
 
 # [jgraph/drawio-desktop](https://github.com/jgraph/drawio-desktop)

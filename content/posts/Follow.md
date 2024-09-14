@@ -1,9 +1,9 @@
 ---
 title: Follow
-date: 2024-09-13T12:18:14+08:00
+date: 2024-09-14T12:18:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723325462650-005e9dff5a28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723325462650-005e9dff5a28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725715443838-1574b8eb1c3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725715443838-1574b8eb1c3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
 ---
 
 # [RSSNext/Follow](https://github.com/RSSNext/Follow)
@@ -95,6 +95,7 @@ You can get an invitation code in the following ways:
 
 If you have access, you are welcome to use the following methods to download and install it:
 
+- Visit our online webapp at [app.follow.is](https://app.follow.is)
 - You can get the installation packages for each platform from the [Releases page](https://github.com/RSSNext/Follow/releases).
 - If you are using Arch linux, you can install package [follow-appimage](https://aur.archlinux.org/packages/follow-appimage) that maintained by [timochan](https://github.com/ttimochan).
 

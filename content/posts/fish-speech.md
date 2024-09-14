@@ -1,9 +1,9 @@
 ---
 title: fish-speech
-date: 2024-09-13T12:18:22+08:00
+date: 2024-09-14T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723894960978-3f1e1cead774?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723894960978-3f1e1cead774?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723979304121-b581868e6521?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723979304121-b581868e6521?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
 ---
 
 # [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)
