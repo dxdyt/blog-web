@@ -1,9 +1,9 @@
 ---
 title: xyflow
-date: 2024-03-21T12:17:52+08:00
+date: 2024-09-15T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710441807299-6b5d94ece918?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710441807299-6b5d94ece918?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5OTQ1NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724092462003-8df0e2a3a4be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724092462003-8df0e2a3a4be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [xyflow/xyflow](https://github.com/xyflow/xyflow)
@@ -27,12 +27,10 @@ Powerful open source libraries for building node-based UIs with React or Svelte.
 ## The xyflow mono repo
 
 The xyflow repository is the home of four packages:
+* React Flow 12 `@xyflow/react` [packages/react](./packages/react)
 * React Flow 11 `reactflow` [v11 branch](https://github.com/xyflow/xyflow/tree/v11)
-* React Flow 12 (beta) `@xyflow/react` [packages/react](./packages/react)
 * Svelte Flow `@xyflow/svelte` [packages/svelte](./packages/svelte)
 * Shared helper library `@xyflow/system` [packages/system](./packages/system)
-
-**We just moved repositories** from the @wbkd org to this one. React Flow v11 will remain on the [v11 branch](https://github.com/xyflow/xyflow/tree/v11). When we have a stable v12, the package name of React Flow will change from `reactflow` to `@xyflow/react`.
 
 ## Commercial usage
 
@@ -42,7 +40,7 @@ The xyflow repository is the home of four packages:
 
 ## Getting started
 
-The best way to get started is to check out the [React Flow](https://reactflow.dev/learn) or [Svelte Flow](https://svelteflow.dev/learn) learn section. However if you want to get a sneak peek of how to install the and use the libraries you can see it here: 
+The best way to get started is to check out the [React Flow](https://reactflow.dev/learn) or [Svelte Flow](https://svelteflow.dev/learn) learn section. However if you want to get a sneak peek of how to install and use the libraries you can see it here: 
 
 <details>
   <summary><strong>React Flow</strong> basic usage</summary>
@@ -50,22 +48,23 @@ The best way to get started is to check out the [React Flow](https://reactflow.d
   ### Installation
   
   ```sh
-npm install reactflow
+npm install @xyflow/react
   ```
 
   ### Basic usage
   ```jsx
 import { useCallback } from 'react';
-import ReactFlow, {
+import {
+  ReactFlow,
   MiniMap,
   Controls,
   Background,
   useNodesState,
   useEdgesState,
   addEdge,
-} from 'reactflow';
+} from '@xyflow/react';
 
-import 'reactflow/dist/style.css';
+import '@xyflow/react/dist/style.css';
 
 const initialNodes = [
   { id: '1', position: { x: 0, y: 0 }, data: { label: '1' } },
@@ -160,6 +159,15 @@ npm install @xyflow/svelte
 </SvelteFlow>
 ```
 </details>
+
+## Releases 
+
+For releasing packages we are using [changesets](https://github.com/changesets/changesets) in combination with the [changeset Github action](https://github.com/changesets/action). The rough idea is:
+
+1. create PRs for new features, updates and fixes (with a changeset if relevant for changelog)
+2. merge into main 
+3. changset creates a PR that bumps all packages based on the changesets 
+4. merge changeset PR if you want to release to Github and npm
 
 ## The xyflow team
 

@@ -1,9 +1,9 @@
 ---
 title: GoodbyeDPI
-date: 2024-08-06T12:18:26+08:00
+date: 2024-09-15T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716890385566-dee802c56d2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI5MTc5MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716890385566-dee802c56d2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI5MTc5MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724092462003-8df0e2a3a4be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724092462003-8df0e2a3a4be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
@@ -74,6 +74,13 @@ Usage: goodbyedpi.exe [OPTION...]
  --reverse-frag           fragment (split) the packets just as --native-frag, but send them in the
                           reversed order. Works with the websites which could not handle segmented
                           HTTPS TLS ClientHello (because they receive the TCP flow "combined").
+ --fake-from-hex <value>  Load fake packets for Fake Request Mode from HEX values (like 1234abcDEF).
+                          This option can be supplied multiple times, in this case each fake packet
+                          would be sent on every request in the command line argument order.
+ --fake-gen <value>       Generate random-filled fake packets for Fake Request Mode, value of them
+                          (up to 30).
+ --fake-resend <value>    Send each fake packet value number of times.
+                          Default: 1 (send each packet once).
  --max-payload [value]    packets with TCP payload data more than [value] won't be processed.
                           Use this option to reduce CPU usage by skipping huge amount of data
                           (like file transfers) in already established sessions.
@@ -151,6 +158,7 @@ Modify them according to your own needs.
 # Known issues
 
 * Horribly outdated Windows 7 installations are not able to load WinDivert driver due to missing support for SHA256 digital signatures. Install KB3033929 [x86](https://www.microsoft.com/en-us/download/details.aspx?id=46078)/[x64](https://www.microsoft.com/en-us/download/details.aspx?id=46148), or better, update the whole system using Windows Update.
+* Intel/Qualcomm Killer network cards: `Advanced Stream Detect` in Killer Control Center is incompabitle with GoodbyeDPI, [disable it](https://github.com/ValdikSS/GoodbyeDPI/issues/541#issuecomment-2296038239).
 * ~~Some SSL/TLS stacks unable to process fragmented ClientHello packets, and HTTPS websites won't open. Bug: [#4](https://github.com/ValdikSS/GoodbyeDPI/issues/4), [#64](https://github.com/ValdikSS/GoodbyeDPI/issues/64).~~ Fragmentation issues are fixed in v0.1.7.
 * ~~ESET Antivirus is incompatible with WinDivert driver [#91](https://github.com/ValdikSS/GoodbyeDPI/issues/91). This is most probably antivirus bug, not WinDivert.~~
 
@@ -166,6 +174,7 @@ Modify them according to your own needs.
 - **[SpoofDPI](https://github.com/xvzc/SpoofDPI)** by @xvzc (for macOS and Linux)
 - **[GhosTCP](https://github.com/macronut/ghostcp)** by @macronut (for Windows)
 - **[ByeDPI](https://github.com/hufrea/byedpi)** for Linux/Windows + **[ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid/)** for Android (no root)
+- **[youtubeUnblock](https://github.com/Waujito/youtubeUnblock/)** by @Waujito (for OpenWRT/Entware routers and Linux)
 
 # Kudos
 

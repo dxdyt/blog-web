@@ -1,9 +1,9 @@
 ---
 title: ecapture
-date: 2024-09-14T12:18:39+08:00
+date: 2024-09-15T12:18:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725145994885-c960e6dae7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725145994885-c960e6dae7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725983615817-963c4b2ccb06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725983615817-963c4b2ccb06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [gojue/ecapture](https://github.com/gojue/ecapture)

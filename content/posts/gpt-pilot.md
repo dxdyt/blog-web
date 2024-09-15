@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2024-03-20T12:18:27+08:00
+date: 2024-09-15T12:19:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709668158987-fa2714cd89e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709668158987-fa2714cd89e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723444130340-109512cc90f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723444130340-109512cc90f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -27,7 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709668158987-fa2714cd89
 ---
 
 <div align="center">
-<a href="https://www.ycombinator.com/" target="_blank"><img src="./media/backed-by-YC-black.png" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 250px; height: 93px;"/></a>
+<a href="https://www.ycombinator.com/" target="_blank"><img src="https://s3.amazonaws.com/assets.pythagora.ai/yc/PNG/Black.png" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 250px; height: 93px;"/></a>
 </div>
 <br>
 <div align="center">
@@ -111,24 +111,40 @@ If you are interested in our learnings during this project, you can check [our l
 
 Otherwise, you can use the CLI tool.
 
-After you have Python and (optionally) PostgreSQL installed, follow these steps:
-1. `git clone https://github.com/Pythagora-io/gpt-pilot.git` (clone the repo)
-2. `cd gpt-pilot`
-3. `python -m venv pilot-env` (create a virtual environment)
-4. `source pilot-env/bin/activate` (or on Windows `pilot-env\Scripts\activate`) (activate the virtual environment)
-5. `pip install -r requirements.txt` (install the dependencies)
-6. `cd pilot`
-7. `mv .env.example .env` (or on Windows `copy .env.example .env`) (create the .env file)
-8. Add your environment to the `.env` file:
-   - LLM Provider (OpenAI/Azure/Openrouter)
-   - Your API key
-   - database settings: SQLite/PostgreSQL (to change from SQLite to PostgreSQL, just set `DATABASE_TYPE=postgres`)
-   - optionally set IGNORE_PATHS for the folders which shouldn't be tracked by GPT Pilot in workspace, useful to ignore folders created by compilers (i.e. `IGNORE_PATHS=folder1,folder2,folder3`)
-9. `python main.py` (start GPT Pilot)
+### If you're new to GPT Pilot:
 
-After, this, you can just follow the instructions in the terminal.
+After you have Python and (optionally) PostgreSQL installed, follow these steps:
+
+1. `git clone https://github.com/Pythagora-io/gpt-pilot.git` (clone the repo)
+2. `cd gpt-pilot` (go to the repo folder)
+3. `python3 -m venv venv` (create a virtual environment)
+4. `source venv/bin/activate` (or on Windows `venv\Scripts\activate`) (activate the virtual environment)
+5. `pip install -r requirements.txt` (install the dependencies)
+6. `cp example-config.json config.json` (create `config.json` file)
+7. Set your key and other settings in `config.json` file:
+   - LLM Provider (`openai`, `anthropic` or `groq`) key and endpoints (leave `null` for default) (note that Azure and OpenRouter are suppored via the `openai` setting)
+   - Your API key (if `null`, will be read from the environment variables)
+   - database settings: sqlite is used by default, PostgreSQL should also work
+   - optionally update `fs.ignore_paths` and add files or folders which shouldn't be tracked by GPT Pilot in workspace, useful to ignore folders created by compilers
+8. `python main.py` (start GPT Pilot)
 
 All generated code will be stored in the folder `workspace` inside the folder named after the app name you enter upon starting the pilot.
+
+### If you're upgrading from GPT Pilot v0.1
+
+Assuming you already have the git repository with an earlier version:
+
+1. `git pull` (update the repo)
+2. `source pilot-env/bin/activate` (or on Windows `pilot-env\Scripts\activate`) (activate the virtual environment)
+3. `pip install -r requirements.txt` (install the new dependencies)
+4. `python main.py --import-v0 pilot/gpt-pilot` (this should import your settings and existing projects)
+
+This will create a new database `pythagora.db` and import all apps from the old database. For each app,
+it will import the start of the latest task you were working on.
+
+To verify that the import was successful, you can run `python main.py --list` to see all the apps you have created,
+and check `config.json` to check the settings were correctly converted to the new config file format (and make
+any adjustments if needed).
 
 # 🔎 [Examples](https://github.com/Pythagora-io/gpt-pilot/wiki/Apps-created-with-GPT-Pilot)
 
@@ -145,60 +161,63 @@ All generated code will be stored in the folder `workspace` inside the folder na
 
 This will start two containers, one being a new image built by the `Dockerfile` and a Postgres database. The new image also has [ttyd](https://github.com/tsl0922/ttyd) installed so that you can easily interact with gpt-pilot. Node is also installed on the image and port 3000 is exposed.
 
+### PostgreSQL support
+
+GPT Pilot uses built-in SQLite database by default. If you want to use the PostgreSQL database, you need to additional install `asyncpg` and `psycopg2` packages:
+
+```bash
+pip install asyncpg psycopg2
+```
+
+Then, you need to update the `config.json` file to set `db.url` to `postgresql+asyncpg://<user>:<password>@<db-host>/<db-name>`.
 
 # 🧑‍💻️ CLI arguments
 
-
-## `--get-created-apps-with-steps`
-Lists all existing apps.
+### List created projects (apps)
 
 ```bash
-python main.py --get-created-apps-with-steps
+python main.py --list
 ```
 
-<br>
+Note: for each project (app), this also lists "branches". Currently we only support having one branch (called "main"), and in the future we plan to add support for multiple project branches.
 
-## `app_id`
-Continue working on an existing app using **`app_id`**
-```bash
-python main.py app_id=<ID_OF_THE_APP>
-```
-
-<br>
-
-## `step`
-Continue working on an existing app from a specific **`step`** (eg: `development_planning`)
-```bash
-python main.py app_id=<ID_OF_THE_APP> step=<STEP_FROM_CONST_COMMON>
-```
-
-<br>
-
-## `skip_until_dev_step`
-Continue working on an existing app from a specific **development step**
-```bash
-python main.py app_id=<ID_OF_THE_APP> skip_until_dev_step=<DEV_STEP>
-```
-Continue working on an existing app from a specific **`development step`**. If you want to play around with GPT Pilot, this is likely the flag you will often use.
-
-<br>
-
+### Load and continue from the latest step in a project (app)
 
 ```bash
-python main.py app_id=<ID_OF_THE_APP> skip_until_dev_step=0
+python main.py --project <app_id>
 ```
-Erase all development steps previously done and continue working on an existing app from the start of development.
 
+### Load and continue from a specific step in a project (app)
 
-## `theme`
 ```bash
-python main.py theme=light
-```
-```bash
-python main.py theme=dark
+python main.py --project <app_id> --step <step>
 ```
 
-<br>
+Warning: this will delete all progress after the specified step!
+
+### Delete project (app)
+
+```bash
+python main.py --delete <app_id>
+```
+
+Delete project with the specified `app_id`. Warning: this cannot be undone!
+
+### Import projects from v0.1
+
+```bash
+python main.py --import-v0 <path>
+```
+
+This will import projects from the old GPT Pilot v0.1 database. The path should be the path to the old GPT Pilot v0.1 database. For each project, it will import the start of the latest task you were working on. If the project was already imported, the import procedure will skip it (won't overwrite the project in the database).
+
+### Other command-line options
+
+There are several other command-line options that mostly support calling GPT Pilot from our VSCode extension. To see all the available options, use the `--help` flag:
+
+```bash
+python main.py --help
+```
 
 # 🏗 How GPT Pilot works?
 Here are the steps GPT Pilot takes to create an app:
@@ -224,7 +243,7 @@ Here are the steps GPT Pilot takes to create an app:
 - **Works at scale** - GPT Pilot isn't meant to create simple apps but rather so it can work at any scale. It has mechanisms that filter out the code, so in each LLM conversation, it doesn't need to store the entire codebase in context, but it shows the LLM only the relevant code for the current task it's working on. Once an app is finished, you can continue working on it by writing instructions on what feature you want to add.
 
 # 🍻 Contributing
-If you are interested in contributing to GPT Pilot, I would be more than happy to have you on board and also help you get started. Feel free to ping [zvonimir@pythagora.ai](mailto:zvonimir@pythagora.ai), and I'll help you get started.
+If you are interested in contributing to GPT Pilot, join [our Discord server](https://discord.gg/HaqXugmxr9), check out open [GitHub issues](https://github.com/Pythagora-io/gpt-pilot/issues), and see if anything interests you. We would be happy to get help in resolving any of those. The best place to start is by reviewing blog posts mentioned above to understand how the architecture works before diving into the codebase.
 
 ## 🖥 Development
 Other than the research, GPT Pilot needs to be debugged to work in different scenarios. For example, we realized that the quality of the code generated is very sensitive to the size of the development task. When the task is too broad, the code has too many bugs that are hard to fix, but when the development task is too narrow, GPT also seems to struggle in getting the task implemented into the existing code.

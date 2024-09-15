@@ -1,9 +1,9 @@
 ---
 title: jax
-date: 2024-03-20T12:18:58+08:00
+date: 2024-09-15T12:19:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709668158987-fa2714cd89e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709668158987-fa2714cd89e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA5MDgxOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723711183425-7d202944cff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723711183425-7d202944cff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
 ---
 
 # [google/jax](https://github.com/google/jax)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1709668158987-fa2714cd89
 <img src="https://raw.githubusercontent.com/google/jax/main/images/jax_logo_250px.png" alt="logo"></img>
 </div>
 
-# JAX: Autograd and XLA
+# Transformable numerical computing at scale
 
 ![Continuous integration](https://github.com/google/jax/actions/workflows/ci-build.yaml/badge.svg)
 ![PyPI version](https://img.shields.io/pypi/v/jax)
@@ -93,7 +93,7 @@ perex_grads = jit(vmap(grad_loss, in_axes=(None, 0, 0)))  # fast per-example gra
 ## Quickstart: Colab in the Cloud
 Jump right in using a notebook in your browser, connected to a Google Cloud GPU.
 Here are some starter notebooks:
-- [The basics: NumPy on accelerators, `grad` for differentiation, `jit` for compilation, and `vmap` for vectorization](https://jax.readthedocs.io/en/latest/notebooks/quickstart.html)
+- [The basics: NumPy on accelerators, `grad` for differentiation, `jit` for compilation, and `vmap` for vectorization](https://jax.readthedocs.io/en/latest/quickstart.html)
 - [Training a Simple Neural Network, with TensorFlow Dataset Data Loading](https://colab.research.google.com/github/google/jax/blob/main/docs/notebooks/neural_network_with_tfds_data.ipynb)
 
 **JAX now runs on Cloud TPUs.** To try out the preview, see the [Cloud TPU
@@ -283,7 +283,7 @@ from jax import random, pmap
 import jax.numpy as jnp
 
 # Create 8 random 5000 x 6000 matrices, one per GPU
-keys = random.split(random.PRNGKey(0), 8)
+keys = random.split(random.key(0), 8)
 mats = pmap(lambda key: random.normal(key, (5000, 6000)))(keys)
 
 # Run a local matmul on each device in parallel (no data transfer)
@@ -370,8 +370,11 @@ Some standouts:
    startup (or set the environment variable `JAX_ENABLE_X64=True`).
    On TPU, JAX uses 32-bit values by default for everything _except_ internal
    temporary variables in 'matmul-like' operations, such as `jax.numpy.dot` and `lax.conv`.
-   Those ops have a `precision` parameter which can be used to simulate
-   true 32-bit, with a cost of possibly slower runtime.
+   Those ops have a `precision` parameter which can be used to approximate 32-bit operations
+   via three bfloat16 passes, with a cost of possibly slower runtime.
+   Non-matmul operations on TPU lower to implementations that often emphasize speed over
+   accuracy, so in practice computations on TPU will be less precise than similar
+   computations on other backends.
 1. Some of NumPy's dtype promotion semantics involving a mix of Python scalars
    and NumPy types aren't preserved, namely `np.add(1, np.array([2],
    np.float32)).dtype` is `float64` rather than `float32`.
@@ -403,8 +406,8 @@ Some standouts:
 
 | Hardware   | Instructions                                                                                                    |
 |------------|-----------------------------------------------------------------------------------------------------------------|
-| CPU        | `pip install -U "jax[cpu]"`                                                                                       |
-| NVIDIA GPU on x86_64 | `pip install -U "jax[cuda12_pip]" -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html`        |
+| CPU        | `pip install -U jax`                                                                                            |
+| NVIDIA GPU | `pip install -U "jax[cuda12]"`                                                                                  |
 | Google TPU | `pip install -U "jax[tpu]" -f https://storage.googleapis.com/jax-releases/libtpu_releases.html`                 |
 | AMD GPU    | Use [Docker](https://hub.docker.com/r/rocm/jax) or [build from source](https://jax.readthedocs.io/en/latest/developer.html#additional-notes-for-building-a-rocm-jaxlib-for-amd-gpus). |
 | Apple GPU  | Follow [Apple's instructions](https://developer.apple.com/metal/jax/).                                          |
@@ -421,7 +424,8 @@ community-supported conda build, and answers to some frequently-asked questions.
 Multiple Google research groups develop and share libraries for training neural
 networks in JAX. If you want a fully featured library for neural network
 training with examples and how-to guides, try
-[Flax](https://github.com/google/flax).
+[Flax](https://github.com/google/flax). Check out the new [NNX](https://flax.readthedocs.io/en/latest/nnx/index.html) API for a
+simplified development experience.
 
 Google X maintains the neural network library
 [Equinox](https://github.com/patrick-kidger/equinox). This is used as the
