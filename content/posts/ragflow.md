@@ -1,9 +1,9 @@
 ---
 title: ragflow
-date: 2024-08-18T12:20:06+08:00
+date: 2024-09-16T12:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1603459968105-59733476a069?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1603459968105-59733476a069?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723374432031-a511189e0522?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723374432031-a511189e0522?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
@@ -17,7 +17,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1603459968105-59733476a0
 <p align="center">
   <a href="./README.md">English</a> |
   <a href="./README_zh.md">简体中文</a> |
-  <a href="./README_ja.md">日本語</a>
+  <a href="./README_ja.md">日本語</a> |
+  <a href="./README_ko.md">한국어</a>
 </p>
 
 <p align="center">
@@ -27,7 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1603459968105-59733476a0
     <a href="https://demo.ragflow.io" target="_blank">
         <img alt="Static Badge" src="https://img.shields.io/badge/Online-Demo-4e6b99"></a>
     <a href="https://hub.docker.com/r/infiniflow/ragflow" target="_blank">
-        <img src="https://img.shields.io/badge/docker_pull-ragflow:v0.9.0-brightgreen" alt="docker pull infiniflow/ragflow:v0.9.0"></a>
+        <img src="https://img.shields.io/badge/docker_pull-ragflow:v0.11.0-brightgreen" alt="docker pull infiniflow/ragflow:v0.11.0"></a>
     <a href="https://github.com/infiniflow/ragflow/blob/main/LICENSE">
     <img height="21" src="https://img.shields.io/badge/License-Apache--2.0-ffffff?labelColor=d4eaf7&color=2e6cc4" alt="license">
   </a>
@@ -75,22 +76,15 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
 
 ## 🔥 Latest Updates
 
+- 2024-09-13 Adds search mode for knowledge base Q&A.
+- 2024-09-09 Adds a medical consultant agent template.
+- 2024-08-22 Support text to SQL statements through RAG.
 - 2024-08-02 Supports GraphRAG inspired by [graphrag](https://github.com/microsoft/graphrag) and mind map.
-  
 - 2024-07-23 Supports audio file parsing.
-
-- 2024-07-21 Supports more LLMs (LocalAI, OpenRouter, StepFun, and Nvidia).
-
-- 2024-07-18 Adds more components (Wikipedia, PubMed, Baidu, and Duckduckgo) to the graph.
-
-- 2024-07-08 Supports workflow based on [Graph](./graph/README.md).
-- 2024-06-27 Supports Markdown and Docx in the Q&A parsing method. 
-- 2024-06-27 Supports extracting images from Docx files. 
-- 2024-06-27 Supports extracting tables from Markdown files.
-- 2024-06-06 Supports [Self-RAG](https://huggingface.co/papers/2310.11511), which is enabled by default in dialog settings.
-- 2024-05-30 Integrates [BCE](https://github.com/netease-youdao/BCEmbedding) and [BGE](https://github.com/FlagOpen/FlagEmbedding) reranker models.
+- 2024-07-08 Supports workflow based on [Graph](./agent/README.md).
+- 2024-06-27 Supports Markdown and Docx in the Q&A parsing method, extracting images from Docx files, extracting tables from Markdown files.
 - 2024-05-23 Supports [RAPTOR](https://arxiv.org/html/2401.18059v1) for better text retrieval.
-- 2024-05-15 Integrates OpenAI GPT-4o.
+
 
 ## 🌟 Key Features
 
@@ -167,7 +161,7 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
 
 3. Build the pre-built Docker images and start up the server:
 
-   > Running the following commands automatically downloads the *dev* version RAGFlow Docker image. To download and run a specified Docker version, update `RAGFLOW_VERSION` in **docker/.env** to the intended version, for example `RAGFLOW_VERSION=v0.9.0`, before running the following commands.
+   > Running the following commands automatically downloads the *dev* version RAGFlow Docker image. To download and run a specified Docker version, update `RAGFLOW_VERSION` in **docker/.env** to the intended version, for example `RAGFLOW_VERSION=v0.11.0`, before running the following commands.
 
    ```bash
    $ cd ragflow/docker
@@ -199,7 +193,7 @@ Try our demo at [https://demo.ragflow.io](https://demo.ragflow.io).
     * Running on http://x.x.x.x:9380
     INFO:werkzeug:Press CTRL+C to quit
    ```
-   > If you skip this confirmation step and directly log in to RAGFlow, your browser may prompt a `network anomaly` error because, at that moment, your RAGFlow may not be fully initialized.  
+   > If you skip this confirmation step and directly log in to RAGFlow, your browser may prompt a `network abnormal` error because, at that moment, your RAGFlow may not be fully initialized.  
 
 5. In your web browser, enter the IP address of your server and log in to RAGFlow.
    > With the default settings, you only need to enter `http://IP_OF_YOUR_MACHINE` (**sans** port number) as the default HTTP serving port `80` can be omitted when using the default configurations.

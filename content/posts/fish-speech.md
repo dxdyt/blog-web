@@ -1,9 +1,9 @@
 ---
 title: fish-speech
-date: 2024-09-15T12:18:48+08:00
+date: 2024-09-16T12:19:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716883269056-6737e8faaa3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716883269056-6737e8faaa3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725656470975-35e96bf03d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725656470975-35e96bf03d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [fishaudio/fish-speech](https://github.com/fishaudio/fish-speech)
@@ -24,11 +24,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1716883269056-6737e8faaa
 <a target="_blank" href="https://discord.gg/Es5qTB9BcN">
 <img alt="Discord" src="https://img.shields.io/discord/1214047546020728892?color=%23738ADB&label=Discord&logo=discord&logoColor=white&style=flat-square"/>
 </a>
-<a target="_blank" href="https://hub.docker.com/r/lengyue233/fish-speech">
-<img alt="Docker" src="https://img.shields.io/docker/pulls/lengyue233/fish-speech?style=flat-square&logo=docker"/>
-</a>
-<a target="_blank" href="https://github.com/fishaudio/fish-speech/actions/workflows/build-windows-package.yml">
-<img alt="Action" src="https://img.shields.io/github/actions/workflow/status/fishaudio/fish-speech/build-windows-package.yml?style=flat-square&label=Build%20Windows%20Package&logo=github"/>
+<a target="_blank" href="https://hub.docker.com/r/fishaudio/fish-speech">
+<img alt="Docker" src="https://img.shields.io/docker/pulls/fishaudio/fish-speech?style=flat-square&logo=docker"/>
 </a>
 </div>
 

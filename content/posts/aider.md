@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2024-07-31T12:15:19+08:00
+date: 2024-09-16T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719836257725-cc6659c4100e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719836257725-cc6659c4100e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjIzOTkyNDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726024708313-db80f6085141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726024708313-db80f6085141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
@@ -19,12 +19,23 @@ Start a new project or work with an existing git repo.
 Aider works best with GPT-4o & Claude 3.5 Sonnet and can 
 [connect to almost any LLM](https://aider.chat/docs/llms.html).
 
+<!-- SCREENCAST START -->
 <p align="center">
   <img
     src="https://aider.chat/assets/screencast.svg"
     alt="aider screencast"
   >
 </p>
+<!-- SCREENCAST END -->
+
+<!-- VIDEO START
+<p align="center">
+  <video style="max-width: 100%; height: auto;" autoplay loop muted playsinline>
+    <source src="/assets/shell-cmds-small.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
+VIDEO END -->
 
 <p align="center">
   <a href="https://discord.gg/Tv2uQnR88V">
@@ -45,18 +56,18 @@ cog.out(open("aider/website/_includes/get-started.md").read())
 You can get started quickly like this:
 
 ```
-$ pip install aider-chat
+python -m pip install aider-chat
 
 # Change directory into a git repo
-$ cd /to/your/git/repo
+cd /to/your/git/repo
 
 # Work with Claude 3.5 Sonnet on your repo
-$ export ANTHROPIC_API_KEY=your-key-goes-here
-$ aider
+export ANTHROPIC_API_KEY=your-key-goes-here
+aider
 
 # Work with GPT-4o on your repo
-$ export OPENAI_API_KEY=your-key-goes-here
-$ aider 
+export OPENAI_API_KEY=your-key-goes-here
+aider 
 ```
 <!--[[[end]]]-->
 

@@ -1,9 +1,9 @@
 ---
 title: xyflow
-date: 2024-09-15T12:20:43+08:00
+date: 2024-09-16T12:20:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724092462003-8df0e2a3a4be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724092462003-8df0e2a3a4be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723931464622-b7df7c71e380?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723931464622-b7df7c71e380?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [xyflow/xyflow](https://github.com/xyflow/xyflow)

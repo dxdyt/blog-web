@@ -1,9 +1,9 @@
 ---
 title: linkding
-date: 2024-09-15T12:20:28+08:00
+date: 2024-09-16T12:21:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723744895444-e94a0e1dd378?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723744895444-e94a0e1dd378?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725656470975-35e96bf03d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725656470975-35e96bf03d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [sissbruecker/linkding](https://github.com/sissbruecker/linkding)
