@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2024-09-16T12:20:29+08:00
+date: 2024-09-17T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726024708313-db80f6085141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726024708313-db80f6085141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726224437880-532a54c9565c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726224437880-532a54c9565c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)

@@ -1,9 +1,9 @@
 ---
 title: blog_os
-date: 2024-09-16T12:20:14+08:00
+date: 2024-09-17T12:18:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726024708313-db80f6085141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726024708313-db80f6085141?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723744903131-8c7920b82b8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723744903131-8c7920b82b8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
 ---
 
 # [phil-opp/blog_os](https://github.com/phil-opp/blog_os)
