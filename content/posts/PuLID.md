@@ -1,9 +1,9 @@
 ---
 title: PuLID
-date: 2024-09-17T12:17:47+08:00
+date: 2024-09-18T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725492114409-01a24b173dbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725492114409-01a24b173dbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725493280276-658ff7d29fd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY2MzMxNjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725493280276-658ff7d29fd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY2MzMxNjN8&ixlib=rb-4.0.3
 ---
 
 # [ToTheBeginning/PuLID](https://github.com/ToTheBeginning/PuLID)

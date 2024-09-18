@@ -1,9 +1,9 @@
 ---
 title: DevOps-Bash-tools
-date: 2023-07-31T12:17:44+08:00
+date: 2024-09-18T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1689045306229-5ecee1d55998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1689045306229-5ecee1d55998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTA3NzY4Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723556146809-2dcb7c1e0bf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY2MzMxNjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723556146809-2dcb7c1e0bf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY2MzMxNjN8&ixlib=rb-4.0.3
 ---
 
 # [HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)
@@ -12,9 +12,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1689045306229-5ecee1d559
 
 [![GitHub stars](https://img.shields.io/github/stars/harisekhon/devops-bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/harisekhon/devops-bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/network)
-[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-92k-lightgrey?logo=codecademy)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
+[![Lines of Code](https://img.shields.io/badge/lines%20of%20code-96k-lightgrey?logo=codecademy)](https://github.com/HariSekhon/DevOps-Bash-tools#hari-sekhon---devops-bash-tools)
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/LICENSE)
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=linkedin)](https://www.linkedin.com/in/HariSekhon/)
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/HariSekhon/)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/HariSekhon/DevOps-Bash-tools?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools/commits/master)
 
 [![Codacy](https://app.codacy.com/project/badge/Grade/dffc1bfd13404c95b5a0ab97fd47974e)](https://www.codacy.com/gh/HariSekhon/DevOps-Bash-tools/dashboard)
@@ -83,9 +83,9 @@ awkward URLs more nicely replaced with shields.io
 [![Travis CI](https://img.shields.io/badge/TravisCI-ready-blue?logo=travis&label=Travis%20CI)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/travis/.travis.yml)
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed%20by-Hound-8E64B0.svg)](https://houndci.com)
 
-[![Repo on Azure DevOps](https://img.shields.io/badge/repo-Azure%20DevOps-0078D7?logo=azure%20devops)](https://dev.azure.com/harisekhon/GitHub/_git/DevOps-Bash-tools)
 [![Repo on GitHub](https://img.shields.io/badge/repo-GitHub-2088FF?logo=github)](https://github.com/HariSekhon/DevOps-Bash-tools)
 [![Repo on GitLab](https://img.shields.io/badge/repo-GitLab-FCA121?logo=gitlab)](https://gitlab.com/HariSekhon/DevOps-Bash-tools)
+[![Repo on Azure DevOps](https://img.shields.io/badge/repo-Azure%20DevOps-0078D7?logo=azure%20devops)](https://dev.azure.com/harisekhon/GitHub/_git/DevOps-Bash-tools)
 [![Repo on BitBucket](https://img.shields.io/badge/repo-BitBucket-0052CC?logo=bitbucket)](https://bitbucket.org/HariSekhon/DevOps-Bash-tools)
 
 [![Azure DevOps Pipeline](https://dev.azure.com/harisekhon/GitHub/_apis/build/status/HariSekhon.DevOps-Bash-tools?branchName=master)](https://dev.azure.com/harisekhon/GitHub/_build/latest?definitionId=1&branchName=master)
@@ -144,7 +144,7 @@ Fast, Advanced Systems Engineering, Automation, APIs, shorter CLIs, etc.
 
 Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aharisekhon+type%3Arepository&type=Repositories), dozens of [DockerHub builds](https://hub.docker.com/r/harisekhon) ([Dockerfiles](https://github.com/HariSekhon/Dockerfiles)) and 600+ [CI builds](https://harisekhon.github.io/CI-CD/).
 
-#### Summary
+## Summary
 
 - Scripts for many popular DevOps technologies, see [Inventory](https://github.com/HariSekhon/DevOps-Bash-tools#inventory) below for more details
 - Advanced configs for common tools like [Git](https://git-scm.com/), [vim](https://www.vim.org/), [screen](https://www.gnu.org/software/screen/), [tmux](https://github.com/tmux/tmux/wiki), [PostgreSQL psql](https://www.postgresql.org/) etc...
@@ -153,22 +153,24 @@ Heavily used in many [GitHub repos](https://github.com/search?o=desc&q=user%3Aha
 - API scripts auto-handling authentication, tokens and other details to quickly query popular APIs with a few keystrokes just supplying the `/path/endpoint`
 - Advanced Bash environment - `.bashrc` + `.bash.d/*.sh` - aliases, functions, colouring, dynamic Git & shell behaviour enhancements, automatic pathing for installations and major languages like Python, Perl, Ruby, NodeJS, Golang across Linux distributions and Mac. See [.bash.d/README.md](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/.bash.d/README.md)
 - Installs the best systems packages -
-[AWS CLI](https://aws.amazon.com/cli/),
-[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest),
-[GCloud SDK](https://cloud.google.com/sdk),
-[Digital Ocean CLI](https://docs.digitalocean.com/reference/doctl/),
-[Terraform](https://www.terraform.io/),
-[Terragrunt](https://terragrunt.gruntwork.io/),
-[GitHub CLI](https://github.com/cli/cli),
-[Kubernetes](https://kubernetes.io/)
-[kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) &
-[kustomize](https://kustomize.io/),
-[Helm](https://helm.sh/),
-[eksctl](https://eksctl.io/),
-[Docker-Compose](https://docs.docker.com/compose/),
-[jq](https://stedolan.github.io/jq/)
-and many others... extensive package lists for servers and desktops for most major Linux distributions package managers and Mac
-  - `setup/` - contains even more scripts to download and install software, JDBC connectors, Mac OS X settings etc.
+  [AWS CLI](https://aws.amazon.com/cli/),
+  [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest),
+  [GCloud SDK](https://cloud.google.com/sdk),
+  [Digital Ocean CLI](https://docs.digitalocean.com/reference/doctl/),
+  [Terraform](https://www.terraform.io/),
+  [Terragrunt](https://terragrunt.gruntwork.io/),
+  [GitHub CLI](https://github.com/cli/cli),
+  [Kubernetes](https://kubernetes.io/)
+  [kubectl](https://kubernetes.io/docs/reference/kubectl/overview/) &
+  [kustomize](https://kustomize.io/),
+  [Helm](https://helm.sh/),
+  [eksctl](https://eksctl.io/),
+  [Docker-Compose](https://docs.docker.com/compose/),
+  [jq](https://stedolan.github.io/jq/)
+  and many others... extensive package lists for servers and desktops for most major Linux distributions package managers and Mac
+  - `install/` - contains many installation scripts for popular open source software and direct binary downloads from GitHub releases
+  - `configs/` - contains many dot configs for common technologies like ViM, top, Screen, Tmux, MySQL, PostgreSQL etc.
+  - `setup/` - contains setup scripts, package lists, extra configs, Mac OS X settings etc.
 - Utility Libraries used by many hundreds of scripts and [builds](https://harisekhon.github.io/CI-CD/) across [repos](https://github.com/search?o=desc&q=user%3Aharisekhon+type%3Arepository&type=Repositories):
   - `.bash.d/` - interactive library
   - `lib/` - scripting and CI library
@@ -184,14 +186,14 @@ Cloud & Big Data Contractor, United Kingdom
 
 (ex-Cloudera, former Hortonworks Consultant)
 
-[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=linkedin)](https://www.linkedin.com/in/HariSekhon/)
-###### (you're welcome to connect with me on LinkedIn)
+[![My LinkedIn](https://img.shields.io/badge/LinkedIn%20Profile-HariSekhon-blue?logo=data:image/svg%2bxml;base64,PHN2ZyByb2xlPSJpbWciIGZpbGw9IiNmZmZmZmYiIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TGlua2VkSW48L3RpdGxlPjxwYXRoIGQ9Ik0yMC40NDcgMjAuNDUyaC0zLjU1NHYtNS41NjljMC0xLjMyOC0uMDI3LTMuMDM3LTEuODUyLTMuMDM3LTEuODUzIDAtMi4xMzYgMS40NDUtMi4xMzYgMi45Mzl2NS42NjdIOS4zNTFWOWgzLjQxNHYxLjU2MWguMDQ2Yy40NzctLjkgMS42MzctMS44NSAzLjM3LTEuODUgMy42MDEgMCA0LjI2NyAyLjM3IDQuMjY3IDUuNDU1djYuMjg2ek01LjMzNyA3LjQzM2MtMS4xNDQgMC0yLjA2My0uOTI2LTIuMDYzLTIuMDY1IDAtMS4xMzguOTItMi4wNjMgMi4wNjMtMi4wNjMgMS4xNCAwIDIuMDY0LjkyNSAyLjA2NCAyLjA2MyAwIDEuMTM5LS45MjUgMi4wNjUtMi4wNjQgMi4wNjV6bTEuNzgyIDEzLjAxOUgzLjU1NVY5aDMuNTY0djExLjQ1MnpNMjIuMjI1IDBIMS43NzFDLjc5MiAwIDAgLjc3NCAwIDEuNzI5djIwLjU0MkMwIDIzLjIyNy43OTIgMjQgMS43NzEgMjRoMjAuNDUxQzIzLjIgMjQgMjQgMjMuMjI3IDI0IDIyLjI3MVYxLjcyOUMyNCAuNzc0IDIzLjIgMCAyMi4yMjIgMGguMDAzeiIvPjwvc3ZnPgo=)](https://www.linkedin.com/in/HariSekhon/)
+<br>*(you're welcome to connect with me on LinkedIn)*
 
 ### Quick Setup
 
 To bootstrap, install packages and link in to your shell profile to inherit all configs, do:
 
-```
+```bash
 curl -L https://git.io/bash-bootstrap | sh
 ```
 
@@ -203,7 +205,7 @@ curl -L https://git.io/bash-bootstrap | sh
 
 To only install package dependencies to run scripts, simply `cd` to the git clone directory and run `make`:
 
-```
+```shell
 git clone https://github.com/HariSekhon/DevOps-Bash-tools bash-tools
 cd bash-tools
 make
@@ -213,34 +215,35 @@ make
 
 ## Index
 
-- [Linux & Mac](https://github.com/HariSekhon/DevOps-Bash-tools#linux--mac) - curl OAuth / JWT, LDAP, find duplicate files, SSL certificate get/validate, URL encoding/decoding, Vagrant, advanced configurations:
+- [Linux & Mac](#linux--mac) - curl OAuth / JWT, LDAP, find duplicate files, SSL certificate get/validate, URL encoding/decoding, Vagrant, advanced configurations:
   - `.bashrc`, `.bash.d/*.sh`, `.gitconfig`, `.vimrc`, `.screenrc`, `.tmux.conf`, `.toprc`, `.gitignore`...
-- [AWS - Amazon Web Services](https://github.com/HariSekhon/DevOps-Bash-tools#aws---amazon-web-services) - AWS account summary, lots of IAM reports, CIS Benchmark config hardening, EC2, ECR, EKS, Spot termination, S3 access logging, KMS key rotation info, SSM, CloudTrail, CloudWatch billing alarm with SNS notification topic and subscription for email alerts
-- [GCP - Google Cloud Platform](https://github.com/HariSekhon/DevOps-Bash-tools#gcp---google-cloud-platform) - massive GCP auto-inventory, scripts for GCE, GKE, GCR, Secret Manager, BigQuery, Cloud SQL, Cloud Scheduler, Terraform service account creation
-- [Kubernetes](https://github.com/HariSekhon/DevOps-Bash-tools#kubernetes) - massive Kubernetes auto-inventory, cluster management scripts & tricks
-- [Docker](https://github.com/HariSekhon/DevOps-Bash-tools#docker) - Docker API, Dockerhub API, Quay.io API scripts
-- [Databases](https://github.com/HariSekhon/DevOps-Bash-tools#databases) - fast CLI wrappers, instant Docker sandboxes (PostgreSQL, MySQL, MariaDB, SQLite), [SQL scripts](https://github.com/HariSekhon/SQL-scripts), SQL script testers against all versions of a DB, advanced `.psqlrc`
-- [Big Data & NoSQL](https://github.com/HariSekhon/DevOps-Bash-tools#big-data--nosql) - Kafka, Hadoop, HDFS, Hive, Impala, ZooKeeper, Cloudera Manager API & Cloudera Navigator API scripts
-- [Git - GitHub, GitLab, Bitbucket, Azure DevOps](https://github.com/HariSekhon/DevOps-Bash-tools#git---github-gitlab-bitbucket-azure-devops) - scripts for Git local & mirror management, GitHub, GitLab & BitBucket APIs
-- [CI/CD - Continuous Integration / Continuous Delivery](https://github.com/HariSekhon/DevOps-Bash-tools#cicd---continuous-integration--continuous-deployment) - API scripts & build pipeline configs for most major CI systems:
+- [AWS - Amazon Web Services](#aws---amazon-web-services) - AWS account summary, lots of IAM reports, CIS Benchmark config hardening, EC2, ECR, EKS, Spot termination, S3 access logging, KMS key rotation info, SSM, CloudTrail, CloudWatch billing alarm with SNS notification topic and subscription for email alerts
+- [GCP - Google Cloud Platform](#gcp---google-cloud-platform) - massive GCP auto-inventory, scripts for GCE, GKE, GCR, Secret Manager, BigQuery, Cloud SQL, Cloud Scheduler, Terraform service account creation
+- [Kubernetes](#kubernetes) - massive Kubernetes auto-inventory, cluster management scripts & tricks
+- [Docker](#docker) - Docker API, Dockerhub API, Quay.io API scripts
+- [Databases](#databases) - fast CLI wrappers, instant Docker sandboxes (PostgreSQL, MySQL, MariaDB, SQLite), [SQL scripts](https://github.com/HariSekhon/SQL-scripts), SQL script testers against all versions of a DB, advanced `.psqlrc`
+- [Data](#data) - data tools, converters and format validators for Avro, Parquet, CSV, JSON, INI / Properties files (Java), LDAP LDIF, XML, YAML
+- [Big Data & NoSQL](#big-data--nosql) - Kafka, Hadoop, HDFS, Hive, Impala, ZooKeeper, Cloudera Manager API & Cloudera Navigator API scripts
+- [Git - GitHub, GitLab, Bitbucket, Azure DevOps](#git---github-gitlab-bitbucket-azure-devops) - scripts for Git local & mirror management, GitHub, GitLab & BitBucket APIs
+- [CI/CD - Continuous Integration / Continuous Delivery](#cicd---continuous-integration--continuous-deployment) - API scripts & build pipeline configs for most major CI systems:
   - Jenkins, Concourse, GoCD, TeamCity - one-touch boot & build
   - Azure DevOps Pipelines, GitHub Actions Workflows, GitLab CI, BitBucket Pipelines, AppVeyor, BuildKite, Travis CI, Circle CI, Codefresh, CodeShip, Drone.io, Semaphore CI, Shippable ...
   - Terraform Cloud, Octopus Deploy
   - Checkov / Bridgecrew Cloud
-- [AI & IPaaS](https://github.com/HariSekhon/DevOps-Bash-tools#ai--ipaas) - OpenAI (ChatGPT), Make.com
-- [Internet Services](https://github.com/HariSekhon/DevOps-Bash-tools#internet-services) - Cloudflare, DataDog, Digital Ocean, Kong API Gateway, GitGuardian, Jira, NGrok, Traefik, Pingdom
-- [Perl](https://github.com/HariSekhon/DevOps-Bash-tools#perl) - Perl utilities & library management
-- [Python](https://github.com/HariSekhon/DevOps-Bash-tools#python) - Python utilities & library management
-- [Golang](https://github.com/HariSekhon/DevOps-Bash-tools#golang) - Golang utilities
-- [Media](https://github.com/HariSekhon/DevOps-Bash-tools#media) - MP3 metadata editing, grouping and ordering of albums and audiobooks, mkv/avi to mp4 converters
-- [Spotify](https://github.com/HariSekhon/DevOps-Bash-tools#spotify) - 40+ Spotify API scripts for backups, managing playlists, track deduplication, URI conversion, search, add/delete, liked tracks, followed artists, top artists, top tracks etc.
-- [More Linux & Mac](https://github.com/HariSekhon/DevOps-Bash-tools#more-linux--mac) - more systems administration scripts, package installation automation
-- [Builds, Languages & Linting](https://github.com/HariSekhon/DevOps-Bash-tools#builds-languages--linting) - programming language, build system & CI linting
-- [Data Format Conversion & Validation](https://github.com/HariSekhon/DevOps-Bash-tools#data-format-conversion--validation) - data validation scripts for CSV, JSON, Avro, Parquet, INI / Properties files (Java), LDAP LDIF, XML, YAML
+- [AI & IPaaS](#ai--ipaas) - OpenAI (ChatGPT), Make.com
+- [Internet Services](#internet-services) - Cloudflare, DataDog, Digital Ocean, Kong API Gateway, GitGuardian, Jira, NGrok, Traefik, Pingdom, Wordpress
+- [Java](#java) - Java utilies to debug running Java programs or decompile Java JAR code for deeper debugging
+- [Python](#python) - Python utilities & library management
+- [Perl](#perl) - Perl utilities & library management
+- [Golang](#golang) - Golang utilities
+- [Media](#media) - MP3 metadata editing, grouping and ordering of albums and audiobooks, mkv/avi to mp4 converters, YouTube channel download
+- [Spotify](#spotify) - 40+ Spotify API scripts for backups, managing playlists, track deduplication, URI conversion, search, add/delete, liked tracks, followed artists, top artists, top tracks etc.
+- [More Linux & Mac](#more-linux--mac) - more systems administration scripts, package installation automation
+- [Builds, Languages & Linting](#builds-languages--linting) - programming language, build system & CI linting
 - [Templates](https://github.com/HariSekhon/Templates) - Templates for AWS, GCP, Terraform, Docker, Jenkins, Cloud Build, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, GitHub Actions, CircleCI, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml etc.
 - [Kubernetes Configs](https://github.com/HariSekhon/Kubernetes-configs) - Kubernetes YAML configs for most common scenarios, including Production Best Practices, Tips & Tricks
 
-#### Linux & Mac
+### Linux & Mac
 
 Top-level `.bashrc`, `bin/`, `.bash.d/` and `configs/` directories:
 
@@ -267,53 +270,76 @@ Top-level `.bashrc`, `bin/`, `.bash.d/` and `configs/` directories:
   - and lots more - see [.bash.d/README](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/.bash.d/README.md) for a more detailed list
   - run `make bash` to link `.bashrc`/`.bash_profile` and the `.*` dot config files to your `$HOME` directory to auto-inherit everything
 - `lib/*.sh` - Bash utility libraries full of functions for
-[Docker](https://www.docker.com/),
-environment,
-CI detection ([Travis CI](https://travis-ci.org/), [Jenkins](https://jenkins.io/) etc),
-port and HTTP url availability content checks etc.
-Sourced from all my other [GitHub repos](https://github.com/harisekhon) to make setting up Dockerized tests easier.
-- `setup/install_*.sh` - various simple to use installation scripts for common technologies like
-[AWS CLI](https://aws.amazon.com/cli/),
-[Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest),
-[GCloud SDK](https://cloud.google.com/sdk),
-[Terraform](https://www.terraform.io/),
-[Ansible](https://www.ansible.com/),
-[MiniKube](https://kubernetes.io/docs/setup/learning-environment/minikube/),
-[MiniShift](https://www.okd.io/minishift/)
-(Kubernetes / [Redhat OpenShift](https://www.openshift.com/)/[OKD](https://www.okd.io/) dev VMs),
-[Maven](https://maven.apache.org/),
-[Gradle](https://gradle.org/),
-[SBT](https://www.scala-sbt.org/),
-[EPEL](https://fedoraproject.org/wiki/EPEL),
-[RPMforge](http://repoforge.org/),
-[Homebrew](https://brew.sh/),
-[Travis CI](https://travis-ci.org/),
-[Circle CI](https://circleci.com/),
-[AppVeyor](https://www.appveyor.com/),
-[BuildKite](https://buildkite.com),
-[Parquet Tools](https://github.com/apache/parquet-mr/tree/master/parquet-tools)
-etc.
+  [Docker](https://www.docker.com/),
+  environment,
+  CI detection ([Travis CI](https://travis-ci.org/), [Jenkins](https://jenkins.io/) etc),
+  port and HTTP url availability content checks etc.
+  Sourced from all my other [GitHub repos](https://github.com/harisekhon) to make setting up Dockerized tests easier.
+- `install/install_*.sh` - various simple to use installation scripts for common technologies like
+  [AWS CLI](https://aws.amazon.com/cli/),
+  [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/?view=azure-cli-latest),
+  [GCloud SDK](https://cloud.google.com/sdk),
+  [Terraform](https://www.terraform.io/),
+  [Ansible](https://www.ansible.com/),
+  [MiniKube](https://kubernetes.io/docs/setup/learning-environment/minikube/),
+  [MiniShift](https://www.okd.io/minishift/)
+  (Kubernetes / [Redhat OpenShift](https://www.openshift.com/)/[OKD](https://www.okd.io/) dev VMs),
+  [Maven](https://maven.apache.org/),
+  [Gradle](https://gradle.org/),
+  [SBT](https://www.scala-sbt.org/),
+  [EPEL](https://fedoraproject.org/wiki/EPEL),
+  [RPMforge](http://repoforge.org/),
+  [Homebrew](https://brew.sh/),
+  [Travis CI](https://travis-ci.org/),
+  [Circle CI](https://circleci.com/),
+  [AppVeyor](https://www.appveyor.com/),
+  [BuildKite](https://buildkite.com),
+  [Parquet Tools](https://github.com/apache/parquet-mr/tree/master/parquet-tools)
+  etc.
 - `login.sh` - logs to major Cloud platforms if their credentials are found in the environment, CLIs such as AWS, GCP, Azure, GitHub... Docker registries: DockerHub, GHCR, ECR, GCR, GAR, ACR, Gitlab, Quay...
 - `clean_caches.sh` - cleans out OS package and programming language caches - useful to save space or reduce Docker image size
+- `delete_duplicate_files.sh` - deletes duplicate files with (N) suffixes, commonly caused by web browser downloads,
+- `download_url_file.sh` - downloads a file from a URL using wget with no clobber and continue support, or curl with atomic replacement to avoid race conditions. Used by `github/github_download_release_file.sh`, `github_download_release_jar.sh`, and `install/download_*_jar.sh`
+- `dump_stats.sh` - dumps common command outputs to text files in a local tarball. Useful to collect support information for vendor support cases
+  in the given or current directory. Checks they're exact duplicates of a matching basename file without the (N) suffix with
+  the exact same checksum for safety. Prompts to delete per file. To auto-accept deletions, do
+  `yes | delete_duplicate_files.sh`. This is a fast way of cleaning up your `~/Downloads` directory and can be put your
+  user crontab
 - `curl_auth.sh` - shortens `curl` command by auto-loading your OAuth2 / JWT API token or username & password from environment variables or interactive starred password prompt through a ram file descriptor to avoid placing them on the command line (which would expose your credentials in the process list or OS audit log files). Used by many other adjacent API querying scripts
-- `ldapsearch.sh` - shortens `ldapsearch` command by inferring switches from environment variables
-- `ldap_user_recurse.sh` / `ldap_group_recurse.sh` - recurse Active Directory LDAP users upwards to find all parent groups, or groups downwards to find all nested users (useful for debugging LDAP integration and group-based permissions)
 - `find_duplicate_files*.sh` - finds duplicate files by size and/or checksum in given directory trees. Checksums are only done on files that already have matching byte counts for efficiency
 - `find_broken_links.sh` - find broken links with delays to avoid tripping defenses
 - `find_broken_symlinks.sh` - find broken symlinks pointing to non-existent files/directories
-- `jvm_heaps*.sh` - show all your Java heap sizes for all running Java processes, and their total MB (for performance tuning and sizing)
+- `http_duplicate_urls.sh` - find duplicate URLs in a given web page
+- `image_join_stack.sh` - stack joins two images after matching their widths so they align correctly
+- `ldapsearch.sh` - shortens `ldapsearch` command by inferring switches from environment variables
+- `ldap_user_recurse.sh` / `ldap_group_recurse.sh` - recurse Active Directory LDAP users upwards to find all parent groups, or groups downwards to find all nested users (useful for debugging LDAP integration and group-based permissions)
+- `log_timestamp_large_intervals.sh` - finds log lines whose timestamp intervals exceed the given number of seconds and outputs those log lines with the difference between the last and current timestamps. Useful to find actions that are taking a long time from log files such as CI/CD logs
+- `mac_diff_settings.sh` - takes before and after snapshots of UI setting changes and diffs them to make it easy to find `defaults` keys to add to `setup/mac_settings.sh` to save settings
+- `mac_iso_to_usb.sh` - converts a given ISO file to a USB bootable image and burns it onto a given or detected inserted USB drive
+- `organize_downloads.sh` - moves files of well-known extensions in the `$HOME/Downloads` directory older than 1 week to capitalized subdirectories of their type to keep the `$HOME/Downloads/` directory tidy
+- `copy_to_clipboard.sh` - copies stdin or string arg to system clipboard on Linux or Mac
+- `paste_from_clipboard.sh` - pastes from system clipboard to stdout on Linux or Mac
+- `paste_diff_settings.sh` - Takes snapshots of before and after clipboard changes and diffs them to show config changes
+- `pldd.sh` - parses `/proc` on Linux to show the runtime `.so` loaded dynamic shared libraries a program pid is using. Runtime equivalent of the classic static `ldd` command and because the system `pldd` command often fails to attach to a process
 - `random_select.sh` - selects one of given args at random. Useful for sampling, running randomized subsets of large test suites etc.
+- `shields_embed_logo.sh` - base64 encodes a given icon file or url and prints the `logo=...` url parameter you need to add the [shields.io](https://shields.io/) badge url
 - `shred_file.sh` - overwrites a file 7 times to DoD standards before deleting it to prevent recovery of sensitive information
 - `shred_free_space.sh` - overwrites free space to prevent recovery of sensitive information for files that have already been deleted
 - `split.sh` - split large files into N parts (defaults to the number of your CPU cores) to parallelize operations on them
+- `ssh_dump_stats.sh` - uses SSH and `dump_stats.sh` to dump common command outputs from remote servers to a local tarball. Useful for vendor support cases
+- `ssh_dump_logs.sh` - Uses SSH to dump logs from server to local text files for uploading to vendor support cases
 - `ssl_get_cert.sh` - gets a remote `host:port` server's SSL cert in a format you can pipe, save and use locally, for example in Java truststores
 - `ssl_verify_cert.sh` - verifies a remote SSL certificate (battle tested more feature-rich version `check_ssl_cert.pl` exists in the [Advanced Nagios Plugins](https://github.com/HariSekhon/Nagios-Plugins) repo)
 - `ssl_verify_cert_by_ip.sh` - verifies SSL certificates on specific IP addresses, useful to test SSL source addresses for CDNs, such as Cloudflare Proxied sources before enabling SSL Full-Strict Mode for end-to-end, or Kubernetes ingresses (see also `curl_k8s_ingress.sh`)
 - `urlencode.sh` / `urldecode.sh` - URL encode/decode quickly on the command line, in pipes etc.
+- `urlopen.sh` - opens the given URL from first arg or stdin, or first URL found in a given file. Uses the system's default browser
 - `vagrant_hosts.sh` - generate `/etc/hosts` output from a `Vagrantfile`
 - `vagrant_total_mb.sh` - calculate the RAM committed to VMs in a `Vagrantfile`
 
-#### Databases
+See also [Knowledge Base notes for Linux](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md)
+and [Mac](https://github.com/HariSekhon/Knowledge-Base/blob/main/linux.md).
+
+### Databases
 
 `mysql/`, `postgres/`, `sql/` and `bin/` directories:
 
@@ -332,7 +358,7 @@ etc.
   - `postgres_foreach_table.sh` - executes a SQL query against every table, replacing `{db}`, `{schema}` and `{table}` in each iteration eg. `select count(*) from {table}`
   - `postgres_*.sh` - various scripts using `psql.sh` for row counts, iterating each table, or outputting clean lists of databases, schemas and tables for quick scripting
 
-#### AWS - Amazon Web Services
+### AWS - Amazon Web Services
 
 `aws/` directory:
 
@@ -359,8 +385,16 @@ etc.
   - `aws_config_recording.sh` - lists [AWS Config](https://aws.amazon.com/config/) recorders, their recording status (should be true) and their last status (should be success)
   - `aws_csv_creds.sh` - prints AWS credentials from a CSV file as shell export statements. Useful to quickly switch your shell to some exported credentials from a service account for testing permissions or pipe to upload to a CI/CD system via an API (eg. `jenkins_cred_add*.sh`, `github_actions_repo*_set_secret.sh`, `gitlab_*_set_env_vars.sh`, `circleci_*_set_env_vars.sh`, `bitbucket_*_set_env_vars.sh`, `terraform_cloud_*_set_vars.sh`, `kubectl_kv_to_secret.sh`). Supports new user and new access key csv file formats.
   - `aws_codecommit_csv_creds.sh` - prints AWS [CodeCommit](https://aws.amazon.com/codecommit/) Git credentials from a CSV file as shell export statements. Similar use case and chaining as above
-  - `aws_ecr_*.sh` - [AWS ECR](https://aws.amazon.com/ecr/) docker image management scripts:
+  - `aws_ec2_list_instance_states.sh` - quickly list AWS EC2 instances, their DNS names and States in an easy to read table output
+  - `aws_ec2_terminate_instance_by_name.sh` - terminate an AWS EC2 instance by name
+  - `aws_ec2_ebs_*.sh` - AWS EC2 [EBS](https://aws.amazon.com/ebs/) scripts:
+    - `aws_ec2_ebs_volumes.sh` - list EC2 instances and their EBS volumes in the current region
+    - `aws_ec2_ebs_create_snapshot_and_wait.sh - creates a snapshot of a given EBS volume ID and waits for it to complete with exponential backoff
+    - `aws_ec2_ebs_resize_and_wait.sh - resizes an EBS volume and waits for it to complete modifying and optionally optimizing with exponential backoff
+    - `aws_ec2_ebs_volumes_unattached.sh` - list an unattached EBS volumes in a table format
+  - `aws_ecr_*.sh` - AWS [ECR](https://aws.amazon.com/ecr/) docker image management scripts:
     - `aws_ecr_docker_build_push.sh` - builds a docker image and pushes it to ECR with not just the `latest` docker tag but also the current Git hashref and Git tags
+    - `aws_ecr_list_repos.sh` - lists ECR repos, and their docker image mutability and whether image scanning is enabled
     - `aws_ecr_list_tags.sh` - lists all the tags for a given ECR docker image
     - `aws_ecr_newest_image_tags.sh` - lists the tags for the given ECR docker image with the newest creation date (can use this to determine which image version to tag as `latest`)
     - `aws_ecr_alternate_tags.sh` - lists all the tags for a given ECR docker `image:tag` (use arg `<image>:latest` to see what version / build hashref / date tag has been tagged as `latest`)
@@ -375,7 +409,7 @@ etc.
     - `aws_ecr_delete_old_tags.sh` - deletes tags older than N days for a given ECR docker image. Lists the image:tags to be deleted and prompts for confirmation safety
   - `aws_foreach_profile.sh` - executes a templated command across all AWS named profiles configured in AWS CLIv2, replacing `{profile}` in each iteration. Combine with other scripts for powerful functionality, auditing, setup etc. eg. `aws_kube_creds.sh` to configure `kubectl` config to all EKS clusters in all environments
   - `aws_foreach_region.sh` - executes a templated command against each AWS region enabled for the current account, replacing `{region}` in each iteration. Combine with AWS CLI or scripts to find resources across regions
-  - `aws_iam_*.sh` - [AWS IAM](https://aws.amazon.com/iam/) scripts:
+  - `aws_iam_*.sh` - AWS [IAM](https://aws.amazon.com/iam/) scripts:
     - `aws_iam_password_policy.sh` - prints [AWS password policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html) in `key = value` pairs for easy viewing / grepping (used by `aws_harden_password_policy.sh` before and after to show the differences)
     - `aws_iam_harden_password_policy.sh` - strengthens [AWS password policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html) according to [CIS Foundations Benchmark](https://d1.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf) recommendations
     - `aws_iam_replace_access_key.sh` - replaces the non-current IAM access key (Inactive, Not Used, longer time since used, or an explicitly given key), outputting the new key as shell export statements (useful for piping to the same tools listed for `aws_csv_creds.sh` above)
@@ -403,8 +437,10 @@ etc.
     - `aws_logs_batch_jobs.sh` - lists AWS Batch job submission requests and their callers
     - `aws_logs_ec2_spot.sh` - lists AWS EC2 Spot fleet creation requests, their caller and first tag value for origin hint
     - `aws_logs_ecs_tasks.sh` - lists AWS ECS task run requests, their callers and job definitions
-  - `aws_meta.sh` - [AWS EC2 Metadata API](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) query shortcut. See also the official [ec2-metadata](https://aws.amazon.com/code/ec2-instance-metadata-query-tool/) shell script with more features
+  - `aws_meta.sh` - AWS [EC2 Metadata API](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html) query shortcut. See also the official [ec2-metadata](https://aws.amazon.com/code/ec2-instance-metadata-query-tool/) shell script with more features
   - `aws_nat_gateways_public_ips.sh` - lists the public IPs of all NAT gateways. Useful to give to clients to permit through firewalls for webhooks or similar calls
+  - `aws_rds_open_port_to_my_ip.sh` - adds a security group to an RDS DB instance to open its native database SQL port to your public IP address
+  - `aws_rds_get_version.sh` - quickly retrieve the version of an RDS database to know which JDBC jar version to download using `install/download_*_jdbc.sh` when setting up connections
   - `aws_route53_check_ns_records.sh` - checks AWS [Route 53](https://aws.amazon.com/route53/) public hosted zones NS servers are delegated in the public DNS hierarchy and that there are no rogue NS servers delegated not matching the Route 53 zone configuration
   - `aws_sso_env_creds.sh` - retrieves AWS SSO session credentials in the format of environment export commands for copying to other systems like Terraform Cloud
   - `aws_s3_bucket.sh` - creates an S3 bucket, blocks public access, enables versioning, encryption, and optionally locks out any given user/group/role ARNs via a bucket policy for safety (eg. to stop Power Users accessing a sensitive bucket like Terraform state)
@@ -412,6 +448,7 @@ etc.
   - `aws_s3_account_block_public_access.sh` - blocks S3 public access at the AWS account level
   - `aws_s3_check_buckets_public_blocked.sh` - iterates each S3 bucket and checks it has public access fully blocked via policy. Parallelized for speedup
   - `aws_s3_check_account_public_blocked.sh` - checks S3 public access is blocked at the AWS account level
+  - `aws_s3_sync.sh` - syncs multiple AWS S3 URLs from file lists. Validates S3 URLs, source and destination list lengths matches, and optionally that path suffixes match, to prevent off-by-one human errors spraying data all over the wrong destination paths
   - `aws_s3_access_logging.sh` - lists [AWS S3](https://aws.amazon.com/s3/) buckets and their [access logging](https://docs.aws.amazon.com/AmazonS3/latest/dev/ServerLogs.html) status
   - `aws_spot_when_terminated.sh` - executes commands when the [AWS EC2](https://aws.amazon.com/ec2/) instance running this script is notified of [Spot Termination](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-spot-instances.html), acts as a latch mechanism that can be set any time after boot
   - `aws_sqs_check.sh` - sends a test message to an [AWS SQS](https://aws.amazon.com/sqs/) queue, retrieves it to check and then deletes it via the receipt handle id
@@ -426,14 +463,17 @@ etc.
     - `aws_secret_get.sh` - gets a secret value for a given secret from Secrets Manager, retrieving either a secure string or secure binary depending on which is available
   - `eksctl_cluster.sh` - downloads [eksctl](https://eksctl.io/) and creates an [AWS EKS](https://aws.amazon.com/eks/) Kubernetes cluster
 
-#### GCP - Google Cloud Platform
+See also [Knowledge Base notes for AWS](https://github.com/HariSekhon/Knowledge-Base/blob/main/aws.md).
+
+### GCP - Google Cloud Platform
 
 `gcp/` directory:
 
 - [Google Cloud](https://cloud.google.com/) scripts - `gcp_*.sh` / `gce_*.sh` / `gke_*.sh` / `gcr_*.sh` / `bigquery_*.sh`:
-  - `.envrc-gcp` - copy to `.envrc` for [direnv](https://direnv.net/) to auto-load GCP configuration settings such as Project, Region, Zone, GKE cluster kubectl context or any other GCloud SDK setting to shorten `gcloud` commands. Applies to the local shell environment only to avoid race conditions caused by naively changing the global gcloud config at `~/.config/gcloud/active_config`
+  - `.envrc-gcp` - copy to `.envrc` for [direnv](https://direnv.net/) to auto-load GCP configuration settings such as Project, Region, Zone, GKE cluster kubectl context or any other GCloud SDK settings to shorten `gcloud` commands. Applies to the local shell environment only to avoid race conditions caused by naively changing the global gcloud config at `~/.config/gcloud/active_config`
     - calls `.envrc-kubernetes` to set the `kubectl` context isolated to current shell to prevent race conditions between shells and scripts caused by otherwise naively changing the global `~/.kube/config` context
   - `gcp_terraform_create_credential.sh` - creates a service account for [Terraform](https://www.terraform.io/) with full permissions, creates and downloads a credential key json and even prints the `export GOOGLE_CREDENTIALS` command to configure your environment to start using Terraform immediately. Run once for each project and combine with [direnv](https://direnv.net/) for fast easy management of multiple GCP projects
+  - `gcp_ansible_create_credential.sh` - creates an [Ansible](https://www.ansible.com/) service account with permissions on the current project, creates and downloads a credential key json and prints the environment variable to immediately use it
   - `gcp_cli_create_credential.sh` - creates a GCloud SDK CLI service account with full owner permissions to all projects, creates and downloads a credential key json and even prints the `export GOOGLE_CREDENTIALS` command to configure your environment to start using it. Avoids having to reauth to `gcloud auth login` every day.
   - `gcp_spinnaker_create_credential.sh` - creates a [Spinnaker](https://spinnaker.io/) service account with permissions on the current project, creates and downloads a credential key json and even prints the Halyard CLI configuration commands to use it
   - `gcp_info.sh` - huge [Google Cloud](https://cloud.google.com/) inventory of deployed resources within the current project - Cloud SDK info plus all of the following (detects which services are enabled to query):
@@ -454,7 +494,7 @@ etc.
   - `gcp_info_all_projects.sh` - same as above but for all detected projects
   - `gcp_foreach_project.sh` - executes a templated command across all GCP projects, replacing `{project_id}` and `{project_name}` in each iteration (used by `gcp_info_all_projects.sh` to call `gcp_info.sh`)
   - `gcp_find_orphaned_disks.sh` - lists orphaned disks across one or more GCP projects (not attached to any compute instance)
-  - `gcp_secret*.sh` - [Google Secret Manager](https://cloud.google.com/secret-manager) scripts:
+  - `gcp_secret*.sh` - Google [Secret Manager](https://cloud.google.com/secret-manager) scripts:
     - `gcp_secret_add.sh` - reads a value from a command line argument or non-echo prompt and saves it to GCP Secrets Manager. Useful for uploading a password without exposing it on your screen
     - `gcp_secret_add_binary.sh` - uploads a binary file to GCP Secrets Manager by base64 encoding it first. Useful for uploading QR code screenshots. Useful for uploading things like QR code screenshots for sharing MFA to recovery admin accounts
     - `gcp_secret_update.sh` - reads a value from a command line argument or non-echo prompt and updates a given GCP Secrets Manager secret. Useful for uploading a password without exposing it on your screen
@@ -465,7 +505,7 @@ etc.
     - `gcp_secrets_labels.sh` - lists GCP Secrets and their labels, one per line suitable for quick views or shell pipelines
     - `gcp_secrets_update_lable.sh` - updates all GCP secrets in current project matching label key=value with a new label value
     - `gcp_service_account_credential_to_secret.sh` - creates GCP service account and exports a credential key to GCP Secret Manager (useful to stage or combine with `gcp_secrets_to_kubernetes.sh`)
-  - `gke_*.sh` - [Google Kubernetes Engine](https://cloud.google.com/kubernetes-engine) scripts
+  - `gke_*.sh` - Google [Kubernetes Engine](https://cloud.google.com/kubernetes-engine) scripts
     - `gke_kube_creds.sh` - auto-loads all GKE clusters credentials in the current / given / all projects so your kubectl is ready to rock on GCP
     - `gke_kubectl.sh` - runs kubectl commands safely fixed to a given GKE cluster using config isolation to avoid concurrency race conditions
     - `gke_firewall_rule_cert_manager.sh` - creates a GCP firewall rule for a given GKE cluster's masters to access [Cert Manager](https://cert-manager.io/) admission webhook (auto-determines the master cidr, network and target tags)
@@ -475,7 +515,7 @@ etc.
     - `gke_nodepool_taint.sh` - taints/untaints all nodes in a given GKE nodepool on the current cluster (see `kubectl_node_taints.sh` for a quick way to see taints)
     - `gke_nodepool_drain.sh` - drains all nodes in a given nodepool (to decommission or rebuild the node pool, for example with different taints)
     - `gke_persistent_volumes_disk_mappings.sh` - lists GKE kubernetes persistent volumes to GCP persistent disk names, along with PVC and namespace, useful when investigating, resizing PVs etc.
-  - `gcr_*.sh` - [Google Container Registry](https://cloud.google.com/container-registry) scripts:
+  - `gcr_*.sh` - Google [Container Registry](https://cloud.google.com/container-registry) scripts:
     - `gcr_list_tags.sh` - lists all the tags for a given GCR docker image
     - `gcr_newest_image_tags.sh` - lists the tags for the given GCR docker image with the newest creation date (can use this to determine which image version to tag as `latest`)
     - `gcr_alternate_tags.sh` - lists all the tags for a given GCR docker `image:tag` (use arg `<image>:latest` to see what version / build hashref / date tag has been tagged as `latest`)
@@ -490,7 +530,11 @@ etc.
   - CI/CD on GCP - trigger Google Cloud Build and GKE Kubernetes deployments from orthogonal CI/CD systems like Jenkins / TeamCity:
     - `gcp_ci_build.sh` - script template for CI/CD to trigger Google Cloud Build to build docker container image with extra datetime and latest tagging
     - `gcp_ci_deploy_k8s.sh` - script template for CI/CD to deploy GCR docker image to GKE Kubernetes using Kustomize
-  - `gce_*.sh` - [Google Compute Engine](https://cloud.google.com/compute/) scripts:
+  - `gce_*.sh` - Google [Compute Engine](https://cloud.google.com/compute/) scripts:
+    - `gce_foreach_vm.sh` - run a command for each GCP VM instance matching the given name/ip regex in the current GCP project
+    - `gce_host_ips.sh` - prints the IPs and hostnames of all or a regex match of GCE VMs for use in /etc/hosts
+    - `gce_ssh.sh` - Runs `gcloud compute ssh` to a VM while auto-determining its zone first to override any inherited zone config and make it easier to script iterating through VMs
+    - `gcs_ssh_keyscan.sh` - SSH keyscans all the GCE VMs returned from the above `gce_host_ips.sh` script and adds them to `~/.ssh/known_hosts`
     - `gce_meta.sh` - simple script to query the GCE metadata API from within Virtual Machines
     - `gce_when_preempted.sh` - GCE VM preemption latch script - can be executed any time to set one or more commands to execute upon preemption
     - `gce_is_preempted.sh` - GCE VM return true/false if preempted, callable from other scripts
@@ -539,8 +583,12 @@ etc.
       - `gcp_iam_serviceaccounts_without_permissions.sh` - finds service accounts without IAM permissionns, useful to detect obsolete service accounts after a 90 day unused permissions clean out
       - `gcp_iam_workload_identities.sh` - lists GKE Workload Identity integrations, uses `gcp_iam_serviceaccount_members.sh`
       - `gcp_iam_users_granted_directly.sh` - lists GCP IAM users which have been granted roles directly in violation of best-practice group-based management
+  - `gcs_bucket_project.sh` - finds the GCP project that a given bucket belongs to using the GCP Storage API
+  - `gcs_curl_file.sh` - retrieves a GCS file's contents from a given bucket and path using the GCP Storage API. Useful for starting shell pipelines or being called from other scripts
 
-#### Kubernetes
+See also [Knowledge Base notes for GCP](https://github.com/HariSekhon/Knowledge-Base/blob/main/gcp.md).
+
+### Kubernetes
 
 `kubernetes/` directory:
 
@@ -564,6 +612,7 @@ etc.
 - `kubectl_create_namespaces.sh` - creates any namespaces in yaml files or stdin, a prerequisite for a diff on a blank install, used by adjacent scripts for safety
 - `kubernetes_check_objects_namespaced.sh` - checks Kubernetes yaml(s) for objects which aren't explicitly namespaced, which can easily result in deployments to the wrong namespace. Reads the API resources from your current Kubernetes cluster and if successful excludes cluster-wide objects
 - `kustomize_check_objects_namespaced.sh` - checks Kustomize build yaml output for objects which aren't explicitly namespaced (uses above script)
+- `kubectl_deployment_pods.sh` - gets the pod names with their unpredictable suffixes for a given deployment by querying the deployment's selector labels and then querying pods that match those labels
 - `kubectl_get_all.sh` - finds all namespaced Kubernetes objects and requests them for the current or given namespace. Useful because `kubectl get all` misses a lof of object types
 - `kubectl_get_annotation.sh` - find a type of object with a given annotation
 - `kubectl_restart.sh` - restarts all or filtered deployments/statefulsets in the current or given namespace. Useful when debugging or clearing application problems
@@ -571,8 +620,11 @@ etc.
 - `kubectl_kv_to_secret.sh` - creates a Kuberbetes secret from `key=value` or shell export format, as args or via stdin (eg. piped from `aws_csv_creds.sh`)
 - `kubectl_secret_values.sh` - prints the keys and base64 decoded values within a given Kubernetes secret for quick debugging of Kubernetes secrets. See also: `gcp_secrets_to_kubernetes.sh`
 - `kubectl_secrets_download.sh` - downloads all secrets in current or given namespace to local files of the same name, useful as a backup before migrating to Sealed Secrets
-- `kubernetes_secret_to_sealed_secret.sh` - generates a [Bitnami Sealed Secret](https://github.com/bitnami-labs/sealed-secrets) from an existing secret
-- `kubernetes_secrets_to_sealed_secrets.sh` - generates [Bitnami Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) from all existing secrets found in the current or given namespace
+- `kubernetes_secrets_compare_gcp_secret_manager.sh` - compares each Kubernetes secret to the corresponding secret in GCP Secret Manager. Useful to safety check GCP Secret Manager values align before enabling [External Secrets](https://external-secrets.io/latest/) to replace them
+- `kubernetes_secret_to_external_secret.sh` - generates an [External Secret](https://external-secrets.io/latest/) from an existing Kubernetes secret
+- `kubernetes_secrets_to_external_secrets.sh` - generates [External Secrets](https://external-secrets.io/latest/) from all existing Kubernetes secrets found in the current or given namespace
+- `kubernetes_secret_to_sealed_secret.sh` - generates a [Bitnami Sealed Secret](https://github.com/bitnami-labs/sealed-secrets) from an existing Kubernetes secret
+- `kubernetes_secrets_to_sealed_secrets.sh` - generates [Bitnami Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) from all existing Kubernetes secrets found in the current or given namespace
 - `kubectl_secrets_annotate_to_be_sealed.sh` - annotates secrets in current or given namespace to allow being overwritten by Sealed Secrets (useful to sync ArgoCD health)
 - `kubectl_secrets_not_sealed.sh` - finds secrets with no SealedSecret ownerReferences
 - `kubectl_secrets_to_be_sealed.sh` - finds secrets pending overwrite by Sealed Secrets with the managed annotation
@@ -591,6 +643,7 @@ etc.
 - `kubectl_pods_important.sh` - lists important pods and their nodes to check on scheduling
 - `kubectl_pods_colocated.sh` - lists pods from deployments/statefulsets that are colocated on the same node
 - `kubectl_node_labels.sh` - lists nodes and their labels, one per line, easier to read visually or pipe in scripting
+- `kubectl_pods_running_with_labels.sh` - lists running pods with labels matching key=value pair arguments
 - `kubectl_node_taints.sh` - lists nodes and their taints
 - `kubectl_jobs_stuck.sh` - finds Kubernetes jobs stuck for hours or days with no completions
 - `kubectl_jobs_delete_stuck.sh` - prompts for confirmation to delete stuck Kubernetes jobs found by script above
@@ -602,6 +655,11 @@ etc.
 - `kubectl_pod_ips.sh` - lists Kubernetes pods and their pod IP addresses
 - `kubectl_container_count.sh` - lists Kubernetes containers total running count
 - `kubectl_container_counts.sh` - lists Kubernetes containers running counts by name sorted descending
+- `kubectl_pods_dump_*.sh` - dump stats / logs / jstacks from all pods matching a given regex and namespace to txt files for support debugging
+  - `kubectl_pods_dump_stats.sh` - dump stats
+  - `kubectl_pods_dump_logs.sh` - dump logs
+  - `kubectl_pods_dump_jstacks.sh` - dump Java jstacks
+  - `kubectl_pods_dump_all.sh` - calls the above `kubectl_pods_dump_*.sh` scripts for N iterations with a given interval
 - `kubectl_empty_namespaces.sh` - finds namespaces without any of the usual objects using `kubectl get all`
 - `kubectl_delete_empty_namespaces.sh` - removes empty namespaces, uses `kubectl_empty_namespaces.sh`
 - `kubectl_<image>.sh` - quick launch one-off pods for interactive debuggging in Kubernetes
@@ -610,25 +668,39 @@ etc.
   - `kubectl_curl.sh`
   - `kubectl_dnsutils.sh`
   - `kubectl_gcloud_sdk.sh`
+  - `kubectl_run_sa.sh` - launch a quick pod with the given service account to test private repo pull & other permissions
+- `kubectl_port_forward.sh` - launches `kubectl port-forward` to a given pod's port with an optional label or name filter. If more than one pod is found, prompts with an interactive dialogue to choose one. Optionally automatically opens the forwarded localhost URL in the default browser
+  - `kubectl_port_forward_spark.sh` - does the above for Spark UI
 - `helm_template.sh` - templates a Helm chart for Kustomize deployments
 - `kustomize_parse_helm_charts.sh` - parses the [Helm](https://helm.sh/) charts from one or more `kustomization.yaml` files into TSV format for further shell pipe processing
 - `kustomize_install_helm_charts.sh` - installs the [Helm](https://helm.sh/) charts from one or more `kustomization.yaml` files the old fashioned Helm CLI way so that tools like [Nova](https://github.com/FairwindsOps/nova) can be used to detect outdated charts (used in [Kubernetes-configs](https://github.com/HariSekhon/Kubernetes-configs) repo's [CI](https://github.com/HariSekhon/Kubernetes-configs/actions/workflows/nova.yaml))
+- `kustomize_update_helm_chart_versions.sh` - updates one or more `kustomization.yaml` files to the latest versions of any charts they contain
 - `kustomize_materialize.sh` - recursively materializes all `kustomization.yaml` to `kustomization.materialized.yaml` in the same directories for scanning with tools like [Pluto](https://github.com/FairwindsOps/pluto) to detect deprecated API objects inherited from embedded Helm charts. Parallelized for performance
-- `argocd_apps_sync.sh` - sync's all [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) apps matching an optional ERE regex filter on their names using the ArgoCD CLI
-- `argocd_apps_wait_sync.sh` - sync's all [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) apps matching an optional ERE regex filter on their names using the ArgoCD CLI's while also checking their health and operation
-- `argocd_generate_resource_whitelist.sh` - generates a yaml cluster and namespace resource whitelist for ArgoCD project config. If given an existing yaml, will merge in its original whitelists, dedupe, and write them back into the file using an in-place edit. Useful because ArgoCD 2.2+ doesn't show resources that aren't explicitly allowed, such as ReplicaSets and Pods
-- `pluto_detect_kustomize_materialize.sh` - recursively materializes all `kustomization.yaml` as above and runs [Pluto](https://github.com/FairwindsOps/pluto) on each directory to work around [this issue](https://github.com/FairwindsOps/pluto/issues/444)
-- `pluto_detect_kubectl_dump_objects.sh` - dumps all live Kubernetes objects to /tmp all can run [Pluto](https://github.com/FairwindsOps/pluto) to detect deprecated API objects on the cluster from any source
+- ArgoCD:
+  - `argocd_auto_sync.sh` - toggle Auto-sync on/off to allow repairs and maintenance operation for a given app and also disables / re-enables the App-of-Apps base apps to stop then re-enabling the app
+  - `argocd_apps_sync.sh` - sync's all [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) apps matching an optional ERE regex filter on their names using the ArgoCD CLI
+  - `argocd_apps_wait_sync.sh` - sync's all [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) apps matching an optional ERE regex filter on their names using the ArgoCD CLI's while also checking their health and operation
+  - `argocd_generate_resource_whitelist.sh` - generates a yaml cluster and namespace resource whitelist for ArgoCD project config. If given an existing yaml, will merge in its original whitelists, dedupe, and write them back into the file using an in-place edit. Useful because ArgoCD 2.2+ doesn't show resources that aren't explicitly allowed, such as ReplicaSets and Pods
+- Pluto:
+  - `pluto_detect_helm_materialize.sh` - recursively materializes all helm `Chart.yaml` and runs [Pluto](https://github.com/FairwindsOps/pluto) on each directory to work around [this issue](https://github.com/FairwindsOps/pluto/issues/444)
+  - `pluto_detect_kustomize_materialize.sh` - recursively materializes all `kustomization.yaml` and runs [Pluto](https://github.com/FairwindsOps/pluto) on each directory to work around [this issue](https://github.com/FairwindsOps/pluto/issues/444)
+  - `pluto_detect_kubectl_dump_objects.sh` - dumps all live Kubernetes objects to /tmp all can run [Pluto](https://github.com/FairwindsOps/pluto) to detect deprecated API objects on the cluster from any source
+- Rancher:
+  - `rancher_api.sh` - queries the Rancher API with authentication
+  - `rancher_kube_creds.sh` - downloads all Rancher clusters credentials into subdirectories matching cluster names, with `.envrc` in each, so a quick `cd` into one and your kubectl is ready to rock
 - see also Google Kubernetes Engine scripts in the [GCP - Google Cloud Platform](https://github.com/HariSekhon/DevOps-Bash-tools/#gcp---google-cloud-platform) section above
 - see also the [Kubernetes configs](https://github.com/HariSekhon/Kubernetes-configs) repo
 
-#### Docker
+See also [Knowledge Base notes for Kubernetes](https://github.com/HariSekhon/Knowledge-Base/blob/main/kubernetes.md).
+
+### Docker
 
 `docker/` directory:
 
 - `docker_*.sh` / `dockerhub_*.sh` - [Docker](https://www.docker.com/) / [DockerHub](https://hub.docker.com/) API scripts:
   - `dockerhub_api.sh` - queries DockerHub API v2 with or without authentication (`$DOCKERHUB_USER` & `$DOCKERHUB_PASSWORD` / `$DOCKERHUB_TOKEN`)
   - `docker_api.sh` - queries a Docker Registry with optional basic authentication if `$DOCKER_USER` & `$DOCKER_PASSWORD` are set
+  - `docker_build_hashref.sh` - runs `docker build` and auto-generates docker image name and tag from relative Git path and commit short SHA hashref and a dirty sha suffix if git contents are modified. Useful to compare docker image sizes between your clean and modified versions of `Dockerfile` or contents
   - `docker_registry_list_images.sh` - lists images in a given private Docker Registry
   - `docker_registry_list_tags.sh` - lists tags for a given image in a private Docker Registry
   - `docker_registry_get_image_manifest.sh` - gets a given image:tag manifest from a private Docker Registry
@@ -640,7 +712,33 @@ etc.
   - see also the [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo
 - `quay_api.sh` - queries the [Quay.io](https://quay.io/) API with OAuth2 authentication token `$QUAY_TOKEN`
 
-#### Big Data & NoSQL
+See also [Knowledge Base notes for Docker](https://github.com/HariSekhon/Knowledge-Base/blob/main/docker.md).
+
+### Data
+
+`data/` directory:
+
+- `avro_tools.sh` - runs Avro Tools jar, downloading it if not already present (determines latest version when
+  downloading)
+- `parquet_tools.sh` - runs Parquet Tools jar, downloading it if not already present (determines latest version
+  when downloading)
+- `csv_header_indices.sh` - list CSV headers with their zero indexed numbers, useful reference when coding against
+  column positions
+- Data format validation `validate_*.py` from [DevOps Python Tools repo](https://github.com/HariSekhon/DevOps-Python-tools):
+
+  - CSV
+  - JSON
+  - [Avro](https://avro.apache.org/)
+  - [Parquet](https://parquet.apache.org/)
+  - INI / Properties files (Java)
+  - LDAP LDIF
+  - XML
+  - YAML
+
+- `json2yaml.sh` - converts JSON to YAML
+- `yaml2json.sh` - converts YAML to JSON - needed for some APIs like GitLab CI linting (see [Gitlab](https://github.com/HariSekhon/DevOps-Bash-tools#git---github-gitlab-bitbucket-azure-devops) section above)
+
+### Big Data & NoSQL
 
 `bigdata/` and `kafka/` directories:
 
@@ -680,34 +778,46 @@ etc.
   - `cloudera_navigator_audit_logs.sh` - fetches [Cloudera Navigator](https://www.cloudera.com/products/product-components/cloudera-navigator.html) audit logs for given service eg. hive/impala/hdfs via the API, simplifying date handling, authentication and common settings. Built on top of `cloudera_navigator_api.sh`
   - `cloudera_navigator_audit_logs_download.sh` - downloads [Cloudera Navigator](https://www.cloudera.com/products/product-components/cloudera-navigator.html) audit logs for each service by year. Skips existing logs, deletes partially downloaded logs on failure, generally retry safe (while true, Control-C, not `kill -9` obviously). Built on top of `cloudera_navigator_audit_logs.sh`
 
-#### Git - GitHub, GitLab, Bitbucket, Azure DevOps
+See also [Knowledge Base notes for Hadoop](https://github.com/HariSekhon/Knowledge-Base/blob/main/hadoop.md).
+
+### Git - GitHub, GitLab, Bitbucket, Azure DevOps
 
 `git/`, `github/`, `gitlab/`, `bitbucket/` and `azure_devops/` directories:
 
 - `git/*.sh` - [Git](https://git-scm.com/) scripts:
+  - `precommit_run_changed_files.sh` - runs pre-commit on all files changed on the current branch vs the default branch. Useful to reproduce `pre-commit` checks that are failing in pull requests to get your PRs to pass
+  - `git_diff_commit.sh` - runs git diff and commit with a generic `"updated $filename"` commit message for each file in the files or directories given if they have changed, or all committed files under `$PWD` if no args are given. Super convenient for fast commits on the command line, and in vim and IDEs via hotkeys
+  - `git_review_push.sh` - shows diff of what would be pushed upstream and prompts to push. Convenient for fast reviewed pushes via vim or IDEs hotkeys
+  - `git_branch_delete_squash_merged.sh` - carefully detects if a squash merged branch you want to delete has no changes with the default trunk branch before deleting it.
+     See [Squash Merges](https://github.com/HariSekhon/Knowledge-Base/blob/main/git.md#squash-merges-require-force-deleting-branches) in knowledge-base about why this is necessary.
   - `git_foreach_branch.sh` - executes a command on all branches (useful in heavily version branched repos like in my [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo)
   - `git_foreach_repo.sh` - executes a command against all adjacent repos from a given repolist (used heavily by many adjacent scripts)
   - `git_foreach_modified.sh` - executes a command against each file with git modified status
   - `git_merge_all.sh` / `git_merge_master.sh` / `git_merge_master_pull.sh` - merges updates from master branch to all other branches to avoid drift on longer lived feature branches / version branches (eg. [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) repo)
   - `git_remotes_add_origin_providers.sh` - auto-creates remotes for the 4 major public repositories ([GitHub](https://github.com/)/[GitLab](https://gitlab.com/)/[Bitbucket](https://bitbucket.org)/[Azure DevOps](https://dev.azure.com/)), useful for `git pull -all` to fetch and merge updates from all providers in one command
   - `git_remotes_set_multi_origin.sh` - sets up multi-remote origin for unified push to automatically keep the 4 major public repositories in sync (especially useful for [Bitbucket](https://bitbucket.org) and [Azure DevOps](https://dev.azure.com/) which don't have [GitLab](https://gitlab.com/)'s auto-mirroring from [GitHub](https://github.com/) feature)
-  - `git_remotes_set_ssh_to_https.sh` - converts local repo's remote URLs from ssh to https (to get through corporate firewalls), auto-loads http auth tokens if found in environment variables
-  - `git_remotes_set_https_to_ssh.sh` - converts local repo's remote URLs from https to ssh (more convenient with SSH keys instead of http auth tokens)
+  - `git_remotes_set_https_to_ssh.sh` - converts local repo's remote URLs from https to ssh (more convenient with SSH keys instead of https auth tokens, especially since Azure DevOps expires personal access tokens every year)
+  - `git_remotes_set_ssh_to_https.sh` - converts local repo's remote URLs from ssh to https (to get through corporate firewalls or hotels if you travel a lot)
+  - `git_remotes_set_https_creds_helpers.sh` - adds Git credential helpers configuration to the local git repo to use http API tokens dynamically from environment variables if they're set
   - `git_repos_pull.sh` - pull multiple repos based on a source file mapping list - useful for easily sync'ing lots of Git repos among computers
   - `git_repos_update.sh` - same as above but also runs the `make update` build to install the latest dependencies, leverages the above script
-  - `git_grep_env_vars.sh` - find environment variables in the current git repo's code base in the format `SOME_VAR` (useful to find undocumented environment variables in internal or open source projects such as ArgoCD eg. https://github.com/argoproj/argo-cd/pull/8680)
+  - `git_grep_env_vars.sh` - find environment variables in the current git repo's code base in the format `SOME_VAR` (useful to find undocumented environment variables in internal or open source projects such as ArgoCD eg. [argoproj/argocd-cd #8680](https://github.com/argoproj/argo-cd/pull/8680))
   - `git_log_empty_commits.sh` - find empty commits in git history (eg. if a `git filter-branch` was run but `--prune-empty` was forgotten, leaking metadata like subjects containing file names or other sensitive info)
   - `git_files_in_history.sh` - finds all filename / file paths in the git log history, useful for prepping for `git filter-branch`
-  - `git_filter_branch_fix_author.sh` - rewrites Git history to replace author/committer name & email references (useful to replace default account commits). Powerful, read `--help` and `man git-filter-branch` carefully. Should only be used by Git Experts.
+  - `git_filter_branch_fix_author.sh` - rewrites Git history to replace author/committer name & email references (useful to replace default account commits). Powerful, read `--help` and `man git-filter-branch` carefully. Should only be used by Git Experts
+  - `git_filter_repo_replace_text.sh` - rewrites Git history to replace a given text to scrub a credential or other sensitive token from history. Refuses to operate on tokens less than 8 chars for safety
   - `git_tag_release.sh` - creates a Git tag, auto-incrementing a `.N` suffix on the year/month/day date format if no exact version given
   - `git_submodules_update_repos.sh` - updates submodules (pulls and commits latest upstream github repo submodules) - used to cascade submodule updates throughout all my repos
   - `git_askpass.sh` - credential helper script to use environment variables for git authentication
-  - `readme_generate_index.sh` - generates a markdown list for all subtitles found in the given README.md. Useful to quickly regenerate the Index section of a README file
+  - `markdown_generate_index.sh` - generates a markdown index list from the headings in a given markdown file such as README.md
+  - `markdown_replace_index.sh` - replaces a markdown index section in a given markdown file using `markdown_generate_index.sh`
 - `github/*.sh` - [GitHub](https://github.com/) API / CLI scripts:
   - `github_api.sh` - queries the GitHub [API](https://docs.github.com/en/rest/reference). Can infer GitHub user, repo and authentication token from local checkout or environment (`$GITHUB_USER`, `$GITHUB_TOKEN`)
   - `github_install_binary.sh` - installs a binary from GitHub releases into $HOME/bin or /usr/local/bin. Auto-determines the latest release if no version specified, detects and unpacks any tarball or zip files
   - `github_foreach_repo.sh` - executes a templated command for each non-fork GitHub repo, replacing the `{owner}`/`{name}` or `{repo}` placeholders in each iteration
   - `github_clone_or_pull_all_repos.sh` - git clones or pulls all repos for a user or organization into directories of the same name under the current directory
+  - `github_download_release_file.sh` - downloads a file from GitHub Releases, optionally determining the latest version, uses `bin/download_url_file.sh`
+  - `github_download_release_jar.sh` - downloads a JAR file from GitHub Releases (used by `install/download_*_jar.sh` for things like [JDBC](https://github.com/HariSekhon/Knowledge-Base/blob/main/jdbc.md) drivers or [Java](#java) [decompilers](https://github.com/HariSekhon/Knowledge-Base/blob/main/java.md#java-decompilers)), optionally determines latest version to download, and finally validates the downloaded file's format
   - `github_invitations.sh` - lists / accepts repo invitations. Useful to accept a large number of invites to repos generated by automation
   - `github_mirror_repos_to_gitlab.sh` - creates/syncs GitHub repos to GitLab for migrations or to cron fast free Disaster Recovery, including all branches and tags, plus the repo descriptions. Note this doesn't include PRs/wikis/releases
   - `github_mirror_repos_to_bitbucket.sh` - creates/syncs GitHub repos to BitBucket for migrations or to cron fast free Disaster Recovery, including all branches and tags, plus the repo descriptions. Note this doesn't include PRs/wikis/releases
@@ -716,8 +826,12 @@ etc.
   - `github_pull_request_create.sh` - creates a Pull Request idempotently by first checking for an existing PR between the branches, and also checking if there are the necessary commits between the branches, to avoid common errors from blindly raising PRs. Useful to automate code promotion across environment branches. Also works across repo forks and is used by `github_repo_fork_update.sh`. Even populates github pull request template and does Jira ticket number replacement from branch prefix
   - `github_pull_request_preview.sh` - opens a GitHub Pull Request preview page from the current local branch to the given or default branch
   - `github_push_pr_preview.sh` - pushes to GitHub origin, sets upstream branch, then open a Pull Request preview from current branch to the given or default trunk branch in your browser
-  - `github_push_pr.sh` - pushes to Gitub origin, sets upstream branch, then idemopotently creates a Pull Request from current branch to the given or default trunk branch and opens the generated PR in your browser for review
+  - `github_push_pr.sh` - pushes to GitHub origin, sets upstream branch, then idemopotently creates a Pull Request from current branch to the given or default trunk branch and opens the generated PR in your browser for review
   - `github_merge_branch.sh` - merges one branch into another branch via a Pull Request for full audit tracking all changes. Useful to automate feature PRs, code promotion across environment branches, or backport hotfixes from Production or Staging to trunk branches such as master, main, dev or develop
+  - `github_remote_set_upstream.sh` - in a forked GitHub repo's checkout, determine the origin of the fork using GitHub CLI and configure a git remote to the upstream. Useful to be able to easily pull updates from the original source repo
+  - `github_pull_merge_trunk.sh` - pulls the origin or fork upstream repo's trunk branch and merges it into the local branch, In a forked GitHub repo's checkout, determines the origin of the fork using GitHub CLI, configures a git remote to the upstream, pulls the default branch and if on a branch other than the default then merges the default branch to the local current branch. Simplifies and automates keeping your checkout or forked repo up to date with the original source repo to quickly resolve merge conflicts locally and submit updated Pull Requests
+  - `github_forked_add_remote.sh` - quickly adds a forked repo as a remote from an interactive men list of forked repos
+  - `github_forked_checkout_branch.sh` - quickly check out a forked repo's branch from an interactive menu lists of forked repos and their branches
   - `github_actions_foreach_workflow.sh` - executes a templated command for each workflow in a given GitHub repo, replacing `{name}`, `{id}` and `{state}` in each iteration
   - `github_actions_aws_create_load_credential.sh` - creates an AWS user with group/policy, generates and downloads access keys, and uploads them to the given repo
   - `github_actions_in_use.sh` - lists GitHub Actions directly referenced in the .github/workflows in the current local repo checkout
@@ -774,9 +888,17 @@ etc.
   - `github_teams_not_in_terraform.sh` - finds all teams for given organization which are not found in `$PWD/*.tf` Terraform code
   - `github_repos_sync_status.sh` - determines whether each GitHub repo's mirrors on GitLab / BitBucket / Azure DevOps are up to date with the latest commits, by querying all 3 APIs and comparing master branch hashrefs
   - `github_teams_not_idp_synced.sh` - finds GitHub teams that aren't sync'd from an IdP like Azure AD. These should usually be migrated or removed
+  - `github_user_repos_stars.sh` - fetches the total number of stars for all original source public repos for a given user
+  - `github_user_repos_forks.sh` - fetches the total number of forks for all original source public repos for a given user
+  - `github_user_repos_count.sh` - fetches the total number of original source public repos for a given username
+  - `github_user_followers.sh` - fetches the number of followers for a given username
 - `gitlab/*.sh` - [GitLab](https://gitlab.com/) API scripts:
   - `gitlab_api.sh` - queries the GitLab [API](https://docs.gitlab.com/ee/api/api_resources.html). Can infer GitLab user, repo and authentication token from local checkout or environment (`$GITLAB_USER`, `$GITLAB_TOKEN`)
+  - `gitlab_install_binary.sh` - installs a binary from GitLab releases into $HOME/bin or /usr/local/bin. Auto-determines the latest release if no version specified, detects and unpacks any tarball or zip files
+  - `gitlab_push_mr_preview.sh` - pushes to GitLab origin, sets upstream branch, then open a Merge Request preview from current to default branch
+  - `github_push_mr.sh` - pushes to GitLab origin, sets upstream branch, then idemopotently creates a Merge Request from current branch to the given or default trunk branch and opens the generated MR in your browser for review
   - `gitlab_foreach_repo.sh` - executes a templated command for each GitLab project/repo, replacing the `{user}` and `{project}` in each iteration
+  - `gitlab_project_latest_release.sh` - returns the latest release tag for a given GitLab project (repo) via the GitLab API
   - `gitlab_project_set_description.sh` - sets the description for one or more projects using the GitLab API
   - `gitlab_project_set_env_vars.sh` - adds / updates GitLab project-level environment variable(s) via the API from `key=value` or shell export format, as args or via stdin (eg. piped from `aws_csv_creds.sh`)
   - `gitlab_group_set_env_vars.sh` - adds / updates GitLab group-level environment variable(s) via the API from `key=value` or shell export format, as args or via stdin (eg. piped from `aws_csv_creds.sh`)
@@ -803,7 +925,9 @@ etc.
   - `bitbucket_ssh_add_public_keys.sh` - uploads SSH keys from local files or standard input to the currently authenticated BitBucket account. Specify pubkey files (default: `~/.ssh/id_rsa.pub`) or read from standard input for piping from adjacent tools
   - `bitbucket_ssh_delete_public_keys.sh` - uploads SSH keys from local files or standard input to the currently authenticated BitBucket account. Specify pubkey files (default: `~/.ssh/id_rsa.pub`) or read from standard input for piping from adjacent tools
 
-#### CI/CD - Continuous Integration / Continuous Deployment
+See also [Knowledge Base notes for Git](https://github.com/HariSekhon/Knowledge-Base/blob/main/git.md).
+
+### CI/CD - Continuous Integration / Continuous Deployment
 
 `jenkins/`, `terraform/`, `teamcity/`, `buildkite/`, `circlci/`, `travis/`, `azure_devops/`, ...,  `cicd/` directories:
 
@@ -827,10 +951,10 @@ etc.
 - `wercker_app_api.sh` - queries [Wercker](https://app.wercker.com/)'s Applications API with authentication
 - `gocd_api.sh` - queries [GoCD](https://www.gocd.org/)'s API
 - `gocd.sh` - one-touch [GoCD CI](https://www.gocd.org/):
-    - launches in Docker
-    - (re)creates config repo (`$PWD/setup/gocd_config_repo.json`) from which to source pipeline(s) (`.gocd.yml`)
-    - detects and enables agent(s) to start building
-    - call from any repo top level directory with a `.gocd.yml` config (all mine have it), mimicking structure of fully managed CI systems
+  - launches in Docker
+  - (re)creates config repo (`$PWD/setup/gocd_config_repo.json`) from which to source pipeline(s) (`.gocd.yml`)
+  - detects and enables agent(s) to start building
+  - call from any repo top level directory with a `.gocd.yml` config (all mine have it), mimicking structure of fully managed CI systems
 - `concourse.sh` - one-touch [Concourse CI](https://concourse-ci.org/):
   - launches in Docker
   - configures pipeline from `$PWD/.concourse.yml`
@@ -859,6 +983,8 @@ etc.
     - `jenkins_job_disable.sh` - disables a Jenkins job by name
     - `jenkins_job_trigger.sh` - triggers a Jenkins job by name
     - `jenkins_job_trigger_with_params.sh` - triggers a Jenkins job with parameters which can be passed as `--data KEY=VALUE`
+    - `jenkins_jobs_enable.sh` - enables all Jenkins jobs/pipelines with names matching a given regex
+    - `jenkins_jobs_disable.sh` - disables all Jenkins jobs/pipelines with names matching a given regex
     - `jenkins_builds.sh` - lists Jenkins latest builds for every job
     - `jenkins_cred_add_cert.sh` - creates a Jenkins certificate credential from a PKCS#12 keystore
     - `jenkins_cred_add_kubernetes_sa.sh` - creates a Jenkins Kubernetes service account credential
@@ -882,6 +1008,8 @@ etc.
     - `jenkins_cred_set_user_pass.sh` - creates or updates a Jenkins username/password credential
   - `jenkins_cli.sh` - shortens `jenkins-cli.jar` command by auto-inferring basic configuations, auto-downloading the CLI if absent, inferrings a bunch of Jenkins related variables like `$JENKINS_URL`, `$JENKINS_CLI_ARGS` and authentication using `$JENKINS_USER`/`$JENKINS_PASSWORD`, or finds admin password from inside local docker container. Used heavily by `jenkins.sh` one-shot setup and the following scripts:
     - `jenkins_foreach_job_cli.sh` - runs a templated command for each Jenkins job
+    - `jenkins_create_job_parallel_test_runs.sh` - creates a freestyle parameterized test sleep job and launches N parallel runs of it to test scaling and parallelization of [Jenkins on Kubernetes](https://github.com/HariSekhon/Kubernetes-configs#jenkins-on-kubernetes) agents
+    - `jenkins_create_job_check_gcp_serviceaccount.sh` - creates a freestyle test job which runs a GCP Metadata query to determine the GCP serviceaccount the agent pod is operating under to check GKE Workload Identity integration
     - `jenkins_jobs_download_configs_cli.sh` - downloads all Jenkins job configs to xml files of the same name
     - `jenkins_cred_cli_add_cert.sh` - creates a Jenkins certificate credential from a PKCS#12 keystore
     - `jenkins_cred_cli_add_kubernetes_sa.sh` - creates a Jenkins Kubernetes service account credential
@@ -904,7 +1032,9 @@ etc.
     - `jenkins_cred_cli_set_ssh_key.sh` - creates or updates a Jenkins SSH key credential from a string or an SSH private key file
     - `jenkins_cred_cli_set_user_pass.sh` - creates or updates a Jenkins username/password credential
   - `jenkins_password.sh` - gets Jenkins admin password from local docker container. Used by `jenkins_cli.sh`
+  - `jenkins_plugins_latest_versions.sh` - finds the latest versions of given Jenkins plugins. Useful to programmatically upgrade your Jenkins on Kubernetes plugins defined in [values.yaml](https://github.com/HariSekhon/Kubernetes-configs/blob/6d9e34b74d3fa8f353b0fe56e74cea3af439e01a/jenkins/base/values.yaml#L145)
   - `check_jenkinsfiles.sh` - validates all `*Jenkinsfile*` files in the given directory trees using the online Jenkins validator
+  - See also [Knowledge Base notes for Jenkins](https://github.com/HariSekhon/Knowledge-Base/blob/main/jenkins.md).
 - `teamcity/*.sh` - [TeamCity CI](https://www.jetbrains.com/teamcity/) scripts:
   - `teamcity.sh` - one-touch [TeamCity CI](https://www.jetbrains.com/teamcity/) cluster:
     - launches Docker containers with server and 1 agent
@@ -998,6 +1128,8 @@ etc.
   - `terraform_cloud_varset_set_vars.sh` - adds / updates Terraform sensitive environment/terraform variable(s) in a given variable set via the API from `key=value` or shell export format, as args or via stdin (eg. piped from `aws_csv_creds.sh`)
   - `terraform_cloud_varset_delete_vars.sh` - deletes one or more Terraform variables in a given variable set
 - `terraform_*.sh` - [Terraform](https://www.terraform.io/) scripts:
+  - `terraform_gcs_backend_version.sh` - determines the Terraform state version from the tfstate file in a GCS bucket found in a local given `backend.tf`
+  - `terraform_gitlab_download_backend_variable.sh` - downloads backend.tf from a GitLab CI/CD variable to be able to quickly iterate plans locally
   - `terraform_import.sh` - finds given resource type in `./*.tf` code or Terraform plan output that are not in Terraform state and imports them
   - `terraform_import_aws_iam_users.sh` - parses Terraform plan output to import new `aws_iam_user` additions into Terraform state
   - `terraform_import_aws_iam_groups.sh` - parses Terraform plan output to import new `aws_iam_group` additions into Terraform state
@@ -1012,24 +1144,27 @@ etc.
   - `terraform_import_github_team_repos.sh` - finds all `github_team_repository` in Terraform plan that would be added, then queries the GitHub API for the repos and team IDs and if they both exist then imports them to Terraform state
   - `terraform_resources.sh` - external program to get all resource ids and attribute for a given resource type to work around Terraform splat expression limitation ([#19931](https://github.com/hashicorp/terraform/issues/19931))
   - `terraform_managed_resource_types.sh` - quick parse of what Terraform resource types are found in `*.tf` files under the current or given directory tree. Useful to give you a quick glance of what services you are managing
+  - See also [Knowledge Base notes for Terraform](https://github.com/HariSekhon/Knowledge-Base/blob/main/terraform.md).
 - `checkov_resource_*.sh` - [Checkov](https://www.checkov.io/) resource counts - useful to estimate [Bridgecrew Cloud](https://www.bridgecrew.cloud/) costs which are charged per resource:
   - `checkov_resource_count.sh` - counts the number of resources Checkov is scanning in the current or given directory
   - `checkov_resource_count_all.sh` - counts the total number of resources Checkov is scanning across all given repo checkouts
 - `octopus_api.sh` - queries the [Octopus Deploy](https://octopus.com/) API
 
-#### AI & IPaaS
+See also [Knowledge Base notes for CI/CD](https://github.com/HariSekhon/Knowledge-Base/blob/main/ci-cd.md).
+
+### AI & IPaaS
 
 `ai/` and `ipaas/` directories:
 
 - `openai_api.sh` - queries the [OpenAI](https://openai.com/) (ChatGPT) API with authentication
 - `make_api.sh` - queries the [Make.com](https://www.make.com) API with authentication
 
-#### Internet Services
+### Internet Services
 
 `bin/`, `pingdom/`, `terraform/` directories:
 
 - `digital_ocean_api.sh` / `doapi.sh` - queries the [Digital Ocean](https://www.digitalocean.com/) API with authentication
-  - see also the Digital Ocean CLI `doctl` (`setup/install_doctl.sh`)
+  - see also the Digital Ocean CLI `doctl` (`install/install_doctl.sh`)
 - `atlassian_ip_ranges.sh` - lists [Atlassian](https://www.atlassian.com/)'s IPv4 and/or IPv6 cidr ranges via its API
 - `circleci_public_ips.sh` - lists [CircleCI](https://circleci.com) public IP addresses via dnsjson.com
 - `cloudflare_*.sh` - [Cloudflare](https://www.cloudflare.com/) API queries and reports:
@@ -1038,6 +1173,10 @@ etc.
   - `cloudflare_custom_certificates.sh` - lists any custom SSL certificates in a given Cloudflare zone along with their status and expiry date
   - `cloudflare_dns_records.sh` - lists any Cloudflare DNS records for a zone, including the type and ttl
   - `cloudflare_dns_records_all_zones.sh` - same as above but for all zones
+  - `cloudflare_dns_record_create.sh` - creates a DNS record in the given domain
+  - `cloudflare_dns_record_update.sh` - updates a DNS record in the given domain
+  - `cloudflare_dns_record_delete.sh` - deletes a DNS record in the given domain
+  - `cloudflare_dns_record_details.sh` - lists the details for a DNS record in the given domain in JSON format for further pipe processing
   - `cloudflare_dnssec.sh` - lists the Cloudflare DNSSec status for all zones
   - `cloudflare_firewall_rules.sh` - lists Cloudflare Firewall rules, optionally with filter expression
   - `cloudflare_firewall_access_rules.sh` - lists Cloudflare Firewall Access rules, optionally with filter expression
@@ -1063,21 +1202,27 @@ etc.
   - `pingdom_sms_credits.sh` - gets the remaining number of Pingdom SMS credits
 - `terraform_cloud_api.sh` - queries [Terraform Cloud](https://www.terraform.io/cloud) API with authentication
 - `terraform_cloud_ip_ranges.sh` - returns the list of IP ranges for [Terraform Cloud](https://www.terraform.io/cloud) via the API, or optionally one or more of the ranges used by different functions
+- `wordpress.sh` - boots Wordpress in docker with a MySQL backend, and increases the upload_max_filesize to be able to restore a real world sized export backup
+- `wordpress_api.sh` - queries the Wordpress API with authentication
+- `wordpress_posts_without_category_tags.sh` - checks posts (articles) for categories without corresponding tags and prints the posts and their missing tags
 
-#### Perl
+### Java
 
-`perl/` directory:
+`java/` directory:
 
-- `perl_cpanm_install.sh` - bulk installs CPAN modules from mix of arguments / file lists / stdin, accounting for User vs System installs, root vs user sudo, [Perlbrew](https://perlbrew.pl/) / Google Cloud Shell environments, Mac vs Linux library paths, ignore failure option, auto finds and reads build failure log for quicker debugging showing root cause error in CI builds logs etc
-- `perl_cpanm_install_if_absent.sh` - installs CPAN modules not already in Perl libary path (OS or CPAN installed) for faster installations only where OS packages are already providing some of the modules, reducing time and failure rates in CI builds
-- `perlpath.sh` - prints all Perl libary search paths, one per line
-- `perl_find_library_path.sh` - finds directory where a CPAN module is installed - without args finds the Perl library base
-- `perl_find_library_executable.sh` - finds directory where a CPAN module's CLI program is installed (system vs user, useful when it gets installed to a place that isn't in your `$PATH`, where `which` won't help)
-- `perl_find_unused_cpan_modules.sh` - finds CPAN modules that aren't used by any programs in the current directory tree
-- `perl_find_duplicate_cpan_requirements.sh` - finds duplicate CPAN modules listed for install more than once under the directory tree (useful for deduping module installs in a project and across submodules)
-- `perl_generate_fatpacks.sh` - creates [Fatpacks](https://metacpan.org/pod/App::FatPacker) - self-contained Perl programs with all CPAN modules built-in
+- `java_show_classpath.sh` - shows Java classpaths, one per line, of currently running Java programs
+- `jvm_heaps*.sh` - show all your Java heap sizes for all running Java processes, and their total MB (for performance tuning and sizing)
+- Java Decompilers:
+  - `java_decompile_jar.sh` - decompiles a Java JAR in /tmp, finds the main class and runs a Java decompiler on its main .class file using `jd_gui.sh`
+  - `jd_gui.sh` - runs Java Decompiler JD GUI, downloading its jar the first time if it's not already present
+  - `bytecode_viwer.sh` - runs Bytecode-Viewer GUI Java decompiler, downloading its jar the first time if it's not already present
+  - `cfr.sh` - runs CFR command line Java decompiler, downloading its jar the first time if it's not already present
+  - `procyon.sh` - runs Procyon command line Java decompiler, downloading its jar the first time if it's not already present
 
-#### Python
+See also [Knowledge Base notes for Java](https://github.com/HariSekhon/Knowledge-Base/blob/main/java.md)
+and [JVM Performance Tuning](https://github.com/HariSekhon/Knowledge-Base/blob/main/java-jvm-performance-tuning.md).
+
+### Python
 
 `python/` directory:
 
@@ -1096,7 +1241,25 @@ etc.
 - `python_pyinstaller.sh` - creates [PyInstaller](https://pypi.org/project/pyinstaller/) self-contained Python programs with Python interpreter and all PyPI modules included
 - `python_pypi_versions.sh` - prints all available versions of a given PyPi module using the API
 
-#### Golang
+See also [Knowledge Base notes for Python](https://github.com/HariSekhon/Knowledge-Base/blob/main/python.md).
+
+### Perl
+
+`perl/` directory:
+
+- `perl_cpanm_install.sh` - bulk installs CPAN modules from mix of arguments / file lists / stdin, accounting for User vs System installs, root vs user sudo, [Perlbrew](https://perlbrew.pl/) / Google Cloud Shell environments, Mac vs Linux library paths, ignore failure option, auto finds and reads build failure log for quicker debugging showing root cause error in CI builds logs etc
+- `perl_cpanm_install_if_absent.sh` - installs CPAN modules not already in Perl libary path (OS or CPAN installed) for faster installations only where OS packages are already providing some of the modules, reducing time and failure rates in CI builds
+- `perl_cpanm_reinstall_all.sh` - re-installs all CPAN modules. Useful for trying to recompile XS modules on Macs after migration assistant from an Intel Mac to an ARM Silicon Mac leaves your home XS libraries broken as they're built for the wrong architecture
+- `perlpath.sh` - prints all Perl libary search paths, one per line
+- `perl_find_library_path.sh` - finds directory where a CPAN module is installed - without args finds the Perl library base
+- `perl_find_library_executable.sh` - finds directory where a CPAN module's CLI program is installed (system vs user, useful when it gets installed to a place that isn't in your `$PATH`, where `which` won't help)
+- `perl_find_unused_cpan_modules.sh` - finds CPAN modules that aren't used by any programs in the current directory tree
+- `perl_find_duplicate_cpan_requirements.sh` - finds duplicate CPAN modules listed for install more than once under the directory tree (useful for deduping module installs in a project and across submodules)
+- `perl_generate_fatpacks.sh` - creates [Fatpacks](https://metacpan.org/pod/App::FatPacker) - self-contained Perl programs with all CPAN modules built-in
+
+See also [Knowledge Base notes for Perl](https://github.com/HariSekhon/Knowledge-Base/blob/main/perl.md).
+
+### Golang
 
 `packages/` directory:
 
@@ -1104,7 +1267,7 @@ etc.
 - `golang_install_if_absent.sh` - same as above but only if the package binary isn't already available in `$PATH`
 - `golang_rm_binaries.sh` - deletes binaries of the same name adjacent to `.go` files. Doesn't delete you `bin/` etc as these are often real deployed applications rather than development binaries
 
-#### Media
+### Media
 
 `media/` directory:
 
@@ -1113,8 +1276,11 @@ etc.
 - `mp3_set_track_order.sh` - sets the track order metadata for mp3 files under given directories to follow the lexical file naming order. Useful for correctly ordering album songs and audiobook chapters (eg. for Mac's Books.app). Especially useful for enforcing global ordering on multi-CD audiobooks after grouping into a single audiobook using `mp3_set_album.sh` (otherwise default track numbers in each CD interleave in Mac's Books.app)
 - `avi_to_mp4.sh` - converts avi files to mp4 using ffmpeg. Useful to be able to play videos on devices like smart TVs that may not recognize newer codecs otherwise
 - `mkv_to_mp4.sh` - converts mkv files to mp4 using ffmpeg. Same use case as above
+- `youtube_download_channel.sh` - downloads all videos from a given YouTube channel URL
 
-#### Spotify
+See also [Knowledge Base notes for MultiMedia](https://github.com/HariSekhon/Knowledge-Base/blob/main/multimedia.md).
+
+### Spotify
 
 40+ [Spotify](https://www.spotify.com/) API scripts (used extensively to manage my [Spotify-Playlists](https://github.com/HariSekhon/Spotify-Playlists) repo).
 
@@ -1156,15 +1322,15 @@ etc.
 - `spotify_api_token.sh` - gets a Spotify authentication token using either [Client Credentials](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow) or [Authorization Code](https://developer.spotify.com/documentation/general/guides/authorization-guide/#authorization-code-flow) authentication flows, the latter being able to read/modify private user data, automatically used by `spotify_api.sh`
 - `spotify_api.sh` - query any Spotify [API](https://developer.spotify.com/documentation/web-api/reference/) endpoint with authentication, used by adjacent spotify scripts
 
-#### More Linux & Mac
+### More Linux & Mac
 
-`bin/`, `setup/` and `packages/` directories:
+`bin/`, `install/`, `packages/`, `setup/` directories:
 
 - [Linux](https://en.wikipedia.org/wiki/Linux) / [Mac](https://en.wikipedia.org/wiki/MacOS) systems administration scripts:
-  - installation scripts for various OS packages (RPM, Deb, Apk) for various Linux distros ([Redhat RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) / [CentOS](https://www.centos.org/) / [Fedora](https://getfedora.org/), [Debian](https://www.debian.org/) / [Ubuntu](https://ubuntu.com/), [Alpine](https://alpinelinux.org/))
+  - `install/` - installation scripts for various OS packages (RPM, Deb, Apk) for various Linux distros ([Redhat RHEL](https://www.redhat.com/en/technologies/linux-platforms/enterprise-linux) / [CentOS](https://www.centos.org/) / [Fedora](https://getfedora.org/), [Debian](https://www.debian.org/) / [Ubuntu](https://ubuntu.com/), [Alpine](https://alpinelinux.org/))
   - install if absent scripts for Python, Perl, Ruby, NodeJS and Golang packages - good for minimizing the number of source code installs by first running the OS install scripts and then only building modules which aren't already detected as installed (provided by system packages), speeding up builds and reducing the likelihood of compile failures
-  - install scripts for [Jython](https://www.jython.org/) and build tools like [Gradle](https://gradle.org/) and [SBT](https://www.scala-sbt.org/) for when Linux distros don't provide packaged versions or where the packaged versions are too old
-  - OS / Distro Package Management:
+  - install scripts for tarballs, Golang binaries, random 3rd party installers, [Jython](https://www.jython.org/) and build tools like [Gradle](https://gradle.org/) and [SBT](https://www.scala-sbt.org/) for when Linux distros don't provide packaged versions or where the packaged versions are too old
+  - `packages/` - OS / Distro Package Management:
     - `install_packages.sh` - installs package lists from arguments, files or stdin on major linux distros and Mac, detecting the package manager and invoking the right install commands, with `sudo` if not root. Works on [RHEL](https://www.redhat.com/en) / [CentOS](https://www.centos.org/) / [Fedora](https://getfedora.org/), [Debian](https://www.debian.org/) / [Ubuntu](https://ubuntu.com/), [Alpine](https://alpinelinux.org/), and [Mac Homebrew](https://brew.sh/). Leverages and supports all features of the distro / OS specific install scripts listed below
     - `install_packages_if_absent.sh` - installs package lists if they're not already installed, saving time and minimizing install logs / CI logs, same support list as above
     - Redhat RHEL / CentOS:
@@ -1184,9 +1350,10 @@ etc.
       - `brew_install_packages.sh` / `brew_remove_packages.sh` - installs Mac Hombrew package lists from arguments, files or stdin. Accepts `NO_FAIL=1` env var to ignore unavailable / changed package names (useful for optional packages or attempts for different package names across versions)
       - `brew_install_packages_if_absent.sh` - installs Mac Homebrew packages only if not already installed, saving time and minimizing install logs / CI logs, plus all the features of `brew_install_packages.sh` above
       - `brew_filter_installed.sh` / `brew_filter_not_installed.sh` - pipe filter packages that are / are not installed for easy script piping
+      - `brew_package_owns.sh` - finds which brew package owns a given filename argument
 - all builds across all my GitHub repos now `make system-packages` before `make pip` / `make cpan` to shorten how many packages need installing, reducing chances of build failures
 
-#### Builds, Languages & Linting
+### Builds, Languages & Linting
 
 `bin/`, `checks/`, `cicd/` or language specific directories:
 
@@ -1219,122 +1386,67 @@ etc.
     - [Docker Compose](https://docs.docker.com/compose/)
     - [Vagrantfiles](https://www.vagrantup.com/docs/vagrantfile)
 
-#### Data Format Conversion & Validation
-
-`bin/` directory:
-
-- `csv_header_indices.sh` - list CSV headers with their zero indexed numbers, useful reference when coding against column positions
-- Data format validation `validate_*.py` from [DevOps Python Tools repo](https://github.com/HariSekhon/DevOps-Python-tools):
-
-  - CSV
-  - JSON
-  - [Avro](https://avro.apache.org/)
-  - [Parquet](https://parquet.apache.org/)
-  - INI / Properties files (Java)
-  - LDAP LDIF
-  - XML
-  - YAML
-
-- `json2yaml.sh` - converts JSON to YAML
-- `yaml2json.sh` - converts YAML to JSON - needed for some APIs like GitLab CI linting (see [Gitlab](https://github.com/HariSekhon/DevOps-Bash-tools#git---github-gitlab-bitbucket-azure-devops) section above)
-
-## Related Repositories
-
-- [DevOps Python Tools](https://github.com/HariSekhon/DevOps-Python-tools) - 80+ DevOps CLI tools for AWS, GCP, Hadoop, HBase, Spark, Log Anonymizer, Ambari Blueprints, AWS CloudFormation, Linux, Docker, Spark Data Converters & Validators (Avro / Parquet / JSON / CSV / INI / XML / YAML), Elasticsearch, Solr, Travis CI, Pig, IPython
-
-- [SQL Scripts](https://github.com/HariSekhon/SQL-scripts) - 100+ SQL Scripts - PostgreSQL, MySQL, AWS Athena, Google BigQuery
-
-- [Jenkins](https://github.com/HariSekhon/Jenkins) - Advanced Jenkinsfile & Jenkins Groovy Shared Library
-
-- [GitHub-Actions](https://github.com/HariSekhon/GitHub-Actions) - GitHub Actions master template & GitHub Actions Shared Workflows library
-
-- [Templates](https://github.com/HariSekhon/Templates) - dozens of Code & Config templates - AWS, GCP, Docker, Jenkins, Terraform, Vagrant, Puppet, Python, Bash, Go, Perl, Java, Scala, Groovy, Maven, SBT, Gradle, Make, GitHub Actions Workflows, CircleCI, Jenkinsfile, Makefile, Dockerfile, docker-compose.yml, M4 etc.
-
-- [Kubernetes configs](https://github.com/HariSekhon/Kubernetes-configs) - Kubernetes YAML configs - Best Practices, Tips & Tricks are baked right into the templates for future deployments
-
-- [Terraform](https://github.com/HariSekhon/Terraform) - Terraform templates for AWS / GCP / Azure / GitHub management
-
-- [The Advanced Nagios Plugins Collection](https://github.com/HariSekhon/Nagios-Plugins) - 450+ programs for Nagios monitoring your Hadoop & NoSQL clusters. Covers every Hadoop vendor's management API and every major NoSQL technology (HBase, Cassandra, MongoDB, Elasticsearch, Solr, Riak, Redis etc.) as well as message queues (Kafka, RabbitMQ), continuous integration (Jenkins, Travis CI) and traditional infrastructure (SSL, Whois, DNS, Linux)
-
-- [Nagios Plugin Kafka](https://github.com/HariSekhon/Nagios-Plugin-Kafka) - Kafka API pub/sub Nagios Plugin written in Scala with Kerberos support
-
-- [DevOps Perl Tools](https://github.com/harisekhon/perl-tools) - 25+ DevOps CLI tools for Hadoop, HDFS, Hive, Solr/SolrCloud CLI, Log Anonymizer, Nginx stats & HTTP(S) URL watchers for load balanced web farms, Dockerfiles & SQL ReCaser (MySQL, PostgreSQL, AWS Redshift, Snowflake, Apache Drill, Hive, Impala, Cassandra CQL, Microsoft SQL Server, Oracle, Couchbase N1QL, Dockerfiles, Pig Latin, Neo4j, InfluxDB), Ambari FreeIPA Kerberos, Datameer, Linux...
-
-- [HAProxy Configs](https://github.com/HariSekhon/HAProxy-configs) - 80+ HAProxy Configs for Hadoop, Big Data, NoSQL, Docker, Elasticsearch, SolrCloud, HBase, Cloudera, Hortonworks, MapR, MySQL, PostgreSQL, Apache Drill, Hive, Presto, Impala, ZooKeeper, OpenTSDB, InfluxDB, Prometheus, Kibana, Graphite, SSH, RabbitMQ, Redis, Riak, Rancher etc.
-
-- [Dockerfiles](https://github.com/HariSekhon/Dockerfiles) - 50+ DockerHub public images for Docker & Kubernetes - Hadoop, Kafka, ZooKeeper, HBase, Cassandra, Solr, SolrCloud, Presto, Apache Drill, Nifi, Spark, Mesos, Consul, Riak, OpenTSDB, Jython, Advanced Nagios Plugins & DevOps Tools repos on Alpine, CentOS, Debian, Fedora, Ubuntu, Superset, H2O, Serf, Alluxio / Tachyon, FakeS3
-
-- [HashiCorp Packer templates](https://github.com/HariSekhon/Packer-templates) - Linux automated bare-metal installs and portable virtual machines OVA format appliances using HashiCorp Packer, Redhat Kickstart, Debian Preseed and Ubuntu AutoInstaller / Cloud-Init
-
-- [Perl Lib](https://github.com/HariSekhon/lib) - Perl utility library
-- [PyLib](https://github.com/HariSekhon/pylib) - Python utility library
-- [Lib-Java](https://github.com/HariSekhon/lib-java) - Java utility library
-
-- [Diagrams-as-Code](https://github.com/HariSekhon/Diagrams-as-Code) - Cloud & Open Source architecture diagrams with Python & D2 source code provided - automatically regenerated via GitHub Actions CI/CD - AWS, GCP, Kubernetes, Jenkins, ArgoCD, Traefik, Kong API Gateway, Nginx, Redis, PostgreSQL, Kafka, Spark, web farms, event processing...
-
-[Pre-built Docker images](https://hub.docker.com/u/harisekhon/) are available for those repos (which include this one as a submodule) and the ["docker available"](https://hub.docker.com/r/harisekhon/centos-github/)  icon above links to an [uber image](https://hub.docker.com/r/harisekhon/centos-github/) which contains all my github repos pre-built. There are [Centos](https://hub.docker.com/r/harisekhon/centos-github/), [Alpine](https://hub.docker.com/r/harisekhon/alpine-github/), [Debian](https://hub.docker.com/r/harisekhon/debian-github/) and [Ubuntu](https://hub.docker.com/r/harisekhon/ubuntu-github/) versions of this uber Docker image containing all repos.
-
-#### Individual Setup Parts
+## Individual Setup Parts
 
 Optional, only if you don't do the full `make install`.
 
 Install only OS system package dependencies and [AWS CLI](https://aws.amazon.com/cli/) via Python Pip (doesn't symlink anything to `$HOME`):
 
-```
+```shell
 make
 ```
 
 Adds sourcing to `.bashrc` and `.bash_profile` and symlinks dot config files to `$HOME` (doesn't install OS system package dependencies):
 
-```
+```shell
 make link
 ```
 
 undo via
 
-```
+```shell
 make unlink
 ```
 
 Install only OS system package dependencies (doesn't include [AWS CLI](https://aws.amazon.com/cli/) or Python packages):
 
-```
+```shell
 make system-packages
 ```
 
 Install [AWS CLI](https://aws.amazon.com/cli/):
 
-```
+```shell
 make aws
 ```
 
 Install [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/):
 
-```
+```shell
 make azure
 ```
 
 Install [GCP GCloud SDK](https://cloud.google.com/sdk) (includes CLI):
 
-```
+```shell
 make gcp
 ```
 
 Install [GCP GCloud Shell](https://cloud.google.com/shell) environment (sets up persistent OS packages and all home directory configs):
 
-```
+```shell
 make gcp-shell
 ```
 
 Install generically useful Python CLI tools and modules (includes [AWS CLI](https://aws.amazon.com/cli/), autopep8 etc):
 
-```
+```shell
 make python
 ```
 
 ### Full Help
 
-```
+```shell
 > make help
 
  Usage:
@@ -1413,8 +1525,82 @@ make: *** [help] Error 3
 
 (`make help` exits with error code 3 like most of my programs to differentiate from build success to make sure a stray `help` argument doesn't cause silent build failure with exit code 0)
 
-### Stargazers over time
+## Star History
 
-[![Stargazers over time](https://starchart.cc/HariSekhon/DevOps-Bash-tools.svg)](https://starchart.cc/HariSekhon/DevOps-Bash-tools)
+[![Star History Chart](https://api.star-history.com/svg?repos=HariSekhon/DevOps-Bash-tools&type=Date)](https://star-history.com/#HariSekhon/DevOps-Bash-tools&Date)
 
 [git.io/bash-tools](https://git.io/bash-tools)
+
+## More Core Repos
+
+<!-- OTHER_REPOS_START -->
+
+### Knowledge
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Knowledge-Base&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Knowledge-Base)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Diagrams-as-Code&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Diagrams-as-Code)
+
+<!--
+
+Not support on GitHub Markdown:
+
+<iframe src="https://raw.githubusercontent.com/HariSekhon/HariSekhon/main/knowledge.md" width="100%" height="500px"></iframe>
+
+Does nothing:
+
+<embed src="https://raw.githubusercontent.com/HariSekhon/HariSekhon/main/knowledge.md" width="100%" height="500px" />
+
+-->
+
+### DevOps Code
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Bash-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Bash-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Python-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Python-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Perl-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Perl-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=DevOps-Golang-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/DevOps-Golang-tools)
+
+<!--
+[![Gist Card](https://github-readme-stats.vercel.app/api/gist?id=f8f551332440f1ca8897ff010e363e03)](https://gist.github.com/HariSekhon/f8f551332440f1ca8897ff010e363e03)
+-->
+
+### Containerization
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Kubernetes-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Kubernetes-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Dockerfiles&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Dockerfiles)
+
+### CI/CD
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=GitHub-Actions&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/GitHub-Actions)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Jenkins&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Jenkins)
+
+### DBA - SQL
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=SQL-scripts&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/SQL-scripts)
+
+### DevOps Reloaded
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Nagios-Plugins&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Nagios-Plugins)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=HAProxy-configs&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/HAProxy-configs)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Terraform&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Terraform)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Packer-templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Packer-templates)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Nagios-Plugin-Kafka&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Nagios-Plugin-Kafka)
+
+### Templates
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Templates&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Templates)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Template-repo&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Template-repo)
+
+### Misc
+
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Spotify-tools&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Spotify-tools)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=HariSekhon&repo=Spotify-playlists&theme=ambient_gradient&description_lines_count=3)](https://github.com/HariSekhon/Spotify-playlists)
+
+The rest of my original source repos are
+[here](https://github.com/HariSekhon?tab=repositories&q=&type=source&language=&sort=stargazers).
+
+Pre-built Docker images are available on my [DockerHub](https://hub.docker.com/u/harisekhon/).
+
+<!-- 1x1 pixel counter to record hits -->
+![](https://hit.yhype.me/github/profile?user_id=2211051)
+
+<!-- OTHER_REPOS_END -->
