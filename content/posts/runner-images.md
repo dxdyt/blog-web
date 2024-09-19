@@ -1,9 +1,9 @@
 ---
 title: runner-images
-date: 2024-07-21T12:18:11+08:00
+date: 2024-09-19T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719179513227-15758bc779ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719179513227-15758bc779ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724100688240-5ccaf323f3cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724100688240-5ccaf323f3cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
 ---
 
 # [actions/runner-images](https://github.com/actions/runner-images)

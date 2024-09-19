@@ -1,9 +1,9 @@
 ---
 title: DevOps-Bash-tools
-date: 2024-09-18T12:19:45+08:00
+date: 2024-09-19T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723556146809-2dcb7c1e0bf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY2MzMxNjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723556146809-2dcb7c1e0bf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY2MzMxNjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1709141425206-f5cdeab3e718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1709141425206-f5cdeab3e718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
 ---
 
 # [HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)
@@ -67,8 +67,8 @@ awkward URLs more nicely replaced with shields.io
 
 [![CI Builds Overview](https://img.shields.io/badge/CI%20Builds-Overview%20Page-blue?logo=circleci)](https://harisekhon.github.io/CI-CD/)
 [![Jenkins](https://img.shields.io/badge/Jenkins-ready-blue?logo=jenkins&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/Jenkinsfile)
-[![Concourse](https://img.shields.io/badge/Concourse-ready-blue?logo=concourse)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/.concourse.yml)
-[![GoCD](https://img.shields.io/badge/GoCD-ready-blue?logo=go)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/.gocd.yml)
+[![Concourse](https://img.shields.io/badge/Concourse-ready-blue?logo=concourse&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/.concourse.yml)
+[![GoCD](https://img.shields.io/badge/GoCD-ready-blue?logo=go&logoColor=white)](https://github.com/HariSekhon/DevOps-Bash-tools/blob/master/cicd/.gocd.yml)
 [![TeamCity](https://img.shields.io/badge/TeamCity-ready-blue?logo=teamcity)](https://github.com/HariSekhon/TeamCity-CI)
 
 [![CircleCI](https://circleci.com/gh/HariSekhon/DevOps-Bash-tools.svg?style=svg)](https://circleci.com/gh/HariSekhon/DevOps-Bash-tools)

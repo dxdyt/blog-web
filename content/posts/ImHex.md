@@ -1,9 +1,9 @@
 ---
 title: ImHex
-date: 2024-07-03T12:17:13+08:00
+date: 2024-09-19T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718301151712-0f841310d51a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718301151712-0f841310d51a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721549812316-7706f9a0a49c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721549812316-7706f9a0a49c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
 ---
 
 # [WerWolv/ImHex](https://github.com/WerWolv/ImHex)

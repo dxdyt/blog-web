@@ -1,9 +1,9 @@
 ---
 title: awesome-low-level-design
-date: 2024-05-27T12:19:18+08:00
+date: 2024-09-19T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714206866539-7b2db12c39df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714206866539-7b2db12c39df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724100688240-5ccaf323f3cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724100688240-5ccaf323f3cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
 ---
 
 # [ashishps1/awesome-low-level-design](https://github.com/ashishps1/awesome-low-level-design)
@@ -12,32 +12,51 @@ featuredImagePreview: https://images.unsplash.com/photo-1714206866539-7b2db12c39
   <img src="images/lld-repo-logo.png" width="350" height="200">
 </p>
 <p align="center">
-  <a href="https://www.linkedin.com/in/ashishps1/">LinkedIn</a> | <a href="https://www.youtube.com/@ashishps_1/videos">YouTube</a> | <a href="https://twitter.com/ashishps_1">X</a> | <a href="https://newsletter.ashishps.com/">Newsletter</a>
+  <a href="https://blog.algomaster.io/">Join Free Newsletter</a>
 </p>
-Learn Low Level Design (LLD) and prepare for interviews using free resources.
 
-## Fundamental Concepts
-- [Basics OOP Concepts](https://newsletter.ashishps.com/p/basic-oop-concepts-explained-with-code)
+This repository contains resources to learn Low Level Design (LLD) / Object Oriented Design (OOD) and prepare for interviews.
+
+## 📌 Fundamental Concepts
+- [Basics OOP Concepts](https://blog.algomaster.io/p/basic-oop-concepts-explained-with-code)
 - [SOLID Principles with Pictures](https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898)
-- [SOLID Principles with Code](https://newsletter.ashishps.com/p/solid-principles-explained-with-code)
-- [DRY Principle](https://newsletter.ashishps.com/p/082450d8-0e7b-4447-a8dc-b7308e45f048)
-- [YAGNI Principle](https://newsletter.ashishps.com/p/8c3c7da7-885b-4a9c-a6e4-70ee02de4772)
-- [KISS Principle](https://newsletter.ashishps.com/p/21b57678-b351-4ed4-b390-3b6308af2f7d)
+- [SOLID Principles with Code](https://blog.algomaster.io/p/solid-principles-explained-with-code)
+- [DRY Principle](https://blog.algomaster.io/p/082450d8-0e7b-4447-a8dc-b7308e45f048)
+- [YAGNI Principle](https://blog.algomaster.io/p/8c3c7da7-885b-4a9c-a6e4-70ee02de4772)
+- [KISS Principle](https://blog.algomaster.io/p/21b57678-b351-4ed4-b390-3b6308af2f7d)
 - [Coursera - Object-Oriented Design](https://www.coursera.org/learn/object-oriented-design)
 
-## Design Patterns
-- [Refactoring Guru - Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
-- [Fireship - 10 Design Patterns in 10 Minutes](https://www.youtube.com/watch?v=tv-_1er1mWI&pp=ygUPZGVzaWduIHBhdHRlcm5z)
-- [Design Pattern Playlist](https://www.youtube.com/watch?v=v9ejT8FO-7I&list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
-- [Coursera - Design Patterns](https://www.coursera.org/learn/design-patterns)
-- [Github - Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)
+## ⚙️ Design Patterns
+### Creational Patterns
+- [Singleton](https://blog.algomaster.io/p/singleton-design-pattern)
+- [Factory Method](https://refactoring.guru/design-patterns/factory-method)
+- [Abstract Factory](https://refactoring.guru/design-patterns/abstract-factory)
+- [Builder](https://refactoring.guru/design-patterns/builder)
+- [Prototype](https://refactoring.guru/design-patterns/prototype)
+### Structural Patterns
+- [Adapter](https://refactoring.guru/design-patterns/adapter)
+- [Facade](https://refactoring.guru/design-patterns/facade)
+- [Decorator](https://refactoring.guru/design-patterns/decorator)
+- [Composite](https://refactoring.guru/design-patterns/composite)
+### Behavioral Patterns
+- [Strategy](https://refactoring.guru/design-patterns/strategy)
+- [Iterator](https://refactoring.guru/design-patterns/iterator)
+- [Observer](https://refactoring.guru/design-patterns/observer)
+- [Template Method](https://refactoring.guru/design-patterns/template-method)
+- [Command](https://refactoring.guru/design-patterns/command)
+- [State](https://refactoring.guru/design-patterns/state)
 
-## UML
-- [Derek Banas - UML Playlist](https://www.youtube.com/playlist?list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc)
-- [UML Class Diagram Tutorial](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
-- [Relationships in UML](https://blog.visual-paradigm.com/what-are-the-six-types-of-relationships-in-uml-class-diagrams/)
+## 🗂️ UML
+- [Class Diagram](https://blog.algomaster.io/p/uml-class-diagram-explained-with-examples)
+- [Use Case Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-use-case-diagram/)
+- [Sequence Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-sequence-diagram/)
+- [Activity Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-activity-diagram/)
+- [State Machine Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/what-is-state-machine-diagram/)
 
-## Low Level Design Interview Problems
+### ✅ [How to Answer a LLD Interview Problem](https://blog.algomaster.io/p/how-to-answer-a-lld-interview-problem)
+<img src="images/interview-template.png" width="350" height="250">
+
+## 💻 Low Level Design Interview Problems
 ### Easy
 - [Design Parking Lot](problems/parking-lot.md)
 - [Design a Vending Machine](problems/vending-machine.md)
@@ -75,7 +94,11 @@ Learn Low Level Design (LLD) and prepare for interviews using free resources.
 - [Design Music Streaming Service (like Spotify)](problems/music-streaming-service.md)
 - [Design University Course Registration System](problems/course-registration-system.md)
 
-## Books
+## 📚 Books
 - [Head First Design Patterns](https://www.amazon.com/Head-First-Design-Patterns-Object-Oriented/dp/149207800X/)
 - [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/B08X8ZXT15)
 - [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599/)
+
+## Additional resources
+- [Coursera - Design Patterns](https://www.coursera.org/learn/design-patterns)
+- [Github - Awesome Design Patterns](https://github.com/DovAmir/awesome-design-patterns)

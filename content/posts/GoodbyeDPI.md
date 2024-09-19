@@ -1,9 +1,9 @@
 ---
 title: GoodbyeDPI
-date: 2024-09-17T12:17:56+08:00
+date: 2024-09-19T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724092997539-4793b090b94b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724092997539-4793b090b94b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
 ---
 
 # [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
@@ -158,7 +158,7 @@ Modify them according to your own needs.
 # Known issues
 
 * Horribly outdated Windows 7 installations are not able to load WinDivert driver due to missing support for SHA256 digital signatures. Install KB3033929 [x86](https://www.microsoft.com/en-us/download/details.aspx?id=46078)/[x64](https://www.microsoft.com/en-us/download/details.aspx?id=46148), or better, update the whole system using Windows Update.
-* Intel/Qualcomm Killer network cards: `Advanced Stream Detect` in Killer Control Center is incompabitle with GoodbyeDPI, [disable it](https://github.com/ValdikSS/GoodbyeDPI/issues/541#issuecomment-2296038239).
+* Intel/Qualcomm Killer network cards: `Advanced Stream Detect` in Killer Control Center is incompatible with GoodbyeDPI, [disable it](https://github.com/ValdikSS/GoodbyeDPI/issues/541#issuecomment-2296038239).
 * ~~Some SSL/TLS stacks unable to process fragmented ClientHello packets, and HTTPS websites won't open. Bug: [#4](https://github.com/ValdikSS/GoodbyeDPI/issues/4), [#64](https://github.com/ValdikSS/GoodbyeDPI/issues/64).~~ Fragmentation issues are fixed in v0.1.7.
 * ~~ESET Antivirus is incompatible with WinDivert driver [#91](https://github.com/ValdikSS/GoodbyeDPI/issues/91). This is most probably antivirus bug, not WinDivert.~~
 
