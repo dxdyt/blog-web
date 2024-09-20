@@ -1,9 +1,9 @@
 ---
 title: tensorflow
-date: 2024-08-04T12:20:22+08:00
+date: 2024-09-20T12:19:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719918698473-a1812bc12b76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719918698473-a1812bc12b76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI3NDUwODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
 ---
 
 # [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)

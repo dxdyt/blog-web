@@ -1,9 +1,9 @@
 ---
 title: supervision
-date: 2024-07-17T12:18:55+08:00
+date: 2024-09-20T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720356778345-6996c57af4bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720356778345-6996c57af4bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725072731452-a1b7b1e322f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725072731452-a1b7b1e322f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
@@ -26,6 +26,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1720356778345-6996c57af4
 
 [![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision)
 [![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision)
+[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision)
 [![license](https://img.shields.io/pypi/l/supervision)](https://github.com/roboflow/supervision/blob/main/LICENSE.md)
 [![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision)
 [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb)
@@ -304,7 +305,7 @@ We love your input! Please see our [contributing guide](https://github.com/robof
           />
       </a>
       <img src="https://raw.githubusercontent.com/ultralytics/assets/main/social/logo-transparent.png" width="3%"/>
-      <a href="https://disuss.roboflow.com">
+      <a href="https://discuss.roboflow.com">
           <img
             src="https://media.roboflow.com/notebooks/template/icons/purple/forum.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672949633584"
             width="3%"

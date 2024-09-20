@@ -1,9 +1,9 @@
 ---
 title: alist
-date: 2024-09-09T12:20:58+08:00
+date: 2024-09-20T12:20:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724931498964-a1f392ba9ace?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724931498964-a1f392ba9ace?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725046908999-195118679132?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725046908999-195118679132?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
 ---
 
 # [alist-org/alist](https://github.com/alist-org/alist)
