@@ -1,9 +1,9 @@
 ---
 title: unstract
-date: 2024-09-19T12:19:59+08:00
+date: 2024-09-21T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709141425206-f5cdeab3e718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709141425206-f5cdeab3e718?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724690416947-3cdc197ffab1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724690416947-3cdc197ffab1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
 ---
 
 # [Zipstack/unstract](https://github.com/Zipstack/unstract)
@@ -13,7 +13,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1709141425206-f5cdeab3e7
 
 # Unstract
 
-## No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents
+## Intelligent Document Processing 2.0 (IDP 2.0) Platform Powered by Large Language Models
+
+#### No-code LLM Platform to launch APIs and ETL Pipelines to structure unstructured documents
+
+## 
 
 [![pdm-managed](https://img.shields.io/badge/pdm-managed-blueviolet)](https://pdm-project.org)
 [![CLA assistant](https://cla-assistant.io/readme/badge/Zipstack/unstract)](https://cla-assistant.io/Zipstack/unstract)
@@ -26,13 +30,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1709141425206-f5cdeab3e7
 
 </div>
 
-## 🤖 Go beyond co-pilots
+## 🤖 Prompt Studio
 
-While co-pilots enable machine-to-human automation, with Unstract, you can go beyond co-pilots by enabling machine-to-machine automation. You can launch APIs that take in complex documents and return structured JSON all with a simple no-code approach. You can also launch unstructured data ETL Pipelines that can read complex documents from a variety of cloud file / object storage systems and write structured data into popular data warehouses and databases.
+Prompt Studio's primary reason for existence is so you can develop the necessary prompts for document data extraction super efficiently. It is a purpose-built environment that makes this not just easy for you—but, lot of fun! The document sample, its variants, the prompts you're developing, outputs from different LLMs, the schema you're developing, costing details of the extraction and various tools that let you measure the effectiveness of your prompts are just a click away and easily accessible. Prompt Studio is designed for effective and high speed development and iteration of prompts for document data extraction. Welcome to IDP 2.0!
+
 
 ![img Prompt Studio](docs/assets/prompt_studio.png)
 
-## 🧘‍♀️ Three step nirvana
+## 🧘‍♀️ Three step nirvana with Workflow Studio
 
 Automate critical business processes that involve complex documents with a human in the loop. Go beyond RPA with the power of Large Language Models.
 

@@ -1,9 +1,9 @@
 ---
 title: DevOps-Bash-tools
-date: 2024-09-20T12:19:05+08:00
+date: 2024-09-21T12:18:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725046908999-195118679132?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725046908999-195118679132?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725623831887-5f76cb0f9d09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725623831887-5f76cb0f9d09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
 ---
 
 # [HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)

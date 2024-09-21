@@ -1,9 +1,9 @@
 ---
 title: localstack
-date: 2024-09-20T12:19:39+08:00
+date: 2024-09-21T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725986070936-0e914dd38a52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725986070936-0e914dd38a52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4MDU5MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724098035949-dbb69d1671bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724098035949-dbb69d1671bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
 ---
 
 # [localstack/localstack](https://github.com/localstack/localstack)
