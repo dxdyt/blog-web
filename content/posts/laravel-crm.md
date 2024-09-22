@@ -1,9 +1,9 @@
 ---
 title: laravel-crm
-date: 2024-09-21T12:20:37+08:00
+date: 2024-09-22T12:21:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724805053205-d429850a5ed5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724805053205-d429850a5ed5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
 ---
 
 # [krayin/laravel-crm](https://github.com/krayin/laravel-crm)

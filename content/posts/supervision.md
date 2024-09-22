@@ -1,9 +1,9 @@
 ---
 title: supervision
-date: 2024-09-21T12:18:43+08:00
+date: 2024-09-22T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726516335449-eaa942fd4c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726516335449-eaa942fd4c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725696096775-bbddc1344597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725696096775-bbddc1344597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
 ---
 
 # [roboflow/supervision](https://github.com/roboflow/supervision)
