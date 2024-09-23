@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-09-07T12:18:27+08:00
+date: 2024-09-23T12:19:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724832228136-6ddd51037827?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724832228136-6ddd51037827?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU2ODI3MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1569580388550-50907e7bad86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1569580388550-50907e7bad86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -261,9 +261,9 @@ In addition, these plugins are not limited to news aggregation, but can also ext
 | [Tongyi wanxiang Image Generator](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **YoungTx** on **2024-08-09**</sup> | This plugin uses Alibaba's Tongyi Wanxiang model to generate images based on text prompts.<br/>`image` `tongyi` `wanxiang`                |
 | [Shopping tools](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **shoppingtools** on **2024-07-19**</sup>            | Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.<br/>`shopping` `e-bay` `ali-express` `coupons` |
 | [Savvy Trader AI](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **savvytrader** on **2024-06-27**</sup>             | Realtime stock, crypto and other investment data.<br/>`stock` `analyze`                                                                   |
-| [Social Search](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **say-apps** on **2024-06-02**</sup>                  | The Social Search provides access to tweets, users, followers, images, media and more.<br/>`social` `twitter` `x` `search`                |
+| [Search1API](https://chat-preview.lobehub.com/settings/agent)<br/><sup>By **fatwang2** on **2024-05-06**</sup>                     | Search aggregation service, specifically designed for LLMs<br/>`web` `search`                                                             |
 
-> 📊 Total plugins: [<kbd>**51**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
+> 📊 Total plugins: [<kbd>**50**</kbd>](https://github.com/lobehub/lobe-chat-plugins)
 
  <!-- PLUGIN LIST -->
 
@@ -295,20 +295,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                   | Description                                                                                                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Nuxt 3/Vue.js Master Developer](https://chat-preview.lobehub.com/market?agent=nuxt-vue-developer)<br/><sup>By **[Kadreev](https://github.com/Kadreev)** on **2024-09-03**</sup> | Specialized in full-stack development with Nuxt 3 expertise.<br/>`nuxt-3` `vue-js` `full-stack-development` `java-script` `web-applications`                                                                                                         |
-| [International Lyricist](https://chat-preview.lobehub.com/market?agent=letrista-internacional)<br/><sup>By **[mnector](https://github.com/mnector)** on **2024-08-29**</sup>     | Specialized in writing lyrics for songs in Spanish, English, and French, with a focus on storytelling and the emotions of the provided content.<br/>`lyricism` `translation` `music`                                                                 |
-| [Backtracking Question Expert](https://chat-preview.lobehub.com/market?agent=step-back-expert)<br/><sup>By **[tiny656](https://github.com/tiny656)** on **2024-08-27**</sup>     | Hello! I am an expert in world knowledge, skilled in using backtracking questioning strategies to help you gain a deeper understanding and analysis of issues. Please enter a question, and I will respond to it according to the following process: |
+| Recent Submits                                                                                                                                                                        | Description                                                                                                                                                                                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Fitness AI Trainer](https://chat-preview.lobehub.com/market?agent=ai-trainer)<br/><sup>By **[andreasvikke](https://github.com/andreasvikke)** on **2024-09-19**</sup>                | AI workout assistant specializing in personalized plans, muscle targeting, form guidance, progress tracking, motivation, and VR training.<br/>`workout-assistant` `fitness` `exercise` `training` `nutrition`                                                           |
+| [Alfred](https://chat-preview.lobehub.com/market?agent=alfred)<br/><sup>By **[Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>                                        | A versatile butler.<br/>`lifestyle` `personal`                                                                                                                                                                                                                          |
+| [Career Development Mentor](https://chat-preview.lobehub.com/market?agent=career-development)<br/><sup>By **[daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup> | Professional career development planning and entrepreneurial consulting, providing practical advice through an in-depth understanding of user situations.<br/>`career-consulting` `career-planning` `entrepreneurship-guidance` `industry-insights` `skill-enhancement` |
+| [Vocabulary Assistant](https://chat-preview.lobehub.com/market?agent=english-words-helper)<br/><sup>By **[SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup>  | An assistant skilled in English word definitions and example sentence translations<br/>`vocabulary-assistant` `english` `translation` `example-sentences` `definitions`                                                                                                 |
 
-1. Provide at least 3 optional backtracking questions that align with the strategy.
-2. Answer each of these backtracking questions.
-3. Use the above answers as evidence to logically and coherently provide a final answer to your question, assisted by visual charts.
-
-Please tell me what issue you would like to explore?<br/>`backtracking-questions` `thinking-strategies` `problem-analysis` |
-\| [Unreal Engine Master](https://chat-preview.lobehub.com/market?agent=unreal-engine-master)<br/><sup>By **[thedivergentai](https://github.com/thedivergentai)** on **2024-08-27**</sup> | Unreal Game Development Companion<br/>`game-development` `unreal-engine` `software-engineering` |
-
-> 📊 Total agents: [<kbd>**322**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**351**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

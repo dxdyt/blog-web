@@ -1,9 +1,9 @@
 ---
 title: storm
-date: 2024-07-20T12:19:22+08:00
+date: 2024-09-23T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720727612331-1c432da0ebb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720727612331-1c432da0ebb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1569580388550-50907e7bad86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1569580388550-50907e7bad86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
 ---
 
 # [stanford-oval/storm](https://github.com/stanford-oval/storm)
@@ -26,6 +26,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1720727612331-1c432da0eb
 - [2024/06] We will present STORM at NAACL 2024! Find us at Poster Session 2 on June 17 or check our [presentation material](assets/storm_naacl2024_slides.pdf). 
 - [2024/05] We add Bing Search support in [rm.py](knowledge_storm/rm.py). Test STORM with `GPT-4o` - we now configure the article generation part in our demo using `GPT-4o` model.
 - [2024/04] We release refactored version of STORM codebase! We define [interface](knowledge_storm/interface.py) for STORM pipeline and reimplement STORM-wiki (check out [`src/storm_wiki`](knowledge_storm/storm_wiki)) to demonstrate how to instantiate the pipeline. We provide API to support customization of different language models and retrieval/search integration.
+
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
 ## Overview [(Try STORM now!)](https://storm.genie.stanford.edu/)
 
@@ -97,7 +99,7 @@ openai_kwargs = {
 # For a good practice, choose a cheaper/faster model for `conv_simulator_lm` which is used to split queries, synthesize answers in the conversation.
 # Choose a more powerful model for `article_gen_lm` to generate verifiable text with citations.
 gpt_35 = OpenAIModel(model='gpt-3.5-turbo', max_tokens=500, **openai_kwargs)
-gpt_4 = OpenAIModel(model='gpt-4-o', max_tokens=3000, **openai_kwargs)
+gpt_4 = OpenAIModel(model='gpt-4o', max_tokens=3000, **openai_kwargs)
 lm_configs.set_conv_simulator_lm(gpt_35)
 lm_configs.set_question_asker_lm(gpt_35)
 lm_configs.set_outline_gen_lm(gpt_4)
@@ -110,8 +112,8 @@ runner = STORMWikiRunner(engine_args, lm_configs, rm)
 ```
 
 Currently, our package support:
-- `OpenAIModel`, `AzureOpenAIModel`, `ClaudeModel`, `VLLMClient`, `TGIClient`, `TogetherClient`, `OllamaClient` as language model components
-- `YouRM`, `BingSearch`, `VectorRM` as retrieval module components
+- `OpenAIModel`, `AzureOpenAIModel`, `ClaudeModel`, `VLLMClient`, `TGIClient`, `TogetherClient`, `OllamaClient`, `GoogleModel`, `DeepSeekModel`, `GroqModel` as language model components
+- `YouRM`, `BingSearch`, `VectorRM`, `SerperRM`, `BraveRM`, `SearXNG`, `DuckDuckGoSearchRM`, and `TavilySearchRM` as retrieval module components
 
 :star2: **PRs for integrating more language models into [knowledge_storm/lm.py](knowledge_storm/lm.py) and search engines/retrievers into [knowledge_storm/rm.py](knowledge_storm/rm.py) are highly appreciated!**
 
