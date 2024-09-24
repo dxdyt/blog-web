@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-09-23T12:19:20+08:00
+date: 2024-09-24T12:20:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1569580388550-50907e7bad86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1569580388550-50907e7bad86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724599824501-06d34175ecd8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724599824501-06d34175ecd8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -295,14 +295,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                        | Description                                                                                                                                                                                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Fitness AI Trainer](https://chat-preview.lobehub.com/market?agent=ai-trainer)<br/><sup>By **[andreasvikke](https://github.com/andreasvikke)** on **2024-09-19**</sup>                | AI workout assistant specializing in personalized plans, muscle targeting, form guidance, progress tracking, motivation, and VR training.<br/>`workout-assistant` `fitness` `exercise` `training` `nutrition`                                                           |
-| [Alfred](https://chat-preview.lobehub.com/market?agent=alfred)<br/><sup>By **[Bern3rsH](https://github.com/Bern3rsH)** on **2024-09-19**</sup>                                        | A versatile butler.<br/>`lifestyle` `personal`                                                                                                                                                                                                                          |
-| [Career Development Mentor](https://chat-preview.lobehub.com/market?agent=career-development)<br/><sup>By **[daylight2022](https://github.com/daylight2022)** on **2024-09-19**</sup> | Professional career development planning and entrepreneurial consulting, providing practical advice through an in-depth understanding of user situations.<br/>`career-consulting` `career-planning` `entrepreneurship-guidance` `industry-insights` `skill-enhancement` |
-| [Vocabulary Assistant](https://chat-preview.lobehub.com/market?agent=english-words-helper)<br/><sup>By **[SpeedupMaster](https://github.com/SpeedupMaster)** on **2024-09-19**</sup>  | An assistant skilled in English word definitions and example sentence translations<br/>`vocabulary-assistant` `english` `translation` `example-sentences` `definitions`                                                                                                 |
+| Recent Submits                                                                                                                                                                           | Description                                                                                                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Advertising Copywriting Master](https://chat-preview.lobehub.com/market?agent=advertising-copywriting-master)<br/><sup>By **[leter](https://github.com/leter)** on **2024-09-23**</sup> | Specializing in product function analysis and advertising copywriting that resonates with user values<br/>`advertising-copy` `user-values` `marketing-strategy` |
+| [NovelAI Drawing Assistant](https://chat-preview.lobehub.com/market?agent=asis)<br/><sup>By **[samihalawa](https://github.com/samihalawa)** on **2024-09-23**</sup>                      | I can turn the scenes you describe into prompts for NovelAI<br/>`deep-learning` `image-generation` `algorithm` `prompt`                                         |
+| [Book Summary Expert](https://chat-preview.lobehub.com/market?agent=book-summary-expert-philo)<br/><sup>By **[saccohuo](https://github.com/saccohuo)** on **2024-09-23**</sup>           | A book summary expert providing concise and easy-to-read book summaries and structured outputs.<br/>`book-summary` `expert` `reading` `assistant`               |
+| [CEO GPT](https://chat-preview.lobehub.com/market?agent=ceo-gpt)<br/><sup>By **[leter](https://github.com/leter)** on **2024-09-23**</sup>                                               | AI mentor trained to advise startup CEOs based on the experiences<br/>`entrepreneurship` `consulting` `management` `strategy` `guidance`                        |
 
-> 📊 Total agents: [<kbd>**351**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**389**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

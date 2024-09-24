@@ -1,9 +1,9 @@
 ---
 title: godot
-date: 2024-08-18T12:20:22+08:00
+date: 2024-09-24T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723207197293-34000bddd70b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723207197293-34000bddd70b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725233448244-ce7278376f4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725233448244-ce7278376f4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
 ---
 
 # [godotengine/godot](https://github.com/godotengine/godot)

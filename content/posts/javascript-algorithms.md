@@ -1,9 +1,9 @@
 ---
 title: javascript-algorithms
-date: 2024-05-23T12:18:40+08:00
+date: 2024-09-24T12:20:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713365829670-d8df1e593248?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713365829670-d8df1e593248?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY0Mzc3NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724961279002-dad9c22aa7fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724961279002-dad9c22aa7fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
 ---
 
 # [trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
@@ -46,7 +46,8 @@ _Read this in other languages:_
 [_Українська_](README.uk-UA.md),
 [_Arabic_](README.ar-AR.md),
 [_Tiếng Việt_](README.vi-VN.md),
-[_Deutsch_](README.de-DE.md)
+[_Deutsch_](README.de-DE.md),
+[_Uzbek_](README.uz-UZ.md)
 
 *☝ Note that this project is meant to be used for learning and researching purposes
 only, and it is **not** meant to be used for production.*
@@ -57,6 +58,8 @@ A data structure is a particular way of organizing and storing data in a compute
 be accessed and modified efficiently. More precisely, a data structure is a collection of data
 values, the relationships among them, and the functions or operations that can be applied to
 the data.
+
+Remember that each data has its own trade-offs. And you need to pay attention more to why you're choosing a certain data structure than to how to implement it.
 
 `B` - Beginner, `A` - Advanced
 
