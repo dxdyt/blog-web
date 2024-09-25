@@ -1,9 +1,9 @@
 ---
 title: OpenHands
-date: 2024-09-23T12:20:20+08:00
+date: 2024-09-25T12:20:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723984834599-5357b87f727c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723984834599-5357b87f727c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725571712202-73d2a270d4c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725571712202-73d2a270d4c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
 ---
 
 # [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)

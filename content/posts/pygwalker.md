@@ -1,9 +1,9 @@
 ---
 title: pygwalker
-date: 2024-09-23T12:19:48+08:00
+date: 2024-09-25T12:19:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724646830540-5b8077259cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724646830540-5b8077259cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcwNjUxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724715060079-8ce6c4af6e09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724715060079-8ce6c4af6e09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
 ---
 
 # [Kanaries/pygwalker](https://github.com/Kanaries/pygwalker)
