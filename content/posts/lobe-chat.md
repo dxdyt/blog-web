@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-09-24T12:20:21+08:00
+date: 2024-09-26T12:21:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724599824501-06d34175ecd8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724599824501-06d34175ecd8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcxNTE1Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725905507743-30f903ebbf2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725905507743-30f903ebbf2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -295,14 +295,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                           | Description                                                                                                                                                     |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Advertising Copywriting Master](https://chat-preview.lobehub.com/market?agent=advertising-copywriting-master)<br/><sup>By **[leter](https://github.com/leter)** on **2024-09-23**</sup> | Specializing in product function analysis and advertising copywriting that resonates with user values<br/>`advertising-copy` `user-values` `marketing-strategy` |
-| [NovelAI Drawing Assistant](https://chat-preview.lobehub.com/market?agent=asis)<br/><sup>By **[samihalawa](https://github.com/samihalawa)** on **2024-09-23**</sup>                      | I can turn the scenes you describe into prompts for NovelAI<br/>`deep-learning` `image-generation` `algorithm` `prompt`                                         |
-| [Book Summary Expert](https://chat-preview.lobehub.com/market?agent=book-summary-expert-philo)<br/><sup>By **[saccohuo](https://github.com/saccohuo)** on **2024-09-23**</sup>           | A book summary expert providing concise and easy-to-read book summaries and structured outputs.<br/>`book-summary` `expert` `reading` `assistant`               |
-| [CEO GPT](https://chat-preview.lobehub.com/market?agent=ceo-gpt)<br/><sup>By **[leter](https://github.com/leter)** on **2024-09-23**</sup>                                               | AI mentor trained to advise startup CEOs based on the experiences<br/>`entrepreneurship` `consulting` `management` `strategy` `guidance`                        |
+| Recent Submits                                                                                                                                                                           | Description                                                                                                                                                                                                             |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Contract Clause Refiner v1.0](https://chat-preview.lobehub.com/market?agent=business-contract)<br/><sup>By **[houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>          | Output: {Optimize contract clauses for professional and concise expression}<br/>`contract-optimization` `legal-consultation` `copywriting` `terminology` `project-management`                                           |
+| [Meeting Assistant v1.0](https://chat-preview.lobehub.com/market?agent=meeting)<br/><sup>By **[houhoufm](https://github.com/houhoufm)** on **2024-09-24**</sup>                          | Professional meeting report assistant, distilling meeting key points into report sentences<br/>`meeting-reports` `writing` `communication` `workflow` `professional-skills`                                             |
+| [Stable Album Cover Prompter](https://chat-preview.lobehub.com/market?agent=title-bpm-stimmung)<br/><sup>By **[MellowTrixX](https://github.com/MellowTrixX)** on **2024-09-24**</sup>    | Professional graphic designer for front cover design specializing in creating visual concepts and designs for melodic techno music albums.<br/>`album-cover` `prompt` `stable-diffusion` `cover-design` `cover-prompts` |
+| [Advertising Copywriting Master](https://chat-preview.lobehub.com/market?agent=advertising-copywriting-master)<br/><sup>By **[leter](https://github.com/leter)** on **2024-09-23**</sup> | Specializing in product function analysis and advertising copywriting that resonates with user values<br/>`advertising-copy` `user-values` `marketing-strategy`                                                         |
 
-> 📊 Total agents: [<kbd>**389**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**392**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 

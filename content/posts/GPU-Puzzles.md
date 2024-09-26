@@ -1,9 +1,9 @@
 ---
 title: GPU-Puzzles
-date: 2024-09-25T12:19:59+08:00
+date: 2024-09-26T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725012858121-9b336157bea4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725012858121-9b336157bea4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726510114046-b7938cdc1bd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726510114046-b7938cdc1bd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
 ---
 
 # [srush/GPU-Puzzles](https://github.com/srush/GPU-Puzzles)
