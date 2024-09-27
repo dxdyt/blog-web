@@ -1,9 +1,9 @@
 ---
 title: backstage
-date: 2024-02-09T12:18:18+08:00
+date: 2024-09-27T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705615427946-847174bd8cf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705615427946-847174bd8cf3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc0NTIxMDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724752286363-846076c705a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724752286363-846076c705a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
 ---
 
 # [backstage/backstage](https://github.com/backstage/backstage)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1705615427946-847174bd8c
 
 # [Backstage](https://backstage.io)
 
-English \| [한국어](README-ko_kr.md) \| [中文版](README-zh_Hans.md)
+English \| [한국어](README-ko_kr.md) \| [中文版](README-zh_Hans.md) \| [Français](README-fr_FR.md)
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![CNCF Status](https://img.shields.io/badge/cncf%20status-incubation-blue.svg)](https://www.cncf.io/projects)
@@ -20,13 +20,12 @@ English \| [한국어](README-ko_kr.md) \| [中文版](README-zh_Hans.md)
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![Codecov](https://img.shields.io/codecov/c/github/backstage/backstage)](https://codecov.io/gh/backstage/backstage)
 [![](https://img.shields.io/github/v/release/backstage/backstage)](https://github.com/backstage/backstage/releases)
-[![Uffizzi](https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.uffizzi.com%2Fapi%2Fv1%2Fpublic%2Fshields%2Fgithub.com%2Fbackstage%2Fbackstage)](https://app.uffizzi.com/ephemeral-environments/backstage/backstage)
 [![OpenSSF Best Practices](https://bestpractices.coreinfrastructure.org/projects/7678/badge)](https://bestpractices.coreinfrastructure.org/projects/7678)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/backstage/backstage/badge)](https://securityscorecards.dev/viewer/?uri=github.com/backstage/backstage)
 
 ## What is Backstage?
 
-[Backstage](https://backstage.io/) is an open platform for building developer portals. Powered by a centralized software catalog, Backstage restores order to your microservices and infrastructure and enables your product teams to ship high-quality code quickly without compromising autonomy.
+[Backstage](https://backstage.io/) is an open source framework for building developer portals. Powered by a centralized software catalog, Backstage restores order to your microservices and infrastructure and enables your product teams to ship high-quality code quickly without compromising autonomy.
 
 Backstage unifies all your infrastructure tooling, services, and documentation to create a streamlined development environment from end to end.
 
@@ -66,13 +65,17 @@ To engage with our community, you can use the following resources:
 - [Discord chatroom](https://discord.gg/backstage-687207715902193673) - Get support or discuss the project
 - [Contributing to Backstage](https://github.com/backstage/backstage/blob/master/CONTRIBUTING.md) - Start here if you want to contribute
 - [RFCs](https://github.com/backstage/backstage/labels/rfc) - Help shape the technical direction
-- [FAQ](https://backstage.io/docs/FAQ) - Frequently Asked Questions
+- [FAQ](https://backstage.io/docs/faq) - Frequently Asked Questions
 - [Code of Conduct](CODE_OF_CONDUCT.md) - This is how we roll
 - [Adopters](ADOPTERS.md) - Companies already using Backstage
 - [Blog](https://backstage.io/blog/) - Announcements and updates
 - [Newsletter](https://spoti.fi/backstagenewsletter) - Subscribe to our email newsletter
 - [Backstage Community Sessions](https://github.com/backstage/community) - Join monthly meetups and explore Backstage community
 - Give us a star ⭐️ - If you are using Backstage or think it is an interesting project, we would love a star ❤️
+
+## Governance
+
+See the [GOVERNANCE.md](https://github.com/backstage/community/blob/main/GOVERNANCE.md) document in the [backstage/community](https://github.com/backstage/community) repository.
 
 ## License
 

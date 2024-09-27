@@ -1,9 +1,9 @@
 ---
 title: RustPython
-date: 2024-02-12T12:16:56+08:00
+date: 2024-09-27T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707162796436-e716e46e7e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707162796436-e716e46e7e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726593243881-847529d40d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726593243881-847529d40d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
 ---
 
 # [RustPython/RustPython](https://github.com/RustPython/RustPython)
@@ -76,6 +76,7 @@ If you'd like to make https requests, you can enable the `ssl` feature, which
 also lets you install the `pip` package manager. Note that on Windows, you may
 need to install OpenSSL, or you can enable the `ssl-vendor` feature instead,
 which compiles OpenSSL for you but requires a C compiler, perl, and `make`.
+OpenSSL version 3 is expected and tested in CI. Older versions may not work.
 
 Once you've installed rustpython with SSL support, you can install pip by
 running:
@@ -106,7 +107,7 @@ cargo build --target wasm32-wasi --no-default-features --features freeze-stdlib,
 Run by wasmer
 
 ```bash
-wasmer run --dir . target/wasm32-wasi/release/rustpython.wasm extra_tests/snippets/stdlib_random.py
+wasmer run --dir `pwd` -- target/wasm32-wasi/release/rustpython.wasm `pwd`/extra_tests/snippets/stdlib_random.py
 ```
 
 Run by wapm

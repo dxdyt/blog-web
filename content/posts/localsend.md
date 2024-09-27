@@ -1,9 +1,9 @@
 ---
 title: localsend
-date: 2024-09-26T12:20:02+08:00
+date: 2024-09-27T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726508271760-52f1744f2233?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726508271760-52f1744f2233?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726822741927-a6edcf19f116?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726822741927-a6edcf19f116?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
 ---
 
 # [localsend/localsend](https://github.com/localsend/localsend)

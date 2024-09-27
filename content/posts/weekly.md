@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2024-09-26T12:20:21+08:00
+date: 2024-09-27T12:20:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724676326198-4d3dcb182d9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724676326198-4d3dcb182d9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -39,6 +39,7 @@ $ grep -nri css docs | cat --number
 
 **九月**
 
+- 第 319 期：[如何拍出爆款视频](docs/issue-319.md)
 - 第 318 期：[创业咖啡馆的记忆](docs/issue-318.md)
 - 第 317 期：[驴子，老虎和狮子的寓言](docs/issue-317.md)
 - 第 316 期：[你一生的故事](docs/issue-316.md)

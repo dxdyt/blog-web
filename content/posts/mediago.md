@@ -1,9 +1,9 @@
 ---
 title: mediago
-date: 2024-09-25T12:20:41+08:00
+date: 2024-09-27T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724649747359-a8db1409a04b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724649747359-a8db1409a04b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
 ---
 
 # [caorushizi/mediago](https://github.com/caorushizi/mediago)

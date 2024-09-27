@@ -1,14 +1,14 @@
 ---
 title: Pake
-date: 2024-02-22T12:16:54+08:00
+date: 2024-09-27T12:19:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b405317358d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg1NzUyNTl8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
 ---
 
 # [tw93/Pake](https://github.com/tw93/Pake)
 
-<h4 align="right"><strong>English</strong> | <a href="https://github.com/tw93/Pake/blob/master/README_CN.md">简体中文</a></h4>
+<h4 align="right"><strong>English</strong> | <a href="https://github.com/tw93/Pake/blob/master/README_CN.md">简体中文</a> | <a href="https://github.com/tw93/Pake/blob/master/README_JP.md">日本語</a></h4>
 <p align="center">
     <img src=https://gw.alipayobjects.com/zos/k/fa/logo-modified.png width=138/>
 </p>
@@ -54,8 +54,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
         </td>
     </tr>
     <tr>
-        <td><img src=https://cdn.fliggy.com/upic/17dC9I.jpg width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/mc41xq.jpg width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/WeRead.jpg width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/Twitter.jpg width=600/></td>
     </tr>
     <tr>
         <td>ChatGPT
@@ -70,8 +70,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
         </td>
     </tr>
     <tr>
-        <td><img src=https://cdn.fliggy.com/upic/5aO6yP.png width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/Ztsx23.png width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/ChatGPT.png width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/Poe.png width=600/></td>
     </tr>
     <tr>
       <td>YouTube Music
@@ -86,8 +86,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
       </td>
     </tr>
     <tr>
-        <td><img src=https://raw.githubusercontent.com/tw93/static/master/pic/12.png width=600/></td>
-        <td><img src=https://gw.alipayobjects.com/zos/k/pn/1.jpg width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/YouTubeMusic.png width=600 /></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/YouTube.jpg width=600 /></td>
     </tr>
     <tr>
         <td>LiZhi
@@ -102,8 +102,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
         </td>
     </tr>
     <tr>
-        <td><img src=https://cdn.fliggy.com/upic/nYEKqN.jpg width=600/></td>
-        <td><img src=https://gw.alipayobjects.com/zos/k/r7/0C9lju.jpg width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/LiZhi.jpg width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/ProgramMusic.jpg width=600/></td>
     </tr>
     <tr>
         <td>Qwerty
@@ -118,8 +118,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
         </td>
     </tr>
     <tr>
-        <td><img src=https://cdn.fliggy.com/upic/i2eg6G.png width=600/></td>
-        <td><img src=https://cdn.fliggy.com/upic/mUzOek.jpg width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/Qwerty.png width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/CodeRunner.jpg width=600/></td>
     </tr>
         <tr>
         <td>Flomo
@@ -134,8 +134,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
         </td>
     </tr>
     <tr>
-        <td><img src=https://gw.alipayobjects.com/zos/k/30/RoUSUf.png width=600/></td>
-        <td><img src=https://gw.alipayobjects.com/zos/k/89/yJVwyi.png width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/Flomo.png width=600/></td>
+        <td><img src=https://raw.githubusercontent.com/tw93/static/main/pake/XiaoHongShu.png width=600/></td>
     </tr>
 </table>
 
@@ -145,7 +145,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1708251091546-1b40531735
 <br/>
 
 | Mac                         | Windows/Linux                  | Function                      |
-|-----------------------------|--------------------------------|-------------------------------|
+| --------------------------- | ------------------------------ | ----------------------------- |
 | <kbd>⌘</kbd> + <kbd>[</kbd> | <kbd>Ctrl</kbd> + <kbd>←</kbd> | Return to the previous page   |
 | <kbd>⌘</kbd> + <kbd>]</kbd> | <kbd>Ctrl</kbd> + <kbd>→</kbd> | Go to the next page           |
 | <kbd>⌘</kbd> + <kbd>↑</kbd> | <kbd>Ctrl</kbd> + <kbd>↑</kbd> | Auto scroll to top of page    |
@@ -163,13 +163,13 @@ In addition, double-click the title bar to switch to full-screen mode. For Mac u
 
 ## Before starting
 
-1. **For beginners**: Play with Popular Packages to find out Pake's capabilities, or try to pack your application with [GitHub Actions](https://github.com/tw93/Pake/wiki/Online-Compilation-(used-by-ordinary-users)). Don't hesitate to reach for assistance at [Discussion](https://github.com/tw93/Pake/discussions)!
+1. **For beginners**: Play with Popular Packages to find out Pake's capabilities, or try to pack your application with [GitHub Actions](<https://github.com/tw93/Pake/wiki/Online-Compilation-(used-by-ordinary-users)>). Don't hesitate to reach for assistance at [Discussion](https://github.com/tw93/Pake/discussions)!
 2. **For developers**: “Command-Line Packaging” supports macOS fully. For Windows/Linux users, it requires some tinkering. [Configure your environment](https://tauri.app/v1/guides/getting-started/prerequisites) before getting started.
 3. **For hackers**: For people who are good at both front-end development and Rust, how about customizing your apps' function more with the following [Customized Development](#development)?
 
 ## Command-Line Packaging
 
-![Pake](https://gw.alipayobjects.com/zos/k/zd/pake.gif)
+![Pake](https://raw.githubusercontent.com/tw93/static/main/pake/pake.gif)
 
 **Pake provides a command line tool, making the flow of package customization quicker and easier. See [documentation](./bin/README.md) for more information.**
 
@@ -181,10 +181,11 @@ npm install -g pake-cli
 pake url [OPTIONS]...
 
 # Feel free to play with Pake! It might take a while to prepare the environment the first time you launch Pake.
-pake https://weekly.tw93.fun --name Weekly --transparent
+pake https://weekly.tw93.fun --name Weekly --hide-title-bar
+
 ```
 
-If you are new to the command line, you can compile packages online with _GitHub Actions_. See the [Tutorial](https://github.com/tw93/Pake/wiki/Online-Compilation-(used-by-ordinary-users)) for more information.
+If you are new to the command line, you can compile packages online with _GitHub Actions_. See the [Tutorial](<https://github.com/tw93/Pake/wiki/Online-Compilation-(used-by-ordinary-users)>) for more information.
 
 ## Development
 
@@ -206,8 +207,8 @@ npm run build
 ## Advanced Usage
 
 1. You can refer to the [codebase structure](https://github.com/tw93/Pake/wiki/Description-of-Pake's-code-structure) before working on Pake, which will help you much in development.
-2. Modify the `url` and `productName` fields in the `pake.json` file under the src-tauri directory, the "domain" field in the `tauri.config.json` file needs to be modified synchronously, as well as the `icon` and `identifier` fields in the `tauri.xxx.conf.json` file. You can select a `icon` from the `icons` directory or download one from [macOSicons](https://macosicons.com/#/) to match your product needs.
-3. For configurations on window properties, you can modify the `pake.json` file to change the value of `width`, `height`, `fullscreen` (or not), `resizable` (or not) of the `windows` property. To adapt to the immersive header on Mac, change `transparent` to `true`, look for the `Header` element, and add the `padding-top` property.
+2. Modify the `url` and `productName` fields in the `pake.json` file under the src-tauri directory, the "domain" field in the `tauri.config.json` file needs to be modified synchronously, as well as the `icon` and `identifier` fields in the `tauri.xxx.conf.json` file. You can select an `icon` from the `icons` directory or download one from [macOSicons](https://macosicons.com/#/) to match your product needs.
+3. For configurations on window properties, you can modify the `pake.json` file to change the value of `width`, `height`, `fullscreen` (or not), `resizable` (or not) of the `windows` property. To adapt to the immersive header on Mac, change `hideTitleBar` to `true`, look for the `Header` element, and add the `padding-top` property.
 4. For advanced usages such as style rewriting, advertisement removal, JS injection, container message communication, and user-defined shortcut keys, see [Advanced Usage of Pake](https://github.com/tw93/Pake/wiki/Advanced-Usage-of-Pake).
 
 ## Developers
@@ -268,6 +269,13 @@ Pake's development can not be without these Hackers. They contributed a lot of c
     </td></tr>
 <tr>
     <td align="center">
+        <a href="https://github.com/YangguangZhou">
+            <img src="https://avatars.githubusercontent.com/u/61733195?v=4" width="90;" alt="YangguangZhou"/>
+            <br />
+            <sub><b>Jerry Zhou</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/AielloChan">
             <img src="https://avatars.githubusercontent.com/u/7900765?v=4" width="90;" alt="AielloChan"/>
             <br />
@@ -289,10 +297,10 @@ Pake's development can not be without these Hackers. They contributed a lot of c
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/exposir">
-            <img src="https://avatars.githubusercontent.com/u/33340988?v=4" width="90;" alt="exposir"/>
+        <a href="https://github.com/eltociear">
+            <img src="https://avatars.githubusercontent.com/u/22633385?v=4" width="90;" alt="eltociear"/>
             <br />
-            <sub><b>孟世博</b></sub>
+            <sub><b>Ikko Eltociear Ashimine</b></sub>
         </a>
     </td>
     <td align="center">
@@ -303,60 +311,53 @@ Pake's development can not be without these Hackers. They contributed a lot of c
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/hetz">
-            <img src="https://avatars.githubusercontent.com/u/820141?v=4" width="90;" alt="hetz"/>
+        <a href="https://github.com/exposir">
+            <img src="https://avatars.githubusercontent.com/u/33340988?v=4" width="90;" alt="exposir"/>
             <br />
-            <sub><b>贺天卓</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/piaoyidage">
-            <img src="https://avatars.githubusercontent.com/u/5135405?v=4" width="90;" alt="piaoyidage"/>
-            <br />
-            <sub><b>Ranger</b></sub>
+            <sub><b>孟世博</b></sub>
         </a>
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/liusishan">
-            <img src="https://avatars.githubusercontent.com/u/33129823?v=4" width="90;" alt="liusishan"/>
+        <a href="https://github.com/2nthony">
+            <img src="https://avatars.githubusercontent.com/u/19513289?v=4" width="90;" alt="2nthony"/>
             <br />
-            <sub><b>Liusishan</b></sub>
+            <sub><b>2nthony</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/liudonghua123">
-            <img src="https://avatars.githubusercontent.com/u/2276718?v=4" width="90;" alt="liudonghua123"/>
-            <br />
-            <sub><b>Liudonghua</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/lakca">
-            <img src="https://avatars.githubusercontent.com/u/16255922?v=4" width="90;" alt="lakca"/>
+        <a href="https://github.com/ACGNnsj">
+            <img src="https://avatars.githubusercontent.com/u/22112141?v=4" width="90;" alt="ACGNnsj"/>
             <br />
             <sub><b>Null</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/houhoz">
-            <img src="https://avatars.githubusercontent.com/u/19684376?v=4" width="90;" alt="houhoz"/>
+        <a href="https://github.com/imabutahersiddik">
+            <img src="https://avatars.githubusercontent.com/u/138387257?v=4" width="90;" alt="imabutahersiddik"/>
             <br />
-            <sub><b>Hyzhao</b></sub>
+            <sub><b>Abu Taher Siddik</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/princemaple">
-            <img src="https://avatars.githubusercontent.com/u/1329716?v=4" width="90;" alt="princemaple"/>
+        <a href="https://github.com/kidylee">
+            <img src="https://avatars.githubusercontent.com/u/841310?v=4" width="90;" alt="kidylee"/>
             <br />
-            <sub><b>Po Chen</b></sub>
+            <sub><b>An Li</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/Milo123459">
-            <img src="https://avatars.githubusercontent.com/u/50248166?v=4" width="90;" alt="Milo123459"/>
+        <a href="https://github.com/nekomeowww">
+            <img src="https://avatars.githubusercontent.com/u/11081491?v=4" width="90;" alt="nekomeowww"/>
             <br />
-            <sub><b>Milo</b></sub>
+            <sub><b>Ayaka Neko</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/turkyden">
+            <img src="https://avatars.githubusercontent.com/u/24560160?v=4" width="90;" alt="turkyden"/>
+            <br />
+            <sub><b>Dengju Deng</b></sub>
         </a>
     </td>
     <td align="center">
@@ -368,49 +369,103 @@ Pake's development can not be without these Hackers. They contributed a lot of c
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/turkyden">
-            <img src="https://avatars.githubusercontent.com/u/24560160?v=4" width="90;" alt="turkyden"/>
+        <a href="https://github.com/ImgBotApp">
+            <img src="https://avatars.githubusercontent.com/u/31427850?v=4" width="90;" alt="ImgBotApp"/>
             <br />
-            <sub><b>Dengju Deng</b></sub>
+            <sub><b>Imgbot</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/nekomeowww">
-            <img src="https://avatars.githubusercontent.com/u/11081491?v=4" width="90;" alt="nekomeowww"/>
+        <a href="https://github.com/droid-Q">
+            <img src="https://avatars.githubusercontent.com/u/708277?v=4" width="90;" alt="droid-Q"/>
             <br />
-            <sub><b>Ayaka Neko</b></sub>
+            <sub><b>Jiaqi Gu</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/kidylee">
-            <img src="https://avatars.githubusercontent.com/u/841310?v=4" width="90;" alt="kidylee"/>
+        <a href="https://github.com/mattbajorek">
+            <img src="https://avatars.githubusercontent.com/u/17235301?v=4" width="90;" alt="mattbajorek"/>
             <br />
-            <sub><b>An Li</b></sub>
+            <sub><b>Matt Bajorek</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/imabutahersiddik">
-            <img src="https://avatars.githubusercontent.com/u/138387257?v=4" width="90;" alt="imabutahersiddik"/>
+        <a href="https://github.com/Milo123459">
+            <img src="https://avatars.githubusercontent.com/u/50248166?v=4" width="90;" alt="Milo123459"/>
             <br />
-            <sub><b>Abu Taher Siddik</b></sub>
+            <sub><b>Milo</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/ACGNnsj">
-            <img src="https://avatars.githubusercontent.com/u/22112141?v=4" width="90;" alt="ACGNnsj"/>
+        <a href="https://github.com/princemaple">
+            <img src="https://avatars.githubusercontent.com/u/1329716?v=4" width="90;" alt="princemaple"/>
+            <br />
+            <sub><b>Po Chen</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Tianj0o">
+            <img src="https://avatars.githubusercontent.com/u/68584284?v=4" width="90;" alt="Tianj0o"/>
+            <br />
+            <sub><b>Qitianjia</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/geekvest">
+            <img src="https://avatars.githubusercontent.com/u/126322776?v=4" width="90;" alt="geekvest"/>
+            <br />
+            <sub><b>Null</b></sub>
+        </a>
+    </td></tr>
+<tr>
+    <td align="center">
+        <a href="https://github.com/houhoz">
+            <img src="https://avatars.githubusercontent.com/u/19684376?v=4" width="90;" alt="houhoz"/>
+            <br />
+            <sub><b>Hyzhao</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/lakca">
+            <img src="https://avatars.githubusercontent.com/u/16255922?v=4" width="90;" alt="lakca"/>
             <br />
             <sub><b>Null</b></sub>
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/2nthony">
-            <img src="https://avatars.githubusercontent.com/u/19513289?v=4" width="90;" alt="2nthony"/>
+        <a href="https://github.com/liudonghua123">
+            <img src="https://avatars.githubusercontent.com/u/2276718?v=4" width="90;" alt="liudonghua123"/>
             <br />
-            <sub><b>2nthony</b></sub>
+            <sub><b>Liudonghua</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/liusishan">
+            <img src="https://avatars.githubusercontent.com/u/33129823?v=4" width="90;" alt="liusishan"/>
+            <br />
+            <sub><b>Liusishan</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/piaoyidage">
+            <img src="https://avatars.githubusercontent.com/u/5135405?v=4" width="90;" alt="piaoyidage"/>
+            <br />
+            <sub><b>Ranger</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/hetz">
+            <img src="https://avatars.githubusercontent.com/u/820141?v=4" width="90;" alt="hetz"/>
+            <br />
+            <sub><b>贺天卓</b></sub>
         </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
+
+## Frequently Asked Questions
+
+1. Right-clicking on an image element in the page to open the menu and select download image or other events does not work (common in MacOS systems). This issue is due to the MacOS built-in webview not supporting this feature.
 
 ## Support
 
