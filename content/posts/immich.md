@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2024-09-10T12:19:58+08:00
+date: 2024-09-28T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724875299388-7257f4af1cf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724875299388-7257f4af1cf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725462567088-0898ef927c8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725462567088-0898ef927c8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -43,6 +43,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1724875299388-7257f4af1c
 <a href="readme_i18n/README_pt_BR.md">Português Brasileiro</a>
 <a href="readme_i18n/README_sv_SE.md">Svenska</a>
 <a href="readme_i18n/README_ar_JO.md">العربية</a>
+<a href="readme_i18n/README_vi_VN.md">Tiếng Việt</a>
 
 </p>
 

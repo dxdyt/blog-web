@@ -1,44 +1,52 @@
 ---
 title: cms
-date: 2024-04-15T12:29:42+08:00
+date: 2024-09-28T12:20:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711291817956-30c8fc8f9663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711291817956-30c8fc8f9663?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTMxNTUyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725905803121-dd123b058a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725905803121-dd123b058a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
-# [code100x/cms](https://github.com/code100x/cms)
+# [statamic/cms](https://github.com/statamic/cms)
 
-<h1 align='center'>CMS</h1>
+<p align="center"><img src="https://statamic.com/assets/branding/Statamic-Logo+Wordmark-Rad.svg" width="400" alt="Statamic Logo" /></p>
 
-## Setup Procedure
+## About Statamic
 
-* Docker
+Statamic is the flat-first, Laravel + Git powered CMS designed for building beautiful, easy to manage websites.
 
-    OR
+> [!NOTE]
+> This repository contains the code for the core Statamic Composer package, to be installed into an existing Laravel application. 
+> 
+> The [application repository][app-repo] is where you can find a Laravel application preconfigured with Statamic, which is used when creating a new project via the Statamic CLI tool.
 
-* Copy .env.example to .env
-* Get a postgres db from https://neon.tech/ (or any other provider)
-* Replace the DATABASE_URL in .env
-* Run ```npx prisma migrate dev``` to setup schema
-## Steps to run locally
-With Docker
+## Learning Statamic
 
-* ```docker compose up```
+Statamic has extensive [documentation][docs]. We dedicate a significant amount of time and energy every day to improving them, so if something is unclear, feel free to open issues for anything you find confusing or incomplete. We are happy to consider anything you feel will make the docs and CMS better.
 
-Without Docker
-* ```npm install```
-* ```npm run db:seed``` to seed the database
-* ```npm run dev```
-* Login using any userid and password 123456
-* You should be able to see some test courses
+## Support
 
-Make sure to lint and format your code before creating a PR
-* ```npm run lint:check``` to check for lint errors
-* ```npm run lint:fix``` to fix lint errors
-* ```npm run format:check``` to format the code
-* ```npm run format:fix``` to fix the formatting
-* If the code is not formatted properly, the CI will fail
+We provide official developer support on [Statamic Pro](https://statamic.com/pricing) projects. Community-driven support is available on [GitHub Discussions](https://github.com/statamic/cms/discussions) and in [Discord][discord].
 
----
 
-Read [contributing guidelines](./CONTRIBUTING.md) to start making contributions
+## Contributing
+
+Thank you for considering contributing to Statamic! We simply ask that you review the [contribution guide][contribution] before you open issues or send pull requests.
+
+
+## Code of Conduct
+
+In order to ensure that the Statamic community is welcoming to all and generally a rad place to belong, please review and abide by the [Code of Conduct](https://github.com/statamic/cms/wiki/Code-of-Conduct).
+
+
+## Important Links
+
+- [Statamic Main Site](https://statamic.com)
+- [Statamic Documentation][docs]
+- [Statamic Application Repo][app-repo]
+- [Statamic Migrator](https://github.com/statamic/migrator)
+- [Statamic Discord][discord]
+
+[docs]: https://statamic.dev/
+[discord]: https://statamic.com/discord
+[contribution]: https://github.com/statamic/cms/blob/master/CONTRIBUTING.md
+[app-repo]: https://github.com/statamic/statamic

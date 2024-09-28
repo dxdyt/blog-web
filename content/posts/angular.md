@@ -1,9 +1,9 @@
 ---
 title: angular
-date: 2024-05-25T12:16:37+08:00
+date: 2024-09-28T12:20:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714423616168-e9a6f38b6806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714423616168-e9a6f38b6806?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2MTA1NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724497508860-697b5b22a1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724497508860-697b5b22a1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [angular/angular](https://github.com/angular/angular)
@@ -28,7 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714423616168-e9a6f38b68
   ·
   <a href="https://github.com/angular/angular/issues">Submit an Issue</a>
   ·
-  <a href="https://blog.angular.io/">Blog</a>
+  <a href="https://blog.angular.dev/">Blog</a>
   <br>
   <br>
 </p>
@@ -111,7 +111,7 @@ Angular is cross-platform, fast, scalable, has incredible tooling, and is loved 
 ## Ecosystem
 
 <p>
-  <img src="/docs/images/angular-ecosystem-logos.png" alt="angular ecosystem logos" width="500px" height="auto">
+  <img src="/contributing-docs/images/angular-ecosystem-logos.png" alt="angular ecosystem logos" width="500px" height="auto">
 </p>
 
 - [Angular Command Line (CLI)][cli]
@@ -123,7 +123,7 @@ Angular is cross-platform, fast, scalable, has incredible tooling, and is loved 
 
 ## Upgrading
 
-Check out our [upgrade guide](https://update.angular.io/) to find out the best way to upgrade your project.
+Check out our [upgrade guide](https://angular.dev/update-guide/) to find out the best way to upgrade your project.
 
 ## Contributing
 

@@ -1,9 +1,9 @@
 ---
 title: llama-stack-apps
-date: 2024-09-27T12:20:35+08:00
+date: 2024-09-28T12:19:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723620033878-83979a9340c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723620033878-83979a9340c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724761019776-5970d4c26fa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724761019776-5970d4c26fa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-stack-apps](https://github.com/meta-llama/llama-stack-apps)

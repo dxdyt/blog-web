@@ -1,9 +1,9 @@
 ---
 title: dice
-date: 2024-09-11T12:20:58+08:00
+date: 2024-09-28T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711479898431-9031deb4ff0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711479898431-9031deb4ff0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723908021871-f76201c6db1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723908021871-f76201c6db1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [DiceDB/dice](https://github.com/DiceDB/dice)
@@ -12,6 +12,8 @@ DiceDB
 ===
 
 DiceDB is an in-memory real-time database with SQL-based reactivity. It is hyper-optimized for building and scaling truly real-time applications on modern hardware while being a drop-in replacement for Redis.
+
+We are looking for Early Design Partners, so, if you want to evaluate DiceDB, [block our calendar](https://cal.com/dicedb-arpit). always up for a chat.
 
 > Note: DiceDB is still in development and it supports a subset of Redis commands. So, please do not use it in production. But, feel free to go through the [open issues](https://github.com/DiceDB/dice/issues) and contribute to help us speed up the development.
 
@@ -40,6 +42,17 @@ The above command will start the DiceDB server running locally on the port `7379
 to it using DiceDB CLI and SDKs, or even Redis CLIs and SDKs.
 
 > Note: Given it is a drop-in replacement of Redis, you can also use any Redis CLI and SDK to connect to DiceDB.
+
+### Multi-Threading Mode (Experimental)
+
+Multi-threading is currently under active development. To run the server with multi-threading enabled, follow these steps:
+```shell
+$ git clone https://github.com/dicedb/dice
+$ cd dice
+$ go run main.go --enable-multithreading=true
+```
+
+**Note:** Only the following commands are optimised for multi-threaded execution: `PING, AUTH, SET, GET, GETSET, ABORT`
 
 ### Setting up DiceDB from source for development and contributions
 
@@ -88,7 +101,48 @@ To run the live DiceDB server for local development:
 ```sh
 $ git clone https://github.com/dicedb/dice
 $ cd dice
-$ air
+$ DICE_ENV=dev air
+```
+
+> The `DICE_ENV` environment variable is used set the environment, by default it is treated as production. `dev` is used to get pretty printed logs and lower log level.
+
+### Local Setup with Custom Config
+
+By default, DiceDB will look for the configuration file at `/etc/dice/config.toml`. (Linux, Darwin, and WSL)
+
+```sh
+$ # set up configuration file # (optional but recommended)
+$ sudo mkdir -p /etc/dice
+$ sudo chown root:$USER /etc/dice
+$ sudo chmod 775 /etc/dice # or 777 if you are the only user
+$ git clone https://github.com/DiceDB/dice.git
+$ cd dice
+$ go run main.go -init-config
+
+```
+
+#### For Windows Users:
+If you're using Windows, it is recommended to use Windows Subsystem for Linux (WSL) or WSL 2 to run the above commands seamlessly in a Linux-like environment.
+
+Alternatively, you can:
+
+Create a directory at `C:\ProgramData\dice` and run the following command to generate the configuration file:
+```bash
+go run main.go -init-config
+```
+For a smoother experience, we highly recommend using WSL.
+
+#### Additional Configuration Options:
+
+If you'd like to use a different location, you can specify a custom configuration file path with the `-c flag`:
+
+```bash
+go run main.go -c /path/to/config.toml
+```
+If you'd like to output the configuration file to a specific location, you can specify a custom output path with the `-o flag`:
+
+```bash
+go run main.go -o /path/of/output/dir
 ```
 
 ## Setting up CLI

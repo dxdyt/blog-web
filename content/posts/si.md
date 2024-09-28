@@ -1,9 +1,9 @@
 ---
 title: si
-date: 2023-08-19T12:14:27+08:00
+date: 2024-09-28T12:20:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691997369437-ae4c6de82fce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691997369437-ae4c6de82fce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724497508860-697b5b22a1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724497508860-697b5b22a1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [systeminit/si](https://github.com/systeminit/si)
@@ -11,27 +11,26 @@ featuredImagePreview: https://images.unsplash.com/photo-1691997369437-ae4c6de82f
 # System Initiative
 
 [![Discord Server](https://img.shields.io/badge/discord-gray?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/invite/system-init)
-[![Build dashboard](https://img.shields.io/badge/dashboard-gray?style=for-the-badge&logo=buildkite&logoColor=white)](https://buildkite.com/system-initiative)
-[![Build status](https://img.shields.io/buildkite/ecdbcb0ae243a74976f62a95826ec1fce62707e6fe07e4b973?style=for-the-badge&logo=buildkite&label=build)](https://buildkite.com/system-initiative/si-merge-main)
-[![Nightly status](https://img.shields.io/buildkite/311961055d5366e6b7d0bfb95cc01a513a103e8b39c8a42d33?style=for-the-badge&logo=buildkite&label=nightly)](https://buildkite.com/system-initiative/si-nightly)
+[![Build dashboard](https://img.shields.io/badge/build%20dashboard-gray?style=for-the-badge&logo=buildkite&logoColor=white)](https://buildkite.com/system-initiative)
+[![Main status](https://img.shields.io/buildkite/ecdbcb0ae243a74976f62a95826ec1fce62707e6fe07e4b973?style=for-the-badge&logo=buildkite&label=main)](https://buildkite.com/system-initiative/si-merge-main)
 
 This is a monolithic repository containing the System Initiative software.
 
 ## About
 
-System Initiative is a collaborative power tool designed to remove the papercuts from DevOps work.
-To learn more, read our ["Second Wave DevOps" blog post](https://www.systeminit.com/blog-second-wave-devops).
+System Initiative is the future of DevOps Automation. It is an Intuitive, Powerful, and Collaborative replacement for Infrastructure as Code.
+
+To learn more, read our ["System Initiative is the Future" blog post](https://www.systeminit.com/blog-system-initiative-is-the-future).
 
 ## Quickstart
 
-If you would like to get System Initiative (SI) up and running, navigate to the installation page on [our website](https://systeminit.com) to get started.
-If you would like to develop locally, follow the [Local Development Setup](#local-development-setup) instructions below.
+Follow the [Local Development Setup](#local-development-setup) instructions below.
+We are working on and investigating more way(s) to try out System Initiative in the future.
 
 ## Local Development Setup
 
-Running the System Initiative software locally can be done in a variety of ways, but this abbreviated section will focus on a single method for
-getting your environment ready to run the stack.
-For more information and options on running SI locally, see the [development environment documentation](./docs/DEVELOPMENT_ENVIRONMENT.md).
+Running the System Initiative software locally can be done in a variety of ways, but this abbreviated section will focus on a single method for getting your environment ready to run the stack.
+For more information and options on running SI locally, see the [development environment section of the docs](DOCS.md).
 
 ### (1) Choose a Supported Platform
 
@@ -44,14 +43,15 @@ Let's start by choosing an officially supported platform.
 
 **Platform Notes:**
 * On Apple Silicon systems (i.e. macOS aarch64 (arm64)), Rosetta 2 must be installed (install it with `softwareupdate --install-rosetta`)
-* [NixOS](https://nixos.org/) and Linux with MUSL instead of GNU (e.g. [Alpine Linux](https://www.alpinelinux.org/)) will not likely work at this time
+* [NixOS](https://nixos.org/) requires [`docker`](https://nixos.wiki/wiki/Docker) to be installed and [Flakes](https://nixos.wiki/wiki/Flakes) to be enabled (see the [development environment section of the docs](DOCS.md) for more information)
+* Linux with MUSL instead of GNU (e.g. [Alpine Linux](https://www.alpinelinux.org/)) is untested
 * Systemd may need to be enabled on WSL2
 
 ### (2) Install Dependencies
 
 Install dependencies on your chosen platform.
 
-- **1)** [`nix` with flakes enabled](https://github.com/DeterminateSystems/nix-installer)
+- **1)** [`nix` with flakes enabled](https://github.com/DeterminateSystems/nix-installer) version `>= 2.18.1` installed
 - **2)** `docker` from [Docker Desktop](https://www.docker.com/products/docker-desktop/) or [Docker Engine](https://docs.docker.com/engine/)
 - **3a)** [`direnv`](https://direnv.net) version `>= 2.30` installed
 - **3b)** [`direnv` hooked into your shell](https://direnv.net/docs/hook.html)
@@ -62,11 +62,10 @@ For `docker`, the Docker Desktop version corresponding to your native architectu
 WSL2 users should be able to use either Docker Desktop for WSL2 or Docker Engine inside the WSL2 VM.
 
 For `direnv`, you can install it with [your package manager of choice](https://direnv.net/docs/installation.html).
-However, if you're unsure which installation method to use or your package manager does not provide a compatible version,
-you can use `nix` itself (e.g. `nix profile install nixpkgs#direnv`).
+However, if you're unsure which installation method to use or your package manager does not provide a compatible version, you can use `nix` itself (e.g. `nix profile install nixpkgs#direnv`).
 
-> We recommend using [the upstream docs for hooking `direnv` into your shell](https://direnv.net/docs/hook.html), but here is an example on how to do it
-> on a system where `zsh` is the default shell.
+> [!TIP]
+> We recommend using [the upstream docs for hooking `direnv` into your shell](https://direnv.net/docs/hook.html), but here is an example on how to do it on a system where `zsh` is the default shell.
 > In this example, the following is added to the end of `~/.zshrc`.
 >
 > ```zsh
@@ -78,20 +77,12 @@ you can use `nix` itself (e.g. `nix profile install nixpkgs#direnv`).
 ### (3) Enter the Repository Directory
 
 All commands need to be run from the `nix` environment.
-Since `direnv` is installed _and_ hooked into your shell, you can `cd` into
-the repository and `nix` will boostrap the environment for you using the flake.
+Since `direnv` is installed _and_ hooked into your shell, you can `cd` into the repository and `nix` will bootstrap the environment for you using the flake.
 
-_Please note: you may notice a large download of dependencies when entering the repository for the first time._
+> [!WARNING]
+> You may notice a large download of dependencies when entering the repository for the first time.
 
-### (4) Configure Providers
-
-Configuring providers is optional for using the System Initiative software, but may be required depending on the types of assets used.
-
-If you are using AWS assets, authentication with the `aws` CLI is required to deploy and manage your infrastructure.
-
-```bash
-aws configure
-```
+### (4) (Optional) Configure Docker
 
 Docker Hub authentication is not strictly needed if you only access public docker images, but to avoid being rate-limited when qualifying images, we recommend authenticating with the `docker` CLI.
 
@@ -101,7 +92,7 @@ docker login
 
 ### (5) Running the Stack
 
-We use [**buck2**](https://github.com/facebook/buck2) to run the stack, run and build individual services and libraries, perform lints and tests, etc.
+We use [`buck2`](https://github.com/facebook/buck2) to run the stack, run and build individual services and libraries, perform lints and tests, etc.
 
 _Before continuing, you should stop any locally running services to avoid conflicting ports with the stack.
 Some of the services that will run include, but are not limited to the following: PostgreSQL, NATS, Jaeger and OpenTelemetry._
@@ -114,6 +105,7 @@ buck2 run dev:healthcheck
 
 You may notice some checks related to resource limits.
 On macOS and in WSL2 in particular, we recommend significantly increasing the file descriptor limit for `buck2` to work as intended (e.g. `ulimit -n 10240`).
+
 _Please note: the new file descriptor limit may not persist to future sessions._
 
 Once ready, we can build relevant services and run the entire stack locally.
@@ -128,15 +120,17 @@ buck2 run dev:up
 Once Tilt starts, you can check on the status of all services by accessing the UI through the given port on your local host (e.g. [http://localhost:10350/](http://localhost:10350/)).
 Every service should eventually have a green checkmark next to them, which ensures that they are in "ready" states.
 
-_Please note: database migrations may take some time to complete._
+> [!WARNING]
+> _Database migrations may take some time to complete._
 
-If you would like to learn more on what's running, check out the [Architecture](./docs/ARCHITECTURE.md) section.
+If you would like to learn more on what's running, check out the [docs](DOCS.md).
+In our documentation, you can also learn more about running the stack locally and a deeper dive into system requirements.
 
 ### (6) Troubleshooting in Tilt
 
 If some services failed to start, you can restart them on the Tilt dashboard.
 
-- A backend service fails (e.g. `sdf`): restart them in the following order: `veritech`, `council`, `pinga`, `sdf`
+- A backend service fails (e.g. `sdf`): restart them in the following order: `forklift`, `veritech`, `rebaser`, `pinga`, `sdf`
 - A frontend service fails (e.g. `web`): restart the service individually
 - A dependent service fails (e.g. PostgreSQL): tear down the stack and restart
 
@@ -158,14 +152,14 @@ buck2 run dev:stop
 ## Where Do I Learn More?
 
 For more information on how to use and develop the System Initiative software, talk to us on
-[our Discord](https://discord.com/invite/system-init) and see the [docs](./docs) directory.
+[our Discord](https://discord.com/invite/system-init) and see the [DOCS](DOCS.md).
 
 ## How Can I Contribute?
 
 To start, we recommend reading the [Open Source](#open-source) and [Contributing](#contributing) sources below.
 They provide information on licensing, contributor rights, and more.
 
-Afterwards, navigate to the [contributing guide](CONTRIBUTING.md) to get started.
+After that, navigate to the [contributing guide](CONTRIBUTING.md) to get started.
 
 ## Open Source
 
@@ -188,3 +182,4 @@ The System Initiative software is Open Source under the [Apache License 2.0](LIC
 3. Make sure your commits Author metadata matches the name and handle you added to the file.
 
 This ensures that users, distributors, and other contributors can rely on all the software related to System Initiative being contributed under the terms of the [License](LICENSE). No contributions will be accepted without following this process.
+

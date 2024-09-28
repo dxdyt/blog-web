@@ -1,9 +1,9 @@
 ---
 title: llama-stack
-date: 2024-09-27T12:19:58+08:00
+date: 2024-09-28T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726593243881-847529d40d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726593243881-847529d40d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724497508860-697b5b22a1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724497508860-697b5b22a1d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-stack](https://github.com/meta-llama/llama-stack)

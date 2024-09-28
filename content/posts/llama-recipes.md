@@ -1,50 +1,35 @@
 ---
 title: llama-recipes
-date: 2024-04-22T12:18:36+08:00
+date: 2024-09-28T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711638241167-796a782bd3f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM3NTkzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-recipes](https://github.com/meta-llama/llama-recipes)
 
 # Llama Recipes: Examples to get started using the Llama models from Meta
 <!-- markdown-link-check-disable -->
-The 'llama-recipes' repository is a companion to the [Meta Llama 2](https://github.com/meta-llama/llama) and [Meta Llama 3](https://github.com/meta-llama/llama3) models. The goal of this repository is to provide a scalable library for fine-tuning Meta Llama models, along with some example scripts and notebooks to quickly get started with using the models in a variety of use-cases, including fine-tuning for domain adaptation and building LLM-based applications with Meta Llama and other tools in the LLM ecosystem. The examples here showcase how to run Meta Llama locally, in the cloud, and on-prem.
+The 'llama-recipes' repository is a companion to the [Meta Llama](https://github.com/meta-llama/llama-models) models. We support the latest version, [Llama 3.2 Vision](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD_VISION.md) and [Llama 3.2 Text](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/MODEL_CARD.md), in this repository. This repository contains example scripts and notebooks to get started with the models in a variety of use-cases, including fine-tuning for domain adaptation and building LLM-based applications with Llama and other tools in the LLM ecosystem. The examples here use Llama locally, in the cloud, and on-prem.
+
+> [!TIP]
+> Get started with Llama 3.2 with these new recipes:
+> * [Finetune Llama 3.2 Vision](https://github.com/meta-llama/llama-recipes/blob/main/recipes/quickstart/finetuning/finetune_vision_model.md)
+> * [Multimodal Inference with Llama 3.2 Vision](https://github.com/meta-llama/llama-recipes/blob/main/recipes/quickstart/inference/local_inference/README.md#multimodal-inference)
+> * [Inference on Llama Guard 1B + Multimodal inference on Llama Guard 11B-Vision](https://github.com/meta-llama/llama-recipes/blob/main/recipes/responsible_ai/llama_guard/llama_guard_text_and_vision_inference.ipynb)
+
+
 <!-- markdown-link-check-enable -->
-> [!IMPORTANT]
-> Llama 3 has a new prompt template and special tokens (based on the tiktoken tokenizer).
-> | Token | Description |
-> |---|---|
-> `<\|begin_of_text\|>` | This is equivalent to the BOS token. |
-> `<\|end_of_text\|>` | This is equivalent to the EOS token. For multiturn-conversations it's usually unused. Instead, every message is terminated with `<\|eot_id\|>` instead.|
-> `<\|eot_id\|>` | This token signifies the end of the message in a turn i.e. the end of a single message by a system, user or assistant role as shown below.|
-> `<\|start_header_id\|>{role}<\|end_header_id\|>` | These tokens enclose the role for a particular message. The possible roles can be: system, user, assistant. |
->
-> A multiturn-conversation with Llama 3 follows this prompt template:
-> ```
-> <|begin_of_text|><|start_header_id|>system<|end_header_id|>
->
-> {{ system_prompt }}<|eot_id|><|start_header_id|>user<|end_header_id|>
->
-> {{ user_message_1 }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
->
-> {{ model_answer_1 }}<|eot_id|><|start_header_id|>user<|end_header_id|>
->
-> {{ user_message_2 }}<|eot_id|><|start_header_id|>assistant<|end_header_id|>
-> ```
-> Each message gets trailed by an `<|eot_id|>` token before a new header is started, signaling a role change.
->
-> More details on the new tokenizer and prompt template can be found [here](https://llama.meta.com/docs/model-cards-and-prompt-formats/meta-llama-3#special-tokens-used-with-meta-llama-3).
->
 > [!NOTE]
-> The llama-recipes repository was recently refactored to promote a better developer experience of using the examples. Some files have been moved to new locations. The `src/` folder has NOT been modified, so the functionality of this repo and package is not impacted.
->
-> Make sure you update your local clone by running `git pull origin main`
+> Llama 3.2 follows the same prompt template as Llama 3.1, with a new special token `<|image|>` representing the input image for the multimodal models.
+> 
+> More details on the prompt templates for image reasoning, tool-calling and code interpreter can be found [on the documentation website](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_2).
+
+
 
 ## Table of Contents
 
-- [Llama Recipes: Examples to get started using the Meta Llama models from Meta](#llama-recipes-examples-to-get-started-using-the-llama-models-from-meta)
+- [Llama Recipes: Examples to get started using the Llama models from Meta](#llama-recipes-examples-to-get-started-using-the-llama-models-from-meta)
   - [Table of Contents](#table-of-contents)
   - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
@@ -58,6 +43,7 @@ The 'llama-recipes' repository is a companion to the [Meta Llama 2](https://gith
   - [Repository Organization](#repository-organization)
     - [`recipes/`](#recipes)
     - [`src/`](#src)
+  - [Supported Features](#supported-features)
   - [Contributing](#contributing)
   - [License](#license)
 
@@ -72,6 +58,10 @@ If you want to use PyTorch nightlies instead of the stable release, go to [this 
 
 ### Installing
 Llama-recipes provides a pip distribution for easy install and usage in other projects. Alternatively, it can be installed from source.
+
+> [!NOTE]
+> Ensure you use the correct CUDA version (from `nvidia-smi`) when installing the PyTorch wheels. Here we are using 11.8 as `cu118`.
+> H100 GPUs work better with CUDA >12.0
 
 #### Install with pip
 ```
@@ -92,6 +82,10 @@ To use the sensitive topics safety checker install with:
 ```
 pip install llama-recipes[auditnlg]
 ```
+Some recipes require the presence of langchain. To install the packages follow the recipe description or install with:
+```
+pip install llama-recipes[langchain]
+```
 Optional dependencies can also be combines with [option1,option2].
 
 #### Install from source
@@ -111,23 +105,21 @@ pip install -e .[tests,auditnlg,vllm]
 ```
 
 
-### Getting the Meta Llama models
-You can find Meta Llama models on Hugging Face hub [here](https://huggingface.co/meta-llama), **where models with `hf` in the name are already converted to Hugging Face checkpoints so no further conversion is needed**. The conversion step below is only for original model weights from Meta that are hosted on Hugging Face model hub as well.
+### Getting the Llama models
+You can find Llama models on Hugging Face hub [here](https://huggingface.co/meta-llama), **where models with `hf` in the name are already converted to Hugging Face checkpoints so no further conversion is needed**. The conversion step below is only for original model weights from Meta that are hosted on Hugging Face model hub as well.
 
 #### Model conversion to Hugging Face
-The recipes and notebooks in this folder are using the Meta Llama model definition provided by Hugging Face's transformers library.
-
-Given that the original checkpoint resides under models/7B you can install all requirements and convert the checkpoint with:
+If you have the model checkpoints downloaded from the Meta website, you can convert it to the Hugging Face format with:
 
 ```bash
 ## Install Hugging Face Transformers from source
-pip freeze | grep transformers ## verify it is version 4.31.0 or higher
+pip freeze | grep transformers ## verify it is version 4.45.0 or higher
 
 git clone git@github.com:huggingface/transformers.git
 cd transformers
 pip install protobuf
 python src/transformers/models/llama/convert_llama_weights_to_hf.py \
-   --input_dir /path/to/downloaded/llama/weights --model_size 7B --output_dir /output/path
+   --input_dir /path/to/downloaded/llama/weights --model_size 3B --output_dir /output/path
 ```
 
 
@@ -141,14 +133,10 @@ Contains examples are organized in folders by topic:
 | Subfolder | Description |
 |---|---|
 [quickstart](./recipes/quickstart) | The "Hello World" of using Llama, start here if you are new to using Llama.
-[finetuning](./recipes/finetuning)|Scripts to finetune Llama on single-GPU and multi-GPU setups
-[inference](./recipes/inference)|Scripts to deploy Llama for inference locally and using model servers
-[use_cases](./recipes/use_cases)|Scripts showing common applications of Llama2
+[use_cases](./recipes/use_cases)|Scripts showing common applications of Meta Llama3
+[3p_integrations](./recipes/3p_integrations)|Partner owned folder showing common applications of Meta Llama3
 [responsible_ai](./recipes/responsible_ai)|Scripts to use PurpleLlama for safeguarding model outputs
-[llama_api_providers](./recipes/llama_api_providers)|Scripts to run inference on Llama via hosted endpoints
-[benchmarks](./recipes/benchmarks)|Scripts to benchmark Llama models inference on various backends
-[code_llama](./recipes/code_llama)|Scripts to run inference with the Code Llama models
-[evaluation](./recipes/evaluation)|Scripts to evaluate fine-tuned Llama models using `lm-evaluation-harness` from `EleutherAI`
+[experimental](./recipes/experimental)|Meta Llama implementations of experimental LLM techniques
 
 ### `src/`
 
@@ -163,13 +151,42 @@ Contains modules which support the example recipes:
 | [utils](src/llama_recipes/utils/) | Utility files for:<br/> - `train_utils.py` provides training/eval loop and more train utils.<br/> - `dataset_utils.py` to get preprocessed datasets.<br/> - `config_utils.py` to override the configs received from CLI.<br/> - `fsdp_utils.py` provides FSDP  wrapping policy for PEFT methods.<br/> - `memory_utils.py` context manager to track different memory stats in train loop. |
 
 
+## Supported Features
+The recipes and modules in this repository support the following features:
+
+| Feature                                        |   |
+| ---------------------------------------------- | - |
+| HF support for inference                       | ✅ |
+| HF support for finetuning                      | ✅ |
+| PEFT                                           | ✅ |
+| Deferred initialization ( meta init)           | ✅ |
+| Low CPU mode for multi GPU                     | ✅ |
+| Mixed precision                                | ✅ |
+| Single node quantization                       | ✅ |
+| Flash attention                                | ✅ |
+| Activation checkpointing FSDP                  | ✅ |
+| Hybrid Sharded Data Parallel (HSDP)            | ✅ |
+| Dataset packing & padding                      | ✅ |
+| BF16 Optimizer (Pure BF16)                     | ✅ |
+| Profiling & MFU tracking                       | ✅ |
+| Gradient accumulation                          | ✅ |
+| CPU offloading                                 | ✅ |
+| FSDP checkpoint conversion to HF for inference | ✅ |
+| W&B experiment tracker                         | ✅ |
+
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## License
 <!-- markdown-link-check-disable -->
-See the License file for Meta Llama 2 [here](https://llama.meta.com/llama2/license/) and Acceptable Use Policy [here](https://llama.meta.com/llama2/use-policy/)
 
-See the License file for Meta Llama 3 [here](https://llama.meta.com/llama3/license/) and Acceptable Use Policy [here](https://llama.meta.com/llama3/use-policy/)
+See the License file for Meta Llama 3.2 [here](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/LICENSE) and Acceptable Use Policy [here](https://github.com/meta-llama/llama-models/blob/main/models/llama3_2/USE_POLICY.md)
+
+See the License file for Meta Llama 3.1 [here](https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/LICENSE) and Acceptable Use Policy [here](https://github.com/meta-llama/llama-models/blob/main/models/llama3_1/USE_POLICY.md)
+
+See the License file for Meta Llama 3 [here](https://github.com/meta-llama/llama-models/blob/main/models/llama3/LICENSE) and Acceptable Use Policy [here](https://github.com/meta-llama/llama-models/blob/main/models/llama3/USE_POLICY.md)
+
+See the License file for Meta Llama 2 [here](https://github.com/meta-llama/llama-models/blob/main/models/llama2/LICENSE) and Acceptable Use Policy [here](https://github.com/meta-llama/llama-models/blob/main/models/llama2/USE_POLICY.md)
 <!-- markdown-link-check-enable -->
