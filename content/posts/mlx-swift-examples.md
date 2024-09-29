@@ -1,9 +1,9 @@
 ---
 title: mlx-swift-examples
-date: 2024-04-27T12:16:49+08:00
+date: 2024-09-29T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713103660271-3b1ffe5bba5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQxOTEyODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725109431763-36524de95bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725109431763-36524de95bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples)
@@ -17,14 +17,21 @@ Example [MLX Swift](https://github.com/ml-explore/mlx-swift) programs.
   [LeNet](https://en.wikipedia.org/wiki/LeNet). 
 
 - [LLMEval](Applications/LLMEval/README.md): An example that runs on both iOS
-  and macOS that downloads an LLM and tokenizer from Hugging Face and  and
+  and macOS that downloads an LLM and tokenizer from Hugging Face and 
   generates text from a given prompt. 
 
 - [LinearModelTraining](Tools/LinearModelTraining/README.md): An example that
   trains a simple linear model.
 
+- [StableDiffusionExample](Applications/StableDiffusionExample/README.md): An 
+  example that runs on both iOS and macOS that downloads a stable diffusion model
+  from Hugging Face and  and generates an image from a given prompt. 
+
 - [llm-tool](Tools/llm-tool/README.md): A command line tool for generating text
   using a variety of LLMs available on the Hugging Face hub.
+
+- [image-tool](Tools/image-tool/README.md): A command line tool for generating images
+  using a stable diffusion model from Hugging Face.
 
 - [mnist-tool](Tools/mnist-tool/README.md): A command line tool for training a
   a LeNet on MNIST.
@@ -44,7 +51,8 @@ See also:
 
 ## Installation of MLXLLM and MLXMNIST libraries
 
-The MLXLLM and MLXMNIST libraries in the example repo are available as Swift Packages.
+The MLXLLM, MLXMNIST and StableDiffusion libraries in the example repo are available
+as Swift Packages.
 
 
 Add the following dependency to your Package.swift

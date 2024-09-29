@@ -1,9 +1,9 @@
 ---
 title: CopilotKit
-date: 2024-08-18T12:21:13+08:00
+date: 2024-09-29T12:20:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722370954278-ccb33ca81489?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722370954278-ccb33ca81489?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM5NTQ3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725109431763-36524de95bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725109431763-36524de95bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
 ---
 
 # [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)
@@ -57,7 +57,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1722370954278-ccb33ca814
 <br />
 
 <div align="center">
-  <img src="./assets/screenshot.png" alt="CopilotKit Screenshot" style="border-radius: 15px;" />
+  <img src="./assets/animated-banner.gif" alt="CopilotKit Screenshot" style="border-radius: 15px;" />
 </div>
 
 <br />

@@ -1,9 +1,9 @@
 ---
 title: dice
-date: 2024-09-28T12:19:46+08:00
+date: 2024-09-29T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723908021871-f76201c6db1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723908021871-f76201c6db1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725181959662-af4acf689235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725181959662-af4acf689235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
 ---
 
 # [DiceDB/dice](https://github.com/DiceDB/dice)
@@ -11,11 +11,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1723908021871-f76201c6db
 DiceDB
 ===
 
-DiceDB is an in-memory real-time database with SQL-based reactivity. It is hyper-optimized for building and scaling truly real-time applications on modern hardware while being a drop-in replacement for Redis.
+DiceDB is an in-memory, real-time, and reactive database with Redis and SQL support optimized for modern hardware and building real-time applications.
 
 We are looking for Early Design Partners, so, if you want to evaluate DiceDB, [block our calendar](https://cal.com/dicedb-arpit). always up for a chat.
 
 > Note: DiceDB is still in development and it supports a subset of Redis commands. So, please do not use it in production. But, feel free to go through the [open issues](https://github.com/DiceDB/dice/issues) and contribute to help us speed up the development.
+
+## Want to contribute?
+
+We have multiple repositories where you can contribute. So, as per your interest, you can pick one and build a deeper understanding of the project on the go.
+
+- [dicedb/dice](https://github.com/dicedb/dice) for core database features and engine / Stack - Go
+- [dicedb/playground-mono](https://github.com/dicedb/playground-mono) backend APIs for DiceDB playground / Stack - Go
+- [dicedb/playground-web](https://github.com/dicedb/playground-web) frontend for DiceDB playground / Stack - NextJS
 
 ## How is it different from Redis?
 
@@ -203,6 +211,33 @@ $ go test -test.bench BenchmarkListRedis -benchmem
 ## Getting Started
 
 To get started with building and contributing to DiceDB, please refer to the [issues](https://github.com/DiceDB/dice/issues) created in this repository.
+
+## Docs
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a298f6d-ae8d-44d4-a96d-00096b144b55/deploy-status)](https://app.netlify.com/sites/dicedb/deploys)
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+
+We use [Astro](https://astro.build/) framework to power the [dicedb.io website](https://dicedb.io) and [Starlight](https://starlight.astro.build/) to power the docs. Once you have NodeJS installed, fire the following commands to get your local version of [dicedb.io](https://dicedb.io) running.
+
+```
+$ cd docs
+$ npm install
+$ npm run dev
+```
+
+Once the server starts, visit http://localhost:4321/ in your favourite browser. This runs with a hot reload which means any changes you make in the website and the documentation can be instantly viewed on the browser.
+
+## To build and deploy
+
+```
+$ cd docs
+$ npm run build
+```
+
+### Docs directory structure
+
+1. `docs/src/content/docs/commands` is where all the commands are documented
+2. `docs/src/content/docs/tutorials` is where all the tutorials are documented
 
 ## The story
 

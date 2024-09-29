@@ -1,9 +1,9 @@
 ---
 title: LibreTranslate
-date: 2024-08-23T12:18:52+08:00
+date: 2024-09-29T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722353619589-5baa433c3fab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722353619589-5baa433c3fab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQzODY2ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726758130089-97708decbc1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726758130089-97708decbc1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
 ---
 
 # [LibreTranslate/LibreTranslate](https://github.com/LibreTranslate/LibreTranslate)
@@ -486,7 +486,7 @@ Indonesian |  | [Edit](https://hosted.weblate.org/translate/libretranslate/app/i
 Irish |  | [Edit](https://hosted.weblate.org/translate/libretranslate/app/ga/)
 Italian | :heavy_check_mark: | [Edit](https://hosted.weblate.org/translate/libretranslate/app/it/)
 Japanese |  | [Edit](https://hosted.weblate.org/translate/libretranslate/app/ja/)
-Kabyle |  | [Edit](https://hosted.weblate.org/projects/libretranslate/app/kab/)
+Kabyle | :heavy_check_mark: | [Edit](https://hosted.weblate.org/projects/libretranslate/app/kab/)
 Korean | :heavy_check_mark: | [Edit](https://hosted.weblate.org/translate/libretranslate/app/ko/)
 Occitan |  | [Edit](https://hosted.weblate.org/translate/libretranslate/app/oc/)
 Persian |  | [Edit](https://hosted.weblate.org/translate/libretranslate/app/fa/)
