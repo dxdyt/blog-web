@@ -1,9 +1,9 @@
 ---
 title: si
-date: 2024-09-29T12:19:33+08:00
+date: 2024-09-30T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725550624010-2623171cdbd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725550624010-2623171cdbd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725226125870-2c1b9eef9b91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725226125870-2c1b9eef9b91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
 ---
 
 # [systeminit/si](https://github.com/systeminit/si)

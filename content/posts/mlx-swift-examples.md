@@ -1,9 +1,9 @@
 ---
 title: mlx-swift-examples
-date: 2024-09-29T12:19:19+08:00
+date: 2024-09-30T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725109431763-36524de95bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725109431763-36524de95bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725867253101-a78ead1ce5e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725867253101-a78ead1ce5e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples)

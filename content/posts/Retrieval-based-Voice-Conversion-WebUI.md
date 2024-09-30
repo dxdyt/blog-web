@@ -1,9 +1,9 @@
 ---
 title: Retrieval-based-Voice-Conversion-WebUI
-date: 2024-04-01T12:18:36+08:00
+date: 2024-09-30T12:22:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1638996970429-389100ca2b48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1638996970429-389100ca2b48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE5NDQ5NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727294810277-5da030783146?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727294810277-5da030783146?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
 ---
 
 # [RVC-Project/Retrieval-based-Voice-Conversion-WebUI](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI)

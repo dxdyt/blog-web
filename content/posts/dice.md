@@ -1,9 +1,9 @@
 ---
 title: dice
-date: 2024-09-29T12:21:15+08:00
+date: 2024-09-30T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725181959662-af4acf689235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725181959662-af4acf689235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725988415840-b69ae3328e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725988415840-b69ae3328e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
 ---
 
 # [DiceDB/dice](https://github.com/DiceDB/dice)
@@ -29,7 +29,7 @@ We have multiple repositories where you can contribute. So, as per your interest
 
 Although DiceDB is a drop-in replacement of Redis, which means almost no learning curve and switching does not require any code change, it still differs in two key aspects and they are
 
-1. DiceDB is multi-threaded and follows [shared-nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
+1. DiceDB is multithreaded and follows [shared-nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
 2. DiceDB supports a new command called `QWATCH` that lets clients listen to a SQL query and get notified in real-time whenever something changes.
 
 With this, you can build truly real-time applications like [Leaderboard](https://github.com/DiceDB/dice/tree/master/examples/leaderboard-go) with simple SQL query.
@@ -60,7 +60,7 @@ $ cd dice
 $ go run main.go --enable-multithreading=true
 ```
 
-**Note:** Only the following commands are optimised for multi-threaded execution: `PING, AUTH, SET, GET, GETSET, ABORT`
+**Note:** Only the following commands are optimised for multithreaded execution: `PING, AUTH, SET, GET, GETSET, ABORT`
 
 ### Setting up DiceDB from source for development and contributions
 
@@ -78,7 +78,7 @@ $ cd dice
 $ go run main.go
 ```
 
-4. Install GoLangCI
+1. Install GoLangCI
 
 ```
 $ sudo su
@@ -89,14 +89,14 @@ $ curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/ins
 
 DiceDB provides a hot-reloading development environment, which allows you to instantly view your code changes in a live server. This functionality is supported by [Air](https://github.com/air-verse/air)
 
-To Install Air on your system you have following options.
+To Install Air on your system you have the following options.
 
 1. If you're on go 1.22+
 ```sh
 go install github.com/air-verse/air@latest
 ```
 
-2. Install the Air binary
+1. Install the Air binary
 ```sh
 # binary will be installed at $(go env GOPATH)/bin/air
 curl -sSfL https://raw.githubusercontent.com/air-verse/air/master/install.sh | sh -s -- -b $(go env GOPATH)/bin
@@ -198,7 +198,7 @@ $ TEST_FUNC=TestSet make test-one
 $ make test
 ```
 
-> Work to add more tests in DiceDB is in progress and we will soon port the
+> Work to add more tests in DiceDB is in progress, and we will soon port the
 > test [Redis suite](https://github.com/redis/redis/tree/f60370ce28b946c1146dcea77c9c399d39601aaa) to this codebase to ensure full compatibility.
 
 ## Running Benchmark
@@ -241,7 +241,7 @@ $ npm run build
 
 ## The story
 
-DiceDB started as a re-implementation of Redis in Golang and the idea was to - build a DB from scratch and understand the micro-nuances that come with its implementation. The database does not aim to replace Redis, instead, it will fit in and optimize itself for multi-core computations running on a single-threaded event loop.
+DiceDB started as a re-implementation of Redis in Golang and the idea was to - build a DB from scratch and understand the micro-nuances that come with its implementation. The database does not aim to replace Redis, instead, it will fit in and optimize itself for multicore computations running on a single-threaded event loop.
 
 ## How to contribute
 

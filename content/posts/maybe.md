@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-07-04T12:17:05+08:00
+date: 2024-09-30T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719208750955-cb740a420cf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719208750955-cb740a420cf7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAwNjY1OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726863969416-47e3f6f9fea7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726863969416-47e3f6f9fea7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -52,7 +52,7 @@ The instructions below are for developers to get started with contributing to th
 
 ### Requirements
 
-- Ruby 3.3.1
+- Ruby 3.3.4
 - PostgreSQL >9.3 (ideally, latest stable version)
 
 After cloning the repo, the basic setup commands are:

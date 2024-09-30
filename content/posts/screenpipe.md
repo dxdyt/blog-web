@@ -1,9 +1,9 @@
 ---
 title: screenpipe
-date: 2024-09-29T12:19:13+08:00
+date: 2024-09-30T12:22:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725181959662-af4acf689235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725181959662-af4acf689235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726059968922-0396248fdaea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726059968922-0396248fdaea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
 ---
 
 # [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)
@@ -108,7 +108,7 @@ screenpipe has a plugin system called "pipe" which lets you run code in a sandbo
 
 ## star history
 
-![GitHub Star History (1)](https://github.com/user-attachments/assets/533d4b26-e3b5-4b11-8cef-df17b3cd9197)
+![GitHub Star History (3)](https://github.com/user-attachments/assets/6bb3f559-5016-4e1c-a91e-563ce89cd855)
 
 
 ## Contributing
