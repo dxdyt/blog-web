@@ -1,9 +1,9 @@
 ---
 title: ente
-date: 2024-09-09T12:20:49+08:00
+date: 2024-10-01T12:21:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723714807771-23b5447e2f65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723714807771-23b5447e2f65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725554515068-8bb766ba0724?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725554515068-8bb766ba0724?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [ente-io/ente](https://github.com/ente-io/ente)
@@ -80,7 +80,7 @@ want to give back, please check out Ente Photos or spread the word.
 [<img height="42" src=".github/assets/app-store-badge.svg">](https://apps.apple.com/app/id6444121398)
 [<img height="42" src=".github/assets/play-store-badge.png">](https://play.google.com/store/apps/details?id=io.ente.auth)
 [<img height="42" src=".github/assets/f-droid-badge.png">](https://f-droid.org/packages/io.ente.auth/)
-[<img height="42" src=".github/assets/desktop-badge.png">](https://github.com/ente-io/ente/releases?q=tag%3Aauth-v3)
+[<img height="42" src=".github/assets/desktop-badge.png">](https://github.com/ente-io/ente/releases?q=tag%3Aauth-v4)
 [<img height="42" src=".github/assets/web-badge.svg">](https://auth.ente.io)
 
 </div>

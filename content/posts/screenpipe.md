@@ -1,9 +1,9 @@
 ---
 title: screenpipe
-date: 2024-09-30T12:22:14+08:00
+date: 2024-10-01T12:20:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726059968922-0396248fdaea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726059968922-0396248fdaea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727434032773-af3cd98375ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727434032773-af3cd98375ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)
@@ -30,7 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726059968922-0396248fda
 
 <p align="center">
     <a href="https://www.youtube.com/@mediar_ai" target="_blank">
-        <img src="https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fyoutube-channel-badge.ngoldack.vercel.app%2Fapi%2Fsubscriber" alt="Subs">
+       <img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UCwjkpAsb70_mENKvy7hT5bw">
     </a>
 </p>
 
@@ -39,7 +39,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1726059968922-0396248fda
     <a href="https://discord.gg/dU9EBuw7Uq">
         <img src="https://img.shields.io/discord/823813159592001537?color=5865F2&logo=discord&logoColor=white&style=flat-square" alt="Join us on Discord">
     </a>
-        <a href="https://twitter.com/screen_pipe"><img alt="X account" src="https://img.shields.io/twitter/url/https/twitter.com/diffuserslib.svg?style=social&label=Follow%20%40screen_pipe"></a>
+   <a href="https://twitter.com/screen_pipe"><img alt="X account" src="https://img.shields.io/twitter/url/https/twitter.com/diffuserslib.svg?style=social&label=Follow%20%40screen_pipe"></a>
+   <a href="https://console.algora.io/org/mediar-ai/bounties?status=completed">
+       <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2Fmediar-ai%2Fbounties%3Fstatus%3Dcompleted" alt="Rewarded Bounties">
+   </a>
+   <a href="https://console.algora.io/org/mediar-ai/bounties?status=open">
+       <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2Fmediar-ai%2Fbounties%3Fstatus%3Dopen" alt="Open Bounties">
+   </a>
 </p>
 
 <p align="center">
@@ -58,6 +64,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726059968922-0396248fda
 ---
 
 *Latest News* 🔥
+- [2024/09] [screenpipe is top github repo & on hackernews!](https://x.com/louis030195/status/1840859691754344483)
 - [2024/09] 70 users run screenpipe 24/7!
 - [2024/09] Released a v0 of our [documentation](https://docs.screenpi.pe/)
 - [2024/08] Anyone can now [create, share, install pipes](https://youtu.be/iCqHgZgQHyA?si=DjKJir7HfZoQKItK) (plugins) from the app interface based on a github repo/dir
@@ -92,7 +99,7 @@ There are multiple ways to install screenpipe:
 - as a CLI for technical users
 - as a [paid desktop app](https://screenpi.pe/onboarding) with 1 year updates, priority support, and priority features
 - as a free forever desktop app (but you need to build it yourself). We're 100% OSS.
-- as a free forever desktop app - by sending a PR ([example](https://github.com/mediar-ai/screenpipe/issues/120#issuecomment-2275043418)) or [sharing about screenpipe online](https://screenpi.pe/onboarding/free-community)
+- get the desktop app 1 year license by sending a PR ([example](https://github.com/mediar-ai/screenpipe/issues/120#issuecomment-2275043418)) or [sharing about screenpipe online](https://screenpi.pe/onboarding/free-community)
 - as a Rust or WASM library - check this [websocket](https://github.com/mediar-ai/screenpipe/blob/main/screenpipe-vision/examples/websocket.rs) to stream frames + OCR to your app
 - [as a business](https://cal.com/louis030195/screenpipe-for-businesses) 
 
@@ -108,9 +115,16 @@ screenpipe has a plugin system called "pipe" which lets you run code in a sandbo
 
 ## star history
 
-![GitHub Star History (3)](https://github.com/user-attachments/assets/6bb3f559-5016-4e1c-a91e-563ce89cd855)
+![GitHub Star History (5)](https://github.com/user-attachments/assets/fd8968fb-e59c-4d81-a42d-059c94ce9c71)
 
 
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+
+   <a href="https://console.algora.io/org/mediar-ai/bounties?status=completed">
+       <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2Fmediar-ai%2Fbounties%3Fstatus%3Dcompleted" alt="Rewarded Bounties">
+   </a>
+   <a href="https://console.algora.io/org/mediar-ai/bounties?status=open">
+       <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2Fmediar-ai%2Fbounties%3Fstatus%3Dopen" alt="Open Bounties">
+   </a>

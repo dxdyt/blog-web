@@ -1,9 +1,9 @@
 ---
 title: aider
-date: 2024-09-17T12:19:22+08:00
+date: 2024-10-01T12:21:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726224437880-532a54c9565c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726224437880-532a54c9565c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY1NDY2NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [paul-gauthier/aider](https://github.com/paul-gauthier/aider)
@@ -56,7 +56,7 @@ cog.out(open("aider/website/_includes/get-started.md").read())
 You can get started quickly like this:
 
 ```
-python -m pip install aider-chat
+python -m pip install -U aider-chat
 
 # Change directory into a git repo
 cd /to/your/git/repo

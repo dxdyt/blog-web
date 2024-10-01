@@ -1,9 +1,9 @@
 ---
 title: exo
-date: 2024-09-30T12:20:50+08:00
+date: 2024-10-01T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725226125870-2c1b9eef9b91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725226125870-2c1b9eef9b91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1710713819757-9a18ff8e906d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1710713819757-9a18ff8e906d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [exo-explore/exo](https://github.com/exo-explore/exo)
@@ -130,7 +130,9 @@ That's it! No configuration required - exo will automatically discover the other
 
 exo starts a ChatGPT-like WebUI (powered by [tinygrad tinychat](https://github.com/tinygrad/tinygrad/tree/master/examples/tinychat)) on http://localhost:8000
 
-For developers, exo also starts a ChatGPT-compatible API endpoint on http://localhost:8000/v1/chat/completions. Example with curls:
+For developers, exo also starts a ChatGPT-compatible API endpoint on http://localhost:8000/v1/chat/completions. Examples with curl:
+
+#### Llama 3.1 8B:
 
 ```sh
 curl http://localhost:8000/v1/chat/completions \
@@ -141,6 +143,20 @@ curl http://localhost:8000/v1/chat/completions \
      "temperature": 0.7
    }'
 ```
+
+#### Llama 3.1 405B:
+
+```sh
+curl http://localhost:8000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+     "model": "llama-3.1-405b",
+     "messages": [{"role": "user", "content": "What is the meaning of exo?"}],
+     "temperature": 0.7
+   }'
+```
+
+#### Llava 1.5 7B (Vision Language Model):
 
 ```sh
 curl http://localhost:8000/v1/chat/completions \
@@ -218,11 +234,11 @@ exo supports the following inference engines:
 
 - ✅ [MLX](exo/inference/mlx/sharded_inference_engine.py)
 - ✅ [tinygrad](exo/inference/tinygrad/inference.py)
-- 🚧 [llama.cpp](TODO)
+- 🚧 [PyTorch](https://github.com/exo-explore/exo/pull/139)
+- 🚧 [llama.cpp](https://github.com/exo-explore/exo/issues/167)
 
 ## Networking Modules
 
 - ✅ [GRPC](exo/networking/grpc)
 - 🚧 [Radio](TODO)
 - 🚧 [Bluetooth](TODO)
-
