@@ -1,9 +1,9 @@
 ---
 title: netdata
-date: 2024-09-30T12:21:50+08:00
+date: 2024-10-02T12:20:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725988415840-b69ae3328e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725988415840-b69ae3328e96?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725940900270-84162cbe60e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725940900270-84162cbe60e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
 ---
 
 # [netdata/netdata](https://github.com/netdata/netdata)

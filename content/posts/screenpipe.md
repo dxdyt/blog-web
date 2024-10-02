@@ -1,9 +1,9 @@
 ---
 title: screenpipe
-date: 2024-10-01T12:20:49+08:00
+date: 2024-10-02T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727434032773-af3cd98375ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727434032773-af3cd98375ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725940900270-84162cbe60e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725940900270-84162cbe60e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
 ---
 
 # [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)
@@ -64,7 +64,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1727434032773-af3cd98375
 ---
 
 *Latest News* 🔥
-- [2024/09] [screenpipe is top github repo & on hackernews!](https://x.com/louis030195/status/1840859691754344483)
+- [2024/09] [screenpipe is number 1 github trending repo & on hackernews!](https://x.com/louis030195/status/1840859691754344483)
 - [2024/09] 70 users run screenpipe 24/7!
 - [2024/09] Released a v0 of our [documentation](https://docs.screenpi.pe/)
 - [2024/08] Anyone can now [create, share, install pipes](https://youtu.be/iCqHgZgQHyA?si=DjKJir7HfZoQKItK) (plugins) from the app interface based on a github repo/dir
@@ -115,7 +115,7 @@ screenpipe has a plugin system called "pipe" which lets you run code in a sandbo
 
 ## star history
 
-![GitHub Star History (5)](https://github.com/user-attachments/assets/fd8968fb-e59c-4d81-a42d-059c94ce9c71)
+![GitHub Star History (6)](https://github.com/user-attachments/assets/91cdc7a6-19ea-4156-a7bf-a2bef4cc946f)
 
 
 ## Contributing

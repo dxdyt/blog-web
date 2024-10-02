@@ -1,25 +1,25 @@
 ---
 title: 100-exercises-to-learn-rust
-date: 2024-05-22T12:17:09+08:00
+date: 2024-10-02T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714685319560-028480333a4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714685319560-028480333a4d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYzNTEzNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725827866746-21021ebabcfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725827866746-21021ebabcfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
 ---
 
 # [mainmatter/100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust)
 
 # Learn Rust, one exercise at a time
 
-You've heard about Rust, but you never had the chance to try it out?  
+You've heard about Rust, but you never had the chance to try it out?\
 This course is for you!
 
-You'll learn Rust by solving 100 exercises.  
+You'll learn Rust by solving 100 exercises.\
 You'll go from knowing nothing about Rust to being able to start
 writing your own programs, one exercise at a time.
 
 > [!NOTE]
-> This course has been written by [Mainmatter](https://mainmatter.com/rust-consulting/).  
-> It's one of the trainings in [our portfolio of Rust workshops](https://mainmatter.com/services/workshops/rust/).  
+> This course has been written by [Mainmatter](https://mainmatter.com/rust-consulting/).\
+> It's one of the trainings in [our portfolio of Rust workshops](https://mainmatter.com/services/workshops/rust/).\
 > Check out our [landing page](https://mainmatter.com/rust-consulting/) if you're looking for Rust consulting or
 > training!
 
@@ -30,7 +30,7 @@ to get started with the course.
 
 ## Requirements
 
-- **Rust** (follow instructions [here](https://www.rust-lang.org/tools/install)).  
+- **Rust** (follow instructions [here](https://www.rust-lang.org/tools/install)).\
   If `rustup` is already installed on your system, run `rustup update` (or another appropriate command depending on how
   you installed Rust on your system)
   to make sure you're running on the latest stable version.

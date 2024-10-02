@@ -1,9 +1,9 @@
 ---
 title: kotaemon
-date: 2024-10-01T12:22:19+08:00
+date: 2024-10-02T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726499180716-3dcd119690f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726499180716-3dcd119690f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
 ---
 
 # [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)
@@ -24,7 +24,7 @@ developers in mind.
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/release/python-31013/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-<a href="https://github.com/Cinnamon/kotaemon" target="_blank">
+<a href="https://github.com/Cinnamon/kotaemon/pkgs/container/kotaemon" target="_blank">
 <img src="https://img.shields.io/badge/docker_pull-kotaemon:latest-brightgreen" alt="docker pull ghcr.io/cinnamon/kotaemon:latest"></a>
 ![download](https://img.shields.io/github/downloads/Cinnamon/kotaemon/total.svg?label=downloads&color=blue)
 <a href='https://huggingface.co/spaces/cin-model/kotaemon-demo'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'></a>
@@ -100,13 +100,13 @@ Use the most recent release `.zip` to include latest features and bug-fixes.
 1. Python >=3.10
 2. (optional) [Docker](https://www.docker.com/)
 
-#### If you would like to process files other than .pdf, .html, .mhtml, and .xlsx documents:
+##### If you would like to process files other than .pdf, .html, .mhtml, and .xlsx documents
 
 You will need to install the system dependencies of [unstructured](https://docs.unstructured.io/open-source/installation/full-installation#full-installation). The installations vary by operating system, so please go to the link and follow the instructions there.
 
 #### With Docker (recommended)
 
-We support `lite` & `full` version of Docker images. With `full`, the extra packages of `unstructured` will be installed as
+We support both `lite` & `full` version of Docker images. With `full`, the extra packages of `unstructured` will be installed as
 well, it can support additional file types (.doc, .docx, ...) but the cost is larger docker image size. For most users, the `lite` image should work well in most cases.
 
 - To use the `lite` version.

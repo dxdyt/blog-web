@@ -1,9 +1,9 @@
 ---
 title: qBittorrent
-date: 2023-12-05T12:17:35+08:00
+date: 2024-10-02T12:21:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699459867086-9d9d4031c0e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699459867086-9d9d4031c0e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE3NDk3MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726863969416-47e3f6f9fea7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726863969416-47e3f6f9fea7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
 ---
 
 # [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
@@ -11,8 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1699459867086-9d9d4031c0
 qBittorrent - A BitTorrent client in Qt
 ------------------------------------------
 
-[![AppVeyor Status](https://ci.appveyor.com/api/projects/status/github/qbittorrent/qBittorrent?branch=master&svg=true)](https://ci.appveyor.com/project/qbittorrent/qBittorrent)
-[![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent/workflows/GitHub%20Actions%20CI/badge.svg)](https://github.com/qbittorrent/qBittorrent/actions)
+[![GitHub Actions CI Status](https://github.com/qbittorrent/qBittorrent/actions/workflows/ci_ubuntu.yaml/badge.svg)](https://github.com/qbittorrent/qBittorrent/actions)
 [![Coverity Status](https://scan.coverity.com/projects/5494/badge.svg)](https://scan.coverity.com/projects/5494)
 ********************************
 ### Description:
@@ -26,15 +25,8 @@ support as well as many features.
 The free [IP to Country Lite database](https://db-ip.com/db/download/ip-to-country-lite) by [DB-IP](https://db-ip.com/) is used for resolving the countries of peers. The database is licensed under the [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
 
 ### Installation:
-For installation, follow the instructions from INSTALL file, but simple:
 
-```
-./configure
-make && make install
-qbittorrent
-```
-
-will install and execute qBittorrent hopefully without any problem.
+Refer to the [INSTALL](INSTALL) file.
 
 ### Public key:
 Starting from v3.3.4 all source tarballs and binaries are signed.<br />

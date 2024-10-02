@@ -1,9 +1,9 @@
 ---
 title: continue
-date: 2024-05-27T12:20:42+08:00
+date: 2024-10-02T12:20:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715314945142-2980c03c93be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715314945142-2980c03c93be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY3ODM0NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725696096775-bbddc1344597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725696096775-bbddc1344597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
@@ -18,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1715314945142-2980c03c93
 
 <div align="center">
 
-**[Continue](https://docs.continue.dev) keeps developers in flow. Our open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions enable you to easily create your own modular AI software development system that you can improve.**
+**[Continue](https://docs.continue.dev) is the leading open-source AI code assistant. You can connect any models and any context to build custom autocomplete and chat experiences inside [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension)**
 
 </div>
 
@@ -36,55 +36,35 @@ featuredImagePreview: https://images.unsplash.com/photo-1715314945142-2980c03c93
 
 <p></p>
 
-## Easily understand code sections
+## Chat
 
-![understand](docs/static/img/understand.gif)
+[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave the IDE
 
-VS Code: `cmd+L` (MacOS) / `ctrl+L` (Windows)
+![chat](docs/static/img/chat.gif)
 
-JetBrains: `cmd+J` (MacOS) / `ctrl+J` (Windows)
+## Autocomplete
 
-## Tab to autocomplete code suggestions
+[Autocomplete](https://continue.dev/docs/autocomplete/how-to-use-it) provides inline code suggestions as you type
 
 ![autocomplete](docs/static/img/autocomplete.gif)
 
-VS Code: `tab` (MacOS) / `tab` (Windows)
+## Edit
 
-JetBrains: `tab` (MacOS) / `tab` (Windows)
+[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current file
 
-## Refactor functions where you are coding
+![edit](docs/static/img/edit.gif)
 
-![inline](docs/static/img/inline.gif)
+## Actions
 
-VS Code: `cmd+I` (MacOS) / `ctrl+I` (Windows)
+[Actions](https://continue.dev/docs/actions/how-to-use-it) are shortcuts for common use cases.
 
-JetBrains: `cmd+I` (MacOS) / `ctrl+I` (Windows)
-
-## Ask questions about your codebase
-
-![codebase](docs/static/img/codebase.gif)
-
-VS Code: `cmd+enter` (MacOS) / `ctrl+enter` (Windows)
-
-JetBrains: `cmd+enter` (MacOS) / `ctrl+enter` (Windows)
-
-## Quickly use documentation as context
-
-![docs](docs/static/img/docs.gif)
-
-VS Code: `@docs` (MacOS) / `@docs` (Windows)
-
-JetBrains: `@docs` (MacOS) / `@docs` (Windows)
+![actions](docs/static/img/actions.gif)
 
 </div>
 
 ## Getting Started
 
-### Download for [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension)
-
-You can try out Continue with our free trial models before configuring your setup.
-
-Learn more about the models and providers [here](https://continue.dev/docs/setup/overview).
+Learn about how to install and use Continue in the docs [here](https://continue.dev/docs/getting-started/install)
 
 ## Contributing
 
