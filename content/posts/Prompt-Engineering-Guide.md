@@ -1,9 +1,9 @@
 ---
 title: Prompt-Engineering-Guide
-date: 2024-02-03T12:16:30+08:00
+date: 2024-10-03T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706558429630-0b7a10fa0633?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706558429630-0b7a10fa0633?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDY5MzM2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726178732861-1819683e6ee3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726178732861-1819683e6ee3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
 ---
 
 # [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
@@ -16,24 +16,27 @@ Motivated by the high interest in developing with LLMs, we have created this new
 
 🌐 [Prompt Engineering Guide (Web Version)](https://www.promptingguide.ai/)
 
-🎓 [Advanced Prompt Engineering for LLMs (Cohort-based Course)](https://maven.com/dair-ai/prompt-engineering-llms)
+🎉 We are excited to launch our brand new prompt engineering courses under the DAIR.AI Academy. [Join Now](https://dair-ai.thinkific.com/bundles/pro)!
 
 Happy Prompting!
 
 ---
 ## Announcements / Updates
 
+- 🎓 We now offer self-paced prompt engineering courses under our DAIR.AI Academy. [Join Now](https://dair-ai.thinkific.com/bundles/pro)! 
 - 🎓 New course on Prompt Engineering for LLMs announced! [Enroll here](https://maven.com/dair-ai/prompt-engineering-llms)!
 - 💼 We now offer several [services](https://www.promptingguide.ai/services) like corporate training, consulting, and talks.
 - 🌐 We now support 13 languages! Welcoming more translations.
 - 👩‍🎓 We crossed 3 million learners in January 2024!
 - 🎉 We have launched a new web version of the guide [here](https://www.promptingguide.ai/)
 - 🔥 We reached #1 on Hacker News on 21 Feb 2023
-- 🎉 The Prompt Engineering Lecture went live [here](https://youtu.be/dOxUroR57xs)
+- 🎉 The First Prompt Engineering Lecture went live [here](https://youtu.be/dOxUroR57xs)
 
 [Join our Discord](https://discord.com/invite/SKgkVT8BGJ)
 
 [Follow us on Twitter](https://twitter.com/dair_ai)
+
+[Subscribe to our YouTube](https://www.youtube.com/channel/UCyna_OxOWL7IEuOwb7WhmxQ)
 
 [Subscribe to our Newsletter](https://nlpnews.substack.com/)
 

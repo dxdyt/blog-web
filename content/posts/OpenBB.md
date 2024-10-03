@@ -1,9 +1,9 @@
 ---
 title: OpenBB
-date: 2024-10-02T12:20:28+08:00
+date: 2024-10-03T12:22:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726307771333-a5386f6638c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726307771333-a5386f6638c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726211438453-2996fec54c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726211438453-2996fec54c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
 ---
 
 # [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)

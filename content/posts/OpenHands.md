@@ -1,9 +1,9 @@
 ---
 title: OpenHands
-date: 2024-09-25T12:20:26+08:00
+date: 2024-10-03T12:20:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725571712202-73d2a270d4c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725571712202-73d2a270d4c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjcyMzc5NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725504914698-c3e97f0e9ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725504914698-c3e97f0e9ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
 ---
 
 # [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
@@ -52,6 +52,8 @@ system requirements and more information.
 ```bash
 export WORKSPACE_BASE=$(pwd)/workspace
 
+docker pull ghcr.io/all-hands-ai/runtime:0.9-nikolaik
+
 docker run -it --pull=always \
     -e SANDBOX_RUNTIME_CONTAINER_IMAGE=ghcr.io/all-hands-ai/runtime:0.9-nikolaik \
     -e SANDBOX_USER_ID=$(id -u) \
@@ -65,6 +67,10 @@ docker run -it --pull=always \
 ```
 
 You'll find OpenHands running at [http://localhost:3000](http://localhost:3000)!
+
+You'll need a model provider and API key. One option that works well: [Claude 3.5 Sonnet](https://www.anthropic.com/api), but you have [many options](https://docs.all-hands.dev/modules/usage/llms).
+
+---
 
 You can also run OpenHands in a scriptable [headless mode](https://docs.all-hands.dev/modules/usage/how-to/headless-mode),
 or as an [interactive CLI](https://docs.all-hands.dev/modules/usage/how-to/cli-mode).

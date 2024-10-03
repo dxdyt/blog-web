@@ -1,9 +1,9 @@
 ---
 title: 100-exercises-to-learn-rust
-date: 2024-10-02T12:20:13+08:00
+date: 2024-10-03T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725827866746-21021ebabcfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725827866746-21021ebabcfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725053615193-7006e8e941ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725053615193-7006e8e941ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
 ---
 
 # [mainmatter/100-exercises-to-learn-rust](https://github.com/mainmatter/100-exercises-to-learn-rust)

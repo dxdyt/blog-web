@@ -1,9 +1,9 @@
 ---
 title: screenpipe
-date: 2024-10-02T12:19:54+08:00
+date: 2024-10-03T12:19:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725940900270-84162cbe60e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725940900270-84162cbe60e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725504914698-c3e97f0e9ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725504914698-c3e97f0e9ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
 ---
 
 # [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)

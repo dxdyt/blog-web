@@ -1,9 +1,9 @@
 ---
 title: web-llm
-date: 2024-06-17T12:19:46+08:00
+date: 2024-10-03T12:20:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716878388213-52738f52b390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716878388213-52738f52b390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726998809555-f94e544d24df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726998809555-f94e544d24df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
 ---
 
 # [mlc-ai/web-llm](https://github.com/mlc-ai/web-llm)
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1716878388213-52738f52b3
 **High-Performance In-Browser LLM Inference Engine.**
 
 
-[Get Started](#get-started) | [Examples](examples) | [Documentation](https://mlc.ai/mlc-llm/docs/deploy/webllm.html)
+[Get Started](#get-started) | [Blogpost](https://blog.mlc.ai/2024/06/13/webllm-a-high-performance-in-browser-llm-inference-engine) | [Examples](examples) | [Documentation](https://mlc.ai/mlc-llm/docs/deploy/webllm.html)
 
 </div>
 
@@ -46,6 +46,8 @@ You can use WebLLM as a base [npm package](https://www.npmjs.com/package/@mlc-ai
 - **In-Browser Inference**: WebLLM is a high-performance, in-browser language model inference engine that leverages WebGPU for hardware acceleration, enabling powerful LLM operations directly within web browsers without server-side processing.
 
 - [**Full OpenAI API Compatibility**](#full-openai-compatibility): Seamlessly integrate your app with WebLLM using OpenAI API with functionalities such as streaming, JSON-mode, logit-level control, seeding, and more.
+
+- **Structured JSON Generation**: WebLLM supports state-of-the-art JSON mode structured generation, implemented in the WebAssembly portion of the model library for optimal performance. Check [WebLLM JSON Playground](https://huggingface.co/spaces/mlc-ai/WebLLM-JSON-Playground) on HuggingFace to try generating JSON output with custom JSON schema.
 
 - [**Extensive Model Support**](#built-in-models): WebLLM natively supports a range of models including Llama 3, Phi 3, Gemma, Mistral, Qwen(通义千问), and many others, making it versatile for various AI tasks. For the complete supported model list, check [MLC Models](https://mlc.ai/models).
 
@@ -132,7 +134,7 @@ import { CreateMLCEngine } from "@mlc-ai/web-llm";
 const initProgressCallback = (initProgress) => {
   console.log(initProgress);
 }
-const selectedModel = "Llama-3-8B-Instruct-q4f32_1-MLC";
+const selectedModel = "Llama-3.1-8B-Instruct-q4f32_1-MLC";
 
 const engine = await CreateMLCEngine(
   selectedModel,
@@ -140,17 +142,17 @@ const engine = await CreateMLCEngine(
 );
 ```
 
-Under the hood, this factory function does the following steps for first creating an engine instance (synchrounous) and then loading the model (asynchrounous). You can also do them separately in your application.
+Under the hood, this factory function does the following steps for first creating an engine instance (synchronous) and then loading the model (asynchronous). You can also do them separately in your application.
 
 ```typescript
 import { MLCEngine } from "@mlc-ai/web-llm";
 
-// This is a synchrounous call that returns immediately
+// This is a synchronous call that returns immediately
 const engine = new MLCEngine({
   initProgressCallback: initProgressCallback
 });
 
-// This is an asynchrounous call and can take a long time to finish
+// This is an asynchronous call and can take a long time to finish
 await engine.reload(selectedModel);
 ```
 
@@ -313,7 +315,7 @@ WebLLM is designed to be fully compatible with [OpenAI API](https://platform.ope
 - [streaming](examples/streaming): return output as chunks in real-time in the form of an AsyncGenerator
 - [json-mode](examples/json-mode): efficiently ensure output is in JSON format, see [OpenAI Reference](https://platform.openai.com/docs/guides/text-generation/chat-completions-api) for more.
 - [seed-to-reproduce](examples/seed-to-reproduce): use seeding to ensure a reproducible output with fields `seed`.
-- [function-calling](examples/function-calling) (WIP): function calling with fields `tools` and `tool_choice` (with preliminary support).
+- [function-calling](examples/function-calling) (WIP): function calling with fields `tools` and `tool_choice` (with preliminary support); or manual function calling without `tools` or `tool_choice` (keeps the most flexibility).
 
 ## Custom Models
 
@@ -337,7 +339,7 @@ async main() {
     "model_list": [
       {
         "model": "/url/to/my/llama",
-        "model_id": "MyLlama-3b-v1-q4f32_0"
+        "model_id": "MyLlama-3b-v1-q4f32_0",
         "model_lib": "/url/to/myllama3b.wasm",
       }
     ],
@@ -368,24 +370,56 @@ see `webllm.prebuiltAppConfig`.
 
 ## Build WebLLM Package From Source
 
-NOTE: you don't need to build by yourself unless you would
-like to change the WebLLM package. To simply use the npm, follow [Get Started](#get-started) or any of the [examples](examples) instead.
+NOTE: you don't need to build from source unless you would like to modify the WebLLM package.
+To use the npm, simply follow [Get Started](#get-started) or any of the [examples](examples) instead.
 
-WebLLM package is a web runtime designed for [MLC LLM](https://github.com/mlc-ai/mlc-llm).
+To build from source, simply run:
 
-1. Install all the prerequisites for compilation:
+```bash
+npm install
+npm run build
+```
 
-   1. [emscripten](https://emscripten.org). It is an LLVM-based compiler that compiles C/C++ source code to WebAssembly.
-      - Follow the [installation instruction](https://emscripten.org/docs/getting_started/downloads.html#installation-instructions-using-the-emsdk-recommended) to install the latest emsdk.
-      - Source `emsdk_env.sh` by `source path/to/emsdk_env.sh`, so that `emcc` is reachable from PATH and the command `emcc` works.
-   2. Install jekyll by following the [official guides](https://jekyllrb.com/docs/installation/). It is the package we use for website. This is not needed if you're using nextjs (see next-simple-chat in the examples).
-   3. Install jekyll-remote-theme by command. Try [gem mirror](https://gems.ruby-china.com/) if install blocked.
-      `shell
-gem install jekyll-remote-theme
-`
-      We can verify the successful installation by trying out `emcc` and `jekyll` in terminal, respectively.
+Then, to test the effects of your code change in an example, inside `examples/get-started/package.json`, change from `"@mlc-ai/web-llm": "^0.2.72"` to `"@mlc-ai/web-llm": ../..`.
 
-2. Setup necessary environment
+Then run:
+
+```bash
+cd examples/get-started
+npm install
+npm start
+```
+
+Note that sometimes you would need to switch between `file:../..` and `../..` to trigger npm to recognize new changes. In the worst case, you can run:
+
+```bash
+cd examples/get-started
+rm -rf node_modules dist package-lock.json .parcel-cache
+npm install
+npm start
+```
+
+### In case you need to build TVMjs from source
+
+WebLLM's runtime largely depends on TVMjs: https://github.com/apache/tvm/tree/main/web
+
+While it is also available as an npm package: https://www.npmjs.com/package/@mlc-ai/web-runtime, you can build it from source if needed by following the steps below.
+
+1. Install [emscripten](https://emscripten.org). It is an LLVM-based compiler that compiles C/C++ source code to WebAssembly.
+    - Follow the [installation instruction](https://emscripten.org/docs/getting_started/downloads.html#installation-instructions-using-the-emsdk-recommended) to install the latest emsdk.
+    - Source `emsdk_env.sh` by `source path/to/emsdk_env.sh`, so that `emcc` is reachable from PATH and the command `emcc` works.
+
+    We can verify the successful installation by trying out `emcc` terminal.
+
+    Note: We recently found that using the latest `emcc` version may run into issues during runtime. Use `./emsdk install 3.1.56` instead of `./emsdk install latest` for now as a workaround. The error may look like
+    ```
+    Init error, LinkError: WebAssembly.instantiate(): Import #6 module="wasi_snapshot_preview1"
+    function="proc_exit": function import requires a callable
+    ```
+
+2. In `./package.json`, change from `"@mlc-ai/web-runtime": "0.18.0-dev2",` to `"@mlc-ai/web-runtime": "file:./tvm_home/web",`.
+
+3. Setup necessary environment
 
    Prepare all the necessary dependencies for web build:
 
@@ -393,13 +427,22 @@ gem install jekyll-remote-theme
    ./scripts/prep_deps.sh
    ```
 
-3. Buld WebLLM Package
+   In this step, if `$TVM_SOURCE_DIR` is not defined in the environment, we will execute the following line to build `tvmjs` dependency:
+   ```shell
+   git clone https://github.com/mlc-ai/relax 3rdparty/tvm-unity --recursive
+   ```
+
+   This clones the current HEAD of `mlc-ai/relax`. However, it may not always be the correct branch or commit to clone. To build a specific npm version from source, refer to the version bump PR, which states which branch (i.e. `mlc-ai/relax` or `apache/tvm`) and which commit the current WebLLM version depends on. For instance, version 0.2.52, according to its version bump PR https://github.com/mlc-ai/web-llm/pull/521, is built by checking out the following commit https://github.com/apache/tvm/commit/e6476847753c80e054719ac47bc2091c888418b6 in `apache/tvm`, rather than the HEAD of `mlc-ai/relax`.
+
+   Besides, `--recursive` is necessary and important. Otherwise, you may encounter errors like `fatal error: 'dlpack/dlpack.h' file not found`.
+
+4. Build WebLLM Package
 
    ```shell
    npm run build
    ```
 
-4. Validate some of the sub-packages
+5. Validate some of the sub-packages
 
    You can then go to the subfolders in [examples](examples) to validate some of the sub-packages.
    We use Parcelv2 for bundling. Although Parcel is not very good at tracking parent directory
