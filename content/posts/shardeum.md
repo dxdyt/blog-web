@@ -1,9 +1,9 @@
 ---
 title: shardeum
-date: 2024-08-14T12:18:13+08:00
+date: 2024-10-04T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721653160497-e5670b564cce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725555610696-723ad3e0ab88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725555610696-723ad3e0ab88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
 ---
 
 # [shardeum/shardeum](https://github.com/shardeum/shardeum)
@@ -142,6 +142,14 @@ To test your local Shardeum network using MetaMask:
 - Chain ID: 8082
 - Currency Symbol: SHM
 - Block Explorer URL: http://localhost:6001/
+
+3. Obtaining Test Tokens and Configuring the Genesis File: To receive SHM tokens for testing on your local Shardeum network, you need to add your wallet address to the [src/config/genesis.json](src/config/genesis.json) file. Open this file in a text editor and add an entry for your wallet address with the desired SHM balance like this:
+
+```json
+"YOUR-WALLET-ADDRESS": {
+    "wei": "200000000000000000000000000"
+},
+```
 
 ## Stopping and Cleaning Up
 

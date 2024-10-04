@@ -1,9 +1,9 @@
 ---
 title: ao
-date: 2024-10-03T12:21:15+08:00
+date: 2024-10-04T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726211438453-2996fec54c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726211438453-2996fec54c23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc5MjkxOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727256402921-954b53d9de0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727256402921-954b53d9de0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
 ---
 
 # [pytorch/ao](https://github.com/pytorch/ao)

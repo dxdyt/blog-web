@@ -1,9 +1,9 @@
 ---
 title: gpt-pilot
-date: 2024-09-16T12:21:13+08:00
+date: 2024-10-04T12:19:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724838818103-a3ff16624686?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724838818103-a3ff16624686?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY0NjAzNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726082627279-9092ed9d3fe5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726082627279-9092ed9d3fe5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
 ---
 
 # [Pythagora-io/gpt-pilot](https://github.com/Pythagora-io/gpt-pilot)
@@ -54,16 +54,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1724838818103-a3ff166246
 
 ---
 
-<div align="center">
-
-<a href="vscode:extension/PythagoraTechnologies.gpt-pilot-vs-code" target="_blank"><img src="https://github.com/Pythagora-io/gpt-pilot/assets/10895136/5792143e-77c7-47dd-ad96-6902be1501cd" alt="Pythagora-io%2Fgpt-pilot | Trendshift" style="width: 185px; height: 55px;" width="185" height="55"/></a>
-
-</div>
-
-GPT Pilot is the core technology for the [Pythagora VS Code extension](https://bit.ly/3IeZxp6) that aims to provide **the first real AI developer companion**. Not just an autocomplete or a helper for PR messages but rather a real AI developer that can write full features, debug them, talk to you about issues, ask for review, etc.
-
----
-
 📫 If you would like to get updates on future releases or just get in touch, join our [Discord server](https://discord.gg/HaqXugmxr9) or you [can add your email here](http://eepurl.com/iD6Mpo). 📬
 
 ---
@@ -107,9 +97,6 @@ If you are interested in our learnings during this project, you can check [our l
 - **Python 3.9+**
 
 # 🚦How to start using gpt-pilot?
-👉 If you are using VS Code as your IDE, the easiest way to start is by downloading [GPT Pilot VS Code extension](https://bit.ly/3IeZxp6). 👈
-
-Otherwise, you can use the CLI tool.
 
 ### If you're new to GPT Pilot:
 
