@@ -1,9 +1,9 @@
 ---
 title: meshery
-date: 2024-08-17T12:20:32+08:00
+date: 2024-10-05T12:20:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722556696146-f1b470b2df25?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722556696146-f1b470b2df25?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725953621260-3854de49a023?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725953621260-3854de49a023?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
 ---
 
 # [meshery/meshery](https://github.com/meshery/meshery)
@@ -42,7 +42,7 @@ alt="Meshery Logo" width="70%" /></picture></a><br /><br /></p>
   -->
 </p>
 
-<h5><p align="center"><i>If you’re using Meshery or if you like the project, please <a href="https://github.com/meshery/meshery/stargazers">★</a> this repository to show your support! 🤩</i></p></h5>
+<h5><p align="center"><i>If you like Meshery, please <a href="https://github.com/meshery/meshery/stargazers">★</a> this repository to show your support! 🤩</i></p></h5>
 <p align="center" >
 MESHERY IS A CLOUD NATIVE COMPUTING FOUNDATION PROJECT
 </p>
@@ -59,11 +59,11 @@ A self-service engineering platform, <a href="https://meshery.io">Meshery</a>, i
 
 <!-- [Meshery](https://meshery.io) is the cloud native management plane offering lifecycle, configuration, and performance management of Kubernetes, service meshes, and your workloads. -->
 <div align="center" width="100%">
-<!-- <a href="https://youtu.be/Do7htKrRzDA"><img src="https://play.meshery.io/static/media/meshery-playground-meshmap.5242722a8cd9c3855f42.png" width="800px" /></a> -->
- <br />Try Meshery in the <a href="https://play.meshery.io">Cloud Native Playground</a> (<a href="https://youtu.be/Do7htKrRzDA">teaser video</a>)
+ <a href="https://youtu.be/Do7htKrRzDA"><img src=".github/assets/images/readme/thumbnail.png" width="800px" /></a>
+ <p><i>Example extension. See other <a href="https://meshery.io/extensions">Meshery Extensions</a>.</i></p>
+ <br />Try Meshery in the <a href="https://play.meshery.io">Cloud Native Playground</a> (<a href="https://www.youtube.com/watch?v=034nVaQUyME&list=PL3A-A6hPO2IO_yzN83wSJJUNQActzCJvO&index=9">teaser video</a>)
 </div>
 
-<br />
 <br />
 <!--
 - [Functionality](#functionality)
@@ -92,16 +92,18 @@ A self-service engineering platform, <a href="https://meshery.io">Meshery</a>, i
 <h2>Cloud Native Lifecycle Management</h2>
 Meshery manages the provisioning, configuration and operation of your Kubernetes clusters while supporting hundreds of different types of cloud native infrastructure integrations. Meshery also offers a <a href="https://meshery.io/catalog">catalog of curated design templates</a> filled with configuration best practices.
 
-Using a GitOps-centric approach, visually and collaboratively design and manage your infrastructure and microservices. Extend Meshery as your self-service engineering platform by taking advantage of its [vast set of extensibility features](https://docs.meshery.io/extensibility), including gRPC adapters, hot-loadable Reactjs packages and Golang plugins, subscriptions on NATS topics, consumable _and_ extendable API interfaces via REST and GraphQL. 
-
+<!--
 <a href="https://www.youtube.com/watch?v=034nVaQUyME"><img alt="Meshery cloud native management" src="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/readme/meshmap.gif"  style="margin-left:10px; margin-bottom:10px;" width="100%" align="center" /></a>
-<br /><br />
+<br /><br />-->
 </p>
+
+
+Using a GitOps-centric approach, visually and collaboratively design and manage your infrastructure and microservices. Extend Meshery as your self-service engineering platform by taking advantage of its [vast set of extensibility features](https://docs.meshery.io/extensibility), including gRPC adapters, hot-loadable Reactjs packages and Golang plugins, subscriptions on NATS topics, consumable _and_ extendable API interfaces via REST and GraphQL. 
 
 <p style="clear:both;">
  
 <h2>Multi-Cluster Kubernetes, Multi-Cloud, and Cloud Native Configuration Management</h2>
-<p>Meshery supports <a href="https://meshery.io/integrations">250+ integrations</a>.</p>
+<p>Meshery supports <a href="https://meshery.io/integrations">300+ integrations</a>.</p>
 
 <!-- 
 <h3><a name="iac"></a>Supported Cloud Native Infrastructure and Applications</h3>
@@ -205,7 +207,7 @@ Using a GitOps-centric approach, visually and collaboratively design and manage 
 
 Assess your cloud native infrastructure configuration against deployment and operational best practices with Meshery's configuration validator. Manage your workloads with confidence. Check your Kubernetes configuration for anti-patterns and avoid common pitfalls.
 
-<a href="https://docs.meshery.io/assets/img/readme/meshery_lifecycle_management.png"><img alt="Layer5 Service Mesh Configuration Management" src="https://docs.meshery.io/assets/img/readme/meshery_lifecycle_management.png"  style="margin-right:10px;margin-bottom:10px;" width="100%" align="center"/></a>
+<a href=".github/assets/images/readme/cloud-native-integrations.png"><img alt="Meshery Integrations" src=".github/assets/images/readme/cloud-native-integrations.png"  style="margin-right:10px;margin-bottom:10px;" width="100%" align="center"/></a>
 <br /><br />
 
 </p>
@@ -314,7 +316,7 @@ Our projects are community-built and welcome collaboration. 👍 Be sure to see 
 
 <p>MeshMates are experienced Layer5 community members, who will help you learn your way around, discover live projects, and expand your community network. Connect with a Meshmate today!</p>
 
-Find out more on the <a href="https://layer5.io/community#meshmate">Layer5 community</a>. <br />
+Find out more on the <a href="https://layer5.io/community/meshmates">Layer5 community</a>. <br />
 
 </p>
 <br /><br />

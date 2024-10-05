@@ -1,9 +1,9 @@
 ---
 title: sentry
-date: 2024-08-11T12:19:01+08:00
+date: 2024-10-05T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721297014035-bc2c4309aa3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMzNDk4NjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727042395792-803ce6f1b9bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727042395792-803ce6f1b9bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
 ---
 
 # [getsentry/sentry](https://github.com/getsentry/sentry)
