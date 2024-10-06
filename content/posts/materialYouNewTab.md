@@ -1,9 +1,9 @@
 ---
 title: materialYouNewTab
-date: 2024-10-05T12:19:33+08:00
+date: 2024-10-06T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1567090566681-e9aa3a6db730?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1567090566681-e9aa3a6db730?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727064505302-15adb66b3b1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727064505302-15adb66b3b1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
 ---
 
 # [XengShi/materialYouNewTab](https://github.com/XengShi/materialYouNewTab)
@@ -30,7 +30,7 @@ You can download the latest version of the software by clicking the button below
 
 	**Chrome** : ```chrome://extensions```
 	
-	**Egde** : ```edge://extensions```
+	**Edge** : ```edge://extensions```
 	
 	**Brave** : ```brave://extensions```
 	

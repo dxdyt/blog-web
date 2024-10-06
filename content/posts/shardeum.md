@@ -1,9 +1,9 @@
 ---
 title: shardeum
-date: 2024-10-05T12:19:50+08:00
+date: 2024-10-06T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727042395792-803ce6f1b9bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727042395792-803ce6f1b9bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725504836973-a434fa6c4753?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725504836973-a434fa6c4753?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
 ---
 
 # [shardeum/shardeum](https://github.com/shardeum/shardeum)

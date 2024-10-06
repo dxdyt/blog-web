@@ -1,9 +1,9 @@
 ---
 title: Hacktoberfest2024
-date: 2024-10-05T12:19:58+08:00
+date: 2024-10-06T12:21:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725714835081-118a2b0456b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725714835081-118a2b0456b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727388751342-d667496f3b82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727388751342-d667496f3b82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
 ---
 
 # [fineanmol/Hacktoberfest2024](https://github.com/fineanmol/Hacktoberfest2024)

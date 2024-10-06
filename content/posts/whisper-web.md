@@ -1,9 +1,9 @@
 ---
 title: whisper-web
-date: 2024-10-04T12:20:41+08:00
+date: 2024-10-06T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725555610696-723ad3e0ab88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725555610696-723ad3e0ab88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725695788066-34e372183231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725695788066-34e372183231?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
 ---
 
 # [xenova/whisper-web](https://github.com/xenova/whisper-web)

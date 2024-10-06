@@ -1,9 +1,9 @@
 ---
 title: testify
-date: 2024-07-25T12:18:55+08:00
+date: 2024-10-06T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719328376616-463c69404f0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719328376616-463c69404f0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE4ODEwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1592355591640-4e3e558c6940?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1592355591640-4e3e558c6940?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
 ---
 
 # [stretchr/testify](https://github.com/stretchr/testify)
@@ -233,6 +233,8 @@ You can use the [mockery tool](https://vektra.github.io/mockery/latest/) to auto
 
 [`suite`](https://pkg.go.dev/github.com/stretchr/testify/suite "API documentation") package
 -----------------------------------------------------------------------------------------
+> [!WARNING]
+> The suite package does not support parallel tests. See [#934](https://github.com/stretchr/testify/issues/934).
 
 The `suite` package provides functionality that you might be used to from more common object-oriented languages.  With it, you can build a testing suite as a struct, build setup/teardown methods and testing methods on your struct, and run them with 'go test' as per normal.
 
