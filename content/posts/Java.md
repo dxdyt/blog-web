@@ -1,9 +1,9 @@
 ---
 title: Java
-date: 2024-10-06T12:20:35+08:00
+date: 2024-10-07T12:20:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727388751342-d667496f3b82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727388751342-d667496f3b82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725314758104-ad58af6ffe34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgyNzQ4MTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725314758104-ad58af6ffe34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgyNzQ4MTB8&ixlib=rb-4.0.3
 ---
 
 # [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
