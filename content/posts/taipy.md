@@ -1,9 +1,9 @@
 ---
 title: taipy
-date: 2024-10-06T12:20:06+08:00
+date: 2024-10-08T12:20:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725504836973-a434fa6c4753?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725504836973-a434fa6c4753?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727896187647-cb74c12a3692?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgzNjExNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727896187647-cb74c12a3692?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgzNjExNjB8&ixlib=rb-4.0.3
 ---
 
 # [Avaiga/taipy](https://github.com/Avaiga/taipy)
@@ -87,8 +87,18 @@ To install the Taipy stable release run:
 pip install taipy
 ```
 
-To install Taipy on a Conda Environment or from a source, please refer to the [Installation Guide](https://docs.taipy.io/en/latest/installation/).<br />
-To get started with Taipy, please refer to the [Getting Started Guide](https://docs.taipy.io/en/latest/getting_started/).
+
+Ready to Install Taipy? 🚀<br>
+Get everything set up in no time! Whether you're using a Conda environment or installing from
+source, follow our [Installation Guide](https://docs.taipy.io/en/latest/installation/) for
+step-by-step instructions.<br/>
+
+Excited to Dive In? 💡 <br>
+Start building with Taipy today! Our
+[Getting Started Guide]https://docs.taipy.io/en/develop/tutorials/getting_started/)
+is the perfect place to begin your journey and unlock the full potential of Taipy.
+
+
 
 &nbsp;
 
@@ -223,7 +233,7 @@ Copyright 2021-2024 Avaiga Private Limited
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with
 the License. You may obtain a copy of the License at
-(Apache License)[http://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0.txt)
+[Apache License](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
 an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the

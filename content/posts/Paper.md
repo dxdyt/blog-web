@@ -1,9 +1,9 @@
 ---
 title: Paper
-date: 2024-07-22T12:20:01+08:00
+date: 2024-10-08T12:20:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695221087406-257eca10a2e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695221087406-257eca10a2e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE2MjE4NTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725714354934-2977a57f8fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgzNjExNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725714354934-2977a57f8fd5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgzNjExNjB8&ixlib=rb-4.0.3
 ---
 
 # [PaperMC/Paper](https://github.com/PaperMC/Paper)
@@ -50,7 +50,7 @@ How To (Plugin Developers)
 <dependency>
     <groupId>io.papermc.paper</groupId>
     <artifactId>paper-api</artifactId>
-    <version>1.21-R0.1-SNAPSHOT</version>
+    <version>1.21.1-R0.1-SNAPSHOT</version>
     <scope>provided</scope>
 </dependency>
 ```
@@ -63,7 +63,7 @@ repositories {
 }
 
 dependencies {
-    compileOnly("io.papermc.paper:paper-api:1.21-R0.1-SNAPSHOT")
+    compileOnly("io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT")
 }
 
 java {

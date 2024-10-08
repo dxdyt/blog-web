@@ -1,16 +1,16 @@
 ---
 title: Hyprland
-date: 2024-03-12T12:20:38+08:00
+date: 2024-10-08T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709777161731-4b96c90a16a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709777161731-4b96c90a16a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTAyMTcwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1624344965194-6aa6729ad832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgzNjExNjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1624344965194-6aa6729ad832?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgzNjExNjB8&ixlib=rb-4.0.3
 ---
 
 # [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
 
 <div align = center>
 
-<img src="https://raw.githubusercontent.com/vaxerski/Hyprland/main/assets/header.svg" width="750" height="300" alt="banner">
+<img src="https://raw.githubusercontent.com/hyprwm/Hyprland/main/assets/header.svg" width="750" height="300" alt="banner">
 
 <br>
 
@@ -20,14 +20,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1709777161731-4b96c90a16
 [![Badge Pull Requests]][Pull Requests] 
 [![Badge Issues]][Issues] 
 ![Badge Hi Mom]<br>
-[![Badge Discord]][Discord]
 
 <br>
 
-Hyprland is a dynamic tiling Wayland compositor based on wlroots that doesn't sacrifice on its looks.
+Hyprland is a 100% independent, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 
 It provides the latest Wayland features, is highly customizable, has all the eyecandy, the most powerful plugins,
-easy IPC, much more QoL stuff than other wlr-based compositors and more...
+easy IPC, much more QoL stuff than other compositors and more...
 <br>
 <br>
 
@@ -48,18 +47,17 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 
 - All of the eyecandy: gradient borders, blur, animations, shadows and much more
 - A lot of customization
-- Much more QoL stuff than other wlr-based compositors
+- 100% independent, no wlroots, no libweston, no kwin, no mutter.
 - Custom bezier curves for the best animations
 - Powerful plugin support
 - Built-in plugin manager
 - Tearing support for better gaming performance
 - Easily expandable and readable codebase
 - Fast and active development
-- Not scared to provide bleeding-edge features
+- Not afraid to provide bleeding-edge features
 - Config reloaded instantly upon saving
 - Fully dynamic workspaces
 - Two built-in layouts and more available as plugins
-- Closely follows `wlroots-git`
 - Global keybinds passed to your apps of choice
 - Tiling/pseudotiling/floating/fullscreen windows
 - Special workspaces (scratchpads)
@@ -97,7 +95,7 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 
 <br>
 
-**[wlroots]** - *For their amazing library*
+**[wlroots]** - *For powering Hyprland in the past*
 
 **[tinywl]** - *For showing how 2 do stuff*
 
@@ -113,7 +111,6 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 <!----------------------------------------------------------------------------->
 
 [Configure]: https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
-[Discord]: https://discord.gg/hQ9XvMUjjr
 [Stars]: https://starchart.cc/hyprwm/Hyprland
 [Hypr]: https://github.com/hyprwm/Hypr
 
@@ -138,9 +135,8 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 
 <!----------------------------------{ Images }--------------------------------->
 
-[Stars Preview]: https://starchart.cc/vaxerski/Hyprland.svg
 [Preview A]: https://i.ibb.co/C1yTb0r/falf.png
-[Preview B]: https://cdn.discordapp.com/attachments/1091569872535814185/1107675866101723277/screenshot-summer.png
+[Preview B]: https://linfindel.github.io/cdn/hyprland-preview-b.png
 [Preview C]: https://i.ibb.co/B3GJg28/20221126-20h53m26s-grim.png
 
 
@@ -148,7 +144,6 @@ easy IPC, much more QoL stuff than other wlr-based compositors and more...
 
 [Badge Workflow]: https://github.com/hyprwm/Hyprland/actions/workflows/ci.yaml/badge.svg
 
-[Badge Discord]: https://img.shields.io/badge/Join%20the-Discord%20server-6666ff
 [Badge Issues]: https://img.shields.io/github/issues/hyprwm/Hyprland
 [Badge Pull Requests]: https://img.shields.io/github/issues-pr/hyprwm/Hyprland
 [Badge Language]: https://img.shields.io/github/languages/top/hyprwm/Hyprland
