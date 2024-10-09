@@ -1,16 +1,27 @@
 ---
 title: keras
-date: 2024-02-23T12:16:10+08:00
+date: 2024-10-09T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707539159841-40a0db23ddc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707539159841-40a0db23ddc6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg2NjE2NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727178331388-a05caf26c49d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727178331388-a05caf26c49d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
 ---
 
 # [keras-team/keras](https://github.com/keras-team/keras)
 
 # Keras 3: Deep Learning for Humans
 
-Keras 3 is a multi-backend deep learning framework, with support for TensorFlow, JAX, and PyTorch.
+Keras 3 is a multi-backend deep learning framework, with support for JAX, TensorFlow, and PyTorch.
+Effortlessly build and train models for computer vision, natural language processing, audio processing,
+timeseries forecasting, recommender systems, etc.
+
+- **Accelerated model development**: Ship deep learning solutions faster thanks to the high-level UX of Keras
+and the availability of easy-to-debug runtimes like PyTorch or JAX eager execution.
+- **State-of-the-art performance**: By picking the backend that is the fastest for your model architecture (often JAX!),
+leverage speedups ranging from 20% to 350% compared to other frameworks. [Benchmark here](https://keras.io/getting_started/benchmarks/).
+- **Datacenter-scale training**: Scale confidently from your laptop to large clusters of GPUs or TPUs.
+
+Join nearly three million developers, from burgeoning startups to global enterprises, in harnessing the power of Keras 3.
+
 
 ## Installation
 
@@ -47,6 +58,12 @@ pip install -r requirements.txt
 
 ```
 python pip_build.py --install
+```
+
+3. Run API generation script when creating PRs that update `keras_export` public APIs:
+
+```
+./shell/api_gen.sh
 ```
 
 #### Adding GPU support
