@@ -1,9 +1,9 @@
 ---
 title: dbeaver
-date: 2023-10-26T12:17:13+08:00
+date: 2024-10-10T12:20:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1697955782802-4db7d7ae2545?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTgyOTM2ODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725570092973-69ea1e3af5ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725570092973-69ea1e3af5ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
@@ -17,10 +17,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1697955782802-4db7d7ae25
 # DBeaver
 
 Free multi-platform database tool for developers, SQL programmers, database administrators and analysts.  
-Supports any database which has JDBC driver (which basically means - ANY database). 
-<a href="https://dbeaver.com/download/">Commercial versions</a> also support non-JDBC datasources such as 
-MongoDB, Cassandra, Couchbase, Redis, BigTable, DynamoDB, etc.
-You can find the list of all databases supported in commercial versions 
+Supports any database which has JDBC driver (which basically means - ANY database).
+<a href="https://dbeaver.com/download/">Commercial versions</a> also support non-JDBC datasources such as
+MongoDB, Cassandra, Couchbase, Redis, BigTable, ScyllaDB, DynamoDB, etc.
+You can find the list of all databases supported in commercial versions
 <a href="https://dbeaver.com/databases/">here</a>.
 
 * Has a lot of <a href="https://github.com/dbeaver/dbeaver/wiki">features</a> including metadata editor, SQL editor, rich data editor, ERD, data export/import/migration, SQL execution plans, etc.
@@ -46,6 +46,7 @@ You can change default JDK version by replacing directory `jre` in dbeaver insta
 
 ## Documentation
 
+* <a href="https://dbeaver.com/docs/dbeaver/">Full product documentation</a>
 * <a href="https://github.com/dbeaver/dbeaver/wiki">WIKI</a>
 * <a href="https://github.com/dbeaver/dbeaver/issues">Issue tracker</a>
 
@@ -53,21 +54,21 @@ You can change default JDK version by replacing directory `jre` in dbeaver insta
 
 <a href="https://github.com/dbeaver/dbeaver/wiki/Build-from-sources">See this article.</a>
 
-## Notes
+## Feedback
 
 - For bug reports and feature requests - please <a href="https://github.com/dbeaver/dbeaver/issues">create a ticket</a>.
 - If you have any questions, ideas, etc - please <a href="https://github.com/dbeaver/dbeaver/discussions">start a discussion</a>.
 - Pull requests are welcome.
-- Visit https://dbeaver.io or https://dbeaver.com for more information.
-- Follow us on [Twitter](https://twitter.com/dbeaver_news/) and [Facebook](https://www.facebook.com/DBeaverCorporation)
+- Visit https://dbeaver.com for more information.
+- Follow us on [Twitter](https://twitter.com/dbeaver_news/) and watch educational video on [YouTube](https://www.youtube.com/@DBeaver_video)
 - Thanks for using DBeaver! Star if you like it.
 
 ## Contribution: help the Beaver!
 
-Hooray, we have reached 30k+ stars on GitHub and continue to grow!  
+Hooray, we have reached 35k+ stars on GitHub and continue to grow!  
 That's really cool, and we are glad that you like DBeaver.
 
-- We are actively looking for new source code contributors. We have added labels “Good first issue” and “Help wanted” to some tickets. If you want to be a part of our development team, just be brave and take a ticket.
+- We are actively looking for new source code contributors. We have added labels “Good first issue” and “Help wanted” to some tickets. If you want to be a part of our development team, just be brave and take a ticket. <a href="https://dbeaver.com/help-dbeaver/">We are happy to reward</a> our most active contributors every major sprint.
 - You can buy <a href="https://dbeaver.com/buy/">one of our commercial versions</a>. They include NoSQL databases support, additional extensions, and official online support. Also, licensed users have priorities in bug fixes and the development of new features.
 
 Thank you!  

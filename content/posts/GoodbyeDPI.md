@@ -1,9 +1,9 @@
 ---
 title: GoodbyeDPI
-date: 2024-09-19T12:20:42+08:00
+date: 2024-10-10T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725794440337-a8b6035c3a62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723408020169-9ed1e5eac4d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723408020169-9ed1e5eac4d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
@@ -77,6 +77,10 @@ Usage: goodbyedpi.exe [OPTION...]
  --fake-from-hex <value>  Load fake packets for Fake Request Mode from HEX values (like 1234abcDEF).
                           This option can be supplied multiple times, in this case each fake packet
                           would be sent on every request in the command line argument order.
+ --fake-with-sni <value>  Generate fake packets for Fake Request Mode with given SNI domain name.
+                          The packets mimic Mozilla Firefox 130 TLS ClientHello packet
+                          (with random generated fake SessionID, key shares and ECH grease).
+                          Can be supplied multiple times for multiple fake packets.
  --fake-gen <value>       Generate random-filled fake packets for Fake Request Mode, value of them
                           (up to 30).
  --fake-resend <value>    Send each fake packet value number of times.
@@ -159,6 +163,7 @@ Modify them according to your own needs.
 
 * Horribly outdated Windows 7 installations are not able to load WinDivert driver due to missing support for SHA256 digital signatures. Install KB3033929 [x86](https://www.microsoft.com/en-us/download/details.aspx?id=46078)/[x64](https://www.microsoft.com/en-us/download/details.aspx?id=46148), or better, update the whole system using Windows Update.
 * Intel/Qualcomm Killer network cards: `Advanced Stream Detect` in Killer Control Center is incompatible with GoodbyeDPI, [disable it](https://github.com/ValdikSS/GoodbyeDPI/issues/541#issuecomment-2296038239).
+* QUIC trading software [may interfere with GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI/issues/677#issuecomment-2390595606). First start QUIC, then GoodbyeDPI.
 * ~~Some SSL/TLS stacks unable to process fragmented ClientHello packets, and HTTPS websites won't open. Bug: [#4](https://github.com/ValdikSS/GoodbyeDPI/issues/4), [#64](https://github.com/ValdikSS/GoodbyeDPI/issues/64).~~ Fragmentation issues are fixed in v0.1.7.
 * ~~ESET Antivirus is incompatible with WinDivert driver [#91](https://github.com/ValdikSS/GoodbyeDPI/issues/91). This is most probably antivirus bug, not WinDivert.~~
 
@@ -172,6 +177,7 @@ Modify them according to your own needs.
 - **[PowerTunnel](https://github.com/krlvm/PowerTunnel)** by @krlvm (for Windows, MacOS and Linux)
 - **[PowerTunnel for Android](https://github.com/krlvm/PowerTunnel-Android)** by @krlvm (for Android)
 - **[SpoofDPI](https://github.com/xvzc/SpoofDPI)** by @xvzc (for macOS and Linux)
+- **[SpoofDPI-Platform](https://github.com/r3pr3ss10n/SpoofDPI-Platform)** by @r3pr3ss10n (for Android, macOS, Windows)
 - **[GhosTCP](https://github.com/macronut/ghostcp)** by @macronut (for Windows)
 - **[ByeDPI](https://github.com/hufrea/byedpi)** for Linux/Windows + **[ByeDPIAndroid](https://github.com/dovecoteescapee/ByeDPIAndroid/)** for Android (no root)
 - **[youtubeUnblock](https://github.com/Waujito/youtubeUnblock/)** by @Waujito (for OpenWRT/Entware routers and Linux)

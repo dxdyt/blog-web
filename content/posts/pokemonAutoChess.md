@@ -1,9 +1,9 @@
 ---
 title: pokemonAutoChess
-date: 2024-10-09T12:19:52+08:00
+date: 2024-10-10T12:20:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727344952209-059ae6a427e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727344952209-059ae6a427e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725570092973-69ea1e3af5ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725570092973-69ea1e3af5ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [keldaanCommunity/pokemonAutoChess](https://github.com/keldaanCommunity/pokemonAutoChess)

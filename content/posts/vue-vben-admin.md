@@ -1,21 +1,23 @@
 ---
 title: vue-vben-admin
-date: 2024-08-07T12:19:02+08:00
+date: 2024-10-10T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722259038071-6082eaf397ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwMDQzMjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722259038071-6082eaf397ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjMwMDQzMjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727294810303-b7be05458d1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727294810303-b7be05458d1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin)
 
-<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="200" height="200" src="https://unpkg.com/@vbenjs/static-source@0.1.5/source/logo-v1.webp"> </a> <br> <br>
+<div align="center"> <a href="https://github.com/anncwb/vue-vben-admin"> <img alt="VbenAdmin Logo" width="215" src="https://unpkg.com/@vbenjs/static-source@0.1.7/source/logo-v1.webp"> </a> <br> <br>
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
 <h1>Vue Vben Admin</h1>
 </div>
 
-**English** | [中文](./README.zh-CN.md)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vbenjs_vue-vben-admin&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vbenjs_vue-vben-admin) ![codeql](https://github.com/vbenjs/vue-vben-admin/actions/workflows/codeql.yml/badge.svg) ![build](https://github.com/vbenjs/vue-vben-admin/actions/workflows/build.yml/badge.svg) ![ci](https://github.com/vbenjs/vue-vben-admin/actions/workflows/ci.yml/badge.svg) ![deploy](https://github.com/vbenjs/vue-vben-admin/actions/workflows/deploy.yml/badge.svg)
+
+**English** | [中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md)
 
 ## Introduction
 
@@ -87,7 +89,7 @@ pnpm build
 
 ## Change Log
 
-[CHANGELOG](./CHANGELOG.zh_CN.md)
+[CHANGELOG](https://github.com/vbenjs/vue-vben-admin/releases)
 
 ## How to contribute
 
@@ -132,18 +134,23 @@ Support modern browsers, not IE
 
 [@Vben](https://github.com/anncwb)
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=vbenjs/vue-vben-admin&type=Date)](https://star-history.com/#vbenjs/vue-vben-admin&Date)
+
 ## Donate
 
 If you think this project is helpful to you, you can help the author buy a cup of coffee to show your support!
 
-![donate](https://unpkg.com/@vbenjs/static-source@0.1.5/source/sponsor.png)
+![donate](https://unpkg.com/@vbenjs/static-source@0.1.7/source/sponsor.png)
 
 <a style="display: block;width: 100px;height: 50px;line-height: 50px; color: #fff;text-align: center; background: #408aed;border-radius: 4px;" href="https://www.paypal.com/paypalme/cvvben">Paypal Me</a>
 
 ## Contributor
 
 <a href="https://github.com/vbenjs/vue-vben-admin/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=vbenjs/vue-vben-admin" />
+  <img alt="Contributors"
+        src="https://opencollective.com/vbenjs/contributors.svg?button=false" />
 </a>
 
 ## Discord

@@ -1,9 +1,9 @@
 ---
 title: platform
-date: 2024-08-19T12:18:29+08:00
+date: 2024-10-10T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721706866185-93a74883b6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721706866185-93a74883b6c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQwNDEwMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727294810303-b7be05458d1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727294810303-b7be05458d1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [hcengineering/platform](https://github.com/hcengineering/platform)
@@ -137,12 +137,17 @@ Alternatively, you can just execute:
 sh ./scripts/create-workspace.sh
 ```
 
-Accessing the URL http://localhost:8087 will lead you to the app in production mode.
+Add the following line to your /etc/hosts file
+
+```
+127.0.0.1 host.docker.internal
+```
+
+Accessing the URL http://host.docker.internal:8087 will lead you to the app in development mode.
 
 Limitations:
 
 - Local installation does not support sending emails, thus disabling functionalities such as password recovery and email notifications.
-- Integrations with Telegram, Gmail, and other content sources are exclusively available as Docker containers, sourced from private repositories. However, these integrations are fully functional and can be utilized with the platform.
 
 ## Run in development mode
 
@@ -150,12 +155,13 @@ Development mode allows for live reloading and a smoother development process.
 
 ```bash
 cd dev/prod
+rush validate
 rushx dev-server
 ```
 
 Then go to http://localhost:8080
 
-Use the following login credentials:
+Click on "Login with password" link on the bottom of the right panel and use the following login credentials:
 
 ```plain
 Email: user1

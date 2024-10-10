@@ -1,9 +1,9 @@
 ---
 title: JeecgBoot
-date: 2024-08-13T12:19:31+08:00
+date: 2024-10-10T12:19:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721983314435-ce4426702c66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721983314435-ce4426702c66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM1MjI2NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726557116827-5f2a95d57cab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726557116827-5f2a95d57cab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [jeecgboot/JeecgBoot](https://github.com/jeecgboot/JeecgBoot)
@@ -12,12 +12,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1721983314435-ce4426702c
 JeecgBoot 低代码开发平台
 ===============
 
-当前最新版本： 3.7.0_all（发布日期：2024-06-23） 
+当前最新版本： 3.7.1（发布日期：2024-09-12） 
 
 
 [![AUR](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg)](https://github.com/jeecgboot/JeecgBoot/blob/master/LICENSE)
 [![](https://img.shields.io/badge/Author-北京国炬软件-orange.svg)](http://guojusoft.com)
-[![](https://img.shields.io/badge/version-3.7.0_all-brightgreen.svg)](https://github.com/jeecgboot/JeecgBoot)
+[![](https://img.shields.io/badge/version-3.7.1-brightgreen.svg)](https://github.com/jeecgboot/JeecgBoot)
 [![GitHub stars](https://img.shields.io/github/stars/zhangdaiscott/jeecg-boot.svg?style=social&label=Stars)](https://github.com/jeecgboot/JeecgBoot)
 [![GitHub forks](https://img.shields.io/github/forks/zhangdaiscott/jeecg-boot.svg?style=social&label=Fork)](https://github.com/jeecgboot/JeecgBoot)
 
@@ -57,11 +57,12 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 -----------------------------------
 
 - 官方网站：  [http://www.jeecg.com](http://www.jeecg.com)
+- 在线演示 ：  [在线演示](http://boot3.jeecg.com)   | [APP演示](http://jeecg.com/appIndex)
 - 开发文档：  [https://help.jeecg.com](https://help.jeecg.com)
 - 反馈问题：  [在Github上提Issues](https://github.com/jeecgboot/JeecgBoot/issues/new)
 - 新手指南： [快速入门](http://www.jeecg.com/doc/quickstart) | [入门视频](http://jeecg.com/doc/video)
 - QQ交流群 ： ⑨808791225、其他(满)
-- 在线演示 ：  [在线演示](http://boot3.jeecg.com)   | [APP演示](http://jeecg.com/appIndex)
+
 
 
 
@@ -83,7 +84,7 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 - 基础框架：Spring Boot 2.7.18
 - 微服务框架： Spring Cloud Alibaba 2021.0.1.0
 - 持久层框架：MybatisPlus 3.5.3.2
-- 报表工具： JimuReport 1.7.6
+- 报表工具： JimuReport 1.8.1
 - 安全框架：Apache Shiro 1.12.0，Jwt 3.11.0
 - 微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
 - 数据库连接池：阿里巴巴Druid 1.1.22
@@ -97,10 +98,17 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 #### 前端
 
 - 前端IDE建议：WebStorm、Vscode
-- 采用 Vue3.0+TypeScript+Vite+Ant-Design-Vue等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能
+- 采用 Vue3.0+TypeScript+Vite5+Ant-Design-Vue等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能
 - 最新技术栈：Vue3.0 + TypeScript + Vite5 + ant-design-vue4 + pinia + echarts + unocss + vxe-table + qiankun + es6
 - 依赖管理：node、npm、pnpm
 
+
+#### 前端环境要求
+
+*   本地环境安装 `Node.js 、npm 、pnpm`
+*   Node.js 版本建议`v20.15.0`，要求`Node 20+` 版本以上
+
+ ` ( 因为Vite5 不再支持已 EOL 的 Node.js 14 / 16 / 17 / 19，现在需要 Node.js 18 / 20+ )`
 
 
 #### 支持库
@@ -112,9 +120,10 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 |  Sqlserver2017   |  √   |
 |   PostgreSQL   |  √   |
 |   MariaDB   |  √   |
+|   MariaDB   |  √   |
 |   达梦   |  √   |
 |   人大金仓   |  √   |
-
+|   TiDB     |  √   |
 
  
 ## 微服务解决方案

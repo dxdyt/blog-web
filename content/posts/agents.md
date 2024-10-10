@@ -1,9 +1,9 @@
 ---
 title: agents
-date: 2024-10-09T12:18:59+08:00
+date: 2024-10-10T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727973835323-10e4171a5848?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727973835323-10e4171a5848?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723408020169-9ed1e5eac4d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723408020169-9ed1e5eac4d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
 ---
 
 # [livekit/agents](https://github.com/livekit/agents)
