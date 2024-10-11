@@ -1,12 +1,14 @@
 ---
 title: MaxKB
-date: 2024-09-22T12:22:07+08:00
+date: 2024-10-11T12:20:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724579243894-6a8c9bbfe88c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724579243894-6a8c9bbfe88c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1614378719646-ce1c2961b91c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1614378719646-ce1c2961b91c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/MaxKB](https://github.com/1Panel-dev/MaxKB)
+
+[English](README_EN.md) | [中文](README.md)
 
 <p align="center"><img src= "https://github.com/1Panel-dev/maxkb/assets/52996290/c0694996-0eed-40d8-b369-322bf2a380bf" alt="MaxKB" width="300" /></p>
 <h3 align="center">基于大语言模型和 RAG 的知识库问答系统</h3>
@@ -22,26 +24,26 @@ featuredImagePreview: https://images.unsplash.com/photo-1724579243894-6a8c9bbfe8
 
 MaxKB = Max Knowledge Base，是一款基于大语言模型和 RAG 的开源知识库问答系统，广泛应用于企业内部知识库、客户服务、学术研究与教育等场景。
 
-- **开箱即用**：支持直接上传文档、自动爬取在线文档，支持文本自动拆分、向量化、RAG（检索增强生成），智能问答交互体验好；
-- **模型中立**：支持对接各种大语言模型，包括本地私有大模型（Llama 3 / Qwen 2 等）、国内公共大模型（通义千问 / 智谱 AI / 百度千帆 / Kimi / DeepSeek 等）和国外公共大模型（OpenAI / Azure OpenAI / Gemini 等）；
-- **灵活编排**：内置强大的工作流引擎，支持编排 AI 工作过程，满足复杂业务场景下的需求；
+- **开箱即用**：支持直接上传文档 / 自动爬取在线文档，支持文本自动拆分、向量化和 RAG（检索增强生成），有效减少大模型幻觉，智能问答交互体验好；
+- **模型中立**：支持对接各种大模型，包括本地私有大模型（Llama 3 / Qwen 2 等）、国内公共大模型（通义千问 / 腾讯混元 / 字节豆包 / 百度千帆 / 智谱 AI / Kimi 等）和国外公共大模型（OpenAI / Claude / Gemini 等）；
+- **灵活编排**：内置强大的工作流引擎和函数库，支持编排 AI 工作过程，满足复杂业务场景下的需求；
 - **无缝嵌入**：支持零编码快速嵌入到第三方业务系统，让已有系统快速拥有智能问答能力，提高用户满意度。
 
 ## 快速开始
 
 ```
-docker run -d --name=maxkb -p 8080:8080 -v ~/.maxkb:/var/lib/postgresql/data -v ~/.python-packages:/opt/maxkb/app/sandbox/python-packages cr2.fit2cloud.com/1panel/maxkb
+docker run -d --name=maxkb --restart=always -p 8080:8080 -v ~/.maxkb:/var/lib/postgresql/data -v ~/.python-packages:/opt/maxkb/app/sandbox/python-packages cr2.fit2cloud.com/1panel/maxkb
 
 # 用户名: admin
 # 密码: MaxKB@123..
 ```
 
-- 你也可以通过 [1Panel 应用商店](https://apps.fit2cloud.com/1panel) 快速部署 MaxKB + Ollama + Llama 3，30 分钟内即可上线基于本地大模型的知识库问答系统，并嵌入到第三方业务系统中；
+- 你也可以通过 [1Panel 应用商店](https://apps.fit2cloud.com/1panel) 快速部署 MaxKB + Ollama + Llama 3 / Qwen 2，快速上线基于本地大模型的 AI 知识库问答系统；
 - 如果是内网环境，推荐使用 [离线安装包](https://community.fit2cloud.com/#/products/maxkb/downloads) 进行安装部署；
-- 你也可以在线体验：[DataEase 小助手](https://dataease.io/docs/v2/)，它是基于 MaxKB 搭建的智能问答系统，已经嵌入到 DataEase 产品及在线文档中；
+- 你也可以在线体验：[DataEase 小助手](https://dataease.io/docs/v2/)，它是基于 MaxKB 搭建的智能 AI 问答系统，已经嵌入到 DataEase 产品及在线文档中；
 - MaxKB 产品版本分为社区版和专业版，详情请参见：[MaxKB 产品版本对比](https://maxkb.cn/pricing.html)。
 
-如你有更多问题，可以查看使用手册，或者通过论坛与我们交流。如果你需要搭建技术博客或者知识库，推荐使用 [Halo 开源建站工具](https://github.com/halo-dev/halo/)，你可以体验下飞致云官方的 [技术博客](https://blog.fit2cloud.com/) 和 [知识库](https://kb.fit2cloud.com) 案例。
+如你有更多问题，可以查看使用手册，或者通过论坛与我们交流。
 
 - [使用手册](https://maxkb.cn/docs/)
 - [演示视频](https://www.bilibili.com/video/BV1BE421M7YM/)
@@ -61,8 +63,6 @@ docker run -d --name=maxkb -p 8080:8080 -v ~/.maxkb:/var/lib/postgresql/data -v 
     <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/user-attachments/assets/9a1043cb-fa62-4f71-b9a3-0b46fa59a70e" alt="MaxKB Demo3"   /></td>
     <td style="padding: 5px;background-color:#fff;"><img src= "https://github.com/user-attachments/assets/3407ce9a-779c-4eb4-858e-9441a2ddc664" alt="MaxKB Demo4"   /></td>
   </tr>
-
-
 </table>
 
 ## 技术栈

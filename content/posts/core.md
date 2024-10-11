@@ -1,65 +1,63 @@
 ---
 title: core
-date: 2024-05-01T12:18:12+08:00
+date: 2024-10-11T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714159411177-f0b09967ebf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ1MzY5MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728327510746-ca4b2e932a65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728327510746-ca4b2e932a65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
 ---
 
-# [module-federation/core](https://github.com/module-federation/core)
+# [vuejs/core](https://github.com/vuejs/core)
+
+# vuejs/core [![npm](https://img.shields.io/npm/v/vue.svg)](https://www.npmjs.com/package/vue) [![build status](https://github.com/vuejs/core/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vuejs/core/actions/workflows/ci.yml) [![Download](https://img.shields.io/npm/dm/vue)](https://www.npmjs.com/package/vue)
+
+## Getting Started
+
+Please follow the documentation at [vuejs.org](https://vuejs.org/)!
+
+## Sponsors
+
+Vue.js is an MIT-licensed open source project with its ongoing development made possible entirely by the support of these awesome [backers](https://github.com/vuejs/core/blob/main/BACKERS.md). If you'd like to join them, please consider [ sponsoring Vue's development](https://vuejs.org/sponsor/).
 
 <p align="center">
-  <img alt="Module federation Banner"  width="260" src="https://github.com/module-federation/core/assets/27547179/11234712-40fc-4696-a7fd-16e0c631005a">
+  <h3 align="center">Special Sponsor</h3>
 </p>
-
-# Module Federation
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/@module-federation/runtime?activeTab=readme">
-   <img src="https://img.shields.io/npm/v/@module-federation/runtime?style=flat-square&colorA=564341&colorB=EDED91" alt="npm version" />
-  </a>
-  <a href="https://npmcharts.com/compare/@module-federation/runtime?minimal=true">
-    <img src="https://img.shields.io/npm/dm/@module-federation/runtime.svg?style=flat-square&colorA=564341&colorB=EDED91" alt="downloads" />
-  </a>
-  <a href="https://github.com/web-infra-dev/rspack/blob/main/LICENSE">
-    <img src="https://img.shields.io/npm/l/@module-federation/runtime?style=flat-square&colorA=564341&colorB=EDED91" alt="license" />
+  <a target="_blank" href="https://github.com/appwrite/appwrite">
+  <img alt="special sponsor appwrite" src="https://sponsors.vuejs.org/images/appwrite.svg" width="300">
   </a>
 </p>
 
-You can consider the module federation capabilities provided by this repository as "module federation 2.0". "Module Federation 2.0" differs from the "Module Federation" built into Webpack 5 by offering not only the core features of module export, loading, and dependency sharing but also additional dynamic type hinting, a "Manifest", a "Federation Runtime", and a "Runtime Plugin System". These features make "Module Federation" more suitable for use as a micro-frontend architecture in large-scale web applications.
+<p align="center">
+  <a target="_blank" href="https://vuejs.org/sponsor/#current-sponsors">
+    <img alt="sponsors" src="https://sponsors.vuejs.org/sponsors.svg?v3">
+  </a>
+</p>
 
-## 💡 What is Module Federation?
+## Questions
 
-- Module Federation is a concept that allows developers to share code and resources across multiple JavaScript applications
+For questions and support please use [the official forum](https://forum.vuejs.org) or [community chat](https://chat.vuejs.org/). The issue list of this repo is **exclusively** for bug reports and feature requests.
 
-- Module Federation can be used to split monolithic applications into micro-front-end architectures
+## Issues
 
-- Module Federation reuses common dependencies between modules as much as possible
+Please make sure to respect issue requirements and use [the new issue helper](https://new-issue.vuejs.org/) when opening an issue. Issues not conforming to the guidelines may be closed immediately.
 
+## Stay In Touch
 
-## ✨ What new features does Module Federation provide?
+- [Twitter](https://twitter.com/vuejs)
+- [Blog](https://blog.vuejs.org/)
+- [Job Board](https://vuejobs.com/?ref=vuejs)
 
-* 🎨 Module Federation Runtime
-* 🧩 Runtime Plugins System
-* 📝 Manifest
-* 🚀 Dynamic type prompt
-* 🛠️ Chrome Devtool
+## Contribution
 
-## 📚 Getting Started
+Please make sure to read the [Contributing Guide](https://github.com/vuejs/core/blob/main/.github/contributing.md) before making a pull request. If you have a Vue-related project/component/tool, add it with a pull request to [this curated list](https://github.com/vuejs/awesome-vue)!
 
-To get started with Module Federation, see the [Quick Start](https://module-federation.io/guide/start/quick-start.html).
+Thank you to all the people who already contributed to Vue!
 
+<a href="https://github.com/vuejs/core/graphs/contributors"><img src="https://opencollective.com/vuejs/contributors.svg?width=890" /></a>
 
-# 🧑‍💻 Community
+## License
 
-Come and chat with us on [Discussions](https://github.com/module-federation/universe/discussions) or [Discord](https://discord.gg/n69NnT3ACV)! The Module federation team and users are active there, and we're always looking for contributions.
+[MIT](https://opensource.org/licenses/MIT)
 
-# 🤝 Contribution
-
-> New contributors welcome!
-
-Please read the [Contributing Guide](https://github.com/module-federation/core/blob/main/CONTRIBUTING.md).
-
-# 🙌 Code of Conduct
-
-This repo has adopted the Code of Conduct. Please check [Code of Conduct](./CODE_OF_CONDUCT.md) for more details.
+Copyright (c) 2013-present, Yuxi (Evan) You

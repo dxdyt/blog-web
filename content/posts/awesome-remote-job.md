@@ -1,9 +1,9 @@
 ---
 title: awesome-remote-job
-date: 2024-10-10T12:19:58+08:00
+date: 2024-10-11T12:20:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723408020169-9ed1e5eac4d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723408020169-9ed1e5eac4d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728327510746-ca4b2e932a65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728327510746-ca4b2e932a65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
 ---
 
 # [lukasz-madon/awesome-remote-job](https://github.com/lukasz-madon/awesome-remote-job)

@@ -1,20 +1,23 @@
 ---
 title: Deep-Live-Cam
-date: 2024-09-26T12:20:53+08:00
+date: 2024-10-11T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726508271760-52f1744f2233?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726508271760-52f1744f2233?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjczMjQzNzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726564594505-52d6ace52710?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726564594505-52d6ace52710?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
 
+<h1 align="center">Deep Live Cam</h1>
 
-![demo-gif](demo.gif)
-![demo-gif](avgpcperformancedemo.gif)
+<p align="center">
+  Real-time face swap and video deepfake with a single click and only a single image.
+</p>
 
-## Deep Live Cam
-
-Real-time face swap and video deepfake with a single click and only a single image.
+<p align="center">
+  <img src="demo.gif" alt="Demo GIF">
+  <img src="avgpcperformancedemo.gif" alt="Performance Demo GIF">
+</p>
 
 ## Disclaimer
 
@@ -25,40 +28,18 @@ We are aware of the potential for unethical applications and are committed to pr
 Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online. We are not responsible for end-user actions.
 
 
-## Features
-
-### Resizable Preview Window
-
-Dynamically improve performance using the `--live-resizable` parameter.
-
-![resizable-gif](resizable.gif)
-
-### Face Mapping
-
-Track and change faces on the fly.
-
-![face_mapping_source](face_mapping_source.gif)
-
-**Source Video:**
-
-![face-mapping](face_mapping.png)
-
-**Enable Face Mapping:**
-
-![face-mapping2](face_mapping2.png)
-
-**Map the Faces:**
-
-![face_mapping_result](face_mapping_result.gif)
-
-**See the Magic!**
-
 ## Quick Start (Windows / Nvidia)
+
+[![Download](https://github.com/user-attachments/assets/3e3e252a-4bfa-41fb-a88c-84557402a7c7)](https://hacksider.gumroad.com/l/vccdmm) 
+
+
+
+
 
 [Download latest pre-built version with CUDA support](https://hacksider.gumroad.com/l/vccdmm) - No Manual Installation/Downloading required.
 
 ## Installation (Manual)
-
+**Please be aware that the installation needs technical skills and is NOT for beginners, consider downloading the prebuilt. Please do NOT open platform and installation related issues on GitHub before discussing it on the discord server.**
 ### Basic Installation (CPU)
 
 This is more likely to work on your computer but will be slower as it utilizes the CPU.
@@ -189,6 +170,35 @@ python run.py --execution-provider openvino
 - To change the face, select a new source image.
 
 ![demo-gif](demo.gif)
+
+## Features
+
+### Resizable Preview Window
+
+Dynamically improve performance using the `--live-resizable` parameter.
+
+![resizable-gif](resizable.gif)
+
+### Face Mapping
+
+Track and change faces on the fly.
+
+![face_mapping_source](face_mapping_source.gif)
+
+**Source Video:**
+
+![face-mapping](face_mapping.png)
+
+**Enable Face Mapping:**
+
+![face-mapping2](face_mapping2.png)
+
+**Map the Faces:**
+
+![face_mapping_result](face_mapping_result.gif)
+
+**See the Magic!**
+
 
 ## Command Line Arguments
 
@@ -371,11 +381,11 @@ For the latest experimental builds and features, see the [experimental branch](h
 
 **TODO:**
 
-- [x] Support multiple faces 
 - [ ] Develop a version for web app/service
-- [ ] UI/UX enhancements for desktop app
 - [ ] Speed up model loading
 - [ ] Speed up real-time face swapping
+- [x] Support multiple faces 
+- [x] UI/UX enhancements for desktop app
 
 This is an open-source project developed in our free time. Updates may be delayed.
 
@@ -392,7 +402,14 @@ This is an open-source project developed in our free time. Updates may be delaye
 - and [all developers](https://github.com/hacksider/Deep-Live-Cam/graphs/contributors) behind libraries used in this project.
 - Foot Note: [This is originally roop-cam, see the full history of the code here.](https://github.com/hacksider/roop-cam) Please be informed that the base author of the code is [s0md3v](https://github.com/s0md3v/roop)
 
-## Thanks to all the contributors
-<a href="https://github.com/hacksider/Deep-Live-Cam/graphs/contributors" target="_blank">
-  <img src="https://contrib.rocks/image?repo=hacksider/Deep-Live-Cam" />
+## Contributions
+![Alt](https://repobeats.axiom.co/api/embed/fec8e29c45dfdb9c5916f3a7830e1249308d20e1.svg "Repobeats analytics image")
+## Star History
+
+<a href="https://star-history.com/#hacksider/deep-live-cam&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hacksider/deep-live-cam&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hacksider/deep-live-cam&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hacksider/deep-live-cam&type=Date" />
+ </picture>
 </a>
