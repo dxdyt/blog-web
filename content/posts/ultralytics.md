@@ -1,9 +1,9 @@
 ---
 title: ultralytics
-date: 2024-10-10T12:20:56+08:00
+date: 2024-10-12T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725714354686-0a8b522037bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725714354686-0a8b522037bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726068438246-ca37df89903d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726068438246-ca37df89903d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
 ---
 
 # [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)

@@ -1,13 +1,22 @@
 ---
 title: twenty
-date: 2024-06-15T12:17:57+08:00
+date: 2024-10-12T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727460198311-b30af35bceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727460198311-b30af35bceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
 ---
 
 # [twentyhq/twenty](https://github.com/twentyhq/twenty)
 
+<p align="center">
+  <a href="https://oss.gg/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/twentyhq/twenty/blob/33be2dbbe14eea00445010ecb9cd53ed603c01d5/packages/twenty-website/public/images/readme/Github%20Read-me%20banner.png">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/twentyhq/twenty/blob/33be2dbbe14eea00445010ecb9cd53ed603c01d5/packages/twenty-website/public/images/readme/Github%20Read-me%20banner.png">
+      <img src="./packages/twenty-website/public/images/readme/Github%20Read-me%20banner.png" alt="Hacktoberfest" />
+    </picture>
+  </a>
+</p>
 
 <br>
 <p align="center">
@@ -42,8 +51,9 @@ We felt the need for a CRM platform that empowers rather than constrains. We bel
 
 # Demo 
 Go to <a href="https://demo.twenty.com/">demo.twenty.com</a> and login with the following credentials:
+
 ```
-email: noah@demo.dev
+email: tim@apple.dev
 password: Applecar2025
 ```
 
@@ -76,6 +86,7 @@ Below are some features we have implemented to date:
 + [See rich notes tasks displayed in a timeline](#see-rich-notes-tasks-displayed-in-a-timeline)
 + [Create tasks on records](#create-tasks-on-records)
 + [Navigate quickly through the app using keyboard shortcuts and search](#navigate-quickly-through-the-app-using-keyboard-shortcuts-and-search)
+
 
 ## Add, filter, sort, edit, and track customers:
 

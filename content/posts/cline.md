@@ -1,14 +1,14 @@
 ---
 title: cline
-date: 2024-10-11T12:19:51+08:00
+date: 2024-10-12T12:20:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726688837480-fb3779b4d221?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726688837480-fb3779b4d221?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
 ---
 
 # [clinebot/cline](https://github.com/clinebot/cline)
 
-# Cline – \#1 on OpenRouter
+# Cline (prev. Claude Dev) – \#1 on OpenRouter
 
 <p align="center">
   <img src="https://media.githubusercontent.com/media/clinebot/cline/main/assets/docs/demo.gif" width="100%" />

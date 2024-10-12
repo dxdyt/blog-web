@@ -1,9 +1,9 @@
 ---
 title: dbeaver
-date: 2024-10-10T12:20:21+08:00
+date: 2024-10-12T12:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725570092973-69ea1e3af5ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725570092973-69ea1e3af5ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727230965494-2674a6342a45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727230965494-2674a6342a45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
 ---
 
 # [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
@@ -80,5 +80,5 @@ Thank you!
 <a href="https://github.com/dbeaver/cloudbeaver/"><img src="https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png" width="250"/></a>
 
 DBeaver is a desktop client.  
-If you are looking for a web-based database management tool - check our new product: <a href="https://cloudbeaver.io/">CloudBeaver</a>.  
+If you are looking for a web-based database management tool - check our new product: <a href="https://github.com/dbeaver/cloudbeaver">CloudBeaver</a>.  
 It is based on DBeaver platform and thus supports any database and most of DBeaver features.

@@ -1,9 +1,9 @@
 ---
 title: deno
-date: 2024-02-12T12:18:07+08:00
+date: 2024-10-12T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705522369595-40d0b2667739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705522369595-40d0b2667739?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc3MTEzMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
 ---
 
 # [denoland/deno](https://github.com/denoland/deno)
@@ -89,8 +89,8 @@ Learn more about writing and running Deno programs
 
 - **[Deno Docs](https://docs.deno.com)**: official guides and reference docs for
   the Deno runtime, [Deno Deploy](https://deno.com/deploy), and beyond.
-- **[Deno Standard Library](https://deno.land/std)**: officially supported
-  common utilities for Deno programs.
+- **[Deno Standard Library](https://jsr.io/@std)**: officially supported common
+  utilities for Deno programs.
 - **[deno.land/x](https://deno.land/x)**: registry for third-party Deno modules.
 - **[Developer Blog](https://deno.com/blog)**: Product updates, tutorials, and
   more from the Deno team.
