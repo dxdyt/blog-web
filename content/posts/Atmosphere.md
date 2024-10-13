@@ -1,9 +1,9 @@
 ---
 title: Atmosphere
-date: 2024-10-12T12:19:53+08:00
+date: 2024-10-13T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728279320747-e29867b7e455?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728279320747-e29867b7e455?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726393500770-be9efcab65db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726393500770-be9efcab65db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
 ---
 
 # [Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere)

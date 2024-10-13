@@ -1,9 +1,9 @@
 ---
 title: dagger
-date: 2024-10-11T12:21:37+08:00
+date: 2024-10-13T12:20:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727968451338-209fb8da01a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727968451338-209fb8da01a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728403905706-ea497d26262c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728403905706-ea497d26262c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
 ---
 
 # [dagger/dagger](https://github.com/dagger/dagger)

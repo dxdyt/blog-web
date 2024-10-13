@@ -1,9 +1,9 @@
 ---
 title: formbricks
-date: 2024-10-12T12:19:28+08:00
+date: 2024-10-13T12:19:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726441100747-3de20b15c611?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726441100747-3de20b15c611?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726820233490-ff4e1cf50ce2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726820233490-ff4e1cf50ce2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
 ---
 
 # [formbricks/formbricks](https://github.com/formbricks/formbricks)

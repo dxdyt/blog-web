@@ -1,17 +1,17 @@
 ---
 title: cline
-date: 2024-10-12T12:20:16+08:00
+date: 2024-10-13T12:19:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726070319073-17ca8a58a850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728241189734-f422205a6a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728241189734-f422205a6a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
 ---
 
-# [clinebot/cline](https://github.com/clinebot/cline)
+# [cline/cline](https://github.com/cline/cline)
 
 # Cline (prev. Claude Dev) – \#1 on OpenRouter
 
 <p align="center">
-  <img src="https://media.githubusercontent.com/media/clinebot/cline/main/assets/docs/demo.gif" width="100%" />
+  <img src="https://media.githubusercontent.com/media/cline/cline/main/assets/docs/demo.gif" width="100%" />
 </p>
 
 <div align="center">
@@ -24,10 +24,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1726070319073-17ca8a58a8
 <a href="https://discord.gg/cline" target="_blank"><strong>Join the Discord</strong></a>
 </td>
 <td align="center">
-<a href="https://github.com/clinebot/cline/wiki" target="_blank"><strong>Docs</strong></a>
+<a href="https://github.com/cline/cline/wiki" target="_blank"><strong>Docs</strong></a>
 </td>
 <td align="center">
-<a href="https://github.com/clinebot/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>Feature Requests</strong></a>
+<a href="https://github.com/cline/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop" target="_blank"><strong>Feature Requests</strong></a>
 </td>
 </tbody>
 </table>
@@ -109,14 +109,14 @@ Cline can also use a headless browser to inspect any website, e.g., localhost, a
 
 ## Contributing
 
-To contribute to the project, start by exploring [open issues](https://github.com/clinebot/cline/issues) or checking our [feature request board](https://github.com/clinebot/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop). We'd also love to have you join our [Discord](https://discord.gg/cline) to share ideas and connect with other contributors.
+To contribute to the project, start by exploring [open issues](https://github.com/cline/cline/issues) or checking our [feature request board](https://github.com/cline/cline/discussions/categories/feature-requests?discussions_q=is%3Aopen+category%3A%22Feature+Requests%22+sort%3Atop). We'd also love to have you join our [Discord](https://discord.gg/cline) to share ideas and connect with other contributors.
 
 <details>
 <summary>Local Development Instructions</summary>
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/clinebot/cline.git
+    git clone https://github.com/cline/cline.git
     ```
 2. Open the project in VSCode:
     ```bash
