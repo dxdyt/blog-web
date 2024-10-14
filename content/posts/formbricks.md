@@ -1,14 +1,16 @@
 ---
 title: formbricks
-date: 2024-10-13T12:19:03+08:00
+date: 2024-10-14T12:20:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726820233490-ff4e1cf50ce2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726820233490-ff4e1cf50ce2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
 ---
 
 # [formbricks/formbricks](https://github.com/formbricks/formbricks)
 
 <div id="top"></div>
+
+<p align="center">Help us grow and star us on Github! ⭐️</p>
 
 <p align="center">
 

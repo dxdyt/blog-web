@@ -1,9 +1,9 @@
 ---
 title: Follow
-date: 2024-09-14T12:18:31+08:00
+date: 2024-10-14T12:20:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725715443838-1574b8eb1c3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725715443838-1574b8eb1c3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
 ---
 
 # [RSSNext/Follow](https://github.com/RSSNext/Follow)
@@ -19,14 +19,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1725715443838-1574b8eb1c
     Next generation information browser.
     <br />
     <br />
-    <a href="https://discord.gg/xHCVQZ6wmZ">Discord</a>
+    <a href="https://discord.gg/followapp">Discord</a>
     ·
     <a href="https://x.com/intent/follow?screen_name=follow_app_">Twitter</a>
     ·
     <a href="https://github.com/RSSNext/Follow/releases">Releases</a>
     <br />
     <br />
-    <a href="https://trendshift.io/repositories/9938" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9938" alt="RSSNext%2Ffollow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://trendshift.io/repositories/9938" target="_blank"><img src="https://github.com/user-attachments/assets/7d394847-f019-46e5-94ec-5bf4ccda6146" alt="RSSNext%2Ffollow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://trendshift.io/repositories/9938" target="_blank"><img src="https://github.com/user-attachments/assets/0696530c-cfe3-4f2e-975f-07ef31521092" alt="RSSNext%2Ffollow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+    <a href="https://trendshift.io/repositories/9938" target="_blank"><img src="https://github.com/user-attachments/assets/c3c6ee92-f81a-4f0a-b9d7-c03832c8a3ee" alt="RSSNext%2Ffollow | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   </p>
 </div>
 
@@ -83,7 +85,7 @@ The project is currently under active development. The following screenshots are
 
 ## Releases
 
-[![Discord](https://img.shields.io/discord/1243823539426033696?logo=discord&label=Discord&style=flat-square&color=5865F2)](https://discord.gg/xHCVQZ6wmZ) [![](https://img.shields.io/badge/any_text-Follow-blue?color=2CA5E0&label=_&logo=x&cacheSeconds=3600&style=flat-square)](https://x.com/intent/follow?screen_name=follow_app_)
+[![Discord](https://img.shields.io/discord/1243823539426033696?logo=discord&label=Discord&style=flat-square&color=5865F2)](https://discord.gg/followapp) [![](https://img.shields.io/badge/any_text-Follow-blue?color=2CA5E0&label=_&logo=x&cacheSeconds=3600&style=flat-square)](https://x.com/intent/follow?screen_name=follow_app_)
 
 Currently, Follow is still in the early developer preview stage (alpha) and is only available to a limited number of users through an invitation system.
 
@@ -97,13 +99,20 @@ If you have access, you are welcome to use the following methods to download and
 
 - Visit our online webapp at [app.follow.is](https://app.follow.is)
 - You can get the installation packages for each platform from the [Releases page](https://github.com/RSSNext/Follow/releases).
-- If you are using Arch linux, you can install package [follow-appimage](https://aur.archlinux.org/packages/follow-appimage) that maintained by [timochan](https://github.com/ttimochan).
+- If you are using Arch Linux, you can install package [follow-appimage](https://aur.archlinux.org/packages/follow-appimage) that maintained by [timochan](https://github.com/ttimochan).
+- If you are using Nix, you can install package [follow](https://github.com/NixOS/nixpkgs/blob/master/pkgs/by-name/fo/follow/package.nix) that maintained by [iosmanthus](https://github.com/iosmanthus).
 
 ## Contributing
 
 If you are eligible to use Follow, you are welcome to join the open source community to build together.
 
-Before you start, you need to install pnpm and then use it to install dependencies:
+Before you start, make sure you have enabled [Corepack](https://nodejs.org/api/corepack.html). Corepack makes sure you are using the correct version (`packageManager` field in `package.json`) for package manager when you run corresponding commands.
+
+```sh
+corepack enable
+```
+
+Install dependencies.
 
 ```sh
 pnpm install
@@ -125,7 +134,7 @@ You need to fill in the required environment variables first.
 cp .env.example .env
 ```
 
-Then run:
+Then set `VITE_API_URL` to `https://api.follow.is` and run:
 
 ```sh
 pnpm run dev
@@ -138,3 +147,5 @@ Since it is not very convenient to develop in Electron, the first way to develop
 Follow is licensed under the GNU General Public License version 3 with the addition of the following special exception:
 
 All content in the `icons/mgc` directory is copyrighted by https://mgc.mingcute.com/ and cannot be redistributed.
+
+All content in the `lottie` directory is distributed under the [Lottie Simple License](https://lottiefiles.com/page/license).

@@ -1,9 +1,9 @@
 ---
 title: cline
-date: 2024-10-13T12:19:55+08:00
+date: 2024-10-14T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728241189734-f422205a6a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728241189734-f422205a6a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
 ---
 
 # [cline/cline](https://github.com/cline/cline)

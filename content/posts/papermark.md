@@ -1,9 +1,9 @@
 ---
 title: papermark
-date: 2024-10-12T12:20:36+08:00
+date: 2024-10-14T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726068438246-ca37df89903d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726068438246-ca37df89903d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727706714083-48f02197f6f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727706714083-48f02197f6f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
 ---
 
 # [mfts/papermark](https://github.com/mfts/papermark)
@@ -50,7 +50,7 @@ Papermark is the open-source document sharing alternative to DocSend with built-
 - [Tailwind](https://tailwindcss.com/) – CSS
 - [shadcn/ui](https://ui.shadcn.com) - UI Components
 - [Prisma](https://prisma.io) - ORM [![Made with Prisma](https://made-with.prisma.io/dark.svg)](https://prisma.io)
-- PostgreSQL - Database
+- [PostgreSQL](https://www.postgresql.org/) - Database
 - [NextAuth.js](https://next-auth.js.org/) – Authentication
 - [Tinybird](https://tinybird.co) – Analytics
 - [Resend](https://resend.com) – Email
