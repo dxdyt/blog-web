@@ -1,9 +1,9 @@
 ---
 title: duckstation
-date: 2024-01-15T12:19:55+08:00
+date: 2024-10-15T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704915171730-fe3483c749d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704915171730-fe3483c749d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDUyOTIyMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726789822027-3e43587f5e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726789822027-3e43587f5e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
 ---
 
 # [stenzek/duckstation](https://github.com/stenzek/duckstation)
@@ -11,15 +11,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1704915171730-fe3483c749
 # DuckStation - PlayStation 1, aka. PSX Emulator
 [Features](#features) | [Downloading and Running](#downloading-and-running) | [Building](#building) | [Disclaimers](#disclaimers)
 
-**Latest Builds for Windows 10/11, Linux (AppImage/Flatpak), and macOS:** https://github.com/stenzek/duckstation/releases/tag/latest
+**Latest Builds for Windows 10/11 (x64/ARM64), Linux (AppImage/Flatpak), and macOS (11.0+ Universal):** https://github.com/stenzek/duckstation/releases/tag/latest
 
 **Game Compatibility List:** https://docs.google.com/spreadsheets/d/e/2PACX-1vRE0jjiK_aldpICoy5kVQlpk2f81Vo6P4p9vfg4d7YoTOoDlH4PQHoXjTD2F7SdN8SSBLoEAItaIqQo/pubhtml
 
-**Wiki:** https://www.duckstation.org/wiki/
+**Discord Server:** https://www.duckstation.org/discord.html
 
 DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
 
-A "BIOS" ROM image is required to to start the emulator and to play games. You can use an image from any hardware version or region, although mismatching game regions and BIOS regions may have compatibility issues. A ROM image is not provided with the emulator for legal reasons, you should dump this from your own console using Caetla or other means.
+A PS1 or PS2 "BIOS" ROM image is required to to start the emulator and to play games. You can use an image from any hardware version or region, although mismatching game regions and BIOS regions may have compatibility issues. A ROM image is not provided with the emulator for legal reasons, you should dump this from your own console using Caetla or other means.
 
 ## Features
 
@@ -35,17 +35,24 @@ Other features include:
  - CPU Recompiler/JIT (x86-64, armv7/AArch32, AArch64, RISC-V/RV64).
  - Hardware (D3D11, D3D12, OpenGL, Vulkan, Metal) and software rendering.
  - Upscaling, texture filtering, and true colour (24-bit) in hardware renderers.
+ - Accurate blending via Rasterizer Order Views/Fragment Shader Interlock.
  - PGXP for geometry precision, texture correction, and depth buffer emulation.
+ - Texture replacement system in hardware renderers.
+ - Motion adaptive deinterlacing.
  - Adaptive downsampling filter.
- - Post processing shader chains (GLSL and experimental Reshade FX).
+ - Screen rotation for vertical or "TATE" shmup games.
+ - Post processing shader chains (GLSL and Reshade FX).
  - "Fast boot" for skipping BIOS splash/intro.
- - Save state support.
+ - Save state support, with runahead and rewind.
  - Windows, Linux, macOS support.
- - Supports bin/cue images, raw bin/img files, MAME CHD, single-track ECM, MDS/MDF, and unencrypted PBP formats.
+ - Supports reading directly from CD, bin/cue images, raw bin/img files, MAME CHD, single-track ECM, MDS/MDF, and unencrypted PBP formats.
+ - Preloading of disc images to RAM to avoid disk sleeping hitches.
+ - Automatic loading/applying of PPF patches.
  - Direct booting of homebrew executables.
  - Direct loading of Portable Sound Format (psf) files.
+ - Time stretched audio when running outside of 100% speed.
  - Digital and analog controllers for input (rumble is forwarded to host).
- - Namco GunCon lightgun support (simulated with mouse).
+ - GunCon and Justifier lightgun support (simulated with mouse).
  - NeGcon support.
  - Qt and "Big Picture" UI.
  - Automatic updates with preview and latest channels.
@@ -57,7 +64,8 @@ Other features include:
  - Integrated and remote debugging.
  - Multitap controllers (up to 8 devices).
  - RetroAchievements.
- - Automatic loading/applying of PPF patches.
+ - Discord Rich Presence.
+ - Video capture with Media Foundation (Windows) and [FFmpeg](https://www.ffmpeg.org/) (All Platforms) backends.
 
 ## System Requirements
  - A CPU faster than a potato. But it needs to be x86_64, AArch32/armv7, AArch64/ARMv8, or RISC-V/RV64.
@@ -65,7 +73,11 @@ Other features include:
  - SDL, XInput or DInput compatible game controller (e.g. XB360/XBOne/XBSeries). DualShock 3 users on Windows will need to install the official DualShock 3 drivers included as part of PlayStation Now.
 
 ## Downloading and running
-Binaries of DuckStation for Windows x64/ARM64, Linux x86_64 (in AppImage/Flatpak formats), and macOS Universal Binaries are available via GitHub Releases and are automatically built with every commit/push. Binaries or packages distributed through other sources may be out of date and are not supported by the developer, please speak to them for support, not us.
+Binaries of DuckStation for Windows x64/ARM64, Linux x86_64 (in AppImage/Flatpak formats), and macOS Universal Binaries are available via GitHub Releases and are automatically built with every commit/push.
+
+As per the terms of CC-BY-NC-ND, redistribution of **unmodified releases and code** is permitted. However, we would prefer if you linked to https://www.duckstation.org/ instead. Please note that pre-configured settings and packages are considered modifications.
+
+For x86 machines (most systems), you will need a CPU that supports the SSE4.1 instruction set for the "normal" build. This includes all Intel CPUs manufactured after 2007, and AMD CPUs manufactured after 2011. If you have a CPU that is older, you will need to download the "SSE2" build from the releases page, which has lower performance but still supports these CPUs.
 
 ### Windows
 
@@ -83,7 +95,7 @@ Once downloaded and extracted, you can launch the emulator with `duckstation-qt-
 
 ### Linux
 
-The only supported version of DuckStation for Linux are the AppImage and Flatpak in the releases page. If you installed DuckStation from another source or distribution (e.g. EmuDeck), you should contact the packager for support, we have no control over it.
+DuckStation is provided for x86_64 Linux in AppImage and Flatpak formats. The release on [Flathub](https://flathub.org/apps/org.duckstation.DuckStation) is official, and synchronized with the latest rolling/stable release on GitHub.
 
 #### AppImage
 
@@ -119,6 +131,7 @@ To download:
 You will need a device with armv7 (32-bit ARM), AArch64 (64-bit ARM), or x86_64 (64-bit x86). 64-bit is preferred, the requirements are higher for 32-bit, you'll probably want at least a 1.5GHz CPU.
 
 Download from Google Play: https://play.google.com/store/apps/details?id=com.github.stenzek.duckstation
+
 APK and Beta Downloads: https://www.duckstation.org/android/
 
 **No support is provided for the Android app**, it is free and your expectations should be in line with that. Please **do not** email me about issues about it, or ask for help, you will be ignored.
@@ -145,6 +158,7 @@ CHD images with built-in subchannel information are also supported.
 Requirements:
  - Visual Studio 2022
 
+
 1. Clone the respository: `git clone https://github.com/stenzek/duckstation.git`.
 2. Download the dependencies pack from https://github.com/stenzek/duckstation-ext-qt-minimal/releases/download/latest/deps-x64.7z, and extract it to `dep\msvc`.
 3. Open the Visual Studio solution `duckstation.sln` in the root, or "Open Folder" for cmake build.
@@ -153,34 +167,42 @@ Requirements:
 6. Run `duckstation-qt-x64-Release.exe` or whichever config you used.
 
 ### Linux
-Requirements (Debian/Ubuntu package names):
- - CMake (`cmake`)
- - SDL2 (at least version 2.28.5) (`libsdl2-dev` `libxrandr-dev`)
- - pkgconfig (`pkg-config`)
- - Qt 6 (at least version 6.5.3) (`qt6-base-dev` `qt6-base-private-dev` `qt6-base-dev-tools` `qt6-tools-dev` `libqt6svg6`)
- - git (`git`) (Note: needed to clone the repository and at build time)
- - When Wayland is enabled (default): (`libwayland-dev` `libwayland-egl-backend-dev` `extra-cmake-modules` `qt6-wayland`)
- - libcurl (`libcurl4-openssl-dev`)
- - Optional for faster building: Ninja (`ninja-build`)
 
-1. Clone the repository: `git clone https://github.com/stenzek/duckstation.git -b dev`.
-2. Create a build directory, either in-tree or elsewhere.
-3. Run CMake to configure the build system. Assuming a build subdirectory of `build-release`, run `cmake -Bbuild-release -DCMAKE_BUILD_TYPE=Release`. If you have installed Ninja, add `-GNinja` at the end of the CMake command line for faster builds.
-4. Compile the source code. For the example above, run `cmake --build build-release --parallel`.
-5. Run the binary, located in the build directory under `bin/duckstation-qt`.
+#### Required Dependencies
+
+Ubuntu/Debian package names:
+```
+autoconf automake build-essential clang cmake curl extra-cmake-modules git libasound2-dev libcurl4-openssl-dev libdbus-1-dev libdecor-0-dev libegl-dev libevdev-dev libfontconfig-dev libfreetype-dev libgtk-3-dev libgudev-1.0-dev libharfbuzz-dev libinput-dev libopengl-dev libpipewire-0.3-dev libpulse-dev libssl-dev libudev-dev libwayland-dev libx11-dev libx11-xcb-dev libxcb1-dev libxcb-composite0-dev libxcb-cursor-dev libxcb-damage0-dev libxcb-glx0-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-keysyms1-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-shm0-dev libxcb-sync-dev libxcb-util-dev libxcb-xfixes0-dev libxcb-xinput-dev libxcb-xkb-dev libxext-dev libxkbcommon-x11-dev libxrandr-dev libtool lld llvm nasm ninja-build pkg-config zlib1g-dev
+```
+
+Fedora package names:
+```
+alsa-lib-devel autoconf automake brotli-devel clang cmake dbus-devel egl-wayland-devel extra-cmake-modules fontconfig-devel gcc-c++ gtk3-devel libavcodec-free-devel libavformat-free-devel libavutil-free-devel libcurl-devel libdecor-devel libevdev-devel libICE-devel libinput-devel libSM-devel libswresample-free-devel libswscale-free-devel libX11-devel libXau-devel libxcb-devel libXcomposite-devel libXcursor-devel libXext-devel libXfixes-devel libXft-devel libXi-devel libxkbcommon-devel libxkbcommon-x11-devel libXpresent-devel libXrandr-devel libXrender-devel libtool lld llvm make mesa-libEGL-devel mesa-libGL-devel nasm ninja-build openssl-devel patch pcre2-devel perl-Digest-SHA pipewire-devel pulseaudio-libs-devel systemd-devel wayland-devel xcb-util-cursor-devel xcb-util-devel xcb-util-errors-devel xcb-util-image-devel xcb-util-keysyms-devel xcb-util-renderutil-devel xcb-util-wm-devel xcb-util-xrm-devel zlib-devel
+```
+
+Arch package names:
+```
+base-devel clang cmake curl dbus extra-cmake-modules freetype git libjpeg-turbo libpng libwebp libx11 libxrandr lld llvm ninja qt6-base qt6-imageformats qt6-svg qt6-tools wayland zstd
+```
+
+#### Building
+
+1. Clone the repository: `git clone https://github.com/stenzek/duckstation.git`, `cd duckstation`.
+2. Build dependencies. You can save these outside of the tree if you like. This will take a while. `scripts/deps/build-dependencies-linux.sh deps`.
+3. Run CMake to configure the build system. Assuming a build subdirectory of `build-release`, run `cmake -B build-release -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++ -DCMAKE_EXE_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_MODULE_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_SHARED_LINKER_FLAGS_INIT="-fuse-ld=lld" -DCMAKE_PREFIX_PATH="$PWD/deps" -G Ninja`. If you want a release (optimized) build, include `-DCMAKE_BUILD_TYPE=Release -DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON`.
+4. Compile the source code. For the example above, run `ninja -C build-release`
+5. Run the binary, located in the build directory under `./build-release/bin/duckstation-qt`.
 
 ### macOS
 
 Requirements:
  - CMake
- - SDL2 (at least version 2.28.5)
- - Qt 6 (at least version 6.5.3)
+ - Xcode
 
-Optional (recommended for faster builds):
- - Ninja
 
 1. Clone the repository: `git clone https://github.com/stenzek/duckstation.git`.
-2. Run CMake to configure the build system: `cmake -Bbuild-release -DCMAKE_BUILD_TYPE=Release`. You may need to specify `-DQt6_DIR` depending on your system. If you have installed Ninja, add `-GNinja` at the end of the CMake command line for faster builds.
+2. Build the dependencies. This will take a while. `scripts/deps/build-dependencies-mac.sh deps`.
+2. Run CMake to configure the build system: `cmake -Bbuild-release -DCMAKE_BUILD_TYPE=Release -DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON -DCMAKE_PREFIX_PATH="$PWD/deps"`. 
 4. Compile the source code: `cmake --build build-release --parallel`.
 5. Run the binary, located in the build directory under `bin/DuckStation.app`.
 
@@ -201,16 +223,19 @@ If you wish to use a "portable" build, where the user directory is the same as w
 in the same directory as the DuckStation executable.
 
 ## Bindings for Qt frontend
-Your keyboard or game controller can be used to simulate a variety of PlayStation controllers. Controller input is supported through DInput, XInput, and SDL backends and can be changed through `Settings -> General Settings`.
+Your keyboard or game controller can be used to simulate a variety of PlayStation controllers. Controller input is supported through DInput, XInput, and SDL backends and can be changed through `Settings -> Controllers`.
 
-To bind your input device, go to `Settings -> Controllers`. Each of the buttons/axes for the simulated controller will be listed, alongside the corresponding key/button on your device that it is currently bound to. To rebind, click the box next to the button/axis name, and press the key or button on your input device that you wish to bind to. When binding rumble, simply press any button on the controller you wish to send rumble to.
+To bind your input device, go to `Settings -> Controllers`, and select the virtual controller you want to map. Automatic mapping handles the majority of ocntrollers. However, if you need to manually bind a controller, click the box below the button/axis name, and press the key or button on your input device that you wish to bind to.
 
 ## SDL Game Controller Database
-DuckStation releases ship with a database of game controller mappings for the SDL controller backend, courtesy of https://github.com/gabomdq/SDL_GameControllerDB. The included `gamecontrollerdb.txt` file can be found in the `database` subdirectory of the DuckStation program directory.
+DuckStation releases ship with a database of game controller mappings for the SDL controller backend, courtesy of https://github.com/mdqinc/SDL_GameControllerDB. The included `gamecontrollerdb.txt` file can be found in the `resources` subdirectory of the DuckStation program directory.
 
-If you are experiencing issues binding your controller with the SDL controller backend, you may need to add a custom mapping to the database file. Make a copy of `gamecontrollerdb.txt` and place it in your [user directory](#user-directories) (or directly in the program directory, if running in portable mode) and then follow the instructions in the [SDL_GameControllerDB repository](https://github.com/gabomdq/SDL_GameControllerDB) for creating a new mapping. Add this mapping to the new copy of `gamecontrollerdb.txt` and your controller should then be recognized properly.
+If you are experiencing issues binding your controller with the SDL controller backend, you may need to add a custom mapping to the database file. Make a copy of `gamecontrollerdb.txt` and place it in your [user directory](#user-directories) (or directly in the program directory, if running in portable mode) and then follow the instructions in the [SDL_GameControllerDB repository](https://github.com/mdqinc/SDL_GameControllerDB) for creating a new mapping. Add this mapping to the new copy of `gamecontrollerdb.txt` and your controller should then be recognized properly.
 
 ## Default bindings
+
+Bindings for controllers and hotkeys can be changed in `Settings -> Controllers`.
+
 Controller 1:
  - **Left Stick:** W/A/S/D
  - **Right Stick:** T/F/G/H
@@ -224,6 +249,11 @@ Controller 1:
 
 Hotkeys:
  - **Escape:** Open Pause Menu
+ - **F1:** Load State
+ - **F2:** Save State
+ - **F3:** Select Previous Save State
+ - **F4:** Select Next Save State
+ - **F10:** Save Screenshot
  - **F11:** Toggle Fullscreen
  - **Tab:** Temporarily Disable Speed Limiter
  - **Space:** Pause/Resume Emulation

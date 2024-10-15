@@ -1,9 +1,9 @@
 ---
 title: papermark
-date: 2024-10-14T12:19:54+08:00
+date: 2024-10-15T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727706714083-48f02197f6f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727706714083-48f02197f6f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727255958110-0edaec0a2d78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727255958110-0edaec0a2d78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
 ---
 
 # [mfts/papermark](https://github.com/mfts/papermark)

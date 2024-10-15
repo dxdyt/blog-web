@@ -1,9 +1,9 @@
 ---
 title: typst
-date: 2024-07-23T12:18:42+08:00
+date: 2024-10-15T12:21:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720575073320-6c9d3a00d360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720575073320-6c9d3a00d360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728088731361-63ea1b113151?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728088731361-63ea1b113151?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
 ---
 
 # [typst/typst](https://github.com/typst/typst)
@@ -42,8 +42,7 @@ as LaTeX while being much easier to learn and use. Typst has:
 
 This repository contains the Typst compiler and its CLI, which is everything you
 need to compile Typst documents locally. For the best writing experience,
-consider signing up to our [collaborative online editor][app] for free. It is
-currently in public beta.
+consider signing up to our [collaborative online editor][app] for free.
 
 ## Example
 A [gentle introduction][tutorial] to Typst is available in our documentation.
@@ -183,8 +182,7 @@ typst help watch
 ```
 
 If you prefer an integrated IDE-like experience with autocompletion and instant
-preview, you can also check out the [Typst web app][app], which is currently in
-public beta.
+preview, you can also check out [Typst's free web app][app].
 
 ## Community
 The main place where the community gathers is our [Discord server][discord].

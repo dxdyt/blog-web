@@ -1,9 +1,9 @@
 ---
 title: hanko
-date: 2024-10-14T12:20:50+08:00
+date: 2024-10-15T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727344952188-1d3593165089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727344952188-1d3593165089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726672460396-cd3e7ff2453f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726672460396-cd3e7ff2453f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
 ---
 
 # [teamhanko/hanko](https://github.com/teamhanko/hanko)
