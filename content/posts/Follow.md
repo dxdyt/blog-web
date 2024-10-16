@@ -1,9 +1,9 @@
 ---
 title: Follow
-date: 2024-10-14T12:20:28+08:00
+date: 2024-10-16T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727287166815-2500f6261f50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727287166815-2500f6261f50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
 ---
 
 # [RSSNext/Follow](https://github.com/RSSNext/Follow)

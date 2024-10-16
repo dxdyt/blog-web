@@ -1,9 +1,9 @@
 ---
 title: Docker-OSX
-date: 2024-09-21T12:19:44+08:00
+date: 2024-10-16T12:20:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724764147764-3eb2a66cdf11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724764147764-3eb2a66cdf11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727287166815-2500f6261f50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727287166815-2500f6261f50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
 ---
 
 # [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX)
@@ -74,6 +74,7 @@ docker run -it \
     -p 50922:10022 \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -e SHORTNAME=catalina \
     sickcodes/docker-osx:latest
 
 # docker build -t docker-osx .
@@ -86,9 +87,10 @@ docker run -it \
     -p 50922:10022 \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
-    sickcodes/docker-osx:big-sur
+    -e SHORTNAME=big-sur \
+    sickcodes/docker-osx:latest
 
-# docker build -t docker-osx --build-arg SHORTNAME=big-sur .
+# docker build -t docker-osx .
 ```
 
 ### Monterey (12) [![https://img.shields.io/docker/image-size/sickcodes/docker-osx/monterey?label=sickcodes%2Fdocker-osx%3Amonterey](https://img.shields.io/docker/image-size/sickcodes/docker-osx/monterey?label=sickcodes%2Fdocker-osx%3Amonterey)](https://hub.docker.com/r/sickcodes/docker-osx/tags?page=1&ordering=last_updated)
@@ -102,9 +104,10 @@ docker run -it \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
     -e GENERATE_UNIQUE=true \
     -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom.plist' \
-    sickcodes/docker-osx:monterey
+    -e SHORTNAME=monterey \
+    sickcodes/docker-osx:latest
 
-# docker build -t docker-osx --build-arg SHORTNAME=monterey .
+# docker build -t docker-osx .
 ```
 
 ### Ventura (13) [![https://img.shields.io/docker/image-size/sickcodes/docker-osx/ventura?label=sickcodes%2Fdocker-osx%3Aventura](https://img.shields.io/docker/image-size/sickcodes/docker-osx/ventura?label=sickcodes%2Fdocker-osx%3Aventura)](https://hub.docker.com/r/sickcodes/docker-osx/tags?page=1&ordering=last_updated)
@@ -118,9 +121,10 @@ docker run -it \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
     -e GENERATE_UNIQUE=true \
     -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom.plist' \
-    sickcodes/docker-osx:ventura
+    -e SHORTNAME=ventura \
+    sickcodes/docker-osx:latest
 
-# docker build -t docker-osx --build-arg SHORTNAME=ventura .
+# docker build -t docker-osx .
 ```
 
 ### Sonoma (14) [![https://img.shields.io/docker/image-size/sickcodes/docker-osx/sonoma?label=sickcodes%2Fdocker-osx%3Asonoma](https://img.shields.io/docker/image-size/sickcodes/docker-osx/sonoma?label=sickcodes%2Fdocker-osx%3Asonoma)](https://hub.docker.com/r/sickcodes/docker-osx/tags?page=1&ordering=last_updated)
@@ -136,9 +140,10 @@ docker run -it \
     -e CPU='Haswell-noTSX' \
     -e CPUID_FLAGS='kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on' \
     -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom-sonoma.plist' \
-    sickcodes/docker-osx:sonoma
+    -e SHORTNAME=sonoma \
+    sickcodes/docker-osx:latest
 
-# docker build -t docker-osx --build-arg SHORTNAME=sonoma .
+# docker build -t docker-osx .
 ```
 
 #### Run Catalina Pre-Installed [![https://img.shields.io/docker/image-size/sickcodes/docker-osx/auto?label=sickcodes%2Fdocker-osx%3Aauto](https://img.shields.io/docker/image-size/sickcodes/docker-osx/auto?label=sickcodes%2Fdocker-osx%3Aauto)](https://hub.docker.com/r/sickcodes/docker-osx/tags?page=1&ordering=last_updated)
@@ -171,9 +176,10 @@ docker run -it \
     -p 50922:10022 \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
-    sickcodes/docker-osx:high-sierra
+    -e SHORTNAME=high-sierra \
+    sickcodes/docker-osx:latest
 
-# docker build -t docker-osx --build-arg SHORTNAME=high-sierra .
+# docker build -t docker-osx .
 ```
 
 ### Mojave [![https://img.shields.io/docker/image-size/sickcodes/docker-osx/mojave?label=sickcodes%2Fdocker-osx%3Amojave](https://img.shields.io/docker/image-size/sickcodes/docker-osx/mojave?label=sickcodes%2Fdocker-osx%3Amojave)](https://hub.docker.com/r/sickcodes/docker-osx/tags?page=1&ordering=last_updated)
@@ -185,9 +191,10 @@ docker run -it \
     -p 50922:10022 \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
-    sickcodes/docker-osx:mojave
+    -e SHORTNAME=mojave \
+    sickcodes/docker-osx:latest
 
-# docker build -t docker-osx --build-arg SHORTNAME=mojave .
+# docker build -t docker-osx .
 ```
 
 
@@ -210,6 +217,7 @@ docker run -it \
     -e "DISPLAY=${DISPLAY:-:0.0}" \
     -e GENERATE_UNIQUE=true \
     -e MASTER_PLIST_URL=https://raw.githubusercontent.com/sickcodes/Docker-OSX/master/custom/config-nopicker-custom.plist \
+    -e SHORTNAME=catalina \
     sickcodes/docker-osx:naked
 ```
 
@@ -239,6 +247,7 @@ docker run -it \
     -e "PASSWORD=alpine" \
     -e GENERATE_UNIQUE=true \
     -e MASTER_PLIST_URL=https://raw.githubusercontent.com/sickcodes/Docker-OSX/master/custom/config-nopicker-custom.plist \
+    -e SHORTNAME=monterey \
     sickcodes/docker-osx:naked-auto
 ```
 

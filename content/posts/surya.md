@@ -1,9 +1,9 @@
 ---
 title: surya
-date: 2024-10-14T12:21:42+08:00
+date: 2024-10-16T12:20:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727258032332-fcdf7c29622b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726121678240-9126d5017990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726121678240-9126d5017990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
 ---
 
 # [VikParuchuri/surya](https://github.com/VikParuchuri/surya)
@@ -72,7 +72,7 @@ The weights for the models are licensed `cc-by-nc-sa-4.0`, but I will waive that
 
 # Installation
 
-You'll need python 3.9+ and PyTorch. You may need to install the CPU version of torch first if you're not using a Mac or a GPU machine.  See [here](https://pytorch.org/get-started/locally/) for more details.
+You'll need python 3.10+ and PyTorch. You may need to install the CPU version of torch first if you're not using a Mac or a GPU machine.  See [here](https://pytorch.org/get-started/locally/) for more details.
 
 Install with:
 
@@ -291,7 +291,7 @@ order_predictions = batch_ordering([image], [bboxes], model, processor)
 
 ## Table Recognition
 
-This command will write out a json file with the detected table cells and row/column ids, along with row/column bounding boxes.
+This command will write out a json file with the detected table cells and row/column ids, along with row/column bounding boxes.  If you want to get a formatted markdown table, check out the [tabled](https://www.github.com/VikParuchuri/tabled) repo.
 
 ```shell
 surya_table DATA_PATH
@@ -306,17 +306,15 @@ surya_table DATA_PATH
 
 The `results.json` file will contain a json dictionary where the keys are the input filenames without extensions.  Each value will be a list of dictionaries, one per page of the input document.  Each page dictionary contains:
 
-- `cells` - detected table cells
-  - `bbox` - the axis-aligned rectangle for the text line in (x1, y1, x2, y2) format.  (x1, y1) is the top left corner, and (x2, y2) is the bottom right corner.
-  - `row_id` - the id of the row this cell belongs to.
-  - `col_id` - the id of the column this cell belongs to.
-  - `text` - if text could be pulled out of the pdf, the text of this cell.
 - `rows` - detected table rows
   - `bbox` - the bounding box of the table row
   - `row_id` - the id of the row
 - `cols` - detected table columns
   - `bbox` - the bounding box of the table column
   - `col_id`- the id of the column
+- `cells` - detected table cells
+  - `bbox` - the axis-aligned rectangle for the text line in (x1, y1, x2, y2) format.  (x1, y1) is the top left corner, and (x2, y2) is the bottom right corner.
+  - `text` - if text could be pulled out of the pdf, the text of this cell.
 - `page` - the page number in the file
 - `table_idx` - the index of the table on the page (sorted in vertical order)
 - `image_bbox` - the bbox for the image in (x1, y1, x2, y2) format.  (x1, y1) is the top left corner, and (x2, y2) is the bottom right corner.  All line bboxes will be contained within this bbox.

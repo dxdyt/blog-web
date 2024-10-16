@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2024-10-14T12:22:01+08:00
+date: 2024-10-16T12:21:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727619784641-db497cc6da32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727619784641-db497cc6da32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg4Nzk1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726270021286-bef67a75ab73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726270021286-bef67a75ab73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -295,14 +295,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                                | Description                                                                                                                                                                                          |
-| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Fitness Expert](https://chat-preview.lobehub.com/market?agent=assistants-health-better)<br/><sup>By **[Lockeysama](https://github.com/Lockeysama)** on **2024-10-08**</sup>                  | Knowledgeable fitness expert<br/>`fitness` `consultation` `lifestyle-issues` `advice`                                                                                                                |
-| [Code Optimization/Error Correction](https://chat-preview.lobehub.com/market?agent=code-review-and-fix)<br/><sup>By **[alphandbelt](https://github.com/alphandbelt)** on **2024-10-08**</sup> | Proficient in multiple programming languages, optimizing code structure, fixing errors, and providing elegant solutions.<br/>`code-optimization` `error-correction` `multiple-programming-languages` |
-| [Ethical Security Analyst](https://chat-preview.lobehub.com/market?agent=cyber-specialist)<br/><sup>By **[ayeantics](https://github.com/ayeantics)** on **2024-10-08**</sup>                  | Specializes in identifying and mitigating security vulnerabilities in web and mobile platforms.<br/>`cybersecurity` `ethical-hacking` `vulnerability-assessment` `consulting` `technical-assistance` |
-| [Mistaker](https://chat-preview.lobehub.com/market?agent=english)<br/><sup>By **[Vork-IT](https://github.com/Vork-IT)** on **2024-10-08**</sup>                                               | killed in clear explanations and examples of grammar and pronunciation.<br/>`english`                                                                                                                |
+| Recent Submits                                                                                                                                                                            | Description                                                                                                                                                                                                           |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Boxing Training Master](https://chat-preview.lobehub.com/market?agent=boxing-master)<br/><sup>By **[Luyi-2333](https://github.com/Luyi-2333)** on **2024-10-15**</sup>                   | Expert in boxing training guidance and personalized plan development<br/>`boxing-training` `personalized-plans` `fitness-guidance` `progress-evaluation` `technique-improvement` `health-and-nutrition`               |
+| [Coconut](https://chat-preview.lobehub.com/market?agent=deep-thinker-ai)<br/><sup>By **[hia1234](https://github.com/hia1234)** on **2024-10-15**</sup>                                    | A chatbot that undergoes several reviews of its responses, checking whether there is a basis for its statements and actively requesting feedback while engaging in repeated interactions.<br/>`programming` `general` |
+| [GitHub Project Documentation Assistant](https://chat-preview.lobehub.com/market?agent=github-doc-asst)<br/><sup>By **[Luyi-2333](https://github.com/Luyi-2333)** on **2024-10-14**</sup> | Focused on writing and optimizing documentation for open source projects<br/>`documentation-optimization` `open-source-projects` `writing-techniques` `git-hub`                                                       |
+| [Ophthalmologist](https://chat-preview.lobehub.com/market?agent=ophthalmologist)<br/><sup>By **[yuphone](https://github.com/yuphone)** on **2024-10-14**</sup>                            | Specializes in ophthalmic diagnosis and treatment recommendations<br/>`healthcare` `ophthalmology` `diagnosis` `recommendations` `professional`                                                                       |
 
-> 📊 Total agents: [<kbd>**411**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
+> 📊 Total agents: [<kbd>**418**</kbd> ](https://github.com/lobehub/lobe-chat-agents)
 
  <!-- AGENT LIST -->
 
