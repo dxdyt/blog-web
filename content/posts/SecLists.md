@@ -1,9 +1,9 @@
 ---
 title: SecLists
-date: 2024-07-07T12:18:11+08:00
+date: 2024-10-17T12:19:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716220557737-f2616bd6bb37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716220557737-f2616bd6bb37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjAzMjU3Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
@@ -22,7 +22,7 @@ This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [J
 
 ### Repository details
 
-Size of a complete clone of SecLists is currently at `1.4 GB`
+Size of a complete clone of SecLists is currently at `1.5 GB`
 
 Cloning this repository should take 4-5 minutes at 5MB/s speeds.
 

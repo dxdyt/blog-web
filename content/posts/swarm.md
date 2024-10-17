@@ -1,9 +1,9 @@
 ---
 title: swarm
-date: 2024-10-16T12:19:45+08:00
+date: 2024-10-17T12:19:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726309356095-e4c9be366c13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726309356095-e4c9be366c13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
 ---
 
 # [openai/swarm](https://github.com/openai/swarm)

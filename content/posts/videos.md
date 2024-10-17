@@ -1,9 +1,9 @@
 ---
 title: videos
-date: 2024-10-15T12:20:24+08:00
+date: 2024-10-17T12:20:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725393197042-7b7691ba7446?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725393197042-7b7691ba7446?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
 ---
 
 # [3b1b/videos](https://github.com/3b1b/videos)
@@ -15,7 +15,12 @@ This almost entirely consists of scenes generated using the library [Manim](http
 
 Older projects may have code dependent on older versions of manim, and so may not run out of the box here.
 
-Note, while the library Manim itself is open source and under the MIT license, the contents of this repository are intended only to be used for 3Blue1Brown videos themselves.
+Note, while the library Manim itself is [open source](https://opensource.org/osd) software and under the [MIT license](https://github.com/3b1b/manim/blob/master/LICENSE.md), the contents of this repository are available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
+
+[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+
+[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
+[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
 
 ## Workflow
 

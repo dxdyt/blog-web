@@ -1,9 +1,9 @@
 ---
 title: typst
-date: 2024-10-15T12:21:16+08:00
+date: 2024-10-17T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728088731361-63ea1b113151?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728088731361-63ea1b113151?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727755708630-79c8384e216a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727755708630-79c8384e216a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
 ---
 
 # [typst/typst](https://github.com/typst/typst)
@@ -139,7 +139,7 @@ Typst's CLI is available from different sources:
     `nix run github:typst/typst -- --version`.
 
 - Docker users can run a prebuilt image with
-  `docker run -it ghcr.io/typst/typst:latest`.
+  `docker run ghcr.io/typst/typst:latest --help`.
 
 ## Usage
 Once you have installed Typst, you can use it like this:

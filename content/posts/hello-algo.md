@@ -1,9 +1,9 @@
 ---
 title: hello-algo
-date: 2024-10-15T12:21:01+08:00
+date: 2024-10-17T12:19:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727717901508-36ae470b697c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727717901508-36ae470b697c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727755708630-79c8384e216a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727755708630-79c8384e216a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
 ---
 
 # [krahets/hello-algo](https://github.com/krahets/hello-algo)

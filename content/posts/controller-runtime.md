@@ -1,9 +1,9 @@
 ---
 title: controller-runtime
-date: 2024-10-16T12:20:59+08:00
+date: 2024-10-17T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726551195764-f98a8e8a57c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726551195764-f98a8e8a57c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728346752157-f2e57a245650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728346752157-f2e57a245650?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
 ---
 
 # [kubernetes-sigs/controller-runtime](https://github.com/kubernetes-sigs/controller-runtime)
