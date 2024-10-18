@@ -1,9 +1,9 @@
 ---
 title: siyuan
-date: 2024-10-16T12:20:36+08:00
+date: 2024-10-18T12:20:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726121678240-9126d5017990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726121678240-9126d5017990?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727731481954-4050655156a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727731481954-4050655156a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)

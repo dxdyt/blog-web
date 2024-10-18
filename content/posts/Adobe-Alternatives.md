@@ -1,9 +1,9 @@
 ---
 title: Adobe-Alternatives
-date: 2024-06-10T12:20:37+08:00
+date: 2024-10-18T12:21:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714756123393-929709970fdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714756123393-929709970fdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727086758266-c5cb3e4b8ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727086758266-c5cb3e4b8ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)
@@ -133,7 +133,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1714756123393-929709970f
 
 - ✨ [Scribus](https://www.scribus.net) *(Windows, Mac, Linux)*
 - ✨ [Laidout](https://laidout.org) *(Linux)*
-- 💵 [Affinity Publisher](https://affinity.serif.com/en-gb/publisher) *(Windows, Mac)*
+- 💵 [Affinity Publisher](https://affinity.serif.com/en-gb/publisher) *(Windows, Mac, iOS)*
 - 💵 [QuarkXPress](https://www.quark.com/products/quarkxpress) *(Windows, Mac)*
 
 ## Substance

@@ -1,9 +1,9 @@
 ---
 title: SecLists
-date: 2024-10-17T12:19:55+08:00
+date: 2024-10-18T12:20:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727434032765-9c4df88b6e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727086758266-c5cb3e4b8ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727086758266-c5cb3e4b8ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)

@@ -1,9 +1,9 @@
 ---
 title: capa
-date: 2024-10-06T12:20:21+08:00
+date: 2024-10-18T12:21:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727546876068-75b93540c6f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727546876068-75b93540c6f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727463507451-366dd3c3b7f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727463507451-366dd3c3b7f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [mandiant/capa](https://github.com/mandiant/capa)
