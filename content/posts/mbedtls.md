@@ -1,9 +1,9 @@
 ---
 title: mbedtls
-date: 2024-10-18T12:21:14+08:00
+date: 2024-10-19T12:19:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728408828574-70a460530093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728408828574-70a460530093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726608708346-165c730d3f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726608708346-165c730d3f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
 ---
 
 # [Mbed-TLS/mbedtls](https://github.com/Mbed-TLS/mbedtls)

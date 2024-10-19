@@ -1,31 +1,31 @@
 ---
 title: pglite
-date: 2024-08-17T12:19:50+08:00
+date: 2024-10-19T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726608708346-165c730d3f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726608708346-165c730d3f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
 ---
 
 # [electric-sql/pglite](https://github.com/electric-sql/pglite)
 
 <p align="center">
-  <a href="https://electric-sql.com" target="_blank">
+  <a href="https://pglite.dev" target="_blank">
     <picture>
       <source media="(prefers-color-scheme: dark)"
-          srcset="https://raw.githubusercontent.com/electric-sql/meta/main/identity/ElectricSQL-logo-light-trans.svg"
+          srcset="https://raw.githubusercontent.com/electric-sql/pglite/main/docs/public/img/brand/logo.svg"
       />
       <source media="(prefers-color-scheme: light)"
-          srcset="https://raw.githubusercontent.com/electric-sql/meta/main/identity/ElectricSQL-logo-black.svg"
+          srcset="https://raw.githubusercontent.com/electric-sql/pglite/main/docs/public/img/brand/logo-light.svg"
       />
       <img alt="ElectricSQL logo"
-          src="https://raw.githubusercontent.com/electric-sql/meta/main/identity/ElectricSQL-logo-black.svg"
+          src="https://raw.githubusercontent.com/electric-sql/pglite/main/docs/public/img/brand/logo-light.svg"
       />
     </picture>
   </a>
 </p>
 
 <p align="center">
-  PGlite - the WASM build of Postgres from <a href="https://electric-sql.com" target="_blank">ElectricSQL</a>.<br>
+  <a href="https://pglite.dev">PGlite</a> - the WASM build of Postgres from <a href="https://electric-sql.com" target="_blank">ElectricSQL</a>.<br>
   Build reactive, realtime, local-first apps directly on Postgres.
 <p>
 
@@ -43,7 +43,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6
 
 ![PGlite](https://raw.githubusercontent.com/electric-sql/pglite/main/screenshot.png)
 
-PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js and Bun, with no need to install any other dependencies. It is only 3mb gzipped and has support for many Postgres extensions, including [pgvector](https://github.com/pgvector/pgvector).
+PGlite is a WASM Postgres build packaged into a TypeScript client library that enables you to run Postgres in the browser, Node.js, Bun and Deno, with no need to install any other dependencies. It is only 3mb gzipped and has support for many Postgres extensions, including [pgvector](https://github.com/pgvector/pgvector).
 
 ```javascript
 import { PGlite } from "@electric-sql/pglite";
@@ -53,7 +53,7 @@ await db.query("select 'Hello world' as message;");
 // -> { rows: [ { message: "Hello world" } ] }
 ```
 
-It can be used as an ephemeral in-memory database, or with persistence either to the file system (Node/Bun) or indexedDB (Browser).
+It can be used as an ephemeral in-memory database, or with persistence either to the file system (Node/Bun/Deno) or indexedDB (Browser).
 
 Unlike previous "Postgres in the browser" projects, PGlite does not use a Linux virtual machine - it is simply Postgres in WASM.
 
@@ -86,12 +86,26 @@ or to persist the database to indexedDB:
 const db = new PGlite("idb://my-pgdata");
 ```
 
-## Node/Bun
+## Node/Bun/Deno
 
 Install into your project:
 
+**NodeJS**
+
 ```bash
 npm install @electric-sql/pglite
+```
+
+**Bun**
+
+```bash
+bun install @electric-sql/pglite
+```
+
+**Deno**
+
+```bash
+deno add npm:@electric-sql/pglite
 ```
 
 To use the in-memory Postgres:
