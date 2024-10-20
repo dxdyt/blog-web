@@ -1,9 +1,9 @@
 ---
 title: Kingfisher
-date: 2024-10-18T12:20:30+08:00
+date: 2024-10-20T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727463507451-366dd3c3b7f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727463507451-366dd3c3b7f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729158323151-0baafabaf228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzOTc5NTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729158323151-0baafabaf228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzOTc5NTR8&ixlib=rb-4.0.3
 ---
 
 # [onevcat/Kingfisher](https://github.com/onevcat/Kingfisher)
