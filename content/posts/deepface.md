@@ -1,9 +1,9 @@
 ---
 title: deepface
-date: 2024-10-19T12:19:20+08:00
+date: 2024-10-21T12:20:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726998748912-fae1b7ca3191?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726998748912-fae1b7ca3191?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728763424935-8d2901c74515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728763424935-8d2901c74515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
 ---
 
 # [serengil/deepface](https://github.com/serengil/deepface)

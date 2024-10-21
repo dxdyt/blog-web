@@ -1,9 +1,9 @@
 ---
 title: edge-tts
-date: 2023-08-19T12:15:32+08:00
+date: 2024-10-21T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691519548863-c29a47ecd6c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691519548863-c29a47ecd6c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTI0MTg0MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727289155063-8f65d0ad7769?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727289155063-8f65d0ad7769?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
 ---
 
 # [rany2/edge-tts](https://github.com/rany2/edge-tts)
@@ -73,16 +73,15 @@ You must first check the available voices with the `--list-voices` option:
 
 Support for custom SSML has been removed since 5.0.0 because Microsoft has taken the initiative to prevent it from working. You cannot use custom SSML anymore.
 
-### Changing rate and volume
+### Changing rate, volume and pitch
 
 It is possible to make minor changes to the generated speech.
 
     $ edge-tts --rate=-50% --text "Hello, world!" --write-media hello_with_rate_halved.mp3 --write-subtitles hello_with_rate_halved.vtt
     $ edge-tts --volume=-50% --text "Hello, world!" --write-media hello_with_volume_halved.mp3 --write-subtitles hello_with_volume_halved.vtt
+    $ edge-tts --pitch=-50Hz --text "Hello, world!" --write-media hello_with_pitch_halved.mp3 --write-subtitles hello_with_pitch_halved.vtt
 
 In addition, it is required to use `--rate=-50%` instead of `--rate -50%` (note the lack of an equal sign) otherwise the `-50%` would be interpreted as just another argument.
-
-**NOTE**: `--pitch` was removed in 6.0.3 as it no longer appears to have any effect.
 
 ### Note on the `edge-playback` command
 
@@ -92,9 +91,6 @@ In addition, it is required to use `--rate=-50%` instead of `--rate -50%` (note 
 
 It is possible to use the `edge-tts` module directly from Python. For a list of example applications:
 
-* https://github.com/rany2/edge-tts/blob/master/examples/basic_generation.py
-* https://github.com/rany2/edge-tts/blob/master/examples/dynamic_voice_selection.py
-* https://github.com/rany2/edge-tts/blob/master/examples/basic_audio_streaming.py
-* https://github.com/rany2/edge-tts/blob/master/examples/streaming_with_subtitles.py
+* https://github.com/rany2/edge-tts/tree/master/examples
 * https://github.com/rany2/edge-tts/blob/master/src/edge_tts/util.py
 * https://github.com/hasscc/hass-edge-tts/blob/main/custom_components/edge_tts/tts.py

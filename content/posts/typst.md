@@ -1,9 +1,9 @@
 ---
 title: typst
-date: 2024-10-17T12:21:15+08:00
+date: 2024-10-21T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727755708630-79c8384e216a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727755708630-79c8384e216a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727972936893-c24c6d0e9e40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727972936893-c24c6d0e9e40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
 ---
 
 # [typst/typst](https://github.com/typst/typst)

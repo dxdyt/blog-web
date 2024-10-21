@@ -1,9 +1,9 @@
 ---
 title: pglite
-date: 2024-10-19T12:19:59+08:00
+date: 2024-10-21T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726608708346-165c730d3f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726608708346-165c730d3f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725570516660-ecad13675ad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725570516660-ecad13675ad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
 ---
 
 # [electric-sql/pglite](https://github.com/electric-sql/pglite)
