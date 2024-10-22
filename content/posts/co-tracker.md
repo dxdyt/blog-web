@@ -1,9 +1,9 @@
 ---
 title: co-tracker
-date: 2024-10-20T12:21:10+08:00
+date: 2024-10-22T12:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727384182379-e4cd8e8d5ffd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzOTc5NTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727384182379-e4cd8e8d5ffd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzOTc5NTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727200451160-07a0457af799?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727200451160-07a0457af799?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/co-tracker](https://github.com/facebookresearch/co-tracker)

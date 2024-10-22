@@ -1,9 +1,9 @@
 ---
 title: program-examples
-date: 2024-10-21T12:20:09+08:00
+date: 2024-10-22T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728763424935-8d2901c74515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728763424935-8d2901c74515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729148074715-78de89a6bed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729148074715-78de89a6bed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
 ---
 
 # [solana-developers/program-examples](https://github.com/solana-developers/program-examples)
@@ -97,7 +97,7 @@ Store and retrieve state in Solana.
 
 [anchor](./basics/program-derived-addresses/anchor) [native](./basics/program-derived-addresses/native)
 
-### Handling accounts that expland in size
+### Handling accounts that expand in size
 
 How to store state that changes size in Solana.
 
