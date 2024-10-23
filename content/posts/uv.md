@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-08-24T12:17:57+08:00
+date: 2024-10-23T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723296637578-95124ce6024b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723296637578-95124ce6024b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ0NzMwMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728931710331-7f74dca643eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728931710331-7f74dca643eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)
@@ -40,9 +40,9 @@ An extremely fast Python package and project manager, written in Rust.
 - ❇️ [Runs single-file scripts](#script-support), with support for
   [inline dependency metadata](https://docs.astral.sh/uv/guides/scripts#declaring-script-dependencies).
 - 🗂️ Provides [comprehensive project management](#project-management), with a
-  [universal lockfile](https://docs.astral.sh/uv/concepts/projects#lockfile).
-- 🔩 Includes a [pip-compatible interface](#the-pip-interface) for a performance boost with a
-  familiar CLI.
+  [universal lockfile](https://docs.astral.sh/uv/concepts/projects#project-lockfile).
+- 🔩 Includes a [pip-compatible interface](#a-pip-compatible-interface) for a performance boost with
+  a familiar CLI.
 - 🏢 Supports Cargo-style [workspaces](https://docs.astral.sh/uv/concepts/workspaces) for scalable
   projects.
 - 💾 Disk-space efficient, with a [global cache](https://docs.astral.sh/uv/concepts/cache) for
@@ -62,10 +62,16 @@ Install uv with our standalone installers, or from [PyPI](https://pypi.org/proje
 $ curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # On Windows.
-$ powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+$ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
 # With pip.
 $ pip install uv
+```
+
+If installed via the standalone installer, uv can update itself to the latest version:
+
+```console
+$ uv self update
 ```
 
 See the [installation documentation](https://docs.astral.sh/uv/getting-started/installation/) for
@@ -91,7 +97,7 @@ Initialized project `example` at `/home/user/example`
 $ cd example
 
 $ uv add ruff
-Creating virtualenv at: .venv
+Creating virtual environment at: .venv
 Resolved 2 packages in 170ms
    Built example @ file:///home/user/example
 Prepared 2 packages in 627ms
@@ -165,7 +171,7 @@ Download Python versions as needed:
 ```console
 $ uv venv --python 3.12.0
 Using Python 3.12.0
-Creating virtualenv at: .venv
+Creating virtual environment at: .venv
 Activate with: source .venv/bin/activate
 
 $ uv run --python pypy@3.8 -- python --version
@@ -177,7 +183,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 Use a specific Python version in the current directory:
 
-```
+```console
 $ uv python pin pypy@3.11
 Pinned `.python-version` to `pypy@3.11`
 ```
@@ -200,7 +206,7 @@ Updated `example.py`
 
 Then, run the script in an isolated virtual environment:
 
-```
+```console
 $ uv run example.py
 Reading inline script metadata from: example.py
 Installed 5 packages in 12ms
@@ -234,7 +240,7 @@ Create a virtual environment:
 ```console
 $ uv venv
 Using Python 3.12.3
-Creating virtualenv at: .venv
+Creating virtual environment at: .venv
 Activate with: source .venv/bin/activate
 ```
 

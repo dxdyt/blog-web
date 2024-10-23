@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2024-10-11T12:21:10+08:00
+date: 2024-10-23T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1614378719646-ce1c2961b91c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1614378719646-ce1c2961b91c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -178,7 +178,7 @@ Star Dify on GitHub and be instantly notified of new releases.
 > Before installing Dify, make sure your machine meets the following minimum system requirements:
 > 
 >- CPU >= 2 Core
->- RAM >= 4GB
+>- RAM >= 4 GiB
 
 </br>
 

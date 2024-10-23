@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2024-09-02T12:20:57+08:00
+date: 2024-10-23T12:20:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722431096520-1a73f35b166f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722431096520-1a73f35b166f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUyNTA3MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729459101552-3830ac71a95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729459101552-3830ac71a95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -104,6 +104,8 @@ Workflow examples can be found on the [Examples page](https://comfyanonymous.git
 | Alt + `+`                          | Canvas Zoom in                                                                                                     |
 | Alt + `-`                          | Canvas Zoom out                                                                                                    |
 | Ctrl + Shift + LMB + Vertical drag | Canvas Zoom in/out                                                                                                 |
+| P                                  | Pin/Unpin selected nodes                                                                                           |
+| Ctrl + G                           | Group selected nodes                                                                                               |
 | Q                                  | Toggle visibility of the queue                                                                                     |
 | H                                  | Toggle visibility of history                                                                                       |
 | R                                  | Refresh graph                                                                                                      |
@@ -134,6 +136,8 @@ See the [Config file](extra_model_paths.yaml.example) to set the search paths fo
 To run it on services like paperspace, kaggle or colab you can use my [Jupyter Notebook](notebooks/comfyui_colab.ipynb)
 
 ## Manual Install (Windows, Linux)
+
+Note that some dependencies do not yet support python 3.13 so using 3.12 is recommended.
 
 Git clone this repo.
 

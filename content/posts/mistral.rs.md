@@ -1,9 +1,9 @@
 ---
 title: mistral.rs
-date: 2024-10-22T12:21:36+08:00
+date: 2024-10-23T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727230956558-6c627e98f4c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727230956558-6c627e98f4c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729459101552-3830ac71a95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729459101552-3830ac71a95d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [EricLBuehler/mistral.rs](https://github.com/EricLBuehler/mistral.rs)

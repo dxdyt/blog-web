@@ -1,9 +1,9 @@
 ---
 title: yfinance
-date: 2024-10-22T12:22:03+08:00
+date: 2024-10-23T12:20:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727968913595-a51828d7cf54?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727968913595-a51828d7cf54?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk1NzA4MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance)
@@ -385,6 +385,6 @@ details on your rights to use the actual data downloaded.
 
 ### P.S.
 
-Please drop me an note with any feedback you have.
+Please drop me a note with any feedback you have.
 
 **Ran Aroussi**

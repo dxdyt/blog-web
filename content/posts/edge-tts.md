@@ -1,9 +1,9 @@
 ---
 title: edge-tts
-date: 2024-10-21T12:21:12+08:00
+date: 2024-10-23T12:21:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727289155063-8f65d0ad7769?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727289155063-8f65d0ad7769?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727791962712-1d36ec09b068?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727791962712-1d36ec09b068?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [rany2/edge-tts](https://github.com/rany2/edge-tts)

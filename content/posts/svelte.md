@@ -1,9 +1,9 @@
 ---
 title: svelte
-date: 2024-09-15T12:19:13+08:00
+date: 2024-10-23T12:19:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723711183425-7d202944cff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723711183425-7d202944cff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYzNzM5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726828952037-7e25f32bb81f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726828952037-7e25f32bb81f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
 ---
 
 # [sveltejs/svelte](https://github.com/sveltejs/svelte)
