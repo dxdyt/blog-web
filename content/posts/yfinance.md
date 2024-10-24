@@ -1,9 +1,9 @@
 ---
 title: yfinance
-date: 2024-10-23T12:20:16+08:00
+date: 2024-10-24T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727463995295-3505cb692ebb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727463995295-3505cb692ebb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
 ---
 
 # [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance)

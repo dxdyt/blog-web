@@ -1,9 +1,9 @@
 ---
 title: mealie
-date: 2024-08-21T12:20:40+08:00
+date: 2024-10-24T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723174278559-cb3e4bfda6f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQyMTM5MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728324736111-03bbe42cd366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728324736111-03bbe42cd366?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
 ---
 
 # [mealie-recipes/mealie](https://github.com/mealie-recipes/mealie)
@@ -100,7 +100,7 @@ Thanks to Depot for providing build instances for our Docker image builds.
 [contributors-shield]: https://img.shields.io/github/contributors/mealie-recipes/mealie.svg?style=flat-square
 [docker-pull]: https://img.shields.io/docker/pulls/hkotel/mealie?style=flat-square
 [docker-url]: https://hub.docker.com/r/hkotel/mealie
-[ghcr-pulls]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fipitio%2Fghcr-pulls%2Fmaster%2Findex.json&query=%24%5B%3F(%40.owner%3D%3D%22mealie-recipes%22%20%26%26%20%40.repo%3D%3D%22mealie%22%20%26%26%20%40.image%3D%3D%22mealie%22)%5D.pulls&style=flat-square&label=ghcr%20pulls
+[ghcr-pulls]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fipitio.github.io%2Fbackage%2Fmealie-recipes%2Fmealie%2Fmealie.json&query=%24.downloads&style=flat-square&label=ghcr%20pulls
 [ghcr-url]: https://github.com/mealie-recipes/mealie/pkgs/container/mealie
 [contributors-url]: https://github.com/mealie-recipes/mealie/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/mealie-recipes/mealie.svg?style=flat-square

@@ -1,9 +1,9 @@
 ---
 title: drawdb
-date: 2024-08-02T12:19:59+08:00
+date: 2024-10-24T12:20:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722286542992-47268b29aa6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722286542992-47268b29aa6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728412390009-1a2d295230dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728412390009-1a2d295230dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
 ---
 
 # [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
