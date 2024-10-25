@@ -1,9 +1,9 @@
 ---
 title: swift-composable-architecture
-date: 2024-10-24T12:21:18+08:00
+date: 2024-10-25T12:22:40+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1706625661544-cf6ad6902f57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1706625661544-cf6ad6902f57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
 ---
 
 # [pointfreeco/swift-composable-architecture](https://github.com/pointfreeco/swift-composable-architecture)

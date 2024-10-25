@@ -1,9 +1,9 @@
 ---
 title: PlayIntegrityFix
-date: 2024-05-26T12:17:46+08:00
+date: 2024-10-25T12:22:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715313676046-06e4837b02b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715313676046-06e4837b02b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTY2OTY5NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729508418019-0f1e5336fc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729508418019-0f1e5336fc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
 ---
 
 # [chiteroman/PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
@@ -11,6 +11,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1715313676046-06e4837b02
 # Play Integrity Fix
 
 This module tries to fix Play Integrity and SafetyNet verdicts to get a valid attestation.
+
+## NOTE
+
+This module is not made to hide root, nor to avoid detections in other apps. It only serves to pass Device verdict in the Play Integrity tests and certify your device.
+All issues created to report a non-Google app not working will be closed without notice.
+
+## Tutorial
 
 You will need root and Zygisk, so you must choose ONE of this three setups:
 
@@ -29,12 +36,14 @@ NOTE: SafetyNet is obsolete, more info here: https://developer.android.com/priva
 
 Also, if you are using custom rom or custom kernel, be sure that your kernel name isn't blacklisted, you can check it running ```uname -r``` command. This is a list of banned strings: https://xdaforums.com/t/module-play-integrity-fix-safetynet-fix.4607985/post-89308909
 
-After requesting an attestation in Play Integrity API you should get this result:
+## Verdicts
+
+After requesting an attestation, you should get this result:
 
 - MEETS_BASIC_INTEGRITY   ✅
 - MEETS_DEVICE_INTEGRITY  ✅
 - MEETS_STRONG_INTEGRITY  ❌
-- MEETS_VIRTUAL_INTEGRITY ❌
+- MEETS_VIRTUAL_INTEGRITY ❌ (this is for emulators only)
 
 You can know more about verdicts in this post: https://xdaforums.com/t/info-play-integrity-api-replacement-for-safetynet.4479337/
 
@@ -46,11 +55,11 @@ And in SafetyNet you should get this:
 
 NOTE: Strong verdict is impossible to pass on unlocked bootloader devices, there are few devices and "exploits" which will allow you to pass it, but, in normal conditions, this verdict will be green only if you are using stock ROM and locked bootloader. The old posts talking about Strong pass was an "exploit" in Google servers, obviously, now it's patched.
 
-FAQ: https://xdaforums.com/t/pif-faq.4653307/
+## FAQ
+https://xdaforums.com/t/pif-faq.4653307/
 
 ## Download
 https://github.com/chiteroman/PlayIntegrityFix/releases/latest
 
 ## Donations
-
 [PayPal](https://www.paypal.com/paypalme/chiteroman)

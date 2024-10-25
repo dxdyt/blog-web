@@ -1,9 +1,9 @@
 ---
 title: TV
-date: 2024-10-24T12:20:03+08:00
+date: 2024-10-25T12:22:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726243204340-becde5d070db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726243204340-becde5d070db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
 ---
 
 # [Guovin/TV](https://github.com/Guovin/TV)
