@@ -1,9 +1,9 @@
 ---
 title: azure-sdk-for-net
-date: 2024-09-29T12:20:19+08:00
+date: 2024-10-26T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725892604314-5d9c9f363757?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725892604314-5d9c9f363757?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727963179460-5d1c8f5f96c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727963179460-5d1c8f5f96c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
 ---
 
 # [Azure/azure-sdk-for-net](https://github.com/Azure/azure-sdk-for-net)

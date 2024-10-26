@@ -1,9 +1,9 @@
 ---
 title: ToolJet
-date: 2024-10-05T12:20:13+08:00
+date: 2024-10-26T12:21:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725462566758-2fd075a5f78f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725462566758-2fd075a5f78f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729287331079-af3ad1ba8717?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729287331079-af3ad1ba8717?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
 ---
 
 # [ToolJet/ToolJet](https://github.com/ToolJet/ToolJet)
@@ -125,7 +125,7 @@ For general help using ToolJet, please refer to the official [documentation](htt
 - [𝕏 (Twitter)](https://twitter.com/ToolJet) - Get the product updates quickly.
 
 ## Roadmap
-Check out our [roadmap](https://github.com/ToolJet/ToolJet/projects/2) to stay updated on recently released features and learn about what's coming next.
+Check out our [roadmap](https://github.com/orgs/ToolJet/projects/15) to stay updated on recently released features and learn about what's coming next.
 
 ## Branching model
 We use the git-flow branching model. The base branch is `develop`. If you are looking for a stable version, please use the main branch or tags labeled as v1.x.x.

@@ -1,9 +1,9 @@
 ---
 title: TV
-date: 2024-10-25T12:22:08+08:00
+date: 2024-10-26T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727135393486-674f1b7adc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727135393486-674f1b7adc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
 ---
 
 # [Guovin/TV](https://github.com/Guovin/TV)
@@ -90,10 +90,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1727814719781-f7e2f0c05d
 ## 特点
 
 - 自定义模板，生成您想要的频道
-- 支持多种获取源方式：组播源、酒店源、订阅源、线上检索
+- 支持多种获取源方式：组播源、酒店源、订阅源、关键字搜索
 - 接口测速验效，响应时间、分辨率优先级，过滤无效接口
 - 定时执行，北京时间每日 6:00 与 18:00 执行更新
-- 支持多种运行方式：工作流、命令行、界面软件、Docker(amd64/arm64)
+- 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64)
 - 更多功能请见[配置参数](./docs/config.md)
 
 ## 最新结果：
@@ -128,11 +128,11 @@ pipenv install
 pipenv run build
 ```
 
-### 方式三：界面软件更新
+### 方式三：GUI 软件更新
 
 1. 下载[更新工具软件](https://github.com/Guovin/TV/releases)，打开软件，点击更新，即可完成更新
 
-2. 或者在项目目录下运行以下命令，即可打开界面软件：
+2. 或者在项目目录下运行以下命令，即可打开 GUI 软件：
 
 ```python
 pipenv run ui
@@ -143,7 +143,7 @@ pipenv run ui
 ### 方式四：Docker 更新
 
 - requests：轻量级，性能要求低，更新速度快，稳定性不确定（推荐订阅源使用此版本）
-- driver：性能要求较高，更新速度较慢，稳定性、成功率高；修改配置 open_driver = False 可切换到 request 版本（推荐酒店源、组播源、在线搜索使用此版本）
+- driver：性能要求较高，更新速度较慢，稳定性、成功率高；修改配置 open_driver = False 可切换到 request 版本（推荐酒店源、组播源、关键字搜索使用此版本）
 
 建议都试用一次，选择自己合适的版本。
 

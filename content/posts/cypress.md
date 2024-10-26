@@ -1,9 +1,9 @@
 ---
 title: cypress
-date: 2023-12-31T12:18:41+08:00
+date: 2024-10-26T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701651541625-e8fa78fa741d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701651541625-e8fa78fa741d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDM5OTYxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727896187647-cb74c12a3692?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727896187647-cb74c12a3692?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
 ---
 
 # [cypress-io/cypress](https://github.com/cypress-io/cypress)

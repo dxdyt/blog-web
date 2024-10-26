@@ -1,23 +1,23 @@
 ---
 title: shadcn-table
-date: 2024-04-23T12:18:05+08:00
+date: 2024-10-26T12:21:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711634537178-87449f29c628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711634537178-87449f29c628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM4NDU3Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729429442341-a6841554ab23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729429442341-a6841554ab23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
 ---
 
 # [sadmann7/shadcn-table](https://github.com/sadmann7/shadcn-table)
 
 # [Shadcn Table](https://table.sadmn.com)
 
-This is a shadcn table component with server-side sorting, filtering, and pagination. It is bootstrapped with `create-t3-app`.
+This is a shadcn table with server-side sorting, filtering, and pagination. It is bootstrapped with `create-t3-app`.
 
 [![Shadcn Table](./public/images/screenshot.png)](https://table.sadmn.com)
 
 > **Warning**
 > This project is still in development and is not ready for production use.
 >
-> It uses new technologies (ppr, and drizzle ORM) which are subject to change and may break your application.
+> It uses new technologies (ppr, react compiler) which are subject to change and may break your application.
 
 ## Tech Stack
 
@@ -83,9 +83,9 @@ This is a shadcn table component with server-side sorting, filtering, and pagina
    Also install the required shadcn components and other required packages with the following commands:
 
    ```bash
-   pnpm dlx shadcn-ui@latest init
+   pnpm dlx shadcn@latest init
 
-   pnpm dlx shadcn-ui@latest add badge button calendar checkbox command dialog dropdown-menu form input label popover select separator skeleton sonner table toggle-group tooltip
+   pnpm dlx shadcn@latest add badge button calendar checkbox command dialog dropdown-menu form input label popover select separator skeleton sonner table toggle-group tooltip
 
    pnpm add drizzle-orm postgres @tanstack/react-table zod @t3-oss/env-nextjs
    pnpm add -D drizzle-kit dotenv-cli pg tsx
@@ -105,7 +105,7 @@ This is a shadcn table component with server-side sorting, filtering, and pagina
 
    - **Create Files**: Create `page.tsx` and, if needed, `layout.tsx` in your app directory.
    - **Copy Directories**: Copy `./_components` and `./_lib` directories into your project.
-   - **Update Queries/Mutations**: Modify `./_lib/queries.ts`, `./_lib/actions.ts`, and `./_lib/mutations.ts` to match your database operations.
+   - **Update Queries/Mutations**: Modify `./_lib/queries.ts`, and `./_lib/actions.ts` to match your database operations.
    - **Update Floating Bar**: Update `./_components/tasks-table-floating-bar.tsx` to match your table's actions (optional).
    - **Define Table Columns**: Update `./_components/tasks-table-columns.tsx` to define column headers, actions, searchable and filterable columns.
    - **Setup Data Fetching**: In `./page.tsx`, define `getTasksPromise`, `getTaskCountByStatus`, and `getTaskCountByPriority`.
