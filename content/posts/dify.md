@@ -1,14 +1,18 @@
 ---
 title: dify
-date: 2024-10-25T12:21:52+08:00
+date: 2024-10-27T12:20:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729218621053-dd15827d5691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729218621053-dd15827d5691?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729731322001-40b726d476ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwMDI3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729731322001-40b726d476ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwMDI3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
 
 ![cover-v5-optimized](https://github.com/langgenius/dify/assets/13230914/f9e19af5-61ba-4119-b926-d10c4c06ebab)
+
+<p align="center">
+  📌 <a href="https://dify.ai/blog/introducing-dify-workflow-file-upload-a-demo-on-ai-podcast">Introducing Dify Workflow File Upload: Recreate Google NotebookLM Podcast</a>
+</p>
 
 <p align="center">
   <a href="https://cloud.dify.ai">Dify Cloud</a> ·

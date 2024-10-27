@@ -1,9 +1,9 @@
 ---
 title: medusa
-date: 2024-03-29T12:17:49+08:00
+date: 2024-10-27T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707058665464-c11b94b7ecd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE2ODU3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729631316643-5c61193f71b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwMDI3NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729631316643-5c61193f71b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwMDI3NDJ8&ixlib=rb-4.0.3
 ---
 
 # [medusajs/medusa](https://github.com/medusajs/medusa)
