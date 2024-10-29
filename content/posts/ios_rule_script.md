@@ -1,9 +1,9 @@
 ---
 title: ios_rule_script
-date: 2024-06-04T12:18:16+08:00
+date: 2024-10-29T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715837644848-ec3bf4726b73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715837644848-ec3bf4726b73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc0NzQ1ODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729594025852-27aaf9c22a7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729594025852-27aaf9c22a7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
 ---
 
 # [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script)

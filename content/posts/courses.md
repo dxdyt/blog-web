@@ -1,9 +1,9 @@
 ---
 title: courses
-date: 2024-10-28T12:20:51+08:00
+date: 2024-10-29T12:21:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729548318266-cf976ceee756?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwODkyMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729548318266-cf976ceee756?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwODkyMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729268247752-ca517f725905?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729268247752-ca517f725905?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
 ---
 
 # [anthropics/courses](https://github.com/anthropics/courses)

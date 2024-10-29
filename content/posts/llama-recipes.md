@@ -1,9 +1,9 @@
 ---
 title: llama-recipes
-date: 2024-09-29T12:20:32+08:00
+date: 2024-10-29T12:20:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726059968922-0396248fdaea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726059968922-0396248fdaea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc1ODM1Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728258652882-3fb20cdc4d4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728258652882-3fb20cdc4d4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-recipes](https://github.com/meta-llama/llama-recipes)
@@ -86,7 +86,7 @@ Some recipes require the presence of langchain. To install the packages follow t
 ```
 pip install llama-recipes[langchain]
 ```
-Optional dependencies can also be combines with [option1,option2].
+Optional dependencies can also be combined with [option1,option2].
 
 #### Install from source
 To install from source e.g. for development use these commands. We're using hatchling as our build backend which requires an up-to-date pip as well as setuptools package.
@@ -129,7 +129,7 @@ Most of the code dealing with Llama usage is organized across 2 main folders: `r
 
 ### `recipes/`
 
-Contains examples are organized in folders by topic:
+Contains examples organized in folders by topic:
 | Subfolder | Description |
 |---|---|
 [quickstart](./recipes/quickstart) | The "Hello World" of using Llama, start here if you are new to using Llama.

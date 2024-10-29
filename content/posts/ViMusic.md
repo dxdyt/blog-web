@@ -1,9 +1,9 @@
 ---
 title: ViMusic
-date: 2024-10-28T12:22:14+08:00
+date: 2024-10-29T12:21:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727409163652-9bf763974b52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwODkyMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727409163652-9bf763974b52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwODkyMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729594025852-27aaf9c22a7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729594025852-27aaf9c22a7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
 ---
 
 # [vfsfitvnm/ViMusic](https://github.com/vfsfitvnm/ViMusic)
