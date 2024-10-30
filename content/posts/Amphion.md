@@ -1,9 +1,9 @@
 ---
 title: Amphion
-date: 2024-10-29T12:20:12+08:00
+date: 2024-10-30T12:20:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729594025852-27aaf9c22a7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729594025852-27aaf9c22a7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729088495700-66fc4d5279ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729088495700-66fc4d5279ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
 ---
 
 # [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion)
@@ -21,6 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729594025852-27aaf9c22a
     <a href="egs/vocoder/README.md"><img src="https://img.shields.io/badge/README-Vocoder-purple"></a>
     <a href="egs/metrics/README.md"><img src="https://img.shields.io/badge/README-Evaluation-yellow"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red"></a>
+    <a href="https://trendshift.io/repositories/5469" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5469" alt="open-mmlab%2FAmphion | Trendshift" style="width: 150px; height: 33px;" width="150" height="33"/></a>
 </div>
 <br>
 

@@ -1,9 +1,9 @@
 ---
 title: flutter
-date: 2024-09-08T12:19:45+08:00
+date: 2024-10-30T12:21:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723743809746-15c7b0e7bcf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723743809746-15c7b0e7bcf1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729095249355-c7fdaf806d1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729095249355-c7fdaf806d1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
 ---
 
 # [flutter/flutter](https://github.com/flutter/flutter)
@@ -76,7 +76,7 @@ support for customizing or creating entirely new visual components.
 ### Fast results
 
 Flutter is fast. It's powered by hardware-accelerated 2D graphics
-libraries like [Skia] (that underpins Chrome and Android) and
+libraries like [Skia] (which underpins Chrome and Android) and
 [Impeller]. We architected Flutter to
 support glitch-free, jank-free graphics at the native speed of your device.
 

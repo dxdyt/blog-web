@@ -1,9 +1,9 @@
 ---
 title: you-get
-date: 2024-10-29T12:20:51+08:00
+date: 2024-10-30T12:20:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726725935085-fbc079dc5557?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726725935085-fbc079dc5557?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729234649467-4f34504688f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729234649467-4f34504688f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
 ---
 
 # [soimort/you-get](https://github.com/soimort/you-get)
