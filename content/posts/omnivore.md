@@ -1,9 +1,9 @@
 ---
 title: omnivore
-date: 2024-06-23T12:17:24+08:00
+date: 2024-10-31T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717400411765-0d6a4d0bc8db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717400411765-0d6a4d0bc8db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkxMTYxNzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729693457054-33a15b1e32a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAzNDg0MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729693457054-33a15b1e32a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAzNDg0MzR8&ixlib=rb-4.0.3
 ---
 
 # [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
@@ -76,12 +76,12 @@ The easiest way to get started with local development is to use `docker compose 
 
 Omnivore is written in TypeScript and JavaScript.
 
-- [Node](https://nodejs.org/) -- currently we are using Node.js v18.16
-- [Chromium](https://www.chromium.org/chromium-projects/) -- see below for installation info
+- [Node.js](https://nodejs.org/) (v18.16) and [Yarn](https://classic.yarnpkg.com/lang/en/) -- Versions are managed by [Volta](https://docs.volta.sh/guide/getting-started).
+- [Chromium](https://www.chromium.org/chromium-projects/) -- See below for installation info.
 
 ### Running the web and API services
 
-### 1. Start docker compose
+#### 1. Start docker compose
 
 ```bash
 git clone https://github.com/omnivore-app/omnivore
@@ -91,11 +91,11 @@ docker compose up
 
 This will start postgres, initialize the database, and start the web and api services.
 
-### 2. Open the browser
+#### 2. Open the browser
 
 Open <http://localhost:3000> and confirm Omnivore is running
 
-### 3. Login with the test account
+#### 3. Login with the test account
 
 During database setup docker compose creates an account `demo@omnivore.app`, password: `demo_password`.
 
@@ -129,25 +129,25 @@ NEXT_PUBLIC_LOCAL_SERVER_BASE_URL=http://localhost:4000
 
 To save pages you need to run the `puppeteer-parse` service.
 
-### 1. Install and configure Chromium
+#### 1. Install and configure Chromium
 
-```
+```bash
 brew install chromium --no-quarantine
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 export CHROMIUM_PATH=`which chromium`
 ```
 
-### 2. Navigate to the service directory, setup your env file, and install dependencies
+#### 2. Navigate to the service directory, setup your env file, and install dependencies
 
-```
+```bash
 cd packages/puppeteer-parse
 cp .env.example .env
 yarn
 ```
 
-### 3. Start the service
+#### 3. Start the service
 
-```
+```bash
 yarn start
 ```
 
@@ -164,7 +164,7 @@ is done fetching your content you will see it in your library.
 Omnivore was originally designed to be deployed on GCP and takes advantage
 of some of GCP's PaaS features. We are working to make Omnivore more portable
 so you can easily run the service on your own infrastructure. You can track
-progress here: https://github.com/omnivore-app/omnivore/issues/25
+progress here: <https://github.com/omnivore-app/omnivore/issues/25>
 
 To deploy Omnivore on your own hardware you will need to deploy three
 dockerized services and configure access to a postgres service. To handle
