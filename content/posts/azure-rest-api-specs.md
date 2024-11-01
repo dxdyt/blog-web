@@ -1,9 +1,9 @@
 ---
 title: azure-rest-api-specs
-date: 2024-09-05T12:20:48+08:00
+date: 2024-11-01T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722808333348-1b61caa91203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722808333348-1b61caa91203?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727723613580-09c56e47177f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727723613580-09c56e47177f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
 ---
 
 # [Azure/azure-rest-api-specs](https://github.com/Azure/azure-rest-api-specs)

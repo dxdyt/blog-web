@@ -1,9 +1,9 @@
 ---
 title: trufflehog
-date: 2023-10-20T12:17:41+08:00
+date: 2024-11-01T12:20:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687778335869-4f7da0690fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687778335869-4f7da0690fc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTc3NzUzMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728399195162-81451ee77a6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728399195162-81451ee77a6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
 ---
 
 # [trufflesecurity/trufflehog](https://github.com/trufflesecurity/trufflehog)

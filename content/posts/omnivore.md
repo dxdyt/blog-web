@@ -1,9 +1,9 @@
 ---
 title: omnivore
-date: 2024-10-31T12:21:04+08:00
+date: 2024-11-01T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729693457054-33a15b1e32a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAzNDg0MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729693457054-33a15b1e32a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAzNDg0MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729548838626-397190370651?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729548838626-397190370651?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
 ---
 
 # [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore)
