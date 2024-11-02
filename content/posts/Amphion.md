@@ -1,9 +1,9 @@
 ---
 title: Amphion
-date: 2024-11-01T12:19:30+08:00
+date: 2024-11-02T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727723613580-09c56e47177f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727723613580-09c56e47177f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA0MzQ3NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728266601727-64b2c27d01ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728266601727-64b2c27d01ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
 ---
 
 # [open-mmlab/Amphion](https://github.com/open-mmlab/Amphion)

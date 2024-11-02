@@ -1,9 +1,9 @@
 ---
 title: crypto-ecosystems
-date: 2023-12-24T12:16:34+08:00
+date: 2024-11-02T12:21:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701220319318-4b102144f8e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701220319318-4b102144f8e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzOTEzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728803106517-605ed0d69aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728803106517-605ed0d69aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
 ---
 
 # [electric-capital/crypto-ecosystems](https://github.com/electric-capital/crypto-ecosystems)
@@ -48,6 +48,7 @@ github_organizations = ["https://github.com/bitcoin", "https://github.com/bitcoi
 
 # Repositories
 # These are structs including a url and tags for a git repository. These URLs do not necessarily have to be on GitHub.
+
 [[repo]]
 url = "https://github.com/bitcoin/bitcoin"
 tags = [ "Protocol"]
@@ -78,7 +79,7 @@ Attribution needs to have 3 components:
 
 1. Source: “Electric Capital Crypto Ecosystems Mapping”
 2. Link: https://github.com/electric-capital/crypto-ecosystems
-3. Logo: [Link to logo](https://drive.google.com/file/d/1DAX6wmcbtia7kaP5AaUWyg6t-ZEW9z22/view?usp=sharing)
+3. Logo: [Link to logo](static/electric_capital_logo_transparent.png)
 
 Optional:
 Everyone in the crypto ecosystem benefits from additions to this repository.
@@ -125,21 +126,9 @@ github_organizations = ["https://github.com/EasyA-Tech"]
 
 Remember that this is a hierarchy. If you're adding a Cosmos appchain, therefore, you should be following Option 2 below (since it will be a sub-ecosystem of Cosmos).
 
-It's important to note also that you **do not** need to add all the repos within your GitHub organizations to the `.toml` file as individual repos, because the system automatically fetches all repos within the organization.
+Please note: As a time saving measure, you **do not** need to add all the repos within your GitHub organizations to the `.toml` file as individual repos, because our system automatically fetches all repos within the organization.  These will be reflected in our periodic exports of our internal database of repos.
 
-You may see other ecosystems that have done this:
-
-```toml
-title = "EasyA Chain"
-
-github_organizations = ["https://github.com/EasyA-Tech"]
-
-[[repo]]
-url = "https://github.com/EasyA-Tech/Chain" # ❌ Don't do this ❌
-tags = [ "Protocol"]
-```
-
-This is unnecessary. It adds clutter and makes it harder for reviewers to approve your PR. We will explain below when and why you should add repos to an ecosystem.
+We will explain below when and why you should add repos to an ecosystem.
 
 ### Option 2: Adding a new sub-ecosystem
 
@@ -193,8 +182,6 @@ title = "EasyA Community Wallet"
 github_organizations = ["https://github.com/EasyA-Community-Wallet"]
 ```
 12. Make your PR! ✅
-
-Please remember here too that the same note as in Option 1 applies: the system automatically pulls in the repos from your sub-ecosystem GitHub organization, so you don't need to list them all out individually.
 
 If you prefer videos, you can also see the above steps done live [here](https://www.loom.com/share/f23aab8c675940a9998b228ea1e179b7).
 

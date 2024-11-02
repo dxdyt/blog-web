@@ -1,9 +1,9 @@
 ---
 title: paperless-ngx
-date: 2024-10-31T12:21:51+08:00
+date: 2024-11-02T12:20:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729693457054-33a15b1e32a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAzNDg0MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729693457054-33a15b1e32a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAzNDg0MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728266601727-64b2c27d01ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728266601727-64b2c27d01ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
 ---
 
 # [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)

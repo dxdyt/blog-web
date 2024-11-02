@@ -1,9 +1,9 @@
 ---
 title: kestra
-date: 2024-10-16T12:21:15+08:00
+date: 2024-11-02T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726270021286-bef67a75ab73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726270021286-bef67a75ab73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727475933403-ec02cd98d672?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727475933403-ec02cd98d672?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
 ---
 
 # [kestra-io/kestra](https://github.com/kestra-io/kestra)
@@ -29,7 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726270021286-bef67a75ab
 <br />
 
 <p align="center">
-    <a href="https://twitter.com/kestra_io"><img height="25" src="https://kestra.io/twitter.svg" alt="twitter" /></a> &nbsp;
+    <a href="https://x.com/kestra_io"><img height="25" src="https://kestra.io/twitter.svg" alt="X(formerly Twitter)" /></a> &nbsp;
     <a href="https://www.linkedin.com/company/kestra/"><img height="25" src="https://kestra.io/linkedin.svg" alt="linkedin" /></a> &nbsp;
 <a href="https://www.youtube.com/@kestra-io"><img height="25" src="https://kestra.io/youtube.svg" alt="youtube" /></a> &nbsp;
 </p>
@@ -177,7 +177,7 @@ Create custom plugins to extend Kestra's capabilities. Check out our [Plugin Dev
 Stay connected and get support:
 
 - **Slack:** Join our [Slack community](https://kestra.io/slack) to ask questions and share ideas.
-- **Twitter:** Follow us on [Twitter](https://twitter.com/kestra_io) for the latest updates.
+- **X(formerly Twitter):** Follow us on [X(formerly Twitter)](https://x.com/kestra_io) for the latest updates.
 - **YouTube:** Subscribe to our [YouTube channel](https://www.youtube.com/@kestra-io) for tutorials and webinars.
 - **LinkedIn:** Connect with us on [LinkedIn](https://www.linkedin.com/company/kestra/).
 
