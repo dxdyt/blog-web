@@ -1,9 +1,9 @@
 ---
 title: genaiscript
-date: 2024-11-02T12:20:20+08:00
+date: 2024-11-03T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726856945677-bafbaa950227?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726856945677-bafbaa950227?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726725352581-d1415f0ac4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2MDc1Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726725352581-d1415f0ac4b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2MDc1Mzd8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/genaiscript](https://github.com/microsoft/genaiscript)

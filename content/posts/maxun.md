@@ -1,9 +1,9 @@
 ---
 title: maxun
-date: 2024-11-02T12:20:33+08:00
+date: 2024-11-03T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726856945677-bafbaa950227?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726856945677-bafbaa950227?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729876502699-0a2bc7d970e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2MDc1Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729876502699-0a2bc7d970e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2MDc1Mzd8&ixlib=rb-4.0.3
 ---
 
 # [getmaxun/maxun](https://github.com/getmaxun/maxun)
@@ -35,13 +35,16 @@ Maxun lets you train a robot in 2 minutes and scrape the web on auto-pilot. Web 
 
 <img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" />
 
-# Installation
-### Docker
-⚠️ Work In Progress. Will be available by EOD.
+# Local Setup
+### Docker Compose
+```
+git clone https://github.com/getmaxun/maxun
+docker-compose up -d --build
+```
 
-### Local Setup
+### Without Docker
 1. Ensure you have Node.js, PostgreSQL, MinIO and Redis installed on your system.
-2. Run the commands below:
+2. Run the commands below
 ```
 git clone https://github.com/getmaxun/maxun
 
@@ -64,7 +67,8 @@ You can access the frontend at http://localhost:5173/ and backend at http://loca
 # Envirnoment Variables
 | Variable              | Mandatory | Description                                                                                  | If Not Set                                                   |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| `NODE_ENV`            | Yes       | Defines the app environment (`development`, `production`).                                   | Defaults to `development`. |
+| `BACKEND_URL`            | Yes       | URL to run backend on.                                   | Backend won't start. If not sure, set to http://localhost:8080/ |
+| `VITE_BACKEND_URL`            | Yes       | URL to run backend on.                                   | Backend won't start. If not sure, set to http://localhost:8080/ |
 | `JWT_SECRET`          | Yes       | Secret key used to sign and verify JSON Web Tokens (JWTs) for authentication.                | JWT authentication will not work.                            |
 | `DB_NAME`             | Yes       | Name of the Postgres database to connect to.                                                 | Database connection will fail.                               |
 | `DB_USER`             | Yes       | Username for Postgres database authentication.                                               | Database connection will fail.                               |
