@@ -1,17 +1,20 @@
 ---
 title: llama-stack
-date: 2024-09-30T12:20:41+08:00
+date: 2024-11-04T12:22:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725867253101-a78ead1ce5e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725867253101-a78ead1ce5e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc2NzAwMDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730234124601-09ce539aef7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730234124601-09ce539aef7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-stack](https://github.com/meta-llama/llama-stack)
 
+<img src="https://github.com/user-attachments/assets/2fedfe0f-6df7-4441-98b2-87a1fd95ee1c" width="300" title="Llama Stack Logo" alt="Llama Stack Logo"/>
+
 # Llama Stack
 
+[![PyPI version](https://img.shields.io/pypi/v/llama_stack.svg)](https://pypi.org/project/llama_stack/)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-stack)](https://pypi.org/project/llama-stack/)
-[![Discord](https://img.shields.io/discord/1257833999603335178)](https://discord.gg/TZAAYNVtrU)
+[![Discord](https://img.shields.io/discord/1257833999603335178)](https://discord.gg/llama-stack)
 
 This repository contains the Llama Stack API specifications as well as API Providers and Llama Stack Distributions.
 
@@ -72,29 +75,58 @@ A Distribution is where APIs and Providers are assembled together to provide a c
 |  Dell-TGI | [Local TGI + Chroma](https://hub.docker.com/repository/docker/llamastack/llamastack-local-tgi-chroma/general)  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 
 
+
 ## Installation
 
-You can install this repository as a [package](https://pypi.org/project/llama-stack/) with `pip install llama-stack`
+You have two ways to install this repository:
 
-If you want to install from source:
+1. **Install as a package**:
+   You can install the repository directly from [PyPI](https://pypi.org/project/llama-stack/) by running the following command:
+   ```bash
+   pip install llama-stack
+   ```
 
-```bash
-mkdir -p ~/local
-cd ~/local
-git clone git@github.com:meta-llama/llama-stack.git
+2. **Install from source**:
+   If you prefer to install from the source code, follow these steps:
+   ```bash
+    mkdir -p ~/local
+    cd ~/local
+    git clone git@github.com:meta-llama/llama-stack.git
 
-conda create -n stack python=3.10
-conda activate stack
+    conda create -n stack python=3.10
+    conda activate stack
 
-cd llama-stack
-$CONDA_PREFIX/bin/pip install -e .
-```
+    cd llama-stack
+    $CONDA_PREFIX/bin/pip install -e .
+   ```
 
-## The Llama CLI
+## Documentations
 
-The `llama` CLI makes it easy to work with the Llama Stack set of tools, including installing and running Distributions, downloading models, studying model prompt formats, etc. Please see the [CLI reference](docs/cli_reference.md) for details. Please see the [Getting Started](docs/getting_started.md) guide for running a Llama Stack server.
+The `llama` CLI makes it easy to work with the Llama Stack set of tools. Please find the following docs for details.
 
+* [CLI reference](docs/cli_reference.md)
+    * Guide using `llama` CLI to work with Llama models (download, study prompts), and building/starting a Llama Stack distribution.
+* [Getting Started](docs/getting_started.md)
+    * Quick guide to start a Llama Stack server.
+    * [Jupyter notebook](./docs/getting_started.ipynb) to walk-through how to use simple text and vision inference llama_stack_client APIs
+* [Building a Llama Stack Distribution](docs/building_distro.md)
+    * Guide to build a Llama Stack distribution
+* [Distributions](./distributions/)
+    * References to start Llama Stack distributions backed with different API providers.
+* [Developer Cookbook](./docs/developer_cookbook.md)
+    * References to guides to help you get started based on your developer needs.
+* [Contributing](CONTRIBUTING.md)
+    * [Adding a new API Provider](./docs/new_api_provider.md) to walk-through how to add a new API provider.
 
 ## Llama Stack Client SDK
 
+|  **Language** |  **Client SDK** | **Package** |
+| :----: | :----: | :----: |
+| Python |  [llama-stack-client-python](https://github.com/meta-llama/llama-stack-client-python) | [![PyPI version](https://img.shields.io/pypi/v/llama_stack_client.svg)](https://pypi.org/project/llama_stack_client/)
+| Swift  | [llama-stack-client-swift](https://github.com/meta-llama/llama-stack-client-swift) | [![Swift Package Index](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fmeta-llama%2Fllama-stack-client-swift%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/meta-llama/llama-stack-client-swift)
+| Node   | [llama-stack-client-node](https://github.com/meta-llama/llama-stack-client-node) | [![NPM version](https://img.shields.io/npm/v/llama-stack-client.svg)](https://npmjs.org/package/llama-stack-client)
+| Kotlin | [llama-stack-client-kotlin](https://github.com/meta-llama/llama-stack-client-kotlin) |
+
 Check out our client SDKs for connecting to Llama Stack server in your preferred language, you can choose from [python](https://github.com/meta-llama/llama-stack-client-python), [node](https://github.com/meta-llama/llama-stack-client-node), [swift](https://github.com/meta-llama/llama-stack-client-swift), and [kotlin](https://github.com/meta-llama/llama-stack-client-kotlin) programming languages to quickly build your applications.
+
+You can find more example scripts with client SDKs to talk with the Llama Stack server in our [llama-stack-apps](https://github.com/meta-llama/llama-stack-apps/tree/main/examples) repo.

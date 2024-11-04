@@ -1,9 +1,9 @@
 ---
 title: videos
-date: 2024-10-17T12:20:36+08:00
+date: 2024-11-04T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727707185480-a50e6090b58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728930684281-103d3e6a5032?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728930684281-103d3e6a5032?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
 ---
 
 # [3b1b/videos](https://github.com/3b1b/videos)
