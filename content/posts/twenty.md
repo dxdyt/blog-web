@@ -1,22 +1,13 @@
 ---
 title: twenty
-date: 2024-10-15T12:20:08+08:00
+date: 2024-11-05T12:19:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728088731361-63ea1b113151?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728088731361-63ea1b113151?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728743264694-4ac39fa29385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728743264694-4ac39fa29385?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [twentyhq/twenty](https://github.com/twentyhq/twenty)
 
-<p align="center">
-  <a href="https://oss.gg/">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/twentyhq/twenty/blob/33be2dbbe14eea00445010ecb9cd53ed603c01d5/packages/twenty-website/public/images/readme/Github%20Read-me%20banner.png">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/twentyhq/twenty/blob/33be2dbbe14eea00445010ecb9cd53ed603c01d5/packages/twenty-website/public/images/readme/Github%20Read-me%20banner.png">
-      <img src="./packages/twenty-website/public/images/readme/Github%20Read-me%20banner.png" alt="Hacktoberfest" />
-    </picture>
-  </a>
-</p>
 
 <br>
 <p align="center">

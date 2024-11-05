@@ -1,9 +1,9 @@
 ---
 title: maxun
-date: 2024-11-04T12:21:31+08:00
+date: 2024-11-05T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728930684281-103d3e6a5032?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728930684281-103d3e6a5032?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729443103255-48ab256ac344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729443103255-48ab256ac344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [getmaxun/maxun](https://github.com/getmaxun/maxun)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1728930684281-103d3e6a50
 <h1 align="center">
     <div>
         <a href="https://maxun-website.vercel.app/">
-            <img src="/public/img/maxunlogo.png" width="50" />
+            <img src="/src/assets/maxunlogo.png" width="50" />
             <br>
             Maxun
         </a>
@@ -28,7 +28,8 @@ Maxun lets you train a robot in 2 minutes and scrape the web on auto-pilot. Web 
     <a href="https://maxun-website.vercel.app/"><b>Website</b></a> |
     <a href="https://discord.com/invite/NFhWDCdb"><b>Discord</b></a> |
     <a href="https://x.com/maxun_io"><b>Twitter</b></a> |
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbD2uhqC4sbg4eLZ9qrFbyrfkXZ2XsI6dQ0USRCQNZNn5pzg/viewform"><b>Join Maxun Cloud</b></a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbD2uhqC4sbg4eLZ9qrFbyrfkXZ2XsI6dQ0USRCQNZNn5pzg/viewform"><b>Join Maxun Cloud</b></a> | 
+    <a href="https://www.youtube.com/@MaxunOSS"><b>Watch Tutorials</b></a>
 </p>
 
 ![maxun_demo](https://github.com/user-attachments/assets/a61ba670-e56a-4ae1-9681-0b4bd6ba9cdc)
@@ -118,6 +119,17 @@ BYOP (Bring Your Own Proxy) lets you connect external proxies to bypass anti-bot
 
 # Cloud
 We offer a managed cloud version to run Maxun without having to manage the infrastructure and extract data at scale. Maxun cloud also deals with anti-bot detection, huge proxy network with automatic proxy rotation, and CAPTCHA solving. If this interests you, [join the cloud waitlist](https://docs.google.com/forms/d/e/1FAIpQLSdbD2uhqC4sbg4eLZ9qrFbyrfkXZ2XsI6dQ0USRCQNZNn5pzg/viewform) as we launch soon.
+
+# Screenshots
+![Maxun PH Launch (1)-1-1](https://github.com/user-attachments/assets/d7c75fa2-2bbc-47bb-a5f6-0ee6c162f391)
+![Maxun PH Launch (1)-2-1](https://github.com/user-attachments/assets/d85a3ec7-8ce8-4daa-89aa-52d9617e227a)
+![Maxun PH Launch (1)-3-1](https://github.com/user-attachments/assets/4bd5a0b4-485d-44f4-a487-edd9afc18b11)
+![Maxun PH Launch (1)-4-1](https://github.com/user-attachments/assets/78140675-a6b6-49b2-981f-6a3d9a32b0b9)
+![Maxun PH Launch (1)-5-1](https://github.com/user-attachments/assets/d9fe8519-c81c-4e45-92f2-b2939bf24192)
+![Maxun PH Launch (1)-6-1](https://github.com/user-attachments/assets/c26e9ae3-c3da-4280-826a-c7cdf913fb93)
+![Maxun PH Launch (1)-7-1](https://github.com/user-attachments/assets/fd7196f4-a6dc-4c4c-9c76-fdd93fac8247)
+![Maxun PH Launch (1)-8-1](https://github.com/user-attachments/assets/16ee4a71-772a-49ae-a0e5-cb0529519bda)
+![Maxun PH Launch (1)-9-1](https://github.com/user-attachments/assets/160f46fa-0357-4c1b-ba50-b4fe64453bb7)
 
 # Note
 This project is in early stages of development. Your feedback is very important for us - we're actively working to improve the product. <a href="https://forms.gle/E8vRMVB7bUbsSktPA">Drop anonymous feedback here.</a>

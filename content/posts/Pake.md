@@ -1,9 +1,9 @@
 ---
 title: Pake
-date: 2024-11-04T12:20:00+08:00
+date: 2024-11-05T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728930684281-103d3e6a5032?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728930684281-103d3e6a5032?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728873212984-68b67420bccc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728873212984-68b67420bccc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [tw93/Pake](https://github.com/tw93/Pake)

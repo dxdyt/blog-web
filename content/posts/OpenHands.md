@@ -1,9 +1,9 @@
 ---
 title: OpenHands
-date: 2024-11-04T12:20:08+08:00
+date: 2024-11-05T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728585255223-c158ab095e1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728585255223-c158ab095e1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729443103255-48ab256ac344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729443103255-48ab256ac344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
@@ -50,7 +50,7 @@ system requirements and more information.
 ```bash
 docker pull docker.all-hands.dev/all-hands-ai/runtime:0.12-nikolaik
 
-docker run -it --rm --pull=always \
+docker run -it --pull=always \
     -e SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.all-hands.dev/all-hands-ai/runtime:0.12-nikolaik \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -p 3000:3000 \

@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-10-21T12:20:16+08:00
+date: 2024-11-05T12:20:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725570516660-ecad13675ad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725570516660-ecad13675ad7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1617138278033-ac7e498321da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1617138278033-ac7e498321da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -59,7 +59,7 @@ After cloning the repo, the basic setup commands are:
 
 ```sh
 cd maybe
-cp .env.example .env
+cp .env.local.example .env.local
 bin/setup
 bin/dev
 

@@ -1,9 +1,9 @@
 ---
 title: jsoncrack.com
-date: 2024-09-28T12:20:11+08:00
+date: 2024-11-05T12:21:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725905803121-dd123b058a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725905803121-dd123b058a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730026698575-e907419c9168?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730026698575-e907419c9168?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
@@ -69,7 +69,6 @@ JSON Crack is a free, open-source data visualization app capable of visualizing 
 
 - [Next.js](https://nextjs.org/?ref=jsoncrack.com)
 - [React.js](https://reactjs.org/?ref=jsoncrack.com)
-- [Supabase](https://supabase.com/?ref=jsoncrack.com)
 - [Reaflow](https://reaflow.dev/?ref=jsoncrack.com)
 - [Monaco Editor](https://github.com/suren-atoyan/monaco-react)
 
@@ -163,4 +162,4 @@ We have a list of [help wanted](https://github.com/AykutSarac/jsoncrack.com/issu
 
 ## License
 
-See `LICENSE` for more information.
+See  [`LICENSE`](/LICENSE) for more information.

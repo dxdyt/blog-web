@@ -1,9 +1,9 @@
 ---
 title: social-app
-date: 2024-11-04T12:20:45+08:00
+date: 2024-11-05T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730067888179-3a27300b49fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730067888179-3a27300b49fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730026698575-e907419c9168?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730026698575-e907419c9168?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
 ---
 
 # [bluesky-social/social-app](https://github.com/bluesky-social/social-app)
