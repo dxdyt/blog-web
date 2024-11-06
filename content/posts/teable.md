@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2024-08-12T12:18:27+08:00
+date: 2024-11-06T12:22:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM0MzYyNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729010733312-4f2caeca0715?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729010733312-4f2caeca0715?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)
@@ -17,6 +17,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c
   </h1>
   <h3 align="center"><strong>Postgres-Airtable Fusion</strong></h3>
   <p>Teable is a Super fast, Real-time, Professional, Developer friendly, No-code database built on Postgres. It uses a simple, spreadsheet-like interface to create complex enterprise-level database applications. Unlock efficient app development with no-code, free from the hurdles of data security and scalability. </p>
+</div>
+
+<div align="center">
+<a href="https://trendshift.io/repositories/8516" target="_blank"><img src="https://trendshift.io/api/badge/repositories/8516" alt="teableio%2Fteable | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 <p align="center">
@@ -42,11 +46,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c
   <a aria-label="Top language" href="https://github.com/teableio/teable/search?l=typescript">
     <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/teableio/teable?style=flat-square&labelColor=000&color=blue">
   </a>
-  <a aria-label="Licence" href="https://github.com/teableio/teable/blob/main/LICENSE">
-    <img alt="Licence" src="https://img.shields.io/github/license/teableio/teable?style=flat-quare&labelColor=000000" />
-  </a>
 </p>
-
   <h1 align="center">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="static/assets/images/teable-interface-dark.png">
@@ -67,19 +67,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1720887237257-3d1ad1a06c
 
 All you want is here
 
-- Cell Editing: Directly click and edit content within cells.
-- Formula Support: Input mathematical and logical formulas to auto-calculate values.
-- Data Sorting and Filtering: Sort data based on a column or multiple columns; use filters to view specific rows of data.
-- Aggregation Function: Automatically summarize statistics for each column, providing instant calculations like sum, average, count, max, and min for streamlined data analysis.
-- Data Formatting: formatting numbers, dates, etc.
-- Grouping: Organize rows into collapsible groups based on column values for easier data analysis and navigation.
-- Freeze Columns: Freeze the left column of the table so they remain visible while scrolling.
-- Import/Export Capabilities: Import and export data from other formats, e.g., .csv, .xlsx.
-- Row Styling & Conditional Formatting: Change row styles automatically based on specific conditions. (coming soon)
-- Charts & Visualization Tools: Create charts from table data such as bar charts, pie charts, line graphs, etc. (coming soon)
-- Data Validation: Limit or validate data that are entered into cells. (coming soon)
-- Undo/Redo: Undo or redo recent changes. (coming soon)
-- Comments & Annotations: Attach comments to rows, providing explanations or feedback for other users. (coming soon)
+- Batch Cell Editing
+- Formula Support
+- Data Sorting and Filtering
+- Aggregation Function
+- Data Formatting
+- Grouping
+- Freeze Columns
+- Import/Export
+- Undo/Redo
+- Data Validation
+- Charts & Visualization
+- Comments
+- Row Styling(coming soon)
 
 #### 🗂️ Multiple Views
 
@@ -88,8 +88,8 @@ Visualize and interact with data in various ways best suited for their specific 
 - Grid View: The default view of the table, which displays data in a spreadsheet-like format.
 - Form View: Input data in a form format, which is useful for collecting data.
 - Kanban View: Displays data in a Kanban board, which is a visual representation of data in columns and cards.
+- Gallery View: Displays data in a gallery format, which is useful for displaying images and other media.
 - Calendar View: Displays data in a calendar format, which is useful for tracking dates and events. (coming soon)
-- Gallery View: Displays data in a gallery format, which is useful for displaying images and other media. (coming soon)
 - Gantt View: Displays data in a Gantt chart, which is useful for tracking project schedules. (coming soon)
 - Timeline View: Displays data in a timeline format, which is useful for tracking events over time. (coming soon)
 
@@ -183,7 +183,7 @@ cd dockers/examples/standalone/
 docker-compose up -d
 ```
 
-for more details, see [dockers/examples](dockers/examples)
+for more details, see [install teable](https://help.teable.io/deployment/docker-compose)
 
 ### One Click Deployment
 
@@ -196,6 +196,8 @@ These platforms are easy to deploy with one click and come with free credits.
 [![Deploy on Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
 
 [![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app_id=273)
+
+[![Deploy on Elestio](https://elest.io/images/logos/deploy-to-elestio-btn.png)](https://elest.io/open-source/teable)
 
 ## Development
 
