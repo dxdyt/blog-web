@@ -1,9 +1,9 @@
 ---
 title: docling
-date: 2024-11-06T12:20:35+08:00
+date: 2024-11-07T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729802716650-a26ca16a3b3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729802716650-a26ca16a3b3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729614140487-f55b09cc3bb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA5NTMxNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729614140487-f55b09cc3bb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA5NTMxNTZ8&ixlib=rb-4.0.3
 ---
 
 # [DS4SD/docling](https://github.com/DS4SD/docling)
