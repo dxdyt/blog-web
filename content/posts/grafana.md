@@ -1,9 +1,9 @@
 ---
 title: grafana
-date: 2024-09-05T12:19:42+08:00
+date: 2024-11-08T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712510795837-683b93b2b95e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712510795837-683b93b2b95e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729205388533-b0b6691711a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729205388533-b0b6691711a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
 ---
 
 # [grafana/grafana](https://github.com/grafana/grafana)
