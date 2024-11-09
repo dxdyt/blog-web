@@ -1,9 +1,9 @@
 ---
 title: dataease
-date: 2024-09-08T12:18:21+08:00
+date: 2024-11-09T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722963220475-979db2dbf216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722963220475-979db2dbf216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730407787420-a23fcbc7dbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730407787420-a23fcbc7dbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [dataease/dataease](https://github.com/dataease/dataease)

@@ -1,9 +1,9 @@
 ---
 title: khoj
-date: 2024-05-30T12:20:58+08:00
+date: 2024-11-09T12:18:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715694446040-0dfd5031173e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715694446040-0dfd5031173e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcwNDI3NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725565175574-8d364313a013?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725565175574-8d364313a013?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [khoj-ai/khoj](https://github.com/khoj-ai/khoj)
@@ -13,27 +13,29 @@ featuredImagePreview: https://images.unsplash.com/photo-1715694446040-0dfd503117
 <div align="center">
 
 [![test](https://github.com/khoj-ai/khoj/actions/workflows/test.yml/badge.svg)](https://github.com/khoj-ai/khoj/actions/workflows/test.yml)
-[![dockerize](https://github.com/khoj-ai/khoj/actions/workflows/dockerize.yml/badge.svg)](https://github.com/khoj-ai/khoj/pkgs/container/khoj)
-[![pypi](https://github.com/khoj-ai/khoj/actions/workflows/pypi.yml/badge.svg)](https://pypi.org/project/khoj-assistant/)
-![Discord](https://img.shields.io/discord/1112065956647284756?style=plastic&label=discord)
+[![docker](https://github.com/khoj-ai/khoj/actions/workflows/dockerize.yml/badge.svg)](https://github.com/khoj-ai/khoj/pkgs/container/khoj)
+[![pypi](https://github.com/khoj-ai/khoj/actions/workflows/pypi.yml/badge.svg)](https://pypi.org/project/khoj/)
+[![discord](https://img.shields.io/discord/1112065956647284756?style=plastic&label=discord)](https://discord.gg/BDgyabRM6e)
 
 </div>
 
 <div align="center">
-<b>The open-source, personal AI for your digital brain</b>
+<b>Your AI second brain</b>
 </div>
 
 <br />
 
 <div align="center">
 
-[🤖 Read Docs](https://docs.khoj.dev)
+[📑 Docs](https://docs.khoj.dev)
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-[🏮 Khoj Cloud](https://khoj.dev)
+[🌐 Web](https://khoj.dev)
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-[💬 Get Involved](https://discord.gg/BDgyabRM6e)
+[🔥 App](https://app.khoj.dev)
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-[📚 Read Blog](https://blog.khoj.dev)
+[💬 Discord](https://discord.gg/BDgyabRM6e)
+<span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+[✍🏽 Blog](https://blog.khoj.dev)
 
 </div>
 
@@ -41,14 +43,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1715694446040-0dfd503117
 
 ***
 
-Khoj is an application that creates always-available, personal AI agents for you to extend your capabilities.
-- You can share your notes and documents to extend your digital brain.
-- Your AI agents have access to the internet, allowing you to incorporate realtime information.
-- Khoj is accessible on Desktop, Emacs, Obsidian, Web and Whatsapp.
-- You can share pdf, markdown, org-mode, notion files and github repositories.
-- You'll get fast, accurate semantic search on top of your docs.
-- Your agents can create deeply personal images and understand your speech.
+[Khoj](https://khoj.dev) is a personal AI app to extend your capabilities. It smoothly scales up from an on-device personal AI to a cloud-scale enterprise AI.
+
+- Chat with any local or online LLM (e.g llama3, qwen, gemma, mistral, gpt, claude, gemini).
+- Get answers from the internet and your docs (including image, pdf, markdown, org-mode, word, notion files).
+- Access it from your Browser, Obsidian, Emacs, Desktop, Phone or Whatsapp.
+- Create agents with custom knowledge, persona, chat model and tools to take on any role.
+- Automate away repetitive research. Get personal newsletters and smart notifications delivered to your inbox.
+- Find relevant docs quickly and easily using our advanced semantic search.
+- Generate images, talk out loud, play your messages.
 - Khoj is open-source, self-hostable. Always.
+- Run it privately on [your computer](https://docs.khoj.dev/get-started/setup) or try it on our [cloud app](https://app.khoj.dev).
 
 ***
 
@@ -56,7 +61,7 @@ Khoj is an application that creates always-available, personal AI agents for you
 
 ## See it in action
 
-<img src="https://github.com/khoj-ai/khoj/blob/master/documentation/assets/img/using_khoj_for_studying.gif?raw=true" alt="Khoj Demo">
+![demo_chat](https://github.com/khoj-ai/khoj/blob/master/documentation/assets/img/quadratic_equation_khoj_web.gif?raw=true)
 
 Go to https://app.khoj.dev to see Khoj live.
 
@@ -79,10 +84,3 @@ Made with [contrib.rocks](https://contrib.rocks).
 ### Interested in Contributing?
 
 We are always looking for contributors to help us build new features, improve the project documentation, or fix bugs. If you're interested, please see our [Contributing Guidelines](https://docs.khoj.dev/contributing/development) and check out our [Contributors Project Board](https://github.com/orgs/khoj-ai/projects/4).
-
-## [Sponsors](https://github.com/sponsors/khoj-ai)
-Shout out to our brilliant sponsors! 🌈
-
-<a href="http://github.com/beekeeb">
-  <img src="https://raw.githubusercontent.com/beekeeb/piantor/main/docs/beekeeb.png" width=250/>
-</a>

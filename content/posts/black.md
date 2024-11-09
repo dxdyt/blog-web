@@ -1,9 +1,9 @@
 ---
 title: black
-date: 2024-09-08T12:20:08+08:00
+date: 2024-11-09T12:19:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724454920878-a4cba430db4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724454920878-a4cba430db4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730051470698-f5c95d6d5120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730051470698-f5c95d6d5120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [psf/black](https://github.com/psf/black)
@@ -48,7 +48,7 @@ Try it out now using the [Black Playground](https://black.vercel.app). Watch the
 
 ### Installation
 
-_Black_ can be installed by running `pip install black`. It requires Python 3.8+ to run.
+_Black_ can be installed by running `pip install black`. It requires Python 3.9+ to run.
 If you want to format Jupyter Notebooks, install with `pip install "black[jupyter]"`.
 
 If you can't wait for the latest _hotness_ and want to install from GitHub, use:

@@ -1,9 +1,9 @@
 ---
 title: puppeteer
-date: 2024-06-16T12:16:37+08:00
+date: 2024-11-09T12:19:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715594564975-2664fdf28a19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715594564975-2664fdf28a19?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730051470698-f5c95d6d5120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730051470698-f5c95d6d5120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
@@ -15,11 +15,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1715594564975-2664fdf28a
 
 <img src="https://user-images.githubusercontent.com/10379601/29446482-04f7036a-841f-11e7-9872-91d1fc2ea683.png" height="200" align="right"/>
 
-> Puppeteer is a Node.js library which provides a high-level API to control
+> Puppeteer is a JavaScript library which provides a high-level API to control
 > Chrome or Firefox over the
 > [DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/) or [WebDriver BiDi](https://pptr.dev/webdriver-bidi).
 > Puppeteer runs in the headless (no visible UI) by default
-> but can be configured to run in a visible ("headful") browser.
 
 ## [Get started](https://pptr.dev/docs) | [API](https://pptr.dev/api) | [FAQ](https://pptr.dev/faq) | [Contributing](https://pptr.dev/contributing) | [Troubleshooting](https://pptr.dev/troubleshooting)
 
@@ -33,7 +32,8 @@ npm i puppeteer-core # Alternatively, install as a library, without downloading 
 ## Example
 
 ```ts
-import puppeteer from 'puppeteer'; // or import puppeteer from 'puppeteer-core';
+import puppeteer from 'puppeteer';
+// Or import puppeteer from 'puppeteer-core';
 
 // Launch the browser and open a new blank page
 const browser = await puppeteer.launch();
@@ -46,15 +46,15 @@ await page.goto('https://developer.chrome.com/');
 await page.setViewport({width: 1080, height: 1024});
 
 // Type into search box.
-await page.type('.devsite-search-field', 'automate beyond recorder');
+await page.locator('.devsite-search-field').fill('automate beyond recorder');
 
 // Wait and click on first result.
-const searchResultSelector = '.devsite-result-item-link';
-await page.waitForSelector(searchResultSelector);
-await page.click(searchResultSelector);
+await page.locator('.devsite-result-item-link').click();
 
 // Locate the full title with a unique string.
-const textSelector = await page.waitForSelector('text/Customize and automate');
+const textSelector = await page
+  .locator('text/Customize and automate')
+  .waitHandle();
 const fullTitle = await textSelector?.evaluate(el => el.textContent);
 
 // Print the full title.

@@ -1,9 +1,9 @@
 ---
 title: OpenHands
-date: 2024-11-08T12:20:14+08:00
+date: 2024-11-09T12:19:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729205388533-b0b6691711a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729205388533-b0b6691711a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728570084613-51937bd76993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728570084613-51937bd76993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
@@ -48,15 +48,15 @@ See the [Installation](https://docs.all-hands.dev/modules/usage/installation) gu
 system requirements and more information.
 
 ```bash
-docker pull docker.all-hands.dev/all-hands-ai/runtime:0.12-nikolaik
+docker pull docker.all-hands.dev/all-hands-ai/runtime:0.13-nikolaik
 
 docker run -it --pull=always \
-    -e SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.all-hands.dev/all-hands-ai/runtime:0.12-nikolaik \
+    -e SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.all-hands.dev/all-hands-ai/runtime:0.13-nikolaik \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -p 3000:3000 \
     --add-host host.docker.internal:host-gateway \
     --name openhands-app \
-    docker.all-hands.dev/all-hands-ai/openhands:0.12
+    docker.all-hands.dev/all-hands-ai/openhands:0.13
 ```
 
 You'll find OpenHands running at [http://localhost:3000](http://localhost:3000)!

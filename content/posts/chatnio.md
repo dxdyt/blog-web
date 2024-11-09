@@ -1,9 +1,9 @@
 ---
 title: chatnio
-date: 2024-11-08T12:19:22+08:00
+date: 2024-11-09T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729158323775-9b5983605ee4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729158323775-9b5983605ee4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEwMzk1MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730401723426-5ef4de56df92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730401723426-5ef4de56df92?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [zmh-program/chatnio](https://github.com/zmh-program/chatnio)

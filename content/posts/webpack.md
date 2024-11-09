@@ -1,9 +1,9 @@
 ---
 title: webpack
-date: 2024-08-29T12:19:34+08:00
+date: 2024-11-09T12:19:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724003450399-d8142e845b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724003450399-d8142e845b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728585240754-7c30d3a53c3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728585240754-7c30d3a53c3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
 ---
 
 # [webpack/webpack](https://github.com/webpack/webpack)
@@ -49,7 +49,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1724003450399-d8142e845b
   <a href="https://twitter.com/Webpack">
 		<img src="https://img.shields.io/twitter/follow/Webpack?style=social">
 	</a>
-  <a href="https://discord.gg/Tt5cKVwx">
+  <a href="https://discord.gg/5sxFZPdx2k">
 		<img src="https://img.shields.io/discord/1180618526436888586?label=discord&logo=discord&logoColor=white&style=flat">
 	</a>
   <h1>webpack</h1>
