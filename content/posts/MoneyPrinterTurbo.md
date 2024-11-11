@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-06-30T12:18:32+08:00
+date: 2024-11-11T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718554517651-1978c9fe3a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718554517651-1978c9fe3a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk3MjA5NzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730833545395-77d684eda077?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730833545395-77d684eda077?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -69,7 +69,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1718554517651-1978c9fe3a
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
 - [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的 **本地素材**
 - [x] 支持 **OpenAI**、**Moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama**、
-  **DeepSeek** 等多种模型接入
+  **DeepSeek**、 **文心一言** 等多种模型接入
     - 中国用户建议使用 **DeepSeek** 或 **Moonshot** 作为大模型提供商（国内可直接访问，不需要VPN。注册就送额度，基本够用）
 
 ### 后期计划 📅
@@ -131,11 +131,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1718554517651-1978c9fe3a
 
 ## 快速开始 🚀
 
-下载一键启动包，解压直接使用（路径不要有 **中文** 和 **空格**）
+下载一键启动包，解压直接使用（路径不要有 **中文**、**特殊字符**、**空格**）
 
 ### Windows
-
-- 百度网盘: https://pan.baidu.com/s/1MzBmcLTmVWohPEp9ohvvzA?pwd=pdcu 提取码: pdcu
+- 百度网盘（1.2.1 最新版本）: https://pan.baidu.com/s/1pSNjxTYiVENulTLm6zieMQ?pwd=g36q 提取码: g36q
 
 下载后，建议先**双击执行** `update.bat` 更新到**最新代码**，然后双击 `start.bat` 启动
 

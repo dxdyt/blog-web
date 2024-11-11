@@ -1,9 +1,9 @@
 ---
 title: CogVideo
-date: 2024-11-10T12:18:54+08:00
+date: 2024-11-11T12:20:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729955029385-b3c2ec01cbc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyMTIyOTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729955029385-b3c2ec01cbc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyMTIyOTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730099364672-7d9238114698?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730099364672-7d9238114698?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
 ---
 
 # [THUDM/CogVideo](https://github.com/THUDM/CogVideo)

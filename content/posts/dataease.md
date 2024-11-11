@@ -1,9 +1,9 @@
 ---
 title: dataease
-date: 2024-11-09T12:18:47+08:00
+date: 2024-11-11T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730407787420-a23fcbc7dbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730407787420-a23fcbc7dbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729632210379-f02635273d28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729632210379-f02635273d28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
 ---
 
 # [dataease/dataease](https://github.com/dataease/dataease)
@@ -21,13 +21,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1730407787420-a23fcbc7db
 
 ## 什么是 DataEase？
 
-DataEase 是开源的数据可视化分析工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。
+DataEase 是开源的 BI 工具，帮助用户快速分析数据并洞察业务趋势，从而实现业务的改进与优化。DataEase 支持丰富的数据源连接，能够通过拖拉拽方式快速制作图表，并可以方便的与他人分享。
 
 **DataEase 的优势：**
 
 -   开源开放：零门槛，线上快速获取和安装，按月迭代；
 -   简单易用：极易上手，通过鼠标点击和拖拽即可完成分析；
--   AI Copilot：借助生成式 AI 技术，通过自然语言交互实现数据即问即答；
 -   全场景支持：多平台安装和多样化嵌入支持；
 -   安全分享：支持多种数据分享方式，确保数据安全。
 
@@ -38,6 +37,8 @@ DataEase 是开源的数据可视化分析工具，帮助用户快速分析数�
 -   数据仓库/数据湖： Amazon RedShift 等；
 -   数据文件： Excel、CSV 等；
 -   API 数据源。
+
+如果您需要向团队介绍 DataEase，可以使用这个 [官方 PPT 材料](https://fit2cloud.com/dataease/download/introduce-dataease_202411.pdf)。
 
 ## 快速开始
 
