@@ -1,9 +1,9 @@
 ---
 title: go2rtc
-date: 2024-11-11T12:20:57+08:00
+date: 2024-11-12T12:19:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729287950314-49a45a3d13da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729287950314-49a45a3d13da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727774429053-a0ef7f45d7f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727774429053-a0ef7f45d7f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
 ---
 
 # [AlexxIT/go2rtc](https://github.com/AlexxIT/go2rtc)

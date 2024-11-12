@@ -1,9 +1,9 @@
 ---
 title: exo
-date: 2024-11-11T12:19:53+08:00
+date: 2024-11-12T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729560385431-645049bf5821?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729560385431-645049bf5821?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727774429053-a0ef7f45d7f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727774429053-a0ef7f45d7f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
 ---
 
 # [exo-explore/exo](https://github.com/exo-explore/exo)
@@ -217,6 +217,12 @@ With a custom prompt:
 ```sh
 exo run llama-3.2-3b --prompt "What is the meaning of exo?"
 ```
+
+### Model Storage
+
+Models by default are stored in `~/.cache/huggingface/hub`.
+
+You can set a different model storage location by setting the `HF_HOME` env var.
 
 ## Debugging
 

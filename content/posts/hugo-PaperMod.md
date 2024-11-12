@@ -1,9 +1,9 @@
 ---
 title: hugo-PaperMod
-date: 2024-11-11T12:21:10+08:00
+date: 2024-11-12T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729632210379-f02635273d28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729632210379-f02635273d28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729472970412-748cf0b98048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729472970412-748cf0b98048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
 ---
 
 # [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)

@@ -1,9 +1,9 @@
 ---
 title: autogen
-date: 2024-11-11T12:21:02+08:00
+date: 2024-11-12T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727293341907-5803c9874f10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727293341907-5803c9874f10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730200775166-48ba71b65ee2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730200775166-48ba71b65ee2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/autogen](https://github.com/microsoft/autogen)
@@ -111,7 +111,7 @@ We look forward to your contributions!
 First install the packages:
 
 ```bash
-pip install 'autogen-agentchat==0.4.0.dev5' 'autogen-ext[openai]==0.4.0.dev5'
+pip install 'autogen-agentchat==0.4.0.dev6' 'autogen-ext[openai]==0.4.0.dev6'
 ```
 
 The following code uses OpenAI's GPT-4o model and you need to provide your

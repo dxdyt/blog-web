@@ -1,22 +1,22 @@
 ---
 title: Deep-Live-Cam
-date: 2024-10-13T12:20:03+08:00
+date: 2024-11-12T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725109431834-bed0465b6302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725109431834-bed0465b6302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727374703446-432a38041d0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727374703446-432a38041d0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
 
-<h1 align="center">Deep Live Cam</h1>
+<h1 align="center">Deep-Live-Cam</h1>
 
 <p align="center">
   Real-time face swap and video deepfake with a single click and only a single image.
 </p>
 
 <p align="center">
-  <img src="demo.gif" alt="Demo GIF">
-  <img src="avgpcperformancedemo.gif" alt="Performance Demo GIF">
+  <img src="media/demo.gif" alt="Demo GIF">
+  <img src="media/avgpcperformancedemo.gif" alt="Performance Demo GIF">
 </p>
 
 ## Disclaimer
@@ -30,11 +30,7 @@ Users are expected to use this software responsibly and legally. If using a real
 
 ## Quick Start (Windows / Nvidia)
 
-[![Download](https://github.com/user-attachments/assets/3e3e252a-4bfa-41fb-a88c-84557402a7c7)](https://hacksider.gumroad.com/l/vccdmm) 
-
-
-
-
+[![Download](media/download.png)](https://hacksider.gumroad.com/l/vccdmm) 
 
 [Download latest pre-built version with CUDA support](https://hacksider.gumroad.com/l/vccdmm) - No Manual Installation/Downloading required.
 
@@ -169,7 +165,7 @@ python run.py --execution-provider openvino
 - Use a screen capture tool like OBS to stream.
 - To change the face, select a new source image.
 
-![demo-gif](demo.gif)
+![demo-gif](media/demo.gif)
 
 ## Features
 
@@ -177,27 +173,34 @@ python run.py --execution-provider openvino
 
 Dynamically improve performance using the `--live-resizable` parameter.
 
-![resizable-gif](resizable.gif)
+![resizable-gif](media/resizable.gif)
 
 ### Face Mapping
 
 Track and change faces on the fly.
 
-![face_mapping_source](face_mapping_source.gif)
+![face_mapping_source](media/face_mapping_source.gif)
 
 **Source Video:**
 
-![face-mapping](face_mapping.png)
+![face-mapping](media/face_mapping.png)
 
 **Enable Face Mapping:**
 
-![face-mapping2](face_mapping2.png)
+![face-mapping2](media/face_mapping2.png)
 
 **Map the Faces:**
 
-![face_mapping_result](face_mapping_result.gif)
+![face_mapping_result](media/face_mapping_result.gif)
 
 **See the Magic!**
+
+![movie](media/movie.gif)
+
+**Watch movies in realtime:**
+
+It's as simple as opening a movie on the screen, and selecting OBS as your camera!
+![image](media/movie_img.png)
 
 
 ## Command Line Arguments
@@ -389,6 +392,10 @@ For the latest experimental builds and features, see the [experimental branch](h
 
 This is an open-source project developed in our free time. Updates may be delayed.
 
+**Tips and Links:**
+- [How to make the most of Deep-Live-Cam](https://hacksider.gumroad.com/p/how-to-make-the-most-on-deep-live-cam)
+- Face enhancer is good, but still very slow for any live streaming purpose.
+
 
 ## Credits
 
@@ -398,9 +405,9 @@ This is an open-source project developed in our free time. Updates may be delaye
 - [GosuDRM](https://github.com/GosuDRM) : for open version of roop
 - [pereiraroland26](https://github.com/pereiraroland26) : Multiple faces support
 - [vic4key](https://github.com/vic4key) : For supporting/contributing on this project
-- [KRSHH](https://github.com/KRSHH) : For updating the UI
+- [KRSHH](https://github.com/KRSHH) : For his contributions
 - and [all developers](https://github.com/hacksider/Deep-Live-Cam/graphs/contributors) behind libraries used in this project.
-- Foot Note: [This is originally roop-cam, see the full history of the code here.](https://github.com/hacksider/roop-cam) Please be informed that the base author of the code is [s0md3v](https://github.com/s0md3v/roop)
+- Foot Note: Please be informed that the base author of the code is [s0md3v](https://github.com/s0md3v/roop)
 
 ## Contributions
 ![Alt](https://repobeats.axiom.co/api/embed/fec8e29c45dfdb9c5916f3a7830e1249308d20e1.svg "Repobeats analytics image")
