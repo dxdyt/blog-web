@@ -1,9 +1,9 @@
 ---
 title: Bjorn
-date: 2024-11-12T12:20:35+08:00
+date: 2024-11-13T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730970238526-c4b4f42425cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730970238526-c4b4f42425cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729508418019-0f1e5336fc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729508418019-0f1e5336fc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
 ---
 
 # [infinition/Bjorn](https://github.com/infinition/Bjorn)
@@ -302,9 +302,17 @@ Once launched, Bjorn performs the following steps:
 
 ---
 
+
+
+
 [↖️](#table-of-contents) 
 ## Installation and Configuration
+Use Raspberry Pi Imager to install your OS
+https://www.raspberrypi.com/software/
+
 ### Prerequisites
+
+![image](https://github.com/user-attachments/assets/e775f454-1771-4d6c-bff5-b262b3d98452)
 
 - Raspberry Pi OS installed. 
     - Stable:
@@ -316,6 +324,13 @@ Once launched, Bjorn performs the following steps:
 
 At the moment the paper screen v2 & v4 have been tested and implemented.
 I juste hope the V1 & V3 will work the same.
+
+### Need help ? You struggle to find Bjorn's IP after the installation ?
+Use my Bjorn Detector & SSH Launcher :
+
+https://github.com/infinition/Bjorn_Detector
+
+![ezgif-1-a310f5fe8f](https://github.com/user-attachments/assets/182f82f0-5c3a-48a9-a75e-37b9cfa2263a)
 
 [↖️](#table-of-contents) 
 ### Quick Installation
@@ -550,6 +565,9 @@ StandardOutput=inherit
 StandardError=inherit
 Restart=always
 User=root
+
+# Check open files and restart if it reached the limit (ulimit -n buffer of 1000)
+ExecStartPost=/bin/bash -c 'FILE_LIMIT=$(ulimit -n); THRESHOLD=$(( FILE_LIMIT - 1000 )); while :; do TOTAL_OPEN_FILES=$(lsof | wc -l); if [ "$TOTAL_OPEN_FILES" -ge "$THRESHOLD" ]; then echo "File descriptor threshold reached: $TOTAL_OPEN_FILES (threshold: $THRESHOLD). Restarting service."; systemctl restart bjorn.service; exit 0; fi; sleep 10; done &'
 
 [Install]
 WantedBy=multi-user.target
