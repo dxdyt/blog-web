@@ -1,9 +1,9 @@
 ---
 title: Reactive-Resume
-date: 2024-11-13T12:20:19+08:00
+date: 2024-11-14T12:22:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729876317297-dba6bb94e932?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729876317297-dba6bb94e932?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728756195397-f0d898354dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728756195397-f0d898354dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
 ---
 
 # [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
