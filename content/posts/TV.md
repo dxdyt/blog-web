@@ -1,9 +1,9 @@
 ---
 title: TV
-date: 2024-11-14T12:21:49+08:00
+date: 2024-11-15T12:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728756195397-f0d898354dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728756195397-f0d898354dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1706430376359-dcc927e04c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1706430376359-dcc927e04c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [Guovin/TV](https://github.com/Guovin/TV)
@@ -31,7 +31,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1728756195397-f0d898354d
   </div>
   <br>
   <div>
-  🏠广东频道: 广东珠江, 广东体育, 广东新闻, 广东民生, 广东卫视, 大湾区卫视, 广州综合, 广州影视, 广州竞赛, 江门综合, 江门侨乡生活, 佛山综合, 深圳卫视, 汕头综合, 汕头经济, 汕头文旅, 茂名综合, 茂名公共
+  ☘️广东频道: 广东珠江, 广东体育, 广东新闻, 广东民生, 广东卫视, 大湾区卫视, 广州综合, 广州影视, 广州竞赛, 江门综合, 江门侨乡生活, 佛山综合, 深圳卫视, 汕头综合, 汕头经济, 汕头文旅, 茂名综合, 茂名公共
+  </div>
+  <br>
+  <div>
+  ☘️各省份地方台
   </div>
   <br>
   <div>
@@ -162,23 +166,29 @@ pipenv run ui
 建议都试用一次，选择自己合适的版本
 
 1. 拉取镜像：
+
 - driver：
+
 ```bash
 docker pull guovern/tv-driver:latest
 ```
 
 - requests：
+
 ```bash
 docker pull guovern/tv-requests:latest
 ```
 
 2. 运行容器：
+
 - driver：
+
 ```bash
 docker run -d -p 8000:8000 guovern/tv-driver
 ```
 
 - requests：
+
 ```bash
 docker run -d -p 8000:8000 guovern/tv-requests
 ```
@@ -186,13 +196,16 @@ docker run -d -p 8000:8000 guovern/tv-requests
 卷挂载参数（可选）：
 实现宿主机文件与容器文件同步，修改模板、配置、获取更新结果文件可直接在宿主机文件夹下操作
 
-以宿主机路径/etc/docker为例：
+以宿主机路径/etc/docker 为例：
+
 - driver：
+
 ```bash
 docker run -v /etc/docker/config:/tv-driver/config -v /etc/docker/output:/tv-driver/output -d -p 8000:8000 guovern/tv-driver
 ```
 
 - requests：
+
 ```bash
 docker run -v /etc/docker/config:/tv-requests/config -v /etc/docker/output:/tv-requests/output -d -p 8000:8000 guovern/tv-requests
 ```

@@ -1,13 +1,12 @@
 ---
 title: primeng
-date: 2024-09-08T12:19:53+08:00
+date: 2024-11-15T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724688045438-a1b9f095dc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724688045438-a1b9f095dc04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728926125424-9b0eb80b9d86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728926125424-9b0eb80b9d86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [primefaces/primeng](https://github.com/primefaces/primeng)
-
 
 [![npm version](https://badge.fury.io/js/primeng.svg)](https://badge.fury.io/js/primeng)
 [![npm downloads](https://img.shields.io/npm/dm/primeng.svg)](https://www.npmjs.com/package/primeng)
@@ -18,5 +17,4 @@ featuredImagePreview: https://images.unsplash.com/photo-1724688045438-a1b9f095dc
 [![PrimeNG Hero](https://www.primefaces.org/static/social/primeng-preview.jpg)](https://primeng.org)
 
 ### Website
-
 Visit the [PrimeNG Website](https://primeng.org) for general information, demos and documentation.

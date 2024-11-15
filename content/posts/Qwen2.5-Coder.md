@@ -1,9 +1,9 @@
 ---
 title: Qwen2.5-Coder
-date: 2024-11-14T12:20:49+08:00
+date: 2024-11-15T12:22:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730062518189-c01b51b3b94e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730062518189-c01b51b3b94e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728926125424-9b0eb80b9d86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728926125424-9b0eb80b9d86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)
@@ -40,7 +40,7 @@ Today, we are excited to open source the “Powerful”, “Diverse”, and “P
 
 🛠 Practical: We explore the practicality of Qwen2.5-Coder in two scenarios, including code assistants and Artifacts, with some examples showcasing the potential applications of Qwen2.5-Coder in real-world scenarios;
 
-## basic information
+## Basic information
 
 1. ✨ Supporting long context understanding and generation with the context length of 128K tokens;
 2. ✨ Supporting 92 coding languages;

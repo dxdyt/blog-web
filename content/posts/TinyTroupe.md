@@ -1,9 +1,9 @@
 ---
 title: TinyTroupe
-date: 2024-11-14T12:20:18+08:00
+date: 2024-11-15T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729955029385-b3c2ec01cbc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729955029385-b3c2ec01cbc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729672274065-36b42aecebc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729672274065-36b42aecebc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/TinyTroupe](https://github.com/microsoft/TinyTroupe)

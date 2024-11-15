@@ -1,9 +1,9 @@
 ---
 title: eliza
-date: 2024-11-14T12:20:32+08:00
+date: 2024-11-15T12:21:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730023319331-5ecd55bc4311?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730023319331-5ecd55bc4311?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729672274065-36b42aecebc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729672274065-36b42aecebc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [ai16z/eliza](https://github.com/ai16z/eliza)
@@ -13,6 +13,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1730023319331-5ecd55bc43
 <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
 
 ### [For Chinese Version: 中文说明](./README_CN.md)
+### [For Japanese Version: 日本語の説明](./README_JA.md)
+### [For Korean Version: 한국어 설명](./README_KOR.md)
+### [For French Version: Instructions en français](./README_FR.md)
+### [For Portuguese Version: Instruções em português](./README_PTBR.md)
 
 ## Features
 
@@ -36,7 +40,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1730023319331-5ecd55bc43
 **Prerequisites (MUST):**
     
 -   [Python 2.7+](https://www.python.org/downloads/)
--   [Node.js 22+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+-   [Node.js 23.1+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 -   [pnpm](https://pnpm.io/installation)
 
 ### Edit the .env file

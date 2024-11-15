@@ -1,9 +1,9 @@
 ---
 title: exo
-date: 2024-11-14T12:20:56+08:00
+date: 2024-11-15T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729549929604-86a32f4a9db7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729549929604-86a32f4a9db7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728646995795-2e37aa8cb13e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728646995795-2e37aa8cb13e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [exo-explore/exo](https://github.com/exo-explore/exo)

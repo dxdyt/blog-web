@@ -1,9 +1,9 @@
 ---
 title: kotaemon
-date: 2024-11-06T12:21:52+08:00
+date: 2024-11-15T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729866097380-88243b1d90ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729866097380-88243b1d90ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)
@@ -197,12 +197,24 @@ documents and developers who want to build their own RAG pipeline.
 
 <details>
 
+<summary>Setup LIGHTRAG</summary>
+
+- Install LightRAG: `pip install git+https://github.com/HKUDS/LightRAG.git`
+- `LightRAG` install might introduce version conflicts, see [this issue](https://github.com/Cinnamon/kotaemon/issues/440)
+  - To quickly fix: `pip uninstall hnswlib chroma-hnswlib && pip install chroma-hnswlib`
+- Launch Kotaemon with `USE_LIGHTRAG=true` environment variable.
+- Set your default LLM & Embedding models in Resources setting and it will be recognized automatically from LightRAG.
+
+</details>
+
+<details>
+
 <summary>Setup MS GRAPHRAG</summary>
 
 - **Non-Docker Installation**: If you are not using Docker, install GraphRAG with the following command:
 
   ```shell
-  pip install graphrag future
+  pip install "graphrag<=0.3.6" future
   ```
 
 - **Setting Up API KEY**: To use the GraphRAG retriever feature, ensure you set the `GRAPHRAG_API_KEY` environment variable. You can do this directly in your environment or by adding it to a `.env` file.

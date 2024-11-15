@@ -1,9 +1,9 @@
 ---
 title: next-forge
-date: 2024-11-07T12:20:00+08:00
+date: 2024-11-15T12:20:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725393197946-56d3b0234ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA5NTMxNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725393197946-56d3b0234ed2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA5NTMxNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729864210139-062ad6f2d32f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729864210139-062ad6f2d32f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
 ---
 
 # [haydenbleasel/next-forge](https://github.com/haydenbleasel/next-forge)
@@ -17,7 +17,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1725393197946-56d3b0234e
 Clone the repo using:
 
 ```sh
-npx next-forge init [my-project]
+npx next-forge@latest init [my-project]
 ```
 
-Then read the [docs](https://www.next-forge.com/docs) for more information.
+Then read the [docs](https://docs.next-forge.com) for more information.
+
+<a href="https://github.com/haydenbleasel/next-forge/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=haydenbleasel/next-forge" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
