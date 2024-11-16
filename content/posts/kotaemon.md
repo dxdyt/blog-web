@@ -1,9 +1,9 @@
 ---
 title: kotaemon
-date: 2024-11-15T12:21:57+08:00
+date: 2024-11-16T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728820433152-3b84c69185d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728820433152-3b84c69185d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
 ---
 
 # [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)
@@ -35,6 +35,8 @@ developers in mind.
 <a href="https://hellogithub.com/en/repository/d3141471a0244d5798bc654982b263eb" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=d3141471a0244d5798bc654982b263eb&claim_uid=RLiD9UZ1rEHNaMf&theme=small" alt="Featured｜HelloGitHub" /></a>
 
 </div>
+
+<!-- start-intro -->
 
 ## Introduction
 
@@ -226,6 +228,17 @@ documents and developers who want to build their own RAG pipeline.
 
 See [Local model setup](docs/local_model.md).
 
+### Setup multimodal document parsing (OCR, table parsing, figure extraction)
+
+These options are available:
+
+- [Azure Document Intelligence (API)](https://azure.microsoft.com/en-us/products/ai-services/ai-document-intelligence)
+- [Adobe PDF Extract (API)](https://developer.adobe.com/document-services/docs/overview/pdf-extract-api/)
+- [Docling (local, open-source)](https://github.com/DS4SD/docling)
+  - To use Docling, first install required dependencies: `pip install docling`
+
+Select corresponding loaders in `Settings -> Retrieval Settings -> File loader`
+
 ### Customize your application
 
 - By default, all application data is stored in the `./ktem_app_data` folder. You can back up or copy this folder to transfer your installation to a new machine.
@@ -353,6 +366,8 @@ This file provides another way to configure your models and credentials.
 - Check sample implementation in `libs/ktem/ktem/index/file/graph`
 
 > (more instruction WIP).
+
+<!-- end-intro -->
 
 ## Star History
 

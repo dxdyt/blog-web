@@ -1,9 +1,9 @@
 ---
 title: next-forge
-date: 2024-11-15T12:20:44+08:00
+date: 2024-11-16T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729864210139-062ad6f2d32f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729864210139-062ad6f2d32f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728820433152-3b84c69185d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728820433152-3b84c69185d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
 ---
 
 # [haydenbleasel/next-forge](https://github.com/haydenbleasel/next-forge)

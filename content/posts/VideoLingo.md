@@ -1,9 +1,9 @@
 ---
 title: VideoLingo
-date: 2024-11-15T12:22:03+08:00
+date: 2024-11-16T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728467459756-211f3c738697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728467459756-211f3c738697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
 ---
 
 # [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo)

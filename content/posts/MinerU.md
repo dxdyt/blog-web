@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-11-15T12:20:50+08:00
+date: 2024-11-16T12:19:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728467459756-211f3c738697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728467459756-211f3c738697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)
@@ -52,6 +52,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726092679831-ae0a4e21f0
 </div>
 
 # Changelog
+- 2024/11/15 0.9.3 released. Integrated [RapidTable](https://github.com/RapidAI/RapidTable) for table recognition, improving single-table parsing speed by more than 10 times, with higher accuracy and lower GPU memory usage.
 - 2024/11/06 0.9.2 released. Integrated the [StructTable-InternVL2-1B](https://huggingface.co/U4R/StructTable-InternVL2-1B) model for table recognition functionality.
 - 2024/10/31 0.9.0 released. This is a major new version with extensive code refactoring, addressing numerous issues, improving performance, reducing hardware requirements, and enhancing usability:
   - Refactored the sorting module code to use [layoutreader](https://github.com/ppaanngggg/layoutreader) for reading order sorting, ensuring high accuracy in various layouts.
@@ -130,7 +131,7 @@ https://github.com/user-attachments/assets/4bea02c9-6d54-4cd6-97ed-dff14340982c
 - Preserve the structure of the original document, including headings, paragraphs, lists, etc.
 - Extract images, image descriptions, tables, table titles, and footnotes.
 - Automatically recognize and convert formulas in the document to LaTeX format.
-- Automatically recognize and convert tables in the document to LaTeX or HTML format.
+- Automatically recognize and convert tables in the document to HTML format.
 - Automatically detect scanned PDFs and garbled PDFs and enable OCR functionality.
 - OCR supports detection and recognition of 84 languages.
 - Supports multiple output formats, such as multimodal and NLP Markdown, JSON sorted by reading order, and rich intermediate formats.
@@ -194,16 +195,10 @@ There are three different ways to experience MinerU:
     </tr>
     <tr>
         <td rowspan="2">GPU Hardware Support List</td>
-        <td colspan="2">Minimum Requirement 8G+ VRAM</td>
-        <td colspan="2">3060ti/3070/4060<br>
-        8G VRAM enables layout, formula recognition acceleration and OCR acceleration</td>
+        <td colspan="2">GPU VRAM 8GB or more</td>
+        <td colspan="2">2080~2080Ti / 3060Ti~3090Ti / 4060~4090<br>
+        8G VRAM can enable all acceleration features</td>
         <td rowspan="2">None</td>
-    </tr>
-    <tr>
-        <td colspan="2">Recommended Configuration 10G+ VRAM</td>
-        <td colspan="2">3080/3080ti/3090/3090ti/4070/4070ti/4070tisuper/4080/4090<br>
-        10G VRAM or more can enable layout, formula recognition, OCR acceleration and table recognition acceleration simultaneously
-        </td>
     </tr>
 </table>
 
@@ -256,7 +251,7 @@ You can modify certain configurations in this file to enable or disable features
         "enable": true  // The formula recognition feature is enabled by default. If you need to disable it, please change the value here to "false".
     },
     "table-config": {
-        "model": "tablemaster",  // When using structEqTable, please change to "struct_eqtable".
+        "model": "rapid_table",  // Default to using "rapid_table", can be switched to "tablemaster" or "struct_eqtable".
         "enable": false, // The table recognition feature is disabled by default. If you need to enable it, please change the value here to "true".
         "max_time": 400
     }
@@ -271,7 +266,7 @@ If your device supports CUDA and meets the GPU requirements of the mainline envi
 - [Windows 10/11 + GPU](docs/README_Windows_CUDA_Acceleration_en_US.md)
 - Quick Deployment with Docker
 > [!IMPORTANT]
-> Docker requires a GPU with at least 16GB of VRAM, and all acceleration features are enabled by default.
+> Docker requires a GPU with at least 8GB of VRAM, and all acceleration features are enabled by default.
 >
 > Before running this Docker, you can use the following command to check if your device supports CUDA acceleration on Docker.
 > 
@@ -431,7 +426,9 @@ This project currently uses PyMuPDF to achieve advanced functionality. However, 
 # Acknowledgments
 
 - [PDF-Extract-Kit](https://github.com/opendatalab/PDF-Extract-Kit)
+- [DocLayout-YOLO](https://github.com/opendatalab/DocLayout-YOLO)
 - [StructEqTable](https://github.com/UniModal4Reasoning/StructEqTable-Deploy)
+- [RapidTable](https://github.com/RapidAI/RapidTable)
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
 - [PyMuPDF](https://github.com/pymupdf/PyMuPDF)
 - [layoutreader](https://github.com/ppaanngggg/layoutreader)

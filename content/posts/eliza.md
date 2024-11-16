@@ -1,9 +1,9 @@
 ---
 title: eliza
-date: 2024-11-15T12:21:08+08:00
+date: 2024-11-16T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729672274065-36b42aecebc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729672274065-36b42aecebc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729429943621-90bc7c346e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729429943621-90bc7c346e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
 ---
 
 # [ai16z/eliza](https://github.com/ai16z/eliza)
@@ -13,9 +13,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1729672274065-36b42aeceb
 <img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
 
 ### [For Chinese Version: 中文说明](./README_CN.md)
+
 ### [For Japanese Version: 日本語の説明](./README_JA.md)
+
 ### [For Korean Version: 한국어 설명](./README_KOR.md)
+
 ### [For French Version: Instructions en français](./README_FR.md)
+
 ### [For Portuguese Version: Instruções em português](./README_PTBR.md)
 
 ## Features
@@ -38,7 +42,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729672274065-36b42aeceb
 # Getting Started
 
 **Prerequisites (MUST):**
-    
+
 -   [Python 2.7+](https://www.python.org/downloads/)
 -   [Node.js 23.1+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 -   [pnpm](https://pnpm.io/installation)
@@ -170,7 +174,7 @@ For help with setting up your Discord Bot, check out here: https://discordjs.gui
 
 ## Testing
 
-To run the test suite:
+To run the test suite, you must got into each package:
 
 ```bash
 pnpm test           # Run tests once
@@ -192,3 +196,15 @@ Tests are written using Jest and can be found in `src/**/*.test.ts` files. The t
 -   Run tests in sequence (--runInBand)
 
 To create new tests, add a `.test.ts` file adjacent to the code you're testing.
+
+## Docker
+
+For development purposes, you can run the docker container with the following command:
+
+```
+pnpm docker
+```
+
+This will drop you into a shell inside the docker container where you can continue to configure the instance
+
+and then you can start it with `pnpm start`
