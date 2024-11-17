@@ -1,9 +1,9 @@
 ---
 title: istio
-date: 2024-03-30T12:17:07+08:00
+date: 2024-11-17T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710214562495-5af152b6be43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710214562495-5af152b6be43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE3NzIwNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726725535296-99e5390399ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726725535296-99e5390399ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
 ---
 
 # [istio/istio](https://github.com/istio/istio)
@@ -89,9 +89,6 @@ core components, install artifacts, and sample programs. It includes:
     - [istioctl](istioctl/). This directory contains code for the
 [_istioctl_](https://istio.io/latest/docs/reference/commands/istioctl/) command line utility.
 
-    - [operator](operator/). This directory contains code for the
-[Istio Operator](https://istio.io/latest/docs/setup/install/operator/).
-
     - [pilot](pilot/). This directory
 contains platform-specific code to populate the
 [abstract service model](https://istio.io/docs/concepts/traffic-management/#pilot), dynamically reconfigure the proxies
@@ -107,6 +104,12 @@ Envoy filters) that support authentication, authorization, and telemetry collect
 
 - [istio/ztunnel](https://github.com/istio/ztunnel). The repository contains the Rust implementation of the ztunnel
 component of Ambient mesh.
+
+- [istio/client-go](https://github.com/istio/client-go). This repository defines
+  auto-generated Kubernetes clients for interacting with Istio resources programmatically.
+
+> [!NOTE]
+> Only the `istio/api` and `istio/client-go` repositories expose stable interfaces intended for direct usage as libraries.
 
 ## Issue management
 

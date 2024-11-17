@@ -1,9 +1,9 @@
 ---
 title: Qwen2.5-Coder
-date: 2024-11-16T12:21:19+08:00
+date: 2024-11-17T12:20:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729205940313-ec6f3ccbbc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729205940313-ec6f3ccbbc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731100062072-3904a79ff817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731100062072-3904a79ff817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)

@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2024-09-27T12:20:05+08:00
+date: 2024-11-17T12:21:17+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1689609950083-2cdf620ba026?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731085798307-8c58cd101b98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731085798307-8c58cd101b98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,7 +14,7 @@ featuredImagePreview: https://plus.unsplash.com/premium_photo-1689609950083-2cdf
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/5090)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/5445)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索
 
@@ -36,6 +36,18 @@ $ grep -nri [搜索词] docs | cat --number
 $ grep -nri css docs | cat --number
 ```
 ## 2024
+
+**十一月**
+
+- 第 325 期：[VS Code 编辑器的下一站是 Zed？](docs/issue-325.md)
+- 第 324 期：[人类已知的最大质数](docs/issue-324.md)
+- 第 323 期：[技术公司的口号比拼](docs/issue-323.md)
+
+**十月**
+
+- 第 322 期：[内容行业的内幕](docs/issue-322.md)
+- 第 321 期：[傅盛回忆录](docs/issue-321.md)
+- 第 320 期：[乒乓仓](docs/issue-320.md)
 
 **九月**
 

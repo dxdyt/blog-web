@@ -1,9 +1,9 @@
 ---
 title: phidata
-date: 2024-10-24T12:20:29+08:00
+date: 2024-11-17T12:21:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728943492981-be3e94e4d551?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk3NDM1NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731100062072-3904a79ff817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731100062072-3904a79ff817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
 ---
 
 # [phidatahq/phidata](https://github.com/phidatahq/phidata)
@@ -17,20 +17,19 @@ Build Agents with memory, knowledge, tools and reasoning
 </h3>
 
 <img
-  src="https://github.com/user-attachments/assets/21a0b5af-b458-4632-b09d-3cf29566890c"
+  src="https://github.com/user-attachments/assets/44739d09-2ec4-49b7-bea1-b275afccc592"
   style="border-radius: 8px;"
 />
 
-
 ## What is phidata?
 
-**Phidata is a framework for building agentic systems**, use phidata to:
+**Phidata is a framework for building agentic systems**, engineers use phidata to:
 
-- **Build intelligent Agents with memory, knowledge, tools and reasoning.** [examples](#web-search-agent)
+- **Build Agents with memory, knowledge, tools and reasoning.** [examples](#web-search-agent)
 - **Build teams of Agents that can work together.** [example](#team-of-agents)
-- **Chat with your Agents using a beautiful Agent UI.** [example](#agent-ui)
-- **Monitor, evaluate and optimize your Agents.** [example](#monitoring)
-- **Run your Agents as a software application (with a database, vectordb and api).**
+- **Chat with Agents using a beautiful Agent UI.** [example](#agent-ui)
+- **Monitor, evaluate and optimize Agents.** [example](#monitoring)
+- **Build agentic systems i.e. applications with an API, database and vectordb.**
 
 ## Install
 
@@ -338,9 +337,10 @@ agent.print_response("Share a 2 sentence horror story")
 
 ![debugging](https://github.com/user-attachments/assets/c933c787-4a28-4bff-a664-93b29360d9ea)
 
-## More information
+## Getting help
 
 - Read the docs at <a href="https://docs.phidata.com" target="_blank" rel="noopener noreferrer">docs.phidata.com</a>
+- Post your questions on the [community forum](https://community.phidata.com/)
 - Chat with us on <a href="https://discord.gg/4MtYHHrgA8" target="_blank" rel="noopener noreferrer">discord</a>
 
 ## More examples
@@ -498,7 +498,7 @@ MovieScript(
 
 </details>
 
-### Checkout the [cookbook](https://github.com/phidatahq/phidata/tree/main/cookbook) for more examples.
+### Check out the [cookbook](https://github.com/phidatahq/phidata/tree/main/cookbook) for more examples.
 
 ## Contributions
 

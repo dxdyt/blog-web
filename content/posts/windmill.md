@@ -1,9 +1,9 @@
 ---
 title: windmill
-date: 2024-11-16T12:21:33+08:00
+date: 2024-11-17T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729876502771-477e965d0e21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729876502771-477e965d0e21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730377424758-b66c5229cef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730377424758-b66c5229cef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
 ---
 
 # [windmill-labs/windmill](https://github.com/windmill-labs/windmill)

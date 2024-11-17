@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2024-10-25T12:22:46+08:00
+date: 2024-11-17T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729072593672-552d2137dbda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729072593672-552d2137dbda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726725535296-99e5390399ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726725535296-99e5390399ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -50,6 +50,7 @@ This ui will let you design and execute advanced stable diffusion pipelines usin
 - Nodes/graph/flowchart interface to experiment and create complex Stable Diffusion workflows without needing to code anything.
 - Fully supports SD1.x, SD2.x, [SDXL](https://comfyanonymous.github.io/ComfyUI_examples/sdxl/), [Stable Video Diffusion](https://comfyanonymous.github.io/ComfyUI_examples/video/), [Stable Cascade](https://comfyanonymous.github.io/ComfyUI_examples/stable_cascade/), [SD3](https://comfyanonymous.github.io/ComfyUI_examples/sd3/) and [Stable Audio](https://comfyanonymous.github.io/ComfyUI_examples/audio/)
 - [Flux](https://comfyanonymous.github.io/ComfyUI_examples/flux/)
+- [Mochi](https://comfyanonymous.github.io/ComfyUI_examples/mochi/)
 - Asynchronous Queue system
 - Many optimizations: Only re-executes the parts of the workflow that changes between executions.
 - Smart memory management: can automatically run models on GPUs with as low as 1GB vram.
