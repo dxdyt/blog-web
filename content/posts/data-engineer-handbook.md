@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2024-11-17T12:19:18+08:00
+date: 2024-11-18T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730377424758-b66c5229cef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730377424758-b66c5229cef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729955145899-9edc4b315163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729955145899-9edc4b315163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
 ---
 
 # [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)
@@ -188,6 +188,7 @@ Here's the mostly comprehensive list of data engineering creators:
 | Constantin Lungu     |                                                                                                                            | [Constantin Lungu](https://www.linkedin.com/in/constantin-lungu-668b8756) (10k+)                                                 |                                                                                                                                                                                 |                                                                                                               |                                                                                                                                                                                                     | 
 | Ijaz Ali             |                                                                                                                           | [Ijaz Ali](https://www.linkedin.com/in/ijaz-ali-6aaa87122/) (24K+)   
 | Subhankar            |                                                                                                                           | [Subhankar](https://www.linkedin.com/in/subhankarumass/) (5k+)                                                                    |                                                                                                                                                                                 |                                                                                                               |                                                                                                                                                                                                     |
+| Ankur Ranjan            |    [Big Data Show](https://www.youtube.com/@TheBigDataShow) (100k+)                                                                                                                       | [Ankur Ranjan](https://www.linkedin.com/in/thebigdatashow/) (48k+)                                                                    |                                                                                                                                                                                 |                                                                                                               |                                                                                                                                                                                                     |
 
 
 ### Great Podcasts

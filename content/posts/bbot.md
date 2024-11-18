@@ -1,9 +1,9 @@
 ---
 title: bbot
-date: 2024-11-17T12:20:35+08:00
+date: 2024-11-18T12:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731085798307-8c58cd101b98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731085798307-8c58cd101b98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729201958417-d729cf4b02b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729201958417-d729cf4b02b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
 ---
 
 # [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)

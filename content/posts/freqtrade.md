@@ -1,9 +1,9 @@
 ---
 title: freqtrade
-date: 2024-08-02T12:19:50+08:00
+date: 2024-11-18T12:21:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721048149858-139c52892fc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721048149858-139c52892fc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729955145899-9edc4b315163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729955145899-9edc4b315163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
 ---
 
 # [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)
@@ -40,8 +40,10 @@ Please read the [exchange specific notes](docs/exchanges.md) to learn about even
 - [X] [Binance](https://www.binance.com/)
 - [X] [Bitmart](https://bitmart.com/)
 - [X] [BingX](https://bingx.com/invite/0EM9RX)
+- [X] [Bybit](https://bybit.com/)
 - [X] [Gate.io](https://www.gate.io/ref/6266643)
 - [X] [HTX](https://www.htx.com/) (Former Huobi)
+- [X] [Hyperliquid](https://hyperliquid.xyz/) (A decentralized exchange, or DEX)
 - [X] [Kraken](https://kraken.com/)
 - [X] [OKX](https://okx.com/) (Former OKEX)
 - [ ] [potentially many others](https://github.com/ccxt/ccxt/). _(We cannot guarantee they will work)_
@@ -50,6 +52,7 @@ Please read the [exchange specific notes](docs/exchanges.md) to learn about even
 
 - [X] [Binance](https://www.binance.com/)
 - [X] [Gate.io](https://www.gate.io/ref/6266643)
+- [X] [Hyperliquid](https://hyperliquid.xyz/) (A decentralized exchange, or DEX)
 - [X] [OKX](https://okx.com/)
 - [X] [Bybit](https://bybit.com/)
 
@@ -70,7 +73,7 @@ Please find the complete documentation on the [freqtrade website](https://www.fr
 
 ## Features
 
-- [x] **Based on Python 3.9+**: For botting on any operating system - Windows, macOS and Linux.
+- [x] **Based on Python 3.10+**: For botting on any operating system - Windows, macOS and Linux.
 - [x] **Persistence**: Persistence is achieved through sqlite.
 - [x] **Dry-run**: Run the bot without paying money.
 - [x] **Backtesting**: Run a simulation of your buy/sell strategy.
@@ -96,41 +99,50 @@ For further (native) installation methods, please refer to the [Installation doc
 
 ```
 usage: freqtrade [-h] [-V]
-                 {trade,create-userdir,new-config,new-strategy,download-data,convert-data,convert-trade-data,list-data,backtesting,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-hyperopts,list-markets,list-pairs,list-strategies,list-timeframes,show-trades,test-pairlist,install-ui,plot-dataframe,plot-profit,webserver}
+                 {trade,create-userdir,new-config,show-config,new-strategy,download-data,convert-data,convert-trade-data,trades-to-ohlcv,list-data,backtesting,backtesting-show,backtesting-analysis,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-markets,list-pairs,list-strategies,list-freqaimodels,list-timeframes,show-trades,test-pairlist,convert-db,install-ui,plot-dataframe,plot-profit,webserver,strategy-updater,lookahead-analysis,recursive-analysis}
                  ...
 
 Free, open source crypto trading bot
 
 positional arguments:
-  {trade,create-userdir,new-config,new-strategy,download-data,convert-data,convert-trade-data,list-data,backtesting,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-hyperopts,list-markets,list-pairs,list-strategies,list-timeframes,show-trades,test-pairlist,install-ui,plot-dataframe,plot-profit,webserver}
+  {trade,create-userdir,new-config,show-config,new-strategy,download-data,convert-data,convert-trade-data,trades-to-ohlcv,list-data,backtesting,backtesting-show,backtesting-analysis,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-markets,list-pairs,list-strategies,list-freqaimodels,list-timeframes,show-trades,test-pairlist,convert-db,install-ui,plot-dataframe,plot-profit,webserver,strategy-updater,lookahead-analysis,recursive-analysis}
     trade               Trade module.
     create-userdir      Create user-data directory.
     new-config          Create new config
+    show-config         Show resolved config
     new-strategy        Create new strategy
     download-data       Download backtesting data.
     convert-data        Convert candle (OHLCV) data from one format to
                         another.
     convert-trade-data  Convert trade data from one format to another.
+    trades-to-ohlcv     Convert trade data to OHLCV data.
     list-data           List downloaded data.
     backtesting         Backtesting module.
+    backtesting-show    Show past Backtest results
+    backtesting-analysis
+                        Backtest Analysis module.
     edge                Edge module.
     hyperopt            Hyperopt module.
     hyperopt-list       List Hyperopt results
     hyperopt-show       Show details of Hyperopt results
     list-exchanges      Print available exchanges.
-    list-hyperopts      Print available hyperopt classes.
     list-markets        Print markets on exchange.
     list-pairs          Print pairs on exchange.
     list-strategies     Print available strategies.
+    list-freqaimodels   Print available freqAI models.
     list-timeframes     Print available timeframes for the exchange.
     show-trades         Show trades.
     test-pairlist       Test your pairlist configuration.
+    convert-db          Migrate database to different system
     install-ui          Install FreqUI
     plot-dataframe      Plot candles with indicators.
     plot-profit         Generate plot showing profits.
     webserver           Webserver module.
+    strategy-updater    updates outdated strategy files to the current version
+    lookahead-analysis  Check for potential look ahead bias.
+    recursive-analysis  Check for potential recursive formula issue.
 
-optional arguments:
+options:
   -h, --help            show this help message and exit
   -V, --version         show program's version number and exit
 
@@ -218,7 +230,7 @@ To run this bot we recommend you a cloud instance with a minimum of:
 
 ### Software requirements
 
-- [Python >= 3.9](http://docs.python-guide.org/en/latest/starting/installation/)
+- [Python >= 3.10](http://docs.python-guide.org/en/latest/starting/installation/)
 - [pip](https://pip.pypa.io/en/stable/installing/)
 - [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
 - [TA-Lib](https://ta-lib.github.io/ta-lib-python/)

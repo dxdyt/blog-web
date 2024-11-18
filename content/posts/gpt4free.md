@@ -1,9 +1,9 @@
 ---
 title: gpt4free
-date: 2024-10-27T12:20:07+08:00
+date: 2024-11-18T12:22:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728327510584-49c84411d2e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwMDI3NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728327510584-49c84411d2e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAwMDI3NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
 ---
 
 # [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1728327510584-49c84411d2
 
 ---
 
-Written by [@xtekky](https://github.com/xtekky)
+<p align="center"><strong>Written by <a href="https://github.com/xtekky">@xtekky</a></strong></p>
 
 <div id="top"></div>
 
@@ -27,7 +27,7 @@ Written by [@xtekky](https://github.com/xtekky)
 > _"gpt4free"_ serves as a **PoC** (proof of concept), demonstrating the development of an API package with multi-provider requests, with features like timeouts, load balance and flow control.
 
 > [!NOTE]
-> <sup><strong>Lastet version:</strong></sup> [![PyPI version](https://img.shields.io/pypi/v/g4f?color=blue)](https://pypi.org/project/g4f) [![Docker version](https://img.shields.io/docker/v/hlohaus789/g4f?label=docker&color=blue)](https://hub.docker.com/r/hlohaus789/g4f)  
+> <sup><strong>Latest version:</strong></sup> [![PyPI version](https://img.shields.io/pypi/v/g4f?color=blue)](https://pypi.org/project/g4f) [![Docker version](https://img.shields.io/docker/v/hlohaus789/g4f?label=docker&color=blue)](https://hub.docker.com/r/hlohaus789/g4f)  
 > <sup><strong>Stats:</strong></sup> [![Downloads](https://static.pepy.tech/badge/g4f)](https://pepy.tech/project/g4f) [![Downloads](https://static.pepy.tech/badge/g4f/month)](https://pepy.tech/project/g4f)
 
 ```sh
@@ -39,10 +39,11 @@ docker pull hlohaus789/g4f
 ```
 
 ## 🆕 What's New
-   - **For comprehensive details on new features and updates, please refer to our [Releases](https://github.com/xtekky/gpt4free/releases) page**
-   - **Installation Guide for Windows (.exe):** 💻 [#installation-guide-for-windows](#installation-guide-for-windows-exe)
+   - **For comprehensive details on new features and updates, please refer to our** [Releases](https://github.com/xtekky/gpt4free/releases) **page**
+   - **Installation Guide for Windows (.exe):** 💻 [Installation Guide for Windows (.exe)](#installation-guide-for-windows-exe)
    - **Join our Telegram Channel:** 📨 [telegram.me/g4f_channel](https://telegram.me/g4f_channel)
-   - **Join our Discord Group:** 💬 [discord.gg/XfybzPXPH5](https://discord.gg/XfybzPXPH5)
+   - **Join our Discord Group:** 💬🆕️ [discord.gg/6yrm7H4B](https://discord.gg/6yrm7H4B)
+
 
 ## 🔻 Site Takedown
 
@@ -63,33 +64,35 @@ Is your site on this repository and you want to take it down? Send an email to t
    - [ ] 🚧 Improve compatibility and error handling
 
 ## 📚 Table of Contents
-
-- [🆕 What's New](#-whats-new)
-- [📚 Table of Contents](#-table-of-contents)
-- [🛠️ Getting Started](#-getting-started)
-  - [Docker Container Guide](#docker-container-guide)
-  - [Installation Guide for Windows (.exe)](#installation-guide-for-windows-exe)
-  - [Use python](#use-python)
-    - [Prerequisites](#prerequisites)
-    - [Install using PyPI package:](#install-using-pypi-package)
-    - [Install from source:](#install-from-source)
-    - [Install using Docker:](#install-using-docker)
-- [💡 Usage](#-usage)
-  - [Text Generation](#text-generation)
-  - [Image Generation](#image-generation)
-  - [Web UI](#web-ui)
-  - [Interference API](docs/interference.md)
-  - [Local inference](docs/local.md)
-  - [Configuration](#configuration)
-- [🚀 Providers and Models](docs/providers-and-models.md)
-- [🔗 Powered by gpt4free](#-powered-by-gpt4free)
-- [🤝 Contribute](#-contribute)
-  - [How do i create a new Provider?](#guide-how-do-i-create-a-new-provider)
-  - [How can AI help me with writing code?](#guide-how-can-ai-help-me-with-writing-code)
-- [🙌 Contributors](#-contributors)
-- [©️ Copyright](#-copyright)
-- [⭐ Star History](#-star-history)
-- [📄 License](#-license)
+   - [🆕 What's New](#-whats-new)
+   - [📚 Table of Contents](#-table-of-contents)
+   - [🛠️ Getting Started](#-getting-started)
+      - [Docker Container Guide](#docker-container-guide)
+      - [Installation Guide for Windows (.exe)](#installation-guide-for-windows-exe)
+   - [Use python](#use-python)
+      - [Prerequisites](#prerequisites)
+      - [Install using PyPI package](#install-using-pypi-package)
+      - [Install from source](#install-from-source)
+   - [Install using Docker](#install-using-docker)
+   - [💡 Usage](#-usage)
+      - [Text Generation](#text-generation)
+      - [Image Generation](#image-generation)
+      - [Web UI](#web-ui)
+      - [Interference API](#interference-api)
+      - [Local Inference](docs/local.md)
+      - [Configuration](#configuration)
+      -  [Full Documentation for Python API](#full-documentation-for-python-api)
+         - [Client API from G4F](docs/client.md)
+         - [AsyncClient API from G4F](docs/async_client.md)
+   - [🚀 Providers and Models](docs/providers-and-models.md)
+   - [🔗 Powered by gpt4free](#-powered-by-gpt4free)
+   - [🤝 Contribute](#-contribute)
+      - [How do i create a new Provider?](#guide-how-do-i-create-a-new-provider)
+      - [How can AI help me with writing code?](#guide-how-can-ai-help-me-with-writing-code)
+   - [🙌 Contributors](#-contributors)
+   - [©️ Copyright](#-copyright)
+   - [⭐ Star History](#-star-history)
+   - [📄 License](#-license)
 
 ## 🛠️ Getting Started
 
@@ -126,14 +129,14 @@ To ensure the seamless operation of our application, please follow the instructi
 
 ### Installation Steps
 
-1. **Download the Application**: Visit our [releases page](https://github.com/xtekky/gpt4free/releases/tag/0.3.1.7) and download the most recent version of the application, named `g4f.exe.zip`.
+1. **Download the Application**: Visit our [releases page](https://github.com/xtekky/gpt4free/releases/tag/0.3.4.2) and download the most recent version of the application, named `g4f.exe.zip`.
 2. **File Placement**: After downloading, locate the `.zip` file in your Downloads folder. Unpack it to a directory of your choice on your system, then execute the `g4f.exe` file to run the app.
 3. **Open GUI**: The app starts a web server with the GUI. Open your favorite browser and navigate to `http://localhost:8080/chat/` to access the application interface.
 4. **Firewall Configuration (Hotfix)**: Upon installation, it may be necessary to adjust your Windows Firewall settings to allow the application to operate correctly. To do this, access your Windows Firewall settings and allow the application.
 
 By following these steps, you should be able to successfully install and run the application on your Windows system. If you encounter any issues during the installation process, please refer to our Issue Tracker or try to get contact over Discord for assistance.
 
-Run the **Webview UI** on other Platfroms:
+Run the **Webview UI** on other Platforms:
 
 - [/docs/guides/webview](docs/webview.md)
 
@@ -177,7 +180,7 @@ from g4f.client import Client
 
 client = Client()
 response = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4o-mini",
     messages=[{"role": "user", "content": "Hello"}],
     # Add any other necessary parameters
 )
@@ -194,7 +197,7 @@ from g4f.client import Client
 
 client = Client()
 response = client.images.generate(
-    model="dall-e-3",
+    model="flux",
     prompt="a white siamese cat",
     # Add any other necessary parameters
 )
@@ -205,10 +208,13 @@ print(f"Generated image URL: {image_url}")
 
 [![Image with cat](/docs/cat.jpeg)](docs/client.md)
 
-**Full Documentation for Python API**
-   - **Async Client API from G4F:** [/docs/async_client](docs/async_client.md)
-   - **Client API like the OpenAI Python library:** [/docs/client](docs/client.md)
-   - **Legacy API with python modules:** [/docs/legacy](docs/legacy.md)
+#### **Full Documentation for Python API**
+   - **New:**
+      - **Client API from G4F:** [/docs/client](docs/client.md)
+      - **AsyncClient API from G4F:** [/docs/async_client](docs/async_client.md)
+   
+   - **Legacy:**
+      - **Legacy API with python modules:** [/docs/legacy](docs/legacy.md)
 
 #### Web UI
 **To start the web interface, type the following codes in python:**
@@ -299,22 +305,20 @@ To utilize the OpenaiChat provider, a .har file is required from https://chatgpt
 
 ##### Storing the .HAR File
 
-- Place the exported .har file in the `./har_and_cookies` directory if you are using Docker. Alternatively, you can store it in any preferred location within your current working directory.
+- Place the exported .har file in the `./har_and_cookies` directory if you are using Docker. Alternatively, if you are using Python from a terminal, you can store it in a `./har_and_cookies` directory within your current working directory.
 
-Note: Ensure that your .har file is stored securely, as it may contain sensitive information.
+> **Note:** Ensure that your .har file is stored securely, as it may contain sensitive information.
 
 #### Using Proxy
 
 If you want to hide or change your IP address for the providers, you can set a proxy globally via an environment variable:
 
-- On macOS and Linux:
-
+**- On macOS and Linux:**
 ```bash
 export G4F_PROXY="http://host:port"
 ```
 
-- On Windows:
-
+**- On Windows:**
 ```bash
 set G4F_PROXY=http://host:port
 ```
@@ -781,10 +785,10 @@ set G4F_PROXY=http://host:port
 We welcome contributions from the community. Whether you're adding new providers or features, or simply fixing typos and making small improvements, your input is valued. Creating a pull request is all it takes – our co-pilot will handle the code review process. Once all changes have been addressed, we'll merge the pull request into the main branch and release the updates at a later time.
 
 ###### Guide: How do i create a new Provider?
-   - Read: [/docs/guides/create_provider](docs/guides/create_provider.md)
+   - **Read:** [Create Provider Guide](docs/guides/create_provider.md)
 
 ###### Guide: How can AI help me with writing code?
-   - Read: [/docs/guides/help_me](docs/guides/help_me.md)
+   - **Read:** [AI Assistance Guide](docs/guides/help_me.md)
 
 ## 🙌 Contributors
 A list of all contributors is available [here](https://github.com/xtekky/gpt4free/graphs/contributors)
@@ -876,4 +880,7 @@ This project is licensed under <a href="https://github.com/xtekky/gpt4free/blob/
   </tr>
 </table>
 
+---
+
 <p align="right">(<a href="#top">🔼 Back to top</a>)</p>
+
