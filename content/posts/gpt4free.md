@@ -1,9 +1,9 @@
 ---
 title: gpt4free
-date: 2024-11-18T12:22:22+08:00
+date: 2024-11-19T12:20:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729465848822-17695017df61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729465848822-17695017df61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
 ---
 
 # [xtekky/gpt4free](https://github.com/xtekky/gpt4free)
@@ -31,7 +31,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7
 > <sup><strong>Stats:</strong></sup> [![Downloads](https://static.pepy.tech/badge/g4f)](https://pepy.tech/project/g4f) [![Downloads](https://static.pepy.tech/badge/g4f/month)](https://pepy.tech/project/g4f)
 
 ```sh
-pip install -U g4f
+pip install -U g4f[all]
 ```
 
 ```sh
@@ -113,6 +113,17 @@ docker run \
   -v ${PWD}/har_and_cookies:/app/har_and_cookies \
   -v ${PWD}/generated_images:/app/generated_images \
   hlohaus789/g4f:latest
+```
+
+Or run this command to start the gui without a browser and in the debug mode:
+```bash
+docker pull hlohaus789/g4f:latest-slim
+docker run \
+  -p 8080:8080 \
+  -v ${PWD}/har_and_cookies:/app/har_and_cookies \
+  -v ${PWD}/generated_images:/app/generated_images \
+  hlohaus789/g4f:latest-slim \
+  python -m g4f.cli gui -debug
 ```
 
 3. **Access the Client:**

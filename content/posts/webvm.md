@@ -1,9 +1,9 @@
 ---
 title: webvm
-date: 2024-11-18T12:20:59+08:00
+date: 2024-11-19T12:21:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729201958417-d729cf4b02b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729201958417-d729cf4b02b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729974354594-1a314d13d10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729974354594-1a314d13d10a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
 ---
 
 # [leaningtech/webvm](https://github.com/leaningtech/webvm)
@@ -15,7 +15,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1729201958417-d729cf4b02
 
 This repository hosts the source code for [https://webvm.io](https://webvm.io), a Linux virtual machine that runs in your browser.
 
-<img src="/assets/welcome_to_WebVM_2024.png" width="70%">
+Try out the new Alpine / Xorg / i3 graphical environment: [https://webvm.io/alpine.html](https://webvm.io/alpine.html)
+
+<img src="/assets/welcome_to_WebVM_alpine_2024.png" width="90%">
 
 WebVM is a server-less virtual environment running fully client-side in HTML5/WebAssembly. It's designed to be Linux ABI-compatible. It runs an unmodified Debian distribution including many native development toolchains.
 

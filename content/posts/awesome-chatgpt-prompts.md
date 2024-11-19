@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts
-date: 2024-09-05T12:18:50+08:00
+date: 2024-11-19T12:22:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721297013317-e4976cc284d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721297013317-e4976cc284d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729780119347-f755a22e3364?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729780119347-f755a22e3364?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
 ---
 
 # [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
@@ -12,10 +12,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1721297013317-e4976cc284
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-
 <h2 align="center">Sponsors</h2>
 
 <p align="center">
+  <a href="https://clemta.com" align="center" target="_blank">
+    <img height="50" alt="Clemta logo" src="https://clemta.com/wp-content/uploads/2023/03/logo-clemta-com-1.png.webp">
+  </a>
+  <br><br>
   <a href="https://hf.co/chat" align="center" target="_blank">
     <img height="60" alt="Hugging Face logo" src="https://github.com/user-attachments/assets/4187ef06-7cae-402a-a410-e0a999758fed">
   </a>
@@ -55,7 +58,7 @@ Dive into the world of customized conversational AI models and enrich your proje
 
 ### Want to Write Effective Prompts?
 
-I've authored a free e-book called **"The Art of ChatGPT Prompting: A Guide to Crafting Clear and Effective Prompts"**.
+I've authored an e-book called **"The Art of ChatGPT Prompting: A Guide to Crafting Clear and Effective Prompts"**.
 
 📖 **[Read the free e-book](https://fka.gumroad.com/l/art-of-chatgpt-prompting)**
 

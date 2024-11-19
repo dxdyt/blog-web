@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2024-11-17T12:21:25+08:00
+date: 2024-11-19T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726725535296-99e5390399ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726725535296-99e5390399ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731432249483-2418feb8065e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731432249483-2418feb8065e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -38,7 +38,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726725535296-99e5390399
 [github-downloads-latest-shield]: https://img.shields.io/github/downloads/comfyanonymous/ComfyUI/latest/total?style=flat&label=downloads%40latest
 [github-downloads-link]: https://github.com/comfyanonymous/ComfyUI/releases
 
-![ComfyUI Screenshot](comfyui_screenshot.png)
+![ComfyUI Screenshot](https://github.com/user-attachments/assets/7ccaf2c1-9b72-41ae-9a89-5688c94b7abe)
 </div>
 
 This ui will let you design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface. For some workflow examples and see what ComfyUI can do you can check out:

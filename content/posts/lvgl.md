@@ -1,9 +1,9 @@
 ---
 title: lvgl
-date: 2024-11-18T12:22:12+08:00
+date: 2024-11-19T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729218621503-b4a57a7ab7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729465848822-17695017df61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729465848822-17695017df61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
 ---
 
 # [lvgl/lvgl](https://github.com/lvgl/lvgl)

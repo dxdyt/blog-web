@@ -1,9 +1,9 @@
 ---
 title: bbot
-date: 2024-11-18T12:22:06+08:00
+date: 2024-11-19T12:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729201958417-d729cf4b02b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729201958417-d729cf4b02b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729780119347-f755a22e3364?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729780119347-f755a22e3364?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
 ---
 
 # [blacklanternsecurity/bbot](https://github.com/blacklanternsecurity/bbot)
@@ -367,6 +367,7 @@ For details, see [Configuration](https://www.blacklanternsecurity.com/bbot/Stabl
     - **Modules**
         - [List of Modules](https://www.blacklanternsecurity.com/bbot/Stable/modules/list_of_modules)
         - [Nuclei](https://www.blacklanternsecurity.com/bbot/Stable/modules/nuclei)
+        - [Custom YARA Rules](https://www.blacklanternsecurity.com/bbot/Stable/modules/custom_yara_rules)
     - **Misc**
         - [Contribution](https://www.blacklanternsecurity.com/bbot/Stable/contribution)
         - [Release History](https://www.blacklanternsecurity.com/bbot/Stable/release_history)
