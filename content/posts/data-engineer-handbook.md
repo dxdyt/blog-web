@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2024-11-19T12:20:00+08:00
+date: 2024-11-20T12:21:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729780119347-f755a22e3364?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729780119347-f755a22e3364?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730227569937-487ece74e13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730227569937-487ece74e13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
 ---
 
 # [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)
@@ -91,6 +91,7 @@ Top must-join communities for ML:
   - [Tableau](https://www.tableau.com/)
   - [Power BI](https://powerbi.microsoft.com/)
   - [Apache Superset](https://superset.apache.org/)
+  - [Evidence](https://evidence.dev)
 - Data Integration
   - [Cube](https://cube.dev)
   - [Fivetran](https://www.fivetran.com)
@@ -189,6 +190,7 @@ Here's the mostly comprehensive list of data engineering creators:
 | Ijaz Ali             |                                                                                                                           | [Ijaz Ali](https://www.linkedin.com/in/ijaz-ali-6aaa87122/) (24K+)   
 | Subhankar            |                                                                                                                           | [Subhankar](https://www.linkedin.com/in/subhankarumass/) (5k+)                                                                    |                                                                                                                                                                                 |                                                                                                               |                                                                                                                                                                                                     |
 | Ankur Ranjan            |    [Big Data Show](https://www.youtube.com/@TheBigDataShow) (100k+)                                                                                                                       | [Ankur Ranjan](https://www.linkedin.com/in/thebigdatashow/) (48k+)                                                                    |                                                                                                                                                                                 |                                                                                                               |                                                                                                                                                                                                     |
+| Lenny            |                                                                                                                           | [Lenny A](https://www.linkedin.com/in/lennyardiles/) (6k+)                                                                    |                                                                                                                                                                                 |                                                                                                               |                                                                                                                                                                                                     |
 
 
 ### Great Podcasts

@@ -1,9 +1,9 @@
 ---
 title: eliza
-date: 2024-11-19T12:20:34+08:00
+date: 2024-11-20T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731432249483-2418feb8065e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731432249483-2418feb8065e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729544095542-df4a68210b3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729544095542-df4a68210b3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
 ---
 
 # [ai16z/eliza](https://github.com/ai16z/eliza)
@@ -21,7 +21,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1731432249483-2418feb806
 </div>
 
 ## 🌍 README Translations
-[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md)
+
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md)
 
 ## ✨ Features
 
@@ -50,7 +51,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1731432249483-2418feb806
 -   [Node.js 22+](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 -   [pnpm](https://pnpm.io/installation)
 
-> **Note for Windows Users:** WSL is required
+> **Note for Windows Users:** [WSL 2](https://learn.microsoft.com/en-us/windows/wsl/install-manual) is required.
 
 ### Edit the .env file
 
@@ -70,7 +71,7 @@ sh scripts/start.sh
 
 ### Edit the character file
 
-1. Open `packages/agent/src/character.ts` to modify the default character. Uncomment and edit.
+1. Open `agent/src/character.ts` to modify the default character. Uncomment and edit.
 
 2. To load custom characters:
     - Use `pnpm start --characters="path/to/your/character.json"`
