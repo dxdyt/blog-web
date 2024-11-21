@@ -1,9 +1,9 @@
 ---
 title: webvm
-date: 2024-11-20T12:20:34+08:00
+date: 2024-11-21T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729742200925-19b2a673af61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729742200925-19b2a673af61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723984489704-95d6fb7fcd33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723984489704-95d6fb7fcd33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
 ---
 
 # [leaningtech/webvm](https://github.com/leaningtech/webvm)
