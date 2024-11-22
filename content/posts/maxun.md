@@ -1,9 +1,9 @@
 ---
 title: maxun
-date: 2024-11-05T12:20:29+08:00
+date: 2024-11-22T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729443103255-48ab256ac344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729443103255-48ab256ac344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA3ODAzNjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [getmaxun/maxun](https://github.com/getmaxun/maxun)
@@ -26,7 +26,7 @@ Maxun lets you train a robot in 2 minutes and scrape the web on auto-pilot. Web 
 
 <p align="center">
     <a href="https://maxun-website.vercel.app/"><b>Website</b></a> |
-    <a href="https://discord.com/invite/NFhWDCdb"><b>Discord</b></a> |
+    <a href="https://discord.gg/5GbPjBUkws"><b>Discord</b></a> |
     <a href="https://x.com/maxun_io"><b>Twitter</b></a> |
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbD2uhqC4sbg4eLZ9qrFbyrfkXZ2XsI6dQ0USRCQNZNn5pzg/viewform"><b>Join Maxun Cloud</b></a> | 
     <a href="https://www.youtube.com/@MaxunOSS"><b>Watch Tutorials</b></a>

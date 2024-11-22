@@ -1,18 +1,16 @@
 ---
 title: postiz-app
-date: 2024-09-06T12:18:26+08:00
+date: 2024-11-22T12:22:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722698508879-7456d50d5cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722698508879-7456d50d5cd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729731322165-241913981ba1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729731322165-241913981ba1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
 
-
 <p align="center">
-  <a href="https://x.com/intent/follow?screen_name=nevodavid" target="_blank">
-    <img alt="Follow me" src="https://github.com/user-attachments/assets/1562c93f-95c6-4307-8a85-e62003e26348" />
-  </a>
+  Please help us out on Product Hunt,<br />to give you the best open-source<br />social media scheduling tool in the world 🌎👇 <br /><br />
+<a href="https://www.producthunt.com/posts/postiz?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-postiz" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=606350&theme=light" alt="Postiz - Your&#0032;ultimate&#0032;AI&#0032;social&#0032;media&#0032;scheduling&#0032;tool&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
   <br /><br />
 </p>
 
@@ -20,7 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1722698508879-7456d50d5c
   <a href="https://postiz.com" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/765e9d72-3ee7-4a56-9d59-a2c9befe2311">
-    <img alt="Novu Logo" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" width="280"/>
+    <img alt="Postiz Logo" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" width="280"/>
   </picture>
   </a>
 </p>
@@ -52,6 +50,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1722698508879-7456d50d5c
   <img alt="Facebook" src="https://postiz.com/svgs/socials/Facebook.svg" width="32">
   <img alt="Pinterest" src="https://postiz.com/svgs/socials/Pinterest.svg" width="32">
   <img alt="Threads" src="https://postiz.com/svgs/socials/Threads.svg" width="32">
+  <img alt="X" src="https://postiz.com/svgs/socials/X.svg" width="32">
+  <img alt="X" src="https://postiz.com/svgs/socials/Slack.svg" width="32">
+  <img alt="X" src="https://postiz.com/svgs/socials/Discord.svg" width="32">
+  <img alt="X" src="https://postiz.com/svgs/socials/Mastodon.svg" width="32">
+  <img alt="X" src="https://postiz.com/svgs/socials/Bluesky.svg" width="32">
 </div>
 
 <p align="center">

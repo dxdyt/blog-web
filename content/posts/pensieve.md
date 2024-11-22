@@ -1,9 +1,9 @@
 ---
 title: pensieve
-date: 2024-11-20T12:21:25+08:00
+date: 2024-11-22T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730774487035-05673e0c5747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730774487035-05673e0c5747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729518076134-669fd3e0fbf2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729518076134-669fd3e0fbf2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [arkohut/pensieve](https://github.com/arkohut/pensieve)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1730774487035-05673e0c57
   <img src="web/static/logos/memos_logo_512.png" width="250"/>
 </div> -->
 
-English | [简体中文](README_ZH.md)
+English | [简体中文](README_ZH.md) | [日本語](README_JP.md)
 
 ![memos-search](docs/images/memos-search-en.gif)
 
@@ -37,6 +37,18 @@ This project draws heavily from two other projects: one called [Rewind](https://
 ## Quick Start
 
 ![memos-installation](docs/images/memos-installation.gif)
+
+> [!IMPORTANT]  
+> It seems that not all versions of Python's sqlite3 library support `enable_load_extension`. However, I'm not sure which environments or Python versions might encounter this issue. I use `conda` to manage Python, and Python installed via `conda` works fine on macOS, Windows x86, and Ubuntu 22.04.
+>
+> Please ensure the following command works in your Python environment:
+>
+> ```python
+> import sqlite3
+> print(sqlite3.sqlite_version)
+> ```
+>
+> If you find that this does not work properly, you can install [miniconda](https://docs.conda.io/en/latest/miniconda.html) to manage your Python environment. Alternatively, check the current issue list to see if others have encountered the same problem.
 
 ### 1. Install Pensieve
 

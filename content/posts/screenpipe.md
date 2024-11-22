@@ -1,12 +1,14 @@
 ---
 title: screenpipe
-date: 2024-10-04T12:19:41+08:00
+date: 2024-11-22T12:21:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727256402921-954b53d9de0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727256402921-954b53d9de0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729731322165-241913981ba1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729731322165-241913981ba1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [mediar-ai/screenpipe](https://github.com/mediar-ai/screenpipe)
+
+English | [简体中文](README-zh_CN.md) | [日本語](README-ja_JP.md)
 
 <p align="center">
    <a href ="https://screenpi.pe">
@@ -14,13 +16,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1727256402921-954b53d9de
    </a>
 </p>
 
-<pre align="center">
-   ___  ___ _ __ ___  ___ _ __  _ __ (_)_ __   ___ 
-  / __|/ __| '__/ _ \/ _ \ '_ \| '_ \| | '_ \ / _ \
-  \__ \ (__| | |  __/  __/ | | | |_) | | |_) |  __/
-  |___/\___|_|  \___|\___|_| |_| .__/|_| .__/ \___|
-                               |_|     |_|         
-</pre>
+
+
+<!-- ScreenPipe Title and Subtitle -->
+<p align="center" style="font-family: 'Press Start 2P', monospace;">
+   <h1 align="center">[ screenpipe ]</h1>
+   <p align="center">rewind.ai x cursor.com = your AI assistant that has all the context. </p>
+   <p align="center">24/7 screen & voice recording for the age of super intelligence. get your data ready or be left behind</p>
+</p>
+
+<!-- Slogan -->
+<p align="center" style="font-family: monospace;">
+   <code>[ recording reality, one pixel at a time ]</code>
+</p>
 
 <p align="center">
     <a href="https://screenpi.pe" target="_blank">
@@ -57,45 +65,39 @@ featuredImagePreview: https://images.unsplash.com/photo-1727256402921-954b53d9de
 
 <p align="center">
    <a href ="https://screenpi.pe">
-       <img alt="demo" src="https://github.com/user-attachments/assets/39d27adc-e17e-4ca5-89c5-faf45a3ea20f" width="800" />
+      <img alt="demo" src="https://github.com/user-attachments/assets/6f4e80d9-89b6-4ed3-a82c-121abc849852" width="800" />
    </a>
 </p>
 
 ---
 
-*Latest News* 🔥
+*news* 🔥
+- [2024/11] [screenpipe is number 1 github trending repo (again)](https://x.com/louis030195/status/1859628763425931479)
+- [2024/10] screenpipe has been backed by [Founders, Inc](https://f.inc/)
 - [2024/09] [screenpipe is number 1 github trending repo & on hackernews!](https://x.com/louis030195/status/1840859691754344483)
-- [2024/09] 150 users run screenpipe 24/7!
-- [2024/09] Released a v0 of our [documentation](https://docs.screenpi.pe/)
-- [2024/08] Anyone can now [create, share, install pipes](https://youtu.be/iCqHgZgQHyA?si=DjKJir7HfZoQKItK) (plugins) from the app interface based on a github repo/dir
-- [2024/08] We're running bounties! Contribute to screenpipe & make money, [check issues](https://github.com/mediar-ai/screenpipe/issues)
-- [2024/08] Audio input & output now works perfect on Windows, Linux, MacOS (<15.0). We also support multi monitor capture and defaulting STT to Whisper Distil large v3
-- [2024/08] We released video embedding. AI gives you links to your video recording in the chat!
-- [2024/08] We released the pipe store! Create, share, use plugins that get you the most out of your data in less than 30s, even if you are not technical.
-- [2024/08] We released Apple & Windows Native OCR.
-- [2024/08] **The Linux desktop app is here!**.
-- [2024/07] **The Windows desktop app is here! [Get it now!](https://screenpi.pe)**.
-- [2024/07] 🎁 Screenpipe won Friends (the AI necklace) hackathon at AGI House (integrations soon)
-- [2024/07] **We just launched the desktop app! [Download now!](https://screenpi.pe)**
+- [2024/08] anyone can now [create, share, install pipes](https://docs.screenpi.pe/docs/plugins) (plugins) from the app interface based on a github repo/dir
+- [2024/08] we're running bounties! contribute to screenpipe & make money, [check issues](https://github.com/mediar-ai/screenpipe/issues)
+- [2024/08] we released Apple & Windows Native OCR.
+- [2024/07] 🎁 screenpipe won Friends (the AI necklace) hackathon at AGI House (integrations soon)
+- [2024/07] **we just launched the desktop app! [Download now!](https://screenpi.pe)**
 
 ---
 
-# 24/7 Screen & Audio Capture
+# how it works?
 
-Library to build personalized AI powered by what you've seen, said, or heard. Works with Ollama. Alternative to Rewind.ai. Open. Secure. You own your data. Rust.  
-We are shipping daily, make suggestions, post bugs, [give feedback](mailto:louis@screenpi.pe?subject=Screenpipe%20Feedback&body=I'd%20like%20to%20use%20Screenpipe%20for%20...%0D%0A%0D%0AI%20cannot%20because%20of%20...%0D%0A%0D%0AWe%20can%20also%20have%20a%20call,%20book%20at%20https://cal.com/louis030195/screenpipe).
+we are shipping daily, make suggestions, post bugs, [give feedback](mailto:louis@screenpi.pe?subject=Screenpipe%20Feedback&body=I'd%20like%20to%20use%20Screenpipe%20for%20...%0D%0A%0D%0AI%20cannot%20because%20of%20...%0D%0A%0D%0AWe%20can%20also%20have%20a%20call,%20book%20at%20https://cal.com/louis030195/screenpipe).
 
 ![diagram](./content/diagram2.png)
 
-# Why?
+# why?
 
-Building a reliable stream of audio and screenshot data, where a user simply clicks a button and the script runs in the background 24/7, collecting and extracting data from screen and audio input/output, can be frustrating. 
+in 2025, context won't be an issue anymore.
 
-There are numerous use cases that can be built on top of this layer. To simplify life for other developers, we decided to solve this non-trivial problem. It's still in its early stages, but it works end-to-end. We're working on this full-time and would love to hear your feedback and suggestions.
+will you have the data ready?
 
-## Get started
+## get started
 
-There are multiple ways to install screenpipe:
+there are multiple ways to install screenpipe:
 - as a CLI for technical users
 - as a [paid desktop app](https://screenpi.pe/onboarding) with 1 year updates, priority support, and priority features
 - as a free forever desktop app (but you need to build it yourself). We're 100% OSS.
@@ -105,11 +107,11 @@ There are multiple ways to install screenpipe:
 
 [**👉 install screenpipe now**](https://docs.screenpi.pe/docs/getting-started)
 
-## usage
+## create plugins
 
 screenpipe has a plugin system called "pipe" which lets you run code in a sandboxed environment within the Rust code, [get started](https://docs.screenpi.pe/docs/plugins)
 
-## examples
+## other examples
 
 [check examples](https://docs.screenpi.pe/docs/examples)
 
@@ -118,9 +120,9 @@ screenpipe has a plugin system called "pipe" which lets you run code in a sandbo
 ![GitHub Star History (10)](https://github.com/user-attachments/assets/5d5c9672-d2d3-4e4c-8734-a7e0c2fee246)
 
 
-## Contributing
+## contributing
 
-Contributions are welcome! If you'd like to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
+contributions are welcome! if you'd like to contribute, please read [CONTRIBUTING.md](CONTRIBUTING.md).
 
    <a href="https://console.algora.io/org/mediar-ai/bounties?status=completed">
        <img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2Fmediar-ai%2Fbounties%3Fstatus%3Dcompleted" alt="Rewarded Bounties">

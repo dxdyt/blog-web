@@ -1,9 +1,9 @@
 ---
 title: SecLists
-date: 2024-10-18T12:20:21+08:00
+date: 2024-11-22T12:22:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727086758266-c5cb3e4b8ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727086758266-c5cb3e4b8ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/SecLists](https://github.com/danielmiessler/SecLists)
@@ -22,9 +22,9 @@ This project is maintained by [Daniel Miessler](https://danielmiessler.com/), [J
 
 ### Repository details
 
-Size of a complete clone of SecLists is currently at `1.5 GB`
+Size of a complete clone of SecLists is currently at `1.7 GB`
 
-Cloning this repository should take 4-5 minutes at 5MB/s speeds.
+Cloning this repository should take 5-6 minutes at 5MB/s speeds.
 
 <!--- details anchor -->
 
@@ -95,6 +95,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 This project is licensed under the [MIT license](LICENSE).
 
 [![MIT License](https://img.shields.io/badge/license-MIT_License-blue)](https://opensource.org/licenses/MIT)
-—
 
 <sup>NOTE: Downloading this repository is likely to cause a false-positive alarm by your anti-virus or anti-malware software, the filepath should be whitelisted. There is nothing in SecLists that can harm your computer as-is, however it's not recommended to store these files on a server or other important system due to the risk of local file include attacks.</sup>

@@ -1,9 +1,9 @@
 ---
 title: multi-agent-orchestrator
-date: 2024-11-21T12:21:39+08:00
+date: 2024-11-22T12:20:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730758613138-9447a40bd093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730758613138-9447a40bd093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator)
@@ -113,7 +113,7 @@ Discover creative implementations and diverse applications of the Multi-Agent Or
 
 - **[Speak Up, AI: Voicing Your Agents with Amazon Connect, Lex, and Bedrock](https://community.aws/content/2mt7CFG7xg4yw6GRHwH9akhg0oD/speak-up-ai-voicing-your-agents-with-amazon-connect-lex-and-bedrock)**
 
-  This article demonstrates how to build an AI customer call center. It covers the architecture and setup of specialiazed AI agents using the Multi-Agent Orchestrator framework interacting with voice via **Amazon Connect** and **Amazon Lex**.
+  This article demonstrates how to build an AI customer call center. It covers the architecture and setup of specialized AI agents using the Multi-Agent Orchestrator framework interacting with voice via **Amazon Connect** and **Amazon Lex**.
 
 ### TypeScript Version
 
@@ -309,8 +309,14 @@ We welcome contributions! Please see our [Contributing Guide](https://raw.github
 - [Corneliu Croitoru](https://www.linkedin.com/in/corneliucroitoru/)
 - [Anthony Bernabeu](https://www.linkedin.com/in/anthonybernabeu/)
 
-# Contributors
-[![contributors](https://contrib.rocks/image?repo=awslabs/multi-agent-orchestrator&max=2000)](https://github.com/awslabs/multi-agent-orchestrator/graphs/contributors)
+# 👥 Contributors
+
+Big shout out to our awesome contributors! Thank you for making this project better! 🌟 ⭐ 🚀
+
+[![contributors](https://contrib.rocks/image?repo=awslabs/multi-agent-orchestrator&max=2000&time=1700573333)](https://github.com/awslabs/multi-agent-orchestrator/graphs/contributors)
+
+
+Please see our [contributing guide](./CONTRIBUTING.md) for guidelines on how to propose bugfixes and improvements.
 
 
 ## 📄 LICENSE

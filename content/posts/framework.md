@@ -1,9 +1,9 @@
 ---
 title: framework
-date: 2024-03-15T12:16:40+08:00
+date: 2024-11-22T12:22:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707985665955-aea0b64bc8a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707985665955-aea0b64bc8a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
 ---
 
 # [laravel/framework](https://github.com/laravel/framework)
