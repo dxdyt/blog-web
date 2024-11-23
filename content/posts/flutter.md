@@ -1,9 +1,9 @@
 ---
 title: flutter
-date: 2024-10-30T12:21:10+08:00
+date: 2024-11-23T12:21:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729095249355-c7fdaf806d1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729095249355-c7fdaf806d1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAyNjIwMDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730973915515-e79273d90b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730973915515-e79273d90b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
 ---
 
 # [flutter/flutter](https://github.com/flutter/flutter)

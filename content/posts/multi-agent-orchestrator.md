@@ -1,9 +1,9 @@
 ---
 title: multi-agent-orchestrator
-date: 2024-11-22T12:20:59+08:00
+date: 2024-11-23T12:21:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730365528032-e602220b959b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730365528032-e602220b959b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
 ---
 
 # [awslabs/multi-agent-orchestrator](https://github.com/awslabs/multi-agent-orchestrator)

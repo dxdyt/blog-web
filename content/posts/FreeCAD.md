@@ -1,9 +1,9 @@
 ---
 title: FreeCAD
-date: 2024-11-22T12:21:48+08:00
+date: 2024-11-23T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729204424260-539dce2a07d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731595634176-4d8186c944ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731595634176-4d8186c944ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
 ---
 
 # [FreeCAD/FreeCAD](https://github.com/FreeCAD/FreeCAD)

@@ -1,9 +1,9 @@
 ---
 title: twenty
-date: 2024-11-22T12:20:41+08:00
+date: 2024-11-23T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726162613816-90bd5fab156e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726162613816-90bd5fab156e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729100124898-0901c96f1a1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729100124898-0901c96f1a1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
 ---
 
 # [twentyhq/twenty](https://github.com/twentyhq/twenty)
@@ -68,7 +68,7 @@ We understand that the CRM landscape is vast. So why should you choose us?
 # What You Can Do With Twenty
 We're currently in the development phase of Twenty's alpha version.  
 
-Please feel free to flag any specific need you have need by creating an issue.   
+Please feel free to flag any specific needs you have by creating an issue.   
 
 Below are some features we have implemented to date:
 
