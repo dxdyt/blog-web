@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2024-11-06T12:21:27+08:00
+date: 2024-11-24T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729010733312-4f2caeca0715?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729010733312-4f2caeca0715?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726068993832-1ac966a83619?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI0MjE5NjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726068993832-1ac966a83619?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI0MjE5NjN8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
@@ -40,9 +40,9 @@ We also just added experimental support for taking a video/screen recording of a
 
 [Follow me on Twitter for updates](https://twitter.com/_abi_).
 
-## 🚀 Hosted Version
+## 🌍  Hosted Version
 
-[Try it live on the hosted version (paid)](https://screenshottocode.com).
+[Try it live on the hosted version (paid)](https://screenshottocode.com). If you're a large or medium enterprise (50+ employees), [book a meeting to explore custom enterprise plans](https://cal.com/abi-raja-wy2pfh/30min).
 
 ## 🛠 Getting Started
 
@@ -120,7 +120,3 @@ https://github.com/abi/screenshot-to-code/assets/23818/503eb86a-356e-4dfc-926a-d
 **Hacker News** but it gets the colors wrong at first so we nudge it
 
 https://github.com/abi/screenshot-to-code/assets/23818/3fec0f77-44e8-4fb3-a769-ac7410315e5d
-
-## 🌍 Hosted Version
-
-🆕 [Try it here (paid)](https://screenshottocode.com). Or see [Getting Started](#-getting-started) for local install instructions to use with your own API keys.
