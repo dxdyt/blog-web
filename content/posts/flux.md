@@ -1,9 +1,9 @@
 ---
 title: flux
-date: 2024-11-24T12:19:31+08:00
+date: 2024-11-25T12:20:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730136804523-d43801043710?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI0MjE5NjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730136804523-d43801043710?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI0MjE5NjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729218621493-2a3f137d9957?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729218621493-2a3f137d9957?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
 ---
 
 # [black-forest-labs/flux](https://github.com/black-forest-labs/flux)
