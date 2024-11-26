@@ -1,9 +1,9 @@
 ---
 title: termux-app
-date: 2024-10-29T12:21:21+08:00
+date: 2024-11-26T12:21:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1643865744379-cae52845af3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1643865744379-cae52845af3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzAxNzU2MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727990326463-02a27e0641d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727990326463-02a27e0641d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
 ---
 
 # [termux/termux-app](https://github.com/termux/termux-app)

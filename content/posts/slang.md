@@ -1,9 +1,9 @@
 ---
 title: slang
-date: 2024-11-25T12:21:26+08:00
+date: 2024-11-26T12:22:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726809387113-23bab120dc0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726809387113-23bab120dc0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729517483083-527809ec5469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729517483083-527809ec5469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
 ---
 
 # [shader-slang/slang](https://github.com/shader-slang/slang)
@@ -95,7 +95,7 @@ The following guidelines should be observed by contributors:
 * Changes should ideally come in as small pull requests on top of `master`, coming from your own personal fork of the project
 * Large features that will involve multiple contributors or a long development time should be discussed in issues, and broken down into smaller pieces that can be implemented and checked in in stages
 
-[Contribution guide](CONTRIBUTION.md) describes the workflow for contributors at more detail.
+[Contribution guide](CONTRIBUTING.md) describes the workflow for contributors at more detail.
 
 Limitations and Support
 -----------------------

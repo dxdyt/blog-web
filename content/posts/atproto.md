@@ -1,9 +1,9 @@
 ---
 title: atproto
-date: 2024-09-04T12:19:33+08:00
+date: 2024-11-26T12:22:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721999610570-6b6ed05447c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721999610570-6b6ed05447c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732105094945-a22182f23169?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732105094945-a22182f23169?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
 ---
 
 # [bluesky-social/atproto](https://github.com/bluesky-social/atproto)

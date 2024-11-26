@@ -1,15 +1,15 @@
 ---
 title: v2rayN
-date: 2024-11-18T12:21:57+08:00
+date: 2024-11-26T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731209519730-2d898082b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731209519730-2d898082b3c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731927321985-3bf41a2f8fe2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731927321985-3bf41a2f8fe2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
 ---
 
 # [2dust/v2rayN](https://github.com/2dust/v2rayN)
 
 # v2rayN
-A GUI client for Windows and Linux, support [Xray core](https://github.com/XTLS/Xray-core) and [v2fly core](https://github.com/v2fly/v2ray-core) and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
+A GUI client for Windows and Linux, support [Xray core](https://github.com/XTLS/Xray-core)  and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
 
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
@@ -19,13 +19,19 @@ A GUI client for Windows and Linux, support [Xray core](https://github.com/XTLS/
 
 
 ## How to use
-- If you are new to this, please download v2rayN-With-Core.zip from [releases](https://github.com/2dust/v2rayN/releases)
-- Otherwise please download v2rayN.zip (you will also need to download cores in the bin directory)
-- Run v2rayN.exe
+Check [Release files introduction](https://github.com/2dust/v2rayN/wiki/Release-files-introduction) and select the version you need to download 
+### Windows
+- Run `v2rayN.exe`
+### Linux
+- `chmod +x v2rayN` Run `./v2rayN`
+```
+Debian 9+
+Ubuntu 16.04+
+Fedora 30+
+```
 
 ## Requirements  
-- (6.35 and above)[Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- (6.33 and below)[Microsoft .NET 6.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
+- [Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
 - [Supported cores](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
 
 
