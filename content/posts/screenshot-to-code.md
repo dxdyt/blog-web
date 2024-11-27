@@ -1,9 +1,9 @@
 ---
 title: screenshot-to-code
-date: 2024-11-26T12:21:11+08:00
+date: 2024-11-27T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730982425492-9b1612dc0e82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730982425492-9b1612dc0e82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731011703965-1c014adfc594?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731011703965-1c014adfc594?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
 ---
 
 # [abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)

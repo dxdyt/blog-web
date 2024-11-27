@@ -1,9 +1,9 @@
 ---
 title: ESP32Marauder
-date: 2024-11-25T12:22:15+08:00
+date: 2024-11-27T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732008278594-3f3272927445?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732008278594-3f3272927445?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731011703965-1c014adfc594?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731011703965-1c014adfc594?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
 ---
 
 # [justcallmekoko/ESP32Marauder](https://github.com/justcallmekoko/ESP32Marauder)

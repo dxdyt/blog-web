@@ -1,9 +1,9 @@
 ---
 title: slang
-date: 2024-11-26T12:22:16+08:00
+date: 2024-11-27T12:21:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729517483083-527809ec5469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729517483083-527809ec5469?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725113940491-9ede3a53eafd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725113940491-9ede3a53eafd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
 ---
 
 # [shader-slang/slang](https://github.com/shader-slang/slang)
