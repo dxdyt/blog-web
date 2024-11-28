@@ -1,9 +1,9 @@
 ---
 title: dive
-date: 2024-01-11T12:16:46+08:00
+date: 2024-11-28T12:21:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703209935165-3c4ba0c214f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703209935165-3c4ba0c214f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQ5NDY1NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729731322011-f945437445be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI3Njc2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729731322011-f945437445be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI3Njc2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [wagoodman/dive](https://github.com/wagoodman/dive)
@@ -104,15 +104,25 @@ With valid `source` options as such:
 ## Installation
 
 **Ubuntu/Debian**
+
+Using debs:
 ```bash
-export DIVE_VERSION=$(curl -sL "https://api.github.com/repos/wagoodman/dive/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+DIVE_VERSION=$(curl -sL "https://api.github.com/repos/wagoodman/dive/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
 curl -OL https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.deb
 sudo apt install ./dive_${DIVE_VERSION}_linux_amd64.deb
 ```
 
+Using snap:
+```bash
+sudo snap install docker
+sudo snap install dive
+sudo snap connect dive:docker-executables docker:docker-executables
+sudo snap connect dive:docker-daemon docker:docker-daemon
+```
+
 **RHEL/Centos**
 ```bash
-export DIVE_VERSION=$(curl -sL "https://api.github.com/repos/wagoodman/dive/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
+DIVE_VERSION=$(curl -sL "https://api.github.com/repos/wagoodman/dive/releases/latest" | grep '"tag_name":' | sed -E 's/.*"v([^"]+)".*/\1/')
 curl -OL https://github.com/wagoodman/dive/releases/download/v${DIVE_VERSION}/dive_${DIVE_VERSION}_linux_amd64.rpm
 rpm -i dive_${DIVE_VERSION}_linux_amd64.rpm
 ```

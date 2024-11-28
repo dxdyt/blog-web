@@ -1,9 +1,9 @@
 ---
 title: n8n
-date: 2024-01-23T12:17:28+08:00
+date: 2024-11-28T12:21:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703535753934-7ab4ca4836c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703535753934-7ab4ca4836c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU5ODMzODh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727190887587-af08ece60d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI3Njc2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727190887587-af08ece60d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI3Njc2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [n8n-io/n8n](https://github.com/n8n-io/n8n)
@@ -105,8 +105,8 @@ development environment ready in minutes.
 ## License
 
 n8n is [fair-code](https://faircode.io) distributed under the
-[**Sustainable Use License**](https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE.md) and the
-[**n8n Enterprise License**](https://github.com/n8n-io/n8n/blob/master/packages/cli/LICENSE_EE.md).
+[**Sustainable Use License**](https://github.com/n8n-io/n8n/blob/master/LICENSE.md) and the
+[**n8n Enterprise License**](https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md).
 
 Proprietary licenses are available for enterprise customers. [Get in touch](mailto:license@n8n.io)
 

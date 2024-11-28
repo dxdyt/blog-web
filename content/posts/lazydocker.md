@@ -1,9 +1,9 @@
 ---
 title: lazydocker
-date: 2024-11-26T12:20:59+08:00
+date: 2024-11-28T12:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729883216803-ced1f0788c2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729883216803-ced1f0788c2c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729862782198-c94e889b3897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI3Njc2NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729862782198-c94e889b3897?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI3Njc2NDJ8&ixlib=rb-4.0.3
 ---
 
 # [jesseduffield/lazydocker](https://github.com/jesseduffield/lazydocker)
