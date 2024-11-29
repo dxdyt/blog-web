@@ -1,9 +1,9 @@
 ---
 title: terraform
-date: 2024-09-12T12:20:36+08:00
+date: 2024-11-29T12:22:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722863975120-fc5a9601e5af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722863975120-fc5a9601e5af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1675195897342-2d460f4b270f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1675195897342-2d460f4b270f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
 ---
 
 # [hashicorp/terraform](https://github.com/hashicorp/terraform)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1722863975120-fc5a9601e5
 - Tutorials: [HashiCorp's Learn Platform](https://learn.hashicorp.com/terraform)
 - Certification Exam: [HashiCorp Certified: Terraform Associate](https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate)
 
-<img alt="Terraform" src="https://www.datocms-assets.com/2885/1629941242-logo-terraform-main.svg" width="600px">
+<img alt="Terraform" src="https://www.datocms-assets.com/2885/1731373310-terraform_white.svg" width="600px">
 
 Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.
 

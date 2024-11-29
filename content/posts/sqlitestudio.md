@@ -1,9 +1,9 @@
 ---
 title: sqlitestudio
-date: 2024-11-27T12:21:10+08:00
+date: 2024-11-29T12:21:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726094051307-a55a8ea52314?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726094051307-a55a8ea52314?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1703002574613-f417e7284e3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1703002574613-f417e7284e3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
 ---
 
 # [pawelsalawa/sqlitestudio](https://github.com/pawelsalawa/sqlitestudio)

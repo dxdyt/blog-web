@@ -1,9 +1,9 @@
 ---
 title: typeorm
-date: 2024-05-04T12:20:00+08:00
+date: 2024-11-29T12:22:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713284428084-9c5d319d4a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3OTYyMzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730067851976-65f080497f37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730067851976-65f080497f37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
 ---
 
 # [typeorm/typeorm](https://github.com/typeorm/typeorm)
@@ -23,9 +23,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1713284428084-9c5d319d4a
     <a href="https://codecov.io/gh/typeorm/typeorm">
         <img alt="Codecov" src="https://img.shields.io/codecov/c/github/typeorm/typeorm.svg">
     </a>
-	<a href="https://join.slack.com/t/typeorm/shared_invite/zt-uu12ljeb-OH_0086I379fUDApYJHNuw">
-		<img src="https://img.shields.io/badge/chat-on%20slack-blue.svg">
-	</a>
   <br>
   <br>
 </div>
@@ -45,6 +42,13 @@ maintainable applications in the most productive way.
 
 TypeORM is highly influenced by other ORMs, such as [Hibernate](http://hibernate.org/orm/),
 [Doctrine](http://www.doctrine-project.org/) and [Entity Framework](https://www.asp.net/entity-framework).
+
+> **📣 Announcement: The Future of TypeORM**
+>
+> We’re excited to share our vision for a revitalized TypeORM—a strategy focused on building a stable, robust, and sustainable foundation for the long term. Learn how we’re structuring maintenance
+> and bringing together dedicated resources to ensure TypeORM thrives for years to come.
+>
+> [Read the full announcement](./docs/future-of-typeorm.md)
 
 ## Features
 
