@@ -1,9 +1,9 @@
 ---
 title: laravel-crm
-date: 2024-09-22T12:21:20+08:00
+date: 2024-11-30T12:21:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730033145309-1ae0ff9acd82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI5NDA0MDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730033145309-1ae0ff9acd82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI5NDA0MDF8&ixlib=rb-4.0.3
 ---
 
 # [krayin/laravel-crm](https://github.com/krayin/laravel-crm)
@@ -27,6 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc
 2. [Documentation](#documentation)
 3. [Requirements](#requirements)
 4. [Installation & Configuration](#installation-and-configuration)
+4. [Docker Installation](https://devdocs.krayincrm.com/2.0/introduction/docker.html)
 5. [License](#license)
 6. [Security Vulnerabilities](#security-vulnerabilities)
 
