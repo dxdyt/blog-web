@@ -1,9 +1,9 @@
 ---
 title: Qwen2.5
-date: 2024-09-22T12:20:56+08:00
+date: 2024-12-01T12:22:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724254351233-914fd32f2515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724254351233-914fd32f2515?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731532034409-22542a373e62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731532034409-22542a373e62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen2.5](https://github.com/QwenLM/Qwen2.5)
@@ -15,7 +15,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1724254351233-914fd32f25
 <p>
 
 <p align="center">
-        🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2407.10671">Paper</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+        🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 Paper (TBD) &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>&nbsp&nbsp | &nbsp&nbsp🖥️ <a href="https://gallery.pai-ml.com/#/preview/deepLearning/nlp/qwen2-5_7b">PAI-DSW</a>&nbsp&nbsp
+
 <br>
 🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-72B-Instruct">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
 </p>
@@ -32,7 +33,7 @@ To learn more about Qwen2.5, feel free to read our documentation \[[EN](https://
 - Quantization: the practice of quantizing LLMs with GPTQ, AWQ, as well as the guidance for how to make high-quality quantized GGUF files;
 - Training: the instructions for post-training, including SFT and RLHF (TODO) with frameworks like Axolotl, LLaMA-Factory, etc.
 - Framework: the usage of Qwen with frameworks for application, e.g., RAG, Agent, etc.
-- Benchmark: the statistics about inference speed and memory footprint (to be updated for Qwen2.5).
+- Benchmark: the statistics about inference speed and memory footprint (Available for Qwen2.5).
 
 ## Introduction
 
@@ -47,7 +48,7 @@ In the past three months since Qwen2's release, numerous developers have built n
 
 ## News
 
-- 2024.09.19: We released the Qwen2.5 series. This time there are 3 extra model sizes: 3B, 14B, and 32B for more possibilities. Check our [blog](https://qwenlm.github.io/blog/qwen2.5) for more! 
+- 2024.09.19: We released the Qwen2.5 series. This time there are 3 extra model sizes: 3B, 14B, and 32B for more possibilities. Check our [blog](https://qwenlm.github.io/blog/qwen2.5) for more!
 - 2024.06.06: We released the Qwen2 series. Check our [blog](https://qwenlm.github.io/blog/qwen2/)!
 - 2024.03.28: We released the first MoE model of Qwen: Qwen1.5-MoE-A2.7B! Temporarily, only HF transformers and vLLM support the model. We will soon add the support of llama.cpp, mlx-lm, etc. Check our [blog](https://qwenlm.github.io/blog/qwen-moe/) for more information!
 - 2024.02.05: We released the Qwen1.5 series.
@@ -56,7 +57,7 @@ In the past three months since Qwen2's release, numerous developers have built n
 
 Detailed evaluation results are reported in this <a href="https://qwenlm.github.io/blog/qwen2.5/"> 📑 blog</a>.
 
-For requirements on GPU memory and the respective throughput, see results [here](https://qwen.readthedocs.io/en/latest/benchmark/speed_benchmark.html) (to be updated for Qwen2.5).
+For requirements on GPU memory and the respective throughput, see results [here](https://qwen.readthedocs.io/en/latest/benchmark/speed_benchmark.html) .
 
 ## Quickstart
 
@@ -146,7 +147,7 @@ For additional details, please visit [ollama.ai](https://ollama.ai/).
 
 Download our provided GGUF files or create them by yourself, and you can directly use them with the latest [`llama.cpp`](https://github.com/ggerganov/llama.cpp) with a one-line command:
 ```shell
-./llama-cli -m <path-to-file> -n 512 -co -sp -cnv -f "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
+./llama-cli -m <path-to-file> -n 512 -co -sp -cnv -p "You are Qwen, created by Alibaba Cloud. You are a helpful assistant."
 ```
 
 For additional guides, please refer to [our documentation](https://qwen.readthedocs.io/en/latest/run_locally/llama.cpp.html).
@@ -178,9 +179,12 @@ Clone [`llamafile`](https://github.com/Mozilla-Ocho/llamafile), run source insta
 
 ## Deployment
 
-Qwen2.5 is supported by multiple inference frameworks. Here we demonstrate the usage of `vLLM` and `SGLang`.
+Qwen2.5 is supported by multiple inference frameworks. Here we demonstrate the usage of `vLLM`, `SGLang` and `OpenLLM`.
 
 ### vLLM
+
+> [!Warning]
+> Not working with vllm 0.6.3.
 
 We advise you to use the latest version of vLLM to build OpenAI-compatible API service, including tool use support. Start the server with a chat model, e.g. `Qwen2.5-7B-Instruct`:
 ```shell
@@ -264,6 +268,16 @@ for m in state.messages():
 print(state["answer_1"])
 ```
 
+### OpenLLM
+
+[OpenLLM](https://github.com/bentoml/OpenLLM) allows you to easily run Qwen2.5 as OpenAI-compatible APIs. You can start a model server using `openllm serve`. For example:
+
+```bash
+openllm serve qwen2.5:7b
+```
+
+The server is active at `http://localhost:3000/`, providing OpenAI-compatible APIs. You can create an OpenAI client to call its chat API. For more information, refer to [our documentation](https://qwen.readthedocs.io/en/latest/deployment/openllm.html).
+
 ### Tool Use
 
 For tool use capabilities, we recommend taking a look at [Qwen-Agent](https://github.com/QwenLM/Qwen-Agent), which provides a wrapper around these APIs to support tool use or function calling.
@@ -290,7 +304,7 @@ If you find our work helpful, feel free to give us a cite.
 @misc{qwen2.5,
     title = {Qwen2.5: A Party of Foundation Models},
     url = {https://qwenlm.github.io/blog/qwen2.5/},
-    author = {Qwen Team},
+    author = {{Qwen Team}},
     month = {September},
     year = {2024}
 }

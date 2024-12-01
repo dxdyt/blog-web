@@ -1,9 +1,9 @@
 ---
 title: Qwen
-date: 2023-12-03T12:16:41+08:00
+date: 2024-12-01T12:24:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1686102575921-e902dde8b236?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1686102575921-e902dde8b236?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE1NzY5MDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732459996749-e39500ee6063?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732459996749-e39500ee6063?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen](https://github.com/QwenLM/Qwen)
@@ -21,9 +21,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1686102575921-e902dde8b2
 <p align="center">
         🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2309.16609">Paper</a> &nbsp&nbsp ｜ &nbsp&nbsp🖥️ <a href="https://modelscope.cn/studios/qwen/Qwen-72B-Chat-Demo/summary">Demo</a>
 <br>
-<a href="assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/z3GAxXZ9Ce">Discord</a>&nbsp&nbsp ｜  &nbsp&nbsp<a href="https://dashscope.aliyun.com">API</a> 
+<a href="assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp ｜  &nbsp&nbsp<a href="https://dashscope.aliyun.com">API</a> 
 </p>
 <br><br>
+
+> [!Important]
+> Qwen2 is here! You are welcome to follow [QwenLM/Qwen2](https://github.com/QwenLM/Qwen2) and share your experience there.
+>
+> This repo ([QwenLM/Qwen](https://github.com/QwenLM/Qwen)) is no longer actively maintained, due to substantial codebase differences.
+
+<br>
 
 |     |                                                              Qwen-Chat                                                               |                                                                Qwen-Chat (Int4)                                                                |                        Qwen-Chat (Int8)                         |                                                            Qwen                                                            |
 |-----|:------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------:|
@@ -277,6 +284,8 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import GenerationConfig
 from qwen_generation_utils import make_context, decode_tokens, get_stop_words_ids
 
+# To generate attention masks automatically, it is necessary to assign distinct
+# token_ids to pad_token and eos_token, and set pad_token_id in the generation_config.
 tokenizer = AutoTokenizer.from_pretrained(
     './',
     pad_token='<|extra_0|>',
@@ -353,6 +362,9 @@ However, it is likely that you suffer from extremely low inference efficiency.
 If you suffer from lack of GPU memory and you would like to run the model on more than 1 GPU, you can directly use the default loading method, which is now supported by Transformers. The previous method based on `utils.py` is deprecated.
 
 However, though this method is simple, the efficiency of the native pipeline parallelism is low. We advise you to use vLLM with FastChat and please read the section for deployment.
+
+### x86 Platforms
+When deploy on Core™/Xeon® Scalable Processors or with Arc™ GPU, [OpenVINO™ Toolkit](https://docs.openvino.ai/2023.3/gen_ai_guide.html) is recommended. You can install and run this [example notebook](https://github.com/openvinotoolkit/openvino_notebooks/tree/main/notebooks/254-llm-chatbot). For related issues, you are welcome to file an issue at [OpenVINO repo](https://github.com/openvinotoolkit/openvino_notebooks/issues). 
 
 ### DashScope
 The most simple way to use Qwen through APIs is DashScope API service through Alibaba Cloud. We give an introduction to the usage. Additionally, we provide a script for you to deploy an OpenAI-style API on your own servers.
@@ -461,7 +473,7 @@ We illustrate the model performance of both BF16, Int8 and Int4 models on the be
 ### Quantization of KV cache
 
 > NOTE: Please be aware that due to the internal mechanism of Hugging Face, the support files for this functionality 
-> (i.e., `cache_autogptq_cuda_256.cpp` and `cache_autogptq_cuda_kernel_245.cu`) may be missing. Please manually download
+> (i.e., `cache_autogptq_cuda_256.cpp` and `cache_autogptq_cuda_kernel_256.cu`) may be missing. Please manually download
 > them from the Hugging Face Hub and place them into the same folder as the other module files.
 
 The attention KV cache can be quantized and compressed for storage, to get a higher sample throughput. The arguments `use_cache_quantization` and `use_cache_kernel` in `config.json` are provided to enable KV cache quantization. The specific use method is as follows:
@@ -620,7 +632,7 @@ We also measure the inference speed and GPU memory usage with different settings
 ### Usage
 Now we provide the official training script, `finetune.py`, for users to finetune the pretrained model for downstream applications in a simple fashion. Additionally, we provide shell scripts to launch finetuning with no worries. This script supports the training with [DeepSpeed](https://github.com/microsoft/DeepSpeed) and [FSDP](https://engineering.fb.com/2021/07/15/open-source/fsdp/). The shell scripts that we provide use DeepSpeed (Note: this may have conflicts with the latest version of pydantic and you should use make sure `pydantic<2.0`) and Peft. You can install them by:
 ```bash
-pip install peft deepspeed
+pip install "peft<0.8.0" deepspeed
 ```
 
 To prepare your training data, you need to put all the samples into a list and save it to a json file. Each sample is a dictionary consisting of an id and a list for conversation. Below is a simple example list with 1 sample:
@@ -653,7 +665,7 @@ Full-parameter finetuning requires updating all parameters in the whole training
 
 ```bash
 # Distributed training. We do not provide single-GPU training script as the insufficient GPU memory will break down the training.
-sh finetune/finetune_ds.sh
+bash finetune/finetune_ds.sh
 ```
 
 Remember to specify the correct model name or path, the data path, as well as the output directory in the shell scripts. Another thing to notice is that we use DeepSpeed ZeRO 3 in this script. If you want to make changes, just remove the argument `--deepspeed` or make changes in the DeepSpeed configuration json file based on your requirements. Additionally, this script supports mixed-precision training, and thus you can use `--bf16 True` or `--fp16 True`. Remember to use DeepSpeed when you use fp16 due to mixed precision training. Empirically we advise you to use bf16 to make your training consistent with our pretraining and alignment if your machine supports bf16, and thus we use it by default.
@@ -662,9 +674,9 @@ Similarly, to run LoRA, use another script to run as shown below. Before you sta
 
 ```bash
 # Single GPU training
-sh finetune/finetune_lora_single_gpu.sh
+bash finetune/finetune_lora_single_gpu.sh
 # Distributed training
-sh finetune/finetune_lora_ds.sh
+bash finetune/finetune_lora_ds.sh
 ```
 
 In comparison with full-parameter finetuning, LoRA ([paper](https://arxiv.org/abs/2106.09685)) only updates the parameters of adapter layers but keeps the original large language model layers frozen. This allows much fewer memory costs and thus fewer computation costs. 
@@ -679,9 +691,9 @@ To run Q-LoRA, directly run the following script:
 
 ```bash
 # Single GPU training
-sh finetune/finetune_qlora_single_gpu.sh
+bash finetune/finetune_qlora_single_gpu.sh
 # Distributed training
-sh finetune/finetune_qlora_ds.sh
+bash finetune/finetune_qlora_ds.sh
 ```
 
 For Q-LoRA, we advise you to load our provided quantized model, e.g., Qwen-7B-Chat-Int4. You **SHOULD NOT** use the bf16 models. Different from full-parameter finetuning and LoRA, only fp16 is supported for Q-LoRA. For single-GPU training, we have to use DeepSpeed for mixed-precision training due to our observation of errors caused by torch amp. Besides, for Q-LoRA, the troubles with the special tokens in LoRA still exist. However, as we only provide the Int4 models for chat models, which means the language model has learned the special tokens of ChatML format, you have no worry about the layers. Note that the layers of the Int4 model should not be trainable, and thus if you introduce special tokens in your training, Q-LoRA might not work.
@@ -700,6 +712,8 @@ model = AutoPeftModelForCausalLM.from_pretrained(
     trust_remote_code=True
 ).eval()
 ```
+
+> NOTE: If `peft>=0.8.0`, it will try to load the tokenizer as well, however, initialized without `trust_remote_code=True`, leading to `ValueError: Tokenizer class QWenTokenizer does not exist or is not currently imported.` Currently, you could downgrade `peft<0.8.0` or move tokenizer files elsewhere to workaround this issue.
 
 If you want to merge the adapters and save the finetuned model as a standalone model (you can only do this with LoRA, and you CANNOT merge the parameters from Q-LoRA), you can run the following codes:
 
@@ -733,9 +747,65 @@ tokenizer.save_pretrained(new_model_directory)
 
 Note: For multi-GPU training, you need to specify the proper hyperparameters for distributed training based on your machine. Besides, we advise you to specify your maximum sequence length with the argument `--model_max_length`, based on your consideration of data, memory footprint, and training speed.
 
+### Quantize Fine-tuned Models
+
+This section applies to full-parameter/LoRA fine-tuned models. (Note: You do not need to quantize the Q-LoRA fine-tuned model because it is already quantized.)
+If you use LoRA, please follow the above instructions to merge your model before quantization. 
+
+We recommend using [auto_gptq](https://github.com/PanQiWei/AutoGPTQ) to quantize the finetuned model. 
+
+```bash
+pip install auto-gptq optimum
+```
+
+Note: Currently AutoGPTQ has a bug referred in [this issue](https://github.com/PanQiWei/AutoGPTQ/issues/370). Here is a [workaround PR](https://github.com/PanQiWei/AutoGPTQ/pull/495), and you can pull this branch and install from the source.
+
+First, prepare the calibration data. You can reuse the fine-tuning data, or use other data following the same format.
+
+Second, run the following script:
+
+```bash
+python run_gptq.py \
+    --model_name_or_path $YOUR_LORA_MODEL_PATH \
+    --data_path $DATA \
+    --out_path $OUTPUT_PATH \
+    --bits 4 # 4 for int4; 8 for int8
+```
+
+This step requires GPUs and may costs a few hours according to your data size and model size.
+
+Then, copy all `*.py`, `*.cu`, `*.cpp` files and `generation_config.json` to the output path. And we recommend you to overwrite `config.json` by copying the file from the coresponding official quantized model
+(for example, if you are fine-tuning `Qwen-7B-Chat` and use `--bits 4`, you can find the `config.json` from [Qwen-7B-Chat-Int4](https://huggingface.co/Qwen/Qwen-7B-Chat-Int4/blob/main/config.json)).
+You should also rename the ``gptq.safetensors`` into ``model.safetensors``.
+
+Finally, test the model by the same method to load the official quantized model. For example,
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers.generation import GenerationConfig
+
+tokenizer = AutoTokenizer.from_pretrained("/path/to/your/model", trust_remote_code=True)
+
+model = AutoModelForCausalLM.from_pretrained(
+    "/path/to/your/model",
+    device_map="auto",
+    trust_remote_code=True
+).eval()
+
+response, history = model.chat(tokenizer, "你好", history=None)
+print(response)
+```
+
+### Multinode Finetuning
+
+Our provided scripts support multinode finetuning. You can refer to the comments in [script](./finetune/finetune_lora_ds.sh) to correctly set corresponding arguments and launch the script on each node. For more information about multinode distributed training, please refer to [torchrun](https://pytorch.org/docs/stable/elastic/run.html).
+
+Note: DeepSpeed ZeRO 3 requires much greater inter-node communication rate than ZeRO 2, which will significantly reduce the training speed in the case of multinode finetuning. Therefore, we do not recommend using DeepSpeed ZeRO 3 configurations in multinode finetuning scripts.
 
 ### Profiling of Memory and Speed
 We profile the GPU memory and training speed of both LoRA (LoRA (emb) refers to training the embedding and output layer, while LoRA has no trainable embedding and output layer) and Q-LoRA in the setup of single-GPU training. In this test, we experiment on a single A100-SXM4-80G GPU, and we use CUDA 11.8 and Pytorch 2.0. Flash attention 2 is applied. We uniformly use a batch size of 1 and gradient accumulation of 8. We profile the memory (GB) and speed (s/iter) of inputs of different lengths, namely 256, 512, 1024, 2048, 4096, and 8192. We also report the statistics of full-parameter finetuning with Qwen-7B on 2 A100 GPUs. We only report the statistics of 256, 512, and 1024 tokens due to the limitation of GPU memory. 
+
+For Qwen-7B, we also test the performance of multinode finetuning. We experiment using two servers, each containing two A100-SXM4-80G GPUs, and the rest of configurations are the same as other Qwen-7B experiments. The results of multinode finetuning are marked as LoRA (multinode) in the table.
 
 For Qwen-72B, we experiment in two ways: 1) Lora fintuning + DeepSpeed ZeRO 3 on 4 A100-SXM4-80G GPUs and 2) QLora (int4) fine-tuning on a single A100-SXM4-80G GPU. Note that OOM occurs on 4 A100-SXM4-80G GPUs both with LoRA (emb) fine-tuning and LoRA fine-tuning without Deepspeed ZeRO 3 (you can pass `--deepspeed finetune/ds_config_zero3.json` to [`finetune/finetune_lora_ds.sh`](finetune/finetune_lora_ds.sh) to enable DeepSpeed ZeRO 3).
 
@@ -743,53 +813,86 @@ The statistics are listed below:
 
 <table>
     <tr>
-      <th rowspan="2">Model Size</th><th rowspan="2">Method</th><th colspan="6" align="center">Sequence Length</th>
+      <th rowspan="2">Model Size</th><th rowspan="2">Method</th><th rowspan="2">#Nodes</th><th rowspan="2">#GPUs per node</th><th colspan="6" align="center">Sequence Length</th>
     </tr>
     <tr>
         <th align="center">256</th><th align="center">512</th><th align="center">1024</th><th align="center">2048</th><th align="center">4096</th><th align="center">8192</th>
     </tr>
-    </tr>
-    </tr>
-		<tr>
-        <th rowspan="4">1.8B</th><td>LoRA</td><td align="center">6.7G / 1.0s/it</td><td align="center">7.4G / 1.0s/it</td><td align="center">8.4G / 1.1s/it</td><td align="center">11.0G / 1.7s/it</td><td align="center">16.2G / 3.3s/it</td><td align="center">21.8G / 6.8s/it</td>
+    <tr>
+        <th rowspan="4">1.8B</th><td>LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">6.7G / 1.0s/it</td><td align="center">7.4G / 1.0s/it</td><td align="center">8.4G / 1.1s/it</td><td align="center">11.0G / 1.7s/it</td><td align="center">16.2G / 3.3s/it</td><td align="center">21.8G / 6.8s/it</td>
     </tr>
     <tr>
-        <td>LoRA (emb)</td><td align="center">13.7G / 1.0s/it</td><td align="center">14.0G / 1.0s/it</td><td align="center">14.0G / 1.1s/it</td><td align="center">15.1G / 1.8s/it</td><td align="center">19.7G / 3.4s/it</td><td align="center">27.7G / 7.0s/it</td>
+        <td>LoRA (emb)</td>
+        <td>1</td><td>1</td>
+        <td align="center">13.7G / 1.0s/it</td><td align="center">14.0G / 1.0s/it</td><td align="center">14.0G / 1.1s/it</td><td align="center">15.1G / 1.8s/it</td><td align="center">19.7G / 3.4s/it</td><td align="center">27.7G / 7.0s/it</td>
     </tr>
     <tr>
-        <td>Q-LoRA</td><td align="center">5.8G / 1.4s/it</td><td align="center">6.0G / 1.4s/it</td><td align="center">6.6G / 1.4s/it</td><td align="center">7.8G / 2.0s/it</td><td align="center">10.2G / 3.4s/it</td><td align="center">15.8G / 6.5s/it</td>
+        <td>Q-LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">5.8G / 1.4s/it</td><td align="center">6.0G / 1.4s/it</td><td align="center">6.6G / 1.4s/it</td><td align="center">7.8G / 2.0s/it</td><td align="center">10.2G / 3.4s/it</td><td align="center">15.8G / 6.5s/it</td>
     </tr>
     <tr>
-        <td>Full-parameter</td><td align="center">43.5G / 2.1s/it</td><td align="center">43.5G / 2.2s/it</td><td align="center">43.5G / 2.2s/it</td><td align="center">43.5G / 2.3s/it</td><td align="center">47.1G / 2.8s/it</td><td align="center">48.3G / 5.6s/it</td>
+        <td>Full-parameter</td>
+        <td>1</td><td>1</td>
+        <td align="center">43.5G / 2.1s/it</td><td align="center">43.5G / 2.2s/it</td><td align="center">43.5G / 2.2s/it</td><td align="center">43.5G / 2.3s/it</td><td align="center">47.1G / 2.8s/it</td><td align="center">48.3G / 5.6s/it</td>
     </tr>
     <tr>
-        <th rowspan="4">7B</th><td>LoRA</td><td align="center">20.1G / 1.2s/it</td><td align="center">20.4G / 1.5s/it</td><td align="center">21.5G / 2.8s/it</td><td align="center">23.8G / 5.2s/it</td><td align="center">29.7G / 10.1s/it</td><td align="center">36.6G / 21.3s/it</td>
+        <th rowspan="5">7B</th>
+        <td>LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">20.1G / 1.2s/it</td><td align="center">20.4G / 1.5s/it</td><td align="center">21.5G / 2.8s/it</td><td align="center">23.8G / 5.2s/it</td><td align="center">29.7G / 10.1s/it</td><td align="center">36.6G / 21.3s/it</td>
     </tr>
     <tr>
-        <td>LoRA (emb)</td><td align="center">33.7G / 1.4s/it</td><td align="center">34.1G / 1.6s/it</td><td align="center">35.2G / 2.9s/it</td><td align="center">35.1G / 5.3s/it</td><td align="center">39.2G / 10.3s/it</td><td align="center">48.5G / 21.7s/it</td>
+        <td>LoRA (emb)</td>
+        <td>1</td><td>1</td>
+        <td align="center">33.7G / 1.4s/it</td><td align="center">34.1G / 1.6s/it</td><td align="center">35.2G / 2.9s/it</td><td align="center">35.1G / 5.3s/it</td><td align="center">39.2G / 10.3s/it</td><td align="center">48.5G / 21.7s/it</td>
     </tr>
     <tr>
-        <td>Q-LoRA</td><td align="center">11.5G / 3.0s/it</td><td align="center">11.5G / 3.0s/it</td><td align="center">12.3G / 3.5s/it</td><td align="center">13.9G / 7.0s/it</td><td align="center">16.9G / 11.6s/it</td><td align="center">23.5G / 22.3s/it</td>
+        <td>Q-LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">11.5G / 3.0s/it</td><td align="center">11.5G / 3.0s/it</td><td align="center">12.3G / 3.5s/it</td><td align="center">13.9G / 7.0s/it</td><td align="center">16.9G / 11.6s/it</td><td align="center">23.5G / 22.3s/it</td>
     </tr>
     <tr>
-        <td>Full-parameter</td><td align="center">139.2G / 4.0s/it</td><td align="center">148.0G / 4.0s/it</td><td align="center">162.0G / 4.5s/it</td><td align="center">-</td><td align="center">-</td><td align="center">-</td>
+        <td>Full-parameter</td>
+<td>1</td><td>2</td>
+<td align="center">139.2G / 4.0s/it</td><td align="center">148.0G / 4.0s/it</td><td align="center">162.0G / 4.5s/it</td><td align="center">-</td><td align="center">-</td><td align="center">-</td>
     </tr>
     <tr>
-        <th rowspan="3">14B</th><td>LoRA</td><td align="center">34.6G / 1.6s/it</td><td align="center">35.1G / 2.4s/it</td><td align="center">35.3G / 4.4s/it</td><td align="center">37.4G / 8.4s/it</td><td align="center">42.5G / 17.0s/it</td><td align="center">55.2G / 36.0s/it</td>
+        <td>LoRA (multinode)</td>
+        <td>2</td><td>2</td>
+        <td align="center">74.7G / 2.09s/it</td><td align="center">77.6G / 3.16s/it</td><td align="center">84.9G / 5.17s/it</td><td align="center">95.1G / 9.25s/it</td><td align="center">121.1G / 18.1s/it</td><td align="center">155.5G / 37.4s/it</td>
     </tr>
     <tr>
-        <td>LoRA (emb)</td><td align="center">51.2 / 1.7s/it</td><td align="center">51.1G / 2.6s/it</td><td align="center">51.5G / 4.6s/it</td><td align="center">54.1G / 8.6s/it</td><td align="center">56.8G / 17.2s/it</td><td align="center">67.7G / 36.3s/it</td>
+        <th rowspan="3">14B</th>
+        <td>LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">34.6G / 1.6s/it</td><td align="center">35.1G / 2.4s/it</td><td align="center">35.3G / 4.4s/it</td><td align="center">37.4G / 8.4s/it</td><td align="center">42.5G / 17.0s/it</td><td align="center">55.2G / 36.0s/it</td>
     </tr>
     <tr>
-        <td>Q-LoRA</td><td align="center">18.7G / 5.3s/it</td><td align="center">18.4G / 6.3s/it</td><td align="center">18.9G / 8.2s/it</td><td align="center">19.9G / 11.8s/it</td><td align="center">23.0G / 20.1s/it</td><td align="center">27.9G / 38.3s/it</td>
-    </tr>
-	<tr>
-        <th rowspan="2">72B</th><td>LoRA + Deepspeed Zero3</td><td align="center">215.4G / 17.6s/it</td><td align="center">217.7G / 20.5s/it</td><td align="center">222.6G / 29.4s/it</td><td align="center">228.8G / 45.7s/it</td><td align="center">249.0G / 83.4s/it</td><td align="center">289.2G / 161.5s/it</td>
+        <td>LoRA (emb)</td>
+        <td>1</td><td>1</td>
+        <td align="center">51.2 / 1.7s/it</td><td align="center">51.1G / 2.6s/it</td><td align="center">51.5G / 4.6s/it</td><td align="center">54.1G / 8.6s/it</td><td align="center">56.8G / 17.2s/it</td><td align="center">67.7G / 36.3s/it</td>
     </tr>
     <tr>
-        <td>Q-LoRA</td><td align="center">61.4G / 27.4s/it</td><td align="center">61.4G / 31.5s/it</td><td align="center">62.9G / 41.4s/it</td><td align="center">64.1G / 59.5s/it</td><td align="center">68.0G / 97.7s/it</td><td align="center">75.6G / 179.8s/it</td>
+        <td>Q-LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">18.7G / 5.3s/it</td><td align="center">18.4G / 6.3s/it</td><td align="center">18.9G / 8.2s/it</td><td align="center">19.9G / 11.8s/it</td><td align="center">23.0G / 20.1s/it</td><td align="center">27.9G / 38.3s/it</td>
+    </tr>
+    <tr>
+        <th rowspan="2">72B</th>
+        <td>LoRA + Deepspeed Zero3</td>
+        <td>1</td><td>4</td>
+        <td align="center">215.4G / 17.6s/it</td><td align="center">217.7G / 20.5s/it</td><td align="center">222.6G / 29.4s/it</td><td align="center">228.8G / 45.7s/it</td><td align="center">249.0G / 83.4s/it</td><td align="center">289.2G / 161.5s/it</td>
+    </tr>
+    <tr>
+        <td>Q-LoRA</td>
+        <td>1</td><td>1</td>
+        <td align="center">61.4G / 27.4s/it</td><td align="center">61.4G / 31.5s/it</td><td align="center">62.9G / 41.4s/it</td><td align="center">64.1G / 59.5s/it</td><td align="center">68.0G / 97.7s/it</td><td align="center">75.6G / 179.8s/it</td>
     </tr>
 </table>
+
 <br>
 
 ## Deployment
@@ -798,7 +901,7 @@ The statistics are listed below:
 
 For deployment and fast inference, we suggest using vLLM. 
 
-If you use cuda 12.1 and pytorch 2.1, you can directly use the following command to install vLLM.
+If you use **CUDA 12.1 and PyTorch 2.1**, you can directly use the following command to install vLLM.
 
 ```bash
 pip install vllm
@@ -814,6 +917,7 @@ You can download the [wrapper codes](examples/vllm_wrapper.py) and execute the f
 from vllm_wrapper import vLLMWrapper
 
 model = vLLMWrapper('Qwen/Qwen-7B-Chat', tensor_parallel_size=1)
+# model = vLLMWrapper('Qwen/Qwen-7B-Chat-Int4', tensor_parallel_size=1, dtype="float16")
 
 response, history = model.chat(query="你好", history=None)
 print(response)
@@ -839,10 +943,12 @@ python -m fastchat.serve.controller
 Then you can launch the model worker, which means loading your model for inference. For single GPU inference, you can directly run:
 ```bash
 python -m fastchat.serve.vllm_worker --model-path $model_path --trust-remote-code --dtype bfloat16
+# python -m fastchat.serve.vllm_worker --model-path $model_path --trust-remote-code --dtype float16 # run int4 model
 ```
 However, if you hope to run the model on multiple GPUs for faster inference or larger memory, you can use tensor parallelism supported by vLLM. Suppose you run the model on 4 GPUs, the command is shown below:
 ```bash
 python -m fastchat.serve.vllm_worker --model-path $model_path --trust-remote-code --tensor-parallel-size 4 --dtype bfloat16
+# python -m fastchat.serve.vllm_worker --model-path $model_path --trust-remote-code --tensor-parallel-size 4 --dtype float16 # run int4 model
 ```
 
 After launching your model worker, you can launch a:
@@ -900,7 +1006,7 @@ python cli_demo.py
 We provide methods to deploy local API based on OpenAI API (thanks to @hanpenggit). Before you start, install the required packages:
 
 ```bash
-pip install fastapi uvicorn openai pydantic sse_starlette
+pip install fastapi uvicorn "openai<1.0" pydantic sse_starlette
 ```
 
 Then run the command to deploy your API:
@@ -960,6 +1066,7 @@ To simplify the deployment process, we provide docker images with pre-built envi
 1. Install the correct version of Nvidia driver depending on the image to use:
   - `qwenllm/qwen:cu117` (**recommend**): `>= 515.48.07`
   - `qwenllm/qwen:cu114` (w/o flash-attention): `>= 470.82.01`
+  - `qwenllm/qwen:cu121`: `>= 530.30.02`
   - `qwenllm/qwen:latest`: same as `qwenllm/qwen:cu117`
 
 2. Install and configure [docker](https://docs.docker.com/engine/install/) and [nvidia-container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html):
@@ -1076,22 +1183,28 @@ We have tested the model's tool calling capabilities on our open-source Chinese 
 
 <table>
     <tr>
-        <th colspan="4" align="center">Chinese Tool-Use Benchmark</th>
+        <th colspan="4" align="center">Chinese Tool-Use Benchmark (Version 20231206)</th>
     </tr>
     <tr>
         <th align="center">Model</th><th align="center">Tool Selection (Acc.↑)</th><th align="center">Tool Input (Rouge-L↑)</th><th align="center">False Positive Error↓</th>
     </tr>
     <tr>
-        <td>GPT-4</td><td align="center">95%</td><td align="center">0.90</td><td align="center">15.0%</td>
+        <td>GPT-4</td><td align="center">98.0%</td><td align="center">0.953</td><td align="center">23.9%</td>
     </tr>
     <tr>
-        <td>GPT-3.5</td><td align="center">85%</td><td align="center">0.88</td><td align="center">75.0%</td>
+        <td>GPT-3.5</td><td align="center">74.5%</td><td align="center">0.807</td><td align="center">80.6%</td>
     </tr>
     <tr>
-        <td>Qwen-7B-Chat</td><td align="center">98%</td><td align="center">0.91</td><td align="center">7.3%</td>
+        <td>Qwen-1_8B-Chat</td><td align="center">85.0%</td><td align="center">0.839</td><td align="center">27.6%</td>
     </tr>
     <tr>
-        <td>Qwen-14B-Chat</td><td align="center">98%</td><td align="center">0.93</td><td align="center">2.4%</td>
+        <td>Qwen-7B-Chat</td><td align="center">95.5%</td><td align="center">0.900</td><td align="center">11.6%</td>
+    </tr>
+    <tr>
+        <td>Qwen-14B-Chat</td><td align="center">96.9%</td><td align="center">0.917</td><td align="center">5.6%</td>
+    </tr>
+    <tr>
+        <td>Qwen-72B-Chat</td><td align="center">98.2%</td><td align="center">0.927</td><td align="center">1.1%</td>
     </tr>
 </table>
 
@@ -1101,127 +1214,85 @@ We have observed that Qwen performs well in terms of code executability and resu
 
 <table>
     <tr>
-        <th colspan="4" align="center">Executable Rate of Generated Code (%)</th>
+        <th colspan="5" align="center">Code Interpreter Benchmark (Version 20231206)</th>
     </tr>
     <tr>
-        <th align="center">Model</th><th align="center">Math↑</th><th align="center">Visualization↑</th><th align="center">General↑</th>
+        <th rowspan="2" align="center">Model</th>
+        <th colspan="3" align="center">Accuracy of Code Execution Results (%)</th>
+        <th colspan="1" align="center">Executable Rate of Code (%)</th>
     </tr>
     <tr>
-        <td>GPT-4</td><td align="center">91.9</td><td align="center">85.9</td><td align="center">82.8</td>
+        <th align="center">Math↑</th><th align="center">Visualization-Hard↑</th><th align="center">Visualization-Easy↑</th><th align="center">General↑</th>
     </tr>
     <tr>
-        <td>GPT-3.5</td><td align="center">89.2</td><td align="center">65.0</td><td align="center">74.1</td>
+        <td>GPT-4</td>
+        <td align="center">82.8</td>
+        <td align="center">66.7</td>
+        <td align="center">60.8</td>
+        <td align="center">82.8</td>
     </tr>
     <tr>
-        <td>LLaMA2-7B-Chat</td>
-        <td align="center">41.9</td>
-        <td align="center">33.1</td>
-        <td align="center">24.1 </td>
-    </tr>
-    <tr>
-        <td>LLaMA2-13B-Chat</td>
-        <td align="center">50.0</td>
-        <td align="center">40.5</td>
-        <td align="center">48.3 </td>
-    </tr>
-    <tr>
-        <td>CodeLLaMA-7B-Instruct</td>
-        <td align="center">85.1</td>
-        <td align="center">54.0</td>
-        <td align="center">70.7 </td>
-    </tr>
-    <tr>
-        <td>CodeLLaMA-13B-Instruct</td>
-        <td align="center">93.2</td>
-        <td align="center">55.8</td>
-        <td align="center">74.1 </td>
-    </tr>
-    <tr>
-        <td>InternLM-7B-Chat-v1.1</td>
-        <td align="center">78.4</td>
-        <td align="center">44.2</td>
-        <td align="center">62.1 </td>
-    </tr>
-    <tr>
-        <td>InternLM-20B-Chat</td>
-        <td align="center">70.3</td>
-        <td align="center">44.2</td>
-        <td align="center">65.5 </td>
-    </tr>
-    <tr>
-        <td>Qwen-7B-Chat</td>
-        <td align="center">82.4</td>
-        <td align="center">64.4</td>
-        <td align="center">67.2 </td>
-    </tr>
-    <tr>
-        <td>Qwen-14B-Chat</td>
-        <td align="center">89.2</td>
-        <td align="center">84.1</td>
-        <td align="center">65.5</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th colspan="4" align="center">Accuracy of Code Execution Results (%)</th>
-    </tr>
-    <tr>
-        <th align="center">Model</th><th align="center">Math↑</th><th align="center">Visualization-Hard↑</th><th align="center">Visualization-Easy↑</th>
-    </tr>
-    <tr>
-        <td>GPT-4</td><td align="center">82.8</td><td align="center">66.7</td><td align="center">60.8</td>
-    </tr>
-    <tr>
-        <td>GPT-3.5</td><td align="center">47.3</td><td align="center">33.3</td><td align="center">55.7</td>
-    </tr>
-    <tr>
-        <td>LLaMA2-7B-Chat</td>
-        <td align="center">3.9</td>
-        <td align="center">14.3</td>
-        <td align="center">39.2 </td>
+        <td>GPT-3.5</td>
+        <td align="center">47.3</td>
+        <td align="center">33.3</td>
+        <td align="center">55.7</td>
+        <td align="center">74.1</td>
     </tr>
     <tr>
         <td>LLaMA2-13B-Chat</td>
         <td align="center">8.3</td>
-        <td align="center">8.3</td>
-        <td align="center">40.5 </td>
-    </tr>
-    <tr>
-        <td>CodeLLaMA-7B-Instruct</td>
-        <td align="center">14.3</td>
-        <td align="center">26.2</td>
-        <td align="center">60.8 </td>
+        <td align="center">1.2</td>
+        <td align="center">15.2</td>
+        <td align="center">48.3</td>
     </tr>
     <tr>
         <td>CodeLLaMA-13B-Instruct</td>
         <td align="center">28.2</td>
-        <td align="center">27.4</td>
-        <td align="center">62.0 </td>
-    </tr>
-    <tr>
-        <td>InternLM-7B-Chat-v1.1</td>
-        <td align="center">28.5</td>
-        <td align="center">4.8</td>
-        <td align="center">40.5 </td>
+        <td align="center">15.5</td>
+        <td align="center">21.5</td>
+        <td align="center">74.1</td>
     </tr>
     <tr>
         <td>InternLM-20B-Chat</td>
         <td align="center">34.6</td>
+        <td align="center">10.7</td>
+        <td align="center">25.1</td>
+        <td align="center">65.5</td>
+    </tr>
+    <tr>
+        <td>ChatGLM3-6B</td>
+        <td align="center">54.2</td>
+        <td align="center">4.8</td>
+        <td align="center">15.2</td>
+        <td align="center">67.1</td>
+    </tr>
+    <tr>
+        <td>Qwen-1.8B-Chat</td>
+        <td align="center">25.6</td>
         <td align="center">21.4</td>
-        <td align="center">45.6 </td>
+        <td align="center">22.8</td>
+        <td align="center">65.5</td>
     </tr>
     <tr>
         <td>Qwen-7B-Chat</td>
         <td align="center">41.9</td>
-        <td align="center">40.5</td>
-        <td align="center">54.4 </td>
+        <td align="center">23.8</td>
+        <td align="center">38.0</td>
+        <td align="center">67.2</td>
     </tr>
     <tr>
         <td>Qwen-14B-Chat</td>
         <td align="center">58.4</td>
-        <td align="center">53.6</td>
-        <td align="center">59.5</td>
+        <td align="center">31.0</td>
+        <td align="center">45.6</td>
+        <td align="center">65.5</td>
+    </tr>
+    <tr>
+        <td>Qwen-72B-Chat</td>
+        <td align="center">72.7</td>
+        <td align="center">41.7</td>
+        <td align="center">43.0</td>
+        <td align="center">82.8</td>
     </tr>
 </table>
 
@@ -1230,62 +1301,6 @@ We have observed that Qwen performs well in terms of code executability and resu
     <img src="assets/code_interpreter_showcase_001.jpg" />
     <br>
 <p>
-
-In addition, we also provide experimental results demonstrating that our model is capable of acting as a HuggingFace Agent. For more information, please refer to the [example documentation](examples/transformers_agent.md). The model's performance on the evaluation dataset provided by Hugging Face is as follows:
-
-<table>
-    <tr>
-        <th colspan="4" align="center">HuggingFace Agent Benchmark- Run Mode</th>
-    </tr>
-    <tr>
-        <th align="center">Model</th><th align="center">Tool Selection↑</th><th align="center">Tool Used↑</th><th align="center">Code↑</th>
-    </tr>
-    <tr>
-        <td>GPT-4</td><td align="center">100</td><td align="center">100</td><td align="center">97.4</td>
-    </tr>
-    <tr>
-        <td>GPT-3.5</td><td align="center">95.4</td><td align="center">96.3</td><td align="center">87.0</td>
-    </tr>
-    <tr>
-        <td>StarCoder-Base-15B</td><td align="center">86.1</td><td align="center">87.0</td><td align="center">68.9</td>
-    </tr>
-    <tr>
-        <td>StarCoder-15B</td><td align="center">87.0</td><td align="center">88.0</td><td align="center">68.9</td>
-    </tr>
-    <tr>
-        <td>Qwen-7B-Chat</td><td align="center">87.0</td><td align="center">87.0</td><td align="center">71.5</td>
-    </tr>
-    <tr>
-        <td>Qwen-14B-Chat</td><td align="center">93.5</td><td align="center">94.4</td><td align="center">87.0</td>
-    </tr>
-</table>
-
-<table>
-    <tr>
-        <th colspan="4" align="center">HuggingFace Agent Benchmark - Chat Mode</th>
-    </tr>
-    <tr>
-        <th align="center">Model</th><th align="center">Tool Selection↑</th><th align="center">Tool Used↑</th><th align="center">Code↑</th>
-    </tr>
-    <tr>
-        <td>GPT-4</td><td align="center">97.9</td><td align="center">97.9</td><td align="center">98.5</td>
-    </tr>
-    <tr>
-        <td>GPT-3.5</td><td align="center">97.3</td><td align="center">96.8</td><td align="center">89.6</td>
-    </tr>
-    <tr>
-        <td>StarCoder-Base-15B</td><td align="center">97.9</td><td align="center">97.9</td><td align="center">91.1</td>
-    </tr>
-    <tr>
-        <td>StarCoder-15B</td><td align="center">97.9</td><td align="center">97.9</td><td align="center">89.6</td>
-    </tr>
-    <tr>
-        <td>Qwen-7B-Chat</td><td align="center">94.7</td><td align="center">94.7</td><td align="center">85.1</td>
-    </tr>
-    <tr>
-        <td>Qwen-14B-Chat</td><td align="center">97.9</td><td align="center">97.9</td><td align="center">95.5</td>
-    </tr>
-</table>
 
 <br>
 

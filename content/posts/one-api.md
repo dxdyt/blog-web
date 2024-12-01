@@ -1,9 +1,9 @@
 ---
 title: one-api
-date: 2024-05-09T12:21:32+08:00
+date: 2024-12-01T12:24:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711787014627-ec54e216e64b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711787014627-ec54e216e64b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUyMjgzNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729876502709-3d496293db5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729876502709-3d496293db5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
 ---
 
 # [songquanpeng/one-api](https://github.com/songquanpeng/one-api)
@@ -63,7 +63,7 @@ _✨ 通过标准的 OpenAI API 格式访问所有的大模型，开箱即用 �
 
 > [!NOTE]
 > 本项目为开源项目，使用者必须在遵循 OpenAI 的[使用条款](https://openai.com/policies/terms-of-use)以及**法律法规**的情况下使用，不得用于非法用途。
-> 
+>
 > 根据[《生成式人工智能服务管理暂行办法》](http://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm)的要求，请勿对中国地区公众提供一切未经备案的生成式人工智能服务。
 
 > [!WARNING]
@@ -78,6 +78,7 @@ _✨ 通过标准的 OpenAI API 格式访问所有的大模型，开箱即用 �
    + [x] [Anthropic Claude 系列模型](https://anthropic.com) (支持 AWS Claude)
    + [x] [Google PaLM2/Gemini 系列模型](https://developers.generativeai.google)
    + [x] [Mistral 系列模型](https://mistral.ai/)
+   + [x] [字节跳动豆包大模型](https://console.volcengine.com/ark/region:ark+cn-beijing/model)
    + [x] [百度文心一言系列模型](https://cloud.baidu.com/doc/WENXINWORKSHOP/index.html)
    + [x] [阿里通义千问系列模型](https://help.aliyun.com/document_detail/2400395.html)
    + [x] [讯飞星火认知大模型](https://www.xfyun.cn/doc/spark/Web.html)
@@ -86,7 +87,6 @@ _✨ 通过标准的 OpenAI API 格式访问所有的大模型，开箱即用 �
    + [x] [腾讯混元大模型](https://cloud.tencent.com/document/product/1729)
    + [x] [Moonshot AI](https://platform.moonshot.cn/)
    + [x] [百川大模型](https://platform.baichuan-ai.com)
-   + [ ] [字节云雀大模型](https://www.volcengine.com/product/ark) (WIP)
    + [x] [MINIMAX](https://api.minimax.chat/)
    + [x] [Groq](https://wow.groq.com/)
    + [x] [Ollama](https://github.com/ollama/ollama)
@@ -98,6 +98,9 @@ _✨ 通过标准的 OpenAI API 格式访问所有的大模型，开箱即用 �
    + [x] [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/)
    + [x] [DeepL](https://www.deepl.com/)
    + [x] [together.ai](https://www.together.ai/)
+   + [x] [novita.ai](https://www.novita.ai/)
+   + [x] [硅基流动 SiliconCloud](https://siliconflow.cn/siliconcloud)
+   + [x] [xAI](https://x.ai/)
 2. 支持配置镜像以及众多[第三方代理服务](https://iamazing.cn/page/openai-api-third-party-services)。
 3. 支持通过**负载均衡**的方式访问多个渠道。
 4. 支持 **stream 模式**，可以通过流式传输实现打字机效果。
@@ -154,7 +157,7 @@ Nginx 的参考配置：
 ```
 server{
    server_name openai.justsong.cn;  # 请根据实际情况修改你的域名
-   
+
    location / {
           client_max_body_size  64m;
           proxy_http_version 1.1;
@@ -199,12 +202,12 @@ docker-compose ps
 1. 从 [GitHub Releases](https://github.com/songquanpeng/one-api/releases/latest) 下载可执行文件或者从源码编译：
    ```shell
    git clone https://github.com/songquanpeng/one-api.git
-   
+
    # 构建前端
    cd one-api/web/default
    npm install
    npm run build
-   
+
    # 构建后端
    cd ../..
    go mod download
@@ -260,9 +263,9 @@ docker run --name chatgpt-web -d -p 3002:3002 -e OPENAI_API_BASE_URL=https://ope
 #### QChatGPT - QQ机器人
 项目主页：https://github.com/RockChinQ/QChatGPT
 
-根据文档完成部署后，在`config.py`设置配置项`openai_config`的`reverse_proxy`为 One API 后端地址，设置`api_key`为 One API 生成的key，并在配置项`completion_api_params`的`model`参数设置为 One API 支持的模型名称。
+根据[文档](https://qchatgpt.rockchin.top)完成部署后，在 `data/provider.json`设置`requester.openai-chat-completions.base-url`为 One API 实例地址，并填写 API Key 到 `keys.openai` 组中，设置 `model` 为要使用的模型名称。
 
-可安装 [Switcher 插件](https://github.com/RockChinQ/Switcher)在运行时切换所使用的模型。
+运行期间可以通过`!model`命令查看、切换可用模型。
 
 ### 部署到第三方平台
 <details>
@@ -331,7 +334,7 @@ Render 可以直接部署 docker 镜像，不需要 fork 仓库：https://dashbo
 例如对于 OpenAI 的官方库：
 ```bash
 OPENAI_API_KEY="sk-xxxxxx"
-OPENAI_API_BASE="https://<HOST>:<PORT>/v1" 
+OPENAI_API_BASE="https://<HOST>:<PORT>/v1"
 ```
 
 ```mermaid
@@ -350,6 +353,7 @@ graph LR
 不加的话将会使用负载均衡的方式使用多个渠道。
 
 ### 环境变量
+> One API 支持从 `.env` 文件中读取环境变量，请参照 `.env.example` 文件，使用时请将其重命名为 `.env`。
 1. `REDIS_CONN_STRING`：设置之后将使用 Redis 作为缓存使用。
    + 例子：`REDIS_CONN_STRING=redis://default:redispw@localhost:49153`
    + 如果数据库访问延迟很低，没有必要启用 Redis，启用后反而会出现数据滞后的问题。
@@ -378,30 +382,35 @@ graph LR
    + 例子：`NODE_TYPE=slave`
 9. `CHANNEL_UPDATE_FREQUENCY`：设置之后将定期更新渠道余额，单位为分钟，未设置则不进行更新。
    + 例子：`CHANNEL_UPDATE_FREQUENCY=1440`
-10. `CHANNEL_TEST_FREQUENCY`：设置之后将定期检查渠道，单位为分钟，未设置则不进行检查。
-11. 例子：`CHANNEL_TEST_FREQUENCY=1440`
-12. `POLLING_INTERVAL`：批量更新渠道余额以及测试可用性时的请求间隔，单位为秒，默认无间隔。
+10. `CHANNEL_TEST_FREQUENCY`：设置之后将定期检查渠道，单位为分钟，未设置则不进行检查。 
+   +例子：`CHANNEL_TEST_FREQUENCY=1440`
+11. `POLLING_INTERVAL`：批量更新渠道余额以及测试可用性时的请求间隔，单位为秒，默认无间隔。
     + 例子：`POLLING_INTERVAL=5`
-13. `BATCH_UPDATE_ENABLED`：启用数据库批量更新聚合，会导致用户额度的更新存在一定的延迟可选值为 `true` 和 `false`，未设置则默认为 `false`。
+12. `BATCH_UPDATE_ENABLED`：启用数据库批量更新聚合，会导致用户额度的更新存在一定的延迟可选值为 `true` 和 `false`，未设置则默认为 `false`。
     + 例子：`BATCH_UPDATE_ENABLED=true`
     + 如果你遇到了数据库连接数过多的问题，可以尝试启用该选项。
-14. `BATCH_UPDATE_INTERVAL=5`：批量更新聚合的时间间隔，单位为秒，默认为 `5`。
+13. `BATCH_UPDATE_INTERVAL=5`：批量更新聚合的时间间隔，单位为秒，默认为 `5`。
     + 例子：`BATCH_UPDATE_INTERVAL=5`
-15. 请求频率限制：
+14. 请求频率限制：
     + `GLOBAL_API_RATE_LIMIT`：全局 API 速率限制（除中继请求外），单 ip 三分钟内的最大请求数，默认为 `180`。
     + `GLOBAL_WEB_RATE_LIMIT`：全局 Web 速率限制，单 ip 三分钟内的最大请求数，默认为 `60`。
-16. 编码器缓存设置：
+15. 编码器缓存设置：
     + `TIKTOKEN_CACHE_DIR`：默认程序启动时会联网下载一些通用的词元的编码，如：`gpt-3.5-turbo`，在一些网络环境不稳定，或者离线情况，可能会导致启动有问题，可以配置此目录缓存数据，可迁移到离线环境。
     + `DATA_GYM_CACHE_DIR`：目前该配置作用与 `TIKTOKEN_CACHE_DIR` 一致，但是优先级没有它高。
-17. `RELAY_TIMEOUT`：中继超时设置，单位为秒，默认不设置超时时间。
-18. `SQLITE_BUSY_TIMEOUT`：SQLite 锁等待超时设置，单位为毫秒，默认 `3000`。
-19. `GEMINI_SAFETY_SETTING`：Gemini 的安全设置，默认 `BLOCK_NONE`。
-20. `GEMINI_VERSION`：One API 所使用的 Gemini 版本，默认为 `v1`。
-21. `THEME`：系统的主题设置，默认为 `default`，具体可选值参考[此处](./web/README.md)。
-22. `ENABLE_METRIC`：是否根据请求成功率禁用渠道，默认不开启，可选值为 `true` 和 `false`。
-23. `METRIC_QUEUE_SIZE`：请求成功率统计队列大小，默认为 `10`。
-24. `METRIC_SUCCESS_RATE_THRESHOLD`：请求成功率阈值，默认为 `0.8`。
-25. `INITIAL_ROOT_TOKEN`：如果设置了该值，则在系统首次启动时会自动创建一个值为该环境变量值的 root 用户令牌。
+16. `RELAY_TIMEOUT`：中继超时设置，单位为秒，默认不设置超时时间。
+17. `RELAY_PROXY`：设置后使用该代理来请求 API。
+18. `USER_CONTENT_REQUEST_TIMEOUT`：用户上传内容下载超时时间，单位为秒。
+19. `USER_CONTENT_REQUEST_PROXY`：设置后使用该代理来请求用户上传的内容，例如图片。
+20. `SQLITE_BUSY_TIMEOUT`：SQLite 锁等待超时设置，单位为毫秒，默认 `3000`。
+21. `GEMINI_SAFETY_SETTING`：Gemini 的安全设置，默认 `BLOCK_NONE`。
+22. `GEMINI_VERSION`：One API 所使用的 Gemini 版本，默认为 `v1`。
+23. `THEME`：系统的主题设置，默认为 `default`，具体可选值参考[此处](./web/README.md)。
+24. `ENABLE_METRIC`：是否根据请求成功率禁用渠道，默认不开启，可选值为 `true` 和 `false`。
+25. `METRIC_QUEUE_SIZE`：请求成功率统计队列大小，默认为 `10`。
+26. `METRIC_SUCCESS_RATE_THRESHOLD`：请求成功率阈值，默认为 `0.8`。
+27. `INITIAL_ROOT_TOKEN`：如果设置了该值，则在系统首次启动时会自动创建一个值为该环境变量值的 root 用户令牌。
+28. `INITIAL_ROOT_ACCESS_TOKEN`：如果设置了该值，则在系统首次启动时会自动创建一个值为该环境变量的 root 用户创建系统管理令牌。
+29. `ENFORCE_INCLUDE_USAGE`：是否强制在 stream 模型下返回 usage，默认不开启，可选值为 `true` 和 `false`。
 
 ### 命令行参数
 1. `--port <port_number>`: 指定服务器监听的端口号，默认为 `3000`。
@@ -454,6 +463,8 @@ https://openai.justsong.cn
 ## 相关项目
 * [FastGPT](https://github.com/labring/FastGPT): 基于 LLM 大语言模型的知识库问答系统
 * [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web):  一键拥有你自己的跨平台 ChatGPT 应用
+* [VChart](https://github.com/VisActor/VChart):  不只是开箱即用的多端图表库，更是生动灵活的数据故事讲述者。
+* [VMind](https://github.com/VisActor/VMind):  不仅自动，还很智能。开源智能可视化解决方案。
 
 ## 注意
 

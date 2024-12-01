@@ -1,9 +1,9 @@
 ---
 title: InfoSec-Black-Friday
-date: 2024-11-30T12:21:29+08:00
+date: 2024-12-01T12:23:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730484579875-958613d9646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI5NDA0MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730484579875-958613d9646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI5NDA0MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730669185590-2ed0736948d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730669185590-2ed0736948d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
 ---
 
 # [0x90n/InfoSec-Black-Friday](https://github.com/0x90n/InfoSec-Black-Friday)
