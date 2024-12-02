@@ -1,9 +1,9 @@
 ---
 title: iptvnator
-date: 2024-12-01T12:23:33+08:00
+date: 2024-12-02T12:21:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732459996749-e39500ee6063?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732459996749-e39500ee6063?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731271326853-984d03c7988a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731271326853-984d03c7988a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [4gray/iptvnator](https://github.com/4gray/iptvnator)

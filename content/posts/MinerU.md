@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-12-01T12:23:12+08:00
+date: 2024-12-02T12:21:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731251401742-cf6a8353baa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731251401742-cf6a8353baa9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731451162502-491cf56d78ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731451162502-491cf56d78ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)

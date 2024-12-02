@@ -1,14 +1,14 @@
 ---
 title: Qwen-Agent
-date: 2024-03-09T12:14:45+08:00
+date: 2024-12-02T12:23:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708058885492-09ef26cd4af8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk5NTc2MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731902062633-1496d7bcf95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731902062633-1496d7bcf95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
 
-[中文](./README_CN.md) ｜ English
+[中文](https://github.com/QwenLM/Qwen-Agent/blob/main/README_CN.md) ｜ English
 
 <p align="center">
     <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/logo-qwen-agent.png" width="400"/>
@@ -19,64 +19,66 @@ Qwen-Agent is a framework for developing LLM applications based on the instructi
 memory capabilities of Qwen.
 It also comes with example applications such as Browser Assistant, Code Interpreter, and Custom Assistant.
 
+# News
+* 🔥🔥🔥 Sep 18, 2024: Added [Qwen2.5-Math Demo](./examples/tir_math.py) to showcase the Tool-Integrated Reasoning capabilities of Qwen2.5-Math. Note: The python executor is not sandboxed and is intended for local testing only, not for production use.
+
 # Getting Started
 
 ## Installation
 
+- Install the stable version from PyPI:
 ```bash
-# Install dependencies.
+pip install -U "qwen-agent[gui,rag,code_interpreter,python_executor]"
+# Or use `pip install -U qwen-agent` for the minimal requirements.
+# The optional requirements, specified in double brackets, are:
+#   [gui] for Gradio-based GUI support;
+#   [rag] for RAG support;
+#   [code_interpreter] for Code Interpreter support;
+#   [python_executor] for Tool-Integrated Reasoning with Qwen2.5-Math.
+```
+
+- Alternatively, you can install the latest development version from the source:
+```bash
 git clone https://github.com/QwenLM/Qwen-Agent.git
 cd Qwen-Agent
-pip install -e ./
+pip install -e ./"[gui,rag,code_interpreter,python_executor]"
+# Or `pip install -e ./` for minimal requirements.
 ```
 
 ## Preparation: Model Service
 
-You can either use the model service provided by Alibaba Cloud's [DashScope](https://help.aliyun.com/zh/dashscope/developer-reference/quick-start), or deploy and use your own model service using the open-source Qwen models.
+You can either use the model service provided by Alibaba
+Cloud's [DashScope](https://help.aliyun.com/zh/dashscope/developer-reference/quick-start), or deploy and use your own
+model service using the open-source Qwen models.
 
-If you choose to use the model service offered by DashScope, please ensure that you set the environment variable `DASHSCOPE_API_KEY` to your unique DashScope API key.
+- If you choose to use the model service offered by DashScope, please ensure that you set the environment
+variable `DASHSCOPE_API_KEY` to your unique DashScope API key.
 
-Alternatively, if you prefer to deploy and utilize your own model service, kindly follow the instructions outlined in the [Deployment](https://github.com/QwenLM/Qwen1.5?tab=readme-ov-file#deployment) section of Qwen1.5's README to start an OpenAI-compatible API service.
+- Alternatively, if you prefer to deploy and use your own model service, please follow the instructions provided in the README of Qwen2 for deploying an OpenAI-compatible API service.
+Specifically, consult the [vLLM](https://github.com/QwenLM/Qwen2?tab=readme-ov-file#vllm) section for high-throughput GPU deployment or the [Ollama](https://github.com/QwenLM/Qwen2?tab=readme-ov-file#ollama) section for local CPU (+GPU) deployment.
 
 ## Developing Your Own Agent
 
-Qwen-Agent provides atomic components such as LLMs and prompts, as well as high-level components such as Agents. The
-example below uses the Assistant component as an illustration, demonstrating how to add custom tools and quickly develop
-an agent that uses tools.
+Qwen-Agent offers atomic components, such as LLMs (which inherit from `class BaseChatModel` and come with [function calling](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/function_calling.py)) and Tools (which inherit
+from `class BaseTool`), along with high-level components like Agents (derived from `class Agent`).
+
+The following example illustrates the process of creating an agent capable of reading PDF files and utilizing tools, as
+well as incorporating a custom tool:
 
 ```py
-import json
-import os
-
-import json5
+import pprint
 import urllib.parse
+import json5
 from qwen_agent.agents import Assistant
 from qwen_agent.tools.base import BaseTool, register_tool
 
-llm_cfg = {
-    # Use the model service provided by DashScope:
-    'model': 'qwen-max',
-    'model_server': 'dashscope',
-    # 'api_key': 'YOUR_DASHSCOPE_API_KEY',
-    # It will use the `DASHSCOPE_API_KEY' environment variable if 'api_key' is not set here.
 
-    # Use your own model service compatible with OpenAI API:
-    # 'model': 'Qwen/Qwen1.5-72B-Chat',
-    # 'model_server': 'http://localhost:8000/v1',  # api_base
-    # 'api_key': 'EMPTY',
-
-    # (Optional) LLM hyperparameters for generation:
-    'generate_cfg': {
-        'top_p': 0.8
-    }
-}
-system = 'According to the user\'s request, you first draw a picture and then automatically run code to download the picture ' + \
-          'and select an image operation from the given document to process the image'
-
-# Add a custom tool named my_image_gen：
+# Step 1 (Optional): Add a custom tool named `my_image_gen`.
 @register_tool('my_image_gen')
 class MyImageGen(BaseTool):
+    # The `description` tells the agent the functionality of this tool.
     description = 'AI painting (image generation) service, input text description, and return the image URL drawn based on text information.'
+    # The `parameters` tell the agent what input parameters the tool has.
     parameters = [{
         'name': 'prompt',
         'type': 'string',
@@ -85,143 +87,84 @@ class MyImageGen(BaseTool):
     }]
 
     def call(self, params: str, **kwargs) -> str:
+        # `params` are the arguments generated by the LLM agent.
         prompt = json5.loads(params)['prompt']
         prompt = urllib.parse.quote(prompt)
-        return json.dumps(
+        return json5.dumps(
             {'image_url': f'https://image.pollinations.ai/prompt/{prompt}'},
             ensure_ascii=False)
 
 
-tools = ['my_image_gen', 'code_interpreter']  # code_interpreter is a built-in tool in Qwen-Agent
-bot = Assistant(llm=llm_cfg,
-                system_message=system,
-                function_list=tools,
-                files=[os.path.abspath('doc.pdf')])
+# Step 2: Configure the LLM you are using.
+llm_cfg = {
+    # Use the model service provided by DashScope:
+    'model': 'qwen-max',
+    'model_server': 'dashscope',
+    # 'api_key': 'YOUR_DASHSCOPE_API_KEY',
+    # It will use the `DASHSCOPE_API_KEY' environment variable if 'api_key' is not set here.
 
-messages = []
+    # Use a model service compatible with the OpenAI API, such as vLLM or Ollama:
+    # 'model': 'Qwen2-7B-Chat',
+    # 'model_server': 'http://localhost:8000/v1',  # base_url, also known as api_base
+    # 'api_key': 'EMPTY',
+
+    # (Optional) LLM hyperparameters for generation:
+    'generate_cfg': {
+        'top_p': 0.8
+    }
+}
+
+# Step 3: Create an agent. Here we use the `Assistant` agent as an example, which is capable of using tools and reading files.
+system_instruction = '''You are a helpful assistant.
+After receiving the user's request, you should:
+- first draw an image and obtain the image url,
+- then run code `request.get(image_url)` to download the image,
+- and finally select an image operation from the given document to process the image.
+Please show the image using `plt.show()`.'''
+tools = ['my_image_gen', 'code_interpreter']  # `code_interpreter` is a built-in tool for executing code.
+files = ['./examples/resource/doc.pdf']  # Give the bot a PDF file to read.
+bot = Assistant(llm=llm_cfg,
+                system_message=system_instruction,
+                function_list=tools,
+                files=files)
+
+# Step 4: Run the agent as a chatbot.
+messages = []  # This stores the chat history.
 while True:
-    query = input('user question: ')
+    # For example, enter the query "draw a dog and rotate it 90 degrees".
+    query = input('user query: ')
+    # Append the user query to the chat history.
     messages.append({'role': 'user', 'content': query})
     response = []
     for response in bot.run(messages=messages):
-        print('bot response:', response)
+        # Streaming output.
+        print('bot response:')
+        pprint.pprint(response, indent=2)
+    # Append the bot responses to the chat history.
     messages.extend(response)
 ```
 
-The framework also provides more atomic components for developers to combine. For additional showcases, please refer to
-the [examples](./examples) directory.
+In addition to using built-in agent implentations such as `class Assistant`, you can also develop your own agent implemetation by inheriting from `class Agent`.
+Please refer to the [examples](https://github.com/QwenLM/Qwen-Agent/blob/main/examples) directory for more usage examples.
 
-# Example Application: BrowserQwen
+# FAQ
 
-We have also developed an example application based on Qwen-Agent: a **Chrome browser extension** called BrowserQwen,
-which has key features such as:
+## Do you have function calling (aka tool calling)?
 
-- You can discuss with Qwen regarding the current webpage or PDF document.
-- It records the web pages and PDF/Word/PowerPoint materials that you have browsed. It helps you understand multiple
-  pages, summarize your browsing content, and automate writing tasks.
-- It comes with plugin integration, including **Code Interpreter** for math problem solving and data visualization.
+Yes. The LLM classes provide [function calling](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/function_calling.py). Additionally, some Agent classes also are built upon the function calling capability, e.g., FnCallAgent and ReActChat.
 
-## BrowserQwen Demonstration
+## How to do question-answering over super-long documents involving 1M tokens?
 
-You can watch the following showcase videos to learn about the basic operations of BrowserQwen:
+We have released [a fast RAG solution](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/assistant_rag.py), as well as [an expensive but competitive agent](https://github.com/QwenLM/Qwen-Agent/blob/main/examples/parallel_doc_qa.py), for doing question-answering over super-long documents. They have managed to outperform native long-context models on two challenging benchmarks while being more efficient, and perform perfectly in the single-needle "needle-in-the-haystack" pressure test involving 1M-token contexts. See the [blog](https://qwenlm.github.io/blog/qwen-agent-2405/) for technical details.
 
-- Long-form writing based on visited webpages and
-  PDFs. [video](https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/showcase_write_article_based_on_webpages_and_pdfs.mp4)
-- Drawing a plot using code interpreter based on the given
-  information. [video](https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/showcase_chat_with_docs_and_code_interpreter.mp4)
-- Uploading files, multi-turn conversation, and data analysis using code
-  interpreter. [video](https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/showcase_code_interpreter_multi_turn_chat.mp4)
+<p align="center">
+    <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/assets/qwen_agent/qwen-agent-2405-blog-long-context-results.png" width="400"/>
+<p>
 
-### Workstation - Editor Mode
+# Application: BrowserQwen
 
-**This mode is designed for creating long articles based on browsed web pages and PDFs.**
-
-<figure>
-    <img src="assets/screenshot-writing.png">
-</figure>
-
-**It allows you to call plugins to assist in rich text creation.**
-
-<figure>
-    <img src="assets/screenshot-editor-movie.png">
-</figure>
-
-### Workstation - Chat Mode
-
-**In this mode, you can engage in multi-webpage QA.**
-
-<figure >
-    <img src="assets/screenshot-multi-web-qa.png">
-</figure>
-
-**Create data charts using the code interpreter.**
-
-<figure>
-    <img src="assets/screenshot-ci.png">
-</figure>
-
-### Browser Assistant
-
-**Web page QA**
-
-<figure>
-    <img src="assets/screenshot-web-qa.png">
-</figure>
-
-**PDF document QA**
-
-<figure>
-    <img src="assets/screenshot-pdf-qa.png">
-</figure>
-
-## BrowserQwen User Guide
-
-### Step 1. Deploy Local Database Service
-
-On your local machine (the machine where you can open the Chrome browser), you will need to deploy a database service to
-manage your browsing history and conversation history.
-
-If you are using DashScope's model service, then please execute the following command:
-
-```bash
-# Start the database service, specifying the model on DashScope by using the --llm flag.
-# The value of --llm can be one of the following, in increasing order of resource consumption:
-#   - qwen1.5-7b/14b/72b-chat (the same as the open-sourced Qwen1.5 7B/14B/72B Chat model)
-#   - qwen-turbo, qwen-plus, qwen-max (qwen-max is recommended)
-# "YOUR_DASHSCOPE_API_KEY" is a placeholder. The user should replace it with their actual key.
-python run_server.py --llm qwen-max --model_server dashscope --workstation_port 7864 --api_key YOUR_DASHSCOPE_API_KEY
-```
-
-If you are using your own model service instead of DashScope, then please execute the following command:
-
-```bash
-# Specify the model service, and start the database service.
-# Example: Assuming Qwen/Qwen1.5-72B-Chat is deployed at http://localhost:8000 using vLLM, you can specify the model service as:
-#   --llm Qwen/Qwen1.5-72B-Chat --model_server http://localhost:8000/v1 --api_key EMPTY
-python run_server.py --llm {MODEL} --model_server {API_BASE} --workstation_port 7864 --api_key {API_KEY}
-```
-
-Now you can access [http://127.0.0.1:7864/](http://127.0.0.1:7864/) to use the Workstation's Editor mode and Chat mode.
-
-### Step 2. Install Browser Assistant
-
-Install the BrowserQwen Chrome extension:
-
-- Open the Chrome browser and enter `chrome://extensions/` in the address bar, then press Enter.
-- Make sure that the `Developer mode` in the top right corner is turned on, then click on `Load unpacked` to upload
-  the `browser_qwen` directory from this project and enable it.
-- Click the extension icon in the top right corner of the Chrome browser to pin BrowserQwen to the toolbar.
-
-Note that after installing the Chrome extension, you need to refresh the page for the extension to take effect.
-
-When you want Qwen to read the content of the current webpage:
-
-- Click the `Add to Qwen's Reading List` button on the screen to authorize Qwen to analyze the page in the background.
-- Click the Qwen icon in the browser's top right corner to start interacting with Qwen about the current page's content.
+BrowserQwen is a browser assistant built upon Qwen-Agent. Please refer to its [documentation](https://github.com/QwenLM/Qwen-Agent/blob/main/browser_qwen.md) for details.
 
 # Disclaimer
 
-This project is currently under active development, and backward compatibility may occasionally be broken.
-
-> Important: The code interpreter is not sandboxed, and it executes code in your own environment. Please do not ask Qwen
-> to perform dangerous tasks, and do not directly use the code interpreter for production purposes.
+The code interpreter is not sandboxed, and it executes code in your own environment. Please do not ask Qwen to perform dangerous tasks, and do not directly use the code interpreter for production purposes.
