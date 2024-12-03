@@ -1,9 +1,9 @@
 ---
 title: introduction-to-github
-date: 2024-12-02T12:22:17+08:00
+date: 2024-12-03T12:22:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731271326853-984d03c7988a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731271326853-984d03c7988a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731286507379-94216c27cf9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731286507379-94216c27cf9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [skills/introduction-to-github](https://github.com/skills/introduction-to-github)

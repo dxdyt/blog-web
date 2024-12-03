@@ -1,9 +1,9 @@
 ---
 title: kestra
-date: 2024-12-02T12:23:27+08:00
+date: 2024-12-03T12:23:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731168168200-23c438871160?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731168168200-23c438871160?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [kestra-io/kestra](https://github.com/kestra-io/kestra)

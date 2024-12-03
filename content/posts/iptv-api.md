@@ -1,9 +1,9 @@
 ---
 title: iptv-api
-date: 2024-12-02T12:21:16+08:00
+date: 2024-12-03T12:21:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730365553322-6cd83a29f9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730365553322-6cd83a29f9fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731009917736-c3b41c7e24cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731009917736-c3b41c7e24cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [Guovin/iptv-api](https://github.com/Guovin/iptv-api)

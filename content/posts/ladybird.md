@@ -1,9 +1,9 @@
 ---
 title: ladybird
-date: 2024-10-04T12:21:22+08:00
+date: 2024-12-03T12:21:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724582586495-d050726cf354?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724582586495-d050726cf354?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732282537685-bec9036bf4e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732282537685-bec9036bf4e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
 ---
 
 # [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)
@@ -34,7 +34,6 @@ At the moment, many core library support components are inherited from SerenityO
 - LibCrypto/LibTLS: Cryptography primitives and Transport Layer Security
 - LibHTTP: HTTP/1.1 client
 - LibGfx: 2D Graphics Library, Image Decoding and Rendering
-- LibArchive: Archive file format support
 - LibUnicode: Unicode and locale support
 - LibMedia: Audio and video playback
 - LibCore: Event loop, OS abstraction layer
