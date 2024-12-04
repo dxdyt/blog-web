@@ -1,9 +1,9 @@
 ---
 title: iptv-api
-date: 2024-12-03T12:21:54+08:00
+date: 2024-12-04T12:21:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731009917736-c3b41c7e24cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731009917736-c3b41c7e24cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732649124686-3bab54f79aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732649124686-3bab54f79aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
 ---
 
 # [Guovin/iptv-api](https://github.com/Guovin/iptv-api)
@@ -103,7 +103,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1731009917736-c3b41c7e24
 - [🚀 快速上手](#快速上手)
 - [📖 详细教程](./docs/tutorial.md)
 - [🗓️ 更新日志](./CHANGELOG.md)
-- [💰️ 赞赏](#赞赏)
+- [❤️ 赞赏](#赞赏)
 - [👀 关注](#关注)
 - [📣 免责声明](#免责声明)
 - [⚖️ 许可证](#许可证)
