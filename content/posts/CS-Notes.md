@@ -1,9 +1,9 @@
 ---
 title: CS-Notes
-date: 2024-10-17T12:20:04+08:00
+date: 2024-12-05T12:22:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725576421812-85ca2e111835?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725576421812-85ca2e111835?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkxMzg3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1720707527625-6d5b16ca4c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1720707527625-6d5b16ca4c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
 ---
 
 # [CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)

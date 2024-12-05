@@ -1,9 +1,9 @@
 ---
 title: App
-date: 2024-03-31T12:19:35+08:00
+date: 2024-12-05T12:23:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710876061330-48d84aa3fe5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710876061330-48d84aa3fe5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTE4NTg1ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732692695680-f4c37b5bbbea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732692695680-f4c37b5bbbea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
 ---
 
 # [Expensify/App](https://github.com/Expensify/App)

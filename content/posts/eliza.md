@@ -1,9 +1,9 @@
 ---
 title: eliza
-date: 2024-12-04T12:21:43+08:00
+date: 2024-12-05T12:23:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732559797723-4af87682e682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732559797723-4af87682e682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731069945702-53e476208ad8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731069945702-53e476208ad8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
 ---
 
 # [ai16z/eliza](https://github.com/ai16z/eliza)

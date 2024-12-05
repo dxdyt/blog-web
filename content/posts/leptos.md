@@ -1,9 +1,9 @@
 ---
 title: leptos
-date: 2024-12-03T12:22:58+08:00
+date: 2024-12-05T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1658590974767-989237290487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1658590974767-989237290487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxOTk2ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731069945702-53e476208ad8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731069945702-53e476208ad8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
 ---
 
 # [leptos-rs/leptos](https://github.com/leptos-rs/leptos)

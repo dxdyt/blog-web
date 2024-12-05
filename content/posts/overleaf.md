@@ -1,9 +1,9 @@
 ---
 title: overleaf
-date: 2024-07-02T12:19:35+08:00
+date: 2024-12-05T12:23:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718202248333-1dab8271f400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718202248333-1dab8271f400?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4OTM4ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731341711718-8696ebc3a2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731341711718-8696ebc3a2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
 ---
 
 # [overleaf/overleaf](https://github.com/overleaf/overleaf)
