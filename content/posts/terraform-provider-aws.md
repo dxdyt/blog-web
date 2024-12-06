@@ -1,9 +1,9 @@
 ---
 title: terraform-provider-aws
-date: 2024-06-16T12:17:30+08:00
+date: 2024-12-06T12:22:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717062587597-5fe4f718e7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717062587597-5fe4f718e7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1MTEzODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730754275537-c8985a93ad53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730754275537-c8985a93ad53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
 ---
 
 # [hashicorp/terraform-provider-aws](https://github.com/hashicorp/terraform-provider-aws)

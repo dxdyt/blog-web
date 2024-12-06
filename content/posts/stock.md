@@ -1,9 +1,9 @@
 ---
 title: stock
-date: 2024-12-05T12:21:34+08:00
+date: 2024-12-06T12:22:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720707527625-6d5b16ca4c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720707527625-6d5b16ca4c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
 ---
 
 # [myhhub/stock](https://github.com/myhhub/stock)

@@ -1,9 +1,9 @@
 ---
 title: pydantic-ai
-date: 2024-12-05T12:21:27+08:00
+date: 2024-12-06T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732045133230-1a670eef8620?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732045133230-1a670eef8620?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730815664512-238cea535eff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730815664512-238cea535eff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
 ---
 
 # [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)

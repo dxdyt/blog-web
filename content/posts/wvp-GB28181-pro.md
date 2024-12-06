@@ -1,9 +1,9 @@
 ---
 title: wvp-GB28181-pro
-date: 2024-12-04T12:22:36+08:00
+date: 2024-12-06T12:21:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726141123623-ab974a5c9bd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726141123623-ab974a5c9bd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
 ---
 
 # [648540858/wvp-GB28181-pro](https://github.com/648540858/wvp-GB28181-pro)

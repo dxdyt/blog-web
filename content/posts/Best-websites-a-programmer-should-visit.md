@@ -1,9 +1,9 @@
 ---
 title: Best-websites-a-programmer-should-visit
-date: 2024-12-05T12:22:02+08:00
+date: 2024-12-06T12:22:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731341711718-8696ebc3a2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731341711718-8696ebc3a2cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
 ---
 
 # [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)

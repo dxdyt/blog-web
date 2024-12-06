@@ -1,208 +1,248 @@
 ---
 title: BitNet
-date: 2024-03-03T12:17:05+08:00
+date: 2024-12-06T12:21:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707909123862-d230b874c073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707909123862-d230b874c073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk0MzkzNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732813316053-1ab6342a821a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732813316053-1ab6342a821a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
 ---
 
-# [kyegomez/BitNet](https://github.com/kyegomez/BitNet)
+# [microsoft/BitNet](https://github.com/microsoft/BitNet)
 
-[![Multi-Modality](agorabanner.png)](https://discord.gg/qUtxnK2NMf)
+# bitnet.cpp
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![version](https://img.shields.io/badge/version-1.0-blue)
 
-# BitNet
-![bitnet](/bitnet.png)
-PyTorch Implementation of the linear methods and model from the paper "BitNet: Scaling 1-bit Transformers for Large Language Models"
+bitnet.cpp is the official inference framework for 1-bit LLMs (e.g., BitNet b1.58). It offers a suite of optimized kernels, that support **fast** and **lossless** inference of 1.58-bit models on CPU (with NPU and GPU support coming next).
 
-[Paper link:](https://arxiv.org/pdf/2310.11453.pdf)
+The first release of bitnet.cpp is to support inference on CPUs. bitnet.cpp achieves speedups of **1.37x** to **5.07x** on ARM CPUs, with larger models experiencing greater performance gains. Additionally, it reduces energy consumption by **55.4%** to **70.0%**, further boosting overall efficiency. On x86 CPUs, speedups range from **2.37x** to **6.17x** with energy reductions between **71.9%** to **82.2%**. Furthermore, bitnet.cpp can run a 100B BitNet b1.58 model on a single CPU, achieving speeds comparable to human reading (5-7 tokens per second), significantly enhancing the potential for running LLMs on local devices. Please refer to the [technical report](https://arxiv.org/abs/2410.16144) for more details.
 
-BitLinear = tensor -> layernorm -> Binarize -> abs max quantization -> dequant
+<img src="./assets/m2_performance.jpg" alt="m2_performance" width="800"/>
+<img src="./assets/intel_performance.jpg" alt="m2_performance" width="800"/>
 
-"The implementation of the BitNet architecture is quite simple, requiring only the replacement of linear projections (i.e., nn.Linear in PyTorch) in the Transformer. " -- BitNet is really easy to implement just swap out the linears with the BitLinear modules! 
+>The tested models are dummy setups used in a research context to demonstrate the inference performance of bitnet.cpp.
 
-## **NEWS**
-- BitNet Transformer has been trained using the `train.py` file that trains on enwiki8 a small 1gb dataset of wikipedia: [HERE IS THE LINK](https://drive.google.com/file/d/1gBuZRFBqMV3cVD902LXA_hmZl4e0dLyY/view)
-- **New Iteration** 🔥 There is an all-new iteration from the paper "[The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764)", we're implementing it now. Join the Agora discord and contribute! [Join Here](https://discord.gg/hFzevCjG8c)
-- **New Optimizations** The first `BitLinear` has been optimized and we now have a Bit Attention `BitMGQA` That implements BitLinear into the attention mechanism. Multi Grouped Query Attention is also widely recognized as the best attention for its fast decoding and long context handling, thanks to Frank for his easy to use implementation!
+## Demo
 
-## Appreciation
-- Dimitry, Nullonix for analysis and code review and revision
-- Vyom, for providing 4080 to train!
+A demo of bitnet.cpp running a BitNet b1.58 3B model on Apple M2:
+
+https://github.com/user-attachments/assets/7f46b736-edec-4828-b809-4be780a3e5b1
+
+## What's New:
+
+- 11/08/2024 [BitNet a4.8: 4-bit Activations for 1-bit LLMs](https://arxiv.org/abs/2411.04965) ![NEW](https://img.shields.io/badge/NEW-red) 
+- 10/21/2024 [1-bit AI Infra: Part 1.1, Fast and Lossless BitNet b1.58 Inference on CPUs](https://arxiv.org/abs/2410.16144)
+- 10/17/2024 bitnet.cpp 1.0 released.
+- 03/21/2024 [The-Era-of-1-bit-LLMs__Training_Tips_Code_FAQ](https://github.com/microsoft/unilm/blob/master/bitnet/The-Era-of-1-bit-LLMs__Training_Tips_Code_FAQ.pdf)
+- 02/27/2024 [The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits](https://arxiv.org/abs/2402.17764)
+- 10/17/2023 [BitNet: Scaling 1-bit Transformers for Large Language Models](https://arxiv.org/abs/2310.11453)
+
+## Acknowledgements
+
+This project is based on the [llama.cpp](https://github.com/ggerganov/llama.cpp) framework. We would like to thank all the authors for their contributions to the open-source community. Also, bitnet.cpp's kernels are built on top of the Lookup Table methodologies pioneered in [T-MAC](https://github.com/microsoft/T-MAC/). For inference of general low-bit LLMs beyond ternary models, we recommend using T-MAC.
+
+## Supported Models
+❗️**We use existing 1-bit LLMs available on [Hugging Face](https://huggingface.co/) to demonstrate the inference capabilities of bitnet.cpp. These models are neither trained nor released by Microsoft. We hope the release of bitnet.cpp will inspire the development of 1-bit LLMs in large-scale settings in terms of model size and training tokens.**
+
+<table>
+    </tr>
+    <tr>
+        <th rowspan="2">Model</th>
+        <th rowspan="2">Parameters</th>
+        <th rowspan="2">CPU</th>
+        <th colspan="3">Kernel</th>
+    </tr>
+    <tr>
+        <th>I2_S</th>
+        <th>TL1</th>
+        <th>TL2</th>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="https://huggingface.co/1bitLLM/bitnet_b1_58-large">bitnet_b1_58-large</a></td>
+        <td rowspan="2">0.7B</td>
+        <td>x86</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+        <td>&#10004;</td>
+    </tr>
+    <tr>
+        <td>ARM</td>
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="https://huggingface.co/1bitLLM/bitnet_b1_58-3B">bitnet_b1_58-3B</a></td>
+        <td rowspan="2">3.3B</td>
+        <td>x86</td>
+        <td>&#10008;</td>
+        <td>&#10008;</td>
+        <td>&#10004;</td>
+    </tr>
+    <tr>
+        <td>ARM</td>
+        <td>&#10008;</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+    </tr>
+    <tr>
+        <td rowspan="2"><a href="https://huggingface.co/HF1BitLLM/Llama3-8B-1.58-100B-tokens">Llama3-8B-1.58-100B-tokens</a></td>
+        <td rowspan="2">8.0B</td>
+        <td>x86</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+        <td>&#10004;</td>
+    </tr>
+    <tr>
+        <td>ARM</td>
+        <td>&#10004;</td>
+        <td>&#10004;</td>
+        <td>&#10008;</td>
+    </tr>
+</table>
+
+
 
 ## Installation
-`pip install bitnet`
 
-## Usage:
+### Requirements
+- python>=3.9
+- cmake>=3.22
+- clang>=18
+    - For Windows users, install [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/). In the installer, toggle on at least the following options(this also automatically installs the required additional tools like CMake):
+        -  Desktop-development with C++
+        -  C++-CMake Tools for Windows
+        -  Git for Windows
+        -  C++-Clang Compiler for Windows
+        -  MS-Build Support for LLVM-Toolset (clang)
+    - For Debian/Ubuntu users, you can download with [Automatic installation script](https://apt.llvm.org/)
 
-### `BitLinear`
-- Example of the BitLinear layer which is the main innovation of the paper!
-```python
-import torch
+        `bash -c "$(wget -O - https://apt.llvm.org/llvm.sh)"`
+- conda (highly recommend)
 
-from bitnet import BitLinear
+### Build from source
 
-# Input
-x = torch.randn(10, 512)
+> [!IMPORTANT]
+> If you are using Windows, please remember to always use a Developer Command Prompt / PowerShell for VS2022 for the following commands
 
-# BitLinear layer
-layer = BitLinear(512, 400)
-
-# Output
-y = layer(x)
-
-print(y)
+1. Clone the repo
+```bash
+git clone --recursive https://github.com/microsoft/BitNet.git
+cd BitNet
 ```
-----
+2. Install the dependencies
+```bash
+# (Recommended) Create a new conda environment
+conda create -n bitnet-cpp python=3.9
+conda activate bitnet-cpp
 
-### `BitNetTransformer`
-- Fully implemented Transformer as described in the diagram with MHA, and BitFeedforwards
-- Can be utilized not just for text but for images and maybe even video or audio processing
-- Complete with residuals and skip connections for gradient flow
+pip install -r requirements.txt
+```
+3. Build the project
+```bash
+# Download the model from Hugging Face, convert it to quantized gguf format, and build the project
+python setup_env.py --hf-repo HF1BitLLM/Llama3-8B-1.58-100B-tokens -q i2_s
 
-```python
-# Import the necessary libraries
-import torch
-from bitnet import BitNetTransformer
+# Or you can manually download the model and run with local path
+huggingface-cli download HF1BitLLM/Llama3-8B-1.58-100B-tokens --local-dir models/Llama3-8B-1.58-100B-tokens
+python setup_env.py -md models/Llama3-8B-1.58-100B-tokens -q i2_s
+```
+<pre>
+usage: setup_env.py [-h] [--hf-repo {1bitLLM/bitnet_b1_58-large,1bitLLM/bitnet_b1_58-3B,HF1BitLLM/Llama3-8B-1.58-100B-tokens}] [--model-dir MODEL_DIR] [--log-dir LOG_DIR] [--quant-type {i2_s,tl1}] [--quant-embd]
+                    [--use-pretuned]
 
-# Create a random tensor of integers
-x = torch.randint(0, 20000, (1, 1024))
+Setup the environment for running inference
 
-# Initialize the BitNetTransformer model
-bitnet = BitNetTransformer(
-    num_tokens=20000,  # Number of unique tokens in the input
-    dim=1024,  # Dimension of the input and output embeddings
-    depth=6,  # Number of transformer layers
-    heads=8,  # Number of attention heads
-    ff_mult=4,  # Multiplier for the hidden dimension in the feed-forward network
-)
+optional arguments:
+  -h, --help            show this help message and exit
+  --hf-repo {1bitLLM/bitnet_b1_58-large,1bitLLM/bitnet_b1_58-3B,HF1BitLLM/Llama3-8B-1.58-100B-tokens}, -hr {1bitLLM/bitnet_b1_58-large,1bitLLM/bitnet_b1_58-3B,HF1BitLLM/Llama3-8B-1.58-100B-tokens}
+                        Model used for inference
+  --model-dir MODEL_DIR, -md MODEL_DIR
+                        Directory to save/load the model
+  --log-dir LOG_DIR, -ld LOG_DIR
+                        Directory to save the logging info
+  --quant-type {i2_s,tl1}, -q {i2_s,tl1}
+                        Quantization type
+  --quant-embd          Quantize the embeddings to f16
+  --use-pretuned, -p    Use the pretuned kernel parameters
+</pre>
+## Usage
+### Basic usage
+```bash
+# Run inference with the quantized model
+python run_inference.py -m models/Llama3-8B-1.58-100B-tokens/ggml-model-i2_s.gguf -p "Daniel went back to the the the garden. Mary travelled to the kitchen. Sandra journeyed to the kitchen. Sandra went to the hallway. John went to the bedroom. Mary went back to the garden. Where is Mary?\nAnswer:" -n 6 -temp 0
 
-# Pass the tensor through the transformer model
-logits = bitnet(x)
-
-# Print the shape of the output
-print(logits)
+# Output:
+# Daniel went back to the the the garden. Mary travelled to the kitchen. Sandra journeyed to the kitchen. Sandra went to the hallway. John went to the bedroom. Mary went back to the garden. Where is Mary?
+# Answer: Mary is in the garden.
 
 ```
+<pre>
+usage: run_inference.py [-h] [-m MODEL] [-n N_PREDICT] -p PROMPT [-t THREADS] [-c CTX_SIZE] [-temp TEMPERATURE]
 
+Run inference
 
-### `BitAttention`
-This Attention has been modified to use BitLinear instead of the default linear projection. It's also using Multi-Grouped Query Attention instead of regular multi-head attention for faster decoding and longer context handling.
+optional arguments:
+  -h, --help            show this help message and exit
+  -m MODEL, --model MODEL
+                        Path to model file
+  -n N_PREDICT, --n-predict N_PREDICT
+                        Number of tokens to predict when generating text
+  -p PROMPT, --prompt PROMPT
+                        Prompt to generate text from
+  -t THREADS, --threads THREADS
+                        Number of threads to use
+  -c CTX_SIZE, --ctx-size CTX_SIZE
+                        Size of the prompt context
+  -temp TEMPERATURE, --temperature TEMPERATURE
+                        Temperature, a hyperparameter that controls the randomness of the generated text
+</pre>
 
-```python
-import torch
-from bitnet import BitMGQA
+### Benchmark
+We provide scripts to run the inference benchmark providing a model.
 
-# Create a random tensor of shape (1, 10, 512)
-x = torch.randn(1, 10, 512)
+```  
+usage: e2e_benchmark.py -m MODEL [-n N_TOKEN] [-p N_PROMPT] [-t THREADS]  
+   
+Setup the environment for running the inference  
+   
+required arguments:  
+  -m MODEL, --model MODEL  
+                        Path to the model file. 
+   
+optional arguments:  
+  -h, --help  
+                        Show this help message and exit. 
+  -n N_TOKEN, --n-token N_TOKEN  
+                        Number of generated tokens. 
+  -p N_PROMPT, --n-prompt N_PROMPT  
+                        Prompt to generate text from. 
+  -t THREADS, --threads THREADS  
+                        Number of threads to use. 
+```  
+   
+Here's a brief explanation of each argument:  
+   
+- `-m`, `--model`: The path to the model file. This is a required argument that must be provided when running the script.  
+- `-n`, `--n-token`: The number of tokens to generate during the inference. It is an optional argument with a default value of 128.  
+- `-p`, `--n-prompt`: The number of prompt tokens to use for generating text. This is an optional argument with a default value of 512.  
+- `-t`, `--threads`: The number of threads to use for running the inference. It is an optional argument with a default value of 2.  
+- `-h`, `--help`: Show the help message and exit. Use this argument to display usage information.  
+   
+For example:  
+   
+```sh  
+python utils/e2e_benchmark.py -m /path/to/model -n 200 -p 256 -t 4  
+```  
+   
+This command would run the inference benchmark using the model located at `/path/to/model`, generating 200 tokens from a 256 token prompt, utilizing 4 threads.  
 
-# Create an instance of the BitMGQA model with input size 512, 8 attention heads, and 4 layers
-gqa = BitMGQA(512, 8, 4)
+For the model layout that do not supported by any public model, we provide scripts to generate a dummy model with the given model layout, and run the benchmark on your machine:
 
-# Pass the input tensor through the BitMGQA model and get the output and attention weights
-out, _ = gqa(x, x, x, need_weights=True)
+```bash
+python utils/generate-dummy-bitnet-model.py models/bitnet_b1_58-large --outfile models/dummy-bitnet-125m.tl1.gguf --outtype tl1 --model-size 125M
 
-# Print the shapes of the output tensor and attention tensor
-print(out)
-```
-
-### `BitFeedForward`
-- Feedforward as shown in the diagram with BitLinear and a GELU:
-- Linear -> GELU -> Linear
-- You can add dropouts, or layernorms, or other layers for a better ffn
-
-```python
-import torch
-from bitnet import BitFeedForward
-
-# Create a random input tensor of shape (10, 512)
-x = torch.randn(10, 512)
-
-# Create an instance of the BitFeedForward class with the following parameters:
-# - input_dim: 512
-# - hidden_dim: 512
-# - num_layers: 4
-# - swish: True (use Swish activation function)
-# - post_act_ln: True (apply Layer Normalization after each activation)
-# - dropout: 0.1 (apply dropout with a probability of 0.1)
-ff = BitFeedForward(512, 512, 4, swish=True, post_act_ln=True, dropout=0.1)
-
-# Apply the BitFeedForward network to the input tensor x
-y = ff(x)
-
-# Print the shape of the output tensor y
-print(y)  # torch.Size([10, 512])
-```
-
-## Inference
-```python
-from bitnet import BitNetInference
-
-bitnet = BitNetInference()
-bitnet.load_model("../model_checkpoint.pth")  # Download model
-output_str = bitnet.generate("The dog jumped over the ", 512)
-print(output_str)
-```
-
-## Huggingface Usage
-```python
-import torch
-from transformers import AutoModelForSequenceClassification, AutoTokenizer
-
-from bitnet import replace_linears_in_hf
-
-# Load a model from Hugging Face's Transformers
-model_name = "bert-base-uncased"
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSequenceClassification.from_pretrained(model_name)
-
-# Replace Linear layers with BitLinear
-replace_linears_in_hf(model)
-
-# Example text to classify
-text = "Replace this with your text"
-inputs = tokenizer(
-    text, return_tensors="pt", padding=True, truncation=True, max_length=512
-)
-
-# Perform inference
-model.eval()  # Set the model to evaluation mode
-with torch.no_grad():
-    outputs = model(**inputs)
-    predictions = torch.nn.functional.softmax(outputs.logits, dim=-1)
-    print(predictions)
-
-# Process predictions
-predicted_class_id = predictions.argmax().item()
-print(f"Predicted class ID: {predicted_class_id}")
-
-# Optionally, map the predicted class ID to a label, if you know the classification labels
-# labels = ["Label 1", "Label 2", ...]  # Define your labels corresponding to the model's classes
-# print(f"Predicted label: {labels[predicted_class_id]}")
-```
-
-# License
-MIT
-
-# Citation
-```bibtex
-@misc{2310.11453,
-Author = {Hongyu Wang and Shuming Ma and Li Dong and Shaohan Huang and Huaijie Wang and Lingxiao Ma and Fan Yang and Ruiping Wang and Yi Wu and Furu Wei},
-Title = {BitNet: Scaling 1-bit Transformers for Large Language Models},
-Year = {2023},
-Eprint = {arXiv:2310.11453},
-}
-
+# Run benchmark with the generated model, use -m to specify the model path, -p to specify the prompt processed, -n to specify the number of token to generate
+python utils/e2e_benchmark.py -m models/dummy-bitnet-125m.tl1.gguf -p 512 -n 128
 ```
 
 
-# Todo
-- [x] Double check BitLinear implementation and make sure it works exactly as in paper 
-- [x] Implement training script for `BitNetTransformer`
-- [x] Train on Enwiki8, copy and past code and data from Lucidrains repos
-- [x] Benchmark performance
-- [x] Look into Straight Through Estimator for non-differentiable backprop
-- [x] Implement BitFeedForward
-- [x] Clean up codebase 
-- [x] Add unit tests for each module
-- [ ] Implement the new BitNet1.5b from the [paper](https://arxiv.org/abs/2402.17764)
-- [ ] Implement the BitNet15b in Cuda
