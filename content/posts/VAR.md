@@ -1,9 +1,9 @@
 ---
 title: VAR
-date: 2024-12-06T12:21:14+08:00
+date: 2024-12-07T12:21:14+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1730759667915-a072c41d7281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1730759667915-a072c41d7281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
 ---
 
 # [FoundationVision/VAR](https://github.com/FoundationVision/VAR)

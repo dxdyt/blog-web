@@ -1,9 +1,9 @@
 ---
 title: litellm
-date: 2024-09-05T12:19:48+08:00
+date: 2024-12-07T12:22:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722755417797-c1fa8bddb773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722755417797-c1fa8bddb773?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731005446956-2851a5e79534?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731005446956-2851a5e79534?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
 ---
 
 # [BerriAI/litellm](https://github.com/BerriAI/litellm)
@@ -123,7 +123,7 @@ for part in response:
 
 ## Logging Observability ([Docs](https://docs.litellm.ai/docs/observability/callbacks))
 
-LiteLLM exposes pre defined callbacks to send data to Lunary, Langfuse, DynamoDB, s3 Buckets, Helicone, Promptlayer, Traceloop, Athina, Slack
+LiteLLM exposes pre defined callbacks to send data to Lunary, Langfuse, DynamoDB, s3 Buckets, Helicone, Promptlayer, Traceloop, Athina, Slack, MLflow
 
 ```python
 from litellm import completion
@@ -281,6 +281,7 @@ curl 'http://0.0.0.0:4000/key/generate' \
 | [voyage ai](https://docs.litellm.ai/docs/providers/voyage)                          |                                                         |                                                                                 |                                                                                     |                                                                                   | ✅                                                                             |                                                                         |
 | [xinference [Xorbits Inference]](https://docs.litellm.ai/docs/providers/xinference) |                                                         |                                                                                 |                                                                                     |                                                                                   | ✅                                                                             |                                                                         |
 | [FriendliAI](https://docs.litellm.ai/docs/providers/friendliai)                              | ✅                                                       | ✅                                                                               | ✅                                                                                   | ✅                                                                                 |                                                                               |                                                                         |
+| [Galadriel](https://docs.litellm.ai/docs/providers/galadriel)                              | ✅                                                       | ✅                                                                               | ✅                                                                                   | ✅                                                                                 |                                                                               |                                                                         |
 
 [**Read the Docs**](https://docs.litellm.ai/docs/)
 
@@ -314,6 +315,36 @@ Step 4: Submit a PR with your changes! 🚀
 
 - push your fork to your GitHub repo
 - submit a PR from there
+
+### Building LiteLLM Docker Image 
+
+Follow these instructions if you want to build / run the LiteLLM Docker Image yourself.
+
+Step 1: Clone the repo
+
+```
+git clone https://github.com/BerriAI/litellm.git
+```
+
+Step 2: Build the Docker Image
+
+Build using Dockerfile.non_root
+```
+docker build -f docker/Dockerfile.non_root -t litellm_test_image .
+```
+
+Step 3: Run the Docker Image
+
+Make sure config.yaml is present in the root directory. This is your litellm proxy config file.
+```
+docker run \
+    -v $(pwd)/proxy_config.yaml:/app/config.yaml \
+    -e DATABASE_URL="postgresql://xxxxxxxx" \
+    -e LITELLM_MASTER_KEY="sk-1234" \
+    -p 4000:4000 \
+    litellm_test_image \
+    --config /app/config.yaml --detailed_debug
+```
 
 # Enterprise
 For companies that need better security, user management and professional support
