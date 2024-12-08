@@ -1,9 +1,9 @@
 ---
 title: pocketbase
-date: 2024-08-03T12:17:59+08:00
+date: 2024-12-08T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720760890793-66c84ea9a418?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720760890793-66c84ea9a418?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732493669483-d36c907d0a3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM2MzE1OTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732493669483-d36c907d0a3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM2MzE1OTd8&ixlib=rb-4.0.3
 ---
 
 # [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1720760890793-66c84ea9a4
     <a href="https://pkg.go.dev/github.com/pocketbase/pocketbase" target="_blank" rel="noopener"><img src="https://godoc.org/github.com/pocketbase/pocketbase?status.svg" alt="Go package documentation" /></a>
 </p>
 
-[PocketBase](https://pocketbase.io) is an open source Go backend, consisting of:
+[PocketBase](https://pocketbase.io) is an open source Go backend that includes:
 
 - embedded database (_SQLite_) with **realtime subscriptions**
 - built-in **files and users management**
@@ -56,7 +56,7 @@ your own custom app specific business logic and still have a single portable exe
 
 Here is a minimal example:
 
-0. [Install Go 1.21+](https://go.dev/doc/install) (_if you haven't already_)
+0. [Install Go 1.23+](https://go.dev/doc/install) (_if you haven't already_)
 
 1. Create a new project directory with the following `main.go` file inside it:
     ```go
@@ -64,31 +64,21 @@ Here is a minimal example:
 
     import (
         "log"
-        "net/http"
 
-        "github.com/labstack/echo/v5"
         "github.com/pocketbase/pocketbase"
-        "github.com/pocketbase/pocketbase/apis"
         "github.com/pocketbase/pocketbase/core"
     )
 
     func main() {
         app := pocketbase.New()
 
-        app.OnBeforeServe().Add(func(e *core.ServeEvent) error {
-            // add new "GET /hello" route to the app router (echo)
-            e.Router.AddRoute(echo.Route{
-                Method: http.MethodGet,
-                Path:   "/hello",
-                Handler: func(c echo.Context) error {
-                    return c.String(200, "Hello world!")
-                },
-                Middlewares: []echo.MiddlewareFunc{
-                    apis.ActivityLogger(app),
-                },
+        app.OnServe().BindFunc(func(se *core.ServeEvent) error {
+            // registers new "GET /hello" route
+            se.Router.GET("/hello", func(re *core.RequestEvent) error {
+                return re.String(200, "Hello world!")
             })
 
-            return nil
+            return se.Next()
         })
 
         if err := app.Start(); err != nil {
@@ -103,19 +93,13 @@ Here is a minimal example:
 
 4. To build a statically linked executable, you can run `CGO_ENABLED=0 go build` and then start the created executable with `./myapp serve`.
 
-> [!NOTE]
-> PocketBase embeds SQLite, but doesn't require CGO.
->
-> If CGO is enabled (aka. `CGO_ENABLED=1`), it will use [mattn/go-sqlite3](https://pkg.go.dev/github.com/mattn/go-sqlite3) driver, otherwise - [modernc.org/sqlite](https://pkg.go.dev/modernc.org/sqlite).
-> Enable CGO only if you really need to squeeze the read/write query performance at the expense of complicating cross compilation.
-
 _For more details please refer to [Extend with Go](https://pocketbase.io/docs/go-overview/)._
 
 ### Building and running the repo main.go example
 
 To build the minimal standalone executable, like the prebuilt ones in the releases page, you can simply run `go build` inside the `examples/base` directory:
 
-0. [Install Go 1.21+](https://go.dev/doc/install) (_if you haven't already_)
+0. [Install Go 1.23+](https://go.dev/doc/install) (_if you haven't already_)
 1. Clone/download the repo
 2. Navigate to `examples/base`
 3. Run `GOOS=linux GOARCH=amd64 CGO_ENABLED=0 go build`
@@ -155,7 +139,7 @@ Check also the [Testing guide](http://pocketbase.io/docs/testing) to learn how t
 
 If you discover a security vulnerability within PocketBase, please send an e-mail to **support at pocketbase.io**.
 
-All reports will be promptly addressed, and you'll be credited accordingly.
+All reports will be promptly addressed and you'll be credited in the fix release notes.
 
 ## Contributing
 
