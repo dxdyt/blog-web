@@ -1,9 +1,9 @@
 ---
 title: daytona
-date: 2024-11-23T12:21:12+08:00
+date: 2024-12-09T12:22:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724805053611-54c999f9c70c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724805053611-54c999f9c70c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIzMzU1Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730973915515-e79273d90b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730973915515-e79273d90b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
 ---
 
 # [daytonaio/daytona](https://github.com/daytonaio/daytona)
@@ -65,7 +65,7 @@ Set up a development environment on any infrastructure, with a single command.
 * __Configuration File Support__: Initially support for [dev container](https://containers.dev/), ability to expand to DevFile, Nix & Flox (Contributions welcome here!).
 * __Prebuilds System__: Drastically improve environment setup times (Contributions welcome here!).
 * __IDE Support__ : Seamlessly supports [VS Code](https://github.com/microsoft/vscode) & [JetBrains](https://www.jetbrains.com/remote-development/gateway/) locally, ready to use without configuration. Includes a built-in Web IDE for added convenience.
-* __Git Provider Integration__: GitHub, GitLab, Bitbucket, Bitbucket Server, Gitea, Gitness, Azure DevOps, AWS CodeCommit & Gogs can be connected, allowing easy repo branch or PR pull and commit back from the workspaces.
+* __Git Provider Integration__: GitHub, GitLab, Bitbucket, Bitbucket Server, Gitea, Gitness, Azure DevOps, AWS CodeCommit, Gogs & Gitee can be connected, allowing easy repo branch or PR pull and commit back from the workspaces.
 * __Multiple Project Workspace__: Support for multiple project repositories in the same workspace, making it easy to develop using a micro-service architecture.
 * __Reverse Proxy Integration__: Enable collaboration and streamline feedback loops by leveraging reverse proxy functionality. Access preview ports and the Web IDE seamlessly, even behind firewalls.
 * __Extensibility__: Enable extensibility with plugin or provider development. Moreover, in any dynamic language, not just Go(Contributions welcome here!).

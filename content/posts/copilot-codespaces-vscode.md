@@ -1,9 +1,9 @@
 ---
 title: copilot-codespaces-vscode
-date: 2024-12-08T12:20:54+08:00
+date: 2024-12-09T12:22:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732493669483-d36c907d0a3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM2MzE1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732493669483-d36c907d0a3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM2MzE1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733103373160-003dc53ccdba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733103373160-003dc53ccdba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
 ---
 
 # [skills/copilot-codespaces-vscode](https://github.com/skills/copilot-codespaces-vscode)

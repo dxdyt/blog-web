@@ -1,69 +1,65 @@
 ---
 title: deskflow
-date: 2024-10-10T12:21:04+08:00
+date: 2024-12-09T12:23:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725714354686-0a8b522037bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725714354686-0a8b522037bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg1MzM5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731432245325-d820144afe4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731432245325-d820144afe4a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
 ---
 
 # [deskflow/deskflow](https://github.com/deskflow/deskflow)
 
 ![Deskflow](https://github.com/user-attachments/assets/f005b958-24df-4f4a-9bfd-4f834dae59d6)
 
-> [!TIP]
-> Join us! Real-time discussion on Matrix: [`#deskflow:matrix.org`](https://matrix.to/#/#deskflow:matrix.org)
+> [!NOTE]
+> **Deskflow** is the official upstream project for [Synergy](https://symless.com/synergy).
+> Purchasing a Synergy license is one way to support Deskflow’s growth and sustainability.
 >
-> Alternatively, we have [other ways](https://github.com/deskflow/deskflow/wiki/Chat-with-us) to communicate.
+> The Deskflow project was established to cultivate community-driven development where everyone can collaborate.
+> Synergy sponsors the Deskflow project by contributing code and providing financial support.
+>
+> More info: [Relationship with Synergy](https://github.com/deskflow/deskflow/wiki/Relationship-with-Synergy)
 
-[![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)](https://github.com/deskflow/deskflow/wiki/Relationship-with-Synergy)
+**Deskflow** is a free and open source keyboard and mouse sharing app.
+Use the keyboard, mouse, or trackpad of one computer to control nearby computers,
+and work seamlessly between them.
+It's like a software KVM (but without the video).
+TLS encryption is enabled by default. Wayland is supported. Clipboard sharing is supported.
 
-[![GitHub Release](https://img.shields.io/github/v/release/deskflow/deskflow?display_name=release&label=latest%20version)](https://github.com/deskflow/deskflow/releases)
-[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/deskflow/deskflow)](https://github.com/deskflow/deskflow/commits/master/)
-![GitHub top language](https://img.shields.io/github/languages/top/deskflow/deskflow)
-[![GitHub License](https://img.shields.io/github/license/deskflow/deskflow)](LICENSE)
+[![Downloads: Stable Release](https://img.shields.io/github/downloads/deskflow/deskflow/latest/total?style=for-the-badge&logo=github&label=Download%20Stable)](https://github.com/deskflow/deskflow/releases/latest)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Downloads: Continuous Build](https://img.shields.io/github/downloads/deskflow/deskflow/continuous/total?style=for-the-badge&logo=github&label=Download%20Continuous)](https://github.com/deskflow/deskflow/releases/continuous)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Download From Flathub](https://img.shields.io/flathub/downloads/org.deskflow.deskflow?style=for-the-badge&logo=flathub&label=Download%20from%20flathub)](https://flathub.org/apps/org.deskflow.deskflow)
+
+To use Deskflow you can use one of our [packages](https://github.com/deskflow/deskflow/releases), install `deskflow` (if available in your package repository), or [build it](#build-quick-start) yourself from source.
+
+> [!TIP]
+> For macOS users, the easiest way to install and stay up to date is to use [Homebrew](https://brew.sh) with our [homebrew-tap](https://github.com/deskflow/homebrew-tap).
+
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/deskflow/deskflow?logo=github)](https://github.com/deskflow/deskflow/commits/master/)
+[![GitHub top language](https://img.shields.io/github/languages/top/deskflow/deskflow?logo=github)](https://github.com/deskflow/deskflow/commits/master/)
+[![GitHub License](https://img.shields.io/github/license/deskflow/deskflow?logo=github)](LICENSE)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=deskflow_deskflow&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=deskflow_deskflow)
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=deskflow_deskflow&metric=coverage)](https://sonarcloud.io/summary/new_code?id=deskflow_deskflow)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=deskflow_deskflow&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=deskflow_deskflow)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=deskflow_deskflow&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=deskflow_deskflow)
 
-[![CI](https://github.com/deskflow/deskflow/actions/workflows/ci.yml/badge.svg)](https://github.com/deskflow/deskflow/actions/workflows/ci.yml)
+[![CI](https://github.com/deskflow/deskflow/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/deskflow/deskflow/actions/workflows/continuous-integration.yml)
 [![CodeQL Analysis](https://github.com/deskflow/deskflow/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/deskflow/deskflow/actions/workflows/codeql-analysis.yml)
 [![SonarCloud Analysis](https://github.com/deskflow/deskflow/actions/workflows/sonarcloud-analysis.yml/badge.svg)](https://github.com/deskflow/deskflow/actions/workflows/sonarcloud-analysis.yml)
-[![Build containers](https://github.com/deskflow/deskflow/actions/workflows/build-containers.yml/badge.svg)](https://github.com/deskflow/deskflow/actions/workflows/build-containers.yml)
-
-**Deskflow** is a free and open source keyboard and mouse sharing app.
-Use the keyboard, mouse, or trackpad of one computer to control nearby computers,
-and work seamlessly between them.
-
-**Wayland support:** Experimental support in 
-[Deskflow v1.16](https://github.com/deskflow/deskflow/releases/tag/1.16.0-beta%2Br2)
-(required >= GNOME 46 or KDE Plasma 6.1).
-
-![Deskflow GUI](https://github.com/user-attachments/assets/883660dc-f3f5-4b69-8821-a079a58d3882)
-
-To use Deskflow you can follow the [Build Quick Start](#build-quick-start),
-use one of our packages, or if it's available by your favorite package repository,
-install `deskflow` (see: [installing packages](#how-to-install-packages)).
-
-> [!NOTE]
-> 🚀 **Deskflow** is now the upstream project for Synergy.
->
-> The Deskflow project was established to cultivate community-driven development where everyone can collaborate.
->
-> Synergy supports and contributes to the Deskflow project while maintaining its customer-oriented code downstream.
->
-> More info: [Relationship with Synergy](https://github.com/deskflow/deskflow/wiki/Relationship-with-Synergy)
 
 ## Project Values
 
 - Motivated by the community interests (not business-driven)
 - Privacy by default (e.g. update check is off by default)
-- Nothing customer-related (this is all moved downstream to Synergy)
+- Leading edge releases (we don't focus on supporting older systems)
+- Decisions are discussed and documented publicly with majority rule
 - Have fun; we don't need to worry about impressing anyone
 
 ## Ways to get involved
 
+> [!TIP]
+> Join us! Real-time discussion on Matrix: [`#deskflow:matrix.org`](https://matrix.to/#/#deskflow:matrix.org)
+>
+> Alternatively, we have [other ways](https://github.com/deskflow/deskflow/wiki/Chat-with-us) to communicate.
+> 
 Here are a few ways to join in with the project and get involved:
 * Build the latest `master` version (see below) and [report a bug](https://github.com/deskflow/deskflow/issues)
 * [Submit a PR](https://github.com/deskflow/deskflow/wiki/Contributing) (pull request) with a bug fix or improvement
@@ -71,98 +67,55 @@ Here are a few ways to join in with the project and get involved:
 
 ## Build Quick Start
 
-> [!TIP]
-> Check the [Build Guide](https://github.com/deskflow/deskflow/wiki/Build-Guide)
-> wiki page if you have problems.
-
-**1. Dependencies:**
-
-You can either copy/paste the commands for your OS from [`config.yaml`](config.yaml) or use the deps script.
-
-*Linux, macOS, or BSD-derived:*
-```
-./scripts/install_deps.sh
-```
-
-*Windows:*
-```
-python scripts/install_deps.py
-```
-
-**2. Configure:**
-
-*Linux, macOS, or BSD-derived:*
-```
-cmake -B build
-```
-
-*Windows:*
-```
-cmake -B build --preset=windows-release
-```
-
-**3. Build:**
-```
-cmake --build build -j8
-```
-
-**4. Test:**
-```
-./build/bin/unittests
-./build/bin/integtests
-```
-
-**5. Run**
-```
-./build/bin/deskflow
-```
-
-## How to install (packages)
-
-*macOS:*
-*(coming soon)*
-```
-brew install deskflow
-```
-
-*Fedora, Red Hat, etc:*
-*(coming soon)*
-```
-sudo dnf install deskflow
-```
-
-*Debian, Ubuntu, etc:*
-*(coming soon)*
-```
-sudo apt install deskflow
-```
-
-*Arch, Manjaro, etc:*
-*(coming soon)*
-```
-sudo pacman -S deskflow
-```
-
-*Windows:*
-*(coming soon)*
-```
-choco install deskflow
-```
-
-**Note:** We are working with package maintainers to have our new package name adopted.
+For instructions on building Deskflow, use the wiki page: [Building](https://github.com/deskflow/deskflow/wiki/Building)
 
 ## Operating Systems
 
 We support all major operating systems, including Windows, macOS, Linux, and Unix-like BSD-derived.
+
+Windows 10 or higher is required.
 
 All Linux distributions are supported, primarily focusing on: 
 Debian, Ubuntu, Linux Mint, Fedora, RHEL, AlmaLinux, Rocky Linux, Arch Linux, openSUSE, Gentoo.
 
 We officially support FreeBSD, and would also like to support: OpenBSD, NetBSD, DragonFly, Solaris.
 
+## Repology
+
+Repology monitors a huge number of package repositories and other sources comparing package
+versions across them and gathering other information.
+
+[![Repology](https://repology.org/badge/vertical-allrepos/deskflow.svg?exclude_unsupported=1)](https://repology.org/project/deskflow/versions)
+
+**Note:** We are working with package maintainers to have our new package name adopted.
+
+## Installing on macOS
+
+When you install Deskflow on macOS, you need to allow accessibility access (Privacy & Security) to both the `Deskflow` app and the `deskflow` process.
+
+If using Sequoia, you may also need to allow `Deskflow` under Local Network‍ settings (Privacy & Security).
+When prompted by the OS, go to the settings and enable the access.
+
+If you are upgrading and you already have `Deskflow` or `deskflow`
+on the allowed list you will need to manually remove them before accessibility access can be granted to the new version.
+
+macOS users who download directly from releases may need to run `xattr -c /Applications/Deskflow.app` after copying the app to the `Applications` dir.
+
+It is recommend to install Deskflow using [Homebrew](https://brew.sh) from our [homebrew-tap](https://github.com/deskflow/homebrew-tap)
+
+To add our tap, run:
+```
+brew tap deskflow/homebrew-tap
+```
+Then install either:
+- Stable: `brew install deskflow`
+- Continuous: `brew install deskflow-dev`
+
+
+
 ## Collaborative Projects
 
-In the open source developer community, similar projects collaborate for the betterment of all
+In the open source developer community, similar projects collaborate for the improvement of all
 mouse and keyboard sharing tools. We aim for idea sharing and interoperability.
 
 * [**Lan Mouse**](https://github.com/feschber/lan-mouse) -
@@ -177,11 +130,25 @@ mouse and keyboard sharing tools. We aim for idea sharing and interoperability.
 
 ## FAQ
 
-### Is Deskflow compatible with Lan Mouse or Input Leap?
+### What is the relationship with Synergy?
 
-We would love to see compatibility between our fellow open source projects, Lan Mouse and 
-Input Leap. This idea is discussed occasionally in the communities for all of our projects,
-so it may happen in the not-too-distant future.
+[![Sponsored by: Synergy](https://raw.githubusercontent.com/deskflow/deskflow-artwork/b2c72a3e60a42dee793bd47efc275b5ee0bdaa5f/misc/synergy-sponsor.svg)](https://github.com/deskflow/deskflow/wiki/Relationship-with-Synergy)
+
+Synergy sponsors the Deskflow project by contributing code and providing financial support while maintaining its customer-oriented code downstream.
+
+Learn more: [Relationship with Synergy](https://github.com/deskflow/deskflow/wiki/Relationship-with-Synergy)
+
+### Is Deskflow compatible with Synergy, Input Leap, or Barrier?
+
+Yes, Deskflow has network compatibility with all forks:
+- Requires Deskflow >= v1.17.0.96
+- Deskflow will *just work* with Input Leap and Barrier (server or client).
+- Connecting a Deskflow client to a Synergy server will also *just work*.
+- To connect a Synergy client, you need to select the Synergy protocol in the Deskflow server settings.
+
+### Is Deskflow compatible with Lan Mouse?
+
+We would love to see compatibility with Lan Mouse. This may be quite an effort as currently the way they handle the generated input is very different.
 
 ### If I want to solve issues in Deskflow do I need to contribute to a fork?
 
@@ -211,16 +178,18 @@ Deskflow was first created as Synergy in 2001 by Chris Schoeneman.
 Read about the [history of the project](https://github.com/deskflow/deskflow/wiki/History) on our
 wiki.
 
-## Repology
-
-Repology monitors a huge number of package repositories and other sources comparing package
-versions across them and gathering other information.
-
-[![Repology](https://repology.org/badge/vertical-allrepos/deskflow.svg?exclude_unsupported=1)](https://repology.org/project/deskflow/versions)
-
 ## Meow'Dib (our mascot)
 
 ![Meow'Dib](https://github.com/user-attachments/assets/726f695c-3dfb-4abd-875d-ed658f6c610f)
+
+
+## Deskflow Contributors
+
+Deskflow is made by possible by these contributors.
+
+ <a href = "https://github.com/deskflow/deskflow/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=deskflow/deskflow"/>
+ </a>
 
 ## License
 
