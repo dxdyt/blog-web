@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-10-23T12:21:04+08:00
+date: 2024-12-10T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728931710331-7f74dca643eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728931710331-7f74dca643eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk2NTcxNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731085819151-c59cd8c27098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731085819151-c59cd8c27098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)
@@ -33,7 +33,8 @@ An extremely fast Python package and project manager, written in Rust.
 
 ## Highlights
 
-- 🚀 A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `virtualenv`, and more.
+- 🚀 A single tool to replace `pip`, `pip-tools`, `pipx`, `poetry`, `pyenv`, `twine`, `virtualenv`,
+  and more.
 - ⚡️ [10-100x faster](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) than `pip`.
 - 🐍 [Installs and manages](#python-management) Python versions.
 - 🛠️ [Runs and installs](#tool-management) Python applications.
@@ -55,23 +56,34 @@ uv is backed by [Astral](https://astral.sh), the creators of
 
 ## Installation
 
-Install uv with our standalone installers, or from [PyPI](https://pypi.org/project/uv/):
+Install uv with our standalone installers:
 
-```console
+```bash
 # On macOS and Linux.
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
+```bash
 # On Windows.
-$ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
+Or, from [PyPI](https://pypi.org/project/uv/):
+
+```bash
 # With pip.
-$ pip install uv
+pip install uv
+```
+
+```bash
+# Or pipx.
+pipx install uv
 ```
 
 If installed via the standalone installer, uv can update itself to the latest version:
 
-```console
-$ uv self update
+```bash
+uv self update
 ```
 
 See the [installation documentation](https://docs.astral.sh/uv/getting-started/installation/) for
@@ -103,13 +115,16 @@ Resolved 2 packages in 170ms
 Prepared 2 packages in 627ms
 Installed 2 packages in 1ms
  + example==0.1.0 (from file:///home/user/example)
- + ruff==0.5.4
+ + ruff==0.5.7
 
 $ uv run ruff check
 All checks passed!
 ```
 
 See the [project documentation](https://docs.astral.sh/uv/guides/projects/) to get started.
+
+uv also supports building and publishing projects, even if they're not managed with uv. See the
+[publish guide](https://docs.astral.sh/uv/guides/publish/) to learn more.
 
 ### Tool management
 
@@ -140,11 +155,11 @@ Install a tool with `uv tool install`:
 $ uv tool install ruff
 Resolved 1 package in 6ms
 Installed 1 package in 2ms
- + ruff==0.5.4
+ + ruff==0.5.7
 Installed 1 executable: ruff
 
 $ ruff --version
-ruff 0.5.4
+ruff 0.5.7
 ```
 
 See the [tools documentation](https://docs.astral.sh/uv/guides/tools/) to get started.
@@ -291,8 +306,8 @@ for Windows support.
 uv is licensed under either of
 
 - Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
-  https://www.apache.org/licenses/LICENSE-2.0)
-- MIT license ([LICENSE-MIT](LICENSE-MIT) or https://opensource.org/licenses/MIT)
+  <https://www.apache.org/licenses/LICENSE-2.0>)
+- MIT license ([LICENSE-MIT](LICENSE-MIT) or <https://opensource.org/licenses/MIT>)
 
 at your option.
 

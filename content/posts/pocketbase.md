@@ -1,9 +1,9 @@
 ---
 title: pocketbase
-date: 2024-12-09T12:23:00+08:00
+date: 2024-12-10T12:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731223834316-5875db2d781f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731223834316-5875db2d781f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM3MTgwNzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731085819151-c59cd8c27098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731085819151-c59cd8c27098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
 ---
 
 # [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase)

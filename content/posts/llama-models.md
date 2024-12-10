@@ -1,9 +1,9 @@
 ---
 title: llama-models
-date: 2024-09-28T12:20:55+08:00
+date: 2024-12-10T12:23:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725304113615-0d6bd19a664a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725304113615-0d6bd19a664a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0OTcxMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733000546765-b3cbea52e6c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733000546765-b3cbea52e6c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-models](https://github.com/meta-llama/llama-models)
@@ -47,7 +47,7 @@ To download the model weights and tokenizer:
 1. Visit the [Meta Llama website](https://llama.meta.com/llama-downloads/).
 2. Read and accept the license.
 3. Once your request is approved you will receive a signed URL via email.
-4. Install the [Llama CLI](https://github.com/meta-llama/llama-stack): `pip install llama-toolchain`. (**<-- Start Here if you have received an email already.**)
+4. Install the [Llama CLI](https://github.com/meta-llama/llama-stack): `pip install llama-stack`. (**<-- Start Here if you have received an email already.**)
 5. Run `llama model list` to show the latest available models and determine the model ID you wish to download. **NOTE**:
 If you want older versions of models, run `llama model list --show-all` to show all the available Llama models.
 
@@ -63,15 +63,15 @@ You need to install the following dependencies (in addition to the `requirements
 pip install torch fairscale fire blobfile
 ```
 
-After installing the dependencies, you can run the example scripts (within `models/scripts/` sub-directory) as follows:
+After installing the dependencies, you can run the example scripts (within `llama_models/scripts/` sub-directory) as follows:
 ```bash
 #!/bin/bash
 
 CHECKPOINT_DIR=~/.llama/checkpoints/Meta-Llama3.1-8B-Instruct
-PYTHONPATH=$(git rev-parse --show-toplevel) torchrun models/scripts/example_chat_completion.py $CHECKPOINT_DIR
+PYTHONPATH=$(git rev-parse --show-toplevel) torchrun llama_models/scripts/example_chat_completion.py $CHECKPOINT_DIR
 ```
 
-The above script should be used with an Instruct (Chat) model. For a Base model, use the script `models/scripts/example_text_completion.py`. Note that you can use these scripts with both Llama3 and Llama3.1 series of models.
+The above script should be used with an Instruct (Chat) model. For a Base model, use the script `llama_models/scripts/example_text_completion.py`. Note that you can use these scripts with both Llama3 and Llama3.1 series of models.
 
 For running larger models with tensor parallelism, you should modify as:
 ```bash
@@ -80,7 +80,7 @@ For running larger models with tensor parallelism, you should modify as:
 NGPUS=8
 PYTHONPATH=$(git rev-parse --show-toplevel) torchrun \
   --nproc_per_node=$NGPUS \
-  models/scripts/example_chat_completion.py $CHECKPOINT_DIR \
+  llama_models/scripts/example_chat_completion.py $CHECKPOINT_DIR \
   --model_parallel_size $NGPUS
 ```
 
