@@ -1,9 +1,9 @@
 ---
 title: dolphinscheduler
-date: 2024-05-08T12:16:09+08:00
+date: 2024-12-12T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713549519427-b49b7aadd814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713549519427-b49b7aadd814?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTUxNDE2NDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733078868229-fac69ef3afad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733078868229-fac69ef3afad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
 ---
 
 # [apache/dolphinscheduler](https://github.com/apache/dolphinscheduler)
@@ -25,14 +25,14 @@ dedicated to solving complex task dependencies in the data pipeline and providin
 The key features for DolphinScheduler are as follows:
 
 - Easy to deploy, provide four ways to deploy which including Standalone, Cluster, Docker and Kubernetes.
-- Easy to use, workflow can be created and managed by four ways, which including Web UI, [Python SDK](https://dolphinscheduler.apache.org/python/main/index.html), Yaml file and Open API
+- Easy to use, workflow can be created and managed by four ways, which including Web UI, [Python SDK](https://dolphinscheduler.apache.org/python/main/index.html) and Open API
 - Highly reliable and high availability, decentralized architecture with multi-master and multi-worker, native supports horizontal scaling.
 - High performance, its performance is N times faster than other orchestration platform and it can support tens of millions of tasks per day
 - Cloud Native, DolphinScheduler supports orchestrating multi-cloud/data center workflow, and supports custom task type
 - Versioning both workflow and workflow instance(including tasks)
 - Various state control of workflow and task, support pause/stop/recover them in any time
 - Multi-tenancy support
-- Others like backfill support(Web UI native), permission control including project, resource and data source
+- Others like backfill support(Web UI native), permission control including project and data source
 
 ## QuickStart
 

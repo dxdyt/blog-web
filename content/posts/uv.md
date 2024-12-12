@@ -1,9 +1,9 @@
 ---
 title: uv
-date: 2024-12-11T12:21:01+08:00
+date: 2024-12-12T12:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733325600553-c392b1acad16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733325600553-c392b1acad16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731223834316-5875db2d781f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731223834316-5875db2d781f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
 ---
 
 # [astral-sh/uv](https://github.com/astral-sh/uv)
@@ -115,7 +115,7 @@ Resolved 2 packages in 170ms
 Prepared 2 packages in 627ms
 Installed 2 packages in 1ms
  + example==0.1.0 (from file:///home/user/example)
- + ruff==0.5.7
+ + ruff==0.5.8
 
 $ uv run ruff check
 All checks passed!
@@ -155,11 +155,11 @@ Install a tool with `uv tool install`:
 $ uv tool install ruff
 Resolved 1 package in 6ms
 Installed 1 package in 2ms
- + ruff==0.5.7
+ + ruff==0.5.8
 Installed 1 executable: ruff
 
 $ ruff --version
-ruff 0.5.7
+ruff 0.5.8
 ```
 
 See the [tools documentation](https://docs.astral.sh/uv/guides/tools/) to get started.

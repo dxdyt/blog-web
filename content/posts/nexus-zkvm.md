@@ -1,9 +1,9 @@
 ---
 title: nexus-zkvm
-date: 2024-12-10T12:21:53+08:00
+date: 2024-12-12T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732310067368-e9d11026aa6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732310067368-e9d11026aa6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
 ---
 
 # [nexus-xyz/nexus-zkvm](https://github.com/nexus-xyz/nexus-zkvm)
@@ -45,6 +45,8 @@ First, install Rust: https://www.rust-lang.org/tools/install.
 
 Also, make sure you have a working version of [cmake](https://cmake.org/).
 
+Note: cmake is a required dependency.
+
 Next, install the RISC-V target:
 
 ```shell
@@ -71,6 +73,12 @@ This should print the available CLI commands.
 cargo nexus new nexus-project
 ```
 
+And change directory to the new project:
+
+```shell
+cd nexus-project
+```
+
 This will create a new Rust project directory with the following structure:
 
 ```shell
@@ -85,20 +93,12 @@ As an example, you can change the content of `./src/main.rs` to:
 
 ```rust
 #![cfg_attr(target_arch = "riscv32", no_std, no_main)]
-
-fn fib(n: u32) -> u32 {
-    match n {
-        0 => 0,
-        1 => 1,
-        _ => fib(n - 1) + fib(n - 2),
-    }
-}
-
+ 
+use nexus_rt::write_log;
+ 
 #[nexus_rt::main]
 fn main() {
-    let n = 7;
-    let result = fib(n);
-    assert_eq!(result, 13);
+    write_log("Hello, World!\n");
 }
 ```
 
@@ -106,6 +106,11 @@ fn main() {
 
 ```bash
 cargo nexus run
+```
+
+You should see the program print:
+```bash
+"Hello, World!"
 ```
 
 This command should run successfully. To print the full step-by-step execution trace on the NVM, run:
@@ -131,6 +136,8 @@ Finally, load and verify the proof:
 ```shell
 cargo nexus verify
 ```
+
+You should see the program print "Verifying Proof..." and finally "Finished" when complete.
 
 ## Learn More
 

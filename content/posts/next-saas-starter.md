@@ -1,9 +1,9 @@
 ---
 title: next-saas-starter
-date: 2024-12-11T12:21:39+08:00
+date: 2024-12-12T12:22:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733234976328-f77f08f4379d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733234976328-f77f08f4379d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731223834316-5875db2d781f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731223834316-5875db2d781f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
 ---
 
 # [leerob/next-saas-starter](https://github.com/leerob/next-saas-starter)

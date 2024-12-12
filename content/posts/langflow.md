@@ -1,9 +1,9 @@
 ---
 title: langflow
-date: 2024-12-02T12:21:47+08:00
+date: 2024-12-12T12:21:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731451162502-491cf56d78ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731451162502-491cf56d78ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
 ---
 
 # [langflow-ai/langflow](https://github.com/langflow-ai/langflow)
@@ -49,7 +49,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1731451162502-491cf56d78
 
 ## 📦 Quickstart
 
-- **Install with pip** (Python 3.10 or greater):
+- **Install with uv** (Python 3.10 to 3.12):
+
+```shell
+uv pip install langflow
+```
+
+- **Install with pip** (Python 3.10 to 3.12):
 
 ```shell
 pip install langflow
