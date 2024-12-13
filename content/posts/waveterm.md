@@ -1,0 +1,78 @@
+---
+title: waveterm
+date: 2024-12-13T12:22:44+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1731331329611-28073420f08f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731331329611-28073420f08f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+---
+
+# [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
+
+<p align="center">
+  <a href="https://www.waveterm.dev">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="./assets/wave-dark.png">
+		<source media="(prefers-color-scheme: light)" srcset="./assets/wave-light.png">
+		<img alt="Wave Terminal Logo" src="./assets/wave-light.png" width="240">
+	</picture>
+  </a>
+  <br/>
+</p>
+
+# Wave Terminal
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwavetermdev%2Fwaveterm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwavetermdev%2Fwaveterm?ref=badge_shield)
+[![waveterm](https://snapcraft.io/waveterm/trending.svg?name=0)](https://snapcraft.io/waveterm)
+
+Wave is an open-source terminal that can launch graphical widgets, controlled and integrated directly with the CLI. It includes a base terminal, directory browser, file previews (images, media, markdown), a graphical editor (for code/text files), a web browser, and integrated AI chat.
+
+Wave isn't just another terminal emulator; it's a rethink on how terminals are built. For too long there has been a disconnect between the CLI and the web. If you want fast, keyboard-accessible, easy-to-write applications, you use the CLI, but if you want graphical interfaces, native widgets, copy/paste, scrolling, variable font sizes, then you'd have to turn to the web. Wave's goal is to bridge that gap.
+
+![WaveTerm Screenshot](./assets/wave-screenshot.webp)
+
+## Installation
+
+Wave Terminal works on macOS, Linux, and Windows.
+
+Platform-specific installation instructions can be found [here](https://docs.waveterm.dev/gettingstarted).
+
+You can also install Wave Terminal directly from: [www.waveterm.dev/download](https://www.waveterm.dev/download).
+
+### Minimum requirements
+
+Wave Terminal and WSH run on the following platforms:
+
+- macOS 11 or later (arm64, x64)
+- Windows 10 1809 or later (x64)
+- Linux based on glibc-2.28 or later (Debian 10, RHEL 8, Ubuntu 20.04, etc.) (arm64, x64)
+
+## Links
+
+- Homepage &mdash; https://www.waveterm.dev
+- Download Page &mdash; https://www.waveterm.dev/download
+- Documentation &mdash; https://docs.waveterm.dev
+- Legacy Documentation &mdash; https://legacydocs.waveterm.dev
+- Blog &mdash; https://blog.waveterm.dev
+- Discord Community &mdash; https://discord.gg/XfvZ334gwU
+
+## Building from Source
+
+See [Building Wave Terminal](BUILD.md).
+
+## Contributing
+
+Wave uses GitHub Issues for issue tracking.
+
+Find more information in our [Contributions Guide](CONTRIBUTING.md), which includes:
+
+- [Ways to contribute](CONTRIBUTING.md#contributing-to-wave-terminal)
+- [Contribution guidelines](CONTRIBUTING.md#before-you-start)
+- [Storybook](https://docs.waveterm.dev/storybook)
+
+### Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/f06b0f7bb1656d2493012ad411bbd746e8bf680f.svg "Repobeats analytics image")
+
+## License
+
+Wave Terminal is licensed under the Apache-2.0 License. For more information on our dependencies, see [here](./ACKNOWLEDGEMENTS.md).

@@ -1,9 +1,9 @@
 ---
 title: rig
-date: 2024-12-12T12:21:16+08:00
+date: 2024-12-13T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732530361158-09f4154b6b3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732530361158-09f4154b6b3b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig)

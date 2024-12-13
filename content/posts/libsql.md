@@ -1,9 +1,9 @@
 ---
 title: libsql
-date: 2024-11-18T12:21:06+08:00
+date: 2024-12-13T12:22:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727429494386-9d19eb86ae27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727429494386-9d19eb86ae27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5MDM2MjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732192548673-e08daf9595cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732192548673-e08daf9595cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [tursodatabase/libsql](https://github.com/tursodatabase/libsql)

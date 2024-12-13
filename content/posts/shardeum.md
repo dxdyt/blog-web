@@ -1,9 +1,9 @@
 ---
 title: shardeum
-date: 2024-10-06T12:19:57+08:00
+date: 2024-12-13T12:22:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725504836973-a434fa6c4753?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725504836973-a434fa6c4753?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733141534071-7be1afd79f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733141534071-7be1afd79f30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
 ---
 
 # [shardeum/shardeum](https://github.com/shardeum/shardeum)
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1725504836973-a434fa6c47
 <p align="center">
   <a href="https://github.com/shardeum/shardeum/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"></a>
   <a href="https://discord.com/invite/shardeum"><img src="https://img.shields.io/discord/933959587462254612?logo=discord" alt="Discord"></a>
-  <a href="https://twitter.com/Shardeum"><img src="https://img.shields.io/twitter/follow/Shardeum?style=social" alt="Twitter"></a>
+  <a href="https://x.com/Shardeum"><img src="https://img.shields.io/twitter/follow/Shardeum?style=social" alt="Twitter"></a>
 </p>
 
 ## Table of Contents
@@ -54,8 +54,8 @@ Shardeum is an innovative EVM-compliant blockchain platform that leverages dynam
 
 ### Prerequisites
 
-- Node.js (v18.16.1)
-- npm (v9.5.1)
+- Node.js (v18.19.1)
+- npm (v10.2.4)
 - Rust (v1.74.1)
 - Docker (optional, for containerized deployment)
 
@@ -173,7 +173,7 @@ We welcome contributions! Please see our [Contribution Guidelines](CONTRIBUTING.
 
 - [GitHub Discussions](https://github.com/shardeum/shardeum/discussions)
 - [Discord](https://discord.com/invite/shardeum)
-- [Twitter](https://twitter.com/Shardeum)
+- [X (formerly Twitter)](https://x.com/Shardeum)
 
 ## License
 
