@@ -1,9 +1,9 @@
 ---
 title: langflow
-date: 2024-12-12T12:21:52+08:00
+date: 2024-12-14T12:22:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728963606465-590b0c43dc5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728963606465-590b0c43dc5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
 ---
 
 # [langflow-ai/langflow](https://github.com/langflow-ai/langflow)
@@ -30,6 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732212587909-3b1ac42301
   <a href="./README.zh_CN.md"><img alt="README in Simplified Chinese" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
   <a href="./README.ja.md"><img alt="README in Japanese" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
   <a href="./README.KR.md"><img alt="README in KOREAN" src="https://img.shields.io/badge/한국어-d9d9d9"></a>
+  <a href="./README.FR.md"><img alt="README in French" src="https://img.shields.io/badge/Français-d9d9d9"></a>
 </div>
 
 ## ✨ Core features
@@ -49,7 +50,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732212587909-3b1ac42301
 
 ## 📦 Quickstart
 
-- **Install with uv** (Python 3.10 to 3.12):
+- **Install with uv (recommended)** (Python 3.10 to 3.12):
 
 ```shell
 uv pip install langflow

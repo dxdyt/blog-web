@@ -1,9 +1,9 @@
 ---
 title: esp32-weather-epd
-date: 2024-12-13T12:22:50+08:00
+date: 2024-12-14T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732262548358-b3b82fa7d4d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732262548358-b3b82fa7d4d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733325600553-c392b1acad16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733325600553-c392b1acad16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
 ---
 
 # [lmarzen/esp32-weather-epd](https://github.com/lmarzen/esp32-weather-epd)

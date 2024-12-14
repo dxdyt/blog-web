@@ -1,9 +1,9 @@
 ---
 title: typeorm
-date: 2024-11-30T12:21:55+08:00
+date: 2024-12-14T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730484579875-958613d9646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI5NDA0MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730484579875-958613d9646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI5NDA0MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728963606465-590b0c43dc5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728963606465-590b0c43dc5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
 ---
 
 # [typeorm/typeorm](https://github.com/typeorm/typeorm)

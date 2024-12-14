@@ -1,9 +1,9 @@
 ---
 title: network-api
-date: 2024-12-12T12:21:10+08:00
+date: 2024-12-14T12:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732212587909-3b1ac42301d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM5NzcyNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733667917612-319793fc3f7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733667917612-319793fc3f7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
 ---
 
 # [nexus-xyz/network-api](https://github.com/nexus-xyz/network-api)
@@ -21,6 +21,17 @@ A high-performance command-line interface for contributing proofs to the Nexus n
         We're building a global distributed prover network to unite the world's computers and power a new and better Internet: the Verifiable Internet. Connect to the beta and give it a try today.
     </figcaption>
 </figure>
+
+## The Nexus Network
+
+The [Nexus Network](https://docs.nexus.xyz/network) is a global distributed prover network that unites the world's computers to power a new and better Internet: the Verifiable Internet.
+
+There have been two testnets:
+
+- The first testnet period was in [October 08 to 28 2024](https://blog.nexus.xyz/nexus-launches-worlds-first-open-prover-network/).
+- The second testnet period was in [December 9 to 13, 2024](https://blog.nexus.xyz/the-new-nexus-testnet-is-live/).
+
+**Important:** *The Nexus network is currently in devnet. It is important to note that you cannot earn Nexus points. Instead, devnet allows developers to experiment and build with the network. Stay tuned for updates regarding future testnets.*
 
 ## Quick Start
 
@@ -56,9 +67,7 @@ NONINTERACTIVE=1 sh
 
 ## Prover Id
 
-The CLI will prompt for your web prover id from [beta.nexus.xyz](https://beta.nexus.xyz/)
-on startup. It is ok to skip this prompt and a random id will be generated, but you'll be
-prompted again on startup until your web prover id is entered.
+The CLI will prompt for your web prover id from the Nexus testnet or devnet on startup. It is ok to skip this prompt and a random id will be generated, but you'll be prompted again on startup until your web prover id is entered.
 
 The prover id prompt is disabled when NONINTERACTIVE=1 is set. In a server environment,
 you can manually overwrite $HOME/.nexus/prover-id with your full prover id.
