@@ -1,16 +1,16 @@
 ---
 title: PDFMathTranslate
-date: 2024-12-14T12:20:26+08:00
+date: 2024-12-15T12:20:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732786923029-27db37c64021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732786923029-27db37c64021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
 
 <div align="center">
 
-English | [简体中文](README_zh-CN.md)
+English | [简体中文](README_zh-CN.md) | [日本語](README_ja-JP.md)
 
 <img src="./docs/images/banner.png" width="320px"  alt="PDF2ZH"/>  
 
@@ -76,7 +76,7 @@ Note that the computing resources of the demo are limited, so please avoid abusi
 
 <h2 id="install">Installation and Usage</h2>
 
-We provide three methods for using this project: [Commandline](#cmd), [Portable](#portable), [GUI](#gui), and [Docker](#docker).
+We provide four methods for using this project: [Commandline](#cmd), [Portable](#portable), [GUI](#gui), and [Docker](#docker).
 
 <h3 id="cmd">Method I. Commandline</h3>
 
@@ -172,7 +172,7 @@ In the following table, we list all advanced options for reference:
 | `-t`  | [Multi-threads](#threads) | `pdf2zh example.pdf -t 1` |
 | `-o`  | Output dir | `pdf2zh example.pdf -o output` |
 | `-f`, `-c` | [Exceptions](#exceptions) | `pdf2zh example.pdf -f "(MS.*)"` |
-| `--share` | get gradio public link | `pdf2zh -i --share` |
+| `--share` | Get gradio public link | `pdf2zh -i --share` |
 
 <h3 id="partial">Full / partial document translation</h3>
 
@@ -211,6 +211,7 @@ The table below outlines the required [environment variables](https://chatgpt.co
 |**AzureOpenAI**|`azure-openai`|`AZURE_OPENAI_BASE_URL`, `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_MODEL`|`[Your Endpoint]`, `[Your Key]`, `gpt-4o-mini`|See [Azure OpenAI](https://learn.microsoft.com/zh-cn/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cjavascript-keyless%2Ctypescript-keyless%2Cpython&pivots=programming-language-python)|
 |**Zhipu**|`zhipu`|`ZHIPU_API_KEY`, `ZHIPU_MODEL`|`[Your Key]`, `glm-4-flash`|See [Zhipu](https://open.bigmodel.cn/dev/api/thirdparty-frame/openai-sdk)|
 |**Silicon**|`silicon`|`SILICON_API_KEY`, `SILICON_MODEL`|`[Your Key]`, `Qwen/Qwen2.5-7B-Instruct`|See [SiliconCloud](https://docs.siliconflow.cn/quickstart)|
+|**Gemini**|`gemini`|`GEMINI_API_KEY`, `GEMINI_MODEL`|`[Your Key]`, `gemini-1.5-flash`|See [Gemini](https://ai.google.dev/gemini-api/docs/openai)|
 |**Azure**|`azure`|`AZURE_ENDPOINT`, `AZURE_API_KEY`|`https://api.translator.azure.cn`, `[Your Key]`|See [Azure](https://docs.azure.cn/en-us/ai-services/translator/text-translation-overview)|
 |**Tencent**|`tencent`|`TENCENTCLOUD_SECRET_ID`, `TENCENTCLOUD_SECRET_KEY`|`[Your ID]`, `[Your Key]`|See [Tencent](https://www.tencentcloud.com/products/tmt?from_qcintl=122110104)|
 
@@ -233,6 +234,12 @@ Use regex to specify formula fonts and characters that need to be preserved:
 
 ```bash
 pdf2zh example.pdf -f "(CM[^RT].*|MS.*|.*Ital)" -c "(\(|\||\)|\+|=|\d|[\u0080-\ufaff])"
+```
+
+Preserve `Latex`, `Mono`, `Code`, `Italic`, `Symbol` and `Math` fonts by default:
+
+```bash
+pdf2zh example.pdf -f "(CM[^R]|(MS|XY|MT|BL|RM|EU|LA|RS)[A-Z]|LINE|LCIRCLE|TeX-|rsfs|txsy|wasy|stmary|.*Mono|.*Code|.*Ital|.*Sym|.*Math)"
 ```
 
 <h3 id="threads">Specify threads</h3>

@@ -1,9 +1,9 @@
 ---
 title: waveterm
-date: 2024-12-13T12:22:44+08:00
+date: 2024-12-15T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731331329611-28073420f08f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731331329611-28073420f08f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQwNjM2NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732823155196-f2bd63985130?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732823155196-f2bd63985130?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
 ---
 
 # [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)

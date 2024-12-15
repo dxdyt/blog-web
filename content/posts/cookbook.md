@@ -1,9 +1,9 @@
 ---
 title: cookbook
-date: 2024-12-14T12:21:04+08:00
+date: 2024-12-15T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733056883310-0e1658d09c36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733056883310-0e1658d09c36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732295160378-78fbd97fbf83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732295160378-78fbd97fbf83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
 ---
 
 # [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
@@ -43,8 +43,8 @@ Learn about the capabilities of the Gemini API by checking out these quickstart 
 You can find lots more in the [quickstarts folder](https://github.com/google-gemini/cookbook/tree/main/quickstarts), and check out the [examples folder](https://github.com/google-gemini/cookbook/tree/main/examples) for fun examples. We're also maintaining an [Awesome Gemini](Awesome_gemini.md) list of all the cool projects the community is building using Gemini. 
 
 ## Official SDKs
-The Gemini API is a REST API. You can call the API using a command line tool like `curl` (and you can find REST examples [here](https://github.com/google-gemini/cookbook/tree/main/quickstarts/rest)), or by using one of our official SDKs:
-* [Python](https://github.com/google/generative-ai-python) - Note: all the notebooks in this cookbook install the Python SDK for you, and this cookbook is the best place to find Python examples.
+The Gemini API is a REST API. You can call the API using a command line tool like `curl` (and you can find REST examples [here](https://github.com/google-gemini/cookbook/tree/main/quickstarts/rest)), or by using one of our [official SDKs](https://ai.google.dev/gemini-api/docs/downloads):
+* [Python](https://github.com/google/generative-ai-python)
 * [Node.js](https://github.com/google/generative-ai-js)
 * [Dart (Flutter)](https://github.com/google/generative-ai-dart)
 * [Android](https://github.com/google/generative-ai-android)

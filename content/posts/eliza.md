@@ -1,9 +1,9 @@
 ---
 title: eliza
-date: 2024-12-05T12:23:13+08:00
+date: 2024-12-15T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731069945702-53e476208ad8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731069945702-53e476208ad8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733667917612-319793fc3f7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733667917612-319793fc3f7b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
 ---
 
 # [ai16z/eliza](https://github.com/ai16z/eliza)
@@ -15,14 +15,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1731069945702-53e476208a
 </div>
 
 <div align="center">
-  
+
   📖 [Documentation](https://ai16z.github.io/eliza/) | 🎯 [Examples](https://github.com/thejoven/awesome-eliza)
-  
+
 </div>
 
 ## 🌍 README Translations
 
-[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md)
+[中文说明](./README_CN.md) | [日本語の説明](./README_JA.md) | [한국어 설명](./README_KOR.md) | [Français](./README_FR.md) | [Português](./README_PTBR.md) | [Türkçe](./README_TR.md) | [Русский](./README_RU.md) | [Español](./README_ES.md) | [Italiano](./README_IT.md) | [ไทย](./README_TH.md) | [Deutsch](./README_DE.md)
 
 ## ✨ Features
 
@@ -34,6 +34,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1731069945702-53e476208a
 -   🚀 Highly extensible - create your own actions and clients
 -   ☁️ Supports many models (local Llama, OpenAI, Anthropic, Groq, etc.)
 -   📦 Just works!
+
+## Video Tutorials
+[AI Agent Dev School](https://www.youtube.com/watch?v=ArptLpQiKfI&list=PLx5pnFXdPTRzWla0RaOxALTSTnVq53fKL)
 
 ## 🎯 Use Cases
 
@@ -60,7 +63,7 @@ git clone https://github.com/ai16z/eliza-starter.git
 
 cp .env.example .env
 
-pnpm i && pnpm start
+pnpm i && pnpm build && pnpm start
 ```
 
 Then read the [Documentation](https://ai16z.github.io/eliza/) to learn how to customize your Eliza.
@@ -100,7 +103,7 @@ sh scripts/start.sh
 
 ### Edit the character file
 
-1. Open `agent/src/character.ts` to modify the default character. Uncomment and edit.
+1. Open `packages/core/src/defaultCharacter.ts` to modify the default character. Uncomment and edit.
 
 2. To load custom characters:
     - Use `pnpm start --characters="path/to/your/character.json"`

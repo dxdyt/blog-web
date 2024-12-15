@@ -1,9 +1,9 @@
 ---
 title: limbo
-date: 2024-12-14T12:21:21+08:00
+date: 2024-12-15T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732734042420-1fa41185ad56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732734042420-1fa41185ad56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733325600553-c392b1acad16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733325600553-c392b1acad16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
 ---
 
 # [tursodatabase/limbo](https://github.com/tursodatabase/limbo)
@@ -36,12 +36,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1732734042420-1fa41185ad
 ## Features
 
 * In-process OLTP database engine library
-* Asynchronous I/O support with `io_uring`
+* Asynchronous I/O support on Linux with `io_uring`
 * SQLite compatibility ([status](COMPAT.md))
   * SQL dialect support
   * File format support
   * SQLite C API
 * JavaScript/WebAssembly bindings (_wip_)
+* Support for Linux, macOS, and Windows
 
 ## Getting Started
 
