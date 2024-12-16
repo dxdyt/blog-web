@@ -1,9 +1,9 @@
 ---
 title: openpilot
-date: 2024-12-15T12:21:30+08:00
+date: 2024-12-16T12:22:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732295160378-78fbd97fbf83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732295160378-78fbd97fbf83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733667917418-f4b7ea5a80c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733667917418-f4b7ea5a80c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
 ---
 
 # [commaai/openpilot](https://github.com/commaai/openpilot)
@@ -48,7 +48,8 @@ Quick start: `bash <(curl -fsSL openpilot.comma.ai)`
   </tr>
 </table>
 
-To start using openpilot in a car
+
+Using openpilot in a car
 ------
 
 To use openpilot in a car, you need four things:
@@ -58,6 +59,14 @@ To use openpilot in a car, you need four things:
 4. **Car Harness:** You will also need a [car harness](https://comma.ai/shop/car-harness) to connect your comma 3/3X to your car.
 
 We have detailed instructions for [how to install the harness and device in a car](https://comma.ai/setup). Note that it's possible to run openpilot on [other hardware](https://blog.comma.ai/self-driving-car-for-free/), although it's not plug-and-play.
+
+### Branches
+| branch           | URL                                    | description                                                                         |
+|------------------|----------------------------------------|-------------------------------------------------------------------------------------|
+| `release3`         | openilot.comma.ai                      | This is openpilot's release branch.                                                 |
+| `release3-staging` | openpilot-test.comma.ai                | This is the staging branch for releases. Use it to get new releases slightly early. |
+| `nightly`          | openpilot-nightly.comma.ai             | This is the bleeding edge development branch. Do not expect this to be stable.      |
+| `nightly-dev`      | installer.comma.ai/commaai/nightly-dev | Same as nightly, but includes experimental development features for some cars.      |
 
 To start developing openpilot
 ------

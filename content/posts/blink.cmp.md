@@ -1,9 +1,9 @@
 ---
 title: blink.cmp
-date: 2024-12-15T12:20:56+08:00
+date: 2024-12-16T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
 ---
 
 # [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
@@ -273,10 +273,12 @@ MiniDeps.add({
   keymap = { preset = 'default' },
 
   -- Enables keymaps, completions and signature help when true
-  enabled = function() return vim.bo.buftype ~= "prompt" end,
+  enabled = function() return vim.bo.buftype ~= "prompt" and vim.b.completion ~= false end,
   -- Example for blocking multiple filetypes
   -- enabled = function()
-  --  return not vim.tbl_contains({ "lua", "markdown" }, vim.bo.filetype) and vim.bo.buftype ~= "prompt"
+  --  return not vim.tbl_contains({ "lua", "markdown" }, vim.bo.filetype)
+  --    and vim.bo.buftype ~= "prompt"
+  --    and vim.b.completion ~= false
   -- end,
 
   snippets = {
@@ -689,6 +691,14 @@ MiniDeps.add({
       luasnip = {
         name = 'Luasnip',
         module = 'blink.cmp.sources.luasnip',
+        opts = {
+          -- Whether to use show_condition for filtering snippets
+          use_show_condition = true,
+          -- Whether to show autosnippets in the completion list
+          show_autosnippets = true,
+          -- Snippet filetypes to always include in the completion list
+          global_snippets = { 'all' },
+        }
       },
       buffer = {
         name = 'Buffer',

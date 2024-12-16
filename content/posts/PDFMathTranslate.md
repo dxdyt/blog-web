@@ -1,9 +1,9 @@
 ---
 title: PDFMathTranslate
-date: 2024-12-15T12:20:39+08:00
+date: 2024-12-16T12:21:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731946660299-8f091eb1caee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731946660299-8f091eb1caee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -34,6 +34,8 @@ English | [简体中文](README_zh-CN.md) | [日本語](README_ja-JP.md)
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
 </p>
+
+<a href="https://trendshift.io/repositories/12424" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12424" alt="Byaidu%2FPDFMathTranslate | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 </div>
 
@@ -272,8 +274,7 @@ pdf2zh --celery worker
 ```
 
 ```bash
-curl http://localhost:11008/v1/translate -F "file=@example.pdf" -F "data={\"lang_in\":\"en\",\"l
-ang_out\":\"zh\",\"service\":\"google\",\"thread\":4}"
+curl http://localhost:11008/v1/translate -F "file=@example.pdf" -F "data={\"lang_in\":\"en\",\"lang_out\":\"zh\",\"service\":\"google\",\"thread\":4}"
 {"id":"d9894125-2f4e-45ea-9d93-1a9068d2045a"}
 
 curl http://localhost:11008/v1/translate/d9894125-2f4e-45ea-9d93-1a9068d2045a

@@ -1,9 +1,9 @@
 ---
 title: midday
-date: 2024-09-04T12:19:27+08:00
+date: 2024-12-16T12:22:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724086574420-b6fb1b69f0e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724086574420-b6fb1b69f0e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU0MjM1MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
 ---
 
 # [midday-ai/midday](https://github.com/midday-ai/midday)
@@ -78,15 +78,16 @@ We are working on the documentation to get started with Midday for local develop
 ### Services
 
 - Trigger.dev (background jobs)
-- Resend (email)
+- Resend (Transactional & Marketing)
 - Novu (notifications)
 - Github Actions (CI/CD)
 - GoCardLess (Bank connection EU)
 - Plaid (Bank connection in Canada and US)
 - Teller (Bank connection in the US)
-- Loops (Marketing email)
 - OpenPanel (Events and Analytics)
 - Dub (Short URLs)
+- Polar (Payment processing)
+- Typesense (Search)
 
 ## Repo Activity
 

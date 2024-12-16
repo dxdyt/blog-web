@@ -1,9 +1,9 @@
 ---
 title: TEN-Agent
-date: 2024-12-15T12:20:31+08:00
+date: 2024-12-16T12:21:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731398916709-19c7ae1be371?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731398916709-19c7ae1be371?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732910063342-cb67ba0f2d90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732910063342-cb67ba0f2d90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
 ---
 
 # [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent)

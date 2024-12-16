@@ -1,9 +1,9 @@
 ---
 title: LazyVim
-date: 2024-07-26T12:18:34+08:00
+date: 2024-12-16T12:23:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719727033384-fe3982381d8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719727033384-fe3982381d8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE5Njc0Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731370963513-810eab0e3194?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731370963513-810eab0e3194?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
 ---
 
 # [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim)
@@ -79,7 +79,7 @@ You can find a starter template for **LazyVim** [here](https://github.com/LazyVi
 
 ```sh
 docker run -w /root -it --rm alpine:edge sh -uelic '
-  apk add git lazygit neovim ripgrep alpine-sdk --update
+  apk add git lazygit fzf curl neovim ripgrep alpine-sdk --update
   git clone https://github.com/LazyVim/starter ~/.config/nvim
   cd ~/.config/nvim
   nvim
@@ -125,7 +125,7 @@ There's a great video created by [@elijahmanor](https://github.com/elijahmanor) 
 
 [![Watch the video](https://img.youtube.com/vi/N93cTbtLCIM/hqdefault.jpg)](https://www.youtube.com/watch?v=N93cTbtLCIM)
 
-[@dusty-phillips](https://github.com/dusty-phillips) is working on a book called
+[@dusty-phillips](https://github.com/dusty-phillips) wrote a comprehensive book called
 [LazyVim for Ambitious Developers](https://lazyvim-ambitious-devs.phillips.codes)
 available for free online.
 
