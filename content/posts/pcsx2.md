@@ -1,9 +1,9 @@
 ---
 title: pcsx2
-date: 2024-09-09T12:19:58+08:00
+date: 2024-12-17T12:22:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724814650005-12829d77afdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724814650005-12829d77afdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU4NTU1MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732296885178-6ee6aa71c01c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732296885178-6ee6aa71c01c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [PCSX2/pcsx2](https://github.com/PCSX2/pcsx2)

@@ -1,9 +1,9 @@
 ---
 title: TEN-Agent
-date: 2024-12-16T12:21:33+08:00
+date: 2024-12-17T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732910063342-cb67ba0f2d90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732910063342-cb67ba0f2d90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732296885178-6ee6aa71c01c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732296885178-6ee6aa71c01c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [TEN-framework/TEN-Agent](https://github.com/TEN-framework/TEN-Agent)
@@ -45,10 +45,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1732910063342-cb67ba0f2d
 
 <br>
 <h2>🌟 Gemini Multimodal Live API Extension with RTC</h2>
+<!-- 
+![Usecases](https://github.com/TEN-framework/docs/blob/main/assets/jpg/gemini-with-ten.jpg?raw=true) -->
 
-![Usecases](https://github.com/TEN-framework/docs/blob/main/assets/jpg/gemini-with-ten.jpg?raw=true)
+![Usecases](https://github.com/TEN-framework/docs/blob/main/assets/gif/gemini.gif?raw=true)
 
-Try **Google Gemini Multimodal Live API** with **realtime vision** and **realtime screen detection** capabilities, it is a ready-to-use extension, along with powerful tools like **Weather Check** and **Web Search** integrated perfectly into TEN Agent.
+[agent.theten.ai](https://agent.theten.ai)
+
+Try **Google Gemini Multimodal Live API** with **realtime vision** and **realtime screenshare detection** capabilities, it is a ready-to-use extension, along with powerful tools like **Weather Check** and **Web Search** integrated perfectly into TEN Agent.
 
 
 <br>
@@ -125,6 +129,15 @@ Open the playground at [localhost:3000](http://localhost:3000) to configure your
  3. Select an extension and configure its API key settings
 
 ![Module Example](https://github.com/TEN-framework/docs/blob/main/assets/gif/module-example.gif?raw=true)
+
+#### Running Gemini Realtime Extension
+Open the playground at [localhost:3000](http://localhost:3000).
+
+ 1. Select voice_assistant_realtime graph
+ 2. Choose Gemini Realtime module
+ 3. Select v2v extension and enter Gemini API key
+
+![Gemini Realtime Playground](https://github.com/TEN-framework/docs/blob/main/assets/gif/gemini-playground.gif?raw=true)
 
 <br>
 <h2>TEN Agent Components</h2>

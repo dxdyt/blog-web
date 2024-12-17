@@ -1,9 +1,9 @@
 ---
 title: cookbook
-date: 2024-12-16T12:21:43+08:00
+date: 2024-12-17T12:21:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731435265830-c355639f476c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731435265830-c355639f476c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732193998117-97b3b2994323?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732193998117-97b3b2994323?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [google-gemini/cookbook](https://github.com/google-gemini/cookbook)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1731435265830-c355639f47
 # Welcome to the Gemini API Cookbook
 This is a collection of guides and examples for the Gemini API, including [quickstart](https://github.com/google-gemini/cookbook/tree/main/quickstarts) tutorials for writing prompts and using different features of the API, and [examples](https://github.com/google-gemini/cookbook/tree/main/examples) of things you can build.
 
-**NEW**: Check out the latest Gemini 2.0 capabilities in [the docs](https://ai.google.dev/gemini-api/docs/models/gemini-v2), [Google AI Studio](https://aistudio.google.com/app/live?model=gemini-2.0-flash-exp) and here in the [cookbook](./gemini-2/).
+${\Large \textbf{\color[rgb]{0.12941,0.48235,0.99608}N\color[rgb]{0.57647,0.60392,1}e\color[rgb]{0.91765,0.47843,0.72157}w\color[rgb]{0.93333,0.30196,0.36471}:}}$ Check out the latest Gemini 2.0 capabilities in [the docs](https://ai.google.dev/gemini-api/docs/models/gemini-v2), [Google AI Studio](https://aistudio.google.com/app/live?model=gemini-2.0-flash-exp) and here in the [cookbook](./gemini-2/).
 
 ## Get started with the Gemini API
 The Gemini API gives you access to Gemini [models](https://ai.google.dev/models/gemini) created by [Google DeepMind](https://deepmind.google/technologies/gemini/#introduction). Gemini models are built from the ground up to be multimodal, so you can reason seamlessly across text, images, code, and audio. You can use these to develop a [range of applications](https://ai.google.dev/examples/).
@@ -44,7 +44,7 @@ You can find lots more in the [quickstarts folder](https://github.com/google-gem
 
 ## Official SDKs
 The Gemini API is a REST API. You can call the API using a command line tool like `curl` (and you can find REST examples [here](https://github.com/google-gemini/cookbook/tree/main/quickstarts/rest)), or by using one of our [official SDKs](https://ai.google.dev/gemini-api/docs/downloads):
-* [Python](https://github.com/google/generative-ai-python)
+* Python: [Google GenAI SDKs](https://github.com/googleapis/python-genai) will eventually replace the older [Developer SDK](https://github.com/google/generative-ai-python).
 * [Node.js](https://github.com/google/generative-ai-js)
 * [Dart (Flutter)](https://github.com/google/generative-ai-dart)
 * [Android](https://github.com/google/generative-ai-android)

@@ -1,9 +1,9 @@
 ---
 title: PDFMathTranslate
-date: 2024-12-16T12:21:16+08:00
+date: 2024-12-17T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731946660299-8f091eb1caee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731946660299-8f091eb1caee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726108954014-71ffe50f8a26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726108954014-71ffe50f8a26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -174,7 +174,8 @@ In the following table, we list all advanced options for reference:
 | `-t`  | [Multi-threads](#threads) | `pdf2zh example.pdf -t 1` |
 | `-o`  | Output dir | `pdf2zh example.pdf -o output` |
 | `-f`, `-c` | [Exceptions](#exceptions) | `pdf2zh example.pdf -f "(MS.*)"` |
-| `--share` | Get gradio public link | `pdf2zh -i --share` |
+| `--share` | [Get gradio public link] | `pdf2zh -i --share` |
+| `-a` | [add authorization and custom login page] | `pdf2zh -i -a users.txt [auth.html]` |
 
 <h3 id="partial">Full / partial document translation</h3>
 
@@ -206,16 +207,19 @@ The table below outlines the required [environment variables](https://chatgpt.co
 |-|-|-|-|-|
 |**Google (Default)**|`google`|None|N/A|None|
 |**Bing**|`bing`|None|N/A|None|
-|**DeepL**|`deepl`|`DEEPL_SERVER_URL`,`DEEPL_AUTH_KEY`|`https://api.deepl.com`, `[Your Key]`|See [DeepL](https://support.deepl.com/hc/en-us/articles/360020695820-API-Key-for-DeepL-s-API)|
+|**DeepL**|`deepl`|`DEEPL_AUTH_KEY`|`[Your Key]`|See [DeepL](https://support.deepl.com/hc/en-us/articles/360020695820-API-Key-for-DeepL-s-API)|
 |**DeepLX**|`deeplx`|`DEEPLX_ENDPOINT`|`https://api.deepl.com/translate`|See [DeepLX](https://github.com/OwO-Network/DeepLX)|
 |**Ollama**|`ollama`|`OLLAMA_HOST`, `OLLAMA_MODEL`|`http://127.0.0.1:11434`, `gemma2`|See [Ollama](https://github.com/ollama/ollama)|
 |**OpenAI**|`openai`|`OPENAI_BASE_URL`, `OPENAI_API_KEY`, `OPENAI_MODEL`|`https://api.openai.com/v1`, `[Your Key]`, `gpt-4o-mini`|See [OpenAI](https://platform.openai.com/docs/overview)|
 |**AzureOpenAI**|`azure-openai`|`AZURE_OPENAI_BASE_URL`, `AZURE_OPENAI_API_KEY`, `AZURE_OPENAI_MODEL`|`[Your Endpoint]`, `[Your Key]`, `gpt-4o-mini`|See [Azure OpenAI](https://learn.microsoft.com/zh-cn/azure/ai-services/openai/chatgpt-quickstart?tabs=command-line%2Cjavascript-keyless%2Ctypescript-keyless%2Cpython&pivots=programming-language-python)|
 |**Zhipu**|`zhipu`|`ZHIPU_API_KEY`, `ZHIPU_MODEL`|`[Your Key]`, `glm-4-flash`|See [Zhipu](https://open.bigmodel.cn/dev/api/thirdparty-frame/openai-sdk)|
+| **ModelScope**       | `ModelScope`   |`MODELSCOPE_API_KEY`, `MODELSCOPE_MODEL`|`[Your Key]`, `Qwen/Qwen2.5-Coder-32B-Instruct`| See [ModelScope](https://www.modelscope.cn/docs/model-service/API-Inference/intro)|
 |**Silicon**|`silicon`|`SILICON_API_KEY`, `SILICON_MODEL`|`[Your Key]`, `Qwen/Qwen2.5-7B-Instruct`|See [SiliconCloud](https://docs.siliconflow.cn/quickstart)|
 |**Gemini**|`gemini`|`GEMINI_API_KEY`, `GEMINI_MODEL`|`[Your Key]`, `gemini-1.5-flash`|See [Gemini](https://ai.google.dev/gemini-api/docs/openai)|
 |**Azure**|`azure`|`AZURE_ENDPOINT`, `AZURE_API_KEY`|`https://api.translator.azure.cn`, `[Your Key]`|See [Azure](https://docs.azure.cn/en-us/ai-services/translator/text-translation-overview)|
 |**Tencent**|`tencent`|`TENCENTCLOUD_SECRET_ID`, `TENCENTCLOUD_SECRET_KEY`|`[Your ID]`, `[Your Key]`|See [Tencent](https://www.tencentcloud.com/products/tmt?from_qcintl=122110104)|
+|**Dify**|`dify`|`DIFY_API_URL`, `DIFY_API_KEY`|`[Your DIFY URL]`, `[Your Key]`|See [Dify](https://github.com/langgenius/dify),Three variables, lang_out, lang_in, and text, need to be defined in Dify's workflow input.|
+|**AnythingLLM**|`anythingllm`|`AnythingLLM_URL`, `AnythingLLM_APIKEY`|`[Your AnythingLLM URL]`, `[Your Key]`|See [anything-llm](https://github.com/Mintplex-Labs/anything-llm)|
 
 Use `-s service` or `-s service:model` to specify service:
 

@@ -1,9 +1,9 @@
 ---
 title: blink.cmp
-date: 2024-12-16T12:21:57+08:00
+date: 2024-12-17T12:21:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732740676396-ece9a9148342?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732740676396-ece9a9148342?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [Saghen/blink.cmp](https://github.com/Saghen/blink.cmp)
@@ -334,7 +334,7 @@ MiniDeps.add({
       -- List of trigger characters (on top of `show_on_blocked_trigger_characters`) that won't trigger
       -- the completion window when the cursor comes after a trigger character when
       -- entering insert mode/accepting an item
-      show_on_x_blocked_trigger_characters = { "'", '"', '(' },
+      show_on_x_blocked_trigger_characters = { "'", '"', '(', '{' },
       -- or a function, similar to show_on_blocked_trigger_character
     },
 
@@ -564,7 +564,7 @@ MiniDeps.add({
     max_items = 200,
     -- controls which sorts to use and in which order, falling back to the next sort if the first one returns nil
     -- you may pass a function instead of a string to customize the sorting
-    sorts = { 'score', 'kind', 'label' },
+    sorts = { 'score', 'sort_text' },
 
     prebuilt_binaries = {
       -- Whether or not to automatically download a prebuilt binary from github. If this is set to `false`
@@ -805,6 +805,7 @@ MiniDeps.add({
 - [blink-cmp-ripgrep](https://github.com/niuiic/blink-cmp-rg.nvim)
 - [blink-cmp-ctags](https://github.com/netmute/blink-cmp-ctags)
 - [blink-cmp-copilot](https://github.com/giuxtaposition/blink-cmp-copilot)
+- [minuet-ai.nvim](https://github.com/milanglacier/minuet-ai.nvim)
 
 ### Luasnip
 

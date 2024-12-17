@@ -1,9 +1,9 @@
 ---
 title: Tasmota
-date: 2024-05-21T12:18:07+08:00
+date: 2024-12-17T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715645973101-f07bc6951c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715645973101-f07bc6951c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTYyNjQ5NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731452379048-13641918654c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731452379048-13641918654c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [arendst/Tasmota](https://github.com/arendst/Tasmota)
@@ -41,7 +41,7 @@ Firmware binaries can be downloaded from http://ota.tasmota.com/tasmota/release/
 
 ## Development
 
-[![Dev Version](https://img.shields.io/badge/development%20version-v14.0.x.x-blue.svg)](https://github.com/arendst/Tasmota)
+[![Dev Version](https://img.shields.io/badge/development%20version-v14.4.x.x-blue.svg)](https://github.com/arendst/Tasmota)
 [![Download Dev](https://img.shields.io/badge/download-development-yellow.svg)](http://ota.tasmota.com/tasmota/)
 [![Tasmota CI](https://github.com/arendst/Tasmota/actions/workflows/build_all_the_things.yml/badge.svg)](https://github.com/arendst/Tasmota/actions/workflows/build_all_the_things.yml)
 [![Build_development](https://github.com/arendst/Tasmota/actions/workflows/Tasmota_build_devel.yml/badge.svg)](https://github.com/arendst/Tasmota/actions/workflows/Tasmota_build_devel.yml)

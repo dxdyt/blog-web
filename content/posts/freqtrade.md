@@ -1,9 +1,9 @@
 ---
 title: freqtrade
-date: 2024-11-21T12:21:30+08:00
+date: 2024-12-17T12:22:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730642215052-71d2185fc0c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730642215052-71d2185fc0c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731451162440-506d1b3aba95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731451162440-506d1b3aba95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
 ---
 
 # [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)
