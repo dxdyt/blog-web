@@ -1,9 +1,9 @@
 ---
 title: PDFMathTranslate
-date: 2024-12-17T12:21:14+08:00
+date: 2024-12-18T12:20:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726108954014-71ffe50f8a26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726108954014-71ffe50f8a26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732048517884-123f3fe9c9f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732048517884-123f3fe9c9f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -29,6 +29,8 @@ English | [简体中文](README_zh-CN.md) | [日本語](README_ja-JP.md)
     <img src="https://img.shields.io/github/license/Byaidu/PDFMathTranslate"></a>
   <a href="https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker">
     <img src="https://img.shields.io/badge/%F0%9F%A4%97-Online%20Demo-FF9E0D"></a>
+  <a href="https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate">
+    <img src="https://img.shields.io/badge/ModelScope-Demo-blue"></a>
   <a href="https://github.com/Byaidu/PDFMathTranslate/pulls">
     <img src="https://img.shields.io/badge/contributions-welcome-green"></a>
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
@@ -71,14 +73,19 @@ Feel free to provide feedback in [GitHub Issues](https://github.com/Byaidu/PDFMa
 
 You can try our [public service](https://pdf2zh.com/) online without installation.  
 
-### Hugging Face Demo
+### Demos
 
-You can try [our demo on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker) without installation.
+You can try [our demo on HuggingFace](https://huggingface.co/spaces/reycn/PDFMathTranslate-Docker) or [our demo on ModelScope](https://www.modelscope.cn/studios/AI-ModelScope/PDFMathTranslate) without installation.
 Note that the computing resources of the demo are limited, so please avoid abusing them.
 
 <h2 id="install">Installation and Usage</h2>
 
 We provide four methods for using this project: [Commandline](#cmd), [Portable](#portable), [GUI](#gui), and [Docker](#docker).
+
+pdf2zh needs an extra model(`wybxc/DocLayout-YOLO-DocStructBench-onnx`), which can be found in modelscope. if you have a problem with downloading this model, try this environment variable:
+```shell
+USE_MODELSCOPE=1 pdf2zh
+```
 
 <h3 id="cmd">Method I. Commandline</h3>
 

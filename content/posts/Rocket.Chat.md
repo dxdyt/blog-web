@@ -1,9 +1,9 @@
 ---
 title: Rocket.Chat
-date: 2024-07-12T12:17:29+08:00
+date: 2024-12-18T12:22:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718976142419-33f3c7333430?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718976142419-33f3c7333430?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA3NTc3OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731466450638-959a6f0d1514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731466450638-959a6f0d1514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
 ---
 
 # [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
@@ -59,9 +59,10 @@ Free for 30 days. Afterward, choose between continuing to host on our secure clo
 
 You can follow these instructions to setup a dev environment:
 
-- Install **Node 14.x (LTS)** either [manually](https://nodejs.org/dist/latest-v14.x/) or using a tool like [nvm](https://github.com/creationix/nvm) or [volta](https://volta.sh/) (recommended)
-- Install **Meteor** ([version here](apps/meteor/.meteor/release)): https://www.meteor.com/developers/install
+- Install **Node 20.x (LTS)** either [manually](https://nodejs.org/dist/latest-v20.x/) or using a tool like [nvm](https://github.com/creationix/nvm) or [volta](https://volta.sh/) (recommended)
+- Install **Meteor** ([version here](apps/meteor/.meteor/release)): https://docs.meteor.com/about/install.html
 - Install **yarn**: https://yarnpkg.com/getting-started/install
+- Install **Deno 1.x**: https://docs.deno.com/runtime/fundamentals/installation/
 - Clone this repo: `git clone https://github.com/RocketChat/Rocket.Chat.git`
 - Run `yarn` to install dependencies
 
@@ -76,6 +77,10 @@ yarn dsv # run only meteor (front and back) with pre-built packages
 ```
 
 After initialized, you can access the server at http://localhost:3000
+
+More details at: [Developer Docs](https://developer.rocket.chat/v1/docs/server-environment-setup)
+PS: For Windows you MUST use WSL2 and have +12Gb RAM
+
 
 # Gitpod Setup
 
@@ -93,7 +98,7 @@ yarn turbo run ms
 
 After initialized, you can access the server at http://localhost:4000
 
-> ⚠️ Check more detailed information in the [Rocket.Chat Environment Setup](https://developer.rocket.chat/rocket.chat/rocket-chat-environment-setup) guide
+> ⚠️ Check more detailed information in the [Rocket.Chat Environment Setup](https://developer.rocket.chat/docs/server-environment-setup) guide
 
 # 💻 Installation
 

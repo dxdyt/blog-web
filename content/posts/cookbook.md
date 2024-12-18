@@ -1,9 +1,9 @@
 ---
 title: cookbook
-date: 2024-12-17T12:21:00+08:00
+date: 2024-12-18T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732193998117-97b3b2994323?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732193998117-97b3b2994323?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729717069574-e25f4bb69d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729717069574-e25f4bb69d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
 ---
 
 # [google-gemini/cookbook](https://github.com/google-gemini/cookbook)

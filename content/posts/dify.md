@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2024-11-27T12:21:39+08:00
+date: 2024-12-18T12:22:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731275538902-2b53db72d528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731275538902-2b53db72d528?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI2ODEyMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732262548234-26a40c225b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732262548234-26a40c225b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -156,6 +156,13 @@ Deploy Dify to Cloud Platform with a single click using [terraform](https://www.
 
 ##### Google Cloud
 - [Google Cloud Terraform by @sotazum](https://github.com/DeNA/dify-google-cloud-terraform)
+
+#### Using AWS CDK for Deployment
+
+Deploy Dify to AWS with [CDK](https://aws.amazon.com/cdk/)
+
+##### AWS 
+- [AWS CDK by @KevinZhao](https://github.com/aws-samples/solution-for-deploying-dify-on-aws)
 
 ## Contributing
 

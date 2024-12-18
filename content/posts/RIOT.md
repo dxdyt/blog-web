@@ -1,9 +1,9 @@
 ---
 title: RIOT
-date: 2024-12-16T12:23:28+08:00
+date: 2024-12-18T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729717069574-e25f4bb69d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729717069574-e25f4bb69d87?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
 ---
 
 # [RIOT-OS/RIOT](https://github.com/RIOT-OS/RIOT)
