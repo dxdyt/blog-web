@@ -1,9 +1,9 @@
 ---
 title: Rocket.Chat
-date: 2024-12-18T12:22:11+08:00
+date: 2024-12-19T12:21:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731466450638-959a6f0d1514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731466450638-959a6f0d1514?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731445549728-1eb140effaae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731445549728-1eb140effaae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
 ---
 
 # [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)
