@@ -1,9 +1,9 @@
 ---
 title: anoma
-date: 2024-12-19T12:20:49+08:00
+date: 2024-12-20T12:19:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733826996743-b21ac2ddbaee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733826996743-b21ac2ddbaee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732286539499-2f9bc2ab6c94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732286539499-2f9bc2ab6c94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [anoma/anoma](https://github.com/anoma/anoma)

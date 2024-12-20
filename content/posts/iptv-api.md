@@ -1,9 +1,9 @@
 ---
 title: iptv-api
-date: 2024-12-18T12:21:24+08:00
+date: 2024-12-20T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732048517884-123f3fe9c9f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732048517884-123f3fe9c9f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732293696703-41b32392b454?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732293696703-41b32392b454?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [Guovin/iptv-api](https://github.com/Guovin/iptv-api)
@@ -121,6 +121,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1732048517884-123f3fe9c9
 - 接口源：
 
 ```bash
+https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+```
+
+```bash
+https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+```
+
+或
+
+```bash
 https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u
 ```
 
@@ -129,6 +139,12 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
 ```
 
 - 数据源：
+
+```bash
+https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+```
+
+或
 
 ```bash
 https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/source.json
@@ -161,6 +177,7 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/source.json
 | open_url_info          | 开启显示接口说明信息，用于控制是否显示分辨率、接口协议类型等信息，为$符号后的内容，播放软件使用该信息对接口进行描述                                | True                                    |
 | open_use_cache         | 开启使用本地缓存数据，适用于查询请求失败场景（仅针对酒店源与组播源）                                                        | True                                    |
 | open_use_old_result    | 开启使用历史更新结果（包含模板与结果文件的接口），合并至本次更新中                                                         | True                                    |
+| app_port               | 页面服务端口，用于控制页面服务的端口号                                                                       | 8000                                    |
 | final_file             | 生成结果文件路径                                                                                  | output/result.txt                       |
 | hotel_num              | 结果中偏好的酒店源接口数量                                                                             | 4                                       |
 | hotel_page_num         | 酒店地区获取分页数量                                                                                | 1                                       |

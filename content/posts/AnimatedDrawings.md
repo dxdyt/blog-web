@@ -1,9 +1,9 @@
 ---
 title: AnimatedDrawings
-date: 2024-12-19T12:20:34+08:00
+date: 2024-12-20T12:20:18+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1730828573450-25dbca5aa17d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1730828573450-25dbca5aa17d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732786923029-27db37c64021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732786923029-27db37c64021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/AnimatedDrawings](https://github.com/facebookresearch/AnimatedDrawings)

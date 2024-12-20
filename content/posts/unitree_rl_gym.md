@@ -1,9 +1,9 @@
 ---
 title: unitree_rl_gym
-date: 2024-12-19T12:20:40+08:00
+date: 2024-12-20T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733826996743-b21ac2ddbaee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733826996743-b21ac2ddbaee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732786923029-27db37c64021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732786923029-27db37c64021?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [unitreerobotics/unitree_rl_gym](https://github.com/unitreerobotics/unitree_rl_gym)

@@ -1,9 +1,9 @@
 ---
 title: frpc-desktop
-date: 2024-12-19T12:21:14+08:00
+date: 2024-12-20T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733597572690-0510c968ca20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733597572690-0510c968ca20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [luckjiawei/frpc-desktop](https://github.com/luckjiawei/frpc-desktop)

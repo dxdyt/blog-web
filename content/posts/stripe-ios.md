@@ -1,9 +1,9 @@
 ---
 title: stripe-ios
-date: 2024-12-19T12:21:06+08:00
+date: 2024-12-20T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731445549728-1eb140effaae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731445549728-1eb140effaae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732229654147-3562920a8e3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732229654147-3562920a8e3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [stripe/stripe-ios](https://github.com/stripe/stripe-ios)

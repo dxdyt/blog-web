@@ -1,9 +1,9 @@
 ---
 title: ha_xiaomi_home
-date: 2024-12-19T12:20:15+08:00
+date: 2024-12-20T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733597572690-0510c968ca20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733597572690-0510c968ca20?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [XiaoMi/ha_xiaomi_home](https://github.com/XiaoMi/ha_xiaomi_home)

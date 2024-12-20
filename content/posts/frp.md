@@ -1,9 +1,9 @@
 ---
 title: frp
-date: 2024-12-18T12:21:33+08:00
+date: 2024-12-20T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733769783566-3d58bc5c14ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733769783566-3d58bc5c14ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732286539499-2f9bc2ab6c94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732286539499-2f9bc2ab6c94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
 ---
 
 # [fatedier/frp](https://github.com/fatedier/frp)
