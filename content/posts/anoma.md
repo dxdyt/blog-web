@@ -1,9 +1,9 @@
 ---
 title: anoma
-date: 2024-12-20T12:19:56+08:00
+date: 2024-12-21T12:19:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732286539499-2f9bc2ab6c94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732286539499-2f9bc2ab6c94?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725640904544-886450cec628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725640904544-886450cec628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
 ---
 
 # [anoma/anoma](https://github.com/anoma/anoma)
@@ -71,6 +71,7 @@ To compile a working Anoma Node the following dependencies are required:
 5. Install [Sodium](https://doc.libsodium.org/installation#pre-built-libraries) (Windows only)
     * Ensure that the `LIB` and `INCLUDE` environment variables point to this installation
 6. Install [Protocol Buffers](https://grpc.io/docs/protoc-installation/)
+    * Note: the default protobuf in aptitude is very outdated. Be sure to install it manually.
 7. Install [Elixir](https://elixir-lang.org/install.html) (version 1.17.0 or higher) and with it:
      * Install [Hex package manager](https://hexdocs.pm/mix/1.13/Mix.Tasks.Local.Hex.html)
      * Install [Rebar3](https://hexdocs.pm/mix/1.14/Mix.Tasks.Local.Rebar.html)

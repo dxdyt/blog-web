@@ -1,9 +1,9 @@
 ---
 title: nuxt
-date: 2024-07-21T12:17:33+08:00
+date: 2024-12-21T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718973818150-9c0c855d33b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718973818150-9c0c855d33b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE1MzUzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724795685798-6c5d1ce57940?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724795685798-6c5d1ce57940?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
 ---
 
 # [nuxt/nuxt](https://github.com/nuxt/nuxt)
@@ -119,7 +119,7 @@ Follow the docs to [Set Up Your Local Development Environment](https://nuxt.com/
 ## <a name="follow-us">🔗 Follow Us</a>
 
 <p valign="center">
-  <a href="https://chat.nuxt.dev"><img width="20px" src="./.github/assets/discord.svg" alt="Discord"></a>&nbsp;&nbsp;<a href="https://twitter.nuxt.dev"><img width="20px" src="./.github/assets/twitter.svg" alt="Twitter"></a>&nbsp;&nbsp;<a href="https://github.nuxt.dev"><img width="20px" src="./.github/assets/github.svg" alt="GitHub"></a>
+  <a href="https://go.nuxt.com/discord"><img width="20px" src="./.github/assets/discord.svg" alt="Discord"></a>&nbsp;&nbsp;<a href="https://go.nuxt.com/x"><img width="20px" src="./.github/assets/twitter.svg" alt="Twitter"></a>&nbsp;&nbsp;<a href="https://go.nuxt.com/github"><img width="20px" src="./.github/assets/github.svg" alt="GitHub"></a>&nbsp;&nbsp;<a href="https://go.nuxt.com/bluesky"><img width="20px" src="./.github/assets/bluesky.svg" alt="Bluesky"></a>
 </p>
 
 ## <a name="license">⚖️ License</a>

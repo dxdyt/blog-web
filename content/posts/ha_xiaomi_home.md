@@ -1,9 +1,9 @@
 ---
 title: ha_xiaomi_home
-date: 2024-12-20T12:19:24+08:00
+date: 2024-12-21T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
 ---
 
 # [XiaoMi/ha_xiaomi_home](https://github.com/XiaoMi/ha_xiaomi_home)
@@ -18,7 +18,7 @@ Xiaomi Home Integration is an integrated component of Home Assistant supported b
 
 > Home Assistant version requirement:
 >
-> - Core $\geq$ 2024.11.0
+> - Core $\geq$ 2024.4.4
 > - Operating System $\geq$ 13.0
 
 ### Method 1: Git clone from GitHub

@@ -1,181 +1,135 @@
 ---
 title: CopilotForXcode
-date: 2023-03-26T12:16:06+08:00
+date: 2024-12-21T12:19:09+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11935/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11935/0/1080p
+featuredImage: https://images.unsplash.com/photo-1734034873537-6a75e0f7aa13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734034873537-6a75e0f7aa13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
 ---
 
-# [intitni/CopilotForXcode](https://github.com/intitni/CopilotForXcode)
+# [github/CopilotForXcode](https://github.com/github/CopilotForXcode)
 
-# Copilot for Xcode <img alt="Logo" src="/AppIcon.png" align="right" height="50">
+# <img align="center" height="70" src="./Docs/AppIcon.png"/> GitHub Copilot for Xcode
 
-![Screenshot](/Screenshot.png)
+<img alt="Demo of GitHub Copilot for Xcode" src="./Docs/demo.gif" width="800" />
 
-Copilot for Xcode is an Xcode Source Editor Extension that provides Github Copilot and ChatGPT support for Xcode. It uses the LSP provided through [Copilot.vim](https://github.com/github/copilot.vim/tree/release/copilot/dist) to generate suggestions and displays them as comments or in a separate window.
+[GitHub Copilot](https://github.com/features/copilot) is an AI pair programmer
+tool that helps you write code faster and smarter. Copilot for Xcode is an Xcode
+extension that provides inline coding suggestions as you type.
 
-Thanks to [LSP-copilot](https://github.com/TerminalFi/LSP-copilot) for showing the way to interact with Copilot. And thanks to [LanguageClient](https://github.com/ChimeHQ/LanguageClient) for the Language Server Protocol support in Swift.
+## Beta Preview Policy
 
-<a href="https://www.buymeacoffee.com/intitni" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+Use of the GitHub Copilot Xcode Extension is subject to [GitHub's Pre-Release Terms](https://docs.github.com/en/site-policy/github-terms/github-pre-release-license-terms). We want to remind you that:
 
-## Table of Contents
+> Beta Previews may not be supported or may change at any time. You may receive confidential information through those programs that must remain confidential while the program is private. We'd love your feedback to make our Beta Previews better.
 
-- [Prerequisites](#prerequisites)
-- [Permissions Required](#permissions-required)
-- [Installation and Setup](#installation-and-setup)
-  - [Install](#install)
-  - [Sign In GitHub Copilot](#sign-in-github-copilot)
-  - [Granting Permissions to the App](#granting-permissions-to-the-app)
-  - [Managing `CopilotForXcodeExtensionService.app`](#managing-copilotforxcodeextensionserviceapp)
-- [Update](#update)
-- [Commands](#commands)
-- [Key Bindings](#key-bindings)
-- [Prevent Suggestions Being Committed](#prevent-suggestions-being-committed)
-- [Limitations](#limitations)
-- [License](#license)
-- [FAQ](https://github.com/intitni/CopilotForXcode/issues/65)
 
-For development instruction, check [Development.md](DEVELOPMENT.md).
+## Requirements
 
-## Prerequisites
+- macOS 12+
+- Xcode 8+
+- A GitHub Copilot subscription. To learn more, visit [https://github.com/features/copilot](https://github.com/features/copilot).
 
-- [Node](https://nodejs.org/) installed to run the Copilot LSP.
-- Public network connection.
-- Active GitHub Copilot subscription (to use suggestion features).
-- Valid OpenAI API key (to use chat features).  
+## Getting Started
 
-## Permissions Required
+1. Install via [Homebrew](https://brew.sh/):
 
-- Folder Access
-- Accessibility API
+   ```sh
+   brew install --cask github-copilot-for-xcode
+   ```
 
-> If you are concerned about key logging and cannot trust the binary, we recommend examining the code and [building it yourself](DEVELOPMENT.md). To address any concerns, you can specifically search for `CGEvent.tapCreate`, `AXObserver`, `AX___` within the code.
+   Or download the `dmg` from
+   [the latest release](https://github.com/github/CopilotForXcode/releases/latest/download/GitHubCopilotForXcode.dmg).
+   Drag `GitHub Copilot for Xcode` into the `Applications` folder:
 
-## Installation and Setup
+   <p align="center">
+     <img alt="Screenshot of opened dmg" src="./Docs/dmg-open.png" width="512" />
+   </p>
 
-### Install
+   Updates can be downloaded and installed by the app.
 
-You can install it via [Homebrew](http://brew.sh/):
+1. A background item will be added to enable Copilot to start when Xcode is opened.
+   <p align="center">
+     <img alt="Screenshot of background item" src="./Docs/background-item.png" width="370" />
+   </p>
 
-```bash
-brew install --cask copilot-for-xcode
-```
+1. Two permissions are required: `Accessibility` and `Xcode Source Editor
+   Extension`. For more on why these permissions are required see
+   [TROUBLESHOOTING.md](./TROUBLESHOOTING.md).
 
-Or install it manually, by downloading the `Copilot for Xcode.app` from the latest [release](https://github.com/intitni/CopilotForXcode/releases), and extract it to the Applications folder.
+   The first time the application is run the `Accessibility` permission should be requested:
 
-Then set it up with the following steps:
+   <p align="center">
+     <img alt="Screenshot of accessibility permission request" src="./Docs/accessibility-permission-request.png" width="529" />
+   </p>
 
-1. Open the app, the app will create a launch agent to setup a background running Service that does the real job.
-2. Optionally setup the path to Node. The default value is just `node`, Copilot for Xcode.app will try to find the Node from `/usr/bin:/usr/local/bin`. If your Node is installed somewhere else, you can run `which node` from terminal to get the path.   
-3. Enable the extension in `System Settings.app`. 
+   The `Xcode Source Editor Extension` permission needs to be enabled manually. Click
+   `Extension Permission` from the `Copilot for Xcode` settings to open the
+   System Preferences to the `Extensions` panel. Select `Xcode Source Editor`
+   and enable `GitHub Copilot`:
 
-    From the Apple menu located in the top-left corner of your screen click `System Settings`. Navigate to `Privacy & Security` then toward the bottom click `Extensions`. Click `Xcode Source Editor` and tick `Copilot`.
-    
-    If you are using macOS Monterey, enter the `Extensions` menu in `System Preferences.app` with its dedicated icon.
+   <p align="center">
+     <img alt="Screenshot of extension permission" src="./Docs/extension-permission.png" width="582" />
+   </p>
 
-### Sign In GitHub Copilot
- 
-1. In the app, refresh the Copilot status (it may fail for the first time, try at least one more time). 
-2. Click "Sign In", and you will be directed to a verification website provided by GitHub, and a user code will be pasted into your clipboard.
-3. After signing in, go back to the app and click "Confirm Sign-in" to finish.
+1. After granting the extension permission, please restart Xcode to ensure the
+   `Github Copilot` menu is available and not disabled under the Xcode `Editor`
+   menu.
+    <br>
+    <p align="center">
+      <img alt="Screenshot of Xcode Editor GitHub Copilot menu item" src="./Docs/xcode-menu.png" width="648" />
+    </p>
 
-### Granting Permissions to the App
+    Keyboard shortcuts can be set for all menu items in the `Key Bindings`
+    section of Xcode preferences.
 
-The first time the app is open and command run, the extension will ask for the necessary permissions.
+1. To sign into GitHub Copilot, click the `Sign in` button in the settings application. This will open a browser window and copy a code to the clipboard. Paste the code into the GitHub login page and authorize the application.
+    <p align="center">
+      <img alt="Screenshot of sign-in popup" src="./Docs/device-code.png" width="372" />
+    </p>
 
-Alternatively, you may manually grant the required permissions by navigating to the `Privacy & Security` tab in the `System Settings.app`.
+1. To install updates, click `Check for Updates` from the menu item or in the
+   settings application.
 
-- To grant permissions for the Accessibility API, click `Accessibility`, and drag `CopilotForXcodeExtensionService.app` to the list. You can locate the extension app by clicking `Reveal Extension App in Finder` in the host app.
+   After installing a new version, Xcode must be restarted to use the new
+   version correctly.
 
-<img alt="Accessibility API" src="/accessibility_api_permission.png" width="500px">
+   New versions can also be installed from `dmg` files downloaded from the
+   releases page. When installing a new version via `dmg`, the application must
+   be run manually the first time to accept the downloaded from the internet
+   warning.
 
-If you encounter an alert requesting permission that you have previously granted, please remove the permission from the list and add it again to re-grant the necessary permissions.
+1. To avoid confusion, we recommend disabling `Predictive code completion` under
+   `Xcode` > `Preferences` > `Text Editing` > `Editing`.
 
-### Managing `CopilotForXcodeExtensionService.app`
+1. Press `tab` to accept the first line of a suggestion, hold `option` to view
+   the full suggestion, and press `option` + `tab` to accept the full suggestion.
 
-This app runs whenever you open `Copilot for Xcode.app` or `Xcode.app`. You can quit it with its menu bar item that looks like a steering wheel.
+   <p align="center">
+     <img alt="Screenshot of welcome screen" src="./Docs/welcome.png" width="672" />
+   </p>
 
-You can also set it to quit automatically when the above 2 apps are closed.
+## License
 
-## Update 
+This project is licensed under the terms of the MIT open source license. Please
+refer to [LICENSE.txt](./LICENSE.txt) for the full terms.
 
-If the app was installed via Homebrew, you can update it by running:
+## Privacy
 
-```bash
-brew upgrade --cask copilot-for-xcode
-```
+We follow responsible practices in accordance with our
+[Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement).
 
-Alternatively, You can use the in-app updater or download the latest version manually from the latest [release](https://github.com/intitni/CopilotForXcode/releases).  
+To get the latest security fixes, please use the latest version of the GitHub
+Copilot for Xcode.
 
-If you are upgrading from a version lower than **0.7.0**, please run `Copilot for Xcode.app` at least once to let it set up the new launch agent for you and re-grant the permissions according to the new rules.
+## Support
 
-If you want to keep track of the new releases, you can watch the releases of this repo to get notifications about updates.
+We’d love to get your help in making GitHub Copilot better!  If you have
+feedback or encounter any problems, please reach out on our [Feedback
+forum](https://github.com/orgs/community/discussions/categories/copilot).
 
-If you find that some of the features are no longer working, please first try regranting permissions to the app.
+## Acknowledgements
 
-## Commands
+Thank you to @intitni for creating the original project that this is based on.
 
-### Suggestion
-
-- Get Suggestions: Get suggestions for the editing file at the current cursor position.
-- Next Suggestion: If there is more than one suggestion, switch to the next one.
-- Previous Suggestion: If there is more than one suggestion, switch to the previous one.
-- Accept Suggestion: Add the suggestion to the code.
-- Reject Suggestion: Remove the suggestion comments.
-- Toggle Real-time Suggestions: When turn on, Copilot will auto-insert suggestion comments to your code while editing.
-- Real-time Suggestions: Call only by Copilot for Xcode. When suggestions are successfully fetched, Copilot for Xcode will run this command to present the suggestions.
-- Prefetch Suggestions: Call only by Copilot for Xcode. In the background, Copilot for Xcode will occasionally run this command to prefetch real-time suggestions.
-
-**About real-time suggestions**
-
-Whenever you stop typing for a few milliseconds, the app will automatically fetch suggestions for you, you can cancel this by clicking the mouse, or pressing **Escape** or the **arrow keys**.
-
-### Chat
-
-- Chat with Selection: Open a chat window, if there is a selection, the selected code will be added to the prompt.
-- Explain Selection: Open a chat window and explain the selected code.
-
-Chat commands are not available in comment mode.
-
-## Key Bindings
-
-It looks like there is no way to add default key bindings to commands, but you can set them up in `Xcode settings > Key Bindings`. You can filter the list by typing `copilot` in the search bar.
-
-A [recommended setup](https://github.com/intitni/CopilotForXcode/issues/14) that should cause no conflict is
-
-| Command | Key Binding |
-| --- | --- |
-| Get Suggestions | `⌥?` |
-| Accept Suggestions | `⌥}` |
-| Reject Suggestion | `⌥{` |
-| Next Suggestion | `⌥>` |
-| Previous Suggestion | `⌥<` |
-
-Essentially using `⌥⇧` as the "access" key combination for all bindings.
-
-Another convenient method to access commands is by using the `⇧⌘/` shortcut to search for a command in the menu bar.
-
-## Prevent Suggestions Being Committed (in comment mode)
-
-Since the suggestions are presented as comments, they are in your code. If you are not careful enough, they can be committed to your git repo. To avoid that, I would recommend adding a pre-commit git hook to prevent this from happening.
-
-```sh
-#!/bin/sh
-
-# Check if the commit message contains the string
-if git diff --cached --diff-filter=ACMR | grep -q "/*========== Copilot Suggestion"; then
-  echo "Error: Commit contains Copilot suggestions generated by Copilot for Xcode."
-  exit 1
-fi
-```
-
-## Limitations
-
-- The first run of the extension will be slow. Be patient.
-- The extension uses some dirty tricks to get the file and project/workspace paths. It may fail, it may be incorrect, especially when you have multiple Xcode windows running, and maybe even worse when they are in different displays. I am not sure about that though.
-- The suggestions are presented as C-style comments in comment mode, they may break your code if you are editing a JSON file or something.
-- When a real-time suggestion request is triggered, there is a chance that it may briefly block the editor. This can occur at most once for each file after each restart of the extension because the extension needs to initiate real-time suggestion by clicking an item from the menu bar. However, once a command has been executed and some information is cached, the extension will be able to trigger real-time suggestion using a different method.
-
-## License 
-
-MIT.
+Attributions can be found under About when running the app or in
+[Credits.rtf](./Copilot%20for%20Xcode/Credits.rtf).
