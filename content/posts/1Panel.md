@@ -1,71 +1,73 @@
 ---
 title: 1Panel
-date: 2024-05-12T12:19:08+08:00
+date: 2024-12-22T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711741507608-b99fa0f16e6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0ODczOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734275689167-5f458aacde63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734275689167-5f458aacde63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
 ---
 
 # [1Panel-dev/1Panel](https://github.com/1Panel-dev/1Panel)
 
-<p align="center"><a href="https://1panel.cn"><img src="http://1panel.oss-cn-hangzhou.aliyuncs.com/img/1panel-logo.png" alt="1Panel" width="300" /></a></p>
-<p align="center"><b>现代化、开源的 Linux 服务器运维管理面板</b></p>
+<p align="center"><a href="https://1panel.hk"><img src="https://resource.1panel.hk/img/1panel-logo.png" alt="1Panel" width="300" /></a></p>
+<p align="center"><b>Top-Rated Web-based Linux Server Management Tool</b></p>
+<p align="center">
+  <a href="https://trendshift.io/repositories/2462" target="_blank"><img src="https://trendshift.io/api/badge/repositories/2462" alt="1Panel-dev%2F1Panel | Trendshift" style="width: 180px; height: auto;" /></a>
+  <a href="https://www.producthunt.com/posts/1panel?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-1panel" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=639696&theme=light" alt="1Panel - Top&#0045;Rated&#0032;web&#0045;based&#0032;Linux&#0032;server&#0032;management&#0032;tool | Product Hunt" style="width: 180px; height: auto;" /></a>
+</p>
 <p align="center">
   <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://shields.io/github/license/1Panel-dev/1Panel?color=%231890FF" alt="License: GPL v3"></a>
   <a href="https://app.codacy.com/gh/1Panel-dev/1Panel?utm_source=github.com&utm_medium=referral&utm_content=1Panel-dev/1Panel&utm_campaign=Badge_Grade_Dashboard"><img src="https://app.codacy.com/project/badge/Grade/da67574fd82b473992781d1386b937ef" alt="Codacy"></a>
   <a href="https://github.com/1Panel-dev/1Panel/releases"><img src="https://img.shields.io/github/v/release/1Panel-dev/1Panel" alt="GitHub release"></a>
-  <a href="https://github.com/1Panel-dev/1Panel"><img src="https://img.shields.io/github/stars/1Panel-dev/1Panel?color=%231890FF&style=flat-square" alt="Stars"></a>
-  <a href="https://app.fossa.com/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel?ref=badge_shield"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2F1Panel-dev%2F1Panel.svg?type=shield" alt="FOSSA Status"></a><br>
-  [<a href="docs/README_TW.md">中文(繁體)</a>] | [<a href="docs/README_EN.md">English</a>] | [<a href="docs/README_JP.md">日本語</a>]
+  <a href="https://github.com/1Panel-dev/1Panel"><img src="https://img.shields.io/github/stars/1Panel-dev/1Panel?color=%231890FF&style=flat-square" alt="Stars"></a><br>
+</p>
+<p align="center">
+  <a href="/README.md"><img alt="English" src="https://img.shields.io/badge/English-d9d9d9"></a>
+  <a href="/docs/README.zh-Hans.md"><img alt="中文(简体)" src="https://img.shields.io/badge/中文(简体)-d9d9d9"></a>
+  <a href="/docs/README.ja.md"><img alt="日本語" src="https://img.shields.io/badge/日本語-d9d9d9"></a>
+  <a href="/docs/README.pt-br.md"><img alt="Português (Brasil)" src="https://img.shields.io/badge/Português (Brasil)-d9d9d9"></a>
+  <a href="/docs/README.ar.md"><img alt="العربية" src="https://img.shields.io/badge/العربية-d9d9d9"></a><br>
+  <a href="/docs/README.de.md"><img alt="Deutsch" src="https://img.shields.io/badge/Deutsch-d9d9d9"></a>
+  <a href="/docs/README.es.md"><img alt="Español" src="https://img.shields.io/badge/Español-d9d9d9"></a>
+  <a href="/docs/README.fr.md"><img alt="français" src="https://img.shields.io/badge/français-d9d9d9"></a>
+  <a href="/docs/README.ko.md"><img alt="한국어" src="https://img.shields.io/badge/한국어-d9d9d9"></a>
+  <a href="/docs/README.id.md"><img alt="Bahasa Indonesia" src="https://img.shields.io/badge/Bahasa Indonesia-d9d9d9"></a>
+  <a href="/docs/README.zh-Hant.md"><img alt="中文(繁體)" src="https://img.shields.io/badge/中文(繁體)-d9d9d9"></a>
+  <a href="/docs/README.tr.md"><img alt="Türkçe" src="https://img.shields.io/badge/Türkçe-d9d9d9"></a>
 </p>
 
 ------------------------------
 
-1Panel 是新一代的 Linux 服务器运维管理面板。
+1Panel is an open-source, modern web-based control panel for Linux server management.
 
-- **高效管理**：用户可以通过 Web 图形界面轻松管理 Linux 服务器，实现主机监控、文件管理、数据库管理、容器管理等功能；
-- **快速建站**：深度集成开源建站软件 WordPress 和 [Halo](https://github.com/halo-dev/halo/)，域名绑定、SSL 证书配置等操作一键搞定；
-- **应用商店**：精选上架各类高质量的开源工具和应用软件，协助用户轻松安装并升级；
-- **安全可靠**：基于容器管理并部署应用，实现最小的漏洞暴露面，同时提供防火墙和日志审计等功能；
-- **一键备份**：支持一键备份和恢复，用户可以将数据备份到各类云端存储介质，永不丢失。
+- **Efficient Management**: Through a user-friendly web graphical interface, 1Panel enables users to effortlessly manage their Linux servers. Key features include host monitoring, file management, database administration, and container management.
+- **Rapid Website Deployment**: With deep integration of the popular open-source website building software WordPress, 1Panel streamlines the process of domain binding and SSL certificate configuration, all achievable with just one click.
+- **Application Store**: 1Panel curates a wide range of high-quality open-source tools and applications, facilitating easy installation and updates for its users.
+- **Security and Reliability**: By leveraging containerization and secure application deployment practices, 1Panel minimizes vulnerability exposure. It further enhances security through integrated firewall management and log auditing capabilities.
+- **One-Click Backup & Restore**: Data protection is made simple with 1Panel's one-click backup and restore functionality, supporting various cloud storage solutions to ensure data integrity and availability.
 
-1Panel 三分钟速览：https://www.bilibili.com/video/BV1Mt421n7LZ/
+## Quick Start
 
-## 快速开始
+Execute the script below and follow the prompts to install 1Panel:
 
-**一键安装**
-
-执行如下命令一键安装 1Panel:
-
-```sh
-curl -sSL https://resource.fit2cloud.com/1panel/package/quick_start.sh -o quick_start.sh && sudo bash quick_start.sh
+```bash
+curl -sSL https://resource.1panel.hk/quick_start.sh -o quick_start.sh && bash quick_start.sh
 ```
 
-**学习资料**
+Please refer to our [documentation](https://docs.1panel.hk/quick_start/) for more details.
 
-- [在线文档](https://1panel.cn/docs/)
-- [社区论坛](https://bbs.fit2cloud.com/c/1p/7)
-- [如何加入微信交流群?](https://bbs.fit2cloud.com/t/topic/2147)
+## Screenshot
 
-## UI 展示
-
-![UI展示](https://resource.fit2cloud.com/1panel/img/overview.png)
+![UI Display](https://resource.1panel.hk/img/1panel.png)
 
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=1Panel-dev/1Panel&type=Date)](https://star-history.com/#1Panel-dev/1Panel&Date)
 
-## 我们的其他明星项目
+## Security Information
 
-- [MaxKB](https://github.com/1Panel-dev/MaxKB/) - 基于 LLM 大语言模型的开源知识库问答系统
-- [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
-- [Halo](https://github.com/halo-dev/halo/) - 强大易用的开源建站工具
-- [DataEase](https://github.com/dataease/dataease/) - 人人可用的开源数据可视化分析工具
-- [MeterSphere](https://github.com/metersphere/metersphere/) - 开源自动化测试平台
+If you discover any security issues, please contact us through: wanghe@fit2cloud.com.
 
 ## License
-
-Copyright (c) 2014-2024 [FIT2CLOUD 飞致云](https://fit2cloud.com/), All rights reserved.
 
 Licensed under The GNU General Public License version 3 (GPLv3)  (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

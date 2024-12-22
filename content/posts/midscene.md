@@ -1,0 +1,63 @@
+---
+title: midscene
+date: 2024-12-22T12:19:46+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1733212543060-457679f1a682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733212543060-457679f1a682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+---
+
+# [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene)
+
+<p align="center">
+  <img alt="Midscene.js"  width="260" src="https://github.com/user-attachments/assets/bff5e76f-ea5c-42b7-bd12-0143a04671cf">
+</p>
+
+
+<h1 align="center">Midscene.js</h1>
+<div align="center">
+
+English | [简体中文](./README.zh.md) | [日本語](./README.ja.md)
+
+</div>
+
+<p align="center">
+  Joyful UI Automation
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/npm/v/@midscene/web?style=flat-square&color=00a8f0" alt="npm version" />
+  <img src="https://img.shields.io/npm/dm/@midscene/web.svg?style=flat-square&color=00a8f0" alt="downloads" />
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square&color=00a8f0" alt="License" />
+</p>
+
+Midscene.js is an AI-powered automation SDK can control the page, perform assertions, and extract data in JSON format using natural language.
+
+<p align="center">
+  
+<video src="https://github.com/user-attachments/assets/c9f1e7fa-9834-45ba-8e3b-c3fdc1f7e5bb" controls />
+
+</p>
+
+
+## Features ✨
+
+- **Natural Language Interaction 👆**: Describe the steps, and let Midscene plan and control the user interface for you
+- **Understand UI, Answer in JSON 🔍**: Provide prompts regarding the desired data format, and then receive the expected response in JSON format.
+- **Intuitive Assertion 🤔**: Make assertions in natural language; it’s all based on AI understanding.
+- **Out-of-box LLM 🪓**: It is fine to use public multimodal LLMs like GPT-4o. There is no need for any custom training.
+- **Visualized Report 🎞️**: With our visualized report file, you can easily understand and debug the whole process.
+- **Brand New Experience! 🔥**: Experience a whole new world of automation development. Enjoy!
+
+## Resources 📄
+
+* [Home Page: https://midscenejs.com](https://midscenejs.com/)
+* [Quick Experience By Chrome Extension](https://midscenejs.com/quick-experience.html)
+* [API Reference](https://midscenejs.com/api.html)
+* [Automate with Scripts in YAML](https://midscenejs.com/automate-with-scripts-in-yaml.html)
+* [Integrate with Puppeteer](https://midscenejs.com/integrate-with-puppeteer.html)
+* [Integrate with Playwright](https://midscenejs.com/integrate-with-playwright.html)
+* [Customize Model and Provider](https://midscenejs.com/model-provider.html)
+
+## License
+
+Midscene.js is [MIT licensed](https://github.com/web-infra-dev/midscene/blob/main/LICENSE).

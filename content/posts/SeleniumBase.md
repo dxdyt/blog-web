@@ -1,9 +1,9 @@
 ---
 title: SeleniumBase
-date: 2024-12-21T12:19:31+08:00
+date: 2024-12-22T12:19:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734375181552-cfa83d404033?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734375181552-cfa83d404033?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733212543060-457679f1a682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733212543060-457679f1a682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
 ---
 
 # [seleniumbase/SeleniumBase](https://github.com/seleniumbase/SeleniumBase)

@@ -1,9 +1,9 @@
 ---
 title: anthropic-cookbook
-date: 2024-12-05T12:23:04+08:00
+date: 2024-12-22T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720707527625-6d5b16ca4c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720707527625-6d5b16ca4c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732464508438-aab5691d1dae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732464508438-aab5691d1dae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
 ---
 
 # [anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook)
