@@ -1,9 +1,9 @@
 ---
 title: CopilotForXcode
-date: 2024-12-22T12:20:35+08:00
+date: 2024-12-23T12:21:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728931709882-8499c178e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728931709882-8499c178e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731412466165-f5b0d05ee5f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731412466165-f5b0d05ee5f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
 ---
 
 # [github/CopilotForXcode](https://github.com/github/CopilotForXcode)

@@ -1,9 +1,9 @@
 ---
 title: taichi
-date: 2024-12-22T12:20:00+08:00
+date: 2024-12-23T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731432245821-11739ced8bce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731432245821-11739ced8bce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733218875809-78c2d54e5195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733218875809-78c2d54e5195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
 ---
 
 # [taichi-dev/taichi](https://github.com/taichi-dev/taichi)

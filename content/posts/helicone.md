@@ -1,9 +1,9 @@
 ---
 title: helicone
-date: 2024-12-21T12:19:17+08:00
+date: 2024-12-23T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730292422804-5bbb2bd2d3f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730292422804-5bbb2bd2d3f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
 ---
 
 # [Helicone/helicone](https://github.com/Helicone/helicone)

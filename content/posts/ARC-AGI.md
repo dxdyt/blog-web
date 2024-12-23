@@ -1,9 +1,9 @@
 ---
 title: ARC-AGI
-date: 2024-07-09T12:18:31+08:00
+date: 2024-12-23T12:20:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718938610048-843cfecefef6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718938610048-843cfecefef6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjA0OTg2MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733218875809-78c2d54e5195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733218875809-78c2d54e5195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
 ---
 
 # [fchollet/ARC-AGI](https://github.com/fchollet/ARC-AGI)

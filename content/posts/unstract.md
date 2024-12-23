@@ -1,9 +1,9 @@
 ---
 title: unstract
-date: 2024-12-22T12:19:31+08:00
+date: 2024-12-23T12:20:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731432245821-11739ced8bce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731432245821-11739ced8bce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
 ---
 
 # [Zipstack/unstract](https://github.com/Zipstack/unstract)

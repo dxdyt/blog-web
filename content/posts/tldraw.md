@@ -1,9 +1,9 @@
 ---
 title: tldraw
-date: 2024-12-22T12:20:21+08:00
+date: 2024-12-23T12:19:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728931709882-8499c178e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728931709882-8499c178e804?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ4NDExMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
 ---
 
 # [tldraw/tldraw](https://github.com/tldraw/tldraw)
@@ -112,4 +112,4 @@ Have questions, comments or feedback? [Join our discord](https://discord.gg/rhsy
 
 ## Contact
 
-Find us on Twitter/X at [@tldraw](https://twitter.com/tldraw). You can contact us at by email at [hello@tldraw.com](mailto:hello@tldraw.com).
+Find us on Twitter/X at [@tldraw](https://twitter.com/tldraw). You can contact us by email at [hello@tldraw.com](mailto:hello@tldraw.com).
