@@ -1,17 +1,17 @@
 ---
 title: postiz-app
-date: 2024-11-26T12:21:53+08:00
+date: 2024-12-24T12:20:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730982425492-9b1612dc0e82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730982425492-9b1612dc0e82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1730157470653-53e84b2ca618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1730157470653-53e84b2ca618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
 
 <p align="center">
-  Please help us out on Product Hunt,<br />to give you the best open-source<br />social media scheduling tool in the world 🌎👇 <br /><br />
-<a href="https://www.producthunt.com/posts/postiz?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-postiz" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=606350&theme=light" alt="Postiz - Your&#0032;ultimate&#0032;AI&#0032;social&#0032;media&#0032;scheduling&#0032;tool&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-  <br /><br />
+  <a href="https://affiliate.postiz.com">
+    <img src="https://github.com/user-attachments/assets/af9f47b3-e20c-402b-bd11-02f39248d738" />
+  </a>
 </p>
 
 <p align="center">
