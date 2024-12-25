@@ -1,9 +1,9 @@
 ---
 title: Chat2DB
-date: 2024-11-03T12:20:17+08:00
+date: 2024-12-25T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729876502699-0a2bc7d970e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2MDc1Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729876502699-0a2bc7d970e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2MDc1Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1577201866982-97ac098537e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1577201866982-97ac098537e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
 ---
 
 # [CodePhiliaX/Chat2DB](https://github.com/CodePhiliaX/Chat2DB)

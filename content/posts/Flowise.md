@@ -1,9 +1,9 @@
 ---
 title: Flowise
-date: 2024-09-12T12:20:58+08:00
+date: 2024-12-25T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722863975120-fc5a9601e5af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722863975120-fc5a9601e5af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1577201866982-97ac098537e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1577201866982-97ac098537e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
 ---
 
 # [FlowiseAI/Flowise](https://github.com/FlowiseAI/Flowise)
@@ -52,11 +52,12 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 
 ### Docker Compose
 
-1. Go to `docker` folder at the root of the project
-2. Copy `.env.example` file, paste it into the same location, and rename to `.env`
-3. `docker compose up -d`
-4. Open [http://localhost:3000](http://localhost:3000)
-5. You can bring the containers down by `docker compose stop`
+1. Clone the Flowise project
+2. Go to `docker` folder at the root of the project
+3. Copy `.env.example` file, paste it into the same location, and rename to `.env` file
+4. `docker compose up -d`
+5. Open [http://localhost:3000](http://localhost:3000)
+6. You can bring the containers down by `docker compose stop`
 
 ### Docker Image
 
@@ -171,6 +172,7 @@ Deploy Flowise self-hosted in your existing infrastructure, we support various [
 -   [Azure](https://docs.flowiseai.com/deployment/azure)
 -   [Digital Ocean](https://docs.flowiseai.com/deployment/digital-ocean)
 -   [GCP](https://docs.flowiseai.com/deployment/gcp)
+-   [Alibaba Cloud](https://computenest.console.aliyun.com/service/instance/create/default?type=user&ServiceName=Flowise社区版)
 -   <details>
       <summary>Others</summary>
 

@@ -1,9 +1,9 @@
 ---
 title: clay
-date: 2024-12-24T12:19:25+08:00
+date: 2024-12-25T12:20:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730247147351-6db1dc7b2dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730247147351-6db1dc7b2dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733043075616-1c68d70944d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733043075616-1c68d70944d4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
 ---
 
 # [nicbarker/clay](https://github.com/nicbarker/clay)

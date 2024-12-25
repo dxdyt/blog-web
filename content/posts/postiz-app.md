@@ -1,9 +1,9 @@
 ---
 title: postiz-app
-date: 2024-12-24T12:20:17+08:00
+date: 2024-12-25T12:20:39+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1730157470653-53e84b2ca618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1730157470653-53e84b2ca618?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734366965512-1ef84f81c513?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734366965512-1ef84f81c513?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)

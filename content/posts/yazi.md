@@ -1,9 +1,9 @@
 ---
 title: yazi
-date: 2024-12-24T12:21:10+08:00
+date: 2024-12-25T12:21:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733138065524-07fbe03e5dcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733138065524-07fbe03e5dcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUwMTM5NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732613942657-61684c51eb55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732613942657-61684c51eb55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
 ---
 
 # [sxyazi/yazi](https://github.com/sxyazi/yazi)

@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2024-12-04T12:21:06+08:00
+date: 2024-12-25T12:21:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726141123623-ab974a5c9bd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726141123623-ab974a5c9bd0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731484396266-b80443ec385b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731484396266-b80443ec385b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -36,6 +36,12 @@ $ grep -nri [搜索词] docs | cat --number
 $ grep -nri css docs | cat --number
 ```
 ## 2024
+
+**十二月**
+
+- 第 330 期：[李开复梳理人工智能](docs/issue-330.md)
+- 第 329 期：[示意图利器 D2](docs/issue-329.md)
+- 第 328 期：[AI 模型不是一门好生意](docs/issue-328.md)
 
 **十一月**
 
