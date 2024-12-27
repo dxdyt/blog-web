@@ -1,9 +1,9 @@
 ---
 title: KAG
-date: 2024-12-26T12:20:24+08:00
+date: 2024-12-27T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731484396266-b80443ec385b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731484396266-b80443ec385b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731432248531-819b94ee2dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731432248531-819b94ee2dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
 ---
 
 # [OpenSPG/KAG](https://github.com/OpenSPG/KAG)

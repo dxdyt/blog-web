@@ -1,9 +1,9 @@
 ---
 title: zig
-date: 2024-07-23T12:17:40+08:00
+date: 2024-12-27T12:20:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718964313564-a79ff1a60ffa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718964313564-a79ff1a60ffa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729109083465-66dfbffb1de8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729109083465-66dfbffb1de8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
 ---
 
 # [ziglang/zig](https://github.com/ziglang/zig)
@@ -23,11 +23,9 @@ Documentation** corresponding to the version of Zig that you are using by
 following the appropriate link on the
 [download page](https://ziglang.org/download).
 
-Otherwise, you're looking at a release of Zig, and you can find documentation
-here:
-
- * doc/langref.html
- * doc/std/index.html
+Otherwise, you're looking at a release of Zig, so you can find the language
+reference at `doc/langref.html`, and the standard library documentation by
+running `zig std`, which will open a browser tab.
 
 ## Installation
 
@@ -59,7 +57,7 @@ Ensure you have the required dependencies:
 
  * CMake >= 3.15
  * System C/C++ Toolchain
- * LLVM, Clang, LLD development libraries == 18.x
+ * LLVM, Clang, LLD development libraries == 19.x
 
 Then it is the standard CMake build process:
 
@@ -88,21 +86,25 @@ This produces a `zig2` executable in the current working directory. This is a
 [without LLVM extensions](https://github.com/ziglang/zig/issues/16270), and is
 therefore lacking these features:
 - Release mode optimizations
-- aarch64 machine code backend
-- `@cImport` / `zig translate-c`
-- Ability to compile C files
-- Ability to compile assembly files
+- [aarch64 machine code backend](https://github.com/ziglang/zig/issues/21172)
+- [@cImport](https://github.com/ziglang/zig/issues/20630)
+- [zig translate-c](https://github.com/ziglang/zig/issues/20875)
+- [Ability to compile assembly files](https://github.com/ziglang/zig/issues/21169)
 - [Some ELF linking features](https://github.com/ziglang/zig/issues/17749)
 - [Most COFF/PE linking features](https://github.com/ziglang/zig/issues/17751)
 - [Some WebAssembly linking features](https://github.com/ziglang/zig/issues/17750)
 - [Ability to create import libs from def files](https://github.com/ziglang/zig/issues/17807)
-- [Automatic importlib file generation for Windows DLLs](https://github.com/ziglang/zig/issues/17753)
 - [Ability to create static archives from object files](https://github.com/ziglang/zig/issues/9828)
-- Ability to compile C++, Objective-C, and Objective-C++ files
+- Ability to compile C, C++, Objective-C, and Objective-C++ files
 
 However, a compiler built this way does provide a C backend, which may be
 useful for creating system packages of Zig projects using the system C
-toolchain. In such case, LLVM is not needed!
+toolchain. **In this case, LLVM is not needed!**
+
+Furthermore, a compiler built this way provides an LLVM backend that produces
+bitcode files, which may be compiled into object files via a system Clang
+package. This can be used to produce system packages of Zig applications
+without the Zig package dependency on LLVM.
 
 ## Contributing
 

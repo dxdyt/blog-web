@@ -1,9 +1,9 @@
 ---
 title: openai-openapi
-date: 2024-12-26T12:19:58+08:00
+date: 2024-12-27T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731450453063-31716e7b71af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731450453063-31716e7b71af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733392898848-72e6a57df7fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733392898848-72e6a57df7fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
 ---
 
 # [openai/openai-openapi](https://github.com/openai/openai-openapi)

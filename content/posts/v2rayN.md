@@ -1,15 +1,15 @@
 ---
 title: v2rayN
-date: 2024-11-26T12:20:42+08:00
+date: 2024-12-27T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731927321985-3bf41a2f8fe2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731927321985-3bf41a2f8fe2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733334463453-77ce96cf23a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733334463453-77ce96cf23a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
 ---
 
 # [2dust/v2rayN](https://github.com/2dust/v2rayN)
 
 # v2rayN
-A GUI client for Windows and Linux, support [Xray core](https://github.com/XTLS/Xray-core)  and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
+A GUI client for Windows, Linux and macOS, support [Xray core](https://github.com/XTLS/Xray-core) and [sing-box-core](https://github.com/SagerNet/sing-box/releases) and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
 
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
@@ -23,11 +23,16 @@ Check [Release files introduction](https://github.com/2dust/v2rayN/wiki/Release-
 ### Windows
 - Run `v2rayN.exe`
 ### Linux
-- `chmod +x v2rayN` Run `./v2rayN`
+- `chmod +x v2rayN` Run `./v2rayN` under user permissions
 ```
 Debian 9+
 Ubuntu 16.04+
 Fedora 30+
+```
+### macOS
+- `chmod +x v2rayN` Run `./v2rayN` under user permissions
+```
+macOS 10.14+
 ```
 
 ## Requirements  

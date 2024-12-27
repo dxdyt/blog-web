@@ -1,17 +1,24 @@
 ---
 title: shortest
-date: 2024-12-26T12:19:25+08:00
+date: 2024-12-27T12:19:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732262548234-26a40c225b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732262548234-26a40c225b23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730406851326-808a50bac63a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730406851326-808a50bac63a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
 ---
 
 # [anti-work/shortest](https://github.com/anti-work/shortest)
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/57d23950-206b-4640-a649-66a175660ade" alt="Shortest Logo" width="128" />
+</p>
+
 # Shortest
-**[shortest.com](https://shortest.com)**
 
 AI-powered natural language end-to-end testing framework.
+
+<video src="https://github.com/user-attachments/assets/d443279e-7364-452b-9f50-0c8dd0cf55fc" controls autoplay loop muted>
+Your browser does not support the video tag.
+</video>
 
 ## Features
 - Natural language E2E testing framework
@@ -64,7 +71,7 @@ shortest('Login to the app using email and password', { username: process.env.GI
 ```
 
 ## Using callback functions
-You can also use callback functions to add additoinal assertions and other logic. AI will execute the callback function after the test
+You can also use callback functions to add additional assertions and other logic. AI will execute the callback function after the test
 execution in browser is completed.
 
 ```typescript
