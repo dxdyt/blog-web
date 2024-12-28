@@ -1,9 +1,9 @@
 ---
 title: phidata
-date: 2024-12-10T12:22:16+08:00
+date: 2024-12-28T12:20:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732919258535-7e375832d439?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4MDQ0NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733320662296-ff70b879480e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733320662296-ff70b879480e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
 ---
 
 # [phidatahq/phidata](https://github.com/phidatahq/phidata)
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732919258535-7e375832d4
 </p>
 
 <h3 align="center">
-Build multi-modal Agents with memory, knowledge, tools and reasoning
+Build multi-modal Agents with memory, knowledge, tools and reasoning.
 </h3>
 
 <img
@@ -27,30 +27,28 @@ Build multi-modal Agents with memory, knowledge, tools and reasoning
   style="border-radius: 8px;"
 />
 
-# What is phidata?
+## What is phidata?
 
 **Phidata is a framework for building multi-modal agents**, use phidata to:
 
 - **Build multi-modal agents with memory, knowledge, tools and reasoning.**
 - **Build teams of agents that can work together to solve problems.**
 - **Chat with your agents using a beautiful Agent UI.**
-- **Monitor, evaluate and optimize your agents.**
-- **Build agentic systems i.e. applications with an API, database and vectordb.**
 
-# Install
+## Install
 
 ```shell
 pip install -U phidata
 ```
 
-# Key Features
+## Key Features
 
 - [Simple & Elegant](#simple--elegant)
 - [Powerful & Flexible](#powerful--flexible)
 - [Multi-Modal by default](#multi-modal-by-default)
 - [Multi-Agent orchestration](#multi-agent-orchestration)
-- [Agentic RAG built-in](#agentic-rag)
 - [A beautiful Agent UI to chat with your agents](#a-beautiful-agent-ui-to-chat-with-your-agents)
+- [Agentic RAG built-in](#agentic-rag)
 - [Structured Outputs](#structured-outputs)
 - [Reasoning Agents](#reasoning-agents-experimental)
 - [Monitoring & Debugging built-in](#monitoring--debugging)
@@ -58,7 +56,9 @@ pip install -U phidata
 
 ## Simple & Elegant
 
-Phidata Agents are simple and elegant, resulting in minimal, beautiful code. For example, you can create a web search agent using 10 lines of code, create a file `web_search.py`
+Phidata Agents are simple and elegant, resulting in minimal, beautiful code.
+
+For example, you can create a web search agent in 10 lines of code, create a file `web_search.py`
 
 ```python
 from phi.agent import Agent
@@ -87,7 +87,9 @@ python web_search.py
 
 ## Powerful & Flexible
 
-Phidata agents can use multiple tools and follow instructions to achieve complex tasks. For example, you can create a finance agent that can query financial data, create a file `finance_agent.py`
+Phidata agents can use multiple tools and follow instructions to achieve complex tasks.
+
+For example, you can create a finance agent with tools to query financial data, create a file `finance_agent.py`
 
 ```python
 from phi.agent import Agent
@@ -115,7 +117,9 @@ python finance_agent.py
 
 ## Multi-Modal by default
 
-Phidata agents support text, images, audio and video. For example, you can create an image agent that can understand images and make tool calls as needed, create a file `image_agent.py`
+Phidata agents support text, images, audio and video.
+
+For example, you can create an image agent that can understand images and make tool calls as needed, create a file `image_agent.py`
 
 ```python
 from phi.agent import Agent
@@ -188,6 +192,78 @@ Run the Agent team:
 python agent_team.py
 ```
 
+## A beautiful Agent UI to chat with your agents
+
+Phidata provides a beautiful UI for interacting with your agents. Let's take it for a spin, create a file `playground.py`
+
+![agent_playground](https://github.com/user-attachments/assets/546ce6f5-47f0-4c0c-8f06-01d560befdbc)
+
+> [!NOTE]
+> Phidata does not store any data, all agent data is stored locally in a sqlite database.
+
+```python
+from phi.agent import Agent
+from phi.model.openai import OpenAIChat
+from phi.storage.agent.sqlite import SqlAgentStorage
+from phi.tools.duckduckgo import DuckDuckGo
+from phi.tools.yfinance import YFinanceTools
+from phi.playground import Playground, serve_playground_app
+
+web_agent = Agent(
+    name="Web Agent",
+    model=OpenAIChat(id="gpt-4o"),
+    tools=[DuckDuckGo()],
+    instructions=["Always include sources"],
+    storage=SqlAgentStorage(table_name="web_agent", db_file="agents.db"),
+    add_history_to_messages=True,
+    markdown=True,
+)
+
+finance_agent = Agent(
+    name="Finance Agent",
+    model=OpenAIChat(id="gpt-4o"),
+    tools=[YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True, company_news=True)],
+    instructions=["Use tables to display data"],
+    storage=SqlAgentStorage(table_name="finance_agent", db_file="agents.db"),
+    add_history_to_messages=True,
+    markdown=True,
+)
+
+app = Playground(agents=[finance_agent, web_agent]).get_app()
+
+if __name__ == "__main__":
+    serve_playground_app("playground:app", reload=True)
+```
+
+
+Authenticate with phidata by running the following command:
+
+```shell
+phi auth
+```
+
+or by exporting the `PHI_API_KEY` for your workspace from [phidata.app](https://www.phidata.app)
+
+```bash
+export PHI_API_KEY=phi-***
+```
+
+Install dependencies and run the Agent Playground:
+
+```
+pip install 'fastapi[standard]' sqlalchemy
+
+python playground.py
+```
+
+- Open the link provided or navigate to `http://phidata.app/playground`
+- Select the `localhost:7777` endpoint and start chatting with your agents!
+
+<video
+  src="https://github.com/user-attachments/assets/3a2ff93c-3d2d-4f1a-9573-eee25542e5c4"
+  style="border-radius: 8px;"
+/>
+
 ## Agentic RAG
 
 We were the first to pioneer Agentic RAG using our Auto-RAG paradigm. With Agentic RAG (or auto-rag), the Agent can search its knowledge base (vector db) for the specific information it needs to achieve its task, instead of always inserting the "context" into the prompt.
@@ -232,74 +308,6 @@ pip install lancedb tantivy pypdf sqlalchemy
 
 python rag_agent.py
 ```
-
-## A beautiful Agent UI to chat with your agents
-
-Phidata provides a beautiful UI for interacting with your agents. Let's take it for a spin, create a file `playground.py`
-
-![agent_playground](https://github.com/user-attachments/assets/546ce6f5-47f0-4c0c-8f06-01d560befdbc)
-
-> [!NOTE]
-> Phidata does not store any data, all agent data is stored locally in a sqlite database.
-
-```python
-from phi.agent import Agent
-from phi.model.openai import OpenAIChat
-from phi.storage.agent.sqlite import SqlAgentStorage
-from phi.tools.duckduckgo import DuckDuckGo
-from phi.tools.yfinance import YFinanceTools
-from phi.playground import Playground, serve_playground_app
-
-web_agent = Agent(
-    name="Web Agent",
-    model=OpenAIChat(id="gpt-4o"),
-    tools=[DuckDuckGo()],
-    instructions=["Always include sources"],
-    storage=SqlAgentStorage(table_name="web_agent", db_file="agents.db"),
-    add_history_to_messages=True,
-    markdown=True,
-)
-
-finance_agent = Agent(
-    name="Finance Agent",
-    model=OpenAIChat(id="gpt-4o"),
-    tools=[YFinanceTools(stock_price=True, analyst_recommendations=True, company_info=True, company_news=True)],
-    instructions=["Use tables to display data"],
-    storage=SqlAgentStorage(table_name="finance_agent", db_file="agents.db"),
-    add_history_to_messages=True,
-    markdown=True,
-)
-
-app = Playground(agents=[finance_agent, web_agent]).get_app()
-
-if __name__ == "__main__":
-    serve_playground_app("playground:app", reload=True)
-```
-
-Authenticate with phidata:
-
-```
-phi auth
-```
-
-> [!NOTE]
-> If `phi auth` fails, you can set the `PHI_API_KEY` environment variable by copying it from [phidata.app](https://www.phidata.app)
-
-Install dependencies and run the Agent Playground:
-
-```
-pip install 'fastapi[standard]' sqlalchemy
-
-python playground.py
-```
-
-- Open the link provided or navigate to `http://phidata.app/playground`
-- Select the `localhost:7777` endpoint and start chatting with your agents!
-
-<video
-  src="https://github.com/user-attachments/assets/3a2ff93c-3d2d-4f1a-9573-eee25542e5c4"
-  style="border-radius: 8px;"
-/>
 
 ## Structured Outputs
 
@@ -388,9 +396,6 @@ python reasoning_agent.py
 > Reasoning is an experimental feature and will break ~20% of the time. **It is not a replacement for o1.**
 >
 > It is an experiment fueled by curiosity, combining COT and tool use. Set your expectations very low for this initial release. For example: It will not be able to count ‘r’s in ‘strawberry’.
-
-> [!TIP]
-> If using tools with `reasoning=True`, set `structured_outputs=False` because gpt-4o doesnt support tools with structured outputs.
 
 ## Demo Agents
 

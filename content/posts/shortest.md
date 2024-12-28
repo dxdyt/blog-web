@@ -1,9 +1,9 @@
 ---
 title: shortest
-date: 2024-12-27T12:19:06+08:00
+date: 2024-12-28T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730406851326-808a50bac63a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730406851326-808a50bac63a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733107931656-d3fa581bb77a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733107931656-d3fa581bb77a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
 ---
 
 # [anti-work/shortest](https://github.com/anti-work/shortest)
@@ -194,9 +194,15 @@ This guide will help you set up the Shortest web app for local development.
    pnpm install
    ```
 
-#### For Gumroad Vercel Team Members:
-1. Run `vercel env pull` to get the latest environment variables
-- https://vercel.com/docs/deployments/local-env#environment-variables-for-local-development
+#### For Anti-Work Team Members:
+
+Pull Vercel env vars:
+
+```bash
+pnpm i -g vercel
+vercel link
+vercel env pull
+```
 
 #### For Other Contributors:
 1. Run `pnpm run setup` to configure the environment variables.

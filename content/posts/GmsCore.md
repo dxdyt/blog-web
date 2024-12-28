@@ -1,9 +1,9 @@
 ---
 title: GmsCore
-date: 2024-12-26T12:20:39+08:00
+date: 2024-12-28T12:20:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730941343980-5d81ce7c768b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730941343980-5d81ce7c768b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxODY3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729505622656-6da75375c3a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729505622656-6da75375c3a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
 ---
 
 # [microg/GmsCore](https://github.com/microg/GmsCore)

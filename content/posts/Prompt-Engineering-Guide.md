@@ -1,9 +1,9 @@
 ---
 title: Prompt-Engineering-Guide
-date: 2024-10-06T12:21:01+08:00
+date: 2024-12-28T12:20:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725905803121-dd123b058a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725905803121-dd123b058a5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733320662296-ff70b879480e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733320662296-ff70b879480e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
 ---
 
 # [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide)
@@ -17,6 +17,8 @@ Motivated by the high interest in developing with LLMs, we have created this new
 🌐 [Prompt Engineering Guide (Web Version)](https://www.promptingguide.ai/)
 
 🎉 We are excited to launch our brand new prompt engineering courses under the DAIR.AI Academy. [Join Now](https://dair-ai.thinkific.com/bundles/pro)!
+
+Use code BLACKFRIDAY to get an extra 35% off. This offer ends on 29th November 2024.
 
 Happy Prompting!
 

@@ -1,9 +1,9 @@
 ---
 title: siyuan
-date: 2024-10-18T12:20:04+08:00
+date: 2024-12-28T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727731481954-4050655156a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727731481954-4050655156a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733320662296-ff70b879480e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733320662296-ff70b879480e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
 ---
 
 # [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
@@ -31,11 +31,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1727731481954-4050655156
 <a title="Twitter" target="_blank" href="https://twitter.com/b3logos"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/b3logos?label=Follow&style=social"></a>
 <a title="Discord" target="_blank" href="https://discord.gg/dmMbCqVX7G"><img alt="Chat on Discord" src="https://img.shields.io/discord/808152298789666826?label=Discord&logo=Discord&style=social"></a>
 <br><br>
+<a href="https://trendshift.io/repositories/3949" target="_blank"><img src="https://trendshift.io/api/badge/repositories/3949" alt="siyuan-note%2Fsiyuan | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<br><br>
 <a href="https://www.producthunt.com/products/siyuan/reviews?utm_source=badge-product_rating&utm_medium=badge&utm_souce=badge-siyuan" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/product_rating.svg?product_id=534576&theme=light" alt="SiYuan - A&#0032;privacy&#0045;first&#0032;personal&#0032;knowledge&#0032;management&#0032;software | Product Hunt" style="width: 242px; height: 108px;" width="242" height="108" /></a>
 </p>
 
 <p align="center">
-<a href="README_zh_CN.md">中文</a>
+<a href="README_zh_CN.md">中文</a> | <a href="README_ja_JP.md">日本語</a>
 </p>
 
 ---
@@ -110,7 +112,7 @@ Most features are free, even for commercial use.
 * Multi-tab, drag and drop to split screen
 * Template snippet
 * JavaScript/CSS snippet
-* Android/iOS App
+* Android/iOS/HarmonyOS App
 * Docker deployment
 * [API](https://github.com/siyuan-note/siyuan/blob/master/API.md)
 * Community marketplace
@@ -130,11 +132,18 @@ Some features are only available to paid members, for more details please refer 
 | [petal](https://github.com/siyuan-note/petal)            | Plugin API            | ![GitHub forks](https://img.shields.io/github/forks/siyuan-note/petal)          | ![GitHub Repo stars](https://img.shields.io/github/stars/siyuan-note/petal)          |
 | [android](https://github.com/siyuan-note/siyuan-android) | Android App           | ![GitHub forks](https://img.shields.io/github/forks/siyuan-note/siyuan-android) | ![GitHub Repo stars](https://img.shields.io/github/stars/siyuan-note/siyuan-android) |
 | [ios](https://github.com/siyuan-note/siyuan-ios)         | iOS App               | ![GitHub forks](https://img.shields.io/github/forks/siyuan-note/siyuan-ios)     | ![GitHub Repo stars](https://img.shields.io/github/stars/siyuan-note/siyuan-ios)     |
+| [harmony](https://github.com/siyuan-note/siyuan-harmony) | HarmonyOS App         | ![GitHub forks](https://img.shields.io/github/forks/siyuan-note/siyuan-harmony) | ![GitHub Repo stars](https://img.shields.io/github/stars/siyuan-note/siyuan-harmony) |
 | [riff](https://github.com/siyuan-note/riff)              | Spaced repetition     | ![GitHub forks](https://img.shields.io/github/forks/siyuan-note/riff)           | ![GitHub Repo stars](https://img.shields.io/github/stars/siyuan-note/riff)           |
 
 ## 🌟 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=siyuan-note/siyuan&type=Date)](https://star-history.com/#siyuan-note/siyuan&Date)
+<a href="https://star-history.com/#siyuan-note/siyuan&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=siyuan-note/siyuan&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=siyuan-note/siyuan&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=siyuan-note/siyuan&type=Date" />
+ </picture>
+</a>
 
 ## 🗺️ Roadmap
 
@@ -350,6 +359,7 @@ SiYuan is completely open source, and contributions are welcome:
 * [User Interface and Kernel](https://github.com/siyuan-note/siyuan)
 * [Android](https://github.com/siyuan-note/siyuan-android)
 * [iOS](https://github.com/siyuan-note/siyuan-ios)
+* [HarmonyOS](https://github.com/siyuan-note/siyuan-harmony)
 * [Chrome Clipping Extension](https://github.com/siyuan-note/siyuan-chrome)
 
 For more details, please refer to [Development Guide](https://github.com/siyuan-note/siyuan/blob/master/.github/CONTRIBUTING.md).
