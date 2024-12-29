@@ -1,9 +1,9 @@
 ---
 title: MinerU
-date: 2024-12-04T12:22:00+08:00
+date: 2024-12-29T12:19:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732649124686-3bab54f79aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732649124686-3bab54f79aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMyODYwMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732788325422-39d53c7943a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732788325422-39d53c7943a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
 ---
 
 # [opendatalab/MinerU](https://github.com/opendatalab/MinerU)
@@ -296,10 +296,6 @@ If your device supports CUDA and meets the GPU requirements of the mainline envi
 
 [Using MinerU via Python API](https://mineru.readthedocs.io/en/latest/user_guide/quick_start/to_markdown.html)
 
-For detailed implementation, refer to:
-
-- [demo.py Simplest Processing Method](demo/demo.py)
-- [magic_pdf_parse_main.py More Detailed Processing Workflow](demo/magic_pdf_parse_main.py)
 
 ### Deploy Derived Projects
 

@@ -1,9 +1,9 @@
 ---
 title: upscayl
-date: 2024-04-03T12:19:05+08:00
+date: 2024-12-29T12:20:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711066444208-432f9d4e6db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711066444208-432f9d4e6db4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIxMTc3NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731167890908-3c38a887bbae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731167890908-3c38a887bbae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
 ---
 
 # [upscayl/upscayl](https://github.com/upscayl/upscayl)

@@ -1,9 +1,9 @@
 ---
 title: shadPS4
-date: 2024-12-28T12:20:02+08:00
+date: 2024-12-29T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729505622656-6da75375c3a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729505622656-6da75375c3a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733591486986-2a9c1086c5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733591486986-2a9c1086c5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
 ---
 
 # [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4)
@@ -131,6 +131,11 @@ R3 | M | |
 - [**skmp**](https://github.com/skmp)
 - [**wheremyfoodat**](https://github.com/wheremyfoodat)
 - [**raziel1000**](https://github.com/raziel1000)
+- [**viniciuslrangel**](https://github.com/viniciuslrangel)
+- [**roamic**](https://github.com/vladmikhalin)
+- [**poly**](https://github.com/polybiusproxy)
+- [**squidbus**](https://github.com/squidbus)
+- [**frodo**](https://github.com/baggins183)
 
 Logo is done by [**Xphalnos**](https://github.com/Xphalnos)
 

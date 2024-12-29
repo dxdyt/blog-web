@@ -1,9 +1,9 @@
 ---
 title: echarts
-date: 2024-12-28T12:20:09+08:00
+date: 2024-12-29T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733729765058-0e5fa3af47c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733729765058-0e5fa3af47c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733591486986-2a9c1086c5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733591486986-2a9c1086c5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
 ---
 
 # [apache/echarts](https://github.com/apache/echarts)
