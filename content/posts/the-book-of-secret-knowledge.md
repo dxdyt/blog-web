@@ -1,9 +1,9 @@
 ---
 title: the-book-of-secret-knowledge
-date: 2024-08-03T12:18:45+08:00
+date: 2024-12-30T12:20:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721241844662-c7aa2761e520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721241844662-c7aa2761e520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI2NTg2MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734076459123-bf27d91650db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734076459123-bf27d91650db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
 ---
 
 # [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)
@@ -28,18 +28,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1721241844662-c7aa2761e5
     <img src="https://img.shields.io/badge/License-MIT-lightgrey.svg?longCache=true" alt="MIT License">
   </a>
 </p>
-
-<p align="center">
-  <a href="https://twitter.com/trimstray" target="_blank">
-    <img src="https://img.shields.io/twitter/follow/trimstray.svg?logo=twitter">
-  </a>
-</p>
-
-<div align="center">
-  <sub>Created by
-  <a href="https://twitter.com/trimstray">trimstray</a> and
-  <a href="https://github.com/trimstray/the-book-of-secret-knowledge/graphs/contributors">contributors</a>
-</div>
 
 <br>
 

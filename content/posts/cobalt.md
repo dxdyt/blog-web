@@ -1,9 +1,9 @@
 ---
 title: cobalt
-date: 2024-12-29T12:19:07+08:00
+date: 2024-12-30T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732494644033-fedc311f0442?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732494644033-fedc311f0442?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733235015033-c9aa3264135d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733235015033-c9aa3264135d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
 ---
 
 # [imputnet/cobalt](https://github.com/imputnet/cobalt)

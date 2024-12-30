@@ -1,9 +1,9 @@
 ---
 title: iTerm2-Color-Schemes
-date: 2024-12-29T12:19:44+08:00
+date: 2024-12-30T12:21:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733684964669-bfdf0f0747e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733684964669-bfdf0f0747e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731330269319-0f053cd5d74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731330269319-0f053cd5d74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
 ---
 
 # [mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)

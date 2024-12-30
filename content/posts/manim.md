@@ -1,9 +1,9 @@
 ---
 title: manim
-date: 2024-12-27T12:20:05+08:00
+date: 2024-12-30T12:20:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733246849141-50776096f51c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733246849141-50776096f51c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733235015033-c9aa3264135d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733235015033-c9aa3264135d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
 ---
 
 # [3b1b/manim](https://github.com/3b1b/manim)

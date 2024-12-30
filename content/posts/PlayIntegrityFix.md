@@ -1,9 +1,9 @@
 ---
 title: PlayIntegrityFix
-date: 2024-10-25T12:22:14+08:00
+date: 2024-12-30T12:21:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729508418019-0f1e5336fc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729508418019-0f1e5336fc2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk4MzAwOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734076459123-bf27d91650db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734076459123-bf27d91650db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
 ---
 
 # [chiteroman/PlayIntegrityFix](https://github.com/chiteroman/PlayIntegrityFix)
@@ -55,6 +55,10 @@ And in SafetyNet you should get this:
 
 NOTE: Strong verdict is impossible to pass on unlocked bootloader devices, there are few devices and "exploits" which will allow you to pass it, but, in normal conditions, this verdict will be green only if you are using stock ROM and locked bootloader. The old posts talking about Strong pass was an "exploit" in Google servers, obviously, now it's patched.
 
+## Acknowledgments
+- [kdrag0n](https://github.com/kdrag0n/safetynet-fix) & [Displax](https://github.com/Displax/safetynet-fix) for the original idea.
+- [osm0sis](https://github.com/osm0sis) for his original [autopif2.sh](https://github.com/osm0sis/PlayIntegrityFork/blob/main/module/autopif2.sh) script, and [backslashxx](https://github.com/backslashxx) & [KOWX712](https://github.com/KOWX712) for improving it ([action.sh](https://github.com/chiteroman/PlayIntegrityFix/blob/main/module/action.sh)).
+
 ## FAQ
 https://xdaforums.com/t/pif-faq.4653307/
 
@@ -62,4 +66,4 @@ https://xdaforums.com/t/pif-faq.4653307/
 https://github.com/chiteroman/PlayIntegrityFix/releases/latest
 
 ## Donations
-[PayPal](https://www.paypal.com/paypalme/chiteroman)
+[PayPal](https://www.paypal.com/paypalme/chiteroman0)

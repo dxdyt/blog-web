@@ -1,9 +1,9 @@
 ---
 title: HelloGitHub
-date: 2024-12-29T12:20:44+08:00
+date: 2024-12-30T12:21:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729816081224-a5b0e7f2b855?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729816081224-a5b0e7f2b855?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734366965586-dc4155c0b9b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734366965586-dc4155c0b9b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU1MzIzNjV8&ixlib=rb-4.0.3
 ---
 
 # [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
