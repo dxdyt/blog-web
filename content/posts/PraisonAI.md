@@ -1,40 +1,164 @@
 ---
 title: PraisonAI
-date: 2024-07-19T12:20:06+08:00
+date: 2024-12-31T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719938570902-6fe35719cde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719938570902-6fe35719cde9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjEzNjI3MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733721868451-a3e51216c42e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733721868451-a3e51216c42e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
 ---
 
 # [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/images/praisonai-logo-large.png">
-    <source media="(prefers-color-scheme: light)" srcset="docs/images/praisonai-logo-black-large.png">
-    <img alt="PraisonAI Logo" src="docs/images/praisonai-logo-black-large.png">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/logo/dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="docs/logo/light.png" />
+    <img alt="PraisonAI Logo" src="docs/logo/light.png" />
   </picture>
 </p>
 
 <p align="center">
-<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://static.pepy.tech/badge/PraisonAI" alt="Total Downloads"></a>
-<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/github/v/release/MervinPraison/PraisonAI" alt="Latest Stable Version"></a>
-<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://static.pepy.tech/badge/PraisonAI" alt="Total Downloads" /></a>
+<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/github/v/release/MervinPraison/PraisonAI" alt="Latest Stable Version" /></a>
+<a href="https://github.com/MervinPraison/PraisonAI"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License" /></a>
 </p>
 
 <div align="center">
 
 # Praison AI
 
+<a href="https://trendshift.io/repositories/9130" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9130" alt="MervinPraison%2FPraisonAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 
-Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, represents a low-code, centralised framework designed to simplify the creation and orchestration of multi-agent systems for various LLM applications, emphasizing ease of use, customization, and human-agent interaction.
+PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application combines PraisonAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human–agent collaboration.
+
+## Key Features
+
+- 🤖 Automated AI Agents Creation
+- 🔄 Use CrewAI or AutoGen Framework
+- 💯 100+ LLM Support
+- 💻 Chat with ENTIRE Codebase
+- 🖥️ Interactive UIs
+- 📄 YAML-based Configuration
+- 🛠️ Custom Tool Integration
+- 🔍 Internet Search Capability (using Crawl4AI and Tavily)
+- 👁️ Vision Language Model (VLM) Support
+- 🎙️ Real-time Voice Interaction
+
+## Using No Code
+
+### Auto Mode:
+```bash
+pip install praisonai
+export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
+praisonai --auto create a movie script about Robots in Mars
+```
+
+### Initialise Mode:
+```bash
+pip install praisonai
+export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
+praisonai --init create a movie script about Robots in Mars
+praisonai
+```
+
+## Using Coding
+
+Light weight package dedicated for coding:
+```bash
+pip install praisonaiagents
+```
+
+```bash
+export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
+```
+
+Create app.py file and add the code below:
+```python
+from praisonaiagents import Agent, Task, PraisonAIAgents
+
+# 1. Create agents
+researcher = Agent(
+    name="Researcher",
+    role="Senior Research Analyst",
+    goal="Uncover cutting-edge developments in AI and data science",
+    backstory="""You are an expert at a technology research group, 
+    skilled in identifying trends and analyzing complex data.""",
+    verbose=True,
+    llm="gpt-4o",
+    markdown=True
+)
+writer = Agent(
+    name="Writer",
+    role="Tech Content Strategist",
+    goal="Craft compelling content on tech advancements",
+    backstory="""You are a content strategist known for 
+    making complex tech topics interesting and easy to understand.""",
+    llm="gpt-4o",
+    markdown=True
+)
+
+# 2. Define Tasks
+task1 = Task(
+    name="research_task",
+    description="""Analyze 2024's AI advancements. 
+    Find major trends, new technologies, and their effects.""",
+    expected_output="""A detailed report on 2024 AI advancements""",
+    agent=researcher
+)
+
+task2 = Task(
+    name="writing_task",
+    description="""Create a blog post about major AI advancements using the insights you have.
+    Make it interesting, clear, and suited for tech enthusiasts. 
+    It should be at least 4 paragraphs long.""",
+    expected_output="A blog post of at least 4 paragraphs",
+    agent=writer,
+)
+
+agents = PraisonAIAgents(
+    agents=[researcher, writer],
+    tasks=[task1, task2],
+    verbose=False,
+    process="hierarchical",
+    manager_llm="gpt-4o"
+)
+
+result = agents.start()
+```
+
+Run:
+```bash
+python app.py
+```
+
+## Ollama Integration
+```bash
+export OPENAI_BASE_URL=http://localhost:11434/v1
+```
+
+## Groq Integration
+Replace xxxx with Groq API KEY:
+```bash
+export OPENAI_API_KEY=xxxxxxxxxxx
+export OPENAI_BASE_URL=https://api.groq.com/openai/v1
+```
+
+## Logging
+```bash
+export LOGLEVEL=info
+```
+
+Advanced logging:
+```bash
+export LOGLEVEL=debug
+```
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.png">
-    <source media="(prefers-color-scheme: light)" srcset="docs/images/architecture-light.png">
-    <img alt="PraisonAI Architecture" src="docs/images/architecture-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.png" />
+    <source media="(prefers-color-scheme: light)" srcset="docs/images/architecture-light.png" />
+    <img alt="PraisonAI Architecture" src="docs/images/architecture-light.png" />
   </picture>
 </div>
 
@@ -45,29 +169,100 @@ Praison AI, leveraging both AutoGen and CrewAI or any other agent framework, rep
 | **UI** | Multi Agents such as CrewAI or AutoGen | [https://docs.praison.ai/ui/ui](https://docs.praison.ai/ui/ui) |
 | **Chat** | Chat with 100+ LLMs, single AI Agent | [https://docs.praison.ai/ui/chat](https://docs.praison.ai/ui/chat) |
 | **Code** | Chat with entire Codebase, single AI Agent | [https://docs.praison.ai/ui/code](https://docs.praison.ai/ui/code) |
+| **Realtime** | Real-time voice interaction with AI | [https://docs.praison.ai/ui/realtime](https://docs.praison.ai/ui/realtime) |
+
+| Other Features | Description | Docs |
+|---|---|---|
+| **Train** | Fine-tune LLMs using your custom data | [https://docs.praison.ai/train](https://docs.praison.ai/train) |
+
 
 ## Google Colab Multi Agents
 
 |               | Cookbook        | Open in Colab                                                                                                                                                                                                                                  |
 | ------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Basic         | PraisonAI       | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>       |
-| Include Tools | PraisonAI Tools | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-tools-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> |
+| Basic         | PraisonAI       | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>       |
+| Include Tools | PraisonAI Tools | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-tools-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a> |
 
-## Install
+## Installation Options
 
-| PraisonAI | PraisonAI Code | PraisonAI Chat |
-| --- | --- | --- |
-| `pip install praisonai` | `pip install "praisonai[code]"` | `pip install "praisonai[chat]"` |
+### Using pip
+```bash
+pip install praisonai
+```
 
-## Key Features
+### Framework-specific Installation
+```bash
+# Install with CrewAI support
+pip install "praisonai[crewai]"
 
-- Automated AI Agents Creation
-- Use CrewAI or AutoGen Framework
-- 100+ LLM Support
-- Chat with ENTIRE Codebase
-- Interactive UIs
-- YAML-based Configuration
-- Custom Tool Integration
+# Install with AutoGen support
+pip install "praisonai[autogen]"
+
+# Install with both frameworks
+pip install "praisonai[crewai,autogen]"
+```
+
+### UI and Additional Features
+```bash
+# Install UI support
+pip install "praisonai[ui]"
+
+# Install Chat interface
+pip install "praisonai[chat]"
+
+# Install Code interface
+pip install "praisonai[code]"
+
+# Install Realtime voice interaction
+pip install "praisonai[realtime]"
+
+# Install Call feature
+pip install "praisonai[call]"
+```
+
+## Quick Start
+
+```bash
+# Set your OpenAI API key
+export OPENAI_API_KEY="Enter your API key"
+
+# Initialize with CrewAI (default)
+praisonai --init "create a movie script about dog in moon"
+
+# Or initialize with AutoGen
+praisonai --framework autogen --init "create a movie script about dog in moon"
+
+# Run the agents
+praisonai
+```
+
+## Full Automatic Mode
+
+```bash
+# With CrewAI (default)
+praisonai --auto "create a movie script about Dog in Moon"
+
+# With AutoGen
+praisonai --framework autogen --auto "create a movie script about Dog in Moon"
+```
+
+## Framework-specific Features
+
+### CrewAI
+When installing with `pip install "praisonai[crewai]"`, you get:
+- CrewAI framework support
+- PraisonAI tools integration
+- Task delegation capabilities
+- Sequential and parallel task execution
+
+### AutoGen
+When installing with `pip install "praisonai[autogen]"`, you get:
+- AutoGen framework support
+- PraisonAI tools integration
+- Multi-agent conversation capabilities
+- Code execution environment
+
+
 
 ## TL;DR Multi Agents
 
@@ -180,6 +375,14 @@ export OPENAI_API_KEY="Enter your API key"
 praisonai chat
 ```
 
+### Internet Search
+
+Praison AI Chat and Praison AI Code now includes internet search capabilities using Crawl4AI and Tavily, allowing you to retrieve up-to-date information during your conversations.
+
+### Vision Language Model Support
+
+You can now upload images and ask questions based on them using Vision Language Models. This feature enables visual understanding and analysis within your chat sessions.
+
 ## Praison AI Code
 
 ```bash
@@ -187,6 +390,10 @@ pip install "praisonai[code]"
 export OPENAI_API_KEY="Enter your API key"
 praisonai code
 ```
+
+### Internet Search
+
+Praison AI Code also includes internet search functionality, enabling you to find relevant code snippets and programming information online.
 
 ## Create Custom Tools
 
@@ -267,30 +474,18 @@ if __name__ == "__main__":
 
 ## Commands to Install Dependencies:
 
-1. **Install all dependencies, including dev dependencies:**
+### Using uv
+```bash
+# Install uv if you haven't already
+pip install uv
 
-   ```sh
-   poetry install
-   ```
+# Install from requirements
+uv pip install -r pyproject.toml
 
-2. **Install only documentation dependencies:**
-
-   ```sh
-   poetry install --with docs
-   ```
-
-3. **Install only test dependencies:**
-
-   ```sh
-   poetry install --with test
-   ```
-
-4. **Install only dev dependencies:**
-   ```sh
-   poetry install --with dev
-   ```
-
-This configuration ensures that your development dependencies are correctly categorized and installed as needed.
+# Install with extras
+uv pip install -r pyproject.toml --extra code
+uv pip install -r pyproject.toml --extra "crewai,autogen"
+```
 
 ## Contributing
 
@@ -305,6 +500,27 @@ This configuration ensures that your development dependencies are correctly cate
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=MervinPraison/PraisonAI&type=Date)](https://docs.praison.ai)
+
+## License
+
+Praison AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
+
+## Video Tutorials
+
+| Topic | Video |
+|-------|--------|
+| Introduction | [![Introduction](https://img.youtube.com/vi/Fn1lQjC0GO0/0.jpg)](https://www.youtube.com/watch?v=Fn1lQjC0GO0) |
+| Tools Overview | [![Tools Overview](https://img.youtube.com/vi/XaQRgRpV7jo/0.jpg)](https://www.youtube.com/watch?v=XaQRgRpV7jo) |
+| Custom Tools | [![Custom Tools](https://img.youtube.com/vi/JSU2Rndh06c/0.jpg)](https://www.youtube.com/watch?v=JSU2Rndh06c) |
+| Firecrawl Integration | [![Firecrawl](https://img.youtube.com/vi/UoqUDcLcOYo/0.jpg)](https://www.youtube.com/watch?v=UoqUDcLcOYo) |
+| User Interface | [![UI](https://img.youtube.com/vi/tg-ZjNl3OCg/0.jpg)](https://www.youtube.com/watch?v=tg-ZjNl3OCg) |
+| Crawl4AI Integration | [![Crawl4AI](https://img.youtube.com/vi/KAvuVUh0XU8/0.jpg)](https://www.youtube.com/watch?v=KAvuVUh0XU8) |
+| Chat Interface | [![Chat](https://img.youtube.com/vi/sw3uDqn2h1Y/0.jpg)](https://www.youtube.com/watch?v=sw3uDqn2h1Y) |
+| Code Interface | [![Code](https://img.youtube.com/vi/_5jQayO-MQY/0.jpg)](https://www.youtube.com/watch?v=_5jQayO-MQY) |
+| Mem0 Integration | [![Mem0](https://img.youtube.com/vi/KIGSgRxf1cY/0.jpg)](https://www.youtube.com/watch?v=KIGSgRxf1cY) |
+| Training | [![Training](https://img.youtube.com/vi/aLawE8kwCrI/0.jpg)](https://www.youtube.com/watch?v=aLawE8kwCrI) |
+| Realtime Voice Interface | [![Realtime](https://img.youtube.com/vi/frRHfevTCSw/0.jpg)](https://www.youtube.com/watch?v=frRHfevTCSw) |
+| Call Interface | [![Call](https://img.youtube.com/vi/m1cwrUG2iAk/0.jpg)](https://www.youtube.com/watch?v=m1cwrUG2iAk) |
 
 ## License
 

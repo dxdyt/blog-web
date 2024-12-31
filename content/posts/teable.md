@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2024-12-29T12:19:32+08:00
+date: 2024-12-31T12:21:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702758063622-d7f84c7e1795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702758063622-d7f84c7e1795?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729877251622-a9043a2ec183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729877251622-a9043a2ec183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)

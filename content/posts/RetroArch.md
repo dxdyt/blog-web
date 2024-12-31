@@ -1,9 +1,9 @@
 ---
 title: RetroArch
-date: 2024-06-10T12:20:01+08:00
+date: 2024-12-31T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712255829950-4222c2f7073c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712255829950-4222c2f7073c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733011467286-fbb0a599c466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733011467286-fbb0a599c466?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
 ---
 
 # [libretro/RetroArch](https://github.com/libretro/RetroArch)
@@ -105,6 +105,7 @@ RetroArch has been ported to the following platforms:
    - PlayStation Vita
    - Raspberry Pi
    - ReactOS
+   - Redox OS
    - RetroFW
    - RS90
    - SerenityOS
@@ -133,7 +134,7 @@ following dependencies come as recommended:
    - GL headers / Vulkan headers
    - X11 headers and libs, or EGL/KMS/GBM
 
-OSX port of RetroArch requires latest versions of XCode to build.
+OSX port of RetroArch requires latest versions of Xcode to build.
 
 RetroArch can utilize these libraries if enabled:
 
@@ -150,6 +151,7 @@ RetroArch needs at least one of these audio driver libraries:
    - JACK
    - SDL
    - PulseAudio
+   - PipeWire
    - XAudio2 (Win32, Xbox 360)
    - DirectSound (Win32, Xbox 1)
    - CoreAudio (OSX, iOS)
