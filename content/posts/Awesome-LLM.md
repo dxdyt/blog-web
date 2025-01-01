@@ -1,9 +1,9 @@
 ---
 title: Awesome-LLM
-date: 2024-10-01T12:22:44+08:00
+date: 2025-01-01T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724995922268-cec4bb414b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730893525643-08edfcb3a705?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730893525643-08edfcb3a705?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
 ---
 
 # [Hannibal046/Awesome-LLM](https://github.com/Hannibal046/Awesome-LLM)
@@ -17,12 +17,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1724995922268-cec4bb414b
 
 ## Trending LLM Projects
 
-- [Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam) - real time face swap and one-click video deepfake with only a single image (uncensored).
-- [MiniCPM-V 2.6](https://github.com/OpenBMB/MiniCPM-V) - A GPT-4V Level MLLM for Single Image, Multi Image and Video on Your Phone
-- [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) - 1 min voice data can also be used to train a good TTS model! (few shot voice cloning).
+- [DeepSeek-v3](https://github.com/deepseek-ai/DeepSeek-V3) - First open-sourced GPT-4o level model.
+- [OpenAI o3 preview](https://openai.com/12-days/) - AGI, maybe?
+- [Qwen2.5 Technical Report](https://huggingface.co/papers/2412.15115) - This report introduces Qwen2.5, a comprehensive series of large language models (LLMs) designed to meet diverse needs.
+- [Genesis](https://github.com/Genesis-Embodied-AI/Genesis) - A generative world for general-purpose robotics & embodied AI learning.
+- [ModernBERT](https://github.com/AnswerDotAI/ModernBERT) - Bringing BERT into modernity via both architecture changes and scaling.
 
 ## Table of Content
-
 - [Awesome-LLM ](#awesome-llm-)
   - [Milestone Papers](#milestone-papers)
   - [Other Papers](#other-papers)
@@ -95,10 +96,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1724995922268-cec4bb414b
 | 2023-10 |      Mistral 7B      |       Mistral      | [Mistral 7B](https://arxiv.org/pdf/2310.06825.pdf)                                                                                                                                                                 |
 | 2023-12 |         Mamba        |    CMU&Princeton   | [Mamba: Linear-Time Sequence Modeling with Selective State Spaces](https://arxiv.org/pdf/2312.00752)                                                                                                               |
 | 2024-01 |         DeepSeek-v2        |      DeepSeek     | [DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model](https://arxiv.org/abs/2405.04434)                                                                                                                          |
-| 2024-03 |         Jamba        |      AI21 Labs     | [Jamba: A Hybrid Transformer-Mamba Language Model](https://arxiv.org/pdf/2403.19887)                                                                                                                          |
 | 2024-05 |         Mamba2        |      CMU&Princeton     | [Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality](https://arxiv.org/abs/2405.21060)|
 | 2024-05 |         Llama3        |      Meta     | [The Llama 3 Herd of Models](https://arxiv.org/abs/2407.21783) |
-
+| 2024-12 |         Qwen2.5        |      Alibaba     | [Qwen2.5 Technical Report](https://arxiv.org/abs/2412.15115) |
 
 
 ## Other Papers
@@ -140,15 +140,39 @@ If you're interested in the field of LLM, you may find the above list of milesto
 
 ## LLM Leaderboard
 - [Chatbot Arena Leaderboard](https://huggingface.co/spaces/lmsys/chatbot-arena-leaderboard) - a benchmark platform for large language models (LLMs) that features anonymous, randomized battles in a crowdsourced manner.
-- [MixEval Leaderboard](https://mixeval.github.io/#leaderboard) - a ground-truth-based dynamic benchmark derived from off-the-shelf benchmark mixtures, which evaluates LLMs with a highly capable model ranking (i.e., 0.96 correlation with Chatbot Arena) while running locally and quickly (6% the time and cost of running MMLU).
-- [AlpacaEval Leaderboard](https://tatsu-lab.github.io/alpaca_eval/) - An Automatic Evaluator for Instruction-following Language Models 
- using Nous benchmark suite. 
-- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard) - aims to track, rank and evaluate LLMs and chatbots as they are released.
-- [OpenCompass 2.0 LLM Leaderboard](https://rank.opencompass.org.cn/leaderboard-llm-v2) - OpenCompass is an LLM evaluation platform, supporting a wide range of models (InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
-- [Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) - evaluates LLM's ability to call external functions / tools
+- [LiveBench](https://livebench.ai/#/) - A Challenging, Contamination-Free LLM Benchmark.
+- [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) - aims to track, rank, and evaluate LLMs and chatbots as they are released.
+- [AlpacaEval](https://tatsu-lab.github.io/alpaca_eval/) - An Automatic Evaluator for Instruction-following Language Models using Nous benchmark suite. 
+- [ACLUE](https://github.com/isen-zhang/ACLUE) - an evaluation benchmark focused on ancient Chinese language comprehension. 
+- [BeHonest](https://gair-nlp.github.io/BeHonest/#leaderboard) - A pioneering benchmark specifically designed to assess honesty in LLMs comprehensively. 
+- [Berkeley Function-Calling Leaderboard](https://gorilla.cs.berkeley.edu/leaderboard.html) - evaluates LLM's ability to call external functions/tools.
+- [Chinese Large Model Leaderboard](https://github.com/jeinlee1991/chinese-llm-benchmark) - an expert-driven benchmark for Chineses LLMs.
+- [CompassRank](https://rank.opencompass.org.cn) - CompassRank is dedicated to exploring the most advanced language and visual models, offering a comprehensive, objective, and neutral evaluation reference for the industry and research.
+- [CompMix](https://qa.mpi-inf.mpg.de/compmix) - a benchmark evaluating QA methods that operate over a mixture of heterogeneous input sources (KB, text, tables, infoboxes).
+- [DreamBench++](https://dreambenchplus.github.io/#leaderboard) - a benchmark for evaluating the performance of large language models (LLMs) in various tasks related to both textual and visual imagination.
+- [FELM](https://hkust-nlp.github.io/felm) - a meta-benchmark that evaluates how well factuality evaluators assess the outputs of large language models (LLMs). 
+- [InfiBench](https://infi-coder.github.io/infibench) - a benchmark designed to evaluate large language models (LLMs) specifically in their ability to answer real-world coding-related questions.
+- [LawBench](https://lawbench.opencompass.org.cn/leaderboard) - a benchmark designed to evaluate large language models in the legal domain.
+- [LLMEval](http://llmeval.com) - focuses on understanding how these models perform in various scenarios and analyzing results from an interpretability perspective. 
+- [M3CoT](https://lightchen233.github.io/m3cot.github.io/leaderboard.html) - a benchmark that evaluates large language models on a variety of multimodal reasoning tasks, including language, natural and social sciences, physical and social commonsense, temporal reasoning, algebra, and geometry.
+- [MathEval](https://matheval.ai) - a comprehensive benchmarking platform designed to evaluate large models' mathematical abilities across 20 fields and nearly 30,000 math problems.
+- [MixEval](https://mixeval.github.io/#leaderboard) - a ground-truth-based dynamic benchmark derived from off-the-shelf benchmark mixtures, which evaluates LLMs with a highly capable model ranking (i.e., 0.96 correlation with Chatbot Arena) while running locally and quickly (6% the time and cost of running MMLU).
+- [MMedBench](https://henrychur.github.io/MultilingualMedQA) - a benchmark that evaluates large language models' ability to answer medical questions across multiple languages. 
+- [MMToM-QA](https://chuanyangjin.com/mmtom-qa-leaderboard) - a multimodal question-answering benchmark designed to evaluate AI models' cognitive ability to understand human beliefs and goals.
+- [OlympicArena](https://gair-nlp.github.io/OlympicArena/#leaderboard) - a benchmark for evaluating AI models across multiple academic disciplines like math, physics, chemistry, biology, and more.
+- [PubMedQA](https://pubmedqa.github.io) - a biomedical question-answering benchmark designed for answering research-related questions using PubMed abstracts.
+- [SciBench](https://scibench-ucla.github.io/#leaderboard) -  benchmark designed to evaluate large language models (LLMs) on solving complex, college-level scientific problems from domains like chemistry, physics, and mathematics.
+- [SuperBench](https://fm.ai.tsinghua.edu.cn/superbench/#/leaderboard) - a benchmark platform designed for evaluating large language models (LLMs) on a range of tasks, particularly focusing on their performance in different aspects such as natural language understanding, reasoning, and generalization. 
+- [SuperLim](https://lab.kb.se/leaderboard/results) - a Swedish language understanding benchmark that evaluates natural language processing (NLP) models on various tasks such as argumentation analysis, semantic similarity, and textual entailment.
+- [TAT-DQA](https://nextplusplus.github.io/TAT-DQA) - a large-scale Document Visual Question Answering (VQA) dataset designed for complex document understanding, particularly in financial reports.
+- [TAT-QA](https://nextplusplus.github.io/TAT-QA) - a large-scale question-answering benchmark focused on real-world financial data, integrating both tabular and textual information.
+- [VisualWebArena](https://jykoh.com/vwa) - a benchmark designed to assess the performance of multimodal web agents on realistic visually grounded tasks.
+- [We-Math](https://we-math.github.io/#leaderboard) - a benchmark that evaluates large multimodal models (LMMs) on their ability to perform human-like mathematical reasoning.
+- [WHOOPS!](https://whoops-benchmark.github.io) - a benchmark dataset testing AI's ability to reason about visual commonsense through images that defy normal expectations.
 
 ## Open LLM
 - Meta
+  - [Llama 3.2-1|3|11|90B](https://llama.meta.com/)
   - [Llama 3.1-8|70|405B](https://llama.meta.com/)
   - [Llama 3-8|70B](https://llama.meta.com/llama3/)
   - [Llama 2-7|13|70B](https://llama.meta.com/llama2/)
@@ -255,14 +279,14 @@ If you're interested in the field of LLM, you may find the above list of milesto
 - [Megatron-DeepSpeed](https://github.com/microsoft/Megatron-DeepSpeed) - DeepSpeed version of NVIDIA's Megatron-LM that adds additional support for several features such as MoE model training, Curriculum Learning, 3D Parallelism, and others. 
 - [torchtune](https://github.com/pytorch/torchtune) - A Native-PyTorch Library for LLM Fine-tuning.
 - [torchtitan](https://github.com/pytorch/torchtitan) - A native PyTorch Library for large model training.
+- [NeMo Framework](https://github.com/NVIDIA/NeMo) - Generative AI framework built for researchers and PyTorch developers working on Large Language Models (LLMs), Multimodal Models (MMs), Automatic Speech Recognition (ASR), Text to Speech (TTS), and Computer Vision (CV) domains.
 - [Megatron-LM](https://github.com/NVIDIA/Megatron-LM) - Ongoing research training transformer models at scale.
 - [Colossal-AI](https://github.com/hpcaitech/ColossalAI) - Making large AI models cheaper, faster, and more accessible.
 - [BMTrain](https://github.com/OpenBMB/BMTrain) - Efficient Training for Big Models.
 - [Mesh Tensorflow](https://github.com/tensorflow/mesh) - Mesh TensorFlow: Model Parallelism Made Easier.
-- [maxtext](https://github.com/google/maxtext) - A simple, performant and scalable Jax LLM!
-- [Alpa](https://alpa.ai/index.html) - Alpa is a system for training and serving large-scale neural networks.
+- [maxtext](https://github.com/AI-Hypercomputer/maxtext) - A simple, performant and scalable Jax LLM!
 - [GPT-NeoX](https://github.com/EleutherAI/gpt-neox) - An implementation of model parallel autoregressive transformers on GPUs, based on the DeepSpeed library.
-
+- [Transformer Engine](https://github.com/NVIDIA/TransformerEngine) - A library for accelerating Transformer model training on NVIDIA GPUs.
 
 ## LLM Deployment
 
@@ -312,10 +336,13 @@ If you're interested in the field of LLM, you may find the above list of milesto
 - [talkd.ai dialog](https://github.com/talkdai/dialog) - Simple API for deploying any RAG or LLM that you want adding plugins.
 - [Wllama](https://github.com/ngxson/wllama) - WebAssembly binding for llama.cpp - Enabling in-browser LLM inference
 - [GPUStack](https://github.com/gpustack/gpustack) - An open-source GPU cluster manager for running LLMs
+- [MNN-LLM](https://github.com/alibaba/MNN) -- A Device-Inference framework, including LLM Inference on device(Mobile Phone/PC/IOT)
+- [CAMEL](https://www.camel-ai.org/) - First LLM Multi-agent framework. 
 
 ## LLM Applications
-- [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow) - AdalFlow: The PyTorch library for LLM applications.
+- [AdalFlow](https://github.com/SylphAI-Inc/AdalFlow) - AdalFlow: The library to build&auto-optimize LLM applications.
 - [dspy](https://github.com/stanfordnlp/dspy) - DSPy: The framework for programming—not prompting—foundation models.
+- [MLflow](https://mlflow.org/) - MLflow: An open-source framework for the end-to-end machine learning lifecycle, helping developers track experiments, evaluate models/prompts, deploy models, and add observability with tracing.
 - [YiVal](https://github.com/YiVal/YiVal) — Evaluate and Evolve: YiVal is an open-source GenAI-Ops tool for tuning and evaluating prompts, configurations, and model parameters using customizable datasets, evaluation methods, and improvement strategies.
 - [Guidance](https://github.com/microsoft/guidance) — A handy looking Python library from Microsoft that uses Handlebars templating to interleave generation, prompting, and logical control.
 - [LangChain](https://github.com/hwchase17/langchain) — A popular Python/JavaScript library for chaining sequences of language model prompts.
@@ -346,6 +373,8 @@ If you're interested in the field of LLM, you may find the above list of milesto
 - [LazyLLM](https://github.com/LazyAGI/LazyLLM) - An open-source LLM app for building multi-agent LLMs applications in an easy and lazy way, supports model deployment and fine-tuning.
 - [MemFree](https://github.com/memfreeme/memfree) - Open Source Hybrid AI Search Engine, Instantly Get Accurate Answers from the Internet, Bookmarks, Notes, and Docs. Support One-Click Deployment
 - [unslothai](https://github.com/unslothai/unsloth) - A framework that specializes in efficient fine-tuning. On its GitHub page, you can find ready-to-use fine-tuning templates for various LLMs, allowing you to easily train your own data for free on the Google Colab cloud.
+- [AutoRAG](https://github.com/Marker-Inc-Korea/AutoRAG) - Open source AutoML tool for RAG. Optimize the RAG answer quality automatically. From generation evaluation datset to deploying optimized RAG pipeline.
+- [Epsilla](https://github.com/epsilla-cloud) - An all-in-one LLM Agent platform with your private data and knowledge, delivers your production-ready AI Agents on Day 1.
 
 ## LLM Tutorials and Courses
 - [llm-course](https://github.com/mlabonne/llm-course) - Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
@@ -367,6 +396,7 @@ If you're interested in the field of LLM, you may find the above list of milesto
 - [Generative AI with LangChain: Build large language model (LLM) apps with Python, ChatGPT, and other LLMs](https://amzn.to/3GUlRng) - it comes with a [GitHub repository](https://github.com/benman1/generative_ai_with_langchain) that showcases a lot of the functionality
 - [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch) - A guide to building your own working LLM.
 - [BUILD GPT: HOW AI WORKS](https://www.amazon.com/dp/9152799727?ref_=cm_sw_r_cp_ud_dp_W3ZHCD6QWM3DPPC0ARTT_1) - explains how to code a Generative Pre-trained Transformer, or GPT, from scratch.
+- [Hands-On Large Language Models: Language Understanding and Generation](https://www.llm-book.com/) - Explore the world of Large Language Models with over 275 custom made figures in this illustrated guide!
 
 ## Great thoughts about LLM
 - [Why did all of the public reproduction of GPT-3 fail?](https://jingfengyang.github.io/gpt)
