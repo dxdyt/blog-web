@@ -1,9 +1,9 @@
 ---
 title: CopilotKit
-date: 2025-01-01T12:21:18+08:00
+date: 2025-01-02T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732303734925-d8341c00c7a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732303734925-d8341c00c7a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733003538511-4a2c0a42d9c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733003538511-4a2c0a42d9c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)

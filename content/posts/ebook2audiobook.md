@@ -1,9 +1,9 @@
 ---
 title: ebook2audiobook
-date: 2025-01-01T12:19:57+08:00
+date: 2025-01-02T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733682631362-5936ee967df3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733682631362-5936ee967df3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732997345946-700efbeb42e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732997345946-700efbeb42e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)
@@ -33,6 +33,7 @@ Use this tool responsibly and in accordance with all applicable laws.
 
 
 ## README.md
+- ar [العربية](./readme/README_AR.md)
 - en [English](README.md)
 
 ## Table of Contents
@@ -55,6 +56,8 @@ Use this tool responsibly and in accordance with all applicable laws.
 - [Fine Tuned TTS models](#fine-tuned-tts-models)
   - [For Collection of Fine-Tuned TTS Models](#fine-tuned-tts-collection)
 - [Using Docker](#using-docker)
+  - [Docker Run](#running-the-docker-container)
+  - [Docker Build](#building-the-docker-container)
   - [Docker Compose](#docker-compose)
   - [Docker headless guide](#docker-headless-guide)
   - [Docker container file locations](#docker-container-file-locations)
@@ -257,6 +260,13 @@ docker run -it --rm -p 7860:7860 --platform=linux/amd64 athomasson2/ebook2audiob
 ```powershell
 docker run -it --rm --gpus all -p 7860:7860 --platform=linux/amd64 athomasson2/ebook2audiobook python app.py
 ```
+
+#### Building the Docker Container
+
+- You can build the docker image with the command:
+'''powershell
+docker build --platform linux/amd64 -t athomasson2/ebook2audiobook .
+'''
 
 This command will start the Gradio interface on port 7860.(localhost:7860)
 - For more options like running the docker in  mode or making the gradio link public add the `--help` parameter after the `app.py` in the docker launch command

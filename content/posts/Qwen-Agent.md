@@ -1,9 +1,9 @@
 ---
 title: Qwen-Agent
-date: 2024-12-02T12:23:35+08:00
+date: 2025-01-02T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731902062633-1496d7bcf95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731902062633-1496d7bcf95c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMxMTMyNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732621745411-85e13660257a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732621745411-85e13660257a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
@@ -20,6 +20,7 @@ memory capabilities of Qwen.
 It also comes with example applications such as Browser Assistant, Code Interpreter, and Custom Assistant.
 
 # News
+* Dec 3, 2024: Upgrade GUI to Gradio 5 based. Note: GUI requires Python 3.10 or higher.
 * 🔥🔥🔥 Sep 18, 2024: Added [Qwen2.5-Math Demo](./examples/tir_math.py) to showcase the Tool-Integrated Reasoning capabilities of Qwen2.5-Math. Note: The python executor is not sandboxed and is intended for local testing only, not for production use.
 
 # Getting Started
@@ -144,8 +145,16 @@ while True:
     messages.extend(response)
 ```
 
-In addition to using built-in agent implentations such as `class Assistant`, you can also develop your own agent implemetation by inheriting from `class Agent`.
-Please refer to the [examples](https://github.com/QwenLM/Qwen-Agent/blob/main/examples) directory for more usage examples.
+In addition to using built-in agent implementations such as `class Assistant`, you can also develop your own agent implemetation by inheriting from `class Agent`.
+
+The framework also provides a convenient GUI interface, supporting the rapid deployment of Gradio Demos for Agents.
+For example, in the case above, you can quickly launch a Gradio Demo using the following code:
+
+```py
+from qwen_agent.gui import WebUI
+WebUI(bot).run()  # bot is the agent defined in the above code, we do not repeat the definition here for saving space.
+```
+Now you can chat with the Agent in the web UI. Please refer to the [examples](https://github.com/QwenLM/Qwen-Agent/blob/main/examples) directory for more usage examples.
 
 # FAQ
 

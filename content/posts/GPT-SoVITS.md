@@ -1,9 +1,9 @@
 ---
 title: GPT-SoVITS
-date: 2024-10-01T12:22:30+08:00
+date: 2025-01-02T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727434032773-af3cd98375ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727434032773-af3cd98375ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc3NTY0Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725590137329-f182b5a8fac3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725590137329-f182b5a8fac3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTV8&ixlib=rb-4.0.3
 ---
 
 # [RVC-Boss/GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)

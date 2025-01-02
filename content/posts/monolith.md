@@ -1,9 +1,9 @@
 ---
 title: monolith
-date: 2024-12-23T12:20:09+08:00
+date: 2025-01-02T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731432248469-8e16b091c7d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731432248469-8e16b091c7d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ5Mjc1NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734021669943-bca1c5c00dcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734021669943-bca1c5c00dcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
 ---
 
 # [bytedance/monolith](https://github.com/bytedance/monolith)
