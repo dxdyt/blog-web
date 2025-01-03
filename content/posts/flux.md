@@ -1,9 +1,9 @@
 ---
 title: flux
-date: 2024-11-26T12:21:30+08:00
+date: 2025-01-03T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727990326463-02a27e0641d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727990326463-02a27e0641d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
 ---
 
 # [black-forest-labs/flux](https://github.com/black-forest-labs/flux)
@@ -94,4 +94,17 @@ $ python -m flux.api --prompt="A beautiful beach" save outputs/api
 
 # open the image directly
 $ python -m flux.api --prompt="A beautiful beach" image show
+```
+
+## Citation
+
+If you find the provided code or models useful for your research, consider citing them as:
+
+```bib
+@misc{flux2023,
+    author={Black Forest Labs},
+    title={FLUX},
+    year={2023},
+    howpublished={\url{https://github.com/black-forest-labs/flux}},
+}
 ```

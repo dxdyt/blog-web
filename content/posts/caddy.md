@@ -1,9 +1,9 @@
 ---
 title: caddy
-date: 2023-08-26T12:15:46+08:00
+date: 2025-01-03T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691084041747-9cc0ade8ceda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691084041747-9cc0ade8ceda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMwMjMyMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
 ---
 
 # [caddyserver/caddy](https://github.com/caddyserver/caddy)
@@ -66,7 +66,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691084041747-9cc0ade8ce
 </p>
 
 
-## [Features](https://caddyserver.com/v2)
+## [Features](https://caddyserver.com/features)
 
 - **Easy configuration** with the [Caddyfile](https://caddyserver.com/docs/caddyfile)
 - **Powerful configuration** with its [native JSON config](https://caddyserver.com/docs/json/)
@@ -85,7 +85,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691084041747-9cc0ade8ce
 - **Runs anywhere** with **no external dependencies** (not even libc)
 - Written in Go, a language with higher **memory safety guarantees** than other servers
 - Actually **fun to use**
-- So much more to [discover](https://caddyserver.com/v2)
+- So much more to [discover](https://caddyserver.com/features)
 
 ## Install
 
@@ -97,7 +97,7 @@ See [our online documentation](https://caddyserver.com/docs/install) for other i
 
 Requirements:
 
-- [Go 1.20 or newer](https://golang.org/dl/)
+- [Go 1.22.3 or newer](https://golang.org/dl/)
 
 ### For development
 
@@ -141,7 +141,7 @@ $ xcaddy build
 4. Initialize a Go module: `go mod init caddy`
 5. (Optional) Pin Caddy version: `go get github.com/caddyserver/caddy/v2@version` replacing `version` with a git tag, commit, or branch name.
 6. (Optional) Add plugins by adding their import: `_ "import/path/here"`
-7. Compile: `go build`
+7. Compile: `go build -tags=nobadger,nomysql,nopgx`
 
 
 
