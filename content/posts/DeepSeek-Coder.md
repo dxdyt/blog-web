@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-Coder
-date: 2025-01-03T12:19:38+08:00
+date: 2025-01-04T12:19:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734014937757-f39209af0579?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734014937757-f39209af0579?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-Coder](https://github.com/deepseek-ai/DeepSeek-Coder)

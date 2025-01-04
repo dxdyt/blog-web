@@ -1,9 +1,9 @@
 ---
 title: storm
-date: 2025-01-03T12:19:55+08:00
+date: 2025-01-04T12:18:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734108039189-f6c123288381?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734108039189-f6c123288381?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731174219400-a47a6b6ad929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731174219400-a47a6b6ad929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
 ---
 
 # [stanford-oval/storm](https://github.com/stanford-oval/storm)

@@ -1,9 +1,9 @@
 ---
 title: kotaemon
-date: 2024-11-16T12:20:03+08:00
+date: 2025-01-04T12:18:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728820433152-3b84c69185d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728820433152-3b84c69185d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731174219400-a47a6b6ad929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731174219400-a47a6b6ad929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
 ---
 
 # [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)
@@ -368,6 +368,19 @@ This file provides another way to configure your models and credentials.
 > (more instruction WIP).
 
 <!-- end-intro -->
+
+## Citation
+
+Please cite this project as
+
+```BibTeX
+@misc{kotaemon2024,
+    title = {Kotaemon - An open-source RAG-based tool for chatting with any content.},
+    author = {The Kotaemon Team},
+    year = {2024},
+    howpublished = {\url{https://github.com/Cinnamon/kotaemon}},
+}
+```
 
 ## Star History
 

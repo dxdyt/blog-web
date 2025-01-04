@@ -1,9 +1,9 @@
 ---
 title: PDFMathTranslate
-date: 2025-01-02T12:20:49+08:00
+date: 2025-01-04T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734021669943-bca1c5c00dcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734021669943-bca1c5c00dcf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733251219702-eab9e914f7ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733251219702-eab9e914f7ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
