@@ -1,9 +1,9 @@
 ---
 title: caddy
-date: 2025-01-03T12:20:42+08:00
+date: 2025-01-05T12:20:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733230585457-8a0f94c57f86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730386303229-0c921f5690cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730386303229-0c921f5690cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
 ---
 
 # [caddyserver/caddy](https://github.com/caddyserver/caddy)
