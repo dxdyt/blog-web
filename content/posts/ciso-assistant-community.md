@@ -1,9 +1,9 @@
 ---
 title: ciso-assistant-community
-date: 2025-01-03T12:20:17+08:00
+date: 2025-01-06T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733126916745-ae6453f1fe4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733126916745-ae6453f1fe4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734335515230-f9c30d1917c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734335515230-f9c30d1917c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
 ---
 
 # [intuitem/ciso-assistant-community](https://github.com/intuitem/ciso-assistant-community)
@@ -212,10 +212,12 @@ Checkout the [library](/backend/library/libraries/) and [tools](/tools/) for the
 
 ### Coming soon
 
-- Idonesia PDP
+- Indonesia PDP 🇮🇩
 - COBAC R-2024/01
-- ICO Data protection self-assessment 
+- ICO Data protection self-assessment 🇬🇧
 - NIST 800-82
+- ASD ISM 🇦🇺
+- Baseline informatiebeveiliging Overheid (BIO) 🇳🇱
 
 
 - and much more: just ask on [Discord](https://discord.gg/qvkaMdQ8da). If it's an open standard, we'll do it for you, _free of charge_ 😉

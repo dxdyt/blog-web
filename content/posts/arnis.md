@@ -1,9 +1,9 @@
 ---
 title: arnis
-date: 2025-01-05T12:20:14+08:00
+date: 2025-01-06T12:20:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734246466532-ef43137a8562?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734246466532-ef43137a8562?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733653023250-33739d0d8dc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733653023250-33739d0d8dc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
 ---
 
 # [louis-e/arnis](https://github.com/louis-e/arnis)
@@ -22,6 +22,8 @@ This open source project written in Rust generates any chosen location from the 
 By leveraging geospatial data from OpenStreetMap and utilizing the powerful capabilities of Rust, Arnis provides an efficient and robust solution for creating complex and accurate Minecraft worlds that reflect real-world geography and architecture.
 
 Arnis is designed to handle large-scale data and generate rich, immersive environments that bring real-world cities, landmarks, and natural features into the Minecraft universe. Whether you're looking to replicate your hometown, explore urban environments, or simply build something unique and realistic, Arnis generates your vision.
+
+**This is the official project website. Any other website pretending to be associated with Arnis is fake and should be avoided.**
 
 ## :keyboard: Usage
 <img width="60%" src="https://github.com/louis-e/arnis/blob/main/gitassets/gui.png?raw=true"><br>

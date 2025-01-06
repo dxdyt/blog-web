@@ -1,9 +1,9 @@
 ---
 title: storm
-date: 2025-01-05T12:18:53+08:00
+date: 2025-01-06T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733159775371-d70b9d6b1057?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733159775371-d70b9d6b1057?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731375659532-d3341d0a5b5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731375659532-d3341d0a5b5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
 ---
 
 # [stanford-oval/storm](https://github.com/stanford-oval/storm)
@@ -242,6 +242,13 @@ AZURE_API_BASE="your_azure_api_base_url"
 AZURE_API_VERSION="your_azure_api_version"
 # Set up You.com search API key.
 YDC_API_KEY="your_youcom_api_key"
+```
+
+for **Co-STORM**, please also add following
+```
+# if use openai encoder
+ENCODER_API_TYPE="openai"
+# or ENCODER_API_TYPE="azure" if use azure openai encoder
 ```
 
 ### STORM examples
