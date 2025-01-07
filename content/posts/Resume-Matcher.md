@@ -1,155 +1,287 @@
 ---
 title: Resume-Matcher
-date: 2023-09-12T12:17:24+08:00
+date: 2025-01-07T12:20:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691629015243-b2581c01bfe3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691629015243-b2581c01bfe3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQ0OTIwNzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1707653057692-7669af94b9ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1707653057692-7669af94b9ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
 ---
 
 # [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher)
 
-<p align="center">
+<div align="center">
 
-<!-- ![Naive Resume Matcher Logo](Images/rm_logo.png) -->
-<img src="Images/rm_logo.png"/>
-</p>
+[![Resume Matcher](Assets/img/Resume_Matcher_GitHub_Banner.png)](https://www.resumematcher.fyi)
 
-# Naive-Resume-Matcher
-<p align="center">
-<a href="https://img.shields.io/badge/Tested%20on-WSL%202.0-brightgreen"><img src="https://img.shields.io/badge/Tested%20on-WSL%202.0-brightgreen"/> </a>
-<a href="https://img.shields.io/github/issues/srbhr/Naive-Resume-Matching?color=blueviolet">
-<img src = "https://img.shields.io/github/issues/srbhr/Naive-Resume-Matching?color=blueviolet"/> </a>
-<a href="https://img.shields.io/github/forks/srbhr/Naive-Resume-Matching">
-<img src = "https://img.shields.io/github/forks/srbhr/Naive-Resume-Matching"/> </a>
-<a href="https://img.shields.io/github/stars/srbhr/Naive-Resume-Matching?color=yellow">
-<img src = "https://img.shields.io/github/stars/srbhr/Naive-Resume-Matching?color=yellow"/> </a>
-<a href="https://img.shields.io/github/license/srbhr/Naive-Resume-Matching">
-<img src = "https://img.shields.io/github/license/srbhr/Naive-Resume-Matching"/> </a>
-<a href="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fsrbhr%2FNaive-Resume-Matching"><img src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fsrbhr%2FNaive-Resume-Matching"></a>
-</p>
+# Resume Matcher
+
+[𝙹𝚘𝚒𝚗 𝙳𝚒𝚜𝚌𝚘𝚛𝚍](https://dsc.gg/resume-matcher) ✦ [𝚆𝚎𝚋𝚜𝚒𝚝𝚎](https://resumematcher.fyi) ✦ [𝙳𝚎𝚖𝚘](https://resume-matcher.streamlit.app/) ✦ [𝙷𝚘𝚠 𝚝𝚘 𝙸𝚗𝚜𝚝𝚊𝚕𝚕 ](#how-to-install) ✦ [𝙲𝚘𝚗𝚝𝚛𝚒𝚋𝚞𝚝𝚎](#join-us-contribute) ✦ [𝙳𝚘𝚗𝚊𝚝𝚎](#please-support-the-development-by-donating) ✦ [𝚃𝚠𝚒𝚝𝚝𝚎𝚛](https://twitter.com/_srbhr_)
+
+---
+
+
+### Resume Matcher is an AI Based Free & Open Source Tool. To tailor your resume to a job description. Find the matching keywords, improve the readability  and gain deep insights into your resume.
+
+</div>
+
+<br>
+
+<div align="center">
+
+![Stars](https://img.shields.io/github/stars/srbhr/Resume-Matcher?style=flat-square&color=EA1179)
+![Apache 2.0](https://img.shields.io/github/license/srbhr/Resume-Matcher?style=flat-square&color=525FE1) ![Issues](https://img.shields.io/github/issues/srbhr/Resume-Matcher?style=flat-square&color=F86F03) ![Forks](https://img.shields.io/github/forks/srbhr/Resume-Matcher?style=flat-square&color=0079FF) ![Python](https://img.shields.io/badge/Python-3.10+-FFD43B?style=flat-square&logo=python&logoColor=blue)
+
+[![Discord](https://custom-icon-badges.demolab.com/badge/Discord-blue?style=flat-square&logo=discord&color=F0FF42&logoColor=293462)](https://discord.gg/t3Y9HEuV34) [![Twitter](https://img.shields.io/badge/@__srbhr__-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/_srbhr_)
+[![Resume Matcher](https://custom-icon-badges.demolab.com/badge/www.resumematcher.fyi-gold?style=flat-square&logo=globe&logoColor=black)](https://www.resumematcher.fyi)
+
+Upvote us on [ProductHunt 🚀](https://www.producthunt.com/products/resume-matcher).
+
+<a href="https://www.producthunt.com/posts/resume-matcher?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-resume&#0045;matcher" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=401261&theme=light" alt="Resume&#0032;Matcher - Free&#0032;and&#0032;Open&#0045;Source&#0032;ATS&#0032;Tool&#0032;to&#0032;Match&#0032;Resumes&#0032;to&#0032;Job&#0032;Desc&#0046; | Product Hunt" style="width: 180px; height: 50px;" width="200" height="54"/></a>
+
+</div>
+
+<div align="center">
+
+**Don't let your resume be a roadblock from getting your next job. Use Resume Matcher!**
+
+![Resume_Matcher_streamlit_demo](Assets/img/Resume_Matcher_Gif.gif)
+
+## How does it work?
+
+</div>
+
+The Resume Matcher takes your resume and job descriptions as input, parses them using Python, and mimics the functionalities of an ATS, providing you with insights and suggestions to make your resume ATS-friendly.
+
+The process is as follows:
+
+1. **Parsing**: The system uses Python to parse both your resume and the provided job description, just like an ATS would.
+
+2. **Keyword Extraction**: The tool uses advanced machine learning algorithms to extract the most relevant keywords from the job description. These keywords represent the skills, qualifications, and experiences the employer seeks.
+
+3. **Key Terms Extraction**: Beyond keyword extraction, the tool uses textacy to identify the main key terms or themes in the job description. This step helps in understanding the broader context of what the resume is about.
+
+4. **Vector Similarity Using FastEmbed**: The tool uses [FastEmbed](https://github.com/qdrant/fastembed), a highly efficient embedding system, to measure how closely your resume matches the job description. The more similar they are, the higher the likelihood that your resume will pass the ATS screening.
 
 <br/>
 
 <div align="center">
 
-### ![v2.0 coming soon](https://custom-icon-badges.demolab.com/badge/-v2.0%20Coming%20Soon-263159?style=for-the-badge&logo=rocket&logoColor=white)    ![Work in Progress](https://custom-icon-badges.demolab.com/badge/-Work%20in%20Progress-gold?style=for-the-badge&logo=clock&logoColor=black) 
+## How to install
 
 </div>
 
+Follow these steps to set up the environment and run the application.
+
+1. Fork the repository [here](https://github.com/srbhr/Resume-Matcher/fork).
+
+2. Clone the forked repository.
+
+   ```bash
+   git clone https://github.com/<YOUR-USERNAME>/Resume-Matcher.git
+   cd Resume-Matcher
+   ```
+
+3. Create a Python Virtual Environment:
+
+   - Using [virtualenv](https://learnpython.com/blog/how-to-use-virtualenv-python/):
+
+     _Note_: Check how to install virtualenv on your system here [link](https://learnpython.com/blog/how-to-use-virtualenv-python/).
+
+     ```bash
+     virtualenv env
+     ```
+
+   **OR**
+
+   - Create a Python Virtual Environment:
+
+     ```bash
+     python -m venv env
+     ```
+
+4. Activate the Virtual Environment.
+
+   - On Windows.
+
+     ```bash
+     env\Scripts\activate
+     ```
+
+   - On macOS and Linux.
+
+     ```bash
+     source env/bin/activate
+     ```
+
+    **OPTIONAL (For pyenv users)**
+
+   Run the application with pyenv (Refer this [article](https://realpython.com/intro-to-pyenv/#installing-pyenv))
+
+   - Build dependencies (on ubuntu)
+      ```
+      sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python openssl
+      ```
+      ```
+
+      sudo apt-get install build-essential zlib1g-dev libffi-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev liblzma-dev libncurses-dev
+
+      sudo apt-get install python-tk python3-tk tk-dev
+
+      sudo apt-get install build-essential zlib1g-dev libffi-dev libssl-dev libbz2-dev libreadline-dev libsqlite3-dev liblzma-dev
+
+      ```
+   - pyenv installer
+     ```
+        curl https://pyenv.run | bash
+     ```
+   - Install desired python version
+     ```
+       pyenv install -v 3.11.0
+     ```
+
+   - pyenv with virtual enviroment
+     ```
+        pyenv virtualenv 3.11.0 venv
+     ```
+
+   - Activate virtualenv with pyenv
+     ```
+        pyenv activate venv
+     ```
+
+5. Install Dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+6. Prepare Data:
+
+   - Resumes: Place your resumes in PDF format in the `Data/Resumes` folder. Remove any existing contents in this folder.
+   - Job Descriptions: Place your job descriptions in PDF format in the `Data/JobDescription` folder. Remove any existing contents in this folder.
+
+7. Parse Resumes to JSON:
+
+   ```python
+   python run_first.py
+   ```
+
+8. Run the Application:
+
+   ```python
+   streamlit run streamlit_app.py
+   ```
+
+**Note**: For local versions, you do not need to run "streamlit_second.py" as it is specifically for deploying to Streamlit servers.
+
+**Additional Note**: The Vector Similarity part is precomputed to optimize performance due to the resource-intensive nature of sentence encoders that require significant GPU and RAM resources. If you are interested in leveraging this feature in a Google Colab environment for free, refer to the upcoming blog (link to be provided) for further guidance.
 
 <br/>
 
+### Docker
 
-A Machine Learning Based Resume Matcher, to compare Resumes with Job Descriptions.
-Create a score based on how good/similar a resume is to the particular Job Description.\n
-Documents are sorted based on Their TF-IDF Scores (Term Frequency-Inverse Document Frequency)
+1. Build the image and start application
 
-Check the live version [here](https://share.streamlit.io/srbhr/naive-resume-matching/app.py). _The instance might sleep if not used in a long time, so in such cases drop me a mail or fork this repo and launch your own instance at [Streamlit's Cloud Instance](https://streamlit.io/)_
+   ```bash
+       docker-compose up
+   ```
 
-Matching Algorihms used are :-
+2. Open `localhost:80` on your browser
 
-- **String Matching**
+<br/>
 
-  - Monge Elkan
+### Running the Web Application
 
-- **Token Based**
-  - Jaccard
-  - Cosine
-  - Sorensen-Dice
-  - Overlap Coefficient
+The full stack Next.js (React and FastAPI) web application allows users to interact with the Resume Matcher tool interactively via a web browser.
 
-Topic Modelling of Resumes is done to provide additional information about the resumes and what clusters/topics,
-the belong to.
-For this :-
+> [!WARNING]
+> The results returned from through the web app are currently entirely mocked / faked. This means that the results returned are not real and are just for demonstration purposes. This will be implemented with real data results in a future release.
 
-1. [TF-IDF](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) of resumes is done to improve the sentence similarities. As it helps reduce the redundant terms and brings out the important ones.
-2. id2word, and doc2word algorithms are used on the Documents (from Gensim Library).
-3. [LDA](https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation) (Latent Dirichlet Allocation) is done to extract the Topics from the Document set.(In this case Resumes)
-4. Additional Plots are done to gain more insights about the document.
+To run the full stack web application (frontend client and backend api servers), follow the instructions over on the [webapp README](/webapp/README.md) file.
 
----
-## Images
+<br/>
 
-1. List of Job Descriptions to Choose from.
-![List of Job Descriptions to choose from](Screenshots/1.png)
+### Google Colab
+1. Create an account in ngrok and get you token
+2. ![img_1.png](img_1.png)
+3. Go to archive/resume_matcher_colab.ipynb and run the notebook.
+4. Enter your ngrok token and run the notebook.
+5. Copy the url and open it in your browser.
+6. ![img_2.png](img_2.png)
 
-2. Preview of your Chosen Job Description
-![The Job Description](Screenshots/2.png)
+## Code Formatting
 
-3. Your Resumes are ranked now! Check the top Ones!! 
-![Ranked Resumes as per Job Description](Screenshots/3.png)
+This project uses [Black](https://black.readthedocs.io/en/stable/) for code formatting. We believe this helps to keep the code base consistent and reduces the cognitive load when reading code.
 
-4. Score distribution of different candidates incase you want to check some more.
-![Score distribution of different candidates](Screenshots/4.png)
+Before submitting your pull request, please make sure your changes are in accordance with the Black style guide. You can format your code by running the following command in your terminal:
 
-5. Topic Disctribution of Various Resumes
-![Topic Disctribution of Various Resumes](Screenshots/5.png)
-
-
-6. Topic Distribution Sunburst Chart
-![Topic Distribution Sunburst Chart](Screenshots/6.png)
-
-7. Word Cloud of your resume for a quick glance! 
-![Word Cloud of your resume for a quick glance! ](Screenshots/7.png)
-
-## Preview
-![Working Video](Screenshots/Gif_View.gif)
----
-
-## Progress Flow
-
-1. Input is Resumes and Job Description, the current code is capable to compare resumes to multiple job descriptions.
-2. Job Description and Resumes are parsed with the help of Tesseract Library in python, and then is converted into two CSV files.Namely `Resume_Data.csv`and`Job_Data.csv`.
-3. While doing the reading, the python script named [fileReader.py](fileReader.py) reads, and cleans the code and does the TF-IDF based filtering as well. (This might take sometime to process, so please be patient while executing the script.)
-4. For any further comparisons the prepared CSV files are used.
-5. [app.py](app.py) containg the code for running the streamlit server and allowing to perform tasks. Use `streamlit run app.py` to execute the script.
-
-## File Structure
-
-#### Data > Resumes and > JobDescription
-
-The Data folder contains two folders that are used to read and provide data from.
-Incase of allowing the option to upload documents, `Data\Resumes` and `Data\JobDesc` should be the target for Resumes and Job Description respectively.
-
-Due the flexibility of Textract we need not to provide the type of document it needs to scan, it does so automatically.
-
-But for the Job Description it needs to be in Docx format, it can be changed as well.
-
-## Installation Instructions
-
-A python virtual environment is required for this. Please read this [page](https://www.geeksforgeeks.org/creating-python-virtual-environment-windows-linux/) for more information.
-
-A pip [requirements.txt](requirements.txt) file is provided. It is advised to install the packages listed below, manually by doing `pip install <package_name>`.
-As the requirements.txt file may have some unecessary additional dependencies.
-
-Popular Packages used are:-
-
-- [Spacy](https://pypi.org/project/spacy/)
-- [Plotly](https://pypi.org/project/plotly/)
-- [Streamlit](https://pypi.org/project/streamlit/)
-- [Gensim](https://pypi.org/project/gensim/)
-- [Scikit Learn](https://pypi.org/project/scikit-learn/)
-- [Pandas](https://pypi.org/project/pandas/)
-- [Wordcloud](https://pypi.org/project/wordcloud/)
-- [Matplotlib](https://pypi.org/project/matplotlib/)
-- [Numpy](https://pypi.org/project/numpy/)
-- [Scipy](https://pypi.org/project/scipy/)
-- [NLTK](https://pypi.org/project/nltk/)
-- [Textract](https://pypi.org/project/textract/)
-- [Textdistance](https://pypi.org/project/textdistance/)
-
-Furthermore the packages like NLTK and Spacy requires additional data to be downloaded.
-After installing them please perform:-
-
-```python
-## For Spacy's English Package
-python -m spacy download en_core_web_sm
-
-## For NLTK Data
-import nltk
-nltk.download('popular')  # this downloads the popular packages from NLTK_DATA
+```sh
+black .
 ```
 
-## Execution Instructions
+## Pre-commit Hooks
 
-Please check the [How To](Howtorunthis.md) file for execution instructions.
+We also use [pre-commit](https://pre-commit.com/) to automatically check for common issues before commits are submitted. This includes checks for code formatting with Black.
+
+If you haven't already, please install the pre-commit hooks by running the following command in your terminal:
+
+```sh
+pip install pre-commit
+pre-commit install
+```
+
+Now, the pre-commit hooks will automatically run every time you commit your changes. If any of the hooks fail, the commit will be aborted.
+
+
+## Join Us, Contribute!
+
+
+Pull Requests & Issues are not just welcomed, they're celebrated! Let's create together.
+
+🎉 Join our lively [Discord](https://dsc.gg/resume-matcher) community and discuss away!
+
+💡 Spot a problem? Create an issue!
+
+👩‍💻 Dive in and help resolve existing [issues](https://github.com/srbhr/Resume-Matcher/issues).
+
+🔔 Share your thoughts in our [Discussions & Announcements](https://github.com/srbhr/Resume-Matcher/discussions).
+
+🚀 Explore and improve our [Landing Page](https://github.com/srbhr/website-for-resume-matcher). PRs always welcome!
+
+📚 Contribute to the [Resume Matcher Docs](https://github.com/srbhr/Resume-Matcher-Docs) and help people get started with using the software.
+
+#### Tech Stack
+
+![Python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![& More](https://custom-icon-badges.demolab.com/badge/And_More-white?style=flat-square&logo=plus&logoColor=black)
+
+<br/>
+
+<div align="center">
+
+## Please support the development by donating.
+
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/srbhr)
+[![Sponsor on GitHub](https://img.shields.io/badge/sponsor-30363D?style=for-the-badge&logo=GitHub-Sponsors&logoColor=#white)](https://github.com/sponsors/srbhr)
+
+</div>
+
+---
+
+### Heads Up! 📝
+
+Your support means the world to us 💙. We're nurturing this project with an open-source community spirit, and we have an ambitious roadmap ahead! Here are some ways you could contribute and make a significant impact:
+
+✨ Transform our Streamlit dashboard into something more robust.
+
+💡 Improve our parsing algorithm, making data more accessible.
+
+🖋 Share your insights and experiences in a blog post to help others.
+
+Take the leap, contribute, and let's grow together! 🚀
+
+---
+
+### Our Contributors ✨
+
+<a href="https://github.com/srbhr/Resume-Matcher/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=srbhr/Resume-Matcher" />
+</a>

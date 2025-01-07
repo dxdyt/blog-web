@@ -1,9 +1,9 @@
 ---
 title: chroma
-date: 2025-01-06T12:21:26+08:00
+date: 2025-01-07T12:20:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734375119887-460f4b97dfaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734375119887-460f4b97dfaa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732762990635-a713a09e9025?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732762990635-a713a09e9025?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
 ---
 
 # [chroma-core/chroma](https://github.com/chroma-core/chroma)

@@ -1,9 +1,9 @@
 ---
 title: swarms
-date: 2025-01-06T12:20:24+08:00
+date: 2025-01-07T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731432246434-ebc52e9a3bf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731432246434-ebc52e9a3bf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730051506940-279b830605ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730051506940-279b830605ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
 ---
 
 # [kyegomez/swarms](https://github.com/kyegomez/swarms)
@@ -464,7 +464,7 @@ agent.run(task, img)
 
 
 ### Local Agent `ToolAgent`
-ToolAgent is an fully local agent that can use tools through JSON function calling. It intakes any open source model from huggingface and is extremely modular and plug in and play. We need help adding general support to all models soon.
+ToolAgent is a fully local agent that can use tools through JSON function calling. It intakes any open source model from huggingface and is extremely modular and plug in and play. We need help adding general support to all models soon.
 
 
 ```python

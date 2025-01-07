@@ -1,14 +1,14 @@
 ---
 title: khoj
-date: 2024-11-13T12:21:25+08:00
+date: 2025-01-07T12:18:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729912316331-a6b38ee30fd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729912316331-a6b38ee30fd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1726502429134-a9cd092b10e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1726502429134-a9cd092b10e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
 ---
 
 # [khoj-ai/khoj](https://github.com/khoj-ai/khoj)
 
-<p align="center"><img src="src/khoj/interface/web/assets/icons/khoj-logo-sideways-500.png" width="230" alt="Khoj Logo"></p>
+<p align="center"><img src="https://assets.khoj.dev/khoj-logo-sideways-1200x540.png" width="230" alt="Khoj Logo"></p>
 
 <div align="center">
 
@@ -39,9 +39,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1729912316331-a6b38ee30f
 
 </div>
 
-<div align="left">
+***
+
+### 🎁 New
+* Start any message with `/research` to try out the experimental research mode with Khoj.
+* Anyone can now [create custom agents](https://blog.khoj.dev/posts/create-agents-on-khoj/) with tunable personality, tools and knowledge bases.
+* [Read](https://blog.khoj.dev/posts/evaluate-khoj-quality/) about Khoj's excellent performance on modern retrieval and reasoning benchmarks.
 
 ***
+
+## Overview
 
 [Khoj](https://khoj.dev) is a personal AI app to extend your capabilities. It smoothly scales up from an on-device personal AI to a cloud-scale enterprise AI.
 
@@ -56,8 +63,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1729912316331-a6b38ee30f
 - Run it privately on [your computer](https://docs.khoj.dev/get-started/setup) or try it on our [cloud app](https://app.khoj.dev).
 
 ***
-
-</div>
 
 ## See it in action
 

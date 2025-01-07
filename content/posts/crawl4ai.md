@@ -1,9 +1,9 @@
 ---
 title: crawl4ai
-date: 2025-01-06T12:20:08+08:00
+date: 2025-01-07T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731375659532-d3341d0a5b5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731375659532-d3341d0a5b5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733280861678-6a5f9e311e8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733280861678-6a5f9e311e8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
 ---
 
 # [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
@@ -25,6 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1731375659532-d3341d0a5b
 [![License](https://img.shields.io/github/license/unclecode/crawl4ai)](https://github.com/unclecode/crawl4ai/blob/main/LICENSE)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
 </div>
 
