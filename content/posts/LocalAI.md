@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2024-11-14T12:20:41+08:00
+date: 2025-01-08T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730047613108-1f48a3046061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730047613108-1f48a3046061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732286521912-9c48f3faee78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732286521912-9c48f3faee78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
 ---
 
 # [mudler/LocalAI](https://github.com/mudler/LocalAI)
@@ -48,6 +48,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1730047613108-1f48a30460
 </a>
 </p>
 
+<p align="center">
+<a href="https://trendshift.io/repositories/1484" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1484" alt="go-skynet%2FLocalAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</p>
+
 > :bulb: Get help - [❓FAQ](https://localai.io/faq/) [💭Discussions](https://github.com/go-skynet/LocalAI/discussions) [:speech_balloon: Discord](https://discord.gg/uJAeKSAGDy) [:book: Documentation website](https://localai.io/)
 >
 > [💻 Quickstart](https://localai.io/basics/getting_started/) [🖼️ Models](https://models.localai.io/) [🚀 Roadmap](https://github.com/mudler/LocalAI/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap) [🥽 Demo](https://demo.localai.io) [🌍 Explorer](https://explorer.localai.io) [🛫 Examples](https://github.com/mudler/LocalAI-examples) 
@@ -66,14 +70,17 @@ curl https://localai.io/install.sh | sh
 
 Or run with docker:
 ```bash
+# CPU only image:
+docker run -ti --name local-ai -p 8080:8080 localai/localai:latest-cpu
+
+# Nvidia GPU:
+docker run -ti --name local-ai -p 8080:8080 --gpus all localai/localai:latest-gpu-nvidia-cuda-12
+
+# CPU and GPU image (bigger size):
+docker run -ti --name local-ai -p 8080:8080 localai/localai:latest
+
+# AIO images (it will pre-download a set of models ready for use, see https://localai.io/basics/container/)
 docker run -ti --name local-ai -p 8080:8080 localai/localai:latest-aio-cpu
-# Alternative images:
-# - if you have an Nvidia GPU:
-# docker run -ti --name local-ai -p 8080:8080 --gpus all localai/localai:latest-aio-gpu-nvidia-cuda-12
-# - without preconfigured models
-# docker run -ti --name local-ai -p 8080:8080 localai/localai:latest
-# - without preconfigured models for Nvidia GPUs
-# docker run -ti --name local-ai -p 8080:8080 --gpus all localai/localai:latest-gpu-nvidia-cuda-12 
 ```
 
 To load models:
@@ -95,6 +102,9 @@ local-ai run oci://localai/phi-2:latest
 
 ## 📰 Latest project news
 
+- Dec 2024: stablediffusion.cpp backend (ggml) added ( https://github.com/mudler/LocalAI/pull/4289 )
+- Nov 2024: Bark.cpp backend added ( https://github.com/mudler/LocalAI/pull/4287 )
+- Nov 2024: Voice activity detection models (**VAD**) added to the API: https://github.com/mudler/LocalAI/pull/4204
 - Oct 2024: examples moved to [LocalAI-examples](https://github.com/mudler/LocalAI-examples)
 - Aug 2024:  🆕 FLUX-1, [P2P Explorer](https://explorer.localai.io)
 - July 2024: 🔥🔥 🆕 P2P Dashboard, LocalAI Federated mode and AI Swarms: https://github.com/mudler/LocalAI/pull/2723
@@ -126,10 +136,10 @@ If you want to help and contribute, issues up for grabs: https://github.com/mudl
 
 ## 🚀 [Features](https://localai.io/features/)
 
-- 📖 [Text generation with GPTs](https://localai.io/features/text-generation/) (`llama.cpp`, `gpt4all.cpp`, ... [:book: and more](https://localai.io/model-compatibility/index.html#model-compatibility-table))
+- 📖 [Text generation with GPTs](https://localai.io/features/text-generation/) (`llama.cpp`, `transformers`, `vllm` ... [:book: and more](https://localai.io/model-compatibility/index.html#model-compatibility-table))
 - 🗣 [Text to Audio](https://localai.io/features/text-to-audio/)
 - 🔈 [Audio to Text](https://localai.io/features/audio-to-text/) (Audio transcription with `whisper.cpp`)
-- 🎨 [Image generation with stable diffusion](https://localai.io/features/image-generation)
+- 🎨 [Image generation](https://localai.io/features/image-generation)
 - 🔥 [OpenAI-alike tools API](https://localai.io/features/openai-functions/) 
 - 🧠 [Embeddings generation for vector databases](https://localai.io/features/embeddings/)
 - ✍️ [Constrained grammars](https://localai.io/features/constrained_grammars/)
@@ -137,6 +147,7 @@ If you want to help and contribute, issues up for grabs: https://github.com/mudl
 - 🥽 [Vision API](https://localai.io/features/gpt-vision/)
 - 📈 [Reranker API](https://localai.io/features/reranker/)
 - 🆕🖧 [P2P Inferencing](https://localai.io/features/distribute/)
+- 🔊 Voice activity detection (Silero-VAD support)
 - 🌍 Integrated WebUI!
 
 ## 💻 Usage
@@ -166,6 +177,9 @@ Other:
 - Slack bot https://github.com/mudler/LocalAGI/tree/main/examples/slack
 - Shell-Pilot(Interact with LLM using LocalAI models via pure shell scripts on your Linux or MacOS system) https://github.com/reid41/shell-pilot
 - Telegram bot https://github.com/mudler/LocalAI/tree/master/examples/telegram-bot
+- Another Telegram Bot https://github.com/JackBekket/Hellper
+- Auto-documentation https://github.com/JackBekket/Reflexia
+- Github bot which answer on issues, with code and documentation as context https://github.com/JackBekket/GitHelper
 - Github Actions: https://github.com/marketplace/actions/start-localai
 - Examples: https://github.com/mudler/LocalAI/tree/master/examples/
   
@@ -240,7 +254,6 @@ LocalAI couldn't have been built without the help of great software already avai
 - https://github.com/antimatter15/alpaca.cpp
 - https://github.com/EdVince/Stable-Diffusion-NCNN
 - https://github.com/ggerganov/whisper.cpp
-- https://github.com/saharNooby/rwkv.cpp
 - https://github.com/rhasspy/piper
 
 ## 🤗 Contributors

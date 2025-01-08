@@ -1,9 +1,9 @@
 ---
 title: miniperplx
-date: 2025-01-07T12:19:18+08:00
+date: 2025-01-08T12:19:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732762990635-a713a09e9025?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732762990635-a713a09e9025?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1729006076780-ad0b5313b61e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1729006076780-ad0b5313b61e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
 ---
 
 # [zaidmukaddam/miniperplx](https://github.com/zaidmukaddam/miniperplx)

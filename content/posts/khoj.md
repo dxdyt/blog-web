@@ -1,9 +1,9 @@
 ---
 title: khoj
-date: 2025-01-07T12:18:48+08:00
+date: 2025-01-08T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726502429134-a9cd092b10e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726502429134-a9cd092b10e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732286521912-9c48f3faee78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732286521912-9c48f3faee78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
 ---
 
 # [khoj-ai/khoj](https://github.com/khoj-ai/khoj)
@@ -76,6 +76,10 @@ You can see the full feature list [here](https://docs.khoj.dev/category/features
 ## Self-Host
 
 To get started with self-hosting Khoj, [read the docs](https://docs.khoj.dev/get-started/setup).
+
+## Enterprise
+
+Khoj is available as a cloud service, on-premises, or as a hybrid solution. To learn more about Khoj Enterprise, [visit our website](https://khoj.dev/teams).
 
 ## Contributors
 Cheers to our awesome contributors! 🎉

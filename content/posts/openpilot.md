@@ -1,9 +1,9 @@
 ---
 title: openpilot
-date: 2024-12-18T12:20:26+08:00
+date: 2025-01-08T12:20:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733395445556-de9323e37a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733395445556-de9323e37a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1719125217488-be5eab036dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1719125217488-be5eab036dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
 ---
 
 # [commaai/openpilot](https://github.com/commaai/openpilot)
@@ -63,7 +63,7 @@ We have detailed instructions for [how to install the harness and device in a ca
 ### Branches
 | branch           | URL                                    | description                                                                         |
 |------------------|----------------------------------------|-------------------------------------------------------------------------------------|
-| `release3`         | openilot.comma.ai                      | This is openpilot's release branch.                                                 |
+| `release3`         | openpilot.comma.ai                      | This is openpilot's release branch.                                                 |
 | `release3-staging` | openpilot-test.comma.ai                | This is the staging branch for releases. Use it to get new releases slightly early. |
 | `nightly`          | openpilot-nightly.comma.ai             | This is the bleeding edge development branch. Do not expect this to be stable.      |
 | `nightly-dev`      | installer.comma.ai/commaai/nightly-dev | Same as nightly, but includes experimental development features for some cars.      |
