@@ -1,9 +1,9 @@
 ---
 title: node
-date: 2025-01-09T12:19:52+08:00
+date: 2025-01-10T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733513458601-281b27dc5edc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzOTYzNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733513458601-281b27dc5edc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzOTYzNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734366965512-1ef84f81c513?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734366965512-1ef84f81c513?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
 ---
 
 # [inkonchain/node](https://github.com/inkonchain/node)
