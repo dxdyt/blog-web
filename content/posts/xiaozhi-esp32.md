@@ -1,9 +1,9 @@
 ---
 title: xiaozhi-esp32
-date: 2025-01-10T12:20:31+08:00
+date: 2025-01-11T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733235015107-5ab658892359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733235015107-5ab658892359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734000403535-49ae720a58a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734000403535-49ae720a58a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
 ---
 
 # [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)

@@ -1,9 +1,9 @@
 ---
 title: protobuf
-date: 2024-09-14T12:19:06+08:00
+date: 2025-01-11T12:20:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725696096775-bbddc1344597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725696096775-bbddc1344597?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyODc1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735236270565-983422d5a224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735236270565-983422d5a224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
 ---
 
 # [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
@@ -42,6 +42,48 @@ of your project, you should pin to a release commit on a release branch.
 
 This is because even release branches can experience some instability in between
 release commits.
+
+### Bazel with Bzlmod
+
+Protobuf supports
+[Bzlmod](https://bazel.build/external/module) with Bazel 7 +.
+Users should specify a dependency on protobuf in their MODULE.bazel file as
+follows.
+
+```
+bazel_dep(name = "protobuf", version = <VERSION>)
+```
+
+Users can optionally override the repo name, such as for compatibility with
+WORKSPACE.
+
+```
+bazel_dep(name = "protobuf", version = <VERSION>, repo_name = "com_google_protobuf")
+```
+
+### Bazel with WORKSPACE
+
+Users can also add the following to their legacy
+[WORKSPACE](https://bazel.build/external/overview#workspace-system) file.
+
+Note that the `protobuf_extra_deps.bzl` is added in the `v30.x` release.
+
+```
+http_archive(
+    name = "com_google_protobuf",
+    strip_prefix = "protobuf-VERSION",
+    sha256 = ...,
+    url = ...,
+)
+
+load("@com_google_protobuf//:protobuf_deps.bzl", "protobuf_deps")
+
+protobuf_deps()
+
+load("@com_google_protobuf//:protobuf_extra_deps.bzl", "protobuf_extra_deps")
+
+protobuf_extra_deps();
+```
 
 Protobuf Compiler Installation
 ------------------------------

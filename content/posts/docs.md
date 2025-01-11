@@ -1,9 +1,9 @@
 ---
 title: docs
-date: 2025-01-10T12:20:16+08:00
+date: 2025-01-11T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732635458479-0c4df13593b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732635458479-0c4df13593b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732951340728-d8b726561d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732951340728-d8b726561d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
 ---
 
 # [inkonchain/docs](https://github.com/inkonchain/docs)
