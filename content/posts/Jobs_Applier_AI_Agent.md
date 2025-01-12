@@ -1,9 +1,9 @@
 ---
 title: Jobs_Applier_AI_Agent
-date: 2025-01-11T12:19:13+08:00
+date: 2025-01-12T12:19:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719125217488-be5eab036dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719125217488-be5eab036dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731318800748-fe0b4073fe23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY2NTU1NDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731318800748-fe0b4073fe23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY2NTU1NDB8&ixlib=rb-4.0.3
 ---
 
 # [feder-cr/Jobs_Applier_AI_Agent](https://github.com/feder-cr/Jobs_Applier_AI_Agent)
