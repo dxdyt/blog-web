@@ -1,21 +1,41 @@
 ---
 title: extensions
-date: 2024-02-19T12:17:29+08:00
+date: 2025-01-13T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705602688600-d57336f0e4de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705602688600-d57336f0e4de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgzMTYxMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
 ---
 
-# [zed-industries/extensions](https://github.com/zed-industries/extensions)
+# [raycast/extensions](https://github.com/raycast/extensions)
 
-# Zed Extensions
+<p align="center">
+  <img src="images/store-logo.webp" height="128">
+  <h1 align="center">Raycast Extensions</h1>
+</p>
 
-This is the central repository containing the extensions available for [Zed](https://zed.dev/).
+<p align="center">
+  <a aria-label="Follow Raycast on X" href="https://x.com/raycastapp">
+    <img alt="" src="https://img.shields.io/badge/Follow%20@raycastapp-black.svg?style=for-the-badge&logo=X">
+  </a>
+  <a aria-label="Join the community on Slack" href="https://raycast.com/community">
+    <img alt="" src="https://img.shields.io/badge/Join%20the%20community-black.svg?style=for-the-badge&logo=Slack">
+  </a>
+</p>
 
-## Authoring extensions
+[Raycast](https://raycast.com/) lets you control your tools with a few keystrokes. This repository contains all extensions that are available in the [Raycast Store](https://raycast.com/store). It also includes documentation and examples of how to extend Raycast using React.
 
-See [`AUTHORING_EXTENSIONS.md`](./AUTHORING_EXTENSIONS.md) for how to author your own extension and get it added to the extension registry.
+![Header](images/header.webp)
 
-Looking for extension ideas? Check out:
+## Getting Started
 
-- [Theme requests](https://github.com/zed-industries/extensions/issues?q=is%3Aissue+is%3Aopen+label%3Atheme+sort%3Areactions-%2B1-desc)
+Visit [https://developers.raycast.com](https://developers.raycast.com) to get started with our API. If you want to discover and install extensions, check out [our Store](https://raycast.com/store).
+
+Be sure to read and follow our [Community](https://manual.raycast.com/community-guidelines) and [Extension](https://manual.raycast.com/extensions) guidelines when submitting your extension and interacting with other folks in this repository.
+
+## Feedback
+
+Raycast wouldn't be where it is without the feedback from our community, so we would be happy to hear what you think of the API / DevX and how we can improve. Please use [GitHub issues](https://github.com/raycast/extensions/issues/new/choose) for everything API related (bugs, improvements suggestions, developer experience, docs, etc). We have a few [templates](https://developers.raycast.com/examples) that should help you get started.
+
+## Community
+
+Join our [Slack community](https://raycast.com/community) to share your extension, debug nasty bugs or simply get to know like-minded folks.

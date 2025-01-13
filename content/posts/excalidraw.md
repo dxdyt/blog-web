@@ -1,9 +1,9 @@
 ---
 title: excalidraw
-date: 2024-11-19T12:21:12+08:00
+date: 2025-01-13T12:21:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728998888241-5b31364203a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728998888241-5b31364203a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE5ODk5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736266602950-765dbdcfb9f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736266602950-765dbdcfb9f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
 ---
 
 # [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
@@ -17,7 +17,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1728998888241-5b31364203
 
 <h4 align="center">
   <a href="https://excalidraw.com">Excalidraw Editor</a> |
-  <a href="https://blog.excalidraw.com">Blog</a> |
+  <a href="https://plus.excalidraw.com/blog">Blog</a> |
   <a href="https://docs.excalidraw.com">Documentation</a> |
   <a href="https://plus.excalidraw.com">Excalidraw+</a>
 </h4>

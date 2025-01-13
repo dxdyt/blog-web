@@ -1,9 +1,9 @@
 ---
 title: TrinityCore
-date: 2024-09-11T12:22:15+08:00
+date: 2025-01-13T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724004546044-4ae6b58e383f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724004546044-4ae6b58e383f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736195676398-937a6768a919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736195676398-937a6768a919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
 ---
 
 # [TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore)

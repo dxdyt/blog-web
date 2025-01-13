@@ -1,9 +1,9 @@
 ---
 title: ebook2audiobook
-date: 2025-01-02T12:19:39+08:00
+date: 2025-01-13T12:21:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732997345946-700efbeb42e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732997345946-700efbeb42e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733513458601-281b27dc5edc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733513458601-281b27dc5edc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
 ---
 
 # [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)
@@ -20,6 +20,9 @@ Use this tool responsibly and in accordance with all applicable laws.
 
 [![Discord](https://dcbadge.limes.pink/api/server/https://discord.gg/bg5Kx43c6w)](https://discord.gg/bg5Kx43c6w)
 
+Thanks to support ebook2audiobook developers!<br>
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/athomasson2) 
+
 
 #### New v2.0 Web GUI Interface!
 ![demo_web_gui](assets/demo_web_gui.gif)
@@ -33,8 +36,10 @@ Use this tool responsibly and in accordance with all applicable laws.
 
 
 ## README.md
-- ar [العربية](./readme/README_AR.md)
-- en [English](README.md)
+- ara [العربية (Arabic)](./readme/README_AR.md)
+- zho [中文 (Chinese)](./readme/README_CN.md)
+- eng [English](README.md)
+- swe [Svenska (Swedish)](./readme/README_SWE.md)
 
 ## Table of Contents
 
@@ -61,6 +66,7 @@ Use this tool responsibly and in accordance with all applicable laws.
   - [Docker Compose](#docker-compose)
   - [Docker headless guide](#docker-headless-guide)
   - [Docker container file locations](#docker-container-file-locations)
+  - [Common Docker issues](#common-docker-issues)
 - [Supported eBook Formats](#supported-ebook-formats)
 - [Output](#output)
 - [Common Issues](#common-issues)
@@ -115,6 +121,10 @@ Use this tool responsibly and in accordance with all applicable laws.
 - 4gb ram
 - Virtualization enabled if running on windows (Docker only)
 
+> [!IMPORTANT]
+**Before to post an install or bug issue search carefully to the opened and closed issues TAB<br>
+to be sure your issue does not exist already.**
+
 ### Installation Instructions
 
 1. **Clone repo**
@@ -134,9 +144,8 @@ Specify the language code when running the script in  mode.
      ```
    - **Windows**
      ```bash
-     .\ebook2audiobook.cmd  # Run launch script
+     .\ebook2audiobook.cmd  # Run launch script or double click on it
      ```
-
 2. **Open the Web App**: Click the URL provided in the terminal to access the web app and convert eBooks.
 3. **For Public Link**: Add `--share` to the end of it like this: `python app.py --share`
 - **[For More Parameters]**: use the `--help` parameter like this `python app.py --help`
@@ -173,7 +182,6 @@ Specify the language code when running the script in  mode.
 - **<custom_config_path>**: Path to `config.json`.
 - **<custom_vocab_path>**: Path to `vocab.json`.
 - **[For More Parameters]**: use the `--help` parameter like this `python app.py --help`
-
 
 ### For Detailed Guide with list of all Parameters to use
    - **Linux/MacOS**:
@@ -362,6 +370,17 @@ Don't have the hardware to run it or you want to rent a GPU?
 #### Or you can try using the google colab for free!
 (Be aware it will time out after a bit of your not messing with the google colab)
 [Free Google Colab](#free-google-colab)
+
+## Common Docker Issues
+- Docker gets stuck downloading Fine-Tuned models. (This does not happen for every computer but some appear to run into this issue)
+Disabling the progress bar appears to fix the issue, as discussed [here in #191](https://github.com/DrewThomasson/ebook2audiobook/issues/191)
+Example of adding this fix in the `docker run` command
+```Dockerfile
+docker run -it --rm --gpus all -e HF_HUB_DISABLE_PROGRESS_BARS=1 -e HF_HUB_ENABLE_HF_TRANSFER=0 -p 7860:7860 --platform=linux/amd64 athomasson2/ebook2audiobook python app.py
+```
+
+
+
 
 
 ## Fine Tuned TTS models

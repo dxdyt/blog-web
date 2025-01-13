@@ -1,14 +1,17 @@
 ---
 title: Perplexica
-date: 2024-11-21T12:21:46+08:00
+date: 2025-01-13T12:20:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730758613138-9447a40bd093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730758613138-9447a40bd093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIxNjI4MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736195676398-937a6768a919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736195676398-937a6768a919?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
 ---
 
 # [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica)
 
 # 🚀 Perplexica - An AI-powered search engine 🔎 <!-- omit in toc -->
+
+[![Discord](https://dcbadge.vercel.app/api/server/26aArMy8tT?style=flat&compact=true)](https://discord.gg/26aArMy8tT)
+
 
 ![preview](.assets/perplexica-screenshot.png?)
 

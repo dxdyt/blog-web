@@ -1,9 +1,9 @@
 ---
 title: gpt-crawler
-date: 2025-01-11T12:20:39+08:00
+date: 2025-01-13T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734228416813-a842413e175f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734228416813-a842413e175f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
 ---
 
 # [BuilderIO/gpt-crawler](https://github.com/BuilderIO/gpt-crawler)
