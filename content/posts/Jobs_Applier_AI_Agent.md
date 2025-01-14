@@ -1,9 +1,9 @@
 ---
 title: Jobs_Applier_AI_Agent
-date: 2025-01-13T12:20:22+08:00
+date: 2025-01-14T12:19:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736386672493-db94dae45956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736386672493-db94dae45956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734686447829-cfd5d885d0cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734686447829-cfd5d885d0cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
 ---
 
 # [feder-cr/Jobs_Applier_AI_Agent](https://github.com/feder-cr/Jobs_Applier_AI_Agent)
@@ -543,8 +543,6 @@ For further assistance, please create an issue on the [GitHub repository](https:
   - Follow the instructions below to ensure proper configuration of **AIHawk** with **Ollama** and **Gemini**.
   - Written by Rushi, [Linkedin](https://www.linkedin.com/in/rushichaganti/), support him by following.
   - Step 1: Get your free API key at https://aistudio.google.com/app/apikey.
-  - Step 2: Verify Ollama is Running 
-    - Replace llm_api_key with your newly created API key on the file secrets.yaml located at Auto_Jobs_Applier_AIHawk\data_folder\secrets.yaml
   - Step 2: Verify Ollama is Running 
     - Replace llm_api_key with your newly created API key on the file secrets.yaml located at Auto_Jobs_Applier_AIHawk\data_folder\secrets.yaml
   - Step 3: Edit Configuration in VS Code

@@ -1,9 +1,9 @@
 ---
 title: extensions
-date: 2025-01-13T12:21:24+08:00
+date: 2025-01-14T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735657090719-7f92cb44170b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735657090719-7f92cb44170b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
 ---
 
 # [raycast/extensions](https://github.com/raycast/extensions)

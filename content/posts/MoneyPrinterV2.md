@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterV2
-date: 2024-02-24T12:16:21+08:00
+date: 2025-01-14T12:18:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707760509806-c39421dfe76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707760509806-c39421dfe76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDg3NDgxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736168432643-2d5882e17aeb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736168432643-2d5882e17aeb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
@@ -31,6 +31,13 @@ MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of th
 - [x] Affiliate Marketing (Amazon + Twitter)
 - [x] Find local businesses & cold outreach
 
+## Versions
+
+MoneyPrinter has different versions for multiple languages developed by the community for the community. Here are some known versions:
+- Chinese: [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
+
+If you would like to submit your own version/fork of MoneyPrinter, please open an issue describing the changes you made to the fork.
+
 ## Installation
 
 Please install [Microsoft Visual C++ build tools](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/) first, so that CoquiTTS can function correctly.
@@ -39,6 +46,9 @@ Please install [Microsoft Visual C++ build tools](https://visualstudio.microsoft
 
 ```bash
 git clone https://github.com/FujiwaraChoki/MoneyPrinterV2.git
+
+# Copy Example Configuration and fill out values in config.json
+cp config.example.json config.json
 
 # Create a virtual environment
 python -m venv venv

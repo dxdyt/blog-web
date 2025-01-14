@@ -1,9 +1,9 @@
 ---
 title: quickwit
-date: 2025-01-13T12:21:01+08:00
+date: 2025-01-14T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736401701398-ae959ca48599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736401701398-ae959ca48599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733858864100-138aaea0917b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733858864100-138aaea0917b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
 ---
 
 # [quickwit-oss/quickwit](https://github.com/quickwit-oss/quickwit)
