@@ -1,9 +1,9 @@
 ---
 title: qwerty-learner
-date: 2025-01-13T12:21:32+08:00
+date: 2025-01-15T12:18:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736401701398-ae959ca48599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736401701398-ae959ca48599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
 ---
 
 # [RealKai42/qwerty-learner](https://github.com/RealKai42/qwerty-learner)

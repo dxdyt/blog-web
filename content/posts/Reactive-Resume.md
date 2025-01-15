@@ -1,9 +1,9 @@
 ---
 title: Reactive-Resume
-date: 2024-11-14T12:22:26+08:00
+date: 2025-01-15T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728756195397-f0d898354dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728756195397-f0d898354dbc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE1NTgwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728237646970-e73938b2c1d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728237646970-e73938b2c1d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
 ---
 
 # [AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
@@ -58,7 +58,7 @@ Start creating your standout resume with Reactive Resume today!
 - **Bring your own OpenAI API key** and unlock features such as improving your writing, fixing spelling and grammar or changing the tone of your text in one-click
 - Translate your resume into any language using ChatGPT and import it back for easier editing
 - Create single page resumes or a resume that spans multiple pages easily
-- Customize the colours and layouts to add a personal touch to your resume.
+- Customize the colours and layouts to add a personal touch to your resume
 - Customise your page layout as you like just by dragging-and-dropping sections
 - Create custom sections that are specific to your industry if the existing ones don't fit
 - Jot down personal notes specific to your resume that's only visible to you

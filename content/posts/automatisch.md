@@ -1,9 +1,9 @@
 ---
 title: automatisch
-date: 2025-01-14T12:19:41+08:00
+date: 2025-01-15T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735181056575-1f05648efbad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735181056575-1f05648efbad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY4MjgzMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728237646970-e73938b2c1d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728237646970-e73938b2c1d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
 ---
 
 # [automatisch/automatisch](https://github.com/automatisch/automatisch)

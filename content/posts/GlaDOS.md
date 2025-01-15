@@ -1,18 +1,19 @@
 ---
 title: GlaDOS
-date: 2025-01-13T12:20:44+08:00
+date: 2025-01-15T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736386672493-db94dae45956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736386672493-db94dae45956?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY3NDIwMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735760672876-1c6f801f6436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735760672876-1c6f801f6436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
 ---
 
 # [dnhkng/GlaDOS](https://github.com/dnhkng/GlaDOS)
 
-# GLaDOS Personality Core
+<a href="https://trendshift.io/repositories/9828" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9828" alt="dnhkng%2FGlaDOS | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
+# GLaDOS Personality Core
 This is a project dedicated to building a real-life version of GLaDOS!
 
-NEW: If you want to chat or join the community, [Join our discord!](https://discord.com/invite/ERTDKwpjNB)
+NEW: If you want to chat or join the community, [Join our discord!](https://discord.com/invite/ERTDKwpjNB) If you want to support, [sponsor the project here!](https://ko-fi.com/dnhkng)
 
 https://github.com/user-attachments/assets/c22049e4-7fba-4e84-8667-2c6657a656a0
 
@@ -55,7 +56,7 @@ Try this simplified process, but be aware it's still in the experimental stage! 
 If you are an Nvidia system with CUDA, make sure you install the necessary drivers and CUDA, info here:
 https://onnxruntime.ai/docs/install/
 
-If you are using another accelerator (ROCm, DirectML etc), after following the instructions below for you platform, follow up with installing the  [best onnxruntime version](https://onnxruntime.ai/docs/install/) for your system.
+If you are using another accelerator (ROCm, DirectML etc.), after following the instructions below for you platform, follow up with installing the  [best onnxruntime version](https://onnxruntime.ai/docs/install/) for your system.
 
 ## Set up a local LLM server:
 1. Download and install [Ollama](https://github.com/ollama/ollama) for your operating system.
@@ -65,7 +66,7 @@ If you are using another accelerator (ROCm, DirectML etc), after following the i
 
 ## Windows Installation Process
 1. Open the Microsoft Store, search for `python` and install Python 3.12
-2. Downlod this repository, either:
+2. Download this repository, either:
    1. Download and unzip this repository somewhere in your home folder, or
    2. If you have Git set up, `git clone` this repository using `git clone github.com/dnhkng/glados.git`
 3. In the repository folder, run the `install_windows.bat`, and wait until the installation in complete.
@@ -75,7 +76,7 @@ If you are using another accelerator (ROCm, DirectML etc), after following the i
 This is still experimental. Any issues can be addressed in the Discord server. If you create an issue related to this, you will be referred to the Discord server.  Note: I was getting Segfaults!  Please leave feedback!
 
 
-1. Downlod this repository, either:
+1. Download this repository, either:
    1. Download and unzip this repository somewhere in your home folder, or
    2. In a terminal, `git clone` this repository using `git clone github.com/dnhkng/glados.git`
 2. In a terminal, go to the repository folder and run these commands:
@@ -89,30 +90,33 @@ This is still experimental. Any issues can be addressed in the Discord server. I
 ## Linux Installation Process
 This is still experimental. Any issues can be addressed in the Discord server. If you create an issue related to this, you will be referred to the Discord server.  This has been tested on Ubuntu 24.04.1 LTS
 
-
-1. Downlod this repository, either:
+1. Install the PortAudio library, if you don't yet have it installed:
+   
+         sudo apt update
+         sudo apt install libportaudio2
+   
+2. Download this repository, either:
    1. Download and unzip this repository somewhere in your home folder, or
    2. In a terminal, `git clone` this repository using `git clone github.com/dnhkng/glados.git`
-2. In a terminal, go to the repository folder and run these commands:
+3. In a terminal, go to the repository folder and run these commands:
    
          chmod +x install_ubuntu.sh
          chmod +x start_ubuntu.sh
 
-3. In the a terminal in the GLaODS folder, run `./install_ubuntu.sh`, and wait until the installation in complete.
-4. Run  `./start_ubuntu.sh` to start GLaDOS!
+4. In the a terminal in the GLaODS folder, run `./install_ubuntu.sh`, and wait until the installation in complete.
+5. Run  `./start_ubuntu.sh` to start GLaDOS!
 
 ## Changing the LLM Model
 
-To use other models, use the conmmand:
+To use other models, use the command:
 ```ollama pull {modelname}```
-and then add {modelname} to glados_config.yaml as the model.
+and then add {modelname} to glados_config.yaml as the model. You can find [more models here!](https://ollama.com/library)
 
 ## Common Issues
 1. If you find you are getting stuck in loops, as GLaDOS is hearing herself speak, you have two options:
    1. Solve this by upgrading your hardware. You need to you either headphone, so she can't physically hear herself speak, or a conference-style room microphone/speaker. These have hardware sound cancellation, and prevent these loops.
    2. Disable voice interruption. This means neither you nor GLaDOS can interrupt when GLaDOS is speaking. To accomplish this, edit the `glados_config.yaml`, and change `interruptible:` to  `false`.
-
-
+2. If you want to the the Text UI, you should use the glados-ui.py file instead of glado.py
 
 
 ## Testing the submodules
@@ -120,6 +124,4 @@ You can test the systems by exploring the 'demo.ipynb'.
 
 
 ## Star History
-<a href="https://trendshift.io/repositories/9828" target="_blank"><img src="https://trendshift.io/api/badge/repositories/9828" alt="dnhkng%2FGlaDOS | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
 [![Star History Chart](https://api.star-history.com/svg?repos=dnhkng/GlaDOS&type=Date)](https://star-history.com/#dnhkng/GlaDOS&Date)
