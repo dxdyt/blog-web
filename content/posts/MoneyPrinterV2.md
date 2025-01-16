@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterV2
-date: 2025-01-15T12:20:02+08:00
+date: 2025-01-16T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736163043105-8eaf49bc6ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736163043105-8eaf49bc6ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)

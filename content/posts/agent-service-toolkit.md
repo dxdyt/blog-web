@@ -1,9 +1,9 @@
 ---
 title: agent-service-toolkit
-date: 2025-01-15T12:19:27+08:00
+date: 2025-01-16T12:18:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735760672876-1c6f801f6436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735760672876-1c6f801f6436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730660666237-1e6a008067a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730660666237-1e6a008067a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [JoshuaC215/agent-service-toolkit](https://github.com/JoshuaC215/agent-service-toolkit)

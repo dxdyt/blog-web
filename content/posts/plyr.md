@@ -1,9 +1,9 @@
 ---
 title: plyr
-date: 2024-06-29T12:18:47+08:00
+date: 2025-01-16T12:19:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1715708752740-04129af2f4df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1715708752740-04129af2f4df?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk2MzQ2ODF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724684410691-8530c765b6dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724684410691-8530c765b6dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [sampotts/plyr](https://github.com/sampotts/plyr)

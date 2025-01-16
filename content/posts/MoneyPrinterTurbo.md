@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2024-11-13T12:20:51+08:00
+date: 2025-01-16T12:18:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729148387931-6d8ac1cf15aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729148387931-6d8ac1cf15aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE0NzE1Njd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -179,6 +179,8 @@ cd MoneyPrinterTurbo
 docker-compose up
 ```
 
+> 注意：最新版的docker安装时会自动以插件的形式安装docker compose，启动命令调整为docker compose up
+
 #### ② 访问Web界面
 
 打开浏览器，访问 http://0.0.0.0:8501
@@ -201,7 +203,7 @@ docker-compose up
 ```shell
 git clone https://github.com/harry0703/MoneyPrinterTurbo.git
 cd MoneyPrinterTurbo
-conda create -n MoneyPrinterTurbo python=3.10
+conda create -n MoneyPrinterTurbo python=3.11
 conda activate MoneyPrinterTurbo
 pip install -r requirements.txt
 ```

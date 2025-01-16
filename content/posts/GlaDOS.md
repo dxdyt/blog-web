@@ -1,9 +1,9 @@
 ---
 title: GlaDOS
-date: 2025-01-15T12:19:13+08:00
+date: 2025-01-16T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735760672876-1c6f801f6436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735760672876-1c6f801f6436?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [dnhkng/GlaDOS](https://github.com/dnhkng/GlaDOS)
@@ -30,8 +30,8 @@ Don't expect support for this, it's in active development, and requires lots of 
 This will entail:
 - [x] Train GLaDOS voice generator
 - [x] Generate a prompt that leads to a realistic "Personality Core"
-- [ ] Generate a [MemGPT](https://github.com/cpacker/MemGPT) medium- and long-term memory for GLaDOS
-- [ ] Give GLaDOS vision via [LLaVA](https://llava-vl.github.io/)
+- [ ] Generate a medium- and long-term memory for GLaDOS (Probably a custom vector DB in a simpy Numpy array!) 
+- [ ] Give GLaDOS vision via a VLM (either a full VLM for everything, or a 'vision module' unsing a tiny VLM the GLaDOS can function call!)
 - [ ] Create 3D-printable parts
 - [ ] Design the animatronics system
 
