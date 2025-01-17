@@ -1,9 +1,9 @@
 ---
 title: folly
-date: 2024-09-21T12:18:48+08:00
+date: 2025-01-17T12:21:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726516335449-eaa942fd4c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726516335449-eaa942fd4c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734375292089-9c6a54b39d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734375292089-9c6a54b39d52?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
 ---
 
 # [facebook/folly](https://github.com/facebook/folly)
@@ -51,10 +51,6 @@ course macros. Macro names are ALL_UPPERCASE and should be prefixed
 with `FOLLY_`. Namespace `folly` defines other internal namespaces
 such as `internal` or `detail`. User code should not depend on symbols
 in those namespaces.
-
-Folly has an `experimental` directory as well. This designation connotes
-primarily that we feel the API may change heavily over time. This code,
-typically, is still in heavy use and is well tested.
 
 # Physical Design
 

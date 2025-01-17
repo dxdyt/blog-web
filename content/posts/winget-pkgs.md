@@ -1,9 +1,9 @@
 ---
 title: winget-pkgs
-date: 2024-06-11T12:19:29+08:00
+date: 2025-01-17T12:20:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714334544535-4c5eddeb0ec1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714334544535-4c5eddeb0ec1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTgwNzk0NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734279135171-b283435831db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734279135171-b283435831db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
@@ -11,9 +11,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1714334544535-4c5eddeb0e
 # Windows Package Manager Community Repository
 
 [![Gitter](https://img.shields.io/gitter/room/Microsoft/winget-pkgs)](https://gitter.im/Microsoft/winget-pkgs)
-[![Validation Pipeline Badge](https://img.shields.io/endpoint?url=https://winget-pme.azurefd.net/api/GetServiceComponentStatusBadge?component=ValidationPipeline 'Validation Pipeline Badge')](https://dev.azure.com/ms/winget-pkgs/_build?definitionId=337)
-[![Publish Pipeline Badge](https://img.shields.io/endpoint?url=https://winget-pme.azurefd.net/api/GetServiceComponentStatusBadge?component=PublishPipeline 'Publish Pipeline Badge')](https://dev.azure.com/ms/winget-pkgs/_build?definitionId=338)
+[![Validation Pipeline Badge](https://img.shields.io/endpoint?url=https://winget-pme.azurefd.net/api/GetServiceComponentStatusBadge?component=ValidationPipeline 'Validation Pipeline Badge')](https://dev.azure.com/shine-oss/winget-pkgs/_build?definitionId=14)
+[![Publish Pipeline Badge](https://img.shields.io/endpoint?url=https://winget-pme.azurefd.net/api/GetServiceComponentStatusBadge?component=PublishPipeline 'Publish Pipeline Badge')](https://dev.azure.com/shine-oss/winget-pkgs/_build?definitionId=12)
 [![GitHub Status](https://img.shields.io/endpoint?url=https://api.bittu.eu.org/github-status-badge-endpoint)](https://www.githubstatus.com)
+[![Azure Pipelines Status](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fstatus.dev.azure.com%2F_apis%2Fstatus%2Fhealth%3Fservices%3DPipelines%26geographies%3DUS&query=%24.services%5B0%5D.geographies%5B0%5D.health&label=Azure%20Pipelines%20Status
+)](https://status.dev.azure.com/)
 
 This repository contains the manifest files for the **Windows Package Manager** default source. You are highly encouraged to submit manifests for your favorite application.
 
