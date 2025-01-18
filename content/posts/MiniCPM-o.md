@@ -1,9 +1,9 @@
 ---
 title: MiniCPM-o
-date: 2025-01-17T12:19:20+08:00
+date: 2025-01-18T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734187424233-01cf42b1da79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734187424233-01cf42b1da79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727452274228-4fa1c56142db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727452274228-4fa1c56142db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o)
@@ -49,6 +49,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1734187424233-01cf42b1da
 ## News <!-- omit in toc -->
 
 #### 📌 Pinned
+
+* [2025.01.17] We have updated the usage of MiniCPM-o 2.6 int4 quantization version, and resolved the model initialization error. Click [here](https://huggingface.co/openbmb/MiniCPM-o-2_6-int4) and try it now!
 
 * [2025.01.16] ⭐️⭐️⭐️ MiniCPM-o tops GitHub Trending and reaches top-3 on Hugging Face Trending!
 

@@ -1,9 +1,9 @@
 ---
 title: fluentassertions
-date: 2025-01-17T12:19:53+08:00
+date: 2025-01-18T12:18:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736401762820-a114e32f0072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736401762820-a114e32f0072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735924196975-b3c7464167eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735924196975-b3c7464167eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
 ---
 
 # [fluentassertions/fluentassertions](https://github.com/fluentassertions/fluentassertions)
