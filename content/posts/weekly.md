@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2024-12-27T12:20:36+08:00
+date: 2025-01-19T12:19:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730406851326-808a50bac63a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730406851326-808a50bac63a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735064812398-48f3bb6330c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735064812398-48f3bb6330c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -35,6 +35,15 @@ $ grep -nri [搜索词] docs | cat --number
 ```bash
 $ grep -nri css docs | cat --number
 ```
+
+## 2025
+
+**一月**
+
+- 第 334 期：[年终笔记四则](docs/issue-334.md)
+- 第 333 期：[一切都要支付两次](docs/issue-333.md)
+- 第 332 期：[西蒙·威利森的年终总结，梁文锋的访谈](docs/issue-332.md)
+
 ## 2024
 
 **十二月**

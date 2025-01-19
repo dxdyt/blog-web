@@ -1,9 +1,9 @@
 ---
 title: PathOfBuilding
-date: 2024-07-23T12:18:36+08:00
+date: 2025-01-19T12:18:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721059050925-2ca8e3cef68e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721059050925-2ca8e3cef68e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3MDgyMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734113230569-56b1bbbf06ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734113230569-56b1bbbf06ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
 ---
 
 # [PathOfBuildingCommunity/PathOfBuilding](https://github.com/PathOfBuildingCommunity/PathOfBuilding)

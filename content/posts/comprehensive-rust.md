@@ -1,9 +1,9 @@
 ---
 title: comprehensive-rust
-date: 2024-04-02T12:16:53+08:00
+date: 2025-01-19T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710415273421-4d19cc02b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIwMzEzMTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1733599311102-92d004244a1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1733599311102-92d004244a1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
 ---
 
 # [google/comprehensive-rust](https://github.com/google/comprehensive-rust)
@@ -52,6 +52,9 @@ Articles and blog posts from around the web which cover Comprehensive Rust:
 - 2023-10-02:
   _[In Search of Rust Developers, Companies Turn to In-House Training](https://www.darkreading.com/application-security/google-microsoft-take-refuge-in-rust-languages-better-security)_.
   About how Microsoft, Google, and others are training people in Rust.
+- 2024-10-18:
+  _[Rust Training at Scale | Rust Global @ RustConf 2024](https://youtu.be/7h5KyMqt2-Q?si=4M99HdWWxMaqN8Zr)_.
+  What Google learnt from teaching Comprehensive Rust for more than two years.
 
 ## Building
 
@@ -59,9 +62,13 @@ The course is built using a few tools:
 
 - [mdbook](https://github.com/rust-lang/mdBook)
 - [mdbook-svgbob](https://github.com/boozook/mdbook-svgbob)
-- [mdbook-i18n-helpers](https://github.com/google/mdbook-i18n-helpers)
+- [mdbook-i18n-helpers and i18n-report](https://github.com/google/mdbook-i18n-helpers)
 - [mdbook-exerciser](mdbook-exerciser/)
 - [mdbook-course](mdbook-course/)
+
+In addition,
+[mdbook-linkcheck](https://github.com/Michael-F-Bryan/mdbook-linkcheck) checks
+the internal links.
 
 First install Rust by following the instructions on https://rustup.rs/. Then
 clone this repository:
@@ -77,6 +84,8 @@ Then install these tools with:
 cargo install mdbook
 cargo install --locked mdbook-svgbob
 cargo install --locked mdbook-i18n-helpers
+cargo install --locked i18n-report
+cargo install --locked mdbook-linkcheck
 cargo install --locked --path mdbook-exerciser
 cargo install --locked --path mdbook-course
 ```
@@ -103,6 +112,11 @@ where `xx` is the ISO 639 language code (e.g. `da` for the Danish translation).
 
 > **Note** On Windows, you need to enable symlinks
 > (`git config --global core.symlinks true`) and Developer Mode.
+
+## Contributing
+
+We would like to receive your contributions. Please see
+[CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
 ## Contact
 
