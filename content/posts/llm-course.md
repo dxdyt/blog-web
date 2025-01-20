@@ -1,9 +1,9 @@
 ---
 title: llm-course
-date: 2025-01-18T12:18:43+08:00
+date: 2025-01-20T12:19:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731436392721-f4f45588c33d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731436392721-f4f45588c33d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737044280473-06976eb5fda5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737044280473-06976eb5fda5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
@@ -325,7 +325,7 @@ Running LLMs can be difficult due to high hardware requirements. Depending on yo
 📚 **References**:
 * [Run an LLM locally with LM Studio](https://www.kdnuggets.com/run-an-llm-locally-with-lm-studio) by Nisha Arya: Short guide on how to use LM Studio.
 * [Prompt engineering guide](https://www.promptingguide.ai/) by DAIR.AI: Exhaustive list of prompt techniques with examples
-* [Outlines - Quickstart](https://outlines-dev.github.io/outlines/quickstart/): List of guided generation techniques enabled by Outlines. 
+* [Outlines - Quickstart](https://dottxt-ai.github.io/outlines/latest/quickstart/): List of guided generation techniques enabled by Outlines. 
 * [LMQL - Overview](https://lmql.ai/docs/language/overview.html): Introduction to the LMQL language.
 
 ---

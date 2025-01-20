@@ -1,9 +1,9 @@
 ---
 title: freqtrade
-date: 2025-01-07T12:19:55+08:00
+date: 2025-01-20T12:21:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734216736200-6a4f086c1bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734216736200-6a4f086c1bea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYyMjM1MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731432248531-819b94ee2dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731432248531-819b94ee2dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)
@@ -100,13 +100,13 @@ For further (native) installation methods, please refer to the [Installation doc
 
 ```
 usage: freqtrade [-h] [-V]
-                 {trade,create-userdir,new-config,show-config,new-strategy,download-data,convert-data,convert-trade-data,trades-to-ohlcv,list-data,backtesting,backtesting-show,backtesting-analysis,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-markets,list-pairs,list-strategies,list-freqaimodels,list-timeframes,show-trades,test-pairlist,convert-db,install-ui,plot-dataframe,plot-profit,webserver,strategy-updater,lookahead-analysis,recursive-analysis}
+                 {trade,create-userdir,new-config,show-config,new-strategy,download-data,convert-data,convert-trade-data,trades-to-ohlcv,list-data,backtesting,backtesting-show,backtesting-analysis,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-markets,list-pairs,list-strategies,list-hyperoptloss,list-freqaimodels,list-timeframes,show-trades,test-pairlist,convert-db,install-ui,plot-dataframe,plot-profit,webserver,strategy-updater,lookahead-analysis,recursive-analysis}
                  ...
 
 Free, open source crypto trading bot
 
 positional arguments:
-  {trade,create-userdir,new-config,show-config,new-strategy,download-data,convert-data,convert-trade-data,trades-to-ohlcv,list-data,backtesting,backtesting-show,backtesting-analysis,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-markets,list-pairs,list-strategies,list-freqaimodels,list-timeframes,show-trades,test-pairlist,convert-db,install-ui,plot-dataframe,plot-profit,webserver,strategy-updater,lookahead-analysis,recursive-analysis}
+  {trade,create-userdir,new-config,show-config,new-strategy,download-data,convert-data,convert-trade-data,trades-to-ohlcv,list-data,backtesting,backtesting-show,backtesting-analysis,edge,hyperopt,hyperopt-list,hyperopt-show,list-exchanges,list-markets,list-pairs,list-strategies,list-hyperoptloss,list-freqaimodels,list-timeframes,show-trades,test-pairlist,convert-db,install-ui,plot-dataframe,plot-profit,webserver,strategy-updater,lookahead-analysis,recursive-analysis}
     trade               Trade module.
     create-userdir      Create user-data directory.
     new-config          Create new config
@@ -130,6 +130,7 @@ positional arguments:
     list-markets        Print markets on exchange.
     list-pairs          Print pairs on exchange.
     list-strategies     Print available strategies.
+    list-hyperoptloss   Print available hyperopt loss functions.
     list-freqaimodels   Print available freqAI models.
     list-timeframes     Print available timeframes for the exchange.
     show-trades         Show trades.
@@ -146,7 +147,6 @@ positional arguments:
 options:
   -h, --help            show this help message and exit
   -V, --version         show program's version number and exit
-
 ```
 
 ### Telegram RPC commands

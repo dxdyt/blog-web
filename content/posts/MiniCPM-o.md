@@ -1,9 +1,9 @@
 ---
 title: MiniCPM-o
-date: 2025-01-19T12:18:03+08:00
+date: 2025-01-20T12:19:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736754079614-8b43bcba9926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba9926?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737044280473-06976eb5fda5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737044280473-06976eb5fda5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [OpenBMB/MiniCPM-o](https://github.com/OpenBMB/MiniCPM-o)
@@ -50,9 +50,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba99
 
 #### 📌 Pinned
 
-* [2025.01.17] We have updated the usage of MiniCPM-o 2.6 int4 quantization version, and resolved the model initialization error. Click [here](https://huggingface.co/openbmb/MiniCPM-o-2_6-int4) and try it now!
 
-* [2025.01.16] ⭐️⭐️⭐️ MiniCPM-o tops GitHub Trending and reaches top-3 on Hugging Face Trending!
+* [2025.01.19] 📢 **ATTENTION!** We are currently working on merging MiniCPM-o 2.6 into the official repositories of llama.cpp, ollama, and vllm. Until the merge is complete, please USE OUR LOCAL FORKS of [llama.cpp](https://github.com/OpenBMB/llama.cpp/blob/minicpm-omni/examples/llava/README-minicpmo2.6.md), [ollama](https://github.com/OpenBMB/ollama/blob/minicpm-v2.6/examples/minicpm-v2.6/README.md), and [vllm](https://github.com/OpenBMB/MiniCPM-o?tab=readme-ov-file#efficient-inference-with-llamacpp-ollama-vllm). **Using the official repositories before the merge may lead to unexpected issues**.
+
+* [2025.01.19] ⭐️⭐️⭐️ MiniCPM-o tops GitHub Trending and reaches top-2 on Hugging Face Trending!
+
+* [2025.01.17] We have updated the usage of MiniCPM-o 2.6 int4 quantization version, and resolved the model initialization error. Click [here](https://huggingface.co/openbmb/MiniCPM-o-2_6-int4) and try it now!
 
 * [2025.01.13] 🔥🔥🔥 We open-source MiniCPM-o 2.6, which matches GPT-4o-202405 on vision, speech and multimodal live streaming. It advances popular capabitlies of MiniCPM-V 2.6, and supports various new fun features. Try it now!
 
@@ -116,7 +119,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1736754079614-8b43bcba99
     - [Multimodal Live Streaming](#multimodal-live-streaming)
   - [Inference on Multiple GPUs](#inference-on-multiple-gpus)
   - [Inference on Mac](#inference-on-mac)
-  - [Deployment on Mobile Phone](#deployment-on-mobile-phone)
   - [Efficient Inference with llama.cpp, ollama, vLLM](#efficient-inference-with-llamacpp-ollama-vllm)
 - [Fine-tuning](#fine-tuning)
 - [FAQs](#faqs)
@@ -2382,8 +2384,6 @@ PYTORCH_ENABLE_MPS_FALLBACK=1 python test.py
 ```
 </details>
 
-### Deployment on Mobile Phone
-MiniCPM-V 2.0 can be deployed on mobile phones with Android operating systems. 🚀 Click [MiniCPM-V 2.0](https://github.com/OpenBMB/mlc-MiniCPM) to install apk.
 
 ### Efficient Inference with llama.cpp, ollama, vLLM
 
@@ -2548,13 +2548,13 @@ This project is developed by the following institutions:
 ## 🌟 Star History <!-- omit in toc -->
 
 
-<table align="center">
+<!-- <table align="center">
     <p align="center">
       <img src="assets/star_history.svg"/>
     </p>
-</table>
+</table> -->
 
-<!-- <picture>
+<picture>
   <source
     media="(prefers-color-scheme: dark)"
     srcset="
@@ -2571,7 +2571,7 @@ This project is developed by the following institutions:
     alt="Star History Chart"
     src="https://api.star-history.com/svg?repos=OpenBMB/MiniCPM-o&type=Date"
   />
-</picture> -->
+</picture>
 
 ## Key Techniques and Other Multimodal Projects <!-- omit in toc -->
 

@@ -1,9 +1,9 @@
 ---
 title: OpenBB
-date: 2024-10-04T12:20:48+08:00
+date: 2025-01-20T12:20:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726393500770-be9efcab65db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726393500770-be9efcab65db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgwMTU1NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736678595826-2d3e0b94638c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736678595826-2d3e0b94638c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
@@ -14,8 +14,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1726393500770-be9efcab65
 <br />
 <br />
 
-[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/openbb_finance.svg?style=social&label=Follow%20%40openbb_finance)](https://twitter.com/openbb_finance)
-![Discord Shield](https://discordapp.com/api/guilds/831165782750789672/widget.png?style=shield)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/openbb_finance.svg?style=social&label=Follow%20%40openbb_finance)](https://x.com/openbb_finance)
+[![Discord Shield](https://discordapp.com/api/guilds/831165782750789672/widget.png?style=shield)](https://discord.com/invite/xPHTuHCmuV)
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/OpenBB-finance/OpenBB)
 <a href="https://codespaces.new/OpenBB-finance/OpenBB">
   <img src="https://github.com/codespaces/badge.svg" height="20" />
@@ -31,17 +31,17 @@ Offers access to equity, options, crypto, forex, macro economy, fixed income, an
 
 Sign up to the [OpenBB Hub](https://my.openbb.co/login) to get the most out of the OpenBB ecosystem.
 
-We also have an open source AI financial analyst agent that can access all the data within OpenBB, and that repo can be found [here](https://github.com/OpenBB-finance/openbb-agents).
-
 ---
 
-If you are looking for the first AI financial terminal for professionals, the OpenBB Terminal Pro can be found at [pro.openbb.co](https://pro.openbb.co)
+If you are looking for our **FREE** AI-powered Research and Analytics Workspace, you can find it here: [pro.openbb.co](https://pro.openbb.co).
 
 <a href="https://pro.openbb.co">
   <div align="center">
-  <img src="https://openbb.co/api/image?src=%2Fassets%2Fimages%2Fhome%2Fhero.png&width=2400&fit=cover&position=center&background[]=0&background[]=0&background[]=0&background[]=0&quality=100&compressionLevel=9&loop=0&delay=100&crop=null" alt="Logo" width="600">
+  <img src="https://openbb.co/api/image?src=https%3A%2F%2Fopenbb-cms.directus.app%2Fassets%2Ff431ed60-5e46-439a-a9f7-4b06e72d0720.png&width=2400&height=1552&fit=cover&position=center&background[]=0&background[]=0&background[]=0&background[]=0&quality=100&compressionLevel=9&loop=0&delay=100&crop=null" alt="Logo" width="600">
   </div>
 </a>
+
+We also have an open source AI financial analyst agent that can access all the data within OpenBB, and that repo can be found [here](https://github.com/OpenBB-finance/openbb-agents).
 
 ---
 

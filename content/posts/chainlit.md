@@ -1,9 +1,9 @@
 ---
 title: chainlit
-date: 2025-01-18T12:19:03+08:00
+date: 2025-01-20T12:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736244032196-5d604770aba8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736244032196-5d604770aba8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732221560326-f6c8cb063e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732221560326-f6c8cb063e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [Chainlit/chainlit](https://github.com/Chainlit/chainlit)

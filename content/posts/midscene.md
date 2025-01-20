@@ -1,9 +1,9 @@
 ---
 title: midscene
-date: 2025-01-19T12:18:27+08:00
+date: 2025-01-20T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736434261535-8d6a3f8e8ecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736434261535-8d6a3f8e8ecf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734534015529-31a65c29880c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734534015529-31a65c29880c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene)
@@ -31,7 +31,7 @@ English | [简体中文](./README.zh.md)
   <a href="https://x.com/midscene_ai"><img src="https://img.shields.io/twitter/follow/midscene_ai?style=flat-square" alt="twitter" /></a>
 </p>
 
-Midscene.js is an AI-powered automation SDK can control the page, perform assertions, and extract data in JSON format using natural language.
+Midscene.js is an AI-powered automation SDK with the abilities to control the page, perform assertions and extract data in JSON format using natural language.
 
 <p align="center">
   

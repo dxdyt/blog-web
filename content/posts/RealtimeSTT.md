@@ -1,9 +1,9 @@
 ---
 title: RealtimeSTT
-date: 2025-01-18T12:19:11+08:00
+date: 2025-01-20T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732806685351-bafb9848cebf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732806685351-bafb9848cebf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcxNzM4ODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731432248531-819b94ee2dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731432248531-819b94ee2dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
 ---
 
 # [KoljaB/RealtimeSTT](https://github.com/KoljaB/RealtimeSTT)
