@@ -1,9 +1,9 @@
 ---
 title: crawl4ai
-date: 2025-01-10T12:20:10+08:00
+date: 2025-01-21T12:21:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733886772949-fff9a0885591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733886772949-fff9a0885591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY0ODI3NzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734568365466-5a551e6857a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734568365466-5a551e6857a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)
@@ -442,7 +442,7 @@ if __name__ == "__main__":
 </details>
 
 <details>
-<summary>🤖 <strong>Using You own Browswer with Custome User Profile</strong></summary>
+<summary>🤖 <strong>Using You own Browser with Custom User Profile</strong></summary>
 
 ```python
 import os, sys
@@ -521,7 +521,7 @@ To check our development plans and upcoming features, visit our [Roadmap](https:
 
 ## 🤝 Contributing 
 
-We welcome contributions from the open-source community. Check out our [contribution guidelines](https://github.com/unclecode/crawl4ai/blob/main/CONTRIBUTING.md) for more information.
+We welcome contributions from the open-source community. Check out our [contribution guidelines](https://github.com/unclecode/crawl4ai/blob/main/CONTRIBUTORS.md) for more information.
 
 ## 📄 License 
 

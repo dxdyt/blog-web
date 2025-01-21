@@ -1,16 +1,16 @@
 ---
 title: maxun
-date: 2024-11-22T12:21:15+08:00
+date: 2025-01-21T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [getmaxun/maxun](https://github.com/getmaxun/maxun)
 
 <h1 align="center">
     <div>
-        <a href="https://maxun-website.vercel.app/">
+        <a href="https://maxun-website.vercel.app/?ref=ghread">
             <img src="/src/assets/maxunlogo.png" width="50" />
             <br>
             Maxun
@@ -25,23 +25,35 @@ Maxun lets you train a robot in 2 minutes and scrape the web on auto-pilot. Web 
 
 
 <p align="center">
-    <a href="https://maxun-website.vercel.app/"><b>Website</b></a> |
+    <a href="https://docs.maxun.dev/?ref=ghread"><b>Documentation</b></a> |
+    <a href="https://www.maxun.dev/?ref=ghread"><b>Website</b></a> |
     <a href="https://discord.gg/5GbPjBUkws"><b>Discord</b></a> |
-    <a href="https://x.com/maxun_io"><b>Twitter</b></a> |
+    <a href="https://x.com/maxun_io?ref=ghread"><b>Twitter</b></a> |
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSdbD2uhqC4sbg4eLZ9qrFbyrfkXZ2XsI6dQ0USRCQNZNn5pzg/viewform"><b>Join Maxun Cloud</b></a> | 
-    <a href="https://www.youtube.com/@MaxunOSS"><b>Watch Tutorials</b></a>
+    <a href="https://www.youtube.com/@MaxunOSS?ref=ghread"><b>Watch Tutorials</b></a>
+    <br />
+    <br />
+<a href="https://trendshift.io/repositories/12113" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12113" alt="getmaxun%2Fmaxun | Trendshift" style="width: 250px; height: 55px; margin-top: 10px;" width="250" height="55"/></a>
 </p>
 
 ![maxun_demo](https://github.com/user-attachments/assets/a61ba670-e56a-4ae1-9681-0b4bd6ba9cdc)
 
 <img src="https://static.scarf.sh/a.png?x-pxid=c12a77cc-855e-4602-8a0f-614b2d0da56a" />
 
-# Local Setup
+# Installation
+1. Create a root folder for your project (e.g. 'maxun')
+2. Create a file named `.env` in the root folder of the project
+3. Example env file can be viewed [here](https://github.com/getmaxun/maxun/blob/master/ENVEXAMPLE). Copy all content of example env to your `.env` file.
+4. Choose your installation method below
+
 ### Docker Compose
+1. Copy paste the [docker-compose.yml file](https://github.com/getmaxun/maxun/blob/master/docker-compose.yml) into your root folder 
+2. Ensure you have setup the `.env` file in that same folder
+3. Run the command below from a terminal
 ```
-git clone https://github.com/getmaxun/maxun
-docker-compose up -d --build
+docker-compose up -d
 ```
+You can access the frontend at http://localhost:5173/ and backend at http://localhost:8080/
 
 ### Without Docker
 1. Ensure you have Node.js, PostgreSQL, MinIO and Redis installed on your system.
@@ -59,6 +71,16 @@ npm install
 cd maxun-core 
 npm install
 
+# get back to the root directory
+cd ..
+
+# make sure playwright is properly initialized
+npx playwright install
+npx playwright install-deps
+
+# get back to the root directory
+cd ..
+
 # start frontend and backend together
 npm run start
 ```
@@ -71,8 +93,12 @@ You can access the frontend at http://localhost:5173/ and backend at http://loca
 
 | Variable              | Mandatory | Description                                                                                  | If Not Set                                                   |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| `BACKEND_URL`            | Yes       | URL to run backend on.                                   | Backend won't start. If not sure, set to http://localhost:8080 |
-| `VITE_BACKEND_URL`            | Yes       | URL to run backend on.                                   | Backend won't start. If not sure, set to http://localhost:8080 |
+| `BACKEND_PORT`            | Yes       | Port to run backend on. Needed for Docker setup                                          | Default value: 8080 |
+| `FRONTEND_PORT`            | Yes       | Port to run frontend on. Needed for Docker setup                                        | Default value: 5173 |
+| `BACKEND_URL`            | Yes       | URL to run backend on.                                                                    | Default value: http://localhost:8080 |
+| `VITE_BACKEND_URL`            | Yes       | URL used by frontend to connect to backend                                           | Default value: http://localhost:8080 |
+| `PUBLIC_URL`            | Yes       | URL to run frontend on.                                                                    | Default value: http://localhost:5173 |
+| `VITE_PUBLIC_URL`            | Yes       | URL used by backend to connect to frontend                                           | Default value: http://localhost:5173 |
 | `JWT_SECRET`          | Yes       | Secret key used to sign and verify JSON Web Tokens (JWTs) for authentication.                | JWT authentication will not work.                            |
 | `DB_NAME`             | Yes       | Name of the Postgres database to connect to.                                                 | Database connection will fail.                               |
 | `DB_USER`             | Yes       | Username for Postgres database authentication.                                               | Database connection will fail.                               |
@@ -82,6 +108,7 @@ You can access the frontend at http://localhost:5173/ and backend at http://loca
 | `ENCRYPTION_KEY`      | Yes       | Key used for encrypting sensitive data (proxies, passwords).                                 | Encryption functionality will not work.                      |
 | `MINIO_ENDPOINT`      | Yes       | Endpoint URL for MinIO, to store Robot Run Screenshots.                                      | Connection to MinIO storage will fail.                       |
 | `MINIO_PORT`          | Yes       | Port number for MinIO service.                                                               | Connection to MinIO storage will fail.                       |
+| `MINIO_CONSOLE_PORT`          | No       | Port number for MinIO WebUI service. Needed for Docker setup.                         | Cannot access MinIO Web UI. |
 | `MINIO_ACCESS_KEY`    | Yes       | Access key for authenticating with MinIO.                                                    | MinIO authentication will fail.                              |
 | `GOOGLE_CLIENT_ID`    | No       | Client ID for Google OAuth, used for Google Sheet integration authentication.                 | Google login will not work.                                  |
 | `GOOGLE_CLIENT_SECRET`| No       | Client Secret for Google OAuth.                                                              | Google login will not work.                                  |

@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2025-01-08T12:20:50+08:00
+date: 2025-01-21T12:19:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732286521912-9c48f3faee78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732286521912-9c48f3faee78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYzMDk5NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [mudler/LocalAI](https://github.com/mudler/LocalAI)
@@ -102,19 +102,15 @@ local-ai run oci://localai/phi-2:latest
 
 ## 📰 Latest project news
 
+- Jan 2025: LocalAI model release: https://huggingface.co/mudler/LocalAI-functioncall-phi-4-v0.3, SANA support in diffusers: https://github.com/mudler/LocalAI/pull/4603
 - Dec 2024: stablediffusion.cpp backend (ggml) added ( https://github.com/mudler/LocalAI/pull/4289 )
 - Nov 2024: Bark.cpp backend added ( https://github.com/mudler/LocalAI/pull/4287 )
 - Nov 2024: Voice activity detection models (**VAD**) added to the API: https://github.com/mudler/LocalAI/pull/4204
 - Oct 2024: examples moved to [LocalAI-examples](https://github.com/mudler/LocalAI-examples)
 - Aug 2024:  🆕 FLUX-1, [P2P Explorer](https://explorer.localai.io)
-- July 2024: 🔥🔥 🆕 P2P Dashboard, LocalAI Federated mode and AI Swarms: https://github.com/mudler/LocalAI/pull/2723
-- June 2024: 🆕 You can browse now the model gallery without LocalAI! Check out https://models.localai.io
-- June 2024: Support for models from OCI registries: https://github.com/mudler/LocalAI/pull/2628
+- July 2024: 🔥🔥 🆕 P2P Dashboard, LocalAI Federated mode and AI Swarms: https://github.com/mudler/LocalAI/pull/2723. P2P Global community pools: https://github.com/mudler/LocalAI/issues/3113
 - May 2024: 🔥🔥 Decentralized P2P llama.cpp:  https://github.com/mudler/LocalAI/pull/2343 (peer2peer llama.cpp!) 👉 Docs  https://localai.io/features/distribute/
-- May 2024: 🔥🔥 Openvoice: https://github.com/mudler/LocalAI/pull/2334
-- May 2024: 🆕 Function calls without grammars and mixed mode: https://github.com/mudler/LocalAI/pull/2328
 - May 2024: 🔥🔥 Distributed inferencing: https://github.com/mudler/LocalAI/pull/2324
-- May 2024: Chat, TTS, and Image generation in the WebUI: https://github.com/mudler/LocalAI/pull/2222
 - April 2024: Reranker API: https://github.com/mudler/LocalAI/pull/2121
 
 Roadmap items: [List of issues](https://github.com/mudler/LocalAI/issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap)
@@ -123,12 +119,10 @@ Roadmap items: [List of issues](https://github.com/mudler/LocalAI/issues?q=is%3A
 
 - Multimodal with vLLM and Video understanding: https://github.com/mudler/LocalAI/pull/3729
 - Realtime API https://github.com/mudler/LocalAI/issues/3714
-- 🔥🔥 Distributed, P2P Global community pools: https://github.com/mudler/LocalAI/issues/3113
 - WebUI improvements: https://github.com/mudler/LocalAI/issues/2156
 - Backends v2: https://github.com/mudler/LocalAI/issues/1126
 - Improving UX v2: https://github.com/mudler/LocalAI/issues/1373
 - Assistant API: https://github.com/mudler/LocalAI/issues/1273
-- Moderation endpoint: https://github.com/mudler/LocalAI/issues/999
 - Vulkan: https://github.com/mudler/LocalAI/issues/1647
 - Anthropic API: https://github.com/mudler/LocalAI/issues/1808
 
@@ -170,6 +164,7 @@ Model galleries
 Other:
 - Helm chart https://github.com/go-skynet/helm-charts
 - VSCode extension https://github.com/badgooooor/localai-vscode-plugin
+- Langchain: https://python.langchain.com/docs/integrations/providers/localai/
 - Terminal utility https://github.com/djcopley/ShellOracle
 - Local Smart assistant https://github.com/mudler/LocalAGI
 - Home Assistant https://github.com/sammcj/homeassistant-localai / https://github.com/drndos/hass-openai-custom-conversation / https://github.com/valentinfrlch/ha-gpt4vision

@@ -1,9 +1,9 @@
 ---
 title: awesome-cursorrules
-date: 2024-12-21T12:19:54+08:00
+date: 2025-01-21T12:19:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731839247695-d9b697748a6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731839247695-d9b697748a6b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735851755369-4555eadfa258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735851755369-4555eadfa258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)
@@ -125,11 +125,14 @@ By creating a `.cursorrules` file in your project's root directory, you can leve
 - [TypeScript (NestJS Best Practices)](./rules/typescript-nestjs-best-practices-cursorrules-promp/.cursorrules)
 - [WordPress (PHP, Guzzle, Gutenberg)](./rules/wordpress-php-guzzle-gutenberg-cursorrules-prompt-/.cursorrules)
 - [WordPress (macOS)](./rules/cursorrules-cursor-ai-wordpress-draft-macos-prompt/.cursorrules)
+- [Python LLM & ML Workflow](./rules/python-llm-ml-workflow-cursorrules-prompt-file/.cursorrules)
 
 ### Mobile Development
 - [React Native Expo](./rules/react-native-expo-cursorrules-prompt-file/.cursorrules)
 - [SwiftUI Guidelines](./rules/swiftui-guidelines-cursorrules-prompt-file/.cursorrules)
 - [TypeScript (Expo, Jest, Detox)](./rules/typescript-expo-jest-detox-cursorrules-prompt-file/.cursorrules)
+- [Android Native (Jetpack Compose)](./rules/android-jetpack-compose-cursorrules-prompt-file/.cursorrules)
+- [Flutter Expert](./rules/flutter-app-expert-cursorrules-prompt-file/.cursorrules)
 
 ### CSS and Styling
 - [Tailwind CSS (Next.js Guide)](./rules/tailwind-css-nextjs-guide-cursorrules-prompt-file/.cursorrules)

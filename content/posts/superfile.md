@@ -1,9 +1,9 @@
 ---
 title: superfile
-date: 2024-11-15T12:21:00+08:00
+date: 2025-01-21T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726092679831-ae0a4e21f072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736131660777-8b7aa6bb0efe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736131660777-8b7aa6bb0efe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [yorukot/superfile](https://github.com/yorukot/superfile)

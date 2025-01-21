@@ -1,9 +1,9 @@
 ---
 title: mini.nvim
-date: 2025-01-20T12:21:18+08:00
+date: 2025-01-21T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737044280473-06976eb5fda5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737044280473-06976eb5fda5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734279135113-8bd58bc02b69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734279135113-8bd58bc02b69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [echasnovski/mini.nvim](https://github.com/echasnovski/mini.nvim)

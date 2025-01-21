@@ -1,9 +1,9 @@
 ---
 title: coreutils
-date: 2024-06-25T12:17:42+08:00
+date: 2025-01-21T12:20:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718830884370-cf77049f79ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718830884370-cf77049f79ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyODg5OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734568365466-5a551e6857a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734568365466-5a551e6857a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [uutils/coreutils](https://github.com/uutils/coreutils)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1718830884370-cf77049f79
 [![dependency status](https://deps.rs/repo/github/uutils/coreutils/status.svg)](https://deps.rs/repo/github/uutils/coreutils)
 
 [![CodeCov](https://codecov.io/gh/uutils/coreutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/coreutils)
-![MSRV](https://img.shields.io/badge/MSRV-1.70.0-brightgreen)
+![MSRV](https://img.shields.io/badge/MSRV-1.79.0-brightgreen)
 
 </div>
 
@@ -80,7 +80,7 @@ the [coreutils docs](https://github.com/uutils/uutils.github.io) repository.
 ### Rust Version
 
 uutils follows Rust's release channels and is tested against stable, beta and
-nightly. The current Minimum Supported Rust Version (MSRV) is `1.70.0`.
+nightly. The current Minimum Supported Rust Version (MSRV) is `1.79.0`.
 
 ## Building
 
@@ -276,7 +276,7 @@ Make to uninstall.
 To uninstall uutils:
 
 ```shell
-cargo uninstall uutils
+cargo uninstall coreutils
 ```
 
 ### Uninstall with GNU Make

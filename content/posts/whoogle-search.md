@@ -1,9 +1,9 @@
 ---
 title: whoogle-search
-date: 2025-01-19T12:19:07+08:00
+date: 2025-01-21T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734113230569-56b1bbbf06ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734113230569-56b1bbbf06ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcyNjAyNzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735851755369-4555eadfa258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735851755369-4555eadfa258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
 ---
 
 # [benbusby/whoogle-search](https://github.com/benbusby/whoogle-search)
