@@ -1,9 +1,9 @@
 ---
 title: maxun
-date: 2025-01-21T12:20:09+08:00
+date: 2025-01-22T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735918651510-b22d9fbce4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735918651510-b22d9fbce4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
 ---
 
 # [getmaxun/maxun](https://github.com/getmaxun/maxun)

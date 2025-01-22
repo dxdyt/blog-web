@@ -1,9 +1,9 @@
 ---
 title: llm-course
-date: 2025-01-21T12:19:59+08:00
+date: 2025-01-22T12:19:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735851755369-4555eadfa258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735851755369-4555eadfa258?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732740674513-63afb262a988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732740674513-63afb262a988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
 ---
 
 # [mlabonne/llm-course](https://github.com/mlabonne/llm-course)

@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-01-20T12:20:58+08:00
+date: 2025-01-22T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736678595826-2d3e0b94638c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736678595826-2d3e0b94638c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzczNDY3NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732740674513-63afb262a988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732740674513-63afb262a988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -30,7 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1736678595826-2d3e0b9463
   </p>
 </div>
 
-**IMPORTANT NOTE:** Parlant is in active development by a team of (currently) 12 contributors (developers, researchers, and QA) from leading instutions, such as Microsoft, Check Point, and Dynamic Yield. We're looking for more contributors to help get customer-facing agents under control! Please consider joining our Discord server and participating in our development.
+**IMPORTANT NOTE:** Parlant is in active development by a team of (currently) 12 contributors (developers, researchers, and QA) from leading institutions, such as Microsoft, Check Point, and Dynamic Yield. We're looking for more contributors to help get customer-facing agents under control! Please consider joining our Discord server and participating in our development.
 
 ## ✨ Take Control of AI Agent Decisions
 **Parlant is a framework that transforms how AI agents make decisions in customer-facing scenarios.**
@@ -78,7 +78,7 @@ Parlant is the right tool for the job if you're building an LLM-based chat agent
 
 In a word: **_Guidance._** 🧭🚦🤝
 
-Parlant's engine revolves around solving one key problem: How can we _reliably_ guide customer-facing agents to behave in alignment with our needs and intentions.
+Parlant's engine revolves around solving one key problem: How can we _reliably guide_ customer-facing agents to behave in alignment with our needs and intentions.
 
 Hence Parlant's fundamentally different approach to agent building: [Managed Guidelines](https://www.parlant.io/docs/concepts/customization/guidelines):
 
@@ -91,9 +91,9 @@ $ parlant guideline create \
 
 By giving structure to behavioral guidelines, and _granularizing_ guidelines (i.e. making each behavioral guideline a first-class entity in the engine), Parlant's engine is able to offer unprecedented control, quality, and efficiency in building LLM-based agents:
 
-1. **Reliability:** Running focused self-critique in real-time, per guideline, to ensure it is actually followed
-1. **Explainability:** Providing feedback around its interpretation of guidelines in each real-life context, which helps in troubleshooting and improvement
-1. **Maintainability:** Helping you maintain a coherent set of guidelines by detecting and alerting you to possible contradictions (gross or subtle) in your instructions
+1. 🛡️ **Reliability:** Running focused self-critique in real-time, per guideline, to ensure it is actually followed
+1. 💡 **Explainability:** Providing feedback around its interpretation of guidelines in each real-life context, which helps in troubleshooting and improvement
+1. 🔧 **Maintainability:** Helping you maintain a coherent set of guidelines by detecting and alerting you to possible contradictions (gross or subtle) in your instructions
 
 ## 🚀 Real-world impact
 
