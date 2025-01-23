@@ -1,9 +1,9 @@
 ---
 title: exo
-date: 2024-11-15T12:21:21+08:00
+date: 2025-01-23T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728646995795-2e37aa8cb13e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728646995795-2e37aa8cb13e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE2NDQ0Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736079418674-13daae3889ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736079418674-13daae3889ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
 ---
 
 # [exo-explore/exo](https://github.com/exo-explore/exo)
@@ -28,6 +28,8 @@ exo: Run your own AI cluster at home with everyday devices. Maintained by [exo l
 [![Tests](https://dl.circleci.com/status-badge/img/circleci/TrkofJDoGzdQAeL6yVHKsg/4i5hJuafuwZYZQxbRAWS71/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/circleci/TrkofJDoGzdQAeL6yVHKsg/4i5hJuafuwZYZQxbRAWS71/tree/main)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
+<a href="https://trendshift.io/repositories/11849" target="_blank"><img src="https://trendshift.io/api/badge/repositories/11849" alt="exo-explore%2Fexo | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 
 ---
@@ -48,7 +50,7 @@ We also welcome contributions from the community. We have a list of bounties in 
 
 ### Wide Model Support
 
-exo supports different models including LLaMA ([MLX](exo/inference/mlx/models/llama.py) and [tinygrad](exo/inference/tinygrad/models/llama.py)), Mistral, LlaVA, Qwen and Deepseek.
+exo supports different models including LLaMA ([MLX](exo/inference/mlx/models/llama.py) and [tinygrad](exo/inference/tinygrad/models/llama.py)), Mistral, LlaVA, Qwen, and Deepseek.
 
 ### Dynamic Model Partitioning
 
@@ -56,7 +58,7 @@ exo [optimally splits up models](exo/topology/ring_memory_weighted_partitioning_
 
 ### Automatic Device Discovery
 
-exo will [automatically discover](https://github.com/exo-explore/exo/blob/945f90f676182a751d2ad7bcf20987ab7fe0181e/exo/orchestration/standard_node.py#L154) other devices using the best method available. Zero manual configuration.
+exo will [automatically discover](https://github.com/exo-explore/exo/blob/945f90f676182a751d2ad7bcf20987ab7fe0181e/exo/orchestration/node.py#L154) other devices using the best method available. Zero manual configuration.
 
 ### ChatGPT-compatible API
 
@@ -64,11 +66,11 @@ exo provides a [ChatGPT-compatible API](exo/api/chatgpt_api.py) for running mode
 
 ### Device Equality
 
-Unlike other distributed inference frameworks, exo does not use a master-worker architecture. Instead, exo devices [connect p2p](https://github.com/exo-explore/exo/blob/945f90f676182a751d2ad7bcf20987ab7fe0181e/exo/orchestration/standard_node.py#L161). As long as a device is connected somewhere in the network, it can be used to run models.
+Unlike other distributed inference frameworks, exo does not use a master-worker architecture. Instead, exo devices [connect p2p](https://github.com/exo-explore/exo/blob/945f90f676182a751d2ad7bcf20987ab7fe0181e/exo/orchestration/node.py#L161). As long as a device is connected somewhere in the network, it can be used to run models.
 
 Exo supports different [partitioning strategies](exo/topology/partitioning_strategy.py) to split up a model across devices. The default partitioning strategy is [ring memory weighted partitioning](exo/topology/ring_memory_weighted_partitioning_strategy.py). This runs an inference in a ring where each device runs a number of model layers proportional to the memory of the device.
 
-!["A screenshot of exo running 5 nodes](docs/exo-screenshot.png)
+!["A screenshot of exo running 5 nodes](docs/exo-screenshot.jpg)
 
 ## Installation
 
@@ -77,10 +79,10 @@ The current recommended way to install exo is from source.
 ### Prerequisites
 
 - Python>=3.12.0 is required because of [issues with asyncio](https://github.com/exo-explore/exo/issues/5) in previous versions.
-- Linux (with NVIDIA card):
-  - NVIDIA driver (test with `nvidia-smi`)
-  - CUDA (https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#cuda-cross-platform-installation) (test with `nvcc --version`)
-  - cuDNN (https://developer.nvidia.com/cudnn-downloads) (test with [link](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html#verifying-the-install-on-linux:~:text=at%20a%20time.-,Verifying%20the%20Install%20on%20Linux,Test%20passed!,-Upgrading%20From%20Older))
+- For Linux with NVIDIA GPU support (Linux-only, skip if not using Linux or NVIDIA):
+  - NVIDIA driver - verify with `nvidia-smi`
+  - CUDA toolkit - install from [NVIDIA CUDA guide](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#cuda-cross-platform-installation), verify with `nvcc --version`
+  - cuDNN library - download from [NVIDIA cuDNN page](https://developer.nvidia.com/cudnn-downloads), verify installation by following [these steps](https://docs.nvidia.com/deeplearning/cudnn/latest/installation/linux.html#verifying-the-install-on-linux:~:text=at%20a%20time.-,Verifying%20the%20Install%20on%20Linux,Test%20passed!,-Upgrading%20From%20Older)
 
 ### Hardware Requirements
 
@@ -110,13 +112,13 @@ source install.sh
 
 - There are a number of things users have empirically found to improve performance on Apple Silicon Macs:
 
-1. Upgrade to the latest version of MacOS 15.
+1. Upgrade to the latest version of macOS Sequoia.
 2. Run `./configure_mlx.sh`. This runs commands to optimize GPU memory allocation on Apple Silicon Macs.
 
 
 ## Documentation
 
-### Example Usage on Multiple MacOS Devices
+### Example Usage on Multiple macOS Devices
 
 #### Device 1:
 
@@ -131,14 +133,14 @@ exo
 
 That's it! No configuration required - exo will automatically discover the other device(s).
 
-exo starts a ChatGPT-like WebUI (powered by [tinygrad tinychat](https://github.com/tinygrad/tinygrad/tree/master/examples/tinychat)) on http://localhost:8000
+exo starts a ChatGPT-like WebUI (powered by [tinygrad tinychat](https://github.com/tinygrad/tinygrad/tree/master/examples/tinychat)) on http://localhost:52415
 
-For developers, exo also starts a ChatGPT-compatible API endpoint on http://localhost:8000/v1/chat/completions. Examples with curl:
+For developers, exo also starts a ChatGPT-compatible API endpoint on http://localhost:52415/v1/chat/completions. Examples with curl:
 
 #### Llama 3.2 3B:
 
 ```sh
-curl http://localhost:8000/v1/chat/completions \
+curl http://localhost:52415/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
      "model": "llama-3.2-3b",
@@ -150,7 +152,7 @@ curl http://localhost:8000/v1/chat/completions \
 #### Llama 3.1 405B:
 
 ```sh
-curl http://localhost:8000/v1/chat/completions \
+curl http://localhost:52415/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
      "model": "llama-3.1-405b",
@@ -162,7 +164,7 @@ curl http://localhost:8000/v1/chat/completions \
 #### Llava 1.5 7B (Vision Language Model):
 
 ```sh
-curl http://localhost:8000/v1/chat/completions \
+curl http://localhost:52415/v1/chat/completions \
   -H "Content-Type: application/json" \
   -d '{
      "model": "llava-1.5-7b-hf",
@@ -187,15 +189,15 @@ curl http://localhost:8000/v1/chat/completions \
    }'
 ```
 
-### Example Usage on Multiple Heterogenous Devices (MacOS + Linux)
+### Example Usage on Multiple Heterogenous Devices (macOS + Linux)
 
-#### Device 1 (MacOS):
+#### Device 1 (macOS):
 
 ```sh
-exo --inference-engine tinygrad
+exo
 ```
 
-Here we explicitly tell exo to use the **tinygrad** inference engine.
+Note: We don't need to explicitly tell exo to use the **tinygrad** inference engine. **MLX** and **tinygrad** are interoperable!
 
 #### Device 2 (Linux):
 ```sh
@@ -254,7 +256,7 @@ python3 format.py ./exo
 
 ## Known Issues
 
-- On some versions of MacOS/Python, certificates are not installed properly which can lead to SSL errors (e.g. SSL error with huggingface.co). To fix this, run the Install Certificates command, usually:
+- On certain versions of Python on macOS, certificates may not installed correctly, potentially causing SSL errors (e.g., when accessing huggingface.co). To resolve this, run the `Install Certificates` command, typicall as follows:
 
 ```sh
 /Applications/Python 3.x/Install Certificates.command

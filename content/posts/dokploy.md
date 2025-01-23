@@ -1,9 +1,9 @@
 ---
 title: dokploy
-date: 2025-01-22T12:19:35+08:00
+date: 2025-01-23T12:19:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735052713180-2dd81cbe3281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735052713180-2dd81cbe3281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732129547874-fa3c641e94fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732129547874-fa3c641e94fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
 ---
 
 # [Dokploy/dokploy](https://github.com/Dokploy/dokploy)

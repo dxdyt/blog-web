@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2024-12-16T12:22:38+08:00
+date: 2025-01-23T12:20:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732919258508-3fd53a8007b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1692261853713-4d283f65a6ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1692261853713-4d283f65a6ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
 ---
 
 # [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)
@@ -69,6 +69,7 @@ Top must-join communities for ML:
 - Data Warehouse
   - [Snowflake](https://www.snowflake.com/en/)
   - [Firebolt](https://www.firebolt.io/)
+  - [Databend](https://www.databend.com/)
 - Data Quality
   - [dbt](https://www.getdbt.com/)
   - [Gable](https://www.gable.ai)

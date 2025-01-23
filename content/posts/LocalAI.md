@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2025-01-21T12:19:18+08:00
+date: 2025-01-23T12:19:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735745308617-6b4667ae644c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736025254639-803df21d0a73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736025254639-803df21d0a73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
 ---
 
 # [mudler/LocalAI](https://github.com/mudler/LocalAI)
@@ -49,7 +49,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1735745308617-6b4667ae64
 </p>
 
 <p align="center">
-<a href="https://trendshift.io/repositories/1484" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1484" alt="go-skynet%2FLocalAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/5539" target="_blank"><img src="https://trendshift.io/api/badge/repositories/5539" alt="mudler%2FLocalAI | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </p>
 
 > :bulb: Get help - [❓FAQ](https://localai.io/faq/) [💭Discussions](https://github.com/go-skynet/LocalAI/discussions) [:speech_balloon: Discord](https://discord.gg/uJAeKSAGDy) [:book: Documentation website](https://localai.io/)

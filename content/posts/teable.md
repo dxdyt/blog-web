@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2024-12-31T12:21:03+08:00
+date: 2025-01-23T12:18:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729877251622-a9043a2ec183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729877251622-a9043a2ec183?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736025254639-803df21d0a73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736025254639-803df21d0a73?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)
@@ -67,24 +67,24 @@ featuredImagePreview: https://images.unsplash.com/photo-1729877251622-a9043a2ec1
 
 ## ✨Features
 
-#### 🍺 Feature Packed
+### 🍺 Feature Packed
 
 Everything you need, right out of the box:
 
 - [x] Aggregation
-- [x] Attachments preview
+- [x] Attachments Preview
 - [x] Batch Editing
 - [x] Charts
 - [x] Comments
 - [x] Custom Columns
-- [x] Field conversion
+- [x] Field Conversion
 - [x] Filtering
 - [x] Formatting
 - [x] Formula Support
 - [x] Grouping
 - [x] History
 - [x] Import/Export
-- [x] Millions of rows
+- [x] Millions of Rows
 - [x] Plugins
 - [x] Real-time
 - [x] Search
@@ -93,7 +93,7 @@ Everything you need, right out of the box:
 - [x] Undo/Redo
 - [x] Validation
 
-#### 🏞️ Multiple Views
+### 🏞️ Multiple Views
 
 Visualize and interact with data in various ways best suited for their specific tasks.
 
@@ -110,7 +110,7 @@ Visualize and interact with data in various ways best suited for their specific 
   </tr>
   <tr>
     <td width="50%"><img alt="Calendar View" src="static/assets/images/view-calendar.png"></td>
-    <td width="50%"><img alt="Gallery View" src="static/assets/images/view-gallary.png"></td>
+    <td width="50%"><img alt="Gallery View" src="static/assets/images/view-gallery.png"></td>
   </tr>
   <tr>
     <td width="50%"><img alt="Kanban View" src="static/assets/images/view-kanban.png"></td>
@@ -122,7 +122,7 @@ Visualize and interact with data in various ways best suited for their specific 
   </tr>
 </table>
 
-#### 📊 Charts & Dashboard
+### 📊 Charts & Dashboard
 
   <img alt="Teable Dashboard" width="100%" src="static/assets/images/dashboard.png">
 
@@ -202,7 +202,7 @@ make switch-db-mode
 
 ```sh
 cd apps/nextjs-app
-copy .env.development .env.development.local
+cp .env.development .env.development.local
 ```
 
 #### 4. Run Dev Server
@@ -213,6 +213,14 @@ you just need to start backend, it will start next server for frontend automatic
 cd apps/nestjs-backend
 pnpm dev
 ```
+
+By default, the plugin development server is not started. To preview and develop plugins, run:
+```sh
+cd plugins
+pnpm dev
+```
+This will start the plugin development server on port 3002.
+
 
 ## Why Teable?
 
