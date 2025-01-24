@@ -1,9 +1,9 @@
 ---
 title: anthropic-cookbook
-date: 2024-12-25T12:19:49+08:00
+date: 2025-01-24T12:20:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733324770222-a6c4a921b379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733324770222-a6c4a921b379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736264335869-70a53a2e49b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736264335869-70a53a2e49b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
 ---
 
 # [anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook)
@@ -39,7 +39,6 @@ If you have ideas for new examples or guides, share them on the [issues page](ht
 ## Table of recipes
 
 ### Skills
-- [Citations](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/citations): Learn how to prompt Claude to cite sources in its responses.
 - [Classification](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/classification): Explore techniques for text and data classification using Claude.
 - [Retrieval Augmented Generation](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/retrieval_augmented_generation): Learn how to enhance Claude's responses with external knowledge.
 - [Summarization](https://github.com/anthropics/anthropic-cookbook/tree/main/skills/summarization): Discover techniques for effective text summarization with Claude.

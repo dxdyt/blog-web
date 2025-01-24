@@ -1,9 +1,9 @@
 ---
 title: midscene
-date: 2025-01-22T12:20:21+08:00
+date: 2025-01-24T12:20:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736385389513-06d7ea7b705e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736385389513-06d7ea7b705e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736148391814-1734e7acf55c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736148391814-1734e7acf55c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
 ---
 
 # [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene)
@@ -38,15 +38,15 @@ Midscene.js is an AI-powered automation SDK with the abilities to control the pa
 
 | Instruction  | Video |
 | :---:  | :---: |
-| Post a Twitter      |    <video src="https://github.com/user-attachments/assets/bb3d695a-fbff-4af1-b6cc-5e967c07ccee" height="300" />    |
+| Post a Tweet      |    <video src="https://github.com/user-attachments/assets/bb3d695a-fbff-4af1-b6cc-5e967c07ccee" height="300" />    |
 | Use JS code to drive task orchestration, collect information about Jay Chou's concert, and write it into Google Docs   | <video src="https://github.com/user-attachments/assets/75474138-f51f-4c54-b3cf-46d61d059999" height="300" />        |
 
 
-## New open-source model choice - UI-TARS 📢
+## 📢 New open-source model choice - UI-TARS 
 
 From version v0.10.0, we support a new open-source model named [`UI-TARS`](https://github.com/bytedance/ui-tars). Read more about it in [Choose a model](https://midscenejs.com/choose-a-model).
 
-## Features 💡
+## 💡 Features
 
 - **Natural Language Interaction 👆**: Describe the steps, and let Midscene plan and control the user interface for you
 - **Understand UI, Answer in JSON 🔍**: Provide prompts regarding the desired data format, and then receive the expected response in JSON format.
@@ -55,13 +55,23 @@ From version v0.10.0, we support a new open-source model named [`UI-TARS`](https
 - **Visualized Report for Debugging 🎞️**: With our visualized report file, you can easily understand and debug the whole process.
 - **Totally Open Source! 🔥**: Experience a whole new world of automation development. Enjoy!
 
-## Models ✨
+## ✨ Model Choices
 
 - You can use general-purpose LLMs like `gpt-4o`, it works well for most cases. And also, `gemini-1.5-pro`, `qwen-vl-max-latest` are supported.
 - You can also use [`UI-TARS`](https://github.com/bytedance/ui-tars) model, which is an **open-source model** dedicated for UI automation. You can deploy it on your own server, and it will dramatically improve the performance and data privacy. 
 - Read more about [Choose a model](https://midscenejs.com/choose-a-model)
 
-## Resources 📄
+## 👀 Comparing to ...
+
+There are so many UI automation tools out there, and each one seems to be all-powerful. What's special about Midscene.js?
+
+* Debugging Experience: You will soon find that debugging and maintaining automation scripts is the real challenge point. No matter how magic the demo is, you still need to debug the process to make it stable over time. Midscene.js offers a visualized report file, a built-in playground, and a Chrome Extension to debug the entire process. This is what most developers really need. And we're continuing to work on improving the debugging experience.
+
+* Open Source, Free, Deploy as you want: Midscene.js is an open-source project. It's decoupled from any cloud service and model provider, you can choose either public or private deployment. There is always a suitable plan for your business.
+
+* Integrate with Javascript: You can always bet on Javascript 😎
+
+## 📄 Resources 
 
 * [Home Page: https://midscenejs.com](https://midscenejs.com/)
 * [Quick Experience By Chrome Extension](https://midscenejs.com/quick-experience.html), this is where you should get started 
@@ -74,12 +84,12 @@ From version v0.10.0, we support a new open-source model named [`UI-TARS`](https
 * [Choose a model](https://midscenejs.com/choose-a-model.html)
 * [Config Model and Provider](https://midscenejs.com/model-provider.html)
 
-## Community
+## 🤝 Community
 
-* [Discord](https://discord.gg/AFHJBdnn)
+* [Discord](https://discord.gg/XEYR3tmZ)
 * [Follow us on X](https://x.com/midscene_ai)
 * [Lark Group](https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=291q2b25-e913-411a-8c51-191e59aab14d)
 
-## License
+## 📝 License
 
 Midscene.js is [MIT licensed](https://github.com/web-infra-dev/midscene/blob/main/LICENSE).

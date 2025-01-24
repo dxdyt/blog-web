@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2024-10-12T12:20:00+08:00
+date: 2025-01-24T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727230965494-2674a6342a45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727230965494-2674a6342a45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736264335869-70a53a2e49b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736264335869-70a53a2e49b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1727230965494-2674a6342a
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/Generative-AI-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/Generative-AI-For-Beginners/network/?WT.mc_id=academic-105485-koreyst)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/Generative-AI-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/Generative-AI-For-Beginners/stargazers/?WT.mc_id=academic-105485-koreyst)
 
-[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)
+[![](https://dcbadge.limes.pink/api/server/ByRwuEEgH4)](https://aka.ms/genai-discord?WT.mc_id=academic-105485-koreyst)
 
 # Generative AI for Beginners (Version 3) - A Course
 
@@ -37,7 +37,7 @@ Lessons are labeled either "Learn" lessons explaining a Generative AI concept or
 Each lesson also includes a "Keep Learning" section with additional learning tools.
 
 ## What You Need
-### To run this code of this course, you can use either: 
+### To run the code of this course, you can use either: 
  - [Azure OpenAI Service](https://azure.microsoft.com/products/ai-services/openai-service?WT.mc_id=academic-105485-koreyst) - **Lessons:** "aoai-assignment"
  - [GitHub Marketplace Model Catalog](https://github.com/marketplace/models?WT.mc_id=academic-105485-koreyst) - **Lessons:** "githubmodels"
  - [OpenAI API](https://platform.openai.com/docs/quickstart?context=python?WT.mc_id=academic-105485-koreyst) - **Lessons:** "oai-assignment" 

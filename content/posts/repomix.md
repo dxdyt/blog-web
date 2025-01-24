@@ -1,9 +1,9 @@
 ---
 title: repomix
-date: 2025-01-22T12:20:00+08:00
+date: 2025-01-24T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735052713180-2dd81cbe3281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735052713180-2dd81cbe3281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735754953434-6de0d3b531f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735754953434-6de0d3b531f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
 ---
 
 # [yamadashy/repomix](https://github.com/yamadashy/repomix)
@@ -118,6 +118,14 @@ The website offers several convenient features:
 - Customizable output format (Plain Text, XML, or Markdown)
 - Instant token count estimation
 - Much more!
+
+### Using The VSCode Extension ⚡️
+
+A community-maintained VSCode extension lets you run Repomix right inside your editor with just a few clicks. Run it on any folder, manage outputs seamlessly, and control everything through VSCode's intuitive interface. 
+
+Want your output as a file or just the content? Need automatic cleanup? This extension has you covered. Plus, it works smoothly with your existing repomix.config.json.
+
+Try it now on the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=DorianMassoulier.repomix-runner)!
 
 ### Alternative Tools 🛠️
 
