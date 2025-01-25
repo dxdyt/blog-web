@@ -1,9 +1,9 @@
 ---
 title: midscene
-date: 2025-01-24T12:20:14+08:00
+date: 2025-01-25T12:18:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736148391814-1734e7acf55c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736148391814-1734e7acf55c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735857749394-703e8a4d926b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc3Nzg2ODl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735857749394-703e8a4d926b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc3Nzg2ODl8&ixlib=rb-4.0.3
 ---
 
 # [web-infra-dev/midscene](https://github.com/web-infra-dev/midscene)
@@ -35,6 +35,8 @@ English | [简体中文](./README.zh.md)
 Midscene.js is an AI-powered automation SDK with the abilities to control the page, perform assertions and extract data in JSON format using natural language.
 
 ## Showcases
+
+The following recorded example video is based on the [UI-TARS 7B SFT](https://huggingface.co/bytedance-research/UI-TARS-7B-SFT) model, and the video has not been sped up at all~
 
 | Instruction  | Video |
 | :---:  | :---: |
