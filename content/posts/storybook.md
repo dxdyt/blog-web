@@ -1,9 +1,9 @@
 ---
 title: storybook
-date: 2025-01-25T12:18:49+08:00
+date: 2025-01-26T12:19:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735216228027-fe31c23474ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc3Nzg2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735216228027-fe31c23474ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc3Nzg2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735542062685-52ddf1be6405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735542062685-52ddf1be6405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
 ---
 
 # [storybookjs/storybook](https://github.com/storybookjs/storybook)

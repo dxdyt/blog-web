@@ -1,9 +1,9 @@
 ---
 title: stagehand
-date: 2025-01-11T12:19:22+08:00
+date: 2025-01-26T12:18:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719125217488-be5eab036dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719125217488-be5eab036dd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736532496900-af334a4bce1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736532496900-af334a4bce1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
 ---
 
 # [browserbase/stagehand](https://github.com/browserbase/stagehand)
@@ -45,17 +45,36 @@ featuredImagePreview: https://images.unsplash.com/photo-1719125217488-be5eab036d
   </a>
 </p>
 
+<p align="center">
+	<a href="https://trendshift.io/repositories/12122" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12122" alt="browserbase%2Fstagehand | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</p>
+
 ---
 
-Stagehand is the easiest way to build browser automations. It is fully compatible with [Playwright](https://playwright.dev/), offering three simple AI APIs (`act`, `extract`, and `observe`) on top of the base Playwright `Page` class that provide the building blocks for web automation via natural language. It also makes Playwright more accessible to non-technical users and less vulnerable to minor changes in the UI/DOM.
+Stagehand is the easiest way to build browser automations. It is fully compatible with [Playwright](https://playwright.dev/), offering three simple AI APIs (`act`, `extract`, and `observe`) on top of the base Playwright `Page` class that provide the building blocks for web automation via natural language. 
 
-Anything that can be done in a browser can be done with Stagehand. Consider:
+Here's a sample of what you can do with Stagehand:
 
-1. Go to Hacker News and extract the top stories of the day
-1. Log into Amazon, search for AirPods, and buy the most relevant product
-1. Go to ESPN, search for Steph Curry, and get stats for his last 10 games
+```typescript
+// Keep your existing Playwright code unchanged
+await page.goto("https://docs.stagehand.dev");
 
-Stagehand makes it easier to write durable, performant browser automation code. When used with [Browserbase](https://browserbase.com/), it offers unparalleled debugging tools like session replay and step-by-step debugging.
+// Stagehand AI: Act on the page
+await page.act("click on the 'Quickstart'");
+
+// Stagehand AI: Extract data from the page
+const { description } = await page.extract({
+  instruction: "extract the description of the page",
+  schema: z.object({
+    description: z.string(),
+  }),
+});
+```
+
+## Why?
+**Stagehand adds determinism to otherwise unpredictable agents.**
+
+While there's no limit to what you could instruct Stagehand to do, our primitives allow you to control how much you want to leave to an AI. It works best when your code is a sequence of atomic actions. Instead of writing a single script for a single website, Stagehand allows you to write durable, self-healing, and repeatable web automation workflows that actually work.
 
 > [!NOTE] 
 > `Stagehand` is currently available as an early release, and we're actively seeking feedback from the community. Please join our [Slack community](https://join.slack.com/t/stagehand-dev/shared_invite/zt-2tdncfgkk-fF8y5U0uJzR2y2_M9c9OJA) to stay updated on the latest developments and provide feedback.
