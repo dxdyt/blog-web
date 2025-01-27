@@ -1,9 +1,9 @@
 ---
 title: chatbox
-date: 2024-11-22T12:22:36+08:00
+date: 2025-01-27T12:20:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729280747395-db536fcdc305?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735405659018-b63cdfc215de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735405659018-b63cdfc215de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
 ---
 
 # [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)
@@ -251,9 +251,6 @@ npm run package:all
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/benn)
 
-| Paypal                                            | Wechat Pay                                      | Ali Pay                                      |
-| ------------------------------------------------- | ----------------------------------------------- | -------------------------------------------- |
-| [**`Paypal`**](https://www.paypal.me/tobennhuang) | <img src="./doc/statics/wechat_pay.JPG" height="240" /> | <img src="./doc/statics/ali_pay.PNG" height="240" /> |
 
 ## Star History
 

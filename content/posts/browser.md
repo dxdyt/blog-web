@@ -1,9 +1,9 @@
 ---
 title: browser
-date: 2025-01-26T12:18:35+08:00
+date: 2025-01-27T12:19:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736532496900-af334a4bce1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736532496900-af334a4bce1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
 ---
 
 # [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
@@ -144,9 +144,9 @@ brew install cmake
 
 You can run `make install` to install deps all in one (or `make install-dev` if you need the development versions).
 
-Be aware that the build task is very long and cpu consuming, as you will build from sources all dependancies, including the v8 Javascript engine.
+Be aware that the build task is very long and cpu consuming, as you will build from sources all dependencies, including the v8 Javascript engine.
 
-#### Step by step build dependancy
+#### Step by step build dependency
 
 The project uses git submodules for dependencies.
 

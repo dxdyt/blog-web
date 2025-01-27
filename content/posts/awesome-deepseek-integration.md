@@ -1,9 +1,9 @@
 ---
 title: awesome-deepseek-integration
-date: 2025-01-26T12:18:04+08:00
+date: 2025-01-27T12:20:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736532496900-af334a4bce1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736532496900-af334a4bce1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc4NjUwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735405659018-b63cdfc215de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735405659018-b63cdfc215de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)
@@ -68,12 +68,12 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/cherrystudio/README.md">Cherry Studio</a></td>
         <td>A powerful desktop AI assistant for producer</td>
     </tr>
-    </tr>
+    <tr>
         <td> <img src="https://tomemo.top/images/logo.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/tomemo/README.md"> ToMemo (iOS, ipadOS) </a> </td>
         <td> A phrasebook + clipboard history + keyboard iOS app with integrated AI macromodeling for quick output use in the keyboard.</td>
     </tr>
-    </tr>
+    <tr>
         <td> <img src="https://raw.githubusercontent.com/buxuku/video-subtitle-master/refs/heads/main/resources/icon.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/buxuku/video-subtitle-master">Video Subtitle Master</a></td>
         <td> Batch generate subtitles for videos, with the ability to translate subtitles into other languages. This is a client-side tool that supports both Mac and Windows platforms and integrates with multiple translation services such as Baidu, Volcengine, DeepLx, OpenAI, DeepSeek, and Ollama.</td>
@@ -83,12 +83,12 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <a href="https://github.com/UnknownEnergy/chatgpt-api/blob/master/README.md">Chatworm</a> </td>
         <td> Chatworm is a webapp for multiple cutting-edge LLM models, open-source and also available on Android. </td>
     </tr>
-    </tr>
+    <tr>
         <td> <img src="https://raw.githubusercontent.com/tisfeng/ImageBed/main/uPic/icon_512x512@2x.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/tisfeng/Easydict">Easydict</a></td>
         <td> Easydict is a concise and easy-to-use translation dictionary macOS App that allows you to easily and elegantly look up words or translate text. Supports calling large language model APIs for translation.</td>
     </tr>
-    </tr>
+    <tr>
         <td> <img src="https://www.raycast.com/favicon-production.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="docs/raycast/README.md">Raycast</a></td>
         <td> <a href="https://raycast.com/?via=ViGeng">Raycast</a> is a productivity tool for macOS that lets you control your tools with a few keystrokes. It supports various extensions including DeepSeek AI.</td>
@@ -124,14 +124,29 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td><a href="https://www.wordware.ai/">Wordware</a> is a toolkit that enables anyone to build, iterate, and deploy their AI stack with just natural language.</td>
     </tr>
     <tr>
+        <td> <img src="https://framerusercontent.com/images/xRJ6vNo9mUYeVNxt0KITXCXEuSk.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/langgenius/dify/">Dify</a> </td>
+        <td> <a href="https://dify.ai/">Dify</a> is an LLM application development platform that supports DeepSeek models for creating assistants, workflows, text generators, and more. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/enricoros/big-AGI/refs/heads/v2-dev/public/favicon.ico" alt="Big-AGI" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/enricoros/big-AGI/blob/v2-dev/README.md">Big-AGI</a> </td>
+        <td><a href="https://big-agi.com/">Big-AGI</a> is a groundbreaking AI suite designed to democratize access to advanced artificial intelligence for everyone.</td>
+    </tr>
+    <tr>
         <td> <img src="https://github.com/LiberSonora/LiberSonora/blob/main/assets/avatar.jpeg?raw=true" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/LiberSonora/LiberSonora/blob/main/README_en.md">LiberSonora</a> </td>
-        <td> LiberSonora, meaning "Voice of Freedom", is an AI-powered, robust, open-source audiobook toolkit that includes features like intelligent subtitle extraction, AI title generation, multilingual translation, with support for GPU acceleration and batch offline processing</td>
+        <td> LiberSonora, meaning "Voice of Freedom", is an AI-powered, robust, open-source audiobook toolkit that includes features like intelligent subtitle extraction, AI title generation, multilingual translation, with support for GPU acceleration and batch offline processing.</td>
     </tr>
     <tr>
         <td> <img src="https://raw.githubusercontent.com/ripperhe/Bob/master/docs/_media/icon_128.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://bobtranslate.com/">Bob</a></td>
         <td> <a href="https://bobtranslate.com/">Bob</a> is a macOS translation & OCR tool ready to use in any app — right out of the box!</td>
+    </tr>
+    <tr>
+        <td> <img src="https://agenticflow.ai/favicon.ico" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://agenticflow.ai/">AgenticFlow</a> </td>
+        <td> <a href="https://agenticflow.ai/">AgenticFlow</a> is a no-code platform where marketers build agentic AI workflows for go-to-market automation, powered by hundreds of everyday apps as tools for your AI agents.</td>
     </tr>
 </table>
 
@@ -140,7 +155,7 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
 <table>
     <tr>
         <td> <img src="https://panda.fans/_assets/favicons/apple-touch-icon.png" alt="Icon" width="64" height="auto" /> </td>
-        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/anda/README_cn.md">Anda</a> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/anda/README.md">Anda</a> </td>
         <td>A Rust framework for AI agent development, designed to build a highly composable, autonomous, and perpetually memorizing network of AI agents.</td>
     </tr>
 </table>
@@ -167,7 +182,6 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <img src="https://github.com/RockChinQ/QChatGPT/blob/master/res/logo.png?raw=true" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/RockChinQ/QChatGPT">QChatGPT<br/>（QQ）</a> </td>
         <td> A QQ chatbot with high stability, plugin support, and real-time networking. </td>
-        </td>
     </tr>
 </table>
 
@@ -220,6 +234,7 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> Meet Cline, an AI assistant that can use your CLI aNd Editor. </td>
     </tr>
 </table>
+
 ### neovim Extensions
 
 <table>
@@ -313,14 +328,19 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <a href="https://github.com/BerriAI/litellm"> LiteLLM </a> </td>
         <td> Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format. Supports DeepSeek AI with cost tracking as well. </td>
     </tr>
-     <tr>
+    <tr>
         <td> <img src="https://i.postimg.cc/k5Z4YWjt/Screenshot-2025-01-23-at-6-08-01-PM.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/mem0ai/mem0"> Mem0 </a> </td>
         <td> Mem0 enhances AI assistants with an intelligent memory layer, enabling personalized interactions and continuous learning over time. </td>
     </tr>
-     <tr>
+    <tr>
         <td> <img src="https://geneplore.com/img/geneplore_color_logo_circular.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://geneplore.com/bot"> Geneplore AI </a> </td>
         <td> Geneplore AI runs one of the largest AI Discord bots, now with Deepseek v3 and R1. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://www.promptfoo.dev/img/logo-panda.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/promptfoo/README.md"> promptfoo </a> </td>
+        <td> Test and evaluate LLM prompts, including DeepSeek models. Compare different LLM providers, catch regressions, and evaluate responses. </td>
     </tr>
 </table>

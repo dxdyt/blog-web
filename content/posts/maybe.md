@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2024-11-06T12:21:05+08:00
+date: 2025-01-27T12:20:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729234649467-4f34504688f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729234649467-4f34504688f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA4NjY4MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735542062685-52ddf1be6405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735542062685-52ddf1be6405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729234649467-4f34504688
 # Maybe: The OS for your personal finances
 
 <b>Get
-involved: [Discord](https://link.maybe.co/discord) • [Website](https://maybe.co) • [Issues](https://github.com/maybe-finance/maybe/issues)</b>
+involved: [Discord](https://link.maybe.co/discord) • [Website](https://maybefinance.com) • [Issues](https://github.com/maybe-finance/maybe/issues)</b>
 
 _If you're looking for the previous React codebase, you can find it
 at [maybe-finance/maybe-archive](https://github.com/maybe-finance/maybe-archive)._
