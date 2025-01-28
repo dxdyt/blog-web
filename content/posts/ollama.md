@@ -1,20 +1,20 @@
 ---
 title: ollama
-date: 2024-12-11T12:21:08+08:00
+date: 2025-01-28T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732869416322-91784270e2cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732869416322-91784270e2cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgwMzc5NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgwMzc5NDR8&ixlib=rb-4.0.3
 ---
 
 # [ollama/ollama](https://github.com/ollama/ollama)
 
 <div align="center">
- <img alt="ollama" height="200px" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
+  <a href="https://ollama.com" />
+    <img alt="ollama" height="200px" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
+  </a>
 </div>
 
 # Ollama
-
-[![Discord](https://dcbadge.vercel.app/api/server/ollama?style=flat&compact=true)](https://discord.gg/ollama)
 
 Get up and running with large language models.
 
@@ -43,6 +43,11 @@ The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `olla
 - [ollama-python](https://github.com/ollama/ollama-python)
 - [ollama-js](https://github.com/ollama/ollama-js)
 
+### Community
+
+- [Discord](https://discord.gg/ollama)
+- [Reddit](https://reddit.com/r/ollama)
+
 ## Quickstart
 
 To run and chat with [Llama 3.2](https://ollama.com/library/llama3.2):
@@ -66,8 +71,8 @@ Here are some example models that can be downloaded:
 | Llama 3.2 Vision   | 90B        | 55GB  | `ollama run llama3.2-vision:90b` |
 | Llama 3.1          | 8B         | 4.7GB | `ollama run llama3.1`            |
 | Llama 3.1          | 405B       | 231GB | `ollama run llama3.1:405b`       |
+| Phi 4              | 14B        | 9.1GB | `ollama run phi4`                |
 | Phi 3 Mini         | 3.8B       | 2.3GB | `ollama run phi3`                |
-| Phi 3 Medium       | 14B        | 7.9GB | `ollama run phi3:medium`         |
 | Gemma 2            | 2B         | 1.6GB | `ollama run gemma2:2b`           |
 | Gemma 2            | 9B         | 5.5GB | `ollama run gemma2`              |
 | Gemma 2            | 27B        | 16GB  | `ollama run gemma2:27b`          |
@@ -107,7 +112,7 @@ Ollama supports importing GGUF models in the Modelfile:
    ollama run example
    ```
 
-### Import from PyTorch or Safetensors
+### Import from Safetensors
 
 See the [guide](docs/import.md) on importing models for more information.
 
@@ -142,7 +147,7 @@ ollama run mario
 Hello! It's your friend Mario.
 ```
 
-For more examples, see the [examples](examples) directory. For more information on working with a Modelfile, see the [Modelfile](docs/modelfile.md) documentation.
+For more information on working with a Modelfile, see the [Modelfile](docs/modelfile.md) documentation.
 
 ## CLI Reference
 
@@ -308,6 +313,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [AnythingLLM (Docker + MacOs/Windows/Linux native app)](https://github.com/Mintplex-Labs/anything-llm)
 - [Ollama Basic Chat: Uses HyperDiv Reactive UI](https://github.com/rapidarchitect/ollama_basic_chat)
 - [Ollama-chats RPG](https://github.com/drazdra/ollama-chats)
+- [IntelliBar](https://intellibar.app/) (AI-powered assistant for macOS)
 - [QA-Pilot](https://github.com/reid41/QA-Pilot) (Interactive chat tool that can leverage Ollama models for rapid understanding and navigation of GitHub code repositories)
 - [ChatOllama](https://github.com/sugarforever/chat-ollama) (Open Source Chatbot based on Ollama with Knowledge Bases)
 - [CRAG Ollama Chat](https://github.com/Nagi-ovo/CRAG-Ollama-Chat) (Simple Web Search with Corrective RAG)
@@ -337,6 +343,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [BoltAI for Mac](https://boltai.com) (AI Chat Client for Mac)
 - [Harbor](https://github.com/av/harbor) (Containerized LLM Toolkit with Ollama as default backend)
 - [PyGPT](https://github.com/szczyglis-dev/py-gpt) (AI desktop assistant for Linux, Windows and Mac)
+- [Alpaca](https://github.com/Jeffser/Alpaca) (An Ollama client application for linux and macos made with GTK4 and Adwaita)
 - [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT/blob/master/docs/content/platform/ollama.md) (AutoGPT Ollama integration)
 - [Go-CREW](https://www.jonathanhecl.com/go-crew/) (Powerful Offline RAG in Golang)
 - [PartCAD](https://github.com/openvmp/partcad/) (CAD model generation with OpenSCAD and CadQuery)
@@ -371,6 +378,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Abbey](https://github.com/US-Artificial-Intelligence/abbey) (A configurable AI interface server with notebooks, document storage, and YouTube support)
 - [Minima](https://github.com/dmayboroda/minima) (RAG with on-premises or fully local workflow)
 - [aidful-ollama-model-delete](https://github.com/AidfulAI/aidful-ollama-model-delete) (User interface for simplified model cleanup)
+- [Perplexica](https://github.com/ItzCrazyKns/Perplexica) (An AI-powered search engine & an open-source alternative to Perplexity AI)
+- [AI Toolkit for Visual Studio Code](https://aka.ms/ai-tooklit/ollama-docs) (Microsoft-official VSCode extension to chat, test, evaluate models with Ollama support, and use them in your AI applications.)
 
 ### Cloud
 
@@ -383,6 +392,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [oterm](https://github.com/ggozad/oterm)
 - [Ellama Emacs client](https://github.com/s-kostyaev/ellama)
 - [Emacs client](https://github.com/zweifisch/ollama)
+- [neollama](https://github.com/paradoxical-dev/neollama) UI client for interacting with models from within Neovim
 - [gen.nvim](https://github.com/David-Kunz/gen.nvim)
 - [ollama.nvim](https://github.com/nomnivore/ollama.nvim)
 - [ollero.nvim](https://github.com/marco-souza/ollero.nvim)
@@ -417,6 +427,8 @@ See the [API documentation](./docs/api.md) for all endpoints.
 
 ### Database
 
+- [pgai](https://github.com/timescale/pgai) - PostgreSQL as a vector database (Create and search embeddings from Ollama models using pgvector)
+   - [Get started guide](https://github.com/timescale/pgai/blob/main/docs/vectorizer-quick-start.md)
 - [MindsDB](https://github.com/mindsdb/mindsdb/blob/staging/mindsdb/integrations/handlers/ollama_handler/README.md) (Connects Ollama models with nearly 200 data platforms and apps)
 - [chromem-go](https://github.com/philippgille/chromem-go/blob/v0.5.0/embed_ollama.go) with [example](https://github.com/philippgille/chromem-go/tree/v0.5.0/examples/rag-wikipedia-ollama)
 - [Kangaroo](https://github.com/dbkangaroo/kangaroo) (AI-powered SQL client and admin tool for popular databases)
@@ -435,10 +447,12 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [LangChain](https://python.langchain.com/docs/integrations/llms/ollama) and [LangChain.js](https://js.langchain.com/docs/integrations/chat/ollama/) with [example](https://js.langchain.com/docs/tutorials/local_rag/)
 - [Firebase Genkit](https://firebase.google.com/docs/genkit/plugins/ollama)
 - [crewAI](https://github.com/crewAIInc/crewAI)
+- [Yacana](https://remembersoftwares.github.io/yacana/) (User-friendly multi-agent framework for brainstorming and executing predetermined flows with built-in tool integration)
 - [Spring AI](https://github.com/spring-projects/spring-ai) with [reference](https://docs.spring.io/spring-ai/reference/api/chat/ollama-chat.html) and [example](https://github.com/tzolov/ollama-tools)
 - [LangChainGo](https://github.com/tmc/langchaingo/) with [example](https://github.com/tmc/langchaingo/tree/main/examples/ollama-completion-example)
 - [LangChain4j](https://github.com/langchain4j/langchain4j) with [example](https://github.com/langchain4j/langchain4j-examples/tree/main/ollama-examples/src/main/java)
 - [LangChainRust](https://github.com/Abraxas-365/langchain-rust) with [example](https://github.com/Abraxas-365/langchain-rust/blob/main/examples/llm_ollama.rs)
+- [LangChain for .NET](https://github.com/tryAGI/LangChain) with [example](https://github.com/tryAGI/LangChain/blob/main/examples/LangChain.Samples.OpenAI/Program.cs)
 - [LLPhant](https://github.com/theodo-group/LLPhant?tab=readme-ov-file#ollama)
 - [LlamaIndex](https://docs.llamaindex.ai/en/stable/examples/llm/ollama/) and [LlamaIndexTS](https://ts.llamaindex.ai/modules/llms/available_llms/ollama)
 - [LiteLLM](https://github.com/BerriAI/litellm)
@@ -478,6 +492,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [GoLamify](https://github.com/prasad89/golamify)
 - [Ollama for Haskell](https://github.com/tusharad/ollama-haskell)
 - [multi-llm-ts](https://github.com/nbonamy/multi-llm-ts) (A Typescript/JavaScript library allowing access to different LLM in unified API)
+- [LlmTornado](https://github.com/lofcz/llmtornado) (C# library providing a unified interface for major FOSS & Commercial inference APIs)
 
 ### Mobile
 
@@ -527,6 +542,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [AI Summmary Helper plugin](https://github.com/philffm/ai-summary-helper)
 - [TextCraft](https://github.com/suncloudsmoon/TextCraft) (Copilot in Word alternative using Ollama)
 - [Alfred Ollama](https://github.com/zeitlings/alfred-ollama) (Alfred Workflow)
+- [TextLLaMA](https://github.com/adarshM84/TextLLaMA) A Chrome Extension that helps you write emails, correct grammar, and translate into any language
 
 ### Supported backends
 
@@ -535,4 +551,5 @@ See the [API documentation](./docs/api.md) for all endpoints.
 ### Observability
 
 - [OpenLIT](https://github.com/openlit/openlit) is an OpenTelemetry-native tool for monitoring Ollama Applications & GPUs using traces and metrics.
-- [HoneyHive](https://docs.honeyhive.ai/integrations/ollama) is an AI observability and evaluation platform for AI agents. Use HoneyHive to evaluate agent performance, interrogate failures, and monitor quality in production. 
+- [HoneyHive](https://docs.honeyhive.ai/integrations/ollama) is an AI observability and evaluation platform for AI agents. Use HoneyHive to evaluate agent performance, interrogate failures, and monitor quality in production.
+- [Langfuse](https://langfuse.com/docs/integrations/ollama) is an open source LLM observability platform that enables teams to collaboratively monitor, evaluate and debug AI applications.
