@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-V2
-date: 2024-05-11T12:17:43+08:00
+date: 2025-01-29T12:19:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712925975246-7b1b8df829e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712925975246-7b1b8df829e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU0MDA5Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736524579403-327b0eddc6f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736524579403-327b0eddc6f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-V2](https://github.com/deepseek-ai/DeepSeek-V2)
@@ -13,47 +13,41 @@ featuredImagePreview: https://images.unsplash.com/photo-1712925975246-7b1b8df829
 <!-- markdownlint-disable no-duplicate-header -->
 
 <div align="center">
-  <img src="figures/logo.svg" width="60%" alt="DeepSeek LLM" />
+  <img src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/logo.svg?raw=true" width="60%" alt="DeepSeek-V2" />
 </div>
 <hr>
-<div align="center">
-
-  <a href="https://www.deepseek.com/" target="_blank">
-    <img alt="Homepage" src="figures/badge.svg" />
+<div align="center" style="line-height: 1;">
+  <a href="https://www.deepseek.com/" target="_blank" style="margin: 2px;">
+    <img alt="Homepage" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://chat.deepseek.com/" target="_blank">
-    <img alt="Chat" src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20LLM-536af5?color=536af5&logoColor=white" />
+  <a href="https://chat.deepseek.com/" target="_blank" style="margin: 2px;">
+    <img alt="Chat" src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20V2-536af5?color=536af5&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="https://huggingface.co/deepseek-ai" target="_blank">
-    <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white" />
-  </a>
-
-</div>
-
-<div align="center">
-
-  <a href="https://discord.gg/Tc7c45Zzu5" target="_blank">
-    <img alt="Discord" src="https://img.shields.io/badge/Discord-DeepSeek%20AI-7289da?logo=discord&logoColor=white&color=7289da" />
-  </a>
-  <a href="figures/qr.jpeg" target="_blank">
-    <img alt="Wechat" src="https://img.shields.io/badge/WeChat-DeepSeek%20AI-brightgreen?logo=wechat&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/deepseek_ai" target="_blank">
-    <img alt="Twitter Follow" src="https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white" />
-  </a>
-
-</div>
-
-<div align="center">
-
-  <a href="LICENSE-CODE">
-    <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53">
-  </a>
-  <a href="LICENSE-MODEL">
-    <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53">
+  <a href="https://huggingface.co/deepseek-ai" target="_blank" style="margin: 2px;">
+    <img alt="Hugging Face" src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
 
+<div align="center" style="line-height: 1;">
+  <a href="https://discord.gg/Tc7c45Zzu5" target="_blank" style="margin: 2px;">
+    <img alt="Discord" src="https://img.shields.io/badge/Discord-DeepSeek%20AI-7289da?logo=discord&logoColor=white&color=7289da" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+  <a href="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/qr.jpeg?raw=true" target="_blank" style="margin: 2px;">
+    <img alt="Wechat" src="https://img.shields.io/badge/WeChat-DeepSeek%20AI-brightgreen?logo=wechat&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+  <a href="https://twitter.com/deepseek_ai" target="_blank" style="margin: 2px;">
+    <img alt="Twitter Follow" src="https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+</div>
+
+<div align="center" style="line-height: 1;">
+  <a href="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/LICENSE-CODE" style="margin: 2px;">
+    <img alt="Code License" src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+  <a href="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/LICENSE-MODEL" style="margin: 2px;">
+    <img alt="Model License" src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53" style="display: inline-block; vertical-align: middle;"/>
+  </a>
+</div>
 
 <p align="center">
   <a href="#2-model-downloads">Model Download</a> |
@@ -74,30 +68,37 @@ featuredImagePreview: https://images.unsplash.com/photo-1712925975246-7b1b8df829
 Today, we’re introducing DeepSeek-V2, a strong Mixture-of-Experts (MoE) language model characterized by economical training and efficient inference. It comprises 236B total parameters, of which 21B are activated for each token. Compared with DeepSeek 67B, DeepSeek-V2 achieves stronger performance, and meanwhile saves 42.5% of training costs, reduces the KV cache by 93.3%, and boosts the maximum generation throughput to 5.76 times. 
 
 <p align="center">
-
 <div style="display: flex; justify-content: center;">
-    <img src="figures/activationparameters.png" style="height:300px; width:auto; margin-right:10px">
-    <img src="figures/trainingcost.png" style="height:300px; width:auto; margin-left:10px">
+    <img src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/activationparameters.png?raw=true" style="height:300px; width:auto; margin-right:10px">
+    <img src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/trainingcost.png?raw=true" style="height:300px; width:auto; margin-left:10px">
 </div>
 </p>
+
 We pretrained DeepSeek-V2 on a diverse and high-quality corpus comprising 8.1 trillion tokens. This comprehensive pretraining was followed by a process of Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL) to fully unleash the model's capabilities. The evaluation results validate the effectiveness of our approach as DeepSeek-V2 achieves remarkable performance on both standard benchmarks and open-ended generation evaluation.
 
-## 2. Model Downloads
+## 2. News
+
+- 2024.05.16: We released the DeepSeek-V2-Lite.
+- 2024.05.06: We released the DeepSeek-V2.
+
+## 3. Model Downloads
 
 <div align="center">
 
-| **Model** | **Context Length** | **Download** |
-| :------------: | :------------: | :------------: |
-| DeepSeek-V2   | 128k   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V2)   |
-| DeepSeek-V2-Chat (RL)   | 128k   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat)   |
+| **Model** | **#Total Params** | **#Activated Params** | **Context Length** | **Download** |
+| :------------: | :------------: | :------------: | :------------: | :------------: |
+| DeepSeek-V2-Lite | 16B | 2.4B | 32k   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite)   |
+| DeepSeek-V2-Lite-Chat (SFT)   | 16B | 2.4B | 32k   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V2-Lite-Chat)   |
+| DeepSeek-V2   | 236B | 21B |  128k   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V2)   |
+| DeepSeek-V2-Chat (RL)   | 236B | 21B |  128k   | [🤗 HuggingFace](https://huggingface.co/deepseek-ai/DeepSeek-V2-Chat)   |
 
 </div>
 
 Due to the constraints of HuggingFace, the open-source code currently experiences slower performance than our internal codebase when running on GPUs with Huggingface. To facilitate the efficient execution of our model, we offer a dedicated vllm solution that optimizes performance for running our model effectively.
 
-## 3. Evaluation Results
+## 4. Evaluation Results
 ### Base Model
-#### Standard Benchmark 
+#### Standard Benchmark (Models larger than 67B)
 
 <div align="center">
 
@@ -113,17 +114,34 @@ Due to the constraints of HuggingFace, the open-source code currently experience
 | **Math** | Math | 42.2 | 42.5 | 18.7 | 43.6 |
 
 </div>
+
+#### Standard Benchmark (Models smaller than 16B)
+<div align="center">
+
+| **Benchmark** | **Domain** | **DeepSeek 7B (Dense)** | **DeepSeekMoE 16B** | **DeepSeek-V2-Lite (MoE-16B)** |
+|:-------------:|:----------:|:--------------:|:-----------------:|:--------------------------:|
+| **Architecture**      | -    | MHA+Dense           | MHA+MoE              | MLA+MoE                       |
+| **MMLU**      | English    | 48.2           | 45.0              | 58.3                       |
+| **BBH**       | English    | 39.5           | 38.9              | 44.1                       |
+| **C-Eval**    | Chinese    | 45.0           | 40.6              | 60.3                       |
+| **CMMLU**     | Chinese    | 47.2           | 42.5              | 64.3                       |
+| **HumanEval** | Code       | 26.2           | 26.8              | 29.9                       |
+| **MBPP**      | Code       | 39.0           | 39.2              | 43.2                       |
+| **GSM8K**     | Math       | 17.4           | 18.8              | 41.1                       |
+| **Math**      | Math       | 3.3            | 4.3               | 17.1                       |
+
+</div>
 For more evaluation details, such as few-shot settings and prompts, please check our paper. 
 
 #### Context Window
 <p align="center">
-  <img width="80%" src="figures/niah.png">
+  <img width="80%" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/niah.png?raw=true">
 </p>
 
 Evaluation results on the ``Needle In A Haystack`` (NIAH) tests.  DeepSeek-V2 performs well across all context window lengths up to **128K**. 
 
 ### Chat Model
-#### Standard Benchmark 
+#### Standard Benchmark (Models larger than 67B)
 <div align="center">
 
 | Benchmark | Domain         | QWen1.5 72B Chat | Mixtral 8x22B | LLaMA3 70B Instruct | DeepSeek-V1 Chat (SFT) | DeepSeek-V2 Chat (SFT) | DeepSeek-V2 Chat (RL) |
@@ -134,16 +152,33 @@ Evaluation results on the ``Needle In A Haystack`` (NIAH) tests.  DeepSeek-V2 pe
 | **CMMLU**     | Chinese        | 82.9             | 61.0          | 70.7                | 67.8        | 82.4                 | 81.6                 |
 | **HumanEval** | Code           | 68.9             | 75.0          | 76.2                | 73.8        | 76.8                 | 81.1                 |
 | **MBPP**      | Code           | 52.2             | 64.4          | 69.8                | 61.4        | 70.4                 | 72.0                 |
-|   **LiveCodeBench  (0901-0401)**     | Code           | 18.8             | 25.0          | 30.5                | 18.3        | 28.7                 | 32.5                 |
+|   **LiveCodeBench  (0901-0401)**     | Code       | 18.8          | 25.0                | 30.5        | 18.3                 | 28.7                 | 32.5                 |
 | **GSM8K**     | Math           | 81.9             | 87.9          | 93.2                | 84.1        | 90.8                 | 92.2                 |
 | **Math**      | Math           | 40.6             | 49.8          | 48.5                | 32.6        | 52.7                 | 53.9                 |
+
+</div>
+
+#### Standard Benchmark (Models smaller than 16B)
+
+<div align="center">
+
+| Benchmark | Domain         | DeepSeek 7B Chat (SFT) | DeepSeekMoE 16B Chat (SFT) | DeepSeek-V2-Lite 16B Chat (SFT) |
+|:-----------:|:----------------:|:------------------:|:---------------:|:---------------------:|
+| **MMLU**      | English        | 49.7             | 47.2          | 55.7                |
+| **BBH**       | English        | 43.1             | 42.2          | 48.1                |
+| **C-Eval**    | Chinese        | 44.7             | 40.0          | 60.1                |
+| **CMMLU**     | Chinese        | 51.2             | 49.3          | 62.5                |
+| **HumanEval** | Code           | 45.1             | 45.7          | 57.3                |
+| **MBPP**      | Code           | 39.0             | 46.2          | 45.8                |
+| **GSM8K**     | Math           | 62.6             | 62.2          | 72.0                |
+| **Math**      | Math           | 14.7             | 15.2          | 27.9                |
 
 </div>
 
 #### English Open Ended Generation Evaluation
 We evaluate our model on AlpacaEval 2.0 and MTBench, showing the competitive performance of DeepSeek-V2-Chat-RL on English conversation generation. 
 <p align="center">
-  <img width="50%" src="figures/mtbench.png" />
+  <img width="50%" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/mtbench.png?raw=true" />
 </p>
 
 #### Chinese Open Ended Generation Evaluation
@@ -163,6 +198,7 @@ We evaluate our model on AlpacaEval 2.0 and MTBench, showing the competitive per
 | DeepSeek-67B-Chat | 开源 | 6.43 | 5.75 | 7.11 |
 | Yi-34B-Chat (零一万物) | 开源 | 6.12 | 4.86 | 7.38 |
 | gpt-3.5-turbo-0613 | 闭源 | 6.08 | 5.35 | 6.71 |
+| DeepSeek-V2-Lite 16B Chat | 开源 | 6.01 | 4.71 | 7.32 |
 
 </div>
 
@@ -170,31 +206,30 @@ We evaluate our model on AlpacaEval 2.0 and MTBench, showing the competitive per
 We evaluate our model on LiveCodeBench (0901-0401), a benchmark designed for live coding challenges. As illustrated, DeepSeek-V2 demonstrates considerable proficiency in LiveCodeBench, achieving a Pass@1 score that surpasses several other sophisticated models. This performance highlights the model's effectiveness in tackling live coding tasks.
 
 <p align="center">
-  <img width="50%" src="figures/code_benchmarks.png">
+  <img width="50%" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/code_benchmarks.png?raw=true">
 </p>
 
-## 4. Model Architecture
+## 5. Model Architecture
 DeepSeek-V2 adopts innovative architectures to guarantee economical training and efficient inference： 
 - For attention, we design MLA (Multi-head Latent Attention), which utilizes low-rank key-value union compression to eliminate the bottleneck of inference-time key-value cache, thus supporting efficient inference. 
 - For Feed-Forward Networks (FFNs), we adopt DeepSeekMoE architecture, a high-performance MoE architecture that enables training stronger models at lower costs. 
 
 <p align="center">
-  <img width="90%" src="figures/architecture.png" />
+  <img width="90%" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/architecture.png?raw=true" />
 </p>
 
-## 5. Chat Website
+## 6. Chat Website
 You can chat with the DeepSeek-V2 on DeepSeek's official website: [chat.deepseek.com](https://chat.deepseek.com/sign_in)
 
-## 6. API Platform
+## 7. API Platform
 We also provide OpenAI-Compatible API at DeepSeek Platform: [platform.deepseek.com](https://platform.deepseek.com/). Sign up for over millions of free tokens. And you can also pay-as-you-go at an unbeatable price.
 
 
 <p align="center">
-  <img width="40%" src="figures/model_price.png">
+  <img width="40%" src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/model_price.png?raw=true">
 </p>
 
-
-## 7. How to run locally
+## 8. How to run locally
 **To utilize DeepSeek-V2 in BF16 format for inference, 80GB*8 GPUs are required.**
 ### Inference with Huggingface's Transformers
 You can directly employ [Huggingface's Transformers](https://github.com/huggingface/transformers) for model inference.
@@ -268,6 +303,40 @@ Assistant: {assistant_message_1}<｜end▁of▁sentence｜>User: {user_message_2
 
 Assistant:
 ```
+### Inference with SGLang (recommended)
+
+[SGLang](https://github.com/sgl-project/sglang) currently supports MLA optimizations, FP8 (W8A8), FP8 KV Cache, and Torch Compile, offering the best latency and throughput among open-source frameworks. Here are some example commands to launch an OpenAI API-compatible server:
+
+```bash
+# BF16, tensor parallelism = 8
+python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-V2-Chat --tp 8 --trust-remote-code
+
+# BF16, w/ torch.compile (The compilation can take several minutes)
+python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-V2-Lite-Chat --trust-remote-code --enable-torch-compile
+
+# FP8, tensor parallelism = 8, FP8 KV cache
+python3 -m sglang.launch_server --model deepseek-ai/DeepSeek-V2-Chat --tp 8 --trust-remote-code --quant fp8 --kv-cache-dtype fp8_e5m2
+```
+
+After launching the server, you can query it with OpenAI API
+
+```
+import openai
+client = openai.Client(
+    base_url="http://127.0.0.1:30000/v1", api_key="EMPTY")
+
+# Chat completion
+response = client.chat.completions.create(
+    model="default",
+    messages=[
+        {"role": "system", "content": "You are a helpful AI assistant"},
+        {"role": "user", "content": "List 3 countries and their capitals."},
+    ],
+    temperature=0,
+    max_tokens=64,
+)
+print(response)
+```
 
 ### Inference with vLLM (recommended)
 To utilize [vLLM](https://github.com/vllm-project/vllm) for model inference, please merge this Pull Request into your vLLM codebase: https://github.com/vllm-project/vllm/pull/4650.
@@ -309,10 +378,10 @@ llm = ChatOpenAI(
     temperature=0.85,
     max_tokens=8000)
 ``` 
-## 8. License
+## 9. License
 This code repository is licensed under [the MIT License](LICENSE-CODE). The use of DeepSeek-V2 Base/Chat models is subject to [the Model License](LICENSE-MODEL). DeepSeek-V2 series (including Base and Chat) supports commercial use.
 
-## 9. Citation
+## 10. Citation
 ```
 @misc{deepseekv2,
       title={DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model}, 
@@ -324,5 +393,5 @@ This code repository is licensed under [the MIT License](LICENSE-CODE). The use 
 }
 ```
 
-## 10. Contact
+## 11. Contact
 If you have any questions, please raise an issue or contact us at [service@deepseek.com](service@deepseek.com).

@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-VL
-date: 2024-03-16T12:16:14+08:00
+date: 2025-01-29T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709377059113-3c429b2e0796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709377059113-3c429b2e0796?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA1NjI0NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737176424046-c0c755317477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737176424046-c0c755317477?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-VL](https://github.com/deepseek-ai/DeepSeek-VL)
@@ -142,17 +142,33 @@ tokenizer = vl_chat_processor.tokenizer
 vl_gpt: MultiModalityCausalLM = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True)
 vl_gpt = vl_gpt.to(torch.bfloat16).cuda().eval()
 
+## single image conversation example
 conversation = [
     {
         "role": "User",
         "content": "<image_placeholder>Describe each stage of this image.",
-        "images": ["./images/training_pipelines.jpg"]
+        "images": ["./images/training_pipelines.jpg"],
     },
-    {
-        "role": "Assistant",
-        "content": ""
-    }
+    {"role": "Assistant", "content": ""},
 ]
+
+## multiple images (or in-context learning) conversation example
+# conversation = [
+#     {
+#         "role": "User",
+#         "content": "<image_placeholder>A dog wearing nothing in the foreground, "
+#                    "<image_placeholder>a dog wearing a santa hat, "
+#                    "<image_placeholder>a dog wearing a wizard outfit, and "
+#                    "<image_placeholder>what's the dog wearing?",
+#         "images": [
+#             "images/dog_a.png",
+#             "images/dog_b.png",
+#             "images/dog_c.png",
+#             "images/dog_d.png",
+#         ],
+#     },
+#     {"role": "Assistant", "content": ""}
+# ]
 
 # load images and prepare for inputs
 pil_images = load_pil_images(conversation)
