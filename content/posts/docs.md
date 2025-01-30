@@ -1,9 +1,9 @@
 ---
 title: docs
-date: 2025-01-11T12:20:00+08:00
+date: 2025-01-30T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732951340728-d8b726561d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732951340728-d8b726561d50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737064144135-4e6e46974261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737064144135-4e6e46974261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
 ---
 
 # [inkonchain/docs](https://github.com/inkonchain/docs)
@@ -63,7 +63,7 @@ Our CI/CD setup utilizes GitHub Actions to run automated checks on every pull re
 * **js-lint**: Ensures proper JavaScript code formatting with ESLint.
 * **md-lint**: Checks Markdown code formatting with Remark.
 * **format**: Enforces consistent code style with Prettier.
-* **spell-check**: Uses CSpell to verify correct spelling in documentation. For any unique terms (e.g., "InkChain"), add them to the [`./cspell/project-words.txt`](./cspell/project-words.txt) file to whitelist.
+* **spell-check**: Uses CSpell to verify correct spelling in the documentation. For any unique terms (e.g., "InkChain"), add them to the [`./cspell/project-words.txt`](./cspell/project-words.txt) file to whitelist.
 
 ## 🌐 Feature Branch Deployment
 

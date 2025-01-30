@@ -1,9 +1,9 @@
 ---
 title: DreamCraft3D
-date: 2025-01-29T12:20:01+08:00
+date: 2025-01-30T12:20:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737478598284-b9bc11cb1e9b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737478598284-b9bc11cb1e9b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731432245362-26f9c0f1ba2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731432245362-26f9c0f1ba2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DreamCraft3D](https://github.com/deepseek-ai/DreamCraft3D)
