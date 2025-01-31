@@ -1,74 +1,65 @@
 ---
 title: docs
-date: 2025-01-30T12:20:51+08:00
+date: 2025-01-31T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737064144135-4e6e46974261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737064144135-4e6e46974261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736113246705-c6a5fe0e2359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736113246705-c6a5fe0e2359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
 ---
 
-# [inkonchain/docs](https://github.com/inkonchain/docs)
+# [github/docs](https://github.com/github/docs)
 
-# InkChain Documentation App
+# GitHub Docs <!-- omit in toc -->
+[![Build GitHub Docs On Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new/?repo=github)
 
-An advanced, streamlined documentation platform built with Next.js and Nextra for InkChain.
+This repository contains the documentation website code and Markdown source files for [docs.github.com](https://docs.github.com).
 
-## 🚀 Build & Run
+GitHub's Docs team works on pre-production content in a private repo that regularly syncs with this public repo.
 
-1. **Build Docker image**:
-   ```bash
-   docker build -t docs .
-   ```
+Use the table of contents icon <img alt="Table of contents icon" src="./contributing/images/table-of-contents.png" width="25" height="25" /> on the top right corner of this document to navigate to a specific section quickly.
 
-2. **Run Docker container**:
-   ```bash
-   docker run -p 3000:3000 docs
-   ```
+## Contributing
 
-## 📋 Requirements
+We accept different types of contributions, including some that don't require you to write a single line of code. For detailed instructions on how to get started with our project, see [About contributing to GitHub Docs](https://docs.github.com/en/contributing/collaborating-on-github-docs/about-contributing-to-github-docs).
 
-* **Node.js**: v20.11.0 or higher
+### Ways to contribute
 
-## 📖 Overview
+On the GitHub Docs site, you can contribute by clicking the **Make a contribution** button at the bottom of the page to open a pull request for quick fixes like typos, updates, or link fixes.
 
-This is a documentation application powered by [Nextra](https://nextra.site/) and built on [Next.js](https://nextjs.org/). Nextra simplifies the creation of documentation sites, allowing us to leverage the **Pages Router** for efficient navigation and routing. Currently, due to compatibility limitations, we have not yet upgraded to the App Router.
+You can also contribute by creating a local environment or opening a Codespace. For more information, see [Setting up your environment to work on GitHub Docs](https://docs.github.com/en/contributing/setting-up-your-environment-to-work-on-github-docs).
 
-## 🏁 Getting Started
+<img alt="Contribution call-to-action" src="./contributing/images/contribution_cta.png" width="400">
 
-To get started with local development:
+For more complex contributions, please open an issue using the most appropriate [issue template](https://github.com/github/docs/issues/new/choose) to describe the changes you'd like to see.
 
-1. **Clone the repository**
-2. **Install dependencies**:
-   ```bash
-   pnpm install
-   ```
-3. **Start development server**:
-   ```bash
-   pnpm run dev
-   ```
+If you're looking for a way to contribute, you can scan through our [help wanted board](https://github.com/github/docs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) to find open issues already approved for work.
 
-## 🛠 Tooling
+### And that's it!
 
-Our development setup includes multiple tools to maintain high-quality code and documentation:
+If you're having trouble with your GitHub account, contact [Support](https://support.github.com).
 
-* **[CSpell](https://cspell.org/)**: Real-time spell checking to maintain documentation accuracy.
-* **[Remark](https://remark.js.org/)**: Processes and renders Markdown content with added plugins.
-* **[ESLint](https://eslint.org/)**: Ensures code quality by catching potential issues.
-* **[Prettier](https://prettier.io/)**: Enforces consistent code formatting.
-* **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for fast, responsive UI development.
+That's how you can easily become a member of the GitHub Docs community. :sparkles:
 
-## 🚦 CI/CD Pipeline
+## READMEs
 
-Our CI/CD setup utilizes GitHub Actions to run automated checks on every pull request (PR):
+In addition to the README you're reading right now, this repo includes other READMEs that describe the purpose of each subdirectory in more detail:
 
-* **js-lint**: Ensures proper JavaScript code formatting with ESLint.
-* **md-lint**: Checks Markdown code formatting with Remark.
-* **format**: Enforces consistent code style with Prettier.
-* **spell-check**: Uses CSpell to verify correct spelling in the documentation. For any unique terms (e.g., "InkChain"), add them to the [`./cspell/project-words.txt`](./cspell/project-words.txt) file to whitelist.
+- [content/README.md](content/README.md)
+- [content/graphql/README.md](content/graphql/README.md)
+- [content/rest/README.md](content/rest/README.md)
+- [contributing/README.md](contributing/README.md)
+- [data/README.md](data/README.md)
+- [data/reusables/README.md](data/reusables/README.md)
+- [data/variables/README.md](data/variables/README.md)
+- [src/README.md](src/README.md)
 
-## 🌐 Feature Branch Deployment
+## License
 
-For every new PR, our CI/CD pipeline deploys a temporary environment via **AWS Amplify**. This real-time deployment enables live testing and review of changes before merging, ensuring a smoother workflow. The deployment URL is automatically provided within the PR checks, allowing team members to interact with new features.
+The GitHub product documentation in the assets, content, and data folders are licensed under a [CC-BY license](LICENSE).
 
-## 🚀 Production Deployment
+All other code in this repository is licensed under the [MIT license](LICENSE-CODE).
 
-The `main` branch is configured for automatic continuous deployment via **AWS Amplify**. Every merge triggers a new build and deployment, ensuring that the latest version of the documentation is available to users without manual intervention.
+When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+
+## Thanks :purple_heart:
+
+Thanks for all your contributions and efforts towards improving the GitHub documentation. We thank you for being part of our :sparkles: community :sparkles:!

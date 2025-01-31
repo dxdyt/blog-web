@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-Math
-date: 2025-01-30T12:20:13+08:00
+date: 2025-01-31T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736598734718-daa665cc511c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736598734718-daa665cc511c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736843640230-ea1e8241ae42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736843640230-ea1e8241ae42?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-Math](https://github.com/deepseek-ai/DeepSeek-Math)

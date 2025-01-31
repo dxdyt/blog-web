@@ -1,9 +1,9 @@
 ---
 title: Janus
-date: 2025-01-30T12:19:00+08:00
+date: 2025-01-31T12:19:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736268020819-7a6b3478b692?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736268020819-7a6b3478b692?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyMTA3MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736113246705-c6a5fe0e2359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736113246705-c6a5fe0e2359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/Janus](https://github.com/deepseek-ai/Janus)
