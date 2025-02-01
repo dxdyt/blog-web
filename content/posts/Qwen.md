@@ -1,9 +1,9 @@
 ---
 title: Qwen
-date: 2024-12-01T12:24:09+08:00
+date: 2025-02-01T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732459996749-e39500ee6063?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732459996749-e39500ee6063?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737452179413-827ba5c0986d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737452179413-827ba5c0986d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen](https://github.com/QwenLM/Qwen)

@@ -1,9 +1,9 @@
 ---
 title: librdkafka
-date: 2024-09-06T12:19:37+08:00
+date: 2025-02-01T12:19:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724098035045-bed5b03fa7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724098035045-bed5b03fa7d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1OTYyNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736135290115-ec129b0f31fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736135290115-ec129b0f31fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
 ---
 
 # [confluentinc/librdkafka](https://github.com/confluentinc/librdkafka)

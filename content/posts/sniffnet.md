@@ -1,15 +1,17 @@
 ---
 title: sniffnet
-date: 2024-08-02T12:19:04+08:00
+date: 2025-02-01T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720854802555-768aa847f011?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720854802555-768aa847f011?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjI1NzIzMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1723654864018-36cc407e4a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1723654864018-36cc407e4a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
 ---
 
 # [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
 
 <div align="center">
-<a href="https://sniffnet.net"><img alt="" title="Sniffnet" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/header_repository.png" width="95%"/></a>
+<picture>
+<img alt="" title="Sniffnet" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/header_repository.png" width="95%"/>
+</picture>
 
 <a href="#download"><img alt="" title="Download" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/badges/download.svg"/></a>
 <a href="https://github.com/GyulyVGC/sniffnet/blob/main/ROADMAP.md"><img alt="" title="Roadmap" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/badges/roadmap.svg"/></a>
@@ -20,13 +22,13 @@ Application to comfortably monitor your Internet traffic <br>
 Cross-platform, Intuitive, Reliable
 
 Translated in:<br>
-🇨🇳 🇩🇪 🇫🇷 🇷🇺 🇵🇹 🇪🇦 🇮🇹 🇵🇱 [+&nbsp;11&nbsp;more&nbsp;languages](https://github.com/GyulyVGC/sniffnet/issues/60)
+🇨🇳 🇩🇪 🇫🇷 🇷🇺 🇵🇹 🇪🇦 🇮🇹 🇵🇱 [+&nbsp;12&nbsp;more&nbsp;languages](https://github.com/GyulyVGC/sniffnet/issues/60)
 </div>
 
 <p>
-<a href="#x">
+<picture>
 <img alt="" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/hr.png" width="100%"/>
-</a>
+</picture>
 </p>
 
 <div align="center">
@@ -38,9 +40,9 @@ Translated in:<br>
 </div>
 
 <p>
-<a href="#x">
+<picture>
 <img alt="" src="https://raw.githubusercontent.com/GyulyVGC/sniffnet/main/resources/repository/hr.png" width="100%"/>
-</a>
+</picture>
 </p>
 
 
@@ -56,6 +58,7 @@ constantly expanding it including [new features and functionalities](https://git
 
 <p align="center">
 <a href="https://github.com/github" title="GitHub"><img src="https://avatars.githubusercontent.com/github?v=4" width="60px" alt="GitHub"/></a>&nbsp;&nbsp;
+<a href="https://nlnet.nl" title="NLnet"><img src="https://nlnet.nl/logo/logo.svg" width="60px" alt="NLnet"/></a>&nbsp;&nbsp;
 <a href="https://ipinfo.io" title="IPinfo"><img src="https://avatars.githubusercontent.com/ipinfo?v=4" width="60px" alt="IPinfo"/></a>&nbsp;&nbsp;
 <a href="https://github.com/Cthulu201" title="Cthulu201"><img src="https://avatars.githubusercontent.com/Cthulu201?v=4" width="60px" alt="Cthulu201"/></a>&nbsp;&nbsp;
 <a href="https://github.com/0x0177b11f" title="Tiansheng Li"><img src="https://avatars.githubusercontent.com/0x0177b11f?v=4" width="60px" alt="Tiansheng Li"/></a>&nbsp;&nbsp;
@@ -242,13 +245,6 @@ ICED_BACKEND=tiny-skia
 ## Acknowledgements
 
 - A big shout-out to [all the contributors](https://github.com/GyulyVGC/sniffnet/blob/main/CONTRIBUTORS.md) of Sniffnet!
-
 - The graphical user interface has been realized with [iced](https://github.com/iced-rs/iced), a cross-platform GUI library for Rust focused on simplicity and type-safety
-
-<p align="center">
-<a href="https://github.com/iced-rs/iced">
-<img alt="" title="iced" src="https://user-images.githubusercontent.com/100347457/219339409-0a44722b-416d-410b-93a4-8b0e84c0031d.svg" width="350px"/>
-</a>
-</p>
-
+- IP geolocation and ASN data are provided by [MaxMind](https://www.maxmind.com)
 - Last but not least, thanks to [every single stargazer](https://github.com/GyulyVGC/sniffnet/stargazers): all forms of support made it possible to keep improving Sniffnet!

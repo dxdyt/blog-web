@@ -1,9 +1,9 @@
 ---
 title: paperless-ngx
-date: 2024-11-02T12:20:12+08:00
+date: 2025-02-01T12:19:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728266601727-64b2c27d01ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728266601727-64b2c27d01ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA1MjExOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737452179413-827ba5c0986d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737452179413-827ba5c0986d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
 ---
 
 # [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
@@ -65,7 +65,7 @@ A full list of [features](https://docs.paperless-ngx.com/#features) and [screens
 
 # Getting started
 
-The easiest way to deploy paperless is `docker compose`. The files in the [`/docker/compose` directory](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose) are configured to pull the image from GitHub Packages.
+The easiest way to deploy paperless is `docker compose`. The files in the [`/docker/compose` directory](https://github.com/paperless-ngx/paperless-ngx/tree/main/docker/compose) are configured to pull the image from the GitHub container registry.
 
 If you'd like to jump right in, you can configure a `docker compose` environment with our install script:
 

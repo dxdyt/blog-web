@@ -1,9 +1,9 @@
 ---
 title: Qwen2.5-Coder
-date: 2024-11-17T12:20:17+08:00
+date: 2025-02-01T12:19:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731100062072-3904a79ff817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731100062072-3904a79ff817?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE4MTcxNTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736775026952-1f878a260438?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736775026952-1f878a260438?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)
@@ -18,11 +18,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1731100062072-3904a79ff8
     <img src="https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5/Qwen2.5-Coder-Family/main_fig_32b_white.jpg" width="400"/>
 <p>
 
-
 <p align="center">
-        🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp💻 <a href="https://www.kaggle.com/models/qwen-lm/qwen2.5-coder">Kaggle</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5-coder-family">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+        💜 <a href="https://chat.qwenlm.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp💻 <a href="https://www.kaggle.com/models/qwen-lm/qwen2.5-coder">Kaggle</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5-coder-family">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
 <br>
-🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo">Demo</a>&nbsp&nbsp | 🖼 <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts">Artifacts</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp | &nbsp&nbsp 📄<a href="https://arxiv.org/abs/2409.12186">Arxiv</a>&nbsp&nbsp
+🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-demo">Demo</a>&nbsp&nbsp | 🖼 <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-Coder-Artifacts">Artifacts</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp | &nbsp&nbsp 📄<a href="https://arxiv.org/abs/2409.12186">Arxiv</a>&nbsp&nbsp | &nbsp&nbsp🖥️ <a href="https://gallery.pai-ml.com/#/preview/deepLearning/nlp/qwen2-5_coder_7b">PAI-DSW</a>&nbsp&nbsp
 </p>
 
 
@@ -50,7 +49,7 @@ Today, we are excited to open source the “Powerful”, “Diverse”, and “P
 3. ✨ Retain strengths in math and general capabilities from base model
 
 > [!Important]
-> We updates both the special tokens and their corresponding token ids, in order to maintain consistency with Qwen2.5. The new special tokens are as the following:
+> We updated both the special tokens and their corresponding token ids, in order to maintain consistency with Qwen2.5. The new special tokens are as the following:
 
 ```json
 {
@@ -126,7 +125,7 @@ pip install -r requirements.txt
 ## Quick Start
 
 > [!Important]
-> **Qwen2.5-Coder-\[0.5-32\]B-Instrcut** are instruction models for chatting;
+> **Qwen2.5-Coder-\[0.5-32\]B-Instruct** are instruction models for chatting;
 >
 > **Qwen2.5-Coder-\[0.5-32\]B** is a base model typically used for completion, serving as a better starting point for fine-tuning.
 >

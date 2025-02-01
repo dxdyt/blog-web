@@ -1,9 +1,9 @@
 ---
 title: Qwen-Agent
-date: 2025-01-04T12:19:04+08:00
+date: 2025-02-01T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732530365779-dbf5bdf4bc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732530365779-dbf5bdf4bc63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU5NjQzMTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735509903556-602b4d7d3ae5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735509903556-602b4d7d3ae5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
@@ -15,9 +15,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1732530365779-dbf5bdf4bc
 <p>
 <br>
 
+<p align="center">
+          💜 <a href="https://chat.qwenlm.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+
+<br>
+💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
+</p>
+
+
 Qwen-Agent is a framework for developing LLM applications based on the instruction following, tool usage, planning, and
-memory capabilities of Qwen.
-It also comes with example applications such as Browser Assistant, Code Interpreter, and Custom Assistant.
+memory capabilities of Qwen. 
+It also comes with example applications such as Browser Assistant, Code Interpreter, and Custom Assistant. 
+Now Qwen-Agent plays as the backend of [Qwen Chat](https://chat.qwenlm.ai/). 
 
 # News
 * Dec 3, 2024: Upgrade GUI to Gradio 5 based. Note: GUI requires Python 3.10 or higher.
