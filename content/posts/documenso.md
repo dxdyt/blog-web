@@ -1,12 +1,16 @@
 ---
 title: documenso
-date: 2024-09-12T12:20:42+08:00
+date: 2025-02-02T12:19:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724582120489-a2d6e70854dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724582120489-a2d6e70854dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736613403120-8d48aebd29e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736613403120-8d48aebd29e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
 ---
 
 # [documenso/documenso](https://github.com/documenso/documenso)
+
+> 🚨 We are live on Product Hunt 🎉  Check out our latest launch: <a href="documen.so/sign-everywhere">The Platform Plan</a>!
+
+<a href="https://www.producthunt.com/posts/documenso-platform-plan?embed=true&utm_source=badge-featured&utm_medium=badge&utm_souce=badge-documenso&#0045;platform&#0045;plan" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=670576&theme=light" alt="Documenso&#0032;Platform&#0032;Plan - Whitelabeled&#0032;signing&#0032;flows&#0032;in&#0032;your&#0032;product | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
 <img src="https://github.com/documenso/documenso/assets/13398220/a643571f-0239-46a6-a73e-6bef38d1228b" alt="Documenso Logo">
 

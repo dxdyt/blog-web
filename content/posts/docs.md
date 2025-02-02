@@ -1,9 +1,9 @@
 ---
 title: docs
-date: 2025-01-31T12:20:27+08:00
+date: 2025-02-02T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736113246705-c6a5fe0e2359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736113246705-c6a5fe0e2359?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737203214144-05123b9df2da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737203214144-05123b9df2da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
 ---
 
 # [github/docs](https://github.com/github/docs)

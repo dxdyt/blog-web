@@ -1,9 +1,9 @@
 ---
 title: Qwen2.5-VL
-date: 2025-02-01T12:18:55+08:00
+date: 2025-02-02T12:17:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736135290115-ec129b0f31fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736135290115-ec129b0f31fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737265396678-a7dac6fcdff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737265396678-a7dac6fcdff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL)
@@ -16,10 +16,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1736135290115-ec129b0f31
 <p>
 
 <p align="center">
-        💜 <a href="https://chat.qwenlm.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen2.5-vl/">Blog</a> &nbsp&nbsp| &nbsp&nbsp 📚 <a href="https://github.com/QwenLM/Qwen2.5-VL/tree/main/cookbooks">Cookbooks</a> &nbsp&nbsp| &nbsp&nbsp 📑Paper(is
-          coming)</a> &nbsp&nbsp  </a>
+        💜 <a href="https://chat.qwenlm.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://qwenlm.github.io/blog/qwen2.5-vl/">Blog</a>&nbsp&nbsp | &nbsp&nbsp📚 <a href="https://github.com/QwenLM/Qwen2.5-VL/tree/main/cookbooks">Cookbooks</a>&nbsp&nbsp | &nbsp&nbsp📑 Paper (is
+          coming)
 <br>
-🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-VL">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp | &nbsp&nbsp<a href="https://help.aliyun.com/zh/model-studio/developer-reference/qwen-vl-api"> 📑 API</a>&nbsp&nbsp | &nbsp&nbsp🖥️ <a href="https://gallery.pai-ml.com/#/preview/deepLearning/cv/qwen2.5-vl">PAI-DSW</a>&nbsp&nbsp
+🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen2.5-VL">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://help.aliyun.com/zh/model-studio/developer-reference/qwen-vl-api">API</a>&nbsp&nbsp | &nbsp&nbsp🖥️ <a href="https://gallery.pai-ml.com/#/preview/deepLearning/cv/qwen2.5-vl">PAI-DSW</a>
 </p>
 
 
@@ -37,7 +37,7 @@ In the past five months since Qwen2-VL's release, numerous developers have built
 
 * **Ultra-long Video Understanding and Fine-grained Video Grounding**: Extend native dynamic resolution to the temporal dimension, enhancing the ability to understand videos lasting hours while extracting event segments in seconds.
 
-* **Enhanced Agent Functionality for Computer and Mobile Devicess**: Leverage advanced grounding, reasoning, and decision-making abilities, boosting the model with superior agent functionality on smartphones and computers.
+* **Enhanced Agent Functionality for Computer and Mobile Devices**: Leverage advanced grounding, reasoning, and decision-making abilities, boosting the model with superior agent functionality on smartphones and computers.
 
 
 #### Model Architecture Updates:
@@ -60,7 +60,7 @@ We enhance both training and inference speeds by strategically implementing wind
 * 2025.01.28: We have released the [Qwen2.5-VL series](https://huggingface.co/Qwen). For more details, please check our [blog](https://qwenlm.github.io/blog/qwen2.5-vl/)!
 * 2024.12.25: We have released the [QvQ-72B-Preview](https://huggingface.co/Qwen/QVQ-72B-Preview). QvQ-72B-Preview is an experimental research model, focusing on enhancing visual reasoning capabilities. For more details, please check our [blog](https://qwenlm.github.io/blog/qvq-72b-preview/)!
 * 2024.09.19: The instruction-tuned [Qwen2-VL-72B model](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct) and its quantized version [[AWQ](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct-AWQ), [GPTQ-Int4](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int4), [GPTQ-Int8](https://huggingface.co/Qwen/Qwen2-VL-72B-Instruct-GPTQ-Int8)] are now available. We have also released the [Qwen2-VL paper](https://arxiv.org/pdf/2409.12191) simultaneously.
-* 2024.08.30: We have released the [Qwen2-VL series]("https://huggingface.co/collections/Qwen/qwen2-vl-66cee7455501d7126940800d). The 2B and 7B models are now available, and the 72B model for opensource is coming soon. For more details, please check our [blog](https://qwenlm.github.io/blog/qwen2-vl/)!
+* 2024.08.30: We have released the [Qwen2-VL series](https://huggingface.co/collections/Qwen/qwen2-vl-66cee7455501d7126940800d). The 2B and 7B models are now available, and the 72B model for open source is coming soon. For more details, please check our [blog](https://qwenlm.github.io/blog/qwen2-vl/)!
 
 
 ## Performance
@@ -80,7 +80,7 @@ We enhance both training and inference speeds by strategically implementing wind
 | MMBench1.1         |  81.5  | 84.3 |**88.0**           | 83.0           | 82.1   | 83.4             | 86.6         | 
 | MathVista          | 62.3  | 68.2  | **74.8**           | 73.1           | 63.8   | 65.4             | 70.5         | 
 | MathVision         | 21.2  | 25.1 |**38.1**           | **41.3**           | 30.4   | 38.3             | 25.9         | 
-| VideoMME           | 67.6/61.5 | 71.6/ 65.1 |**73.3/79.1**      | -/-            | 71.9/77.2 | 60/62.9         | 71.2/77.8    | 
+| VideoMME           | 67.6/61.5 | 71.6/65.1 |**73.3/79.1**      | -/-            | 71.9/77.2 | 60/62.9         | 71.2/77.8    | 
 | MMBench-Video      | 1.63           | 1.79    |**2.02**           | -              | 1.68   | 1.38             | 1.7          | 
 | LVBench            | 43.3        | 45.3 |**47.3**           | -              | 30.8   | -                | -            | 
 | CharadesSTA        | 38.8        | 43.6        |**50.9**           | -              | 35.7   | -                | -            | 
@@ -112,7 +112,7 @@ KeyError: 'qwen2_5_vl'
 We offer a toolkit to help you handle various types of visual input more conveniently, as if you were using an API. This includes base64, URLs, and interleaved images and videos. You can install it using the following command:
 
 ```bash
-# It's highly recommanded to use `[decord]` feature for faster video loading.
+# It's highly recommended to use `[decord]` feature for faster video loading.
 pip install qwen-vl-utils[decord]
 ```
 
@@ -154,7 +154,7 @@ model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
 #     device_map="auto",
 # )
 
-# default processer
+# default processor
 processor = AutoProcessor.from_pretrained("Qwen/Qwen2.5-VL-7B-Instruct")
 
 # The default range for the number of visual tokens per image in the model is 4-16384.
@@ -684,7 +684,7 @@ If you find our paper and code useful in your research, please consider giving a
 
 ```BibTeX
 
-@misc{qwen2.5-VL,
+@misc{Qwen2.5-VL,
     title = {Qwen2.5-VL},
     url = {https://qwenlm.github.io/blog/qwen2.5-vl/},
     author = {Qwen Team},
@@ -693,7 +693,7 @@ If you find our paper and code useful in your research, please consider giving a
 }
 
 
-@article{Qwen2VL,
+@article{Qwen2-VL,
   title={Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution},
   author={Wang, Peng and Bai, Shuai and Tan, Sinan and Wang, Shijie and Fan, Zhihao and Bai, Jinze and Chen, Keqin and Liu, Xuejing and Wang, Jialin and Ge, Wenbin and Fan, Yang and Dang, Kai and Du, Mengfei and Ren, Xuancheng and Men, Rui and Liu, Dayiheng and Zhou, Chang and Zhou, Jingren and Lin, Junyang},
   journal={arXiv preprint arXiv:2409.12191},

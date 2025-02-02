@@ -1,9 +1,9 @@
 ---
 title: ollama
-date: 2025-02-01T12:19:12+08:00
+date: 2025-02-02T12:19:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728782595111-d521eab9bd93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728782595111-d521eab9bd93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgzODM1MDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737920406899-e1cabc43a6a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737920406899-e1cabc43a6a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
 ---
 
 # [ollama/ollama](https://github.com/ollama/ollama)

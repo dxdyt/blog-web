@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-01-12T12:19:36+08:00
+date: 2025-02-02T12:18:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725714355442-4216013a29fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY2NTU1NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725714355442-4216013a29fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY2NTU1NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734004902532-be79323e70cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734004902532-be79323e70cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -53,6 +53,8 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 - [📈 AI Startup Trend Analysis Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_startup_trend_analysis_agent)
 - [🗞️ AI Journalist Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_journalist_agent)
 - [💲 AI Finance Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_finance_agent_team)
+- [🧲 AI Competitor Intelligence Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_competitor_intelligence_agent_team)
+- [🎯 AI Lead Generation Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_lead_generation_agent)
 - [💰 AI Personal Finance Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_personal_finance_agent)
 - [🩻 AI Medical Scan Diagnosis Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_medical_imaging_agent)
 - [👨‍🏫 AI Teaching Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_teaching_agent_team)
@@ -60,6 +62,7 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 - [🎬 AI Movie Production Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_movie_production_agent)
 - [📰 Multi-Agent AI Researcher](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/multi_agent_researcher)
 - [📑 AI Meeting Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_meeting_agent)
+- [♜ AI Chess Agent Game](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_chess_agent)
 - [🌐 Local News Agent OpenAI Swarm](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/local_news_agent_openai_swarm)
 - [📊 AI Finance Agent with xAI Grok](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/xai_finance_agent)
 - [🧠 AI Reasoning Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_reasoning_agent)
