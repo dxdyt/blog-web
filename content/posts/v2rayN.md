@@ -1,15 +1,15 @@
 ---
 title: v2rayN
-date: 2024-12-27T12:20:45+08:00
+date: 2025-02-03T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733334463453-77ce96cf23a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733334463453-77ce96cf23a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735977161893-d969d37f32c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg1NTYzNDB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735977161893-d969d37f32c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg1NTYzNDB8&ixlib=rb-4.0.3
 ---
 
 # [2dust/v2rayN](https://github.com/2dust/v2rayN)
 
 # v2rayN
-A GUI client for Windows, Linux and macOS, support [Xray core](https://github.com/XTLS/Xray-core) and [sing-box-core](https://github.com/SagerNet/sing-box/releases) and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
+A GUI client for Windows, Linux and macOS, support [Xray](https://github.com/XTLS/Xray-core) and [sing-box](https://github.com/SagerNet/sing-box/releases) and [others](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
 
 
 [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/2dust/v2rayN)](https://github.com/2dust/v2rayN/commits/master)
@@ -19,26 +19,8 @@ A GUI client for Windows, Linux and macOS, support [Xray core](https://github.co
 
 
 ## How to use
-Check [Release files introduction](https://github.com/2dust/v2rayN/wiki/Release-files-introduction) and select the version you need to download 
-### Windows
-- Run `v2rayN.exe`
-### Linux
-- `chmod +x v2rayN` Run `./v2rayN` under user permissions
-```
-Debian 9+
-Ubuntu 16.04+
-Fedora 30+
-```
-### macOS
-- `chmod +x v2rayN` Run `./v2rayN` under user permissions
-```
-macOS 10.14+
-```
 
-## Requirements  
-- [Microsoft .NET 8.0 Desktop Runtime ](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- [Supported cores](https://github.com/2dust/v2rayN/wiki/List-of-supported-cores)
-
+Read the [Wiki](https://github.com/2dust/v2rayN/wiki) for details.
 
 ## Telegram Channel
 [github_2dust](https://t.me/github_2dust)
