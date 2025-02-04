@@ -1,9 +1,9 @@
 ---
 title: telegram-tt
-date: 2025-02-03T12:19:35+08:00
+date: 2025-02-04T12:20:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735499294281-e4e44a7a7cdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg1NTYzNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735499294281-e4e44a7a7cdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg1NTYzNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736924862365-9038a7e1be81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736924862365-9038a7e1be81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
 ---
 
 # [Ajaxy/telegram-tt](https://github.com/Ajaxy/telegram-tt)

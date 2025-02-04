@@ -1,9 +1,9 @@
 ---
 title: frigate
-date: 2024-08-26T12:18:55+08:00
+date: 2025-02-04T12:19:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722218424232-14a9d128524f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722218424232-14a9d128524f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735447814306-8887e953a91f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735447814306-8887e953a91f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
 ---
 
 # [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate)

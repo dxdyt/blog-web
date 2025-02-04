@@ -1,9 +1,9 @@
 ---
 title: Tasmota
-date: 2024-12-17T12:22:19+08:00
+date: 2025-02-04T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731452379048-13641918654c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731452379048-13641918654c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737202325171-0f62f8296922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737202325171-0f62f8296922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
 ---
 
 # [arendst/Tasmota](https://github.com/arendst/Tasmota)
