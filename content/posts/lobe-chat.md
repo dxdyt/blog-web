@@ -1,9 +1,9 @@
 ---
 title: lobe-chat
-date: 2025-02-04T12:18:59+08:00
+date: 2025-02-05T12:20:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736092306049-d55fd016a88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736092306049-d55fd016a88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737020622517-17a9dae61a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737020622517-17a9dae61a11?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
 ---
 
 # [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat)
@@ -329,14 +329,14 @@ Our marketplace is not just a showcase platform but also a collaborative space. 
 
 <!-- AGENT LIST -->
 
-| Recent Submits                                                                                                                                                                   | Description                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [SUNO Song Creation Assistant](https://lobechat.com/discover/assistant/suno-lyrics-assistant)<br/><sup>By **[sqkkyzx](https://github.com/sqkkyzx)** on **2025-01-26**</sup>      | Can generate SUNO song creation parameters based on user needs<br/>`lyric-creation` `music-style` `arrangement` `parameter-settings`                    |
-| [The Great Biggus Dickus](https://lobechat.com/discover/assistant/all-knowing)<br/><sup>By **[CGitwater](https://github.com/CGitwater)** on **2025-01-24**</sup>                 | The almighty powerful god of klnowledge<br/>`biggus` `diccus`                                                                                           |
-| [PPT Production Expert](https://lobechat.com/discover/assistant/ppt-production-expert)<br/><sup>By **[patricleehua](https://github.com/patricleehua)** on **2025-01-24**</sup>   | Skilled in the rapid production and optimization of high-quality PPTs<br/>`ppt-production` `design` `consulting` `content-optimization` `user-support`  |
-| [OCR Document Transcription Assistant](https://lobechat.com/discover/assistant/ocr-markdown)<br/><sup>By **[Liangpi000](https://github.com/Liangpi000)** on **2025-01-24**</sup> | Specializes in document content transcription and markdown formatting<br/>`document-generation` `markdown` `formatting` `transcription` `task-guidance` |
+| Recent Submits                                                                                                                                               | Description                                                                                                                                           |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Sharp Commentator](https://lobechat.com/discover/assistant/ruipingshi)<br/><sup>By **[Zippland](https://github.com/Zippland)** on **2025-02-04**</sup>      | Specializes in sharp commentary and in-depth analysis of issues<br/>`commentary` `social-perspectives` `sharp-analysis`                               |
+| [Python Genius](https://lobechat.com/discover/assistant/python-genius)<br/><sup>By **[novaspivack](https://github.com/novaspivack)** on **2025-02-04**</sup> | An advanced python coder<br/>`code` `python`                                                                                                          |
+| [SAT master](https://lobechat.com/discover/assistant/sat-teaching)<br/><sup>By **[iBz-04](https://github.com/iBz-04)** on **2025-02-04**</sup>               | Expert in Digital SAT coaching for 1300+ scores<br/>`sat` `aptitude-test`                                                                             |
+| [Cosmic Oracle](https://lobechat.com/discover/assistant/universal-god)<br/><sup>By **[GowayLee](https://github.com/GowayLee)** on **2025-02-04**</sup>       | Wisdom from across time and space, insight into the essence of life<br/>`character-design` `ai-characters` `metaverse` `role-playing` `wisdom-system` |
 
-> 📊 Total agents: [<kbd>**471**</kbd> ](https://lobechat.com/discover/assistants)
+> 📊 Total agents: [<kbd>**478**</kbd> ](https://lobechat.com/discover/assistants)
 
  <!-- AGENT LIST -->
 

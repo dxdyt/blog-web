@@ -1,9 +1,9 @@
 ---
 title: register
-date: 2025-02-04T12:19:12+08:00
+date: 2025-02-05T12:19:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736092306049-d55fd016a88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736092306049-d55fd016a88f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1670179694028-a74b92f49857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1670179694028-a74b92f49857?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
 ---
 
 # [is-a-dev/register](https://github.com/is-a-dev/register)

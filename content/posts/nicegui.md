@@ -1,9 +1,9 @@
 ---
 title: nicegui
-date: 2024-10-07T12:21:23+08:00
+date: 2025-02-05T12:20:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726251654957-9e2eeb1b0340?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgyNzQ4MTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726251654957-9e2eeb1b0340?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgyNzQ4MTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736483065204-e55e62092780?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736483065204-e55e62092780?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
 ---
 
 # [zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
@@ -119,9 +119,15 @@ because of their great performance and ease of use.
 Maintenance of this project is made possible by all the [contributors](https://github.com/zauberzeug/nicegui/graphs/contributors) and [sponsors](https://github.com/sponsors/zauberzeug).
 If you would like to support this project and have your avatar or company logo appear below, please [sponsor us](https://github.com/sponsors/zauberzeug). 💖
 
+<!-- SPONSORS -->
 <p align="center">
-   <a href="https://github.com/lechler-gmbh"><img src="https://github.com/lechler-gmbh.png" width="50px" alt="Lechler GmbH" /></a>
+  <a href="https://github.com/lechler-gmbh"><img src="https://github.com/lechler-gmbh.png" width="50px" alt="Lechler GmbH" /></a>
+  <a href="https://github.com/Zhifeng2019"><img src="https://github.com/Zhifeng2019.png" width="50px" alt="Zhifeng" /></a>
+  <a href="https://github.com/sereneturtlefox"><img src="https://github.com/sereneturtlefox.png" width="50px" alt="None" /></a>
+  <a href="https://github.com/whoulden"><img src="https://github.com/whoulden.png" width="50px" alt="Wayne Houlden" /></a>
+  <a href="https://github.com/digiquip"><img src="https://github.com/digiquip.png" width="50px" alt="DigiQuip AS" /></a>
 </p>
+<!-- SPONSORS -->
 
 Consider this low-barrier form of contribution yourself.
 Your [support](https://github.com/sponsors/zauberzeug) is much appreciated.

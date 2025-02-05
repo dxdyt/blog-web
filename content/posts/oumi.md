@@ -1,9 +1,9 @@
 ---
 title: oumi
-date: 2025-02-04T12:18:43+08:00
+date: 2025-02-05T12:19:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735447814306-8887e953a91f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735447814306-8887e953a91f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NDI3MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735845934479-3c353aa56afb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735845934479-3c353aa56afb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
 ---
 
 # [oumi-ai/oumi](https://github.com/oumi-ai/oumi)
@@ -25,7 +25,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1735447814306-8887e953a9
 ### Everything you need to build state-of-the-art foundation models, end-to-end.
 
 <p align="center">
-  <img alt="GitHub trending" src="https://trendshift.io/api/badge/repositories/12865" />
+  <a href="https://trendshift.io/repositories/12865">
+    <img alt="GitHub trending" src="https://trendshift.io/api/badge/repositories/12865" />
+  </a>
 </p>
 
 Oumi is a fully open-source platform that streamlines the entire lifecycle of foundation models - from data preparation and training to evaluation and deployment. Whether you're developing on a laptop, launching large scale experiments on a cluster, or deploying models in production, Oumi provides the tools and workflows you need.
