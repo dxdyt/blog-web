@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2025-01-29T12:19:25+08:00
+date: 2025-02-06T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688834396398-3d0a0e69d26e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688834396398-3d0a0e69d26e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgxMjQzMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736703456290-cc5e909cff12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736703456290-cc5e909cff12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -42,6 +42,15 @@ There are 3 primary ways to use the Maybe app:
 1. Managed (easiest) - _coming soon..._
 2. [One-click deploy](docs/hosting/one-click-deploy.md)
 3. [Self-host with Docker](docs/hosting/docker.md)
+
+## Contributing
+
+Before contributing, you'll likely find it helpful
+to [understand context and general vision/direction](https://github.com/maybe-finance/maybe/wiki).
+
+Once you've done that, please visit
+our [contributing guide](https://github.com/maybe-finance/maybe/blob/main/CONTRIBUTING.md)
+to get started!
 
 ## Local Development Setup
 
@@ -116,15 +125,6 @@ our [Windows dev setup guide](https://github.com/maybe-finance/maybe/wiki/Window
 In development, we use `letter_opener` to automatically open emails in your
 browser. When an email sends locally, a new browser tab will open with a
 preview.
-
-## Contributing
-
-Before contributing, you'll likely find it helpful
-to [understand context and general vision/direction](https://github.com/maybe-finance/maybe/wiki).
-
-Once you've done that, please visit
-our [contributing guide](https://github.com/maybe-finance/maybe/blob/main/CONTRIBUTING.md)
-to get started!
 
 ## Repo Activity
 

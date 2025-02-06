@@ -1,9 +1,9 @@
 ---
 title: aws-sdk-go-v2
-date: 2025-02-05T12:20:44+08:00
+date: 2025-02-06T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737063680404-554864f0d122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737063680404-554864f0d122?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736703456290-cc5e909cff12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736703456290-cc5e909cff12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
 ---
 
 # [aws/aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)

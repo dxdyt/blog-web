@@ -1,9 +1,9 @@
 ---
 title: VideoLingo
-date: 2024-11-16T12:20:10+08:00
+date: 2025-02-06T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728467459756-211f3c738697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728467459756-211f3c738697?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736703456290-cc5e909cff12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736703456290-cc5e909cff12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
 ---
 
 # [Huanshere/VideoLingo](https://github.com/Huanshere/VideoLingo)
@@ -14,142 +14,144 @@ featuredImagePreview: https://images.unsplash.com/photo-1728467459756-211f3c7386
 
 # Connect the World, Frame by Frame
 
-[Website](https://videolingo.io) | [Documentation](https://docs.videolingo.io/docs/start) | [Colab](https://colab.research.google.com/github/Huanshere/VideoLingo/blob/main/VideoLingo_colab.ipynb)
-
-[**English**](/README.md)｜[**中文**](/i18n/README.zh.md)
+[**English**](/README.md)｜[**简体中文**](/translations/README.zh.md)｜[**繁體中文**](/translations/README.zh-TW.md)｜[**日本語**](/translations/README.ja.md)｜[**Español**](/translations/README.es.md)｜[**Русский**](/translations/README.ru.md)｜[**Français**](/translations/README.fr.md)
 
 </div>
 
-## 🌟 Overview
+## 🌟 Overview ([Try VL Now!](https://videolingo.io))
 
-VideoLingo is an all-in-one video translation, localization, and dubbing tool aimed at generating Netflix-quality subtitles. It eliminates stiff machine translations and multi-line subtitles while adding high-quality dubbing, enabling global knowledge sharing across language barriers. 
+VideoLingo is an all-in-one video translation, localization, and dubbing tool aimed at generating Netflix-quality subtitles. It eliminates stiff machine translations and multi-line subtitles while adding high-quality dubbing, enabling global knowledge sharing across language barriers.
 
-**Key features:**
+Key features:
 - 🎥 YouTube video download via yt-dlp
 
-- 🎙️ Word-level subtitle recognition with WhisperX
+- **🎙️ Word-level and Low-illusion subtitle recognition with WhisperX**
 
-- **📝 NLP and GPT-based subtitle segmentation**
+- **📝 NLP and AI-powered subtitle segmentation**
 
-- **📚 GPT-generated terminology for coherent translation**
+- **📚 Custom + AI-generated terminology for coherent translation**
 
-- **🔄 3-step direct translation, reflection, and adaptation for professional-level quality**
+- **🔄 3-step Translate-Reflect-Adaptation for cinematic quality**
 
-- **✅ Netflix-standard single-line subtitles only**
+- **✅ Netflix-standard, Single-line subtitles Only**
 
-- **🗣️ Dubbing alignment with GPT-SoVITS and other methods**
+- **🗣️ Dubbing with GPT-SoVITS, Azure, OpenAI, and more**
 
-- 🚀 One-click startup and output in Streamlit
+- 🚀 One-click startup and processing in Streamlit
+
+- 🌍 Multi-language support in Streamlit UI
 
 - 📝 Detailed logging with progress resumption
 
-- 🌐 Comprehensive multi-language support
-
-Difference from similar projects: **Single-line subtitles only, superior translation quality**
+Difference from similar projects: **Single-line subtitles only, superior translation quality, seamless dubbing experience**
 
 ## 🎥 Demo
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%">
 
 ### Russian Translation
 ---
 https://github.com/user-attachments/assets/25264b5b-6931-4d39-948c-5a1e4ce42fa7
 
 </td>
-<td width="33%">
+<td width="50%">
 
-### GPT-SoVITS
+### GPT-SoVITS Dubbing
 ---
 https://github.com/user-attachments/assets/47d965b2-b4ab-4a0b-9d08-b49a7bf3508c
-
-</td>
-<td width="33%">
-
-### OAITTS
----
-https://github.com/user-attachments/assets/85c64f8c-06cf-4af9-b153-ee9d2897b768
 
 </td>
 </tr>
 </table>
 
-### Language Support:
+### Language Support
 
-Current input language support and examples:
+**Input Language Support(more to come):**
 
-| Input Language | Support Level | Translation Demo |
-|----------------|---------------|-------------------|
-| English | 🤩 | [English to Chinese](https://github.com/user-attachments/assets/127373bb-c152-4b7a-8d9d-e586b2c62b4b) |
-| Russian | 😊 | [Russian to Chinese](https://github.com/user-attachments/assets/25264b5b-6931-4d39-948c-5a1e4ce42fa7) |
-| French | 🤩 | [French to Japanese](https://github.com/user-attachments/assets/3ce068c7-9854-4c72-ae77-f2484c7c6630) |
-| German | 🤩 | [German to Chinese](https://github.com/user-attachments/assets/07cb9d21-069e-4725-871d-c4d9701287a3) |
-| Italian | 🤩 | [Italian to Chinese](https://github.com/user-attachments/assets/f1f893eb-dad3-4460-aaf6-10cac999195e) |
-| Spanish | 🤩 | [Spanish to Chinese](https://github.com/user-attachments/assets/c1d28f1c-83d2-4f13-a1a1-859bd6cc3553) |
-| Japanese | 😐 | [Japanese to Chinese](https://github.com/user-attachments/assets/856c3398-2da3-4e25-9c36-27ca2d1f68c2) |
-| Chinese* | 🤩 | [Chinese to English](https://github.com/user-attachments/assets/48f746fe-96ff-47fd-bd23-59e9202b495c) |
-> *Chinese requires separate configuration of the whisperX model, only applicable for local source code installation. See the installation documentation for the configuration process, and be sure to specify the transcription language as zh in the webpage sidebar
+🇺🇸 English 🤩 | 🇷🇺 Russian 😊 | 🇫🇷 French 🤩 | 🇩🇪 German 🤩 | 🇮🇹 Italian 🤩 | 🇪🇸 Spanish 🤩 | 🇯🇵 Japanese 😐 | 🇨🇳 Chinese* 😊
 
-Translation language support depends on the capabilities of the large language model used, while dubbing language depends on the chosen TTS method.
+> *Chinese uses a separate punctuation-enhanced whisper model, for now...
 
-## 🚀 Quick Start
+**Translation supports all languages, while dubbing language depends on the chosen TTS method.**
 
-### Online Experience
+## Installation
 
-Commercial version provides free 20min credits, visit [videolingo.io](https://videolingo.io)
+You don't have to read the whole docs, [**here**](https://share.fastgpt.in/chat/share?shareId=066w11n3r9aq6879r4z0v9rh) is an online AI agent to help you.
 
-### Colab
+> **Note:** For Windows users with NVIDIA GPU, follow these steps before installation:
+> 1. Install [CUDA Toolkit 12.6](https://developer.download.nvidia.com/compute/cuda/12.6.0/local_installers/cuda_12.6.0_560.76_windows.exe)
+> 2. Install [CUDNN 9.3.0](https://developer.download.nvidia.com/compute/cudnn/9.3.0/local_installers/cudnn_9.3.0_windows.exe)
+> 3. Add `C:\Program Files\NVIDIA\CUDNN\v9.3\bin\12.6` to your system PATH
+> 4. Restart your computer
 
-Experience VideoLingo quickly in Colab in just 5 minutes:
+> **Note:** FFmpeg is required. Please install it via package managers:
+> - Windows: ```choco install ffmpeg``` (via [Chocolatey](https://chocolatey.org/))
+> - macOS: ```brew install ffmpeg``` (via [Homebrew](https://brew.sh/))
+> - Linux: ```sudo apt install ffmpeg``` (Debian/Ubuntu)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Huanshere/VideoLingo/blob/main/VideoLingo_colab.ipynb)
+1. Clone the repository
 
-### Local Installation
+```bash
+git clone https://github.com/Huanshere/VideoLingo.git
+cd VideoLingo
+```
 
-VideoLingo supports all hardware platforms and operating systems, but performs best with GPU acceleration. For detailed installation instructions , refer to the documentation: [English](/docs/pages/docs/start.en-US.md) | [简体中文](/docs/pages/docs/start.zh-CN.md)
+2. Install dependencies(requires `python=3.10`)
 
+```bash
+conda create -n videolingo python=3.10.0 -y
+conda activate videolingo
+python install.py
+```
 
-### Docker Installation
+3. Start the application
 
-VideoLingo provides a Dockerfile. Refer to the installation documentation: [English](/docs/pages/docs/docker.en-US.md) | [简体中文](/docs/pages/docs/docker.zh-CN.md)
+```bash
+streamlit run st.py
+```
 
-## 🏭 Batch Mode
+### Docker
+Alternatively, you can use Docker (requires CUDA 12.4 and NVIDIA Driver version >550), see [Docker docs](/docs/pages/docs/docker.en-US.md):
 
-Usage instructions: [English](/batch/README.md) | [简体中文](/batch/README.zh.md)
+```bash
+docker build -t videolingo .
+docker run -d -p 8501:8501 --gpus all videolingo
+```
 
-## ⚠️ Current Limitations
+## APIs
+VideoLingo supports OpenAI-Like API format and various TTS interfaces:
+- LLM: `claude-3-5-sonnet-20240620`, `deepseek-chat(v3)`, `gemini-2.0-flash-exp`, `gpt-4o`, ... (sorted by performance)
+- WhisperX: Run whisperX locally or use 302.ai API
+- TTS: `azure-tts`, `openai-tts`, `siliconflow-fishtts`, **`fish-tts`**, `GPT-SoVITS`, `edge-tts`, `*custom-tts`(You can modify your own TTS in custom_tts.py!)
 
-1. WhisperX performance varies across different devices. Version 1.7 performs demucs voice separation first, but this may result in worse transcription after separation compared to before. This is because whisper itself was trained in environments with background music - before separation it won't transcribe BGM lyrics, but after separation it might transcribe them.
+> **Note:** VideoLingo works with **[302.ai](https://gpt302.saaslink.net/C2oHR9)** - one API key for all services (LLM, WhisperX, TTS). Or run locally with Ollama and Edge-TTS for free, no API needed!
 
-2. **The dubbing feature quality may not be perfect** as it's still in testing and development stage, with plans to integrate MascGCT. For best results currently, it's recommended to choose TTS with similar speech rates based on the original video's speed and content characteristics. See the [demo](https://www.bilibili.com/video/BV1mt1QYyERR/?share_source=copy_web&vd_source=fa92558c28cd668d33dabaddb17e2f9e) for effects.
+For detailed installation, API configuration, and batch mode instructions, please refer to the documentation: [English](/docs/pages/docs/start.en-US.md) | [中文](/docs/pages/docs/start.zh-CN.md)
 
-3. **Multilingual video transcription recognition will only retain the main language**. This is because whisperX uses a specialized model for a single language when forcibly aligning word-level subtitles, and will delete unrecognized languages.
+## Current Limitations
 
-4. **Multi-character separate dubbing is under development**. While whisperX has VAD potential, specific implementation work is needed, and this feature is not yet supported.
+1. WhisperX transcription performance may be affected by video background noise, as it uses wav2vac model for alignment. For videos with loud background music, please enable Voice Separation Enhancement. Additionally, subtitles ending with numbers or special characters may be truncated early due to wav2vac's inability to map numeric characters (e.g., "1") to their spoken form ("one").
 
-## 🚗 Roadmap
+2. Using weaker models can lead to errors during intermediate processes due to strict JSON format requirements for responses. If this error occurs, please delete the `output` folder and retry with a different LLM, otherwise repeated execution will read the previous erroneous response causing the same error.
 
-- [x] SaaS service at [videolingo.io](https://videolingo.io)
-- [ ] VAD to distinguish speakers, multi-character dubbing
-- [ ] Customizable translation styles
-- [ ] Lip sync for dubbed videos
+3. The dubbing feature may not be 100% perfect due to differences in speech rates and intonation between languages, as well as the impact of the translation step. However, this project has implemented extensive engineering processing for speech rates to ensure the best possible dubbing results.
+
+4. **Multilingual video transcription recognition will only retain the main language**. This is because whisperX uses a specialized model for a single language when forcibly aligning word-level subtitles, and will delete unrecognized languages.
+
+5. **Cannot dub multiple characters separately**, as whisperX's speaker distinction capability is not sufficiently reliable.
 
 ## 📄 License
 
-This project is licensed under the Apache 2.0 License.The following open source projects provide important support for the development of VideoLingo:
+This project is licensed under the Apache 2.0 License. Special thanks to the following open source projects for their contributions:
 
-[whisperX](https://github.com/m-bain/whisperX) |
-[yt-dlp](https://github.com/yt-dlp/yt-dlp) |
-[json_repair](https://github.com/mangiucugna/json_repair) |
-[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) |
-[BELLE](https://github.com/LianjiaTech/BELLE)
+[whisperX](https://github.com/m-bain/whisperX), [yt-dlp](https://github.com/yt-dlp/yt-dlp), [json_repair](https://github.com/mangiucugna/json_repair), [BELLE](https://github.com/LianjiaTech/BELLE)
 
-## 📬 Contact Us
+## 📬 Contact Me
 
-- Join our Discord: https://discord.gg/9F2G92CWPp
 - Submit [Issues](https://github.com/Huanshere/VideoLingo/issues) or [Pull Requests](https://github.com/Huanshere/VideoLingo/pulls) on GitHub
-- Follow me on Twitter: [@Huanshere](https://twitter.com/Huanshere)
+- DM me on Twitter: [@Huanshere](https://twitter.com/Huanshere)
 - Email me at: team@videolingo.io
 
 ## ⭐ Star History
@@ -158,4 +160,4 @@ This project is licensed under the Apache 2.0 License.The following open source 
 
 ---
 
-<p align="center">If you find VideoLingo helpful, please give us a ⭐️!</p>
+<p align="center">If you find VideoLingo helpful, please give me a ⭐️!</p>
