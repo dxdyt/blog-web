@@ -1,9 +1,9 @@
 ---
 title: one-api
-date: 2025-02-07T12:20:50+08:00
+date: 2025-02-08T12:19:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738028449238-fa5ae8c33bce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5MDE5Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738028449238-fa5ae8c33bce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5MDE5Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735527919007-3ba8d909049e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735527919007-3ba8d909049e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
 ---
 
 # [songquanpeng/one-api](https://github.com/songquanpeng/one-api)
@@ -479,6 +479,7 @@ https://openai.justsong.cn
 * [ChatGPT Next Web](https://github.com/Yidadaa/ChatGPT-Next-Web):  一键拥有你自己的跨平台 ChatGPT 应用
 * [VChart](https://github.com/VisActor/VChart):  不只是开箱即用的多端图表库，更是生动灵活的数据故事讲述者。
 * [VMind](https://github.com/VisActor/VMind):  不仅自动，还很智能。开源智能可视化解决方案。
+* [CherryStudio](https://github.com/CherryHQ/cherry-studio):  全平台支持的AI客户端, 多服务商集成管理、本地知识库支持。
 
 ## 注意
 

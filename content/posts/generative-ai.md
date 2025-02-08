@@ -1,24 +1,25 @@
 ---
 title: generative-ai
-date: 2024-12-14T12:21:50+08:00
+date: 2025-02-08T12:18:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732734042420-1fa41185ad56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732734042420-1fa41185ad56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736437381508-9f19d2936f7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736437381508-9f19d2936f7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg5ODgzMDV8&ixlib=rb-4.0.3
 ---
 
 # [GoogleCloudPlatform/generative-ai](https://github.com/GoogleCloudPlatform/generative-ai)
 
 # Generative AI
 
-> NOTE: [Gemini 2.0 Flash](https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2) has been released! Here are the latest notebooks and demos using the new model:
+> NOTE: [Gemini 2.0 Flash-Lite and Gemini 2.0 Pro](https://cloud.google.com/vertex-ai/generative-ai/docs/gemini-v2) have been released!
 >
+> Here are the latest notebooks and demos using the new models:
+> - [Intro to Gemini 2.0 Pro](gemini/getting-started/intro_gemini_2_0_pro.ipynb)
+> - [Intro to Gemini 2.0 Flash-Lite](gemini/getting-started/intro_gemini_2_0_flash_lite.ipynb)
 > - [Intro to Gemini 2.0 Flash](gemini/getting-started/intro_gemini_2_0_flash.ipynb)
-> - [Intro to Gemini 2.0 Flash REST API](gemini/getting-started/intro_gemini_2_0_flash_rest_api.ipynb)
-> - [Intro to Google Gen AI SDK](gemini/getting-started/intro_genai_sdk.ipynb)
+> - [Intro to Multimodal Live API with Gen AI SDK](gemini/multimodal-live-api/intro_multimodal_live_api_genai_sdk.ipynb)
+> - [Intro to Gemini 2.0 Thinking Mode](gemini/getting-started/intro_gemini_2_0_flash_thinking_mode.ipynb)
+> - [Intro to Code Execution](gemini/code-execution/intro_code_execution.ipynb)
 > - [Multimodal Live API Demo App](gemini/multimodal-live-api/websocket-demo-app/)
-> - [Real-Time RAG with Multimodal Live API](gemini/multimodal-live-api/real_time_rag_retail_gemini_2_0.ipynb)
-> - [Creating Marketing Assets using Gemini 2.0](gemini/use-cases/marketing/creating_marketing_assets_gemini_2_0.ipynb)
-> - [Vertex AI Gemini Research Multi Agent Demo Research Agent for EV Industry](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/research-multi-agents)
 
 <!-- markdownlint-disable MD033 -->
 
@@ -53,7 +54,7 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
       <br>
       <a href="search/"><code>search/</code></a>
     </td>
-    <td>Use this folder if you're interested in using <a href="https://cloud.google.com/enterprise-search">Vertex AI Search</a>, a Google-managed solution to help you rapidly build search engines for websites and across enterprise data. (Formerly known as Enterprise Search on Generative AI App Builder)</td>
+    <td>Use this folder if you're interested in using <a href="https://cloud.google.com/enterprise-search">Vertex AI Search</a>, a Google-managed solution to help you rapidly build search engines for websites and across enterprise data. (Formerly known as Enterprise Search on Generative AI App Builder).</td>
   </tr>
   <tr>
     <td>
@@ -69,7 +70,7 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
       <br>
       <a href="conversation/"><code>conversation/</code></a>
     </td>
-    <td>Use this folder if you're interested in using <a href="https://cloud.google.com/generative-ai-app-builder">Vertex AI Conversation</a>, a Google-managed solution to help you rapidly build chat bots for websites and across enterprise data. (Formerly known as Chat Apps on Generative AI App Builder)</td>
+    <td>Use this folder if you're interested in using <a href="https://cloud.google.com/generative-ai-app-builder">Vertex AI Conversation</a>, a Google-managed solution to help you rapidly build chat bots for websites and across enterprise data. (Formerly known as Chat Apps on Generative AI App Builder).</td>
   </tr>
   <tr>
     <td>
@@ -122,7 +123,7 @@ For more Vertex AI samples, please visit the [Vertex AI samples GitHub repositor
       <br>
       <a href="RESOURCES.md"><code>RESOURCES.md</code></a>
     </td>
-    <td>Learning resources (e.g. blogs, YouTube playlists) about Generative AI on Google Cloud</td>
+    <td>Learning resources (e.g. blogs, YouTube playlists) about Generative AI on Google Cloud.</td>
   </tr>
 </table>
 <!-- markdownlint-enable MD033 -->
