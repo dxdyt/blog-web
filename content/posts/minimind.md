@@ -1,9 +1,9 @@
 ---
 title: minimind
-date: 2025-01-23T12:19:28+08:00
+date: 2025-02-09T12:19:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735707370784-9b3e8dd9e8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735707370784-9b3e8dd9e8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736385388988-d06f94291288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736385388988-d06f94291288?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
 ---
 
 # [jingyaogong/minimind](https://github.com/jingyaogong/minimind)

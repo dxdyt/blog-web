@@ -1,9 +1,9 @@
 ---
 title: terminal
-date: 2025-01-05T12:20:23+08:00
+date: 2025-02-09T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731432245362-26f9c0f1ba2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731432245362-26f9c0f1ba2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738362542910-b06a4f00f024?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738362542910-b06a4f00f024?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/terminal](https://github.com/microsoft/terminal)
@@ -371,15 +371,6 @@ If you would like to ask a question that you feel doesn't warrant an issue
 * You must install the [.NET Framework Targeting Pack](https://docs.microsoft.com/dotnet/framework/install/guide-for-developers#to-install-the-net-framework-developer-pack-or-targeting-pack) to build test projects
 
 ## Building the Code
-
-This repository uses [git
-submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for some of its
-dependencies. To make sure submodules are restored or updated, be sure to run
-the following prior to building:
-
-```shell
-git submodule update --init --recursive
-```
 
 OpenConsole.sln may be built from within Visual Studio or from the command-line
 using a set of convenience scripts & tools in the **/tools** directory:
