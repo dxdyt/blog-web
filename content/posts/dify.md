@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2025-02-09T12:18:55+08:00
+date: 2025-02-10T12:19:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736185669739-36a8e70cb6c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736185669739-36a8e70cb6c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736767431540-0d590ba5efc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736767431540-0d590ba5efc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -118,7 +118,74 @@ Please refer to our [FAQ](https://docs.dify.ai/getting-started/install-self-host
 **7. Backend-as-a-Service**: 
   All of Dify's offerings come with corresponding APIs, so you could effortlessly integrate Dify into your own business logic.
 
+## Feature Comparison
+<table style="width: 100%;">
+  <tr>
+    <th align="center">Feature</th>
+    <th align="center">Dify.AI</th>
+    <th align="center">LangChain</th>
+    <th align="center">Flowise</th>
+    <th align="center">OpenAI Assistants API</th>
+  </tr>
+  <tr>
+    <td align="center">Programming Approach</td>
+    <td align="center">API + App-oriented</td>
+    <td align="center">Python Code</td>
+    <td align="center">App-oriented</td>
+    <td align="center">API-oriented</td>
+  </tr>
+  <tr>
+    <td align="center">Supported LLMs</td>
+    <td align="center">Rich Variety</td>
+    <td align="center">Rich Variety</td>
+    <td align="center">Rich Variety</td>
+    <td align="center">OpenAI-only</td>
+  </tr>
+  <tr>
+    <td align="center">RAG Engine</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">Agent</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+  </tr>
+  <tr>
+    <td align="center">Workflow</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">Observability</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">Enterprise Feature (SSO/Access control)</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">Local Deployment</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+  </tr>
+</table>
 
+You can copy and paste this into your Markdown file.
 ## Using Dify
 
 - **Cloud </br>**

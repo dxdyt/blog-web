@@ -1,9 +1,9 @@
 ---
 title: chatbox
-date: 2025-02-09T12:18:34+08:00
+date: 2025-02-10T12:21:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1569377863462-aff9b3a63b3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1569377863462-aff9b3a63b3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735999925427-d04865a57628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735999925427-d04865a57628?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
 ---
 
 # [Bin-Huang/chatbox](https://github.com/Bin-Huang/chatbox)

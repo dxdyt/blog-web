@@ -1,9 +1,9 @@
 ---
 title: terminal
-date: 2025-02-09T12:18:26+08:00
+date: 2025-02-10T12:20:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738362542910-b06a4f00f024?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738362542910-b06a4f00f024?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737328180155-5cbac0020b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737328180155-5cbac0020b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/terminal](https://github.com/microsoft/terminal)

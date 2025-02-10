@@ -1,9 +1,9 @@
 ---
 title: repomix
-date: 2025-01-24T12:20:01+08:00
+date: 2025-02-10T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735754953434-6de0d3b531f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735754953434-6de0d3b531f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737008220100-804be759a152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737008220100-804be759a152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
 ---
 
 # [yamadashy/repomix](https://github.com/yamadashy/repomix)
@@ -41,7 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1735754953434-6de0d3b531
 
 📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file.  
 It is perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude,
-ChatGPT, and Gemini.
+ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
 
 ## 🎉 New: Repomix Website & Discord Community!
 
@@ -173,6 +173,13 @@ repomix --remote https://github.com/yamadashy/repomix --remote-branch main
 
 # Or use a specific commit hash:
 repomix --remote https://github.com/yamadashy/repomix --remote-branch 935b695
+
+# Another convenient way is specifying the branch's URL
+repomix --remote https://github.com/yamadashy/repomix/tree/main
+
+# Commit's URL is also supported
+repomix --remote https://github.com/yamadashy/repomix/commit/836abcd7335137228ad77feb28655d85712680f1
+
 ```
 
 To initialize a new configuration file (`repomix.config.json`):
@@ -410,24 +417,46 @@ This format provides a clean, readable structure that is both human-friendly and
 
 ### Command Line Options
 
+#### Basic Options
 - `-v, --version`: Show tool version
+
+#### Output Options
 - `-o, --output <file>`: Specify the output file name
-- `--include <patterns>`: List of include patterns (comma-separated)
-- `-i, --ignore <patterns>`: Additional ignore patterns (comma-separated)
-- `-c, --config <path>`: Path to a custom config file
 - `--style <style>`: Specify the output style (`plain`, `xml`, `markdown`)
 - `--parsable-style`: Enable parsable output based on the chosen style schema. Note that this can increase token count.
+- `--output-show-line-numbers`: Show line numbers in the output
+- `--copy`: Additionally copy generated output to system clipboard
 - `--no-file-summary`: Disable file summary section output
 - `--no-directory-structure`: Disable directory structure section output
 - `--remove-comments`: Remove comments from supported file types
 - `--remove-empty-lines`: Remove empty lines from the output
-- `--top-files-len <number>`: Number of top files to display in the summary
-- `--output-show-line-numbers`: Show line numbers in the output
-- `--copy`: Additionally copy generated output to system clipboard
+- `--header-text <text>`: Custom text to include in the file header
+- `--instruction-file-path <path>`: Path to a file containing detailed custom instructions
+- `--include-empty-directories`: Include empty directories in the output
+
+#### Filter Options
+- `--include <patterns>`: List of include patterns (comma-separated)
+- `-i, --ignore <patterns>`: Additional ignore patterns (comma-separated)
+- `--no-gitignore`: Disable .gitignore file usage
+- `--no-default-patterns`: Disable default patterns
+
+#### Remote Repository Options
 - `--remote <url>`: Process a remote Git repository
 - `--remote-branch <name>`: Specify the remote branch name, tag, or commit hash (defaults to repository default branch)
+
+#### Configuration Options
+- `-c, --config <path>`: Path to a custom config file
+- `--init`: Create config file
+- `--global`: Use global config
+
+#### Security Options
 - `--no-security-check`: Disable security check
+
+#### Token Count Options
 - `--token-count-encoding <encoding>`: Specify token count encoding (e.g., `o200k_base`, `cl100k_base`)
+
+#### Other Options
+- `--top-files-len <number>`: Number of top files to display in the summary
 - `--verbose`: Enable verbose logging
 
 Examples:
@@ -475,13 +504,21 @@ repomix --remote yamadashy/repomix
 You can specify the branch name, tag, or commit hash:
 
 ```bash
+# Using --remote-branch option
 repomix --remote https://github.com/yamadashy/repomix --remote-branch main
+
+# Using branch's URL
+repomix --remote https://github.com/yamadashy/repomix/tree/main
 ```
 
 Or use a specific commit hash:
 
 ```bash
+# Using --remote-branch option
 repomix --remote https://github.com/yamadashy/repomix --remote-branch 935b695
+
+# Using commit's URL
+repomix --remote https://github.com/yamadashy/repomix/commit/836abcd7335137228ad77feb28655d85712680f1
 ```
 
 ## ⚙️ Configuration
@@ -589,9 +626,9 @@ Repomix offers multiple methods to set ignore patterns for excluding specific fi
 process:
 
 - **.gitignore**: By default, patterns listed in your project's `.gitignore` file are used. This behavior can be
-  controlled with the `ignore.useGitignore` setting.
+  controlled with the `ignore.useGitignore` setting or the `--no-gitignore` cli option.
 - **Default patterns**: Repomix includes a default list of commonly excluded files and directories (e.g., node_modules,
-  .git, binary files). This feature can be controlled with the `ignore.useDefaultPatterns` setting. Please
+  .git, binary files). This feature can be controlled with the `ignore.useDefaultPatterns` setting or the `--no-default-patterns` cli option. Please
   see [defaultIgnore.ts](src/config/defaultIgnore.ts) for more details.
 - **.repomixignore**: You can create a `.repomixignore` file in your project root to define Repomix-specific ignore
   patterns. This file follows the same format as `.gitignore`.
@@ -602,8 +639,8 @@ Priority Order (from highest to lowest):
 
 1. Custom patterns `ignore.customPatterns`
 2. `.repomixignore`
-3. `.gitignore` (if `ignore.useGitignore` is true)
-4. Default patterns (if `ignore.useDefaultPatterns` is true)
+3. `.gitignore` (if `ignore.useGitignore` is true and `--no-gitignore` is not used)
+4. Default patterns (if `ignore.useDefaultPatterns` is true and `--no-default-patterns` is not used)
 
 This approach allows for flexible file exclusion configuration based on your project's needs. It helps optimize the size
 of the generated pack file by ensuring the exclusion of security-sensitive files and large binary files, while
@@ -713,6 +750,9 @@ repomix --no-security-check
 > Disabling security checks may expose sensitive information. Use this option with caution and only when necessary, such
 > as when working with test files or documentation that contains example credentials.
 
+
+
+
 ## 🤝 Contribution
 
 We welcome contributions from the community! To get started, please refer to our [Contributing Guide](CONTRIBUTING.md).
@@ -722,6 +762,26 @@ We welcome contributions from the community! To get started, please refer to our
 <a href="https://github.com/yamadashy/repomix/graphs/contributors">
   <img alt="contributors" src="https://contrib.rocks/image?repo=yamadashy/repomix"/>
 </a>
+
+
+
+## 🔒 Privacy Policy
+
+### Repomix CLI Tool
+- **Data Collection**: The Repomix CLI tool does **not** collect, transmit, or store any user data, telemetry, or repository information.
+- **Network Usage**: Repomix CLI operates fully offline after installation. The only cases where an internet connection is needed are:
+  - Installation via npm/yarn.
+  - Using the `--remote` flag to process remote repositories.
+  - Checking for updates (manually triggered).
+- **Security Considerations**: Since all processing is local, Repomix CLI is safe to use with private and internal repositories.
+
+### Repomix Website ([repomix.com](https://repomix.com/))
+- **Data Collection**: The Repomix website uses **Google Analytics** to collect usage data, such as page views and user interactions. This helps us understand how the website is used and improve the user experience.
+
+### Liability Disclaimer
+Repomix (both the CLI tool and the website) is provided "as is" without any warranties or guarantees.  
+We do not take responsibility for how the generated output is used, including but not limited to its accuracy, legality, or any potential consequences arising from its use.
+
 
 ## 📜 License
 

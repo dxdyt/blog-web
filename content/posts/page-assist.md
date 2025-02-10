@@ -1,9 +1,9 @@
 ---
 title: page-assist
-date: 2025-01-31T12:19:29+08:00
+date: 2025-02-10T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734887347857-28ac3b7f2dfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734887347857-28ac3b7f2dfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzgyOTcxMjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735467547583-d9fc4503f238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735467547583-d9fc4503f238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
 ---
 
 # [n4ze3m/page-assist](https://github.com/n4ze3m/page-assist)
@@ -11,6 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1734887347857-28ac3b7f2d
 # Page Assist
 
 [![Join dialoqbase #welcome](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.gg/bu54382uBd)
+[![Twitter Follow](https://img.shields.io/twitter/follow/page_assist?style=social)](https://twitter.com/page_assist)
 
 Page Assist is an open-source browser extension that provides a sidebar and web UI for your local AI model. It allows you to interact with your model from any webpage.
 ## Installation
