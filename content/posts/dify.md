@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2025-02-10T12:19:54+08:00
+date: 2025-02-11T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736767431540-0d590ba5efc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736767431540-0d590ba5efc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735583100223-40a01e52ef0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735583100223-40a01e52ef0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -185,7 +185,6 @@ Please refer to our [FAQ](https://docs.dify.ai/getting-started/install-self-host
   </tr>
 </table>
 
-You can copy and paste this into your Markdown file.
 ## Using Dify
 
 - **Cloud </br>**
