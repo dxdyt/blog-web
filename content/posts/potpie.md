@@ -1,9 +1,9 @@
 ---
 title: potpie
-date: 2025-02-11T12:19:52+08:00
+date: 2025-02-12T12:19:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737067304108-472b135f00e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737067304108-472b135f00e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736196074922-9db5970da336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736196074922-9db5970da336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
 ---
 
 # [potpie-ai/potpie](https://github.com/potpie-ai/potpie)

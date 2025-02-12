@@ -1,9 +1,9 @@
 ---
 title: awesome-deepseek-integration
-date: 2025-02-10T12:21:33+08:00
+date: 2025-02-12T12:19:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733626631376-214e024f5520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733626631376-214e024f5520?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737408250702-5de743db8993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737408250702-5de743db8993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)

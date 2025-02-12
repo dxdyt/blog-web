@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-02-02T12:18:23+08:00
+date: 2025-02-12T12:19:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734004902532-be79323e70cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734004902532-be79323e70cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734784547207-7ad9f04c1f0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734784547207-7ad9f04c1f0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -49,6 +49,7 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 - [👨‍⚖️ AI Legal Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_legal_agent_team)
 - [💼 AI Recruitment Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_recruitment_agent_team)
 - [👨‍💼 AI Services Agency](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_services_agency)
+- [🧲 AI Competitor Intelligence Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_competitor_intelligence_agent_team)
 - [🏋️‍♂️ AI Health & Fitness Planner Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_health_fitness_agent)
 - [📈 AI Startup Trend Analysis Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_startup_trend_analysis_agent)
 - [🗞️ AI Journalist Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_journalist_agent)
@@ -60,6 +61,7 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 - [👨‍🏫 AI Teaching Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_teaching_agent_team)
 - [🛫 AI Travel Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_travel_agent)
 - [🎬 AI Movie Production Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_movie_production_agent)
+-[💻 Multimodal AI Coding Agent Team with o3-mini and Gemini](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_coding_agent_o3-mini)
 - [📰 Multi-Agent AI Researcher](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/multi_agent_researcher)
 - [📑 AI Meeting Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_meeting_agent)
 - [♜ AI Chess Agent Game](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_chess_agent)
@@ -71,6 +73,7 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 ### RAG (Retrieval Augmented Generation)
 - [🔍 Autonomous RAG](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/autonomous_rag)
 - [🔗 Agentic RAG](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/agentic_rag)
+- [🤔 Agentic RAG with Gemini Flash Thinking](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/gemini_agentic_rag)
 - [🔄 Llama3.1 Local RAG](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/llama3.1_local_rag)
 - [🧩 RAG-as-a-Service](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag-as-a-service)
 - [🦙 Local RAG Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/local_rag_agent)

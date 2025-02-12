@@ -1,9 +1,9 @@
 ---
 title: page-assist
-date: 2025-02-10T12:21:42+08:00
+date: 2025-02-12T12:19:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735467547583-d9fc4503f238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735467547583-d9fc4503f238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737408250702-5de743db8993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737408250702-5de743db8993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
 ---
 
 # [n4ze3m/page-assist](https://github.com/n4ze3m/page-assist)
