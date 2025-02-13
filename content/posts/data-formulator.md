@@ -1,9 +1,9 @@
 ---
 title: data-formulator
-date: 2025-02-12T12:19:11+08:00
+date: 2025-02-13T12:19:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737365507770-5dccad417087?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737365507770-5dccad417087?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737995709570-1e948a8e0089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737995709570-1e948a8e0089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1737365507770-5dccad4170
 
 </div>
 
-Transform data and create rich visualizations iteratively with AI 🪄. Try Data Formulator now in GitHub Codespaces!
+Transform data and create rich visualizations iteratively with AI 🪄. Try Data Formulator now!
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/microsoft/data-formulator?quickstart=1)
 
@@ -31,6 +31,12 @@ Transform data and create rich visualizations iteratively with AI 🪄. Try Data
 
 
 ## News 🔥🔥🔥
+
+- [02-12-2025] More models supported now!
+  - Now supports OpenAI, Azure, Ollama, and Anthropic models (and more powered by [LiteLLM](https://github.com/BerriAI/litellm));
+  - Models with strong code generation and instruction following capabilities are recommended (gpt-4o, claude-3-5-sonnet etc.);
+  - You can store API keys in `api-keys.env` to avoid typing them every time (see template `api-keys.env.template`).
+  - Let us know which models you have good/bad experiences with, and what models you would like to see supported! [[comment here]](https://github.com/microsoft/data-formulator/issues/49)
 
 - [11-07-2024] Minor fun update: data visualization challenges!
   - We added a few visualization challenges with the sample datasets. Can you complete them all? [[try them out!]](https://github.com/microsoft/data-formulator/issues/53#issue-2641841252)
@@ -87,7 +93,7 @@ Play with Data Formulator with one of the following options:
 
 ## Using Data Formulator
 
-Once you’ve completed the setup using either option, follow these steps to start using Data Formulator:
+Once you've completed the setup using either option, follow these steps to start using Data Formulator:
 
 ### The basics of data visualization
 * Provide OpenAI keys and select a model (GPT-4o suggested) and choose a dataset.

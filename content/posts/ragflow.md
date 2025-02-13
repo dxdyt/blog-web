@@ -1,9 +1,9 @@
 ---
 title: ragflow
-date: 2025-02-11T12:19:21+08:00
+date: 2025-02-13T12:20:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738597967526-fca7534cdd5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738597967526-fca7534cdd5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738005787913-3a51f95507a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738005787913-3a51f95507a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
 ---
 
 # [infiniflow/ragflow](https://github.com/infiniflow/ragflow)

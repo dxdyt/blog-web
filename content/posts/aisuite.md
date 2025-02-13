@@ -1,9 +1,9 @@
 ---
 title: aisuite
-date: 2024-12-19T12:21:30+08:00
+date: 2025-02-13T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732098911727-1f675ac0655e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732098911727-1f675ac0655e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ1ODIwMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738168601638-e7b8798713c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738168601638-e7b8798713c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
 ---
 
 # [andrewyng/aisuite](https://github.com/andrewyng/aisuite)

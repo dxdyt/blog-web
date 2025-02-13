@@ -1,9 +1,9 @@
 ---
 title: FastGPT
-date: 2025-02-12T12:20:36+08:00
+date: 2025-02-13T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738346441946-1a7ef573b9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738346441946-1a7ef573b9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736695796912-d630c4a9e7c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736695796912-d630c4a9e7c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
 ---
 
 # [labring/FastGPT](https://github.com/labring/FastGPT)
