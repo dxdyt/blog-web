@@ -1,9 +1,9 @@
 ---
 title: potpie
-date: 2025-02-12T12:19:52+08:00
+date: 2025-02-14T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736196074922-9db5970da336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736196074922-9db5970da336?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735370436237-779239d71e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735370436237-779239d71e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
 ---
 
 # [potpie-ai/potpie](https://github.com/potpie-ai/potpie)
@@ -79,6 +79,14 @@ Potpie is an open-source platform that creates AI agents specialized in your cod
 - 🔄 **Seamless Integration**: Works with your existing development workflow
 - 📈 **Flexible**: Handles codebases of any size or language
 
+
+## 🔌 VSCode Extension
+
+Bring the power of Potpie's AI agents directly into your development environment with our VSCode extension:
+
+- **Direct Integration**: Access all Potpie agents without leaving your editor
+- **Quick Setup**: Install directly from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=PotpieAI.potpie-vscode-extension)
+- **Seamless Workflow**: Ask questions, get explanations, and implement suggestions right where you code
 
 
 ## 🤖 Potpie's Prebuilt Agents

@@ -1,9 +1,9 @@
 ---
 title: kong
-date: 2024-06-01T12:17:46+08:00
+date: 2025-02-14T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716182716887-a285a8466308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716182716887-a285a8466308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTcyMTUzOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735370436237-779239d71e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735370436237-779239d71e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
 ---
 
 # [Kong/kong](https://github.com/Kong/kong)
@@ -21,11 +21,13 @@ Kong runs natively on Kubernetes thanks to its official [Kubernetes Ingress Cont
 
 ---
 
-[Installation](https://konghq.com/install/#kong-community) | [Documentation](https://docs.konghq.com) | [Discussions](https://github.com/Kong/kong/discussions) | [Forum](https://discuss.konghq.com) | [Blog](https://konghq.com/blog) | [Builds][kong-master-builds]
+[Installation](https://konghq.com/install/#kong-community) | [Documentation](https://docs.konghq.com) | [Discussions](https://github.com/Kong/kong/discussions) | [Forum](https://discuss.konghq.com) | [Blog](https://konghq.com/blog) | [Builds][kong-master-builds] | [Cloud Hosted Kong](https://konghq.com/kong-konnect/)
 
 ---
 
 ## Getting Started
+
+If you prefer to use a cloud-hosted Kong, you can [sign up for a free trial of Kong Konnect](https://konghq.com/products/kong-konnect/register?utm_medium=Referral&utm_source=Github&utm_campaign=kong-gateway&utm_content=konnect-promo-in-gateway&utm_term=get-started) and get started in minutes. If not, you can follow the instructions below to get started with Kong on your own infrastructure.
 
 Let’s test drive Kong by adding authentication to an API in under 5 minutes.
 

@@ -1,9 +1,9 @@
 ---
 title: llm-cookbook
-date: 2025-02-13T12:20:42+08:00
+date: 2025-02-14T12:20:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738430275589-2cd3d0d0d57a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738430275589-2cd3d0d0d57a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738316849619-747a83d4e979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738316849619-747a83d4e979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
 ---
 
 # [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook)

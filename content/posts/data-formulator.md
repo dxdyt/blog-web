@@ -1,9 +1,9 @@
 ---
 title: data-formulator
-date: 2025-02-13T12:19:19+08:00
+date: 2025-02-14T12:19:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737995709570-1e948a8e0089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737995709570-1e948a8e0089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736612356978-df5dc8f678d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736612356978-df5dc8f678d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/data-formulator](https://github.com/microsoft/data-formulator)

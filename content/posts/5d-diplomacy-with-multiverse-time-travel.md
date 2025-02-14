@@ -1,9 +1,9 @@
 ---
 title: 5d-diplomacy-with-multiverse-time-travel
-date: 2025-02-13T12:20:09+08:00
+date: 2025-02-14T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738005787913-3a51f95507a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738005787913-3a51f95507a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736612356978-df5dc8f678d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736612356978-df5dc8f678d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
 ---
 
 # [Oliveriver/5d-diplomacy-with-multiverse-time-travel](https://github.com/Oliveriver/5d-diplomacy-with-multiverse-time-travel)
