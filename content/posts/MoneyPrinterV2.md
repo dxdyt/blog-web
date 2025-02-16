@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterV2
-date: 2025-01-16T12:19:26+08:00
+date: 2025-02-16T12:18:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736163043105-8eaf49bc6ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736163043105-8eaf49bc6ba5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738914401267-80aee2b8f4a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738914401267-80aee2b8f4a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
@@ -17,6 +17,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1736163043105-8eaf49bc6b
 [![GitHub issues](https://img.shields.io/github/issues/FujiwaraChoki/MoneyPrinterV2?style=for-the-badge)](https://github.com/FujiwaraChoki/MoneyPrinterV2/issues)
 [![GitHub stars](https://img.shields.io/github/stars/FujiwaraChoki/MoneyPrinterV2?style=for-the-badge)](https://github.com/FujiwaraChoki/MoneyPrinterV2/stargazers)
 [![Discord](https://img.shields.io/discord/1134848537704804432?style=for-the-badge)](https://dsc.gg/fuji-community)
+
+> Follow me on [X](https://x.com/DevBySami).
 
 An Application that automates the process of making money online.
 MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of the MoneyPrinter project. It is a complete rewrite of the original project, with a focus on a wider range of features and a more modular architecture.
@@ -47,6 +49,7 @@ Please install [Microsoft Visual C++ build tools](https://visualstudio.microsoft
 ```bash
 git clone https://github.com/FujiwaraChoki/MoneyPrinterV2.git
 
+cd MoneyPrinterV2
 # Copy Example Configuration and fill out values in config.json
 cp config.example.json config.json
 

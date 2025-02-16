@@ -1,9 +1,9 @@
 ---
 title: unstract
-date: 2025-02-15T12:20:28+08:00
+date: 2025-02-16T12:18:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736148392922-f4a941789544?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1OTMxNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736148392922-f4a941789544?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1OTMxNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739469600176-b58ebd9b9404?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739469600176-b58ebd9b9404?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
 ---
 
 # [Zipstack/unstract](https://github.com/Zipstack/unstract)
@@ -69,9 +69,9 @@ Next, either download a release or clone this repo and do the following:
 
 That's all there is to it!
 
-Follow [these steps](backend/README.md#authentication) to change the default username and password.
-
+Follow [these steps](backend/README.md#authentication) to change the default username and password.  
 See [user guide](https://docs.unstract.com/unstract/unstract_platform/user_guides/run_platform) for more details on managing the platform.  
+
 Another really quick way to experience Unstract is by signing up for our [hosted version](https://us-central.unstract.com/). It comes with a 14 day free trial!
 
 ## ⏩ Quick Start Guide

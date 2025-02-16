@@ -1,9 +1,9 @@
 ---
 title: ai-chatbot
-date: 2025-02-12T12:20:29+08:00
+date: 2025-02-16T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735809489088-ead6b62e5ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735809489088-ead6b62e5ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736880830532-e1a040dae178?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736880830532-e1a040dae178?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
 ---
 
 # [vercel/ai-chatbot](https://github.com/vercel/ai-chatbot)
