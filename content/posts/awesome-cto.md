@@ -1,9 +1,9 @@
 ---
 title: awesome-cto
-date: 2025-02-17T12:21:52+08:00
+date: 2025-02-18T12:20:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739371649407-07ba193bca97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739371649407-07ba193bca97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738071545459-e19435ae37e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738071545459-e19435ae37e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
 ---
 
 # [kuchin/awesome-cto](https://github.com/kuchin/awesome-cto)

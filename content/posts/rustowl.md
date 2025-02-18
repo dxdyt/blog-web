@@ -1,9 +1,9 @@
 ---
 title: rustowl
-date: 2025-02-17T12:21:05+08:00
+date: 2025-02-18T12:19:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738162571972-d8337de941e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738162571972-d8337de941e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736855719599-c0298b8faf95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736855719599-c0298b8faf95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
 ---
 
 # [cordx56/rustowl](https://github.com/cordx56/rustowl)

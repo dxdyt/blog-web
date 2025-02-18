@@ -1,9 +1,9 @@
 ---
 title: Hyprland
-date: 2024-10-12T12:19:36+08:00
+date: 2025-02-18T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727460198311-b30af35bceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727460198311-b30af35bceb2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3MDY3MTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737079282750-5e2580fe5603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737079282750-5e2580fe5603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
 ---
 
 # [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
@@ -110,7 +110,7 @@ easy IPC, much more QoL stuff than other compositors and more...
 
 <!----------------------------------------------------------------------------->
 
-[Configure]: https://wiki.hyprland.org/Configuring/Configuring-Hyprland/
+[Configure]: https://wiki.hyprland.org/Configuring/
 [Stars]: https://starchart.cc/hyprwm/Hyprland
 [Hypr]: https://github.com/hyprwm/Hypr
 

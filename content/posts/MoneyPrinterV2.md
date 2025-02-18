@@ -1,14 +1,20 @@
 ---
 title: MoneyPrinterV2
-date: 2025-02-17T12:20:08+08:00
+date: 2025-02-18T12:19:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738234402655-f44627aaa094?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738234402655-f44627aaa094?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737079282750-5e2580fe5603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737079282750-5e2580fe5603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
 
 # MoneyPrinter V2
+
+> ♥︎ If you're interested in using a hosted version, sign up for the waitlist on [shiori.ai](https://www.shiori.ai), an AI tool that combines all other AI tools into one.
+
+---
+
+> 𝕏 Also, follow me on X: [@DevBySami](https://x.com/DevBySami).
 
 [![madewithlove](https://img.shields.io/badge/made_with-%E2%9D%A4-red?style=for-the-badge&labelColor=orange)](https://github.com/FujiwaraChoki/MoneyPrinterV2)
 
@@ -17,8 +23,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1738234402655-f44627aaa0
 [![GitHub issues](https://img.shields.io/github/issues/FujiwaraChoki/MoneyPrinterV2?style=for-the-badge)](https://github.com/FujiwaraChoki/MoneyPrinterV2/issues)
 [![GitHub stars](https://img.shields.io/github/stars/FujiwaraChoki/MoneyPrinterV2?style=for-the-badge)](https://github.com/FujiwaraChoki/MoneyPrinterV2/stargazers)
 [![Discord](https://img.shields.io/discord/1134848537704804432?style=for-the-badge)](https://dsc.gg/fuji-community)
-
-> Follow me on [X](https://x.com/DevBySami).
 
 An Application that automates the process of making money online.
 MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of the MoneyPrinter project. It is a complete rewrite of the original project, with a focus on a wider range of features and a more modular architecture.
@@ -36,6 +40,7 @@ MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of th
 ## Versions
 
 MoneyPrinter has different versions for multiple languages developed by the community for the community. Here are some known versions:
+
 - Chinese: [MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
 
 If you would like to submit your own version/fork of MoneyPrinter, please open an issue describing the changes you made to the fork.
