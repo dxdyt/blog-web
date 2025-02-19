@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2025-01-16T12:18:52+08:00
+date: 2025-02-19T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -81,10 +81,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1733064515562-be3d5f1e6f
 - [ ] 增加视频长度选项：短、中、长
 - [ ] 支持更多的语音合成服务商，比如 OpenAI TTS
 - [ ] 自动上传到YouTube平台
-
-## 交流讨论 💬
-
-<img src="docs/wechat-group.jpg" width="250">
 
 ## 视频演示 📺
 

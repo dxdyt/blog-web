@@ -1,9 +1,9 @@
 ---
 title: fabric
-date: 2025-01-22T12:20:57+08:00
+date: 2025-02-19T12:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736385389513-06d7ea7b705e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736385389513-06d7ea7b705e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737852329425-72d24726a617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737852329425-72d24726a617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
 ---
 
 # [danielmiessler/fabric](https://github.com/danielmiessler/fabric)
@@ -76,9 +76,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1736385389513-06d7ea7b70
 ## Updates
 
 > [!NOTE]
-> November 8, 2024
+> February 5, 2025
 >
-> - **Multimodal Support**: You can now use `-a` (attachment) for Multimodal submissions to OpenAI models that support it. Example: `fabric -a https://path/to/image "Give me a description of this image."`
+> - Remember that `fabric` supports `o1` and `o3` models, but you need to 1) not use `-s`, and 2) use the `--raw` flag because the o1 and o3 models don't support the `--stream` option or temperature settings.
 
 ## What and why
 

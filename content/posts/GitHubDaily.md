@@ -1,9 +1,9 @@
 ---
 title: GitHubDaily
-date: 2025-02-18T12:20:36+08:00
+date: 2025-02-19T12:20:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738070593158-9e84a49e7e60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738070593158-9e84a49e7e60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739305235159-308ddffb4129?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739305235159-308ddffb4129?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
 ---
 
 # [GitHubDaily/GitHubDaily](https://github.com/GitHubDaily/GitHubDaily)
