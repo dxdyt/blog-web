@@ -1,9 +1,9 @@
 ---
 title: outline
-date: 2025-02-18T12:20:29+08:00
+date: 2025-02-20T12:20:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736830646671-c10b94d56fe6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736830646671-c10b94d56fe6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk4NTIzNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
 ---
 
 # [outline/outline](https://github.com/outline/outline)

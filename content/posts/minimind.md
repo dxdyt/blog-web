@@ -1,9 +1,9 @@
 ---
 title: minimind
-date: 2025-02-19T12:21:11+08:00
+date: 2025-02-20T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737440227575-fd61700ff759?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737440227575-fd61700ff759?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
 ---
 
 # [jingyaogong/minimind](https://github.com/jingyaogong/minimind)
@@ -1168,7 +1168,6 @@ DPO和在线PPO的区别在于reject和chosen都是离线准备的，和minimind
 | 7  | E  | 22        | 23        | 15        | 14         | 74        |
 | 8  | G  | 10        | 12        | 10        | 10         | 42        |
 
----
 
 ### 👉主观效果总结
 
@@ -1181,6 +1180,8 @@ DPO和在线PPO的区别在于reject和chosen都是离线准备的，和minimind
 * G模型可能训练数据不够完备，给出的权重经过测试效果不佳。
 
 * 再复诵一遍经久不衰的Scaling Law: 参数越大，训练数据越多模型的性能越强。
+
+---
 
 ## Ⅲ Objective Benchmark
 
