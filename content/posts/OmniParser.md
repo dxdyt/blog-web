@@ -1,9 +1,9 @@
 ---
 title: OmniParser
-date: 2025-02-20T12:19:24+08:00
+date: 2025-02-21T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738762390183-c18525eb3f8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738762390183-c18525eb3f8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738007558011-dbd878f6ddee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738007558011-dbd878f6ddee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/OmniParser](https://github.com/microsoft/OmniParser)
