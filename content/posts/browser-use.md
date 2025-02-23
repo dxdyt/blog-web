@@ -1,9 +1,9 @@
 ---
 title: browser-use
-date: 2025-02-11T12:20:04+08:00
+date: 2025-02-23T12:20:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737652423559-e193e9a5d3f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737652423559-e193e9a5d3f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738762389488-6d632baf72cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738762389488-6d632baf72cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)
@@ -31,9 +31,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1737652423559-e193e9a5d3
 
 🌩️ Skip the setup - try our hosted version for instant browser automation! [Try it now](https://cloud.browser-use.com).
 
+
 # Quick start
 
-With pip:
+
+With pip (Python>=3.11):
 
 ```bash
 pip install browser-use
@@ -142,24 +144,27 @@ Tell your computer what to do, and it gets it done.
 
 ## Roadmap
 
-- [ ] Improve memory management
-- [ ] Enhance planning capabilities
-- [ ] Improve self-correction
-- [ ] Fine-tune the model for better performance
+### Agent
+- [ ] Improve agent memory (summarize, compress, RAG, etc.)
+- [ ] Enhance planning capabilities (load website specific context)
+- [ ] Reduce token consumption (system prompt, DOM state)
+
+### DOM Extraction
+- [ ] Improve extraction for datepickers, dropdowns, special elements
+- [ ] Improve state representation for UI elements
+
+### Rerunning tasks
+- [ ] LLM as fallback
+- [ ] Make it easy to define workfows templates where LLM fills in the details
+- [ ] Return playwright script from the agent
+
+### Datasets
 - [ ] Create datasets for complex tasks
-- [ ] Sandbox browser-use for specific websites
-- [ ] Implement deterministic script rerun with LLM fallback
-- [ ] Cloud-hosted version
-- [ ] Add stop/pause functionality
-- [ ] Improve authentication handling
-- [ ] Reduce token consumption
-- [ ] Implement long-term memory
-- [ ] Handle repetitive tasks reliably
-- [ ] Third-party integrations (Slack, etc.)
-- [ ] Include more interactive elements
-- [ ] Human-in-the-loop execution
 - [ ] Benchmark various models against each other
-- [ ] Let the user record a workflow and browser-use will execute it
+- [ ] Fine-tuning models for specific tasks
+
+### User Experience
+- [ ] Human-in-the-loop execution
 - [ ] Improve the generated GIF quality
 - [ ] Create various demos for tutorial execution, job application, QA testing, social media, etc.
 

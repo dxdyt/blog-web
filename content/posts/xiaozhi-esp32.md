@@ -1,9 +1,9 @@
 ---
 title: xiaozhi-esp32
-date: 2025-02-21T12:22:19+08:00
+date: 2025-02-23T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737304697097-62a820f71964?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737304697097-62a820f71964?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737885763392-0141b416ec1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737885763392-0141b416ec1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
 ---
 
 # [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
@@ -70,7 +70,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1737304697097-62a820f719
 - <a href="https://github.com/Xinyuan-LilyGO/T-Circle-S3" target="_blank" title="LILYGO T-Circle-S3">LILYGO T-Circle-S3</a>
 - <a href="https://oshwhub.com/tenclass01/xmini_c3" target="_blank" title="虾哥 Mini C3">虾哥 Mini C3</a>
 - <a href="https://oshwhub.com/movecall/moji-xiaozhi-ai-derivative-editi" target="_blank" title="Movecall Moji ESP32S3">Moji 小智AI衍生版</a>
-
+- <a href="https://github.com/WMnologo/xingzhi-ai" target="_blank" title="无名科技Nologo-星智-1.54">无名科技Nologo-星智-1.54TFT</a>
+- <a href="https://github.com/WMnologo/xingzhi-ai" target="_blank" title="无名科技Nologo-星智-0.96">无名科技Nologo-星智-0.96TFT</a>
 <div style="display: flex; justify-content: space-between;">
   <a href="docs/v1/lichuang-s3.jpg" target="_blank" title="立创·实战派 ESP32-S3 开发板">
     <img src="docs/v1/lichuang-s3.jpg" width="240" />
@@ -98,6 +99,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1737304697097-62a820f719
   </a>
   <a href="docs/v1/movecall-moji-esp32s3.jpg" target="_blank" title="Movecall Moji 小智AI衍生版">
     <img src="docs/v1/movecall-moji-esp32s3.jpg" width="240" />
+  </a>
+  <a href="docs/v1/wmnologo_xingzhi_1.54.jpg" target="_blank" title="无名科技Nologo-星智-1.54">
+    <img src="docs/v1/wmnologo_xingzhi_1.54.jpg" width="240" />
+  </a>
+  <a href="docs/v1/wmnologo_xingzhi_0.96.jpg" target="_blank" title="无名科技Nologo-星智-0.96">
+    <img src="docs/v1/wmnologo_xingzhi_0.96.jpg" width="240" />
   </a>
 </div>
 

@@ -1,9 +1,9 @@
 ---
 title: network-api
-date: 2025-02-22T12:19:01+08:00
+date: 2025-02-23T12:19:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739609439850-2eace0b03218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739609439850-2eace0b03218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738168601638-e7b8798713c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738168601638-e7b8798713c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
 ---
 
 # [nexus-xyz/network-api](https://github.com/nexus-xyz/network-api)
@@ -27,8 +27,9 @@ A high-performance command-line interface for contributing proofs to the Nexus n
 The [Nexus Network](https://docs.nexus.xyz/network) is a global distributed prover network that unites the world's computers to power a new and better Internet: the Verifiable Internet.
 
 There have been two testnets so far:
-- First testnet: [October 08 – 28, 2024](https://blog.nexus.xyz/nexus-launches-worlds-first-open-prover-network/)
-- Second testnet: [December 9 – 13, 2024](https://blog.nexus.xyz/the-new-nexus-testnet-is-live/)
+- Testnet 0: [October 08 – 28, 2024](https://blog.nexus.xyz/nexus-launches-worlds-first-open-prover-network/)
+- Testnet I: [December 9 – 13, 2024](https://blog.nexus.xyz/the-new-nexus-testnet-is-live/)
+- Testnet II: February 18 – 22, 2025
 
 ---
 

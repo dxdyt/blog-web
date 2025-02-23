@@ -1,9 +1,9 @@
 ---
 title: wechat-bot
-date: 2025-02-21T12:21:45+08:00
+date: 2025-02-23T12:19:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737509551345-21577f99bf63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737509551345-21577f99bf63?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739582767192-3aa4d4811633?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739582767192-3aa4d4811633?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
 ---
 
 # [wangrongding/wechat-bot](https://github.com/wangrongding/wechat-bot)
@@ -240,6 +240,14 @@ AUTO_REPLY_PREFIX=''
 可以看到，自动回复都是基于 `chatgpt` 的，记得要开代理，或者填写代理地址。
 
 ![](https://github.com/user-attachments/assets/1c312cf4-73d8-44a1-8f36-5ea288ac0aa4)
+
+## 注意项
+
+近期微信审查很严格，大量用户反映弹出外挂警告，由于项目内默认使用的是免费版的 web 协议，所以目前来说很容易会被微信检测到，建议使用 pad 协议，或者自行购买企业版协议，避免被封号。
+
+修改可参考： https://github.com/wangrongding/wechat-bot/pull/263/files  
+自行购买 pad 协议渠道（wechaty 出的，购买仍需谨慎）：http://pad-local.com  
+由于底层依赖的 wechaty 本身不怎么维护了，听说是被腾讯告了，所以大家购买也要谨慎，群友分享目前 pad 协议可正常使用(但频繁登录登出也会收到警告)，最好别一次性买太久的。
 
 ## 常见问题
 

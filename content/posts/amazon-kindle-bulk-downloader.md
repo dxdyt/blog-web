@@ -1,9 +1,9 @@
 ---
 title: amazon-kindle-bulk-downloader
-date: 2025-02-22T12:19:19+08:00
+date: 2025-02-23T12:18:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738258644135-29aa538dfa6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738258644135-29aa538dfa6f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737405555489-78b3755eaa81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737405555489-78b3755eaa81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
 ---
 
 # [treetrum/amazon-kindle-bulk-downloader](https://github.com/treetrum/amazon-kindle-bulk-downloader)
@@ -29,10 +29,16 @@ If you are able to proceed to the next screen and download the book, then this t
 
 You need to have Bun installed before you can run this too. Please see here for the most up to date instructions for your system: https://bun.sh/docs/installation
 
-Once Bun is installed, clone this repository, and run the following command from the root of the downloaded repository:
+Once Bun is installed, clone this repository, and run the following command from the root of the downloaded repository to install dependencies.
 
 ```bash
 bun install
+```
+
+Then run the following command to install a special version of chrome for use by this tool
+
+```bash
+bunx puppeteer browsers install chrome
 ```
 
 ## Running
@@ -45,19 +51,20 @@ Note that amazon credentials will need to be provided. Currently this script exp
 | `PASSWORD`    | Account password          | Yes                         |
 | `OTP`         | 6 digit one-time password | If 2 factor auth is enabled |
 
-I recommend using the env template found in the root of the repo to create and .env file containing your specific vars.
+Note this tool is already configured to read environment variables from an `.env` file in the root of the repo. You can make a copy of the `.env.template` file called `.env` and fill in your details there for an easy way to get started.
 
 ### CLI Arguments
 
 The following CLI arguments are made available to customise the downloader to your needs
 
-| Argument            | Default Value                          | Description                                                                                                                                                                                                                                                      |
-| ------------------- | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--baseUrl`         | N/A (Will be prompted if not provided) | Which Amazon base URL to use. Note, this MUST include www. in order to work properly                                                                                                                                                                             |
-| `--totalDownloads`  | 9999                                   | Total number of downloads to do                                                                                                                                                                                                                                  |
-| `--maxConcurrency`  | 10                                     | Maximum number of concurrent downloads                                                                                                                                                                                                                           |
-| `--startFromOffset` | 0                                      | Index offset to begin downloading from. Allows resuming of previous failed attempts. Note this argument has [known issues](https://github.com/treetrum/amazon-kindle-bulk-downloader/issues/162#issuecomment-2669569874) and should probably be avoided for now. |
-| `--manualAuth`      | false                                  | Allows user to manually login using the pupeteer UI instead of automatically using ENV vars. Use when auto login is not working.                                                                                                                                 |
+| Argument              | Default Value                          | Description                                                                                                                      |
+| --------------------- | -------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| `--baseUrl`           | N/A (Will be prompted if not provided) | Which Amazon base URL to use. Note, this MUST include www. in order to work properly                                             |
+| `--totalDownloads`    | Infinity                               | Total number of downloads to do                                                                                                  |
+| `--maxConcurrency`    | 10                                     | Maximum number of concurrent downloads                                                                                           |
+| `--startFromOffset`   | 0                                      | Index offset to begin downloading from. Allows resuming of previous partially finished attempts.                                 |
+| `--manualAuth`        | false                                  | Allows user to manually login using the pupeteer UI instead of automatically using ENV vars. Use when auto login is not working. |
+| `--duplicateHandling` | skip                                   | How to handle files of the same name/size on the filesystem. Options: skip, overwrite                                            |
 
 ### Running
 
@@ -72,6 +79,44 @@ Command line arguments can be provided as follows
 ```bash
 bun run start --baseUrl "https://www.amazon.com.au"
 ```
+
+## Docker
+
+### Build docker image
+
+```bash
+docker build . \
+   -t amazon-kindle-bulk-downloader
+```
+
+### Run in docker
+
+Run the built docker image ensuring to pass in all the required ENV vars and any CLI flags you wish to override. See below for an example:
+
+```bash
+docker run \
+   --rm \
+   -ti \
+   -v ./downloads:/app/downloads \
+   -e AMAZON_USER=userName \
+   -e PASSWORD=pass \
+   -e OTP=otpCode \
+   amazon-kindle-bulk-downloader \
+   --baseUrl "https://www.amazon.com"
+```
+
+### Docker specific env variable
+
+| Variable             | Description                        | Required           |
+| -------------------- | ---------------------------------- | ------------------ |
+| `PUPPETEER_HEADLESS` | run puppeteer in headless mode     | no (default false) |
+| `PUPPETEER_ARGS`     | additional arguments for puppeteer | no                 |
+
+### Important Notes
+
+In docker `--manualAuth` does not work you must provide credentials via env
+
+If you are on arm64 (i.e. a Mac with an Apple Silicon chip) you mast add `--platform linux/x86_64` when running your `docker run` and `docker build
 
 ## Troubleshooting
 
@@ -108,3 +153,28 @@ There has also [been an indication](https://github.com/treetrum/amazon-kindle-bu
 #### Error: Failed to parse CRSF token
 
 This indicates that your login did not fully succeed. There are a multitude of reasons why this could happen however the simplest fix is often to login using the --manualAuth CLI flag instead of using the automated process.
+
+#### Error: `Script not found "start"` when running `bun run start`
+
+This error occurs when you are running `bun run start` from outside the root of the repository. You need to be in the root of the repository to run this command.
+
+After cloning the you will need to change directory (`cd`) into the repo folder by doing:
+
+```bash
+cd amazon-kindle-bulk-downloader
+```
+
+After which you should be able to run the following without getting errors.
+
+```bash
+bun install
+bun run start
+```
+
+#### All downloads are ~100kb files that are not valid books
+
+The 100kb files are actually error web pages instead of book files and likely indicates that the book files were purchased in another region (even if they show up!).
+
+See [here](https://github.com/treetrum/amazon-kindle-bulk-downloader/issues/192#issuecomment-2676081558) for original report of this.
+
+The fix is to ensure the correct baseUrl is passed for the region that the books were purchased in.
