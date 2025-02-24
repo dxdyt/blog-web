@@ -1,9 +1,9 @@
 ---
 title: pandas-ai
-date: 2025-02-22T12:19:33+08:00
+date: 2025-02-24T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736779580644-6b4268af4642?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736779580644-6b4268af4642?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737917818689-f3b3708de5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAzNzA3OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737917818689-f3b3708de5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAzNzA3OTJ8&ixlib=rb-4.0.3
 ---
 
 # [sinaptik-ai/pandas-ai](https://github.com/sinaptik-ai/pandas-ai)

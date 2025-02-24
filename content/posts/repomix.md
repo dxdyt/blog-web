@@ -1,9 +1,9 @@
 ---
 title: repomix
-date: 2025-02-10T12:21:12+08:00
+date: 2025-02-24T12:20:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737008220100-804be759a152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737008220100-804be759a152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738463748284-724277705fb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAzNzA3OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738463748284-724277705fb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAzNzA3OTJ8&ixlib=rb-4.0.3
 ---
 
 # [yamadashy/repomix](https://github.com/yamadashy/repomix)
@@ -182,13 +182,22 @@ repomix --remote https://github.com/yamadashy/repomix/commit/836abcd7335137228ad
 
 ```
 
+To compress the output:
+
+```bash
+repomix --compress
+
+# You can also use it with remote repositories:
+repomix --remote yamaadshy/repomix --compress
+```
+
 To initialize a new configuration file (`repomix.config.json`):
 
 ```bash
 repomix --init
 ```
 
-Once you have generated the packed file, you can use it with Generative AI tools like Claude, ChatGPT, and Gemini.
+Once you have generated the packed file, you can use it with Generative AI tools like ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
 
 ### Docker Usage 🐳
 
@@ -215,7 +224,7 @@ docker run -v ./output:/app -it --rm ghcr.io/yamadashy/repomix --remote https://
 
 ### Prompt Examples
 
-Once you have generated the packed file with Repomix, you can use it with AI tools like Claude, ChatGPT, and Gemini.
+Once you have generated the packed file with Repomix, you can use it with AI tools like ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more.
 Here are some example prompts to get you started:
 
 #### Code Review and Refactoring
@@ -424,6 +433,7 @@ This format provides a clean, readable structure that is both human-friendly and
 - `-o, --output <file>`: Specify the output file name
 - `--style <style>`: Specify the output style (`plain`, `xml`, `markdown`)
 - `--parsable-style`: Enable parsable output based on the chosen style schema. Note that this can increase token count.
+- `--compress`: Perform intelligent code extraction, focusing on essential function and class signatures to reduce token count
 - `--output-show-line-numbers`: Show line numbers in the output
 - `--copy`: Additionally copy generated output to system clipboard
 - `--no-file-summary`: Disable file summary section output
@@ -521,6 +531,42 @@ repomix --remote https://github.com/yamadashy/repomix --remote-branch 935b695
 repomix --remote https://github.com/yamadashy/repomix/commit/836abcd7335137228ad77feb28655d85712680f1
 ```
 
+### Code Compression
+
+The `--compress` option utilizes tree-sitter to perform intelligent code extraction, focusing on essential function and class signatures while removing implementation details. This can help reduce token count while retaining important structural information.
+
+```bash
+repomix --compress
+```
+
+For example, this code:
+
+```typescript
+const calculateTotal = (items: ShoppingItem[]) => {
+  let total = 0;
+  for (const item of items) {
+    total += item.price * item.quantity;
+  }
+  return total;
+}
+interface Item {
+  name: string;
+  price: number;
+  quantity: number;
+}
+```
+
+Will be compressed to:
+
+```typescript
+const calculateTotal = (items: ShoppingItem[]) => {
+interface Item {
+```
+
+> [!NOTE]
+> This is an experimental feature that we'll be actively improving based on user feedback and real-world usage
+
+
 ## ⚙️ Configuration
 
 Create a `repomix.config.json` file in your project root for custom configurations.
@@ -536,6 +582,7 @@ Here's an explanation of the configuration options:
 | `output.filePath`                | The name of the output file                                                                                                  | `"repomix-output.txt"` |
 | `output.style`                   | The style of the output (`plain`, `xml`, `markdown`)                                                                         | `"plain"`              |
 | `output.parsableStyle`           | Whether to escape the output based on the chosen style schema. Note that this can increase token count.                      | `false`                |
+| `output.compress`                | Whether to perform intelligent code extraction to reduce token count                                                         | `false`                |
 | `output.headerText`              | Custom text to include in the file header                                                                                    | `null`                 |
 | `output.instructionFilePath`     | Path to a file containing detailed custom instructions                                                                       | `null`                 |
 | `output.fileSummary`             | Whether to include a summary section at the beginning of the output                                                          | `true`                 |
@@ -553,6 +600,12 @@ Here's an explanation of the configuration options:
 | `security.enableSecurityCheck`   | Whether to perform security checks on files                                                                                  | `true`                 |
 | `tokenCount.encoding`            | Token count encoding for AI model context limits (e.g., `o200k_base`, `cl100k_base`)                                         | `"o200k_base"`         |
 
+The configuration file supports [JSON5](https://json5.org/) syntax, which allows:
+- Comments (both single-line and multi-line)
+- Trailing commas in objects and arrays
+- Unquoted property names
+- More relaxed string syntax
+
 Example configuration:
 
 ```json5
@@ -561,6 +614,7 @@ Example configuration:
     "filePath": "repomix-output.xml",
     "style": "xml",
     "parsableStyle": true,
+    "compress": false,
     "headerText": "Custom header information for the packed file.",
     "fileSummary": true,
     "directoryStructure": true,
@@ -569,7 +623,7 @@ Example configuration:
     "showLineNumbers": false,
     "copyToClipboard": true,
     "topFilesLength": 5,
-    "includeEmptyDirectories": false
+    "includeEmptyDirectories": false,
   },
   "include": [
     "**/*"
@@ -581,14 +635,14 @@ Example configuration:
     "customPatterns": [
       "additional-folder",
       "**/*.log"
-    ]
+    ],
   },
   "security": {
     "enableSecurityCheck": true
   },
   "tokenCount": {
     "encoding": "o200k_base"
-  }
+  },
 }
 ```
 
