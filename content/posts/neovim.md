@@ -1,9 +1,9 @@
 ---
 title: neovim
-date: 2024-08-17T12:21:01+08:00
+date: 2025-02-25T12:21:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722156855407-2775911d0174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722156855407-2775911d0174?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM4NjgzNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739987752520-f8da640d1b2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739987752520-f8da640d1b2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
 ---
 
 # [neovim/neovim](https://github.com/neovim/neovim)
@@ -37,7 +37,7 @@ Features
 - [API access](https://github.com/neovim/neovim/wiki/Related-projects#api-clients)
   from any language including C/C++, C#, Clojure, D, Elixir, Go, Haskell, Java/Kotlin,
   JavaScript/Node.js, Julia, Lisp, Lua, Perl, Python, Racket, Ruby, Rust
-- Embedded, scriptable [terminal emulator](https://neovim.io/doc/user/nvim_terminal_emulator.html)
+- Embedded, scriptable [terminal emulator](https://neovim.io/doc/user/terminal.html)
 - Asynchronous [job control](https://github.com/neovim/neovim/pull/2247)
 - [Shared data (shada)](https://github.com/neovim/neovim/pull/2506) among multiple editor instances
 - [XDG base directories](https://github.com/neovim/neovim/pull/3470) support

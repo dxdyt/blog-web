@@ -1,13 +1,14 @@
 ---
 title: invoify
-date: 2024-12-11T12:21:21+08:00
+date: 2025-02-25T12:20:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731569348001-e49c36947289?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731569348001-e49c36947289?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734757754748-9c20d3e48089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734757754748-9c20d3e48089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
 ---
 
 # [al1abb/invoify](https://github.com/al1abb/invoify)
 
+[![Discord](https://img.shields.io/badge/Discord-%40Invoify-000000?style=flat&logo=Discord&logoColor=#5865F2)](https://discord.gg/BzT6g4Wj)
 # Invoify
 
 Invoify is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
@@ -103,3 +104,6 @@ Follow these instructions to get Invoify up and running on your local machine.
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+## Discord
+Join the Discord server [here](https://discord.gg/BzT6g4Wj)

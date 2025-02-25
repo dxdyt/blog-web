@@ -1,9 +1,9 @@
 ---
 title: devops-exercises
-date: 2024-01-27T12:14:39+08:00
+date: 2025-02-25T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704140159556-88e2e6177def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704140159556-88e2e6177def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDYzMjg4MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739388845093-e1d4069cb6b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739388845093-e1d4069cb6b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
 ---
 
 # [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
@@ -104,6 +104,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1704140159556-88e2e6177d
     <td align="center"><a href="#Misc"><img src="images/general.png" width="75px;" height="75px;" alt="Misc"/><br /><b>Misc</b></a></td>
     <td align="center"><a href="#elastic"><img src="images/elastic.png" width="75px;" height="75px;" alt="Elastic"/><br /><b>Elastic</b></a></td>
     <td align="center"><a href="topics/kafka/README.md"><img src="images/logos/kafka.png" width="85px;" height="80px;" alt="Kafka"/><br /><b>Kafka</b></a></td>
+    <td align="center"><a href="topics/node/node_questions_basic.md"><img src="images/nodejs.png" width="85px;" height="80px;" alt="NodeJs"/><br /><b>NodeJs</b></a></td>
    </tr>
    
 </table>
@@ -111,6 +112,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1704140159556-88e2e6177d
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-TOPICS-LIST:END -->
+
+## DevOps Applications
+
+<table>
+<tr>
+  <td align="center"><a href="https://play.google.com/store/apps/details?id=com.codingshell.kubeprep"><img src="images/apps/kubeprep.png" width="200px;" height="300px;" alt="KubePrep"/><br /><b>KubePrep</b></a></td>
+  <td align="center"><a href="https://play.google.com/store/apps/details?id=com.codingshell.linuxmaster"><img src="images/apps/linux_master.png" width="200px;" height="300px;" alt="Linux Master"/><br /><b>Linux Master</b></a></td>
+</tr>
+</table>
+
 
 ## Network
 
@@ -632,6 +643,14 @@ Throughput. To have good throughput, the upload stream should be routed to an un
 
 <details>
 <summary>Explain Spine & Leaf</summary><br><b>
+"Spine & Leaf" is a networking topology commonly used in data center environments to connect multiple switches and manage network traffic efficiently. It is also known as "spine-leaf" architecture or "leaf-spine" topology. This design provides high bandwidth, low latency, and scalability, making it ideal for modern data centers handling large volumes of data and traffic.
+
+Within a Spine & Leaf network there are two main tipology of switches:
+
+* Spine Switches: Spine switches are high-performance switches arranged in a spine layer. These switches act as the core of the network and are typically interconnected with each leaf switch. Each spine switch is connected to all the leaf switches in the data center.
+* Leaf Switches: Leaf switches are connected to end devices like servers, storage arrays, and other networking equipment. Each leaf switch is connected to every spine switch in the data center. This creates a non-blocking, full-mesh connectivity between leaf and spine switches, ensuring any leaf switch can communicate with any other leaf switch with maximum throughput.
+
+The Spine & Leaf architecture has become increasingly popular in data centers due to its ability to handle the demands of modern cloud computing, virtualization, and big data applications, providing a scalable, high-performance, and reliable network infrastructure
 </b></details>
 
 <details>
@@ -742,22 +761,22 @@ It would support the following:
 * Program's code is loaded into the memory or more specifically, into the address space of the process.
 * Memory is allocated for program's stack (aka run-time stack). The stack also initialized by the OS with data like argv, argc and parameters to main()
 * Memory is allocated for program's heap which is required for dynamically allocated data like the data structures linked lists and hash tables
-* I/O initialization tasks are performed, like in Unix/Linux based systems where each process has 3 file descriptors (input, output and error)
+* I/O initialization tasks are performed, like in Unix/Linux based systems, where each process has 3 file descriptors (input, output and error)
 * OS is running the program, starting from main()
 </b></details>
 
 <details>
 <summary>True or False? The loading of the program into the memory is done eagerly (all at once)</summary><br><b>
 
-False. It was true in the past but today's operating systems perform lazy loading which means only the relevant pieces required for the process to run are loaded first.
+False. It was true in the past but today's operating systems perform lazy loading, which means only the relevant pieces required for the process to run are loaded first.
 </b></details>
 
 <details>
 <summary>What are different states of a process?</summary><br><b>
 
 * Running - it's executing instructions
-* Ready - it's ready to run but for different reasons it's on hold
-* Blocked - it's waiting for some operation to complete. For example I/O disk request
+* Ready - it's ready to run, but for different reasons it's on hold
+* Blocked - it's waiting for some operation to complete, for example I/O disk request
 </b></details>
 
 <details>
@@ -769,19 +788,21 @@ False. It was true in the past but today's operating systems perform lazy loadin
 
 <details>
 <summary>What is Inter Process Communication (IPC)?</summary><br><b>
+
+Inter-process communication (IPC) refers to the mechanisms provided by an operating system that allow processes to manage shared data.
 </b></details>
 
 <details>
 <summary>What is "time sharing"?</summary><br><b>
 
-Even when using a system with one physical CPU, it's possible to allow multiple users to work on it and run programs. This is possible with time sharing where computing resources are shared in a way it seems to the user the system has multiple CPUs but in fact it's simply one CPU shared by applying multiprogramming and multi-tasking.
+Even when using a system with one physical CPU, it's possible to allow multiple users to work on it and run programs. This is possible with time sharing, where computing resources are shared in a way it seems to the user, the system has multiple CPUs, but in fact it's simply one CPU shared by applying multiprogramming and multi-tasking.
 </b></details>
 
 <details>
 <summary>What is "space sharing"?</summary><br><b>
 
 Somewhat the opposite of time sharing. While in time sharing a resource is used for a while by one entity and then the same resource can be used by another resource, in space sharing the space is shared by multiple entities but in a way where it's not being transferred between them.<br>
-It's used by one entity until this entity decides to get rid of it. Take for example storage. In storage, a file is yours until you decide to delete it.
+It's used by one entity, until this entity decides to get rid of it. Take for example storage. In storage, a file is yours, until you decide to delete it.
 </b></details>
 
 <details>
@@ -793,26 +814,28 @@ CPU scheduler
 #### Operating System - Memory
 
 <details>
-<summary>What is "virtual memory" and what purpose it serves?</summary><br><b>
+<summary>What is "virtual memory" and what purpose does serve?</summary><br><b>
 
-Virtual memory combines your computer's RAM with temporary space on your hard disk. When RAM runs low, virtual memory helps to move data from RAM to a space called a paging file. Moving data to paging file can free up the RAM so your computer can complete its work. In general, the more RAM your computer has, the faster the programs run.
+Virtual memory combines your computer's RAM with temporary space on your hard disk. When RAM runs low, virtual memory helps to move data from RAM to a space called a paging file. Moving data to paging file can free up the RAM, so your computer can complete its work. In general, the more RAM your computer has, the faster the programs run.
 https://www.minitool.com/lib/virtual-memory.html
 </b></details>
 
 <details>
 <summary>What is demand paging?</summary><br><b>
+
+Demand paging is a memory management technique where pages are loaded into physical memory only when accessed by a process. It optimizes memory usage by loading pages on demand, reducing startup latency and space overhead. However, it introduces some latency when accessing pages for the first time. Overall, it’s a cost-effective approach for managing memory resources in operating systems. 
 </b></details>
 
 <details>
 <summary>What is copy-on-write?</summary><br><b>
-Copy-on-write (COW) is a resource management concept, with the goal to reduce unnecessary copying of information. It is a concept which is implemented for instance within the POSIX fork syscall, which creates a duplicate process of the calling process.
+Copy-on-write (COW) is a resource management concept, with the goal to reduce unnecessary copying of information. It is a concept, which is implemented for instance within the POSIX fork syscall, which creates a duplicate process of the calling process.
 
 The idea:
-1. If resources are shared between 2 or more entities (for example shared memory segments between 2 processes) the resources don't need to be copied for every entity, but rather every entity has a READ operation access permission on the shared resource. (the shared segments are marked as read-only) 
-(Think of every entity having a pointer to the location of the shared resource which can be dereferenced to read its value)
-2. If one entity would perform a WRITE operation on a shared resource a problem would arise since the resource also would be permanently changed for ALL other entities sharing it.
+1. If resources are shared between 2 or more entities (for example shared memory segments between 2 processes), the resources don't need to be copied for every entity, but rather every entity has a READ operation access permission on the shared resource. (the shared segments are marked as read-only) 
+(Think of every entity having a pointer to the location of the shared resource, which can be dereferenced to read its value)
+2. If one entity would perform a WRITE operation on a shared resource, a problem would arise, since the resource also would be permanently changed for ALL other entities sharing it.
 (Think of a process modifying some variables on the stack, or allocatingy some data dynamically on the heap, these changes to the shared resource would also apply for ALL other processes, this is definitely an undesirable behaviour)
-3. As a solution only if a WRITE operation is about to be performed on a shared resource, this resource gets COPIED first and then the changes are applied.
+3. As a solution only, if a WRITE operation is about to be performed on a shared resource, this resource gets COPIED first and then the changes are applied.
 </b></details>
 
 <details>
@@ -826,24 +849,28 @@ The kernel is part of the operating system and is responsible for tasks like:
 </b></details>
 
 <details>
-<summary>True or False? Some pieces of the code in the kernel are loaded into protected areas of the memory so applications can't overwritten them</summary><br><b>
+<summary>True or False? Some pieces of the code in the kernel are loaded into protected areas of the memory so applications can't overwrite them.</summary><br><b>
 
 True
 </b></details>
 
 <details>
 <summary>What is POSIX?</summary><br><b>
+
+POSIX (Portable Operating System Interface) is a set of standards that define the interface between a Unix-like operating system and application programs.
 </b></details>
 
 <details>
-<summary>Explain what is Semaphore and what its role in operating systems</summary><br><b>
+<summary>Explain what is Semaphore and what its role in operating systems.</summary><br><b>
+
+A semaphore is a synchronization primitive used in operating systems and concurrent programming to control access to shared resources. It's a variable or abstract data type that acts as a counter or a signaling mechanism for managing access to resources by multiple processes or threads.
 </b></details>
 
 <details>
 <summary>What is cache? What is buffer?</summary><br><b>
 
-Buffer: Reserved place in RAM which is used to hold data for temporary purposes
-Cache: Cache is usually used when processes reading and writing to the disk to make the process faster by making similar data used by different programs easily accessible.
+Cache: Cache is usually used when processes are reading and writing to the disk to make the process faster, by making similar data used by different programs easily accessible.
+Buffer: Reserved place in RAM, which is used to hold data for temporary purposes.
 </b></details>
 
 ## Virtualization
@@ -851,7 +878,7 @@ Cache: Cache is usually used when processes reading and writing to the disk to m
 <details>
 <summary>What is Virtualization?</summary><br><b>
 
-Virtualization uses software to create an abstraction layer over computer hardware that allows the hardware elements of a single computer—processors, memory, storage and more - to be divided into multiple virtual computers, commonly called virtual machines (VMs).
+Virtualization uses software to create an abstraction layer over computer hardware, that allows the hardware elements of a single computer - processors, memory, storage and more - to be divided into multiple virtual computers, commonly called virtual machines (VMs).
 </b></details>
 
 <details>
@@ -893,7 +920,7 @@ Yes, it's a operating-system-level virtualization, where the kernel is shared an
 <details>
 <summary>How the introduction of virtual machines changed the industry and the way applications were deployed?</summary><br><b>
 
-The introduction of virtual machines allowed companies to deploy multiple business applications on the same hardware while each application is separated from each other in secured way, where each is running on its own separate operating system.
+The introduction of virtual machines allowed companies to deploy multiple business applications on the same hardware, while each application is separated from each other in secured way, where each is running on its own separate operating system.
 </b></details>
 
 #### Virtual Machines
@@ -1608,6 +1635,15 @@ When you use a function (`YEAR(purchased_at)`) it has to scan the whole database
 
 <details>
 <summary>What components/projects of OpenStack are you familiar with?</summary><br><b>
+I’m most familiar with several core OpenStack components:
+
+- Nova for compute resource provisioning, including VM lifecycle management.
+- Neutron for networking, focusing on creating and managing networks, subnets, and routers.
+- Cinder for block storage, used to attach and manage storage volumes.
+- Keystone for identity services, handling authentication and authorization.
+
+I’ve implemented these in past projects, configuring them for scalability and security to support multi-tenant environments.
+ 
 </b></details>
 
 <details>
@@ -3317,7 +3353,9 @@ Bonus: extract the last word of each line
 ## System Design
 
 <details>
-<summary>Explain what is a "Single point of failure"?</summary><br><b>
+<summary>Explain what a "single point of failure" is. </summary><br><b>
+A "single point of failure", in a system or organization, if it were to fail would cause the entire system to fail or significantly disrupt it's operation. In other words, it is a vulnerability where there
+is no backup in place to compensate for the failure.
 </b></details>
 
 <details>
@@ -3344,10 +3382,34 @@ In multi-CDN, content is distributed across multiple different CDNs, each might 
 
 <details>
 <summary>Explain "3-Tier Architecture" (including pros and cons)</summary><br><b>
+A "3-Tier Architecture" is a pattern used in software development for designing and structuring applications. It divides the application into 3 interconnected layers: Presentation, Business logic and Data storage.  
+PROS: 
+* Scalability
+* Security
+* Reusability
+CONS:
+* Complexity
+* Performance overhead
+* Cost and development time
 </b></details>
 
 <details>
-<summary>Explain Mono-repo vs. Multi-repo. What are the cons and pros of each approach?</summary><br><b>
+<summary>Explain Mono-repo vs. Multi-repo.What are the cons and pros of each approach?</summary><br><b>
+In a Mono-repo, all the code for an organization is stored in a single,centralized repository.
+PROS (Mono-repo):
+* Unified tooling
+* Code Sharing
+CONS (Mono-repo):
+* Increased complexity
+* Slower cloning
+
+In a Multi-repo setup, each component is stored in it's own separate repository. Each repository has it's own version control history.
+PROS (Multi-repo):
+* Simpler to manage
+* Different teams and developers can work on different parts of the project independently, making parallel development easier.
+CONS (Multi-repo):
+* Code duplication
+* Integration challenges
 </b></details>
 
 <details>
@@ -3356,6 +3418,7 @@ In multi-CDN, content is distributed across multiple different CDNs, each might 
 * Not suitable for frequent code changes and the ability to deploy new features
 * Not designed for today's infrastructure (like public clouds)
 * Scaling a team to work monolithic architecture is more challenging
+* If a single component in this architecture fails, then the entire application fails.
 </b></details>
 
 <details>
@@ -3367,16 +3430,17 @@ In multi-CDN, content is distributed across multiple different CDNs, each might 
 
 <details>
 <summary>What's a service mesh?</summary><br><b>
-
-[This article](https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh) provides a great explanation.
+It is a layer that facilitates communication management and control between microservices in a containerized application. It handles tasks such as load balancing, encryption, and monitoring.
 </b></details>
 
 <details>
 <summary>Explain "Loose Coupling"</summary><br><b>
+In "Loose Coupling", components of a system communicate with each other with a little understanding of each other's internal workings. This improves scalability and ease of modification in complex systems.
 </b></details>
 
 <details>
 <summary>What is a message queue? When is it used?</summary><br><b>
+It is a communication mechanism used in distributed systems to enable asynchronous communication between different components. It is generally used when the systems use a microservices approach.
 </b></details>
 
 #### Scalability
@@ -3875,6 +3939,7 @@ A programming model for large-scale data processing
 
 <details>
 <summary>Explain what is Ceph</summary><br><b>
+Ceph is an Open-Source Distributed Storage System designed to provide excellent performance, reliability, and scalability. It's often used in cloud computing environments and Data Centers.
 </b></details>
 
 <details>
@@ -3917,10 +3982,31 @@ True
 
 <details>
 <summary>What is the workflow of retrieving data from Ceph?</summary><br><b>
+The work flow is as follows:
+
+1. The client sends a request to the ceph cluster to retrieve data:
+> **Client could be any of the following**
+>> * Ceph Block Device
+>> * Ceph Object Gateway
+>> * Any third party ceph client
+
+
+2. The client retrieves the latest cluster map from the Ceph Monitor
+3. The client uses the CRUSH algorithm to map the object to a placement group. The placement group is then assigned to a OSD.
+4. Once the placement group and the OSD Daemon are determined, the client can retrieve the data from the appropriate OSD
+
+
 </b></details>
 
 <details>
-<summary>What is the workflow of retrieving data from Ceph?</summary><br><b>
+<summary>What is the workflow of writing data to Ceph?</summary><br><b>
+The work flow is as follows:
+
+1. The client sends a request to the ceph cluster to retrieve data
+2. The client retrieves the latest cluster map from the Ceph Monitor
+3. The client uses the CRUSH algorithm to map the object to a placement group. The placement group is then assigned to a Ceph OSD Daemon dynamically.
+4. The client sends the data to the primary OSD of the determined placement group. If the data is stored in an erasure-coded pool, the primary OSD is responsible for encoding the object into data chunks and coding chunks, and distributing them to the other OSDs. 
+
 </b></details>
 
 <details>
