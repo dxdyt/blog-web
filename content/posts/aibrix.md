@@ -1,9 +1,9 @@
 ---
 title: aibrix
-date: 2025-02-25T12:20:13+08:00
+date: 2025-02-26T12:20:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738667379581-a02dd0f0bfe5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738667379581-a02dd0f0bfe5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739369122285-8560a5eb18fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739369122285-8560a5eb18fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
 ---
 
 # [vllm-project/aibrix](https://github.com/vllm-project/aibrix)
@@ -72,7 +72,7 @@ Slack Channel: [#aibrix](https://vllm-dev.slack.com/archives/C08EQ883CSV)
 
 ## License
 
-AIBrix is licensed under the [APACHE 2.0 License](https://github.com/vllm-project/aibrix/LICENSE).
+AIBrix is licensed under the [Apache 2.0 License](LICENSE).
 
 ## Support
 

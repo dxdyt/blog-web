@@ -1,9 +1,9 @@
 ---
 title: docling
-date: 2024-12-18T12:21:16+08:00
+date: 2025-02-26T12:22:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732919258482-94ac4b1d9a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732919258482-94ac4b1d9a69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0OTU2MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738081359154-44d50176b2d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738081359154-44d50176b2d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
 ---
 
 # [DS4SD/docling](https://github.com/DS4SD/docling)
@@ -32,24 +32,25 @@ featuredImagePreview: https://images.unsplash.com/photo-1732919258482-94ac4b1d9a
 [![License MIT](https://img.shields.io/github/license/DS4SD/docling)](https://opensource.org/licenses/MIT)
 [![PyPI Downloads](https://static.pepy.tech/badge/docling/month)](https://pepy.tech/projects/docling)
 
-Docling parses documents and exports them to the desired format with ease and speed.
+Docling simplifies document processing, parsing diverse formats — including advanced PDF understanding — and providing seamless integrations with the gen AI ecosystem.
 
 ## Features
 
-* 🗂️ Reads popular document formats (PDF, DOCX, PPTX, XLSX, Images, HTML, AsciiDoc & Markdown) and exports to HTML, Markdown and JSON (with embedded and referenced images)
-* 📑 Advanced PDF document understanding including page layout, reading order & table structures
-* 🧩 Unified, expressive [DoclingDocument](https://ds4sd.github.io/docling/concepts/docling_document/) representation format
-* 🤖 Easy integration with 🦙 LlamaIndex & 🦜🔗 LangChain for powerful RAG / QA applications
-* 🔍 OCR support for scanned PDFs
+* 🗂️ Parsing of [multiple document formats][supported_formats] incl. PDF, DOCX, XLSX, HTML, images, and more
+* 📑 Advanced PDF understanding incl. page layout, reading order, table structure, code, formulas, image classification, and more
+* 🧬 Unified, expressive [DoclingDocument][docling_document] representation format
+* ↪️ Various [export formats][supported_formats] and options, including Markdown, HTML, and lossless JSON
+* 🔒 Local execution capabilities for sensitive data and air-gapped environments
+* 🤖 Plug-and-play [integrations][integrations] incl. LangChain, LlamaIndex, Crew AI & Haystack for agentic AI
+* 🔍 Extensive OCR support for scanned PDFs and images
 * 💻 Simple and convenient CLI
-
-Explore the [documentation](https://ds4sd.github.io/docling/) to discover plenty examples and unlock the full power of Docling!
 
 ### Coming soon
 
-* ♾️ Equation & code extraction
 * 📝 Metadata extraction, including title, authors, references & language
-* 🦜🔗 Native LangChain extension
+* 📝 Inclusion of Visual Language Models ([SmolDocling](https://huggingface.co/blog/smolervlm#smoldocling))
+* 📝 Chart understanding (Barchart, Piechart, LinePlot, etc)
+* 📝 Complex chemistry understanding (Molecular structures)
 
 ## Installation
 
@@ -131,3 +132,7 @@ For individual model usage, please refer to the model licenses found in the orig
 ## IBM ❤️ Open Source AI
 
 Docling has been brought to you by IBM.
+
+[supported_formats]: https://ds4sd.github.io/docling/supported_formats/
+[docling_document]: https://ds4sd.github.io/docling/concepts/docling_document/
+[integrations]: https://ds4sd.github.io/docling/integrations/

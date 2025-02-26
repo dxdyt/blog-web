@@ -1,9 +1,9 @@
 ---
 title: laravel
-date: 2024-03-15T12:18:09+08:00
+date: 2025-02-26T12:21:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709468746988-eb87dc5f019e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709468746988-eb87dc5f019e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTA0NzYxMzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739467516221-e4008797edb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739467516221-e4008797edb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
 ---
 
 # [laravel/laravel](https://github.com/laravel/laravel)

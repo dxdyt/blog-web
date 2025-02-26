@@ -1,9 +1,9 @@
 ---
 title: invoify
-date: 2025-02-25T12:20:36+08:00
+date: 2025-02-26T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734757754748-9c20d3e48089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734757754748-9c20d3e48089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738762518712-8cab51776881?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738762518712-8cab51776881?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
 ---
 
 # [al1abb/invoify](https://github.com/al1abb/invoify)
