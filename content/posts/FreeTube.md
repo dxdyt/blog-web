@@ -1,9 +1,9 @@
 ---
 title: FreeTube
-date: 2025-02-26T12:20:39+08:00
+date: 2025-02-27T12:21:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739518805568-41e07e3318b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739518805568-41e07e3318b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740131971089-8f46b62c18d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740131971089-8f46b62c18d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
 ---
 
 # [FreeTubeApp/FreeTube](https://github.com/FreeTubeApp/FreeTube)

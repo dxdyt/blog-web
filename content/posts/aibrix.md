@@ -1,9 +1,9 @@
 ---
 title: aibrix
-date: 2025-02-26T12:20:24+08:00
+date: 2025-02-27T12:19:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739369122285-8560a5eb18fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739369122285-8560a5eb18fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740131971089-8f46b62c18d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740131971089-8f46b62c18d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
 ---
 
 # [vllm-project/aibrix](https://github.com/vllm-project/aibrix)
