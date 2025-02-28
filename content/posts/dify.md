@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2025-02-27T12:20:54+08:00
+date: 2025-02-28T12:21:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724271362937-391a150db603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724271362937-391a150db603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737917818689-f3b3708de5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737917818689-f3b3708de5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)

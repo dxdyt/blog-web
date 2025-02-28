@@ -1,9 +1,9 @@
 ---
 title: ggwave
-date: 2025-02-27T12:20:39+08:00
+date: 2025-02-28T12:20:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739911013907-b9ef3471dfa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739911013907-b9ef3471dfa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739382446038-184e72fdc427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739382446038-184e72fdc427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
 ---
 
 # [ggerganov/ggwave](https://github.com/ggerganov/ggwave)
