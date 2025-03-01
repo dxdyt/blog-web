@@ -1,9 +1,9 @@
 ---
 title: fastrtc
-date: 2025-02-28T12:21:20+08:00
+date: 2025-03-01T12:20:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735534151807-17f107a64cf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735534151807-17f107a64cf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738682085346-6a6faff97fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738682085346-6a6faff97fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
 ---
 
 # [freddyaboulton/fastrtc](https://github.com/freddyaboulton/fastrtc)

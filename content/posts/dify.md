@@ -1,9 +1,9 @@
 ---
 title: dify
-date: 2025-02-28T12:21:11+08:00
+date: 2025-03-01T12:20:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737917818689-f3b3708de5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737917818689-f3b3708de5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738682085346-6a6faff97fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738682085346-6a6faff97fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
 ---
 
 # [langgenius/dify](https://github.com/langgenius/dify)
@@ -59,6 +59,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1737917818689-f3b3708de5
   <a href="./README_AR.md"><img alt="README بالعربية" src="https://img.shields.io/badge/العربية-d9d9d9"></a>
   <a href="./README_TR.md"><img alt="Türkçe README" src="https://img.shields.io/badge/Türkçe-d9d9d9"></a>
   <a href="./README_VI.md"><img alt="README Tiếng Việt" src="https://img.shields.io/badge/Ti%E1%BA%BFng%20Vi%E1%BB%87t-d9d9d9"></a>
+  <a href="./README_DE.md"><img alt="README in Deutsch" src="https://img.shields.io/badge/German-d9d9d9"></a>
 </p>
 
 

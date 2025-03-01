@@ -1,9 +1,9 @@
 ---
 title: GenAI_Agents
-date: 2025-02-28T12:20:41+08:00
+date: 2025-03-01T12:19:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736549188891-ec697fccc8a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736549188891-ec697fccc8a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738360220249-818ba9624488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738360220249-818ba9624488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
 ---
 
 # [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)

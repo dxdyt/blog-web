@@ -1,9 +1,9 @@
 ---
 title: AstrBot
-date: 2025-02-28T12:20:50+08:00
+date: 2025-03-01T12:19:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736549188891-ec697fccc8a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736549188891-ec697fccc8a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA3MTY0MTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738360220249-818ba9624488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738360220249-818ba9624488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
 ---
 
 # [Soulter/AstrBot](https://github.com/Soulter/AstrBot)
@@ -23,11 +23,12 @@ _✨ 易上手的多平台 LLM 聊天机器人及开发框架 ✨_
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/Soulter/AstrBot)](https://github.com/Soulter/AstrBot/releases/latest)
 <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="python">
 <a href="https://hub.docker.com/r/soulter/astrbot"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/soulter/astrbot.svg"/></a>
-<img alt="Static Badge" src="https://img.shields.io/badge/QQ群-630166526-purple">
+<a  href="https://qm.qq.com/cgi-bin/qm/qr?k=wtbaNx7EioxeaqS9z7RQWVXPIxg2zYr7&jump_from=webapi&authKey=vlqnv/AV2DbJEvGIcxdlNSpfxVy+8vVqijgreRdnVKOaydpc+YSw4MctmEbr0k5"><img alt="Static Badge" src="https://img.shields.io/badge/QQ群-630166526-purple"></a>
 [![wakatime](https://wakatime.com/badge/user/915e5316-99c6-4563-a483-ef186cf000c9/project/018e705a-a1a7-409a-a849-3013485e6c8e.svg)](https://wakatime.com/badge/user/915e5316-99c6-4563-a483-ef186cf000c9/project/018e705a-a1a7-409a-a849-3013485e6c8e)
 ![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.soulter.top%2Fastrbot%2Fstats&query=v&label=7%E6%97%A5%E6%B6%88%E6%81%AF%E4%B8%8A%E8%A1%8C%E9%87%8F&cacheSeconds=3600)
 [![codecov](https://codecov.io/gh/Soulter/AstrBot/graph/badge.svg?token=FF3P5967B8)](https://codecov.io/gh/Soulter/AstrBot)
 
+<a href="https://github.com/Soulter/AstrBot/blob/master/README_en.md">English</a> ｜
 <a href="https://github.com/Soulter/AstrBot/blob/master/README_ja.md">日本語</a> ｜
 <a href="https://astrbot.app/">查看文档</a> ｜
 <a href="https://github.com/Soulter/AstrBot/issues">问题提交</a>
@@ -89,17 +90,24 @@ AstrBot 是一个松耦合、异步、支持多消息平台部署、具有易用
 | WhatsApp   | 🚧    | 计划内 | - |
 | 小爱音响   | 🚧    | 计划内 | - |
 
-# 🦌 接下来的路线图
+## ⚡ 提供商支持情况
 
-> [!TIP]
-> 欢迎在 Issue 提出更多建议 <3
-
-- [ ] 完善并保证目前所有平台适配器的功能一致性
-- [ ] 优化插件接口
-- [ ] 默认支持更多 TTS 服务，如 GPT-Sovits
-- [ ] 完善“聊天增强”部分，支持持久化记忆
-- [ ] 规划 i18n
-
+| 名称    | 支持性 | 类型 | 备注 |
+| -------- | ------- | ------- | ------- |
+| OpenAI API | ✔    | 文本生成 | 同时也支持 DeepSeek、Google Gemini、GLM（智谱）、Moonshot（月之暗面）、阿里云百炼、硅基流动、xAI 等所有兼容 OpenAI API 的服务 |
+| Claude API | ✔    | 文本生成 |  |
+| Google Gemini API | ✔    | 文本生成 |  |
+| Dify | ✔    | LLMOps |  |
+| DashScope(阿里云百炼应用) | ✔    | LLMOps |  |
+| Ollama | ✔    | 模型加载器 | 本地部署 DeepSeek、Llama 等开源语言模型 |
+| LM Studio | ✔    | 模型加载器 | 本地部署 DeepSeek、Llama 等开源语言模型 |
+| LLMTuner | ✔    | 模型加载器 | 本地加载 lora 等微调模型 |
+| OneAPI | ✔    | LLM 分发系统 |  |
+| Whisper | ✔    | 语音转文本 | 支持 API、本地部署 |
+| SenseVoice | ✔    | 语音转文本 | 本地部署 |
+| OpenAI TTS API | ✔    | 文本转语音 |  |
+| Fishaudio | ✔    | 文本转语音 | GPT-Sovits 作者参与的项目 |
+| Edge-TTS | ✔    | 文本转语音 | Edge 浏览器的免费 TTS |
 
 ## ❤️ 贡献
 
