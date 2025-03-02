@@ -1,9 +1,9 @@
 ---
 title: fastrtc
-date: 2025-03-01T12:20:00+08:00
+date: 2025-03-02T12:19:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738682085346-6a6faff97fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738682085346-6a6faff97fb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739465595182-d3ec24f6ebcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4ODkxMjN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739465595182-d3ec24f6ebcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4ODkxMjN8&ixlib=rb-4.0.3
 ---
 
 # [freddyaboulton/fastrtc](https://github.com/freddyaboulton/fastrtc)
@@ -185,7 +185,7 @@ def echo(audio: tuple[int, np.ndarray]):
     yield audio
 
 stream = Stream(
-    handler=ReplyOnPause(detection),
+    handler=ReplyOnPause(echo),
     modality="audio", 
     mode="send-receive",
 )
