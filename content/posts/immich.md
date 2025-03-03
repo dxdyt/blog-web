@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2024-11-10T12:18:37+08:00
+date: 2025-03-03T12:21:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727206398239-995c73a01b35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyMTIyOTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727206398239-995c73a01b35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyMTIyOTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738807992739-3bcd55323325?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738807992739-3bcd55323325?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -39,6 +39,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1727206398239-995c73a01b
   <a href="readme_i18n/README_nl_NL.md">Nederlands</a>
   <a href="readme_i18n/README_tr_TR.md">Türkçe</a>
   <a href="readme_i18n/README_zh_CN.md">中文</a>
+  <a href="readme_i18n/README_uk_UA.md">Українська</a>
   <a href="readme_i18n/README_ru_RU.md">Русский</a>
   <a href="readme_i18n/README_pt_BR.md">Português Brasileiro</a>
   <a href="readme_i18n/README_sv_SE.md">Svenska</a>

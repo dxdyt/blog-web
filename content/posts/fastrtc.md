@@ -1,9 +1,9 @@
 ---
 title: fastrtc
-date: 2025-03-02T12:19:12+08:00
+date: 2025-03-03T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739465595182-d3ec24f6ebcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4ODkxMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739465595182-d3ec24f6ebcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4ODkxMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739629658585-fec77f042f90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739629658585-fec77f042f90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
 ---
 
 # [freddyaboulton/fastrtc](https://github.com/freddyaboulton/fastrtc)
@@ -35,7 +35,7 @@ pip install fastrtc
 to use built-in pause detection (see [ReplyOnPause](https://fastrtc.org/)), and text to speech (see [Text To Speech](https://fastrtc.org/userguide/audio/#text-to-speech)), install the `vad` and `tts` extras:
 
 ```bash
-pip install fastrtc[vad, tts]
+pip install "fastrtc[vad, tts]"
 ```
 
 ## Key Features

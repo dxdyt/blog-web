@@ -1,9 +1,9 @@
 ---
 title: olmocr
-date: 2025-03-02T12:19:35+08:00
+date: 2025-03-03T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739382446038-184e72fdc427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4ODkxMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739382446038-184e72fdc427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4ODkxMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739826009158-edbd53ec9979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739826009158-edbd53ec9979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
 ---
 
 # [allenai/olmocr](https://github.com/allenai/olmocr)
