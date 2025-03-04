@@ -1,9 +1,9 @@
 ---
 title: olmocr
-date: 2025-03-03T12:21:24+08:00
+date: 2025-03-04T12:20:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739826009158-edbd53ec9979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739826009158-edbd53ec9979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738168362059-44a0b8a80b39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738168362059-44a0b8a80b39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
 ---
 
 # [allenai/olmocr](https://github.com/allenai/olmocr)
@@ -48,9 +48,9 @@ What is included:
 ### Installation
 
 Requirements:
- - Recent NVIDIA GPU (tested on RTX 4090, L40S, A100, H100)
+ - Recent NVIDIA GPU (tested on RTX 4090, L40S, A100, H100) with at least 20 GB of GPU RAM
  - 30GB of free disk space
- 
+
 You will need to install poppler-utils and additional fonts for rendering PDF images.
 
 Install dependencies (Ubuntu/Debian)
@@ -94,7 +94,7 @@ Results will be stored as JSON in `./localworkspace`.
 Extracted text is stored as [Dolma](https://github.com/allenai/dolma)-style JSONL inside of the `./localworkspace/results` directory.
 
 ```bash
-cat localworkspace/results/output_*.jsonl  
+cat localworkspace/results/output_*.jsonl
 ```
 
 View results side-by-side with the original PDFs (uses `dolmaviewer` command):
@@ -120,7 +120,7 @@ a simple work queue in your AWS bucket and start converting PDFs.
 python -m olmocr.pipeline s3://my_s3_bucket/pdfworkspaces/exampleworkspace --pdfs s3://my_s3_bucket/jakep/gnarly_pdfs/*.pdf
 ```
 
-Now on any subsequent nodes, just run this and they will start grabbing items from the same workspace queue. 
+Now on any subsequent nodes, just run this and they will start grabbing items from the same workspace queue.
 ```bash
 python -m olmocr.pipeline s3://my_s3_bucket/pdfworkspaces/exampleworkspace
 ```
@@ -206,3 +206,17 @@ To learn more about who specifically contributed to this codebase, see [our cont
 A full copy of the license can be found [on GitHub](https://github.com/allenai/olmocr/blob/main/LICENSE).
 
 <!-- end license -->
+
+## Citing
+
+```bibtex
+@misc{olmocr,
+      title={{olmOCR: Unlocking Trillions of Tokens in PDFs with Vision Language Models}},
+      author={Jake Poznanski and Jon Borchardt and Jason Dunkelberger and Regan Huff and Daniel Lin and Aman Rangapur and Christopher Wilhelm and Kyle Lo and Luca Soldaini},
+      year={2025},
+      eprint={2502.18443},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.18443},
+}
+```

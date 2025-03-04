@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2025-01-27T12:21:07+08:00
+date: 2025-03-04T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734268486202-7e85b12a7fa2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734268486202-7e85b12a7fa2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735276680702-c008c8035c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735276680702-c008c8035c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
@@ -34,6 +34,8 @@ This course has 21 lessons. Each lesson covers its own topic so start wherever y
 
 Lessons are labeled either "Learn" lessons explaining a Generative AI concept or "Build" lessons that explain a concept and code examples in both **Python** and **TypeScript** when possible.
 
+For .NET Developers checkout [Generative AI for Beginners (.NET Edition)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)!
+
 Each lesson also includes a "Keep Learning" section with additional learning tools.
 
 ## What You Need
@@ -42,7 +44,7 @@ Each lesson also includes a "Keep Learning" section with additional learning too
  - [GitHub Marketplace Model Catalog](https://github.com/marketplace/models?WT.mc_id=academic-105485-koreyst) - **Lessons:** "githubmodels"
  - [OpenAI API](https://platform.openai.com/docs/quickstart?context=python?WT.mc_id=academic-105485-koreyst) - **Lessons:** "oai-assignment" 
    
-- Basic knowledge of Python or TypeScript is helpful - \*For absolute beginners check out these [Python](https://learn.microsoft.com/training/paths/python-language/?WT.mc_id=academic-105485-koreyst) and [TypeScript](https://learn.microsoft.com/training/paths/build-javascript-applications-typescript/?WT.mc_id=academic-105485-koreyst) courses.
+- Basic knowledge of Python or TypeScript is helpful - \*For absolute beginners check out these [Python](https://learn.microsoft.com/training/paths/python-language/?WT.mc_id=academic-105485-koreyst) and [TypeScript](https://learn.microsoft.com/training/paths/build-javascript-applications-typescript/?WT.mc_id=academic-105485-koreyst) courses
 - A GitHub account to [fork this entire repo](https://github.com/microsoft/generative-ai-for-beginners/fork?WT.mc_id=academic-105485-koreyst) to your own GitHub account
 
 We have created a **[Course Setup](./00-course-setup/README.md?WT.mc_id=academic-105485-koreyst)** lesson to help you with setting up your development environment.
@@ -85,7 +87,7 @@ Do you have suggestions or found spelling or code errors? [Raise an issue](https
 | 06  | [Building Text Generation Applications](./06-text-generation-apps/README.md?WT.mc_id=academic-105485-koreyst)                                | **Build:** A text generation app using Azure OpenAI / OpenAI API                                | [Video](https://aka.ms/gen-ai-lesson6-gh?WT.mc_id=academic-105485-koreyst)  | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 07  | [Building Chat Applications](./07-building-chat-applications/README.md?WT.mc_id=academic-105485-koreyst)                                     | **Build:** Techniques for efficiently building and integrating chat applications.               | [Video](https://aka.ms/gen-ai-lessons7-gh?WT.mc_id=academic-105485-koreyst) | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 08  | [Building Search Apps Vector Databases](./08-building-search-applications/README.md?WT.mc_id=academic-105485-koreyst)                        | **Build:** A search application that uses Embeddings to search for data.                        | [Video](https://aka.ms/gen-ai-lesson8-gh?WT.mc_id=academic-105485-koreyst)  | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
-| 09  | [Building Image Generation Applications](./09-building-image-applications/README.md?WT.mc_id=academic-105485-koreyst)                        | **Build:** A image generation application                                                       | [Video](https://aka.ms/gen-ai-lesson9-gh?WT.mc_id=academic-105485-koreyst)  | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
+| 09  | [Building Image Generation Applications](./09-building-image-applications/README.md?WT.mc_id=academic-105485-koreyst)                        | **Build:** An image generation application                                                       | [Video](https://aka.ms/gen-ai-lesson9-gh?WT.mc_id=academic-105485-koreyst)  | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 10  | [Building Low Code AI Applications](./10-building-low-code-ai-applications/README.md?WT.mc_id=academic-105485-koreyst)                       | **Build:** A Generative AI application using Low Code tools                                     | [Video](https://aka.ms/gen-ai-lesson10-gh?WT.mc_id=academic-105485-koreyst) | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 11  | [Integrating External Applications with Function Calling](./11-integrating-with-function-calling/README.md?WT.mc_id=academic-105485-koreyst) | **Build:** What is function calling and its use cases for applications                          | [Video](https://aka.ms/gen-ai-lesson11-gh?WT.mc_id=academic-105485-koreyst) | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 12  | [Designing UX for AI Applications](./12-designing-ux-for-ai-applications/README.md?WT.mc_id=academic-105485-koreyst)                         | **Learn:** How to apply UX design principles when developing Generative AI Applications         | [Video](https://aka.ms/gen-ai-lesson12-gh?WT.mc_id=academic-105485-koreyst) | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
@@ -109,11 +111,15 @@ Special thanks to [**John Aziz**](https://www.linkedin.com/in/john0isaac/) for c
 
 Our team produces other courses! Check out:
 
+- [**NEW** AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
+- [**NEW** Generative AI for Beginners using .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 - [ML for Beginners](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 - [AI for Beginners](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)
-- [**NEW** Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
+- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners?WT.mc_id=academic-105485-koreyst)
 - [IoT for Beginners](https://aka.ms/iot-beginners?WT.mc_id=academic-105485-koreyst)
 - [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
 - [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI?WT.mc_id=academic-105485-koreyst)
+- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers?WT.mc_id=academic-105485-koreyst)
+- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures?WT.mc_id=academic-105485-koreyst)

@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2025-03-03T12:21:30+08:00
+date: 2025-03-04T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738807992739-3bcd55323325?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738807992739-3bcd55323325?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740389029981-a891776cf0ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740389029981-a891776cf0ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)

@@ -1,9 +1,9 @@
 ---
 title: fastrtc
-date: 2025-03-03T12:21:14+08:00
+date: 2025-03-04T12:20:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739629658585-fec77f042f90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739629658585-fec77f042f90?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735276680702-c008c8035c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735276680702-c008c8035c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
 ---
 
 # [freddyaboulton/fastrtc](https://github.com/freddyaboulton/fastrtc)
@@ -32,7 +32,7 @@ Turn any python function into a real-time audio and video stream over WebRTC or 
 pip install fastrtc
 ```
 
-to use built-in pause detection (see [ReplyOnPause](https://fastrtc.org/)), and text to speech (see [Text To Speech](https://fastrtc.org/userguide/audio/#text-to-speech)), install the `vad` and `tts` extras:
+to use built-in pause detection (see [ReplyOnPause](https://fastrtc.org/userguide/audio/#reply-on-pause)), and text to speech (see [Text To Speech](https://fastrtc.org/userguide/audio/#text-to-speech)), install the `vad` and `tts` extras:
 
 ```bash
 pip install "fastrtc[vad, tts]"
@@ -52,7 +52,7 @@ pip install "fastrtc[vad, tts]"
 [https://fastrtc.org](https://fastrtc.org)
 
 ## Examples
-See the [Cookbook](https://fastrtc.org/pr-preview/pr-60/cookbook/) for examples of how to use the library.
+See the [Cookbook](https://fastrtc.org/cookbook/) for examples of how to use the library.
 
 <table>
 <tr>

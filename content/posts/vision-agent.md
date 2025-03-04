@@ -1,9 +1,9 @@
 ---
 title: vision-agent
-date: 2025-03-03T12:21:56+08:00
+date: 2025-03-04T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739546103938-b30b9b1c828d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739546103938-b30b9b1c828d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739047855450-27615bc98bc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739047855450-27615bc98bc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
 ---
 
 # [landing-ai/vision-agent](https://github.com/landing-ai/vision-agent)
