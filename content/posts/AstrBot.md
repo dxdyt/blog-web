@@ -1,9 +1,9 @@
 ---
 title: AstrBot
-date: 2025-03-03T12:21:40+08:00
+date: 2025-03-05T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740416331524-7d40b988223b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740416331524-7d40b988223b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA5NzU2NjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740905546458-2b0199785aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740905546458-2b0199785aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
 ---
 
 # [Soulter/AstrBot](https://github.com/Soulter/AstrBot)
@@ -74,6 +74,14 @@ AstrBot 是一个松耦合、异步、支持多消息平台部署、具有易用
 
 请参阅官方文档 [通过源码部署 AstrBot](https://astrbot.app/deploy/astrbot/cli.html) 。
 
+## 🚀 路线图
+
+### 垂类功能
+
+1. 更好的上下文管理：限制 token 总数、对话上下文总结
+3. AstrBot in Minecraft
+
+### 横功能
 
 ## ⚡ 消息平台支持情况
 
@@ -113,7 +121,19 @@ AstrBot 是一个松耦合、异步、支持多消息平台部署、具有易用
 
 欢迎任何 Issues/Pull Requests！只需要将你的更改提交到此项目 ：)
 
-对于新功能的添加，请先通过 Issue 讨论。
+### 如何贡献
+
+你可以通过查看问题或帮助审核 PR（拉取请求）来贡献。任何问题或 PR 都欢迎参与，以促进社区贡献。当然，这些只是建议，你可以以任何方式进行贡献。对于新功能的添加，请先通过 Issue 讨论。
+
+### 开发环境
+
+AstrBot 使用 `ruff` 进行代码格式化和检查。
+
+```bash
+git clone https://github.com/Soulter/AstrBot
+pip install pre-commit
+pre-commit install
+```
 
 ## 🌟 支持
 

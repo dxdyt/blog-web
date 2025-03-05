@@ -1,9 +1,9 @@
 ---
 title: ladybird
-date: 2025-03-04T12:20:05+08:00
+date: 2025-03-05T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738071545459-e19435ae37e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738071545459-e19435ae37e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1728338304559-b1ea168794a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1728338304559-b1ea168794a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
 ---
 
 # [LadybirdBrowser/ladybird](https://github.com/LadybirdBrowser/ladybird)

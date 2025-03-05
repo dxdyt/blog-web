@@ -1,9 +1,9 @@
 ---
 title: webdriverio
-date: 2024-02-15T12:18:12+08:00
+date: 2025-03-05T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1687341426897-9d2fb554cd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1687341426897-9d2fb554cd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDc5NzA1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740905546458-2b0199785aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740905546458-2b0199785aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
 ---
 
 # [webdriverio/webdriverio](https://github.com/webdriverio/webdriverio)
@@ -58,7 +58,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1687341426897-9d2fb554cd
 
 ***
 
-WebdriverIO is a test automation framework, for e2e as well as unit and component testing in the browser, that allows you to run tests based on the [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html), [WebDriver BiDi](https://github.com/w3c/webdriver-bidi) as well as [Chrome DevTools](https://chromedevtools.github.io/devtools-protocol/) protocol and [Appium](http://appium.io/) automation technology. It provides support for your favorite BDD/TDD test framework and will run your tests locally or in the cloud using Sauce Labs, BrowserStack, TestingBot or LambdaTest.
+WebdriverIO is a test automation framework, for e2e as well as unit and component testing in the browser, that allows you to run tests based on the [WebDriver](https://w3c.github.io/webdriver/webdriver-spec.html) and [WebDriver BiDi](https://github.com/w3c/webdriver-bidi) as well as [Appium](http://appium.io/) automation technology. It provides support for your favorite BDD/TDD test framework and will run your tests locally or in the cloud using Sauce Labs, BrowserStack, TestingBot or LambdaTest.
 
 ## :woman_technologist: :man_technologist: Contributing
 Do you like WebdriverIO and want to help make it better? Awesome! Have a look into our [Contributor Documentation](CONTRIBUTING.md) to get started and find out what contributions can be and how to make them.
@@ -98,7 +98,6 @@ __Did you build a WebdriverIO service or reporter?__ That's awesome! Please add 
 ### Core
 
 - [webdriver](https://github.com/webdriverio/webdriverio/tree/main/packages/webdriver) - A Node.js bindings implementation for the W3C WebDriver and Mobile JSONWire Protocol
-- [devtools](https://github.com/webdriverio/webdriverio/tree/main/packages/devtools) - A Chrome DevTools protocol binding that maps WebDriver commands into Chrome DevTools commands using Puppeteer
 - [webdriverio](https://github.com/webdriverio/webdriverio/blob/main/packages/webdriverio) - Next-gen browser and mobile automation test framework for Node.js
 - [@wdio/cli](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-cli) - A WebdriverIO testrunner command line interface
 
@@ -126,8 +125,7 @@ __Did you build a WebdriverIO service or reporter?__ That's awesome! Please add 
 
 - [@wdio/appium-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-appium-service) - A WebdriverIO service to start & stop Appium Server
 - [@wdio/browserstack-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-browserstack-service) - A WebdriverIO service that can be used to use BrowserStack Test Observability which is a reporting, debugging, and test suite quality tracking tool for any test running anywhere. The service also helps for a better integration with the BrowserStack grid if you're running tests on the grid.
-- [@wdio/crossbrowsertesting-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-crossbrowsertesting-service) - A WebdriverIO service that provides a better integration into CrossBrowserTesting
-- [@wdio/devtools-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-devtools-service) - A WebdriverIO service that allows you to run Chrome DevTools commands in your tests
+- [@wdio/lighthouse-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-lighthouse-service) - A WebdriverIO service that integrates Google Lighthouse commands to use it for automate tests
 - [@wdio/firefox-profile-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-firefox-profile-service) - A WebdriverIO service that lets you define your Firefox profile in your wdio.conf.js
 - [@wdio/sauce-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-sauce-service) - A WebdriverIO service that provides a better integration into Sauce Labs
 - [@wdio/shared-store-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-shared-store-service) - A WebdriverIO service to exchange data across processes
@@ -151,6 +149,14 @@ __Did you build a WebdriverIO service or reporter?__ That's awesome! Please add 
 - [@wdio/smoke-test-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-smoke-test-service) - A WebdriverIO utility to smoke test services for internal testing purposes
 - [@wdio/webdriver-mock-service](https://github.com/webdriverio/webdriverio/tree/main/packages/wdio-webdriver-mock-service) - A WebdriverIO service to stub all endpoints for internal testing purposes
 
+### Infrastructure Packages
+
+These packages are not released to NPM and used to work on this codebase.
+
+- [@wdio/compiler](https://github.com/webdriverio/webdriverio/tree/main/infa/compiler) - Esbuild script to
+compile the source code all of all packages
+- [@wdio/lerna-patch](https://github.com/webdriverio/webdriverio/tree/main/infa/lernaPatch) - This sub-package is being used to patch Lerna to not run `pnpm install` after it prepared all packages for release
+
 ## :handshake: Project Governance
 
 This project is maintained by [awesome people](/AUTHORS.md) following a common [set of rules](/GOVERNANCE.md) and treating each other with [respect and appreciation](/CODE_OF_CONDUCT.md).
@@ -173,27 +179,32 @@ We are immensely grateful to our exclusive Premium Sponsor for their invaluable 
 
 <p align="center">
     <a href="https://www.browserstack.com/automation-webdriverio"><img src="https://webdriver.io/img/sponsors/browserstack_black.svg" alt="BrowserStack" /></a>
+</p>
+
+### 🥇 Gold Sponsor
+
+<p align="center">
+    <a href="https://www.route4me.com/"><img src="https://webdriver.io/img/sponsors/route4me.svg" width="250" alt="Route4Me" /></a>
     &nbsp; &nbsp; &nbsp;
-    <a href="https://saucelabs.com"><img src="https://webdriver.io/img/sponsors/saucelabs_black.svg" alt="Sauce Labs" width=400 /></a>
+    <a href="https://www.lambdatest.com/"><img src="https://webdriver.io/img/sponsors/lambdatest_black.svg" width="300" alt="Lambdatest" /></a>
 </p>
 
 ### 🥈 Silver Sponsor
 
 <p align="center">
-    <a href="https://www.lambdatest.com/"><img src="./.github/sponsors/LambdaTest_Black_Logo.svg" width="300" alt="Lambdatest" /></a>
+    <a href="https://testingbot.com/"><img src="https://webdriver.io/img/sponsors/testingbot.svg" width="250" alt="TestingBot" /></a>
 </p>
 
 ### 🥉 Bronze Sponsor
 
 <p align="center">
     <a href="https://eslint.org/"><img src="https://eslint.org/assets/images/logo/eslint-logo-color.png" alt="Eslint" /></a>
+    <a href="https://www.gridlastic.com/webdriverio.html"><img src="https://webdriver.io/img/sponsors/gridlastic.png" width="200" alt="Gridlastic" /></a>
 </p>
 
 ## :page_facing_up: License
 
-[MIT](/LICENSE-MIT)
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwebdriverio%2Fwebdriverio.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwebdriverio%2Fwebdriverio?ref=badge_large)
+[MIT](/LICENSE)
 
 ## :beginner: Badge
 

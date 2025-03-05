@@ -1,9 +1,9 @@
 ---
 title: OCRmyPDF
-date: 2025-03-04T12:21:07+08:00
+date: 2025-03-05T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735276680702-c008c8035c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735276680702-c008c8035c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737498352683-66b56fcc808b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737498352683-66b56fcc808b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
 ---
 
 # [ocrmypdf/OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)
