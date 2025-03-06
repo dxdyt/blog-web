@@ -1,9 +1,9 @@
 ---
 title: grpc-gateway
-date: 2023-12-02T12:17:10+08:00
+date: 2025-03-06T12:20:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700073534843-7b461ea3b89a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700073534843-7b461ea3b89a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDE0OTA1MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1737958946719-13dd1573f6bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMzQ4MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1737958946719-13dd1573f6bf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMzQ4MDZ8&ixlib=rb-4.0.3
 ---
 
 # [grpc-ecosystem/grpc-gateway](https://github.com/grpc-ecosystem/grpc-gateway)
@@ -70,9 +70,9 @@ that's needed to generate a reverse-proxy with this library.
 ### Compile from source
 
 The following instructions assume you are using
-[Go Modules](https://github.com/golang/go/wiki/Modules) for dependency
+[Go Modules](https://go.dev/wiki/Modules) for dependency
 management. Use a
-[tool dependency](https://github.com/golang/go/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module)
+[tool dependency](https://go.dev/wiki/Modules#how-can-i-track-tool-dependencies-for-a-module)
 to track the versions of the following executable packages:
 
 ```go
@@ -91,7 +91,7 @@ import (
 Run `go mod tidy` to resolve the versions. Install by running
 
 ```sh
-$ go install \
+go install \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway \
     github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2 \
     google.golang.org/protobuf/cmd/protoc-gen-go \
@@ -106,6 +106,48 @@ This will place four binaries in your `$GOBIN`;
 - `protoc-gen-go-grpc`
 
 Make sure that your `$GOBIN` is in your `$PATH`.
+
+### **Using the `tool` Directive in Go 1.24**
+
+Starting from Go 1.24, the `tool` directive in `go.mod` provides a structured way to track and manage executable dependencies. This replaces the previous workaround of using a separate `tools.go` file with blank imports.
+
+#### **Tracking Tools in `go.mod`**
+
+Instead of manually importing tool dependencies in a Go source file, you can now use the `tool` directive in `go.mod` to declare the tools your project depends on. For example:
+
+```go
+module tools
+
+go 1.24
+
+tool (
+	github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway
+	github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2
+	google.golang.org/grpc/cmd/protoc-gen-go-grpc
+	google.golang.org/protobuf/cmd/protoc-gen-go
+)
+```
+
+#### **Managing Tool Dependencies**
+
+To add tools to your module, use the `-tool` flag with `go get`:
+
+```sh
+go get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-grpc-gateway
+go get -tool github.com/grpc-ecosystem/grpc-gateway/v2/protoc-gen-openapiv2
+go get -tool google.golang.org/protobuf/cmd/protoc-gen-go
+go get -tool google.golang.org/grpc/cmd/protoc-gen-go-grpc
+```
+
+This automatically updates `go.mod`, adding the tools under the `tool` directive along with `require` statements to ensure version tracking.
+
+### Install Tools
+
+Once the tool dependencies are properly recorded in the `go.mod` file, simply execute the following command in the root directory of your project:
+
+```sh
+go install ./...
+```
 
 ### Download the binaries
 
@@ -149,13 +191,13 @@ This step generates the gRPC stubs that you can use to implement the service and
 Here's an example `buf.gen.yaml` you can use to generate the stubs with [buf](https://github.com/bufbuild/buf):
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: go
+  - local: protoc-gen-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: go-grpc
+  - local: protoc-gen-go-grpc
     out: gen/go
     opt:
       - paths=source_relative
@@ -200,17 +242,17 @@ The `generate_unbound_methods` should be enabled.
 Here's what a `buf.gen.yaml` file might look like with this option enabled:
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: go
+  - local: protoc-gen-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: go-grpc
+  - local: protoc-gen-go-grpc
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: grpc-gateway
+  - local: protoc-gen-grpc-gateway
     out: gen/go
     opt:
       - paths=source_relative
@@ -261,13 +303,13 @@ annotation to your .proto file
 > `buf.build/googleapis/googleapis`:
 >
 > ```yaml
-> version: v1
+> version: v2
 > name: buf.build/yourorg/myprotos
 > deps:
 >   - buf.build/googleapis/googleapis
 > ```
 >
-> Always run `buf mod update` after adding a dependency to your `buf.yaml`.
+> Always run `buf dep update` after adding a dependency to your `buf.yaml`.
 
 See [a_bit_of_everything.proto](examples/internal/proto/examplepb/a_bit_of_everything.proto)
 for examples of more annotations you can add to customize gateway behavior
@@ -276,17 +318,17 @@ and generated OpenAPI output.
 Here's what a `buf.gen.yaml` file might look like:
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: go
+  - local: protoc-gen-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: go-grpc
+  - local: protoc-gen-go-grpc
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: grpc-gateway
+  - local: protoc-gen-grpc-gateway
     out: gen/go
     opt:
       - paths=source_relative
@@ -326,17 +368,17 @@ generated by the source protobuf file.
 Here's what a `buf.gen.yaml` file might look like with this option enabled:
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: go
+  - local: protoc-gen-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: go-grpc
+  - local: protoc-gen-go-grpc
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: grpc-gateway
+  - local: protoc-gen-grpc-gateway
     out: gen/go
     opt:
       - paths=source_relative
@@ -410,22 +452,23 @@ func main() {
 Here's what a `buf.gen.yaml` file might look like:
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: go
+  - local: protoc-gen-go
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: go-grpc
+  - local: protoc-gen-go-grpc
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: grpc-gateway
+  - local: protoc-gen-grpc-gateway
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: openapiv2
-    out: gen/openapiv2
+      - generate_unbound_methods=true
+  - local: protoc-gen-openapiv2
+    out: gen/go
 ```
 
 To use the custom protobuf annotations supported by `protoc-gen-openapiv2`, we need
@@ -434,7 +477,7 @@ another dependency added to our protobuf generation step. If you are using
 to your `deps` array:
 
 ```yaml
-version: v1
+version: v2
 name: buf.build/yourorg/myprotos
 deps:
   - buf.build/googleapis/googleapis
@@ -471,26 +514,26 @@ for more information.
 ## Usage with remote plugins
 
 As an alternative to all of the above, you can use `buf` with
-[remote plugins](https://docs.buf.build/configuration/v1/buf-gen-yaml#name-or-remote)
+[remote plugins](https://buf.build/docs/bsr/remote-plugins/usage)
 to manage plugin versions and generation. An example `buf.gen.yaml` using remote
 plugin generation looks like this:
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: buf.build/protocolbuffers/go:v1.31.0
+  - remote: buf.build/protocolbuffers/go:v1.31.0
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/grpc/go:v1.3.0
+  - remote: buf.build/grpc/go:v1.3.0
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/grpc-ecosystem/gateway:v2.16.2
+  - remote: buf.build/grpc-ecosystem/gateway:v2.16.2
     out: gen/go
     opt:
       - paths=source_relative
-  - plugin: buf.build/grpc-ecosystem/openapiv2:v2.16.2
+  - remote: buf.build/grpc-ecosystem/openapiv2:v2.16.2
     out: gen/openapiv2
 ```
 
@@ -521,9 +564,9 @@ When using `buf` to generate stubs, flags and parameters are passed through
 the `opt` field in your `buf.gen.yaml` file, for example:
 
 ```yaml
-version: v1
+version: v2
 plugins:
-  - plugin: grpc-gateway
+  - local: protoc-gen-grpc-gateway
     out: gen/go
     opt:
       - paths=source_relative

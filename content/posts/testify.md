@@ -1,9 +1,9 @@
 ---
 title: testify
-date: 2024-10-19T12:19:40+08:00
+date: 2025-03-06T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727190886669-6e9ed4b07b2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727190886669-6e9ed4b07b2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkzMTE1MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740676176355-509de9e2654c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMzQ4MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740676176355-509de9e2654c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMzQ4MDZ8&ixlib=rb-4.0.3
 ---
 
 # [stretchr/testify](https://github.com/stretchr/testify)
@@ -11,7 +11,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1727190886669-6e9ed4b07b
 Testify - Thou Shalt Write Tests
 ================================
 
-ℹ️ We are working on testify v2 and would love to hear what you'd like to see in it, have your say here: https://cutt.ly/testify
+> [!NOTE]
+> Testify is being maintained at v1, no breaking changes will be accepted in this repo.  
+> [See discussion about v2](https://github.com/stretchr/testify/discussions/1560).
 
 [![Build Status](https://github.com/stretchr/testify/actions/workflows/main.yml/badge.svg?branch=master)](https://github.com/stretchr/testify/actions/workflows/main.yml) [![Go Report Card](https://goreportcard.com/badge/github.com/stretchr/testify)](https://goreportcard.com/report/github.com/stretchr/testify) [![PkgGoDev](https://pkg.go.dev/badge/github.com/stretchr/testify)](https://pkg.go.dev/github.com/stretchr/testify)
 
@@ -28,7 +30,7 @@ Get started:
   * Install testify with [one line of code](#installation), or [update it with another](#staying-up-to-date)
   * For an introduction to writing test code in Go, see https://go.dev/doc/code#Testing
   * Check out the API Documentation https://pkg.go.dev/github.com/stretchr/testify
-  * Use [testifylint](https://github.com/Antonboom/testifylint) (via [golanci-lint](https://golangci-lint.run/)) to avoid common mistakes
+  * Use [testifylint](https://github.com/Antonboom/testifylint) (via [golangci-lint](https://golangci-lint.run/)) to avoid common mistakes
   * A little about [Test-Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)
 
 [`assert`](https://pkg.go.dev/github.com/stretchr/testify/assert "API documentation") package

@@ -1,9 +1,9 @@
 ---
 title: mmsegmentation
-date: 2024-10-11T12:20:51+08:00
+date: 2025-03-06T12:21:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727968451338-209fb8da01a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727968451338-209fb8da01a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg2MjAzNTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739980873302-b93d3bd4991e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMzQ4MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739980873302-b93d3bd4991e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEyMzQ4MDZ8&ixlib=rb-4.0.3
 ---
 
 # [open-mmlab/mmsegmentation](https://github.com/open-mmlab/mmsegmentation)
