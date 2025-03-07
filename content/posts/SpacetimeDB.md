@@ -1,9 +1,9 @@
 ---
 title: SpacetimeDB
-date: 2023-08-14T12:15:01+08:00
+date: 2025-03-07T12:21:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691009153025-976647aa057e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691009153025-976647aa057e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTE5ODY0Njl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739673370222-27fba894b50b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739673370222-27fba894b50b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
 ---
 
 # [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)
@@ -32,7 +32,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1691009153025-976647aa05
     &nbsp;
     <a href="https://github.com/clockworklabs/spacetimedb"><img src="https://img.shields.io/badge/built_with-Rust-dca282.svg?style=flat-square"></a>
     &nbsp;
-	<a href="https://github.com/clockworklabs/spacetimedb/actions"><img src="https://img.shields.io/github/actions/workflow/status/clockworklabs/spacetimedb/ci.yml?style=flat-square&branch=main"></a>
+	<a href="https://github.com/clockworklabs/spacetimedb/actions"><img src="https://img.shields.io/github/actions/workflow/status/clockworklabs/spacetimedb/ci.yml?style=flat-square&branch=master"></a>
     &nbsp;
     <a href="https://status.spacetimedb.com"><img src="https://img.shields.io/uptimerobot/ratio/7/m784409192-e472ca350bb615372ededed7?label=cloud%20uptime&style=flat-square"></a>
     &nbsp;
@@ -40,7 +40,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1691009153025-976647aa05
     &nbsp;
     <a href="https://github.com/clockworklabs/spacetimedb/blob/master/LICENSE.txt"><img src="https://img.shields.io/badge/license-BSL_1.1-00bfff.svg?style=flat-square"></a>
 </p>
-
+<p align="center">
+    <a href="https://crates.io/crates/spacetimedb"><img src="https://img.shields.io/crates/d/spacetimedb?color=e45928&label=Rust%20Crate&style=flat-square"></a>
+    &nbsp;
+    <a href="https://www.nuget.org/packages/SpacetimeDB.Runtime"><img src="https://img.shields.io/nuget/dt/spacetimedb.runtime?color=0b6cff&label=NuGet%20Package&style=flat-square"></a>
+</p>
 <p align="center">
     <a href="https://discord.gg/spacetimedb"><img src="https://img.shields.io/discord/1037340874172014652?label=discord&style=flat-square&color=5a66f6"></a>
     &nbsp;
@@ -144,7 +148,7 @@ curl https://sh.rustup.rs -sSf | sh
 git clone https://github.com/clockworklabs/SpacetimeDB
 # Build and install the CLI
 cd SpacetimeDB
-cargo install --path ./crates/cli
+cargo install --path ./crates/cli --locked
 ```
 
 Windows may require some extra dependencies be installed, including openssl and a specific version of perl. A guide for this will be available soon.
@@ -180,19 +184,19 @@ You can write SpacetimeDB modules in a bunch of popular languages, with many mor
 
 #### Serverside Libraries
 
-- [Rust](https://spacetimedb.com/docs/server-languages/rust/rust-module-quickstart-guide)
-- [C# (experimental)](https://spacetimedb.com/docs/server-languages/csharp/csharp-module-reference)
-- Typescript (coming soon)
-- Python (coming soon)
+- [Rust](https://spacetimedb.com/docs/modules/rust/quickstart)
+- [C# (experimental)](https://spacetimedb.com/docs/modules/c-sharp/quickstart)
+- Typescript (planned)
+- Python (planned)
 - C++ (planned)
 - Lua (planned)
 
 #### Client Libraries
 
-- [Rust](https://spacetimedb.com/docs/client-languages/rust/rust-sdk-quickstart-guide)
-- [C#](https://spacetimedb.com/docs/client-languages/csharp/csharp-sdk-quickstart-guide)
-- [Typescript](https://spacetimedb.com/docs/client-languages/typescript/typescript-sdk-quickstart-guide)
-- [Python](https://spacetimedb.com/docs/client-languages/python/python-sdk-quickstart-guide)
+- [Rust](https://spacetimedb.com/docs/sdks/rust/quickstart)
+- [C#](https://spacetimedb.com/docs/sdks/c-sharp/quickstart)
+- [Typescript](https://spacetimedb.com/docs/sdks/typescript/quickstart)
+- Python (planned)
 - C++ (planned)
 - Lua (planned)
 
@@ -200,4 +204,4 @@ You can write SpacetimeDB modules in a bunch of popular languages, with many mor
 
 SpacetimeDB is licensed under the BSL 1.1 license. This is not an open source or free software license, however, it converts to the AGPL v3.0 license with a linking exception after a few years.
 
-Note that the AGPL v3.0 does not typically include a linking exception. We have added a custom linking exception to the AGPL license for SpacetimeDB. Our motivation for choosing a free software license is to ensure that contributions made to SpacetimeDB are propogated back to the community. We are expressly not interested in forcing users of SpacetimeDB to open source their own code if they link with SpacetimeDB, so we needed to include a linking exception.
+Note that the AGPL v3.0 does not typically include a linking exception. We have added a custom linking exception to the AGPL license for SpacetimeDB. Our motivation for choosing a free software license is to ensure that contributions made to SpacetimeDB are propagated back to the community. We are expressly not interested in forcing users of SpacetimeDB to open source their own code if they link with SpacetimeDB, so we needed to include a linking exception.

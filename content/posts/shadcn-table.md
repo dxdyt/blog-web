@@ -1,9 +1,9 @@
 ---
 title: shadcn-table
-date: 2024-10-26T12:21:17+08:00
+date: 2025-03-07T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729429442341-a6841554ab23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729429442341-a6841554ab23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739673370222-27fba894b50b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739673370222-27fba894b50b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
 ---
 
 # [sadmann7/shadcn-table](https://github.com/sadmann7/shadcn-table)
@@ -85,7 +85,7 @@ This is a shadcn table with server-side sorting, filtering, and pagination. It i
    ```bash
    pnpm dlx shadcn@latest init
 
-   pnpm dlx shadcn@latest add badge button calendar checkbox command dialog dropdown-menu form input label popover select separator skeleton sonner table toggle-group tooltip
+   pnpm dlx shadcn@latest add badge button calendar checkbox command dialog dropdown-menu form input label popover select separator skeleton sonner table toggle-group tooltip drawer
 
    pnpm add drizzle-orm postgres @tanstack/react-table zod @t3-oss/env-nextjs
    pnpm add -D drizzle-kit dotenv-cli pg tsx
