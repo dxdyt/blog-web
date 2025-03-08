@@ -1,15 +1,20 @@
 ---
 title: moby
-date: 2024-07-03T12:17:55+08:00
+date: 2025-03-08T12:17:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719225629917-f23d5e0295f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719225629917-f23d5e0295f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk5ODAyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
 ---
 
 # [moby/moby](https://github.com/moby/moby)
 
 The Moby Project
 ================
+
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/docker/docker)](https://pkg.go.dev/github.com/docker/docker)
+[![Go Report Card](https://goreportcard.com/badge/github.com/docker/docker)](https://goreportcard.com/report/github.com/docker/docker)
+[![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/moby/moby/badge)](https://scorecard.dev/viewer/?uri=github.com/moby/moby)
+
 
 ![Moby Project logo](docs/static_files/moby-project-logo.png "The Moby Project")
 
@@ -42,7 +47,7 @@ New projects can be added if they fit with the community goals. Docker is commit
 However, other projects are also encouraged to use Moby as an upstream, and to reuse the components in diverse ways, and all these uses will be treated in the same way. External maintainers and contributors are welcomed.
 
 The Moby project is not intended as a location for support or feature requests for Docker products, but as a place for contributors to work on open source code, fix bugs, and make the code more useful.
-The releases are supported by the maintainers, community and users, on a best efforts basis only, and are not intended for customers who want enterprise or commercial support; Docker EE is the appropriate product for these use cases.
+The releases are supported by the maintainers, community and users, on a best efforts basis only. For customers who want enterprise or commercial support, [Docker Desktop](https://www.docker.com/products/docker-desktop/) and [Mirantis Container Runtime](https://www.mirantis.com/software/mirantis-container-runtime/) are the appropriate products for these use cases.
 
 -----
 

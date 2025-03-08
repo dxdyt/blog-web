@@ -1,9 +1,9 @@
 ---
 title: vscode
-date: 2025-01-16T12:20:20+08:00
+date: 2025-03-08T12:18:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724684410691-8530c765b6dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724684410691-8530c765b6dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwMDEwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740471230719-60fc0bfd42e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740471230719-60fc0bfd42e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/vscode](https://github.com/microsoft/vscode)

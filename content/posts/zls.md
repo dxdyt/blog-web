@@ -1,9 +1,9 @@
 ---
 title: zls
-date: 2025-03-07T12:21:32+08:00
+date: 2025-03-08T12:17:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738467990752-6e00e436919d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738467990752-6e00e436919d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1732491482042-bfb6bc27678e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1732491482042-bfb6bc27678e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
 ---
 
 # [zigtools/zls](https://github.com/zigtools/zls)

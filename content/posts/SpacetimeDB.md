@@ -1,9 +1,9 @@
 ---
 title: SpacetimeDB
-date: 2025-03-07T12:21:08+08:00
+date: 2025-03-08T12:17:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739673370222-27fba894b50b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739673370222-27fba894b50b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739518805568-41e07e3318b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739518805568-41e07e3318b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
 ---
 
 # [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)
@@ -102,15 +102,14 @@ This speed and latency is achieved by holding all of application state in memory
 
 SpacetimeDB is an embedded database library that you can use to extend your own applications. You can also run SpacetimeDB as a standalone database server via the `spacetime` CLI tool.
 
-You can install and run the `spacetime` CLI tool via Cargo, Homebrew, Docker, or by downloading the binary directly from our website.
-
+You can install and run the `spacetime` CLI tool via Cargo, Docker, or by running the installation instructions on our website: https://spacetimedb.com/install
 
 #### Install on macOS
 
-You can install SpacetimeDB on macOS using Homebrew. This will install the `spacetime` CLI tool and the SpacetimeDB standalone server as a single executable. You can also install on macOS using the Linux instructions below.
+Installing SpacetimeDB on macOS is as easy as downloading the binary and running it. You can also install on macOS using the Docker instructions below.
 
 ```bash
-brew install clockworklabs/tap/spacetime
+curl --proto '=https' --tlsv1.2 -sSf https://install.spacetimedb.com | sh
 ```
 
 #### Install on Linux

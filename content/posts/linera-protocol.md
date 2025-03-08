@@ -1,9 +1,9 @@
 ---
 title: linera-protocol
-date: 2025-01-23T12:19:41+08:00
+date: 2025-03-08T12:18:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736804962370-637d516caedf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736804962370-637d516caedf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
 ---
 
 # [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol)
@@ -14,6 +14,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1736804962370-637d516cae
 [![Build Status for Rust](https://github.com/linera-io/linera-protocol/actions/workflows/rust.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/rust.yml)
 [![Build Status for Documentation](https://github.com/linera-io/linera-protocol/actions/workflows/documentation.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/documentation.yml)
 [![Build Status for DynamoDB](https://github.com/linera-io/linera-protocol/actions/workflows/dynamodb.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/dynamodb.yml)
+[![Twitter](https://img.shields.io/twitter/follow/linera_io)](https://x.com/linera_io)
+[![Discord](https://img.shields.io/discord/984941796272521226)](https://discord.com/invite/linera)
+
 <!-- [![Build Status for Kubernetes](https://github.com/linera-io/linera-protocol/actions/workflows/kubernetes.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/kubernetes.yml) -->
 
 [Linera](https://linera.io) is a decentralized blockchain infrastructure designed for highly scalable,
@@ -31,18 +34,18 @@ from low to high levels in the dependency graph)
   definitions, including cryptography.
 
 * [`linera-version`](https://linera-io.github.io/linera-protocol/linera_version/index.html)
-  A library to manage version infos in binaries and services.
+  A library to manage version info in binaries and services.
 
 * [`linera-views`](https://linera-io.github.io/linera-protocol/linera_views/index.html) A
   library mapping complex data structures onto a key-value store. The corresponding
   procedural macros are implemented in `linera-views-derive`.
 
 * [`linera-execution`](https://linera-io.github.io/linera-protocol/linera_execution/index.html)
-  Persistent data and the corresponding logics for runtime and execution of Linera
+  Persistent data and the corresponding logic for runtime and execution of Linera
   applications.
 
 * [`linera-chain`](https://linera-io.github.io/linera-protocol/linera_chain/index.html)
-  Persistent data and the corresponding logics for chains of blocks, certificates, and
+  Persistent data and the corresponding logic for chains of blocks, certificates, and
   cross-chain messaging.
 
 * [`linera-storage`](https://linera-io.github.io/linera-protocol/linera_storage/index.html)
@@ -70,41 +73,70 @@ from low to high levels in the dependency graph)
 * [`examples`](./examples) Examples of Linera applications written in Rust.
 
 
-## Quickstart with the Linera service CLI
+## Quickstart with the Linera CLI tool
 
 The following commands set up a local test network and run some transfers between the
 microchains owned by a single wallet.
 
 ```bash
 # Make sure to compile the Linera binaries and add them in the $PATH.
-# cargo build -p linera-storage-service -p linera-service --bins --features storage-service
+# cargo build -p linera-storage-service -p linera-service --bins
 export PATH="$PWD/target/debug:$PATH"
 
-# Import the optional helper function `linera_spawn_and_read_wallet_variables`.
+# Import the optional helper function `linera_spawn`.
 source /dev/stdin <<<"$(linera net helper 2>/dev/null)"
 
 # Run a local test network with the default parameters and a number of microchains
-# owned by the default wallet. (The helper function `linera_spawn_and_read_wallet_variables`
-# is used to set the two environment variables LINERA_{WALLET,STORAGE}.)
-linera_spawn_and_read_wallet_variables \
-linera net up
+# owned by the default wallet. This also defines `LINERA_TMP_DIR`.
+linera_spawn \
+linera net up --with-faucet --faucet-port 8080
 
-# Print the set of validators.
-linera query-validators
+# Remember the URL of the faucet.
+FAUCET_URL=http://localhost:8080
+
+# If you're using a testnet, start here and run this instead:
+#   LINERA_TMP_DIR=$(mktemp -d)
+#   FAUCET_URL=https://faucet.testnet-XXX.linera.net  # for some value XXX
+
+# Set the path of the future wallet.
+export LINERA_WALLET="$LINERA_TMP_DIR/wallet.json"
+export LINERA_STORAGE="rocksdb:$LINERA_TMP_DIR/client.db"
+
+# Initialize a new user wallet.
+linera wallet init --faucet $FAUCET_URL
+
+# Request chains.
+INFO1=($(linera wallet request-chain --faucet $FAUCET_URL))
+INFO2=($(linera wallet request-chain --faucet $FAUCET_URL))
+CHAIN1="${INFO1[0]}"
+ACCOUNT1="User:${INFO1[3]}"
+CHAIN2="${INFO2[0]}"
+ACCOUNT2="User:${INFO2[3]}"
+
+# Show the different chains tracked by the wallet.
+linera wallet show
 
 # Query the chain balance of some of the chains.
-CHAIN1="e476187f6ddfeb9d588c7b45d3df334d5501d6499b3f9ad5595cae86cce16a65"
-CHAIN2="69705f85ac4c9fef6c02b4d83426aaaf05154c645ec1c61665f8e450f0468bc0"
 linera query-balance "$CHAIN1"
 linera query-balance "$CHAIN2"
 
-# Transfer 10 units then 5 back
+# Transfer 10 units then 5 back.
 linera transfer 10 --from "$CHAIN1" --to "$CHAIN2"
 linera transfer 5 --from "$CHAIN2" --to "$CHAIN1"
 
-# Query balances again
+# Query balances again.
 linera query-balance "$CHAIN1"
 linera query-balance "$CHAIN2"
+
+# Now let's fund the user balances.
+linera transfer 5 --from "$CHAIN1" --to "$CHAIN1:$ACCOUNT1"
+linera transfer 2 --from "$CHAIN1:$ACCOUNT1" --to "$CHAIN2:$ACCOUNT2"
+
+# Query user balances again.
+linera query-balance "$CHAIN1:$ACCOUNT1"
+linera query-balance "$CHAIN2:$ACCOUNT2"
+
+# TODO(#1713): The syntax `User:$OWNER` for user accounts will change in the future.
 ```
 
 More complex examples may be found in our [developer manual](https://linera.dev) as well
