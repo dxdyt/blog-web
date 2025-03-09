@@ -1,9 +1,9 @@
 ---
 title: PowerToys
-date: 2025-03-08T12:17:17+08:00
+date: 2025-03-09T12:17:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735597143982-83d10c5e84d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735597143982-83d10c5e84d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735322122784-859d1445023d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735322122784-859d1445023d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/PowerToys](https://github.com/microsoft/PowerToys)

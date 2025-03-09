@@ -1,9 +1,9 @@
 ---
 title: linera-protocol
-date: 2025-03-08T12:18:02+08:00
+date: 2025-03-09T12:18:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740231614760-8037a7896030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740231614760-8037a7896030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
 ---
 
 # [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol)

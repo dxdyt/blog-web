@@ -1,9 +1,9 @@
 ---
 title: awesome-deepseek-integration
-date: 2025-02-27T12:20:15+08:00
+date: 2025-03-09T12:18:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738332465678-597284760298?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738332465678-597284760298?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA2Mjk5ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739737991332-557aa4da4f4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739737991332-557aa4da4f4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)
@@ -18,8 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1738332465678-5972847602
 
 Integrate the DeepSeek API into popular softwares. Access [DeepSeek Open Platform](https://platform.deepseek.com/) to get an API key.
 
-English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md)/[日本語](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_ja.md)
-
+English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md)/[繁體中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_zh_tw.md)/[日本語](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_ja.md)/[Español](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_es.md)
 </div>
 
 </br>
@@ -29,9 +28,34 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
 
 <table>
     <tr>
+        <td><img src="https://chatdoc.com/chatdoc/chatdoc.webp" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://chatdoc.com">ChatDOC</a></td>
+        <td>ChatDOC is an AI-powered document reading tool equipped with robust traceability features, ensuring that the source of every piece of information is clear and verifiable, helping you efficiently and accurately grasp the core of your documents.</td>
+    </tr>
+    <tr>
+        <td> <img src="./docs/SwiftChat/assets/favicon.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="docs/SwiftChat/README.md">SwiftChat</a></td>
+        <td> <a href="https://github.com/aws-samples/swift-chat">SwiftChat</a> is a lightning-fast, cross-platform AI chat application built with React Native. It delivers native performance on Android, iOS, iPad, Android tablets and macOS. Features include real-time streaming chat, rich Markdown support (tables, code blocks, LaTeX), AI image generation, customizable system prompts, and multimodal capabilities. Supports multiple AI providers including DeepSeek, Amazon Bedrock, Ollama and OpenAI with clean UI and high performance.</td>
+    </tr>
+    </tr>
+        <td><img src="https://4everlogo.4everland.store/logo/logo.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/4EVERChat/README.md">4EVERChat</a></td>
+        <td><a href="https://chat.4everland.org/">4EVERChat</a> is an intelligent model selection platform integrating hundreds of LLMs, enabling real-time comparison of model performance. Leveraging <a href="https://www.4everland.org/">4EVERLAND</a> AI RPC's unified API endpoint, it achieves cost-free model switching and automatically selects combinations with fast responses and low costs.</td>
+    </tr>
+    <tr>
+        <td><img src="./docs/xhai_browser/assets/logo_512.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="./docs/xhai_browser/README.md">xhai Browser</a></td>
+        <td>xhai Browser is an Android desktop management & AI browser, DeepSeek is the default AI dialog engine.It has the ultimate performance (0.2 seconds to start), slim size (apk 3M), no ads, ultra-fast ad blocking, multi-screen classification, screen navigation, multi-search box, a box multiple search!</td>
+    </tr>
+    <tr>
         <td><img src="https://i.imgur.com/FkbmMVG.png" alt="Icon" width="64" height="auto" /></td>
         <td><a href="https://intellibar.app/">IntelliBar</a></td>
         <td>IntelliBar is a beautiful assistant for the Mac that lets you use advanced models like DeepSeek R1 with any app on your Mac — ex: edit emails in your mail app or summarize articles in your browser.</td>
+    </tr>
+    <tr>
+        <td><img src="./docs/gptbots/gptbots.png" alt="Icon" width="64" height="auto" /> </td>
+        <td><a href="https://www.gptbots.ai/docs">GPTBots</a></td>
+        <td><a href="https://www.gptbots.ai/">GPTBots</a> is a no-code AI agent building platform that integrates major international LLMs, including Deepseek. It offers modules for RAG-based knowledge storage/retrieval, tool customization/calling, and workflow orchestration. Additionally, it allows agents to be integrated into multiple mainstream platforms (such as WhatsApp, Telegram, etc.), providing end-to-end AI solutions for businesses and helping them stand out in the AI era.</td>
     </tr>
     <tr>    
         <td><img src="https://github.com/ThinkInAIXYZ/deepchat/blob/main/build/icon.png?raw=true" alt="Icon" width="64" height="auto" style="border-radius: 10px" /></td>
@@ -87,6 +111,11 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <img src="https://raw.githubusercontent.com/rss-translator/RSS-Translator/main/core/static/favicon.ico" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/rss_translator/README.md"> RSS Translator </a> </td>
         <td> Translate RSS feeds into your language! </td>
+    </tr>
+    <tr>
+        <td> <img src="https://relingo.net/assets/images/relingo-logo.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://relingo.net"> Relingo </a> </td>
+        <td> Build and master vocabulary while you browse website and watch youtube! </td>
     </tr>
     <tr>
         <td> <img src="https://raw.githubusercontent.com/ysnows/enconvo_media/main/logo.png" alt="Icon" width="64" height="auto" /> </td>
@@ -291,6 +320,16 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <a href="https://github.com/OJZen/1chat">1chat</a> </td>
         <td>An iOS app that lets you chat with the DeepSeek-R1 model locally.</td>
     </tr>
+    <tr>
+        <td> <img src="https://chatlabsai.com/assets/logo/logo.png" alt="iOS AI Chatbot" width="64" height="auto" /> </td>
+        <td> <a href="https://chatlabsai.com">Access 250+ text, image LLMs in one app</a> </td>
+        <td> 1AI iOS Chatbot integrates with 250+ text, image, voice models allowing users chat with any model in the world including Deepseek R1 and Deepseek V3 models.</td>
+    </tr>
+    <tr>
+        <td> <img src="./docs/PopAi/assets/logo.svg" alt="PopAi" width="64" height="auto" /> </td>
+        <td> <a href="https://popai.pro">PopAi</a> </td>
+        <td>PopAi launches DeepSeek R1!  Enjoy lag-free, lightning-fast performance with PopAi. Seamlessly toggle online search on/off.</td>
+     </tr>
 </table>
 
 ### AI Agent frameworks
@@ -350,6 +389,19 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td width=80> <img src="docs/agentUniverse/assets/agentUniverse_logo_s.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/antgroup/agentUniverse"> agentUniverse </a> </td>
         <td> agentUniverse is a multi-agent collaboration framework designed for complex business scenarios. It offers rapid and user-friendly development capabilities for LLM agent applications, with a focus on mechanisms such as agent collaborative scheduling, autonomous decision-making, and dynamic feedback. The framework originates from Ant Group's real-world business practices in the financial industry. In June 2024, agentUniverse achieved full integration support for the DeepSeek series of models.  </td>
+    </tr>
+</table>
+
+### Data AI Applications frameworks
+
+<table>
+    <tr>
+        <td width="80"> <img src="https://github.com/user-attachments/assets/a327d72f-755f-4256-8a37-32a518a55df3" alt="Icon" width="64" height="auto" /> </td>
+        <td width="120"> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/dbgpt/README.md"> DB-GPT </a> </td>
+        <td> 🤖 DB-GPT is an open source AI native data app development framework with AWEL(Agentic Workflow Expression Language) and agents.
+The purpose is to build infrastructure in the field of large models, through the development of multiple technical capabilities such as multi-model management (SMMF), Text2SQL effect optimization, RAG framework and optimization, Multi-Agents framework collaboration, AWEL (agent workflow orchestration), etc. Which makes large model applications with data simpler and more convenient.
+
+ </td>
     </tr>
 </table>
 
@@ -507,6 +559,11 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <a href="https://cliprun.com/"> Cliprun </a> </td>
         <td> Python code runner & playground. Right-click Python code on DeepSeek to run it instantly in your browser. </td>
     </tr>
+    <tr>
+        <td> <img src="http://cdn.docky.ai/assets/logo.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/docs/docky-ai/README.md"> Docky AI </a> </td>
+        <td>Docky AI is a powerful browser extension that allows you to have real-time conversations with multiple AI models through a sidebar. It supports simultaneous communication with multiple models and can assist you in reading web pages, writing, translating, and creating images</td>
+    </tr>
 </table>
 
 ### VS Code Extensions
@@ -658,9 +715,9 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> CodeGate: secure AI code generation</td>
     </tr>
     <tr>
-        <td> <img src="./docs/tencent/zhuque.png"  alt="Icon" width="64" height="auto" /> </td>
+        <td> <img src="./docs/tencent/hunyuan.png"  alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/tencent/AI-Infra-Guard"> AI-Infra-Guard </a> </td>
-        <td> AI infrastructure security assessment tool designed to discover and detect potential security risks in AI systems.</td>
+        <td> Tencent's Hunyuan Security Team - AI infrastructure security assessment tool designed to discover and detect potential security risks in AI systems.</td>
     </tr>
 </table>
 
@@ -761,7 +818,11 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <img src="https://github.com/Optima-CityU/llm4ad/blob/main/assets/figs/logo_short.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/Optima-CityU/llm4ad">LLM4AD</a> </td>
         <td> <a href="https://github.com/Optima-CityU/llm4ad">LLM4AD</a> is a unified open-source Python-based Platform using Large Language Models (LLMs) for Automatic Algorithm Design (AD).</td>
-
+    </tr>
+    <tr>
+        <td>  </td>
+        <td> <a href="https://github.com/JiauZhang/chatchat"> chatchat </a> </td>
+        <td> Large Language Models Python API. </td>
     </tr>
 </table>
 

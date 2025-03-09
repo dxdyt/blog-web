@@ -1,9 +1,9 @@
 ---
 title: MetaGPT
-date: 2025-02-26T12:21:38+08:00
+date: 2025-03-09T12:16:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739369122285-8560a5eb18fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739369122285-8560a5eb18fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735399570412-fe0fd40fdcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735399570412-fe0fd40fdcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
 ---
 
 # [geekan/MetaGPT](https://github.com/geekan/MetaGPT)
@@ -38,6 +38,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1739369122285-8560a5eb18
 
 ## News
 🚀 Feb. 19, 2025: Today we are officially launching our natural language programming product: MGX (MetaGPT X) - the world's first AI agent development team.  [Offical website](https://mgx.dev/) [Twitter](https://x.com/MetaGPT_/status/1892199535130329356)
+
+🚀 Feb. 17, 2025: We introduced two papers: [SPO](https://arxiv.org/pdf/2502.06855) and [AOT](https://arxiv.org/pdf/2502.12018), check the [code](examples)!
 
 🚀 Jan. 22, 2025: Our paper [AFlow: Automating Agentic Workflow Generation](https://openreview.net/forum?id=z5uVAKwmjf) accepted for **oral presentation (top 1.8%)** at ICLR 2025, **ranking #2** in the LLM-based Agent category.
 

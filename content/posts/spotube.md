@@ -1,9 +1,9 @@
 ---
 title: spotube
-date: 2025-03-08T12:16:30+08:00
+date: 2025-03-09T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736618626242-542735175261?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735322122784-859d1445023d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735322122784-859d1445023d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
 ---
 
 # [KRTirtho/spotube](https://github.com/KRTirtho/spotube)
