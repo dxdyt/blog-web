@@ -1,9 +1,9 @@
 ---
 title: camel
-date: 2025-03-09T12:17:20+08:00
+date: 2025-03-10T12:16:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735399570412-fe0fd40fdcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735399570412-fe0fd40fdcd6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740676176364-03eb7bdb2bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740676176364-03eb7bdb2bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
 ---
 
 # [camel-ai/camel](https://github.com/camel-ai/camel)
@@ -197,7 +197,7 @@ Installing CAMEL is a breeze thanks to its availability on PyPI. Simply open you
 pip install camel-ai
 ```
 
-For more detailed instructions and additional configuration options, check out the [installation section](https://github.com/camel-ai/camel/blob/master/INSTALLATION.md).
+For more detailed instructions and additional configuration options, check out the [installation section](https://github.com/camel-ai/camel/blob/master/docs/get_started/installation.md).
 
 After running, you can explore our CAMEL Tech Stack and Cookbooks at [www.docs.camel-ai.org](https://www.docs.camel-ai.org) to build powerful multi-agent systems.
 
