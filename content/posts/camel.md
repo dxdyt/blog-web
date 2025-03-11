@@ -1,9 +1,9 @@
 ---
 title: camel
-date: 2025-03-10T12:16:57+08:00
+date: 2025-03-11T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740676176364-03eb7bdb2bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740676176364-03eb7bdb2bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739800105257-aba885199b43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739800105257-aba885199b43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
 ---
 
 # [camel-ai/camel](https://github.com/camel-ai/camel)

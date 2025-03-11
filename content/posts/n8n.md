@@ -1,9 +1,9 @@
 ---
 title: n8n
-date: 2024-12-28T12:19:31+08:00
+date: 2025-03-11T12:22:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733107931656-d3fa581bb77a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733107931656-d3fa581bb77a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUzNTk1MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739056656195-ba25ea0a7b93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739056656195-ba25ea0a7b93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
 ---
 
 # [n8n-io/n8n](https://github.com/n8n-io/n8n)
@@ -28,11 +28,16 @@ n8n is a workflow automation platform that gives technical teams the flexibility
 
 Try n8n instantly with [npx](https://docs.n8n.io/hosting/installation/npm/) (requires [Node.js](https://nodejs.org/en/)):
 
-`npx n8n`
+```
+npx n8n
+```
 
 Or deploy with [Docker](https://docs.n8n.io/hosting/installation/docker/):
 
-`docker run -it --rm --name n8n -p 5678:5678 docker.n8n.io/n8nio/n8n`
+```
+docker volume create n8n_data
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+```
 
 Access the editor at http://localhost:5678
 

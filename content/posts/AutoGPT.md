@@ -1,9 +1,9 @@
 ---
 title: AutoGPT
-date: 2025-03-10T12:17:48+08:00
+date: 2025-03-11T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734640548068-1cfe6cb6b96b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734640548068-1cfe6cb6b96b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739924144825-4544ec14ee29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739924144825-4544ec14ee29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
 ---
 
 # [Significant-Gravitas/AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)

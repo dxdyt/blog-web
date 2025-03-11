@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2025-02-12T12:20:14+08:00
+date: 2025-03-11T12:21:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736077722346-31ba59414728?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736077722346-31ba59414728?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkzMzM5NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741290723082-bd54c16a21a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741290723082-bd54c16a21a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
 ---
 
 # [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
@@ -105,7 +105,7 @@ curl -X POST https://api.firecrawl.dev/v1/crawl \
     -H 'Authorization: Bearer fc-YOUR_API_KEY' \
     -d '{
       "url": "https://docs.firecrawl.dev",
-      "limit": 100,
+      "limit": 10,
       "scrapeOptions": {
         "formats": ["markdown", "html"]
       }
@@ -291,7 +291,6 @@ curl -X POST https://api.firecrawl.dev/v1/extract \
         },
         "required": [
           "company_mission",
-          "supports_sso",
           "is_open_source",
           "is_in_yc"
         ]
