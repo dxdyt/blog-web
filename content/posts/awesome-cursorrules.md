@@ -1,9 +1,9 @@
 ---
 title: awesome-cursorrules
-date: 2025-01-23T12:19:59+08:00
+date: 2025-03-12T12:20:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735707370784-9b3e8dd9e8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735707370784-9b3e8dd9e8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739372425274-d41281e72c5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739372425274-d41281e72c5d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
 ---
 
 # [PatrickJS/awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules)

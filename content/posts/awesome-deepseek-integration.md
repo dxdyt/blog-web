@@ -1,9 +1,9 @@
 ---
 title: awesome-deepseek-integration
-date: 2025-03-10T12:18:27+08:00
+date: 2025-03-12T12:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734688246098-141f0cae5cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734688246098-141f0cae5cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740514533090-2f47a0320747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740514533090-2f47a0320747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/awesome-deepseek-integration](https://github.com/deepseek-ai/awesome-deepseek-integration)
@@ -19,14 +19,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1734688246098-141f0cae5c
 Integrate the DeepSeek API into popular softwares. Access [DeepSeek Open Platform](https://platform.deepseek.com/) to get an API key.
 
 English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_cn.md)/[繁體中文](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_zh_tw.md)/[日本語](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_ja.md)/[Español](https://github.com/deepseek-ai/awesome-deepseek-integration/blob/main/README_es.md)
-</div>
 
-</br>
-</br>
+<a href="https://trendshift.io/repositories/12798" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12798" alt="deepseek-ai%2Fawesome-deepseek-integration | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</div>
 
 ### Applications
 
 <table>
+    <tr>
+        <td><img src="docs/dingtalk/assets/dingtalk_icon.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://www.dingtalk.com/">DingTalk</a></td>
+        <td>DingTalk AI Assistant integrates multiple AI product features from the DingTalk platform to intelligently support enterprises in their daily workflows. It possesses various intelligent capabilities, including but not limited to smart communication, smart collaboration, and smart management.  
+
+With these functionalities, the AI assistant can summarize key points within an organization, generate meeting minutes, and provide users with relevant task notifications and schedule reminders. Additionally, DingTalk AI Assistant leverages its knowledge base to intelligently answer common employee inquiries regarding company administrative processes, HR policies, and other related topics.</td>
+    </tr>
     <tr>
         <td><img src="https://chatdoc.com/chatdoc/chatdoc.webp" alt="Icon" width="64" height="auto" /></td>
         <td><a href="https://chatdoc.com">ChatDOC</a></td>
@@ -153,6 +159,11 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <a href="https://raycast.com/?via=ViGeng">Raycast</a> is a productivity tool for macOS that lets you control your tools with a few keystrokes. It supports various extensions including DeepSeek AI.</td>
     </tr>
     <tr>
+        <td> <img src="./docs/chatpdflocal/assets/chatpdflocal-icon.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://www.chatpdflocal.com">ChatPDFLocal</a> </td>
+        <td> ChatPDFLocal is an AI powered Mac OS App for helping to chat PDF, it works seamlessly with DeepSeek and other multiple AI models to improve your reading efficiency. </td>
+    </tr>
+    <tr>
         <td> <img src="https://niceprompt.app/favicon.ico" alt="Icon" width="64" height="auto" /> </td> <td> <a href="https://niceprompt.app">Nice Prompt</a></td> <td> <a href="https://niceprompt.app">Nice Prompt</a> Organize, share and use your prompts in your code editor, with Cursor and VSCode。</td>
     </tr>
     <tr>
@@ -180,6 +191,11 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <img src="https://avatars.githubusercontent.com/u/958072?s=200&v=4" alt="Laravel Integration" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/deepseek-php/deepseek-laravel/blob/master/README.md">Laravel Integration</a> </td>
         <td> Laravel wrapper for Deepseek PHP client, to seamless deepseek API integration with laravel applications.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://raw.githubusercontent.com/cohesion-org/deepseek-go/refs/heads/main/internal/images/deepseek-go.png" alt="Go Client" width="64" height="auto"> </td>
+        <td> <a href="https://github.com/cohesion-org/deepseek-go/blob/main/README.md">Deepseek Go</a> </td>
+        <td>  A Deepseek client written for Go supporting Chat and Reasoning Models. Also supports external providers like Azure, OpenRouter and others. </td>
     </tr>
     <tr>
         <td> <img src="./docs/zotero/assets/zotero-icon.png" alt="Icon" width="64" height="auto" /> </td>
@@ -329,7 +345,22 @@ English/[简体中文](https://github.com/deepseek-ai/awesome-deepseek-integrati
         <td> <img src="./docs/PopAi/assets/logo.svg" alt="PopAi" width="64" height="auto" /> </td>
         <td> <a href="https://popai.pro">PopAi</a> </td>
         <td>PopAi launches DeepSeek R1!  Enjoy lag-free, lightning-fast performance with PopAi. Seamlessly toggle online search on/off.</td>
-     </tr>
+    </tr>
+    <tr>
+        <td> <img src="https://pot-app.com/logo/icon.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://pot-app.com/">Pot</a></td>
+        <td> <a href="https://pot-app.com/">Pot</a> 🌈 A cross-platform software for text translation and recognition. </td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/Byaidu/PDFMathTranslate/raw/main/docs/images/banner.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://github.com/Byaidu/PDFMathTranslate">PDFMathTranslate</a></td>
+        <td>PDF Math Translate is an AI-based full-text bilingual translation tool that fully preserves the layout of PDF documents.</td>
+    </tr>
+    <tr>
+        <td><img src="https://github.com/Richasy/Bili.Copilot/raw/master/assets/StoreLogo.png" alt="Icon" width="64" height="auto" /></td>
+        <td><a href="https://github.com/Richasy/Bili.Copilot">Bili.Copilot</a></td>
+        <td>Bilibili third-party Windows desktop client, a native application built with the Windows App SDK.</td>
+    </tr>
 </table>
 
 ### AI Agent frameworks
@@ -472,7 +503,6 @@ The purpose is to build infrastructure in the field of large models, through the
 </table>
 
 ### IM Application Plugins
-
 <table>
     <tr>
         <td> <img src="https://github.com/InternLM/HuixiangDou/releases/download/v0.1.0rc1/huixiangdou.jpg" alt="Icon" width="64" height="auto" /> </td>
@@ -488,6 +518,20 @@ The purpose is to build infrastructure in the field of large models, through the
         <td> <img src="https://nonebot.dev/logo.png" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/KomoriDev/nonebot-plugin-deepseek">NoneBot<br/>（QQ, Lark, Discord, TG, etc.）</a> </td>
         <td> Based on NoneBot framework, provide intelligent chat and deep thinking functions, supports QQ, Lark, Discord, TG, and more platforms.</td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/Soulter/AstrBot/raw/refs/heads/master/dashboard/src/assets/images/logo-normal.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/Soulter/AstrBot/">AstrBot<br/>（QQ, WeChat, WeCom, Lark, TG, etc.）</a> </td>
+        <td> User-friendly LLM-based multi-platform chatbot with a WebUI, supporting long-term-memory, RAG, LLM agents, and plugins integration.</td>
+    </tr>
+</table>
+
+### Office Addin
+<table>
+    <tr>
+        <td> <img src="https://www.44886.com/view/img/bukeng.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://www.bukenghezi.com/">BKOffice</a> </td>
+        <td>An Office plugin that supports the Word, Excel, and PPT suite (also supports the WPS suite), adding more than 300 functions to Office.</td>
     </tr>
 </table>
 
@@ -588,6 +632,11 @@ The purpose is to build infrastructure in the field of large models, through the
         <td> <img src="https://github.com/titusTong/seekCodeCopilot/blob/main/assets/SeekCodeCopilotLogo.png?raw=true" alt="Icon" width="64" height="auto" /> </td>
         <td> <a href="https://github.com/titusTong/seekCodeCopilot/blob/main/README.md"> SeekCode Copilot </a> </td>
         <td> vscode intelligent coding assistant supports configuring locally deployed DeepSeek models </td>
+    </tr>
+    <tr>
+        <td> <img src="https://github.com/intellism/vscode-comment-translate/blob/master/doc/image/icon.png" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://github.com/intellism/vscode-comment-translate/blob/master/README.md"> Comment Translation </a> </td>
+        <td> This extension helps developers translate comments, strings, code hints, error messages, and variable names in their code. </td>
     </tr>
 </table>
 
@@ -725,6 +774,11 @@ The purpose is to build infrastructure in the field of large models, through the
 
 <table>
     <tr>
+        <td> <img src="https://raw.githubusercontent.com/mlflow/mlflow/refs/heads/master/assets/icon.svg" alt="Icon" width="64" height="auto" /> </td>
+        <td> <a href="https://mlflow.org/docs/latest/tracing/integrations/deepseek"> MLflow </a></td>
+        <td> Open-source MLOps / LLMOps platform for build, test, deploy, and monitor AI applications with DeepSeek. </td>
+    </tr>
+    <tr>
         <td style="font-size: 64px">🤖</td>
         <td> <a href="https://github.com/wangrongding/wechat-bot/blob/main/README.md"> Wechat-Bot </a></td>
         <td> A wechat robot based on WeChaty combined with DeepSeek and other Ai services. </td>
@@ -823,6 +877,11 @@ The purpose is to build infrastructure in the field of large models, through the
         <td>  </td>
         <td> <a href="https://github.com/JiauZhang/chatchat"> chatchat </a> </td>
         <td> Large Language Models Python API. </td>
+    </tr>
+    <tr>
+        <td> <img src="https://serpapi.com/android-chrome-512x512.png" alt="Icon" height="auto" />   </td>
+        <td> <a href="https://serpapi.com/blog/connect-deepseek-api-with-the-internet-google-search-and-more/#connect-deepseek-with-google-search-result"> SerpApi </a> </td>
+        <td> Connect DeepSeek API with search results like Google. </td>
     </tr>
 </table>
 

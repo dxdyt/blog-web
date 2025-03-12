@@ -1,9 +1,9 @@
 ---
 title: presenterm
-date: 2025-03-11T12:22:21+08:00
+date: 2025-03-12T12:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740940349301-d29d8c62e0f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740940349301-d29d8c62e0f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738827125457-288529e341cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738827125457-288529e341cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
 ---
 
 # [mfontanini/presenterm](https://github.com/mfontanini/presenterm)
@@ -42,7 +42,7 @@ Visit the [documentation][docs-introduction] to get started.
 
 * Define your presentation in a single markdown file.
 * [Images and animated gifs][docs-images] on terminals like _kitty_, _iterm2_, and _wezterm_.
-* [Customizeable themes][docs-themes] including colors, margins, layout (left/center aligned content), footer for every 
+* [Customizable themes][docs-themes] including colors, margins, layout (left/center aligned content), footer for every 
   slide, etc. Several [built-in themes][docs-builtin-themes] can give your presentation the look you want without 
   having to define your own.
 * Code highlighting for a [wide list of programming languages][docs-code-highlight].

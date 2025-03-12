@@ -1,9 +1,9 @@
 ---
 title: awesome-mcp-servers
-date: 2025-03-11T12:22:27+08:00
+date: 2025-03-12T12:20:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739800105257-aba885199b43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739800105257-aba885199b43?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE2NjY4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738827125457-288529e341cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738827125457-288529e341cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
 ---
 
 # [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
@@ -369,7 +369,9 @@ Interact with Git repositories and version control platforms. Enables repository
 - [tomekkorbak/strava-mcp-server](https://github.com/tomekkorbak/strava-mcp-server) 🐍 ☁️ - An MCP server for Strava, an app for tracking physical exercise
 - [tomekkorbak/oura-mcp-server](https://github.com/tomekkorbak/oura-mcp-server) 🐍 ☁️ - An MCP server for Oura, an app for tracking sleep
 - [rember/rember-mcp](https://github.com/rember/rember-mcp) 📇 🏠 - Create spaced repetition flashcards in [Rember](https://rember.com) to remember anything you learn in your chats.
+- [@makehq/mcp-server](https://github.com/integromat/make-mcp-server) 🎖️ 📇 🏠 - Turn your [Make](https://www.make.com/) scenarios into callable tools for AI assistants.
 - [NON906/omniparser-autogui-mcp](https://github.com/NON906/omniparser-autogui-mcp) - 🐍 Automatic operation of on-screen GUI.
+- [kj455/mcp-kibela](https://github.com/kj455/mcp-kibela) - 📇 ☁️ Allows AI models to interact with [Kibela](https://kibe.la/)
 
 ## Frameworks
 

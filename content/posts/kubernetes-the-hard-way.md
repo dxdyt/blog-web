@@ -1,9 +1,9 @@
 ---
 title: kubernetes-the-hard-way
-date: 2024-05-03T12:19:35+08:00
+date: 2025-03-12T12:21:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710846929336-df391424377d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739802423829-b37e9e8aab8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739802423829-b37e9e8aab8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
 ---
 
 # [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
@@ -29,9 +29,9 @@ Kubernetes The Hard Way guides you through bootstrapping a basic Kubernetes clus
 
 Component versions:
 
-* [kubernetes](https://github.com/kubernetes/kubernetes) v1.28.x
-* [containerd](https://github.com/containerd/containerd) v1.7.x
-* [cni](https://github.com/containernetworking/cni) v1.3.x
+* [kubernetes](https://github.com/kubernetes/kubernetes) v1.31.x
+* [containerd](https://github.com/containerd/containerd) v2.0.x
+* [cni](https://github.com/containernetworking/cni) v1.6.x
 * [etcd](https://github.com/etcd-io/etcd) v3.4.x
 
 ## Labs
