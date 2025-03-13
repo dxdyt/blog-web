@@ -1,9 +1,9 @@
 ---
 title: pydoll
-date: 2025-03-12T12:20:31+08:00
+date: 2025-03-13T12:22:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734779205331-4566d6965fa2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734779205331-4566d6965fa2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739715640692-22ef6a326271?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE4Mzk2NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739715640692-22ef6a326271?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE4Mzk2NTB8&ixlib=rb-4.0.3
 ---
 
 # [thalissonvs/pydoll](https://github.com/thalissonvs/pydoll)
