@@ -1,9 +1,9 @@
 ---
 title: awesome-sysadmin
-date: 2025-03-12T12:21:50+08:00
+date: 2025-03-14T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739802423829-b37e9e8aab8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739802423829-b37e9e8aab8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738827125457-288529e341cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738827125457-288529e341cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
 ---
 
 # [awesome-foss/awesome-sysadmin](https://github.com/awesome-foss/awesome-sysadmin)

@@ -1,15 +1,15 @@
 ---
 title: DB-GPT
-date: 2023-12-23T12:16:34+08:00
+date: 2025-03-14T12:20:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1701891928981-d3d6b5b43dc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1701891928981-d3d6b5b43dc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMzMDQ4OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739163519731-c29cbcee8d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739163519731-c29cbcee8d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
 ---
 
 # [eosphoros-ai/DB-GPT](https://github.com/eosphoros-ai/DB-GPT)
 
-# DB-GPT: Revolutionizing Database Interactions with Private LLM Technology
- 
+# DB-GPT: AI Native Data App Development framework with AWEL(Agentic Workflow Expression Language) and Agents
+
 <p align="left">
   <img src="./assets/LOGO.png" width="100%" />
 </p>
@@ -34,47 +34,104 @@ featuredImagePreview: https://images.unsplash.com/photo-1701891928981-d3d6b5b43d
     <a href="https://discord.gg/7uQnPuveTY">
       <img alt="Discord" src="https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat" />
     </a>
+    <a href="https://join.slack.com/t/slack-inu2564/shared_invite/zt-29rcnyw2b-N~ubOD9kFc7b7MDOAM1otA">
+      <img alt="Slack" src="https://badgen.net/badge/Slack/Join%20DB-GPT/0abd59?icon=slack" />
+    </a>
     <a href="https://codespaces.new/eosphoros-ai/DB-GPT">
       <img alt="Open in GitHub Codespaces" src="https://github.com/codespaces/badge.svg" />
     </a>
   </p>
 
 
-[**简体中文**](README.zh.md) | [**Discord**](https://discord.gg/7uQnPuveTY) | [**Documents**](https://docs.dbgpt.site) | [**Wechat**](https://github.com/eosphoros-ai/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC) | [**Community**](https://github.com/eosphoros-ai/community)
+[**简体中文**](README.zh.md) | [**日本語**](README.ja.md) | [**Discord**](https://discord.gg/7uQnPuveTY) | [**Documents**](https://docs.dbgpt.site) | [**微信**](https://github.com/eosphoros-ai/DB-GPT/blob/main/README.zh.md#%E8%81%94%E7%B3%BB%E6%88%91%E4%BB%AC) | [**Community**](https://github.com/eosphoros-ai/community) | [**Paper**](https://arxiv.org/pdf/2312.17449.pdf)
+
 </div>
 
 ## What is DB-GPT?
 
-DB-GPT is an open-source framework designed for the realm of large language models (LLMs) within the database field. Its primary purpose is to provide infrastructure that simplifies and streamlines the development of database-related applications. This is accomplished through the development of various technical capabilities, including:
+🤖 **DB-GPT is an open source AI native data app development framework with AWEL(Agentic Workflow Expression Language) and agents**. 
 
-1. **SMMF(Service-oriented Multi-model Management Framework)**
-2. **Text2SQL Fine-tuning**
-3. **RAG(Retrieval Augmented Generation) framework and optimization**
-4. **Data-Driven Agents framework collaboration**
-5. **GBI(Generative Business intelligence)**
+The purpose is to build infrastructure in the field of large models, through the development of multiple technical capabilities such as multi-model management (SMMF), Text2SQL effect optimization, RAG framework and optimization, Multi-Agents framework collaboration, AWEL (agent workflow orchestration), etc. Which makes large model applications with data simpler and more convenient.
 
-DB-GPT simplifies the creation of these applications based on large language models (LLMs) and databases. 
+🚀 **In the Data 3.0 era, based on models and databases, enterprises and developers can build their own bespoke applications with less code.**
 
-In the era of Data 3.0, enterprises and developers can take the ability to create customized applications with minimal coding, which harnesses the power of large language models (LLMs) and databases.
+### DISCKAIMER
+- [disckaimer](./DISCKAIMER.md)
 
+### AI-Native Data App 
+---
+- 🔥🔥🔥 [Released V0.6.0 | A set of significant upgrades](https://docs.dbgpt.cn/docs/changelog/Released_V0.6.0)
+  - [The AWEL upgrade to 2.0]()
+  - [GraphRAG]()
+  - [AI Native Data App construction and management]()
+  - [The GPT-Vis upgrade, supporting a variety of visualization charts]()
+  - [Support Text2NLU and Text2GQL fine-tuning]()
+  - [Support Intent recognition, slot filling, and Prompt management]()
+
+---
+
+![app_chat_v0 6](https://github.com/user-attachments/assets/a2f0a875-df8c-4f0d-89a3-eed321c02113)
+
+![app_manage_chat_data_v0 6](https://github.com/user-attachments/assets/c8cc85bb-e3c2-4fab-8fb9-7b4b469d0611)
+
+![chat_dashboard_display_v0 6](https://github.com/user-attachments/assets/b15d6ebe-54c4-4527-a16d-02fbbaf20dc9)
+
+![agent_prompt_awel_v0 6](https://github.com/user-attachments/assets/40761507-a1e1-49d4-b49a-3dd9a5ea41cc)
 
 ## Contents
-- [Install](#install)
-- [Demo](#demo)
 - [Introduction](#introduction)
+- [Install](#install)
 - [Features](#features)
 - [Contribution](#contribution)
-- [Roadmap](#roadmap)
 - [Contact](#contact-information)
 
-[DB-GPT Youtube Video](https://www.youtube.com/watch?v=f5_g0OObZBQ)
+## Introduction 
+The architecture of DB-GPT is shown in the following figure:
 
-## Demo
-##### Chat Data
-![chatdata](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/1f77079e-d018-4eee-982b-9b6a66bf1063)
+<p align="center">
+  <img src="./assets/dbgpt.png" width="800" />
+</p>
 
-##### Chat Excel
-![excel](https://github.com/eosphoros-ai/DB-GPT/assets/13723926/3044e83b-a71e-41fe-a1e2-98e479e0ab59)
+The core capabilities include the following parts:
+
+- **RAG (Retrieval Augmented Generation)**: RAG is currently the most practically implemented and urgently needed domain. DB-GPT has already implemented a framework based on RAG, allowing users to build knowledge-based applications using the RAG capabilities of DB-GPT.
+
+- **GBI (Generative Business Intelligence)**: Generative BI is one of the core capabilities of the DB-GPT project, providing the foundational data intelligence technology to build enterprise report analysis and business insights.
+
+- **Fine-tuning Framework**: Model fine-tuning is an indispensable capability for any enterprise to implement in vertical and niche domains. DB-GPT provides a complete fine-tuning framework that integrates seamlessly with the DB-GPT project. In recent fine-tuning efforts, an accuracy rate based on the Spider dataset has been achieved at 82.5%.
+
+- **Data-Driven Multi-Agents Framework**: DB-GPT offers a data-driven self-evolving multi-agents framework, aiming to continuously make decisions and execute based on data.
+
+- **Data Factory**: The Data Factory is mainly about cleaning and processing trustworthy knowledge and data in the era of large models.
+
+- **Data Sources**: Integrating various data sources to seamlessly connect production business data to the core capabilities of DB-GPT.
+
+### SubModule
+- [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) Text-to-SQL workflow with high performance by applying Supervised Fine-Tuning (SFT) on Large Language Models (LLMs).
+
+- [dbgpts](https://github.com/eosphoros-ai/dbgpts)  dbgpts is the official repository which contains some data apps、AWEL operators、AWEL workflow templates and agents which build upon DB-GPT.
+
+#### Text2SQL Finetune
+- support llms
+  - [x] LLaMA
+  - [x] LLaMA-2
+  - [x] BLOOM
+  - [x] BLOOMZ
+  - [x] Falcon
+  - [x] Baichuan
+  - [x] Baichuan2
+  - [x] InternLM
+  - [x] Qwen
+  - [x] XVERSE
+  - [x] ChatGLM2
+
+-  SFT Accuracy
+As of October 10, 2023, through the fine-tuning of an open-source model with 13 billion parameters using this project, we have achieved execution accuracy on the Spider dataset that surpasses even GPT-4!
+
+[More Information about Text2SQL finetune](https://github.com/eosphoros-ai/DB-GPT-Hub)
+
+- [DB-GPT-Plugins](https://github.com/eosphoros-ai/DB-GPT-Plugins) DB-GPT Plugins that can run Auto-GPT plugin directly
+- [GPT-Vis](https://github.com/eosphoros-ai/GPT-Vis) Visualization protocol
 
 ## Install 
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
@@ -82,11 +139,20 @@ In the era of Data 3.0, enterprises and developers can take the ability to creat
 ![macOS](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=macos&logoColor=F0F0F0)
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-[**Usage Tutorial**](http://docs.dbgpt.site/docs/overview)
-- [**Install**](http://docs.dbgpt.site/docs/installation)
-- [**Quickstart**](http://docs.dbgpt.site/docs/quickstart)
-- [**Application**](http://docs.dbgpt.site/docs/operation_manual)
-- [**Debugging**](http://docs.dbgpt.site/docs/operation_manual/advanced_tutorial/debugging)
+[**Usage Tutorial**](http://docs.dbgpt.cn/docs/overview)
+- [**Install**](http://docs.dbgpt.cn/docs/installation)
+  - [Docker](http://docs.dbgpt.cn/docs/installation/docker)
+  - [Source Code](http://docs.dbgpt.cn/docs/installation/sourcecode)
+- [**Quickstart**](http://docs.dbgpt.cn/docs/quickstart)
+- [**Application**](http://docs.dbgpt.cn/docs/operation_manual)
+  - [Development Guide](http://docs.dbgpt.cn/docs/cookbook/app/data_analysis_app_develop) 
+  - [App Usage](http://docs.dbgpt.cn/docs/application/app_usage)
+  - [AWEL Flow Usage](http://docs.dbgpt.cn/docs/application/awel_flow_usage)
+- [**Debugging**](http://docs.dbgpt.cn/docs/operation_manual/advanced_tutorial/debugging)
+- [**Advanced Usage**](http://docs.dbgpt.cn/docs/application/advanced_tutorial/cli)
+  - [SMMF](http://docs.dbgpt.cn/docs/application/advanced_tutorial/smmf)
+  - [Finetune](http://docs.dbgpt.cn/docs/application/fine_tuning_manual/dbgpt_hub)
+  - [AWEL](http://docs.dbgpt.cn/docs/awel/tutorial)
 
 
 ## Features
@@ -113,6 +179,42 @@ At present, we have introduced several key features to showcase our current capa
   We offer extensive model support, including dozens of large language models (LLMs) from both open-source and API agents, such as LLaMA/LLaMA2, Baichuan, ChatGLM, Wenxin, Tongyi, Zhipu, and many more. 
 
   - News
+    - 🔥🔥🔥  [Qwen2.5-72B-Instruct](https://huggingface.co/Qwen/Qwen2.5-72B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-32B-Instruct](https://huggingface.co/Qwen/Qwen2.5-32B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-14B-Instruct](https://huggingface.co/Qwen/Qwen2.5-14B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-3B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-Coder-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-7B-Instruct)
+    - 🔥🔥🔥  [Qwen2.5-Coder-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-Coder-1.5B-Instruct)
+    - 🔥🔥🔥  [Meta-Llama-3.1-405B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-405B-Instruct)
+    - 🔥🔥🔥  [Meta-Llama-3.1-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-70B-Instruct)
+    - 🔥🔥🔥  [Meta-Llama-3.1-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3.1-8B-Instruct)
+    - 🔥🔥🔥  [gemma-2-27b-it](https://huggingface.co/google/gemma-2-27b-it)
+    - 🔥🔥🔥  [gemma-2-9b-it](https://huggingface.co/google/gemma-2-9b-it)
+    - 🔥🔥🔥  [DeepSeek-Coder-V2-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Instruct)
+    - 🔥🔥🔥  [DeepSeek-Coder-V2-Lite-Instruct](https://huggingface.co/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct)
+    - 🔥🔥🔥  [Qwen2-57B-A14B-Instruct](https://huggingface.co/Qwen/Qwen2-57B-A14B-Instruct)
+    - 🔥🔥🔥  [Qwen2-72B-Instruct](https://huggingface.co/Qwen/Qwen2-72B-Instruct)
+    - 🔥🔥🔥  [Qwen2-7B-Instruct](https://huggingface.co/Qwen/Qwen2-7B-Instruct)
+    - 🔥🔥🔥  [Qwen2-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2-1.5B-Instruct)
+    - 🔥🔥🔥  [Qwen2-0.5B-Instruct](https://huggingface.co/Qwen/Qwen2-0.5B-Instruct)
+    - 🔥🔥🔥  [glm-4-9b-chat](https://huggingface.co/THUDM/glm-4-9b-chat)
+    - 🔥🔥🔥  [Phi-3](https://huggingface.co/collections/microsoft/phi-3-6626e15e9585a200d2d761e3)
+    - 🔥🔥🔥  [Yi-1.5-34B-Chat](https://huggingface.co/01-ai/Yi-1.5-34B-Chat)
+    - 🔥🔥🔥  [Yi-1.5-9B-Chat](https://huggingface.co/01-ai/Yi-1.5-9B-Chat)
+    - 🔥🔥🔥  [Yi-1.5-6B-Chat](https://huggingface.co/01-ai/Yi-1.5-6B-Chat)
+    - 🔥🔥🔥  [Qwen1.5-110B-Chat](https://huggingface.co/Qwen/Qwen1.5-110B-Chat)
+    - 🔥🔥🔥  [Qwen1.5-MoE-A2.7B-Chat](https://huggingface.co/Qwen/Qwen1.5-MoE-A2.7B-Chat)
+    - 🔥🔥🔥  [Meta-Llama-3-70B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct)
+    - 🔥🔥🔥  [Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
+    - 🔥🔥🔥  [CodeQwen1.5-7B-Chat](https://huggingface.co/Qwen/CodeQwen1.5-7B-Chat)
+    - 🔥🔥🔥  [Qwen1.5-32B-Chat](https://huggingface.co/Qwen/Qwen1.5-32B-Chat)
+    - 🔥🔥🔥  [Starling-LM-7B-beta](https://huggingface.co/Nexusflow/Starling-LM-7B-beta)
+    - 🔥🔥🔥  [gemma-7b-it](https://huggingface.co/google/gemma-7b-it)
+    - 🔥🔥🔥  [gemma-2b-it](https://huggingface.co/google/gemma-2b-it)
+    - 🔥🔥🔥  [SOLAR-10.7B](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0)
     - 🔥🔥🔥  [Mixtral-8x7B](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1)
     - 🔥🔥🔥  [Qwen-72B-Chat](https://huggingface.co/Qwen/Qwen-72B-Chat)
     - 🔥🔥🔥  [Yi-34B-Chat](https://huggingface.co/01-ai/Yi-34B-Chat)
@@ -123,28 +225,7 @@ At present, we have introduced several key features to showcase our current capa
   We ensure the privacy and security of data through the implementation of various technologies, including privatized large models and proxy desensitization.
 
 - Support Datasources
-  - [Datasources](http://docs.dbgpt.site/docs/modules/connections)
-
-## Introduction 
-The architecture of DB-GPT is shown in the following figure:
-
-<p align="center">
-  <img src="./assets/DB-GPT.png" width="800" />
-</p>
-
-The core capabilities primarily consist of the following components:
-1. Multi-Models: We support multiple Large Language Models (LLMs) such as LLaMA/LLaMA2, CodeLLaMA, ChatGLM, QWen, Vicuna, and proxy models like ChatGPT, Baichuan, Tongyi, Wenxin, and more.
-2. Knowledge-Based QA: Our system enables high-quality intelligent Q&A based on local documents such as PDFs, Word documents, Excel files, and other data sources.
-3. Embedding: We offer unified data vector storage and indexing. Data is embedded as vectors and stored in vector databases, allowing for content similarity search.
-4. Multi-Datasources: This feature connects different modules and data sources, facilitating data flow and interaction.
-5. Multi-Agents: Our platform provides Agent and plugin mechanisms, empowering users to customize and enhance the system's behaviour.
-6. Privacy & Security: Rest assured that there is no risk of data leakage, and your data is 100% private and secure.
-7. Text2SQL: We enhance Text-to-SQL performance through Supervised Fine-Tuning (SFT) applied to Large Language Models (LLMs).
-
-### SubModule
-- [DB-GPT-Hub](https://github.com/eosphoros-ai/DB-GPT-Hub) Text-to-SQL workflow with high performance by applying Supervised Fine-Tuning (SFT) on Large Language Models (LLMs).
-- [DB-GPT-Plugins](https://github.com/eosphoros-ai/DB-GPT-Plugins) DB-GPT Plugins that can run Auto-GPT plugin directly
-- [DB-GPT-Web](https://github.com/eosphoros-ai/DB-GPT-Web)  ChatUI for DB-GPT  
+  - [Datasources](http://docs.dbgpt.cn/docs/modules/connections)
 
 ## Image
 🌐 [AutoDL Image](https://www.codewithgpu.com/i/eosphoros-ai/DB-GPT/dbgpt)
@@ -155,129 +236,50 @@ The core capabilities primarily consist of the following components:
 
 ## Contribution
 
-- Please run `black .` before submitting the code.
-- To check detailed guidelines for new contributions, please refer [how to contribute](https://github.com/csunny/DB-GPT/blob/main/CONTRIBUTING.md)
+- To check detailed guidelines for new contributions, please refer [how to contribute](https://github.com/eosphoros-ai/DB-GPT/blob/main/CONTRIBUTING.md)
 
-## RoadMap
+### Contributors Wall
+<a href="https://github.com/eosphoros-ai/DB-GPT/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=eosphoros-ai/DB-GPT&max=200" />
+</a>
 
-<p align="left">
-  <img src="./assets/roadmap.jpg" width="800px" />
-</p>
-
-### KBQA RAG optimization
-- [x] Multi Documents
-  - [x] PDF
-  - [x] Excel, CSV
-  - [x] Word
-  - [x] Text
-  - [x] MarkDown
-  - [ ] Code
-  - [ ] Images 
-
-- [x] RAG
-- [ ] Graph Database
-  - [ ] Neo4j Graph
-  - [ ] Nebula Graph
-- [x] Multi-Vector Database
-  - [x] Chroma
-  - [x] Milvus
-  - [x] Weaviate
-  - [x] PGVector
-  - [ ] Elasticsearch
-  - [ ] ClickHouse
-  - [ ] Faiss 
-  
-- [ ] Testing and Evaluation Capability Building
-  - [ ] Knowledge QA datasets
-  - [ ] Question collection [easy, medium, hard]:
-  - [ ] Scoring mechanism
-  - [ ] Testing and evaluation using Excel + DB datasets
-  
-### Multi Datasource Support
-
-- Multi Datasource Support 
-  - [x] MySQL
-  - [x] PostgreSQL
-  - [x] Spark
-  - [x] DuckDB
-  - [x] Sqlite
-  - [x] MSSQL
-  - [x] ClickHouse
-  - [ ] Oracle
-  - [ ] Redis
-  - [ ] MongoDB
-  - [ ] HBase
-  - [x] Doris
-  - [ ] DB2
-  - [ ] Couchbase
-  - [ ] Elasticsearch
-  - [ ] OceanBase
-  - [ ] TiDB
-  - [ ] StarRocks
-
-### Multi-Models And vLLM
-- [x] [Cluster Deployment](https://docs.dbgpt.site/docs/installation/model_service/cluster)
-- [x] [Fastchat Support](https://github.com/lm-sys/FastChat)
-- [x] [vLLM Support](https://docs.dbgpt.site/docs/installation/advanced_usage/vLLM_inference)
-- [ ] Cloud-native environment and support for Ray environment
-- [ ] Service Registry(eg:nacos)
-- [ ] Compatibility with OpenAI's interfaces
-- [ ] Expansion and optimization of embedding models
-
-### Agents market and Plugins
-- [x] multi-agents framework
-- [x] custom plugin development 
-- [x] plugin market
-- [ ] Integration with CoT
-- [ ] Enrich plugin sample library
-- [ ] Support for AutoGPT protocol
-- [ ] Integration of multi-agents and visualization capabilities, defining LLM+Vis new standards
-
-### Cost and Observability
-- [x] [debugging](https://docs.dbgpt.site/docs/application_manual/advanced_tutorial/debugging)
-- [ ] Observability
-- [ ] cost & budgets
-
-### Text2SQL Finetune
-- support llms
-  - [x] LLaMA
-  - [x] LLaMA-2
-  - [x] BLOOM
-  - [x] BLOOMZ
-  - [x] Falcon
-  - [x] Baichuan
-  - [x] Baichuan2
-  - [x] InternLM
-  - [x] Qwen
-  - [x] XVERSE
-  - [x] ChatGLM2
-
--  SFT Accuracy
-As of October 10, 2023, through the fine-tuning of an open-source model with 13 billion parameters using this project, we have achieved execution accuracy on the Spider dataset that surpasses even GPT-4!
-
-[More Information about Text2SQL finetune](https://github.com/eosphoros-ai/DB-GPT-Hub)
 
 ## Licence
 The MIT License (MIT)
 
 ## Citation
-Please consider citing our project if you find it useful:
+If you want to understand the overall architecture of DB-GPT, please cite <a href="https://arxiv.org/abs/2312.17449" target="_blank">paper</a> and <a href="https:// arxiv.org/abs/2404.10209" target="_blank">Paper</a>
 
+If you want to learn about using DB-GPT for Agent development, please cite the <a href="https://arxiv.org/abs/2412.13520" target="_blank">paper</a>
 ```bibtex
-@software{db-gpt,
-    author = {DB-GPT Team},
-    title = {{DB-GPT}},
-    url = {https://github.com/eosphoros-ai/DB-GPT},
-    year = {2023}
+@article{xue2023dbgpt,
+      title={DB-GPT: Empowering Database Interactions with Private Large Language Models}, 
+      author={Siqiao Xue and Caigao Jiang and Wenhui Shi and Fangyin Cheng and Keting Chen and Hongjun Yang and Zhiping Zhang and Jianshan He and Hongyang Zhang and Ganglin Wei and Wang Zhao and Fan Zhou and Danrui Qi and Hong Yi and Shaodong Liu and Faqiang Chen},
+      year={2023},
+      journal={arXiv preprint arXiv:2312.17449},
+      url={https://arxiv.org/abs/2312.17449}
+}
+@misc{huang2024romasrolebasedmultiagentdatabase,
+      title={ROMAS: A Role-Based Multi-Agent System for Database monitoring and Planning}, 
+      author={Yi Huang and Fangyin Cheng and Fan Zhou and Jiahui Li and Jian Gong and Hongjun Yang and Zhidong Fan and Caigao Jiang and Siqiao Xue and Faqiang Chen},
+      year={2024},
+      eprint={2412.13520},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2412.13520}, 
+}
+@inproceedings{xue2024demonstration,
+      title={Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models}, 
+      author={Siqiao Xue and Danrui Qi and Caigao Jiang and Wenhui Shi and Fangyin Cheng and Keting Chen and Hongjun Yang and Zhiping Zhang and Jianshan He and Hongyang Zhang and Ganglin Wei and Wang Zhao and Fan Zhou and Hong Yi and Shaodong Liu and Hongjun Yang and Faqiang Chen},
+      year={2024},
+      booktitle = "Proceedings of the VLDB Endowment",
+      url={https://arxiv.org/abs/2404.10209}
 }
 ```
+
 
 ## Contact Information
 We are working on building a community, if you have any ideas for building the community, feel free to contact us.
 [![](https://dcbadge.vercel.app/api/server/7uQnPuveTY?compact=true&style=flat)](https://discord.gg/7uQnPuveTY)
-
-<p align="center">
-  <img src="./assets/wechat.jpg" width="300px" />
-</p>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=csunny/DB-GPT&type=Date)](https://star-history.com/#csunny/DB-GPT)

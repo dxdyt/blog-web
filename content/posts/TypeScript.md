@@ -1,9 +1,9 @@
 ---
 title: TypeScript
-date: 2025-03-13T12:21:14+08:00
+date: 2025-03-14T12:20:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740124659051-71da6ea354e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE4Mzk2NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740124659051-71da6ea354e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE4Mzk2NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739163519731-c29cbcee8d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739163519731-c29cbcee8d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/TypeScript](https://github.com/microsoft/TypeScript)
