@@ -1,9 +1,9 @@
 ---
 title: agentops
-date: 2025-03-14T12:20:35+08:00
+date: 2025-03-15T12:20:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741017638661-927e8db22379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741017638661-927e8db22379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735424080768-8730f9c8a0e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwMTIzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735424080768-8730f9c8a0e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwMTIzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [AgentOps-AI/agentops](https://github.com/AgentOps-AI/agentops)
@@ -65,12 +65,12 @@ AgentOps helps developers build, evaluate, and monitor AI agents. From prototype
   <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; margin-bottom: 20px;">
     <a href="https://docs.agentops.ai/v1/integrations/openai-agents"><img src="docs/images/external/openai/agents-sdk.svg" height="45" alt="OpenAI Agents SDK"></a>
     <a href="https://docs.agentops.ai/v1/integrations/crewai"><img src="docs/v1/img/docs-icons/crew-banner.png" height="45" alt="CrewAI"></a>
-    <a href="https://docs.ag2.ai/docs/ecosystem/agentops"><img src="docs/images/external/autogen/ag2_blue.svg" height="45" alt="AG2 (AutoGen)"></a>
+    <a href="https://docs.ag2.ai/docs/ecosystem/agentops"><img src="docs/images/external/autogen/ag2.svg" height="45" alt="AG2 (AutoGen)"></a>
     <a href="https://docs.agentops.ai/v1/integrations/microsoft"><img src="docs/images/external/microsoft/microsoft_logo.svg" height="45" alt="Microsoft"></a>
   </div>
   
   <div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 30px; margin-bottom: 20px;">
-    <a href="https://docs.agentops.ai/v1/integrations/langchain"><img src="docs/images/external/langchain/langchain-logo.png" height="45" alt="LangChain"></a>
+    <a href="https://docs.agentops.ai/v1/integrations/langchain"><img src="docs/images/external/langchain/langchain-logo.svg" height="45" alt="LangChain"></a>
     <a href="https://docs.agentops.ai/v1/integrations/camel"><img src="docs/images/external/camel/camel.png" height="45" alt="Camel AI"></a>
     <a href="https://docs.llamaindex.ai/en/stable/module_guides/observability/?h=agentops#agentops"><img src="docs/images/external/ollama/ollama-icon.png" height="45" alt="LlamaIndex"></a>
     <a href="https://docs.agentops.ai/v1/integrations/cohere"><img src="docs/images/external/cohere/cohere-logo.svg" height="45" alt="Cohere"></a>
@@ -238,7 +238,7 @@ from camel.models import ModelFactory
 from camel.types import ModelPlatformType, ModelType
 
 # Initialize AgentOps
-agentops.init(os.getenv("AGENTOPS_API_KEY"), default_tags=["CAMEL Example"])
+agentops.init(os.getenv("AGENTOPS_API_KEY"), tags=["CAMEL Example"])
 
 # Import toolkits after AgentOps init for tracking
 from camel.toolkits import SearchToolkit

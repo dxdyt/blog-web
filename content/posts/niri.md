@@ -1,9 +1,9 @@
 ---
 title: niri
-date: 2025-03-14T12:20:48+08:00
+date: 2025-03-15T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739163519731-c29cbcee8d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739163519731-c29cbcee8d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE5MjU5ODR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740543860663-3e792b7aea1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwMTIzNTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740543860663-3e792b7aea1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwMTIzNTZ8&ixlib=rb-4.0.3
 ---
 
 # [YaLTeR/niri](https://github.com/YaLTeR/niri)
