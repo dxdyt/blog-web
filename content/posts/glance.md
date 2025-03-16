@@ -1,9 +1,9 @@
 ---
 title: glance
-date: 2025-03-15T12:19:41+08:00
+date: 2025-03-16T12:20:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740526263380-4a3e4ef4be00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwMTIzNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740526263380-4a3e4ef4be00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwMTIzNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740686004244-e9bc7c75d8e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740686004244-e9bc7c75d8e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
 ---
 
 # [glanceapp/glance](https://github.com/glanceapp/glance)
