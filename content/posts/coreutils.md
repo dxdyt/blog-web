@@ -1,9 +1,9 @@
 ---
 title: coreutils
-date: 2025-01-21T12:20:18+08:00
+date: 2025-03-17T12:22:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734568365466-5a551e6857a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734568365466-5a551e6857a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738788175090-2947ee2de6b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738788175090-2947ee2de6b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
 ---
 
 # [uutils/coreutils](https://github.com/uutils/coreutils)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1734568365466-5a551e6857
 [![dependency status](https://deps.rs/repo/github/uutils/coreutils/status.svg)](https://deps.rs/repo/github/uutils/coreutils)
 
 [![CodeCov](https://codecov.io/gh/uutils/coreutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/coreutils)
-![MSRV](https://img.shields.io/badge/MSRV-1.79.0-brightgreen)
+![MSRV](https://img.shields.io/badge/MSRV-1.82.0-brightgreen)
 
 </div>
 
@@ -55,7 +55,7 @@ uutils aims to be a drop-in replacement for the GNU utils. Differences with GNU
 are treated as bugs.
 
 uutils aims to work on as many platforms as possible, to be able to use the same
-utils on Linux, Mac, Windows and other platforms. This ensures, for example,
+utils on Linux, macOS, Windows and other platforms. This ensures, for example,
 that scripts can be easily transferred between platforms.
 
 <div class="oranda-hide">
@@ -80,7 +80,7 @@ the [coreutils docs](https://github.com/uutils/uutils.github.io) repository.
 ### Rust Version
 
 uutils follows Rust's release channels and is tested against stable, beta and
-nightly. The current Minimum Supported Rust Version (MSRV) is `1.79.0`.
+nightly. The current Minimum Supported Rust Version (MSRV) is `1.82.0`.
 
 ## Building
 
@@ -232,6 +232,12 @@ make PREFIX=/my/path install
 Installing with `make` installs shell completions for all installed utilities
 for `bash`, `fish` and `zsh`. Completions for `elvish` and `powershell` can also
 be generated; See `Manually install shell completions`.
+
+To skip installation of completions and manpages:
+
+```shell
+make COMPLETIONS=n MANPAGES=n install
+```
 
 ### Manually install shell completions
 

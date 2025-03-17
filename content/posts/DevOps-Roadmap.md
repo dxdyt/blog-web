@@ -1,14 +1,14 @@
 ---
 title: DevOps-Roadmap
-date: 2024-12-06T12:22:41+08:00
+date: 2025-03-17T12:22:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730774487035-05673e0c5747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730774487035-05673e0c5747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738788175090-2947ee2de6b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738788175090-2947ee2de6b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
 ---
 
 # [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)
 
-# DevOps Roadmap 2024.
+# DevOps Roadmap 2025.
 
 This is a step-by-step guide on how to become a DevOps engineer, with links to relevant learning resources.
 
@@ -46,7 +46,7 @@ Download [PDF version](DevOps%20Roadmap.pdf).
   - [5. Learn Server Management](#5-learn-server-management)
   - [6. Learn Containers](#6-learn-containers)
   - [7. Learn Container Orchestration](#7-learn-container-orchestration)
-  - [8. Learn Infrastructure as a code](#8-learn-infrastructure-as-a-code)
+  - [8. Learn Infrastructure as a code (X as Code)](#8-learn-infrastructure-as-a-code-x-as-code)
   - [9. Learn CI/CD](#9-learn-cicd)
   - [10. Learn Monitoring & Observability](#10-learn-monitoring--observability)
   - [11. Learn one Cloud provider](#11-learn-one-cloud-provider)
@@ -132,6 +132,7 @@ Resources:
 - [DevSecOps : Master Securing CI/CD | DevOps Pipeline](https://www.udemy.com/course/devsecops/) <sup>Udemy course</sup>
 - [Hands-On Security in DevOps: Ensure continuous security, deployment, and delivery with DevSecOps](https://www.amazon.com/Hands-Security-DevOps-continuous-deployment/dp/1788995503) <sup> Book</sup>
 - [Securing DevOps: Security in the Cloud](https://www.amazon.com/Securing-DevOps-Security-Julien-Vehent/dp/1617294136/) <sup> Book</sup>
+- [Professor Messers Network+ course](https://www.professormesser.com/network-plus/n10-008/n10-008-video/n10-008-training-course/) <sup>FREE</sup>
 
 ### 5. Learn Server Management
 
@@ -146,6 +147,7 @@ Here you will need to know what is **forward and reverse proxies**, **caching se
 Resources:
 
 - [What is a reverse proxy?](https://www.cloudflare.com/en-gb/learning/cdn/glossary/reverse-proxy/) <sup>FREE</sup>
+- [What is a CDN edge server??](https://www.cloudflare.com/learning/cdn/glossary/edge-server/) <sup>FREE</sup>
 - [Cache Server](https://networkencyclopedia.com/cache-server/) <sup>FREE</sup>
 - [Reverse Proxy vs. Forward Proxy: The Differences](https://oxylabs.io/blog/reverse-proxy-vs-forward-proxy) <sup>FREE</sup>
 - [What is load balancing?](https://www.cloudflare.com/en-gb/learning/performance/what-is-load-balancing/) <sup>FREE</sup>
@@ -189,7 +191,7 @@ Resources:
 - [Kubernetes Up and Running](https://www.amazon.com/_/dp/1491935677?tag=oreilly20-20) <sup>Book</sup>
 - [Kubernetes Learning Path - 50 days from zero to hero from Microsoft](https://azure.microsoft.com/en-us/resources/kubernetes-learning-path/) <sup>FREE</sup>
 
-### 8. Learn Infrastructure as a code
+### 8. Learn Infrastructure as a code (X as Code)
 
 Sometimes referred to as **IaC**, it refers to the techniques and tools used to define infrastructure, typically in a markup language like YAML or JSON. Infrastructure as code allows Engineers to automate environment setup and teardown. Accelerates and de-risks deployment by provisioning gold copy environments on demand.
 
@@ -279,6 +281,7 @@ Resources:
 - [AZ-900 | Microsoft Azure Fundamentals Full Course, Free Practice Tests, Website and Study Guides](https://www.youtube.com/watch?v=NPEsD6n9A_I&list=PLGjZwEtPN7j-Q59JYso3L4_yoCjj2syrM) <sup>FREE</sup>
 - [Ultimate AWS Certified Cloud Practitioner - 2022](https://www.udemy.com/course/aws-certified-cloud-practitioner-new) <sup>Udemy</sup>
 - [AWS Developer by A Cloud Guru](https://acloudguru.com/learning-paths/aws-developer) <sup>Learning path</sup>
+- [Serverless 101 - Serverless Land](https://serverlessland.com/learn/serverless-101) <sup>FREE</sup>
 
 ### 12. Learn Software Engineering Practices
 

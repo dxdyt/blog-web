@@ -1,9 +1,9 @@
 ---
 title: Open-Sora
-date: 2025-03-16T12:19:47+08:00
+date: 2025-03-17T12:21:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739611216836-53834bfec75b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739611216836-53834bfec75b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739611216836-53834bfec75b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739611216836-53834bfec75b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
 ---
 
 # [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora)
@@ -65,7 +65,7 @@ With Open-Sora, our goal is to foster innovation, creativity, and inclusivity wi
 - **[2024.03.04]** Open-Sora provides training with 46% cost reduction.
   [[blog]](https://hpc-ai.com/blog/open-sora)
 
-📍 Since Open-Sora is under active development, we remain different branchs for different versions. The latest version is [main](https://github.com/hpcaitech/Open-Sora). Old versions include: [v1.0](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.0), [v1.1](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.1), [v1.2](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.2), [v1.3](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.3).
+📍 Since Open-Sora is under active development, we remain different branches for different versions. The latest version is [main](https://github.com/hpcaitech/Open-Sora). Old versions include: [v1.0](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.0), [v1.1](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.1), [v1.2](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.2), [v1.3](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.3).
 
 ## 🎥 Latest Demo
 
@@ -145,7 +145,7 @@ see [here](/assets/texts/t2v_samples.txt) for full prompts.
   - [Open-Sora 1.1](docs/report_02.md): multi-resolution/length/aspect-ratio, image/video conditioning/editing, data preprocessing, etc.
   - [Open-Sora 1.0](docs/report_01.md): architecture, captioning, etc.
 
-📍 Since Open-Sora is under active development, we remain different branchs for different versions. The latest version is [main](https://github.com/hpcaitech/Open-Sora). Old versions include: [v1.0](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.0), [v1.1](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.1), [v1.2](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.2), [v1.3](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.3).
+📍 Since Open-Sora is under active development, we remain different branches for different versions. The latest version is [main](https://github.com/hpcaitech/Open-Sora). Old versions include: [v1.0](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.0), [v1.1](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.1), [v1.2](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.2), [v1.3](https://github.com/hpcaitech/Open-Sora/tree/opensora/v1.3).
 
 ## Quickstart
 
