@@ -1,9 +1,9 @@
 ---
 title: RD-Agent
-date: 2025-03-16T12:20:31+08:00
+date: 2025-03-18T12:20:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740672547046-74d1c45cb30b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740672547046-74d1c45cb30b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740638733747-a5c2f615e327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740638733747-a5c2f615e327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)
@@ -32,9 +32,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1740672547046-74d1c45cb3
 [![Documentation Status](https://readthedocs.org/projects/rdagent/badge/?version=latest)](https://rdagent.readthedocs.io/en/latest/?badge=latest)
 [![Readthedocs Preview](https://github.com/microsoft/RD-Agent/actions/workflows/readthedocs-preview.yml/badge.svg)](https://github.com/microsoft/RD-Agent/actions/workflows/readthedocs-preview.yml) <!-- this badge is too long, please place it in the last one to make it pretty --> 
 
+# Data Science Agent Preview
+Check out our demo video showcasing the current progress of our Data Science Agent under development:
+
+https://github.com/user-attachments/assets/3eccbecb-34a4-4c81-bce4-d3f8862f7305
+
 # 📰 News
 | 🗞️ News        | 📝 Description                 |
-| --            | ------      
+| --            | ------      |
+| More General Data Science Agent | 🚀Coming soon! |
 | Kaggle Scenario release | We release **[Kaggle Agent](https://rdagent.readthedocs.io/en/latest/scens/kaggle_agent.html)**, try the new features!                  |
 | Official WeChat group release  | We created a WeChat group, welcome to join! (🗪[QR Code](docs/WeChat_QR_code.jpg)) |
 | Official Discord release  | We launch our first chatting channel in Discord (🗪[![Chat](https://img.shields.io/badge/chat-discord-blue)](https://discord.gg/ybQ97B6Jjy)) |
@@ -116,7 +122,7 @@ Users must ensure Docker is installed before attempting most scenarios. Please r
   CHAT_MODEL=gpt-4-turbo
   EOF
   ```
-- However, not every API services support these features by devault. For example: `AZURE OpenAI`, you have to configure your GPT model in the `.env` file like this.
+- However, not every API services support these features by default. For example: `AZURE OpenAI`, you have to configure your GPT model in the `.env` file like this.
   ```bash
   cat << EOF  > .env
   USE_AZURE=True

@@ -1,9 +1,9 @@
 ---
 title: sossoldi
-date: 2025-03-17T12:22:08+08:00
+date: 2025-03-18T12:21:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739611216836-53834bfec75b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739611216836-53834bfec75b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741091475787-8cf779895451?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741091475787-8cf779895451?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [RIP-Comm/sossoldi](https://github.com/RIP-Comm/sossoldi)

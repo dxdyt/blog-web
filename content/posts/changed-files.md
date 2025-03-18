@@ -1,9 +1,9 @@
 ---
 title: changed-files
-date: 2025-03-17T12:21:49+08:00
+date: 2025-03-18T12:22:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740676176411-816376ae5655?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740676176411-816376ae5655?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740378381627-b9add8256f2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740378381627-b9add8256f2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [tj-actions/changed-files](https://github.com/tj-actions/changed-files)
@@ -28,7 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1740676176411-816376ae56
 Effortlessly track all changed files and directories relative to a target branch, the current branch (preceding commit or the last remote commit), multiple branches, or custom commits returning **relative paths** from the project root using this GitHub action.
 
 > \[!WARNING]\
-> **Security Alert:** A critical security issue was identified in this action due to a compromised commit: [0e58ed8671d6b60d0890c21b07f8835ace038e67](https://github.com/tj-actions/changed-files/commit/0e58ed8671d6b60d0890c21b07f8835ace038e67).
+> **Security Alert:** A critical security issue was identified in this action due to a compromised commit.
 >
 > This commit has been **removed** from all tags and branches, and necessary measures have been implemented to prevent similar issues in the future.
 >

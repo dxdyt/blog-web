@@ -1,9 +1,9 @@
 ---
 title: go-cursor-help
-date: 2025-03-16T12:20:12+08:00
+date: 2025-03-18T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741196776964-fff874686fa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741196776964-fff874686fa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIwOTg3Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739582766954-800630482ccd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739582766954-800630482ccd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help)
@@ -25,7 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1741196776964-fff874686f
 > ⚠️ **IMPORTANT NOTICE**
 > 
 > This tool currently supports:
-> - ✅ Cursor v0.44.11 and below
+> - ✅ Cursor v0.45.x and below
 > - ✅ Windows: Latest 0.47.x versions (Supported)
 > - ✅ Mac/Linux: Latest 0.47.x versions (Supported, feedback welcome)
 >
@@ -38,7 +38,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1741196776964-fff874686f
 
 ### 🌟 Latest Versions
 - v0.45.11 (2025-02-07) - Latest Release
-- v0.44.11 (2025-01-03) - Most Stable Release
+- v0.45.x (2025-01-03) - Most Stable Release
 
 [View Full Version History](CursorHistoryDown.md)
 
@@ -46,7 +46,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1741196776964-fff874686f
 
 ### 📥 Direct Download Links
 
-**v0.44.11 (Recommended Stable Version)**
+**v0.45.x (Recommended Stable Version)**
 - Windows: [Official](https://downloader.cursor.sh/builds/250103fqxdt5u9z/windows/nsis/x64) | [Mirror](https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.44.11%20-%20Build%20250103fqxdt5u9z-x64.exe)
 - Mac: [Apple Silicon](https://dl.todesktop.com/230313mzl4w4u92/versions/0.44.11/mac/zip/arm64)
 
@@ -60,7 +60,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1741196776964-fff874686f
 > - This modification may temporarily affect network connectivity
 > - You can skip this step when prompted during execution
 >
-> 💾 **Download Cursor v0.44.11**
+> 💾 **Download Cursor v0.45.x**
 > 
 > Windows:
 > - [Download from Cursor Official](https://downloader.cursor.sh/builds/250103fqxdt5u9z/windows/nsis/x64)
@@ -256,7 +256,11 @@ If you see the "High Load" message for Claude 3.7 Sonnet, this indicates Cursor 
 **macOS**
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh | sudo bash 
+# Method one
+curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh | tee /tmp/cursor_mac_id_modifier.sh && sudo chown root:wheel /tmp/cursor_mac_id_modifier.sh && sudo chmod +x /tmp/cursor_mac_id_modifier.sh && sudo bash /tmp/cursor_mac_id_modifier.sh && rm /tmp/cursor_mac_id_modifier.sh 
+
+# Method two
+curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
 
 **Linux**
@@ -283,7 +287,11 @@ irm https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/
 **macOS**
 
 ```bash
-curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh | sudo bash
+# 方式一
+curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh | tee /tmp/cursor_mac_id_modifier.sh && sudo chown root:wheel /tmp/cursor_mac_id_modifier.sh && sudo chmod +x /tmp/cursor_mac_id_modifier.sh && sudo bash /tmp/cursor_mac_id_modifier.sh && rm /tmp/cursor_mac_id_modifier.sh 
+
+# 方式二
+curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
 
 **Linux**
@@ -511,8 +519,8 @@ Modifying this registry key may affect:
 </td>
 <td align="center">
 <b>WeChat</b><br>
-<img src="img/wx_group6.jpg" width="500" alt="WeChat"><br>
-<em>二维码7天内(3月19日前)有效，过期请加微信</em>
+<img src="img/wx_group7.jpg" width="500" alt="WeChat"><br>
+<em>二维码7天内(3月24日前)有效，过期请加微信</em>
 </td>
 <!-- <td align="center">
 <b>ETC</b><br>

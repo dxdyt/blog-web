@@ -1,9 +1,9 @@
 ---
 title: dice
-date: 2024-12-17T12:22:10+08:00
+date: 2025-03-18T12:21:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732296885178-6ee6aa71c01c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732296885178-6ee6aa71c01c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741217529666-10911b02fb1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741217529666-10911b02fb1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [DiceDB/dice](https://github.com/DiceDB/dice)
@@ -14,31 +14,11 @@ DiceDB
 <a href="https://dicedb.io">![slatedb.io](https://img.shields.io/badge/site-dicedb.io-00A1FF?style=flat-square)</a>
 <a href="https://dicedb.io/get-started/installation/">![Docs](https://img.shields.io/badge/docs-00A1FF?style=flat-square)</a>
 <a target="_blank" href="https://discord.gg/6r8uXWtXh7"><img src="https://dcbadge.limes.pink/api/server/6r8uXWtXh7?style=flat" alt="discord community" /></a>
+[![License](https://img.shields.io/badge/license-BSD--3--Clause-blue.svg)](LICENSE)
 
-DiceDB is an open source, redis-compliant, reactive, scalable, highly available, unified cache optimized for modern hardware.
+### What is DiceDB?
 
-We are looking for Early Design Partners, so, if you want to evaluate DiceDB, [block our calendar](https://cal.com/dicedb-arpit). always up for a chat.
-
-> [!CAUTION]
-> DiceDB is under active development and supports a subset of Redis commands. Inconsistent behavior is expected. Feel free to go through the [open issues](https://github.com/DiceDB/dice/issues) and contribute to help us speed up the development.
-
-## Want to contribute?
-
-We have multiple repositories where you can contribute. So, as per your interest, you can pick one and build a deeper understanding of the project on the go.
-
-- [dicedb/dice](https://github.com/dicedb/dice) for core database features and engine / Stack - Go
-- [dicedb/dicedb-cli](https://github.com/dicedb/dicedb-cli) command line interface for DiceDB / Stack - Go
-- [dicedb/playground-mono](https://github.com/dicedb/playground-mono) backend APIs for DiceDB playground / Stack - Go
-- [dicedb/alloy](https://github.com/dicedb/alloy) frontend and marketplace for DiceDB playground / Stack - NextJS
-
-## How is it different from Redis?
-
-Although DiceDB is a drop-in replacement of Redis, which means almost no learning curve and switching does not require any code change, it still differs in two key aspects and they are
-
-1. DiceDB is multithreaded and follows [shared-nothing architecture](https://en.wikipedia.org/wiki/Shared-nothing_architecture).
-2. DiceDB supports `.WATCH` commands like `GET.WATCH`, `ZRANGE.WATCH`, etc. that lets clients listen to data changes and get the result set in real-time whenever something changes.
-
-`.WATCH` commands are pretty handy when it comes to building truly real-time applications like [Leaderboard](https://github.com/arpitbbhayani/leaderboard-go-dicedb).
+DiceDB is an open-source, fast, reactive, in-memory database optimized for modern hardware. Commonly used as a cache, it offers a familiar interface while enabling real-time data updates through query subscriptions. It delivers higher throughput and lower median latencies, making it ideal for modern workloads.
 
 ## Get started
 
@@ -47,19 +27,15 @@ Although DiceDB is a drop-in replacement of Redis, which means almost no learnin
 The easiest way to get started with DiceDB is using [Docker](https://www.docker.com/) by running the following command.
 
 ```bash
-docker run -p 7379:7379 dicedb/dicedb --enable-watch
+$ docker run -p 7379:7379 dicedb/dicedb:latest
 ```
 
 The above command will start the DiceDB server running locally on the port `7379` and you can connect
 to it using [DiceDB CLI](https://github.com/DiceDB/dicedb-cli) and SDKs.
 
-> [!TIP]
-> Since DiceDB is a drop-in replacement for Redis, you can also use any Redis CLI and SDK to connect to DiceDB.
+### Build from source
 
-
-### Setting up DiceDB from source for development and contributions
-
-To run DiceDB for local development or running from source, you will need
+To build DiceDB from source, you need to have the following
 
 1. [Golang](https://go.dev/)
 2. Any of the below supported platform environments:
@@ -67,71 +43,94 @@ To run DiceDB for local development or running from source, you will need
     2. [OSX (Darwin) based environment](https://en.wikipedia.org/wiki/MacOS)
     3. WSL under Windows
 
-```bash
-git clone https://github.com/dicedb/dice
-cd dice
-go run main.go --enable-watch
+```sh
+$ git clone https://github.com/dicedb/dice
+$ cd dice
+$ make build
+```
+
+The above command will create a binary `dicedb`. Execute the binary and that will
+start the DiceDB server., or, you can run the following command to run like a usual
+Go program
+
+```sh
+$ go run main.go
 ```
 
 You can skip passing the flag if you are not working with `.WATCH` feature.
 
-1. Install GoLangCI
+## Setting up CLI
+
+### Using cURL
+
+The best way to connect to DiceDB is using [DiceDB CLI](https://github.com/DiceDB/dicedb-cli) and you can install it by running the following command
 
 ```bash
-sudo su
-curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b /bin v1.60.1
+$ sudo su
+$ curl -sL https://raw.githubusercontent.com/DiceDB/dicedb-cli/refs/heads/master/install.sh | sh
 ```
 
-### Live Development Server
+If you are working on unsupported OS (as per above script), you can always follow the installation instructions mentioned in the [dicedb/cli](https://github.com/DiceDB/dicedb-cli) repository.
 
-DiceDB provides a hot-reloading development environment, which allows you to instantly view your code changes in a live server. This functionality is supported by [Air](https://github.com/air-verse/air)
+### Building from source
 
-To Install Air on your system you have the following options.
-
-1. If you're on go 1.22+
-```bash
-go install github.com/air-verse/air@latest
+```sh
+$ git clone https://github.com/DiceDB/dicedb-cli
+$ cd dicedb-cli
+$ make build
 ```
 
-1. Install the Air binary
-```bash
-# binary will be installed at $(go env GOPATH)/bin/air
-curl -sSfL https://raw.githubusercontent.com/air-verse/air/master/install.sh | sh -s -- -b $(go env GOPATH)/bin
+The above command will create a binary `dicedb-cli`. Execute the binary will
+start the CLI and will try to connect to the DiceDB server.
+
+## Want to contribute?
+
+We have multiple repositories where you can contribute. So, as per your interest, you can pick one and build a deeper understanding of the project on the go.
+
+- [dicedb/dice](https://github.com/dicedb/dice) for core database features and engine / Stack - Go
+- [dicedb/dicedb-cli](https://github.com/dicedb/dicedb-cli) command line interface for DiceDB / Stack - Go
+- [dicedb/dicedb-go](https://github.com/dicedb/dicedb-go) Go Client for DiceDB
+
+## Essentials for Development
+
+### Pointing to local checked-out `dicedb-go`
+
+It is advised to checkout [dicedb-go](https://github.com/DiceDB/dicedb-go) repository also because `dice` takes
+a strong dependency on it. To point to the local copy add the following line
+at the end of the `go.mod` file.
+
+```
+replace github.com/dicedb/dicedb-go => ../dicedb-go
 ```
 
-Once `air` is installed you can verify the installation using the command `air -v`
+Note: this is the literal line that needs to be added at the end of the go.mod file.
+Refer to [this article](https://thewebivore.com/using-replace-in-go-mod-to-point-to-your-local-module/), to understand what it is and why it is needed.
 
-To run the live DiceDB server for local development:
+Do not check-in the `go.mod` file with this change.
+
+### Install GoLangCI
 
 ```bash
-git clone https://github.com/dicedb/dice
-cd dice
-air
+$ sudo su
+$ sudo curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sudo sh -s -- -b /bin v1.64.6
 ```
 
 ### Local Setup with Custom Config
 
-By default, DiceDB will look for the configuration file at `./dicedb.conf`. (Linux, Darwin, and WSL)
-
-> [!TIP]
-> If you want to use a custom configuration file, you can specify the path using the `-c` flag. and to output the configuration file to a specific location, you can specify the output dir path using the `-o` flag.
-
-### Setting up CLI
-
-The best way to connect to DiceDB is using DiceDB CLI and you can install it by running the following command
+Follow these steps to generate and customize your dicedb configuration in a local setup:
 
 ```bash
-sudo su
-curl -sL https://raw.githubusercontent.com/DiceDB/dicedb-cli/refs/heads/master/install.sh | sh
+$ go run main.go config-init
 ```
 
-### Client Compatibility
+This will generate configuration file (`dicedb.yaml`) in metadata directory.
+Metadata directory is OS-specific,
 
-DiceDB is fully compatible with Redis protocol, allowing you to connect using any existing Redis client or SDK.
+ - macOS: `/usr/local/etc/dicedb/dicedb.yaml`
+ - Linux: `/etc/dicedb/dicedb.yaml`
 
-> [!NOTE]
-> The `.WATCH` feature is only accessible through the DiceDB CLI.
-> If you are working on unsupported OS (as per above script), you can always follow the installation instructions mentioned in the [dicedb/cli](https://github.com/DiceDB/dicedb-cli) repository.
+If you run with a `sudo` privileges, then these directories are used, otherwise
+the current working directory is used as the metada directory.
 
 ### Running Tests
 
@@ -156,24 +155,18 @@ Integration tests, on the other hand, involve starting up the DiceDB server and 
 
 ### Executing a single integration test
 
+Make sure you have DiceDB running before you run the following commands.
+By default it connects to the local instance of DiceDB running on port `7379`.
+
 ```bash
 TEST_FUNC=<name of the test function> make test-one
-TEST_FUNC=TestSet make test-one
+TEST_FUNC=^TestSet$ make test-one
 ```
 
 ### Running all integration tests
 
 ```bash
-make test
-```
-
-> Work to add more tests in DiceDB is in progress, and we will soon port the
-> test [Redis suite](https://github.com/redis/redis/tree/f60370ce28b946c1146dcea77c9c399d39601aaa) to this codebase to ensure full compatibility.
-
-## Running Benchmark
-
-```bash
-make run_benchmark
+$ make test
 ```
 
 ## Getting Started
@@ -185,9 +178,9 @@ To get started with building and contributing to DiceDB, please refer to the [is
 We use [Astro](https://astro.build/) framework to power the [dicedb.io website](https://dicedb.io) and [Starlight](https://starlight.astro.build/) to power the docs. Once you have NodeJS installed, fire the following commands to get your local version of [dicedb.io](https://dicedb.io) running.
 
 ```bash
-cd docs
-npm install
-npm run dev
+$ cd docs
+$ npm install
+$ npm run dev
 ```
 
 Once the server starts, visit http://localhost:4321/ in your favourite browser. This runs with a hot reload which means any changes you make in the website and the documentation can be instantly viewed on the browser.
@@ -196,10 +189,6 @@ Once the server starts, visit http://localhost:4321/ in your favourite browser. 
 
 1. `docs/src/content/docs/commands` is where all the commands are documented
 2. `docs/src/content/docs/tutorials` is where all the tutorials are documented
-
-## The Story
-
-DiceDB started as a re-implementation of Redis in Golang with the idea of building a DB from scratch to understand the micro-nuances that come with its implementation. DiceDB isn’t just another database; it’s a platform purpose-built for the real-time era. As real-time systems become increasingly prevalent in modern applications, DiceDB’s hyper-optimized architecture is positioned to power the next generation of user experiences.
 
 ## How to contribute
 
@@ -213,10 +202,6 @@ Contributors can join the [Discord Server](https://discord.gg/6r8uXWtXh7) for qu
   <img src = "https://contrib.rocks/image?repo=dicedb/dice"/>
 </a>
 
-## Troubleshoot
-### Forcefully killing the process
+## License
 
-```
-$ sudo netstat -atlpn | grep :7379
-$ sudo kill -9 <process_id>
-```
+This project is licensed under the BSD 3-Clause License. See the [LICENSE](LICENSE) file for details.

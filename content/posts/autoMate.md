@@ -1,9 +1,9 @@
 ---
 title: autoMate
-date: 2025-03-12T12:21:35+08:00
+date: 2025-03-18T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740514533090-2f47a0320747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740514533090-2f47a0320747?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739582766954-800630482ccd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739582766954-800630482ccd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [yuruotong1/autoMate](https://github.com/yuruotong1/autoMate)
@@ -19,11 +19,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1740514533090-2f47a03207
 >"Automate the tedious, reclaim your time for life"
 
 
-https://github.com/user-attachments/assets/35969270-873f-44d7-8b26-0944c76ba9f1
+https://github.com/user-attachments/assets/bf27f8bd-136b-402e-bc7d-994b99bcc368
 
 
+</div>
 
+> Special Note: The autoMate project is still in a very early stage. Its current capabilities are limited and it's primarily for learning and communication purposes. However, we are continuously seeking breakthroughs and integrating the latest technologies!If you have any question, add my wechat.
 
+<div align="center">
+<img src="./resources/wxchat.png" width="120" height="120" alt="autoMate logo">
 </div>
 
 ## 💫 Redefining Your Relationship with Computers
@@ -42,15 +46,6 @@ autoMate is a revolutionary AI+RPA automation tool built on OmniParser, turning 
 - 🧠 Make autonomous decisions and take actions based on task requirements
 - 💻 Support local deployment to protect your data security and privacy
 
-Unlike traditional RPA tools with complicated rule settings, autoMate leverages large language models to complete complex automation processes with just natural language task descriptions. Say goodbye to repetitive work and focus on what truly creates value!
-
-## 🌟 Why autoMate Will Transform Your Work
-
-> "Before using autoMate, I spent 3 hours daily processing reports; now I only need 10 minutes to set up tasks and can focus on what really matters." - Feedback from a finance manager.
-
-When you first see autoMate automatically completing tasks that used to occupy hours of your time, you'll experience an indescribable sense of relief. This isn't just about efficiency - it's about liberating your creativity.
-
-Imagine: waking up every morning to find that last night's data organization, report generation, and email responses have all been completed, leaving you only with work that truly requires your wisdom and creativity. This is the future autoMate brings to you.
 
 ## ✨ Features
 
@@ -58,8 +53,7 @@ Imagine: waking up every morning to find that last night's data organization, re
 - 🖥️ Full Interface Control - Support operations on any visual interface, not limited to specific software
 - 🚅 Simplified Installation - Streamlined installation process compared to official version, supports Chinese environment, one-click deployment
 - 🔒 Local Operation - Protect data security, no privacy concerns
-- 🌐 Multi-Model Support - Compatible with mainstream large language models
-- 💎 Continuous Growth - Learns and adapts to your work habits and needs as you use it
+
 
 ## 🚀 Quick Start
 
@@ -80,25 +74,40 @@ python main.py
 ```
 Then open `http://localhost:7888/` in your browser to configure your API key and basic settings.
 
-For supported vendors and models, please refer to this [link](./SUPPORT_MODEL.md)
+
+Support model:
+
+
+| Vendor| Model |
+| --- | --- |
+| [openainext](https://api.openai-next.com) | gpt-4o,gpt-4o-2024-08-06,gpt-4o-2024-11-20 |
+|[yeka](https://2233.ai/api)|gpt-4o,o1|
+|openai|gpt-4o,gpt-4o-2024-08-06,gpt-4o-2024-11-20,o1,4.gpt-4.5-preview-2025-02-27,|
+
 
 ## 📝 FAQ
 
 ### 🔧 CUDA Version Mismatch
-If you see the error: "GPU driver incompatible, please install appropriate torch version according to readme", it indicates a driver incompatibility. You can either:
+We recommend using an NVIDIA graphics card with at least 4GB of VRAM, although you can also run it on CPU (which will be very slow):
 
-1. Run with CPU only (slower but functional)
-2. Check your torch version with `pip list`
-3. Check supported CUDA versions on the [official website](https://pytorch.org/get-started/locally/)
-4. Reinstall Nvidia drivers
+1. Run `pip list` to check the torch version;
+2. Check supported CUDA versions on the [official website](https://pytorch.org/get-started/locally/);
+3. Uninstall the currently installed torch and torchvision;
+4. Copy the official torch installation command and reinstall torch for your CUDA version.
+
+For example, if your CUDA version is 12.4, install torch using this command:
+
+```bash
+pip3 uninstall -y torch torchvision
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+```
+
 
 ## 🤝 Contributing
 
 Every excellent open-source project embodies collective wisdom. autoMate's growth depends on your participation and contribution. Whether fixing bugs, adding features, or improving documentation, your efforts will help thousands of people break free from repetitive work.
 
 Join us in creating a more intelligent future.
-
-> Strongly recommend reading ["How To Ask Questions The Smart Way"](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way), ["How to Ask Questions to Open Source Community"](https://github.com/seajs/seajs/issues/545), ["How to Report Bugs Effectively"](http://www.chiark.greenend.org.uk/%7Esgtatham/bugs.html), and ["How to Submit Unanswerable Questions to Open Source Projects"](https://zhuanlan.zhihu.com/p/25795393) for better support.
 
 <a href="https://github.com/yuruotong1/autoMate/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=yuruotong1/autoMate" />

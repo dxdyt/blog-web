@@ -1,9 +1,9 @@
 ---
 title: ollama-deep-researcher
-date: 2025-03-17T12:21:34+08:00
+date: 2025-03-18T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740004731264-3cde5c198cc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740004731264-3cde5c198cc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734688246098-141f0cae5cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734688246098-141f0cae5cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
 ---
 
 # [langchain-ai/ollama-deep-researcher](https://github.com/langchain-ai/ollama-deep-researcher)
