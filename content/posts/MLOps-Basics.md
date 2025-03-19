@@ -1,9 +1,9 @@
 ---
 title: MLOps-Basics
-date: 2024-09-05T12:19:33+08:00
+date: 2025-03-19T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724513567846-5b70b028ee65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724513567846-5b70b028ee65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740418644050-7c315b61bbff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740418644050-7c315b61bbff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
 ---
 
 # [graviraja/MLOps-Basics](https://github.com/graviraja/MLOps-Basics)
@@ -22,7 +22,7 @@ The goal of the series is to understand the basics of MLOps like model building,
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-project-setup-part1)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-project-setup-part1)
 
 The project I have implemented is a simple classification problem. The scope of this week is to understand the following topics:
 
@@ -45,7 +45,7 @@ Following tech stack is used:
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-wandb-integration)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-wandb-integration)
 
 Tracking all the experiments like tweaking hyper-parameters, trying different models to test their performance and seeing the connection between model and the input data will help in developing a better model.
 
@@ -73,7 +73,7 @@ References:
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-hydra-config)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-hydra-config)
 
 Configuration management is a necessary for managing complex software systems. Lack of configuration management can cause serious problems with reliability, uptime, and the ability to scale a system.
 
@@ -102,7 +102,7 @@ References
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-dvc)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-dvc)
 
 Classical code version control systems are not designed to handle large files, which make cloning and storing the history impractical. Which are very common in Machine Learning.
 
@@ -130,7 +130,7 @@ References
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=medium&color=orange"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-onnx)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-onnx)
 
 Why do we need model packaging? Models can be built using any machine learning framework available out there (sklearn, tensorflow, pytorch, etc.). We might want to deploy models in different environments like (mobile, web, raspberry pi) or want to run in a different framework (trained in pytorch, inference in tensorflow).
 A common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers will help a lot.
@@ -168,7 +168,7 @@ References
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=easy&color=green"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-docker)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-docker)
 
 Why do we need packaging? We might have to share our application with others, and when they try to run the application most of the time it doesn’t run due to dependencies issues / OS related issues and for that, we say (famous quote across engineers) that `It works on my laptop/system`.
 
@@ -198,7 +198,7 @@ References
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=medium&color=orange"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-github-actions)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-github-actions)
 
 CI/CD is a coding philosophy and set of practices with which you can continuously build, test, and deploy iterative code changes.
 
@@ -226,7 +226,7 @@ References
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=medium&color=orange"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-container-registry)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-container-registry)
 
 A container registry is a place to store container images. A container image is a file comprised of multiple layers which can execute applications in a single instance. Hosting all the images in one stored location allows users to commit, identify and pull images when needed.
 
@@ -251,7 +251,7 @@ In this week, I will be going through the following topics:
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=medium&color=orange"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-serverless)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-serverless)
 
 A serverless architecture is a way to build and run applications and services without having to manage infrastructure. The application still runs on servers, but all the server management is done by third party service (AWS). We no longer have to provision, scale, and maintain servers to run the applications. By using a serverless architecture, developers can focus on their core product instead of worrying about managing and operating servers or runtimes, either in the cloud or on-premises.
 
@@ -274,7 +274,7 @@ In this week, I will be going through the following topics:
 
 <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=difficulty&message=medium&color=orange"/>
 
-Refer to the [Blog Post here](https://www.ravirajag.dev/blog/mlops-monitoring)
+Refer to the [Blog Post here](https://deep-learning-blogs.vercel.app/blog/mlops-monitoring)
 
 
 Monitoring systems can help give us confidence that our systems are running smoothly and, in the event of a system failure, can quickly provide appropriate context when diagnosing the root cause.

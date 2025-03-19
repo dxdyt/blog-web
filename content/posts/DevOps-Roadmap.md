@@ -1,9 +1,9 @@
 ---
 title: DevOps-Roadmap
-date: 2025-03-17T12:22:02+08:00
+date: 2025-03-19T12:21:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738788175090-2947ee2de6b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738788175090-2947ee2de6b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIxODUyNDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741290723109-e7f4222b27b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741290723109-e7f4222b27b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
 ---
 
 # [milanm/DevOps-Roadmap](https://github.com/milanm/DevOps-Roadmap)

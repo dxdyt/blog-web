@@ -1,20 +1,18 @@
 ---
 title: goose
-date: 2025-02-16T12:20:05+08:00
+date: 2025-03-19T12:20:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739216906055-ff4bc897c339?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739216906055-ff4bc897c339?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741091750011-f0fb9b8400cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741091750011-f0fb9b8400cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
 ---
 
 # [block/goose](https://github.com/block/goose)
 
-<h1 align="center">
-codename goose
-</h1>
+<div align="center">
 
-<p align="center">
-  <strong>an open-source, extensible AI agent that goes beyond code suggestions<br>install, execute, edit, and test with any LLM</strong>
-</p>
+# codename goose
+
+_a local, extensible, open source AI agent that automates engineering tasks_
 
 <p align="center">
   <a href="https://opensource.org/licenses/Apache-2.0">
@@ -27,6 +25,26 @@ codename goose
      <img src="https://img.shields.io/github/actions/workflow/status/block/goose/ci.yml?branch=main" alt="CI">
   </a>
 </p>
+</div>
 
-Check out our [documentation](https://block.github.io/goose), or to try it out head to the [installation](https://block.github.io/goose/docs/getting-started/installation) instructions!
+goose is your on-machine AI agent, capable of automating complex development tasks from start to finish. More than just code suggestions, goose can build entire projects from scratch, write and execute code, debug failures, orchestrate workflows, and interact with external APIs - _autonomously_.
 
+Whether you're prototyping an idea, refining existing code, or managing intricate engineering pipelines, goose adapts to your workflow and executes tasks with precision.
+
+Designed for maximum flexibility, goose works with any LLM and seamlessly integrates with MCP-enabled APIs, making it the ultimate AI-powered assistant for developers who want to move faster and focus on innovation. 
+
+
+# Quick Links
+- [Quickstart](https://block.github.io/goose/docs/quickstart)
+- [Installation](https://block.github.io/goose/docs/getting-started/installation)
+- [Tutorials](https://block.github.io/goose/docs/category/tutorials)
+- [Documentation](https://block.github.io/goose/docs/category/getting-started)
+
+
+# Goose Around with Us
+- [Discord](https://discord.gg/block-opensource)
+- [YouTube](https://www.youtube.com/@blockopensource)
+- [LinkedIn](https://www.linkedin.com/company/block-opensource)
+- [Twitter/X](https://x.com/blockopensource)
+- [Bluesky](https://bsky.app/profile/opensource.block.xyz)
+- [Nostr](https://njump.me/opensource@block.xyz)
