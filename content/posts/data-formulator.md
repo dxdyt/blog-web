@@ -1,9 +1,9 @@
 ---
 title: data-formulator
-date: 2025-02-14T12:19:26+08:00
+date: 2025-03-20T12:20:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736612356978-df5dc8f678d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736612356978-df5dc8f678d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738005787748-411b3dba7358?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738005787748-411b3dba7358?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
@@ -31,6 +31,11 @@ Transform data and create rich visualizations iteratively with AI 🪄. Try Data
 
 
 ## News 🔥🔥🔥
+
+- [02-20-2025] Data Formulator 0.1.6 released! 
+  - Now supports working with multiple datasets at once! Tell Data Formulator which data tables you would like to use in the encoding shelf, and it will figure out how to join the tables to create a visualization to answer your question. 🪄
+  - Checkout the demo at [[https://github.com/microsoft/data-formulator/releases/tag/0.1.6]](https://github.com/microsoft/data-formulator/releases/tag/0.1.6).
+  - Update your Data Formulator to the latest version to play with the new features.
 
 - [02-12-2025] More models supported now!
   - Now supports OpenAI, Azure, Ollama, and Anthropic models (and more powered by [LiteLLM](https://github.com/BerriAI/litellm));

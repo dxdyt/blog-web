@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2024-12-29T12:19:53+08:00
+date: 2025-03-20T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732788325422-39d53c7943a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732788325422-39d53c7943a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU0NDU5NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736549188891-ec697fccc8a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736549188891-ec697fccc8a3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -33,7 +33,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732788325422-39d53c7943
 
 <div align="center">
     <a href="https://affine.pro">Home Page</a> |
-    <a href="https://discord.gg/whd5mjYqVw">Discord</a> |
+    <a href="https://discord.gg/Yjf5VFEn">Discord</a> |
     <a href="https://app.affine.pro">Live Demo</a> |
     <a href="https://affine.pro/blog/">Blog</a> |
     <a href="https://docs.affine.pro/docs/">Documentation</a>
@@ -137,6 +137,8 @@ AFFiNE now provides pre-built [templates](https://affine.pro/templates) from our
 Welcome to the AFFiNE blog section! Here, you’ll find the latest insights, tips, and guides on how to maximize your experience with AFFiNE and AFFiNE AI, the leading Canvas AI tool for flexible note-taking and creative organization.
 
 - [vision board template](https://affine.pro/blog/8-free-printable-vision-board-templates-examples-2023)
+- [ai homework helper](https://affine.pro/blog/ai-homework-helper)
+- [vision board maker](https://affine.pro/blog/vision-board-maker)
 - [itinerary template](https://affine.pro/blog/free-customized-travel-itinerary-planner-templates)
 - [one pager template](https://affine.pro/blog/top-12-one-pager-examples-how-to-create-your-own)
 - [cornell notes template](https://affine.pro/blog/the-cornell-notes-template-and-system-learning-tips)
@@ -168,6 +170,7 @@ We would also like to give thanks to open-source projects that make AFFiNE possi
 - [Jotai](https://github.com/pmndrs/jotai) - Primitive and flexible state management for React.
 - [async-call-rpc](https://github.com/Jack-Works/async-call-rpc) - A lightweight JSON RPC client & server.
 - [Vite](https://github.com/vitejs/vite) - Next generation frontend tooling.
+- [lame](https://lame.sourceforge.io/) - High quality MPEG Audio Layer III (MP3) encoder.
 - Other upstream [dependencies](https://github.com/toeverything/AFFiNE/network/dependencies).
 
 Thanks a lot to the community for providing such powerful and simple libraries, so that we can focus more on the implementation of the product logic, and we hope that in the future our projects will also provide a more easy-to-use knowledge base for everyone.
@@ -186,7 +189,7 @@ Begin with Docker to deploy your own feature-rich, unrestricted version of AFFiN
 
 ## Hiring
 
-Some amazing companies, including AFFiNE, are looking for developers! Are you interested in joining AFFiNE or its partners? Check out our Discord channel for some of the latest jobs available.
+Some amazing companies, including AFFiNE, are looking for developers! Are you interested in joining AFFiNE or its partners? Check out our [Discord channel](https://discord.gg/Yjf5VFEn) for some of the latest jobs available.
 
 ## Feature Request
 

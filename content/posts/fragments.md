@@ -1,16 +1,16 @@
 ---
 title: fragments
-date: 2024-10-21T12:20:45+08:00
+date: 2025-03-20T12:22:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725609959342-c247e04978e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725609959342-c247e04978e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk0ODQzODJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740885222801-f6a2e849563b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740885222801-f6a2e849563b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
 ---
 
 # [e2b-dev/fragments](https://github.com/e2b-dev/fragments)
 
 # Fragments by E2B
 
-This is an open-source version of [Anthropic's Claude Artifacts](https://www.anthropic.com/news/claude-3-5-sonnet), Vercel [v0](https://v0.dev) and [GPT Engineer](https://gptengineer.app).
+This is an open-source version of apps like [Anthropic's Claude Artifacts](https://www.anthropic.com/news/claude-3-5-sonnet), Vercel [v0](https://v0.dev), or [GPT Engineer](https://gptengineer.app).
 
 Powered by the [E2B SDK](https://github.com/e2b-dev/code-interpreter).
 
@@ -90,18 +90,16 @@ OPENAI_API_KEY=
 ANTHROPIC_API_KEY=
 GROQ_API_KEY=
 FIREWORKS_API_KEY=
-TOGETHER_AI_API_KEY=
+TOGETHER_API_KEY=
 GOOGLE_AI_API_KEY=
+GOOGLE_VERTEX_CREDENTIALS=
 MISTRAL_API_KEY=
+XAI_API_KEY=
 
 ### Optional env vars
 
 # Domain of the site
 NEXT_PUBLIC_SITE_URL=
-
-# Disabling API key and base URL input in the chat
-NEXT_PUBLIC_NO_API_KEY_INPUT=
-NEXT_PUBLIC_NO_BASE_URL_INPUT=
 
 # Rate limit
 RATE_LIMIT_MAX_REQUESTS=
@@ -118,6 +116,15 @@ SUPABASE_ANON_KEY=
 # PostHog (analytics)
 NEXT_PUBLIC_POSTHOG_KEY=
 NEXT_PUBLIC_POSTHOG_HOST=
+
+### Disabling functionality (when uncommented)
+
+# Disable API key and base URL input in the chat
+# NEXT_PUBLIC_NO_API_KEY_INPUT=
+# NEXT_PUBLIC_NO_BASE_URL_INPUT=
+
+# Hide local models from the list of available models
+# NEXT_PUBLIC_HIDE_LOCAL_MODELS=
 ```
 
 ### 4. Start the development server

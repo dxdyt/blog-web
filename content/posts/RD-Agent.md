@@ -1,9 +1,9 @@
 ---
 title: RD-Agent
-date: 2025-03-18T12:20:57+08:00
+date: 2025-03-20T12:21:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740638733747-a5c2f615e327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740638733747-a5c2f615e327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738005787748-411b3dba7358?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738005787748-411b3dba7358?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)

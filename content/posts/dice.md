@@ -1,9 +1,9 @@
 ---
 title: dice
-date: 2025-03-19T12:20:23+08:00
+date: 2025-03-20T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741850826368-12d515927617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741850826368-12d515927617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736561609156-8e503d619ba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736561609156-8e503d619ba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
 ---
 
 # [DiceDB/dice](https://github.com/DiceDB/dice)
