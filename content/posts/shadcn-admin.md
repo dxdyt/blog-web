@@ -1,9 +1,9 @@
 ---
 title: shadcn-admin
-date: 2025-03-20T12:21:29+08:00
+date: 2025-03-21T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741524916198-c1ddeaf89bc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741524916198-c1ddeaf89bc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
 ---
 
 # [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin)

@@ -1,9 +1,9 @@
 ---
 title: data-formulator
-date: 2025-03-20T12:20:40+08:00
+date: 2025-03-21T12:21:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738005787748-411b3dba7358?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738005787748-411b3dba7358?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740324361353-7856adbaa885?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740324361353-7856adbaa885?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
@@ -31,6 +31,12 @@ Transform data and create rich visualizations iteratively with AI 🪄. Try Data
 
 
 ## News 🔥🔥🔥
+
+- [03-20-2025] Data Formulator 0.1.7: Anchoring ⚓︎
+  - Anchor an intermediate dataset, so that followup data analysis are built on top of the anchored data, not the original one.
+  - Clean a data and work with only the cleaned data; create a subset from the original data or join multiple data, and then focus your analysis from there. The AI agent will be less likely to get confused and work faster. ⚡️⚡️
+  - Check out the demos at [[https://github.com/microsoft/data-formulator/releases/tag/0.1.7]](https://github.com/microsoft/data-formulator/releases/tag/0.1.7)
+  - Don't forget to update Data Formulator to test it out!
 
 - [02-20-2025] Data Formulator 0.1.6 released! 
   - Now supports working with multiple datasets at once! Tell Data Formulator which data tables you would like to use in the encoding shelf, and it will figure out how to join the tables to create a visualization to answer your question. 🪄

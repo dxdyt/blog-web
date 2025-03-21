@@ -1,9 +1,9 @@
 ---
 title: maple-font
-date: 2025-03-20T12:21:14+08:00
+date: 2025-03-21T12:21:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735317461815-1a0ba64e9a56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735317461815-1a0ba64e9a56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
 ---
 
 # [subframe7536/maple-font](https://github.com/subframe7536/maple-font)
@@ -86,6 +86,15 @@ brew install --cask font-maple-mono-nf
 brew install --cask font-maple-mono-cn
 # Maple Mono NF CN
 brew install --cask font-maple-mono-nf-cn
+
+# Maple Mono Normal
+brew install --cask font-maple-mono-normal
+# Maple Mono Normal NF
+brew install --cask font-maple-mono-normal-nf
+# Maple Mono Normal CN
+brew install --cask font-maple-mono-normal-cn
+# Maple Mono Normal NF CN
+brew install --cask font-maple-mono-normal-nf-cn
 ```
 
 ### AUR (Arch Linux)
