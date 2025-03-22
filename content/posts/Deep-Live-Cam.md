@@ -1,9 +1,9 @@
 ---
 title: Deep-Live-Cam
-date: 2025-01-23T12:20:05+08:00
+date: 2025-03-22T12:20:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732129547874-fa3c641e94fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732129547874-fa3c641e94fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740471230563-4023b2cb008a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740471230563-4023b2cb008a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
@@ -24,20 +24,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1732129547874-fa3c641e94
 
 ##  Disclaimer
 
-###### This software is intended as a productive contribution to the AI-generated media industry. It aims to assist artists with tasks like animating custom characters or using them as models for clothing, etc.
+This deepfake software is designed to be a productive tool for the AI-generated media industry. It can assist artists in animating custom characters, creating engaging content, and even using models for clothing design.
 
-###### We are aware of the potential for unethical applications and are committed to preventative measures. A built-in check prevents the program from processing inappropriate media (nudity, graphic content, sensitive material like war footage, etc.). We will continue to develop this project responsibly, adhering to the law and ethics. We may shut down the project or add watermarks if legally required.
+We are aware of the potential for unethical applications and are committed to preventative measures. A built-in check prevents the program from processing inappropriate media (nudity, graphic content, sensitive material like war footage, etc.). We will continue to develop this project responsibly, adhering to the law and ethics. We may shut down the project or add watermarks if legally required.
 
-###### Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online. We are not responsible for end-user actions.
+- Ethical Use: Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online.
+
+- Content Restrictions: The software includes built-in checks to prevent processing inappropriate media, such as nudity, graphic content, or sensitive material.
+
+- Legal Compliance: We adhere to all relevant laws and ethical guidelines. If legally required, we may shut down the project or add watermarks to the output.
+
+- User Responsibility: We are not responsible for end-user actions. Users must ensure their use of the software aligns with ethical standards and legal requirements.
+
+By using this software, you agree to these terms and commit to using it in a manner that respects the rights and dignity of others.
+
+Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online. We are not responsible for end-user actions.
+
+
 ## Quick Start - Pre-built (Windows / Nvidia)
 
   <a href="https://hacksider.gumroad.com/l/vccdmm"> <img src="https://github.com/user-attachments/assets/7d993b32-e3e8-4cd3-bbfb-a549152ebdd5" width="285" height="77" />
 
 ##### This is the fastest build you can get if you have a discrete NVIDIA GPU.
-
-## Quick Start - Pre-built (Mac / Silicon)
-    
-  <a href="https://krshh.gumroad.com/l/Deep-Live-Cam-Mac"> <img src="https://github.com/user-attachments/assets/d5d913b5-a7de-4609-96b9-979a5749a703" width="285" height="77" />
  
 ###### These Pre-builts are perfect for non-technical users or those who don’t have time to, or can't manually install all the requirements. Just a heads-up: this is an open-source project, so you can also install it manually.
 
@@ -47,7 +55,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732129547874-fa3c641e94
 2. Select which camera to use
 3. Press live!
 
-## Features & Uses - Everything is real-time
+## Features & Uses - Everything is in real-time
 
 ### Mouth Mask
 
@@ -83,7 +91,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732129547874-fa3c641e94
 
 ### Memes
 
-**Create Your most viral meme yet**
+**Create Your Most Viral Meme Yet**
 
 <p align="center">
   <img src="media/meme.gif" alt="show" width="450"> 
@@ -91,6 +99,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1732129547874-fa3c641e94
   <sub>Created using Many Faces feature in Deep-Live-Cam</sub>
 </p>
 
+### Omegle
+
+**Surprise people on Omegle**
+
+<p align="center">
+  <video src="https://github.com/user-attachments/assets/2e9b9b82-fa04-4b70-9f56-b1f68e7672d0" width="450" controls></video>
+</p>
 
 ## Installation (Manual)
 
@@ -144,7 +159,7 @@ brew install python-tk@3.10
 
 **CUDA Execution Provider (Nvidia)**
 
-1. Install [CUDA Toolkit 11.8](https://developer.nvidia.com/cuda-11-8-0-download-archive) or [CUDA Toolkit 12.1.1](https://developer.nvidia.com/cuda-12-1-1-download-archive)
+1. Install [CUDA Toolkit 11.8.0](https://developer.nvidia.com/cuda-11-8-0-download-archive)
 2. Install dependencies:
 
 ```bash

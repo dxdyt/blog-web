@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2025-02-25T12:21:00+08:00
+date: 2025-03-22T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739860822393-e439b0f4e3ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739860822393-e439b0f4e3ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741851373816-91017faa8553?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741851373816-91017faa8553?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1739860822393-e439b0f4e3
 
 *"Plug & Play"* обход блокировок <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=15 /> Discord и <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=15 /> YouTube для Windows
 
-Альтернатива [bol-van](https://github.com/bol-van)[/zapret-win-bundle](https://github.com/bol-van/zapret-win-bundle)[/zapret-winws](https://github.com/bol-van/zapret-win-bundle/tree/master/zapret-winws)
+Альтернатива https://github.com/bol-van/zapret-win-bundle
 </div>
 
 > [!CAUTION]

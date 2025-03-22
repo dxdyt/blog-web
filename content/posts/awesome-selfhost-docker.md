@@ -1,9 +1,9 @@
 ---
 title: awesome-selfhost-docker
-date: 2025-03-21T12:21:03+08:00
+date: 2025-03-22T12:21:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741011532825-a7fb3dcf11f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741011532825-a7fb3dcf11f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI1MzA4MTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1738253145888-e8f1e20ab05b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1738253145888-e8f1e20ab05b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTZ8&ixlib=rb-4.0.3
 ---
 
 # [hotheadhacker/awesome-selfhost-docker](https://github.com/hotheadhacker/awesome-selfhost-docker)
@@ -45,10 +45,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1741011532825-a7fb3dcf11
 | [Outline](https://github.com/outline/outline) | A modern team knowledge base |
 | [WeeWX](https://github.com/weewx/weewx) | Weather station software |
 | [Kimai](https://github.com/kevinpapst/kimai2) | Time-tracking application |
-| [Wekan](https://github.com/wekan/wekan) | Open-source Trello-like kanban board |
 | [Restyaboard](https://github.com/RestyaPlatform/board) | Open-source Trello-like kanban board |
 | [Taskcafe](https://github.com/JordanKnott/taskcafe) | Open-source project management tool |
 | [Focalboard](https://github.com/mattermost/focalboard) | Open-source project management tool |
+| [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) | Open-source Notion alternative with a focus on privacy and extensibility.|
 
 ## Development
 
@@ -99,6 +99,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1741011532825-a7fb3dcf11
 | [Beets](https://github.com/beetbox/beets) | Music library manager and MusicBrainz tagger |
 | [Mopidy](https://github.com/mopidy/mopidy) | Extensible music server |
 | [Piwigo](https://github.com/Piwigo/Piwigo) | Photo gallery software for the web |
+| [Prowlarr](https://github.com/Prowlarr/Prowlarr) | An indexer manager/proxy built on *Arr to integrate with various media software like Sonarr, Radarr, and Lidarr. Supports multiple indexers and automation.|
+| [Audiobookshelf](https://github.com/advplyr/audiobookshelf) | Self-hosted audiobook and podcast server with a web player and mobile apps.|
+|[ SuggestArr](https://github.com/giuseppe99barchetta/SuggestArr) | Companion tool for Overseerr and Jellyfin that provides media recommendations.|
 
 ## Communication
 
@@ -246,7 +249,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1741011532825-a7fb3dcf11
 | [Firefly III](https://github.com/firefly-iii/firefly-iii) | Personal finances manager |
 | [Homer](https://github.com/bastienwirtz/homer) | A dead simple static homepage for your server |
 | [Astuto](https://github.com/astuto/astuto) | Customer feedback tool to collect, manage and prioritize feedback from your users |
-| [Wordpress]((https://github.com/GSCloud/docker_wordpress) | Run WordPress, MariaDB and phpMyAdmin in Docker |
+| [Wordpress](https://github.com/GSCloud/docker_wordpress) | Run WordPress, MariaDB and phpMyAdmin in Docker |
 
 # This project is in early development
 ## Star History

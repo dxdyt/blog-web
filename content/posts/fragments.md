@@ -1,9 +1,9 @@
 ---
 title: fragments
-date: 2025-03-20T12:22:02+08:00
+date: 2025-03-22T12:20:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740885222801-f6a2e849563b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740885222801-f6a2e849563b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI0NDQ0MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740543860642-1cd24806d43a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740543860642-1cd24806d43a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
 ---
 
 # [e2b-dev/fragments](https://github.com/e2b-dev/fragments)
