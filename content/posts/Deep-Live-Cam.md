@@ -1,9 +1,9 @@
 ---
 title: Deep-Live-Cam
-date: 2025-03-22T12:20:30+08:00
+date: 2025-03-23T12:20:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740471230563-4023b2cb008a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740471230563-4023b2cb008a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740398864002-99d4347d5190?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3MDM1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740398864002-99d4347d5190?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3MDM1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
@@ -252,6 +252,19 @@ python run.py --execution-provider openvino
 -   Wait for the preview to appear (10-30 seconds).
 -   Use a screen capture tool like OBS to stream.
 -   To change the face, select a new source image.
+
+## Tips and Tricks
+
+Check out these helpful guides to get the most out of Deep-Live-Cam:
+
+- [Unlocking the Secrets to the Perfect Deepfake Image](https://deeplivecam.net/index.php/blog/tips-and-tricks/unlocking-the-secrets-to-the-perfect-deepfake-image) - Learn how to create the best deepfake with full head coverage
+- [Video Call with DeepLiveCam](https://deeplivecam.net/index.php/blog/tips-and-tricks/video-call-with-deeplivecam) - Make your meetings livelier by using DeepLiveCam with OBS and meeting software
+- [Have a Special Guest!](https://deeplivecam.net/index.php/blog/tips-and-tricks/have-a-special-guest) - Tutorial on how to use face mapping to add special guests to your stream
+- [Watch Deepfake Movies in Realtime](https://deeplivecam.net/index.php/blog/tips-and-tricks/watch-deepfake-movies-in-realtime) - See yourself star in any video without processing the video
+- [Better Quality without Sacrificing Speed](https://deeplivecam.net/index.php/blog/tips-and-tricks/better-quality-without-sacrificing-speed) - Tips for achieving better results without impacting performance
+- [Instant Vtuber!](https://deeplivecam.net/index.php/blog/tips-and-tricks/instant-vtuber) - Create a new persona/vtuber easily using Metahuman Creator
+
+Visit our [official blog](https://deeplivecam.net/index.php/blog/tips-and-tricks) for more tips and tutorials.
 
 ## Command Line Arguments (Unmaintained)
 

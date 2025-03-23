@@ -1,9 +1,9 @@
 ---
 title: GenAI-Showcase
-date: 2025-02-17T12:21:36+08:00
+date: 2025-03-23T12:19:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738234402655-f44627aaa094?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738234402655-f44627aaa094?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk3NjU5OTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740416328607-4c54d55540ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3MDM1Nzd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740416328607-4c54d55540ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3MDM1Nzd8&ixlib=rb-4.0.3
 ---
 
 # [mongodb-developer/GenAI-Showcase](https://github.com/mongodb-developer/GenAI-Showcase)
@@ -20,9 +20,11 @@ Discover how MongoDB integrates into RAG pipelines and AI Agents, serving as a v
 
 This repo mainly contains:
 
-* Jupyter notebooks examples for RAG, agentic applications, evaluations etc. under `notebooks`.
-* Javascipt and Python apps and demos under `apps`.
-* Contributions from our AI partners under `partners`.
+| Folder | Description |
+|--------|-------------|
+| [`notebooks`](notebooks/README.md) | Jupyter notebooks examples for RAG, agentic applications, evaluations etc. |
+| [`apps`](apps/README.md) | Javascipt and Python apps and demos |
+| [`partners`](partners/README.md) | Contributions from our AI partners |
 
 ## Getting Started
 
@@ -46,6 +48,6 @@ As you work through these examples, if you encounter any problems, please [open 
 
 ## Additional Resources
 
-* [AI Learning Hub](https://www.mongodb.com/resources/use-cases/artificial-intelligence)
+* [AI Learning Hub](https://www.mongodb.com/resources/use-cases/artificial-intelligence?utm_campaign=ai_learning_hub&utm_source=github&utm_medium=referral)
 * [GenAI Community Forum](https://www.mongodb.com/community/forums/c/generative-ai/162)
 * [Tutorials and code examples from our official docs](https://github.com/mongodb/docs-notebooks)
