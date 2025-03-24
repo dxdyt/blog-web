@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2025-03-22T12:20:43+08:00
+date: 2025-03-24T12:21:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741851373816-91017faa8553?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741851373816-91017faa8553?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)

@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-02-26T12:21:55+08:00
+date: 2025-03-24T12:21:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739467516221-e4008797edb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739467516221-e4008797edb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA1NDM2MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740416265401-0f4f850ba062?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740416265401-0f4f850ba062?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -84,6 +84,9 @@ A curated collection of awesome LLM apps built with RAG and AI agents. This repo
 - [🖥️ Local RAG App with Hybrid Search](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/local_hybrid_search_rag)
 - [📠 RAG Agent with Database Routing](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/rag_database_routing)
 - [🔄 Corrective RAG Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/rag_tutorials/corrective_rag)
+
+### MCP AI Agents
+- [🐙 MCP GitHub Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/mcp_ai_agents/github_mcp_agent)
 
 ### LLM Apps with Memory
 - [💾 AI Arxiv Agent with Memory](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/llm_apps_with_memory_tutorials/ai_arxiv_agent_memory)

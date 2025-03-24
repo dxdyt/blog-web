@@ -1,9 +1,9 @@
 ---
 title: GenAI-Showcase
-date: 2025-03-23T12:19:52+08:00
+date: 2025-03-24T12:21:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740416328607-4c54d55540ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3MDM1Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740416328607-4c54d55540ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3MDM1Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740763339997-bd74608d55a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740763339997-bd74608d55a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
 ---
 
 # [mongodb-developer/GenAI-Showcase](https://github.com/mongodb-developer/GenAI-Showcase)
