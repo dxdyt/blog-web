@@ -1,22 +1,25 @@
 ---
 title: ClaudeDesktopCommander
-date: 2025-03-24T12:21:00+08:00
+date: 2025-03-25T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735852134868-c7986018d27d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735852134868-c7986018d27d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740367217559-de1dcaafafe3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740367217559-de1dcaafafe3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [wonderwhy-er/ClaudeDesktopCommander](https://github.com/wonderwhy-er/ClaudeDesktopCommander)
 
 # Desktop Commander MCP
-![Desktop Commander MCP](logo.png)
+
 
 [![npm downloads](https://img.shields.io/npm/dw/@wonderwhy-er/desktop-commander)](https://www.npmjs.com/package/@wonderwhy-er/desktop-commander)
 [![smithery badge](https://smithery.ai/badge/@wonderwhy-er/desktop-commander)](https://smithery.ai/server/@wonderwhy-er/desktop-commander)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow.svg)](https://www.buymeacoffee.com/wonderwhyer)
-[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289DA.svg)](https://discord.gg/7cbccwRp)
+
+[![Discord](https://img.shields.io/badge/Join%20Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kQ27sNnZr7)
 
 Short version. Two key things. Terminal commands and diff based file editing.
+
+![Desktop Commander MCP](logo.png)
 
 <a href="https://glama.ai/mcp/servers/zempur9oh4">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/zempur9oh4/badge" alt="Claude Desktop Commander MCP server" />
@@ -52,6 +55,7 @@ This is server that allows Claude desktop app to execute long-running terminal c
   - Full file rewrites for major changes
   - Multiple file support
   - Pattern-based replacements
+  - vscode-ripgrep based recursive code or text search in folders
 
 ## Installation
 First, ensure you've downloaded and installed the [Claude Desktop app](https://claude.ai/download) and you have [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
@@ -122,6 +126,7 @@ The server provides these tool categories:
 - `move_file`: Move/rename files
 - `search_files`: Pattern-based file search
 - `get_file_info`: File metadata
+- `code_search`: Recursive ripgrep based text and code search
 
 ### Edit Tools
 - `edit_block`: Apply surgical text replacements (best for changes <20% of file size)
@@ -167,11 +172,13 @@ This project extends the MCP Filesystem Server to enable:
 
 Created as part of exploring Claude MCPs: https://youtube.com/live/TlbjFDbl5Us
 
+## DONE
+- **25-03-2025 Better code search** ([in progress](https://github.com/wonderwhy-er/ClaudeDesktopCommander/pull/17)) - Enhanced code exploration with context-aware results
+
 ## Work in Progress and TODOs
 
 The following features are currently being developed or planned:
 
-- **Better code search** ([in progress](https://github.com/wonderwhy-er/ClaudeDesktopCommander/pull/17)) - Enhanced code exploration with context-aware results
 - **Better configurations** ([in progress](https://github.com/wonderwhy-er/ClaudeDesktopCommander/pull/16)) - Improved settings for allowed paths, commands and shell environment
 - **Windows environment fixes** ([in progress](https://github.com/wonderwhy-er/ClaudeDesktopCommander/pull/13)) - Resolving issues specific to Windows platforms
 - **Linux improvements** ([in progress](https://github.com/wonderwhy-er/ClaudeDesktopCommander/pull/12)) - Enhancing compatibility with various Linux distributions

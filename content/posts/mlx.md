@@ -1,9 +1,9 @@
 ---
 title: mlx
-date: 2024-06-17T12:19:19+08:00
+date: 2025-03-25T12:21:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717318104110-d8ef457d9c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717318104110-d8ef457d9c2e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg1OTc4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742401571210-d24df76632b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742401571210-d24df76632b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx](https://github.com/ml-explore/mlx)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1717318104110-d8ef457d9c
 
 [![CircleCI](https://circleci.com/gh/ml-explore/mlx.svg?style=svg)](https://circleci.com/gh/ml-explore/mlx)
 
-MLX is an array framework for machine learning research on Apple silicon,
+MLX is an array framework for machine learning on Apple silicon,
 brought to you by Apple machine learning research.
 
 Some key features of MLX include:

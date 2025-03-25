@@ -1,9 +1,9 @@
 ---
 title: ruoyi-ai
-date: 2025-03-24T12:20:52+08:00
+date: 2025-03-25T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735852134868-c7986018d27d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735852134868-c7986018d27d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741289512974-4c2ad13598e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741289512974-4c2ad13598e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
 ---
 
 # [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai)
@@ -69,6 +69,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1735852134868-c7986018d2
 - 演示地址: https://web.pandarobot.chat
 - 后台管理: https://admin.pandarobot.chat
 - 用户名: admin 密码：admin123
+- 
+### gitcode源码地址
+- https://gitcode.com/ageerle/ruoyi-ai
+- https://gitcode.com/ageerle/ruoyi-web
+- https://gitcode.com/ageerle/ruoyi-admin
+- https://gitcode.com/ageerle/ruoyi-uniapp
 
 ### 特色功能
 1. 全套开源系统：提供完整的前端应用、后台管理以及小程序应用，基于MIT协议，开箱即用。
@@ -189,7 +195,6 @@ RuoYi-AI
 
 <div>
   <img src="image/01.png" alt="drawing" width="300px" height="300px"/>
-  <img src="image/12.png" alt="drawing" width="300px" height="300px"/>
 </div>
 
 ### 版权说明
