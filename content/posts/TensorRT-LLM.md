@@ -1,9 +1,9 @@
 ---
 title: TensorRT-LLM
-date: 2024-07-20T12:20:42+08:00
+date: 2025-03-26T12:20:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1719733250222-d7f51c02a4ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1719733250222-d7f51c02a4ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE0NDkxMjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740765988530-8d827a928560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740765988530-8d827a928560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)
@@ -15,25 +15,147 @@ TensorRT-LLM
 <h4> A TensorRT Toolbox for Optimized Large Language Model Inference</h4>
 
 [![Documentation](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](https://nvidia.github.io/TensorRT-LLM/)
-[![python](https://img.shields.io/badge/python-3.10.12-green)](https://www.python.org/downloads/release/python-31012/)
-[![cuda](https://img.shields.io/badge/cuda-12.4.1-green)](https://developer.nvidia.com/cuda-downloads)
-[![trt](https://img.shields.io/badge/TRT-10.1.0-green)](https://developer.nvidia.com/tensorrt)
-[![version](https://img.shields.io/badge/release-0.12.0.dev-green)](./tensorrt_llm/version.py)
+[![python](https://img.shields.io/badge/python-3.12-green)](https://www.python.org/downloads/release/python-3123/)
+[![python](https://img.shields.io/badge/python-3.10-green)](https://www.python.org/downloads/release/python-31012/)
+[![cuda](https://img.shields.io/badge/cuda-12.8.0-green)](https://developer.nvidia.com/cuda-downloads)
+[![trt](https://img.shields.io/badge/TRT-10.8.0-green)](https://developer.nvidia.com/tensorrt)
+[![version](https://img.shields.io/badge/release-0.19.0.dev-green)](./tensorrt_llm/version.py)
 [![license](https://img.shields.io/badge/license-Apache%202-blue)](./LICENSE)
 
-[Architecture](./docs/source/architecture/overview.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Results](./docs/source/performance/perf-overview.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Examples](./examples/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Documentation](./docs/source/)
+[Architecture](./docs/source/architecture/overview.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Performance](./docs/source/performance/perf-overview.md)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Examples](./examples/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Documentation](./docs/source/)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Roadmap](https://docs.google.com/presentation/d/1gycPmtdh7uUcH6laOvW65Dbp9F1McUkGDIcAyjicBZs/edit?usp=sharing)
 
 ---
 <div align="left">
 
 ## Latest News
+* [2025/02/28] Spotlight🌟🌟🌟 NAVER Place Optimizes SLM-Based Vertical Services with NVIDIA TensorRT-LLM
+[➡️ link](https://developer.nvidia.com/blog/spotlight-naver-place-optimizes-slm-based-vertical-services-with-nvidia-tensorrt-llm/)
+<div align="center">
+<img src=https://developer-blogs.nvidia.com/wp-content/uploads/2025/02/naver-place-app-graphic.jpg width="50%">
+<div align="left">
+
+* [2025/02/25] 🌟 DeepSeek-R1 performance now optimized for Blackwell
+[➡️ link](https://huggingface.co/nvidia/DeepSeek-R1-FP4)
+
+* [2025/02/20] Stay ahead of the curve 📈 Leverage the most performant & capable platform for inference. 🚀Explore the complete guide to achieve great accuracy, high throughput, and low latency at the lowest cost for your business ➡️
+[➡️ link](https://www.nvidia.com/en-us/solutions/ai/inference/balancing-cost-latency-and-performance-ebook/?ncid=so-twit-348956&linkId=100000341423615)
+
+* [2025/02/18] Unlock #LLM inference with auto-scaling on @AWS EKS ✨
+✅ Set up EFA networking & EFS storage with NVLink-connected H100 GPUs on P5.48xlarge
+✅ Deploy multi-node Triton Inference Server + TRT-LLM to scale LLaMa 3.1 405B models
+✅ Use LeaderWorkerSet & Prometheus metrics for autoscaling and orchestration
+[➡️ link](https://aws.amazon.com/blogs/hpc/scaling-your-llm-inference-workloads-multi-node-deployment-with-tensorrt-llm-and-triton-on-amazon-eks/)
+
+* [2025/02/12] 🦸⚡ Automating GPU Kernel Generation with DeepSeek-R1 and Inference Time Scaling
+[➡️ link](https://developer.nvidia.com/blog/automating-gpu-kernel-generation-with-deepseek-r1-and-inference-time-scaling/?ncid=so-twit-997075&linkId=100000338909937)
+
+* [2025/02/12] 🌟 How Scaling Laws Drive Smarter, More Powerful AI
+[➡️ link](https://blogs.nvidia.com/blog/ai-scaling-laws/?ncid=so-link-889273&linkId=100000338837832)
+
+* [2025/01/25] 🌟 Nvidia moves AI focus to inference cost, efficiency 🌟
+[➡️ link](https://www.fierceelectronics.com/ai/nvidia-moves-ai-focus-inference-cost-efficiency?linkId=100000332985606)
+
+* [2025/01/24] 🏎️🏎️🏎️ Optimize AI Inference Performance with NVIDIA Full-Stack Solutions
+[➡️ link](https://developer.nvidia.com/blog/optimize-ai-inference-performance-with-nvidia-full-stack-solutions/?ncid=so-twit-400810&linkId=100000332621049)
+
+* [2025/01/23] 🚀🚀🚀 Fast, Low-Cost Inference Offers Key to Profitable AI
+[➡️ link](https://blogs.nvidia.com/blog/ai-inference-platform/?ncid=so-twit-693236-vt04&linkId=100000332307804)
+
+* [2025/01/16] 🐍 Introducing New KV Cache Reuse Optimizations in NVIDIA TensorRT-LLM
+[➡️ link](https://developer.nvidia.com/blog/introducing-new-kv-cache-reuse-optimizations-in-nvidia-tensorrt-llm/?ncid=so-twit-363876&linkId=100000330323229)
+
+* [2025/01/14] 📣 Bing's Transition to LLM/SLM Models: Optimizing Search with TensorRT-LLM
+[➡️ link](https://blogs.bing.com/search-quality-insights/December-2024/Bing-s-Transition-to-LLM-SLM-Models-Optimizing-Search-with-TensorRT-LLM)
+
+* [2025/01/04] ⚡Boost Llama 3.3 70B Inference Throughput 3x with NVIDIA TensorRT-LLM Speculative Decoding
+[➡️ link](https://developer.nvidia.com/blog/boost-llama-3-3-70b-inference-throughput-3x-with-nvidia-tensorrt-llm-speculative-decoding/)
+
+<details close>
+<summary>Previous News</summary>
+
+* [2024/12/10] ⚡ Llama 3.3 70B from AI at Meta is accelerated by TensorRT-LLM. 🌟 State-of-the-art model on par with Llama 3.1 405B for reasoning, math, instruction following and tool use. Explore the preview
+[➡️ link](https://build.nvidia.com/meta/llama-3_3-70b-instruct)
+
+* [2024/12/03] 🌟 Boost your AI inference throughput by up to 3.6x.  We now support speculative decoding and tripling token throughput with our NVIDIA TensorRT-LLM. Perfect for your generative AI apps.  ⚡Learn how in this technical deep dive
+[➡️ link](https://nvda.ws/3ZCZTzD)
+
+* [2024/12/02] Working on deploying ONNX models for performance-critical applications? Try our NVIDIA Nsight Deep Learning Designer ⚡ A user-friendly GUI and tight integration with NVIDIA TensorRT that offers:
+✅ Intuitive visualization of ONNX model graphs
+✅ Quick tweaking of model architecture and parameters
+✅ Detailed performance profiling with either ORT or TensorRT
+✅ Easy building of TensorRT engines
+[➡️ link](https://developer.nvidia.com/nsight-dl-designer?ncid=so-link-485689&linkId=100000315016072)
+
+* [2024/11/26] 📣 Introducing TensorRT-LLM for Jetson AGX Orin, making it even easier to deploy on Jetson AGX Orin with initial support in JetPack 6.1 via the v0.12.0-jetson branch of the TensorRT-LLM repo. ✅ Pre-compiled TensorRT-LLM wheels & containers for easy integration ✅ Comprehensive guides & docs to get you started
+[➡️ link](https://forums.developer.nvidia.com/t/tensorrt-llm-for-jetson/313227?linkId=100000312718869)
+
+* [2024/11/21] NVIDIA TensorRT-LLM Multiblock Attention Boosts Throughput by More Than 3x for Long Sequence Lengths on NVIDIA HGX H200
+[➡️ link](https://developer.nvidia.com/blog/nvidia-tensorrt-llm-multiblock-attention-boosts-throughput-by-more-than-3x-for-long-sequence-lengths-on-nvidia-hgx-h200/)
+
+* [2024/11/19] Llama 3.2 Full-Stack Optimizations Unlock High Performance on NVIDIA GPUs
+[➡️ link](https://developer.nvidia.com/blog/llama-3-2-full-stack-optimizations-unlock-high-performance-on-nvidia-gpus/?ncid=so-link-721194)
+
+* [2024/11/09] 🚀🚀🚀 3x Faster AllReduce with NVSwitch and TensorRT-LLM MultiShot
+[➡️ link](https://developer.nvidia.com/blog/3x-faster-allreduce-with-nvswitch-and-tensorrt-llm-multishot/)
+
+* [2024/11/09] ✨ NVIDIA advances the AI ecosystem with the AI model of LG AI Research 🙌
+[➡️ link](https://blogs.nvidia.co.kr/blog/nvidia-lg-ai-research/)
+
+* [2024/11/02] 🌟🌟🌟 NVIDIA and LlamaIndex Developer Contest
+🙌 Enter for a chance to win prizes including an NVIDIA® GeForce RTX™ 4080 SUPER GPU, DLI credits, and more🙌
+[➡️ link](https://developer.nvidia.com/llamaindex-developer-contest)
+
+* [2024/10/28] 🏎️🏎️🏎️ NVIDIA GH200 Superchip Accelerates Inference by 2x in Multiturn Interactions with Llama Models
+[➡️ link](https://developer.nvidia.com/blog/nvidia-gh200-superchip-accelerates-inference-by-2x-in-multiturn-interactions-with-llama-models/)
+
+* [2024/10/22] New 📝 Step-by-step instructions on how to
+✅ Optimize LLMs with NVIDIA TensorRT-LLM,
+✅ Deploy the optimized models with Triton Inference Server,
+✅ Autoscale LLMs deployment in a Kubernetes environment.
+🙌 Technical Deep Dive:
+[➡️ link](https://nvda.ws/3YgI8UT)
+
+* [2024/10/07] 🚀🚀🚀Optimizing Microsoft Bing Visual Search with NVIDIA Accelerated Libraries
+[➡️ link](https://developer.nvidia.com/blog/optimizing-microsoft-bing-visual-search-with-nvidia-accelerated-libraries/)
+
+* [2024/09/29] 🌟 AI at Meta PyTorch + TensorRT v2.4 🌟 ⚡TensorRT 10.1 ⚡PyTorch 2.4 ⚡CUDA 12.4 ⚡Python 3.12
+[➡️ link](https://github.com/pytorch/TensorRT/releases/tag/v2.4.0)
+
+* [2024/09/17] ✨ NVIDIA TensorRT-LLM Meetup
+[➡️ link](https://drive.google.com/file/d/1RR8GqC-QbuaKuHj82rZcXb3MS20SWo6F/view?usp=share_link)
+
+* [2024/09/17] ✨ Accelerating LLM Inference at Databricks with TensorRT-LLM
+[➡️ link](https://drive.google.com/file/d/1NeSmrLaWRJAY1rxD9lJmzpB9rzr38j8j/view?usp=sharing)
+
+* [2024/09/17] ✨ TensorRT-LLM @ Baseten
+[➡️ link](https://drive.google.com/file/d/1Y7L2jqW-aRmt31mCdqhwvGMmCSOzBUjG/view?usp=share_link)
+
+* [2024/09/04] 🏎️🏎️🏎️ Best Practices for Tuning TensorRT-LLM for Optimal Serving with BentoML
+[➡️ link](https://www.bentoml.com/blog/tuning-tensor-rt-llm-for-optimal-serving-with-bentoml)
+
+
+* [2024/08/20] 🏎️SDXL with #TensorRT Model Optimizer ⏱️⚡ 🏁 cache diffusion 🏁 quantization aware training 🏁 QLoRA 🏁 #Python 3.12
+[➡️ link](https://developer.nvidia.com/blog/nvidia-tensorrt-model-optimizer-v0-15-boosts-inference-performance-and-expands-model-support/)
+
+* [2024/08/13] 🐍 DIY Code Completion with #Mamba ⚡ #TensorRT #LLM for speed 🤖 NIM for ease ☁️ deploy anywhere
+[➡️ link](https://developer.nvidia.com/blog/revolutionizing-code-completion-with-codestral-mamba-the-next-gen-coding-llm/)
+
+* [2024/08/06] 🗫 Multilingual Challenge Accepted 🗫
+🤖 #TensorRT #LLM boosts low-resource languages like Hebrew, Indonesian and Vietnamese ⚡[➡️ link](https://developer.nvidia.com/blog/accelerating-hebrew-llm-performance-with-nvidia-tensorrt-llm/?linkId=100000278659647)
+
+* [2024/07/30] Introducing🍊 @SliceXAI ELM Turbo 🤖 train ELM once ⚡ #TensorRT #LLM optimize ☁️ deploy anywhere
+[➡️ link](https://developer.nvidia.com/blog/supercharging-llama-3-1-across-nvidia-platforms)
+
+* [2024/07/23] 👀 @AIatMeta Llama 3.1 405B trained on 16K NVIDIA H100s - inference is #TensorRT #LLM optimized ⚡
+🦙 400 tok/s - per node
+🦙 37 tok/s - per user
+🦙 1 node inference
+[➡️ link](https://developer.nvidia.com/blog/supercharging-llama-3-1-across-nvidia-platforms)
+
 * [2024/07/09] Checklist to maximize multi-language performance of @meta #Llama3 with #TensorRT #LLM inference:
 ✅ MultiLingual
 ✅ NIM
 ✅ LoRA tuned adaptors[➡️ Tech blog](https://developer.nvidia.com/blog/deploy-multilingual-llms-with-nvidia-nim/)
-<div align="center">
-<img src="docs/source/media/picture-07-09-2024.png" width="45%">
-<div align="left">
 
 * [2024/07/02] Let the @MistralAI MoE tokens fly 📈 🚀 #Mixtral 8x7B with NVIDIA #TensorRT #LLM on #H100.
 [➡️ Tech blog](https://developer.nvidia.com/blog/achieving-high-mixtral-8x7b-performance-with-nvidia-h100-tensor-core-gpus-and-tensorrt-llm?ncid=so-twit-928467)
@@ -59,11 +181,7 @@ Serverless TensorRT-LLM (LLaMA 3 8B) | Modal Docs [➡️ link](https://modal.co
 
 * [2024/05/08] NVIDIA TensorRT Model Optimizer -- the newest member of the #TensorRT ecosystem is a library of post-training and training-in-the-loop model optimization techniques ✅quantization ✅sparsity ✅QAT [➡️ blog](https://developer.nvidia.com/blog/accelerate-generative-ai-inference-performance-with-nvidia-tensorrt-model-optimizer-now-publicly-available/)
 
-
 * [2024/05/07] 🦙🦙🦙 24,000 tokens per second 🛫Meta Llama 3 takes off with #TensorRT #LLM 📚[➡️ link](https://blogs.nvidia.com/blog/meta-llama3-inference-acceleration/)
-
-<details close>
-<summary>Previous News</summary>
 
 * [2024/02/06] [🚀 Speed up inference with SOTA quantization techniques in TRT-LLM](./docs/source/blogs/quantization-in-TRT-LLM.md)
 * [2024/01/30] [ New XQA-kernel provides 2.4x more Llama-70B throughput within the same latency budget](./docs/source/blogs/XQA-kernel.md)
@@ -80,40 +198,20 @@ Serverless TensorRT-LLM (LLaMA 3 8B) | Modal Docs [➡️ link](https://modal.co
 
 ## TensorRT-LLM Overview
 
-TensorRT-LLM is an easy-to-use Python API to define Large
-Language Models (LLMs) and build
-[TensorRT](https://developer.nvidia.com/tensorrt) engines that contain
-state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs.
-TensorRT-LLM contains components to create Python and C++ runtimes that
-execute those TensorRT engines. It also includes a
-[backend](https://github.com/triton-inference-server/tensorrtllm_backend)
-for integration with the
-[NVIDIA Triton Inference Server](https://developer.nvidia.com/nvidia-triton-inference-server);
-a production-quality system to serve LLMs.  Models built with TensorRT-LLM can
-be executed on a wide range of configurations going from a single GPU to
-multiple nodes with multiple GPUs (using
-[Tensor Parallelism](https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/nemo_megatron/parallelisms.html#tensor-parallelism)
-and/or
-[Pipeline Parallelism](https://docs.nvidia.com/deeplearning/nemo/user-guide/docs/en/stable/nlp/nemo_megatron/parallelisms.html#pipeline-parallelism)).
+TensorRT-LLM is a library for optimizing Large Language Model (LLM) inference.
+It provides state-of-the-art optimizations, including custom attention kernels, inflight batching, paged KV caching, quantization (FP8, INT4 [AWQ](https://arxiv.org/abs/2306.00978), INT8 [SmoothQuant](https://arxiv.org/abs/2211.10438), ++) and much more, to perform inference efficiently on NVIDIA GPUs
 
-The TensorRT-LLM Python API architecture looks similar to the
-[PyTorch](https://pytorch.org) API. It provides a
-[functional](./tensorrt_llm/functional.py) module containing functions like
-`einsum`, `softmax`, `matmul` or `view`. The [layers](./tensorrt_llm/layers)
-module bundles useful building blocks to assemble LLMs; like an `Attention`
-block, a `MLP` or the entire `Transformer` layer. Model-specific components,
-like `GPTAttention` or `BertAttention`, can be found in the
-[models](./tensorrt_llm/models) module.
+TensorRT-LLM provides a Python API to build LLMs into optimized
+[TensorRT](https://developer.nvidia.com/tensorrt) engines.
+It contains runtimes in Python (bindings) and C++ to execute those TensorRT engines.
+It also includes a [backend](https://github.com/triton-inference-server/tensorrtllm_backend) for integration with the [NVIDIA Triton Inference Server](https://developer.nvidia.com/nvidia-triton-inference-server).
+Models built with TensorRT-LLM can be executed on a wide range of configurations from a single GPU to multiple nodes with multiple GPUs (using [Tensor Parallelism](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/features/parallelisms.html#tensor-parallelism) and/or [Pipeline Parallelism](https://docs.nvidia.com/nemo-framework/user-guide/latest/nemotoolkit/features/parallelisms.html#pipeline-parallelism)).
 
 TensorRT-LLM comes with several popular models pre-defined. They can easily be
-modified and extended to fit custom needs. Refer to the [Support Matrix](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html) for a list of supported models.
+modified and extended to fit custom needs via a PyTorch-like Python API. Refer to the [Support Matrix](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html) for a list of supported models.
 
-To maximize performance and reduce memory footprint, TensorRT-LLM allows the
-models to be executed using different quantization modes (refer to
-[`support matrix`](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html#software)).  TensorRT-LLM supports
-INT4 or INT8 weights (and FP16 activations; a.k.a.  INT4/INT8 weight-only) as
-well as a complete implementation of the
-[SmoothQuant](https://arxiv.org/abs/2211.10438) technique.
+TensorRT-LLM is built on top of the [TensorRT](https://developer.nvidia.com/tensorrt) Deep Learning Inference library. It leverages much of TensorRT's deep learning optimizations and adds LLM-specific optimizations on top, as described above. TensorRT is an ahead-of-time compiler; it builds "[Engines](https://docs.nvidia.com/deeplearning/tensorrt/quick-start-guide/index.html#ecosystem)" which are optimized representations of the compiled model containing the entire execution graph. These engines are optimized for a specific GPU architecture, and can be validated, benchmarked, and serialized for later deployment in a production environment.
+
 
 ## Getting Started
 
@@ -122,7 +220,7 @@ To get started with TensorRT-LLM, visit our documentation:
 - [Quick Start Guide](https://nvidia.github.io/TensorRT-LLM/quick-start-guide.html)
 - [Release Notes](https://nvidia.github.io/TensorRT-LLM/release-notes.html)
 - [Installation Guide for Linux](https://nvidia.github.io/TensorRT-LLM/installation/linux.html)
-- [Installation Guide for Windows](https://nvidia.github.io/TensorRT-LLM/installation/windows.html)
+- [Installation Guide for Grace Hopper](https://nvidia.github.io/TensorRT-LLM/installation/grace-hopper.html)
 - [Supported Hardware, Models, and other Software](https://nvidia.github.io/TensorRT-LLM/reference/support-matrix.html)
 
 ## Community

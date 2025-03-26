@@ -1,9 +1,9 @@
 ---
 title: browser-use
-date: 2025-03-13T12:21:19+08:00
+date: 2025-03-26T12:22:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739826986069-05456e38ad2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE4Mzk2NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739826986069-05456e38ad2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE4Mzk2NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)
@@ -38,10 +38,9 @@ With pip (Python>=3.11):
 pip install browser-use
 ```
 
-install playwright:
-
+Install Playwright: 
 ```bash
-playwright install
+playwright install chromium
 ```
 
 Spin up your agent:
@@ -191,7 +190,8 @@ If you use Browser Use in your research or project, please cite:
 }
 ```
 
- <div align="center"> <img src="https://github.com/user-attachments/assets/402b2129-b6ac-44d3-a217-01aea3277dce" width="400"/> 
+ <div align="center"> <img src="https://github.com/user-attachments/assets/06fa3078-8461-4560-b434-445510c1766f" width="400"/> 
+
  
 [![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/gregpr07)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/mamagnus00)

@@ -1,9 +1,9 @@
 ---
 title: ruoyi-ai
-date: 2025-03-25T12:21:18+08:00
+date: 2025-03-26T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741289512974-4c2ad13598e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741289512974-4c2ad13598e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740417275343-4bf104a5f0b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740417275343-4bf104a5f0b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
 ---
 
 # [ageerle/ruoyi-ai](https://github.com/ageerle/ruoyi-ai)
@@ -190,12 +190,6 @@ RuoYi-AI
 ### 版本控制
 
 该项目使用Git进行版本管理。您可以在repository参看当前可用版本。
-
-### 进群学习
-
-<div>
-  <img src="image/01.png" alt="drawing" width="300px" height="300px"/>
-</div>
 
 ### 版权说明
 
