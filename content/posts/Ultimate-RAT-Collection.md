@@ -1,9 +1,9 @@
 ---
 title: Ultimate-RAT-Collection
-date: 2025-03-26T12:21:40+08:00
+date: 2025-03-27T12:20:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740532501882-5766c265f637?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740532501882-5766c265f637?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741546694630-b8b4408e3cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741546694630-b8b4408e3cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
 ---
 
 # [Cryakl/Ultimate-RAT-Collection](https://github.com/Cryakl/Ultimate-RAT-Collection)

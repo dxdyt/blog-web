@@ -1,9 +1,9 @@
 ---
 title: star-vector
-date: 2025-03-26T12:21:18+08:00
+date: 2025-03-27T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742268351423-6d04402e9090?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742268351423-6d04402e9090?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
 ---
 
 # [joanrod/star-vector](https://github.com/joanrod/star-vector)

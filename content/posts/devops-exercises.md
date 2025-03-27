@@ -1,9 +1,9 @@
 ---
 title: devops-exercises
-date: 2025-03-26T12:22:13+08:00
+date: 2025-03-27T12:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740417275343-4bf104a5f0b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740417275343-4bf104a5f0b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742268351423-6d04402e9090?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742268351423-6d04402e9090?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
 ---
 
 # [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
@@ -119,6 +119,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1740417275343-4bf104a5f0
 <tr>
   <td align="center"><a href="https://play.google.com/store/apps/details?id=com.codingshell.kubeprep"><img src="images/apps/kubeprep.png" width="200px;" height="300px;" alt="KubePrep"/><br /><b>KubePrep</b></a></td>
   <td align="center"><a href="https://play.google.com/store/apps/details?id=com.codingshell.linuxmaster"><img src="images/apps/linux_master.png" width="200px;" height="300px;" alt="Linux Master"/><br /><b>Linux Master</b></a></td>
+  <td align="center"><a href="https://play.google.com/store/apps/details?id=com.codingshell.system_design_hero"><img src="images/apps/system_design_hero.png" width="200px;" height="300px;" alt="Sytem Design Hero"/><br /><b>System Design Hero</b></a></td>
 </tr>
 </table>
 

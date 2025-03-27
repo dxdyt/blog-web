@@ -1,9 +1,9 @@
 ---
 title: browser-use
-date: 2025-03-26T12:22:30+08:00
+date: 2025-03-27T12:21:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721241844238-bf5b0f099bbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI5NjI4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)
@@ -66,6 +66,11 @@ Add your API keys for the provider you want to use to your `.env` file.
 
 ```bash
 OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+AZURE_ENDPOINT=
+AZURE_OPENAI_API_KEY=
+GEMINI_API_KEY=
+DEEPSEEK_API_KEY=
 ```
 
 For other settings, models, and more, check out the [documentation 📕](https://docs.browser-use.com).
@@ -142,7 +147,7 @@ Tell your computer what to do, and it gets it done.
 ### Rerunning tasks
 
 - [ ] LLM as fallback
-- [ ] Make it easy to define workfows templates where LLM fills in the details
+- [ ] Make it easy to define workfow templates where LLM fills in the details
 - [ ] Return playwright script from the agent
 
 ### Datasets
