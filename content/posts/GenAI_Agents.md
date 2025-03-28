@@ -1,9 +1,9 @@
 ---
 title: GenAI_Agents
-date: 2025-03-27T12:21:34+08:00
+date: 2025-03-28T12:22:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740452527478-f88a376fd591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740452527478-f88a376fd591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
 ---
 
 # [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)
@@ -42,6 +42,20 @@ Welcome to one of the most extensive and dynamic collections of Generative AI (G
 ## Introduction
 
 Generative AI agents are at the forefront of artificial intelligence, revolutionizing the way we interact with and leverage AI technologies. This repository is designed to guide you through the development journey, from basic agent implementations to advanced, cutting-edge systems.
+
+<div align="center">
+<table>
+<tr>
+<td>
+<h3>📚 Learn to Build Your First AI Agent</h3>
+<p><strong><a href="https://diamantai.substack.com/p/your-first-ai-agent-simpler-than">Your First AI Agent: Simpler Than You Think</a></strong></p>
+<p>This detailed blog post complements the repository by providing a complete A-Z walkthrough with in-depth explanations of core concepts, step-by-step implementation, and the theory behind AI agents. It's designed to be incredibly simple to follow while covering everything you need to know to build your first working agent from scratch.</p>
+<p><em>💡 Plus: Subscribe to the newsletter for exclusive early access to tutorials and special discounts on upcoming courses and books!</em></p>
+</td>
+</tr>
+</table>
+</div>
+
 
 Our goal is to provide a valuable resource for everyone - from beginners taking their first steps in AI to seasoned practitioners pushing the boundaries of what's possible. By offering a range of examples from foundational to complex, we aim to facilitate learning, experimentation, and innovation in the rapidly evolving field of GenAI agents.
 

@@ -1,9 +1,9 @@
 ---
 title: Signal-Android
-date: 2025-03-27T12:21:50+08:00
+date: 2025-03-28T12:22:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740452527478-f88a376fd591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740452527478-f88a376fd591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
 ---
 
 # [signalapp/Signal-Android](https://github.com/signalapp/Signal-Android)

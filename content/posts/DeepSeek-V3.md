@@ -1,9 +1,9 @@
 ---
 title: DeepSeek-V3
-date: 2025-03-27T12:21:02+08:00
+date: 2025-03-28T12:21:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740452527478-f88a376fd591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740452527478-f88a376fd591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
 ---
 
 # [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3)

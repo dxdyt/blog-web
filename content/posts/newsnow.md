@@ -1,9 +1,9 @@
 ---
 title: newsnow
-date: 2025-03-27T12:20:43+08:00
+date: 2025-03-28T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740471230563-4023b2cb008a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740471230563-4023b2cb008a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742268350465-35d7baae61fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742268350465-35d7baae61fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
 ---
 
 # [ourongxing/newsnow](https://github.com/ourongxing/newsnow)
@@ -16,6 +16,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1740471230563-4023b2cb00
 ![](screenshots/preview-2.png)
 
 English | [简体中文](README.zh-CN.md)
+
+> [!NOTE]
+> This project is just a demo and only supports Chinese. A formal version will be released later for better customization and the addition of more English content.
 
 ***Elegant reading of real-time and hottest news***
 

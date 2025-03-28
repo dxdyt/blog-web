@@ -1,9 +1,9 @@
 ---
 title: EOS
-date: 2025-03-27T12:21:18+08:00
+date: 2025-03-28T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741546694630-b8b4408e3cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741546694630-b8b4408e3cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1730886831466-66bbc2154981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1730886831466-66bbc2154981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
 ---
 
 # [Akkudoktor-EOS/EOS](https://github.com/Akkudoktor-EOS/EOS)
