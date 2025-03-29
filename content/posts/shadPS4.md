@@ -1,9 +1,9 @@
 ---
 title: shadPS4
-date: 2025-03-27T12:21:10+08:00
+date: 2025-03-29T12:23:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740680209832-e67f86f1122f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740680209832-e67f86f1122f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
 ---
 
 # [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4)

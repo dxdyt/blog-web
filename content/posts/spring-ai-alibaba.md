@@ -1,9 +1,9 @@
 ---
 title: spring-ai-alibaba
-date: 2025-03-28T12:21:48+08:00
+date: 2025-03-29T12:22:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742497457954-b650e5932b46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742497457954-b650e5932b46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741722604183-7d94a0403152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741722604183-7d94a0403152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
 ---
 
 # [alibaba/spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba)

@@ -1,41 +1,52 @@
 ---
 title: newsnow
-date: 2025-03-28T12:21:01+08:00
+date: 2025-03-29T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742268350465-35d7baae61fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742268350465-35d7baae61fa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741487431784-fd2a1db916bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741487431784-fd2a1db916bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
 ---
 
 # [ourongxing/newsnow](https://github.com/ourongxing/newsnow)
 
 # NewsNow
-<a href="https://hellogithub.com/repository/c2978695e74a423189e9ca2543ab3b36" target="_blank"><img src="https://api.hellogithub.com/v1/widgets/recommend.svg?rid=c2978695e74a423189e9ca2543ab3b36&claim_uid=SMJiFwlsKCkWf89&theme=small" alt="Featured｜HelloGitHub" /></a>
 
 ![](screenshots/preview-1.png)
 
 ![](screenshots/preview-2.png)
 
-English | [简体中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
 
 > [!NOTE]
-> This project is just a demo and only supports Chinese. A formal version will be released later for better customization and the addition of more English content.
+> This is a demo version currently supporting Chinese only. A full-featured version with better customization and English content support will be released later.
 
 ***Elegant reading of real-time and hottest news***
 
 ## Features
-- Elegant design for a pleasant reading experience, keeping you up-to-date with the latest and hottest news.
-- Supports Github login and data synchronization.
-- Default cache duration is 30 minutes. Logged-in users can force fetch the latest data. However, the scraping interval is adjusted based on the update frequency of the content sources (as fast as every two minutes) to save resources and prevent frequent scraping that could lead to IP bans.
+- Clean and elegant UI design for optimal reading experience
+- Real-time updates on trending news
+- GitHub OAuth login with data synchronization
+- 30-minute default cache duration (logged-in users can force refresh)
+- Adaptive scraping interval (minimum 2 minutes) based on source update frequency to optimize resource usage and prevent IP bans
 
 ## Deployment
 
-If login and caching are not required, you can directly deploy to platforms like Cloudflare Pages or Vercel. Just fork the repository and import it into the respective platform.
+### Basic Deployment
+For deployments without login and caching:
+1. Fork this repository
+2. Import to platforms like Cloudflare Page or Vercel
 
-For Cloudflare Pages, you need to set the build command to `pnpm run build` and the build output directory to `dist/output/public`.
+### Cloudflare Page Configuration
+- Build command: `pnpm run build`
+- Output directory: `dist/output/public`
 
-For login, which involves GitHub OAuth, you only need to [create a GitHub App](https://github.com/settings/applications/new). No special permissions are required. The callback URL should be `https://your-domain.com/api/oauth/github` (replace `your-domain` with your actual domain).
+### GitHub OAuth Setup
+1. [Create a GitHub App](https://github.com/settings/applications/new)
+2. No special permissions required
+3. Set callback URL to: `https://your-domain.com/api/oauth/github` (replace `your-domain` with your actual domain)
+4. Obtain Client ID and Client Secret
 
-After creating the app, you will get a Client ID and Client Secret. Different platforms have different places to set environment variables; refer to the `example.env.server` file. If running locally, rename it to `.env.server` and add the necessary values.
+### Environment Variables
+Refer to `example.env.server`. For local development, rename it to `.env.server` and configure:
 
 ```env
 # Github Client ID
@@ -50,30 +61,46 @@ INIT_TABLE=true
 ENABLE_CACHE=true
 ```
 
-This project primarily supports deployment on Cloudflare Pages and Docker. For Vercel, you need to set up your own database. Supported databases can be found at https://db0.unjs.io/connectors .
+### Database Support
+Supported database connectors: https://db0.unjs.io/connectors
+**Cloudflare D1 Database** is recommended.
+1. Create D1 database in Cloudflare Worker dashboard
+2. Configure database_id and database_name in wrangler.toml
+3. If wrangler.toml doesn't exist, rename example.wrangler.toml and modify configurations
+4. Changes will take effect on next deployment
 
-The Cloudflare D1 database can be used for free. To set it up, go to the Cloudflare Worker control panel and manually create a D1 database. Then, add the `database_id` and `database_name` to the corresponding fields in your `wrangler.toml` file.
-
-If you don't have a `wrangler.toml` file, you can rename `example.wrangler.toml` to `wrangler.toml` and modify it with your configuration. The changes will take effect on your next deployment.
-
-For Docker deployment. In the project root directory with `docker-compose.yml`, run
+### Docker Deployment
+In project root directory:
 
 ```sh
 docker compose up
-```
+ ```
+
+You can also set Environment Variables in `docker-compose.yml`.
 
 ## Development
-
-> [!TIP]
-> Node version >= 20
+> [!Note]
+> Requires Node.js >= 20
 
 ```sh
 corepack enable
 pnpm i
 pnpm dev
-```
+ ```
 
-If you want to add data sources, refer to the `shared/sources`, and `server/sources` directories. The project has complete types and a simple structure; feel free to explore.
+### Adding Data Sources
+Refer to `shared/sources` and `server/source`s directories. The project provides complete type definitions and a clean architecture.
+
+## Roadmap
+- Add **multi-language support** (English, Chinese, more to come).
+- Improve **personalization options** (category-based news, saved preferences).
+- Expand **data sources** to cover global news in multiple languages.
+
+***release when ready***
+![](https://testmnbbs.oss-cn-zhangjiakou.aliyuncs.com/pic/20250328172146_rec_.gif?x-oss-process=base_webp)
+
+## Contributing
+Contributions are welcome! Feel free to submit pull requests or create issues for feature requests and bug reports.
 
 ## License
 
