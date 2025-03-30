@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-03-29T12:21:27+08:00
+date: 2025-03-30T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742048775972-821a50548103?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742048775972-821a50548103?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741120475053-2eab0aed4f0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741120475053-2eab0aed4f0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -90,7 +90,6 @@ If you're a company in the AI agent ecosystem or would like to judge the hackath
 - [📈 AI Startup Trend Analysis Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_startup_trend_analysis_agent)
 - [🗞️ AI Journalist Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_journalist_agent)
 - [💲 AI Finance Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_finance_agent_team)
-- [🧲 AI Competitor Intelligence Agent Team](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_competitor_intelligence_agent_team)
 - [🎯 AI Lead Generation Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_lead_generation_agent)
 - [💰 AI Personal Finance Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_personal_finance_agent)
 - [🩻 AI Medical Scan Diagnosis Agent](https://github.com/Shubhamsaboo/awesome-llm-apps/tree/main/ai_agent_tutorials/ai_medical_imaging_agent)
