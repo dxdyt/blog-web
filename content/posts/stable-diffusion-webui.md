@@ -1,9 +1,9 @@
 ---
 title: stable-diffusion-webui
-date: 2025-02-11T12:19:09+08:00
+date: 2025-03-31T12:22:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738332465678-597284760298?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738332465678-597284760298?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742222168686-55ec5ffd3c81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742222168686-55ec5ffd3c81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
 ---
 
 # [AUTOMATIC1111/stable-diffusion-webui](https://github.com/AUTOMATIC1111/stable-diffusion-webui)

@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-03-30T12:20:42+08:00
+date: 2025-03-31T12:21:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741120475053-2eab0aed4f0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741120475053-2eab0aed4f0b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735845929510-48e0ecdb53d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735845929510-48e0ecdb53d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -71,7 +71,7 @@ Join us for a month of building Agents!
 
 > Prizes will be distributed on an ongoing basis and continue till all prizes are awarded.
 
-⭐ Star this repo and follow along to stay updated.
+⭐ Star this repo and subscribe to [Unwind AI](https://www.theunwindai.com) for latest updates.
 
 ### 🤝 Want to join us as a partner or judge?
 

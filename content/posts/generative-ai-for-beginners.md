@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2025-03-25T12:21:03+08:00
+date: 2025-03-31T12:21:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741192223245-46cbbe8ae332?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741192223245-46cbbe8ae332?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI4NzY0Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743010768826-cc10a67e3b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743010768826-cc10a67e3b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
@@ -78,7 +78,7 @@ Do you have suggestions or found spelling or code errors? [Raise an issue](https
 
 | #   | **Lesson Link**                                                                                                                              | **Description**                                                                                 | **Video**                                                                   | **Extra Learning**                                                             |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| 00  | [Course Setup](./00-course-setup/README.md?WT.mc_id=academic-105485-koreyst)                                                                 | **Learn:** How to Setup Your Development Environment                                            | Coming Soon                                                                 | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
+| 00  | [Course Setup](./00-course-setup/README.md?WT.mc_id=academic-105485-koreyst)                                                                 | **Learn:** How to Setup Your Development Environment                                            | Video Coming Soon                                                                 | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 01  | [Introduction to Generative AI and LLMs](./01-introduction-to-genai/README.md?WT.mc_id=academic-105485-koreyst)                              | **Learn:** Understanding what Generative AI is and how Large Language Models (LLMs) work.       | [Video](https://aka.ms/gen-ai-lesson-1-gh?WT.mc_id=academic-105485-koreyst) | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 02  | [Exploring and comparing different LLMs](./02-exploring-and-comparing-different-llms/README.md?WT.mc_id=academic-105485-koreyst)             | **Learn:** How to select the right model for your use case                                      | [Video](https://aka.ms/gen-ai-lesson2-gh?WT.mc_id=academic-105485-koreyst)  | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |
 | 03  | [Using Generative AI Responsibly](./03-using-generative-ai-responsibly/README.md?WT.mc_id=academic-105485-koreyst)                           | **Learn:** How to build Generative AI Applications responsibly                                  | [Video](https://aka.ms/gen-ai-lesson3-gh?WT.mc_id=academic-105485-koreyst)  | [Learn More](https://aka.ms/genai-collection?WT.mc_id=academic-105485-koreyst) |

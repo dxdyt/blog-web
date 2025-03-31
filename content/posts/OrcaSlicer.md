@@ -1,9 +1,9 @@
 ---
 title: OrcaSlicer
-date: 2025-03-01T12:19:51+08:00
+date: 2025-03-31T12:22:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738807991630-260f842bdf49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738807991630-260f842bdf49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741851373499-e2c10ed2eeb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741851373499-e2c10ed2eeb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzOTQ4NjJ8&ixlib=rb-4.0.3
 ---
 
 # [SoftFever/OrcaSlicer](https://github.com/SoftFever/OrcaSlicer)
@@ -107,7 +107,9 @@ Explore the latest developments in Orca Slicer with our nightly builds. Feedback
 - Mac 64-bit  
   - Tools needed: Xcode, Cmake, git, gettext, libtool, automake, autoconf, texinfo
       - You can install most of them by running `brew install cmake gettext libtool automake autoconf texinfo`
+      - If you haven't since upgrading Xcode, start Xcode and install macOS build support.
   - run `build_release_macos.sh`
+  - open `build_arm64/OrcaSlicer/OrcaSlicer.app`
   - To build and debug in Xcode:
       - run `Xcode.app`
       - open ``build_`arch`/OrcaSlicer.Xcodeproj``
@@ -129,7 +131,7 @@ Explore the latest developments in Orca Slicer with our nightly builds. Feedback
     - Ubuntu 
       - Dependencies **Will be auto installed with the shell script**: `libmspack-dev libgstreamerd-3-dev libsecret-1-dev libwebkit2gtk-4.0-dev libosmesa6-dev libssl-dev libcurl4-openssl-dev eglexternalplatform-dev libudev-dev libdbus-1-dev extra-cmake-modules libgtk2.0-dev libglew-dev libudev-dev libdbus-1-dev cmake git texinfo`
       - run 'sudo ./BuildLinux.sh -u'
-      - run './BuildLinux.sh -dsir'
+      - run './BuildLinux.sh -dsi'
 
 # Note: 
 If you're running Klipper, it's recommended to add the following configuration to your `printer.cfg` file.
