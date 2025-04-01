@@ -1,9 +1,9 @@
 ---
 title: dub
-date: 2024-10-15T12:21:33+08:00
+date: 2025-04-01T12:22:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727255958110-0edaec0a2d78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727255958110-0edaec0a2d78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741722604231-3d24c0c44864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM0ODEyNjd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741722604231-3d24c0c44864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM0ODEyNjd8&ixlib=rb-4.0.3
 ---
 
 # [dubinc/dub](https://github.com/dubinc/dub)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1727255958110-0edaec0a2d
 <h3 align="center">Dub.co</h3>
 
 <p align="center">
-    The open-source Bitly successor.
+    The open-source link attribution platform.
     <br />
     <a href="https://dub.co"><strong>Learn more »</strong></a>
     <br />
@@ -32,7 +32,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1727255958110-0edaec0a2d
     <img src="https://img.shields.io/twitter/follow/dubdotco?style=flat&label=%40dubdotco&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
   </a>
   <a href="https://news.ycombinator.com/item?id=32939407"><img src="https://img.shields.io/badge/Hacker%20News-255-%23FF6600" alt="Hacker News"></a>
-  <a href="https://github.com/dubinc/dub/blob/main/LICENSE">
+  <a href="https://github.com/dubinc/dub/blob/main/LICENSE.md">
     <img src="https://img.shields.io/github/license/dubinc/dub?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
   </a>
 </p>
@@ -41,15 +41,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1727255958110-0edaec0a2d
 
 ## Introduction
 
-Dub.co is the open-source link management infrastructure for modern marketing teams.
+Dub.co is the open-source link attribution platform for modern marketing teams.
 
 ## Features
 
-- [Advanced Analytics](https://dub.co/help/article/dub-analytics)
-- [Branded Links](https://dub.co/features/branded-links)
-- [QR Codes](https://dub.co/features/qr-codes)
-- [Personalization](https://dub.co/features/personalization)
-- [Team Collaboration](https://dub.co/features/collaboration)
+- **Free custom domains**: Create branded short links [with your own domain](https://dub.co/help/article/how-to-add-custom-domain) and [improve click-through rates by 30%](https://dub.co/blog/custom-domains). Paid plans also include a [complimentary custom domain](https://dub.co/help/article/free-dot-link-domain).
+- **Advanced link features**: Supercharge your links with [custom link previews](https://dub.co/help/article/custom-link-previews), [device targeting](https://dub.co/help/article/device-targeting), [geo targeting](https://dub.co/help/article/geo-targeting), [link cloaking](https://dub.co/help/article/link-cloaking), [password protection](https://dub.co/help/article/password-protected-links), and more.
+- **Advanced Analytics**: Dub provides [powerful analytics](https://dub.co/analytics) for your links, including geolocation, device, browser, and referrer information.
+- **QR Codes**: QR codes and short links are like peas in a pod. Dub offers [free QR codes](https://dub.co/tools/qr-code) for every short link you create. Feeling artsy? [Customize them with your own logo](https://dub.co/help/article/custom-qr-codes).
+- **Team collaboration**: [Invite your teammates](https://dub.co/help/article/how-to-invite-teammates) to collaborate on your links. For [enterprises](https://dub.co/enterprise), Dub offers [SAML SSO](https://dub.co/help/category/saml-sso) with Okta, Google, and Azure AD for higher security.
 
 ## Tech Stack
 
