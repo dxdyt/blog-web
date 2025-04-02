@@ -1,9 +1,9 @@
 ---
 title: fastmcp
-date: 2025-04-01T12:22:08+08:00
+date: 2025-04-02T12:21:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742878012844-51c0c68e743c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM0ODEyNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742878012844-51c0c68e743c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM0ODEyNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735774188783-7def2a426dfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM1Njc2NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735774188783-7def2a426dfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM1Njc2NDd8&ixlib=rb-4.0.3
 ---
 
 # [jlowin/fastmcp](https://github.com/jlowin/fastmcp)
