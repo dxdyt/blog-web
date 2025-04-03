@@ -1,9 +1,9 @@
 ---
 title: OpenHands
-date: 2025-03-10T12:18:32+08:00
+date: 2025-04-03T12:23:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739582766872-0689b7ffb372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739582766872-0689b7ffb372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE1ODAxOTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735298954705-b38de4186813?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735298954705-b38de4186813?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
 ---
 
 # [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1739582766872-0689b7ffb3
   <a href="https://codecov.io/github/All-Hands-AI/OpenHands?branch=main"><img alt="CodeCov" src="https://img.shields.io/codecov/c/github/All-Hands-AI/OpenHands?style=for-the-badge&color=blue"></a>
   <a href="https://github.com/All-Hands-AI/OpenHands/blob/main/LICENSE"><img src="https://img.shields.io/github/license/All-Hands-AI/OpenHands?style=for-the-badge&color=blue" alt="MIT License"></a>
   <br/>
-  <a href="https://join.slack.com/t/openhands-ai/shared_invite/zt-2ypg5jweb-d~6hObZDbXi_HEL8PDrbHg"><img src="https://img.shields.io/badge/Slack-Join%20Us-red?logo=slack&logoColor=white&style=for-the-badge" alt="Join our Slack community"></a>
+  <a href="https://join.slack.com/t/openhands-ai/shared_invite/zt-2ngejmfw6-9gW4APWOC9XUp1n~SiQ6iw"><img src="https://img.shields.io/badge/Slack-Join%20Us-red?logo=slack&logoColor=white&style=for-the-badge" alt="Join our Slack community"></a>
   <a href="https://discord.gg/ESHStjSjD4"><img src="https://img.shields.io/badge/Discord-Join%20Us-purple?logo=discord&logoColor=white&style=for-the-badge" alt="Join our Discord community"></a>
   <a href="https://github.com/All-Hands-AI/OpenHands/blob/main/CREDITS.md"><img src="https://img.shields.io/badge/Project-Credits-blue?style=for-the-badge&color=FFE165&logo=github&logoColor=white" alt="Credits"></a>
   <br/>
@@ -53,18 +53,22 @@ See the [Running OpenHands](https://docs.all-hands.dev/modules/usage/installatio
 system requirements and more information.
 
 ```bash
-docker pull docker.all-hands.dev/all-hands-ai/runtime:0.28-nikolaik
+docker pull docker.all-hands.dev/all-hands-ai/runtime:0.31-nikolaik
 
 docker run -it --rm --pull=always \
-    -e SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.all-hands.dev/all-hands-ai/runtime:0.28-nikolaik \
+    -e SANDBOX_RUNTIME_CONTAINER_IMAGE=docker.all-hands.dev/all-hands-ai/runtime:0.31-nikolaik \
     -e LOG_ALL_EVENTS=true \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v ~/.openhands-state:/.openhands-state \
     -p 3000:3000 \
     --add-host host.docker.internal:host-gateway \
     --name openhands-app \
-    docker.all-hands.dev/all-hands-ai/openhands:0.28
+    docker.all-hands.dev/all-hands-ai/openhands:0.31
 ```
+
+> [!WARNING]
+> On a public network? See our [Hardened Docker Installation](https://docs.all-hands.dev/modules/usage/runtimes/docker#hardened-docker-installation) guide
+> to secure your deployment by restricting network binding and implementing additional security measures.
 
 You'll find OpenHands running at [http://localhost:3000](http://localhost:3000)!
 
@@ -74,7 +78,7 @@ works best, but you have [many options](https://docs.all-hands.dev/modules/usage
 
 ---
 
-You can also [connect OpenHands to your local filesystem](https://docs.all-hands.dev/modules/usage/runtimes#connecting-to-your-filesystem),
+You can also [connect OpenHands to your local filesystem](https://docs.all-hands.dev/modules/usage/runtimes/docker#connecting-to-your-filesystem),
 run OpenHands in a scriptable [headless mode](https://docs.all-hands.dev/modules/usage/how-to/headless-mode),
 interact with it via a [friendly CLI](https://docs.all-hands.dev/modules/usage/how-to/cli-mode),
 or run it on tagged issues with [a github action](https://docs.all-hands.dev/modules/usage/how-to/github-action).
@@ -106,7 +110,7 @@ troubleshooting resources, and advanced configuration options.
 OpenHands is a community-driven project, and we welcome contributions from everyone. We do most of our communication
 through Slack, so this is the best place to start, but we also are happy to have you contact us on Discord or Github:
 
-- [Join our Slack workspace](https://join.slack.com/t/openhands-ai/shared_invite/zt-2ypg5jweb-d~6hObZDbXi_HEL8PDrbHg) - Here we talk about research, architecture, and future development.
+- [Join our Slack workspace](https://join.slack.com/t/openhands-ai/shared_invite/zt-2ngejmfw6-9gW4APWOC9XUp1n~SiQ6iw) - Here we talk about research, architecture, and future development.
 - [Join our Discord server](https://discord.gg/ESHStjSjD4) - This is a community-run server for general discussion, questions, and feedback.
 - [Read or post Github Issues](https://github.com/All-Hands-AI/OpenHands/issues) - Check out the issues we're working on, or add your own ideas.
 

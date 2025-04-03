@@ -1,9 +1,9 @@
 ---
 title: postiz-app
-date: 2025-01-05T12:19:42+08:00
+date: 2025-04-03T12:22:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734487797924-822d3b1b87ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735615479490-237b941e996a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735615479490-237b941e996a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
@@ -65,11 +65,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1734487797924-822d3b1b87
   <br/>
     <a href="https://platform.postiz.com">Register</a>
     ·
-    <a href="https://discord.postiz.com">Join Our Discord</a>
+    <a href="https://discord.postiz.com">Join Our Discord (devs only)</a>
     ·
-    <a href="https://twitter.com/nevodavid">X</a>
+    <a href="https://twitter.com/getpostiz">X</a>
     ·
     <a href="https://gitroom.com">Gitroom</a>
+    ·
+    <a href="https://git.sn/telegram">Telegram (Crypto)</a>
   </p>
 
 <br />
@@ -104,12 +106,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1734487797924-822d3b1b87
 ## Quick Start
 To have the project up and running, please follow the [Quick Start Guide](https://docs.postiz.com/quickstart)
 
-##
-
+## Invest in the Postiz Coin :)
+DMsTbeCfX1crgAse5tver98KAMarPWeP3d6U3Gmmpump
 
 # License
 
-This repository's source code is available under the [Apache 2.0 License](LICENSE).
+This repository's source code is available under the [AGPL-3.0 license](LICENSE).
 
 <br /><br /><br />
 

@@ -1,9 +1,9 @@
 ---
 title: awesome-mcp-servers
-date: 2025-04-02T12:21:13+08:00
+date: 2025-04-03T12:21:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726455083595-fb3d23fa3d2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM1Njc2NDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726455083595-fb3d23fa3d2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM1Njc2NDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741546694630-b8b4408e3cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741546694630-b8b4408e3cba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
 ---
 
 # [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)
