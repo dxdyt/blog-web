@@ -1,9 +1,9 @@
 ---
 title: crawl4ai
-date: 2025-04-03T12:22:00+08:00
+date: 2025-04-04T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741496775671-c570e5838260?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741496775671-c570e5838260?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741557571786-e922da981949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741557571786-e922da981949?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
 ---
 
 # [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai)

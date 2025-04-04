@@ -1,9 +1,9 @@
 ---
 title: union
-date: 2025-03-08T12:16:51+08:00
+date: 2025-04-04T12:21:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735597143982-83d10c5e84d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735597143982-83d10c5e84d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1739279479894-71d500e7886d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1739279479894-71d500e7886d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
 ---
 
 # [unionlabs/union](https://github.com/unionlabs/union)
@@ -37,7 +37,7 @@ The upgradability of contracts on other chains, connections, token configuration
 
 | Component                                             | Description                                          | Language(s)           |
 | ----------------------------------------------------- | ---------------------------------------------------- | --------------------- |
-| [`uniond`](./uniond)                                  | The Union node implementation, using [`CometBLS`]    | [Go]                  |
+| [`uniond`](./uniond/README.md)                        | The Union node implementation, using [`CometBLS`]    | [Go]                  |
 | [`galoisd`](./galoisd)                                | The zero-knowledge prover implementation             | [Go] [Gnark]          |
 | [`voyager`](./voyager)                                | Modular hyper-performant cross-ecosystem relayer     | [Rust]                |
 | [`hubble`](./hubble)                                  | Multi-ecosystem, GMP-enabled chain indexer           | [Rust]                |

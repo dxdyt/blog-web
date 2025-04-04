@@ -1,16 +1,18 @@
 ---
 title: fleet
-date: 2024-06-15T12:18:33+08:00
+date: 2025-04-04T12:22:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714239198591-d978392b04f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg0MjUwNjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742560897614-69c3f47771be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742560897614-69c3f47771be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
 ---
 
 # [fleetdm/fleet](https://github.com/fleetdm/fleet)
 
-<h1><a href="https://fleetdm.com"><img width="200" alt="Fleet logo, landscape, dark text, transparent background" src="https://user-images.githubusercontent.com/618009/103300491-9197e280-49c4-11eb-8677-6b41027be800.png"></a></h1>
+<h1><a href="https://fleetdm.com"><img width="200" alt="Fleet logo, landscape, dark text, transparent background" src="https://github.com/user-attachments/assets/5b52c536-f33e-4159-b2a3-d48f31868cd2"></a></h1>
+
 
 #### [News](https://fleetdm.com/announcements) &nbsp; · &nbsp; [Report a bug](https://github.com/fleetdm/fleet/issues/new) &nbsp; · &nbsp; [Handbook](https://fleetdm.com/handbook/company) &nbsp; · &nbsp; [Why open source?](https://fleetdm.com/handbook/company/why-this-way#why-open-source) &nbsp; · &nbsp; [Art](https://fleetdm.com/logos)
+
 
 Open-source platform for IT and security teams with thousands of computers.  Designed for APIs, GitOps, webhooks, YAML, and humans.
 
@@ -52,8 +54,6 @@ Fleet is dedicated to flexibility, accessibility, and clarity.  We think [everyo
 Fleet has no ambition to replace all of your other tools.  (Though it might replace some, if you want it to.)  Ready-to-use, enterprise-friendly integrations exist for Snowflake, Splunk, GitHub Actions, Vanta, Elastic Jira, Zendesk, and more.
 
 Fleet plays well with Munki, Chef, Puppet, and Ansible, as well as with security tools like Crowdstrike and SentinelOne.  For example, you can use the free version of Fleet to quickly report on what hosts are _actually_ running your EDR agent.
-
-While most folks prefer to use one or the other, Fleet can also coexist peacefully with Rapid7 and other agent-based vulnerability scanners.  This can be useful during migrations.
 
 #### Free as in free
 The free version of Fleet will [always be free](https://fleetdm.com/pricing).  Fleet is [independently backed](https://linkedin.com/company/fleetdm) and actively maintained with the help of many amazing [contributors](https://github.com/fleetdm/fleet/graphs/contributors).

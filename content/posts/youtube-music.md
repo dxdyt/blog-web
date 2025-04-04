@@ -1,9 +1,9 @@
 ---
 title: youtube-music
-date: 2025-04-03T12:21:45+08:00
+date: 2025-04-04T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742576948659-3c630862a38d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742576948659-3c630862a38d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742560897614-69c3f47771be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742560897614-69c3f47771be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
 ---
 
 # [th-ch/youtube-music](https://github.com/th-ch/youtube-music)

@@ -1,9 +1,9 @@
 ---
 title: browser-use
-date: 2025-03-27T12:21:27+08:00
+date: 2025-04-04T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736049621371-4507004ac8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMwNDkyMDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741174648069-4af442ef5238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741174648069-4af442ef5238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
 ---
 
 # [browser-use/browser-use](https://github.com/browser-use/browser-use)
@@ -38,7 +38,7 @@ With pip (Python>=3.11):
 pip install browser-use
 ```
 
-Install Playwright: 
+Install Playwright:
 ```bash
 playwright install chromium
 ```
@@ -147,7 +147,7 @@ Tell your computer what to do, and it gets it done.
 ### Rerunning tasks
 
 - [ ] LLM as fallback
-- [ ] Make it easy to define workfow templates where LLM fills in the details
+- [ ] Make it easy to define workflow templates where LLM fills in the details
 - [ ] Return playwright script from the agent
 
 ### Datasets
@@ -169,6 +169,11 @@ We love contributions! Feel free to open issues for bugs or feature requests. To
 ## Local Setup
 
 To learn more about the library, check out the [local setup 📕](https://docs.browser-use.com/development/local-setup).
+
+
+`main` is the primary development branch with frequent changes. For production use, install a stable [versioned release](https://github.com/browser-use/browser-use/releases) instead.
+
+---
 
 ## Cooperations
 
@@ -196,7 +201,6 @@ If you use Browser Use in your research or project, please cite:
 ```
 
  <div align="center"> <img src="https://github.com/user-attachments/assets/06fa3078-8461-4560-b434-445510c1766f" width="400"/> 
-
  
 [![Twitter Follow](https://img.shields.io/twitter/follow/Gregor?style=social)](https://x.com/gregpr07)
 [![Twitter Follow](https://img.shields.io/twitter/follow/Magnus?style=social)](https://x.com/mamagnus00)
