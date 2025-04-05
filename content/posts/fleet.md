@@ -1,9 +1,9 @@
 ---
 title: fleet
-date: 2025-04-04T12:22:04+08:00
+date: 2025-04-05T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742560897614-69c3f47771be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742560897614-69c3f47771be?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734671243484-2ee792c73bbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
 ---
 
 # [fleetdm/fleet](https://github.com/fleetdm/fleet)

@@ -1,9 +1,9 @@
 ---
 title: inbox-zero
-date: 2025-04-04T12:20:58+08:00
+date: 2025-04-05T12:20:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741174648069-4af442ef5238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741174648069-4af442ef5238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742626157103-76367e3798bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742626157103-76367e3798bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
 ---
 
 # [elie222/inbox-zero](https://github.com/elie222/inbox-zero)

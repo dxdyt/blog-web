@@ -1,9 +1,9 @@
 ---
 title: backstage
-date: 2024-11-16T12:20:46+08:00
+date: 2025-04-05T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729599923203-b927168c1f83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729599923203-b927168c1f83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzE3MzA3Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1740248097266-6da885266331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1740248097266-6da885266331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
 ---
 
 # [backstage/backstage](https://github.com/backstage/backstage)
@@ -79,7 +79,7 @@ See the [GOVERNANCE.md](https://github.com/backstage/community/blob/main/GOVERNA
 
 ## License
 
-Copyright 2020-2024 © The Backstage Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage page: https://www.linuxfoundation.org/trademark-usage
+Copyright 2020-2025 © The Backstage Authors. All rights reserved. The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our Trademark Usage page: https://www.linuxfoundation.org/trademark-usage
 
 Licensed under the Apache License, Version 2.0: http://www.apache.org/licenses/LICENSE-2.0
 

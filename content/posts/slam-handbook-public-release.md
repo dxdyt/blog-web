@@ -1,9 +1,9 @@
 ---
 title: slam-handbook-public-release
-date: 2025-04-04T12:21:08+08:00
+date: 2025-04-05T12:21:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734760372206-4d8b70580b95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734760372206-4d8b70580b95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741851373816-91017faa8553?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741851373816-91017faa8553?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM4MjY3OTB8&ixlib=rb-4.0.3
 ---
 
 # [SLAM-Handbook-contributors/slam-handbook-public-release](https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release)
