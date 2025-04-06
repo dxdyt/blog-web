@@ -1,9 +1,9 @@
 ---
 title: bootstrap
-date: 2025-02-22T12:19:58+08:00
+date: 2025-04-06T12:21:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739609439850-2eace0b03218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739609439850-2eace0b03218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxOTc5MzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742558701206-55aa0c21cc8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5MTMyNTR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742558701206-55aa0c21cc8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5MTMyNTR8&ixlib=rb-4.0.3
 ---
 
 # [twbs/bootstrap](https://github.com/twbs/bootstrap)
@@ -56,11 +56,12 @@ Our default branch is for development of our Bootstrap 5 release. Head to the [`
 
 Several quick start options are available:
 
-- [Download the latest release](https://github.com/twbs/bootstrap/archive/v5.3.3.zip)
+- [Download the latest release](https://github.com/twbs/bootstrap/archive/v5.3.5.zip)
 - Clone the repo: `git clone https://github.com/twbs/bootstrap.git`
-- Install with [npm](https://www.npmjs.com/): `npm install bootstrap@v5.3.3`
-- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@v5.3.3`
-- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:5.3.3`
+- Install with [npm](https://www.npmjs.com/): `npm install bootstrap@v5.3.5`
+- Install with [yarn](https://yarnpkg.com/): `yarn add bootstrap@v5.3.5`
+- Install with [Bun](https://bun.sh/): `bun add bootstrap@v5.3.5`
+- Install with [Composer](https://getcomposer.org/): `composer require twbs/bootstrap:5.3.5`
 - Install with [NuGet](https://www.nuget.org/): CSS: `Install-Package bootstrap` Sass: `Install-Package bootstrap.sass`
 
 Read the [Getting started page](https://getbootstrap.com/docs/5.3/getting-started/introduction/) for information on the framework contents, templates, examples, and more.
@@ -184,7 +185,7 @@ Editor preferences are available in the [editor config](https://github.com/twbs/
 
 Get updates on Bootstrap's development and chat with the project maintainers and community members.
 
-- Follow [@getbootstrap on Twitter](https://twitter.com/getbootstrap).
+- Follow [@getbootstrap on X](https://x.com/getbootstrap).
 - Read and subscribe to [The Official Bootstrap Blog](https://blog.getbootstrap.com/).
 - Ask questions and explore [our GitHub Discussions](https://github.com/twbs/bootstrap/discussions).
 - Discuss, ask questions, and more on [the community Discord](https://discord.gg/bZUvakRU3M) or [Bootstrap subreddit](https://www.reddit.com/r/bootstrap/).
@@ -204,12 +205,12 @@ See [the Releases section of our GitHub project](https://github.com/twbs/bootstr
 
 **Mark Otto**
 
-- <https://twitter.com/mdo>
+- <https://x.com/mdo>
 - <https://github.com/mdo>
 
 **Jacob Thornton**
 
-- <https://twitter.com/fat>
+- <https://x.com/fat>
 - <https://github.com/fat>
 
 
