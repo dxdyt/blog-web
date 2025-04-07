@@ -1,9 +1,9 @@
 ---
 title: markitdown
-date: 2025-03-22T12:20:48+08:00
+date: 2025-04-07T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740131971089-8f46b62c18d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740131971089-8f46b62c18d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741367637710-ed371718bd1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741367637710-ed371718bd1c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/markitdown](https://github.com/microsoft/markitdown)
@@ -14,9 +14,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1740131971089-8f46b62c18
 ![PyPI - Downloads](https://img.shields.io/pypi/dd/markitdown)
 [![Built by AutoGen Team](https://img.shields.io/badge/Built%20by-AutoGen%20Team-blue)](https://github.com/microsoft/autogen)
 
+> [!TIP]
+> MarkItDown now offers an MCP (Model Context Protocol) server for integration with LLM applications like Claude Desktop. See [markitdown-mcp](https://github.com/microsoft/markitdown/tree/main/packages/markitdown-mcp) for more information.
+
 > [!IMPORTANT]
 > Breaking changes between 0.0.1 to 0.1.0:
-> * Dependencies are now organized into optional feature-groups (further details below). Use `pip install 'markitdown[all]~=0.1.0a1'` to have backward-compatible behavior. 
+> * Dependencies are now organized into optional feature-groups (further details below). Use `pip install 'markitdown[all]'` to have backward-compatible behavior. 
+> * convert\_stream() now requires a binary file-like object (e.g., a file opened in binary mode, or an io.BytesIO object). This is a breaking change from the previous version, where it previously also accepted text file-like objects, like io.StringIO.
 > * The DocumentConverter class interface has changed to read from file-like streams rather than file paths. *No temporary files are created anymore*. If you are the maintainer of a plugin, or custom DocumentConverter, you likely need to update your code. Otherwise, if only using the MarkItDown class or CLI (as in these examples), you should not need to change anything.
 
 MarkItDown is a lightweight Python utility for converting various files to Markdown for use with LLMs and related text analysis pipelines. To this end, it is most comparable to [textract](https://github.com/deanmalmgren/textract), but with a focus on preserving important document structure and content as Markdown (including: headings, lists, tables, links, etc.) While the output is often reasonably presentable and human-friendly, it is meant to be consumed by text analysis tools -- and may not be the best option for high-fidelity document conversions for human consumption.
@@ -47,7 +51,7 @@ are also highly token-efficient.
 
 ## Installation
 
-To install MarkItDown, use pip: `pip install 'markitdown[all]~=0.1.0a1'`. Alternatively, you can install it from the source:
+To install MarkItDown, use pip: `pip install 'markitdown[all]'`. Alternatively, you can install it from the source:
 
 ```bash
 git clone git@github.com:microsoft/markitdown.git

@@ -1,9 +1,9 @@
 ---
 title: llm-cookbook
-date: 2025-02-16T12:18:56+08:00
+date: 2025-04-07T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739469600176-b58ebd9b9404?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739469600176-b58ebd9b9404?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742336960947-d70838aa9614?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742336960947-d70838aa9614?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [datawhalechina/llm-cookbook](https://github.com/datawhalechina/llm-cookbook)
@@ -94,6 +94,7 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 **核心贡献者**
 
 - [邹雨衡-项目负责人](https://github.com/logan-zou)（Datawhale成员-对外经济贸易大学研究生）
+- [左春生-项目负责人](https://github.com/LinChentang)（内容创作者-Datawhale成员）
 - [长琴-项目发起人](https://yam.gift/)（内容创作者-Datawhale成员-AI算法工程师）
 - [玉琳-项目发起人](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
 - [徐虎-教程编撰者](https://github.com/xuhu0115)（内容创作者-Datawhale成员）
@@ -112,7 +113,6 @@ LLM 正在逐步改变人们的生活，而对于开发者，如何基于 LLM �
 - [小饭同学](https://github.com/xinqi-fan)（内容创作者）
 - [孙韩玉](https://github.com/sunhanyu714])（内容创作者-算法量化部署工程师）
 - [张银晗](https://github.com/YinHan-Zhang)（内容创作者-Datawhale成员）
-- [左春生](https://github.com/LinChentang)（内容创作者-Datawhale成员）
 - [张晋](https://github.com/Jin-Zhang-Yaoguang)（内容创作者-Datawhale成员）
 - [李娇娇](https://github.com/Aphasia0515)（内容创作者-Datawhale成员）
 - [邓恺俊](https://github.com/Kedreamix)（内容创作者-Datawhale成员）

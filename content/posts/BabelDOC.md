@@ -1,9 +1,9 @@
 ---
 title: BabelDOC
-date: 2025-04-06T12:21:50+08:00
+date: 2025-04-07T12:22:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739188366834-1281a22a1ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5MTMyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739188366834-1281a22a1ac5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5MTMyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741548384019-44e405f96772?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741548384019-44e405f96772?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
 ---
 
 # [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC)
@@ -36,6 +36,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1739188366834-1281a22a1a
   <a href="https://t.me/+Z9_SgnxmsmA5NzBl">
     <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
 </p>
+
+<a href="https://trendshift.io/repositories/13358" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13358" alt="funstory-ai%2FBabelDOC | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 
 PDF scientific paper translation and bilingual comparison library.
@@ -175,6 +178,7 @@ uv run babeldoc --files example.pdf --files example2.pdf --openai --openai-model
 > 1. Currently, only OpenAI-compatible LLM is supported. For more translator support, please use [PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate).
 > 2. It is recommended to use models with strong compatibility with OpenAI, such as: `glm-4-flash`, `deepseek-chat`, etc.
 > 3. Currently, it has not been optimized for traditional translation engines like Bing/Google, it is recommended to use LLMs.
+> 4. You can use [litellm](https://github.com/BerriAI/litellm) to access multiple models.
 
 ### OpenAI Specific Options
 
