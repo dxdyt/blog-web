@@ -1,9 +1,9 @@
 ---
 title: llama-models
-date: 2025-04-07T12:21:17+08:00
+date: 2025-04-08T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740231614830-30ce7f2e8dbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740231614830-30ce7f2e8dbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734779206719-864dbdae36d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734779206719-864dbdae36d6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-models](https://github.com/meta-llama/llama-models)
@@ -64,7 +64,7 @@ In order to run the models, you will need to install dependencies after checking
 
 ```bash
 # Run this within a suitable Python environment (uv, conda, or virtualenv)
-pip install -e .[torch]
+pip install .[torch]
 ```
 
 Example scripts are available in `models/{ llama3, llama4 }/scripts/` sub-directory. Note that the Llama4 series of models require at least 4 GPUs to run inference at full (bf16) precision.
@@ -125,7 +125,7 @@ huggingface-cli download meta-llama/Llama-4-Scout-17B-16E-Instruct-Original --lo
 - To use with transformers, the following snippet will download and cache the weights:
 
   ```python
-  #inference.py
+  # inference.py
   from transformers import AutoTokenizer, Llama4ForConditionalGeneration
   import torch
 
@@ -136,16 +136,16 @@ huggingface-cli download meta-llama/Llama-4-Scout-17B-16E-Instruct-Original --lo
   messages = [
       {"role": "user", "content": "Who are you?"},
   ]
-  inputs = tokenizer.apply_chat_template(messages, add_generation_prompt=True, return_tensors="pt", return_dict=True)
+  inputs = tokenizer.apply_chat_template(
+      messages, add_generation_prompt=True, return_tensors="pt", return_dict=True
+  )
 
   model = Llama4ForConditionalGeneration.from_pretrained(
-      model_id,
-      device_map="auto",
-      torch_dtype=torch.bfloat16
+      model_id, device_map="auto", torch_dtype=torch.bfloat16
   )
 
   outputs = model.generate(**inputs.to(model.device), max_new_tokens=100)
-  outputs = tokenizer.batch_decode(outputs[:, inputs["input_ids"].shape[-1]:])
+  outputs = tokenizer.batch_decode(outputs[:, inputs["input_ids"].shape[-1] :])
   print(outputs[0])
   ```
   ```bash

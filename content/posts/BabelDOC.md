@@ -1,9 +1,9 @@
 ---
 title: BabelDOC
-date: 2025-04-07T12:22:00+08:00
+date: 2025-04-08T12:21:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741548384019-44e405f96772?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741548384019-44e405f96772?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5OTk2Njh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735827944657-66b0b7631a95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735827944657-66b0b7631a95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
 ---
 
 # [funstory-ai/BabelDOC](https://github.com/funstory-ai/BabelDOC)
