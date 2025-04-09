@@ -1,9 +1,9 @@
 ---
 title: llama-cookbook
-date: 2025-04-08T12:21:36+08:00
+date: 2025-04-09T12:22:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741006727915-d25215fdaf04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741006727915-d25215fdaf04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735342623457-b683e0ba1c2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735342623457-b683e0ba1c2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [meta-llama/llama-cookbook](https://github.com/meta-llama/llama-cookbook)

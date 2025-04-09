@@ -1,9 +1,9 @@
 ---
 title: protobuf
-date: 2025-01-11T12:20:34+08:00
+date: 2025-04-09T12:23:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735236270565-983422d5a224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735236270565-983422d5a224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
@@ -66,7 +66,8 @@ bazel_dep(name = "protobuf", version = <VERSION>, repo_name = "com_google_protob
 Users can also add the following to their legacy
 [WORKSPACE](https://bazel.build/external/overview#workspace-system) file.
 
-Note that the `protobuf_extra_deps.bzl` is added in the `v30.x` release.
+Note that with the release of 30.x there are a few more load statements to
+properly set up rules_java and rules_python.
 
 ```
 http_archive(
@@ -80,9 +81,17 @@ load("@com_google_protobuf//:protobuf_deps.bzl", "protobuf_deps")
 
 protobuf_deps()
 
-load("@com_google_protobuf//:protobuf_extra_deps.bzl", "protobuf_extra_deps")
+load("@rules_java//java:rules_java_deps.bzl", "rules_java_dependencies")
 
-protobuf_extra_deps();
+rules_java_dependencies()
+
+load("@rules_java//java:repositories.bzl", "rules_java_toolchains")
+
+rules_java_toolchains()
+
+load("@rules_python//python:repositories.bzl", "py_repositories")
+
+py_repositories()
 ```
 
 Protobuf Compiler Installation

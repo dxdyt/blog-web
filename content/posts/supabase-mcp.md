@@ -1,9 +1,9 @@
 ---
 title: supabase-mcp
-date: 2025-04-08T12:21:19+08:00
+date: 2025-04-09T12:21:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735827944657-66b0b7631a95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735827944657-66b0b7631a95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)
@@ -54,9 +54,9 @@ Next, configure your MCP client (such as Cursor) to use this server. Most MCP cl
 }
 ```
 
-Replace `<personal-access-token>` with the token you created in step 1. If you are on Windows, you will need to [prefix this command](#windows).
+Replace `<personal-access-token>` with the token you created in step 1. Alternatively you can omit `--access-token` and instead set the `SUPABASE_ACCESS_TOKEN` environment variable to your personal access token (you will need to restart your MCP client after setting this). This allows you to keep your token out of version control if you plan on committing this configuration to a repository.
 
-If your MCP client doesn't accept JSON, the direct CLI command is:
+If you are on Windows, you will need to [prefix the command](#windows). If your MCP client doesn't accept JSON, the direct CLI command is:
 
 ```shell
 npx -y @supabase/mcp-server-supabase@latest --access-token=<personal-access-token>

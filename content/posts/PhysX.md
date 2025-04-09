@@ -1,9 +1,9 @@
 ---
 title: PhysX
-date: 2025-04-08T12:21:44+08:00
+date: 2025-04-09T12:22:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742974028118-4ece3027eef0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742974028118-4ece3027eef0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1725980457213-e718a2b7bb5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1725980457213-e718a2b7bb5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA-Omniverse/PhysX](https://github.com/NVIDIA-Omniverse/PhysX)

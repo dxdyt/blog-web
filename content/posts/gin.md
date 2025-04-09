@@ -1,9 +1,9 @@
 ---
 title: gin
-date: 2024-06-19T12:18:54+08:00
+date: 2025-04-09T12:22:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1716404084927-176ee37a9dbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1716404084927-176ee37a9dbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTg3NzA2MzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1724901318115-5c242fbbc38e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1724901318115-5c242fbbc38e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [gin-gonic/gin](https://github.com/gin-gonic/gin)
@@ -40,7 +40,7 @@ If you need performance and good productivity, you will love Gin.
 
 ### Prerequisites
 
-Gin requires [Go](https://go.dev/) version [1.21](https://go.dev/doc/devel/release#go1.21.0) or above.
+Gin requires [Go](https://go.dev/) version [1.23](https://go.dev/doc/devel/release#go1.23.0) or above.
 
 ### Getting Gin
 
@@ -83,7 +83,7 @@ func main() {
 To run the code, use the `go run` command, like:
 
 ```sh
-$ go run example.go
+go run example.go
 ```
 
 Then visit [`0.0.0.0:8080/ping`](http://0.0.0.0:8080/ping) in your browser to see the response!
@@ -112,6 +112,7 @@ The documentation is also available on [gin-gonic.com](https://gin-gonic.com) in
 - [한국어](https://gin-gonic.com/ko-kr/docs/)
 - [Turkish](https://gin-gonic.com/tr/docs/)
 - [Persian](https://gin-gonic.com/fa/docs/)
+- [Português](https://gin-gonic.com/pt/docs/)
 
 ### Articles
 
@@ -122,7 +123,7 @@ The documentation is also available on [gin-gonic.com](https://gin-gonic.com) in
 Gin uses a custom version of [HttpRouter](https://github.com/julienschmidt/httprouter), [see all benchmarks](/BENCHMARKS.md).
 
 | Benchmark name                 |       (1) |             (2) |          (3) |             (4) |
-| ------------------------------ | ---------:| ---------------:| ------------:| ---------------:|
+| ------------------------------ | --------: | --------------: | -----------: | --------------: |
 | BenchmarkGin_GithubAll         | **43550** | **27364 ns/op** |   **0 B/op** | **0 allocs/op** |
 | BenchmarkAce_GithubAll         |     40543 |     29670 ns/op |       0 B/op |     0 allocs/op |
 | BenchmarkAero_GithubAll        |     57632 |     20648 ns/op |       0 B/op |     0 allocs/op |

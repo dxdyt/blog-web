@@ -1,9 +1,9 @@
 ---
 title: SpacetimeDB
-date: 2025-04-08T12:21:28+08:00
+date: 2025-04-09T12:21:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742293603887-8ad55acbef3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742293603887-8ad55acbef3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1735342623457-b683e0ba1c2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1735342623457-b683e0ba1c2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)

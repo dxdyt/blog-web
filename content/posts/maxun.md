@@ -1,16 +1,16 @@
 ---
 title: maxun
-date: 2025-01-23T12:19:36+08:00
+date: 2025-04-09T12:21:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735822081174-c919b99e8623?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735822081174-c919b99e8623?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2MDU5MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741800459649-1992621b796f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741800459649-1992621b796f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [getmaxun/maxun](https://github.com/getmaxun/maxun)
 
 <h1 align="center">
     <div>
-        <a href="https://maxun-website.vercel.app/?ref=ghread">
+        <a href="https://www.maxun.dev/?ref=ghread">
             <img src="/src/assets/maxunlogo.png" width="50" />
             <br>
             Maxun
@@ -113,8 +113,11 @@ You can access the frontend at http://localhost:5173/ and backend at http://loca
 | `GOOGLE_CLIENT_ID`    | No       | Client ID for Google OAuth, used for Google Sheet integration authentication.                 | Google login will not work.                                  |
 | `GOOGLE_CLIENT_SECRET`| No       | Client Secret for Google OAuth.                                                              | Google login will not work.                                  |
 | `GOOGLE_REDIRECT_URI` | No       | Redirect URI for handling Google OAuth responses.                                            | Google login will not work.                                  |
+| `AIRTABLE_CLIENT_ID` | No       | Client ID for Airtable, used for Airtable integration authentication.                         | Airtable login will not work.  |
+| `AIRTABLE_REDIRECT_URI` | No    | Redirect URI for handling Airtable OAuth responses.                                           | Airtable login will not work.  |
 | `REDIS_HOST`          | Yes       | Host address of the Redis server, used by BullMQ for scheduling robots.                     | Redis connection will fail. |
-| `REDIS_PORT`          | Yes       | Port number for the Redis server.                                                            | Redis connection will fail. |
+| `REDIS_PORT`          | Yes       | Port number for the Redis server.                                                           | Redis connection will fail. |
+| `REDIS_PASSWORD`          | No       | Password for Redis Authentication. Needed to authenticate with a password-protected Redis instance;                     | Redis will attempt to connect without authentication. |
 | `MAXUN_TELEMETRY`     | No        | Disables telemetry to stop sending anonymous usage data. Keeping it enabled helps us understand how the product is used and assess the impact of any new changes. Please keep it enabled. | Telemetry data will not be collected. |
 
 

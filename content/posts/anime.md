@@ -1,9 +1,9 @@
 ---
 title: anime
-date: 2025-04-08T12:21:51+08:00
+date: 2025-04-09T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724376682600-6540c4570ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724376682600-6540c4570ac8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQwODYwNDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742302954292-1f903368084e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742302954292-1f903368084e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
 ---
 
 # [juliangarnier/anime](https://github.com/juliangarnier/anime)
