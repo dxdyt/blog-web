@@ -1,15 +1,16 @@
 ---
 title: ml-course
-date: 2023-11-07T12:16:31+08:00
+date: 2025-04-10T12:22:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1695937881958-d17f02448575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1695937881958-d17f02448575?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTkzMzA1MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741610748460-fb2e33cc6390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741610748460-fb2e33cc6390?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
 ---
 
 # [girafe-ai/ml-course](https://github.com/girafe-ai/ml-course)
 
-# Machine Learning course
+[**Ссылка на ветку ML тренировок Яндекса 2023**](https://github.com/girafe-ai/ml-course/tree/23f_yandex_ml_trainings)
 
+# Machine Learning course
 First semester of girafe-ai Machine Learning course
 
 ## Recordings and materials

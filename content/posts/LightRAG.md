@@ -1,9 +1,9 @@
 ---
 title: LightRAG
-date: 2025-04-09T12:21:07+08:00
+date: 2025-04-10T12:21:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741882239311-e769227bdee5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741882239311-e769227bdee5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736580602839-c537bf31cfd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736580602839-c537bf31cfd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
 ---
 
 # [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)
@@ -50,7 +50,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1741882239311-e769227bde
 
 ## 🎉 News
 
-- [X] [2025.03.18]🎯📢LightRAG now supports citation functionality.
+- [X] [2025.03.18]🎯📢LightRAG now supports citation functionality, enabling proper source attribution.
 - [X] [2025.02.05]🎯📢Our team has released [VideoRAG](https://github.com/HKUDS/VideoRAG) understanding extremely long-context videos.
 - [X] [2025.01.13]🎯📢Our team has released [MiniRAG](https://github.com/HKUDS/MiniRAG) making RAG simpler with small models.
 - [X] [2025.01.06]🎯📢You can now [use PostgreSQL for Storage](#using-postgresql-for-storage).

@@ -1,9 +1,9 @@
 ---
 title: supabase-mcp
-date: 2025-04-09T12:21:16+08:00
+date: 2025-04-10T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742845918430-c6093f93f740?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742845918430-c6093f93f740?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
 ---
 
 # [supabase-community/supabase-mcp](https://github.com/supabase-community/supabase-mcp)
