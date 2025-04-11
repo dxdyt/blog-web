@@ -1,9 +1,9 @@
 ---
 title: cuda-python
-date: 2025-04-09T12:22:32+08:00
+date: 2025-04-11T12:22:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741800459649-1992621b796f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741800459649-1992621b796f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741850826368-12d515927617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQzNDUzMDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741850826368-12d515927617?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQzNDUzMDN8&ixlib=rb-4.0.3
 ---
 
 # [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python)
