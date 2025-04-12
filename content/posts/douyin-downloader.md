@@ -1,9 +1,9 @@
 ---
 title: douyin-downloader
-date: 2025-04-10T12:21:49+08:00
+date: 2025-04-12T12:19:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742657914494-c3c505fd602b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742657914494-c3c505fd602b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQyNTg4NjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741514230340-3acbb34456ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ0MzE1OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741514230340-3acbb34456ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ0MzE1OTJ8&ixlib=rb-4.0.3
 ---
 
 # [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader)
