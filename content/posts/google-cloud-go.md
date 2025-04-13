@@ -1,9 +1,9 @@
 ---
 title: google-cloud-go
-date: 2025-04-12T12:20:40+08:00
+date: 2025-04-13T12:48:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739829349986-e597cccdd791?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ0MzE1OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739829349986-e597cccdd791?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ0MzE1OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743031031848-d1cb97c18395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743031031848-d1cb97c18395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
 ---
 
 # [googleapis/google-cloud-go](https://github.com/googleapis/google-cloud-go)

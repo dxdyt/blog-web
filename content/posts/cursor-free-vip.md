@@ -1,9 +1,9 @@
 ---
 title: cursor-free-vip
-date: 2025-04-12T12:20:09+08:00
+date: 2025-04-13T12:47:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738005789742-78adf216eba7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ0MzE1OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738005789742-78adf216eba7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ0MzE1OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742268350523-70a032f3520d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742268350523-70a032f3520d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
@@ -40,9 +40,11 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
   <img src="./images/pro_2025-04-05_18-47-56.png" alt="new" width="800" style="border-radius: 6px;"/><br>
 </p>
 
-##### If you don't have Google Chrome, you can download it from [here](https://www.google.com/intl/en_pk/chrome/)
+##### If you don't have browser, you can download it from 
+[Google Chrome](https://www.google.com/intl/en_pk/chrome/) or [Opera](https://www.opera.com/download) or [Edge](https://www.microsoft.com/en-us/edge) or [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Brave](https://www.brave.com/download/)
 
-##### 如果沒有 Google Chrome，可以從[這裡](https://www.google.com/intl/en_pk/chrome/)下載
+##### 如果沒有瀏覽器，可以從
+[Google Chrome](https://www.google.com/intl/en_pk/chrome/) 或 [Opera](https://www.opera.com/download) 或 [Edge](https://www.microsoft.com/en-us/edge) 或 [Firefox](https://www.mozilla.org/en-US/firefox/new/) 或 [Brave](https://www.brave.com/download/) 下載
 
 </div>
 
@@ -176,6 +178,33 @@ max_timeout = 160
 check_update = True
 # Show Account Info | 顯示賬號信息
 show_account_info = True
+
+[WindowsPaths]
+storage_path = C:\Users\yeongpin\AppData\Roaming\Cursor\User\globalStorage\storage.json
+sqlite_path = C:\Users\yeongpin\AppData\Roaming\Cursor\User\globalStorage\state.vscdb
+machine_id_path = C:\Users\yeongpin\AppData\Roaming\Cursor\machineId
+cursor_path = C:\Users\yeongpin\AppData\Local\Programs\Cursor\resources\app
+updater_path = C:\Users\yeongpin\AppData\Local\cursor-updater
+update_yml_path = C:\Users\yeongpin\AppData\Local\Programs\Cursor\resources\app-update.yml
+product_json_path = C:\Users\yeongpin\AppData\Local\Programs\Cursor\resources\app\product.json
+
+[Browser]
+default_browser = opera
+chrome_path = C:\Program Files\Google\Chrome\Application\chrome.exe
+edge_path = C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+firefox_path = C:\Program Files\Mozilla Firefox\firefox.exe
+brave_path = C:\Program Files\BraveSoftware/Brave-Browser/Application/brave.exe
+chrome_driver_path = D:\VisualCode\cursor-free-vip-new\drivers\chromedriver.exe
+edge_driver_path = D:\VisualCode\cursor-free-vip-new\drivers\msedgedriver.exe
+firefox_driver_path = D:\VisualCode\cursor-free-vip-new\drivers\geckodriver.exe
+brave_driver_path = D:\VisualCode\cursor-free-vip-new\drivers\chromedriver.exe
+opera_path = C:\Users\yeongpin\AppData\Local\Programs\Opera\opera.exe
+opera_driver_path = D:\VisualCode\cursor-free-vip-new\drivers\chromedriver.exe
+
+[OAuth]
+show_selection_alert = False
+timeout = 120
+max_attempts = 3
 ```
 
 </details>
