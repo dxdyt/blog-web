@@ -1,9 +1,9 @@
 ---
 title: ai-hedge-fund
-date: 2025-04-01T12:22:00+08:00
+date: 2025-04-14T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740859842291-2f321ee84609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM0ODEyNjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740859842291-2f321ee84609?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM0ODEyNjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742657914528-31c194363a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742657914528-31c194363a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
 ---
 
 # [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
@@ -18,15 +18,17 @@ This system employs several agents working together:
 2. Bill Ackman Agent - An activist investors, takes bold positions and pushes for change
 3. Cathie Wood Agent - The queen of growth investing, believes in the power of innovation and disruption
 4. Charlie Munger Agent - Warren Buffett's partner, only buys wonderful businesses at fair prices
-5. Phil Fisher Agent - Legendary growth investor who mastered scuttlebutt analysis
-6. Stanley Druckenmiller Agent - Macro legend who hunts for asymmetric opportunities with growth potential
-7. Warren Buffett Agent - The oracle of Omaha, seeks wonderful companies at a fair price
-8. Valuation Agent - Calculates the intrinsic value of a stock and generates trading signals
-9. Sentiment Agent - Analyzes market sentiment and generates trading signals
-10. Fundamentals Agent - Analyzes fundamental data and generates trading signals
-11. Technicals Agent - Analyzes technical indicators and generates trading signals
-12. Risk Manager - Calculates risk metrics and sets position limits
-13. Portfolio Manager - Makes final trading decisions and generates orders
+5. Michael Burry Agent - The Big Short contrarian who hunts for deep value
+6. Peter Lynch Agent - Practical investor who seeks "ten-baggers" in everyday businesses
+7. Phil Fisher Agent - Meticulous growth investor who uses deep "scuttlebutt" research 
+8. Stanley Druckenmiller Agent - Macro legend who hunts for asymmetric opportunities with growth potential
+9. Warren Buffett Agent - The oracle of Omaha, seeks wonderful companies at a fair price
+10. Valuation Agent - Calculates the intrinsic value of a stock and generates trading signals
+11. Sentiment Agent - Analyzes market sentiment and generates trading signals
+12. Fundamentals Agent - Analyzes fundamental data and generates trading signals
+13. Technicals Agent - Analyzes technical indicators and generates trading signals
+14. Risk Manager - Calculates risk metrics and sets position limits
+15. Portfolio Manager - Makes final trading decisions and generates orders
     
 <img width="1042" alt="Screenshot 2025-03-22 at 6 19 07 PM" src="https://github.com/user-attachments/assets/cbae3dcf-b571-490d-b0ad-3f0f035ac0d4" />
 

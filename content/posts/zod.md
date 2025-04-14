@@ -1,9 +1,9 @@
 ---
 title: zod
-date: 2025-04-13T12:47:30+08:00
+date: 2025-04-14T12:21:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742198526562-fd0c0bd4f164?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742198526562-fd0c0bd4f164?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
 ---
 
 # [colinhacks/zod](https://github.com/colinhacks/zod)

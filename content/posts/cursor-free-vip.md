@@ -1,9 +1,9 @@
 ---
 title: cursor-free-vip
-date: 2025-04-13T12:47:04+08:00
+date: 2025-04-14T12:20:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742268350523-70a032f3520d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742268350523-70a032f3520d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742040949505-95d2c3f0941d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742040949505-95d2c3f0941d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
@@ -20,9 +20,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1742268350523-70a032f352
 [![Release](https://img.shields.io/github/v/release/yeongpin/cursor-free-vip?style=flat-square&logo=github&color=blue)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Stars](https://img.shields.io/github/stars/yeongpin/cursor-free-vip?style=flat-square&logo=github)](https://github.com/yeongpin/cursor-free-vip/stargazers)
-[![Download](https://img.shields.io/github/downloads/yeongpin/cursor-free-vip/total?style=flat-square&logo=github&color=52c41a1)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+<!--
+[![Download](https://img.shields.io/github/downloads/yeongpin/cursor-free-vip/total?style=flat-square&logo=github&color=52c411)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+-->
+[![Downloads](https://badgen.net/badge/Downloads/495k/green?icon=github)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+<a href="https://buymeacoffee.com/yeongpin" target="_blank"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDA33"></a>
 
 </p>
+
+<a href="https://trendshift.io/repositories/13425" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13425" alt="yeongpin%2Fcursor-free-vip | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<br>
+<a href="https://www.buymeacoffee.com/yeongpin" target="_blank">
+      <img src="https://img.buymeacoffee.com/button-api/?text=buy me a coffee&emoji=☕&slug=yeongpin&button_colour=ffda33&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00&latest=2" width="160" height='55' alt="Buy Me a Coffee"/>
+</a>
+
+
 <h4>Support Latest 0.48.x Version | 支持最新 0.48.x 版本</h4>
 
 This tool registers accounts with custom emails, support Google and GitHub account registrations, temporary GitHub account registration, kills all Cursor's running processes, resets and wipes Cursor data and hardware info.
@@ -34,7 +46,7 @@ For optimal performance, run with privileges and always stay up to date.
 Always clean your browser's cache and cookies. If possible, use a VPN to create new accounts.
 
 
-這是一個自動化工具，自動註冊，支持 Windows 和 macOS 系統，完成 Auth 驗證，重置 Cursor 的配置。
+這是一個自動化工具，自動註冊，支持 Windows macOS 和 Linux 系統，完成 Auth 驗證，重置 Cursor 的配置。
 
 <p align="center">
   <img src="./images/pro_2025-04-05_18-47-56.png" alt="new" width="800" style="border-radius: 6px;"/><br>
@@ -60,7 +72,7 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
 
 * Automatically register Cursor membership<br>自動註冊 Cursor 會員<br>
 
-* Support Windows and macOS systems<br>支持 Windows 和 macOS 系統<br>
+* Support Windows macOS and Linux systems<br>支持 Windows、macOS 和 Linux 系統<br>
 
 * Complete Auth verification<br>完成 Auth 驗證<br>
 
@@ -83,13 +95,21 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
 <details open>
 <summary><b>⭐ Auto Run Script | 腳本自動化運行</b></summary>
 
-**Linux/macOS**
+### **Linux/macOS**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/install.sh -o install.sh && chmod +x install.sh && ./install.sh
 ```
 
-**Windows**
+### **Archlinux**
+
+Install via [AUR](https://aur.archlinux.org/packages/cursor-free-vip-git)
+
+```bash
+yay -S cursor-free-vip-git
+```
+
+### **Windows**
 
 ```powershell
 irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/install.ps1 | iex
@@ -100,13 +120,13 @@ irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/inst
 <details>
 <summary><b>⭐ Manual Reset Machine | 手動運行重置機器</b></summary>
 
-**Linux/macOS**
+### **Linux/macOS**
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/reset.sh | sudo bash
 ```
 
-**Windows**
+### **Windows**
 
 ```powershell
 irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/reset.ps1 | iex
