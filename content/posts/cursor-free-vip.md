@@ -1,9 +1,9 @@
 ---
 title: cursor-free-vip
-date: 2025-04-14T12:20:53+08:00
+date: 2025-04-15T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742040949505-95d2c3f0941d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742040949505-95d2c3f0941d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741559935512-3b018321e35f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741559935512-3b018321e35f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
@@ -17,13 +17,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1742040949505-95d2c3f094
 
 <p align="center">
 
-[![Release](https://img.shields.io/github/v/release/yeongpin/cursor-free-vip?style=flat-square&logo=github&color=blue)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+[![Release](https://img.shields.io/endpoint?url=https://www.pinnumber.rr.nu/badges/release/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![Stars](https://img.shields.io/github/stars/yeongpin/cursor-free-vip?style=flat-square&logo=github)](https://github.com/yeongpin/cursor-free-vip/stargazers)
-<!--
-[![Download](https://img.shields.io/github/downloads/yeongpin/cursor-free-vip/total?style=flat-square&logo=github&color=52c411)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
--->
-[![Downloads](https://badgen.net/badge/Downloads/495k/green?icon=github)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+[![Stars](https://img.shields.io/endpoint?url=https://www.pinnumber.rr.nu/badges/stars/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/stargazers)
+[![Downloads](https://img.shields.io/endpoint?url=https://www.pinnumber.rr.nu/badges/downloads/yeongpin/cursor-free-vip/total)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
 <a href="https://buymeacoffee.com/yeongpin" target="_blank"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDA33"></a>
 
 </p>
@@ -52,11 +49,11 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
   <img src="./images/pro_2025-04-05_18-47-56.png" alt="new" width="800" style="border-radius: 6px;"/><br>
 </p>
 
-##### If you don't have browser, you can download it from 
-[Google Chrome](https://www.google.com/intl/en_pk/chrome/) or [Opera](https://www.opera.com/download) or [Edge](https://www.microsoft.com/en-us/edge) or [Firefox](https://www.mozilla.org/en-US/firefox/new/) or [Brave](https://www.brave.com/download/)
+##### If you don't have browser, you can download it from  
 
-##### 如果沒有瀏覽器，可以從
-[Google Chrome](https://www.google.com/intl/en_pk/chrome/) 或 [Opera](https://www.opera.com/download) 或 [Edge](https://www.microsoft.com/en-us/edge) 或 [Firefox](https://www.mozilla.org/en-US/firefox/new/) 或 [Brave](https://www.brave.com/download/) 下載
+##### 如果沒有瀏覽器，可以從这里下載  
+
+[Google Chrome](https://www.google.com/intl/en_pk/chrome/) | [Opera](https://www.opera.com/download) | [Edge](https://www.microsoft.com/en-us/edge) | [Firefox](https://www.mozilla.org/en-US/firefox/new/) | [Brave](https://www.brave.com/download/)
 
 </div>
 
@@ -84,11 +81,11 @@ Always clean your browser's cache and cookies. If possible, use a VPN to create 
 
 ## 💻 System Support | 系統支持
 
-| Windows |  x64  | ✅ | macOS |     Intel     | ✅ |
-|:-------:|:-----:|:-:|:-----:|:-------------:|:-:|
-| Windows |  x86  | ✅ | macOS | Apple Silicon | ✅ |
-|  Linux  |  x64  | ✅ | Linux |      x86      | ✅ |
-|  Linux  | ARM64 | ✅ | Linux |     ARM64     | ✅ |
+| Operating System | Architecture      | Supported |
+|------------------|-------------------|-----------|
+| Windows          | x64, x86          | ✅         |
+| macOS            | Intel, Apple Silicon | ✅      |
+| Linux            | x64, x86, ARM64   | ✅         |
 
 ## 👀 How to use | 如何使用
 

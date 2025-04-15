@@ -1,9 +1,9 @@
 ---
 title: build-your-own-x
-date: 2025-04-03T12:23:08+08:00
+date: 2025-04-15T12:22:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742885203450-e2bdf135f0da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742885203450-e2bdf135f0da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM2NTQwOTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741850820063-4426abddb0d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741850820063-4426abddb0d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x)
@@ -133,6 +133,7 @@ It's a great way to learn.
 * [**Node.js**: _Create a CLI tool in Javascript_](https://citw.dev/tutorial/create-your-own-cli-tool)
 * [**Rust**: _Command line apps in Rust_](https://rust-cli.github.io/book/index.html)
 * [**Rust**: _Writing a Command Line Tool in Rust_](https://mattgathu.dev/2017/08/29/writing-cli-app-rust.html)
+* [**Zig**: _Build Your Own CLI App in Zig from Scratch_](https://rebuild-x.github.io/docs/#/./zig/terminal/cli)
 
 
 #### Build your own `Database`

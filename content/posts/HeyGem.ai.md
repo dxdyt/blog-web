@@ -1,9 +1,9 @@
 ---
 title: HeyGem.ai
-date: 2025-04-13T12:47:23+08:00
+date: 2025-04-15T12:22:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743031031848-d1cb97c18395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743031031848-d1cb97c18395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742943892614-dfe67381c341?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742943892614-dfe67381c341?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [GuijiAI/HeyGem.ai](https://github.com/GuijiAI/HeyGem.ai)
@@ -204,7 +204,7 @@ Installation using Docker, docker-compose as follows:
 1. The `docker-compose.yml` file is in the `/deploy` directory.
 2. Execute `docker-compose up -d` in the `/deploy` directory, <u>if you want to use the lite version, execute `docker-compose -f docker-compose-lite.yml up -d`</u>
 3. Wait patiently (about half an hour, speed depends on network), download will consume about 70GB of traffic, make sure to use WiFi
-4. When you see three services in Docker, it indicates success
+4. When you see three services in Docker, it indicates success (the lite version has only one service `heygem-gen-video`)
 
    ![e29d1922-7c58-46b4-b1e9-961f853f26d4](README_zh.assets/e29d1922-7c58-46b4-b1e9-961f853f26d4.png)
 

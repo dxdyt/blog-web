@@ -1,9 +1,9 @@
 ---
 title: omi
-date: 2025-04-14T12:22:23+08:00
+date: 2025-04-15T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742038107091-9a7e1f01b42c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742038107091-9a7e1f01b42c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742330425089-1f91d18eaa4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742330425089-1f91d18eaa4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [BasedHardware/omi](https://github.com/BasedHardware/omi)

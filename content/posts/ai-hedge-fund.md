@@ -1,9 +1,9 @@
 ---
 title: ai-hedge-fund
-date: 2025-04-14T12:21:47+08:00
+date: 2025-04-15T12:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742657914528-31c194363a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742657914528-31c194363a16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727468802134-bec46e3faee9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727468802134-bec46e3faee9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
@@ -114,6 +114,12 @@ poetry run python src/main.py --ticker AAPL,MSFT,NVDA
 **Example Output:**
 <img width="992" alt="Screenshot 2025-01-06 at 5 50 17 PM" src="https://github.com/user-attachments/assets/e8ca04bf-9989-4a7d-a8b4-34e04666663b" />
 
+You can also specify a `--ollama` flag to run the AI hedge fund using local LLMs.
+
+```bash
+poetry run python src/main.py --ticker AAPL,MSFT,NVDA --ollama
+```
+
 You can also specify a `--show-reasoning` flag to print the reasoning of each agent to the console.
 
 ```bash
@@ -134,11 +140,18 @@ poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA
 **Example Output:**
 <img width="941" alt="Screenshot 2025-01-06 at 5 47 52 PM" src="https://github.com/user-attachments/assets/00e794ea-8628-44e6-9a84-8f8a31ad3b47" />
 
+
 You can optionally specify the start and end dates to backtest over a specific time period.
 
 ```bash
 poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA --start-date 2024-01-01 --end-date 2024-03-01
 ```
+
+You can also specify a `--ollama` flag to run the backtester using local LLMs.
+```bash
+poetry run python src/backtester.py --ticker AAPL,MSFT,NVDA --ollama
+```
+
 
 ## Project Structure 
 ```
