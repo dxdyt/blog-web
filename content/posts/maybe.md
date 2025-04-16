@@ -1,9 +1,9 @@
 ---
 title: maybe
-date: 2025-04-14T12:21:25+08:00
+date: 2025-04-16T12:23:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741309487186-bea930e06503?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741309487186-bea930e06503?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1727567682406-6a3c15a6e8b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1727567682406-6a3c15a6e8b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
 ---
 
 # [maybe-finance/maybe](https://github.com/maybe-finance/maybe)
@@ -34,7 +34,7 @@ and eventually offer a hosted version of the app for a small monthly fee.
 
 ## Maybe Hosting
 
-There are 3 primary ways to use the Maybe app:
+There are 2 primary ways to use the Maybe app:
 
 1. Managed (easiest) - we're in alpha and release invites in our Discord
 2. [Self-host with Docker](docs/hosting/docker.md)

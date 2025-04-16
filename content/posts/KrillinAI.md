@@ -1,9 +1,9 @@
 ---
 title: KrillinAI
-date: 2025-04-15T12:21:34+08:00
+date: 2025-04-16T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727468802134-bec46e3faee9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727468802134-bec46e3faee9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742520660892-3f1143f6aae4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742520660892-3f1143f6aae4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
 ---
 
 # [krillinai/KrillinAI](https://github.com/krillinai/KrillinAI)
