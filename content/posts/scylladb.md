@@ -1,9 +1,9 @@
 ---
 title: scylladb
-date: 2024-12-21T12:20:04+08:00
+date: 2025-04-17T12:23:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731978009374-2fbe83ef3af7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ3NTQ3MjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
 ---
 
 # [scylladb/scylladb](https://github.com/scylladb/scylladb)
@@ -112,7 +112,7 @@ If you are a developer working on Scylla, please read the [developer guidelines]
 
 ## Contact
 
-* The [community forum] and [Slack channel] are for users to discuss configuration, management, and operations of the ScyllaDB open source.
+* The [community forum] and [Slack channel] are for users to discuss configuration, management, and operations of ScyllaDB.
 * The [developers mailing list] is for developers and people interested in following the development of ScyllaDB to discuss technical topics.
 
 [Community forum]: https://forum.scylladb.com/

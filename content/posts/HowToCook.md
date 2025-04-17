@@ -1,9 +1,9 @@
 ---
 title: HowToCook
-date: 2025-04-16T12:23:06+08:00
+date: 2025-04-17T12:21:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742736839475-2ca610373470?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742736839475-2ca610373470?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
 ---
 
 # [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
@@ -122,6 +122,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [带把肘子](dishes/meat_dish/带把肘子.md)
 - [冬瓜酿肉](dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md)
 - [番茄红酱](dishes/meat_dish/番茄红酱.md)
+- [粉蒸肉](dishes/meat_dish/粉蒸肉.md)
 - [干煸仔鸡](dishes/meat_dish/干煸仔鸡/干煸仔鸡.md)
 - [宫保鸡丁](dishes/meat_dish/宫保鸡丁/宫保鸡丁.md)
 - [咕噜肉](dishes/meat_dish/咕噜肉.md)

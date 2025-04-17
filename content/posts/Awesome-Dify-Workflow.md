@@ -1,9 +1,9 @@
 ---
 title: Awesome-Dify-Workflow
-date: 2025-04-16T12:21:01+08:00
+date: 2025-04-17T12:22:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737712334383-debc45ffa906?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737712334383-debc45ffa906?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742414348804-3b1a648855d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742414348804-3b1a648855d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
 ---
 
 # [svcvit/Awesome-Dify-Workflow](https://github.com/svcvit/Awesome-Dify-Workflow)
@@ -18,10 +18,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1737712334383-debc45ffa9
 所有的 Workflow 基本都可以 **免费** 使用，更多 Workflow 收集整理中……
 
 ## 分享群
-开了一个分享群，有兴趣可以加入，如果你有关于 workflow 的问题也可以一起讨论。（2025/04/15 更新）
+开了一个分享群，有兴趣可以加入，如果你有关于 workflow 的问题也可以一起讨论。（2025/04/16 更新）
 - 主群都超200了，加群主好友，备注 dify，拉你到人多一些的群。不过微信风控，有时候加不上，可以稍后再试。
 - 当然，也可以加新群，目前人少一点，基本3-7天左右一个群就能满200.
-![](./snapshots/Xnip2025-04-15_11-17-05.jpg)
+![](./snapshots/Xnip2025-04-16_16-41-33.jpg)
 
 
 ## 视频教程
@@ -33,7 +33,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1737712334383-debc45ffa9
 | ------------- | ------------ | ------------ |
 |01课 - DIFY的本地化部署与启动  | https://www.youtube.com/watch?v=6LnHVay289w |https://blog.vcvit.me/2025/04/09/01-dify-local-deployment-and-startup/ | 
 |02课 - DIFY模型配置          | https://www.youtube.com/watch?v=4I2DgPR3qDA | https://blog.vcvit.me/2025/04/10/02-dify-model-configuration/ |
-|03课 - chatflow和workfow的区别   | 待更新 | https://blog.vcvit.me/2025/04/11/03-dify-workflow-vs-chatflow/ |
+|03课 - chatflow和workfow的区别   | https://www.youtube.com/watch?v=quEA_7LVWA8 | https://blog.vcvit.me/2025/04/11/03-dify-workflow-vs-chatflow/ |
 
 
 
@@ -146,6 +146,19 @@ sandbox 运行pandas，numpy>2.0，matplotlib，scikit-learn 代码老报错，�
 
 你可以参考下面每个 yml 的描述，找到你需要的 Workflow，然后在 DSL 文件夹中找到对应的文件，复制文件的 URL，导入自己的 Dify 账号即可。
 
+## 2025-04-17更新
+| 文件                               | 描述                                                                                                                                                                           | 来源                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| `sanic-web`                |这是一个使用DIFY作为服务层的数据库问答项目，项目有独立的web交互界面，请访问 https://github.com/apconw/sanic-web 查看详情。项目完成度很高，按照文档一步步操作即可启动。使用ollama的qwen和deepseek模型，即可获得不错的效果。 ![](./snapshots/Xnip2025-04-17_10-25-14.jpg) ![](./snapshots/Xnip2025-04-17_10-24-49.jpg)|   [sanic-web](https://github.com/apconw/sanic-web)   |
+
+
+
+## 2025-04-16更新
+| 文件                               | 描述                                                                                                                                                                           | 来源                                                                |
+| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
+| `MCP-amap.yml`                |使用[MCP Agent 策略](https://marketplace.dify.ai/plugins/hjlarry/agent)进行MCP工具的调用示例，MCP使用[高德地图](https://lbs.amap.com/api/mcp-server/gettingstarted) 提供的在线服务，你可以先注册一个开发者账号，申请一个免费的Key。替换下图中马赛克部分 ![](./snapshots/Xnip2025-04-16_17-05-45.jpg) 这里还有一个官方示例[Dify MCP 插件指南：一键连接 Zapier，轻松调用 7000+ App 工具](https://mp.weixin.qq.com/s/CDhqmLO1JXSB__aUMqoGoQ) |   [@svcvit](https://vcvit.me/)   |
+
+
 ## 2025-04-07更新
 | 文件                               | 描述                                                                                                                                                                           | 来源                                                                |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
@@ -153,11 +166,6 @@ sandbox 运行pandas，numpy>2.0，matplotlib，scikit-learn 代码老报错，�
 
 
 
-
-## 2025-03-26更新
-| 文件                               | 描述                                                                                                                                                                           | 来源                                                                |
-| ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- |
-| `MCP.yml`                |使用[MCP Agent 策略](https://marketplace.dify.ai/plugins/hjlarry/agent)进行MCP工具的调用示例，MCP使用[https://mcp.so/](https://mcp.so/server/amap-maps/amap) 提供的在线服务。 ![](./snapshots/Xnip2025-03-26_11-19-23.jpg) 这里还有一个官方示例[Dify MCP 插件指南：一键连接 Zapier，轻松调用 7000+ App 工具](https://mp.weixin.qq.com/s/CDhqmLO1JXSB__aUMqoGoQ) |   [@svcvit](https://vcvit.me/)   |
 
 
 

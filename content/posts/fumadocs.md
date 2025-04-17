@@ -1,9 +1,9 @@
 ---
 title: fumadocs
-date: 2025-04-16T12:22:10+08:00
+date: 2025-04-17T12:21:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742226111704-e66015478966?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742226111704-e66015478966?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742830433294-d89c97ed7fb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742830433294-d89c97ed7fb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
 ---
 
 # [fuma-nama/fumadocs](https://github.com/fuma-nama/fumadocs)

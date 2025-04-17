@@ -1,9 +1,9 @@
 ---
 title: nvim-lspconfig
-date: 2025-04-15T12:22:30+08:00
+date: 2025-04-17T12:23:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741559935512-3b018321e35f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741559935512-3b018321e35f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2OTA4NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742472194048-13ebb038a5fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742472194048-13ebb038a5fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
 ---
 
 # [neovim/nvim-lspconfig](https://github.com/neovim/nvim-lspconfig)
