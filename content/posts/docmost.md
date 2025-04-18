@@ -1,9 +1,9 @@
 ---
 title: docmost
-date: 2025-02-20T12:19:57+08:00
+date: 2025-04-18T12:21:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738529550483-c08d27b6b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738529550483-c08d27b6b839?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734760444698-ce341bfd1636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1734760444698-ce341bfd1636?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
 ---
 
 # [docmost/docmost](https://github.com/docmost/docmost)
@@ -19,13 +19,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1738529550483-c08d27b6b8
 </div>
 <br />
 
-> [!NOTE]  
-> Docmost is currently in **beta**. We value your feedback as we progress towards a stable release.
-
 ## Getting started
+
 To get started with Docmost, please refer to our [documentation](https://docmost.com/docs).
 
 ## Features
+
 - Real-time collaboration
 - Diagrams (Draw.io, Excalidraw and Mermaid)
 - Spaces
@@ -34,13 +33,26 @@ To get started with Docmost, please refer to our [documentation](https://docmost
 - Comments
 - Page history
 - Search
-- File attachment
+- File attachments
+- Embeds (Airtable, Loom, Miro and more)
+- Translations (10+ languages)
 
-#### Screenshots
+### Screenshots
+
 <p align="center">
 <img alt="home" src="https://docmost.com/screenshots/home.png" width="70%">
 <img alt="editor" src="https://docmost.com/screenshots/editor.png" width="70%">
 </p>
 
-### Contributing 
+### License
+Docmost core is licensed under the open-source AGPL 3.0 license.  
+Enterprise features are available under an enterprise license (Enterprise Edition).  
+
+All files in the following directories are licensed under the Docmost Enterprise license defined in `packages/ee/License`.
+  - apps/server/src/ee
+  - apps/client/src/ee
+  - packages/ee
+
+### Contributing
+
 See the [development documentation](https://docmost.com/docs/self-hosting/development)

@@ -1,9 +1,9 @@
 ---
 title: RAG_Techniques
-date: 2025-04-17T12:22:28+08:00
+date: 2025-04-18T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742470523391-891944f4155f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742470523391-891944f4155f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741836977321-677550bf4db6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741836977321-677550bf4db6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
 ---
 
 # [NirDiamant/RAG_Techniques](https://github.com/NirDiamant/RAG_Techniques)

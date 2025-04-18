@@ -1,9 +1,9 @@
 ---
 title: midday
-date: 2024-12-16T12:22:53+08:00
+date: 2025-04-18T12:21:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731848358416-bc131af0f433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQzMjI4NzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742567009397-c64925e0c3ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742567009397-c64925e0c3ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
 ---
 
 # [midday-ai/midday](https://github.com/midday-ai/midday)
@@ -92,3 +92,14 @@ We are working on the documentation to get started with Midday for local develop
 ## Repo Activity
 
 ![Alt](https://repobeats.axiom.co/api/embed/96aae855e5dd87c30d53c1d154b37cf7aa5a89b3.svg "Repobeats analytics image")
+
+## License
+
+This project is licensed under the **[AGPL-3.0](https://opensource.org/licenses/AGPL-3.0)** for non-commercial use. 
+
+### Commercial Use
+
+For commercial use or deployments requiring a setup fee, please contact us
+for a commercial license at [engineer@midday.ai](mailto:engineer@midday.ai).
+
+By using this software, you agree to the terms of the license.

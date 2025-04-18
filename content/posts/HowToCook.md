@@ -1,9 +1,9 @@
 ---
 title: HowToCook
-date: 2025-04-17T12:21:29+08:00
+date: 2025-04-18T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742445134107-f88f41be10ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742445134107-f88f41be10ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
 ---
 
 # [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
@@ -40,7 +40,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 
 在写新菜谱时，请复制并修改已有的菜谱模板: [示例菜](https://github.com/Anduin2017/HowToCook/blob/master/dishes/template/%E7%A4%BA%E4%BE%8B%E8%8F%9C/%E7%A4%BA%E4%BE%8B%E8%8F%9C.md?plain=1)。
 
-## 做菜之前
+## 搭建环境
 
 - [厨房准备](tips/厨房准备.md)
 - [如何选择现在吃什么](tips/如何选择现在吃什么.md)
@@ -161,6 +161,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [蚂蚁上树](dishes/meat_dish/蚂蚁上树.md)
 - [梅菜扣肉](dishes/meat_dish/梅菜扣肉/梅菜扣肉.md)
 - [奶酪培根通心粉](dishes/meat_dish/奶酪培根通心粉/奶酪培根通心粉.md)
+- [牛排](dishes/meat_dish/牛排/牛排.md)
 - [啤酒鸭](dishes/meat_dish/啤酒鸭/啤酒鸭.md)
 - [黔式腊肠娃娃菜](dishes/meat_dish/黔式腊肠娃娃菜/黔式腊肠娃娃菜.md)
 - [青椒土豆炒肉](dishes/meat_dish/青椒土豆炒肉/青椒土豆炒肉.md)
