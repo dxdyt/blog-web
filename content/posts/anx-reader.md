@@ -1,9 +1,9 @@
 ---
 title: anx-reader
-date: 2025-04-17T12:21:37+08:00
+date: 2025-04-19T12:21:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741115815553-20c3c83ca6c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741851373794-ab6b44b367c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741851373794-ab6b44b367c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [Anxcye/anx-reader](https://github.com/Anxcye/anx-reader)

@@ -1,9 +1,9 @@
 ---
 title: linera-protocol
-date: 2025-03-09T12:18:29+08:00
+date: 2025-04-19T12:20:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740231614760-8037a7896030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740231614760-8037a7896030?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741851373794-ab6b44b367c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741851373794-ab6b44b367c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [linera-io/linera-protocol](https://github.com/linera-io/linera-protocol)
@@ -11,9 +11,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1740231614760-8037a78960
 # <img src="https://github.com/linera-io/linera-protocol/assets/1105398/fe08c941-93af-4114-bb83-bcc0eaec95f9" width="250" height="90" />
 
 [![License](https://img.shields.io/badge/license-Apache-green.svg)](LICENSE)
+[![Build Status for Docker](https://github.com/linera-io/linera-protocol/actions/workflows/docker-compose.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/docker-compose.yml)
 [![Build Status for Rust](https://github.com/linera-io/linera-protocol/actions/workflows/rust.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/rust.yml)
 [![Build Status for Documentation](https://github.com/linera-io/linera-protocol/actions/workflows/documentation.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/documentation.yml)
-[![Build Status for DynamoDB](https://github.com/linera-io/linera-protocol/actions/workflows/dynamodb.yml/badge.svg)](https://github.com/linera-io/linera-protocol/actions/workflows/dynamodb.yml)
 [![Twitter](https://img.shields.io/twitter/follow/linera_io)](https://x.com/linera_io)
 [![Discord](https://img.shields.io/discord/984941796272521226)](https://discord.com/invite/linera)
 
@@ -109,9 +109,9 @@ linera wallet init --faucet $FAUCET_URL
 INFO1=($(linera wallet request-chain --faucet $FAUCET_URL))
 INFO2=($(linera wallet request-chain --faucet $FAUCET_URL))
 CHAIN1="${INFO1[0]}"
-ACCOUNT1="User:${INFO1[3]}"
+ACCOUNT1="${INFO1[3]}"
 CHAIN2="${INFO2[0]}"
-ACCOUNT2="User:${INFO2[3]}"
+ACCOUNT2="${INFO2[3]}"
 
 # Show the different chains tracked by the wallet.
 linera wallet show
@@ -135,8 +135,6 @@ linera transfer 2 --from "$CHAIN1:$ACCOUNT1" --to "$CHAIN2:$ACCOUNT2"
 # Query user balances again.
 linera query-balance "$CHAIN1:$ACCOUNT1"
 linera query-balance "$CHAIN2:$ACCOUNT2"
-
-# TODO(#1713): The syntax `User:$OWNER` for user accounts will change in the future.
 ```
 
 More complex examples may be found in our [developer manual](https://linera.dev) as well

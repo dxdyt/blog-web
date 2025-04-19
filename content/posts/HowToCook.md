@@ -1,9 +1,9 @@
 ---
 title: HowToCook
-date: 2025-04-18T12:21:06+08:00
+date: 2025-04-19T12:20:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742445134107-f88f41be10ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742445134107-f88f41be10ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742144897659-8a3e8a0a090c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742144897659-8a3e8a0a090c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
@@ -227,6 +227,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [清蒸生蚝](dishes/aquatic/清蒸生蚝.md)
 - [水煮鱼](dishes/aquatic/水煮鱼.md)
 - [蒜蓉虾](dishes/aquatic/蒜蓉虾/蒜蓉虾.md)
+- [蒜香黄油虾](dishes/aquatic/蒜香黄油虾/蒜香黄油虾.md)
 - [糖醋鲤鱼](dishes/aquatic/糖醋鲤鱼/糖醋鲤鱼.md)
 - [微波葱姜黑鳕鱼](dishes/aquatic/微波葱姜黑鳕鱼.md)
 - [香煎翘嘴鱼](dishes/aquatic/香煎翘嘴鱼/香煎翘嘴鱼.md)
@@ -244,6 +245,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [空气炸锅面包片](dishes/breakfast/空气炸锅面包片.md)
 - [美式炒蛋](dishes/breakfast/美式炒蛋.md)
 - [牛奶燕麦](dishes/breakfast/牛奶燕麦.md)
+- [手抓饼](dishes/breakfast/手抓饼.md)
 - [水煮玉米](dishes/breakfast/水煮玉米.md)
 - [苏格兰蛋](dishes/breakfast/苏格兰蛋/苏格兰蛋.md)
 - [太阳蛋](dishes/breakfast/太阳蛋.md)
@@ -265,6 +267,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [炒馍](dishes/staple/炒馍.md)
 - [炒年糕](dishes/staple/炒年糕.md)
 - [炒意大利面](dishes/staple/炒意大利面/炒意大利面.md)
+- [蛋包饭](dishes/staple/蛋包饭.md)
 - [蛋炒饭](dishes/staple/蛋炒饭.md)
 - [豆角焖面](dishes/staple/豆角焖面/豆角焖面.md)
 - [韩式拌饭](dishes/staple/韩式拌饭/韩式拌饭.md)

@@ -1,16 +1,16 @@
 ---
 title: potpie
-date: 2025-02-14T12:20:56+08:00
+date: 2025-04-19T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735370436237-779239d71e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735370436237-779239d71e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1MDY3NTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742728772904-725bd1221ba4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742728772904-725bd1221ba4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [potpie-ai/potpie](https://github.com/potpie-ai/potpie)
 
 <p align="center">
   <a href="https://potpie.ai?utm_source=github">
-    <img src="https://github.com/user-attachments/assets/1a0b9824-833b-4c0a-b56d-ede5623295ca" width="318px" alt="Momentum logo" />
+    <img src="https://github.com/user-attachments/assets/1a0b9824-833b-4c0a-b56d-ede5623295ca" width="318px" alt="Potpie AI logo" />
   </a>
 </p>
 
@@ -33,12 +33,16 @@ featuredImagePreview: https://images.unsplash.com/photo-1735370436237-779239d71e
   <a href="https://github.com/potpie-ai/potpie">
     <img src="https://img.shields.io/github/stars/potpie-ai/potpie" alt="GitHub Repo stars">
   </a>
-  
+
 </br>
 
 
 <a href="https://discord.gg/ryk5CMD5v6">
     <img src="https://img.shields.io/badge/Join%20our-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Join our Discord">
+</a>
+</br>
+<a href="https://marketplace.visualstudio.com/items?itemName=PotpieAI.potpie-vscode-extension">
+    <img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white" alt="VS Code Extension">
 </a>
 </br>
 <a href="https://twitter.com/intent/tweet?text=I%20created%20custom%20engineering%20agents%20for%20my%20codebase%20in%20minutes%20with%20potpie.ai%20@potpiedotai%20!🥧">
@@ -55,9 +59,10 @@ Prompt-To-Agent: Create custom engineering agents for your code
 Potpie is an open-source platform that creates AI agents specialized in your codebase, enabling automated code analysis, testing, and development tasks. By building a comprehensive knowledge graph of your code, Potpie's agents can understand complex relationships and assist with everything from debugging to feature development.
 
 <p align="center">
-<img width="1506" alt="Screenshot 2025-01-09 at 2 18 18 PM" src="https://github.com/user-attachments/assets/a400b48f-dc4c-47b1-a42b-26eaf062adb2" />
+<img width="1506" alt="Screenshot 2025-03-28 at 2 51 34 PM" src="https://github.com/user-attachments/assets/efa6b8ba-447b-474c-a62e-2c65940085ee" />
 
-</p>
+
+
 
 ## 📚 Table of Contents
 - [🥧 Why Potpie?](#why-potpie)
@@ -118,9 +123,51 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
 
 ### Prerequisites
 - Docker installed and running
-- OpenAI API key
 - Git installed (for repository access)
 - Python 3.10.x
+
+### Potpie UI
+  An easy to use interface to interact with your Agents
+  ## Initialize the UI Submodule
+  To initialize the submodule:
+
+  ```bash
+  git submodule update --init
+  ```
+
+  ### 1. Navigate to the `potpie-ui` Directory
+
+  ```bash
+  cd potpie-ui
+  ```
+
+  ### 2. Update the Main Branch and Checkout
+
+  ```bash
+  git checkout main
+  git pull origin main
+  ```
+
+  ### 3. Set Up the Environment
+
+  Create a `.env` file in the `potpie-ui` directory and copy the required configuration from `.env.template`.
+
+  ```bash
+  cp .env.template .env
+  ```
+
+  ### 4. Build the Frontend
+
+  ```bash
+  pnpm build
+  ```
+
+  ### 5. Start the Application
+
+  ```bash
+  pnpm start
+  ```
+
 
 ### Setup Steps
 
@@ -134,7 +181,6 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
       ```bash
       isDevelopmentMode=enabled
       ENV=development
-      OPENAI_API_KEY=<your-openai-key>
       POSTGRES_SERVER=postgresql://postgres:mysecretpassword@localhost:5432/momentum
       NEO4J_URI=bolt://127.0.0.1:7687
       NEO4J_USERNAME=neo4j
@@ -145,24 +191,32 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
       CELERY_QUEUE_NAME=dev
       defaultUsername=defaultuser
       PROJECT_PATH=projects #repositories will be downloaded/cloned to this path on your system.
+      {PROVIDER}_API_KEY=sk-proj-your-key #your provider key e.g. ANTHROPIC_API_KEY for Anthropic
+      INFERENCE_MODEL=ollama_chat/qwen2.5-coder:7b #provider model name
+      CHAT_MODEL=ollama_chat/qwen2.5-coder:7b #provider model name
       ```
+      **`INFERENCE_MODEL`** and **`CHAT_MODEL`** correspond to the models that will be used for generating knowledge graph and for agent reasoning respectively. These model names should be in the format of `provider/model_name` format or as expected by Litellm. For more information, refer to the [Litellm documentation](https://docs.litellm.ai/docs/providers).
+      <br>
    -  Create a Virtual Environment using Python 3.10:
-      ```bash
+      ```
       python3.10 -m venv venv
       source venv/bin/activate
-      ```
-      alternatively, you can also use the `virtualenv` library.
 
     - Install dependencies in your venv:
       ```bash
       pip install -r requirements.txt
-      ```
 
 2. **Start Potpie**
+
    ```bash
    chmod +x start.sh
    ./start.sh
    ```
+
+   **Windows**
+    ```powershell
+    ./start.ps1
+    ```
 
 3. **Authentication Setup** (Skip this step in development mode)
    ```bash
@@ -173,7 +227,6 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
        "password": "your-password"
      }'
    # Save the bearer token from the response for subsequent requests
-   ```
 
 4. **Initialize Repository Parsing**
    ```bash
@@ -193,13 +246,11 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
        "branch_name": "main"
      }'
    # Save the project_id from the response
-   ```
 
 5. **Monitor Parsing Status**
    ```bash
    curl -X GET 'http://localhost:8001/api/v1/parsing-status/your-project-id'
    # Wait until parsing is complete
-   ```
 
 6. **View Available Agents**
    ```bash
@@ -219,14 +270,14 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
        "agent_ids": ["chosen-agent-id"]
      }'
    # Save the conversation_id from the response
-   ```
 
 8. **Start Interacting with Your Agent**
    ```bash
    curl -X POST 'http://localhost:8001/api/v1/conversations/your-conversation-id/message/' \
      -H 'Content-Type: application/json' \
      -d '{
-       "content": "Your question or request here"
+       "content": "Your question or request here",
+       "node_ids":[]
      }'
    ```
 
@@ -247,7 +298,6 @@ Potpie provides a set of tools that agents can use to interact with the knowledg
 >We fed an open issue from the [**Portkey-AI/Gateway**](https://github.com/Portkey-AI/Gateway) project to this agent to generate a low level design for it: Video [here](https://www.linkedin.com/posts/dhirenmathur_potpie-ai-agents-vs-llms-i-am-extremely-activity-7255607456448286720-roOC).
 
 - **Reviewing Code Changes**: Understand the functional impact of changes and compute the blast radius of modifications.
->Here we analyse a PR from the [**mem0ai/mem0**](https://github.com/mem0ai/mem0) codebase and understand its blast radius : Video [here](https://www.linkedin.com/posts/dhirenmathur_prod-is-down-three-words-every-activity-7257007131613122560-o4A7).
 
 - **Debugging**: Get step-by-step debugging guidance based on stacktraces and codebase context.
 
@@ -275,17 +325,22 @@ You can access Potpie Agents through an API key, enabling integration into CI/CD
 
 Potpie is designed to be flexible and customizable. Here are key areas to personalize your own deployment:
 
-### 1. System Prompts Configuration
-Modify prompts in `app/modules/intelligence/prompts/system_prompt_setup.py`
+### **Effortless Agent Creation**:
+Design custom agents tailored to your specific tasks using a single prompt. Utilize the following API to create your custom agents:
 
-### 2. Add New Agents
-Create new agents in `app/modules/intelligence/agents/chat_agents` and `app/modules/intelligence/agents/agentic_tools`
+  ```bash
+  curl -X POST "http://localhost:8001/api/v1/custom-agents/agents/auto" \
+       -H "Content-Type: application/json" \
+       -d '{
+             "prompt": "Aan agent that takes stacktrace as input and gives root cause analysis and proposed solution as output"
+           }'
+  ```
 
-### 3. Agent Behavior Customization
-Modify guidelines within each agent's prompt in the `app/modules/intelligence/agents` directory
+  Read more about other custom agent APIs to edit and delete your custom agents in our [documentation](https://docs.potpie.ai/open-source/agents/create-agent-from-prompt).
 
-### 4. Tool Integration
-Edit or add tools in the `app/modules/intelligence/tools` directory
+### Tool Integration
+Edit or add tools in the `app/modules/intelligence/tools` directory for your custom agents.
+Initialise the tools in the  `app/modules/intelligence/tools/tool_service.py` file and include them in your agent.
 
 ## 🤝 Contributing
 
