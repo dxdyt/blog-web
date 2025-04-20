@@ -1,9 +1,9 @@
 ---
 title: sigma
-date: 2025-04-18T12:21:41+08:00
+date: 2025-04-20T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742445134107-f88f41be10ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742445134107-f88f41be10ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736452221254-ae8d76bf3c79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736452221254-ae8d76bf3c79?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
 ---
 
 # [SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)

@@ -1,9 +1,9 @@
 ---
 title: stagehand
-date: 2025-04-19T12:21:13+08:00
+date: 2025-04-20T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742054294284-baa5691ede46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742054294284-baa5691ede46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741738668550-3efca0fca23a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741738668550-3efca0fca23a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
 ---
 
 # [browserbase/stagehand](https://github.com/browserbase/stagehand)

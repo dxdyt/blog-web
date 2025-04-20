@@ -1,9 +1,9 @@
 ---
 title: docmost
-date: 2025-04-19T12:20:50+08:00
+date: 2025-04-20T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741006727915-d25215fdaf04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741006727915-d25215fdaf04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741850820831-e244e5b39111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741850820831-e244e5b39111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
 ---
 
 # [docmost/docmost](https://github.com/docmost/docmost)
