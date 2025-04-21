@@ -1,9 +1,9 @@
 ---
 title: markitdown
-date: 2025-04-11T12:23:09+08:00
+date: 2025-04-21T12:22:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741471884167-a2b08fb14a3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQzNDUzMDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741471884167-a2b08fb14a3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQzNDUzMDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742505709683-e9aa7b51a699?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742505709683-e9aa7b51a699?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/markitdown](https://github.com/microsoft/markitdown)
@@ -56,7 +56,7 @@ To install MarkItDown, use pip: `pip install 'markitdown[all]'`. Alternatively, 
 ```bash
 git clone git@github.com:microsoft/markitdown.git
 cd markitdown
-pip install -e packages/markitdown[all]
+pip install -e 'packages/markitdown[all]'
 ```
 
 ## Usage
@@ -83,7 +83,7 @@ cat path-to-file.pdf | markitdown
 MarkItDown has optional dependencies for activating various file formats. Earlier in this document, we installed all optional dependencies with the `[all]` option. However, you can also install them individually for more control. For example:
 
 ```bash
-pip install markitdown[pdf, docx, pptx]
+pip install 'markitdown[pdf, docx, pptx]'
 ```
 
 will install only the dependencies for PDF, DOCX, and PPTX files.

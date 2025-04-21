@@ -1,9 +1,9 @@
 ---
 title: HowToCook
-date: 2025-04-20T12:19:42+08:00
+date: 2025-04-21T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740471230710-94fbcbb6c330?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740471230710-94fbcbb6c330?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741850821875-926bc6332d97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741850821875-926bc6332d97?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
 ---
 
 # [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
@@ -106,6 +106,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [上汤娃娃菜](dishes/vegetable_dish/上汤娃娃菜/上汤娃娃菜.md)
 - [手撕包菜](dishes/vegetable_dish/手撕包菜/手撕包菜.md)
 - [水油焖蔬菜](dishes/vegetable_dish/水油焖蔬菜.md)
+- [松仁玉米](dishes/vegetable_dish/松仁玉米.md)
 - [素炒豆角](dishes/vegetable_dish/素炒豆角.md)
 - [酸辣土豆丝](dishes/vegetable_dish/酸辣土豆丝.md)
 - [糖拌西红柿](dishes/vegetable_dish/糖拌西红柿/糖拌西红柿.md)
@@ -121,6 +122,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [白菜猪肉炖粉条](dishes/meat_dish/白菜猪肉炖粉条.md)
 - [带把肘子](dishes/meat_dish/带把肘子.md)
 - [冬瓜酿肉](dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md)
+- [豆豉鲮鱼油麦菜](dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.md)
 - [番茄红酱](dishes/meat_dish/番茄红酱.md)
 - [粉蒸肉](dishes/meat_dish/粉蒸肉.md)
 - [干煸仔鸡](dishes/meat_dish/干煸仔鸡/干煸仔鸡.md)
@@ -405,9 +407,3 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [辅料技巧](tips/advanced/辅料技巧.md)
 - [高级专业术语](tips/advanced/高级专业术语.md)
 - [油温判断技巧](tips/advanced/油温判断技巧.md)
-
-## 鸣谢
-
-对这份菜谱的下列作者表示感谢！
-
-[![contributors](https://contrib.rocks/image?repo=Anduin2017/HowToCook&max=999&column=20)](https://github.com/Anduin2017/HowToCook/graphs/contributors)

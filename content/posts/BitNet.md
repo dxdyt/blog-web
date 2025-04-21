@@ -1,9 +1,9 @@
 ---
 title: BitNet
-date: 2025-04-20T12:19:51+08:00
+date: 2025-04-21T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741850820831-e244e5b39111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741850820831-e244e5b39111?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUxMjI3NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744424705160-b12b262cda22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744424705160-b12b262cda22?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/BitNet](https://github.com/microsoft/BitNet)
