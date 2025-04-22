@@ -1,9 +1,9 @@
 ---
 title: drawdb
-date: 2025-03-01T12:20:17+08:00
+date: 2025-04-22T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738360220249-818ba9624488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738360220249-818ba9624488?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA4MDI3NTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744198275588-06648407b39a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744198275588-06648407b39a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
 ---
 
 # [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
@@ -24,9 +24,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1738360220249-818ba96244
     </a>
     <a href="https://x.com/drawDB_" style="display: flex; align-items: center;">
         <img src="https://img.shields.io/badge/Follow%20us%20on%20X-blue?logo=X" alt="Follow us on X"/>
-    </a>
-    <a href="https://buymeacoffee.com/drawdb" style="display: flex; align-items: center;">
-        <img src="https://img.shields.io/badge/Support%20us-grey?logo=buymeacoffee" alt="Support us"/>
     </a>
 </div>
 

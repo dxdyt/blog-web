@@ -1,9 +1,9 @@
 ---
 title: olmocr
-date: 2025-03-04T12:20:15+08:00
+date: 2025-04-22T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738168362059-44a0b8a80b39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738168362059-44a0b8a80b39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEwNjE5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741705817231-5fadb295cc9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741705817231-5fadb295cc9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
 ---
 
 # [allenai/olmocr](https://github.com/allenai/olmocr)
@@ -66,13 +66,12 @@ conda activate olmocr
 
 git clone https://github.com/allenai/olmocr.git
 cd olmocr
-pip install -e .
-```
 
-Install sglang with [flashinfer](https://github.com/flashinfer-ai/flashinfer) if you want to run inference on GPU.
-```bash
-pip install sgl-kernel==0.0.3.post1 --force-reinstall --no-deps
-pip install "sglang[all]==0.4.2" --find-links https://flashinfer.ai/whl/cu124/torch2.4/flashinfer/
+# For CPU-only operations, ex. running benchmarks
+pip install -e .
+
+# For actually converting the files with your own GPU
+pip install -e .[gpu] --find-links https://flashinfer.ai/whl/cu124/torch2.4/flashinfer/
 ```
 
 ### Local Usage Example
@@ -81,6 +80,11 @@ For quick testing, try the [web demo](https://olmocr.allen.ai/). To run locally,
 Convert a Single PDF:
 ```bash
 python -m olmocr.pipeline ./localworkspace --pdfs tests/gnarly_pdfs/horribleocr.pdf
+```
+
+Convert an Image file:
+```bash
+python -m olmocr.pipeline ./localworkspace --pdfs random_page.png
 ```
 
 Convert Multiple PDFs:

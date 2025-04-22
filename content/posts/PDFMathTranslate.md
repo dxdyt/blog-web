@@ -1,9 +1,9 @@
 ---
 title: PDFMathTranslate
-date: 2025-04-21T12:21:25+08:00
+date: 2025-04-22T12:22:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742599968125-a790a680a605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742599968125-a790a680a605?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyMDkyNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743031031853-15698b5b8419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743031031853-15698b5b8419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -260,13 +260,10 @@ For detailed explanations, please refer to our document about [Advanced Usage](.
 
 <h2 id="downstream">Secondary Development (APIs)</h2>
 
-The current pdf2zh API is temporarily deprecated. The API will be provided again after [pdf2zh 2.0](https://github.com/Byaidu/PDFMathTranslate/issues/586) is released. For users who need programmatic access, please use the `babeldoc.high_level.async_translate` function of [BabelDOC](https://github.com/funstory-ai/BabelDOC).
-
-This API being temporarily deprecated means: the relevant code will not be removed for now, but no technical support will be provided, and no bug fixes will be made.
-<!-- For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
+For downstream applications, please refer to our document about [API Details](./docs/APIS.md) for futher information about:
 
 - [Python API](./docs/APIS.md#api-python), how to use the program in other Python programs
-- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed -->
+- [HTTP API](./docs/APIS.md#api-http), how to communicate with a server with the program installed
 
 <h2 id="todo">TODOs</h2>
 
