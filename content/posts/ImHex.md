@@ -1,9 +1,9 @@
 ---
 title: ImHex
-date: 2025-01-01T12:20:23+08:00
+date: 2025-04-23T12:22:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733933043078-f9429d194fbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733933043078-f9429d194fbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3MDUxNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742063730527-ef243ba6fb50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742063730527-ef243ba6fb50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [WerWolv/ImHex](https://github.com/WerWolv/ImHex)
@@ -48,8 +48,8 @@ If you like my work, please consider supporting me on GitHub Sponsors, Patreon o
 </p>
 
 ## Screenshots
-![Hex editor, patterns and data information](https://github.com/WerWolv/ImHex/assets/10835354/4f358238-2d27-41aa-9015-a2c6cc3708cf)
-![Bookmarks, disassembler and data processor](https://github.com/WerWolv/ImHex/assets/10835354/183bc2cc-2439-4ded-b4c5-b140e19fc92f)
+![Hex editor, patterns and data information](https://github.com/user-attachments/assets/902a7c4c-410d-490f-999e-14c856fec027)
+![Bookmarks, data information, find view and data processor](https://github.com/user-attachments/assets/58eefa1f-31c9-4bb8-a1c1-8cdd8ddbd29f)
 
 <details>
 <summary><strong>More Screenshots</strong></summary>

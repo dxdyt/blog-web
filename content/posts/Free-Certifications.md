@@ -1,9 +1,9 @@
 ---
 title: Free-Certifications
-date: 2024-09-21T12:20:12+08:00
+date: 2025-04-23T12:23:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724805053205-d429850a5ed5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724805053205-d429850a5ed5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY4OTIyOTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745179277027-dc773875b276?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745179277027-dc773875b276?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
@@ -13,11 +13,33 @@ featuredImagePreview: https://images.unsplash.com/photo-1724805053205-d429850a5e
 [![GitHub Repo stars](https://img.shields.io/github/stars/cloudcommunity/Free-Certifications?style=social)](https://github.com/cloudcommunity/Free-Certifications)
 [![Twitter Follow](https://img.shields.io/twitter/follow/CloudStudyNet?style=social)](https://twitter.com/CloudStudyNet)
 
-A curated list of free courses &amp; certifications. Don't forget to star ⭐ this repository.
+A curated list of **free courses with certifications**. Don't forget to star ⭐ this repository.
 
-The offers on top of the table are time-limited and will expire soon. So, hurry up and grab them first!
+<!-- The offers on top of the table are time-limited and will expire soon. So, hurry up and grab them first! -->
 
-🎉 Brought to you by the [Cloud Study Network](https://www.meetup.com/Cloud-Study-Network/) - a global tech community that shares knowledge, goodies and good vibes! 🎉
+🌐 **Website Launch Alert** 🌐
+
+We are excited to announce that this comprehensive collection is now available as a user-friendly website at 🌐 **[FREE-CERTIFICATIONS.COM](https://free-certifications.com/)** 📚!
+
+📬 **Stay Updated with Our Newsletter!** 📬
+
+We are launching a **Free Certifications Newsletter** to bring the latest free certification opportunities straight to your inbox! Our newsletter will start distribution sometime between February and March 2025 and will be sent either weekly or biweekly. **[Subscribe now](https://freecertifications.substack.com/)** and never miss out on new learning opportunities!
+
+📌 **Love Freebies? Check These Out!** 📌
+
+If you love freebies, be sure to explore our other curated lists of free resources for various communities:
+
+- **Nonprofits**: [Free-for-Nonprofits](https://github.com/cloudcommunity/Free-for-Nonprofits)
+- **Open Source Projects**: [Free-for-Open-Source](https://github.com/cloudcommunity/Free-for-Open-Source)
+- **Startups**: [Free-for-Startups](https://github.com/cloudcommunity/Free-for-Startups)
+- **Education (Students & Schools)**: [Free-for-Education](https://github.com/cloudcommunity/Free-for-Education)
+- **Communities**: [Free-for-Communities](https://github.com/cloudcommunity/Free-for-Communities)
+
+Check them out and take advantage of amazing free resources!
+
+🔹 **About Us** 🔹
+
+🎉 Brought to you by the [Cloud Study Network](https://cloudstudy.net/) - a global tech community that shares knowledge, goodies, and good vibes! 🎉
 
 ## Table of Contents
 
@@ -94,7 +116,6 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Kubernetes | Kasten.io by Veeam | Free Kubernetes Training | [Link](https://learning.kasten.io/) | Unknown |
 | Kubernetes Fundamentals  | Datadog | Free Kubernetes Fundamentals Training with Credly Badge | [Link](https://learn.datadoghq.com/bundles/k8s-fundamentals) | Unknown |
 | GraphQL & Apollo | Odyssey by Apollo | Apollo Graph Developer - Associate Certification | [Link](https://odyssey.apollographql.com/certifications/apollo-graph-associate) | Unknown |
-| Kyverno | Nirmata| Kyverno Fundamentals Certification | [Link](https://learn.nirmata.com/courses/kyverno-fundamentals-certification/) | Unknown |
 | Cilium | Isovalent | Getting Started with Cilium | [Link](https://isovalent.com/labs/getting-started-with-cilium/) | Unknown |
 | Cilium | Isovalent | Cilium Ingress Controller | [Link](https://isovalent.com/labs/cilium-ingress-controller/) | Unknown |
 | Cilium | Isovalent | Cilium Cluster Mesh | [Link](https://isovalent.com/labs/cilium-cluster-mesh/) | Unknown |
@@ -159,6 +180,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Cloud | Google Cloud Skills Boost | Cloud Engineering | [Link](https://www.cloudskillsboost.google/course_templates/695) | Unlimited |
 | AI | Elements of AI | Free online courses about the basics of AI | [Link](https://www.elementsofai.com/) | Unlimited |
 | AI | LinkedIn | Career Essentials in Generative AI by Microsoft and LinkedIn | [Link](https://www.linkedin.com/learning/paths/career-essentials-in-generative-ai-by-microsoft-and-linkedin) | Unknown |
+| AI | HuggingFace | Free online course and certification for Deep Reinforcement Learning | [Link](https://huggingface.co/learn/deep-rl-course) | Unlimited |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
 
@@ -166,8 +188,9 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 
 | Provider | Description | Link | Expiration |
 | --- | --- | --- | --- |
+| Cisco Certificate in Ethical Hacking | Ethical Hacker | [Link](https://www.netacad.com/courses/ethical-hacker?courseLang=en-US) | Unlimited |
 | Cisco U | Understanding Cisco Cybersecurity Operations Fundamentals - CBROPS - 30 continuing education credits free | [Link](https://u.cisco.com/path/32) | 16-Nov-2023 |
-| ISC² | Voucher 100%, Certified in Cybersecurity℠(CC) Exam Voucher: CC1M12312023 | [Link](https://www.isc2.org/landing/1mcc) | 31-Dec-2023 |
+| ISC² | Voucher 100%, Certified in Cybersecurity℠(CC) Exam Voucher: CC1M12312024 | [Link](https://www.isc2.org/landing/1mcc) | 31-Dec-2024 |
 | Palo Alto Networks | Free certification exam coupon code upon completion of certification prep training during the event. | [Link](https://ignite.paloaltonetworks.com/) | 18-Nov-2020 |
 | Fortinet | Free Network Security training courses & certifications by Fortinet / NSE Institute. | [Link](https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2020/fortinet-makes-all-online-cybersecurity-training-courses-available-for-free.html) | Unlimited |
 | The Academic Council Of uLektz | Free Cyber Security training and certification. | [Link](https://www.ulektzskills.com/skills/The-Academic-Council-Of-uLektz/Cyber-Security-NTA4Mg==) | Unknown |
@@ -180,6 +203,8 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Cisco Networking Academy | Introduction to Cybersecurity | [Link](https://www.netacad.com/courses/cybersecurity/introduction-cybersecurity) | Unlimited |
 | Cisco Networking Academy | Cybersecurity Essentials | [Link](https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials) | Unlimited |
 | Google Cloud Skills Boost | Security & Identity Fundamentals | [Link](https://www.cloudskillsboost.google/course_templates/770) | Unlimited |
+| Open Source Security Foundation | Developing Secure Software (LFD121) | [Link](https://training.linuxfoundation.org/training/developing-secure-software-lfd121/) | Unlimited |
+| IBM Training | IBM QRadar SIEM Foundation | [Link](https://www.ibm.com/training/learning-path/ibm-qradar-siem-foundation-694) | Unlimited |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
 
@@ -195,6 +220,9 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Redis | Redis Certified Developer is our professional certification program for software developers who regularly work with Redis. | [Link](https://university.redis.com/certification/) | Unknown |
 | Databricks | Free Training: Databricks Lakehouse Fundamentals. | [Link](https://www.databricks.com/learn/training/lakehouse-fundamentals) | Unknown |
 | SQL | Free SQL Course with Certificate | [Link](https://www.simplilearn.com/free-online-course-to-learn-sql-basics-skillup) | 90 days of access |
+| Neo4j Graph Academy | Free Exam Certificates and Proof of Completion Course Certificates | [Link](https://graphacademy.neo4j.com) | Unknown |
+| ArangoDB | ArangoDB Certified Professional | [Link](https://www.arangodb.com/learn/certification/) | Unlimited |
+| CrateDB | CrateDB Academy offers free online courses and certification for our open source multi-model database. | [Link](https://learn.cratedb.com) | Unlimited |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
 
@@ -209,7 +237,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | 6sigmastudy | Free Six Sigma Yellow Belt course & certification. | [Link](http://www.6sigmastudy.com/Six-Sigma-Yellow-Belt.asp) | Unlimited |
 | ScrumStudy | Free “Scrum Fundamentals Certified (SFC™)” training course & certification | [Link](https://www.scrumstudy.com/certification/scrum-fundamentals-certified) | Unlimited |
 | SkillFront | Free Certified Associate In Scrum Fundamentals™ (CASF™) | [Link](https://www.skillfront.com/CASF-Certified-Associate-In-Scrum-Fundamentals) | Unlimited |
-| Great Learning | Free Project Management course | [Link](https://www.mygreatlearning.com/academy/learn-for-free/courses/project-management) | Unlimited
+| Great Learning | Free Project Management course | [Link](https://www.mygreatlearning.com/academy/learn-for-free/courses/project-management) | Unlimited |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
 
@@ -224,6 +252,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | Hootsuite | **[Students only]** Free Hootsuite Platform Certification (worth $99) and Social Marketing Certification (worth $199) through Hootsuite's Student Program. | [Link](https://hootsuite.com/pages/landing/student-program) | Unlimited |
 | HubSpot Academy | Free marketing & sales courses with certification. | [Link](https://academy.hubspot.com/courses?page=1#certsOnly=true) | Unlimited |
 | SEMrush | Free Online Digital Marketing Courses and Exams. | [Link](https://www.semrush.com/academy/) | Unlimited |
+| Meta | Meta Certified Digital Marketing Associate | [Link](http://www.facebook.com/business/learn/certification/exams/100-101-exam) | Unlimited |
 | Microsoft | Microsoft Advertising Certified Professional. | [Link](https://learninglab.about.ads.microsoft.com/training/training-certification/) | Unlimited |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
@@ -252,5 +281,7 @@ The offers on top of the table are time-limited and will expire soon. So, hurry 
 | EF SET | 50-minute test to receive your personalized English certificate to add to your LinkedIn profile or CV, aligned to CEFR levels. | [Link](https://www.efset.org/ef-set-50/) | Unlimited |
 | Microsoft | The Microsoft Licensing Specialist certifications demonstrate competence in a particular area of Microsoft product licensing. You will require an intermediate level of knowledge to achieve these certifications. | [Link](https://getlicensingready.com/Main.aspx) | Unlimited |
 | ProKanban.org | Free Kanban Flow Metrics assessment | [Link](https://prokanban.org/small-batch-certifications/) | Unlimited |
+| ATLASSIAN University | Confluence Fundamentals Badge | [Link](https://university.atlassian.com/student/path/861302/activity/2832257) | Unlimited |
+| ATLASSIAN University | Beginner's Guide to Agile in Jira Badge| [Link](https://university.atlassian.com/student/path/1113130-apply-agile-practices-to-manage-your-work) | Unlimited |
 
 <p align="center"><a href="#table-of-contents">(back to top)</a></p>
