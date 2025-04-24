@@ -1,9 +1,9 @@
 ---
 title: cs-self-learning
-date: 2024-04-09T12:17:27+08:00
+date: 2025-04-24T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1710764275022-ede939a1f5e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1710764275022-ede939a1f5e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI2MzYyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742201835826-3b607fa4e8b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU0Njg0NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742201835826-3b607fa4e8b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU0Njg0NDd8&ixlib=rb-4.0.3
 ---
 
 # [PKUFlyingPig/cs-self-learning](https://github.com/PKUFlyingPig/cs-self-learning)
@@ -16,9 +16,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1710764275022-ede939a1f5
 
 > *Everyone should enjoy CS if you have a good teacher to teach you a good course.*
 
+<a href="https://trendshift.io/repositories/4643" target="_blank"><img src="https://trendshift.io/api/badge/repositories/4643" alt="PKUFlyingPig%2Fcs-self-learning | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
+[![Website](https://img.shields.io/badge/website-csdiy.wiki-blue)](https://csdiy.wiki)
 [![License](https://img.shields.io/github/license/PKUFlyingPig/cs-self-learning)](https://github.com/PKUFlyingPig/cs-self-learning/blob/master/LICENSE)
 [![Issues](https://img.shields.io/github/issues/PKUFlyingPig/cs-self-learning)](https://github.com/PKUFlyingPig/cs-self-learning/issues)
 [![Stars](https://img.shields.io/github/stars/PKUFlyingPig/cs-self-learning)](https://github.com/PKUFlyingPig/cs-self-learning)
+
 
 新冠肆虐，网课当道，CS 爆火，这一系列的事件都让自学计算机成为了一种潮流。
 

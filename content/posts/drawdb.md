@@ -1,9 +1,9 @@
 ---
 title: drawdb
-date: 2025-04-23T12:22:15+08:00
+date: 2025-04-24T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737712334383-debc45ffa906?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737712334383-debc45ffa906?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743090597684-8929e6b86b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU0Njg0NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743090597684-8929e6b86b74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU0Njg0NDd8&ixlib=rb-4.0.3
 ---
 
 # [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
@@ -58,4 +58,4 @@ docker build -t drawdb .
 docker run -p 3000:80 drawdb
 ```
 
-Set up the [server](https://github.com/drawdb-io/drawdb-server) and environment variables according to `.env.sample` for the survey and bug report forms.
+If you wish to work with sharing, set up [server](https://github.com/drawdb-io/drawdb-server) and environment variables according to `.env.sample`. This is not required unless you want to share files.

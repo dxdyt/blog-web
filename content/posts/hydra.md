@@ -1,9 +1,9 @@
 ---
 title: hydra
-date: 2024-05-14T12:15:54+08:00
+date: 2025-04-24T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1713795324015-4e290fd30c37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTU2NjAxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1736580602638-c5f157d6d6fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU0Njg0NDd8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1736580602638-c5f157d6d6fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU0Njg0NDd8&ixlib=rb-4.0.3
 ---
 
 # [hydralauncher/hydra](https://github.com/hydralauncher/hydra)
@@ -12,22 +12,31 @@ featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c
 
 <div align="center">
 
-[<img src="./resources/icon.png" width="144"/>](https://hydralauncher.site)
+[<img src="./resources/icon.png" width="144"/>](https://help.hydralauncher.gg)
 
   <h1 align="center">Hydra Launcher</h1>
-  
+
   <p align="center">
-    <strong>Hydra is a game launcher with its own embedded bittorrent client and a self-managed repack scraper.</strong>
+    <strong>Hydra is a game launcher with its own embedded bittorrent client.</strong>
   </p>
 
 [![build](https://img.shields.io/github/actions/workflow/status/hydralauncher/hydra/build.yml)](https://github.com/hydralauncher/hydra/actions)
 [![release](https://img.shields.io/github/package-json/v/hydralauncher/hydra)](https://github.com/hydralauncher/hydra/releases)
 
-[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](README.pt-BR.md)
-[![en](https://img.shields.io/badge/lang-en-red.svg)](README.md)
-[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](README.ru.md)
-[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](README.uk-UA.md)
-[![be](https://img.shields.io/badge/lang-be-orange)](README.be.md)
+[![pt-BR](https://img.shields.io/badge/lang-pt--BR-green.svg)](./docs/README.pt-BR.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
+[![ru](https://img.shields.io/badge/lang-ru-yellow.svg)](./docs/README.ru.md)
+[![uk-UA](https://img.shields.io/badge/lang-uk--UA-blue)](./docs/README.uk-UA.md)
+[![be](https://img.shields.io/badge/lang-be-orange)](./docs/README.be.md)
+[![es](https://img.shields.io/badge/lang-es-red)](./docs/README.es.md)
+[![fr](https://img.shields.io/badge/lang-fr-blue)](./docs/README.fr.md)
+[![de](https://img.shields.io/badge/lang-de-black)](./docs/README.de.md)
+[![ita](https://img.shields.io/badge/lang-it-red)](./docs/README.it.md)
+[![cs](https://img.shields.io/badge/lang-cs-purple)](./docs/README.cs.md)
+[![da](https://img.shields.io/badge/lang-da-red)](./docs/README.da.md)
+[![nb](https://img.shields.io/badge/lang-nb-blue)](./docs/README.nb.md)
+[![et](https://img.shields.io/badge/lang-et-blue.svg)](./docs/README.et.md)
+[![tr](https://img.shields.io/badge/lang-tr-red.svg)](./docs/README.tr.md)
 
 ![Hydra Catalogue](./docs/screenshot.png)
 
@@ -35,11 +44,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c
 
 ## Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
-- [Contributing](#contributing)
-  - [Join our Telegram](#join-our-telegram)
+- [Contributing](#-contributing)
+  - [Join our Telegram](#-join-our-telegram)
   - [Fork and clone your repository](#fork-and-clone-your-repository)
   - [Ways you can contribute](#ways-you-can-contribute)
   - [Project Structure](#project-structure)
@@ -55,20 +65,19 @@ featuredImagePreview: https://images.unsplash.com/photo-1713795324015-4e290fd30c
   - [Build the bittorrent client](#build-the-bittorrent-client)
   - [Build the Electron application](#build-the-electron-application)
 - [Contributors](#contributors)
+- [License](#license)
 
 ## About
 
-**Hydra** is a **Game Launcher** with its own embedded **BitTorrent Client** and a **self-managed repack scraper**.
+**Hydra** is a **Game Launcher** with its own embedded **BitTorrent Client**.
 <br>
 The launcher is written in TypeScript (Electron) and Python, which handles the torrenting system by using libtorrent.
 
 ## Features
 
-- Self-Managed repack scraper among all the most reliable websites on the [Megathread]("https://www.reddit.com/r/Piracy/wiki/megathread/")
 - Own embedded bittorrent client
 - How Long To Beat (HLTB) integration on game page
 - Downloads path customization
-- Repack list update notifications
 - Windows and Linux support
 - Constantly updated
 - And more ...
@@ -127,9 +136,13 @@ cd hydra
 yarn
 ```
 
+### Install OpenSSL 1.1
+
+[OpenSSL 1.1](https://slproweb.com/download/Win64OpenSSL-1_1_1w.exe) is required by libtorrent in Windows environments.
+
 ### Install Python 3.9
 
-Ensure you have Python 3.9 installed on your machine. You can download and install it from [python.org](https://www.python.org/downloads/release/python-3919/).
+Ensure you have Python 3.9 installed on your machine. You can download and install it from [python.org](https://www.python.org/downloads/release/python-3913/).
 
 ### Install Python Dependencies
 
@@ -142,9 +155,8 @@ pip install -r requirements.txt
 ## Environment variables
 
 You'll need an SteamGridDB API Key in order to fetch the game icons on installation.
-If you want to have onlinefix as a repacker you'll need to add your credentials to the .env
 
-Once you have it, you can copy or rename the `.env.example` file to `.env`and put it on`STEAMGRIDDB_API_KEY`, `ONLINEFIX_USERNAME`, `ONLINEFIX_PASSWORD`.
+Once you have it, you can copy or rename the `.env.example` file to `.env` and put it on`STEAMGRIDDB_API_KEY`.
 
 ## Running
 
