@@ -1,9 +1,9 @@
 ---
 title: khoj
-date: 2025-03-29T12:21:52+08:00
+date: 2025-04-25T12:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740652646168-0d1557a6e8c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740652646168-0d1557a6e8c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743963256202-810324f9ba56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU1NTQ4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743963256202-810324f9ba56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU1NTQ4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [khoj-ai/khoj](https://github.com/khoj-ai/khoj)
@@ -37,6 +37,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1740652646168-0d1557a6e8
 <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
 [✍🏽 Blog](https://blog.khoj.dev)
 
+<a href="https://trendshift.io/repositories/10318" target="_blank"><img src="https://trendshift.io/api/badge/repositories/10318" alt="khoj-ai%2Fkhoj | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+
 </div>
 
 ***
@@ -52,7 +54,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1740652646168-0d1557a6e8
 
 [Khoj](https://khoj.dev) is a personal AI app to extend your capabilities. It smoothly scales up from an on-device personal AI to a cloud-scale enterprise AI.
 
-- Chat with any local or online LLM (e.g llama3, qwen, gemma, mistral, gpt, claude, gemini).
+- Chat with any local or online LLM (e.g llama3, qwen, gemma, mistral, gpt, claude, gemini, deepseek).
 - Get answers from the internet and your docs (including image, pdf, markdown, org-mode, word, notion files).
 - Access it from your Browser, Obsidian, Emacs, Desktop, Phone or Whatsapp.
 - Create agents with custom knowledge, persona, chat model and tools to take on any role.
@@ -80,6 +82,22 @@ To get started with self-hosting Khoj, [read the docs](https://docs.khoj.dev/get
 ## Enterprise
 
 Khoj is available as a cloud service, on-premises, or as a hybrid solution. To learn more about Khoj Enterprise, [visit our website](https://khoj.dev/teams).
+
+## Frequently Asked Questions (FAQ)
+
+Q: Can I use Khoj without self-hosting?
+
+Yes! You can use Khoj right away at [https://app.khoj.dev](https://app.khoj.dev) — no setup required.
+
+Q: What kinds of documents can Khoj read?
+
+Khoj supports a wide variety: PDFs, Markdown, Notion, Word docs, org-mode files, and more.
+
+Q: How can I make my own agent?
+
+Check out [this blog post](https://blog.khoj.dev/posts/create-agents-on-khoj/) for a step-by-step guide to custom agents.
+For more questions, head over to our [Discord](https://discord.gg/BDgyabRM6e)!
+
 
 ## Contributors
 Cheers to our awesome contributors! 🎉

@@ -1,9 +1,9 @@
 ---
 title: dinov2
-date: 2024-01-19T12:19:01+08:00
+date: 2025-04-25T12:22:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703179040740-fcd88a700b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703179040740-fcd88a700b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741732311591-18ddbd0964cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU1NTQ4NzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741732311591-18ddbd0964cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU1NTQ4NzZ8&ixlib=rb-4.0.3
 ---
 
 # [facebookresearch/dinov2](https://github.com/facebookresearch/dinov2)
