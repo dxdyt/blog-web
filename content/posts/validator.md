@@ -1,17 +1,16 @@
 ---
 title: validator
-date: 2025-02-15T12:20:48+08:00
+date: 2025-04-26T12:20:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1537442949530-d90f6a1377c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1OTMxNzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1537442949530-d90f6a1377c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk1OTMxNzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742626157103-76367e3798bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742626157103-76367e3798bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
 ---
 
 # [go-playground/validator](https://github.com/go-playground/validator)
 
 Package validator
 =================
-<img align="right" src="logo.png">[![Join the chat at https://gitter.im/go-playground/validator](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/go-playground/validator?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-![Project status](https://img.shields.io/badge/version-10.24.0-green.svg)
+<img align="right" src="logo.png">[![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/go-playground/validator)](https://github.com/go-playground/validator/releases)
 [![Build Status](https://github.com/go-playground/validator/actions/workflows/workflow.yml/badge.svg)](https://github.com/go-playground/validator/actions)
 [![Coverage Status](https://coveralls.io/repos/go-playground/validator/badge.svg?branch=master&service=github)](https://coveralls.io/github/go-playground/validator?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/go-playground/validator)](https://goreportcard.com/report/github.com/go-playground/validator)
@@ -183,6 +182,7 @@ validate := validator.New(validator.WithRequiredStructEnabled())
 | spicedb | SpiceDb ObjectID/Permission/Type |
 | datetime | Datetime |
 | e164 | e164 formatted phone number |
+| ein | U.S. Employeer Identification Number |
 | email | E-mail String
 | eth_addr | Ethereum Address |
 | hexadecimal | Hexadecimal String |
@@ -272,6 +272,8 @@ validate := validator.New(validator.WithRequiredStructEnabled())
 | excluded_without | Excluded Without |
 | excluded_without_all | Excluded Without All |
 | unique | Unique |
+| validateFn | Verify if the method `Validate() error` does not return an error (or any specified method) |
+
 
 #### Aliases:
 | Tag | Description |

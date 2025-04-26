@@ -1,9 +1,9 @@
 ---
 title: Font-Awesome
-date: 2024-11-26T12:22:06+08:00
+date: 2025-04-26T12:22:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730982425492-9b1612dc0e82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730982425492-9b1612dc0e82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741850820882-1cb02da0f04f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741850820882-1cb02da0f04f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
 ---
 
 # [FortAwesome/Font-Awesome](https://github.com/FortAwesome/Font-Awesome)

@@ -1,9 +1,9 @@
 ---
 title: UI-TARS
-date: 2025-04-25T12:21:43+08:00
+date: 2025-04-26T12:20:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744646377302-1feb4ab3e9b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU1NTQ4NzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744646377302-1feb4ab3e9b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU1NTQ4NzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744771724991-745db3eb4910?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744771724991-745db3eb4910?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
 ---
 
 # [bytedance/UI-TARS](https://github.com/bytedance/UI-TARS)
