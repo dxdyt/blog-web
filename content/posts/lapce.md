@@ -1,9 +1,9 @@
 ---
 title: lapce
-date: 2024-05-02T12:16:40+08:00
+date: 2025-04-27T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712309841831-de0aae29503a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ2MjMzNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744059186764-d5cfc2a35e16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744059186764-d5cfc2a35e16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
 ---
 
 # [lapce/lapce](https://github.com/lapce/lapce)
@@ -27,6 +27,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1712309841831-de0aae2950
   <a href="https://docs.lapce.dev" target="_blank">
       <img src="https://img.shields.io/static/v1?label=Docs&message=docs.lapce.dev&color=blue" alt="Lapce Docs">
   </a>
+  <a href="https://wiki.mutable.ai/lapce/lapce" target="_blank">
+      <img src="https://img.shields.io/static/v1?label=Code Wiki&message=Mutable.ai&color=blue" alt="Mutable.ai Auto Wiki">
+  </a>
 </div>
 <br/>
 
@@ -39,7 +42,7 @@ Lapce (IPA: /læps/) is written in pure Rust with a UI in [Floem](https://github
 
 * Built-in LSP ([Language Server Protocol](https://microsoft.github.io/language-server-protocol/)) support to give you intelligent code features such as: completion, diagnostics and code actions
 * Modal editing support as first class citizen (Vim-like, and toggleable)
-* Built-in remote development support inspired by [VSCode Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Enjoy the benefits of a "local" experience, and seamlessly gain the full power of a remote system. We also have [lapdev](https://github.com/lapce/lapdev) which can help manage your remote dev environments. 
+* Built-in remote development support inspired by [VSCode Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Enjoy the benefits of a "local" experience, and seamlessly gain the full power of a remote system. We also have [Lapdev](https://lap.dev/) which can help manage your remote dev environments. 
 * Plugins can be written in programming languages that can compile to the [WASI](https://wasi.dev/) format (C, Rust, [AssemblyScript](https://www.assemblyscript.org/))
 * Built-in terminal, so you can execute commands in your workspace, without leaving Lapce.
 
@@ -49,6 +52,12 @@ You can find pre-built releases for Windows, Linux and macOS [here](https://gith
 If you'd like to compile from source, you can find the [guide](docs/building-from-source.md).
 
 ## Contributing
+
+<a href="https://ws.lap.dev/#https://github.com/lapce/lapce" target="_blank">
+      <img src="https://lap.dev/images/open-in-lapdev.svg?version=8" alt="Open in Lapdev">
+</a>
+
+[Lapdev](https://lap.dev/), developed by the Lapce team, is a cloud dev env service similar to GitHub Codespaces. By clicking the button above, you'll be taken to a fully set up Lapce dev env where you can browse the code and start developing. All dependencies are pre-installed, so you can get straight to code.
 
 Guidelines for contributing to Lapce can be found in [`CONTRIBUTING.md`](CONTRIBUTING.md).
 

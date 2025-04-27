@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2025-02-09T12:19:31+08:00
+date: 2025-04-27T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736185669739-36a8e70cb6c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736185669739-36a8e70cb6c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkwNzQ2OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742156345582-b857d994c84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742156345582-b857d994c84e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1736185669739-36a8e70cb6
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/6012)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/6443)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索
 
@@ -38,8 +38,24 @@ $ grep -nri css docs | cat --number
 
 ## 2025
 
+**四月**
+
+- 第 346 期：[未来就是永恒感的丧失](docs/issue-346.md)
+- 第 345 期：[HDMI 2.2 影音可能到头了](docs/issue-345.md)
+- 第 344 期：[制造业正在“零工化”](docs/issue-344.md)
+
+**三月**
+
+- 第 343 期：[如何阻止 AI 爬虫](docs/issue-343.md)
+- 第 342 期：[面试的 AI 作弊——用数字人去面试](docs/issue-342.md)
+- 第 341 期：[低代码编程，恐怕不会成功](docs/issue-341.md)
+- 第 340 期：[技术炒作三十年](docs/issue-340.md)
+
 **二月**
 
+- 第 339 期：[代币是什么](docs/issue-339.md)
+- 第 338 期：[重新思考 6G](docs/issue-338.md)
+- 第 337 期：[互联网创业几乎没了](docs/issue-337.md)
 - 第 336 期：[面对 AI，互联网正在衰落](docs/issue-336.md)
 
 **一月**
