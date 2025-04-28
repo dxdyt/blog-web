@@ -1,9 +1,9 @@
 ---
 title: suna
-date: 2025-04-27T12:20:15+08:00
+date: 2025-04-28T12:24:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744939823677-eaafa17ed879?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744939823677-eaafa17ed879?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744762561513-4388d8326a74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744762561513-4388d8326a74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [kortix-ai/suna](https://github.com/kortix-ai/suna)

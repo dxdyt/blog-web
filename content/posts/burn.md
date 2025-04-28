@@ -1,9 +1,9 @@
 ---
 title: burn
-date: 2025-04-26T12:21:59+08:00
+date: 2025-04-28T12:22:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742993493624-ac0f22810eb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742993493624-ac0f22810eb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745089027073-aaf5181be1b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745089027073-aaf5181be1b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [tracel-ai/burn](https://github.com/tracel-ai/burn)

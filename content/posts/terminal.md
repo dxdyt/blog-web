@@ -1,9 +1,9 @@
 ---
 title: terminal
-date: 2025-02-10T12:20:31+08:00
+date: 2025-04-28T12:23:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737328180155-5cbac0020b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737328180155-5cbac0020b0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742403949587-42a767b9ea5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742403949587-42a767b9ea5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/terminal](https://github.com/microsoft/terminal)
@@ -349,6 +349,19 @@ If you would like to ask a question that you feel doesn't warrant an issue
 ## Developer Guidance
 
 ## Prerequisites
+
+You can configure your environment to build Terminal in one of two ways:
+
+### Using WinGet configuration file
+
+After cloning the repository, you can use a [WinGet configuration file](https://learn.microsoft.com/en-us/windows/package-manager/configuration/#use-a-winget-configuration-file-to-configure-your-machine)
+to set up your environment. The [default configuration file](.config/configuration.winget) installs Visual Studio 2022 Community & rest of the required tools. There are two other variants of the configuration file available in the [.config](.config) directory for Enterprise & Professional editions of Visual Studio 2022. To run the default configuration file, you can either double-click the file from explorer or run the following command:
+
+```powershell
+winget configure .config\configuration.winget
+```
+
+### Manual configuration
 
 * You must be running Windows 10 2004 (build >= 10.0.19041.0) or later to run
   Windows Terminal

@@ -1,9 +1,9 @@
 ---
 title: lapce
-date: 2025-04-27T12:20:23+08:00
+date: 2025-04-28T12:23:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744059186764-d5cfc2a35e16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744059186764-d5cfc2a35e16?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU3Mjc2MDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742403949587-42a767b9ea5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742403949587-42a767b9ea5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
 ---
 
 # [lapce/lapce](https://github.com/lapce/lapce)
