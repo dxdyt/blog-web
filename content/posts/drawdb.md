@@ -1,12 +1,25 @@
 ---
 title: drawdb
-date: 2025-04-26T12:21:34+08:00
+date: 2025-04-29T12:21:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742993493624-ac0f22810eb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742993493624-ac0f22810eb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU2NDEyMTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744771724940-2bc0a8a2001a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744771724940-2bc0a8a2001a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
+
+<div align="center">
+  <sup>Special thanks to:</sup>
+  <br>
+  <a href="https://www.warp.dev/drawdb/" target="_blank">
+    <img alt="Warp sponsorship" width="280" src="https://github.com/user-attachments/assets/c7f141e7-9751-407d-bb0e-d6f2c487b34f">
+    <br>
+    <b>Next-gen AI-powered intelligent terminal for all platforms</b>
+  </a>
+</div>
+
+<br/>
+<br/>
 
 <div align="center">
     <img width="64" alt="drawdb logo" src="./src/assets/icon-dark.png">

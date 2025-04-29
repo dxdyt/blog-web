@@ -1,9 +1,9 @@
 ---
 title: ChatGPT_DAN
-date: 2025-04-28T12:22:44+08:00
+date: 2025-04-29T12:22:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743041095820-3e09632071e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743041095820-3e09632071e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1583567792845-79ab24a97c5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1583567792845-79ab24a97c5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [0xk1h0/ChatGPT_DAN](https://github.com/0xk1h0/ChatGPT_DAN)

@@ -1,9 +1,9 @@
 ---
 title: rowboat
-date: 2025-04-28T12:22:06+08:00
+date: 2025-04-29T12:22:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741807069044-51afe6657547?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741807069044-51afe6657547?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744971383337-9158443e545c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744971383337-9158443e545c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
 ---
 
 # [rowboatlabs/rowboat](https://github.com/rowboatlabs/rowboat)
