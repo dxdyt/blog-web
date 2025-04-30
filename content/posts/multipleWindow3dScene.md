@@ -1,9 +1,9 @@
 ---
 title: multipleWindow3dScene
-date: 2025-04-29T12:22:32+08:00
+date: 2025-04-30T12:21:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744278955687-2a0216448268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744278955687-2a0216448268?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743020007138-c2f379fddc3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743020007138-c2f379fddc3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
 ---
 
 # [bgstaal/multipleWindow3dScene](https://github.com/bgstaal/multipleWindow3dScene)

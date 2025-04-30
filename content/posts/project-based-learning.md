@@ -1,9 +1,9 @@
 ---
 title: project-based-learning
-date: 2025-02-10T12:21:51+08:00
+date: 2025-04-30T12:21:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735467547583-d9fc4503f238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735467547583-d9fc4503f238?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkxNjExODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745176593875-9afdb66e31f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745176593875-9afdb66e31f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
 ---
 
 # [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)

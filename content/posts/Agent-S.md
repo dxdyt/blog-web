@@ -1,9 +1,9 @@
 ---
 title: Agent-S
-date: 2025-04-28T12:23:01+08:00
+date: 2025-04-30T12:22:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741732311526-093a69d005d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741732311526-093a69d005d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742105682489-94149abb1009?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742105682489-94149abb1009?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
 ---
 
 # [simular-ai/Agent-S](https://github.com/simular-ai/Agent-S)
