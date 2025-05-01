@@ -1,12 +1,24 @@
 ---
 title: mlx-swift-examples
-date: 2025-01-25T12:18:55+08:00
+date: 2025-05-01T12:24:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737079282750-5e2580fe5603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc3Nzg2ODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737079282750-5e2580fe5603?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc3Nzg2ODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743110337303-2edffbeab0b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743110337303-2edffbeab0b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples)
+
+# Documentation
+
+Developers can use these examples in their own programs -- just import the swift package!
+
+- [Porting and implementing models](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxlmcommon/porting)
+- [MLXLLMCommon](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxlmcommon) -- common API for LLM and VLM
+- [MLXLLM](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxllm) -- large language model example implementations
+- [MLXVLM](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxvlm) -- vision language model example implementations
+- [MLXEmbedders](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxembedders) -- popular Encoders / Embedding models example implementations
+- [StableDiffusion](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/stablediffusion) -- SDXL Turbo and Stable Diffusion mdeol example implementations
+- [MLXMNIST](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxmnist) -- MNIST implementation for all your digit recognition needs
 
 # MLX Swift Examples
 
@@ -14,21 +26,23 @@ Example [MLX Swift](https://github.com/ml-explore/mlx-swift) programs.
 
 - [MNISTTrainer](Applications/MNISTTrainer/README.md): An example that runs on
   both iOS and macOS that downloads MNIST training data and trains a
-  [LeNet](https://en.wikipedia.org/wiki/LeNet). 
+  [LeNet](https://en.wikipedia.org/wiki/LeNet).
 
 - [LLMEval](Applications/LLMEval/README.md): An example that runs on both iOS
-  and macOS that downloads an LLM and tokenizer from Hugging Face and 
-  generates text from a given prompt. 
-  
+  and macOS that downloads an LLM and tokenizer from Hugging Face and
+  generates text from a given prompt.
+
 - [VLMEval](Applications/VLMEval/README.md): An example that runs on iOS, macOS and visionOS to download a VLM and tokenizer from Hugging Face and
   analyzes the given image and describe it in text.
+
+- [MLXChatExample](Applications/MLXChatExample/README.md): An example chat app that runs on both iOS and macOS that supports LLMs and VLMs.
 
 - [LinearModelTraining](Tools/LinearModelTraining/README.md): An example that
   trains a simple linear model.
 
-- [StableDiffusionExample](Applications/StableDiffusionExample/README.md): An 
+- [StableDiffusionExample](Applications/StableDiffusionExample/README.md): An
   example that runs on both iOS and macOS that downloads a stable diffusion model
-  from Hugging Face and  and generates an image from a given prompt. 
+  from Hugging Face and  and generates an image from a given prompt.
 
 - [llm-tool](Tools/llm-tool/README.md): A command line tool for generating text
   using a variety of LLMs available on the Hugging Face hub.
@@ -38,7 +52,7 @@ Example [MLX Swift](https://github.com/ml-explore/mlx-swift) programs.
 
 - [mnist-tool](Tools/mnist-tool/README.md): A command line tool for training a
   a LeNet on MNIST.
-  
+
 ## Running
 
 The application and command line tool examples can be run from Xcode or from
@@ -48,9 +62,12 @@ the command line:
 ./mlx-run llm-tool --prompt "swift programming language"
 ```
 
+Note: `mlx-run` is a shell script that uses `xcode` command line tools to
+locate the built binaries.  It is equivalent to running from Xcode itself.
+
 See also:
 
-- [MLX troubleshooting](https://ml-explore.github.io/mlx-swift/MLX/documentation/mlx/troubleshooting)
+- [MLX troubleshooting](https://swiftpackageindex.com/ml-explore/mlx-swift/main/documentation/mlx/troubleshooting)
 
 ## Installation of libraries
 
@@ -60,7 +77,7 @@ as Swift Packages.
 
 Add the following dependency to your Package.swift
 
-```swift  
+```swift
 .package(url: "https://github.com/ml-explore/mlx-swift-examples/", branch: "main"),
 ```
 
@@ -74,4 +91,4 @@ Then add one or more libraries to the target as a dependency:
     ]),
 ```
 
-Alternatively, add `https://github.com/ml-explore/mlx-swift-examples/` to the `Project Dependencies` and set the `Dependency Rule` to `Branch` and `main` in Xcode. 
+Alternatively, add `https://github.com/ml-explore/mlx-swift-examples/` to the `Project Dependencies` and set the `Dependency Rule` to `Branch` and `main` in Xcode.

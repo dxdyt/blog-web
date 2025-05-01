@@ -1,9 +1,9 @@
 ---
 title: vllm
-date: 2025-04-13T12:47:43+08:00
+date: 2025-05-01T12:24:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740529673436-aa890905bcfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740529673436-aa890905bcfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ1MTk2MTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741851373499-e2c10ed2eeb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741851373499-e2c10ed2eeb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [vllm-project/vllm](https://github.com/vllm-project/vllm)

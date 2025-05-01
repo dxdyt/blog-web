@@ -1,9 +1,9 @@
 ---
 title: bitcoin
-date: 2025-01-06T12:20:37+08:00
+date: 2025-05-01T12:25:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733653023250-33739d0d8dc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733653023250-33739d0d8dc4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYxMzcxOTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742943892620-b0fe2db78226?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742943892620-b0fe2db78226?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [bitcoin/bitcoin](https://github.com/bitcoin/bitcoin)

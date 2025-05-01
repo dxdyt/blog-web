@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2025-04-30T12:21:53+08:00
+date: 2025-05-01T12:24:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743883325575-783014a39a8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743883325575-783014a39a8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5ODY4ODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744916577205-cb1ada826b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744916577205-cb1ada826b3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)

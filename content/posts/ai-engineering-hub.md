@@ -1,9 +1,9 @@
 ---
 title: ai-engineering-hub
-date: 2025-04-29T12:22:03+08:00
+date: 2025-05-01T12:23:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1583567792845-79ab24a97c5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1583567792845-79ab24a97c5c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU5MDA0MjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744968777203-eaf78a31832a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744968777203-eaf78a31832a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
 ---
 
 # [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
