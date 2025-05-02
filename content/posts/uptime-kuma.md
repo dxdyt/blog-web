@@ -1,9 +1,9 @@
 ---
 title: uptime-kuma
-date: 2024-11-09T12:19:14+08:00
+date: 2025-05-02T12:21:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728570084613-51937bd76993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728570084613-51937bd76993?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1731102310685-f080a97ab748?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1731102310685-f080a97ab748?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
@@ -72,6 +72,7 @@ Requirements:
 - Platform
   - ✅ Major Linux distros such as Debian, Ubuntu, CentOS, Fedora and ArchLinux etc.
   - ✅ Windows 10 (x64), Windows Server 2012 R2 (x64) or higher
+  - ❌ FreeBSD / OpenBSD / NetBSD
   - ❌ Replit / Heroku
 - [Node.js](https://nodejs.org/en/download/) 18 / 20.4
 - [npm](https://docs.npmjs.com/cli/) 9

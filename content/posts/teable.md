@@ -1,9 +1,9 @@
 ---
 title: teable
-date: 2025-01-24T12:19:07+08:00
+date: 2025-05-02T12:20:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736841096703-d042981a6157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736841096703-d042981a6157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [teableio/teable](https://github.com/teableio/teable)
@@ -25,7 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1736841096703-d042981a61
 </div>
 
 <p align="center">
-  <a target="_blank" href="https://teable.io">Home</a> | <a target="_blank" href="https://help.teable.io">Help</a> | <a target="_blank" href="https://Blog.teable.io">Blog</a> | <a target="_blank" href="https://template.teable.io">Template</a> | <a target="_blank" href="https://help.teable.io/developer/api">API</a> | <a target="_blank" href="https://app.teable.io/share/shr04TEw1u9EOQojPmG/view">Roadmap</a> | <a target="_blank" href="https://discord.gg/uZwp7tDE5W">Discord</a> | <a target="_blank" href="https://twitter.com/teableio">Twitter</a>
+  <a target="_blank" href="https://teable.io">Home</a> | <a target="_blank" href="https://help.teable.io">Help</a> | <a target="_blank" href="https://blog.teable.io">Blog</a> | <a target="_blank" href="https://app.teable.io/public/template">Template</a> | <a target="_blank" href="https://help.teable.io/en/api-doc/token">API</a> | <a target="_blank" href="https://app.teable.io/share/shr04TEw1u9EOQojPmG/view">Roadmap</a> | <a target="_blank" href="https://discord.gg/uZwp7tDE5W">Discord</a> | <a target="_blank" href="https://twitter.com/teableio">Twitter</a>
 </p>
 
 <p align="center">
@@ -60,10 +60,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1736841096703-d042981a61
 
 ## Quick Guide
 
-1. Looking for a quick experience? Select a scenario from the [template center](https://template.teable.io) and click "Use this template".
+1. Looking for a quick experience? Select a scenario from the [template center](https://app.teable.io/public/template) and click "Use this template".
 2. Seeking high performance? Try the [1 million rows demo](https://app.teable.io/share/shrVgdLiOvNQABtW0yX/view) to feel the speed of Teable.
-3. Want to learn to use it quickly? Click on this [tutorial](https://help.teable.io/quick-start/build-a-simple-base)
-4. Interested in deploying it yourself? Click [Deploy on Railway](https://railway.app/template/wada5e?referralCode=rE4BjB)
+3. Interested in deploying it yourself? Click [Deploy on Railway](https://railway.app/template/wada5e?referralCode=rE4BjB)
 
 ## ✨Features
 
@@ -136,7 +135,7 @@ More features coming soon, see our <a target="_blank" href="https://app.teable.i
 
 ```
 .
-├── apps (AGPL 3.0) 
+├── apps (AGPL 3.0)
 │   ├── nextjs-app          (front-end)
 │   └── nestjs-backend      (backend)
 ├── packages (MIT)
@@ -159,7 +158,7 @@ cd dockers/examples/standalone/
 docker-compose up -d
 ```
 
-for more details, see [install teable](https://help.teable.io/deployment/docker-compose)
+for more details, see [install teable](https://help.teable.io/en/deploy/docker)
 
 ### One Click Deployment
 
@@ -167,9 +166,9 @@ These platforms are easy to deploy with one click and come with free credits.
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/wada5e?referralCode=rE4BjB)
 
-[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/QF8695)
+[![Deploy on Sealos](https://sealos.io/Deploy-on-Sealos.svg)](https://template.sealos.io/deploy?templateName=teable)
 
-[![Deploy on Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://cloud.sealos.io/?openapp=system-template%3FtemplateName%3Dteable)
+[![Deploy on Zeabur](https://zeabur.com/button.svg)](https://zeabur.com/templates/QF8695)
 
 [![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app_id=273)
 
@@ -216,6 +215,10 @@ pnpm dev
 
 By default, the plugin development server is not started. To preview and develop plugins, run:
 ```sh
+# build packages
+pnpm build:packages
+
+# start plugin development server
 cd plugins
 pnpm dev
 ```
@@ -249,10 +252,6 @@ In essence, Teable isn't just another no-code solution, it's a comprehensive ans
 
 # License
 
-### Editions
+Teable Community Edition (CE) is free for self-hosting under the AGPL license. See [./LICENSE](./LICENSE) for details.
 
-Teable Community Edition (CE) is the current available version, it's free for self-host under the AGPL license.
-
-Teable Enterprise Edition (EE) is yet to be published, it will have more advanced features and enterprise-oriented offerings, including but not exclusive to authority matrix, automation, advanced admin and audit, etc., you may refer to https://help.teable.io/deployment/docker-compose for more information
-
-See [./LICENSE](./LICENSE) for details.
+Teable Enterprise Edition (EE) includes advanced features such as AI, authority matrix, automation and advanced admin. For detailed information and pricing, please visit [pricing](https://app.teable.io/public/pricing?host=self-hosted&billing=year).

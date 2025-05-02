@@ -1,9 +1,9 @@
 ---
 title: zed
-date: 2024-08-26T12:19:24+08:00
+date: 2025-05-02T12:21:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1721657570160-a6156783b7f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1721657570160-a6156783b7f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ2NDU5MDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744838166359-297055ad88b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744838166359-297055ad88b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [zed-industries/zed](https://github.com/zed-industries/zed)
@@ -14,10 +14,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1721657570160-a6156783b7
 
 Welcome to Zed, a high-performance, multiplayer code editor from the creators of [Atom](https://github.com/atom/atom) and [Tree-sitter](https://github.com/tree-sitter/tree-sitter).
 
---------
+---
 
 ### Installation
-
 
 <a href="https://repology.org/project/zed-editor/versions">
     <img src="https://repology.org/badge/vertical-allrepos/zed-editor.svg?minversion=0.143.5" alt="Packaging status" align="right">

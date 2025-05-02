@@ -1,9 +1,9 @@
 ---
 title: eShop
-date: 2024-09-22T12:21:28+08:00
+date: 2025-05-02T12:23:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725714108272-66d74dca92cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725714108272-66d74dca92cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744144501170-adec17d0c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744144501170-adec17d0c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [dotnet/eShop](https://github.com/dotnet/eShop)
@@ -17,6 +17,11 @@ A reference .NET application implementing an e-commerce website using a services
 ![eShop homepage screenshot](img/eshop_homepage.png)
 
 ## Getting Started
+
+This version of eShop is based on .NET 9. 
+
+Previous eShop versions:
+* [.NET 8](https://github.com/dotnet/eShop/tree/release/8.0)
 
 ### Prerequisites
 
@@ -45,13 +50,7 @@ Or
 - From Dev Home go to `Machine Configuration -> Clone repositories`. Enter the URL for this repository. In the confirmation screen look for the section `Configuration File Detected` and click `Run File`.
 
 #### Mac, Linux, & Windows without Visual Studio
-- Install the latest [.NET 8 SDK](https://dot.net/download?cid=eshop)
-- Install the [.NET Aspire workload](https://learn.microsoft.com/dotnet/aspire/fundamentals/setup-tooling?tabs=dotnet-cli%2Cunix#install-net-aspire) with the following commands:
-```powershell
-dotnet workload update
-dotnet workload install aspire
-dotnet restore eShop.Web.slnf
-```
+- Install the latest [.NET 9 SDK](https://dot.net/download?cid=eshop)
 
 Or
 

@@ -1,9 +1,9 @@
 ---
 title: Deep-Live-Cam
-date: 2025-05-01T12:23:36+08:00
+date: 2025-05-02T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742943892620-b0fe2db78226?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742943892620-b0fe2db78226?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
@@ -40,11 +40,11 @@ By using this software, you agree to these terms and commit to using it in a man
 
 Users are expected to use this software responsibly and legally. If using a real person's face, obtain their consent and clearly label any output as a deepfake when sharing online. We are not responsible for end-user actions.
 
-## Exclusive v2.0 Quick Start - Pre-built (Windows / Nvidia)
+## Exclusive v2.0 Quick Start - Pre-built (Windows)
 
-  <a href="https://deeplivecam.net/index.php/quickstart"> <img src="https://github.com/user-attachments/assets/7d993b32-e3e8-4cd3-bbfb-a549152ebdd5" width="285" height="77" />
+  <a href="https://deeplivecam.net/index.php/quickstart"> <img src="media/Download.png" width="285" height="77" />
 
-##### This is the fastest build you can get if you have a discrete NVIDIA GPU.
+##### This is the fastest build you can get if you have a discrete NVIDIA or AMD GPU.
  
 ###### These Pre-builts are perfect for non-technical users or those who don't have time to, or can't manually install all the requirements. Just a heads-up: this is an open-source project, so you can also install it manually. This will be 60 days ahead on the open source version.
 

@@ -1,9 +1,9 @@
 ---
 title: daytona
-date: 2025-05-01T12:24:12+08:00
+date: 2025-05-02T12:22:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743111040355-e5b0d751ad31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743111040355-e5b0d751ad31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [daytonaio/daytona](https://github.com/daytonaio/daytona)

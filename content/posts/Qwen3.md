@@ -1,9 +1,9 @@
 ---
 title: Qwen3
-date: 2025-05-01T12:23:58+08:00
+date: 2025-05-02T12:21:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743485237407-e00bfb75163e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743485237407-e00bfb75163e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen3](https://github.com/QwenLM/Qwen3)
