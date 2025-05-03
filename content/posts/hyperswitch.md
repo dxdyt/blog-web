@@ -1,9 +1,9 @@
 ---
 title: hyperswitch
-date: 2025-05-02T12:21:03+08:00
+date: 2025-05-03T12:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744838166359-297055ad88b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1744838166359-297055ad88b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
 ---
 
 # [juspay/hyperswitch](https://github.com/juspay/hyperswitch)
@@ -79,15 +79,27 @@ Read more at [Hyperswitch docs](https://docs.hyperswitch.io/).
 
 ### 1. Local Setup
 
-You can run Hyperswitch on your system using Docker compose after cloning this repository. 
-We recommend using Docker Desktop (Or Orbstack) for Windows and Mac OS. On Linux, you can install Docker Engine directly.
+#### One-Click Setup (Recommended)
+
+You can run Hyperswitch on your system with a single command using our one-click setup script:
+
 ```shell
 git clone --depth 1 --branch latest https://github.com/juspay/hyperswitch
 cd hyperswitch
-docker compose up -d
-# This script verifies the setup and provides links to the individual components.
-scripts/docker_output.sh
+scripts/setup.sh
 ```
+
+The above script will:
+- Check for prerequisites (Docker Compose/Podman)
+- Set up necessary configurations
+- Let you select a deployment profile:
+  - **Standard**: Recommended - App server + Control Center + Web SDK.
+  - **Full**: Standard + Monitoring + Scheduler.
+  - **Standalone App Server**: Core services only (Hyperswitch server, PostgreSQL, Redis)
+- Start the selected services
+- Check service health
+- Provide access information
+
 The next step is to [configure a connector][configure-a-connector] with the Hyperswitch Control Center and [try a payment][try-a-payment].
 
 Check out the [local setup guide][local-setup-guide] for more details on setting up the entire stack or component wise.

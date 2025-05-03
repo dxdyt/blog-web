@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2025-03-24T12:21:30+08:00
+date: 2025-05-03T12:21:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735352312656-df288027c66c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI3OTAwMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741738668550-3efca0fca23a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741738668550-3efca0fca23a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -47,13 +47,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1735352312656-df288027c6
 
 - [**`general.bat`**](./general.bat) - запуск со стратегией для обхода блокировок <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=15 /> Discord и <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=12 /> YouTube
 
-- [**`service_install.bat`**](./service_install.bat) - установка на автозапуск (как службы Windows: `zapret`, `WinDivert`), можно выбрать любую стратегию (название файла стратегии **НЕ** должно начинаться со слова `service`)
+- [**`cloudflare_switch.bat`**](./cloudflare_switch.bat) - включение/выключение обхода Cloudflare *(на деле перетирает список `ipset-cloudflare`, перезапуск после изменения не нужен)*
 
-- [**`service_remove.bat`**](./service_remove.bat) - остановка и удаление служб `zapret` и `WinDivert`
-
-- [**`service_status.bat`**](./service_status.bat) - проверка состояния служб `zapret` и `WinDivert`
-
-- [**`check_updates.bat`**](./check_updates.bat) - проверка обновлений
+- [**`service.bat`**](./service.bat) - установка на автозапуск (`Install Service`), удаление из автозапуска (`Remove Services`), проверка сервисов, диагностика, проверка обновлений
 
 ## ☑️Распространенные проблемы
 
@@ -91,7 +87,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1735352312656-df288027c6
 
 - Отключите функцию **TUN** (Tunneling) в настройках вашего VPN
 
-### При удалении с помощью [**`service_remove.bat`**](./service_remove.bat), WinDivert остается в службах
+### При удалении с помощью [**`service.bat`**](./service.bat), WinDivert остается в службах
 
 1. Узнайте название службы с помощью команды, в командной строке Windows (Win+R, `cmd`):
 

@@ -1,9 +1,9 @@
 ---
 title: Deep-Live-Cam
-date: 2025-05-02T12:20:43+08:00
+date: 2025-05-03T12:20:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743999941326-ef5cc0120e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743999941326-ef5cc0120e8e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
 ---
 
 # [hacksider/Deep-Live-Cam](https://github.com/hacksider/Deep-Live-Cam)
@@ -143,10 +143,18 @@ Place these files in the "**models**" folder.
 
 We highly recommend using a `venv` to avoid issues.
 
+
 For Windows:
 ```bash
 python -m venv venv
 venv\Scripts\activate
+pip install -r requirements.txt
+```
+For Linux:
+```bash
+# Ensure you use the installed Python 3.10
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 ```
 

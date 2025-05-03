@@ -1,9 +1,9 @@
 ---
 title: union
-date: 2025-04-09T12:23:09+08:00
+date: 2025-05-03T12:21:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734700920704-1e8000437a00?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQxNzI0NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1741687969502-4c406092f7de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1741687969502-4c406092f7de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
 ---
 
 # [unionlabs/union](https://github.com/unionlabs/union)
@@ -46,7 +46,7 @@ The upgradability of contracts on other chains, connections, token configuration
 | [`unionvisor`](./unionvisor/README.md)                | Node supervisor intended for production usage        | [Rust]                |
 | [`drip`](./drip)                                      | Faucet for [Cosmos] chains: [app.union.build/faucet] | [Rust]                |
 | [`evm`](./evm)                                        | [EVM] smart contract stack                           | [Solidity]            |
-| [`app`](./app)                                        | [app.union.build]                                    | [TypeScript] [Svelte] |
+| [`app`](./app2)                                       | [app.union.build]                                    | [TypeScript] [Svelte] |
 | [`site`](./site)                                      | [union.build]                                        | [TypeScript] [Astro]  |
 | [`TypeScript SDK`](./typescript-sdk)                  | TypeScript SDK for interacting with Union            | [TypeScript]          |
 

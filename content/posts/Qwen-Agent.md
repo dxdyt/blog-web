@@ -1,9 +1,9 @@
 ---
 title: Qwen-Agent
-date: 2025-05-02T12:20:52+08:00
+date: 2025-05-03T12:21:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744023238070-062811b3a702?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744023238070-062811b3a702?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745428911615-eb9b017a1a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745428911615-eb9b017a1a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
 ---
 
 # [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent)
