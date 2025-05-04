@@ -1,9 +1,9 @@
 ---
 title: aci
-date: 2025-05-03T12:20:51+08:00
+date: 2025-05-04T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744380623035-c94822a45deb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744380623035-c94822a45deb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745173036546-c56551790fb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745173036546-c56551790fb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
 ---
 
 # [aipotheosis-labs/aci](https://github.com/aipotheosis-labs/aci)

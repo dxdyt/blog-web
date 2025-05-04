@@ -1,9 +1,9 @@
 ---
 title: zphisher
-date: 2023-03-24T12:19:17+08:00
+date: 2025-05-04T12:23:45+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/11921/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/11921/0/1080p
+featuredImage: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
 ---
 
 # [htr-tech/zphisher](https://github.com/htr-tech/zphisher)
@@ -52,7 +52,6 @@ It only demonstrates "how phishing works". <b>You shall not misuse the informati
 - Beginners friendly
 - Multiple tunneling options
   - Localhost
-  - Ngrok
   - Cloudflared
   - LocalXpose
 - Mask URL support 

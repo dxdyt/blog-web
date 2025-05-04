@@ -1,31 +1,36 @@
 ---
 title: jj
-date: 2024-02-07T12:16:17+08:00
+date: 2025-05-04T12:22:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704354428728-24b8ccab5c3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704354428728-24b8ccab5c3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcyNzkzMTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
 ---
 
-# [martinvonz/jj](https://github.com/martinvonz/jj)
+# [jj-vcs/jj](https://github.com/jj-vcs/jj)
 
 <div class="title-block" style="text-align: center;" align="center">
 
 # Jujutsu—a version control system
 
-![](https://img.shields.io/github/v/release/martinvonz/jj)
-![](https://img.shields.io/github/release-date/martinvonz/jj)
+<p><img title="jj logo" src="docs/images/jj-logo.svg" width="320" height="320"></p>
+
+[![Release](https://img.shields.io/github/v/release/martinvonz/jj)](https://github.com/jj-vcs/jj/releases)
+[![Release date](https://img.shields.io/github/release-date/martinvonz/jj)](https://github.com/jj-vcs/jj/releases)
 <br/>
-![](https://img.shields.io/github/license/martinvonz/jj)
-![](https://github.com/martinvonz/jj/workflows/build/badge.svg)
+[![License](https://img.shields.io/github/license/martinvonz/jj)](https://github.com/jj-vcs/jj/blob/main/LICENSE)
 [![Discord](https://img.shields.io/discord/968932220549103686.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/dkmfj3aGQN)
+[![IRC](https://img.shields.io/badge/irc-%23jujutsu-blue.svg)](https://web.libera.chat/?channel=#jujutsu)
 
 **[Homepage] &nbsp;&nbsp;&bull;&nbsp;&nbsp;**
 **[Installation] &nbsp;&nbsp;&bull;&nbsp;&nbsp;**
-**[Getting Started]**
+**[Getting Started] &nbsp;&nbsp;&bull;&nbsp;&nbsp;**
+**[Development Roadmap] &nbsp;&nbsp;&bull;&nbsp;&nbsp;**
+**[Contributing](#contributing)**
 
-[Homepage]: https://martinvonz.github.io/jj
-[Installation]: https://martinvonz.github.io/jj/latest/install-and-setup
-[Getting Started]: https://martinvonz.github.io/jj/latest/tutorial
+[Homepage]: https://jj-vcs.github.io/jj
+[Installation]: https://jj-vcs.github.io/jj/latest/install-and-setup
+[Getting Started]: https://jj-vcs.github.io/jj/latest/tutorial
+[Development Roadmap]: https://jj-vcs.github.io/jj/latest/roadmap
 
 </div>
 
@@ -68,18 +73,17 @@ systems into a single tool. Some of those sources of inspiration include:
   powerful and simple. Formatting output is done with a robust template language
   that can be configured by the user.
 
-- **Pijul & Darcs**: Jujutsu keeps track of conflicts as [first-class
+- **Darcs**: Jujutsu keeps track of conflicts as [first-class
   objects][conflicts] in its model; they are first-class in the same way commits
   are, while alternatives like Git simply think of conflicts as textual diffs.
-  While not as rigorous as systems like Darcs and Pijul (which are based on a
-  formalized theory of patches, as opposed to snapshots), the effect is that
-  many forms of conflict resolution can be performed and propagated
-  automatically.
+  While not as rigorous as systems like Darcs (which is based on a formalized
+  theory of patches, as opposed to snapshots), the effect is that many forms of
+  conflict resolution can be performed and propagated automatically.
 
-[perf]: https://github.com/martinvonz/jj/discussions/49
-[revset]: https://martinvonz.github.io/jj/latest/revsets/
-[no-index]: https://martinvonz.github.io/jj/latest/git-comparison/#the-index
-[conflicts]: https://martinvonz.github.io/jj/latest/conflicts/
+[perf]: https://github.com/jj-vcs/jj/discussions/49
+[revset]: https://jj-vcs.github.io/jj/latest/revsets/
+[no-index]: https://jj-vcs.github.io/jj/latest/git-comparison/#the-index
+[conflicts]: https://jj-vcs.github.io/jj/latest/conflicts/
 
 And it adds several innovative, useful features of its own:
 
@@ -103,10 +107,9 @@ And it adds several innovative, useful features of its own:
   well. In effect, this is a completely transparent version of `git rebase
   --update-refs` combined with `git rerere`, supported by design.
 
-  > [!WARNING]
-  > The following features are available for use, but experimental; they may
-  > have bugs, backwards incompatible storage changes, and user-interface
-  > changes!
+> [!WARNING]
+> The following features are available for use, but experimental; they may have
+> bugs, backwards incompatible storage changes, and user-interface changes!
 
 - **Safe, concurrent replication**: Have you ever wanted to store your version
   controlled repositories inside a Dropbox folder? Or continuously backup
@@ -125,9 +128,9 @@ And it adds several innovative, useful features of its own:
   _should_ happen is that it will expose conflicts between the local and remote
   state, leaving you to resolve them.
 
-[wcc]: https://martinvonz.github.io/jj/latest/working-copy/
+[wcc]: https://jj-vcs.github.io/jj/latest/working-copy/
 [undo-history]: https://en.wikipedia.org/wiki/Undo#History
-[conc-safety]: https://martinvonz.github.io/jj/latest/technical/concurrency/
+[conc-safety]: https://jj-vcs.github.io/jj/latest/technical/concurrency/
 
 The command-line tool is called `jj` for now because it's easy to type and easy
 to replace (rare in English). The project is called "Jujutsu" because it matches
@@ -135,19 +138,53 @@ to replace (rare in English). The project is called "Jujutsu" because it matches
 
 Jujutsu is relatively young, with lots of work to still be done. If you have any
 questions, or want to talk about future plans, please join us on Discord
-[![Discord](https://img.shields.io/discord/968932220549103686.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/dkmfj3aGQN)
-or start a [GitHub Discussion](https://github.com/martinvonz/jj/discussions); the
-developers monitor both channels.
+[![Discord](https://img.shields.io/discord/968932220549103686.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/dkmfj3aGQN),
+start a [GitHub Discussion](https://github.com/jj-vcs/jj/discussions), or
+send an IRC message to [`#jujutsu` on Libera
+Chat](https://web.libera.chat/?channel=#jujutsu). The developers monitor all of
+these channels[^bridge].
+
+[^bridge]: To be more precise, the `#jujutsu` Libera IRC channel is bridged to
+one of the channels on jj's Discord. Some of the developers stay on Discord and
+use the bridge to follow IRC.
 
 ### News and Updates 📣
 
+- **December 2024**: The `jj` Repository has moved to the `jj-vcs` GitHub
+  organisation.
+- **November 2024**: Version 0.24 is released which adds `jj file annotate`,
+  which is equivalent to `git blame` or `hg annotate`.
+- **September 2024**: Martin gave a [presentation about Jujutsu][merge-vid-2024] at
+  Git Merge 2024.
+- **Feb 2024**: Version 0.14 is released, which deprecates ["jj checkout" and "jj merge"](CHANGELOG.md#0140---2024-02-07),
+  as well as `jj init --git`, which is now just called `jj git init`.
 - **Oct 2023**: Version 0.10.0 is released! Now includes a bundled merge and
   diff editor for all platforms, "immutable revsets" to avoid accidentally
   `edit`-ing the wrong revisions, and lots of polish.
 - **Jan 2023**: Martin gave a presentation about Google's plans for Jujutsu at
-  Git Merge 2022! See the
-  [slides](https://docs.google.com/presentation/d/1F8j9_UOOSGUN9MvHxPZX_L4bQ9NMcYOp1isn17kTC_M/view)
-  or the [recording](https://www.youtube.com/watch?v=bx_LGilOuE4).
+  Git Merge 2022!
+  See the [slides][merge-slides] or the [recording][merge-talk].
+
+### Related Media
+
+- **Mar 2024**: Chris Krycho started [a YouTube series about Jujutsu][krycho-yt].
+- **Feb 2024**: Chris Krycho published an article about Jujutsu called [jj init][krycho]
+  and Steve Klabnik followed up with the [Jujutsu Tutorial][klabnik].
+- **Jan 2024**: Jujutsu was featured in an LWN.net article called
+  [Jujutsu: a new, Git-compatible version control system][lwn].
+- **Jan 2023**: Martin's Talk about Jujutsu at Git Merge 2022, [video][merge-talk]
+  and the associated [slides][merge-slides].
+
+The wiki also contains a more extensive list of [media references][wiki-media].
+
+[krycho-yt]: https://www.youtube.com/playlist?list=PLelyiwKWHHAq01Pvmpf6x7J0y-yQpmtxp
+[krycho]: https://v5.chriskrycho.com/essays/jj-init/
+[klabnik]: https://steveklabnik.github.io/jujutsu-tutorial/
+[lwn]: https://lwn.net/Articles/958468/
+[merge-talk]: https://www.youtube.com/watch?v=bx_LGilOuE4
+[merge-slides]: https://docs.google.com/presentation/d/1F8j9_UOOSGUN9MvHxPZX_L4bQ9NMcYOp1isn17kTC_M/view
+[merge-vid-2024]: https://www.youtube.com/watch?v=LV0JzI8IcCY
+[wiki-media]: https://github.com/jj-vcs/jj/wiki/Media
 
 ## Getting started
 
@@ -158,23 +195,25 @@ developers monitor both channels.
 > it unusable for your particular use.
 
 Follow the [installation
-instructions](https://martinvonz.github.io/jj/latest/install-and-setup) to
+instructions](https://jj-vcs.github.io/jj/latest/install-and-setup) to
 obtain and configure `jj`.
 
 The best way to get started is probably to go through [the
-tutorial](https://martinvonz.github.io/jj/latest/tutorial). Also see the [Git
-comparison](https://martinvonz.github.io/jj/latest/git-comparison), which
+tutorial](https://jj-vcs.github.io/jj/latest/tutorial). Also see the [Git
+comparison](https://jj-vcs.github.io/jj/latest/git-comparison), which
 includes a table of `jj` vs. `git` commands.
 
 As you become more familiar with Jujutsu, the following resources may be helpful:
 
-- The [FAQ](https://martinvonz.github.io/jj/latest/FAQ).
-- The [Glossary](https://martinvonz.github.io/jj/latest/glossary).
+- The [FAQ](https://jj-vcs.github.io/jj/latest/FAQ).
+- The [Glossary](https://jj-vcs.github.io/jj/latest/glossary).
 - The `jj help` command (e.g. `jj help rebase`).
+- The `jj help -k <keyword>` command (e.g. `jj help -k config`). Use `jj help --help`
+  to see what keywords are available.
 
 If you are using a **prerelease** version of `jj`, you would want to consult
 [the docs for the prerelease (main branch)
-version](https://martinvonz.github.io/jj/prerelease/). You can also get there
+version](https://jj-vcs.github.io/jj/prerelease/). You can also get there
 from the docs for the latest release by using the website's version switcher. The version switcher is visible in
 the header of the website when you scroll to the top of any page.
 
@@ -183,25 +222,23 @@ the header of the website when you scroll to the top of any page.
 ### Compatible with Git
 
 Jujutsu is designed so that the underlying data and storage model is abstract.
-Today, it features two [backends]—one of them uses a Git repository for storage,
-while the other is a native storage backend[^native-backend].
+Today, only the Git backend is production-ready. The Git backend uses the
+[libgit2](https://libgit2.org/) C library and the
+[gitoxide](https://github.com/Byron/gitoxide) Rust library.
 
-[backends]: https://martinvonz.github.io/jj/latest/glossary#backend
-
-[^native-backend]: At this time, there's practically no reason to use the native
-backend. The backend exists mainly to make sure that it's possible to eventually
-add functionality that cannot easily be added to the Git backend.
+[backends]: https://jj-vcs.github.io/jj/latest/glossary#backend
 
 The Git backend is fully featured and maintained, and allows you to use Jujutsu
-as an alternative interface to Git. The commits you create will look like
-regular Git commits. You can always switch back to Git. The Git support uses the
-[libgit2](https://libgit2.org/) C library.
+with any Git remote. The commits you create will look like regular Git commits.
+You can fetch branches from a regular Git remote and push branches to the
+remote. You can always switch back to Git.
 
+Here is how you can explore a GitHub repository with `jj`.
 
 <img src="demos/git_compat.png" />
 
 You can even have a ["co-located" local
-repository](https://martinvonz.github.io/jj/latest/git-compatibility#co-located-jujutsugit-repos)
+repository](https://jj-vcs.github.io/jj/latest/git-compatibility#co-located-jujutsugit-repos)
 where you can use both `jj` and `git` commands interchangeably.
 
 ### The working copy is automatically committed
@@ -242,7 +279,7 @@ necessarily have to be the most recent operation).
 ### Conflicts can be recorded in commits
 
 If an operation results in
-[conflicts](https://martinvonz.github.io/jj/latest/glossary#conflict),
+[conflicts](https://jj-vcs.github.io/jj/latest/glossary#conflict),
 information about those conflicts will be recorded in the commit(s). The
 operation will succeed. You can then resolve the conflicts later. One
 consequence of this design is that there's no need to continue interrupted
@@ -262,7 +299,7 @@ Juggling conflicts:
 
 Whenever you modify a commit, any descendants of the old commit will be rebased
 onto the new commit. Thanks to the conflict design described above, that can be
-done even if there are conflicts. Branches pointing to rebased commits will be
+done even if there are conflicts. Bookmarks pointing to rebased commits will be
 updated. So will the working copy if it points to a rebased commit.
 
 ### Comprehensive support for rewriting history
@@ -271,12 +308,12 @@ Besides the usual rebase command, there's `jj describe` for editing the
 description (commit message) of an arbitrary commit. There's also `jj diffedit`,
 which lets you edit the changes in a commit without checking it out. To split
 a commit into two, use `jj split`. You can even move part of the changes in a
-commit to any other commit using `jj move`.
+commit to any other commit using `jj squash -i --from X --into Y`.
 
 ## Status
 
-The tool is fairly feature-complete, but some important features like (the
-equivalent of) `git blame` are not yet supported. There
+The tool is fairly feature-complete, but some important features like support
+for Git submodules are not yet completed. There
 are also several performance bugs. It's likely that workflows and setups
 different from what the core developers use are not well supported, e.g. there
 is no native support for email-based workflows.
@@ -295,7 +332,7 @@ scripts if requested.
 ## Related work
 
 There are several tools trying to solve similar problems as Jujutsu. See
-[related work](https://martinvonz.github.io/jj/latest/related-work) for details.
+[related work](https://jj-vcs.github.io/jj/latest/related-work) for details.
 
 ## Contributing
 
@@ -304,7 +341,7 @@ don't be shy. Please ask if you want a pointer on something you can help with,
 and hopefully we can all figure something out.
 
 We do have [a few policies and
-suggestions](https://martinvonz.github.io/jj/prerelease/contributing/)
+suggestions](https://jj-vcs.github.io/jj/prerelease/contributing/)
 for contributors. The broad TL;DR:
 
 - Bug reports are very welcome!
@@ -324,4 +361,7 @@ That said, **this is not a Google product**.
 ## License
 
 Jujutsu is available as Open Source Software, under the Apache 2.0 license. See
-[LICENSE](./LICENSE) for details about copyright and redistribution.
+[`LICENSE`](./LICENSE) for details about copyright and redistribution.
+
+The `jj` logo was contributed by J. Jennings and is licensed under a Creative
+Commons License, see [`docs/images/LICENSE`](docs/images/LICENSE).

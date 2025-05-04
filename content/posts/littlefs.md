@@ -1,9 +1,9 @@
 ---
 title: littlefs
-date: 2025-05-02T12:22:57+08:00
+date: 2025-05-04T12:23:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745827213263-ff9677c7830c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745827213263-ff9677c7830c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
 ---
 
 # [littlefs-project/littlefs](https://github.com/littlefs-project/littlefs)

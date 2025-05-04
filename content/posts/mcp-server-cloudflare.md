@@ -1,9 +1,9 @@
 ---
 title: mcp-server-cloudflare
-date: 2025-05-03T12:21:05+08:00
+date: 2025-05-04T12:22:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745428911615-eb9b017a1a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1745428911615-eb9b017a1a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
 ---
 
 # [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare)
