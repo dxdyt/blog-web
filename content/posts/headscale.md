@@ -1,9 +1,9 @@
 ---
 title: headscale
-date: 2025-05-04T12:22:41+08:00
+date: 2025-05-05T12:24:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736580602839-c537bf31cfd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736580602839-c537bf31cfd1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745559022871-fa8abca90b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY0MTg5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1745559022871-fa8abca90b28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY0MTg5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [juanfont/headscale](https://github.com/juanfont/headscale)
@@ -17,8 +17,12 @@ An open source, self-hosted implementation of the Tailscale control server.
 Join our [Discord server](https://discord.gg/c84AZQhmpx) for a chat.
 
 **Note:** Always select the same GitHub tag as the released version you use
-to ensure you have the correct example configuration and documentation.
-The `main` branch might contain unreleased changes.
+to ensure you have the correct example configuration. The `main` branch might
+contain unreleased changes. The documentation is available for stable and
+development versions:
+
+* [Documentation for the stable version](https://headscale.net/stable/)
+* [Documentation for the development version](https://headscale.net/development/)
 
 ## What is Tailscale
 

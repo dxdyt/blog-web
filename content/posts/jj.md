@@ -1,9 +1,9 @@
 ---
 title: jj
-date: 2025-05-04T12:22:53+08:00
+date: 2025-05-05T12:22:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742787584125-d94d44334047?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY0MTg5NDJ8&ixlib=rb-4.0.3
+featuredImagePreview: https://images.unsplash.com/photo-1742787584125-d94d44334047?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY0MTg5NDJ8&ixlib=rb-4.0.3
 ---
 
 # [jj-vcs/jj](https://github.com/jj-vcs/jj)
