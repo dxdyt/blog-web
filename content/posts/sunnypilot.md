@@ -1,9 +1,9 @@
 ---
 title: sunnypilot
-date: 2025-05-04T12:23:59+08:00
+date: 2025-05-06T12:23:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743485753827-97d4db2cb303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743485753827-97d4db2cb303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744374345182-ad26dd573b53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744374345182-ad26dd573b53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
 ---
 
 # [sunnypilot/sunnypilot](https://github.com/sunnypilot/sunnypilot)

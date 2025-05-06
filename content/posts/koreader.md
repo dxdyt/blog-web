@@ -1,9 +1,9 @@
 ---
 title: koreader
-date: 2025-05-04T12:22:47+08:00
+date: 2025-05-06T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743485753827-97d4db2cb303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743485753827-97d4db2cb303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744063893861-3e703c13d1e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744063893861-3e703c13d1e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
 ---
 
 # [koreader/koreader](https://github.com/koreader/koreader)
