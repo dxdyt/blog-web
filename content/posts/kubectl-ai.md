@@ -1,9 +1,9 @@
 ---
 title: kubectl-ai
-date: 2025-05-06T12:22:17+08:00
+date: 2025-05-07T12:21:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742808682750-522ff2cc08fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742808682750-522ff2cc08fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744723852488-ebb3e2541cca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744723852488-ebb3e2541cca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
@@ -25,9 +25,9 @@ First, ensure that kubectl is installed and configured.
 2. Untar the release, make the binary executable and move it to a directory in your $PATH (as shown below).
 
 ```shell
-$ tar -zxvf kubectl-ai_Darwin_arm64.tar.gz
-$ chmod a+x kubectl-ai
-$ sudo mv kubectl-ai /usr/local/bin/
+tar -zxvf kubectl-ai_Darwin_arm64.tar.gz
+chmod a+x kubectl-ai
+sudo mv kubectl-ai /usr/local/bin/
 ```
 
 ### Usage
@@ -64,6 +64,15 @@ kubectl-ai --llm-provider ollama --model gemma3:12b-it-qat --enable-tool-use-shi
 >> models
 ```
 
+#### Using Grok
+
+You can use X.AI's Grok model by setting your X.AI API key:
+
+```bash
+export GROK_API_KEY=your_xai_api_key_here
+kubectl-ai --llm-provider=grok --model=grok-3-beta
+```
+
 #### Using Azure OpenAI
 
 You can also use Azure OpenAI deployment by setting your OpenAI API key and specifying the provider:
@@ -86,7 +95,7 @@ export OPENAI_API_KEY=your_openai_api_key_here
 kubectl-ai --llm-provider=openai --model=gpt-4.1
 ```
 
-* Note: `kubectl-ai` supports AI models from `gemini`, `vertexai`, `azopenai`, `openai` and local LLM providers such as `ollama` and `llamacpp`.
+* Note: `kubectl-ai` supports AI models from `gemini`, `vertexai`, `azopenai`, `openai`, `grok` and local LLM providers such as `ollama` and `llamacpp`.
 
 Run interactively:
 
