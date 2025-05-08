@@ -1,9 +1,9 @@
 ---
 title: go-cursor-help
-date: 2025-03-19T12:21:36+08:00
+date: 2025-05-08T12:23:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740968786458-9bf66e5e0bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740968786458-9bf66e5e0bb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745750747234-5df61f67a7bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745750747234-5df61f67a7bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
 ---
 
 # [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1740968786458-9bf66e5e0b
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square&logo=bookstack)](https://github.com/yuaotian/go-cursor-help/blob/master/LICENSE)
 [![Stars](https://img.shields.io/github/stars/yuaotian/go-cursor-help?style=flat-square&logo=github)](https://github.com/yuaotian/go-cursor-help/stargazers)
 
-[🌟 English](README.md) | [🌏 中文](README_CN.md)
+[🌟 English](README.md) | [🌏 中文](README_CN.md) | [🌏 日本語](README_JP.md)
 
 <img src="https://ai-cursor.com/wp-content/uploads/2024/09/logo-cursor-ai-png.webp" alt="Cursor Logo" width="120"/>
 
@@ -25,9 +25,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1740968786458-9bf66e5e0b
 > ⚠️ **IMPORTANT NOTICE**
 > 
 > This tool currently supports:
-> - ✅ Cursor v0.45.x and below
-> - ✅ Windows: Latest 0.47.x versions (Supported)
-> - ✅ Mac/Linux: Latest 0.47.x versions (Supported, feedback welcome)
+> - ✅ Windows: Latest 0.49.x versions (Supported)
+> - ✅ Mac/Linux: Latest 0.49.x versions (Supported, feedback welcome)
 >
 > Please check your Cursor version before using this tool.
 
@@ -37,20 +36,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1740968786458-9bf66e5e0b
 <div class="version-card" style="background: linear-gradient(135deg, #6e8efb, #a777e3); border-radius: 8px; padding: 15px; margin: 10px 0; color: white;">
 
 ### 🌟 Latest Versions
-- v0.45.11 (2025-02-07) - Latest Release
-- v0.45.x (2025-01-03) - Most Stable Release
 
-[View Full Version History](CursorHistoryDown.md)
+[View Full Version History]([CursorHistoryDown.md](https://github.com/oslook/cursor-ai-downloads?tab=readme-ov-file))
 
 </div>
 
-### 📥 Direct Download Links
 
-**v0.45.x (Recommended Stable Version)**
-- Windows: [Official](https://downloader.cursor.sh/builds/250103fqxdt5u9z/windows/nsis/x64) | [Mirror](https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.44.11%20-%20Build%20250103fqxdt5u9z-x64.exe)
-- Mac: [Apple Silicon](https://dl.todesktop.com/230313mzl4w4u92/versions/0.44.11/mac/zip/arm64)
 
 </details>
+
+⚠️ **General Solutions for Cursor**
+> 1.  Close Cursor, log out of your account, and delete your account in the official website Settings (refresh IP node: Japan, Singapore, USA, Hong Kong, prioritizing low latency - not necessarily required but change if conditions allow; Windows users are recommended to refresh DNS cache: `ipconfig /flushdns`)
+> Go to the Cursor official website to delete your current account
+> Steps: User avatar -> Setting -> Advanced▼ in the bottom left -> Delete Account
+>
+> 2.  Run the machine code refresh script, see the script address below, available in China
+> 
+> 3.  Re-register an account, log in, and open Cursor to resume normal use.
+>
+> 4.  Alternative solution: If still unusable after step [**3**], or if you encounter problems such as account registration failure or inability to delete an account, this usually means your browser has been identified or restricted by the target website (risk control). In this case, try switching browsers, such as: Edge, Google Chrome, Firefox. (Or, consider using a browser that can modify or randomize browser fingerprint information).
+
+
+---
 
 ⚠️ **MAC Address Modification Warning**
 > 
@@ -60,14 +67,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1740968786458-9bf66e5e0b
 > - This modification may temporarily affect network connectivity
 > - You can skip this step when prompted during execution
 >
-> 💾 **Download Cursor v0.45.x**
-> 
-> Windows:
-> - [Download from Cursor Official](https://downloader.cursor.sh/builds/250103fqxdt5u9z/windows/nsis/x64)
-> - [Download from ToDesktop](https://download.todesktop.com/230313mzl4w4u92/Cursor%20Setup%200.44.11%20-%20Build%20250103fqxdt5u9z-x64.exe)
->
-> Mac:
-> - [Download for Mac (Apple Silicon)](https://dl.todesktop.com/230313mzl4w4u92/versions/0.44.11/mac/zip/arm64)
 
 <details >
 <summary><b>🔒 Disable Auto-Update Feature</b></summary>
@@ -256,9 +255,6 @@ If you see the "High Load" message for Claude 3.7 Sonnet, this indicates Cursor 
 **macOS**
 
 ```bash
-# Method one
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh | tee /tmp/cursor_mac_id_modifier.sh && sudo chown root:wheel /tmp/cursor_mac_id_modifier.sh && sudo chmod +x /tmp/cursor_mac_id_modifier.sh && sudo bash /tmp/cursor_mac_id_modifier.sh && rm /tmp/cursor_mac_id_modifier.sh 
-
 # Method two
 curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
@@ -268,6 +264,8 @@ curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com
 ```bash
 curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_linux_id_modifier.sh | sudo bash 
 ```
+
+> **Note for Linux users:** The script attempts to find your Cursor installation by checking common paths (`/usr/bin`, `/usr/local/bin`, `$HOME/.local/bin`, `/opt/cursor`, `/snap/bin`), using the `which cursor` command, and searching within `/usr`, `/opt`, and `$HOME/.local`. If Cursor is installed elsewhere or not found via these methods, the script may fail. Ensure Cursor is accessible via one of these standard locations or methods.
 
 **Windows**
 
@@ -287,10 +285,6 @@ irm https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/
 **macOS**
 
 ```bash
-# 方式一
-curl -fsSL https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh | tee /tmp/cursor_mac_id_modifier.sh && sudo chown root:wheel /tmp/cursor_mac_id_modifier.sh && sudo chmod +x /tmp/cursor_mac_id_modifier.sh && sudo bash /tmp/cursor_mac_id_modifier.sh && rm /tmp/cursor_mac_id_modifier.sh 
-
-# 方式二
 curl -fsSL https://aizaozao.com/accelerate.php/https://raw.githubusercontent.com/yuaotian/go-cursor-help/refs/heads/master/scripts/run/cursor_mac_id_modifier.sh -o ./cursor_mac_id_modifier.sh && sudo bash ./cursor_mac_id_modifier.sh && rm ./cursor_mac_id_modifier.sh
 ```
 
@@ -519,8 +513,8 @@ Modifying this registry key may affect:
 </td>
 <td align="center">
 <b>WeChat</b><br>
-<img src="img/wx_group7.jpg" width="500" alt="WeChat"><br>
-<em>二维码7天内(3月24日前)有效，过期请加微信</em>
+<img src="img/qun-12.png" width="500" alt="WeChat"><br>
+<em>二维码7天内(4月25日前)有效，过期请加微信</em>
 </td>
 <!-- <td align="center">
 <b>ETC</b><br>

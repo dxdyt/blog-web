@@ -1,9 +1,9 @@
 ---
 title: kubectl-ai
-date: 2025-05-07T12:21:09+08:00
+date: 2025-05-08T12:22:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744723852488-ebb3e2541cca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744723852488-ebb3e2541cca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745910020846-3d4d0088d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745910020846-3d4d0088d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
@@ -93,6 +93,14 @@ You can also use OpenAI models by setting your OpenAI API key and specifying the
 ```bash
 export OPENAI_API_KEY=your_openai_api_key_here
 kubectl-ai --llm-provider=openai --model=gpt-4.1
+```
+
+#### Using OpenAI Compatible API
+For example, you can use aliyun qwen-xxx module as follows
+```bash
+export OPENAI_API_KEY=your_openai_api_key_here
+export OPENAI_ENDPOINT=https://dashscope.aliyuncs.com/compatible-mode/v1
+kubectl-ai --llm-provider=openai --model=qwen-plus
 ```
 
 * Note: `kubectl-ai` supports AI models from `gemini`, `vertexai`, `azopenai`, `openai`, `grok` and local LLM providers such as `ollama` and `llamacpp`.

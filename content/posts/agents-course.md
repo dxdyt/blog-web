@@ -1,9 +1,9 @@
 ---
 title: agents-course
-date: 2025-05-07T12:22:26+08:00
+date: 2025-05-08T12:24:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744690176525-c66d9fa342f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744690176525-c66d9fa342f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744487347425-972e31769599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744487347425-972e31769599?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/agents-course](https://github.com/huggingface/agents-course)

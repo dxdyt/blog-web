@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2025-02-23T12:20:27+08:00
+date: 2025-05-08T12:24:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738346441946-1a7ef573b9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738346441946-1a7ef573b9e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743930286867-acbd47f58e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743930286867-acbd47f58e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -192,16 +192,14 @@ docker-compose up
 - 完整的使用演示：https://v.douyin.com/iFhnwsKY/
 - 如何在Windows上部署：https://v.douyin.com/iFyjoW3M
 
-#### ① 创建虚拟环境
+#### ① 依赖安装
 
-建议使用 [conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) 创建 python 虚拟环境
+建议使用 [pdm](https://pdm-project.org/en/latest/#installation)
 
 ```shell
 git clone https://github.com/harry0703/MoneyPrinterTurbo.git
 cd MoneyPrinterTurbo
-conda create -n MoneyPrinterTurbo python=3.11
-conda activate MoneyPrinterTurbo
-pip install -r requirements.txt
+pdm sync
 ```
 
 #### ② 安装好 ImageMagick
@@ -232,14 +230,12 @@ pip install -r requirements.txt
 ###### Windows
 
 ```bat
-conda activate MoneyPrinterTurbo
 webui.bat
 ```
 
 ###### MacOS or Linux
 
 ```shell
-conda activate MoneyPrinterTurbo
 sh webui.sh
 ```
 
