@@ -1,9 +1,9 @@
 ---
 title: kubectl-ai
-date: 2025-05-08T12:22:39+08:00
+date: 2025-05-09T12:22:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745910020846-3d4d0088d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745910020846-3d4d0088d24d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744361448609-c5d3417f00ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744361448609-c5d3417f00ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
@@ -19,6 +19,14 @@ kubectl-ai is an AI powered kubernetes agent that runs in your terminal.
 First, ensure that kubectl is installed and configured.
 
 ### Installation
+
+#### Quick Install (Linux & MacOS only)
+
+```shell
+curl -sSL https://raw.githubusercontent.com/GoogleCloudPlatform/kubectl-ai/main/install.sh | bash
+```
+
+#### Manual Installation (Linux, MacOS and Windows)
 
 1. Download the latest release from the [releases page](https://github.com/GoogleCloudPlatform/kubectl-ai/releases/latest) for your target machine.
 
@@ -47,7 +55,7 @@ kubectl-ai --model gemini-2.5-pro-exp-03-25
 kubectl-ai --quiet --model gemini-2.5-flash-preview-04-17 "check logs for nginx app in hello namespace"
 ```
 
-#### Using AI models running locally (ollama or llamacpp)
+#### Using AI models running locally (ollama or llama.cpp)
 
 You can use `kubectl-ai` with AI models running locally. `kubectl-ai` supports [ollama](https://ollama.com/) and [llama.cpp](https://github.com/ggml-org/llama.cpp) to use the AI models running locally.
 
@@ -96,14 +104,14 @@ kubectl-ai --llm-provider=openai --model=gpt-4.1
 ```
 
 #### Using OpenAI Compatible API
-For example, you can use aliyun qwen-xxx module as follows
+For example, you can use aliyun qwen-xxx models as follows
 ```bash
 export OPENAI_API_KEY=your_openai_api_key_here
 export OPENAI_ENDPOINT=https://dashscope.aliyuncs.com/compatible-mode/v1
 kubectl-ai --llm-provider=openai --model=qwen-plus
 ```
 
-* Note: `kubectl-ai` supports AI models from `gemini`, `vertexai`, `azopenai`, `openai`, `grok` and local LLM providers such as `ollama` and `llamacpp`.
+* Note: `kubectl-ai` supports AI models from `gemini`, `vertexai`, `azopenai`, `openai`, `grok` and local LLM providers such as `ollama` and `llama.cpp`.
 
 Run interactively:
 
@@ -116,7 +124,7 @@ The interactive mode allows you to have a chat with `kubectl-ai`, asking multipl
 Or, run with a task as input:
 
 ```shell
-kubectl-ai -quiet "fetch logs for nginx app in hello namespace"
+kubectl-ai --quiet "fetch logs for nginx app in hello namespace"
 ```
 
 Combine it with other unix commands:
@@ -153,19 +161,19 @@ Use it via the `kubectl` plug interface like this: `kubectl ai`.  kubectl will f
 
 ```bash
 # Get information about pods in the default namespace
-kubectl-ai -quiet "show me all pods in the default namespace"
+kubectl-ai --quiet "show me all pods in the default namespace"
 
 # Create a new deployment
-kubectl-ai -quiet "create a deployment named nginx with 3 replicas using the nginx:latest image"
+kubectl-ai --quiet "create a deployment named nginx with 3 replicas using the nginx:latest image"
 
 # Troubleshoot issues
-kubectl-ai -quiet "double the capacity for the nginx app"
+kubectl-ai --quiet "double the capacity for the nginx app"
 
 # Using Azure OpenAI instead of Gemini
-kubectl-ai --llm-provider=azopenai --model=your_azure_openai_deployment_name_here -quiet "scale the nginx deployment to 5 replicas"
+kubectl-ai --llm-provider=azopenai --model=your_azure_openai_deployment_name_here --quiet "scale the nginx deployment to 5 replicas"
 
 # Using OpenAI instead of Gemini
-kubectl-ai --llm-provider=openai --model=gpt-4.1 -quiet "scale the nginx deployment to 5 replicas"
+kubectl-ai --llm-provider=openai --model=gpt-4.1 --quiet "scale the nginx deployment to 5 replicas"
 ```
 
 The `kubectl-ai` will process your query, execute the appropriate kubectl commands, and provide you with the results and explanations.
@@ -182,6 +190,11 @@ kubectl-ai project includes [k8s-bench](./k8s-bench/README.md) - a benchmark to 
 | **Total** | 28 | 2 |
 
 See [full report](./k8s-bench.md) for more details.
+
+## Start Contributing
+
+We welcome contributions to `kubectl-ai` from the community. Take a look at our
+[contribution guide](contributing.md) to get started.
 
 ---
 

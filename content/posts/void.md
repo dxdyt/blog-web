@@ -1,9 +1,9 @@
 ---
 title: void
-date: 2025-05-08T12:23:30+08:00
+date: 2025-05-09T12:23:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744855232429-acacce6e0922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744855232429-acacce6e0922?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
 ---
 
 # [voideditor/void](https://github.com/voideditor/void)
@@ -21,17 +21,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1744855232429-acacce6e09
 
 Void is the open-source Cursor alternative.
 
+Use AI agents on your codebase, checkpoint and visualize changes, and bring any model or host locally. Void sends messages directly to providers without retaining your data.
+
 This repo contains the full sourcecode for Void. If you're new, welcome!
 
 - 👋 [Discord](https://discord.gg/RSNjgaugJs)
-
-- 🔨 [Contribute](https://github.com/voideditor/void/blob/main/HOW_TO_CONTRIBUTE.md)
 
 - 🚙 [Roadmap](https://github.com/orgs/voideditor/projects/2)
 
 - 📝 [Changelog](https://voideditor.com/changelog)
 
-- 🧭 [Codebase Guide](https://github.com/voideditor/void/blob/main/VOID_CODEBASE_GUIDE.md)
+- 🧭 [Website](https://voideditor.com)
 
 ## Contributing
 

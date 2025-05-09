@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2025-05-08T12:24:10+08:00
+date: 2025-05-09T12:23:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743930286867-acbd47f58e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743930286867-acbd47f58e8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1732165783074-b0f7c123982b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1732165783074-b0f7c123982b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)
@@ -130,15 +130,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1743930286867-acbd47f58e
 下载一键启动包，解压直接使用（路径不要有 **中文**、**特殊字符**、**空格**）
 
 ### Windows
-- 百度网盘（1.2.1 最新版本）: https://pan.baidu.com/s/1pSNjxTYiVENulTLm6zieMQ?pwd=g36q 提取码: g36q
+- 百度网盘（1.2.1 老版本）: https://pan.baidu.com/s/1pSNjxTYiVENulTLm6zieMQ?pwd=g36q 提取码: g36q
 
 下载后，建议先**双击执行** `update.bat` 更新到**最新代码**，然后双击 `start.bat` 启动
 
 启动后，会自动打开浏览器（如果打开是空白，建议换成 **Chrome** 或者 **Edge** 打开）
-
-### 其他系统
-
-还没有制作一键启动包，看下面的 **安装部署** 部分，建议使用 **docker** 部署，更加方便。
 
 ## 安装部署 📥
 
@@ -153,7 +149,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1743930286867-acbd47f58e
 git clone https://github.com/harry0703/MoneyPrinterTurbo.git
 ```
 
-#### ② 修改配置文件
+#### ② 修改配置文件（可选，建议启动后也可以在 WebUI 里面配置）
 
 - 将 `config.example.toml` 文件复制一份，命名为 `config.toml`
 - 按照 `config.toml` 文件中的说明，配置好 `pexels_api_keys` 和 `llm_provider`，并根据 llm_provider 对应的服务商，配置相关的
@@ -302,33 +298,6 @@ MoneyPrinterTurbo
 用于视频字幕的渲染，位于项目的 `resource/fonts` 目录下，你也可以放进去自己的字体。
 
 ## 常见问题 🤔
-
-### ❓如何使用免费的OpenAI GPT-3.5模型?
-
-[OpenAI宣布ChatGPT里面3.5已经免费了](https://openai.com/blog/start-using-chatgpt-instantly)，有开发者将其封装成了API，可以直接调用
-
-**确保你安装和启动了docker服务**，执行以下命令启动docker服务
-
-```shell
-docker run -p 3040:3040 missuo/freegpt35
-```
-
-启动成功后，修改 `config.toml` 中的配置
-
-- `llm_provider` 设置为 `openai`
-- `openai_api_key` 随便填写一个即可，比如 '123456'
-- `openai_base_url` 改为 `http://localhost:3040/v1/`
-- `openai_model_name` 改为 `gpt-3.5-turbo`
-
-> 注意：该方式稳定性较差
-
-### ❓AttributeError: 'str' object has no attribute 'choices'`
-
-这个问题是由于大模型没有返回正确的回复导致的。
-
-大概率是网络原因， 使用 **VPN**，或者设置 `openai_base_url` 为你的代理 ，应该就可以解决了。
-
-同时建议使用 **Moonshot** 或 **DeepSeek** 作为大模型提供商，这两个服务商在国内访问速度更快，更加稳定。
 
 ### ❓RuntimeError: No ffmpeg exe could be found
 

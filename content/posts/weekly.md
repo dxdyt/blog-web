@@ -1,9 +1,9 @@
 ---
 title: weekly
-date: 2025-05-08T12:23:04+08:00
+date: 2025-05-09T12:22:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745433972680-6f4d34b602c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745433972680-6f4d34b602c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY2NzgxNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
 ---
 
 # [ruanyf/weekly](https://github.com/ruanyf/weekly)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1745433972680-6f4d34b602
 
 欢迎投稿，推荐或自荐文章/软件/资源，请[提交 issue](https://github.com/ruanyf/weekly/issues) 。
 
-> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/6443)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
+> P.S. 讨论区的[《谁在招人》](https://github.com/ruanyf/weekly/issues/6771)，是一个免费的程序员招聘帖，提供大量就业信息，欢迎访问或发布工作/实习岗位。
 
 ## 如何搜索
 
@@ -37,6 +37,10 @@ $ grep -nri css docs | cat --number
 ```
 
 ## 2025
+
+**五月**
+
+- 第 347 期：[冷启动的破解之道](docs/issue-347.md)
 
 **四月**
 

@@ -1,9 +1,9 @@
 ---
 title: agent-squad
-date: 2025-05-07T12:21:29+08:00
+date: 2025-05-09T12:22:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744360817433-0d9386ddb9e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744360817433-0d9386ddb9e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744740606260-1881836349d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744740606260-1881836349d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
 ---
 
 # [awslabs/agent-squad](https://github.com/awslabs/agent-squad)
