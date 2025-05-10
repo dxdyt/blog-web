@@ -1,9 +1,9 @@
 ---
 title: NeMo
-date: 2025-05-09T12:24:07+08:00
+date: 2025-05-10T12:20:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744361448609-c5d3417f00ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744361448609-c5d3417f00ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1741850826366-889f33a73327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1741850826366-889f33a73327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
 ---
 
 # [NVIDIA/NeMo](https://github.com/NVIDIA/NeMo)

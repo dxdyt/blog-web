@@ -1,9 +1,9 @@
 ---
 title: PDFMathTranslate
-date: 2025-04-23T12:22:00+08:00
+date: 2025-05-10T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741802856123-04d9f001270f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741802856123-04d9f001270f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUzODIwOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745513940687-e344286743b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745513940687-e344286743b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
 ---
 
 # [Byaidu/PDFMathTranslate](https://github.com/Byaidu/PDFMathTranslate)
@@ -55,6 +55,14 @@ For details on how to contribute, please consult the [Contribution Guide](https:
 
 <h2 id="updates">Updates</h2>
 
+- [May 9, 2025] pdf2zh 2.0 Preview Version [#586](https://github.com/Byaidu/PDFMathTranslate/issues/586): The Windows ZIP file and Docker image are now available.
+
+> [!CAUTION]
+>
+> The current maintainer of this project is developing pdf2zh v2.0-rc at [aw/pdf2zh v2-rc](https://github.com/awwaawwa/PDFMathTranslate/tree/v2-rc).
+>
+> v2.0-rc can now accept some small PRs. Please discuss with the maintainer [@awwaawwa](https://github.com/awwaawwa) in the [main repository issue](https://github.com/Byaidu/PDFMathTranslate/issues) before submitting a PR to [aw/pdf2zh v2-rc](https://github.com/awwaawwa/PDFMathTranslate/tree/v2-rc)~
+
 - [Mar. 3, 2025] Experimental support for the new backend [BabelDOC](https://github.com/funstory-ai/BabelDOC) WebUI added as an experimental option (by [@awwaawwa](https://github.com/awwaawwa))
 - [Feb. 22 2025] Better release CI and well-packaged windows-amd64 exe (by [@awwaawwa](https://github.com/awwaawwa))
 - [Dec. 24 2024] The translator now supports local models on [Xinference](https://github.com/xorbitsai/inference) _(by [@imClumsyPanda](https://github.com/imClumsyPanda))_
@@ -89,6 +97,7 @@ For different use cases, we provide distinct methods to use our program:
   <summary>1. UV install</summary>
 
 1. Python installed (3.10 <= version <= 3.12)
+
 2. Install our package:
 
    ```bash
@@ -115,7 +124,9 @@ For different use cases, we provide distinct methods to use our program:
 
 <details>
   <summary>3. Graphic user interface</summary>
+
 1. Python installed (3.10 <= version <= 3.12)
+
 2. Install our package:
 
 ```bash
@@ -165,6 +176,8 @@ For docker deployment on cloud service:
   <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Koyeb" height="26"></a>
 <a href="https://zeabur.com/templates/5FQIGX?referralCode=reycn">
   <img src="https://zeabur.com/button.svg" alt="Deploy on Zeabur" height="26"></a>
+<a href="https://template.sealos.io/deploy?templateName=pdf2zh">
+  <img src="https://sealos.io/Deploy-on-Sealos.svg" alt="Deploy on Sealos" height="26"></a>
 <a href="https://app.koyeb.com/deploy?type=git&builder=buildpack&repository=github.com/Byaidu/PDFMathTranslate&branch=main&name=pdf-math-translate">
   <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy to Koyeb" height="26"></a>
 </div>

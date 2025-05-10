@@ -1,16 +1,18 @@
 ---
 title: kubectl-ai
-date: 2025-05-09T12:22:24+08:00
+date: 2025-05-10T12:20:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744361448609-c5d3417f00ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744361448609-c5d3417f00ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743710426934-89887ca897d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743710426934-89887ca897d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/kubectl-ai](https://github.com/GoogleCloudPlatform/kubectl-ai)
 
 # kubectl-ai
 
-kubectl-ai is an AI powered kubernetes agent that runs in your terminal.
+`kubectl-ai` acts as an intelligent interface, translating user intent into
+precise Kubernetes operations, making Kubernetes management more accessible and
+efficient.
 
 ![kubectl-ai demo GIF using: kubectl-ai "how's nginx app doing in my cluster"](./.github/kubectl-ai.gif)
 
@@ -38,6 +40,14 @@ chmod a+x kubectl-ai
 sudo mv kubectl-ai /usr/local/bin/
 ```
 
+#### Install with Krew (Linux/macOS/Windows)
+First of all, you need to have krew insatlled, refer to [krew document](https://krew.sigs.k8s.io/docs/user-guide/setup/install/) for more details
+Then you can install with krew
+```shell
+kubectl krew install ai
+```
+Now you can invoke `kubectl-ai` as a kubectl plugin like this: `kubectl ai`.
+
 ### Usage
 
 #### Using Gemini (Default)
@@ -64,6 +74,9 @@ An example of using Google's `gemma3` model with `ollama`:
 ```shell
 # assuming ollama is already running and you have pulled one of the gemma models
 # ollama pull gemma3:12b-it-qat
+
+# if your ollama server is at remote, use OLLAMA_HOST variable to specify the host
+# export OLLAMA_HOST=http://192.168.1.3:11434/
 
 # enable-tool-use-shim because models require special prompting to enable tool calling
 kubectl-ai --llm-provider ollama --model gemma3:12b-it-qat --enable-tool-use-shim
@@ -177,6 +190,10 @@ kubectl-ai --llm-provider=openai --model=gpt-4.1 --quiet "scale the nginx deploy
 ```
 
 The `kubectl-ai` will process your query, execute the appropriate kubectl commands, and provide you with the results and explanations.
+
+## MCP server
+
+You can also use `kubectl-ai` as a MCP server that exposes `kubectl` as one of the tools to interact with locally configured k8s environment. See [mcp docs](./docs/mcp.md) for more details.
 
 ## k8s-bench
 

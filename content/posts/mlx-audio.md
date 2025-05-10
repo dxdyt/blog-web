@@ -1,9 +1,9 @@
 ---
 title: mlx-audio
-date: 2025-05-09T12:23:31+08:00
+date: 2025-05-10T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732165783074-b0f7c123982b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1732165783074-b0f7c123982b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743710426934-89887ca897d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743710426934-89887ca897d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
 ---
 
 # [Blaizzy/mlx-audio](https://github.com/Blaizzy/mlx-audio)
