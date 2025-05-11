@@ -1,9 +1,9 @@
 ---
 title: zed
-date: 2025-05-10T12:21:28+08:00
+date: 2025-05-11T12:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741850826366-889f33a73327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1741850826366-889f33a73327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY4NTA4MTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745860973840-f81898cab7b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY5MzcyNjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745860973840-f81898cab7b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY5MzcyNjV8&ixlib=rb-4.1.0
 ---
 
 # [zed-industries/zed](https://github.com/zed-industries/zed)
