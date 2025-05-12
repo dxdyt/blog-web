@@ -1,9 +1,9 @@
 ---
 title: gpui-component
-date: 2025-05-11T12:22:25+08:00
+date: 2025-05-12T12:23:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745521245831-422f7f9140ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY5MzcyNjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745521245831-422f7f9140ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY5MzcyNjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746764964456-d0a48759500a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746764964456-d0a48759500a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
 ---
 
 # [longbridge/gpui-component](https://github.com/longbridge/gpui-component)

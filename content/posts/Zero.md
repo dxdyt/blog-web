@@ -1,9 +1,9 @@
 ---
 title: Zero
-date: 2025-05-04T12:22:59+08:00
+date: 2025-05-12T12:23:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743507664175-e1a0ebccfcb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYzMzI0OTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746309820600-4832cf957235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746309820600-4832cf957235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
 ---
 
 # [Mail-0/Zero](https://github.com/Mail-0/Zero)
@@ -262,7 +262,7 @@ If you'd like to help with translating Zero to other languages, check out our [t
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Mail-0/Zero&type=Timeline)](https://star-history.com/#Mail-0/Zero&Timeline)
+[![Star History Chart](https://api.star-history.com/svg?repos=Mail-0/Zero&type=Timeline)](https://www.star-history.com/#Mail-0/Zero&Timeline)
 
 ## This project wouldn't be possible without these awesome companies
 

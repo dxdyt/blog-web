@@ -1,9 +1,9 @@
 ---
 title: solidtime
-date: 2025-02-05T12:19:42+08:00
+date: 2025-05-12T12:24:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735845934479-3c353aa56afb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735845934479-3c353aa56afb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg3MjkxNDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743275532243-ee04fdcd3899?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743275532243-ee04fdcd3899?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
 ---
 
 # [solidtime-io/solidtime](https://github.com/solidtime-io/solidtime)
