@@ -1,9 +1,9 @@
 ---
 title: Zero
-date: 2025-05-12T12:23:56+08:00
+date: 2025-05-13T12:23:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746309820600-4832cf957235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746309820600-4832cf957235?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746263665199-24fff5aff18e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746263665199-24fff5aff18e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
 ---
 
 # [Mail-0/Zero](https://github.com/Mail-0/Zero)
@@ -90,6 +90,7 @@ You can set up Zero in two ways:
      cp .env.example .env
      ```
    - Configure your environment variables (see below)
+   - Setup cloudflare with `bun run cf-install`, you will need to run this everytime there is a `.env` change
    - Start the database with the provided docker compose setup: `bun docker:up`
    - Initialize the database: `bun db:push`
 
@@ -158,7 +159,7 @@ bun install
    - Create OAuth 2.0 credentials (Web application type)
    - Add authorized redirect URIs:
      - Development:
-       - `http://localhost:3000/api/auth/callback/google`
+       - `http://localhost:8787/api/auth/callback/google`
      - Production:
        - `https://your-production-url/api/auth/callback/google`
    - Add to `.env`:
@@ -220,7 +221,7 @@ Zero uses PostgreSQL for storing data. Here's how to set it up:
 
 2. **Set Up Database Connection**
 
-   Make sure your database connection string is in `.env` file.
+   Make sure your database connection string is in `.env` file. And you have ran `bun run cf-install` to sync the latest env.
 
    For local development use:
 

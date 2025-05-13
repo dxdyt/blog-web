@@ -1,9 +1,9 @@
 ---
 title: gitdiagram
-date: 2025-04-02T12:21:04+08:00
+date: 2025-05-13T12:24:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742293603906-314c95b4b438?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM1Njc2NDd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742293603906-314c95b4b438?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM1Njc2NDd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744723852515-84e56b8bb04d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744723852515-84e56b8bb04d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
 ---
 
 # [ahmedkhaleel2004/gitdiagram](https://github.com/ahmedkhaleel2004/gitdiagram)
@@ -23,7 +23,7 @@ You can also replace `hub` with `diagram` in any Github URL to access its diagra
 
 - 👀 **Instant Visualization**: Convert any GitHub repository structure into a system design / architecture diagram
 - 🎨 **Interactivity**: Click on components to navigate directly to source files and relevant directories
-- ⚡ **Fast Generation**: Powered by Claude 3.5 Sonnet for quick and accurate diagrams
+- ⚡ **Fast Generation**: Powered by OpenAI o4-mini for quick and accurate diagrams
 - 🔄 **Customization**: Modify and regenerate diagrams with custom instructions
 - 🌐 **API Access**: Public API available for integration (WIP)
 
@@ -32,7 +32,7 @@ You can also replace `hub` with `diagram` in any Github URL to access its diagra
 - **Frontend**: Next.js, TypeScript, Tailwind CSS, ShadCN
 - **Backend**: FastAPI, Python, Server Actions
 - **Database**: PostgreSQL (with Drizzle ORM)
-- **AI**: OpenAI o3-mini
+- **AI**: OpenAI o4-mini
 - **Deployment**: Vercel (Frontend), EC2 (Backend)
 - **CI/CD**: GitHub Actions
 - **Analytics**: PostHog, Api-Analytics
@@ -41,7 +41,7 @@ You can also replace `hub` with `diagram` in any Github URL to access its diagra
 
 I created this because I wanted to contribute to open-source projects but quickly realized their codebases are too massive for me to dig through manually, so this helps me get started - but it's definitely got many more use cases!
 
-Given any public (or private!) GitHub repository it generates diagrams in Mermaid.js with OpenAI's o3-mini! (Previously Claude 3.5 Sonnet)
+Given any public (or private!) GitHub repository it generates diagrams in Mermaid.js with OpenAI's o4-mini! (Previously Claude 3.5 Sonnet)
 
 I extract information from the file tree and README for details and interactivity (you can click components to be taken to relevant files and directories)
 

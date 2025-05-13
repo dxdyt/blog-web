@@ -1,9 +1,9 @@
 ---
 title: EOS
-date: 2025-03-28T12:21:57+08:00
+date: 2025-05-13T12:24:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730886831466-66bbc2154981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730886831466-66bbc2154981?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744723852515-84e56b8bb04d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744723852515-84e56b8bb04d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
 ---
 
 # [Akkudoktor-EOS/EOS](https://github.com/Akkudoktor-EOS/EOS)
@@ -30,7 +30,7 @@ Other architectures (e.g. armv6, armv7) are unsupported for now, because a multi
 
 ## Installation
 
-Docker images (amd64/aarch64) can be found at [akkudoktor/eos](https://hub.docker.com/r/akkudoktor/eos).
+The project requires Python 3.11 or newer. Docker images (amd64/aarch64) can be found at [akkudoktor/eos](https://hub.docker.com/r/akkudoktor/eos).
 
 Following sections describe how to locally start the EOS server on `http://localhost:8503`.
 
@@ -50,8 +50,9 @@ Windows:
 
 ```cmd
 python -m venv .venv
- .venv\Scripts\pip install -r requirements.txt
- .venv\Scripts\pip install -e .
+.venv\Scripts\Activate
+.venv\Scripts\pip install -r requirements.txt
+.venv\Scripts\pip install -e .
 ```
 
 Finally, start the EOS server to access it at `http://localhost:8503` (API docs at `http://localhost:8503/docs`):
@@ -75,6 +76,8 @@ Start EOS with following command to access it at `http://localhost:8503` (API do
 ```bash
 docker compose up
 ```
+
+If you are running the EOS container on a system hosting multiple services, such as a Synology NAS, and want to allow external network access to EOS, please ensure that the default exported ports (8503, 8504) are available on the host. On Synology systems, these ports might already be in use (refer to [this guide](https://kb.synology.com/en-me/DSM/tutorial/What_network_ports_are_used_by_Synology_services)). If the ports are occupied, you will need to reconfigure the exported ports accordingly.
 
 ## Configuration
 

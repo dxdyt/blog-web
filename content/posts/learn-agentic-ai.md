@@ -1,9 +1,9 @@
 ---
 title: learn-agentic-ai
-date: 2025-05-12T12:24:11+08:00
+date: 2025-05-13T12:23:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743043616695-ab8dfe004ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743043616695-ab8dfe004ef8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcwMjM3Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745604785337-96f95b719df5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745604785337-96f95b719df5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
 ---
 
 # [panaversity/learn-agentic-ai](https://github.com/panaversity/learn-agentic-ai)
