@@ -1,9 +1,9 @@
 ---
 title: kickstart.nvim
-date: 2025-04-14T12:22:29+08:00
+date: 2025-05-14T12:23:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745012520285-5b5ea47cdcc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745012520285-5b5ea47cdcc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
 ---
 
 # [nvim-lua/kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
@@ -33,7 +33,8 @@ If you are experiencing issues, please make sure you have the latest versions.
 
 External Requirements:
 - Basic utils: `git`, `make`, `unzip`, C Compiler (`gcc`)
-- [ripgrep](https://github.com/BurntSushi/ripgrep#installation)
+- [ripgrep](https://github.com/BurntSushi/ripgrep#installation),
+  [fd-find](https://github.com/sharkdp/fd#installation)
 - Clipboard tool (xclip/xsel/win32yank or other depending on the platform)
 - A [Nerd Font](https://www.nerdfonts.com/): optional, provides various icons
   - if you have it set `vim.g.have_nerd_font` in `init.lua` to true

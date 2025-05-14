@@ -1,16 +1,18 @@
 ---
 title: spring-ai-alibaba
-date: 2025-03-29T12:22:29+08:00
+date: 2025-05-14T12:22:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741722604183-7d94a0403152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741722604183-7d94a0403152?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMyMjIwNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744690176525-c66d9fa342f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744690176525-c66d9fa342f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba)
 
+> The community driven Spring AI Alibaba  OpenManus Java implementtation can be found at [spring-ai-alibaba-jmanus](./spring-ai-alibaba-jmanus) module.
+
 # [Spring AI Alibaba](https://java2ai.com)
 
-[中文版本](./README-zh.md)
+[中文版本](./README-zh.md) | [日本語](./README-ja.md)
 
 An AI application framework for Java developers built on top of Spring AI that provides seamless integration with Alibaba Cloud QWen LLM services and cloud-native infrastructures.
 
@@ -24,26 +26,26 @@ Overall, it takes only two steps to turn your Spring Boot application into an in
 
 1. Add `spring-ai-alibaba-starter` dependency to your project.
 
- ```xml
- <dependency>
-  <groupId>com.alibaba.cloud.ai</groupId>
-  <artifactId>spring-ai-alibaba-starter</artifactId>
-  <version>1.0.0-M6.1</version>
- </dependency>
- ```
+   ```xml
+   <dependency>
+        <groupId>com.alibaba.cloud.ai</groupId>
+        <artifactId>spring-ai-alibaba-starter</artifactId>
+        <version>1.0.0-M6.1</version>
+   </dependency>
+   ```
 
  > NOTICE: Since spring-ai related packages haven't been published to the central repo yet, it's needed to add the following maven repository to your project in order to successfully resolve artifacts like  spring-ai-core.
  >
  > ```xml
  > <repositories>
- >  <repository>
- >   <id>spring-milestones</id>
- >   <name>Spring Milestones</name>
- >   <url>https://repo.spring.io/milestone</url>
- >   <snapshots>
- >    <enabled>false</enabled>
- >   </snapshots>
- >  </repository>
+ >      <repository>
+ >           <id>spring-milestones</id>
+ >           <name>Spring Milestones</name>
+ >           <url>https://repo.spring.io/milestone</url>
+ >           <snapshots>
+ >                <enabled>false</enabled>
+ >           </snapshots>
+ >      </repository>
  > </repositories>
  > ```
 >
@@ -51,34 +53,34 @@ Overall, it takes only two steps to turn your Spring Boot application into an in
 >
 > ```xml
 > <mirror>
->   <id>xxxx</id>
->   <mirrorOf>*,!spring-milestones</mirrorOf>
->   <name>xxxx</name>
->   <url>xxxx</url>
+>       <id>xxxx</id>
+>       <mirrorOf>*,!spring-milestones</mirrorOf>
+>       <name>xxxx</name>
+>       <url>xxxx</url>
 > </mirror>
 > ```
 
 2. Inject `ChatClient`
 
- ```java
- @RestController
- public class ChatController {
-
-  private final ChatClient chatClient;
-
-  public ChatController(ChatClient.Builder builder) {
-   this.chatClient = builder.build();
-  }
-
-  @GetMapping("/chat")
-  public String chat(String input) {
-   return this.chatClient.prompt()
-     .user(input)
-     .call()
-     .content();
-  }
- }
- ```
+   ```java
+   @RestController
+   public class ChatController {
+   
+        private final ChatClient chatClient;
+   
+        public ChatController(ChatClient.Builder builder) {
+         this.chatClient = builder.build();
+        }
+   
+        @GetMapping("/chat")
+        public String chat(String input) {
+         return this.chatClient.prompt()
+           .user(input)
+           .call()
+           .content();
+        }
+   }
+   ```
 
 ## Examples
 
@@ -101,7 +103,7 @@ Spring AI Alibaba provides the following features, read the [documentation](http
 
 ## Roadmap
 
-Spring AI Alibaba aims to reduce the complexity of building ai native java applications, from development, evaluation to deployment and observability. In order to achieve that, we provide both open-source framework and ecosystem integrations around it, below are the features that we plan to support in the near future:
+Spring AI Alibaba aims to reduce the complexity of building AI native Java applications, from development, evaluation to deployment and observability. In order to achieve that, we provide both open-source framework and ecosystem integrations around it, below are the features that we plan to support in the near future:
 
 * Prompt Template Management
 * Event Driven AI Application
@@ -137,3 +139,4 @@ Some of this project's ideas and codes are inspired by or rewrote from the follo
 * [Spring AI](https://github.com/spring-projects/spring-ai), a Spring-friendly API and abstractions for developing AI applications licensed under the Apache License 2.0.
 * [Langgraph](https://github.com/langchain-ai/langgraph), a library for building stateful, multi-actor applications with LLMs, used to create agent and multi-agent workflows licensed under the MIT license.
 * [Langgraph4J](https://github.com/bsorrentino/langgraph4j), a porting of original [LangGraph](https://github.com/langchain-ai/langgraph) from the [LangChain AI project](https://github.com/langchain-ai) in Java fashion.
+* [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/w9lsky/spring-ai-alibaba)

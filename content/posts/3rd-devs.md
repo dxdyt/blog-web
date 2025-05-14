@@ -1,9 +1,9 @@
 ---
 title: 3rd-devs
-date: 2025-05-13T12:22:41+08:00
+date: 2025-05-14T12:22:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744068631576-132a67696f5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744068631576-132a67696f5b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxMTAxNDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746699484949-869986068267?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746699484949-869986068267?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
 ---
 
 # [i-am-alice/3rd-devs](https://github.com/i-am-alice/3rd-devs)
