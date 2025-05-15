@@ -1,12 +1,14 @@
 ---
 title: PyWxDump
-date: 2023-12-09T12:17:10+08:00
+date: 2025-05-15T12:23:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1699366089285-1170e63b78a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1699366089285-1170e63b78a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743972939938-0226de487d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743972939938-0226de487d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump)
+
+[![中文](https://img.shields.io/badge/README-中文-494cad.svg)](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/README_CN.md) [![English](https://img.shields.io/badge/README-English-494cad.svg)](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/README_EN.md)
 
 # <center>PyWxDump</center>
 
@@ -21,128 +23,151 @@ featuredImagePreview: https://images.unsplash.com/photo-1699366089285-1170e63b78
 [![Wheel](https://img.shields.io/pypi/wheel/pywxdump)](https://pypi.org/project/pywxdump/)
 [![PyPI-Downloads](https://img.shields.io/pypi/dm/pywxdump)](https://pypistats.org/packages/pywxdump)
 [![GitHub license](https://img.shields.io/pypi/l/pywxdump)](https://github.com/xaoyaoo/PyWxDump/blob/master/LICENSE)
-[![Publish](https://github.com/xaoyaoo/PyWxDump/actions/workflows/publish.yml/badge.svg)](https://github.com/xaoyaoo/PyWxDump/actions/workflows/publish.yml)
 
-**更新计划【由于家里有事，这些计划(除8、9、10)将会在12.30号前统一更新】**
+* Welcome to provide more ideas or code to improve this project together.
 
-* 1.每个人聊天记录分析，生成词云。
-* 2.分析每个人每天的聊天数量，生成折线图（天-聊天数量）
-* 3.分析不同的人的月聊天数量，年聊天数量，生成折线图
-* 4.生成年度可视化报告
-* 5.创建GUI图形界面，方便使用
-* 8.增加企业微信的支持
-* 9.增加获取实时聊天记录的功能
-* 10.聊天记录关键字搜索 或者按时间点搜索列出所有的联系人记录就nice了
+### If you are a novice, please pay attention to the Official Accounts: `逍遥之芯` (the QR code is below), and reply: `PyWxDump` to get a picture text tutorial.
 
-#### 如有问题，请先查看：[FAQ](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/FAQ.md) 是否有答案。
+### If you have any questions, please check first: [FAQ](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/FAQ.md) Whether there is an answer, or follow the Official Accounts to reply: `FAQ`.
 
-注: 欢迎大家提供更多的想法，或者提供代码，一起完善这个项目。
+QQ GROUP：[276392799](https://s.xaoyo.top/gOLUDl) or [276392799](https://s.xaoyo.top/bgNcRa)（PASSWORD,please read:[UserGuide.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/UserGuide.md)）.
 
-欢迎加入交流qq群：577704006 or
-点击链接加入群聊[pywxdump功能交流](https://s.xaoyo.top/gOLUDl)。
+<div>
+  <img align="" width="200"  src="https://github.com/xaoyaoo/PyWxDump/blob/master/doc/img/qrcode_gh.jpg" alt="the Official Accounts" title="the Official Accounts" height="200"/>
+</div>
 
-<a href="https://s.xaoyo.top/gOLUDl"><img src="./doc/qq.png" alt="QQ群" title="加入QQ群" height="280"></a>
+# I. Project Introduction
 
-# 一、项目介绍
+## 1. Brief Introduction
 
-## 1. 项目简介
+[PyWxDump](https://github.com/xaoyaoo/PyWxDump) is a tool for obtaining wx account information (nicknames/accounts/phones/emails/database keys), decrypting databases, viewing wx chat, and exporting chat as html backups.
 
-[PyWxDump](https://github.com/xaoyaoo/PyWxDump)是一款用于获取账号信息(昵称/账号/手机/邮箱/数据库密钥)
-、解密数据库、查看聊天记录、备份导出聊天记录为html的工具。
+* <strong><big>Super eager for stars, if you've come across this project, please give me a [![Star](https://img.shields.io/github/stars/xaoyaoo/PyWxDump.svg?style=social&label=Star)](https://github.com/xaoyaoo/PyWxDump/)! Thank you so much~ </big></strong>
 
-* <strong><big>
-  超级想要star，走过路过，帮忙点个[![Star](https://img.shields.io/github/stars/xaoyaoo/PyWxDump.svg?style=social&label=Star)](https://github.com/xaoyaoo/PyWxDump/)
-  呗，谢谢啦~</big></strong>
+## 2. Feature
 
-## 2. 功能介绍
+#### 2.1 Core
 
-* （1）获取微信昵称、微信账号、微信手机号、微信邮箱、微信KEY的基址偏移
-* （2）获取微信的微信昵称、微信账号、微信手机号、微信邮箱、微信KEY、微信原始ID（wxid_******）
-* （3）获取微信文件夹路径
-* （4）支持查看聊天记录查看
-* （5）根据key解密微信数据库
-* （6）提供数据库部分字段说明
-* （7）支持微信多开场景，获取多用户信息等
-* （8）微信需要登录状态才能获取数据库密钥
-* （9）支持导出聊天记录为html,备份微信聊天记录,方便查看
-* （10）合并多个数据库，方便查看
+* (1) Get the **base address offset** of WeChat nickname, WeChat account, WeChat phone number, WeChat email, and WeChat KEY
+* (2) Get the WeChat nickname, WeChat account, WeChat phone number, WeChat email, WeChat KEY, WeChat original ID (wxid_******), and WeChat folder path of the currently logged-in WeChat
+* (3) Decrypt WeChat database based on key
+* (4) Combine multiple types of databases for unified viewing
 
-**利用场景**
+#### 2.2 Extend Function
 
-1. 钓鱼攻击(通过钓鱼控到的机器通常都是登录状态)
-2. 渗透到运维机器(有些运维机器会日常登录自己的微信)
-3. 某些工作需要取证(数据库需要拷贝到本地)
-4. 自行备份(日常备份自己留存)
-5. 等等...............
+* (1) View chat history through the web
+* (2) Support exporting chat logs as html, csv, and backing up WeChat chat logs
+* (3) Remote viewing of WeChat chat history (must be network accessible, such as a local area network)
 
-## 3. 其他
+#### 2.3 Document Class
 
-[PyWxDump](https://github.com/xaoyaoo/PyWxDump)是[SharpWxDump](https://github.com/AdminTest0/SharpWxDump)
-的经过重构python语言版本，同时添加了一些新的功能。
+* (1) Provide descriptions of some fields in the database
+* (2) Provide CE to obtain the base address offset method
+* (3) Provide a decryption method for MAC database
 
-* 项目地址：https://github.com/xaoyaoo/PyWxDump
-* 目前只在windows下测试过，mac、linux下可能会存在问题。
-* 如发现[version_list.json](https://github.com/xaoyaoo/PyWxDump/tree/master/pywxdump/version_list.json)缺失或错误,
-  请提交[issues](https://github.com/xaoyaoo/PyWxDump/issues).
-* 如发现bug或有改进意见, 请提交[issues](https://github.com/xaoyaoo/PyWxDump/issues).
-* 如有其他想要的功能, 请提交[issues](https://github.com/xaoyaoo/PyWxDump/issues).
-* 常见问题请参考[FAQ](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/FAQ.md)
-* 更新日志请参考[CHANGELOG](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/CHANGELOG.md)
-* [:sparkling\_heart: Support Me](https://github.com/xaoyaoo/xaoyaoo/blob/main/donate.md)
+#### 2.4 Other functions
+
+* (1) Added a minimalist version of [pywxdumpmini](https://github.com/xaoyaoo/pywxdumpmini), which provides only the ability to obtain database keys and database locations
+* (2) Support multiple WeChat opening scenarios, obtain multiple user information, etc.
+
+**Utilize the scene**
+
+1. Network security...
+2. Daily backup archiving
+3. View chat history remotely (view chat history through the web)
+4. Wait...............
+
+## 3. Update plan
+
+* 1.Analyze chat logs of each person and generate word clouds.
+* ~~2.Analyze the number of chats per person per day and generate a line chart (day-number of chats)~~
+* ~~3.Analyze the monthly and annual chat volume of different people and generate a line chart~~
+* ~~4.Generate annual visualization reports~~
+* 8.Increase support for enterprise WeChat
+* 12.Viewing and backing up of the circle of friends
+* ~~13.Clean up WeChat storage space and reduce the space occupied by WeChat (hopefully by selecting a person or group and finding out the media files involved in the chat logs of this group, such as pictures, videos, files, voice recordings, etc., and selectively (such as time periods) or batch-wise clearing them from the computer's cache by group conversation.)~~
+* 14.Automatically send messages to specified people through UI control
+
+## 4. Other
+
+[PyWxDump](https://github.com/xaoyaoo/PyWxDump) is a refactored python language version of [SharpWxDump](https://github.com/AdminTest0/SharpWxDump), with many new features added.
+
+* Project address: https://github.com/xaoyaoo/PyWxDump
+* Currently tested only under Windows, there may be issues under mac and Linux.
+* If you find any missing or incorrect information, bugs, or suggestions for improvement in the [WX_OFFS.json](https://github.com/xaoyaoo/PyWxDump/tree/master/pywxdump/WX_OFFS.json), please submit an issue on GitHub.
+* For common issues, please refer to [FAQ](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/FAQ.md), and for the update log, please refer to [CHANGELOG](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/CHANGELOG.md)
+* Web UI repository location [wxdump_web](https://github.com/xaoyaoo/wxdump_web )
+* If you are interested in the implementation principle of wxdump, please pay attention to the Official Accounts: `逍遥之芯`, reply: `原理` to get the principle analysis.
+* [:sparkling\_heart: Support Me]( https://github.com/xaoyaoo/xaoyaoo/blob/main/donate.md)
+
+## 5. Star History
 
 <details>
-<summary><strong>Star History(click to expand)</strong></summary>
+<summary>click to expand</summary>
 
 [![Star History Chart](https://api.star-history.com/svg?repos=xaoyaoo/pywxdump&type=Date)](https://star-history.com/#xaoyaoo/pywxdump&Date)
 
 </details>
 
-# 二、使用说明
+# Ⅱ. Instructions For Use
 
-详细使用说明见[UserGuide.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/UserGuide.md)
+* Detailed instructions, see: [UserGuide.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/UserGuide.md)
 
-【注】:
+* the minimalist version, see: [pywxdumpmini](https://github.com/xaoyaoo/pywxdumpmini)
 
-* 关于基址使用cheat engine获取，参考[CE获取基址.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/CE获取基址.md)（该方法可用`wxdump bias`命令代替，现仅用作学习原理）
-* 关于数据库解析，参考[wx数据库简述.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/wx数据库简述.md)
+* If you want to modify the UI, clone the [wx_dump_web](https://github.com/xaoyaoo/wxdump_web) and modify it as needed (the UI is developed using VUE+ElementUI)
 
-# 三、免责声明（非常重要！！！！！！！）
+【note】:
 
-本项目仅供学习交流使用，请勿用于非法用途，否则后果自负。
+* For obtaining the base address using cheat engine, refer to [CE obtaining base address.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/CE获取基址.md)
+  (This method can be replaced by the `wxdump bias` command, and is only used for learning principles.)
+* For database parsing, refer to [wx database brief.md](https://github.com/xaoyaoo/PyWxDump/tree/master/doc/wx数据库简述.md)
 
-您应该在下载保存，编译使用本项目的24小时内，删除本项目的源代码和（编译出的）程序。
+# Ⅲ. Disclaimer (VERY VERY VERY IMPORTANT ! ! ! ! ! !)
 
-本项目仅允许在授权情况下对数据库进行备份，严禁用于非法目的，否则自行承担所有相关责任。
+### 1. Purpose of use
 
-下载、保存、进一步浏览源代码或者下载安装、编译使用本程序，表示你同意本警告，并承诺遵守它;
+* This project is only for learning and communication purposes, **please do not use it for illegal purposes**, **please do not use it for illegal purposes**, **please do not use it for illegal purposes**, otherwise the consequences will be borne by yourself.
+* Users understand and agree that any violation of laws and regulations, infringement of the legitimate rights and interests of others, is unrelated to this project and its developers, and the consequences are borne by the user themselves.
 
-请勿利用本项目的相关技术从事非法测试，如因此产生的一切不良后果与项目作者无关。
+### 2. Usage Period
 
-# 四、许可证
+* You should delete the source code and (compiled) program of this project within 24 hours of downloading, saving, compiling, and using it; any use beyond this period is not related to this project or its developer.
 
-```text
-MIT License
+### 3. Operation specifications
 
-Copyright (c) 2023 xaoyaoo
+* This project only allows backup and viewing of the database under authorization. It is strictly prohibited for illegal purposes, otherwise all related responsibilities will be borne by the user. Any legal liability incurred by the user due to violation of this regulation will be borne by the user, and is unrelated to this project and its developer.
+* It is strictly prohibited to use it to steal others' privacy. Otherwise, all relevant responsibilities shall be borne by yourself.
+* It is strictly prohibited to conduct secondary development, otherwise all related responsibilities shall be borne by yourself.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+### 4. Acceptance of Disclaimer
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+* Downloading, saving, further browsing the source code, or downloading, installing, compiling, and using this program indicates that you agree with this warning and promise to abide by it;
 
-PyWxDump is hosted at: https://github.com/xaoyaoo/PyWxDump
+### 5. Forbidden for illegal testing or penetration
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+* It is prohibited to use the relevant technologies of this project to engage in illegal testing or penetration, and it is prohibited to use the relevant codes or related technologies of this project to engage in any illegal work. Any adverse consequences arising therefrom are not related to this project and its developers.
+* Any resulting adverse consequences, including but not limited to data leakage, system failure, and privacy infringement, are not related to this project or its developers and are the responsibility of the user.
+
+### 6. Modification of disclaimer
+
+* This disclaimer may be modified and adjusted based on the project's operating conditions and changes in laws and regulations. Users should regularly check this page for the latest version of the disclaimer, and should comply with the latest version of the disclaimer when using this project.
+
+### 7. Others
+
+* In addition to the provisions of this disclaimer, users should comply with relevant laws, regulations, and ethical norms during the use of this project. The project and its developers will not be held responsible for any disputes or losses caused by users' violation of relevant regulations.
+
+* Users are requested to carefully read and understand all contents of this disclaimer, and ensure that they strictly comply with relevant regulations when using this project.
+
+# Ⅳ. Acknowledgments
+
+[![PyWxDump CONTRIBUTORS](https://contrib.rocks/image?repo=xaoyaoo/PyWxDump)](https://github.com/xaoyaoo/PyWxDump/graphs/contributors)  
+
+UI CONTRIBUTORS:    
+
+[![UI CONTRIBUTORS](https://contrib.rocks/image?repo=xaoyaoo/wxdump_web)](https://github.com/xaoyaoo/wxdump_web/graphs/contributors)
+
+otherContributors:
+
+[643104191](https://github.com/643104191) (add [ctypes_utils](https://github.com/xaoyaoo/PyWxDump/blob/9e3e4cb5aec2b9b445c8283d61c58863f4129c6e/pywxdump/wx_info/ctypes_utils.py), Accelerated the acquisition of wxinfo; [9e3e4cb](https://github.com/xaoyaoo/PyWxDump/commit/9e3e4cb5aec2b9b445c8283d61c58863f4129c6e))
 

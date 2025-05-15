@@ -1,9 +1,9 @@
 ---
 title: spring-ai-alibaba
-date: 2025-05-14T12:22:28+08:00
+date: 2025-05-15T12:22:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744690176525-c66d9fa342f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744690176525-c66d9fa342f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcxOTY1MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743972939938-0226de487d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743972939938-0226de487d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [alibaba/spring-ai-alibaba](https://github.com/alibaba/spring-ai-alibaba)
@@ -30,7 +30,7 @@ Overall, it takes only two steps to turn your Spring Boot application into an in
    <dependency>
         <groupId>com.alibaba.cloud.ai</groupId>
         <artifactId>spring-ai-alibaba-starter</artifactId>
-        <version>1.0.0-M6.1</version>
+        <version>1.0.0-M8.1-SNAPSHOT</version>
    </dependency>
    ```
 
