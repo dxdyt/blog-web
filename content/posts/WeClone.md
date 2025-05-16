@@ -1,9 +1,9 @@
 ---
 title: WeClone
-date: 2025-05-15T12:22:58+08:00
+date: 2025-05-16T12:23:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744472920649-e8709305723f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744472920649-e8709305723f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743963256372-345f0c6dc098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743963256372-345f0c6dc098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
 ---
 
 # [xming521/WeClone](https://github.com/xming521/WeClone)
@@ -24,7 +24,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1744472920649-e870930572
 <a href="https://trendshift.io/repositories/13759" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13759" alt="xming521%2FWeClone | Trendshift" style="width: 220px; height: 50px;" /></a>
 <a href="https://deepwiki.com/xming521/WeClone"><img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki"  style="width: 134px; height: 23px;margin-bottom: 3px;"></a>
 </div>
-
+<p align="center">
+  <a href="https://blog.051088.xyz/2025/05/14/WeClone-%E7%94%A8%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84AI%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB/" target="_blank">
+    Windows部署指南
+  </a>
+</p>
 
 ## ✨核心功能
 - 💫 涵盖打造数字分身的全链路方案，包括聊天数据导出、预处理、模型训练、部署
@@ -43,7 +47,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1744472920649-e870930572
 > [!IMPORTANT]
 > - WeClone仍在快速迭代期，当前效果不代表最终效果。  
 > - 微调LLM效果很大程度取决于模型大小、聊天数据的数量和质量，理论上模型越大，数据越多，效果越好。   
-> - Windows环境未进行严格测试，可以使用WSL作为运行环境。
+> - Windows环境未进行严格测试，可以使用WSL作为运行环境。详细教程可点击[Windows部署指南](https://blog.051088.xyz/2025/05/14/WeClone-%E7%94%A8%E5%BE%AE%E4%BF%A1%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84AI%E6%95%B0%E5%AD%97%E5%88%86%E8%BA%AB/)查看。
 
 ### 硬件要求
 

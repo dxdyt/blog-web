@@ -1,9 +1,9 @@
 ---
 title: airweave
-date: 2025-05-15T12:22:20+08:00
+date: 2025-05-16T12:23:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744042587449-831b8a320cfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744042587449-831b8a320cfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746713915201-4eed01ca887a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746713915201-4eed01ca887a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
 ---
 
 # [airweave-ai/airweave](https://github.com/airweave-ai/airweave)
@@ -18,7 +18,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1744042587449-831b8a320c
 [![Backend Tests](https://github.com/airweave-ai/airweave/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/airweave-ai/airweave/actions/workflows/tests.yml)
 [![Codecov](https://codecov.io/gh/airweave-ai/airweave/branch/main/graph/badge.svg)](https://codecov.io/gh/airweave-ai/airweave)
 [![Discord](https://img.shields.io/discord/1323415085011701870?label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.com/invite/484HY9Ehxt)
-
+<br>
+<a href="https://trendshift.io/repositories/13748" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13748" alt="airweave-ai%2Fairweave | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 # Airweave

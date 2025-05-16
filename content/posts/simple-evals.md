@@ -1,9 +1,9 @@
 ---
 title: simple-evals
-date: 2025-05-15T12:22:34+08:00
+date: 2025-05-16T12:23:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1476461386254-61c4ff3a1cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1476461386254-61c4ff3a1cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743963256372-345f0c6dc098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743963256372-345f0c6dc098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
 ---
 
 # [openai/simple-evals](https://github.com/openai/simple-evals)

@@ -1,9 +1,9 @@
 ---
 title: mem0
-date: 2025-05-15T12:22:12+08:00
+date: 2025-05-16T12:23:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744922679571-e6d7e9a8804c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744922679571-e6d7e9a8804c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744429523595-2c06b8611242?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744429523595-2c06b8611242?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
 ---
 
 # [mem0ai/mem0](https://github.com/mem0ai/mem0)
