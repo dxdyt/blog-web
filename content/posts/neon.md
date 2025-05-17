@@ -1,9 +1,9 @@
 ---
 title: neon
-date: 2024-07-17T12:18:11+08:00
+date: 2025-05-17T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720312490478-3988f59ff472?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720312490478-3988f59ff472?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745179177381-5709a1e1723b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745179177381-5709a1e1723b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
 ---
 
 # [neondatabase/neon](https://github.com/neondatabase/neon)
@@ -31,8 +31,10 @@ The Neon storage engine consists of two major components:
 
 See developer documentation in [SUMMARY.md](/docs/SUMMARY.md) for more information.
 
-## Running local installation
+## Running a local development environment
 
+Neon can be run on a workstation for small experiments and to test code changes, by
+following these instructions.
 
 #### Installing dependencies on Linux
 1. Install build dependencies and other applicable packages
@@ -41,7 +43,7 @@ See developer documentation in [SUMMARY.md](/docs/SUMMARY.md) for more informati
 ```bash
 apt install build-essential libtool libreadline-dev zlib1g-dev flex bison libseccomp-dev \
 libssl-dev clang pkg-config libpq-dev cmake postgresql-client protobuf-compiler \
-libcurl4-openssl-dev openssl python3-poetry lsof libicu-dev
+libprotobuf-dev libcurl4-openssl-dev openssl python3-poetry lsof libicu-dev
 ```
 * On Fedora, these packages are needed:
 ```bash
@@ -68,10 +70,16 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 1. Install XCode and dependencies
 ```
 xcode-select --install
-brew install protobuf openssl flex bison icu4c pkg-config
+brew install protobuf openssl flex bison icu4c pkg-config m4
 
 # add openssl to PATH, required for ed25519 keys generation in neon_local
 echo 'export PATH="$(brew --prefix openssl)/bin:$PATH"' >> ~/.zshrc
+```
+
+If you get errors about missing `m4` you may have to install it manually:
+```
+brew install m4
+brew link --force m4
 ```
 
 2. [Install Rust](https://www.rust-lang.org/tools/install)
@@ -136,7 +144,7 @@ make -j`sysctl -n hw.logicalcpu` -s
 To run the `psql` client, install the `postgresql-client` package or modify `PATH` and `LD_LIBRARY_PATH` to include `pg_install/bin` and `pg_install/lib`, respectively.
 
 To run the integration tests or Python scripts (not required to use the code), install
-Python (3.9 or higher), and install the python3 packages using `./scripts/pysync` (requires [poetry>=1.3](https://python-poetry.org/)) in the project directory.
+Python (3.11 or higher), and install the python3 packages using `./scripts/pysync` (requires [poetry>=1.8](https://python-poetry.org/)) in the project directory.
 
 
 #### Running neon database
@@ -242,7 +250,7 @@ postgres=# select * from t;
 > cargo neon stop
 ```
 
-More advanced usages can be found at [Control Plane and Neon Local](./control_plane/README.md).
+More advanced usages can be found at [Local Development Control Plane (`neon_local`))](./control_plane/README.md).
 
 #### Handling build failures
 
@@ -272,7 +280,7 @@ By default, this runs both debug and release modes, and all supported postgres v
 testing locally, it is convenient to run just one set of permutations, like this:
 
 ```sh
-DEFAULT_PG_VERSION=15 BUILD_TYPE=release ./scripts/pytest
+DEFAULT_PG_VERSION=17 BUILD_TYPE=release ./scripts/pytest
 ```
 
 ## Flamegraphs

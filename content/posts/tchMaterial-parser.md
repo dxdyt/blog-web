@@ -1,9 +1,9 @@
 ---
 title: tchMaterial-parser
-date: 2025-05-16T12:24:05+08:00
+date: 2025-05-17T12:21:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746045470133-00c22b9c9911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746045470133-00c22b9c9911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746058332635-71814ec87ac0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746058332635-71814ec87ac0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
 ---
 
 # [happycola233/tchMaterial-parser](https://github.com/happycola233/tchMaterial-parser)

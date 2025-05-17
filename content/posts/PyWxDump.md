@@ -1,9 +1,9 @@
 ---
 title: PyWxDump
-date: 2025-05-15T12:23:20+08:00
+date: 2025-05-17T12:22:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743972939938-0226de487d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743972939938-0226de487d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDcyODI5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744190070346-f0d4ab0d2b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744190070346-f0d4ab0d2b86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
 ---
 
 # [xaoyaoo/PyWxDump](https://github.com/xaoyaoo/PyWxDump)
