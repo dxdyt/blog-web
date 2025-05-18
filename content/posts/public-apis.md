@@ -1,9 +1,9 @@
 ---
 title: public-apis
-date: 2025-04-22T12:21:52+08:00
+date: 2025-05-18T12:24:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743083931860-05b751559acb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743083931860-05b751559acb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744360820043-59b729149f7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744360820043-59b729149f7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
 ---
 
 # [public-apis/public-apis](https://github.com/public-apis/public-apis)

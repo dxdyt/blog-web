@@ -1,9 +1,9 @@
 ---
 title: cua
-date: 2025-05-17T12:22:24+08:00
+date: 2025-05-18T12:25:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744360819832-b84f0bc0a9d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744360819832-b84f0bc0a9d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc0NTU2ODF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745669754254-c30c98e5f8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745669754254-c30c98e5f8b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
 ---
 
 # [trycua/cua](https://github.com/trycua/cua)

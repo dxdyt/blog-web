@@ -1,9 +1,9 @@
 ---
 title: fairchem
-date: 2025-05-16T12:23:57+08:00
+date: 2025-05-18T12:26:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746958582395-bfd72cadf799?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746958582395-bfd72cadf799?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745834311180-688615cf5308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745834311180-688615cf5308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
 ---
 
 # [facebookresearch/fairchem](https://github.com/facebookresearch/fairchem)

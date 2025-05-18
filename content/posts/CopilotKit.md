@@ -1,9 +1,9 @@
 ---
 title: CopilotKit
-date: 2025-01-21T12:19:09+08:00
+date: 2025-05-18T12:26:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736804962370-637d516caedf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736804962370-637d516caedf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc0MzMxMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745282480794-10427e218c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745282480794-10427e218c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc1NDIyNzJ8&ixlib=rb-4.1.0
 ---
 
 # [CopilotKit/CopilotKit](https://github.com/CopilotKit/CopilotKit)
@@ -50,6 +50,20 @@ featuredImagePreview: https://images.unsplash.com/photo-1736804962370-637d516cae
   
 </div>
 
+
+<h3 align="center"> 
+Stay up to date with our latest releases!
+</h3>
+
+<div align="center">
+  <a href="https://go.copilotkit.ai/gh-linkedin" target="_blank">
+    <img src="https://github.com/user-attachments/assets/e33e7ebb-f5fc-4775-81b0-d5dd6865271a" alt="LI">
+  </a>
+  <a href="https://go.copilotkit.ai/gh-twitter" target="_blank">
+    <img src="https://github.com/user-attachments/assets/14e57c97-70ac-4f9a-88f5-67028107794f" alt="Discord">
+  </a>
+</div>
+
 <br/>
 <div align="center">
   <a href="https://www.producthunt.com/posts/copilotkit" target="_blank">
@@ -61,93 +75,51 @@ featuredImagePreview: https://images.unsplash.com/photo-1736804962370-637d516cae
 
 <img width="1685" alt="214 (1)" src="https://github.com/user-attachments/assets/145600ce-c49b-4e25-883e-feee149d6332">
 
+## 🏆 Featured Examples
 
-# Demos (click to clone / run)
-
-<table>
-<tr>
-<td width="200" valign="top">
-  <img src="https://github.com/user-attachments/assets/9c6ebced-1439-49bb-811b-1f74fe749ab5" width="200"/>
-</td>
-<td>
-<details open>
-<summary>
-  <h2 style="display: inline-block; margin: 0;">📊 Spreadsheets + Copilot</h2>
-</summary>
-
-![Spreadsheet Demo](https://github.com/user-attachments/assets/0935da06-668e-41b1-806e-19a1a1574be2)
-
-[View Demo Repository →](https://github.com/CopilotKit/demo-spreadsheet)
-</details>
-
-A powerful spreadsheet assistant that helps users analyze data, create formulas, and generate insights through natural language interaction.
-</td>
-</tr>
-
-<tr>
-<td width="200" valign="top">
-  <img src="https://github.com/user-attachments/assets/ecddcf4c-cfe3-45ba-848d-03f94902475f" width="200"/>
-</td>
-<td>
-<details>
-<summary>
-  <h2 style="display: inline-block; margin: 0;">🏦 Banking Assistant (SaaS Copilot) </h2>
-</summary>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/ecddcf4c-cfe3-45ba-848d-03f94902475f" width="800"/>
+### 📝 [Form-Filling Copilot](https://github.com/CopilotKit/CopilotKit/tree/main/examples/copilot-form-filling)
+Transform tedious form-filling into natural conversations. The AI assistant asks the right questions, understands context, and completes forms automatically—no more field-by-field drudgery.
+<div>
+  <a href="https://github.com/CopilotKit/CopilotKit/tree/main/examples/copilot-form-filling"><code>GitHub →</code></a>
+  <a href="https://form-filling-copilot.vercel.app"><code>Live Demo →</code></a>
 </div>
 
-[View Demo Repository →](https://github.com/CopilotKit/demo-banking)
-</details>
-
-An AI-powered banking interface that helps users manage transactions, analyze spending patterns, and get personalized financial advice.
-</td>
-</tr>
-
-<tr>
-<td width="200" valign="top">
-  <img src="https://github.com/user-attachments/assets/09dc873b-b263-40a3-8577-1414d0837510" width="200"/>
-</td>
-<td>
-<details>
-<summary>
-  <h2 style="display: inline-block; margin: 0;">✈️ [Tutorial] Agent-Native Travel Planner (ANA) </h2>
-</summary>
-
-<div align="center">
-  <img src="./assets/travel-planner-gif.gif" width="800"/>
+### 🔄 [State Machine Copilot](https://github.com/CopilotKit/CopilotKit/tree/main/examples/copilot-state-machine)
+Transform complex conversational flows into manageable state machines. This AI-powered car sales application demonstrates how to build sophisticated multi-stage interactions with contextual awareness and state transitions.
+<div>
+  <a href="https://github.com/CopilotKit/CopilotKit/tree/main/examples/state-machine-copilot"><code>GitHub →</code></a>
+  <a href="https://state-machine-copilot.vercel.app"><code>Live Demo →</code></a>
 </div>
 
-[View Tutorial →](https://docs.copilotkit.ai/coagents/tutorials/ai-travel-app/overview)
-</details>
-
-Interactive travel planning assistant that helps users discover destinations, create itineraries, and manage trip details with natural language.
-</td>
-</tr>
-
-<tr>
-<td width="200" valign="top">
-  <img src="https://github.com/user-attachments/assets/0fb40d90-be21-416e-a8e5-9215ffee1f71" width="200"/>
-</td>
-<td>
-<details>
-<summary>
-  <h2 style="display: inline-block; margin: 0;">🔍 [Tutorial] Agent-Native Research Canvas (ANA)</h2>
-</summary>
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/64bbfe6a-c0e9-4dfc-91f2-e17b190a0fc0" width="800"/>
+### 💬 [Chat With Your Data](https://github.com/CopilotKit/CopilotKit/tree/main/examples/copilot-chat-with-your-data)
+Transform your data visualization experience with an AI-powered dashboard assistant. Ask questions about your data in natural language, get insights, and interact with your metrics—all through a conversational interface powered by CopilotKit.
+<div>
+  <a href="https://github.com/CopilotKit/CopilotKit/tree/main/examples/copilot-chat-with-your-data"><code>GitHub →</code></a>
+  <a href="https://chat-with-your-data.vercel.app"><code>Live Demo →</code></a>
 </div>
 
+### 🏦 [SaaS Copilot (Bank)](https://github.com/CopilotKit/demo-banking)
+A context-aware financial assistant that analyzes transactions, provides spending insights, and helps users manage their finances through natural conversation. Demonstrates how CopilotKit can integrate deeply with complex data structures.
+<div>
+  <a href="https://github.com/CopilotKit/demo-banking"><code>GitHub →</code></a>
+</div>
 
-[View Demo Repository →](https://github.com/CopilotKit/CopilotKit/blob/main/examples/coagents-research-canvas/readme.md)
-</details>
+## 🧙‍♂️ Agent Examples
 
-An intelligent research assistant that helps users analyze academic papers, synthesize information across multiple sources, and generate comprehensive research summaries through natural language interaction.
-</td>
-</tr>
-</table>
+### ✈️ [Travel Planner](https://github.com/CopilotKit/CopilotKit/tree/main/examples/coagents-travel)
+An agent-native application that helps users plan trips by generating detailed itineraries, finding attractions, and visualizing travel plans. Shows how agents can collaborate with users to create rich, interactive experiences.
+<div>
+  <a href="https://github.com/CopilotKit/CopilotKit/tree/main/examples/coagents-travel"><code>GitHub →</code></a>
+  <a href="https://docs.copilotkit.ai/coagents/tutorials/ai-travel-app/overview"><code>Tutorial →</code></a>
+</div>
+
+### 🔍 [Research Canvas](https://github.com/CopilotKit/CopilotKit/tree/main/examples/coagents-research-canvas)
+Multi-agent document analysis system that helps users analyze papers, synthesize information, and generate comprehensive research summaries through collaborative AI workflows.
+<div>
+  <a href="https://github.com/CopilotKit/CopilotKit/tree/main/examples/coagents-research-canvas"><code>GitHub →</code></a>
+  <a href="https://examples-coagents-research-canvas-ui.vercel.app
+"><code>Live Demo →</code></a>
+</div>
 
 # Getting Started
 Get started in minutes - check out the [quickstart documentation](https://docs.copilotkit.ai/quickstart).
