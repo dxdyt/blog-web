@@ -1,9 +1,9 @@
 ---
 title: Ventoy
-date: 2024-06-10T12:19:29+08:00
+date: 2025-05-19T12:26:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717200997603-097f16adf0de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717200997603-097f16adf0de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746471626032-d5dd71f0ba9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746471626032-d5dd71f0ba9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
 ---
 
 # [ventoy/Ventoy](https://github.com/ventoy/Ventoy)
