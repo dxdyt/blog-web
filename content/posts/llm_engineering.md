@@ -1,9 +1,9 @@
 ---
 title: llm_engineering
-date: 2025-05-19T12:27:23+08:00
+date: 2025-05-21T12:23:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744826874738-25c7d4aad6de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744826874738-25c7d4aad6de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746730341411-03b1f6b8f1f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746730341411-03b1f6b8f1f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
 ---
 
 # [ed-donner/llm_engineering](https://github.com/ed-donner/llm_engineering)

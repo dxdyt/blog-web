@@ -1,9 +1,9 @@
 ---
 title: ai-hedge-fund
-date: 2025-05-19T12:26:27+08:00
+date: 2025-05-21T12:22:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745949779026-f7fdd1470f8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745949779026-f7fdd1470f8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1699348107127-966a9814745c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1699348107127-966a9814745c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
 ---
 
 # [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
@@ -43,10 +43,10 @@ This system employs several agents working together:
 This project is for **educational and research purposes only**.
 
 - Not intended for real trading or investment
-- No warranties or guarantees provided
-- Past performance does not indicate future results
+- No investment advice or guarantees provided
 - Creator assumes no liability for financial losses
 - Consult a financial advisor for investment decisions
+- Past performance does not indicate future results
 
 By using this software, you agree to use it solely for learning purposes.
 

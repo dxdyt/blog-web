@@ -1,9 +1,9 @@
 ---
 title: memos
-date: 2024-11-04T12:21:16+08:00
+date: 2025-05-21T12:23:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729594988797-168648f4d9a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729594988797-168648f4d9a9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA2OTM5Nzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744042587449-831b8a320cfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744042587449-831b8a320cfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
 ---
 
 # [usememos/memos](https://github.com/usememos/memos)
@@ -20,20 +20,22 @@ An open-source, self-hosted note-taking solution designed for seamless deploymen
 <a href="https://demo.usememos.com/">Live Demo</a>
 
 <p>
+  <a href="https://deepwiki.com/usememos/memos"><img src="https://devin.ai/assets/deepwiki-badge.png" alt="Ask DeepWiki" height="20"/></a>
   <a href="https://hub.docker.com/r/neosmemo/memos"><img alt="Docker pull" src="https://img.shields.io/docker/pulls/neosmemo/memos.svg"/></a>
+  <a href="https://hub.docker.com/r/neosmemo/memos"><img alt="Docker image size" src="https://img.shields.io/docker/image-size/neosmemo/memos?sort=semver"/></a>
   <a href="https://discord.gg/tfPJa4UmAv"><img alt="Discord" src="https://img.shields.io/badge/discord-chat-5865f2?logo=discord&logoColor=f5f5f5" /></a>
 </p>
 
 ![demo](https://www.usememos.com/demo.png)
 
-## Main Features
+## Features
 
-- **Privacy First** 🏠: Take control of your data. All runtime data is securely stored in your local database.
-- **Create at Speed** ✍️: Save content as plain text for quick access, with Markdown support for fast formatting and easy sharing.
-- **Lightweight but Powerful** 🤲: Built with Go, React.js, and a compact architecture, our application delivers powerful performance in a lightweight package.
-- **Customizable** 🧩: Easily customize your server name, icon, description, system style, and execution scripts to make it uniquely yours.
-- **Open Source** 🦦: Memos embraces the future of open source, with all code available on GitHub for transparency and collaboration.
-- **Free to Use** 💸: Enjoy all features completely free, with no charges ever for any content.
+- **Privacy First** 🏡: Your data, your control. All runtime data is securely stored in your local database.
+- **Create at Speed** ✍️: Write and save content as plain text for quick access, with Markdown support for fast formatting and easy sharing.
+- **Lightweight but Powerful** ⚡: Built with Go and React.js, our app combines a compact architecture with powerful performance.
+- **Customizable** 🧩: Personalize your experience by customizing the server name, icon, description, theme, and execution scripts.
+- **Open Source** 🦦: Fully open source, with all code available on GitHub for transparency and collaboration.
+- **Free to Use** 💸: Enjoy all features at no cost, no hidden fees, no subscriptions.
 
 ## Deploy with Docker in seconds
 
@@ -48,15 +50,14 @@ docker run -d --name memos -p 5230:5230 -v ~/.memos/:/var/opt/memos neosmemo/mem
 
 Learn more about [other installation methods](https://www.usememos.com/docs/install).
 
+> [!WARNING]
+> Memos is still under active development, so you may encounter bugs or breaking changes as we improve.
+
 ## Contribution
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. We greatly appreciate any contributions you make. Thank you for being a part of our community! 🥰
 
-## Sponsorship
-
-If you find Memos helpful, please consider sponsoring us. Your support will help us to continue developing and maintaining the project.
-
-❤️ Thanks to the following sponsors and backers: **[yourselfhosted](https://github.com/yourselfhosted)**, **[Burning_Wipf](https://github.com/KUKARAF)**, _[...see more](https://github.com/sponsors/usememos)_.
+Guide to [contribution](https://www.usememos.com/docs/contribution/development).
 
 ## Star history
 
