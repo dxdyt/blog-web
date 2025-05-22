@@ -1,9 +1,9 @@
 ---
 title: appwrite
-date: 2025-05-21T12:22:55+08:00
+date: 2025-05-22T12:25:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742314591445-bfacc47276e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742314591445-bfacc47276e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747019131706-2fc573222f0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747019131706-2fc573222f0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
 ---
 
 # [appwrite/appwrite](https://github.com/appwrite/appwrite)
@@ -88,7 +88,7 @@ docker run -it --rm \
     --volume /var/run/docker.sock:/var/run/docker.sock \
     --volume "$(pwd)"/appwrite:/usr/src/code/appwrite:rw \
     --entrypoint="install" \
-    appwrite/appwrite:1.7.0
+    appwrite/appwrite:1.7.2
 ```
 
 ### Windows
@@ -100,7 +100,7 @@ docker run -it --rm ^
     --volume //var/run/docker.sock:/var/run/docker.sock ^
     --volume "%cd%"/appwrite:/usr/src/code/appwrite:rw ^
     --entrypoint="install" ^
-    appwrite/appwrite:1.7.0
+    appwrite/appwrite:1.7.2
 ```
 
 #### PowerShell
@@ -110,7 +110,7 @@ docker run -it --rm `
     --volume /var/run/docker.sock:/var/run/docker.sock `
     --volume ${pwd}/appwrite:/usr/src/code/appwrite:rw `
     --entrypoint="install" `
-    appwrite/appwrite:1.7.0
+    appwrite/appwrite:1.7.2
 ```
 
 Once the Docker installation is complete, go to http://localhost to access the Appwrite console from your browser. Please note that on non-Linux native hosts, the server might take a few minutes to start after completing the installation.

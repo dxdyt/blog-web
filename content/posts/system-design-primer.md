@@ -1,9 +1,9 @@
 ---
 title: system-design-primer
-date: 2025-05-06T12:23:16+08:00
+date: 2025-05-22T12:23:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742808682750-522ff2cc08fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742808682750-522ff2cc08fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1699348107127-966a9814745c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1699348107127-966a9814745c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
 ---
 
 # [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
@@ -731,7 +731,7 @@ Load balancers can also help with horizontal scaling, improving performance and 
 
 * [NGINX architecture](https://www.nginx.com/blog/inside-nginx-how-we-designed-for-performance-scale/)
 * [HAProxy architecture guide](http://www.haproxy.org/download/1.2/doc/architecture.txt)
-* [Scalability](http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
+* [Scalability](https://web.archive.org/web/20220530193911/https://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones)
 * [Wikipedia](https://en.wikipedia.org/wiki/Load_balancing_(computing))
 * [Layer 4 load balancing](https://www.nginx.com/resources/glossary/layer-4-load-balancing/)
 * [Layer 7 load balancing](https://www.nginx.com/resources/glossary/layer-7-load-balancing/)
@@ -1093,7 +1093,7 @@ Graphs databases offer high performance for data models with complex relationshi
 
 * [Explanation of base terminology](http://stackoverflow.com/questions/3342497/explanation-of-base-terminology)
 * [NoSQL databases a survey and decision guidance](https://medium.com/baqend-blog/nosql-databases-a-survey-and-decision-guidance-ea7823a822d#.wskogqenq)
-* [Scalability](http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
+* [Scalability](https://web.archive.org/web/20220602114024/https://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database)
 * [Introduction to NoSQL](https://www.youtube.com/watch?v=qI_g07C_Q5I)
 * [NoSQL patterns](http://horicky.blogspot.com/2009/11/nosql-patterns.html)
 
@@ -1327,7 +1327,7 @@ Refresh-ahead can result in reduced latency vs read-through if the cache can acc
 * [Scalable system design patterns](http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html)
 * [Introduction to architecting systems for scale](http://lethain.com/introduction-to-architecting-systems-for-scale/)
 * [Scalability, availability, stability, patterns](http://www.slideshare.net/jboner/scalability-availability-stability-patterns/)
-* [Scalability](http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
+* [Scalability](https://web.archive.org/web/20230126233752/https://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache)
 * [AWS ElastiCache strategies](http://docs.aws.amazon.com/AmazonElastiCache/latest/UserGuide/Strategies.html)
 * [Wikipedia](https://en.wikipedia.org/wiki/Cache_(computing))
 

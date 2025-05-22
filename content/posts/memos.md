@@ -1,9 +1,9 @@
 ---
 title: memos
-date: 2025-05-21T12:23:01+08:00
+date: 2025-05-22T12:24:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744042587449-831b8a320cfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744042587449-831b8a320cfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743630459079-ff40cb544dc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743630459079-ff40cb544dc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
 ---
 
 # [usememos/memos](https://github.com/usememos/memos)
