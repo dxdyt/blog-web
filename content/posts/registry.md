@@ -1,9 +1,9 @@
 ---
 title: registry
-date: 2025-05-22T12:23:47+08:00
+date: 2025-05-23T12:23:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745604785337-96f95b719df5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745604785337-96f95b719df5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4ODc4MDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746083984990-ba2a8cabc88e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc5NzQxMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746083984990-ba2a8cabc88e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc5NzQxMTd8&ixlib=rb-4.1.0
 ---
 
 # [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry)
