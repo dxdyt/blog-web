@@ -1,9 +1,9 @@
 ---
 title: OpenHands
-date: 2025-05-23T12:22:07+08:00
+date: 2025-05-24T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745977561659-56a67855b2ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc5NzQxMTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745977561659-56a67855b2ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc5NzQxMTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746449768403-650f567b20d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgwNjA0NTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746449768403-650f567b20d0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgwNjA0NTl8&ixlib=rb-4.1.0
 ---
 
 # [All-Hands-AI/OpenHands](https://github.com/All-Hands-AI/OpenHands)
@@ -77,7 +77,7 @@ docker run -it --rm --pull=always \
 You'll find OpenHands running at [http://localhost:3000](http://localhost:3000)!
 
 When you open the application, you'll be asked to choose an LLM provider and add an API key.
-[Anthropic's Claude 3.7 Sonnet](https://www.anthropic.com/api) (`anthropic/claude-3-7-sonnet-20250219`)
+[Anthropic's Claude Sonnet 4](https://www.anthropic.com/api) (`anthropic/claude-sonnet-4-20250514`)
 works best, but you have [many options](https://docs.all-hands.dev/modules/usage/llms).
 
 ## 💡 Other ways to run OpenHands

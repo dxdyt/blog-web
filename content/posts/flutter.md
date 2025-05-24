@@ -1,9 +1,9 @@
 ---
 title: flutter
-date: 2025-01-05T12:19:10+08:00
+date: 2025-05-24T12:22:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730386303229-0c921f5690cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730386303229-0c921f5690cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzYwNTA3MjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746105752085-21b6bf3ab0fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgwNjA0NTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746105752085-21b6bf3ab0fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgwNjA0NTl8&ixlib=rb-4.1.0
 ---
 
 # [flutter/flutter](https://github.com/flutter/flutter)
@@ -20,6 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1730386303229-0c921f5690
 [![Flutter CI Status](https://flutter-dashboard.appspot.com/api/public/build-status-badge?repo=flutter)](https://flutter-dashboard.appspot.com/#/build?repo=flutter)
 [![Discord badge][]][Discord instructions]
 [![Twitter handle][]][Twitter badge]
+[![BlueSky badge][]][BlueSky handle]
 [![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
 [![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
@@ -113,6 +114,8 @@ Information on how to get started can be found in our
 [Discord badge]: https://img.shields.io/discord/608014603317936148?logo=discord
 [Twitter handle]: https://img.shields.io/twitter/follow/flutterdev.svg?style=social&label=Follow
 [Twitter badge]: https://twitter.com/intent/follow?screen_name=flutterdev
+[BlueSky badge]: https://img.shields.io/badge/Bluesky-0285FF?logo=bluesky&logoColor=fff&label=Follow%20me%20on&color=0285FF
+[BlueSky handle]: https://bsky.app/profile/flutter.dev
 [layered architecture]: https://docs.flutter.dev/resources/inside-flutter
 [architectural overview]: https://docs.flutter.dev/resources/architectural-overview
 [widget catalog]: https://flutter.dev/widgets/
@@ -120,7 +123,7 @@ Information on how to get started can be found in our
 [Material]: https://docs.flutter.dev/development/ui/widgets/material
 [Skia]: https://skia.org/
 [Dart platform]: https://dart.dev/
-[Hot reload animation]: https://github.com/flutter/website/blob/main/src/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true
+[Hot reload animation]: https://github.com/flutter/website/blob/main/src/content/assets/images/docs/tools/android-studio/hot-reload.gif?raw=true
 [Hot reload]: https://docs.flutter.dev/development/tools/hot-reload
 [Visual Studio Code]: https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter
 [IntelliJ / Android Studio]: https://plugins.jetbrains.com/plugin/9212-flutter
