@@ -1,9 +1,9 @@
 ---
 title: huggingface.js
-date: 2025-05-23T12:23:25+08:00
+date: 2025-05-25T12:26:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745500415839-503883982264?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc5NzQxMTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745500415839-503883982264?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc5NzQxMTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745794621090-d856c53b0cc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgxNDcwODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745794621090-d856c53b0cc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgxNDcwODR8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/huggingface.js](https://github.com/huggingface/huggingface.js)
