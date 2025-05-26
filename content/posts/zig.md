@@ -1,9 +1,9 @@
 ---
 title: zig
-date: 2024-12-27T12:20:22+08:00
+date: 2025-05-26T12:25:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729109083465-66dfbffb1de8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729109083465-66dfbffb1de8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUyNzMxNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745590680061-a2479e9671e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745590680061-a2479e9671e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
 ---
 
 # [ziglang/zig](https://github.com/ziglang/zig)
@@ -57,7 +57,7 @@ Ensure you have the required dependencies:
 
  * CMake >= 3.15
  * System C/C++ Toolchain
- * LLVM, Clang, LLD development libraries == 19.x
+ * LLVM, Clang, LLD development libraries == 20.x
 
 Then it is the standard CMake build process:
 

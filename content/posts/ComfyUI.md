@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2024-11-29T12:22:22+08:00
+date: 2025-05-26T12:25:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725714107789-f62e2a6e943f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725714107789-f62e2a6e943f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI4NTQwNDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746310920320-b4d078257303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746310920320-b4d078257303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1725714107789-f62e2a6e94
 <div align="center">
 
 # ComfyUI
-**The most powerful and modular diffusion model GUI and backend.**
+**The most powerful and modular visual AI engine and application.**
 
 
 [![Website][website-shield]][website-url]
@@ -41,17 +41,49 @@ featuredImagePreview: https://images.unsplash.com/photo-1725714107789-f62e2a6e94
 ![ComfyUI Screenshot](https://github.com/user-attachments/assets/7ccaf2c1-9b72-41ae-9a89-5688c94b7abe)
 </div>
 
-This ui will let you design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface. For some workflow examples and see what ComfyUI can do you can check out:
-### [ComfyUI Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
+ComfyUI lets you design and execute advanced stable diffusion pipelines using a graph/nodes/flowchart based interface. Available on Windows, Linux, and macOS.
 
-### [Installing ComfyUI](#installing)
+## Get Started
+
+#### [Desktop Application](https://www.comfy.org/download)
+- The easiest way to get started. 
+- Available on Windows & macOS.
+
+#### [Windows Portable Package](#installing)
+- Get the latest commits and completely portable.
+- Available on Windows.
+
+#### [Manual Install](#manual-install-windows-linux)
+Supports all operating systems and GPU types (NVIDIA, AMD, Intel, Apple Silicon, Ascend).
+
+## [Examples](https://comfyanonymous.github.io/ComfyUI_examples/)
+See what ComfyUI can do with the [example workflows](https://comfyanonymous.github.io/ComfyUI_examples/).
 
 ## Features
 - Nodes/graph/flowchart interface to experiment and create complex Stable Diffusion workflows without needing to code anything.
-- Fully supports SD1.x, SD2.x, [SDXL](https://comfyanonymous.github.io/ComfyUI_examples/sdxl/), [Stable Video Diffusion](https://comfyanonymous.github.io/ComfyUI_examples/video/), [Stable Cascade](https://comfyanonymous.github.io/ComfyUI_examples/stable_cascade/), [SD3](https://comfyanonymous.github.io/ComfyUI_examples/sd3/) and [Stable Audio](https://comfyanonymous.github.io/ComfyUI_examples/audio/)
-- [LTX-Video](https://comfyanonymous.github.io/ComfyUI_examples/ltxv/)
-- [Flux](https://comfyanonymous.github.io/ComfyUI_examples/flux/)
-- [Mochi](https://comfyanonymous.github.io/ComfyUI_examples/mochi/)
+- Image Models
+   - SD1.x, SD2.x,
+   - [SDXL](https://comfyanonymous.github.io/ComfyUI_examples/sdxl/), [SDXL Turbo](https://comfyanonymous.github.io/ComfyUI_examples/sdturbo/)
+   - [Stable Cascade](https://comfyanonymous.github.io/ComfyUI_examples/stable_cascade/)
+   - [SD3 and SD3.5](https://comfyanonymous.github.io/ComfyUI_examples/sd3/)
+   - Pixart Alpha and Sigma
+   - [AuraFlow](https://comfyanonymous.github.io/ComfyUI_examples/aura_flow/)
+   - [HunyuanDiT](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_dit/)
+   - [Flux](https://comfyanonymous.github.io/ComfyUI_examples/flux/)
+   - [Lumina Image 2.0](https://comfyanonymous.github.io/ComfyUI_examples/lumina2/)
+   - [HiDream](https://comfyanonymous.github.io/ComfyUI_examples/hidream/)
+- Video Models
+   - [Stable Video Diffusion](https://comfyanonymous.github.io/ComfyUI_examples/video/)
+   - [Mochi](https://comfyanonymous.github.io/ComfyUI_examples/mochi/)
+   - [LTX-Video](https://comfyanonymous.github.io/ComfyUI_examples/ltxv/)
+   - [Hunyuan Video](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_video/)
+   - [Nvidia Cosmos](https://comfyanonymous.github.io/ComfyUI_examples/cosmos/)
+   - [Wan 2.1](https://comfyanonymous.github.io/ComfyUI_examples/wan/)
+- Audio Models
+   - [Stable Audio](https://comfyanonymous.github.io/ComfyUI_examples/audio/)
+   - [ACE Step](https://comfyanonymous.github.io/ComfyUI_examples/audio/)
+- 3D Models
+   - [Hunyuan3D 2.0](https://docs.comfy.org/tutorials/3d/hunyuan3D-2)
 - Asynchronous Queue system
 - Many optimizations: Only re-executes the parts of the workflow that changes between executions.
 - Smart memory management: can automatically run models on GPUs with as low as 1GB vram.
@@ -71,15 +103,28 @@ This ui will let you design and execute advanced stable diffusion pipelines usin
 - [GLIGEN](https://comfyanonymous.github.io/ComfyUI_examples/gligen/)
 - [Model Merging](https://comfyanonymous.github.io/ComfyUI_examples/model_merging/)
 - [LCM models and Loras](https://comfyanonymous.github.io/ComfyUI_examples/lcm/)
-- [SDXL Turbo](https://comfyanonymous.github.io/ComfyUI_examples/sdturbo/)
-- [AuraFlow](https://comfyanonymous.github.io/ComfyUI_examples/aura_flow/)
-- [HunyuanDiT](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_dit/)
 - Latent previews with [TAESD](#how-to-show-high-quality-previews)
 - Starts up very fast.
 - Works fully offline: will never download anything.
 - [Config file](extra_model_paths.yaml.example) to set the search paths for models.
 
 Workflow examples can be found on the [Examples page](https://comfyanonymous.github.io/ComfyUI_examples/)
+
+## Release Process
+
+ComfyUI follows a weekly release cycle every Friday, with three interconnected repositories:
+
+1. **[ComfyUI Core](https://github.com/comfyanonymous/ComfyUI)**
+   - Releases a new stable version (e.g., v0.7.0)
+   - Serves as the foundation for the desktop release
+
+2. **[ComfyUI Desktop](https://github.com/Comfy-Org/desktop)**
+   - Builds a new release using the latest stable core version
+
+3. **[ComfyUI Frontend](https://github.com/Comfy-Org/ComfyUI_frontend)**
+   - Weekly frontend updates are merged into the core repository
+   - Features are frozen for the upcoming core release
+   - Development continues for the next release cycle
 
 ## Shortcuts
 
@@ -111,6 +156,8 @@ Workflow examples can be found on the [Examples page](https://comfyanonymous.git
 | `Q`                                 | Toggle visibility of the queue                                                                                     |
 | `H`                                  | Toggle visibility of history                                                                                       |
 | `R`                                  | Refresh graph                                                                                                      |
+| `F`                                  | Show/Hide menu                                                                                                      |
+| `.`                                  | Fit view to selection (Whole graph when nothing is selected)                                                        |
 | Double-Click LMB                   | Open node quick search palette                                                                                     |
 | `Shift` + Drag                       | Move multiple wires at once                                                                                        |
 | `Ctrl` + `Alt` + LMB                   | Disconnect all wires from clicked slot                                                                             |
@@ -119,7 +166,7 @@ Workflow examples can be found on the [Examples page](https://comfyanonymous.git
 
 # Installing
 
-## Windows
+## Windows Portable
 
 There is a portable standalone build for Windows that should work for running on Nvidia GPUs or for running on your CPU only on the [releases page](https://github.com/comfyanonymous/ComfyUI/releases).
 
@@ -137,9 +184,18 @@ See the [Config file](extra_model_paths.yaml.example) to set the search paths fo
 
 To run it on services like paperspace, kaggle or colab you can use my [Jupyter Notebook](notebooks/comfyui_colab.ipynb)
 
+
+## [comfy-cli](https://docs.comfy.org/comfy-cli/getting-started)
+
+You can install and start ComfyUI using comfy-cli:
+```bash
+pip install comfy-cli
+comfy install
+```
+
 ## Manual Install (Windows, Linux)
 
-Note that some dependencies do not yet support python 3.13 so using 3.12 is recommended.
+python 3.13 is supported but using 3.12 is recommended because some custom nodes and their dependencies might not support it yet.
 
 Git clone this repo.
 
@@ -151,21 +207,45 @@ Put your VAE in: models/vae
 ### AMD GPUs (Linux only)
 AMD users can install rocm and pytorch with pip if you don't have it already installed, this is the command to install the stable version:
 
-```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.2```
+```pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/rocm6.3```
 
-This is the command to install the nightly with ROCm 6.2 which might have some performance improvements:
+This is the command to install the nightly with ROCm 6.4 which might have some performance improvements:
 
-```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.2```
+```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/rocm6.4```
+
+### Intel GPUs (Windows and Linux)
+
+(Option 1) Intel Arc GPU users can install native PyTorch with torch.xpu support using pip (currently available in PyTorch nightly builds). More information can be found [here](https://pytorch.org/docs/main/notes/get_start_xpu.html)
+  
+1. To install PyTorch nightly, use the following command:
+
+```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/xpu```
+
+2. Launch ComfyUI by running `python main.py`
+
+
+(Option 2) Alternatively, Intel GPUs supported by Intel Extension for PyTorch (IPEX) can leverage IPEX for improved performance.
+
+1. For Intel® Arc™ A-Series Graphics utilizing IPEX, create a conda environment and use the commands below:
+
+```
+conda install libuv
+pip install torch==2.3.1.post0+cxx11.abi torchvision==0.18.1.post0+cxx11.abi torchaudio==2.3.1.post0+cxx11.abi intel-extension-for-pytorch==2.3.110.post0+xpu --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/us/ --extra-index-url https://pytorch-extension.intel.com/release-whl/stable/xpu/cn/
+```
+
+For other supported Intel GPUs with IPEX, visit [Installation](https://intel.github.io/intel-extension-for-pytorch/index.html#installation?platform=gpu) for more information.
+
+Additional discussion and help can be found [here](https://github.com/comfyanonymous/ComfyUI/discussions/476).
 
 ### NVIDIA
 
 Nvidia users should install stable pytorch using this command:
 
-```pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu124```
+```pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu128```
 
-This is the command to install pytorch nightly instead which might have performance improvements:
+This is the command to install pytorch nightly instead which might have performance improvements.
 
-```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu124```
+```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128```
 
 #### Troubleshooting
 
@@ -185,17 +265,6 @@ After this you should have everything installed and can proceed to running Comfy
 
 ### Others:
 
-#### Intel GPUs
-
-Intel GPU support is available for all Intel GPUs supported by Intel's Extension for Pytorch (IPEX) with the support requirements listed in the [Installation](https://intel.github.io/intel-extension-for-pytorch/index.html#installation?platform=gpu) page. Choose your platform and method of install and follow the instructions. The steps are as follows:
-
-1. Start by installing the drivers or kernel listed or newer in the Installation page of IPEX linked above for Windows and Linux if needed.
-1. Follow the instructions to install [Intel's oneAPI Basekit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html) for your platform.
-1. Install the packages for IPEX using the instructions provided in the Installation page for your platform.
-1. Follow the [ComfyUI manual installation](#manual-install-windows-linux) instructions for Windows and Linux and run ComfyUI normally as described above after everything is installed.
-
-Additional discussion and help can be found [here](https://github.com/comfyanonymous/ComfyUI/discussions/476).
-
 #### Apple Mac silicon
 
 You can install ComfyUI in Apple Mac silicon (M1 or M2) with any recent macOS version.
@@ -211,6 +280,23 @@ You can install ComfyUI in Apple Mac silicon (M1 or M2) with any recent macOS ve
 
 ```pip install torch-directml``` Then you can launch ComfyUI with: ```python main.py --directml```
 
+#### Ascend NPUs
+
+For models compatible with Ascend Extension for PyTorch (torch_npu). To get started, ensure your environment meets the prerequisites outlined on the [installation](https://ascend.github.io/docs/sources/ascend/quick_install.html) page. Here's a step-by-step guide tailored to your platform and installation method:
+
+1. Begin by installing the recommended or newer kernel version for Linux as specified in the Installation page of torch-npu, if necessary.
+2. Proceed with the installation of Ascend Basekit, which includes the driver, firmware, and CANN, following the instructions provided for your specific platform.
+3. Next, install the necessary packages for torch-npu by adhering to the platform-specific instructions on the [Installation](https://ascend.github.io/docs/sources/pytorch/install.html#pytorch) page.
+4. Finally, adhere to the [ComfyUI manual installation](#manual-install-windows-linux) guide for Linux. Once all components are installed, you can run ComfyUI as described earlier.
+
+#### Cambricon MLUs
+
+For models compatible with Cambricon Extension for PyTorch (torch_mlu). Here's a step-by-step guide tailored to your platform and installation method:
+
+1. Install the Cambricon CNToolkit by adhering to the platform-specific instructions on the [Installation](https://www.cambricon.com/docs/sdk_1.15.0/cntoolkit_3.7.2/cntoolkit_install_3.7.2/index.html)
+2. Next, install the PyTorch(torch_mlu) following the instructions on the [Installation](https://www.cambricon.com/docs/sdk_1.15.0/cambricon_pytorch_1.17.0/user_guide_1.9/index.html)
+3. Launch ComfyUI by running `python main.py`
+
 # Running
 
 ```python main.py```
@@ -222,6 +308,14 @@ Try running it with this command if you have issues:
 For 6700, 6600 and maybe other RDNA2 or older: ```HSA_OVERRIDE_GFX_VERSION=10.3.0 python main.py```
 
 For AMD 7600 and maybe other RDNA3 cards: ```HSA_OVERRIDE_GFX_VERSION=11.0.0 python main.py```
+
+### AMD ROCm Tips
+
+You can enable experimental memory efficient attention on recent pytorch in ComfyUI on some AMD GPUs using this command, it should already be enabled by default on RDNA3. If this improves speed for you on latest pytorch on your GPU please report it so that I can enable it by default.
+
+```TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1 python main.py --use-pytorch-cross-attention```
+
+You can also try setting this env variable `PYTORCH_TUNABLEOP_ENABLED=1` which might speed things up at the cost of a very slow initial run.
 
 # Notes
 
@@ -258,6 +352,8 @@ Use `--tls-keyfile key.pem --tls-certfile cert.pem` to enable TLS/SSL, the app w
 
 ## Support and dev channel
 
+[Discord](https://comfy.org/discord): Try the #help or #feedback channels.
+
 [Matrix space: #comfyui_space:matrix.org](https://app.element.io/#/room/%23comfyui_space%3Amatrix.org) (it's like discord but open source).
 
 See also: [https://www.comfy.org/](https://www.comfy.org/)
@@ -274,7 +370,7 @@ For any bugs, issues, or feature requests related to the frontend, please use th
 
 The new frontend is now the default for ComfyUI. However, please note:
 
-1. The frontend in the main ComfyUI repository is updated weekly.
+1. The frontend in the main ComfyUI repository is updated fortnightly.
 2. Daily releases are available in the separate frontend repository.
 
 To use the most up-to-date frontend version:
@@ -291,7 +387,7 @@ To use the most up-to-date frontend version:
    --front-end-version Comfy-Org/ComfyUI_frontend@1.2.2
    ```
 
-This approach allows you to easily switch between the stable weekly release and the cutting-edge daily updates, or even specific versions for testing purposes.
+This approach allows you to easily switch between the stable fortnightly release and the cutting-edge daily updates, or even specific versions for testing purposes.
 
 ### Accessing the Legacy Frontend
 
@@ -308,4 +404,3 @@ This will use a snapshot of the legacy frontend preserved in the [ComfyUI Legacy
 ### Which GPU should I buy for this?
 
 [See this page for some recommendations](https://github.com/comfyanonymous/ComfyUI/wiki/Which-GPU-should-I-buy-for-ComfyUI)
-
