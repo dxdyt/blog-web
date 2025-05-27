@@ -1,22 +1,31 @@
 ---
 title: wg-easy
-date: 2024-12-08T12:22:01+08:00
+date: 2025-05-27T12:27:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732948937655-095f68551734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM2MzE1OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732948937655-095f68551734?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM2MzE1OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
 ---
 
 # [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy)
 
 # WireGuard Easy
 
-[![Build & Publish Docker Image to Docker Hub](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml)
+[![Build & Publish latest Image](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml)
 [![Lint](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml)
-![Docker](https://img.shields.io/docker/pulls/weejewel/wg-easy.svg)
-[![Sponsor](https://img.shields.io/github/sponsors/weejewel)](https://github.com/sponsors/WeeJeWel)
-![GitHub Stars](https://img.shields.io/github/stars/wg-easy/wg-easy)
+[![GitHub Stars](https://img.shields.io/github/stars/wg-easy/wg-easy)](https://github.com/wg-easy/wg-easy/stargazers)
+[![License](https://img.shields.io/github/license/wg-easy/wg-easy)](LICENSE)
+[![GitHub Release](https://img.shields.io/github/v/release/wg-easy/wg-easy)](https://github.com/wg-easy/wg-easy/releases/latest)
+[![Image Pulls](https://img.shields.io/badge/image_pulls-12M+-blue)](https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy)
+
+<!-- TODO: remove after release -->
+
+> [!WARNING]
+> You are viewing the README of the pre-release of v15.
+> If you want to setup wg-easy right now. Read the README in the production branch here: [README](https://github.com/wg-easy/wg-easy/tree/production) or here for the last nightly: [README](https://github.com/wg-easy/wg-easy/tree/c6dce0f6fb2e28e7e40ddac1498bd67e9bb17cba)
 
 You have found the easiest way to install & manage WireGuard on any Linux host!
+
+<!-- TOOD: update screenshot -->
 
 <p align="center">
   <img src="./assets/screenshot.png" width="802" />
@@ -24,50 +33,53 @@ You have found the easiest way to install & manage WireGuard on any Linux host!
 
 ## Features
 
-* All-in-one: WireGuard + Web UI.
-* Easy installation, simple to use.
-* List, create, edit, delete, enable & disable clients.
-* Show a client's QR code.
-* Download a client's configuration file.
-* Statistics for which clients are connected.
-* Tx/Rx charts for each connected client.
-* Gravatar support.
-* Automatic Light / Dark Mode
-* Multilanguage Support
-* Traffic Stats (default off)
-* One Time Links (default off)
-* Client Expiry (default off)
-* Prometheus metrics support
+- All-in-one: WireGuard + Web UI.
+- Easy installation, simple to use.
+- List, create, edit, delete, enable & disable clients.
+- Show a client's QR code.
+- Download a client's configuration file.
+- Statistics for which clients are connected.
+- Tx/Rx charts for each connected client.
+- Gravatar support.
+- Automatic Light / Dark Mode
+- Multilanguage Support
+- One Time Links
+- Client Expiration
+- Prometheus metrics support
+- IPv6 support
+- CIDR support
+- 2FA support
 
-## Requirements
+> [!NOTE]
+> To better manage documentation for this project, it has its own site here: [https://wg-easy.github.io/wg-easy/latest](https://wg-easy.github.io/wg-easy/latest)
 
-* A host with a kernel that supports WireGuard (all modern kernels).
-* A host with Docker installed.
+<!-- TODO: remove after release -->
 
-## Versions
+> [!WARNING]
+> As the Docs are still in Pre-release, you can access them here [https://wg-easy.github.io/wg-easy/Pre-release](https://wg-easy.github.io/wg-easy/Pre-release)
 
-> 💡 For the **stable** version please read instructions on the
-> [**production** branch](https://github.com/wg-easy/wg-easy/tree/production)!
+- [Getting Started](https://wg-easy.github.io/wg-easy/latest/getting-started/)
+- [Basic Installation](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/basic-installation/)
+- [Caddy](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/caddy/)
+- [Traefik](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/traefik/)
+- [Podman](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/podman-nft/)
+- [AdGuard Home](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/adguard/)
 
-We provide more than 1 docker image tag, the following will help you decide
-which one suites the best for you.
-
-| tag | Branch | Example | Description |
-| - | - | - | - |
-| `latest` | [`production`](https://github.com/wg-easy/wg-easy/tree/production) | `ghcr.io/wg-easy/wg-easy:latest` or `ghcr.io/wg-easy/wg-easy` | stable as possbile get bug fixes quickly when needed, deployed against [`production`](https://github.com/wg-easy/wg-easy/tree/production). |
-| `14` | [`production`](https://github.com/wg-easy/wg-easy/tree/production) | `ghcr.io/wg-easy/wg-easy:14` | same as latest, stick to a version tag. |
-| `nightly` | [`master`](https://github.com/wg-easy/wg-easy/tree/master) | `ghcr.io/wg-easy/wg-easy:nightly` | mostly unstable gets frequent package and code updates, deployed against [`master`](https://github.com/wg-easy/wg-easy/tree/master). |
-| `development` | pull requests | `ghcr.io/wg-easy/wg-easy:development` | used for development, testing code from PRs before landing into [`master`](https://github.com/wg-easy/wg-easy/tree/master). |
+> [!NOTE]
+> If you want to migrate from the old version to the new version, you can find the migration guide here: [Migration Guide](https://wg-easy.github.io/wg-easy/latest/advanced/migrate/)
 
 ## Installation
 
+This is a quick start guide to get you up and running with WireGuard Easy.
+
+For a more detailed installation guide, please refer to the [Getting Started](https://wg-easy.github.io/wg-easy/latest/getting-started/) page.
+
 ### 1. Install Docker
 
-If you haven't installed Docker yet, install it by running:
+If you haven't installed Docker yet, install it by running as root:
 
 ```shell
 curl -sSL https://get.docker.com | sh
-sudo usermod -aG docker $(whoami)
 exit
 ```
 
@@ -75,103 +87,60 @@ And log in again.
 
 ### 2. Run WireGuard Easy
 
-To automatically install & run wg-easy, simply run:
+The easiest way to run WireGuard Easy is with Docker Compose.
+
+Just download [`docker-compose.yml`](docker-compose.yml) and execute `sudo docker compose up -d`.
+
+Now setup a reverse proxy to be able to access the Web UI securely from the internet.
+
+If you want to access the Web UI over HTTP, change the env var `INSECURE` to `true`. This is not recommended. Only use this for testing
+
+## Donate
+
+Are you enjoying this project? Consider donating.
+
+Founder: [Buy Emile a beer!](https://github.com/sponsors/WeeJeWel) 🍻
+
+Maintainer: [Buy kaaax0815 a coffee!](https://github.com/sponsors/kaaax0815) ☕
+
+## Development
+
+### Prerequisites
+
+- Docker
+- Node LTS & corepack enabled
+- Visual Studio Code
+
+### Dev Server
+
+This starts the development server with docker
 
 ```shell
-docker run --detach \
-  --name wg-easy \
-  --env LANG=de \
-  --env WG_HOST=<🚨YOUR_SERVER_IP> \
-  --env PASSWORD_HASH='<🚨YOUR_ADMIN_PASSWORD_HASH>' \
-  --env PORT=51821 \
-  --env WG_PORT=51820 \
-  --volume ~/.wg-easy:/etc/wireguard \
-  --publish 51820:51820/udp \
-  --publish 51821:51821/tcp \
-  --cap-add NET_ADMIN \
-  --cap-add SYS_MODULE \
-  --sysctl 'net.ipv4.conf.all.src_valid_mark=1' \
-  --sysctl 'net.ipv4.ip_forward=1' \
-  --restart unless-stopped \
-  ghcr.io/wg-easy/wg-easy
+pnpm dev
 ```
 
-> 💡 Replace `<🚨YOUR_SERVER_IP>` with your WAN IP, or a Dynamic DNS hostname.
->
-> 💡 Replace `<🚨YOUR_ADMIN_PASSWORD_HASH>` with a bcrypt password hash to log in on the Web UI. See [How_to_generate_an_bcrypt_hash.md](./How_to_generate_an_bcrypt_hash.md) for instructions on how to generate a hashed password.
+### Update Auto Imports
 
-The Web UI will now be available on `http://0.0.0.0:51821`.
-
-The Prometheus metrics will now be available on `http://0.0.0.0:51821/metrics`. Grafana dashboard [21733](https://grafana.com/grafana/dashboards/21733-wireguard/)
-
-> 💡 Your configuration files will be saved in `~/.wg-easy`
-
-WireGuard Easy can be launched with Docker Compose as well - just download
-[`docker-compose.yml`](docker-compose.yml), make necessary adjustments and
-execute `docker compose up --detach`.
-
-### 3. Sponsor
-
-Are you enjoying this project? [Buy Emile a beer!](https://github.com/sponsors/WeeJeWel) 🍻 <br>
-Donation to core component: [WireGuard](https://www.wireguard.com/donations/)
-
-## Options
-
-These options can be configured by setting environment variables using `-e KEY="VALUE"` in the `docker run` command.
-
-| Env | Default | Example | Description                                                                                                                                          |
-| - | - | - |------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `PORT` | `51821` | `6789` | TCP port for Web UI.                                                                                                                                 |
-| `WEBUI_HOST` | `0.0.0.0` | `localhost` | IP address web UI binds to.                                                                                                                          |
-| `PASSWORD_HASH` | - | `$2y$05$Ci...` | When set, requires a password when logging in to the Web UI. See [How to generate an bcrypt hash.md]("https://github.com/wg-easy/wg-easy/blob/master/How_to_generate_an_bcrypt_hash.md") for know how generate the hash. |
-| `WG_HOST` | - | `vpn.myserver.com` | The public hostname of your VPN server.                                                                                                              |
-| `WG_DEVICE` | `eth0` | `ens6f0` | Ethernet device the wireguard traffic should be forwarded through.                                                                                   |
-| `WG_PORT` | `51820` | `12345` | The public UDP port of your VPN server. WireGuard will listen on that (othwise default) inside the Docker container.                                 |
-| `WG_CONFIG_PORT`| `51820` | `12345` | The UDP port used on [Home Assistant Plugin](https://github.com/adriy-be/homeassistant-addons-jdeath/tree/main/wgeasy)
-| `WG_MTU` | `null` | `1420` | The MTU the clients will use. Server uses default WG MTU.                                                                                            |
-| `WG_PERSISTENT_KEEPALIVE` | `0` | `25` | Value in seconds to keep the "connection" open. If this value is 0, then connections won't be kept alive.                                            |
-| `WG_DEFAULT_ADDRESS` | `10.8.0.x` | `10.6.0.x` | Clients IP address range. |
-| `WG_DEFAULT_DNS` | `1.1.1.1` | `8.8.8.8, 8.8.4.4` | DNS server clients will use. If set to blank value, clients will not use any DNS. |
-| `WG_ALLOWED_IPS` | `0.0.0.0/0, ::/0` | `192.168.15.0/24, 10.0.1.0/24` | Allowed IPs clients will use. |
-| `WG_PRE_UP` | `...` | - | See [config.js](https://github.com/wg-easy/wg-easy/blob/master/src/config.js#L19) for the default value.                                             |
-| `WG_POST_UP` | `...` | `iptables ...` | See [config.js](https://github.com/wg-easy/wg-easy/blob/master/src/config.js#L20) for the default value.                                             |
-| `WG_PRE_DOWN` | `...` | - | See [config.js](https://github.com/wg-easy/wg-easy/blob/master/src/config.js#L27) for the default value.                                             |
-| `WG_POST_DOWN` | `...` | `iptables ...` | See [config.js](https://github.com/wg-easy/wg-easy/blob/master/src/config.js#L28) for the default value.                                             |
-| `WG_ENABLE_EXPIRES_TIME` | `false` | `true`                         | Enable expire time for clients |
-| `LANG` | `en` | `de` | Web UI language (Supports: en, ua, ru, tr, no, pl, fr, de, ca, es, ko, vi, nl, is, pt, chs, cht, it, th, hi, ja, si).                                        |
-| `UI_TRAFFIC_STATS` | `false` | `true` | Enable detailed RX / TX client stats in Web UI |
-| `UI_CHART_TYPE` | `0` | `1` | UI_CHART_TYPE=0 # Charts disabled, UI_CHART_TYPE=1 # Line chart, UI_CHART_TYPE=2 # Area chart, UI_CHART_TYPE=3 # Bar chart |
-| `WG_ENABLE_ONE_TIME_LINKS` | `false` | `true` | Enable display and generation of short one time download links (expire after 5 minutes) |
-| `MAX_AGE` | `0` | `1440` | The maximum age of Web UI sessions in minutes. `0` means that the session will exist until the browser is closed. |
-| `UI_ENABLE_SORT_CLIENTS` | `false` | `true`                         | Enable UI sort clients by name   |
-| `ENABLE_PROMETHEUS_METRICS` | `false` | `true`                       | Enable Prometheus metrics `http://0.0.0.0:51821/metrics` and `http://0.0.0.0:51821/metrics/json`|
-| `PROMETHEUS_METRICS_PASSWORD` | - | `$2y$05$Ci...` | If set, Basic Auth is required when requesting metrics. See [How to generate an bcrypt hash.md]("https://github.com/wg-easy/wg-easy/blob/master/How_to_generate_an_bcrypt_hash.md") for know how generate the hash. |
-
-> If you change `WG_PORT`, make sure to also change the exposed port.
-
-## Updating
-
-To update to the latest version, simply run:
+If you add something that should be auto-importable and VSCode complains, run:
 
 ```shell
-docker stop wg-easy
-docker rm wg-easy
-docker pull ghcr.io/wg-easy/wg-easy
+cd src
+pnpm install
+cd ..
 ```
 
-And then run the `docker run -d \ ...` command above again.
+### Test Cli
 
-With Docker Compose WireGuard Easy can be updated with a single command:
-`docker compose up --detach --pull always` (if an image tag is specified in the
-Compose file and it is not `latest`, make sure that it is changed to the desired
-one; by default it is omitted and
-[defaults to `latest`](https://docs.docker.com/engine/reference/run/#image-references)). \
-The WireGuared Easy container will be automatically recreated if a newer image
-was pulled.
+This starts the cli with docker
 
-## Common Use Cases
+```shell
+pnpm cli:dev
+```
 
-* [Using WireGuard-Easy with Pi-Hole](https://github.com/wg-easy/wg-easy/wiki/Using-WireGuard-Easy-with-Pi-Hole)
-* [Using WireGuard-Easy with nginx/SSL](https://github.com/wg-easy/wg-easy/wiki/Using-WireGuard-Easy-with-nginx-SSL)
+## License
 
-For less common or specific edge-case scenarios, please refer to the detailed information provided in the [Wiki](https://github.com/wg-easy/wg-easy/wiki).
+This project is licensed under the AGPL-3.0-only License - see the [LICENSE](LICENSE) file for details
+
+This project is not affiliated, associated, authorized, endorsed by, or in any way officially connected with Jason A. Donenfeld, ZX2C4 or Edge Security
+
+"WireGuard" and the "WireGuard" logo are registered trademarks of Jason A. Donenfeld

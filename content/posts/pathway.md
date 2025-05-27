@@ -1,9 +1,9 @@
 ---
 title: pathway
-date: 2025-01-03T12:19:24+08:00
+date: 2025-05-27T12:27:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732363903885-6977b5c50611?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732363903885-6977b5c50611?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746202382540-4794ab47f872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746202382540-4794ab47f872?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
 ---
 
 # [pathwaycom/pathway](https://github.com/pathwaycom/pathway)
@@ -12,6 +12,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1732363903885-6977b5c506
   <a href="https://pathway.com/">
     <img src="https://pathway.com/logo-light.svg"/>
   </a>
+  <br /><br />
+  <a href="https://trendshift.io/repositories/10388" target="_blank"><img src="https://trendshift.io/api/badge/repositories/10388" alt="pathwaycom%2Fpathway | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
   <br /><br />
 </div>
 <p align="center">
@@ -262,7 +264,7 @@ If you are curious, here are [some benchmarks to play with](https://github.com/p
 
 ## Documentation and Support<a id="resources"></a>
 
-The entire documentation of Pathway is available at [pathway.com/developers/](https://pathway.com/developers/), including the [API Docs](https://pathway.com/developers/api-docs/pathway).
+The entire documentation of Pathway is available at [pathway.com/developers/](https://pathway.com/developers/user-guide/introduction/welcome), including the [API Docs](https://pathway.com/developers/api-docs/pathway).
 
 If you have any question, don't hesitate to [open an issue on GitHub](https://github.com/pathwaycom/pathway/issues), join us on [Discord](https://discord.com/invite/pathway), or send us an email at [contact@pathway.com](mailto:contact@pathway.com).
 

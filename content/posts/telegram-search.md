@@ -1,16 +1,16 @@
 ---
 title: telegram-search
-date: 2025-05-26T12:25:06+08:00
+date: 2025-05-27T12:24:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746263658731-469853340643?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746263658731-469853340643?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747629382443-4176ca83b5de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747629382443-4176ca83b5de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
 ---
 
 # [groupultra/telegram-search](https://github.com/groupultra/telegram-search)
 
 # Telegram Search
 
-[English](./README_EN.md)
+[English](./README_EN.md) | [快速开始](./getting-started.md)
 
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/+Gs3SH2qAPeFhYmU9)
 [![Discord](https://dcbadge.limes.pink/api/server/NzYsmJSgCT)](https://discord.gg/NzYsmJSgCT)
@@ -21,9 +21,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1746263658731-4698533406
 
 - 欢迎 PR 贡献！
 - 由于项目处于快速迭代阶段，可能会出现数据库不兼容的情况，建议定期备份数据。
-- 获取 API key: [#111](https://github.com/GramSearch/telegram-search/issues/111)
 
-![image](https://github.com/user-attachments/assets/0fa3ba2f-9a3d-4530-9ecd-3336a0f952ad)
+![preview](./docs/assets/preview.png)
 
 ## 💖 赞助者
 
@@ -52,7 +51,7 @@ pnpm install
 cp config/config.example.yaml config/config.yaml
 ```
 
-4. 启动数据库容器:
+4. 启动数据库容器：
 
 ```bash
 docker compose up -d

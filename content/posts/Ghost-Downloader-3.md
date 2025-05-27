@@ -1,9 +1,9 @@
 ---
 title: Ghost-Downloader-3
-date: 2025-05-25T12:25:47+08:00
+date: 2025-05-27T12:25:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745794621090-d856c53b0cc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgxNDcwODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745794621090-d856c53b0cc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgxNDcwODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
 ---
 
 # [XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)

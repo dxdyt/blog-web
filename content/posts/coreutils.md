@@ -1,9 +1,9 @@
 ---
 title: coreutils
-date: 2025-03-18T12:22:20+08:00
+date: 2025-05-27T12:26:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734688246098-141f0cae5cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734688246098-141f0cae5cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIyNzE2Mjh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747109708806-cac8c547d59f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747109708806-cac8c547d59f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
 ---
 
 # [uutils/coreutils](https://github.com/uutils/coreutils)
@@ -24,7 +24,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1734688246098-141f0cae5c
 [![dependency status](https://deps.rs/repo/github/uutils/coreutils/status.svg)](https://deps.rs/repo/github/uutils/coreutils)
 
 [![CodeCov](https://codecov.io/gh/uutils/coreutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/coreutils)
-![MSRV](https://img.shields.io/badge/MSRV-1.82.0-brightgreen)
+![MSRV](https://img.shields.io/badge/MSRV-1.85.0-brightgreen)
 
 </div>
 
@@ -80,7 +80,7 @@ the [coreutils docs](https://github.com/uutils/uutils.github.io) repository.
 ### Rust Version
 
 uutils follows Rust's release channels and is tested against stable, beta and
-nightly. The current Minimum Supported Rust Version (MSRV) is `1.82.0`.
+nightly. The current Minimum Supported Rust Version (MSRV) is `1.85.0`.
 
 ## Building
 
@@ -88,7 +88,7 @@ There are currently two methods to build the uutils binaries: either Cargo or
 GNU Make.
 
 > Building the full package, including all documentation, requires both Cargo
-> and Gnu Make on a Unix platform.
+> and GNU Make on a Unix platform.
 
 For either method, we first need to fetch the repository:
 
@@ -323,7 +323,7 @@ breakdown of the GNU test results of the main branch can be found
 See <https://github.com/orgs/uutils/projects/1> for the main meta bugs
 (many are missing).
 
-![Evolution over time](https://github.com/uutils/coreutils-tracking/blob/main/gnu-results.png?raw=true)
+![Evolution over time](https://github.com/uutils/coreutils-tracking/blob/main/gnu-results.svg?raw=true)
 
 </div> <!-- close oranda-hide div -->
 

@@ -1,9 +1,9 @@
 ---
 title: hyperswitch
-date: 2025-05-03T12:21:19+08:00
+date: 2025-05-27T12:26:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744838166359-297055ad88b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744838166359-297055ad88b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYyNDYwMzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746105523293-1954154b6ccc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746105523293-1954154b6ccc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
 ---
 
 # [juspay/hyperswitch](https://github.com/juspay/hyperswitch)
@@ -44,6 +44,9 @@ Single API to access the payments ecosystem and its features
   <a href="https://join.slack.com/t/hyperswitch-io/shared_invite/zt-2jqxmpsbm-WXUENx022HjNEy~Ark7Orw">
     <img src="https://img.shields.io/badge/chat-on_slack-blue?logo=slack&labelColor=grey&color=%233f0e40"/>
   </a>
+  <a href="https://deepwiki.com/juspay/hyperswitch">
+    <img src="https://deepwiki.com/badge.svg" alt="Ask DeepWiki">
+  </a>
 </p>
 
 <hr>
@@ -52,11 +55,12 @@ Single API to access the payments ecosystem and its features
 
 1. [Introduction](#introduction)
 2. [Try Hyperswitch](#try-hyperswitch)
-3. [Architectural Overview](#architectural-overview) 
-4. [Support, Feature requests & Bugs](#support-feature-requests)  
-5. [Our Vision](#our-vision)  
-6. [Versioning](#versioning)  
-7. [Copyright and License](#copyright-and-license)
+3. [Architectural Overview](#architectural-overview)
+4. [Community & Contributions](#community-and-contributions)
+5. [Feature requests & Bugs](#feature-requests)  
+6. [Our Vision](#our-vision)  
+7. [Versioning](#versioning)  
+8. [Copyright and License](#copyright-and-license)
 
 <a href="#introduction">
   <h2 id="introduction">Introduction</h2>
@@ -151,11 +155,17 @@ You can experience the product by signing up for our [hosted sandbox](https://ap
 [configure-a-connector]: https://docs.hyperswitch.io/hyperswitch-open-source/account-setup/using-hyperswitch-control-center#add-a-payment-processor
 [try-a-payment]: https://docs.hyperswitch.io/hyperswitch-open-source/account-setup/test-a-payment
 
-<a href="support-feature-requests">
-  <h2 id="support-feature-requests">Support, Feature requests & Bugs</h2>
+<a href="community-and-contributions">
+  <h2 id="community-and-contributions">Community & Contributions</h2>
 </a>
 
-For any support, join the conversation in [Slack](https://join.slack.com/t/hyperswitch-io/shared_invite/zt-2jqxmpsbm-WXUENx022HjNEy~Ark7Orw)
+If you have any questions, feel free to drop them in our [Slack community](https://join.slack.com/t/hyperswitch-io/shared_invite/zt-2jqxmpsbm-WXUENx022HjNEy~Ark7Orw).
+
+We welcome contributors from around the world to help build Hyperswitch. To get started, please read our [contribution guidelines](contributing-guidelines).
+
+<a href="feature-requests">
+  <h2 id="feature-requests">Feature requests & Bugs</h2>
+</a>
 
 For new product features, enhancements, roadmap discussions, or to share queries and ideas, visit our [GitHub Discussions](https://github.com/juspay/hyperswitch/discussions)
 
