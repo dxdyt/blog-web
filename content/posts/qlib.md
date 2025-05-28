@@ -1,9 +1,9 @@
 ---
 title: qlib
-date: 2025-05-27T12:24:57+08:00
+date: 2025-05-28T12:23:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746311585296-f91039c70a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746311585296-f91039c70a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImage: https://plus.unsplash.com/premium_photo-1745496714251-ba97ba0f99a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0MDYyMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1745496714251-ba97ba0f99a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0MDYyMTd8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/qlib](https://github.com/microsoft/qlib)
@@ -36,7 +36,8 @@ We have prepared several demo videos for you:
 | Quant Factor Mining from reports | [Link](https://rdagent.azurewebsites.net/report_factor?lang=en) | [Link](https://rdagent.azurewebsites.net/report_factor?lang=zh) |
 | Quant Model Optimization | [Link](https://rdagent.azurewebsites.net/model_loop?lang=en) | [Link](https://rdagent.azurewebsites.net/model_loop?lang=zh) |
 
-- [R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization](https://arxiv.org/abs/2505.15155)
+- 📃**Paper**: [R&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization](https://arxiv.org/abs/2505.15155)
+- 👾**Code**: https://github.com/microsoft/RD-Agent/
 ```BibTeX
 @misc{li2025rdagentquant,
     title={R\&D-Agent-Quant: A Multi-Agent Framework for Data-Centric Factors and Model Joint Optimization},

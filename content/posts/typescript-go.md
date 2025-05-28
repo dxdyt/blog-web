@@ -1,9 +1,9 @@
 ---
 title: typescript-go
-date: 2025-05-26T12:25:59+08:00
+date: 2025-05-28T12:24:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746728843342-25f976c53b2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746728843342-25f976c53b2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1741732311586-6ea6d620f214?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0MDYyMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1741732311586-6ea6d620f214?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0MDYyMTd8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/typescript-go](https://github.com/microsoft/typescript-go)

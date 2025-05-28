@@ -1,9 +1,9 @@
 ---
 title: mindsdb
-date: 2025-05-27T12:25:51+08:00
+date: 2025-05-28T12:24:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743423054685-4b109da0403a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0MDYyMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743423054685-4b109da0403a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0MDYyMTd8&ixlib=rb-4.1.0
 ---
 
 # [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
@@ -43,7 +43,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093
 
 MindsDB enables humans, AI, agents, and applications to get highly accurate answers across sprawled and large scale data sources.
 
-<img width="1454" alt="image" src="https://github.com/user-attachments/assets/87930824-2624-4c71-ac08-475e12e5475f" />
+![image](https://github.com/user-attachments/assets/a796276a-2d3e-4aa2-9a52-25bf44cf32e7)
+
 
 [MindsDB has an MCP server built in](https://docs.mindsdb.com/mcp/overview) that enables your MCP applications to connect, unify and respond to questions over large-scale federated data—spanning databases, data warehouses, and SaaS applications.
 
