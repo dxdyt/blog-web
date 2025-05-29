@@ -1,9 +1,9 @@
 ---
 title: react-native
-date: 2024-09-19T12:20:17+08:00
+date: 2025-05-29T12:26:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723908021871-f76201c6db1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723908021871-f76201c6db1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY3MTk1NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747570440647-907910092df1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747570440647-907910092df1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
 ---
 
 # [facebook/react-native](https://github.com/facebook/react-native)
@@ -22,9 +22,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1723908021871-f76201c6db
 <p align="center">
   <a href="https://github.com/facebook/react-native/blob/HEAD/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="React Native is released under the MIT license." />
-  </a>
-  <a href="https://circleci.com/gh/facebook/react-native">
-    <img src="https://circleci.com/gh/facebook/react-native.svg?style=shield" alt="Current CircleCI build status." />
   </a>
   <a href="https://www.npmjs.org/package/react-native">
     <img src="https://img.shields.io/npm/v/react-native?color=brightgreen&label=npm%20package" alt="Current npm package version." />
@@ -77,7 +74,7 @@ React Native is developed and supported by many companies and individual core co
 
 ## 📋 Requirements
 
-React Native apps may target iOS 13.4 and Android 6.0 (API 23) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like [Expo](https://expo.dev) can be used to work around this.
+React Native apps may target iOS 15.1 and Android 7.0 (API 24) or newer. You may use Windows, macOS, or Linux as your development operating system, though building and running iOS apps is limited to macOS. Tools like [Expo](https://expo.dev) can be used to work around this.
 
 ## 🎉 Building your first React Native app
 
@@ -97,7 +94,7 @@ The full documentation for React Native can be found on our [website][docs].
 
 The React Native documentation discusses components, APIs, and topics that are specific to React Native. For further documentation on the React API that is shared between React Native and React DOM, refer to the [React documentation][r-docs].
 
-The source for the React Native documentation and website is hosted on a separate repo, [**@facebook/react-native-website**][repo-website].
+The source for the React Native documentation and website is hosted on a separate repository, [**@facebook/react-native-website**][repo-website].
 
 [docs]: https://reactnative.dev/docs/getting-started
 [r-docs]: https://react.dev/learn
@@ -151,7 +148,4 @@ Larger discussions and proposals are discussed in [**@react-native-community/dis
 
 React Native is MIT licensed, as found in the [LICENSE][l] file.
 
-React Native documentation is Creative Commons licensed, as found in the [LICENSE-docs][ld] file.
-
 [l]: https://github.com/facebook/react-native/blob/main/LICENSE
-[ld]: https://github.com/facebook/react-native/blob/main/LICENSE-docs

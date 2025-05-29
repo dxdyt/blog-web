@@ -1,9 +1,9 @@
 ---
 title: xiaozhi-esp32
-date: 2025-05-09T12:22:44+08:00
+date: 2025-05-29T12:25:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746471626032-d5dd71f0ba9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746471626032-d5dd71f0ba9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
 ---
 
 # [78/xiaozhi-esp32](https://github.com/78/xiaozhi-esp32)
@@ -45,6 +45,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1744970018496-c003c2e661
 - OLED / LCD 显示屏，显示信号强弱或对话内容
 - 支持 LCD 显示图片表情
 - 支持多语言（中文、英文）
+
+## ✅ 已支持的芯片平台
+
+- ✅ ESP32-S3
+- ✅ ESP32-C3
+- ✅ ESP32-P4
 
 ## 硬件部分
 

@@ -1,9 +1,9 @@
 ---
 title: langflow
-date: 2025-05-27T12:26:30+08:00
+date: 2025-05-29T12:24:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747643422462-831e6262f327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747643422462-831e6262f327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
 ---
 
 # [langflow-ai/langflow](https://github.com/langflow-ai/langflow)
