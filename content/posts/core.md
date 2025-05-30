@@ -1,9 +1,9 @@
 ---
 title: core
-date: 2024-10-13T12:19:46+08:00
+date: 2025-05-30T12:24:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727261044728-978934049a7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727261044728-978934049a7d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg3OTMxMjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg1NzkwMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg1NzkwMTN8&ixlib=rb-4.1.0
 ---
 
 # [vuejs/core](https://github.com/vuejs/core)
@@ -44,7 +44,8 @@ Please make sure to respect issue requirements and use [the new issue helper](ht
 
 ## Stay In Touch
 
-- [Twitter](https://twitter.com/vuejs)
+- [X](https://x.com/vuejs)
+- [Bluesky](https://bsky.app/profile/vuejs.org)
 - [Blog](https://blog.vuejs.org/)
 - [Job Board](https://vuejobs.com/?ref=vuejs)
 
@@ -54,7 +55,9 @@ Please make sure to read the [Contributing Guide](https://github.com/vuejs/core/
 
 Thank you to all the people who already contributed to Vue!
 
-<a href="https://github.com/vuejs/core/graphs/contributors"><img src="https://opencollective.com/vuejs/contributors.svg?width=890" /></a>
+<a href="https://github.com/vuejs/core/graphs/contributors"><img src="https://opencollective.com/vuejs/contributors.svg?width=890&limit=500" /></a>
+
+<sub>_Note: Showing the first 500 contributors only due to GitHub image size limitations_</sub>
 
 ## License
 

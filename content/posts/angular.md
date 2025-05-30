@@ -1,9 +1,9 @@
 ---
 title: angular
-date: 2025-03-30T12:21:55+08:00
+date: 2025-05-30T12:25:20+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739980873394-1317cc98332c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739980873394-1317cc98332c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746071062150-b12db59e9c53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg1NzkwMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746071062150-b12db59e9c53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg1NzkwMTN8&ixlib=rb-4.1.0
 ---
 
 # [angular/angular](https://github.com/angular/angular)
@@ -36,9 +36,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1739980873394-1317cc9833
 <p align="center">
   <a href="https://www.npmjs.com/@angular/core">
     <img src="https://img.shields.io/npm/v/@angular/core.svg?logo=npm&logoColor=fff&label=NPM+package&color=limegreen" alt="Angular on npm" />
-  </a>&nbsp;
-  <a href="https://discord.gg/angular">
-    <img src="https://img.shields.io/discord/463752820026376202.svg?logo=discord&logoColor=fff&label=Discord&color=7389d8" alt="Discord conversation" />
   </a>
 </p>
 
@@ -137,7 +134,6 @@ Join the conversation and help the community.
 - [X (formerly Twitter)][X (formerly Twitter)]
 - [Bluesky][bluesky]
 - [Discord][discord]
-- [Gitter][gitter]
 - [YouTube][youtube]
 - [StackOverflow][stackoverflow]
 - Find a Local [Meetup][meetup]
@@ -151,7 +147,7 @@ Join the conversation and help the community.
 [changelog]: CHANGELOG.md
 [ng]: https://angular.dev
 [documentation]: https://angular.dev/overview
-[angularmaterial]: https://material.angular.io/
+[angularmaterial]: https://material.angular.dev/
 [cli]: https://angular.dev/tools/cli
 [architecture]: https://angular.dev/essentials
 [componentstemplates]: https://angular.dev/tutorials/learn-angular/1-components-in-angular
@@ -167,7 +163,6 @@ Join the conversation and help the community.
 [X (formerly Twitter)]: https://www.twitter.com/angular
 [bluesky]: https://bsky.app/profile/angular.dev
 [discord]: https://discord.gg/angular
-[gitter]: https://gitter.im/angular/angular
 [stackoverflow]: https://stackoverflow.com/questions/tagged/angular
 [youtube]: https://youtube.com/angular
 [meetup]: https://www.meetup.com/find/?keywords=angular
