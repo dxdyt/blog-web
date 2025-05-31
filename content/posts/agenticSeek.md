@@ -1,9 +1,9 @@
 ---
 title: agenticSeek
-date: 2025-05-30T12:23:41+08:00
+date: 2025-05-31T12:23:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746307415334-8914cae06a28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg1NzkwMTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746307415334-8914cae06a28?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg1NzkwMTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744686959591-eaaec00c999c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744686959591-eaaec00c999c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
 ---
 
 # [Fosowl/agenticSeek](https://github.com/Fosowl/agenticSeek)

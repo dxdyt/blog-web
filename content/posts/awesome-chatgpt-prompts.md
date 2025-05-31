@@ -1,9 +1,9 @@
 ---
 title: awesome-chatgpt-prompts
-date: 2025-05-21T12:24:02+08:00
+date: 2025-05-31T12:23:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747633322335-1790ca959e33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747633322335-1790ca959e33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746311499999-f23b2fea0fb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746311499999-f23b2fea0fb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
 ---
 
 # [f/awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
@@ -1653,10 +1653,11 @@ Contributed by [burakcan](https://github.com/burakcan)
 
 ## Act as a Senior Frontend Developer
 
-Contributed by [zaferayan](https://github.com/ozcanzaferayan)
+Contributed by: [zaferayan](https://github.com/ozcanzaferayan)
+Contributed by: [MustafaEminn](https://github.com/MustafaEminn)
 
 > I want you to act as a Senior Frontend developer. I will describe a project
-> details you will code project with this tools: Create React App, yarn, Ant
+> details you will code project with this tools: Vite (React template), yarn, Ant
 > Design, List, Redux Toolkit, createSlice, thunk, axios. You should merge files
 > in single index.js file and nothing else. Do not write explanations. My first
 > request is "Create Pokemon App that lists pokemons with images that come from
