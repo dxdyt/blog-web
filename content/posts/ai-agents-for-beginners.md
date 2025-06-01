@@ -1,9 +1,9 @@
 ---
 title: ai-agents-for-beginners
-date: 2025-05-31T12:21:55+08:00
+date: 2025-06-01T12:34:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745990652119-f13cced69b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745990652119-f13cced69b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748188574113-df1ff7876529?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748188574113-df1ff7876529?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)

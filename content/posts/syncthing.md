@@ -1,9 +1,9 @@
 ---
 title: syncthing
-date: 2024-06-06T12:17:49+08:00
+date: 2025-06-01T12:35:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1636564499112-6113e73c504a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1636564499112-6113e73c504a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc2NDc0MDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
 ---
 
 # [syncthing/syncthing](https://github.com/syncthing/syncthing)
@@ -92,13 +92,11 @@ build process.
 
 ## Signed Releases
 
-As of v0.10.15 and onwards, release binaries are GPG signed with the key
-D26E6ED000654A3E, available from https://syncthing.net/security/ and
-most key servers.
-
-There is also a built-in automatic upgrade mechanism (disabled in some
-distribution channels) which uses a compiled in ECDSA signature. macOS
-binaries are also properly code signed.
+Release binaries are GPG signed with the key available from
+https://syncthing.net/security/. There is also a built-in automatic
+upgrade mechanism (disabled in some distribution channels) which uses a
+compiled in ECDSA signature. macOS and Windows binaries are also
+code-signed.
 
 ## Documentation
 

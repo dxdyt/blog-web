@@ -1,25 +1,22 @@
 ---
 title: onlook
-date: 2025-02-13T12:20:36+08:00
+date: 2025-06-01T12:34:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736754076513-e126561c3f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736754076513-e126561c3f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk0MjAzNTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
 ---
 
 # [onlook-dev/onlook](https://github.com/onlook-dev/onlook)
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 
-<a id="readme-top"></a>
-
-![image](https://github.com/user-attachments/assets/7b787ac7-96cd-44fd-90da-46996e1e1bf5)
-
 <div align="center">
+<img width="800" alt="header image" src="assets/web-preview.png">
 <h3 align="center">Onlook</h3>
   <p align="center">
     Cursor for Designers
     <br />
-    <a href="https://github.com/onlook-dev/onlook/wiki"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.onlook.com"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://youtu.be/RSX_3EaO5eU?feature=shared">View Demo</a>
@@ -48,119 +45,153 @@ featuredImagePreview: https://images.unsplash.com/photo-1736754076513-e126561c3f
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#license">License</a></li>
-  </ol>
-</details>
 
-# The open-source Cursor for Designers
+# The Cursor for Designers – an Open-Source, Visual-First Code Editor
 
-Seamlessly integrate with any website or web app running on React + TailwindCSS, and make live edits directly in the browser DOM. Customize your design, control your codebase, and push changes your changes without compromise.
+Craft websites, prototypes, and designs with AI in Next.js + TailwindCSS. Make
+edits directly in the browser DOM with a visual editor. Design in realtime with code. An open-source alternative to Bolt.new, Lovable, V0, Replit Agent, Figma Make, Webflow, etc.
 
+### 🚧 🚧 🚧 Onlook for Web is still under development 🚧 🚧 🚧
+We're actively looking for contributors to help make Onlook for Web an incredible prompt-to-build experience. Check the [open issues](https://github.com/onlook-dev/onlook/issues) for a full list of proposed features (and known issues), and join our [Discord](https://discord.gg/hERDfFZCsH) to collaborate with hundreds of other builders. 
 
+## What you can do with Onlook:
 
-https://github.com/user-attachments/assets/c8782d1e-fedc-46f3-8735-c3a762d4db16
-
-
+- [x] Create Next.js app in seconds
+    - [x] Start from text or image
+    - [ ] Use prebuilt templates
+    - [ ] Import from Figma
+    - [ ] Start from GitHub repo
+- [x] Visually edit your app
+    - [x] Use Figma-like UI
+    - [x] Preview your app in real-time
+    - [x] Manage brand assets and tokens
+    - [ ] Browse layers – *Previously in [Onlook Desktop](https://github.com/onlook-dev/desktop)*
+    - [ ] Detect and use Components – *Previously in [Onlook Desktop](https://github.com/onlook-dev/desktop)*
+    - [ ] Create and navigate to Pages – *Previously in [Onlook Desktop](https://github.com/onlook-dev/desktop)*
+    - [ ] Manage project Images – *Previously in [Onlook Desktop](https://github.com/onlook-dev/desktop)*
+- [x] Development Tools
+    - [x] Real-time code editor
+    - [x] Save and restore from checkpoints
+    - [x] Run commands via CLI
+    - [x] Connect with app marketplace
+    - [ ] Edit code locally – *Previously in [Onlook Desktop](https://github.com/onlook-dev/desktop)*
+- [ ] Deploy your app in seconds
+    - [ ] Generate sharable links
+    - [ ] Link your custom domain
+- [ ] Collaborate with your team
+    - [ ] Real-time editing
+    - [ ] Leave comments
 
 ![Onlook-GitHub-Example](https://github.com/user-attachments/assets/642de37a-72cc-4056-8eb7-8eb42714cdc4)
 
+### Onlook for Desktop (aka Onlook Alpha)
 
-### Built With
+We're in early preview for Onlook Web. If you're looking for the downloadable desktop electron app, it's moved to [Onlook Desktop](https://github.com/onlook-dev/desktop).
 
--   [![React][React.js]][React-url]
--   [![Electron][Electron.js]][Electron-url]
--   [![Tailwind][TailwindCSS]][Tailwind-url]
--   [![Vite][Vite.js]][Vite-url]
-
-## Stay up-to-date
-
-Onlook officially launched our first version of Onlook on July 08, 2024 and we've shipped a ton since then. Watch releases of this repository to be notified of future updates, and you can follow along with us on [LinkedIn](https://www.linkedin.com/company/onlook-dev) or [Substack](https://onlook.substack.com/) where we write a weekly newsletter.
-
-<!-- ![Starproject](https://github.com/user-attachments/assets/07742b21-dd98-4be3-b6a6-13d8132af398) -->
+Why are we moving to the web? Read about our decision: 
+[Migrating from Electron to Web](https://docs.onlook.com/docs/developer/electron-to-web-migration)
 
 ## Getting Started
 
-![image](https://github.com/user-attachments/assets/18b6ad5a-1d5a-4396-af8c-8b85936acf39)
-
-### Installation
-
- 1. Visit [onlook.com](https://onlook.com/) to download the app.
- 2. Run locally following [this guide](https://github.com/onlook-dev/onlook/wiki/Building-from-source)
+Available soon with a [hosted app](https://onlook.com) or
+[run locally](https://docs.onlook.com/docs/developer/running-locally).
 
 ### Usage
 
-Onlook will run on any React project, bring your own React project or create one using Onlook
+Onlook will run on any Next.js + TailwindCSS project, import your project
+through into Onlook or start from scratch within the editor.
 
-<img width="676" alt="Screenshot 2024-11-27 at 9 36 47 AM" src="https://github.com/user-attachments/assets/ec5c9bb2-7d0a-4754-962e-5d0c9fe0d706">
-
-Use the chat to create or edit a project you're working on. At any time, you can always right-click an element to open up the exact location of the element in code. Just be sure to choose your preferred IDE in the upper-right Corner of the screen.
+Use the AI chat to create or edit a project you're working on. At any time, you can
+always right-click an element to open up the exact location of the element in
+code.
 
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/4ad9f411-b172-4430-81ef-650f4f314666" />
 
-<img width="403" alt="image" src="https://github.com/user-attachments/assets/44339458-05a7-46c3-b4f8-b7e125260216" />
+<br>
+
+Draw-in new divs and re-arrange them within their parent containers by dragging-and-dropping.
+
+<img width="600" alt="image" src="assets/insert-div.png">
+
+<br>
+
+Preview the code side-by-side with your site design.
+
+<img width="600" alt="image" src="assets/code-connect.png">
+
+<br>
+
+Use Onlook's editor toolbar to adjust Tailwind styles, directly manipulate objects, and experiment with layouts.
+
+<img width="600" alt="image" src="assets/text-styling.png" />
 
 
-## Roadmap
+## Documentation
 
-![image](https://github.com/user-attachments/assets/f64b51df-03be-44d1-ae35-82e6dc960d06)
+For full documentation, visit [docs.onlook.com](https://docs.onlook.com)
 
-See how we're tracking towards major [milestones](<[url](https://github.com/onlook-dev/onlook/milestones)>), and read the [wiki](https://github.com/onlook-dev/onlook/wiki/Roadmap) for details on each version of Onlook. Here's a rough overview of some of the major features we're looking at:
+To see how to Contribute, visit
+[Contributing to Onlook](https://docs.onlook.com/docs/developer/contributing) in our docs.
 
--   [x] Browser
--   [x] Editor
--   [x] Write-to-code
--   [X] AI chat
--   [ ] Variables
--   [ ] Components
--   [ ] Hosting
+## How it works
 
-Also check the [open issues](https://github.com/onlook-dev/onlook/issues) for a full list of proposed features (and known issues).
+<img width="676" alt="architecture" src="assets/architecture.png">
+
+1. When you create an app, we load the code into a web container
+2. The container runs and serves the code
+3. Our editor receives the preview link and displays it in an iFrame
+4. Our editor reads and indexes the code from the container
+5. We instrument the code in order to map elements to their place in code
+6. When the element is edited, we edit the element in our iFrame, then in code
+7. Our AI chat also has code access and tools to understand and edit the code
+
+This architecture can theoretically scale to any language or framework that
+displays DOM elements declaratively (e.g. jsx/tsx/html). We are focused on making it work well with Next.js and TailwindCSS for now.
+
+For a full walkthrough, check out our
+[Architecture Docs](https://docs.onlook.com/docs/developer/architecture).
+
+### Built With
+
+- [Next.js](https://nextjs.org/)
+- [Supabase](https://supabase.com/)
+- [Drizzle](https://orm.drizzle.team/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Bun](https://bun.sh/)
+- [tRPC](https://trpc.io/)
 
 ## Contributing
 
 ![image](https://github.com/user-attachments/assets/ecc94303-df23-46ae-87dc-66b040396e0b)
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also [open issues](https://github.com/onlook-dev/onlook/issues).
+If you have a suggestion that would make this better, please fork the repo and
+create a pull request. You can also
+[open issues](https://github.com/onlook-dev/onlook/issues).
 
 See the [CONTRIBUTING.md](CONTRIBUTING.md) for instructions and code of conduct.
 
 #### Contributors
 
 <a href="https://github.com/onlook-dev/onlook/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=onlook-dev/onlook&t=1" />
+  <img src="https://contrib.rocks/image?repo=onlook-dev/onlook" />
 </a>
 
 ## Contact
 
 ![image](https://github.com/user-attachments/assets/60684b68-1925-4550-8efd-51a1509fc953)
 
--   Team: [Discord](https://discord.gg/hERDfFZCsH) - [Twitter](https://twitter.com/onlookdev) - [LinkedIn](https://www.linkedin.com/company/onlook-dev/) - [Email](mailto:contact@onlook.com)
--   Project: [https://github.com/onlook-dev/onlook](https://github.com/onlook-dev/onlook)
--   Website: [https://onlook.com](https://onlook.com)
-
-## Acknowledgments
-
-Projects we're inspired by:
-
--   [Visbug](https://github.com/GoogleChromeLabs/ProjectVisBug)
--   [Responsively](https://github.com/responsively-org/responsively-app)
--   [Supabase](https://github.com/supabase/supabase)
--   [ShadCN](https://github.com/shadcn-ui/ui)
--   [hymhub/css-to-tailwind](https://github.com/hymhub/css-to-tailwind)
+- Team: [Discord](https://discord.gg/hERDfFZCsH) -
+  [Twitter](https://twitter.com/onlookdev) -
+  [LinkedIn](https://www.linkedin.com/company/onlook-dev/) -
+  [Email](mailto:contact@onlook.com)
+- Project:
+  [https://github.com/onlook-dev/onlook](https://github.com/onlook-dev/onlook)
+- Website: [https://onlook.com](https://onlook.com)
 
 ## License
 
-Distributed under the Apache 2.0 License. See [LICENSE.md](LICENSE.md) for more information.
+Distributed under the Apache 2.0 License. See [LICENSE.md](LICENSE.md) for more
+information.
 
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
@@ -189,3 +220,5 @@ Distributed under the Apache 2.0 License. See [LICENSE.md](LICENSE.md) for more 
 [Vite.js]: https://img.shields.io/badge/vite-%23646CFF.svg?logo=vite&logoColor=white
 [Vite-url]: https://vitejs.dev/
 [product-screenshot]: assets/brand.png
+[weave-shield]: https://img.shields.io/endpoint?url=https%3A%2F%2Fapp.workweave.ai%2Fapi%2Frepository%2Fbadge%2Forg_pWcXBHJo3Li2Te2Y4WkCPA33%2F820087727&cacheSeconds=3600&labelColor=#131313
+[weave-url]: https://app.workweave.ai/reports/repository/org_pWcXBHJo3Li2Te2Y4WkCPA33/820087727
