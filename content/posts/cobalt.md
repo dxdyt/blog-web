@@ -1,9 +1,9 @@
 ---
 title: cobalt
-date: 2024-12-31T12:19:51+08:00
+date: 2025-06-02T12:29:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732364756082-90a8466c50dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732364756082-90a8466c50dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747643422462-831e6262f327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg4Mzg1NTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747643422462-831e6262f327?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg4Mzg1NTZ8&ixlib=rb-4.1.0
 ---
 
 # [imputnet/cobalt](https://github.com/imputnet/cobalt)
@@ -24,8 +24,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1732364756082-90a8466c50
         <a href="https://discord.gg/pQPt8HBUPu">
             💬 community discord server
         </a>
+        <br/>
         <a href="https://x.com/justusecobalt">
             🐦 twitter
+        </a>
+        <a href="https://bsky.app/profile/cobalt.tools">
+            🦋 bluesky
         </a>
     </p>
     <br/>
@@ -42,13 +46,10 @@ this monorepo includes source code for api, frontend, and related packages:
 - [packages tree](/packages/)
 
 it also includes documentation in the [docs tree](/docs/):
-- [cobalt api documentation](/docs/api.md)
 - [how to run a cobalt instance](/docs/run-an-instance.md)
 - [how to protect a cobalt instance](/docs/protect-an-instance.md)
-- [how to configure a cobalt instance for youtube](/docs/configure-for-youtube.md)
-
-### thank you
-cobalt is sponsored by [royalehosting.net](https://royalehosting.net/?partner=cobalt) and the main processing servers are hosted on their network. we really appreciate their kindness and support!
+- [cobalt api instance environment variables](/docs/api-env-variables.md)
+- [cobalt api documentation](/docs/api.md)
 
 ### ethics
 cobalt is a tool that makes downloading public content easier. it takes **zero liability**.
@@ -60,7 +61,10 @@ it can only download free & publicly accessible content.
 same content can be downloaded via dev tools of any modern web browser.
 
 ### contributing
-thank you for considering making a contribution to cobalt! please check the [contributing guidelines here](/CONTRIBUTING.md) before making a pull request.
+if you're considering contributing to cobalt, first of all, thank you! check the [contribution guidelines here](/CONTRIBUTING.md) before getting started, they'll help you do your best right away.
+
+### thank you
+cobalt is sponsored by [royalehosting.net](https://royalehosting.net/?partner=cobalt). a part of our infrastructure is hosted on their network. we really appreciate their kindness and support!
 
 ### licenses
 for relevant licensing information, see the [api](api/README.md) and [web](web/README.md) READMEs.
