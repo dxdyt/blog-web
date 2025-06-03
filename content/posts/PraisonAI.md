@@ -1,9 +1,9 @@
 ---
 title: PraisonAI
-date: 2024-12-31T12:20:23+08:00
+date: 2025-06-03T12:26:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733721868451-a3e51216c42e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733721868451-a3e51216c42e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU2MTg3NDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
 ---
 
 # [MervinPraison/PraisonAI](https://github.com/MervinPraison/PraisonAI)
@@ -30,39 +30,41 @@ featuredImagePreview: https://images.unsplash.com/photo-1733721868451-a3e51216c4
 
 </div>
 
-PraisonAI is an AI Agents Framework with Self Reflection. PraisonAI application combines PraisonAI Agents, AutoGen, and CrewAI into a low-code solution for building and managing multi-agent LLM systems, focusing on simplicity, customisation, and efficient human–agent collaboration.
+PraisonAI is a production-ready Multi-AI Agents framework with self-reflection, designed to create AI Agents to automate and solve problems ranging from simple tasks to complex challenges. By integrating PraisonAI Agents, AG2 (Formerly AutoGen), and CrewAI into a low-code solution, it streamlines the building and management of multi-agent LLM systems, emphasising simplicity, customisation, and effective human-agent collaboration.
+
+<div align="center">
+  <a href="https://docs.praison.ai">
+    <p align="center">
+      <img src="https://img.shields.io/badge/📚_Documentation-Visit_docs.praison.ai-blue?style=for-the-badge&logo=bookstack&logoColor=white" alt="Documentation" />
+    </p>
+  </a>
+</div>
 
 ## Key Features
 
 - 🤖 Automated AI Agents Creation
-- 🔄 Use CrewAI or AutoGen Framework
+- 🔄 Self Reflection AI Agents
+- 🧠 Reasoning AI Agents
+- 👁️ Multi Modal AI Agents
+- 🤝 Multi Agent Collaboration
+- 🎭 AI Agent Workflow
+- 📚 Add Custom Knowledge
+- 🧠 Agents with Short and Long Term Memory
+- 📄 Chat with PDF Agents
+- 💻 Code Interpreter Agents
+- 📚 RAG Agents
+- 🤔 Async & Parallel Processing
+- 🔄 Auto Agents
+- 🔢 Math Agents
+- 🎯 Structured Output Agents
+- 🔗 LangChain Integrated Agents
+- 📞 Callback Agents
+- 🤏 Mini AI Agents
+- 🛠️ 100+ Custom Tools
+- 📄 YAML Configuration
 - 💯 100+ LLM Support
-- 💻 Chat with ENTIRE Codebase
-- 🖥️ Interactive UIs
-- 📄 YAML-based Configuration
-- 🛠️ Custom Tool Integration
-- 🔍 Internet Search Capability (using Crawl4AI and Tavily)
-- 👁️ Vision Language Model (VLM) Support
-- 🎙️ Real-time Voice Interaction
 
-## Using No Code
-
-### Auto Mode:
-```bash
-pip install praisonai
-export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
-praisonai --auto create a movie script about Robots in Mars
-```
-
-### Initialise Mode:
-```bash
-pip install praisonai
-export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
-praisonai --init create a movie script about Robots in Mars
-praisonai
-```
-
-## Using Coding
+## Using Python Code
 
 Light weight package dedicated for coding:
 ```bash
@@ -73,64 +75,409 @@ pip install praisonaiagents
 export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
 ```
 
+### 1. Single Agent
+
 Create app.py file and add the code below:
 ```python
-from praisonaiagents import Agent, Task, PraisonAIAgents
-
-# 1. Create agents
-researcher = Agent(
-    name="Researcher",
-    role="Senior Research Analyst",
-    goal="Uncover cutting-edge developments in AI and data science",
-    backstory="""You are an expert at a technology research group, 
-    skilled in identifying trends and analyzing complex data.""",
-    verbose=True,
-    llm="gpt-4o",
-    markdown=True
-)
-writer = Agent(
-    name="Writer",
-    role="Tech Content Strategist",
-    goal="Craft compelling content on tech advancements",
-    backstory="""You are a content strategist known for 
-    making complex tech topics interesting and easy to understand.""",
-    llm="gpt-4o",
-    markdown=True
-)
-
-# 2. Define Tasks
-task1 = Task(
-    name="research_task",
-    description="""Analyze 2024's AI advancements. 
-    Find major trends, new technologies, and their effects.""",
-    expected_output="""A detailed report on 2024 AI advancements""",
-    agent=researcher
-)
-
-task2 = Task(
-    name="writing_task",
-    description="""Create a blog post about major AI advancements using the insights you have.
-    Make it interesting, clear, and suited for tech enthusiasts. 
-    It should be at least 4 paragraphs long.""",
-    expected_output="A blog post of at least 4 paragraphs",
-    agent=writer,
-)
-
-agents = PraisonAIAgents(
-    agents=[researcher, writer],
-    tasks=[task1, task2],
-    verbose=False,
-    process="hierarchical",
-    manager_llm="gpt-4o"
-)
-
-result = agents.start()
+from praisonaiagents import Agent
+agent = Agent(instructions="Your are a helpful AI assistant")
+agent.start("Write a movie script about a robot in Mars")
 ```
 
 Run:
 ```bash
 python app.py
 ```
+
+### 2. Multi Agents
+
+Create app.py file and add the code below:
+```python
+from praisonaiagents import Agent, PraisonAIAgents
+
+research_agent = Agent(instructions="Research about AI")
+summarise_agent = Agent(instructions="Summarise research agent's findings")
+agents = PraisonAIAgents(agents=[research_agent, summarise_agent])
+agents.start()
+```
+
+Run:
+```bash
+python app.py
+```
+
+## Using No Code
+
+### Auto Mode:
+```bash
+pip install praisonai
+export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
+praisonai --auto create a movie script about Robots in Mars
+```
+
+## Using JavaScript Code
+
+```bash
+npm install praisonai
+export OPENAI_API_KEY=xxxxxxxxxxxxxxxxxxxxxx
+```
+
+```javascript
+const { Agent } = require('praisonai');
+const agent = new Agent({ instructions: 'You are a helpful AI assistant' });
+agent.start('Write a movie script about a robot in Mars');
+```
+
+![PraisonAI CLI Demo](docs/demo/praisonai-cli-demo.gif)
+
+## AI Agents Flow
+
+```mermaid
+graph LR
+    %% Define the main flow
+    Start([▶ Start]) --> Agent1
+    Agent1 --> Process[⚙ Process]
+    Process --> Agent2
+    Agent2 --> Output([✓ Output])
+    Process -.-> Agent1
+    
+    %% Define subgraphs for agents and their tasks
+    subgraph Agent1[ ]
+        Task1[📋 Task]
+        AgentIcon1[🤖 AI Agent]
+        Tools1[🔧 Tools]
+        
+        Task1 --- AgentIcon1
+        AgentIcon1 --- Tools1
+    end
+    
+    subgraph Agent2[ ]
+        Task2[📋 Task]
+        AgentIcon2[🤖 AI Agent]
+        Tools2[🔧 Tools]
+        
+        Task2 --- AgentIcon2
+        AgentIcon2 --- Tools2
+    end
+
+    classDef input fill:#8B0000,stroke:#7C90A0,color:#fff
+    classDef process fill:#189AB4,stroke:#7C90A0,color:#fff
+    classDef tools fill:#2E8B57,stroke:#7C90A0,color:#fff
+    classDef transparent fill:none,stroke:none
+
+    class Start,Output,Task1,Task2 input
+    class Process,AgentIcon1,AgentIcon2 process
+    class Tools1,Tools2 tools
+    class Agent1,Agent2 transparent
+```
+
+## AI Agents with Tools
+
+Create AI agents that can use tools to interact with external systems and perform actions.
+
+```mermaid
+flowchart TB
+    subgraph Tools
+        direction TB
+        T3[Internet Search]
+        T1[Code Execution]
+        T2[Formatting]
+    end
+
+    Input[Input] ---> Agents
+    subgraph Agents
+        direction LR
+        A1[Agent 1]
+        A2[Agent 2]
+        A3[Agent 3]
+    end
+    Agents ---> Output[Output]
+
+    T3 --> A1
+    T1 --> A2
+    T2 --> A3
+
+    style Tools fill:#189AB4,color:#fff
+    style Agents fill:#8B0000,color:#fff
+    style Input fill:#8B0000,color:#fff
+    style Output fill:#8B0000,color:#fff
+```
+
+## AI Agents with Memory
+
+Create AI agents with memory capabilities for maintaining context and information across tasks.
+
+```mermaid
+flowchart TB
+    subgraph Memory
+        direction TB
+        STM[Short Term]
+        LTM[Long Term]
+    end
+
+    subgraph Store
+        direction TB
+        DB[(Vector DB)]
+    end
+
+    Input[Input] ---> Agents
+    subgraph Agents
+        direction LR
+        A1[Agent 1]
+        A2[Agent 2]
+        A3[Agent 3]
+    end
+    Agents ---> Output[Output]
+
+    Memory <--> Store
+    Store <--> A1
+    Store <--> A2
+    Store <--> A3
+
+    style Memory fill:#189AB4,color:#fff
+    style Store fill:#2E8B57,color:#fff
+    style Agents fill:#8B0000,color:#fff
+    style Input fill:#8B0000,color:#fff
+    style Output fill:#8B0000,color:#fff
+```
+
+## AI Agents with Different Processes
+
+### Sequential Process
+
+The simplest form of task execution where tasks are performed one after another.
+
+```mermaid
+graph LR
+    Input[Input] --> A1
+    subgraph Agents
+        direction LR
+        A1[Agent 1] --> A2[Agent 2] --> A3[Agent 3]
+    end
+    A3 --> Output[Output]
+
+    classDef input fill:#8B0000,stroke:#7C90A0,color:#fff
+    classDef process fill:#189AB4,stroke:#7C90A0,color:#fff
+    classDef transparent fill:none,stroke:none
+
+    class Input,Output input
+    class A1,A2,A3 process
+    class Agents transparent
+```
+
+### Hierarchical Process
+
+Uses a manager agent to coordinate task execution and agent assignments.
+
+```mermaid
+graph TB
+    Input[Input] --> Manager
+    
+    subgraph Agents
+        Manager[Manager Agent]
+        
+        subgraph Workers
+            direction LR
+            W1[Worker 1]
+            W2[Worker 2]
+            W3[Worker 3]
+        end
+        
+        Manager --> W1
+        Manager --> W2
+        Manager --> W3
+    end
+    
+    W1 --> Manager
+    W2 --> Manager
+    W3 --> Manager
+    Manager --> Output[Output]
+
+    classDef input fill:#8B0000,stroke:#7C90A0,color:#fff
+    classDef process fill:#189AB4,stroke:#7C90A0,color:#fff
+    classDef transparent fill:none,stroke:none
+
+    class Input,Output input
+    class Manager,W1,W2,W3 process
+    class Agents,Workers transparent
+```
+
+### Workflow Process
+
+Advanced process type supporting complex task relationships and conditional execution.
+
+```mermaid
+graph LR
+    Input[Input] --> Start
+    
+    subgraph Workflow
+        direction LR
+        Start[Start] --> C1{Condition}
+        C1 --> |Yes| A1[Agent 1]
+        C1 --> |No| A2[Agent 2]
+        A1 --> Join
+        A2 --> Join
+        Join --> A3[Agent 3]
+    end
+    
+    A3 --> Output[Output]
+
+    classDef input fill:#8B0000,stroke:#7C90A0,color:#fff
+    classDef process fill:#189AB4,stroke:#7C90A0,color:#fff
+    classDef decision fill:#2E8B57,stroke:#7C90A0,color:#fff
+    classDef transparent fill:none,stroke:none
+
+    class Input,Output input
+    class Start,A1,A2,A3,Join process
+    class C1 decision
+    class Workflow transparent
+```
+
+#### Agentic Routing Workflow
+
+Create AI agents that can dynamically route tasks to specialized LLM instances.
+
+```mermaid
+flowchart LR
+    In[In] --> Router[LLM Call Router]
+    Router --> LLM1[LLM Call 1]
+    Router --> LLM2[LLM Call 2]
+    Router --> LLM3[LLM Call 3]
+    LLM1 --> Out[Out]
+    LLM2 --> Out
+    LLM3 --> Out
+    
+    style In fill:#8B0000,color:#fff
+    style Router fill:#2E8B57,color:#fff
+    style LLM1 fill:#2E8B57,color:#fff
+    style LLM2 fill:#2E8B57,color:#fff
+    style LLM3 fill:#2E8B57,color:#fff
+    style Out fill:#8B0000,color:#fff
+```
+
+#### Agentic Orchestrator Worker
+
+Create AI agents that orchestrate and distribute tasks among specialized workers.
+
+```mermaid
+flowchart LR
+    In[In] --> Router[LLM Call Router]
+    Router --> LLM1[LLM Call 1]
+    Router --> LLM2[LLM Call 2]
+    Router --> LLM3[LLM Call 3]
+    LLM1 --> Synthesizer[Synthesizer]
+    LLM2 --> Synthesizer
+    LLM3 --> Synthesizer
+    Synthesizer --> Out[Out]
+    
+    style In fill:#8B0000,color:#fff
+    style Router fill:#2E8B57,color:#fff
+    style LLM1 fill:#2E8B57,color:#fff
+    style LLM2 fill:#2E8B57,color:#fff
+    style LLM3 fill:#2E8B57,color:#fff
+    style Synthesizer fill:#2E8B57,color:#fff
+    style Out fill:#8B0000,color:#fff
+```
+
+#### Agentic Autonomous Workflow
+
+Create AI agents that can autonomously monitor, act, and adapt based on environment feedback.
+
+```mermaid
+flowchart LR
+    Human[Human] <--> LLM[LLM Call]
+    LLM -->|ACTION| Environment[Environment]
+    Environment -->|FEEDBACK| LLM
+    LLM --> Stop[Stop]
+    
+    style Human fill:#8B0000,color:#fff
+    style LLM fill:#2E8B57,color:#fff
+    style Environment fill:#8B0000,color:#fff
+    style Stop fill:#333,color:#fff
+```
+
+#### Agentic Parallelization
+
+Create AI agents that can execute tasks in parallel for improved performance.
+
+```mermaid
+flowchart LR
+    In[In] --> LLM2[LLM Call 2]
+    In --> LLM1[LLM Call 1]
+    In --> LLM3[LLM Call 3]
+    LLM1 --> Aggregator[Aggregator]
+    LLM2 --> Aggregator
+    LLM3 --> Aggregator
+    Aggregator --> Out[Out]
+    
+    style In fill:#8B0000,color:#fff
+    style LLM1 fill:#2E8B57,color:#fff
+    style LLM2 fill:#2E8B57,color:#fff
+    style LLM3 fill:#2E8B57,color:#fff
+    style Aggregator fill:#fff,color:#000
+    style Out fill:#8B0000,color:#fff
+```
+
+#### Agentic Prompt Chaining
+
+Create AI agents with sequential prompt chaining for complex workflows.
+
+```mermaid
+flowchart LR
+    In[In] --> LLM1[LLM Call 1] --> Gate{Gate}
+    Gate -->|Pass| LLM2[LLM Call 2] -->|Output 2| LLM3[LLM Call 3] --> Out[Out]
+    Gate -->|Fail| Exit[Exit]
+    
+    style In fill:#8B0000,color:#fff
+    style LLM1 fill:#2E8B57,color:#fff
+    style LLM2 fill:#2E8B57,color:#fff
+    style LLM3 fill:#2E8B57,color:#fff
+    style Out fill:#8B0000,color:#fff
+    style Exit fill:#8B0000,color:#fff
+```
+
+#### Agentic Evaluator Optimizer
+
+Create AI agents that can generate and optimize solutions through iterative feedback.
+
+```mermaid
+flowchart LR
+    In[In] --> Generator[LLM Call Generator] 
+    Generator -->|SOLUTION| Evaluator[LLM Call Evaluator] -->|ACCEPTED| Out[Out]
+    Evaluator -->|REJECTED + FEEDBACK| Generator
+    
+    style In fill:#8B0000,color:#fff
+    style Generator fill:#2E8B57,color:#fff
+    style Evaluator fill:#2E8B57,color:#fff
+    style Out fill:#8B0000,color:#fff
+```
+
+#### Repetitive Agents
+
+Create AI agents that can efficiently handle repetitive tasks through automated loops.
+
+```mermaid
+flowchart LR
+    In[Input] --> LoopAgent[("Looping Agent")]
+    LoopAgent --> Task[Task]
+    Task --> |Next iteration| LoopAgent
+    Task --> |Done| Out[Output]
+    
+    style In fill:#8B0000,color:#fff
+    style LoopAgent fill:#2E8B57,color:#fff,shape:circle
+    style Task fill:#2E8B57,color:#fff
+    style Out fill:#8B0000,color:#fff
+```
+
+## Adding Models
+
+<div align="center">
+  <a href="https://docs.praison.ai/models">
+    <p align="center">
+      <img src="https://img.shields.io/badge/%F0%9F%93%9A_Models-Visit_docs.praison.ai-blue?style=for-the-badge&logo=bookstack&logoColor=white" alt="Models" />
+    </p>
+  </a>
+</div>
 
 ## Ollama Integration
 ```bash
@@ -144,267 +491,16 @@ export OPENAI_API_KEY=xxxxxxxxxxx
 export OPENAI_BASE_URL=https://api.groq.com/openai/v1
 ```
 
-## Logging
-```bash
-export LOGLEVEL=info
-```
-
-Advanced logging:
-```bash
-export LOGLEVEL=debug
-```
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="docs/images/architecture-dark.png" />
-    <source media="(prefers-color-scheme: light)" srcset="docs/images/architecture-light.png" />
-    <img alt="PraisonAI Architecture" src="docs/images/architecture-light.png" />
-  </picture>
-</div>
-
-## Different User Interfaces:
-
-| Interface | Description | URL |
-|---|---|---|
-| **UI** | Multi Agents such as CrewAI or AutoGen | [https://docs.praison.ai/ui/ui](https://docs.praison.ai/ui/ui) |
-| **Chat** | Chat with 100+ LLMs, single AI Agent | [https://docs.praison.ai/ui/chat](https://docs.praison.ai/ui/chat) |
-| **Code** | Chat with entire Codebase, single AI Agent | [https://docs.praison.ai/ui/code](https://docs.praison.ai/ui/code) |
-| **Realtime** | Real-time voice interaction with AI | [https://docs.praison.ai/ui/realtime](https://docs.praison.ai/ui/realtime) |
-
-| Other Features | Description | Docs |
-|---|---|---|
-| **Train** | Fine-tune LLMs using your custom data | [https://docs.praison.ai/train](https://docs.praison.ai/train) |
-
-
-## Google Colab Multi Agents
-
-|               | Cookbook        | Open in Colab                                                                                                                                                                                                                                  |
-| ------------- | --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Basic         | PraisonAI       | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a>       |
-| Include Tools | PraisonAI Tools | <a target="_blank" href="https://colab.research.google.com/github/MervinPraison/PraisonAI/blob/main/cookbooks/praisonai-tools-googlecolab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" /></a> |
-
-## Installation Options
-
-### Using pip
-```bash
-pip install praisonai
-```
-
-### Framework-specific Installation
-```bash
-# Install with CrewAI support
-pip install "praisonai[crewai]"
-
-# Install with AutoGen support
-pip install "praisonai[autogen]"
-
-# Install with both frameworks
-pip install "praisonai[crewai,autogen]"
-```
-
-### UI and Additional Features
-```bash
-# Install UI support
-pip install "praisonai[ui]"
-
-# Install Chat interface
-pip install "praisonai[chat]"
-
-# Install Code interface
-pip install "praisonai[code]"
-
-# Install Realtime voice interaction
-pip install "praisonai[realtime]"
-
-# Install Call feature
-pip install "praisonai[call]"
-```
-
-## Quick Start
-
-```bash
-# Set your OpenAI API key
-export OPENAI_API_KEY="Enter your API key"
-
-# Initialize with CrewAI (default)
-praisonai --init "create a movie script about dog in moon"
-
-# Or initialize with AutoGen
-praisonai --framework autogen --init "create a movie script about dog in moon"
-
-# Run the agents
-praisonai
-```
-
-## Full Automatic Mode
-
-```bash
-# With CrewAI (default)
-praisonai --auto "create a movie script about Dog in Moon"
-
-# With AutoGen
-praisonai --framework autogen --auto "create a movie script about Dog in Moon"
-```
-
-## Framework-specific Features
-
-### CrewAI
-When installing with `pip install "praisonai[crewai]"`, you get:
-- CrewAI framework support
-- PraisonAI tools integration
-- Task delegation capabilities
-- Sequential and parallel task execution
-
-### AutoGen
-When installing with `pip install "praisonai[autogen]"`, you get:
-- AutoGen framework support
-- PraisonAI tools integration
-- Multi-agent conversation capabilities
-- Code execution environment
-
-
-
-## TL;DR Multi Agents
-
-```bash
-pip install praisonai
-export OPENAI_API_KEY="Enter your API key"
-praisonai --init create a movie script about dog in moon
-praisonai
-```
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Initialise](#initialise)
-- [Run](#run)
-- [Full Automatic Mode](#full-automatic-mode)
-- [User Interface](#user-interface)
-- [Praison AI Chat](#praison-ai-chat)
-- [Create Custom Tools](#create-custom-tools)
-- [Agents Playbook](#agents-playbook)
-- [Include praisonai package in your project](#include-praisonai-package-in-your-project)
-- [Commands to Install Dev Dependencies](#commands-to-install-dependencies)
-- [Other Models](#other-models)
-- [Contributing](#contributing)
-- [Star History](#star-history)
-
-## Installation Multi Agents
-
-```bash
-pip install praisonai
-```
-
-## Initialise
-
-```bash
-export OPENAI_API_KEY="Enter your API key"
-```
-
-Generate your OPENAI API KEY from here: https://platform.openai.com/api-keys
-
-Note: You can use other providers such as Ollama, Mistral ... etc. Details are provided at the bottom.
-
-```bash
-praisonai --init create a movie script about dog in moon
-```
-
-This will automatically create agents.yaml file in the current directory.
-
-### To initialise with a specific agent framework (Optional):
-
-```bash
-praisonai --framework autogen --init create movie script about cat in mars
-```
-
-## Run
-
-```bash
-praisonai
-```
-
-or
-
-```bash
-python -m praisonai
-```
-
-### Specify the agent framework (Optional):
-
-```bash
-praisonai --framework autogen
-```
-
-### Full Automatic Mode
-
-```bash
-praisonai --auto create a movie script about Dog in Moon
-```
-
-## User Interface
-
-## PraisonAI User Interfaces:
-
-| Interface | Description                                | URL                                                                   |
-| --------- | ------------------------------------------ | --------------------------------------------------------------------- |
-| **UI**    | Multi Agents such as CrewAI or AutoGen     | [https://docs.praisonai.com/ui/ui](https://docs.praison.ai/ui/ui)     |
-| **Chat**  | Chat with 100+ LLMs, single AI Agent       | [https://docs.praisonai.com/ui/chat](https://docs.praison.ai/ui/chat) |
-| **Code**  | Chat with entire Codebase, single AI Agent | [https://docs.praisonai.com/ui/code](https://docs.praison.ai/ui/code) |
-
-```bash
-pip install -U "praisonai[ui]"
-export OPENAI_API_KEY="Enter your API key"
-chainlit create-secret
-export CHAINLIT_AUTH_SECRET=xxxxxxxx
-praisonai ui
-```
-
-or
-
-```
-python -m praisonai ui
-```
-
-## Praison AI Chat
-
-- https://docs.praison.ai/chat/
-
-```bash
-pip install "praisonai[chat]"
-export OPENAI_API_KEY="Enter your API key"
-praisonai chat
-```
-
-### Internet Search
-
-Praison AI Chat and Praison AI Code now includes internet search capabilities using Crawl4AI and Tavily, allowing you to retrieve up-to-date information during your conversations.
-
-### Vision Language Model Support
-
-You can now upload images and ask questions based on them using Vision Language Models. This feature enables visual understanding and analysis within your chat sessions.
-
-## Praison AI Code
-
-```bash
-pip install "praisonai[code]"
-export OPENAI_API_KEY="Enter your API key"
-praisonai code
-```
-
-### Internet Search
-
-Praison AI Code also includes internet search functionality, enabling you to find relevant code snippets and programming information online.
-
-## Create Custom Tools
-
-- https://docs.praison.ai/tools/custom/
+## No Code Options
 
 ## Agents Playbook
 
 ### Simple Playbook Example
 
+Create `agents.yaml` file and add the code below:
+
 ```yaml
-framework: crewai
+framework: praisonai
 topic: Artificial Intelligence
 roles:
   screenwriter:
@@ -417,62 +513,25 @@ roles:
         expected_output: "Complete script ready for production."
 ```
 
+*To run the playbook:*
+```bash
+praisonai agents.yaml
+```
+
 ## Use 100+ Models
 
 - https://docs.praison.ai/models/
+<div align="center">
+  <a href="https://docs.praison.ai">
+    <p align="center">
+      <img src="https://img.shields.io/badge/📚_Documentation-Visit_docs.praison.ai-blue?style=for-the-badge&logo=bookstack&logoColor=white" alt="Documentation" />
+    </p>
+  </a>
+</div>
 
-## Include praisonai package in your project
+## Development:
 
-- https://docs.praison.ai/developers/wrapper
-- https://docs.praison.ai/developers/wrapper-tools/
-
-## Option 1: Using RAW YAML
-
-```python
-from praisonai import PraisonAI
-
-# Example agent_yaml content
-agent_yaml = """
-framework: "crewai"
-topic: "Space Exploration"
-
-roles:
-  astronomer:
-    role: "Space Researcher"
-    goal: "Discover new insights about {topic}"
-    backstory: "You are a curious and dedicated astronomer with a passion for unraveling the mysteries of the cosmos."
-    tasks:
-      investigate_exoplanets:
-        description: "Research and compile information about exoplanets discovered in the last decade."
-        expected_output: "A summarized report on exoplanet discoveries, including their size, potential habitability, and distance from Earth."
-"""
-
-# Create a PraisonAI instance with the agent_yaml content
-praisonai = PraisonAI(agent_yaml=agent_yaml)
-
-# Run PraisonAI
-result = praisonai.run()
-
-# Print the result
-print(result)
-```
-
-## Option 2: Using separate agents.yaml file
-
-Note: Please create agents.yaml file before hand.
-
-```python
-from praisonai import PraisonAI
-
-def basic(): # Basic Mode
-    praisonai = PraisonAI(agent_file="agents.yaml")
-    praisonai.run()
-
-if __name__ == "__main__":
-    basic()
-```
-
-## Commands to Install Dependencies:
+Below is used for development only.
 
 ### Using uv
 ```bash
@@ -497,18 +556,34 @@ uv pip install -r pyproject.toml --extra "crewai,autogen"
 - Submit a pull request via GitHub's web interface.
 - Await feedback from project maintainers.
 
+## Other Features
+
+- 🔄 Use CrewAI or AG2 (Formerly AutoGen) Framework
+- 💻 Chat with ENTIRE Codebase
+- 🎨 Interactive UIs
+- 📄 YAML-based Configuration
+- 🛠️ Custom Tool Integration
+- 🔍 Internet Search Capability (using Crawl4AI and Tavily)
+- 🖼️ Vision Language Model (VLM) Support
+- 🎙️ Real-time Voice Interaction
+
 ## Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=MervinPraison/PraisonAI&type=Date)](https://docs.praison.ai)
-
-## License
-
-Praison AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.
 
 ## Video Tutorials
 
 | Topic | Video |
 |-------|--------|
+| AI Agents with Self Reflection | [![Self Reflection](https://img.youtube.com/vi/vLXobEN2Vc8/0.jpg)](https://www.youtube.com/watch?v=vLXobEN2Vc8) |
+| Reasoning Data Generating Agent | [![Reasoning Data](https://img.youtube.com/vi/fUT332Y2zA8/0.jpg)](https://www.youtube.com/watch?v=fUT332Y2zA8) |
+| AI Agents with Reasoning | [![Reasoning](https://img.youtube.com/vi/KNDVWGN3TpM/0.jpg)](https://www.youtube.com/watch?v=KNDVWGN3TpM) |
+| Multimodal AI Agents | [![Multimodal](https://img.youtube.com/vi/hjAWmUT1qqY/0.jpg)](https://www.youtube.com/watch?v=hjAWmUT1qqY) |
+| AI Agents Workflow | [![Workflow](https://img.youtube.com/vi/yWTH44QPl2A/0.jpg)](https://www.youtube.com/watch?v=yWTH44QPl2A) |
+| Async AI Agents | [![Async](https://img.youtube.com/vi/VhVQfgo00LE/0.jpg)](https://www.youtube.com/watch?v=VhVQfgo00LE) |
+| Mini AI Agents | [![Mini](https://img.youtube.com/vi/OkvYp5aAGSg/0.jpg)](https://www.youtube.com/watch?v=OkvYp5aAGSg) |
+| AI Agents with Memory | [![Memory](https://img.youtube.com/vi/1hVfVxvPnnQ/0.jpg)](https://www.youtube.com/watch?v=1hVfVxvPnnQ) |
+| Repetitive Agents | [![Repetitive](https://img.youtube.com/vi/dAYGxsjDOPg/0.jpg)](https://www.youtube.com/watch?v=dAYGxsjDOPg) |
 | Introduction | [![Introduction](https://img.youtube.com/vi/Fn1lQjC0GO0/0.jpg)](https://www.youtube.com/watch?v=Fn1lQjC0GO0) |
 | Tools Overview | [![Tools Overview](https://img.youtube.com/vi/XaQRgRpV7jo/0.jpg)](https://www.youtube.com/watch?v=XaQRgRpV7jo) |
 | Custom Tools | [![Custom Tools](https://img.youtube.com/vi/JSU2Rndh06c/0.jpg)](https://www.youtube.com/watch?v=JSU2Rndh06c) |
@@ -521,7 +596,5 @@ Praison AI is an open-sourced software licensed under the **[MIT license](https:
 | Training | [![Training](https://img.youtube.com/vi/aLawE8kwCrI/0.jpg)](https://www.youtube.com/watch?v=aLawE8kwCrI) |
 | Realtime Voice Interface | [![Realtime](https://img.youtube.com/vi/frRHfevTCSw/0.jpg)](https://www.youtube.com/watch?v=frRHfevTCSw) |
 | Call Interface | [![Call](https://img.youtube.com/vi/m1cwrUG2iAk/0.jpg)](https://www.youtube.com/watch?v=m1cwrUG2iAk) |
+| Reasoning Extract Agents | [![Reasoning Extract](https://img.youtube.com/vi/2PPamsADjJA/0.jpg)](https://www.youtube.com/watch?v=2PPamsADjJA) |
 
-## License
-
-Praison AI is an open-sourced software licensed under the **[MIT license](https://opensource.org/licenses/MIT)**.

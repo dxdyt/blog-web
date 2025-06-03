@@ -1,9 +1,9 @@
 ---
 title: SurfSense
-date: 2025-05-09T12:23:16+08:00
+date: 2025-06-03T12:26:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744970018496-c003c2e66163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY3NjQ1Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
 ---
 
 # [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1744970018496-c003c2e661
 
 
 # SurfSense
-While tools like NotebookLM and Perplexity are impressive and highly effective for conducting research on any topic/query, SurfSense elevates this capability by integrating with your personal knowledge base. It is a highly customizable AI research agent, connected to external sources such as search engines (Tavily, LinkUp), Slack, Linear, Notion, YouTube, GitHub and more to come.
+While tools like NotebookLM and Perplexity are impressive and highly effective for conducting research on any topic/query, SurfSense elevates this capability by integrating with your personal knowledge base. It is a highly customizable AI research agent, connected to external sources such as search engines (Tavily, LinkUp), Slack, Linear, Notion, YouTube, GitHub, Discord and more to come.
 
 <div align="center">
 <a href="https://trendshift.io/repositories/13606" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13606" alt="MODSetter%2FSurfSense | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -37,28 +37,27 @@ https://github.com/user-attachments/assets/bf64a6ca-934b-47ac-9e1b-edac5fe972ec
 
 
 ## Key Features
-### 1. Latest
 
-#### 💡 **Idea**: 
+### 💡 **Idea**: 
 Have your own highly customizable private NotebookLM and Perplexity integrated with external sources.
-#### 📁 **Multiple File Format Uploading Support**
-Save content from your own personal files *(Documents, images and supports **27 file extensions**)* to your own personal knowledge base .
-#### 🔍 **Powerful Search**
+### 📁 **Multiple File Format Uploading Support**
+Save content from your own personal files *(Documents, images, videos and supports **50+ file extensions**)* to your own personal knowledge base .
+### 🔍 **Powerful Search**
 Quickly research or find anything in your saved content .
-#### 💬 **Chat with your Saved Content**
+### 💬 **Chat with your Saved Content**
  Interact in Natural Language and get cited answers.
-#### 📄 **Cited Answers**
+### 📄 **Cited Answers**
 Get Cited answers just like Perplexity.
-#### 🔔 **Privacy & Local LLM Support**
+### 🔔 **Privacy & Local LLM Support**
 Works Flawlessly with Ollama local LLMs.
-#### 🏠 **Self Hostable**
+### 🏠 **Self Hostable**
 Open source and easy to deploy locally.
-#### 🎙️ Podcasts 
+### 🎙️ Podcasts 
 - Blazingly fast podcast generation agent. (Creates a 3-minute podcast in under 20 seconds.)
 - Convert your chat conversations into engaging audio content
 - Support for multiple TTS providers (OpenAI, Azure, Google Vertex AI)
 
-#### 📊 **Advanced RAG Techniques**
+### 📊 **Advanced RAG Techniques**
 - Supports 150+ LLM's
 - Supports 6000+ Embedding Models.
 - Supports all major Rerankers (Pinecode, Cohere, Flashrank etc)
@@ -66,16 +65,47 @@ Open source and easy to deploy locally.
 - Utilizes Hybrid Search (Semantic + Full Text Search combined with Reciprocal Rank Fusion).
 - RAG as a Service API Backend.
 
-#### ℹ️ **External Sources**
+### ℹ️ **External Sources**
 - Search Engines (Tavily, LinkUp)
 - Slack
 - Linear
 - Notion
 - Youtube Videos
 - GitHub
+- Discord
 - and more to come.....
 
-#### 🔖 Cross Browser Extension
+## 📄 **Supported File Extensions**
+
+> **Note**: File format support depends on your ETL service configuration. LlamaCloud supports 50+ formats, while Unstructured supports 34+ core formats.
+
+### Documents & Text
+**LlamaCloud**: `.pdf`, `.doc`, `.docx`, `.docm`, `.dot`, `.dotm`, `.rtf`, `.txt`, `.xml`, `.epub`, `.odt`, `.wpd`, `.pages`, `.key`, `.numbers`, `.602`, `.abw`, `.cgm`, `.cwk`, `.hwp`, `.lwp`, `.mw`, `.mcw`, `.pbd`, `.sda`, `.sdd`, `.sdp`, `.sdw`, `.sgl`, `.sti`, `.sxi`, `.sxw`, `.stw`, `.sxg`, `.uof`, `.uop`, `.uot`, `.vor`, `.wps`, `.zabw`
+
+**Unstructured**: `.doc`, `.docx`, `.odt`, `.rtf`, `.pdf`, `.xml`, `.txt`, `.md`, `.markdown`, `.rst`, `.html`, `.org`, `.epub`
+
+### Presentations
+**LlamaCloud**: `.ppt`, `.pptx`, `.pptm`, `.pot`, `.potm`, `.potx`, `.odp`, `.key`
+
+**Unstructured**: `.ppt`, `.pptx`
+
+### Spreadsheets & Data
+**LlamaCloud**: `.xlsx`, `.xls`, `.xlsm`, `.xlsb`, `.xlw`, `.csv`, `.tsv`, `.ods`, `.fods`, `.numbers`, `.dbf`, `.123`, `.dif`, `.sylk`, `.slk`, `.prn`, `.et`, `.uos1`, `.uos2`, `.wk1`, `.wk2`, `.wk3`, `.wk4`, `.wks`, `.wq1`, `.wq2`, `.wb1`, `.wb2`, `.wb3`, `.qpw`, `.xlr`, `.eth`
+
+**Unstructured**: `.xls`, `.xlsx`, `.csv`, `.tsv`
+
+### Images
+**LlamaCloud**: `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.svg`, `.tiff`, `.webp`, `.html`, `.htm`, `.web`
+
+**Unstructured**: `.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`, `.heic`
+
+### Audio & Video *(Always Supported)*
+`.mp3`, `.mpga`, `.m4a`, `.wav`, `.mp4`, `.mpeg`, `.webm`
+
+### Email & Communication
+**Unstructured**: `.eml`, `.msg`, `.p7s`
+
+### 🔖 Cross Browser Extension
 - The SurfSense extension can be used to save any webpage you like.
 - Its main usecase is to save any webpages protected beyond authentication.
 
@@ -87,7 +117,12 @@ Open source and easy to deploy locally.
 
 Join the [SurfSense Discord](https://discord.gg/ejRNvftDp9) and help shape the future of SurfSense!
 
+## 🚀 Roadmap
 
+Stay up to date with our development progress and upcoming features!  
+Check out our public roadmap and contribute your ideas or feedback:
+
+**View the Roadmap:** [SurfSense Roadmap on GitHub Projects](https://github.com/users/MODSetter/projects/2)
 
 ## How to get started?
 
@@ -95,7 +130,13 @@ Join the [SurfSense Discord](https://discord.gg/ejRNvftDp9) and help shape the f
 
 SurfSense provides two installation methods:
 
-1. **[Docker Installation](https://www.surfsense.net/docs/docker-installation)** - The easiest way to get SurfSense up and running with all dependencies containerized. Less Customization.
+1. **[Docker Installation](https://www.surfsense.net/docs/docker-installation)** - The easiest way to get SurfSense up and running with all dependencies containerized.
+   - Includes pgAdmin for database management through a web UI
+   - Supports environment variable customization via `.env` file
+   - Flexible deployment options (full stack or core services only)
+   - No need to manually edit configuration files between environments
+   - See [Docker Setup Guide](DOCKER_SETUP.md) for detailed instructions
+   - For deployment scenarios and options, see [Deployment Guide](DEPLOYMENT_GUIDE.md)
 
 2. **[Manual Installation (Recommended)](https://www.surfsense.net/docs/manual-installation)** - For users who prefer more control over their setup or need to customize their deployment.
 
@@ -103,7 +144,6 @@ Both installation guides include detailed OS-specific instructions for Windows, 
 
 Before installation, make sure to complete the [prerequisite setup steps](https://www.surfsense.net/docs/) including:
 - PGVector setup
-- Google OAuth configuration
 - Unstructured.io API key
 - Other required API keys
 
@@ -126,7 +166,7 @@ Before installation, make sure to complete the [prerequisite setup steps](https:
 
 **Agent Chat** 
 
-![chat](https://github.com/user-attachments/assets/bb352d52-1c6d-4020-926b-722d0b98b491)
+![git_chat](https://github.com/user-attachments/assets/bb352d52-1c6d-4020-926b-722d0b98b491)
 
 **Browser Extension**
 
@@ -201,6 +241,14 @@ Before installation, make sure to complete the [prerequisite setup steps](https:
 -  **@tanstack/react-table**: Headless UI for building powerful tables & datagrids.
 
 
+ ### **DevOps**
+
+-  **Docker**: Container platform for consistent deployment across environments
+  
+-  **Docker Compose**: Tool for defining and running multi-container Docker applications
+
+-  **pgAdmin**: Web-based PostgreSQL administration tool included in Docker setup
+
 
 ### **Extension** 
  Manifest v3 on Plasmo
@@ -208,16 +256,8 @@ Before installation, make sure to complete the [prerequisite setup steps](https:
 ## Future Work
 - Add More Connectors.
 - Patch minor bugs.
-- Implement Canvas. 
-- Complete Hybrid Search. **[Done]**
-- Add support for file uploads QA. **[Done]**
-- Shift to WebSockets for Streaming responses. **[Deprecated in favor of AI SDK Stream Protocol]**
-- Based on feedback, I will work on making it compatible with local models. **[Done]**
-- Cross Browser Extension **[Done]**
-- Critical Notifications **[Done | PAUSED]**
-- Saving Chats **[Done]**
-- Basic keyword search page for saved sessions **[Done]**
-- Multi & Single Document Chat **[Done]**
+- Document Chat **[REIMPLEMENT]**
+- Document Podcasts
 
 
 

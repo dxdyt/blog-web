@@ -1,9 +1,9 @@
 ---
 title: termux-app
-date: 2024-11-26T12:21:20+08:00
+date: 2025-06-03T12:26:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727990326463-02a27e0641d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727990326463-02a27e0641d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1OTQ4MzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
 ---
 
 # [termux/termux-app](https://github.com/termux/termux-app)
@@ -59,7 +59,7 @@ The core [Termux](https://github.com/termux/termux-app) app comes with the follo
 
 ## Installation
 
-Latest version is `v0.118.1`.
+Latest version is `v0.118.3`.
 
 **NOTICE: It is highly recommended that you update to `v0.118.0` or higher ASAP for various bug fixes, including a critical world-readable vulnerability reported [here](https://termux.github.io/general/2022/02/15/termux-apps-vulnerability-disclosures.html). See [below](#google-play-store-experimental-branch) for information regarding Termux on Google Play.**
 

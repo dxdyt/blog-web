@@ -1,9 +1,9 @@
 ---
 title: postiz-app
-date: 2025-04-04T12:21:35+08:00
+date: 2025-06-03T12:25:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731331443866-8f6f72027157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731331443866-8f6f72027157?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM3NDA0MzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746867040734-a8ef586898a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746867040734-a8ef586898a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
 ---
 
 # [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
@@ -15,14 +15,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1731331443866-8f6f720271
 </p>
 
 <p align="center">
-  <a href="https://postiz.com" target="_blank">
+  <a href="https://postiz.com/" target="_blank">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/765e9d72-3ee7-4a56-9d59-a2c9befe2311">
     <img alt="Postiz Logo" src="https://github.com/user-attachments/assets/f0d30d70-dddb-4142-8876-e9aa6ed1cb99" width="280"/>
   </picture>
   </a>
 </p>
-
 
 <p align="center">
 <a href="https://opensource.org/licenses/Apache-2.0">
@@ -37,7 +36,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1731331443866-8f6f720271
   </strong>
   Postiz offers everything you need to manage your social media posts,<br />build an audience, capture leads, and grow your business.
 </div>
-
 
 <div class="flex" align="center">
   <br />
@@ -62,6 +60,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1731331443866-8f6f720271
   <a href="https://docs.postiz.com" rel="dofollow"><strong>Explore the docs »</strong></a>
   <br />
 
+  <br />
+  <a href="https://youtube.com/@postizofficial" rel="dofollow"><strong>Watch the YouTube Tutorials»</strong></a>
+  <br />
+
   <br/>
     <a href="https://platform.postiz.com">Register</a>
     ·
@@ -83,7 +85,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1731331443866-8f6f720271
 ## ✨ Features
 
 | ![Image 1](https://github.com/user-attachments/assets/a27ee220-beb7-4c7e-8c1b-2c44301f82ef) | ![Image 2](https://github.com/user-attachments/assets/eb5f5f15-ed90-47fc-811c-03ccba6fa8a2) |
-|--------------------------------|--------------------------------|
+| ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | ![Image 3](https://github.com/user-attachments/assets/d51786ee-ddd8-4ef8-8138-5192e9cfe7c3) | ![Image 4](https://github.com/user-attachments/assets/91f83c89-22f6-43d6-b7aa-d2d3378289fb) |
 
 # Intro
@@ -104,9 +106,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1731331443866-8f6f720271
 - Resend (email notifications)
 
 ## Quick Start
+
 To have the project up and running, please follow the [Quick Start Guide](https://docs.postiz.com/quickstart)
 
 ## Invest in the Postiz Coin :)
+
 DMsTbeCfX1crgAse5tver98KAMarPWeP3d6U3Gmmpump
 
 # License
@@ -118,5 +122,3 @@ This repository's source code is available under the [AGPL-3.0 license](LICENSE)
 <p align="center">
   <a href="https://www.g2.com/products/postiz/take_survey" target="blank"><img alt="g2" src="https://github.com/user-attachments/assets/892cb74c-0b49-4589-b2f5-fbdbf7a98f66" /></a>
 </p>
-
-

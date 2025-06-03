@@ -1,9 +1,9 @@
 ---
 title: ok-wuthering-waves
-date: 2025-06-01T12:35:53+08:00
+date: 2025-06-03T12:26:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747652026412-692a98607df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747652026412-692a98607df2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg3NTI0Mzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746591152326-043fe244e923?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
 ---
 
 # [ok-oldking/ok-wuthering-waves](https://github.com/ok-oldking/ok-wuthering-waves)
