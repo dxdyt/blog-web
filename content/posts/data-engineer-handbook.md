@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2025-05-21T12:24:11+08:00
+date: 2025-06-04T12:26:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745196494008-fb54e8afe49e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745196494008-fb54e8afe49e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746730251085-34132b6dcec5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746730251085-34132b6dcec5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
 ---
 
 # [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)
@@ -190,6 +190,7 @@ Here's the mostly comprehensive list of data engineering creators:
 | Mehdi Ouazza              | [Mehdio DataTV](https://www.youtube.com/@mehdio)                                                    | 3,000+         |
 | Alex Merced                | [Alex Merced Data](https://www.youtube.com/@alexmerceddata_)                                            | N/A           |
 | John Kutay                 | [John Kutay](https://www.youtube.com/@striiminc) | N/A           |
+| Emil Kaminski              | [Databricks For Professionals](https://www.youtube.com/@DatabricksPro)                           | 5,000+          |
 
 
 #### LinkedIn
@@ -239,6 +240,7 @@ Here's the mostly comprehensive list of data engineering creators:
 | Hassaan Akbar            | [Hassaan Akbar](https://www.linkedin.com/in/ehassaan)                                              | 5,000+         |
 | Subhankar                | [Subhankar](https://www.linkedin.com/in/subhankarumass/)                                            | 5,000+         |
 | Nitin                    | [Nitin](https://www.linkedin.com/in/tomernitin29/)                                                        | N/A           |
+| Hassaan                    | [Hassaan](https://www.linkedin.com/in/shassaan/)                                                        | 5000+           |
 
 
 #### X/Twitter

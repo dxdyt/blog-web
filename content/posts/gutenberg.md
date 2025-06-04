@@ -1,9 +1,9 @@
 ---
 title: gutenberg
-date: 2024-07-17T12:19:02+08:00
+date: 2025-06-04T12:27:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1720549385830-905a78562bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1720549385830-905a78562bbe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjExODk4MTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745990652119-f13cced69b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745990652119-f13cced69b7c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
 ---
 
 # [WordPress/gutenberg](https://github.com/WordPress/gutenberg)
@@ -16,6 +16,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1720549385830-905a78562b
 [![Create Block](https://github.com/WordPress/gutenberg/workflows/Create%20Block/badge.svg)](https://github.com/WordPress/gutenberg/actions?query=workflow%3A%22Create+Block%22+branch%3Atrunk)
 [![React Native E2E Tests (iOS)](<https://github.com/WordPress/gutenberg/workflows/React%20Native%20E2E%20Tests%20(iOS)/badge.svg>)](https://github.com/WordPress/gutenberg/actions?query=workflow%3A%22React+Native+E2E+Tests+%28iOS%29%22+branch%3Atrunk)
 [![React Native E2E Tests (Android)](<https://github.com/WordPress/gutenberg/workflows/React%20Native%20E2E%20Tests%20(Android)/badge.svg>)](https://github.com/WordPress/gutenberg/actions?query=workflow%3A%22React+Native+E2E+Tests+%28Android%29%22+branch%3Atrunk)
+
+<a href="https://wordpress.github.io/gutenberg/" target="_blank"><img src="https://raw.githubusercontent.com/storybooks/brand/master/badge/badge-storybook.svg" alt="Storybook Badge" /></a>
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org)
 

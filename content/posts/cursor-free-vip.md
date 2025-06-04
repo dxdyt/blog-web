@@ -1,9 +1,9 @@
 ---
 title: cursor-free-vip
-date: 2025-04-17T12:22:14+08:00
+date: 2025-06-04T12:27:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740482903249-a49246de837d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740482903249-a49246de837d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746730251085-34132b6dcec5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746730251085-34132b6dcec5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
@@ -17,13 +17,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1740482903249-a49246de83
 
 <p align="center">
 
-[![Release](https://img.shields.io/endpoint?url=https://www.pinnumber.rr.nu/badges/release/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+[![Release](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/release/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC_BY--NC--ND_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-[![Stars](https://img.shields.io/endpoint?url=https://www.pinnumber.rr.nu/badges/stars/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/stargazers)
-[![Downloads](https://img.shields.io/endpoint?url=https://www.pinnumber.rr.nu/badges/downloads/yeongpin/cursor-free-vip/total)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
+[![Stars](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/stars/yeongpin/cursor-free-vip)](https://github.com/yeongpin/cursor-free-vip/stargazers)
+[![Downloads](https://img.shields.io/endpoint?url=https://api.pinstudios.net/api/badges/downloads/yeongpin/cursor-free-vip/total)](https://github.com/yeongpin/cursor-free-vip/releases/latest)
 <a href="https://buymeacoffee.com/yeongpin" target="_blank"><img alt="Buy Me a Coffee" src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Me-FFDA33"></a>
+ [<img src="https://devin.ai/assets/deepwiki-badge.png" alt="Ask DeepWiki.com" height="20"/>](https://deepwiki.com/yeongpin/cursor-free-vip)
 
 </p>
+
 
 <a href="https://trendshift.io/repositories/13425" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13425" alt="yeongpin%2Fcursor-free-vip | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 <br>
@@ -32,7 +34,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1740482903249-a49246de83
 </a>
 
 
-<h4>Support Latest 0.48.x Version | 支持最新 0.48.x 版本</h4>
+<h4>Support Latest 0.49.x Version | 支持最新 0.49.x 版本</h4>
 
 This tool is for educational purposes, currently the repo does not violate any laws. Please support the original project.
 This tool will not generate any fake email accounts and OAuth access.
@@ -102,23 +104,6 @@ irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/inst
 
 </details>
 
-<details>
-<summary><b>⭐ Manual Reset Machine | 手動運行重置機器</b></summary>
-
-### **Linux/macOS**
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/reset.sh | sudo bash
-```
-
-### **Windows**
-
-```powershell
-irm https://raw.githubusercontent.com/yeongpin/cursor-free-vip/main/scripts/reset.ps1 | iex
-```
-
-</details>
-
 If you want to stop the script, please press Ctrl+C<br>要停止腳本，請按 Ctrl+C
 
 ## ❗ Note | 注意事項
@@ -183,6 +168,14 @@ max_timeout = 160
 check_update = True
 # Show Account Info | 顯示賬號信息
 show_account_info = True
+
+[TempMailPlus]
+# Enable TempMailPlus | 啓用 TempMailPlus（任何轉發到TempMailPlus的郵件都支持獲取驗證碼，例如cloudflare郵件Catch-all）
+enabled = false
+# TempMailPlus Email | TempMailPlus 電子郵件
+email = xxxxx@mailto.plus
+# TempMailPlus pin | TempMailPlus pin碼
+epin = 
 
 [WindowsPaths]
 storage_path = C:\Users\yeongpin\AppData\Roaming\Cursor\User\globalStorage\storage.json
