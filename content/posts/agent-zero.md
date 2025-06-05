@@ -1,9 +1,9 @@
 ---
 title: agent-zero
-date: 2025-06-04T12:26:16+08:00
+date: 2025-06-05T12:27:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744236404781-530428ffbad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744236404781-530428ffbad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747573284015-80d26930c9f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747573284015-80d26930c9f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
 ---
 
 # [frdel/agent-zero](https://github.com/frdel/agent-zero)

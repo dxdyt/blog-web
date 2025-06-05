@@ -1,9 +1,9 @@
 ---
 title: onlook
-date: 2025-06-04T12:25:59+08:00
+date: 2025-06-05T12:26:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747134392598-25e509c5e40f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747134392598-25e509c5e40f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwMTExNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746424919579-7c119aaa8e61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746424919579-7c119aaa8e61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
 ---
 
 # [onlook-dev/onlook](https://github.com/onlook-dev/onlook)
@@ -42,6 +42,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1747134392598-25e509c5e4
 [![Discord][discord-shield]][discord-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Twitter][twitter-shield]][twitter-url]
+
+[中文](https://www.readme-i18n.com/onlook-dev/onlook?lang=zh) | 
+[Español](https://www.readme-i18n.com/onlook-dev/onlook?lang=es) | 
+[Deutsch](https://www.readme-i18n.com/onlook-dev/onlook?lang=de) | 
+[français](https://www.readme-i18n.com/onlook-dev/onlook?lang=fr) | 
+[Português](https://www.readme-i18n.com/onlook-dev/onlook?lang=pt) | 
+[Русский](https://www.readme-i18n.com/onlook-dev/onlook?lang=ru) | 
+[日本語](https://www.readme-i18n.com/onlook-dev/onlook?lang=ja) | 
+[한국어](https://www.readme-i18n.com/onlook-dev/onlook?lang=ko)
 
 </div>
 
