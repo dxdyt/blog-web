@@ -1,9 +1,9 @@
 ---
 title: nautilus_trader
-date: 2025-06-05T12:26:52+08:00
+date: 2025-06-06T12:25:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747285726356-535557675eda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747285726356-535557675eda?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747592780287-fdc329229f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747592780287-fdc329229f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
 ---
 
 # [nautechsystems/nautilus_trader](https://github.com/nautechsystems/nautilus_trader)

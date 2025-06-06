@@ -1,9 +1,9 @@
 ---
 title: ChinaTextbook
-date: 2025-06-05T12:27:13+08:00
+date: 2025-06-06T12:25:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748201135959-8635c11aebdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748201135959-8635c11aebdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
 ---
 
 # [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)

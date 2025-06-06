@@ -1,9 +1,9 @@
 ---
 title: onlook
-date: 2025-06-05T12:26:38+08:00
+date: 2025-06-06T12:25:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746424919579-7c119aaa8e61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746424919579-7c119aaa8e61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkwOTc1OTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746469471553-afa9f34157fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746469471553-afa9f34157fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
 ---
 
 # [onlook-dev/onlook](https://github.com/onlook-dev/onlook)

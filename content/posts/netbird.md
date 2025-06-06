@@ -1,32 +1,33 @@
 ---
 title: netbird
-date: 2023-08-30T12:18:00+08:00
+date: 2025-06-06T12:25:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691889713822-b5ef566fd8f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691889713822-b5ef566fd8f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTMzNjg4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
 ---
 
 # [netbirdio/netbird](https://github.com/netbirdio/netbird)
 
-<p align="center">
- <strong>:hatching_chick: New Release! Self-hosting in under 5 min.</strong>
-  <a href="https://github.com/netbirdio/netbird#quickstart-with-self-hosted-netbird">
-       Learn more
-     </a>   
-</p>
-<br/>
 <div align="center">
+<br/>
+  <br/>
 <p align="center">
   <img width="234" src="docs/media/logo-full.png"/>
 </p>
   <p>
+   <a href="https://img.shields.io/badge/license-BSD--3-blue)">
+       <img src="https://sonarcloud.io/api/project_badges/measure?project=netbirdio_netbird&metric=alert_status" />
+     </a> 
      <a href="https://github.com/netbirdio/netbird/blob/main/LICENSE">
        <img src="https://img.shields.io/badge/license-BSD--3-blue" />
      </a> 
-   <a href="https://www.codacy.com/gh/netbirdio/netbird/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=netbirdio/netbird&amp;utm_campaign=Badge_Grade"><img src="https://app.codacy.com/project/badge/Grade/e3013d046aec44cdb7462c8673b00976"/></a>
     <br>
-    <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-vrahf41g-ik1v7fV8du6t0RwxSrJ96A">
+    <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-31rofwmxc-27akKd0Le0vyRpBcwXkP0g">
         <img src="https://img.shields.io/badge/slack-@netbird-red.svg?logo=slack"/>
+     </a>  
+     <br>
+    <a href="https://gurubase.io/g/netbird">
+        <img src="https://img.shields.io/badge/Gurubase-Ask%20NetBird%20Guru-006BFF"/>
      </a>    
   </p>
 </div>
@@ -38,10 +39,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1691889713822-b5ef566fd8
   <br/>
   See <a href="https://netbird.io/docs/">Documentation</a>
   <br/>
-   Join our <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-vrahf41g-ik1v7fV8du6t0RwxSrJ96A">Slack channel</a>
+   Join our <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-31rofwmxc-27akKd0Le0vyRpBcwXkP0g">Slack channel</a>
   <br/>
  
 </strong>
+<br>
+<a href="https://github.com/netbirdio/kubernetes-operator">
+    New: NetBird Kubernetes Operator
+  </a> 
 </p>
 
 <br>
@@ -50,26 +55,28 @@ featuredImagePreview: https://images.unsplash.com/photo-1691889713822-b5ef566fd8
 
 **Connect.** NetBird creates a WireGuard-based overlay network that automatically connects your machines over an encrypted tunnel, leaving behind the hassle of opening ports, complex firewall rules, VPN gateways, and so forth.
 
-**Secure.** NetBird enables secure remote access by applying granular access policies, while allowing you to manage them intuitively from a single place. Works universally on any infrastructure.
+**Secure.** NetBird enables secure remote access by applying granular access policies while allowing you to manage them intuitively from a single place. Works universally on any infrastructure.
 
-### Secure peer-to-peer VPN with SSO and MFA in minutes
+### Open-Source Network Security in a Single Platform
 
-https://user-images.githubusercontent.com/700848/197345890-2e2cded5-7b7a-436f-a444-94e80dd24f46.mov
+
+![netbird_2](https://github.com/netbirdio/netbird/assets/700848/46bc3b73-508d-4a0e-bb9a-f465d68646ab)
+
+### NetBird on Lawrence Systems (Video)
+[![Watch the video](https://img.youtube.com/vi/Kwrff6h0rEw/0.jpg)](https://www.youtube.com/watch?v=Kwrff6h0rEw)
 
 ### Key features
 
-| Connectivity                             	                        | Management                                 	                             | Automation                                    	                            | Platforms    	                        |
-|-------------------------------------------------------------------|--------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------|
-| <ul><li> - \[x] Kernel WireGuard </ul></li>                   	   | <ul><li> - \[x] [Admin Web UI](https://github.com/netbirdio/dashboard) </ul></li>                           	      | <ul><li> - \[x] [Public API](https://docs.netbird.io/api) </ul></li>                                	     | <ul><li> - \[x] Linux </ul></li>    	 |
-| <ul><li> - \[x] Peer-to-peer connections </ul></li>             	 | <ul><li> - \[x] Auto peer discovery and configuration </ul></li>  	      | <ul><li> - \[x] [Setup keys for bulk network provisioning](https://docs.netbird.io/how-to/register-machines-using-setup-keys) </ul></li>  	     | <ul><li> - \[x] Mac </ul></li>      	 |
-| <ul><li> - \[x] Peer-to-peer encryption </ul></li>              	 | <ul><li> - \[x] [IdP integrations](https://docs.netbird.io/selfhosted/identity-providers) </ul></li>                       	      | <ul><li> - \[x] [Self-hosting quickstart script](https://docs.netbird.io/selfhosted/selfhosted-quickstart) </ul></li>              	 | <ul><li> - \[x] Windows </ul></li>  	 |
-| <ul><li> - \[x] Connection relay fallback </ul></li>            	 | <ul><li> - \[x] [SSO & MFA support](https://docs.netbird.io/how-to/installation#running-net-bird-with-sso-login) </ul></li>                      	      | <ul><li> - \[x] IdP groups sync with JWT </ul></li> 	                      | <ul><li> - \[x] Android </ul></li>  	 |
-| <ul><li> - \[x] [Routes to external networks](https://docs.netbird.io/how-to/routing-traffic-to-private-networks) </ul></li>  	         | <ul><li> - \[x] [Access control - groups & rules](https://docs.netbird.io/how-to/manage-network-access) </ul></li>      	        | 	                                                                          | <ul><li> - \[ ] iOS </ul></li>      	 |
-| <ul><li> - \[x] NAT traversal with BPF </ul></li>                 | <ul><li> - \[x] [Private DNS](https://docs.netbird.io/how-to/manage-dns-in-your-network) </ul></li>                            	      | 	                                                                          | <ul><li> - \[x] Docker </ul></li>   	 |
-|                                                                   | <ul><li> - \[x] [Multiuser support](https://docs.netbird.io/how-to/add-users-to-your-network) </ul></li>                      	      | 	                                                                          | <ul><li> - \[x] OpenWRT </ul></li>  	 |
-| 	                                                                 | <ul><li> - \[x] [Activity logging](https://docs.netbird.io/how-to/monitor-system-and-network-activity) </ul></li>                       	      | 	                                                                          | 	                                     |
-| 	                                                                 | <ul><li> - \[x] SSH access management </ul></li>                       	 | 	                                                                          | 	                                     |
-
+| Connectivity | Management | Security | Automation| Platforms |
+|----|----|----|----|----|
+| <ul><li>- \[x] Kernel WireGuard</ul></li> | <ul><li>- \[x] [Admin Web UI](https://github.com/netbirdio/dashboard)</ul></li> | <ul><li>- \[x] [SSO & MFA support](https://docs.netbird.io/how-to/installation#running-net-bird-with-sso-login)</ul></li> | <ul><li>- \[x] [Public API](https://docs.netbird.io/api)</ul></li> | <ul><li>- \[x] Linux</ul></li> |
+| <ul><li>- \[x] Peer-to-peer connections</ul></li> | <ul><li>- \[x] Auto peer discovery and configuration</ui></li> | <ul><li>- \[x] [Access control - groups & rules](https://docs.netbird.io/how-to/manage-network-access)</ui></li> | <ul><li>- \[x] [Setup keys for bulk network provisioning](https://docs.netbird.io/how-to/register-machines-using-setup-keys)</ui></li> | <ul><li>- \[x] Mac</ui></li> |
+| <ul><li>- \[x] Connection relay fallback</ui></li> | <ul><li>- \[x] [IdP integrations](https://docs.netbird.io/selfhosted/identity-providers)</ui></li> | <ul><li>- \[x] [Activity logging](https://docs.netbird.io/how-to/audit-events-logging)</ui></li> | <ul><li>- \[x] [Self-hosting quickstart script](https://docs.netbird.io/selfhosted/selfhosted-quickstart)</ui></li> | <ul><li>- \[x] Windows</ui></li> |
+| <ul><li>- \[x] [Routes to external networks](https://docs.netbird.io/how-to/routing-traffic-to-private-networks)</ui></li> | <ul><li>- \[x] [Private DNS](https://docs.netbird.io/how-to/manage-dns-in-your-network)</ui></li> | <ul><li>- \[x] [Device posture checks](https://docs.netbird.io/how-to/manage-posture-checks)</ui></li> | <ul><li>- \[x] IdP groups sync with JWT</ui></li> | <ul><li>- \[x] Android</ui></li> |
+| <ul><li>- \[x] NAT traversal with BPF</ui></li> | <ul><li>- \[x] [Multiuser support](https://docs.netbird.io/how-to/add-users-to-your-network)</ui></li> | <ul><li>- \[x] Peer-to-peer encryption</ui></li> || <ul><li>- \[x] iOS</ui></li> |
+||| <ul><li>- \[x] [Quantum-resistance with Rosenpass](https://netbird.io/knowledge-hub/the-first-quantum-resistant-mesh-vpn)</ui></li> || <ul><li>- \[x] OpenWRT</ui></li> |
+||| <ul><li>- \[x] [Periodic re-authentication](https://docs.netbird.io/how-to/enforce-periodic-user-authentication)</ui></li> || <ul><li>- \[x] [Serverless](https://docs.netbird.io/how-to/netbird-on-faas)</ui></li> |
+||||| <ul><li>- \[x] Docker</ui></li> |
 
 ### Quickstart with NetBird Cloud
 
@@ -89,7 +96,7 @@ Follow the [Advanced guide with a custom identity provider](https://docs.netbird
 - **Public domain** name pointing to the VM.
 
 **Software requirements:**
-- Docker installed on the VM with the docker compose plugin ([Docker installation guide](https://docs.docker.com/engine/install/)) or docker with docker-compose in version 2 or higher.
+- Docker installed on the VM with the docker-compose plugin ([Docker installation guide](https://docs.docker.com/engine/install/)) or docker with docker-compose in version 2 or higher.
 - [jq](https://jqlang.github.io/jq/) installed. In most distributions
   Usually available in the official repositories and can be installed with `sudo apt install jq` or `sudo yum install jq`
 - [curl](https://curl.se/) installed.
@@ -106,9 +113,9 @@ export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbird
 -  Every machine in the network runs [NetBird Agent (or Client)](client/) that manages WireGuard.
 -  Every agent connects to [Management Service](management/) that holds network state, manages peer IPs, and distributes network updates to agents (peers).
 -  NetBird agent uses WebRTC ICE implemented in [pion/ice library](https://github.com/pion/ice) to discover connection candidates when establishing a peer-to-peer connection between machines.
--  Connection candidates are discovered with a help of [STUN](https://en.wikipedia.org/wiki/STUN) servers.
+-  Connection candidates are discovered with the help of [STUN](https://en.wikipedia.org/wiki/STUN) servers.
 -  Agents negotiate a connection through [Signal Service](signal/) passing p2p encrypted messages with candidates.
--  Sometimes the NAT traversal is unsuccessful due to strict NATs (e.g. mobile carrier-grade NAT) and p2p connection isn't possible. When this occurs the system falls back to a relay server called [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT), and a secure WireGuard tunnel is established via the TURN server. 
+-  Sometimes the NAT traversal is unsuccessful due to strict NATs (e.g. mobile carrier-grade NAT) and a p2p connection isn't possible. When this occurs the system falls back to a relay server called [TURN](https://en.wikipedia.org/wiki/Traversal_Using_Relays_around_NAT), and a secure WireGuard tunnel is established via the TURN server. 
  
 [Coturn](https://github.com/coturn/coturn) is the one that has been successfully used for STUN and TURN in NetBird setups.
 
@@ -119,8 +126,8 @@ export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbird
 See a complete [architecture overview](https://docs.netbird.io/about-netbird/how-netbird-works#architecture) for details.
 
 ### Community projects
--  [NetBird on OpenWRT](https://github.com/messense/openwrt-netbird)
 -  [NetBird installer script](https://github.com/physk/netbird-installer)
+-  [NetBird ansible collection by Dominion Solutions](https://galaxy.ansible.com/ui/repo/published/dominion_solutions/netbird/)
 
 **Note**: The `main` branch may be in an *unstable or even broken state* during development.
 For stable versions, see [releases](https://github.com/netbirdio/netbird/releases).
@@ -132,7 +139,7 @@ In November 2022, NetBird joined the [StartUpSecure program](https://www.forschu
 ![CISPA_Logo_BLACK_EN_RZ_RGB (1)](https://user-images.githubusercontent.com/700848/203091324-c6d311a0-22b5-4b05-a288-91cbc6cdcc46.png)
 
 ### Testimonials
-We use open-source technologies like [WireGuard®](https://www.wireguard.com/), [Pion ICE (WebRTC)](https://github.com/pion/ice), [Coturn](https://github.com/coturn/coturn), and [Rosenpass](https://rosenpass.eu). We very much appreciate the work these guys are doing and we'd greatly appreciate if you could support them in any way (e.g. giving a star or a contribution).
+We use open-source technologies like [WireGuard®](https://www.wireguard.com/), [Pion ICE (WebRTC)](https://github.com/pion/ice), [Coturn](https://github.com/coturn/coturn), and [Rosenpass](https://rosenpass.eu). We very much appreciate the work these guys are doing and we'd greatly appreciate if you could support them in any way (e.g., by giving a star or a contribution).
 
 ### Legal
  _WireGuard_ and the _WireGuard_ logo are [registered trademarks](https://www.wireguard.com/trademark-policy/) of Jason A. Donenfeld.

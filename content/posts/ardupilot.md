@@ -1,9 +1,9 @@
 ---
 title: ardupilot
-date: 2024-09-12T12:21:45+08:00
+date: 2025-06-06T12:26:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725327065229-69b286abe40d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725327065229-69b286abe40d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYxMTQ3ODd8&ixlib=rb-4.0.3
+featuredImage: https://plus.unsplash.com/premium_photo-1720736660372-7d351adc7afb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1720736660372-7d351adc7afb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
 ---
 
 # [ArduPilot/ardupilot](https://github.com/ArduPilot/ardupilot)
