@@ -1,9 +1,9 @@
 ---
 title: mcp-agent
-date: 2025-06-06T12:26:21+08:00
+date: 2025-06-07T12:22:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744835896686-7caa79e4cedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744835896686-7caa79e4cedb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748025476920-7b79e80a0a7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748025476920-7b79e80a0a7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
 ---
 
 # [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent)

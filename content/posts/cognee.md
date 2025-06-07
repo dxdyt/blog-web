@@ -1,9 +1,9 @@
 ---
 title: cognee
-date: 2025-06-06T12:26:16+08:00
+date: 2025-06-07T12:22:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746951601776-eb22edf68ebc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748520492292-a5f75429e948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748520492292-a5f75429e948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
 ---
 
 # [topoteretes/cognee](https://github.com/topoteretes/cognee)

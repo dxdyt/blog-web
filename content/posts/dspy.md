@@ -1,9 +1,9 @@
 ---
 title: dspy
-date: 2025-04-14T12:22:35+08:00
+date: 2025-06-07T12:22:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731964877414-217cdc9b5b37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ2MDQ0NDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1748520492292-a5f75429e948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748520492292-a5f75429e948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
 ---
 
 # [stanfordnlp/dspy](https://github.com/stanfordnlp/dspy)
