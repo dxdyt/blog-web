@@ -1,9 +1,9 @@
 ---
 title: netbird
-date: 2025-06-07T12:22:23+08:00
+date: 2025-06-08T12:28:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748520492292-a5f75429e948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748520492292-a5f75429e948?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1729731321933-ff3057be4562?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1729731321933-ff3057be4562?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
 ---
 
 # [netbirdio/netbird](https://github.com/netbirdio/netbird)

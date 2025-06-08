@@ -1,14 +1,14 @@
 ---
 title: note-gen
-date: 2025-06-07T12:22:52+08:00
+date: 2025-06-08T12:29:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745906482461-f40ab661a456?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745906482461-f40ab661a456?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747923584968-bb3361eb1a3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747923584968-bb3361eb1a3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
 ---
 
 # [codexu/note-gen](https://github.com/codexu/note-gen)
 
-<img src="https://s2.loli.net/2025/05/26/YMNgxKVDrB84ZtW.png" width="128" height="128" />
+![note-gen](https://socialify.git.ci/codexu/note-gen/image?custom_description=Cross-Platform+%7C+LLM+%7C+Markdown+%7C++Recording++%26+Writing&description=1&font=Raleway&forks=1&issues=1&logo=https%3A%2F%2Fcamo.githubusercontent.com%2Fbe4a3a39f8724658ad5bc549d63f0454ad4ca98564c73b7b0778704ca5212509%2F68747470733a2f2f73322e6c6f6c692e6e65742f323032352f30352f32362f594d4e67784b5644724238345a74572e706e67&name=1&owner=1&pattern=Circuit+Board&stargazers=1&theme=Light)
 
 # NoteGen
 
