@@ -1,9 +1,9 @@
 ---
 title: kubernetes-the-hard-way
-date: 2025-03-12T12:21:10+08:00
+date: 2025-06-09T12:31:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739802423829-b37e9e8aab8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739802423829-b37e9e8aab8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE3NTMxOTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746469528705-64f58e144612?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746469528705-64f58e144612?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
 ---
 
 # [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
@@ -29,14 +29,14 @@ Kubernetes The Hard Way guides you through bootstrapping a basic Kubernetes clus
 
 Component versions:
 
-* [kubernetes](https://github.com/kubernetes/kubernetes) v1.31.x
-* [containerd](https://github.com/containerd/containerd) v2.0.x
+* [kubernetes](https://github.com/kubernetes/kubernetes) v1.32.x
+* [containerd](https://github.com/containerd/containerd) v2.1.x
 * [cni](https://github.com/containernetworking/cni) v1.6.x
-* [etcd](https://github.com/etcd-io/etcd) v3.4.x
+* [etcd](https://github.com/etcd-io/etcd) v3.6.x
 
 ## Labs
 
-This tutorial requires four (4) ARM64 based virtual or physical machines connected to the same network. While ARM64 based machines are used for the tutorial, the lessons learned can be applied to other platforms.
+This tutorial requires four (4) ARM64 or AMD64 based virtual or physical machines connected to the same network.
 
 * [Prerequisites](docs/01-prerequisites.md)
 * [Setting up the Jumpbox](docs/02-jumpbox.md)

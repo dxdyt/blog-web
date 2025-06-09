@@ -1,9 +1,9 @@
 ---
 title: netbird
-date: 2025-06-08T12:28:53+08:00
+date: 2025-06-09T12:31:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729731321933-ff3057be4562?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1729731321933-ff3057be4562?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
 ---
 
 # [netbirdio/netbird](https://github.com/netbirdio/netbird)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729731321933-ff3057be45
        <img src="https://img.shields.io/badge/license-BSD--3-blue" />
      </a> 
     <br>
-    <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-31rofwmxc-27akKd0Le0vyRpBcwXkP0g">
+    <a href="https://docs.netbird.io/slack-url">
         <img src="https://img.shields.io/badge/slack-@netbird-red.svg?logo=slack"/>
      </a>  
      <br>
@@ -39,7 +39,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729731321933-ff3057be45
   <br/>
   See <a href="https://netbird.io/docs/">Documentation</a>
   <br/>
-   Join our <a href="https://join.slack.com/t/netbirdio/shared_invite/zt-31rofwmxc-27akKd0Le0vyRpBcwXkP0g">Slack channel</a>
+   Join our <a href="https://docs.netbird.io/slack-url">Slack channel</a>
   <br/>
  
 </strong>

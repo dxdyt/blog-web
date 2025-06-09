@@ -1,9 +1,9 @@
 ---
 title: Xray-core
-date: 2024-08-27T12:20:55+08:00
+date: 2025-06-09T12:30:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722556496519-37acdd9ff07d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff07d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ3MzIzOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1748810417930-987996d1a9e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748810417930-987996d1a9e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
 ---
 
 # [XTLS/Xray-core](https://github.com/XTLS/Xray-core)
@@ -16,7 +16,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff0
 
 ## Donation & NFTs
 
-[Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)
+- **ETH/USDT/USDC: `0xDc3Fe44F0f25D13CACb1C4896CD0D321df3146Ee`**
+- **Project X NFT: [Announcement of NFTs by Project X](https://github.com/XTLS/Xray-core/discussions/3633)**
+- **REALITY NFT: [XHTTP: Beyond REALITY](https://github.com/XTLS/Xray-core/discussions/4113)**
 
 ## License
 
@@ -32,7 +34,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff0
 
 [Project X Channel](https://t.me/projectXtls)
 
-[Project VLESS](https://t.me/projectVless) (non-Chinese)
+[Project VLESS](https://t.me/projectVless) (Русский)
+
+[Project XHTTP](https://t.me/projectXhttp) (Persian)
 
 ## Installation
 
@@ -42,14 +46,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff0
 - Docker
   - [ghcr.io/xtls/xray-core](https://ghcr.io/xtls/xray-core) (**Official**)
   - [teddysun/xray](https://hub.docker.com/r/teddysun/xray)
-- Web Panel
-  - [3X-UI](https://github.com/MHSanaei/3x-ui), [X-UI](https://github.com/alireza0/x-ui), [Xray-UI](https://github.com/qist/xray-ui)
-  - [Hiddify](https://github.com/hiddify/hiddify-config)
+  - [wulabing/xray_docker](https://github.com/wulabing/xray_docker)
+- Web Panel - **WARNING: Please DO NOT USE plain HTTP panels like 3X-UI**, as they are believed to be bribed by Iran GFW for supporting plain HTTP by default and refused to change (https://github.com/XTLS/Xray-core/pull/3884#issuecomment-2439595331), which has already put many users' data security in danger in the past few years. **If you are already using 3X-UI, please switch to the following panels, which are verified to support HTTPS and SSH port forwarding only:**
+  - [Remnawave](https://github.com/remnawave/panel)
   - [Marzban](https://github.com/Gozargah/Marzban)
-  - [Libertea](https://github.com/VZiChoushaDui/Libertea)
+  - [Xray-UI](https://github.com/qist/xray-ui)
+  - [Hiddify](https://github.com/hiddify/Hiddify-Manager)
 - One Click
   - [Xray-REALITY](https://github.com/zxcvos/Xray-script), [xray-reality](https://github.com/sajjaddg/xray-reality), [reality-ezpz](https://github.com/aleskxyz/reality-ezpz)
-  - [Xray_bash_onekey](https://github.com/hello-yunshu/Xray_bash_onekey), [XTool](https://github.com/LordPenguin666/XTool)
+  - [Xray_bash_onekey](https://github.com/hello-yunshu/Xray_bash_onekey), [XTool](https://github.com/LordPenguin666/XTool), [VPainLess](https://github.com/vpainless/vpainless)
   - [v2ray-agent](https://github.com/mack-a/v2ray-agent), [Xray_onekey](https://github.com/wulabing/Xray_onekey), [ProxySU](https://github.com/proxysu/ProxySU)
 - Magisk
   - [Xray4Magisk](https://github.com/Asterisk4Magisk/Xray4Magisk)
@@ -80,6 +85,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff0
   - [PassWall](https://github.com/xiaorouji/openwrt-passwall), [PassWall 2](https://github.com/xiaorouji/openwrt-passwall2)
   - [ShadowSocksR Plus+](https://github.com/fw876/helloworld)
   - [luci-app-xray](https://github.com/yichya/luci-app-xray) ([openwrt-xray](https://github.com/yichya/openwrt-xray))
+- Asuswrt-Merlin
+  - [XRAYUI](https://github.com/DanielLavrushin/asuswrt-merlin-xrayui)
 - Windows
   - [v2rayN](https://github.com/2dust/v2rayN)
   - [Furious](https://github.com/LorenEteval/Furious)
@@ -87,26 +94,33 @@ featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff0
 - Android
   - [v2rayNG](https://github.com/2dust/v2rayNG)
   - [X-flutter](https://github.com/XTLS/X-flutter)
+  - [SaeedDev94/Xray](https://github.com/SaeedDev94/Xray)
+  - [SimpleXray](https://github.com/lhear/SimpleXray)
 - iOS & macOS arm64
-  - [FoXray](https://apps.apple.com/app/foxray/id6448898396)
+  - [Happ](https://apps.apple.com/app/happ-proxy-utility/id6504287215)
   - [Streisand](https://apps.apple.com/app/streisand/id6450534064)
+  - [OneXray](https://github.com/OneXray/OneXray)
 - macOS arm64 & x64
   - [V2rayU](https://github.com/yanue/V2rayU)
   - [V2RayXS](https://github.com/tzmax/V2RayXS)
   - [Furious](https://github.com/LorenEteval/Furious)
-  - [FoXray](https://apps.apple.com/app/foxray/id6448898396)
+  - [OneXray](https://github.com/OneXray/OneXray)
 - Linux
   - [v2rayA](https://github.com/v2rayA/v2rayA)
   - [Furious](https://github.com/LorenEteval/Furious)
+  - [GorzRay](https://github.com/ketetefid/GorzRay)
 
 ## Others that support VLESS, XTLS, REALITY, XUDP, PLUX...
 
 - iOS & macOS arm64
   - [Shadowrocket](https://apps.apple.com/app/shadowrocket/id932747118)
+  - [Loon](https://apps.apple.com/us/app/loon/id1373567447)
 - Xray Tools
   - [xray-knife](https://github.com/lilendian0x00/xray-knife)
+  - [xray-checker](https://github.com/kutovoys/xray-checker)
 - Xray Wrapper
   - [XTLS/libXray](https://github.com/XTLS/libXray)
+  - [xtls-sdk](https://github.com/remnawave/xtls-sdk)
   - [xtlsapi](https://github.com/hiddify/xtlsapi)
   - [AndroidLibXrayLite](https://github.com/2dust/AndroidLibXrayLite)
   - [Xray-core-python](https://github.com/LorenEteval/Xray-core-python)
@@ -114,39 +128,43 @@ featuredImagePreview: https://images.unsplash.com/photo-1722556496519-37acdd9ff0
 - [XrayR](https://github.com/XrayR-project/XrayR)
   - [XrayR-release](https://github.com/XrayR-project/XrayR-release)
   - [XrayR-V2Board](https://github.com/missuo/XrayR-V2Board)
-- [Clash.Meta](https://github.com/MetaCubeX/Clash.Meta)
-  - [clashN](https://github.com/2dust/clashN)
-  - [Clash Meta for Android](https://github.com/MetaCubeX/ClashMetaForAndroid)
-- [sing-box](https://github.com/SagerNet/sing-box)
+- Cores
+  - [Amnezia VPN](https://github.com/amnezia-vpn)
+  - [mihomo](https://github.com/MetaCubeX/mihomo)
+  - [sing-box](https://github.com/SagerNet/sing-box)
 
 ## Contributing
 
 [Code of Conduct](https://github.com/XTLS/Xray-core/blob/main/CODE_OF_CONDUCT.md)
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/XTLS/Xray-core)
 
 ## Credits
 
 - [Xray-core v1.0.0](https://github.com/XTLS/Xray-core/releases/tag/v1.0.0) was forked from [v2fly-core 9a03cc5](https://github.com/v2fly/v2ray-core/commit/9a03cc5c98d04cc28320fcee26dbc236b3291256), and we have made & accumulated a huge number of enhancements over time, check [the release notes for each version](https://github.com/XTLS/Xray-core/releases).
 - For third-party projects used in [Xray-core](https://github.com/XTLS/Xray-core), check your local or [the latest go.mod](https://github.com/XTLS/Xray-core/blob/main/go.mod).
 
-## Compilation
+## One-line Compilation
 
 ### Windows (PowerShell)
 
 ```powershell
 $env:CGO_ENABLED=0
-go build -o xray.exe -trimpath -ldflags "-s -w -buildid=" ./main
+go build -o xray.exe -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./main
 ```
 
 ### Linux / macOS
 
 ```bash
-CGO_ENABLED=0 go build -o xray -trimpath -ldflags "-s -w -buildid=" ./main
+CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-s -w -buildid=" -v ./main
 ```
 
 ### Reproducible Releases
 
+Make sure that you are using the same Go version, and remember to set the git commit id (7 bytes):
+
 ```bash
-make
+CGO_ENABLED=0 go build -o xray -trimpath -buildvcs=false -ldflags="-X github.com/xtls/xray-core/core.build=REPLACE -s -w -buildid=" -v ./main
 ```
 
 ## Stargazers over time

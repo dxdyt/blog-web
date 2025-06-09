@@ -1,9 +1,9 @@
 ---
 title: art-design-pro
-date: 2025-06-08T12:29:45+08:00
+date: 2025-06-09T12:31:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745488099170-a241b8842040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745488099170-a241b8842040?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748182575169-e1e8e3901ec3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748182575169-e1e8e3901ec3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
 ---
 
 # [Daymychen/art-design-pro](https://github.com/Daymychen/art-design-pro)

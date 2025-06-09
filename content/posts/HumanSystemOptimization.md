@@ -1,14 +1,18 @@
 ---
 title: HumanSystemOptimization
-date: 2024-03-07T12:16:27+08:00
+date: 2025-06-09T12:31:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707058665507-765a1575e7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707058665507-765a1575e7a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk3ODQ4NzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
 ---
 
 # [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 
-UPDATE: 鉴于文章比较长，很多同学没有耐心读完，后续也分享录制了一个 [视频版](https://www.bilibili.com/video/BV1EW4y1R7yi/)，基本涵盖了文章里的大部分内容。
+UPDATES: 
+
+补充一篇 24 年初的文章，分享最近一年的一些个人实践：[养生博主的 23 年总结](https://zhuanlan.zhihu.com/p/675470252)。
+
+鉴于文章比较长，很多同学没有耐心读完，后续也分享录制了一个 [视频版](https://www.bilibili.com/video/BV1EW4y1R7yi/)，基本涵盖了文章里的大部分内容。
 
 另外在健康生活实践方面，也提供一个极简版的基础列表，供大家参考：
 
