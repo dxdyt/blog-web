@@ -1,9 +1,9 @@
 ---
 title: Xray-core
-date: 2025-06-09T12:30:49+08:00
+date: 2025-06-10T12:27:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748810417930-987996d1a9e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748810417930-987996d1a9e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747193544056-088ffe8969ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747193544056-088ffe8969ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
 ---
 
 # [XTLS/Xray-core](https://github.com/XTLS/Xray-core)

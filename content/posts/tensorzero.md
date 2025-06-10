@@ -1,9 +1,9 @@
 ---
 title: tensorzero
-date: 2025-06-09T12:30:21+08:00
+date: 2025-06-10T12:27:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746469528705-64f58e144612?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746469528705-64f58e144612?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1543180903-b1323a55789a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1543180903-b1323a55789a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
 ---
 
 # [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)
@@ -11,6 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1746469528705-64f58e1446
 <img src="https://github.com/user-attachments/assets/47d67430-386d-4675-82ad-d4734d3262d9" width=128 height=128>
 
 # TensorZero
+
+<p><picture><img src="https://www.tensorzero.com/github-trending-badge.svg" alt="#1 Repository Of The Day"></picture></p>
 
 **TensorZero creates a feedback loop for optimizing LLM applications — turning production data into smarter, faster, and cheaper models.**
 

@@ -1,9 +1,9 @@
 ---
 title: Sunshine
-date: 2025-05-19T12:27:42+08:00
+date: 2025-06-10T12:28:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745236781096-be405b87d05c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745236781096-be405b87d05c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747573285174-194401aa104a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747573285174-194401aa104a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
 ---
 
 # [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)

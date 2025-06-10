@@ -1,9 +1,9 @@
 ---
 title: HumanSystemOptimization
-date: 2025-06-09T12:31:07+08:00
+date: 2025-06-10T12:27:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745219870228-6169e46004ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk0NDM0MTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748383718257-f92ee93eac10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748383718257-f92ee93eac10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
 ---
 
 # [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)

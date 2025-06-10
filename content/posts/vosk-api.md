@@ -1,9 +1,9 @@
 ---
 title: vosk-api
-date: 2025-06-08T12:30:36+08:00
+date: 2025-06-10T12:27:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748809505433-7fb4b2d041b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748809505433-7fb4b2d041b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkzNTY5MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747193544056-088ffe8969ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747193544056-088ffe8969ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
 ---
 
 # [alphacep/vosk-api](https://github.com/alphacep/vosk-api)
