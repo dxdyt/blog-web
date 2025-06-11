@@ -1,9 +1,9 @@
 ---
 title: tensorzero
-date: 2025-06-10T12:27:08+08:00
+date: 2025-06-11T12:27:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1543180903-b1323a55789a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1543180903-b1323a55789a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk1Mjk2MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747582422877-6a1aec3d3d33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747582422877-6a1aec3d3d33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
 ---
 
 # [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)
