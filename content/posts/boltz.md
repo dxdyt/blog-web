@@ -1,9 +1,9 @@
 ---
 title: boltz
-date: 2025-06-11T12:27:26+08:00
+date: 2025-06-12T12:26:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746655421130-9fba824e19f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746655421130-9fba824e19f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746298286354-96f073eda38c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746298286354-96f073eda38c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
 ---
 
 # [jwohlwend/boltz](https://github.com/jwohlwend/boltz)

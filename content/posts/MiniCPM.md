@@ -1,9 +1,9 @@
 ---
 title: MiniCPM
-date: 2024-09-13T12:18:36+08:00
+date: 2025-06-12T12:26:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1725221904479-9b196e4b0d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1725221904479-9b196e4b0d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYyMDEwODV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749254080180-f9da0512b5c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749254080180-f9da0512b5c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
 ---
 
 # [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM)
@@ -22,46 +22,73 @@ featuredImagePreview: https://images.unsplash.com/photo-1725221904479-9b196e4b0d
 <p align="center">
 <a href="https://openbmb.vercel.app/?category=Chinese+Blog" target="_blank">MiniCPM 技术博客</a> |
 <a href="https://modelbest.feishu.cn/wiki/D2tFw8Pcsi5CIzkaHNacLK64npg" target="_blank">MiniCPM 知识库</a> |
-<a href="https://arxiv.org/abs/2404.06395" target="_blank">MiniCPM 论文</a> |
+<a href="https://github.com/OpenBMB/MiniCPM/blob/main/report/MiniCPM_4_Technical_Report.pdf" target="_blank">MiniCPM 论文</a> |
 <a href="https://github.com/OpenBMB/MiniCPM-V/" target="_blank">MiniCPM-V 仓库</a> |
 加入我们的 <a href="https://discord.gg/3cGQn9b3YM" target="_blank">discord</a> 和 <a href="https://github.com/OpenBMB/MiniCPM/blob/main/assets/wechat.jpg" target="_blank">微信群</a>
  
 </p>
 
-## 更新日志🔥
+https://github.com/user-attachments/assets/ab36fd7a-485b-4707-b72f-b80b5c43d024
 
-- [2024.09.05] 发布 [**MiniCPM3-4B**](https://huggingface.co/openbmb/MiniCPM3-4B)！该模型的表现超越 Phi-3.5-mini-instruct 和 GPT-3.5-Turbo-0125，并且能够比肩 Llama3.1-8B-Instruct、Qwen2-7B-Instruct、GLM-4-9B-Chat 等多个 7B-9B 参数量的模型。
+## 更新日志🔥
+- [2025.06.06] **发布 [MiniCPM4](https://huggingface.co/collections/openbmb/minicpm-4-6841ab29d180257e940baa9b)！该模型在保持同等规模最优性能的同时，实现了极致的效率提升！在典型端侧芯片上能够实现 5 倍以上生成加速！**
+- [2024.09.28] [LLMxMapReduce](https://github.com/thunlp/LLMxMapReduce) 开源，支持 MiniCPM3-4B，理论上支持无限长文本输入！
+- [2024.09.18] [SGLang](https://github.com/sgl-project/sglang) 已经支持 MiniCPM3-4B (推荐使用)！由于 SGLang v0.3 对 MiniCPM3 中使用的 MLA 结构进行了推理优化，吞吐量相比于 vLLM 提高 70%！[[用法](#sglang推荐)]
+- [2024.09.16] [llama.cpp](https://github.com/ggerganov/llama.cpp/releases/tag/b3765) 已经官方支持 MiniCPM3-4B！[[GGUF模型](https://huggingface.co/openbmb/MiniCPM3-4B-GGUF)|[用法](#llamacpp)]
+- [2024.09.05] 发布 [MiniCPM3-4B](https://huggingface.co/openbmb/MiniCPM3-4B)！该模型的表现超越 Phi-3.5-mini-instruct 和 GPT-3.5-Turbo-0125，并且能够比肩 Llama3.1-8B-Instruct、Qwen2-7B-Instruct、GLM-4-9B-Chat 等多个 7B-9B 参数量的模型。
 - [2024.07.09] MiniCPM-2B 已经支持使用 [SGLang](#sglang-推理) 推理！
 - [2024.07.05] 发布 [MiniCPM-S-1B](https://huggingface.co/openbmb/MiniCPM-S-1B-sft)！该模型在保持下游任务性能无损的前提下，FFN 层实现了 87.89% 的平均稀疏度，将 FFN FLOPs 降低了 84%。
 - [2024.04.11] 发布 [MiniCPM-2B-128k](https://huggingface.co/openbmb/MiniCPM-2B-128k)、[MiniCPM-MoE-8x2B](https://huggingface.co/openbmb/MiniCPM-MoE-8x2B) 和 [MiniCPM-1B](https://huggingface.co/openbmb/MiniCPM-1B-sft-bf16)！点击[这里](https://openbmb.vercel.app/?category=Chinese+Blog)查看技术博客。
 - [2024.03.16] MiniCPM-2B 的 30 余个中间检查点开放了！[HuggingFace链接](https://huggingface.co/openbmb/MiniCPM-2B-history)
-- [2024.02.01] 发布 [**MiniCPM-2B**](https://huggingface.co/openbmb/MiniCPM-2B-sft-bf16)！该模型在公开评测集上与 Mistral-7B 表现相近（中文、数学、代码能力更优），整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。
+- [2024.02.01] 发布 [MiniCPM-2B](https://huggingface.co/openbmb/MiniCPM-2B-sft-bf16)！该模型在公开评测集上与 Mistral-7B 表现相近（中文、数学、代码能力更优），整体性能超越 Llama2-13B、MPT-30B、Falcon-40B 等模型。
 
 ## 目录
 
+- [更新日志🔥](#更新日志)
+- [目录](#目录)
 - [模型下载](#模型下载)
-- [MiniCPM 3.0](#minicpm-30)
+- [MiniCPM 4.0](#minicpm-40)
   - [评测结果](#评测结果)
+    - [效率评测](#效率评测)
     - [综合评测](#综合评测)
-    - [工具调用能力](#工具调用能力)
-    - [长文本能力](#长文本能力)
+    - [长文本评测](#长文本评测)
+  - [BitCPM4: 模型量化](#bitcpm4-模型量化)
+    - [BitCPM4评测](#bitcpm4评测)
+    - [BitCPM4模型推理](#bitcpm4模型推理)
+  - [模型应用](#模型应用)
+    - [MiniCPM4-Survey: 综述生成](#minicpm4-survey-综述生成)
+    - [MiniCPM4-MCP: MCP增强的工具调用](#minicpm4-mcp-mcp增强的工具调用)
   - [模型推理](#模型推理)
+    - [CPM.cu](#cpmcu)
     - [HuggingFace](#huggingface)
     - [vLLM](#vllm)
-    - [llama.cpp](#llamacpp)
+    - [SGLang](#sglang)
   - [模型微调](#模型微调)
-    - [LLaMA-Factory](#llama-factory)
-  - [进阶功能](#进阶功能)
-    - [工具调用](#工具调用)
-    - [代码解释器](#代码解释器)
+    - [LLaMA-Factory](#llamA-factory)
+- [MiniCPM 3.0](#minicpm-30)
 - [MiniCPM 2.0](#minicpm-20)
 - [MiniCPM 1.0](#minicpm-10)
+- [开源协议](#开源协议)
+- [开发机构](#开发机构)
+- [工作引用](#工作引用)
 
 
 ## 模型下载
  
   | HuggingFace | ModelScope |
   |-------------|------------|
+  | [MiniCPM4-8B](https://huggingface.co/openbmb/MiniCPM4-8B)    | [MiniCPM4-8B](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-8B) |
+  | [MiniCPM4-0.5B](https://huggingface.co/openbmb/MiniCPM4-0.5B) | [MiniCPM4-0.5B](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-0.5B) |
+  | [BitCPM4-1B](https://huggingface.co/openbmb/BitCPM4-1B)        | [BitCPM4-1B](https://www.modelscope.cn/models/OpenBMB/BitCPM4-1B) |
+  | [BitCPM4-0.5B](https://huggingface.co/openbmb/BitCPM4-0.5B)    | [BitCPM4-0.5B](https://www.modelscope.cn/models/OpenBMB/BitCPM4-0.5B) |
+  | [MiniCPM4-8B-Eagle-FRSpec](https://huggingface.co/openbmb/MiniCPM4-8B-Eagle-FRSpec) | [MiniCPM4-8B-Eagle-FRSpec](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-8B-Eagle-FRSpec) |
+  | [MiniCPM4-8B-Eagle-FRSpec-QAT](https://huggingface.co/openbmb/MiniCPM4-8B-Eagle-FRSpec-QAT) | [MiniCPM4-8B-Eagle-FRSpec-QAT](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-8B-Eagle-FRSpec-QAT) |
+  | [MiniCPM4-8B-Eagle-vLLM](https://huggingface.co/openbmb/MiniCPM4-8B-Eagle-vLLM) | [MiniCPM4-8B-Eagle-vLLM](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-8B-Eagle-vLLM) |
+  | [MiniCPM4-8B-marlin-Eagle-vLLM](https://huggingface.co/openbmb/MiniCPM4-8B-marlin-Eagle-vLLM) | [MiniCPM4-8B-marlin-Eagle-vLLM](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-8B-marlin-Eagle-vLLM) |
+  | [MiniCPM4-Survey](https://huggingface.co/openbmb/MiniCPM4-Survey) | [MiniCPM4-Survey](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-Survey) |
+  | [MiniCPM4-MCP](https://huggingface.co/openbmb/MiniCPM4-MCP)  | [MiniCPM4-MCP](https://www.modelscope.cn/models/OpenBMB/MiniCPM4-MCP) |
+  | [MiniCPM4-0.5B-QAT-Int4-unquantized](https://huggingface.co/openbmb/MiniCPM4-0.5B-QAT-Int4-unquantized) | [MiniCPM4-0.5B-QAT-Int4-unquantized](https://modelscope.cn/models/OpenBMB/MiniCPM4-0.5B-QAT-Int4-unquantized) |
+  | [MiniCPM4-0.5B-QAT-Int4-GPTQ-format](https://huggingface.co/openbmb/MiniCPM4-0.5B-QAT-Int4-GPTQ-format) | [MiniCPM4-0.5B-QAT-Int4-GPTQ-format](https://modelscope.cn/models/OpenBMB/MiniCPM4-0.5B-QAT-Int4-GPTQ-format) |
   |[MiniCPM3-4B](https://huggingface.co/openbmb/MiniCPM3-4B)|[MiniCPM3-4B](https://www.modelscope.cn/models/OpenBMB/MiniCPM3-4B)|
   |[MiniCPM-2B-sft](https://huggingface.co/openbmb/MiniCPM-2B-sft-bf16)|[MiniCPM-2B-sft](https://modelscope.cn/models/OpenBMB/miniCPM-bf16)|
   |[MiniCPM-2B-dpo](https://huggingface.co/openbmb/MiniCPM-2B-dpo-bf16)|[MiniCPM-2B-dpo](https://modelscope.cn/models/OpenBMB/MiniCPM-2B-dpo-bf16/summary)|
@@ -72,14 +99,393 @@ featuredImagePreview: https://images.unsplash.com/photo-1725221904479-9b196e4b0d
 
   注: 更多模型版本见[这里](https://huggingface.co/collections/openbmb/minicpm-2b-65d48bf958302b9fd25b698f)。
 
+## MiniCPM 4.0
+MiniCPM 4 是一个极致高效的端侧大模型，从模型架构、学习算法、训练数据与推理系统四个层面进行了高效优化，实现了极致的效率提升。
+- 🏗️ 高效模型架构：
+  - InfLLM v2 -- 可训练的稀疏注意力机制：采用可训练的稀疏注意力机制架构，在 128K 长文本处理中，每个词元仅需与不足 5% 的词元进行相关性计算，显著降低长文本的计算开销
+- 🧠 高效学习算法：
+  - 模型风洞 2.0 -- 高效 Predictable Scaling：引入下游任务的 Scaling 预测方法，实现更精准的模型训练配置搜索
+  - BitCPM -- 极致的三值量化：将模型参数位宽压缩至 3 值，实现模型位宽 90% 的极致瘦身
+  - 高效训练工程优化：采用 FP8 低精度计算技术，结合多词元预测（Multi-token Prediction）训练策略
+- 📚 高知识密度训练数据：
+  - UltraClean -- 高质量预训练数据的清洗与合成：构建基于高效验证的迭代式数据清洗策略，开源高质量中英文预训练数据集 [UltraFineweb](https://huggingface.co/datasets/openbmb/Ultra-FineWeb)
+  - UltraChat v2 -- 高质量有监督微调数据合成：构建大规模高质量有监督微调数据集，涵盖知识密集型数据、推理密集型数据、指令遵循数据、长文本理解数据、工具调用数据等多个维度
+- ⚡ 高效推理系统：
+  - CPM.cu -- 轻量级的高效CUDA推理框架：融合了稀疏注意力机制、模型量化与投机采样，充分体现MiniCPM4的效率优势
+  - ArkInfer -- 跨平台部署系统：支持多后端环境的一键部署，提供灵活的跨平台适配能力
+
+### 评测结果
+#### 效率评测
+在 Jetson AGX Orin 和 RTX 4090 两款典型端侧芯片上，MiniCPM4 在长文本处理任务中展现出大幅领先同尺寸模型的处理速度。随着文本长度的增加，MiniCPM4 的性能优势愈发显著。在 Jetson AGX Orin 平台上，相较于 Qwen3-8B，MiniCPM4 实现了约 7 倍的生成速度提升。
+
+![benchmark](./assets/minicpm4/efficiency.png)
+
+#### 综合评测
+MiniCPM4 推出端侧 8B、0.5B 两种参数规模版本，均在同级别模型中实现了最佳性能表现。
+![benchmark](./assets/minicpm4/benchmark.png)
+
+#### 长文本评测
+MiniCPM4 基于 32K 长文本进行预训练，并通过 YaRN 技术实现长度扩展。在 128K 长文本的大海捞针任务中，MiniCPM4 展现出卓越的性能表现。
+
+![long-niah](./assets/minicpm4/128k-niah.png)
+
+### BitCPM4: 模型量化
+BitCPM4 是基于 MiniCPM 系列模型进行量化感知训练（QAT）后得到的三值量化模型，在训练效率和模型参数效率实现了有效的提升。
+- 训练方法改进
+  - 在小规模模型上进行风洞实验，搜索训练所需的训练超参。
+  - 通过使用一阶段高精训练+二阶段 QAT 的方法，充分利用已经完成或部分完成训练的高精度模型，极大地压缩了 QAT 阶段所需要的算力。
+- 高效参数效率
+  - 模型使用 1.58Bit 的位宽达到的性能对标与同参数量级别的全精度模型，模型参数效率高。
+
+#### BitCPM4 评测
+BitCPM4 在测试中的表现可以对标同级别的业界主流全精度模型。
+![bitcpm-benchmark](./assets/minicpm4/bitcpm4-benchmark.png)
+
+#### BitCPM4 模型推理
+BitCPM4 开源的模型参数为伪量化形式，可以直接使用 Huggingface 框架进行推理。
+
+### 模型应用
+
+#### MiniCPM4-Survey: 综述生成
+MiniCPM4-Survey 是由 [THUNLP](https://nlp.csai.tsinghua.edu.cn)、中国人民大学和 [ModelBest](https://modelbest.cn/en) 联合开发的开源大语言模型智能体。它基于 MiniCPM4-8B 基座模型，接受用户质量作为输入，自主生成可信的长篇综述论文。
+主要特性包括：
+- 计划-检索-写作生成框架 — 我们提出了一个多智能体生成框架，包含三个核心阶段：计划（定义综述的整体结构）、检索（生成合适的检索关键词）和写作（利用检索到的信息，生成连贯的段落）。
+- 高质量数据集构建——我们收集并处理大量人类专家写作的综述论文，构建高质量训练集。同时，我们收集大量研究论文，构建检索数据库。
+- 多方面奖励设计 — 我们精心设计了包含结构、内容和引用的奖励，用于评估综述的质量，在强化学习训练阶段作奖励函数。
+- 多步强化学习训练策略 — 我们提出了一个上下文管理器，以确保在促进有效推理的同时保留必要的信息，并构建了并行环境，维持强化学习训练高效。
+##### 使用与演示案例
+
+详见[此处](./demo/minicpm4/SurveyGeneration/README.md)
+
+##### 评估
+
+| Method                                      | Relevance | Coverage | Depth | Novelty | Avg.  | Fact Score |
+|---------------------------------------------|-----------|----------|-------|---------|-------|------------|
+| Naive RAG (driven by G2FT)                  | 3.25      | 2.95     | 3.35  | 2.60    | 3.04  | 43.68      |
+| AutoSurvey (driven by G2FT)                 | 3.10      | 3.25     | 3.15  | **3.15**| 3.16  | 46.56      |
+| Webthinker (driven by WTR1-7B)              | 3.30      | 3.00     | 2.75  | 2.50    | 2.89  | --         |
+| Webthinker (driven by QwQ-32B)              | 3.40      | 3.30     | 3.30  | 2.50    | 3.13  | --         |
+| OpenAI Deep Research (driven by GPT-4o)     | 3.50      |**3.95**  | 3.55  | 3.00    | **3.50**  | --         |
+| MiniCPM4-Survey                            | 3.45      | 3.70     | **3.85** | 3.00    | **3.50**  | **68.73**  |
+| &nbsp;&nbsp;&nbsp;*w/o* RL                  | **3.55**  | 3.35     | 3.30  | 2.25    | 3.11  | 50.24      |
+
+*GPT-4o 对综述生成系统的性能比较。“G2FT” 代表 Gemini-2.0-Flash-Thinking，“WTR1-7B” 代表 Webthinker-R1-7B。由于 Webthinker 不包括引用功能，OpenAI Deep Research 在导出结果时不提供引用，因此省略了对它们的 FactScore 评估。我们的技术报告中包含评测的详细信息。*
+
+#### MiniCPM4-MCP: MCP增强的工具调用
+
+MiniCPM4-MCP 是由[清华大学自然语言处理实验室（THUNLP）](https://nlp.csai.tsinghua.edu.cn)、中国人民大学与 [ModelBest](https://modelbest.cn/en) 联合开发的开源本地大语言模型代理，它基于 MiniCPM-4-8B，拥有 80 亿参数。它能够通过 MCP 协议与各种工具和数据资源交互，解决多种真实世界任务。截至目前，MiniCPM4-MCP 已支持：
+
+- 涵盖 16 个 MCP 服务器（servers）中工具的使用：这些服务器所包含的工具横跨了办公类、生活类、通讯类、资讯类、工作管理类等.
+
+- 单工具使用的能力：可使用符合 MCP 协议的工具进行单一工具的一步或多步调用。
+
+- 跨工具组合使用的能力：可组合使用符合 MCP 协议的不同工具。
+
+
+##### 使用与演示案例
+
+详见[此处](./demo/minicpm4/MCP/README.md)
+
+##### 评估
+
+| MCP 服务器             |          | gpt-4o   |          |          | qwen3    |          |          | minicpm4 |          |
+| -------------------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- | -------- |
+|                      | 函数名正确率   | 参数名正确率    | 数值正确率    | 函数名正确率   | 参数名正确率    | 数值正确率    | 函数名正确率   | 参数名正确率    | 数值正确率    |
+| Airbnb                | 89.3           | 67.9         | 53.6         | 92.8          | 60.7         | 50.0         | 96.4           | 67.9         | 50.0         |
+| Amap-Maps             | 79.8           | 77.5         | 50.0         | 74.4          | 72.0         | 41.0         | 89.3           | 85.7         | 39.9         |
+| Arxiv-MCP-Server      | 85.7           | 85.7         | 85.7         | 81.8          | 54.5         | 50.0         | 57.1           | 57.1         | 52.4         |
+| Calculator            | 100.0          | 100.0        | 20.0         | 80.0          | 80.0         | 13.3         | 100.0          | 100.0        | 6.67         |
+| Computor-Control-MCP  | 90.0           | 90.0         | 90.0         | 90.0          | 90.0         | 90.0         | 90.0           | 90.0         | 86.7         |
+| Desktop-Commander     | 100.0          | 100.0        | 100.0        | 100.0         | 100.0        | 100.0        | 100.0          | 100.0        | 100.0        |
+| Filesystem            | 63.5           | 63.5         | 31.3         | 69.7          | 69.7         | 26.0         | 83.3           | 83.3         | 42.7         |
+|Github | 92.0 | 80.0 | 58.0 | 80.5 | 50.0 | 27.7 | 62.8 | 25.7 | 17.1 |
+| Gaode                 | 71.1           | 55.6         | 17.8         | 68.8          | 46.6         | 24.4         | 68.9           | 46.7         | 15.6         |
+| MCP-Code-Executor     | 85.0           | 80.0         | 70.0         | 80.0          | 80.0         | 70.0         | 90.0           | 90.0         | 65.0         |
+| MCP-Docx              | 95.8           | 86.7         | 67.1         | 94.9          | 81.6         | 60.1         | 95.1           | 86.6         | 76.1         |
+| PPT                   | 72.6           | 49.8         | 40.9         | 85.9          | 50.7         | 37.5         | 91.2           | 72.1         | 56.7         |
+| PPTx                  | 64.2           | 53.7         | 13.4         | 91.0          | 68.6         | 20.9         | 91.0           | 58.2         | 26.9         |
+| Simple-Time-Server    | 90.0           | 70.0         | 70.0         | 90.0          | 90.0         | 90.0         | 90.0           | 60.0         | 60.0         |
+| Slack                 | 100.0          | 90.0         | 70.0         | 100.0         | 100.0        | 65.0         | 100.0          | 100.0        | 100.0        |
+| Whisper               | 90.0           | 90.0         | 90.0         | 90.0          | 90.0         | 90.0         | 90.0           | 90.0         | 30.0         |
+| **平均值**              | **80.2**       | **70.2**     | **49.1**     | **83.5**      | **67.7**     | **43.8**     | **88.3**       | **76.1**     | **51.2**     |
+  
+### 模型推理
+
+#### CPM.cu
+
+我们**推荐**使用 [CPM.cu](https://github.com/OpenBMB/CPM.cu) 对 MiniCPM4 模型进行推理。CPM.cu 是面壁开发的一个集合了高效稀疏、投机采样、量化等技术的 CUDA 推理框架，能够完全发挥 MiniCPM4 的效率优势。
+
+你可以通过以下脚本安装 CPM.cu 并进行推理：
+
+```bash
+git clone https://github.com/OpenBMB/CPM.cu.git --recursive
+cd CPM.cu
+python3 setup.py install
+```
+
+你可以通过以下命令进行推理并查看模型的运行速度。
+
+```bash
+python3 tests/long_prompt_gen.py # 生成 prompt.txt
+python3 tests/test_generate.py --prompt-file prompt.txt
+```
+
+更多关于 CPM.cu 的细节，请参考 [CPM.cu 仓库](https://github.com/OpenBMB/CPM.cu)。
+
+#### HuggingFace
+
+```python
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
+torch.manual_seed(0)
+
+path = 'openbmb/MiniCPM4-8B'
+device = "cuda"
+tokenizer = AutoTokenizer.from_pretrained(path)
+model = AutoModelForCausalLM.from_pretrained(path, torch_dtype=torch.bfloat16, device_map=device, trust_remote_code=True)
+
+# User can directly use the chat interface
+# responds, history = model.chat(tokenizer, "Write an article about Artificial Intelligence.", temperature=0.7, top_p=0.7)
+# print(responds)
+
+# User can also use the generate interface
+messages = [
+    {"role": "user", "content": "Write an article about Artificial Intelligence."},
+]
+prompt_text = tokenizer.apply_chat_template(
+    messages,
+    tokenize=False,
+    add_generation_prompt=True,
+)
+model_inputs = tokenizer([prompt_text], return_tensors="pt").to(device)
+
+model_outputs = model.generate(
+    **model_inputs,
+    max_new_tokens=1024,
+    top_p=0.7,
+    temperature=0.7
+)
+output_token_ids = [
+    model_outputs[i][len(model_inputs[i]):] for i in range(len(model_inputs['input_ids']))
+]
+
+responses = tokenizer.batch_decode(output_token_ids, skip_special_tokens=True)[0]
+print(responses)
+```
+
+本模型支持稀疏注意力机制 InfLLM v2，可高效处理长序列推理。如需启用该功能，请先安装依赖库 [infllmv2_cuda_impl](https://github.com/OpenBMB/infllmv2_cuda_impl)
+
+
+运行以下命令即可安装：
+
+```bash
+git clone -b feature_infer https://github.com/OpenBMB/infllmv2_cuda_impl.git
+cd infllmv2_cuda_impl
+git submodule update --init --recursive
+pip install -e . # or python setup.py install 
+```
+
+启用 InfLLM v2 需在 `config.json` 配置文件中添加 `sparse_config` 字段：
+
+```json
+{
+    ...,
+    "sparse_config": {
+        "kernel_size": 32,
+        "kernel_stride": 16,
+        "init_blocks": 1,
+        "block_size": 64,
+        "window_size": 2048,
+        "topk": 64,
+        "use_nope": false,
+        "dense_len": 8192
+    }
+}
+```
+
+这些参数控制 InfLLM v2 的行为:
+
+* `kernel_size`（默认值：32）：语义核的大小。  
+* `kernel_stride`（默认值：16）：相邻语义核的步长。  
+* `init_blocks`（默认值：1）：每个 query token 关注的初始的块数量，用于确保关注序列开头部分。  
+* `block_size`（默认值：64）：key-value blocks 的块大小。  
+* `window_size`（默认值：2048）：局部滑动窗口大小。  
+* `topk`（默认值：64）：每个 token 仅与最相关的 top-k 个 key-value blocks 计算注意力。  
+* `use_nope`（默认值：false）：是否在块选择中使用NOPE技术以提升性能。  
+* `dense_len`（默认值：8192）：稀疏注意力对短序列收益有限，当 token 长度低于此阈值时自动切换为标准注意力。设为 `-1` 则强制始终使用稀疏注意力。
+
+Minicpm4 原生支持 32,768 tokens 的上下文长度。若对话总长度（输入 + 输出）远超此限制，建议通过 RoPE 缩放技术扩展上下文。我们已验证通过调整 LongRoPE 因子，模型可稳定支持 131,072 tokens 的超长上下文。
+
+修改方法：在 `config.json` 文件中调整 `rope_scaling` 字段参数即可。
+
+```json
+{
+    ...,
+    "rope_scaling": {
+        "rope_type": "longrope", 
+        "long_factor": [0.9977997200264581, 1.014658295992452, 1.0349680404997148, 1.059429246056193, 1.0888815016813513, 1.1243301355211495, 1.166977103606075, 1.2182568066927284, 1.2798772354275727, 1.3538666751582975, 1.4426259039919596, 1.5489853358570191, 1.6762658237220625, 1.8283407612492941, 2.0096956085876183, 2.225478927469756, 2.481536379650452, 2.784415934557119, 3.1413289096347365, 3.560047844772632, 4.048719380066383, 4.752651957515948, 5.590913044973868, 6.584005926629993, 7.7532214876576155, 9.119754865903639, 10.704443927019176, 12.524994176518703, 14.59739595363613, 16.93214476166354, 19.53823297353041, 22.417131025031697, 25.568260840911098, 28.991144156566317, 32.68408069090375, 36.65174474170465, 40.90396065611201, 45.4664008671033, 50.37147343433591, 55.6804490772103, 61.470816952306556, 67.8622707390618, 75.00516023410414, 83.11898235973767, 92.50044360202462, 103.57086856690864, 116.9492274587385, 118.16074567836519, 119.18497548708795, 120.04810876261652, 120.77352815196981, 121.38182790207875, 121.89094985353891, 122.31638758099915, 122.6714244963338, 122.9673822552567, 123.21386397019609, 123.41898278254268, 123.58957065488238, 123.73136519024158, 123.84917421274221, 123.94701903496814, 124.02825801299717, 124.09569231686116],
+        "short_factor": [0.9977997200264581, 1.014658295992452, 1.0349680404997148, 1.059429246056193, 1.0888815016813513, 1.1243301355211495, 1.166977103606075, 1.2182568066927284, 1.2798772354275727, 1.3538666751582975, 1.4426259039919596, 1.5489853358570191, 1.6762658237220625, 1.8283407612492941, 2.0096956085876183, 2.225478927469756, 2.481536379650452, 2.784415934557119, 3.1413289096347365, 3.560047844772632, 4.048719380066383, 4.752651957515948, 5.590913044973868, 6.584005926629993, 7.7532214876576155, 9.119754865903639, 10.704443927019176, 12.524994176518703, 14.59739595363613, 16.93214476166354, 19.53823297353041, 22.417131025031697, 25.568260840911098, 28.991144156566317, 32.68408069090375, 36.65174474170465, 40.90396065611201, 45.4664008671033, 50.37147343433591, 55.6804490772103, 61.470816952306556, 67.8622707390618, 75.00516023410414, 83.11898235973767, 92.50044360202462, 103.57086856690864, 116.9492274587385, 118.16074567836519, 119.18497548708795, 120.04810876261652, 120.77352815196981, 121.38182790207875, 121.89094985353891, 122.31638758099915, 122.6714244963338, 122.9673822552567, 123.21386397019609, 123.41898278254268, 123.58957065488238, 123.73136519024158, 123.84917421274221, 123.94701903496814, 124.02825801299717, 124.09569231686116],
+        "original_max_position_embeddings": 32768
+    }
+}
+```
+
+#### vLLM
+* 安装
+  
+参照 vLLM [官方仓库](https://github.com/vllm-project/vllm)，通过*源码*安装最新版本。
+```
+pip install -U vllm \
+    --pre \
+    --extra-index-url https://wheels.vllm.ai/nightly
+```
+
+* 使用 vLLM 推理 MiniCPM4-8B 模型：
+```python
+from transformers import AutoTokenizer
+from vllm import LLM, SamplingParams
+
+model_name = "openbmb/MiniCPM4-8B"
+prompt = [{"role": "user", "content": "推荐5个北京的景点。"}]
+
+tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
+input_text = tokenizer.apply_chat_template(prompt, tokenize=False, add_generation_prompt=True)
+
+llm = LLM(
+    model=model_name,
+    trust_remote_code=True,
+    max_num_batched_tokens=32768, 
+    dtype="bfloat16", 
+    gpu_memory_utilization=0.8, 
+)
+sampling_params = SamplingParams(top_p=0.7, temperature=0.7, max_tokens=1024, repetition_penalty=1.02)
+
+outputs = llm.generate(prompts=input_text, sampling_params=sampling_params)
+
+print(outputs[0].outputs[0].text)
+```
+
+* 在 vLLM 中使用 Eagle 投机解码：只需如下初始化推理引擎
+```python
+llm = LLM(
+    model=model_name,
+    trust_remote_code=True,
+    max_num_batched_tokens=32768, 
+    dtype="bfloat16", 
+    gpu_memory_utilization=0.8, 
+    speculative_config={
+        "method": "eagle",
+        "model": "openbmb/MiniCPM4-8B-Eagle-vLLM",
+        "num_speculative_tokens": 2,
+        "max_model_len": 32768,
+    },
+)
+```
+
+* 在 vLLM 中推理量化后的 MiniCPM4-8B：只需如下初始化推理引擎
+```python
+llm = LLM(
+    model="openbmb/MiniCPM4-8B-marlin-vLLM",
+    trust_remote_code=True,
+    max_num_batched_tokens=32768, 
+    dtype="bfloat16", 
+    gpu_memory_utilization=0.8, 
+)
+```
+
+* 在 vLLM 中使用 Eagle 投机解码推理量化后的 MiniCPM4-8B：只需如下初始化推理引擎
+```python
+llm = LLM(
+    model="openbmb/MiniCPM4-8B-marlin-vLLM",
+    trust_remote_code=True,
+    max_num_batched_tokens=32768,
+    dtype="bfloat16",
+    gpu_memory_utilization=0.8,
+    speculative_config={
+        "method": "eagle",
+        "model": "openbmb/MiniCPM4-8B-marlin-Eagle-vLLM",
+        "num_speculative_tokens": 2,
+        "max_model_len": 32768,
+    },
+)
+```
+
+> **注意**：如果你使用 vLLM 中的 OpenAI 兼容的服务端，`chat` API 默认会将 `add_special_tokens` 设置为 `False`。这会导致缺失一些特殊标记（例如，BOS），而这些标记对 **MiniCPM4** 模型至关重要。为确保模型行为正常，你需要在 API 调用中显式设置 `extra_body={"add_special_tokens": True}`，如下所示：
+
+```python
+import openai
+
+client = openai.Client(base_url="http://localhost:8000/v1", api_key="EMPTY")
+
+response = client.chat.completions.create(
+    model="openbmb/MiniCPM4-8B",
+    messages=[
+        {"role": "user", "content": "Write an article about Artificial Intelligence."},
+    ],
+    temperature=0.7,
+    max_tokens=1024,
+    extra_body={"add_special_tokens": True},  # 确保添加了诸如 BOS 等特殊标记
+)
+
+print(response.choices[0].message.content)
+```
+
+#### SGLang
+* 安装
+
+参考 SGLang [官方仓库](ttps://github.com/sgl-project/sglang)，通过*源码*安装。
+```
+git clone -b openbmb https://github.com/OpenBMB/sglang.git
+cd sglang
+
+pip install --upgrade pip
+pip install -e "python[all]"
+```
+
+* 启动推理服务
+```shell
+python -m sglang.launch_server --model openbmb/MiniCPM4-8B --trust-remote-code --port 30000 --chat-template chatml
+```
+
+* 然后用户可以通过运行以下命令来使用聊天界面：
+```python
+import openai
+
+client = openai.Client(base_url=f"http://localhost:30000/v1", api_key="None")
+
+response = client.chat.completions.create(
+    model="openbmb/MiniCPM4-8B",
+    messages=[
+        {"role": "user", "content": "Write an article about Artificial Intelligence."},
+    ],
+    temperature=0.7,
+    max_tokens=1024,
+)
+print(response.choices[0].message.content)
+```
+
+* 使用投机加速
+```shell
+python3 -m sglang.launch_server --model-path [model] \ 
+    --speculative_draft_model_path [draft_model] \
+    --host 0.0.0.0 --trust-remote-code \
+    --speculative-algorithm EAGLE --speculative-num-steps 1 --speculative-eagle-topk 1 --speculative-num-draft-tokens 2 \
+    --mem-fraction 0.5
+```
+
+### 模型微调
+#### LLaMA-Factory
+目前模型微调支持 [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory)，使用方法参考 [LLaMA-Factory 微调](https://t0mvtyikswc.feishu.cn/docx/Gv6ld1yCTodckBxysKgcpepJnKg?from=from_copylink)
 
 ## MiniCPM 3.0
+<details>
+<summary>查看 MiniCPM 3.0 的详细信息</summary>
 
 MiniCPM 3.0 是一个 4B 参数量的语言模型，相比 MiniCPM1.0/2.0，功能更加全面，综合能力大幅提升，多数评测集上的效果比肩甚至超越众多 7B-9B 模型。
 * **支持工具调用🛠️（Function Calling）和代码解释器💻（Code Interpreter）**：[Berkeley Function Calling Leaderboard (BFCL)](https://gorilla.cs.berkeley.edu/leaderboard.html) 上取得 9B 规模以下 SOTA，超越 GLM-4-9B-Chat、Qwen2-7B-Instruct。
 * **超强的推理能力🧮**：数学能力方面，[MathBench](https://open-compass.github.io/MathBench/) 上的效果超越 GPT-3.5-Turbo 以及多个 7B-9B 模型。在非常具有挑战性的 [LiveCodeBench](https://livecodebench.github.io/) 上，效果超越 Llama3.1-8B-Instruct。
 * **出色的中英文指令遵循能力🤖**：英文指令遵循 [IFEval](https://huggingface.co/datasets/google/IFEval)、中文指令遵循 [FollowBench-zh](https://huggingface.co/datasets/YuxinJiang/FollowBench) 效果超越 GLM-4-9B-Chat、Qwen2-7B-Instruct。
-* **长文本能力**：原生支持 32k 上下文长度，32k 长度内大海捞针全绿。提出 **LLM x MapReduce** ，理论可处理的上下文长度达到 +∞。
+* **长文本能力**：原生支持 32k 上下文长度，32k 长度内大海捞针全绿。提出 [LLMxMapReduce](https://github.com/thunlp/LLMxMapReduce) ，理论可处理的上下文长度达到 +∞，在综合性长文本评测基准 [InfiniteBench](https://github.com/OpenBMB/InfiniteBench) 平均得分超越GPT-4、KimiChat等标杆模型。
 * **RAG能力**：我们发布了 [MiniCPM RAG 套件](https://huggingface.co/collections/openbmb/minicpm-rag-suite-66d976b4204cd0a4f8beaabb)。基于 MiniCPM 系列模型的 [MiniCPM-Embedding](https://huggingface.co/openbmb/MiniCPM-Embedding)、[MiniCPM-Reranker](https://huggingface.co/openbmb/MiniCPM-Reranker) 在中文、中英跨语言检索测试中取得 SOTA 表现；针对 RAG 场景的 [MiniCPM3-RAG-LoRA](https://huggingface.co/openbmb/MiniCPM3-RAG-LoRA) 在开放域问答等多项任务上超越 Llama3-8B、Baichuan2-13B 等模型。
 
 ### 评测结果
@@ -344,7 +750,24 @@ MiniCPM 3.0 是一个 4B 参数量的语言模型，相比 MiniCPM1.0/2.0，功�
 
 在 32k 的上下文长度进行[大海捞针](https://github.com/gkamradt/LLMTest_NeedleInAHaystack)测试，结果如下图：
 
-![needle](assets/eval_needle.jpeg)
+![needle](assets/minicpm3/eval_needle.jpeg)
+
+同时我们提出[LLMxMapReduce](https://github.com/thunlp/LLMxMapReduce)，利用分治的策略，理论上可以处理无限长度的文本。我们在[InfiniteBench](https://github.com/OpenBMB/InfiniteBench)上测试了模型的长文本处理能力，在LLMxMapReduce框架的加持下，MiniCPM3-4B在这个榜单的平均得分能够超越 GPT-4、KimiChat 等标杆模型。
+
+|                               | Context length| Qwen2-70b | Kimi-Chat(2024.06) | GPT-4 (From InfiniteBench) | MiniCPM 3.0 x MR | Qwen2-70b x MR | Llama3-70bx MR |
+| ----------------------------- | ---------- | --------- | ------------------ | -------------------------- | --------------- | ------------ | ------------- |
+| Math.Find                     | 87.9k      | 59.71%    | 18.57%             | 60.00%                     | 83.43%          | 54.29%       | **91.43%**        |
+| Retrieve.KV                   | 89.9k      | 29.00%    | 69.20%             | 89.00%                     | 93.80%          | 98.80%       | **98.89%**        |
+| En.Dia                        | 103.6K     | 23.00%    | 23.00%             | 7.50%                      | 12.50%          | **46.50%**       | 17.50%        |
+| Code.Debug                    | 114.7k     | 45.43%    | 38.32%             | 54.31%                     | 25.63%          | 54.82%       | **62.94%**       |
+| Retrieve.Number               | 122.4k     | **100.00%**  | 97.45%             | **100.00%**                   | 99.32%          | **100.00%**     | 99.79%        |
+| Retrieve.PassKey              | 122.4k     | **100.00%**   | 99.32%             | **100.00%**                   | 98.81%          | **100.00%**     | **100.00%**      |
+| En.Sum                        | 171.5K     | 31.85%    | 29.94%             | 14.73%                     | 25.89%          | **32.39%**       | 30.63%        |
+| En.MC                         | 184.4k     | 81.66%    | 79.91%             | 68.12%                     | 66.38%          |**83.84%**      | 82.10%        |
+| En.QA        | 192.6k     | 21.97%    | 18.80%             | 22.44%                     | 28.39%          | 23.13%       | **34.70%**      |
+| Zh.QA        | 2068.6k    | 21.40%    | 19.84%             | **25.96%**                    | 23.66%          | 19.10%       | N/A           |
+| avg w/o Zh.QA | /          | 51.92%    | 52.96%             | 55.33%                     | 59.29%          | 64.98%       | **68.64%**        |
+| avg                           | /          | 48.86%    | 49.65%             | 52.39%                     | 55.55%          | **60.39%**       | N/A           |
 
 ### 模型推理
 
@@ -362,10 +785,42 @@ responds, history = model.chat(tokenizer, "请写一篇关于人工智能的文�
 print(responds)
 ```
 
+#### SGLang（推荐）
+* 安装
+
+参考 SGLang [官方仓库](ttps://github.com/sgl-project/sglang)，通过*源码*安装最新版本。
+
+* 启动推理服务
+```shell
+python -m sglang.launch_server --model openbmb/MiniCPM3-4B --trust-remote-code --port 30000 --chat-template chatml
+```
+
+* 使用示例
+```python
+from sglang import function, system, user, assistant, gen, set_default_backend, RuntimeEndpoint
+
+@function
+def multi_turn_question(s, question_1, question_2):
+    s += user(question_1)
+    s += assistant(gen("answer_1", max_tokens=1024))
+    s += user(question_2)
+    s += assistant(gen("answer_2", max_tokens=1024))
+
+set_default_backend(RuntimeEndpoint("http://localhost:30000"))
+
+state = multi_turn_question.run(
+    question_1="介绍一下人工智能",
+    question_2="写一篇关于它的文章",
+)
+
+for m in state.messages():
+    print(m["role"], ":", m["content"])
+```
+
 #### vLLM
 * 安装 vllm
   ```shell
-  pip install git+https://github.com/OpenBMB/vllm.git@minicpm3
+  pip install "vllm>=0.6.2"
   ```
 * 推理
   ```python
@@ -390,35 +845,18 @@ print(responds)
   ```
 
 #### llama.cpp
+
+我们提供了 MiniCPM3 的 [GGUF 版本](https://huggingface.co/openbmb/MiniCPM3-4B-GGUF)，可以直接使用 llama.cpp 推理。
+
 * 安装 llama.cpp
   ```shell
-    git clone https://github.com/OpenBMB/llama.cpp.git
+    git clone https://github.com/ggerganov/llama.cpp
     cd llama.cpp
-    git checkout minicpm3    
     make 
-  ```
-* 创建模型目录
-  ```shell
-    cd llama.cpp/models
-    mkdir Minicpm3
-  ```
-* 下载 MiniCPM3 模型所有文件到 `llama.cpp/models/Minicpm3`
-  ```shell
-    cd llama.cpp/models/Minicpm3
-    git clone https://huggingface.co/openbmb/MiniCPM3-4B
-  ```
-* 将模型转换为 gguf 格式，并且量化：
-  ```python
-  python3 -m pip install -r requirements.txt
-  # 将pytorch模型转化为fp16的gguf
-  python3 convert_hf_to_gguf.py models/Minicpm3/MiniCPM3-4B --outfile ./models/Minicpm3/CPM-4B-F16.gguf
-  # 完成以上步骤，llama.cpp/models/Minicpm3目录下有一个CPM-4B-F16.gguf的模型文件
-  ./llama-quantize ./models/Minicpm3/CPM-4B-F16.gguf ./models/Minicpm3/ggml-model-Q4_K_M.gguf Q4_K_M
-  # 使用本行代码执行成功后，./models/Minicpm3下将存在ggml-model-Q4_K_M.gguf的4bit量化文件
   ```
 * 推理
   ```shell
-  ./llama-cli -c 1024 -m ./models/Minicpm/ggml-model-Q4_K_M.gguf -n 1024 --top-p 0.7 --temp 0.7 --prompt "<|im_start|>user\n请写一篇关于人工智能的文章，详细介绍人工智能的未来发展和隐患。<|im_end|>\n<|im_start|>assistant\n"
+  ./llama-cli -c 1024 -m minicpm3-4b-fp16.gguf -n 1024 --top-p 0.7 --temp 0.7 --prompt "<|im_start|>user\n请写一篇关于人工智能的文章，详细介绍人工智能的未来发展和隐患。<|im_end|>\n<|im_start|>assistant\n"
   ```
 
 ### 模型微调
@@ -427,7 +865,7 @@ print(responds)
 
 ### 进阶功能
 
-对于以下进阶功能，我们推荐使用 [vLLM](#vllm)。
+对于以下进阶功能，我们的样例代码中使用 [vLLM](#vllm) 进行推理。
 
 #### 工具调用
 
@@ -455,7 +893,7 @@ python openai_api_server.py \
 
 下面是一个调用搜索工具回答问题的演示：
 
-![function_call](./assets/function_call.gif)
+![function_call](./assets/minicpm3/function_call.gif)
 
 #### 代码解释器
 
@@ -469,7 +907,8 @@ python code_interpreter.py openbmb/MiniCPM3-4B
 
 下面是一个使用代码解释器生成二维码的演示：
 
-![code_interpreter](./assets/code_interpreter.gif)
+![code_interpreter](./assets/minicpm3/code_interpreter.gif)
+</details>
 
 ## MiniCPM 2.0
 
@@ -879,6 +1318,10 @@ print(state["answer"])
 #### llama.cpp、Ollama、fastllm、mlx_lm推理
 MiniCPM支持[llama.cpp](https://github.com/ggerganov/llama.cpp/) 、[ollama](https://github.com/ollama/ollama)、[fastllm](https://github.com/ztxz16/fastllm)、[mlx_lm](https://github.com/ml-explore/mlx-examples)推理。感谢[@runfuture](https://github.com/runfuture)对llama.cpp和ollama的适配。
 
+请参考 MiniCPM 知识库中的[边端部署教程](https://modelbest.feishu.cn/wiki/VL5kw9DsEiRDmJkEyTUcydE0nie)。
+
+#### 模型量化
+
 请参考 MiniCPM 知识库中的[量化指南](https://modelbest.feishu.cn/wiki/EatbwdLuvitbbMk2X5wcX6h5n7c)。
 
 #### 模型微调
@@ -895,9 +1338,7 @@ MiniCPM支持[llama.cpp](https://github.com/ggerganov/llama.cpp/) 、[ollama](ht
 
 #### 模型协议
 
-* 本仓库中代码依照 [Apache-2.0](https://github.com/OpenBMB/MiniCPM/blob/main/LICENSE) 协议开源
-* MiniCPM 模型权重的使用则需要遵循 [MiniCPM 模型商用许可协议](https://github.com/OpenBMB/MiniCPM/blob/main/MiniCPM%E6%A8%A1%E5%9E%8B%E5%95%86%E7%94%A8%E8%AE%B8%E5%8F%AF%E5%8D%8F%E8%AE%AE.md)。
-* MiniCPM 模型权重对学术研究完全开放，在填写[问卷](https://modelbest.feishu.cn/share/base/form/shrcnpV5ZT9EJ6xYjh3Kx0J6v8g)进行登记后亦允许免费商业使用。
+* 本仓库中代码与 MiniCPM 模型权重依照 [Apache-2.0](https://github.com/OpenBMB/MiniCPM/blob/main/LICENSE) 协议开源
 
 #### 声明
 
@@ -911,16 +1352,23 @@ MiniCPM支持[llama.cpp](https://github.com/ggerganov/llama.cpp/) 、[ollama](ht
 
 - <img src="assets/modelbest.png" width="28px"> [面壁智能](https://modelbest.cn/)
 - <img src="assets/thunlp.png" width="28px"> [清华大学自然语言处理实验室](https://nlp.csai.tsinghua.edu.cn/)
+- <img src="assets/RUC.png" width="28px"> [人大高瓴人工智能学院](https://linyankai.github.io/)
 
 ## 工作引用
 
-* 如果觉得MiniCPM有助于您的工作，请引用我们的[论文](https://arxiv.org/abs/2404.06395)
+* 如果觉得 MiniCPM 有助于您的工作，请引用我们的论文：[MiniCPM1](https://arxiv.org/abs/2404.06395)，[MiniCPM4](https://github.com/OpenBMB/MiniCPM/blob/main/report/MiniCPM_4_Technical_Report.pdf)
 
 ```
-@article{hu2024minicpm,
+@article{minicpm4,
+  title={MiniCPM4: Ultra-Efficient LLMs on End Devices},
+  author={MiniCPM Team},
+  year={2025}
+}
+
+@inproceedings{huminicpm,
   title={MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies},
-  author={Hu, Shengding and Tu, Yuge and Han, Xu and He, Chaoqun and Cui, Ganqu and Long, Xiang and Zheng, Zhi and Fang, Yewei and Huang, Yuxiang and Zhao, Weilin and others},
-  journal={arXiv preprint arXiv:2404.06395},
+  author={Hu, Shengding and Tu, Yuge and Han, Xu and Cui, Ganqu and He, Chaoqun and Zhao, Weilin and Long, Xiang and Zheng, Zhi and Fang, Yewei and Huang, Yuxiang and others},
+  booktitle={First Conference on Language Modeling},
   year={2024}
 }
 ```

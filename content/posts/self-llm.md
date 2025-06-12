@@ -1,9 +1,9 @@
 ---
 title: self-llm
-date: 2025-06-11T12:28:31+08:00
+date: 2025-06-12T12:26:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747657570057-5b620c0176ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747657570057-5b620c0176ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747595509327-20fb3e0c3216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747595509327-20fb3e0c3216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm)
@@ -83,6 +83,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1747657570057-5b620c0176
 - [数字生命](./examples/数字生命/readme.md): 本项目将以我为原型，利用特制的数据集对大语言模型进行微调，致力于创造一个能够真正反映我的个性特征的AI数字人——包括但不限于我的语气、表达方式和思维模式等等，因此无论是日常聊天还是分享心情，它都以一种既熟悉又舒适的方式交流，仿佛我在他们身边一样。整个流程是可迁移复制的，亮点是数据集的制作。 
 
 ### 已支持模型
+
+- [MiniCPM 4.0](https://github.com/OpenBMB/MiniCPM?tab=readme-ov-file#minicpm-40)
+  - [ ] MiniCPM4-8B vllm 部署调用
+  - [ ] MiniCPM4-8B Evalscope 智商情商评测
+  - [ ] MiniCPM4-0.5B Evalscope 单卡4090 并发测试
+  - [ ] MiniCPM4-8B Lora 微调及 SwanLab 可视化记录
+  - [ ] MiniCPM4-0.5B GRPO 微调及通过 Swanlab 可视化
+  - [ ] MiniCPM4 Docker镜像
 
 - [Qwen3](https://github.com/QwenLM/Qwen3)
   - [x] [Qwen3 模型结构解析 Blog](./models/Qwen3/01-Qwen3-模型结构解析-Blog.md) @王泽宇
