@@ -1,9 +1,9 @@
 ---
 title: youtube-transcript-api
-date: 2025-06-12T12:26:06+08:00
+date: 2025-06-13T12:26:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747901718070-df9e38a96a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747901718070-df9e38a96a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743930285940-4ffe9e29007c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3ODg3ODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743930285940-4ffe9e29007c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3ODg3ODB8&ixlib=rb-4.1.0
 ---
 
 # [jdepoix/youtube-transcript-api](https://github.com/jdepoix/youtube-transcript-api)
