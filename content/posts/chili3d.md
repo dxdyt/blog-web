@@ -1,9 +1,9 @@
 ---
 title: chili3d
-date: 2025-06-13T12:26:41+08:00
+date: 2025-06-14T12:22:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747764869395-ce3ce016e622?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3ODg3ODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747764869395-ce3ce016e622?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3ODg3ODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1739659153856-ae22a5d2390a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk4NzQ5NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1739659153856-ae22a5d2390a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk4NzQ5NTF8&ixlib=rb-4.1.0
 ---
 
 # [xiangechen/chili3d](https://github.com/xiangechen/chili3d)

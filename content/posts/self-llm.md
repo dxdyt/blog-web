@@ -1,9 +1,9 @@
 ---
 title: self-llm
-date: 2025-06-13T12:26:49+08:00
+date: 2025-06-14T12:23:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747764869395-ce3ce016e622?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3ODg3ODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747764869395-ce3ce016e622?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3ODg3ODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748426156241-6e5239022c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk4NzQ5NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748426156241-6e5239022c03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk4NzQ5NTF8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm)
