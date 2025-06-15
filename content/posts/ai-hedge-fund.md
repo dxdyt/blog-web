@@ -1,9 +1,9 @@
 ---
 title: ai-hedge-fund
-date: 2025-06-14T12:23:52+08:00
+date: 2025-06-15T12:29:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746897785282-cfbdf7497f39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk4NzQ5NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746897785282-cfbdf7497f39?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk4NzQ5NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747491681738-d0ed9a30fed3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk5NjE2Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747491681738-d0ed9a30fed3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk5NjE2Nzl8&ixlib=rb-4.1.0
 ---
 
 # [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
