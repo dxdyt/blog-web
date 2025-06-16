@@ -1,9 +1,9 @@
 ---
 title: deepeval
-date: 2025-06-15T12:28:47+08:00
+date: 2025-06-16T12:31:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748809412153-3344bd1817b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk5NjE2Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk5NjE2Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748188167634-993480d831b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748188167634-993480d831b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
 ---
 
 # [confident-ai/deepeval](https://github.com/confident-ai/deepeval)
