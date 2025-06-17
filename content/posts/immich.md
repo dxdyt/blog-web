@@ -1,21 +1,21 @@
 ---
 title: immich
-date: 2025-03-05T12:20:51+08:00
+date: 2025-06-17T12:27:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739533018538-a2aee30317ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739533018538-a2aee30317ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDExNDg0MDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747807112079-7ac448e26968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAxMzQ0MjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747807112079-7ac448e26968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAxMzQ0MjR8&ixlib=rb-4.1.0
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
 
 <p align="center"> 
-  <br/>  
+  <br/>
   <a href="https://opensource.org/license/agpl-v3"><img src="https://img.shields.io/badge/License-AGPL_v3-blue.svg?color=3F51B5&style=for-the-badge&label=License&logoColor=000000&labelColor=ececec" alt="License: AGPLv3"></a>
   <a href="https://discord.immich.app">
     <img src="https://img.shields.io/discord/979116623879368755.svg?label=Discord&logo=Discord&style=for-the-badge&logoColor=000000&labelColor=ececec" alt="Discord"/>
   </a>
-  <br/>  
-  <br/>   
+  <br/>
+  <br/>
 </p>
 
 <p align="center">
@@ -71,9 +71,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1739533018538-a2aee30317
 
 ## Demo
 
-Access the demo [here](https://demo.immich.app). The demo is running on a Free-tier Oracle VM in Amsterdam with a 2.4Ghz quad-core ARM64 CPU and 24GB RAM.
-
-For the mobile app, you can use `https://demo.immich.app/api` for the `Server Endpoint URL`
+Access the demo [here](https://demo.immich.app). For the mobile app, you can use `https://demo.immich.app` for the `Server Endpoint URL`.
 
 ### Login credentials
 
@@ -114,7 +112,7 @@ For the mobile app, you can use `https://demo.immich.app/api` for the `Server En
 | Read-only gallery                            | Yes    | Yes |
 | Stacked Photos                               | Yes    | Yes |
 | Tags                                         | No     | Yes |
-| Folder View                                  | No     | Yes |
+| Folder View                                  | Yes    | Yes |
 
 ## Translations
 

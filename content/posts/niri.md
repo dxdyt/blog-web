@@ -1,9 +1,9 @@
 ---
 title: niri
-date: 2025-06-16T12:31:48+08:00
+date: 2025-06-17T12:28:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748682170760-aba4b59da534?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748682170760-aba4b59da534?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747807112079-7ac448e26968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAxMzQ0MjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747807112079-7ac448e26968?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAxMzQ0MjR8&ixlib=rb-4.1.0
 ---
 
 # [YaLTeR/niri](https://github.com/YaLTeR/niri)
@@ -55,6 +55,8 @@ When a monitor disconnects, its workspaces will move to another monitor, but upo
 ## Video Demo
 
 https://github.com/YaLTeR/niri/assets/1794388/bce834b0-f205-434e-a027-b373495f9729
+
+Also check out this video from Brodie Robertson that showcases a lot of the niri functionality: [Niri Is My New Favorite Wayland Compositor](https://youtu.be/DeYx2exm04M)
 
 ## Status
 
@@ -110,6 +112,11 @@ Here are some other projects which implement a similar workflow:
 
 My talk from the 2024 Moscow RustCon about niri, and how I do randomized property testing and profiling, and measure input latency.
 The talk is in Russian, but I prepared full English subtitles that you can find in YouTube's subtitle language selector.
+
+[An interview with Ivan, the developer behind Niri](https://www.trommelspeicher.de/podcast/special_the_developer_behind_niri)
+
+A June 2025 interview by a German tech podcast Das Triumvirat (in English).
+We talk about niri development and history, and my experience building and maintaining niri.
 
 ## Contact
 
