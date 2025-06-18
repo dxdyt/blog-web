@@ -1,9 +1,9 @@
 ---
 title: continue
-date: 2024-10-05T12:20:31+08:00
+date: 2025-06-18T12:28:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1567090566681-e9aa3a6db730?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1567090566681-e9aa3a6db730?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxMDE5NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749390002163-0d151e3550d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749390002163-0d151e3550d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
 ---
 
 # [continuedev/continue](https://github.com/continuedev/continue)
@@ -18,7 +18,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1567090566681-e9aa3a6db7
 
 <div align="center">
 
-**[Continue](https://docs.continue.dev) is the leading open-source AI code assistant. You can connect any models and any context to build custom autocomplete and chat experiences inside [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue) and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension)**
+**[Continue](https://docs.continue.dev) enables developers to create, share, and use custom AI code assistants with our
+open-source [VS Code](https://marketplace.visualstudio.com/items?itemName=Continue.continue)
+and [JetBrains](https://plugins.jetbrains.com/plugin/22707-continue-extension) extensions
+and [hub of models, rules, prompts, docs, and other building blocks](https://hub.continue.dev)**
 
 </div>
 
@@ -30,15 +33,25 @@ featuredImagePreview: https://images.unsplash.com/photo-1567090566681-e9aa3a6db7
 <a target="_blank" href="https://docs.continue.dev" style="background:none">
     <img src="https://img.shields.io/badge/continue_docs-%23BE1B55" style="height: 22px;" />
 </a>
+<a target="_blank" href="https://changelog.continue.dev" style="background:none">
+    <img src="https://img.shields.io/badge/changelog-%96EFF3" style="height: 22px;" />
+</a>
 <a target="_blank" href="https://discord.gg/vapESyrFmJ" style="background:none">
     <img src="https://img.shields.io/badge/discord-join-continue.svg?labelColor=191937&color=6F6FF7&logo=discord" style="height: 22px;" />
 </a>
 
 <p></p>
 
+## Agent
+
+[Agent](https://continue.dev/docs/agent/how-to-use-it) enables you to make more substantial changes to your codebase
+
+![agent](docs/static/img/agent.gif)
+
 ## Chat
 
-[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave the IDE
+[Chat](https://continue.dev/docs/chat/how-to-use-it) makes it easy to ask for help from an LLM without needing to leave
+the IDE
 
 ![chat](docs/static/img/chat.gif)
 
@@ -50,15 +63,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1567090566681-e9aa3a6db7
 
 ## Edit
 
-[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current file
+[Edit](https://continue.dev/docs/edit/how-to-use-it) is a convenient way to modify code without leaving your current
+file
 
 ![edit](docs/static/img/edit.gif)
-
-## Actions
-
-[Actions](https://continue.dev/docs/actions/how-to-use-it) are shortcuts for common use cases.
-
-![actions](docs/static/img/actions.gif)
 
 </div>
 
@@ -68,8 +76,9 @@ Learn about how to install and use Continue in the docs [here](https://continue.
 
 ## Contributing
 
-Check out the [contribution ideas board](https://github.com/orgs/continuedev/projects/2), read the [contributing guide](https://github.com/continuedev/continue/blob/main/CONTRIBUTING.md), and join [#contribute on Discord](https://discord.gg/vapESyrFmJ)
+Read the [contributing guide](https://github.com/continuedev/continue/blob/main/CONTRIBUTING.md), and
+join [#contribute on Discord](https://discord.gg/vapESyrFmJ).
 
 ## License
 
-[Apache 2.0 © 2023 Continue Dev, Inc.](./LICENSE)
+[Apache 2.0 © 2023-2024 Continue Dev, Inc.](./LICENSE)
