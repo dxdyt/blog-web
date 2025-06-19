@@ -1,9 +1,9 @@
 ---
 title: fluentui-system-icons
-date: 2025-06-18T12:27:24+08:00
+date: 2025-06-19T12:27:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747134392167-7b16ac9c3c36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747134392167-7b16ac9c3c36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742626157111-59f3f1019a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/fluentui-system-icons](https://github.com/microsoft/fluentui-system-icons)

@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2025-06-18T12:27:29+08:00
+date: 2025-06-19T12:27:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748973750733-d037dded16dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748973750733-d037dded16dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAyMjA4Mzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742832599361-7aa7decd73b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742832599361-7aa7decd73b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
 ---
 
 # [menloresearch/jan](https://github.com/menloresearch/jan)
@@ -29,7 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1748973750733-d037dded16
   - <a href="https://discord.gg/AsJ8krTT3N">Discord</a>
 </p>
 
-Jan is your AI Assistant that runs entirely offline on your desktop. Because in a world where everything is shared, sometimes you just want to keep your conversations between you and your computer—call us old-fashioned.
+Jan is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for a layperson to download and run LLMs and use AI with **full control** and **privacy**.
 
 **⚠️ Jan is in active development.**
 
@@ -145,7 +145,7 @@ make clean
 - **Windows**: 10+ with GPU support for NVIDIA/AMD/Intel Arc
 - **Linux**: Most distributions work, GPU acceleration available
 
-For detailed compatibility, check our [installation guides](https://jan.ai/docs/installation).
+For detailed compatibility, check our [installation guides](https://jan.ai/docs/desktop/mac).
 
 ## Troubleshooting
 
