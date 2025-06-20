@@ -1,9 +1,9 @@
 ---
 title: suna
-date: 2025-05-21T12:23:33+08:00
+date: 2025-06-20T12:26:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747023183523-a200c9476959?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747023183523-a200c9476959?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc4MDEzNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748695115422-17a60e0db33c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748695115422-17a60e0db33c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
 ---
 
 # [kortix-ai/suna](https://github.com/kortix-ai/suna)
@@ -125,7 +125,7 @@ python start.py
 
 See the [Self-Hosting Guide](./docs/SELF-HOSTING.md) for detailed manual setup instructions.
 
-The wizard will guide you through all necessary steps to get your Suna instance up and running. For detailed instructions, troubleshooting tips, and advanced configuration options, see the [Self-Hosting Guide](./SELF-HOSTING.md).
+The wizard will guide you through all necessary steps to get your Suna instance up and running. For detailed instructions, troubleshooting tips, and advanced configuration options, see the [Self-Hosting Guide](./docs/SELF-HOSTING.md).
 
 ## Contributing
 

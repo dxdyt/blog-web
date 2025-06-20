@@ -1,9 +1,9 @@
 ---
 title: sui
-date: 2025-02-02T12:19:09+08:00
+date: 2025-06-20T12:27:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736165484220-146be72b3f0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736165484220-146be72b3f0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg0Njk4NTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747681476477-8f8df64a863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747681476477-8f8df64a863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
 ---
 
 # [MystenLabs/sui](https://github.com/MystenLabs/sui)
@@ -13,6 +13,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1736165484220-146be72b3f
 </p>
 
 # Welcome to Sui
+
+[![Github release](https://img.shields.io/github/v/tag/MystenLabs/sui.svg?sort=semver)](https://github.com/MystenLabs/sui/releases/latest)
+[![License](https://img.shields.io/github/license/MystenLabs/sui)](https://github.com/MystenLabs/sui/blob/main/LICENSE)
 
 [Sui](https://sui.io) is a next-generation smart contract platform with high throughput, low latency, and an asset-oriented programming model powered by the [Move programming language](https://github.com/MystenLabs/awesome-move).
 
@@ -65,7 +68,7 @@ Use the following links to learn more about Sui and the Sui ecosystem:
  * Learn more about working with Sui in the [Sui Documentation](https://docs.sui.io/).
  * Join the Sui community on [Sui Discord](https://discord.gg/sui).
  * Find out more about the Sui ecosystem on the [Sui Resources](https://sui.io/resources/) page.
- * Review information about Sui governance, [decentralization](https://suifoundation.org/decentralization), and [Developer Grants Program](https://sui.io/grants-hub) on the [Sui Foundation](https://suifoundation.org/) site.
+ * Review information about Sui governance, [decentralization](https://suifoundation.org/decentralization), and [Developer Grants Program](https://sui.io/grants-hub) on the [Sui Foundation](https://sui.io/about) site.
 
 
  ## How to Contribute

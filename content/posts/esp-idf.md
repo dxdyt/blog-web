@@ -1,9 +1,9 @@
 ---
 title: esp-idf
-date: 2024-06-24T12:18:58+08:00
+date: 2025-06-20T12:27:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714844437236-de8ef1c7286f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714844437236-de8ef1c7286f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTkyMDI2MjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1748939832727-a2f0abdff540?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748939832727-a2f0abdff540?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
 ---
 
 # [espressif/esp-idf](https://github.com/espressif/esp-idf)
@@ -25,17 +25,18 @@ ESP-IDF is the development framework for Espressif SoCs supported on Windows, Li
 
 The following table shows ESP-IDF support of Espressif SoCs where ![alt text][preview] and ![alt text][supported] denote preview status and support, respectively. The preview support is usually limited in time and intended for beta versions of chips. Please use an ESP-IDF release where the desired SoC is already supported.
 
-|Chip         |          v4.4          |          v5.0          |         v5.1           |         v5.2           |         v5.3           |                                                            |
-|:----------- | :---------------------:| :---------------------:| :--------------------: | :--------------------: | :--------------------: | :--------------------------------------------------------- |
-|ESP32        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |                                                            |
-|ESP32-S2     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |                                                            |
-|ESP32-C3     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |                                                            |
-|ESP32-S3     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | [Announcement](https://www.espressif.com/en/news/ESP32_S3) |
-|ESP32-C2     |                        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | [Announcement](https://www.espressif.com/en/news/ESP32-C2) |
-|ESP32-C6     |                        |                        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | [Announcement](https://www.espressif.com/en/news/ESP32_C6) |
-|ESP32-H2     |                        |                        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | [Announcement](https://www.espressif.com/en/news/ESP32_H2) |
-|ESP32-P4     |                        |                        |                        |                        | ![alt text][supported] | [Announcement](https://www.espressif.com/en/news/ESP32-P4) |
-|ESP32-C5     |                        |                        |                        |                        | ![alt text][preview]   | [Announcement](https://www.espressif.com/en/news/ESP32-C5) |
+|Chip         |          v5.0          |         v5.1           |         v5.2           |         v5.3           |          v5.4           |                                                                     |
+|:----------- | :---------------------:| :--------------------: | :--------------------: | :--------------------: |  :--------------------: |:------------------------------------------------------------------- |
+|ESP32        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |                                                                     |
+|ESP32-S2     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |                                                                     |
+|ESP32-C3     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |                                                                     |
+|ESP32-S3     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |[Announcement](https://www.espressif.com/en/news/ESP32_S3)           |
+|ESP32-C2     | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |[Announcement](https://www.espressif.com/en/news/ESP32-C2)           |
+|ESP32-C6     |                        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |[Announcement](https://www.espressif.com/en/news/ESP32_C6)           |
+|ESP32-H2     |                        | ![alt text][supported] | ![alt text][supported] | ![alt text][supported] |  ![alt text][supported] |[Announcement](https://www.espressif.com/en/news/ESP32_H2)           |
+|ESP32-P4     |                        |                        |                        | ![alt text][supported] |  ![alt text][supported] |[Announcement](https://www.espressif.com/en/news/ESP32-P4)           |
+|ESP32-C5     |                        |                        |                        |                        |  ![alt text][preview]   |[Announcement](https://www.espressif.com/en/news/ESP32-C5)           |
+|ESP32-C61    |                        |                        |                        |                        |  ![alt text][preview]   |[Announcement](https://www.espressif.com/en/products/socs/esp32-c61) |
 
 [supported]: https://img.shields.io/badge/-supported-green "supported"
 [preview]: https://img.shields.io/badge/-preview-orange "preview"

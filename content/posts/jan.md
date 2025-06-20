@@ -1,9 +1,9 @@
 ---
 title: jan
-date: 2025-06-19T12:27:24+08:00
+date: 2025-06-20T12:26:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742832599361-7aa7decd73b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742832599361-7aa7decd73b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748032886709-8878d876dc50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748032886709-8878d876dc50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
 ---
 
 # [menloresearch/jan](https://github.com/menloresearch/jan)
