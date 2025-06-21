@@ -1,9 +1,9 @@
 ---
 title: buildkit
-date: 2025-06-19T12:28:28+08:00
+date: 2025-06-21T12:24:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748499195638-a5c3ea2705dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748499195638-a5c3ea2705dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747901718070-df9e38a96a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747901718070-df9e38a96a53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
 ---
 
 # [moby/buildkit](https://github.com/moby/buildkit)

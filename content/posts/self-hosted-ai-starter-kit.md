@@ -1,9 +1,9 @@
 ---
 title: self-hosted-ai-starter-kit
-date: 2025-02-06T12:19:58+08:00
+date: 2025-06-21T12:24:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1690565915043-40128501e6fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1690565915043-40128501e6fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747862240252-50191a60c21d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747862240252-50191a60c21d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
 ---
 
 # [n8n-io/self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)
@@ -68,6 +68,14 @@ docker compose --profile gpu-nvidia up
 > If you have not used your Nvidia GPU with Docker before, please follow the
 > [Ollama Docker instructions](https://github.com/ollama/ollama/blob/main/docs/docker.md).
 
+### For AMD GPU users on Linux
+
+```
+git clone https://github.com/n8n-io/self-hosted-ai-starter-kit.git
+cd self-hosted-ai-starter-kit
+docker compose --profile gpu-amd up
+```
+
 #### For Mac / Apple Silicon users
 
 If you’re using a Mac with an M1 or newer processor, you can't expose your GPU
@@ -88,8 +96,24 @@ cd self-hosted-ai-starter-kit
 docker compose up
 ```
 
-After you followed the quick start set-up below, change the Ollama credentials
-by using `http://host.docker.internal:11434/` as the host.
+##### For Mac users running OLLAMA locally
+
+If you're running OLLAMA locally on your Mac (not in Docker), you need to modify the OLLAMA_HOST environment variable
+in the n8n service configuration. Update the x-n8n section in your Docker Compose file as follows:
+
+```yaml
+x-n8n: &service-n8n
+  # ... other configurations ...
+  environment:
+    # ... other environment variables ...
+    - OLLAMA_HOST=host.docker.internal:11434
+```
+
+Additionally, after you see "Editor is now accessible via: <http://localhost:5678/>":
+
+1. Head to <http://localhost:5678/home/credentials>
+2. Click on "Local Ollama service"
+3. Change the base URL to "http://host.docker.internal:11434/"
 
 #### For everyone else
 
@@ -108,7 +132,7 @@ After completing the installation steps above, simply follow the steps below to 
    have to do this once.
 2. Open the included workflow:
    <http://localhost:5678/workflow/srOnR8PAY3u4RSwb>
-3. Select **Test workflow** to start running the workflow.
+3. Click the **Chat** button at the bottom of the canvas, to start running the workflow.
 4. If this is the first time you’re running the workflow, you may need to wait
    until Ollama finishes downloading Llama3.2. You can inspect the docker
    console logs to check on the progress.
@@ -138,7 +162,7 @@ docker compose --profile gpu-nvidia pull
 docker compose create && docker compose --profile gpu-nvidia up
 ```
 
-### For Mac / Apple Silicon users
+* ### For Mac / Apple Silicon users
 
 ```
 docker compose pull
@@ -170,7 +194,7 @@ and nodes. If you run into an issue, go to [support](#support).
 ## 🛍️ More AI templates
 
 For more AI workflow ideas, visit the [**official n8n AI template
-gallery**](https://n8n.io/workflows/?categories=AI). From each workflow,
+gallery**](https://n8n.io/workflows/categories/ai/). From each workflow,
 select the **Use workflow** button to automatically import the workflow into
 your local n8n instance.
 
