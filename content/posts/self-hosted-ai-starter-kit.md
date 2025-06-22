@@ -1,9 +1,9 @@
 ---
 title: self-hosted-ai-starter-kit
-date: 2025-06-21T12:24:35+08:00
+date: 2025-06-22T12:30:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747862240252-50191a60c21d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747862240252-50191a60c21d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750136094565-5e1c1482d72e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750136094565-5e1c1482d72e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
 ---
 
 # [n8n-io/self-hosted-ai-starter-kit](https://github.com/n8n-io/self-hosted-ai-starter-kit)

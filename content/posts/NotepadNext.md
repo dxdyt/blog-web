@@ -1,9 +1,9 @@
 ---
 title: NotepadNext
-date: 2025-06-21T12:23:05+08:00
+date: 2025-06-22T12:29:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747635351683-002a277ed3ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747635351683-002a277ed3ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA0Nzk3NzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750136094565-5e1c1482d72e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750136094565-5e1c1482d72e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
 ---
 
 # [dail8859/NotepadNext](https://github.com/dail8859/NotepadNext)
@@ -24,7 +24,7 @@ There are numerous bugs and half working implementations. Pull requests are grea
 
 Packages are available for Windows, Linux, and MacOS.
 
-Below are the supported distribution mechanisms. There may be other ways to download/install the application, but this project will likely not be able to offer any support for those since they are made availble by other individuals.
+Below are the supported distribution mechanisms. There may be other ways to download/install the application, but this project will likely not be able to offer any support for those since they are made available by other individuals.
 
 ## Windows
 Windows packages are available as an installer or a stand-alone zip file on the [release](https://github.com/dail8859/NotepadNext/releases) page. The installer provides additional components such as an auto-updater and Windows context menu integration. You can easily install it with Winget:
@@ -60,7 +60,7 @@ defaults -currentHost write -g AppleFontSmoothing -int 0
 A restart is required for this to take effect.
 
 # Development
-Current development is done using QtCreator with the Microsft Visual C++ (msvc) compiler. Qt 6.5 is the currently supported Qt version. Older versions of Qt are likely to work but are not tested. Any fixes for older versions will be accepted as long as they do not introduce complex fixes. This application is also known to build successfully on various Linux distributions and macOS. Other platforms/compilers should be usable with minor modifications.
+Current development is done using QtCreator with the Microsoft Visual C++ (msvc) compiler. Qt 6.5 is the currently supported Qt version. Older versions of Qt are likely to work but are not tested. Any fixes for older versions will be accepted as long as they do not introduce complex fixes. This application is also known to build successfully on various Linux distributions and macOS. Other platforms/compilers should be usable with minor modifications.
 
 If you are familiar with building C++ Qt desktop applications with Qt Creator, then this should be as simple as opening `src/NotepadNext.pro` and build/run the project.
 

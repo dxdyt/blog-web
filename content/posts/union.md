@@ -1,9 +1,9 @@
 ---
 title: union
-date: 2025-05-07T12:21:35+08:00
+date: 2025-06-22T12:30:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745594151309-6c7d9172c7c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745594151309-6c7d9172c7c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748354340469-8ccbaeeec585?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748354340469-8ccbaeeec585?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
 ---
 
 # [unionlabs/union](https://github.com/unionlabs/union)
@@ -29,7 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1745594151309-6c7d9172c7
 
 </div>
 
-Union is the hyper-efficient zero-knowledge infrastructure layer for general message passing, asset transfers, NFTs, and DeFi. It’s based on [Consensus Verification] and has no dependencies on trusted third parties, oracles, multi-signatures, or MPC. It implements [IBC] for compatibility with [Cosmos] chains and connects to EVM chains like [Ethereum], [Berachain (beacon-kit)](https://github.com/berachain/beacon-kit), [Arbitrum], and more.
+Union is the hyper-efficient zero-knowledge infrastructure layer for general message passing, asset transfers, NFTs, and DeFi. Its based on [Consensus Verification] and has no dependencies on trusted third parties, oracles, multi-signatures or MPC. It implements [IBC] for compatibility with [Cosmos] chains and connects to EVM chains like [Ethereum], [Berachain (beacon-kit)](https://github.com/berachain/beacon-kit), [Arbitrum], and more.
 
 The upgradability of contracts on other chains, connections, token configurations, and evolution of the protocol will all be controlled by decentralized governance, aligning the priorities of Union with its users, validators, and operators.
 

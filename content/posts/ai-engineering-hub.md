@@ -1,12 +1,18 @@
 ---
 title: ai-engineering-hub
-date: 2025-05-02T12:21:54+08:00
+date: 2025-06-22T12:29:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744144501170-adec17d0c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744144501170-adec17d0c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1746310833406-1216bee76a09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746310833406-1216bee76a09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
 ---
 
 # [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
+
+<p align="center">
+  <img src="assets/ai-eng-hub.gif" alt="AI Engineering Hub Banner">
+</p>
+
+---
 
 # AI Engineering Hub 🚀
 Welcome to the **AI Engineering Hub**!
