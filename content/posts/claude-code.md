@@ -1,9 +1,9 @@
 ---
 title: claude-code
-date: 2025-05-26T12:25:36+08:00
+date: 2025-06-23T12:33:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744236404781-530428ffbad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744236404781-530428ffbad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748630312862-fbbd301ed17f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748630312862-fbbd301ed17f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-code](https://github.com/anthropics/claude-code)
@@ -14,44 +14,31 @@ featuredImagePreview: https://images.unsplash.com/photo-1744236404781-530428ffba
 
 [npm]: https://img.shields.io/npm/v/@anthropic-ai/claude-code.svg?style=flat-square
 
-Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.
-
-Some of its key capabilities include:
-
-- Edit files and fix bugs across your codebase
-- Answer questions about your code's architecture and logic
-- Execute and fix tests, lint, and other commands
-- Search through git history, resolve merge conflicts, and create commits and PRs
+Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.
 
 **Learn more in the [official documentation](https://docs.anthropic.com/en/docs/claude-code/overview)**.
 
+<img src="./demo.gif" />
+
 ## Get started
 
-1. If you are new to Node.js and Node Package Manager (`npm`), then it is recommended that you configure an NPM prefix for your user.
-   Instructions on how to do this can be found [here](https://docs.anthropic.com/en/docs/claude-code/troubleshooting#recommended-solution-create-a-user-writable-npm-prefix).
+1. Install Claude Code:
 
-   _Important_ We recommend installing this package as a non-privileged user, not as an administrative user like `root`.
-   Installing as a non-privileged user helps maintain your system's security and stability.
+```sh
+npm install -g @anthropic-ai/claude-code
+```
 
-2. Install Claude Code:
+2. Navigate to your project directory and run `claude`.
 
-   ```sh
-   npm install -g @anthropic-ai/claude-code
-   ```
+## Reporting Bugs
 
-3. Navigate to your project directory and run `claude`.
+We welcome your feedback. Use the `/bug` command to report issues directly within Claude Code, or file a [GitHub issue](https://github.com/anthropics/claude-code/issues).
 
-4. Complete the one-time OAuth process with your Claude Max or Anthropic Console account.
-
-### Reporting Bugs
-
-We welcome feedback during this beta period. Use the `/bug` command to report issues directly within Claude Code, or file a [GitHub issue](https://github.com/anthropics/claude-code/issues).
-
-### Data collection, usage, and retention
+## Data collection, usage, and retention
 
 When you use Claude Code, we collect feedback, which includes usage data (such as code acceptance or rejections), associated conversation data, and user feedback submitted via the `/bug` command.
 
-#### How we use your data
+### How we use your data
 
 We may use feedback to improve our products and services, but we will not train generative models using your feedback from Claude Code. Given their potentially sensitive nature, we store user feedback transcripts for only 30 days.
 

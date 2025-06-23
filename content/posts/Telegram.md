@@ -1,9 +1,9 @@
 ---
 title: Telegram
-date: 2025-06-22T12:30:00+08:00
+date: 2025-06-23T12:33:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749045939257-2b7423bd15a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749045939257-2b7423bd15a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748764495118-607e68ced931?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748764495118-607e68ced931?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
 ---
 
 # [DrKLO/Telegram](https://github.com/DrKLO/Telegram)

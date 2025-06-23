@@ -1,9 +1,9 @@
 ---
 title: data-engineer-handbook
-date: 2025-06-22T12:29:46+08:00
+date: 2025-06-23T12:34:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746457002269-106424d702e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746457002269-106424d702e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1740949632585-2750c7946888?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1740949632585-2750c7946888?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
 ---
 
 # [DataExpert-io/data-engineer-handbook](https://github.com/DataExpert-io/data-engineer-handbook)

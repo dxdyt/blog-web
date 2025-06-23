@@ -1,9 +1,9 @@
 ---
 title: biliTickerBuy
-date: 2025-05-16T12:23:21+08:00
+date: 2025-06-23T12:33:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743963256372-345f0c6dc098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743963256372-345f0c6dc098?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744400363852-d2eb4908b9a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744400363852-d2eb4908b9a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
 ---
 
 # [mikumifa/biliTickerBuy](https://github.com/mikumifa/biliTickerBuy)
@@ -56,6 +56,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1743963256372-345f0c6dc0
 反馈程序BUG或者提新功能建议： [点此链接向项目提出反馈BUG](https://github.com/mikumifa/biliTickerBuy/issues/new/choose)
 
 
+## 📩 免责声明
+
+本项目遵循 MIT License 许可协议，仅供个人学习与研究使用。请勿将本项目用于任何商业牟利行为，亦严禁用于任何形式的代抢、违法行为或违反相关平台规则的用途。由此产生的一切后果均由使用者自行承担，与本人无关。
+
+若您 fork 或使用本项目，请务必遵守相关法律法规与目标平台规则。
+
+## 💡 关于访问频率与并发控制
+本项目在设计时严格遵循「非侵入式」原则，避免对目标服务器（如 Bilibili）造成任何干扰。
+
+所有网络请求的时间间隔均由用户自行配置，默认值模拟正常用户的手动操作速度。程序默认单线程运行，无并发任务。遇到请求失败时，程序会进行有限次数的重试，并在重试之间加入适当的延时，避免形成高频打点。项目完全依赖平台公开接口及网页结构，不含风控规避、API劫持等破坏性手段。
+
+## 🛡️ 平台尊重声明
+
+本程序设计时已尽可能控制请求频率，避免对 Bilibili 服务器造成任何明显负载或影响。项目仅作为学习用途，不具备大规模、高并发的能力，亦无任何恶意行为或干扰服务的企图。
+
+如本项目中存在侵犯 Bilibili 公司合法权益的内容，请通过邮箱 [1055069518@qq.com](mailto:1055069518@qq.com) 与我联系，我将第一时间下架相关内容并删除本仓库。对此造成的不便，我深表歉意，感谢您的理解与包容。
 
 ## 🤩 项目贡献者
 
@@ -68,10 +84,3 @@ featuredImagePreview: https://images.unsplash.com/photo-1743963256372-345f0c6dc0
 
 [![Star History Chart](https://api.star-history.com/svg?repos=mikumifa/biliTickerBuy&type=Date)](https://www.star-history.com/#mikumifa/biliTickerBuy&Date)
 
-## 📩 免责声明
-
-详见[MIT License](./LICENSE)，切勿进行盈利，所造成的后果与本人无关。
-
-## 💰 捐赠
-
-如果你想支持这个项目的话 [爱发电](https://afdian.com/a/mikumifa)
