@@ -1,9 +1,9 @@
 ---
 title: suna
-date: 2025-06-23T12:33:36+08:00
+date: 2025-06-24T12:28:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747106649672-c17636e6c6a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747106649672-c17636e6c6a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745450057131-c7847202d433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745450057131-c7847202d433?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
 ---
 
 # [kortix-ai/suna](https://github.com/kortix-ai/suna)
@@ -90,15 +90,18 @@ Handles data persistence with authentication, user management, conversation hist
 
 ## Self-Hosting
 
-Suna can be self-hosted on your own infrastructure using our setup wizard. For a comprehensive guide to self-hosting Suna, please refer to our [Self-Hosting Guide](./docs/SELF-HOSTING.md).
+Suna can be self-hosted on your own infrastructure using our comprehensive setup wizard. For a complete guide to self-hosting Suna, please refer to our [Self-Hosting Guide](./docs/SELF-HOSTING.md).
 
 The setup process includes:
 
 - Setting up a Supabase project for database and authentication
 - Configuring Redis for caching and session management
 - Setting up Daytona for secure agent execution
-- Integrating with LLM providers (Anthropic, OpenAI, Groq, etc.)
-- Configuring web search and scraping capabilities
+- Integrating with LLM providers (Anthropic, OpenAI, OpenRouter, etc.)
+- Configuring web search and scraping capabilities (Tavily, Firecrawl)
+- Setting up QStash for background job processing and workflows
+- Configuring webhook handling for automated tasks
+- Optional integrations (RapidAPI, Smithery for custom agents)
 
 ### Quick Start
 
@@ -114,6 +117,8 @@ cd suna
 ```bash
 python setup.py
 ```
+
+The wizard will guide you through 14 steps with progress saving, so you can resume if interrupted.
 
 3. **Start or stop the containers**:
 
@@ -148,7 +153,9 @@ We welcome contributions from the community! Please see our [Contributing Guide]
 - [Anthropic](https://www.anthropic.com/) - LLM provider
 - [Tavily](https://tavily.com/) - Search capabilities
 - [Firecrawl](https://firecrawl.dev/) - Web scraping capabilities
+- [QStash](https://upstash.com/qstash) - Background job processing and workflows
 - [RapidAPI](https://rapidapi.com/) - API services
+- [Smithery](https://smithery.ai/) - Custom agent development
 
 ## License
 

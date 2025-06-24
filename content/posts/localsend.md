@@ -1,9 +1,9 @@
 ---
 title: localsend
-date: 2024-11-07T12:20:22+08:00
+date: 2025-06-24T12:29:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729614140487-f55b09cc3bb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA5NTMxNTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729614140487-f55b09cc3bb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzA5NTMxNTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747657930052-e3cbe66b5c69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747657930052-e3cbe66b5c69?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
 ---
 
 # [localsend/localsend](https://github.com/localsend/localsend)
@@ -12,15 +12,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1729614140487-f55b09cc3b
 
 [![CI status][ci-badge]][ci-workflow]
 [![Translations][translate-badge]][translate-link]
+[![Packaging status][packaging-badge]][packaging-link]
 
 [ci-badge]: https://github.com/localsend/localsend/actions/workflows/ci.yml/badge.svg
 [ci-workflow]: https://github.com/localsend/localsend/actions/workflows/ci.yml
 [translate-badge]: https://hosted.weblate.org/widget/localsend/app/svg-badge.svg
 [translate-link]: https://hosted.weblate.org/engage/localsend/
+[packaging-badge]: https://repology.org/badge/tiny-repos/localsend.svg
+[packaging-link]: https://repology.org/project/localsend/versions
 
 [Homepage][homepage] • [Discord][discord] • [GitHub][github] • [Codeberg][codeberg]
 
-[English](README.md) • [中文](readme_i18n/README_ZH.md) • [日本語](readme_i18n/README_JA.md) • [ภาษาไทย](readme_i18n/README_TH.md) • [Filipino](readme_i18n/README_PH.md) • [Polski](readme_i18n/README_PL.md) • [Español](readme_i18n/README_ES.md) • [Tiếng Việt](readme_i18n/README_VI.md) • [Portugês Brasil](readme_i18n/README_PT_BR.md) • [Italiano](readme_i18n/README_IT.md) • [Indonesia](readme_i18n/README_ID.md) • [ភាសាខ្មែរ](readme_i18n/README_KM.md) • [Français](readme_i18n/README_FR.md) • [فارسی](readme_i18n/README_FA.md)   • [Turkish](readme_i18n/README_TR.md)
+[English (Default)](README.md) • [Español](readme_i18n/README_ES.md) • [فارسی](readme_i18n/README_FA.md) • [Filipino](readme_i18n/README_PH.md) • [Français](readme_i18n/README_FR.md) • [Indonesia](readme_i18n/README_ID.md) • [Italiano](readme_i18n/README_IT.md) • [日本語](readme_i18n/README_JA.md) • [ភាសាខ្មែរ](readme_i18n/README_KM.md) • [한국어](readme_i18n/README_KO.md) • [Polski](readme_i18n/README_PL.md) • [Portugês Brasil](readme_i18n/README_PT_BR.md) • [Русский](readme_i18n/README_RU.md) • [ภาษาไทย](readme_i18n/README_TH.md) • [Türkçe](readme_i18n/README_TR.md) • [Українська](readme_i18n/README_UK.md) • [Tiếng Việt](readme_i18n/README_VI.md) • [中文](readme_i18n/README_ZH.md)
 
 [homepage]: https://localsend.org
 [discord]: https://discord.gg/GSRWmQNP87
@@ -37,6 +40,7 @@ LocalSend is a free, open-source app that allows you to securely share files and
 - [Contributing](#contributing)
   - [Translation](#translation)
   - [Bug Fixes and Improvements](#bug-fixes-and-improvements)
+- [Troubleshooting](#troubleshooting)
 - [Building](#building)
   - [Android](#android)
   - [iOS](#ios)
@@ -53,6 +57,8 @@ LocalSend is a cross-platform app that enables secure communication between devi
 <img src="https://localsend.org/img/screenshot-iphone.webp" alt="iPhone screenshot" height="300"/> <img src="https://localsend.org/img/screenshot-pc.webp" alt="PC screenshot" height="300"/>
 
 ## Download
+
+[![Packaging status](https://repology.org/badge/tiny-repos/localsend.svg)](https://repology.org/project/localsend/versions)
 
 It is recommended to download the app either from an app store or from a package manager because the app does not have an auto-update.
 
@@ -104,6 +110,7 @@ In most cases, LocalSend should work out of the box. However, if you are having 
 | Outgoing     | TCP, UDP | Any   | Allow  |
 
 Also make sure to disable AP isolation on your router. It should be usually disabled by default but some routers may have it enabled (especially guest networks).
+See [troubleshooting](#troubleshooting) for more information.
 
 **Portable Mode**
 
@@ -132,10 +139,11 @@ For more information on the LocalSend Protocol, see the [documentation](https://
 To compile LocalSend from the source code, follow these steps:
 
 1. Install Flutter [directly](https://flutter.dev) or using [fvm](https://fvm.app) (see [version required](.fvmrc))
-2. Clone the `LocalSend` repository
-3. Run `cd app` to enter the app directory
-4. Run `flutter pub get` to download dependencies
-5. Run `flutter run` to start the app
+2. Install [Rust](https://www.rust-lang.org/tools/install)
+3. Clone the `LocalSend` repository
+4. Run `cd app` to enter the app directory
+5. Run `flutter pub get` to download dependencies
+6. Run `flutter run` to start the app
 
 > [!NOTE]
 > LocalSend currently requires an older Flutter version (specified in [.fvmrc](.fvmrc))
@@ -167,6 +175,16 @@ The translations are located in the [app/assets/i18n](https://github.com/localse
 - **Improvements:** Have an idea for how to improve LocalSend? Please create an issue first to discuss why the improvement is needed.
 
 For more information, see the [contributing guide](https://github.com/localsend/localsend/blob/main/CONTRIBUTING.md).
+
+## Troubleshooting
+
+| Issue              | Platform (Sending) | Platform (Receiving) | Solution                                                                                                                                |
+|--------------------|--------------------|----------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Device not visible | Any                | Any                  | Make sure to disable AP-Isolation on your router. If it is enabled, connections between devices are forbidden.                          |
+| Device not visible | Any                | Windows              | Make sure to configure your network as a "private" network. Windows might be more restrictive when the network is configured as public. |
+| Device not visible | macOS, iOS         | Any                  | You can try to toggle the "Local Network" permission under "Privacy" in the OS settings.                                                |
+| Speed too slow     | Any                | Any                  | Use 5 Ghz; Disable encryption on both devices                                                                                           |
+| Speed too slow     | Any                | Android              | Known issue. https://github.com/flutter-cavalry/saf_stream/issues/4                                                                     |
 
 ## Building
 

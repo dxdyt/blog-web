@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2025-05-26T12:25:24+08:00
+date: 2025-06-24T12:29:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746310920320-b4d078257303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746310920320-b4d078257303?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747640731141-7d81ade721bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747640731141-7d81ade721bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -16,6 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1746310920320-b4d0782573
 
 [![Website][website-shield]][website-url]
 [![Dynamic JSON Badge][discord-shield]][discord-url]
+[![Twitter][twitter-shield]][twitter-url]
 [![Matrix][matrix-shield]][matrix-url]
 <br>
 [![][github-release-shield]][github-release-link]
@@ -30,6 +31,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1746310920320-b4d0782573
 <!-- Workaround to display total user from https://github.com/badges/shields/issues/4500#issuecomment-2060079995 -->
 [discord-shield]: https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fcomfyorg%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&logo=discord&logoColor=white&label=Discord&color=green&suffix=%20total
 [discord-url]: https://www.comfy.org/discord
+[twitter-shield]: https://img.shields.io/twitter/follow/ComfyUI
+[twitter-url]: https://x.com/ComfyUI
 
 [github-release-shield]: https://img.shields.io/github/v/release/comfyanonymous/ComfyUI?style=flat&sort=semver
 [github-release-link]: https://github.com/comfyanonymous/ComfyUI/releases
@@ -72,12 +75,13 @@ See what ComfyUI can do with the [example workflows](https://comfyanonymous.gith
    - [Flux](https://comfyanonymous.github.io/ComfyUI_examples/flux/)
    - [Lumina Image 2.0](https://comfyanonymous.github.io/ComfyUI_examples/lumina2/)
    - [HiDream](https://comfyanonymous.github.io/ComfyUI_examples/hidream/)
+   - [Cosmos Predict2](https://comfyanonymous.github.io/ComfyUI_examples/cosmos_predict2/)
 - Video Models
    - [Stable Video Diffusion](https://comfyanonymous.github.io/ComfyUI_examples/video/)
    - [Mochi](https://comfyanonymous.github.io/ComfyUI_examples/mochi/)
    - [LTX-Video](https://comfyanonymous.github.io/ComfyUI_examples/ltxv/)
    - [Hunyuan Video](https://comfyanonymous.github.io/ComfyUI_examples/hunyuan_video/)
-   - [Nvidia Cosmos](https://comfyanonymous.github.io/ComfyUI_examples/cosmos/)
+   - [Nvidia Cosmos](https://comfyanonymous.github.io/ComfyUI_examples/cosmos/) and [Cosmos Predict2](https://comfyanonymous.github.io/ComfyUI_examples/cosmos_predict2/)
    - [Wan 2.1](https://comfyanonymous.github.io/ComfyUI_examples/wan/)
 - Audio Models
    - [Stable Audio](https://comfyanonymous.github.io/ComfyUI_examples/audio/)
@@ -105,7 +109,8 @@ See what ComfyUI can do with the [example workflows](https://comfyanonymous.gith
 - [LCM models and Loras](https://comfyanonymous.github.io/ComfyUI_examples/lcm/)
 - Latent previews with [TAESD](#how-to-show-high-quality-previews)
 - Starts up very fast.
-- Works fully offline: will never download anything.
+- Works fully offline: core will never download anything unless you want to.
+- Optional API nodes to use paid models from external providers through the online [Comfy API](https://docs.comfy.org/tutorials/api-nodes/overview).
 - [Config file](extra_model_paths.yaml.example) to set the search paths for models.
 
 Workflow examples can be found on the [Examples page](https://comfyanonymous.github.io/ComfyUI_examples/)
@@ -277,6 +282,8 @@ You can install ComfyUI in Apple Mac silicon (M1 or M2) with any recent macOS ve
 > **Note**: Remember to add your models, VAE, LoRAs etc. to the corresponding Comfy folders, as discussed in [ComfyUI manual installation](#manual-install-windows-linux).
 
 #### DirectML (AMD Cards on Windows)
+
+This is very badly supported and is not recommended. There are some unofficial builds of pytorch ROCm on windows that exist that will give you a much better experience than this. This readme will be updated once official pytorch ROCm builds for windows come out.
 
 ```pip install torch-directml``` Then you can launch ComfyUI with: ```python main.py --directml```
 
