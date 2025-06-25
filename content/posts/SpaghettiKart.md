@@ -1,9 +1,9 @@
 ---
 title: SpaghettiKart
-date: 2025-06-24T12:29:13+08:00
+date: 2025-06-25T12:29:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748701821466-0b9f8bf839ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748701821466-0b9f8bf839ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747138593244-0922d4f9d649?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747138593244-0922d4f9d649?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
 ---
 
 # [HarbourMasters/SpaghettiKart](https://github.com/HarbourMasters/SpaghettiKart)

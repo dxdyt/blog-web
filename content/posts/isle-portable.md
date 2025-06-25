@@ -1,9 +1,9 @@
 ---
 title: isle-portable
-date: 2025-06-24T12:29:41+08:00
+date: 2025-06-25T12:29:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750087023850-36213c737960?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750087023850-36213c737960?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747760866743-97dff7918000?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747760866743-97dff7918000?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
 ---
 
 # [isledecomp/isle-portable](https://github.com/isledecomp/isle-portable)

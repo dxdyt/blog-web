@@ -1,12 +1,18 @@
 ---
 title: ai-engineering-hub
-date: 2025-06-23T12:33:08+08:00
+date: 2025-06-25T12:29:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746110292002-b2a7080d62bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746110292002-b2a7080d62bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA2NTMxNzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747582411588-f9b4acabe995?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747582411588-f9b4acabe995?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
 ---
 
 # [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/12800">
+    <img src="assets/TRENDING-BADGE.png" alt="Trending Badge" style="width: 250px; height: 55px;" width="250" height="55"/>
+  </a>
+</p>
 
 <p align="center">
   <img src="assets/ai-eng-hub.gif" alt="AI Engineering Hub Banner">
