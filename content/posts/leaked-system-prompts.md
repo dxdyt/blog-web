@@ -1,9 +1,9 @@
 ---
 title: leaked-system-prompts
-date: 2025-06-25T12:29:38+08:00
+date: 2025-06-26T12:28:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747138593244-0922d4f9d649?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747138593244-0922d4f9d649?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743805350606-56ed5103769c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743805350606-56ed5103769c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
 ---
 
 # [jujumilk3/leaked-system-prompts](https://github.com/jujumilk3/leaked-system-prompts)

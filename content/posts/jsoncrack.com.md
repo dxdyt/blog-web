@@ -1,9 +1,9 @@
 ---
 title: jsoncrack.com
-date: 2025-02-19T12:21:02+08:00
+date: 2025-06-26T12:28:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739302776943-2d375697e3e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739302776943-2d375697e3e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk5Mzg3OTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1744124090807-f563bebfb979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744124090807-f563bebfb979?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
 ---
 
 # [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
@@ -96,7 +96,7 @@ Here is what you need to be able to run JSON Crack.
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (or fork https://github.com/AykutSarac/jsoncrack.com/fork). If you plan to distribute the code, read the [`LICENSE`](/LICENSE) for additional details.
+1. Clone the repo into a public GitHub repository (or fork https://github.com/AykutSarac/jsoncrack.com/fork). If you plan to distribute the code, read the [`LICENSE`](/LICENSE.md) for additional details.
 
    ```sh
    git clone https://github.com/AykutSarac/jsoncrack.com.git
@@ -141,4 +141,4 @@ docker compose up
 
 ## License
 
-See [`LICENSE`](/LICENSE) for more information.
+See [`LICENSE`](/LICENSE.md) for more information.

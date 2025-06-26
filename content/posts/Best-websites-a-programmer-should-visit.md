@@ -1,9 +1,9 @@
 ---
 title: Best-websites-a-programmer-should-visit
-date: 2024-12-06T12:22:46+08:00
+date: 2025-06-26T12:28:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731963914155-d22942204d3d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM0NTg4NDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745136028303-7c01bae7eb6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745136028303-7c01bae7eb6a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
 ---
 
 # [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
@@ -77,7 +77,6 @@ When learning CS, there are some useful sites you must know to get always inform
 
 ## 📰 News
 - [ACM TechNews](http://technews.acm.org) : TechNews
-- [Stratechery](https://stratechery.com) : Stratechery by Ben Thompson
 - [AlternativeTo](https://alternativeto.net) : Crowdsourced software recommendations
 - [Ars Technica](https://arstechnica.com) : Posts unique quality articles on technology, science, politics and society.
 - [Better Dev Links](https://betterdev.link) : Weekly links to help you become a better developer
@@ -97,6 +96,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [Recode](https://www.recode.net) : Tech news that focuses on the business of Silicon Valley
 - [Reddit.com/r/programming](https://www.reddit.com/r/programming/) : Subreddit with aggregated tech news and articles
 - [Slashdot](https://slashdot.org) : News, Social news (Originally "News for Nerds. Stuff that Matters")
+- [Stratechery](https://stratechery.com) : Stratechery by Ben Thompson
 - [StackShare](https://stackshare.io) : See what tools are popular with developers and companies and read about their technology decisions
 - [TechCrunch](https://techcrunch.com) : dedicated to obsessively profiling startups, reviewing new Internet products, and breaking tech news
 - [The DEV Community](https://dev.to) : Where programmers share ideas and help each other grow.
@@ -242,6 +242,7 @@ When learning CS, there are some useful sites you must know to get always inform
 ## 🛠️ General Tools
 - [CoderPad](https://coderpad.io) : Quickly Conduct Coding Interviews and Phone Screen Interviews.
 - [CodePen](https://codepen.io) : Front End Developer Playground & Code Editor in the Browser
+- [CORS-Tester](https://cors-error.dev/cors-tester/) : A tool for developers and API testers to check if an API is CORS-enabled for a given domain and identify gaps
 - [Crontab Guru](https://crontab.guru/) : Quick and simple editor for cron schedule expressions
 - [Devicons](http://vorillaz.github.io/devicons/#/main) : Cheatsheet for devs icons
 - [Diagrams.net](https://app.diagrams.net/) : Drawing tools to make design and uml easily. Old draw.io
@@ -264,6 +265,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [Data Structure Visualization](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html) : Perfect website for visually learning Algorithms
 - [IDE Onlang](https://ide.onelang.io) : Write in one language and get the same result in other languages.
 - [JSON Crack](https://jsoncrack.com/) : An online open-source tool designed for visualizing data in various languages such as JSON, YAML, CSV, and more.
+- [JSONing](https://jsoning.com/) : Collection of JSON tools, including a formatter, validator, comparator, testers, generators, and a mock API for testing and prototyping.
 - [Pad.new](https://pad.new) : Free cloud-based IDE to run code and databases in almost any language
 - [PullRequest](https://www.pullrequest.com/) : Code review as a service from vetted, professional reviewers
 - [Python Visualizer](http://pythontutor.com/visualize.html) : Watch the execution of basic Python, Java, C++, etc. code step-by-step. Recommended for new programmers and the Canadian Computing Competition.  
@@ -279,6 +281,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [Svix Play](https://play.svix.com/): Webhook tester & debugger. Test webhooks directly from your test suite.
 - [Typeracer](https://play.typeracer.com/): Increase your typing speed while racing against others.
 - [Typerush](https://www.typerush.com/): Increase typing speed while racing.
+- [IT-Tools](https://it-tools.tech/): Collection of handy online tools for developers.
 
 
 <div align="right">
@@ -489,7 +492,6 @@ When learning CS, there are some useful sites you must know to get always inform
 </div>
 
 ## 📦 Everything in one place
-- [AI Tools](https://aicollective.tools) : Explore a curated selection of AI tools and resources
 - [API Documentation](http://devdocs.io) : A one-place well-known API Documentation with a searchable interface
 - [Baeldung](https://www.baeldung.com) : Step-by-step guides for Spring, rest, Java, security, persistence, Jackson, HTTP client-side and Kotlin
 - [BtechBasics](https://btechbasics.in/) : Fundamental concepts of Computer Science Engineering using hands-on exercises
