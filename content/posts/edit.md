@@ -1,9 +1,9 @@
 ---
 title: edit
-date: 2025-06-25T12:29:23+08:00
+date: 2025-06-27T12:27:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746699171326-090448d238db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746699171326-090448d238db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA4MjU3NDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747134392051-5e112c58ce1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747134392051-5e112c58ce1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/edit](https://github.com/microsoft/edit)

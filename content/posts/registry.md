@@ -1,9 +1,9 @@
 ---
 title: registry
-date: 2025-05-24T12:21:23+08:00
+date: 2025-06-27T12:28:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746433780060-986b6ff8287a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgwNjA0NTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746433780060-986b6ff8287a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgwNjA0NTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747134392051-5e112c58ce1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747134392051-5e112c58ce1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
 ---
 
 # [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry)
@@ -167,7 +167,6 @@ Response example:
     "release_date": "2025-05-16T19:13:21Z",
     "is_latest": true
   },
-  "package_canonical": "docker",
   "packages": [
     {
       "registry_name": "docker",
@@ -215,7 +214,6 @@ Request body example:
 {
     "description": "<your description here>",
     "name": "io.github.<owner>/<server-name>",
-    "package_canonical": "<package_registry",
     "packages": [
         {
             "registry_name": "npm",
@@ -263,7 +261,7 @@ Request body example:
         }
     ],
     "repository": {
-        "url": "https://github.com//<owner>/<server-name>",
+        "url": "https://github.com/<owner>/<server-name>",
         "source": "github"
     },
     "version_detail": {
@@ -301,6 +299,7 @@ The service can be configured using environment variables:
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `MCP_REGISTRY_APP_VERSION`           | Application version | `dev` |
+| `MCP_REGISTRY_DATABASE_TYPE`         | Database type | `mongodb` |
 | `MCP_REGISTRY_COLLECTION_NAME`       | MongoDB collection name | `servers_v2` |
 | `MCP_REGISTRY_DATABASE_NAME`         | MongoDB database name | `mcp-registry` |
 | `MCP_REGISTRY_DATABASE_URL`          | MongoDB connection string | `mongodb://localhost:27017` |

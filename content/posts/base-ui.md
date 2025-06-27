@@ -1,16 +1,16 @@
 ---
 title: base-ui
-date: 2024-12-20T12:21:00+08:00
+date: 2025-06-27T12:27:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732460486027-4a576738063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ2NjgzNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750128913891-f87924374d77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750128913891-f87924374d77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
 ---
 
 # [mui/base-ui](https://github.com/mui/base-ui)
 
 # Base UI
 
-From the creators of Radix, Floating UI, and Material UI, Base UI is an unstyled UI component library for building accessible user interfaces.
+From the creators of Radix, Floating UI, and Material UI, Base UI is an unstyled UI component library for building accessible user interfaces.
 
 ---
 
@@ -34,12 +34,12 @@ To see the latest updates, check out the [releases](https://base-ui.com/react/ov
 
 ## Team
 
-- Michał Dudak [@michaldudak](https://x.com/michaldudak)
-- James Nelson [@atomiksdev](https://x.com/atomiksdev)
-- Albert Yu [@mj12albert](https://github.com/mj12albert)
-- Colm Tuite [@colmtuite](https://x.com/colmtuite)
-- Marija Najdova [@marijanajdova](https://x.com/marijanajdova)
-- Vlad Moroz [@vladyslavmoroz](https://x.com/vladyslavmoroz)
+- **Colm Tuite** (Radix) [@colmtuite](https://x.com/colmtuite)
+- **Vlad Moroz** (Radix) [@vladyslavmoroz](https://x.com/vladyslavmoroz)
+- **James Nelson** (Floating UI) [@atomiksdev](https://x.com/atomiksdev)
+- **Michał Dudak** (Material UI) [@michaldudak](https://x.com/michaldudak)
+- **Marija Najdova** (Material UI + Fluent UI) [@marijanajdova](https://x.com/marijanajdova)
+- **Albert Yu** (Material UI) [@mj12albert](https://github.com/mj12albert)
 
 ## License
 

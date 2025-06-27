@@ -1,9 +1,9 @@
 ---
 title: ML-For-Beginners
-date: 2024-04-04T12:19:56+08:00
+date: 2025-06-27T12:29:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711348787246-5125ca266e7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711348787246-5125ca266e7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTIyMDQyMjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745649547988-5d88a8a1faea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745649547988-5d88a8a1faea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/ML-For-Beginners](https://github.com/microsoft/ML-For-Beginners)
@@ -18,11 +18,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1711348787246-5125ca266e
 [![GitHub forks](https://img.shields.io/github/forks/microsoft/ML-For-Beginners.svg?style=social&label=Fork)](https://GitHub.com/microsoft/ML-For-Beginners/network/)
 [![GitHub stars](https://img.shields.io/github/stars/microsoft/ML-For-Beginners.svg?style=social&label=Star)](https://GitHub.com/microsoft/ML-For-Beginners/stargazers/)
 
+[![](https://dcbadge.vercel.app/api/server/ByRwuEEgH4)](https://discord.gg/zxKYvhSnVp?WT.mc_id=academic-000002-leestott)
+
 # Machine Learning for Beginners - A Curriculum
 
 > 🌍 Travel around the world as we explore Machine Learning by means of world cultures 🌍
 
-Azure Cloud Advocates at Microsoft are pleased to offer a 12-week, 26-lesson curriculum all about **Machine Learning**. In this curriculum, you will learn about what is sometimes called **classic machine learning**, using primarily Scikit-learn as a library and avoiding deep learning, which is covered in our forthcoming 'AI for Beginners' curriculum. Pair these lessons with our ['Data Science for Beginners' curriculum](https://aka.ms/datascience-beginners), as well!
+Cloud Advocates at Microsoft are pleased to offer a 12-week, 26-lesson curriculum all about **Machine Learning**. In this curriculum, you will learn about what is sometimes called **classic machine learning**, using primarily Scikit-learn as a library and avoiding deep learning, which is covered in our [AI for Beginners' curriculum](https://aka.ms/ai4beginners). Pair these lessons with our ['Data Science for Beginners' curriculum](https://aka.ms/ds4beginners), as well!
 
 Travel with us around the world as we apply these classic techniques to data from many areas of the world. Each lesson includes pre- and post-lesson quizzes, written instructions to complete the lesson, a solution, an assignment, and more. Our project-based pedagogy allows you to learn while building, a proven way for new skills to 'stick'.
 
@@ -34,23 +36,14 @@ Travel with us around the world as we apply these classic techniques to data fro
 
 **🤩 Extra gratitude to Microsoft Student Ambassadors Eric Wanjau, Jasleen Sondhi, and Vidushi Gupta for our R lessons!**
 
----
-
-## Announcement - New Curriculum on Generative AI was just released!
-
-We just released a 12 lesson curriculum on generative AI. Come learn things like:
-
-- prompting and prompt engineering
-- text and image app generation
-- search apps
-
-As usual, there's a lesson, assignments to complete, knowledge checks and challenges.
-
-Check it out:
-
-> https://aka.ms/genai-beginners
-
 # Getting Started
+
+Follow these steps:
+1. **Fork the Repository**: Click on the "Fork" button at the top-right corner of this page.
+2. **Clone the Repository**:   `git clone https://github.com/microsoft/ML-For-Beginners.git`
+
+> [find all additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3?WT.mc_id=academic-77952-bethanycheum)
+
 
 **[Students](https://aka.ms/student-page)**, to use this curriculum, fork the entire repo to your own GitHub account and complete the exercises on your own or with a group:
 
@@ -94,7 +87,7 @@ By ensuring that the content aligns with projects, the process is made more enga
 
 > Find our [Code of Conduct](CODE_OF_CONDUCT.md), [Contributing](CONTRIBUTING.md), and [Translation](TRANSLATIONS.md) guidelines. We welcome your constructive feedback!
 
-## Each lesson includes:
+## Each lesson includes
 
 - optional sketchnote
 - optional supplemental video
@@ -110,7 +103,7 @@ By ensuring that the content aligns with projects, the process is made more enga
 
 > **A note about languages**: These lessons are primarily written in Python, but many are also available in R. To complete an R lesson, go to the `/solution` folder and look for R lessons. They include an .rmd extension that represents an **R Markdown** file which can be simply defined as an embedding of `code chunks` (of R or other languages) and a `YAML header` (that guides how to format outputs such as PDF) in a `Markdown document`. As such, it serves as an exemplary authoring framework for data science since it allows you to combine your code, its output, and your thoughts by allowing you to write them down in Markdown. Moreover, R Markdown documents can be rendered to output formats such as PDF, HTML, or Word.
 
-> **A note about quizzes**: All quizzes are contained [in this app](https://gray-sand-07a10f403.1.azurestaticapps.net/), for 52 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder.
+> **A note about quizzes**: All quizzes are contained in [Quiz App folder](./quiz-app/), for 52 total quizzes of three questions each. They are linked from within the lessons but the quiz app can be run locally; follow the instruction in the `quiz-app` folder to locally host or deploy to Azure.
 
 | Lesson Number |                             Topic                              |                   Lesson Grouping                   | Learning Objectives                                                                                                             |                                                              Linked Lesson                                                               |                        Author                        |
 | :-----------: | :------------------------------------------------------------: | :-------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------: |
@@ -142,6 +135,8 @@ By ensuring that the content aligns with projects, the process is made more enga
 |  Postscript   |            Real-World ML scenarios and applications            |      [ML in the Wild](9-Real-World/README.md)       | Interesting and revealing real-world applications of classical ML                                                               |                                             [Lesson](9-Real-World/1-Applications/README.md)                                              |                         Team                         |
 |  Postscript   |            Model Debugging in ML using RAI dashboard          |      [ML in the Wild](9-Real-World/README.md)       | Model Debugging in Machine Learning using Responsible AI dashboard components                                                              |                                             [Lesson](9-Real-World/2-Debugging-ML-Models/README.md)                                              |                         Ruth Yakubu                       |
 
+> [find all additional resources for this course in our Microsoft Learn collection](https://learn.microsoft.com/en-us/collections/qrqzamz1nn2wx3?WT.mc_id=academic-77952-bethanycheum)
+
 ## Offline access
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
@@ -150,20 +145,24 @@ You can run this documentation offline by using [Docsify](https://docsify.js.org
 
 Find a pdf of the curriculum with links [here](https://microsoft.github.io/ML-For-Beginners/pdf/readme.pdf).
 
-## Help Wanted!
+## Help Wanted
 
 Would you like to contribute a translation? Please read our [translation guidelines](TRANSLATIONS.md) and add a templated issue to manage the workload [here](https://github.com/microsoft/ML-For-Beginners/issues).
 
-## Other Curricula
+## 🎒 Other Courses 
 
-Our team produces other curricula! Check out:
+Our team produces other courses! Check out:
 
+- [Generative AI for Beginners](https://aka.ms/genai-beginners)
+- [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
 - [AI for Beginners](https://aka.ms/ai-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
-- [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [**NEW** Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
+- [ML for Beginners](https://aka.ms/ml-beginners)
+- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101) 
 - [Web Dev for Beginners](https://aka.ms/webdev-beginners)
 - [IoT for Beginners](https://aka.ms/iot-beginners)
-- [Machine Learning for Beginners](https://aka.ms/ml-beginners)
-- [XR Development for Beginners](https://aka.ms/xr-dev-for-beginners)
-- [Mastering GitHub Copilot for AI Paired Programming](https://aka.ms/GitHubCopilotAI)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
+- [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
+- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
