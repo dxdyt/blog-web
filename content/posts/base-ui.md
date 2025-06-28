@@ -1,9 +1,9 @@
 ---
 title: base-ui
-date: 2025-06-27T12:27:48+08:00
+date: 2025-06-28T12:24:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750128913891-f87924374d77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750128913891-f87924374d77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749569338796-cc9cc311467d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEwODQ1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749569338796-cc9cc311467d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEwODQ1NTd8&ixlib=rb-4.1.0
 ---
 
 # [mui/base-ui](https://github.com/mui/base-ui)

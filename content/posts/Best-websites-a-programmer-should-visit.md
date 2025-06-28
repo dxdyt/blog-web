@@ -1,9 +1,9 @@
 ---
 title: Best-websites-a-programmer-should-visit
-date: 2025-06-27T12:29:24+08:00
+date: 2025-06-28T12:24:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749838065282-32db54bed154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749838065282-32db54bed154?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748924388605-fe7da3657563?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEwODQ1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748924388605-fe7da3657563?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEwODQ1NTd8&ixlib=rb-4.1.0
 ---
 
 # [sdmg15/Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)
@@ -253,6 +253,7 @@ When learning CS, there are some useful sites you must know to get always inform
 - [Pyrexp](https://pythonium.net/regex) : Online regex tester and visualizer for Python.
 - [regex101](https://regex101.com) : Online regex tester and debugger: PHP, PCRE, Python, Golang and JavaScript
 - [regexr](https://regexr.com) : Another online tool to learn, build & test Regular Expressions
+- [Ray.so](https://www.ray.so/): Beautiful code snippet screenshots.
 - [Prodia AI Image API](https://prodia.com/) : API for open sourced image models
 - [Wit AI](https://wit.ai) : Natural Language for Developers
 - [SaaS Design](https://www.saasdesign.io/free-figma-templates) : Collection of open source Figma UI design templates for your next project.

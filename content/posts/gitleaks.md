@@ -1,9 +1,9 @@
 ---
 title: gitleaks
-date: 2025-06-27T12:27:54+08:00
+date: 2025-06-28T12:22:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747134392051-5e112c58ce1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747134392051-5e112c58ce1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5OTg0NTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1732342643124-386b131ed04c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEwODQ1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1732342643124-386b131ed04c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEwODQ1NTd8&ixlib=rb-4.1.0
 ---
 
 # [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks)
