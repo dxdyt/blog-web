@@ -1,9 +1,9 @@
 ---
 title: midday
-date: 2025-04-18T12:21:56+08:00
+date: 2025-06-29T12:34:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742567009397-c64925e0c3ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742567009397-c64925e0c3ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ5NTAwNDF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750544684752-6fbda794b181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750544684752-6fbda794b181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
 ---
 
 # [midday-ai/midday](https://github.com/midday-ai/midday)
@@ -65,15 +65,15 @@ We are working on the documentation to get started with Midday for local develop
 - Nextjs
 - Supabase
 - Shadcn
-- ToDesktop
+- Tauri
 - Expo
 - TailwindCSS
 
 ### Hosting
 
 - Supabase (database, storage, realtime, auth)
-- Vercel (Website, edge-config, and metrics)
-- Upstash (redis)
+- Vercel (Website, Dashboard)
+- Fly.io (API/tRPC)
 
 ### Services
 
@@ -85,9 +85,10 @@ We are working on the documentation to get started with Midday for local develop
 - Plaid (Bank connection in Canada and US)
 - Teller (Bank connection in the US)
 - OpenPanel (Events and Analytics)
-- Dub (Short URLs)
 - Polar (Payment processing)
 - Typesense (Search)
+- Mistral
+- OpenAI
 
 ## Repo Activity
 
