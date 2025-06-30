@@ -1,9 +1,9 @@
 ---
 title: PayloadsAllTheThings
-date: 2025-06-29T12:35:22+08:00
+date: 2025-06-30T12:34:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749288752527-831860baa9f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749288752527-831860baa9f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749367494428-baf0effb2cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749367494428-baf0effb2cbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
 ---
 
 # [swisskyrepo/PayloadsAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings)

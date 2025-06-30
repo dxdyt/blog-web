@@ -1,17 +1,32 @@
 ---
 title: Perplexica
-date: 2025-01-15T12:19:55+08:00
+date: 2025-06-30T12:33:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733723586975-9aaae6983459?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733723586975-9aaae6983459?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1747640731141-7d81ade721bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747640731141-7d81ade721bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
 ---
 
 # [ItzCrazyKns/Perplexica](https://github.com/ItzCrazyKns/Perplexica)
 
 # 🚀 Perplexica - An AI-powered search engine 🔎 <!-- omit in toc -->
 
-[![Discord](https://dcbadge.vercel.app/api/server/26aArMy8tT?style=flat&compact=true)](https://discord.gg/26aArMy8tT)
+<div align="center" markdown="1">
+   <sup>Special thanks to:</sup>
+   <br>
+   <br>
+   <a href="https://www.warp.dev/perplexica">
+      <img alt="Warp sponsorship" width="400" src="https://github.com/user-attachments/assets/775dd593-9b5f-40f1-bf48-479faff4c27b">
+   </a>
 
+### [Warp, the AI Devtool that lives in your terminal](https://www.warp.dev/perplexica)
+
+[Available for MacOS, Linux, & Windows](https://www.warp.dev/perplexica)
+
+</div>
+
+<hr/>
+
+[![Discord](https://dcbadge.vercel.app/api/server/26aArMy8tT?style=flat&compact=true)](https://discord.gg/26aArMy8tT)
 
 ![preview](.assets/perplexica-screenshot.png?)
 
@@ -54,7 +69,7 @@ Want to know more about its architecture and how it works? You can read it [here
   - **Normal Mode:** Processes your query and performs a web search.
 - **Focus Modes:** Special modes to better answer specific types of questions. Perplexica currently has 6 focus modes:
   - **All Mode:** Searches the entire web to find the best results.
-  - **Writing Assistant Mode:** Helpful for writing tasks that does not require searching the web.
+  - **Writing Assistant Mode:** Helpful for writing tasks that do not require searching the web.
   - **Academic Search Mode:** Finds articles and papers, ideal for academic research.
   - **YouTube Search Mode:** Finds YouTube videos based on the search query.
   - **Wolfram Alpha Search Mode:** Answers queries that need calculations or data analysis using Wolfram Alpha.
@@ -85,6 +100,7 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
    - `OLLAMA`: Your Ollama API URL. You should enter it as `http://host.docker.internal:PORT_NUMBER`. If you installed Ollama on port 11434, use `http://host.docker.internal:11434`. For other ports, adjust accordingly. **You need to fill this if you wish to use Ollama's models instead of OpenAI's**.
    - `GROQ`: Your Groq API key. **You only need to fill this if you wish to use Groq's hosted models**.
    - `ANTHROPIC`: Your Anthropic API key. **You only need to fill this if you wish to use Anthropic models**.
+   - `Gemini`: Your Gemini API key.  **You only need to fill this if you wish to use Google's models**.
 
      **Note**: You can change these after starting Perplexica from the settings dialog.
 
@@ -104,14 +120,13 @@ There are mainly 2 ways of installing Perplexica - With Docker, Without Docker. 
 
 1. Install SearXNG and allow `JSON` format in the SearXNG settings.
 2. Clone the repository and rename the `sample.config.toml` file to `config.toml` in the root directory. Ensure you complete all required fields in this file.
-3. Rename the `.env.example` file to `.env` in the `ui` folder and fill in all necessary fields.
-4. After populating the configuration and environment files, run `npm i` in both the `ui` folder and the root directory.
-5. Install the dependencies and then execute `npm run build` in both the `ui` folder and the root directory.
-6. Finally, start both the frontend and the backend by running `npm run start` in both the `ui` folder and the root directory.
+3. After populating the configuration run `npm i`.
+4. Install the dependencies and then execute `npm run build`.
+5. Finally, start the app by running `npm run start`
 
 **Note**: Using Docker is recommended as it simplifies the setup process, especially for managing environment variables and dependencies.
 
-See the [installation documentation](https://github.com/ItzCrazyKns/Perplexica/tree/master/docs/installation) for more information like exposing it your network, etc.
+See the [installation documentation](https://github.com/ItzCrazyKns/Perplexica/tree/master/docs/installation) for more information like updating, etc.
 
 ### Ollama Connection Errors
 
@@ -149,11 +164,13 @@ For more details, check out the full documentation [here](https://github.com/Itz
 
 ## Expose Perplexica to network
 
-You can access Perplexica over your home network by following our networking guide [here](https://github.com/ItzCrazyKns/Perplexica/blob/master/docs/installation/NETWORKING.md).
+Perplexica runs on Next.js and handles all API requests. It works right away on the same network and stays accessible even with port forwarding.
 
 ## One-Click Deployment
 
+[![Deploy to Sealos](https://raw.githubusercontent.com/labring-actions/templates/main/Deploy-on-Sealos.svg)](https://usw.sealos.io/?openapp=system-template%3FtemplateName%3Dperplexica)
 [![Deploy to RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/?app_id=267)
+[![Run on ClawCloud](https://raw.githubusercontent.com/ClawCloud/Run-Template/refs/heads/main/Run-on-ClawCloud.svg)](https://template.run.claw.cloud/?referralCode=U11MRQ8U9RM4&openapp=system-fastdeploy%3FtemplateName%3Dperplexica)
 
 ## Upcoming Features
 

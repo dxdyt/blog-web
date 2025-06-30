@@ -1,9 +1,9 @@
 ---
 title: BookLore
-date: 2025-06-29T12:34:27+08:00
+date: 2025-06-30T12:33:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746483965416-158f9b2b1936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746483965416-158f9b2b1936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749069574862-081a403c4a0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749069574862-081a403c4a0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
 ---
 
 # [adityachandelgit/BookLore](https://github.com/adityachandelgit/BookLore)
@@ -13,7 +13,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1746483965416-158f9b2b19
 ![License](https://img.shields.io/github/license/adityachandelgit/BookLore)
 ![Issues](https://img.shields.io/github/issues/adityachandelgit/BookLore)
 ![Stars](https://img.shields.io/github/stars/adityachandelgit/BookLore?style=social)
-[![Join us on Discord](https://img.shields.io/badge/Chat-Discord-blue?logo=discord&style=flat)](https://discord.gg/yXdkBNCK)
+[![Join us on Discord](https://img.shields.io/badge/Chat-Discord-blue?logo=discord&style=flat)](https://discord.gg/Ee5hd458Uz)
 
 BookLore is a self-hosted web app for organizing and managing your personal book collection. It provides an intuitive interface to browse, read, and track your progress across PDFs and eBooks. With robust metadata management, multi-user support, and a sleek, modern UI, BookLore makes it easy to build and explore your personal library.
 
@@ -114,16 +114,17 @@ Once the containers are up, access BookLore in your browser at:
 http://localhost:6060
 ```
 
-## 🔑 OIDC/OAuth2 Authentication
+## 🔑 OIDC/OAuth2 Authentication (Authentik, Pocket ID, etc.)
 
-> **Note:** This is an experimental feature and may not be fully stable
 
 BookLore supports optional OIDC/OAuth2 authentication for secure access. This feature allows you to integrate external authentication providers for a seamless login experience.
 
-While the integration has been tested with **Authentik**, it should work with other OIDC providers like **Authelia** as well. The setup allows you to use either JWT-based local authentication or external providers, giving users the flexibility to choose their preferred method.
+While the integration has been tested with **Authentik** and **Pocket ID**, it should work with other OIDC providers like **Authelia** as well. The setup allows you to use either JWT-based local authentication or external providers, giving users the flexibility to choose their preferred method.
 
-For detailed instructions on setting up OIDC authentication with **Authentik**, refer to the [YouTube guide on configuring OIDC in BookLore](https://www.youtube.com/watch?v=r6Ufh9ldF9M), which provides step-by-step walkthroughs.
+For detailed instructions on setting up OIDC authentication:
 
+- 📺 [YouTube video on configuring Authentik with BookLore](https://www.youtube.com/watch?v=r6Ufh9ldF9M)
+- 📘 [Step-by-step setup guide for Pocket ID](docs/OIDC-Setup-With-PocketID.md)
 
 ## 🔐 Remote Authentication (Trusted Header SSO, Forward Auth)
 
@@ -155,7 +156,7 @@ Example implementations:
 - 🐞 Found a bug? [Open an issue](https://github.com/adityachandelgit/BookLore/issues)
 - ✨ Want to contribute? [Check out CONTRIBUTING.md](https://github.com/adityachandelgit/BookLore/blob/master/CONTRIBUTING.md)
 - 💬 Ask questions or share feedback: [Discussions](https://github.com/adityachandelgit/BookLore/discussions)
-- 💬 **Join our Discord**: [Click here to chat with the community](https://discord.gg/yXdkBNCK)
+- 💬 **Join our Discord**: [Click here to chat with the community](https://discord.gg/Ee5hd458Uz)
 
 ## 👨‍💻 Contributors & Developers
 

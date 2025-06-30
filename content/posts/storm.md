@@ -1,9 +1,9 @@
 ---
 title: storm
-date: 2025-03-08T12:17:30+08:00
+date: 2025-06-30T12:33:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740471230719-60fc0bfd42e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740471230719-60fc0bfd42e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0MDczNjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1546803073-23568b8c98e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1546803073-23568b8c98e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
 ---
 
 # [stanford-oval/storm](https://github.com/stanford-oval/storm)
@@ -332,6 +332,8 @@ Contact person: [Yijia Shao](mailto:shaoyj@stanford.edu) and [Yucheng Jiang](mai
 We would like to thank Wikipedia for its excellent open-source content. The FreshWiki dataset is sourced from Wikipedia, licensed under the Creative Commons Attribution-ShareAlike (CC BY-SA) license.
 
 We are very grateful to [Michelle Lam](https://michelle123lam.github.io/) for designing the logo for this project and [Dekun Ma](https://dekun.me) for leading the UI development.
+
+Thanks to Vercel for their support of [open-source software](https://storm.genie.stanford.edu)
 
 ## Citation
 Please cite our paper if you use this code or part of it in your work:
