@@ -1,9 +1,9 @@
 ---
 title: paperless-ngx
-date: 2025-02-03T12:20:29+08:00
+date: 2025-07-01T12:38:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1737991878092-d3be52a76735?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg1NTYzNDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1737991878092-d3be52a76735?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg1NTYzNDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749072624357-9ca89036324d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749072624357-9ca89036324d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
 ---
 
 # [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)
@@ -93,7 +93,7 @@ People interested in continuing the work on paperless-ngx are encouraged to reac
 
 ## Translation
 
-Paperless-ngx is available in many languages that are coordinated on Crowdin. If you want to help out by translating paperless-ngx into your language, please head over to https://crwd.in/paperless-ngx, and thank you! More details can be found in [CONTRIBUTING.md](https://github.com/paperless-ngx/paperless-ngx/blob/main/CONTRIBUTING.md#translating-paperless-ngx).
+Paperless-ngx is available in many languages that are coordinated on Crowdin. If you want to help out by translating paperless-ngx into your language, please head over to https://crowdin.com/project/paperless-ngx, and thank you! More details can be found in [CONTRIBUTING.md](https://github.com/paperless-ngx/paperless-ngx/blob/main/CONTRIBUTING.md#translating-paperless-ngx).
 
 ## Feature Requests
 

@@ -1,9 +1,9 @@
 ---
 title: Synology_HDD_db
-date: 2025-04-22T12:22:19+08:00
+date: 2025-07-01T12:38:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734623044490-4bf667aafade?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734623044490-4bf667aafade?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUyOTU2NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749067560792-8b72e32d3f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749067560792-8b72e32d3f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
 ---
 
 # [007revad/Synology_HDD_db](https://github.com/007revad/Synology_HDD_db)
@@ -26,6 +26,8 @@ Add your SATA or SAS HDDs and SSDs plus SATA and NVMe M.2 drives to your Synolog
 The script works in DSM 7, including DSM 7.2, and DSM 6.
 
 It also has a restore option to undo all the changes made by the script.
+
+Works for 2025 series or later Plus models. See [2025_plus_models.md](https://github.com/007revad/Synology_HDD_db/blob/main/2025_plus_models.md)
 
 #### What the script does:
 
@@ -215,6 +217,11 @@ Thank you to the PayPal and Buy Me a Coffee donators, GitHub sponsors and hardwa
 
 |  |  |  |  | 
 |--------------------|--------------------|----------------------|----------------------|
+|  |  | bizIT Hirschberg | Alexander Ziemann |
+| Chris Black Media | Brent Bertram | Carsten Schmidt | Christopher Nichols |
+| Roland Thätig | Sebastian Brandt | HFB2022 | jtrouzes |
+| stove | Simon Küest | Oliver Weber | Kevin Randino |
+| Alex Tripp | Peter Kleissner | Dominic Lee | Daniel Boecker |
 | Pat A Phillips | Craikeybaby | Jason DeCorte | Salovaara Antti Sakari |
 | Jérôme MORIN | Sven Bauer | Fabien Vallet | Fabio Petgola |
 | lonestar6262 | Netchoice | Fabio Cecchinato | Jacek  |

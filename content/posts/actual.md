@@ -1,9 +1,9 @@
 ---
 title: actual
-date: 2024-11-11T12:20:19+08:00
+date: 2025-07-01T12:37:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727102406027-e7ae00b762b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727102406027-e7ae00b762b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEyOTg3NjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1748075904760-f17b9066d1b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748075904760-f17b9066d1b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
 ---
 
 # [actualbudget/actual](https://github.com/actualbudget/actual)
@@ -76,7 +76,11 @@ To add new feature requests, open a new Issue of the "Feature Request" type.
 
 ### Translation
 
-Make Actual Budget accessible to more people by helping with the [Internationalization](https://actualbudget.org/docs/contributing/i18n/) of Actual. We are using a crowd sourcing tool to manage the translations, see our [Weblate Project](https://hosted.weblate.org/projects/actualbudget/). Weblate proudly supports open-source software projects through their [Libre plan](https://weblate.org/en/hosting/#libre). 
+Make Actual Budget accessible to more people by helping with the [Internationalization](https://actualbudget.org/docs/contributing/i18n/) of Actual. We are using a crowd sourcing tool to manage the translations, see our [Weblate Project](https://hosted.weblate.org/projects/actualbudget/). Weblate proudly supports open-source software projects through their [Libre plan](https://weblate.org/en/hosting/#libre).
+
+<a href="https://hosted.weblate.org/engage/actualbudget/">
+<img src="https://hosted.weblate.org/widget/actualbudget/actual/287x66-grey.png" alt="Translation status" />
+</a>
 
 ## Repo Activity
 

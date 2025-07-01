@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2025-06-30T12:33:42+08:00
+date: 2025-07-01T12:38:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746483965416-158f9b2b1936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746483965416-158f9b2b1936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749072624357-9ca89036324d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749072624357-9ca89036324d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
 ---
 
 # [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
