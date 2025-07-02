@@ -1,9 +1,9 @@
 ---
 title: actual
-date: 2025-07-01T12:37:45+08:00
+date: 2025-07-02T12:29:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748075904760-f17b9066d1b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748075904760-f17b9066d1b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748810417930-987996d1a9e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748810417930-987996d1a9e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
 ---
 
 # [actualbudget/actual](https://github.com/actualbudget/actual)

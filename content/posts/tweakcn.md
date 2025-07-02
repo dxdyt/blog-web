@@ -1,9 +1,9 @@
 ---
 title: tweakcn
-date: 2025-06-30T12:33:36+08:00
+date: 2025-07-02T12:30:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749802449762-5e428ccf9a45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749802449762-5e428ccf9a45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748680098951-a71c95f6c560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748680098951-a71c95f6c560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
 ---
 
 # [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn)

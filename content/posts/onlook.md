@@ -1,9 +1,9 @@
 ---
 title: onlook
-date: 2025-06-07T12:24:05+08:00
+date: 2025-07-02T12:30:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748025476920-7b79e80a0a7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748025476920-7b79e80a0a7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkyNzAxMzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1748680098951-a71c95f6c560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1748680098951-a71c95f6c560?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
 ---
 
 # [onlook-dev/onlook](https://github.com/onlook-dev/onlook)
@@ -18,6 +18,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1748025476920-7b79e80a0a
     <br />
     <a href="https://docs.onlook.com"><strong>Explore the docs »</strong></a>
     <br />
+  </p>
+  <p align="center">
+    👨‍💻👩‍💻👨‍💻
+    <a href="https://www.ycombinator.com/companies/onlook/jobs/e4gHv1n-founding-engineer-fullstack">We're hiring engineers in SF!</a>
+    👩‍💻👨‍💻👩‍💻
+  </p>
     <br />
     <a href="https://youtu.be/RSX_3EaO5eU?feature=shared">View Demo</a>
     ·
@@ -121,7 +127,7 @@ Available soon with a [hosted app](https://onlook.com) or
 ### Usage
 
 Onlook will run on any Next.js + TailwindCSS project, import your project
-through into Onlook or start from scratch within the editor.
+into Onlook or start from scratch within the editor.
 
 Use the AI chat to create or edit a project you're working on. At any time, you
 can always right-click an element to open up the exact location of the element

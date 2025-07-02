@@ -1,9 +1,9 @@
 ---
 title: deepeval
-date: 2025-06-16T12:31:42+08:00
+date: 2025-07-02T12:29:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748188167634-993480d831b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748188167634-993480d831b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750056393331-82e69d28c9d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750056393331-82e69d28c9d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
 ---
 
 # [confident-ai/deepeval](https://github.com/confident-ai/deepeval)
@@ -41,6 +41,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1748188167634-993480d831
     </a>
     <a href="https://github.com/confident-ai/deepeval/blob/master/LICENSE.md">
         <img alt="License" src="https://img.shields.io/github/license/confident-ai/deepeval.svg?color=yellow">
+    </a>
+    <a href="https://x.com/deepeval">
+        <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/deepeval?style=social&logo=x">
     </a>
 </p>
 
@@ -343,7 +346,7 @@ The correct LLM evaluation lifecycle is only achievable with [the DeepEval platf
 5. Monitor & evaluate LLM responses in product to improve datasets with real-world data
 6. Repeat until perfection
 
-Everything on Confident AI, including how to use Confident is available [here](https://documentation.confident-ai.com?utm_source=GitHub).
+Everything on Confident AI, including how to use Confident is available [here](https://documentation.confident-ai.com/docs?utm_source=GitHub).
 
 To begin, login from the CLI:
 
