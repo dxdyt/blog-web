@@ -1,9 +1,9 @@
 ---
 title: Project-Ideas-And-Resources
-date: 2025-07-02T12:30:17+08:00
+date: 2025-07-03T12:31:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748871576298-732b1180b3c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748871576298-732b1180b3c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750056661722-8381f9012079?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750056661722-8381f9012079?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
 ---
 
 # [The-Cool-Coders/Project-Ideas-And-Resources](https://github.com/The-Cool-Coders/Project-Ideas-And-Resources)

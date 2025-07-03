@@ -1,9 +1,9 @@
 ---
 title: ntfy
-date: 2023-09-04T12:17:00+08:00
+date: 2025-07-03T12:31:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1693250707557-a846a014b321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1693250707557-a846a014b321?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTM4MDA4ODN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750629728238-f17aea3f5c9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750629728238-f17aea3f5c9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
 ---
 
 # [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy)
@@ -12,14 +12,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1693250707557-a846a014b3
 
 # ntfy.sh | Send push notifications to your phone or desktop via PUT/POST
 [![Release](https://img.shields.io/github/release/binwiederhier/ntfy.svg?color=success&style=flat-square)](https://github.com/binwiederhier/ntfy/releases/latest)
-[![Go Reference](https://pkg.go.dev/badge/heckel.io/ntfy.svg)](https://pkg.go.dev/heckel.io/ntfy)
+[![Go Reference](https://pkg.go.dev/badge/heckel.io/ntfy.svg)](https://pkg.go.dev/heckel.io/ntfy/v2)
 [![Tests](https://github.com/binwiederhier/ntfy/workflows/test/badge.svg)](https://github.com/binwiederhier/ntfy/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/binwiederhier/ntfy)](https://goreportcard.com/report/github.com/binwiederhier/ntfy)
 [![codecov](https://codecov.io/gh/binwiederhier/ntfy/branch/main/graph/badge.svg?token=A597KQ463G)](https://codecov.io/gh/binwiederhier/ntfy)
 [![Discord](https://img.shields.io/discord/874398661709295626?label=Discord)](https://discord.gg/cT7ECsZj9w)
 [![Matrix](https://img.shields.io/matrix/ntfy:matrix.org?label=Matrix)](https://matrix.to/#/#ntfy:matrix.org)
 [![Matrix space](https://img.shields.io/matrix/ntfy-space:matrix.org?label=Matrix+space)](https://matrix.to/#/#ntfy-space:matrix.org)
-[![Lemmy](https://img.shields.io/badge/Lemmy-discuss-green)](https://discuss.ntfy.sh/c/ntfy)
 [![Healthcheck](https://healthchecks.io/badge/68b65976-b3b0-4102-aec9-980921/kcoEgrLY.svg)](https://ntfy.statuspage.io/)
 [![Gitpod](https://img.shields.io/badge/Contribute%20with-Gitpod-908a85?logo=gitpod)](https://gitpod.io/#https://github.com/binwiederhier/ntfy)
 
@@ -28,7 +27,7 @@ notification service. With ntfy, you can **send notifications to your phone or d
 **without having to sign up or pay any fees**. If you'd like to run your own instance of the service, you can easily do 
 so since ntfy is open source.
 
-You can access the free version of ntfy at **[ntfy.sh](https://ntfy.sh)**. There is also an [open source Android app](https://github.com/binwiederhier/ntfy-android)
+You can access the free version of ntfy at **[ntfy.sh](https://ntfy.sh)**. There is also an [open-source Android app](https://github.com/binwiederhier/ntfy-android)
 available on [Google Play](https://play.google.com/store/apps/details?id=io.heckel.ntfy) or [F-Droid](https://f-droid.org/en/packages/io.heckel.ntfy/),
 as well as an [open source iOS app](https://github.com/binwiederhier/ntfy-ios) available on the [App Store](https://apps.apple.com/us/app/ntfy/id1625396347).
 
@@ -41,7 +40,10 @@ as well as an [open source iOS app](https://github.com/binwiederhier/ntfy-ios) a
 </p>
 
 ## [ntfy Pro](https://ntfy.sh/app) 💸 🎉
-I now offer paid plans for [ntfy.sh](https://ntfy.sh/) if you don't want to self-host, or you want to support the development of ntfy (→ [Purchase via web app](https://ntfy.sh/app)). You can **buy a plan for as low as $3.33/month** (if you use promo code `MYTOPIC`, limited time only). You can also donate via [GitHub Sponsors](https://github.com/sponsors/binwiederhier), and [Liberapay](https://liberapay.com/ntfy). I would be very humbled by your sponsorship. ❤️ 
+I now offer paid plans for [ntfy.sh](https://ntfy.sh/) if you don't want to self-host, or you want to support the development of 
+ntfy (→ [Purchase via web app](https://ntfy.sh/app)). You can **buy a plan for as low as $5/month**.
+You can also donate via [GitHub Sponsors](https://github.com/sponsors/binwiederhier), and [Liberapay](https://liberapay.com/ntfy).
+I would be very humbled by your sponsorship. ❤️ 
 
 ## **[Documentation](https://ntfy.sh/docs/)**
 
@@ -51,34 +53,31 @@ I now offer paid plans for [ntfy.sh](https://ntfy.sh/) if you don't want to self
 [Install / Self-hosting](https://ntfy.sh/docs/install/) |
 [Building](https://ntfy.sh/docs/develop/)
 
-## Chat / forum
+## Chat/forum
 There are a few ways to get in touch with me and/or the rest of the community. Feel free to use any of these methods. Whatever
 works best for you:
 
 * [Discord server](https://discord.gg/cT7ECsZj9w) - direct chat with the community
 * [Matrix room #ntfy](https://matrix.to/#/#ntfy:matrix.org) (+ [Matrix space](https://matrix.to/#/#ntfy-space:matrix.org)) - same chat, bridged from Discord
-* [Lemmy discussion board](https://discuss.ntfy.sh/c/ntfy) - asynchronous forum (_new as of June 2023_)
 * [GitHub issues](https://github.com/binwiederhier/ntfy/issues) - questions, features, bugs
 
-## Announcements / beta testers
+## Announcements/beta testers
 For announcements of new releases and cutting-edge beta versions, please subscribe to the [ntfy.sh/announcements](https://ntfy.sh/announcements) 
 topic. If you'd like to test the iOS app, join [TestFlight](https://testflight.apple.com/join/P1fFnAm9). For Android betas,
 join Discord/Matrix (I'll eventually make a testing channel in Google Play).
 
-## Contributing
-I welcome any and all contributions. Just create a PR or an issue. For larger features/ideas, please reach out
-on Discord/Matrix first to see if I'd accept them. To contribute code, check out the [build instructions](https://ntfy.sh/docs/develop/) 
-for the server and the Android app. Or, if you'd like to help translate 🇩🇪 🇺🇸 🇧🇬, you can start immediately in
-[Hosted Weblate](https://hosted.weblate.org/projects/ntfy/).
-
-<a href="https://hosted.weblate.org/engage/ntfy/">
-<img src="https://hosted.weblate.org/widgets/ntfy/-/multi-blue.svg" alt="Translation status" />
-</a>
-
 ## Sponsors
-I have just very recently started accepting donations via [GitHub Sponsors](https://github.com/sponsors/binwiederhier),
-and [Liberapay](https://liberapay.com/ntfy). I would be humbled if you helped me carry the server and developer 
-account costs. Even small donations are very much appreciated. A big fat **Thank You** to the folks already sponsoring ntfy:
+If you'd like to support the ntfy maintainers, please consider donating to [GitHub Sponsors](https://github.com/sponsors/binwiederhier) or
+and [Liberapay](https://liberapay.com/ntfy). We would be humbled if you helped carry the server and developer 
+account costs. Even small donations are very much appreciated. 
+
+Thank you to our commercial sponsors, who help keep the service running and the development going:
+
+<a href="https://m.do.co/c/442b929528db"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px"></a>
+
+<a href="https://www.magicbell.com/?utm_source=ntfy"><img src="assets/sponsors/magicbell.png" width="180px"></a>
+
+And a big fat **Thank You** to the individuals who have sponsored ntfy in the past, or are still sponsoring ntfy:
 
 <a href="https://github.com/neutralinsomniac"><img src="https://github.com/neutralinsomniac.png" width="40px" /></a>
 <a href="https://github.com/aspyct"><img src="https://github.com/aspyct.png" width="40px" /></a>
@@ -158,14 +157,82 @@ account costs. Even small donations are very much appreciated. A big fat **Thank
 <a href="https://github.com/spirossi"><img src="https://github.com/spirossi.png" width="40px" /></a>
 <a href="https://github.com/teomarcdhio"><img src="https://github.com/teomarcdhio.png" width="40px" /></a>
 <a href="https://github.com/MarcMichalsky"><img src="https://github.com/MarcMichalsky.png" width="40px" /></a>
+<a href="https://github.com/LuckVintage"><img src="https://github.com/LuckVintage.png" width="40px" /></a>
+<a href="https://github.com/spartan"><img src="https://github.com/spartan.png" width="40px" /></a>
+<a href="https://github.com/alexandzors"><img src="https://github.com/alexandzors.png" width="40px" /></a>
+<a href="https://github.com/dkramer95"><img src="https://github.com/dkramer95.png" width="40px" /></a>
+<a href="https://github.com/YezGotIt"><img src="https://github.com/YezGotIt.png" width="40px" /></a>
+<a href="https://github.com/thomasskou"><img src="https://github.com/thomasskou.png" width="40px" /></a>
+<a href="https://github.com/surfernv"><img src="https://github.com/surfernv.png" width="40px" /></a>
+<a href="https://github.com/richardleach"><img src="https://github.com/richardleach.png" width="40px" /></a>
+<a href="https://github.com/bear"><img src="https://github.com/bear.png" width="40px" /></a>
+<a href="https://github.com/cminter"><img src="https://github.com/cminter.png" width="40px" /></a>
+<a href="https://github.com/bahur142"><img src="https://github.com/bahur142.png" width="40px" /></a>
+<a href="https://github.com/pgwiebes"><img src="https://github.com/pgwiebes.png" width="40px" /></a>
+<a href="https://github.com/ralhei"><img src="https://github.com/ralhei.png" width="40px" /></a>
+<a href="https://github.com/TechMDW"><img src="https://github.com/TechMDW.png" width="40px" /></a>
+<a href="https://github.com/ubipo"><img src="https://github.com/ubipo.png" width="40px" /></a>
+<a href="https://github.com/tka85"><img src="https://github.com/tka85.png" width="40px" /></a>
+<a href="https://github.com/beekeeb"><img src="https://github.com/beekeeb.png" width="40px" /></a>
+<a href="https://github.com/Emiliaaah"><img src="https://github.com/Emiliaaah.png" width="40px" /></a>
+<a href="https://github.com/zark0s"><img src="https://github.com/zark0s.png" width="40px" /></a>
+<a href="https://github.com/tomershvueli"><img src="https://github.com/tomershvueli.png" width="40px" /></a>
+<a href="https://github.com/CataIana"><img src="https://github.com/CataIana.png" width="40px" /></a>
+<a href="https://github.com/ajay-actuary"><img src="https://github.com/ajay-actuary.png" width="40px" /></a>
+<a href="https://github.com/mursec"><img src="https://github.com/mursec.png" width="40px" /></a>
+<a href="https://github.com/FrameXX"><img src="https://github.com/FrameXX.png" width="40px" /></a>
+<a href="https://github.com/vovayartsev"><img src="https://github.com/vovayartsev.png" width="40px" /></a>
+<a href="https://github.com/dwain-lab"><img src="https://github.com/dwain-lab.png" width="40px" /></a>
+<a href="https://github.com/brookmg"><img src="https://github.com/brookmg.png" width="40px" /></a>
+<a href="https://github.com/siebej"><img src="https://github.com/siebej.png" width="40px" /></a>
+<a href="https://github.com/rxsantos"><img src="https://github.com/rxsantos.png" width="40px" /></a>
+<a href="https://github.com/hermannx5"><img src="https://github.com/hermannx5.png" width="40px" /></a>
+<a href="https://github.com/rwxd"><img src="https://github.com/rwxd.png" width="40px" /></a>
+<a href="https://github.com/Integral-Tech"><img src="https://github.com/Integral-Tech.png" width="40px" /></a>
+<a href="https://github.com/TheTomik1"><img src="https://github.com/TheTomik1.png" width="40px" /></a>
+<a href="https://github.com/dav23r"><img src="https://github.com/dav23r.png" width="40px" /></a>
+<a href="https://github.com/stannynuytkens"><img src="https://github.com/stannynuytkens.png" width="40px" /></a>
+<a href="https://github.com/danbartram"><img src="https://github.com/danbartram.png" width="40px" /></a>
+<a href="https://github.com/arthurgleckler"><img src="https://github.com/arthurgleckler.png" width="40px" /></a>
+<a href="https://github.com/tomroth04"><img src="https://github.com/tomroth04.png" width="40px" /></a>
+<a href="https://github.com/Circenn5130"><img src="https://github.com/Circenn5130.png" width="40px" /></a>
+<a href="https://github.com/jceloria"><img src="https://github.com/jceloria.png" width="40px" /></a>
+<a href="https://github.com/afunworm"><img src="https://github.com/afunworm.png" width="40px" /></a>
+<a href="https://github.com/PTR-inc"><img src="https://github.com/PTR-inc.png" width="40px" /></a>
+<a href="https://github.com/spudooli"><img src="https://github.com/spudooli.png" width="40px" /></a>
+<a href="https://github.com/IMarkoMC"><img src="https://github.com/IMarkoMC.png" width="40px" /></a>
+<a href="https://github.com/rubund"><img src="https://github.com/rubund.png" width="40px" /></a>
+<a href="https://github.com/Riolku"><img src="https://github.com/Riolku.png" width="40px" /></a>
+<a href="https://github.com/arnbrhm"><img src="https://github.com/arnbrhm.png" width="40px" /></a>
+<a href="https://github.com/herzkerl"><img src="https://github.com/herzkerl.png" width="40px" /></a>
+<a href="https://github.com/0x45796164"><img src="https://github.com/0x45796164.png" width="40px" /></a>
+<a href="https://github.com/madchr1st"><img src="https://github.com/madchr1st.png" width="40px" /></a>
+<a href="https://github.com/avalentic"><img src="https://github.com/avalentic.png" width="40px" /></a>
+<a href="https://github.com/TheCraiggers"><img src="https://github.com/TheCraiggers.png" width="40px" /></a>
+<a href="https://github.com/sheetd"><img src="https://github.com/sheetd.png" width="40px" /></a>
+<a href="https://github.com/dlt-green"><img src="https://github.com/dlt-green.png" width="40px" /></a>
+<a href="https://github.com/suhlig"><img src="https://github.com/suhlig.png" width="40px" /></a>
+<a href="https://github.com/Proximus888"><img src="https://github.com/Proximus888.png" width="40px" /></a>
+<a href="https://github.com/wielandp"><img src="https://github.com/wielandp.png" width="40px" /></a>
+<a href="https://github.com/chxseh"><img src="https://github.com/chxseh.png" width="40px" /></a>
+<a href="https://github.com/user8446"><img src="https://github.com/user8446.png" width="40px" /></a>
+<a href="https://github.com/cdf-eagles"><img src="https://github.com/cdf-eagles.png" width="40px" /></a>
 
-I'd also like to thank JetBrains for their awesome [IntelliJ IDEA](https://www.jetbrains.com/idea/),
-and [DigitalOcean](https://m.do.co/c/442b929528db) (*referral link*) for supporting the project:
+## Contributing
+I welcome any contributions. Just create a PR or an issue. For larger features/ideas, please reach out
+on Discord/Matrix first to see if I'd accept them. To contribute code, check out the [build instructions](https://ntfy.sh/docs/develop/)
+for the server and the Android app. Or, if you'd like to help translate 🇩🇪 🇺🇸 🇧🇬, you can start immediately in
+[Hosted Weblate](https://hosted.weblate.org/projects/ntfy/).
 
-<a href="https://m.do.co/c/442b929528db"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px"></a>
+<a href="https://hosted.weblate.org/engage/ntfy/">
+<img src="https://hosted.weblate.org/widgets/ntfy/-/multi-blue.svg" alt="Translation status" />
+</a>
 
 ## Code of Conduct
-We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.
+We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for
+everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity
+and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste,
+color, religion, or sexual identity and orientation.
 
 **We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.**
 
@@ -175,7 +242,7 @@ _Please be sure to read the complete [Code of Conduct](CODE_OF_CONDUCT.md)._
 Made with ❤️ by [Philipp C. Heckel](https://heckel.io).   
 The project is dual licensed under the [Apache License 2.0](LICENSE) and the [GPLv2 License](LICENSE.GPLv2).
 
-Third party libraries and resources:
+Third-party libraries and resources:
 * [github.com/urfave/cli](https://github.com/urfave/cli) (MIT) is used to drive the CLI
 * [Mixkit sounds](https://mixkit.co/free-sound-effects/notification/) (Mixkit Free License) are used as notification sounds
 * [Sounds from notificationsounds.com](https://notificationsounds.com) (Creative Commons Attribution) are used as notification sounds

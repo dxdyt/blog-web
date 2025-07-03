@@ -1,9 +1,9 @@
 ---
 title: gemini-balance
-date: 2025-07-02T12:30:43+08:00
+date: 2025-07-03T12:32:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749223928612-e7f5e9a2211f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749223928612-e7f5e9a2211f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE0MzA1Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746306216535-88c7ff69a2db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746306216535-88c7ff69a2db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
 ---
 
 # [snailyp/gemini-balance](https://github.com/snailyp/gemini-balance)

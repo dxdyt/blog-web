@@ -1,66 +1,92 @@
 ---
 title: Mastering-GitHub-Copilot-for-Paired-Programming
-date: 2023-12-21T12:16:45+08:00
+date: 2025-07-03T12:31:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1566837457221-3b6d966c5974?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1566837457221-3b6d966c5974?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750400519626-acbef0ec0915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750400519626-acbef0ec0915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/Mastering-GitHub-Copilot-for-Paired-Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 
-![Mastering GitHub Copilot for AI Paired Programming](./images/GitHub%20101%20-%20Curriculum.png)
+![Mastering GitHub Copilot for AI Peer Programming](./images/Mastering-GitHub-Copilot.png)
 
-# Mastering GitHub Copilot for AI Paired Programming
-A 6 Lesson course teaching everything you need to know about harnessing GitHub Copilot and an AI Paired Programing resource.
+# Mastering GitHub Copilot
+Unlock the next generation of collaborative coding with our newly updated, in-depth course: Mastering GitHub Copilot. This multi-module, 10-hour program now features GitHub Copilot's revolutionary Agent Mode, transforming Copilot from a passive assistant into a proactive AI coding partner that works with you—and for you.
 
-Unlock the power of collaborative coding with our comprehensive curriculum on Mastering GitHub Copilot for Paired Programming. This cutting-edge program seamlessly integrates AI-driven coding assistance through GitHub Copilot, empowering students to accelerate their coding skills in tandem with a partner. Over the course of 10 engaging hours, participants will navigate through essential setup procedures, leveraging Visual Studio Code and GitHub Copilot Chat for real-time collaboration. Dive deep into GitHub Copilot's autocompletion, customizable features, and advanced programming techniques, all while embracing AI-driven algorithms. From error handling to unit testing, this curriculum is tailored to instill best practices and enhance code quality. Immerse yourself in a transformative learning experience that fuses the latest AI technology with paired programming strategies, equipping you with the tools needed for success in today's dynamic software development landscape.
+Whether you're just starting out or an experienced developer, this course equips you to fully harness GitHub Copilot’s AI capabilities, including real-time autonomous code execution, intelligent problem-solving, and workflow automation. You'll learn how to collaborate with AI using natural-language prompts that initiate multi-step solutions—from initial planning and architecture suggestions to code generation, testing, and iteration.
 
 ## 🌱 Getting Started
 
-To get started, be sure to follow instructions on how to fork lessons to your own GitHub account to be able to change any code and complete the challenges. You can also [star (🌟) this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars?WT.mc_id=academic-113596-abartolo) to find it easier later.
+To get started, make sure to follow the instructions on how to fork the lessons into your own GitHub account. This will allow you to modify the code and complete the challenges at your own pace.
 
-Below are the links to each lesson. Feel free to explore and start at any lesson that interests you the most! 
+To use GitHub Copilot, you must have an active GitHub Copilot subscription.
+
+**Sign up for free here: [GitHub Copilot](https://gh.io/copilot).**
+
+To make it easier to revisit this repository in the future, you can also [star (🌟) this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars?WT.mc_id=academic-113596-abartolo) this repo.
+
+Below are links to each lesson—feel free to explore and dive into any topic that interests you the most!
 
 
-## 🧠 Want to learn more? 
-After completing this course, check out our [GitHub Copilot Learn Collection](https://learn.microsoft.com/collections/kkqrhmxoqn54?WT.mc_id=academic-113596-abartolo) to continue leveling up your AI Paired Programming knowledge! 
+## 🧠 Want to learn more?
+After completing this course, check out our [GitHub Copilot Learn Collection](https://learn.microsoft.com/collections/kkqrhmxoqn54?WT.mc_id=academic-113596-abartolo) to continue leveling up your AI Peer Programming knowledge!
 
-##  🚀  Are you a startup or got an idea you want to launch? 
+##  🚀  Are you a startup or got an idea you want to launch?
 
-Sign up for [Microsoft for Startups Founders Hub](https://foundershub.startups.microsoft.com/signup?WT.mc_id=academic-113596-abartolo) to receive **free OpenAI credits** and up to **$150k towards Azure credits to access OpenAI models through Azure OpenAI Services**. 
+Sign up for [Microsoft for Startups Founders Hub](https://foundershub.startups.microsoft.com/signup?WT.mc_id=academic-113596-abartolo) to receive **free OpenAI credits** and up to **$150k towards Azure credits to access OpenAI models through Azure OpenAI Services**.
 
 ##  🙏 Want to help?
 
-Here are ways you can contribute to this course: 
-- Find spelling errors or code errors, [Raise an issue](https://github.com/microsoft/) or [Create a pull request](https://github.com/microsoft/)
+Here are ways you can contribute to this course:
+- Find spelling errors or code errors, [Raise an issue](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Peer-Programming/issues/new/choose) or [Create a pull request](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Peer-Programming/pulls)
 - Send us your ideas, maybe your ideas for new lessons or exercises, and let us know how we can improve.
 
 ## 📂 Each lesson includes:
 
-- a written lesson located in the README 
-- a challenge or assignment to apply your learning 
+- a written lesson located in the README
+- a challenge or assignment to apply your learning
 - links to extra resources to continue your learning
 
 ## 🗃️ Lessons
-|       |              Lesson Link              |                       Concepts Taught                       |                     Learning Goal                 |                             
-| :---: | :------------------------------------: | :---------------------------------------------------------: | ----------------------------------------------------------- |
-| 01 | [Introduction to GitHub](./01-Introduction-to-GitHub/README.md?WT.mc_id=academic-113596-abartolo) | Get started using GitHub in less than an hour.|  Introduction to repositories, branches, commits, and pull requests.                    |
-| 02 | [Introduction to GitHub Codespaces](./02-Introduction-to-GitHub-Codespaces?WT.mc_id=academic-113596-abartolo) | Develop code using GitHub Codespaces and Visual Studio Code! | How to create a codespace, push code from a codespace, select a custom image, and customize a codespace. | 
-| 03 | [Introduction to GitHub Copilot](./03-Introduction-to-GitHub-Copilot?WT.mc_id=academic-113596-abartolo) | GitHub Copilot can help you code by offering autocomplete-style suggestions right in VS Code and Codespaces. | Creating files that will have code generated by Copilot AI for code and comment suggestions. | 
-| 04 | [Harnessing GitHub Copilot with JavaScript](./04-Harnessing-GitHub-Copilot-with-JavaScript?WT.mc_id=academic-113596-abartolo) | Use GitHub Copilot, an AI pair programmer that offers autocomplete-style suggestions as you code, to work with JavaScript. | Enable the GitHub Copilot extension in Visual Studio Code. Craft prompts that can generate useful suggestions from GitHub Copilot. Use GitHub Copilot to improve a JavaScript project. |
-| 05 | [Harnessing GitHub Copilot with Python](./05-Harnessing-GitHub-Copilot-with-Python?WT.mc_id=academic-113596-abartolo) | Use GitHub Copilot, an AI pair programmer that offers autocomplete-style suggestions as you code, to work with Python. | Enable the GitHub Copilot extension in Visual Studio Code. Craft prompts that can generate useful suggestions from GitHub Copilot. Use GitHub Copilot to improve a Python project. |
-| 06 | [Creating a Mini Game with GitHub Copilot](./06-Creating-Mini-Game-with-GitHub-Copilot?WT.mc_id=academic-113596-abartolo) | Harness GitHub Copilot to assist you in building a Python based mini game. | Craft prompts that can generate useful suggestions from GitHub Copilot to incorporate gaming logic and improve your Python based game. |
+
+# Beginner 
+|              Lesson Link              |                       Concepts Taught                       |                     Learning Goal                 |
+| :------------------------------------: | :---------------------------------------------------------: | ----------------------------------------------------------- |
+| [Getting Started with GitHub Copilot](./Getting-Started-with-GitHub-Copilot) | GitHub Copilot is an AI coding assistant that can help you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration. |  In this exercise, you'll unlock the potential of this AI-powered coding assistant to accelerate your development process. |
+
+# Intermediate 
+|              Lesson Link              |                       Concepts Taught                       |                     Learning Goal                 |
+| :------------------------------------: | :---------------------------------------------------------: | ----------------------------------------------------------- |
+| [Using GitHub Copilot with JavaScript](./Using-GitHub-Copilot-with-JavaScript) | Use GitHub Copilot, an AI pair programmer that offers autocomplete-style suggestions as you code, to work with JavaScript. | Enable the GitHub Copilot extension in Visual Studio Code. Craft prompts that can generate useful suggestions from GitHub Copilot. Use GitHub Copilot to improve a JavaScript project. |
+| [Using GitHub Copilot with Python](./Using-GitHub-Copilot-with-Python) | Use GitHub Copilot, an AI pair programmer that offers autocomplete-style suggestions as you code, to work with Python. | Enable the GitHub Copilot extension in Visual Studio Code. Craft prompts that can generate useful suggestions from GitHub Copilot. Use GitHub Copilot to improve a Python project. |
+| [Using GitHub Copilot with C#](./Using-GitHub-Copilot-with-CSharp) | Use GitHub Copilot, an AI pair programmer that offers autocomplete-style suggestions as you code, to work with C#. | Enable the GitHub Copilot extension in Visual Studio Code. Craft prompts that can generate useful suggestions from GitHub Copilot. Use GitHub Copilot to improve a C# Minimal API project. |
+| [Creating a Mini Game with GitHub Copilot](./Creating-Mini-Game-with-GitHub-Copilot) | Use GitHub Copilot to assist you in building a Python-based mini game. | Craft prompts that can generate useful suggestions from GitHub Copilot to incorporate gaming logic and improve your Python-based game. |
+
+# Advanced 
+|              Lesson Link              |                       Concepts Taught                       |                     Learning Goal                 |
+| :------------------------------------: | :---------------------------------------------------------: | ----------------------------------------------------------- |
+| [Using Advanced GitHub Copilot Features](./Using-Advanced-GitHub-Copilot-Features) | Use advanced GitHub Copilot features like inline chat, slash commands, and agents. | Interact with GitHub Copilot with deeper context on your project and ask questions about it. |
+| [Getting Started with Copilot for Azure to Deploy to the Cloud](./Using-GitHub-Copilot-for-Azure-to-Deploy-to-Cloud) | Learn cloud deployment with GitHub Copilot for Azure—your ultimate guide to streamlined cloud success. | Effortless application deployment leveraging Azure’s powerful scalability. |
+| [**NEW** Challenging GitHub Copilot with complex SQL](./Challenging-GitHub-Copilot-with-SQL) | Apply advanced GitHub Copilot features to work with a challenging application working with a complex SQL query | Gain a clear understanding of how to work with extremely challenging SQL and yield better results when simple prompts don't work well |
+| [**NEW** Upgrading Legacy project](./Upgrading-Legacy-Projects) | Leverage GitHub Copilot to upgrade a legacy Python project to the latest version of Python. | Apply techniques to overcome the challenges involved in working with legacy projects |
+| [**NEW** Migrating to a new language](./Migrating-Languages) | Rewrite an existing application using a different language with the guidance of GitHub Copilot | Use advanced workflows with GitHub Copilot applicable when translating projects to different programming languages |
 
 
-
-## 🎒  Other Courses 
+## 🎒  Other Courses
 
 Our team produces other courses! Check out:
 
-- [ML for Beginners](https://aka.ms/ml-beginners?WT.mc_id=academic-113596-abartolo)
-- [Data Science for Beginners](https://aka.ms/datascience-beginners?WT.mc_id=academic-113596-abartolo)
-- [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [AI for Beginners](https://aka.ms/ai-beginners?WT.mc_id=academic-113596-abartolo)
-- [Web Dev for Beginners](https://aka.ms/webdev-beginners?WT.mc_id=academic-113596-abartolo)
-- [IoT for Beginners](https://aka.ms/iot-beginners?WT.mc_id=academic-113596-abartolo)
-- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-113596-abartolo)
+- [**NEW** Model Context Protocol for Beginners](https://github.com/microsoft/mcp-for-beginners)
+- [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners)
+- [Generative AI for Beginners using .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
+- [Generative AI for Beginners using JavaScript](https://aka.ms/genai-js-course)
+- [ML for Beginners](https://aka.ms/ml-beginners)
+- [Data Science for Beginners](https://aka.ms/datascience-beginners)
+- [AI for Beginners](https://aka.ms/ai-beginners)
+- [Cybersecurity for Beginners](https://github.com/microsoft/Security-101)
+- [Web Dev for Beginners](https://aka.ms/webdev-beginners)
+- [IoT for Beginners](https://aka.ms/iot-beginners)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners)
+- [Mastering GitHub Copilot for AI Peer Programming](https://aka.ms/GitHubCopilotAI)
+- [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
+- [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
