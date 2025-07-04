@@ -1,9 +1,9 @@
 ---
 title: three.js
-date: 2025-07-03T12:32:54+08:00
+date: 2025-07-04T12:29:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750400519626-acbef0ec0915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750400519626-acbef0ec0915?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742268351334-bf9328f293ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742268351334-bf9328f293ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
 ---
 
 # [mrdoob/three.js](https://github.com/mrdoob/three.js)

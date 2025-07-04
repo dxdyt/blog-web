@@ -1,9 +1,9 @@
 ---
 title: 500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code
-date: 2024-04-11T12:17:52+08:00
+date: 2025-07-04T12:30:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711950905572-e7885a3eec5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711950905572-e7885a3eec5f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTI4MDg4OTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742268351334-bf9328f293ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742268351334-bf9328f293ce?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
 ---
 
 # [ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code](https://github.com/ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code)

@@ -1,9 +1,9 @@
 ---
 title: openssl
-date: 2025-07-03T12:32:39+08:00
+date: 2025-07-04T12:29:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750056661722-8381f9012079?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750056661722-8381f9012079?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750099255888-91d5386e833c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750099255888-91d5386e833c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
 ---
 
 # [openssl/openssl](https://github.com/openssl/openssl)
