@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2025-03-22T12:20:13+08:00
+date: 2025-07-05T12:24:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734639433785-2a4b97d56d99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734639433785-2a4b97d56d99?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDI2MTcxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749248120469-c41bf8471a48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749248120469-c41bf8471a48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -31,12 +31,29 @@ featuredImagePreview: https://images.unsplash.com/photo-1734639433785-2a4b97d56d
 <br/>
 <br/>
 
+<div align="left" valign="middle">
+<a href="https://runblaze.dev">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://www.runblaze.dev/logo_dark.png">
+   <img align="right" src="https://www.runblaze.dev/logo_light.png" height="102px"/>
+ </picture>
+</a>
+
+<br style="display: none;"/>
+
+_Special thanks to [Blaze](https://runblaze.dev) for their support of this project. They provide high-performance Apple Silicon macOS and Linux (AMD64 & ARM64) runners for GitHub Actions, greatly reducing our automated build times._
+
+</div>
+
+<br/>
+<br/>
+
 <div align="center">
     <a href="https://affine.pro">Home Page</a> |
-    <a href="https://discord.gg/Yjf5VFEn">Discord</a> |
+    <a href="https://affine.pro/redirect/discord">Discord</a> |
     <a href="https://app.affine.pro">Live Demo</a> |
     <a href="https://affine.pro/blog/">Blog</a> |
-    <a href="https://docs.affine.pro/docs/">Documentation</a>
+    <a href="https://docs.affine.pro/">Documentation</a>
 </div>
 <br/>
 
@@ -82,7 +99,7 @@ Star us, and you will receive all release notifications from GitHub without any 
 
 **Self-host & Shape your own AFFiNE**
 
-- You have the freedom to manage, self-host, fork and build your own AFFiNE. Plugin community and third-party blocks are coming soon. More tractions on [Blocksuite](https://blocksuite.io). Check there to learn how to [self-host AFFiNE](https://docs.affine.pro/docs/self-host-affine).
+- You have the freedom to manage, self-host, fork and build your own AFFiNE. Plugin community and third-party blocks are coming soon. More tractions on [Blocksuite](https://blocksuite.io). Check there to learn how to [self-host AFFiNE](https://docs.affine.pro/self-host-affine).
 
 ## Acknowledgement
 
@@ -170,7 +187,6 @@ We would also like to give thanks to open-source projects that make AFFiNE possi
 - [Jotai](https://github.com/pmndrs/jotai) - Primitive and flexible state management for React.
 - [async-call-rpc](https://github.com/Jack-Works/async-call-rpc) - A lightweight JSON RPC client & server.
 - [Vite](https://github.com/vitejs/vite) - Next generation frontend tooling.
-- [lame](https://lame.sourceforge.io/) - High quality MPEG Audio Layer III (MP3) encoder.
 - Other upstream [dependencies](https://github.com/toeverything/AFFiNE/network/dependencies).
 
 Thanks a lot to the community for providing such powerful and simple libraries, so that we can focus more on the implementation of the product logic, and we hope that in the future our projects will also provide a more easy-to-use knowledge base for everyone.
@@ -185,11 +201,13 @@ We would like to express our gratitude to all the individuals who have already c
 
 ## Self-Host
 
-Begin with Docker to deploy your own feature-rich, unrestricted version of AFFiNE. Our team is diligently updating to the latest version. For more information on how to self-host AFFiNE, please refer to our [documentation](https://docs.affine.pro/docs/self-host-affine).
+Begin with Docker to deploy your own feature-rich, unrestricted version of AFFiNE. Our team is diligently updating to the latest version. For more information on how to self-host AFFiNE, please refer to our [documentation](https://docs.affine.pro/self-host-affine).
+
+[![Run on ClawCloud](https://raw.githubusercontent.com/ClawCloud/Run-Template/refs/heads/main/Run-on-ClawCloud.svg)](https://template.run.claw.cloud/?openapp=system-fastdeploy%3FtemplateName%3Daffine)
 
 ## Hiring
 
-Some amazing companies, including AFFiNE, are looking for developers! Are you interested in joining AFFiNE or its partners? Check out our [Discord channel](https://discord.gg/Yjf5VFEn) for some of the latest jobs available.
+Some amazing companies, including AFFiNE, are looking for developers! Are you interested in joining AFFiNE or its partners? Check out our [Discord channel](https://affine.pro/redirect/discord) for some of the latest jobs available.
 
 ## Feature Request
 

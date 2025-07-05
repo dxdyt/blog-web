@@ -1,9 +1,9 @@
 ---
 title: Genesis
-date: 2025-07-04T12:29:38+08:00
+date: 2025-07-05T12:24:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750432899498-2b85cd437228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750432899498-2b85cd437228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1744058588836-10237b410a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1744058588836-10237b410a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
 ---
 
 # [Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis)
@@ -28,6 +28,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1750432899498-2b85cd4372
 # Genesis
 
 ## 🔥 News
+- [2025-07-02] The development of Genesis is now officially supported by [Genesis AI](https://genesis-ai.company/).
 - [2025-01-09] We released a [detailed performance benchmarking and comparison report](https://github.com/zhouxian/genesis-speed-benchmark) on Genesis, together with all the test scripts.
 - [2025-01-08] Released v0.2.1 🎊 🎉
 - [2025-01-08] Created [Discord](https://discord.gg/nukCuhB47p) and [Wechat](https://drive.google.com/uc?export=view&id=1ZS9nnbQ-t1IwkzJlENBYqYIIOOZhXuBZ) group.

@@ -1,9 +1,9 @@
 ---
 title: swagger-ui
-date: 2025-07-04T12:30:40+08:00
+date: 2025-07-05T12:24:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750432899498-2b85cd437228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750432899498-2b85cd437228?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749422222139-a29050596e78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749422222139-a29050596e78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
 ---
 
 # [swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)

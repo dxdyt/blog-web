@@ -1,9 +1,9 @@
 ---
 title: BiliTools
-date: 2025-07-04T12:30:08+08:00
+date: 2025-07-05T12:25:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741802869522-3b4245d8aec9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1741802869522-3b4245d8aec9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2MDMzMjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750757748698-da2754733866?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750757748698-da2754733866?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
 ---
 
 # [btjawa/BiliTools](https://github.com/btjawa/BiliTools)

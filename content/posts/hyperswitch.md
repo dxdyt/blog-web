@@ -1,9 +1,9 @@
 ---
 title: hyperswitch
-date: 2025-06-12T12:26:30+08:00
+date: 2025-07-05T12:24:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746132730694-92a72b5dc843?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746132730694-92a72b5dc843?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk3MDIzMzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750256602987-c4c35a094bb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750256602987-c4c35a094bb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
 ---
 
 # [juspay/hyperswitch](https://github.com/juspay/hyperswitch)
@@ -41,7 +41,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1746132730694-92a72b5dc8
   <a href="https://x.com/hyperswitchio">
     <img src="https://img.shields.io/badge/follow-%40hyperswitchio-white?logo=x&labelColor=grey"/>
   </a>
-  <a href="https://join.slack.com/t/hyperswitch-io/shared_invite/zt-2jqxmpsbm-WXUENx022HjNEy~Ark7Orw">
+  <a href="https://inviter.co/hyperswitch-slack">
     <img src="https://img.shields.io/badge/chat-on_slack-blue?logo=slack&labelColor=grey&color=%233f0e40"/>
   </a>
 </p>
@@ -206,7 +206,7 @@ We welcome contributors from around the world to help build Hyperswitch. Whether
 
 Please read our [contributing guidelines](https://github.com/juspay/hyperswitch/blob/main/docs/CONTRIBUTING.md) to get started.
 
-Join the conversation on [Slack](https://join.slack.com/t/hyperswitch-io/shared_invite/zt-2jqxmpsbm-WXUENx022HjNEy~Ark7Orw) or explore open issues on [GitHub](https://github.com/juspay/hyperswitch/issues).
+Join the conversation on [Slack](https://inviter.co/hyperswitch-slack) or explore open issues on [GitHub](https://github.com/juspay/hyperswitch/issues).
 
 <a href="#feature-requests">
   <h2 id="feature-requests">Feature requests & Bugs</h2>
