@@ -1,9 +1,9 @@
 ---
 title: happy-llm
-date: 2025-07-05T12:24:54+08:00
+date: 2025-07-06T12:32:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751402609265-3bbaa4a4dc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751402609265-3bbaa4a4dc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751181346935-06c6e56182b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751181346935-06c6e56182b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm)
@@ -19,6 +19,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1751402609265-3bbaa4a4dc
   <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
   <a href="https://github.com/datawhalechina/happy-llm"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
   <a href="https://swanlab.cn/@kmno4/Happy-LLM/overview"><img src="https://raw.githubusercontent.com/SwanHubX/assets/main/badge1.svg" alt="SwanLab"></a>
+</div>
+
+<div align="center">
+  <a href="https://trendshift.io/repositories/14175" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14175" alt="datawhalechina%2Fhappy-llm | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 <div align="center">
@@ -120,7 +124,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1751402609265-3bbaa4a4dc
 ## Star History
 
 <div align='center'>
-    <img src="./images/star-history-2025624.png" alt="Datawhale" width="90%">
+    <img src="./images/star-history-202575.png" alt="Datawhale" width="90%">
 </div>
 
 <div align="center">

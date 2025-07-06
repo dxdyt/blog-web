@@ -1,18 +1,18 @@
 ---
 title: motia
-date: 2025-07-05T12:25:03+08:00
+date: 2025-07-06T12:32:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749422222139-a29050596e78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749422222139-a29050596e78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
 ---
 
 # [MotiaDev/motia](https://github.com/MotiaDev/motia)
 
 <p align="center">
   <!-- shows in LIGHT mode only -->
-  <img src="assets/FLAT_BLUE_LOGO_MOTIA_dark.png#gh-dark-mode-only"  width="400" alt="Motia logo" />
+  <img src="assets/motia-logo-dark.png#gh-light-mode-only"  width="400" alt="Motia logo" />
   <!-- shows in DARK mode only -->
-  <img src="assets/FLAT_BLUE_LOGO_MOTIA_light.png#gh-light-mode-only" width="400" alt="Motia logo (dark)" />
+  <img src="assets/motia-logo-light.png#gh-dark-mode-only" width="400" alt="Motia logo (dark)" />
 </p>
 
 <p align="center">
@@ -220,7 +220,7 @@ Write steps in your preferred language:
 | **JavaScript** | ✅ Stable      | `handler.step.js` |
 | **TypeScript** | ✅ Stable      | `handler.step.ts` |
 | **Python**     | ✅ Stable      | `handler.step.py` |
-| **Ruby**       | 🚧 Beta | `handler.step.rb` |
+| **Ruby**       | 🚧 Beta        | `handler.step.rb` |
 | **Go**         | 🔄 Coming Soon | `handler.step.go` |
 | **Rust**       | 🔄 Coming Soon | `handler.step.rs` |
 

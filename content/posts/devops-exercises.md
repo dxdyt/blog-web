@@ -1,9 +1,9 @@
 ---
 title: devops-exercises
-date: 2025-04-28T12:22:12+08:00
+date: 2025-07-06T12:32:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741732311526-093a69d005d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741732311526-093a69d005d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDU4MTQxMDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
 ---
 
 # [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
