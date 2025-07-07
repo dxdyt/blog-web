@@ -1,9 +1,9 @@
 ---
 title: omni-tools
-date: 2025-07-05T12:25:41+08:00
+date: 2025-07-07T12:34:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744058588836-10237b410a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744058588836-10237b410a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750592047133-58ef1c2d7dc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4NjI3ODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750592047133-58ef1c2d7dc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4NjI3ODV8&ixlib=rb-4.1.0
 ---
 
 # [iib0011/omni-tools](https://github.com/iib0011/omni-tools)

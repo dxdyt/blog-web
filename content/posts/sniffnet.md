@@ -1,9 +1,9 @@
 ---
 title: sniffnet
-date: 2025-06-29T12:35:39+08:00
+date: 2025-07-07T12:33:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750797490751-1fc372fdcf88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750797490751-1fc372fdcf88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTExNzE2MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750755072927-4221f5018635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4NjI3ODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750755072927-4221f5018635?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE4NjI3ODV8&ixlib=rb-4.1.0
 ---
 
 # [GyulyVGC/sniffnet](https://github.com/GyulyVGC/sniffnet)
