@@ -1,9 +1,9 @@
 ---
 title: youtube-music
-date: 2025-05-19T12:26:15+08:00
+date: 2025-07-08T12:29:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745949779026-f7fdd1470f8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745949779026-f7fdd1470f8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDc2Mjg3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751254149443-0f73a78feb0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE5NDg5NTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751254149443-0f73a78feb0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE5NDg5NTV8&ixlib=rb-4.1.0
 ---
 
 # [th-ch/youtube-music](https://github.com/th-ch/youtube-music)
@@ -31,7 +31,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1745949779026-f7fdd1470f
 	</a>
 </div>
 
-Read this in other languages: [🇰🇷](./docs/readme/README-ko.md), [🇫🇷](./docs/readme/README-fr.md), [🇮🇸](./docs/readme/README-is.md), [🇨🇱 🇪🇸](./docs/readme/README-es.md), [🇷🇺](./docs/readme/README-ru.md), [🇺🇦](./docs/readme/README-uk.md), [🇭🇺](./docs/readme/README-hu.md), [🇧🇷](./docs/readme/README-pt.md), [🇯🇵](./docs/readme/README-ja.md)
+Read this in other languages: [한국어](./docs/readme/README-ko.md), [Française](./docs/readme/README-fr.md), [Íslenska](./docs/readme/README-is.md), [Español](./docs/readme/README-es.md), [Pусский](./docs/readme/README-ru.md), [Українська](./docs/readme/README-uk.md), [Magyar](./docs/readme/README-hu.md), [Português](./docs/readme/README-pt.md), [日本語](./docs/readme/README-ja.md)
 
 **Electron wrapper around YouTube Music featuring:**
 
