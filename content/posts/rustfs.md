@@ -1,9 +1,9 @@
 ---
 title: rustfs
-date: 2025-07-08T12:29:21+08:00
+date: 2025-07-09T12:34:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751220170218-e57d53bd4aa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE5NDg5NTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751220170218-e57d53bd4aa8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE5NDg5NTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751209978666-c1007795154e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751209978666-c1007795154e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
 ---
 
 # [rustfs/rustfs](https://github.com/rustfs/rustfs)
@@ -27,7 +27,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1751220170218-e57d53bd4a
 </p>
 
 <p align="center">
-English | <a href="https://github.com/rustfs/rustfs/blob/main/README_ZH.md">简体中文</a>
+English | <a href="https://github.com/rustfs/rustfs/blob/main/README_ZH.md">简体中文</a> | 
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=de">Deutsch</a> | 
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=es">Español</a> | 
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=fr">français</a> | 
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=ja">日本語</a> | 
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=ko">한국어</a> | 
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=pt">Português</a> | 
+  <a href="https://readme-i18n.com/rustfs/rustfs?lang=ru">Русский</a>
 </p>
 
 RustFS is a high-performance distributed object storage software built using Rust, one of the most popular languages worldwide. Along with MinIO, it shares a range of advantages such as simplicity, S3 compatibility, open-source nature, support for data lakes, AI, and big data. Furthermore, it has a better and more user-friendly open-source license in comparison to other storage systems, being constructed under the Apache license. As Rust serves as its foundation, RustFS provides faster speed and safer distributed features for high-performance object storage.

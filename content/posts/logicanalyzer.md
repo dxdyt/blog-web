@@ -1,19 +1,68 @@
 ---
 title: logicanalyzer
-date: 2024-12-15T12:20:23+08:00
+date: 2025-07-09T12:33:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732601471612-213023f569d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732601471612-213023f569d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750757822527-b5adab7136aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750757822527-b5adab7136aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
 ---
 
 # [gusmanb/logicanalyzer](https://github.com/gusmanb/logicanalyzer)
 
 # LogicAnalyzer
 
-## Downloads
-You can find all the compiled projects in the [Releases section](https://github.com/gusmanb/logicanalyzer/releases).
+## Orders
+- Direct order (based on availability): https://logicanalyzer.rf.gd
+- PCBWay order: https://www.pcbway.com/project/shareproject/LogicAnalyzer_V6_0_cc383781.html
 
-Latest version: Release 5.1.0.0, 05/05/2024
+## Downloads
+- You can find all the compiled projects in the [Releases section](https://github.com/gusmanb/logicanalyzer/releases).
+- Latest version: Release 6.0.0.0, 01/02/2024
+
+# ZX Spectrum analyzer by Happy Little Diodes!
+
+If you are into retro computing and more specifically the ZX Spectrum, you should check this video by Happy Little Diodes.
+He has developed an interface to connect LogicAnalyzer in a very cool way to the ZX Spectrum.
+
+Don't miss it!
+
+https://www.youtube.com/watch?v=IHbIW8pi4Vo
+
+# Release 6.0 is out!
+
+Finally Release 6.0 is completed and comes with many, many changes!
+
+First, I have uploaded the project to PCBWay, I will still serve orders but as there is too much demand to keep up with it I also have uploaded it as a shared project, so you don't need to wait for me having stock.
+The project is found here: https://www.pcbway.com/project/shareproject/LogicAnalyzer_V6_0_cc383781.html
+It is right now under review so I expect it to be available in a couple of days.
+
+Next, now the gerber files, BOMs and centroid are included in the release packages so you don't need to search inside the projects in case you want to order it from another manufacturer.
+
+That's regarding logistics, now, a brief resume of the changes:
+
+- Pico2 is supported, the new design solves the problems with the IO glitches.
+- Total revamp of the analysis software, including speed up of the rendering, autodetection of the analyzers, and the biggest change, all the Sigrok protocol decoders are supported!
+- New terminal capture application, no more long inhuman command lines, configure the capture using the terminal application and trigger the capture specifying the capture settings file! (use TerminalCapture --help for more info)
+- New All-in-one package, both apps in a single zip if you want to use both!
+- And many, maaaaany more changes.
+
+Next weeks I will update the wiki with updated usage and functionalities, for now if you have doubts read the Discussion section related threads and of course if you need help feel free to open a new thread.
+
+Have fun!
+
+## Orders
+
+If you are interested in buying a premade board now you can request to be added to the list in https://logicanalyzer.rf.gd/
+
+## Orders and sponsor, what is this about?
+
+Ok, now, the explanation. It is getting to the point of being unmanageable the amount of requests, so I have created a website to make it easier to track these, I don't want to forget anyone and doing the management manually I'm sure that in one moment or other I would forget someone...
+Feel free to contact me if ytou find any problem or open a message in the discussion section.
+
+And the sponsoring thing... I never requested anything for these projects, but lately many many people is asking about how to donate so finally I have opened a Ko-Fi account in order to accept them. Feel free to use it, anything is welcome and I will use it in improving the project whenever it is possible :)
+
+Thanks to everyone, the support that I'm receiving with the project is amazing and I never thought that this project would rise so much interest.
+
+### Thank you!
 
 ----
 
@@ -26,15 +75,6 @@ I will answer all the emails and requests this weekend/next Monday.
 Sorry! :)
 
 ----
-
-# Branches
-
-**Please, do not try to build V6_0 by yourself**
-
-The V6_0 branch is the branch where I'm working on and I found many users that are downloading it and trying to compile it, **don't do it**.
-This branch may be completelly broken while I'm doing changes and is not meant to be used by users, the only officially supported branch is the master one, any request regarding other branches will be closed immediatelly.
-
-If you want to test the version 6.0 you can try the latest available [test build](https://github.com/gusmanb/logicanalyzer/discussions?discussions_q=is%3Aopen+test+build).
 
 # Good news
 
@@ -242,7 +282,7 @@ Hi! This update comes loaded of news.
 
 ### First of all, bug corrections. 
 
-The biggest bug that has been corrected is the fast trigger in the Pico-W. When I implemented the Pico-W I tried it extensively, but I used only the simple trigger to do the tests. What was my surprise when I tried to use the Pico-W with a fast trigger and I found that it got completelly hung!
+The biggest bug that has been corrected is the fast trigger in the Pico-W. When I implemented the Pico-W I tried it extensively, but I used only the simple trigger to do the tests. What was my surprise when I tried to use the Pico-W with a fast trigger and I found that it got completely hung!
 
 The thing is that the Pico-W hides a little secret that I haven't found documented anywhere, this little secret is that the driver uses a PIO program to do the transfers! The fast trigger uses a full PIO unit, all its 32 instructions to create a jump table, and the CYW driver uses a SM in the PIO1 to do the SPI transfers. So I tried to swap the PIO units and it at least started to capture, but the capture was never finished, I have revised up-to-down the driver and still haven't found why the PIO1 interrupts don't work at all after the CYW driver has been enabled, so I have done a work-around that does not need the IRQ to trigger a handler. So, if you are using a Pico-W update the firmware asap.
 
@@ -533,7 +573,7 @@ Enjoy it!
 
 Good news! The multiplatform application is ready!
 
-The application has been completelly rewritten using AvaloniaUI, it works in Windows, Linux, Linux-ARM (Raspberry) and MacOSX.
+The application has been completely rewritten using AvaloniaUI, it works in Windows, Linux, Linux-ARM (Raspberry) and MacOSX.
 It has been tested under Debian, Raspbian and Windows 10, MacOSX has not been tested as I don't have a working mac but it should work without problems.
 
 Also, the new app includes improvements over the original one, like the ability to export the captures to Sigrok and better performance in general.
@@ -603,7 +643,7 @@ Have fun!
 ----
 ## UPDATE 12/07/2022
 
-I have received the shifter PCB's and there is an error. The footprints of J1 and J2 are exchanged, so what should be inputs are outputs and vice-versa. Thankfully this is not a problem, as the PCB is completelly symmetric and it has components in both sides flipping the board fixes the problem.
+I have received the shifter PCB's and there is an error. The footprints of J1 and J2 are exchanged, so what should be inputs are outputs and vice-versa. Thankfully this is not a problem, as the PCB is completely symmetric and it has components in both sides flipping the board fixes the problem.
 
 Board before flip.
 ![IMG_1562_2](https://user-images.githubusercontent.com/4086913/178580443-b1ed4abf-1c8a-494a-9fba-48415d7801bb.jpg)

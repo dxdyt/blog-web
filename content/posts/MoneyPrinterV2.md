@@ -1,16 +1,16 @@
 ---
 title: MoneyPrinterV2
-date: 2025-02-20T12:20:15+08:00
+date: 2025-07-09T12:34:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738571574302-3312deda0aa3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750510194856-343b041ee9af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750510194856-343b041ee9af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
 ---
 
 # [FujiwaraChoki/MoneyPrinterV2](https://github.com/FujiwaraChoki/MoneyPrinterV2)
 
 # MoneyPrinter V2
 
-> ♥︎ If you're interested in using a hosted version, sign up for the waitlist on [shiori.ai](https://www.shiori.ai), an AI tool that combines all other AI tools into one.
+> ♥︎ **Sponsor**: The Best AI Chat App: [shiori.ai](https://www.shiori.ai)
 
 ---
 
@@ -23,8 +23,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1738571574302-3312deda0a
 [![GitHub issues](https://img.shields.io/github/issues/FujiwaraChoki/MoneyPrinterV2?style=for-the-badge)](https://github.com/FujiwaraChoki/MoneyPrinterV2/issues)
 [![GitHub stars](https://img.shields.io/github/stars/FujiwaraChoki/MoneyPrinterV2?style=for-the-badge)](https://github.com/FujiwaraChoki/MoneyPrinterV2/stargazers)
 [![Discord](https://img.shields.io/discord/1134848537704804432?style=for-the-badge)](https://dsc.gg/fuji-community)
-
-> Follow me on [X](https://x.com/DevBySami).
 
 An Application that automates the process of making money online.
 MPV2 (MoneyPrinter Version 2) is, as the name suggests, the second version of the MoneyPrinter project. It is a complete rewrite of the original project, with a focus on a wider range of features and a more modular architecture.

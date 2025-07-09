@@ -1,9 +1,9 @@
 ---
 title: GenAI_Agents
-date: 2025-06-11T12:29:04+08:00
+date: 2025-07-09T12:34:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746655421130-9fba824e19f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746655421130-9fba824e19f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDk2MTYwMzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750859876360-725182ebf069?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750859876360-725182ebf069?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
 ---
 
 # [NirDiamant/GenAI_Agents](https://github.com/NirDiamant/GenAI_Agents)
@@ -62,6 +62,8 @@ Our goal is to provide a valuable resource for everyone - from beginners taking 
 Furthermore, this repository serves as a platform for showcasing innovative agent creations. Whether you've developed a novel agent architecture or found an innovative application for existing techniques, we encourage you to share your work with the community.
 
 ## Related Projects
+
+🚀 Level up with my **[Agents Towards Production](https://github.com/NirDiamant/agents-towards-production)** repository. It delivers horizontal, code-first tutorials that cover every tool and step in the lifecycle of building production-grade GenAI agents, guiding you from spark to scale with proven patterns and reusable blueprints for real-world launches, making it the smartest place to start if you're serious about shipping agents to production.
 
 📚 Dive into my **[comprehensive guide on RAG techniques](https://github.com/NirDiamant/RAG_Techniques)** to learn about integrating external knowledge into AI systems, enhancing their capabilities with up-to-date and relevant information retrieval.
 
