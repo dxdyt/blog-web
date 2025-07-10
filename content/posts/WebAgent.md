@@ -1,9 +1,9 @@
 ---
 title: WebAgent
-date: 2025-07-09T12:33:32+08:00
+date: 2025-07-10T12:32:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750757822527-b5adab7136aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750757822527-b5adab7136aa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750672951701-b9dcb289ea29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750672951701-b9dcb289ea29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/WebAgent](https://github.com/Alibaba-NLP/WebAgent)
@@ -185,8 +185,6 @@ If this work is helpful, please kindly cite as:
 }
 ```
 
-The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you have any questions, please feel free to contact via wujialongml@gmail.com or create an issue.
-
 ## 🌟 Misc
 
 <div align="center">
@@ -202,3 +200,8 @@ The repo is contributed by [Jialong Wu](https://callanwu.github.io/). If you hav
 📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG
 
 ☎️ **Contact**：[yongjiang.jy@alibaba-inc.com]()
+
+
+## Contact Information
+
+For communications, please contact Yong Jiang (yongjiang.jy@alibaba-inc.com).
