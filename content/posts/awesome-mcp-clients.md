@@ -1,9 +1,9 @@
 ---
 title: awesome-mcp-clients
-date: 2025-07-10T12:32:42+08:00
+date: 2025-07-11T12:37:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749497707413-d5b03d6c8fac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749497707413-d5b03d6c8fac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
 ---
 
 # [punkpeye/awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)

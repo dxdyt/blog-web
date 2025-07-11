@@ -1,19 +1,19 @@
 ---
 title: terraform
-date: 2025-03-07T12:20:34+08:00
+date: 2025-07-11T12:37:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739909198159-a834175bd911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739909198159-a834175bd911?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDEzMjEyMTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750748305404-d434002a8acc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750748305404-d434002a8acc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
 ---
 
 # [hashicorp/terraform](https://github.com/hashicorp/terraform)
 
 # Terraform
 
-- Website: https://www.terraform.io
+- Website: https://developer.hashicorp.com/terraform
 - Forums: [HashiCorp Discuss](https://discuss.hashicorp.com/c/terraform-core)
-- Documentation: [https://www.terraform.io/docs/](https://www.terraform.io/docs/)
-- Tutorials: [HashiCorp's Learn Platform](https://learn.hashicorp.com/terraform)
+- Documentation: [https://developer.hashicorp.com/terraform/docs](https://developer.hashicorp.com/terraform/docs)
+- Tutorials: [HashiCorp's Learn Platform](https://developer.hashicorp.com/terraform/tutorials)
 - Certification Exam: [HashiCorp Certified: Terraform Associate](https://www.hashicorp.com/certification/#hashicorp-certified-terraform-associate)
 
 <img alt="Terraform" src="https://www.datocms-assets.com/2885/1731373310-terraform_white.svg" width="600px">
@@ -34,10 +34,10 @@ For more information, refer to the [What is Terraform?](https://www.terraform.io
 
 ## Getting Started & Documentation
 
-Documentation is available on the [Terraform website](https://www.terraform.io):
+Documentation is available on the [Terraform website](https://developer.hashicorp.com/terraform):
 
-- [Introduction](https://www.terraform.io/intro)
-- [Documentation](https://www.terraform.io/docs)
+- [Introduction](https://developer.hashicorp.com/terraform/intro)
+- [Documentation](https://developer.hashicorp.com/terraform/docs)
 
 If you're new to Terraform and want to get started creating infrastructure, please check out our [Getting Started guides](https://learn.hashicorp.com/terraform#getting-started) on HashiCorp's learning platform. There are also [additional guides](https://learn.hashicorp.com/terraform#operations-and-development) to continue your learning.
 
@@ -45,7 +45,7 @@ Show off your Terraform knowledge by passing a certification exam. Visit the [ce
 
 ## Developing Terraform
 
-This repository contains only Terraform core, which includes the command line interface and the main graph engine. Providers are implemented as plugins, and Terraform can automatically download providers that are published on [the Terraform Registry](https://registry.terraform.io). HashiCorp develops some providers, and others are developed by other organizations. For more information, see [Extending Terraform](https://www.terraform.io/docs/extend/index.html).
+This repository contains only Terraform core, which includes the command line interface and the main graph engine. Providers are implemented as plugins, and Terraform can automatically download providers that are published on [the Terraform Registry](https://registry.terraform.io). HashiCorp develops some providers, and others are developed by other organizations. For more information, refer to [Plugin development](https://developer.hashicorp.com/terraform/plugin).
 
 - To learn more about compiling Terraform and contributing suggested changes, refer to [the contributing guide](.github/CONTRIBUTING.md).
 

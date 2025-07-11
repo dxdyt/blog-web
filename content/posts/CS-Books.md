@@ -1,9 +1,9 @@
 ---
 title: CS-Books
-date: 2025-07-09T12:35:05+08:00
+date: 2025-07-11T12:36:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750510194856-343b041ee9af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750510194856-343b041ee9af?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIwMzU2MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1746483966037-c3c9e6374e08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1746483966037-c3c9e6374e08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
 ---
 
 # [forthespada/CS-Books](https://github.com/forthespada/CS-Books)
@@ -17,11 +17,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1750510194856-343b041ee9
        <a href="https://blog.nowcoder.net/hello32"><img src="https://img.shields.io/badge/牛客网-拱白菜的阿秀-9cf" alt="牛客网"></a>
     <a href="https://github.com/forthespada/InterviewGuide"><img src="https://img.shields.io/badge/GitHub-计算机校招社招面试题汇总-critical.svg" alt="八股文">      <a href="https://interviewguide.cn/#/"><img src="https://img.shields.io/badge/推荐阅读-大佬好文-import.svg" alt="学习"></a>
            <a href="https://github.com/forthespada/CS-Books"><img src="https://img.shields.io/badge/PDF-免费计算机书籍-lightgrey.svg" alt="免费PDF"></a>
+          <a href="https://gitcode.com/forthespada/CS-Books"><img src="https://gitcode.com/forthespada/CS-Books/star/badge.svg" alt="免费PDF"></a>
         </p>
 
 
 
-#### 1、👉 如果国内访问Github网速较慢，我在码云也放了一份书籍资源，国内访问速度更快，<a href="https://gitee.com/ForthEspada/CS-Books" target="_blank">点此直达 </a>
+#### 1、👉 如果国内访问Github网速较慢，我在其余平台也放了一份书籍资源，国内访问速度更快，<a href="https://gitee.com/ForthEspada/CS-Books" target="_blank">码云 </a>、<a href="https://gitcode.com/forthespada/CS-Books" target="_blank">gitcode </a>
 
 本仓库**持续更新**中，后续会陆续分享更多经典电子书，**强烈建议大家 Star 下本仓库**，下次找书可以直接 **Ctrl + F**，找书再也不愁 ！ 
 
@@ -42,7 +43,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1750510194856-343b041ee9
   <img src="http://oss.interviewguide.cn/img/202205161146636.png" target="_blank">
   </a>
 </div>
-
 #### 3、⭐️编程资源网⭐️
 
 分享一个编程资源网，经常被问去哪里找资源这种问题，我就把我收藏的这个编程资源网分享给大家，其中有很多**编程资源**，都按照类别划分好了：
@@ -58,48 +58,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1750510194856-343b041ee9
 
 
 
-#### 4、🔥🔥🔥分享一个我自己开发的面试求职网站
-
-<details><summary><a>👉查看关于该网站更多</a></summary></br>
 
 
-这个网站的由来是自己在2023年3月份找工作期间萌生的想法，当时自己希望根据筛选条件查看自己想要看的面试问题，比如可以查看行业为互联网，公司为字节跳动，考察岗位为后端，考察科目为数据结构，考察时间为最近一年之类的面试题有哪些？
+#### 4、😄学习计算机八九年收集到的一些不错的资料免费分享，包括清华北大计算机课程资源等，[点此一键白嫖](https://interviewguide.cn/notes/07-resources/01-free/01-introduce.html)
 
+#### 5、👍🏻两位字节跳动后端研发工程师学习笔记，<a href="./Doc/other.md" target="_blank">点此一键免费获取</a> 
 
-但很可惜，我并没有找到类似的网站。
+#### 6、⭐计算机经典图书榜单Top50&互联网一二线中厂校招面试PDF合集，<a href="./Doc/当当Top50.md" target="_blank">点此一键免费获取</a> 
 
-后来这个想法就一直在我心里深埋着，5月份我从字节跳动跳槽到某外企后，利用自己的业余休息时间，前后花了两三个月时间将之复现出来，前后端都是自己一个人写的，包括两个前端和一个后端的代码编写以及数据的收集和录入，希望这个InterviewGuide网站能让大家接下来的求职找工作更加顺利一些！
-</details>
+#### 7、😜发现一个相当不错的计算机各类种语言&学科学习路线仓库， <a href="https://github.com/awesome-cs-community/developer-roadmap-zh-CN" target="_blank">点此查看</a>
 
-自己 **2023** 年 **5-7** 月期间开发了一个网站，能够根据**指定行业、公司、面试岗位、科目以及考察时间**等进行**定向筛选面试真题**，还附带了**最近考察时间**和**累计考察次数**。
-
-比如**我想查一下行业为互联网，公司为字节跳动，考察岗位为后端，科目不限，而考察时间为最近一年之类的面试题**有哪些？
-
-![](http://oss.interviewguide.cn/img/202307291803868.png)
-
-行业除了互联网还有国企、银行、外企等行业，截止我发现的时候是这样的，好像该网站后期又在逐步添加新的数据了。
-
-![](http://oss.interviewguide.cn/img/202307291805445.png)
-
-就拿互联网来说，国内外主流一二线大厂全都覆盖了，比如`字节跳动`、`阿里`、`腾讯`、`百度`、`美团`，除此外比如一些其余的非互联网行业，如中国银行、建设银行、联通、移动等都包含在内。
-
-![](http://oss.interviewguide.cn/img/202307291804434.png)
-
-
-
-希望我开发的网站能够对你有所帮助！祝你求职顺利！**网站链接**：https://top.interviewguide.cn/
-
-
-
-#### 5、😄学习计算机八九年收集到的一些不错的资料免费分享，包括清华北大计算机课程资源等，[点此一键白嫖](https://interviewguide.cn/notes/07-resources/01-free/01-introduce.html)
-
-#### 6、👍🏻两位字节跳动后端研发工程师学习笔记，<a href="./Doc/other.md" target="_blank">点此一键免费获取</a> 
-
-#### 7、⭐计算机经典图书榜单Top50&互联网一二线中厂校招面试PDF合集，<a href="./Doc/当当Top50.md" target="_blank">点此一键免费获取</a> 
-
-#### 8、😜发现一个相当不错的计算机各类种语言&学科学习路线仓库， <a href="https://github.com/awesome-cs-community/developer-roadmap-zh-CN" target="_blank">点此查看</a>
-
-#### 9、赞赏
+#### 8、赞赏
 
 <div align=left>
     <p>这些书籍基本都是我从一个盗版电子书网站上收集到的，网址是：kanshuy1234.com，现在分享出来希望能对大家有所帮助，自己也花了很久时间整理出来的。<br>

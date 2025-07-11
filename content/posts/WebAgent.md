@@ -1,9 +1,9 @@
 ---
 title: WebAgent
-date: 2025-07-10T12:32:03+08:00
+date: 2025-07-11T12:36:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750672951701-b9dcb289ea29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750672951701-b9dcb289ea29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/WebAgent](https://github.com/Alibaba-NLP/WebAgent)
@@ -19,7 +19,11 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 </p>
 
 <p align="center">
-🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor" target="_blank">WebSailor</a> ｜
+🤗 <a href="https://huggingface.co/Alibaba-NLP/WebSailor-3B" target="_blank">WebSailor-3B</a> ｜
+<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/WebSailor-3B" target="_blank">ModelScope WebSailor-3B</a> |
+</p>
+
+<p align="center">
 🤗 <a href="https://huggingface.co/Alibaba-NLP/WebDancer-32B" target="_blank">WebDancer-QwQ-32B</a>  | 
 <img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/WebDancer-32B" target="_blank">ModelScope WebDancer-QwQ-32B</a> |
 🤗 <a href="https://huggingface.co/datasets/callanwu/WebWalkerQA" target="_blank">WebWalkerQA</a>
@@ -97,7 +101,7 @@ bash deploy_model.sh WebDancer_PATH
 
 Edit the following keys in [`WebDancer/scripts/run_demo.sh`](WebDancer/scripts/run_demo.sh):
 
-- `GOOGLE_SEARCH_KEY`, you can get it from [serpapi](https://serpapi.com/) or [serper](https://serper.dev/).
+- `GOOGLE_SEARCH_KEY`, you can get it from [serper](https://serper.dev/).
 - `JINA_API_KEY`, you can get it from [jina](https://jina.ai/api-dashboard/).
 - `DASHSCOPE_API_KEY`, you can get it from [dashscope](https://dashscope.aliyun.com/).
 
@@ -200,7 +204,6 @@ If this work is helpful, please kindly cite as:
 📚 **Research Area**：Web Agent, Search Agent, Agent RL, MultiAgent RL, Agentic RAG
 
 ☎️ **Contact**：[yongjiang.jy@alibaba-inc.com]()
-
 
 ## Contact Information
 
