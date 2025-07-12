@@ -1,9 +1,9 @@
 ---
 title: LMCache
-date: 2025-07-11T12:36:31+08:00
+date: 2025-07-12T12:31:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747738304810-5cb89f585299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747738304810-5cb89f585299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
 ---
 
 # [LMCache/LMCache](https://github.com/LMCache/LMCache)

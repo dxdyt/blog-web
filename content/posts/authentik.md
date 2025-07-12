@@ -1,9 +1,9 @@
 ---
 title: authentik
-date: 2025-01-02T12:21:05+08:00
+date: 2025-07-12T12:31:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732997345946-700efbeb42e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732997345946-700efbeb42e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU3OTE1NTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743623173827-45535f2173a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743623173827-45535f2173a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
 ---
 
 # [goauthentik/authentik](https://github.com/goauthentik/authentik)
@@ -52,4 +52,4 @@ See [SECURITY.md](SECURITY.md)
 
 ## Adoption and Contributions
 
-Your organization uses authentik? We'd love to add your logo to the readme and our website! Email us @ hello@goauthentik.io or open a GitHub Issue/PR! For more information on how to contribute to authentik, please refer to our [CONTRIBUTING.md file](./CONTRIBUTING.md).
+Your organization uses authentik? We'd love to add your logo to the readme and our website! Email us @ hello@goauthentik.io or open a GitHub Issue/PR! For more information on how to contribute to authentik, please refer to our [contribution guide](https://docs.goauthentik.io/docs/developer-docs?utm_source=github).

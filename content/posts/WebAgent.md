@@ -1,16 +1,16 @@
 ---
 title: WebAgent
-date: 2025-07-11T12:36:04+08:00
+date: 2025-07-12T12:30:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742268582641-7dbe0ea10c82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743385779534-f53c018c21f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743385779534-f53c018c21f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/WebAgent](https://github.com/Alibaba-NLP/WebAgent)
 
 <div align="center">
 
-<h2>WebAgent for Information Seeking bulit by Tongyi Lab, Alibaba Group <img src="./assets/tongyi.png" width="30px" style="display:inline;"></h2>
+<h2>WebAgent for Information Seeking built by Tongyi Lab, Alibaba Group <img src="./assets/tongyi.png" width="30px" style="display:inline;"></h2>
 
 </div>
 <p align="center">
@@ -46,6 +46,7 @@ alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" wi
 
 ## 📰 News and Updates
 
+- `2025.07.11` 🔥🔥🔥**WebSailor-3B** is [released](https://huggingface.co/Alibaba-NLP/WebSailor-3B). You can deploy it with one click using <img src="./assets/aliyun.png" width="14px" style="display:inline;"> [Alibaba Cloud's FunctionAI](https://functionai.console.aliyun.com/template-detail?template=Alibaba-NLP-WebSailor-3B) in ten minutes!
 - `2025.07.03` 🔥🔥🔥We release **WebSailor**, an agentic search model specialized in performing extremely complex information seeking tasks, achieving open-source SOTA on some of the most difficult browsing benchmarks. **WebSailor** topped the HuggingFace [daily papers](https://huggingface.co/papers/2507.02592).
 - `2025.06.23` 🔥🔥🔥The model, interactive demo, and some of the data of **WebDancer** have been open-sourced. You're welcome to try them out!
 - `2025.05.29` 🔥🔥🔥We release **WebDancer**, a native agentic search model towards autonomous information seeking agency and _Deep Research_-like model.

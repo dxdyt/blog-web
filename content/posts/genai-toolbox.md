@@ -1,9 +1,9 @@
 ---
 title: genai-toolbox
-date: 2025-07-11T12:36:21+08:00
+date: 2025-07-12T12:30:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750439799809-e8067c8d3ff5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750439799809-e8067c8d3ff5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743385779534-f53c018c21f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743385779534-f53c018c21f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
 ---
 
 # [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox)
