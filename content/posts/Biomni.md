@@ -1,9 +1,9 @@
 ---
 title: Biomni
-date: 2025-07-12T12:30:48+08:00
+date: 2025-07-13T12:36:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751220418652-1c10d9616227?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751220418652-1c10d9616227?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750969393822-36e48a31895f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750969393822-36e48a31895f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
 ---
 
 # [snap-stanford/Biomni](https://github.com/snap-stanford/Biomni)

@@ -1,9 +1,9 @@
 ---
 title: opentelemetry-go
-date: 2025-07-12T12:31:50+08:00
+date: 2025-07-13T12:36:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743875929006-803ea54cafc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743875929006-803ea54cafc1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749318398976-5a9b45307aae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749318398976-5a9b45307aae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
 ---
 
 # [open-telemetry/opentelemetry-go](https://github.com/open-telemetry/opentelemetry-go)

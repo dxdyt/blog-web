@@ -1,9 +1,9 @@
 ---
 title: wordpress-develop
-date: 2025-07-12T12:30:39+08:00
+date: 2025-07-13T12:37:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743623173827-45535f2173a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743623173827-45535f2173a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747738304810-5cb89f585299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747738304810-5cb89f585299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
 ---
 
 # [WordPress/wordpress-develop](https://github.com/WordPress/wordpress-develop)

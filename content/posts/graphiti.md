@@ -1,9 +1,9 @@
 ---
 title: graphiti
-date: 2025-05-31T12:22:21+08:00
+date: 2025-07-13T12:36:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746469471553-afa9f34157fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746469471553-afa9f34157fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg2NjUzMDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750969393822-36e48a31895f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750969393822-36e48a31895f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
 ---
 
 # [getzep/graphiti](https://github.com/getzep/graphiti)
@@ -115,8 +115,8 @@ Graphiti is specifically designed to address the challenges of dynamic and frequ
 Requirements:
 
 - Python 3.10 or higher
-- Neo4j 5.26 or higher (serves as the embeddings storage backend)
-- OpenAI API key (for LLM inference and embedding)
+- Neo4j 5.26 / FalkorDB 1.1.2 or higher (serves as the embeddings storage backend)
+- OpenAI API key (Graphiti defaults to OpenAI for LLM inference and embedding)
 
 > [!IMPORTANT]
 > Graphiti works best with LLM services that support Structured Output (such as OpenAI and Gemini).
@@ -130,6 +130,12 @@ Optional:
 > [!TIP]
 > The simplest way to install Neo4j is via [Neo4j Desktop](https://neo4j.com/download/). It provides a user-friendly
 > interface to manage Neo4j instances and databases.
+> Alternatively, you can use FalkorDB on-premises via Docker and instantly start with the quickstart example:
+
+```bash
+docker run -p 6379:6379 -p 3000:3000 -it --rm falkordb/falkordb:latest
+
+```
 
 ```bash
 pip install graphiti-core
@@ -138,10 +144,21 @@ pip install graphiti-core
 or
 
 ```bash
-poetry add graphiti-core
+uv add graphiti-core
 ```
 
-You can also install optional LLM providers as extras:
+### Installing with FalkorDB Support
+
+If you plan to use FalkorDB as your graph database backend, install with the FalkorDB extra:
+
+```bash
+pip install graphiti-core[falkordb]
+
+# or with uv
+uv add graphiti-core[falkordb]
+```
+
+### You can also install optional LLM providers as extras:
 
 ```bash
 # Install with Anthropic support
@@ -155,18 +172,21 @@ pip install graphiti-core[google-genai]
 
 # Install with multiple providers
 pip install graphiti-core[anthropic,groq,google-genai]
+
+# Install with FalkorDB and LLM providers
+pip install graphiti-core[falkordb,anthropic,google-genai]
 ```
 
 ## Quick Start
 
 > [!IMPORTANT]
-> Graphiti uses OpenAI for LLM inference and embedding. Ensure that an `OPENAI_API_KEY` is set in your environment.
+> Graphiti defaults to using OpenAI for LLM inference and embedding. Ensure that an `OPENAI_API_KEY` is set in your environment.
 > Support for Anthropic and Groq LLM inferences is available, too. Other LLM providers may be supported via OpenAI
 > compatible APIs.
 
 For a complete working example, see the [Quickstart Example](./examples/quickstart/README.md) in the examples directory. The quickstart demonstrates:
 
-1. Connecting to a Neo4j database
+1. Connecting to a Neo4j or FalkorDB database
 2. Initializing Graphiti indices and constraints
 3. Adding episodes to the graph (both text and structured JSON)
 4. Searching for relationships (edges) using hybrid search
@@ -203,6 +223,55 @@ In addition to the Neo4j and OpenAi-compatible credentials, Graphiti also has a 
 If you are using one of our supported models, such as Anthropic or Voyage models, the necessary environment variables
 must be set.
 
+### Database Configuration
+
+Database names are configured directly in the driver constructors:
+
+- **Neo4j**: Database name defaults to `neo4j` (hardcoded in Neo4jDriver)
+- **FalkorDB**: Database name defaults to `default_db` (hardcoded in FalkorDriver)
+
+As of v0.17.0, if you need to customize your database configuration, you can instantiate a database driver and pass it to the Graphiti constructor using the `graph_driver` parameter.
+
+#### Neo4j with Custom Database Name
+
+```python
+from graphiti_core import Graphiti
+from graphiti_core.driver.neo4j_driver import Neo4jDriver
+
+# Create a Neo4j driver with custom database name
+driver = Neo4jDriver(
+    uri="bolt://localhost:7687",
+    user="neo4j",
+    password="password",
+    database="my_custom_database"  # Custom database name
+)
+
+# Pass the driver to Graphiti
+graphiti = Graphiti(graph_driver=driver)
+```
+
+#### FalkorDB with Custom Database Name
+
+```python
+from graphiti_core import Graphiti
+from graphiti_core.driver.falkordb_driver import FalkorDriver
+
+# Create a FalkorDB driver with custom database name
+driver = FalkorDriver(
+    host="localhost",
+    port=6379,
+    username="falkor_user",  # Optional
+    password="falkor_password",  # Optional
+    database="my_custom_graph"  # Custom database name
+)
+
+# Pass the driver to Graphiti
+graphiti = Graphiti(graph_driver=driver)
+```
+
+
+### Performance Configuration
+
 `USE_PARALLEL_RUNTIME` is an optional boolean variable that can be set to true if you wish
 to enable Neo4j's parallel runtime feature for several of our search queries.
 Note that this feature is not supported for Neo4j Community edition or for smaller AuraDB instances,
@@ -210,25 +279,38 @@ as such this feature is off by default.
 
 ## Using Graphiti with Azure OpenAI
 
-Graphiti supports Azure OpenAI for both LLM inference and embeddings. To use Azure OpenAI, you'll need to configure both the LLM client and embedder with your Azure OpenAI credentials.
+Graphiti supports Azure OpenAI for both LLM inference and embeddings. Azure deployments often require different endpoints for LLM and embedding services, and separate deployments for default and small models.
 
 ```python
 from openai import AsyncAzureOpenAI
 from graphiti_core import Graphiti
-from graphiti_core.llm_client import OpenAIClient
+from graphiti_core.llm_client import LLMConfig, OpenAIClient
 from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
 from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
 
-# Azure OpenAI configuration
+# Azure OpenAI configuration - use separate endpoints for different services
 api_key = "<your-api-key>"
 api_version = "<your-api-version>"
-azure_endpoint = "<your-azure-endpoint>"
+llm_endpoint = "<your-llm-endpoint>"  # e.g., "https://your-llm-resource.openai.azure.com/"
+embedding_endpoint = "<your-embedding-endpoint>"  # e.g., "https://your-embedding-resource.openai.azure.com/"
 
-# Create Azure OpenAI client for LLM
-azure_openai_client = AsyncAzureOpenAI(
+# Create separate Azure OpenAI clients for different services
+llm_client_azure = AsyncAzureOpenAI(
     api_key=api_key,
     api_version=api_version,
-    azure_endpoint=azure_endpoint
+    azure_endpoint=llm_endpoint
+)
+
+embedding_client_azure = AsyncAzureOpenAI(
+    api_key=api_key,
+    api_version=api_version,
+    azure_endpoint=embedding_endpoint
+)
+
+# Create LLM Config with your Azure deployment names
+azure_llm_config = LLMConfig(
+    small_model="gpt-4.1-nano",
+    model="gpt-4.1-mini",
 )
 
 # Initialize Graphiti with Azure OpenAI clients
@@ -237,43 +319,47 @@ graphiti = Graphiti(
     "neo4j",
     "password",
     llm_client=OpenAIClient(
-        client=azure_openai_client
+        llm_config=azure_llm_config,
+        client=llm_client_azure
     ),
     embedder=OpenAIEmbedder(
         config=OpenAIEmbedderConfig(
-            embedding_model="text-embedding-3-small"  # Use your Azure deployed embedding model name
+            embedding_model="text-embedding-3-small-deployment"  # Your Azure embedding deployment name
         ),
-        client=azure_openai_client
+        client=embedding_client_azure
     ),
-    # Optional: Configure the OpenAI cross encoder with Azure OpenAI
     cross_encoder=OpenAIRerankerClient(
-        client=azure_openai_client
+        llm_config=LLMConfig(
+            model=azure_llm_config.small_model  # Use small model for reranking
+        ),
+        client=llm_client_azure
     )
 )
 
 # Now you can use Graphiti with Azure OpenAI
 ```
 
-Make sure to replace the placeholder values with your actual Azure OpenAI credentials and specify the correct embedding model name that's deployed in your Azure OpenAI service.
+Make sure to replace the placeholder values with your actual Azure OpenAI credentials and deployment names that match your Azure OpenAI service configuration.
 
 ## Using Graphiti with Google Gemini
 
-Graphiti supports Google's Gemini models for both LLM inference and embeddings. To use Gemini, you'll need to configure both the LLM client and embedder with your Google API key.
+Graphiti supports Google's Gemini models for LLM inference, embeddings, and cross-encoding/reranking. To use Gemini, you'll need to configure the LLM client, embedder, and the cross-encoder with your Google API key.
 
 Install Graphiti:
 
 ```bash
-poetry add "graphiti-core[google-genai]"
+uv add "graphiti-core[google-genai]"
 
 # or
 
-uv add "graphiti-core[google-genai]"
+pip install "graphiti-core[google-genai]"
 ```
 
 ```python
 from graphiti_core import Graphiti
 from graphiti_core.llm_client.gemini_client import GeminiClient, LLMConfig
 from graphiti_core.embedder.gemini import GeminiEmbedder, GeminiEmbedderConfig
+from graphiti_core.cross_encoder.gemini_reranker_client import GeminiRerankerClient
 
 # Google API key configuration
 api_key = "<your-google-api-key>"
@@ -294,17 +380,153 @@ graphiti = Graphiti(
             api_key=api_key,
             embedding_model="embedding-001"
         )
+    ),
+    cross_encoder=GeminiRerankerClient(
+        config=LLMConfig(
+            api_key=api_key,
+            model="gemini-2.5-flash-lite-preview-06-17"
+        )
     )
 )
 
-# Now you can use Graphiti with Google Gemini
+# Now you can use Graphiti with Google Gemini for all components
 ```
+
+The Gemini reranker uses the `gemini-2.5-flash-lite-preview-06-17` model by default, which is optimized for cost-effective and low-latency classification tasks. It uses the same boolean classification approach as the OpenAI reranker, leveraging Gemini's log probabilities feature to rank passage relevance.
+
+## Using Graphiti with Ollama (Local LLM)
+
+Graphiti supports Ollama for running local LLMs and embedding models via Ollama's OpenAI-compatible API. This is ideal for privacy-focused applications or when you want to avoid API costs.
+
+Install the models:
+ollama pull deepseek-r1:7b # LLM
+ollama pull nomic-embed-text # embeddings
+
+```python
+from graphiti_core import Graphiti
+from graphiti_core.llm_client.config import LLMConfig
+from graphiti_core.llm_client.openai_client import OpenAIClient
+from graphiti_core.embedder.openai import OpenAIEmbedder, OpenAIEmbedderConfig
+from graphiti_core.cross_encoder.openai_reranker_client import OpenAIRerankerClient
+
+# Configure Ollama LLM client
+llm_config = LLMConfig(
+    api_key="abc",  # Ollama doesn't require a real API key
+    model="deepseek-r1:7b",
+    small_model="deepseek-r1:7b",
+    base_url="http://localhost:11434/v1", # Ollama provides this port
+)
+
+llm_client = OpenAIClient(config=llm_config)
+
+# Initialize Graphiti with Ollama clients
+graphiti = Graphiti(
+    "bolt://localhost:7687",
+    "neo4j",
+    "password",
+    llm_client=llm_client,
+    embedder=OpenAIEmbedder(
+        config=OpenAIEmbedderConfig(
+            api_key="abc",
+            embedding_model="nomic-embed-text",
+            embedding_dim=768,
+            base_url="http://localhost:11434/v1",
+        )
+    ),
+    cross_encoder=OpenAIRerankerClient(client=llm_client, config=llm_config),
+)
+
+# Now you can use Graphiti with local Ollama models
+```
+
+Ensure Ollama is running (`ollama serve`) and that you have pulled the models you want to use.
 
 ## Documentation
 
 - [Guides and API documentation](https://help.getzep.com/graphiti).
 - [Quick Start](https://help.getzep.com/graphiti/graphiti/quick-start)
 - [Building an agent with LangChain's LangGraph and Graphiti](https://help.getzep.com/graphiti/graphiti/lang-graph-agent)
+
+## Telemetry
+
+Graphiti collects anonymous usage statistics to help us understand how the framework is being used and improve it for everyone. We believe transparency is important, so here's exactly what we collect and why.
+
+### What We Collect
+
+When you initialize a Graphiti instance, we collect:
+
+- **Anonymous identifier**: A randomly generated UUID stored locally in `~/.cache/graphiti/telemetry_anon_id`
+- **System information**: Operating system, Python version, and system architecture
+- **Graphiti version**: The version you're using
+- **Configuration choices**:
+  - LLM provider type (OpenAI, Azure, Anthropic, etc.)
+  - Database backend (Neo4j, FalkorDB)
+  - Embedder provider (OpenAI, Azure, Voyage, etc.)
+
+### What We Don't Collect
+
+We are committed to protecting your privacy. We **never** collect:
+
+- Personal information or identifiers
+- API keys or credentials
+- Your actual data, queries, or graph content
+- IP addresses or hostnames
+- File paths or system-specific information
+- Any content from your episodes, nodes, or edges
+
+### Why We Collect This Data
+
+This information helps us:
+
+- Understand which configurations are most popular to prioritize support and testing
+- Identify which LLM and database providers to focus development efforts on
+- Track adoption patterns to guide our roadmap
+- Ensure compatibility across different Python versions and operating systems
+
+By sharing this anonymous information, you help us make Graphiti better for everyone in the community.
+
+### View the Telemetry Code
+
+The Telemetry code [may be found here](graphiti_core/telemetry/telemetry.py).
+
+### How to Disable Telemetry
+
+Telemetry is **opt-out** and can be disabled at any time. To disable telemetry collection:
+
+**Option 1: Environment Variable**
+
+```bash
+export GRAPHITI_TELEMETRY_ENABLED=false
+```
+
+**Option 2: Set in your shell profile**
+
+```bash
+# For bash users (~/.bashrc or ~/.bash_profile)
+echo 'export GRAPHITI_TELEMETRY_ENABLED=false' >> ~/.bashrc
+
+# For zsh users (~/.zshrc)
+echo 'export GRAPHITI_TELEMETRY_ENABLED=false' >> ~/.zshrc
+```
+
+**Option 3: Set for a specific Python session**
+
+```python
+import os
+os.environ['GRAPHITI_TELEMETRY_ENABLED'] = 'false'
+
+# Then initialize Graphiti as usual
+from graphiti_core import Graphiti
+graphiti = Graphiti(...)
+```
+
+Telemetry is automatically disabled during test runs (when `pytest` is detected).
+
+### Technical Details
+
+- Telemetry uses PostHog for anonymous analytics collection
+- All telemetry operations are designed to fail silently - they will never interrupt your application or affect Graphiti functionality
+- The anonymous ID is stored locally and is not tied to any personal information
 
 ## Status and Roadmap
 

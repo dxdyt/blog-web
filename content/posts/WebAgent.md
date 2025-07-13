@@ -1,9 +1,9 @@
 ---
 title: WebAgent
-date: 2025-07-12T12:30:31+08:00
+date: 2025-07-13T12:38:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743385779534-f53c018c21f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743385779534-f53c018c21f5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750265451917-606478c695a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750265451917-606478c695a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/WebAgent](https://github.com/Alibaba-NLP/WebAgent)

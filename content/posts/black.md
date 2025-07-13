@@ -1,9 +1,9 @@
 ---
 title: black
-date: 2025-02-23T12:20:02+08:00
+date: 2025-07-13T12:37:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738762389488-6d632baf72cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1738762389488-6d632baf72cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAyODQzMTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750969393822-36e48a31895f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750969393822-36e48a31895f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
 ---
 
 # [psf/black](https://github.com/psf/black)
@@ -147,8 +147,8 @@ SQLAlchemy, Poetry, PyPA applications (Warehouse, Bandersnatch, Pipenv, virtuale
 pandas, Pillow, Twisted, LocalStack, every Datadog Agent Integration, Home Assistant,
 Zulip, Kedro, OpenOA, FLORIS, ORBIT, WOMBAT, and many more.
 
-The following organizations use _Black_: Dropbox, KeepTruckin, Lyft, Mozilla,
-Quora, Duolingo, QuantumBlack, Tesla, Archer Aviation.
+The following organizations use _Black_: Dropbox, KeepTruckin, Lyft, Mozilla, Quora,
+Duolingo, QuantumBlack, Tesla, Archer Aviation.
 
 Are we missing anyone? Let us know.
 
