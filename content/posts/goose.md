@@ -1,9 +1,9 @@
 ---
 title: goose
-date: 2025-03-19T12:20:57+08:00
+date: 2025-07-14T12:41:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1741091750011-f0fb9b8400cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1741091750011-f0fb9b8400cc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDIzNTc5OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1648052845307-61eb1450f1bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1648052845307-61eb1450f1bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
 ---
 
 # [block/goose](https://github.com/block/goose)
@@ -31,8 +31,7 @@ goose is your on-machine AI agent, capable of automating complex development tas
 
 Whether you're prototyping an idea, refining existing code, or managing intricate engineering pipelines, goose adapts to your workflow and executes tasks with precision.
 
-Designed for maximum flexibility, goose works with any LLM and seamlessly integrates with MCP-enabled APIs, making it the ultimate AI-powered assistant for developers who want to move faster and focus on innovation. 
-
+Designed for maximum flexibility, goose works with any LLM and supports multi-model configuration to optimize performance and cost, seamlessly integrates with MCP servers, and is available as both a desktop app as well as CLI - making it the ultimate AI assistant for developers who want to move faster and focus on innovation.
 
 # Quick Links
 - [Quickstart](https://block.github.io/goose/docs/quickstart)

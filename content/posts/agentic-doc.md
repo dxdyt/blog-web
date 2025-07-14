@@ -1,9 +1,9 @@
 ---
 title: agentic-doc
-date: 2025-07-13T12:37:28+08:00
+date: 2025-07-14T12:42:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742505709415-76b15647ae64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742505709415-76b15647ae64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750222382424-610417abf3b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750222382424-610417abf3b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
 ---
 
 # [landing-ai/agentic-doc](https://github.com/landing-ai/agentic-doc)
