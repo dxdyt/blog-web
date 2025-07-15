@@ -1,9 +1,9 @@
 ---
 title: free-for-dev
-date: 2025-07-14T12:41:24+08:00
+date: 2025-07-15T12:39:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750222382424-610417abf3b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750222382424-610417abf3b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752035197023-d6c5550e2244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752035197023-d6c5550e2244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
 ---
 
 # [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
@@ -1750,6 +1750,7 @@ Update Time, five active automations, webhooks.
 
 ## Analytics, Events and Statistics
 
+  * [Repohistory](https://repohistory.com) - Beautiful dashboard for tracking GitHub repo traffic history longer than 14 days. Free Plan allows users to monitor traffic for a single repository.
   * [Dwh.dev](https://dwh.dev) - Data Cloud Observability Solution (Snowflake). Free for personal use.
   * [Hightouch](https://hightouch.com/) - Hightouch is a Reverse ETL platform that helps you sync customer data from your data warehouse to your CRM, marketing, and support tools. The free tier offers you one destination to sync data to.
   * [Avo](https://avo.app/) — Simplified analytics release workflow. Single-source-of-truth tracking plan, type-safe analytics tracking library, in-app debuggers, and data observability to catch all data issues before you release. Free for two workspace members and 1 hour data observability lookback.

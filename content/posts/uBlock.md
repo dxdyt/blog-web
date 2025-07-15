@@ -1,9 +1,9 @@
 ---
 title: uBlock
-date: 2025-07-14T12:41:29+08:00
+date: 2025-07-15T12:38:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744457167275-99648d0e589d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744457167275-99648d0e589d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750639258774-9a714379a093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750639258774-9a714379a093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
 ---
 
 # [gorhill/uBlock](https://github.com/gorhill/uBlock)

@@ -1,9 +1,9 @@
 ---
 title: graphiti
-date: 2025-07-14T12:42:10+08:00
+date: 2025-07-15T12:40:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750432215919-228924d7ae9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750432215919-228924d7ae9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI0NjgwMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751810906354-5e364657d468?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751810906354-5e364657d468?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
 ---
 
 # [getzep/graphiti](https://github.com/getzep/graphiti)

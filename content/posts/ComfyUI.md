@@ -1,9 +1,9 @@
 ---
 title: ComfyUI
-date: 2025-06-24T12:29:27+08:00
+date: 2025-07-15T12:39:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747640731141-7d81ade721bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747640731141-7d81ade721bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA3MzkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751810906354-5e364657d468?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751810906354-5e364657d468?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
 ---
 
 # [comfyanonymous/ComfyUI](https://github.com/comfyanonymous/ComfyUI)
@@ -76,6 +76,9 @@ See what ComfyUI can do with the [example workflows](https://comfyanonymous.gith
    - [Lumina Image 2.0](https://comfyanonymous.github.io/ComfyUI_examples/lumina2/)
    - [HiDream](https://comfyanonymous.github.io/ComfyUI_examples/hidream/)
    - [Cosmos Predict2](https://comfyanonymous.github.io/ComfyUI_examples/cosmos_predict2/)
+- Image Editing Models
+   - [Omnigen 2](https://comfyanonymous.github.io/ComfyUI_examples/omnigen/)
+   - [Flux Kontext](https://comfyanonymous.github.io/ComfyUI_examples/flux/#flux-kontext-image-editing-model)
 - Video Models
    - [Stable Video Diffusion](https://comfyanonymous.github.io/ComfyUI_examples/video/)
    - [Mochi](https://comfyanonymous.github.io/ComfyUI_examples/mochi/)
@@ -93,6 +96,7 @@ See what ComfyUI can do with the [example workflows](https://comfyanonymous.gith
 - Smart memory management: can automatically run models on GPUs with as low as 1GB vram.
 - Works even if you don't have a GPU with: ```--cpu``` (slow)
 - Can load ckpt, safetensors and diffusers models/checkpoints. Standalone VAEs and CLIP models.
+- Safe loading of ckpt, pt, pth, etc.. files.
 - Embeddings/Textual inversion
 - [Loras (regular, locon and loha)](https://comfyanonymous.github.io/ComfyUI_examples/lora/)
 - [Hypernetworks](https://comfyanonymous.github.io/ComfyUI_examples/hypernetworks/)
@@ -108,7 +112,6 @@ See what ComfyUI can do with the [example workflows](https://comfyanonymous.gith
 - [Model Merging](https://comfyanonymous.github.io/ComfyUI_examples/model_merging/)
 - [LCM models and Loras](https://comfyanonymous.github.io/ComfyUI_examples/lcm/)
 - Latent previews with [TAESD](#how-to-show-high-quality-previews)
-- Starts up very fast.
 - Works fully offline: core will never download anything unless you want to.
 - Optional API nodes to use paid models from external providers through the online [Comfy API](https://docs.comfy.org/tutorials/api-nodes/overview).
 - [Config file](extra_model_paths.yaml.example) to set the search paths for models.
@@ -185,10 +188,6 @@ If you have trouble extracting it, right click the file -> properties -> unblock
 
 See the [Config file](extra_model_paths.yaml.example) to set the search paths for models. In the standalone windows build you can find this file in the ComfyUI directory. Rename this file to extra_model_paths.yaml and edit it with your favorite text editor.
 
-## Jupyter Notebook
-
-To run it on services like paperspace, kaggle or colab you can use my [Jupyter Notebook](notebooks/comfyui_colab.ipynb)
-
 
 ## [comfy-cli](https://docs.comfy.org/comfy-cli/getting-started)
 
@@ -250,7 +249,7 @@ Nvidia users should install stable pytorch using this command:
 
 This is the command to install pytorch nightly instead which might have performance improvements.
 
-```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu128```
+```pip install --pre torch torchvision torchaudio --index-url https://download.pytorch.org/whl/nightly/cu129```
 
 #### Troubleshooting
 

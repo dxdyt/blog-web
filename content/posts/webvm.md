@@ -1,9 +1,9 @@
 ---
 title: webvm
-date: 2024-11-22T12:20:51+08:00
+date: 2025-07-15T12:39:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729731322165-241913981ba1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729731322165-241913981ba1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIyNDkyMzV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750432215919-228924d7ae9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750432215919-228924d7ae9c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
 ---
 
 # [leaningtech/webvm](https://github.com/leaningtech/webvm)
@@ -55,22 +55,86 @@ Modern browsers do not provide APIs to directly use TCP or UDP. WebVM provides n
 
 You can now customize `dockerfiles/debian_mini` to suit your needs, or make a new Dockerfile from scratch. Use the `Path to Dockerfile` workflow parameter to select it.
 
-# Local deployment
+# Run WebVM locally with a custom Debian mini disk image
 
-From a local `git clone`
+1. Clone the WebVM Repository
 
-- Download the `debian_mini` Ext2 image from [https://github.com/leaningtech/webvm/releases/](https://github.com/leaningtech/webvm/releases/)
-	- You can also build your own by selecting the "Upload GitHub release" workflow option
-	- Place the image in the repository root folder
-- Edit `config_github_terminal.js`
-	- Uncomment the default values for `CMD`, `ARGS`, `ENV` and `CWD`
-	- Replace `IMAGE_URL` with the URL (absolute or relative) for the Ext2 image. For example `"/debian_mini_20230519_5022088024.ext2"`
-- Build WebVM using `npm`, output will be placed in the `build` directory
-	- `npm install`
-	- `npm run build`
-- Start NGINX, it automatically points to the `build` directory just created
-	- `nginx -p . -c nginx.conf`
-- Visit `http://127.0.0.1:8081` and enjoy your local WebVM
+```sh
+git clone https://github.com/leaningtech/webvm.git
+cd webvm
+```
+
+2. Download the Debian mini Ext2 image
+
+	Run the following command to download the Debian mini Ext2 image:
+
+	```sh
+	wget "https://github.com/leaningtech/webvm/releases/download/ext2_image/debian_mini_20230519_5022088024.ext2"
+	```
+
+	(*You can also build your own disk image by selecting the **"Upload GitHub release"** workflow option*)
+
+3. Update the configuration file
+
+	Edit `config_public_terminal.js` to reference your local disk image:
+
+- Replace: 
+	
+	`"wss://disks.webvm.io/debian_large_20230522_5044875331.ext2"`
+	
+	With:
+	
+	`"/disk-images/debian_mini_20230519_5022088024.ext2"`
+
+	(*Use an absolute or relative URL pointing to the disk image location.*)
+
+
+- Replace `"cloud"` with the correct disk image type: `"bytes"`
+	
+4. Build WebVM
+
+	Run the following commands to install dependencies and build WebVM:
+
+	```sh
+	npm install
+	npm run build
+	```
+
+	The output will be placed in the `build` directory.
+
+5. Configure Nginx
+
+- Create a directory for the disk image:
+
+	```sh
+	mkdir disk-images
+	mv debian_mini_20230519_5022088024.ext2 disk-images/
+	```
+
+- Modify your `nginx.conf` file to serve the disk image. Add the following location block:
+
+	```nginx
+	location /disk-images/ {
+        root .;
+        autoindex on;
+	}
+	```
+
+6. Start Nginx
+
+	Run the following command to start Nginx:
+
+	```sh
+	nginx -p . -c nginx.conf
+	```
+
+	*Nginx will automatically serve the build directory.*
+
+7. Access WebVM
+
+	Open a browser and visit: `http://127.0.0.1:8081`.
+
+	Enjoy your local WebVM!
 
 # Example customization: Python3 REPL
 
@@ -88,6 +152,37 @@ index 2878332..1f3103a 100644
 -CMD [ "/bin/bash" ]
 +CMD [ "/usr/bin/python3" ]
 ```
+
+# How to use Claude AI
+
+To access Claude AI, you need an API key. Follow these steps to get started:
+
+1. Create an account
+- Visit [Anthropic Console](https://console.anthropic.com/login) and sign up with your e-mail. You'll receive a sign in link to the Anthropic Console. 
+
+<img src="/assets/anthropic_signup.png" width="90%">
+
+2. Get your API key
+- Once logged in, navigate to **Get API keys**.
+- Purchase the amount of credits you need. After completing the purchase, you'll be able to generate the key through the API console.
+
+<img src="/assets/anthropic_api_payment.png" width="90%">
+
+3. Log in with your API key
+- Navigate to your WebVM and hover over the robot icon. This will show the Claude AI Integration tab. For added convenience, you can click the pin button in the top right corner to keep the tab in place.
+- You'll see a prompt where you can insert your Claude API key.
+- Insert your key and press enter.
+
+<img src="/assets/insert_key.png" width="90%">
+
+4. Start using Claude AI
+- Once your API key is entered, you can begin interacting with Claude AI by asking questions such as:
+
+ __"Solve the CTF challenge at `/home/user/chall1.bin.` Note that the binary reads from stdin."__
+
+<img src="/assets/webvm_claude_ctf.gif" alt="deploy_instructions_gif" width="90%">
+
+**Important:** Your API key is private and should never be shared. We do not have access to your key, which is not only stored locally in your browser.
 
 # Bugs and Issues
 
