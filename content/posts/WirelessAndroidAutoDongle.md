@@ -1,9 +1,9 @@
 ---
 title: WirelessAndroidAutoDongle
-date: 2025-07-15T12:39:31+08:00
+date: 2025-07-16T12:37:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752035197023-d6c5550e2244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752035197023-d6c5550e2244?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751243958813-8ec1669abef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751243958813-8ec1669abef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
 ---
 
 # [nisargjhaveri/WirelessAndroidAutoDongle](https://github.com/nisargjhaveri/WirelessAndroidAutoDongle)
@@ -24,7 +24,7 @@ This repository consists of the buildroot setup to generate an sd card image to 
 This is currently tested and built for the following Raspberry Pi boards supporting USB OTG.
 - **Raspberry Pi Zero W**
 - **Raspberry Pi Zero 2 W**
-- **Raspberry Pi 3 A+** _(Raspberry Pi 3 B+ is not supported)_
+- **Raspberry Pi 3 A+** _(Raspberry Pi 3 B+ is not supported due to lack of USB OTG support.)_
 - **Raspberry Pi 4**
 
 In theory, this can be extended to more hardware in future with these basic requirements.

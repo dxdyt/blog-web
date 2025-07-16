@@ -1,9 +1,9 @@
 ---
 title: claude-code-router
-date: 2025-07-15T12:39:39+08:00
+date: 2025-07-16T12:37:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750639258774-9a714379a093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750639258774-9a714379a093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743297928342-4b4a215fa462?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743297928342-4b4a215fa462?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
 ---
 
 # [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router)
@@ -34,7 +34,7 @@ npm install -g @musistudio/claude-code-router
 ccr code
 ```
 
-4. Configure routing[optional]  
+4. Configure routing
    Set up your `~/.claude-code-router/config.json` file like this:
 
 ```json
@@ -95,6 +95,23 @@ ccr code
       "transformer": {
         "use": ["deepseek"]
       }
+    },
+    {
+      "name": "siliconflow",
+      // IMPORTANT: api_base_url must be a complete (full) URL.
+      "api_base_url": "https://api.siliconflow.cn/v1/chat/completions",
+      "api_key": "sk-xxx",
+      "models": ["moonshotai/Kimi-K2-Instruct"],
+      "transformer": {
+        "use": [
+          [
+            "maxtoken",
+            {
+              "max_tokens": 16384 // for siliconflow max_tokens
+            }
+          ]
+        ]
+      }
     }
   ],
   "Router": {
@@ -122,6 +139,79 @@ ccr code
   You can also switch models within Claude Code by using the `/model` command. The format is: `provider,model`, like this:  
   `/model openrouter,anthropic/claude-3.5-sonnet`  
   This will use the anthropic/claude-3.5-sonnet model provided by OpenRouter to handle all subsequent tasks.
+
+5. About transformer
+`transformer` is used to convert requests and responses for different vendors. For different vendors, we can configure different transformers.
+
+For example, in the following case, we use the `openrouter` transformer for the OpenRouter vendor. This transformer removes the `cache_control` parameter (mainly used to adapt Claude's prompt cache) from the request for models other than Claude. In the response, it adapts the reasoning field.
+```json
+{
+  "name": "openrouter",
+  "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+  "api_key": "",
+  "models": [
+    "google/gemini-2.5-pro-preview",
+    "anthropic/claude-sonnet-4",
+    "anthropic/claude-3.5-sonnet",
+    "anthropic/claude-3.7-sonnet:thinking",
+    "deepseek/deepseek-chat-v3-0324"
+  ],
+  "transformer": {
+    "use": [
+      "openrouter"
+    ]
+  }
+}
+```
+You can also configure transformers for different models of the same vendor. For instance, in the following example, we use the `deepseek` transformer for the DeepSeek vendor. This transformer sets the maximum value of `max_tokens` to `8192` in the request, and in the response, it adapts the `reasoning_content` field. Additionally, for the `deepseek-chat` model, we use the `tooluse` transformer, which optimizes the tool call for the `deepseek-v3` model using the `tool_choice` parameter (mainly because deepseek-r1 does not support the tool_choice parameter).
+```json
+{
+  "name": "deepseek",
+  "api_base_url": "https://api.deepseek.com/chat/completions",
+  "api_key": "",
+  "models": [
+    "deepseek-chat",
+    "deepseek-reasoner"
+  ],
+  "transformer": {
+    "use": [
+      "deepseek"
+    ],
+    "deepseek-chat": {
+      "use": [
+        "tooluse"
+      ]
+    }
+  }
+}
+```
+Currently, the following transformers are available:
+
+- deepseek
+
+- gemini
+
+- maxtoken
+
+- openrouter
+
+- tooluse
+
+- gemini-cli (experimental, unofficial support: https://gist.github.com/musistudio/1c13a65f35916a7ab690649d3df8d1cd)
+
+You can configure custom transformers in the `config.json` file using the `transformers` field, for example:
+```json
+{
+  "transformers": [
+      {
+        "path": "$HOME/.claude-code-router/plugins/gemini-cli.js",
+        "options": {
+          "project": "xxx"
+        }
+      }
+  ]
+}
+```
 
 ## Features
 
@@ -259,4 +349,7 @@ Thanks to the following sponsors for supporting the continued development of thi
 @\*敏 (可通过主页邮箱联系我修改 github 用户名)      
 @Z\*z (可通过主页邮箱联系我修改 github 用户名)      
 @\*然 (可通过主页邮箱联系我修改 github 用户名)      
-@\*浩 (可通过主页邮箱联系我修改 github 用户名)      
+[@cluic](https://github.com/cluic)        
+@\*苗 (可通过主页邮箱联系我修改 github 用户名)    
+[@PromptExpert](https://github.com/PromptExpert)        
+@\*应 (可通过主页邮箱联系我修改 github 用户名)    

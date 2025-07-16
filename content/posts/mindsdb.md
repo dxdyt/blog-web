@@ -1,9 +1,9 @@
 ---
 title: mindsdb
-date: 2025-07-15T12:38:53+08:00
+date: 2025-07-16T12:37:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743550455435-7a635c585ceb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743550455435-7a635c585ceb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749688913703-6da8893cee7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749688913703-6da8893cee7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
 ---
 
 # [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
