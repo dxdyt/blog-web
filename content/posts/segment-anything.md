@@ -1,12 +1,24 @@
 ---
 title: segment-anything
-date: 2024-02-17T12:19:18+08:00
+date: 2025-07-17T12:38:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706645740937-7b3a00e5a5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgxNDMzODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1743704458882-f9af7a3c4427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743704458882-f9af7a3c4427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
 ---
 
 # [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)
+
+## Latest updates -- SAM 2: Segment Anything in Images and Videos
+
+Please check out our new release on [**Segment Anything Model 2 (SAM 2)**](https://github.com/facebookresearch/segment-anything-2).
+
+* SAM 2 code: https://github.com/facebookresearch/segment-anything-2
+* SAM 2 demo: https://sam2.metademolab.com/
+* SAM 2 paper: https://arxiv.org/abs/2408.00714
+
+ ![SAM 2 architecture](https://github.com/facebookresearch/segment-anything-2/blob/main/assets/model_diagram.png?raw=true)
+
+**Segment Anything Model 2 (SAM 2)** is a foundation model towards solving promptable visual segmentation in images and videos. We extend SAM to video by considering images as a video with a single frame. The model design is a simple transformer architecture with streaming memory for real-time video processing. We build a model-in-the-loop data engine, which improves model and data via user interaction, to collect [**our SA-V dataset**](https://ai.meta.com/datasets/segment-anything-video), the largest video segmentation dataset to date. SAM 2 trained on our data provides strong performance across a wide range of tasks and visual domains.
 
 # Segment Anything
 

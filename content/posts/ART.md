@@ -1,9 +1,9 @@
 ---
 title: ART
-date: 2025-07-16T12:38:23+08:00
+date: 2025-07-17T12:37:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750869810132-0441f999063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750869810132-0441f999063b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751273560917-2cfcc1b9826b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751273560917-2cfcc1b9826b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
 ---
 
 # [OpenPipe/ART](https://github.com/OpenPipe/ART)
