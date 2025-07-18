@@ -1,151 +1,47 @@
 ---
 title: open_deep_research
-date: 2025-02-25T12:21:33+08:00
+date: 2025-07-18T12:39:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1734757754748-9c20d3e48089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1734757754748-9c20d3e48089?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDA0NTcyMDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752434969955-bf4112a0fb72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752434969955-bf4112a0fb72?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
 ---
 
 # [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)
 
 # Open Deep Research
- 
-Open Deep Research is a web research assistant that generates comprehensive reports on any topic following a workflow similar to [OpenAI](https://openai.com/index/introducing-deep-research/) and [Gemini](https://blog.google/products/gemini/google-gemini-deep-research/) Deep Research. However, it allows you to customize the models, prompts, report structure, search API, and research depth. Specifically, you can customize:
 
-- provide an outline with a desired report structure
-- set the planner model (e.g., DeepSeek, OpenAI reasoning model, etc)
-- give feedback on the plan of report sections and iterate until user approval 
-- set the search API (e.g., Tavily, Perplexity) and # of searches to run for each research iteration
-- set the depth of search for each section (# of iterations of writing, reflection, search, re-write)
-- customize the writer model (e.g., Anthropic)
+<img width="1388" height="298" alt="full_diagram" src="https://github.com/user-attachments/assets/12a2371b-8be2-4219-9b48-90503eb43c69" />
 
-![report-generation](https://github.com/user-attachments/assets/6595d5cd-c981-43ec-8e8b-209e4fefc596)
+Deep research has broken out as one of the most popular agent applications. This is a simple, configurable, fully open source deep research agent that works across many model providers, search tools, and MCP servers. 
 
-## 🚀 Quickstart
+* Read more in our [blog](https://blog.langchain.com/open-deep-research/) 
+* See our [video](https://www.youtube.com/watch?v=agGiWUpxkhg) for a quick overview
 
-Ensure you have API keys set for your desired tools.
+### 🚀 Quickstart
 
-Select a web search tool (by default Open Deep Research uses Tavily):
-
-* [Tavily API](https://tavily.com/)
-* [Perplexity API](https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api)
-
-Select a writer model (by default Open Deep Research uses Anthropic Claude 3.5 Sonnet):
-
-* [Anthropic](https://www.anthropic.com/)
-* [OpenAI](https://openai.com/)
-* [Groq](https://groq.com/)
-
-Select a planner model (by default Open Deep Research uses OpenAI o3-mini):
-
-* [OpenAI](https://openai.com/)
-* [Groq](https://groq.com/)
-
-### Using the package
-
-(Recommended: Create a virtual environment):
-```
-python -m venv open_deep_research
-source open_deep_research/bin/activate
-```
-
-Install:
-```
-pip install open-deep-research
-```
-
-See [src/open_deep_research/graph.ipynb](src/open_deep_research/graph.ipynb) for an example of usage in a Jupyter notebook.
-
-Import and compile the graph:
-```python
-from langgraph.checkpoint.memory import MemorySaver
-from open_deep_research.graph import builder
-memory = MemorySaver()
-graph = builder.compile(checkpointer=memory)
-```
-
-View the graph:
-```python
-from IPython.display import Image, display
-display(Image(graph.get_graph(xray=1).draw_mermaid_png()))
-```
-
-Run the graph with a desired topic and configuration:
-```python
-import uuid 
-thread = {"configurable": {"thread_id": str(uuid.uuid4()),
-                           "search_api": "tavily",
-                           "planner_provider": "openai",
-                           "planner_model": "o3-mini",
-                           "writer_provider": "anthropic",
-                           "writer_model": "claude-3-5-sonnet-latest",
-                           "max_search_depth": 1,
-                           }}
-
-topic = "Overview of the AI inference market with focus on Fireworks, Together.ai, Groq"
-async for event in graph.astream({"topic":topic,}, thread, stream_mode="updates"):
-    print(event)
-    print("\n")
-```
-
-The graph will stop when the report plan is generated, and you can pass feedback to update the report plan:
-```python
-from langgraph.types import Command
-async for event in graph.astream(Command(resume="Include a revenue estimate (ARR) in the sections"), thread, stream_mode="updates"):
-    print(event)
-    print("\n")
-```
-
-When you are satisfied with the report plan, you can pass `True` to proceed to report generation:
-```
-# Pass True to approve the report plan and proceed to report generation
-async for event in graph.astream(Command(resume=True), thread, stream_mode="updates"):
-    print(event)
-    print("\n")
-```
-
-### Running LangGraph Studio UI locally
-
-Clone the repository:
+1. Clone the repository and activate a virtual environment:
 ```bash
 git clone https://github.com/langchain-ai/open_deep_research.git
 cd open_deep_research
+uv venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
 
-Edit the `.env` file with your API keys (e.g., the API keys for default selections are shown below):
+2. Install dependencies:
+```bash
+uv pip install -r pyproject.toml
+```
 
+3. Set up your `.env` file to customize the environment variables (for model selection, search tools, and other configuration settings):
 ```bash
 cp .env.example .env
 ```
 
-Set:
-```bash
-export TAVILY_API_KEY=<your_tavily_api_key>
-export ANTHROPIC_API_KEY=<your_anthropic_api_key>
-export OPENAI_API_KEY=<your_openai_api_key>
-```
-
-Launch the assistant with the LangGraph server locally, which will open in your browser:
-
-#### Mac
+4. Launch the assistant with the LangGraph server locally to open LangGraph Studio in your browser:
 
 ```bash
-# Install uv package manager
-curl -LsSf https://astral.sh/uv/install.sh | sh
-
 # Install dependencies and start the LangGraph server
-uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev
-```
-
-#### Windows
-
-```powershell
-# Install dependencies 
-pip install -e .
-pip install langgraph-cli[inmem]
-
-# Start the LangGraph server
-langgraph dev
+uvx --refresh --from "langgraph-cli[inmem]" --with-editable . --python 3.11 langgraph dev --allow-blocking
 ```
 
 Use this to open the Studio UI:
@@ -154,70 +50,137 @@ Use this to open the Studio UI:
 - 🎨 Studio UI: https://smith.langchain.com/studio/?baseUrl=http://127.0.0.1:2024
 - 📚 API Docs: http://127.0.0.1:2024/docs
 ```
+<img width="817" height="666" alt="Screenshot 2025-07-13 at 11 21 12 PM" src="https://github.com/user-attachments/assets/052f2ed3-c664-4a4f-8ec2-074349dcaa3f" />
 
-(1) Provide a `Topic` and hit `Submit`:
+Ask a question in the `messages` input field and click `Submit`.
 
-<img width="1326" alt="input" src="https://github.com/user-attachments/assets/de264b1b-8ea5-4090-8e72-e1ef1230262f" />
+### Configurations
 
-(2) This will generate a report plan and present it to the user for review.
+Open Deep Research offers extensive configuration options to customize the research process and model behavior. All configurations can be set via the web UI, environment variables, or by modifying the configuration directly.
 
-(3) We can pass a string (`"..."`) with feedback to regenerate the plan based on the feedback.
+#### General Settings
 
-<img width="1326" alt="feedback" src="https://github.com/user-attachments/assets/c308e888-4642-4c74-bc78-76576a2da919" />
+- **Max Structured Output Retries** (default: 3): Maximum number of retries for structured output calls from models when parsing fails
+- **Allow Clarification** (default: true): Whether to allow the researcher to ask clarifying questions before starting research
+- **Max Concurrent Research Units** (default: 5): Maximum number of research units to run concurrently using sub-agents. Higher values enable faster research but may hit rate limits
 
-(4) Or, we can just pass `true` to accept the plan.
+#### Research Configuration
 
-<img width="1480" alt="accept" src="https://github.com/user-attachments/assets/ddeeb33b-fdce-494f-af8b-bd2acc1cef06" />
+- **Search API** (default: Tavily): Choose from Tavily (works with all models), OpenAI Native Web Search, Anthropic Native Web Search, or None
+- **Max Researcher Iterations** (default: 3): Number of times the Research Supervisor will reflect on research and ask follow-up questions
+- **Max React Tool Calls** (default: 5): Maximum number of tool calling iterations in a single researcher step
 
-(5) Once accepted, the report sections will be generated.
+#### Models
 
-<img width="1326" alt="report_gen" src="https://github.com/user-attachments/assets/74ff01cc-e7ed-47b8-bd0c-4ef615253c46" />
+Open Deep Research uses multiple specialized models for different research tasks:
 
-The report is produced as markdown.
+- **Summarization Model** (default: `openai:gpt-4.1-nano`): Summarizes research results from search APIs
+- **Research Model** (default: `openai:gpt-4.1`): Conducts research and analysis 
+- **Compression Model** (default: `openai:gpt-4.1-mini`): Compresses research findings from sub-agents
+- **Final Report Model** (default: `openai:gpt-4.1`): Writes the final comprehensive report
 
-<img width="1326" alt="report" src="https://github.com/user-attachments/assets/92d9f7b7-3aea-4025-be99-7fb0d4b47289" />
+All models are configured using [init_chat_model() API](https://python.langchain.com/docs/how_to/chat_models_universal_init/) which supports providers like OpenAI, Anthropic, Google Vertex AI, and others.
 
-## 📖 Customizing the report
+**Important Model Requirements:**
 
-You can customize the research assistant's behavior through several parameters:
+1. **Structured Outputs**: All models must support structured outputs. Check support [here](https://python.langchain.com/docs/integrations/chat/).
 
-- `report_structure`: Define a custom structure for your report (defaults to a standard research report format)
-- `number_of_queries`: Number of search queries to generate per section (default: 2)
-- `max_search_depth`: Maximum number of reflection and search iterations (default: 2)
-- `planner_provider`: Model provider for planning phase (default: "openai", but can be "groq")
-- `planner_model`: Specific model for planning (default: "o3-mini", but can be any Groq hosted model such as "deepseek-r1-distill-llama-70b")
-- `writer_model`: Model for writing the report (default: "claude-3-5-sonnet-latest")
-- `search_api`: API to use for web searches (default: Tavily)
+2. **Search API Compatibility**: Research and Compression models must support your selected search API:
+   - Anthropic search requires Anthropic models with web search capability
+   - OpenAI search requires OpenAI models with web search capability  
+   - Tavily works with all models
 
-These configurations allow you to fine-tune the research process based on your needs, from adjusting the depth of research to selecting specific AI models for different phases of report generation.
+3. **Tool Calling**: All models must support tool calling functionality
 
-### Model Considerations
+4. **Special Configurations**:
+   - For OpenRouter: Follow [this guide](https://github.com/langchain-ai/open_deep_research/issues/75#issuecomment-2811472408)
+   - For local models via Ollama: See [setup instructions](https://github.com/langchain-ai/open_deep_research/issues/65#issuecomment-2743586318)
 
-(1) With Groq, there are token per minute (TPM) limits if you are on the `on_demand` service tier:
-- The `on_demand` service tier has a limit of `6000 TPM`
-- You will want a [paid plan](https://github.com/cline/cline/issues/47#issuecomment-2640992272) for section writing with Groq models
+#### Example MCP (Model Context Protocol) Servers
 
-(2) `deepseek` [isn't great at function calling](https://api-docs.deepseek.com/guides/reasoning_model). Our assistant uses function calling to generate structured outputs for report sections and search queries within each section.  
-- Because, section writing performs a larger number of function calls, OpenAI, Anthropic, and certain OSS models that are stromng at function calling like Groq's `llama-3.3-70b-versatile` are advised.
-- If you see the following error, it is likely due to the model not being able to produce structured outputs (see [trace](https://smith.langchain.com/public/8a6da065-3b8b-4a92-8df7-5468da336cbe/r)):
+Open Deep Research supports MCP servers to extend research capabilities. 
+
+#### Local MCP Servers
+
+**Filesystem MCP Server** provides secure file system operations with robust access control:
+- Read, write, and manage files and directories
+- Perform operations like reading file contents, creating directories, moving files, and searching
+- Restrict operations to predefined directories for security
+- Support for both command-line configuration and dynamic MCP roots
+
+Example usage:
+```bash
+mcp-server-filesystem /path/to/allowed/dir1 /path/to/allowed/dir2
 ```
-groq.APIError: Failed to call a function. Please adjust your prompt. See 'failed_generation' for more details.
+
+#### Remote MCP Servers  
+
+**Remote MCP servers** enable distributed agent coordination and support streamable HTTP requests. Unlike local servers, they can be multi-tenant and require more complex authentication.
+
+**Arcade MCP Server Example**:
+```json
+{
+  "url": "https://api.arcade.dev/v1/mcps/ms_0ujssxh0cECutqzMgbtXSGnjorm",
+  "tools": ["Search_SearchHotels", "Search_SearchOneWayFlights", "Search_SearchRoundtripFlights"]
+}
 ```
 
-## How it works
-   
-1. `Plan and Execute` - Open Deep Research follows a [plan-and-execute workflow](https://github.com/assafelovic/gpt-researcher) that separates planning from research, allowing for human-in-the-loop approval of a report plan before the more time-consuming research phase. It uses, by default, a [reasoning model](https://www.youtube.com/watch?v=f0RbwrBcFmc) to plan the report sections. During this phase, it uses web search to gather general information about the report topic to help in planning the report sections. But, it also accepts a report structure from the user to help guide the report sections as well as human feedback on the report plan.
-   
-2. `Research and Write` - Each section of the report is written in parallel. The research assistant uses web search via [Tavily API](https://tavily.com/) or [Perplexity](https://www.perplexity.ai/hub/blog/introducing-the-sonar-pro-api) to gather information about each section topic. It will reflect on each report section and suggest follow-up questions for web search. This "depth" of research will proceed for any many iterations as the user wants. Any final sections, such as introductions and conclusions, are written after the main body of the report is written, which helps ensure that the report is cohesive and coherent. The planner determines main body versus final sections during the planning phase.
+Remote servers can be configured as authenticated or unauthenticated and support JWT-based authentication through OAuth endpoints.
 
-3. `Managing different types` - Open Deep Research is built on LangGraph, which has native support for configuration management [using assistants](https://langchain-ai.github.io/langgraph/concepts/assistants/). The report `structure` is a field in the graph configuration, which allows users to create different assistants for different types of reports. 
+### Evaluation
 
-## UX
+A comprehensive batch evaluation system designed for detailed analysis and comparative studies.
 
-### Local deployment
+#### **Features:**
+- **Multi-dimensional Scoring**: Specialized evaluators with 0-1 scale ratings
+- **Dataset-driven Evaluation**: Batch processing across multiple test cases
 
-Follow the [quickstart](#quickstart) to start LangGraph server locally.
+#### **Usage:**
+```bash
+# Run comprehensive evaluation on LangSmith datasets
+python tests/run_evaluate.py
+```
+#### **Key Files:**
+- `tests/run_evaluate.py`: Main evaluation script
+- `tests/evaluators.py`: Specialized evaluator functions
+- `tests/prompts.py`: Evaluation prompts for each dimension
 
-### Hosted deployment
+### Deployments and Usages
+
+#### LangGraph Studio
+
+Follow the [quickstart](#-quickstart) to start LangGraph server locally and test the agent out on LangGraph Studio.
+
+#### Hosted deployment
  
-You can easily deploy to [LangGraph Platform ](https://langchain-ai.github.io/langgraph/concepts/#deployment-options). 
+You can easily deploy to [LangGraph Platform](https://langchain-ai.github.io/langgraph/concepts/#deployment-options). 
+
+#### Open Agent Platform
+
+Open Agent Platform (OAP) is a UI from which non-technical users can build and configure their own agents. OAP is great for allowing users to configure the Deep Researcher with different MCP tools and search APIs that are best suited to their needs and the problems that they want to solve.
+
+We've deployed Open Deep Research to our public demo instance of OAP. All you need to do is add your API Keys, and you can test out the Deep Researcher for yourself! Try it out [here](https://oap.langchain.com)
+
+You can also deploy your own instance of OAP, and make your own custom agents (like Deep Researcher) available on it to your users.
+1. [Deploy Open Agent Platform](https://docs.oap.langchain.com/quickstart)
+2. [Add Deep Researcher to OAP](https://docs.oap.langchain.com/setup/agents)
+
+### Updates 🔥
+
+### Legacy Implementations 🏛️
+
+The `src/legacy/` folder contains two earlier implementations that provide alternative approaches to automated research:
+
+#### 1. Workflow Implementation (`legacy/graph.py`)
+- **Plan-and-Execute**: Structured workflow with human-in-the-loop planning
+- **Sequential Processing**: Creates sections one by one with reflection
+- **Interactive Control**: Allows feedback and approval of report plans
+- **Quality Focused**: Emphasizes accuracy through iterative refinement
+
+#### 2. Multi-Agent Implementation (`legacy/multi_agent.py`)  
+- **Supervisor-Researcher Architecture**: Coordinated multi-agent system
+- **Parallel Processing**: Multiple researchers work simultaneously
+- **Speed Optimized**: Faster report generation through concurrency
+- **MCP Support**: Extensive Model Context Protocol integration
+
+See `src/legacy/legacy.md` for detailed documentation, configuration options, and usage examples for both legacy implementations.

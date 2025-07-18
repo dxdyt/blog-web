@@ -1,9 +1,9 @@
 ---
 title: helix
-date: 2024-09-11T12:21:33+08:00
+date: 2025-07-18T12:39:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1709321954258-698bea8a21e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1709321954258-698bea8a21e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjYwMjg0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750796586893-238ec07e7e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750796586893-238ec07e7e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
 ---
 
 # [helix-editor/helix](https://github.com/helix-editor/helix)
@@ -47,8 +47,8 @@ All shortcuts/keymaps can be found [in the documentation on the website](https:/
 - Built-in language server support
 - Smart, incremental syntax highlighting and code editing via tree-sitter
 
-It's a terminal-based editor first, but I'd like to explore a custom renderer
-(similar to Emacs) in wgpu or skulpin.
+Although it's primarily a terminal-based editor, I am interested in exploring
+a custom renderer (similar to Emacs) using wgpu or skulpin.
 
 Note: Only certain languages have indentation definitions at the moment. Check
 `runtime/queries/<lang>/` for `indents.scm`.
@@ -57,7 +57,7 @@ Note: Only certain languages have indentation definitions at the moment. Check
 
 [Installation documentation](https://docs.helix-editor.com/install.html).
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/helix.svg?exclude_unsupported=1)](https://repology.org/project/helix/versions)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/helix-editor.svg?exclude_unsupported=1)](https://repology.org/project/helix-editor/versions)
 
 # Contributing
 

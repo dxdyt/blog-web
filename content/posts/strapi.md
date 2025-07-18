@@ -1,9 +1,9 @@
 ---
 title: strapi
-date: 2025-07-10T12:32:51+08:00
+date: 2025-07-18T12:39:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749497707413-d5b03d6c8fac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749497707413-d5b03d6c8fac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIxMjE4OTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750796586893-238ec07e7e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750796586893-238ec07e7e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
 ---
 
 # [strapi/strapi](https://github.com/strapi/strapi)

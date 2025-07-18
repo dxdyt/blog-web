@@ -1,9 +1,9 @@
 ---
 title: jsoncrack.com
-date: 2025-07-16T12:38:43+08:00
+date: 2025-07-18T12:39:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751243958813-8ec1669abef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751243958813-8ec1669abef9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI2NDA2MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751229881841-79778db35e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751229881841-79778db35e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
 ---
 
 # [AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
@@ -136,6 +136,10 @@ docker compose up
 
 # Go to http://localhost:8888
 ```
+
+## Configuration
+
+The supported node limit can be changed by editing the `NEXT_PUBLIC_NODE_LIMIT` value in the `.env` file at the project root.
 
 <!-- LICENSE -->
 

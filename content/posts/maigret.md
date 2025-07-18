@@ -1,9 +1,9 @@
 ---
 title: maigret
-date: 2025-01-24T12:19:36+08:00
+date: 2025-07-18T12:38:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736264335869-70a53a2e49b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736264335869-70a53a2e49b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc2OTIzMjN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750837496753-d223cfc91fd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750837496753-d223cfc91fd7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
 ---
 
 # [soxoj/maigret](https://github.com/soxoj/maigret)
