@@ -1,9 +1,9 @@
 ---
 title: pydantic-ai
-date: 2024-12-07T12:21:07+08:00
+date: 2025-07-19T12:32:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730759214665-44d4efd6e40b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730759214665-44d4efd6e40b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1751217335778-d4425ce82ee5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751217335778-d4425ce82ee5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
 ---
 
 # [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1730759214665-44d4efd6e4
   <a href="https://ai.pydantic.dev/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://ai.pydantic.dev/img/pydantic-ai-dark.svg">
-      <img src="https://ai.pydantic.dev/img/pydantic-ai-light.svg" alt="PydanticAI">
+      <img src="https://ai.pydantic.dev/img/pydantic-ai-light.svg" alt="Pydantic AI">
     </picture>
   </a>
 </div>
@@ -25,6 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1730759214665-44d4efd6e4
   <a href="https://pypi.python.org/pypi/pydantic-ai"><img src="https://img.shields.io/pypi/v/pydantic-ai.svg" alt="PyPI"></a>
   <a href="https://github.com/pydantic/pydantic-ai"><img src="https://img.shields.io/pypi/pyversions/pydantic-ai.svg" alt="versions"></a>
   <a href="https://github.com/pydantic/pydantic-ai/blob/main/LICENSE"><img src="https://img.shields.io/github/license/pydantic/pydantic-ai.svg?v" alt="license"></a>
+  <a href="https://logfire.pydantic.dev/docs/join-slack/"><img src="https://img.shields.io/badge/Slack-Join%20Slack-4A154B?logo=slack" alt="Join Slack" /></a>
 </div>
 
 ---
@@ -33,48 +34,64 @@ featuredImagePreview: https://images.unsplash.com/photo-1730759214665-44d4efd6e4
 
 ---
 
-When I first found FastAPI, I got it immediately. I was excited to find something so innovative and ergonomic built on Pydantic.
+Pydantic AI is a Python agent framework designed to make it less painful to build production grade applications with Generative AI.
 
-Virtually every Agent Framework and LLM library in Python uses Pydantic, but when we began to use LLMs in [Pydantic Logfire](https://pydantic.dev/logfire), I couldn't find anything that gave me the same feeling.
+FastAPI revolutionized web development by offering an innovative and ergonomic design, built on the foundation of [Pydantic Validation](https://docs.pydantic.dev).
 
-PydanticAI is a Python Agent Framework designed to make it less painful to build production grade applications with Generative AI.
+Similarly, virtually every agent framework and LLM library in Python uses Pydantic Validation, yet when we began to use LLMs in [Pydantic Logfire](https://pydantic.dev/logfire), we couldn't find anything that gave us the same feeling.
 
-## Why use PydanticAI
+We built Pydantic AI with one simple aim: to bring that FastAPI feeling to GenAI app development.
 
-* Built by the team behind Pydantic (the validation layer of the OpenAI SDK, the Anthropic SDK, LangChain, LlamaIndex, AutoGPT, Transformers, CrewAI, Instructor and many more)
-* Model-agnostic — currently OpenAI, Gemini, and Groq are supported. And there is a simple interface to implement support for other models.
-* [Type-safe](https://ai.pydantic.dev/agents/#static-type-checking)
-* Control flow and agent composition is done with vanilla Python, allowing you to make use of the same Python development best practices you'd use in any other (non-AI) project
-* [Structured response](https://ai.pydantic.dev/results/#structured-result-validation) validation with Pydantic
-* [Streamed responses](https://ai.pydantic.dev/results/#streamed-results), including validation of streamed _structured_ responses with Pydantic
-* Novel, type-safe [dependency injection system](https://ai.pydantic.dev/dependencies/), useful for testing and eval-driven iterative development
-* [Logfire integration](https://ai.pydantic.dev/logfire/) for debugging and monitoring the performance and general behavior of your LLM-powered application
+## Why use Pydantic AI
 
-## In Beta!
+- **Built by the Pydantic Team**
+  Built by the team behind [Pydantic Validation](https://docs.pydantic.dev/latest/) (the validation layer of the OpenAI SDK, the Anthropic SDK, LangChain, LlamaIndex, AutoGPT, Transformers, CrewAI, Instructor and many more).
 
-PydanticAI is in early beta, the API is still subject to change and there's a lot more to do.
-[Feedback](https://github.com/pydantic/pydantic-ai/issues) is very welcome!
+- **Model-agnostic**
+  Supports OpenAI, Anthropic, Gemini, Deepseek, Ollama, Groq, Cohere, and Mistral, and there is a simple interface to implement support for [other models](https://ai.pydantic.dev/models/).
+
+- **Pydantic Logfire Integration**
+  Seamlessly [integrates](https://ai.pydantic.dev/logfire/) with [Pydantic Logfire](https://pydantic.dev/logfire) for real-time debugging, performance monitoring, and behavior tracking of your LLM-powered applications.
+
+- **Type-safe**
+  Designed to make [type checking](https://ai.pydantic.dev/agents/#static-type-checking) as powerful and informative as possible for you.
+
+- **Python-centric Design**
+  Leverages Python's familiar control flow and agent composition to build your AI-driven projects, making it easy to apply standard Python best practices you'd use in any other (non-AI) project.
+
+- **Structured Responses**
+  Harnesses the power of [Pydantic Validation](https://docs.pydantic.dev/latest/) to [validate and structure](https://ai.pydantic.dev/output/#structured-output) model outputs, ensuring responses are consistent across runs.
+
+- **Dependency Injection System**
+  Offers an optional [dependency injection](https://ai.pydantic.dev/dependencies/) system to provide data and services to your agent's [system prompts](https://ai.pydantic.dev/agents/#system-prompts), [tools](https://ai.pydantic.dev/tools/) and [output validators](https://ai.pydantic.dev/output/#output-validator-functions).
+  This is useful for testing and eval-driven iterative development.
+
+- **Streamed Responses**
+  Provides the ability to [stream](https://ai.pydantic.dev/output/#streamed-results) LLM outputs continuously, with immediate validation, ensuring rapid and accurate outputs.
+
+- **Graph Support**
+  [Pydantic Graph](https://ai.pydantic.dev/graph) provides a powerful way to define graphs using typing hints, this is useful in complex applications where standard control flow can degrade to spaghetti code.
 
 ## Hello World Example
 
-Here's a minimal example of PydanticAI:
+Here's a minimal example of Pydantic AI:
 
-```py
+```python
 from pydantic_ai import Agent
 
 # Define a very simple agent including the model to use, you can also set the model when running the agent.
 agent = Agent(
-    'gemini-1.5-flash',
+    'google-gla:gemini-1.5-flash',
     # Register a static system prompt using a keyword argument to the agent.
     # For more complex dynamically-generated system prompts, see the example below.
     system_prompt='Be concise, reply with one sentence.',
 )
 
 # Run the agent synchronously, conducting a conversation with the LLM.
-# Here the exchange should be very short: PydanticAI will send the system prompt and the user query to the LLM,
+# Here the exchange should be very short: Pydantic AI will send the system prompt and the user query to the LLM,
 # the model will return a text response. See below for a more complex run.
 result = agent.run_sync('Where does "hello world" come from?')
-print(result.data)
+print(result.output)
 """
 The first known use of "hello, world" was in a 1974 textbook about the C programming language.
 """
@@ -86,11 +103,11 @@ Not very interesting yet, but we can easily add "tools", dynamic system prompts,
 
 ## Tools & Dependency Injection Example
 
-Here is a concise example using PydanticAI to build a support agent for a bank:
+Here is a concise example using Pydantic AI to build a support agent for a bank:
 
 **(Better documented example [in the docs](https://ai.pydantic.dev/#tools-dependency-injection-example))**
 
-```py
+```python
 from dataclasses import dataclass
 
 from pydantic import BaseModel, Field
@@ -107,22 +124,22 @@ class SupportDependencies:
     db: DatabaseConn
 
 
-# This pydantic model defines the structure of the result returned by the agent.
-class SupportResult(BaseModel):
+# This pydantic model defines the structure of the output returned by the agent.
+class SupportOutput(BaseModel):
     support_advice: str = Field(description='Advice returned to the customer')
     block_card: bool = Field(description="Whether to block the customer's card")
     risk: int = Field(description='Risk level of query', ge=0, le=10)
 
 
 # This agent will act as first-tier support in a bank.
-# Agents are generic in the type of dependencies they accept and the type of result they return.
-# In this case, the support agent has type `Agent[SupportDependencies, SupportResult]`.
+# Agents are generic in the type of dependencies they accept and the type of output they return.
+# In this case, the support agent has type `Agent[SupportDependencies, SupportOutput]`.
 support_agent = Agent(
     'openai:gpt-4o',
     deps_type=SupportDependencies,
-    # The response from the agent will, be guaranteed to be a SupportResult,
+    # The response from the agent will, be guaranteed to be a SupportOutput,
     # if validation fails the agent is prompted to try again.
-    result_type=SupportResult,
+    output_type=SupportOutput,
     system_prompt=(
         'You are a support agent in our bank, give the '
         'customer support and judge the risk level of their query.'
@@ -130,7 +147,7 @@ support_agent = Agent(
 )
 
 
-# Dynamic system prompts can can make use of dependency injection.
+# Dynamic system prompts can make use of dependency injection.
 # Dependencies are carried via the `RunContext` argument, which is parameterized with the `deps_type` from above.
 # If the type annotation here is wrong, static type checkers will catch it.
 @support_agent.system_prompt
@@ -144,7 +161,7 @@ async def add_customer_name(ctx: RunContext[SupportDependencies]) -> str:
 # Pydantic is used to validate these arguments, and errors are passed back to the LLM so it can retry.
 @support_agent.tool
 async def customer_balance(
-    ctx: RunContext[SupportDependencies], include_pending: bool
+        ctx: RunContext[SupportDependencies], include_pending: bool
 ) -> float:
     """Returns the customer's current account balance."""
     # The docstring of a tool is also passed to the LLM as the description of the tool.
@@ -162,17 +179,17 @@ async def customer_balance(
 async def main():
     deps = SupportDependencies(customer_id=123, db=DatabaseConn())
     # Run the agent asynchronously, conducting a conversation with the LLM until a final response is reached.
-    # Even in this fairly simple case, the agent will exchange multiple messages with the LLM as tools are called to retrieve a result.
+    # Even in this fairly simple case, the agent will exchange multiple messages with the LLM as tools are called to retrieve an output.
     result = await support_agent.run('What is my balance?', deps=deps)
-    # The result will be validated with Pydantic to guarantee it is a `SupportResult`, since the agent is generic,
-    # it'll also be typed as a `SupportResult` to aid with static type checking.
-    print(result.data)
+    # The `result.output` will be validated with Pydantic to guarantee it is a `SupportOutput`. Since the agent is generic,
+    # it'll also be typed as a `SupportOutput` to aid with static type checking.
+    print(result.output)
     """
     support_advice='Hello John, your current account balance, including pending transactions, is $123.45.' block_card=False risk=1
     """
 
     result = await support_agent.run('I just lost my card!', deps=deps)
-    print(result.data)
+    print(result.output)
     """
     support_advice="I'm sorry to hear that, John. We are temporarily blocking your card to prevent unauthorized transactions." block_card=True risk=8
     """
@@ -180,8 +197,8 @@ async def main():
 
 ## Next Steps
 
-To try PydanticAI yourself, follow the instructions [in the examples](https://ai.pydantic.dev/examples/).
+To try Pydantic AI yourself, follow the instructions [in the examples](https://ai.pydantic.dev/examples/).
 
-Read the [docs](https://ai.pydantic.dev/agents/) to learn more about building applications with PydanticAI.
+Read the [docs](https://ai.pydantic.dev/agents/) to learn more about building applications with Pydantic AI.
 
-Read the [API Reference](https://ai.pydantic.dev/api/agent/) to understand PydanticAI's interface.
+Read the [API Reference](https://ai.pydantic.dev/api/agent/) to understand Pydantic AI's interface.

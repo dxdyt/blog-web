@@ -1,9 +1,9 @@
 ---
 title: segment-anything
-date: 2025-07-17T12:38:41+08:00
+date: 2025-07-19T12:30:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743704458882-f9af7a3c4427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743704458882-f9af7a3c4427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752062556921-6745f17b1cea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752062556921-6745f17b1cea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
 ---
 
 # [facebookresearch/segment-anything](https://github.com/facebookresearch/segment-anything)

@@ -1,9 +1,9 @@
 ---
 title: DocsGPT
-date: 2025-07-17T12:37:26+08:00
+date: 2025-07-19T12:31:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750688651440-6e485ae16bc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750688651440-6e485ae16bc8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750639258774-9a714379a093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750639258774-9a714379a093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
 ---
 
 # [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
