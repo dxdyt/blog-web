@@ -1,9 +1,9 @@
 ---
 title: pytorch-deep-learning
-date: 2024-07-01T12:17:54+08:00
+date: 2025-07-20T12:42:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1596984358985-bf4b2faba9e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1596984358985-bf4b2faba9e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTk4MDc0MjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750412143850-68d5003c6a36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750412143850-68d5003c6a36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
 ---
 
 # [mrdbourke/pytorch-deep-learning](https://github.com/mrdbourke/pytorch-deep-learning)
@@ -280,7 +280,7 @@ Almost daily updates of what's happening.
 * 19 Jan 2022 - add more annotations for 00
 * 18 Jan 2022 - add more annotations for 00
 * 17 Jan 2022 - back from holidays, adding more annotations to 00 
-* 10 Dec 2021 - start adding annoations for 00
+* 10 Dec 2021 - start adding annotations for 00
 * 9 Dec 2021 - Created a website for the course ([learnpytorch.io](https://learnpytorch.io)) you'll see updates posted there as development continues 
 * 8 Dec 2021 - Clean up notebook 07, starting to go back through code and add annotations
 * 26 Nov 2021 - Finish skeleton code for 07, added four different experiments, need to clean up and make more straightforward

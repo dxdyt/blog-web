@@ -1,9 +1,9 @@
 ---
 title: n8n
-date: 2025-07-19T12:31:45+08:00
+date: 2025-07-20T12:42:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752062556921-6745f17b1cea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752062556921-6745f17b1cea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4OTk0MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751131830845-0ee1fd12491d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751131830845-0ee1fd12491d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
 ---
 
 # [n8n-io/n8n](https://github.com/n8n-io/n8n)

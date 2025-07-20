@@ -1,9 +1,9 @@
 ---
 title: shadPS4
-date: 2025-05-26T12:25:44+08:00
+date: 2025-07-20T12:41:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744236404781-530428ffbad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744236404781-530428ffbad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgyMzM0NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751227046868-2fff7ec5ebb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751227046868-2fff7ec5ebb7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
 ---
 
 # [shadps4-emu/shadPS4](https://github.com/shadps4-emu/shadPS4)
@@ -46,8 +46,8 @@ SPDX-License-Identifier: GPL-2.0-or-later
 
 **shadPS4** is an early **PlayStation 4** emulator for **Windows**, **Linux** and **macOS** written in C++.
 
-If you encounter problems or have doubts, do not hesitate to look at the [**Quickstart**](https://github.com/shadps4-emu/shadPS4/blob/main/documents/Quickstart/Quickstart.md).\
-To verify that a game works, you can look at [**shadPS4 Game Compatibility**](https://github.com/shadps4-emu/shadps4-game-compatibility).\
+If you encounter problems or have doubts, do not hesitate to look at the [**Quickstart**](https://github.com/shadps4-emu/shadPS4/wiki/I.-Quick-start-%5BUsers%5D).\
+To verify that a game works, you can look at [**shadPS4 Game Compatibility**](https://github.com/shadps4-compatibility/shadps4-game-compatibility).\
 To discuss shadPS4 development, suggest ideas or to ask for help, join our [**Discord server**](https://discord.gg/bFJxfftGW6).\
 To get the latest news, go to our [**X (Twitter)**](https://x.com/shadps4) or our [**website**](https://shadps4.net/).\
 For those who'd like to donate to the project, we now have a [**Kofi page**](https://ko-fi.com/shadps4)!
@@ -134,8 +134,8 @@ Keyboard and mouse inputs can be customized in the settings menu by clicking the
 
 # Firmware files
 
-shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console.\
-The following firmware modules are supported and must be placed in shadPS4's `user/sys_modules` folder.
+shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console.
+The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
 
 <div align="center">
 
@@ -148,8 +148,7 @@ The following firmware modules are supported and must be placed in shadPS4's `us
 </div>
 
 > [!Caution]
-> The above modules are required to run the games properly and must be extracted from your PlayStation 4.\
-> **We do not provide any information or support on how to do this**.
+> The above modules are required to run the games properly and must be extracted from your PlayStation 4.
 
 
 
@@ -158,7 +157,7 @@ The following firmware modules are supported and must be placed in shadPS4's `us
 - [**georgemoralis**](https://github.com/georgemoralis)
 - [**psucien**](https://github.com/psucien)
 - [**viniciuslrangel**](https://github.com/viniciuslrangel)
-- [**roamic**](https://github.com/vladmikhalin)
+- [**roamic**](https://github.com/roamic)
 - [**squidbus**](https://github.com/squidbus)
 - [**frodo**](https://github.com/baggins183)
 - [**Stephen Miller**](https://github.com/StevenMiller123)
@@ -168,7 +167,7 @@ Logo is done by [**Xphalnos**](https://github.com/Xphalnos)
 
 # Contributing
 
-If you want to contribute, please look the [**CONTRIBUTING.md**](https://github.com/shadps4-emu/shadPS4/blob/main/CONTRIBUTING.md) file.\
+If you want to contribute, please read the [**CONTRIBUTING.md**](https://github.com/shadps4-emu/shadPS4/blob/main/CONTRIBUTING.md) file.\
 Open a PR and we'll check it :)
 
 # Translations
