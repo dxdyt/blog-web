@@ -1,9 +1,9 @@
 ---
 title: bknd
-date: 2025-07-20T12:41:58+08:00
+date: 2025-07-21T12:43:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750412143850-68d5003c6a36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750412143850-68d5003c6a36?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1741802869522-3b4245d8aec9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1741802869522-3b4245d8aec9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [bknd-io/bknd](https://github.com/bknd-io/bknd)

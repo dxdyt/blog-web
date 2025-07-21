@@ -1,9 +1,9 @@
 ---
 title: remote-jobs
-date: 2025-07-20T12:41:50+08:00
+date: 2025-07-21T12:42:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744646338661-c1e6530dfef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744646338661-c1e6530dfef4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750563138002-1b7e1398fe09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750563138002-1b7e1398fe09?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [remoteintech/remote-jobs](https://github.com/remoteintech/remote-jobs)
