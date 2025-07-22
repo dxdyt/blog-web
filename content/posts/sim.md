@@ -1,9 +1,9 @@
 ---
 title: sim
-date: 2025-07-21T12:42:47+08:00
+date: 2025-07-22T12:39:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752654977080-4eec5e82c2c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752654977080-4eec5e82c2c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750306957072-351e2d952281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750306957072-351e2d952281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
 ---
 
 # [simstudioai/sim](https://github.com/simstudioai/sim)
@@ -101,6 +101,12 @@ docker compose -f docker-compose.prod.yml up -d
 
 ### Option 4: Manual Setup
 
+**Requirements:**
+- [Bun](https://bun.sh/) runtime
+- PostgreSQL 12+ with [pgvector extension](https://github.com/pgvector/pgvector) (required for AI embeddings)
+
+**Note:** Sim Studio uses vector embeddings for AI features like knowledge bases and semantic search, which requires the `pgvector` PostgreSQL extension.
+
 1. Clone and install dependencies:
 
 ```bash
@@ -109,20 +115,43 @@ cd sim
 bun install
 ```
 
-2. Set up environment:
+2. Set up PostgreSQL with pgvector:
+
+You need PostgreSQL with the `vector` extension for embedding support. Choose one option:
+
+**Option A: Using Docker (Recommended)**
+```bash
+# Start PostgreSQL with pgvector extension
+docker run --name simstudio-db \
+  -e POSTGRES_PASSWORD=your_password \
+  -e POSTGRES_DB=simstudio \
+  -p 5432:5432 -d \
+  pgvector/pgvector:pg17
+```
+
+**Option B: Manual Installation**
+- Install PostgreSQL 12+ and the pgvector extension
+- See [pgvector installation guide](https://github.com/pgvector/pgvector#installation)
+
+3. Set up environment:
 
 ```bash
 cd apps/sim
 cp .env.example .env  # Configure with required variables (DATABASE_URL, BETTER_AUTH_SECRET, BETTER_AUTH_URL)
 ```
 
-3. Set up the database:
-
+Update your `.env` file with the database URL:
 ```bash
-bunx drizzle-kit push
+DATABASE_URL="postgresql://postgres:your_password@localhost:5432/simstudio"
 ```
 
-4. Start the development servers:
+4. Set up the database:
+
+```bash
+bunx drizzle-kit migrate 
+```
+
+5. Start the development servers:
 
 **Recommended approach - run both servers together (from project root):**
 

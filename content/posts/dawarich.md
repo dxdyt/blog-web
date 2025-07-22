@@ -1,9 +1,9 @@
 ---
 title: dawarich
-date: 2025-01-17T12:19:44+08:00
+date: 2025-07-22T12:40:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736401762820-a114e32f0072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736401762820-a114e32f0072?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzcwODc1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750306957072-351e2d952281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750306957072-351e2d952281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
 ---
 
 # [Freika/dawarich](https://github.com/Freika/dawarich)
@@ -11,7 +11,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1736401762820-a114e32f00
 # 🌍 Dawarich: Your Self-Hosted Location History Tracker
 
 [![Discord](https://dcbadge.limes.pink/api/server/pHsBjpt5J8)](https://discord.gg/pHsBjpt5J8) | [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/H2H3IDYDD) | [![Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dfreika%26type%3Dpatrons&style=for-the-badge)](https://www.patreon.com/freika)
-Donate using crypto: [0x6bAd13667692632f1bF926cA9B421bEe7EaEB8D4](https://etherscan.io/address/0x6bAd13667692632f1bF926cA9B421bEe7EaEB8D4)
 
 [![CircleCI](https://circleci.com/gh/Freika/dawarich.svg?style=svg)](https://app.circleci.com/pipelines/github/Freika/dawarich)
 
@@ -39,6 +38,7 @@ Donate using crypto: [0x6bAd13667692632f1bF926cA9B421bEe7EaEB8D4](https://ethers
 
 📄 **Changelog**: Find the latest updates [here](CHANGELOG.md).
 
+👩‍💻 **Contribute**: See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute to Dawarich.
 ---
 
 ## ⚠️ Disclaimer
@@ -48,6 +48,7 @@ Donate using crypto: [0x6bAd13667692632f1bF926cA9B421bEe7EaEB8D4](https://ethers
 - ❌ **Do not delete your original data** after importing into Dawarich.
 - 📦 **Backup before updates**: Always [backup your data](https://dawarich.app/docs/tutorials/backup-and-restore) before upgrading.
 - 🔄 **Stay up-to-date**: Make sure you're running the latest version for the best experience.
+- ⚠️ **DO NOT USE PRODUCTION ENVIRONMENT**: Dawarich is not yet ready for production.
 
 ---
 
@@ -55,10 +56,12 @@ Donate using crypto: [0x6bAd13667692632f1bF926cA9B421bEe7EaEB8D4](https://ethers
 
 You can track your location with the following apps:
 
+- 💫 [Dawarich for iOS](https://dawarich.app/docs/dawarich-for-ios/)
 - 🌍 [Overland](https://dawarich.app/docs/tutorials/track-your-location#overland)
 - 🛰️ [OwnTracks](https://dawarich.app/docs/tutorials/track-your-location#owntracks)
 - 🗺️ [GPSLogger](https://dawarich.app/docs/tutorials/track-your-location#gps-logger)
-- 🏡 [Home Assistant](https://dawarich.app/docs/tutorials/track-your-location#homeassistant)
+- 📱 [PhoneTrack](https://dawarich.app/docs/tutorials/track-your-location#phonetrack)
+- 🏡 [Home Assistant](https://dawarich.app/docs/tutorials/track-your-location#home-assistant)
 
 Simply install one of the supported apps on your device and configure it to send location updates to your Dawarich instance.
 
@@ -85,7 +88,7 @@ Simply install one of the supported apps on your device and configure it to send
 🆕 **Default Credentials**
 - **Username**: `demo@dawarich.app`
 - **Password**: `password`
-(Feel free to change them in the account settings.)
+Feel free to change them in the account settings.
 
 ---
 
@@ -109,6 +112,10 @@ Simply install one of the supported apps on your device and configure it to send
 
 ### 📊 Statistics
 - Analyze your travel history: number of countries/cities visited, distance traveled, and time spent, broken down by year and month.
+
+### ✈️ Trips
+
+- Create a trip to visualize your travels between two points in time. You'll be able to see the route, distance, and time spent, and also add notes to your trip. If you have Immich or Photoprism integration, you'll also be able to see photos from your trips!
 
 ### 📸 Integrations
 - Provide credentials for Immich or Photoprism (or both!) and Dawarich will automatically import geodata from your photos.

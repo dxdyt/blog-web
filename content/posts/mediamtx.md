@@ -1,9 +1,9 @@
 ---
 title: mediamtx
-date: 2025-07-20T12:41:22+08:00
+date: 2025-07-22T12:39:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751131830845-0ee1fd12491d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751131830845-0ee1fd12491d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI5ODY0NjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751227258687-f36a8e4b175b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751227258687-f36a8e4b175b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
 ---
 
 # [bluenviron/mediamtx](https://github.com/bluenviron/mediamtx)

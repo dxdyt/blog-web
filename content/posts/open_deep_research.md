@@ -1,9 +1,9 @@
 ---
 title: open_deep_research
-date: 2025-07-21T12:43:08+08:00
+date: 2025-07-22T12:38:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752654977080-4eec5e82c2c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752654977080-4eec5e82c2c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751601727553-8bd4ad69f6b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751601727553-8bd4ad69f6b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
 ---
 
 # [langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)

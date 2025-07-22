@@ -1,9 +1,9 @@
 ---
 title: better-auth
-date: 2025-07-21T12:42:24+08:00
+date: 2025-07-22T12:39:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752654977080-4eec5e82c2c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752654977080-4eec5e82c2c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMwNzI5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1735507582615-0321c88f6dbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1735507582615-0321c88f6dbb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
 ---
 
 # [better-auth/better-auth](https://github.com/better-auth/better-auth)
