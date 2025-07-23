@@ -1,9 +1,9 @@
 ---
 title: Resume-Matcher
-date: 2025-07-22T12:39:19+08:00
+date: 2025-07-23T12:40:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743657166982-9e3ff272122b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743657166982-9e3ff272122b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751315039431-86ad38f1b046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751315039431-86ad38f1b046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
 ---
 
 # [srbhr/Resume-Matcher](https://github.com/srbhr/Resume-Matcher)

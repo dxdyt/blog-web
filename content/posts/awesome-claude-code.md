@@ -1,9 +1,9 @@
 ---
 title: awesome-claude-code
-date: 2025-07-22T12:38:15+08:00
+date: 2025-07-23T12:41:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743273275142-c4fdbd1ccba4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743273275142-c4fdbd1ccba4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1747767763480-a5b4c7a82aef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1747767763480-a5b4c7a82aef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
 ---
 
 # [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)

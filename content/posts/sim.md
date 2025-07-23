@@ -1,9 +1,9 @@
 ---
 title: sim
-date: 2025-07-22T12:39:45+08:00
+date: 2025-07-23T12:42:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750306957072-351e2d952281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750306957072-351e2d952281?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMxNTkwNzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743345258591-4f837fe8345b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743345258591-4f837fe8345b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
 ---
 
 # [simstudioai/sim](https://github.com/simstudioai/sim)
