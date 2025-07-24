@@ -1,9 +1,9 @@
 ---
 title: jj
-date: 2025-05-07T12:22:35+08:00
+date: 2025-07-24T12:40:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746195722714-4987bcd4bdfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746195722714-4987bcd4bdfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1OTE2NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752859625900-a7fbeee9b8e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMzMzE5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752859625900-a7fbeee9b8e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMzMzE5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [jj-vcs/jj](https://github.com/jj-vcs/jj)
@@ -223,7 +223,6 @@ the header of the website when you scroll to the top of any page.
 
 Jujutsu is designed so that the underlying data and storage model is abstract.
 Today, only the Git backend is production-ready. The Git backend uses the
-[libgit2](https://libgit2.org/) C library and the
 [gitoxide](https://github.com/Byron/gitoxide) Rust library.
 
 [backends]: https://jj-vcs.github.io/jj/latest/glossary#backend
@@ -324,10 +323,9 @@ January 2021. I haven't had to re-clone from source (I don't think I've even had
 to restore from backup).
 
 There *will* be changes to workflows and backward-incompatible changes to the
-on-disk formats before version 1.0.0. Even the binary's name may change (i.e.
-away from `jj`). For any format changes, we'll try to implement transparent
-upgrades (as we've done with recent changes), or provide upgrade commands or
-scripts if requested.
+on-disk formats before version 1.0.0. For any format changes, we'll try to
+implement transparent upgrades (as we've done with recent changes), or provide
+upgrade commands or scripts if requested.
 
 ## Related work
 

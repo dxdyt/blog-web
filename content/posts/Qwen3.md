@@ -1,9 +1,9 @@
 ---
 title: Qwen3
-date: 2025-05-02T12:21:28+08:00
+date: 2025-07-24T12:40:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743856842862-0e215d2a6ff2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752588975162-2431ead002c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMzMzE5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752588975162-2431ead002c9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMzMzE5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [QwenLM/Qwen3](https://github.com/QwenLM/Qwen3)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1743856842862-0e215d2a6f
 <p>
 
 <p align="center">
-          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 Paper &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen3/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
+          💜 <a href="https://chat.qwen.ai/"><b>Qwen Chat</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/Qwen">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp🤖 <a href="https://modelscope.cn/organization/qwen">ModelScope</a>&nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://arxiv.org/abs/2505.09388">Paper</a> &nbsp&nbsp | &nbsp&nbsp 📑 <a href="https://qwenlm.github.io/blog/qwen3/">Blog</a> &nbsp&nbsp ｜ &nbsp&nbsp📖 <a href="https://qwen.readthedocs.io/">Documentation</a>
 <br>
 🖥️ <a href="https://huggingface.co/spaces/Qwen/Qwen3-Demo">Demo</a>&nbsp&nbsp | &nbsp&nbsp💬 <a href="https://github.com/QwenLM/Qwen/blob/main/assets/wechat.png">WeChat (微信)</a>&nbsp&nbsp | &nbsp&nbsp🫨 <a href="https://discord.gg/CV4E9rpNSD">Discord</a>&nbsp&nbsp
 </p>
@@ -35,28 +35,39 @@ To learn more about Qwen3, feel free to read our documentation \[[EN](https://qw
 
 ## Introduction
 
-We are excited to announce the release of Qwen3, the latest addition to the Qwen family of large language models.
-These models represent our most advanced and intelligent systems to date, improving from our experience in building QwQ and Qwen2.5.
-We are making the weights of Qwen3 available to the public, including both dense and Mixture-of-Expert (MoE) models. 
+We are excited to introduce the updated version of the **Qwen3-235B-A22B non-thinking mode**, named **Qwen3-235B-A22B-Instruct-2507**, featuring the following key enhancements:  
 
-The highlights from Qwen3 include:
-- **Dense and Mixture-of-Experts (MoE) models of various sizes**, available in 0.6B, 1.7B, 4B, 8B, 14B, 32B and 30B-A3B, 235B-A22B.
-- **Seamless switching between thinking mode** (for complex logical reasoning, math, and coding) and **non-thinking mode** (for efficient, general-purpose chat), ensuring optimal performance across various scenarios.
-- **Significantly enhancement in reasoning capabilities**, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.
-- **Superior human preference alignment**, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.
-- **Expertise in agent capabilities**, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.
-- **Support of 100+ languages and dialects** with strong capabilities for **multilingual instruction following** and **translation**.
+- **Significant improvements** in general capabilities, including **instruction following, logical reasoning, text comprehension, mathematics, science, coding and tool usage**.  
+- **Substantial gains** in long-tail knowledge coverage across **multiple languages**.  
+- **Markedly better alignment** with user preferences in **subjective and open-ended tasks**, enabling more helpful responses and higher-quality text generation.  
+- **Enhanced capabilities** in **256K-token long-context understanding**.
 
-> [!IMPORTANT]
-> Qwen3 models adopt a different naming scheme.
->
-> The post-trained models do not use the "-Instruct" suffix anymore. For example, Qwen3-32B is the newer version of Qwen2.5-32B-Instruct.
->
-> The base models now have names ending with "-Base".
+![Qwen3-235B-A22B-Instruct-2507](https://qianwen-res.oss-accelerate.aliyuncs.com/Qwen3-235B-A22B-Instruct-2507.jpeg)
 
+The updated versions of **more Qwen3 model sizes** and for **thinking mode** are also expected to be released very soon. Stay tuned🚀
+
+<details>
+    <summary><b>Previous News for Qwen3 Release</b></summary>
+    <p>
+    We are excited to announce the release of Qwen3, the latest addition to the Qwen family of large language models. 
+    These models represent our most advanced and intelligent systems to date, improving from our experience in building QwQ and Qwen2.5.
+    We are making the weights of Qwen3 available to the public, including both dense and Mixture-of-Expert (MoE) models. 
+    <br><br>
+    The highlights from Qwen3 include:
+        <ul>
+            <li><b>Dense and Mixture-of-Experts (MoE) models of various sizes</b>, available in 0.6B, 1.7B, 4B, 8B, 14B, 32B and 30B-A3B, 235B-A22B.</li>
+            <li><b>Seamless switching between thinking mode</b> (for complex logical reasoning, math, and coding) and <b>non-thinking mode</b> (for efficient, general-purpose chat), ensuring optimal performance across various scenarios.</li>
+            <li><b>Significantly enhancement in reasoning capabilities</b>, surpassing previous QwQ (in thinking mode) and Qwen2.5 instruct models (in non-thinking mode) on mathematics, code generation, and commonsense logical reasoning.</li>
+            <li><b>Superior human preference alignment</b>, excelling in creative writing, role-playing, multi-turn dialogues, and instruction following, to deliver a more natural, engaging, and immersive conversational experience.</li>
+            <li><b>Expertise in agent capabilities</b>, enabling precise integration with external tools in both thinking and unthinking modes and achieving leading performance among open-source models in complex agent-based tasks.</li>
+            <li><b>Support of 100+ languages and dialects</b> with strong capabilities for <b>multilingual instruction following</b> and <b>translation</b>.</li>
+        </ul>
+    </p>
+</details>
 
 ## News
 
+- 2025.07.21: We released the updated version of Qwen3-235B-A22B non-thinking mode, named Qwen3-235B-A22B-Instruct-2507, featuring significant enhancements over the previous version and supporting 256K-token long-context understanding. Check our [modelcard](https://huggingface.co/Qwen/Qwen3-235B-A22B-Instruct-2507) for more details!
 - 2025.04.29: We released the Qwen3 series. Check our [blog](https://qwenlm.github.io/blog/qwen3) for more details!
 - 2024.09.19: We released the Qwen2.5 series. This time there are 3 extra model sizes: 3B, 14B, and 32B for more possibilities. Check our [blog](https://qwenlm.github.io/blog/qwen2.5) for more!
 - 2024.06.06: We released the Qwen2 series. Check our [blog](https://qwenlm.github.io/blog/qwen2/)!
@@ -76,10 +87,11 @@ For requirements on GPU memory and the respective throughput, see results [here]
 Transformers is a library of pretrained natural language processing for inference and training. 
 The latest version of `transformers` is recommended and `transformers>=4.51.0` is required.
 
-The following contains a code snippet illustrating how to use the model generate content based on given inputs. 
+The following contains a code snippet illustrating how to use Qwen3-235B-A22B-Instruct-2507 to generate content based on given inputs. 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
-model_name = "Qwen/Qwen3-8B"
+
+model_name = "Qwen/Qwen3-235B-A22B-Instruct-2507"
 
 # load the tokenizer and the model
 tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -90,7 +102,7 @@ model = AutoModelForCausalLM.from_pretrained(
 )
 
 # prepare the model input
-prompt = "Give me a short introduction to large language models."
+prompt = "Give me a short introduction to large language model."
 messages = [
     {"role": "user", "content": prompt}
 ]
@@ -98,26 +110,35 @@ text = tokenizer.apply_chat_template(
     messages,
     tokenize=False,
     add_generation_prompt=True,
-    enable_thinking=True # Switches between thinking and non-thinking modes. Default is True.
 )
 model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
 # conduct text completion
 generated_ids = model.generate(
     **model_inputs,
-    max_new_tokens=32768
+    max_new_tokens=16384
 )
 output_ids = generated_ids[0][len(model_inputs.input_ids[0]):].tolist() 
 
-# the result will begin with thinking content in <think></think> tags, followed by the actual response
-print(tokenizer.decode(output_ids, skip_special_tokens=True))
+content = tokenizer.decode(output_ids, skip_special_tokens=True)
+
+print("content:", content)
 ```
 
-By default, Qwen3 models will think before response.
-This could be controlled by
-- `enable_thinking=False`: Passing `enable_thinking=False` to `tokenizer.apply_chat_template` will strictly prevent the model from generating thinking content.
-- `/think` and `/no_think` instructions: Use those words in the system or user message to signify whether Qwen3 should think. In multi-turn conversations, the latest instruction is followed.
+> [!Note]
+> The updated version of Qwen3-235B-A22B, namely **Qwen3-235B-A22B-Instruct-2507** supports **only non-thinking mode** and **does not generate ``<think></think>`` blocks** in its output. Meanwhile, **specifying `enable_thinking=False` is no longer required**.
 
+<details>
+    <summary><b>Switching Thinking/Non-thinking Modes for Previous Qwen3 Hybrid Models</b></summary>
+    <p>
+    By default, Qwen3 models will think before response.
+    This could be controlled by
+        <ul>
+            <li><code>enable_thinking=False</code>: Passing <code>enable_thinking=False</code> to `tokenizer.apply_chat_template` will strictly prevent the model from generating thinking content.</li>
+            <li><code>/think</code> and <code>/no_think</code> instructions: Use those words in the system or user message to signify whether Qwen3 should think. In multi-turn conversations, the latest instruction is followed.</li>
+        </ul>
+    </p>
+</details>
 
 
 ### ModelScope
@@ -130,7 +151,8 @@ The CLI tool `modelscope download` can help you solve issues concerning download
 ### llama.cpp
 
 [`llama.cpp`](https://github.com/ggml-org/llama.cpp) enables LLM inference with minimal setup and state-of-the-art performance on a wide range of hardware.
-`llama.cpp>=b5092` is required.
+`llama.cpp>=b5092` is required for the support of Qwen3 architecture.
+`llama.cpp>=b5401` is recommended for the full support of the official Qwen3 chat template.
 
 To use the CLI, run the following in a terminal:
 ```shell
@@ -150,14 +172,6 @@ For additional guides, please refer to [our documentation](https://qwen.readthed
 > llama.cpp adopts "rotating context management" and infinite generation is made possible by evicting earlier tokens.
 > It could configured by parameters and the commands above effectively disable it.
 > For more details, please refer to [our documentation](https://qwen.readthedocs.io/en/latest/run_locally/llama.cpp.html#llama-cli).
-
-> [!IMPORTANT]
-> The chat template uses features that are not supported by the template engine used by llama.cpp.
-> As a result, you may encounter the following errors if the original chat template is used:
-> ```
-> common_chat_templates_init: failed to parse chat template (defaulting to chatml)
-> ```
-> We are working on a proper fix.
 
 ### Ollama
 
@@ -190,15 +204,24 @@ For additional details, please visit [ollama.ai](https://ollama.com/).
 
 Qwen3 has already been supported by [lmstudio.ai](https://lmstudio.ai/). You can directly use LMStudio with our GGUF files.
 
+### ExecuTorch
+
+To export and run on ExecuTorch (iOS, Android, Mac, Linux, and more), please follow this [example](https://github.com/pytorch/executorch/blob/main/examples/models/qwen3/README.md).
+
+### MNN
+
+To export and run on MNN, which supports Qwen3 on mobile devices, please visit [Alibaba MNN](https://github.com/alibaba/MNN).
+
 ### MLX LM
 
 If you are running on Apple Silicon, [`mlx-lm`](https://github.com/ml-explore/mlx-lm) also supports Qwen3 (`mlx-lm>=0.24.0`). 
 Look for models ending with MLX on Hugging Face Hub.
 
 
-<!-- ### OpenVINO
+### OpenVINO
 
-Qwen2.5 has already been supported by [OpenVINO toolkit](https://github.com/openvinotoolkit). You can install and run this [chatbot example](https://github.com/OpenVINO-dev-contest/Qwen2.openvino) with Intel CPU, integrated GPU or discrete GPU.  -->
+If you are running on Intel CPU or GPU, [OpenVINO toolkit](https://github.com/openvinotoolkit) supports Qwen3.
+You can follow this [chatbot example](https://github.com/openvinotoolkit/openvino_notebooks/blob/latest/notebooks/llm-chatbot/llm-chatbot.ipynb).
 
 
 <!-- ### Text generation web UI
@@ -214,7 +237,7 @@ Clone [`llamafile`](https://github.com/Mozilla-Ocho/llamafile), run source insta
 ## Deploy Qwen3
 
 Qwen3 is supported by multiple inference frameworks. 
-Here we demonstrate the usage of `SGLang` and `vLLM`.
+Here we demonstrate the usage of `SGLang`, `vLLM` and `TensorRT-LLM`.
 You can also find Qwen3 models from various inference providers, e.g., [Alibaba Cloud Model Studio](https://www.alibabacloud.com/en/product/modelstudio).
 
 ### SGLang
@@ -235,6 +258,15 @@ An OpenAI-compatible API will be available at `http://localhost:30000/v1`.
 
 ```shell
 vllm serve Qwen/Qwen3-8B --port 8000 --enable-reasoning --reasoning-parser deepseek_r1
+```
+An OpenAI-compatible API will be available at `http://localhost:8000/v1`.
+
+### TensorRT-LLM
+
+[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) is an open-source LLM inference engine from NVIDIA, which provides optimizations including custom attention kernels, quantization and more on NVIDIA GPUs. Qwen3 is supported in its re-architected [PyTorch backend](https://nvidia.github.io/TensorRT-LLM/torch.html). `tensorrt_llm>=0.20.0rc3` is recommended. Please refer to the [README](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/models/core/qwen/README.md#qwen3) page for more details.
+
+```shell
+trtllm-serve Qwen/Qwen3-8B --host localhost --port 8000 --backend pytorch
 ```
 An OpenAI-compatible API will be available at `http://localhost:8000/v1`.
 
@@ -270,7 +302,7 @@ We advise you to use training frameworks, including [Axolotl](https://github.com
 
 ## License Agreement
 
-All our open-source models are licensed under Apache 2.0. 
+All our open-weight models are licensed under Apache 2.0. 
 You can find the license files in the respective Hugging Face repositories.
 
 ## Citation
@@ -278,6 +310,13 @@ You can find the license files in the respective Hugging Face repositories.
 If you find our work helpful, feel free to give us a cite.
 
 ```bibtex
+@article{qwen3,
+    title={Qwen3 Technical Report}, 
+    author={An Yang and Anfeng Li and Baosong Yang and Beichen Zhang and Binyuan Hui and Bo Zheng and Bowen Yu and Chang Gao and Chengen Huang and Chenxu Lv and Chujie Zheng and Dayiheng Liu and Fan Zhou and Fei Huang and Feng Hu and Hao Ge and Haoran Wei and Huan Lin and Jialong Tang and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Yang and Jiaxi Yang and Jing Zhou and Jingren Zhou and Junyang Lin and Kai Dang and Keqin Bao and Kexin Yang and Le Yu and Lianghao Deng and Mei Li and Mingfeng Xue and Mingze Li and Pei Zhang and Peng Wang and Qin Zhu and Rui Men and Ruize Gao and Shixuan Liu and Shuang Luo and Tianhao Li and Tianyi Tang and Wenbiao Yin and Xingzhang Ren and Xinyu Wang and Xinyu Zhang and Xuancheng Ren and Yang Fan and Yang Su and Yichang Zhang and Yinger Zhang and Yu Wan and Yuqiong Liu and Zekun Wang and Zeyu Cui and Zhenru Zhang and Zhipeng Zhou and Zihan Qiu},
+    journal = {arXiv preprint arXiv:2505.09388},
+    year={2025}
+}
+
 @article{qwen2.5,
     title   = {Qwen2.5 Technical Report}, 
     author  = {An Yang and Baosong Yang and Beichen Zhang and Binyuan Hui and Bo Zheng and Bowen Yu and Chengyuan Li and Dayiheng Liu and Fei Huang and Haoran Wei and Huan Lin and Jian Yang and Jianhong Tu and Jianwei Zhang and Jianxin Yang and Jiaxi Yang and Jingren Zhou and Junyang Lin and Kai Dang and Keming Lu and Keqin Bao and Kexin Yang and Le Yu and Mei Li and Mingfeng Xue and Pei Zhang and Qin Zhu and Rui Men and Runji Lin and Tianhao Li and Tingyu Xia and Xingzhang Ren and Xuancheng Ren and Yang Fan and Yang Su and Yichang Zhang and Yu Wan and Yuqiong Liu and Zeyu Cui and Zhenru Zhang and Zihan Qiu},
