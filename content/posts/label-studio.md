@@ -1,9 +1,9 @@
 ---
 title: label-studio
-date: 2025-07-05T12:24:31+08:00
+date: 2025-07-25T12:38:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749581434838-f2d0423e4571?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749581434838-f2d0423e4571?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749221881214-dcdaa49f0e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM0MTgyNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749221881214-dcdaa49f0e1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM0MTgyNzd8&ixlib=rb-4.1.0
 ---
 
 # [HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)
