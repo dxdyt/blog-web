@@ -1,9 +1,9 @@
 ---
 title: neko
-date: 2025-06-30T12:34:19+08:00
+date: 2025-07-26T12:35:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746483965416-158f9b2b1936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746483965416-158f9b2b1936?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEyNTc5NTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
 ---
 
 # [m1k1o/neko](https://github.com/m1k1o/neko)
@@ -19,7 +19,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1746483965416-158f9b2b19
     <a href="https://github.com/m1k1o/neko/blob/master/LICENSE">
       <img src="https://img.shields.io/github/license/m1k1o/neko" alt="license">
     </a>
-    <a href="https://hub.docker.com/u/m1k1o/neko">
+    <a href="https://hub.docker.com/r/m1k1o/neko">
       <img src="https://img.shields.io/docker/pulls/m1k1o/neko" alt="pulls">
     </a>
     <a href="https://github.com/m1k1o/neko/issues">
