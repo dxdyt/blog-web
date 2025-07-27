@@ -1,9 +1,9 @@
 ---
 title: Qwen3-Coder
-date: 2025-07-26T12:35:25+08:00
+date: 2025-07-27T12:42:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752643719495-b2917a2c9d4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752643719495-b2917a2c9d4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
 ---
 
 # [QwenLM/Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder)

@@ -1,9 +1,9 @@
 ---
 title: infisical
-date: 2025-07-05T12:25:58+08:00
+date: 2025-07-27T12:43:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749422222139-a29050596e78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749422222139-a29050596e78?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752643719495-b2917a2c9d4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752643719495-b2917a2c9d4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
 ---
 
 # [Infisical/infisical](https://github.com/Infisical/infisical)
@@ -159,11 +159,8 @@ Not sure where to get started? You can:
 
 - Join our <a href="https://infisical.com/slack">Slack</a>, and ask us any questions there.
 
-## Resources
+## We are hiring!
 
-- [Docs](https://infisical.com/docs/documentation/getting-started/introduction) for comprehensive documentation and guides
-- [Slack](https://infisical.com/slack) for discussion with the community and Infisical team.
-- [GitHub](https://github.com/Infisical/infisical) for code, issues, and pull requests
-- [Twitter](https://twitter.com/infisical) for fast news
-- [YouTube](https://www.youtube.com/@infisical_os) for videos on secret management
-- [Blog](https://infisical.com/blog) for secret management insights, articles, tutorials, and updates
+If you're reading this, there is a strong chance you like the products we created.
+
+You might also make a great addition to our team. We're growing fast and would love for you to [join us](https://infisical.com/careers).

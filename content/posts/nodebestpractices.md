@@ -1,9 +1,9 @@
 ---
 title: nodebestpractices
-date: 2024-10-26T12:20:40+08:00
+date: 2025-07-27T12:44:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727135393486-674f1b7adc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727135393486-674f1b7adc48?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750994700092-19f94d4da5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750994700092-19f94d4da5ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
 ---
 
 # [goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)

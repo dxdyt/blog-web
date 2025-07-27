@@ -1,9 +1,9 @@
 ---
 title: hrms
-date: 2025-07-26T12:35:58+08:00
+date: 2025-07-27T12:42:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749746756655-840aa4e5c0ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749746756655-840aa4e5c0ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
 ---
 
 # [frappe/hrms](https://github.com/frappe/hrms)
@@ -20,6 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e9
 [![CI](https://github.com/frappe/hrms/actions/workflows/ci.yml/badge.svg?branch=develop)](https://github.com/frappe/hrms/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/frappe/hrms/branch/develop/graph/badge.svg?token=0TwvyUg3I5)](https://codecov.io/gh/frappe/hrms)
 
+<a href="https://trendshift.io/repositories/10972" target="_blank"><img src="https://trendshift.io/api/badge/repositories/10972" alt="frappe%2Fhrms | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 <div align="center">

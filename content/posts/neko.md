@@ -1,9 +1,9 @@
 ---
 title: neko
-date: 2025-07-26T12:35:31+08:00
+date: 2025-07-27T12:43:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750400519608-d70c17c99b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750400519608-d70c17c99b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
 ---
 
 # [m1k1o/neko](https://github.com/m1k1o/neko)
