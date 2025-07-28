@@ -1,12 +1,14 @@
 ---
 title: tldr
-date: 2023-10-03T12:17:41+08:00
+date: 2025-07-28T12:45:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1694370806136-98ce04f32f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1694370806136-98ce04f32f9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTYzMDY0OTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1742933779258-066ced2b3c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742933779258-066ced2b3c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [tldr-pages/tldr](https://github.com/tldr-pages/tldr)
+
+<!-- markdownlint-disable MD041 -->
 
 <div align="center">
   <h1><a href="https://tldr.sh/"><img alt="tldr-pages" src="images/banner.png" width=600/></a></h1>
@@ -16,6 +18,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1694370806136-98ce04f32f
 [![Merged PRs][prs-merged-image]][prs-merged-url]
 [![GitHub contributors][contributors-image]][contributors-url]
 [![license][license-image]][license-url]
+[![Mastodon][mastodon-image]][mastodon-url]
 
 [github-actions-url]: https://github.com/tldr-pages/tldr/actions
 [github-actions-image]: https://img.shields.io/github/actions/workflow/status/tldr-pages/tldr/ci.yml?branch=main&label=Build
@@ -27,6 +30,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1694370806136-98ce04f32f
 [contributors-image]: https://img.shields.io/github/contributors-anon/tldr-pages/tldr.svg?label=Contributors
 [license-url]: https://github.com/tldr-pages/tldr/blob/main/LICENSE.md
 [license-image]: https://img.shields.io/badge/license-CC_BY_4.0-blue.svg?label=License
+[mastodon-url]: https://fosstodon.org/@tldr_pages
+[mastodon-image]: https://img.shields.io/badge/Mastodon-6364FF?logo=mastodon&logoColor=fff
 </div>
 
 ## What is tldr-pages?
@@ -35,59 +40,70 @@ The **tldr-pages** project is a collection of community-maintained help pages
 for command-line tools, that aims to be a simpler, more approachable complement
 to traditional [man pages](https://en.wikipedia.org/wiki/Man_page).
 
-Maybe you're new to the command-line world? Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
+Maybe you're new to the command-line world. Perhaps you're just a little rusty or can't always recall the arguments for commands like `lsof`, or `tar`?
 
-It certainly doesn't help that the first option explained in `man tar` is:
+It certainly doesn't help that, in the past, the first option explained in `man tar` was:
 
-```
+```console
+$ man tar
+...
 -b blocksize
    Specify the block size, in 512-byte records, for tape drive I/O.
    As a rule, this argument is only needed when reading from or writing to tape drives,
    and usually not even then as the default block size of 20 records (10240 bytes) is very common.
+...
 ```
 
-There seems to be room for simpler help pages, focused on practical examples.
+There is room for simpler help pages focused on practical examples.
 How about:
 
-![Animated SVG of the tldr client displaying the tar command.](images/tldr.svg)
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/tldr-pages/tldr/blob/main/images/tldr-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/tldr-pages/tldr/blob/main/images/tldr-light.png">
+    <img alt="Screenshot of the tldr client displaying the tar command." src="https://github.com/tldr-pages/tldr/blob/main/images/tldr-dark.png">
+</picture>
 
 This repository is just that: an ever-growing collection of examples
-for the most common UNIX, Linux, macOS, SunOS, Android and Windows command-line tools.
+for the most common UNIX, Linux, macOS, FreeBSD, NetBSD, OpenBSD,
+SunOS, Android, and Windows command-line tools.
 
 ## How do I use it?
 
+> [!TIP]
+> For browsing without installing a client on your computer,
+> see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
+
 A popular and convenient way to access these pages on your computer
-is to install the [Node.js client](https://github.com/tldr-pages/tldr-node-client),
-which is supported by the tldr-pages project maintainers:
+is to install the official [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via [pip3](https://pypi.org/project/tldr/) (or [other package managers](https://github.com/tldr-pages/tldr-python-client#installation)):
 
-```sh
-npm install -g tldr
-```
-
-Alternatively, you can also use the [Python client](https://github.com/tldr-pages/tldr-python-client), which can be installed via `pip3`.
-
-```sh
+```shell
 pip3 install tldr
 ```
 
-Or Mac users can also install our [C Client](https://github.com/tldr-pages/tldr-c-client) using Homebrew.
+Linux and Mac users can also install the official [Rust Client](https://github.com/tldr-pages/tlrc) using [Homebrew](https://formulae.brew.sh/formula/tlrc)
+(or [other package managers](https://github.com/tldr-pages/tlrc#installation) on other operating systems):
 
-```sh
-brew install tldr
+```shell
+brew install tlrc
+```
+
+Alternatively, you can also use the official [Node.js client](https://github.com/tldr-pages/tldr-node-client), although it has fallen behind in updates:
+
+```shell
+npm install -g tldr
 ```
 
 Then you have direct access to simplified, easy-to-read help for commands, such as `tar`,
 accessible through typing `tldr tar` instead of the standard `man tar`.
 
-If you want an offline version without installing any software,
-check out the [PDF version](https://tldr.sh/assets/tldr-book.pdf).
+If you don't want to install any software, check out the [PDF version](https://github.com/tldr-pages/tldr/releases/latest/download/tldr-book.pdf) instead.
 
-For browsing without installing a client to your computer,
-see the web client at <https://tldr.inbrowser.app> (with offline support using PWA).
+> [!NOTE]
+> PDFs for translations are available for most languages. You can find them in the release assets of the [latest release](https://github.com/tldr-pages/tldr/releases/latest).
 
 There are also **various other clients** provided by the community,
 both for the command-line and for other platforms.
-For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/tldr-pages-clients).
+For a comprehensive list of clients, head over to our [Wiki](https://github.com/tldr-pages/tldr/wiki/Clients).
 
 ## How do I contribute to tldr-pages?
 
@@ -95,12 +111,12 @@ All contributions are welcome!
 
 Some ways to contribute include:
 
-- Adding your favorite command which isn't covered.
+- Adding your favorite command that isn't covered.
 - Adding examples or improving the content of an existing page.
 - Adding requested pages from our issues with the [help wanted](https://github.com/tldr-pages/tldr/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22) label.
 - Translating pages into different languages.
 
-All `tldr` pages are written in markdown, so they can be edited quite easily and changes can be submitted in
+All `tldr` pages are written in Markdown so that they can be edited quite easily and changes can be submitted in
 pull requests here using Git on the command-line or
 using the GitHub web interface.
 
@@ -110,14 +126,16 @@ If it's your first time contributing, have a look at the [contributing guideline
 If you'd like to contribute to translations, you can visit <https://lukwebsforge.github.io/tldri18n/>
 to see the overall progress of all translations, and which translations are missing or outdated.
 
+You are also welcome to join us on the [matrix chatroom](https://matrix.to/#/#tldr-pages:matrix.org)!
+
 ## Similar projects
 
 - [Command Line Interface Pages](https://github.com/command-line-interface-pages)
-  allows you to write standardized help pages for CLI, directories and configs.
+  allows you to write standardized help pages for CLI, directories, and configs.
 
 - [Cheat](https://github.com/cheat/cheat)
   allows you to create and view interactive cheatsheets on the command-line.
-  It was designed to help remind *nix system administrators of options
+  It was designed to help remind Unix system administrators of options
   for commands that they use frequently, but not frequently enough to remember.
 
 - [cheat.sh](https://cheat.sh/)
@@ -132,7 +150,7 @@ to see the overall progress of all translations, and which translations are miss
   provides detailed examples with explanations on the command-line.
   Examples come from the repository, but `eg` supports displaying
   custom examples and commands alongside the defaults.
-  
+
 - [kb](https://github.com/gnebbia/kb)
   is a minimalist command-line knowledge base manager.
   kb can be used to organize your notes and cheatsheets in a minimalist

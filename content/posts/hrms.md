@@ -1,9 +1,9 @@
 ---
 title: hrms
-date: 2025-07-27T12:42:41+08:00
+date: 2025-07-28T12:45:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749746756655-840aa4e5c0ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749746756655-840aa4e5c0ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752560925914-269c6f90f0a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752560925914-269c6f90f0a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [frappe/hrms](https://github.com/frappe/hrms)

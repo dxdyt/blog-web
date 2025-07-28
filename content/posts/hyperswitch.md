@@ -1,9 +1,9 @@
 ---
 title: hyperswitch
-date: 2025-07-27T12:42:55+08:00
+date: 2025-07-28T12:45:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749294423916-036296782a61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749294423916-036296782a61?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752481445535-45af65be96fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752481445535-45af65be96fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [juspay/hyperswitch](https://github.com/juspay/hyperswitch)
