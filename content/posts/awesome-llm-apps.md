@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-07-28T12:45:21+08:00
+date: 2025-07-29T12:47:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750861393222-b9cd68ae5f51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750861393222-b9cd68ae5f51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)

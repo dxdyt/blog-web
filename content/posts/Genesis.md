@@ -1,9 +1,9 @@
 ---
 title: Genesis
-date: 2025-07-28T12:45:15+08:00
+date: 2025-07-29T12:47:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752560925914-269c6f90f0a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752560925914-269c6f90f0a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743708899853-db41b532b299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743708899853-db41b532b299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
 ---
 
 # [Genesis-Embodied-AI/Genesis](https://github.com/Genesis-Embodied-AI/Genesis)

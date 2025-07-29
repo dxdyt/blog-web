@@ -1,9 +1,9 @@
 ---
 title: tldr
-date: 2025-07-28T12:45:50+08:00
+date: 2025-07-29T12:47:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742933779258-066ced2b3c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742933779258-066ced2b3c2f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
 ---
 
 # [tldr-pages/tldr](https://github.com/tldr-pages/tldr)
@@ -65,7 +65,7 @@ How about:
 
 This repository is just that: an ever-growing collection of examples
 for the most common UNIX, Linux, macOS, FreeBSD, NetBSD, OpenBSD,
-SunOS, Android, and Windows command-line tools.
+SunOS, Android, Windows, and Cisco IOS command-line tools.
 
 ## How do I use it?
 

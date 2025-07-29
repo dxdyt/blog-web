@@ -1,9 +1,9 @@
 ---
 title: ai-cookbook
-date: 2025-07-28T12:45:44+08:00
+date: 2025-07-29T12:47:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751335412332-904f9d5b441e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751335412332-904f9d5b441e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM2Nzc5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750248062633-7674be1c148d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750248062633-7674be1c148d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
 ---
 
 # [daveebbelaar/ai-cookbook](https://github.com/daveebbelaar/ai-cookbook)
