@@ -1,9 +1,9 @@
 ---
 title: eino
-date: 2025-03-09T12:17:46+08:00
+date: 2025-07-30T12:42:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1739999373818-ab59c32b23c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1739999373818-ab59c32b23c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDE0OTM3NzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752625555974-f0b81374d988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752625555974-f0b81374d988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
 ---
 
 # [cloudwego/eino](https://github.com/cloudwego/eino)
@@ -225,4 +225,4 @@ Please do **not** create a public GitHub issue.
 
 ## License
 
-This project is licensed under the [Apache-2.0 License](LICENSE.txt).
+This project is licensed under the [Apache-2.0 License](LICENSE-APACHE).

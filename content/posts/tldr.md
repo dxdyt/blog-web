@@ -1,9 +1,9 @@
 ---
 title: tldr
-date: 2025-07-29T12:47:45+08:00
+date: 2025-07-30T12:43:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749302860502-35be67c058c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749302860502-35be67c058c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
 ---
 
 # [tldr-pages/tldr](https://github.com/tldr-pages/tldr)

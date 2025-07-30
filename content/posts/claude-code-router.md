@@ -1,9 +1,9 @@
 ---
 title: claude-code-router
-date: 2025-07-18T12:39:31+08:00
+date: 2025-07-30T12:43:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750796586893-238ec07e7e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750796586893-238ec07e7e02?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751013781844-fa6a78089e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751013781844-fa6a78089e49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
 ---
 
 # [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router)
@@ -18,12 +18,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1750796586893-238ec07e7e
 
 ## ✨ Features
 
--   **Model Routing**: Route requests to different models based on your needs (e.g., background tasks, thinking, long context).
--   **Multi-Provider Support**: Supports various model providers like OpenRouter, DeepSeek, Ollama, Gemini, Volcengine, and SiliconFlow.
--   **Request/Response Transformation**: Customize requests and responses for different providers using transformers.
--   **Dynamic Model Switching**: Switch models on-the-fly within Claude Code using the `/model` command.
--   **GitHub Actions Integration**: Trigger Claude Code tasks in your GitHub workflows.
--   **Plugin System**: Extend functionality with custom transformers.
+- **Model Routing**: Route requests to different models based on your needs (e.g., background tasks, thinking, long context).
+- **Multi-Provider Support**: Supports various model providers like OpenRouter, DeepSeek, Ollama, Gemini, Volcengine, and SiliconFlow.
+- **Request/Response Transformation**: Customize requests and responses for different providers using transformers.
+- **Dynamic Model Switching**: Switch models on-the-fly within Claude Code using the `/model` command.
+- **GitHub Actions Integration**: Trigger Claude Code tasks in your GitHub workflows.
+- **Plugin System**: Extend functionality with custom transformers.
 
 ## 🚀 Getting Started
 
@@ -46,6 +46,7 @@ npm install -g @musistudio/claude-code-router
 Create and configure your `~/.claude-code-router/config.json` file. For more details, you can refer to `config.example.json`.
 
 The `config.json` file has several key sections:
+
 - **`PROXY_URL`** (optional): You can set a proxy for API requests, for example: `"PROXY_URL": "http://127.0.0.1:7890"`.
 - **`LOG`** (optional): You can enable logging by setting it to `true`. The log file will be located at `$HOME/.claude-code-router.log`.
 - **`APIKEY`** (optional): You can set a secret key to authenticate requests. When set, clients must provide this key in the `Authorization` header (e.g., `Bearer your-secret-key`) or the `x-api-key` header. Example: `"APIKEY": "your-secret-key"`.
@@ -53,6 +54,7 @@ The `config.json` file has several key sections:
 
 - **`Providers`**: Used to configure different model providers.
 - **`Router`**: Used to set up routing rules. `default` specifies the default model, which will be used for all requests if no other route is configured.
+- **`API_TIMEOUT_MS`**: Specifies the timeout for API calls in milliseconds.
 
 Here is a comprehensive example:
 
@@ -61,6 +63,7 @@ Here is a comprehensive example:
   "APIKEY": "your-secret-key",
   "PROXY_URL": "http://127.0.0.1:7890",
   "LOG": true,
+  "API_TIMEOUT_MS": 600000,
   "Providers": [
     {
       "name": "openrouter",
@@ -69,9 +72,12 @@ Here is a comprehensive example:
       "models": [
         "google/gemini-2.5-pro-preview",
         "anthropic/claude-sonnet-4",
-        "anthropic/claude-3.5-sonnet"
+        "anthropic/claude-3.5-sonnet",
+        "anthropic/claude-3.7-sonnet:thinking"
       ],
-      "transformer": { "use": ["openrouter"] }
+      "transformer": {
+        "use": ["openrouter"]
+      }
     },
     {
       "name": "deepseek",
@@ -80,7 +86,9 @@ Here is a comprehensive example:
       "models": ["deepseek-chat", "deepseek-reasoner"],
       "transformer": {
         "use": ["deepseek"],
-        "deepseek-chat": { "use": ["tooluse"] }
+        "deepseek-chat": {
+          "use": ["tooluse"]
+        }
       }
     },
     {
@@ -88,17 +96,73 @@ Here is a comprehensive example:
       "api_base_url": "http://localhost:11434/v1/chat/completions",
       "api_key": "ollama",
       "models": ["qwen2.5-coder:latest"]
+    },
+    {
+      "name": "gemini",
+      "api_base_url": "https://generativelanguage.googleapis.com/v1beta/models/",
+      "api_key": "sk-xxx",
+      "models": ["gemini-2.5-flash", "gemini-2.5-pro"],
+      "transformer": {
+        "use": ["gemini"]
+      }
+    },
+    {
+      "name": "volcengine",
+      "api_base_url": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+      "api_key": "sk-xxx",
+      "models": ["deepseek-v3-250324", "deepseek-r1-250528"],
+      "transformer": {
+        "use": ["deepseek"]
+      }
+    },
+    {
+      "name": "modelscope",
+      "api_base_url": "https://api-inference.modelscope.cn/v1/chat/completions",
+      "api_key": "",
+      "models": ["Qwen/Qwen3-Coder-480B-A35B-Instruct", "Qwen/Qwen3-235B-A22B-Thinking-2507"],
+      "transformer": {
+        "use": [
+          [
+            "maxtoken",
+            {
+              "max_tokens": 65536
+            }
+          ],
+          "enhancetool"
+        ],
+        "Qwen/Qwen3-235B-A22B-Thinking-2507": {
+          "use": ["reasoning"]
+        }
+      }
+    },
+    {
+      "name": "dashscope",
+      "api_base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+      "api_key": "",
+      "models": ["qwen3-coder-plus"],
+      "transformer": {
+        "use": [
+          [
+            "maxtoken",
+            {
+              "max_tokens": 65536
+            }
+          ],
+          "enhancetool"
+        ]
+      }
     }
   ],
   "Router": {
     "default": "deepseek,deepseek-chat",
     "background": "ollama,qwen2.5-coder:latest",
     "think": "deepseek,deepseek-reasoner",
-    "longContext": "openrouter,google/gemini-2.5-pro-preview"
+    "longContext": "openrouter,google/gemini-2.5-pro-preview",
+    "longContextThreshold": 60000,
+    "webSearch": "gemini,gemini-2.5-flash"
   }
 }
 ```
-
 
 ### 3. Running Claude Code with the Router
 
@@ -108,77 +172,84 @@ Start Claude Code using the router:
 ccr code
 ```
 
+> **Note**: After modifying the configuration file, you need to restart the service for the changes to take effect:
+>
+> ```shell
+> ccr restart
+> ```
+
 #### Providers
 
 The `Providers` array is where you define the different model providers you want to use. Each provider object requires:
 
--   `name`: A unique name for the provider.
--   `api_base_url`: The full API endpoint for chat completions.
--   `api_key`: Your API key for the provider.
--   `models`: A list of model names available from this provider.
--   `transformer` (optional): Specifies transformers to process requests and responses.
+- `name`: A unique name for the provider.
+- `api_base_url`: The full API endpoint for chat completions.
+- `api_key`: Your API key for the provider.
+- `models`: A list of model names available from this provider.
+- `transformer` (optional): Specifies transformers to process requests and responses.
 
 #### Transformers
 
 Transformers allow you to modify the request and response payloads to ensure compatibility with different provider APIs.
 
--   **Global Transformer**: Apply a transformer to all models from a provider. In this example, the `openrouter` transformer is applied to all models under the `openrouter` provider.
-    ```json
-     {
-       "name": "openrouter",
-       "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
-       "api_key": "sk-xxx",
-       "models": [
-         "google/gemini-2.5-pro-preview",
-         "anthropic/claude-sonnet-4",
-         "anthropic/claude-3.5-sonnet"
-       ],
-       "transformer": { "use": ["openrouter"] }
-     }
-    ```
--   **Model-Specific Transformer**: Apply a transformer to a specific model. In this example, the `deepseek` transformer is applied to all models, and an additional `tooluse` transformer is applied only to the `deepseek-chat` model.
-    ```json
-     {
-       "name": "deepseek",
-       "api_base_url": "https://api.deepseek.com/chat/completions",
-       "api_key": "sk-xxx",
-       "models": ["deepseek-chat", "deepseek-reasoner"],
-       "transformer": {
-         "use": ["deepseek"],
-         "deepseek-chat": { "use": ["tooluse"] }
-       }
-     }
-    ```
+- **Global Transformer**: Apply a transformer to all models from a provider. In this example, the `openrouter` transformer is applied to all models under the `openrouter` provider.
+  ```json
+  {
+    "name": "openrouter",
+    "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+    "api_key": "sk-xxx",
+    "models": [
+      "google/gemini-2.5-pro-preview",
+      "anthropic/claude-sonnet-4",
+      "anthropic/claude-3.5-sonnet"
+    ],
+    "transformer": { "use": ["openrouter"] }
+  }
+  ```
+- **Model-Specific Transformer**: Apply a transformer to a specific model. In this example, the `deepseek` transformer is applied to all models, and an additional `tooluse` transformer is applied only to the `deepseek-chat` model.
 
--   **Passing Options to a Transformer**: Some transformers, like `maxtoken`, accept options. To pass options, use a nested array where the first element is the transformer name and the second is an options object.
-    ```json
-    {
-      "name": "siliconflow",
-      "api_base_url": "https://api.siliconflow.cn/v1/chat/completions",
-      "api_key": "sk-xxx",
-      "models": ["moonshotai/Kimi-K2-Instruct"],
-      "transformer": {
-        "use": [
-          [
-            "maxtoken",
-            {
-              "max_tokens": 16384
-            }
-          ]
-        ]
-      }
+  ```json
+  {
+    "name": "deepseek",
+    "api_base_url": "https://api.deepseek.com/chat/completions",
+    "api_key": "sk-xxx",
+    "models": ["deepseek-chat", "deepseek-reasoner"],
+    "transformer": {
+      "use": ["deepseek"],
+      "deepseek-chat": { "use": ["tooluse"] }
     }
-    ```
+  }
+  ```
+
+- **Passing Options to a Transformer**: Some transformers, like `maxtoken`, accept options. To pass options, use a nested array where the first element is the transformer name and the second is an options object.
+  ```json
+  {
+    "name": "siliconflow",
+    "api_base_url": "https://api.siliconflow.cn/v1/chat/completions",
+    "api_key": "sk-xxx",
+    "models": ["moonshotai/Kimi-K2-Instruct"],
+    "transformer": {
+      "use": [
+        [
+          "maxtoken",
+          {
+            "max_tokens": 16384
+          }
+        ]
+      ]
+    }
+  }
+  ```
 
 **Available Built-in Transformers:**
 
--   `deepseek`: Adapts requests/responses for DeepSeek API.
--   `gemini`: Adapts requests/responses for Gemini API.
--   `openrouter`: Adapts requests/responses for OpenRouter API.
--   `groq`: Adapts requests/responses for groq API.
--   `maxtoken`: Sets a specific `max_tokens` value.
--   `tooluse`: Optimizes tool usage for certain models via `tool_choice`.
--   `gemini-cli` (experimental): Unofficial support for Gemini via Gemini CLI [gemini-cli.js](https://gist.github.com/musistudio/1c13a65f35916a7ab690649d3df8d1cd).
+- `deepseek`: Adapts requests/responses for DeepSeek API.
+- `gemini`: Adapts requests/responses for Gemini API.
+- `openrouter`: Adapts requests/responses for OpenRouter API.
+- `groq`: Adapts requests/responses for groq API.
+- `maxtoken`: Sets a specific `max_tokens` value.
+- `tooluse`: Optimizes tool usage for certain models via `tool_choice`.
+- `gemini-cli` (experimental): Unofficial support for Gemini via Gemini CLI [gemini-cli.js](https://gist.github.com/musistudio/1c13a65f35916a7ab690649d3df8d1cd).
 
 **Custom Transformers:**
 
@@ -187,12 +258,12 @@ You can also create your own transformers and load them via the `transformers` f
 ```json
 {
   "transformers": [
-      {
-        "path": "$HOME/.claude-code-router/plugins/gemini-cli.js",
-        "options": {
-          "project": "xxx"
-        }
+    {
+      "path": "$HOME/.claude-code-router/plugins/gemini-cli.js",
+      "options": {
+        "project": "xxx"
       }
+    }
   ]
 }
 ```
@@ -201,15 +272,55 @@ You can also create your own transformers and load them via the `transformers` f
 
 The `Router` object defines which model to use for different scenarios:
 
--   `default`: The default model for general tasks.
--   `background`: A model for background tasks. This can be a smaller, local model to save costs.
--   `think`: A model for reasoning-heavy tasks, like Plan Mode.
--   `longContext`: A model for handling long contexts (e.g., > 60K tokens).
+- `default`: The default model for general tasks.
+- `background`: A model for background tasks. This can be a smaller, local model to save costs.
+- `think`: A model for reasoning-heavy tasks, like Plan Mode.
+- `longContext`: A model for handling long contexts (e.g., > 60K tokens).
+- `longContextThreshold` (optional): The token count threshold for triggering the long context model. Defaults to 60000 if not specified.
+- `webSearch`: Used for handling web search tasks and this requires the model itself to support the feature. If you're using openrouter, you need to add the `:online` suffix after the model name.
 
 You can also switch models dynamically in Claude Code with the `/model` command:
 `/model provider_name,model_name`
 Example: `/model openrouter,anthropic/claude-3.5-sonnet`
 
+#### Custom Router
+
+For more advanced routing logic, you can specify a custom router script via the `CUSTOM_ROUTER_PATH` in your `config.json`. This allows you to implement complex routing rules beyond the default scenarios.
+
+In your `config.json`:
+
+```json
+{
+  "CUSTOM_ROUTER_PATH": "$HOME/.claude-code-router/custom-router.js"
+}
+```
+
+The custom router file must be a JavaScript module that exports an `async` function. This function receives the request object and the config object as arguments and should return the provider and model name as a string (e.g., `"provider_name,model_name"`), or `null` to fall back to the default router.
+
+Here is an example of a `custom-router.js` based on `custom-router.example.js`:
+
+```javascript
+// $HOME/.claude-code-router/custom-router.js
+
+/**
+ * A custom router function to determine which model to use based on the request.
+ *
+ * @param {object} req - The request object from Claude Code, containing the request body.
+ * @param {object} config - The application's config object.
+ * @returns {Promise<string|null>} - A promise that resolves to the "provider,model_name" string, or null to use the default router.
+ */
+module.exports = async function router(req, config) {
+  const userMessage = req.body.messages.find((m) => m.role === "user")?.content;
+
+  if (userMessage && userMessage.includes("explain this code")) {
+    // Use a powerful model for code explanation
+    return "openrouter,anthropic/claude-3.5-sonnet";
+  }
+
+  // Fallback to the default router configuration
+  return null;
+};
+```
 
 ## 🤖 GitHub Actions
 
@@ -272,8 +383,8 @@ This setup allows for interesting automations, like running tasks during off-pea
 
 ## 📝 Further Reading
 
--   [Project Motivation and How It Works](blog/en/project-motivation-and-how-it-works.md)
--   [Maybe We Can Do More with the Router](blog/en/maybe-we-can-do-more-with-the-route.md)
+- [Project Motivation and How It Works](blog/en/project-motivation-and-how-it-works.md)
+- [Maybe We Can Do More with the Router](blog/en/maybe-we-can-do-more-with-the-route.md)
 
 ## ❤️ Support & Sponsoring
 
@@ -295,28 +406,39 @@ A huge thank you to all our sponsors for their generous support!
 - @Simon Leischnig
 - [@duanshuaimin](https://github.com/duanshuaimin)
 - [@vrgitadmin](https://github.com/vrgitadmin)
-- @*o
+- @\*o
 - [@ceilwoo](https://github.com/ceilwoo)
-- @*说
-- @*更
-- @K*g
-- @R*R
+- @\*说
+- @\*更
+- @K\*g
+- @R\*R
 - [@bobleer](https://github.com/bobleer)
-- @*苗
-- @*划
+- @\*苗
+- @\*划
 - [@Clarence-pan](https://github.com/Clarence-pan)
 - [@carter003](https://github.com/carter003)
-- @S*r
-- @*晖
-- @*敏
-- @Z*z
-- @*然
+- @S\*r
+- @\*晖
+- @\*敏
+- @Z\*z
+- @\*然
 - [@cluic](https://github.com/cluic)
-- @*苗
+- @\*苗
 - [@PromptExpert](https://github.com/PromptExpert)
-- @*应
+- @\*应
 - [@yusnake](https://github.com/yusnake)
-- @*飞
-- @董*
+- @\*飞
+- @董\*
+- @\*汀
+- @\*涯
+- @\*:-）
+- @\*\*磊
+- @\*琢
+- @\*成
+- @Z\*o
+- @\*琨
+- [@congzhangzh](https://github.com/congzhangzh)
+- @\*\_
+- @Z\*m
 
 (If your name is masked, please contact me via my homepage email to update it with your GitHub username.)

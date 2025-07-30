@@ -1,9 +1,9 @@
 ---
 title: iroh
-date: 2025-02-11T12:20:14+08:00
+date: 2025-07-30T12:42:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727206407683-490abfe0d682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727206407683-490abfe0d682?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzkyNDc1Mjd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752625555974-f0b81374d988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752625555974-f0b81374d988?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
 ---
 
 # [n0-computer/iroh](https://github.com/n0-computer/iroh)
@@ -86,6 +86,9 @@ send.finish()?;
 let response = recv.read_to_end(1000).await?;
 assert_eq!(&response, b"Hello, world!");
 
+// As the side receiving the last application data - say goodbye
+conn.close(0u32.into(), b"bye!");
+
 // Close the endpoint and all its connections
 endpoint.close().await;
 ```
@@ -104,19 +107,16 @@ let router = Router::builder(endpoint)
 struct Echo;
 
 impl ProtocolHandler for Echo {
-    fn accept(self: Arc<Self>, connecting: Connecting) -> BoxedFuture<Result<()>> {
-        Box::pin(async move {
-            let connection = connecting.await?;
-            let (mut send, mut recv) = connection.accept_bi().await?;
+    async fn accept(&self, connection: Connection) -> Result<()> {
+        let (mut send, mut recv) = connection.accept_bi().await?;
 
-            // Echo any bytes received back directly.
-            let bytes_sent = tokio::io::copy(&mut recv, &mut send).await?;
+        // Echo any bytes received back directly.
+        let bytes_sent = tokio::io::copy(&mut recv, &mut send).await?;
 
-            send.finish()?;
-            connection.closed().await;
+        send.finish()?;
+        connection.closed().await;
 
-            Ok(())
-        })
+        Ok(())
     }
 }
 ```
