@@ -1,9 +1,9 @@
 ---
 title: prompt-optimizer
-date: 2025-07-30T12:43:42+08:00
+date: 2025-07-31T12:41:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751229881841-79778db35e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751229881841-79778db35e13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750688650545-d9e2a060dfe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750688650545-d9e2a060dfe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
 ---
 
 # [linshenkx/prompt-optimizer](https://github.com/linshenkx/prompt-optimizer)

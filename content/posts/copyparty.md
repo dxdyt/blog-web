@@ -1,9 +1,9 @@
 ---
 title: copyparty
-date: 2025-07-30T12:42:40+08:00
+date: 2025-07-31T12:41:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752892982143-d753acf4a9ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752892982143-d753acf4a9ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM4NTA1NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752146725335-0c302b46e6a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752146725335-0c302b46e6a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
 ---
 
 # [9001/copyparty](https://github.com/9001/copyparty)
@@ -90,6 +90,7 @@ made in Norway 🇳🇴
         * [periodic rescan](#periodic-rescan) - filesystem monitoring
     * [upload rules](#upload-rules) - set upload rules using volflags
     * [compress uploads](#compress-uploads) - files can be autocompressed on upload
+    * [chmod and chown](#chmod-and-chown) - per-volume filesystem-permissions and ownership
     * [other flags](#other-flags)
     * [database location](#database-location) - in-volume (`.hist/up2k.db`, default) or somewhere else
     * [metadata from audio files](#metadata-from-audio-files) - set `-e2t` to index tags on upload
@@ -1659,6 +1660,26 @@ some examples,
   allows (but does not force) gz compression if client uploads to `/inc?pk` or `/inc?gz` or `/inc?gz=4`
 
 
+## chmod and chown
+
+per-volume filesystem-permissions and ownership
+
+by default:
+* all folders are chmod 755
+* files are usually chmod 644 (umask-defined)
+* user/group is whatever copyparty is running as
+
+this can be configured per-volume:
+* volflag `chmod_f` sets file permissions; default=`644` (usually)
+* volflag `chmod_d` sets directory permissions; default=`755`
+* volflag `uid` sets the owner user-id
+* volflag `gid` sets the owner group-id
+
+notes:
+* `gid` can only be set to one of the groups which the copyparty process is a member of
+* `uid` can only be set if copyparty is running as root (i appreciate your faith)
+
+
 ## other flags
 
 * `:c,magic` enables filetype detection for nameless uploads, same as `--magic`
@@ -2236,6 +2257,7 @@ force-enable features with known issues on your OS/env  by setting any of the fo
 | env-var                  | what it does |
 | ------------------------ | ------------ |
 | `PRTY_FORCE_MP`          | force-enable multiprocessing (real multithreading) on MacOS and other broken platforms |
+| `PRTY_FORCE_MAGIC`       | use [magic](https://pypi.org/project/python-magic/) on Windows (you will segfault) |
 
 
 # packages

@@ -1,9 +1,9 @@
 ---
 title: LMCache
-date: 2025-07-12T12:31:25+08:00
+date: 2025-07-31T12:42:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747738304810-5cb89f585299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747738304810-5cb89f585299?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyOTQ2MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751202921464-58a91e751427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751202921464-58a91e751427?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
 ---
 
 # [LMCache/LMCache](https://github.com/LMCache/LMCache)
@@ -98,12 +98,9 @@ Fill out the [interest form](https://forms.gle/mQfQDUXbKfp2St1z7), [sign up for 
 
 ## Community meeting
 
-The [community meeting]( https://uchicago.zoom.us/j/6603596916?pwd=Z1E5MDRWUSt2am5XbEt4dTFkNGx6QT09) for LMCache is hosted weekly. All are welcome to join!
+The [community meeting]( https://uchicago.zoom.us/j/6603596916?pwd=Z1E5MDRWUSt2am5XbEt4dTFkNGx6QT09) for LMCache is hosted bi-weekly. All are welcome to join!
 
-Meetings **alternate weekly** between these two times:
-
-- Tuesdays at 9:00 AM PT – [Add to Calendar](https://drive.google.com/file/d/15Xz8-LtpBQ5QgR7KrorOOyfuohCFQmwn/view?usp=drive_link)
-- Tuesdays at 6:30 PM PT – [Add to Calendar](https://drive.google.com/file/d/1WMZNFXV24kWzprDjvO-jQ7mOY7whqEdG/view?usp=drive_link)
+Meetings are held bi-weekly on: Tuesdays at 9:00 AM PT – [Add to Calendar](https://drive.usercontent.google.com/u/0/uc?id=1f5EXbooGcwNwzIpTgn5u4PHqXgfypMtu&export=download)
 
 We keep notes from each meeting on this [document](https://docs.google.com/document/d/1_Fl3vLtERFa3vTH00cezri78NihNBtSClK-_1tSrcow) for summaries of standups, discussion, and action items.
 

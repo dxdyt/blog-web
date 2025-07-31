@@ -1,9 +1,9 @@
 ---
 title: focalboard
-date: 2025-07-29T12:48:33+08:00
+date: 2025-07-31T12:42:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752658801043-bb7ee69073f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752658801043-bb7ee69073f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
 ---
 
 # [mattermost-community/focalboard](https://github.com/mattermost-community/focalboard)
