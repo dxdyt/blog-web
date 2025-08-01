@@ -1,17 +1,18 @@
 ---
 title: duckstation
-date: 2024-10-15T12:21:25+08:00
+date: 2025-08-01T12:53:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726789822027-3e43587f5e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726789822027-3e43587f5e66?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg5NjU5Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1751891480287-0b662b3b2aa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751891480287-0b662b3b2aa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
 ---
 
 # [stenzek/duckstation](https://github.com/stenzek/duckstation)
 
 # DuckStation - PlayStation 1, aka. PSX Emulator
+
 [Features](#features) | [Downloading and Running](#downloading-and-running) | [Building](#building) | [Disclaimers](#disclaimers)
 
-**Latest Builds for Windows 10/11 (x64/ARM64), Linux (AppImage/Flatpak), and macOS (11.0+ Universal):** https://github.com/stenzek/duckstation/releases/tag/latest
+**Latest Builds for Windows 10/11 (x64/ARM64), Linux (AppImage x64/ARM32/ARM64), and macOS (11.0+ Universal):** https://github.com/stenzek/duckstation/releases/tag/latest
 
 **Game Compatibility List:** https://docs.google.com/spreadsheets/d/e/2PACX-1vRE0jjiK_aldpICoy5kVQlpk2f81Vo6P4p9vfg4d7YoTOoDlH4PQHoXjTD2F7SdN8SSBLoEAItaIqQo/pubhtml
 
@@ -33,20 +34,23 @@ DuckStation features a fully-featured frontend built using Qt, as well as a full
 Other features include:
 
  - CPU Recompiler/JIT (x86-64, armv7/AArch32, AArch64, RISC-V/RV64).
- - Hardware (D3D11, D3D12, OpenGL, Vulkan, Metal) and software rendering.
+ - Hardware renderer supporting D3D11, D3D12, OpenGL, Vulkan and Metal APIs.
  - Upscaling, texture filtering, and true colour (24-bit) in hardware renderers.
- - Accurate blending via Rasterizer Order Views/Fragment Shader Interlock.
  - PGXP for geometry precision, texture correction, and depth buffer emulation.
+ - Accurate blending via Rasterizer Order Views/Fragment Shader Interlock.
  - Texture replacement system in hardware renderers.
+ - Vectorized and multi-threaded software renderer.
  - Motion adaptive deinterlacing.
  - Adaptive downsampling filter.
  - Screen rotation for vertical or "TATE" shmup games.
  - Post processing shader chains (GLSL and Reshade FX).
+ - Border overlays/bezels displayed around game content.
  - "Fast boot" for skipping BIOS splash/intro.
  - Save state support, with runahead and rewind.
  - Windows, Linux, macOS support.
  - Supports reading directly from CD, bin/cue images, raw bin/img files, MAME CHD, single-track ECM, MDS/MDF, and unencrypted PBP formats.
  - Preloading of disc images to RAM to avoid disk sleeping hitches.
+ - Merging of multi-disc games in game list/grid with memory cards shared between discs.
  - Automatic loading/applying of PPF patches.
  - Direct booting of homebrew executables.
  - Direct loading of Portable Sound Format (psf) files.
@@ -54,6 +58,7 @@ Other features include:
  - Digital and analog controllers for input (rumble is forwarded to host).
  - GunCon and Justifier lightgun support (simulated with mouse).
  - NeGcon support.
+ - Controller presets and per-game configuration.
  - Qt and "Big Picture" UI.
  - Automatic updates with preview and latest channels.
  - Automatic content scanning - game titles/hashes are provided by redump.org.
@@ -66,6 +71,8 @@ Other features include:
  - RetroAchievements.
  - Discord Rich Presence.
  - Video capture with Media Foundation (Windows) and [FFmpeg](https://www.ffmpeg.org/) (All Platforms) backends.
+ - Free camera function.
+ - Parallel port cartridge emulation.
 
 ## System Requirements
  - A CPU faster than a potato. But it needs to be x86_64, AArch32/armv7, AArch64/ARMv8, or RISC-V/RV64.
@@ -73,19 +80,21 @@ Other features include:
  - SDL, XInput or DInput compatible game controller (e.g. XB360/XBOne/XBSeries). DualShock 3 users on Windows will need to install the official DualShock 3 drivers included as part of PlayStation Now.
 
 ## Downloading and running
-Binaries of DuckStation for Windows x64/ARM64, Linux x86_64 (in AppImage/Flatpak formats), and macOS Universal Binaries are available via GitHub Releases and are automatically built with every commit/push.
+Binaries of DuckStation for Windows x64/ARM64, Linux x86_64/ARM32/ARM64 (in AppImage format), and macOS Universal Binaries are available via GitHub Releases and are automatically built with every commit/push.
 
 As per the terms of CC-BY-NC-ND, redistribution of **unmodified releases and code** is permitted. However, we would prefer if you linked to https://www.duckstation.org/ instead. Please note that pre-configured settings and packages are considered modifications.
 
 For x86 machines (most systems), you will need a CPU that supports the SSE4.1 instruction set for the "normal" build. This includes all Intel CPUs manufactured after 2007, and AMD CPUs manufactured after 2011. If you have a CPU that is older, you will need to download the "SSE2" build from the releases page, which has lower performance but still supports these CPUs.
 
+The main releases page is limited to the last 30 releases due to automatic updater limitations. Older releases can be downloaded from https://github.com/duckstation/old-releases/releases.
+
 ### Windows
 
 DuckStation **requires** Windows 10/11, specifically version 1809 or newer. If you are still using Windows 7/8/8.1, DuckStation **will not run** on your operating system. Running these operating systems in 2023 should be considered a security risk, and I would recommend updating to something which receives vendor support.
-If you must use an older operating system, [v0.1-5624](https://github.com/stenzek/duckstation/releases/tag/v0.1-5624) is the last version which will run. But do not expect to recieve any assistance, these builds are no longer supported.
+If you must use an older operating system, [v0.1-5624](https://github.com/duckstation/old-releases/releases/tag/v0.1-5624) is the last version which will run. But do not expect to recieve any assistance, these builds are no longer supported.
 
 To download:
- - Go to https://github.com/stenzek/duckstation/releases/tag/latest, and download the Windows x64 build. This is a zip archive containing the prebuilt binary.
+ - Go to https://github.com/stenzek/duckstation/releases/tag/latest, and download the Windows x64 build. This is a zip archive containing the prebuilt binary. If you have an ARM64 Windows machine such as Snapdragon, download the Windows ARM64 build.
  - Alternatively, direct download link: https://github.com/stenzek/duckstation/releases/download/latest/duckstation-windows-x64-release.zip
  - Extract the archive **to a subdirectory**. The archive has no root subdirectory, so extracting to the current directory will drop a bunch of files in your download directory if you do not extract to a subdirectory.
 
@@ -95,7 +104,7 @@ Once downloaded and extracted, you can launch the emulator with `duckstation-qt-
 
 ### Linux
 
-DuckStation is provided for x86_64 Linux in AppImage and Flatpak formats. The release on [Flathub](https://flathub.org/apps/org.duckstation.DuckStation) is official, and synchronized with the latest rolling/stable release on GitHub.
+DuckStation is provided for x86_64/ARM32/ARM64 Linux in AppImage (recommended) and Flatpak (not recommended) formats.
 
 #### AppImage
 
@@ -106,6 +115,8 @@ The AppImages require a distribution equivalent to Ubuntu 22.04 or newer to run.
 
 #### Flatpak
 
+Due to various Flatpak limitations and Flathub randomly breaking regularly, **the Flatpak package is not recommended**. **We recommend that you use the AppImage instead.**
+
  - Go to https://github.com/stenzek/duckstation/releases/tag/latest, and download `duckstation-x64.flatpak`.
  - Run `flatpak install ./duckstation-x64.flatpak`.
 
@@ -113,19 +124,28 @@ or, if you have FlatHub set up:
  - Run `flatpak install org.duckstation.DuckStation`.
 
 Use `flatpak run org.duckstation.DuckStation` to start, or select `DuckStation` in the launcher of your desktop environment. Follow the Setup Wizard to get started.
- 
+
+**As of 2025/07/26, with the aforementioned issues and a lack of interest from users, the Flatpak package is deprecated. Future updates are not guaranteed.**
+
+To migrate your data from the Flatpak package to the AppImage, you can run the following command:
+```bash
+mv ~/.var/app/org.duckstation.DuckStation/config/duckstation ~/.local/share
+```
+
+You will need to re-add your game directories after switching to the AppImage.
+
 ### macOS
 
-Universal MacOS builds are provided for both x64 and ARM64 (Apple Silicon).
+Universal macOS builds are provided for both x86_64 (Intel) and ARM64 (Apple Silicon).
 
-MacOS Big Sir (11.0) is required, as this is also the minimum requirement for Qt.
+macOS Big Sur (11.0) is required, as this is also the minimum requirement for Qt.
 
 To download:
  - Go to https://github.com/stenzek/duckstation/releases/tag/latest, and download `duckstation-mac-release.zip`.
  - Extract the zip by double-clicking it.
- - Open DuckStation.app, optionally moving it to your desired location first.
+ - Open `DuckStation.app`, optionally moving it to your desired location first.
  - Depending on GateKeeper configuration, you may need to right click -> Open the first time you run it, as code signing certificates are out of the question for a project which brings in zero revenue.
- 
+
 ### Android
 
 You will need a device with armv7 (32-bit ARM), AArch64 (64-bit ARM), or x86_64 (64-bit x86). 64-bit is preferred, the requirements are higher for 32-bit, you'll probably want at least a 1.5GHz CPU.
@@ -152,12 +172,19 @@ For example, if your disc image was named `Spyro3.cue`, you would place the SBI 
 
 CHD images with built-in subchannel information are also supported.
 
+If you are playing directly from a disc and your CD/DVD drive does not support subchannel reading, or has a skew with the returned SubQ, you can place the SBI file in the `subchannel` directory under the user directory, with the serial or title of the game.
+
+### Cheats and patch database
+
+DuckStation ships with a built-in cheat and patch database, both provided by the community. Contributions to these are welcome at https://github.com/duckstation/chtdb.
+
+Each release includes the latest version of the database, however you are free to manually update to the latest version as well.
+
 ## Building
 
 ### Windows
 Requirements:
  - Visual Studio 2022
-
 
 1. Clone the respository: `git clone https://github.com/stenzek/duckstation.git`.
 2. Download the dependencies pack from https://github.com/stenzek/duckstation-ext-qt-minimal/releases/download/latest/deps-x64.7z, and extract it to `dep\msvc`.
@@ -199,7 +226,6 @@ Requirements:
  - CMake
  - Xcode
 
-
 1. Clone the repository: `git clone https://github.com/stenzek/duckstation.git`.
 2. Build the dependencies. This will take a while. `scripts/deps/build-dependencies-mac.sh deps`.
 2. Run CMake to configure the build system: `cmake -Bbuild-release -DCMAKE_BUILD_TYPE=Release -DCMAKE_INTERPROCEDURAL_OPTIMIZATION=ON -DCMAKE_PREFIX_PATH="$PWD/deps"`. 
@@ -216,16 +242,14 @@ This is located in the following places depending on the platform you're using:
 - Linux: `$XDG_DATA_HOME/duckstation`, or `~/.local/share/duckstation`.
 - macOS: `~/Library/Application Support/DuckStation`.
 
-So, if you were using Linux, you would place your BIOS images in `~/.local/share/duckstation/bios`. This directory will be created upon running DuckStation
-for the first time.
+So, if you were using Linux, you would place your BIOS images in `~/.local/share/duckstation/bios`. This directory will be created upon running DuckStation for the first time.
 
-If you wish to use a "portable" build, where the user directory is the same as where the executable is located, create an empty file named `portable.txt`
-in the same directory as the DuckStation executable.
+If you wish to use a "portable" build, where the user directory is the same as where the executable is located, create an empty file named `portable.txt` in the same directory as the DuckStation executable.
 
 ## Bindings for Qt frontend
 Your keyboard or game controller can be used to simulate a variety of PlayStation controllers. Controller input is supported through DInput, XInput, and SDL backends and can be changed through `Settings -> Controllers`.
 
-To bind your input device, go to `Settings -> Controllers`, and select the virtual controller you want to map. Automatic mapping handles the majority of ocntrollers. However, if you need to manually bind a controller, click the box below the button/axis name, and press the key or button on your input device that you wish to bind to.
+To bind your input device, go to `Settings -> Controllers`, and select the virtual controller you want to map. Automatic mapping handles the majority of controllers. However, if you need to manually bind a controller, click the box below the button/axis name, and press the key or button on your input device that you wish to bind to.
 
 ## SDL Game Controller Database
 DuckStation releases ship with a database of game controller mappings for the SDL controller backend, courtesy of https://github.com/mdqinc/SDL_GameControllerDB. The included `gamecontrollerdb.txt` file can be found in the `resources` subdirectory of the DuckStation program directory.

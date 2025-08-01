@@ -1,9 +1,9 @@
 ---
 title: puppeteer
-date: 2024-11-09T12:19:35+08:00
+date: 2025-08-01T12:54:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730051470698-f5c95d6d5120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730051470698-f5c95d6d5120?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzExMjU4OTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1753240810334-5d626bdc26ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753240810334-5d626bdc26ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
 ---
 
 # [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
@@ -45,8 +45,8 @@ await page.goto('https://developer.chrome.com/');
 // Set screen size.
 await page.setViewport({width: 1080, height: 1024});
 
-// Type into search box.
-await page.locator('.devsite-search-field').fill('automate beyond recorder');
+// Type into search box using accessible input name.
+await page.locator('aria/Search').fill('automate beyond recorder');
 
 // Wait and click on first result.
 await page.locator('.devsite-result-item-link').click();

@@ -1,9 +1,9 @@
 ---
 title: eino
-date: 2025-07-31T12:42:24+08:00
+date: 2025-08-01T12:55:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM5MzY4NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751891480287-0b662b3b2aa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751891480287-0b662b3b2aa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
 ---
 
 # [cloudwego/eino](https://github.com/cloudwego/eino)
