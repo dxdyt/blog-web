@@ -1,9 +1,9 @@
 ---
 title: duckstation
-date: 2025-08-01T12:53:42+08:00
+date: 2025-08-02T12:35:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751891480287-0b662b3b2aa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751891480287-0b662b3b2aa0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751738567808-6affa516fedc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751738567808-6affa516fedc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
 ---
 
 # [stenzek/duckstation](https://github.com/stenzek/duckstation)

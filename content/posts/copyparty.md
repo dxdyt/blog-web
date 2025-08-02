@@ -1,9 +1,9 @@
 ---
 title: copyparty
-date: 2025-08-01T12:54:14+08:00
+date: 2025-08-02T12:35:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753416536123-23597cd1ce30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753416536123-23597cd1ce30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750272001535-524d6a246947?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750272001535-524d6a246947?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
 ---
 
 # [9001/copyparty](https://github.com/9001/copyparty)
