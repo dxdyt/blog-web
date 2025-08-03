@@ -1,9 +1,9 @@
 ---
 title: the-book-of-secret-knowledge
-date: 2025-07-15T12:39:22+08:00
+date: 2025-08-03T12:49:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750247396966-c012d551a0a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750247396966-c012d551a0a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI1NTQyODB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752500957088-99bfc8f847b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxOTY0OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752500957088-99bfc8f847b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxOTY0OTR8&ixlib=rb-4.1.0
 ---
 
 # [trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)

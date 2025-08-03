@@ -1,9 +1,9 @@
 ---
 title: kubesphere
-date: 2025-08-02T12:34:55+08:00
+date: 2025-08-03T12:48:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753189198501-307a6accabdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753189198501-307a6accabdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752147562751-79b8fe5069a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxOTY0OTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752147562751-79b8fe5069a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxOTY0OTR8&ixlib=rb-4.1.0
 ---
 
 # [kubesphere/kubesphere](https://github.com/kubesphere/kubesphere)
