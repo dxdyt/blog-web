@@ -1,9 +1,9 @@
 ---
 title: sumo
-date: 2025-08-02T12:35:02+08:00
+date: 2025-08-04T12:57:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751738567832-aae9ddbf5dfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751738567832-aae9ddbf5dfa?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750316096690-be3da4ccb338?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750316096690-be3da4ccb338?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
 ---
 
 # [eclipse-sumo/sumo](https://github.com/eclipse-sumo/sumo)

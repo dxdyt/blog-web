@@ -1,9 +1,9 @@
 ---
 title: recipes
-date: 2025-08-02T12:34:31+08:00
+date: 2025-08-04T12:58:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753037626414-e8054960fad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753037626414-e8054960fad5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1751315039431-86ad38f1b046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751315039431-86ad38f1b046?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
 ---
 
 # [TandoorRecipes/recipes](https://github.com/TandoorRecipes/recipes)

@@ -1,9 +1,9 @@
 ---
 title: wg-easy
-date: 2025-05-27T12:27:11+08:00
+date: 2025-08-04T12:57:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753114767539-a642d36b0f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753114767539-a642d36b0f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
 ---
 
 # [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy)
@@ -17,18 +17,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1745874205062-61affe8093
 [![GitHub Release](https://img.shields.io/github/v/release/wg-easy/wg-easy)](https://github.com/wg-easy/wg-easy/releases/latest)
 [![Image Pulls](https://img.shields.io/badge/image_pulls-12M+-blue)](https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy)
 
-<!-- TODO: remove after release -->
-
-> [!WARNING]
-> You are viewing the README of the pre-release of v15.
-> If you want to setup wg-easy right now. Read the README in the production branch here: [README](https://github.com/wg-easy/wg-easy/tree/production) or here for the last nightly: [README](https://github.com/wg-easy/wg-easy/tree/c6dce0f6fb2e28e7e40ddac1498bd67e9bb17cba)
-
 You have found the easiest way to install & manage WireGuard on any Linux host!
 
 <!-- TOOD: update screenshot -->
 
 <p align="center">
-  <img src="./assets/screenshot.png" width="802" />
+  <img src="./assets/screenshot.png" width="802" alt="wg-easy Screenshot" />
 </p>
 
 ## Features
@@ -52,11 +46,6 @@ You have found the easiest way to install & manage WireGuard on any Linux host!
 
 > [!NOTE]
 > To better manage documentation for this project, it has its own site here: [https://wg-easy.github.io/wg-easy/latest](https://wg-easy.github.io/wg-easy/latest)
-
-<!-- TODO: remove after release -->
-
-> [!WARNING]
-> As the Docs are still in Pre-release, you can access them here [https://wg-easy.github.io/wg-easy/Pre-release](https://wg-easy.github.io/wg-easy/Pre-release)
 
 - [Getting Started](https://wg-easy.github.io/wg-easy/latest/getting-started/)
 - [Basic Installation](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/basic-installation/)
@@ -89,11 +78,11 @@ And log in again.
 
 The easiest way to run WireGuard Easy is with Docker Compose.
 
-Just download [`docker-compose.yml`](docker-compose.yml) and execute `sudo docker compose up -d`.
+Just follow [these steps](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/basic-installation/) in the detailed documentation.
 
-Now setup a reverse proxy to be able to access the Web UI securely from the internet.
+You can also install WireGuard Easy with the [docker run command](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/docker-run/) or via [podman](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/podman-nft/).
 
-If you want to access the Web UI over HTTP, change the env var `INSECURE` to `true`. This is not recommended. Only use this for testing
+Now [setup a reverse proxy](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/basic-installation/#setup-reverse-proxy) to be able to access the Web UI securely from the internet. This step is optional, just make sure to follow the guide [here](https://wg-easy.github.io/wg-easy/latest/examples/tutorials/reverse-proxyless/) if you decide not to do it.
 
 ## Donate
 

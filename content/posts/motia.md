@@ -1,9 +1,9 @@
 ---
 title: motia
-date: 2025-08-03T12:48:36+08:00
+date: 2025-08-04T12:58:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753703986100-73031aaabe6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxOTY0OTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753703986100-73031aaabe6e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxOTY0OTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
 ---
 
 # [MotiaDev/motia](https://github.com/MotiaDev/motia)
@@ -22,7 +22,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1753703986100-73031aaabe
 </p>
 
 <p align="center">
-  <strong>🔥 A Modern Unified Backend Framework for APIs, Events and Agents 🔥</strong>
+  <strong>🔥 A Modern Unified Backend Framework for APIs, background jobs, workflows, and Agents 🔥</strong>
 </p>
 
 <p align="center">
