@@ -1,9 +1,9 @@
 ---
 title: podcastfy
-date: 2025-02-16T12:20:11+08:00
+date: 2025-08-05T12:47:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735401631174-8f52d3c766d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735401631174-8f52d3c766d3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzk2Nzk0OTl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752606402432-9eeb131c6101?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752606402432-9eeb131c6101?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
 ---
 
 # [souzatharsis/podcastfy](https://github.com/souzatharsis/podcastfy)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1735401631174-8f52d3c766
 <div align="center">
 <a name="readme-top"></a>
 
-**I am writing an [open source book "Taming LLMs"](https://github.com/souzatharsis/tamingLLMs) - would love your feedback!**
+<a href="https://trendshift.io/repositories/12965" target="_blank"><img src="https://trendshift.io/api/badge/repositories/12965" alt="Podcastfy.ai | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 # Podcastfy.ai 🎙️🤖
 An Open Source API alternative to NotebookLM's podcast feature: Transforming Multimodal Content into Captivating Multilingual Audio Conversations with GenAI
@@ -110,6 +110,15 @@ audio_file = generate_podcast(urls=["<url1>", "<url2>"])
 ### CLI
 ```
 python -m podcastfy.client --url <url1> --url <url2>
+```
+
+### Fastapi (Beta for urls)
+```
+Containerize podcastify and launch the api
+Dockerfile_api
+
+Make requests to the api look at the notebook for a clear example
+fetch_audio(request_data, ENDPOINT, BASE_URL)
 ```
   
 ## Usage 💻
