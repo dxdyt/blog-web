@@ -1,43 +1,43 @@
 ---
 title: sim
-date: 2025-07-23T12:42:13+08:00
+date: 2025-08-06T12:44:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743345258591-4f837fe8345b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743345258591-4f837fe8345b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTMyNDU1OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1749427861553-9375109ee983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749427861553-9375109ee983?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
 ---
 
 # [simstudioai/sim](https://github.com/simstudioai/sim)
 
 <p align="center">
-  <img src="apps/sim/public/static/sim.png" alt="Sim Studio Logo" width="500"/>
+  <img src="apps/sim/public/static/sim.png" alt="Sim Logo" width="500"/>
 </p>
 
 <p align="center">
   <a href="https://www.apache.org/licenses/LICENSE-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License: Apache-2.0"></a>
   <a href="https://discord.gg/Hr4UWYEcTT"><img src="https://img.shields.io/badge/Discord-Join%20Server-7289DA?logo=discord&logoColor=white" alt="Discord"></a>
-  <a href="https://x.com/simstudioai"><img src="https://img.shields.io/twitter/follow/simstudioai?style=social" alt="Twitter"></a>
+  <a href="https://x.com/simdotai"><img src="https://img.shields.io/twitter/follow/simstudioai?style=social" alt="Twitter"></a>
   <a href="https://github.com/simstudioai/sim/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs welcome"></a>
-  <a href="https://docs.simstudio.ai"><img src="https://img.shields.io/badge/Docs-visit%20documentation-blue.svg" alt="Documentation"></a>
+  <a href="https://docs.sim.ai"><img src="https://img.shields.io/badge/Docs-visit%20documentation-blue.svg" alt="Documentation"></a>
 </p>
 
 <p align="center">
-  <strong>Sim Studio</strong> is a lightweight, user-friendly platform for building AI agent workflows.
+  <strong>Sim</strong> is a lightweight, user-friendly platform for building AI agent workflows.
 </p>
 
 <p align="center">
-  <img src="apps/sim/public/static/demo.gif" alt="Sim Studio Demo" width="800"/>
+  <img src="apps/sim/public/static/demo.gif" alt="Sim Demo" width="800"/>
 </p>
 
 ## Getting Started
 
-1. Use our [cloud-hosted version](https://simstudio.ai)
+1. Use our [cloud-hosted version](https://sim.ai)
 2. Self-host using one of the methods below
 
 ## Self-Hosting Options
 
 ### Option 1: NPM Package (Simplest)
 
-The easiest way to run Sim Studio locally is using our [NPM package](https://www.npmjs.com/package/simstudio?activeTab=readme):
+The easiest way to run Sim locally is using our [NPM package](https://www.npmjs.com/package/simstudio?activeTab=readme):
 
 ```bash
 npx simstudio
@@ -47,7 +47,7 @@ After running these commands, open [http://localhost:3000/](http://localhost:300
 
 #### Options
 
-- `-p, --port <port>`: Specify the port to run Sim Studio on (default: 3000)
+- `-p, --port <port>`: Specify the port to run Sim on (default: 3000)
 - `--no-pull`: Skip pulling the latest Docker images
 
 #### Requirements
@@ -63,7 +63,7 @@ git clone https://github.com/simstudioai/sim.git
 # Navigate to the project directory
 cd sim
 
-# Start Sim Studio
+# Start Sim
 docker compose -f docker-compose.prod.yml up -d
 ```
 
@@ -71,7 +71,7 @@ Access the application at [http://localhost:3000/](http://localhost:3000/)
 
 #### Using Local Models
 
-To use local models with Sim Studio:
+To use local models with Sim:
 
 1. Pull models using our helper script:
 
@@ -79,7 +79,7 @@ To use local models with Sim Studio:
 ./apps/sim/scripts/ollama_docker.sh pull <model_name>
 ```
 
-2. Start Sim Studio with local model support:
+2. Start Sim with local model support:
 
 ```bash
 # With NVIDIA GPU support
@@ -105,7 +105,7 @@ docker compose -f docker-compose.prod.yml up -d
 - [Bun](https://bun.sh/) runtime
 - PostgreSQL 12+ with [pgvector extension](https://github.com/pgvector/pgvector) (required for AI embeddings)
 
-**Note:** Sim Studio uses vector embeddings for AI features like knowledge bases and semantic search, which requires the `pgvector` PostgreSQL extension.
+**Note:** Sim uses vector embeddings for AI features like knowledge bases and semantic search, which requires the `pgvector` PostgreSQL extension.
 
 1. Clone and install dependencies:
 
@@ -196,4 +196,4 @@ We welcome contributions! Please see our [Contributing Guide](.github/CONTRIBUTI
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-<p align="center">Made with ❤️ by the Sim Studio Team</p>
+<p align="center">Made with ❤️ by the Sim Team</p>

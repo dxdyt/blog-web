@@ -1,9 +1,9 @@
 ---
 title: zotero-arxiv-daily
-date: 2025-08-04T12:58:00+08:00
+date: 2025-08-06T12:45:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753117034598-b7cb94f80d76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743972330316-f9597e191587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743972330316-f9597e191587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
 ---
 
 # [TideDra/zotero-arxiv-daily](https://github.com/TideDra/zotero-arxiv-daily)

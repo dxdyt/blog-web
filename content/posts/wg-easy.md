@@ -1,9 +1,9 @@
 ---
 title: wg-easy
-date: 2025-08-05T12:48:41+08:00
+date: 2025-08-06T12:45:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753547186703-a5f3f3a22fc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753547186703-a5f3f3a22fc9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1734761178019-67c46bf9b767?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1734761178019-67c46bf9b767?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
 ---
 
 # [wg-easy/wg-easy](https://github.com/wg-easy/wg-easy)

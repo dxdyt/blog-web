@@ -1,9 +1,9 @@
 ---
 title: reflex
-date: 2025-08-05T12:48:26+08:00
+date: 2025-08-06T12:44:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753424005736-c0d06fb710dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753424005736-c0d06fb710dc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752159140408-906317c0fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752159140408-906317c0fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
 ---
 
 # [reflex-dev/reflex](https://github.com/reflex-dev/reflex)
@@ -20,6 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1753424005736-c0d06fb710
 [![Documentation](https://img.shields.io/badge/Documentation%20-Introduction%20-%20%23007ec6)](https://reflex.dev/docs/getting-started/introduction)
 [![PyPI Downloads](https://static.pepy.tech/badge/reflex)](https://pepy.tech/projects/reflex)
 [![Discord](https://img.shields.io/discord/1029853095527727165?color=%237289da&label=Discord)](https://discord.gg/T5WSbC2YtQ)
+[![Twitter](https://img.shields.io/twitter/follow/getreflex)](https://x.com/getreflex)
 
 </div>
 
