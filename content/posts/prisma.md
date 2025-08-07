@@ -1,9 +1,9 @@
 ---
 title: prisma
-date: 2023-12-09T12:16:17+08:00
+date: 2025-08-07T12:45:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1700061778407-01c43caeba03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1700061778407-01c43caeba03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDIwOTUzMjF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752892982143-d753acf4a9ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752892982143-d753acf4a9ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
 ---
 
 # [prisma/prisma](https://github.com/prisma/prisma)
@@ -28,16 +28,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1700061778407-01c43caeba
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
   <a href="https://www.prisma.io/blog">Blog</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://pris.ly/discord">Discord</a>
+  <a href="https://pris.ly/discord?utm_source=github&utm_medium=prisma&utm_content=repo_readme">Discord</a>
   <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
-  <a href="https://twitter.com/prisma">Twitter</a>
+  <a href="https://pris.ly/x?utm_source=github&utm_medium=prisma&utm_content=repo_readme">Twitter</a>
+  <span>&nbsp;&nbsp;•&nbsp;&nbsp;</span>
+  <a href="https://pris.ly/youtube?utm_source=github&utm_medium=prisma&utm_content=repo_readme">Youtube</a>
   <br />
   <hr />
 </div>
 
 ## What is Prisma?
 
-Prisma is a **next-generation ORM** that consists of these tools:
+Prisma ORM is a **next-generation ORM** that consists of these tools:
 
 - [**Prisma Client**](https://www.prisma.io/docs/concepts/components/prisma-client): Auto-generated and type-safe query builder for Node.js & TypeScript
 - [**Prisma Migrate**](https://www.prisma.io/docs/concepts/components/prisma-migrate): Declarative data modeling & migration system
@@ -45,23 +47,27 @@ Prisma is a **next-generation ORM** that consists of these tools:
 
 Prisma Client can be used in _any_ Node.js or TypeScript backend application (including serverless applications and microservices). This can be a [REST API](https://www.prisma.io/docs/concepts/overview/prisma-in-your-stack/rest), a [GraphQL API](https://www.prisma.io/docs/concepts/overview/prisma-in-your-stack/graphql), a gRPC API, or anything else that needs a database.
 
-**The Prisma ORM can also further be extended with these Prisma products:**
-
-- [Prisma Accelerate](https://prisma.io/docs/data-platform/accelerate/what-is-accelerate?utm_source=github&utm_medium=prisma-readme): Global database cache with scalable connection pooling
-- [Prisma Pulse](https://www.prisma.io/docs/data-platform/pulse/what-is-pulse?utm_source=github&utm_medium=prisma-readme): Real-time database events with type-safe subscriptions
+**If you need a database to use with Prisma ORM, check out [Prisma Postgres](https://www.prisma.io/docs/getting-started/quickstart-prismaPostgres?utm_source=github&utm_medium=prisma-readme) or if you are looking for our MCP Server, head [here](https://github.com/prisma/mcp).**
 
 ## Getting started
 
-The fastest way to get started with Prisma is by following the [**Quickstart (5 min)**](https://pris.ly/quickstart).
+### Quickstart (5min)
 
-The Quickstart is based on a preconfigured SQLite database. You can also get started with your own database (PostgreSQL and MySQL) by following one of these guides:
+The fastest way to get started with Prisma is by following the quickstart guides. You can choose either of two databases:
+
+- [Prisma Postgres](https://www.prisma.io/docs/getting-started/quickstart-prismaPostgres)
+- [SQLite](https://www.prisma.io/docs/getting-started/quickstart-sqlite)
+
+### Bring your own database
+
+If you already have your own database, you can follow these guides:
 
 - [Add Prisma to an existing project](https://www.prisma.io/docs/getting-started/setup-prisma/add-to-existing-project/relational-databases-typescript-postgresql)
 - [Set up a new project with Prisma from scratch](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases-typescript-postgresql)
 
-## How Prisma works
+## How Prisma ORM works
 
-This section provides a high-level overview of how Prisma works and its most important technical components. For a more thorough introduction, visit the [Prisma documentation](https://www.prisma.io/docs/).
+This section provides a high-level overview of how Prisma ORM works and its most important technical components. For a more thorough introduction, visit the [Prisma documentation](https://www.prisma.io/docs/).
 
 ### The Prisma schema
 
@@ -176,14 +182,12 @@ Learn more about the available operations in the [Prisma Client docs](https://ww
 ##### Retrieve all `User` records from the database
 
 ```ts
-// Run inside `async` function
 const allUsers = await prisma.user.findMany()
 ```
 
 ##### Include the `posts` relation on each returned `User` object
 
 ```ts
-// Run inside `async` function
 const allUsers = await prisma.user.findMany({
   include: { posts: true },
 })
@@ -192,7 +196,6 @@ const allUsers = await prisma.user.findMany({
 ##### Filter all `Post` records that contain `"prisma"`
 
 ```ts
-// Run inside `async` function
 const filteredPosts = await prisma.post.findMany({
   where: {
     OR: [{ title: { contains: 'prisma' } }, { content: { contains: 'prisma' } }],
@@ -203,7 +206,6 @@ const filteredPosts = await prisma.post.findMany({
 ##### Create a new `User` and a new `Post` record in the same query
 
 ```ts
-// Run inside `async` function
 const user = await prisma.user.create({
   data: {
     name: 'Alice',
@@ -218,7 +220,6 @@ const user = await prisma.user.create({
 ##### Update an existing `Post` record
 
 ```ts
-// Run inside `async` function
 const post = await prisma.post.update({
   where: { id: 42 },
   data: { published: true },
@@ -231,7 +232,21 @@ Note that when using TypeScript, the result of this query will be _statically ty
 
 ## Community
 
-Prisma has a large and supportive [community](https://www.prisma.io/community) of enthusiastic application developers. You can join us on [Slack](https://slack.prisma.io), [Discord](https://pris.ly/discord), and here on [GitHub](https://github.com/prisma/prisma/discussions).
+Prisma has a large and supportive [community](https://www.prisma.io/community) of enthusiastic application developers. You can join us on [Discord](https://pris.ly/discord) and here on [GitHub](https://github.com/prisma/prisma/discussions).
+
+## Badges
+
+[![Made with Prisma](http://made-with.prisma.io/dark.svg)](https://prisma.io) [![Made with Prisma](http://made-with.prisma.io/indigo.svg)](https://prisma.io)
+
+Built something awesome with Prisma? 🌟 Show it off with these [badges](https://github.com/prisma/presskit?tab=readme-ov-file#badges), perfect for your readme or website.
+
+```
+[![Made with Prisma](http://made-with.prisma.io/dark.svg)](https://prisma.io)
+```
+
+```
+[![Made with Prisma](http://made-with.prisma.io/indigo.svg)](https://prisma.io)
+```
 
 ## Security
 
@@ -265,7 +280,7 @@ Refer to our [contribution guidelines](https://github.com/prisma/prisma/blob/mai
 
 ## Tests Status
 
-- Prisma Tests Status:  
+- Prisma Tests Status:
   [![Prisma Tests Status](https://github.com/prisma/prisma/workflows/CI/badge.svg)](https://github.com/prisma/prisma/actions/workflows/test.yml?query=branch%3Amain)
-- Ecosystem Tests Status:  
+- Ecosystem Tests Status:
   [![Ecosystem Tests Status](https://github.com/prisma/ecosystem-tests/workflows/test/badge.svg)](https://github.com/prisma/ecosystem-tests/actions/workflows/test.yaml?query=branch%3Adev)

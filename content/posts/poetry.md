@@ -1,9 +1,9 @@
 ---
 title: poetry
-date: 2024-10-06T12:20:52+08:00
+date: 2025-08-07T12:44:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727064505302-15adb66b3b1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727064505302-15adb66b3b1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjgxODgzNjB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1753633207809-cbb7251cbe01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753633207809-cbb7251cbe01?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
 ---
 
 # [python-poetry/poetry](https://github.com/python-poetry/poetry)
