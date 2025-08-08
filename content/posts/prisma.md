@@ -1,9 +1,9 @@
 ---
 title: prisma
-date: 2025-08-07T12:45:28+08:00
+date: 2025-08-08T12:44:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752892982143-d753acf4a9ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752892982143-d753acf4a9ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754404053094-53433aa3c848?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754404053094-53433aa3c848?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
 ---
 
 # [prisma/prisma](https://github.com/prisma/prisma)

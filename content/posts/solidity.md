@@ -1,9 +1,9 @@
 ---
 title: solidity
-date: 2025-08-07T12:44:30+08:00
+date: 2025-08-08T12:44:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752350434997-8f6366faa0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752350434997-8f6366faa0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753122584290-492f8035a73f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
 ---
 
 # [ethereum/solidity](https://github.com/ethereum/solidity)

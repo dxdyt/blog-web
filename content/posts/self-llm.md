@@ -1,9 +1,9 @@
 ---
 title: self-llm
-date: 2025-06-16T12:31:16+08:00
+date: 2025-08-08T12:45:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748809412153-3344bd1817b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAwNDgyNTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750268746268-fc48e94a316d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750268746268-fc48e94a316d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm)
@@ -84,13 +84,34 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
 
 ### 已支持模型
 
-- [MiniCPM 4.0](https://github.com/OpenBMB/MiniCPM?tab=readme-ov-file#minicpm-40)
-  - [ ] MiniCPM4-8B vllm 部署调用
-  - [ ] MiniCPM4-8B Evalscope 智商情商评测
-  - [ ] MiniCPM4-0.5B Evalscope 单卡4090 并发测试
-  - [ ] MiniCPM4-8B Lora 微调及 SwanLab 可视化记录
-  - [ ] MiniCPM4-0.5B GRPO 微调及通过 Swanlab 可视化
-  - [ ] MiniCPM4 Docker镜像
+- [gpt-oss-20b](https://huggingface.co/openai/gpt-oss-20b)
+  - [ ] gpt-oss-20b vllm 部署调用
+  - [ ] gpt-oss-20b EvalScope 并发评测
+  - [ ] gpt-oss-20b lmstudio 本地部署调用
+  - [ ] gpt-oss-20b Lora 微调及 SwanLab 可视化记录
+  - [ ] gpt-oss-20b DPO 微调及 SwanLab 可视化记录
+
+- [GLM-4.1-Thinking](https://github.com/zai-org/GLM-4.1V-Thinking)
+  - [x] [GLM-4.1V-Thinking vLLM 部署调用](./models/GLM-4.1V-Thinking/01-GLM-4%201V-Thinking%20vLLM部署调用.md) @林恒宇
+  - [x] [GLM-4.1V-Thinking Gradio部署](./models/GLM-4.1V-Thinking/02-GLM-4%201V-Thinking%20Gradio部署.md) @林恒宇
+  - [x] [GLM-4.1V-Thinking Lora 微调及 SwanLab 可视化记录](./models/GLM-4.1V-Thinking/03-GLM-4%201V-Thinking%20LoRA%20及%20SwanLab%20可视化记录.md) @林恒宇
+  - [x] [GLM-4.1V-Thinking Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/GLM4.1V-Thinking-lora) @林恒宇
+
+- [GLM-4.5-Air](https://github.com/zai-org/GLM-4.5)
+  - [x] [GLM-4.5-Air vLLM 部署调用](./models/GLM-4.5-Air/01-GLM-4.5-Air-vLLM%20部署调用.md) @不要葱姜蒜
+  - [x] [GLM-4.5-Air EvalScope 智商情商 && 并发评测](./models/GLM-4.5-Air/02-GLM-4.5-Air%20EvalScope%20并发测试.md) @不要葱姜蒜
+  - [x] [GLM-4.5-Air Lora 微调](./models/GLM-4.5-Air/03-GLM-4.5-Air-Lora%20及%20Swanlab%20可视化微调.md) @不要葱姜蒜
+  - [x] [GLM-4.5-Air Ucloud Docker 镜像](https://www.compshare.cn/images/lUQhKDCeCdZW?referral_code=ELukJdQS3vvCwYIfgsQf2C&ytag=GPU_yy_github_selfllm) @不要葱姜蒜
+
+- [ERNIE-4.5](https://huggingface.co/baidu/ERNIE-4.5-0.3B-PT)
+  - [x] [ERNIE-4.5-0.3B-PT Lora 微调及 SwanLab 可视化记录](./models/ERNIE-4.5/01-ERNIE-4.5-0.3B-PT%20Lora%20微调及%20SwanLab%20可视化记录.md) @不要葱姜蒜
+  - [x] [ERNIE-4.5-0.3B-PT Lora Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/ERNIE-4.5-lora) @不要葱姜蒜
+
+- [Hunyuan-A13B-Instruct](https://github.com/Tencent-Hunyuan/Hunyuan-A13B)
+  - [x] [Hunyuan-A13B-Instruct 模型架构解析 Blog](./models/Hunyuan-A13B-Instruct/01-Hunyuan-A13B-Instruct%20模型架构解析%20Blog.md) @卓堂越
+  - [x] [Hunyuan-A13B-Instruct SGLang 部署调用](./models/Hunyuan-A13B-Instruct/03-Hunyuan-A13B-Instruct-SGLang部署调用.md) @fancy
+  - [x] [Hunyuan-A13B-Instruct Lora SwanLab 可视化微调](./models/Hunyuan-A13B-Instruct/05-Hunyuan-A13B-Instruct-LoRA及SwanLab可视化记录.md) @谢好冉
+  - [x] [Hunyuan-A13B-Instruct Lora Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/Hunyuan-A13B-Instruct-lora) @谢好冉
 
 - [Qwen3](https://github.com/QwenLM/Qwen3)
   - [x] [Qwen3 模型结构解析 Blog](./models/Qwen3/01-Qwen3-模型结构解析-Blog.md) @王泽宇
@@ -128,12 +149,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
   - [x] [gemma-3-4b-it evalscope 智商情商评测](./models/Gemma3/04-Gemma3-4b%20%20evalscope智商情商评测.md) @张龙斐
   - [x] [gemma-3-4b-it Lora 微调](./models/Gemma3/05-gemma-3-4b-it%20LoRA.md) @荞麦
   - [x] [gemma-3-4b-it Docker 镜像](https://www.codewithgpu.com/i/datawhalechina/self-llm/self-llm-gemma3) @姜舒凡
+  - [x] [gemma-3-4b-it GRPO微调及通过swanlab可视化](./models/Gemma3/6-gemma3-4B-itGRPO微调及通过swanlab可视化.md) @郭宣伯
 
 - [DeepSeek-R1-Distill](https://www.modelscope.cn/models/deepseek-ai/DeepSeek-R1-Distill-Qwen-7B)
   - [x] [DeepSeek-R1-Distill-Qwen-7B FastApi 部署调用](./models/DeepSeek-R1-Distill-Qwen/01-DeepSeek-R1-Distill-Qwen-7B%20FastApi%20部署调用.md) @骆秀韬
   - [x] [DeepSeek-R1-Distill-Qwen-7B Langchain 接入](./models/DeepSeek-R1-Distill-Qwen/02-DeepSeek-R1-Distill-Qwen-7B%20Langchain%20接入.md) @骆秀韬
   - [x] [DeepSeek-R1-Distill-Qwen-7B WebDemo 部署](./models/DeepSeek-R1-Distill-Qwen/03-DeepSeek-R1-Distill-Qwen-7B%20WebDemo%20部署.md) @骆秀韬
   - [x] [DeepSeek-R1-Distill-Qwen-7B vLLM 部署调用](./models/DeepSeek-R1-Distill-Qwen/04-DeepSeek-R1-Distill-Qwen-7B%20vLLM%20部署调用.md) @骆秀韬
+  - [x] [DeepSeek-R1-0528-Qwen3-8B-GRPO及swanlab可视化](./models/DeepSeek-R1-Distill-Qwen/05-DeepSeek-R1-0528-Qwen3-8B-GRPO及swanlab可视化.md) @郭宣伯
 
 - [MiniCPM-o-2_6](https://github.com/OpenBMB/MiniCPM-o)
   - [x] [minicpm-o-2.6 FastApi 部署调用](./models/MiniCPM-o/01MiniCPM-o%202%206%20FastApi部署调用%20.md) @林恒宇
@@ -154,6 +177,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
   - [x] [phi4 WebDemo 部署](./models/phi4/03-Phi-4%20WebDemo部署.md) @杜森
   - [x] [phi4 Lora 微调](./models/phi4/04-Phi-4-Lora%20微调.md) @郑远婧
   - [x] [phi4 Lora 微调 NER任务 SwanLab 可视化记录版](./models/phi4/05-Phi-4-Lora%20微调%20命名实体识别.md) @林泽毅
+  - [x] [phi4 GRPO微调及通过swanlab可视化](./models/phi4/06-Phi-4-GRPO及swanlab可视化.md) @郭宣伯
 
 - [Qwen2.5-Coder](https://github.com/QwenLM/Qwen2.5-Coder)
   - [x] [Qwen2.5-Coder-7B-Instruct FastApi部署调用](./models/Qwen2.5-Coder/01-Qwen2.5-Coder-7B-Instruct%20FastApi%20部署调用.md) @赵文恺
@@ -396,7 +420,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
 - [李娇娇](https://github.com/Aphasia0515) （Datawhale成员）
 - [高立业](https://github.com/0-yy-0)（内容创作者-DataWhale成员）
 - [丁悦](https://github.com/dingyue772) （Datawhale-鲸英助教）
-- [林恒宇](https://github.com/LINHYYY)（内容创作者-广东东软学院-鲸英助教）
+- [林恒宇](https://github.com/LINHYYY)（内容创作者-清华大学-鲸英助教）
 - [惠佳豪](https://github.com/L4HeyXiao) （Datawhale-宣传大使）
 - [王茂霖](https://github.com/mlw67)（内容创作者-Datawhale成员）
 - [孙健壮](https://github.com/Caleb-Sun-jz)（内容创作者-对外经济贸易大学）
@@ -407,6 +431,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
 - [李柯辰](https://github.com/Joe-2002) （Datawhale成员）
 - [程宏](https://github.com/chg0901)（内容创作者-Datawhale意向成员）
 - [骆秀韬](https://github.com/anine09)（内容创作者-Datawhale成员-似然实验室）
+- [郭宣伯](https://github.com/Twosugar666)（内容创作者-北京航空航天大学）
+- [谢好冉](https://github.com/ilovexsir)（内容创作者-鲸英助教）
 - [陈思州](https://github.com/jjyaoao) （Datawhale成员）
 - [散步](https://github.com/sanbuphy) （Datawhale成员）
 - [颜鑫](https://github.com/thomas-yanxin) （Datawhale成员）
@@ -436,7 +462,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
 - [张龙斐](https://github.com/Feimike09)（内容创作者-鲸英助教）
 - [孙超](https://github.com/anarchysaiko)（内容创作者-Datawhale成员）
 - [樊奇](https://github.com/fanqiNO1)（内容创作者-上海交通大学）
-- [郭宣伯](https://github.com/Twosugar666)（内容创作者-北京航空航天大学）
+- [卓堂越](https://github.com/nusakom)（内容创作者-鲸英助教）
+- [fancy](https://github.com/fancyboi999)（内容创作者-鲸英助教）
 
 > 注：排名根据贡献程度排序
 
@@ -457,5 +484,5 @@ featuredImagePreview: https://images.unsplash.com/photo-1748809412153-3344bd1817
 ### Star History
 
 <div align=center style="margin-top: 30px;">
-  <img src="./images/star-history-2024129.png"/>
+  <img src="./images/star-history-202572.png"/>
 </div>
