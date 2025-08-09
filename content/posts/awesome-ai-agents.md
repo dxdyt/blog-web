@@ -1,9 +1,9 @@
 ---
 title: awesome-ai-agents
-date: 2024-10-09T12:19:23+08:00
+date: 2025-08-09T12:29:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727863531501-f6f6c0f73394?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727863531501-f6f6c0f73394?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjg0NDc1MzN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1753007644848-78eda6802c98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753007644848-78eda6802c98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
 ---
 
 # [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)
@@ -38,7 +38,7 @@ Add to readme list:
 		<a href="https://discord.gg/U7KEcGErtQ" target="_blank">
 			<img src="https://img.shields.io/static/v1?label=Join&message=%20discord!&color=mediumslateblue">
 		</a>
-		<a href="https://twitter.com/e2b_dev" target="_blank">
+		<a href="https://twitter.com/e2b" target="_blank">
 			<img src="https://img.shields.io/twitter/follow/e2b.svg?logo=twitter">
 		</a>
 	</p>
@@ -76,7 +76,7 @@ This list is made by the team behind [e2b](https://github.com/e2b-dev/e2b). E2b 
 - Check out [Code Interpreter SDK](https://e2b.dev/docs?ref=awesome-sdk)
 - Explore examples in [E2B Cookbook](https://github.com/e2b-dev/e2b-cookbook)
 - Read our [docs](https://e2b.dev/docs?ref=awesome-sdks)
-- Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow us on [X (Twitter)](https://twitter.com/e2b_dev)
+- Contact us at [hello@e2b.dev](mailto:hello@e2b.dev) or [on Discord](https://discord.gg/35NF4Y8WSE). Follow us on [X (Twitter)](https://twitter.com/e2b)
 
 # Open-source projects
 
@@ -1135,7 +1135,7 @@ and while allowing scientist to oversee and direct the process
 
 
 ## [Databerry](https://www.databerry.ai/)
-(Pivoted to Chaindesk) No-code cahtbot building
+(Pivoted to Chaindesk) No-code chatbot building
 
 <details>
 
@@ -5564,7 +5564,7 @@ We are open-source and you can get started with E2B [here](https://e2b.dev/docs?
 -->
 
 ## Join the community
-- Follow us on [X ](https://twitter.com/e2b_dev)
+- Follow us on [X ](https://twitter.com/e2b)
 - [Hit us up on discord](https://discord.gg/35NF4Y8WSE)
 - Feel free to reach out to us at [hello@e2b.dev](mailto:hello@e2b.dev).
 
@@ -5572,7 +5572,7 @@ We are open-source and you can get started with E2B [here](https://e2b.dev/docs?
 <a href="https://discord.gg/U7KEcGErtQ" target="_blank">
 	<img src="https://img.shields.io/static/v1?label=Join&message=%20discord!&color=mediumslateblue">
 </a>
-<a href="https://twitter.com/e2b_dev" target="_blank">
+<a href="https://twitter.com/e2b" target="_blank">
 	<img src="https://img.shields.io/twitter/follow/e2b.svg?logo=twitter">
 </a>
 -->
