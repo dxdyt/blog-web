@@ -1,9 +1,9 @@
 ---
 title: exo
-date: 2025-02-20T12:20:21+08:00
+date: 2025-08-10T12:40:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736173155834-6cd98d8dc9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736173155834-6cd98d8dc9fe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAwMjUxNTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749226710938-843de37fec57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749226710938-843de37fec57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [exo-explore/exo](https://github.com/exo-explore/exo)
@@ -301,10 +301,10 @@ exo supports the following inference engines:
 - ✅ [UDP](exo/networking/udp)
 - ✅ [Manual](exo/networking/manual)
 - ✅ [Tailscale](exo/networking/tailscale)
-- 🚧 [Radio](TODO)
-- 🚧 [Bluetooth](TODO)
+- 🚧 Radio
+- 🚧 Bluetooth
 
 # Peer Networking Modules
 
 - ✅ [GRPC](exo/networking/grpc)
-- 🚧 [NCCL](TODO)
+- 🚧 NCCL

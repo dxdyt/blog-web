@@ -1,9 +1,9 @@
 ---
 title: dart_simple_live
-date: 2025-08-08T12:45:00+08:00
+date: 2025-08-10T12:39:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750268746268-fc48e94a316d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750268746268-fc48e94a316d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ2MjgyMTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752588975082-5e68d7dfa5e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752588975082-5e68d7dfa5e7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [xiaoyaocz/dart_simple_live](https://github.com/xiaoyaocz/dart_simple_live)

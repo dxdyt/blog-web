@@ -1,9 +1,9 @@
 ---
 title: polar
-date: 2025-08-09T12:28:55+08:00
+date: 2025-08-10T12:40:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754516733606-008062751e0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754516733606-008062751e0f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1658226500474-9a01f528a93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1658226500474-9a01f528a93b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [polarsource/polar](https://github.com/polarsource/polar)

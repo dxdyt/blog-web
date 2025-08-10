@@ -1,14 +1,18 @@
 ---
 title: gpt4all
-date: 2024-09-22T12:21:50+08:00
+date: 2025-08-10T12:39:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc95?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjY5Nzg4NDV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1750810977711-944994d29c62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750810977711-944994d29c62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [nomic-ai/gpt4all](https://github.com/nomic-ai/gpt4all)
 
 <h1 align="center">GPT4All</h1>
+
+<p align="center">
+  Now with support for DeepSeek R1 Distillations
+</p>
 
 <p align="center">
   <a href="https://www.nomic.ai/gpt4all">Website</a> &bull; <a href="https://docs.gpt4all.io">Documentation</a> &bull; <a href="https://discord.gg/mGZE39AS3e">Discord</a> &bull; <a href="https://www.youtube.com/watch?v=gQcZDXRVJok">YouTube Tutorial</a>
@@ -25,7 +29,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726056652663-8f1e42b2fc
   Read about what's new in <a href="https://www.nomic.ai/blog/tag/gpt4all">our blog</a>.
 </p>
 <p align="center">
-  <a href="https://forms.nomic.ai/gpt4all-release-notes-signup">Subscribe to the newsletter</a>
+  <a href="https://nomic.ai/gpt4all/#newsletter-form">Subscribe to the newsletter</a>
 </p>
 
 https://github.com/nomic-ai/gpt4all/assets/70534565/513a0f15-4964-4109-89e4-4f9a9011f311
@@ -33,15 +37,17 @@ https://github.com/nomic-ai/gpt4all/assets/70534565/513a0f15-4964-4109-89e4-4f9a
 <p align="center">
 GPT4All is made possible by our compute partner <a href="https://www.paperspace.com/">Paperspace</a>.
 </p>
-<p align="center">
- <a href="https://www.phorm.ai/query?projectId=755eecd3-24ad-49cc-abf4-0ab84caacf63"><img src="https://img.shields.io/badge/Phorm-Ask_AI-%23F2777A.svg" alt="phorm.ai"></a>
-</p>
 
 ## Download Links
 
 <p>
   &mdash; <a href="https://gpt4all.io/installers/gpt4all-installer-win64.exe">
     <img src="gpt4all-bindings/python/docs/assets/windows.png" style="height: 1em; width: auto" /> Windows Installer
+  </a> &mdash;
+</p>
+<p>
+  &mdash; <a href="https://gpt4all.io/installers/gpt4all-installer-win64-arm.exe">
+    <img src="gpt4all-bindings/python/docs/assets/windows.png" style="height: 1em; width: auto" /> Windows ARM Installer
   </a> &mdash;
 </p>
 <p>
@@ -55,10 +61,16 @@ GPT4All is made possible by our compute partner <a href="https://www.paperspace.
   </a> &mdash;
 </p>
 <p>
-  Windows and Linux require Intel Core i3 2nd Gen / AMD Bulldozer, or better. x86-64 only, no ARM.
+  The Windows and Linux builds require Intel Core i3 2nd Gen / AMD Bulldozer, or better.
 </p>
 <p>
-  macOS requires Monterey 12.6 or newer. Best results with Apple Silicon M-series processors.
+  The Windows ARM build supports Qualcomm Snapdragon and Microsoft SQ1/SQ2 processors.
+</p>
+<p>
+  The Linux build is x86-64 only (no ARM).
+</p>
+<p>
+  The macOS build requires Monterey 12.6 or newer. Best results with Apple Silicon M-series processors.
 </p>
 
 See the full [System Requirements](gpt4all-chat/system_requirements.md) for more details.

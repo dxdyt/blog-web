@@ -1,15 +1,23 @@
 ---
 title: fastapi_mcp
-date: 2025-07-03T12:32:45+08:00
+date: 2025-08-10T12:40:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750629728238-f17aea3f5c9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750629728238-f17aea3f5c9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE1MTcwNjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/flagged/photo-1563692387207-b3195345e3a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/flagged/photo-1563692387207-b3195345e3a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
 
 <p align="center"><a href="https://github.com/tadata-org/fastapi_mcp"><img src="https://github.com/user-attachments/assets/7e44e98b-a0ba-4aff-a68a-4ffee3a6189c" alt="fastapi-to-mcp" height=100/></a></p>
-<h1 align="center">FastAPI-MCP</h1>
+
+<div align="center">
+  <span style="font-size: 0.85em; font-weight: normal;">Built by <a href="https://tadata.com">Tadata</a></span>
+</div>
+
+<h1 align="center">
+  FastAPI-MCP
+</h1>
+
 <p align="center">Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</p>
 <div align="center">
 
