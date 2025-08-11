@@ -1,16 +1,16 @@
 ---
 title: jan
-date: 2025-06-20T12:26:17+08:00
+date: 2025-08-11T12:42:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748032886709-8878d876dc50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748032886709-8878d876dc50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752542361803-67aaed92a27f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4ODczNTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752542361803-67aaed92a27f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4ODczNTF8&ixlib=rb-4.1.0
 ---
 
 # [menloresearch/jan](https://github.com/menloresearch/jan)
 
 # Jan - Local AI Assistant
 
-![Jan banner](./JanBanner.png)
+![Jan AI](docs/src/pages/docs/_assets/jan-app.png)
 
 <p align="center">
   <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
@@ -22,62 +22,50 @@ featuredImagePreview: https://images.unsplash.com/photo-1748032886709-8878d876dc
 </p>
 
 <p align="center">
-  <a href="https://jan.ai/docs/quickstart">Getting Started</a> 
-  - <a href="https://jan.ai/docs">Docs</a> 
-  - <a href="https://jan.ai/changelog">Changelog</a> 
-  - <a href="https://github.com/menloresearch/jan/issues">Bug reports</a> 
+  <a href="https://jan.ai/docs/quickstart">Getting Started</a>
+  - <a href="https://jan.ai/docs">Docs</a>
+  - <a href="https://jan.ai/changelog">Changelog</a>
+  - <a href="https://github.com/menloresearch/jan/issues">Bug reports</a>
   - <a href="https://discord.gg/AsJ8krTT3N">Discord</a>
 </p>
 
-Jan is a ChatGPT-alternative that runs 100% offline on your device. Our goal is to make it easy for a layperson to download and run LLMs and use AI with **full control** and **privacy**.
-
-**⚠️ Jan is in active development.**
+Jan is an AI assistant that can run 100% offline on your device. Download and run LLMs with
+**full control** and **privacy**.
 
 ## Installation
 
-Because clicking a button is still the easiest way to get started:
+The easiest way to get started is by downloading one of the following versions for your respective operating system:
 
 <table>
   <tr>
     <td><b>Platform</b></td>
     <td><b>Stable</b></td>
-    <td><b>Beta</b></td>
     <td><b>Nightly</b></td>
   </tr>
   <tr>
     <td><b>Windows</b></td>
     <td><a href='https://app.jan.ai/download/latest/win-x64'>jan.exe</a></td>
-    <td><a href='https://app.jan.ai/download/beta/win-x64'>jan.exe</a></td>
     <td><a href='https://app.jan.ai/download/nightly/win-x64'>jan.exe</a></td>
   </tr>
   <tr>
     <td><b>macOS</b></td>
     <td><a href='https://app.jan.ai/download/latest/mac-universal'>jan.dmg</a></td>
-    <td><a href='https://app.jan.ai/download/beta/mac-universal'>jan.dmg</a></td>
     <td><a href='https://app.jan.ai/download/nightly/mac-universal'>jan.dmg</a></td>
   </tr>
   <tr>
     <td><b>Linux (deb)</b></td>
     <td><a href='https://app.jan.ai/download/latest/linux-amd64-deb'>jan.deb</a></td>
-    <td><a href='https://app.jan.ai/download/beta/linux-amd64-deb'>jan.deb</a></td>
     <td><a href='https://app.jan.ai/download/nightly/linux-amd64-deb'>jan.deb</a></td>
   </tr>
   <tr>
     <td><b>Linux (AppImage)</b></td>
     <td><a href='https://app.jan.ai/download/latest/linux-amd64-appimage'>jan.AppImage</a></td>
-    <td><a href='https://app.jan.ai/download/beta/linux-amd64-appimage'>jan.AppImage</a></td>
     <td><a href='https://app.jan.ai/download/nightly/linux-amd64-appimage'>jan.AppImage</a></td>
   </tr>
 </table>
 
 Download from [jan.ai](https://jan.ai/) or [GitHub Releases](https://github.com/menloresearch/jan/releases).
 
-## Demo
-
-<video width="100%" controls>
-  <source src="./docs/public/assets/videos/enable-tool-call-for-models.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ## Features
 
@@ -99,7 +87,7 @@ For those who enjoy the scenic route:
 - Make ≥ 3.81
 - Rust (for Tauri)
 
-### Quick Start
+### Run with Make
 
 ```bash
 git clone https://github.com/menloresearch/jan
@@ -109,33 +97,43 @@ make dev
 
 This handles everything: installs dependencies, builds core components, and launches the app.
 
-### Alternative Commands
+**Available make targets:**
+- `make dev` - Full development setup and launch
+- `make build` - Production build
+- `make test` - Run tests and linting
+- `make clean` - Delete everything and start fresh
 
-If you prefer the verbose approach:
+### Run with Mise (easier)
+
+You can also run with [mise](https://mise.jdx.dev/), which is a bit easier as it ensures Node.js, Rust, and other dependency versions are automatically managed:
 
 ```bash
-# Setup and development
+git clone https://github.com/menloresearch/jan
+cd jan
+
+# Install mise (if not already installed)
+curl https://mise.run | sh
+
+# Install tools and start development
+mise install    # installs Node.js, Rust, and other tools
+mise dev        # runs the full development setup
+```
+
+**Available mise commands:**
+- `mise dev` - Full development setup and launch
+- `mise build` - Production build
+- `mise test` - Run tests and linting
+- `mise clean` - Delete everything and start fresh
+- `mise tasks` - List all available tasks
+
+### Manual Commands
+
+```bash
 yarn install
 yarn build:core
 yarn build:extensions
 yarn dev
-
-# Production build
-yarn build
-
-# Clean slate (when things inevitably break)
-make clean
 ```
-
-### Available Make Targets
-
-- `make dev` - Full development setup and launch (recommended)
-- `make dev-tauri` - Tauri development (deprecated, use `make dev`)
-- `make build` - Production build
-- `make install-and-build` - Install dependencies and build core/extensions
-- `make test` - Run tests and linting
-- `make lint` - Check your code doesn't offend the linters
-- `make clean` - Nuclear option: delete everything and start fresh
 
 ## System Requirements
 
@@ -149,13 +147,12 @@ For detailed compatibility, check our [installation guides](https://jan.ai/docs/
 
 ## Troubleshooting
 
-When things go sideways (they will):
+If things go sideways:
 
 1. Check our [troubleshooting docs](https://jan.ai/docs/troubleshooting)
 2. Copy your error logs and system specs
 3. Ask for help in our [Discord](https://discord.gg/FTk2MvZwJH) `#🆘|jan-help` channel
 
-We keep logs for 24 hours, so don't procrastinate on reporting issues.
 
 ## Contributing
 
@@ -174,15 +171,6 @@ Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the full spiel
 - **Business**: hello@jan.ai
 - **Jobs**: hr@jan.ai
 - **General Discussion**: [Discord](https://discord.gg/FTk2MvZwJH)
-
-## Trust & Safety
-
-**Friendly reminder**: We're not trying to scam you.
-
-- We won't ask for personal information
-- Jan is completely free (no premium version exists)
-- We don't have a cryptocurrency or ICO
-- We're bootstrapped and not seeking your investment (yet)
 
 ## License
 
