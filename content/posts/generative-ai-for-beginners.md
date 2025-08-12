@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2025-07-29T12:47:51+08:00
+date: 2025-08-12T12:27:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749642873047-712642dc583e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749642873047-712642dc583e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1590698933947-a202b069a861?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1590698933947-a202b069a861?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
@@ -69,7 +69,7 @@ Ask questions or share product feedback in our [Azure AI Foundry Developer Forum
 
 ## 🚀 Building a Startup?
 
-Sign up for [Microsoft for Startups Founders Hub](https://aka.ms/genai-foundershub?WT.mc_id=academic-105485-koreyst) to receive **free OpenAI credits** and up to **$150k towards Azure credits to access OpenAI models through Azure OpenAI Services**.
+Visit [Microsoft for Startups](https://www.microsoft.com/startups) to find out how to get started building with Azure credits today.
 
 ## 🙏 Want to help?
 

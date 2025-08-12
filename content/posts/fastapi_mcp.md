@@ -1,9 +1,9 @@
 ---
 title: fastapi_mcp
-date: 2025-08-10T12:40:54+08:00
+date: 2025-08-12T12:27:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/flagged/photo-1563692387207-b3195345e3a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/flagged/photo-1563692387207-b3195345e3a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750764515068-80d222d974bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750764515068-80d222d974bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
 ---
 
 # [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)
@@ -17,6 +17,10 @@ featuredImagePreview: https://images.unsplash.com/flagged/photo-1563692387207-b3
 <h1 align="center">
   FastAPI-MCP
 </h1>
+
+<div align="center">
+<a href="https://trendshift.io/repositories/14064" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14064" alt="tadata-org%2Ffastapi_mcp | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</div>
 
 <p align="center">Expose your FastAPI endpoints as Model Context Protocol (MCP) tools, with Auth!</p>
 <div align="center">

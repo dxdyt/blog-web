@@ -1,9 +1,9 @@
 ---
 title: SDL
-date: 2025-08-11T12:42:45+08:00
+date: 2025-08-12T12:28:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754494837351-cd16d44683bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4ODczNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754494837351-cd16d44683bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4ODczNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752407828784-67a92663c866?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752407828784-67a92663c866?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
 ---
 
 # [libsdl-org/SDL](https://github.com/libsdl-org/SDL)

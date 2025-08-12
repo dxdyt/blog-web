@@ -1,9 +1,9 @@
 ---
 title: firecrawl
-date: 2025-07-01T12:38:01+08:00
+date: 2025-08-12T12:28:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749072624357-9ca89036324d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749072624357-9ca89036324d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752432138935-05f94e6be8f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752432138935-05f94e6be8f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
 ---
 
 # [mendableai/firecrawl](https://github.com/mendableai/firecrawl)
@@ -81,7 +81,7 @@ To use the API, you need to sign up on [Firecrawl](https://firecrawl.dev) and ge
 
 - [**Scrape**](#scraping): scrapes a URL and get its content in LLM-ready format (markdown, structured data via [LLM Extract](#llm-extraction-beta), screenshot, html)
 - [**Crawl**](#crawling): scrapes all the URLs of a web page and return content in LLM-ready format
-- [**Map**](#map-alpha): input a website and get all the website urls - extremely fast
+- [**Map**](#map): input a website and get all the website urls - extremely fast
 - [**Search**](#search): search the web and get full content from results
 - [**Extract**](#extract): get structured data from single page, multiple pages or entire websites with AI.
 
