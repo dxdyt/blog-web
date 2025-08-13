@@ -1,9 +1,9 @@
 ---
 title: buttercup
-date: 2025-08-12T12:27:19+08:00
+date: 2025-08-13T12:30:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753808446192-dcb2083936e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753808446192-dcb2083936e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754732494172-5c1d2db8230c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754732494172-5c1d2db8230c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
 ---
 
 # [trailofbits/buttercup](https://github.com/trailofbits/buttercup)

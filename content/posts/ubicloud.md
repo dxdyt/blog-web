@@ -1,9 +1,9 @@
 ---
 title: ubicloud
-date: 2025-01-15T12:18:57+08:00
+date: 2025-08-13T12:29:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c60?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY5MTQ3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1752061159819-f290b8f48b08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752061159819-f290b8f48b08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
 ---
 
 # [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud)
@@ -13,14 +13,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1732574560934-8fc7e8cc3c
 </p>
 
 
-# Ubicloud [![CI](https://github.com/ubicloud/ubicloud/actions/workflows/ci.yml/badge.svg)](https://github.com/ubicloud/ubicloud/actions/workflows/ci.yml) [![Build](https://github.com/ubicloud/ubicloud/actions/workflows/build.yml/badge.svg)](https://github.com/ubicloud/ubicloud/actions/workflows/build.yml) <a href="https://app.greptile.com/repo/ubicloud"><img src="https://img.shields.io/badge/learn_with-greptile-%091B12?color=%091B12" alt="Learn this repo using Greptile"></a>
+# Ubicloud [![CI](https://github.com/ubicloud/ubicloud/actions/workflows/ci.yml/badge.svg)](https://github.com/ubicloud/ubicloud/actions/workflows/ci.yml) [![Build](https://github.com/ubicloud/ubicloud/actions/workflows/build.yml/badge.svg)](https://github.com/ubicloud/ubicloud/actions/workflows/build.yml) <a href="https://app.greptile.com/repo/ubicloud/ubicloud"><img src="https://img.shields.io/badge/learn_with-greptile-%091B12?color=%091B12" alt="Learn this repo using Greptile"></a>
 
 Ubicloud is an open source cloud that can run anywhere. Think of it as an open alternative
 to cloud providers, like what Linux is to proprietary operating systems.
 
 Ubicloud provides IaaS cloud features on bare metal providers, such as Hetzner, Leaseweb, 
 and AWS Bare Metal. You can set it up yourself on these providers or you can use our 
-managed service. We're currently in public beta.
+[managed service](https://console.ubicloud.com).
 
 ## Quick start
 
@@ -52,13 +52,20 @@ The control plane is responsible for cloudifying bare metal Linux machines.
 The easiest way to build your own cloud is to lease instances from one of those
 providers. For example: https://www.hetzner.com/sb
 
-Once you lease instance(s), run the following script for each instance to cloudify
-the instance. By default, the script cloudifies bare metal instances leased from 
-Hetzner. After you cloudify your instances, you can provision and manage cloud 
+Once you lease instance(s), update the `.env` file with the following environment
+variables:
+- `HETZNER_USER`
+- `HETZNER_PASSWORD`
+- `HETZNER_SSH_PUBLIC_KEY`
+- `HETZNER_SSH_PRIVATE_KEY`
+
+Then, run the following script for each instance to cloudify it.
+Currently, the script cloudifies bare metal instances leased from Hetzner.
+After you cloudify your instances, you can provision and manage cloud
 resources on these machines.
 
 ```
-# Enter hostname/IP and provider, and install SSH key as instructed by script
+# Enter hostname/IP and provider
 docker exec -it ubicloud-app ./demo/cloudify_server
 ```
 
@@ -94,9 +101,8 @@ cloud for portability, security, or compliance reasons.
 
 ## Status
 
-Ubicloud is in public beta. You can provide us your feedback, get help, or ask
-us to support your network environment in the
-[Community Forum](https://github.com/ubicloud/ubicloud/discussions).
+You can provide us your feedback, get help, or ask us questions regarding your
+Ubicloud installations in the [Community Forum](https://github.com/ubicloud/ubicloud/discussions).
 
 We follow an established architectural pattern in building public cloud services. 
 A control plane manages a data plane, where the data plane leverages open source 
@@ -142,9 +148,10 @@ tests, we use [RSpec](https://rspec.info/).
 design, we use [Tailwind CSS](https://tailwindcss.com) with components from
 [Tailwind UI](https://tailwindui.com). We also use jQuery for interactivity.
 
-If you’d like to start hacking with Ubicloud, any method of obtaining Ruby and Postgres 
-versions is acceptable. If you have no opinion on this, our development team uses `asdf-vm` 
-as [documented here in detail](DEVELOPERS.md).
+If you’d like to start hacking with Ubicloud, any method of obtaining
+Ruby and Postgres versions is acceptable. If you have no opinion on
+this, our development team uses `mise` as [documented here in
+detail](DEVELOPERS.md).
 
 [Greptile](https://greptile.com/) provides an AI/LLM that indexes
 Ubicloud's source code [can answer questions about

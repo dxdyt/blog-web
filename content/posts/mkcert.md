@@ -1,9 +1,9 @@
 ---
 title: mkcert
-date: 2024-12-05T12:22:24+08:00
+date: 2025-08-13T12:31:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731493710740-136a5ce91c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731493710740-136a5ce91c57?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1745776707319-c01d866ee6b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745776707319-c01d866ee6b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
 ---
 
 # [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert)
