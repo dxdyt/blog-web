@@ -1,9 +1,9 @@
 ---
 title: fastapi_mcp
-date: 2025-08-12T12:27:11+08:00
+date: 2025-08-14T12:30:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750764515068-80d222d974bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750764515068-80d222d974bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753272379230-d11f5662bcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753272379230-d11f5662bcf6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
 ---
 
 # [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp)

@@ -1,9 +1,9 @@
 ---
 title: full-stack-fastapi-template
-date: 2025-08-13T12:30:13+08:00
+date: 2025-08-14T12:31:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752257690965-485767d4c334?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752257690965-485767d4c334?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752643719588-66f0f6fb3086?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752643719588-66f0f6fb3086?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
 ---
 
 # [fastapi/full-stack-fastapi-template](https://github.com/fastapi/full-stack-fastapi-template)

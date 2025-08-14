@@ -1,9 +1,9 @@
 ---
 title: notebooks
-date: 2025-08-13T12:30:04+08:00
+date: 2025-08-14T12:31:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753176392557-74d3a9da1b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753176392557-74d3a9da1b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754067021342-6b7499ac47a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754067021342-6b7499ac47a6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
 ---
 
 # [unslothai/notebooks](https://github.com/unslothai/notebooks)
