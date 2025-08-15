@@ -1,9 +1,9 @@
 ---
 title: components
-date: 2024-02-28T12:19:19+08:00
+date: 2025-08-15T12:30:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1706449511703-756ffcf47634?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwOTM3OTN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754410384452-828be85f07cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754410384452-828be85f07cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
 ---
 
 # [angular/components](https://github.com/angular/components)
@@ -41,21 +41,15 @@ Material.
 
 If you'd like to contribute, please follow our [contributing guidelines][contributing]. Please see
 our [`help wanted`][help-wanted] label for a list of issues with good opportunities for
-contribution. You can also use the [`good first issue`][good-first-issue] label to find issues 
+contribution. You can also use the [`good first issue`][good-first-issue] label to find issues
 if you are just starting to contribute to the project.
-
-## What we're working on now (Q2 2023):
-* Investigating and fixing reported regressions for the new components launched in v15
-* Creating a new more flexible theming API in collaboration with [MDC Web](https://github.com/material-components/material-components-web/)
-* Continuing to focus on improving the accessibility of Angular Material components
-* Improving the performance of our components in large applications
 
 ## About the team
 The Angular Components team is part of the Angular team at Google. The team includes both Google
 employees and community contributors from around the globe.
 
 Our team has two primary goals:
-* Build high-quality UI components that developers can drop into existing applications 
+* Build high-quality UI components that developers can drop into existing applications
 * Provide tools that help developers build their own custom components with common interaction
 patterns
 
@@ -84,12 +78,11 @@ We aim for great user experience with the following screen readers:
 [Material Design]: https://material.io
 [Google Maps JavaScript API]: https://developers.google.com/maps/documentation/javascript/tutorial
 [YouTube Player API]: https://developers.google.com/youtube/iframe_api_reference
-[MDC Web]: https://github.com/material-components/material-components-web/
-[cdk-docs]: https://material.angular.io/cdk/categories
-[mat-docs]: https://material.angular.io
+[cdk-docs]: https://material.angular.dev/cdk/categories
+[mat-docs]: https://material.angular.dev
 [map-docs]: https://github.com/angular/components/blob/main/src/google-maps/README.md
 [ytp-docs]: https://github.com/angular/components/blob/main/src/youtube-player/README.md
-[getting-started]: https://material.angular.io/guide/getting-started
+[getting-started]: https://material.angular.dev/guide/getting-started
 [contributing]: https://github.com/angular/components/blob/main/CONTRIBUTING.md
 [help-wanted]: https://github.com/angular/components/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22
 [good-first-issue]: https://github.com/angular/components/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22+label%3A%22good+first+issue%22

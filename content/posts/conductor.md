@@ -1,9 +1,9 @@
 ---
 title: conductor
-date: 2025-08-14T12:30:58+08:00
+date: 2025-08-15T12:30:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753010837210-06dfb1ffc5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753010837210-06dfb1ffc5d7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753973975182-6f15378aac7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753973975182-6f15378aac7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
 ---
 
 # [conductor-oss/conductor](https://github.com/conductor-oss/conductor)

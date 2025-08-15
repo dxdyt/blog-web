@@ -1,9 +1,9 @@
 ---
 title: embedding-atlas
-date: 2025-08-14T12:29:45+08:00
+date: 2025-08-15T12:31:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753684677323-6f1897144c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753684677323-6f1897144c18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754244774221-cc8fcd5d0dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754244774221-cc8fcd5d0dcd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
 ---
 
 # [apple/embedding-atlas](https://github.com/apple/embedding-atlas)

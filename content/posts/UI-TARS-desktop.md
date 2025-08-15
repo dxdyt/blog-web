@@ -1,9 +1,9 @@
 ---
 title: UI-TARS-desktop
-date: 2025-08-14T12:30:16+08:00
+date: 2025-08-15T12:30:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751076547698-b45b3b7d2695?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751076547698-b45b3b7d2695?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754018422199-e39850170297?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754018422199-e39850170297?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)

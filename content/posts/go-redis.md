@@ -1,9 +1,9 @@
 ---
 title: go-redis
-date: 2025-08-13T12:31:19+08:00
+date: 2025-08-15T12:30:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752805252779-000e9d493b1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752805252779-000e9d493b1f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754152728702-3aff14b2d83e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754152728702-3aff14b2d83e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
 ---
 
 # [redis/go-redis](https://github.com/redis/go-redis)
