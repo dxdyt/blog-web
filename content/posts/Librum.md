@@ -1,33 +1,59 @@
 ---
 title: Librum
-date: 2023-12-21T12:17:36+08:00
+date: 2025-08-16T12:25:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1702165637236-46169676d7ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDMxMzIxMzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1753186566992-4b609276c4db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753186566992-4b609276c4db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
 ---
 
 # [Librum-Reader/Librum](https://github.com/Librum-Reader/Librum)
 
-﻿# Librum
+# Librum
 
 Librum is an application designed to make reading <b>enjoyable</b> and <b>straightforward</b> for everyone.
 
-It's not **just** an e-book reader. With Librum, you can manage your own online library and access it from any device anytime, anywhere. It has features like note-taking, bookmarking, and highlighting, while offering customization to make it as personal as you want!
+It's not **just** an e-book reader. With Librum, you can manage your own online library and access it from any device anytime, anywhere. It has features like note-taking, AI tooling, and highlighting, while offering customization to make it as personal as you want!
  
 Librum also provides free access to over 70,000 books and personal reading statistics while being free and completely open source.
 
+<br>
+
+Download Librum from [our website](https://librumreader.com)!
+
+<br>
+
+# Table of Contents
+- [Preview](#Preview)
+- [Contributing](#Contributing)
+- [Contact](#Contact)
+- [Donations](#Donations)
+- [Translations](#Translations)
+- [Documentation](#Documentation)
+- [Self-hosting](#Self-hosting)
+- [Details](#Details)
+- [Build Guide](#Build-Guide)
+
+<br>
 
 # Preview
+
+Setup and manage your own online library
+
+![HomeScreenDark](https://github.com/Librum-Reader/Librum/assets/69865187/ea94fc68-1bf0-4933-8d80-43a57c6590c5)
+
+<br>
 
 A simple and modern interface
 
 ![image](https://github.com/Librum-Reader/Librum/assets/69865187/bf1d0401-62bd-4f4e-b008-523fb2efd275)
 
+
 <br>
 
-Setup and manage your own library
+Add your books to collections, tag them, and sort them in any way you want
 
-![HomeScreenDark](https://github.com/Librum-Reader/Librum/assets/69865187/ea94fc68-1bf0-4933-8d80-43a57c6590c5)
+![folders_dark](https://github.com/Librum-Reader/Librum/assets/69865187/00fec031-a835-4cae-89f1-79dbce24b356)
+
 
 <br>
 
@@ -38,38 +64,56 @@ Customize Librum to make it personal to you
 
 <br>
 
-# How can I get Librum?
+# Contributing
 
-Simply go to https://librumreader.com to download Librum.
+If you'd to support Librum's development, check out: https://librumreader.com/contribute
+<br>
+<br>
+All of the current feature requests, bugs and tasks are listed in the [issues](https://github.com/Librum-Reader/Librum/issues). Easy tasks are labeled "good first issue", so that is a good starting point.
+<br>
+<br>
+PS: Feel free to tag me (@DavidLazarescu) in the comments of any issue if you have questions. 
 
-If you want to build Librum from source, follow the instructions [here](#build-guide).
+<br>
+
+# Contact
+
+For questions, you can reach us under: help@librumreader.com
+<br>
+For business related contact, reach out to us here: contact@librumreader.com
+
+<br>
+
+# Donations
+
+Donations make it possible for us to cover our server costs and allow us to make investments into new areas of development.
+<br>
+If you would like to support us, check out: https://librumreader.com/contribute/donate or become a Github sponsor! 
+<br>
+<br>
+As a team of opensource developers we rely on donations to continue working on projects like Librum. Your help is greatly appreciated.
 
 <br>
 
 # Translations
 
-Librum is currently available in:
-- English
-- German
-- Russian
-- Mandarin
+Librum is currently available in the languages listed [here](https://github.com/Librum-Reader/Librum/tree/main/src/presentation/translations)
 
 If you want to translate Librum to another language, follow the steps below:
-- Download the file at: https://github.com/Librum-Reader/Librum/blob/main/src/presentation/translations/librum_en.ts
+- Download [this file](https://github.com/Librum-Reader/Librum/blob/dev/develop/src/presentation/translations/librum_en.ts)
 - Rename the file to contain your language's suffix, e.g. "librum_ru.ts" for Russian or "librum_de.ts" for German
-- Download the translation software (Qt Linguist) either for Windows from https://github.com/thurask/Qt-Linguist or using the Qt Installer at https://www.qt.io/download-open-source
+- Download the translation software (Qt Linguist) either for Windows from [here](https://github.com/thurask/Qt-Linguist) or using the [Qt Installer](https://www.qt.io/download-open-source)
 - Now start Qt Linguist, open the downloaded file, set the target language to the language you want to translate to and start translating.
-(For a quick guide on Qt Linguist, check out: https://youtu.be/xNIz78IPBu0?t=347)
+(Check out [this guide](https://youtu.be/xNIz78IPBu0?t=347) for a quick overview of Qt Linguist)
 
-Once you are done, create a pull request or an issue with your new translation file!<br>
+Once you are done, create a pull request or open up an issue with your new translation file!<br>
 If you run into any problems, need guidance or have questions, feel free to reach out to us at: contact@librumreader.com
 
 <br>
 
 Notes:
 - Make sure that your translations are approximately the same length as the original text
-- Make sure that you keep to the punctuation and capitalisation
-- Make sure that your translations make sense in the context they are in
+- Please carefully check for spelling mistakes (including punctuation and capitalization)
 
 <br>
 
@@ -79,38 +123,12 @@ For documentation go to [Librum's GitHub-wiki](https://github.com/Librum-Reader/
 
 <br>
 
-# Donations
+# Self-hosting
+To self-host Librum you need to run [Librum-Server](https://github.com/Librum-Reader/Librum-Server) locally (instructions can be found [here](https://github.com/Librum-Reader/Librum-Server#self-hosting)) and tell the client to use your self-hosted server by:
+- (Linux) Editing ~/.config/Librum-Reader/Librum.conf and setting `selfHosted=true` and `serverHost` to your server's url (e.g. `serverHost=https://127.0.0.1:5001`)
+- (Windows) Opening the registry editor (Press `Win + R` and search for `regedit`), navigating to `HKEY_CURRENT_USER\Software\Librum-Reader\Librum` and setting `selfHosted=true` and `serverHost` to your server's url
 
-Donations make it possible for us to cover our server costs and allow us to make investments into new areas of development.
-<br>
-If you would like to support us, check out: https://librumreader.com/contribute/donate or become a github sponsor! 
-<br>
-<br>
-As a team of opensource developers we rely on donations to continue working on projects like Librum. Your help is greatly appreciated.
-
-<br>
-
-# Contributing
-
-If you'd like to contribute, check out: https://librumreader.com/contribute
-<br>
-<br>
-If you are interested in contributing, feel free to contact us on either:<br>
-1. Discord (m_david#0631)
-2. Email (contact@librumreader.com)
-<br>
-We are following a pull request workflow where every contribution is sent as a pull request and merged into the dev/develop branch for testing. <br>
-Please make sure to run clang format, keep to the conventions used throughout the application and ensure that all tests pass, before submitting any pull request.
-
-<br>
-<br>
-
-# Contact
-
-
-For questions, you can reach us under: help@librumreader.com
-<br>
-For business related contact, reach out to us here: contact@librumreader.com
+Make sure to run the application before following the steps above, to generate the required files.
 
 <br>
 
@@ -132,11 +150,13 @@ including:
 - PDF
 - EPUB
 - CBZ (Comic books)
+- FB2
+- TIFF
+- Mobi
 - XPS
-- PS
-- All plain text formats
 - Images
 
+And many more!
 
 <br>
 
@@ -144,18 +164,18 @@ including:
 Librum's objective is to make your reading more <b>productive</b>; to that end, we provide you with a variety of features that you can access via a <b>simple</b> and <b>straightforward</b> interface.<br>
 These features include:
 - A modern e-reader
-- A personalized and customizable library
+- A personalized and customizable online library
 - Book meta-data editing
-- A free in-app bookstore with more than 70.000 books
+- A free in-app bookstore with more than 70,000 books
 - Book syncing across all of your devices
 - Highlighting
 - Bookmarking
 - Text search
 - Unlimited customization
+- Fine-grained organization through Librum's folder system
 - Note-taking (Coming Soon)
 - TTS (Coming Soon)
 - Personalized reading statistics (Coming Soon)
-- No-login book reading (Coming Soon)
 
 Want a new feature? Feel free to leave a feature request ticket!
 
@@ -309,6 +329,8 @@ The installation is straight forward, just follow the steps below:
     ```
 7. Install Librum
     ```sh
-    cmake --install .
+    cmake --install
     ```
+Note: Make sure to add `/usr/local/lib` to your DYLIB path, for MacOS to find the installed libraries by exporting `DYLD_LIBRARY_PATH=$DYLD_LIBRARY_PATH:/usr/local/lib`.
+
 <br>

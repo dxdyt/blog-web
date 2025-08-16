@@ -1,9 +1,9 @@
 ---
 title: czkawka
-date: 2024-02-27T12:15:59+08:00
+date: 2025-08-16T12:25:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1708133244413-5f8ef92a6a4b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDkwMDczMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1749226707461-de8a7da679fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1749226707461-de8a7da679fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
 ---
 
 # [qarmin/czkawka](https://github.com/qarmin/czkawka)
@@ -17,7 +17,7 @@ files from your computer.
 
 ## Features
 
-- Written in memory-safe Rust
+- Written in memory-safe Rust - almost 100% unsafe code free
 - Amazingly fast - due to using more or less advanced algorithms and multithreading
 - Free, Open Source without ads
 - Multiplatform - works on Linux, Windows, macOS, FreeBSD and many more
@@ -39,14 +39,13 @@ files from your computer.
     - Broken Files - Finds files that are invalid or corrupted
     - Bad Extensions - Lists files whose content not match with their extension
 
-![Czkawka](https://user-images.githubusercontent.com/41945903/145280350-506f7e94-4db0-4de7-a68d-6e7c26bbd2bf.gif)
+![Czkawka](https://github.com/user-attachments/assets/b0409515-1bec-4e13-8fac-7bdfa15f5848)
 
-![Krokiet](https://github.com/qarmin/czkawka/assets/41945903/52628a29-ecd6-4692-9ee4-8a680c889193)
+![Krokiet](https://github.com/user-attachments/assets/906cbbc3-f011-4306-81da-9e4e53b49a9f)
 
-Changelog and new releases can be found in [Github releases](https://github.com/qarmin/czkawka/releases) or
-in [CHANGELOG.md](CHANGELOG.md).
+Changelog about each version can be found in [CHANGELOG.md](Changelog.md).
 
-More about latest version, you can find [in Medium article](https://medium.com/@qarmin/czkawka-7-0-a465036e8788)
+New releases can be found in [Github releases](https://github.com/qarmin/czkawka/releases) and nightly builds also in [Nightly releases](https://github.com/qarmin/czkawka/releases/tag/Nightly)
 
 ## Usage, installation, compilation, requirements, license
 
@@ -88,7 +87,7 @@ options to choose than other).
 |  Non stripped binaries   |             |             |   ✔    |                   |             |
 |   Redundant whitespace   |             |             |   ✔    |                   |             |
 |    Overwriting files     |             |             |   ✔    |                   |      ✔      |
-|    Multiple languages    |      ✔      |             |   ✔    |         ✔         |      ✔      |
+|    Multiple languages    |      ✔      |      ✔      |   ✔    |         ✔         |      ✔      |
 |      Cache support       |      ✔      |      ✔      |        |         ✔         |             |
 |  In active development   |     Yes     |     Yes     |   No   |        Yes        |     Yes     |
 
@@ -101,8 +100,7 @@ There are many similar applications to Czkawka on the Internet, which do some th
 - [DupeGuru](https://github.com/arsenetar/dupeguru) - Many options to customize; great photo compare tool
 - [FSlint](https://github.com/pixelb/fslint) - A little outdated, but still have some tools not available in Czkawka
 - [AntiDupl.NET](https://github.com/ermig1979/AntiDupl) - Shows a lot of metadata of compared images
-- [Video Duplicate Finder](https://github.com/0x90d/videoduplicatefinder) - Finds similar videos(surprising, isn't it),
-  supports video thumbnails
+- [Video Duplicate Finder](https://github.com/0x90d/videoduplicatefinder) - Finds similar videos(surprising, isn't it), supports video thumbnails
 
 ### CLI
 
@@ -114,35 +112,6 @@ console apps, then take a look at these:
 - [Rmlint](https://github.com/sahib/rmlint) - Nice console interface and also is feature packed
 - [RdFind](https://github.com/pauldreik/rdfind) - Fast, but written in C++ ¯\\\_(ツ)\_/¯
 
-## Contributions
-
-Contributions to this repository are welcome.
-
-You can help by creating:
-
-- Bug reports - memory leaks, unexpected behavior, crashes
-- Feature proposals - proposal to change/add/delete some features
-- Pull Requests - implementing a new feature yourself or fixing bugs.
-  If the change is bigger, then it's a good idea to open a new issue to discuss changes, but issues with
-  label `PR welcome` are already checked and accepted.
-- Documentation - There is an [instruction](instructions/Instruction.md) which you can improve.
-- Translations - Instruction how to translate files is available [here](instructions/Translations.md)
-- External contributions - App use big number of external libraries
-  like [lofty](https://github.com/Serial-ATA/lofty-rs), [image-rs](https://github.com/image-rs/image)
-  or [symphonia](https://github.com/pdeljanov/Symphonia) so improving this libraries will automatically improve Czkawka
-
-You can also help by doing other things:
-
-- Creating text
-  articles - [LinuxUprising](https://www.linuxuprising.com/2021/03/find-and-remove-duplicate-files-similar.html)
-  or [Ubunlog](https://ubunlog.com/en/czkawka-finds-and-removes-empty-and-broken-duplicate-files/)
-- Adding Czkawka to repositories - [Alpine Linux](https://pkgs.alpinelinux.org/packages?name=czkawka&branch=edge)
-  or [NixOS](https://github.com/NixOS/nixpkgs/pull/116441)
-  or [OpenMandriva](https://github.com/OpenMandrivaAssociation/czkawka)
-- Creating videos - [First Video](https://www.youtube.com/watch?v=CWlRiTD4vDc)
-  or [Spanish Tutorial](https://www.youtube.com/watch?v=V9x-pHJRmKY)
-- Recommending it to others
-
 ## Thanks
 
 Big thanks to Pádraig Brady, creator of fantastic FSlint, because without his work I wouldn't create this tool.
@@ -152,6 +121,21 @@ articles about it etc.
 
 Also, I really appreciate work of people that create crates on which Czkawka is based and for that I try to report bugs
 to make it even better.
+
+## Officially Supported Projects
+Only this repository, [prebuild-binaries](https://github.com/qarmin/czkawka/releases), projects on [crates.io](https://crates.io/crates/czkawka_gui) and [flathub](https://flathub.org/apps/com.github.qarmin.czkawka) are directly maintained by me.  
+
+Czkawka does not have an official website, so do not trust any sites that claim to be the official one.  
+
+If you use packages from unofficial sources, make sure they are safe.
+
+## License
+
+The entire code in this repository is licensed under the [MIT](https://mit-license.org/) license.
+
+All images are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+The Czkawka GTK GUI and CLI applications are licensed under the [MIT](https://mit-license.org/) license, while the Krokiet is licensed under the [GPL-3.0-only](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
 
 ## Donations
 

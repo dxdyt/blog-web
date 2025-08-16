@@ -1,9 +1,9 @@
 ---
 title: ubicloud
-date: 2025-08-15T12:29:44+08:00
+date: 2025-08-16T12:24:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754410384452-828be85f07cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754410384452-828be85f07cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754993583989-e204f673f680?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754993583989-e204f673f680?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
 ---
 
 # [ubicloud/ubicloud](https://github.com/ubicloud/ubicloud)
