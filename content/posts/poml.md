@@ -1,9 +1,9 @@
 ---
 title: poml
-date: 2025-08-15T12:29:53+08:00
+date: 2025-08-17T12:31:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753973975182-6f15378aac7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753973975182-6f15378aac7e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745488039955-e6e55fbcd419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745488039955-e6e55fbcd419?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/poml](https://github.com/microsoft/poml)
