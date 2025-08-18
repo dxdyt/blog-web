@@ -1,9 +1,9 @@
 ---
 title: Archon
-date: 2025-08-17T12:31:37+08:00
+date: 2025-08-18T12:37:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754634026454-e0caef04578c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754634026454-e0caef04578c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752306639259-2554bb3fa65f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752306639259-2554bb3fa65f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
 ---
 
 # [coleam00/Archon](https://github.com/coleam00/Archon)

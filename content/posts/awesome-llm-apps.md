@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-08-17T12:32:48+08:00
+date: 2025-08-18T12:38:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754763679284-6c60b9a0a4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754763679284-6c60b9a0a4ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743360167520-761fa087ee8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743360167520-761fa087ee8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -164,6 +164,15 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 ### 🔧 LLM Fine-tuning Tutorials
 
 *   [🔧 Llama 3.2 Fine-tuning](advanced_llm_apps/llm_finetuning_tutorials/llama3.2_finetuning/)
+
+### 🧑‍🏫 AI Agent Framework Crash Course
+
+- [Google ADK Crash Course](ai_agent_framework_crash_course/google_adk_crash_course/)
+  - Starter agent; model‑agnostic (OpenAI, Claude)
+  - Structured outputs (Pydantic)
+  - Tools: built‑in, function, third‑party, MCP tools
+  - Memory; callbacks; Plugins
+  - Simple multi‑agent; Multi‑agent patterns
 
 ## 🚀 Getting Started
 

@@ -1,9 +1,9 @@
 ---
 title: magic
-date: 2025-08-17T12:32:54+08:00
+date: 2025-08-18T12:38:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750021690319-567035f7575b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750021690319-567035f7575b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0MDUwODh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752432138935-05f94e6be8f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752432138935-05f94e6be8f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
 ---
 
 # [dtyq/magic](https://github.com/dtyq/magic)

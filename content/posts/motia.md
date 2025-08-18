@@ -1,20 +1,23 @@
 ---
 title: motia
-date: 2025-08-05T12:48:04+08:00
+date: 2025-08-18T12:39:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743745330370-fb2c0c53fc9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743745330370-fb2c0c53fc9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQzNjkyNTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752432138935-05f94e6be8f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752432138935-05f94e6be8f8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
 ---
 
 # [MotiaDev/motia](https://github.com/MotiaDev/motia)
 
 <a href="https://motia.dev">
-  <img src="packages/docs/public/github-readme-banner.png" alt="Motia Banner" width="100%">
+  <img src="assets/github-readme-banner.png" alt="Motia Banner" width="100%">
 </a>
 
 <p align="center">
-  <a href="https://trendshift.io/repositories/14032">
-    <img src="https://trendshift.io/api/badge/repositories/14032" alt="Motia" style="width: 250px; height: 55px;" width="250" height="55"/>
+  <a href="https://trendshift.io/repositories/14032" style="margin-right:8px;">
+    <img src="https://trendshift.io/api/badge/repositories/14032" alt="Motia" style="width: 250px; height: 55px; margin-right:8px;" width="250" height="55"/>
+  </a>
+  <a href="https://vercel.com/blog/summer-2025-oss-program#motia" target="_blank" style="margin-left:8px;">
+    <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" style="width: 250px; height: 55px; margin-left:8px;" width="250" height="55"/>
   </a>
 </p>
 
@@ -35,7 +38,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1743745330370-fb2c0c53fc
   <a href="https://twitter.com/motiadev" target="_blank">
     <img src="https://img.shields.io/badge/Follow-@motiadev-1DA1F2?style=flat&logo=twitter&logoColor=white&labelColor=000000" alt="Twitter Follow">
   </a>
-  <a href="https://discord.com/invite/nJFfsH5d6v" target="_blank">
+  <a href="https://discord.gg/motia" target="_blank">
     <img src="https://img.shields.io/discord/1322278831184281721?style=flat&logo=discord&logoColor=white&color=5865F2&label=Discord&labelColor=000000" alt="Discord">
   </a>
 </p>
@@ -43,7 +46,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1743745330370-fb2c0c53fc
   <a href="https://www.motia.dev/manifesto">💡 Motia Manifesto</a> •
   <a href="https://www.motia.dev/docs/getting-started/quick-start">🚀 Quick Start</a> •
   <a href="https://www.motia.dev/docs/concepts/steps/defining-steps">📋 Defining Steps</a> •
-  <a href="https://motia.dev/docs">📚 Docs</a>
+  <a href="https://www.motia.dev/docs">📚 Docs</a>
 </p>
 
 ---
@@ -113,8 +116,6 @@ The Workbench is your command centre:
 - ✅ Visual debugger & flow inspector
 - ✅ Built-in observability
 - ✅ Hot-reload for instant feedback
-
----
 
 ### 🧱 The Step Philosophy
 
@@ -233,10 +234,10 @@ Write steps in your preferred language:
 
 ### 💬 **Get Help**
 
-- **📋 Questions**: Use our [Discord community](https://discord.gg/7rXsekMK)
+- **📋 Questions**: Use our [Discord community](https://discord.gg/motia)
 - **🐛 Bug Reports**: [GitHub Issues](https://github.com/MotiaDev/motia/issues)
 - **📖 Documentation**: [Official Docs](https://motia.dev/docs)
-- **🎥 Blog**: [Motia Blog](https://dev.to/motiadev)
+- **🎥 Blog**: [Motia Blog](https://blog.motia.dev)
 
 ### 🤝 **Contributing**
 
