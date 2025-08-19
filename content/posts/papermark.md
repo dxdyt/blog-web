@@ -1,9 +1,9 @@
 ---
 title: papermark
-date: 2024-10-16T12:20:18+08:00
+date: 2025-08-19T12:23:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727455113671-ef73f638b87f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727455113671-ef73f638b87f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkwNTIzNzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754460916460-94693498b3d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754460916460-94693498b3d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
 ---
 
 # [mfts/papermark](https://github.com/mfts/papermark)
@@ -17,7 +17,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1727455113671-ef73f638b8
 </div>
 
 <div align="center">
-  <a href="https://www.papermark.io">papermark.io</a>
+  <a href="https://www.papermark.com">papermark.com</a>
 </div>
 
 <br/>
@@ -30,14 +30,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1727455113671-ef73f638b8
 
 <br/>
 
-Papermark is the open-source document sharing alternative to DocSend with built-in analytics and custom domains.
+Papermark is the open-source document-sharing alternative to DocSend, featuring built-in analytics and custom domains.
 
 ## Features
 
-- **Shareable Links:** Share your document securely by sending a custom link
-- **Custom Branding:** Add a custom domain and your own branding
-- **Analytics:** Get insights via document tracking and soon page-by-page analytics
-- **Self-hosted, open-source:** Host it yourself and hack on it
+- **Shareable Links:** Share your documents securely by sending a custom link.
+- **Custom Branding:** Add a custom domain and your own branding.
+- **Analytics:** Gain insights through document tracking and soon page-by-page analytics.
+- **Self-hosted, Open-source:** Host it yourself and customize it as needed.
 
 ## Demo
 
@@ -46,7 +46,7 @@ Papermark is the open-source document sharing alternative to DocSend with built-
 ## Tech Stack
 
 - [Next.js](https://nextjs.org/) – Framework
-- [Typescript](https://www.typescriptlang.org/) – Language
+- [TypeScript](https://www.typescriptlang.org/) – Language
 - [Tailwind](https://tailwindcss.com/) – CSS
 - [shadcn/ui](https://ui.shadcn.com) - UI Components
 - [Prisma](https://prisma.io) - ORM [![Made with Prisma](https://made-with.prisma.io/dark.svg)](https://prisma.io)
@@ -61,7 +61,7 @@ Papermark is the open-source document sharing alternative to DocSend with built-
 
 ### Prerequisites
 
-Here's what you need to be able to run Papermark:
+Here's what you need to run Papermark:
 
 - Node.js (version >= 18.17.0)
 - PostgreSQL Database
@@ -103,11 +103,11 @@ npm run dev
 
 Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Tinybird instructions
+## Tinybird Instructions
 
 To prepare the Tinybird database, follow these steps:
 
-0. We use `pipenv` to manage my Python dependencies. If you don't have it installed, you can install it using the following command:
+0. We use `pipenv` to manage our Python dependencies. If you don't have it installed, you can install it using the following command:
    ```sh
    pkgx pipenv
    ```
@@ -116,7 +116,7 @@ To prepare the Tinybird database, follow these steps:
    ```sh
    cd lib/tinybird
    ```
-3. Push the necessary datasources using the following command:
+3. Push the necessary data sources using the following command:
    ```sh
    tb push datasources/*
    tb push endpoints/get_*
@@ -136,9 +136,9 @@ pipenv update tinybird-cli
 
 ## Contributing
 
-Papermark is an open-source project and we welcome contributions from the community.
+Papermark is an open-source project, and we welcome contributions from the community.
 
-If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
+If you'd like to contribute, please fork the repository and make any changes you'd like. Pull requests are warmly welcome.
 
 ### Our Contributors ✨
 

@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-08-18T12:38:05+08:00
+date: 2025-08-19T12:21:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744125156184-e0d7e0bc04c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744125156184-e0d7e0bc04c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754460916460-94693498b3d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754460916460-94693498b3d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -171,7 +171,7 @@ if __name__ == "__main__":
 - **📱 React Widget** - [Drop-in chat UI for any web app](https://github.com/emcie-co/parlant-chat-react)
 - **🔍 Full Explainability** - Understand every decision your agent makes
 
-## 📈 Join 4,000+ Developers Building Better AI
+## 📈 Join 5,000+ Developers Building Better AI
 
 <div align="center">
 
