@@ -1,9 +1,9 @@
 ---
 title: Archon
-date: 2025-08-19T12:21:46+08:00
+date: 2025-08-20T12:22:22+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1750864969338-9db00d47e7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1750864969338-9db00d47e7bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1745172367007-a8481515e3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1745172367007-a8481515e3b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
 ---
 
 # [coleam00/Archon](https://github.com/coleam00/Archon)
@@ -58,12 +58,12 @@ This new vision for Archon replaces the old one (the agenteer). Archon used to b
 ### Setup Instructions
 
 1. **Clone Repository**:
-
    ```bash
    git clone https://github.com/coleam00/archon.git
+   ```
+   ```bash
    cd archon
    ```
-
 2. **Environment Configuration**:
 
    ```bash

@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-08-19T12:21:55+08:00
+date: 2025-08-20T12:22:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754460916460-94693498b3d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754460916460-94693498b3d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743385779312-73ea241025d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743385779312-73ea241025d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -175,7 +175,7 @@ if __name__ == "__main__":
 
 <div align="center">
 
-**Companies using Parlant in production:**
+**Companies using Parlant:**
 
 _Financial institutions • Healthcare providers • Legal firms • E-commerce platforms_
 

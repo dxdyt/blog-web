@@ -1,9 +1,9 @@
 ---
 title: PixiEditor
-date: 2025-08-19T12:22:29+08:00
+date: 2025-08-20T12:23:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753660461288-f21f587970da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753660461288-f21f587970da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754962850068-8e1da96a8937?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754962850068-8e1da96a8937?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
 ---
 
 # [PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)
