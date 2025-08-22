@@ -1,9 +1,9 @@
 ---
 title: saas-starter
-date: 2025-01-27T12:20:04+08:00
+date: 2025-08-22T12:21:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736942145278-92d39eaabe44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc5NTE1Nzl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755448648121-1538cf661825?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755448648121-1538cf661825?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
 ---
 
 # [nextjs/saas-starter](https://github.com/nextjs/saas-starter)
@@ -44,13 +44,19 @@ pnpm install
 
 ## Running Locally
 
+[Install](https://docs.stripe.com/stripe-cli) and log in to your Stripe account:
+
+```bash
+stripe login
+```
+
 Use the included setup script to create your `.env` file:
 
 ```bash
 pnpm db:setup
 ```
 
-Then, run the database migrations and seed the database with a default user and team:
+Run the database migrations and seed the database with a default user and team:
 
 ```bash
 pnpm db:migrate
@@ -62,7 +68,7 @@ This will create the following user and team:
 - User: `test@test.com`
 - Password: `admin123`
 
-You can, of course, create new users as well through `/sign-up`.
+You can also create new users through the `/sign-up` route.
 
 Finally, run the Next.js development server:
 
@@ -72,7 +78,7 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to see the app in action.
 
-Optionally, you can listen for Stripe webhooks locally through their CLI to handle subscription change events:
+You can listen for Stripe webhooks locally through their CLI to handle subscription change events:
 
 ```bash
 stripe listen --forward-to localhost:3000/api/stripe/webhook
@@ -119,3 +125,5 @@ While this template is intentionally minimal and to be used as a learning resour
 - https://achromatic.dev
 - https://shipfa.st
 - https://makerkit.dev
+- https://zerotoshipped.com
+- https://turbostarter.dev

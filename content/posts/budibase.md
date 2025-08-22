@@ -1,9 +1,9 @@
 ---
 title: budibase
-date: 2025-04-16T12:22:26+08:00
+date: 2025-08-22T12:21:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742736839475-2ca610373470?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742736839475-2ca610373470?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ3NzcyNDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1734832358799-24f041be2ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1734832358799-24f041be2ae7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
 ---
 
 # [Budibase/budibase](https://github.com/Budibase/budibase)

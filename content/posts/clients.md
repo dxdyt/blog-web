@@ -1,9 +1,9 @@
 ---
 title: clients
-date: 2025-08-21T12:22:11+08:00
+date: 2025-08-22T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754465164919-ea935adfb7db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU3NTAwOTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754465164919-ea935adfb7db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU3NTAwOTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1741850821596-f29a6e58356b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1741850821596-f29a6e58356b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
 ---
 
 # [bitwarden/clients](https://github.com/bitwarden/clients)
