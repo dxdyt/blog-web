@@ -1,33 +1,60 @@
 ---
 title: puck
-date: 2023-09-08T12:15:47+08:00
+date: 2025-08-23T12:21:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1691874683123-5d7bf8d79df1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1691874683123-5d7bf8d79df1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTQxNDY0OTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755336522640-d821da5826f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755336522640-d821da5826f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
 ---
 
-# [measuredco/puck](https://github.com/measuredco/puck)
+# [puckeditor/puck](https://github.com/puckeditor/puck)
 
-# puck
+<br /><br /><br />
 
-The self-hosted, drag and drop editor for React.
+<div align="center">
 
-- 🖱️ **Drag and drop**: Visual editing for your existing React component library
-- 🌐 **Integrations**: Load your content from a 3rd party headless CMS
-- ✍️ **Inline editing**: Author content directly via puck for convenience
-- ⭐️ **No vendor lock-in**: Self-host or integrate with your existing application
+<a href="https://puckeditor.com?utm_source=readme&utm_medium=code&utm_campaign=repo&utm_contents=logo">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://res.cloudinary.com/die3nptcg/image/upload/Puck_Logo_White_RGB_j2rwgg.svg" height="100px" aria-label="Puck logo">
+    <img src="https://res.cloudinary.com/die3nptcg/image/upload/Puck_Logo_Black_RGB_dqsjag.svg" height="100px" aria-label="Puck logo">
+  </picture>
+</a>
 
-[See demo](https://puck-editor-demo.vercel.app/edit)
+_The visual editor for React_
 
-## Example
+[Documentation](https://puckeditor.com/docs?utm_source=readme&utm_medium=code&utm_campaign=repo&utm_contents=docs_link) • [Demo](https://demo.puckeditor.com/edit?utm_source=readme&utm_medium=code&utm_campaign=repo&utm_contents=demo_link) • [Discord](https://discord.gg/V9mDAhuxyZ) • [Contributing](https://github.com/puckeditor/puck/blob/main/CONTRIBUTING.md)
+
+⭐️ Enjoying Puck? Please [leave a star](https://github.com/puckeditor/puck)!
+
+<br />
+
+[![GIF showing a page being created in the Puck Editor, with components being added, arranged, and customized in real time](https://github.com/user-attachments/assets/25e1ae25-ca5e-450f-afa0-01816830b731)](https://demo.puckeditor.com/edit)
+
+</div>
+
+## What is Puck?
+
+Puck is a modular, open-source visual editor for React.js. You can use Puck to build custom drag-and-drop experiences with your own application and React components.
+
+Because Puck is just a React component, it plays well with all React.js environments, including Next.js. You own your data and there’s no vendor lock-in.
+
+Puck is also [licensed under MIT](https://github.com/puckeditor/puck?tab=MIT-1-ov-file#readme), making it suitable for both internal systems and commercial applications.
+
+## Quick start
+
+Install the package:
+
+```sh
+npm i @measured/puck --save # or npx create-puck-app my-app
+```
 
 Render the editor:
 
 ```jsx
 // Editor.jsx
 import { Puck } from "@measured/puck";
+import "@measured/puck/puck.css";
 
-// Create puck component config
+// Create Puck component config
 const config = {
   components: {
     HeadingBlock: {
@@ -60,155 +87,38 @@ Render the page:
 ```jsx
 // Page.jsx
 import { Render } from "@measured/puck";
+import "@measured/puck/puck.css";
 
 export function Page() {
   return <Render config={config} data={data} />;
 }
 ```
 
-## Installation
+## Recipes
 
-Install the package
-
-```
-npm i @measured/puck --save
-```
-
-Or generate a puck application using a recipe
+Use `create-puck-app` to quickly spin up a a pre-configured app based on our provided [recipes](https://github.com/puckeditor/puck/tree/main/recipes):
 
 ```sh
 npx create-puck-app my-app
 ```
 
-## Recipes
+Available recipes include:
 
-Puck is a React component that can be easily integrated into your existing application. We also provide helpful recipes for common use cases:
+- [**next**](https://github.com/puckeditor/puck/tree/main/recipes/next): Next.js example, using App Router and static page generation
+- [**remix**](https://github.com/puckeditor/puck/tree/main/recipes/remix): Remix Run v2 example, using dynamic routes at root-level
+- [**react-router**](https://github.com/puckeditor/puck/tree/main/recipes/react-router): React Router v7 app example, using dynamic routes to create pages at any level
 
-- [**next**](https://github.com/measuredco/puck/tree/main/recipes/next): Next.js app example
+## Community
 
-## Plugins
+- [Discord server](https://discord.gg/D9e4E3MQVZ) for discussions
+- [awesome-puck](https://github.com/puckeditor/awesome-puck) community repo for plugins, custom fields & more
 
-Puck can be configured to work with plugins. Plugins can extend the functionality to support novel functionality.
+## Get support
 
-### Official plugins
+If you have any questions about Puck, please open a [GitHub issue](https://github.com/puckeditor/puck/issues) or join us on [Discord](https://discord.gg/D9e4E3MQVZ).
 
-- [`heading-analyzer`](https://github.com/measuredco/puck/tree/main/packages/plugin-heading-analyzer): Analyze the heading outline of your page and be warned when you're not respecting WCAG 2 accessiblity standards.
-
-### Developing a plugin
-
-The plugin API follows a React paradigm. Each plugin passed to the Puck editor can provide three functions:
-
-- `renderRoot` (`Component`): Render the root node of the preview content
-- `renderRootFields` (`Component`): Render the root fields
-- `renderFields` (`Component`): Render the fields for the currently selected component
-
-Each render function receives the `children` prop, which you must render, and the `data` prop, which can be used to read the data model.
-
-#### Example
-
-Here's a basic plugin that renders a "My plugin" heading in the root field area:
-
-```jsx
-const myPlugin = {
-  renderRootFields: (props) => (
-    <div>
-      {props.children}
-
-      <h2>My plugin</h2>
-    </div>
-  ),
-};
-```
-
-## Reference
-
-### `<Puck>`
-
-The `<Puck>` component renders the Puck editor.
-
-- **config** (`Config`): Puck component configuration
-- **data** (`Data`): Initial data to render
-- **onChange** (`(Data) => void` [optional]): Callback that triggers when the user makes a change
-- **onPublish** (`(Data) => void` [optional]): Callback that triggers when the user hits the "Publish" button
-- **renderHeader** (`Component` [optional]): Render function for overriding the Puck header component
-- **renderHeaderActions** (`Component` [optional]): Render function for overriding the Puck header actions. Use a fragment.
-- **headerTitle** (`string` [optional]): Set the title shown in the header title
-- **headerPath** (`string` [optional]): Set a path to show after the header title
-- **plugins** (`Plugin[]` [optional]): Array of plugins that can be used to enhance Puck
-
-### `<Render>`
-
-The `<Render>` component renders user-facing UI using Puck data.
-
-- **config** (`Config`): Puck component configuration
-- **data** (`Data`): Data to render
-
-### `Config`
-
-The `Config` object describes which components Puck should render, how they should render and which inputs are available to them.
-
-- **root** (`object`)
-  - **fields** (`object`):
-    - **title** (`Field`): Title of the content, typically used for the page title.
-    - **[fieldName]** (`Field`): User defined fields, used to describe the input data stored in the `root` key.
-  - **render** (`Component`): Render a React component at the root of your component tree. Useful for defining context providers.
-- **components** (`object`): Definitions for each of the components you want to show in the visual editor
-  - **[componentName]** (`object`)
-    - **fields** (`Field`): The Field objects describing the input data stored against this component.
-    - **render** (`Component`): Render function for your React component. Receives props as defined in fields.
-    - **defaultProps** (`object` [optional]): Default props to pass to your component. Will show in fields.
-
-### `Field`
-
-A `Field` represents a user input field shown in the Puck interface.
-
-- **type** (`text` | `textarea` | `number` | `select` | `radio` | `external` | `array`): The input type to render
-- **label** (`text` [optional]): A label for the input. Will use the key if not provided.
-- **arrayFields** (`object`): Object describing sub-fields for items in an `array` input
-  - **[fieldName]** (`Field`): The Field objects describing the input data for each item
-- **getItemSummary** (`(object, number) => string` [optional]): Function to get the name of each item when using the `array` or `external` field types
-- **defaultItemProps** (`object` [optional]): Default props to pass to each new item added, when using a `array` field type
-- **options** (`object[]`): array of items to render for select or radio inputs
-  - **label** (`string`)
-  - **value** (`string` | `number` | `boolean`)
-- **adaptor** (`Adaptor`): Content adaptor if using the `external` input type
-- **adaptorParams** (`object`): Paramaters passed to the adaptor
-
-### `Data`
-
-The `Data` object stores the puck state.
-
-- **root** (`object`):
-  - **title** (string): Title of the content, typically used for the page title
-  - **[prop]** (string): User defined data from `root` fields
-- **content** (`object[]`):
-  - **type** (string): Component name
-  - **props** (object):
-    - **[prop]** (string): User defined data from component fields
-
-### `Adaptor`
-
-An `Adaptor` can be used to load content from an external content repository, like Strapi.js.
-
-- **name** (`string`): The human-readable name of the adaptor
-- **fetchList** (`(adaptorParams: object) => object`): Fetch a list of content and return an array
-
-> NB Using an adaptor on the reserved field name `_data` will spread the resulting data over your object, and lock the overridden fields.
-
-### `Plugin`
-
-Plugins that can be used to enhance Puck.
-
-- **renderRoot** (`Component`): Render the root node of the preview content
-- **renderRootFields** (`Component`): Render the root fields
-- **renderFields** (`Component`): Render the fields for the currently selected component
-
-## Hire the Puck team
-
-Puck is developed and maintained by **Measured**, a small group of industry veterans with decades of experience helping companies solve hard UI problems. We offer consultancy and development services for scale-ups, SMEs and enterprises.
-
-If you need support integrating Puck or creating a beautiful component library, please reach out via [our website](https://measured.co).
+Or [book a discovery call](https://app.cal.com/chrisvxd/puck-enquiry/) for hands-on support and consultancy.
 
 ## License
 
-MIT © [Measured Co.](https://github.com/measuredco)
+MIT © [The Puck Contributors](https://github.com/puckeditor/puck/graphs/contributors)

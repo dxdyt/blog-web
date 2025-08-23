@@ -1,9 +1,9 @@
 ---
 title: saas-starter
-date: 2025-08-22T12:21:46+08:00
+date: 2025-08-23T12:22:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755448648121-1538cf661825?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755448648121-1538cf661825?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752040032392-6a0376fb312f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752040032392-6a0376fb312f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [nextjs/saas-starter](https://github.com/nextjs/saas-starter)

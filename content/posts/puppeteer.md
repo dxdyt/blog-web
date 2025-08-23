@@ -1,9 +1,9 @@
 ---
 title: puppeteer
-date: 2025-08-22T12:22:12+08:00
+date: 2025-08-23T12:22:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753024678427-3bd878f1d5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753024678427-3bd878f1d5d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU4MzY0NDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754079132679-d9bbe1ba79cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079132679-d9bbe1ba79cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
 ---
 
 # [puppeteer/puppeteer](https://github.com/puppeteer/puppeteer)
