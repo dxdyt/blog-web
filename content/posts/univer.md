@@ -1,9 +1,9 @@
 ---
 title: univer
-date: 2025-08-23T12:21:29+08:00
+date: 2025-08-24T12:26:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755004609166-f20e6ecd22c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755004609166-f20e6ecd22c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753882290019-dd21808fe5de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753882290019-dd21808fe5de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
 ---
 
 # [dream-num/univer](https://github.com/dream-num/univer)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1755004609166-f20e6ecd22
     <img src="./docs/img/banner-dark.png" alt="Univer" width="400" />
 </picture>
 
-An Isomorphic Full-Stack Framework for Creating and Editing Spreadsheets, Docs, and Slides Across Web and Server<br />
+An Isomorphic Full-Stack Framework for Creating and Editing Spreadsheets, Docs, and Slides Across Web and Server.<br />
 **Extensible. High-performance. Embedded to your application.**
 
 **English** | [简体中文][readme-zh-link] | [日本語][readme-ja-link] | [Español][readme-es-link] <br />
@@ -34,6 +34,10 @@ An Isomorphic Full-Stack Framework for Creating and Editing Spreadsheets, Docs, 
 [![Trendshift][github-trending-shield]][github-trending-url]
 
 </div>
+
+Use Univer MCP to drive Univer Sheet with natural language and build truly AI-native spreadsheets.
+
+https://github.com/user-attachments/assets/fb439d4d-ef91-4747-ad43-aa8c731ba60b
 
 <details open>
 <summary>

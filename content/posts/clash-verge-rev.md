@@ -1,9 +1,9 @@
 ---
 title: clash-verge-rev
-date: 2025-08-18T12:39:16+08:00
+date: 2025-08-24T12:25:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753010840134-45b2b059a7d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753010840134-45b2b059a7d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754321159253-8c9bd02cfb4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754321159253-8c9bd02cfb4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
 ---
 
 # [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
@@ -95,11 +95,6 @@ Refer to [Doc FAQ Page](https://clash-verge-rev.github.io/faq/windows.html)
 See [CONTRIBUTING.md](./CONTRIBUTING.md) for more details.
 
 To run the development server, execute the following commands after all prerequisites for **Tauri** are installed:
-
-> [!NOTE]
-> **If you are using a Windows ARM device, you additionally need to install [LLVM](https://github.com/llvm/llvm-project/releases) (including clang) and set the environment variable.**
->
-> Because the `ring` crate is compiled based on `clang` under Windows ARM.
 
 ```shell
 pnpm i

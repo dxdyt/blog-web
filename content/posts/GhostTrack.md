@@ -1,9 +1,9 @@
 ---
 title: GhostTrack
-date: 2025-08-23T12:21:38+08:00
+date: 2025-08-24T12:25:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1662569137392-9730049d14ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1662569137392-9730049d14ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU5MjI4NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753104175195-3fd0d11c7316?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753104175195-3fd0d11c7316?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
 ---
 
 # [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack)
