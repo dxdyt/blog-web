@@ -1,9 +1,9 @@
 ---
 title: Folo
-date: 2025-08-11T12:43:17+08:00
+date: 2025-08-25T12:27:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754079132867-d31504e2a74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4ODczNTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754079132867-d31504e2a74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4ODczNTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754136362706-a7ef82050c9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754136362706-a7ef82050c9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
 ---
 
 # [RSSNext/Folo](https://github.com/RSSNext/Folo)

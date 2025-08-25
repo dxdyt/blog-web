@@ -1,9 +1,9 @@
 ---
 title: puck
-date: 2025-08-24T12:26:26+08:00
+date: 2025-08-25T12:27:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751795195789-8dab6693475d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751795195789-8dab6693475d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755311901131-c0b8f91a21c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755311901131-c0b8f91a21c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
 ---
 
 # [puckeditor/puck](https://github.com/puckeditor/puck)

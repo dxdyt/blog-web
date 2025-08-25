@@ -1,9 +1,9 @@
 ---
 title: midday
-date: 2025-08-15T12:30:50+08:00
+date: 2025-08-25T12:26:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753301591141-25aee37f3ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753301591141-25aee37f3ec8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755311901131-c0b8f91a21c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755311901131-c0b8f91a21c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
 ---
 
 # [midday-ai/midday](https://github.com/midday-ai/midday)
@@ -74,7 +74,6 @@ We are working on the documentation to get started with Midday for local develop
 
 - Trigger.dev (background jobs)
 - Resend (Transactional & Marketing)
-- Novu (notifications)
 - Github Actions (CI/CD)
 - GoCardLess (Bank connection EU)
 - Plaid (Bank connection in Canada and US)
@@ -83,6 +82,7 @@ We are working on the documentation to get started with Midday for local develop
 - Polar (Payment processing)
 - Typesense (Search)
 - Mistral
+- Gemini
 - OpenAI
 
 ## Repo Activity

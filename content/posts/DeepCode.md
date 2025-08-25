@@ -1,9 +1,9 @@
 ---
 title: DeepCode
-date: 2025-08-24T12:26:10+08:00
+date: 2025-08-25T12:26:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752564020971-086a96380302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752564020971-086a96380302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755127761410-0c00c398c308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755127761410-0c00c398c308?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/DeepCode](https://github.com/HKUDS/DeepCode)

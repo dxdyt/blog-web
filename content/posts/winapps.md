@@ -1,9 +1,9 @@
 ---
 title: winapps
-date: 2025-08-24T12:25:57+08:00
+date: 2025-08-25T12:25:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753392805754-a1df186e0169?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753392805754-a1df186e0169?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753213509442-fb00d9d0eeba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753213509442-fb00d9d0eeba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
 ---
 
 # [winapps-org/winapps](https://github.com/winapps-org/winapps)
@@ -324,7 +324,7 @@ Install the required dependencies.
       ```bash
       sudo pacman -Syu --needed -y curl dialog freerdp git iproute2 libnotify openbsd-netcat
       ```
-  - OpenSUSE:
+  - openSUSE:
       ```bash
       sudo zypper install -y curl dialog freerdp git iproute2 libnotify-tools netcat-openbsd
       ```
@@ -429,8 +429,7 @@ DEBUG="true"
 
 # [AUTOMATICALLY PAUSE WINDOWS]
 # NOTES:
-# - This is currently INCOMPATIBLE with 'docker' and 'manual'.
-# - See https://github.com/dockur/windows/issues/674
+# - This is currently INCOMPATIBLE with 'manual'.
 # DEFAULT VALUE: 'off'
 # VALID VALUES:
 # - 'on'
