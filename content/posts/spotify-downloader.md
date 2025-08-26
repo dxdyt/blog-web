@@ -1,9 +1,9 @@
 ---
 title: spotify-downloader
-date: 2024-08-28T12:19:49+08:00
+date: 2025-08-26T12:22:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722861678834-64b675cd472e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ4MTg3MTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1751283246779-cb72aa04250b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1751283246779-cb72aa04250b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
 ---
 
 # [spotDL/spotify-downloader](https://github.com/spotDL/spotify-downloader)
@@ -21,7 +21,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1722861678834-64b675cd47
 
 **spotDL** finds songs from Spotify playlists on YouTube and downloads them - along with album art, lyrics and metadata.
 
-
 [![MIT License](https://img.shields.io/github/license/spotdl/spotify-downloader?color=44CC11&style=flat-square)](https://github.com/spotDL/spotify-downloader/blob/master/LICENSE)
 [![PyPI version](https://img.shields.io/pypi/pyversions/spotDL?color=%2344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
 [![PyPi downloads](https://img.shields.io/pypi/dw/spotDL?label=downloads@pypi&color=344CC11&style=flat-square)](https://pypi.org/project/spotdl/)
@@ -35,14 +34,14 @@ ______________________________________________________________________
 **[Read the documentation on ReadTheDocs!](https://spotdl.readthedocs.io)**
 ______________________________________________________________________
 
-
 ## Installation
 
-Refer to our [Installation Guide](https://spotdl.rtfd.io/en/latest/installation/) for more details.
+Refer to our [Installation Guide](docs/installation.md) for more details.
 
 ### Python (Recommended Method)
-  - _spotDL_ can be installed by running `pip install spotdl`.
-  - To update spotDL run `pip install --upgrade spotdl`
+
+- _spotDL_ can be installed by running `pip install spotdl`.
+- To update spotDL run `pip install --upgrade spotdl`
 
   > On some systems you might have to change `pip` to `pip3`.
 
@@ -55,7 +54,7 @@ Refer to our [Installation Guide](https://spotdl.rtfd.io/en/latest/installation/
 - On Termux
   - `curl -L https://raw.githubusercontent.com/spotDL/spotify-downloader/master/scripts/termux.sh | sh`
 - Arch
-  - There is an [Arch User Repository (AUR) package](https://aur.archlinux.org/packages/python-spotdl/) for
+  - There is an [Arch User Repository (AUR) package](https://aur.archlinux.org/packages/spotdl/) for
     spotDL.
 - Docker
   - Build image:
@@ -71,17 +70,18 @@ Refer to our [Installation Guide](https://spotdl.rtfd.io/en/latest/installation/
     docker run --rm -v $(pwd):/music spotdl download [trackUrl]
     ```
 
- - Build from source
-	```bash
-	git clone https://github.com/spotDL/spotify-downloader && cd spotify-downloader
-	pip install poetry
-	poetry install
-	poetry run python3 scripts/build.py
-	```
-	An executable is created in `spotify-downloader/dist/`.
+  - Build from source
+
+    ```bash
+    git clone https://github.com/spotDL/spotify-downloader && cd spotify-downloader
+    pip install uv
+    uv sync
+    uv run scripts/build.py
+    ```
+
+    An executable is created in `spotify-downloader/dist/`.
 
 </details>
-
 
 ### Installing FFmpeg
 
@@ -97,21 +97,25 @@ follow these instructions
 
 ## Usage
 
-Using SpotDL without options::
+Using SpotDL without options:
+
 ```sh
 spotdl [urls]
 ```
+
 You can run _spotDL_ as a package if running it as a script doesn't work:
+
 ```sh
 python -m spotdl [urls]
 ```
 
 General usage:
+
 ```sh
 spotdl [operation] [options] QUERY
 ```
 
-There are different **operations** spotDL can perform. The *default* is `download`, which simply downloads the songs from YouTube and embeds metadata.
+There are different **operations** spotDL can perform. The _default_ is `download`, which simply downloads the songs from YouTube and embeds metadata.
 
 The **query** for spotDL is usually a list of Spotify URLs, but for some operations like **sync**, only a single link or file is required.
 For a list of all **options** use ```spotdl -h```
@@ -139,6 +143,7 @@ For a list of all **options** use ```spotdl -h```
         `spotdl sync {filename}.spotdl`
 
 - `meta`: Updates metadata for the provided song files.
+
 </details>
 
 ## Music Sourcing and Audio Quality
@@ -159,19 +164,12 @@ Check the [Audio Formats](docs/usage.md#audio-formats-and-quality) page for more
 Interested in contributing? Check out our [CONTRIBUTING.md](docs/CONTRIBUTING.md) to find
 resources around contributing along with a guide on how to set up a development environment.
 
-#### Join our amazing community as a code contributor, and help accelerate
-<br><br>
+### Join our amazing community as a code contributor
+
 <a href="https://github.com/spotDL/spotify-downloader/graphs/contributors">
   <img class="dark-light" src="https://contrib.rocks/image?repo=spotDL/spotify-downloader&anon=0&columns=25&max=100&r=true" />
 </a>
-## Donate
-
-help support the development and maintenance of the software ❤️
-
-[![paypal](https://img.shields.io/badge/paypal-%2300457C.svg?&style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/kko7)
-[![kofi](https://img.shields.io/badge/kofi-%23F16061.svg?&style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/xnetcat)
 
 ## License
 
 This project is Licensed under the [MIT](/LICENSE) License.
-

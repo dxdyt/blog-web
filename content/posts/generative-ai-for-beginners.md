@@ -1,9 +1,9 @@
 ---
 title: generative-ai-for-beginners
-date: 2025-08-12T12:27:50+08:00
+date: 2025-08-26T12:23:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1590698933947-a202b069a861?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1590698933947-a202b069a861?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ5NzI4MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755129307402-667c73e44703?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755129307402-667c73e44703?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/generative-ai-for-beginners](https://github.com/microsoft/generative-ai-for-beginners)
@@ -123,6 +123,7 @@ Our team produces other courses! Check out:
 - [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners?WT.mc_id=academic-105485-koreyst)
 - [Generative AI for Beginners using .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet?WT.mc_id=academic-105485-koreyst)
 - [Generative AI for Beginners using JavaScript](https://aka.ms/genai-js-course?WT.mc_id=academic-105485-koreyst)
+- [Generative AI for Beginners using Java](https://aka.ms/genaijava?WT.mc_id=academic-105485-koreyst)
 - [ML for Beginners](https://aka.ms/ml-beginners?WT.mc_id=academic-105485-koreyst)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners?WT.mc_id=academic-105485-koreyst)
 - [AI for Beginners](https://aka.ms/ai-beginners?WT.mc_id=academic-105485-koreyst)

@@ -1,9 +1,9 @@
 ---
 title: winapps
-date: 2025-08-25T12:25:53+08:00
+date: 2025-08-26T12:22:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753213509442-fb00d9d0eeba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753213509442-fb00d9d0eeba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753772662921-93c53fa7166d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753772662921-93c53fa7166d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
 ---
 
 # [winapps-org/winapps](https://github.com/winapps-org/winapps)
