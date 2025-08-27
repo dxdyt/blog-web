@@ -1,9 +1,9 @@
 ---
 title: SurfSense
-date: 2025-06-03T12:26:16+08:00
+date: 2025-08-27T12:22:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747134392588-7602053278a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg5MjQ3MTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755216007736-9920ec4d07f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755216007736-9920ec4d07f3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
 ---
 
 # [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense)
@@ -12,27 +12,31 @@ featuredImagePreview: https://images.unsplash.com/photo-1747134392588-7602053278
 ![new_header](https://github.com/user-attachments/assets/e236b764-0ddc-42ff-a1f1-8fbb3d2e0e65)
 
 
+<div align="center">
+<a href="https://discord.gg/ejRNvftDp9">
+<img src="https://img.shields.io/discord/1359368468260192417" alt="Discord">
+</a>
+</div>
 
 
 # SurfSense
-While tools like NotebookLM and Perplexity are impressive and highly effective for conducting research on any topic/query, SurfSense elevates this capability by integrating with your personal knowledge base. It is a highly customizable AI research agent, connected to external sources such as search engines (Tavily, LinkUp), Slack, Linear, Notion, YouTube, GitHub, Discord and more to come.
+While tools like NotebookLM and Perplexity are impressive and highly effective for conducting research on any topic/query, SurfSense elevates this capability by integrating with your personal knowledge base. It is a highly customizable AI research agent, connected to external sources such as Search Engines (Tavily, LinkUp), Slack, Linear, Jira, ClickUp, Confluence, Gmail, Notion, YouTube, GitHub, Discord, Google Calendar and more to come.
 
 <div align="center">
 <a href="https://trendshift.io/repositories/13606" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13606" alt="MODSetter%2FSurfSense | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 
-# Video
+# Video 
 
-https://github.com/user-attachments/assets/48142909-6391-4084-b7e8-81da388bb1fc
 
-# Podcast's
+https://github.com/user-attachments/assets/d9221908-e0de-4b2f-ac3a-691cf4b202da
 
-https://github.com/user-attachments/assets/d516982f-de00-4c41-9e4c-632a7d942f41
 
 ## Podcast Sample
 
-https://github.com/user-attachments/assets/bf64a6ca-934b-47ac-9e1b-edac5fe972ec
+https://github.com/user-attachments/assets/a0a16566-6967-4374-ac51-9b3e07fbecd7
+
 
 
 
@@ -55,10 +59,11 @@ Open source and easy to deploy locally.
 ### 🎙️ Podcasts 
 - Blazingly fast podcast generation agent. (Creates a 3-minute podcast in under 20 seconds.)
 - Convert your chat conversations into engaging audio content
+- Support for local TTS providers (Kokoro TTS)
 - Support for multiple TTS providers (OpenAI, Azure, Google Vertex AI)
 
 ### 📊 **Advanced RAG Techniques**
-- Supports 150+ LLM's
+- Supports 100+ LLM's
 - Supports 6000+ Embedding Models.
 - Supports all major Rerankers (Pinecode, Cohere, Flashrank etc)
 - Uses Hierarchical Indices (2 tiered RAG setup).
@@ -69,35 +74,48 @@ Open source and easy to deploy locally.
 - Search Engines (Tavily, LinkUp)
 - Slack
 - Linear
+- Jira
+- ClickUp
+- Confluence
 - Notion
+- Gmail
 - Youtube Videos
 - GitHub
 - Discord
+- Google Calendar
 - and more to come.....
 
 ## 📄 **Supported File Extensions**
 
-> **Note**: File format support depends on your ETL service configuration. LlamaCloud supports 50+ formats, while Unstructured supports 34+ core formats.
+> **Note**: File format support depends on your ETL service configuration. LlamaCloud supports 50+ formats, Unstructured supports 34+ core formats, and Docling (core formats, local processing, privacy-focused, no API key).
 
 ### Documents & Text
 **LlamaCloud**: `.pdf`, `.doc`, `.docx`, `.docm`, `.dot`, `.dotm`, `.rtf`, `.txt`, `.xml`, `.epub`, `.odt`, `.wpd`, `.pages`, `.key`, `.numbers`, `.602`, `.abw`, `.cgm`, `.cwk`, `.hwp`, `.lwp`, `.mw`, `.mcw`, `.pbd`, `.sda`, `.sdd`, `.sdp`, `.sdw`, `.sgl`, `.sti`, `.sxi`, `.sxw`, `.stw`, `.sxg`, `.uof`, `.uop`, `.uot`, `.vor`, `.wps`, `.zabw`
 
 **Unstructured**: `.doc`, `.docx`, `.odt`, `.rtf`, `.pdf`, `.xml`, `.txt`, `.md`, `.markdown`, `.rst`, `.html`, `.org`, `.epub`
 
+**Docling**: `.pdf`, `.docx`, `.html`, `.htm`, `.xhtml`, `.adoc`, `.asciidoc`
+
 ### Presentations
 **LlamaCloud**: `.ppt`, `.pptx`, `.pptm`, `.pot`, `.potm`, `.potx`, `.odp`, `.key`
 
 **Unstructured**: `.ppt`, `.pptx`
+
+**Docling**: `.pptx`
 
 ### Spreadsheets & Data
 **LlamaCloud**: `.xlsx`, `.xls`, `.xlsm`, `.xlsb`, `.xlw`, `.csv`, `.tsv`, `.ods`, `.fods`, `.numbers`, `.dbf`, `.123`, `.dif`, `.sylk`, `.slk`, `.prn`, `.et`, `.uos1`, `.uos2`, `.wk1`, `.wk2`, `.wk3`, `.wk4`, `.wks`, `.wq1`, `.wq2`, `.wb1`, `.wb2`, `.wb3`, `.qpw`, `.xlr`, `.eth`
 
 **Unstructured**: `.xls`, `.xlsx`, `.csv`, `.tsv`
 
+**Docling**: `.xlsx`, `.csv`
+
 ### Images
 **LlamaCloud**: `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.svg`, `.tiff`, `.webp`, `.html`, `.htm`, `.web`
 
 **Unstructured**: `.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`, `.heic`
+
+**Docling**: `.jpg`, `.jpeg`, `.png`, `.bmp`, `.tiff`, `.tif`, `.webp`
 
 ### Audio & Video *(Always Supported)*
 `.mp3`, `.mpga`, `.m4a`, `.wav`, `.mp4`, `.mpeg`, `.webm`
@@ -144,10 +162,17 @@ Both installation guides include detailed OS-specific instructions for Windows, 
 
 Before installation, make sure to complete the [prerequisite setup steps](https://www.surfsense.net/docs/) including:
 - PGVector setup
-- Unstructured.io API key
+- **File Processing ETL Service** (choose one):
+  - Unstructured.io API key (supports 34+ formats)
+  - LlamaIndex API key (enhanced parsing, supports 50+ formats)
+  - Docling (local processing, no API key required, supports PDF, Office docs, images, HTML, CSV)
 - Other required API keys
 
 ## Screenshots
+
+**Research Agent** 
+
+![updated_researcher](https://github.com/user-attachments/assets/e22c5d86-f511-4c72-8c50-feba0c1561b4)
 
 **Search Spaces** 
 
@@ -155,10 +180,6 @@ Before installation, make sure to complete the [prerequisite setup steps](https:
 
 **Manage Documents** 
 ![documents](https://github.com/user-attachments/assets/7001e306-eb06-4009-89c6-8fadfdc3fc4d)
-
-**Research Agent** 
-
-![researcher](https://github.com/user-attachments/assets/fda3e61f-f936-4b66-b565-d84edde44a67)
 
 **Podcast Agent** 
 ![podcasts](https://github.com/user-attachments/assets/6cb82ffd-9e14-4172-bc79-67faf34c4c1c)
@@ -265,6 +286,8 @@ Before installation, make sure to complete the [prerequisite setup steps](https:
 
 Contributions are very welcome! A contribution can be as small as a ⭐ or even finding and creating issues.
 Fine-tuning the Backend is always desired.
+
+For detailed contribution guidelines, please see our [CONTRIBUTING.md](CONTRIBUTING.md) file.
 
 ## Star History
 

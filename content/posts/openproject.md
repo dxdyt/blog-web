@@ -1,9 +1,9 @@
 ---
 title: openproject
-date: 2025-04-19T12:21:22+08:00
+date: 2025-08-27T12:23:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743164584107-82f40d623e74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743164584107-82f40d623e74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDUwMzY0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755241113927-59fdee524a0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755241113927-59fdee524a0c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
 ---
 
 # [opf/openproject](https://github.com/opf/openproject)

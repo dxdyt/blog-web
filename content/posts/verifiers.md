@@ -1,9 +1,9 @@
 ---
 title: verifiers
-date: 2025-08-26T12:22:23+08:00
+date: 2025-08-27T12:22:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751193978006-4c19abfb5f3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751193978006-4c19abfb5f3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYxODIxMDB8&ixlib=rb-4.1.0
+featuredImage: https://plus.unsplash.com/premium_photo-1752433524344-c2f801835945?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://plus.unsplash.com/premium_photo-1752433524344-c2f801835945?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
 ---
 
 # [willccbb/verifiers](https://github.com/willccbb/verifiers)
@@ -256,21 +256,7 @@ If you do not require LoRA support, you may want to use the `prime-rl` trainer, 
 
 ## Further Documentation
 
-See the full [docs](https://verifiers.readthedocs.io/en/latest/) for more info, including:
-- Dataset configuration options (system prompts, few-shot examples, eval datasets)
-- Parsers (e.g. ThinkParser, XMLParser)
-- Advanced Rubric patterns
-- Composing Environments (EnvGroup) and Rubrics (RubricGroup)
-- Creating and saving rollout datasets using Environments
-- More Environment example walkthroughs
-- Hardware considerations
-- SFT warmup for improving small-model training efficiency
-- RL + GRPO best practices
-- Common footguns
-
-## Footguns
-
-**Non-Increasing Chat Templates:** The Qwen3 and DeepSeek-R1 model series both remove `<think>` sections from messages when processing inputs, which violates the increasing context requirement for multi-turn GRPO-style training. We provide versions of many of these models with modified chat templates [here](https://huggingface.co/collections/willcb/qwen3-68434f4883925bfdb4570ee5).
+See the full [docs](https://verifiers.readthedocs.io/en/latest/) for more information.
 
 ## Contributions
 
@@ -294,7 +280,6 @@ If you use this code in your research, please cite:
 
 
 ## Roadmap
-
 - A community Environments hub for crowdsourcing, sharing, and discovering new RL environments built with `verifiers`
 - Default patterns for hosted resources such as code sandboxes, auxiliary models, and MCP servers
 - Multimodal input support
