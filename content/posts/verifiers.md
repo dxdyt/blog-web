@@ -1,9 +1,9 @@
 ---
 title: verifiers
-date: 2025-08-27T12:22:07+08:00
+date: 2025-08-28T12:22:48+08:00
 draft: False
-featuredImage: https://plus.unsplash.com/premium_photo-1752433524344-c2f801835945?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://plus.unsplash.com/premium_photo-1752433524344-c2f801835945?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYyNjg1MDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753925364019-0fa40a7eac5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753925364019-0fa40a7eac5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
 ---
 
 # [willccbb/verifiers](https://github.com/willccbb/verifiers)
@@ -104,7 +104,7 @@ The primary constraint we impose on rollout logic is that token sequences must b
 
 ### SingleTurnEnv
 
-For tasks requiring only a single response from a model for each prompt, you can use `SingleTurnEnv` directly by specifying a Dataset and a Rubric.
+For tasks requiring only a single response from a model for each prompt, you can use `SingleTurnEnv` directly by specifying a Dataset and a Rubric. Rubrics are sets of reward functions, which can be either sync or async.
 
 ```python
 from datasets import load_dataset
@@ -120,7 +120,7 @@ def reward_B(parser, completion) -> float:
 	# auxiliary reward fn, e.g. format
 	...
 
-def metric(completion) -> float:
+async def metric(completion) -> float:
 	# non-reward metric, e.g. proper noun count
 	...
 
@@ -131,7 +131,7 @@ vf_env = SingleTurnEnv(
 	rubric=rubric
 )
 results = vf_env.evaluate(client=OpenAI(), model="gpt-4.1-mini", num_examples=100, rollouts_per_example=1)
-vf_env.make_dataset(results, push_to_hub=True, hub_name="my-new-environment-eval-results") # save results to HF hub
+vf_env.make_dataset(results) # HF dataset format
 ```
 
 Datasets should be formatted with columns for:
@@ -159,6 +159,8 @@ Note on concurrency: environment APIs accept `max_concurrent` to control paralle
 ```bash
 vf-eval vf-environment-name --sampling-args '{"reasoning_effort": "low"}'
 ```
+
+Use `vf-eval -s` to save outputs as dataset-formatted JSON, and view all locally-saved eval results with `vf-tui`.
 
 ### ToolEnv
 
@@ -193,10 +195,10 @@ class YourMultiTurnEnv(vf.MultiTurnEnv):
 				 max_turns: int,
                  **kwargs):
 	
-  def is_completed(self, messages: Messages, state: State, **kwargs) -> bool:
+  async def is_completed(self, messages: Messages, state: State, **kwargs) -> bool:
     # return whether or not a rollout is completed
 
-  def env_response(self, messages: Messages, state: State, **kwargs) -> Tuple[Messages, State]:
+  async def env_response(self, messages: Messages, state: State, **kwargs) -> Tuple[Messages, State]:
     # return new environment message(s) + updated state
 ```
 

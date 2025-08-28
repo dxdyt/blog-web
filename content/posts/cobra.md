@@ -1,17 +1,23 @@
 ---
 title: cobra
-date: 2025-02-21T12:22:33+08:00
+date: 2025-08-28T12:22:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736421061963-b0dfa80f9d27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736421061963-b0dfa80f9d27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDAxMTE2Mzd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754999961467-0d6e4c2551e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754999961467-0d6e4c2551e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
 ---
 
 # [spf13/cobra](https://github.com/spf13/cobra)
 
-
-![cobra logo](https://github.com/user-attachments/assets/cbc3adf8-0dff-46e9-a88d-5e2d971c169e)
+<div align="center">
+<a href="https://cobra.dev">
+<img width="512" height="535" alt="cobra-logo" src="https://github.com/user-attachments/assets/c8bf9aad-b5ae-41d3-8899-d83baec10af8" />
+</a>
+</div>
 
 Cobra is a library for creating powerful modern CLI applications.
+
+<a href="https://cobra.dev">Visit Cobra.dev for extensive documentation</a> 
+
 
 Cobra is used in many Go projects such as [Kubernetes](https://kubernetes.io/),
 [Hugo](https://gohugo.io), and [GitHub CLI](https://github.com/cli/cli) to
@@ -21,6 +27,20 @@ name a few. [This list](site/content/projects_using_cobra.md) contains a more ex
 [![Go Reference](https://pkg.go.dev/badge/github.com/spf13/cobra.svg)](https://pkg.go.dev/github.com/spf13/cobra)
 [![Go Report Card](https://goreportcard.com/badge/github.com/spf13/cobra)](https://goreportcard.com/report/github.com/spf13/cobra)
 [![Slack](https://img.shields.io/badge/Slack-cobra-brightgreen)](https://gophers.slack.com/archives/CD3LP1199)
+<hr>
+<div align="center" markdown="1">
+   <sup>Supported by:</sup>
+   <br>
+   <br>
+   <a href="https://www.warp.dev/cobra">
+      <img alt="Warp sponsorship" width="400" src="https://github.com/user-attachments/assets/ab8dd143-b0fd-4904-bdc5-dd7ecac94eae">
+   </a>
+
+### [Warp, the AI terminal for devs](https://www.warp.dev/cobra)
+[Try Cobra in Warp today](https://www.warp.dev/cobra)<br>
+
+</div>
+<hr>
 
 # Overview
 

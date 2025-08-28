@@ -1,9 +1,9 @@
 ---
 title: firecracker
-date: 2024-10-18T12:21:46+08:00
+date: 2025-08-28T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728408828574-70a460530093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728408828574-70a460530093?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjkyMjUxOTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755474896784-8c4729fb1bc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755474896784-8c4729fb1bc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
 ---
 
 # [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)
@@ -126,7 +126,7 @@ The **API endpoint** can be used to:
 - Add a [entropy device](docs/entropy.md) to the microVM.
 - Start the microVM using a given kernel image, root file system, and boot
   arguments.
-- \[x86_64 only\] Stop the microVM.
+- [x86_64 only] Stop the microVM.
 
 **Built-in Capabilities**:
 
@@ -140,14 +140,18 @@ The **API endpoint** can be used to:
 
 We test all combinations of:
 
-| Instance  | Host OS & Kernel  | Guest Rootfs | Guest Kernel |
-| :-------- | :---------------- | :----------- | :----------- |
-| c5n.metal | al2    linux_5.10 | ubuntu 22.04 | linux_5.10   |
-| m5n.metal | al2023 linux_6.1  |              | linux_6.1    |
-| m6i.metal |                   |              |              |
-| m6a.metal |                   |              |              |
-| m6g.metal |                   |              |              |
-| m7g.metal |                   |              |              |
+| Instance                               | Host OS & Kernel | Guest Rootfs | Guest Kernel |
+| :------------------------------------- | :--------------- | :----------- | :----------- |
+| m5n.metal (Intel Cascade Lake)         | al2 linux_5.10   | ubuntu 24.04 | linux_5.10   |
+| m6i.metal (Intel Ice Lake)             | al2023 linux_6.1 |              | linux_6.1    |
+| m7i.metal-24xl (Intel Sapphire Rapids) |                  |              |              |
+| m7i.metal-48xl (Intel Sapphire Rapids) |                  |              |              |
+| m6a.metal (AMD Milan)                  |                  |              |              |
+| m7a.metal-48xl (AMD Genoa)             |                  |              |              |
+| m6g.metal (Graviton 2)                 |                  |              |              |
+| m7g.metal (Graviton 3)                 |                  |              |              |
+| m8g.metal-24xl (Graviton 4)            |                  |              |              |
+| m8g.metal-48xl (Graviton 4)            |                  |              |              |
 
 ## Known issues and Limitations
 
@@ -177,7 +181,7 @@ You can get in touch with the Firecracker community in the following ways:
 
 - Security-related issues, see our [security policy document](SECURITY.md).
 - Chat with us on our
-  [Slack workspace](https://join.slack.com/t/firecracker-microvm/shared_invite/zt-1zlb87h4z-NED1rBhVqOQ1ygBgT76wlg)
+  [Slack workspace](https://join.slack.com/t/firecracker-microvm/shared_invite/zt-2tc0mfxpc-tU~HYAYSzLDl5XGGJU3YIg)
   _Note: most of the maintainers are on a European time zone._
 - Open a GitHub issue in this repository.
 - Email the maintainers at
