@@ -1,9 +1,9 @@
 ---
 title: audiblez
-date: 2025-08-28T12:22:13+08:00
+date: 2025-08-29T12:22:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755100840732-8c01b32ddd03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755100840732-8c01b32ddd03?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755561401726-2552032d2fde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755561401726-2552032d2fde?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
 ---
 
 # [santinic/audiblez](https://github.com/santinic/audiblez)

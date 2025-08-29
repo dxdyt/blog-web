@@ -1,9 +1,9 @@
 ---
 title: WrenAI
-date: 2025-08-01T12:54:33+08:00
+date: 2025-08-29T12:22:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753453441901-c0605653b0bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753453441901-c0605653b0bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQwMjQwMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754966447282-b56909233452?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754966447282-b56909233452?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
 ---
 
 # [Canner/WrenAI](https://github.com/Canner/WrenAI)

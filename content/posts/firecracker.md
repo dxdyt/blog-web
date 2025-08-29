@@ -1,9 +1,9 @@
 ---
 title: firecracker
-date: 2025-08-28T12:21:58+08:00
+date: 2025-08-29T12:22:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755474896784-8c4729fb1bc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755474896784-8c4729fb1bc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754898284154-62daf743b909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754898284154-62daf743b909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
 ---
 
 # [firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)

@@ -1,9 +1,9 @@
 ---
 title: terraform
-date: 2025-08-15T12:31:08+08:00
+date: 2025-08-29T12:22:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754410384452-828be85f07cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754410384452-828be85f07cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755605889798-7b33d0477768?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755605889798-7b33d0477768?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
 ---
 
 # [hashicorp/terraform](https://github.com/hashicorp/terraform)
