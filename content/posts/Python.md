@@ -1,9 +1,9 @@
 ---
 title: Python
-date: 2024-12-07T12:20:59+08:00
+date: 2025-08-30T12:20:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730759214665-44d4efd6e40b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730759214665-44d4efd6e40b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM1NDUyMzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755104500015-dc38e57b215d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755104500015-dc38e57b215d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
 ---
 
 # [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
@@ -37,8 +37,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1730759214665-44d4efd6e4
   <a href="https://github.com/pre-commit/pre-commit">
     <img src="https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white&style=flat-square" height="20" alt="pre-commit">
   </a>
-  <a href="https://github.com/psf/black">
-    <img src="https://img.shields.io/static/v1?label=code%20style&message=black&color=black&style=flat-square" height="20" alt="code style: black">
+  <a href="https://docs.astral.sh/ruff/formatter/">
+    <img src="https://img.shields.io/static/v1?label=code%20style&message=ruff&color=black&style=flat-square" height="20" alt="code style: black">
   </a>
 <!-- Short description: -->
   <h3>All algorithms implemented in Python - for education</h3>

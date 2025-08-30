@@ -1,9 +1,9 @@
 ---
 title: transformerlab-app
-date: 2025-05-02T12:22:17+08:00
+date: 2025-08-30T12:21:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743993330456-6fa7a903b3bd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755528679187-e35912bcd9c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755528679187-e35912bcd9c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
 ---
 
 # [transformerlab/transformerlab-app](https://github.com/transformerlab/transformerlab-app)
@@ -59,26 +59,30 @@ Transformer Lab is proud to be supported by Mozilla through the <a href="https:/
 
 ## Features
 
+
 Transformer Lab allows you to:
 
 - 💕 **One-click Download Hundreds of Popular Models**:
-  - DeepSeek, Llama3, Qwen, Phi4, Gemma, Mistral, Mixtral, Command-R, and dozens more
-- ⬇ **Download any LLM from Huggingface**
+  - DeepSeek, Qwen, Gemma, Phi4, Llama, Mistral, Mixtral, Stable Diffusion, Flux, Command-R, and dozens more
+- ⬇ **Download any LLM, VLM, or Diffusion model from Huggingface**
 - 🎶 **Finetune / Train Across Different Hardware**
   - Finetune using MLX on Apple Silicon
   - Finetune using Huggingface on GPU
+  - Finetune Diffusion LoRAs on GPU
 - ⚖️ **RLHF and Preference Optimization**
   - DPO
   - ORPO
   - SIMPO
   - Reward Modeling
-- 💻 **Work with LLMs Across Operating Systems**:
+- 💻 **Work with Models Across Operating Systems**:
   - Windows App
   - MacOS App
   - Linux
 - 💬 **Chat with Models**
   - Chat
   - Completions
+  - Visualize Model Architecture
+  - Inspect activations & attention for each generated token
   - Preset (Templated) Prompts
   - Chat History
   - Tweak generation parameters
@@ -86,13 +90,16 @@ Transformer Lab allows you to:
   - Tool Use / Function Calling (in alpha)
 - 🚂 **Use Different Inference Engines**
   - MLX on Apple Silicon
-  - Huggingface Transformers
+  - FastChat
   - vLLM
   - Llama CPP
+  - SGLang
+- 🖼️ **Support for Image Diffusion Models**
+  - Run and experiment with image generation models (e.g., Stable Diffusion, Flux, etc.)
 - 🧑‍🎓 **Evaluate models**
 - 📖 **RAG (Retreival Augmented Generation)**
   - Drag and Drop File UI
-  - Works on Apple MLX, Transformers, and other engines
+  - Works on Apple MLX, FastChat, and other engines
 - 📓 **Build Datasets for Training**
   - Pull from hundreds of common datasets available on HuggingFace
   - Provide your own dataset using drag and drop
@@ -104,14 +111,14 @@ Transformer Lab allows you to:
 - 🔀 **Convert Models Across Platforms**
   - Convert from/to Huggingface, MLX, GGUF
 - 🔌 **Plugin Support**
-  - Easily pull from a library of existing plugins
+  - Easily install from a gallery of existing plugins
   - Write your own plugins to extend functionality
 - 🧑‍💻 **Embedded Monaco Code Editor**
   - Edit plugins and view what's happening behind the scenes
 - 📝 **Prompt Editing**
   - Easily edit System Messages or Prompt Templates
 - 📜 **Inference Logs**
-  - While doing inference or RAG, view a log of the raw queries sent to the LLM
+  - While doing inference or RAG, view a log of the raw queries sent to the model
 
 And you can do the above, all through a simple cross-platform GUI.
 

@@ -1,9 +1,9 @@
 ---
 title: cobra
-date: 2025-08-28T12:22:53+08:00
+date: 2025-08-30T12:21:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754999961467-0d6e4c2551e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754999961467-0d6e4c2551e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYzNTQ4NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1743452548596-7095486ee7e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1743452548596-7095486ee7e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
 ---
 
 # [spf13/cobra](https://github.com/spf13/cobra)
