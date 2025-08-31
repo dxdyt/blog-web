@@ -1,9 +1,9 @@
 ---
 title: WhisperLiveKit
-date: 2025-08-30T12:20:08+08:00
+date: 2025-08-31T12:20:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755442975535-0d6e856cfeb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755442975535-0d6e856cfeb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755282464678-31862372f805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY2MTQwMTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755282464678-31862372f805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY2MTQwMTh8&ixlib=rb-4.1.0
 ---
 
 # [QuentinFuxa/WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit)
@@ -138,7 +138,7 @@ async def websocket_endpoint(websocket: WebSocket):
         await audio_processor.process_audio(message)        
 ```
 
-**Frontend Implementation**: The package includes an HTML/JavaScript implementation [here](https://github.com/QuentinFuxa/WhisperLiveKit/blob/main/whisperlivekit/web/live_transcription.html). You can also import it using `from whisperlivekit import get_web_interface_html` & `page = get_web_interface_html()`
+**Frontend Implementation**: The package includes an HTML/JavaScript implementation [here](https://github.com/QuentinFuxa/WhisperLiveKit/blob/main/whisperlivekit/web/live_transcription.html). You can also import it using `from whisperlivekit import get_inline_ui_html` & `page = get_inline_ui_html()`
 
 
 ## Parameters & Configuration
