@@ -1,9 +1,9 @@
 ---
 title: 1brc
-date: 2024-11-25T12:22:02+08:00
+date: 2025-09-01T12:28:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730396386522-c9bdeaa8fdf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730396386522-c9bdeaa8fdf8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzI1MDg0Mzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755104500015-dc38e57b215d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755104500015-dc38e57b215d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
 ---
 
 # [gunnarmorling/1brc](https://github.com/gunnarmorling/1brc)

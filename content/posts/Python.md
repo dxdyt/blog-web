@@ -1,9 +1,9 @@
 ---
 title: Python
-date: 2025-08-30T12:20:44+08:00
+date: 2025-09-01T12:28:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755104500015-dc38e57b215d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755104500015-dc38e57b215d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
 ---
 
 # [TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
@@ -14,6 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1755104500015-dc38e57b21
     <img src="https://raw.githubusercontent.com/TheAlgorithms/website/1cd824df116b27029f17c2d1b42d81731f28a920/public/logo.svg" height="100">
   </a>
   <h1><a href="https://github.com/TheAlgorithms/">The Algorithms</a> - Python</h1>
+
 <!-- Labels: -->
   <!-- First row: -->
   <a href="https://gitpod.io/#https://github.com/TheAlgorithms/Python">
@@ -29,6 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1755104500015-dc38e57b21
   <a href="https://gitter.im/TheAlgorithms/community">
     <img src="https://img.shields.io/badge/Chat-Gitter-ff69b4.svg?label=Chat&logo=gitter&style=flat-square" height="20" alt="Gitter chat">
   </a>
+
   <!-- Second row: -->
   <br>
   <a href="https://github.com/TheAlgorithms/Python/actions">
@@ -40,20 +42,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1755104500015-dc38e57b21
   <a href="https://docs.astral.sh/ruff/formatter/">
     <img src="https://img.shields.io/static/v1?label=code%20style&message=ruff&color=black&style=flat-square" height="20" alt="code style: black">
   </a>
+
 <!-- Short description: -->
-  <h3>All algorithms implemented in Python - for education</h3>
+  <h3>All algorithms implemented in Python - for education 📚</h3>
 </div>
 
 Implementations are for learning purposes only. They may be less efficient than the implementations in the Python standard library. Use them at your discretion.
 
-## Getting Started
+## 🚀 Getting Started
 
-Read through our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
+📋 Read through our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
-## Community Channels
+## 🌐 Community Channels
 
 We are on [Discord](https://the-algorithms.com/discord) and [Gitter](https://gitter.im/TheAlgorithms/community)! Community channels are a great way for you to ask questions and get help. Please join us!
 
-## List of Algorithms
+## 📜 List of Algorithms
 
 See our [directory](DIRECTORY.md) for easier navigation and a better overview of the project.

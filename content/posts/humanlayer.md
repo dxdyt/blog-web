@@ -1,9 +1,9 @@
 ---
 title: humanlayer
-date: 2025-08-30T12:20:53+08:00
+date: 2025-09-01T12:28:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755442975535-0d6e856cfeb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755442975535-0d6e856cfeb8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY1Mjc2MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755308482593-f733b46e15ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755308482593-f733b46e15ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
 ---
 
 # [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer)
