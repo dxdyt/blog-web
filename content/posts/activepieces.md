@@ -1,9 +1,9 @@
 ---
 title: activepieces
-date: 2025-09-01T12:28:39+08:00
+date: 2025-09-02T12:22:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755308482593-f733b46e15ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755308482593-f733b46e15ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3MDA4NDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756197256528-f9e6fcb82b04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3ODY5MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756197256528-f9e6fcb82b04?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3ODY5MTN8&ixlib=rb-4.1.0
 ---
 
 # [activepieces/activepieces](https://github.com/activepieces/activepieces)

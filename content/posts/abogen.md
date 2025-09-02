@@ -1,9 +1,9 @@
 ---
 title: abogen
-date: 2025-08-13T12:29:38+08:00
+date: 2025-09-02T12:23:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753176392557-74d3a9da1b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753176392557-74d3a9da1b59?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUwNTkzNTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1736536475480-8f4e8bafeddd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3ODY5MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1736536475480-8f4e8bafeddd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3ODY5MTN8&ixlib=rb-4.1.0
 ---
 
 # [denizsafak/abogen](https://github.com/denizsafak/abogen)
@@ -22,7 +22,8 @@ Abogen is a powerful text-to-speech conversion tool that makes it easy to turn e
 <img title="Abogen Main" src='https://raw.githubusercontent.com/denizsafak/abogen/refs/heads/main/demo/abogen.png' width="380"> <img title="Abogen Processing" src='https://raw.githubusercontent.com/denizsafak/abogen/refs/heads/main/demo/abogen2.png' width="380">
 
 ## Demo
-https://github.com/user-attachments/assets/cb66512d-0a52-48c3-bda4-f1e6a03fb8d6
+
+https://github.com/user-attachments/assets/094ba3df-7d66-494a-bc31-0e4b41d0b865
 
 > This demo was generated in just 5 seconds, producing ∼1 minute of audio with perfectly synced subtitles. To create a similar video, see [the demo guide](https://github.com/denizsafak/abogen/tree/main/demo).
 
@@ -70,6 +71,10 @@ source venv/bin/activate
 
 # Install abogen
 pip3 install abogen
+
+# For Silicon Mac (M1, M2 etc.)
+# After installing abogen, we need to install Kokoro's development version which includes MPS support.
+pip3 install git+https://github.com/hexgrad/kokoro.git
 ```
 ### Linux
 ```bash
@@ -139,7 +144,7 @@ Here’s Abogen in action: in this demo, it processes ∼3,000 characters of tex
 | **Select Voice** | First letter of the language code (e.g., `a` for American English, `b` for British English, etc.), second letter is for `m` for male and `f` for female. |
 | **Voice mixer** | Create custom voices by mixing different voice models with a profile system. See [Voice Mixer](#voice-mixer) for more details. |
 | **Voice preview** | Listen to the selected voice before processing. |
-| **Generate subtitles** | `Disabled`, `Sentence`, `Sentence + Comma`, `1 word`, `2 words`, `3 words`, etc. (Represents the number of words in each subtitle entry) |
+| **Generate subtitles** | `Disabled`, `Sentence`, `Sentence + Comma`, `Sentence + Highlighting`, `1 word`, `2 words`, `3 words`, etc. (Represents the number of words in each subtitle entry) |
 | **Output voice format** | `.WAV`, `.FLAC`, `.MP3`, `.OPUS (best compression)` and `M4B (with chapters)` (Special thanks to [@jborza](https://github.com/jborza) for chapter support in PR [#10](https://github.com/denizsafak/abogen/pull/10)) |
 | **Output subtitle format** | Configures the subtitle format as `SRT (standard)`, `ASS (wide)`, `ASS (narrow)`, `ASS (centered wide)`, or `ASS (centered narrow)`. |
 | **Replace single newlines with spaces** | Replaces single newlines with spaces in the text. This is useful for texts that have imaginary line breaks. |
@@ -165,6 +170,8 @@ Here’s Abogen in action: in this demo, it processes ∼3,000 characters of tex
 | **Check for updates at startup** | Automatically checks for updates when the program starts. |
 | **Disable Kokoro's internet access** | Prevents Kokoro from downloading models or voices from HuggingFace Hub, useful for offline use. |
 | **Reset to default settings** | Resets all settings to their default values. |
+
+> Special thanks to [@robmckinnon](https://github.com/robmckinnon) for adding Sentence + Highlighting feature in PR [#65](https://github.com/denizsafak/abogen/pull/65)
 
 ## `Voice Mixer`
 <img title="Abogen Voice Mixer" src='https://raw.githubusercontent.com/denizsafak/abogen/refs/heads/main/demo/voice_mixer.png'>
@@ -230,6 +237,9 @@ Similar to chapter markers, it is possible to add metadata tags for `M4B` files.
 # 🇨🇳 'z' => Mandarin Chinese: pip install misaki[zh]
 ```
 For a complete list of supported languages and voices, refer to Kokoro's [VOICES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md). To listen to sample audio outputs, see [SAMPLES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/SAMPLES.md).
+
+> [!NOTE]
+> Japanese audio may require additional configuration. Please check [#56](https://github.com/denizsafak/abogen/issues/56) for more information.
 
 ## `MPV Config`
 I highly recommend using [MPV](https://mpv.io/installation/) to play your audio files, as it supports displaying subtitles even without a video track. Here's my `mpv.conf`:
