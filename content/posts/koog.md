@@ -1,9 +1,9 @@
 ---
 title: koog
-date: 2025-09-02T12:22:08+08:00
+date: 2025-09-03T12:21:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755282464678-31862372f805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3ODY5MTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755282464678-31862372f805?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY3ODY5MTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756655386542-e610f9f975dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756655386542-e610f9f975dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
 ---
 
 # [JetBrains/koog](https://github.com/JetBrains/koog)

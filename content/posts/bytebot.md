@@ -1,9 +1,9 @@
 ---
 title: bytebot
-date: 2025-08-19T12:23:07+08:00
+date: 2025-09-03T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753660461288-f21f587970da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753660461288-f21f587970da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756213951869-8393128363a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756213951869-8393128363a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
 ---
 
 # [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot)
@@ -17,15 +17,26 @@ featuredImagePreview: https://images.unsplash.com/photo-1753660461288-f21f587970
 **An AI that has its own computer to complete tasks for you**
 
 [![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/bytebot?referralCode=L9lKXQ)
+
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://github.com/bytebot-ai/bytebot/tree/main/docker)
 [![License](https://img.shields.io/badge/license-Apache%202.0-green.svg)](LICENSE)
-[![Discord](https://img.shields.io/discord/1234567890?color=7289da&label=discord)](https://discord.com/invite/d9ewZkWPTP)
+[![Discord](https://img.shields.io/discord/1232768900274585720?color=7289da&label=discord)](https://discord.com/invite/d9ewZkWPTP)
 
 [🌐 Website](https://bytebot.ai) • [📚 Documentation](https://docs.bytebot.ai) • [💬 Discord](https://discord.com/invite/d9ewZkWPTP) • [𝕏 Twitter](https://x.com/bytebot_ai)
 
 </div>
 
 ---
+
+https://github.com/user-attachments/assets/f271282a-27a3-43f3-9b99-b34007fdd169
+
+
+
+https://github.com/user-attachments/assets/72a43cf2-bd87-44c5-a582-e7cbe176f37f
+
+
+
+
 
 ## What is a Desktop Agent?
 
@@ -45,16 +56,15 @@ When AI has access to a complete desktop environment, it unlocks capabilities th
 
 ### Complete Task Autonomy
 
-Give Bytebot a task like "Download all invoices from our vendor portals and organize them by date" and it will:
+Give Bytebot a task like "Download all invoices from our vendor portals and organize them into a folder" and it will:
 
 - Open the browser
 - Navigate to each portal
 - Handle authentication (including 2FA via password managers)
 - Download the files to its local file system
-- Organize them into folders
-- Generate reports or summaries as needed
+- Organize them into a folder
 
-### Process Any Document
+### Process Documents
 
 Upload files directly to Bytebot's desktop and it can:
 
@@ -132,8 +142,8 @@ Bytebot consists of four integrated components:
 
 ```
 "Read the uploaded contracts.pdf and extract all payment terms and deadlines"
-"Process these 50 invoice PDFs and create a summary report"
-"Analyze this financial report and answer: What were the key risks mentioned?"
+"Process these 5 invoice PDFs and create a summary report"
+"Download and analyze the latest financial report and answer: What were the key risks mentioned?"
 ```
 
 ### Multi-Application Workflows
