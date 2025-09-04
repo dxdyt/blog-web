@@ -1,9 +1,9 @@
 ---
 title: 500-AI-Agents-Projects
-date: 2025-09-03T12:21:08+08:00
+date: 2025-09-04T12:21:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756089882368-4060f412bd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756089882368-4060f412bd06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755867712205-c716ff78e399?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755867712205-c716ff78e399?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
 ---
 
 # [ashishpatel26/500-AI-Agents-Projects](https://github.com/ashishpatel26/500-AI-Agents-Projects)

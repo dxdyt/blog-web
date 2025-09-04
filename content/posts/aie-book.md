@@ -1,9 +1,9 @@
 ---
 title: aie-book
-date: 2025-04-06T12:22:48+08:00
+date: 2025-09-04T12:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742218410105-4a57a1dca01d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5MTMyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742218410105-4a57a1dca01d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDM5MTMyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1756520009349-7f1d073af472?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756520009349-7f1d073af472?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
 ---
 
 # [chiphuyen/aie-book](https://github.com/chiphuyen/aie-book)

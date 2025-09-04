@@ -1,9 +1,9 @@
 ---
 title: modular-monolith-with-ddd
-date: 2024-01-02T12:18:14+08:00
+date: 2025-09-04T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703820497309-333df13052f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDQxNjg5NDh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755090030899-800ee2e4aa06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755090030899-800ee2e4aa06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
 ---
 
 # [kgrzybek/modular-monolith-with-ddd](https://github.com/kgrzybek/modular-monolith-with-ddd)
@@ -315,11 +315,11 @@ As can be found on the website of the author of this model ([Simon Brown](https:
 
 #### 3.0.2 C2 Container
 
-![](http://www.plantuml.com/plantuml/png/5OrDgiCm30RtxnIl1uW5fQkk0Zr8SIoHcDXIq0-XFNtZpVTjXfdPFAj7Rt-togK5KcZxtzmFUm9eFjDQVOibZBG8Ex6d8XtsLR-VXNReWj6oJbrOseLEvnX4X9xDIG6b6BmUKExl8SYLITCnYZCnNly3)
+![](docs/C4/C2_Containers.png)
 
 #### 3.0.3 C3 Component (high-level)
 
-![](http://www.plantuml.com/plantuml/png/5OqxZiCm30NxFSNc01QBf4fb80S9P96m3Kkam0-CvFIHc_UQ6SnidjMZrR_RpgK6KcZztzoxFG4qdsdTVOibZBG8Ex6d8WsELR-VXGveWb6pJarOwa2dynf4X9RDIG6b6BmUKExl8NPXOhVKh-HCZED_)
+![](docs/C4/C3_Components.png)
 
 #### 3.0.4 C3 Component (module-level)
 
@@ -340,7 +340,8 @@ As can be found on the website of the author of this model ([Simon Brown](https:
   2. Authenticate and authorize request (using User Access module)
   3. Delegate work to specific module sending Command or Query
   4. Return response
-- **User Access** - responsible for user authentication, authorization and registration
+- **User Access** - responsible for user authentication and authorization
+- **Registrations** - responsible for user registration
 - **Meetings** - implements Meetings Bounded Context: creating meeting groups, meetings
 - **Administration** - implements Administration Bounded Context: implements administrative tasks like meeting group proposal verification
 - **Payments** - implements Payments Bounded Context: implements all functionalities associated with payments
@@ -2090,10 +2091,10 @@ List of technologies, frameworks and libraries used for implementation:
 
 - Download and install MS SQL Server Express or other
 - Create an empty database using [CreateDatabase_Windows.sql](src/Database/CompanyName.MyMeetings.Database/Scripts/CreateDatabase_Windows.sql) or [CreateDatabase_Linux.sql](src/Database/CompanyName.MyMeetings.Database/Scripts/CreateDatabase_Linux.sql). Script adds **app** schema which is needed for migrations journal table. Change database file path if needed.
-- Run database migrations using **MigrateDatabase** NUKE target:
+- Run database migrations using **MigrateDatabase** NUKE target by executing the build.sh script present in the root folder:
 
 ```shell
-.\build MigrateDatabase "connection_string"
+.\build MigrateDatabase --DatabaseConnectionString "connection_string"
 ```
 
 *"connection_string"* - connection string to your database
@@ -2107,11 +2108,11 @@ List of technologies, frameworks and libraries used for implementation:
 
 Set a database connection string called `MeetingsConnectionString` in the root of the API project's appsettings.json or use [Secrets](https://blogs.msdn.microsoft.com/mihansen/2017/09/10/managing-secrets-in-net-core-2-0-apps/)
 
-Example config setting in appsettings.json for a database called `ModularMonolith`:
+Example config setting in appsettings.json for a database called `MyMeetings`:
 
 ```json
 {
- "MeetingsConnectionString": "Server=(localdb)\\mssqllocaldb;Database=ModularMonolith;Trusted_Connection=True;"
+ "MeetingsConnectionString": "Server=(localdb)\\mssqllocaldb;Database=MyMeetings;Trusted_Connection=True;"
 }
 ```
 

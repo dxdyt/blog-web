@@ -1,9 +1,9 @@
 ---
 title: eShop
-date: 2025-05-02T12:23:04+08:00
+date: 2025-09-04T12:21:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744144501170-adec17d0c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744144501170-adec17d0c893?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755540735845-190aa1cb94ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755540735845-190aa1cb94ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
 ---
 
 # [dotnet/eShop](https://github.com/dotnet/eShop)

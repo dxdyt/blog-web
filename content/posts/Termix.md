@@ -1,14 +1,20 @@
 ---
 title: Termix
-date: 2025-09-03T12:21:39+08:00
+date: 2025-09-04T12:20:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755890946199-41285cf169bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755890946199-41285cf169bc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755090030899-800ee2e4aa06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755090030899-800ee2e4aa06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
 ---
 
 # [LukeGus/Termix](https://github.com/LukeGus/Termix)
 
 # Repo Stats
+<p align="center">
+  <img src="https://flagcdn.com/us.svg" alt="English" width="24" height="16"> English | 
+  <a href="README-CN.md"><img src="https://flagcdn.com/cn.svg" alt="中文" width="24" height="16"> 中文</a>
+</p>
+
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/LukeGus/Termix?style=flat&label=Stars)
 ![GitHub forks](https://img.shields.io/github/forks/LukeGus/Termix?style=flat&label=Forks)
 ![GitHub Release](https://img.shields.io/github/v/release/LukeGus/Termix?style=flat&label=Release)
@@ -49,6 +55,7 @@ Termix is an open-source, forever-free, self-hosted all-in-one server management
 - **Server Stats** - View CPU, memory, and HDD usage on any SSH server
 - **User Authentication** - Secure user management with admin controls and OIDC and 2FA (TOTP) support
 - **Modern UI** - Clean interface built with React, Tailwind CSS, and Shadcn
+- **Languages** - Built-in support for English and Chinese
 
 # Planned Features
 - **Improved Admin Control** - Give more fine-grained control over user and admin permissions, share hosts, etc

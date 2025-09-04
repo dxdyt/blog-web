@@ -1,9 +1,9 @@
 ---
 title: kestra
-date: 2025-04-17T12:22:52+08:00
+date: 2025-09-04T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742470523391-891944f4155f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742470523391-891944f4155f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQ4NjM2NzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754813920333-c8d169ee4a49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754813920333-c8d169ee4a49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
 ---
 
 # [kestra-io/kestra](https://github.com/kestra-io/kestra)
@@ -74,10 +74,6 @@ Kestra is an open-source, event-driven orchestration platform that makes both **
 ---
 
 ## 🚀 Quick Start
-
-### Try the Live Demo
-
-Try Kestra with our [**Live Demo**](https://demo.kestra.io/ui/login?auto). No installation required!
 
 ### Get Started Locally in 5 Minutes
 
