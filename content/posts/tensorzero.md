@@ -1,14 +1,14 @@
 ---
 title: tensorzero
-date: 2025-07-26T12:36:05+08:00
+date: 2025-09-05T12:22:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e972?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1MDQ1MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1734760381824-f52cb9960b9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1734760381824-f52cb9960b9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
 ---
 
 # [tensorzero/tensorzero](https://github.com/tensorzero/tensorzero)
 
-<p><picture><img src="https://github.com/user-attachments/assets/47d67430-386d-4675-82ad-d4734d3262d9" alt="TensorZero Logo" width=128 height=128></picture></p>
+<p><picture><img src="https://github.com/user-attachments/assets/47d67430-386d-4675-82ad-d4734d3262d9" alt="TensorZero Logo" width="128" height="128"></picture></p>
 
 # TensorZero
 
@@ -23,6 +23,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1751076547556-f816d884e9
 - **Experimentation:** ship with confidence with built-in A/B testing, routing, fallbacks, retries, etc.
 
 Take what you need, adopt incrementally, and complement with other tools.
+
+<video src="https://github.com/user-attachments/assets/04a8466e-27d8-4189-b305-e7cecb6881ee"></video>
 
 ---
 
@@ -76,7 +78,7 @@ Take what you need, adopt incrementally, and complement with other tools.
   </tr>
   <tr>
     <td width="30%" valign="top"><b>Who is building TensorZero?</b></td>
-    <td width="70%" valign="top">Our technical team includes a former Rust compiler maintainer, machine learning researchers (Stanford, CMU, Oxford, Columbia) with thousands of citations, and the chief product officer of a decacorn startup. We're backed by the same investors as leading open-source projects (e.g. ClickHouse, CockroachDB) and AI labs (e.g. OpenAI, Anthropic).</td>
+    <td width="70%" valign="top">Our technical team includes a former Rust compiler maintainer, machine learning researchers (Stanford, CMU, Oxford, Columbia) with thousands of citations, and the chief product officer of a decacorn startup. We're backed by the same investors as leading open-source projects (e.g. ClickHouse, CockroachDB) and AI labs (e.g. OpenAI, Anthropic). See our <b><a href="https://www.tensorzero.com/blog/tensorzero-raises-7-3m-seed-round-to-build-an-open-source-stack-for-industrial-grade-llm-applications/">$7.3M seed round announcement</a></b> and <b><a href="https://venturebeat.com/ai/tensorzero-nabs-7-3m-seed-to-solve-the-messy-world-of-enterprise-llm-development/" rel="nofollow" target="_blank">coverage from VentureBeat</a></b>. We're <b><a href="https://www.tensorzero.com/jobs" rel="nofollow" target="_blank">hiring in NYC</a></b>.</td>
   </tr>
   <tr>
     <td width="30%" valign="top"><b>How do I get started?</b></td>
@@ -93,12 +95,12 @@ Take what you need, adopt incrementally, and complement with other tools.
 > **Integrate with TensorZero once and access every major LLM provider.**
 
 - [x] Access every major LLM provider (API or self-hosted) through a single unified API
-- [x] Infer with streaming, tool use, structured generation (JSON mode), batch, multimodal (VLMs), file inputs, caching, etc.
+- [x] Infer with streaming, tool use, structured generation (JSON mode), batch, embeddings, multimodal (VLMs), file inputs, caching, etc.
 - [x] Define prompt templates and schemas to enforce a consistent, typed interface between your application and the LLMs
 - [x] Satisfy extreme throughput and latency needs, thanks to 🦀 Rust: <1ms p99 latency overhead at 10k+ QPS
 - [x] Integrate using our Python client, any OpenAI SDK or OpenAI-compatible client, or our HTTP API (use any programming language)
 - [x] Ensure high availability with routing, retries, fallbacks, load balancing, granular timeouts, etc.
-- [ ] Soon: embeddings; real-time voice
+- [ ] Soon: rate limits, spend tracking and budgeting, service accounts
 
 <table>
   <tr></tr> <!-- flip highlight order -->
@@ -316,15 +318,31 @@ See **[Quick Start](https://www.tensorzero.com/docs/quickstart)** for more infor
 - [ ] Soon: AI-assisted debugging and root cause analysis; AI-assisted data labeling
 
 <table>
-  <tr></tr> <!-- flip highlight order -->
-  <tr>
-    <td width="50%" align="center" valign="middle"><b>Observability » Inference</b></td>
-    <td width="50%" align="center" valign="middle"><b>Observability » Function</b></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center" valign="middle"><img src="https://github.com/user-attachments/assets/2cc3cc9a-f33f-4e94-b8de-07522326f80a"></td>
-    <td width="50%" align="center" valign="middle"><img src="https://github.com/user-attachments/assets/00ae6605-8fa0-4efd-8238-ae8ea589860f"></td>
-  </tr>
+<tr></tr> <!-- flip highlight order -->
+<tr>
+<td width="50%" align="center" valign="middle"><b>Observability » UI</b></td>
+<td width="50%" align="center" valign="middle"><b>Observability » Programmatic</b></td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="middle"><video src="https://github.com/user-attachments/assets/a23e4c95-18fa-482c-8423-6078fb4cf285"></video></td>
+<td width="50%" align="left" valign="middle">
+
+```python
+t0.experimental_list_inferences(
+  function_name="sales_agent",
+  variant_name="qwen3-promptv2",
+  filters=BooleanMetricFilter(
+      metric_name="converted_sale",
+      value=True,
+  ),
+  order_by=[OrderBy(by="timestamp", direction="DESC")],
+  limit=100_000,
+  # ... and more ...
+)
+```
+
+</td>
+</tr>
 </table>
 
 <br>
@@ -337,7 +355,7 @@ See **[Quick Start](https://www.tensorzero.com/docs/quickstart)** for more infor
 - [x] Optimize your prompts with automated prompt engineering algorithms like MIPROv2
 - [x] Optimize your inference strategy with dynamic in-context learning, chain of thought, best/mixture-of-N sampling, etc.
 - [x] Enable a feedback loop for your LLMs: a data & learning flywheel turning production data into smarter, faster, and cheaper models
-- [ ] Soon: programmatic optimization; synthetic data generation
+- [ ] Soon: synthetic data generation
 
 #### Model Optimization
 
@@ -350,7 +368,7 @@ Optimize closed-source and open-source models using supervised fine-tuning (SFT)
     <td width="50%" align="center" valign="middle"><b>Preference Fine-tuning (DPO) &mdash; Jupyter Notebook</b></td>
   </tr>
   <tr>
-    <td width="50%" align="center" valign="middle"><img src="https://github.com/user-attachments/assets/cf7acf66-732b-43b3-af2a-5eba1ce40f6f"></td>
+    <td width="50%" align="center" valign="middle"><video src="https://github.com/user-attachments/assets/82f76be7-5e02-4ada-b503-69dfa209a442"></video></td>
     <td width="50%" align="center" valign="middle"><img src="https://github.com/user-attachments/assets/a67a0634-04a7-42b0-b934-9130cb7cdf51"></td>
   </tr>
 </table>
@@ -454,7 +472,7 @@ item_count: 7.15 ± 0.39</code></pre>
 - [x] Build simple applications or massive deployments with GitOps-friendly orchestration
 - [x] Extend TensorZero with built-in escape hatches, programmatic-first usage, direct database access, and more
 - [x] Integrate with third-party tools: specialized observability and evaluations, model providers, agent orchestration frameworks, etc.
-- [ ] Soon: UI playground
+- [x] Iterate quickly by experimenting with prompts interactively using the Playground UI
 
 ## Demo
 
@@ -476,10 +494,6 @@ Ask us on **[Slack](https://www.tensorzero.com/slack)** or **[Discord](https://w
 **Using TensorZero at work?**
 Email us at **[hello@tensorzero.com](mailto:hello@tensorzero.com)** to set up a Slack or Teams channel with your team (free).
 
-**Work with us.**
-We're **[hiring in NYC](https://www.tensorzero.com/jobs)**.
-We'd also welcome **[open-source contributions](https://github.com/tensorzero/tensorzero/blob/main/CONTRIBUTING.md)**!
-
 ## Examples
 
 We are working on a series of **complete runnable examples** illustrating TensorZero's data & learning flywheel.
@@ -500,6 +514,11 @@ We are working on a series of **complete runnable examples** illustrating Tensor
 > This example fine-tunes GPT-4o Mini to generate haikus tailored to a specific taste.
 > You'll see TensorZero's "data flywheel in a box" in action: better variants leads to better data, and better data leads to better variants.
 > You'll see progress by fine-tuning the LLM multiple times.
+
+> **[Image Data Extraction — Multimodal (Vision) Fine-tuning](https://github.com/tensorzero/tensorzero/tree/main/examples/multimodal-vision-finetuning)**
+>
+> This example shows how to fine-tune multimodal models (VLMs) like GPT-4o to improve their performance on vision-language tasks.
+> Specifically, we'll build a system that categorizes document images (screenshots of computer science research papers).
 
 > **[Improving LLM Chess Ability with Best-of-N Sampling](https://github.com/tensorzero/tensorzero/tree/main/examples/chess-puzzles/)**
 >

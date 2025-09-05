@@ -1,9 +1,9 @@
 ---
 title: bytebot
-date: 2025-09-03T12:21:53+08:00
+date: 2025-09-05T12:20:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756213951869-8393128363a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756213951869-8393128363a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY4NzMyMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756312827971-e162f92e5588?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756312827971-e162f92e5588?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
 ---
 
 # [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot)
@@ -13,6 +13,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1756213951869-8393128363
 <img src="docs/images/bytebot-logo.png" width="500" alt="Bytebot Logo">
 
 # Bytebot: Open-Source AI Desktop Agent
+
+<a href="https://trendshift.io/repositories/14624" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14624" alt="bytebot-ai%2Fbytebot | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 **An AI that has its own computer to complete tasks for you**
 
@@ -30,13 +32,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1756213951869-8393128363
 
 https://github.com/user-attachments/assets/f271282a-27a3-43f3-9b99-b34007fdd169
 
-
-
 https://github.com/user-attachments/assets/72a43cf2-bd87-44c5-a582-e7cbe176f37f
-
-
-
-
 
 ## What is a Desktop Agent?
 

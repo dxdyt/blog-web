@@ -1,9 +1,9 @@
 ---
 title: ML-From-Scratch
-date: 2025-06-26T12:29:42+08:00
+date: 2025-09-05T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749243277337-3f955d06cc64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749243277337-3f955d06cc64?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA5MTIwNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754404053094-53433aa3c848?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754404053094-53433aa3c848?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
 ---
 
 # [eriklindernoren/ML-From-Scratch](https://github.com/eriklindernoren/ML-From-Scratch)

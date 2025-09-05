@@ -1,9 +1,9 @@
 ---
 title: ansible
-date: 2024-12-05T12:23:32+08:00
+date: 2025-09-05T12:22:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732692695680-f4c37b5bbbea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732692695680-f4c37b5bbbea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMzNzI0NjJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755127803263-bffee0361cfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755127803263-bffee0361cfc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
 ---
 
 # [ansible/ansible](https://github.com/ansible/ansible)

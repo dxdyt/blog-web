@@ -1,9 +1,9 @@
 ---
 title: Termix
-date: 2025-09-04T12:20:51+08:00
+date: 2025-09-05T12:21:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755090030899-800ee2e4aa06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755090030899-800ee2e4aa06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756312827971-e162f92e5588?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756312827971-e162f92e5588?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
 ---
 
 # [LukeGus/Termix](https://github.com/LukeGus/Termix)
