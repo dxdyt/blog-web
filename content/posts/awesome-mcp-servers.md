@@ -1,9 +1,9 @@
 ---
 title: awesome-mcp-servers
-date: 2025-09-04T12:20:57+08:00
+date: 2025-09-06T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755771653894-82b2dc53e787?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755771653894-82b2dc53e787?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY5NTk2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
 ---
 
 # [appcypher/awesome-mcp-servers](https://github.com/appcypher/awesome-mcp-servers)
@@ -454,10 +454,12 @@ See [Helpful Tools & Utilities](#helpful-tools-&-utilities) section for tools to
 - <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Microsoft_Entra_ID_color_icon.svg/120px-Microsoft_Entra_ID_color_icon.svg.png" height="14"/> [Microsoft Entra ID](https://github.com/hieuttmmo/entraid-mcp-server) - A MCP server for interacting with EntraID through Microsoft Graph API. It is designed for extensibility, maintainability, and security, supporting advanced queries for users, sign-in logs, MFA status, privileged users and more.
 - <img src="https://www.netwrix.com/favicon.ico" height="14"/> [Netwrix](https://github.com/netwrix/mcp-server-naa)<sup><sup>⭐</sup></sup> - A FastMCP-based server for [Netwrix Access Analyzer](https://www.netwrix.com/access-analyzer.html) data analysis, designed for enhanced data analysis capabilities.
 - <img src="https://osv.dev/favicon.ico" height="14"/> [OSV](https://github.com/StacklokLabs/osv-mcp) - Access the OSV (Open Source Vulnerabilities) database for vulnerability information. Query vulnerabilities by package version or commit, batch query multiple packages, and get detailed vulnerability information by ID.
+- <img src="https://vulert.com/favicon.ico" height="14"> [Vulert](vulert.com) - Vulert secures software by detecting vulnerabilities in open-source dependencies—without accessing your code. It supports Js, PHP, Java, Python, and more
 - <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CDSP](https://github.com/sanyambassi/ciphertrust-manager-mcp-server) - MCP server for Thales CipherTrust Manager integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants.
 - <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CAKM](https://github.com/sanyambassi/thales-cdsp-cakm-mcp-server) - MCP server for Thales CDSP CAKM integration, enabling secure key management, cryptographic operations, and compliance monitoring through AI assistants for Ms SQL and Oracle Databases.
 - <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CRDP](https://github.com/sanyambassi/thales-cdsp-crdp-mcp-server) - MCP server for Thales CipherTrust Manager RestFul Data Protection service.
 - <img src="https://cdn.worldvectorlogo.com/logos/thales-1.svg" height="14"/> [CSM](https://github.com/sanyambassi/thales-cdsp-csm-mcp-server) - MCP server for Thales CipherTrust Secrets Management
+
 <br />
 
 ## 🔌 <a name="iot"></a>IoT

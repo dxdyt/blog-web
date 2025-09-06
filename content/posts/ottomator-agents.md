@@ -1,9 +1,9 @@
 ---
 title: ottomator-agents
-date: 2025-07-01T12:39:02+08:00
+date: 2025-09-06T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749315185949-5540f5d6549a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749315185949-5540f5d6549a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTEzNDQ2MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
 ---
 
 # [coleam00/ottomator-agents](https://github.com/coleam00/ottomator-agents)

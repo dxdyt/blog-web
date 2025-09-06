@@ -1,9 +1,9 @@
 ---
 title: wazuh
-date: 2024-08-29T12:19:20+08:00
+date: 2025-09-06T12:21:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1688553283291-7c0a8c2f7a85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1688553283291-7c0a8c2f7a85?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQ5MDUwODl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
 ---
 
 # [wazuh/wazuh](https://github.com/wazuh/wazuh)

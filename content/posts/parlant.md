@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-08-20T12:22:15+08:00
+date: 2025-09-06T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743385779312-73ea241025d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743385779312-73ea241025d8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -22,6 +22,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1743385779312-73ea241025
   <a href="https://www.parlant.io/docs/quickstart/installation" target="_blank">⚡ Quick Start</a> •
   <a href="https://discord.gg/duxWqxKk6J" target="_blank">💬 Discord</a> •
   <a href="https://www.parlant.io/docs/quickstart/examples" target="_blank">📖 Examples</a>
+</p>
+
+<p>
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://zdoc.app/de/emcie-co/parlant">Deutsch</a> |
+  <a href="https://zdoc.app/es/emcie-co/parlant">Español</a> |
+  <a href="https://zdoc.app/fr/emcie-co/parlant">français</a> |
+  <a href="https://zdoc.app/ja/emcie-co/parlant">日本語</a> |
+  <a href="https://zdoc.app/ko/emcie-co/parlant">한국어</a> |
+  <a href="https://zdoc.app/pt/emcie-co/parlant">Português</a> |
+  <a href="https://zdoc.app/ru/emcie-co/parlant">Русский</a> |
+  <a href="https://zdoc.app/zh/emcie-co/parlant">中文</a>
 </p>
 
 <p>
@@ -49,21 +61,41 @@ You build an AI agent. It works great in testing. Then real users start talking 
 
 **Sound familiar?** You're not alone. This is the #1 pain point for developers building production AI agents.
 
-## ⚡ The Solution: Teach Principles, Not Scripts
+## ⚡ The Solution: Stop Fighting Prompts, Teach Principles
 
-Parlant flips the script on AI agent development. Instead of hoping your LLM will follow instructions, **Parlant guarantees it**.
+Parlant flips the script on AI agent development. Instead of hoping your LLM will follow instructions, **Parlant ensures it**.
 
 ```python
 # Traditional approach: Cross your fingers 🤞
 system_prompt = "You are a helpful assistant. Please follow these 47 rules..."
 
-# Parlant approach: Guaranteed compliance ✅
+# Parlant approach: Ensured compliance ✅
 await agent.create_guideline(
     condition="Customer asks about refunds",
     action="Check order status first to see if eligible",
     tools=[check_order_status],
 )
 ```
+
+#### Parlant gives you all the structure you need to build customer-facing agents that behave exactly as your business requires:
+
+- **[Journeys](https://parlant.io/docs/concepts/customization/journeys)**:
+  Define clear customer journeys and how your agent should respond at each step.
+
+- **[Behavioral Guidelines](https://parlant.io/docs/concepts/customization/guidelines)**:
+  Easily craft agent behavior; Parlant will match the relevant elements contextually.
+
+- **[Tool Use](https://parlant.io/docs/concepts/customization/tools)**:
+  Attach external APIs, data fetchers, or backend services to specific interaction events.
+
+- **[Domain Adaptation](https://parlant.io/docs/concepts/customization/glossary)**:
+  Teach your agent domain-specific terminology and craft personalized responses.
+
+- **[Canned Responses](https://parlant.io/docs/concepts/customization/canned-responses)**:
+  Use response templates to eliminate hallucinations and guarantee style consistency.
+
+- **[Explainability](https://parlant.io/docs/advanced/explainability)**:
+  Understand why and when each guideline was matched and followed.
 
 <div align="center">
 
@@ -83,6 +115,11 @@ async def get_weather(context: p.ToolContext, city: str) -> p.ToolResult:
     # Your weather API logic here
     return p.ToolResult(f"Sunny, 72°F in {city}")
 
+@p.tool
+async def get_datetime(context: p.ToolContext) -> p.ToolResult:
+    from datetime import datetime
+    return p.ToolResult(datetime.now())
+
 async def main():
     async with p.Server() as server:
         agent = await server.create_agent(
@@ -90,12 +127,19 @@ async def main():
             description="Helpful weather assistant"
         )
 
-        # Define behavior with natural language
+        # Have the agent's context be updated on every response (though
+        # update interval is customizable) using a context variable.
+        await agent.create_variable(name="current-datetime", tool=get_datetime)
+
+        # Control and guide agent behavior with natural language
         await agent.create_guideline(
             condition="User asks about weather",
             action="Get current weather and provide a friendly response with suggestions",
             tools=[get_weather]
         )
+
+        # Add other (reliably enforced) behavioral modeling elements
+        # ...
 
         # 🎉 Test playground ready at http://localhost:8800
         # Integrate the official React widget into your app,
@@ -106,7 +150,7 @@ if __name__ == "__main__":
     asyncio.run(main())
 ```
 
-**That's it!** Your agent is running with guaranteed rule-following behavior.
+**That's it!** Your agent is running with ensured rule-following behavior.
 
 ## 🎬 See It In Action
 
@@ -140,7 +184,7 @@ if __name__ == "__main__":
 <td width="50%">
 
 - Define rules in natural language
-- **Guaranteed** rule compliance
+- **Ensured** rule compliance
 - Predictable, consistent behavior
 - Scale by adding guidelines
 - Production-ready from day one
@@ -171,7 +215,7 @@ if __name__ == "__main__":
 - **📱 React Widget** - [Drop-in chat UI for any web app](https://github.com/emcie-co/parlant-chat-react)
 - **🔍 Full Explainability** - Understand every decision your agent makes
 
-## 📈 Join 5,000+ Developers Building Better AI
+## 📈 Join 8,000+ Developers Building Better AI
 
 <div align="center">
 
@@ -182,6 +226,10 @@ _Financial institutions • Healthcare providers • Legal firms • E-commerce 
 [![Star History Chart](https://api.star-history.com/svg?repos=emcie-co/parlant&type=Date)](https://star-history.com/#emcie-co/parlant&Date)
 
 </div>
+
+## 🌟 What Developers Are Saying
+
+> _"By far the most elegant conversational AI framework that I've come across! Developing with Parlant is pure joy."_ **— Vishal Ahuja, Senior Lead, Customer-Facing Conversational AI @ JPMorgan Chase**
 
 ## 🏃‍♂️ Quick Start Paths
 
@@ -199,10 +247,6 @@ _Financial institutions • Healthcare providers • Legal firms • E-commerce 
 <td><a href="https://discord.gg/duxWqxKk6J">→ Join our Discord community</a></td>
 </tr>
 </table>
-
-## 🌟 What Developers Are Saying
-
-> _"By far the most elegant conversational AI framework that I've come across! Developing with Parlant is pure joy."_ **— Vishal Ahuja, Senior Lead, Customer-Facing Conversational AI @ JPMorgan Chase**
 
 ## 🤝 Community & Support
 

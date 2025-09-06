@@ -1,9 +1,9 @@
 ---
 title: bytebot
-date: 2025-09-05T12:20:55+08:00
+date: 2025-09-06T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756312827971-e162f92e5588?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756312827971-e162f92e5588?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcwNDYwNDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079133236-8aa9510adc35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
 ---
 
 # [bytebot-ai/bytebot](https://github.com/bytebot-ai/bytebot)
