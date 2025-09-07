@@ -1,9 +1,9 @@
 ---
 title: quarkus
-date: 2025-05-02T12:22:47+08:00
+date: 2025-09-07T12:21:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744771724940-2bc0a8a2001a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1744771724940-2bc0a8a2001a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYxNTk2MzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1753625606793-47749a65e80f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753625606793-47749a65e80f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
 ---
 
 # [quarkusio/quarkus](https://github.com/quarkusio/quarkus)

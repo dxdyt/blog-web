@@ -1,9 +1,9 @@
 ---
 title: airflow
-date: 2025-09-06T12:21:47+08:00
+date: 2025-09-07T12:21:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756673737017-e87fbb5c5917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756673737017-e87fbb5c5917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753295687788-8a44a4184059?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753295687788-8a44a4184059?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
 ---
 
 # [apache/airflow](https://github.com/apache/airflow)

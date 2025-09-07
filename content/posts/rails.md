@@ -1,9 +1,9 @@
 ---
 title: rails
-date: 2024-01-19T12:18:00+08:00
+date: 2025-09-07T12:20:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1704426882813-8acfff020487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1704426882813-8acfff020487?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU2Mzc4MDB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754079132867-d31504e2a74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754079132867-d31504e2a74b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
 ---
 
 # [rails/rails](https://github.com/rails/rails)
