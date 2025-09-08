@@ -1,9 +1,9 @@
 ---
 title: coreutils
-date: 2025-05-27T12:26:11+08:00
+date: 2025-09-08T12:23:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747109708806-cac8c547d59f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747109708806-cac8c547d59f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDgzMTk4Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756564853305-8240ed9f794c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756564853305-8240ed9f794c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
 ---
 
 # [uutils/coreutils](https://github.com/uutils/coreutils)
@@ -25,6 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1747109708806-cac8c547d5
 
 [![CodeCov](https://codecov.io/gh/uutils/coreutils/branch/master/graph/badge.svg)](https://codecov.io/gh/uutils/coreutils)
 ![MSRV](https://img.shields.io/badge/MSRV-1.85.0-brightgreen)
+[![Weblate](https://hosted.weblate.org/widget/rust-coreutils/svg-badge.svg)](https://hosted.weblate.org/projects/rust-coreutils/)
 
 </div>
 
@@ -51,8 +52,15 @@ cargo install coreutils
 
 ## Goals
 
-uutils aims to be a drop-in replacement for the GNU utils. Differences with GNU
+uutils coreutils aims to be a drop-in replacement for the GNU utils. Differences with GNU
 are treated as bugs.
+
+Our key objectives include:
+- Matching GNU's output (stdout and error code) exactly
+- Better error messages
+- Providing comprehensive internationalization support (UTF-8)
+- Improved performances
+- [Extensions](docs/src/extensions.md) when relevant (example: --progress)
 
 uutils aims to work on as many platforms as possible, to be able to use the same
 utils on Linux, macOS, Windows and other platforms. This ensures, for example,
@@ -69,6 +77,7 @@ uutils has both user and developer documentation available:
 Both can also be generated locally, the instructions for that can be found in
 the [coreutils docs](https://github.com/uutils/uutils.github.io) repository.
 
+Use [weblate/rust-coreutils](https://hosted.weblate.org/projects/rust-coreutils/) to translate the Rust coreutils into your language.
 
 <!-- ANCHOR: build (this mark is needed for mdbook) -->
 

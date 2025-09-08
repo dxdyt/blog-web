@@ -1,9 +1,9 @@
 ---
 title: fhevm
-date: 2025-09-07T12:20:12+08:00
+date: 2025-09-08T12:22:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756068785746-8aa1a82d2d1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756068785746-8aa1a82d2d1d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcyMTg4MDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756680967556-26861e2c836b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756680967556-26861e2c836b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
 ---
 
 # [zama-ai/fhevm](https://github.com/zama-ai/fhevm)

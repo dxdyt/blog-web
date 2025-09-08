@@ -1,22 +1,22 @@
 ---
 title: FtcRobotController
-date: 2024-09-10T12:19:04+08:00
+date: 2025-09-08T12:23:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723910332316-463af386e82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723910332316-463af386e82d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU5NDE5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1754962847589-206a31ca113e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754962847589-206a31ca113e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
 ---
 
 # [FIRST-Tech-Challenge/FtcRobotController](https://github.com/FIRST-Tech-Challenge/FtcRobotController)
 
 ## NOTICE
 
-This repository contains the public FTC SDK for the INTO THE DEEP (2024-2025) competition season.
+This repository contains the public FTC SDK for the DECODE (2025-2026) competition season.
 
 ## Welcome!
 This GitHub repository contains the source code that is used to build an Android app to control a *FIRST* Tech Challenge competition robot.  To use this SDK, download/clone the entire project to your local computer.
 
 ## Requirements
-To use this Android Studio project, you will need Android Studio 2021.2 (codename Chipmunk) or later.
+To use this Android Studio project, you will need Android Studio Ladybug (2024.2) or later.
 
 To program your robot in Blocks or OnBot Java, you do not need Android Studio.
 
@@ -68,6 +68,137 @@ Samples Folder: &nbsp;&nbsp; [/FtcRobotController/src/main/java/org/firstinspire
 The readme.md file located in the [/TeamCode/src/main/java/org/firstinspires/ftc/teamcode](TeamCode/src/main/java/org/firstinspires/ftc/teamcode) folder contains an explanation of the sample naming convention, and instructions on how to copy them to your own project space.
 
 # Release Information
+
+## Version 11.0 (20250827-105138)
+
+### Enhancements
+
+* OnBotJava now has the concept of a project.  
+  A project is a collection of related files.  A project may be chosen by selecting 'Example Project'
+  from the 'File type:' dropdown.  Doing so will populate the dropdown to the immediate right with 
+  a list of projects to choose from.
+  When selecting a project all of the related files appear in the left pane of the workspace 
+  underneath a directory with the chosen project name.
+  This is useful for example for ConceptExternalHardwareClass which has a dependency upon
+  RobotHardware.  This feature simplifies the usage of this Concept example by automatically
+  pulling in dependent classes.
+* Adds support for AndyMark ToF, IMU, and Color sensors.
+* The Driver Station app indicates if WiFi is disabled on the device.
+* Adds several features to the Color Processing software:
+  * DECODE colors `ARTIFACT_GREEN` and `ARTIFACT_PURPLE`
+  * Choice of the order of pre-processing steps Erode and Dilate
+  * Best-fit preview shape called `circleFit`, an alternate to the existing `boxFit`
+  * Sample OpMode `ConceptVisionColorLocator_Circle`, an alternate to the renamed `ConceptVisionColorLocator_Rectangle`
+* The Driver Station app play button has a green background with a white play symbol if
+  * the driver station and robot controller are connected and have the same team number
+  * there is at least one gamepad attached
+  * the timer is enabled (for an Autonomous OpMode)
+* Updated AprilTag Library for DECODE. Notably, getCurrentGameTagLibrary() now returns DECODE tags.
+  * Since the AprilTags on the Obelisk should not be used for localization, the ConceptAprilTagLocalization samples only use those tags without the name 'Obelisk' in them.
+* OctoQuad I2C driver updated to support firmware v3.x 
+  * Adds support for odometry localizer on MK2 hardware revision
+  * Adds ability to track position for an absolute encoder across multiple rotations
+  * Note that some driver APIs have changed; minor updates to user software may be required
+  * Requires firmware v3.x. For instructions on updating firmware, see
+    https://github.com/DigitalChickenLabs/OctoQuad/blob/master/documentation/OctoQuadDatasheet_Rev_3.0C.pdf
+
+
+## Version 10.3 (20250625-090416)
+
+### Breaking Changes
+* The behavior of setGlobalErrorMsg() is changed.  Note that this is an SDK internal method that is not 
+  meant to be used by team software or third party libraries.  Teams or libraries using this method should
+  find another means to communicate failure.  The design intent of setGlobalErrorMsg() is to report an 
+  error and force the user to restart the robot, which in certain circumstances when used inappropriately
+  could cause a robot to continue running while Driver Station controls are disabled.  To prevent this,
+  processing of a call to setGlobalErrorMsg() is deferred until the robot is in a known safe state.  This may
+  mean that a call to setGlobalErrorMsg() that does not also result in stopping a running OpMode will appear
+  as though nothing happened until the robot is stopped, at which point, if clearGlobalErrorMsg() has not 
+  been called the message will appear on the Driver Station and a restart will be required.
+  Addresses issue [1381](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/1381)
+* Fixes getLatestResult in Limelight3A so if the Limelight hasn't provided data yet, it still returns an LLResult but valid will be false
+  * If you previously used to check and see if this was `null` to see if the Limelight had been contacted, you now need to use `isValid()` on the result.  That is because now it always returns an LLResult even before it talks to the Limelight, but if it doesn't have valid data, the `isValid()` will be `false`.
+* Changed all omni samples to use front_left_drive, front_right_drive, back_left_drive, back_right_drive
+  * This is only breaking for you if you copy one of the changed samples to your own project and expect to use the same robot configuration as before.
+
+### Known Issues
+* The redesigned OnBotJava new file workflow allows the user to use a lowercase letter as the first character of a filename.
+  This is a regression from 10.2 which required the first character to be uppercase.  Software will build, but if the user tries
+  to rename the file, the rename will fail.
+
+### Enhancements
+* Improved the OBJ new file creation flow workflow. The new flow allows you to easily use samples, craft new custom OpModes and make new Java classes.
+* Added support for gamepad edge detection.
+  * A new sample program `ConceptGamepadEdgeDetection` demonstrates its use.
+* Adds a blackboard member to the Opmode that maintains state between opmodes (but not between robot resets).  See the ConceptBlackboard sample for how to use it.
+* Updated PredominantColorProcessor to also return the predominant color in RGB, HSV and YCrCb color spaces.  Updated ConceptVisionColorSensor sample OpMode to display the getAnalysis() result in all three color spaces.
+* Adds support for the GoBilda Pinpoint 
+  * Also adds `SensorGoBildaPinpoint` sample to show how to use it
+* Added `getArcLength()` and `getCircularity()` to ColorBlobLocatorProcessor.Blob.  Added BY_ARC_LENGTH and BY_CIRCULARITY as additional BlobCriteria.
+* Added `filterByCriteria()` and `sortByCriteria()` to ColorBlobLocatorProcessor.Util.
+  * The filter and sort methods for specific criteria have been deprecated.
+  * The updated sample program `ConceptVisionColorLocator` provides more details on the new syntax.
+* Add Help menu item and Help page that is available when connected to the robot controller via Program and Manage. The Help page has links to team resources such as [FTC Documentation](https://ftc-docs.firstinspires.org/), [FTC Discussion Forums](https://ftc-community.firstinspires.org), [Java FTC SDK API Documentation](https://javadoc.io/doc/org.firstinspires.ftc), and [FTC Game Information](https://ftc.game/).
+* Self inspection changes:
+  * List both the Driver Station Name and Robot Controller Name when inspecting the Driver Station.
+  * Report if the team number portion of the device names do not match.
+  * -rc is no longer valid as part of a Robot Controller name, must be -RC.
+  * Use Robot Controller Name or Driver Station Name labels on the inspection screens instead of WIFI Access Point or WIFI Direct Name.
+
+### Bug Fixes
+* Fixes issue [1478](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/1478) in AnnotatedHooksClassFilter that ignored exceptions if they occur in one of the SDK app hooks.
+* Fix initialize in distance sensor (Rev 2m) to prevent bad data in first call to getDistance.
+* Fixes issue [1470](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/1470) Scaling a servo range is now irrespective of reverse() being called.  For example, if you set the scale range to [0.0, 0.5] and the servo is reversed, it will be from 0.5 to 0.0, NOT 1.0 to 0.5.
+* Fixes issue [1232](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/1232), a rare race condition where using the log rapidly along with other telemetry could cause a crash.
+
+## Version 10.2 (20250121-174034)
+
+### Enhancements
+* Add ability to upload the pipeline for Limelight3A which allows teams to version control their limelight pipelines.
+
+
+### Bug Fixes
+
+* Fix an internal bug where if the RUN_TO_POSITION run mode was specified before a target position, recovery would require a power cycle. A side effect of this fix is that a stack trace identifying the location of the error is always produced in the log. Fixes issue [1345](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/1345).
+* Throws a helpful exception if region of interest is set to null when building a PredominantColorProcessor. Also sets the default RoI to the full frame. Addresses issue [1076](FIRST-Tech-Challenge/FtcRobotController#1076)
+* Throws a helpful exception if user tries to construct an ImageRegion with malformed boundaries.  Addresses issue [1078](FIRST-Tech-Challenge/FtcRobotController#1078)
+
+## Version 10.1.1 (20241102-092223)
+
+### Breaking Changes
+
+* Support for Android Studio Ladybug.  Requires Android Studio Ladybug.  
+
+### Known Issues
+
+* Android Studio Ladybug's bundled JDK is version 21.  JDK 21 has deprecated support for Java 1.8, and Ladybug will warn on this deprecation.
+  OnBotJava only supports Java 1.8, therefore, in order to ensure that software developed using Android Studio will 
+  run within the OnBotJava environment, the targetCompatibility and sourceCompatibility versions for the SDK have been left at VERSION_1_8.
+  FIRST has decided that until it can devote the resources to migrating OnBotJava to a newer version of Java, the deprecation is the 
+  lesser of two non-optimal situations.
+
+### Enhancements
+
+* Added `toString()` method to Pose2D
+* Added `toString()` method to SparkFunOTOS.Pose2D
+
+## Version 10.1 (20240919-122750)
+
+### Enhancements
+* Adds new OpenCV-based `VisionProcessor`s (which may be attached to a VisionPortal in either Java or Blocks) to help teams implement color processing via computer vision in the INTO THE DEEP game
+  * `ColorBlobLocatorProcessor` implements OpenCV color "blob" detection. A new sample program `ConceptVisionColorLocator` demonstrates its use.
+    * A choice is offered between pre-defined color ranges, or creating a custom one in RGB, HSV, or YCrCb color space
+    * The ability is provided to restrict detection to a specified Region of Interest on the screen
+    * Functions for applying erosion / dilation morphing to the threshold mask are provided
+    * Functions for sorting and filtering the returned data are provided
+  * `PredominantColorProcessor` allows using a region of the camera as a "long range color sensor" to determine the predominant color of that region. A new sample program `ConceptVisionColorSensor` demonstrates its use.
+    * The determined predominant color is selected from a discrete set of color "swatches", similar to the MINDSTORMS NXT color sensor
+  * Documentation on this Color Processing feature can be found here: https://ftc-docs.firstinspires.org/color-processing
+* Added Blocks sample programs for color sensors: RobotAutoDriveToLine and SensorColor.
+* Updated Self-Inspect to identify mismatched RC/DS software versions as a "caution" rather than a "failure."
+
+### Bug Fixes
+* Fixes [AngularVelocity conversion regression](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/1070)
 
 ## Version 10.0  (20240828-111152)
 
@@ -479,7 +610,7 @@ This is a bug fix only release to address the following four issues.
 * Fixes [issue #260](https://github.com/FIRST-Tech-Challenge/FtcRobotController/issues/260) Blocks can't call java method that has a VuforiaLocalizer parameter.
     * Blocks now has a block labeled VuforiaFreightFrenzy.getVuforiaLocalizer for this.
 * Added a page to manage the TensorFlow Lite models in /sdcard/FIRST/tflitemodels. To get to the TFLite Models page:
-    * You can click on the link at the bottom of the the Manage page.
+    * You can click on the link at the bottom of the Manage page.
     * You can click on the link at the upper-right the Blocks project page.
 * Fixes logspam when `isBusy()` is called on a motor not in RTP mode.
 * Hides the "RC Password" item on the inspection screen for phone-based Robot Controllers. (It is only applicable for Control Hubs).
@@ -1164,7 +1295,7 @@ Known issues:
 
 This version of the software provides support for the REV Robotics Expansion Hub.  This version also includes improvements in the USB communication layer in an effort to enhance system resiliency.  If you were using a 2.x version of the software previously, updating to version 3.1 requires that you also update your Driver Station software in addition to updating the Robot Controller software.
 
-Also note that in version 3.10 software, the setMaxSpeed and getMaxSpeed methods are no longer available (not deprecated, they have been removed from the SDK). Also note that the the new 3.x software incorporates motor profiles that a user can select as he/she configures the robot.
+Also note that in version 3.10 software, the setMaxSpeed and getMaxSpeed methods are no longer available (not deprecated, they have been removed from the SDK). Also note that the new 3.x software incorporates motor profiles that a user can select as he/she configures the robot.
 
 Changes include:
  * Blocks changes
