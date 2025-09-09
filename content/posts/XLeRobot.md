@@ -1,9 +1,9 @@
 ---
 title: XLeRobot
-date: 2025-09-08T12:24:35+08:00
+date: 2025-09-09T12:23:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756564853305-8240ed9f794c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756564853305-8240ed9f794c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1712408175698-95ff4bc916b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1712408175698-95ff4bc916b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
 ---
 
 # [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot)

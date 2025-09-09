@@ -1,9 +1,9 @@
 ---
 title: UI-TARS-desktop
-date: 2025-08-15T12:30:42+08:00
+date: 2025-09-09T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754018422199-e39850170297?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754018422199-e39850170297?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUyMzIxNzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756749477606-5d8939dbfb8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756749477606-5d8939dbfb8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)
@@ -250,7 +250,7 @@ Visit the comprehensive [Quick Start](https://agent-tars.com/guide/get-started/q
   <img alt="UI-TARS" width="260" src="./apps/ui-tars/resources/icon.png">
 </p>
 
-UI-TARS Desktop is a native GUI agent driven by [UI-TARS](https://github.com/bytedance/UI-TARS) and Seed-1.5-VL/1.6 series models, available on your local computer and remote VM sandbox on cloud.
+UI-TARS Desktop is a native GUI agent for your local computer, driven by [UI-TARS](https://github.com/bytedance/UI-TARS) and Seed-1.5-VL/1.6 series models.
 
 <div align="center">
 <p>
@@ -282,7 +282,6 @@ UI-TARS Desktop is a native GUI agent driven by [UI-TARS](https://github.com/byt
 - 💻 Cross-platform support (Windows/MacOS/Browser)
 - 🔄 Real-time feedback and status display
 - 🔐 Private and secure - fully local processing
-- 🛠️ Effortless setup and intuitive remote operators
 
 ### Quick Start
 

@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-09-08T12:22:34+08:00
+date: 2025-09-09T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755868384622-b3d5e697be62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755868384622-b3d5e697be62?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczMDUzNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754430544331-0b2d98edaf2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754430544331-0b2d98edaf2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -76,6 +76,8 @@ await agent.create_guideline(
     tools=[check_order_status],
 )
 ```
+
+[✅ Blog: How Parlant Ensures Agent Compliance](https://www.parlant.io/blog/how-parlant-guarantees-compliance)
 
 #### Parlant gives you all the structure you need to build customer-facing agents that behave exactly as your business requires:
 
@@ -215,7 +217,7 @@ if __name__ == "__main__":
 - **📱 React Widget** - [Drop-in chat UI for any web app](https://github.com/emcie-co/parlant-chat-react)
 - **🔍 Full Explainability** - Understand every decision your agent makes
 
-## 📈 Join 8,000+ Developers Building Better AI
+## 📈 Join 10,000+ Developers Building Better AI
 
 <div align="center">
 
