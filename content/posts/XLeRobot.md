@@ -1,9 +1,9 @@
 ---
 title: XLeRobot
-date: 2025-09-09T12:23:30+08:00
+date: 2025-09-10T12:20:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712408175698-95ff4bc916b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1712408175698-95ff4bc916b7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
 ---
 
 # [Vector-Wangel/XLeRobot](https://github.com/Vector-Wangel/XLeRobot)
@@ -47,6 +47,31 @@ featuredImagePreview: https://images.unsplash.com/photo-1712408175698-95ff4bc916
   </tr>
 </table>
 
+---
+
+# 📰 News 
+- 2025-09-09: **Developer Assembly kit ready for purchase** [in China](https://e.tb.cn/h.SZFbBgZABZ8zRPe?tk=ba514rTBRjQ). World-wide purchase link out in 2 days.
+  - Non-profit, only for more convenient accessiblity. I personally don't earn any from this.
+- 2025-09-09: Joined [Embodied AI Home Robot Hackathon](https://www.seeedstudio.com/embodied-ai-worldwide-hackathon-home-robot.html) (Oct 25–26, Bay Area) held by **SEEED x Nvidia x Huggingface** as mentor! [Register HERE](https://docs.google.com/forms/d/e/1FAIpQLSdYYDegdgIypxuGJNLcoc8kbdmU4jKgl49zg4X-107LAmBN4g/viewform).
+- <img width="2400" height="1256" alt="image" src="https://github.com/user-attachments/assets/4132c23b-5c86-4bb9-94b4-a6b12059685b" />
+
+- 2025-08-30: XLeRobot 0.3.0 Release with final outfit touch up and household chores showcase demos. 
+
+
+
+- 2025-07-30: [Control XLeRobot in real life](https://xlerobot.readthedocs.io/en/latest/software/index.html) with **keyboard/Xbox controller/Switch joycon** in the wild anywhere. All bluetooth, no wifi needed and zero latency.
+- ![rea](https://github.com/user-attachments/assets/de8f50ad-a370-406c-97fb-fc01638d5624)
+
+
+- 2025-07-08: [**Simulation**](https://xlerobot.readthedocs.io/en/latest/simulation/index.html) with updated urdfs, control scripts (support Quest3 VR, keyboard, Xbox controller, switch joycon), support for new hardware and cameras, RL environment. Get started in 15 min.
+-  ![vr](https://github.com/user-attachments/assets/68b77bea-fdcf-4f42-9cf0-efcf1b188358)
+
+- 2025-07-01: [**Documentation** website](https://xlerobot.readthedocs.io/en/latest/index.html) out for more orgainized tutorials, demos and resources.
+
+- 2025-06-13: [**XLeRobot 0.2.0**](https://xlerobot.readthedocs.io) hardware setup, the 1st version fully capable for autonomous household tasks, starts from 660$. 
+
+---
+
 ## 💵 Total Cost 💵
 
 > [!NOTE] 
@@ -58,23 +83,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1712408175698-95ff4bc916
 | ↑ Stereo dual-eye RGB head cam | +$30 | +€30 | +¥199 |
 | + RasberryPi | +$79 | +€79 | +¥399 |
 | ↑ RealSense RGBD head cam | +$220 | +€230 | +¥1499 |
-
----
-
-# 📰 News 
-
-- 2025-08-30: XLeRobot 0.3.0 Release with final outfit touch up and household chores showcase demos. Assembly kit ready for purchase soon, stay tuned!
-
-- 2025-07-30: [Control XLeRobot in real life](https://xlerobot.readthedocs.io/en/latest/software/index.html)  with **keyboard/Xbox controller/Switch joycon** in the wild anywhere. All bluetooth, no wifi needed and zero latency.
-- ![rea](https://github.com/user-attachments/assets/de8f50ad-a370-406c-97fb-fc01638d5624)
-
-
-- 2025-07-08: [**Simulation**](https://xlerobot.readthedocs.io/en/latest/simulation/index.html) with updated urdfs, control scripts (support Quest3 VR, keyboard, Xbox controller, switch joycon), support for new hardware and cameras, RL environment. Get started in 15 min.
--  ![vr](https://github.com/user-attachments/assets/68b77bea-fdcf-4f42-9cf0-efcf1b188358)
-
-- 2025-07-01: [**Documentation** website](https://xlerobot.readthedocs.io/en/latest/index.html) out for more orgainized tutorials, demos and resources.
-
-- 2025-06-13: [**XLeRobot 0.2.0**](https://xlerobot.readthedocs.io) hardware setup, the 1st version fully capable for autonomous household tasks, starts from 660$. 
 
 
 ---

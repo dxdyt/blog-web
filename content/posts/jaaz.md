@@ -1,9 +1,9 @@
 ---
 title: jaaz
-date: 2025-09-09T12:22:43+08:00
+date: 2025-09-10T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756749477606-5d8939dbfb8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756749477606-5d8939dbfb8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
 ---
 
 # [11cafe/jaaz](https://github.com/11cafe/jaaz)
@@ -19,8 +19,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1756749477606-5d8939dbfb
 </p>
 
 </h2>
-<p align="center">The world's first open-source multimodal creative assistant</p>
+<p align="center">The world's first open-source multimodal canvas creative agent</p>
 <p align="center">This is a substitute for Canva and Manus that prioritizes privacy and is usable locally.</p>
+<p>
+  <b>📣 [New!] Enterprise Cloud “Full” Edition</b> — Private/on-prem deployment & commercial licensing (Docker image or full source). Includes all jaaz.app online features. 
+  <b>30% OFF</b> through <b>Sep 15, 2025</b>. 
+  <a href="mailto:info@jaaz.app">Contact us →</a> info@jaaz.app
+  <br>
+  <br>
+  <b>📣 [New!] 企业云端完整版</b> — 支持<span>私有化部署</span>与<span>商业授权</span>（Docker 镜像或源码交付），包含 jaaz.app 全量线上功能。限时 <b>30% OFF</b>，截止 <b>2025-09-15</b>。 
+  <a href="mailto:info@jaaz.app">了解/洽谈 →</a> info@jaaz.app
+</p>
 <br><br>
 
 <p align="center">
@@ -196,6 +205,10 @@ VSCode/Cursor Install Extensions：
 `pip install -r requirements.txt`
 
 `python main.py`
+
+
+
+
 
 
 

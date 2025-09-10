@@ -1,9 +1,9 @@
 ---
 title: kotaemon
-date: 2025-09-09T12:23:18+08:00
+date: 2025-09-10T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757159623175-c94243f0f2da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757159623175-c94243f0f2da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754634026454-e0caef04578c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754634026454-e0caef04578c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
 ---
 
 # [Cinnamon/kotaemon](https://github.com/Cinnamon/kotaemon)

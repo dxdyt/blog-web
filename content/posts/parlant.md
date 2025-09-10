@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-09-09T12:21:58+08:00
+date: 2025-09-10T12:20:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754430544331-0b2d98edaf2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754430544331-0b2d98edaf2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
