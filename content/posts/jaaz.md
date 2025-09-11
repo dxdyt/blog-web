@@ -1,9 +1,9 @@
 ---
 title: jaaz
-date: 2025-09-10T12:21:18+08:00
+date: 2025-09-11T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754752603526-b4663b073344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754752603526-b4663b073344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
 ---
 
 # [11cafe/jaaz](https://github.com/11cafe/jaaz)

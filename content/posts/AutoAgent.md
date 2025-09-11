@@ -1,9 +1,9 @@
 ---
 title: AutoAgent
-date: 2025-09-10T12:22:08+08:00
+date: 2025-09-11T12:22:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755418486214-03c643b55f23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755418486214-03c643b55f23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755502046743-78265e184cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755502046743-78265e184cc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/AutoAgent](https://github.com/HKUDS/AutoAgent)

@@ -1,9 +1,9 @@
 ---
 title: examples
-date: 2025-09-10T12:20:46+08:00
+date: 2025-09-11T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756728207483-cd934b34e360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756728207483-cd934b34e360?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753454116069-a4fba9e75e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753454116069-a4fba9e75e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
 ---
 
 # [vercel/examples](https://github.com/vercel/examples)
