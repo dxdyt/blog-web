@@ -1,9 +1,9 @@
 ---
 title: BillionMail
-date: 2025-08-20T12:22:36+08:00
+date: 2025-09-12T12:21:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753087451057-f5b21501deb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753087451057-f5b21501deb9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU2NjM3Mjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754993583989-e204f673f680?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc2NTA4MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754993583989-e204f673f680?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc2NTA4MDF8&ixlib=rb-4.1.0
 ---
 
 # [aaPanel/BillionMail](https://github.com/aaPanel/BillionMail)
