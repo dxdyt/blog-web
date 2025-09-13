@@ -1,9 +1,9 @@
 ---
 title: grpc-go
-date: 2025-03-30T12:22:03+08:00
+date: 2025-09-13T12:21:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1740768081816-f6837061ae86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1740768081816-f6837061ae86?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMzMDg0MzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1756787083429-f55ac7c0f352?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756787083429-f55ac7c0f352?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
 ---
 
 # [grpc/grpc-go](https://github.com/grpc/grpc-go)
@@ -42,6 +42,7 @@ import "google.golang.org/grpc"
 - [Low-level technical docs](Documentation) from this repository
 - [Performance benchmark][]
 - [Examples](examples)
+- [Contribution guidelines](CONTRIBUTING.md)
 
 ## FAQ
 

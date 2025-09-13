@@ -1,9 +1,9 @@
 ---
 title: azure-sdk-for-python
-date: 2025-09-12T12:22:04+08:00
+date: 2025-09-13T12:21:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756177199716-68a94b825d80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc2NTA4MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756177199716-68a94b825d80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc2NTA4MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756787083429-f55ac7c0f352?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756787083429-f55ac7c0f352?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
 ---
 
 # [Azure/azure-sdk-for-python](https://github.com/Azure/azure-sdk-for-python)

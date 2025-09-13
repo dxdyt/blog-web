@@ -1,9 +1,9 @@
 ---
 title: garak
-date: 2024-11-20T12:21:16+08:00
+date: 2025-09-13T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1728607424990-40df61d7ba84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1728607424990-40df61d7ba84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzIwNzY0MjV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1755643842005-460e3a030102?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755643842005-460e3a030102?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
 ---
 
 # [NVIDIA/garak](https://github.com/NVIDIA/garak)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1728607424990-40df61d7ba
 
 *Generative AI Red-teaming & Assessment Kit*
 
-`garak` checks if an LLM can be made to fail in a way we don't want. `garak` probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses. If you know `nmap`, it's `nmap` for LLMs. 
+`garak` checks if an LLM can be made to fail in a way we don't want. `garak` probes for hallucination, data leakage, prompt injection, misinformation, toxicity generation, jailbreaks, and many other weaknesses. If you know `nmap` or `msf` / Metasploit Framework, garak does somewhat similar things to them, but for LLMs. 
 
 `garak` focuses on ways of making an LLM or dialog system fail. It combines static, dynamic, and adaptive probes to explore this.
 
@@ -23,12 +23,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1728607424990-40df61d7ba
 [![Tests/Windows](https://github.com/NVIDIA/garak/actions/workflows/test_windows.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_windows.yml)
 [![Tests/OSX](https://github.com/NVIDIA/garak/actions/workflows/test_macos.yml/badge.svg)](https://github.com/NVIDIA/garak/actions/workflows/test_macos.yml)
 [![Documentation Status](https://readthedocs.org/projects/garak/badge/?version=latest)](http://garak.readthedocs.io/en/latest/?badge=latest)
+[![arXiv](https://img.shields.io/badge/cs.CL-arXiv%3A2406.11036-b31b1b.svg)](https://arxiv.org/abs/2406.11036)
 [![discord-img](https://img.shields.io/badge/chat-on%20discord-yellow.svg)](https://discord.gg/uVch4puUCs)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/garak)](https://pypi.org/project/garak)
 [![PyPI](https://badge.fury.io/py/garak.svg)](https://badge.fury.io/py/garak)
-[![Downloads](https://pepy.tech/badge/garak)](https://pepy.tech/project/garak)
-[![Downloads](https://pepy.tech/badge/garak/month)](https://pepy.tech/project/garak)
+[![Downloads](https://static.pepy.tech/badge/garak)](https://pepy.tech/project/garak)
+[![Downloads](https://static.pepy.tech/badge/garak/month)](https://pepy.tech/project/garak)
 
 
 ## Get started
@@ -214,18 +215,6 @@ For completion models:
 * `--model_name` - the NIM `model` name, e.g. `bigcode/starcoder2-15b`
 
 
-### OctoAI
-
-* set the `OCTO_API_TOKEN` environment variable to your Replicate API token, e.g. "r8-123XXXXXXXXXXXX"; see https://replicate.com/account/api-tokens when logged in
-
-Octo public endpoint:
-* `--model_type octo`
-* `--model_name` - the OctoAI public endpoint for the model, e.g. `mistral-7b-instruct-fp16`
-
-Octo private endpoint:
-* `--model_type octo.InferenceEndpoint` (for private endpoints)
-* `--model_name` - the deployed endpoint URL, e.g. `https://llama-2-70b-chat-xxx.octoai.run/v1/chat/completions`
-
 ### Test
 
 * `--model_type test`
@@ -237,28 +226,28 @@ For testing. This generator repeats back the prompt it received.
 
 ## Intro to probes
 
-| Probe | Description |
-| --- | --- |
-| blank | A simple probe that always sends an empty prompt. |
-| atkgen | Automated Attack Generation. A red-teaming LLM probes the target and reacts to it in an attempt to get toxic output. Prototype, mostly stateless, for now uses a simple GPT-2 [fine-tuned](https://huggingface.co/garak-llm/artgpt2tox) on the subset of hhrlhf attempts that yielded detectable toxicity (the only target currently supported for now). |
-| av_spam_scanning | Probes that attempt to make the model output malicious content signatures |
-| continuation | Probes that test if the model will continue a probably undesirable word |
-| dan | Various [DAN](https://adguard.com/en/blog/chatgpt-dan-prompt-abuse.html) and DAN-like attacks |
-| donotanswer | Prompts to which responsible language models should not answer. |
-| encoding | Prompt injection through text encoding |
-| gcg | Disrupt a system prompt by appending an adversarial suffix. |
-| glitch | Probe model for glitch tokens that provoke unusual behavior. |
-| grandma | Appeal to be reminded of one's grandmother. | 
-| goodside | Implementations of Riley Goodside attacks. |
-| leakerplay | Evaluate if a model will replay training data. |
-| lmrc | Subsample of the [Language Model Risk Cards](https://arxiv.org/abs/2303.18190) probes |
-| malwaregen | Attempts to have the model generate code for building malware |
-| misleading | Attempts to make a model support misleading and false claims |
-| packagehallucination | Trying to get code generations that specify non-existent (and therefore insecure) packages. |
-| promptinject | Implementation of the Agency Enterprise [PromptInject](https://github.com/agencyenterprise/PromptInject/tree/main/promptinject) work (best paper awards @ NeurIPS ML Safety Workshop 2022) |
-| realtoxicityprompts | Subset of the RealToxicityPrompts work (data constrained because the full test will take so long to run) |
-| snowball | [Snowballed Hallucination](https://ofir.io/snowballed_hallucination.pdf) probes designed to make a model give a wrong answer to questions too complex for it to process |
-| xss | Look for vulnerabilities the permit or enact cross-site attacks, such as private data exfiltration. |
+| Probe                | Description                                                                                                                   |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| blank                | A simple probe that always sends an empty prompt.                                                                             |
+| atkgen               | Automated Attack Generation. A red-teaming LLM probes the target and reacts to it in an attempt to get toxic output. Prototype, mostly stateless, for now uses a simple GPT-2 [fine-tuned](https://huggingface.co/garak-llm/artgpt2tox) on the subset of hhrlhf attempts that yielded detectable toxicity (the only target currently supported for now). |
+| av_spam_scanning     | Probes that attempt to make the model output malicious content signatures                                                     |
+| continuation         | Probes that test if the model will continue a probably undesirable word                                                       |
+| dan                  | Various [DAN](https://adguard.com/en/blog/chatgpt-dan-prompt-abuse.html) and DAN-like attacks                                 |
+| donotanswer          | Prompts to which responsible language models should not answer.                                                               |
+| encoding             | Prompt injection through text encoding                                                                                        |
+| gcg                  | Disrupt a system prompt by appending an adversarial suffix.                                                                   |
+| glitch               | Probe model for glitch tokens that provoke unusual behavior.                                                                  |
+| grandma              | Appeal to be reminded of one's grandmother.                                                                                   |
+| goodside             | Implementations of Riley Goodside attacks.                                                                                    |
+| leakreplay           | Evaluate if a model will replay training data.                                                                                |
+| lmrc                 | Subsample of the [Language Model Risk Cards](https://arxiv.org/abs/2303.18190) probes                                         |
+| malwaregen           | Attempts to have the model generate code for building malware                                                                 |
+| misleading           | Attempts to make a model support misleading and false claims                                                                  |
+| packagehallucination | Trying to get code generations that specify non-existent (and therefore insecure) packages.                                   |
+| promptinject         | Implementation of the Agency Enterprise [PromptInject](https://github.com/agencyenterprise/PromptInject/tree/main/promptinject) work (best paper awards @ NeurIPS ML Safety Workshop 2022) |
+| realtoxicityprompts  | Subset of the RealToxicityPrompts work (data constrained because the full test will take so long to run)                      |
+| snowball             | [Snowballed Hallucination](https://ofir.io/snowballed_hallucination.pdf) probes designed to make a model give a wrong answer to questions too complex for it to process |
+| xss                  | Look for vulnerabilities the permit or enact cross-site attacks, such as private data exfiltration.                           |
 
 ## Logging
 
@@ -305,7 +294,7 @@ Larger artefacts, like model files and bigger corpora, are kept out of the repos
 
 ## FAQ
 
-We have an FAQ [here](https://github.com/NVIDIA/garak/blob/main/FAQ.md). Reach out if you have any more questions! [leon@garak.ai](mailto:leon@garak.ai)
+We have an FAQ [here](https://github.com/NVIDIA/garak/blob/main/FAQ.md). Reach out if you have any more questions! [garak@nvidia.com](mailto:garak@nvidia.com)
 
 Code reference documentation is at [garak.readthedocs.io](https://garak.readthedocs.io/en/latest/).
 

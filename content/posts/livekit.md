@@ -1,9 +1,9 @@
 ---
 title: livekit
-date: 2024-06-09T12:18:01+08:00
+date: 2025-09-13T12:21:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1717661568439-a677b026f401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1717661568439-a677b026f401?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5MDY2MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1756091710842-f86df05c949a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756091710842-f86df05c949a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
 ---
 
 # [livekit/livekit](https://github.com/livekit/livekit)
@@ -28,27 +28,28 @@ LiveKit's server is written in Go, using the awesome [Pion WebRTC](https://githu
 [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&label=Star&maxAge=2592000)](https://github.com/livekit/livekit/stargazers/)
 [![Slack community](https://img.shields.io/endpoint?url=https%3A%2F%2Flivekit.io%2Fbadges%2Fslack)](https://livekit.io/join-slack)
 [![Twitter Follow](https://img.shields.io/twitter/follow/livekit)](https://twitter.com/livekit)
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/livekit/livekit)
 [![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/livekit/livekit)](https://github.com/livekit/livekit/releases/latest)
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/livekit/livekit/buildtest.yaml?branch=master)](https://github.com/livekit/livekit/actions/workflows/buildtest.yaml)
 [![License](https://img.shields.io/github/license/livekit/livekit)](https://github.com/livekit/livekit/blob/master/LICENSE)
 
 ## Features
 
-- Scalable, distributed WebRTC SFU (Selective Forwarding Unit)
-- Modern, full-featured client SDKs
-- Built for production, supports JWT authentication
-- Robust networking and connectivity, UDP/TCP/TURN
-- Easy to deploy: single binary, Docker or Kubernetes
-- Advanced features including:
-    - [speaker detection](https://docs.livekit.io/guides/room/receive/#speaker-detection)
-    - [simulcast](https://docs.livekit.io/guides/room/publish/#video-simulcast)
-    - [end-to-end optimizations](https://blog.livekit.io/livekit-one-dot-zero/)
-    - [selective subscription](https://docs.livekit.io/guides/room/receive/#selective-subscription)
-    - [moderation APIs](https://docs.livekit.io/guides/server-api/)
-    - end-to-end encryption
-    - SVC codecs (VP9, AV1)
-    - [webhooks](https://docs.livekit.io/guides/webhooks/)
-    - [distributed and multi-region](https://docs.livekit.io/deploy/distributed/)
+-   Scalable, distributed WebRTC SFU (Selective Forwarding Unit)
+-   Modern, full-featured client SDKs
+-   Built for production, supports JWT authentication
+-   Robust networking and connectivity, UDP/TCP/TURN
+-   Easy to deploy: single binary, Docker or Kubernetes
+-   Advanced features including:
+    -   [speaker detection](https://docs.livekit.io/home/client/tracks/subscribe/#speaker-detection)
+    -   [simulcast](https://docs.livekit.io/home/client/tracks/publish/#video-simulcast)
+    -   [end-to-end optimizations](https://blog.livekit.io/livekit-one-dot-zero/)
+    -   [selective subscription](https://docs.livekit.io/home/client/tracks/subscribe/#selective-subscription)
+    -   [moderation APIs](https://docs.livekit.io/home/server/managing-participants/)
+    -   end-to-end encryption
+    -   SVC codecs (VP9, AV1)
+    -   [webhooks](https://docs.livekit.io/home/server/webhooks/)
+    -   [distributed and multi-region](https://docs.livekit.io/home/self-hosting/distributed/)
 
 ## Documentation & Guides
 
@@ -56,15 +57,16 @@ https://docs.livekit.io
 
 ## Live Demos
 
-- [LiveKit Meet](https://meet.livekit.io) ([source](https://github.com/livekit-examples/meet))
-- [Spatial Audio](https://spatial-audio-demo.livekit.io/) ([source](https://github.com/livekit-examples/spatial-audio))
-- Livestreaming from OBS Studio ([source](https://github.com/livekit-examples/livestream))
-- [AI voice assistant using ChatGPT](https://livekit.io/kitt) ([source](https://github.com/livekit-examples/kitt))
+-   [LiveKit Meet](https://meet.livekit.io) ([source](https://github.com/livekit-examples/meet))
+-   [Spatial Audio](https://spatial-audio-demo.livekit.io/) ([source](https://github.com/livekit-examples/spatial-audio))
+-   Livestreaming from OBS Studio ([source](https://github.com/livekit-examples/livestream))
+-   [AI voice assistant using ChatGPT](https://livekit.io/kitt) ([source](https://github.com/livekit-examples/kitt))
 
 ## Ecosystem
-- [Agents](https://github.com/livekit/agents): build real-time multimodal AI applications with programmable backend participants
-- [Egress](https://github.com/livekit/egress): record or multi-stream rooms and export individual tracks
-- [Ingress](https://github.com/livekit/ingress): ingest streams from external sources like RTMP, WHIP, HLS, or OBS Studio
+
+-   [Agents](https://github.com/livekit/agents): build real-time multimodal AI applications with programmable backend participants
+-   [Egress](https://github.com/livekit/egress): record or multi-stream rooms and export individual tracks
+-   [Ingress](https://github.com/livekit/ingress): ingest streams from external sources like RTMP, WHIP, HLS, or OBS Studio
 
 ## SDKs & Tools
 
@@ -77,7 +79,7 @@ Client SDKs enable your frontend to include interactive, multi-user experiences.
     <th>Language</th>
     <th>Repo</th>
     <th>
-        <a href="https://docs.livekit.io/guides/room/events/#declarative-ui" target="_blank" rel="noopener noreferrer">Declarative UI</a>
+        <a href="https://docs.livekit.io/home/client/events/#declarative-ui" target="_blank" rel="noopener noreferrer">Declarative UI</a>
     </th>
     <th>Links</th>
   </tr>
@@ -182,25 +184,25 @@ Client SDKs enable your frontend to include interactive, multi-user experiences.
 
 ### Server SDKs
 
-Server SDKs enable your backend to generate [access tokens](https://docs.livekit.io/guides/access-tokens/),
-call [server APIs](https://docs.livekit.io/guides/server-api/), and
-receive [webhooks](https://docs.livekit.io/guides/webhooks/). In addition, the Go SDK includes client capabilities,
+Server SDKs enable your backend to generate [access tokens](https://docs.livekit.io/home/get-started/authentication/),
+call [server APIs](https://docs.livekit.io/reference/server/server-apis/), and
+receive [webhooks](https://docs.livekit.io/home/server/webhooks/). In addition, the Go SDK includes client capabilities,
 enabling you to build automations that behave like end-users.
 
-| Language                | Repo                                                                                                | Docs                                                        |
-|:------------------------|:----------------------------------------------------------------------------------------------------|:------------------------------------------------------------|
-| Go                      | [server-sdk-go](https://github.com/livekit/server-sdk-go)                                           | [docs](https://pkg.go.dev/github.com/livekit/server-sdk-go) |
-| JavaScript (TypeScript) | [server-sdk-js](https://github.com/livekit/server-sdk-js)                                           | [docs](https://docs.livekit.io/server-sdk-js/)              |
-| Ruby                    | [server-sdk-ruby](https://github.com/livekit/server-sdk-ruby)                                       |                                                             |
-| Java (Kotlin)           | [server-sdk-kotlin](https://github.com/livekit/server-sdk-kotlin)                                   |                                                             |
-| Python (community)      | [python-sdks](https://github.com/livekit/python-sdks)                                               |                                                             |
-| PHP (community)         | [agence104/livekit-server-sdk-php](https://github.com/agence104/livekit-server-sdk-php)             |                                                             |
+| Language                | Repo                                                                                    | Docs                                                        |
+| :---------------------- | :-------------------------------------------------------------------------------------- | :---------------------------------------------------------- |
+| Go                      | [server-sdk-go](https://github.com/livekit/server-sdk-go)                               | [docs](https://pkg.go.dev/github.com/livekit/server-sdk-go) |
+| JavaScript (TypeScript) | [server-sdk-js](https://github.com/livekit/server-sdk-js)                               | [docs](https://docs.livekit.io/server-sdk-js/)              |
+| Ruby                    | [server-sdk-ruby](https://github.com/livekit/server-sdk-ruby)                           |                                                             |
+| Java (Kotlin)           | [server-sdk-kotlin](https://github.com/livekit/server-sdk-kotlin)                       |                                                             |
+| Python (community)      | [python-sdks](https://github.com/livekit/python-sdks)                                   |                                                             |
+| PHP (community)         | [agence104/livekit-server-sdk-php](https://github.com/agence104/livekit-server-sdk-php) |                                                             |
 
 ### Tools
 
-- [CLI](https://github.com/livekit/livekit-cli) - command line interface & load tester
-- [Docker image](https://hub.docker.com/r/livekit/livekit-server)
-- [Helm charts](https://github.com/livekit/livekit-helm)
+-   [CLI](https://github.com/livekit/livekit-cli) - command line interface & load tester
+-   [Docker image](https://hub.docker.com/r/livekit/livekit-server)
+-   [Helm charts](https://github.com/livekit/livekit-helm)
 
 ## Install
 
@@ -241,12 +243,12 @@ To customize your setup for production, refer to our [deployment docs](https://d
 
 ### Creating access token
 
-A user connecting to a LiveKit room requires an [access token](https://docs.livekit.io/guides/access-tokens/). Access
+A user connecting to a LiveKit room requires an [access token](https://docs.livekit.io/home/get-started/authentication/#creating-a-token). Access
 tokens (JWT) encode the user's identity and the room permissions they've been granted. You can generate a token with our
 CLI:
 
 ```shell
-livekit-cli create-token \
+lk token create \
     --api-key devkey --api-secret secret \
     --join --room my-first-room --identity user1 \
     --valid-for 24h
@@ -262,11 +264,12 @@ Once connected, your video and audio are now being published to your new LiveKit
 ### Simulating a test publisher
 
 ```shell
-livekit-cli join-room \
+lk room join \
     --url ws://localhost:7880 \
     --api-key devkey --api-secret secret \
-    --room my-first-room --identity bot-user1 \
-    --publish-demo
+    --identity bot-user1 \
+    --publish-demo \
+    my-first-room
 ```
 
 This command publishes a looped demo video to a room. Due to how the video clip was encoded (keyframes every 3s),
@@ -290,8 +293,8 @@ Read our [deployment docs](https://docs.livekit.io/deploy/) for more information
 
 Pre-requisites:
 
-- Go 1.20+ is installed
-- GOPATH/bin is in your PATH
+-   Go 1.23+ is installed
+-   GOPATH/bin is in your PATH
 
 Then run
 
@@ -315,11 +318,12 @@ LiveKit server is licensed under Apache License v2.0.
 <br/><table>
 <thead><tr><th colspan="2">LiveKit Ecosystem</th></tr></thead>
 <tbody>
-<tr><td>Real-time SDKs</td><td><a href="https://github.com/livekit/components-js">React Components</a> · <a href="https://github.com/livekit/client-sdk-js">Browser</a> · <a href="https://github.com/livekit/client-sdk-swift">iOS/macOS</a> · <a href="https://github.com/livekit/client-sdk-android">Android</a> · <a href="https://github.com/livekit/client-sdk-flutter">Flutter</a> · <a href="https://github.com/livekit/client-sdk-react-native">React Native</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/client-sdk-unity-web">Unity (web)</a> · <a href="https://github.com/livekit/client-sdk-unity">Unity (beta)</a></td></tr><tr></tr>
-<tr><td>Server APIs</td><td><a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/server-sdk-go">Golang</a> · <a href="https://github.com/livekit/server-sdk-ruby">Ruby</a> · <a href="https://github.com/livekit/server-sdk-kotlin">Java/Kotlin</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/agence104/livekit-server-sdk-php">PHP (community)</a></td></tr><tr></tr>
-<tr><td>Agents Frameworks</td><td><a href="https://github.com/livekit/agents">Python</a> · <a href="https://github.com/livekit/agent-playground">Playground</a></td></tr><tr></tr>
-<tr><td>Services</td><td><b>Livekit server</b> · <a href="https://github.com/livekit/egress">Egress</a> · <a href="https://github.com/livekit/ingress">Ingress</a> · <a href="https://github.com/livekit/sip">SIP</a></td></tr><tr></tr>
-<tr><td>Resources</td><td><a href="https://docs.livekit.io">Docs</a> · <a href="https://github.com/livekit-examples">Example apps</a> · <a href="https://livekit.io/cloud">Cloud</a> · <a href="https://docs.livekit.io/oss/deployment">Self-hosting</a> · <a href="https://github.com/livekit/livekit-cli">CLI</a></td></tr>
+<tr><td>LiveKit SDKs</td><td><a href="https://github.com/livekit/client-sdk-js">Browser</a> · <a href="https://github.com/livekit/client-sdk-swift">iOS/macOS/visionOS</a> · <a href="https://github.com/livekit/client-sdk-android">Android</a> · <a href="https://github.com/livekit/client-sdk-flutter">Flutter</a> · <a href="https://github.com/livekit/client-sdk-react-native">React Native</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/client-sdk-unity">Unity</a> · <a href="https://github.com/livekit/client-sdk-unity-web">Unity (WebGL)</a> · <a href="https://github.com/livekit/client-sdk-esp32">ESP32</a></td></tr><tr></tr>
+<tr><td>Server APIs</td><td><a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/server-sdk-go">Golang</a> · <a href="https://github.com/livekit/server-sdk-ruby">Ruby</a> · <a href="https://github.com/livekit/server-sdk-kotlin">Java/Kotlin</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/agence104/livekit-server-sdk-php">PHP (community)</a> · <a href="https://github.com/pabloFuente/livekit-server-sdk-dotnet">.NET (community)</a></td></tr><tr></tr>
+<tr><td>UI Components</td><td><a href="https://github.com/livekit/components-js">React</a> · <a href="https://github.com/livekit/components-android">Android Compose</a> · <a href="https://github.com/livekit/components-swift">SwiftUI</a> · <a href="https://github.com/livekit/components-flutter">Flutter</a></td></tr><tr></tr>
+<tr><td>Agents Frameworks</td><td><a href="https://github.com/livekit/agents">Python</a> · <a href="https://github.com/livekit/agents-js">Node.js</a> · <a href="https://github.com/livekit/agent-playground">Playground</a></td></tr><tr></tr>
+<tr><td>Services</td><td><b>LiveKit server</b> · <a href="https://github.com/livekit/egress">Egress</a> · <a href="https://github.com/livekit/ingress">Ingress</a> · <a href="https://github.com/livekit/sip">SIP</a></td></tr><tr></tr>
+<tr><td>Resources</td><td><a href="https://docs.livekit.io">Docs</a> · <a href="https://github.com/livekit-examples">Example apps</a> · <a href="https://livekit.io/cloud">Cloud</a> · <a href="https://docs.livekit.io/home/self-hosting/deployment">Self-hosting</a> · <a href="https://github.com/livekit/livekit-cli">CLI</a></td></tr>
 </tbody>
 </table>
 <!--END_REPO_NAV-->
