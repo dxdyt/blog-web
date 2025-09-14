@@ -1,9 +1,9 @@
 ---
 title: codebuff
-date: 2025-09-13T12:19:57+08:00
+date: 2025-09-14T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756091710842-f86df05c949a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756091710842-f86df05c949a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1732869416295-0f308c6689e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1732869416295-0f308c6689e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
 ---
 
 # [CodebuffAI/codebuff](https://github.com/CodebuffAI/codebuff)
@@ -184,3 +184,7 @@ Some ways you can help:
 **Contributing**: [CONTRIBUTING.md](./CONTRIBUTING.md) - Start here to contribute!
 
 **Support**: [support@codebuff.com](mailto:support@codebuff.com)
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=CodebuffAI/codebuff&type=Date)](https://www.star-history.com/#CodebuffAI/codebuff&Date)

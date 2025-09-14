@@ -1,9 +1,9 @@
 ---
 title: motia
-date: 2025-09-12T12:21:20+08:00
+date: 2025-09-14T12:20:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754898284154-62daf743b909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc2NTA4MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754898284154-62daf743b909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc2NTA4MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755745360285-0633c972b0fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755745360285-0633c972b0fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
 ---
 
 # [MotiaDev/motia](https://github.com/MotiaDev/motia)

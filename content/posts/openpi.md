@@ -1,9 +1,9 @@
 ---
 title: openpi
-date: 2025-09-13T12:19:51+08:00
+date: 2025-09-14T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755082319260-1edd44b31d35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755082319260-1edd44b31d35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755376224129-67b9af2a7711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755376224129-67b9af2a7711?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
 ---
 
 # [Physical-Intelligence/openpi](https://github.com/Physical-Intelligence/openpi)

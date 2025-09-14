@@ -1,9 +1,9 @@
 ---
 title: ripple
-date: 2025-09-13T12:19:45+08:00
+date: 2025-09-14T12:20:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755866927845-b89f42c5e1e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755866927845-b89f42c5e1e5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
 ---
 
 # [trueadm/ripple](https://github.com/trueadm/ripple)
@@ -29,11 +29,11 @@ I wrote Ripple as a love letter for frontend web – and this is largely a proje
 
 Personally, I ([@trueadm](https://github.com/trueadm)) have been involved in some truly amazing frontend frameworks along their journeys – from [Inferno](https://github.com/infernojs/inferno), where it all began, to [React](https://github.com/facebook/react) and the journey of React Hooks, to creating [Lexical](https://github.com/facebook/lexical), to [Svelte 5](https://github.com/sveltejs/svelte) and its new compiler and signal-based reactivity runtime. Along that journey, I collected ideas, and intriguing thoughts that may or may not pay off. Given my time between roles, I decided it was the best opportunity to try them out, and for open source to see what I was cooking.
 
-Ripple was designed to be a JS/TS-first framework, rather than HTML-first. Ripple modules have their own `.ripple` extension and these modules
-fully support TypeScript. By introducing a new extension, it affords Ripple to invent its own superset language, that plays really nicely with
+Ripple was designed to be a JS/TS-first framework, rather than HTML-first. Ripple modules have their own `.ripple` extension, and these modules
+fully support TypeScript. By introducing a new extension, it allows Ripple to invent its own superset language, which plays really nicely with
 TypeScript and JSX, but with a few interesting touches. In my experience, this has led to better DX not only for humans, but also for LLMs.
 
-Right now, there will be plenty of bugs, things just won't work either and you'll find TODOs everywhere. At this stage, Ripple is more of an early alpha version of something that _might_ be, rather than something you should try and adopt. If anything, maybe some of the ideas can be shared and incubated back into other frameworks. There's also a lot of similarities with Svelte 5, and that's not by accident, that's because of my recent time working on Svelte 5.
+Right now, there will be plenty of bugs, things just won't work either and you'll find TODOs everywhere. At this stage, Ripple is more of an early alpha version of something that _might_ be, rather than something you should try and adopt. If anything, maybe some of the ideas can be shared and incubated back into other frameworks. There's also a lot of similarities with Svelte 5, and that's not by accident; that's because of my recent time working on Svelte 5.
 
 If you'd like to know more, join the [Ripple Discord](https://discord.gg/JBF2ySrh2W).
 
@@ -42,7 +42,7 @@ If you'd like to know more, join the [Ripple Discord](https://discord.gg/JBF2ySr
 - **Reactive State Management**: Built-in reactivity with `$` prefixed variables and object properties
 - **Component-Based Architecture**: Clean, reusable components with props and children
 - **JSX-like Syntax**: Familiar templating with Ripple-specific enhancements
-- **Performance**: Fine-grain rendering, with industry leading performance and memory usage
+- **Performance**: Fine-grain rendering, with industry-leading performance and memory usage
 - **TypeScript Support**: Full TypeScript integration with type checking
 - **VSCode Integration**: Rich editor support with diagnostics, syntax highlighting, and IntelliSense
 - **Prettier Support**: Full Prettier formatting support for `.ripple` modules
@@ -50,7 +50,7 @@ If you'd like to know more, join the [Ripple Discord](https://discord.gg/JBF2ySr
 ## Missing Features
 
 - **SSR**: Ripple is currently an SPA only, this is because I haven't gotten around to it
-- **Types**: The codebase is very raw with limited types, we're getting around to it
+- **Types**: The codebase is very raw with limited types; we're getting around to it
 
 ## Getting Started
 
@@ -189,7 +189,7 @@ Now `$count` will only reactively create its value on initialization.
 
 #### Transporting Reactivity
 
-Ripple doesn't constrain reactivity to components only. Reactivity can be used inside other functions (and classes in the future) and be composed in a way to improve expressitivity and co-location.
+Ripple doesn't constrain reactivity to components only. Reactivity can be used inside other functions (and classes in the future) and be composed in a way to improve expressivity and co-location.
 
 Ripple provides a very nice way to transport reactivity between boundaries so that it's persisted – using objects and arrays. Here's an example using arrays to transport reactivity:
 
@@ -268,10 +268,10 @@ import { RippleArray } from 'ripple';
 const arr = new RippleArray(1, 2, 3);
 
 // using static from method
-const arr = Ripple.from([1, 2, 3]);
+const arr = RippleArray.from([1, 2, 3]);
 
 // using static of method
-const arr = Ripple.of(1, 2, 3);
+const arr = RippleArray.of(1, 2, 3);
 ```
 
 The `RippleArray` is a reactive array, and that means you can access properties normally using numeric index. However,
@@ -536,7 +536,7 @@ const object = {
 }
 ```
 
-So Ripple provides similar capabilities when working with composite components in a template, specifcally using `$prop:={}` rather than the typical `$prop={}`.
+So Ripple provides similar capabilities when working with composite components in a template, specifically using `$prop:={}` rather than the typical `$prop={}`.
 
 In fact, when you use an accessor, you must pass a function, and the prop must be `$` prefixed, as Ripple considers accessor props as reactive:
 
@@ -657,7 +657,7 @@ Lastly, you can use decorators on composite components.
 <Image {@use (node) => console.log(node)} {...props} />
 ```
 
-When passing decorators to composite components (rather than HTML elements) as shown above, they will be passed a `Symbol` property, as they are not named. This still means that it can be spread to HTML template elements later on, and still work.
+When passing decorators to composite components (rather than HTML elements) as shown above, they will be passed a `Symbol` property, as they are not named. This still means that it can be spread to HTML template elements later on and still work.
 
 ### Event Props
 
@@ -736,16 +736,6 @@ component Parent() {
   <Child />
 }
 ```
-
-## Playground
-
-Feel free to play around with how Ripple works. If you clone the repo, you can then:
-
-```bash
-pnpm i && cd playground && pnpm dev
-```
-
-The playground uses Ripple's Vite plugin, where you can play around with things inside the `playground/src` directory.
 
 ## Contributing
 

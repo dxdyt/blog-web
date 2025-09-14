@@ -1,9 +1,9 @@
 ---
 title: ROMA
-date: 2025-09-13T12:20:04+08:00
+date: 2025-09-14T12:20:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756091710842-f86df05c949a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756091710842-f86df05c949a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756877881650-55a53610f0ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756877881650-55a53610f0ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
 ---
 
 # [sentient-agi/ROMA](https://github.com/sentient-agi/ROMA)
