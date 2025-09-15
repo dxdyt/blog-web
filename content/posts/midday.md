@@ -1,9 +1,9 @@
 ---
 title: midday
-date: 2025-08-25T12:26:33+08:00
+date: 2025-09-15T12:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755311901131-c0b8f91a21c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755311901131-c0b8f91a21c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwOTU5NDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755311904879-c109c5f1a405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755311904879-c109c5f1a405?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
 ---
 
 # [midday-ai/midday](https://github.com/midday-ai/midday)

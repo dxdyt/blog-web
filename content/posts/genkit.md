@@ -1,9 +1,9 @@
 ---
 title: genkit
-date: 2025-09-13T12:20:12+08:00
+date: 2025-09-15T12:23:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755082319260-1edd44b31d35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755082319260-1edd44b31d35?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc3MzcxNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755520795091-adf1f3f307e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755520795091-adf1f3f307e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
 ---
 
 # [firebase/genkit](https://github.com/firebase/genkit)

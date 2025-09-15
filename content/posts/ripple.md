@@ -1,9 +1,9 @@
 ---
 title: ripple
-date: 2025-09-14T12:20:07+08:00
+date: 2025-09-15T12:21:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755826525115-40dc08fcd1db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755826525115-40dc08fcd1db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
 ---
 
 # [trueadm/ripple](https://github.com/trueadm/ripple)
