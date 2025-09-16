@@ -1,9 +1,9 @@
 ---
 title: mlx-lm
-date: 2025-09-15T12:23:45+08:00
+date: 2025-09-16T12:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755327923254-5506740db53a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755327923254-5506740db53a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757269267541-b68db349bf1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757269267541-b68db349bf1e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
 ---
 
 # [ml-explore/mlx-lm](https://github.com/ml-explore/mlx-lm)
@@ -62,6 +62,12 @@ options for a command, e.g.:
 mlx_lm.generate -h
 ```
 
+The default model for generation and chat is
+`mlx-community/Llama-3.2-3B-Instruct-4bit`.  You can specify any MLX-compatible
+model with the `--model` flag. Thousands are available in the
+[MLX Community](https://huggingface.co/mlx-community) Hugging Face
+organization.
+
 ### Python API
 
 You can use `mlx-lm` as a module:
@@ -89,7 +95,9 @@ To see a description of all the arguments you can do:
 
 Check out the [generation
 example](https://github.com/ml-explore/mlx-lm/tree/main/mlx_lm/examples/generate_response.py)
-to see how to use the API in more detail.
+to see how to use the API in more detail. Check out the [batch generation
+example](https://github.com/ml-explore/mlx-lm/tree/main/mlx_lm/examples/batch_generate_response.py)
+to see how to efficiently generate continuations for a batch of prompts.
 
 The `mlx-lm` package also comes with functionality to quantize and optionally
 upload models to the Hugging Face Hub.

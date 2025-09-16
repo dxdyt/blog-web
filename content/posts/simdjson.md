@@ -1,9 +1,9 @@
 ---
 title: simdjson
-date: 2025-09-15T12:23:13+08:00
+date: 2025-09-16T12:21:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755327923254-5506740db53a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755327923254-5506740db53a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755299159442-26c68c07e042?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755299159442-26c68c07e042?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
 ---
 
 # [simdjson/simdjson](https://github.com/simdjson/simdjson)
@@ -127,9 +127,10 @@ Godbolt
 -------------
 
 Some users may want to browse code along with the compiled assembly. You want to check out the following lists of examples:
+* [C++26 reflection example](https://godbolt.org/z/K3Px64TqK)
 * [simdjson examples with errors handled through exceptions](https://godbolt.org/z/7G5qE4sr9)
 * [simdjson examples with errors without exceptions](https://godbolt.org/z/e9dWb9E4v)
-* [C++26 reflection example](https://godbolt.org/z/xK5TGKdPb)
+ 
 
 Performance results
 -------------------

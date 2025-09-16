@@ -1,9 +1,9 @@
 ---
 title: opencode
-date: 2025-08-04T12:57:54+08:00
+date: 2025-09-16T12:21:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753114767539-a642d36b0f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753114767539-a642d36b0f8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQyODM0MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757519740947-eef07a74c4ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757519740947-eef07a74c4ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
 ---
 
 # [sst/opencode](https://github.com/sst/opencode)
@@ -36,7 +36,7 @@ curl -fsSL https://opencode.ai/install | bash
 
 # Package managers
 npm i -g opencode-ai@latest        # or bun/pnpm/yarn
-brew install sst/tap/opencode      # macOS
+brew install sst/tap/opencode      # macOS and Linux
 paru -S opencode-bin               # Arch Linux
 ```
 
@@ -93,7 +93,7 @@ And run.
 
 ```bash
 $ bun install
-$ bun run packages/opencode/src/index.ts
+$ bun dev
 ```
 
 #### Development Notes
@@ -117,4 +117,4 @@ The other confusingly named repo has no relation to this one. You can [read the 
 
 ---
 
-**Join our community** [Discord](https://discord.gg/opencode) | [YouTube](https://www.youtube.com/c/sst-dev) | [X.com](https://x.com/SST_dev)
+**Join our community** [Discord](https://discord.gg/opencode) | [X.com](https://x.com/opencode)
