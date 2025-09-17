@@ -1,9 +1,9 @@
 ---
 title: ccxt
-date: 2025-09-16T12:21:42+08:00
+date: 2025-09-17T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755299159442-26c68c07e042?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755299159442-26c68c07e042?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757140092818-f183705d49e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757140092818-f183705d49e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
 ---
 
 # [ccxt/ccxt](https://github.com/ccxt/ccxt)

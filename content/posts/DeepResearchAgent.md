@@ -1,9 +1,9 @@
 ---
 title: DeepResearchAgent
-date: 2025-09-15T12:22:00+08:00
+date: 2025-09-17T12:20:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755520795091-adf1f3f307e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755520795091-adf1f3f307e0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756227584303-f1400daaa69d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756227584303-f1400daaa69d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
 ---
 
 # [SkyworkAI/DeepResearchAgent](https://github.com/SkyworkAI/DeepResearchAgent)

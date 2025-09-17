@@ -1,9 +1,9 @@
 ---
 title: SQLBot
-date: 2025-08-24T12:27:11+08:00
+date: 2025-09-17T12:20:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752564020971-086a96380302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752564020971-086a96380302?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756408263381-ed1488d9b1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756408263381-ed1488d9b1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
 ---
 
 # [dataease/SQLBot](https://github.com/dataease/SQLBot)
@@ -24,26 +24,33 @@ SQLBot 是一款基于大模型和 RAG 的智能问数系统。SQLBot 的优势�
 - **易于集成**: 支持快速嵌入到第三方业务系统，也支持被 n8n、MaxKB、Dify、Coze 等 AI 应用开发平台集成调用，让各类应用快速拥有智能问数能力；
 - **安全可控**: 提供基于工作空间的资源隔离机制，能够实现细粒度的数据权限控制。
 
+## 工作原理
+
+<img width="1189" height="624" alt="system-arch" src="https://github.com/user-attachments/assets/cde40783-369e-493e-bb59-44ce43c2e7c5" />
+
 ## 快速开始
 
 ### 安装部署
 
-准备一台 Linux 服务器，执行以下一键安装脚本。  
-在运行 SQLBot 前，请确保已安装好 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)。
+准备一台 Linux 服务器，安装好 [Docker](https://docs.docker.com/get-docker/)，执行以下一键安装脚本：
 
 ```bash
-# 创建目录
-mkdir -p /opt/sqlbot
-cd /opt/sqlbot
-
-# 下载 docker-compose.yaml
-curl -o docker-compose.yaml https://raw.githubusercontent.com/dataease/SQLBot/main/docker-compose.yaml
-
-# 启动服务
-docker compose up -d
+docker run -d \
+  --name sqlbot \
+  --restart unless-stopped \
+  -p 8000:8000 \
+  -p 8001:8001 \
+  -v ./data/sqlbot/excel:/opt/sqlbot/data/excel \
+  -v ./data/sqlbot/images:/opt/sqlbot/images \
+  -v ./data/sqlbot/logs:/opt/sqlbot/logs \
+  -v ./data/postgresql:/var/lib/postgresql/data \
+  --privileged=true \
+  dataease/sqlbot
 ```
 
-你也可以通过 [1Panel 应用商店](https://apps.fit2cloud.com/1panel) 快速部署 SQLBot；
+你也可以通过 [1Panel 应用商店](https://apps.fit2cloud.com/1panel) 快速部署 SQLBot。
+
+如果是内网环境，你可以通过 [离线安装包方式](https://community.fit2cloud.com/#/products/sqlbot/downloads) 部署 SQLBot。
 
 ### 访问方式
 
@@ -79,3 +86,10 @@ docker compose up -d
 ## License
 
 本仓库遵循 [FIT2CLOUD Open Source License](LICENSE) 开源协议，该许可证本质上是 GPLv3，但有一些额外的限制。
+
+你可以基于 SQLBot 的源代码进行二次开发，但是需要遵守以下规定：
+
+- 不能替换和修改 SQLBot 的 Logo 和版权信息；
+- 二次开发后的衍生作品必须遵守 GPL V3 的开源义务。
+
+如需商业授权，请联系 support@fit2cloud.com 。

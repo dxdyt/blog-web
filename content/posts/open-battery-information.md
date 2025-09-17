@@ -1,9 +1,9 @@
 ---
 title: open-battery-information
-date: 2025-09-16T12:22:24+08:00
+date: 2025-09-17T12:21:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755542366683-282c366982a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755542366683-282c366982a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755434218022-3cc6bfc45c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755434218022-3cc6bfc45c76?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
 ---
 
 # [mnh-jansson/open-battery-information](https://github.com/mnh-jansson/open-battery-information)
