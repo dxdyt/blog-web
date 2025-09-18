@@ -1,9 +1,9 @@
 ---
 title: curl
-date: 2024-12-15T12:21:10+08:00
+date: 2025-09-18T12:22:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732823155196-f2bd63985130?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732823155196-f2bd63985130?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQyMzYzOTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757050888249-2d32505646cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757050888249-2d32505646cd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
 ---
 
 # [curl/curl](https://github.com/curl/curl)
@@ -16,7 +16,7 @@ SPDX-License-Identifier: curl
 
 # [![curl logo](https://curl.se/logo/curl-logo.svg)](https://curl.se/)
 
-Curl is a command-line tool for transferring data specified with URL syntax.
+curl is a command-line tool for transferring data specified with URL syntax.
 Learn how to use curl by reading [the
 manpage](https://curl.se/docs/manpage.html) or [everything
 curl](https://everything.curl.dev/).
@@ -65,13 +65,13 @@ page](https://hackerone.com/curl) and not in public.
 
 ## Notice
 
-Curl contains pieces of source code that is Copyright (c) 1998, 1999 Kungliga
+curl contains pieces of source code that is Copyright (c) 1998, 1999 Kungliga
 Tekniska Högskolan. This notice is included here to comply with the
 distribution terms.
 
 ## Backers
 
-Thank you to all our backers 🙏 [Become a backer](https://opencollective.com/curl#section-contribute).
+Thank you to all our backers :pray: [Become a backer](https://opencollective.com/curl#section-contribute).
 
 ## Sponsors
 

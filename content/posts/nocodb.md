@@ -1,9 +1,9 @@
 ---
 title: nocodb
-date: 2025-06-19T12:27:51+08:00
+date: 2025-09-18T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748259601882-013d5717ca45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748259601882-013d5717ca45?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzMDcyMTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757573913927-0f6a58fb0f49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757573913927-0f6a58fb0f49?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
 ---
 
 # [nocodb/nocodb](https://github.com/nocodb/nocodb)
@@ -11,12 +11,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1748259601882-013d5717ca
 <h1 align="center" style="border-bottom: none">
     <div>
         <a style="color:#36f" href="https://www.nocodb.com">
-            <img src="/packages/nc-gui/assets/img/icons/512x512.png" width="80" />
+            <img src="/packages/nc-gui/assets/img/brand/nocodb-full.png" height="80" />
             <br>
-            NocoDB
+    The Open Source Airtable Alternative 
         </a>
+        <br>
     </div>
-    The Open Source Airtable Alternative <br>
 </h1>
 
 <p align="center">
@@ -82,42 +82,6 @@ docker run -d \
   -e NC_DB="pg://host.docker.internal:5432?u=root&p=password&d=d1" \
   -e NC_AUTH_JWT_SECRET="569a1821-0a93-45e8-87ab-eb857f20a010" \
   nocodb/nocodb:latest
-```
-
-## Nix
-
-```
-nix run github:nocodb/nocodb
-```
-
-## NixOS
-To use NocoDB as a NixOS module, a flake.nix would be as follows:
-
-```
-{
-  description = "Bane's NixOS configuration";
-
-  inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nocodb.url = "github:nocodb/nocodb";
-  };
-
-  outputs = inputs@{ nixpkgs, nocodb, ... }: {
-    nixosConfigurations = {
-      hostname = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./configuration.nix
-          nocodb.nixosModules.nocodb
-
-          {
-            services.nocodb.enable = true;
-          }
-        ];
-      };
-    };
-  };
-}
 ```
 
 ## Auto-upstall

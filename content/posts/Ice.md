@@ -1,9 +1,9 @@
 ---
 title: Ice
-date: 2024-06-10T12:19:36+08:00
+date: 2025-09-18T12:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1714756123393-929709970fdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1714756123393-929709970fdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTc5OTMxMzR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1756786605218-28f7dd95a493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756786605218-28f7dd95a493?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
 ---
 
 # [jordanbaird/Ice](https://github.com/jordanbaird/Ice)
@@ -15,23 +15,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1714756123393-929709970f
 
 Ice is a powerful menu bar management tool. While its primary function is hiding and showing menu bar items, it aims to cover a wide variety of additional features to make it one of the most versatile menu bar tools available.
 
-![Banner](https://github.com/jordanbaird/Ice/assets/90936861/e256575b-880c-49ee-90a1-b6eabd4a7868)
+![Banner](https://github.com/user-attachments/assets/4423085c-4e4b-4f3d-ad0f-90a217c03470)
 
 [![Download](https://img.shields.io/badge/download-latest-brightgreen?style=flat-square)](https://github.com/jordanbaird/Ice/releases/latest)
 ![Platform](https://img.shields.io/badge/platform-macOS-blue?style=flat-square)
 ![Requirements](https://img.shields.io/badge/requirements-macOS%2014%2B-fa4e49?style=flat-square)
-[![Support](https://img.shields.io/badge/Support%20%E2%9D%A4%EF%B8%8F-8A2BE2?style=flat-square)](https://jordanbaird.gumroad.com/l/ice)
+[![Sponsor](https://img.shields.io/badge/Sponsor%20%E2%9D%A4%EF%B8%8F-8A2BE2?style=flat-square)](https://github.com/sponsors/jordanbaird)
 [![Website](https://img.shields.io/badge/Website-015FBA?style=flat-square)](https://icemenubar.app)
 [![License](https://img.shields.io/github/license/jordanbaird/Ice?style=flat-square)](LICENSE)
 
 > [!NOTE]
-> Ice is currently in active development. Some features have not yet been implemented. Download the latest release [here](https://github.com/jordanbaird/Ice/releases/latest) and see the roadmap below for upcoming features. 
+> Ice is currently in active development. Some features have not yet been implemented. Download the latest release [here](https://github.com/jordanbaird/Ice/releases/latest) and see the roadmap below for upcoming features.
 
-## Usage
-
-Simply `Command` + drag your menu bar items to rearrange them.
-
-![Rearranging](Resources/rearranging.gif)
+<a href="https://www.buymeacoffee.com/jordanbaird" target="_blank">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;">
+</a>
 
 ## Install
 
@@ -41,10 +39,10 @@ Download the "Ice.zip" file from the [latest release](https://github.com/jordanb
 
 ### Homebrew
 
-If you use [Homebrew](https://brew.sh/), you can install Ice using the following command:
+Install Ice using the following command:
 
 ```sh
-brew install jordanbaird-ice
+brew install --cask jordanbaird-ice
 ```
 
 ## Features/Roadmap
@@ -52,17 +50,20 @@ brew install jordanbaird-ice
 ### Menu bar item management
 
 - [x] Hide menu bar items
-- [x] "Always Hidden" menu bar section
-- [x] Show hidden items when hovering over the menu bar
-- [x] Show hidden items when an empty area in the menu bar is clicked
-- [x] Show hidden items by scrolling or swiping in the menu bar
-- [x] Automatically rehide
+- [x] "Always-hidden" menu bar section
+- [x] Show hidden menu bar items when hovering over the menu bar
+- [x] Show hidden menu bar items when an empty area in the menu bar is clicked
+- [x] Show hidden menu bar items by scrolling or swiping in the menu bar
+- [x] Automatically rehide menu bar items
 - [x] Hide application menus when they overlap with shown menu bar items
-- [ ] Drag and drop interface to arrange individual items
-- [ ] Search menu bar items
-- [ ] Display hidden items in a separate bar (e.g. for MacBooks with the notch)
-- [ ] Custom spacing between items
+- [x] Drag and drop interface to arrange individual menu bar items
+- [x] Display hidden menu bar items in a separate bar (e.g. for MacBooks with the notch)
+- [x] Search menu bar items
+- [x] Menu bar item spacing (BETA)
 - [ ] Profiles for menu bar layout
+- [ ] Individual spacer items
+- [ ] Menu bar item groups
+- [ ] Show menu bar items when trigger conditions are met
 
 ### Menu bar appearance
 
@@ -70,14 +71,19 @@ brew install jordanbaird-ice
 - [x] Menu bar shadow
 - [x] Menu bar border
 - [x] Custom menu bar shapes (rounded and/or split)
+- [ ] Remove background behind menu bar
+- [ ] Rounded screen corners
+- [ ] Different settings for light/dark mode
 
 ### Hotkeys
 
 - [x] Toggle individual menu bar sections
-- [x] Toggle application menus
+- [x] Show the search panel
+- [x] Enable/disable the Ice Bar
 - [x] Show/hide section divider icons
-- [ ] Temporarily show individual menu bar items
+- [x] Toggle application menus
 - [ ] Enable/disable auto rehide
+- [ ] Temporarily show individual menu bar items
 
 ### Other
 
@@ -85,27 +91,32 @@ brew install jordanbaird-ice
 - [x] Automatic updates
 - [ ] Menu bar widgets
 
-## Why the name?
+## Why does Ice only support macOS 14 and later?
 
-Because your menu bar becomes like ice, allowing your menu bar items to slide away 🧊🧊🧊
-
-## Why not support earlier operating systems?
-
-There are a number of system APIs that Ice uses that are only available starting with macOS 14.
+Ice uses a number of system APIs that are available starting in macOS 14. As such, there are no plans to support earlier versions of macOS.
 
 ## Gallery
 
-#### Choose your own icon to show in the menu bar
-![Custom Icon Example](https://github.com/jordanbaird/Ice/assets/90936861/ded03af0-f6cf-4bc1-a094-af0cf32ead96)
+#### Show hidden menu bar items below the menu bar
+
+![Ice Bar](https://github.com/user-attachments/assets/f1429589-6186-4e1b-8aef-592219d49b9b)
+
+#### Drag-and-drop interface to arrange menu bar items
+
+![Menu Bar Layout](https://github.com/user-attachments/assets/095442ba-f2d0-4bb4-9632-91e26ef8d45b)
 
 #### Customize the menu bar's appearance
-![Menu Bar Appearance Example 1](https://github.com/jordanbaird/Ice/assets/90936861/99a59cc7-914a-4f8a-af4b-11a5193534da)
-![Menu Bar Appearance Example 2](https://github.com/jordanbaird/Ice/assets/90936861/ba3bd8d9-0eeb-447b-8a62-1bc811319132)
+
+![Menu Bar Appearance](https://github.com/user-attachments/assets/8c22c185-c3d2-49bb-971e-e1fc17df04b3)
+
+#### Menu bar item search
+
+![Menu Bar Item Search](https://github.com/user-attachments/assets/d1a7df3a-4989-4077-a0b1-8e7d5a1ba5b8)
+
+#### Custom menu bar item spacing
+
+![Menu Bar Item Spacing](https://github.com/user-attachments/assets/b196aa7e-184a-4d4c-b040-502f4aae40a6)
 
 ## License
 
-Ice is available under the [MIT license](LICENSE).
-
-## Stargazers over time
-
-[![Star History Chart](https://api.star-history.com/svg?repos=jordanbaird/Ice&type=Date)](https://star-history.com/#jordanbaird/Ice&Date)
+Ice is available under the [GPL-3.0 license](LICENSE).

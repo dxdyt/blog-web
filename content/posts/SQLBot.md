@@ -1,9 +1,9 @@
 ---
 title: SQLBot
-date: 2025-09-17T12:20:45+08:00
+date: 2025-09-18T12:21:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756408263381-ed1488d9b1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756408263381-ed1488d9b1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756177199716-68a94b825d80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756177199716-68a94b825d80?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
 ---
 
 # [dataease/SQLBot](https://github.com/dataease/SQLBot)
