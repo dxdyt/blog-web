@@ -1,9 +1,9 @@
 ---
 title: brush
-date: 2025-09-17T12:21:48+08:00
+date: 2025-09-19T12:22:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756408263381-ed1488d9b1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756408263381-ed1488d9b1ea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757317202556-a87236bdb48b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757317202556-a87236bdb48b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
 ---
 
 # [ArthurBrussee/brush](https://github.com/ArthurBrussee/brush)

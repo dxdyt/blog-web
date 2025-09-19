@@ -1,9 +1,9 @@
 ---
 title: omi
-date: 2025-09-17T12:21:33+08:00
+date: 2025-09-19T12:22:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757140092818-f183705d49e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757140092818-f183705d49e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgwODI4MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757279889628-9c5692bb1166?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757279889628-9c5692bb1166?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
 ---
 
 # [BasedHardware/omi](https://github.com/BasedHardware/omi)
@@ -69,8 +69,8 @@ Start speaking, you'll see Real-time transcript on [webhook.site ](https://webho
 
 - [Introduction](https://docs.omi.me/)
 - [omi App setup](https://docs.omi.me/doc/developer/AppSetup)
-- [Buying Guide](https://docs.omi.me/docs/assembly/Buying_Guide/)
-- [Build the device](https://docs.omi.me/docs/assembly/Build_the_device/)
+- [Buying Guide](https://docs.omi.me/doc/assembly/Buying_Guide/)
+- [Build the device](https://docs.omi.me/doc/assembly/Build_the_device/)
 - [Install firmware](https://docs.omi.me/doc/get_started/Flash_device/)
 - [Create your own app in 1 minute](https://docs.omi.me/doc/developer/apps/Introduction).
 
@@ -85,7 +85,7 @@ Start speaking, you'll see Real-time transcript on [webhook.site ](https://webho
 [//]: # "## More links:"
 [//]: #
 [//]: # "- [Contributing](https://docs.omi.me/doc/developer/Contribution/)"
-[//]: # "- [Support](https://docs.omi.me/docs/info/Support/;"
+[//]: # "- [Support](https://docs.omi.me/doc/info/Support/)"
 [//]: # "- [BLE Protocol](https://docs.omi.me/doc/developer/Protocol/)"
 [//]: # "- [Plugins](https://docs.omi.me/doc/developer/Plugins/)"
 
