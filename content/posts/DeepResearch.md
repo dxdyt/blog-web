@@ -1,9 +1,9 @@
 ---
 title: DeepResearch
-date: 2025-09-19T12:21:59+08:00
+date: 2025-09-20T12:20:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757279889628-9c5692bb1166?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757279889628-9c5692bb1166?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758024836397-2c9c698087f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758024836397-2c9c698087f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)
@@ -126,8 +126,8 @@ We provide benchmark evaluation scripts for various datasets. Please refer to th
 
 Tongyi DeepResearch also has an extensive deep research agent family. You can find more information in the following paper:
 
-[1] [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/pdf/2501.07572)<br>
-[2] [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/pdf/2505.22648)<br>
+[1] [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/pdf/2501.07572) (ACL 2025)<br>
+[2] [WebDancer: Towards Autonomous Information Seeking Agency](https://arxiv.org/pdf/2505.22648) (NeurIPS 2025)<br>
 [3] [WebSailor: Navigating Super-human Reasoning for Web Agent](https://arxiv.org/pdf/2507.02592)<br>
 [4] [WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization](https://arxiv.org/pdf/2507.15061)<br>
 [5] [WebWatcher: Breaking New Frontier of Vision-Language Deep Research Agent](https://arxiv.org/pdf/2508.05748)<br>
