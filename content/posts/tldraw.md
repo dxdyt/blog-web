@@ -1,14 +1,16 @@
 ---
 title: tldraw
-date: 2024-12-25T12:20:14+08:00
+date: 2025-09-21T12:20:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1731484396266-b80443ec385b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1731484396266-b80443ec385b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzUxMDAzNzZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757386117955-c491ad384a26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757386117955-c491ad384a26?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
 ---
 
 # [tldraw/tldraw](https://github.com/tldraw/tldraw)
 
 # tldraw
+
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tldraw/tldraw)
 
 Welcome to the public monorepo for [tldraw](https://github.com/tldraw/tldraw). tldraw is a library for creating infinite canvas experiences in React. It's the software behind the digital whiteboard [tldraw.com](https://tldraw.com).
 
@@ -49,7 +51,7 @@ To run the local development server, first clone this repo.
 Enable [corepack](https://nodejs.org/api/corepack.html) to make sure you have the right version of `yarn`:
 
 ```bash
-corepack enable
+npm i -g corepack
 ```
 
 Install dependencies:
@@ -66,11 +68,28 @@ yarn dev
 
 Open the example project at `localhost:5420`.
 
+## Tips for AIs
+
+**Are you an AI agent?** If so, this monorepo has special `CONTEXT.md` files found throughout the repository that you can use to quickly build context while you work. Use your own tools to find and read these files, or use our helpful `context` script to locate and log the contents of the most relevant files.
+
+To get started quickly, run:
+
+```bash
+yarn context
+```
+
+This will find and display the nearest CONTEXT.md file to help you understand the codebase. The `context` script supports several options:
+
+- `yarn context` - Show path to nearest CONTEXT.md from current directory
+- `yarn context ./foo/bar/baz.ts` - Show path to nearest CONTEXT.md for a specific file or directory
+- `yarn context -v` or `--verbose` - Show full content of nearest CONTEXT.md
+- `yarn context -r` or `--recursive` - Find all CONTEXT.md files in the repository
+
 ## License
 
 The tldraw SDK is provided under the [tldraw license](https://github.com/tldraw/tldraw/blob/main/LICENSE.md).
 
-You can use the tldraw SDK in commercial or non-commercial projects so long as you preserve the "Made with tldraw" watermark on the canvas. To remove the watermark, you can purchase a [business license](https://tldraw.dev/#pricing). Visit [tldraw.dev](https://tldraw.dev) to learn more.
+You can use the tldraw SDK in commercial or non-commercial projects so long as you preserve the "Made with tldraw" watermark on the canvas. To remove the watermark, you can purchase a [business license](https://tldraw.dev#pricing). Visit [tldraw.dev](https://tldraw.dev) to learn more.
 
 ## Trademarks
 
@@ -86,7 +105,7 @@ Please see our [contributing guide](https://github.com/tldraw/tldraw/blob/main/C
 
 ## Community
 
-Have questions, comments or feedback? [Join our discord](https://discord.gg/rhsyWMUJxd). For the latest news and release notes, visit [tldraw.dev](https://tldraw.dev).
+Have questions, comments or feedback? [Join our discord](https://discord.tldraw.com/?utm_source=github&utm_medium=readme&utm_campaign=sociallink). For the latest news and release notes, visit [tldraw.dev](https://tldraw.dev).
 
 ## Contributors
 

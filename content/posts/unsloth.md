@@ -1,9 +1,9 @@
 ---
 title: unsloth
-date: 2025-09-19T12:22:58+08:00
+date: 2025-09-21T12:22:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755563622673-fa2a87edc6b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755563622673-fa2a87edc6b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755001244508-58fcc65797ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755001244508-58fcc65797ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
 ---
 
 # [unslothai/unsloth](https://github.com/unslothai/unsloth)

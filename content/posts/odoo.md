@@ -1,9 +1,9 @@
 ---
 title: odoo
-date: 2025-07-13T12:38:12+08:00
+date: 2025-09-21T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1749497683197-ae96f3cb92f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1749497683197-ae96f3cb92f4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIzODEzNzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755544614944-f2e6fcaf785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755544614944-f2e6fcaf785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
 ---
 
 # [odoo/odoo](https://github.com/odoo/odoo)
