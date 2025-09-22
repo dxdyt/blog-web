@@ -1,9 +1,9 @@
 ---
 title: mlx-swift-examples
-date: 2025-05-01T12:24:52+08:00
+date: 2025-09-22T12:23:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743110337303-2edffbeab0b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743110337303-2edffbeab0b1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDYwNzM0MDZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1756880595887-9e78d6f37dbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756880595887-9e78d6f37dbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [ml-explore/mlx-swift-examples](https://github.com/ml-explore/mlx-swift-examples)
@@ -17,7 +17,7 @@ Developers can use these examples in their own programs -- just import the swift
 - [MLXLLM](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxllm) -- large language model example implementations
 - [MLXVLM](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxvlm) -- vision language model example implementations
 - [MLXEmbedders](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxembedders) -- popular Encoders / Embedding models example implementations
-- [StableDiffusion](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/stablediffusion) -- SDXL Turbo and Stable Diffusion mdeol example implementations
+- [StableDiffusion](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/stablediffusion) -- SDXL Turbo and Stable Diffusion model example implementations
 - [MLXMNIST](https://swiftpackageindex.com/ml-explore/mlx-swift-examples/main/documentation/mlxmnist) -- MNIST implementation for all your digit recognition needs
 
 # MLX Swift Examples
@@ -47,11 +47,28 @@ Example [MLX Swift](https://github.com/ml-explore/mlx-swift) programs.
 - [llm-tool](Tools/llm-tool/README.md): A command line tool for generating text
   using a variety of LLMs available on the Hugging Face hub.
 
+- [ExampleLLM](Tools/ExampleLLM/README.md): A command line tool using the simplified API to interact with LLMs.
+
 - [image-tool](Tools/image-tool/README.md): A command line tool for generating images
   using a stable diffusion model from Hugging Face.
 
 - [mnist-tool](Tools/mnist-tool/README.md): A command line tool for training a
   a LeNet on MNIST.
+
+## Interacting with LLMs
+
+See also [MLXLMCommon](Libraries/MLXLMCommon).  You can easily use
+a wide variety of open weight LLM and VLMs in your code.  You can use
+this simplified API:
+
+```swift
+let model = try await loadModel(id: "mlx-community/Qwen3-4B-4bit")
+let session = ChatSession(model)
+print(try await session.respond(to: "What are two things to see in San Francisco?")
+print(try await session.respond(to: "How about a great place to eat?")
+```
+
+Or use the underlying API to control every aspect of the evaluation.
 
 ## Running
 
@@ -63,7 +80,7 @@ the command line:
 ```
 
 Note: `mlx-run` is a shell script that uses `xcode` command line tools to
-locate the built binaries.  It is equivalent to running from Xcode itself.
+locate the built binaries. It is equivalent to running from Xcode itself.
 
 See also:
 

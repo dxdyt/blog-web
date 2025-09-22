@@ -1,9 +1,9 @@
 ---
 title: WebGoat
-date: 2025-09-20T12:20:53+08:00
+date: 2025-09-22T12:22:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755657722450-26f64fbcddbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755657722450-26f64fbcddbd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1741332966044-513c26163864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1741332966044-513c26163864?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [WebGoat/WebGoat](https://github.com/WebGoat/WebGoat)

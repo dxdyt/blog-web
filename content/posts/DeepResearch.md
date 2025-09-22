@@ -1,9 +1,9 @@
 ---
 title: DeepResearch
-date: 2025-09-21T12:20:35+08:00
+date: 2025-09-22T12:21:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757611933690-3012dff2a62f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757611933690-3012dff2a62f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)
@@ -27,8 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1757611933690-3012dff2a6
 🤗 <a href="https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B" target="_blank">HuggingFace</a> ｜
 <img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/Tongyi-DeepResearch-30B-A3B" target="_blank">ModelScope</a>
 <p align="center">
-<a href="https://trendshift.io/repositories/14217" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14217" 
-alt="Alibaba-NLP%2FWebAgent | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/14895" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14895" alt="Alibaba-NLP%2FDeepResearch | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
 # Introduction
 
@@ -59,6 +58,8 @@ You can directly download the model by following the links below.
 
 # News
 
+[2025/09/20]🚀 Tongyi-DeepResearch-30B-A3B is now on [OpenRouter](https://openrouter.ai/alibaba/tongyi-deepresearch-30b-a3b)! Follow the [Quick-start](https://github.com/Alibaba-NLP/DeepResearch?tab=readme-ov-file#6-you-can-use-openrouters-api-to-call-our-model) guide.
+
 [2025/09/17]🔥 We have released **Tongyi-DeepResearch-30B-A3B**.
 
 # Deep Research Benchmark Results
@@ -76,7 +77,7 @@ This guide provides instructions for setting up the environment and running infe
 
 ```bash
 # Example with Conda
-conda create -n react_infer_env python=3.10.0 
+conda create -n react_infer_env python=3.10.0
 conda activate react_infer_env
 ```
 
@@ -87,20 +88,74 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
-### 3. Prepare Evaluation Data
-- Create a folder named `eval_data/` in the project root.
-- Place your QA file in **JSONL** format inside this directory, e.g. `eval_data/example.jsonl`.
-- Each line must be a JSON object that includes **both** of the following keys:
+
+### 3. Environment Configuration and Prepare Evaluation Data
+#### Environment Configuration
+Configure your API keys and settings by copying the example environment file:
+
+```bash
+# Copy the example environment file
+cp .env.example .env
+```
+
+Edit the `.env` file and provide your actual API keys and configuration values:
+
+- **SERPER_KEY_ID**: Get your key from [Serper.dev](https://serper.dev/) for web search and Google Scholar
+- **JINA_API_KEYS**: Get your key from [Jina.ai](https://jina.ai/) for web page reading
+- **API_KEY/API_BASE**: OpenAI-compatible API for page summarization from [OpenAI](https://platform.openai.com/)
+- **DASHSCOPE_API_KEY**: Get your key from [Dashscope](https://dashscope.aliyun.com/) for file parsing
+- **SANDBOX_FUSION_ENDPOINT**: Python interpreter sandbox endpoints (see [SandboxFusion](https://github.com/bytedance/SandboxFusion))
+- **MODEL_PATH**: Path to your model weights
+- **DATASET**: Name of your evaluation dataset
+- **OUTPUT_PATH**: Directory for saving results
+
+> **Note**: The `.env` file is gitignored, so your secrets will not be committed to the repository.
+
+#### Prepare Evaluation Data
+
+The system supports two input file formats: **JSON** and **JSONL**.
+
+#### Supported File Formats:
+
+**Option 1: JSONL Format (recommended)**
+- Create your data file with `.jsonl` extension (e.g., `my_questions.jsonl`)
+- Each line must be a valid JSON object with `question` and `answer` keys:
   ```json
-  {"question": "...","answer": "..."}
+  {"question": "What is the capital of France?", "answer": "Paris"}
+  {"question": "Explain quantum computing", "answer": ""}
   ```
-- A sample file is provided in the `eval_data` folder for reference.
-- If you plan to use the *file parser* tool, **prepend the file name to the `question` field** and place the referenced file inside the `eval_data/file_corpus/` directory.
+
+**Option 2: JSON Format**
+- Create your data file with `.json` extension (e.g., `my_questions.json`)
+- File must contain a JSON array of objects, each with `question` and `answer` keys:
+  ```json
+  [
+    {"question": "What is the capital of France?", "answer": "Paris"},
+    {"question": "Explain quantum computing", "answer": ""}
+  ]
+  ```
+
+**Important Note:** The `answer` field contains the **ground truth/reference answer** used for evaluation. The system generates its own responses to the questions, and these reference answers are used to automatically judge the quality of the generated responses during benchmark evaluation.
+
+#### File References for Document Processing:
+- If using the *file parser* tool, **prepend the filename to the `question` field**
+- Place referenced files in `eval_data/file_corpus/` directory
+- Example: `{"question": "report.pdf What are the key findings?", "answer": "..."}`
+
+#### File Organization:
+```
+project_root/
+├── eval_data/
+│   ├── my_questions.jsonl          # Your evaluation data
+│   └── file_corpus/                # Referenced documents
+│       ├── report.pdf
+│       └── data.xlsx
+```
 
 ### 4. Configure the Inference Script
 - Open `run_react_infer.sh` and modify the following variables as instructed in the comments:
   * `MODEL_PATH`  - path to the local or remote model weights.
-  * `DATASET`     - path to the evaluation set, e.g. `example`.
+  * `DATASET`     - full path to your evaluation file, e.g. `eval_data/my_questions.jsonl` or `/path/to/my_questions.json`.
   * `OUTPUT_PATH` - path for saving the prediction results, e.g. `./outputs`.
 - Depending on the tools you enable (retrieval, calculator, web search, etc.), provide the required `API_KEY`, `BASE_URL`, or other credentials. Each key is explained inline in the bash script.
 

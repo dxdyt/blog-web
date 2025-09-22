@@ -1,9 +1,9 @@
 ---
 title: omarchy
-date: 2025-09-20T12:20:45+08:00
+date: 2025-09-22T12:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758024836397-2c9c698087f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758024836397-2c9c698087f0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgzNDIwMTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757589815261-89c790bb3241?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757589815261-89c790bb3241?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [basecamp/omarchy](https://github.com/basecamp/omarchy)

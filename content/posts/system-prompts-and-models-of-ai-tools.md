@@ -1,16 +1,35 @@
 ---
 title: system-prompts-and-models-of-ai-tools
-date: 2025-09-16T12:20:45+08:00
+date: 2025-09-22T12:21:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755624306386-7e5744d7ccc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755624306386-7e5744d7ccc0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5OTY0MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755389462658-a4b4e708cc37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755389462658-a4b4e708cc37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [x1xhlol/system-prompts-and-models-of-ai-tools](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools)
 
 # **System Prompts and Models of AI Tools**  
+---
+<p align="center">
+  <sub>Special thanks to</sub>  
+</p>
+
+<p align="center">
+  <a href="https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship">
+    <img src="assets/Latitude_logo.png" alt="Latitude Logo" width="700"/>
+  </a>
+</p>
+
+<div align="center" markdown="1">
+
+### [The tools you need for building reliable Agents and Prompts](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)  
+[Open Source AI Engineering Platform](https://latitude.so/developers?utm_source=github&utm_medium=readme&utm_campaign=prompt_repo_sponsorship)<br>
+
+</div>
+
 
 ---
+
 <a href="https://discord.gg/NwzrWErdMU" target="_blank">
   <img src="https://img.shields.io/discord/1402660735833604126?label=LeaksLab%20Discord&logo=discord&style=for-the-badge" alt="LeaksLab Discord" />
 </a>
@@ -98,7 +117,7 @@ You can show your support via:
 
 > Open an issue.
 
-> **Latest Update:** 15/09/2025
+> **Latest Update:** 16/09/2025
 
 ---
 

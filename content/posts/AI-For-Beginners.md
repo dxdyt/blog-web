@@ -1,9 +1,9 @@
 ---
 title: AI-For-Beginners
-date: 2025-09-21T12:21:28+08:00
+date: 2025-09-22T12:22:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755870190504-fd73e944bcc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755870190504-fd73e944bcc5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756054271968-726cf7e15ca9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756054271968-726cf7e15ca9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)

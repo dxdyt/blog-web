@@ -1,9 +1,9 @@
 ---
 title: CookLikeHOC
-date: 2025-09-21T12:20:28+08:00
+date: 2025-09-22T12:21:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757293266476-799d3e258ad6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757293266476-799d3e258ad6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755389462658-a4b4e708cc37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755389462658-a4b4e708cc37?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC)
