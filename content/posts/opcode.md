@@ -1,9 +1,9 @@
 ---
 title: opcode
-date: 2025-09-21T12:20:48+08:00
+date: 2025-09-23T12:23:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755864550162-76da02d59586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755864550162-76da02d59586?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756806983832-1f056cf24182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756806983832-1f056cf24182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
 ---
 
 # [winfunc/opcode](https://github.com/winfunc/opcode)

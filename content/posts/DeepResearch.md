@@ -1,9 +1,9 @@
 ---
 title: DeepResearch
-date: 2025-09-22T12:21:27+08:00
+date: 2025-09-23T12:21:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755449338739-6c4132cd6d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755449338739-6c4132cd6d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
 ---
 
 # [Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)
@@ -24,8 +24,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1755918546836-fb909c73e9
 
 </div>
 <p align="center">
+<p align="center">
 🤗 <a href="https://huggingface.co/Alibaba-NLP/Tongyi-DeepResearch-30B-A3B" target="_blank">HuggingFace</a> ｜
-<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/Tongyi-DeepResearch-30B-A3B" target="_blank">ModelScope</a>
+<img src="./assets/tongyi.png" width="14px" style="display:inline;"> <a href="https://modelscope.cn/models/iic/Tongyi-DeepResearch-30B-A3B" target="_blank">ModelScope</a> |  💬 <a href="./assets/wechat.jpg">WeChat(微信)</a>
 <p align="center">
 <a href="https://trendshift.io/repositories/14895" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14895" alt="Alibaba-NLP%2FDeepResearch | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 

@@ -1,9 +1,9 @@
 ---
 title: youtube-dl
-date: 2025-09-22T12:23:32+08:00
+date: 2025-09-23T12:21:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756880595887-9e78d6f37dbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756880595887-9e78d6f37dbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756806983832-1f056cf24182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756806983832-1f056cf24182?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
 ---
 
 # [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl)
