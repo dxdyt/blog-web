@@ -1,9 +1,9 @@
 ---
 title: AI-Researcher
-date: 2025-09-22T12:22:56+08:00
+date: 2025-09-24T12:22:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755508159006-d93494f2ee4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755508159006-d93494f2ee4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/AI-Researcher](https://github.com/HKUDS/AI-Researcher)

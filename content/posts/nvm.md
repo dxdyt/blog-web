@@ -1,9 +1,9 @@
 ---
 title: nvm
-date: 2025-06-20T12:27:02+08:00
+date: 2025-09-24T12:22:06+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1747681476477-8f8df64a863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1747681476477-8f8df64a863d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAzOTM1NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757582780671-e2ecf5d1aa3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757582780671-e2ecf5d1aa3f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
 ---
 
 # [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
@@ -160,7 +160,7 @@ RUN touch "${BASH_ENV}"
 RUN echo '. "${BASH_ENV}"' >> ~/.bashrc
 
 # Download and install nvm
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | PROFILE="${BASH_ENV}" bash
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | PROFILE="${BASH_ENV}" bash
 RUN echo node > .nvmrc
 RUN nvm install
 ```

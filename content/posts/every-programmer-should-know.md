@@ -1,14 +1,33 @@
 ---
 title: every-programmer-should-know
-date: 2024-12-01T12:23:05+08:00
+date: 2025-09-24T12:21:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1730062518189-c01b51b3b94e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1730062518189-c01b51b3b94e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzMwMjY5MTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758058674727-0fb9b3120218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758058674727-0fb9b3120218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
 ---
 
 # [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)
 
-> *[Join our community](https://metadevelopment.io/)* for professional Software Developers and get more control over your life and career! 
+<div align="center" markdown="1">
+   <sup>Special thanks to:</sup>
+   <br>
+   <br>
+   <a href="https://tuple.app/every-programmer-should-know">
+    <img width="400" alt="Tuple's sponsorship image" src="https://github.com/user-attachments/assets/dc223735-2060-476e-9f76-0b225e03ce1f" />
+   </a>
+
+### [Tuple, the premier screen sharing app for developers](https://tuple.app/every-programmer-should-know)
+
+[Available for MacOS & Windows](https://tuple.app/every-programmer-should-know)<br>
+
+</div>
+
+----
+<div align="center" markdown="1">
+  Want to become a Senior Engineer sooner?  
+
+  [Join a waitlist for repo author's course](https://maven.com/top-engineer/fast-track-to-senior?utm_source=github&utm_campaign=autumn_repo_bump)
+</div>
 
 ----
 
@@ -97,8 +116,9 @@ But knowing the stuff will help you become better! :muscle:*
 - :page_facing_up: [Cryptographic Right Answers](https://gist.github.com/tqbf/be58d2d39690c3b366ad)
 - :page_facing_up: [An Open Letter to Developers Everywhere (About Cryptography)](https://gist.github.com/paragonie-scott/e9319254c8ecbad4f227)
 - :book: [Foundations of Security: What Every Programmer Needs to Know ](https://www.goodreads.com/book/show/128003.Foundations_of_Security)
-- [OWASP Top 10](https://owasp.org/www-project-top-ten)
-- [Web Application Exploits and Defenses](https://google-gruyere.appspot.com/part1)
+- :page_facing_up: [OWASP Top 10](https://owasp.org/www-project-top-ten) - The "gold standard" for web application vulnerabilities.
+- :page_facing_up: [Portswigger Academy](https://portswigger.net) - Practical Labs for learning about web application security.
+- :page_facing_up: [Web Application Exploits and Defenses](https://google-gruyere.appspot.com/part1)
 - :page_facing_up: [Hashing, Encryption and Encoding](https://www.integralist.co.uk/posts/hashing-and-encryption/)
 
 ### UX/Usability
@@ -270,3 +290,28 @@ But knowing the stuff will help you become better! :muscle:*
 - :link: [Codility](https://www.codility.com/)
 - :link: [ICPC Problem Archive](https://icpc.kattis.com/)
 - :link: [Codemia](https://codemia.io/)
+- :link: [LabEx](https://labex.io/)
+- :link: [Codebattle](https://codebattle.hexlet.io/)
+
+### Platform Engineering
+
+> A modern discipline that evolved from DevOps and SRE principles, focused on improving developer experience and productivity by building and managing self-service tools and workflows, often through an Internal Developer Platform (IDP). The goal is to reduce cognitive load on developers and streamline the path to production.
+
+- **What is Platform Engineering?**
+    * [Microsoft Learn: What is platform engineering?](https://learn.microsoft.com/en-us/platform-engineering/what-is-platform-engineering)  
+    A comprehensive overview of the practice, its goals, and core capabilities.
+    * [Atlassian: What is Platform Engineering?](https://www.atlassian.com/developer-experience/platform-engineering)  
+    A great explanation of the roles and responsibilities of a platform team.
+
+- **Internal Developer Platform (IDP)**
+    * [internaldeveloperplatform.org: What is an IDP?](https://internaldeveloperplatform.org/what-is-an-internal-developer-platform/)  
+    A foundational resource explaining the concept of an IDP as the core product of a platform team.
+    * [Atlassian: Internal Developer Platform Guide](https://www.atlassian.com/developer-experience/internal-developer-platform)  
+    A deep dive into the benefits and best practices for building an IDP.
+
+- **Golden Paths (Paved Roads)**
+    * [Spotify Engineering: How we use Golden Paths to solve fragmentation](https://backstage.spotify.com/learn/onboarding-software-to-backstage/setting-up-software-templates/11-spotify-templates/)  
+    The original concept from Spotify, explaining how they use "opinionated and supported paths" to guide developers.
+    * [Red Hat: What is a Golden Path for software development?](https://www.redhat.com/en/topics/devops/golden-paths)  
+    * A clear article on how Golden Paths provide templates and standardized workflows to increase efficiency.
+

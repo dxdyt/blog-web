@@ -1,9 +1,9 @@
 ---
 title: helm
-date: 2025-07-11T12:37:20+08:00
+date: 2025-09-24T12:23:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746483966037-c3c9e6374e08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746483966037-c3c9e6374e08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTIyMDg1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756619845811-79fc9f95b449?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756619845811-79fc9f95b449?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
 ---
 
 # [helm/helm](https://github.com/helm/helm)
@@ -15,7 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1746483966037-c3c9e6374e
 [![GoDoc](https://img.shields.io/static/v1?label=godoc&message=reference&color=blue)](https://pkg.go.dev/helm.sh/helm/v4)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/3131/badge)](https://bestpractices.coreinfrastructure.org/projects/3131)
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/helm/helm/badge)](https://scorecard.dev/viewer/?uri=github.com/helm/helm)
-[![LFX Health Score](https://img.shields.io/static/v1?label=Health%20Score&message=Healthy&color=A7F3D0&logo=linuxfoundation&logoColor=white&style=flat)](https://insights.linuxfoundation.org/project/helm)
+[![LFX Health Score](https://insights.production.lfx.dev/api/badge/health-score?project=helm)](https://insights.linuxfoundation.org/project/helm)
 
 Helm is a tool for managing Charts. Charts are packages of pre-configured Kubernetes resources.
 
