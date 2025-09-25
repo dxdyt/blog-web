@@ -1,9 +1,9 @@
 ---
 title: gin
-date: 2025-09-24T12:21:21+08:00
+date: 2025-09-25T12:22:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754752603526-b4663b073344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754752603526-b4663b073344?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757600797704-300d69978b8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757600797704-300d69978b8c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
 ---
 
 # [gin-gonic/gin](https://github.com/gin-gonic/gin)

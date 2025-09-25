@@ -1,9 +1,9 @@
 ---
 title: every-programmer-should-know
-date: 2025-09-24T12:21:59+08:00
+date: 2025-09-25T12:23:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758058674727-0fb9b3120218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758058674727-0fb9b3120218?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756792340190-2039b9a1787d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756792340190-2039b9a1787d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
 ---
 
 # [mtdvio/every-programmer-should-know](https://github.com/mtdvio/every-programmer-should-know)

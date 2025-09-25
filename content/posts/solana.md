@@ -1,12 +1,21 @@
 ---
 title: solana
-date: 2025-01-22T12:21:41+08:00
+date: 2025-09-25T12:23:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736754076513-e126561c3f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736754076513-e126561c3f2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzc1MTk1NTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757081791153-3f48cd8c67ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757081791153-3f48cd8c67ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
 ---
 
 # [solana-labs/solana](https://github.com/solana-labs/solana)
+
+# PLEASE READ: This repo is now a public archive
+
+This repo still exists in archived form, feel free to fork any reference
+implementations it still contains.
+
+See Agave, the Solana validator implementation from Anza: https://github.com/anza-xyz/agave
+
+---
 
 <p align="center">
   <a href="https://solana.com">
@@ -36,20 +45,24 @@ $ rustup update
 ```
 
 When building a specific release branch, you should check the rust version in `ci/rust-version.sh` and if necessary, install that version by running:
+
 ```bash
 $ rustup install VERSION
 ```
+
 Note that if this is not the latest rust version on your machine, cargo commands may require an [override](https://rust-lang.github.io/rustup/overrides.html) in order to use the correct version.
 
 On Linux systems you may need to install libssl-dev, pkg-config, zlib1g-dev, protobuf etc.
 
 On Ubuntu:
+
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install libssl-dev libudev-dev pkg-config zlib1g-dev llvm clang cmake make libprotobuf-dev protobuf-compiler
 ```
 
 On Fedora:
+
 ```bash
 $ sudo dnf install openssl-devel systemd-devel pkg-config zlib-devel llvm clang cmake make protobuf-devel protobuf-compiler perl-core
 ```
@@ -81,8 +94,8 @@ Start your own testnet locally, instructions are in the [online docs](https://do
 
 ### Accessing the remote development cluster
 
-* `devnet` - stable public cluster for development accessible via
-devnet.solana.com. Runs 24/7. Learn more about the [public clusters](https://docs.solanalabs.com/clusters)
+- `devnet` - stable public cluster for development accessible via
+  devnet.solana.com. Runs 24/7. Learn more about the [public clusters](https://docs.solanalabs.com/clusters)
 
 # Benchmarking
 
@@ -113,10 +126,10 @@ $ open target/cov/lcov-local/index.html
 ```
 
 Why coverage? While most see coverage as a code quality metric, we see it primarily as a developer
-productivity metric. When a developer makes a change to the codebase, presumably it's a *solution* to
-some problem.  Our unit-test suite is how we encode the set of *problems* the codebase solves. Running
-the test suite should indicate that your change didn't *infringe* on anyone else's solutions. Adding a
-test *protects* your solution from future changes. Say you don't understand why a line of code exists,
+productivity metric. When a developer makes a change to the codebase, presumably it's a _solution_ to
+some problem. Our unit-test suite is how we encode the set of _problems_ the codebase solves. Running
+the test suite should indicate that your change didn't _infringe_ on anyone else's solutions. Adding a
+test _protects_ your solution from future changes. Say you don't understand why a line of code exists,
 try deleting it and running the unit-tests. The nearest test failure should tell you what problem
 was solved by that code. If no test fails, go ahead and submit a Pull Request that asks, "what
 problem is solved by this code?" On the other hand, if a test does fail and you can think of a
@@ -148,10 +161,10 @@ reader is or is working on behalf of a Specially Designated National
 (SDN) or a person subject to similar blocking or denied party
 prohibitions.
 
-The reader should be aware that U.S. export control and sanctions laws prohibit 
-U.S. persons (and other persons that are subject to such laws) from transacting 
-with persons in certain countries and territories or that are on the SDN list. 
-Accordingly, there is a risk to individuals that other persons using any of the 
-code contained in this repo, or a derivation thereof, may be sanctioned persons 
-and that transactions with such persons would be a violation of U.S. export 
+The reader should be aware that U.S. export control and sanctions laws prohibit
+U.S. persons (and other persons that are subject to such laws) from transacting
+with persons in certain countries and territories or that are on the SDN list.
+Accordingly, there is a risk to individuals that other persons using any of the
+code contained in this repo, or a derivation thereof, may be sanctioned persons
+and that transactions with such persons would be a violation of U.S. export
 controls and sanctions law.

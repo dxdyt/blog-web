@@ -1,9 +1,9 @@
 ---
 title: CookLikeHOC
-date: 2025-09-24T12:22:23+08:00
+date: 2025-09-25T12:23:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755508159006-d93494f2ee4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755508159006-d93494f2ee4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755918909925-f62b86d93c2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755918909925-f62b86d93c2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
 ---
 
 # [Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC)
@@ -18,9 +18,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1755508159006-d93494f2ee
 
 **新更新**
 
-- 炖菜已上线部分由ai配图的菜品，但更欢迎大家来贡献实拍图
+- 欢迎大家来贡献实拍图
 
 - 现已上线网页端，[点击访问](https://cooklikehoc.soilzhu.su)
+
+- Run with Docker? Check it out [here](https://github.com/Gar-b-age/CookLikeHOC/tree/main/docker_support), supported by [@honestAnt](https://github.com/honestAnt) in [PR #141](https://github.com/Gar-b-age/CookLikeHOC/pull/141)
+
+- AI 绘制的手绘图版及AI配图流程版网页： [点击访问](https://ai.cooklikehoc.soilzhu.su), 手绘图由 [@liucongg](https://github.com/liucongg) 贡献，见 [PR #143](https://github.com/Gar-b-age/CookLikeHOC/pull/143)
+
+---
 
 [![link](/tg.png)](https://t.me/cooklikehoc)
 

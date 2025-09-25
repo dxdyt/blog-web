@@ -1,9 +1,9 @@
 ---
 title: cai
-date: 2025-08-18T12:38:25+08:00
+date: 2025-09-25T12:22:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743360167520-761fa087ee8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743360167520-761fa087ee8d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU0OTE4Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757742690834-aa581b9f53b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757742690834-aa581b9f53b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
 ---
 
 # [aliasrobotics/cai](https://github.com/aliasrobotics/cai)
@@ -20,21 +20,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1743360167520-761fa087ee
     </a>
   </p>
 
-## 🎯 Milestones
-[![](https://img.shields.io/badge/HTB_ranking-top_90_Spain_(5_days)-red.svg)](https://app.hackthebox.com/users/2268644)
-[![](https://img.shields.io/badge/HTB_ranking-top_50_Spain_(6_days)-red.svg)](https://app.hackthebox.com/users/2268644)
-[![](https://img.shields.io/badge/HTB_ranking-top_30_Spain_(7_days)-red.svg)](https://app.hackthebox.com/users/2268644)
-[![](https://img.shields.io/badge/HTB_ranking-top_500_World_(7_days)-red.svg)](https://app.hackthebox.com/users/2268644)
-[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_1_(AIs)_world-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
-[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_1_Spain-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
-[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_20_World-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
-[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-750_$-yellow.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
-[![](https://img.shields.io/badge/Mistral_AI_Robotics_Hackathon-2500_$-yellow.svg)](https://lu.ma/roboticshack?tk=RuryKF)
-[![](https://img.shields.io/badge/Bug_rewards-250_$-yellow.svg)](https://github.com/aliasrobotics/cai)
 
-## 📦 Package Attributes
 [![version](https://badge.fury.io/py/cai-framework.svg)](https://badge.fury.io/py/cai-framework)
-[![downloads](https://img.shields.io/pypi/dm/cai-framework)](https://pypistats.org/packages/cai-framework)
+[![downloads](https://static.pepy.tech/badge/cai-framework)](https://pepy.tech/projects/cai-framework)
 [![Linux](https://img.shields.io/badge/Linux-Supported-brightgreen?logo=linux&logoColor=white)](https://github.com/aliasrobotics/cai)
 [![OS X](https://img.shields.io/badge/OS%20X-Supported-brightgreen?logo=apple&logoColor=white)](https://github.com/aliasrobotics/cai)
 [![Windows](https://img.shields.io/badge/Windows-Supported-brightgreen?logo=windows&logoColor=white)](https://github.com/aliasrobotics/cai)
@@ -42,25 +30,42 @@ featuredImagePreview: https://images.unsplash.com/photo-1743360167520-761fa087ee
 [![Discord](https://img.shields.io/badge/Discord-7289DA?logo=discord&logoColor=white)](https://discord.gg/fnUFcTaQAC)
 [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-b31b1b.svg)](https://arxiv.org/pdf/2504.06017)
 [![arXiv](https://img.shields.io/badge/arXiv-2506.23592-b31b1b.svg)](https://arxiv.org/abs/2506.23592)
-
+[![arXiv](https://img.shields.io/badge/arXiv-2508.13588-b31b1b.svg)](https://arxiv.org/abs/2508.13588)
+[![arXiv](https://img.shields.io/badge/arXiv-2508.21669-b31b1b.svg)](https://arxiv.org/abs/2508.21669)
+[![arXiv](https://img.shields.io/badge/arXiv-2509.14096-b31b1b.svg)](https://arxiv.org/abs/2509.14096) 
+[![arXiv](https://img.shields.io/badge/arXiv-2509.14139-b31b1b.svg)](https://arxiv.org/abs/2509.14139)
 
 
 </div>
 
-A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity AIs (CAIs).
+Cybersecurity AI (CAI) is a lightweight, open-source framework that empowers security professionals to build and deploy AI-powered offensive and defensive automation. CAI is the *de facto* framework for AI Security, already used by thousands of individual users and hundreds of organizations. Whether you're a security researcher, ethical hacker, IT professional, or organization looking to enhance your security posture, CAI provides the building blocks to create specialized AI agents that can assist with mitigation, vulnerability discovery, exploitation, and security assessment.
 
-| CAI with `alias0` on ROS message injection attacks in MiR-100 robot | CAI with `alias0` on API vulnerability discovery at Mercado Libre |
-|-----------------------------------------------|---------------------------------|
-| [![asciicast](https://asciinema.org/a/dNv705hZel2Rzrw0cju9HBGPh.svg)](https://asciinema.org/a/dNv705hZel2Rzrw0cju9HBGPh) | [![asciicast](https://asciinema.org/a/9Hc9z1uFcdNjqP3bY5y7wO1Ww.svg)](https://asciinema.org/a/9Hc9z1uFcdNjqP3bY5y7wO1Ww) |
-
-
-| CAI on JWT@PortSwigger CTF — Cybersecurity AI | CAI on HackableII Boot2Root CTF — Cybersecurity AI |
-|-----------------------------------------------|---------------------------------|
-| [![asciicast](https://asciinema.org/a/713487.svg)](https://asciinema.org/a/713487) | [![asciicast](https://asciinema.org/a/713485.svg)](https://asciinema.org/a/713485) |
-
+**Key Features:**
+- 🤖 **300+ AI Models**: Support for OpenAI, Anthropic, DeepSeek, Ollama, and more
+- 🔧 **Built-in Security Tools**: Ready-to-use tools for reconnaissance, exploitation, and privilege escalation  
+- 🏆 **Battle-tested**: Proven in HackTheBox CTFs, bug bounties, and real-world security [case studies](https://aliasrobotics.com/case-studies-robot-cybersecurity.php)
+- 🎯 **Agent-based Architecture**: Modular framework design to build specialized agents for different security tasks
+- 🛡️ **Guardrails Protection**: Built-in defenses against prompt injection and dangerous command execution
+- 📚 **Research-oriented**: Research foundation to democratize cybersecurity AI for the community
 
 > [!NOTE]
-> We encourage you to read CAI's the technical report at https://arxiv.org/pdf/2504.06017.
+> Read the technical report: [CAI: An Open, Bug Bounty-Ready Cybersecurity AI](https://arxiv.org/pdf/2504.06017)
+>
+> For further readings, refer to our [impact](#-impact) and [CAI citation](#citation) sections.
+
+
+
+| [`OT` - CAI and alias0 on: Ecoforest Heat Pumps](https://aliasrobotics.com/case-study-ecoforest.php) | [`Robotics` - CAI and alias0 on: Mobile Industrial Robots (MiR)](https://aliasrobotics.com/case-study-cai-mir.php) |
+|------------------------------------------------|---------------------------------|
+| CAI discovers critical vulnerability in Ecoforest heat pumps allowing unauthorized remote access and potential catastrophic failures. AI-powered security testing reveals exposed credentials and DES encryption weaknesses affecting all of their deployed units across Europe.  | CAI-powered security testing of MiR (Mobile Industrial Robot) platform through automated ROS message injection attacks. This study demonstrates how AI-driven vulnerability discovery can expose unauthorized access to robot control systems and alarm triggers.  |
+| [![](https://aliasrobotics.com/img/case-study-portada-ecoforest.png)](https://aliasrobotics.com/case-study-ecoforest.php) | [![](https://aliasrobotics.com/img/case-study-portada-mir-cai.png)](https://aliasrobotics.com/case-study-cai-mir.php) |
+
+| [`IT` (Web) - CAI and alias0 on: Mercado Libre's e-commerce](https://aliasrobotics.com/case-study-mercado-libre.php) | [`OT` - CAI and alias0 on: MQTT broker](https://aliasrobotics.com/case-study-cai-mqtt-broker.php) |
+|------------------------------------------------|---------------------------------|
+|  CAI-powered API vulnerability discovery at Mercado Libre through automated enumeration attacks. This study demonstrates how AI-driven security testing can expose user data exposure risks in e-commerce platforms at scale.  |  CAI-powered testing exposed critical flaws in an MQTT broker within a Dockerized OT network. Without authentication, CAI subscribed to temperature and humidity topics and injected false values, corrupting data shown in Grafana dashboards. |
+| [![](https://aliasrobotics.com/img/case-study-portada-mercado-libre.png)](https://aliasrobotics.com/case-study-mercado-libre.php) | [![](https://aliasrobotics.com/img/case-study-portada-mqtt-broker-cai.png)](https://aliasrobotics.com/case-study-cai-mqtt-broker.php) |
+
+
 
 > [!WARNING]
 > :warning: CAI is in active development, so don't expect it to work flawlessly. Instead, contribute by raising an issue or [sending a PR](https://github.com/aliasrobotics/cai/pulls).
@@ -72,9 +77,12 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
 ## :bookmark: Table of Contents
 
 - [Cybersecurity AI (`CAI`)](#cybersecurity-ai-cai)
-  - [🎯 Milestones](#-milestones)
-  - [📦 Package Attributes](#-package-attributes)
   - [:bookmark: Table of Contents](#bookmark-table-of-contents)
+  - [🎯 Impact](#-impact)
+    - [🏆 Competitions and challenges](#-competitions-and-challenges)
+    - [📊 Research Impact](#-research-impact)
+    - [📚 Research products: `Cybersecurity AI`](#-research-products-cybersecurity-ai)
+  - [PoCs](#pocs)
   - [Motivation](#motivation)
     - [:bust\_in\_silhouette: Why CAI?](#bust_in_silhouette-why-cai)
     - [Ethical principles behind CAI](#ethical-principles-behind-cai)
@@ -95,6 +103,7 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
     - [🔹 Patterns](#-patterns)
     - [🔹 Turns and Interactions](#-turns-and-interactions)
     - [🔹 Tracing](#-tracing)
+    - [🔹 Guardrails](#-guardrails)
     - [🔹 Human-In-The-Loop (HITL)](#-human-in-the-loop-hitl)
   - [:rocket: Quickstart](#rocket-quickstart)
     - [Environment Variables](#environment-variables)
@@ -108,8 +117,61 @@ A lightweight, ergonomic framework for building bug bounty-ready Cybersecurity A
   - [FAQ](#faq)
   - [Citation](#citation)
   - [Acknowledgements](#acknowledgements)
+    - [Academic Collaborations](#academic-collaborations)
 
 
+
+## 🎯 Impact
+
+### 🏆 Competitions and challenges
+[![](https://img.shields.io/badge/HTB_ranking-top_90_Spain_(5_days)-red.svg)](https://app.hackthebox.com/users/2268644)
+[![](https://img.shields.io/badge/HTB_ranking-top_50_Spain_(6_days)-red.svg)](https://app.hackthebox.com/users/2268644)
+[![](https://img.shields.io/badge/HTB_ranking-top_30_Spain_(7_days)-red.svg)](https://app.hackthebox.com/users/2268644)
+[![](https://img.shields.io/badge/HTB_ranking-top_500_World_(7_days)-red.svg)](https://app.hackthebox.com/users/2268644)
+[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_1_(AIs)_world-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
+[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_1_Spain-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
+[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-top_20_World-red.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
+[![](https://img.shields.io/badge/HTB_"Human_vs_AI"_CTF-750_$-yellow.svg)](https://ctf.hackthebox.com/event/2000/scoreboard)
+[![](https://img.shields.io/badge/Mistral_AI_Robotics_Hackathon-2500_$-yellow.svg)](https://lu.ma/roboticshack?tk=RuryKF)
+
+### 📊 Research Impact
+- Pioneered LLM-powered AI Security with PentestGPT, establishing the foundation for the `Cybersecurity AI` research domain [![arXiv](https://img.shields.io/badge/arXiv-2308.06782-4a9b8e.svg)](https://arxiv.org/pdf/2308.06782)
+- Established the `Cybersecurity AI` research line with **6 papers and technical reports**, with active research collaborations [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-63bfab.svg)](https://arxiv.org/pdf/2504.06017) [![arXiv](https://img.shields.io/badge/arXiv-2506.23592-7dd3c0.svg)](https://arxiv.org/abs/2506.23592) [![arXiv](https://img.shields.io/badge/arXiv-2508.13588-52a896.svg)](https://arxiv.org/abs/2508.13588) [![arXiv](https://img.shields.io/badge/arXiv-2508.21669-85e0d1.svg)](https://arxiv.org/abs/2508.21669) [![arXiv](https://img.shields.io/badge/arXiv-2509.14096-3e8b7a.svg)](https://arxiv.org/abs/2509.14096) [![arXiv](https://img.shields.io/badge/arXiv-2509.14139-6bc7b5.svg)](https://arxiv.org/abs/2509.14139)
+
+- Demonstrated **3,600× performance improvement** over human penetration testers in standardized CTF benchmark evaluations [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-63bfab.svg)](https://arxiv.org/pdf/2504.06017)
+- Identified **CVSS 4.3-7.5 severity vulnerabilities** in production systems through automated security assessment [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-63bfab.svg)](https://arxiv.org/pdf/2504.06017)
+- **Democratization of AI-empowered vulnerability research**: CAI enables both non-security domain experts and experienced researchers to conduct more efficient vulnerability discovery, expanding the security research community while empowering small and medium enterprises to conduct autonomous security assessments [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-63bfab.svg)](https://arxiv.org/pdf/2504.06017)
+- **Systematic evaluation of large language models** across both proprietary and open-weight architectures, revealing <u>substantial gaps</u> between vendor-reported capabilities and empirical cybersecurity performance metrics [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-63bfab.svg)](https://arxiv.org/pdf/2504.06017)
+- Established the **autonomy levels in cybersecurity** and argued about autonomy vs automation in the field [![arXiv](https://img.shields.io/badge/arXiv-2506.23592-7dd3c0.svg)](https://arxiv.org/abs/2506.23592)
+- **Collaborative research initiatives** with international academic institutions focused on developing cybersecurity education curricula and training methodologies [![arXiv](https://img.shields.io/badge/arXiv-2508.13588-52a896.svg)](https://arxiv.org/abs/2508.13588)
+- **Contributed a comprehensive defense framework against prompt injection in AI security agents**: developed and empirically validated a multi-layered defense system that addresses the identified prompt injection issues [![arXiv](https://img.shields.io/badge/arXiv-2508.21669-85e0d1.svg)](https://arxiv.org/abs/2508.21669)
+- Explord the Cybersecurity of Humanoid Robots with CAI and identified new attack vectors showing how it `(a)` operates simultaneously as a covert surveillance node and `(b)` can be purposed as an active cyber operations platform [![arXiv](https://img.shields.io/badge/arXiv-2509.14096-3e8b7a.svg)](https://arxiv.org/abs/2509.14096) [![arXiv](https://img.shields.io/badge/arXiv-2509.14139-6bc7b5.svg)](https://arxiv.org/abs/2509.14139)
+
+
+### 📚 Research products: `Cybersecurity AI`
+
+|  CAI, An Open, Bug Bounty-Ready Cybersecurity AI [![arXiv](https://img.shields.io/badge/arXiv-2504.06017-63bfab.svg)](https://arxiv.org/pdf/2504.06017) |  The Dangerous Gap Between Automation and Autonomy [![arXiv](https://img.shields.io/badge/arXiv-2506.23592-7dd3c0.svg)](https://arxiv.org/abs/2506.23592) |  CAI Fluency, A Framework for Cybersecurity AI Fluency [![arXiv](https://img.shields.io/badge/arXiv-2508.13588-52a896.svg)](https://arxiv.org/abs/2508.13588) |
+|---|---|---|
+| [<img src="https://aliasrobotics.com/img/paper-cai.png" width="350">](https://arxiv.org/pdf/2504.06017) | [<img src="https://aliasrobotics.com/img/cai_automation_vs_autonomy.png" width="350">](https://www.arxiv.org/pdf/2506.23592) | [<img src="https://aliasrobotics.com/img/cai_fluency_cover.png" width="350">](https://arxiv.org/pdf/2508.13588) |
+
+
+| Hacking the AI Hackers via Prompt Injection [![arXiv](https://img.shields.io/badge/arXiv-2508.21669-85e0d1.svg)](https://arxiv.org/abs/2508.21669) | Humanoid Robots as Attack Vectors [![arXiv](https://img.shields.io/badge/arXiv-2509.14139-6bc7b5.svg)](https://arxiv.org/abs/2509.14139) | The Cybersecurity of a Humanoid Robot [![arXiv](https://img.shields.io/badge/arXiv-2509.14096-3e8b7a.svg)](https://arxiv.org/abs/2509.14096) |
+|---|---|---|
+| [<img src="https://aliasrobotics.com/img/aihackers.jpeg" width="350">](https://arxiv.org/pdf/2508.21669) | [<img src="https://aliasrobotics.com/img/humanoids-cover.png" width="350">](https://arxiv.org/pdf/2509.14139) | [<img src="https://aliasrobotics.com/img/humanoid.png" width="350">](https://arxiv.org/pdf/2509.14096) |
+
+
+
+## PoCs
+| CAI with `alias0` on ROS message injection attacks in MiR-100 robot | CAI with `alias0` on API vulnerability discovery at Mercado Libre |
+|-----------------------------------------------|---------------------------------|
+| [![asciicast](https://asciinema.org/a/dNv705hZel2Rzrw0cju9HBGPh.svg)](https://asciinema.org/a/dNv705hZel2Rzrw0cju9HBGPh) | [![asciicast](https://asciinema.org/a/9Hc9z1uFcdNjqP3bY5y7wO1Ww.svg)](https://asciinema.org/a/9Hc9z1uFcdNjqP3bY5y7wO1Ww) |
+
+
+| CAI on JWT@PortSwigger CTF — Cybersecurity AI | CAI on HackableII Boot2Root CTF — Cybersecurity AI |
+|-----------------------------------------------|---------------------------------|
+| [![asciicast](https://asciinema.org/a/713487.svg)](https://asciinema.org/a/713487) | [![asciicast](https://asciinema.org/a/713485.svg)](https://asciinema.org/a/713485) |
+
+More case studies and PoCs are available at [https://aliasrobotics.com/case-studies-robot-cybersecurity.php](https://aliasrobotics.com/case-studies-robot-cybersecurity.php).
 
 ## Motivation
 ### :bust_in_silhouette: Why CAI?
@@ -148,6 +210,7 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
 - [CrackenAGI](https://cracken.ai/)
 - [ETHIACK](https://ethiack.com/)
 - [Horizon3](https://horizon3.ai/)
+- [Irregular](https://www.irregular.com/)
 - [Kindo](https://www.kindo.ai/)
 - [Lakera](https://lakera.ai)
 - [Mindfort](www.mindfort.ai)
@@ -155,6 +218,7 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
 - [NDAY Security](https://ndaysecurity.com/)
 - [Runsybil](https://www.runsybil.com)
 - [Selfhack](https://www.selfhack.fi)
+- [Sola Security](https://sola.security/)
 - [SQUR](https://squr.ai/)
 - [Staris](https://staris.tech/)
 - [Sxipher](https://www.sxipher.com/) (seems discontinued)
@@ -179,6 +243,11 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
   </p>
 </div>
 
+> [!NOTE]
+>
+> CAI Fluency technical report ([arXiv:2508.13588](https://arxiv.org/pdf/2508.13588)) establishes formal educational frameworks for cybersecurity AI literacy.
+
+
 
 |       |   Description  | English | Spanish |
 |-------|----------------|---------|---------|
@@ -188,7 +257,6 @@ Cybersecurity AI is a critical field, yet many groups are misguidedly pursuing i
 | **Episode 3**: Vibe-Hacking Tutorial | "My first Hack" - A Vibe-Hacking guide for newbies. We demonstrate a simple web security hack using a default agent and show how to leverage tools and interpret CIA output with the help of the CAI Python API. You'll also learn to compare different LLM models to find the best fit for your hacking endeavors. | [![Watch the video](https://img.youtube.com/vi/9vZ_Iyex7uI/0.jpg)](https://www.youtube.com/watch?v=9vZ_Iyex7uI&list=PLLc16OUiZWd4RuFdN5_Wx9xwjCVVbopzr&index=1) | [![Watch the video](https://img.youtube.com/vi/iAOMaI1ftiA/0.jpg)](https://www.youtube.com/watch?v=iAOMaI1ftiA&list=PLLc16OUiZWd4RuFdN5_Wx9xwjCVVbopzr&index=2) |
 | **Episode 4**: Intro ReAct | The Evolution of LLMs - Learn how LLMs evolved from basic language models to advanced multiagency AI systems. From basic LLMs to Chain-of-Thought and Reasoning LLMs towards ReAct and Multi-Agent Architectures. Get to know the basic terms | [![Watch the video](https://img.youtube.com/vi/tLdFO1flj_o/0.jpg)](https://www.youtube.com/watch?v=tLdFO1flj_o&list=PLLc16OUiZWd4RuFdN5_Wx9xwjCVVbopzr&index=13) | |
 | **Episode 5**: CAI on CTF challenges | Dive into Capture The Flag (CTF) competitions using CAI. Learn how to leverage AI agents to solve various cybersecurity challenges including web exploitation, cryptography, reverse engineering, and forensics. Discover how to configure CAI for competitive hacking scenarios and maximize your CTF performance with intelligent automation. | [![Watch the video](https://img.youtube.com/vi/MrXTQ0e2to4/0.jpg)](https://www.youtube.com/watch?v=MrXTQ0e2to4&list=PLLc16OUiZWd4RuFdN5_Wx9xwjCVVbopzr&index=13) | [![Watch the video](https://img.youtube.com/vi/r9US_JZa9_c/0.jpg)](https://www.youtube.com/watch?v=r9US_JZa9_c&list=PLLc16OUiZWd4RuFdN5_Wx9xwjCVVbopzr&index=12) |
-| **Episode 6**: CAI Fluency Framework | Introducing CAI Fluency: An Educational Framework for Cybersecurity AI - Learn about the comprehensive educational platform designed to democratize cybersecurity AI knowledge. Explore the theoretical foundations, the 4 C's competencies (Command, Communication, Critique, Custody), and the three modalities of Human-AI interaction in security contexts. | *Coming soon* | *Coming soon* |
 |  |  |  |  |
 | **Annex 1**: `CAI` 0.5.x release  | Introduce version 0.5 of `CAI` including new multi-agent functionality, new commands such as `/history`, `/compact`, `/graph` or `/memory` and a case study showing how `CAI` found a critical security flaw in OT heap pumps spread around the world. |  [![Watch the video](https://img.youtube.com/vi/OPFH0ANUMMw/0.jpg)](https://www.youtube.com/watch?v=OPFH0ANUMMw) | [![Watch the video](https://img.youtube.com/vi/Q8AI4E4gH8k/0.jpg)](https://www.youtube.com/watch?v=Q8AI4E4gH8k) |
 | **Annex 2**: `CAI` 0.4.x release and `alias0`  | Introducing version 0.4 of `CAI` with *streaming* and improved MCP support. We also introduce `alias0`, the Privacy-First Cybersecurity AI, a Model-of-Models Intelligence that implements a Privacy-by-Design architecture and obtains state-of-the-art results in cybersecurity benchmarks. |  [![Watch the video](https://img.youtube.com/vi/NZjzfnvAZcc/0.jpg)](https://www.youtube.com/watch?v=NZjzfnvAZcc) |  |
@@ -373,7 +441,7 @@ OLLAMA_API_BASE="https://custom-openai-proxy.com/v1" cai
 
 ## :triangular_ruler: Architecture:
 
-CAI focuses on making cybersecurity agent **coordination** and **execution** lightweight, highly controllable, and useful for humans. To do so it builds upon 7 pillars: `Agent`s, `Tools`, `Handoffs`, `Patterns`, `Turns`, `Tracing` and `HITL`.
+CAI focuses on making cybersecurity agent **coordination** and **execution** lightweight, highly controllable, and useful for humans. To do so it builds upon 8 pillars: `Agent`s, `Tools`, `Handoffs`, `Patterns`, `Turns`, `Tracing`, `Guardrails` and `HITL`.
 
 ```
                   ┌───────────────┐           ┌───────────┐
@@ -383,12 +451,12 @@ CAI focuses on making cybersecurity agent **coordination** and **execution** lig
                           ▼
 ┌───────────┐       ┌───────────┐       ┌───────────┐      ┌───────────┐
 │  Patterns │◀─────▶│  Handoffs │◀────▶ │   Agents  │◀────▶│    LLMs   │
-└───────────┘       └─────┬─────┘       └───────────┘      └───────────┘
+└───────────┘       └─────┬─────┘       └─────┬─────┘      └───────────┘
                           │                   │
                           │                   ▼
-┌────────────┐       ┌────┴──────┐       ┌───────────┐
-│ Extensions │◀─────▶│  Tracing  │       │   Tools   │
-└────────────┘       └───────────┘       └───────────┘
+┌────────────┐       ┌────┴──────┐       ┌───────────┐     ┌────────────┐
+│ Extensions │◀─────▶│  Tracing  │       │   Tools   │◀───▶│ Guardrails │
+└────────────┘       └───────────┘       └───────────┘     └────────────┘
                                               │
                           ┌─────────────┬─────┴────┬─────────────┐
                           ▼             ▼          ▼             ▼
@@ -467,7 +535,7 @@ result = await Runner.run(agent, message)
 ```
 
 
-You may find different [tools](cai/tools). They are grouped in 6 major categories inspired by the security kill chain [^2]:
+You may find different [tools](tools). They are grouped in 6 major categories inspired by the security kill chain [^2]:
 
 1. Reconnaissance and weaponization - *reconnaissance*  (crypto, listing, etc)
 2. Exploitation - *exploitation*
@@ -572,6 +640,18 @@ CAI implements AI observability by adopting the OpenTelemetry standard and to do
 
 ![](media/tracing.png)
 
+### 🔹 Guardrails
+
+`Guardrails` provide a critical security layer for CAI agents, protecting against prompt injection attacks and preventing execution of dangerous commands. These guardrails run in parallel to agents, validating both input and output to ensure safe operation. The framework includes:
+
+- **Input Guardrails**: Detect and block prompt injection attempts before they reach agents, using pattern matching, Unicode homograph detection, and AI-powered analysis
+- **Output Guardrails**: Validate agent outputs before execution, preventing dangerous commands like reverse shells, fork bombs, or data exfiltration  
+- **Multi-layered Defense**: Protection at input, processing, and execution stages with tool-level validation
+- **Base64/Base32 Aware**: Automatically decodes and analyzes encoded payloads to detect hidden malicious commands
+- **Configurable**: Can be enabled/disabled via `CAI_GUARDRAILS` environment variable
+
+For detailed implementation, see [docs/guardrails.md](docs/guardrails.md) and [docs/cai_prompt_injection.md](docs/cai_prompt_injection.md).
+
 ### 🔹 Human-In-The-Loop (HITL)
 
 ```
@@ -671,6 +751,7 @@ For using private models, you are given a [`.env.example`](.env.example) file. C
 | CAI_SUPPORT_INTERVAL | Number of turns between support agent executions |
 | CAI_WORKSPACE | Defines the name of the workspace |
 | CAI_WORKSPACE_DIR | Specifies the directory path where the workspace is located |
+| CAI_GUARDRAILS | Enable/disable guardrails for prompt injection protection (default: true) |
 
 </details>
 
@@ -686,6 +767,22 @@ CAI_MODEL=openrouter/meta-llama/llama-4-maverick
 OPENROUTER_API_KEY=<sk-your-key>  # note, add yours
 OPENROUTER_API_BASE=https://openrouter.ai/api/v1
 ```
+
+### Azure OpenAI
+
+The Cybersecurity AI (CAI) platform integrates seamlessly with Azure OpenAI, enabling organizations to run CAI against enterprise-hosted models (e.g., gpt-4o). This pathway is ideal for teams that must operate within Azure governance while leveraging advanced model capabilities.
+To enable Azure OpenAI support in CAI, configure your environment by adding the following entries to your .env. This ensures CAI can reach your Azure deployment endpoint and authenticate correctly.
+
+```bash
+CAI_AGENT_TYPE=redteam_agent
+CAI_MODEL=azure/<model-name-deployed>
+# Required: keep non-empty even when using Azure
+OPENAI_API_KEY=dummy
+# Azure credentials and endpoint
+AZURE_API_KEY=<your-azure-openai-key>
+AZURE_API_BASE=https://<resource>.openai.azure.com/openai/deployments/<deployment-name>/chat/completions?api-version=2025-01-01-preview
+```
+
 
 ### MCP
 
@@ -943,22 +1040,23 @@ When CAI is prompted by the first time, the user is provided with two paths, the
 <details>
 <summary>Can I expand CAI capabilities using previous run logs?</summary>
 
-Absolutely! The **memory extension** allows you to use a previously sucessful runs ( the log object is stored as a **.jsonl file in the [log](cai/logs) folder** ) in a new run against the same target.
-The user is also given the path highlighted in orange as shown below.
+Yes. Today CAI performs best by relying on In‑Context Learning (ICL). Rather than building long‑term stores, the recommended workflow is to load relevant prior logs directly into the current session so the model can reason with them in context.
+
+Use the `/load` command to bring JSONL logs into CAI’s context (this replaces the legacy memory-loading tool):
+
+```bash
+CAI>/load logs/cai_20250408_111856.jsonl         # Load into current agent
+CAI>/load <file> agent <name>                    # Load into a specific agent
+CAI>/load <file> all                             # Distribute across all agents
+CAI>/load <file> parallel                        # Match to configured parallel agents
+# Tip: if you omit <file>, /load uses `logs/last`. Alias: /l
+```
+
+CAI prints the path to the current run’s JSONL log at startup (highlighted in orange), which you can pass to `/load`:
 
 ![cai-009-logs](imgs/readme_imgs/cai-009-logs.png)
 
-How to make use of this functionality?
-
-1. Run CAI against the target. Let's assume the target name is: `target001`.
-2. Get the log file path, something like: ```logs/cai_20250408_111856.jsonl```
-3. Generate the memory using any model of your preference:
-```shell JSONL_FILE_PATH="logs/cai_20250408_111856.jsonl" CTF_INSIDE="false" CAI_MEMORY_COLLECTION="target001" CAI_MEMORY="episodic" CAI_MODEL="claude-3-5-sonnet-20241022" python3 tools/2_jsonl_to_memory.py ```
-
-The script [`tools/2_jsonl_to_memory.py`](cai/tools/2_jsonl_to_memory.py) will generate a memory collection file with the most relevant steps. The quality of the memory collection will depend on the model you use.
-
-4. Use the generated memory collection and execute a new run:
-```shell CAI_MEMORY="episodic" CAI_MODEL="gpt-4o" CAI_MEMORY_COLLECTION="target001" CAI_TRACING=false python3 cai/cli.py```
+Legacy notes: earlier “memory extension” mechanisms (episodic/semantic stores and offline ingestion) are retained for reference only. See [src/cai/agents/memory.py](src/cai/agents/memory.py) for background and legacy details. Our current direction prioritizes ICL over persistent memory.
 
 </details>
 
@@ -981,7 +1079,12 @@ CAI itself is not a profit-seeking initiative. Our goal is to build a sustainabl
 
 </details>
 
+<details><summary>I get a `Unable to locate package python3.12-venv` when installing the prerequisites on my debian based system!</summary>
 
+The easiest way to get around this is to simply install [`python3.12`](https://www.python.org/downloads/release/python-3120/) from source.
+
+
+</details>
 
 ## Citation
 If you want to cite our work, please use the following:
@@ -1010,9 +1113,40 @@ If you want to cite our work, please use the following:
 }
 ```
 
+```bibtex
+@misc{mayoralvilches2025caifluencyframeworkcybersecurity,
+      title={CAI Fluency: A Framework for Cybersecurity AI Fluency}, 
+      author={Víctor Mayoral-Vilches and Jasmin Wachter and Cristóbal R. J. Veas Chavez and Cathrin Schachner and Luis Javier Navarrete-Lozano and María Sanz-Gómez},
+      year={2025},
+      eprint={2508.13588},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2508.13588}, 
+}
+```
+
+```bibtex
+@misc{mayoralvilches2025cybersecurityaihackingai,
+      title={Cybersecurity AI: Hacking the AI Hackers via Prompt Injection}, 
+      author={Víctor Mayoral-Vilches and Per Mannermaa Rynning},
+      year={2025},
+      eprint={2508.21669},
+      archivePrefix={arXiv},
+      primaryClass={cs.CR},
+      url={https://arxiv.org/abs/2508.21669}, 
+}
+```
+
 ## Acknowledgements
 
 CAI was initially developed by [Alias Robotics](https://aliasrobotics.com) and co-funded by the European EIC accelerator project RIS (GA 101161136) - HORIZON-EIC-2023-ACCELERATOR-01 call. The original agentic principles are inspired from OpenAI's [`swarm`](https://github.com/openai/swarm) library and translated into newer prototypes. This project also makes use of other relevant open source building blocks including [`LiteLLM`](https://github.com/BerriAI/litellm), and [`phoenix`](https://github.com/Arize-ai/phoenix)
+
+### Academic Collaborations
+CAI benefits from ongoing research collaborations with academic institutions. Researchers interested in collaborative projects, dataset access, or academic licenses should contact research@aliasrobotics.com. We provide special support for:
+- PhD research projects
+- Academic benchmarking studies  
+- Security education initiatives
+- Open-source contributions from research labs
 
 
 <!-- Footnotes -->
