@@ -1,9 +1,9 @@
 ---
 title: deepeval
-date: 2025-08-07T12:45:22+08:00
+date: 2025-09-26T12:23:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752350434997-8f6366faa0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752350434997-8f6366faa0c3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757323149605-3577791598ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757323149605-3577791598ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
 ---
 
 # [confident-ai/deepeval](https://github.com/confident-ai/deepeval)
@@ -146,6 +146,8 @@ Whether your LLM applications are RAG pipelines, chatbots, AI agents, implemente
 Let's pretend your LLM application is a RAG based customer support chatbot; here's how DeepEval can help test what you've built.
 
 ## Installation
+
+Deepeval works with **Python>=3.9+**.
 
 ```
 pip install -U deepeval
@@ -342,9 +344,20 @@ evaluate(dataset, [answer_relevancy_metric])
 dataset.evaluate([answer_relevancy_metric])
 ```
 
-# LLM Evaluation With Confident AI
+## A Note on Env Variables (.env / .env.local)
 
-The correct LLM evaluation lifecycle is only achievable with [the DeepEval platform](https://confident-ai.com?utm_source=Github). It allows you to:
+DeepEval auto-loads `.env.local` then `.env` from the current working directory **at import time**.
+**Precedence:** process env -> `.env.local` -> `.env`.
+Opt out with `DEEPEVAL_DISABLE_DOTENV=1`.
+
+```bash
+cp .env.example .env.local
+# then edit .env.local (ignored by git)
+```
+
+# DeepEval With Confident AI
+
+DeepEval's cloud platform, [Confident AI](https://confident-ai.com?utm_source=Github), allows you to:
 
 1. Curate/annotate evaluation datasets on the cloud
 2. Benchmark LLM app using dataset, and compare with previous iterations to experiment which models/prompts works best
@@ -353,7 +366,7 @@ The correct LLM evaluation lifecycle is only achievable with [the DeepEval platf
 5. Monitor & evaluate LLM responses in product to improve datasets with real-world data
 6. Repeat until perfection
 
-Everything on Confident AI, including how to use Confident is available [here](https://documentation.confident-ai.com/docs?utm_source=GitHub).
+Everything on Confident AI, including how to use Confident is available [here](https://www.confident-ai.com/docs?utm_source=GitHub).
 
 To begin, login from the CLI:
 
@@ -372,6 +385,20 @@ deepeval test run test_chatbot.py
 You should see a link displayed in the CLI once the test has finished running. Paste it into your browser to view the results!
 
 ![Demo GIF](assets/demo.gif)
+
+<br />
+
+## Configuration
+
+### Environment variables via .env files
+
+Using `.env.local` or `.env` is optional. If they are missing, DeepEval uses your existing environment variables. When present, dotenv environment variables are auto-loaded at import time (unless you set `DEEPEVAL_DISABLE_DOTENV=1`).
+
+**Precedence:** process env -> `.env.local` -> `.env`
+
+```bash
+cp .env.example .env.local
+# then edit .env.local (ignored by git)
 
 <br />
 

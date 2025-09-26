@@ -1,9 +1,9 @@
 ---
 title: capnweb
-date: 2025-09-25T12:21:42+08:00
+date: 2025-09-26T12:23:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757081791153-3f48cd8c67ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757081791153-3f48cd8c67ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757323149605-3577791598ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757323149605-3577791598ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
 ---
 
 # [cloudflare/capnweb](https://github.com/cloudflare/capnweb)
@@ -183,7 +183,7 @@ import { newWebSocketRpcSession } from "capnweb";
 // feature, part of the "explicit resource management" spec. Alternatively,
 // we could declare `api` with `let` or `const` and make sure to call
 // `api[Symbol.dispose]()` to dispose it and close the connection later.
-using api = newWebSocketRpcSession<PublicApi>("https://example.com/api");
+using api = newWebSocketRpcSession<PublicApi>("wss://example.com/api");
 
 // Usage is exactly the same, except we don't have to await all the promises
 // at once.
