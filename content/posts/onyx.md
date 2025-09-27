@@ -1,9 +1,9 @@
 ---
 title: onyx
-date: 2025-09-26T12:23:20+08:00
+date: 2025-09-27T12:21:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757778281735-f26d15bff432?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757778281735-f26d15bff432?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756291363719-be7aeee816c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg5NDY4MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756291363719-be7aeee816c5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg5NDY4MTN8&ixlib=rb-4.1.0
 ---
 
 # [onyx-dot-app/onyx](https://github.com/onyx-dot-app/onyx)

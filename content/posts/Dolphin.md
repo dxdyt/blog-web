@@ -1,9 +1,9 @@
 ---
 title: Dolphin
-date: 2025-09-25T12:22:47+08:00
+date: 2025-09-27T12:21:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757081791153-3f48cd8c67ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757081791153-3f48cd8c67ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg3NzQwOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753148759902-ceef302c4454?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg5NDY4MTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753148759902-ceef302c4454?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg5NDY4MTN8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/Dolphin](https://github.com/bytedance/Dolphin)
@@ -58,7 +58,7 @@ Document image parsing is challenging due to its complexly intertwined elements 
 Dolphin achieves promising performance across diverse page-level and element-level parsing tasks while ensuring superior efficiency through its lightweight architecture and parallel parsing mechanism.
 
 ## 🚀 Demo
-Try our demo on [Demo-Dolphin](http://115.190.42.15:8888/dolphin/).
+Try our demo on [Demo-Dolphin](https://huggingface.co/spaces/ByteDance/Dolphin).
 
 ## 📅 Changelog
 - 🔥 **2025.07.10** Released the *Fox-Page Benchmark*, a manually refined subset of the original [Fox dataset](https://github.com/ucaslcl/Fox). Download via: [Baidu Yun](https://pan.baidu.com/share/init?surl=t746ULp6iU5bUraVrPlMSw&pwd=fox1) | [Google Drive](https://drive.google.com/file/d/1yZQZqI34QCqvhB4Tmdl3X_XEvYvQyP0q/view?usp=sharing).
