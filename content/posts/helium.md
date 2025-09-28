@@ -1,165 +1,85 @@
 ---
 title: helium
-date: 2024-12-14T12:20:40+08:00
+date: 2025-09-28T12:21:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732734042420-1fa41185ad56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732734042420-1fa41185ad56?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQxNTAwMTZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758637612224-82540ceeb007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758637612224-82540ceeb007?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
 ---
 
-# [mherrmann/helium](https://github.com/mherrmann/helium)
+# [imputnet/helium](https://github.com/imputnet/helium)
 
-# Lighter web automation with Python
+<div align="center">
+    <br/>
+    <p>
+        <img src="resources/branding/app_icon/raw.png"
+            title="Helium" alt="Helium logo" width="120" />
+        <h1>Helium</h1>
+    </p>
+    <p width="120">
+        The Chromium-based web browser made for people, with love.
+        <br>
+        Best privacy by default, unbiased ad-blocking, no bloat and no noise.
+    </p>
+    <a href="https://helium.computer/">
+        helium.computer
+    </a>
+    <br/>
+</div>
 
-Helium is a Python library for automating browsers such as Chrome and Firefox.
-For example:
+## Downloads
+> [!NOTE]
+> Helium is still in beta, so unexpected issues may occur. We are not responsible
+for any damage caused by usage of beta software.
 
-![Helium Demo](docs/helium-demo.gif)
+Best way to download Helium is to open [helium.computer](https://helium.computer/) on your computer.
+It'll pick the right build for your OS and architecture automatically.
 
-## Installation
+If you wish to download builds "straight from the tap" with all options in one place,
+you can do it on GitHub in the Releases section in each platform's repo:
+- [macOS](https://github.com/imputnet/helium-macos/releases/latest)
+- [Linux](https://github.com/imputnet/helium-linux/releases/latest) (AppImage)
+- [Windows](https://github.com/imputnet/helium-windows/releases/latest) (no auto-updates yet)
 
-To get started with Helium, you need Python 3 and Chrome or Firefox.
+## Platform packaging
+Helium is available on all major desktop platforms, with entirety of source code
+for all of them published here:
+- [Helium for macOS](https://github.com/imputnet/helium-macos)
+- [Helium for Linux](https://github.com/imputnet/helium-linux)
+- [Helium for Windows](https://github.com/imputnet/helium-windows)
 
-I would recommend creating a virtual environment. This lets you install Helium
-for just your current project, instead of globally on your whole computer.
+## Other Helium repos
+Along with the main repo and platform packaging, these projects are also a part of Helium:
+- [Helium services](https://github.com/imputnet/helium-services)
+- [Helium onboarding](https://github.com/imputnet/helium-onboarding) (the onboarding page seen in Helium at `helium://setup`)
+- [uBlock Origin packaging](https://github.com/imputnet/ublock-origin-crx)
 
-To create and activate a virtual environment, type the following commands into
-a command prompt window:
+## Credits
+### ungoogled-chromium
+Helium is proudly based on [ungoogled-chromium](https://github.com/ungoogled-software/ungoogled-chromium).
+It wouldn't be possible for us to get rid of Google's bloat and get a development+building pipeline this fast without it.
+Huge shout-out to everyone behind this amazing project!
+(and we intend to contribute even more stuff upstream in the future)
 
-```bash
-python3 -m venv venv
-# On Mac/Linux:
-source venv/bin/activate
-# On Windows:
-call venv\scripts\activate.bat
-```
-Then, you can install Helium with `pip`:
+### The Chromium project
+[The Chromium Project](https://www.chromium.org/) is obviously at the core of Helium,
+making it possible to exist in the first place.
 
-```bash
-python -m pip install helium
-```
+### ungoogled-chromium's dependencies
+- [Inox patchset](https://github.com/gcarq/inox-patchset)
+- [Debian](https://tracker.debian.org/pkg/chromium-browser)
+- [Bromite](https://github.com/bromite/bromite)
+- [Iridium Browser](https://iridiumbrowser.de/)
 
-Now enter `python` into the command prompt and (for instance) the commands in
-the animation at the top of this page (`from helium import *`, ...).
+## License
+All code, patches, modified portions of imported code or patches, and
+any other content that is unique to Helium and not imported from other
+repositories is licensed under GPL-3.0. See [LICENSE](LICENSE).
 
-## Your first script
+Any content imported from other projects retains its original license (for
+example, any original unmodified code imported from ungoogled-chromium remains
+licensed under their [BSD 3-Clause license](LICENSE.ungoogled_chromium)).
 
-I've compiled a [cheatsheet](docs/cheatsheet.md) that quickly teaches you all
-you need to know to be productive with Helium.
-
-## Connection to Selenium
-
-Under the hood, Helium forwards each call to Selenium. The difference is that
-Helium's API is much more high-level. In Selenium, you need to use HTML IDs,
-XPaths and CSS selectors to identify web page elements. Helium on the other hand
-lets you refer to elements by user-visible labels. As a result, Helium scripts
-are typically 30-50% shorter than similar Selenium scripts. What's more, they
-are easier to read and more stable with respect to changes in the underlying web
-page.
-
-Because Helium is simply a wrapper around Selenium, you can freely mix the two
-libraries. For example:
-
-```python
-# A Helium function:
-driver = start_chrome()
-# A Selenium API:
-driver.execute_script("alert('Hi!');")
-```
-
-So in other words, you don't lose anything by using Helium over pure Selenium.
-
-In addition to its more high-level API, Helium simplifies further tasks that are
-traditionally painful in Selenium:
-
-- **iFrames:** Unlike Selenium, Helium lets you interact with elements inside
-  nested iFrames, without having to first "switch to" the iFrame.
-- **Window management.** Helium notices when popups open or close and focuses /
-  defocuses them like a user would. You can also easily switch to a window by
-  (parts of) its title. No more having to iterate over Selenium window handles.
-- **Implicit waits.** By default, if you try click on an element with Selenium
-  and that element is not yet present on the page, your script fails. Helium by
-  default waits up to 10 seconds for the element to appear.
-- **Explicit waits.** Helium gives you a much nicer API for waiting for a
-  condition on the web page to become true. For example: To wait for an element
-  to appear in Selenium, you would write:
-  ```python
-  element = WebDriverWait(driver, 10).until(
-      EC.presence_of_element_located((By.ID, "myDynamicElement"))
-  )
-  ```
-  With Helium, you can write:
-  ```python
-  wait_until(Button('Download').exists)
-  ```
-
-## Status of this project
-
-I have too little spare time to maintain this project for free. If you'd like
-my help, please go to my [web site](http://herrmann.io) to ask about my
-consulting rates. Otherwise, unless it is very easy for me, I will usually not
-respond to emails or issues on the issue tracker. I will however accept and
-merge PRs. So if you add some functionality to Helium that may be useful for
-others, do share it with us by creating a Pull Request. For instructions, please
-see [Contributing](#Contributing) below.
-
-## How you can help
-
-I find Helium extremely useful in my own projects and feel it should be more
-widely known. Here's how you can help with this:
-
-- Star this project on GitHub.
-- Tell your friends and colleagues about it.
-- [Share it on Twitter with one click](https://twitter.com/intent/tweet?text=I%20find%20Helium%20very%20useful%20for%20web%20automation%20with%20Python%3A%20https%3A//github.com/mherrmann/helium)
-- Share it on other social media
-- Write a blog post about Helium.
-
-With this, I think we can eventually make Helium the de-facto standard for web
-automation in Python.
-
-## Contributing
-
-Pull Requests are very welcome. Please follow the same coding conventions as the
-rest of the code, in particular the use of tabs over spaces. Also, read through my
-[PR guidelines](https://gist.github.com/mherrmann/5ce21814789152c17abd91c0b3eaadca).
-Doing this will save you (and me) unnecessary effort.
-
-Before you submit a PR, ensure that the tests still work:
-
-```bash
-pip install -Ur requirements/test.txt
-python setup.py test
-```
-
-This runs the tests against Chrome. To run them against Firefox, set the
-environment variable `TEST_BROWSER` to `firefox`. Eg. on Mac/Linux:
-
-```bash
-TEST_BROWSER=firefox python setup.py test
-```
-
-On Windows:
-
-```bash
-set TEST_BROWSER=firefox
-python setup.py test
-```
-
-If you do add new functionality, you should also add tests for it. Please see
-the [`tests/`](tests) directory for what this might look like.
-
-## History
-
-I (Michael Herrmann) originally developed Helium in 2013 for a Polish IT startup
-called BugFree software. (It could be that you have seen Helium before at
-https://heliumhq.com.) We shut down the company at the end of 2019 and I felt it
-would be a shame if Helium simply disappeared from the face of the earth. So I
-invested some time to modernize it and bring it into a state suitable for open
-source.
-
-Helium used to be available for both Java and Python. But because I now only
-use it from Python, I didn't have time to bring the Java implementation up to
-speed as well. Similarly for Internet Explorer: Helium used to support it, but
-since I have no need for it, I removed the (probably broken) old implementation.
-
-The name Helium was chosen because it is also a chemical element like Selenium,
-but it is lighter.
+## More documentation (soon)
+> [!NOTE]
+> We will add more documentation along with design and motivation guidelines in the future.
+All docs will be linked here along with other related content.

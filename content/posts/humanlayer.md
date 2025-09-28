@@ -1,9 +1,9 @@
 ---
 title: humanlayer
-date: 2025-09-27T12:20:39+08:00
+date: 2025-09-28T12:20:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756260897470-f5b9f4af80c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg5NDY4MTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756260897470-f5b9f4af80c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg5NDY4MTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756547275349-7c7d668f3ce3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756547275349-7c7d668f3ce3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
 ---
 
 # [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer)
@@ -45,17 +45,11 @@ Built on Claude Code. Open source. Scale from your laptop to your entire team.
 
 ---
 
-## Superhuman for Claude Code
+- **Superhuman for Claude Code** - Keyboard-first workflows designed for builders who value speed and control.
 
-Keyboard-first workflows designed for builders who value speed and control.
+- **Advanced Context Engineering** - Scale AI-first dev to your entire team, without devolving into a chaotic slop-fest.
 
-## Advanced Context Engineering
-
-Scale AI-first dev to your entire team, without devolving into a chaotic slop-fest.
-
-## M U L T I C L A U D E
-
-Run Claude Code sessions in parallel. Worktrees? Done. Remote cloud workers? You got it.
+- **M U L T I C L A U D E** - Run Claude Code sessions in parallel. Worktrees? Done. Remote cloud workers? You got it.
 
 ---
 
@@ -68,8 +62,6 @@ Run Claude Code sessions in parallel. Worktrees? Done. Remote cloud workers? You
 ## From the team that brought you "Context Engineering"
 
 Leading experts on getting the most out of today's models.
-
-### 📚 Resources
 
 #### [Advanced Context Engineering for Coding Agents](https://github.com/humanlayer/humanlayer)
 This talk, given at YC on August 20th, 2025 lays out the groundwork for using AI to solve hard problems in complex codebases.
@@ -106,6 +98,7 @@ HumanLayer's expert engineers will ship in the trenches with you and your team u
 
 ```bash
 # Coming soon - join the waitlist for early access
+npx humanlayer join-waitlist --email ...
 ```
 
 ---

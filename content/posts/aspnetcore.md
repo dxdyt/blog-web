@@ -1,9 +1,9 @@
 ---
 title: aspnetcore
-date: 2025-02-06T12:19:43+08:00
+date: 2025-09-28T12:22:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1736319551652-4378fc7f9502?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1736319551652-4378fc7f9502?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg4MTU1NDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757323149605-3577791598ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757323149605-3577791598ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
 ---
 
 # [dotnet/aspnetcore](https://github.com/dotnet/aspnetcore)
@@ -60,14 +60,14 @@ This table includes links to download the latest builds of the ASP.NET Core Shar
 
 | Platform | Shared Framework (Installer) | Shared Framework (Binaries) | Hosting Bundle (Installer) |
 | :--------- | :----------: | :----------: | :----------: |
-| **Windows x64** | [Installer](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-win-x64.exe) | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-win-x64.zip) | [Installer](https://aka.ms/dotnet/9.0/daily/dotnet-hosting-win.exe) |
-| **Windows x86** | [Installer](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-win-x86.exe) | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-win-x86.zip) | [Installer](https://aka.ms/dotnet/9.0/daily/dotnet-hosting-win.exe) |
-| **Windows arm64** | [Installer](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-win-arm64.exe) | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-win-arm64.zip) | [Installer](https://aka.ms/dotnet/9.0/daily/dotnet-hosting-win.exe) |
-| **macOS x64** | **N/A** | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-osx-x64.tar.gz) | **N/A** |
-| **macOS arm64** | **N/A** | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-osx-arm64.tar.gz) | **N/A** |
-| **Linux x64** | [Deb Installer](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-x64.deb) - [RPM Installer](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-x64.rpm) | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-linux-x64.tar.gz) | **N/A** |
-| **Linux arm** | **N/A** | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-linux-arm.tar.gz) | **N/A** |
-| **Linux arm64** | [RPM Installer](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-aarch64.rpm) | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-linux-arm64.tar.gz) | **N/A** |
-| **Linux-musl-x64** | **N/A** | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-linux-musl-x64.tar.gz) | **N/A** |
-| **Linux-musl-arm** | **N/A** | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-linux-musl-arm.tar.gz) | **N/A** |
-| **Linux-musl-arm64** | **N/A** | [Binaries](https://aka.ms/dotnet/9.0/daily/aspnetcore-runtime-linux-musl-arm64.tar.gz) | **N/A** |
+| **Windows x64** | [Installer](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-win-x64.exe) | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-win-x64.zip) | [Installer](https://aka.ms/dotnet/10.0/daily/dotnet-hosting-win.exe) |
+| **Windows x86** | [Installer](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-win-x86.exe) | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-win-x86.zip) | [Installer](https://aka.ms/dotnet/10.0/daily/dotnet-hosting-win.exe) |
+| **Windows arm64** | [Installer](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-win-arm64.exe) | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-win-arm64.zip) | [Installer](https://aka.ms/dotnet/10.0/daily/dotnet-hosting-win.exe) |
+| **macOS x64** | **N/A** | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-osx-x64.tar.gz) | **N/A** |
+| **macOS arm64** | **N/A** | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-osx-arm64.tar.gz) | **N/A** |
+| **Linux x64** | [Deb Installer](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-x64.deb) - [RPM Installer](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-x64.rpm) | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-linux-x64.tar.gz) | **N/A** |
+| **Linux arm** | **N/A** | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-linux-arm.tar.gz) | **N/A** |
+| **Linux arm64** | [RPM Installer](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-aarch64.rpm) | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-linux-arm64.tar.gz) | **N/A** |
+| **Linux-musl-x64** | **N/A** | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-linux-musl-x64.tar.gz) | **N/A** |
+| **Linux-musl-arm** | **N/A** | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-linux-musl-arm.tar.gz) | **N/A** |
+| **Linux-musl-arm64** | **N/A** | [Binaries](https://aka.ms/dotnet/10.0/daily/aspnetcore-runtime-linux-musl-arm64.tar.gz) | **N/A** |

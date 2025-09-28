@@ -1,9 +1,9 @@
 ---
 title: awesome-ai-agents
-date: 2025-08-09T12:29:30+08:00
+date: 2025-09-28T12:22:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753007644848-78eda6802c98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753007644848-78eda6802c98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758039205082-256c2fde63bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758039205082-256c2fde63bb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
 ---
 
 # [e2b-dev/awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)

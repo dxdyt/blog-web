@@ -1,9 +1,9 @@
 ---
 title: memvid
-date: 2025-09-26T12:22:12+08:00
+date: 2025-09-28T12:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756260897483-7cfc313b7534?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756260897483-7cfc313b7534?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742243305559-5cec96837532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742243305559-5cec96837532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkwMzMyMTN8&ixlib=rb-4.1.0
 ---
 
 # [Olow304/memvid](https://github.com/Olow304/memvid)
