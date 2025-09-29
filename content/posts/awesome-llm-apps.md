@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-09-15T12:22:17+08:00
+date: 2025-09-29T12:22:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755826525115-40dc08fcd1db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755826525115-40dc08fcd1db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc5MTAwOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753454116069-a4fba9e75e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753454116069-a4fba9e75e4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -231,9 +231,6 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 
 4. **Follow the project-specific instructions** in each project's `README.md` file to set up and run the app.
 
-## 🤝 Contributing to Open Source
-
-Contributions are welcome! If you have any ideas, improvements, or new apps to add, please create a new [GitHub Issue](https://github.com/Shubhamsaboo/awesome-llm-apps/issues) or submit a pull request. Make sure to follow the existing project structure and include a detailed `README.md` for each new app.
 
 ### <img src="https://cdn.simpleicons.org/github"  alt="github logo" width="25" height="20"> Thank You, Community, for the Support! 🙏
 

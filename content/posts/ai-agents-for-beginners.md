@@ -1,9 +1,9 @@
 ---
 title: ai-agents-for-beginners
-date: 2025-09-11T12:21:24+08:00
+date: 2025-09-29T12:23:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755789959367-219d3e7d37c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755789959367-219d3e7d37c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758801304964-417e328be877?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758801304964-417e328be877?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/ai-agents-for-beginners](https://github.com/microsoft/ai-agents-for-beginners)
@@ -95,7 +95,7 @@ Do you have suggestions or found spelling or code errors? [Raise an issue](https
 | AI Agents in Production                      | [Link](./10-ai-agents-production/README.md)        | [Video](https://youtu.be/l4TP6IyJxmQ?si=31dnhexRo6yLRJDl)  | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | Using Agentic Protocols (MCP, A2A and NLWeb) | [Link](./11-agentic-protocols/README.md)           | [Video](https://youtu.be/X-Dh9R3Opn8)                                 | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
 | Context Engineering for AI Agents            | [Link](./12-context-engineering/README.md)         | [Video](https://youtu.be/F5zqRV7gEag)                                 | [Link](https://aka.ms/ai-agents-beginners/collection?WT.mc_id=academic-105485-koreyst) |
-| Managing Agentic Memory                      | Coming - September 11th                            |                                                            |                                                                                        |
+| Managing Agentic Memory                      | [Link](./13-agent-memory/README.md)     |                                                            |                                                                                        |
 | Evaluating AI Agents                         | Coming - September 18th                            |                                                            |                                                                                        |
 | Building Computer Use Agents (CUA)           | Coming - September 25th                            |                                                            |                                                                                        |
 | Deploying Scalable Agents                    | Coming - September 25th                            |                                                            |                                                                                        |
