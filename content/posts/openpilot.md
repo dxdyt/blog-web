@@ -1,9 +1,9 @@
 ---
 title: openpilot
-date: 2025-09-29T12:22:02+08:00
+date: 2025-09-30T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757288354945-2febda82e26d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757288354945-2febda82e26d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758810744863-8d88c48d3fbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758810744863-8d88c48d3fbf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
 ---
 
 # [commaai/openpilot](https://github.com/commaai/openpilot)

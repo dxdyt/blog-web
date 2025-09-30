@@ -1,9 +1,9 @@
 ---
 title: erpnext
-date: 2025-09-29T12:23:12+08:00
+date: 2025-09-30T12:22:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756058811187-6cfc539fdfa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756058811187-6cfc539fdfa6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkxMTk3MTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756641964889-5a04b6e0f4f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756641964889-5a04b6e0f4f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
 ---
 
 # [frappe/erpnext](https://github.com/frappe/erpnext)

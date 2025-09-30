@@ -1,9 +1,9 @@
 ---
 title: hugo-PaperMod
-date: 2024-11-12T12:20:27+08:00
+date: 2025-09-30T12:22:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1729472970412-748cf0b98048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1729472970412-748cf0b98048?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzEzODUxMzB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1756407005570-4b463b7dfdac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756407005570-4b463b7dfdac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
 ---
 
 # [adityatelange/hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod)
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1729472970412-748cf0b980
 **ExampleSite** can be found here: [**exampleSite**](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite). Demo is built up with [exampleSite](https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite) as source.
 
 [![hugo-papermod](https://img.shields.io/badge/Hugo--Themes-@PaperMod-blue)](https://themes.gohugo.io/themes/hugo-papermod/)
-[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.125.7&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.125.7)
+[![Minimum Hugo Version](https://img.shields.io/static/v1?label=min-HUGO-version&message=>=v0.146.0&color=blue&logo=hugo)](https://github.com/gohugoio/hugo/releases/tag/v0.146.0)
 [![Discord](https://img.shields.io/discord/971046860317921340?label=Discord&logo=discord)](https://discord.gg/ahpmTvhVmp)
 [![GitHub](https://img.shields.io/github/license/adityatelange/hugo-PaperMod)](https://github.com/adityatelange/hugo-PaperMod/blob/master/LICENSE)
 ![code-size](https://img.shields.io/github/languages/code-size/adityatelange/hugo-PaperMod)
