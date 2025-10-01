@@ -1,9 +1,9 @@
 ---
 title: claude-code
-date: 2025-07-17T12:37:31+08:00
+date: 2025-10-01T12:22:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750544684752-6fbda794b181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750544684752-6fbda794b181?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI3MjcwMDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755502046551-102bcdc6f0c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755502046551-102bcdc6f0c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-code](https://github.com/anthropics/claude-code)
@@ -34,15 +34,17 @@ npm install -g @anthropic-ai/claude-code
 
 We welcome your feedback. Use the `/bug` command to report issues directly within Claude Code, or file a [GitHub issue](https://github.com/anthropics/claude-code/issues).
 
+## Connect on Discord
+
+Join the [Claude Developers Discord](https://anthropic.com/discord) to connect with other developers using Claude Code. Get help, share feedback, and discuss your projects with the community.
+
 ## Data collection, usage, and retention
 
 When you use Claude Code, we collect feedback, which includes usage data (such as code acceptance or rejections), associated conversation data, and user feedback submitted via the `/bug` command.
 
 ### How we use your data
 
-We may use feedback to improve our products and services, but we will not train generative models using your feedback from Claude Code. Given their potentially sensitive nature, we store user feedback transcripts for only 30 days.
-
-If you choose to send us feedback about Claude Code, such as transcripts of your usage, Anthropic may use that feedback to debug related issues and improve Claude Code's functionality (e.g., to reduce the risk of similar bugs occurring in the future).
+See our [data usage policies](https://docs.anthropic.com/en/docs/claude-code/data-usage).
 
 ### Privacy safeguards
 

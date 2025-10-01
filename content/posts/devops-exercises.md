@@ -1,9 +1,9 @@
 ---
 title: devops-exercises
-date: 2025-07-06T12:32:39+08:00
+date: 2025-10-01T12:22:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751510288463-1a3be4f0e6a0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE3NzYzMDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757444838044-d9dcb1bb3017?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757444838044-d9dcb1bb3017?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
 ---
 
 # [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
@@ -1129,7 +1129,7 @@ With <code>var x int = 2</code> we are setting the variable type to integer whil
 <details>
 <summary>True or False? In Go we can redeclare variables and once declared we must use it.</summary>
 
-False. We can't redeclare variables but yes, we must used declared variables.
+False. We can't redeclare variables but yes, we must use declared variables.
 </b></details>
 
 <details>

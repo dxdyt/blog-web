@@ -1,9 +1,9 @@
 ---
 title: MoneyPrinterTurbo
-date: 2025-09-30T12:21:37+08:00
+date: 2025-10-01T12:20:29+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752968940222-ff81d4f3cd6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752968940222-ff81d4f3cd6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755502046551-102bcdc6f0c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755502046551-102bcdc6f0c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
 ---
 
 # [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)

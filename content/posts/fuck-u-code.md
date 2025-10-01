@@ -1,9 +1,9 @@
 ---
 title: fuck-u-code
-date: 2025-09-30T12:22:05+08:00
+date: 2025-10-01T12:21:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754475138610-ae2b985b49d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754475138610-ae2b985b49d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyMDYwODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753060152083-7ae405c3e524?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753060152083-7ae405c3e524?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
 ---
 
 # [Done-0/fuck-u-code](https://github.com/Done-0/fuck-u-code)
