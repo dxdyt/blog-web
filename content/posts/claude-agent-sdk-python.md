@@ -1,9 +1,9 @@
 ---
 title: claude-agent-sdk-python
-date: 2025-10-01T12:21:12+08:00
+date: 2025-10-02T12:20:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757323149137-99e56fa4bfea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757323149137-99e56fa4bfea?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkyOTI0MjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757167301209-5c32b26380ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkzNzg4MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757167301209-5c32b26380ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkzNzg4MjZ8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-agent-sdk-python](https://github.com/anthropics/claude-agent-sdk-python)
