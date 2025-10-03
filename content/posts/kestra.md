@@ -1,9 +1,9 @@
 ---
 title: kestra
-date: 2025-09-06T12:21:28+08:00
+date: 2025-10-03T12:22:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755398105541-2b7dd65d12ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755398105541-2b7dd65d12ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTcxMzI0MDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757530592693-eddd9a1f3f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757530592693-eddd9a1f3f5a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
 ---
 
 # [kestra-io/kestra](https://github.com/kestra-io/kestra)
@@ -43,10 +43,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1755398105541-2b7dd65d12
 
 <p align="center">
     <a href="https://go.kestra.io/video/product-overview" target="_blank">
-        <img src="https://kestra.io/startvideo.png" alt="Get started in 4 minutes with Kestra" width="640px" />
+        <img src="https://kestra.io/startvideo.png" alt="Get started in 3 minutes with Kestra" width="640px" />
     </a>
 </p>
-<p align="center" style="color:grey;"><i>Click on the image to learn how to get started with Kestra in 4 minutes.</i></p>
+<p align="center" style="color:grey;"><i>Click on the image to learn how to get started with Kestra in 3 minutes.</i></p>
 
 
 ## 🌟 What is Kestra?

@@ -1,9 +1,9 @@
 ---
 title: immich
-date: 2025-09-10T12:22:02+08:00
+date: 2025-10-03T12:21:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755418486214-03c643b55f23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755418486214-03c643b55f23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756573201723-cd5ff604a491?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756573201723-cd5ff604a491?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
 ---
 
 # [immich-app/immich](https://github.com/immich-app/immich)
@@ -48,26 +48,25 @@ featuredImagePreview: https://images.unsplash.com/photo-1755418486214-03c643b55f
   <a href="readme_i18n/README_th_TH.md">ภาษาไทย</a>
 </p>
 
-## Disclaimer
 
-- ⚠️ The project is under **very active** development.
-- ⚠️ Expect bugs and breaking changes.
-- ⚠️ **Do not use the app as the only way to store your photos and videos.**
-- ⚠️ Always follow [3-2-1](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/) backup plan for your precious photos and videos!
+> [!WARNING]
+> ⚠️ Always follow [3-2-1](https://www.backblaze.com/blog/the-3-2-1-backup-strategy/) backup plan for your precious photos and videos!
+> 
+ 
 
 > [!NOTE]
 > You can find the main documentation, including installation guides, at https://immich.app/.
 
 ## Links
 
-- [Documentation](https://immich.app/docs)
-- [About](https://immich.app/docs/overview/introduction)
-- [Installation](https://immich.app/docs/install/requirements)
+- [Documentation](https://docs.immich.app/)
+- [About](https://docs.immich.app/overview/introduction)
+- [Installation](https://docs.immich.app/install/requirements)
 - [Roadmap](https://immich.app/roadmap)
 - [Demo](#demo)
 - [Features](#features)
-- [Translations](https://immich.app/docs/developer/translations)
-- [Contributing](https://immich.app/docs/overview/support-the-project)
+- [Translations](https://docs.immich.app/developer/translations)
+- [Contributing](https://docs.immich.app/overview/support-the-project)
 
 ## Demo
 
@@ -116,7 +115,7 @@ Access the demo [here](https://demo.immich.app). For the mobile app, you can use
 
 ## Translations
 
-Read more about translations [here](https://immich.app/docs/developer/translations).
+Read more about translations [here](https://docs.immich.app/developer/translations).
 
 <a href="https://hosted.weblate.org/engage/immich/">
 <img src="https://hosted.weblate.org/widget/immich/immich/multi-auto.svg" alt="Translation status" />

@@ -1,9 +1,9 @@
 ---
 title: awesome-n8n-templates
-date: 2025-08-19T12:22:19+08:00
+date: 2025-10-03T12:22:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753660461288-f21f587970da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753660461288-f21f587970da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTU1NzcyOTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758754169722-620d36fcb76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758754169722-620d36fcb76b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
 ---
 
 # [enescingoz/awesome-n8n-templates](https://github.com/enescingoz/awesome-n8n-templates)
@@ -351,3 +351,4 @@ If you would like to contribute additional templates or suggest new categories, 
 
 ### **Sponsors**
 - [mahezsh](https://github.com/mahezsh)
+- [Dumpling AI](https://github.com/Dumpling-AI)

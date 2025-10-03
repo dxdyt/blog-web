@@ -1,9 +1,9 @@
 ---
 title: pathway
-date: 2025-09-10T12:21:27+08:00
+date: 2025-10-03T12:20:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755418486214-03c643b55f23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755418486214-03c643b55f23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758887371504-6473fa9ff96b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758887371504-6473fa9ff96b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
 ---
 
 # [pathwaycom/pathway](https://github.com/pathwaycom/pathway)
@@ -81,7 +81,7 @@ With its unified engine for batch and streaming and its full Python compatibilit
 
 - [Showcase: Real-time ETL.](https://pathway.com/developers/templates/kafka-etl)
 - [Showcase: Event-driven pipelines with alerting.](https://pathway.com/developers/templates/realtime-log-monitoring)
-- [Showcase: Realtime analytics.](https://pathway.com/developers/templates/linear_regression_with_kafka/)
+- [Showcase: Realtime analytics.](https://pathway.com/developers/templates/linear_regression_with_kafka)
 - [Docs: Switch from batch to streaming.](https://pathway.com/developers/user-guide/connecting-to-data/switch-from-batch-to-streaming)
 
 
@@ -93,7 +93,7 @@ Pathway provides dedicated LLM tooling to build live LLM and RAG pipelines. Wrap
 Don't hesitate to try one of our runnable examples featuring LLM tooling.
 You can find such examples [here](https://pathway.com/developers/user-guide/llm-xpack/llm-examples).
 
-  - [Template: Unstructured data to SQL on-the-fly.](https://pathway.com/developers/templates/unstructured-to-structured/)
+  - [Template: Unstructured data to SQL on-the-fly.](https://pathway.com/developers/templates/unstructured-to-structured)
   - [Template: Private RAG with Ollama and Mistral AI](https://pathway.com/developers/templates/private-rag-ollama-mistral)
   - [Template: Adaptive RAG](https://pathway.com/developers/templates/adaptive-rag)
   - [Template: Multimodal RAG with gpt-4o](https://pathway.com/developers/templates/multimodal-rag)
