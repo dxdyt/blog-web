@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-09-10T12:20:13+08:00
+date: 2025-10-04T12:20:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755429518361-1d6060edcf3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755868679492-a708c7626971?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755868679492-a708c7626971?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -77,7 +77,9 @@ await agent.create_guideline(
 )
 ```
 
-[✅ Blog: How Parlant Ensures Agent Compliance](https://www.parlant.io/blog/how-parlant-guarantees-compliance)
+- ✅ [Blog: How Parlant Ensures Agent Compliance](https://www.parlant.io/blog/how-parlant-guarantees-compliance)
+- 🆚 [Blog: Parlant vs DSPy](https://www.parlant.io/blog/parlant-vs-dspy)
+
 
 #### Parlant gives you all the structure you need to build customer-facing agents that behave exactly as your business requires:
 

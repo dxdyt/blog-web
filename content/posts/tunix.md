@@ -1,9 +1,9 @@
 ---
 title: tunix
-date: 2025-10-03T12:20:42+08:00
+date: 2025-10-04T12:19:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755289445750-71c381bfc8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755289445750-71c381bfc8e4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754769440490-2eb64d715775?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754769440490-2eb64d715775?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
 ---
 
 # [google/tunix](https://github.com/google/tunix)

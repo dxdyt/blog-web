@@ -1,9 +1,9 @@
 ---
 title: server
-date: 2025-10-03T12:20:35+08:00
+date: 2025-10-04T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756573201723-cd5ff604a491?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756573201723-cd5ff604a491?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758563949135-b57f9618a1fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758563949135-b57f9618a1fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
 ---
 
 # [nextcloud/server](https://github.com/nextcloud/server)

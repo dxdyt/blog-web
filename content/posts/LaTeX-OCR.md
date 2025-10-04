@@ -1,9 +1,9 @@
 ---
 title: LaTeX-OCR
-date: 2025-10-02T12:21:39+08:00
+date: 2025-10-04T12:21:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756669086471-58531cdeb0c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkzNzg4MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756669086471-58531cdeb0c7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkzNzg4MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758563949135-b57f9618a1fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758563949135-b57f9618a1fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
 ---
 
 # [lukas-blecher/LaTeX-OCR](https://github.com/lukas-blecher/LaTeX-OCR)

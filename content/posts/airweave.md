@@ -1,47 +1,54 @@
 ---
 title: airweave
-date: 2025-05-16T12:23:37+08:00
+date: 2025-10-04T12:20:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746713915201-4eed01ca887a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746713915201-4eed01ca887a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDczNjkzNjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1754769440490-2eb64d715775?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1754769440490-2eb64d715775?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
 ---
 
 # [airweave-ai/airweave](https://github.com/airweave-ai/airweave)
 
-<img width="1673" alt="airweave-lettermark" style="padding-bottom: 12px;" src="https://github.com/user-attachments/assets/e79a9af7-2e93-4888-9cf4-0f700f19fe05"/>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="frontend/public/logo-airweave-darkbg.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="frontend/public/logo-airweave-lightbg.svg"/>
+  <img width="1673" alt="airweave-lettermark" style="padding-bottom: 12px;" src="frontend/public/logo-airweave-darkbg.svg"/>
+</picture>
 
 <div align="center">
+
+# Make Any App Searchable for AI Agents
 
 [![Ruff](https://github.com/airweave-ai/airweave/actions/workflows/ruff.yml/badge.svg)](https://github.com/airweave-ai/airweave/actions/workflows/ruff.yml)
 [![ESLint](https://github.com/airweave-ai/airweave/actions/workflows/eslint.yml/badge.svg)](https://github.com/airweave-ai/airweave/actions/workflows/eslint.yml)
-[![Backend Tests](https://github.com/airweave-ai/airweave/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/airweave-ai/airweave/actions/workflows/tests.yml)
+[![System Tests](https://github.com/airweave-ai/airweave/actions/workflows/test-public-api.yml/badge.svg)](https://github.com/airweave-ai/airweave/actions/workflows/test-public-api.yml)
 [![Codecov](https://codecov.io/gh/airweave-ai/airweave/branch/main/graph/badge.svg)](https://codecov.io/gh/airweave-ai/airweave)
-[![Discord](https://img.shields.io/discord/1323415085011701870?label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.com/invite/484HY9Ehxt)
+[![Discord](https://img.shields.io/discord/1323415085011701870?label=Discord&logo=discord&logoColor=white&style=flat-square)](https://discord.gg/gDuebsWGkn)
 <br>
-<a href="https://trendshift.io/repositories/13748" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13748" alt="airweave-ai%2Fairweave | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<div style="padding-top: 16px;">
+<a href="https://trendshift.io/repositories/13748" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13748" alt="airweave-ai%2Fairweave | Trendshift" style="width: 250px; height: 55px; margin-right: 24px;" width="250" height="55"/></a>&nbsp;&nbsp;<a href="https://www.ycombinator.com/launches/NX7-airweave-let-agents-search-any-app" target="_blank"><img src="https://www.ycombinator.com/launches/NX7-airweave-let-agents-search-any-app/upvote_embed.svg" alt="Launch YC: Airweave - Let Agents Search Any App" style="margin-left: 12px;"/></a>
 </div>
 
-# Airweave
+<br>
 
-**Airweave is a tool that lets agents semantically search any app.** It's MCP compatible and seamlessly connects any app, database, or API, to transform their contents into agent-ready knowledge.
-
-<div align="center">
-  
-### 🎥 Watch Demo
-
-https://github.com/user-attachments/assets/abdf85cb-a8f5-4b6c-b5a3-d4b5177e6bda
+⭐ **Help us reach more developers and grow the Airweave community. Star this repo!**
 
 </div>
 
 ## Overview
 
-Airweave simplifies the process of making information retrievable for your agent. Whether you have structured or unstructured data, Airweave helps you break it into processable entities, store the data and make it retrievable through REST and MCP endpoints.
+**Airweave is a tool that lets agents search any app.** It connects to apps, productivity tools, databases, or document stores and transforms their contents into searchable knowledge bases, accessible through a standardized interface for agents.
+
+The search interface is exposed via REST API or MCP. When using MCP, Airweave essentially builds a semantically searchable MCP server. The platform handles everything from auth and extraction to embedding and serving.
+
+📺 Check out the quick demo below:
+
+<video width="100%" src="https://github.com/user-attachments/assets/995e4a36-3f88-4d8e-b401-6ca43db0c7bf" controls></video>
+
+[**🔗 Example notebooks**](https://github.com/airweave-ai/airweave/tree/main/examples)
 
 ## Table of Contents
 
 - [Airweave](#airweave)
-    - [🎥 Watch Demo](#-watch-demo)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
   - [🚀 Quick Start](#-quick-start)
@@ -53,13 +60,16 @@ Airweave simplifies the process of making information retrievable for your agent
     - [Python](#python)
     - [TypeScript/JavaScript](#typescriptjavascript)
   - [🔑 Key Features](#-key-features)
-  - [🔧 Technology Stack](#-technology-stack)
-  - [🛣️ Roadmap](#️-roadmap)
+  - [🔧 Technology Stack](#-tech-stack)
   - [👥 Contributing](#-contributing)
   - [📄 License](#-license)
   - [🔗 Connect](#-connect)
 
 ## 🚀 Quick Start
+
+### Managed Service: [Airweave Cloud](https://app.airweave.ai/)
+
+### Self-hosted:
 
 Make sure docker and docker-compose are installed, then...
 
@@ -81,11 +91,9 @@ That's it! Access the dashboard at http://localhost:8080
 
 <p align="center">
   <div style="display: inline-block; text-align: center; padding: 4px;">
-    <img src="frontend/src/components/icons/apps/asana.svg" alt="Asana" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/calendly.svg" alt="Calendly" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/chat-gpt.svg" alt="Chat-gpt" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/clickup.svg" alt="Clickup" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/confluence.svg" alt="Confluence" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/dropbox.svg" alt="Dropbox" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/elasticsearch.svg" alt="Elasticsearch" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/facebook.svg" alt="Facebook" width="40" height="40" style="margin: 4px; padding: 2px;" />
-    <img src="frontend/src/components/icons/apps/github.svg" alt="Github" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/gmail.svg" alt="Gmail" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/google_calendar.svg" alt="Google Calendar" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/google_drive.svg" alt="Google Drive" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/hubspot.svg" alt="Hubspot" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/intercom.svg" alt="Intercom" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/jira.svg" alt="Jira" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/linear.svg" alt="Linear" width="40" height="40" style="margin: 4px; padding: 2px;" />
-    <img src="frontend/src/components/icons/apps/linkedin.svg" alt="Linkedin" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/mailchimp.svg" alt="Mailchimp" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/monday.svg" alt="Monday" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/mysql.svg" alt="Mysql" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/notion.svg" alt="Notion" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/onedrive.svg" alt="Onedrive" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/oracle.svg" alt="Oracle" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/outlook_calendar.svg" alt="Outlook Calendar" width="40" height="40" style="margin: 4px; padding: 2px;" />
-    <img src="frontend/src/components/icons/apps/outlook_mail.svg" alt="Outlook Mail" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/perplexity.svg" alt="Perplexity" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/postgresql.svg" alt="Postgresql" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/salesforce.svg" alt="Salesforce" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/slack.svg" alt="Slack" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/sql_server.svg" alt="Sql Server" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/sqlite.svg" alt="Sqlite" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/stripe.svg" alt="Stripe" width="40" height="40" style="margin: 4px; padding: 2px;" />
-    <span style="width: 40px; display: inline-block; margin: 4px;"></span><span style="width: 40px; display: inline-block; margin: 4px;"></span><img src="frontend/src/components/icons/apps/todoist.svg" alt="Todoist" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/trello.svg" alt="Trello" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/whatsapp.svg" alt="Whatsapp" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/zendesk.svg" alt="Zendesk" width="40" height="40" style="margin: 4px; padding: 2px;" />
+    <img src="frontend/src/components/icons/apps/asana.svg" alt="Asana" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/bitbucket.svg" alt="Bitbucket" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/confluence.svg" alt="Confluence" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/dropbox.svg" alt="Dropbox" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/github.svg" alt="Github" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/gmail.svg" alt="Gmail" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/google_calendar.svg" alt="Google Calendar" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/google_drive.svg" alt="Google Drive" width="40" height="40" style="margin: 4px; padding: 2px;" />
+    <img src="frontend/src/components/icons/apps/hubspot.svg" alt="Hubspot" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/jira.svg" alt="Jira" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/linear.svg" alt="Linear" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/monday.svg" alt="Monday" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/notion.svg" alt="Notion" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/onedrive.svg" alt="Onedrive" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/outlook_calendar.svg" alt="Outlook Calendar" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/outlook_mail.svg" alt="Outlook Mail" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/postgresql.svg" alt="Postgresql" width="40" height="40" style="margin: 4px; padding: 2px;" />
+    <img src="frontend/src/components/icons/apps/slack.svg" alt="Slack" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/stripe.svg" alt="Stripe" width="40" height="40" style="margin: 4px; padding: 2px;" /><img src="frontend/src/components/icons/apps/todoist.svg" alt="Todoist" width="40" height="40" style="margin: 4px; padding: 2px;" />
   </div>
 </p>
 
@@ -110,23 +118,18 @@ pip install airweave-sdk
 ```
 
 ```python
-from airweave import AirweaveClient
+from airweave import AirweaveSDK
 
-client = AirweaveClient(api_key="your-api-key")
-
-# List all sources
-sources = client.sources.list()
-
-# Create a sync job
-job = client.sync.create_sync(
-  name="My first sync",
-  source_connection_id=source_id,
-  run_immediately=True
+client = AirweaveSDK(
+    api_key="YOUR_API_KEY",
+    base_url="http://localhost:8001"
+)
+client.collections.create(
+    name="name",
 )
 ```
 
 ### TypeScript/JavaScript
-
 ```bash
 npm install @airweave/sdk
 # or
@@ -134,20 +137,14 @@ yarn add @airweave/sdk
 ```
 
 ```typescript
-import { AirweaveClient } from "@airweave/sdk";
+import { AirweaveSDKClient, AirweaveSDKEnvironment } from "@airweave/sdk";
 
-const client = new AirweaveClient({
-  apiKey: "your-api-key",
+const client = new AirweaveSDKClient({
+    apiKey: "YOUR_API_KEY",
+    environment: AirweaveSDKEnvironment.Local
 });
-
-// List sources
-const sources = await client.sources.list();
-
-// Create a sync job
-const job = await client.sync.create_sync({
-  name: "My first sync",
-  source_connection_id: sourceId,
-  run_immediately: true,
+await client.collections.create({
+    name: "name",
 });
 ```
 
@@ -159,21 +156,13 @@ const job = await client.sync.create_sync({
 - **Incremental updates** using content hashing
 - **Semantic search** for agent queries
 - **Versioning** for data changes
-- **White-labeling** support for SaaS builders
 
-## 🔧 Technology Stack
+## 🔧 Tech Stack
 
 - **Frontend**: React/TypeScript with ShadCN
 - **Backend**: FastAPI (Python)
 - **Databases**: PostgreSQL (metadata), Qdrant (vectors)
 - **Deployment**: Docker Compose (dev), Kubernetes (prod)
-
-## 🛣️ Roadmap
-
-- Additional source integrations
-- Redis worker queues for large-scale syncs
-- Webhooks for event-driven syncs
-- Kubernetes support via Helm charts
 
 ## 👥 Contributing
 
