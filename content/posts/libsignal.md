@@ -1,9 +1,9 @@
 ---
 title: libsignal
-date: 2025-03-28T12:22:03+08:00
+date: 2025-10-05T12:21:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742268351424-36bfe44aacdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742268351424-36bfe44aacdb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDMxMzU2NTV8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757293266476-799d3e258ad6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757293266476-799d3e258ad6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
 ---
 
 # [signalapp/libsignal](https://github.com/signalapp/libsignal)
@@ -108,10 +108,30 @@ $ cargo +stable install --version "$(cat ../.taplo-cli-version)" --locked taplo-
 
 ## Java/Android
 
+### Toolchain Setup / Configuration
+
 To build for Android you must install several additional packages including a JDK,
 the Android NDK/SDK, and add the Android targets to the Rust compiler, using
 
 ```rustup target add armv7-linux-androideabi aarch64-linux-android i686-linux-android x86_64-linux-android```
+
+Our officially supported JDK version for Android builds is JDK 17, so be sure to install e.g. OpenJDK 17, and then point JAVA_HOME to it.
+
+You can easily do this on macOS via:
+
+```shell
+export JAVA_HOME=$(/usr/libexec/java_home -v 17)
+```
+
+On Linux, the way you do this varies by distribution. For Debian based distributions like Ubuntu, you can use:
+
+```shell
+sudo update-alternatives --config java
+```
+
+We also check-in a `.tools_version` file for use with runtime version managers.
+
+### Building and Testing
 
 To build the Java/Android ``jar`` and ``aar``, and run the tests:
 
@@ -122,7 +142,7 @@ $ ./gradlew build # if you need AAR outputs
 ```
 
 You can pass `-P debugLevelLogs` to Gradle to build without filtering out debug- and verbose-level
-logs from Rust.
+logs from Rust, and `-P jniTypeTagging` to enable additional checks in the Rust JNI bridging code.
 
 Alternately, a build system using Docker is available:
 
@@ -172,13 +192,13 @@ To learn about the Swift build process see [``swift/README.md``](swift/)
 You'll need Node installed to build. If you have [nvm][], you can run `nvm use` to select an
 appropriate version automatically.
 
-We use `npm` as our package manager, and `node-gyp` to control building the Rust library.
+We use `npm` as our package manager, and a Python script to control building the Rust library, accessible as `npm run build`.
 
 ```shell
 $ cd node
 $ nvm use
 $ npm install
-$ npx node-gyp rebuild  # clean->configure->build
+$ npm run build
 $ npm run tsc
 $ npm run test
 ```

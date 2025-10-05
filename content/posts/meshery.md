@@ -1,9 +1,9 @@
 ---
 title: meshery
-date: 2025-10-04T12:21:09+08:00
+date: 2025-10-05T12:20:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758563949135-b57f9618a1fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758563949135-b57f9618a1fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755147047358-7786e1de7061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755147047358-7786e1de7061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
 ---
 
 # [meshery/meshery](https://github.com/meshery/meshery)
@@ -92,7 +92,7 @@ A self-service engineering platform, <a href="https://meshery.io">Meshery</a>, i
 
 ## Infrastructure Lifecycle Management
 
-Meshery manages the configuration, deployment, and operation of your Cloud services and Kubernetes clusters while supporting hundreds of different types of cloud native infrastructure integrations. Meshery supports [300+ integrations](https//meshery.io/integrations).
+Meshery manages the configuration, deployment, and operation of your Cloud services and Kubernetes clusters while supporting hundreds of different types of cloud native infrastructure integrations. Meshery supports [300+ integrations](https://meshery.io/integrations).
 
 <!--
 <a href="https://www.youtube.com/watch?v=034nVaQUyME"><img alt="Meshery cloud native management" src="https://raw.githubusercontent.com/meshery/meshery/master/.github/assets/images/readme/meshmap.gif"  style="margin-left:10px; margin-bottom:10px;" width="100%" align="center" /></a>
@@ -103,7 +103,7 @@ Meshery manages the configuration, deployment, and operation of your Cloud servi
 
 Find infrastructure configuration patterns in Meshery's <a href="https://meshery.io/catalog">catalog of curated design templates</a> filled with configuration best practices.
 
-## Multiple Kubernetes Clusters and Multiple Clouds
+### Multiple Kubernetes Clusters and Multiple Clouds
 
 <img src ="https://meshery.io/assets/images/screens/multi-cluster-management.gif" width="50%" alt="Multi-cluster Kubernetes Manager" loading="lazy" align="center" /><br />
 

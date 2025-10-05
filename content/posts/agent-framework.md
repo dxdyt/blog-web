@@ -1,9 +1,9 @@
 ---
 title: agent-framework
-date: 2025-10-04T12:20:54+08:00
+date: 2025-10-05T12:22:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754172111686-89a5782b18c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754172111686-89a5782b18c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757375146427-0bc50e0ce844?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757375146427-0bc50e0ce844?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/agent-framework](https://github.com/microsoft/agent-framework)

@@ -1,9 +1,9 @@
 ---
 title: dbt-core
-date: 2024-02-16T12:16:23+08:00
+date: 2025-10-05T12:21:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1707090804669-72f8a7f3348e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDgwNTY4NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757375146427-0bc50e0ce844?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757375146427-0bc50e0ce844?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
 ---
 
 # [dbt-labs/dbt-core](https://github.com/dbt-labs/dbt-core)
@@ -15,6 +15,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1707090804669-72f8a7f334
   <a href="https://github.com/dbt-labs/dbt-core/actions/workflows/main.yml">
     <img src="https://github.com/dbt-labs/dbt-core/actions/workflows/main.yml/badge.svg?event=push" alt="CI Badge"/>
   </a>
+  <a href="https://www.bestpractices.dev/projects/11095"><img src="https://www.bestpractices.dev/projects/11095/badge"></a>
 </p>
 
 **[dbt](https://www.getdbt.com/)** enables data analysts and engineers to transform their data using the same practices that software engineers use to build applications.

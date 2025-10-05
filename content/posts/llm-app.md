@@ -1,9 +1,9 @@
 ---
 title: llm-app
-date: 2025-09-10T12:21:00+08:00
+date: 2025-10-05T12:22:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754824321161-764fb98adc71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754824321161-764fb98adc71?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc0NzgwMDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759057167410-765822087d81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759057167410-765822087d81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
 ---
 
 # [pathwaycom/llm-app](https://github.com/pathwaycom/llm-app)

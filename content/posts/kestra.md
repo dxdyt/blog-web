@@ -1,9 +1,9 @@
 ---
 title: kestra
-date: 2025-10-04T12:20:17+08:00
+date: 2025-10-05T12:20:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756916474898-a5bee9427163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756916474898-a5bee9427163?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk1NTE1Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759057167410-765822087d81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759057167410-765822087d81?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk2Mzc5ODl8&ixlib=rb-4.1.0
 ---
 
 # [kestra-io/kestra](https://github.com/kestra-io/kestra)
@@ -29,9 +29,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1756916474898-a5bee94271
 <br />
 
 <p align="center">
-    <a href="https://x.com/kestra_io"><img height="25" src="https://kestra.io/twitter.svg" alt="X(formerly Twitter)" /></a> &nbsp;
-    <a href="https://www.linkedin.com/company/kestra/"><img height="25" src="https://kestra.io/linkedin.svg" alt="linkedin" /></a> &nbsp;
-<a href="https://www.youtube.com/@kestra-io"><img height="25" src="https://kestra.io/youtube.svg" alt="youtube" /></a> &nbsp;
+  <a href="https://twitter.com/kestra_io" style="margin: 0 10px;">
+        <img height="25" src="https://kestra.io/twitter.svg" alt="twitter" width="35" height="25" /></a>
+  <a href="https://www.linkedin.com/company/kestra/" style="margin: 0 10px;">
+        <img height="25" src="https://kestra.io/linkedin.svg" alt="linkedin" width="35" height="25" /></a> 
+  <a href="https://www.youtube.com/@kestra-io" style="margin: 0 10px;">
+        <img height="25" src="https://kestra.io/youtube.svg" alt="youtube" width="35" height="25" /></a>
 </p>
 
 <p align="center">
