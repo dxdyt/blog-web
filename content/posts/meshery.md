@@ -1,9 +1,9 @@
 ---
 title: meshery
-date: 2025-10-06T12:21:08+08:00
+date: 2025-10-07T12:21:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758260759982-ba89cf5820e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758260759982-ba89cf5820e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755147047358-7786e1de7061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755147047358-7786e1de7061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [meshery/meshery](https://github.com/meshery/meshery)
@@ -61,7 +61,7 @@ A self-service engineering platform, <a href="https://meshery.io">Meshery</a>, i
 <br />
 
 <div align="center" width="100%">
-<img src=".github/assets/images/readme/meshery-dashboard-hero-image.png" width="800px" />
+<a href="https://www.youtube.com/watch?v=034nVaQUyME&list=PL3A-A6hPO2IO_yzN83wSJJUNQActzCJvO&index=9"><img src=".github/assets/images/readme/meshery-dashboard-hero-image.png" width="800px" /></a>
  <br />Try Meshery in your browser using the <a href="https://play.meshery.io">Cloud Native Playground</a> (<a href="https://www.youtube.com/watch?v=034nVaQUyME&list=PL3A-A6hPO2IO_yzN83wSJJUNQActzCJvO&index=9">teaser video</a>)
 </div>
 

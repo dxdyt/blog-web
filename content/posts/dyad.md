@@ -1,14 +1,14 @@
 ---
 title: dyad
-date: 2025-08-07T12:43:54+08:00
+date: 2025-10-07T12:24:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753298999094-83610ed6e56f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753298999094-83610ed6e56f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ1NDE4MTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758609179675-a284dc57fd7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758609179675-a284dc57fd7f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [dyad-sh/dyad](https://github.com/dyad-sh/dyad)
 
-# dyad
+# Dyad
 
 Dyad is a local, open-source AI app builder. It's fast, private, and fully under your control — like Lovable, v0, or Bolt, but running right on your machine.
 
@@ -27,6 +27,12 @@ More info at: [http://dyad.sh/](http://dyad.sh/)
 No sign-up required. Just download and go.
 
 ### [👉 Download for your platform](https://www.dyad.sh/#download)
+
+## 🤝 Community
+
+Join our growing community of AI app builders on **Reddit**: [r/dyadbuilders](https://www.reddit.com/r/dyadbuilders/) - share your projects and get help from the community!
+
+## 🛠️ Contributing
 
 **Dyad** is open-source (Apache 2.0 licensed).
 

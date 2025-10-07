@@ -1,9 +1,9 @@
 ---
 title: audacity
-date: 2025-10-06T12:22:12+08:00
+date: 2025-10-07T12:22:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758178309498-036c3d7d73b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758178309498-036c3d7d73b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756631996294-9cd16a26b192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756631996294-9cd16a26b192?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [audacity/audacity](https://github.com/audacity/audacity)

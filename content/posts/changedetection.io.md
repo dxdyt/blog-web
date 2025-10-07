@@ -1,9 +1,9 @@
 ---
 title: changedetection.io
-date: 2025-07-29T12:47:59+08:00
+date: 2025-10-07T12:22:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751206288263-7f83935779e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751206288263-7f83935779e3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM3NjQ0MzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756931014366-4bdb58a0b9c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756931014366-4bdb58a0b9c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io)
@@ -290,7 +290,10 @@ Excel import is recommended - that way you can better organise tags/groups of we
 
 ## API Support
 
-Supports managing the website watch list [via our API](https://changedetection.io/docs/api_v1/index.html)
+Full REST API for programmatic management of watches, tags, notifications and more. 
+
+- **[Interactive API Documentation](https://changedetection.io/docs/api_v1/index.html)** - Complete API reference with live testing
+- **[OpenAPI Specification](docs/api-spec.yaml)** - Generate SDKs for any programming language
 
 ## Support us
 

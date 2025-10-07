@@ -1,9 +1,9 @@
 ---
 title: pathway
-date: 2025-10-06T12:21:56+08:00
+date: 2025-10-07T12:23:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759495985650-3a35a68ca1f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759495985650-3a35a68ca1f7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758438919146-f3f59a6d2544?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758438919146-f3f59a6d2544?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
 ---
 
 # [pathwaycom/pathway](https://github.com/pathwaycom/pathway)
