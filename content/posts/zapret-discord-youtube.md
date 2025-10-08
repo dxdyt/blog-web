@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2025-10-06T12:20:49+08:00
+date: 2025-10-08T12:22:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757005550474-27da22fb72db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757005550474-27da22fb72db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk3MjQ0MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755918909925-f62b86d93c2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755918909925-f62b86d93c2a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -12,12 +12,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1757005550474-27da22fb72
 
 # <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=28 /> <a href="https://github.com/Flowseal/">Flowseal</a><a href="https://github.com/Flowseal/zapret-discord-youtube">/zapret-discord-youtube</a> <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=28 />
 
-
 Альтернатива https://github.com/bol-van/zapret-win-bundle  
 Также вы можете материально поддержать оригинального разработчика zapret [тут](https://github.com/bol-van/zapret?tab=readme-ov-file#%D0%BF%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C-%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%B0)
 </div>
 
 > [!CAUTION]
+>
+> ### ФЕЙКИ
+> Я не веду никакие другие страницы/группы в телеграм/ютуб каналы  
+> Если вы наткнулись на что-то вне этой страницы гитхаба, что распространяется от моего лица - **ФЕЙК**.
+
+> [!WARNING]
 >
 > ### АНТИВИРУСЫ
 > WinDivert может вызвать реакцию антивируса.

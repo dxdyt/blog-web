@@ -1,9 +1,9 @@
 ---
 title: zen-mcp-server
-date: 2025-10-07T12:21:47+08:00
+date: 2025-10-08T12:21:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757258632083-e9b8a5345047?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757258632083-e9b8a5345047?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759350075133-d8dab3dcafc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759350075133-d8dab3dcafc3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
 ---
 
 # [BeehiveInnovations/zen-mcp-server](https://github.com/BeehiveInnovations/zen-mcp-server)
@@ -14,12 +14,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1757258632083-e9b8a53450
 
   [Zen in action](https://github.com/user-attachments/assets/0d26061e-5f21-4ab1-b7d0-f883ddc2c3da)
 
+👉 **[Watch more examples](#-watch-tools-in-action)**
+
 ### Your CLI + Multiple Models = Your AI Dev Team
 
-**Use the 🤖 CLI you love:**
-[Claude Code](https://www.anthropic.com/claude-code) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [Codex CLI](https://github.com/openai/codex) · [Qwen Code CLI](https://qwenlm.github.io/qwen-code-docs/) · _and more_
+**Use the 🤖 CLI you love:**  
+[Claude Code](https://www.anthropic.com/claude-code) · [Gemini CLI](https://github.com/google-gemini/gemini-cli) · [Codex CLI](https://github.com/openai/codex) · [Qwen Code CLI](https://qwenlm.github.io/qwen-code-docs/) · [Cursor](https://cursor.com) · _and more_
 
-**With multiple models:**
+**With multiple models within a single prompt:**  
 Gemini · OpenAI · Anthropic · Grok · Azure · Ollama · OpenRouter · DIAL · On-Device Model
 
 </div>
@@ -133,7 +135,7 @@ and review into consideration to aid with its final pre-commit review.
 For best results when using [Claude Code](https://claude.ai/code):  
 
 - **Sonnet 4.5** - All agentic work and orchestration
-- **Gemini 2.5 Pro** - Deep thinking, additional code reviews, debugging and validations, pre-commit analysis
+- **Gemini 2.5 Pro** OR **GPT-5-Pro** - Deep thinking, additional code reviews, debugging and validations, pre-commit analysis
 </details>
 
 <details>
@@ -142,7 +144,7 @@ For best results when using [Claude Code](https://claude.ai/code):
 For best results when using [Codex CLI](https://developers.openai.com/codex/cli):  
 
 - **GPT-5 Codex Medium** - All agentic work and orchestration
-- **Gemini 2.5 Pro** - Deep thinking, additional code reviews, debugging and validations, pre-commit analysis
+- **Gemini 2.5 Pro** OR **GPT-5-Pro** - Deep thinking, additional code reviews, debugging and validations, pre-commit analysis
 </details>
 
 ## Quick Start (5 minutes)
@@ -199,8 +201,9 @@ cd zen-mcp-server
 "clink with cli_name=\"gemini\" role=\"planner\" to draft a phased rollout plan"
 ```
 
-👉 **[Complete Setup Guide](docs/getting-started.md)** with detailed installation, configuration for Gemini / Codex / Qwen, and troubleshooting  
+👉 **[Complete Setup Guide](docs/getting-started.md)** with detailed installation, configuration for Gemini / Codex / Qwen, and troubleshooting
 👉 **[Cursor & VS Code Setup](docs/getting-started.md#ide-clients)** for IDE integration instructions
+📺 **[Watch tools in action](#-watch-tools-in-action)** to see real-world examples
 
 ## Provider Configuration
 
@@ -212,7 +215,7 @@ Zen activates any provider that has credentials in your `.env`. See `.env.exampl
 
 **Collaboration & Planning** *(Enabled by default)*
 - **[`clink`](docs/tools/clink.md)** - Bridge requests to external AI CLIs (Gemini planner, codereviewer, etc.)
-- **[`chat`](docs/tools/chat.md)** - Brainstorm ideas, get second opinions, validate approaches
+- **[`chat`](docs/tools/chat.md)** - Brainstorm ideas, get second opinions, validate approaches. With capable models (GPT-5 Pro, Gemini 2.5 Pro), generates complete code / implementation
 - **[`thinkdeep`](docs/tools/thinkdeep.md)** - Extended reasoning, edge case analysis, alternative perspectives
 - **[`planner`](docs/tools/planner.md)** - Break down complex projects into structured, actionable plans
 - **[`consensus`](docs/tools/consensus.md)** - Get expert opinions from multiple AI models with stance steering
@@ -308,10 +311,71 @@ DISABLED_TOOLS=
 }
 ```
 
-**Note:** 
+**Note:**
 - Essential tools (`version`, `listmodels`) cannot be disabled
 - After changing tool configuration, restart your Claude session for changes to take effect
 - Each tool adds to context window usage, so only enable what you need
+
+</details>
+
+## 📺 Watch Tools In Action
+
+<details>
+<summary><b>Chat Tool</b> - Collaborative decision making and multi-turn conversations</summary>
+
+**Picking Redis vs Memcached:**
+
+[Chat Redis or Memcached_web.webm](https://github.com/user-attachments/assets/41076cfe-dd49-4dfc-82f5-d7461b34705d)
+
+**Multi-turn conversation with continuation:**
+
+[Chat With Gemini_web.webm](https://github.com/user-attachments/assets/37bd57ca-e8a6-42f7-b5fb-11de271e95db)
+
+</details>
+
+<details>
+<summary><b>Consensus Tool</b> - Multi-model debate and decision making</summary>
+
+**Multi-model consensus debate:**
+
+[Zen Consensus Debate](https://github.com/user-attachments/assets/76a23dd5-887a-4382-9cf0-642f5cf6219e)
+
+</details>
+
+<details>
+<summary><b>PreCommit Tool</b> - Comprehensive change validation</summary>
+
+**Pre-commit validation workflow:**
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/584adfa6-d252-49b4-b5b0-0cd6e97fb2c6" width="950">
+</div>
+
+</details>
+
+<details>
+<summary><b>API Lookup Tool</b> - Current vs outdated API documentation</summary>
+
+**Without Zen - outdated APIs:**
+
+[API without Zen](https://github.com/user-attachments/assets/01a79dc9-ad16-4264-9ce1-76a56c3580ee)
+
+**With Zen - current APIs:**
+
+[API with Zen](https://github.com/user-attachments/assets/5c847326-4b66-41f7-8f30-f380453dce22)
+
+</details>
+
+<details>
+<summary><b>Challenge Tool</b> - Critical thinking vs reflexive agreement</summary>
+
+**Without Zen:**
+
+![without_zen@2x](https://github.com/user-attachments/assets/64f3c9fb-7ca9-4876-b687-25e847edfd87)
+
+**With Zen:**
+
+![with_zen@2x](https://github.com/user-attachments/assets/9d72f444-ba53-4ab1-83e5-250062c6ee70)
 
 </details>
 

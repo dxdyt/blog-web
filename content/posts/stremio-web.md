@@ -1,9 +1,9 @@
 ---
 title: stremio-web
-date: 2025-10-07T12:21:55+08:00
+date: 2025-10-08T12:21:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755147047358-7786e1de7061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755147047358-7786e1de7061?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4MTA4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759247178454-b8313bf52800?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759247178454-b8313bf52800?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
 ---
 
 # [Stremio/stremio-web](https://github.com/Stremio/stremio-web)
