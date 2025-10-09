@@ -1,9 +1,9 @@
 ---
 title: SurfSense
-date: 2025-08-29T12:22:52+08:00
+date: 2025-10-09T12:22:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754898284154-62daf743b909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754898284154-62daf743b909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY0NDEzMTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758179156914-bcc9a0d2a4b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758179156914-bcc9a0d2a4b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
 ---
 
 # [MODSetter/SurfSense](https://github.com/MODSetter/SurfSense)
@@ -20,7 +20,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1754898284154-62daf743b9
 
 
 # SurfSense
-While tools like NotebookLM and Perplexity are impressive and highly effective for conducting research on any topic/query, SurfSense elevates this capability by integrating with your personal knowledge base. It is a highly customizable AI research agent, connected to external sources such as Search Engines (Tavily, LinkUp), Slack, Linear, Jira, ClickUp, Confluence, Gmail, Notion, YouTube, GitHub, Discord, Google Calendar and more to come.
+While tools like NotebookLM and Perplexity are impressive and highly effective for conducting research on any topic/query, SurfSense elevates this capability by integrating with your personal knowledge base. It is a highly customizable AI research agent, connected to external sources such as Search Engines (Tavily, LinkUp), Slack, Linear, Jira, ClickUp, Confluence, Gmail, Notion, YouTube, GitHub, Discord, Airtable, Google Calendar, Luma and more to come.
 
 <div align="center">
 <a href="https://trendshift.io/repositories/13606" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13606" alt="MODSetter%2FSurfSense | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -82,7 +82,9 @@ Open source and easy to deploy locally.
 - Youtube Videos
 - GitHub
 - Discord
+- Airtable
 - Google Calendar
+- Luma
 - and more to come.....
 
 ## 📄 **Supported File Extensions**
@@ -126,6 +128,7 @@ Open source and easy to deploy locally.
 ### 🔖 Cross Browser Extension
 - The SurfSense extension can be used to save any webpage you like.
 - Its main usecase is to save any webpages protected beyond authentication.
+
 
 
 ## FEATURE REQUESTS AND FUTURE
@@ -277,7 +280,6 @@ Before installation, make sure to complete the [prerequisite setup steps](https:
 ## Future Work
 - Add More Connectors.
 - Patch minor bugs.
-- Document Chat **[REIMPLEMENT]**
 - Document Podcasts
 
 
@@ -298,4 +300,17 @@ For detailed contribution guidelines, please see our [CONTRIBUTING.md](CONTRIBUT
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=MODSetter/SurfSense&type=Date" />
  </picture>
 </a>
+
+---
+---
+<p align="center">
+    <img 
+      src="https://github.com/user-attachments/assets/329c9bc2-6005-4aed-a629-700b5ae296b4" 
+      alt="Catalyst Project" 
+      width="200"
+    />
+</p>
+
+---
+---
 

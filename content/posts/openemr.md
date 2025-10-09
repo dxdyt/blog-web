@@ -1,9 +1,9 @@
 ---
 title: openemr
-date: 2025-10-08T12:23:12+08:00
+date: 2025-10-09T12:22:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759247178454-b8313bf52800?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759247178454-b8313bf52800?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759105764651-5e1e7124cc7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759105764651-5e1e7124cc7a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
 ---
 
 # [openemr/openemr](https://github.com/openemr/openemr)
