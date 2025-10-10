@@ -1,9 +1,9 @@
 ---
 title: stagehand
-date: 2025-10-09T12:21:39+08:00
+date: 2025-10-10T12:22:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758845929972-a534269074ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758845929972-a534269074ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742410938424-109762e50b55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742410938424-109762e50b55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
 ---
 
 # [browserbase/stagehand](https://github.com/browserbase/stagehand)
@@ -110,7 +110,7 @@ Visit [docs.stagehand.dev](https://docs.stagehand.dev) to view the full document
 
 ## Getting Started
 
-Start with Stagehand with one line of code, or check out our [Quickstart Guide](https://docs.stagehand.dev/get_started/quickstart) for more information:
+Start with Stagehand with one line of code, or check out our [Quickstart Guide](https://docs.stagehand.dev/first-steps/quickstart) for more information:
 
 ```bash
 npx create-browser-app
