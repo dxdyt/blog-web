@@ -1,9 +1,9 @@
 ---
 title: ticket-purchase
-date: 2025-09-24T12:22:42+08:00
+date: 2025-10-11T12:21:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756819753334-3076f06c0395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756819753334-3076f06c0395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757428139438-cd7c948a39ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757428139438-cd7c948a39ef?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
 ---
 
 # [WECENG/ticket-purchase](https://github.com/WECENG/ticket-purchase)

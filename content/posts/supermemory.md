@@ -1,98 +1,85 @@
 ---
 title: supermemory
-date: 2024-04-18T12:15:51+08:00
+date: 2025-10-11T12:21:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1711034724148-804e4fdf576f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1711034724148-804e4fdf576f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTM0MTM3MTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758059367017-c29ce4199d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758059367017-c29ce4199d84?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
 ---
 
-# [Dhravya/supermemory](https://github.com/Dhravya/supermemory)
+# [supermemoryai/supermemory](https://github.com/supermemoryai/supermemory)
 
-![og image](https://supermemory.dhr.wtf/og-image.png)
+<div align="center" style="padding-bottom:20px;padding-top:20px">
+  <img src="logo.svg" alt="supermemory Logo" width="400" />
+</div>
 
-# SuperMemory
+<div align="center" style="padding-bottom:10px;padding-top:10px">
+  <img src="apps/web/public/landing-page.jpeg" alt="supermemory" width="100%" />
+</div>
 
-## 👀 What is this?
+## Features
 
-Build your own second brain with supermemory. It's a ChatGPT for your bookmarks. Import tweets or save websites and content using the [chrome extension](https://chromewebstore.google.com/detail/supermemory/afpgkkipfdpeaflnpoaffkcankadgjfc?hl=en-GB&authuser=0) (the extension on webstore is not updated, please use the one in the repo)
+### Core Functionality
 
-Well, here's the thing - me and @yxshv save a _lot_ of content on the internet.
+- **[Add Memories from Any Content](#add-memory)**: Easily add memories from URLs, PDFs, and plain text—just paste, upload, or link.
+- **[Chat with Your Memories](#chat-memories)**: Converse with your stored content using natural language chat.
+- **[Supermemory MCP Integration](#mcp-integration)**: Seamlessly connect with all major AI tools (Claude, Cursor, etc.) via Supermemory MCP.
 
-Twitter bookmarks, websites, snippets, etc.
+## How do i use this?
 
-But we never look back to it - to us, it's like throwing information in the void.
+Go to [app.supermemory.ai](https://app.supermemory.ai) and sign into with your account
 
-Supermemory fixes this.
+1. <a id="add-memory"></a>Start Adding Memory with your choice of format (Note, Link, File)
+<div align="center" style="padding-bottom:10px;padding-top:10px">
+  <img src="apps/web/public/add-memory.png" alt="supermemory" width="100%" />
+</div>
 
-## How do I use this?
+2. You can also Connect to your favourite services (Notion, Google Drive, OneDrive)
+<div align="center" style="padding-bottom:10px;padding-top:10px">
+  <img src="apps/web/public/add-connections.png" alt="supermemory" width="100%" />
+</div>
 
-Just go to [supermemory.dhr.wtf](https://supermemory.dhr.wtf) and sign in with your google account.
+3. <a id="chat-memories"></a>Once Memories are added, you can chat with Supermemory by clicking on "Open Chat" and retrieve info from your saved memories
+<div align="center" style="padding-bottom:10px;padding-top:10px">
+  <img src="apps/web/public/chat.png" alt="supermemory" width="100%" />
+</div>
 
-To use the chrome extension,
+4. <a id="mcp-integration"></a>Add MCP to your AI Tools (by clicking on "Connect to your AI" and select the AI tool you are trying to integrate)
+<div align="center" style="padding-bottom:10px;padding-top:10px">
+  <img src="apps/web/public/mcp.png" alt="supermemory" width="100%" />
+</div>
 
-1. Get the chrome ext (click on the button)
-2. Click on the "Extension Auth" button so the extension knows who you are :)
-   ![chrome](https://i.dhr.wtf/r/Clipboard_Apr_15,_2024_at_10.47 AM.png)
+## Support
 
-## 👨‍💻 The Stack
+Have questions or feedback? We're here to help:
 
-![overview](https://i.dhr.wtf/r/Clipboard_Apr_14,_2024_at_4.52 PM.png)
+- Email: [dhravya@supermemory.com](mailto:dhravya@supermemory.com)
+- Documentation: [docs.supermemory.ai](https://docs.supermemory.ai)
 
-Supermemory has three main modules, managed by [turborepo](https://turbo.build):
+## Contributing
 
-#### `apps/web`: The main web UI.
+We welcome contributions from developers of all skill levels! Whether you're fixing bugs, adding features, or improving documentation, your help makes supermemory better for everyone.
 
-The database, auth etc logic is here
+### Quick Start for Contributors
 
-![App preview](https://i.dhr.wtf/r/Clipboard_Apr_14,_2024_at_4.10 PM.png)
+1. **Fork and clone** the repository
+2. **Install dependencies** with `bun install`
+3. **Set up your environment** by copying `.env.example` to `.env.local`
+4. **Start developing** with `bun run dev`
 
-Built with:
+For detailed guidelines, development setup, coding standards, and the complete contribution workflow, please see our [**Contributing Guide**](CONTRIBUTING.md).
 
-- Nextjs 14
-- [Next Auth](https://next-auth.js.org/)
-- [Drizzle ORM](https://drizzle.team/)
-- [Cloudflare D1 database](https://developers.cloudflare.com/d1/get-started/)
-- Cloudflare ratelimiter
-- [TailwindCSS](https://tailwindcss.com)
-- [shadcn-ui](https://ui.shadcn.com)
-- And some other amazing open source projects like [Novel](https://novel.sh) and [vaul](https://vaul.emilkowal.ski/)
-- Hosted on [Cloudflare Pages](https://pages.cloudflare.com/)
+### Ways to Contribute
 
-#### `apps/extension`: Chrome extension
+- 🐛 **Bug fixes** - Help us squash those pesky issues
+- ✨ **New features** - Add functionality that users will love
+- 🎨 **UI/UX improvements** - Make the interface more intuitive
+- ⚡ **Performance optimizations** - Help us make supermemory faster
 
-The chrome extension is one of the most important part of the setup, but is not required.This is to easily add pages to your memory.
+Check out our [Issues](https://github.com/supermemoryai/supermemory/issues) page for `good first issue` and `help wanted` labels to get started!
 
-![Chrome extension preview](https://i.dhr.wtf/r/Clipboard_Apr_14,_2024_at_3.54 PM.png)
+## Updates & Roadmap
 
-You can also use it to import all your twitter bookmarks!
-![Import bookmarks](https://i.dhr.wtf/r/Clipboard_Apr_14,_2024_at_3.56 PM.png)
+Stay up to date with the latest improvements:
 
-Built with:
-
-- [CRXJS](https://crxjs.dev/vite-plugin/getting-started/react/create-project)
-- Vite
-- [TailwindCSS](https://tailwindcss.com)
-- [shadcn-ui](https://ui.shadcn.com)
-- React
-
-#### `apps/cf-ai-backend`: This module handles the vector store and AI response generation
-
-This is where the magic happens!
-Built with:
-
-- Cloudflare Workers
-- [Cloudflare AI](https://ai.cloudflare.com)
-- [Cloudflare Vectorize](https://developers.cloudflare.com/vectorize/)
-- [Cloudflare Queues](https://developers.cloudflare.com/queues/)
-- [Cloudflare Browser Rendering](https://developers.cloudflare.com/browser-rendering/)
-- [Cloudflare KV](https://developers.cloudflare.com/kv)
-
-## Contribute or self host
-
-Supermemory is design to be set up easily locally and super duper easy to set up 💫
-
-Please see the [SETUP-GUIDE.md](SETUP-GUIDE.md) for setup instructions.
-
-### Contributing
-
-Contributions are very welcome! A contribution can be as small as a ⭐ or even finding and creating issues.
+- [Changelog](https://docs.supermemory.ai/changelog/overview)
+- [X](https://x.com/supermemoryai).

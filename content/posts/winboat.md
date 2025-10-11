@@ -1,9 +1,9 @@
 ---
 title: winboat
-date: 2025-10-10T12:21:45+08:00
+date: 2025-10-11T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742410938424-109762e50b55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742410938424-109762e50b55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757792859308-b8d2115a0010?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757792859308-b8d2115a0010?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
 ---
 
 # [TibixDev/winboat](https://github.com/TibixDev/winboat)

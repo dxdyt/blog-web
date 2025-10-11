@@ -1,9 +1,9 @@
 ---
 title: RD-Agent
-date: 2025-05-29T12:25:10+08:00
+date: 2025-10-11T12:20:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746805145555-1ee672288fca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746805145555-1ee672288fca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDg0OTI2NDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755956187917-65cbe263b4e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755956187917-65cbe263b4e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/RD-Agent](https://github.com/microsoft/RD-Agent)
@@ -38,6 +38,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1746805145555-1ee672288f
 [![arXiv](https://img.shields.io/badge/arXiv-2505.14738-00ff00.svg)](https://arxiv.org/abs/2505.14738)
 
 
+# 📰 News
+| 🗞️ News        | 📝 Description                 |
+| --            | ------      |
+| NeurIPS 2025 Acceptance | We are thrilled to announce that our paper [R&D-Agent-Quant](https://arxiv.org/abs/2505.15155) has been accepted to NeurIPS 2025 | 
+| [Technical Report Release](#overall-technical-report) | Overall framework description and results on MLE-bench | 
+| [R&D-Agent-Quant Release](#deep-application-in-diverse-scenarios) | Apply R&D-Agent to quant trading | 
+| MLE-Bench Results Released | R&D-Agent currently leads as the [top-performing machine learning engineering agent](#-the-best-machine-learning-engineering-agent) on MLE-bench |
+| Support LiteLLM Backend | We now fully support **[LiteLLM](https://github.com/BerriAI/litellm)** as our default backend for integration with multiple LLM providers. |
+| General Data Science Agent | [Data Science Agent](https://rdagent.readthedocs.io/en/latest/scens/data_science.html) |
+| Kaggle Scenario release | We release **[Kaggle Agent](https://rdagent.readthedocs.io/en/latest/scens/data_science.html)**, try the new features!                  |
+| Official WeChat group release  | We created a WeChat group, welcome to join! (🗪[QR Code](https://github.com/microsoft/RD-Agent/issues/880)) |
+| Official Discord release  | We launch our first chatting channel in Discord (🗪[![Chat](https://img.shields.io/badge/chat-discord-blue)](https://discord.gg/ybQ97B6Jjy)) |
+| First release | **R&D-Agent** is released on GitHub |
+
+
 
 # 🏆 The Best Machine Learning Engineering Agent!
 
@@ -47,8 +62,8 @@ R&D-Agent currently leads as the top-performing machine learning engineering age
 
 | Agent | Low == Lite (%) | Medium (%) | High (%) | All (%) |
 |---------|--------|-----------|---------|----------|
+| R&D-Agent o3(R)+GPT-4.1(D) | 51.52 ± 6.9 | 19.3 ± 5.5 | 26.67 ± 0 | 30.22 ± 1.5 |
 | R&D-Agent o1-preview | 48.18 ± 2.49 | 8.95 ± 2.36 | 18.67 ± 2.98 | 22.4 ± 1.1 |
-| R&D-Agent o3(R)+GPT-4.1(D) | 51.52 ± 6.21 | 7.89 ± 3.33 | 16.67 ± 3.65 | 22.45 ± 2.45 |
 | AIDE o1-preview | 34.3 ± 2.4 | 8.8 ± 1.1 | 10.0 ± 1.9 | 16.9 ± 1.1 |
 
 **Notes:**
@@ -63,21 +78,15 @@ You can inspect the detailed runs of the above results online.
 
 For running R&D-Agent on MLE-bench, refer to **[MLE-bench Guide: Running ML Engineering via MLE-bench](https://rdagent.readthedocs.io/en/latest/scens/data_science.html)**
 
+# 🥇 The First Data-Centric Quant Multi-Agent Framework!
 
-# 📰 News
-| 🗞️ News        | 📝 Description                 |
-| --            | ------      |
-| [Technical Report Release](#overall-technical-report) | Overall framework description and results on MLE-bench | 
-| [R&D-Agent-Quant Release](#deep-application-in-diverse-scenarios) | Apply R&D-Agent to quant trading | 
-| MLE-Bench Results Released | R&D-Agent currently leads as the [top-performing machine learning engineering agent](#-the-best-machine-learning-engineering-agent) on MLE-bench |
-| Support LiteLLM Backend | We now fully support **[LiteLLM](https://github.com/BerriAI/litellm)** as a backend for integration with multiple LLM providers. |
-| More General Data Science Agent | 🚀Coming soon! |
-| Kaggle Scenario release | We release **[Kaggle Agent](https://rdagent.readthedocs.io/en/latest/scens/kaggle_agent.html)**, try the new features!                  |
-| Official WeChat group release  | We created a WeChat group, welcome to join! (🗪[QR Code](https://github.com/microsoft/RD-Agent/issues/880)) |
-| Official Discord release  | We launch our first chatting channel in Discord (🗪[![Chat](https://img.shields.io/badge/chat-discord-blue)](https://discord.gg/ybQ97B6Jjy)) |
-| First release | **R&D-Agent** is released on GitHub |
+R&D-Agent for Quantitative Finance, in short **RD-Agent(Q)**, is the first data-centric, multi-agent framework designed to automate the full-stack research and development of quantitative strategies via coordinated factor-model co-optimization.
 
+![image](https://github.com/user-attachments/assets/3198bc10-47ba-4ee0-8a8e-46d5ce44f45d)
 
+Extensive experiments in real stock markets show that, at a cost under $10, RD-Agent(Q) achieves approximately 2× higher ARR than benchmark factor libraries while using over 70% fewer factors. It also surpasses state-of-the-art deep time-series models under smaller resource budgets. Its alternating factor–model optimization further delivers excellent trade-off between predictive accuracy and strategy robustness.
+
+You can learn more details about **RD-Agent(Q)** through the [paper](https://arxiv.org/abs/2505.15155) and reproduce it through the [documentation](https://rdagent.readthedocs.io/en/latest/scens/quant_agent_fin.html).
 
 # Data Science Agent Preview
 Check out our demo video showcasing the current progress of our Data Science Agent under development:
@@ -115,6 +124,8 @@ Additionally, you can take a closer look at the examples in our **[🖥️ Live 
 
 # ⚡ Quick start
 
+### RD-Agent currently only supports Linux.
+
 You can try above demos by running the following command:
 
 ### 🐳 Docker installation.
@@ -132,17 +143,29 @@ Ensure the current user can run Docker commands **without using sudo**. You can 
   ```
 
 ### 🛠️ Install the R&D-Agent
+
+#### For Users
 - You can directly install the R&D-Agent package from PyPI:
   ```sh
   pip install rdagent
   ```
+
+#### For Developers
+- If you want to try the latest version or contribute to RD-Agent, you can install it from the source and follow the development setup:
+  ```sh
+  git clone https://github.com/microsoft/RD-Agent
+  cd RD-Agent
+  make dev
+  ```
+
+More details can be found in the [development setup](https://rdagent.readthedocs.io/en/latest/development.html).
 
 ### 💊 Health check
 - rdagent provides a health check that currently checks two things.
   - whether the docker installation was successful.
   - whether the default port used by the [rdagent ui](https://github.com/microsoft/RD-Agent?tab=readme-ov-file#%EF%B8%8F-monitor-the-application-results) is occupied.
   ```sh
-  rdagent health_check
+  rdagent health_check --no-check-env
   ```
 
 
@@ -152,45 +175,97 @@ Ensure the current user can run Docker commands **without using sudo**. You can 
   - json_mode
   - embedding query
 
-- For example: If you are using the `OpenAI API`, you have to configure your GPT model in the `.env` file like this.
+  You can set your Chat Model and Embedding Model in the following ways:
+
+  > **🔥 Attention**: We now provide experimental support for **DeepSeek** models! You can use DeepSeek's official API for cost-effective and high-performance inference. See the configuration example below for DeepSeek setup.
+
+- **Using LiteLLM (Default)**: We now support LiteLLM as a backend for integration with multiple LLM providers. You can configure in multiple ways:
+
+  **Option 1: Unified API base for both models**
+
+  *Configuration Example: `OpenAI` Setup :*
+
   ```bash
   cat << EOF  > .env
-  OPENAI_API_KEY=<replace_with_your_openai_api_key>
-  # EMBEDDING_MODEL=text-embedding-3-small
-  CHAT_MODEL=gpt-4-turbo
-  EOF
-  ```
-- However, not every API services support these features by default. For example: `AZURE OpenAI`, you have to configure your GPT model in the `.env` file like this.
-  ```bash
-  cat << EOF  > .env
-  USE_AZURE=True
-  EMBEDDING_OPENAI_API_KEY=<replace_with_your_azure_openai_api_key>
-  EMBEDDING_AZURE_API_BASE=<replace_with_your_azure_endpoint>
-  EMBEDDING_AZURE_API_VERSION=<replace_with_the_version_of_your_azure_openai_api>
+  # Set to any model supported by LiteLLM.
+  CHAT_MODEL=gpt-4o 
   EMBEDDING_MODEL=text-embedding-3-small
-  CHAT_OPENAI_API_KEY=<replace_with_your_azure_openai_api_key>
-  CHAT_AZURE_API_BASE=<replace_with_your_azure_endpoint>
-  CHAT_AZURE_API_VERSION=<replace_with_the_version_of_your_azure_openai_api>
-  CHAT_MODEL=<replace_it_with_the_name_of_your_azure_chat_model>
-  EOF
+  # Configure unified API base
+  OPENAI_API_BASE=<your_unified_api_base>
+  OPENAI_API_KEY=<replace_with_your_openai_api_key>
   ```
 
-- We now support LiteLLM as a backend for integration with multiple LLM providers. If you use LiteLLM Backend to use models, you can configure as follows:
+  *Configuration Example: `Azure OpenAI` Setup :*
+
+  > Before using this configuration, please confirm in advance that your `Azure OpenAI API key` supports `embedded models`.
+
   ```bash
   cat << EOF  > .env
-  BACKEND=rdagent.oai.backend.LiteLLMAPIBackend
-  # It can be modified to any model supported by LiteLLM.
-  CHAT_MODEL=gpt-4o
-  EMBEDDING_MODEL=text-embedding-3-small
-  # The backend api_key fully follow the convention of litellm.
-  OPENAI_API_KEY=<replace_with_your_openai_api_key>
+  EMBEDDING_MODEL=azure/<Model deployment supporting embedding>
+  CHAT_MODEL=azure/<your deployment name>
+  AZURE_API_KEY=<replace_with_your_openai_api_key>
+  AZURE_API_BASE=<your_unified_api_base>
+  AZURE_API_VERSION=<azure api version>
   ```
+
+  **Option 2: Separate API bases for Chat and Embedding models**
+  ```bash
+  cat << EOF  > .env
+  # Set to any model supported by LiteLLM.
+  # Configure separate API bases for chat and embedding
   
-- For more configuration information, please refer to the [documentation](https://rdagent.readthedocs.io/en/latest/installation_and_configuration.html).
+  # CHAT MODEL:
+  CHAT_MODEL=gpt-4o 
+  OPENAI_API_BASE=<your_chat_api_base>
+  OPENAI_API_KEY=<replace_with_your_openai_api_key>
+
+  # EMBEDDING MODEL:
+  # TAKE siliconflow as an example, you can use other providers.
+  # Note: embedding requires litellm_proxy prefix
+  EMBEDDING_MODEL=litellm_proxy/BAAI/bge-large-en-v1.5
+  LITELLM_PROXY_API_KEY=<replace_with_your_siliconflow_api_key>
+  LITELLM_PROXY_API_BASE=https://api.siliconflow.cn/v1
+  ```
+
+  *Configuration Example: `DeepSeek` Setup :*
+
+  >Since many users encounter configuration errors when setting up DeepSeek. Here's a complete working example for DeepSeek Setup:
+  ```bash
+  cat << EOF  > .env
+  # CHAT MODEL: Using DeepSeek Official API
+  CHAT_MODEL=deepseek/deepseek-chat 
+  DEEPSEEK_API_KEY=<replace_with_your_deepseek_api_key>
+
+  # EMBEDDING MODEL: Using SiliconFlow for embedding since deepseek has no embedding model.
+  # Note: embedding requires litellm_proxy prefix
+  EMBEDDING_MODEL=litellm_proxy/BAAI/bge-m3
+  LITELLM_PROXY_API_KEY=<replace_with_your_siliconflow_api_key>
+  LITELLM_PROXY_API_BASE=https://api.siliconflow.cn/v1
+  ```
+
+  Notice: If you are using reasoning models that include thought processes in their responses (such as \<think> tags), you need to set the following environment variable:
+  ```bash
+  REASONING_THINK_RM=True
+  ```
+
+  You can also use a deprecated backend if you only use `OpenAI API` or `Azure OpenAI` directly. For this deprecated setting and more configuration information, please refer to the [documentation](https://rdagent.readthedocs.io/en/latest/installation_and_configuration.html). 
+
+
+
+- If your environment configuration is complete, please execute the following commands to check if your configuration is valid. This step is necessary.
+
+  ```bash
+  rdagent health_check
+  ```
 
 ### 🚀 Run the Application
 
 The **[🖥️ Live Demo](https://rdagent.azurewebsites.net/)** is implemented by the following commands(each item represents one demo, you can select the one you prefer):
+
+- Run the **Automated Quantitative Trading & Iterative Factors Model Joint Evolution**:  [Qlib](http://github.com/microsoft/qlib) self-loop factor & model proposal and implementation application
+  ```sh
+  rdagent fin_quant
+  ```
 
 - Run the **Automated Quantitative Trading & Iterative Factors Evolution**:  [Qlib](http://github.com/microsoft/qlib) self-loop factor proposal and implementation application
   ```sh
@@ -202,28 +277,15 @@ The **[🖥️ Live Demo](https://rdagent.azurewebsites.net/)** is implemented b
   rdagent fin_model
   ```
 
-- Run the **Automated Medical Prediction Model Evolution**: Medical self-loop model proposal and implementation application
-  >(1) Apply for an account at [PhysioNet](https://physionet.org/). <br /> (2) Request access to FIDDLE preprocessed data: [FIDDLE Dataset](https://physionet.org/content/mimic-eicu-fiddle-feature/1.0.0/). <br />
-  (3) Place your username and password in `.env`.
-  ```bash
-  cat << EOF  >> .env
-  DM_USERNAME=<your_username>
-  DM_PASSWORD=<your_password>
-  EOF
-  ```
-  ```sh
-  rdagent med_model
-  ```
-
 - Run the **Automated Quantitative Trading & Factors Extraction from Financial Reports**:  Run the [Qlib](http://github.com/microsoft/qlib) factor extraction and implementation application based on financial reports
   ```sh
   # 1. Generally, you can run this scenario using the following command:
-  rdagent fin_factor_report --report_folder=<Your financial reports folder path>
+  rdagent fin_factor_report --report-folder=<Your financial reports folder path>
 
   # 2. Specifically, you need to prepare some financial reports first. You can follow this concrete example:
   wget https://github.com/SunsetWolf/rdagent_resource/releases/download/reports/all_reports.zip
   unzip all_reports.zip -d git_ignore_folder/reports
-  rdagent fin_factor_report --report_folder=git_ignore_folder/reports
+  rdagent fin_factor_report --report-folder=git_ignore_folder/reports
   ```
 
 - Run the **Automated Model Research & Development Copilot**: model extraction and implementation application
@@ -235,46 +297,70 @@ The **[🖥️ Live Demo](https://rdagent.azurewebsites.net/)** is implemented b
   rdagent general_model  "https://arxiv.org/pdf/2210.09789"
   ```
 
+- Run the **Automated Medical Prediction Model Evolution**: Medical self-loop model proposal and implementation application
+
+  ```bash
+  # Generally, you can run the data science program with the following command:
+  rdagent data_science --competition <your competition name>
+
+  # Specifically, you need to create a folder for storing competition files (e.g., competition description file, competition datasets, etc.), and configure the path to the folder in your environment. In addition, you need to use chromedriver when you download the competition descriptors, which you can follow for this specific example:
+
+  # 1. Download the dataset, extract it to the target folder.
+  wget https://github.com/SunsetWolf/rdagent_resource/releases/download/ds_data/arf-12-hours-prediction-task.zip
+  unzip arf-12-hours-prediction-task.zip -d ./git_ignore_folder/ds_data/
+
+  # 2. Configure environment variables in the `.env` file
+  dotenv set DS_LOCAL_DATA_PATH "$(pwd)/git_ignore_folder/ds_data"
+  dotenv set DS_CODER_ON_WHOLE_PIPELINE True
+  dotenv set DS_IF_USING_MLE_DATA False
+  dotenv set DS_SAMPLE_DATA_BY_LLM False
+  dotenv set DS_SCEN rdagent.scenarios.data_science.scen.DataScienceScen
+
+  # 3. run the application
+  rdagent data_science --competition arf-12-hours-prediction-task
+  ```
+
+  **NOTE:** For more information about the dataset, please refer to the [documentation](https://rdagent.readthedocs.io/en/latest/scens/data_science.html).
+
 - Run the **Automated Kaggle Model Tuning & Feature Engineering**:  self-loop model proposal and feature engineering implementation application <br />
-  > Using **sf-crime** *(San Francisco Crime Classification)* as an example. <br />
+  > Using **tabular-playground-series-dec-2021** as an example. <br />
   > 1. Register and login on the [Kaggle](https://www.kaggle.com/) website. <br />
   > 2. Configuring the Kaggle API. <br />
   > (1) Click on the avatar (usually in the top right corner of the page) -> `Settings` -> `Create New Token`, A file called `kaggle.json` will be downloaded. <br />
   > (2) Move `kaggle.json` to `~/.config/kaggle/` <br />
   > (3) Modify the permissions of the kaggle.json file. Reference command: `chmod 600 ~/.config/kaggle/kaggle.json` <br />
-  > 3. Join the competition: Click `Join the competition` -> `I Understand and Accept` at the bottom of the [competition details page](https://www.kaggle.com/competitions/sf-crime/data).
+  > 3. Join the competition: Click `Join the competition` -> `I Understand and Accept` at the bottom of the [competition details page](https://www.kaggle.com/competitions/tabular-playground-series-dec-2021/data).
   ```bash
   # Generally, you can run the Kaggle competition program with the following command:
-  rdagent kaggle --competition <your competition name>
+  rdagent data_science --competition <your competition name>
 
-  # Specifically, you need to create a folder for storing competition files (e.g., competition description file, competition datasets, etc.), and configure the path to the folder in your environment. In addition, you need to use chromedriver when you download the competition descriptors, which you can follow for this specific example:
-  
-  # 1. Install chromedriver.
+  # 1. Configure environment variables in the `.env` file
+  mkdir -p ./git_ignore_folder/ds_data
+  dotenv set DS_LOCAL_DATA_PATH "$(pwd)/git_ignore_folder/ds_data"
+  dotenv set DS_CODER_ON_WHOLE_PIPELINE True
+  dotenv set DS_IF_USING_MLE_DATA True
+  dotenv set DS_SAMPLE_DATA_BY_LLM True
+  dotenv set DS_SCEN rdagent.scenarios.data_science.scen.KaggleScen
 
-  # 2. Add the competition description file path to the `.env` file.
-  mkdir -p ./git_ignore_folder/kaggle_data
-  dotenv set KG_LOCAL_DATA_PATH "$(pwd)/git_ignore_folder/kaggle_data"
-
-  # 3. run the application
-  rdagent kaggle --competition sf-crime
+  # 2. run the application
+  rdagent data_science --competition tabular-playground-series-dec-2021
   ```
-  > **Description of the above example:** <br />
-  > - Kaggle competition data is roughly divided into three sections: competition description file (json file) and complete dataset for the competition and simplified dataset for the competition. <br />
-  > - The Kaggle competition data will be downloaded automatically, the download process depends on `chromedriver`, installation instructions can be found in the [documentation](https://rdagent.readthedocs.io/en/latest/scens/kaggle_agent.html#example-guide). <br />
 
 ### 🖥️ Monitor the Application Results
 - You can run the following command for our demo program to see the run logs.
 
   ```sh
-  rdagent ui --port 19899 --log_dir <your log folder like "log/">
+  rdagent ui --port 19899 --log-dir <your log folder like "log/"> --data-science
   ```
 
-  **Note:** Although port 19899 is not commonly used, but before you run this demo, you need to check if port 19899 is occupied. If it is, please change it to another port that is not occupied.
+- About the `data_science` parameter: If you want to see the logs of the data science scenario, set the `data_science` parameter to `True`; otherwise set it to `False`.
+ 
+- Although port 19899 is not commonly used, but before you run this demo, you need to check if port 19899 is occupied. If it is, please change it to another port that is not occupied.
 
   You can check if a port is occupied by running the following command.
 
   ```sh
-  rdagent health_check
+  rdagent health_check --no-check-env --no-check-docker
   ```
 
 # 🏭 Scenarios
@@ -306,7 +392,7 @@ The supported scenarios are listed below:
 | **🩺 Medical**      | 🤖 [Iteratively Proposing Ideas & Evolving](https://rdagent.azurewebsites.net/dmm)[▶️YouTube](https://www.youtube.com/watch?v=VIaSTZuoZg4) | -                                                                                  |
 | **🏭 General**      | 🦾 [Auto paper reading & implementation](https://rdagent.azurewebsites.net/report_model)[▶️YouTube](https://www.youtube.com/watch?v=BiA2SfdKQ7o) <br/> 🤖 Auto Kaggle Model Tuning   | 🤖Auto Kaggle feature Engineering |
 
-- **[RoadMap](https://rdagent.readthedocs.io/en/latest/scens/kaggle_agent.html#roadmap)**: Currently, we are working hard to add new features to the Kaggle scenario.
+- **[RoadMap](https://rdagent.readthedocs.io/en/latest/scens/data_science.html#roadmap)**: Currently, we are working hard to add new features to the Kaggle scenario.
 
 Different scenarios vary in entrance and configuration. Please check the detailed setup tutorial in the scenarios documents.
 
@@ -401,7 +487,7 @@ For more detail, please refer to our **[🖥️ Live Demo page](https://rdagent.
     primaryClass={cs.AI}
 }
 ```
-![image](https://github.com/user-attachments/assets/3198bc10-47ba-4ee0-8a8e-46d5ce44f45d)
+![image](https://github.com/user-attachments/assets/3186f67a-c2f8-4b6b-8bb9-a9b959c13866)
 
 
 # 🤝 Contributing
