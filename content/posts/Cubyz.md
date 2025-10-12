@@ -1,9 +1,9 @@
 ---
 title: Cubyz
-date: 2025-10-11T12:21:34+08:00
+date: 2025-10-12T12:21:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755956187917-65cbe263b4e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755956187917-65cbe263b4e6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756906838752-0b514ab37479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756906838752-0b514ab37479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
 ---
 
 # [PixelGuys/Cubyz](https://github.com/PixelGuys/Cubyz)

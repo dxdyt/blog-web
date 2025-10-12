@@ -1,9 +1,9 @@
 ---
 title: clash-verge-rev
-date: 2025-08-24T12:25:49+08:00
+date: 2025-10-12T12:22:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754321159253-8c9bd02cfb4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754321159253-8c9bd02cfb4c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759156207851-ff2c0a158797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759156207851-ff2c0a158797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
 ---
 
 # [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev)
@@ -33,11 +33,11 @@ Supports Windows (x64/x86), Linux (x64/arm64) and macOS 10.15+ (intel/apple).
 
 #### 我应当怎样选择发行版
 
-| 版本      | 特征                                     | 链接                                                                                   |
-| :-------- | :--------------------------------------- | :------------------------------------------------------------------------------------- |
-| Stable    | 正式版，高可靠性，适合日常使用。         | [Release](https://github.com/clash-verge-rev/clash-verge-rev/releases)                 |
-| Alpha     | 早期测试版，功能未完善，可能存在缺陷。   | [Alpha](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/alpha)         |
-| AutoBuild | 滚动更新版，持续集成更新，适合开发测试。 | [AutoBuild](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/autobuild) |
+| 版本        | 特征                                     | 链接                                                                                   |
+| :---------- | :--------------------------------------- | :------------------------------------------------------------------------------------- |
+| Stable      | 正式版，高可靠性，适合日常使用。         | [Release](https://github.com/clash-verge-rev/clash-verge-rev/releases)                 |
+| Alpha(废弃) | 测试发布流程。                           | [Alpha](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/alpha)         |
+| AutoBuild   | 滚动更新版，适合测试反馈，可能存在缺陷。 | [AutoBuild](https://github.com/clash-verge-rev/clash-verge-rev/releases/tag/autobuild) |
 
 #### 安装说明和常见问题，请到 [文档页](https://clash-verge-rev.github.io/) 查看
 

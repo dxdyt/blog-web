@@ -1,9 +1,9 @@
 ---
 title: SQLBot
-date: 2025-09-19T12:22:38+08:00
+date: 2025-10-12T12:21:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757279889628-9c5692bb1166?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757279889628-9c5692bb1166?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756698488092-ce1ffde6c492?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756698488092-ce1ffde6c492?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
 ---
 
 # [dataease/SQLBot](https://github.com/dataease/SQLBot)
@@ -26,7 +26,7 @@ SQLBot 是一款基于大模型和 RAG 的智能问数系统。SQLBot 的优势�
 
 ## 工作原理
 
-<img width="1189" height="624" alt="system-arch" src="https://github.com/user-attachments/assets/cde40783-369e-493e-bb59-44ce43c2e7c5" />
+<img width="1105" height="577" alt="system-arch" src="https://github.com/user-attachments/assets/462603fc-980b-4b8b-a6d4-a821c070a048" />
 
 ## 快速开始
 
@@ -41,6 +41,7 @@ docker run -d \
   -p 8000:8000 \
   -p 8001:8001 \
   -v ./data/sqlbot/excel:/opt/sqlbot/data/excel \
+  -v ./data/sqlbot/file:/opt/sqlbot/data/file \
   -v ./data/sqlbot/images:/opt/sqlbot/images \
   -v ./data/sqlbot/logs:/opt/sqlbot/app/logs \
   -v ./data/postgresql:/var/lib/postgresql/data \
@@ -80,6 +81,7 @@ docker run -d \
 - [1Panel](https://github.com/1panel-dev/1panel/) - 现代化、开源的 Linux 服务器运维管理面板
 - [MaxKB](https://github.com/1panel-dev/MaxKB/) - 强大易用的企业级智能体平台
 - [JumpServer](https://github.com/jumpserver/jumpserver/) - 广受欢迎的开源堡垒机
+- [Cordys CRM](https://github.com/1Panel-dev/CordysCRM) - 新一代的开源 AI CRM 系统
 - [Halo](https://github.com/halo-dev/halo/) - 强大易用的开源建站工具
 - [MeterSphere](https://github.com/metersphere/metersphere/) - 新一代的开源持续测试工具
 

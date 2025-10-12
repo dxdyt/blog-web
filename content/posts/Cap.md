@@ -1,9 +1,9 @@
 ---
 title: Cap
-date: 2025-10-11T12:20:54+08:00
+date: 2025-10-12T12:21:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758974775331-c5400bbef625?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758974775331-c5400bbef625?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758519873975-df3d08ae46b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758519873975-df3d08ae46b5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
 ---
 
 # [CapSoftware/Cap](https://github.com/CapSoftware/Cap)

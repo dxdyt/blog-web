@@ -1,9 +1,9 @@
 ---
 title: winboat
-date: 2025-10-11T12:20:32+08:00
+date: 2025-10-12T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757792859308-b8d2115a0010?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757792859308-b8d2115a0010?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAxNTYzOTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756906838742-4be32553d467?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756906838742-4be32553d467?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
 ---
 
 # [TibixDev/winboat](https://github.com/TibixDev/winboat)
@@ -49,7 +49,7 @@ Before running WinBoat, ensure your system meets the following requirements:
 
 - **RAM**: At least 4 GB of RAM
 - **CPU**: At least 2 CPU threads  
-- **Storage**: At least 32 GB free space in `/var`
+- **Storage**: At least 32 GB free space on the drive your selected install folder corresponds to
 - **Virtualization**: KVM enabled in BIOS/UEFI
   - [How to enable virtualization](https://duckduckgo.com/?t=h_&q=how+to+enable+virtualization+in+%3Cmotherboard+brand%3E+bios&ia=web)
 - **Docker**: Required for containerization
