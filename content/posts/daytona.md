@@ -1,9 +1,9 @@
 ---
 title: daytona
-date: 2025-05-05T12:23:31+08:00
+date: 2025-10-13T12:22:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742787584125-d94d44334047?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY0MTg5NDJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1742787584125-d94d44334047?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY0MTg5NDJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758513305697-8be64c4817a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758513305697-8be64c4817a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
 ---
 
 # [daytonaio/daytona](https://github.com/daytonaio/daytona)
@@ -43,6 +43,11 @@ featuredImagePreview: https://images.unsplash.com/photo-1742787584125-d94d443340
     <a href="https://x.com/daytonaio"> Connect on X </a>
 </p>
 
+<p align="center">
+    <a href="https://www.producthunt.com/posts/daytona-2?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-daytona&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=957617&theme=neutral&period=daily&t=1746176740150" alt="Daytona&#0032; - Secure&#0032;and&#0032;elastic&#0032;infra&#0032;for&#0032;running&#0032;your&#0032;AI&#0045;generated&#0032;code&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+    <a href="https://www.producthunt.com/posts/daytona-2?embed=true&utm_source=badge-top-post-topic-badge&utm_medium=badge&utm_souce=badge-daytona&#0045;2" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-topic-badge.svg?post_id=957617&theme=neutral&period=monthly&topic_id=237&t=1746176740150" alt="Daytona&#0032; - Secure&#0032;and&#0032;elastic&#0032;infra&#0032;for&#0032;running&#0032;your&#0032;AI&#0045;generated&#0032;code&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</p>
+
 ---
 
 ## Installation
@@ -50,7 +55,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1742787584125-d94d443340
 ### Python SDK
 
 ```bash
-pip install daytona-sdk
+pip install daytona
 ```
 
 ### TypeScript SDK
@@ -83,13 +88,13 @@ npm install @daytonaio/sdk
 ### Python SDK
 
 ```py
-from daytona_sdk import Daytona, DaytonaConfig, CreateSandboxParams
+from daytona import Daytona, DaytonaConfig, CreateSandboxBaseParams
 
 # Initialize the Daytona client
 daytona = Daytona(DaytonaConfig(api_key="YOUR_API_KEY"))
 
 # Create the Sandbox instance
-sandbox = daytona.create(CreateSandboxParams(language="python"))
+sandbox = daytona.create(CreateSandboxBaseParams(language="python"))
 
 # Run code securely inside the Sandbox
 response = sandbox.process.code_run('print("Sum of 3 and 4 is " + str(3 + 4))')
@@ -99,7 +104,7 @@ else:
     print(response.result)
 
 # Clean up the Sandbox
-daytona.remove(sandbox)
+daytona.delete(sandbox)
 ```
 
 ### Typescript SDK
@@ -117,10 +122,10 @@ async function main() {
   try {
     // Create the Sandbox instance
     sandbox = await daytona.create({
-      language: 'python',
+      language: 'typescript',
     })
     // Run code securely inside the Sandbox
-    const response = await sandbox.process.codeRun('print("Sum of 3 and 4 is " + str(3 + 4))')
+    const response = await sandbox.process.codeRun('console.log("Sum of 3 and 4 is " + (3 + 4))')
     if (response.exitCode !== 0) {
       console.error('Error running code:', response.exitCode, response.result)
     } else {
@@ -129,7 +134,7 @@ async function main() {
   } catch (error) {
     console.error('Sandbox flow error:', error)
   } finally {
-    if (sandbox) await daytona.remove(sandbox)
+    if (sandbox) await daytona.delete(sandbox)
   }
 }
 
@@ -140,4 +145,4 @@ main().catch(console.error)
 
 ## Contributing
 
-Daytona is Open Source under the [GNU GENERAL PUBLIC LICENSE](LICENSE), and is the [copyright of its contributors](NOTICE). If you would like to contribute to the software, read the Developer Certificate of Origin Version 1.1 (https://developercertificate.org/). Afterwards, navigate to the [contributing guide](CONTRIBUTING.md) to get started.
+Daytona is Open Source under the [GNU AFFERO GENERAL PUBLIC LICENSE](LICENSE), and is the [copyright of its contributors](NOTICE). If you would like to contribute to the software, read the Developer Certificate of Origin Version 1.1 (https://developercertificate.org/). Afterwards, navigate to the [contributing guide](CONTRIBUTING.md) to get started.

@@ -1,9 +1,9 @@
 ---
 title: evershop
-date: 2025-10-12T12:21:32+08:00
+date: 2025-10-13T12:21:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759830196573-fb0e960fb0eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759830196573-fb0e960fb0eb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756806983687-203048d56220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756806983687-203048d56220?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
 ---
 
 # [evershopcommerce/evershop](https://github.com/evershopcommerce/evershop)

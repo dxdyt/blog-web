@@ -1,9 +1,9 @@
 ---
 title: HowToCook
-date: 2025-06-06T12:25:31+08:00
+date: 2025-10-13T12:22:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746469471553-afa9f34157fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746469471553-afa9f34157fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDkxODM4ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758513305697-8be64c4817a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758513305697-8be64c4817a5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
 ---
 
 # [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
@@ -30,7 +30,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1746469471553-afa9f34157
 
 ```bash
 docker pull ghcr.io/anduin2017/how-to-cook:latest
-docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
+docker run -d -p 5000:80 ghcr.io/anduin2017/how-to-cook:latest
 ```
 
 如需下载 PDF 版本，可以在浏览器中访问 [/document.pdf](https://cook.aiursoft.cn/document.pdf)
@@ -45,6 +45,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 
 - [厨房准备](tips/厨房准备.md)
 - [如何选择现在吃什么](tips/如何选择现在吃什么.md)
+- [食材相克与禁忌](tips/食材相克与禁忌.md)
 - [高压力锅](tips/learn/高压力锅.md)
 - [空气炸锅](tips/learn/空气炸锅.md)
 - [去腥](tips/learn/去腥.md)
@@ -89,9 +90,9 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [鸡蛋羹](dishes/vegetable_dish/鸡蛋羹/鸡蛋羹.md)
 - [微波炉鸡蛋羹](dishes/vegetable_dish/鸡蛋羹/微波炉鸡蛋羹.md)
 - [蒸箱鸡蛋羹](dishes/vegetable_dish/鸡蛋羹/蒸箱鸡蛋羹.md)
+- [鸡蛋花](dishes/vegetable_dish/鸡蛋花/鸡蛋花.md)
 - [鸡蛋火腿炒黄瓜](dishes/vegetable_dish/鸡蛋火腿炒黄瓜.md)
 - [茄子炖土豆](dishes/vegetable_dish/茄子炖土豆.md)
-- [茭白炒肉](dishes/vegetable_dish/茭白炒肉/茭白炒肉.md)
 - [椒盐玉米](dishes/vegetable_dish/椒盐玉米/椒盐玉米.md)
 - [金针菇日本豆腐煲](dishes/vegetable_dish/金针菇日本豆腐煲.md)
 - [烤茄子](dishes/vegetable_dish/烤茄子/烤茄子.md)
@@ -123,11 +124,13 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [西葫芦炒鸡蛋](dishes/vegetable_dish/西葫芦炒鸡蛋/西葫芦炒鸡蛋.md)
 - [小炒藕丁](dishes/vegetable_dish/小炒藕丁/小炒藕丁.md)
 - [洋葱炒鸡蛋](dishes/vegetable_dish/洋葱炒鸡蛋/洋葱炒鸡蛋.md)
+- [油醋爆蛋](dishes/vegetable_dish/油醋爆蛋.md)
 
 ### 荤菜
 
 - [巴基斯坦牛肉咖喱](dishes/meat_dish/巴基斯坦牛肉咖喱/巴基斯坦牛肉咖喱.md)
 - [白菜猪肉炖粉条](dishes/meat_dish/白菜猪肉炖粉条.md)
+- [豉汁蒸白鱔](dishes/meat_dish/豉汁蒸白鱔/豉汁蒸白鱔.md)
 - [带把肘子](dishes/meat_dish/带把肘子.md)
 - [冬瓜酿肉](dishes/meat_dish/冬瓜酿肉/冬瓜酿肉.md)
 - [豆豉鲮鱼油麦菜](dishes/meat_dish/豆豉鲮鱼油麦菜/豆豉鲮鱼油麦菜.md)
@@ -151,10 +154,12 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [回锅肉](dishes/meat_dish/回锅肉/回锅肉.md)
 - [尖椒炒牛肉](dishes/meat_dish/尖椒炒牛肉.md)
 - [尖叫牛蛙](dishes/meat_dish/尖叫牛蛙/尖叫牛蛙.md)
+- [煎烤羊排](dishes/meat_dish/煎烤羊排/煎烤羊排.md)
 - [姜炒鸡](dishes/meat_dish/姜炒鸡/姜炒鸡.md)
 - [姜葱捞鸡](dishes/meat_dish/姜葱捞鸡/姜葱捞鸡.md)
 - [酱牛肉](dishes/meat_dish/酱牛肉/酱牛肉.md)
 - [酱排骨](dishes/meat_dish/酱排骨/酱排骨.md)
+- [茭白炒肉](dishes/meat_dish/茭白炒肉/茭白炒肉.md)
 - [椒盐排条](dishes/meat_dish/椒盐排条.md)
 - [芥末罗氏虾](dishes/meat_dish/芥末罗氏虾/芥末罗氏虾.md)
 - [咖喱肥牛](dishes/meat_dish/咖喱肥牛/咖喱肥牛.md)
@@ -285,6 +290,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [葱油拌面](dishes/staple/葱油拌面.md)
 - [蛋包饭](dishes/staple/蛋包饭.md)
 - [蛋炒饭](dishes/staple/蛋炒饭.md)
+- [电饭煲三文鱼炊饭](dishes/staple/电饭煲三文鱼炊饭/电饭煲三文鱼炊饭.md)
 - [豆角焖面](dishes/staple/豆角焖面/豆角焖面.md)
 - [韩式拌饭](dishes/staple/韩式拌饭/韩式拌饭.md)
 - [河南蒸面条](dishes/staple/河南蒸面条/河南蒸面条.md)
@@ -310,6 +316,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [日式肥牛丼饭](dishes/staple/日式肥牛丼饭/日式肥牛丼饭.md)
 - [日式咖喱饭](dishes/staple/日式咖喱饭/日式咖喱饭.md)
 - [肉蛋盖饭](dishes/staple/肉蛋盖饭.md)
+- [陕西油泼面](dishes/staple/陕西油泼面/陕西油泼面.md)
 - [芝麻烧饼](dishes/staple/烧饼/芝麻烧饼.md)
 - [手工水饺](dishes/staple/手工水饺.md)
 - [酸辣蕨根粉](dishes/staple/酸辣蕨根粉.md)
@@ -370,6 +377,7 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [海边落日](dishes/drink/海边落日/海边落日.md)
 - [金菲士](dishes/drink/金菲士/金菲士.md)
 - [金汤力](dishes/drink/金汤力/金汤力.md)
+- [酒酿醪糟](dishes/drink/酒酿醪糟/酒酿醪糟.md)
 - [可乐桶](dishes/drink/可乐桶.md)
 - [奶茶](dishes/drink/奶茶.md)
 - [柠檬水](dishes/drink/柠檬水/柠檬水.md)
@@ -404,11 +412,13 @@ docker run -d -p 5000:5000 ghcr.io/anduin2017/how-to-cook:latest
 - [红柚蛋糕](dishes/dessert/红柚蛋糕/红柚蛋糕.md)
 - [咖啡椰奶冻](dishes/dessert/咖啡椰奶冻/咖啡椰奶冻.md)
 - [烤蛋挞](dishes/dessert/烤蛋挞/烤蛋挞.md)
+- [烤箱版巴斯克芝士蛋糕](dishes/dessert/烤箱版巴斯克芝士蛋糕/烤箱版巴斯克芝士蛋糕.md)
 - [玛格丽特饼干](dishes/dessert/玛格丽特饼干/玛格丽特饼干.md)
 - [魔芋蛋糕](dishes/dessert/魔芋蛋糕/魔芋蛋糕.md)
 - [戚风蛋糕](dishes/dessert/戚风蛋糕/戚风蛋糕.md)
 - [酸奶意式奶冻](dishes/dessert/酸奶意式奶冻/酸奶意式奶冻.md)
 - [提拉米苏](dishes/dessert/提拉米苏/提拉米苏.md)
+- [无厨师机蜂蜜面包](dishes/dessert/无厨师机蜂蜜面包/无厨师机蜂蜜面包.md)
 - [雪花酥](dishes/dessert/雪花酥/雪花酥.md)
 - [英式司康](dishes/dessert/英式司康/英式司康.md)
 - [芋泥雪媚娘](dishes/dessert/芋泥雪媚娘/芋泥雪媚娘.md)

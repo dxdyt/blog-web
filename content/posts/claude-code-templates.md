@@ -1,9 +1,9 @@
 ---
 title: claude-code-templates
-date: 2025-10-12T12:20:58+08:00
+date: 2025-10-13T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756906838752-0b514ab37479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756906838752-0b514ab37479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAyNDI4MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758944966810-9785cfbf4486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758944966810-9785cfbf4486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
 ---
 
 # [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)

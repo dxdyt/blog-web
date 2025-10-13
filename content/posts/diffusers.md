@@ -1,9 +1,9 @@
 ---
 title: diffusers
-date: 2024-10-26T12:20:58+08:00
+date: 2025-10-13T12:23:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726629597543-8d5a86b7c998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726629597543-8d5a86b7c998?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjk5MTYzNTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1757772435620-b4b74ff9a792?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757772435620-b4b74ff9a792?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/diffusers](https://github.com/huggingface/diffusers)
@@ -47,7 +47,7 @@ limitations under the License.
 
 ## Installation
 
-We recommend installing 🤗 Diffusers in a virtual environment from PyPI or Conda. For more details about installing [PyTorch](https://pytorch.org/get-started/locally/) and [Flax](https://flax.readthedocs.io/en/latest/#installation), please refer to their official documentation.
+We recommend installing 🤗 Diffusers in a virtual environment from PyPI or Conda. For more details about installing [PyTorch](https://pytorch.org/get-started/locally/), please refer to their official documentation.
 
 ### PyTorch
 
@@ -61,14 +61,6 @@ With `conda` (maintained by the community):
 
 ```sh
 conda install -c conda-forge diffusers
-```
-
-### Flax
-
-With `pip` (official package):
-
-```bash
-pip install --upgrade diffusers[flax]
 ```
 
 ### Apple Silicon (M1/M2) support
@@ -122,9 +114,9 @@ Check out the [Quickstart](https://huggingface.co/docs/diffusers/quicktour) to l
 | **Documentation**                                                   | **What can I learn?**                                                                                                                                                                           |
 |---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Tutorial](https://huggingface.co/docs/diffusers/tutorials/tutorial_overview)                                                            | A basic crash course for learning how to use the library's most important features like using models and schedulers to build your own diffusion system, and training your own diffusion model.  |
-| [Loading](https://huggingface.co/docs/diffusers/using-diffusers/loading_overview)                                                             | Guides for how to load and configure all the components (pipelines, models, and schedulers) of the library, as well as how to use different schedulers.                                         |
-| [Pipelines for inference](https://huggingface.co/docs/diffusers/using-diffusers/pipeline_overview)                                             | Guides for how to use pipelines for different inference tasks, batched generation, controlling generated outputs and randomness, and how to contribute a pipeline to the library.               |
-| [Optimization](https://huggingface.co/docs/diffusers/optimization/opt_overview)                                                        | Guides for how to optimize your diffusion model to run faster and consume less memory.                                                                                                          |
+| [Loading](https://huggingface.co/docs/diffusers/using-diffusers/loading)                                                             | Guides for how to load and configure all the components (pipelines, models, and schedulers) of the library, as well as how to use different schedulers.                                         |
+| [Pipelines for inference](https://huggingface.co/docs/diffusers/using-diffusers/overview_techniques)                                             | Guides for how to use pipelines for different inference tasks, batched generation, controlling generated outputs and randomness, and how to contribute a pipeline to the library.               |
+| [Optimization](https://huggingface.co/docs/diffusers/optimization/fp16)                                                        | Guides for how to optimize your diffusion model to run faster and consume less memory.                                                                                                          |
 | [Training](https://huggingface.co/docs/diffusers/training/overview) | Guides for how to train a diffusion model for different tasks with different training techniques.                                                                                               |
 ## Contribution
 
