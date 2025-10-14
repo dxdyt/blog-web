@@ -1,9 +1,9 @@
 ---
 title: klavis
-date: 2025-10-13T12:23:54+08:00
+date: 2025-10-14T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759812224434-079528454f07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759812224434-079528454f07?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757898023680-df17835d6b18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757898023680-df17835d6b18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
 ---
 
 # [Klavis-AI/klavis](https://github.com/Klavis-AI/klavis)

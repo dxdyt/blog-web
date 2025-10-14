@@ -1,9 +1,9 @@
 ---
 title: Win11Debloat
-date: 2025-07-27T12:44:08+08:00
+date: 2025-10-14T12:23:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743445888873-7b989699663d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743445888873-7b989699663d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759327718818-0cfee2207279?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759327718818-0cfee2207279?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
 ---
 
 # [Raphire/Win11Debloat](https://github.com/Raphire/Win11Debloat)
@@ -57,7 +57,7 @@ Download & run the script automatically via PowerShell.
 3. Wait for the script to automatically download Win11Debloat.
 4. Carefully read through and follow the on-screen instructions.
 
-This method supports parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/How-To-Use#parameters) for more information.
+This method supports command-line parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/How-To-Use#parameters) for more information.
 
 ### Traditional method
 
@@ -93,7 +93,7 @@ This method supports parameters to customize the behaviour of the script. Please
 
   6. Carefully read through and follow the on-screen instructions.
 
-  This method supports parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/How-To-Use#parameters) for more information.
+  This method supports command-line parameters to customize the behaviour of the script. Please click [here](https://github.com/Raphire/Win11Debloat/wiki/How-To-Use#parameters) for more information.
 </details>
 
 ## Features
@@ -111,14 +111,19 @@ Below is an overview of the key features and functionality offered by Win11Deblo
 #### Telemetry, Tracking & Suggested Content
 
 - Disable telemetry, diagnostic data, activity history, app-launch tracking & targeted ads.
-- Disable tips, tricks, suggestions and ads in start, settings, notifications, File Explorer, and on the lockscreen.
+- Disable tips, tricks, suggestions & ads across Windows.
+- Disable ads, suggestions and the MSN news feed in Microsoft Edge.
 - Disable the 'Windows Spotlight' desktop background option.
 
-#### Bing Web Search, Copilot & More
+#### Bing Web Search, Copilot & AI Features
 
 - Disable & remove Bing web search, Bing AI and Cortana from Windows search.
-- Disable & remove Microsoft Copilot. (W11 only)
-- Disable Windows Recall snapshots. (W11 only)
+- Disable & remove Microsoft Copilot.
+- Disable Windows Recall. (W11 only)
+- Disable Click to Do, AI text & image analysis tool. (W11 only)
+- Disable AI Features in Edge. (W11 only)
+- Disable AI Features in Paint. (W11 only)
+- Disable AI Features in Notepad. (W11 only)
 
 #### Personalisation
 
@@ -141,91 +146,105 @@ Below is an overview of the key features and functionality offered by Win11Deblo
 #### Taskbar
 
 - Align taskbar icons to the left. (W11 only)
+- Choose combine mode for taskbar buttons and labels. (W11 only)
+- Choose how app icons are shown on the taskbar when using multiple monitors. (W11 only)
 - Hide or change the search icon/box on the taskbar. (W11 only)
 - Hide the taskview button from the taskbar. (W11 only)
-- Disable the widgets service & hide icon from the taskbar.
-- Hide the chat (meet now) icon from the taskbar.
+- Disable widgets on the taskbar & lockscreen.
+- Hide the chat (meet now) icon from the taskbar. (W10 only)
 - Enable the 'End Task' option in the taskbar right click menu. (W11 only)
+- Enable the 'Last Active Click' behavior in the taskbar app area. This allows you to repeatedly click on an application's icon in the taskbar to switch focus between the open windows of that application.
 
 #### Start
-- Disable & hide the recommended section in the start menu. (W11 only)
+
+- Disable the recommended section in the start menu. (W11 only)
 - Disable the Phone Link mobile devices integration in the start menu. (W11 only)
 
 #### Other
 
 - Disable Xbox game/screen recording, this also stops gaming overlay popups.
 - Disable Fast Start-up to ensure a full shutdown.
+- Disable network connectivity during Modern Standby to reduce battery drain. (W11 only)
 - Option to [apply changes to a different user](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#running-as-another-user), instead of the currently logged in user.
 - [Sysprep mode](https://github.com/Raphire/Win11Debloat/wiki/Advanced-Features#sysprep-mode) to apply changes to the Windows Default user profile. Afterwards, all new users will have the changes automatically applied to them.
 
 ### Default Settings
 
-Win11Debloat offers a default mode that allows you to quickly and easily apply the changes that are recommended for most people. This includes uninstalling apps that most would consider bloatware, removing many annoying distractions and disabling telemetry and tracking. To apply the default settings, launch the script as you normally would and select option `1` in the script menu. Alternatively, you can launch the script with the `-RunDefaults` parameter. Example:
+Win11Debloat's default mode allows you to quickly and easily apply the changes that are recommended for most people. This includes removing many annoying distractions, disabling telemetry and tracking and optionally uninstalling the default or your custom selection of apps. To apply the default settings, launch the script as you normally would and select option `1` in the script menu.
 
+Alternatively, you can launch the script with the `-RunDefaults` or `-RunDefaultsLite` parameters to immediately run the defaults without going through the menu or the app removal options. Using the `-RunDefaults` parameter will run the script in default mode and remove the default selection of apps. While using the `-RunDefaultsLite` parameter will run the script in default mode without removing any apps. Example:
 ```Powershell
 & ([scriptblock]::Create((irm "https://debloat.raphi.re/"))) -RunDefaults
 ```
   
 #### Changes included in the default mode
-- Remove the default selection of bloatware apps. (See below for full list)
+- Remove the default or your custom selection of apps. (See below for the default selection of apps)
 - Disable telemetry, diagnostic data, activity history, app-launch tracking & targeted ads.
-- Disable tips, tricks, suggestions and ads in start, settings, notifications, File Explorer, and on the lockscreen.
+- Disable tips, tricks, suggestions & ads across Windows.
+- Disable ads, suggestions and the MSN news feed in Microsoft Edge.
 - Disable & remove Bing web search, Bing AI and Cortana from Windows search.
-- Disable & remove Microsoft Copilot. (W11 only)
+- Disable & remove Microsoft Copilot.
+- Disable Windows Recall. (W11 only)
+- Disable Click to Do, AI text & image analysis tool. (W11 only)
 - Disable Fast Start-up to ensure a full shutdown.
+- Disable network connectivity during Modern Standby to reduce battery drain. (W11 only)
 - Show file extensions for known file types.
 - Hide the 3D objects folder under 'This pc' from File Explorer. (W10 only)
-- Disable the widget service & hide the icon from the taskbar.
-- Hide the Chat (meet now) icon from the taskbar.
+- Disable widgets on the taskbar & lockscreen.
+- Hide the Chat (meet now) icon from the taskbar. (W10 only)
 
-#### Apps that ARE removed as part of the default mode
+#### Apps that ARE removed by default
+
+These apps are uninstalled when you opt to remove the default selection of apps.
 
 <details>
   <summary>Click to expand</summary>
   <blockquote>
     
-    Microsoft bloat:
-    - Clipchamp.Clipchamp  
-    - Microsoft.3DBuilder  
-    - Microsoft.549981C3F5F10 (Cortana app)
-    - Microsoft.BingFinance  
-    - Microsoft.BingFoodAndDrink 
-    - Microsoft.BingHealthAndFitness
-    - Microsoft.BingNews  
-    - Microsoft.BingSearch* (Bing web search in Windows)
-    - Microsoft.BingSports  
-    - Microsoft.BingTranslator  
-    - Microsoft.BingTravel   
-    - Microsoft.BingWeather  
-    - Microsoft.Copilot
-    - Microsoft.Getstarted (Cannot be uninstalled in Windows 11)
-    - Microsoft.Messaging  
-    - Microsoft.Microsoft3DViewer  
-    - Microsoft.MicrosoftJournal
-    - Microsoft.MicrosoftOfficeHub  
-    - Microsoft.MicrosoftPowerBIForWindows  
-    - Microsoft.MicrosoftSolitaireCollection  
-    - Microsoft.MicrosoftStickyNotes  
-    - Microsoft.MixedReality.Portal  
-    - Microsoft.NetworkSpeedTest  
-    - Microsoft.News  
-    - Microsoft.Office.OneNote (Discontinued UWP version only, does not remove new MS365 versions)
-    - Microsoft.Office.Sway  
-    - Microsoft.OneConnect  
-    - Microsoft.Print3D  
-    - Microsoft.SkypeApp  
-    - Microsoft.Todos  
-    - Microsoft.WindowsAlarms  
-    - Microsoft.WindowsFeedbackHub  
-    - Microsoft.WindowsMaps  
-    - Microsoft.WindowsSoundRecorder  
+    Microsoft apps:
+    - Clipchamp.Clipchamp (Video editor from Microsoft)
+    - Microsoft.3DBuilder (Basic 3D modeling software)
+    - Microsoft.549981C3F5F10 (Cortana app, discontinued)
+    - Microsoft.BingFinance (Finance news and tracking via Bing, discontinued)
+    - Microsoft.BingFoodAndDrink (Recipes and food news via Bing, discontinued)
+    - Microsoft.BingHealthAndFitness (Health and fitness tracking/news via Bing, discontinued)
+    - Microsoft.BingNews (News aggregator via Bing, replaced by Microsoft News/Start)
+    - Microsoft.BingSports (Sports news and scores via Bing, discontinued)
+    - Microsoft.BingTranslator (Translation service via Bing)
+    - Microsoft.BingTravel (Travel planning and news via Bing, discontinued)
+    - Microsoft.BingWeather (Weather forecast via Bing)
+    - Microsoft.Copilot (AI assistant integrated into Windows)
+    - Microsoft.Getstarted (Tips and introductory guide for Windows, cannot be uninstalled in Windows 11)
+    - Microsoft.Messaging (Messaging app, often integrates with Skype, largely deprecated) 
+    - Microsoft.Microsoft3DViewer (Viewer for 3D models)
+    - Microsoft.MicrosoftJournal (Digital note-taking app optimized for pen input)
+    - Microsoft.MicrosoftOfficeHub (Hub to access Microsoft Office apps and documents, precursor to Microsoft 365 app)
+    - Microsoft.MicrosoftPowerBIForWindows (Business analytics service client)
+    - Microsoft.MicrosoftSolitaireCollection (Collection of solitaire card games)
+    - Microsoft.MicrosoftStickyNotes (Digital sticky notes app, deprecated & replaced by OneNote)
+    - Microsoft.MixedReality.Portal (Portal for Windows Mixed Reality headsets)
+    - Microsoft.NetworkSpeedTest (Internet connection speed test utility)
+    - Microsoft.News (News aggregator. Replaced Bing News and now part of Microsoft Start)
+    - Microsoft.Office.OneNote (Digital note-taking app, Universal Windows Platform version)
+    - Microsoft.Office.Sway (Presentation and storytelling app)
+    - Microsoft.OneConnect (Mobile Operator management app, replaced by Mobile Plans)
+    - Microsoft.PowerAutomateDesktop (Desktop automation tool)
+    - Microsoft.Print3D (3D printing preparation software)
+    - Microsoft.SkypeApp (Skype communication app, Universal Windows Platform version)
+    - Microsoft.Todos (To-do list and task management app)
+    - Microsoft.Windows.DevHome (Developer dashboard and tool configuration utility, no longer supported)
+    - Microsoft.WindowsAlarms (Alarms & Clock app)
+    - Microsoft.WindowsFeedbackHub (App for providing feedback to Microsoft on Windows)
+    - Microsoft.WindowsMaps (Mapping and navigation app)
+    - Microsoft.WindowsSoundRecorder (Basic audio recording app)
     - Microsoft.XboxApp (Old Xbox Console Companion App, no longer supported)
-    - Microsoft.ZuneVideo  
-    - MicrosoftCorporationII.MicrosoftFamily (Microsoft Family Safety)
-    - MicrosoftTeams (Old personal version of MS Teams from the MS Store)
-    - MSTeams (New MS Teams app)
+    - Microsoft.ZuneVideo (Movies & TV app for renting/buying/playing video content. Rebranded as "Films & TV")
+    - MicrosoftCorporationII.MicrosoftFamily (Family Safety App for managing family accounts and settings)
+    - MicrosoftCorporationII.QuickAssist (Remote assistance tool)
+    - MicrosoftTeams (Old MS Teams personal, MS Store version)
+    - MSTeams (New MS Teams app. Work/School or Personal)
 
-    Third party bloat:
+    Third party apps:    
     - ACGMediaPlayer  
     - ActiproSoftwareLLC  
     - AdobeSystemsIncorporated.AdobePhotoshopExpress  
@@ -238,7 +257,6 @@ Win11Debloat offers a default mode that allows you to quickly and easily apply t
     - CyberLinkMediaSuiteEssentials  
     - DisneyMagicKingdoms  
     - Disney 
-    - Dolby  
     - DrawboardPDF  
     - Duolingo-LearnLanguagesforFree  
     - EclipseManager  
@@ -267,7 +285,6 @@ Win11Debloat offers a default mode that allows you to quickly and easily apply t
     - Shazam  
     - Sidia.LiveWallpaper  
     - SlingTV  
-    - Speed Test  
     - Spotify  
     - TikTok
     - TuneInRadio  
@@ -276,32 +293,33 @@ Win11Debloat offers a default mode that allows you to quickly and easily apply t
     - WinZipUniversal  
     - Wunderlist  
     - XING
-    
-    * App is removed when disabling Bing in Windows search.
 </blockquote>
 </details>
 
-#### Apps that are NOT removed as part of the default mode
+#### Apps that are NOT removed by default
+
+These apps will not be removed by Win11Debloat unless explicitly selected by the user.
 
 <details>
   <summary>Click to expand</summary>
   <blockquote>
 
-    General apps that are not removed by default:
+    Miscellaneous apps:
     - Microsoft.Edge (Edge browser, only removeable in the EEA)
     - Microsoft.GetHelp (Required for some Windows 11 Troubleshooters)
     - Microsoft.MSPaint (Paint 3D)
-    - Microsoft.OutlookForWindows* (New mail app)
+    - Microsoft.OutlookForWindows (New mail app)
     - Microsoft.OneDrive (OneDrive consumer)
     - Microsoft.Paint (Classic Paint)
-    - Microsoft.People* (Required for & included with Mail & Calendar)
+    - Microsoft.People (Required for & included with Mail & Calendar)
+    - Microsoft.RemoteDesktop
     - Microsoft.ScreenSketch (Snipping Tool)
     - Microsoft.Whiteboard (Only preinstalled on devices with touchscreen and/or pen support)
     - Microsoft.Windows.Photos
     - Microsoft.WindowsCalculator
     - Microsoft.WindowsCamera
     - Microsoft.WindowsNotepad
-    - Microsoft.windowscommunicationsapps* (Mail & Calendar)
+    - Microsoft.windowscommunicationsapps (Mail & Calendar)
     - Microsoft.WindowsStore (Microsoft Store, NOTE: This app cannot be reinstalled!)
     - Microsoft.WindowsTerminal (New default terminal app in Windows 11)
     - Microsoft.YourPhone (Phone Link)
@@ -309,41 +327,34 @@ Win11Debloat offers a default mode that allows you to quickly and easily apply t
     - Microsoft.ZuneMusic (Modern Media Player)
     - MicrosoftWindows.CrossDevice (Phone integration within File Explorer, Camera and more)
 
-    HP apps that are not removed by default:
-    - AD2F1837.HPAIExperienceCenter*
-    - AD2F1837.HPConnectedMusic*
-    - AD2F1837.HPConnectedPhotopoweredbySnapfish*
-    - AD2F1837.HPDesktopSupportUtilities*
-    - AD2F1837.HPEasyClean*
-    - AD2F1837.HPFileViewer*
-    - AD2F1837.HPJumpStarts*
-    - AD2F1837.HPPCHardwareDiagnosticsWindows*
-    - AD2F1837.HPPowerManager*
-    - AD2F1837.HPPrinterControl*
-    - AD2F1837.HPPrivacySettings*
-    - AD2F1837.HPQuickDrop*
-    - AD2F1837.HPQuickTouch*
-    - AD2F1837.HPRegistration*
-    - AD2F1837.HPSupportAssistant*
-    - AD2F1837.HPSureShieldAI*
-    - AD2F1837.HPSystemInformation*
-    - AD2F1837.HPWelcome*
-    - AD2F1837.HPWorkWell*
-    - AD2F1837.myHP*
-
-    Gaming related apps that are not removed by default:
-    - Microsoft.GamingApp* (Modern Xbox Gaming App, required for installing some games)
-    - Microsoft.XboxGameOverlay* (Game overlay, required for some games)
-    - Microsoft.XboxGamingOverlay* (Game overlay, required for some games)
+    Gaming related apps:
+    - Microsoft.GamingApp (Modern Xbox Gaming App, required for installing some games)
+    - Microsoft.XboxGameOverlay (Game overlay, required for some games)
+    - Microsoft.XboxGamingOverlay (Game overlay, required for some games)
     - Microsoft.XboxIdentityProvider (Xbox sign-in framework, required for some games)
     - Microsoft.XboxSpeechToTextOverlay (Might be required for some games, NOTE: This app cannot be reinstalled!)
 
-    Developer related apps that are not removed by default:
-    - Microsoft.PowerAutomateDesktop*
-    - Microsoft.RemoteDesktop*
-    - Windows.DevHome*
-
-    * Can be removed by running the script with the relevant parameter. (Please refer to the wiki for more details)
+    HP apps:
+    - AD2F1837.HPAIExperienceCenter
+    - AD2F1837.HPConnectedMusic
+    - AD2F1837.HPConnectedPhotopoweredbySnapfish
+    - AD2F1837.HPDesktopSupportUtilities
+    - AD2F1837.HPEasyClean
+    - AD2F1837.HPFileViewer
+    - AD2F1837.HPJumpStarts
+    - AD2F1837.HPPCHardwareDiagnosticsWindows
+    - AD2F1837.HPPowerManager
+    - AD2F1837.HPPrinterControl
+    - AD2F1837.HPPrivacySettings
+    - AD2F1837.HPQuickDrop
+    - AD2F1837.HPQuickTouch
+    - AD2F1837.HPRegistration
+    - AD2F1837.HPSupportAssistant
+    - AD2F1837.HPSureShieldAI
+    - AD2F1837.HPSystemInformation
+    - AD2F1837.HPWelcome
+    - AD2F1837.HPWorkWell
+    - AD2F1837.myHP
 </blockquote>
 </details>
 
