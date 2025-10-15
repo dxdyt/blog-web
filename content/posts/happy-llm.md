@@ -1,9 +1,9 @@
 ---
 title: happy-llm
-date: 2025-09-14T12:21:28+08:00
+date: 2025-10-15T12:22:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1734779205926-e95618979119?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1MDIwODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1734779205926-e95618979119?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1MDIwODR8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/happy-llm](https://github.com/datawhalechina/happy-llm)
