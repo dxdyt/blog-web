@@ -1,9 +1,9 @@
 ---
 title: envoy
-date: 2024-09-05T12:20:11+08:00
+date: 2025-10-16T12:21:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724086575622-9c7ad00601c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724086575622-9c7ad00601c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1759405095263-b0413c67e57f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759405095263-b0413c67e57f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
 ---
 
 # [envoyproxy/envoy](https://github.com/envoyproxy/envoy)
@@ -30,7 +30,6 @@ involved and how Envoy plays a role, read the CNCF
 
 * [Official documentation](https://www.envoyproxy.io/)
 * [FAQ](https://www.envoyproxy.io/docs/envoy/latest/faq/overview)
-* [Unofficial Chinese documentation](https://cloudnative.to/envoy/)
 * [Example documentation](https://github.com/envoyproxy/examples/)
 * [Blog](https://medium.com/@mattklein123/envoy-threading-model-a8d44b922310) about the threading model
 * [Blog](https://medium.com/@mattklein123/envoy-hot-restart-1d16b14555b5) about hot restart
@@ -79,11 +78,13 @@ have prior experience. To get started:
 
 ## Community Meeting
 
-The Envoy team meets twice per month on Tuesday at 9am PT. The public
-Google calendar is here: https://goo.gl/PkDijT
-
-* Meeting minutes are [here](https://goo.gl/5Cergb)
-* Recorded videos are posted [here](https://www.youtube.com/channel/UC5z5mvPgqMs1xo5VuIWzYTA)
+The Envoy team has a scheduled meeting time twice per month on Tuesday at 9am PT. The public
+Google calendar is [here](https://goo.gl/PkDijT).  The meeting will only be held
+if there are agenda items listed in the [meeting
+minutes](https://goo.gl/5Cergb).  Any member of the community should be able to
+propose agenda items by adding to the minutes.  The maintainers will either confirm
+the additions to the agenda, or will cancel the meeting within 24 hours of the scheduled
+date if there is no confirmed agenda.
 
 ## Security
 
@@ -101,6 +102,10 @@ email to acknowledge your report, and we'll send an additional email when we've 
 positively or negatively.
 
 For further details please see our complete [security release process](SECURITY.md).
+
+### ppc64le builds
+
+Builds for the ppc64le architecture or using aws-lc are not covered by the envoy security policy. The ppc64le architecture is currently best-effort and not maintained by the Envoy maintainers.
 
 ## Releases
 

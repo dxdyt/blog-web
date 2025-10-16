@@ -1,9 +1,9 @@
 ---
 title: waha
-date: 2025-08-02T12:34:37+08:00
+date: 2025-10-16T12:22:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752586609110-9ce679a15b5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752586609110-9ce679a15b5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQxMDkyNTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757565193219-65b0a5d7f89d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757565193219-65b0a5d7f89d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
 ---
 
 # [devlikeapro/waha](https://github.com/devlikeapro/waha)

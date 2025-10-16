@@ -1,9 +1,9 @@
 ---
 title: nanobrowser
-date: 2025-09-18T12:22:27+08:00
+date: 2025-10-16T12:22:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755308482593-f733b46e15ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755308482593-f733b46e15ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgxNjkyMzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759405095263-b0413c67e57f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759405095263-b0413c67e57f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
 ---
 
 # [nanobrowser/nanobrowser](https://github.com/nanobrowser/nanobrowser)
