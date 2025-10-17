@@ -1,9 +1,9 @@
 ---
 title: GPTs
-date: 2024-01-20T12:18:25+08:00
+date: 2025-10-17T12:22:50+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1703192163803-e63d896d2379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1703192163803-e63d896d2379?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDU3MjQxNTd8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1760043729063-26b2fefd9b08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760043729063-26b2fefd9b08?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
 ---
 
 # [linexjlin/GPTs](https://github.com/linexjlin/GPTs)
@@ -11,23 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1703192163803-e63d896d23
 # GPTs
 This repo collects leaked prompts of GPTs. 
 
-Most of prompts I colleted from [here](https://x.com/dotey/status/1722831122285932592?s=20)
+Most of the prompts I collected from [here](https://x.com/dotey/status/1722831122285932592?s=20), some are from GitHub users' pull requests, and some are from using some hacked by me.
 
-## Sponsors
-
-<p align="center">
-<h3 align="center">Sponsor</h3>
-</p>
-
-<p align="center">
-<a target="_blank" href="https://gptshunter.com/?utm_source=leaked_gpts">
-<img alt="GPTsHunter" src="https://gptshunter.com/full-logo.svg" width="300">
-</a>
-</p>
-
-
-
-- [gptshunter](https://gptshunter.com/?utm_source=leaked_gpts) Find userful GPTs here.
 
 ## Leaked Prompts of GPTs
 - [DevRel Guide](./prompts/devrelguide.md) by Rohit Ghumare
@@ -186,7 +171,6 @@ Most of prompts I colleted from [here](https://x.com/dotey/status/17228311222859
 - [!Breakdown: Outline Any Topic](./prompts/Breakdown%20Outline%20Any%20Topic.md) by puzzle.today
 - [!The Rizz Game](./prompts/The%20Rizz%20Game.md) by puzzle.today
 - [超级Dalle](./prompts/超级Dalle.md) by myaiforce.com
-- [Makise Kurisu](./prompts/Makise%20Kurisu.md)
 - [Phoenix Ink](./prompts/Phoenix%20Ink.md) by MEHMET GENCAY IŞIK
 - [Email Proofreader](./prompts/Email%20Proofreader.md) by Pouria Rouzrokh
 - [英文校正GPT](./prompts/英文校正GPT.md)
@@ -251,7 +235,6 @@ Most of prompts I colleted from [here](https://x.com/dotey/status/17228311222859
 - [World Class Software Engineer](./prompts/World%20Class%20Software%20Engineer.md) by nertai.co
 - [Unbreakable GPT](./prompts/Unbreakable%20GPT.md) by aevummachinae.com
 - [Animal Chefs](./prompts/Animal%20Chefs.md) by simonwillison.net
-- [QuantFinance](./prompts/QuantFinance.md) by Nicolo Ceneda
 - [The Greatest Computer Science Tutor](./prompts/The%20Greatest%20Computer%20Science%20Tutor.md) by nertai.co
 - [Trending TikTok Hashtags Finder Tool](./prompts/Trending%20TikTok%20Hashtags%20Finder%20Tool.md) by seo.ai
 - [Mr. Ranedeer Config Wizard](./prompts/Mr.%20Ranedeer%20Config%20Wizard.md) by mr-ranedeer.com
@@ -265,6 +248,49 @@ Most of prompts I colleted from [here](https://x.com/dotey/status/17228311222859
 - [中文作文批改助手](./prompts/中文作文批改助手.md) by Arden Moses
 - [DeepGame](./prompts/DeepGame.md)　By Utile Labs
 - [Pineapple Builder](./prompts/PineappleBuilder.md)　By Peter Kowalczyk
+- [Astrology Fortune Teller](./prompts/Astrology%20Fortune%20Teller.md) by quaere.ai
+- [考研保研简历提问助手](./prompts/考研保研简历提问助手.md) by LeoCui
+- [MJ Prompt Generator (V6)](./prompts/MJ%20Prompt%20Generator%20(V6).md) by featuredgpts.com
+- [法律专家](./prompts/法律专家.md) by Weiqiao Zhu
+- [Book Creator Guide](./prompts/Book%20Creator%20Guide.md) by Choi Yong
+- [Gauntlet: Movies](./prompts/Gauntlet%20Movies.md) by Josh Brent N. Villocido
+- [Whimsical Diagrams](./prompts/Whimsical%20Diagrams.md) by whimsical.com
+- [Books](./prompts/Books.md) by Josh Brent N. Villocido
+- [鹦鹉GPT 🦜](./prompts/鹦鹉GPT%20🦜.md) by gantrol.com
+- [鲁迅说](./prompts/鲁迅说.md) by QCHEN
+- [Midjouney Prompt Tools](./prompts/Midjouney%20Prompt%20Tools.md) by chatby.xyz
+- [Mid Journey V6 Prompt Creator](./prompts/Mid%20Journey%20V6%20Prompt%20Creator.md) by jandthebots.com
+- [思维导图](./prompts/思维导图.md) by Tang Youpeng
+- [Diagrams: Show Me](./prompts/Diagrams%20Show%20Me.md) by helpful.dev
+- [Write For Me](./prompts/Write%20For%20Me.md) by puzzle.today
+- [Logo Creator](./prompts/Logo%20Creator.md) by Chase Lean
+- [董宇辉小作文助手](./prompts/董宇辉小作文助手.md) by wesureai.com
+- [Mega-Prompt](./prompts/Mega-Prompt.md) by Aisen Lopez
+- [Prompt For Me](./prompts/Prompt%20For%20Me.md) by hansgpt.me
+- [Practice English by Debating](./prompts/Practice%20English%20by%20Debating.md) by Utku Sen
+- [Suno音乐歌词创作专家v3.2](./prompts/Suno%E9%9F%B3%E4%B9%90%E6%AD%8C%E8%AF%8D%E5%88%9B%E4%BD%9C%E4%B8%93%E5%AE%B6v3.2.md) by ai momo
+- [Midjourney超级生成器（V5.2 & V6）](./prompts/Midjourney超级生成器（V5.2%20%26%20V6）.md) by gpts.gapier.net
+- [GODMODE 2.0](./prompts/GODMODE%202.0.md)
+- [SQL Expert](./prompts/SQL%20Expert.md) by Dmitry Khanukov
+- [Website Generator](./prompts/Website%20Generator.md) by websitegenerator.b12.io
+- [Framework Finder](./prompts/Framework%20Finder.md) by Ethan R Mollick
+- [Math Solver](./prompts/Math%20Solver.md)
+- [MindMateGPT](./prompts/MindMateGPT.md) by Anthony Carlos Teixeira
+- [BookMate - Book Recommendations](./prompts/BookMate%20-%20Book%20Recommendations.md) by community builder
+- [Android Studio GPT](./prompts/Android%20Studio%20GPT.md) by Rhonal Alonso Delgado Padilla
+- [CBT GPT](./prompts/CBT%20GPT.md) by Brett Evanson
+- [MCQ Creation Assistant](./prompts/MCQ%20Creation%20Assistant.md) by Rowboaterstop AB
+- [Socratic Therapy](./prompts/SocraticTherapy.md) by Kasra Bayani
+- [Code Tutor](./prompts/Code%20Tutor.md) by khanacademy.org
+- [FLUX Prompt Wizard 🪄](./prompts/FLUX%20Prompt%20Wizard.md) by sjgpts.com
+- [LeetCoder Ace](./prompts/LeetCoder%20Ace.md) by YANG YANG
+- [咪蒙标题](./prompts/咪蒙标题.md) by Haibo Liu
+- [Summarizer ㆍYouTube PDF Book Article Web Text Code](./prompts/Summarizer%20%E2%80%A2YouTube%20PDF%20Book%20Article%20Web%20Text%20Code.md) by Frames
+
+
+
+
+
 
 ## Open Source GPTs
 GitHub repos with prompts, actions and knowledge files of existing GPTs.

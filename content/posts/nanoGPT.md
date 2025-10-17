@@ -1,9 +1,9 @@
 ---
 title: nanoGPT
-date: 2025-10-16T12:21:31+08:00
+date: 2025-10-17T12:22:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759405095263-b0413c67e57f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759405095263-b0413c67e57f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1ODg0NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758575603981-405bdc53c372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758575603981-405bdc53c372?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
 ---
 
 # [karpathy/nanoGPT](https://github.com/karpathy/nanoGPT)

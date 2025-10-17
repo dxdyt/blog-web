@@ -1,9 +1,9 @@
 ---
 title: reflex
-date: 2025-08-06T12:44:01+08:00
+date: 2025-10-17T12:22:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752159140408-906317c0fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752159140408-906317c0fa6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ0NTU0MjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758478648528-61a41d58944b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758478648528-61a41d58944b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
 ---
 
 # [reflex-dev/reflex](https://github.com/reflex-dev/reflex)

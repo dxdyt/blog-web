@@ -1,9 +1,9 @@
 ---
 title: Clone-Wars
-date: 2025-10-15T12:21:48+08:00
+date: 2025-10-17T12:22:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759752783873-58183420f309?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1MDIwODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759752783873-58183420f309?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA1MDIwODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759228867945-b6de58bc9a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759228867945-b6de58bc9a6d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA2NzQ4OTd8&ixlib=rb-4.1.0
 ---
 
 # [GorvGoyl/Clone-Wars](https://github.com/GorvGoyl/Clone-Wars)
