@@ -1,9 +1,9 @@
 ---
 title: waveterm
-date: 2024-12-17T12:21:23+08:00
+date: 2025-10-18T12:22:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732740676396-ece9a9148342?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732740676396-ece9a9148342?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzQ0MDkyNTR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1759310347743-b9b4672d20d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759310347743-b9b4672d20d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
 ---
 
 # [wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
@@ -22,7 +22,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1732740676396-ece9a91483
 # Wave Terminal
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fwavetermdev%2Fwaveterm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fwavetermdev%2Fwaveterm?ref=badge_shield)
-[![waveterm](https://snapcraft.io/waveterm/trending.svg?name=0)](https://snapcraft.io/waveterm)
 
 Wave is an open-source terminal that combines traditional terminal features with graphical capabilities like file previews, web browsing, and AI assistance. It runs on MacOS, Linux, and Windows.
 
@@ -51,11 +50,23 @@ You can also install Wave Terminal directly from: [www.waveterm.dev/download](ht
 
 ### Minimum requirements
 
-Wave Terminal and WSH run on the following platforms:
+Wave Terminal runs on the following platforms:
 
 - macOS 11 or later (arm64, x64)
 - Windows 10 1809 or later (x64)
 - Linux based on glibc-2.28 or later (Debian 10, RHEL 8, Ubuntu 20.04, etc.) (arm64, x64)
+
+The WSH helper runs on the following platforms:
+
+- macOS 11 or later (arm64, x64)
+- Windows 10 or later (arm64, x64)
+- Linux Kernel 2.6.32 or later (x64), Linux Kernel 3.1 or later (arm64)
+
+## Roadmap
+
+Wave is constantly improving! Our roadmap will be continuously updated with our goals for each release. You can find it [here](./ROADMAP.md).
+
+Want to provide input to our future releases? Connect with us on [Discord](https://discord.gg/XfvZ334gwU) or open a [Feature Request](https://github.com/wavetermdev/waveterm/issues/new/choose)!
 
 ## Links
 
@@ -80,10 +91,6 @@ Find more information in our [Contributions Guide](CONTRIBUTING.md), which inclu
 - [Ways to contribute](CONTRIBUTING.md#contributing-to-wave-terminal)
 - [Contribution guidelines](CONTRIBUTING.md#before-you-start)
 - [Storybook](https://docs.waveterm.dev/storybook)
-
-### Activity
-
-![Alt](https://repobeats.axiom.co/api/embed/f06b0f7bb1656d2493012ad411bbd746e8bf680f.svg "Repobeats analytics image")
 
 ## License
 

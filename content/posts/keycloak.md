@@ -1,9 +1,9 @@
 ---
 title: keycloak
-date: 2025-07-27T12:43:22+08:00
+date: 2025-10-18T12:21:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750400519608-d70c17c99b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750400519608-d70c17c99b8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM1OTEzNTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758567088839-15860fb2a081?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758567088839-15860fb2a081?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
 ---
 
 # [keycloak/keycloak](https://github.com/keycloak/keycloak)

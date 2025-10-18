@@ -1,9 +1,9 @@
 ---
 title: open-notebook
-date: 2025-08-10T12:40:24+08:00
+date: 2025-10-18T12:20:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752159722679-04f77c0a25c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752159722679-04f77c0a25c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ4MDA3NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
 ---
 
 # [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook)
