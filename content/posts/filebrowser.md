@@ -1,9 +1,9 @@
 ---
 title: filebrowser
-date: 2025-06-17T12:27:58+08:00
+date: 2025-10-19T12:23:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1748188574118-896e39aa4d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAxMzQ0MjR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1748188574118-896e39aa4d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTAxMzQ0MjR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760594386925-519fba2ad5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760594386925-519fba2ad5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
 ---
 
 # [gtsteffaniak/filebrowser](https://github.com/gtsteffaniak/filebrowser)
@@ -16,29 +16,33 @@ featuredImagePreview: https://images.unsplash.com/photo-1748188574118-896e39aa4d
   [![DockerHub Pulls](https://img.shields.io/docker/pulls/gtstef/filebrowser?label=latest%20Docker%20pulls)](https://hub.docker.com/r/gtstef/filebrowser)
   [![Apache-2.0 License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-  [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/donate/?business=W5XKNXHJM2WPE&no_recurring=0&currency_code=USD)
+  [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://github.com/gtsteffaniak/filebrowser/wiki/Q&A#is-there-a-way-to-donate-or-support-this-project)
 
   <img width="150" src="https://github.com/user-attachments/assets/59986a2a-f960-4536-aa35-4a9a7c98ad48" title="Logo">
   <h3>FileBrowser Quantum</h3>
   The best free self-hosted web-based file manager.
   <br/><br/>
-  <img width="800" src="https://github.com/user-attachments/assets/95af22fa-7760-4f7b-9c20-51fdcfe8f4ea" title="Main Screenshot">
+  <img width="800" src="https://github.com/user-attachments/assets/162d7a95-33b7-49bd-976c-dd6822c0d22b">
 </div>
 
 > [!WARNING]
-> There is no stable version -- :construction: planned for 2025. ([Read more](https://github.com/gtsteffaniak/filebrowser/discussions/628))
+> There is no stable version -- :construction: coming very soon!
 
-Poll: [how much RAM does your install use?](https://github.com/gtsteffaniak/filebrowser/discussions/787)
+## Pinned
+
+:loudspeaker: [Stable Release & 0.9.0 Update](https://github.com/gtsteffaniak/filebrowser/discussions/1293)
+
+:pushpin: [Read The Official Docs](https://filebrowserquantum.com/) (currently english-only)
 
 ## About
 
-FileBrowser Quantum provides an easy way to access and manage your files from the web. It has has a web page interface that allows you to create secure shared links, users with their own specific permissions and settings, and offers a great viewing experience for many file types.
+FileBrowser Quantum provides an easy way to access and manage your files from the web. It has a modern responsive interface that has many advanced features to manage users, access, sharing, and file preview and editing.
 
 This version is called "Quantum" because it packs tons of advanced features into a tiny easy to run file. Unlike the majority of alternative options, FileBrowser Quantum is simple to install and easy to configure.
 
 The goal for this repo is to become the best open-source self-hosted file browsing application that exists -- **all for free**. This repo will always be free and open-source.
 
-Ready to try it out? See [Getting Started Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Getting-Started).
+Ready to try it out? See [Getting Started Docs](https://filebrowserquantum.com/en/docs/getting-started/).
 
 ## How its different
 
@@ -46,7 +50,7 @@ FileBrowser Quantum is a massive fork of the file browser open-source project wi
 
   1. ✅ Multiple sources support
   2. ✅ Login support for OIDC, password + 2FA, and proxy.
-  3. ✅ Revamped UI
+  3. ✅ Beautiful, Responsive, and Customizable user interface.
   4. ✅ Simplified configuration via `config.yaml` config file.
   5. ✅ Ultra-efficient [indexing](https://github.com/gtsteffaniak/filebrowser/wiki/Indexing) and real-time updates
      - Real-time search results as you type.
@@ -57,20 +61,30 @@ FileBrowser Quantum is a massive fork of the file browser open-source project wi
      - Instantly switches view modes and sort order without reloading data.
      - Folder sizes are displayed.
      - Navigating remembers the last scroll position.
-  7. ✅ Developer API support
+  7. ✅ Highly configurable and customizable sharing options, incuding:
+     - share expiration time
+     - users who can access share (including anonymous)
+     - styling and themes
+     - file viewing, editing, and uploading permissions
+  8. ✅ Directory-level access control that can be scoped to user or group.
+  8. ✅ Developer API support
      - Ability to create long-lived API Tokens.
      - A helpful Swagger page is available at `/swagger` endpoint for API enabled users.
 
 Notable features that this fork *does not* have (removed):
 
  - :construction: jobs are not supported yet.
- - :construction: rules are not supported yet.
  - ❌ shell commands are completely removed and will not be returned.
+
+FileBrowser Quantum differs significantly from the original version. Many of these changes required a significant overhaul. Creating a fork was a necessary process to make the program better. There have been many growing pains, but a stable release is planned and coming soon.
+
+## System Requirements
 
 > [!WARNING]
 > Every file and directory in the source gets indexed (by default). This enables powerful features such as instant search, but large source filesystems can increase your system requirements. [See indexing wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Indexing) for more info.
 
-FileBrowser Quantum differs significantly from the original version. Many of these changes required a significant overhaul. Creating a fork was a necessary process to make the program better. There have been many growing pains, but a stable release is planned and coming soon.
+ - **Memory**: depends on configured source complexity. See [how much RAM does it require?](https://github.com/gtsteffaniak/filebrowser/discussions/787)
+ - **GPU**: Not currently used (planned)
 
 ## The UI
 
@@ -89,35 +103,13 @@ a pop-up menu.
   <img width="1000" src="https://github.com/user-attachments/assets/aa32b05c-f917-47bb-b07f-857edc5e47f7" title="Search GIF">
 </p>
 
-## Install and Configuration
+## Official Docs
 
-Check out the [Getting Started Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Getting-Started)
-
-For help configuring your filebrowser see [Configuration Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Configuration-And-Examples)
-
-## Command Line Usage
-
-See the [CLI Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/CLI)
-
-## API Usage
-
-See the [API Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/API)
-
-## Office File Support
-
-See [Office Support Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Office-Support#adding-open-office-integration-for-docker) on how to enable office file editing and office-related features.
-
-## Migration from the original filebrowser
-
-See the [Migration Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Migration)
-
-## Other Questions
-
-For more, see the [Q&A Wiki](https://github.com/gtsteffaniak/filebrowser/wiki/Q&A)
+See the [Official Docs](https://filebrowserquantum.com/). Contributions are welcome and encouraged! See [FilebrowserDocs Github](https://github.com/quantumx-apps/filebrowserDocs).
 
 ## Comparison Chart
 
- Application Name | <img width="48" src="https://github.com/user-attachments/assets/59986a2a-f960-4536-aa35-4a9a7c98ad48" > Quantum | <img width="48" src="https://github.com/filebrowser/filebrowser/blob/master/frontend/public/img/logo.svg" > Filebrowser | <img width="48" src="https://github.com/mickael-kerjean/filestash/blob/master/public/assets/logo/app_icon.png?raw=true" > Filestash | <img width="48" src="https://avatars.githubusercontent.com/u/19211038?s=200&v=4" >  Nextcloud | <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_Drive_logo.png/480px-Google_Drive_logo.png" > Google_Drive | <img width="48" src="https://avatars.githubusercontent.com/u/6422152?v=4" > FileRun
+Application Name | <img width="48" src="https://github.com/user-attachments/assets/59986a2a-f960-4536-aa35-4a9a7c98ad48" > Quantum | <img width="48" src="https://github.com/filebrowser/filebrowser/blob/master/frontend/public/img/logo.svg" > Filebrowser | <img width="48" src="https://github.com/mickael-kerjean/filestash/blob/master/public/assets/logo/app_icon.png?raw=true" > Filestash | <img width="48" src="https://avatars.githubusercontent.com/u/19211038?s=200&v=4" >  Nextcloud | <img width="48" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Google_Drive_logo.png/480px-Google_Drive_logo.png" > Google_Drive | <img width="48" src="https://avatars.githubusercontent.com/u/6422152?v=4" > FileRun
 --- | --- | --- | --- | --- | --- | --- |
 Filesystem support            | ✅ | ✅ | ✅ | ❌ | ❌ | ✅ |
 Linux                         | ✅ | ✅ | ✅ | ✅ | ❌ | ✅ |
@@ -130,7 +122,7 @@ webdav support                | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ |
 FTP support                   | ❌ | ❌ | ✅ | ✅ | ❌ | ✅ |
 Dedicated docs site?          | :construction: | ✅ | ✅ | ✅ | ❌ | ✅ |
 Multiple sources at once      | ✅ | ❌ | ✅ | ✅ | ❌ | ✅ |
-Docker image size             | 200 MB (with ffmpeg) | 31 MB  | 240 MB (main image) | 250 MB | ❌ | > 2 GB |
+Docker image size             | 180 MB (with ffmpeg) | 31 MB  | 240 MB (main image) | 250 MB | ❌ | > 2 GB |
 Min. Memory Requirements      | 256 MB | 128 MB | 128 MB (main image) | 512 MB | ❌ | 512 MB   |
 has standalone binary         | ✅ | ✅ | ❌ | ❌ | ❌ | ❌ |
 price                         | free | free | free | free tier | free tier | $99+ |

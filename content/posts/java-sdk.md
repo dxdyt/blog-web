@@ -1,9 +1,9 @@
 ---
 title: java-sdk
-date: 2025-10-18T12:21:50+08:00
+date: 2025-10-19T12:22:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759431318039-0666f33d504b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759431318039-0666f33d504b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1750785354752-2c234b875cdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1750785354752-2c234b875cdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
 ---
 
 # [modelcontextprotocol/java-sdk](https://github.com/modelcontextprotocol/java-sdk)
