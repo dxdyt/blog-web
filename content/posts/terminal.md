@@ -1,9 +1,9 @@
 ---
 title: terminal
-date: 2025-09-11T12:23:14+08:00
+date: 2025-10-20T12:25:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756819753334-3076f06c0395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756819753334-3076f06c0395?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc1NjQ0NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759846006834-298617dd3d51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759846006834-298617dd3d51?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/terminal](https://github.com/microsoft/terminal)
@@ -179,10 +179,10 @@ The Portable ZIP distribution is a portable application. It will not automatical
 
 | Distribution  | Architecture    | Link                                                 |
 |---------------|:---------------:|------------------------------------------------------|
-| App Installer | x64, arm64, x86 | [download](https://aka.ms/terminal-canary-installer) |
-| Portable ZIP  | x64             | [download](https://aka.ms/terminal-canary-zip-x64)   |
-| Portable ZIP  | ARM64           | [download](https://aka.ms/terminal-canary-zip-arm64) |
-| Portable ZIP  | x86             | [download](https://aka.ms/terminal-canary-zip-x86)   |
+| App Installer | x64, arm64, x86 | [Download](https://aka.ms/terminal-canary-installer) |
+| Portable ZIP  | x64             | [Download](https://aka.ms/terminal-canary-zip-x64)   |
+| Portable ZIP  | ARM64           | [Download](https://aka.ms/terminal-canary-zip-arm64) |
+| Portable ZIP  | x86             | [Download](https://aka.ms/terminal-canary-zip-x86)   |
 
 _Learn more about the [types of Windows Terminal distributions](https://learn.microsoft.com/windows/terminal/distributions)._
 

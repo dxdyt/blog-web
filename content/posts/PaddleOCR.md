@@ -1,9 +1,9 @@
 ---
 title: PaddleOCR
-date: 2025-10-19T12:22:40+08:00
+date: 2025-10-20T12:25:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759769137246-1dc651a3c195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759769137246-1dc651a3c195?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1733254732045-c97fddb49797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1733254732045-c97fddb49797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)

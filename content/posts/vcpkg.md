@@ -1,9 +1,9 @@
 ---
 title: vcpkg
-date: 2025-10-19T12:22:00+08:00
+date: 2025-10-20T12:26:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756745678749-d4f6cabe7d5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756745678749-d4f6cabe7d5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758677821677-33ad96c07cf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758677821677-33ad96c07cf5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/vcpkg](https://github.com/microsoft/vcpkg)

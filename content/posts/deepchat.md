@@ -1,9 +1,9 @@
 ---
 title: deepchat
-date: 2025-10-19T12:22:23+08:00
+date: 2025-10-20T12:25:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756310565671-c02ad356f604?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756310565671-c02ad356f604?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1733254732045-c97fddb49797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1733254732045-c97fddb49797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [ThinkInAIXYZ/deepchat](https://github.com/ThinkInAIXYZ/deepchat)

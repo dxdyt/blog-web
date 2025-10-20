@@ -1,9 +1,9 @@
 ---
 title: SpacetimeDB
-date: 2025-04-11T12:22:07+08:00
+date: 2025-10-20T12:26:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743111040355-e5b0d751ad31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQzNDUzMDN8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1743111040355-e5b0d751ad31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDQzNDUzMDN8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758407909328-6b46fbfc5f98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758407909328-6b46fbfc5f98?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [clockworklabs/SpacetimeDB](https://github.com/clockworklabs/SpacetimeDB)
@@ -60,7 +60,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1743111040355-e5b0d751ad
     &nbsp;
     <a href="https://twitter.com/spacetime_db"><img height="25" src="./images/social/twitter.svg" alt="Twitter"></a>
     &nbsp;
-    <a href="https://github.com/clockworklabs/spacetimedb"><img height="25" src="./images/social/github.svg" alt="Github"></a>
+    <a href="https://github.com/clockworklabs/spacetimedb"><img height="25" src="./images/social/github.svg" alt="GitHub"></a>
     &nbsp;
     <a href="https://twitch.tv/SpacetimeDB"><img height="25" src="./images/social/twitch.svg" alt="Twitch"></a>
     &nbsp;

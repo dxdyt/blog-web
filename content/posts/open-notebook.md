@@ -1,9 +1,9 @@
 ---
 title: open-notebook
-date: 2025-10-18T12:20:59+08:00
+date: 2025-10-20T12:24:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1733254732045-c97fddb49797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1733254732045-c97fddb49797?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook)
@@ -44,15 +44,21 @@ featuredImagePreview: https://images.unsplash.com/photo-1760243875175-064c835a0b
   </p>
 </div>
 
-## 📢 Open Notebook is under very active development
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://zdoc.app/de/lfnovo/open-notebook">Deutsch</a> | 
+  <a href="https://zdoc.app/es/lfnovo/open-notebook">Español</a> | 
+  <a href="https://zdoc.app/fr/lfnovo/open-notebook">français</a> | 
+  <a href="https://zdoc.app/ja/lfnovo/open-notebook">日本語</a> | 
+  <a href="https://zdoc.app/ko/lfnovo/open-notebook">한국어</a> | 
+  <a href="https://zdoc.app/pt/lfnovo/open-notebook">Português</a> | 
+  <a href="https://zdoc.app/ru/lfnovo/open-notebook">Русский</a> | 
+  <a href="https://zdoc.app/zh/lfnovo/open-notebook">中文</a>
+</div>
 
-> Open Notebook is under active development! We're moving fast and making improvements every week. Your feedback is incredibly valuable to me during this exciting phase and it gives me motivation to keep improving and building this amazing tool. Please feel free to star the project if you find it useful, and don't hesitate to reach out with any questions or suggestions. I'm excited to see how you'll use it and what ideas you'll bring to the project! Let's build something amazing together! 🚀
-
-## About The Project
+## A private, multi-model, 100% local, full-featured alternative to Notebook LM
 
 ![New Notebook](docs/assets/asset_list.png)
-
-An open source, privacy-focused alternative to Google's Notebook LM. Why give Google more of our data when we can take control of our own research workflows?
 
 In a world dominated by Artificial Intelligence, having the ability to think 🧠 and acquire new knowledge 💡, is a skill that should not be a privilege for a few, nor restricted to a single provider.
 
@@ -65,6 +71,21 @@ In a world dominated by Artificial Intelligence, having the ability to think �
 - 💬 **Chat with context** - AI conversations powered by your research
 
 Learn more about our project at [https://www.open-notebook.ai](https://www.open-notebook.ai)
+
+---
+
+## ⚠️ IMPORTANT: v1.0 Breaking Changes
+
+**If you're upgrading from a previous version**, please note:
+
+- 🏷️ **Docker tags have changed**: The `latest` tag is now **frozen** at the last Streamlit version
+- 🆕 **Use `v1-latest` tag** for the new React/Next.js version (recommended)
+- 🔌 **Port 5055 required**: You must expose port 5055 for the API to work
+- 📖 **Read the migration guide**: See [MIGRATION.md](MIGRATION.md) for detailed upgrade instructions
+
+**New users**: You can ignore this notice and proceed with the Quick Start below using the `v1-latest-single` tag.
+
+---
 
 ## 🆚 Open Notebook vs Google Notebook LM
 
@@ -90,9 +111,15 @@ Learn more about our project at [https://www.open-notebook.ai](https://www.open-
 
 ### Built With
 
-[![Python][Python]][Python-url] [![SurrealDB][SurrealDB]][SurrealDB-url] [![LangChain][LangChain]][LangChain-url] [![Streamlit][Streamlit]][Streamlit-url]
+[![Python][Python]][Python-url] [![Next.js][Next.js]][Next-url] [![React][React]][React-url] [![SurrealDB][SurrealDB]][SurrealDB-url] [![LangChain][LangChain]][LangChain-url]
 
 ## 🚀 Quick Start
+
+**Docker Images Available:**
+- **Docker Hub**: `lfnovo/open_notebook:v1-latest-single`
+- **GitHub Container Registry**: `ghcr.io/lfnovo/open-notebook:v1-latest-single`
+
+Both registries contain identical images - choose whichever you prefer!
 
 Ready to try Open Notebook? Choose your preferred method:
 
@@ -109,7 +136,10 @@ docker run -d \
   -v ./notebook_data:/app/data \
   -v ./surreal_data:/mydata \
   -e OPENAI_API_KEY=your_key \
-  lfnovo/open_notebook:latest-single
+  lfnovo/open_notebook:v1-latest-single
+
+# Or use GitHub Container Registry:
+# ghcr.io/lfnovo/open-notebook:v1-latest-single
 ```
 
 **What gets created:**
@@ -120,7 +150,7 @@ open-notebook/
 ```
 
 **Access your installation:**
-- **🖥️ Main Interface**: http://localhost:8502 (Streamlit UI)
+- **🖥️ Main Interface**: http://localhost:8502 (Next.js UI)
 - **🔧 API Access**: http://localhost:5055 (REST API)
 - **📚 API Documentation**: http://localhost:5055/docs (Interactive Swagger UI)
 
@@ -222,13 +252,13 @@ Thanks to the [Esperanto](https://github.com/lfnovo/esperanto) library, we suppo
 ## 🗺️ Roadmap
 
 ### Upcoming Features
-- **React Frontend**: Modern React-based frontend to replace Streamlit
 - **Live Front-End Updates**: Real-time UI updates for smoother experience
 - **Async Processing**: Faster UI through asynchronous content processing
 - **Cross-Notebook Sources**: Reuse research materials across projects
 - **Bookmark Integration**: Connect with your favorite bookmarking apps
 
 ### Recently Completed ✅
+- **Next.js Frontend**: Modern React-based frontend with improved performance
 - **Comprehensive REST API**: Full programmatic access to all functionality
 - **Multi-Model Support**: 16+ AI providers including OpenAI, Anthropic, Ollama, LM Studio
 - **Advanced Podcast Generator**: Professional multi-speaker podcasts with Episode Profiles
@@ -250,13 +280,13 @@ See the [open issues](https://github.com/lfnovo/open-notebook/issues) for a full
 
 ### Contributing
 We welcome contributions! We're especially looking for help with:
-- **Frontend Development**: Help build a modern React-based UI (planned replacement for current Streamlit interface)
+- **Frontend Development**: Help improve our modern Next.js/React UI
 - **Testing & Bug Fixes**: Make Open Notebook more robust
 - **Feature Development**: Build the coolest research tool together
 - **Documentation**: Improve guides and tutorials
 
-**Current Tech Stack**: Python, FastAPI, SurrealDB, Streamlit  
-**Future Roadmap**: React frontend, enhanced real-time updates
+**Current Tech Stack**: Python, FastAPI, Next.js, React, SurrealDB
+**Future Roadmap**: Real-time updates, enhanced async processing
 
 See our [Contributing Guide](CONTRIBUTING.md) for detailed information on how to get started.
 
@@ -304,8 +334,10 @@ Open Notebook is built on the shoulders of amazing open-source projects:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/lfnovo
 [product-screenshot]: images/screenshot.png
-[Streamlit]: https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white
-[Streamlit-url]: https://streamlit.io/
+[Next.js]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white
+[Next-url]: https://nextjs.org/
+[React]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
+[React-url]: https://reactjs.org/
 [Python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org/
 [LangChain]: https://img.shields.io/badge/LangChain-3A3A3A?style=for-the-badge&logo=chainlink&logoColor=white

@@ -1,9 +1,9 @@
 ---
 title: desktop
-date: 2025-10-03T12:21:08+08:00
+date: 2025-10-20T12:24:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757133544238-abc2231260f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757133544238-abc2231260f9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758654307553-f067f0367f13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758654307553-f067f0367f13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [atuinsh/desktop](https://github.com/atuinsh/desktop)

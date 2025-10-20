@@ -1,9 +1,9 @@
 ---
 title: qBittorrent
-date: 2025-01-03T12:20:48+08:00
+date: 2025-10-20T12:26:22+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1733980578466-8aebf17ef58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1733980578466-8aebf17ef58c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzU4Nzc5NTF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758751945250-b1bb1d6caeee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758751945250-b1bb1d6caeee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
 ---
 
 # [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent)
