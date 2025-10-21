@@ -1,9 +1,9 @@
 ---
 title: chat-ui
-date: 2025-10-20T12:26:00+08:00
+date: 2025-10-21T12:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759338069275-333580793462?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759338069275-333580793462?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA5MzQyNTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757105389359-090f320ad32c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757105389359-090f320ad32c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
 ---
 
 # [huggingface/chat-ui](https://github.com/huggingface/chat-ui)

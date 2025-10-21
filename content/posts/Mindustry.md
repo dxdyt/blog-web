@@ -1,9 +1,9 @@
 ---
 title: Mindustry
-date: 2024-10-02T12:21:11+08:00
+date: 2025-10-21T12:22:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1727461567487-575ec98777fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1727461567487-575ec98777fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc4NDI3ODZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758478648528-61a41d58944b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758478648528-61a41d58944b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
 ---
 
 # [Anuken/Mindustry](https://github.com/Anuken/Mindustry)
@@ -28,7 +28,7 @@ See [CONTRIBUTING](CONTRIBUTING.md).
 Bleeding-edge builds are generated automatically for every commit. You can see them [here](https://github.com/Anuken/MindustryBuilds/releases).
 
 If you'd rather compile on your own, follow these instructions.
-First, make sure you have [JDK 17](https://adoptium.net/archive.html?variant=openjdk17&jvmVariant=hotspot) installed. **Other JDK versions will not work.** Open a terminal in the Mindustry directory and run the following commands:
+First, make sure you have [JDK 17](https://adoptium.net/temurin/releases/?os=any&arch=any&version=17) installed. **Other JDK versions will not work.** Open a terminal in the Mindustry directory and run the following commands:
 
 ### Windows
 
@@ -62,6 +62,16 @@ To debug the application on a connected device/emulator, run `gradlew android:in
 #### Permission Denied
 
 If the terminal returns `Permission denied` or `Command not found` on Mac/Linux, run `chmod +x ./gradlew` before running `./gradlew`. *This is a one-time procedure.*
+
+#### Where is the `mindustry.gen` package?
+
+As the name implies, `mindustry.gen` is generated *at build time* based on other code. You will not find source code for this package in the repository, and it should not be edited by hand.
+
+The following is a non-exhaustive list of the "source" of generated code in `mindustry.gen`:
+
+- `Call`, `*Packet` classes: Generated from methods marked with `@Remote`.
+- All entity classes (`Unit`, `EffectState`, `Posc`, etc): Generated from component classes in the `mindustry.entities.comp` package, and combined using definitions in `mindustry.content.UnitTypes`.
+- `Sounds`, `Musics`, `Tex`, `Icon`, etc: Generated based on files in the respective asset folders.
 
 ---
 

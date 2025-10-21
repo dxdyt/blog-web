@@ -1,12 +1,20 @@
 ---
 title: sing-box
-date: 2024-08-20T12:21:21+08:00
+date: 2025-10-21T12:21:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722015487898-936442fb5a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722015487898-936442fb5a8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjQxMjc1Nzh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1758478648528-61a41d58944b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758478648528-61a41d58944b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
 ---
 
 # [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
+
+> Sponsored by [Warp](https://go.warp.dev/sing-box), built for coding with multiple AI agents
+
+<a href="https://go.warp.dev/sing-box">
+<img alt="Warp sponsorship" width="400" src="https://github.com/warpdotdev/brand-assets/raw/refs/heads/main/Github/Sponsor/Warp-Github-LG-02.png">
+</a>
+
+---
 
 # sing-box
 
@@ -14,9 +22,9 @@ The universal proxy platform.
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/sing-box.svg)](https://repology.org/project/sing-box/versions)
 
-## Support
+## Documentation
 
-https://community.sagernet.org/c/sing-box/
+https://sing-box.sagernet.org
 
 ## License
 
