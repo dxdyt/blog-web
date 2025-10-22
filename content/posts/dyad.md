@@ -1,9 +1,9 @@
 ---
 title: dyad
-date: 2025-10-09T12:22:28+08:00
+date: 2025-10-22T12:23:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757495361144-0c2bfba62b9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757495361144-0c2bfba62b9e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760340642052-ec0fe0225608?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760340642052-ec0fe0225608?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
 ---
 
 # [dyad-sh/dyad](https://github.com/dyad-sh/dyad)

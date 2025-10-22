@@ -1,9 +1,9 @@
 ---
 title: ebook2audiobook
-date: 2025-10-21T12:21:58+08:00
+date: 2025-10-22T12:22:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760334335396-fd245777990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760334335396-fd245777990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEwMjA0OTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1725653811863-8ca1776e126a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1725653811863-8ca1776e126a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
 ---
 
 # [DrewThomasson/ebook2audiobook](https://github.com/DrewThomasson/ebook2audiobook)

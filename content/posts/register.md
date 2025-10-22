@@ -1,9 +1,9 @@
 ---
 title: register
-date: 2025-10-08T12:23:21+08:00
+date: 2025-10-22T12:23:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757259776685-bf90100ce53c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757259776685-bf90100ce53c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk4OTcyNjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1725653811863-8ca1776e126a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1725653811863-8ca1776e126a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
 ---
 
 # [is-a-dev/register](https://github.com/is-a-dev/register)
@@ -28,8 +28,6 @@ Please join our [Discord server](https://discord.gg/is-a-dev-830872854677422150)
 Not all of these will be posted on GitHub[^1], however they will always be posted in our Discord server.
 
 [^1]: We only post announcements on GitHub in the case of a serious incident, which you'll see at the top of this README.
-
-<a href="https://discord.gg/is-a-dev-830872854677422150"><img alt="Discord Server" src="https://invidget.api.hrsn.dev/is-a-dev-830872854677422150"></a>
 
 # Register
 > If you want a visual guide, check out [this blog post](https://wdh.gg/tX3ghge).
