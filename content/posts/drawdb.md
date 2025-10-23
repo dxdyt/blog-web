@@ -1,9 +1,9 @@
 ---
 title: drawdb
-date: 2025-07-05T12:25:11+08:00
+date: 2025-10-23T12:23:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1750256602987-c4c35a094bb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1750256602987-c4c35a094bb3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTE2ODk0MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759434192802-249e5a5f78d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759434192802-249e5a5f78d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
 ---
 
 # [drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
@@ -38,6 +38,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1750256602987-c4c35a094b
     <a href="https://x.com/drawDB_" style="display: flex; align-items: center;">
         <img src="https://img.shields.io/badge/Follow%20us%20on%20X-blue?logo=X" alt="Follow us on X"/>
     </a>
+    <a href="https://getmanta.ai/drawdb">
+        <img src="https://getmanta.ai/api/badges?text=Manta%20Graph&link=drawdb" alt="DrawDB graph on Manta">
+    </a> 
 </div>
 
 <h3 align="center"><img width="700" style="border-radius:5px;" alt="demo" src="drawdb.png"></h3>
@@ -71,4 +74,4 @@ docker build -t drawdb .
 docker run -p 3000:80 drawdb
 ```
 
-If you wish to work with sharing, set up [server](https://github.com/drawdb-io/drawdb-server) and environment variables according to `.env.sample`. This is not required unless you want to share files.
+If you want to enable sharing, set up the [server](https://github.com/drawdb-io/drawdb-server) and environment variables according to `.env.sample`. This is optional unless you need to share files..

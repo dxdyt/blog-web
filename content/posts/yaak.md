@@ -1,9 +1,9 @@
 ---
 title: yaak
-date: 2025-10-22T12:21:44+08:00
+date: 2025-10-23T12:21:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760015131516-a348939b0275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760015131516-a348939b0275?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758846182803-6b3f056ec028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758846182803-6b3f056ec028?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
 ---
 
 # [mountain-loop/yaak](https://github.com/mountain-loop/yaak)

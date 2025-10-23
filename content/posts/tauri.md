@@ -1,9 +1,9 @@
 ---
 title: tauri
-date: 2024-12-11T12:21:26+08:00
+date: 2025-10-23T12:23:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1732305409722-6010a0d234ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1732305409722-6010a0d234ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzM4OTA4NTB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1759434192802-249e5a5f78d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759434192802-249e5a5f78d5?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
 ---
 
 # [tauri-apps/tauri](https://github.com/tauri-apps/tauri)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1732305409722-6010a0d234
 [![License](https://img.shields.io/badge/License-MIT%20or%20Apache%202-green.svg)](https://opencollective.com/tauri)
 [![test core](https://img.shields.io/github/actions/workflow/status/tauri-apps/tauri/test-core.yml?label=test%20core&logo=github)](https://github.com/tauri-apps/tauri/actions/workflows/test-core.yml)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftauri-apps%2Ftauri.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftauri-apps%2Ftauri?ref=badge_shield)
-[![Chat Server](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.gg/SpmNs4S)
+[![Chat Server](https://img.shields.io/badge/chat-discord-7289da.svg)](https://discord.com/invite/tauri)
 [![website](https://img.shields.io/badge/website-tauri.app-purple.svg)](https://tauri.app)
 [![https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg](https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg)](https://good-labs.github.io/greater-good-affirmation)
 [![support](https://img.shields.io/badge/sponsor-Open%20Collective-blue.svg)](https://opencollective.com/tauri)
@@ -45,7 +45,7 @@ The list of Tauri's features includes, but is not limited to:
 - Built-in self updater (desktop only)
 - System tray icons
 - Native notifications
-- [Localhost free (🔥)](https://github.com/tauri-apps/tauri/issues/10510)
+- Native WebView Protocol (tauri doesn't create a localhost http(s) server to serve the WebView contents)
 - GitHub action for streamlined CI
 - VS Code extension
 
@@ -53,13 +53,13 @@ The list of Tauri's features includes, but is not limited to:
 
 Tauri currently supports development and distribution on the following platforms:
 
-| Platform          | Versions                                                                                                        |
-| :---------------- | :-------------------------------------------------------------------------------------------------------------- |
-| Windows           | 7 and above                                                                                                     |
-| macOS             | 10.15 and above                                                                                                 |
-| Linux             | webkit2gtk 4.0 for Tauri v1 (for example Ubuntu 18.04). webkit2gtk 4.1 for Tauri v2 (for example Ubuntu 22.04). |
-| iOS/iPadOS (beta) | 9 and above                                                                                                     |
-| Android (beta)    | 7 and above                                                                                                     |
+| Platform   | Versions                                                                                                        |
+| :--------- | :-------------------------------------------------------------------------------------------------------------- |
+| Windows    | 7 and above                                                                                                     |
+| macOS      | 10.15 and above                                                                                                 |
+| Linux      | webkit2gtk 4.0 for Tauri v1 (for example Ubuntu 18.04). webkit2gtk 4.1 for Tauri v2 (for example Ubuntu 22.04). |
+| iOS/iPadOS | 9 and above                                                                                                     |
+| Android    | 7 and above (currently 8 and above)                                                                             |
 
 ## Contributing
 
@@ -91,7 +91,7 @@ For the complete list of sponsors please visit our [website](https://tauri.app#s
 
 ## Organization
 
-Tauri aims to be a sustainable collective based on principles that guide [sustainable free and open software communities](https://sfosc.org). To this end it has become a Programme within the [Commons Conservancy](https://commonsconservancy.org/), and you can contribute financially via [Open Collective](https://opencollective.com/tauri).
+Tauri aims to be a sustainable collective based on principles that guide sustainable free and open software communities. To this end it has become a Programme within the [Commons Conservancy](https://commonsconservancy.org/), and you can contribute financially via [Open Collective](https://opencollective.com/tauri).
 
 ## Licenses
 

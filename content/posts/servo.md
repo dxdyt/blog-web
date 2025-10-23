@@ -1,9 +1,9 @@
 ---
 title: servo
-date: 2025-10-22T12:22:54+08:00
+date: 2025-10-23T12:22:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759333173206-2a1a22f5a5c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759333173206-2a1a22f5a5c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755104571966-46b8c90dfc29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755104571966-46b8c90dfc29?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
 ---
 
 # [servo/servo](https://github.com/servo/servo)
