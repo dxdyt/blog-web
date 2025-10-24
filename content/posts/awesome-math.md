@@ -1,9 +1,9 @@
 ---
 title: awesome-math
-date: 2025-10-23T12:22:59+08:00
+date: 2025-10-24T12:22:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760000196444-864caf3b3687?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760000196444-864caf3b3687?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
 ---
 
 # [rossant/awesome-math](https://github.com/rossant/awesome-math)
@@ -375,7 +375,7 @@ All resources are freely available except those with a 💲 icon.
 
 ## Combinatorics
 
-* 📝 [Basic Combinatorics](http://www.math.utk.edu/~wagner/papers/comb.pdf) - Carl G. Wagner (University of Tennessee)
+* 📝 [Basic Combinatorics](http://web.math.utk.edu/~wagner/papers/comb.pdf) - Carl G. Wagner (University of Tennessee)
 * 📝 [Applied Combinatorics](http://people.math.gatech.edu/~trotter/book.pdf) - Mitchel T. Keller, William T. Trotter
 * 📝 [Notes on Combinatorics](http://www.maths.qmul.ac.uk/~pjc/notes/comb.pdf) - Peter J. Cameron
 * 📝 [Analytic Combinatorics](http://algo.inria.fr/flajolet/Publications/book.pdf) - Philippe Flajolet, Robert Sedgewick
