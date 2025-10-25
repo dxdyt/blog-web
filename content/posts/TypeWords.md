@@ -1,9 +1,9 @@
 ---
 title: TypeWords
-date: 2025-10-23T12:23:34+08:00
+date: 2025-10-25T12:21:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759348774541-001ca73c131d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759348774541-001ca73c131d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758967458314-4bbbb2f3152d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758967458314-4bbbb2f3152d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
 ---
 
 # [zyronon/TypeWords](https://github.com/zyronon/TypeWords)

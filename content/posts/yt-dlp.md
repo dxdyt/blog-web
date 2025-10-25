@@ -1,9 +1,9 @@
 ---
 title: yt-dlp
-date: 2025-10-24T12:23:03+08:00
+date: 2025-10-25T12:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759721367037-232697bcd378?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759721367037-232697bcd378?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760594387039-8db5aa19c06a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760594387039-8db5aa19c06a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
 ---
 
 # [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp)

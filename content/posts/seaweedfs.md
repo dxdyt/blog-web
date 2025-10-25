@@ -1,9 +1,9 @@
 ---
 title: seaweedfs
-date: 2024-02-05T12:18:03+08:00
+date: 2025-10-25T12:22:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1705648462708-ffadf36617ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1705648462708-ffadf36617ae?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDcxMDY1ODB8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1759588032622-1388cf9505ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759588032622-1388cf9505ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
 ---
 
 # [seaweedfs/seaweedfs](https://github.com/seaweedfs/seaweedfs)
@@ -44,6 +44,7 @@ Your support will be really appreciated by me and other supporters!
 ### Gold Sponsors
 [![nodion](https://raw.githubusercontent.com/seaweedfs/seaweedfs/master/note/sponsor_nodion.png)](https://www.nodion.com)
 [![piknik](https://raw.githubusercontent.com/seaweedfs/seaweedfs/master/note/piknik.png)](https://www.piknik.com)
+[![keepsec](https://raw.githubusercontent.com/seaweedfs/seaweedfs/master/note/keepsec.png)](https://www.keepsec.ca)
 
 ---
 
@@ -55,6 +56,7 @@ Your support will be really appreciated by me and other supporters!
 - [SeaweedFS Mailing List](https://groups.google.com/d/forum/seaweedfs)
 - [Wiki Documentation](https://github.com/seaweedfs/seaweedfs/wiki)
 - [SeaweedFS White Paper](https://github.com/seaweedfs/seaweedfs/wiki/SeaweedFS_Architecture.pdf)
+- [SeaweedFS Introduction Slides 2025.5](https://docs.google.com/presentation/d/1tdkp45J01oRV68dIm4yoTXKJDof-EhainlA0LMXexQE/edit?usp=sharing)
 - [SeaweedFS Introduction Slides 2021.5](https://docs.google.com/presentation/d/1DcxKWlINc-HNCjhYeERkpGXXm6nTCES8mi2W5G0Z4Ts/edit?usp=sharing)
 - [SeaweedFS Introduction Slides 2019.3](https://www.slideshare.net/chrislusf/seaweedfs-introduction)
 
@@ -81,6 +83,7 @@ Table of Contents
 * [Installation Guide](#installation-guide)
 * [Disk Related Topics](#disk-related-topics)
 * [Benchmark](#benchmark)
+* [Enterprise](#enterprise)
 * [License](#license)
 
 # Quick Start #
@@ -91,6 +94,7 @@ Table of Contents
 
 ## Quick Start with Single Binary ##
 * Download the latest binary from https://github.com/seaweedfs/seaweedfs/releases and unzip a single binary file `weed` or `weed.exe`. Or run `go install github.com/seaweedfs/seaweedfs/weed@latest`.
+* `export AWS_ACCESS_KEY_ID=admin ; export AWS_SECRET_ACCESS_KEY=key` as the admin credentials to access the object store.
 * Run `weed server -dir=/some/data/dir -s3` to start one master, one volume server, one filer, and one S3 gateway.
 
 Also, to increase capacity, just add more volume servers by running `weed volume -dir="/some/data/dir2" -mserver="<master_host>:9333" -port=8081` locally, or on a different machine, or on thousands of machines. That is it!
@@ -384,7 +388,7 @@ Each individual file size is limited to the volume size.
 
 ### Saving memory ###
 
-All file meta information stored on an volume server is readable from memory without disk access. Each file takes just a 16-byte map entry of <64bit key, 32bit offset, 32bit size>. Of course, each map entry has its own space cost for the map. But usually the disk space runs out before the memory does.
+All file meta information stored on a volume server is readable from memory without disk access. Each file takes just a 16-byte map entry of <64bit key, 32bit offset, 32bit size>. Of course, each map entry has its own space cost for the map. But usually the disk space runs out before the memory does.
 
 ### Tiered Storage to the cloud ###
 
@@ -656,6 +660,13 @@ Requests considered: 5587:
 Cluster Total: 369.64 MiB/s, 61.77 obj/s, 0 errors over 5m0s.
 Total Errors:0.
 ```
+
+[Back to TOC](#table-of-contents)
+
+## Enterprise ##
+
+For enterprise users, please visit [seaweedfs.com](https://seaweedfs.com) for the SeaweedFS Enterprise Edition, 
+which has a self-healing storage format with better data protection.
 
 [Back to TOC](#table-of-contents)
 

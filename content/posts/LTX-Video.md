@@ -1,9 +1,9 @@
 ---
 title: LTX-Video
-date: 2025-10-03T12:21:24+08:00
+date: 2025-10-25T12:22:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757514055001-dcf00bd64a06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757514055001-dcf00bd64a06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760800185531-2b1da99d7538?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760800185531-2b1da99d7538?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
 ---
 
 # [Lightricks/LTX-Video](https://github.com/Lightricks/LTX-Video)

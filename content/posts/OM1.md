@@ -1,9 +1,9 @@
 ---
 title: OM1
-date: 2025-09-21T12:21:42+08:00
+date: 2025-10-25T12:22:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755544614944-f2e6fcaf785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755544614944-f2e6fcaf785a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg0Mjg0MjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760594387039-8db5aa19c06a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760594387039-8db5aa19c06a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
 ---
 
 # [OpenMind/OM1](https://github.com/OpenMind/OM1)
@@ -124,6 +124,24 @@ Clone the following repos -
 ## Starting the system
 To start all services, run the following commands:
 - For OM1
+
+Setup the API key
+
+For Bash: vim ~/.bashrc or ~/.bash_profile.
+
+For Zsh: vim ~/.zshrc.
+
+Add 
+
+```bash 
+export OM_API_KEY="your_api_key"
+```
+
+Update the docker-compose file. Replace "unitree_go2_autonomy_advance" with the agent you want to run.
+```bash
+command: ["unitree_go2_autonomy_advance"]
+```
+
 ```bash
 cd OM1
 docker-compose up om1 -d --no-build

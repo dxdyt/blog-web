@@ -1,9 +1,9 @@
 ---
 title: parlant
-date: 2025-10-23T12:22:10+08:00
+date: 2025-10-25T12:21:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759498196184-6efc5dfc07e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759498196184-6efc5dfc07e8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExOTMzMDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758967458314-4bbbb2f3152d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758967458314-4bbbb2f3152d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
 ---
 
 # [emcie-co/parlant](https://github.com/emcie-co/parlant)
@@ -78,6 +78,7 @@ await agent.create_guideline(
 ```
 
 - ✅ [Blog: How Parlant Ensures Agent Compliance](https://www.parlant.io/blog/how-parlant-guarantees-compliance)
+- 🆚 [Blog: Parlant vs LangGraph](https://www.parlant.io/blog/parlant-vs-langgraph)
 - 🆚 [Blog: Parlant vs DSPy](https://www.parlant.io/blog/parlant-vs-dspy)
 
 
