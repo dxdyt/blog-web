@@ -1,9 +1,9 @@
 ---
 title: minio
-date: 2025-10-25T12:21:30+08:00
+date: 2025-10-26T12:21:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759401874731-1f5eab7acf8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759401874731-1f5eab7acf8f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758801305057-487be2d04cd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758801305057-487be2d04cd4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
 ---
 
 # [minio/minio](https://github.com/minio/minio)

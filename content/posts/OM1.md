@@ -1,9 +1,9 @@
 ---
 title: OM1
-date: 2025-10-25T12:22:25+08:00
+date: 2025-10-26T12:21:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760594387039-8db5aa19c06a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760594387039-8db5aa19c06a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEzNjYwNTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759503408364-f80c37963eb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759503408364-f80c37963eb0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
 ---
 
 # [OpenMind/OM1](https://github.com/OpenMind/OM1)

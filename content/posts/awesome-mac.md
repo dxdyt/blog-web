@@ -1,9 +1,9 @@
 ---
 title: awesome-mac
-date: 2025-10-24T12:23:38+08:00
+date: 2025-10-26T12:21:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758621518748-bde9e586ef9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758621518748-bde9e586ef9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760681554811-108477b8582d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760681554811-108477b8582d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
 ---
 
 # [jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
@@ -715,6 +715,8 @@ Any comments, suggestions? [Let us know!](https://github.com/jaywcjlove/awesome-
 * [Runtime](https://github.com/runtime-org/runtime) - AI taskmate and take control of the web & your office tools
 * [Jan](https://jan.ai/) - An open-source alternative to ChatGPT that runs entirely offline on your computer. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/menloresearch/jan)
 * [Witsy](https://github.com/nbonamy/witsy) - desktop AI assistant / universal MCP client. [![Open-Source Software][OSS Icon] ![Freeware][Freeware Icon]](https://github.com/nbonamy/witsy)
+* [remio](https://www.remio.ai/?utm_source=github_list) - A personal ChatGPT that ​​responds based on your knowledge​​. Lastest LLMs, Local first, and BYOK supported.  [![Freeware][Freeware Icon]](https://www.remio.ai/?utm_source=github_list)
+
 
 ## Communication
 

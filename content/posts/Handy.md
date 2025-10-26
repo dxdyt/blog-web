@@ -1,9 +1,9 @@
 ---
 title: Handy
-date: 2025-10-03T12:20:54+08:00
+date: 2025-10-26T12:22:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757164002999-f16e3ac35d88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757164002999-f16e3ac35d88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk0NjUyMjl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
 ---
 
 # [cjpais/Handy](https://github.com/cjpais/Handy)
@@ -69,12 +69,18 @@ Handy is built as a Tauri application combining:
   - `rdev`: Global keyboard shortcuts and system events
   - `rubato`: Audio resampling
 
+### Debug Mode
+
+Handy includes an advanced debug mode for development and troubleshooting. Access it by pressing:
+- **macOS**: `Cmd+Shift+D`
+- **Windows/Linux**: `Ctrl+Shift+D`
+
 ## Known Issues & Current Limitations
 
 This project is actively being developed and has some [known issues](https://github.com/cjpais/Handy/issues). We believe in transparency about the current state:
 
 ### Platform Support
-- **Apple Silicon Macs**
+- **macOS (both Intel and Apple Silicon)**
 - **x64 Windows**
 - **x64 Linux**
 
@@ -83,7 +89,7 @@ This project is actively being developed and has some [known issues](https://git
 The following are recommendations for running Handy on your own machine. If you don't meet the system requirements, the performance of the application may be degraded. We are working on improving the performance across all kinds of computers and hardware.
 
 **For Whisper Models:**
-- **macOS**: M series Mac
+- **macOS**: M series Mac, Intel Mac
 - **Windows**: Intel, AMD, or NVIDIA GPU
 - **Linux**: Intel, AMD, or NVIDIA GPU
   * Ubuntu 22.04, 24.04
