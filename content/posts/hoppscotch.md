@@ -1,9 +1,9 @@
 ---
 title: hoppscotch
-date: 2025-10-26T12:20:55+08:00
+date: 2025-10-27T12:29:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761322026605-2d5d35b58d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761322026605-2d5d35b58d41?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
 ---
 
 # [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)

@@ -1,9 +1,9 @@
 ---
 title: chartdb
-date: 2025-08-24T12:27:02+08:00
+date: 2025-10-27T12:29:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722811087953-b745cf16a0c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1722811087953-b745cf16a0c1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTYwMDk0ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760687618915-74b499fa5c30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760687618915-74b499fa5c30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
 ---
 
 # [chartdb/chartdb](https://github.com/chartdb/chartdb)

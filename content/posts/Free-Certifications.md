@@ -1,9 +1,9 @@
 ---
 title: Free-Certifications
-date: 2025-07-18T12:40:12+08:00
+date: 2025-10-27T12:30:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744649781353-8a1b70c37a77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744649781353-8a1b70c37a77?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTI4MTM1MTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760687618915-74b499fa5c30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760687618915-74b499fa5c30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)
@@ -11,7 +11,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1744649781353-8a1b70c37a
 # Free Certifications
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/cloudcommunity/Free-Certifications?style=social)](https://github.com/cloudcommunity/Free-Certifications)
-[![Twitter Follow](https://img.shields.io/twitter/follow/CloudStudyNet?style=social)](https://twitter.com/CloudStudyNet)
+[![Twitter Follow](https://img.shields.io/twitter/follow/FreeCerts?style=social)](https://twitter.com/FreeCerts)
 
 A curated list of **free courses with certifications**. Don't forget to star ⭐ this repository.
 

@@ -1,12 +1,27 @@
 ---
 title: cursor-free-vip
-date: 2025-07-25T12:38:23+08:00
+date: 2025-10-27T12:28:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1752199718118-133cba05df0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM0MTgyNzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1752199718118-133cba05df0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTM0MTgyNzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755311901850-f1412f67219a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755311901850-f1412f67219a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
+
+<div align="center" markdown="1">
+   <sup>Special thanks to:</sup>
+   <br>
+   <br>
+   <a href="http://go.warp.dev/cursor-free-vip">
+      <img alt="Warp sponsorship" width="400" src="https://github.com/user-attachments/assets/ab8dd143-b0fd-4904-bdc5-dd7ecac94eae">
+   </a>
+
+### [Warp, built for coding with multiple agents.](http://go.warp.dev/cursor-free-vip)
+[Available for MacOS, Linux, & Windows](http://go.warp.dev/cursor-free-vip)<br>
+
+</div>
+
+---
 
 # ➤ Cursor Free VIP
 
@@ -29,10 +44,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1752199718118-133cba05df
 
 <a href="https://trendshift.io/repositories/13425" target="_blank"><img src="https://trendshift.io/api/badge/repositories/13425" alt="yeongpin%2Fcursor-free-vip | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 <br>
-<a href="https://www.buymeacoffee.com/yeongpin" target="_blank">
-      <img src="https://img.buymeacoffee.com/button-api/?text=buy me a coffee&emoji=☕&slug=yeongpin&button_colour=ffda33&font_colour=000000&font_family=Bree&outline_colour=000000&coffee_colour=FFDD00&latest=2" width="160" height='55' alt="Buy Me a Coffee"/>
-</a>
-
 
 <h4>Support Latest 0.49.x Version | 支持最新 0.49.x 版本</h4>
 
