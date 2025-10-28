@@ -1,9 +1,9 @@
 ---
 title: SO-ARM100
-date: 2025-10-26T12:20:18+08:00
+date: 2025-10-28T12:22:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759509326919-7f5d3961f8f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759509326919-7f5d3961f8f1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE0NTIzOTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE2MjUyOTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE2MjUyOTV8&ixlib=rb-4.1.0
 ---
 
 # [TheRobotStudio/SO-ARM100](https://github.com/TheRobotStudio/SO-ARM100)
