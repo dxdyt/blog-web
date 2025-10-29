@@ -1,9 +1,9 @@
 ---
 title: AFFiNE
-date: 2025-10-28T12:21:43+08:00
+date: 2025-10-29T12:25:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759351483270-0b6a64e44d32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE2MjUyOTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759351483270-0b6a64e44d32?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE2MjUyOTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760981764631-f375b4231d27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760981764631-f375b4231d27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
 ---
 
 # [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1759351483270-0b6a64e44d
     <br>
 </h1>
 <a href="https://affine.pro/download">
-    <img alt="affine logo" src="https://cdn.affine.pro/Github_hero_image1.png" style="width: 100%">
+    <img alt="affine logo" src="https://cdn.affine.pro/Github_hero_image2.png" style="width: 100%">
 </a>
 <br/>
 <p align="center">

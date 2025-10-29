@@ -1,9 +1,9 @@
 ---
 title: headscale
-date: 2025-05-06T12:22:47+08:00
+date: 2025-10-29T12:26:02+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744374345182-ad26dd573b53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744374345182-ad26dd573b53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY1MDUyODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761069234555-272f68348b53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761069234555-272f68348b53?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
 ---
 
 # [juanfont/headscale](https://github.com/juanfont/headscale)
@@ -21,8 +21,8 @@ to ensure you have the correct example configuration. The `main` branch might
 contain unreleased changes. The documentation is available for stable and
 development versions:
 
-* [Documentation for the stable version](https://headscale.net/stable/)
-* [Documentation for the development version](https://headscale.net/development/)
+- [Documentation for the stable version](https://headscale.net/stable/)
+- [Documentation for the development version](https://headscale.net/development/)
 
 ## What is Tailscale
 
@@ -149,14 +149,27 @@ make test
 To build the program:
 
 ```shell
-nix build
-```
-
-or
-
-```shell
 make build
 ```
+
+### Development workflow
+
+We recommend using Nix for dependency management to ensure you have all required tools. If you prefer to manage dependencies yourself, you can use Make directly:
+
+**With Nix (recommended):**
+```shell
+nix develop
+make test
+make build
+```
+
+**With your own dependencies:**
+```shell
+make test
+make build
+```
+
+The Makefile will warn you if any required tools are missing and suggest running `nix develop`. Run `make help` to see all available targets.
 
 ## Contributors
 

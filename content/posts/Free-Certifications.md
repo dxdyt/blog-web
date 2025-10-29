@@ -1,9 +1,9 @@
 ---
 title: Free-Certifications
-date: 2025-10-27T12:30:08+08:00
+date: 2025-10-29T12:26:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760687618915-74b499fa5c30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760687618915-74b499fa5c30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE1MzkzMDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759780763396-505ccfe121ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759780763396-505ccfe121ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
 ---
 
 # [cloudcommunity/Free-Certifications](https://github.com/cloudcommunity/Free-Certifications)

@@ -1,9 +1,9 @@
 ---
 title: aws-devops-zero-to-hero
-date: 2024-09-03T12:20:36+08:00
+date: 2025-10-29T12:26:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1723920515274-ace3503adad6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1723920515274-ace3503adad6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjUzMzcxMDl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1760479099350-657ce822eb10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760479099350-657ce822eb10?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
 ---
 
 # [iam-veeramalla/aws-devops-zero-to-hero](https://github.com/iam-veeramalla/aws-devops-zero-to-hero)
