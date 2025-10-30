@@ -1,9 +1,9 @@
 ---
 title: chainlink
-date: 2025-09-26T12:23:14+08:00
+date: 2025-10-30T12:21:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757259776685-bf90100ce53c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757259776685-bf90100ce53c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg4NjA0ODN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758718035730-487fa6e3da2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758718035730-487fa6e3da2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
 ---
 
 # [smartcontractkit/chainlink](https://github.com/smartcontractkit/chainlink)

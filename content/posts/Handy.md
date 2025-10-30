@@ -1,9 +1,9 @@
 ---
 title: Handy
-date: 2025-10-29T12:26:48+08:00
+date: 2025-10-30T12:21:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758718035730-487fa6e3da2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758718035730-487fa6e3da2b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
 ---
 
 # [cjpais/Handy](https://github.com/cjpais/Handy)

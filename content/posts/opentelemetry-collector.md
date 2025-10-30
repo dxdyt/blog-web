@@ -1,9 +1,9 @@
 ---
 title: opentelemetry-collector
-date: 2025-08-14T12:30:42+08:00
+date: 2025-10-30T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1751218434201-f58323a058f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1751218434201-f58323a058f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUxNDU3Njl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760340641889-7d215d84bda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760340641889-7d215d84bda3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
 ---
 
 # [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)
@@ -174,7 +174,7 @@ Here is a list of community roles with current and previous members:
 ### Maintainers
 
 - [Alex Boten](https://github.com/codeboten), Honeycomb
-- [Bogdan Drutu](https://github.com/BogdanDrutu), Snowflake
+- [Bogdan Drutu](https://github.com/bogdandrutu), Snowflake
 - [Dmitrii Anoshin](https://github.com/dmitryax), Splunk
 - [Pablo Baeyens](https://github.com/mx-psi), DataDog
 
@@ -197,6 +197,7 @@ the role of the [release manager](./docs/release.md#release-manager).
 
 ### Triagers
 
+- [Andrew Wilkins](https://github.com/axw), Elastic
 - [Andrzej Stencel](https://github.com/andrzej-stencel), Elastic
 - [Chao Weng](https://github.com/sincejune), AppDynamics
 - [Vihas Makwana](https://github.com/VihasMakwana), Elastic
