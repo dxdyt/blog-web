@@ -1,9 +1,9 @@
 ---
 title: helm
-date: 2025-09-24T12:23:18+08:00
+date: 2025-10-31T12:22:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756619845811-79fc9f95b449?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756619845811-79fc9f95b449?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2ODc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758944966810-9785cfbf4486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758944966810-9785cfbf4486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
 ---
 
 # [helm/helm](https://github.com/helm/helm)
