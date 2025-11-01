@@ -1,9 +1,9 @@
 ---
 title: opentelemetry-collector
-date: 2025-10-31T12:23:02+08:00
+date: 2025-11-01T12:20:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758910077756-22e7976686ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758910077756-22e7976686ad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761750366781-6f1fc4868082?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761750366781-6f1fc4868082?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
 ---
 
 # [open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)

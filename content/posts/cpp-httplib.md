@@ -1,9 +1,9 @@
 ---
 title: cpp-httplib
-date: 2025-10-31T12:23:22+08:00
+date: 2025-11-01T12:20:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758968563782-186a64de4afc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758968563782-186a64de4afc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1756737738550-79dfd212a31d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1756737738550-79dfd212a31d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
 ---
 
 # [yhirose/cpp-httplib](https://github.com/yhirose/cpp-httplib)

@@ -1,9 +1,9 @@
 ---
 title: social-analyzer
-date: 2025-10-31T12:23:09+08:00
+date: 2025-11-01T12:20:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759405095326-6bf1105294b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759405095326-6bf1105294b2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759520582331-8b62a819a452?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759520582331-8b62a819a452?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
 ---
 
 # [qeeqbox/social-analyzer](https://github.com/qeeqbox/social-analyzer)
