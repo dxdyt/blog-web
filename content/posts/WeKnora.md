@@ -1,9 +1,9 @@
 ---
 title: WeKnora
-date: 2025-10-31T12:24:12+08:00
+date: 2025-11-02T12:22:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758944966810-9785cfbf4486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758944966810-9785cfbf4486?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE4ODQ1NTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761578645370-fa5d2dc56033?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761578645370-fa5d2dc56033?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
 ---
 
 # [Tencent/WeKnora](https://github.com/Tencent/WeKnora)

@@ -1,9 +1,9 @@
 ---
 title: BettaFish
-date: 2025-11-01T12:20:56+08:00
+date: 2025-11-02T12:23:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761750366781-6f1fc4868082?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761750366781-6f1fc4868082?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE5NzA3NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761848483470-8ccaef3f1def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761848483470-8ccaef3f1def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/BettaFish](https://github.com/666ghj/BettaFish)
@@ -30,6 +30,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1761750366781-6f1fc48680
 [English](./README-EN.md) | [中文文档](./README.md)
 
 </div>
+
+> [!IMPORTANT]
+> 周一（11.3）会上**在线一键部署体验**，欢迎持续关注！
 
 ## ⚡ 项目概述
 
