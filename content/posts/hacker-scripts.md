@@ -1,9 +1,9 @@
 ---
 title: hacker-scripts
-date: 2023-04-09T12:17:04+08:00
+date: 2025-11-03T12:28:14+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12015/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12015/0/1080p
+featuredImage: https://images.unsplash.com/photo-1760625525477-f725e48f5a13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760625525477-f725e48f5a13?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
 ---
 
 # [NARKOZ/hacker-scripts](https://github.com/NARKOZ/hacker-scripts)

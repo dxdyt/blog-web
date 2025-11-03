@@ -1,9 +1,9 @@
 ---
 title: docs
-date: 2025-11-02T12:21:57+08:00
+date: 2025-11-03T12:28:28+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761646062286-cd2f3c8574dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761646062286-cd2f3c8574dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759327939880-d28ee3653331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759327939880-d28ee3653331?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
 ---
 
 # [suitenumerique/docs](https://github.com/suitenumerique/docs)

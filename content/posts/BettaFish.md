@@ -1,9 +1,9 @@
 ---
 title: BettaFish
-date: 2025-11-02T12:23:09+08:00
+date: 2025-11-03T12:27:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761848483470-8ccaef3f1def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761848483470-8ccaef3f1def?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758801305053-97e7e20fee3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758801305053-97e7e20fee3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/BettaFish](https://github.com/666ghj/BettaFish)
