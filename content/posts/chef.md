@@ -1,9 +1,9 @@
 ---
 title: chef
-date: 2025-11-02T12:21:48+08:00
+date: 2025-11-04T12:22:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761646062286-cd2f3c8574dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761646062286-cd2f3c8574dd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIwNTczMDB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761006608990-bd590396fca8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761006608990-bd590396fca8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
 ---
 
 # [get-convex/chef](https://github.com/get-convex/chef)

@@ -1,9 +1,9 @@
 ---
 title: opencode
-date: 2025-11-03T12:27:55+08:00
+date: 2025-11-04T12:22:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759159388721-8df819435846?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759159388721-8df819435846?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757106322111-fd92ecd4a0a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757106322111-fd92ecd4a0a2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
 ---
 
 # [sst/opencode](https://github.com/sst/opencode)

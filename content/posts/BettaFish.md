@@ -1,9 +1,9 @@
 ---
 title: BettaFish
-date: 2025-11-03T12:27:12+08:00
+date: 2025-11-04T12:21:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758801305053-97e7e20fee3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758801305053-97e7e20fee3e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742201408520-630d5214c006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742201408520-630d5214c006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/BettaFish](https://github.com/666ghj/BettaFish)
@@ -32,7 +32,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1758801305053-97e7e20fee
 </div>
 
 > [!IMPORTANT]
-> 周一（11.3）会上**在线一键部署体验**，欢迎持续关注！
+> 抱歉出了点状况，周二（11.4）会上**在线一键部署体验**，欢迎持续关注！
 
 ## ⚡ 项目概述
 
@@ -233,6 +233,8 @@ playwright install chromium
 
 #### 4.1 配置API密钥
 
+复制一份 `config.py.example` 文件，命名为 `config.py`
+
 编辑 `config.py` 文件，填入您的API密钥（您也可以选择自己的模型、搜索代理，详情见config文件内）：
 
 ```python
@@ -259,7 +261,7 @@ INSIGHT_ENGINE_MODEL_NAME = "kimi-k2-0711-preview"
 
 **选择1：使用本地数据库**
 
-> MindSpider爬虫系统跟舆情系统是各自独立的，所以需要再去`MindSpider\config.py`配置一下
+> MindSpider爬虫系统跟舆情系统是各自独立的，所以需要再去`MindSpider\config.py`配置一下，复制`MindSpider`文件夹下的 `config.py.example` 文件，命名为 `config.py`
 
 ```bash
 # 本地MySQL数据库初始化
@@ -315,7 +317,7 @@ streamlit run SingleEngineApp/insight_engine_streamlit_app.py --server.port 8501
 
 #### 5.3 爬虫系统单独使用
 
-这部分有详细的配置文档：[MindeSpider使用说明](./MindSpider/README.md)
+这部分有详细的配置文档：[MindSpider使用说明](./MindSpider/README.md)
 
 <div align="center">
 <img src="MindSpider\img\example.png" alt="banner" width="600">
