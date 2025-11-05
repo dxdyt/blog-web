@@ -1,9 +1,9 @@
 ---
 title: How-To-Secure-A-Linux-Server
-date: 2023-05-20T12:16:54+08:00
+date: 2025-11-05T12:23:03+08:00
 draft: False
-featuredImage: https://wallpaperhub.app/api/v1/get/12135/0/1080p
-featuredImagePreview: https://wallpaperhub.app/api/v1/get/12135/0/1080p
+featuredImage: https://images.unsplash.com/photo-1761165308649-78e8f6d55b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761165308649-78e8f6d55b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
@@ -33,6 +33,7 @@ An evolving how-to guide for securing a Linux server that, hopefully, also teach
   - [Installing Linux](#installing-linux)
   - [Pre/Post Installation Requirements](#prepost-installation-requirements)
   - [Other Important Notes](#other-important-notes)
+  - [Using Ansible Playbooks to secure your Linux Server](#using-ansible-playbooks-to-secure-your-linux-server)
 - [The SSH Server](#the-ssh-server)
   - [Important Note Before You Make SSH Changes](#important-note-before-you-make-ssh-changes)
   - [SSH Public/Private Keys](#ssh-publicprivate-keys)
@@ -49,10 +50,12 @@ An evolving how-to guide for securing a Linux server that, hopefully, also teach
   - [Force Accounts To Use Secure Passwords](#force-accounts-to-use-secure-passwords)
   - [Automatic Security Updates and Alerts](#automatic-security-updates-and-alerts)
   - [More Secure Random Entropy Pool (WIP)](#more-secure-random-entropy-pool-wip)
+  - [Add Panic/Secondary/Fake password Login Security System](#add-panic-secondary-fake-password-login-security-system)
 - [The Network](#the-network)
   - [Firewall With UFW (Uncomplicated Firewall)](#firewall-with-ufw-uncomplicated-firewall)
   - [iptables Intrusion Detection And Prevention with PSAD](#iptables-intrusion-detection-and-prevention-with-psad)
-  - [Application Intrusion Detection And Prevention With Fail2Ban](#application-intrusion-detection-and-prevention-with-fail2ban)
+  - [Application Intrusion Detection And Prevention With Fail2Ban](#application-intrusion-detection-and-prevention-with-fail2ban) 
+  - [Application Intrusion Detection And Prevention With CrowdSec](#application-intrusion-detection-and-prevention-with-crowdsec)
 - [The Auditing](#the-auditing)
   - [File/Folder Integrity Monitoring With AIDE (WIP)](#filefolder-integrity-monitoring-with-aide-wip)
   - [Anti-Virus Scanning With ClamAV (WIP)](#anti-virus-scanning-with-clamav-wip)
@@ -64,7 +67,7 @@ An evolving how-to guide for securing a Linux server that, hopefully, also teach
   - [OSSEC - Host Intrusion Detection](#ossec---host-intrusion-detection)
 - [The Danger Zone](#the-danger-zone)
 - [The Miscellaneous](#the-miscellaneous)
-  - [MSMTP (Simple Sendmail) with google](#msmtp-alternative)
+  - [MSMTP (Simple Sendmail) with Google](#msmtp-alternative)
   - [Gmail and Exim4 As MTA With Implicit TLS](#gmail-and-exim4-as-mta-with-implicit-tls)
   - [Separate iptables Log File](#separate-iptables-log-file)
 - [Left Over](#left-over)
@@ -83,15 +86,17 @@ This guides purpose is to teach you how to secure a Linux server.
 
 There are a lot of things you can do to secure a Linux server and this guide will attempt to cover as many of them as possible. More topics/material will be added as I learn, or as folks [contribute](#contributing).
 
+Ansible playbooks of this guide are available at [How To Secure A Linux Server With Ansible](https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible) by [moltenbit](https://github.com/moltenbit).
+
 ([Table of Contents](#table-of-contents))
 
 ### Why Secure Your Server
 
 I assume you're using this guide because you, hopefully, already understand why good security is important. That is a heavy topic onto itself and breaking it down is out-of-scope for this guide. If you don't know the answer to that question, I advise you research it first.
 
-At a high level, the second a  device, like a server, is in the public domain -- i.e visible to the outside world -- it becomes a target for bad-actors. An unsecured device is a playground for bad-actors who want access to your data, or to use your server as another node for their large-scale DDOS attacks.
+At a high level, the second a  device, like a server, is in the public domain -- i.e. visible to the outside world -- it becomes a target for bad-actors. An unsecured device is a playground for bad-actors who want access to your data, or to use your server as another node for their large-scale DDOS attacks.
 
-What's worse is, without good security, you may never know if your server has been compromised. A bad-actor may have gained unauthorized access to your server and copied your data without changing anything so you'd never know. Or your server may have been part of a DDOS attack and you wouldn't know. Look at many of the large scale data breaches in the news -- the companies often did not discover the data leak or intrusion until long after the bad-actors were gone.
+What's worse is, without good security, you may never know if your server has been compromised. A bad-actor may have gained unauthorized access to your server and copied your data without changing anything, so you'd never know. Or your server may have been part of a DDOS attack, and you wouldn't know. Look at many of the large scale data breaches in the news -- the companies often did not discover the data leak or intrusion until long after the bad-actors were gone.
 
 Contrary to popular belief, bad-actors don't always want to change something or [lock you out of your data for money](https://en.wikipedia.org/wiki/Ransomware). Sometimes they just want the data on your server for their data warehouses (there is big money in big data) or to covertly use your server for their nefarious purposes.
 
@@ -105,9 +110,7 @@ As I was going through research for my Debian build, I kept notes. At the end I 
 
 I've never found one guide that covers everything -- this guide is my attempt.
 
-Many of the things covered in this guide may be rather basic/trivial, but most of us do not install Linux every day and it is easy to forget those basic things.
-
-IT automation tools like [Ansible](https://www.ansible.com/), [Chef](https://www.chef.io/), [Jenkins](https://jenkins.io/), [Puppet](https://puppet.com/), etc. help with the tedious task of installing/configuring a server but IMHO they are better suited for multiple or large scale deployments. IMHO, the overhead required to use those kinds of automation tools is wholly unnecessary for a one-time single server install for home use.
+Many of the things covered in this guide may be rather basic/trivial, but most of us do not install Linux every day, and it is easy to forget those basic things.
 
 ([Table of Contents](#table-of-contents))
 
@@ -167,7 +170,7 @@ This guide...
 - ...**does not** teach you everything you need to know about security nor does it get into all aspects of system/server security. For example, physical security is out of scope for this guide.
 - ...**does not** talk about how programs/tools work, nor does it delve into their nook and crannies. Most of the programs/tools this guide references are very powerful and highly configurable. The goal is to cover the bare necessities -- enough to whet your appetite and make you hungry enough to want to go and learn more.
 - ...**aims** to make it easy by providing code you can copy-and-paste. You might need to modify the commands before you paste so keep your favorite [text editor](https://notepad-plus-plus.org/) handy.
-- ...**is** organized in an order that makes logical sense to me -- i.e. securing SSH before installing a firewall. As such, this guide is intended to be followed in the order it is presented but it is not necessary to do so. Just be careful if you do things in a different order -- some sections require previous sections to be completed.
+- ...**is** organized in an order that makes logical sense to me -- i.e. securing SSH before installing a firewall. As such, this guide is intended to be followed in the order it is presented, but it is not necessary to do so. Just be careful if you do things in a different order -- some sections require previous sections to be completed.
 
 ([Table of Contents](#table-of-contents))
 
@@ -197,7 +200,7 @@ The `code` snippets use basic commands like `echo`, `cat`, `sed`, `awk`, and `gr
 
 **Note**: The `code` snippets do not validate/verify the change went through -- i.e. the line was actually added or changed. I'll leave the verifying part in your capable hands. The steps in this guide do include taking backups of all files that will be changed.
 
-Not all changes can be automated with `code` snippets. Those changes need good, old fashioned, manual editing. For example, you can't just append a line to an [INI](https://en.wikipedia.org/wiki/INI_file) type file. Use your [favorite](https://en.wikipedia.org/wiki/Vi) Linux text editor.
+Not all changes can be automated with `code` snippets. Those changes need good, old-fashioned, manual editing. For example, you can't just append a line to an [INI](https://en.wikipedia.org/wiki/INI_file) type file. Use your [favorite](https://en.wikipedia.org/wiki/Vi) Linux text editor.
 
 ([Table of Contents](#table-of-contents))
 
@@ -237,7 +240,7 @@ You want a distribution that...
 - ...**is stable**. Unless you like debugging issues at 2 AM, you don't want an [unattended upgrade](#automatic-security-updates-and-alerts), or a manual package/system update, to render your server inoperable. But this also means you're okay with not running the latest, greatest, bleeding edge software.
 - ...**stays up-to-date with security patches**. You can secure everything on your server, but if the core OS or applications you're running have known vulnerabilities, you'll never be safe.
 - ...**you're familiar with.** If you don't know Linux, I would advise you play around with one before you try to secure it. You should be comfortable with it and know your way around, like how to install software, where configuration files are, etc...
-- ...**is well supported.** Even the most seasoned admin needs help every now and then. Having a place to go for help will save your sanity.
+- ...**is well-supported.** Even the most seasoned admin needs help every now and then. Having a place to go for help will save your sanity.
 
 ([Table of Contents](#table-of-contents))
 
@@ -279,6 +282,52 @@ Where applicable, use the expert install option so you have tighter control of w
 
 ([Table of Contents](#table-of-contents))
 
+### Using Ansible playbooks to secure your Linux Server
+Ansible playbooks of this guide are available at [How To Secure A Linux Server With Ansible](https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible).
+
+Make sure to edit the variables according to your needs and read all tasks beforehand to confirm it does not break your system. After running the playbooks ensure that all settings are configured to your needs!
+
+1. Install [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
+2. git clone [How To Secure A Linux Server With Ansible](https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible)
+3. [Create SSH-Public/Private-Keys](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server#ssh-publicprivate-keys)
+  ```
+  ssh-keygen -t ed25519
+  ```
+   
+5. Change all variables in *group_vars/variables.yml* according to your needs.
+6. Enable SSH root access before running the playbooks:
+   
+  ```
+  nano /etc/ssh/sshd_config
+  [...]
+  PermitRootLogin yes
+  [...]
+  ```
+
+7. Recommended: configure static IP address on your system.
+8. Add your systems IP address to *hosts.yml*.
+
+&nbsp;
+
+Run the requirements playbook using the root password you specified while installing the server:
+
+    ansible-playbook --inventory hosts.yml --ask-pass requirements-playbook.yml
+
+&nbsp;
+
+Run the main playbook with the new users password you specified in the *variables.yml* file:
+
+    ansible-playbook --inventory hosts.yml --ask-pass main-playbook.yml
+
+&nbsp;
+
+If you need to run the playbooks multiple times remember to use the SSH key and the new SSH port:
+
+    ansible-playbook --inventory hosts.yml -e ansible_ssh_port=SSH_PORT --key-file /PATH/TO/SSH/KEY main-playbook.yml
+
+
+([Table of Contents](#table-of-contents))
+
 ## The SSH Server
 
 ### Important Note Before You Make SSH Changes
@@ -302,7 +351,7 @@ Check the references below for more details but, at a high level, public/private
 
 For SSH, a public and private key is created on the client. You want to keep both keys secure, especially the private key. Even though the public key is meant to be public, it is wise to make sure neither keys fall in the wrong hands.
 
-When you connect to an SSH server, SSH will look for a public key that matches the client you're connecting from in the file `~/.ssh/authorized_keys` on the server you're connecting to. Notice the file is in the **home folder** of the ID you're trying to connect to. So, after creating the public key, you need to append it to `~/.ssh/authorized_keys`. One approach is to copy it to a USB stick and physically transfer it to the server. Another approach is to use use [`ssh-copy-id`](https://www.ssh.com/ssh/copy-id) to transfer and append the public key.
+When you connect to an SSH server, SSH will look for a public key that matches the client you're connecting from in the file `~/.ssh/authorized_keys` on the server you're connecting to. Notice the file is in the **home folder** of the ID you're trying to connect to. So, after creating the public key, you need to append it to `~/.ssh/authorized_keys`. One approach is to copy it to a USB stick and physically transfer it to the server. Another approach is to use [`ssh-copy-id`](https://www.ssh.com/ssh/copy-id) to transfer and append the public key.
 
 After the keys have been created and the public key has been appended to `~/.ssh/authorized_keys` on the host, SSH uses the public and private keys to verify identity and then establish a secure connection. How identity is verified is a complicated process but [Digital Ocean](https://www.digitalocean.com/community/tutorials/understanding-the-ssh-encryption-and-connection-process) has a very nice write-up of how it works. At a high level, identity is verified by the server encrypting a challenge message with the public key, then sending it to the client. If the client cannot decrypt the challenge message with the private key, the identity can't be verified and a connection will not be established.
 
@@ -542,6 +591,9 @@ SSH is a door into your server. This is especially true if you are opening ports
 
     # don't allow .rhosts or /etc/hosts.equiv
     HostbasedAuthentication no
+
+    # https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/115
+    HashKnownHosts yes
     ```
 
 1. Then **find and edit or add** these settings, and set values as per your requirements:
@@ -648,7 +700,7 @@ The Diffie-Hellman algorithm is used by SSH to establish a secure connection. Th
 
 Even though SSH is a pretty good security guard for your doors and windows, it is still a visible door that bad-actors can see and try to brute-force in. [Fail2ban](#fail2ban-application-intrusion-detection-and-prevention) will monitor for these brute-force attempts but there is no such thing as being too secure. Requiring two factors adds an extra layer of security.
 
-Using Two Factor Authentication (2FA) / Multi Factor Authentication (MFA) requires anyone entering to have **two** keys to enter which makes it harder for bad actors. The two keys are:
+Using Two-Factor Authentication (2FA) / Multi-Factor Authentication (MFA) requires anyone entering to have **two** keys to enter which makes it harder for bad actors. The two keys are:
 
 1. Their password
 1. A 6 digit token that changes every 30 seconds
@@ -928,7 +980,7 @@ Browsers (even more the Closed Source ones) and eMail Clients are highly suggest
     sudo ln -s /usr/bin/firejail /usr/local/bin/thunderbird
     ```
 
-3. Run the application as usual (via terminal or launcher) and check if is running in a jail:
+3. Run the application as usual (via terminal or launcher) and check if it's running in a jail:
 
     ``` bash
     firejail --list
@@ -977,7 +1029,7 @@ NTP stands for Network Time Protocol. In the context of this guide, an NTP clien
 1. Make a backup of the NTP client's configuration file `/etc/ntp.conf`:
 
     ``` bash
-    sudo cp --archive /etc/ntp.conf /etc/ntp.conf-COPY-$(date +"%Y%m%d%H%M%S")
+    sudo cp --archive /etc/ntpsec/ntp.conf /etc/ntpsec/ntp.conf-COPY-$(date +"%Y%m%d%H%M%S")
     ```
 
 1. The default configuration, at least on Debian, is already pretty secure. The only thing we'll want to make sure is we're the `pool` directive and not any `server` directives. The `pool` directive allows the NTP client to stop using a server if it is unresponsive or serving bad time. Do this by commenting out all `server` directives and adding the below to `/etc/ntp.conf`.
@@ -1372,7 +1424,98 @@ WIP
 1. Test randomness:
     - https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security_guide/sect-security_guide-encryption-using_the_random_number_generator
     - https://wiki.archlinux.org/index.php/Rng-tools
-   
+
+([Table of Contents](#table-of-contents))
+
+### Add Panic/Secondary/Fake password Login Security System
+
+#### Why
+
+A nice tool to add extra password security, against physical attack (In-Person) Ramson/Rob/assault methods.
+
+#### How It Works
+
+The pamduress will add to the X user a secondary password (Panic password), when this password match will start run a script (this script do what you what the user do, when he logins with THESE panic password.
+
+Practical & real Example:
+"Some Robber invade a home, and steal the server (containing IMPORTANT business backups, and ownlife memories and blablabla). Not exist any disk/boot encryption. Robber have start the server on their 'safe zone' and start an bruteforce attack. He have cracked the local password by SSH with from sudoer user 'admin' success, yeah a dummy password, not THE Strong one/primary. He starts SSH session/or physical session with that cracked dummy/panic password with 'admin' sudoer. He starts feeling the server seems too much busy in less than 2 minutes until to freeze.. 'wtf!?! lets reboot and continue steal info..'.. sorry friend. all data and system was destroyed.".
+    Conclusion, the robber cracked the dummy/panic/secondary password, and with this password its associated a script will do delete all files, config, system, boot and after than start charge the RAM and CPU to force robber reboot system.  
+
+#### Goals
+
+Prevent access to malicious person to access server information when get an a password in force way (assault, gun, ransom, ...). Of course this is helpfull in other situations.
+
+#### References
+
+- Thanks to [nuvious](https://github.com/nuvious/pam-duress) for this tool
+- Thanks to [hellresistor](https://gist.github.com/hellresistor/a4c542415a2d437e21afc235260d2366) for this Lazy-Tool-Script
+
+#### Steps
+
+1. Run this (hellresistor Lazy-Tool-Script).
+
+ ```` bash
+#!/bin/bash
+myownscript(){
+#######################################################
+## ***** EDIT THIS SCRIPT TO YOUR PROPOSES *****#
+
+cat > "$ScriptFile" <<-EOF
+#!/bin/bash
+sudo rm -rf /home
+#### FINISHED OWN SCRIPT ####
+EOF
+#######################################################
+}
+echo "Lets Config a PANIC PASSWORD ;)" && sleep 1
+read -r -p "Want you REALLY configure A PANIC PASSWORD?? Write [ OK ] : " PAMDUR
+if [[ "$PAMDUR" = "OK" ]]; then
+ echo "Lets Config a PANIC USER, PASSWORD and SCRIPT ;)" && sleep 1
+ while [ -z "$PANICUSR" ]
+ do
+  read -r -p "WRITE a Panic User to your pam-duress user [ root ]: " PANICUSR
+  PANICUSR=${PANICUSR:=root}
+ done
+ if [ -z "$ScriptLoc" ]; then
+  read -r -p "SET Script Directory with FULL PATH [ /root/.duress ]: " ScriptLoc
+  ScriptLoc=${ScriptLoc:=/root/.duress}
+  ScriptFile="$ScriptLoc/PanicScript.sh"
+ fi
+else
+ echo "NOT Use PAM DURESS aKa Panic Password!!! Bye"
+ exit 1
+fi
+
+sudo apt install -y git build-essential libpam0g-dev libssl-dev
+
+cd "$HOME" || exit 1
+git clone https://github.com/nuvious/pam-duress.git
+cd pam-duress || exit 1
+make 
+sudo make install
+make clean
+#make uninstall
+
+mkdir -p $ScriptLoc
+sudo mkdir -p /etc/duress.d
+myownscript
+duress_sign $ScriptFile
+chmod -R 500 $ScriptLoc
+chmod 400 $ScriptLoc/*.sha256
+chown -R $PANICUSR $ScriptLoc
+
+sudo cp --preserve /etc/pam.d/common-auth /etc/pam.d/common-auth.bck
+
+echo "
+auth   	[success=2 default=ignore]	     pam_unix.so nullok_secure
+auth    [success=1 default=ignore]      pam_duress.so
+auth	   requisite	                    		pam_deny.so
+auth	   required	                     		pam_permit.so
+" | sudo tee /etc/pam.d/common-auth
+
+read -r -p "Press <Enter> Key to Finish PAM DURESS Script!"
+exit 0
+ ````
 
 ([Table of Contents](#table-of-contents))
 
@@ -1685,7 +1828,7 @@ And, since we're already using [UFW](#ufw-uncomplicated-firewall) so we'll follo
 - https://serverfault.com/a/447604/289829
 - https://serverfault.com/a/770424/289829
 - https://gist.github.com/netson/c45b2dc4e835761fbccc
-- Thanks to [sysadt](https://github.com/sysadt) for catching the issue ([#61](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/61)) with `psadwatchd`.
+- Thanks to [moltenbit](https://github.com/moltenbit) for catching the issue ([#61](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/61)) with `psadwatchd`.
 
 #### Steps
 
@@ -1966,6 +2109,192 @@ fail2ban-client set sshd unbanip 192.168.1.100
 ```
 
 ([Table of Contents](#table-of-contents))
+
+### Application Intrusion Detection And Prevention With CrowdSec
+
+#### Why
+
+UFW tells your server what doors to board up so nobody can see them, and what doors to allow authorized users through. PSAD monitors network activity to detect and prevent potential intrusions -- repeated attempts to get in. 
+
+CrowdSec is similar to Fail2Ban in that it monitors the logs of your applications (like SSH and Apache) to detect and prevent potential intrusions. However, CrowdSec is coupled with a community that shares threat intelligence back to CrowdSec to then distribute a Community Blocklist to all users.
+
+#### How It Works
+
+CrowdSec monitors the logs of your applications (like SSH and Apache) to detect and prevent potential intrusions. It will monitor network traffic/logs and prevent intrusions by blocking suspicious activity (e.g. multiple successive failed connections in a short time-span). Once a malicious IP is detected, it will be added to your local decision list and threat information is shared with CrowdSec to update the Community Blocklist on malicious IP addresses. Once an IP address hits a certain threshold of malicious activity, it will be automatically propogated to all other CrowdSec users to proactively block.
+
+#### Goals
+
+- network monitoring for suspicious activity with automatic banning of offending IPs
+
+#### Notes
+
+- As of right now, the only thing running on this server is SSH so we'll want CrowdSec to monitor SSH and ban as necessary.
+- As you install other programs, you'll need to install additional collections and configure the appropriate acquisitions.
+
+#### References
+
+- https://www.crowdsec.net/
+- [Read how CrowdSec curates the Community Blocklist](https://www.crowdsec.net/our-data)
+- [Read what threat intelligence is shared with CrowdSec](https://docs.crowdsec.net/docs/next/central_api/intro#signal-meta-data)
+- https://docs.crowdsec.net/
+
+#### Steps
+
+1. Install CrowdSec Security Engine. (IDS)
+
+    On any linux distro (including Debian based systems)
+    
+    Install the CrowdSec repository:
+    ``` bash
+    curl -s https://install.crowdsec.net | sudo sh
+    ```
+
+    Install the CrowdSec Security Engine:
+    ``` bash
+    sudo apt install crowdsec
+    ```
+
+> [!TIP]
+> if `curl | sh` is not your thing, you can find additional install methods [here](https://docs.crowdsec.net/u/getting_started/installation/linux).
+
+By default whilst CrowdSec is installing the Security Engine it will auto-discover your installed applications and install the appropriate parsers and scenarios for them. Since we know most Linux servers are running ssh out of the box CrowdSec will automatically configured this for you.
+
+2. Install a Remediation Component. (IPS)
+
+    CrowdSec by itself is a detection engine, since in most modern infrastructures you may have an upstream firewall or WAF, CrowdSec will not block the IP addresses by itself. You can install a Remediation Component to block the IP addresses detected by CrowdSec.
+    ```bash
+    sudo apt install crowdsec-firewall-bouncer-iptables
+    ```
+
+> [!TIP]
+> If your installation of UFW is not using `iptables` as the backend, you can alternatively install `crowdsec-firewall-bouncer-nftables`. There is no difference in the installed binaries, only the configuration file is different.
+
+By default whilst the Remediation Component is installing it will auto-configure the necessary settings to work with the Security Engine if deployed on the same host (and if the security engine is not within a container environment).
+
+3. Check detection and remediation is working as intended:
+
+    CrowdSec package comes with a CLI tool to check the status of the Security Engine and the Remediation Component.
+
+    ```bash
+    sudo cscli metrics
+    ```
+
+    ```bash
+    Acquisition Metrics:
+    ╭────────────────────────┬────────────┬──────────────┬────────────────┬────────────────────────┬───────────────────╮
+    │ Source                 │ Lines read │ Lines parsed │ Lines unparsed │ Lines poured to bucket │ Lines whitelisted │
+    ├────────────────────────┼────────────┼──────────────┼────────────────┼────────────────────────┼───────────────────┤
+    │ file:/var/log/auth.log │ 5          │ 4            │ 1              │ 10                     │ -                 │
+    │ file:/var/log/syslog   │ 30         │ -            │ 30             │ -                      │ -                 │
+    ╰────────────────────────┴────────────┴──────────────┴────────────────┴────────────────────────┴───────────────────╯
+
+    Local API Decisions:
+    ╭────────────────────────────────────────────┬────────┬────────┬───────╮
+    │ Reason                                     │ Origin │ Action │ Count │
+    ├────────────────────────────────────────────┼────────┼────────┼───────┤
+    │ crowdsecurity/http-backdoors-attempts      │ CAPI   │ ban    │ 73    │
+    │ crowdsecurity/http-bad-user-agent          │ CAPI   │ ban    │ 4836  │
+    │ crowdsecurity/http-path-traversal-probing  │ CAPI   │ ban    │ 87    │
+    │ crowdsecurity/http-probing                 │ CAPI   │ ban    │ 2010  │
+    │ crowdsecurity/thinkphp-cve-2018-20062      │ CAPI   │ ban    │ 88    │
+    │ crowdsecurity/CVE-2019-18935               │ CAPI   │ ban    │ 7     │
+    │ crowdsecurity/CVE-2023-49103               │ CAPI   │ ban    │ 5     │
+    │ crowdsecurity/http-admin-interface-probing │ CAPI   │ ban    │ 91    │
+    │ ltsich/http-w00tw00t                       │ CAPI   │ ban    │ 3     │
+    │ crowdsecurity/apache_log4j2_cve-2021-44228 │ CAPI   │ ban    │ 18    │
+    │ crowdsecurity/nginx-req-limit-exceeded     │ CAPI   │ ban    │ 280   │
+    │ crowdsecurity/ssh-slow-bf                  │ CAPI   │ ban    │ 3412  │
+    │ crowdsecurity/spring4shell_cve-2022-22965  │ CAPI   │ ban    │ 1     │
+    │ crowdsecurity/ssh-cve-2024-6387            │ CAPI   │ ban    │ 24    │
+    │ crowdsecurity/CVE-2023-22515               │ CAPI   │ ban    │ 2     │
+    │ crowdsecurity/http-cve-2021-41773          │ CAPI   │ ban    │ 172   │
+    │ crowdsecurity/netgear_rce                  │ CAPI   │ ban    │ 14    │
+    │ crowdsecurity/ssh-bf                       │ CAPI   │ ban    │ 2000  │
+    │ crowdsecurity/CVE-2022-35914               │ CAPI   │ ban    │ 1     │
+    │ crowdsecurity/http-cve-2021-42013          │ CAPI   │ ban    │ 2     │
+    │ crowdsecurity/jira_cve-2021-26086          │ CAPI   │ ban    │ 9     │
+    │ crowdsecurity/http-sensitive-files         │ CAPI   │ ban    │ 166   │
+    │ crowdsecurity/http-wordpress-scan          │ CAPI   │ ban    │ 272   │
+    │ crowdsecurity/CVE-2022-26134               │ CAPI   │ ban    │ 5     │
+    │ crowdsecurity/http-generic-bf              │ CAPI   │ ban    │ 7     │
+    │ crowdsecurity/http-open-proxy              │ CAPI   │ ban    │ 948   │
+    │ crowdsecurity/http-crawl-non_statics       │ CAPI   │ ban    │ 339   │
+    │ crowdsecurity/http-cve-probing             │ CAPI   │ ban    │ 5     │
+    │ crowdsecurity/CVE-2017-9841                │ CAPI   │ ban    │ 117   │
+    │ crowdsecurity/CVE-2022-37042               │ CAPI   │ ban    │ 1     │
+    │ crowdsecurity/fortinet-cve-2018-13379      │ CAPI   │ ban    │ 5     │
+    ╰────────────────────────────────────────────┴────────┴────────┴───────╯
+
+    Local API Metrics:
+    ╭──────────────────────┬────────┬──────╮
+    │ Route                │ Method │ Hits │
+    ├──────────────────────┼────────┼──────┤
+    │ /v1/alerts           │ GET    │ 2    │
+    │ /v1/decisions/stream │ GET    │ 5    │
+    │ /v1/usage-metrics    │ POST   │ 2    │
+    │ /v1/watchers/login   │ POST   │ 4    │
+    ╰──────────────────────┴────────┴──────╯
+
+    Local API Bouncers Metrics:
+    ╭────────────────────────────────┬──────────────────────┬────────┬──────╮
+    │ Bouncer                        │ Route                │ Method │ Hits │
+    ├────────────────────────────────┼──────────────────────┼────────┼──────┤
+    │ cs-firewall-bouncer-1729025592 │ /v1/decisions/stream │ GET    │ 5    │
+    ╰────────────────────────────────┴──────────────────────┴────────┴──────╯
+
+    Local API Machines Metrics:
+    ╭──────────────────────────────────────────────────┬────────────┬────────┬──────╮
+    │ Machine                                          │ Route      │ Method │ Hits │
+    ├──────────────────────────────────────────────────┼────────────┼────────┼──────┤
+    │ <your_machine_id_will_be_here>                   │ /v1/alerts │ GET    │ 2    │
+    ╰──────────────────────────────────────────────────┴────────────┴────────┴──────╯
+
+    Parser Metrics:
+    ╭─────────────────────────────────┬──────┬────────┬──────────╮
+    │ Parsers                         │ Hits │ Parsed │ Unparsed │
+    ├─────────────────────────────────┼──────┼────────┼──────────┤
+    │ child-crowdsecurity/sshd-logs   │ 41   │ 4      │ 37       │
+    │ child-crowdsecurity/syslog-logs │ 35   │ 35     │ -        │
+    │ crowdsecurity/dateparse-enrich  │ 4    │ 4      │ -        │
+    │ crowdsecurity/sshd-logs         │ 5    │ 4      │ 1        │
+    │ crowdsecurity/syslog-logs       │ 35   │ 35     │ -        │
+    ╰─────────────────────────────────┴──────┴────────┴──────────╯
+
+    Scenario Metrics:
+    ╭─────────────────────────────────────┬───────────────┬───────────┬──────────────┬────────┬─────────╮
+    │ Scenario                            │ Current Count │ Overflows │ Instantiated │ Poured │ Expired │
+    ├─────────────────────────────────────┼───────────────┼───────────┼──────────────┼────────┼─────────┤
+    │ crowdsecurity/ssh-bf                │ 1             │ -         │ 1            │ 4      │ -       │
+    │ crowdsecurity/ssh-bf_user-enum      │ 1             │ -         │ 1            │ 1      │ -       │
+    │ crowdsecurity/ssh-slow-bf           │ 1             │ -         │ 1            │ 4      │ -       │
+    │ crowdsecurity/ssh-slow-bf_user-enum │ 1             │ -         │ 1            │ 1      │ -       │
+    ╰─────────────────────────────────────┴───────────────┴───────────┴──────────────┴────────┴─────────╯
+    ```
+
+The above output can be daunting, but it's a good way to check that the Security Engine is reading logs and the Remediation Component is blocking IP addresses. So a quick breakdown of each section:
+
+- **Acquisition Metrics**: This section shows the logs that the Security Engine is reading and parsing. If you see logs in the `Lines unparsed` column, it means the Security Engine is not able to parse the logs. This could be due to a misconfiguration or the logs are not in the expected format.
+- **Local API Decisions**: This section shows the decisions that the Security Engine has within the datbase. If you see logs in the `Count` column, it means the Security Engine has detected malicious activity and has blocked the IP address.
+    - Orgin: This is where the decision came from. In this case, it's from the Central API (CAPI).
+- **Local API Metrics**: This section shows the number of hits to the Local API. This is the API that the Security Engine uses to communicate with the Remediation Component.
+- **Local API Bouncers Metrics**: This section shows the number of hits to the Local API by the Remediation Component.
+- **Local API Machines Metrics**: This section shows the number of hits to the Local API by the Security Engine (if you run multiple Security Engine in a centralized setup you can see multiple ID's here).
+- **Parser Metrics**: This section shows the parsers that are being used by the Security Engine. If you see logs in the `Unparsed` column, it means the Security Engine is not able to parse the logs. This could be due to a misconfiguration or the logs are not in the expected format.
+- **Scenario Metrics**: This section shows the scenarios that are being used by the Security Engine. If you see logs in the `Current Count` column, it means the Security Engine has detected malicious activity and is tracking the IP address.
+
+#### Unban an IP
+
+To unban an IP use this command:
+
+``` bash
+cscli decisions delete --ip [IP]
+```
+
+`[IP]` is the IP address you want to unban. For example, to unban `192.168.1.100` from SSH you would do:
+
+``` bash
+cscli decisions delete --ip 192.168.1.100
+```
 
 ## The Auditing
 
@@ -2471,7 +2800,7 @@ logwatch's configuration file `/usr/share/logwatch/default.conf/logwatch.conf` s
 
 - Your server will need to be able to send e-mails for this to work
 - The below steps will result in logwatch running every day. If you want to change the schedule, modify the cronjob to your liking. You'll also want to change the `range` option to cover your recurrence window. See https://www.badpenguin.org/configure-logwatch-for-weekly-email-and-html-output-format for an example.
-- If logwatch fails to deliver mail due to the e-mail having long lines please check https://blog.dhampir.no/content/exim4-line-length-in-debian-stretch-mail-delivery-failed-returning-message-to-sender as documented in [issue #29](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/29). If you you followed [Gmail and Exim4 As MTA With Implicit TLS](#gmail-and-exim4-as-mta-with-implicit-tls) then we already took care of this in step #7.
+- If logwatch fails to deliver mail due to the e-mail having long lines please check https://blog.dhampir.no/content/exim4-line-length-in-debian-stretch-mail-delivery-failed-returning-message-to-sender as documented in [issue #29](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/29). If you followed [Gmail and Exim4 As MTA With Implicit TLS](#gmail-and-exim4-as-mta-with-implicit-tls) then we already took care of this in step #7.
 
 #### References
 
@@ -2556,7 +2885,7 @@ logwatch's configuration file `/usr/share/logwatch/default.conf/logwatch.conf` s
     sudo /etc/cron.daily/00logwatch
     ```
     
-    **Note**: If logwatch fails to deliver mail due to the e-mail having long lines please check https://blog.dhampir.no/content/exim4-line-length-in-debian-stretch-mail-delivery-failed-returning-message-to-sender as documented in [issue #29](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/29). If you you followed [Gmail and Exim4 As MTA With Implicit TLS](#gmail-and-exim4-as-mta-with-implicit-tls) then we already took care of this in step #7.
+    **Note**: If logwatch fails to deliver mail due to the e-mail having long lines please check https://blog.dhampir.no/content/exim4-line-length-in-debian-stretch-mail-delivery-failed-returning-message-to-sender as documented in [issue #29](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/29). If you followed [Gmail and Exim4 As MTA With Implicit TLS](#gmail-and-exim4-as-mta-with-implicit-tls) then we already took care of this in step #7.
 
 ([Table of Contents](#table-of-contents))
 
@@ -2596,7 +2925,7 @@ Obviously we don't want your server listening on ports we don't know about. We'l
     
     **Switch Explanations**:
     - `l` = display listening sockets
-    - `n` = do now try to resolve service names
+    - `n` = do not try to resolve service names
     - `t` = display TCP sockets
     - `u` = display UDP sockets
     - `p` = show process information
@@ -2942,7 +3271,7 @@ If your installation uses [`sulogin`](https://linux.die.net/man/8/sulogin) (like
 
 To work around this, you can use the `--force` option for `sulogin`. Some distributions already include this, or some other, workaround.
 
-An alternative to locking the **root** acount is set a long/complicated **root** password and store it in a secured, non digital format. That way you have it when/if you need it.
+An alternative to locking the **root** acount is set a long/complicated **root** password and store it in a secured, non-digital format. That way you have it when/if you need it.
 
 #### Goals
 
@@ -3118,7 +3447,7 @@ Keep in mind, deborphan finds packages that have **no package dependencies**. Th
 (#msmtp-alternative)
 #### Why
 
-Well I will SIMPLIFY this method, to only output email using google mail account (and others). True Simple! :)
+Well I will SIMPLIFY this method, to only output email using Google Mail account (and others). True Simple! :)
 
     ``` bash
     #!/bin/bash
@@ -3197,11 +3526,13 @@ DONE!! ;)
 
 Unless you're planning on setting up your own mail server, you'll need a way to send e-mails from your server. This will be important for system alerts/messages.
 
-You can use any Gmail account. I recommend you create one specific for this server. That way if your server **is** compromised, the bad-actor won't have any passwords for your primary account. Granted, if you have 2FA/MFA enabled and you use an app password, there isn't much a bad-actor can do with just the app password, but why take the risk?
+You can use any Gmail account. I recommend you create one specific for this server. That way if your server **is** compromised, the bad-actor won't have any passwords for your primary account. Granted, if you have 2FA/MFA enabled, and you use an app password, there isn't much a bad-actor can do with just the app password, but why take the risk?
 
 There are many guides on-line that cover how to configure Gmail as MTA using STARTTLS including a [previous version of this guide](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/tree/cc5edcae1cf846dd250e76b121e721d836481d2f#configure-gmail-as-mta). With STARTTLS, an initial **unencrypted** connection is made and then upgraded to an encrypted TLS or SSL connection. Instead, with the approach outlined below, an encrypted TLS connection is made from the start.
 
 Also, as discussed in [issue #29](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/29) and [here](https://blog.dhampir.no/content/exim4-line-length-in-debian-stretch-mail-delivery-failed-returning-message-to-sender), exim4 will fail for messages with long lines. We'll fix this in this section too.
+
+** **IMPORTANT** ** As mentioned in [#106](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/106), Google no longer lets you use your account's password for authentication. You have to enable 2FA and then use an app-password.
 
 #### Goals
 
@@ -3217,6 +3548,7 @@ Also, as discussed in [issue #29](https://github.com/imthenachoman/How-To-Secure
 - https://php.quicoto.com/setup-exim4-to-use-gmail-in-ubuntu/
 - https://www.fastmail.com/help/technical/ssltlsstarttls.html
 - exim4 fails for messages with long lines - [issue #29](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/29) and https://blog.dhampir.no/content/exim4-line-length-in-debian-stretch-mail-delivery-failed-returning-message-to-sender
+- https://github.com/imthenachoman/How-To-Secure-A-Linux-Server/issues/106
 
 #### Steps
 
@@ -3447,7 +3779,7 @@ There will come a time when you'll need to look through your iptables logs. Havi
 
 #### Steps
 
-1. The first step is by telling your firewall to prefix all log entries with some unique string. If you're using iptables directly, you would do something like `--log-prefix "[IPTABLES] "` for all the rules. We took care of this in step [step 4 of installing psad](#psad_step4).
+1. The first step is by telling your firewall to prefix all log entries with some unique string. If you're using iptables directly, you would do something like `--log-prefix "[IPTABLES] "` for all the rules. We took care of this in [step 4 of installing psad](#psad_step4).
 
 1. After you've added a prefix to the firewall logs, we need to tell rsyslog to send those lines to its own file. Do this by creating the file `/etc/rsyslog.d/10-iptables.conf` and adding this:
 
@@ -3556,6 +3888,7 @@ For any questions, comments, concerns, feedback, or issues, submit a [new issue]
 - https://news.ycombinator.com/item?id=19177435#19178618
 - https://www.reddit.com/r/linuxadmin/comments/arx7xo/howtosecurealinuxserver_an_evolving_howto_guide/
 - https://www.reddit.com/r/linux/comments/arx7st/howtosecurealinuxserver_an_evolving_howto_guide/
+- https://github.com/moltenbit/How-To-Secure-A-Linux-Server-With-Ansible
 
 ([Table of Contents](#table-of-contents))
 

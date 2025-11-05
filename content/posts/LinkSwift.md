@@ -1,9 +1,9 @@
 ---
 title: LinkSwift
-date: 2025-11-03T12:28:48+08:00
+date: 2025-11-05T12:23:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759697435549-ce523a5a233f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759697435549-ce523a5a233f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIxNDQwMjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760376448199-5924d569919e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760376448199-5924d569919e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)

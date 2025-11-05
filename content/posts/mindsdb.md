@@ -1,9 +1,9 @@
 ---
 title: mindsdb
-date: 2025-09-22T12:23:25+08:00
+date: 2025-11-05T12:24:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755918546836-fb909c73e999?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg1MTQ4Nzl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [mindsdb/mindsdb](https://github.com/mindsdb/mindsdb)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1755918546836-fb909c73e9
 
 <div align="center">
 	<a href="https://pypi.org/project/MindsDB/" target="_blank"><img src="https://badge.fury.io/py/MindsDB.svg" alt="MindsDB Release"></a>
-	<a href="https://www.python.org/downloads/" target="_blank"><img src="https://img.shields.io/badge/python-3.10.x%7C%203.11.x-brightgreen.svg" alt="Python supported"></a>
+	<a href="https://www.python.org/downloads/" target="_blank"><img src="https://img.shields.io/badge/python-3.10.x%7C%203.11.x%7C%203.12.x%7C%203.13.x-brightgreen.svg" alt="Python supported"></a>
 	<a href="https://hub.docker.com/u/mindsdb" target="_blank"><img src="https://img.shields.io/docker/pulls/mindsdb/mindsdb" alt="Docker pulls"></a>
 
   <br />

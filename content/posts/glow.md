@@ -1,9 +1,9 @@
 ---
 title: glow
-date: 2025-11-04T12:21:59+08:00
+date: 2025-11-05T12:23:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759829429449-ba88609dfbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759829429449-ba88609dfbe4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761042447153-84cae6a33d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761042447153-84cae6a33d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [charmbracelet/glow](https://github.com/charmbracelet/glow)

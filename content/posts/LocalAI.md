@@ -1,9 +1,9 @@
 ---
 title: LocalAI
-date: 2025-11-04T12:22:37+08:00
+date: 2025-11-05T12:22:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761872936185-4ece7c1128ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761872936185-4ece7c1128ab?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1753617882250-ba36e6530de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1753617882250-ba36e6530de0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [mudler/LocalAI](https://github.com/mudler/LocalAI)
@@ -125,6 +125,8 @@ For more installation options, see [Installer Options](https://localai.io/docs/a
 <a href="https://github.com/mudler/LocalAI/releases/latest/download/LocalAI.dmg">
   <img src="https://img.shields.io/badge/Download-macOS-blue?style=for-the-badge&logo=apple&logoColor=white" alt="Download LocalAI for macOS"/>
 </a>
+
+> Note: the DMGs are not signed by Apple as quarantined. See https://github.com/mudler/LocalAI/issues/6268 for a workaround, fix is tracked here: https://github.com/mudler/LocalAI/issues/6244
 
 Or run with docker:
 

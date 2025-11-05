@@ -1,9 +1,9 @@
 ---
 title: skyvern
-date: 2025-10-22T12:22:33+08:00
+date: 2025-11-05T12:24:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759266097947-397b6b7e7440?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759266097947-397b6b7e7440?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjExMDY4OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern)

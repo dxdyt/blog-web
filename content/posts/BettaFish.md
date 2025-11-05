@@ -1,9 +1,9 @@
 ---
 title: BettaFish
-date: 2025-11-04T12:21:39+08:00
+date: 2025-11-05T12:22:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1742201408520-630d5214c006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1742201408520-630d5214c006?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761042447153-84cae6a33d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761042447153-84cae6a33d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/BettaFish](https://github.com/666ghj/BettaFish)
@@ -13,8 +13,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1742201408520-630d5214c0
 <img src="static/image/logo_compressed.png" alt="Weibo Public Opinion Analysis System Logo" width="100%">
 
 <a href="https://trendshift.io/repositories/15286" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15286" alt="666ghj%2FBettaFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-<a href="https://leaflow.net/" target="_blank"><img src="static/image/Leaflow_logo.png" alt="666ghj%2FWeibo_PublicOpinion_AnalysisSystem | Leaflow" style="width: 150px;" width="150"/></a>
 
 [![GitHub Stars](https://img.shields.io/github/stars/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/stargazers)
 [![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/watchers)
@@ -31,9 +29,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1742201408520-630d5214c0
 
 </div>
 
-> [!IMPORTANT]
-> 抱歉出了点状况，周二（11.4）会上**在线一键部署体验**，欢迎持续关注！
-
 ## ⚡ 项目概述
 
 “**微舆**” 是一个从0实现的创新型 多智能体 舆情分析系统，帮助大家破除信息茧房，还原舆情原貌，预测未来走向，辅助决策。用户只需像聊天一样提出分析需求，智能体开始全自动分析 国内外30+主流社媒 与 数百万条大众评论。
@@ -41,6 +36,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1742201408520-630d5214c0
 > “微舆”谐音“微鱼”，BettaFish是一种体型很小但非常好斗、漂亮的鱼，它象征着“小而强大，不畏挑战”
 
 查看系统以“武汉大学舆情”为例，生成的研究报告：[武汉大学品牌声誉深度分析报告](./final_reports/final_report__20250827_131630.html)
+
+查看系统以“武汉大学舆情”为例，一次完整运行的视频：[视频-武汉大学品牌声誉深度分析报告](https://www.bilibili.com/video/BV1TH1WBxEWN/?vd_source=da3512187e242ce17dceee4c537ec7a6#reply279744466833)
 
 不仅仅体现在报告质量上，相比同类产品，我们拥有🚀六大优势：
 

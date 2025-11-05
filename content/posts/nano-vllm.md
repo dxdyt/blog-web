@@ -1,9 +1,9 @@
 ---
 title: nano-vllm
-date: 2025-11-04T12:21:45+08:00
+date: 2025-11-05T12:22:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761405378292-30f64ad6f60b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761405378292-30f64ad6f60b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIyMzAwOTN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761165308649-78e8f6d55b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761165308649-78e8f6d55b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
 ---
 
 # [GeeeekExplorer/nano-vllm](https://github.com/GeeeekExplorer/nano-vllm)
