@@ -1,9 +1,9 @@
 ---
 title: ytDownloader
-date: 2025-10-09T12:22:06+08:00
+date: 2025-11-06T12:27:10+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758179156914-bcc9a0d2a4b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758179156914-bcc9a0d2a4b0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTk5ODM2NzR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
 ---
 
 # [aandrew-me/ytDownloader](https://github.com/aandrew-me/ytDownloader)
@@ -157,7 +157,7 @@ Translations into other languages would be highly appreciated. If you want to he
 | Ukrainian           | ✔️     |
 | Vietnamese          | ✔️     |
 
-Thanks to [nxjosephofficial](https://github.com/nxjosephofficial), [LINUX-SAUNA](https://t.me/linuxsauna), [Proxycon](https://github.com/proxycon), [albanobattistella](https://github.com/albanobattistella), [TheBlueQuasar](https://github.com/TheBlueQuasar), [MrQuerter](https://github.com/MrQuerter), [KotoWhiskas](https://github.com/KotoWhiskas), [André](https://github.com/andre1828), [haggen88](https://github.com/haggen88), [XfedeX](https://github.com/XfedeX), [Jok3r](https://github.com/th3knv), [TitouanReal](https://github.com/TitouanReal), [soredake](https://github.com/soredake), [yoi](https://github.com/thiennguyenqn), [HowlingWerewolf](https://github.com/HowlingWerewolf), [Kum](https://github.com/kum4423), [Mohammed Bakry](https://crowdin.com/profile/m7md_b4kry), [Huang Bingfeng](https://github.com/jackiotyu) and others for helping.
+Thanks to [nxjosephofficial](https://github.com/nxjosephofficial), [LINUX-SAUNA](https://t.me/linuxsauna), [Proxycon](https://github.com/proxycon), [albanobattistella](https://github.com/albanobattistella), [TheBlueQuasar](https://github.com/TheBlueQuasar), [MrQuerter](https://github.com/MrQuerter), [KotoWhiskas](https://github.com/KotoWhiskas), [André](https://github.com/andre1828), [haggen88](https://github.com/haggen88), [XfedeX](https://github.com/XfedeX), [Jok3r](https://github.com/th3knv), [TitouanReal](https://github.com/TitouanReal), [soredake](https://github.com/soredake), [yoi](https://github.com/thiennguyenqn), [HowlingWerewolf](https://github.com/HowlingWerewolf), [Kum](https://github.com/kum4423), [Mohammed Bakry](https://crowdin.com/profile/m7md_b4kry), [Huang Bingfeng](https://github.com/jackiotyu), [Abhinav](https://github.com/abhixdd) and others for helping.
 
 ## Used technologies
 

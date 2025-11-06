@@ -1,9 +1,9 @@
 ---
 title: BettaFish
-date: 2025-11-05T12:22:24+08:00
+date: 2025-11-06T12:25:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761042447153-84cae6a33d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761042447153-84cae6a33d1b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/BettaFish](https://github.com/666ghj/BettaFish)
@@ -14,6 +14,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1761042447153-84cae6a33d
 
 <a href="https://trendshift.io/repositories/15286" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15286" alt="666ghj%2FBettaFish | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
+<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>&ensp;
+<a href="https://lioncc.ai/" target="_blank"><img src="./static/image/logo_loincc.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+
 [![GitHub Stars](https://img.shields.io/github/stars/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/stargazers)
 [![GitHub Watchers](https://img.shields.io/github/watchers/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/watchers)
 [![GitHub Forks](https://img.shields.io/github/forks/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/network)
@@ -23,6 +26,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1761042447153-84cae6a33d
 [![GitHub License](https://img.shields.io/github/license/666ghj/Weibo_PublicOpinion_AnalysisSystem?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem/blob/main/LICENSE)
 [![Version](https://img.shields.io/badge/version-v1.0.0-green.svg?style=flat-square)](https://github.com/666ghj/Weibo_PublicOpinion_AnalysisSystem)
 [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
+
 
 
 [English](./README-EN.md) | [中文文档](./README.md)
@@ -64,6 +68,12 @@ featuredImagePreview: https://images.unsplash.com/photo-1761042447153-84cae6a33d
 
 告别传统的数据看板，在“微舆”，一切由一个简单的问题开始，您只需像对话一样，提出您的分析需求
 </div>
+
+## 🪄 赞助商
+
+LLM模型API赞助：<a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_aihubmix.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
+
+所罗门博客LionCC.ai；编程拼车codecodex.ai；编程算力VibeCodingAPI.ai：</a><span style="margin-left: 10px"><a href="https://aihubmix.com/?aff=8Ds9" target="_blank"><img src="./static/image/logo_loincc.png" alt="666ghj%2FBettaFish | Trendshift" height="40"/></a>
 
 ## 🏗️ 系统架构
 
@@ -203,7 +213,9 @@ Weibo_PublicOpinion_AnalysisSystem/
 - **数据库**: MySQL（可选择我们的云数据库服务）
 - **内存**: 建议2GB以上
 
-### 1. 创建Conda环境
+### 1. 创建环境
+
+#### 如果使用Conda
 
 ```bash
 # 创建conda环境
@@ -211,11 +223,21 @@ conda create -n your_conda_name python=3.11
 conda activate your_conda_name
 ```
 
+#### 如果使用uv
+
+```bash
+# 创建uv环境
+uv venv --python 3.11 # 创建3.11环境
+```
+
 ### 2. 安装依赖包
 
 ```bash
 # 基础依赖安装
 pip install -r requirements.txt
+
+# uv版本命令（更快速安装）
+uv pip install -r requirements.txt
 # 如果不想使用本地情感分析模型（算力需求很小，默认安装cpu版本），可以将该文件中的“机器学习”部分注释掉再执行指令
 ```
 
@@ -230,9 +252,9 @@ playwright install chromium
 
 #### 4.1 配置API密钥
 
-复制一份 `config.py.example` 文件，命名为 `config.py`
+复制一份 项目根目录 `.env.example` 文件，命名为 `.env`
 
-编辑 `config.py` 文件，填入您的API密钥（您也可以选择自己的模型、搜索代理，详情见config文件内）：
+编辑 `.env` 文件，填入您的API密钥（您也可以选择自己的模型、搜索代理，详情见根目录.env.example文件内或根目录config.py中的说明）：
 
 ```python
 # MySQL数据库配置
@@ -253,17 +275,20 @@ INSIGHT_ENGINE_MODEL_NAME = "kimi-k2-0711-preview"
 # Media Agent
 ...
 ```
+推荐LLM API供应商：[推理时代](https://aihubmix.com/?aff=8Ds9)
 
 #### 4.2 数据库初始化
 
 **选择1：使用本地数据库**
 
-> MindSpider爬虫系统跟舆情系统是各自独立的，所以需要再去`MindSpider\config.py`配置一下，复制`MindSpider`文件夹下的 `config.py.example` 文件，命名为 `config.py`
-
+> ~~MindSpider爬虫系统跟舆情系统是各自独立的，所以需要再去`MindSpider\config.py`配置一下，复制`MindSpider`文件夹下的 `config.py.example` 文件，命名为 `config.py`~~  
+现版本已更改为基于环境变量配置，请复制项目根目录.env.example文件为.env文件，并在其中填写各项配置
 ```bash
 # 本地MySQL数据库初始化
 cd MindSpider
-python schema/init_database.py
+# 项目初始化
+python main.py --setup
+
 ```
 
 **选择2：使用云数据库服务（推荐）**
@@ -286,6 +311,15 @@ python schema/init_database.py
 ```bash
 # 在项目根目录下，激活conda环境
 conda activate your_conda_name
+
+# 启动主应用即可
+python app.py
+```
+
+uv 版本启动命令 
+```bash
+# 在项目根目录下，激活uv环境
+.venv\Scripts\activate
 
 # 启动主应用即可
 python app.py
@@ -329,6 +363,9 @@ cd MindSpider
 # 项目初始化
 python main.py --setup
 
+# 运行话题提取（获取热点新闻和关键词）
+python main.py --broad-topic
+
 # 运行完整爬虫流程
 python main.py --complete --date 2024-01-20
 
@@ -339,7 +376,7 @@ python main.py --broad-topic --date 2024-01-20
 python main.py --deep-sentiment --platforms xhs dy wb
 ```
 
-## ⚙️ 高级配置
+## ⚙️ 高级配置（已过时，已经统一为项目根目录.env文件管理，其他子agent自动继承根目录配置）
 
 ### 修改关键参数
 

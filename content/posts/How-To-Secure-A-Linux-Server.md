@@ -1,9 +1,9 @@
 ---
 title: How-To-Secure-A-Linux-Server
-date: 2025-11-05T12:23:03+08:00
+date: 2025-11-06T12:26:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761165308649-78e8f6d55b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761165308649-78e8f6d55b88?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjIzMTY1MzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759101292737-24e1c5ed52d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759101292737-24e1c5ed52d9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
 ---
 
 # [imthenachoman/How-To-Secure-A-Linux-Server](https://github.com/imthenachoman/How-To-Secure-A-Linux-Server)
