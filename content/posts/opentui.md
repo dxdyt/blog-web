@@ -1,14 +1,20 @@
 ---
 title: opentui
-date: 2025-11-06T12:26:05+08:00
+date: 2025-11-07T12:22:25+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759675274095-e19cc2e12055?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759675274095-e19cc2e12055?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
 ---
 
 # [sst/opentui](https://github.com/sst/opentui)
 
 # OpenTUI
+
+<div align="center">
+    <a href="https://www.npmjs.com/package/@opentui/core"><img alt="npm" src="https://img.shields.io/npm/v/@opentui/core?style=flat-square" /></a>
+    <a href="https://github.com/sst/opentui/actions/workflows/build-core.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/sst/opentui/build-core.yml?style=flat-square&branch=main" /></a>
+    <a href="https://github.com/msmps/awesome-opentui"><img alt="awesome opentui list" src="https://awesome.re/badge-flat.svg" /></a>
+</div>
 
 OpenTUI is a TypeScript library for building terminal user interfaces (TUIs). It is currently in
 development and is not ready for production use. It will be the foundational TUI framework for both
@@ -91,3 +97,7 @@ This will link `@opentui/core` to your target project.
 - By default, the script links to the source packages, allowing hot-reloading of changes
 - Use `--dist` when you need to test the built artifacts
 - Use `--copy` mode when working in environments that don't support symlinks well (e.g., Docker containers, Windows)
+
+## Showcase
+
+Consider showcasing your work on the [awesome-opentui](https://github.com/msmps/awesome-opentui) list. A curated list of awesome resources and terminal user interfaces built with OpenTUI.
