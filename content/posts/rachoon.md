@@ -1,9 +1,9 @@
 ---
 title: rachoon
-date: 2025-11-07T12:22:46+08:00
+date: 2025-11-08T12:22:09+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756058811333-968c916c47f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756058811333-968c916c47f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1758800601470-a3771c5289a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1758800601470-a3771c5289a8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
 ---
 
 # [ad-on-is/rachoon](https://github.com/ad-on-is/rachoon)
@@ -77,6 +77,8 @@ services:
       - PG_USER=<root-user>
       - PG_PASSWORD=<root-password>
       - PG_DB_NAME=rachoon
+    port:
+      - 8080:8080
 
   gotenberg:
     image: gotenberg/gotenberg:8

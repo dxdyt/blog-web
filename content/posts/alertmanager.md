@@ -1,9 +1,9 @@
 ---
 title: alertmanager
-date: 2025-11-06T12:26:12+08:00
+date: 2025-11-08T12:21:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755782413459-c955446263cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755782413459-c955446263cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0MDMxMTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1735287270251-59107f2ddb44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1735287270251-59107f2ddb44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
 ---
 
 # [prometheus/alertmanager](https://github.com/prometheus/alertmanager)
@@ -368,6 +368,7 @@ be configured to communicate with each other. This is configured using the
 - `--cluster.advertise-address` string: cluster advertise address
 - `--cluster.peer` value: initial peers (repeat flag for each additional peer)
 - `--cluster.peer-timeout` value: peer timeout period (default "15s")
+- `--cluster.peers-resolve-timeout` value: peers resolve timeout period (default "15s")
 - `--cluster.gossip-interval` value: cluster message propagation speed
   (default "200ms")
 - `--cluster.pushpull-interval` value: lower values will increase

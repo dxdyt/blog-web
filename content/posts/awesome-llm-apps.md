@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-10-29T12:26:42+08:00
+date: 2025-11-08T12:22:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761577679866-728fb124a77c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761577679866-728fb124a77c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -67,16 +67,21 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
       </a>
     </td>
     <td align="center">
-      <a href="https://sponsorunwindai.com/" title="Parlant">
-        <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Parlant" width="500">
+      <a href="https://okara.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" title="Okara">
+        <img src="docs/banner/sponsors/okara.png" alt="Okara" width="500">
       </a>
       <br>
-      <a href="https://sponsorunwindai.com/" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-        Become a Sponsor
+      <a href="https://okara.ai/?utm_source=oss&utm_medium=sponsorship&utm_campaign=awesome-llm-apps" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
+        Okara AI
       </a>
     </td>
   </tr>
 </table>
+<p align="center">
+  <a href="https://sponsorunwindai.com" target="_blank" rel="noopener">
+    <img src="https://img.shields.io/badge/_Sponsor_Us-FF69B4?style=for-the-badge&logo=github-sponsors&logoColor=white" alt="Sponsor Us">
+  </a>
+</p>
 
 ## 📂 Featured AI Projects
 

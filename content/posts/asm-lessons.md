@@ -1,9 +1,9 @@
 ---
 title: asm-lessons
-date: 2025-11-07T12:23:08+08:00
+date: 2025-11-08T12:22:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760592150478-0d6ad3a4d412?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760592150478-0d6ad3a4d412?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI0ODkzMDV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760835249949-25e7e3fb0840?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760835249949-25e7e3fb0840?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
 ---
 
 # [FFmpeg/asm-lessons](https://github.com/FFmpeg/asm-lessons)
