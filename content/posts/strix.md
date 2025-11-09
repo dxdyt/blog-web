@@ -1,9 +1,9 @@
 ---
 title: strix
-date: 2025-11-08T12:21:36+08:00
+date: 2025-11-09T12:20:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757254161345-b4a0238ed1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757254161345-b4a0238ed1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760710461795-d6199296eb50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760710461795-d6199296eb50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
 ---
 
 # [usestrix/strix](https://github.com/usestrix/strix)
@@ -31,6 +31,7 @@ Strix
 [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?&logo=discord&logoColor=white)](https://discord.gg/YjKFvEZSdZ)
 [![Website](https://img.shields.io/badge/Website-usestrix.com-2d3748.svg)](https://usestrix.com)
 
+<a href="https://trendshift.io/repositories/15362" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15362" alt="usestrix%2Fstrix | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 </div>
 
 :star: _Love Strix? Give us a star to help other developers discover it!_

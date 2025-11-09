@@ -1,9 +1,9 @@
 ---
 title: mcp
-date: 2025-11-08T12:21:26+08:00
+date: 2025-11-09T12:22:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761880743944-af860cbcc211?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761880743944-af860cbcc211?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761655622268-3707c5467749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761655622268-3707c5467749?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
 ---
 
 # [awslabs/mcp](https://github.com/awslabs/mcp)

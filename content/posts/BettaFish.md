@@ -1,9 +1,9 @@
 ---
 title: BettaFish
-date: 2025-11-08T12:21:06+08:00
+date: 2025-11-09T12:21:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757254161345-b4a0238ed1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757254161345-b4a0238ed1c0?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760978631985-590e3b5f4057?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760978631985-590e3b5f4057?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
 ---
 
 # [666ghj/BettaFish](https://github.com/666ghj/BettaFish)
@@ -63,6 +63,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1757254161345-b4a0238ed1
 > 举个例子. 你只需简单修改Agent工具集的api参数与prompt，就可以把他变成一个金融领域的市场分析系统
 >
 > 附一个比较活跃的L站项目讨论帖：https://linux.do/t/topic/1009280
+>
+> 查看L站佬友做的测评 [开源项目(微舆)与manus|minimax|ChatGPT对比](https://linux.do/t/topic/1148040)
 
 <div align="center">
 <img src="static/image/system_schematic.png" alt="banner" width="800">
