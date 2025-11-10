@@ -1,14 +1,14 @@
 ---
 title: librespot
-date: 2024-09-05T12:19:57+08:00
+date: 2025-11-10T12:27:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1724086575622-9c7ad00601c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1724086575622-9c7ad00601c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU1MDk5MTJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1760159201329-521cd85a5bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760159201329-521cd85a5bf9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
 ---
 
 # [librespot-org/librespot](https://github.com/librespot-org/librespot)
 
-[![Build Status](https://github.com/librespot-org/librespot/workflows/test/badge.svg)](https://github.com/librespot-org/librespot/actions)
+[![Build Status](https://github.com/librespot-org/librespot/workflows/build/badge.svg)](https://github.com/librespot-org/librespot/actions)
 [![Gitter chat](https://badges.gitter.im/librespot-org/librespot.png)](https://gitter.im/librespot-org/spotify-connect-resources)
 [![Crates.io](https://img.shields.io/crates/v/librespot.svg)](https://crates.io/crates/librespot)
 
@@ -72,12 +72,14 @@ SDL
 Pipe
 Subprocess
 ```
-Please check the corresponding [Compiling](https://github.com/librespot-org/librespot/wiki/Compiling#general-dependencies) entry on the wiki for backend specific dependencies.
+Please check [COMPILING.md](COMPILING.md) for detailed information on TLS, audio, and discovery backend dependencies, or the [Compiling](https://github.com/librespot-org/librespot/wiki/Compiling#general-dependencies) entry on the wiki for additional backend specific dependencies.
 
-Once you've installed the dependencies and cloned this repository you can build *librespot* with the default backend using Cargo.
+Once you've installed the dependencies and cloned this repository you can build *librespot* with the default features using Cargo.
 ```shell
 cargo build --release
 ```
+
+By default, this builds with native-tls (system TLS), rodio audio backend, and libmdns discovery. See [COMPILING.md](COMPILING.md) for information on selecting different TLS, audio, and discovery backends.
 
 # Packages
 
@@ -118,13 +120,13 @@ This is a non exhaustive list of projects that either use or have modified libre
 
 - [librespot-golang](https://github.com/librespot-org/librespot-golang) - A golang port of librespot.
 - [plugin.audio.spotify](https://github.com/marcelveldt/plugin.audio.spotify) - A Kodi plugin for Spotify.
-- [raspotify](https://github.com/dtcooper/raspotify) - Spotify Connect client for the Raspberry Pi that Just Works™
+- [raspotify](https://github.com/dtcooper/raspotify) - A Spotify Connect client that mostly Just Works™
 - [Spotifyd](https://github.com/Spotifyd/spotifyd) - A stripped down librespot UNIX daemon.
 - [rpi-audio-receiver](https://github.com/nicokaiser/rpi-audio-receiver) - easy Raspbian install scripts for Spotifyd, Bluetooth, Shairport and other audio receivers
-- [Spotcontrol](https://github.com/badfortrains/spotcontrol) - A golang implementation of a Spotify Connect controller. No playback
-functionality.
+- [Spotcontrol](https://github.com/badfortrains/spotcontrol) - A golang implementation of a Spotify Connect controller. No Playback functionality.
 - [librespot-java](https://github.com/devgianlu/librespot-java) - A Java port of librespot.
 - [ncspot](https://github.com/hrkfdn/ncspot) - Cross-platform ncurses Spotify client.
 - [ansible-role-librespot](https://github.com/xMordax/ansible-role-librespot/tree/master) - Ansible role that will build, install and configure Librespot.
-- [Spot](https://github.com/xou816/spot) - Gtk/Rust native Spotify client for the GNOME desktop. 
+- [Spot](https://github.com/xou816/spot) - Gtk/Rust native Spotify client for the GNOME desktop.
 - [Snapcast](https://github.com/badaix/snapcast) - synchronised multi-room audio player that uses librespot as its source for Spotify content
+- [MuPiBox](https://mupibox.de/) - Portable music box for Spotify and local media based on Raspberry Pi. Operated via touchscreen. Suitable for children and older people.

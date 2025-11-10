@@ -1,9 +1,9 @@
 ---
 title: alertmanager
-date: 2025-11-09T12:21:12+08:00
+date: 2025-11-10T12:27:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760710461795-d6199296eb50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760710461795-d6199296eb50?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
 ---
 
 # [prometheus/alertmanager](https://github.com/prometheus/alertmanager)

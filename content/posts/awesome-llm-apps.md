@@ -1,9 +1,9 @@
 ---
 title: awesome-llm-apps
-date: 2025-11-09T12:21:52+08:00
+date: 2025-11-10T12:27:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761335044629-611c11976356?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761335044629-611c11976356?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI2NjIwNDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760132562597-dd9c467cd9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760132562597-dd9c467cd9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
 ---
 
 # [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
@@ -97,7 +97,6 @@ A curated collection of **Awesome LLM apps built with RAG, AI Agents, Multi-agen
 *   [🎵 AI Music Generator Agent](starter_ai_agents/ai_music_generator_agent/)
 *   [🛫 AI Travel Agent (Local & Cloud)](starter_ai_agents/ai_travel_agent/)
 *   [✨ Gemini Multimodal Agent](starter_ai_agents/gemini_multimodal_agent_demo/)
-*   [🌐 Local News Agent (OpenAI Swarm)](starter_ai_agents/local_news_agent_openai_swarm/)
 *   [🔄 Mixture of Agents](starter_ai_agents/mixture_of_agents/)
 *   [📊 xAI Finance Agent](starter_ai_agents/xai_finance_agent/)
 *   [🔍 OpenAI Research Agent](starter_ai_agents/opeani_research_agent/)
