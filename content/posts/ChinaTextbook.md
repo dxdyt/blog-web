@@ -1,9 +1,9 @@
 ---
 title: ChinaTextbook
-date: 2025-10-13T12:22:15+08:00
+date: 2025-11-11T12:24:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759895504440-e0d81a39a79b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759895504440-e0d81a39a79b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAzMjkyODR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760934328537-fa0a69c8159d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760934328537-fa0a69c8159d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
 ---
 
 # [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook)
@@ -90,6 +90,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1759895504440-e0d81a39a7
 如果这个项目帮助您免费获取教育资源，请考虑支持我们推广开放教育的努力！您的捐献将帮助我们维护和扩展这个资源库。
 
 加入我们的 Telegram 社区，获取最新动态并分享您的想法：https://t.me/+1V6WjEq8WEM4MDM1
+
+## Star History
+
+[![Star History](https://api.star-history.com/svg?repos=TapXWorld/ChinaTextbook&type=Date)](https://star-history.com/#TapXWorld/ChinaTextbook&Date)
 
 
 ## 支持我

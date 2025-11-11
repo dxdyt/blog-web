@@ -1,9 +1,9 @@
 ---
 title: tinker-cookbook
-date: 2025-11-10T12:26:29+08:00
+date: 2025-11-11T12:24:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760334335396-fd245777990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760334335396-fd245777990a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760934328537-fa0a69c8159d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760934328537-fa0a69c8159d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
 ---
 
 # [thinking-machines-lab/tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)

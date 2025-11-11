@@ -1,9 +1,9 @@
 ---
 title: strix
-date: 2025-11-10T12:26:11+08:00
+date: 2025-11-11T12:23:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760132562597-dd9c467cd9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760132562597-dd9c467cd9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761258454507-3ba336fb2bd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761258454507-3ba336fb2bd3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
 ---
 
 # [usestrix/strix](https://github.com/usestrix/strix)
@@ -39,11 +39,14 @@ Strix
 <br />
 
 <div align="center">
-<img src=".github/screenshot.png" alt="Strix Demo" width="800" style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.2); transform: perspective(1000px) rotateX(2deg); transition: transform 0.3s ease;">
+<img src=".github/screenshot.png" alt="Strix Demo" width="800" style="border-radius: 16px;">
 </div>
 
 > [!TIP]
 > **New!** Strix now integrates seamlessly with GitHub Actions and CI/CD pipelines. Automatically scan for vulnerabilities on every pull request and block insecure code before it reaches production!
+
+> [!WARNING]
+> Only test systems you own or have permission to test. You are responsible for using Strix ethically and legally.
 
 ---
 
@@ -89,9 +92,20 @@ strix --target ./app-directory
 
 First run pulls the sandbox Docker image. Results are saved under `agent_runs/<run-name>`.
 
-### ☁️ Cloud Hosted
+### 🏆 Enterprise Platform
 
 Want to skip the setup? Try our cloud-hosted version: **[usestrix.com](https://usestrix.com)**
+
+Our managed platform provides:
+
+- **📈 Executive Dashboards**
+- **🧠 Custom Fine-Tuned Models**
+- **⚙️ CI/CD Integration**
+- **🔍 Large-Scale Scanning**
+- **🔌 Third-Party Integrations**
+- **🎯 Enterprise Support**
+
+[**Get Enterprise Demo →**](https://usestrix.com)
 
 ## ✨ Features
 
@@ -121,8 +135,9 @@ Want to skip the setup? Try our cloud-hosted version: **[usestrix.com](https://u
 - **Scalable Testing** - Parallel execution for fast comprehensive coverage
 - **Dynamic Coordination** - Agents collaborate and share discoveries
 
-
 ## 💻 Usage Examples
+
+### Default Usage
 
 ```bash
 # Local codebase analysis
@@ -131,41 +146,25 @@ strix --target ./app-directory
 # Repository security review
 strix --target https://github.com/org/repo
 
-# Web application assessment
+# Black-Box Web application assessment
 strix --target https://your-app.com
+
+# Grey-Box Security Assesment
+strix --target https://your-app.com --instructions "Perform authenticated testing using the following credentials user:pass"
 
 # Multi-target white-box testing (source code + deployed app)
 strix -t https://github.com/org/app -t https://your-app.com
 
-# Test multiple environments simultaneously
-strix -t https://dev.your-app.com -t https://staging.your-app.com -t https://prod.your-app.com
-
 # Focused testing with instructions
-strix --target api.your-app.com --instruction "Prioritize authentication and authorization testing"
-
-# Testing with credentials
-strix --target https://your-app.com --instruction "Test with credentials: testuser/testpass. Focus on privilege escalation and access control bypasses."
+strix --target api.your-app.com --instruction "Focus on business logic flaws and IDOR vulnerabilities"
 ```
-
-### ⚙️ Configuration
-
-```bash
-export STRIX_LLM="openai/gpt-5"
-export LLM_API_KEY="your-api-key"
-
-# Optional
-export LLM_API_BASE="your-api-base-url"  # if using a local model, e.g. Ollama, LMStudio
-export PERPLEXITY_API_KEY="your-api-key"  # for search capabilities
-```
-
-[📚 View supported AI models](https://docs.litellm.ai/docs/providers)
 
 ### 🤖 Headless Mode
 
 Run Strix programmatically without interactive UI using the `-n/--non-interactive` flag—perfect for servers and automated jobs. The CLI prints real-time vulnerability findings, and the final report before exiting. Exits with non-zero code when vulnerabilities are found.
 
 ```bash
-strix -n --target https://your-app.com --instruction "Focus on authentication and authorization vulnerabilities"
+strix -n --target https://your-app.com
 ```
 
 ### 🔄 CI/CD (GitHub Actions)
@@ -195,26 +194,18 @@ jobs:
         run: strix -n -t ./
 ```
 
-## 🏆 Enterprise Platform
+### ⚙️ Configuration
 
-Our managed platform provides:
+```bash
+export STRIX_LLM="openai/gpt-5"
+export LLM_API_KEY="your-api-key"
 
-- **📈 Executive Dashboards**
-- **🧠 Custom Fine-Tuned Models**
-- **⚙️ CI/CD Integration**
-- **🔍 Large-Scale Scanning**
-- **🔌 Third-Party Integrations**
-- **🎯 Enterprise Support**
+# Optional
+export LLM_API_BASE="your-api-base-url"  # if using a local model, e.g. Ollama, LMStudio
+export PERPLEXITY_API_KEY="your-api-key"  # for search capabilities
+```
 
-[**Get Enterprise Demo →**](https://usestrix.com)
-
-## 🔒 Security Architecture
-
-- **Container Isolation** - All testing in sandboxed Docker environments
-- **Local Processing** - Testing runs locally, no data sent to external services
-
-> [!WARNING]
-> Only test systems you own or have permission to test. You are responsible for using Strix ethically and legally.
+[📚 View supported AI models](https://docs.litellm.ai/docs/providers)
 
 ## 🤝 Contributing
 
@@ -233,12 +224,16 @@ Help expand our collection of specialized prompt modules for AI agents:
 - See [Prompt Modules Documentation](strix/prompts/README.md) for guidelines
 - Submit via [pull requests](https://github.com/usestrix/strix/pulls) or [issues](https://github.com/usestrix/strix/issues)
 
+## 👥 Join Our Community
+
+Have questions? Found a bug? Want to contribute? **[Join our Discord!](https://discord.gg/YjKFvEZSdZ)**
+
 ## 🌟 Support the Project
 
 **Love Strix?** Give us a ⭐ on GitHub!
 
-## 👥 Join Our Community
-
-Have questions? Found a bug? Want to contribute? **[Join our Discord!](https://discord.gg/YjKFvEZSdZ)**
+<div align="center">
+<img src="https://api.star-history.com/svg?repos=usestrix/strix&type=date&legend=top-left" alt="Star History Chart" width="800" style="border-radius: 16px;">
+</div>
 
 </div>
