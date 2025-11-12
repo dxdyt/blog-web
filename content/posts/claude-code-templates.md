@@ -1,9 +1,9 @@
 ---
 title: claude-code-templates
-date: 2025-10-14T12:23:17+08:00
+date: 2025-11-12T12:24:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759188534271-be7832eff679?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759188534271-be7832eff679?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA0MTU3MDR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760681555328-8d545f42fe89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760681555328-8d545f42fe89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
 ---
 
 # [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
@@ -11,15 +11,22 @@ featuredImagePreview: https://images.unsplash.com/photo-1759188534271-be7832eff6
 [![npm version](https://img.shields.io/npm/v/claude-code-templates.svg)](https://www.npmjs.com/package/claude-code-templates)
 [![npm downloads](https://img.shields.io/npm/dt/claude-code-templates.svg)](https://www.npmjs.com/package/claude-code-templates)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![GitHub stars](https://img.shields.io/github/stars/davila7/claude-code-templates.svg?style=social&label=Star)](https://github.com/davila7/claude-code-templates)
-[![Mentioned in Awesome Claude Code](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/hesreallyhim/awesome-claude-code)
-[![Buy Me a Coffee](https://img.shields.io/badge/☕-Buy%20me%20a%20coffee-ffdd00?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/daniavila)
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/15113" target="_blank">
+    <img src="https://trendshift.io/api/badge/repositories/15113" alt="davila7%2Fclaude-code-templates | Trendshift" style="width: 200px; height: 40px;" width="125" height="40"/>
+  </a>
+  <br />
+  <br />
+  <a href="https://vercel.com/oss">
+  <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+  </a>
+</p>
 
 
-
-# Claude Code Templates (aitmpl.com)
+# Claude Code Templates ([aitmpl.com](https://aitmpl.com))
 
 **Ready-to-use configurations for Anthropic's Claude Code.** A comprehensive collection of AI agents, custom commands, settings, hooks, external integrations (MCPs), and project templates to enhance your development workflow.
 
@@ -33,17 +40,17 @@ featuredImagePreview: https://images.unsplash.com/photo-1759188534271-be7832eff6
 
 ```bash
 # Install a complete development stack
-npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration
+npx claude-code-templates@latest --agent development-team/frontend-developer --command testing/generate-tests --mcp development/github-integration --yes
 
 # Browse and install interactively
 npx claude-code-templates@latest
 
 # Install specific components
-npx claude-code-templates@latest --agent business-marketing/security-auditor
-npx claude-code-templates@latest --command performance/optimize-bundle
-npx claude-code-templates@latest --setting performance/mcp-timeouts
-npx claude-code-templates@latest --hook git/pre-commit-validation
-npx claude-code-templates@latest --mcp database/postgresql-integration
+npx claude-code-templates@latest --agent development-tools/code-reviewer --yes
+npx claude-code-templates@latest --command performance/optimize-bundle --yes
+npx claude-code-templates@latest --setting performance/mcp-timeouts --yes
+npx claude-code-templates@latest --hook git/pre-commit-validation --yes
+npx claude-code-templates@latest --mcp database/postgresql-integration --yes
 ```
 
 ## What You Get
@@ -55,7 +62,7 @@ npx claude-code-templates@latest --mcp database/postgresql-integration
 | **🔌 MCPs** | External service integrations | GitHub, PostgreSQL, Stripe, AWS, OpenAI |
 | **⚙️ Settings** | Claude Code configurations | Timeouts, memory settings, output styles |
 | **🪝 Hooks** | Automation triggers | Pre-commit validation, post-completion actions |
-| **📦 Templates** | Complete project configurations with CLAUDE.md, .claude/* files and .mcp.json | Framework-specific setups, project best practices |
+| **🎨 Skills** | Reusable capabilities with progressive disclosure | PDF processing, Excel automation, custom workflows |
 
 ## 🛠️ Additional Tools
 
@@ -113,6 +120,13 @@ This collection includes components from multiple sources:
 **Commands Collection:**
 - **awesome-claude-code Commands** by [hesreallyhim](https://github.com/hesreallyhim/awesome-claude-code) - Licensed under CC0 1.0 Universal (21 commands)
 
+Some of the commands and resources included in this marketplace come from open-source community repositories originally listed in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code).
+
+Each of these resources retains its **original license and attribution**, as defined by their respective authors (mostly MIT-licensed).  
+
+Please note that **awesome-claude-code** is **no longer licensed under CC 1.0**.  
+We respect and credit all original creators for their work and contributions to the Claude ecosystem.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -124,15 +138,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **💬 Community**: [GitHub Discussions](https://github.com/davila7/claude-code-templates/discussions)
 - **🐛 Issues**: [GitHub Issues](https://github.com/davila7/claude-code-templates/issues)
 
-## ⭐ Star History
-
-<a href="https://star-history.com/#davila7/claude-code-templates&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=davila7/claude-code-templates&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=davila7/claude-code-templates&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=davila7/claude-code-templates&type=Date" />
-  </picture>
-</a>
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/davila7/claude-code-templates.svg?variant=adaptive)](https://starchart.cc/davila7/claude-code-templates)
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: open-source-games
-date: 2025-11-11T12:24:42+08:00
+date: 2025-11-12T12:23:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759332691489-dd487c72b583?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759332691489-dd487c72b583?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760594386925-519fba2ad5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760594386925-519fba2ad5ba?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
 ---
 
 # [bobeff/open-source-games](https://github.com/bobeff/open-source-games)

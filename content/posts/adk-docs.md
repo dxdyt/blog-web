@@ -1,0 +1,84 @@
+---
+title: adk-docs
+date: 2025-11-12T12:24:47+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1760440948623-9c5343a753a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760440948623-9c5343a753a7?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+---
+
+# [google/adk-docs](https://github.com/google/adk-docs)
+
+# Agent Development Kit (ADK)
+
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/v/google-adk)](https://pypi.org/project/google-adk/)
+[![Maven Central](https://img.shields.io/maven-central/v/com.google.adk/google-adk)](https://search.maven.org/artifact/com.google.adk/google-adk)
+
+<html>
+  <h2 align="center">
+    <img src="docs/assets/agent-development-kit.png" width="150"/>
+  </h2>
+</html>
+
+**An open-source, code-first toolkit for building, evaluating, and
+deploying sophisticated AI agents with flexibility and control.**
+
+Agent Development Kit (ADK) is a flexible and modular framework for **developing
+and deploying AI agents**. While optimized for Gemini and the Google ecosystem,
+ADK is **model-agnostic**, **deployment-agnostic**, and is built for
+**compatibility with other frameworks**. ADK was designed to make agent
+development feel more like software development, to make it easier for
+developers to create, deploy, and orchestrate agentic architectures that range
+from simple tasks to complex workflows.
+
+---
+
+## ✨ Key Features
+
+- **Rich Tool Ecosystem**: Utilize pre-built tools, custom functions,
+  OpenAPI specs, or integrate existing tools to give agents diverse
+  capabilities, all for tight integration with the Google ecosystem.
+
+- **Code-First Development**: Define agent logic, tools, and orchestration
+  directly in Python and Java for ultimate flexibility, testability, and versioning.
+
+- **Modular Multi-Agent Systems**: Design scalable applications by composing
+  multiple specialized agents into flexible hierarchies.
+
+- **Tracing and Monitoring**: Built-in agent observability for debugging and optimizing
+  workflows.
+
+- **Deploy Anywhere**: Easily containerize and deploy agents on Cloud Run or GKE, or
+  scale seamlessly with Vertex AI Agent Engine.
+
+## 🚀 Usage
+
+You can use Agent Development Kit (ADK) with your preferred package manager for Python or build tool for Java.
+
+- **[Get started with ADK Python](https://google.github.io/adk-docs/get-started/python/)**
+
+- **[Get started with ADK Go](https://google.github.io/adk-docs/get-started/go/)**
+
+- **[Get started with ADK Java](https://google.github.io/adk-docs/get-started/java/)**
+
+## 📚 Documentation
+
+Explore the full documentation for detailed guides on building, evaluating, and
+deploying agents:
+
+- **[Documentation](https://google.github.io/adk-docs)**
+
+## 🤝 Contributing
+
+We welcome contributions from the community! Whether it's bug reports, feature
+requests, documentation improvements, or code contributions, please see our
+[**Contributing Guidelines**](./CONTRIBUTING.md) to get started.
+
+## 📄 License
+
+This project is licensed under the Apache 2.0 License - see the
+[LICENSE](LICENSE) file for details.
+
+---
+
+*Happy Agent Building!*

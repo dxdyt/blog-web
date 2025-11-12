@@ -1,15 +1,15 @@
 ---
 title: Sunshine
-date: 2025-09-23T12:21:25+08:00
+date: 2025-11-12T12:24:26+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756469644995-52f734e71879?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756469644995-52f734e71879?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTg2MDEyNDN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1752588975097-fb5df3c7b345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1752588975097-fb5df3c7b345?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
 ---
 
 # [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine)
 
 <div align="center">
-  <img src="sunshine.png" />
+  <img src="sunshine.png"  alt="Sunshine icon"/>
   <h1 align="center">Sunshine</h1>
   <h4 align="center">Self-hosted game stream host for Moonlight.</h4>
 </div>
@@ -32,15 +32,15 @@ featuredImagePreview: https://images.unsplash.com/photo-1756469644995-52f734e718
 ## ℹ️ About
 
 Sunshine is a self-hosted game stream host for Moonlight.
-Offering low latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware
+Offering low-latency, cloud gaming server capabilities with support for AMD, Intel, and Nvidia GPUs for hardware
 encoding. Software encoding is also available. You can connect to Sunshine from any Moonlight client on a variety of
 devices. A web UI is provided to allow configuration, and client pairing, from your favorite web browser. Pair from
 the local server or any mobile device.
 
 LizardByte has the full documentation hosted on [Read the Docs](https://docs.lizardbyte.dev/projects/sunshine)
 
-* [Stable](https://docs.lizardbyte.dev/projects/sunshine/latest/)
-* [Beta](https://docs.lizardbyte.dev/projects/sunshine/master/)
+* [Stable Docs](https://docs.lizardbyte.dev/projects/sunshine/latest/)
+* [Beta Docs](https://docs.lizardbyte.dev/projects/sunshine/master/)
 
 ## 🖥️ System Requirements
 
@@ -182,9 +182,7 @@ Our support methods are listed in our [LizardByte Docs](https://docs.lizardbyte.
 ## 💲 Sponsors and Supporters
 
 <p align="center">
-  <a href="https://app.lizardbyte.dev" aria-label="Sponsor LizardByte">
-    <img src='https://raw.githubusercontent.com/LizardByte/contributors/refs/heads/dist/sponsors.svg'/>
-  </a>
+  <img src='https://cdn.jsdelivr.net/gh/LizardByte/contributors@dist/sponsors.svg' alt="Sponsors"/>
 </p>
 
 ## 👥 Contributors
@@ -194,17 +192,13 @@ Thank you to all the contributors who have helped make Sunshine better!
 ### GitHub
 
 <p align="center">
-  <a href="https://github.com/LizardByte/Sunshine" aria-label="GitHub">
-    <img src='https://raw.githubusercontent.com/LizardByte/contributors/refs/heads/dist/github.Sunshine.svg'/>
-  </a>
+  <img src='https://cdn.jsdelivr.net/gh/LizardByte/contributors@dist/github.Sunshine.svg' alt="GitHub contributors"/>
 </p>
 
 ### CrowdIn
 
 <p align="center">
-  <a href="https://translate.lizardbyte.dev" aria-label="CrowdIn">
-    <img src='https://raw.githubusercontent.com/LizardByte/contributors/refs/heads/dist/crowdin.606145.svg'/>
-  </a>
+  <img src='https://cdn.jsdelivr.net/gh/LizardByte/contributors@dist/crowdin.606145.svg' alt="CrowdIn contributors"/>
 </p>
 
 <div class="section_buttons">
