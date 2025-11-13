@@ -1,9 +1,9 @@
 ---
 title: traefik
-date: 2025-01-11T12:20:25+08:00
+date: 2025-11-13T12:25:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1735236270565-983422d5a224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1735236270565-983422d5a224?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MzY1NjkxMzF8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1760705186270-54bf503fdc12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwMDc4NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760705186270-54bf503fdc12?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwMDc4NzJ8&ixlib=rb-4.1.0
 ---
 
 # [traefik/traefik](https://github.com/traefik/traefik)
@@ -17,7 +17,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1735236270565-983422d5a2
     </picture>
 </p>
 
-[![Build Status SemaphoreCI](https://traefik-oss.semaphoreci.com/badges/traefik/branches/master.svg?style=shields)](https://traefik-oss.semaphoreci.com/projects/traefik)
 [![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://doc.traefik.io/traefik)
 [![Go Report Card](https://goreportcard.com/badge/traefik/traefik)](https://goreportcard.com/report/traefik/traefik)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/traefik/traefik/blob/master/LICENSE.md)
@@ -45,7 +44,7 @@ Pointing Traefik at your orchestrator should be the _only_ configuration step yo
 
 ---
 
-:warning: When migrating to a new major version of Traefik, please refer to the [migration guide](https://doc.traefik.io/traefik/migration/v2-to-v3/) to ensure a smooth transition and to be aware of any breaking changes.
+:warning: When migrating to a new major version of Traefik, please refer to the [migration guide](https://doc.traefik.io/traefik/migrate/v2-to-v3/) to ensure a smooth transition and to be aware of any breaking changes.
 
 
 ## Overview
@@ -69,7 +68,7 @@ _(But if you'd rather configure some of your routes manually, Traefik supports t
 
 - Continuously updates its configuration (No restarts!)
 - Supports multiple load balancing algorithms
-- Provides HTTPS to your microservices by leveraging [Let's Encrypt](https://letsencrypt.org)  (wildcard certificates support)
+- Provides HTTPS to your microservices by leveraging [Let's Encrypt](https://letsencrypt.org) (wildcard certificates support)
 - Circuit breakers, retry
 - See the magic through its clean web UI
 - WebSocket, HTTP/2, gRPC ready
@@ -99,8 +98,6 @@ You can access the simple HTML frontend of Traefik.
 ## Documentation
 
 You can find the complete documentation of Traefik v3 at [https://doc.traefik.io/traefik/](https://doc.traefik.io/traefik/).
-
-A collection of contributions around Traefik can be found at [https://awesome.traefik.io](https://awesome.traefik.io).
 
 ## Support
 
@@ -164,7 +161,7 @@ We use [Semantic Versioning](https://semver.org/).
 
 ## Credits
 
-Kudos to [Peka](http://peka.byethost11.com/photoblog/) for his awesome work on the gopher's logo!.
+Kudos to [Peka](https://www.instagram.com/pierroks/) for his awesome work on the gopher's logo!.
 
 The gopher's logo of Traefik is licensed under the Creative Commons 3.0 Attributions license.
 

@@ -1,9 +1,9 @@
 ---
 title: tracy
-date: 2025-05-11T12:22:04+08:00
+date: 2025-11-13T12:26:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1744140390489-fc279d403107?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY5MzcyNjV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1744140390489-fc279d403107?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NDY5MzcyNjV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761138414007-084cdfa4be6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwMDc4NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761138414007-084cdfa4be6c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwMDc4NzJ8&ixlib=rb-4.1.0
 ---
 
 # [wolfpld/tracy](https://github.com/wolfpld/tracy)
@@ -14,7 +14,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1744140390489-fc279d4031
 
 ### A real time, nanosecond resolution, remote telemetry, hybrid frame and sampling profiler for games and other applications.
 
-Tracy supports profiling CPU (Direct support is provided for C, C++, Lua, Python and Fortran integration. At the same time, third-party bindings to many other languages exist on the internet, such as [Rust](https://github.com/nagisa/rust_tracy_client), [Zig](https://github.com/tealsnow/zig-tracy), [C#](https://github.com/clibequilibrium/Tracy-CSharp), [OCaml](https://github.com/imandra-ai/ocaml-tracy), [Odin](https://github.com/oskarnp/odin-tracy), etc.), GPU (All major graphic APIs: OpenGL, Vulkan, Direct3D 11/12, Metal, OpenCL.), memory allocations, locks, context switches, automatically attribute screenshots to captured frames, and much more.
+Tracy supports profiling CPU (Direct support is provided for C, C++, Lua, Python and Fortran integration. At the same time, third-party bindings to many other languages exist on the internet, such as [Rust](https://github.com/nagisa/rust_tracy_client), [Zig](https://github.com/tealsnow/zig-tracy), [C#](https://github.com/clibequilibrium/Tracy-CSharp), [OCaml](https://github.com/imandra-ai/ocaml-tracy), [Odin](https://github.com/oskarnp/odin-tracy), etc.), GPU (All major graphic APIs: OpenGL, Vulkan, Direct3D 11/12, Metal, OpenCL, CUDA.), memory allocations, locks, context switches, automatically attribute screenshots to captured frames, and much more.
 
 - [Documentation](https://github.com/wolfpld/tracy/releases/latest/download/tracy.pdf) for usage and build process instructions
 - [Releases](https://github.com/wolfpld/tracy/releases) containing the documentation (`tracy.pdf`) and compiled Windows x64 binaries (`Tracy-<version>.7z`) as assets
