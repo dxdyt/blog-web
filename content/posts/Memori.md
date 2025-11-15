@@ -1,9 +1,9 @@
 ---
 title: Memori
-date: 2025-11-14T12:23:43+08:00
+date: 2025-11-15T12:22:35+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759780763396-505ccfe121ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwOTQxNTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759780763396-505ccfe121ac?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMwOTQxNTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762803733564-fecc7669a91a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMxODA0NzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762803733564-fecc7669a91a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMxODA0NzJ8&ixlib=rb-4.1.0
 ---
 
 # [GibsonAI/Memori](https://github.com/GibsonAI/Memori)
