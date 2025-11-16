@@ -1,9 +1,9 @@
 ---
 title: Memori
-date: 2025-11-15T12:22:35+08:00
+date: 2025-11-16T12:25:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762803733564-fecc7669a91a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMxODA0NzJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762803733564-fecc7669a91a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMxODA0NzJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760381587615-0a4653e6e850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMyNjcwNzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760381587615-0a4653e6e850?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMyNjcwNzJ8&ixlib=rb-4.1.0
 ---
 
 # [GibsonAI/Memori](https://github.com/GibsonAI/Memori)
@@ -219,7 +219,7 @@ graph LR
 
 - **Conscious Agent** analyzes patterns and promotes essential memories from long-term to short-term storage
 
-For detailed architecture documentation, see [docs/architecture.md](https://www.gibsonai.com/docs/memori/architecture).
+For detailed architecture documentation, see [docs/architecture.md](https://www.gibsonai.com/docs/open-source/architecture).
 
 ---
 
