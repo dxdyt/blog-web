@@ -1,9 +1,9 @@
 ---
 title: tracy
-date: 2025-11-17T12:27:51+08:00
+date: 2025-11-18T12:25:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761380693343-58ed53b6b07c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMzNTM1MzF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761380693343-58ed53b6b07c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjMzNTM1MzF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761663786432-47977a400369?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761663786432-47977a400369?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
 ---
 
 # [wolfpld/tracy](https://github.com/wolfpld/tracy)
