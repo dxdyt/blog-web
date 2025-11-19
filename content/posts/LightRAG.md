@@ -1,9 +1,9 @@
 ---
 title: LightRAG
-date: 2025-11-18T12:23:55+08:00
+date: 2025-11-19T12:23:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760681555815-ccaae18f6e06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760681555815-ccaae18f6e06?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761168955091-fb51c883b8db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761168955091-fb51c883b8db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)
@@ -234,10 +234,7 @@ For a streaming response implementation example, please see `examples/lightrag_o
 
 ### ⚠️ Important: Initialization Requirements
 
-**LightRAG requires explicit initialization before use.** You must call both `await rag.initialize_storages()` and `await initialize_pipeline_status()` after creating a LightRAG instance, otherwise you will encounter errors like:
-
-- `AttributeError: __aenter__` - if storages are not initialized
-- `KeyError: 'history_messages'` - if pipeline status is not initialized
+**LightRAG requires explicit initialization before use.** You must call `await rag.initialize_storages()` after creating a LightRAG instance, otherwise you will encounter errors.
 
 ### A Simple Program
 
@@ -248,7 +245,6 @@ import os
 import asyncio
 from lightrag import LightRAG, QueryParam
 from lightrag.llm.openai import gpt_4o_mini_complete, gpt_4o_complete, openai_embed
-from lightrag.kg.shared_storage import initialize_pipeline_status
 from lightrag.utils import setup_logger
 
 setup_logger("lightrag", level="INFO")
@@ -264,9 +260,7 @@ async def initialize_rag():
         llm_model_func=gpt_4o_mini_complete,
     )
     # IMPORTANT: Both initialization calls are required!
-    await rag.initialize_storages()  # Initialize storage backends
-    await initialize_pipeline_status()  # Initialize processing pipeline
-    return rag
+    await rag.initialize_storages()  # Initialize storage backends    return rag
 
 async def main():
     try:
@@ -455,8 +449,6 @@ async def initialize_rag():
     )
 
     await rag.initialize_storages()
-    await initialize_pipeline_status()
-
     return rag
 ```
 
@@ -587,7 +579,6 @@ from lightrag import LightRAG
 from lightrag.llm.llama_index_impl import llama_index_complete_if_cache, llama_index_embed
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.llms.openai import OpenAI
-from lightrag.kg.shared_storage import initialize_pipeline_status
 from lightrag.utils import setup_logger
 
 # Setup log handler for LightRAG
@@ -604,8 +595,6 @@ async def initialize_rag():
     )
 
     await rag.initialize_storages()
-    await initialize_pipeline_status()
-
     return rag
 
 def main():
@@ -857,8 +846,6 @@ async def initialize_rag():
     # Initialize database connections
     await rag.initialize_storages()
     # Initialize pipeline status for document processing
-    await initialize_pipeline_status()
-
     return rag
 ```
 
@@ -943,8 +930,6 @@ async def initialize_rag():
     # Initialize database connections
     await rag.initialize_storages()
     # Initialize pipeline status for document processing
-    await initialize_pipeline_status()
-
     return rag
 ```
 
@@ -1552,16 +1537,13 @@ If you encounter these errors when using LightRAG:
 
 2. **`KeyError: 'history_messages'`**
    - **Cause**: Pipeline status not initialized
-   - **Solution**: Call `await initialize_pipeline_status()` after initializing storages
-
+   - **Solution**: Call `
 3. **Both errors in sequence**
    - **Cause**: Neither initialization method was called
    - **Solution**: Always follow this pattern:
    ```python
    rag = LightRAG(...)
-   await rag.initialize_storages()
-   await initialize_pipeline_status()
-   ```
+   await rag.initialize_storages()   ```
 
 ### Model Switching Issues
 

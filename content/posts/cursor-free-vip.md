@@ -1,9 +1,9 @@
 ---
 title: cursor-free-vip
-date: 2025-11-18T12:23:35+08:00
+date: 2025-11-19T12:23:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760835252185-4d5ea03a774a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760835252185-4d5ea03a774a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760985813018-b6b951c57fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760985813018-b6b951c57fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)

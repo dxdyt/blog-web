@@ -1,9 +1,9 @@
 ---
 title: WSABuilds
-date: 2025-11-18T12:24:45+08:00
+date: 2025-11-19T12:24:48+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760696838974-23f040e35d4e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM0Mzk3Nzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761199664578-7d2f9e1edc0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761199664578-7d2f9e1edc0a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
 ---
 
 # [MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds)
