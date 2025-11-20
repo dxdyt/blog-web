@@ -1,9 +1,9 @@
 ---
 title: open-source-games
-date: 2025-11-19T12:24:06+08:00
+date: 2025-11-20T12:22:32+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761580525127-392880387ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761580525127-392880387ca4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760915170446-9c5b0b67b6e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760915170446-9c5b0b67b6e2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
 ---
 
 # [bobeff/open-source-games](https://github.com/bobeff/open-source-games)
@@ -267,6 +267,8 @@ The game also has a lot of forks that add their own features, difficulty scaling
 ## Other lists
 
 - **[Awesome Game Remakes](https://github.com/radek-sprta/awesome-game-remakes)**
+
+- **[Awesome Open Source Games](https://github.com/michelpereira/awesome-open-source-games)**
 
 - **[Games on GitHub](https://github.com/leereilly/games)**
 

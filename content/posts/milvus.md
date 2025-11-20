@@ -1,9 +1,9 @@
 ---
 title: milvus
-date: 2025-11-19T12:25:18+08:00
+date: 2025-11-20T12:23:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760985813018-b6b951c57fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760985813018-b6b951c57fe8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM1MjYxODJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1759434188986-58432949b5a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1759434188986-58432949b5a4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
 ---
 
 # [milvus-io/milvus](https://github.com/milvus-io/milvus)
