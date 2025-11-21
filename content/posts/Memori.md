@@ -1,9 +1,9 @@
 ---
 title: Memori
-date: 2025-11-20T12:22:46+08:00
+date: 2025-11-21T12:23:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762320386358-1cab0df757d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762320386358-1cab0df757d1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761857800034-7fac5d30bd14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2OTg5NDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761857800034-7fac5d30bd14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2OTg5NDd8&ixlib=rb-4.1.0
 ---
 
 # [GibsonAI/Memori](https://github.com/GibsonAI/Memori)
@@ -27,7 +27,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1762320386358-1cab0df757
 
 <p align="center">
   <a href="https://badge.fury.io/py/memorisdk">
-    <img src="https://badge.fury.io/py/memori.svg" alt="PyPI version">
+    <img src="https://badge.fury.io/py/memorisdk.svg" alt="PyPI version">
   </a>
   <a href="https://pepy.tech/projects/memorisdk">
     <img src="https://static.pepy.tech/badge/memorisdk" alt="Downloads">

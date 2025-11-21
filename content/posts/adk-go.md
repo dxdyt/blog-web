@@ -1,9 +1,9 @@
 ---
 title: adk-go
-date: 2025-11-20T12:21:47+08:00
+date: 2025-11-21T12:22:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760971439988-b236b4207d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760971439988-b236b4207d47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2MTI0OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761857800034-7fac5d30bd14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2OTg5NDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761857800034-7fac5d30bd14?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2OTg5NDd8&ixlib=rb-4.1.0
 ---
 
 # [google/adk-go](https://github.com/google/adk-go)
