@@ -1,9 +1,9 @@
 ---
 title: call-center-ai
-date: 2025-11-21T12:23:56+08:00
+date: 2025-11-22T12:23:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762789291015-51c5a710c73c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2OTg5NDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762789291015-51c5a710c73c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM2OTg5NDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762564048740-d8b945461f3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM3ODUzMDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762564048740-d8b945461f3a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM3ODUzMDF8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/call-center-ai](https://github.com/microsoft/call-center-ai)
