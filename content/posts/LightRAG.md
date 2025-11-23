@@ -1,9 +1,9 @@
 ---
 title: LightRAG
-date: 2025-11-22T12:22:35+08:00
+date: 2025-11-23T12:32:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761839257144-297ce252742e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM3ODUzMDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761839257144-297ce252742e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM3ODUzMDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761810399772-f142febdb373?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM4NzIzMDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761810399772-f142febdb373?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM4NzIzMDl8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)
@@ -61,8 +61,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1761839257144-297ce25274
 
 ---
 ## 🎉 News
-- [2025.11.05]🎯Add **RAGAS-based** Evaluation Framework and **Langfuse** observability for LightRAG (API can return retrieved contexts with query results).
-- [2025.10.22]🎯Eliminate bottlenecks in processing **large-scale datasets**.
+- [2025.11.05]🎯[New Feature]: Integrated **RAGAS for Evaluation** and **Langfuse for Tracing**. Updated the API to return retrieved contexts alongside query results to support context precision metrics.
+- [2025.10.22]🎯[Scalability Enhancement]: Eliminated processing bottlenecks to support **Large-Scale Datasets Efficiently**.
 - [2025.09.15]🎯Significantly enhances KG extraction accuracy for **small LLMs** like Qwen3-30B-A3B.
 - [2025.08.29]🎯**Reranker** is supported now , significantly boosting performance for mixed queries(Set as default query mode now).
 - [2025.08.04]🎯**Document deletion** with KG regeneration to ensure query performance.
