@@ -1,9 +1,9 @@
 ---
 title: verl
-date: 2025-11-23T12:32:57+08:00
+date: 2025-11-24T12:34:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761522001763-c45e3e0d2377?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM4NzIzMDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761522001763-c45e3e0d2377?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM4NzIzMDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762936263573-af3e0d866980?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5NTg3ODN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762936263573-af3e0d866980?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5NTg3ODN8&ixlib=rb-4.1.0
 ---
 
 # [volcengine/verl](https://github.com/volcengine/verl)
@@ -253,6 +253,7 @@ verl is inspired by the design of Nemo-Aligner, Deepspeed-chat and OpenRLHF. The
 - [ARES](https://github.com/shawn0728/ARES): ARES: Multimodal Adaptive Reasoning via Difficulty-Aware Token-Level Entropy Shaping ![GitHub Repo stars](https://img.shields.io/github/stars/shawn0728/ARES)
 - [Meta-Bandit-LLM](https://github.com/sanxing-chen/meta-bandit-llm): Meta-Bandit-LLM: Long-horizon multiturn interactive training for meta-bandit agents ![GitHub Repo stars](https://img.shields.io/github/stars/sanxing-chen/meta-bandit-llm)
 - [PokeeResearch](https://github.com/Pokee-AI/PokeeResearchOSS): PokeeResearch: State-of-the-art 7B DeepResearch Agent that leverages web search and content reading capabilities to answer complex questions using the most up-to-date information available online. ![Github Repo Stars](https://img.shields.io/github/stars/Pokee-AI/PokeeResearchOSS)
+- [Search Self-play](https://github.com/Alibaba-Quark/SSP): Pushing the Frontier of Agent Capability without Supervision ![GitHub Repo stars](https://img.shields.io/github/stars/Alibaba-Quark/SSP)
 
 and many more awesome work listed in [recipe](recipe/README.md).
 
