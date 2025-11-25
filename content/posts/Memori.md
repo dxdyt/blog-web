@@ -1,9 +1,9 @@
 ---
 title: Memori
-date: 2025-11-24T12:34:17+08:00
+date: 2025-11-25T12:26:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763154751547-b173ef434a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5NTg3ODN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763154751547-b173ef434a8a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5NTg3ODN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761475145944-52df2def23e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNDQ3MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761475145944-52df2def23e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNDQ3MzJ8&ixlib=rb-4.1.0
 ---
 
 # [GibsonAI/Memori](https://github.com/GibsonAI/Memori)
@@ -63,6 +63,10 @@ Memori enables any LLM to remember conversations, learn from interactions, and m
 - **Intelligent memory** - Automatic entity extraction, relationship mapping, and context prioritization
 
 [Documentation](https://memorilabs.ai/docs) | [Examples](#examples) | [Discord](https://discord.gg/abD4eGym6v)
+
+## Memori v3 coming soon
+
+We’re opening a small private beta group for **Memori v3**. If you want to know more and get early access to the new memory fabric for enterprise AI, join our [beta testing program here](https://github.com/GibsonAI/Memori/discussions/176).
 
 ---
 

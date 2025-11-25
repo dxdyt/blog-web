@@ -1,9 +1,9 @@
 ---
 title: traefik
-date: 2025-11-24T12:33:50+08:00
+date: 2025-11-25T12:26:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1746483966822-383db1fea145?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5NTg3ODN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1746483966822-383db1fea145?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjM5NTg3ODN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761405378292-30f64ad6f60b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNDQ3MzJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761405378292-30f64ad6f60b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQwNDQ3MzJ8&ixlib=rb-4.1.0
 ---
 
 # [traefik/traefik](https://github.com/traefik/traefik)
