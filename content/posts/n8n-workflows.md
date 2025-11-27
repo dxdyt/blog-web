@@ -1,9 +1,9 @@
 ---
 title: n8n-workflows
-date: 2025-11-26T12:27:14+08:00
+date: 2025-11-27T12:25:39+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761872936075-1ae069476d46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQxMzExMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761872936075-1ae069476d46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQxMzExMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761991062157-df67faab3a23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761991062157-df67faab3a23?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
 ---
 
 # [Zie619/n8n-workflows](https://github.com/Zie619/n8n-workflows)

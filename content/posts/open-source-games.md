@@ -1,9 +1,9 @@
 ---
 title: open-source-games
-date: 2025-11-26T12:26:15+08:00
+date: 2025-11-27T12:24:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762320254010-a8eba571a622?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQxMzExMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762320254010-a8eba571a622?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQxMzExMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761998066478-821bf52c2849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761998066478-821bf52c2849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
 ---
 
 # [bobeff/open-source-games](https://github.com/bobeff/open-source-games)
@@ -277,6 +277,8 @@ The game also has a lot of forks that add their own features, difficulty scaling
 - **[List of (interesting) FOSS game engine replacement projects](https://forum.openmw.org/viewtopic.php?p=57882)**
 
 - **[List of Open Source Games](https://trilarion.github.io/opensourcegames)**
+
+- **[Mac Source Ports](https://www.macsourceports.com)**
 
 - **[Open Source Game Clones](https://osgameclones.com)**
 

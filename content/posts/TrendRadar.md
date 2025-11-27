@@ -1,9 +1,9 @@
 ---
 title: TrendRadar
-date: 2025-11-26T12:25:23+08:00
+date: 2025-11-27T12:23:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763393434891-2a0c38d4e5a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQxMzExMTZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763393434891-2a0c38d4e5a1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQxMzExMTZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763244737837-fdef959467c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763244737837-fdef959467c4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
 ---
 
 # [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)
@@ -25,7 +25,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763393434891-2a0c38d4e5
 [![GitHub Forks](https://img.shields.io/github/forks/sansan0/TrendRadar?style=flat-square&logo=github&color=blue)](https://github.com/sansan0/TrendRadar/network/members)
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue.svg?style=flat-square)](LICENSE)
 [![Version](https://img.shields.io/badge/version-v3.4.0-blue.svg)](https://github.com/sansan0/TrendRadar)
-[![MCP](https://img.shields.io/badge/MCP-v1.0.2-green.svg)](https://github.com/sansan0/TrendRadar)
+[![MCP](https://img.shields.io/badge/MCP-v1.0.3-green.svg)](https://github.com/sansan0/TrendRadar)
 
 [![企业微信通知](https://img.shields.io/badge/企业微信-通知-00D4AA?style=flat-square)](https://work.weixin.qq.com/)
 [![个人微信通知](https://img.shields.io/badge/个人微信-通知-00D4AA?style=flat-square)](https://weixin.qq.com/)
@@ -287,7 +287,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763393434891-2a0c38d4e5
 
 ### **多渠道实时推送**
 
-支持**企业微信**(+ 微信推送方案)、**飞书**、**钉钉**、**Telegram**、**邮件**、**ntfy**，消息直达手机和邮箱
+支持**企业微信**(+ 微信推送方案)、**飞书**、**钉钉**、**Telegram**、**邮件**、**ntfy**、**Bark**、**Slack**，消息直达手机和邮箱
 
 ### **多端适配**
 - **GitHub Pages**：自动生成精美网页报告，PC/移动端适配
@@ -346,6 +346,13 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 - **小版本更新**：从 v2.x 升级到 v2.y，用本项目的 `main.py` 代码替换你 fork 仓库中的对应文件
 - **大版本升级**：从 v1.x 升级到 v2.y，建议删除现有 fork 后重新 fork，这样更省力且避免配置冲突
 
+
+### 2025/11/26 - mcp-v1.0.3
+
+  **MCP 模块更新:**
+  - 新增日期解析工具 resolve_date_range,解决 AI 模型计算日期不一致的问题
+  - 支持自然语言日期表达式解析(本周、最近7天、上月等)
+  - 工具总数从 13 个增加到 14 个
 
 ### 2025/11/25 - v3.4.0
 
@@ -413,6 +420,7 @@ GitHub 一键 Fork 即可使用，无需编程基础。
 
 **🔧 升级说明**：
 - **GitHub Fork 用户**：更新 `main.py`、`config/config.yaml`
+
 
 ### 2025/11/18 - mcp-v1.0.2
 
