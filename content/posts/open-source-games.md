@@ -1,9 +1,9 @@
 ---
 title: open-source-games
-date: 2025-11-27T12:24:34+08:00
+date: 2025-11-28T12:24:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761998066478-821bf52c2849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761998066478-821bf52c2849?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQyMTc0MTF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762532985317-d2966b83272c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQzMDM4MDJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762532985317-d2966b83272c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQzMDM4MDJ8&ixlib=rb-4.1.0
 ---
 
 # [bobeff/open-source-games](https://github.com/bobeff/open-source-games)
@@ -255,6 +255,8 @@ The game also has a lot of forks that add their own features, difficulty scaling
 - **[Freeciv](http://www.freeciv.org/)** - A Free and Open Source empire-building strategy game. [[source]](https://github.com/freeciv/freeciv)
 
 - **[FreeOrion](https://www.freeorion.org/index.php/Main_Page)** - A free, open source, turn-based space empire and galactic conquest (4X) computer game. [[source]](https://github.com/freeorion/freeorion)
+
+- **[OpenPanzer](https://www.linuxconsulting.ro/openpanzer)** - Javascript/HTML5 rewrite of Panzer General 2 game. [[source]](https://github.com/nicupavel/openpanzer)
 
 - **[OpenXcom](https://openxcom.org/)** - An open-source clone of the popular "**UFO: Enemy Unknown**" and "**X-COM: Terror From the Deep**" videogames by Micropros. [[source]](https://github.com/OpenXcom/OpenXcom)
 
