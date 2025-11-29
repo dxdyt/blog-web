@@ -1,9 +1,9 @@
 ---
 title: LightRAG
-date: 2025-11-28T12:24:12+08:00
+date: 2025-11-29T12:23:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763037152119-f86924827076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQzMDM4MDJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763037152119-f86924827076?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQzMDM4MDJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762772566714-e61ebe79d6de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQzOTAxNDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762772566714-e61ebe79d6de?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQzOTAxNDZ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)
@@ -224,7 +224,7 @@ For a streaming response implementation example, please see `examples/lightrag_o
 
 **Note 2**: Only `lightrag_openai_demo.py` and `lightrag_openai_compatible_demo.py` are officially supported sample codes. Other sample files are community contributions that haven't undergone full testing and optimization.
 
-## Programing with LightRAG Core
+## Programming with LightRAG Core
 
 > ⚠️ **If you would like to integrate LightRAG into your project, we recommend utilizing the REST API provided by the LightRAG Server**. LightRAG Core is typically intended for embedded applications or for researchers who wish to conduct studies and evaluations.
 
@@ -323,7 +323,7 @@ A full list of LightRAG init parameters:
 | **vector_db_storage_cls_kwargs** | `dict` | Additional parameters for vector database, like setting the threshold for nodes and relations retrieval | cosine_better_than_threshold: 0.2（default value changed by env var COSINE_THRESHOLD) |
 | **enable_llm_cache** | `bool` | If `TRUE`, stores LLM results in cache; repeated prompts return cached responses | `TRUE` |
 | **enable_llm_cache_for_entity_extract** | `bool` | If `TRUE`, stores LLM results in cache for entity extraction; Good for beginners to debug your application | `TRUE` |
-| **addon_params** | `dict` | Additional parameters, e.g., `{"language": "Simplified Chinese", "entity_types": ["organization", "person", "location", "event"]}`: sets example limit, entiy/relation extraction output language | language: English` |
+| **addon_params** | `dict` | Additional parameters, e.g., `{"language": "Simplified Chinese", "entity_types": ["organization", "person", "location", "event"]}`: sets example limit, entity/relation extraction output language | language: English` |
 | **embedding_cache_config** | `dict` | Configuration for question-answer caching. Contains three parameters: `enabled`: Boolean value to enable/disable cache lookup functionality. When enabled, the system will check cached responses before generating new answers. `similarity_threshold`: Float value (0-1), similarity threshold. When a new question's similarity with a cached question exceeds this threshold, the cached answer will be returned directly without calling the LLM. `use_llm_check`: Boolean value to enable/disable LLM similarity verification. When enabled, LLM will be used as a secondary check to verify the similarity between questions before returning cached answers. | Default: `{"enabled": False, "similarity_threshold": 0.95, "use_llm_check": False}` |
 
 </details>
@@ -374,7 +374,7 @@ class QueryParam:
     max_total_tokens: int = int(os.getenv("MAX_TOTAL_TOKENS", "30000"))
     """Maximum total tokens budget for the entire query context (entities + relations + chunks + system prompt)."""
 
-    # History mesages is only send to LLM for context, not used for retrieval
+    # History messages are only sent to LLM for context, not used for retrieval
     conversation_history: list[dict[str, str]] = field(default_factory=list)
     """Stores past conversation history to maintain context.
     Format: [{"role": "user/assistant", "content": "message"}].
@@ -413,6 +413,11 @@ LightRAG requires the utilization of LLM and Embedding models to accomplish docu
 * LightRAG also supports Open AI-like chat/embeddings APIs:
 
 ```python
+import os
+import numpy as np
+from lightrag.utils import wrap_embedding_func_with_attrs
+from lightrag.llm.openai import openai_complete_if_cache, openai_embed
+
 async def llm_model_func(
     prompt, system_prompt=None, history_messages=[], keyword_extraction=False, **kwargs
 ) -> str:
@@ -426,8 +431,9 @@ async def llm_model_func(
         **kwargs
     )
 
+@wrap_embedding_func_with_attrs(embedding_dim=4096, max_token_size=8192)
 async def embedding_func(texts: list[str]) -> np.ndarray:
-    return await openai_embed(
+    return await openai_embed.func(
         texts,
         model="solar-embedding-1-large-query",
         api_key=os.getenv("UPSTAGE_API_KEY"),
@@ -438,15 +444,16 @@ async def initialize_rag():
     rag = LightRAG(
         working_dir=WORKING_DIR,
         llm_model_func=llm_model_func,
-        embedding_func=EmbeddingFunc(
-            embedding_dim=4096,
-            func=embedding_func
-        )
+        embedding_func=embedding_func  # Pass the decorated function directly
     )
 
     await rag.initialize_storages()
     return rag
 ```
+
+> **Important Note on Embedding Function Wrapping:**
+>
+> `EmbeddingFunc` cannot be nested. Functions that have been decorated with `@wrap_embedding_func_with_attrs` (such as `openai_embed`, `ollama_embed`, etc.) cannot be wrapped again using `EmbeddingFunc()`. This is why we call `xxx_embed.func` (the underlying unwrapped function) instead of `xxx_embed` directly when creating custom embedding functions.
 
 </details>
 
@@ -486,19 +493,20 @@ If you want to use Ollama models, you need to pull model you plan to use and emb
 Then you only need to set LightRAG as follows:
 
 ```python
+import numpy as np
+from lightrag.utils import wrap_embedding_func_with_attrs
+from lightrag.llm.ollama import ollama_model_complete, ollama_embed
+
+@wrap_embedding_func_with_attrs(embedding_dim=768, max_token_size=8192)
+async def embedding_func(texts: list[str]) -> np.ndarray:
+    return await ollama_embed.func(texts, embed_model="nomic-embed-text")
+
 # Initialize LightRAG with Ollama model
 rag = LightRAG(
     working_dir=WORKING_DIR,
     llm_model_func=ollama_model_complete,  # Use Ollama model for text generation
     llm_model_name='your_model_name', # Your model name
-    # Use Ollama embedding function
-    embedding_func=EmbeddingFunc(
-        embedding_dim=768,
-        func=lambda texts: ollama_embed(
-            texts,
-            embed_model="nomic-embed-text"
-        )
-    ),
+    embedding_func=embedding_func,  # Pass the decorated function directly
 )
 ```
 
@@ -537,21 +545,26 @@ ollama create -f Modelfile qwen2m
 Tiy can use `llm_model_kwargs` param to configure ollama:
 
 ```python
+import numpy as np
+from lightrag.utils import wrap_embedding_func_with_attrs
+from lightrag.llm.ollama import ollama_model_complete, ollama_embed
+
+@wrap_embedding_func_with_attrs(embedding_dim=768, max_token_size=8192)
+async def embedding_func(texts: list[str]) -> np.ndarray:
+    return await ollama_embed.func(texts, embed_model="nomic-embed-text")
+
 rag = LightRAG(
     working_dir=WORKING_DIR,
     llm_model_func=ollama_model_complete,  # Use Ollama model for text generation
     llm_model_name='your_model_name', # Your model name
     llm_model_kwargs={"options": {"num_ctx": 32768}},
-    # Use Ollama embedding function
-    embedding_func=EmbeddingFunc(
-        embedding_dim=768,
-        func=lambda texts: ollama_embed(
-            texts,
-            embed_model="nomic-embed-text"
-        )
-    ),
+    embedding_func=embedding_func,  # Pass the decorated function directly
 )
 ```
+
+> **Important Note on Embedding Function Wrapping:**
+>
+> `EmbeddingFunc` cannot be nested. Functions that have been decorated with `@wrap_embedding_func_with_attrs` (such as `openai_embed`, `ollama_embed`, etc.) cannot be wrapped again using `EmbeddingFunc()`. This is why we call `xxx_embed.func` (the underlying unwrapped function) instead of `xxx_embed` directly when creating custom embedding functions.
 
 * **Low RAM GPUs**
 
@@ -1565,7 +1578,7 @@ Langfuse provides a drop-in replacement for the OpenAI client that automatically
 pip install lightrag-hku
 pip install lightrag-hku[observability]
 
-# Or install from souce code with debug mode enabled
+# Or install from source code with debug mode enabled
 pip install -e .
 pip install -e ".[observability]"
 ```
