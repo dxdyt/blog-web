@@ -1,9 +1,9 @@
 ---
 title: LightRAG
-date: 2025-12-01T12:50:04+08:00
+date: 2025-12-02T12:30:34+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762222630690-20a58212af83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ1NjQ1NDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762222630690-20a58212af83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ1NjQ1NDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764071733622-8ffa53005a31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ2NDk3NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764071733622-8ffa53005a31?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ2NDk3NzZ8&ixlib=rb-4.1.0
 ---
 
 # [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG)
