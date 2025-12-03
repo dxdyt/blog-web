@@ -1,27 +1,12 @@
 ---
 title: cursor-free-vip
-date: 2025-12-02T12:30:11+08:00
+date: 2025-12-03T12:28:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762765990594-8625d4e7f84b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ2NDk3NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762765990594-8625d4e7f84b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ2NDk3NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763669029223-74f911a9e08b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763669029223-74f911a9e08b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
 ---
 
 # [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip)
-
-<div align="center" markdown="1">
-   <sup>Special thanks to:</sup>
-   <br>
-   <br>
-   <a href="http://go.warp.dev/cursor-free-vip">
-      <img alt="Warp sponsorship" width="400" src="https://github.com/user-attachments/assets/ab8dd143-b0fd-4904-bdc5-dd7ecac94eae">
-   </a>
-
-### [Warp, built for coding with multiple agents.](http://go.warp.dev/cursor-free-vip)
-[Available for MacOS, Linux, & Windows](http://go.warp.dev/cursor-free-vip)<br>
-
-</div>
-
----
 
 # ➤ Cursor Free VIP
 

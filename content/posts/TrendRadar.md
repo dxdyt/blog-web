@@ -1,9 +1,9 @@
 ---
 title: TrendRadar
-date: 2025-12-01T12:49:14+08:00
+date: 2025-12-03T12:28:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763142275498-c87a9acb57ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ1NjQ1NDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763142275498-c87a9acb57ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ1NjQ1NDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761960084255-7b45bd632251?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761960084255-7b45bd632251?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
 ---
 
 # [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar)
