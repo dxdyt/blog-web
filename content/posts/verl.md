@@ -1,9 +1,9 @@
 ---
 title: verl
-date: 2025-12-03T12:29:00+08:00
+date: 2025-12-04T12:31:05+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763669029223-74f911a9e08b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763669029223-74f911a9e08b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763246169636-4127600060b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ4MjI1OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763246169636-4127600060b6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ4MjI1OTV8&ixlib=rb-4.1.0
 ---
 
 # [volcengine/verl](https://github.com/volcengine/verl)

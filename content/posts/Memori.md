@@ -1,9 +1,9 @@
 ---
 title: Memori
-date: 2025-12-03T12:29:07+08:00
+date: 2025-12-04T12:31:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763612101817-a53a38f6186b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763612101817-a53a38f6186b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ3MzYwNzB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764526624453-db32c24eca55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ4MjI1OTV8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764526624453-db32c24eca55?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ4MjI1OTV8&ixlib=rb-4.1.0
 ---
 
 # [MemoriLabs/Memori](https://github.com/MemoriLabs/Memori)
@@ -186,8 +186,8 @@ _(unstreamed, streamed, synchronous and asynchronous)_
 
 ## Supported Frameworks
 
+- Agno
 - LangChain
-- Pydantic AI
 
 ## Supported Database Integrations
 
@@ -215,7 +215,7 @@ Memories are tracked at several different levels:
 - process: think your agent, LLM interaction or program
 - session: the current interactions between the entity, process and the LLM
 
-[Memori's Advanced Augmentation](https://github.com/MemoriLabs/Memori/blob/main/docs/AdvancedAugmentation.md) enhances memories at each of these levels with:
+[Memori's Advanced Augmentation](https://github.com/MemoriLabs/Memori/blob/main/docs/advanced-augmentation.md) enhances memories at each of these levels with:
 
 - attributes
 - events
@@ -262,7 +262,7 @@ To use the Memori CLI, execute the following from the command line:
 python -m memori
 ```
 
-This will display a menu of the available options. For more information about what you can do with the Memori CLI, please reference [Command Line Interface](https://github.com/MemoriLabs/Memori/blob/main/docs/CommandLineInterface.md).
+This will display a menu of the available options. For more information about what you can do with the Memori CLI, please reference [Command Line Interface](https://github.com/MemoriLabs/Memori/blob/main/docs/cli.md).
 
 ## Contributing
 
