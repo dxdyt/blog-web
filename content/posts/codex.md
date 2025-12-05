@@ -1,16 +1,14 @@
 ---
 title: codex
-date: 2025-09-19T12:23:08+08:00
+date: 2025-12-05T12:28:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1755134148217-2dd89cc6a2c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTgyNTU2NzV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763688496557-46d22a1fbe47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763688496557-46d22a1fbe47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [openai/codex](https://github.com/openai/codex)
 
-<h1 align="center">OpenAI Codex CLI</h1>
-
-<p align="center"><code>npm i -g @openai/codex</code><br />or <code>brew install codex</code></p>
+<p align="center"><code>npm i -g @openai/codex</code><br />or <code>brew install --cask codex</code></p>
 
 <p align="center"><strong>Codex CLI</strong> is a coding agent from OpenAI that runs locally on your computer.
 </br>
@@ -36,7 +34,7 @@ npm install -g @openai/codex
 Alternatively, if you use Homebrew:
 
 ```shell
-brew install codex
+brew install --cask codex
 ```
 
 Then simply run `codex` to get started:
@@ -44,6 +42,8 @@ Then simply run `codex` to get started:
 ```shell
 codex
 ```
+
+If you're running into upgrade issues with Homebrew, see the [FAQ entry on brew upgrade codex](./docs/faq.md#brew-upgrade-codex-isnt-upgrading-me).
 
 <details>
 <summary>You can also go to the <a href="https://github.com/openai/codex/releases/latest">latest GitHub Release</a> and download the appropriate binary for your platform.</summary>
@@ -73,29 +73,37 @@ You can also use Codex with an API key, but this requires [additional setup](./d
 
 ### Model Context Protocol (MCP)
 
-Codex CLI supports [MCP servers](./docs/advanced.md#model-context-protocol-mcp). Enable by adding an `mcp_servers` section to your `~/.codex/config.toml`.
-
+Codex can access MCP servers. To configure them, refer to the [config docs](./docs/config.md#mcp_servers).
 
 ### Configuration
 
 Codex CLI supports a rich set of configuration options, with preferences stored in `~/.codex/config.toml`. For full configuration options, see [Configuration](./docs/config.md).
 
----
+### Execpolicy
+
+See the [Execpolicy quickstart](./docs/execpolicy.md) to set up rules that govern what commands Codex can execute.
 
 ### Docs & FAQ
 
 - [**Getting started**](./docs/getting-started.md)
   - [CLI usage](./docs/getting-started.md#cli-usage)
+  - [Slash Commands](./docs/slash_commands.md)
   - [Running with a prompt as input](./docs/getting-started.md#running-with-a-prompt-as-input)
   - [Example prompts](./docs/getting-started.md#example-prompts)
+  - [Custom prompts](./docs/prompts.md)
   - [Memory with AGENTS.md](./docs/getting-started.md#memory-with-agentsmd)
-  - [Configuration](./docs/config.md)
+- [**Configuration**](./docs/config.md)
+  - [Example config](./docs/example-config.md)
 - [**Sandbox & approvals**](./docs/sandbox.md)
+- [**Execpolicy quickstart**](./docs/execpolicy.md)
 - [**Authentication**](./docs/authentication.md)
   - [Auth methods](./docs/authentication.md#forcing-a-specific-auth-method-advanced)
   - [Login on a "Headless" machine](./docs/authentication.md#connecting-on-a-headless-machine)
+- **Automating Codex**
+  - [GitHub Action](https://github.com/openai/codex-action)
+  - [TypeScript SDK](./sdk/typescript/README.md)
+  - [Non-interactive mode (`codex exec`)](./docs/exec.md)
 - [**Advanced**](./docs/advanced.md)
-  - [Non-interactive / CI mode](./docs/advanced.md#non-interactive--ci-mode)
   - [Tracing / verbose logging](./docs/advanced.md#tracing--verbose-logging)
   - [Model Context Protocol (MCP)](./docs/advanced.md#model-context-protocol-mcp)
 - [**Zero data retention (ZDR)**](./docs/zdr.md)
@@ -112,4 +120,3 @@ Codex CLI supports a rich set of configuration options, with preferences stored 
 ## License
 
 This repository is licensed under the [Apache-2.0 License](LICENSE).
-

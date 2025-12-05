@@ -1,9 +1,9 @@
 ---
 title: kubernetes
-date: 2023-11-16T12:17:25+08:00
+date: 2025-12-05T12:29:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1698778874232-6a0a58d84055?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1698778874232-6a0a58d84055?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDAxMDgxNDR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1763634048525-5ca118fe6c05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763634048525-5ca118fe6c05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
 ---
 
 # [kubernetes/kubernetes](https://github.com/kubernetes/kubernetes)
@@ -53,8 +53,6 @@ If you want to build Kubernetes right away there are two options:
 ##### You have a working [Go environment].
 
 ```
-mkdir -p $GOPATH/src/k8s.io
-cd $GOPATH/src/k8s.io
 git clone https://github.com/kubernetes/kubernetes
 cd kubernetes
 make
@@ -79,7 +77,7 @@ That said, if you have questions, reach out to us
 [one way or another][communication].
 
 [announcement]: https://cncf.io/news/announcement/2015/07/new-cloud-native-computing-foundation-drive-alignment-among-container
-[Borg]: https://research.google.com/pubs/pub43438.html
+[Borg]: https://research.google.com/pubs/pub43438.html?authuser=1
 [CNCF]: https://www.cncf.io/about
 [communication]: https://git.k8s.io/community/communication
 [community repository]: https://git.k8s.io/community
