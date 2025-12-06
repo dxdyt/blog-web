@@ -1,9 +1,9 @@
 ---
 title: next-ai-draw-io
-date: 2025-12-05T12:28:50+08:00
+date: 2025-12-06T12:21:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763286056614-0fc228bf7139?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763286056614-0fc228bf7139?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763674038996-c8bbad13b13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763674038996-c8bbad13b13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
 ---
 
 # [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
@@ -91,13 +91,19 @@ Diagrams are represented as XML that can be rendered in draw.io. The AI processe
 ## Multi-Provider Support
 
 -   AWS Bedrock (default)
--   OpenAI / OpenAI-compatible APIs (via `OPENAI_BASE_URL`)
+-   OpenAI
 -   Anthropic
 -   Google AI
 -   Azure OpenAI
 -   Ollama
 -   OpenRouter
 -   DeepSeek
+
+All providers except AWS Bedrock and OpenRouter support custom endpoints.
+
+📖 **[Detailed Provider Configuration Guide](./docs/ai-providers.md)** - See setup instructions for each provider.
+
+**Model Requirements**: This task requires strong model capabilities for generating long-form text with strict formatting constraints (draw.io XML). Recommended models include Claude Sonnet 4.5, GPT-4o, Gemini 2.0, and DeepSeek V3/R1.
 
 Note that `claude-sonnet-4-5` has trained on draw.io diagrams with AWS logos, so if you want to create AWS architecture diagrams, this is the best choice.
 
@@ -153,8 +159,11 @@ Edit `.env.local` and configure your chosen provider:
 -   Set `AI_PROVIDER` to your chosen provider (bedrock, openai, anthropic, google, azure, ollama, openrouter, deepseek)
 -   Set `AI_MODEL` to the specific model you want to use
 -   Add the required API keys for your provider
+-   `ACCESS_CODE_LIST`: Optional access password(s), can be comma-separated for multiple passwords.
 
-See the [Multi-Provider Support](#multi-provider-support) section above for provider-specific configuration examples.
+> Warning: If you do not set `ACCESS_CODE_LIST`, anyone can access your deployed site directly, which may lead to rapid depletion of your token. It is recommended to set this option.
+
+See the [Provider Configuration Guide](./docs/ai-providers.md) for detailed setup instructions for each provider.
 
 4. Run the development server:
 

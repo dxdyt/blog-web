@@ -1,9 +1,9 @@
 ---
 title: social-engineer-toolkit
-date: 2025-12-05T12:29:33+08:00
+date: 2025-12-06T12:21:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762382745293-2f6ef0c23e1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762382745293-2f6ef0c23e1a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1761792363126-9355048c908c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1761792363126-9355048c908c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
 ---
 
 # [trustedsec/social-engineer-toolkit](https://github.com/trustedsec/social-engineer-toolkit)
