@@ -1,9 +1,9 @@
 ---
 title: react
-date: 2025-12-06T12:22:00+08:00
+date: 2025-12-07T12:32:59+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764712754791-8627ebded3f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764712754791-8627ebded3f6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764377850160-d6250764116f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764377850160-d6250764116f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [facebook/react](https://github.com/facebook/react)

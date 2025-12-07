@@ -1,9 +1,9 @@
 ---
 title: bun
-date: 2025-12-06T12:22:41+08:00
+date: 2025-12-07T12:32:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763641683842-3b4f09950d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763641683842-3b4f09950d67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762952517610-8d647cabd71c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762952517610-8d647cabd71c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [oven-sh/bun](https://github.com/oven-sh/bun)

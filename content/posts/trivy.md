@@ -1,9 +1,9 @@
 ---
 title: trivy
-date: 2025-10-02T12:21:33+08:00
+date: 2025-12-07T12:33:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757167301209-5c32b26380ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkzNzg4MjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757167301209-5c32b26380ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTkzNzg4MjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762952517610-8d647cabd71c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762952517610-8d647cabd71c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [aquasecurity/trivy](https://github.com/aquasecurity/trivy)
@@ -63,9 +63,9 @@ Trivy is integrated with many popular platforms and applications. The complete l
 - See [Ecosystem] for more
 
 ### Canary builds
-There are canary builds ([Docker Hub](https://hub.docker.com/r/aquasec/trivy/tags?page=1&name=canary), [GitHub](https://github.com/aquasecurity/trivy/pkgs/container/trivy/75776514?tag=canary), [ECR](https://gallery.ecr.aws/aquasecurity/trivy#canary) images and [binaries](https://github.com/aquasecurity/trivy/actions/workflows/canary.yaml)) as generated every push to main branch.
+There are canary builds ([Docker Hub](https://hub.docker.com/r/aquasec/trivy/tags?page=1&name=canary), [GitHub](https://github.com/aquasecurity/trivy/pkgs/container/trivy/75776514?tag=canary), [ECR](https://gallery.ecr.aws/aquasecurity/trivy#canary) images and [binaries](https://github.com/aquasecurity/trivy/actions/workflows/canary.yaml)) generated with every push to the main branch.
 
-Please be aware: canary builds might have critical bugs, it's not recommended for use in production.
+Please be aware: canary builds might have critical bugs, so they are not recommended for use in production.
 
 ### General usage
 
@@ -117,7 +117,7 @@ trivy k8s --report summary cluster
 ## Want more? Check out Aqua
 
 If you liked Trivy, you will love Aqua which builds on top of Trivy to provide even more enhanced capabilities for a complete security management offering.  
-You can find a high level comparison table specific to Trivy users [here](https://trivy.dev/latest/commercial/compare/).
+You can find a high level comparison table specific to Trivy users [here](https://trivy.dev/docs/latest/commercial/compare/).
 In addition check out the <https://aquasec.com> website for more information about our products and services.
 If you'd like to contact Aqua or request a demo, please use this form: <https://www.aquasec.com/demo>
 
@@ -140,13 +140,13 @@ Please ensure to abide by our [Code of Conduct][code-of-conduct] during all inte
 [license]: https://github.com/aquasecurity/trivy/blob/main/LICENSE
 [license-img]: https://img.shields.io/badge/License-Apache%202.0-blue.svg
 [homepage]: https://trivy.dev
-[docs]: https://trivy.dev/latest/docs/
+[docs]: https://trivy.dev/docs/latest/
 [pronunciation]: #how-to-pronounce-the-name-trivy
 [code-of-conduct]: https://github.com/aquasecurity/community/blob/main/CODE_OF_CONDUCT.md
 
-[Installation]:https://trivy.dev/latest/getting-started/installation/
-[Ecosystem]: https://trivy.dev/latest/ecosystem/
-[Scanning Coverage]: https://trivy.dev/latest/docs/coverage/
+[Installation]:https://trivy.dev/docs/latest/getting-started/installation/
+[Ecosystem]: https://trivy.dev/docs/latest/ecosystem/
+[Scanning Coverage]: https://trivy.dev/docs/latest/coverage/
 
 [alpine]: https://ariadne.space/2021/06/08/the-vulnerability-remediation-lifecycle-of-alpine-containers/
 [rego]: https://www.openpolicyagent.org/docs/latest/#rego

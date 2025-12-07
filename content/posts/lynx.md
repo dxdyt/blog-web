@@ -1,9 +1,9 @@
 ---
 title: lynx
-date: 2025-12-05T12:30:00+08:00
+date: 2025-12-07T12:33:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763634048525-5ca118fe6c05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763634048525-5ca118fe6c05?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762243794427-5036b3c54bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762243794427-5036b3c54bc2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
 ---
 
 # [lynx-family/lynx](https://github.com/lynx-family/lynx)
