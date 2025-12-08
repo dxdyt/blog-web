@@ -1,9 +1,9 @@
 ---
 title: rustfs
-date: 2025-12-07T12:32:09+08:00
+date: 2025-12-08T12:33:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762526212509-e8fff5e86c33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762526212509-e8fff5e86c33?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1742201876600-fbb37a2ff6ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1742201876600-fbb37a2ff6ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
 ---
 
 # [rustfs/rustfs](https://github.com/rustfs/rustfs)

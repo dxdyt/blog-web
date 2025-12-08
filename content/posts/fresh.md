@@ -1,9 +1,9 @@
 ---
 title: fresh
-date: 2025-12-07T12:32:26+08:00
+date: 2025-12-08T12:34:13+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764693756851-10ef8825a787?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764693756851-10ef8825a787?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUwODE5MTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762770647310-66f492eb832f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762770647310-66f492eb832f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
 ---
 
 # [sinelaw/fresh](https://github.com/sinelaw/fresh)
