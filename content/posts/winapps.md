@@ -1,9 +1,9 @@
 ---
 title: winapps
-date: 2025-10-10T12:22:54+08:00
+date: 2025-12-09T12:28:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758887371504-6473fa9ff96b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758887371504-6473fa9ff96b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjAwNzAwNjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763432867078-bf448168382f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763432867078-bf448168382f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [winapps-org/winapps](https://github.com/winapps-org/winapps)
@@ -160,7 +160,15 @@ Contributing to the list of supported applications is encouraged through submiss
             <b>Affinity Publisher 2</b><br>
             <i><a href="https://commons.wikimedia.org/wiki/File:Affinity_Publisher_V2_icon.svg">Icon</a> under CC-BY-SA 4.0 via Serif Ltd.</i>
         </td>
-    <tr>
+        <tr>
+        <!-- Affinity by Canva (v3)-->
+        <td>
+            <img src="apps/affinity/icon.svg" width="100">
+        </td>
+            <td>
+            <b>Affinity by Canva (v3)</b><br>
+            <i><a href="https://commons.wikimedia.org/wiki/File:Affinity_(App)_Logo.svg">Icon</a> in the Public Domain.</i>
+        </td>
         <!-- Command Prompt -->
         <td>
             <img src="apps/cmd/icon.svg" width="100">
@@ -170,6 +178,8 @@ Contributing to the list of supported applications is encouraged through submiss
             (cmd.exe)<br>
             <i><a href="https://github.com/microsoft/terminal/blob/main/res/terminal/Terminal.svg">Icon</a> under <a href="https://github.com/microsoft/terminal/blob/main/LICENSE">MIT license</a>.</i>
         </td>
+    </tr>
+    <tr>
         <!-- File Explorer -->
         <td>
             <img src="apps/explorer/icon.svg" width="100">
@@ -177,10 +187,8 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>File Explorer</b><br>
             (Windows Explorer)<br>
-            <i><a href="https://commons.wikimedia.org/wiki/File:Windows_Explorer.svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_PowerToys-Logo_File_Explorer_Preview_02.svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Internet Explorer -->
         <td>
             <img src="apps/iexplorer/icon.svg" width="100">
@@ -190,6 +198,8 @@ Contributing to the list of supported applications is encouraged through submiss
             (11)<br>
             <i><a href="https://commons.wikimedia.org/wiki/File:Internet_Explorer_10%2B11_logo.svg">Icon</a> in the Public Domain.</i>
         </td>
+    </tr>
+    <tr>
          <!-- Microsoft Access -->
         <td>
             <img src="apps/access/icon.svg" width="100">
@@ -197,10 +207,8 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>Microsoft Access</b><br>
             (2016, 2019, o365)<br>
-            <i><a href="https://commons.wikimedia.org/wiki/File:Microsoft_Office_Access_(2019-present).svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_Office_Access_(2025-present).svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Microsoft Excel -->
         <td>
             <img src="apps/excel/icon.svg" width="100">
@@ -208,8 +216,10 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>Microsoft Excel</b><br>
             (2016, 2019, o365)<br>
-            <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_Excel_(2019%E2%80%93present).svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_Office_Excel_(2025–present).svg">Icon</a> in the Public Domain.</i>
         </td>
+    </tr>
+    <tr>
         <!-- Microsoft Word -->
         <td>
             <img src="apps/word/icon.svg" width="100">
@@ -217,10 +227,8 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>Microsoft Word</b><br>
             (2016, 2019, o365)<br>
-            <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_Word_(2019%E2%80%93present).svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_Office_Word_(2025–present).svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Microsoft OneNote -->
         <td>
             <img src="apps/onenote/icon.svg" width="100">
@@ -228,8 +236,10 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>Microsoft OneNote</b><br>
             (2016, 2019, o365)<br>
-            <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_OneNote_(2019%E2%80%93present).svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_OneNote_Icon_(2025_-_present).svg">Icon</a> in the Public Domain.</i>
         </td>
+    </tr>
+    <tr>
         <!-- Microsoft Outlook -->
         <td>
             <img src="apps/outlook/icon.svg" width="100">
@@ -237,10 +247,8 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>Microsoft Outlook</b><br>
             (2016, 2019, o365)<br>
-            <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_Outlook_(2018%E2%80%93present).svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_Outlook_Icon_(2025–present).svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Microsoft PowerPoint -->
         <td>
             <img src="apps/powerpoint/icon.svg" width="100">
@@ -248,8 +256,10 @@ Contributing to the list of supported applications is encouraged through submiss
         <td>
             <b>Microsoft PowerPoint</b><br>
             (2016, 2019, o365)<br>
-            <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_PowerPoint_(2019%E2%80%93present).svg">Icon</a> in the Public Domain.</i>
+            <i><a href="https://en.wikipedia.org/wiki/File:Microsoft_Office_PowerPoint_(2025–present).svg">Icon</a> in the Public Domain.</i>
             </td>
+    </tr>
+    <tr>
         <!-- Microsoft Publisher -->
         <td>
             <img src="apps/publisher/icon.svg" width="100">
@@ -259,8 +269,6 @@ Contributing to the list of supported applications is encouraged through submiss
             (2016, 2019, o365)<br>
             <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_Publisher_(2019-present).svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Microsoft Visio -->
         <td>
             <img src="apps/visio/icon.svg" width="100">
@@ -270,6 +278,8 @@ Contributing to the list of supported applications is encouraged through submiss
             (Standard/Pro. 2021, Plan 2)<br>
             <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Office_Visio_(2019).svg">Icon</a> in the Public Domain.</i>
         </td>
+    </tr>
+    <tr>
         <!-- Microsoft Project -->
         <td>
             <img src="apps/project/icon.svg" width="100">
@@ -279,8 +289,6 @@ Contributing to the list of supported applications is encouraged through submiss
             (Standard/Pro. 2021, Plan 3/5)<br>
             <i><a href="https://en.m.wikipedia.org/wiki/File:Microsoft_Project_(2019–present).svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Microsoft Visual Studio -->
         <td>
             <img src="apps/visual-studio-pro/icon.svg" width="100">
@@ -290,6 +298,8 @@ Contributing to the list of supported applications is encouraged through submiss
             (Comm./Pro./Ent. 2022)<br>
             <i><a href="https://en.m.wikipedia.org/wiki/File:Visual_Studio_Icon_2022.svg">Icon</a> in the Public Domain.</i>
         </td>
+    </tr>
+    <tr>
         <!-- Autodesk Fusion 360 -->
         <td>
             <img src="apps/fusion-360/icon.svg" width="100">
@@ -298,8 +308,6 @@ Contributing to the list of supported applications is encouraged through submiss
             <b>Autodesk Fusion 360</b><br>
             <i><a href="https://commons.wikimedia.org/wiki/File:Fusion360_Logo.svg">Icon</a> in the Public Domain.</i>
         </td>
-    </tr>
-    <tr>
         <!-- mIRC -->
         <td>
             <img src="apps/mirc/icon.svg" width="100">
@@ -308,6 +316,8 @@ Contributing to the list of supported applications is encouraged through submiss
             <b>mIRC</b><br>
             <i><a href="https://en.wikipedia.org/wiki/MIRC#/media/File:Mircnewlogo.png">Icon</a> in the Public Domain.</i>
         </td>
+    </tr>
+    <tr>
         <!-- PowerShell -->
         <td>
             <img src="apps/powershell/icon.svg" width="100">
@@ -316,8 +326,6 @@ Contributing to the list of supported applications is encouraged through submiss
             <b>PowerShell</b><br>
             <i><a href="https://iconduck.com/icons/102322/file-type-powershell">Icon</a> under <a href="https://iconduck.com/licenses/mit">MIT license</a>.</i>
         </td>
-    </tr>
-    <tr>
         <!-- Windows -->
         <td>
             <img src="install/windows.svg" width="100">
@@ -554,13 +562,13 @@ HIDEF="on"
 1. Test establishing an RDP session by running the following command, replacing the `/u:`, `/p:`, and `/v:` values with the correct values specified in `~/.config/winapps/winapps.conf`.
 
     ```bash
-    xfreerdp3 /u:"Your Windows Username" /p:"Your Windows Password" /v:192.168.122.2 /cert:tofu
+    xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
 
     # Or, if you are using Podman
-    podman unshare --rootless-netns xfreerdp3 /u:"Your Windows Username" /p:"Your Windows Password" /v:127.0.0.1 /cert:tofu
+    podman unshare --rootless-netns xfreerdp3 /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
 
     # Or, if you installed FreeRDP using Flatpak
-    flatpak run --command=xfreerdp com.freerdp.FreeRDP /u:"Your Windows Username" /p:"Your Windows Password" /v:192.168.122.2 /cert:tofu
+    flatpak run --command=xfreerdp com.freerdp.FreeRDP /u:"MyWindowsUser" /p:"MyWindowsPassword" /v:127.0.0.1 /cert:tofu
     ```
 
     - Please note that the correct `FreeRDP` command may vary depending on your system (e.g. `xfreerdp`, `xfreerdp3`, etc.).

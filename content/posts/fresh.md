@@ -1,9 +1,9 @@
 ---
 title: fresh
-date: 2025-12-08T12:34:13+08:00
+date: 2025-12-09T12:28:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762770647310-66f492eb832f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762770647310-66f492eb832f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762545611539-df4e46e7747e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762545611539-df4e46e7747e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [sinelaw/fresh](https://github.com/sinelaw/fresh)
@@ -24,9 +24,9 @@ Fresh is designed for discovery. It features native UIs, a full Menu system, and
 
 Extend Fresh easily using modern tools. Plugins are written in TypeScript and run securely in a sandboxed Deno environment, providing access to a modern JavaScript ecosystem without compromising stability.
 
-## Zero-Latency Performance
+## Low-Latency Performance
 
-Fresh is engineered for speed. It delivers a near zero-latency experience, with text appearing instantly. The editor is designed to be light and fast, reliably opening and editing huge files up to multi-gigabyte sizes without slowdown.
+Fresh is engineered for speed. It delivers a low-latency experience, with text appearing instantly. The editor is designed to be light and fast, reliably opening and editing [huge files up to multi-gigabyte sizes](https://noamlewis.com/blog/2025/12/09/how-fresh-loads-huge-files-fast) without slowdown.
 
 ## Comprehensive Feature Set
 

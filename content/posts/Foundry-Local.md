@@ -1,9 +1,9 @@
 ---
 title: Foundry-Local
-date: 2025-12-08T12:34:05+08:00
+date: 2025-12-09T12:29:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763351866520-a9e3d5489eb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763351866520-a9e3d5489eb6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUxNjgzNzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762912302731-508b4580735f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762912302731-508b4580735f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/Foundry-Local](https://github.com/microsoft/Foundry-Local)
