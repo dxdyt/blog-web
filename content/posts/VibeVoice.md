@@ -1,9 +1,9 @@
 ---
 title: VibeVoice
-date: 2025-12-09T12:28:04+08:00
+date: 2025-12-11T12:35:18+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762532985317-d2966b83272c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762532985317-d2966b83272c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764806359224-4aa8a23dc66b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764806359224-4aa8a23dc66b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
 ---
 
 # [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)

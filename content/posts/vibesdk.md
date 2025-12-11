@@ -1,9 +1,9 @@
 ---
 title: vibesdk
-date: 2025-12-09T12:28:41+08:00
+date: 2025-12-11T12:35:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763315152539-06fc234b526c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763315152539-06fc234b526c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762423780504-bb663dd65a9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762423780504-bb663dd65a9d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
 ---
 
 # [cloudflare/vibesdk](https://github.com/cloudflare/vibesdk)
