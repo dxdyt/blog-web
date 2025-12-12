@@ -1,9 +1,9 @@
 ---
 title: kaiju
-date: 2025-12-11T12:34:44+08:00
+date: 2025-12-12T12:33:49+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763674038996-c8bbad13b13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763674038996-c8bbad13b13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765109834602-e5d71887cb0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765109834602-e5d71887cb0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
 ---
 
 # [KaijuEngine/kaiju](https://github.com/KaijuEngine/kaiju)
