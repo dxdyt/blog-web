@@ -1,9 +1,9 @@
 ---
 title: agent-starter-pack
-date: 2025-12-12T12:34:53+08:00
+date: 2025-12-13T12:26:31+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762545611539-df4e46e7747e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762545611539-df4e46e7747e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763200003204-45fddc70f02b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763200003204-45fddc70f02b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
 ---
 
 # [GoogleCloudPlatform/agent-starter-pack](https://github.com/GoogleCloudPlatform/agent-starter-pack)
@@ -124,6 +124,8 @@ This starter pack covers all aspects of Agent development, from prototyping and 
 ## 📚 Documentation
 
 Visit our [documentation site](https://googlecloudplatform.github.io/agent-starter-pack/) for comprehensive guides and references!
+
+🔍 **New to the codebase?** Explore the [CodeWiki](https://codewiki.google/github.com/googlecloudplatform/agent-starter-pack) for AI-powered code understanding and navigation.
 
 - [Getting Started Guide](https://googlecloudplatform.github.io/agent-starter-pack/guide/getting-started) - First steps with agent-starter-pack
 - [Installation Guide](https://googlecloudplatform.github.io/agent-starter-pack/guide/installation) - Setting up your environment

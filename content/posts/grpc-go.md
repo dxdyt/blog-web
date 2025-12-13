@@ -1,9 +1,9 @@
 ---
 title: grpc-go
-date: 2025-09-14T12:20:20+08:00
+date: 2025-12-13T12:27:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757323149313-7c3f35bf646d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTc4MjM1OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1755808598910-7992a34d325a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1755808598910-7992a34d325a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
 ---
 
 # [grpc/grpc-go](https://github.com/grpc/grpc-go)

@@ -1,9 +1,9 @@
 ---
 title: next-ai-draw-io
-date: 2025-12-06T12:21:53+08:00
+date: 2025-12-13T12:27:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763674038996-c8bbad13b13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763674038996-c8bbad13b13b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
 ---
 
 # [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)
@@ -14,31 +14,44 @@ featuredImagePreview: https://images.unsplash.com/photo-1763674038996-c8bbad13b1
 
 **AI-Powered Diagram Creation Tool - Chat, Draw, Visualize**
 
-English | [中文](./README_CN.md) | [日本語](./README_JA.md)
+English | [中文](./docs/README_CN.md) | [日本語](./docs/README_JA.md)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Next.js](https://img.shields.io/badge/Next.js-15.x-black)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue)](https://www.typescriptlang.org/)
+[![TrendShift](https://trendshift.io/api/badge/repositories/15449)](https://next-ai-drawio.jiang.jp/)
+
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Next.js](https://img.shields.io/badge/Next.js-16.x-black)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.x-61dafb)](https://react.dev/)
 [![Sponsor](https://img.shields.io/badge/Sponsor-❤-ea4aaa)](https://github.com/sponsors/DayuanJiang)
 
-[🚀 Live Demo](https://next-ai-drawio.jiang.jp/)
+[![Live Demo](./public/live-demo-button.svg)](https://next-ai-drawio.jiang.jp/)
 
 </div>
 
 A Next.js web application that integrates AI capabilities with draw.io diagrams. Create, modify, and enhance diagrams through natural language commands and AI-assisted visualization.
 
-https://github.com/user-attachments/assets/b2eef5f3-b335-4e71-a755-dc2e80931979
 
-## Features
 
--   **LLM-Powered Diagram Creation**: Leverage Large Language Models to create and manipulate draw.io diagrams directly through natural language commands
--   **Image-Based Diagram Replication**: Upload existing diagrams or images and have the AI replicate and enhance them automatically
--   **Diagram History**: Comprehensive version control that tracks all changes, allowing you to view and restore previous versions of your diagrams before the AI editing.
--   **Interactive Chat Interface**: Communicate with AI to refine your diagrams in real-time
--   **AWS Architecture Diagram Support**: Specialized support for generating AWS architecture diagrams
--   **Animated Connectors**: Create dynamic and animated connectors between diagram elements for better visualization
+https://github.com/user-attachments/assets/9d60a3e8-4a1c-4b5e-acbb-26af2d3eabd1
 
-## **Examples**
+
+
+## Table of Contents
+- [Next AI Draw.io ](#next-ai-drawio-)
+  - [Table of Contents](#table-of-contents)
+  - [Examples](#examples)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Try it Online](#try-it-online)
+    - [Run with Docker (Recommended)](#run-with-docker-recommended)
+    - [Installation](#installation)
+  - [Deployment](#deployment)
+  - [Multi-Provider Support](#multi-provider-support)
+  - [How It Works](#how-it-works)
+  - [Project Structure](#project-structure)
+  - [Support \& Contact](#support--contact)
+  - [Star History](#star-history)
+
+## Examples
 
 Here are some example prompts and their generated diagrams:
 
@@ -78,36 +91,28 @@ Here are some example prompts and their generated diagrams:
 </table>
 </div>
 
-## How It Works
+## Features
 
-The application uses the following technologies:
-
--   **Next.js**: For the frontend framework and routing
--   **Vercel AI SDK** (`ai` + `@ai-sdk/*`): For streaming AI responses and multi-provider support
--   **react-drawio**: For diagram representation and manipulation
-
-Diagrams are represented as XML that can be rendered in draw.io. The AI processes your commands and generates or modifies this XML accordingly.
-
-## Multi-Provider Support
-
--   AWS Bedrock (default)
--   OpenAI
--   Anthropic
--   Google AI
--   Azure OpenAI
--   Ollama
--   OpenRouter
--   DeepSeek
-
-All providers except AWS Bedrock and OpenRouter support custom endpoints.
-
-📖 **[Detailed Provider Configuration Guide](./docs/ai-providers.md)** - See setup instructions for each provider.
-
-**Model Requirements**: This task requires strong model capabilities for generating long-form text with strict formatting constraints (draw.io XML). Recommended models include Claude Sonnet 4.5, GPT-4o, Gemini 2.0, and DeepSeek V3/R1.
-
-Note that `claude-sonnet-4-5` has trained on draw.io diagrams with AWS logos, so if you want to create AWS architecture diagrams, this is the best choice.
+-   **LLM-Powered Diagram Creation**: Leverage Large Language Models to create and manipulate draw.io diagrams directly through natural language commands
+-   **Image-Based Diagram Replication**: Upload existing diagrams or images and have the AI replicate and enhance them automatically
+-   **PDF & Text File Upload**: Upload PDF documents and text files to extract content and generate diagrams from existing documents
+-   **AI Reasoning Display**: View the AI's thinking process for supported models (OpenAI o1/o3, Gemini, Claude, etc.)
+-   **Diagram History**: Comprehensive version control that tracks all changes, allowing you to view and restore previous versions of your diagrams before the AI editing.
+-   **Interactive Chat Interface**: Communicate with AI to refine your diagrams in real-time
+-   **Cloud Architecture Diagram Support**: Specialized support for generating cloud architecture diagrams (AWS, GCP, Azure)
+-   **Animated Connectors**: Create dynamic and animated connectors between diagram elements for better visualization
 
 ## Getting Started
+
+### Try it Online
+
+No installation needed! Try the app directly on our demo site:
+
+[![Live Demo](./public/live-demo-button.svg)](https://next-ai-drawio.jiang.jp/)
+
+> Note: Due to high traffic, the demo site currently uses minimax-m2. For best results, we recommend self-hosting with Claude Sonnet 4.5 or Claude Opus 4.5.
+
+> **Bring Your Own API Key**: You can use your own API key to bypass usage limits on the demo site. Click the Settings icon in the chat panel to configure your provider and API key. Your key is stored locally in your browser and is never stored on the server.
 
 ### Run with Docker (Recommended)
 
@@ -125,9 +130,19 @@ docker run -d -p 3000:3000 \
   ghcr.io/dayuanjiang/next-ai-draw-io:latest
 ```
 
+Or use an env file:
+
+```bash
+cp env.example .env
+# Edit .env with your configuration
+docker run -d -p 3000:3000 --env-file .env ghcr.io/dayuanjiang/next-ai-draw-io:latest
+```
+
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 Replace the environment variables with your preferred AI provider configuration. See [Multi-Provider Support](#multi-provider-support) for available options.
+
+> **Offline Deployment:** If `embed.diagrams.net` is blocked, see [Offline Deployment](./docs/offline-deployment.md) for configuration options.
 
 ### Installation
 
@@ -142,8 +157,6 @@ cd next-ai-draw-io
 
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. Configure your AI provider:
@@ -156,9 +169,10 @@ cp env.example .env.local
 
 Edit `.env.local` and configure your chosen provider:
 
--   Set `AI_PROVIDER` to your chosen provider (bedrock, openai, anthropic, google, azure, ollama, openrouter, deepseek)
+-   Set `AI_PROVIDER` to your chosen provider (bedrock, openai, anthropic, google, azure, ollama, openrouter, deepseek, siliconflow)
 -   Set `AI_MODEL` to the specific model you want to use
 -   Add the required API keys for your provider
+-   `TEMPERATURE`: Optional temperature setting (e.g., `0` for deterministic output). Leave unset for models that don't support it (e.g., reasoning models).
 -   `ACCESS_CODE_LIST`: Optional access password(s), can be comma-separated for multiple passwords.
 
 > Warning: If you do not set `ACCESS_CODE_LIST`, anyone can access your deployed site directly, which may lead to rapid depletion of your token. It is recommended to set this option.
@@ -184,6 +198,38 @@ Or you can deploy by this button.
 
 Be sure to **set the environment variables** in the Vercel dashboard as you did in your local `.env.local` file.
 
+
+## Multi-Provider Support
+
+-   AWS Bedrock (default)
+-   OpenAI
+-   Anthropic
+-   Google AI
+-   Azure OpenAI
+-   Ollama
+-   OpenRouter
+-   DeepSeek
+-   SiliconFlow
+
+All providers except AWS Bedrock and OpenRouter support custom endpoints.
+
+📖 **[Detailed Provider Configuration Guide](./docs/ai-providers.md)** - See setup instructions for each provider.
+
+**Model Requirements**: This task requires strong model capabilities for generating long-form text with strict formatting constraints (draw.io XML). Recommended models include Claude Sonnet 4.5, GPT-5.1, Gemini 3 Pro, and DeepSeek V3.2/R1.
+
+Note that `claude` series has trained on draw.io diagrams with cloud architecture logos like AWS, Azue, GCP. So if you want to create cloud architecture diagrams, this is the best choice.
+
+
+## How It Works
+
+The application uses the following technologies:
+
+-   **Next.js**: For the frontend framework and routing
+-   **Vercel AI SDK** (`ai` + `@ai-sdk/*`): For streaming AI responses and multi-provider support
+-   **react-drawio**: For diagram representation and manipulation
+
+Diagrams are represented as XML that can be rendered in draw.io. The AI processes your commands and generates or modifies this XML accordingly.
+
 ## Project Structure
 
 ```
@@ -202,14 +248,6 @@ lib/                  # Utility functions and helpers
   utils.ts            # XML processing and conversion utilities
 public/               # Static assets including example images
 ```
-
-## TODOs
-
--   [x] Allow the LLM to modify the XML instead of generating it from scratch everytime.
--   [x] Improve the smoothness of shape streaming updates.
--   [x] Add multiple AI provider support (OpenAI, Anthropic, Google, Azure, Ollama)
--   [x] Solve the bug that generation will fail for session that longer than 60s.
--   [ ] Add API config on the UI.
 
 ## Support & Contact
 

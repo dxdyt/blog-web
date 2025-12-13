@@ -1,9 +1,9 @@
 ---
 title: hello-agents
-date: 2025-12-11T12:35:13+08:00
+date: 2025-12-13T12:26:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764806359224-4aa8a23dc66b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764806359224-4aa8a23dc66b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU0Mjc2NzN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763200003204-45fddc70f02b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763200003204-45fddc70f02b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
 ---
 
 # [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
@@ -164,7 +164,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1764806359224-4aa8a23dc6
 ## Star History
 
 <div align='center'>
-    <img src="./docs/images/star-history-20251211.png" alt="Datawhale" width="90%">
+    <img src="./docs/images/star-history-20251212.png" alt="Datawhale" width="90%">
 </div>
 
 <div align="center">

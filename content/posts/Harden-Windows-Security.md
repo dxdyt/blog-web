@@ -1,9 +1,9 @@
 ---
 title: Harden-Windows-Security
-date: 2025-12-12T12:34:27+08:00
+date: 2025-12-13T12:26:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765109834602-e5d71887cb0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765109834602-e5d71887cb0d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
 ---
 
 # [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
