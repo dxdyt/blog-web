@@ -1,9 +1,9 @@
 ---
 title: WeKnora
-date: 2025-12-12T12:33:33+08:00
+date: 2025-12-14T12:35:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763257434725-1cd1327f2185?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763257434725-1cd1327f2185?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1MTM5OTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764471243156-5709bb76c7c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764471243156-5709bb76c7c8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [Tencent/WeKnora](https://github.com/Tencent/WeKnora)
@@ -14,6 +14,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1763257434725-1cd1327f21
   </picture>
 </p>
 
+<p align="center">
+  <picture>
+    <a href="https://trendshift.io/repositories/15289" target="_blank">
+      <img src="https://trendshift.io/api/badge/repositories/15289" alt="Tencent%2FWeKnora | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
+    </a>
+  </picture>
+</p>
 <p align="center">
     <a href="https://weknora.weixin.qq.com" target="_blank">
         <img alt="官方网站" src="https://img.shields.io/badge/官方网站-WeKnora-4e6b99">

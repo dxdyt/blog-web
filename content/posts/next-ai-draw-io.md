@@ -1,9 +1,9 @@
 ---
 title: next-ai-draw-io
-date: 2025-12-13T12:27:00+08:00
+date: 2025-12-14T12:35:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763415364262-1ec086926326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763415364262-1ec086926326?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [DayuanJiang/next-ai-draw-io](https://github.com/DayuanJiang/next-ai-draw-io)

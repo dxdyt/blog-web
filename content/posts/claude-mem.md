@@ -1,9 +1,9 @@
 ---
 title: claude-mem
-date: 2025-12-13T12:25:58+08:00
+date: 2025-12-14T12:35:38+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763037152018-c1ba095c8532?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764957080878-3f9866270aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764957080878-3f9866270aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
@@ -407,6 +407,10 @@ If you're experiencing issues, describe the problem to Claude and the troublesho
 - Search not working → Check FTS5 tables exist
 
 See [Troubleshooting Guide](https://docs.claude-mem.ai/troubleshooting) for complete solutions.
+
+### Windows Known Issues
+
+**Console Window Visibility**: On Windows, a console window may briefly appear when the worker service starts. This is a cosmetic issue that we're working to resolve. We've prioritized stability by removing a workaround that was causing libuv crashes. The window does not affect functionality and will be addressed in a future release when the MCP SDK provides proper window hiding support.
 
 ---
 

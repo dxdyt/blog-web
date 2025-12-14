@@ -1,9 +1,9 @@
 ---
 title: sim
-date: 2025-11-10T12:27:01+08:00
+date: 2025-12-14T12:35:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760132562597-dd9c467cd9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760132562597-dd9c467cd9cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI3NDg3NjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760694533407-6a10714f3b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760694533407-6a10714f3b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [simstudioai/sim](https://github.com/simstudioai/sim)
@@ -23,8 +23,25 @@ featuredImagePreview: https://images.unsplash.com/photo-1760132562597-dd9c467cd9
   <a href="https://docs.sim.ai" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Docs-6F3DFA.svg" alt="Documentation"></a>
 </p>
 
+### Build Workflows with Ease
+Design agent workflows visually on a canvas—connect agents, tools, and blocks, then run them instantly.
+
 <p align="center">
-  <img src="apps/sim/public/static/demo.gif" alt="Sim Demo" width="800"/>
+  <img src="apps/sim/public/static/workflow.gif" alt="Workflow Builder Demo" width="800"/>
+</p>
+
+### Supercharge with Copilot
+Leverage Copilot to generate nodes, fix errors, and iterate on flows directly from natural language.
+
+<p align="center">
+  <img src="apps/sim/public/static/copilot.gif" alt="Copilot Demo" width="800"/>
+</p>
+
+### Integrate Vector Databases
+Upload documents to a vector store and let agents answer questions grounded in your specific content.
+
+<p align="center">
+  <img src="apps/sim/public/static/knowledge.gif" alt="Knowledge Uploads and Retrieval Demo" width="800"/>
 </p>
 
 ## Quickstart
@@ -81,6 +98,36 @@ Wait for the model to download, then visit [http://localhost:3000](http://localh
 ```bash
 docker compose -f docker-compose.ollama.yml exec ollama ollama pull llama3.1:8b
 ```
+
+#### Using an External Ollama Instance
+
+If you already have Ollama running on your host machine (outside Docker), you need to configure the `OLLAMA_URL` to use `host.docker.internal` instead of `localhost`:
+
+```bash
+# Docker Desktop (macOS/Windows)
+OLLAMA_URL=http://host.docker.internal:11434 docker compose -f docker-compose.prod.yml up -d
+
+# Linux (add extra_hosts or use host IP)
+docker compose -f docker-compose.prod.yml up -d  # Then set OLLAMA_URL to your host's IP
+```
+
+**Why?** When running inside Docker, `localhost` refers to the container itself, not your host machine. `host.docker.internal` is a special DNS name that resolves to the host.
+
+For Linux users, you can either:
+- Use your host machine's actual IP address (e.g., `http://192.168.1.100:11434`)
+- Add `extra_hosts: ["host.docker.internal:host-gateway"]` to the simstudio service in your compose file
+
+#### Using vLLM
+
+Sim also supports [vLLM](https://docs.vllm.ai/) for self-hosted models with OpenAI-compatible API:
+
+```bash
+# Set these environment variables
+VLLM_BASE_URL=http://your-vllm-server:8000
+VLLM_API_KEY=your_optional_api_key  # Only if your vLLM instance requires auth
+```
+
+When running with Docker, use `host.docker.internal` if vLLM is on your host machine (same as Ollama above).
 
 ### Self-hosted: Dev Containers
 
@@ -182,6 +229,46 @@ Copilot is a Sim-managed service. To use Copilot on a self-hosted instance:
 
 - Go to https://sim.ai → Settings → Copilot and generate a Copilot API key
 - Set `COPILOT_API_KEY` environment variable in your self-hosted apps/sim/.env file to that value
+
+## Environment Variables
+
+Key environment variables for self-hosted deployments (see `apps/sim/.env.example` for full list):
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+| `DATABASE_URL` | Yes | PostgreSQL connection string with pgvector |
+| `BETTER_AUTH_SECRET` | Yes | Auth secret (`openssl rand -hex 32`) |
+| `BETTER_AUTH_URL` | Yes | Your app URL (e.g., `http://localhost:3000`) |
+| `NEXT_PUBLIC_APP_URL` | Yes | Public app URL (same as above) |
+| `ENCRYPTION_KEY` | Yes | Encryption key (`openssl rand -hex 32`) |
+| `OLLAMA_URL` | No | Ollama server URL (default: `http://localhost:11434`) |
+| `VLLM_BASE_URL` | No | vLLM server URL for self-hosted models |
+| `COPILOT_API_KEY` | No | API key from sim.ai for Copilot features |
+
+## Troubleshooting
+
+### Ollama models not showing in dropdown (Docker)
+
+If you're running Ollama on your host machine and Sim in Docker, change `OLLAMA_URL` from `localhost` to `host.docker.internal`:
+
+```bash
+OLLAMA_URL=http://host.docker.internal:11434 docker compose -f docker-compose.prod.yml up -d
+```
+
+See [Using an External Ollama Instance](#using-an-external-ollama-instance) for details.
+
+### Database connection issues
+
+Ensure PostgreSQL has the pgvector extension installed. When using Docker, wait for the database to be healthy before running migrations.
+
+### Port conflicts
+
+If ports 3000, 3002, or 5432 are in use, configure alternatives:
+
+```bash
+# Custom ports
+NEXT_PUBLIC_APP_URL=http://localhost:3100 POSTGRES_PORT=5433 docker compose up -d
+```
 
 ## Tech Stack
 

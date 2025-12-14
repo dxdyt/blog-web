@@ -1,9 +1,9 @@
 ---
 title: Depixelization_poc
-date: 2025-10-29T12:25:45+08:00
+date: 2025-12-14T12:36:08+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1759430954379-81c2c1d908ee?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3MTE5MTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760694533407-6a10714f3b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760694533407-6a10714f3b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [spipm/Depixelization_poc](https://github.com/spipm/Depixelization_poc)

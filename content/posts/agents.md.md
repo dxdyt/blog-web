@@ -1,9 +1,9 @@
 ---
 title: agents.md
-date: 2025-12-13T12:26:25+08:00
+date: 2025-12-14T12:36:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764764138587-189f22804ec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764764138587-189f22804ec4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU1OTk5NTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1760694533407-6a10714f3b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1760694533407-6a10714f3b65?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
 ---
 
 # [agentsmd/agents.md](https://github.com/agentsmd/agents.md)
