@@ -1,13 +1,12 @@
 ---
 title: HuLa
-date: 2025-10-18T12:20:42+08:00
+date: 2025-12-15T12:40:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760243875175-064c835a0b40?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA3NjEyMDd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757269267586-08a85ed238cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757269267586-08a85ed238cb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
 ---
 
 # [HuLaSpark/HuLa](https://github.com/HuLaSpark/HuLa)
-
 
 <p align="center">
   <img width="350px" height="150px" src="public/hula.png"/>
@@ -98,13 +97,14 @@ featuredImagePreview: https://images.unsplash.com/photo-1760243875175-064c835a0b
 
 ## 🌐 支持平台
 
-| 平台 | 支持版本 |
-|------|---------|
-| Windows | Windows 10, Windows 11 |
-| macOS | macOS 10.5+ |
-| Linux | Ubuntu 22.0+ |
-| iOS/iPadOS | iOS 9.0+, iPadOS 9.0+ |
-| Android | Android 8.0+ |
+| 平台    | 支持版本                             |
+| ------- | ------------------------------------ |
+| Windows | Windows 10, Windows 11               |
+| macOS   | macOS 10.5+ Mac26已支持               |
+| Linux   | Ubuntu 22.0+                         |
+| iOS     | iOS 9.0+ (iOS26 真机已支持， Tauri不支持Intel芯片在ios26模拟器上运行) |
+| Android | Android 12+ (SDK30+)                 |
+| Web     | ⚠️暂不支持(需要自定义移除对桌面功能) |
 
 ## 📝 项目介绍
 
@@ -124,66 +124,58 @@ HuLa 是一款基于 Tauri、Vite 7、Vue 3 和 TypeScript 构建的即时通讯
 </div>
 
 <!-- 主界面展示 -->
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="preview/img.png" alt="主界面" width="400" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 8px;">
-      <br><em>💬 主聊天界面</em>
-    </td>
-    <td align="center">
-      <img src="preview/img_1.png" alt="聊天界面" width="400" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 8px;">
-      <br><em>🗨️ 聊天对话界面</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="preview/img_2.png" alt="联系人界面" width="400" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 8px;">
-      <br><em>😊 表情包选择</em>
-    </td>
-    <td align="center">
-      <img src="preview/img_3.png" alt="设置界面" width="400" style="border-radius: 12px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); margin: 8px;">
-      <br><em>⚙️ 系统设置</em>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-<!-- 功能特性展示 -->
 <div align="center">
-  <h4>🌟 功能特性</h4>
+  <h4>PC端界面展示，有其他功能未在介绍截图内，请自行下载体验 🙏</h4>
 </div>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="preview/img_4.png" alt="消息功能" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
-      <br><em>📱 消息多样化</em>
-    </td>
-    <td align="center">
-      <img src="preview/img_5.png" alt="主题切换" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
-      <br><em>🎨 状态切换</em>
-    </td>
-    <td align="center">
-      <img src="preview/img_6.png" alt="表情包" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
-      <br><em> 📷 图片查看</em>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="preview/img_7.png" alt="群聊管理" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
-      <br><em>👥 群聊管理</em>
-    </td>
-    <td align="center">
-      <img src="preview/img_8.png" alt="个人设置" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
-      <br><em>🤖 ChatBot 插件功能</em>
-    </td>
-    <td align="center">
-      <img src="preview/img_9.png" alt="文件传输" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
-      <br><em>🤖 ChatBot 设置页面</em>
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="preview/img2-1.webp" alt="img2-1" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-2.webp" alt="img2-2" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-3.webp" alt="img2-3" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-4.webp" alt="img2-4" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-5.webp" alt="img2-5" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-6.webp" alt="img2-6" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-7.webp" alt="img2-7" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-8.webp" alt="img2-8" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-9.webp" alt="img2-9" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-10.webp" alt="img2-10" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-11.webp" alt="img2-11" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-12.webp" alt="img2-12" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-13.webp" alt="img2-13" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-14.webp" alt="img2-14" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img2-15.webp" alt="img2-15" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="preview/img.png" alt="img-主界面" width="280" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img_1.png" alt="img-聊天对话" width="280" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img_2.png" alt="img-联系人" width="280" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img_3.png" alt="img-设置界面" width="280" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img_4.png" alt="消息功能" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
+  <img src="preview/img_5.png" alt="主题切换" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
+  <img src="preview/img_6.png" alt="表情包" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
+  <img src="preview/img_7.png" alt="群聊管理" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
+  <img src="preview/img_8.png" alt="个人设置" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
+  <img src="preview/img_9.png" alt="文件传输" width="280" style="border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.1); margin: 6px;">
+</div>
+
+<div align="center">
+  <h4>移动端界面展示</h4>
+</div>
+
+<div align="center">
+  <img src="preview/img3-1.webp" alt="img3-1" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img3-2.webp" alt="img3-2" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img3-3.webp" alt="img3-3" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img3-4.webp" alt="img3-4" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img3-5.webp" alt="img3-5" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img3-6.webp" alt="img3-6" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+  <img src="preview/img3-7.webp" alt="img3-6" width="220" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 8px;">
+</div>
+
+<br>
 
 ## ✨ 功能特性
 
@@ -191,77 +183,109 @@ HuLa 是一款基于 Tauri、Vite 7、Vue 3 和 TypeScript 构建的即时通讯
   <h3>🎯 开发进度一览</h3>
 </div>
 
-
 ### 🔐 用户认证系统
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| 🔑 | 账号密码登录 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📱 | 二维码扫码登录 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 💻 | 多设备登录管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+
+| 功能 | 描述           | 状态                                                                                           |
+| ---- | -------------- | ---------------------------------------------------------------------------------------------- |
+| 🔑   | 账号密码登录   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📱   | 二维码扫码登录 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 💻   | 多设备登录管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
 
 ### 💬 消息通信
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| 👤 | 一对一私聊 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 👥 | 群组聊天 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| ↩️ | 消息撤回 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📢 | @提醒、回复功能 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 👁️ | 消息已读状态 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 😊 | 表情包功能 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🖱️ | 消息右键菜单 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🔗 | 链接预览卡片 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 👍 | 消息点赞互动 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📔 | 历史记录管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+
+| 功能 | 描述            | 状态                                                                                           |
+| ---- | --------------- | ---------------------------------------------------------------------------------------------- |
+| 👤   | 一对一私聊      | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 👥   | 群组聊天        | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| ↩️   | 消息撤回        | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📢   | @提醒、回复功能 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 👁️   | 消息已读状态    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 😊   | 表情包功能      | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🖱️   | 消息右键菜单    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🔗   | 链接预览卡片    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 👍   | 消息点赞互动    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📔   | 历史记录管理    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
 
 ### 🤝 社交管理
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| ➕ | 好友添加与删除 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🔍 | 好友搜索 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🏢 | 群组创建与管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🟢 | 好友在线状态 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🎖️ | 好友徽章系统 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🚫 | 屏蔽拉黑免打扰 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📤 | 消息转发 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📋 | 群公告功能 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🏷️ | 备注昵称管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📍 | 获取和发送位置 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🔥 | 扫码登录、进群 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+
+| 功能 | 描述           | 状态                                                                                           |
+| ---- | -------------- | ---------------------------------------------------------------------------------------------- |
+| ➕   | 好友添加与删除 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🔍   | 好友搜索       | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🏢   | 群组创建与管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🟢   | 好友在线状态   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🎖️   | 好友徽章系统   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🚫   | 屏蔽拉黑免打扰 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📤   | 消息转发       | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📋   | 群公告功能     | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🏷️   | 备注昵称管理   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📍   | 获取和发送位置 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🔥   | 扫码登录、进群 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
 
 ### 🎨 界面体验
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| 🖼️ | 现代化界面设计 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🌙 | 深色浅色主题 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🎭 | 皮肤主题切换 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+
+| 功能 | 描述           | 状态                                                                                           |
+| ---- | -------------- | ---------------------------------------------------------------------------------------------- |
+| 🖼️   | 现代化界面设计 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🌙   | 深色浅色主题   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🎭   | 皮肤主题切换   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
 
 ### 🛠️ 系统功能
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| 🪟 | 多窗口管理 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🔔 | 系统托盘通知 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📷 | 图片查看器 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| ✂️ | 截图功能 | ![进行中](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📁 | 文件上传(七牛云) | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 🔄 | 自动更新系统 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+
+| 功能 | 描述             | 状态                                                                                             |
+| ---- | ---------------- | ------------------------------------------------------------------------------------------------ |
+| 🪟   | 多窗口管理       | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 🔔   | 系统托盘通知     | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 📷   | 图片查看器       | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| ✂️   | 截图功能         | ![进行中](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🎙️   | 语音通话         | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 🎥   | 视频通话         | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| ⌨️   | 全局快捷键管理   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 📺   | 独立媒体查看器   | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 📁   | 文件上传(七牛云) | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 🔄   | 自动更新系统     | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080)   |
+| 🌍   | i18n 支持  | ![进行中](https://img.shields.io/badge/98%25-进行中-f0ad4e?style=flat&labelColor=faf3e6&color=f0ad4e) |
 
 ### 🌐 跨平台支持
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| 💻 | Windows/macOS/Linux | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
-| 📱 | iOS/Android 适配 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+
+| 功能 | 描述                | 状态                                                                                           |
+| ---- | ------------------- | ---------------------------------------------------------------------------------------------- |
+| 💻   | Windows/macOS/Linux | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 📱   | iOS/Android 适配    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
 
 ### 🤖 AI 集成
-| 功能 | 描述 | 状态 |
-|------|------|------|
-| 🧠 | AI 聊天助手 | ![进行中](https://img.shields.io/badge/🐣-进行中-ee9f20?style=flat&labelColor=fef7e6&color=ee9f20) |
-| 🔌 | 多平台 AI 支持 | ![进行中](https://img.shields.io/badge/🐣-进行中-ee9f20?style=flat&labelColor=fef7e6&color=ee9f20) |
+
+| 功能 | 描述           | 状态                                                                                               |
+| ---- | -------------- | -------------------------------------------------------------------------------------------------- |
+| 🧠   | AI 聊天助手    | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
+| 🔌   | 多平台 AI 支持 | ![完成](https://img.shields.io/badge/✅-完成-008080?style=flat&labelColor=e6f7f7&color=008080) |
 
 ## 👏 感谢以下贡献者们！
 
-<a href="https://github.com/HuLaSpark/HuLa/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=HuLaSpark/HuLa" />
+<a href="https://openomy.com/HuLaSpark/HuLa" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=HuLaSpark/HuLa&chart=bubble&latestMonth=12" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
 </a>
+
+<br/>
+
+<a href="https://openomy.com/HuLaSpark/HuLa" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=HuLaSpark/HuLa&chart=list&latestMonth=12" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+</a>
+
+<br/>
+
+<a href="https://openomy.com/HuLaSpark/HuLa" target="_blank" style="display: block; width: 100%;" align="center">
+  <img src="https://openomy.com/svg?repo=HuLaSpark/HuLa&chart=podium&latestMonth=12" target="_blank" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
+</a>
+
+<!-- <a href="https://github.com/HuLaSpark/HuLa/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HuLaSpark/HuLa" />
+</a> -->
+
+<br/>
+
+> [!NOTE]
+> 特别感谢 [@dennis9486](https://github.com/dennis9486) 贡献的截图功能初版实现，代码位于 `src/components/common/Screenshot.vue`，为提升桌面端体验打下基础。
 
 ## 📥 安装与运行
 
@@ -300,6 +324,7 @@ pnpm run tauri:build
 ## 安装前执行
 sudo xattr -rd com.apple.quarantine 你的安装包路径/下载的安装包名称
 ```
+
 ```bash
 ## 如果已经安装，则执行下面
 sudo xattr -r -d com.apple.quarantine /Applications/应用名称.app
@@ -339,9 +364,12 @@ sudo xattr -r -d com.apple.quarantine /Applications/应用名称.app
   <h3>🤝 HuLa 社区讨论群</h3>
   <p><em>与开发者和用户一起交流讨论，获取最新资讯和技术支持</em></p>
 
-  <div style="display: flex; justify-content: center; gap: 20px;">
+  <p><em>使用 HuLa 移动端扫码加入下方 Issues 群，第一时间反馈问题与建议。</em></p>
+
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
     <img src="preview/wx.png" width="260" height="340" alt="微信群二维码">
     <img src="preview/qq.jpg" width="260" height="340" alt="QQ群二维码">
+    <img src="preview/HuLa-QR.png" width="315" height="315" alt="HuLa Issues 群二维码">
   </div>
 </div>
 
@@ -353,50 +381,61 @@ sudo xattr -r -d com.apple.quarantine /Applications/应用名称.app
 </div>
 
 ### 💎 钻石赞助者 (￥1000+)
-| 💝 日期 | 👤 赞助者 | 💰 金额 | 🏷️ 平台 |
-|---------|----------|--------|---------|
-| 2025-09-12 | **翟可** | `¥1688` | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
+
+| 💝 日期    | 👤 赞助者 | 💰 金额 | 🏷️ 平台                                                                                          |
+| ---------- | --------- | ------- | ------------------------------------------------------------------------------------------------ |
+| 2025-09-12 | **翟可**  | `¥1688` | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
 
 ### 🏆 金牌赞助者 (￥100+)
-| 💝 日期 | 👤 赞助者 | 💰 金额 | 🏷️ 平台 |
-|---------|----------|--------|---------|
-| 2025-09-03 | **烛火** | `¥500` | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-09-05 | **Orion** | `¥200` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-08-26 | **唐勇** | `¥200` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-04-25 | **上官俊斌** | `¥200` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-05-27 | **临安居士** | `¥188` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-04-20 | **姜兴(Simon)** | `¥188` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-02-17 | **禾硕** | `¥168` | ![支付宝赞赏](https://img.shields.io/badge/支付宝赞赏-1677FF?style=flat&logo=alipay&logoColor=white) |
-| 2025-10-15 | **兵** | `¥100` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-08-13 | **zhongjing** | `¥100` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-07-15 | **粉兔** | `¥100` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-02-8 | **Boom....** | `¥100` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
+
+| 💝 日期    | 👤 赞助者        | 💰 金额 | 🏷️ 平台                                                                                              |
+| ---------- | ---------------- | ------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-12-13 | **M（PiDAOLab）**           | `¥500`  | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-11-12 | **星**           | `¥500`  | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-09-03 | **烛火**         | `¥500`  | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-09-05 | **Orion**        | `¥200`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-10-24 | **唐勇（伏威）** | `¥200`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-08-26 | **唐勇**         | `¥200`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-04-25 | **上官俊斌**     | `¥200`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-05-27 | **临安居士**     | `¥188`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-04-20 | **姜兴(Simon)**  | `¥188`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-02-17 | **禾硕**         | `¥168`  | ![支付宝赞赏](https://img.shields.io/badge/支付宝赞赏-1677FF?style=flat&logo=alipay&logoColor=white) |
+| 2025-10-16 | **xx豪**         | `¥101`  | ![支付宝赞赏](https://img.shields.io/badge/支付宝赞赏-1677FF?style=flat&logo=alipay&logoColor=white) |
+| 2025-10-15 | **兵**           | `¥100`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-08-13 | **zhongjing**    | `¥100`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-07-15 | **粉兔**         | `¥100`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-02-8  | **Boom....**     | `¥100`  | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
 
 ### 🥈 银牌赞助者 (￥50-99)
-| 💝 日期 | 👤 赞助者 | 💰 金额 | 🏷️ 平台 |
-|---------|----------|--------|---------|
-| 2025-06-26 | **m udDy🐖** | `¥88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-05-09 | **犹豫，就会败北。** | `¥88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-04-01 | **墨** | `¥88.88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-02-8 | **邓伟** | `¥88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-02-7 | **dennis** | `¥80` | ![Gitee赞赏](https://img.shields.io/badge/Gitee赞赏-C71D23?style=flat&logo=gitee&logoColor=white) |
-| 2025-02-6 | **小二** | `¥62` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-05-15 | **孤鸿影** | `¥56` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
+
+| 💝 日期    | 👤 赞助者            | 💰 金额  | 🏷️ 平台                                                                                           |
+| ---------- | -------------------- | -------- | ------------------------------------------------------------------------------------------------- |
+| 2025-11-29 | **Sven**             | `¥66`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-06-26 | **m udDy🐖**         | `¥88`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-05-09 | **犹豫，就会败北。** | `¥88`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-04-01 | **墨**               | `¥88.88` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-02-8  | **邓伟**             | `¥88`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-02-7  | **dennis**           | `¥40`    | ![Gitee赞赏](https://img.shields.io/badge/Gitee赞赏-C71D23?style=flat&logo=gitee&logoColor=white) |
+| 2025-11-5  | **匿名用户**         | `¥66`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-02-6  | **小二**             | `¥62`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
+| 2025-05-15 | **孤鸿影**           | `¥56`    | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)  |
 
 ### 🥉 铜牌赞助者 (￥20-49)
-| 💝 日期 | 👤 赞助者 | 💰 金额 | 🏷️ 平台 |
-|---------|----------|--------|---------|
-| 2025-08-12 | ***持** | `¥20` | ![支付宝赞赏](https://img.shields.io/badge/支付宝赞赏-1677FF?style=flat&logo=alipay&logoColor=white) |
-| 2025-06-03 | **洪流** | `¥20` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-05-27 | **刘启成** | `¥20` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
-| 2025-05-20 | **匿名赞助者** | `¥20` | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
+
+| 💝 日期    | 👤 赞助者      | 💰 金额 | 🏷️ 平台                                                                                              |
+| ---------- | -------------- | ------- | ---------------------------------------------------------------------------------------------------- |
+| 2025-11-15 | **云鹏**       | `¥20`   | ![微信转账](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white) |
+| 2025-08-12 | **\*持**       | `¥20`   | ![支付宝赞赏](https://img.shields.io/badge/支付宝赞赏-1677FF?style=flat&logo=alipay&logoColor=white) |
+| 2025-06-03 | **洪流**       | `¥20`   | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-05-27 | **刘启成**     | `¥20`   | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
+| 2025-05-20 | **匿名赞助者** | `¥20`   | ![微信赞赏](https://img.shields.io/badge/微信赞赏-07C160?style=flat&logo=wechat&logoColor=white)     |
 
 <div align="center">
   <br>
 
-  > 📝 **温馨提示**
-  > 该名单为手动更新，如果您已赞助但未在列表中，请联系我们：
-  > 🐛 [GitHub Issue](https://github.com/HuLaSpark/HuLa/issues) | 📧 邮箱: `2439646234@qq.com` | 💬 微信: `cy2439646234`
+> 📝 **温馨提示**
+> 该名单为手动更新，如果您已赞助但未在列表中，请联系我们：
+> 🐛 [GitHub Issue](https://github.com/HuLaSpark/HuLa/issues) | 📧 邮箱: `2439646234@qq.com` | 💬 微信: `cy2439646234`
 
   <br>
 </div>

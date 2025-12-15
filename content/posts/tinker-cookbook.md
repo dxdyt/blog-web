@@ -1,9 +1,9 @@
 ---
 title: tinker-cookbook
-date: 2025-11-11T12:24:11+08:00
+date: 2025-12-15T12:41:04+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760934328537-fa0a69c8159d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760934328537-fa0a69c8159d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI4MzUwMDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
 ---
 
 # [thinking-machines-lab/tinker-cookbook](https://github.com/thinking-machines-lab/tinker-cookbook)
@@ -31,6 +31,7 @@ Refer to the [docs](https://tinker-docs.thinkingmachines.ai/training-sampling) t
 Here we introduce a few Tinker primitives - the basic components to fine-tune LLMs:
 
 ```python
+import tinker
 service_client = tinker.ServiceClient()
 training_client = service_client.create_lora_training_client(
   base_model="meta-llama/Llama-3.2-1B", rank=32,
@@ -49,7 +50,7 @@ See [tinker_cookbook/recipes/sl_loop.py](tinker_cookbook/recipes/sl_loop.py) and
 To download the weights of any model:
 ```python
 rest_client = service_client.create_rest_client()
-future = rest_client.download_checkpoint_archive_from_tinker_path(sampling_client.model_path)
+future = rest_client.get_checkpoint_archive_url_from_tinker_path(sampling_client.model_path)
 with open(f"model-checkpoint.tar.gz", "wb") as f:
     f.write(future.result())
 ```
@@ -68,6 +69,16 @@ We also include a wide range of more sophisticated examples in the [`tinker_cook
 6. **[Multi-Agent](tinker_cookbook/recipes/multiplayer_rl/)**: optimize LLMs to play against another LLM or themselves.
 
 These examples are located in each subfolder, and their `README.md` files will walk you through the key implementation details, the commands to run them, and the expected performance.
+
+### Documentation
+
+The `docs/` directory contains a mirror of the Tinker documentation. These files are synced from our internal documentation site.
+
+**Note:** The documentation files use MDX format (Markdown with JSX), which includes some syntax that isn't standard Markdown. You may see things like `import` statements, `<Callout>` components, or curly-brace expressions. These are artifacts of our documentation framework - the actual content should still be readable as Markdown.
+
+If you find errors or want to improve the documentation, feel free to submit a PR editing files in `docs/`. We'll sync the changes back to our documentation site.
+
+For the rendered documentation, visit [tinker-docs.thinkingmachines.ai](https://tinker-docs.thinkingmachines.ai).
 
 ### Import our utilities
 

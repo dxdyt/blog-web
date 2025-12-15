@@ -1,9 +1,9 @@
 ---
 title: claude-mem
-date: 2025-12-14T12:35:38+08:00
+date: 2025-12-15T12:40:56+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764957080878-3f9866270aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764957080878-3f9866270aad?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
 ---
 
 # [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
@@ -95,7 +95,7 @@ Restart Claude Code. Context from previous sessions will automatically appear in
 - 🔒 **Privacy Control** - Use `<private>` tags to exclude sensitive content from storage
 - ⚙️ **Context Configuration** - Fine-grained control over what context gets injected
 - 🤖 **Automatic Operation** - No manual intervention required
-- 🔗 **Citations** - Reference past decisions with `claude-mem://` URIs
+- 🔗 **Citations** - Reference past observations with IDs (access via http://localhost:37777/api/observation/{id} or view all in the web viewer at http://localhost:37777)
 - 🧪 **Beta Channel** - Try experimental features like Endless Mode via version switching
 
 ---
@@ -334,7 +334,7 @@ Settings are managed in `~/.claude-mem/settings.json`. The file is auto-created 
 
 | Setting | Default | Description |
 |---------|---------|-------------|
-| `CLAUDE_MEM_MODEL` | `claude-haiku-4-5` | AI model for observations |
+| `CLAUDE_MEM_MODEL` | `claude-sonnet-4-5` | AI model for observations |
 | `CLAUDE_MEM_WORKER_PORT` | `37777` | Worker service port |
 | `CLAUDE_MEM_WORKER_HOST` | `127.0.0.1` | Worker bind address (use `0.0.0.0` for remote access) |
 | `CLAUDE_MEM_DATA_DIR` | `~/.claude-mem` | Data directory location |
@@ -360,7 +360,7 @@ curl http://localhost:37777/api/settings
 
 ```json
 {
-  "CLAUDE_MEM_MODEL": "claude-haiku-4-5",
+  "CLAUDE_MEM_MODEL": "claude-sonnet-4-5",
   "CLAUDE_MEM_WORKER_PORT": "37777",
   "CLAUDE_MEM_CONTEXT_OBSERVATIONS": "50"
 }
@@ -411,6 +411,37 @@ See [Troubleshooting Guide](https://docs.claude-mem.ai/troubleshooting) for comp
 ### Windows Known Issues
 
 **Console Window Visibility**: On Windows, a console window may briefly appear when the worker service starts. This is a cosmetic issue that we're working to resolve. We've prioritized stability by removing a workaround that was causing libuv crashes. The window does not affect functionality and will be addressed in a future release when the MCP SDK provides proper window hiding support.
+
+---
+
+## Bug Reports
+
+**Automated Bug Report Generator** - Create comprehensive bug reports with one command:
+
+```bash
+# From the plugin directory
+cd ~/.claude/plugins/marketplaces/thedotmack
+npm run bug-report
+```
+
+The bug report tool will:
+- 🌎 **Auto-translate** - Write in ANY language, automatically translates to English
+- 📊 **Collect diagnostics** - Gathers versions, platform info, worker status, logs, and configuration
+- 📝 **Interactive prompts** - Guides you through describing the issue with multiline support
+- 🤖 **AI formatting** - Uses Claude Agent SDK to generate professional GitHub issues
+- 🔒 **Privacy-safe** - Auto-sanitizes paths, optional `--no-logs` flag
+- 🌐 **Auto-submit** - Opens GitHub with pre-filled title and body
+
+**Plugin Directory Paths:**
+- **macOS/Linux**: `~/.claude/plugins/marketplaces/thedotmack`
+- **Windows**: `%USERPROFILE%\.claude\plugins\marketplaces\thedotmack`
+
+**Options:**
+```bash
+npm run bug-report --no-logs    # Skip logs for privacy
+npm run bug-report --verbose    # Show all diagnostics
+npm run bug-report --help       # Show help
+```
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: content
-date: 2024-05-03T12:20:15+08:00
+date: 2025-12-15T12:39:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1712916571150-e19f05d07b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1712916571150-e19f05d07b21?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MTQ3MDk4Mjl8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1762949857645-ed7b3e2e68cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1762949857645-ed7b3e2e68cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
 ---
 
 # [mdn/content](https://github.com/mdn/content)
@@ -27,19 +27,19 @@ In addition to English-language articles, over 35 volunteers lead translation an
 
 ## Build the site
 
-To set up the site locally, you need to have [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/) installed.
+To set up the site locally, you need to have [Node.js](https://nodejs.org/) installed, which comes bundled with [npm](https://www.npmjs.com/).
 You can check if these are installed by running the following commands:
 
 ```bash
 node -v
-yarn -v
+npm -v
 ```
 
-After you have installed Node.js and Yarn, you can install the dependencies using `yarn` and start the local preview:
+After you have installed Node.js, you can install the dependencies using `npm install` and start the local preview:
 
 ```bash
-yarn
-yarn start
+npm i
+npm start
 ```
 
 Once started, a live preview is available at `http://localhost:5042/`.
@@ -56,5 +56,11 @@ By participating in and contributing to our projects and discussions, you acknow
 
 You can communicate with the MDN Web Docs team and community using the [communication channels][].
 
+<!---
+Reference links syntax is used here because of linting markdown files ("fqdn-moz-links" rule).
+See https://github.com/mdn/content/pull/21432 and https://github.com/mdn/content/pull/38369.
+It can be replaced with the normal links syntax after successfully closing https://github.com/DavidAnson/markdownlint/issues/673.
+-->
+
+[mdn web docs]: https://developer.mozilla.org
 [communication channels]: https://developer.mozilla.org/en-US/docs/MDN/Community/Communication_channels
-[MDN Web Docs]: https://developer.mozilla.org/
