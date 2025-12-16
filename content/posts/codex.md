@@ -1,9 +1,9 @@
 ---
 title: codex
-date: 2025-12-15T12:39:50+08:00
+date: 2025-12-16T12:35:52+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764255908876-2d6a84dce14c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU4NTk2Nzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764255908876-2d6a84dce14c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU4NTk2Nzh8&ixlib=rb-4.1.0
 ---
 
 # [openai/codex](https://github.com/openai/codex)
