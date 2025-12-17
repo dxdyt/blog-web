@@ -1,9 +1,9 @@
 ---
 title: paru
-date: 2025-12-16T12:35:28+08:00
+date: 2025-12-17T12:32:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763713382836-e2263bff42b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU4NTk2Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763713382836-e2263bff42b3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU4NTk2Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764844147632-d550ac26025d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764844147632-d550ac26025d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
 ---
 
 # [Morganamilo/paru](https://github.com/Morganamilo/paru)

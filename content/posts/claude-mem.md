@@ -1,9 +1,9 @@
 ---
 title: claude-mem
-date: 2025-12-15T12:40:56+08:00
+date: 2025-12-17T12:32:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762113396386-5b1ea64ba7b4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763142275498-c87a9acb57ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763142275498-c87a9acb57ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
 ---
 
 # [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
@@ -89,7 +89,7 @@ Restart Claude Code. Context from previous sessions will automatically appear in
 
 - 🧠 **Persistent Memory** - Context survives across sessions
 - 📊 **Progressive Disclosure** - Layered memory retrieval with token cost visibility
-- 🔍 **Skill-Based Search** - Query your project history with mem-search skill (~2,250 token savings)
+- 🔍 **Skill-Based Search** - Query your project history with mem-search skill
 - 🖥️ **Web Viewer UI** - Real-time memory stream at http://localhost:37777
 - 💻 **Claude Desktop Skill** - Search memory from Claude Desktop conversations
 - 🔒 **Privacy Control** - Use `<private>` tags to exclude sensitive content from storage
@@ -107,7 +107,7 @@ Restart Claude Code. Context from previous sessions will automatically appear in
 💻 **Local Preview**: Run Mintlify docs locally:
 
 ```bash
-cd docs
+cd docs/public
 npx mintlify dev
 ```
 
@@ -171,7 +171,7 @@ npx mintlify dev
 2. **Smart Install** - Cached dependency checker (pre-hook script, not a lifecycle hook)
 3. **Worker Service** - HTTP API on port 37777 with web viewer UI and 10 search endpoints, managed by Bun
 4. **SQLite Database** - Stores sessions, observations, summaries with FTS5 full-text search
-5. **mem-search Skill** - Natural language queries with progressive disclosure (~2,250 token savings vs MCP)
+5. **mem-search Skill** - Natural language queries with progressive disclosure
 6. **Chroma Vector Database** - Hybrid semantic + keyword search for intelligent context retrieval
 
 See [Architecture Overview](https://docs.claude-mem.ai/architecture/overview) for details.
@@ -185,7 +185,6 @@ Claude-Mem provides intelligent search through the mem-search skill that auto-in
 **How It Works:**
 - Just ask naturally: *"What did we do last session?"* or *"Did we fix this bug before?"*
 - Claude automatically invokes the mem-search skill to find relevant context
-- ~2,250 token savings per session start vs MCP approach
 
 **Available Search Operations:**
 
@@ -216,6 +215,8 @@ See [Search Tools Guide](https://docs.claude-mem.ai/usage/search-tools) for deta
 
 ## Beta Features & Endless Mode
 
+> **Note**: Endless Mode is an **experimental feature in the beta branch only**. It is not included in the stable release you install via the marketplace. You must manually switch to the beta channel to try it, and it comes with significant caveats (see below).
+
 Claude-Mem offers a **beta channel** with experimental features. Switch between stable and beta versions directly from the web viewer UI.
 
 ### How to Try Beta
@@ -240,13 +241,17 @@ Working Memory (Context):     Compressed observations (~500 tokens each)
 Archive Memory (Disk):        Full tool outputs preserved for recall
 ```
 
-**Expected Results**:
-- ~95% token reduction in context window
-- ~20x more tool uses before context exhaustion
+**Projected Results** (based on theoretical modeling, not production measurements):
+- Significant token reduction in context window
+- More tool uses before context exhaustion
 - Linear O(N) scaling instead of quadratic O(N²)
 - Full transcripts preserved for perfect recall
 
-**Caveats**: Adds latency (60-90s per tool for observation generation), still experimental.
+**Important Caveats**:
+- **Not in stable release** - You must switch to beta branch to use this feature
+- **Still in development** - May have bugs, breaking changes, or incomplete functionality
+- **Slower than standard mode** - Blocking observation generation adds latency to each tool use
+- **Theoretical projections** - The efficiency claims above are based on simulations, not real-world production data
 
 See [Beta Features Documentation](https://docs.claude-mem.ai/beta-features) for details.
 

@@ -1,9 +1,9 @@
 ---
 title: content
-date: 2025-12-15T12:39:55+08:00
+date: 2025-12-17T12:33:27+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762949857645-ed7b3e2e68cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762949857645-ed7b3e2e68cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU3NzM1NzZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763511872552-b5271585e22a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763511872552-b5271585e22a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
 ---
 
 # [mdn/content](https://github.com/mdn/content)
