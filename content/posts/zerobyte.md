@@ -1,9 +1,9 @@
 ---
 title: zerobyte
-date: 2025-12-17T12:33:03+08:00
+date: 2025-12-18T12:34:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762112800032-b8d8119557b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762112800032-b8d8119557b8?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765743353154-54481abe0591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765743353154-54481abe0591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
 ---
 
 # [nicotsx/zerobyte](https://github.com/nicotsx/zerobyte)
@@ -50,7 +50,7 @@ In order to run Zerobyte, you need to have Docker and Docker Compose installed o
 ```yaml
 services:
   zerobyte:
-    image: ghcr.io/nicotsx/zerobyte:v0.18
+    image: ghcr.io/nicotsx/zerobyte:v0.19
     container_name: zerobyte
     restart: unless-stopped
     cap_add:
@@ -84,7 +84,7 @@ If you only need to back up locally mounted folders and don't require remote sha
 ```yaml
 services:
   zerobyte:
-    image: ghcr.io/nicotsx/zerobyte:v0.18
+    image: ghcr.io/nicotsx/zerobyte:v0.19
     container_name: zerobyte
     restart: unless-stopped
     ports:
@@ -116,7 +116,7 @@ If you want to track a local directory on the same server where Zerobyte is runn
 ```diff
 services:
   zerobyte:
-    image: ghcr.io/nicotsx/zerobyte:v0.18
+    image: ghcr.io/nicotsx/zerobyte:v0.19
     container_name: zerobyte
     restart: unless-stopped
     cap_add:
@@ -158,25 +158,6 @@ Repositories are optimized for storage efficiency and data integrity, leveraging
 
 To create a repository, navigate to the "Repositories" section in the web interface and click on "Create repository". Fill in the required details such as repository name, type, and connection settings.
 
-## Secret references (env:// and file://)
-
-Any field that is normally stored encrypted in Zerobyte (passwords, tokens, access keys, etc.) also accepts secret references.
-
-- `env://VAR_NAME` reads the value from `process.env.VAR_NAME` inside the Zerobyte container.
-- `file://secret_name` reads the value from `/run/secrets/secret_name` (Docker secrets).
-
-If you enter a normal value (not starting with `env://` or `file://`), Zerobyte will encrypt it before storing it in the database (values will look like `encv1:...`).
-
-Examples:
-
-```yaml
-# SMB volume password from an env var
-password: env://SMB_PASSWORD
-
-# S3 secret access key from a Docker secret
-secretAccessKey: file://s3-secret-access-key
-```
-
 ### Using rclone for cloud storage
 
 Zerobyte can use [rclone](https://rclone.org/) to support 40+ cloud storage providers including Google Drive, Dropbox, OneDrive, Box, pCloud, Mega, and many more. This gives you the flexibility to store your backups on virtually any cloud storage service.
@@ -203,7 +184,7 @@ Zerobyte can use [rclone](https://rclone.org/) to support 40+ cloud storage prov
    ```diff
    services:
      zerobyte:
-       image: ghcr.io/nicotsx/zerobyte:v0.18
+       image: ghcr.io/nicotsx/zerobyte:v0.19
        container_name: zerobyte
        restart: unless-stopped
        cap_add:

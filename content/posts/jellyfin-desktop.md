@@ -1,9 +1,9 @@
 ---
 title: jellyfin-desktop
-date: 2025-12-17T12:32:52+08:00
+date: 2025-12-18T12:34:21+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764660156230-2f3c28730e44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764660156230-2f3c28730e44?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU5NDU5MjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765743353154-54481abe0591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765743353154-54481abe0591?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
 ---
 
 # [jellyfin/jellyfin-desktop](https://github.com/jellyfin/jellyfin-desktop)
