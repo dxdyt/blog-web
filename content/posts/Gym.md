@@ -1,9 +1,9 @@
 ---
 title: Gym
-date: 2025-12-18T12:34:28+08:00
+date: 2025-12-20T12:26:15+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765197567983-990f26165af1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765197567983-990f26165af1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763935322642-a58dc993f44d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyMDQ3NDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763935322642-a58dc993f44d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyMDQ3NDl8&ixlib=rb-4.1.0
 ---
 
 # [NVIDIA-NeMo/Gym](https://github.com/NVIDIA-NeMo/Gym)
