@@ -1,9 +1,9 @@
 ---
 title: ty
-date: 2025-12-19T12:33:31+08:00
+date: 2025-12-21T12:37:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763793927948-7faaa6adb479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYxMTg3ODV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763793927948-7faaa6adb479?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYxMTg3ODV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764377978272-0ec279d24eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764377978272-0ec279d24eb4?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [astral-sh/ty](https://github.com/astral-sh/ty)

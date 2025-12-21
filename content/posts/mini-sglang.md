@@ -1,9 +1,9 @@
 ---
 title: mini-sglang
-date: 2025-12-20T12:26:50+08:00
+date: 2025-12-21T12:37:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764082497081-a023b72c9239?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyMDQ3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764082497081-a023b72c9239?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyMDQ3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [sgl-project/mini-sglang](https://github.com/sgl-project/mini-sglang)
@@ -52,7 +52,7 @@ Install Mini-SGLang directly from the source:
 
 ```bash
 git clone https://github.com/sgl-project/mini-sglang.git
-cd mini-sglang
+cd mini-sglang && uv venv --python=3.12 && source .venv/bin/activate
 uv pip install -e .
 ```
 

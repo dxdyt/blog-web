@@ -1,9 +1,9 @@
 ---
 title: claude-code
-date: 2025-12-20T12:26:06+08:00
+date: 2025-12-21T12:36:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764082497081-a023b72c9239?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyMDQ3NDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764082497081-a023b72c9239?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyMDQ3NDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-code](https://github.com/anthropics/claude-code)

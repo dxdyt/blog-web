@@ -1,9 +1,9 @@
 ---
 title: iptv
-date: 2025-12-04T12:31:52+08:00
+date: 2025-12-21T12:37:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762559046700-eb451387e1ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ4MjI1OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762559046700-eb451387e1ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ4MjI1OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
 ---
 
 # [iptv-org/iptv](https://github.com/iptv-org/iptv)
@@ -60,7 +60,7 @@ Links to other useful IPTV-related resources can be found in the [iptv-org/aweso
 
 ## Discussions
 
-If you need help finding a channel, have a question or idea, welcome to the [Discussions](https://github.com/orgs/iptv-org/discussions).
+If you have a question or idea, welcome to the [Discussions](https://github.com/orgs/iptv-org/discussions).
 
 ## FAQ
 
