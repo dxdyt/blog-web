@@ -1,9 +1,9 @@
 ---
 title: mini-sglang
-date: 2025-12-21T12:37:01+08:00
+date: 2025-12-22T12:39:47+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1757383670320-5012a9748a34?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765126833641-85d8f3ee295d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYzNzgzNTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765126833641-85d8f3ee295d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYzNzgzNTJ8&ixlib=rb-4.1.0
 ---
 
 # [sgl-project/mini-sglang](https://github.com/sgl-project/mini-sglang)
