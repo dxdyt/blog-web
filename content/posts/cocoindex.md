@@ -1,9 +1,9 @@
 ---
 title: cocoindex
-date: 2025-12-22T12:40:02+08:00
+date: 2025-12-23T12:37:37+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765126833641-85d8f3ee295d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYzNzgzNTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765126833641-85d8f3ee295d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYzNzgzNTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763607058547-bbb9689bbb30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763607058547-bbb9689bbb30?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
 ---
 
 # [cocoindex-io/cocoindex](https://github.com/cocoindex-io/cocoindex)

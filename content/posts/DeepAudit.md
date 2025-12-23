@@ -1,18 +1,14 @@
 ---
 title: DeepAudit
-date: 2025-12-21T12:36:23+08:00
+date: 2025-12-23T12:38:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764385827352-78c20131fd47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764385827352-78c20131fd47?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYyOTE3NjZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765775356123-f5bd734f9de3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765775356123-f5bd734f9de3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
 ---
 
 # [lintsinghua/DeepAudit](https://github.com/lintsinghua/DeepAudit)
 
 # DeepAudit - 人人拥有的 AI 审计战队，让漏洞挖掘触手可及 🦸‍♂️
-
-<p align="center">
-  <strong>简体中文</strong> | <a href="README_EN.md">English</a>
-</p>
 
 <div style="width: 100%; max-width: 600px; margin: 0 auto;">
   <img src="frontend/public/images/logo.png" alt="DeepAudit Logo" style="width: 100%; height: auto; display: block; margin: 0 auto;">
@@ -33,6 +29,9 @@ featuredImagePreview: https://images.unsplash.com/photo-1764385827352-78c20131fd
 
 <a href="https://trendshift.io/repositories/15634" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15634" alt="lintsinghua%2FDeepAudit | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
 
+<p align="center">
+  <strong>简体中文</strong> | <a href="README_EN.md">English</a>
+</p>
 
 </div>
 
@@ -347,7 +346,7 @@ DeepSeek-Coder · Codestral<br/>
 </tr>
 </table>
 
-> 💡 支持 API 中转站，解决网络访问问题 | 详细配置 → [LLM 平台支持](docs/LLM_PROVIDERS.md)
+💡 支持 API 中转站，解决网络访问问题 | 详细配置 → [LLM 平台支持](docs/LLM_PROVIDERS.md)
 
 ---
 
@@ -398,6 +397,16 @@ DeepSeek-Coder · Codestral<br/>
 |:---:|:---:|
 | 📧 **邮箱** | **lintsinghua@qq.com** |
 | 🐙 **GitHub** | [@lintsinghua](https://github.com/lintsinghua) |
+
+</div>
+
+### 💬 交流群
+
+<div align="center">
+
+**欢迎大家入群交流分享、学习、摸鱼~**
+
+<img src="frontend/public/images/DeepAudit群聊.png" alt="QQ交流群" width="200">
 
 </div>
 

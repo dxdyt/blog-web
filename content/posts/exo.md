@@ -1,9 +1,9 @@
 ---
 title: exo
-date: 2025-12-22T12:39:22+08:00
+date: 2025-12-23T12:36:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765126833641-85d8f3ee295d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYzNzgzNTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765126833641-85d8f3ee295d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYzNzgzNTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765775356123-f5bd734f9de3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765775356123-f5bd734f9de3?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
 ---
 
 # [exo-explore/exo](https://github.com/exo-explore/exo)
@@ -11,8 +11,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1765126833641-85d8f3ee29
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: light)" srcset="/docs/exo-logo-black-bg.jpg">
-  <img alt="exo logo" src="/docs/exo-logo-transparent.png" width="50%" height="50%">
+  <source media="(prefers-color-scheme: light)" srcset="/docs/imgs/exo-logo-black-bg.jpg">
+  <img alt="exo logo" src="/docs/imgs/exo-logo-transparent.png" width="50%" height="50%">
 </picture>
 
 exo: Run your own AI cluster at home with everyday devices. Maintained by [exo labs](https://x.com/exolabs).
@@ -74,13 +74,23 @@ There are two ways to run exo:
 ### Run from Source (Mac & Linux)
 
 **Prerequisites:**
-- [uv](https://github.com/astral-sh/uv) (for Python dependency management)
+- [brew](https://github.com/Homebrew/brew) (for simple package management on MacOS)
+  
   ```bash
-  brew install uv
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   ```
+- [uv](https://github.com/astral-sh/uv) (for Python dependency management)
 - [macmon](https://github.com/vladkens/macmon) (for hardware monitoring on Apple Silicon)
+- [node](https://github.com/nodejs/node) (for building the dashboard)
+  
   ```bash
-  brew install macmon
+  brew install uv macmon node
+  ```
+- [rust](https://github.com/rust-lang/rustup) (to build Rust bindings, nightly for now)
+
+  ```bash
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  rustup toolchain install nightly
   ```
 
 Clone the repo, build the dashboard, and run exo:
@@ -102,7 +112,7 @@ This starts the exo dashboard and API at http://localhost:52415/
 
 exo ships a macOS app that runs in the background on your Mac.
 
-<img src="docs/macos-app-one-macbook.png" alt="exo macOS App - running on a MacBook" width="35%" />
+<img src="docs/imgs/macos-app-one-macbook.png" alt="exo macOS App - running on a MacBook" width="35%" />
 
 The macOS app requires macOS Tahoe 26.2 or later.
 

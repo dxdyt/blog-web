@@ -1,140 +1,169 @@
 ---
 title: rendercv
-date: 2024-07-24T12:18:13+08:00
+date: 2025-12-23T12:37:57+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1718301702411-79babe48eb27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1718301702411-79babe48eb27?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjE3OTQ1OTh8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1763917802050-deb1399e1399?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763917802050-deb1399e1399?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
 ---
 
-# [sinaatalay/rendercv](https://github.com/sinaatalay/rendercv)
+# [rendercv/rendercv](https://github.com/rendercv/rendercv)
 
 <div align="center">
 <h1>RenderCV</h1>
 
-*A* $\LaTeX$ *CV/Resume Framework*
+_CV/resume generator for academics and engineers_
 
-[![test](https://github.com/sinaatalay/rendercv/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/sinaatalay/rendercv/actions/workflows/test.yaml)
-[![coverage](https://coverage-badge.samuelcolvin.workers.dev/sinaatalay/rendercv.svg)](https://coverage-badge.samuelcolvin.workers.dev/redirect/sinaatalay/rendercv)
-[![docs](https://img.shields.io/badge/docs-mkdocs-rgb(0%2C79%2C144))](https://docs.rendercv.com)
-[![pypi-version](https://img.shields.io/pypi/v/rendercv?label=PyPI%20version&color=rgb(0%2C79%2C144))](https://pypi.python.org/pypi/rendercv)
-[![pypi-downloads](https://img.shields.io/pepy/dt/rendercv?label=PyPI%20downloads&color=rgb(0%2C%2079%2C%20144))](https://pypistats.org/packages/rendercv)
+[![test](https://github.com/rendercv/rendercv/actions/workflows/test.yaml/badge.svg?branch=main)](https://github.com/rendercv/rendercv/actions/workflows/test.yaml)
+[![coverage](https://coverage-badge.samuelcolvin.workers.dev/rendercv/rendercv.svg)](https://coverage-badge.samuelcolvin.workers.dev/redirect/rendercv/rendercv)
+[![docs](<https://img.shields.io/badge/docs-mkdocs-rgb(0%2C79%2C144)>)](https://docs.rendercv.com)
+[![pypi-version](<https://img.shields.io/pypi/v/rendercv?label=PyPI%20version&color=rgb(0%2C79%2C144)>)](https://pypi.python.org/pypi/rendercv)
+[![pypi-downloads](<https://img.shields.io/pepy/dt/rendercv?label=PyPI%20downloads&color=rgb(0%2C%2079%2C%20144)>)](https://pypistats.org/packages/rendercv)
 
 </div>
 
-RenderCV allows you to create a high-quality CV as a PDF from a YAML input file. It supports Markdown syntax and gives you complete control over the $\LaTeX$ code.
+Write your CV or resume as YAML, then run RenderCV,
 
-The primary motivation behind RenderCV is to provide a concrete framework that allows:
+```bash
+rendercv render John_Doe_CV.yaml
+```
 
-- Version controlling a CV's content and design separately and in an organized manner.
-- Building an automated pipeline that updates the final output (PDF, $\LaTeX$, Markdown, HTML, and PNGs) whenever the content is modified.
-- Making the CV's design uniform and nicely structured without room for human errors.
+and get a PDF with perfect typography. No template wrestling. No broken layouts. Consistent spacing, every time.
 
-RenderCV offers built-in $\LaTeX$ and Markdown templates ready to produce high-quality CVs. However, the templates are entirely arbitrary and can easily be updated to leverage RenderCV's capabilities with custom CV themes.
+With RenderCV, you can:
 
-RenderCV takes a YAML file that looks like this:
+- Version-control your CV — it's just text.
+- Focus on content — don't wory about the formatting.
+- Get perfect typography — pixel-perfect alignment and spacing, handled for you.
+
+A YAML file like this:
 
 ```yaml
 cv:
   name: John Doe
-  location: Your Location
-  email: youremail@yourdomain.com
+  location: San Francisco, CA
+  email: john.doe@email.com
+  website: https://rendercv.com/
+  social_networks:
+    - network: LinkedIn
+      username: rendercv
+    - network: GitHub
+      username: rendercv
   sections:
-    this_is_a_section_title:
-      - This is a type of entry, TextEntry—just a plain string.
-      - You may have as many entries as you want under a section.
-      - RenderCV offers a variety of entry types such as TextEntry,
-        BulletEntry, EducationEntry, ExperienceEntry, NormalEntry,
-        OneLineEntry, PublicationEntry.
-      - Each entry type has its own set of attributes and different
-        looks.
-    my_education_section:
-      - institution: Boğaziçi University
-        area: Mechanical Engineering
-        degree: BS
-        start_date: 2024-09
-        end_date: 2029-05
+    Welcome to RenderCV:
+      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
+      - See the [documentation](https://docs.rendercv.com) for more details.
+    education:
+      - institution: Princeton University
+        area: Computer Science
+        degree: PhD
+        date:
+        start_date: 2018-09
+        end_date: 2023-05
+        location: Princeton, NJ
+        summary:
         highlights:
-          - 'GPA: 3.9/4.0 ([Transcript](https://example.com))'
-          - '**Coursework:** Structural Analysis, Thermodynamics,
-            Heat Transfer'
-    experience:
-      ...
+          - "Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment"
+          - "Advisor: Prof. Sanjeev Arora"
+          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
+    ...
 ```
 
-Then, it produces one of these PDFs with its corresponding $\LaTeX$ code, Markdown file, HTML file, and images as PNGs. Each of these is an example of one of 4 built-in themes of RenderCV. Click on the images below to preview PDF files.
+becomes one of these PDFs. Click on the images to preview.
 
-| [![Classic Theme Example of RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/classic.png)](https://github.com/sinaatalay/rendercv/blob/main/examples/John_Doe_ClassicTheme_CV.pdf) | [![Sb2nov Theme Example of RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/sb2nov.png)](https://github.com/sinaatalay/rendercv/blob/main/examples/John_Doe_Sb2novTheme_CV.pdf) |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [![Moderncv Theme Example of RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/moderncv.png)](https://github.com/sinaatalay/rendercv/blob/main/examples/John_Doe_ModerncvTheme_CV.pdf) | [![Engineeringresumes Theme Example of RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/engineeringresumes.png)](https://github.com/sinaatalay/rendercv/blob/main/examples/John_Doe_EngineeringresumesTheme_CV.pdf) |
-
-
-The contents of the HTML file can be pasted into Grammarly or any word processor for spelling and grammar checking.
-
-![Grammarly for RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/grammarly.gif)
+| [![Classic Theme Example of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/classic.png)](https://github.com/rendercv/rendercv/blob/main/examples/John_Doe_ClassicTheme_CV.pdf)    | [![Engineeringresumes Theme Example of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/engineeringresumes.png)](https://github.com/rendercv/rendercv/blob/main/examples/John_Doe_EngineeringresumesTheme_CV.pdf) | [![Sb2nov Theme Example of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/sb2nov.png)](https://github.com/rendercv/rendercv/blob/main/examples/John_Doe_Sb2novTheme_CV.pdf) |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [![Moderncv Theme Example of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/moderncv.png)](https://github.com/rendercv/rendercv/blob/main/examples/John_Doe_ModerncvTheme_CV.pdf) | [![Engineeringclassic Theme Example of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/engineeringclassic.png)](https://github.com/rendercv/rendercv/blob/main/examples/John_Doe_EngineeringclassicTheme_CV.pdf) | ![Custom themes can be added.](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/customtheme.png)                                                                                        |
 
 
-It also validates the input file. If there are any problems, it tells users where the problems are and how they can fix them.
+## JSON Schema
 
-![CLI of RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/cli.gif)
+RenderCV's JSON Schema lets you fill out the YAML interactively, with autocompletion and inline documentation.
 
-
-RenderCV comes with a JSON Schema so that the YAML input file can be filled out interactively.
-
-![JSON Schema of RenderCV](https://raw.githubusercontent.com/sinaatalay/rendercv/main/docs/assets/images/schema.gif)
+![JSON Schema of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/json_schema.gif)
 
 
-## Quick Start Guide
+## Extensive Design Options
 
-Either use [rendercv-pipeline](https://github.com/sinaatalay/rendercv-pipeline) or follow the steps below.
+You have full control over every detail.
 
-1.  Install [Python](https://www.python.org/downloads/) (3.10 or newer).
-2.  Run the command below in a terminal to install RenderCV.
-    ```bash
-    pip install rendercv
-    ```
-3.  Run the command below to generate starting input files.
-    ```bash
-    rendercv new "Full Name"
-    ```
-4.  Edit the contents of `Full_Name_CV.yaml` in your favorite editor (*tip: use an editor that supports JSON Schemas*).
-5.  Run the command below to generate your CV.
-    ```bash
-    rendercv render Full_Name_CV.yaml
-    ```
+```yaml
+design:
+  theme: classic
+  page:
+    size: us-letter
+    top_margin: 0.7in
+    bottom_margin: 0.7in
+    left_margin: 0.7in
+    right_margin: 0.7in
+    show_footer: true
+    show_top_note: true
+  colors:
+    body: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
+    headline: rgb(0, 79, 144)
+    connections: rgb(0, 79, 144)
+    section_titles: rgb(0, 79, 144)
+    links: rgb(0, 79, 144)
+    footer: rgb(128, 128, 128)
+    top_note: rgb(128, 128, 128)
+  typography:
+    line_spacing: 0.6em
+    alignment: justified
+    date_and_location_column_alignment: right
+    font_family: Source Sans 3
+  # ...and much more
+```
 
-[Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide that covers the YAML input file structure and command-line interface (CLI) in greater detail.
+![Design Options of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/design_options.gif)
 
-## Motivation
+> [!TIP]
+> Want to set up a live preview environment like the one shown above? See [how to set up VS Code for RenderCV](https://docs.rendercv.com/user_guide/how_to/set_up_vs_code_for_rendercv).
 
-Writing the content of a CV and designing a CV are separate issues that should be treated separately. RenderCV attempts to provide this separation. This approach encourages users to concentrate on the content without getting distracted by the appearance of their CV and vice versa.
+## Strict Validation
 
-RenderCV also provides a set of utilities that automate most of the manual work involved in the CV updating process. After updating a single sentence or date in the YAML input file written in pure English, RenderCV will:
+No surprises. If something's wrong, you'll know exactly what and where. If it's valid, you get a perfect PDF.
 
-- Re-create your $\LaTeX$ file,
-- Render a new PDF file,
-- Create a new Markdown file,
-- Create a new HTML document, and
-- Create images of each page of the PDF file as PNGs.
+![Strict Validation Feature of RenderCV](https://raw.githubusercontent.com/rendercv/rendercv/main/docs/assets/images/validation.gif)
 
-> Why use RenderCV instead of $\LaTeX$? I can version-control $\LaTeX$ code too!
 
-RenderCV is not a replacement for $\LaTeX$. It is a set of utilities designed to create and manage $\LaTeX$ CVs. If you're currently using $\LaTeX$ to create your CV, you should try RenderCV. Using your existing $\LaTeX$ themes in RenderCV is very easy.
+## Any Language
 
-Advantages of RenderCV over using pure $\LaTeX$:
+Fill out the locale field for your language.
 
-- RenderCV will separate the content of your CV from your $\LaTeX$ code. They will sit in independent files, and RenderCV will use both to generate your CV.
-- You will be able to version-control your $\LaTeX$ code and content separately.
-- Updating your content in a YAML file is easier than updating a complex $\LaTeX$ file.
-- A pure $\LaTeX$ CV will have many code duplications because a CV is a document with a list of sections that contain a list of entries. RenderCV has only one $\LaTeX$ code for each entry type, duplicated automatically based on the YAML input file.
-- Spell-checking is not very straightforward in $\LaTeX$ documents.
+```yaml
+locale:
+  language: english
+  last_updated: Last updated in
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  month_abbreviations:
+    - Jan
+    - Feb
+    - Mar
+  ...
+```
 
-## Documentation
+## Get Started
 
-- [User Guide](https://docs.rendercv.com/user_guide)
-- [Developer Guide](https://docs.rendercv.com/developer_guide)
-- [Overview of Source Code](https://docs.rendercv.com/reference)
-- [Changelog](https://docs.rendercv.com/changelog)
+Install RenderCV (Requires Python 3.12+):
 
-## Contributing
+```
+pip install "rendercv[full]"
+```
 
-All contributions to RenderCV are welcome! To get started, please read [the developer guide](https://docs.rendercv.com/developer_guide). 
+Create a new CV yaml file:
+
+```
+rendercv new "John Doe"
+```
+
+Edit the YAML, then render:
+
+```
+rendercv render "John_Doe_CV.yaml"
+```
+
+For more details, see the [user guide](https://docs.rendercv.com/user_guide/).
