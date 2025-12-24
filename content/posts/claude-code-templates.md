@@ -1,9 +1,9 @@
 ---
 title: claude-code-templates
-date: 2025-11-12T12:24:41+08:00
+date: 2025-12-24T12:36:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760681555328-8d545f42fe89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760681555328-8d545f42fe89?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764351661259-e3b85f943c83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764351661259-e3b85f943c83?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
 ---
 
 # [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
@@ -12,6 +12,8 @@ featuredImagePreview: https://images.unsplash.com/photo-1760681555328-8d545f42fe
 [![npm downloads](https://img.shields.io/npm/dt/claude-code-templates.svg)](https://www.npmjs.com/package/claude-code-templates)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Sponsored by Z.AI](https://img.shields.io/badge/Sponsored%20by-Z.AI-2563eb?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMiAyMkgyMkwxMiAyWiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+)](https://z.ai/subscribe?ic=8JVLJQFSKB&utm_source=github&utm_medium=badge&utm_campaign=readme)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-yellow?style=flat&logo=buy-me-a-coffee)](https://buymeacoffee.com/daniavila)
 [![GitHub stars](https://img.shields.io/github/stars/davila7/claude-code-templates.svg?style=social&label=Star)](https://github.com/davila7/claude-code-templates)
 
 <p align="center">
@@ -25,6 +27,29 @@ featuredImagePreview: https://images.unsplash.com/photo-1760681555328-8d545f42fe
   </a>
 </p>
 
+---
+
+<div align="center">
+  <h3>🤝 Partnership</h3>
+  <p>
+    <strong>This project is sponsored by <a href="https://z.ai" target="_blank">Z.AI</a></strong><br/>
+    Supporting Claude Code Templates with the <strong>GLM CODING PLAN</strong>
+  </p>
+  <p>
+    <a href="https://z.ai/subscribe?ic=8JVLJQFSKB&utm_source=github&utm_medium=readme&utm_campaign=partnership" target="_blank">
+      <img src="https://img.shields.io/badge/Get%2010%25%20OFF-GLM%20Coding%20Plan-2563eb?style=for-the-badge" alt="GLM Coding Plan" />
+    </a>
+  </p>
+  <p>
+    <em>Top-tier coding performance powered by GLM-4.6 • Starting at $3/month</em><br/>
+    <em>Seamlessly integrates with Claude Code, Cursor, Cline & 10+ AI coding tools</em>
+  </p>
+  <p>
+    <code>npx claude-code-templates@latest --setting partnerships/glm-coding-plan --yes</code>
+  </p>
+</div>
+
+---
 
 # Claude Code Templates ([aitmpl.com](https://aitmpl.com))
 
@@ -114,17 +139,26 @@ We welcome contributions! **[Browse existing templates](https://aitmpl.com)** to
 
 This collection includes components from multiple sources:
 
-**Agents Collection:**
-- **wshobson/agents Collection** by [wshobson](https://github.com/wshobson/agents) - Licensed under MIT License (48 agents)
+**Scientific Skills:**
+- **[K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills)** by K-Dense Inc. - MIT License (139 scientific skills for biology, chemistry, medicine, and computational research)
 
-**Commands Collection:**
-- **awesome-claude-code Commands** by [hesreallyhim](https://github.com/hesreallyhim/awesome-claude-code) - Licensed under CC0 1.0 Universal (21 commands)
+**Official Anthropic:**
+- **[anthropics/skills](https://github.com/anthropics/skills)** - Official Anthropic skills (21 skills)
+- **[anthropics/claude-code](https://github.com/anthropics/claude-code)** - Development guides and examples (10 skills)
 
-Some of the commands and resources included in this marketplace come from open-source community repositories originally listed in [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code).
+**Community Skills & Agents:**
+- **[obra/superpowers](https://github.com/obra/superpowers)** by Jesse Obra - MIT License (14 workflow skills)
+- **[alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)** by Alireza Rezvani - MIT License (36 professional role skills)
+- **[wshobson/agents](https://github.com/wshobson/agents)** by wshobson - MIT License (48 agents)
+- **NerdyChefsAI Skills** - Community contribution - MIT License (specialized enterprise skills)
 
-Each of these resources retains its **original license and attribution**, as defined by their respective authors (mostly MIT-licensed).  
+**Commands & Tools:**
+- **[awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code)** by hesreallyhim - CC0 1.0 Universal (21 commands)
+- **[awesome-claude-skills](https://github.com/mehdi-lamrani/awesome-claude-skills)** - Apache 2.0 (community skills)
+- **move-code-quality-skill** - MIT License
+- **cocoindex-claude** - Apache 2.0
 
-Please note that **awesome-claude-code** is **no longer licensed under CC 1.0**.  
+Each of these resources retains its **original license and attribution**, as defined by their respective authors.
 We respect and credit all original creators for their work and contributions to the Claude ecosystem.
 
 ## 📄 License

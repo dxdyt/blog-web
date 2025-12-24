@@ -1,9 +1,9 @@
 ---
 title: LEANN
-date: 2025-11-12T12:23:58+08:00
+date: 2025-12-24T12:35:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760551109888-d43ecb3b7a93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760551109888-d43ecb3b7a93?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI5MjEzODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765993983047-4c22b0451c74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765993983047-4c22b0451c74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
 ---
 
 # [yichuan-w/LEANN](https://github.com/yichuan-w/LEANN)
