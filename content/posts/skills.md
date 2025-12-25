@@ -1,9 +1,9 @@
 ---
 title: skills
-date: 2025-12-23T12:37:28+08:00
+date: 2025-12-25T12:38:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765912679255-ca2a30ad4b0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765912679255-ca2a30ad4b0e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY0NjQ2MDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763995687854-580a8aad3c9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763995687854-580a8aad3c9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/skills](https://github.com/anthropics/skills)

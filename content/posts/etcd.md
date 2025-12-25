@@ -1,9 +1,9 @@
 ---
 title: etcd
-date: 2024-09-08T12:19:06+08:00
+date: 2025-12-25T12:38:30+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722963220475-979db2dbf216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722963220475-979db2dbf216?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjU3NjkwNzJ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1764866915273-ea87cf57526d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764866915273-ea87cf57526d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
 ---
 
 # [etcd-io/etcd](https://github.com/etcd-io/etcd)
@@ -15,15 +15,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1722963220475-979db2dbf2
 [![Tests](https://github.com/etcd-io/etcd/actions/workflows/tests.yaml/badge.svg)](https://github.com/etcd-io/etcd/actions/workflows/tests.yaml)
 [![codeql-analysis](https://github.com/etcd-io/etcd/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/etcd-io/etcd/actions/workflows/codeql-analysis.yml)
 [![Docs](https://img.shields.io/badge/docs-latest-green.svg)](https://etcd.io/docs)
-[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godoc.org/github.com/etcd-io/etcd)
+[![Godoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](https://godocs.io/go.etcd.io/etcd/v3)
 [![Releases](https://img.shields.io/github/release/etcd-io/etcd/all.svg?style=flat-square)](https://github.com/etcd-io/etcd/releases)
 [![LICENSE](https://img.shields.io/github/license/etcd-io/etcd.svg?style=flat-square)](https://github.com/etcd-io/etcd/blob/main/LICENSE)
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/etcd-io/etcd/badge)](https://scorecard.dev/viewer/?uri=github.com/etcd-io/etcd)
-<a href="https://actuated.dev/"><img alt="Arm CI sponsored by Actuated" src="https://docs.actuated.dev/images/actuated-badge.png" width="120px"></img></a>
 
 **Note**: The `main` branch may be in an *unstable or even broken state* during development. For stable versions, see [releases][github-release].
 
-![etcd Logo](logos/etcd-horizontal-color.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/cncf/artwork/9870640f123303a355611065195c43ac3f27aa19/projects/etcd/horizontal/white/etcd-horizontal-white.png">
+  <source media="(prefers-color-scheme: light)" srcset="logos/etcd-horizontal-color.svg">
+  <img alt="etcd logo" src="logos/etcd-horizontal-color.svg" width=269 />
+</picture>
 
 etcd is a distributed reliable key-value store for the most critical data of a distributed system, with a focus on being:
 
@@ -48,6 +51,18 @@ See [etcdctl][etcdctl] for a simple command line client.
 [locksmith]: https://github.com/coreos/locksmith
 [vulcand]: https://github.com/vulcand/vulcand
 [etcdctl]: https://github.com/etcd-io/etcd/tree/main/etcdctl
+
+## Documentation
+
+The most common API documentation you'll need can be found here:
+
+* [go.etcd.io/etcd/api/v3](https://godocs.io/go.etcd.io/etcd/api/v3)
+* [go.etcd.io/etcd/client/pkg/v3](https://godocs.io/go.etcd.io/etcd/client/pkg/v3)
+* [go.etcd.io/etcd/client/v3](https://godocs.io/go.etcd.io/etcd/client/v3)
+* [go.etcd.io/etcd/etcdctl/v3](https://godocs.io/go.etcd.io/etcd/etcdctl/v3)
+* [go.etcd.io/etcd/pkg/v3](https://godocs.io/go.etcd.io/etcd/pkg/v3)
+* [go.etcd.io/etcd/raft/v3](https://godocs.io/go.etcd.io/etcd/raft/v3)
+* [go.etcd.io/etcd/server/v3](https://godocs.io/go.etcd.io/etcd/server/v3)
 
 ## Maintainers
 
@@ -193,19 +208,7 @@ See [PR management](https://github.com/etcd-io/etcd/blob/main/Documentation/cont
 
 ## etcd Emeritus Maintainers
 
-These emeritus maintainers dedicated a part of their career to etcd and reviewed code, triaged bugs and pushed the project forward over a substantial period of time. Their contribution is greatly appreciated.
-
-* Fanmin Shi
-* Anthony Romano
-* Brandon Philips
-* Joe Betz
-* Gyuho Lee
-* Jingyi Hu
-* Xiang Li
-* Ben Darnell
-* Sam Batschelet
-* Piotr Tabor
-* Hitoshi Mitake
+etcd [emeritus maintainers](OWNERS) dedicated a part of their career to etcd and reviewed code, triaged bugs and pushed the project forward over a substantial period of time. Their contribution is greatly appreciated.
 
 ### License
 

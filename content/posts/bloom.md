@@ -1,9 +1,9 @@
 ---
 title: bloom
-date: 2025-12-24T12:35:39+08:00
+date: 2025-12-25T12:37:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765993983047-4c22b0451c74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765993983047-4c22b0451c74?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764377725021-33bba9d00944?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764377725021-33bba9d00944?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
 ---
 
 # [safety-research/bloom](https://github.com/safety-research/bloom)
@@ -105,10 +105,10 @@ You can run the pipeline in several ways depending on your needs:
 
 3. **Individual pipeline stages** (useful for debugging or iteration):
    ```bash
-   python scripts/understanding.py --config your_config.yaml
-   python scripts/ideation.py --config your_config.yaml
-   python scripts/rollout.py --config your_config.yaml
-   python scripts/judgment.py --config your_config.yaml
+   python scripts/step1_understanding.py --config your_config.yaml
+   python scripts/step2_ideation.py --config your_config.yaml
+   python scripts/step3_rollout.py --config your_config.yaml
+   python scripts/step4_judgment.py --config your_config.yaml
    ```
    Each stage depends on the previous stage's output files being available in the results folder.
 

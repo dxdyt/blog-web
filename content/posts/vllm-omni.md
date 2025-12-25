@@ -1,9 +1,9 @@
 ---
 title: vllm-omni
-date: 2025-12-24T12:36:46+08:00
+date: 2025-12-25T12:37:14+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765912679250-cea903b4b917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765912679250-cea903b4b917?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY1NTA5MDF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763244737712-8cfe166cb765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763244737712-8cfe166cb765?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
 ---
 
 # [vllm-project/vllm-omni](https://github.com/vllm-project/vllm-omni)
