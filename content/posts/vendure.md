@@ -1,9 +1,9 @@
 ---
 title: vendure
-date: 2025-12-25T12:38:48+08:00
+date: 2025-12-26T12:34:45+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765817431646-1d667deff9da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765817431646-1d667deff9da?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY2Mzc0MDh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765213000926-1ae03f344f3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY3MjM2NDd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765213000926-1ae03f344f3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY3MjM2NDd8&ixlib=rb-4.1.0
 ---
 
 # [vendure-ecommerce/vendure](https://github.com/vendure-ecommerce/vendure)
