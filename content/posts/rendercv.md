@@ -1,9 +1,9 @@
 ---
 title: rendercv
-date: 2025-12-27T12:31:38+08:00
+date: 2025-12-28T12:43:41+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764869024302-a344a7046be6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY4MDk4ODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764869024302-a344a7046be6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY4MDk4ODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765871321090-b1fbf1fe4a9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY4OTY5OTB8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765871321090-b1fbf1fe4a9a?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY4OTY5OTB8&ixlib=rb-4.1.0
 ---
 
 # [rendercv/rendercv](https://github.com/rendercv/rendercv)
