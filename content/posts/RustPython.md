@@ -1,9 +1,9 @@
 ---
 title: RustPython
-date: 2024-09-27T12:21:14+08:00
+date: 2025-12-29T12:49:43+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1726593243881-847529d40d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1726593243881-847529d40d18?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mjc0MTA3NjR8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1766488735864-44c313801587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766488735864-44c313801587?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
 ---
 
 # [RustPython/RustPython](https://github.com/RustPython/RustPython)
@@ -12,7 +12,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1726593243881-847529d40d
 
 # [RustPython](https://rustpython.github.io/)
 
-A Python-3 (CPython >= 3.12.0) Interpreter written in Rust :snake: :scream:
+A Python-3 (CPython >= 3.13.0) Interpreter written in Rust :snake: :scream:
 :metal:.
 
 [![Build Status](https://github.com/RustPython/RustPython/workflows/CI/badge.svg)](https://github.com/RustPython/RustPython/actions?query=workflow%3ACI)
@@ -23,7 +23,6 @@ A Python-3 (CPython >= 3.12.0) Interpreter written in Rust :snake: :scream:
 [![docs.rs](https://docs.rs/rustpython/badge.svg)](https://docs.rs/rustpython/)
 [![Crates.io](https://img.shields.io/crates/v/rustpython)](https://crates.io/crates/rustpython)
 [![dependency status](https://deps.rs/crate/rustpython/0.1.1/status.svg)](https://deps.rs/crate/rustpython/0.1.1)
-[![WAPM package](https://wapm.io/package/rustpython/badge.svg?style=flat)](https://wapm.io/package/rustpython)
 [![Open in Gitpod](https://img.shields.io/static/v1?label=Open%20in&message=Gitpod&color=1aa6e4&logo=gitpod)](https://gitpod.io#https://github.com/RustPython/RustPython)
 
 ## Usage
@@ -40,6 +39,11 @@ To build RustPython locally, first, clone the source code:
 
 ```bash
 git clone https://github.com/RustPython/RustPython
+```
+
+RustPython uses symlinks to manage python libraries in `Lib/`. If on windows, running the following helps:
+```bash
+git config core.symlinks true
 ```
 
 Then you can change into the RustPython directory and run the demo (Note: `--release` is
@@ -66,23 +70,17 @@ NOTE: For windows users, please set `RUSTPYTHONPATH` environment variable as `Li
 You can also install and run RustPython with the following:
 
 ```bash
-$ cargo install --git https://github.com/RustPython/RustPython
+$ cargo install --git https://github.com/RustPython/RustPython rustpython
 $ rustpython
 Welcome to the magnificent Rust Python interpreter
 >>>>>
 ```
 
-If you'd like to make https requests, you can enable the `ssl` feature, which
-also lets you install the `pip` package manager. Note that on Windows, you may
-need to install OpenSSL, or you can enable the `ssl-vendor` feature instead,
-which compiles OpenSSL for you but requires a C compiler, perl, and `make`.
-OpenSSL version 3 is expected and tested in CI. Older versions may not work.
-
-Once you've installed rustpython with SSL support, you can install pip by
+You can install pip by
 running:
 
 ```bash
-cargo install --git https://github.com/RustPython/RustPython --features ssl
+cargo install --git https://github.com/RustPython/RustPython
 rustpython --install-pip
 ```
 
@@ -94,6 +92,13 @@ conda install rustpython -c conda-forge
 rustpython
 ```
 
+### SSL provider
+
+For HTTPS requests, `ssl-rustls` feature is enabled by default. You can replace it with `ssl-openssl` feature if your environment requires OpenSSL.
+Note that to use OpenSSL on Windows, you may need to install OpenSSL, or you can enable the `ssl-vendor` feature instead,
+which compiles OpenSSL for you but requires a C compiler, perl, and `make`.
+OpenSSL version 3 is expected and tested in CI. Older versions may not work.
+
 ### WASI
 
 You can compile RustPython to a standalone WebAssembly WASI module so it can run anywhere.
@@ -101,13 +106,13 @@ You can compile RustPython to a standalone WebAssembly WASI module so it can run
 Build
 
 ```bash
-cargo build --target wasm32-wasi --no-default-features --features freeze-stdlib,stdlib --release
+cargo build --target wasm32-wasip1 --no-default-features --features freeze-stdlib,stdlib --release
 ```
 
 Run by wasmer
 
 ```bash
-wasmer run --dir `pwd` -- target/wasm32-wasi/release/rustpython.wasm `pwd`/extra_tests/snippets/stdlib_random.py
+wasmer run --dir `pwd` -- target/wasm32-wasip1/release/rustpython.wasm `pwd`/extra_tests/snippets/stdlib_random.py
 ```
 
 Run by wapm
@@ -124,10 +129,10 @@ $ wapm run rustpython
 You can build the WebAssembly WASI file with:
 
 ```bash
-cargo build --release --target wasm32-wasi --features="freeze-stdlib"
+cargo build --release --target wasm32-wasip1 --features="freeze-stdlib"
 ```
 
-> Note: we use the `freeze-stdlib` to include the standard library inside the binary. You also have to run once `rustup target add wasm32-wasi`.
+> Note: we use the `freeze-stdlib` to include the standard library inside the binary. You also have to run once `rustup target add wasm32-wasip1`.
 
 ### JIT (Just in time) compiler
 
@@ -232,7 +237,7 @@ To enhance CPython compatibility, try to increase unittest coverage by checking 
 Another approach is to checkout the source code: builtin functions and object
 methods are often the simplest and easiest way to contribute.
 
-You can also simply run `./whats_left.py` to assist in finding any unimplemented
+You can also simply run `python -I whats_left.py` to assist in finding any unimplemented
 method.
 
 ## Compiling to WebAssembly

@@ -1,9 +1,9 @@
 ---
 title: zapret-discord-youtube
-date: 2025-12-06T12:23:06+08:00
+date: 2025-12-29T12:49:03+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758797957534-e1242d8e11b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758797957534-e1242d8e11b9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5OTQ4ODZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765371512336-99c2b1c6975f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765371512336-99c2b1c6975f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
 ---
 
 # [Flowseal/zapret-discord-youtube](https://github.com/Flowseal/zapret-discord-youtube)
@@ -40,14 +40,18 @@ featuredImagePreview: https://images.unsplash.com/photo-1758797957534-e1242d8e11
 
 ## ⚙️Использование
 
-1. Включите Secure DNS. В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию). В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту"
-    * В **Windows 11** поддерживается включение Secure DNS прямо в настройках - [инструкция тут](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
+1. Включите Secure DNS
+    * В Chrome - "Использовать безопасный DNS", и выбрать поставщика услуг DNS (выбрать вариант, отличный от поставщика по умолчанию)
+    * В Firefox - "Включить DNS через HTTPS, используя: Максимальную защиту", затем "Выбрать поставщика" и вписать URL поставщика вручную, например можно использовать `https://dns.google/dns-query` (т.к. поставщик Cloudflare может быть заблокирован)
+    * В Windows 11 поддерживается включение Secure DNS прямо в настройках ОС - [инструкция тут](https://www.howtogeek.com/765940/how-to-enable-dns-over-https-on-windows-11/). Рекомендуется, если вы пользуетесь Windows 11
 
-2. Загрузите архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
+2. Скачайте архив (zip/rar) со [страницы последнего релиза](https://github.com/Flowseal/zapret-discord-youtube/releases/latest)
 
-3. Распакуйте содержимое архива по пути, который не содержит кириллицу/спец. символы
+3. Зайдите в свойства скачанного архива и поставьте галочку "Разблокировать". Если вы используете архиватор 7-Zip или PeaZip, этот шаг можно пропустить
 
-4. Запустите нужный файл
+4. Распакуйте содержимое архива по пути, который не содержит кириллицу/спец. символы
+
+5. Запустите нужный файл
 
 ## ℹ️Краткие описания файлов
 
@@ -62,6 +66,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1758797957534-e1242d8e11
   - **`Run Diagnostics`** - диагностика на распространённые причины, по которым zapret может не работать.  
   В конце можно очистить кэш <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=11 /> `Discord`, что может помочь, если он неожиданно перестал работать
   - **`Check Updates`** - проверка на обновления
+  - **`Switch Check Updates`** - Вкл/Выкл автоматическую проверку на обновления
   - **`Switch Game Filter`** - переключение режима обхода для игр (и других сервисов, использующих UDP и TCP на портах выше 1023).  
   **После переключения требуется перезапуск стратегии.**  
   В скобках указан текущий статус (включено/выключено).
@@ -72,6 +77,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1758797957534-e1242d8e11
     - `loaded` - айпи проверяется на вхождение в список
     - `any` - любой айпи попадает под фильтр  
   - **`Update ipset list`** - обновление списка `ipset-all.txt` актуальным из репозитория
+  - **`Update hosts file`** - обновление файла hosts <ins>**для починки подключения к голосовому чату Discord**</ins>
+  - **`Run Tests`** - запуск утилиты для проверки стратегий на работоспособность:
+    - `Standard tests` - проверка сайтов из `utils/targets.txt`
+    - `DPI checkers` - проверка DPI на различных провайдерах (Cloudflare, Amazon и др.)
 
 
 ## ☑️Распространенные вопросы и проблемы
@@ -80,6 +89,13 @@ featuredImagePreview: https://images.unsplash.com/photo-1758797957534-e1242d8e11
 
 - После запуска стратегии (отдельным bat файлом, не через service), должен открыться winws.exe (обход), который можно увидеть в панели задач.  
 Если этого не произошло, то см. [#522](https://github.com/Flowseal/zapret-discord-youtube/issues/522)
+
+### Бесконечное "подключение" к голосовому чату Discord
+Запустите **`service.bat`**, выберите пункт **`Update hosts file (for discord voice)`**. После чего, если ваш hosts будет неактуальным, то Вам будет предложено обновить его самостоятельно:  
+  - Cкопируйте весь текст из открывшегося блокнота
+  - Откройте файл `hosts` в появившейся папке с помощью текстового редактора
+  - Добавьте в конец файла `hosts` то, что скопировали (или замените, если до этого Вы уже добавляли подобное)
+  - Сохраните и перепроверьте подключение. Если не работает - убедитесь, что файл `hosts` действительно сохранился.
 
 ### Обход не работает / перестал работать
 
@@ -106,6 +122,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1758797957534-e1242d8e11
 - `service.bat` -> `Run Diagnostics` (если есть ошибки - устраните их) -> в конце Y
 - Удалите папку с запретом
 - Скачайте последнюю версию [со страницы релизов](https://github.com/Flowseal/zapret-discord-youtube/releases) (`zapret-discord-youtube-...`)
+- Нажмите пкм по архиву -> свойства. Если снизу справа есть галочка разблокировать, то нажмите на неё -> применить -> ОК
 - Распакуйте в новую папку в корне диска (без спец. символов и пробелов)
 - Далее пробуйте запускать различные `general` скрипты (стратегии). Проверьте доступность интернет ресурсов - если не работают, то закрывайте программу (в панели задач иконка замочка) и пробуйте другую стратегию
 - Как найдёте рабочую стратегию, можете поставить её на автозапуск: `service.bat` -> `Install Service` -> выбираете нужную
@@ -138,13 +155,19 @@ sc stop название_из_первого_шага
 sc delete название_из_первого_шага
 ```
 
-### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=18 /> Discord
-
-- См. [#252](https://github.com/Flowseal/zapret-discord-youtube/discussions/252)
-
 ### Не работает <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" height=18 /> YouTube
 
-- См. [#251](https://github.com/Flowseal/zapret-discord-youtube/discussions/251)
+- Убедитесь что вы настроили Secure DNS.
+- Отключите блокировщик рекламы, известно что YouTube начал с ними бороться.
+- Пробуйте все другие стратегии (если раньше работало, но перестало).
+- См. также [#251](https://github.com/Flowseal/zapret-discord-youtube/discussions/251)
+
+### Не работает <img src="https://cdn-icons-png.flaticon.com/128/5968/5968756.png" height=18 /> Discord
+
+- Желательно сначала узнать, на какой стратегии открывается сайт YouTube. Запустите эту стратегию.
+- Проверьте Discord в браузере: https://discord.com/app. В браузере работает? Если работает, то можете пользоваться в нём.
+- Если Discord и в браузере не работает, убедитесь что вы настроили Secure DNS, и после этого ещё раз пробуйте все стратегии. Бывает такое, что на одной стратегии YouTube работает, а Discord нет.
+- См. также [#252](https://github.com/Flowseal/zapret-discord-youtube/discussions/252)
 
 ### Не нашли своей проблемы
 

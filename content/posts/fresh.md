@@ -1,20 +1,30 @@
 ---
 title: fresh
-date: 2025-12-09T12:28:11+08:00
+date: 2025-12-29T12:50:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1762545611539-df4e46e7747e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1762545611539-df4e46e7747e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjUyNTQ0Nzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765371512336-99c2b1c6975f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765371512336-99c2b1c6975f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
 ---
 
 # [sinelaw/fresh](https://github.com/sinelaw/fresh)
 
 # Fresh
 
-[Visit the official Fresh website](https://sinelaw.github.io/fresh/)
+A terminal-based text editor. [Official Website →](https://sinelaw.github.io/fresh/)
 
 **[📦 Installation Instructions](#installation)**
 
-A terminal-based text editor.
+**[Contributing](#contributing)**
+
+## Why?
+
+Why another text editor? Fresh brings the intuitive, conventional UX of editors like VS Code and Sublime Text to the terminal.
+
+While veterans like Emacs and Vim - and newer editors like Neovim and Helix - are excellent for power users who prefer modal, highly specialized workflows, they often present a steep learning curve for those used to standard GUI interactions. Fresh is built for the developer who wants a familiar, non-modal experience out-of-the-box, without sacrificing the speed and portability of the command line. Keyboard bindings, mouse support, menus, command palette etc. are all designed to be familiar to most modern users.
+
+Architecturally, Fresh is built to handle multi-gigabyte files or slow network streams efficiently, maintaining a negligible memory overhead regardless of file size. While traditional editors struggle with latency and RAM bloat on large files, Fresh delivers consistent, high-speed performance on any scale.
+
+The goal for Fresh is to be an intuitive and accessible, high-performance terminal-based editor that "just works" on any hardware, for everyone.
 
 ## Discovery & Ease of Use
 
@@ -45,45 +55,114 @@ Fresh is engineered for speed. It delivers a low-latency experience, with text a
 
 ## Installation
 
+Quick install (autodetect best method):
+
+`curl https://raw.githubusercontent.com/sinelaw/fresh/refs/heads/master/scripts/install.sh | sh`
+
+Or, pick your preferred method:
+
 | Platform | Method |
 |----------|--------|
-| macOS | [Homebrew](#macos-homebrew) |
+| macOS | [brew](#brew) |
+| Bazzite/Bluefin/Aurora Linux | [brew](#brew) |
 | Arch Linux | [AUR](#arch-linux-aur) |
 | Debian/Ubuntu | [.deb](#debianubuntu-deb) |
-| Fedora/RHEL | [.rpm](#fedorarhelopensuse-rpm) |
+| Fedora/RHEL | [.rpm](#fedorarhelopensuse-rpm), [Terra](https://terra.fyralabs.com/) |
+| Linux (any distro) | [AppImage](#appimage), [Flatpak](#flatpak) |
 | All platforms | [Pre-built binaries](#pre-built-binaries) |
 | npm | [npm / npx](#npm) |
+| Rust users (Fast) | [cargo-binstall](#using-cargo-binstall) |
 | Rust users | [crates.io](#from-cratesio) |
+| Nix | [Nix flakes](#nix-flakes) |
 | Developers | [From source](#from-source) |
 
-### macOS (Homebrew)
+### Brew
+
+On macOS and some linux distros (Bazzite/Bluefin/Aurora):
 
 ```bash
 brew tap sinelaw/fresh
 brew install fresh-editor
 ```
 
-### Arch Linux ([AUR](https://aur.archlinux.org/packages/fresh-editor))
+### Arch Linux ([AUR](https://aur.archlinux.org/packages/fresh-editor-bin))
+
+**Binary package (recommended, faster install):**
 
 ```bash
+git clone https://aur.archlinux.org/fresh-editor-bin.git
+cd fresh-editor-bin
+makepkg --syncdeps --install
+```
+
+**Build from source:**
+
+```bash
+git clone https://aur.archlinux.org/fresh-editor.git
+cd fresh-editor
+makepkg --syncdeps --install
+```
+
+**Using an AUR helper (such as `yay` or `paru`):**
+
+```bash
+# Binary package (recommended, faster install)
+yay -S fresh-editor-bin
+
+# Or build from source
 yay -S fresh-editor
 ```
 
 ### Debian/Ubuntu (.deb)
 
-Download the `.deb` file from the [releases page](https://github.com/sinelaw/fresh/releases) and install:
+Download and install the latest release:
 
 ```bash
-sudo dpkg -i fresh-editor_*.deb
+curl -sL $(curl -s https://api.github.com/repos/sinelaw/fresh/releases/latest | grep "browser_download_url.*_$(dpkg --print-architecture)\.deb" | cut -d '"' -f 4) -o fresh-editor.deb && sudo dpkg -i fresh-editor.deb
 ```
+
+Or download the `.deb` file manually from the [releases page](https://github.com/sinelaw/fresh/releases).
 
 ### Fedora/RHEL/openSUSE (.rpm)
 
-Download the `.rpm` file from the [releases page](https://github.com/sinelaw/fresh/releases) and install:
+Download and install the latest release:
 
 ```bash
-sudo rpm -i fresh-editor-*.rpm
+curl -sL $(curl -s https://api.github.com/repos/sinelaw/fresh/releases/latest | grep "browser_download_url.*\.$(uname -m)\.rpm" | cut -d '"' -f 4) -o fresh-editor.rpm && sudo rpm -U fresh-editor.rpm
 ```
+
+Or download the `.rpm` file manually from the [releases page](https://github.com/sinelaw/fresh/releases).
+
+### AppImage
+
+Download the `.AppImage` file from the [releases page](https://github.com/sinelaw/fresh/releases) and run:
+
+```bash
+chmod +x fresh-editor-VERSION-x86_64.AppImage
+./fresh-editor-VERSION-x86_64.AppImage
+```
+
+**For faster startup** (recommended): Extract the AppImage instead of running it directly. This avoids the FUSE mount overhead on each launch (~10x faster):
+
+```bash
+./fresh-editor-VERSION-x86_64.AppImage --appimage-extract
+mkdir -p ~/.local/share/fresh-editor ~/.local/bin
+mv squashfs-root/* ~/.local/share/fresh-editor/
+ln -sf ~/.local/share/fresh-editor/usr/bin/fresh ~/.local/bin/fresh
+```
+
+Ensure `~/.local/bin` is in your PATH. Available for x86_64 and aarch64 architectures.
+
+### Flatpak
+
+Download the `.flatpak` bundle from the [releases page](https://github.com/sinelaw/fresh/releases) and install:
+
+```bash
+flatpak install --user fresh-editor-VERSION-x86_64.flatpak
+flatpak run io.github.sinelaw.fresh
+```
+
+See [flatpak/README.md](flatpak/README.md) for building from source.
 
 ### Pre-built binaries
 
@@ -99,6 +178,34 @@ Or try it without installing:
 
 ```bash
 npx @fresh-editor/fresh-editor
+```
+
+### Using cargo-binstall
+
+To install the binary directly without compiling (much faster than crates.io):
+
+First, install cargo-binstall if you haven't already
+
+```bash
+cargo install cargo-binstall
+```
+
+Then install fresh
+
+```bash
+cargo binstall fresh-editor
+```
+
+### Nix flakes
+
+Run without installing:
+```bash
+nix run github:sinelaw/fresh
+```
+
+Or install to your profile:
+```bash
+nix profile install github:sinelaw/fresh
 ```
 
 ### From crates.io
@@ -121,6 +228,26 @@ cargo build --release
 - [User Guide](docs/USER_GUIDE.md)
 - [Plugin Development](docs/PLUGIN_DEVELOPMENT.md)
 - [Architecture](docs/ARCHITECTURE.md)
+
+## Contributing
+
+Thanks for contributing!
+
+1. **Reproduce Before Fixing**: Always include a test case that reproduces the bug (fails) without the fix, and passes with the fix. This ensures the issue is verified and prevents future regressions.
+
+2. **E2E Tests for New Flows**: Any new user flow or feature must include an end-to-end (e2e) test. E2E tests send keyboard/mouse events and examines the final rendered output, do not examine internal state.
+
+3. **No timeouts or time-sensitive tests**: Use "semantic waiting" (waiting for specific state changes/events) instead of fixed timers to ensure test stability. Wait indefinitely, don't put timeouts inside tests (cargo nextest will timeout externally).
+
+4. **Test isolation**: Tests should run in parallel. Use the internal clipboard mode in tests to isolate them from the host system and prevent flakiness in CI. Same for other external resources (temp files, etc. should all be isolated between tests, under a per-test temporary workdir).
+
+5. **Required Formatting**: All code must be formatted with `cargo fmt` before submission. PRs that fail formatting checks will not be merged.
+
+6. **Cross-Platform Consistency**: Avoid hard-coding newline or CRLF related logic, consider the buffer mode.
+
+7. **LSP**: Ensure LSP interactions follow the correct lifecycle (e.g., `didOpen` must always precede other requests to avoid server-side errors). Use the appropriate existing helpers for this pattern.
+
+**Tip**: You can use tmux + send-keys + render-pane to script ad-hoc tests on the UI, for example when trying to reproduce an issue.
 
 ## License
 
