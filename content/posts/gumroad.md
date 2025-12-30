@@ -1,9 +1,9 @@
 ---
 title: gumroad
-date: 2025-11-08T12:23:03+08:00
+date: 2025-12-30T12:40:00+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760694121380-0dc12e8ac00f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760694121380-0dc12e8ac00f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjI1NzU2NTR8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765194493167-6c7d3ca0bba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765194493167-6c7d3ca0bba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
 ---
 
 # [antiwork/gumroad](https://github.com/antiwork/gumroad)
@@ -172,33 +172,6 @@ npm install
 #### Set up Custom credentials
 
 App can be booted without any custom credentials. But if you would like to use services that require custom credentials (e.g. S3, Stripe, Resend, etc.), you can copy the `.env.example` file to `.env` and fill in the values.
-
-#### S3 Bucket Setup
-
-After configuring your AWS credentials, you need to create the specific S3 buckets required for development. The application uses hardcoded bucket names as defined in `config/initializers/aws.rb`:
-
-**Required S3 Buckets:**
-
-- `gumroad_dev` - Main storage bucket for development
-- `gumroad-dev-public-storage` - Public storage bucket for development
-
-**Create the buckets using AWS CLI:**
-
-```bash
-aws s3 mb s3://gumroad_dev
-aws s3 mb s3://gumroad-dev-public-storage
-```
-
-**Or create them via AWS Console:**
-
-1. Go to the [S3 Console](https://console.aws.amazon.com/s3/)
-2. Click "Create bucket"
-3. Enter bucket name: `gumroad_dev`
-4. Choose your preferred region (should match `AWS_DEFAULT_REGION`)
-5. Keep default settings and create the bucket
-6. Repeat steps 2-5 for `gumroad-dev-public-storage`
-
-> **Note:** These exact bucket names are required because they are hardcoded in the application configuration. Using different names will result in `AccessDenied` errors during file uploads.
 
 #### Local SSL Certificates
 

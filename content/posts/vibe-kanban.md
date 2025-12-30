@@ -1,9 +1,9 @@
 ---
 title: vibe-kanban
-date: 2025-12-29T12:49:33+08:00
+date: 2025-12-30T12:39:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765371512336-99c2b1c6975f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765371512336-99c2b1c6975f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjY5ODM3Mzd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765154017463-5ca216ec2b67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765154017463-5ca216ec2b67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
 ---
 
 # [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)
@@ -100,11 +100,10 @@ cd frontend
 pnpm build
 ```
 
-### Build from source
+### Build from source (macOS)
 
-1. Run `build-npm-package.sh`
-2. In the `npx-cli` folder run `npm pack`
-3. You can run your build with `npx [GENERATED FILE].tgz`
+1. Run `./local-build.sh`
+2. Test with `cd npx-cli && node bin/cli.js`
 
 
 ### Environment Variables
