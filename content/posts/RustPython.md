@@ -1,9 +1,9 @@
 ---
 title: RustPython
-date: 2025-12-30T12:38:46+08:00
+date: 2025-12-31T12:38:44+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765194493167-6c7d3ca0bba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765194493167-6c7d3ca0bba9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1763932430063-e8a9c4ae946e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763932430063-e8a9c4ae946e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
 ---
 
 # [RustPython/RustPython](https://github.com/RustPython/RustPython)

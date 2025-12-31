@@ -1,9 +1,9 @@
 ---
 title: vibe-kanban
-date: 2025-12-30T12:39:01+08:00
+date: 2025-12-31T12:37:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765154017463-5ca216ec2b67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765154017463-5ca216ec2b67?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764893216411-c4ee22e22a91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764893216411-c4ee22e22a91?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
 ---
 
 # [BloopAI/vibe-kanban](https://github.com/BloopAI/vibe-kanban)

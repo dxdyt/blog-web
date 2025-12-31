@@ -1,9 +1,9 @@
 ---
 title: uptime-kuma
-date: 2025-10-24T12:22:48+08:00
+date: 2025-12-31T12:39:33+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1758621518748-bde9e586ef9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1758621518748-bde9e586ef9f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764805201909-e5ba59108cdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764805201909-e5ba59108cdd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
 ---
 
 # [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
@@ -33,7 +33,7 @@ It is a temporary live demo, all data will be deleted after 10 minutes. Sponsore
 
 ## ⭐ Features
 
-- Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Ping / DNS Record / Push / Steam Game Server / Docker Containers
+- Monitoring uptime for HTTP(s) / TCP / HTTP(s) Keyword / HTTP(s) Json Query / Websocket / Ping / DNS Record / Push / Steam Game Server / Docker Containers
 - Fancy, Reactive, Fast UI/UX
 - Notifications via Telegram, Discord, Gotify, Slack, Pushover, Email (SMTP), and [90+ notification services, click here for the full list](https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications)
 - 20-second intervals
@@ -55,8 +55,7 @@ cd uptime-kuma
 curl -o compose.yaml https://raw.githubusercontent.com/louislam/uptime-kuma/master/compose.yaml
 docker compose up -d
 ```
-
-Uptime Kuma is now running on <http://0.0.0.0:3001>.
+Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001).
 
 > [!WARNING]
 > File Systems like **NFS** (Network File System) are **NOT** supported. Please map to a local directory or volume.
@@ -66,22 +65,22 @@ Uptime Kuma is now running on <http://0.0.0.0:3001>.
 ```bash
 docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2
 ```
+Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001).
 
-Uptime Kuma is now running on <http://0.0.0.0:3001>.
+If you want to limit exposure to localhost only:
 
-> [!NOTE]
-> If you want to limit exposure to localhost (without exposing port for other users or to use a [reverse proxy](https://github.com/louislam/uptime-kuma/wiki/Reverse-Proxy)), you can expose the port like this:
->
-> ```bash
-> docker run -d --restart=always -p 127.0.0.1:3001:3001 -v uptime-kuma:/app/data --name uptime-kuma louislam/uptime-kuma:2
-> ```
+```bash
+docker run ... -p 127.0.0.1:3001:3001 ...
+```
+
+
 
 ### 💪🏻 Non-Docker
 
 Requirements:
 
 - Platform
-  - ✅ Major Linux distros such as Debian, Ubuntu, CentOS, Fedora and ArchLinux etc.
+  - ✅ Major Linux distros such as Debian, Ubuntu, Fedora and ArchLinux etc.
   - ✅ Windows 10 (x64), Windows Server 2012 R2 (x64) or higher
   - ❌ FreeBSD / OpenBSD / NetBSD
   - ❌ Replit / Heroku
@@ -104,8 +103,7 @@ npm install pm2 -g && pm2 install pm2-logrotate
 # Start Server
 pm2 start server/server.js --name uptime-kuma
 ```
-
-Uptime Kuma is now running on <http://localhost:3001>
+Uptime Kuma is now running on all network interfaces (e.g. http://localhost:3001 or http://your-ip:3001).
 
 More useful PM2 Commands
 

@@ -1,9 +1,9 @@
 ---
 title: chatterbox
-date: 2025-12-30T12:39:53+08:00
+date: 2025-12-31T12:38:36+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764785349381-0736cb356bfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764785349381-0736cb356bfe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcwNjk1MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766351826045-d5d08890e1e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766351826045-d5d08890e1e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
 ---
 
 # [resemble-ai/chatterbox](https://github.com/resemble-ai/chatterbox)

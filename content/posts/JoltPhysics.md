@@ -1,9 +1,9 @@
 ---
 title: JoltPhysics
-date: 2024-08-14T12:19:36+08:00
+date: 2025-12-31T12:38:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1722203098808-f01da4d381cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
-featuredImagePreview: https://images.unsplash.com/photo-1722203098808-f01da4d381cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MjM2MDkwNjZ8&ixlib=rb-4.0.3
+featuredImage: https://images.unsplash.com/photo-1763932430063-e8a9c4ae946e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1763932430063-e8a9c4ae946e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
 ---
 
 # [jrouwe/JoltPhysics](https://github.com/jrouwe/JoltPhysics)
@@ -17,9 +17,10 @@ featuredImagePreview: https://images.unsplash.com/photo-1722203098808-f01da4d381
 
 # Jolt Physics
 
-A multi core friendly rigid body physics and collision detection library. Suitable for games and VR applications. Used by Horizon Forbidden West.
+A multi core friendly rigid body physics and collision detection library. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2: On the Beach.
 
 [![Horizon Forbidden West Cover Art](https://jrouwe.nl/jolt/Horizon_Forbidden_West.png)](https://www.playstation.com/en-us/games/horizon-forbidden-west/)
+[![Death Stranding 2 Cover Art](https://jrouwe.nl/jolt/Death_Stranding_2.png)](https://www.playstation.com/en-us/games/death-stranding-2-on-the-beach/)
 
 |[![Ragdoll Pile](https://img.youtube.com/vi/pwyCW0yNKMA/hqdefault.jpg)](https://www.youtube.com/watch?v=pwyCW0yNKMA)|
 |:-|
@@ -47,7 +48,9 @@ Why create yet another physics engine? Firstly, it has been a personal learning 
 	* Capsule
 	* Tapered-capsule
 	* Cylinder
+	* Tapered-cylinder
 	* Convex hull
+	* Plane
 	* Compound
 	* Mesh (triangle)
 	* Terrain (height field)
@@ -86,6 +89,7 @@ Why create yet another physics engine? Firstly, it has been a personal learning 
 * Soft body simulation (e.g. a soft ball or piece of cloth).
 	* Edge constraints.
 	* Dihedral bend constraints.
+	* Cosserat rod constraints (an edge with an orientation that can be used to orient geometry, e.g. a plant leaf).
 	* Tetrahedron volume constraints.
 	* Long range attachment constraints (also called tethers).
 	* Limiting the simulation to stay within a certain range of a skinned vertex.
@@ -93,17 +97,18 @@ Why create yet another physics engine? Firstly, it has been a personal learning 
 	* Collision with simulated rigid bodies.
 	* Collision tests against soft bodies.
 * Water buoyancy calculations.
-* An optional double precision mode that allows large simulations.
+* An optional double precision mode that allows large worlds.
 
 ## Supported platforms
 
 * Windows (Desktop or UWP) x86/x64/ARM32/ARM64
-* Linux (tested on Ubuntu) x64/ARM64
+* Linux (tested on Ubuntu) x86/x64/ARM32/ARM64/RISC-V64/LoongArch64/PowerPC64LE
 * FreeBSD
 * Android x86/x64/ARM32/ARM64
 * Platform Blue (a popular game console) x64
 * macOS x64/ARM64
 * iOS x64/ARM64
+* MSYS2 MinGW64
 * WebAssembly, see [this](https://github.com/jrouwe/JoltPhysics.js) separate project.
 
 ## Required CPU features
@@ -113,9 +118,11 @@ Why create yet another physics engine? Firstly, it has been a personal learning 
 
 ## Documentation
 
-To learn more about Jolt go to the latest [Architecture and API documentation](https://jrouwe.github.io/JoltPhysics/). Documentation for [a specific release is also available](https://jrouwe.github.io/JoltPhysicsDocs/).
-
 To get started, look at the [HelloWorld](HelloWorld/HelloWorld.cpp) example. A [HelloWorld example using CMake FetchContent](https://github.com/jrouwe/JoltPhysicsHelloWorld) is also available to show how you can integrate Jolt Physics in a CMake project.
+
+Every feature in Jolt has its own sample. [Running the Samples application](Docs/Samples.md) and browsing through the [code](https://github.com/jrouwe/JoltPhysics/tree/master/Samples/Tests) is a great way to learn about the library!
+
+To learn more about Jolt go to the latest [Architecture and API documentation](https://jrouwe.github.io/JoltPhysics/). Documentation for [a specific release is also available](https://jrouwe.github.io/JoltPhysicsDocs/).
 
 Some algorithms used by Jolt are described in detail in my GDC 2022 talk: Architecting Jolt Physics for 'Horizon Forbidden West' ([slides](https://gdcvault.com/play/1027560/Architecting-Jolt-Physics-for-Horizon), [slides with speaker notes](https://jrouwe.nl/architectingjolt/ArchitectingJoltPhysics_Rouwe_Jorrit_Notes.pdf), [video](https://gdcvault.com/play/1027891/Architecting-Jolt-Physics-for-Horizon)).
 
@@ -142,24 +149,26 @@ If you're interested in how Jolt scales with multiple CPUs and compares to other
 * Docs - Contains documentation for the library.
 * HelloWorld - A simple application demonstrating how to use the Jolt Physics library.
 * Jolt - All source code for the library is in this folder.
-* JoltViewer - It is possible to record the output of the physics engine using the DebugRendererRecorder class (a .jor file), this folder contains the source code to an application that can visualize a recording. This is useful for e.g. visualizing the output of the PerformanceTest from different platforms. Currently available on Windows only.
+* JoltViewer - It is possible to record the output of the physics engine using the DebugRendererRecorder class (a .jor file), this folder contains the source code to an application that can visualize a recording. This is useful for e.g. visualizing the output of the PerformanceTest from different platforms. Currently available on Windows, macOS and Linux.
 * PerformanceTest - Contains a simple application that runs a [performance test](Docs/PerformanceTest.md) and collects timing information.
-* Samples - This contains the sample application, see the [Samples](Docs/Samples.md) section. Currently available on Windows only.
-* TestFramework - A rendering framework to visualize the results of the physics engine. Used by Samples and JoltViewer. Currently available on Windows only.
+* Samples - This contains the sample application, see the [Samples](Docs/Samples.md) section. Currently available on Windows, macOS and Linux.
+* TestFramework - A rendering framework to visualize the results of the physics engine. Used by Samples and JoltViewer. Currently available on Windows, macOS and Linux.
 * UnitTests - A set of unit tests to validate the behavior of the physics engine.
-* WebIncludes - A number of JavaScript resources used by the internal profiling framework of the physics engine.
 
 ## Bindings for other languages
 
-* C [here](https://github.com/michal-z/zig-gamedev/tree/main/libs/zphysics/libs) and [here](https://github.com/amerkoleci/JoltPhysicsSharp/tree/main/src/joltc)
+* C [here](https://github.com/amerkoleci/joltc), [here](https://github.com/zig-gamedev/zphysics/tree/main/libs/JoltC) and [here](https://github.com/SecondHalfGames/JoltC/)
 * [C#](https://github.com/amerkoleci/JoltPhysicsSharp)
+* Java or Kotlin [here](https://stephengold.github.io/jolt-jni-docs) and [here](https://github.com/Morgoth398/JoltPhysics-JavaFFM)
 * [JavaScript](https://github.com/jrouwe/JoltPhysics.js)
-* [Zig](https://github.com/michal-z/zig-gamedev/tree/main/libs/zphysics)
+* [Rust](https://github.com/SecondHalfGames/jolt-rust)
+* [Zig](https://github.com/zig-gamedev/zphysics)
 
 ## Integrations in other engines
 
-* [Godot](https://github.com/godot-jolt/godot-jolt)
+* [Godot](https://github.com/godotengine/godot)
 * [Source Engine](https://github.com/Joshua-Ashton/VPhysics-Jolt)
+* Unreal Plugin [here](https://github.com/OversizedSunCoreDev/ArtilleryEco) and [here](https://github.com/Yadhu-S/UnrealJolt)
 
 See [a list of projects that use Jolt Physics here](Docs/ProjectsUsingJolt.md).
 
@@ -170,3 +179,5 @@ The project is distributed under the [MIT license](LICENSE).
 ## Contributions
 
 All contributions are welcome! If you intend to make larger changes, please discuss first in the GitHub Discussion section. For non-trivial changes, we require that you agree to a [Contributor Agreement](ContributorAgreement.md). When you create a PR, [CLA assistant](https://cla-assistant.io/) will prompt you to sign it.
+
+Note that all PRs will be squashed before merging, so there's no need to force-push to git to keep the history clean.
