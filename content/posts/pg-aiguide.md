@@ -1,9 +1,9 @@
 ---
 title: pg-aiguide
-date: 2025-12-31T12:38:26+08:00
+date: 2026-01-01T12:48:17+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764744451044-6bfe9eaaa057?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764744451044-6bfe9eaaa057?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766467090654-9b0eb36c1adb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcyNDI4NTl8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766467090654-9b0eb36c1adb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcyNDI4NTl8&ixlib=rb-4.1.0
 ---
 
 # [timescale/pg-aiguide](https://github.com/timescale/pg-aiguide)
