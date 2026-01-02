@@ -1,188 +1,206 @@
 ---
 title: docker-android
-date: 2025-08-16T12:24:45+08:00
+date: 2026-01-02T12:40:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1753186566992-4b609276c4db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1753186566992-4b609276c4db?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTUzMTgyNjB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764936508819-4a2e33380c3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764936508819-4a2e33380c3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
 ---
 
-# [budtmo/docker-android](https://github.com/budtmo/docker-android)
+# [HQarroum/docker-android](https://github.com/HQarroum/docker-android)
 
-
+<br /><br /><br />
 <p align="center">
-  <img id="header" src="./images/logo_docker-android.png" />
-</p>
+  <img width="400" src="assets/icon.png" />
+</p><br /><br />
 
-[![Paypal Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](http://paypal.me/budtmo) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![codecov](https://codecov.io/gh/budtmo/docker-android/branch/master/graph/badge.svg)](https://codecov.io/gh/budtmo/docker-android) [![Join the chat at https://gitter.im/budtmo/docker-android](https://badges.gitter.im/budtmo/docker-android.svg)](https://gitter.im/budtmo/docker-android?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![GitHub release](https://img.shields.io/github/release/budtmo/docker-android.svg)](https://github.com/budtmo/docker-android/releases)
+# docker-android
+> A minimal and customizable Docker image running the Android emulator as a service.
 
-Docker-Android is a docker image built to be used for everything related to Android. It can be used for Application development and testing (native, web and hybrid-app).
+[![Docker Image CI](https://github.com/HQarroum/docker-android/actions/workflows/docker-image.yml/badge.svg)](https://github.com/HQarroum/docker-android/actions/workflows/docker-image.yml)
+[![DeepSource](https://deepsource.io/gh/HQarroum/docker-android.svg/?label=active+issues&show_trend=true&token=JTfGSHolIiMj0WNfv2ES0I6X)](https://deepsource.io/gh/HQarroum/docker-android/?ref=repository-badge)
+![Docker Pulls](https://img.shields.io/docker/pulls/halimqarroum/docker-android)
 
-Advantages of using this project
---------------------------------
-1. Emulator with different device profile and skins, such as Samsung Galaxy S6, LG Nexus 4, HTC Nexus One and more.
-2. Support vnc to be able to see what happen inside docker container
-3. Support log sharing feature where all logs can be accessed from web-UI
-4. Ability to control emulator from outside container by using adb connect
-5. Integrated with other cloud solutions, e.g. [Genymotion Cloud](https://www.genymotion.com/cloud/)
-6. It can be used to build Android project
-7. It can be used to run unit and UI-Test with different test-frameworks, e.g. Appium, Espresso, etc.
+Current version: **1.1.0**
 
-List of Docker-Images
----------------------
-|Android   |API   |Image with latest release version   |Image with specific release version|
-|:---|:---|:---|:---|
-|9.0|28|budtmo/docker-android:emulator_9.0|budtmo/docker-android:emulator_9.0_<release_version>|
-|10.0|29|budtmo/docker-android:emulator_10.0|budtmo/docker-android:emulator_10.0_<release_version>|
-|11.0|30|budtmo/docker-android:emulator_11.0|budtmo/docker-android:emulator_11.0_<release_version>|
-|12.0|32|budtmo/docker-android:emulator_12.0|budtmo/docker-android:emulator_12.0_<release_version>|
-|13.0|33|budtmo/docker-android:emulator_13.0|budtmo/docker-android:emulator_13.0_<release_version>|
-|14.0|34|budtmo/docker-android:emulator_14.0|budtmo/docker-android:emulator_14.0_<release_version>|
-|-|-|budtmo/docker-android:genymotion|budtmo/docker-android:genymotion_<release_version>|
+## 📋 Table of contents
 
-List of Devices
----------------
+- [Features](#-features)
+- [Description](#-description)
+- [Usage](#-usage)
+- [See also](#-see-also)
 
-Type   | Device Name
------  | -----
-Phone  | Samsung Galaxy S10
-Phone  | Samsung Galaxy S9
-Phone  | Samsung Galaxy S8
-Phone  | Samsung Galaxy S7 Edge
-Phone  | Samsung Galaxy S7
-Phone  | Samsung Galaxy S6
-Phone  | Nexus 4
-Phone  | Nexus 5
-Phone  | Nexus One
-Phone  | Nexus S
-Tablet | Nexus 7
-Tablet | Pixel C
+## 🔖 Features
 
-Requirements
-------------
+- Minimal Alpine based image bundled with the Android emulator and KVM support.
+- Bundles the Java Runtime Environment 11 in the image.
+- Customizable Android version, device type and image types.
+- Port-forwarding of emulator and ADB on the container network interface built-in.
+- Emulator images are wiped each time the emulator re-starts.
+- Runs headless, suitable for CI farms. Compatible with [`scrcpy`](https://github.com/Genymobile/scrcpy) to remotely control the Android screen.
 
-1. Docker is installed on your system.
+## 🔰 Description
 
-Quick Start
------------
+The focus of this project is to provide a size-optimized Docker image bundled with the minimal amount of software required to expose a fully functionning Android emulator that's remotely controllable over the network. This image only contains the Android emulator itself, an ADB server used to remotely connect into the emulator from outside the container, and QEMU with `libvirt` support.
 
-1. If you use ***Ubuntu OS*** on your host machine, you can skip this step. For ***OSX*** and ***Windows OS*** user, you need to use Virtual Machine that support Virtualization with Ubuntu OS because the image can be run under ***Ubuntu OS only***.
+You can build this image without the Android SDK and without the Android emulator to make the image smaller. Below is a size comparison between some of the possible build variants.
 
-2. Your machine should support virtualization. To check if the virtualization is enabled is:
-    ```
-    sudo apt install cpu-checker
-    kvm-ok
-    ```
+Variant                   |   Uncompressed   |  Compressed  |
+------------------------- | ---------------- | ------------ |
+API 33 + Emulator         |      5.84 GB     |    1.97 GB   |
+API 32 + Emulator         |      5.89 GB     |    1.93 GB   |
+API 28 + Emulator         |      4.29 GB     |    1.46 GB   |
+Without SDK and emulator  |      414 MB      |    138 MB    |
 
-3. Run Docker-Android container
-    ```
-    docker run -d -p 6080:6080 -e EMULATOR_DEVICE="Samsung Galaxy S10" -e WEB_VNC=true --device /dev/kvm --name android-container budtmo/docker-android:emulator_11.0
-    ```
+## 📘 Usage
 
-4. Open ***http://localhost:6080*** to see inside running container.
+By default, a build will bundle the Android SDK, platform tools and emulator with the image.
 
-5. To check the status of the emulator
-    ```
-    docker exec -it android-container cat device_status
-    ```
+with docker-compose:
 
-Persisting data
------------
+```bash
+docker compose up android-emulator
+```
 
-The default behaviour is to destroy the emulated device on container restart. To persist data, you need to mount a volume at `/home/androidusr`:
-    ```
-    docker run -v data:/home/androidusr budtmo/docker-android:emulator_11.0
-    ```
+or with GPU acceleration
+```bash
+docker compose up android-emulator-cuda
+```
 
-WSL2 Hardware acceleration (Windows 11 only)
------------
+or for example with GPU acceleration and google playstore
+```bash
+docker compose up android-emulator-cuda-store
+```
 
-Credit goes to [Guillaume - The Parallel Interface blog](https://www.paralint.com/2022/11/find-new-modified-and-unversioned-subversion-files-on-windows)
-
-[Microsoft - Advanced settings configuration in WSL](https://learn.microsoft.com/en-us/windows/wsl/wsl-config)
+with only docker
 
 
-1. Add yourself to the `kvm` usergroup.
-    ```
-    sudo usermod -a -G kvm ${USER}
-    ```
+```bash
+docker build -t android-emulator .
+```
 
-2. Add necessary flags to `/etc/wsl2.conf` to their respective sections.
-    ```
-    [boot]
-    command = /bin/bash -c 'chown -v root:kvm /dev/kvm && chmod 660 /dev/kvm'
+## Keys
 
-    [wsl2]
-    nestedVirtualization=true
-    ```
-3. Restart WSL2 via CMD prompt or Powershell
-    ```
-    wsl --shutdown
-    ```
+To run google_apis_playstore image, you need to have same adbkey between emulator and client.
 
+You can generate one by running `adb keygen adbkey`, that generates 2 files - adbkey and adbkey.pub.
 
-`command = /bin/bash -c 'chown -v root:kvm /dev/kvm && chmod 660 /dev/kvm'` sets `/dev/kvm` to `kvm` usergroup rather than the default `root` usergroup on WSL2 startup.
+override them inside ./keys directory.
 
-`nestedVirtualization` flag is only available to Windows 11.
+### Running the container
 
-Use-Cases
----------
+Once the image is built, you can mount your KVM driver on the container and expose its ADB port.
 
-1. [Build Android project](./documentations/USE_CASE_BUILD_ANDROID_PROJECT.md)
-2. [UI-Test with Appium](./documentations/USE_CASE_APPIUM.md)
-3. [Control Android emulator on host machine](./documentations/USE_CASE_CONTROL_EMULATOR.md)
-4. [SMS Simulation](./documentations/USE_CASE_SMS.md)
-5. [Jenkins](./documentations/USE_CASE_JENKINS.md)
-6. [Deploying on cloud (Azure, AWS, GCP)](./documentations/USE_CASE_CLOUD.md)
+> Ensure 4GB of memory and at least 8GB of disk space for API 33.
 
-Custom-Configurations
----------------------
+```bash
+docker run -it --rm --device /dev/kvm -p 5555:5555 android-emulator
+```
 
-This [document](./documentations/CUSTOM_CONFIGURATIONS.md) contains information about configurations that can be used to enable some features, e.g. log-sharing, etc.
+### Save data/storage after restart (wipe)
 
-Genymotion
-----------
+All avd save in docker dir `/data`, name for avd is `android`
 
-<p align="center">
-  <img id="geny" src="./images/logo_genymotion_and_dockerandroid.png" />
-</p>
+```bash
+docker run -it --rm --device /dev/kvm -p 5555:5555 -v ~/android_avd:/data android-emulator
+```
 
-For you who do not have ressources to maintain the simulator or to buy machines or need different device profiles, you can give a try by using [Genymotion SAAS](https://cloud.geny.io/). Docker-Android is [integrated with Genymotion](https://www.genymotion.com/blog/partner_tag/docker/) on different cloud services, e.g. Genymotion SAAS, AWS, GCP, Alibaba Cloud. Please follow [this document](./documentations/THIRD_PARTY_GENYMOTION.md) for more detail.
+### Connect ADB to the container
 
-Emulator Skins
---------------
-The Emulator skins are taken from [Android Studio IDE](https://developer.android.com/studio) and [Samsung Developer Website](https://developer.samsung.com/)
+The ADB server in the container will be spawned automatically and listen on all interfaces in the container. After a few seconds, once the kernel has booted, you will be able to connect ADB to the container.
 
-USERS
------
+```bash
+adb connect 127.0.0.1:5555
+```
 
-<a href="https://lookerstudio.google.com/s/iGaemHJqQvg">
-  <p align="center">
-    <img src="./images/docker-android_users.png" alt="docker-android-users" width="800" height="600">
-  </p>
-</a>
+Additionally, you can use [`scrcpy`](https://github.com/Genymobile/scrcpy) to control the screen of the emulator remotely. To do so, you simply have to connect ADB and run it locally.
 
-PRO VERSION
------------
+> By default, the emulator runs with a Pixel preset (1080x1920).
 
-Due to high requests for help and to be able to actively maintain the projects, the creator has decided to create docker-android-pro. Docker-Android-Pro is a sponsor based project which mean that the docker image of pro-version can be pulled only by [active sponsor](https://github.com/sponsors/budtmo).
+```bash
+scrcpy
+```
 
-The differences between normal version and pro version are:
+<br />
+<table>
+  <tr>
+    <td>
+      <img width="260" src="assets/screenshot.png" />
+    </td>
+    <td>
+      <img width="260" src="assets/screenshot-2.png" />
+    </td>
+    <td>
+      <img width="260" src="assets/screenshot-3.png" />
+    </td>
+  </tr>
+</table>
+<br />
 
-|Feature   |Normal   |Pro   |Comment|
-|:---|:---|:---|:---|
-|user-behavior-analytics|Yes|No|-|
-|proxy|No|Yes|Set up company proxy on Android emulator on fly|
-|language|No|Yes|Set up language on Android emulator on fly|
-|Newer Android version|No|Yes|Support other newer Android version e.g. Android 15, Android 16, etc|
-|root-privileged|No|Yes|Able to run command with security privileged|
-|headless-mode|No|Yes|Save resources by using headless mode|
-|Selenium 4.x integration|No|Yes|Running Appium UI-Tests againt one (Selenium Hub) endpoint for Android- and iOS emulator(s) / device(s)|
-|multiple Android-Simulators|No|Yes (soon)|Save resources by having multiple Android-Simulators on one docker-container|
-|Google Play Store|No|Yes (soon)|-|
-|Video Recording|No|Yes (soon)|Helpful for debugging|
+### Customize the image
 
-This [document](./documentations/DOCKER-ANDROID-PRO.md) contains detail information about how to use docker-android-pro.
+It is possible to customize the API level (Android version) and the image type (Google APIs vs PlayStore) when building the image.
 
-LICENSE
--------
-See [License](LICENSE.md)
+> By default, the image will build with API 33 with support for Google APIs for an x86_64 architecture.
+
+This can come in handy when integrating multiple images as part of a CI pipeline where an application or a set of applications need to be tested against different Android versions. There are 2 variables that can be specified at build time to change the Android image.
+
+- `API_LEVEL` - Specifies the [API level](https://apilevels.com/) associated with the image. Use this parameter to change the Android version.
+- `IMG_TYPE` - Specifies the type of image to install.
+- `ARCHITECTURE` Specifies the CPU architecture of the Android image. Note that only `x86_64` and `x86` are actively supported by this image.
+
+The below example will install Android Pie with support for the Google Play Store.
+
+```bash
+docker build \
+  --build-arg API_LEVEL=28 \
+  --build-arg IMG_TYPE=google_apis_playstore \
+  --build-arg ARCHITECTURE=x86 \
+  --tag android-emulator .
+```
+
+### Variables
+#### Default variables
+
+#### Disable animation
+DISABLE_ANIMATION=false
+
+#### Disable hidden policy
+DISABLE_HIDDEN_POLICY=false
+
+#### Skip adb authentication
+SKIP_AUTH=true
+
+#### Memory for emulator
+MEMORY=8192
+
+#### Cores for emulator
+CORES=4
+
+### Mount an external drive in the container
+
+It might be sometimes useful to have the entire Android SDK folder outside of the container (stored on a shared distributed filesystem such as NFS for example), to significantly reduce the size and the build time of the image.
+
+To do so, you can specify a specific argument at build time to disable the download and installation of the SDK in the image.
+
+```bash
+docker build -t android-emulator --build-arg INSTALL_ANDROID_SDK=0 .
+```
+
+> You will need mount the SDK in the container at `/opt/android`.
+
+```bash
+docker run -it --rm --device /dev/kvm -p 5555:5555 -v /shared/android/sdk:/opt/android/ android-emulator
+```
+
+### Pull from Docker Hub
+
+Different pre-built images of `docker-android` exist on [Docker Hub](https://hub.docker.com/r/halimqarroum/docker-android). Each image variant is tagged using its the api level and image type. For example, to pull an API 33 image, you can run the following.
+
+```bash
+docker pull halimqarroum/docker-android:api-33
+```
+
+## 👀 See also
+
+- The [alpine-android](https://github.com/alvr/alpine-android) project which is based on a different Alpine image.
+- The [docker-android](https://github.com/budtmo/docker-android) project which offers a WebRTC interface to an Android emulator.

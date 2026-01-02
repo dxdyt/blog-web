@@ -1,9 +1,9 @@
 ---
 title: cs249r_book
-date: 2026-01-01T12:48:04+08:00
+date: 2026-01-02T12:40:58+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1766429716331-5aa0f2ab33ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcyNDI4NTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1766429716331-5aa0f2ab33ca?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcyNDI4NTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764418659027-b1da026826ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764418659027-b1da026826ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
 ---
 
 # [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)

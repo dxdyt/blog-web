@@ -1,292 +1,385 @@
 ---
 title: agents
-date: 2025-12-05T12:30:18+08:00
+date: 2026-01-02T12:41:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1761872936075-1ae069476d46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1761872936075-1ae069476d46?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjQ5MDg5MDZ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764418659027-b1da026826ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764418659027-b1da026826ec?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjczMjg4MDh8&ixlib=rb-4.1.0
 ---
 
-# [wshobson/agents](https://github.com/wshobson/agents)
+# [livekit/agents](https://github.com/livekit/agents)
 
-# Claude Code Plugins: Orchestration and Automation
+<!--BEGIN_BANNER_IMAGE-->
 
-> **⚡ Updated for Sonnet 4.5 & Haiku 4.5** — All agents optimized for latest models with hybrid orchestration
->
-> **🎯 Agent Skills Enabled** — 47 specialized skills extend Claude's capabilities across plugins with progressive disclosure
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="/.github/banner_dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="/.github/banner_light.png">
+  <img style="width:100%;" alt="The LiveKit icon, the name of the repository and some sample code in the background." src="https://raw.githubusercontent.com/livekit/agents/main/.github/banner_light.png">
+</picture>
 
-A comprehensive production-ready system combining **85 specialized AI agents**, **15 multi-agent workflow orchestrators**, **47 agent skills**, and **44 development tools** organized into **63 focused, single-purpose plugins** for [Claude Code](https://docs.claude.com/en/docs/claude-code/overview).
+<!--END_BANNER_IMAGE-->
+<br />
 
-## Overview
+![PyPI - Version](https://img.shields.io/pypi/v/livekit-agents)
+[![PyPI Downloads](https://static.pepy.tech/badge/livekit-agents/month)](https://pepy.tech/projects/livekit-agents)
+[![Slack community](https://img.shields.io/endpoint?url=https%3A%2F%2Flivekit.io%2Fbadges%2Fslack)](https://livekit.io/join-slack)
+[![Twitter Follow](https://img.shields.io/twitter/follow/livekit)](https://twitter.com/livekit)
+[![Ask DeepWiki for understanding the codebase](https://deepwiki.com/badge.svg)](https://deepwiki.com/livekit/agents)
+[![License](https://img.shields.io/github/license/livekit/livekit)](https://github.com/livekit/livekit/blob/master/LICENSE)
 
-This unified repository provides everything needed for intelligent automation and multi-agent orchestration across modern software development:
+<br />
 
-- **63 Focused Plugins** - Granular, single-purpose plugins optimized for minimal token usage and composability
-- **85 Specialized Agents** - Domain experts with deep knowledge across architecture, languages, infrastructure, quality, data/AI, documentation, business operations, and SEO
-- **47 Agent Skills** - Modular knowledge packages with progressive disclosure for specialized expertise
-- **15 Workflow Orchestrators** - Multi-agent coordination systems for complex operations like full-stack development, security hardening, ML pipelines, and incident response
-- **44 Development Tools** - Optimized utilities including project scaffolding, security scanning, test automation, and infrastructure setup
+Looking for the JS/TS library? Check out [AgentsJS](https://github.com/livekit/agents-js)
 
-### Key Features
+## What is Agents?
 
-- **Granular Plugin Architecture**: 63 focused plugins optimized for minimal token usage
-- **Comprehensive Tooling**: 44 development tools including test generation, scaffolding, and security scanning
-- **100% Agent Coverage**: All plugins include specialized agents
-- **Agent Skills**: 47 specialized skills following for progressive disclosure and token efficiency
-- **Clear Organization**: 23 categories with 1-6 plugins each for easy discovery
-- **Efficient Design**: Average 3.4 components per plugin (follows Anthropic's 2-8 pattern)
+<!--BEGIN_DESCRIPTION-->
 
-### How It Works
+The Agent Framework is designed for building realtime, programmable participants
+that run on servers. Use it to create conversational, multi-modal voice
+agents that can see, hear, and understand.
 
-Each plugin is completely isolated with its own agents, commands, and skills:
+<!--END_DESCRIPTION-->
 
-- **Install only what you need** - Each plugin loads only its specific agents, commands, and skills
-- **Minimal token usage** - No unnecessary resources loaded into context
-- **Mix and match** - Compose multiple plugins for complex workflows
-- **Clear boundaries** - Each plugin has a single, focused purpose
-- **Progressive disclosure** - Skills load knowledge only when activated
+## Features
 
-**Example**: Installing `python-development` loads 3 Python agents, 1 scaffolding tool, and makes 5 skills available (~300 tokens), not the entire marketplace.
+- **Flexible integrations**: A comprehensive ecosystem to mix and match the right STT, LLM, TTS, and Realtime API to suit your use case.
+- **Integrated job scheduling**: Built-in task scheduling and distribution with [dispatch APIs](https://docs.livekit.io/agents/build/dispatch/) to connect end users to agents.
+- **Extensive WebRTC clients**: Build client applications using LiveKit's open-source SDK ecosystem, supporting all major platforms.
+- **Telephony integration**: Works seamlessly with LiveKit's [telephony stack](https://docs.livekit.io/sip/), allowing your agent to make calls to or receive calls from phones.
+- **Exchange data with clients**: Use [RPCs](https://docs.livekit.io/home/client/data/rpc/) and other [Data APIs](https://docs.livekit.io/home/client/data/) to seamlessly exchange data with clients.
+- **Semantic turn detection**: Uses a transformer model to detect when a user is done with their turn, helps to reduce interruptions.
+- **MCP support**: Native support for MCP. Integrate tools provided by MCP servers with one loc.
+- **Builtin test framework**: Write tests and use judges to ensure your agent is performing as expected.
+- **Open-source**: Fully open-source, allowing you to run the entire stack on your own servers, including [LiveKit server](https://github.com/livekit/livekit), one of the most widely used WebRTC media servers.
 
-## Quick Start
+## Installation
 
-### Step 1: Add the Marketplace
-
-Add this marketplace to Claude Code:
-
-```bash
-/plugin marketplace add wshobson/agents
-```
-
-This makes all 63 plugins available for installation, but **does not load any agents or tools** into your context.
-
-### Step 2: Install Plugins
-
-Browse available plugins:
+To install the core Agents library, along with plugins for popular model providers:
 
 ```bash
-/plugin
+pip install "livekit-agents[openai,silero,deepgram,cartesia,turn-detector]~=1.0"
 ```
 
-Install the plugins you need:
+## Docs and guides
 
-```bash
-# Essential development plugins
-/plugin install python-development          # Python with 5 specialized skills
-/plugin install javascript-typescript       # JS/TS with 4 specialized skills
-/plugin install backend-development         # Backend APIs with 3 architecture skills
+Documentation on the framework and how to use it can be found [here](https://docs.livekit.io/agents/)
 
-# Infrastructure & operations
-/plugin install kubernetes-operations       # K8s with 4 deployment skills
-/plugin install cloud-infrastructure        # AWS/Azure/GCP with 4 cloud skills
+## Core concepts
 
-# Security & quality
-/plugin install security-scanning           # SAST with security skill
-/plugin install code-review-ai             # AI-powered code review
+- Agent: An LLM-based application with defined instructions.
+- AgentSession: A container for agents that manages interactions with end users.
+- entrypoint: The starting point for an interactive session, similar to a request handler in a web server.
+- Worker: The main process that coordinates job scheduling and launches agents for user sessions.
 
-# Full-stack orchestration
-/plugin install full-stack-orchestration   # Multi-agent workflows
+## Usage
+
+### Simple voice agent
+
+---
+
+```python
+from livekit.agents import (
+    Agent,
+    AgentSession,
+    JobContext,
+    RunContext,
+    WorkerOptions,
+    cli,
+    function_tool,
+)
+from livekit.plugins import silero
+
+@function_tool
+async def lookup_weather(
+    context: RunContext,
+    location: str,
+):
+    """Used to look up weather information."""
+
+    return {"weather": "sunny", "temperature": 70}
+
+
+async def entrypoint(ctx: JobContext):
+    await ctx.connect()
+
+    agent = Agent(
+        instructions="You are a friendly voice assistant built by LiveKit.",
+        tools=[lookup_weather],
+    )
+    session = AgentSession(
+        vad=silero.VAD.load(),
+        # any combination of STT, LLM, TTS, or realtime API can be used
+        stt="assemblyai/universal-streaming:en",
+        llm="openai/gpt-4.1-mini",
+        tts="cartesia/sonic-2:9626c31c-bec5-4cca-baa8-f8ba9e84c8bc",
+    )
+
+    await session.start(agent=agent, room=ctx.room)
+    await session.generate_reply(instructions="greet the user and ask about their day")
+
+
+if __name__ == "__main__":
+    cli.run_app(WorkerOptions(entrypoint_fnc=entrypoint))
 ```
 
-Each installed plugin loads **only its specific agents, commands, and skills** into Claude's context.
+You'll need the following environment variables for this example:
 
-## Documentation
+- DEEPGRAM_API_KEY
+- OPENAI_API_KEY
+- ELEVEN_API_KEY
 
-### Core Guides
+### Multi-agent handoff
 
-- **[Plugin Reference](docs/plugins.md)** - Complete catalog of all 63 plugins
-- **[Agent Reference](docs/agents.md)** - All 85 agents organized by category
-- **[Agent Skills](docs/agent-skills.md)** - 47 specialized skills with progressive disclosure
-- **[Usage Guide](docs/usage.md)** - Commands, workflows, and best practices
-- **[Architecture](docs/architecture.md)** - Design principles and patterns
+---
 
-### Quick Links
+This code snippet is abbreviated. For the full example, see [multi_agent.py](examples/voice_agents/multi_agent.py)
 
-- [Installation](#quick-start) - Get started in 2 steps
-- [Essential Plugins](docs/plugins.md#quick-start---essential-plugins) - Top plugins for immediate productivity
-- [Command Reference](docs/usage.md#command-reference-by-category) - All slash commands organized by category
-- [Multi-Agent Workflows](docs/usage.md#multi-agent-workflow-examples) - Pre-configured orchestration examples
-- [Model Configuration](docs/agents.md#model-configuration) - Haiku/Sonnet hybrid orchestration
+```python
+...
+class IntroAgent(Agent):
+    def __init__(self) -> None:
+        super().__init__(
+            instructions=f"You are a story teller. Your goal is to gather a few pieces of information from the user to make the story personalized and engaging."
+            "Ask the user for their name and where they are from"
+        )
 
-## What's New
+    async def on_enter(self):
+        self.session.generate_reply(instructions="greet the user and gather information")
 
-### Agent Skills (47 skills across 14 plugins)
+    @function_tool
+    async def information_gathered(
+        self,
+        context: RunContext,
+        name: str,
+        location: str,
+    ):
+        """Called when the user has provided the information needed to make the story personalized and engaging.
 
-Specialized knowledge packages following Anthropic's progressive disclosure architecture:
+        Args:
+            name: The name of the user
+            location: The location of the user
+        """
 
-**Language Development:**
-- **Python** (5 skills): async patterns, testing, packaging, performance, UV package manager
-- **JavaScript/TypeScript** (4 skills): advanced types, Node.js patterns, testing, modern ES6+
+        context.userdata.name = name
+        context.userdata.location = location
 
-**Infrastructure & DevOps:**
-- **Kubernetes** (4 skills): manifests, Helm charts, GitOps, security policies
-- **Cloud Infrastructure** (4 skills): Terraform, multi-cloud, hybrid networking, cost optimization
-- **CI/CD** (4 skills): pipeline design, GitHub Actions, GitLab CI, secrets management
+        story_agent = StoryAgent(name, location)
+        return story_agent, "Let's start the story!"
 
-**Development & Architecture:**
-- **Backend** (3 skills): API design, architecture patterns, microservices
-- **LLM Applications** (4 skills): LangChain, prompt engineering, RAG, evaluation
 
-**Blockchain & Web3** (4 skills): DeFi protocols, NFT standards, Solidity security, Web3 testing
+class StoryAgent(Agent):
+    def __init__(self, name: str, location: str) -> None:
+        super().__init__(
+            instructions=f"You are a storyteller. Use the user's information in order to make the story personalized."
+            f"The user's name is {name}, from {location}"
+            # override the default model, switching to Realtime API from standard LLMs
+            llm=openai.realtime.RealtimeModel(voice="echo"),
+            chat_ctx=chat_ctx,
+        )
 
-**And more:** Framework migration, observability, payment processing, ML operations, security scanning
+    async def on_enter(self):
+        self.session.generate_reply()
 
-[→ View complete skills documentation](docs/agent-skills.md)
 
-### Hybrid Model Orchestration
+async def entrypoint(ctx: JobContext):
+    await ctx.connect()
 
-Strategic model assignment for optimal performance and cost:
-- **47 Haiku agents** - Fast execution for deterministic tasks
-- **97 Sonnet agents** - Complex reasoning and architecture
+    userdata = StoryData()
+    session = AgentSession[StoryData](
+        vad=silero.VAD.load(),
+        stt="deepgram/nova-3",
+        llm="openai/gpt-4o",
+        tts="cartesia/sonic-2:9626c31c-bec5-4cca-baa8-f8ba9e84c8bc",
+        userdata=userdata,
+    )
 
-Orchestration patterns combine models for efficiency:
-```
-Sonnet (planning) → Haiku (execution) → Sonnet (review)
-```
-
-[→ View model configuration details](docs/agents.md#model-configuration)
-
-## Popular Use Cases
-
-### Full-Stack Feature Development
-
-```bash
-/full-stack-orchestration:full-stack-feature "user authentication with OAuth2"
-```
-
-Coordinates 7+ agents: backend-architect → database-architect → frontend-developer → test-automator → security-auditor → deployment-engineer → observability-engineer
-
-[→ View all workflow examples](docs/usage.md#multi-agent-workflow-examples)
-
-### Security Hardening
-
-```bash
-/security-scanning:security-hardening --level comprehensive
-```
-
-Multi-agent security assessment with SAST, dependency scanning, and code review.
-
-### Python Development with Modern Tools
-
-```bash
-/python-development:python-scaffold fastapi-microservice
+    await session.start(
+        agent=IntroAgent(),
+        room=ctx.room,
+    )
+...
 ```
 
-Creates production-ready FastAPI project with async patterns, activating skills:
-- `async-python-patterns` - AsyncIO and concurrency
-- `python-testing-patterns` - pytest and fixtures
-- `uv-package-manager` - Fast dependency management
+### Testing
 
-### Kubernetes Deployment
+Automated tests are essential for building reliable agents, especially with the non-deterministic behavior of LLMs. LiveKit Agents include native test integration to help you create dependable agents.
 
-```bash
-# Activates k8s skills automatically
-"Create production Kubernetes deployment with Helm chart and GitOps"
-```
-
-Uses kubernetes-architect agent with 4 specialized skills for production-grade configs.
-
-[→ View complete usage guide](docs/usage.md)
-
-## Plugin Categories
-
-**23 categories, 63 plugins:**
-
-- 🎨 **Development** (4) - debugging, backend, frontend, multi-platform
-- 📚 **Documentation** (2) - code docs, API specs, diagrams
-- 🔄 **Workflows** (3) - git, full-stack, TDD
-- ✅ **Testing** (2) - unit testing, TDD workflows
-- 🔍 **Quality** (3) - code review, comprehensive review, performance
-- 🤖 **AI & ML** (4) - LLM apps, agent orchestration, context, MLOps
-- 📊 **Data** (2) - data engineering, data validation
-- 🗄️ **Database** (2) - database design, migrations
-- 🚨 **Operations** (4) - incident response, diagnostics, distributed debugging, observability
-- ⚡ **Performance** (2) - application performance, database/cloud optimization
-- ☁️ **Infrastructure** (5) - deployment, validation, Kubernetes, cloud, CI/CD
-- 🔒 **Security** (4) - scanning, compliance, backend/API, frontend/mobile
-- 💻 **Languages** (7) - Python, JS/TS, systems, JVM, scripting, functional, embedded
-- 🔗 **Blockchain** (1) - smart contracts, DeFi, Web3
-- 💰 **Finance** (1) - quantitative trading, risk management
-- 💳 **Payments** (1) - Stripe, PayPal, billing
-- 🎮 **Gaming** (1) - Unity, Minecraft plugins
-- 📢 **Marketing** (4) - SEO content, technical SEO, SEO analysis, content marketing
-- 💼 **Business** (3) - analytics, HR/legal, customer/sales
-- And more...
-
-[→ View complete plugin catalog](docs/plugins.md)
-
-## Architecture Highlights
-
-### Granular Design
-
-- **Single responsibility** - Each plugin does one thing well
-- **Minimal token usage** - Average 3.4 components per plugin
-- **Composable** - Mix and match for complex workflows
-- **100% coverage** - All 85 agents accessible across plugins
-
-### Progressive Disclosure (Skills)
-
-Three-tier architecture for token efficiency:
-1. **Metadata** - Name and activation criteria (always loaded)
-2. **Instructions** - Core guidance (loaded when activated)
-3. **Resources** - Examples and templates (loaded on demand)
-
-### Repository Structure
+```python
+@pytest.mark.asyncio
+async def test_no_availability() -> None:
+    llm = google.LLM()
+    async AgentSession(llm=llm) as sess:
+        await sess.start(MyAgent())
+        result = await sess.run(
+            user_input="Hello, I need to place an order."
+        )
+        result.expect.skip_next_event_if(type="message", role="assistant")
+        result.expect.next_event().is_function_call(name="start_order")
+        result.expect.next_event().is_function_call_output()
+        await (
+            result.expect.next_event()
+            .is_message(role="assistant")
+            .judge(llm, intent="assistant should be asking the user what they would like")
+        )
 
 ```
-claude-agents/
-├── .claude-plugin/
-│   └── marketplace.json          # 63 plugins
-├── plugins/
-│   ├── python-development/
-│   │   ├── agents/               # 3 Python experts
-│   │   ├── commands/             # Scaffolding tool
-│   │   └── skills/               # 5 specialized skills
-│   ├── kubernetes-operations/
-│   │   ├── agents/               # K8s architect
-│   │   ├── commands/             # Deployment tools
-│   │   └── skills/               # 4 K8s skills
-│   └── ... (61 more plugins)
-├── docs/                          # Comprehensive documentation
-└── README.md                      # This file
+
+## Examples
+
+<table>
+<tr>
+<td width="50%">
+<h3>🎙️ Starter Agent</h3>
+<p>A starter agent optimized for voice conversations.</p>
+<p>
+<a href="examples/voice_agents/basic_agent.py">Code</a>
+</p>
+</td>
+<td width="50%">
+<h3>🔄 Multi-user push to talk</h3>
+<p>Responds to multiple users in the room via push-to-talk.</p>
+<p>
+<a href="examples/voice_agents/push_to_talk.py">Code</a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h3>🎵 Background audio</h3>
+<p>Background ambient and thinking audio to improve realism.</p>
+<p>
+<a href="examples/voice_agents/background_audio.py">Code</a>
+</p>
+</td>
+<td width="50%">
+<h3>🛠️ Dynamic tool creation</h3>
+<p>Creating function tools dynamically.</p>
+<p>
+<a href="examples/voice_agents/dynamic_tool_creation.py">Code</a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h3>☎️ Outbound caller</h3>
+<p>Agent that makes outbound phone calls</p>
+<p>
+<a href="https://github.com/livekit-examples/outbound-caller-python">Code</a>
+</p>
+</td>
+<td width="50%">
+<h3>📋 Structured output</h3>
+<p>Using structured output from LLM to guide TTS tone.</p>
+<p>
+<a href="examples/voice_agents/structured_output.py">Code</a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h3>🔌 MCP support</h3>
+<p>Use tools from MCP servers</p>
+<p>
+<a href="examples/voice_agents/mcp">Code</a>
+</p>
+</td>
+<td width="50%">
+<h3>💬 Text-only agent</h3>
+<p>Skip voice altogether and use the same code for text-only integrations</p>
+<p>
+<a href="examples/other/text_only.py">Code</a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h3>📝 Multi-user transcriber</h3>
+<p>Produce transcriptions from all users in the room</p>
+<p>
+<a href="examples/other/transcription/multi-user-transcriber.py">Code</a>
+</p>
+</td>
+<td width="50%">
+<h3>🎥 Video avatars</h3>
+<p>Add an AI avatar with Tavus, Beyond Presence, and Bithuman</p>
+<p>
+<a href="examples/avatar_agents/">Code</a>
+</p>
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+<h3>🍽️ Restaurant ordering and reservations</h3>
+<p>Full example of an agent that handles calls for a restaurant.</p>
+<p>
+<a href="examples/voice_agents/restaurant_agent.py">Code</a>
+</p>
+</td>
+<td width="50%">
+<h3>👁️ Gemini Live vision</h3>
+<p>Full example (including iOS app) of Gemini Live agent that can see.</p>
+<p>
+<a href="https://github.com/livekit-examples/vision-demo">Code</a>
+</p>
+</td>
+</tr>
+
+</table>
+
+## Running your agent
+
+### Testing in terminal
+
+```shell
+python myagent.py console
 ```
 
-[→ View architecture details](docs/architecture.md)
+Runs your agent in terminal mode, enabling local audio input and output for testing.
+This mode doesn't require external servers or dependencies and is useful for quickly validating behavior.
+
+### Developing with LiveKit clients
+
+```shell
+python myagent.py dev
+```
+
+Starts the agent server and enables hot reloading when files change. This mode allows each process to host multiple concurrent agents efficiently.
+
+The agent connects to LiveKit Cloud or your self-hosted server. Set the following environment variables:
+- LIVEKIT_URL
+- LIVEKIT_API_KEY
+- LIVEKIT_API_SECRET
+
+You can connect using any LiveKit client SDK or telephony integration.
+To get started quickly, try the [Agents Playground](https://agents-playground.livekit.io/).
+
+### Running for production
+
+```shell
+python myagent.py start
+```
+
+Runs the agent with production-ready optimizations.
 
 ## Contributing
 
-To add new agents, skills, or commands:
+The Agents framework is under active development in a rapidly evolving field. We welcome and appreciate contributions of any kind, be it feedback, bugfixes, features, new plugins and tools, or better documentation. You can file issues under this repo, open a PR, or chat with us in LiveKit's [Slack community](https://livekit.io/join-slack).
 
-1. Identify or create the appropriate plugin directory in `plugins/`
-2. Create `.md` files in the appropriate subdirectory:
-   - `agents/` - For specialized agents
-   - `commands/` - For tools and workflows
-   - `skills/` - For modular knowledge packages
-3. Follow naming conventions (lowercase, hyphen-separated)
-4. Write clear activation criteria and comprehensive content
-5. Update the plugin definition in `.claude-plugin/marketplace.json`
-
-See [Architecture Documentation](docs/architecture.md) for detailed guidelines.
-
-## Resources
-
-### Documentation
-- [Claude Code Documentation](https://docs.claude.com/en/docs/claude-code/overview)
-- [Plugins Guide](https://docs.claude.com/en/docs/claude-code/plugins)
-- [Subagents Guide](https://docs.claude.com/en/docs/claude-code/sub-agents)
-- [Agent Skills Guide](https://docs.claude.com/en/docs/agents-and-tools/agent-skills/overview)
-- [Slash Commands Reference](https://docs.claude.com/en/docs/claude-code/slash-commands)
-
-### This Repository
-- [Plugin Reference](docs/plugins.md)
-- [Agent Reference](docs/agents.md)
-- [Agent Skills Guide](docs/agent-skills.md)
-- [Usage Guide](docs/usage.md)
-- [Architecture](docs/architecture.md)
-
-## License
-
-MIT License - see [LICENSE](LICENSE) file for details.
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=wshobson/agents&type=date&legend=top-left)](https://www.star-history.com/#wshobson/agents&type=date&legend=top-left)
+<!--BEGIN_REPO_NAV-->
+<br/><table>
+<thead><tr><th colspan="2">LiveKit Ecosystem</th></tr></thead>
+<tbody>
+<tr><td>LiveKit SDKs</td><td><a href="https://github.com/livekit/client-sdk-js">Browser</a> · <a href="https://github.com/livekit/client-sdk-swift">iOS/macOS/visionOS</a> · <a href="https://github.com/livekit/client-sdk-android">Android</a> · <a href="https://github.com/livekit/client-sdk-flutter">Flutter</a> · <a href="https://github.com/livekit/client-sdk-react-native">React Native</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/client-sdk-unity">Unity</a> · <a href="https://github.com/livekit/client-sdk-unity-web">Unity (WebGL)</a> · <a href="https://github.com/livekit/client-sdk-esp32">ESP32</a></td></tr><tr></tr>
+<tr><td>Server APIs</td><td><a href="https://github.com/livekit/node-sdks">Node.js</a> · <a href="https://github.com/livekit/server-sdk-go">Golang</a> · <a href="https://github.com/livekit/server-sdk-ruby">Ruby</a> · <a href="https://github.com/livekit/server-sdk-kotlin">Java/Kotlin</a> · <a href="https://github.com/livekit/python-sdks">Python</a> · <a href="https://github.com/livekit/rust-sdks">Rust</a> · <a href="https://github.com/agence104/livekit-server-sdk-php">PHP (community)</a> · <a href="https://github.com/pabloFuente/livekit-server-sdk-dotnet">.NET (community)</a></td></tr><tr></tr>
+<tr><td>UI Components</td><td><a href="https://github.com/livekit/components-js">React</a> · <a href="https://github.com/livekit/components-android">Android Compose</a> · <a href="https://github.com/livekit/components-swift">SwiftUI</a> · <a href="https://github.com/livekit/components-flutter">Flutter</a></td></tr><tr></tr>
+<tr><td>Agents Frameworks</td><td><b>Python</b> · <a href="https://github.com/livekit/agents-js">Node.js</a> · <a href="https://github.com/livekit/agent-playground">Playground</a></td></tr><tr></tr>
+<tr><td>Services</td><td><a href="https://github.com/livekit/livekit">LiveKit server</a> · <a href="https://github.com/livekit/egress">Egress</a> · <a href="https://github.com/livekit/ingress">Ingress</a> · <a href="https://github.com/livekit/sip">SIP</a></td></tr><tr></tr>
+<tr><td>Resources</td><td><a href="https://docs.livekit.io">Docs</a> · <a href="https://github.com/livekit-examples">Example apps</a> · <a href="https://livekit.io/cloud">Cloud</a> · <a href="https://docs.livekit.io/home/self-hosting/deployment">Self-hosting</a> · <a href="https://github.com/livekit/livekit-cli">CLI</a></td></tr>
+</tbody>
+</table>
+<!--END_REPO_NAV-->
