@@ -1,9 +1,9 @@
 ---
 title: awesome-math
-date: 2025-10-24T12:22:41+08:00
+date: 2026-01-03T12:32:16+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1760292343776-e8e35bb469c6?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjEyNzk2OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766054093603-289593c48cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc0MTQ2OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766054093603-289593c48cdf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc0MTQ2OTh8&ixlib=rb-4.1.0
 ---
 
 # [rossant/awesome-math](https://github.com/rossant/awesome-math)
@@ -153,6 +153,9 @@ All resources are freely available except those with a 💲 icon.
 * [Midpoint Calculator](https://midpointcalculator.co)
 * [Quartiles Calculator](https://quartilecalculator.net)
 * [Corca Editor](https://corca.io/)
+* [RunMat](https://github.com/runmat-org/runmat) - Runtime for MATLAB-syntax array math with automatic CPU/GPU execution.
+* [Structural Engineering Tools (SEPCO Engineering)](https://github.com/sepcostructural/structural-engineering-tools) - Free online calculators for beam diagrams, Canadian steel section properties, and pressure conversions.
+
 
 ## Questions and Answers
 

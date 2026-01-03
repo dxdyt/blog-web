@@ -1,9 +1,9 @@
 ---
 title: nocodb
-date: 2026-01-01T12:49:00+08:00
+date: 2026-01-03T12:31:54+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765219272225-465c8e9f433c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcyNDI4NTl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765219272225-465c8e9f433c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcyNDI4NTl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764957080617-f72eafe0615b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc0MTQ2OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764957080617-f72eafe0615b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc0MTQ2OTh8&ixlib=rb-4.1.0
 ---
 
 # [nocodb/nocodb](https://github.com/nocodb/nocodb)

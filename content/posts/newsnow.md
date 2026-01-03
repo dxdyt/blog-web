@@ -1,14 +1,12 @@
 ---
 title: newsnow
-date: 2025-06-22T12:30:18+08:00
+date: 2026-01-03T12:32:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1738005787757-26cbc96a3267?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1738005787757-26cbc96a3267?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTA1NjY1NTd8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766671617424-d77a5c24de2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc0MTQ2OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766671617424-d77a5c24de2d?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc0MTQ2OTh8&ixlib=rb-4.1.0
 ---
 
 # [ourongxing/newsnow](https://github.com/ourongxing/newsnow)
-
-# NewsNow
 
 ![](/public/og-image.png)
 
