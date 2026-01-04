@@ -1,16 +1,19 @@
 ---
 title: pathway
-date: 2025-10-19T12:22:18+08:00
+date: 2026-01-04T12:49:11+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756745678749-d4f6cabe7d5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756745678749-d4f6cabe7d5e?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjA4NDc2OTV8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765212714774-9cec2e42e383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1MDIxMjh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765212714774-9cec2e42e383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1MDIxMjh8&ixlib=rb-4.1.0
 ---
 
 # [pathwaycom/pathway](https://github.com/pathwaycom/pathway)
 
 <div align="center">
   <a href="https://pathway.com/">
-    <img src="https://pathway.com/logo-light.svg"/>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://pathway.com/logo-dark.svg">
+      <img src="https://pathway.com/logo-light.svg">
+    </picture>
   </a>
   <br /><br />
   <a href="https://trendshift.io/repositories/10388" target="_blank"><img src="https://trendshift.io/api/badge/repositories/10388" alt="pathwaycom%2Fpathway | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -267,6 +270,26 @@ If you are curious, here are [some benchmarks to play with](https://github.com/p
 The entire documentation of Pathway is available at [pathway.com/developers/](https://pathway.com/developers/user-guide/introduction/welcome), including the [API Docs](https://pathway.com/developers/api-docs/pathway).
 
 If you have any question, don't hesitate to [open an issue on GitHub](https://github.com/pathwaycom/pathway/issues), join us on [Discord](https://discord.com/invite/pathway), or send us an email at [contact@pathway.com](mailto:contact@pathway.com).
+
+
+
+## 🤝 Featured Collaborations & Integrations
+
+We build cutting-edge data processing pipelines and co-promote solutions that push the boundaries of what's possible with Python and streaming data.
+Meet the people helping us shape the future of data engineering.
+
+<div align="center">
+
+| Project | Description |
+| ------------ | ----------- |
+| [Databento](https://databento.com/blog/option-greeks) | A simpler, faster way to get market data. |
+| [LangChain](https://docs.langchain.com/oss/python/integrations/vectorstores/pathway) | LangChain is the platform for agent engineering. |
+| [LlamaIndex](https://developers.llamaindex.ai/python/examples/retrievers/pathway_retriever/) | The developer-trusted framework for building context-aware AI agents. |
+| [MinIO](https://www.min.io/) | MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license. |
+| [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | PaddleOCR is an industry-leading, production-ready OCR and document AI engine, offering end-to-end solutions from text extraction to intelligent document understanding. |
+| [Redpanda](https://www.redpanda.com/blog/replace-kafka-redpanda-data-analysis-streaming) | Build, operate, and govern streaming and AI applications without the complexity of Kafka. |
+</div>
+
 
 ## License<a id="license"></a>
 
