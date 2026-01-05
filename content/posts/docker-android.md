@@ -1,9 +1,9 @@
 ---
 title: docker-android
-date: 2026-01-04T12:49:28+08:00
+date: 2026-01-05T12:56:53+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765212714774-9cec2e42e383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1MDIxMjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765212714774-9cec2e42e383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1MDIxMjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766303046126-96e6dcf50929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1ODg5ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766303046126-96e6dcf50929?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1ODg5ODR8&ixlib=rb-4.1.0
 ---
 
 # [HQarroum/docker-android](https://github.com/HQarroum/docker-android)

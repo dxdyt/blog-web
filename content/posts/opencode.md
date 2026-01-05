@@ -1,12 +1,12 @@
 ---
 title: opencode
-date: 2025-12-31T12:39:24+08:00
+date: 2026-01-05T12:57:24+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1763587239043-47e583ac0cb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1763587239043-47e583ac0cb1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjcxNTU4Njh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766593771606-6218280a663c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1ODg5ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766593771606-6218280a663c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1ODg5ODR8&ixlib=rb-4.1.0
 ---
 
-# [sst/opencode](https://github.com/sst/opencode)
+# [anomalyco/opencode](https://github.com/anomalyco/opencode)
 
 <p align="center">
   <a href="https://opencode.ai">
@@ -21,7 +21,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1763587239043-47e583ac0c
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/opencode-ai"><img alt="npm" src="https://img.shields.io/npm/v/opencode-ai?style=flat-square" /></a>
-  <a href="https://github.com/sst/opencode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/sst/opencode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/anomalyco/opencode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/opencode/publish.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 [![OpenCode Terminal UI](packages/web/src/assets/lander/screenshot.png)](https://opencode.ai)
@@ -40,8 +40,8 @@ scoop bucket add extras; scoop install extras/opencode  # Windows
 choco install opencode             # Windows
 brew install opencode              # macOS and Linux
 paru -S opencode-bin               # Arch Linux
-mise use -g github:sst/opencode # Any OS
-nix run nixpkgs#opencode           # or github:sst/opencode for latest dev branch
+mise use -g opencode               # Any OS
+nix run nixpkgs#opencode           # or github:anomalyco/opencode for latest dev branch
 ```
 
 > [!TIP]
@@ -49,7 +49,7 @@ nix run nixpkgs#opencode           # or github:sst/opencode for latest dev branc
 
 ### Desktop App (BETA)
 
-OpenCode is also available as a desktop application. Download directly from the [releases page](https://github.com/sst/opencode/releases) or [opencode.ai/download](https://opencode.ai/download).
+OpenCode is also available as a desktop application. Download directly from the [releases page](https://github.com/anomalyco/opencode/releases) or [opencode.ai/download](https://opencode.ai/download).
 
 | Platform              | Download                              |
 | --------------------- | ------------------------------------- |
