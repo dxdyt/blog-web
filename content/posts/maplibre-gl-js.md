@@ -1,9 +1,9 @@
 ---
 title: maplibre-gl-js
-date: 2026-01-04T12:49:42+08:00
+date: 2026-01-06T12:39:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765212714774-9cec2e42e383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1MDIxMjh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765212714774-9cec2e42e383?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc1MDIxMjh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766155072316-7e3aa18710ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc2NzQzMjF8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766155072316-7e3aa18710ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc2NzQzMjF8&ixlib=rb-4.1.0
 ---
 
 # [maplibre/maplibre-gl-js](https://github.com/maplibre/maplibre-gl-js)
