@@ -1,9 +1,9 @@
 ---
 title: protobuf
-date: 2025-10-30T12:22:15+08:00
+date: 2026-01-07T12:40:07+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1754764464593-638adca1eb4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1754764464593-638adca1eb4f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjE3OTgwODl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766860891078-3aeb5647953f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc3NjA3OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766860891078-3aeb5647953f?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc3NjA3OTh8&ixlib=rb-4.1.0
 ---
 
 # [protocolbuffers/protobuf](https://github.com/protocolbuffers/protobuf)
@@ -13,7 +13,7 @@ Protocol Buffers - Google's data interchange format
 
 [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/protocolbuffers/protobuf/badge)](https://securityscorecards.dev/viewer/?uri=github.com/protocolbuffers/protobuf)
 
-Copyright 2023 Google LLC
+Copyright 2008 Google LLC
 
 Overview
 --------

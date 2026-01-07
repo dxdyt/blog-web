@@ -1,0 +1,90 @@
+---
+title: Kiro
+date: 2026-01-07T12:40:55+08:00
+draft: False
+featuredImage: https://images.unsplash.com/photo-1765767056681-9583b29007cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc3NjA3OTh8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765767056681-9583b29007cf?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc3NjA3OTh8&ixlib=rb-4.1.0
+---
+
+# [kirodotdev/Kiro](https://github.com/kirodotdev/Kiro)
+
+<div align="left">
+  <img src="assets/kiro-icon.png" alt="Kiro" width="120" height="120">
+  
+  # Kiro
+  
+  Kiro is an agentic IDE that helps you go from prototype to production with spec-driven development, agent hooks, and natural language coding assistance. Build faster with AI-powered features that understand your entire codebase, turn prompts into structured specs, and automate repetitive tasks.
+  
+</div>
+
+## Core Capabilities
+
+- **Specs** - Plan and build features using structured specifications that break down requirements into detailed implementation plans
+- **Hooks** - Automate repetitive tasks with intelligent triggers that respond to file changes and development events
+- **Agentic Chat** - Build features through natural conversation with Kiro that understands your project context
+- **Steering** - Guide Kiro's behavior with custom rules and project-specific context through markdown files
+- **MCP Servers** - Connect external tools and data sources through the Model Context Protocol
+- **Privacy First** - Keep your code secure with enterprise-grade security and privacy
+
+## Platform Support
+
+Kiro is available as a standalone desktop application for:
+- **macOS**
+- **Windows** 
+- **Linux**
+
+## Getting Started
+
+### Download & Install
+Download the Kiro desktop application directly from our website -  **[kiro.dev](https://kiro.dev)**
+
+### First Project
+
+Get started with Kiro by following our comprehensive **[first project guide](https://kiro.dev/docs/getting-started/first-project/)**. This hands-on tutorial walks you through Kiro's essential features.
+
+**What you'll learn:**
+- Setting up steering files for project-specific guidance
+- Creating and managing specs for structured development
+- Configuring hooks to automate your workflow
+- Connecting MCP servers for external integrations
+
+
+### One-Click Migration
+Import your VS Code setup including extensions and settings during the initial setup process.
+
+## Documentation
+
+**[📚 View Documentation →](https://kiro.dev/docs/)**
+
+- **[Getting Started](https://kiro.dev/docs/)** - Installation and first project setup
+- **[Chat](https://kiro.dev/docs/chat/)** - Contextual conversations and code generation
+- **[Specs](https://kiro.dev/docs/specs/)** - Structured feature development
+- **[Hooks](https://kiro.dev/docs/hooks/)** - Workflow automation with intelligent triggers
+- **[Steering](https://kiro.dev/docs/steering/)** - Project-specific AI guidance
+- **[MCP](https://kiro.dev/docs/mcp/)** - External tool and service connections
+- **[Troubleshooting](https://kiro.dev/docs/reference/troubleshooting/)** - Troubleshooting and privacy information
+
+## Issue Reporting
+We welcome feedback and issue reports to help improve Kiro. Please use this repository to:
+- Report bugs and technical issues
+- Request new features
+- Share feedback on existing functionality
+- Discuss improvements and enhancements
+
+## Support
+For additional support beyond issue reporting:
+- Join our community [discord server](https://discord.gg/kirodotdev) for quick help and discussions with other developers
+- For billing-related questions, please contact our support team through [AWS Billing Support](https://support.aws.amazon.com/#/contacts/kiro).
+- If you are an existing AWS customer with a paid support plan, for technical issues or general assistance, reach out via [AWS Support](https://support.console.aws.amazon.com/support/home#/).
+
+## Security
+If you discover a potential security issue in this project we ask that you notify AWS/Amazon Security via our [vulnerability reporting page](http://aws.amazon.com/security/vulnerability-reporting/). Please do **not** create a public github issue.
+
+## Code of Conduct
+This project has adopted the [Amazon Open Source Code of Conduct](https://aws.github.io/code-of-conduct).
+For more information see the [Code of Conduct FAQ](https://aws.github.io/code-of-conduct-faq) or contact
+opensource-codeofconduct@amazon.com with any additional questions or comments.
+
+
+---
+©2025 Amazon.com, Inc. or its affiliates (collectively, "Amazon"). All Rights Reserved.
