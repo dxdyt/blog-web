@@ -1,9 +1,9 @@
 ---
 title: public-apis
-date: 2026-01-07T12:40:49+08:00
+date: 2026-01-08T12:39:51+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767131636996-ae27286d36fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc3NjA3OTh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767131636996-ae27286d36fb?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc3NjA3OTh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765213000926-1ae03f344f3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765213000926-1ae03f344f3c?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
 ---
 
 # [marcelscruz/public-apis](https://github.com/marcelscruz/public-apis)
@@ -34,13 +34,6 @@ featuredImagePreview: https://images.unsplash.com/photo-1767131636996-ae27286d36
 <div>
     <p align="center"><a href="https://serpapi.com?ref=dr-pa&utm_medium=public-apis-repo-readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/serpapi-dark-mode.svg" width="150px"><source media="(prefers-color-scheme: light)" srcset="./assets/serpapi-light-mode.svg" width="150px"><img alt="SerpApi logo" src="./assets/serpapi-dark-mode.svg" width="150px"></picture></a></p>
     <p align="center"><a href="https://serpapi.com?ref=dr-pa&utm_medium=public-apis-repo-readme">SerpApi - Search API</a> makes it easy and fast to scrape Google and other search engines.</p>
-</div>
-
-<br/>
-
-<div>
-    <p align="center"><a href="https://companyenrich.com?ref=dr-pa&utm_medium=public-apis-repo-readme"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/companyenrich-dark-mode.svg" width="200px"><source media="(prefers-color-scheme: light)" srcset="./assets/companyenrich-light-mode.svg" width="200px"><img alt="CompanyEnrich logo" src="./assets/companyenrich-dark-mode.svg" width="200px"></picture></a></p>
-    <p align="center"><a href="https://companyenrich.com?ref=dr-pa&utm_medium=public-apis-repo-readme">CompanyEnrich</a>: Access exclusive company data of local and global businesses. Power your products, agentic workflows, and sales operations with fresh, instant company data APIs.</p>
 </div>
 
 <br/>

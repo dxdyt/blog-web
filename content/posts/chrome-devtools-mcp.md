@@ -1,9 +1,9 @@
 ---
 title: chrome-devtools-mcp
-date: 2025-12-14T12:37:07+08:00
+date: 2026-01-08T12:39:19+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764844147680-7c65d23da3e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764844147680-7c65d23da3e1?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjU2ODY5MjJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766961588342-5fb90ee7e073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766961588342-5fb90ee7e073?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
 ---
 
 # [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
@@ -248,6 +248,25 @@ The same way chrome-devtools-mcp can be configured for JetBrains Junie in `Setti
 In **Kiro Settings**, go to `Configure MCP` > `Open Workspace or User MCP Config` > Use the configuration snippet provided above.
 
 Or, from the IDE **Activity Bar** > `Kiro` > `MCP Servers` > `Click Open MCP Config`. Use the configuration snippet provided above.
+
+</details>
+
+<details>
+  <summary>OpenCode</summary>
+
+Add the following configuration to your `opencode.json` file. If you don't have one, create it at `~/.config/opencode/opencode.json` (<a href="https://opencode.ai/docs/mcp-servers">guide</a>):
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "chrome-devtools": {
+      "type": "local",
+      "command": ["npx", "-y", "chrome-devtools-mcp@latest"]
+    }
+  }
+}
+```
 
 </details>
 
@@ -509,7 +528,7 @@ In these cases, start Chrome first and let the Chrome DevTools MCP server connec
 
 **Step 1:** Set up remote debugging in Chrome
 
-In Chrome, do the following to set up remote debugging:
+In Chrome (\>= M144), do the following to set up remote debugging:
 
 1.  Navigate to `chrome://inspect/#remote-debugging` to enable remote debugging.
 2.  Follow the dialog UI to allow or disallow incoming debugging connections.
@@ -526,17 +545,13 @@ The following code snippet is an example configuration for gemini-cli:
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": [
-        "chrome-devtools-mcp@latest",
-        "--autoConnect",
-        "--channel=canary"
-      ]
+      "args": ["chrome-devtools-mcp@latest", "--autoConnect", "--channel=beta"]
     }
   }
 }
 ```
 
-Note: you have to specify `--channel=canary` until Chrome M144 has reached the
+Note: you have to specify `--channel=beta` until Chrome M144 has reached the
 stable channel.
 
 **Step 3:** Test your setup
@@ -547,7 +562,8 @@ Make sure your browser is running. Open gemini-cli and run the following prompt:
 Check the performance of https://developers.chrome.com
 ```
 
-Note: The <code>autoConnect</code> option requires the user to start Chrome.
+> [!NOTE]  
+> The <code>autoConnect</code> option requires the user to start Chrome. If the user has multiple active profiles, the MCP server will connect to the default profile (as determined by Chrome). The MCP server has access to all open windows for the selected profile.
 
 The Chrome DevTools MCP server will try to connect to your running Chrome
 instance. It shows a dialog asking for user permission.
