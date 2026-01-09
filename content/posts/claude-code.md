@@ -1,9 +1,9 @@
 ---
 title: claude-code
-date: 2026-01-06T12:39:59+08:00
+date: 2026-01-09T12:39:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764676209354-446dc19217c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc2NzQzMjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764676209354-446dc19217c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc2NzQzMjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765416589470-0ab68a9368e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765416589470-0ab68a9368e9?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
 ---
 
 # [anthropics/claude-code](https://github.com/anthropics/claude-code)
@@ -16,7 +16,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1764676209354-446dc19217
 
 Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows -- all through natural language commands. Use it in your terminal, IDE, or tag @claude on Github.
 
-**Learn more in the [official documentation](https://docs.anthropic.com/en/docs/claude-code/overview)**.
+**Learn more in the [official documentation](https://code.claude.com/docs/en/overview)**.
 
 <img src="./demo.gif" />
 
@@ -66,7 +66,7 @@ When you use Claude Code, we collect feedback, which includes usage data (such a
 
 ### How we use your data
 
-See our [data usage policies](https://docs.anthropic.com/en/docs/claude-code/data-usage).
+See our [data usage policies](https://code.claude.com/docs/en/data-usage).
 
 ### Privacy safeguards
 

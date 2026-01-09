@@ -1,9 +1,9 @@
 ---
 title: googletest
-date: 2026-01-08T12:38:44+08:00
+date: 2026-01-09T12:40:42+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765706729982-e5475767c4ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765706729982-e5475767c4ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc4NDcxMTJ8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765127585956-f80644ac99d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765127585956-f80644ac99d2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
 ---
 
 # [google/googletest](https://github.com/google/googletest)
