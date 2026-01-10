@@ -1,9 +1,9 @@
 ---
 title: UI-TARS-desktop
-date: 2025-09-09T12:22:23+08:00
+date: 2026-01-10T12:34:12+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1756749477606-5d8939dbfb8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1756749477606-5d8939dbfb8b?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTczOTE3MDl8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1766764904687-8ef86d2248ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1766764904687-8ef86d2248ff?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
 ---
 
 # [bytedance/UI-TARS-desktop](https://github.com/bytedance/UI-TARS-desktop)
@@ -81,6 +81,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ## News
 
+- **\[2025-11-05\]** 🎉 We're excited to announce the release of [Agent TARS CLI v0.3.0](https://github.com/bytedance/UI-TARS-desktop/releases/tag/v0.3.0)! This version brings streaming support for multiple tools (shell commands, multi-file structured display), runtime settings with timing statistics for tool calls and deep thinking, Event Stream Viewer for data flow tracking and debugging. Additionally, it features exclusive support for [AIO agent Sandbox](https://github.com/agent-infra/sandbox) as isolated all-in-one tools execution environment.
 - **\[2025-06-25\]** We released a Agent TARS Beta and Agent TARS CLI - [Introducing Agent TARS Beta](https://agent-tars.com/blog/2025-06-25-introducing-agent-tars-beta.html), a multimodal AI agent that aims to explore a work form that is closer to human-like task completion through rich multimodal capabilities (such as GUI Agent, Vision) and seamless integration with various real-world tools.
 - **\[2025-06-12\]** - 🎁 We are thrilled to announce the release of UI-TARS Desktop v0.2.0! This update introduces two powerful new features: **Remote Computer Operator** and **Remote Browser Operator**—both completely free. No configuration required: simply click to remotely control any computer or browser, and experience a new level of convenience and intelligence.
 - **\[2025-04-17\]** - 🎉 We're thrilled to announce the release of new UI-TARS Desktop application v0.1.0, featuring a redesigned Agent UI. The application enhances the computer using experience, introduces new browser operation features, and supports [the advanced UI-TARS-1.5 model](https://seed-tars.com/1.5) for improved performance and precise control.
@@ -97,14 +98,13 @@ English | [简体中文](./README.zh-CN.md)
     <a href="https://nodejs.org/en/about/previous-releases"><img src="https://img.shields.io/node/v/@agent-tars/cli.svg?style=for-the-badge&colorA=1a1a2e&colorB=06B6D4&logo=node.js&logoColor=white" alt="node version"></a>
     <a href="https://discord.gg/HnKcSBgTVx"><img src="https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord Community" /></a>
     <a href="https://twitter.com/agent_tars"><img src="https://img.shields.io/badge/Twitter-Follow%20%40agent__tars-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Official Twitter" /></a>
-    <a href="https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=279h3365-b0fa-407f-89f3-0f96f36cd4d8"><img src="https://img.shields.io/badge/飞书群-加入交流群-00D4AA?style=for-the-badge&logo=lark&logoColor=white" alt="飞书交流群" /></a>
+    <a href="https://applink.larkoffice.com/client/chat/chatter/add_by_link?link_token=deen76f4-ea3c-4964-93a3-78f126f39651"><img src="https://img.shields.io/badge/飞书群-加入交流群-00D4AA?style=for-the-badge&logo=lark&logoColor=white" alt="飞书交流群" /></a>
     <a href="https://deepwiki.com/bytedance/UI-TARS-desktop"><img src="https://img.shields.io/badge/DeepWiki-Ask%20AI-8B5CF6?style=for-the-badge&logo=gitbook&logoColor=white" alt="Ask DeepWiki" /></a>
 </p>
 
 <b>Agent TARS</b> is a general multimodal AI Agent stack, it brings the power of GUI Agent and Vision into your terminal, computer, browser and product. <br> <br>
 It primarily ships with a <a href="https://agent-tars.com/guide/basic/cli.html" target="_blank">CLI</a> and <a href="https://agent-tars.com/guide/basic/web-ui.html" target="_blank">Web UI</a> for usage.
 It aims to provide a workflow that is closer to human-like task completion through cutting-edge multimodal LLMs and seamless integration with various real-world <a href="https://agent-tars.com/guide/basic/mcp.html" target="_blank">MCP</a> tools.
-
 
 ### Showcase
 
@@ -157,7 +157,7 @@ For more use cases, please check out [#842](https://github.com/bytedance/UI-TARS
 <img alt="Agent TARS CLI" src="https://agent-tars.com/agent-tars-cli.png">
 
 ```bash
-# Luanch with `npx`.
+# Launch with `npx`.
 npx @agent-tars/cli@latest
 
 # Install globally, required Node.js >= 22

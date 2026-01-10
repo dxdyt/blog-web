@@ -1,12 +1,13 @@
 ---
 title: netbird
-date: 2025-08-09T12:28:43+08:00
+date: 2026-01-10T12:33:40+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1743841728503-a782fd40e6fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1743841728503-a782fd40e6fd?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTQ3MTM2OTB8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1765204363270-5b43829a84fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1765204363270-5b43829a84fc?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
 ---
 
 # [netbirdio/netbird](https://github.com/netbirdio/netbird)
+
 
 <div align="center">
 <br/>
@@ -62,7 +63,7 @@ featuredImagePreview: https://images.unsplash.com/photo-1743841728503-a782fd40e6
 
 ### Open Source Network Security in a Single Platform
 
-<img width="1188" alt="centralized-network-management 1" src="https://github.com/user-attachments/assets/c28cc8e4-15d2-4d2f-bb97-a6433db39d56" />
+https://github.com/user-attachments/assets/10cec749-bb56-4ab3-97af-4e38850108d2
 
 ### NetBird on Lawrence Systems (Video)
 [![Watch the video](https://img.youtube.com/vi/Kwrff6h0rEw/0.jpg)](https://www.youtube.com/watch?v=Kwrff6h0rEw)
@@ -94,7 +95,7 @@ Follow the [Advanced guide with a custom identity provider](https://docs.netbird
 
 **Infrastructure requirements:**
 - A Linux VM with at least **1CPU** and **2GB** of memory.
-- The VM should be publicly accessible on TCP ports **80** and **443** and UDP ports: **3478**, **49152-65535**.
+- The VM should be publicly accessible on TCP ports **80** and **443** and UDP port: **3478**.
 - **Public domain** name pointing to the VM.
 
 **Software requirements:**
@@ -107,7 +108,7 @@ Follow the [Advanced guide with a custom identity provider](https://docs.netbird
 **Steps**
 - Download and run the installation script:
 ```bash
-export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbirdio/netbird/releases/latest/download/getting-started-with-zitadel.sh | bash
+export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbirdio/netbird/releases/latest/download/getting-started.sh | bash
 ```
 - Once finished, you can manage the resources via `docker-compose`
 
@@ -122,7 +123,7 @@ export NETBIRD_DOMAIN=netbird.example.com; curl -fsSL https://github.com/netbird
 [Coturn](https://github.com/coturn/coturn) is the one that has been successfully used for STUN and TURN in NetBird setups.
 
 <p float="left" align="middle">
-  <img src="https://docs.netbird.io/docs-static/img/architecture/high-level-dia.png" width="700"/>
+  <img src="https://docs.netbird.io/docs-static/img/about-netbird/high-level-dia.png" width="700"/>
 </p>
 
 See a complete [architecture overview](https://docs.netbird.io/about-netbird/how-netbird-works#architecture) for details.

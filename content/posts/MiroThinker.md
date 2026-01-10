@@ -1,9 +1,9 @@
 ---
 title: MiroThinker
-date: 2026-01-09T12:39:54+08:00
+date: 2026-01-10T12:34:01+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1767122374969-82c7acbbb4ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1767122374969-82c7acbbb4ed?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1764416755879-093302077362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1764416755879-093302077362?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
 ---
 
 # [MiroMindAI/MiroThinker](https://github.com/MiroMindAI/MiroThinker)

@@ -1,9 +1,9 @@
 ---
 title: ConvertX
-date: 2025-12-18T12:33:07+08:00
+date: 2026-01-10T12:33:46+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765707885944-99d0f8abe909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765707885944-99d0f8abe909?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjYwMzIzNzh8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767714653229-a30599446f82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767714653229-a30599446f82?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
 ---
 
 # [C4illin/ConvertX](https://github.com/C4illin/ConvertX)
@@ -55,6 +55,7 @@ A self-hosted online file converter. Supports over a thousand different formats.
 | [FFmpeg](https://ffmpeg.org/)                                   | Video            | ~472          | ~199        |
 | [Potrace](https://potrace.sourceforge.net/)                     | Raster to vector | 4             | 11          |
 | [VTracer](https://github.com/visioncortex/vtracer)              | Raster to vector | 8             | 1           |
+| [Markitdown](https://github.com/microsoft/markitdown)           | Documents        | 6             | 1           |
 
 <!-- many ffmpeg fileformats are duplicates -->
 
@@ -136,6 +137,8 @@ The image is available on [GitHub Container Registry](https://github.com/C4illin
 Tutorial in french: <https://belginux.com/installer-convertx-avec-docker/>
 
 Tutorial in chinese: <https://xzllll.com/24092901/>
+
+Tutorial in polish: <https://www.kreatywnyprogramista.pl/convertx-lokalny-konwerter-plikow>
 
 ## Screenshots
 

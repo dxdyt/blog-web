@@ -1,9 +1,9 @@
 ---
 title: ComfyUI-LTXVideo
-date: 2026-01-09T12:41:00+08:00
+date: 2026-01-10T12:33:55+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1765911551844-4fc4c7995421?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1765911551844-4fc4c7995421?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc5MzM1NjN8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767284349315-8baf0161c675?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767284349315-8baf0161c675?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
 ---
 
 # [Lightricks/ComfyUI-LTXVideo](https://github.com/Lightricks/ComfyUI-LTXVideo)

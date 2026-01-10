@@ -1,9 +1,9 @@
 ---
 title: opencode
-date: 2026-01-06T12:38:47+08:00
+date: 2026-01-10T12:34:23+08:00
 draft: False
-featuredImage: https://images.unsplash.com/photo-1764676209354-446dc19217c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc2NzQzMjF8&ixlib=rb-4.1.0
-featuredImagePreview: https://images.unsplash.com/photo-1764676209354-446dc19217c2?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Njc2NzQzMjF8&ixlib=rb-4.1.0
+featuredImage: https://images.unsplash.com/photo-1767163039395-938b39d64ffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
+featuredImagePreview: https://images.unsplash.com/photo-1767163039395-938b39d64ffe?ixid=M3w0NjAwMjJ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NjgwMTk1ODR8&ixlib=rb-4.1.0
 ---
 
 # [anomalyco/opencode](https://github.com/anomalyco/opencode)
@@ -38,7 +38,8 @@ curl -fsSL https://opencode.ai/install | bash
 npm i -g opencode-ai@latest        # or bun/pnpm/yarn
 scoop bucket add extras; scoop install extras/opencode  # Windows
 choco install opencode             # Windows
-brew install opencode              # macOS and Linux
+brew install anomalyco/tap/opencode # macOS and Linux (recommended, always up to date)
+brew install opencode              # macOS and Linux (official brew formula, updated less)
 paru -S opencode-bin               # Arch Linux
 mise use -g opencode               # Any OS
 nix run nixpkgs#opencode           # or github:anomalyco/opencode for latest dev branch
@@ -80,8 +81,7 @@ XDG_BIN_DIR=$HOME/.local/bin curl -fsSL https://opencode.ai/install | bash
 
 ### Agents
 
-OpenCode includes two built-in agents you can switch between,
-you can switch between these using the `Tab` key.
+OpenCode includes two built-in agents you can switch between with the `Tab` key.
 
 - **build** - Default, full access agent for development work
 - **plan** - Read-only agent for analysis and code exploration
@@ -117,10 +117,6 @@ It's very similar to Claude Code in terms of capability. Here are the key differ
 - Out of the box LSP support
 - A focus on TUI. OpenCode is built by neovim users and the creators of [terminal.shop](https://terminal.shop); we are going to push the limits of what's possible in the terminal.
 - A client/server architecture. This for example can allow OpenCode to run on your computer, while you can drive it remotely from a mobile app. Meaning that the TUI frontend is just one of the possible clients.
-
-#### What's the other repo?
-
-The other confusingly named repo has no relation to this one. You can [read the story behind it here](https://x.com/thdxr/status/1933561254481666466).
 
 ---
 
